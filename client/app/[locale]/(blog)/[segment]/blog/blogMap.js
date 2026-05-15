@@ -213,7 +213,13 @@ export const BLOG_MAP = {
     "gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme":"BlogGeciciKapanisSezonKapanisiVeKrizDurumlarindaYerelSeoBilgiGuncelleme",
     "ai-destekli-yerel-arama-sge-ve-otel-isletme-gorunurlugu":"BlogAiDestekliYerelAramaSgeVeOtelIsletmeGorunurlugu",
     "mikro-lokasyon-ve-mahalle-bazli-yerel-seo-stratejisi":"BlogMikroLokasyonVeMahalleBazliYerelSeoStratejisi",
-    "yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar":"BlogYerelSeoVeMesajButonlariWhatsappGoogleMesajlar"
+    "yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar":"BlogYerelSeoVeMesajButonlariWhatsappGoogleMesajlar",
+    "dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin":"BlogDijitalAyakIziVeLocalEEATOtelVeIsletmelerIcin",
+    "yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler":"BlogYeniNesilHaritaDeneyimleri360GorunusVeImmersiveViewOtelVeIsletmeler",
+    "editorial-kalender-ve-icerik-operasyon-sistemi":"BlogEditorialKalenderVeIcerikOperasyonSistemi",
+    "e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir":"BlogEEATVeIcerikUretimiGuvenVeOtoriteNasilGosterilir",
+    "entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim":"BlogEntityVeAnlamsalSEOIcerikteVarlikOdakliYapisalYaklasim",
+    "uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi":"BlogUzunFormVeKisaFormIcerikStratejisiNeZamanHangisi"
   },
 
     smm: {

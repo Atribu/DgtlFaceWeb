@@ -38737,7 +38737,3915 @@
         ]
       }
     }
+  },
+
+  "BlogDijitalAyakIziVeLocalEEATOtelVeIsletmelerIcin": {
+    "title": "Local E-E-A-T: Oteller İçin Güven Sinyalleri",
+    "slug": "dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin",
+    "department": "seo",
+    "subDepartment":"local",
+    "updatedAt": "15 Mayıs 2026",
+    "publishedAt": "2026-05-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve yerel işletmelerde Local E-E-A-T; resmi site, GBP, OTA, sosyal medya, basın, yorum ve marka araması sinyallerinin tutarlı şekilde güçlendirilmesiyle oluşur.",
+    "seo": {
+      "metaTitle": "Local E-E-A-T: Oteller İçin Güven Sinyalleri | DGTLFACE",
+      "metaDescription": "Otel ve yerel işletmelerde Local E-E-A-T: dijital ayak izi (site, GBP, OTA, sosyal, basın), yorum ve marka araması sinyalleri. İlk güçlendirilecek 10 sinyal listesi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #24 — /tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
+      ],
+      "strategySummary": "Bu içerik, Yerel SEO sayfası altında “Local E-E-A-T ve dijital ayak izi” odağında trend child içeriktir; otel ve yerel işletmelerde güven sinyallerinin yalnız site değil, GBP + OTA + basın + sosyal yüzeylerde birlikte oluştuğunu anlatır. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç yüksek fiyatlı/uzun konaklama gibi karar süreçlerinde kullanıcıların çoklu kaynaktan doğrulama yaptığı gerçeğine uygun bir “trust stack” kurmaktır. Funnel’da consideration ağırlıklıdır: kullanıcı “neden güvenilsin?” sorusunu yanıtlar, sonra aksiyon listesiyle dijital ayak izini güçlendirir. SERP hedefi Featured Snippet + PAA olduğu için “E-E-A-T nedir, yerelde ne anlama gelir?” gibi sorular net cevap bloklarıyla işlenir. Ana iş sorusu: “Markamın güven sinyallerini çoklu platformlarda tutarlı hale getirip yerel görünürlüğü nasıl güçlendiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-15",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "E-E-A-T (Deneyim, Uzmanlık, Otorite, Güven) sadece büyük yayıncılar için değil; otel ve yerel işletmeler için de giderek daha önemli hale geliyor. Google ve kullanıcılar, markanın nerede olduğunun yanında ne kadar güvenilir olduğunu; resmi site + Google Business Profile + OTA profilleri + yorumlar + basın içerikleri + sosyal kanıtın tutarlılığı üzerinden birlikte okur. Güçlü bir dijital ayak izi; marka aramasını, dönüşüm niyetini ve yerel görünürlüğü destekleyen güven sinyalleri üretir.",
+      "sgeSummary": "Local E-E-A-T, markanın güvenini çoklu yüzeyde kurmaktır: site+GBP+OTA+sosyal+basın tutarlı olmalı. Yorumlar ve marka aramaları güveni güçlendirir; sinyalleri düzenli denetleyin.",
+      "voiceAnswer": "İnsanlar oteli; yorumlar, OTA puanları, resmi site ve GBP tutarlılığıyla güvenilir bulur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/yerel işletme yöneticileri, ajanslar",
+        "KPI’lar: Marka araması, GBP actions, yorum puanı/tazelik, OTA görünürlüğü, dönüşüm oranı",
+        "Entity’ler: E-E-A-T, hotel, local business, reviews, OTA, brand searches, trust signals",
+        "Funnel: Trust-building → Consideration → Conversion",
+        "GEO: TR (özellikle turizm destinasyonları)",
+        "Teknik not: Sadece site değil, üçüncü parti yansımalar düzenli izlenmeli",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri",
+      "intro": "E-E-A-T kavramı, sadece büyük yayıncılar için değil; otel ve yerel işletmeler için de giderek daha önemli hale geliyor. Özellikle yüksek fiyatlı/uzun konaklama kararlarında kullanıcılar tek bir kaynağa bakmıyor; yorumlar, OTA profilleri, resmî site ve sosyal içerik kombinasyonuyla güven oluşturuyor. Kullanıcı araştırmalarında, karar öncesinde ortalama 2–4 farklı kaynağa bakıldığı ve tek kanallı, zayıf dijital ayak izine sahip markaların güven algısının daha düşük olduğu raporlanıyor (kesin rakam iddiası değil, araştırma bulgusu olarak). Bu nedenle Local E-E-A-T; “siteyi güzelleştir” değil, çoklu yüzeyde tutarlı marka gerçekliği kurmaktır.",
+      "quickSummary": [
+        "1) Local E-E-A-T’yi site dışı güven yüzeyleriyle birlikte okuyun",
+        "2) Site + GBP + OTA + sosyal + basın ayak izi haritası çıkarın",
+        "3) NAP, yorum, fotoğraf ve OTA tutarlılığını ilk sinyal seti olarak güçlendirin",
+        "4) Marka araması ve yorum yönetimini reputation-led KPI paneline bağlayın",
+        "5) Üçüncü parti marka yansımalarını düzenli izleyin"
+      ],
+      "ctaPrimary": {
+        "label": "Local E-E-A-T & Dijital Ayak İzi Analizi Talep Et",
+        "text": "Site+GBP+OTA+sosyal+basın tutarlılığını ölçüp “ilk 10 sinyal” aksiyon planını çıkarın.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Local E-E-A-T & Dijital Ayak İzi Analizi Talep Et",
+        "text": "Çoklu yüzeyde tutarlılığı ölçüp “en kritik 10 sinyal” aksiyon planını çıkarın.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Local E-E-A-T Sinyalleri Kontrol Listesini İndir",
+        "text": "Güven sinyallerini tek listede toplayıp 30 dakikada hangi yüzeyde neyi güçlendireceğinizi netleştirirsiniz.",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+      }
+    ],
+    "sections": [
+      {
+        "id": "e-e-a-t-nedir-yerel-isletmeler-icin-ne-anlama-gelir",
+        "title": "E-E-A-T nedir, yerel işletmeler için ne anlama gelir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "E-E-A-T; bir markanın deneyim, uzmanlık, otorite ve güven algısını güçlendiren sinyaller bütünüdür. Yerel işletmelerde bu, yalnız içerik kalitesi değil; işletmenin gerçekliği ve tutarlılığıdır: doğru NAP, gerçek yorumlar, OTA profilleri, basın/ödül referansları, görsel kanıt ve şeffaf bilgi."
+          },
+          {
+            "type": "h3",
+            "text": "Yerelde E-E-A-T nasıl okunur? (4 katman)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Experience: gerçek deneyim kanıtı (foto/video, UGC, case, hikâye)",
+              "Expertise: uzman/yönetici imzası, süreç anlatımı, SSS netliği",
+              "Authoritativeness: OTA/basın/dernek/ödül yansımaları",
+              "Trust: NAP tutarlılığı, yorum yönetimi, politika/şeffaflık"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Local E-E-A-T temeli)",
+            "items": [
+              "NAP site↔GBP↔OTA tutarlı mı?",
+              "Yorumlar güncel ve yanıtlanıyor mu?",
+              "Dış kaynaklarda (OTA/basın) marka yansıması var mı?",
+              "Resmi site “gerçeklik” kanıtı sunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Tek kaynak” değil “çoklu yüzey” haritası çıkarın (aşağıda).",
+              "En zayıf halkayı bulun: yorum mu, OTA mı, site mi?",
+              "30 gün içinde ilk 10 güven sinyalini güçlendirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dijital-ayak-izi-nedir",
+        "title": "Dijital ayak izi nedir? (site + GBP + OTA + sosyal + basın haritası)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dijital ayak izi, markanın internette bıraktığı toplam izdir: resmî site, GBP, OTA profilleri, sosyal hesaplar, basın haberleri, blog/rehber içerikleri. Yerel E-E-A-T’nin farkı; bu izlerin birbirini doğrulamasıdır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Ayak izi haritasını nasıl çıkarırsınız?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Merkez: marka adı (tek standart)",
+              "Kollar: site / GBP / Booking-Expedia vb. / Instagram-TikTok / basın",
+              "Her kol için: NAP, link, görsel, yorum, mesaj dili"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Ayak izi haritası)",
+            "items": [
+              "Tüm platform linkleri listelendi mi?",
+              "Adres/telefon her yerde aynı mı?",
+              "Görsel/ton/konsept tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "NAP master dokümanı oluşturun ve her yere uygulayın.",
+              "Sosyal bio linklerini doğru landing’e bağlayın.",
+              "Basın/ödül sayfasını resmî sitede derleyin (Varsayım: varsa)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otelim-icin-hangi-guven-sinyalleri-onemli",
+        "title": "Otelim için hangi güven sinyalleri önemli? (10 sinyal listesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SXO gereksinimi gereği uygulanabilir liste:"
+          },
+          {
+            "type": "h3",
+            "text": "İlk güçlendirilecek 10 sinyal"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "GBP doğruluğu (adres/pin/saat/telefon)",
+              "Yorum tazeliği + yanıt SLA (24–72 saat)",
+              "Fotoğraf seti kalitesi ve mevsimsel güncelleme",
+              "OTA profil tutarlılığı (isim, konsept, görsel)",
+              "Resmî sitede şeffaf bilgi (iletişim, politikalar, SSS)",
+              "Yerel landing mimarisi (bölge+konsept)",
+              "Basın/ödül/sertifika referansları (varsa)",
+              "Yönetici/uzman imzalı içerikler (experience/expertise)",
+              "Marka araması ve sosyal kanıt (UGC, lokasyon etiketi)",
+              "Schema (Hotel/FAQ/Review — görünen veriyle) (Varsayım: teknik)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Local E-E-A-T Sinyal Tablosu",
+            "headers": [
+              "Sinyal",
+              "Yüzey",
+              "Nasıl güçlenir?",
+              "KPI",
+              "Not"
+            ],
+            "rows": [
+              [
+                "NAP tutarlılığı",
+                "Site / GBP / OTA",
+                "Tek master bilgi dokümanı oluşturulup tüm yüzeylere uygulanır",
+                "Adres/telefon eşleşme oranı",
+                "Yerel güvenin temel katmanıdır"
+              ],
+              [
+                "Yorum tazeliği",
+                "GBP / OTA",
+                "Yorum alma akışı ve 24–72 saat yanıt SLA’i kurulur",
+                "Yorum sayısı, puan, yanıt oranı",
+                "Reputation sinyalini canlı tutar"
+              ],
+              [
+                "Fotoğraf kalitesi",
+                "GBP / OTA / Site / Sosyal",
+                "Mevsimsel oda, konsept ve deneyim fotoğrafları güncellenir",
+                "Foto görüntülenme, etkileşim",
+                "Experience kanıtını güçlendirir"
+              ],
+              [
+                "OTA profil tutarlılığı",
+                "OTA",
+                "İsim, konsept, görsel, açıklama ve linkler standardize edilir",
+                "OTA görünürlüğü, dönüşüm oranı",
+                "Kullanıcı teyidini kolaylaştırır"
+              ],
+              [
+                "Şeffaf bilgi",
+                "Site",
+                "İletişim, politikalar, SSS ve süreç bilgileri netleştirilir",
+                "Sayfa etkileşimi, dönüşüm oranı",
+                "Trust katmanını güçlendirir"
+              ],
+              [
+                "Basın/ödül referansları",
+                "Basın / Site",
+                "Var olan referanslar güven sayfasında derlenir",
+                "Referral trafik, marka araması",
+                "Varsa otorite yüzeyi oluşturur"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (10 sinyal)",
+            "items": [
+              "İlk 3 sinyal (GBP+yorum+foto) güçlü mü?",
+              "OTA ile site mesajı çelişiyor mu?",
+              "Basın/ödül varsa siteye bağlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk hafta: GBP + yorum + foto hijyeni.",
+              "İlk ay: OTA tutarlılığı + site SSS/politika + landing.",
+              "İlk 90 gün: basın/PR + uzman içerik + schema."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Local E-E-A-T Sinyalleri Kontrol Listesini İndir",
+            "text": "Güven sinyallerini tek listede toplayıp 30 dakikada hangi yüzeyde neyi güçlendireceğinizi netleştirirsiniz.",
+            "href": "/raporlama/benchmark-analizi"
+          }
+        ]
+      },
+      {
+        "id": "ota-ve-basin-haberleri-yerel-seoya-nasil-etki-eder",
+        "title": "OTA ve basın haberleri yerel SEO’ya nasıl etki eder? (dolaylı otorite)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "OTA ve basın, yerelde “otorite yüzeyi”dir. Google’ın doğrudan “şu OTA puanı şu kadar” diye sıralama verdiğini varsaymak doğru değil; ama kullanıcı davranışı ve marka talebi üzerinden etkisi vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Güven artar → marka araması artabilir",
+              "Tıklama/rezervasyon niyeti artar",
+              "Yerel görünürlükte “seçilebilirlik” yükselir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Dış kaynaklar)",
+            "items": [
+              "OTA profillerinde isim/konsept/telefon tutarlı mı?",
+              "Basın içerikleri güncel mi, erişilebilir mi?",
+              "Bu kaynaklara site içinde referans var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "OTA profillerini “NAP hijyeni” ile standardize edin.",
+              "Basın/ödülleri tek bir “Güven” sayfasında toplayın (Varsayım).",
+              "Basın içeriklerini PR/link stratejisiyle güçlendirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marka-aramalari-ve-yorumlar-eeatyi-nasil-guclendirir",
+        "title": "Marka aramaları ve yorumlar E-E-A-T’yi nasıl güçlendirir? (reputation-led yaklaşım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel E-E-A-T’nin kalbinde “reputation” vardır: yorumlar, yanıt tonu, tazelik ve marka araması. Kullanıcı bir oteli seçmeden önce Google’da marka adını arar; yorumları okur; OTA’da teyit eder; sosyalde bakar. Bu yüzden yorum yönetimi ve “brand demand” aynı stratejinin parçasıdır."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Reputation)",
+            "items": [
+              "Son 30–90 gün yorum ritmi var mı?",
+              "Yanıt tonu tutarlı mı?",
+              "Marka arama trendi izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yorum alma akışını sezon boyunca sürdürün.",
+              "Olumsuz yorumlara “empati+çözüm+iletişim” iskeletiyle yanıt verin.",
+              "Branded search trendini KPI paneline ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "local-eeat-sinyalleri-kontrol-listesi",
+        "title": "Local E-E-A-T Sinyalleri Kontrol Listesini İndir — SEO / Trust",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Local E-E-A-T Sinyalleri Kontrol Listesini İndir — SEO / Trust (v1.0)",
+            "purpose": "Bu checklist; otel ve yerel işletmelerde Local E-E-A-T’yi oluşturan sinyalleri (site, GBP, OTA, sosyal, basın) tek listede toplar ve her sinyali ölçülebilir KPI’larla eşler. 14 günlük sprint planıyla en hızlı güven kazanımlarını (GBP/yorum/foto/OTA tutarlılığı) uygular, ardından 90 günlük genişleme planına bağlar. Sonuç: çoklu yüzeyde daha güçlü, tutarlı bir dijital ayak izi.",
+            "whoFor": "Otel pazarlama ekibi, ajans SEO/PR ekibi, GM/operasyon.",
+            "steps": [
+              "Checklist’i doldurup zayıf yüzeyleri işaretleyin.",
+              "14 günlük sprintte ilk 10 sinyali güçlendirin.",
+              "30–90 gün KPI takibiyle iterasyon yapın."
+            ],
+            "checklist": [
+              "NAP tutarlılığı (site↔GBP↔OTA) kontrol edildi",
+              "GBP güncellik (saat/telefon/pin) doğru",
+              "Yorum tazeliği ve yanıt SLA (24–72 saat) var",
+              "Fotoğraf seti (kapak/oda/konsept) güncel",
+              "OTA profilleri (isim/konsept/link) tutarlı",
+              "Sosyal bio link/adres doğru",
+              "Basın/ödül/sertifika sayfası (varsa) siteye eklendi",
+              "Uzman/yönetici imzalı içerik (varsa) planlandı",
+              "Schema temel seti (Hotel/FAQ — görünen veriyle) kontrol edildi (Varsayım)",
+              "Branded search trendi izleniyor"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: NAP master + tüm yüzey listesi",
+              "Gün 3–4: GBP hijyen + pin/saat/telefon",
+              "Gün 5–6: Foto seti güncelle",
+              "Gün 7–8: Yorum SOP + yanıt şablonu",
+              "Gün 9–10: OTA tutarlılık düzeltmeleri",
+              "Gün 11–12: Sosyal bio/link standardı",
+              "Gün 13–14: KPI baseline + 30 gün takip planı"
+            ],
+            "deliverables": [
+              "Dijital ayak izi haritası",
+              "NAP master dokümanı",
+              "Yorum + foto SOP",
+              "OTA/sosyal tutarlılık raporu",
+              "KPI takip tablosu"
+            ],
+            "href": "/downloads/local-e-e-a-t-sinyalleri-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-ucuncu-parti-marka-yansimalarini-duzenli-izleyin",
+        "title": "Teknik not: Üçüncü parti marka yansımalarını düzenli izleyin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sadece kendi sitemizdeki içeriklere değil, üçüncü parti platformlardaki (OTA, basın, blog) marka yansımalarına da düzenli bakmak gerekir. Çünkü kullanıcı güveni bu yüzeylerde kurulur; çelişki ve tutarsızlık güveni hızla kırar."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Local E-E-A-T & Dijital Ayak İzi Analizi Talep Et",
+            "text": "Çoklu yüzeyde tutarlılığı ölçüp “en kritik 10 sinyal” aksiyon planını çıkarın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "E-E-A-T nedir, yerel işletmeler için ne anlama gelir?",
+        "a": "Deneyim, uzmanlık, otorite ve güven sinyalleridir. Yerelde bu; NAP tutarlılığı, yorumlar, OTA/basın yansımaları ve resmi sitenin şeffaflığıyla okunur."
+      },
+      {
+        "q": "Otelim için hangi güven sinyalleri önemli?",
+        "a": "GBP doğruluğu, yorum tazeliği/yanıt, fotoğraf kalitesi, OTA profil tutarlılığı, SSS/politikalar, basın/ödül (varsa) ve marka araması temel seti oluşturur."
+      },
+      {
+        "q": "OTA ve basın haberleri yerel SEO’ya nasıl etki eder?",
+        "a": "Doğrudan sıralama düğmesi gibi değil; güven ve marka talebi üzerinden dolaylı etki yaratır. Kullanıcı kararını hızlandırır ve dönüşüm niyetini artırabilir."
+      },
+      {
+        "q": "Marka aramaları ve yorumlar E-E-A-T’yi nasıl güçlendirir?",
+        "a": "Düzenli ve yüksek kaliteli yorumlar, hızlı yanıtlar ve artan marka araması; güven sinyallerini ve yerel seçilebilirliği güçlendirir."
+      },
+      {
+        "q": "Dijital ayak izi nasıl güçlendirilir?",
+        "a": "Site+GBP+OTA+sosyal+basın yüzeylerinde NAP ve mesajı tutarlı hale getirip, foto/yorum/kanıt içeriklerini düzenli güncelleyerek."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-hero-01.webp — Dijital ayak izi haritası kapak",
+          "h1-context — 1920×1080 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-h1-context-02.webp — Local E-E-A-T sinyal tablosu mockup",
+          "divider-01 — 1600×1200 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-divider-03.webp — E-E-A-T giriş ayraç",
+          "divider-02 — 1600×1200 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-divider-04.webp — Dış kaynaklar/OTA/basın bölümüne geçiş ayraç",
+          "diagram-05 — 1920×1080 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-diagram-05.webp — Dijital ayak izi harita diyagramı",
+          "checklist-06 — 1200×1200 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-checklist-06.webp — İlk 10 güven sinyali checklist kartı",
+          "kpi-07 — 1200×1200 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-kpi-07.webp — Trust KPI kartı",
+          "proof-08 — 1200×1200 — dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin-proof-08.webp — Denetim raporu deliverables kartı",
+          "table-local-e-e-a-t-signals — Local E-E-A-T Sinyal Tablosu: Sinyal | Yüzey (site/GBP/OTA/basın/sosyal) | Nasıl güçlenir? | KPI | Not",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema temel seti (Hotel/FAQ — görünen veriyle) kontrol edildi (Varsayım)",
+          "NAP master dokümanı oluşturuldu",
+          "Site↔GBP↔OTA NAP tutarlılığı kontrol edildi",
+          "GBP güncellik (saat/telefon/pin) doğrulandı",
+          "Yorum tazeliği ve yanıt SLA (24–72 saat) tanımlandı",
+          "Fotoğraf seti (kapak/oda/konsept) güncellendi",
+          "OTA profilleri (isim/konsept/link) tutarlı hale getirildi",
+          "Sosyal bio link/adres kontrol edildi",
+          "Basın/ödül/sertifika sayfası (varsa) siteye eklendi",
+          "Branded search trendi KPI paneline eklendi"
+        ]
+      }
+    }
+  },
+
+   "BlogYeniNesilHaritaDeneyimleri360GorunusVeImmersiveViewOtelVeIsletmeler": {
+    "title": "Otel İçin 360° ve Immersive Harita Deneyimi",
+    "slug": "yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler",
+    "department": "seo",
+    "subdepartment":"",
+    "updatedAt": "15 Mayıs 2026",
+    "publishedAt": "2026-05-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "360° fotoğraf, Street View ve immersive harita deneyimleriyle otel ve yerel işletme vitrininizi güçlendirin. GBP + site entegrasyonu, çekim hazırlığı ve KPI takibiyle ölçülebilir harita deneyimi kurun.",
+    "seo": {
+      "metaTitle": "Otel İçin 360° ve Immersive Harita Deneyimi | DGTLFACE",
+      "metaDescription": "360° fotoğraf, Street View ve immersive harita deneyimleriyle otel/işletme vitrininizi güçlendirin. GBP + site entegrasyonu, çekim hazırlığı checklist’i ve etkileşim KPI’larıyla ölçün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog No / URL: Blog #25 — /tr/seo/blog/yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler"
+      ],
+      "strategySummary": "Bu içerik, Yerel SEO sayfası altında “map UX ve görsel karar desteği” odağında trend child içeriktir; 360°/Street View/immersive deneyimlerin yerel görünürlükte “ranking hack” değil, seçilebilirlik (CTR, etkileşim, rezervasyon niyeti) artıran vitrin unsurları olduğunu çerçeveler. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç otelin “mekânı hissettiren” kanıtını harita kartı ve site üzerinde doğru konumlandırıp ölçülebilir etkiye bağlamaktır. Funnel’da awareness → consideration → conversion köprüsündedir: kullanıcı haritada keşfeder → 360/immersive ile ikna olur → arar/rota ister/rezervasyon yapar. SERP hedefi Featured Snippet + PAA olduğu için “360 yerel SEO’yu etkiler mi?” ve “nereden başlamalıyım?” soru bloklarıyla net yanıtlar verilir. Ana iş sorusu: “360° ve immersive harita vitriniyle, rakiplerden karar anında nasıl ayrışırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-15",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "360° fotoğraflar, Street View ve immersive harita deneyimleri; yerel SEO’da doğrudan “ranking faktörü” gibi çalışmasa da kullanıcıların kararını güçlü biçimde etkileyen görsel kanıt katmanıdır. Otellerde oda, lobby, restoran, havuz gibi alanların 360° görünmesi; güveni, etkileşimi ve rezervasyon niyetini artırabilir. En iyi yaklaşım; 360 içerikleri GBP ve site üzerinde doğru noktaya koymak, çekim öncesi kalite standardı uygulamak ve fotoğraf görüntüleme → site tıklaması → rota/arama gibi KPI’larla ölçmektir.",
+      "sgeSummary": "360° ve immersive harita deneyimleri sıralamadan çok “seçilebilirlik” sağlar. GBP ve sitede doğru konumlandırın, çekim hazırlığı yapın, etkileşim KPI’larıyla ölçüp optimize edin.",
+      "voiceAnswer": "Evet, değerlidir; 360° içerik otelinizi “hissettirir”, etkileşimi artırır ve karar süresini kısaltır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/yerel işletme yöneticileri, ajanslar",
+        "KPI’lar: fotoğraf/360 görüntüleme, GBP actions (web/call/rota), site tıklaması, rezervasyon lead’i",
+        "Entity’ler: 360 photos, Street View, immersive view, virtual tours, hotel, local business",
+        "Funnel: Visual discovery → trust → action (call/booking)",
+        "GEO: TR’de otel ve destinasyon odaklı kararlar (doğal)",
+        "Teknik: çekim kalitesi + marka bütünlüğü + doğru yerleşim",
+        "SERP hedefi: Featured Snippet + PAA + Voice"
+      ]
+    },
+    "h1": {
+      "title": "Yeni Nesil Harita Deneyimleri: 360° Görünüş ve Immersive View Otel ve Yerel İşletmeler İçin Ne İfade Ediyor?",
+      "intro": "Yeni nesil harita deneyimleri, kullanıcıların otel ve işletmeleri sadece bir pin ve birkaç fotoğrafla değil; 360° görüntüler ve “içeri gir” hissi veren harita turlarıyla keşfetmesine olanak tanıyor. Bu deneyimler doğrudan “ranking faktörü” olmasa bile, tıklama oranı, etkileşim ve rezervasyon kararlarını belirgin biçimde etkileyebiliyor. Vaka paylaşımlarında, 360°/sanal tur kullanan profillerin statik fotoğraflara kıyasla fotoğraf görüntüleme, site tıklaması ve rota isteme gibi kart etkileşimlerinde artışlar gösterdiği sıkça aktarılıyor (kesin rakam iddiası olmadan). Bu yazıda hedefimiz: 360° ve immersive vitrini doğru kurgulayıp “karar anında” ayrışmak.",
+      "quickSummary": [
+        "1) 360° ve immersive deneyimi ranking hack değil, seçilebilirlik katmanı olarak konumlandırın",
+        "2) Önce GBP fotoğraf seti, pin, NAP ve temel harita hijyenini tamamlayın",
+        "3) Oda, lobby, restoran, havuz/plaj gibi karar sahnelerini önceliklendirin",
+        "4) Sanal turu GBP’de keşif, sitede rezervasyon kararına yakın noktada kullanın",
+        "5) Foto/360 görüntüleme, GBP actions ve 360→CTA etkileşimini 30 gün öncesi/sonrası ölçün"
+      ],
+      "ctaPrimary": {
+        "label": "360° & Immersive Harita Deneyimi Analizi Talep Et",
+        "text": "360 içerik planını, GBP + site entegrasyonunu ve ölçüm KPI’larını tek planda netleştirin.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "360° & Immersive Harita Deneyimi Analizi Talep Et",
+        "text": "360 vitrinini ölçülebilir funnel’a çevirip karar sürecinde rakiplerden ayrışın.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "360° Çekim & Sanal Tur Planlama Şablonunu İndir",
+        "text": "Çekim sahnelerini, hazırlık listesini ve GBP+site entegrasyon adımlarını tek şablonda toplayıp 30 dakikada planlarsınız.",
+        "href": "/creative/video-produksiyon"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO hizmet sayfası",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "title": "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri",
+        "href": "/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
+      }
+    ],
+    "sections": [
+      {
+        "id": "360-fotograf-ve-sanal-tur-yerel-seoyu-etkiler-mi",
+        "title": "360° fotoğraf ve sanal tur yerel SEO’yu etkiler mi?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "360° fotoğraf ve sanal tur, yerel sıralamayı “doğrudan” bir düğme gibi artırmaz; fakat seçilebilirliği artırır: kullanıcı daha çok bakar, daha çok etkileşir, daha hızlı karar verir. Bu da harita kartında fotoğraf görüntüleme → site tıklaması → rota/arama gibi aksiyonların artmasına yardımcı olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Etkisi nerede güçlü olur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel gibi “mekânı görmek” isteyen kategorilerde",
+              "Yüksek fiyatlı/uzun karar döngüsünde",
+              "Rakiplerin fotoğraf seti zayıfken (vitrin farkı büyür)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Beklenti yönetimi)",
+            "items": [
+              "360’ı “ranking hack” diye mi görüyorsunuz? (yanlış)",
+              "360’ı “UX + dönüşüm” diye mi konumluyorsunuz? (doğru)",
+              "Etkiyi KPI ile ölçmeyi planlıyor musunuz? (şart)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce “minimum statik set”i güçlendirin, sonra 360’a geçin (bütçe verimliliği).",
+              "360 içerikleri “oda+lobbi+konsept” üçlüsüne odaklayın.",
+              "GBP ve site üzerinde doğru yerleşim planı yapın.",
+              "30 gün KPI baseline → 30 gün sonrası kıyas kurun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otelim-icin-street-view-360-cekimi-yaptirmali-miyim",
+        "title": "Otelim için Street View/360 çekimi yaptırmalı mıyım? (fayda–risk dengesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu karar, “herkes yapıyor mu?” değil; “bizim satış modelimiz ve rakip farkımız ne?” sorusuyla verilmeli."
+          },
+          {
+            "type": "h3",
+            "text": "Ne zaman “evet” daha mantıklı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dışarıdan gelen misafirin “giriş/çevre” belirsizliği varsa (Street View faydası)",
+              "Oda/konsept farkı güçlü ama fotoğrafta anlatılamıyorsa (360 faydası)",
+              "Dış misafir trafiği olan alanlar varsa (restoran/spa/beach club)",
+              "Yüksek rekabetli destinasyonda “vitrin farklılaşması” gerekiyorsa"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne zaman “önce temel” daha mantıklı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP fotoğraf seti zayıf/eksikse",
+              "NAP/duplicate/pin sorunları varsa (önce hijyen)",
+              "Site mobil hız/CTA problemleri dönüşümü öldürüyorsa (önce SXO)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Öncelik)",
+            "items": [
+              "Fotoğraf setiniz güncel mi?",
+              "Harita kartı dönüşüm aksiyonları (call/rota/web) ölçülüyor mu?",
+              "Rakiplerin 360/sanal tur kullanımı var mı? (benchmark)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Benchmark: ilk 10 rakipte 360 var mı?",
+              "360’a geçmeden önce “hijyen sprinti”: foto+yorum+pin kontrol.",
+              "Çekim hedefini netleştirin: “oda satışı mı, beach club rezervasyonu mu?”"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "immersive-view-tarzi-deneyimler-rezervasyon-kararini-nasil-etkiler",
+        "title": "Immersive view tarzı deneyimler rezervasyon kararını nasıl etkiler? (Map UX)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Immersive deneyimler, kullanıcının “mekânı zihninde canlandırma” ihtiyacını karşılar. Otellerde karar, çoğu zaman şu sorularla şekillenir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Otel gerçekten nasıl görünüyor?”",
+              "“Giriş ve çevre güven veriyor mu?”",
+              "“Konsept (lobby/restaurant/havuz) beklentime uyuyor mu?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Immersive/360 içerik, bu soruları daha hızlı cevaplar. Bu hız, kullanıcıyı rakip kartlara daha az zıplatır ve “rezervasyon niyeti”ni yoğunlaştırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Karar sürtünmesi)",
+            "items": [
+              "Kullanıcı en çok hangi belirsizlikte kalıyor? (oda mı, çevre mi, konsept mi?)",
+              "360 içerik bu belirsizliği azaltıyor mu?",
+              "360 sonrası CTA (rezervasyon/ara) net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "360’ı “güven ve belirsizlik giderme” hedefiyle kurgulayın.",
+              "360’ı site’de rezervasyon CTA’sına yakın konumlandırın (aşağıda).",
+              "“Giriş/çevre” için Street View yönünü doğru seçin (Varsayım: sağlayıcıyla plan)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sanal-turu-site-ve-gbpde-nereye-koymaliyim",
+        "title": "Sanal turu site ve GBP’de nereye koymalıyım?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Kısa cevap"
+          },
+          {
+            "type": "p",
+            "text": "Sanal turu iki yerde konumlandırın:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "GBP/Harita vitrininde (keşif ve ilk güven)",
+              "Sitede (rezervasyon kararının hemen öncesi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Site yerleşimi (otel için öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana otel sayfasında “oda/konsept” bölümünün üstünde kısa bir 360 teaser",
+              "Oda tipi sayfalarında ilgili oda 360’ı",
+              "“Konsept” sayfalarında (spa/restoran/beach club) ayrı 360 blok",
+              "Rezervasyon CTA’sı ile aynı ekranda: “gör → karar ver → rezervasyon”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "GBP yerleşimi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapak ve ilk foto seti güçlü olmalı",
+              "360 içerik, statik foto setini tamamlayan “ikinci katman”",
+              "Q&A/SSS’de “sanal tur” linki yönlendirmesi (Varsayım: uygun)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 360/Sanal Tur Entegrasyon Tablosu",
+            "headers": [
+              "Sahne",
+              "Amaç",
+              "Çekim Notu",
+              "Nerede kullanılır (GBP/Site)",
+              "CTA"
+            ],
+            "rows": [
+              [
+                "Giriş/Dış cephe",
+                "Güven/konum",
+                "Giriş, tabela ve çevre net görünmeli",
+                "GBP + Site",
+                "Rota"
+              ],
+              [
+                "Lobby",
+                "İlk izlenim",
+                "Karşılama alanı, ışık ve marka atmosferi güçlü olmalı",
+                "Site",
+                "Rezervasyon"
+              ],
+              [
+                "Oda tipi 1",
+                "Karar",
+                "En çok satılan oda tipi gerçek kullanım hissiyle gösterilmeli",
+                "Site (oda sayfası)",
+                "Rezervasyon"
+              ],
+              [
+                "Restoran",
+                "Deneyim",
+                "Masa düzeni, atmosfer ve servis alanı net olmalı",
+                "GBP + Site",
+                "Masa"
+              ],
+              [
+                "Havuz/Plaj",
+                "Konsept",
+                "Konsept, genişlik ve kullanım alanı doğru yansıtılmalı",
+                "GBP + Site",
+                "Rezervasyon"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Yerleşim)",
+            "items": [
+              "360 içeriğe erişim 1–2 tık mı?",
+              "360 sonrası CTA var mı?",
+              "360 içeriğin adı/etiketi anlaşılır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sitede 360’ı “çok aşağıya” gömmeyin; karar anına yakın tutun.",
+              "GBP’de önce güçlü statik seti kurun, 360’ı destek katman yapın.",
+              "Rezervasyon ekibi/CRM ile “360’dan gelen” kullanıcıyı etiketleyin (Varsayım: ölçüm)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "360° Çekim & Sanal Tur Planlama Şablonunu İndir",
+            "text": "Çekim sahnelerini, hazırlık listesini ve GBP+site entegrasyon adımlarını 30 dakikada planlarsınız.",
+            "href": "/creative/video-produksiyon"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-isletmeler-icin-yeni-nesil-harita-vitrini-sahne-secimi",
+        "title": "Otel ve işletmeler için yeni nesil harita vitrini: sahne seçimi (ne çekilmeli?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "360 çekimde en kritik karar “ne çekilecek?” sorusudur. Her şeyi çekmek yerine, karar anını taşıyan sahneleri seçmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için önerilen sahneler (çekirdek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Giriş/dış cephe (konum güveni)",
+              "Lobby (ilk izlenim)",
+              "En çok satılan oda tipi (karar)",
+              "Havuz/plaj (konsept)",
+              "Restoran/kahvaltı (deneyim)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Alt işletmeler (varsa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Spa (dış misafir/rezervasyon)",
+              "Beach club (konsept + kalabalık yönetimi algısı)",
+              "Özel restoran/roof (premium karar)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Sahne seti)",
+            "items": [
+              "En çok satılan oda tipi çekimde var mı?",
+              "Konsepti taşıyan 2–3 alan var mı?",
+              "“Giriş/çevre” belirsizliği gideriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "5–8 sahne ile başlayın; performansa göre genişletin.",
+              "Her sahnenin hedefini yazın (güven/konsept/konfor).",
+              "Sahne başına 1 CTA eşleştirin (oda rezervasyon, restoran rezervasyon vb.)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cekim-oncesi-hazirlik-checklisti",
+        "title": "Çekim öncesi hazırlık checklist’i (Teknik not: kaliteyi belirler)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği: Çekim öncesinde mekânın düzenlenmesi, ışık ve marka bütünlüğü gibi unsurlar UX kadar fotoğraf kalitesine etki eder. 360 çekimde “küçük dağınıklıklar” bile çok daha görünür olur."
+          },
+          {
+            "type": "h3",
+            "text": "Çekim öncesi hazırlık (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alan düzeni: dağınıklık yok, marka detayları tutarlı",
+              "Işık: mümkünse doğal ışık, karanlık köşe yok",
+              "Personel/konuk: gizlilik ve izin yönetimi (Varsayım)",
+              "Tabela/yonlendirme: giriş doğru, yön bulma kolay",
+              "Mevsimsel gerçeklik: sezon dışı görüntüyle sezon satışı yapmamak"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Hazırlık)",
+            "items": [
+              "Alanlar “gerçek” haliyle iyi mi?",
+              "Işık ve renk tutarlı mı?",
+              "Marka unsurları (logo, konsept) doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Çekimi “sezon başı vitrin yenileme” sprintine bağlayın.",
+              "Uygunsuz/yanıltıcı sahnelerden kaçının (güven riski).",
+              "Çekim sonrası: GBP + site yerleşimini aynı hafta yapın (momentum kaybetmeyin)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "olcum-360-icerik-gercekten-ise-yariyor-mu",
+        "title": "Ölçüm: 360 içerik gerçekten işe yarıyor mu? (KPI seti)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "360/sanal tur yatırımını savunmanın yolu ölçümdür. En pratik KPI seti:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP fotoğraf/360 görüntüleme trendi (Varsayım: panel)",
+              "GBP actions: web click / call / directions",
+              "Site: 360 izleme → rezervasyon CTA tıklaması (event tracking) (Varsayım)",
+              "Dönüşüm: rezervasyon/lead ve “konsept sayfası” etkileşimi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: 360 İçerik KPI Takip Tablosu",
+            "headers": [
+              "KPI",
+              "Baseline",
+              "30 gün",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Foto/360 görüntüleme",
+                "TBD",
+                "TBD",
+                "Trend"
+              ],
+              [
+                "GBP web click",
+                "TBD",
+                "TBD",
+                "Etki"
+              ],
+              [
+                "GBP directions",
+                "TBD",
+                "TBD",
+                "Etki"
+              ],
+              [
+                "Landing dönüşüm",
+                "TBD",
+                "TBD",
+                "Etki"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Ölçüm altyapısı)",
+            "items": [
+              "360 izleme olayı GA4’te var mı?",
+              "GBP actions KPI paneline giriyor mu?",
+              "30 gün öncesi/sonrası kıyas planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "30 gün baseline → 30 gün sonrası kıyas.",
+              "En çok dönüşüm getiren sahneyi belirleyip öncelik verin.",
+              "Gerekirse landing/CTA yerleşimini yeniden düzenleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "360° & Immersive Harita Deneyimi Analizi Talep Et",
+            "text": "360 vitrinini ölçülebilir funnel’a çevirip karar sürecinde rakiplerden ayrışın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "360-cekim-ve-sanal-tur-planlama-sablonu",
+        "title": "360° Çekim & Sanal Tur Planlama Şablonunu İndir — Creative/Map UX",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "360° Çekim & Sanal Tur Planlama Şablonunu İndir — Creative/Map UX (v1.0)",
+            "purpose": "Bu şablon; otel/işletme için 360° çekim sahnelerini (oda/lobby/restoran/havuz), çekim öncesi hazırlık checklist’ini ve GBP + site entegrasyon adımlarını tek planda toplar. Ayrıca “360 içerik → etkileşim → rezervasyon” KPI setini tanımlar; böylece yatırımın etkisi ölçülebilir hale gelir. Sonuç: dağınık çekim yerine, karar anını taşıyan sahnelerle zenginleşen bir harita vitrini.",
+            "whoFor": "Otel pazarlama ekibi, ajans creative/video ekibi, SEO/performans ekibi.",
+            "steps": [
+              "Sahneleri seçin ve her sahneye bir “amaç + CTA” atayın.",
+              "Çekim öncesi hazırlığı tamamlayın (ışık/düzen/marka).",
+              "GBP + site entegrasyonunu yapıp 30 gün KPI kıyası çalıştırın."
+            ],
+            "templateFields": [
+              "Sahne Planı",
+              "Çekim Öncesi Hazırlık Checklist’i",
+              "Entegrasyon Planı",
+              "KPI Takip Tablosu"
+            ],
+            "checklist": [
+              "Alan düzeni ve temizlik tamam",
+              "Işık planı (karanlık köşe yok)",
+              "Marka bütünlüğü (logo/konsept) tutarlı",
+              "Gizlilik/izin yönetimi (Varsayım)",
+              "Sezon gerçekliği (yanıltıcı sahne yok)"
+            ],
+            "integrationPlan": [
+              "GBP: kapak + foto seti + 360 bağlantı",
+              "Site: ana sayfa/oda sayfası/konsept sayfası 360 blok",
+              "CTA: rezervasyon linki / ara / rota"
+            ],
+            "href": "/downloads/360-cekim-ve-sanal-tur-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "360° fotoğraf ve sanal tur yerel SEO’yu etkiler mi?",
+        "a": "Doğrudan bir sıralama faktörü gibi değil; kullanıcı deneyimi ve karar hızını artırarak etkileşim KPI’larını (fotoğraf görüntüleme, site tıklaması, rota) iyileştirebilir."
+      },
+      {
+        "q": "Otelim için Street View/360 çekimi yaptırmalı mıyım?",
+        "a": "Rakiplerden ayrışmak ve belirsizlikleri azaltmak istiyorsanız değerlidir. Önce GBP foto seti ve temel hijyen tamam olmalı; sonra 360’ı “karar sahneleri”ne odaklayın."
+      },
+      {
+        "q": "Immersive view tarzı deneyimler rezervasyon kararını nasıl etkiler?",
+        "a": "Mekânı “hissettirerek” güveni ve seçilebilirliği artırır; kullanıcı daha az tereddüt eder ve aksiyona daha hızlı geçebilir."
+      },
+      {
+        "q": "Sanal turu site ve GBP’de nereye koymalıyım?",
+        "a": "GBP’de keşfi, sitede rezervasyon kararını destekleyecek şekilde konumlandırın. Oda/konsept sayfalarında ilgili 360 bloklar en etkili yerleşimdir."
+      },
+      {
+        "q": "360 çekim öncesi nelere dikkat etmeliyim?",
+        "a": "Düzen, ışık, marka bütünlüğü ve sezon gerçekliği kritik. 360’da küçük detaylar daha görünür olduğu için hazırlık kalitenin yarısıdır."
+      },
+      {
+        "q": "360 yatırımının etkisini nasıl ölçerim?",
+        "a": "Foto/360 görüntüleme, GBP actions (web/call/rota) ve site içi 360→CTA tıklamalarını 30 gün öncesi/sonrası kıyaslayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-hero-01.webp — 360° ve immersive harita vitrini kapak görseli",
+          "h1-context — 1920×1080 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-h1-context-02.webp — 360 + harita entegrasyonu mockup bağlam görseli",
+          "divider-01 — 1600×1200 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-divider-03.webp — 360/Street View giriş ayraç görseli",
+          "divider-02 — 1600×1200 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-divider-04.webp — Hazırlık/ölçüm bölümüne geçiş ayraç görseli",
+          "diagram-05 — 1920×1080 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-diagram-05.webp — Sanal tur akışı + entegrasyon diyagramı",
+          "checklist-06 — 1200×1200 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-checklist-06.webp — Çekim öncesi hazırlık checklist kartı",
+          "kpi-07 — 1200×1200 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-kpi-07.webp — 360 içerik KPI kartı",
+          "proof-08 — 1200×1200 — yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler-proof-08.webp — 360 planı deliverables kartı",
+          "table-360-virtual-tour-integration — 360/Sanal Tur Entegrasyon Tablosu: Sahne | Amaç | Nerede kullanılır (GBP/Site) | CTA | Ölçüm KPI",
+          "table-scene-plan — Sahne Planı: Sahne | Amaç | Çekim Notu | Nerede kullanılır (GBP/Site) | CTA",
+          "table-kpi-tracking — KPI Takip Tablosu: KPI | Baseline | 30 gün | Not"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "GBP fotoğraf seti kontrol edildi",
+          "NAP/pin/duplicate hijyeni kontrol edildi",
+          "360/sanal tur sahne planı çıkarıldı",
+          "Çekim öncesi alan düzeni, ışık, marka bütünlüğü ve gizlilik/izin kontrolleri yapıldı",
+          "GBP kapak + foto seti + 360 bağlantı yerleşimi planlandı",
+          "Site ana sayfa/oda sayfası/konsept sayfası 360 blok yerleşimi planlandı",
+          "360 izleme olayı GA4’te tanımlandı (Varsayım)",
+          "GBP actions (web/call/rota) KPI paneline eklendi",
+          "30 gün baseline → 30 gün sonrası KPI kıyası planlandı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
+        ]
+      }
+    }
+  },
+
+   "BlogEditorialKalenderVeIcerikOperasyonSistemi": {
+    "title": "Editoryal Takvim ve İçerik Operasyon Sistemi",
+    "slug": "editorial-kalender-ve-icerik-operasyon-sistemi",
+    "department": "seo",
+    "subDepartment":"content",
+    "updatedAt": "15 Mayıs 2026",
+    "publishedAt": "2026-05-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SEO odaklı editoryal takvim nasıl hazırlanır? Sütunlar, roller, haftalık/aylık ritim, onay–yayın akışı ve performans/refresh döngüsüyle içerik operasyonu kurun.",
+    "seo": {
+      "metaTitle": "Editoryal Takvim ve İçerik Operasyon Sistemi | DGTLFACE",
+      "metaDescription": "SEO odaklı editoryal takvim nasıl hazırlanır? Sütunlar, roller, haftalık/aylık ritim, onay–yayın akışı ve performans/refresh döngüsüyle içerik operasyonu kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Kodu / URL: İçerik SEO (Content SEO) / seo-3 / /tr/seo/icerik-seo",
+        "Blog Tipi / No / URL: Core / 6 / /tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi",
+        "Blog Başlık + H1: Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+      ],
+      "strategySummary": "Bu içerik, içerik üretimini “akla geldikçe yazalım” seviyesinden çıkarıp planlama-first, süreç odaklı bir operasyon sistemine dönüştüren core rehberdir. Hedef persona; otel sahibi / satış-pazarlama müdürü / ajans yöneticisi; ana karar noktası “hangi konuyu, hangi hafta, hangi persona ve funnel aşaması için çıkaracağız ve kim sorumlu?” sorusudur. Funnel’da MoFu (consideration) ağırlıklıdır: sistem kurulumunu öğretir ve ardından analiz/operasyon danışmanlığına yönlendirir. Silo içindeki rolü, Content SEO hizmet sayfasını (seo-3) besleyen “operasyon standardı” olmak; içerik kalitesini, sürekliliğini ve SEO tutarlılığını artırmaktır. Ana iş sorusu: “Takvimi ve rol dağılımını kurarak üretimi nasıl istikrarlı hale getiririm ve yayın sonrası performans döngüsünü nasıl işletirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-15",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Editoryal takvim, içerik üretimini “düzensiz blog yazmak”tan çıkarıp hedefler, takvim ve rollerle yönetilen bir sisteme dönüştürür. Hangi hafta hangi konu, hangi persona, hangi keyword ve hangi funnel aşaması için içerik çıkacağını planlamak; kaliteyi ve SEO tutarlılığını artırır. Doğru operasyon sistemi; brief → üretim → edit → SEO kontrol → tasarım → onay → yayın → performans takibi → revizyon adımlarını tek kaynakta toplar.",
+      "sgeSummary": "Takvimi hedef/keyword/persona/funnel’a göre kur; roller ve durum alanlarını ekle; haftalık ritim belirle; onay–yayın akışını tanımla; performans ve refresh kararlarını aynı tabloda yönet.",
+      "voiceAnswer": "Editoryal takvim için konu, keyword, persona, funnel, durum ve sorumlu alanlarını yazıp haftalık ritim belirleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel ve turizm markaları, B2B hizmet markaları, ajans ekipleri",
+        "KPI odağı: yayın istikrarı, organik görünürlük, brand queries eğilimi, içerik üretim hızı, revizyon verimliliği",
+        "Entity çekirdeği: Editorial calendar, content operations, workflow, roles, approval, reporting, refresh",
+        "Funnel: Planlama (MoFu) → uygulama & optimizasyon (BoFu’ya geçiş)",
+        "Geo bağlam: TR genel + turizm/B2B; sezon ve destinasyon öncelikleriyle uyum",
+        "Snippet hedefi: “Editoryal takvim nedir?” + “Hangi sütunlar olmalı?” PAA blokları",
+        "Refresh: 365 gün (sezon, pazar ve öncelikler değiştikçe)"
+      ]
+    },
+    "h1": {
+      "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+      "intro": "İçerik üreten birçok marka aynı probleme takılır: bir ay çok üretir, sonraki ay durur; bir yazar başka bir yazarın formatını takip etmez; SEO kontrolü bazen yapılır bazen atlanır; performans verisi “bir yerde” kalır ama takvime geri dönmez. Sonuç: içerik hacmi artar ama tutarlılık ve otorite inşası zayıf kalır. Editoryal takvim, bu dağınıklığı tek bir “tek kaynak (single source of truth)” altında toplar: konu + keyword + persona + funnel + sorumlu + durum + yayın tarihi + performans notu + refresh kararı aynı yerde yaşar. Böylece içerik, hem üretim hem de optimizasyon açısından “repeatable system” haline gelir.",
+      "quickSummary": [
+        "1) Takvimi sadece yayın listesi değil, operasyon sistemi olarak kur",
+        "2) Her içerik satırına keyword + persona + funnel + içerik türü ekle",
+        "3) Brief → yazım → edit → SEO → tasarım → onay → yayın akışını görünür yap",
+        "4) Performans notu ve refresh/consolidation kararını takvimde tut",
+        "5) Haftalık/aylık ritmi ekip kapasitesi, sezon ve kalite standardına göre belirle"
+      ],
+      "ctaPrimary": {
+        "label": "Editoryal Takvim & İçerik Operasyon Analizi Talep Et",
+        "text": "Dağınık içerik üretimini sistemleştirip SEO’da tutarlı otorite inşa etmek isteyen otel ve ajans ekipleri için.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Editoryal Takvim & İçerik Operasyon Analizi Talep Et",
+        "text": "Üretim dalgalanmasını azaltıp SEO’da tutarlı otorite kurmak isteyen otel ve ajans ekipleri için.",
+        "href": "/seo/icerik-seo"
+      },
+      "secondary": {
+        "label": "Editoryal Takvim Excel/Sheets Şablonunu İndir",
+        "text": "Takvim sütunlarını ve durum akışını hazır formatta kullanarak 1 günde sistemi başlatmanızı sağlar.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+      }
+    ],
+    "sections": [
+      {
+        "id": "editorial-takvim-nedir-ve-neden-liste-degil-sistemdir",
+        "title": "Editoryal takvim nedir? (Ve neden “liste” değil “sistem”dir)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Editoryal takvim, sadece yayın tarihlerini yazdığınız bir liste değildir. Bir operasyon sistemi olarak takvim; stratejiyi (hedef, persona, funnel), üretimi (brief, sorumlu, durum), kaliteyi (edit + SEO kontrol), yayınlamayı (onay akışı) ve iyileştirmeyi (performans + revizyon/refresh) tek yapıda birleştirir. İçerik SEO’da “tutarlılık”, tek tek harika yazılardan daha değerlidir; çünkü topical authority ve kullanıcı alışkanlığı zamanla oluşur."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca turizm ve otel sektöründe sezonlar, kampanyalar ve destinasyon öncelikleri değişkendir. İçerik takvimi bu değişkenliği yönetmek için “esnek ama kontrollü” bir çerçeve sağlar: yaz sezonu yaklaşırken destinasyon ve konsept içerikleri; sezon dışında ise rehber, karşılaştırma ve operasyonel içerikler öne çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "Editoryal takvim nedir, nasıl hazırlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Editoryal takvim, hangi tarihte hangi içeriğin, hangi persona ve funnel aşaması için üretileceğini ve kimlerin sorumlu olduğunu gösteren planlama sistemidir. Hazırlamak için hedefleri ve içerik türlerini belirler, sütunları (tarih, konu, keyword, persona, funnel, durum, sorumlu) kurar, haftalık/aylık ritim tanımlar ve onay–yayın–revizyon akışını takvime bağlarsınız."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Takvim “yayın tarihi listesi” mi, yoksa “üretim + kalite + performans” sistemi mi?",
+              "Hedef persona ve funnel alanları var mı?",
+              "Performans notu ve refresh kararı takvimde tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Takvimi “tek kaynak” ilan et: plan, süreç ve performans notları burada toplanacak.",
+              "Her içerik satırına persona + funnel ekle (SEO tutarlılığı için şart).",
+              "Takvime “refresh/consolidation” alanı koyarak eski içerik yönetimini sisteme bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hedefler-ve-icerik-turlerinin-planlanmasi",
+        "title": "Hedefler ve içerik türlerinin planlanması (persona + funnel + keyword eşleşmesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Takvim kurulumunda ilk adım, “ne üretelim?” değil “neye hizmet ediyor?” sorusudur. Hedeflerinizi belirlemeden takvimi doldurursanız, içerikler “çok ama dağınık” olur. İçerik türlerini hedeflere bağlamak, hem ekip içi önceliklendirmeyi hem de SEO tarafındaki konu otoritesini yönetilebilir hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik türleri (örnek rol dağılımı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rehber/How-To: bilgi ve uygulama (ToFu → MoFu)",
+              "Karşılaştırma / seçenek listesi: değerlendirme (MoFu)",
+              "Hizmet/destinasyon landing: aksiyon (BoFu)",
+              "SSS / kısa cevap içerikleri: PAA & destek katmanı (ToFu)",
+              "Case/kanıt: risk azaltma (MoFu → BoFu)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Burada önemli prensip: Önce hizmet/destinasyon öncelikleri. Öncelikli gelir alanları veya stratejik hizmetler (ör. “içerik SEO”, “otel SEO”, “satış-dönüşüm raporlama”) önce takvime oturur; sonra destekleyici bloglar bu omurgayı besler."
+          },
+          {
+            "type": "h3",
+            "text": "AIO bölümü — Persona × Funnel × İçerik Türü tek tabloda"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki şablon, “kime ne yazıyoruz?” sorusunu tek yerde toparlar:"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Persona × Funnel × İçerik Türü",
+            "headers": [
+              "Persona",
+              "Funnel",
+              "İçerik Türü",
+              "Örnek Konu",
+              "Başarı Sinyali"
+            ],
+            "rows": [
+              [
+                "Otel sahibi",
+                "MoFu",
+                "Rehber",
+                "“İçerik operasyon sistemi”",
+                "yayın istikrarı + organik görünürlük eğilimi"
+              ],
+              [
+                "Pazarlama müdürü",
+                "MoFu",
+                "Checklist/plan",
+                "“30 günlük içerik planı”",
+                "ekip uygulama hızı + tıklanabilir CTA"
+              ],
+              [
+                "Ajans yöneticisi",
+                "MoFu",
+                "Süreç/ops",
+                "“Rol & workflow matrisi”",
+                "üretim SLA’sı + revizyon sayısı azalması"
+              ],
+              [
+                "Karar verici",
+                "BoFu",
+                "Hizmet sayfası",
+                "“İçerik SEO hizmeti”",
+                "lead/dönüşüm"
+              ],
+              [
+                "Operasyon ekibi",
+                "ToFu",
+                "SSS",
+                "“Brief’te hangi alanlar olmalı?”",
+                "PAA görünürlüğü"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her içerik satırının bir hedefi var mı?",
+              "İçerik türleri funnel rolüne göre dengeli mi?",
+              "Öncelikler (hizmet/destinasyon) takvimin ilk bloklarına işlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "90 günlük hedef belirle: hangi tema otorite kazanacak?",
+              "İçerik türlerini funnel’a dağıt: yalnız rehber yazıp BoFu’yu boş bırakma.",
+              "Her içerik için “tek başarı sinyali” notu ekle (CTR, lead, görünürlük gibi)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "editorial-takvimde-hangi-sutunlar-olmali",
+        "title": "Editoryal takvimde hangi sütunlar olmalı? (Uygulanabilir şablon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Takvimin başarısı, sütunların “fazla detay” değil “doğru karar” üretecek kadar yeterli olmasına bağlıdır. İyi takvim; hem editöre “ne yazacağım”ı söyler, hem SEO’ya “hangi niyeti hedefliyoruz”u gösterir, hem de yöneticiye “bu ay ne çıkacak ve sonuç ne” sorusunu cevaplar."
+          },
+          {
+            "type": "h3",
+            "text": "Editoryal takvimde hangi sütunlar olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Minimum sütun seti: tarih, konu/başlık, hedef keyword, persona, funnel aşaması, içerik türü, durum (brief/yazım/edit/SEO/tasarım/onay/yayında), sorumlu ve yayın URL’si. SEO odaklı takvimlerde ayrıca internal link hedefleri, snippet hedefi (PAA/FS), performans notu ve refresh kararı eklemek büyük fark yaratır. Böylece takvim yalnız üretimi değil, optimizasyon döngüsünü de yönetir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Örnek editoryal takvim tablosu (Excel/Sheets)",
+            "headers": [
+              "Tarih",
+              "Konu (H1)",
+              "Hedef Keyword",
+              "Persona",
+              "Funnel",
+              "Tür",
+              "Durum",
+              "Yazar",
+              "SEO",
+              "Tasarım",
+              "Onay",
+              "İç Link Hedefi",
+              "Not/Performans",
+              "Refresh"
+            ],
+            "rows": [
+              [
+                "05 Şub",
+                "Editoryal takvim kurulumu",
+                "editorial calendar seo",
+                "Ajans yön.",
+                "MoFu",
+                "Rehber",
+                "Brief",
+                "A",
+                "S",
+                "D",
+                "M",
+                "/tr/seo/icerik-seo",
+                "—",
+                "—"
+              ],
+              [
+                "12 Şub",
+                "İç link stratejisi",
+                "internal link strateji",
+                "Paz. müd.",
+                "MoFu",
+                "How-To",
+                "Yazım",
+                "B",
+                "S",
+                "D",
+                "M",
+                "/tr/otel/seo",
+                "—",
+                "—"
+              ],
+              [
+                "19 Şub",
+                "Refresh & consolidation",
+                "consolidation stratejisi",
+                "SEO lead",
+                "MoFu",
+                "Guide",
+                "Edit",
+                "A",
+                "S",
+                "D",
+                "M",
+                "/tr/seo/teknik-seo",
+                "CTR düşüşleri",
+                "365"
+              ],
+              [
+                "26 Şub",
+                "Satış/dönüşüm raporu",
+                "satış dönüşüm raporlama",
+                "Yönetim",
+                "BoFu",
+                "Landing",
+                "Yayında",
+                "C",
+                "S",
+                "D",
+                "M",
+                "/tr/raporlama/satis-donusum",
+                "Lead artışı",
+                "180"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Tarih formatı ve ekip alanları, kurumunuzun işleyişine göre özelleştirilebilir."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Durum” alanı, süreci gerçek hayatta takip etmeye yetiyor mu?",
+              "Persona + funnel alanları zorunlu mu?",
+              "Performans + refresh alanları takvimde var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk sürümde 12–15 sütunu geçme; önce uygulanabilirliği oturt.",
+              "“Durum” alanını workflow adımlarınla birebir eşleştir.",
+              "Takvime “internal link hedefi” ekleyerek içerik ağını sistematik kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "haftalik-aylik-yayin-ritmi",
+        "title": "Haftalık/Aylık yayın ritmi (kadro ve kaliteye göre SLA belirlemek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Haftada kaç içerik?” sorusunun doğru cevabı, hedefinize ve kapasitenize bağlıdır. Tutarlı otorite için en kritik şey, hacimden önce ritim ve kalitedir. Özellikle turizm sektöründe sezon öncesi (ör. mart–nisan) daha yoğun üretim, sezon içinde daha çok optimizasyon/refresh, sezon sonrasında ise konsolidasyon ve yeni cluster hazırlığı çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik ritim seçenekleri (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlangıç ritmi: haftada 1 içerik + ayda 1 refresh",
+              "Orta seviye: haftada 2 içerik + ayda 2 refresh",
+              "Yüksek hacim: haftada 3+ içerik + sürekli refresh (ekip şart)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Burada KPI’lar devreye girer: Düzenli, planlı içerik yayınlayan sitelerin; aralıklı ve düzensiz yayın yapanlara göre brand queries ve toplam organik görünürlükte daha iyi performans verdiği sık gözlemlenir (kesin rakam iddiası değil; tekrar eden bir saha paterni)."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ekip kapasitesi (yazar/editör/SEO/tasarım) ritmi kaldırıyor mu?",
+              "Ritim “yayın” kadar “revizyon/refresh”i de içeriyor mu?",
+              "Sezon ve kampanya dönemleri takvimde blok olarak işaretli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık ritmi kapasiteye göre seç; tutamadığın hedef ritim zarar verir.",
+              "Aylık 1–2 “refresh slotu” ekle (yeni içerik kadar değerli).",
+              "Sezon bloklarını takvime sabitle; destinasyon/hizmet önceliklerini buna göre kaydır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "roller-onay-ve-yayin-surecleri",
+        "title": "Roller, onay ve yayın süreçleri (workflow’u görünür kılmak)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Takvim tek başına yetmez; takvimin “yürüyebilmesi” için rol ve süreç tanımı gerekir. En sık gördüğümüz problem: herkes bir şey yapıyor ama kimin “final sorumluluk” aldığı net değil. Bu nedenle rol matrisi, içerik operasyonunun kalbidir."
+          },
+          {
+            "type": "h3",
+            "text": "Kim hangi rolden sorumlu?"
+          },
+          {
+            "type": "p",
+            "text": "Tipik içerik operasyonunda yazar taslağı üretir, editör dili ve akışı düzeltir, SEO uzmanı intent/heading/on-page kontrol yapar, tasarım ekibi görsel paketini üretir ve yayın sorumlusu (veya içerik lideri) son onayı verip yayına alır. Bu akışın adımları “durum” alanına yansıtılmalı ve her adımın sahibi takvimde görünmelidir. Böylece üretim dalgalanması ve gecikmeler azalır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Rol & sorumluluk matrisi (RACI mantığıyla basit)"
+          },
+          {
+            "type": "p",
+            "text": "R: Responsible (yapan) • A: Accountable (son sorumlu) • C: Consulted (danışılan)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rol & sorumluluk matrisi",
+            "headers": [
+              "Adım",
+              "Yazar",
+              "Editör",
+              "SEO",
+              "Tasarım",
+              "Yayın Sorumlusu"
+            ],
+            "rows": [
+              [
+                "Brief",
+                "C",
+                "A",
+                "A",
+                "—",
+                "R"
+              ],
+              [
+                "Taslak",
+                "R",
+                "C",
+                "C",
+                "—",
+                "A"
+              ],
+              [
+                "Edit",
+                "—",
+                "R",
+                "C",
+                "—",
+                "A"
+              ],
+              [
+                "SEO kontrol",
+                "C",
+                "C",
+                "R",
+                "—",
+                "A"
+              ],
+              [
+                "Görsel paket",
+                "—",
+                "C",
+                "C",
+                "R",
+                "A"
+              ],
+              [
+                "Yayın",
+                "—",
+                "C",
+                "C",
+                "C",
+                "R"
+              ],
+              [
+                "Performans notu",
+                "C",
+                "A",
+                "R",
+                "—",
+                "A"
+              ],
+              [
+                "Refresh/consolidation",
+                "C",
+                "A",
+                "R",
+                "—",
+                "R"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Son onay” kimde? (tek kişi mi?)",
+              "SEO kontrol adımı standart mı, yoksa opsiyonel mi?",
+              "Performans notu ve refresh kararı kimin sorumluluğunda?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "RACI matrisi çıkar ve takvime “sorumlu” alanlarını bağla.",
+              "Onay sürecini kısalt: tek bir “publish owner” belirle.",
+              "Her yayın sonrası 14–30 gün içinde performans notu zorunluluğu koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "raporlama-ve-revizyon-dongusu",
+        "title": "Raporlama ve revizyon döngüsü (takvimi “tek kaynak” yapmak)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik notta vurgulanan kritik yaklaşım: takvim sadece üretim değil; performans takibi ve refresh/consolidation kararlarının da tutulduğu tek kaynak olmalıdır. Aksi durumda, performans raporu ayrı yerde kalır; içerikler güncellenmez; eski içerikler birikir ve “borç” büyür."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Yayın sonrası minimum izleme ritmi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "7 gün: index kontrol + teknik sorunlar + ilk CTR sinyali",
+              "30 gün: sorgu görünürlüğü + içerik etkileşimi + iç link tıklaması",
+              "90 gün: kapsam/heading revizyonu + PAA/FAQ güncellemesi",
+              "365 gün: periyodik refresh (sezon/pazar/hizmet öncelikleri değiştikçe)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Burada raporlama araçları (ör. Google Search Console ve Google Analytics / GA4) yalnız “veri” üretmez; takvimi besleyen kararları üretir: güncelleme mi yapılacak, içerik mi genişleyecek, cluster mı güçlenecek?"
+          },
+          {
+            "type": "h3",
+            "text": "İlk 30 günde yapılacaklar listesi"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "İlk 30 gün planı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Takvim sütunlarını sabitle ve ekipte tek format ilan et.",
+              "10 içerik slotu aç: 8 yeni + 2 refresh (minimum).",
+              "Rol matrisi ve onay sürecini yazılı hale getir.",
+              "Her içerik için “brief” zorunlu kuralını koy.",
+              "Performans notu alanını doldurmayı yayın sonrası checklist’e ekle."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Düzenli ve planlı içerik yayınlayan sitelerde, düzensiz yayın yapanlara göre marka aramalarında ve toplam organik görünürlükte daha iyi performans eğilimi gözlemleniyor. Bu, tek başına yayın sayısı değil; ritim + kalite + revizyon döngüsünün birleşik etkisidir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Takvimde “performans notu” ve “refresh” alanları doluyor mu?",
+              "30/90 gün revizyon slotu ayrıldı mı?",
+              "Raporlama çıktısı takvime geri dönüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Takvim + raporu birleştir: kararlar tek yerde dursun.",
+              "Ayda en az 1 “refresh günü” tanımla (takvimde blok).",
+              "Eski içeriklerin (12–24 ay+) gözden geçirilmesini rutin yap."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Editoryal Takvim Excel/Sheets Şablonunu İndir",
+            "text": "Takvim sütunlarını, durum akışını ve sorumlulukları hazır formatta kullanıp 1 günde operasyonu başlatmanızı sağlar.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Editoryal Takvim & İçerik Operasyon Analizi Talep Et",
+            "text": "İçerik üretim dalgalanmasını azaltmak, rol/süreçleri netleştirmek ve SEO’da tutarlı otorite inşa etmek isteyen ekipler için.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      },
+      {
+        "id": "editorial-takvim-excel-sheets-sablonu",
+        "title": "Editoryal Takvim Excel/Sheets Şablonunu İndir — SEO / Content SEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Editoryal Takvim Excel/Sheets Şablonunu İndir — SEO / Content SEO (v1.0)",
+            "purpose": "Bu şablon, içerik üretimini takvim + rol + durum + performans döngüsüyle yönetmek için hazırlanmış “tek kaynak” formatıdır. Amaç; içerik üretimindeki dalgalanmayı azaltmak, SEO kontrolünü standartlaştırmak ve yayın sonrası revizyon/refresh kararlarını aynı yerde toplamak. Turizm ve B2B projelerde sezon ve hizmet/destinasyon önceliklerini planlamaya uygundur.",
+            "whoFor": "İçerik lideri, SEO uzmanı, editör, ajans yöneticisi, otel pazarlama ekibi.",
+            "steps": [
+              "Sütunları kendi işleyişinize göre açın (durum ve roller sabit kalsın).",
+              "30–90 günlük slotları doldurun (yeni + refresh birlikte).",
+              "Yayın sonrası KPI ve refresh kararlarını her satırda güncelleyin."
+            ],
+            "templateFields": [
+              "Takvim Dönemi: ________",
+              "Silo / Hub Öncelikleri: ________",
+              "Hedef Pazar / Sezon Notu: ________",
+              "Yayın Ritmi: (haftada __) ________",
+              "Tarih: ________",
+              "Konu / H1: ________",
+              "Hedef Keyword: ________",
+              "Predictive varyasyonlar: ________",
+              "Persona: ________",
+              "Funnel: (ToFu/MoFu/BoFu) ________",
+              "İçerik Türü: (rehber/SSS/landing/case) ________",
+              "Durum: (Brief / Yazım / Edit / SEO / Tasarım / Onay / Yayında / Revizyon) ________",
+              "Yazar: ________",
+              "Editör: ________",
+              "SEO Sorumlusu: ________",
+              "Tasarım: ________",
+              "Onay: ________",
+              "Internal Link Hedefleri: ________",
+              "Snippet hedefi: (PAA/FS/HowTo) ________",
+              "URL (yayında): ________",
+              "Performans Notu (30 gün): ________",
+              "Refresh/Consolidation Kararı: (Yok / Refresh / Merge) ________",
+              "Sonraki Aksiyon: ________"
+            ],
+            "rules": [
+              "Persona + funnel alanı boş geçilmez (strateji omurgası).",
+              "Durum alanı workflow’unuzla birebir aynı isimleri taşısın.",
+              "Her ay en az 1–2 refresh slotu zorunlu olsun.",
+              "Internal link hedefleri her içerikte yazılsın (sonradan unutulmasın).",
+              "Performans notu “takvime geri yazılır”; rapor ayrı kalmaz."
+            ],
+            "example": [
+              "Konu: “Editoryal Takvim ve İçerik Operasyon Sistemi”",
+              "Keyword: editorial calendar seo",
+              "Persona: Ajans yöneticisi",
+              "Funnel: MoFu",
+              "Durum: SEO kontrol → Tasarım → Onay → Yayında",
+              "30 gün notu: “Brand query eğilimi iyi, 2 iç link eklendi, refresh 365”"
+            ],
+            "checklist": [
+              "30–90 günlük slotlar dolu",
+              "Rol alanları ve onay sahibi net",
+              "Durum adımları standart",
+              "Refresh slotları ayrıldı",
+              "Yayın sonrası not alanı dolduruluyor"
+            ],
+            "deliverables": [
+              "Takvim şablonu (Sheets/Excel)",
+              "Durum akışı + rol matrisi dokümanı",
+              "30/90 gün performans ve refresh planı"
+            ],
+            "href": "/downloads/editorial-takvim-excel-sheets-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Editoryal takvim nedir, nasıl hazırlanır?",
+        "a": "Editoryal takvim, hangi tarihte hangi içeriğin, hangi persona ve funnel için üretileceğini ve kimlerin sorumlu olduğunu gösteren sistemdir. Hedefleri belirleyip sütunları kurar, ritmi tanımlar ve onay–yayın–revizyon akışını takvime bağlarsınız."
+      },
+      {
+        "q": "SEO odaklı içerik takvimi nasıl kurulur?",
+        "a": "Keyword, intent/persona ve funnel alanlarını takvime zorunlu sütun olarak eklersiniz. Ayrıca internal link hedefleri ve snippet (PAA/FS) hedefini yazarak SEO tutarlılığını operasyonun parçası yaparsınız."
+      },
+      {
+        "q": "Haftalık ve aylık yayın ritmi ne olmalı?",
+        "a": "Kapasiteye bağlıdır; en iyi ritim tutturabildiğiniz ritimdir. Haftada 1–2 içerik + ayda 1–2 refresh çoğu ekip için sürdürülebilir bir başlangıçtır."
+      },
+      {
+        "q": "Editoryal takvimde hangi sütunlar olmalı?",
+        "a": "Tarih, konu, hedef keyword, persona, funnel, içerik türü, durum, sorumlu ve URL minimum settir. Performans notu ve refresh/consolidation alanı eklemek takvimi “tek kaynak” haline getirir."
+      },
+      {
+        "q": "İçerik üretiminde roller ve süreçler nasıl tanımlanır?",
+        "a": "Yazar taslak üretir, editör dili/akışı düzeltir, SEO uzmanı on-page kontrol yapar, tasarım görsel paket üretir ve yayın sorumlusu final onayla yayına alır. Bu adımlar “durum” alanında takip edilmelidir."
+      },
+      {
+        "q": "Yayınlandıktan sonra performans takibi nasıl yapılır?",
+        "a": "7/30/90 gün ritminde index ve görünürlük sinyalleri izlenir; bulgular takvime not düşülür. Bu notlar, revizyon/refresh kararını tetikler."
+      },
+      {
+        "q": "Takvim neden “tek kaynak” olmalı?",
+        "a": "Çünkü üretim planı ayrı, performans raporu ayrı yerde kalırsa optimizasyon döngüsü kopar. Tek kaynak yaklaşımı, içerik borcunu (eskime) büyütmeden yönetmenizi sağlar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — editorial-kalender-ve-icerik-operasyon-sistemi-hero-01.webp — Editoryal takvim planı, otel ve B2B içerik operasyonu",
+          "h1-context — 1920×1080 — editorial-kalender-ve-icerik-operasyon-sistemi-h1-context-02.webp — İçerik operasyon akışı, brief’ten yayına ve revizyona",
+          "divider-01 — 1600×1200 — editorial-kalender-ve-icerik-operasyon-sistemi-divider-03.webp — Yayın ritmi planı, haftalık ve aylık içerik yönetimi",
+          "divider-02 — 1600×1200 — editorial-kalender-ve-icerik-operasyon-sistemi-divider-04.webp — Raporlama ve revizyon döngüsü, içerik performans yönetimi",
+          "diagram-05 — 1920×1080 — editorial-kalender-ve-icerik-operasyon-sistemi-diagram-05.webp — Rol ve workflow diyagramı, içerik üretim süreç akışı",
+          "checklist-06 — 1200×1200 — editorial-kalender-ve-icerik-operasyon-sistemi-checklist-06.webp — Editoryal takvim sütun checklist’i, SEO içerik operasyon standardı",
+          "kpi-07 — 1200×1200 — editorial-kalender-ve-icerik-operasyon-sistemi-kpi-07.webp — İçerik operasyon KPI kartı, yayın istikrarı ve görünürlük takibi",
+          "proof-08 — 1200×1200 — editorial-kalender-ve-icerik-operasyon-sistemi-proof-08.webp — Editoryal takvim deliverables, şablonlar ve süreç dokümantasyonu",
+          "table-editorial-calendar — Örnek editoryal takvim tablosu: sütunlar + durum + sorumlu + performans + refresh",
+          "table-persona-funnel-content-type — Persona × Funnel × İçerik Türü tablosu",
+          "table-raci-matrix — Rol & sorumluluk matrisi"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Takvimde tarih, konu, hedef keyword, persona, funnel, içerik türü, durum, sorumlu ve URL alanları var",
+          "Internal link hedefleri her içerik satırında tanımlanıyor",
+          "Snippet hedefi (PAA/FS/HowTo) alanı eklendi",
+          "Performans notu ve refresh/consolidation alanları takvimde tutuluyor",
+          "Brief → Yazım → Edit → SEO → Tasarım → Onay → Yayında → Revizyon durum akışı tanımlandı",
+          "RACI rol matrisi çıkarıldı",
+          "7/30/90/365 gün yayın sonrası kontrol ritmi tanımlandı",
+          "Ayda en az 1–2 refresh slotu takvime eklendi",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
+        ]
+      }
+    }
+  },
+
+   "BlogEEATVeIcerikUretimiGuvenVeOtoriteNasilGosterilir": {
+    "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite",
+    "slug": "e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir",
+    "department": "seo",
+    "subDepartment":"content",
+    "updatedAt": "15 Mayıs 2026",
+    "publishedAt": "2026-05-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "E-E-A-T nedir? Yazar kutusu, gerçek deneyim/case, güvenilir kaynaklar ve şeffaf iletişimle içerikte otoriteyi gösterin. Turizm/B2B örnekleriyle uygulayın.",
+    "seo": {
+      "metaTitle": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite | DGTLFACE",
+      "metaDescription": "E-E-A-T nedir? Yazar kutusu, gerçek deneyim/case, güvenilir kaynaklar ve şeffaf iletişimle içerikte otoriteyi gösterin. Turizm/B2B örnekleriyle uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Kodu / URL: İçerik SEO (Content SEO) / seo-3 / /tr/seo/icerik-seo",
+        "Blog Tipi / No / URL: Core / 7 / /tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir",
+        "Blog Başlık + H1: E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
+      ],
+      "strategySummary": "Bu yazı, içerik SEO’nun “otorite ve güven” boyutunu sistemleştirir: yalnızca doğru kelimeyi değil, kim yazdı / nasıl biliyor / neden güvenmeliyim sorularını içerik içinde görünür kılar. Hedef persona; otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir; özellikle turizm, sağlık, finans ve hizmet sektörlerinde “yüksek riskli karar” anlarında güven sinyalleri kritik olur. Funnel’da MoFu ağırlıklıdır: çerçeveyi ve uygulama şablonlarını verir, ardından analiz/denetim talebine yönlendirir. Silo içindeki rolü, Content SEO hizmet sayfasını besleyen “trust-first” referans içerik olmak ve site geneline yayılan güven sayfalarıyla (Hakkımızda/Ekip/İletişim/KVKK) içerik stratejisini birleştirmektir. Ana iş sorusu: “E-E-A-T’yi bir ‘söz’ değil, içerikte görülebilen bir kanıt sistemine nasıl dönüştürürüm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-15",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "E-E-A-T, içerikte güven ve otoriteyi “görünür” kılma çerçevesidir: deneyim (Experience), uzmanlık (Expertise), otorite (Authoritativeness) ve güven (Trust). İçerik sadece doğru şeyleri söylememeli; kim yazdı, hangi deneyimle yazdı, hangi kaynaklara dayanıyor ve bu ekibe nasıl ulaşılır sorularını da cevaplamalıdır. Yazar kutusu, gerçek proje/case örnekleri, güvenilir kaynaklar, şeffaf düzeltme/iletişim ve site genelindeki trust sayfaları bu sinyali güçlendirir.",
+      "sgeSummary": "E-E-A-T için yazar/uzman bilgisi, gerçek deneyim ve case, güvenilir kaynaklar, şeffaf iletişim sayfaları ve düzenli güncelleme ekleyin; bunları içerik + site geneli olarak birlikte kurgulayın.",
+      "voiceAnswer": "Güven için yazar bilgisini, gerçek deneyimi, kaynakları ve iletişim şeffaflığını içerikte görünür kılın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yöneticileri, pazarlama ekipleri, ajans yöneticileri, hizmet sektörleri",
+        "KPI odak: dönüşüm/lead kalitesi, marka güveni, sıralama istikrarı eğilimi, içerik etkileşimi, geri dönüş (iletişim)",
+        "Entity çekirdeği: Author box, case studies, references, trust pages, transparency, editorial policy",
+        "Funnel: MoFu (güven inşası) → BoFu (analiz/denetim)",
+        "Geo bağlam: TR + turizm (Antalya/Belek/Side/Kemer/Bodrum) + sağlık/finans/hizmet",
+        "Snippet hedefi: “E-E-A-T nedir?” + “Yazar kutusu SEO’ya katkı sağlar mı?” PAA",
+        "Refresh: 365 gün (yönergeler ve beklentiler değiştikçe)"
+      ]
+    },
+    "h1": {
+      "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
+      "intro": "İçerik SEO’da “iyi yazı” tek başına yetmeyebilir. Özellikle hizmet satın alma, destek alma, rezervasyon yapma gibi yüksek bütçeli veya yüksek riskli kararlarda kullanıcı şunu sorar: Bu yazıyı kim yazdı, nereden biliyor, bu ekip gerçek mi? Bu yüzden güven, yalnızca metnin doğruluğu değil; metnin arkasındaki insan + deneyim + şeffaflık sistemidir. Google tarafında E-E-A-T, kalite değerlendirmelerinde kullanılan bir çerçeve olarak anlatılır; kalite değerlendiriciler (quality raters) içeriklerin E-E-A-T göstergelerine bakarak sayfa kalitesini değerlendirir. Ayrıca E-E-A-T’nin bir “puan” ya da doğrudan “tek bir sıralama faktörü” olmadığı; ancak içerik kalitesiyle örtüşen sinyallerin önemli olduğu vurgulanır.",
+      "quickSummary": [
+        "1) E-E-A-T’yi tek sayfa değil, içerik + site geneli güven sistemi olarak ele alın",
+        "2) Yazar kutusu, uzman incelemesi ve güncelleme bilgisini standartlaştırın",
+        "3) Deneyimi case, metodoloji, hata–çözüm ve örnek senaryolarla görünür kılın",
+        "4) Kaynak, güncellik ve şeffaf iletişim alanlarını güven katmanı olarak ekleyin",
+        "5) Hakkımızda, Ekip, İletişim ve KVKK sayfalarını içerik stratejisine bağlayın"
+      ],
+      "ctaPrimary": {
+        "label": "E-E-A-T & İçerik Güven Analizi Talep Et",
+        "text": "Turizm/B2B içeriklerinizde güven sinyallerini görünür kılıp dönüşüm yolculuğunu güçlendirmek isteyen ekipler için.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "E-E-A-T & İçerik Güven Analizi Talep Et",
+        "text": "Turizm/B2B içeriklerinde güven sinyallerini standardize etmek isteyen ekipler için.",
+        "href": "/seo/icerik-seo"
+      },
+      "secondary": {
+        "label": "E-E-A-T Sinyalleri Kontrol Listesini İndir",
+        "text": "Her içerikte minimum güven sinyal setini hızlıca doğrulamanızı sağlar.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "KVKK ve veri güvenliği raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+        "href": "/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+      },
+      {
+        "title": "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri",
+        "href": "/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
+      }
+    ],
+    "sections": [
+      {
+        "id": "e-e-a-t-nedir",
+        "title": "E-E-A-T Nedir? (Experience, Expertise, Authoritativeness, Trust)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-E-A-T’yi “SEO checklist” gibi görmek yanıltıcı olur. Çünkü güven sinyali; yalnızca sayfaya bir kutu eklemekle değil, içerik ve site genelinde tutarlı bir resim çizmekle oluşur: aynı uzman adı, aynı yöntem dili, aynı düzeltme yaklaşımı, aynı referans standardı. Google Search Central, “helpful content / people-first content” yaklaşımında “Who/How/Why (Kim/Nasıl/Neden)” gibi soruları öne çıkararak bu şeffaflık çerçevesini destekler."
+          },
+          {
+            "type": "p",
+            "text": "E-E-A-T’nin bileşenleri pratikte şöyle okunur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Experience (Deneyim): “Bunu bizzat yaptınız mı? Gözleminiz var mı?”",
+              "Expertise (Uzmanlık): “Konuyu teknik/doğru çerçevede anlatabiliyor musunuz?”",
+              "Authoritativeness (Otorite): “Sizi başkaları da referans alıyor mu?”",
+              "Trust (Güven): “Şeffaf mısınız, doğrulanabilir misiniz, ulaşılabilir misiniz?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Search Quality Rater Guidelines içinde E-E-A-T ve sayfa kalitesi değerlendirmesi detaylı şekilde ele alınır; ayrıca E-E-A-T’ye “Experience” boyutunun eklenmesiyle “Double-E-A-T” vurgusu yapılmıştır."
+          },
+          {
+            "type": "h3",
+            "text": "E-E-A-T bir sıralama faktörü mü?"
+          },
+          {
+            "type": "p",
+            "text": "E-E-A-T tek başına bir “puan” veya doğrudan “tek bir ranking factor” değildir. Google, E-E-A-T’nin bir skor gibi çalışmadığını; bunun yerine kalite ve faydayla örtüşen çeşitli sinyallerin önemli olduğunu vurgular. Ancak özellikle güvenin kritik olduğu konularda (sağlık, finans, güvenlik gibi) kaliteli ve güvenilir içerik beklentisi daha belirgin hale gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (turizm + B2B)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya’da bir otel “erken rezervasyon iptal koşulları” anlatıyorsa; deneyim + güven sinyali (net iletişim, güncel tarih, koşullar, KVKK) beklentisi artar.",
+              "Bir ajans “içerik SEO hizmeti” satıyorsa; yazar/ekip bilgisi, metodoloji, case ve referanslar güveni doğrudan etkiler."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu içerikte “kim yazdı” ve “neden güvenmeliyim” görünür mü?",
+              "İçerik, kullanıcı riskini azaltacak kanıtlar sunuyor mu?",
+              "Site genelinde iletişim/ekip/kvkk gibi trust sayfalarına erişim kolay mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "E-E-A-T’yi içerik + site geneli olarak ele al (tek sayfa işi değil).",
+              "“Kim/Nasıl/Neden” bilgilerini standart alanlara bağla (yazar kutusu, metodoloji, kaynaklar).",
+              "YMYL’e yaklaşan içeriklerde (sağlık/finans) daha güçlü doğrulama ve güncelleme disiplini uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yazar-ve-uzman-imzalari",
+        "title": "Yazar ve Uzman İmzaları (Author Box ile “kim yazdı?” sorusunu kapatmak)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yazar kutusu (author box), SEO için “süs” değil; kullanıcı güveni için karar anını etkileyen bir öğedir. Kullanıcı, özellikle hizmet/rezervasyon gibi aksiyon öncesinde, içeriğin arkasında gerçek bir ekip görmek ister. Bu nedenle yazar bilgisi; isim yazmaktan ibaret olmamalı, yetkinlik ve sorumluluğu göstermelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Yazar kutusunda olması gereken çekirdek alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ad Soyad + rol (SEO stratejisti, içerik editörü, vb.)",
+              "Uzmanlık alanı (Content SEO, otel pazarlaması vb.)",
+              "Deneyim/tecrübe özeti (yıl vermek zorunlu değil; “X alanda çalışır” gibi)",
+              "İnceleyen/Onaylayan uzman (özellikle iddialı içeriklerde)",
+              "İletişim veya profil bağlantıları (kurumsal sayfalar)",
+              "“Son güncelleme” bilgisi (refresh disiplini)",
+              "Düzeltme/geri bildirim kanalı (güven artırır)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Yazar kutusu SEO’ya katkı sağlar mı?"
+          },
+          {
+            "type": "p",
+            "text": "Yazar kutusu tek başına “sıralamayı büyüten” sihirli bir etiket değildir; ama güven ve şeffaflık sinyalini güçlendirerek kullanıcı deneyimini iyileştirir. Kalite değerlendirmelerinde içerik üreticisinin “kim” olduğu ve içerik üretim sürecinin şeffaflığı önemsenir. Bu yüzden yazar bilgisi, özellikle rekabetli ve güven gerektiren konularda içerik kalitesini daha görünür hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel sitesi)"
+          },
+          {
+            "type": "p",
+            "text": "“Bodrum butik otel konseptleri” yazısının sonunda:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yazar: İçerik editörü (turizm içerik uzmanı)",
+              "İnceleyen: Otel satış/pazarlama danışmanı",
+              "Güncel: “Son güncelleme: 2026 Q1” (Varsayım: tarih formatı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu üçlü, kullanıcıya “bu içerik rastgele yazılmadı” hissini verir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yazar adı + rol + uzmanlık görünür mü?",
+              "İçeriği “inceleyen” veya “onaylayan” rol var mı?",
+              "Güncelleme bilgisi ve geri bildirim kanalı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Her içerikte standart yazar kutusu bileşeni kullan (tasarım komponenti).",
+              "“Yazar” + “İnceleyen” ayrımıyla güveni artır (özellikle YMYL benzeri konular).",
+              "İçerik sonu alanına “Kaynaklar + Güncelleme + İletişim” bloğunu ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "deneyim-anlatimi-ve-case-referans-kullanimi",
+        "title": "Deneyim Anlatımı ve Case/Referans Kullanımı (Experience’i görünür kılmak)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "E-E-A-T’nin “Experience” boyutu, “biz çok iyiyiz” demekle oluşmaz. Deneyim; içerikte somut ipuçları olarak görünür: örnek senaryo, uygulama adımları, “şu durumda şunu yaptık” dili, ölçüm yaklaşımı, hata–çözüm örnekleri. Özellikle turizm/hizmet sektöründe kullanıcılar, karar öncesi referans arar: “bu ekip gerçekten sahada mı?”"
+          },
+          {
+            "type": "h3",
+            "text": "Deneyim sinyali üreten içerik parçaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısa case snippet’leri (isim vermeden bile olur: “resort otelde…”)",
+              "Önce/sonra yaklaşımı (metrik iddiasını abartmadan)",
+              "Operasyonel detay (check-in süreci, çağrı merkezi akışı, vb.)",
+              "Yöntem/Metodoloji (nasıl ölçtünüz, nasıl karar verdiniz?)",
+              "Hata örnekleri (ne yanlış gider?)",
+              "Görsel kanıtlar (mockup, şema, çıktı kartı)",
+              "Sık sorulanların “pratik cevabı”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Case ve referans kullanımı nasıl yapılır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gerçek olay dili: “Şu problem vardı → şu müdahale yapıldı → şu sonuç gözlendi”",
+              "Gizlilik: Otel adı vermeden “Antalya resort / şehir oteli” gibi sınıflandırma",
+              "Ölçülü veri: “çoğu projede” / “sıklıkla” gibi yumuşak ifade (kesin rakam iddiası değil)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Özellikle yüksek bütçeli hizmet/destek kararlarında, kullanıcıların yalnızca içeriğe değil, içeriğin arkasındaki isimlere ve referanslara baktığı biliniyor. Bu yüzden case snippet ve referans dili, dönüşüm yolculuğunda kritik bir güven freni gibi çalışır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerikte en az 1 gerçekçi senaryo/case var mı?",
+              "Deneyim “yöntem” ve “hata–çözüm” üzerinden görünür mü?",
+              "Gizlilik ve doğrulanabilirlik dengesi kuruldu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Her içerikte 1 mini senaryo ekle (otel/ajans bağlamlı).",
+              "Case anlatımını 3 adımda standardize et: Problem → Müdahale → Sonuç.",
+              "Kanıtı görselleştir: şema + çıktı kartı + kısa tablo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kaynak-gosterme-ve-veri-kullanimi",
+        "title": "Kaynak Gösterme ve Veri Kullanımı (Trust’ı yükselten “doğrulanabilirlik”)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Referans ve kaynak göstermek gerekli mi?” sorusunun cevabı pratikte şudur: kullanıcı risk algısı yükseldikçe kaynak beklentisi artar. Sağlık/finans gibi alanlarda bu daha belirgindir; turizmde ise iptal/ücret/kontrat benzeri hassas konularda kaynak ve şeffaflık önem kazanır. Google Search Central, faydalı içerik yaklaşımında içerik üreticisinin kim olduğu ve içeriğin nasıl üretildiği gibi şeffaflık başlıklarını öne çıkarır."
+          },
+          {
+            "type": "h3",
+            "text": "Kaynak kullanımında pratik standart"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mümkünse birincil kaynaklara link (resmi kurum, resmi doküman)",
+              "“Ne zaman güncellendi?” bilgisi",
+              "Veri kullanırken bağlam (hangi koşulda geçerli?)",
+              "Kurumsal politika sayfaları (editoryal/düzeltme)",
+              "Gereksiz iddiadan kaçınma (kesin rakam iddiası yapmama)",
+              "Görselde veri kaynağı notu (alt yazı gibi)",
+              "“Bu içerik tavsiye niteliğindedir” gibi risk yönetimi (gerektiğinde)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Referans ve kaynak göstermek gerekli mi?"
+          },
+          {
+            "type": "p",
+            "text": "Her içerik akademik makale gibi kaynakça taşımaz; ancak kullanıcı riskinin yüksek olduğu konularda doğrulanabilirlik güveni ciddi artırır. Kaynak göstermek; iddiayı abartmadan çerçevelemeyi, güncelliği belirtmeyi ve kullanıcıya “kontrol edebilirsin” mesajı vermeyi sağlar. Bu yaklaşım, uzun vadede güven ve kalite algısını güçlendirir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: E-E-A-T sinyallerini özetleyen tablo",
+            "headers": [
+              "E-E-A-T Boyutu",
+              "İçerikte Ne Gösterilir?",
+              "Sayfa/Modül Örneği",
+              "Otel/B2B Mini Örnek"
+            ],
+            "rows": [
+              [
+                "Experience",
+                "Uygulama, senaryo, süreç",
+                "Case snippet, metodoloji kutusu",
+                "“Kemer resort’ta içerik güncelleme sprinti”"
+              ],
+              [
+                "Expertise",
+                "Doğru çerçeve, net açıklama",
+                "H2 soru cevap blokları",
+                "“İptal koşulları nasıl anlatılmalı?”"
+              ],
+              [
+                "Authoritativeness",
+                "Referans/kanıt/çevresel sinyal",
+                "Case, referanslar, iç link ağı",
+                "“Hizmet sayfasına + ilgili cluster’a link”"
+              ],
+              [
+                "Trust",
+                "Şeffaflık, kaynak, iletişim",
+                "Kaynaklar, güncelleme tarihi, KVKK",
+                "“İletişim + KVKK + düzeltme kanalı”"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kritik iddialarda kaynak/kanıt var mı?",
+              "İçeriğin güncelliği görünür mü?",
+              "Kullanıcı “bunu doğrulayabilirim” hissini alıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Kaynak standardı belirle: hangi içerik türü kaç kaynak ister?",
+              "“Son güncelleme” bilgisini içerik sonuna sabitle.",
+              "Veri kullanırken kesin iddia yerine gözlemsel çerçeve kullan (genelde/sıklıkla)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hakkimizda-ekip-ve-iletisim-sayfalarinin-rolu",
+        "title": "Hakkımızda, Ekip ve İletişim Sayfalarının Rolü (site genelinde güven inşa etmek)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik nottaki kritik gerçek: E-E-A-T yalnız içerikte değil, site genelinde kurulur. Kullanıcı içerikte bir iddia okur; sonra şunu yapar: Hakkımızda’ya bakar, ekibi görmek ister, iletişim bulmak ister, KVKK ve güvenlik sayfaları var mı diye kontrol eder. Bu sayfalar yoksa veya zayıfsa, içerik ne kadar iyi olursa olsun güvenin “son freni” tutmayabilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle turizm/hizmet sitelerinde, kullanıcılar karar öncesi ulaşılabilirlik arar. “Belek’te düğün organizasyonu” arayan biri, yalnız rehberi okumaz; “bu otel/kurum gerçek mi, telefon var mı, adres var mı?” diye bakar."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Hakkımızda ve iletişim sayfaları SEO için önemli mi?"
+          },
+          {
+            "type": "p",
+            "text": "Bu sayfalar “tek başına sıralama artıran” sayfalar gibi düşünülmemeli; fakat güven ve şeffaflık için kritik destek katmanıdır. Kullanıcıların ve kalite değerlendirmelerinin “siteyi kim yönetiyor, nasıl ulaşılır” sorularını cevaplaması, içeriklerin güven algısını yükseltir. Özellikle hizmet ve yüksek riskli konularda bu etki daha görünür olur."
+          },
+          {
+            "type": "h3",
+            "text": "Trust sayfaları için minimum paket"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hakkımızda (misyon, uzmanlık alanları, yaklaşım)",
+              "Ekip (gerçek kişiler, roller, uzmanlıklar)",
+              "İletişim (adres/telefon/e-posta/harita; mümkünse çalışma saatleri)",
+              "KVKK / veri güvenliği / aydınlatma metinleri (sektöre göre)",
+              "Düzeltme/geri bildirim politikası (Varsayım: kurumsal uygunsa)",
+              "Referanslar / case sayfası (gizlilikle)",
+              "Editorial policy (içerik standardı; opsiyonel ama güçlü)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Internal link hedefleriyle bağla"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/tr/seo/icerik-seo",
+              "/tr/seo-hizmetleri",
+              "/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hakkımızda/Ekip/İletişim sayfaları erişilebilir mi (footer + header)?",
+              "Yazar kutusundaki kişi bilgileri ekip sayfasıyla tutarlı mı?",
+              "KVKK/veri güvenliği sayfaları kritik akışlarda görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Trust sayfalarını “footer linki” olmaktan çıkar; içerikten de bağla.",
+              "Yazar kutusu → ekip sayfası → iletişim zincirini kur.",
+              "KVKK/veri güvenliği sayfalarını özellikle form/lead akışlarına entegre et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e-e-a-tyi-pratikte-guven-grafigine-cevirmek",
+        "title": "E-E-A-T’yi pratikte “güven grafiği”ne çevirmek (AIO + uygulama)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIO açısından E-E-A-T’yi bir “güven grafiği” gibi düşün: Yazar (kim) → Uzmanlık (neden) → Deneyim/case (kanıt) → Kaynak (doğrulama) → Trust sayfaları (şeffaflık) → Kullanıcı aksiyonu (dönüşüm). Bu grafikte bir halka zayıfsa, kullanıcı yolculuğu kırılır: mükemmel rehber yazarsınız ama iletişim yoksa güven düşer; güçlü ekip vardır ama içerik güncel değilse güven düşer; case vardır ama kaynak/şeffaflık yoksa soru işareti kalır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "E-E-A-T sinyalleri doğru kurulan sitelerde, özellikle rekabetli sorgularda uzun vadeli sıralama istikrarının daha yüksek olduğu pek çok örnekte görülür (garanti değil; tekrar eden bir örüntü). Bu yüzden amaç “kısa vadeli hile” değil, tutarlı güven altyapısıdır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yazar → ekip → iletişim bağlantısı kusursuz mu?",
+              "Case/deneyim sinyali içerikte gerçekten “görünüyor” mu?",
+              "Kaynaklar ve güncelleme disiplini standardize mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Her içerikte minimum “güven sinyali seti”ni zorunlu yap (yazar + kaynak + güncelleme + iletişim).",
+              "Trust sayfalarını içerik stratejisinin parçası olarak yeniden tasarla.",
+              "365 gün döngüsünde “güven denetimi” ekle (standartlar değiştikçe güncelle)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "E-E-A-T Sinyalleri Kontrol Listesini İndir",
+            "text": "Her içerikte hangi güven sinyallerinin görünür olması gerektiğini 5 dakikada kontrol etmenizi sağlar.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "E-E-A-T & İçerik Güven Analizi Talep Et",
+            "text": "Yazar kutusu, case dili, kaynak standardı ve trust sayfalarıyla site genelinde güven grafiğini kurmak isteyen ekipler için.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      },
+      {
+        "id": "e-e-a-t-sinyalleri-kontrol-listesi",
+        "title": "E-E-A-T Sinyalleri Kontrol Listesini İndir — SEO / İçerik SEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "E-E-A-T Sinyalleri Kontrol Listesini İndir — SEO / İçerik SEO (v1.0)",
+            "purpose": "Bu asset, her içerikte “güven ve otorite” göstergelerini standartlaştırmak için hazırlanmış pratik bir kontrol ve uygulama planıdır. Amaç; yazar/uzman bilgisi, deneyim/case, kaynak standardı ve trust sayfalarıyla E-E-A-T sinyallerini görünür kılmaktır. Özellikle turizm/hizmet/sağlık/finans gibi güven hassasiyeti yüksek sektörlerde içerik kalitesini operasyonel hale getirir.",
+            "whoFor": "İçerik lideri, SEO uzmanı, editör, ajans yöneticisi, otel pazarlama ekibi.",
+            "steps": [
+              "İçeriği yayınlamadan önce checklist ile “minimum güven sinyali seti”ni doğrula.",
+              "Eksik kalan alanlar için 14 günlük sprint planındaki adımları uygula.",
+              "Yayın sonrası 30/90 gün notlarını ekleyip refresh kararını ver."
+            ],
+            "checklist": [
+              "İçerikte yazar kutusu var (rol + uzmanlık + profil/iletişim bağlantısı)",
+              "“Kim yazdı / neden güvenmeliyim?” sorusu en az 1 AEO blokla cevaplandı",
+              "En az 1 deneyim/case snippet eklendi (gizlilik korunarak)",
+              "Kritik iddialarda kaynak/atıf var ve güncellik belirtilmiş",
+              "“Son güncelleme” bilgisi görünür",
+              "Hakkımızda/Ekip/İletişim/KVKK gibi trust sayfalarına iç link var",
+              "“Düzeltme/geri bildirim” kanalı tanımlı (Varsayım: kurum uygunsa)",
+              "İç linkler: hizmet sayfası + ilgili cluster’a stratejik dağıtıldı",
+              "Aşırı iddia / kesin rakam / belirsiz vaat yok (risk yönetimi)"
+            ],
+            "sprintPlan": [
+              "Gün 1: İçerik envanteri: hangi sayfalarda trust sinyali eksik?",
+              "Gün 2: Yazar kutusu bileşeni (tasarım + alanlar) standardı",
+              "Gün 3: Ekip/Hakkımızda/İletişim sayfalarının kontrolü ve eksiklerin listesi",
+              "Gün 4: Kaynak standardı: hangi içerik kaç kaynak? güncellik formatı",
+              "Gün 5–6: 3 içerikte pilot uygulama (author + case + kaynak)",
+              "Gün 7: İç link düzeni: içerikten trust sayfalarına bağlama",
+              "Gün 8: AEO blokları ekleme (PAA sorularına kısa net cevap)",
+              "Gün 9: KPI takibi şablonu (lead kalitesi + etkileşim notları)",
+              "Gün 10–11: Geri bildirim/ düzeltme akışı (Varsayım: kurum uygunsa)",
+              "Gün 12: Görsel set: yazar kutusu mockup + checklist kartı + proof kartı",
+              "Gün 13: Yayın / güncelleme + internal link cleanup",
+              "Gün 14: 30 gün sonrası kontrol için takvim slotu açma"
+            ],
+            "deliverables": [
+              "Author box bileşeni (tasarım + alan standardı)",
+              "Kaynak/güncellik standardı dokümanı",
+              "Trust sayfaları iyileştirme listesi (Hakkımızda/Ekip/İletişim/KVKK)",
+              "3 içeriklik pilot uygulama çıktısı (case + kaynak + AEO blok)",
+              "30/90 gün KPI takip şablonu"
+            ],
+            "href": "/downloads/e-e-a-t-sinyalleri-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "E-E-A-T nedir, içerik üretiminde neden önemlidir?",
+        "a": "E-E-A-T, içerikte deneyim, uzmanlık, otorite ve güven sinyallerini görünür kılan çerçevedir. Kullanıcı risk algısı yükseldikçe “kim yazdı, neden güvenmeliyim” soruları daha kritik olur."
+      },
+      {
+        "q": "Yazar kutusu SEO’ya katkı sağlar mı?",
+        "a": "Tek başına “sıralama artıran” bir etiket gibi düşünülmemeli; ama güven ve şeffaflık algısını güçlendirir. Özellikle hizmet ve rekabetli sorgularda kullanıcı kararını kolaylaştırır."
+      },
+      {
+        "q": "Referans ve kaynak göstermek gerekli mi?",
+        "a": "Her içerikte akademik kaynakça şart değildir; fakat hassas konularda doğrulanabilirlik güveni artırır. Kaynak + güncellik bilgisi, iddiaları daha güvenilir hale getirir."
+      },
+      {
+        "q": "Hakkımızda ve iletişim sayfaları SEO için önemli mi?",
+        "a": "Bu sayfalar güvenin “site geneli” katmanıdır. Kullanıcı ve kalite algısı açısından “kim bu ekip, nasıl ulaşılır?” sorusunu kapatır; özellikle hizmet/karar anlarında etkilidir."
+      },
+      {
+        "q": "Google güvenilir içeriği nasıl anlar?",
+        "a": "İçeriğin faydalılığı, şeffaflığı, güncelliği ve kullanıcı memnuniyeti gibi sinyaller birlikte değerlendirilir. E-E-A-T, bu kalite çerçevesinin anlaşılmasına yardımcı olur."
+      },
+      {
+        "q": "E-E-A-T için en hızlı 3 aksiyon nedir?",
+        "a": "(1) Author box + ekip/iletişim linkleri, (2) en az 1 case/deneyim snippet’i, (3) kaynak + son güncelleme standardı."
+      },
+      {
+        "q": "YMYL’e yaklaşan içeriklerde (sağlık/finans) neye dikkat etmeli?",
+        "a": "Daha güçlü kaynak standardı, daha sık refresh ve uzman inceleme katmanı gerekir. Yanlış iddialardan kaçınmak ve düzeltme kanalı sunmak güveni artırır."
+      },
+      {
+        "q": "İçerikte güven sinyali çok olursa spam olur mu?",
+        "a": "Evet, yapay ve tekrar eden güven öğeleri (aynı anchor’lar, abartılı iddialar) ters etki yaratabilir. Sinyaller doğal yerleşmeli ve kullanıcı faydasına hizmet etmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-hero-01.webp — E-E-A-T güven sinyalleri, otel ve hizmet siteleri bağlamı",
+          "h1-context — 1920×1080 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-h1-context-02.webp — Yazar ve kaynak şeffaflığı, içerik güvenini artıran yapı örneği",
+          "divider-01 — 1600×1200 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-divider-03.webp — Yazar kutusu ve uzman imzası, içerik otoritesi görsel ayracı",
+          "divider-02 — 1600×1200 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-divider-04.webp — Trust sayfaları ve iletişim şeffaflığı, güven inşası ayırıcı görseli",
+          "diagram-05 — 1920×1080 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-diagram-05.webp — E-E-A-T güven grafiği, yazar-case-kaynak-trust sayfaları akışı",
+          "checklist-06 — 1200×1200 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-checklist-06.webp — Minimum E-E-A-T checklist kartı, içerik güven kontrol adımları",
+          "kpi-07 — 1200×1200 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-kpi-07.webp — Güven KPI kartı, lead kalitesi ve görünürlük istikrarı takibi",
+          "proof-08 — 1200×1200 — e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir-proof-08.webp — E-E-A-T deliverables kartı, yazar kutusu kaynak standardı ve sayfalar",
+          "table-e-e-a-t-signals — E-E-A-T sinyallerini özetleyen tablo",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Author box bileşeni için alan standardı tanımlandı",
+          "Yazar + İnceleyen ayrımı kritik içerikler için planlandı",
+          "Kaynak/güncellik standardı dokümanı hazırlandı",
+          "Hakkımızda/Ekip/İletişim/KVKK trust sayfaları kontrol edildi",
+          "İçeriklerden trust sayfalarına iç link zinciri kuruldu",
+          "Kritik iddialarda kaynak/atıf ve güncellik bilgisi görünür",
+          "AEO blokları PAA sorularına kısa net cevap verecek şekilde eklendi",
+          "Deneyim/case snippet standardı Problem → Müdahale → Sonuç formatına bağlandı",
+          "30/90 gün KPI takip şablonu oluşturuldu",
+          "365 gün güven denetimi ve refresh döngüsü tanımlandı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
+        ]
+      }
+    }
+  },
+
+  "BlogEntityVeAnlamsalSEOIcerikteVarlikOdakliYapisalYaklasim": {
+    "title": "Entity ve Anlamsal SEO: Varlık Odaklı İçerik",
+    "slug": "entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim",
+    "department": "seo",
+    "subDepartment":"content",
+    "updatedAt": "15 Mayıs 2026",
+    "publishedAt": "2026-05-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Entity nedir, anahtar kelimeden farkı nedir? Anlamsal SEO ile varlık/kavram ağını çıkarın, içerikte kapsayın; schema ve iç linklerle güçlendirin.",
+    "seo": {
+      "metaTitle": "Entity ve Anlamsal SEO: Varlık Odaklı İçerik | DGTLFACE",
+      "metaDescription": "Entity nedir, anahtar kelimeden farkı nedir? Anlamsal SEO ile varlık/kavram ağını çıkarın, içerikte kapsayın; schema ve iç linklerle güçlendirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Kodu / URL: İçerik SEO (Content SEO) / seo-3 / /tr/seo/icerik-seo",
+        "Blog Tipi / No / URL: Core / 8 / /tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim",
+        "Blog Başlık + H1: Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
+      ],
+      "strategySummary": "Bu blog, içerik üretimini “anahtar kelime listesi” yaklaşımından çıkarıp entity-first (varlık odaklı) + semantic coverage (anlamsal kapsama) yaklaşımına taşır. Hedef persona; otel sahibi / pazarlama müdürü / ajans yöneticisi: “rekabetli konularda tek kelimeye abanmış içerikler stabil sıralama alamıyor, long-tail çeşitliliği kaçıyor” problemini çözer. Funnel’da MoFu (consideration) ağırlıklıdır: kavramsal çerçeve + uygulanabilir şablon verir, ardından analiz/denetim CTA’sına yönlendirir. Silo içinde rolü, Content SEO hizmet sayfasına otorite taşıyan “mimari” içerik olmak; teknik SEO (schema) ve internal linking ile içerik stratejisini bağlamaktır. Ana iş sorusu: “Bir konuyu Google ve kullanıcı için ‘tam ve net’ hale getirecek entity/kavram ağını nasıl çıkarır ve içeriğe nasıl yediririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-15",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Entity ve anlamsal SEO yaklaşımı, içerikte yalnızca tek bir anahtar kelimeyi değil; konuyla ilişkili varlık ve kavram ağını (topic space) kapsamanızı sağlar. Böylece arama motoru için “bu sayfa tam olarak ne hakkında?” sorusunun cevabı netleşir, kullanıcı için içerik daha bütünlüklü olur. Pratikte ana entity’yi seçer, ilgili entity’leri ve alt kavramları haritalar, başlık yapısına dağıtır; schema ve internal linking ile ilişkileri güçlendirirsiniz.",
+      "sgeSummary": "Ana entity’yi belirle, ilgili varlık/kavram ağını çıkar, içerik mimarisine dağıt, schema ile ilişkilendir, internal linklerle otorite akışını kur ve long-tail kapsamasını performansla doğrula.",
+      "voiceAnswer": "Entity odaklı içerik için ana varlığı seçin, ilgili kavram ağını çıkarın ve schema + iç linklerle güçlendirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B hizmet markaları, ajans ekipleri",
+        "KPI: long-tail çeşitliliği, toplam organik trafik trendi, sıralama istikrarı eğilimi, içerik etkileşimi, dönüşüm (lead)",
+        "Entity Theme: Entity, Semantic SEO, related concepts, topic space, schema, internal linking",
+        "Geo: TR + otel/destinasyon örnekleri (Antalya vb.)",
+        "Funnel: MoFu (stratejik kurulum) → BoFu (analiz ve uygulama)",
+        "SERP hedefi: Featured Snippet + PAA (tanım ve “nasıl yapılır” blokları)",
+        "Refresh: 365 gün (schema ve kavram alanı değiştikçe güncelle)"
+      ]
+    },
+    "h1": {
+      "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+      "intro": "Bir içerik “anahtar kelimeyi” yakalayıp yine de istediğiniz stabil görünürlüğü getirmeyebilir. Çünkü rekabetli konularda asıl fark, tek kelimeyi kaç kez kullandığınız değil; konunun kavram alanını (topic space) ne kadar doğru ve bütünlüklü işlediğinizdir. Arama motorları, özellikle Google tarafında, sayfaları “bir kelime” üzerinden değil; varlıklar ve ilişkiler üzerinden anlamlandırmaya çalışır: konu nedir, hangi alt kavramlarla bağlıdır, hangi soruları kapsar, hangi sayfalarla ilişkilidir? Bu rehberde; entity (varlık) nedir, keyword’den farkı nedir, anlamsal SEO içerikte neyi değiştirir, entity haritası nasıl çıkarılır ve bunu schema + internal linking ile nasıl pekiştirirsiniz sorularını otel ve B2B örnekleriyle netleştireceğiz.",
+      "quickSummary": [
+        "1) Anahtar kelime yerine önce ana entity’yi netleştir",
+        "2) İlgili varlık/kavram ağını çıkar ve topic space’i tanımla",
+        "3) Kavramları H2/H3 mimarisine dağıtıp her bölüme rol ver",
+        "4) Schema ve internal linking ile entity ilişkilerini güçlendir",
+        "5) Long-tail çeşitliliği, hedef URL istikrarı ve organik trafik eğilimiyle performansı izle"
+      ],
+      "ctaPrimary": {
+        "label": "Entity & Semantic İçerik Analizi Talep Et",
+        "text": "Konu otoritesini entity kapsamasıyla güçlendirmek isteyen otel ve ajans ekipleri için.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Entity & Semantic İçerik Analizi Talep Et",
+        "text": "Rekabetli konularda entity kapsamasıyla daha stabil görünürlük isteyen otel ve ajans ekipleri için.",
+        "href": "/seo/icerik-seo"
+      },
+      "secondary": {
+        "label": "Entity Haritası ve Kavram Listesi Şablonunu İndir",
+        "text": "Her içerik için ilgili varlık/kavram ağını çıkarıp başlık mimarisine dağıtmanızı sağlar.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
+        "href": "/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
+      },
+      {
+        "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+        "href": "/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "entity-nedir-anahtar-kelimeden-farki-nedir",
+        "title": "Entity nedir, anahtar kelimeden farkı nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Anahtar kelime, kullanıcının yazdığı ifadedir; entity ise arama motorunun “gerçek dünyadaki varlık” olarak yorumladığı kavram/nesne/yer/organizasyon setidir. Bu ayrım içerik üretiminde kritik bir dönüşüm yaratır: keyword odaklı içerik “ifadeyi” kovalar; entity odaklı içerik “anlamı ve bağları” kurar."
+          },
+          {
+            "type": "h3",
+            "text": "Entity nedir, anahtar kelimeden farkı nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Entity, bir içeriğin merkezindeki varlık ve onun ilişkili kavram ağıdır; anahtar kelime ise bu varlığa ulaşmak için kullanılan sorgu ifadesidir. Keyword odaklı yaklaşım tek sorguyu hedeflemeye eğilimlidir; entity odaklı yaklaşım aynı varlığın etrafındaki alt soruları, alt kavramları ve bağları kapsar. Sonuçta sayfa “tek kelimeye abanmış” dar bir metin olmaktan çıkar, kavramsal olarak tamamlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel + B2B)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Otel dijital pazarlama” keyword olabilir; entity yaklaşımı burada otel, destinasyon, rezervasyon, kanallar ve ölçüm gibi alt kavramları birlikte ele alır.",
+              "B2B hizmette “içerik SEO” ana konu; entity ağına “arama niyeti, iç link, schema, raporlama” gibi alt kavramlar bağlanır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bu içerikte “ana entity” tek cümlede tanımlı mı?",
+              "Aynı entity’nin alt soruları/alt kavramları listelendi mi?",
+              "İçerik, tek sorgunun dışına taşan ama dağılmayan bir yapı kuruyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Ana anahtar kelimeyi değil, ana entity’yi yaz (konu ismi olarak).",
+              "“Bu entity ile doğal olarak birlikte anılan 10 kavram” listesini çıkar.",
+              "Bu kavramları H2/H3 mimarisine dağıt (her kavram bir rol taşısın)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anlamsal-seo-icerikte-neyi-degistirir",
+        "title": "Anlamsal SEO içerikte neyi değiştirir? (Semantic coverage ve “tamlık”)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Anlamsal SEO, “kaç kelime yazdım?” sorusunu “konu alanını ne kadar doğru kapsadım?” sorusuna çevirir. Bu yaklaşım özellikle rekabetli SERP’lerde şu iki problemi çözer:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kullanıcı tek soruyla gelmez; aynı sayfada alt sorulara da cevap ister.",
+              "Arama motoru “bu sayfa mı daha kapsamlı, yoksa diğeri mi?” kararını kavramsal tamamlığa göre verir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Anlamsal SEO nasıl uygulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Önce ana entity’yi ve hedef arama niyetini belirleyin; sonra ilgili entity’leri (alt varlıklar, süreçler, metrikler, araçlar) çıkarın. Bu kavramları içerik mimarisine (H2/H3) dağıtıp her bölümde net örnek ve mini kontrol listesi ekleyin. Ardından schema ve internal linklerle “ilişki ağını” sayfa dışında da destekleyin."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (operasyonel bağlam)"
+          },
+          {
+            "type": "p",
+            "text": "Bir otel sitesi “SEO” yazısı yazarken yalnız “title, meta, link” anlatırsa dar kalır. Anlamsal yaklaşım; dönüşüm ölçümü, kanal karışımı, rezervasyon akışı ve “misafir yolculuğu” gibi ilişkili kavramları da doğru yerlerde işler."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerikte “kavram alanı” liste halinde çıkarıldı mı?",
+              "Her kavramın içerikte bir “yeri ve işi” var mı?",
+              "Bölümler birbiriyle iç link ve schema bağlarıyla tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "“Kapsama matrisi” oluştur: kavram → bölüm → örnek → link.",
+              "Her ana bölümde 1 mini örnek + 1 mini check ile “uygulanabilirlik” ver.",
+              "Kapsama büyürken odağı kaybetme: her kavram ana entity’ye geri bağlansın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilgili-varliklar-ve-kavram-alani-nasil-cikarilir",
+        "title": "İlgili varlıklar ve kavram alanı nasıl çıkarılır? (Entity set + related concepts)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entity yaklaşımında en kritik adım “liste çıkarmak” değil, doğru listeyi çıkarmaktır. Bunu iki katmanlı düşün:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katman 1 (çekirdek): Ana entity’yi tanımlayan zorunlu kavramlar",
+              "Katman 2 (bağlantı): Kullanıcının soracağı alt soruları taşıyan ilgili kavramlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İlgili entity’leri çıkarma yöntemi (7 adım)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ana entity: İçeriğin tek cümle konusu (örn. “Entity ve Anlamsal SEO”)",
+              "Niyet: bilgi mi, kıyas mı, uygulama mı?",
+              "PAA/FAQ: kullanıcı sorularını listele",
+              "Alt varlıklar: sektör özel varlıklar (otel, destinasyon, rezervasyon vb.)",
+              "Süreç kavramları: planlama, üretim, optimizasyon, ölçüm",
+              "Teknik bağlar: schema, internal linking, site mimarisi",
+              "KPI bağları: long-tail çeşitliliği, görünürlük, istikrar, dönüşüm"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ana entity + niyet + 10 ilgili kavram seti hazır mı?",
+              "Kavramlar “aynı şeyin tekrarı” mı, yoksa farklı rol mü taşıyor?",
+              "Kavramların her biri içerikte “kanıt/örnek/aksiyon”la destekleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Önce “çekirdek 10” kavramı çıkar, sonra genişlet.",
+              "Her kavram için “kullanıcı sorusu” yaz (PAA mantığı).",
+              "Kavramları H2/H3’e dağıtırken tekrar ve cannibalisation riskini azalt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-planinda-entity-haritalama",
+        "title": "İçerik planında entity haritalama (brief → outline → yazım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entity haritalamayı “ekstra iş” gibi görürseniz ekip uygulamaz. Onu brief’in bir parçası yaparsanız, üretim standarda dönüşür. Bu bölümde, editoryal takvim ve içerik brief süreçlerine entity alanlarını nasıl eklersiniz onu netleştiriyoruz."
+          },
+          {
+            "type": "h3",
+            "text": "Entity haritası nasıl çıkarılır?"
+          },
+          {
+            "type": "p",
+            "text": "Entity haritası çıkarmak için ana konuyu (entity) yazın, sonra ilgili varlıkları ve kavramları (alt varlıklar, süreçler, metrikler, araçlar) listeleyin ve bunları içerik başlıklarına dağıtın. Her varlığa bir “amaç” atayın: tanım, örnek, süreç, ölçüm veya karar. Son adımda schema ve internal link hedefleriyle bu varlıkları sayfa dışı bağlara bağlayın."
+          },
+          {
+            "type": "h3",
+            "text": "Brief’e eklenecek minimum entity alanları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana entity (1 satır)",
+              "İlgili entity listesi (10–20 madde)",
+              "“Kavram alanı” (topic space) kısa tanımı (3–5 satır)",
+              "H2 planı (kavram → bölüm eşleştirme)",
+              "Schema hedefi (Article + FAQ + gerekiyorsa HowTo)",
+              "İç link hedefleri (hub sayfa + ilgili cluster sayfalar)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brief’te entity alanları “zorunlu” mu?",
+              "H2 planı kavram alanını kapsıyor mu?",
+              "Schema + internal link hedefleri yazım öncesi net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Brief şablonuna “ana entity + kavram listesi” alanını ekle.",
+              "Editör kontrolüne “kapsama kontrolü” maddesini koy.",
+              "Üretim sonrası 30 gün KPI notunu entity setine geri bağla (ne eksik kaldı?)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schema-ve-internal-linklerle-entityleri-guclendirmek",
+        "title": "Schema ve internal linklerle entity’leri güçlendirmek (teknik + içerik birlikte)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Entity yaklaşımı “keyword stuffing” yerine anlam odaklı üretimi teşvik eder; ama bu anlamın güçlenmesi için teknik katman gerekir. Burada iki kaldıraç öne çıkar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Schema / structured data: içeriğin türünü ve bileşenlerini netleştirir (FAQ, HowTo vb.) — Schema.org",
+              "Internal linking: entity’leri sitenin konu ağında birbirine bağlar (hub–cluster mantığı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm tarafında Google Search Console ve Google Analytics 4 gibi araçlarla; long-tail sorgu çeşitliliği, hedef URL istikrarı ve kullanıcı akışını takip edersiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Entity’leri schema ve iç linklerle nasıl güçlendiririm?"
+          },
+          {
+            "type": "p",
+            "text": "Schema ile sayfanın türünü ve soru-cevap bloklarını netleştirerek içeriğin yapısını makine-okur hale getirirsiniz; bu, entity ilişkilerinin daha anlaşılır olmasına yardım eder. Internal linklerle de ana entity’yi hub sayfaya bağlar, ilgili alt kavramları cluster içeriklere dağıtır ve kullanıcıyı mantıklı bir yolculuğa sokarsınız. Böylece hem anlam hem otorite akışı aynı anda güçlenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "FAQ blokları PAA sorularını gerçekten cevaplıyor mu?",
+              "Hub–cluster linkleri ana entity’ye göre planlı mı?",
+              "Ölçüm: long-tail çeşitlilik ve hedef URL istikrarı takip ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Her içerikte en az 3–5 stratejik internal link planla (hub + ilgili cluster + hizmet).",
+              "FAQPage + speakable ile AEO/voice tarafını destekle.",
+              "90 gün sonunda “kavram seti”ni güncelle: eksik kavramı ekle, gereksizi sadeleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-hizmet-ornekleriyle-entity-first-icerik-kurgusu",
+        "title": "Otel ve hizmet örnekleriyle entity-first içerik kurgusu (GEO + sektör)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entity yaklaşımını en hızlı, somut örneklerle oturtursunuz."
+          },
+          {
+            "type": "h3",
+            "text": "Otel/destinasyon örneği: “Antalya otel SEO” kavram alanı"
+          },
+          {
+            "type": "p",
+            "text": "Antalya gibi bir destinasyon, tek başına “şehir adı” değil; birçok alt varlığın bağlandığı bir kavram alanıdır: sezon, konaklama tipleri, teklif akışları, rezervasyon kanalları, yorum/puan, yerel aramalar vb. İçerikte bu kavramları doğru bölümlemeyle işlediğinizde “tek kelimeye abanma” yerine anlam genişliği yakalarsınız."
+          },
+          {
+            "type": "h3",
+            "text": "B2B hizmet örneği: “İçerik SEO” entity seti"
+          },
+          {
+            "type": "p",
+            "text": "Ana entity: Content SEO İlgili kavramlar: search intent, internal linking, schema, içerik operasyon, raporlama, dönüşüm akışı, refresh/consolidation Bu kavram seti, içeriklerinizi cluster’lara bölmenizi de kolaylaştırır: “intent rehberi”, “internal link stratejisi”, “schema ve entity”, “refresh playbook” gibi."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Entity odaklı yazılan içeriklerde, long-tail sorgulardan gelen çeşitliliğin ve toplam organik trafik eğiliminin arttığı birçok projede raporlanıyor (garanti değil; tekrar eden bir gözlem). Benzer şekilde, rekabetli konularda entity kapsaması güçlü sayfaların dar içeriklere göre daha stabil performans gösterdiği sıkça görülüyor."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otel örneklerinde kavramlar “operasyon + pazarlama” dengeli mi?",
+              "B2B örneğinde hizmet sayfası ve cluster linkleri planlandı mı?",
+              "İçerik, tek sorgu yerine sorgu kümelerine hizmet ediyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Otel/destinasyon sayfalarında entity setini “sezon + kanal + deneyim” olarak düşün.",
+              "B2B içeriklerinde entity setini “süreç + teknik + ölçüm” olarak kur.",
+              "Entity setini her yeni içerikte güncelle: yeni hizmet/destinasyon geldikçe genişlet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "keyword-listesiyle-icerik-planlama-hatasi",
+        "title": "Fark yaratan mini bölüm: “Keyword listesiyle içerik planlama” hatası (Competitor gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok ekip, içerik planını sadece keyword tool çıktısıyla yapıyor: sonuç, birbirine benzeyen dar içerikler ve cannibalisation. Bu rakip boşluğunu kapatan yaklaşım şudur: Konu → entity seti → kavram alanı → içerik mimarisi → schema + iç link. Bu akış, tek kelimeye abanmayı önler ve sayfaların birbirini desteklediği bir sistem kurar."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Ana konu + ilgili varlıkları içeren tablo",
+            "headers": [
+              "Ana Entity",
+              "İlgili Entity/Kavram",
+              "Bölüm Rolü",
+              "İç Link Hedefi",
+              "Schema Notu"
+            ],
+            "rows": [
+              [
+                "Entity & Semantic SEO",
+                "Anahtar kelime vs entity",
+                "Tanım + karşılaştırma",
+                "/tr/seo/icerik-seo",
+                "FAQ"
+              ],
+              [
+                "Entity mapping",
+                "Topic space",
+                "Planlama çerçevesi",
+                "/tr/seo/icerik-seo",
+                "HowTo step"
+              ],
+              [
+                "Schema",
+                "FAQ/HowTo",
+                "Yapısal güçlendirme",
+                "/tr/seo/teknik-seo",
+                "Article+FAQ+HowTo"
+              ],
+              [
+                "Internal linking",
+                "Hub–cluster",
+                "Otorite dağılımı",
+                "/tr/otel/seo",
+                "—"
+              ],
+              [
+                "Ölçüm",
+                "long-tail / istikrar",
+                "Takip ve revizyon",
+                "(Varsayım: raporlama sayfası)",
+                "—"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Entity Haritası ve Kavram Listesi Şablonunu İndir",
+            "text": "Her içerik için entity setini 10 dakikada çıkarıp başlıklara dağıtmanızı sağlar.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Entity & Semantic İçerik Analizi Talep Et",
+            "text": "Entity kapsaması, schema ve iç linklerle konu otoritesini sistematik güçlendirmek isteyen ekipler için.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      },
+      {
+        "id": "entity-haritasi-ve-kavram-listesi-sablonu",
+        "title": "Entity Haritası ve Kavram Listesi Şablonunu İndir — SEO / Entity & Semantic SEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Entity Haritası ve Kavram Listesi Şablonunu İndir — SEO / Entity & Semantic SEO (v1.0)",
+            "purpose": "Bu şablon, her içerik için ana entity’yi ve ilgili kavram alanını sistematik biçimde çıkarmanızı sağlar. Amaç; yalnız anahtar kelimeye dayalı dar içerikler yerine, schema ve internal linklerle desteklenen “semantic map” yaklaşımıyla kapsama ve tutarlılık oluşturmaktır. Otel/destinasyon ve B2B hizmet içeriklerinde cluster mimarisini daha hızlı kurmaya yardım eder.",
+            "whoFor": "SEO uzmanı, içerik stratejisti, editör, ajans yöneticisi, otel pazarlama ekibi.",
+            "steps": [
+              "Ana entity’yi ve niyeti yaz; PAA sorularını ekle.",
+              "İlgili entity/kavram listesini çıkar ve H2/H3 planına dağıt.",
+              "Schema ve internal link hedeflerini ekleyip yayın sonrası KPI notunu doldur."
+            ],
+            "templateFields": [
+              "İçerik Başlığı (H1): ________",
+              "Ana Entity: ________",
+              "Niyet (Intent): ________",
+              "Hedef Persona: ________",
+              "Primary KPI: ________",
+              "Refresh Cycle: ________",
+              "Entity & Kavram Listesi (10–20): ________",
+              "PAA/FAQ Soruları (5–10): ________",
+              "H2/H3 Dağılım Planı: ________",
+              "Schema Notu: Article / FAQPage / HowTo / speakable",
+              "Internal Link Planı: Hub hedef / Cluster hedef(ler) / Hizmet hedef",
+              "Yayın Sonrası Not (30 gün): Long-tail çeşitlilik / Hedef URL istikrarı / Güncelleme kararı"
+            ],
+            "rules": [
+              "Ana entity tek olmalı; yan entity’ler rol almalı.",
+              "Listeyi “eş anlamlı” değil “ilişkili kavram” mantığıyla çıkar.",
+              "Her kavram bir başlık altında “tanım/örnek/aksiyon” üretmeli.",
+              "Schema ve iç link hedefleri yazım öncesi belirlenmeli.",
+              "30 gün performans notu, bir sonraki revizyonun girdisi olmalı."
+            ],
+            "example": [
+              "Ana entity: “Entity & Semantic SEO”",
+              "İlgili kavramlar: schema, internal linking, topic space, PAA, long-tail",
+              "H2 planı: Tanım → Uygulama → Haritalama → Schema+Link → Ölçüm",
+              "İç link: /tr/seo/icerik-seo + /tr/seo/teknik-seo"
+            ],
+            "checklist": [
+              "Ana entity net",
+              "10+ ilgili kavram listesi var",
+              "5+ PAA sorusu yazıldı",
+              "H2/H3 dağılımı yapıldı",
+              "Schema + internal link planı eklendi",
+              "30 gün KPI not alanı hazır"
+            ],
+            "deliverables": [
+              "Entity/kavram listesi + H2 dağılım planı",
+              "Schema notu + internal link planı",
+              "30 gün KPI değerlendirme notu"
+            ],
+            "href": "/downloads/entity-haritasi-ve-kavram-listesi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Entity nedir, anahtar kelimeden farkı nedir?",
+        "a": "Entity, konunun merkezindeki varlık ve ilişkili kavram ağıdır; anahtar kelime ise bu varlığa ulaşan sorgu ifadesidir. Entity odaklı yaklaşım, konuyu daha bütünlüklü kapsar."
+      },
+      {
+        "q": "Anlamsal SEO içerikte neyi değiştirir?",
+        "a": "İçerik “tek sorguya” değil, konunun kavram alanına göre kurgulanır. Bu da alt soruları daha iyi kapatır ve sayfanın “tamlık” algısını güçlendirir."
+      },
+      {
+        "q": "Entity haritası nasıl çıkarılır?",
+        "a": "Ana entity’yi yazıp ilgili kavramları (alt varlıklar, süreçler, metrikler, teknik bağlar) listeleyin ve H2/H3 başlıklarına dağıtın. Sonrasında schema ve iç link hedefleriyle ilişki ağını pekiştirin."
+      },
+      {
+        "q": "Entity’leri schema ve iç linklerle nasıl güçlendiririm?",
+        "a": "Schema ile sayfa türünü (Article/FAQ/HowTo) netleştirir, iç linklerle hub–cluster ağını kurarsınız. Böylece hem anlam hem otorite akışı desteklenir."
+      },
+      {
+        "q": "Keyword kullanmayı bırakmalı mıyım?",
+        "a": "Hayır. Keyword, giriş kapısıdır; entity yaklaşımı ise sayfanın içini ve ilişkilerini tamamlar. İkisi birlikte çalışır."
+      },
+      {
+        "q": "Entity odaklı içerik long-tail trafiği nasıl artırır?",
+        "a": "Konunun alt kavramlarını kapsadığınız için sayfa daha fazla sorgu varyasyonuna “doğal olarak” cevap verir. Bu da long-tail çeşitliliğini artırma eğilimi yaratır."
+      },
+      {
+        "q": "Entity yaklaşımı keyword stuffing’i nasıl önler?",
+        "a": "Odak “kelime tekrarında” değil “kavram tamamlığında” olduğu için metin daha doğal akışla yazılır. Teknik katman (schema + internal linking) de sinyali güçlendirir."
+      },
+      {
+        "q": "Otel sitelerinde entity seti nasıl seçilmeli?",
+        "a": "Destinasyon, sezon, konsept, rezervasyon kanalı, deneyim/yorum gibi “operasyon + pazarlama” kavramlarını birlikte düşünmek gerekir. Her kavramın içerikte rolü net olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-hero-01.webp — Entity ve semantic SEO haritası, otel ve hizmet içerik mimarisi",
+          "h1-context — 1920×1080 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-h1-context-02.webp — Ana entity ve ilgili kavram ağı, içerik planlama akışı örneği",
+          "divider-01 — 1600×1200 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-divider-03.webp — Kavram alanı ve semantic coverage bölümü, içerik yapılandırma ayracı",
+          "divider-02 — 1600×1200 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-divider-04.webp — Schema ve internal linking bölümü, teknik ve içerik entegrasyon ayracı",
+          "diagram-05 — 1920×1080 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-diagram-05.webp — Entity haritası diyagramı, ana konu ve ilgili kavram ağ yapısı",
+          "checklist-06 — 1200×1200 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-checklist-06.webp — Entity haritalama checklist kartı, brief ve başlık yapısı kontrolü",
+          "kpi-07 — 1200×1200 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-kpi-07.webp — Long-tail çeşitliliği KPI kartı, organik trafik eğilimi ve istikrar",
+          "proof-08 — 1200×1200 — entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim-proof-08.webp — Entity-first içerik çıktıları kartı, tablo harita ve link planı kanıtı",
+          "table-entity-map — Ana entity + ilgili varlıklar + içerik rolü + link + schema matrisi",
+          "table-topic-space — Ana konu + ilgili varlıkları içeren tablo",
+          "table-before-after-kpi — 30 gün KPI değerlendirme notu tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Article schema planlandı",
+          "FAQPage schema PAA soruları için planlandı",
+          "HowTo schema uygun bölümlerde değerlendirildi",
+          "speakable alanı AEO/voice hedefi için değerlendirildi",
+          "Ana entity ve ilgili kavram listesi brief içinde zorunlu alan olarak tanımlandı",
+          "H2/H3 dağılımı entity/kavram alanına göre kontrol edildi",
+          "Hub–cluster internal link planı oluşturuldu",
+          "Her içerikte en az 3–5 stratejik internal link hedefi belirlendi",
+          "Long-tail çeşitlilik ve hedef URL istikrarı 30/90 gün ritminde takip ediliyor",
+          "Cannibalisation riski için kavram tekrarları kontrol edildi",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
+        ]
+      }
+    }
+  },
+
+  "BlogUzunFormVeKisaFormIcerikStratejisiNeZamanHangisi": {
+  "title": "Long-Form mı Short-Form mı? İçerik Uzunluğu",
+  "slug": "uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi",
+  "department": "seo",
+  "subDepartment":"content",
+  "updatedAt": "15 Mayıs 2026",
+  "publishedAt": "2026-05-15",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Uzun içerik mi kısa içerik mi? Sihirli kelime sayısı yok. SERP yapısı, arama niyeti ve bilgi ihtiyacına göre long-form rehber mi quick answer mı seçeceğinizi öğrenin.",
+  "seo": {
+    "metaTitle": "Long-Form mı Short-Form mı? İçerik Uzunluğu | DGTLFACE",
+    "metaDescription": "Uzun içerik mi kısa içerik mi? Sihirli kelime sayısı yok. SERP yapısı, arama niyeti ve bilgi ihtiyacına göre long-form rehber mi quick answer mı seçeceğinizi öğrenin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEO",
+      "Sayfa (Hub) / URL: İçerik SEO (Content SEO) — /tr/seo/icerik-seo",
+      "Sayfa Kodu: seo-3",
+      "Blog / URL: /tr/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi",
+      "Blog Tipi: Core",
+      "Blog No: 9",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi"
+    ],
+    "strategySummary": "Bu yazı, içerik uzunluğunu “paket/kelime sayısı” mantığından çıkarıp SERP + intent + değer yoğunluğu (value density) mantığıyla karar verilen bir çerçeveye taşır. Hedef persona; otel sahibi, pazarlama müdürü ve ajans yöneticisi: “gereksiz uzun içerik yazıyoruz / kısa içerikler eksik kalıyor / aynı konuyu iki formatla hedefleyip cannibalisation yaratıyoruz” problemini çözer. Funnel’da MoFu ağırlıklıdır: stratejik karar modeli ve uygulanabilir şablonlar sunar; ardından analiz/denetim talebine yönlendirir. Silo içindeki rolü, Content SEO hizmet sayfasını destekleyen “format seçimi” rehberi olmak ve editoryal takvim/cluster planlamaya doğrudan bağlanmaktır. Ana iş sorusu: “Bu konu için uzun rehber mi, kısa cevap mı; kararımı SERP ve kullanıcı ihtiyacına göre nasıl veririm?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-05-15",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "İçerik uzunluğu için sihirli bir kelime sayısı yoktur; doğru karar, arama niyetini tam karşılamak ve SERP’teki rakiplerin sunduğu değeri yakalayıp aşmaktır. Bazı konular kapsamlı bir long-form rehber ister (yüksek rekabet, çok alt soru, karar karmaşıklığı); bazıları kısa, net “quick answer” formatıyla daha iyi çalışır (tek soru, hızlı cevap). Kararı SERP formatı, kullanıcı okuma davranışı ve cannibalisation riskini birlikte değerlendirerek verin.",
+    "sgeSummary": "Uzunluk kararını kelime sayısıyla değil; intent, SERP formatı, alt soru sayısı ve kullanıcı ihtiyacıyla ver. Rehber gerekiyorsa long-form, tek cevap gerekiyorsa short-form seç.",
+    "voiceAnswer": "Blog yazısı kelime sayısı duruma göre değişir; SERP ve intent’e bakıp rehber mi hızlı cevap mı seçin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel/turizm, B2B hizmet markaları, ajans ekipleri",
+      "KPI: CTR, etkileşim (scroll/okunma), snippet/PAA görünürlüğü, dönüşüm, sayfa hız/CWV",
+      "Entity çekirdeği: Long-form content, short-form content, content depth, SERP benchmark, intent, cannibalisation",
+      "Funnel: ToFu/MoFu format kararı → BoFu (hizmet/dönüşüm sayfalarına akış)",
+      "SERP hedefi: Featured Snippet + PAA (kısa net bloklar) + rehber SERP’leri",
+      "Risk: gereksiz tekrar, cannibalisation, performans (hız/CWV)",
+      "Refresh: 365 gün (SERP özellikleri ve kullanıcı beklentileri değiştikçe)"
+    ]
+  },
+  "h1": {
+    "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
+    "intro": "“Uzun içerik daha iyi” veya “kısa içerik daha iyi” gibi tek cümlelik kurallar, pratikte sizi yanlış yere götürür. Çünkü SEO’da uzunluk, tek başına bir hedef değil; değer yoğunluğunun (kullanıcının ihtiyacını karşılayan bilgi miktarı) bir sonucudur. Bazı SERP’ler kapsamlı rehberleri ödüllendirirken, bazıları kısa net cevapları ve SSS formatını daha uygun bulur. Bu rehberde, içerik uzunluğunu SERP + intent + davranış ile belirleyen bir karar sistemi kuracağız; otel ve hizmet siteleri için örneklerle netleştireceğiz.",
+    "quickSummary": [
+      "1) İçerik uzunluğu için sihirli kelime sayısı yoktur",
+      "2) Karar SERP formatı, intent ve alt soru sayısıyla verilmelidir",
+      "3) Long-form rehber; rekabetli, çok alt sorulu ve karar karmaşıklığı yüksek konular için uygundur",
+      "4) Short-form içerik; tek soruya hızlı ve net cevap gereken durumlarda daha iyi çalışır",
+      "5) Aynı konuyu iki formatla hedeflerken cannibalisation riski kontrol edilmelidir"
+    ],
+    "ctaPrimary": {
+      "label": "Long/Short İçerik Strateji Analizi Talep Et",
+      "text": "Konu bazında doğru formatı seçip cannibalisation’ı azaltmak isteyen otel ve ajans ekipleri için.",
+      "href": "/seo/icerik-seo"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Long/Short İçerik Strateji Analizi Talep Et",
+      "text": "SERP ve intent’e göre doğru formatı seçip içerik yatırımını verimli yapmak isteyen ekipler için.",
+      "href": "/seo/icerik-seo"
+    },
+    "secondary": {
+      "label": "Long-Form vs Short-Form İçerik Karar Şablonunu İndir",
+      "text": "Format kararını SERP sinyali ve kapsam kriterleriyle standartlaştırmanızı sağlar.",
+      "href": "/seo/icerik-seo"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "İçerik SEO hizmet sayfası",
+      "href": "/seo/icerik-seo"
+    },
+    {
+      "label": "SEO hizmetleri",
+      "href": "/seo-hizmetleri"
+    },
+    {
+      "label": "SEO raporlama",
+      "href": "/seo/seo-raporlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+      "href": "/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
+    },
+    {
+      "title": "İçerik SEO Nedir? Arama Niyeti ve Sayfa Mimarisi Nasıl Kurulur?",
+      "href": "/seo/icerik-seo"
+    }
+  ],
+  "sections": [
+    {
+      "id": "long-form-vs-short-form-nedir",
+      "title": "Long-form vs short-form içerik nedir? (Tanımlar ve yanlış beklentiler)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context"
+        },
+        {
+          "type": "p",
+          "text": "Long-form içerik, genellikle bir konunun “rehber” mantığında kapsamlı ele alındığı, alt soruların da kapatıldığı formatı ifade eder. Short-form ise tek bir soruya hızlı, net cevap veren; çoğu zaman SSS/quick answer veya kısa rehber formatında hazırlanmış içeriklerdir. Burada kritik nokta, long-form’un “uzun” olduğu için değerli olmaması; short-form’un “kısa” olduğu için yetersiz sayılmamasıdır. Değer, uzunluktan değil ihtiyacı karşılamadan gelir."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (otel)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Antalya’da otel seçerken nelere dikkat etmeliyim?” → çok alt soru (konum, sezon, konsept, bütçe, yorumlar): long-form daha doğal.",
+            "“Otel check-in saati kaçtır?” → tek cevap: short-form daha doğal."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Uzun içerik mi kısa içerik mi daha iyi? (AEO)"
+        },
+        {
+          "type": "p",
+          "text": "Tek bir doğru yok; içerik uzunluğu, kullanıcı niyeti ve SERP’teki kazanan formatla uyumlu olmalıdır. Çok alt sorulu, rekabetli ve karar karmaşıklığı yüksek konular long-form rehber ister; tek soruya net cevap gereken konular short-form ile daha iyi performans verir. En iyi seçim, “gereksiz uzatma” yerine doğru kapsama ve net yapı kurmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kullanıcının tek sorusu mu var, yoksa zincir sorular mı?",
+            "SERP’te rehber mi baskın, quick answer mı?",
+            "Bu konu dönüşüm yolculuğunda hangi aşamada?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Konuyu “tek soru” mu “rehber” mi diye etiketle.",
+            "SERP’te ilk 5 sonucu formatına göre sınıflandır.",
+            "Uzunluk hedefini değil, “kapsama hedefini” yaz (hangi alt sorular kapanacak?)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "serpe-gore-uzunluk-karari",
+      "title": "SERP’e göre uzunluk kararı (rakip yapısı + format sinyalleri)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "İçerik uzunluğu kararı “içerik paketi” değil, SERP benchmark kararıdır. İlk sayfadaki içeriklerin yapısı ve formatı, Google’ın o sorgu için neyi ödüllendirdiğine dair güçlü sinyal verir: liste mi, rehber mi, video mu, SSS mi? Bu bölümde SERP’ten sinyal okuyarak long/short kararını nasıl verdiğimizi netleştiriyoruz."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: SERP uzunluk analizi örnek tablosu",
+          "headers": [
+            "Sorgu Tipi",
+            "SERP’te Baskın Format",
+            "Rakip Yapı Sinyali",
+            "Önerilen Format",
+            "Risk"
+          ],
+          "rows": [
+            [
+              "“nedir / nasıl yapılır”",
+              "rehber + PAA",
+              "çok H2/H3, checklist",
+              "long-form rehber",
+              "gereksiz tekrar"
+            ],
+            [
+              "“kaç / nasıl / ne zaman”",
+              "snippet + kısa sayfa",
+              "kısa cevap blokları",
+              "short-form / quick answer",
+              "yetersiz kapsam"
+            ],
+            [
+              "“en iyi / karşılaştırma”",
+              "listeler",
+              "tablo, kriterler",
+              "orta-uzun (kıyas)",
+              "subjektif dil"
+            ],
+            [
+              "“fiyat / rezervasyon / teklif”",
+              "landing/hizmet",
+              "CTA yoğun, net fayda",
+              "dönüşüm sayfası",
+              "blog ile çakışma"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İçerik uzunluğunu nasıl belirlemeliyim? (AEO)"
+        },
+        {
+          "type": "p",
+          "text": "Önce SERP’teki kazanan formatı belirleyin: rehber mi, liste mi, quick answer mı? Sonra kullanıcının bilgi ihtiyacını çıkarın: kaç alt soru var, karar karmaşık mı, örnek/şema gerekiyor mu? En son cannibalisation riskini kontrol edin: aynı konuyu başka URL’de zaten kapsamlı anlatıyorsanız, ikinci bir long-form açmak yerine destekleyici kısa içerik üretin."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "SERP’te format baskınlığı net mi?",
+            "Alt soru sayısı (PAA) size kapsam sinyali veriyor mu?",
+            "Bu içerik, sitedeki mevcut içeriklerle çakışacak mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "SERP’i “format haritası” olarak kaydet (rehber/list/SSS/landing).",
+            "PAA sorularını çıkar; bu sorular kapsama sınırını belirlesin.",
+            "Sitedeki benzer içerikleri kontrol et; gerekiyorsa consolidation planla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yuksek-rekabetli-rehber-konular-ve-hizli-cevaplar",
+      "title": "Yüksek rekabetli rehber konular vs hızlı cevap içerikleri (ne zaman hangisi?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu ayrım, format kararının en pratik hali:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yüksek rekabetli rehber konular: konu geniş, alt sorular çok, kullanıcı karar veriyor.",
+            "Hızlı cevap içerikleri: soru tek, cevap kısa, kullanıcı hız istiyor."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kaç kelimelik içerik SEO için idealdir? (AEO)"
+        },
+        {
+          "type": "p",
+          "text": "İdeal kelime sayısı sabit değildir; içerik, kullanıcı niyetini karşılayacak kadar “tam” olmalıdır. Rehber konular genellikle daha kapsamlı olur; quick answer içerikleri ise kısa net bloklarla hedefi vurur. Kelime sayısını artırırken tekrar üretmek yerine değer yoğunluğunu artırın: örnek, tablo, checklist ve net cevap blokları ekleyin."
+        },
+        {
+          "type": "h3",
+          "text": "“Value density” yaklaşımı (uzunluk yerine değer)"
+        },
+        {
+          "type": "p",
+          "text": "Uzunluğu artırmak kolay; değeri artırmak zordur. Değer yoğunluğu, şu soruyla ölçülür: “Kullanıcı bu sayfada, aradığı cevabı ve bir sonraki adımı buluyor mu?” Eğer bulmuyorsa, 1000 kelime daha eklemek çözüm değildir."
+        },
+        {
+          "type": "h3",
+          "text": "Mini örnek (B2B)"
+        },
+        {
+          "type": "p",
+          "text": "“İçerik SEO hizmeti nedir?” sorusunda kullanıcı hızlı bir çerçeve ister → kısa net sayfa + CTA. “İçerik SEO nasıl kurulur?” sorusunda kullanıcı süreç ister → long-form rehber + tablo + checklist."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İçerikte “tekrar” var mı, yoksa yeni bilgi mi?",
+            "Her H2 bir alt soruyu kapatıyor mu?",
+            "Kullanıcı bir sonraki adımı görebiliyor mu (micro CTA)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Long-form yazıyorsan her bölümde örnek/tablo/checklist ile değer ekle.",
+            "Short-form yazıyorsan en üstte 2–3 cümle net cevap ver.",
+            "İki formatı aynı konuda kullanacaksan rollerini ayır (biri hub/rehber, diğeri SSS)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-form-short-form-cannibalisation-riski",
+      "title": "Aynı konuyu long-form ve short-form ile hedeflemek doğru mu? (cannibalisation riski)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Aynı konuyu iki URL’de “aynı niyetle” hedeflemek sık yapılan hatadır. Bu, cannibalisation’a yol açabilir: Google hangi sayfayı öne çıkaracağını bilemez, sıralamalar dalgalanır. Ancak doğru rol dağılımıyla iki format birlikte çalışabilir: long-form “ana rehber/hub”, short-form “tek soru/SSS” olur ve long-form’a iç link verir."
+        },
+        {
+          "type": "h3",
+          "text": "Aynı konuyu long-form ve short-form ile hedeflemek doğru mu? (AEO)"
+        },
+        {
+          "type": "p",
+          "text": "Aynı niyeti taşıyan iki sayfa açmak genelde doğru değildir; cannibalisation riski yaratır. Eğer iki format kullanılacaksa roller ayrılmalıdır: long-form ana rehber/hub olur, short-form belirli bir alt soruyu hızlı yanıtlar ve rehbere/hizmete link verir. İç link ve canonical/redirect kararlarıyla hiyerarşi netleştirilmelidir (Varsayım: teknik ekip uygular)."
+        },
+        {
+          "type": "h3",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İki sayfanın niyeti gerçekten farklı mı?",
+            "Hangi sayfa “ana” hangisi “destek” rolünde?",
+            "İç link akışı ana sayfayı güçlendiriyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Aynı konu için “tek ana sayfa” seç, diğerlerini alt soru olarak tasarla.",
+            "Destek sayfayı ana rehbere linkle (hub–cluster mantığı).",
+            "Dalgalanma varsa consolidation değerlendir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-ve-hizmet-sayfalari-icin-ornek-kararlar",
+      "title": "Otel ve hizmet sayfaları için örnek kararlar (sektörel uygulama)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Otel örnekleri (GEO doğal)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Side’de çocuk dostu otel aktiviteleri” → çok alt soru → long-form rehber + konsept sayfalarına iç link",
+            "“Belek otel erken rezervasyon iptal koşulları” → net bilgi + güven → short-form + SSS + iletişim/kvkk linkleri",
+            "“Kemer otel transfer nasıl yapılır?” → kısa cevap + yönlendirme → short-form + ilgili hizmet sayfasına link"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B2B/hizmet örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“SEO raporlama nedir?” → kısa çerçeve + CTA → short-form sayfa",
+            "“SEO raporlama sistemi nasıl kurulur?” → süreç + örnek dashboard + checklist → long-form rehber"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Technical SEO notu (row’dan)"
+        },
+        {
+          "type": "p",
+          "text": "İçeriği uzatırken bilgi tekrarına kaymamak ve sayfa performansını (hız/CWV) bozmamak gerekir. Çok görsel ve ağır modüller, özellikle mobilde deneyimi düşürebilir; bu da SXO tarafında geri tepebilir."
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "h3",
+          "text": "Key Statistics / Data Point (row’dan, yumuşak kullanım)"
+        },
+        {
+          "type": "p",
+          "text": "SERP ve kullanıcı beklentileri değiştikçe aynı konu için ideal format da değişebilir; bu yüzden içerikler periyodik olarak yeniden değerlendirilmelidir. Yeni SERP özellikleri (video, snippet, AI cevaplar) format kararlarını etkiledikçe strateji örneklerini güncellemek gerekir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Her içerik brief’ine “format kararı” alanı ekle (long/short + gerekçe).",
+            "90 günde bir “format uygunluğu” kontrolü yap (SERP değişti mi?).",
+            "Hız/CWV riskini kontrol et: gereksiz ağır sayfa kurgusundan kaçın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-form-short-form-karar-sablonu",
+      "title": "Long-Form vs Short-Form İçerik Karar Şablonunu İndir — Content SEO",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Long-Form vs Short-Form İçerik Karar Şablonunu İndir — Content SEO (v1.0)",
+          "purpose": "Bu şablon, içerik uzunluğu kararını “kelime paketi” mantığından çıkarıp SERP ve kullanıcı ihtiyacına göre standartlaştırır. Amaç; gereksiz uzun içerik üretimini azaltmak, yetersiz kalan kısa içerikleri güçlendirmek ve aynı konuda cannibalisation riskini düşürmektir.",
+          "whoFor": "SEO uzmanı, içerik stratejisti, editör, ajans yöneticisi.",
+          "steps": [
+            "SERP formatını ve PAA sorularını topla.",
+            "Intent ve bilgi ihtiyacına göre long/short kararını ver.",
+            "Rol dağılımı + iç link planını yaz ve 30/90 gün KPI ile doğrula."
+          ],
+          "template": [
+            "Konu / H1: ________",
+            "Hedef Keyword: ________",
+            "Intent: ________",
+            "SERP Baskın Format: (Rehber/Liste/SSS/Video/Landing) ________",
+            "PAA Alt Soru Sayısı: ________",
+            "Rakip Değer Sinyali: (tablo/checklist/örnek var mı?) ________",
+            "Önerilen Format: (Long-form / Short-form) ________",
+            "Gerekçe (1–2 cümle): ________",
+            "Risk: (Tekrar/CWV/Cannibalisation) ________",
+            "Rol Dağılımı: (Ana sayfa / destek sayfa / SSS) ________",
+            "Internal Link Targets: ________",
+            "CTA Planı: Primary ___ / Secondary ___",
+            "30 gün KPI notu: ________",
+            "90 gün revizyon kararı: ________"
+          ],
+          "checklist": [
+            "SERP formatı ve PAA soruları toplandı",
+            "Intent ve bilgi ihtiyacına göre long/short kararı verildi",
+            "Rakip değer sinyali kontrol edildi",
+            "Cannibalisation riski değerlendirildi",
+            "Rol dağılımı ve internal link hedefleri yazıldı",
+            "CTA planı belirlendi",
+            "30/90 gün KPI notu oluşturuldu"
+          ],
+          "href": "/downloads/long-form-vs-short-form-icerik-karar-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: İçerik uzunluğu hedef değil, doğru format kararının sonucudur",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Long-form ve short-form içerik arasında seçim yaparken asıl soru “kaç kelime yazmalıyız?” değildir. Asıl soru; kullanıcının niyeti, SERP’te baskın format, alt soru sayısı, dönüşüm yolculuğu ve mevcut içerik mimarisi birlikte okunduğunda hangi formatın daha doğru olduğudur."
+        },
+        {
+          "type": "p",
+          "text": "Gereksiz uzun içerikler tekrar ve performans riski yaratabilir; fazla kısa içerikler ise kapsamı eksik bırakabilir. Bu yüzden içerik uzunluğu kararını editoryal takvimden önce, SERP ve intent verisiyle standartlaştırmak gerekir."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Long/Short İçerik Strateji Analizi Talep Et",
+          "text": "Konu bazında format seçimi, cannibalisation kontrolü ve içerik mimarisi planı isteyen ekipler için.",
+          "href": "/seo/icerik-seo"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Long-Form vs Short-Form İçerik Karar Şablonunu İndir",
+          "text": "SERP sinyali, intent ve kapsam kriterleriyle format kararını 5 dakikada vermenizi sağlar.",
+          "href": "/seo/icerik-seo"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Uzun içerik mi kısa içerik mi daha iyi?",
+      "a": "Tek bir doğru yok; karar intent ve SERP formatına göre verilir. Çok alt sorulu rehber konular long-form, tek sorulu hızlı cevap konuları short-form ile daha iyi çalışır."
+    },
+    {
+      "q": "Kaç kelimelik içerik SEO için idealdir?",
+      "a": "Sihirli bir sayı yoktur. “Yeterli kapsama + yüksek değer yoğunluğu” hedeflenmelidir; tekrar eklemek yerine örnek/tablo/checklist ile değeri artırın."
+    },
+    {
+      "q": "Aynı konuyu long-form ve short-form ile hedeflemek doğru mu?",
+      "a": "Aynı niyetle iki sayfa açmak cannibalisation yaratabilir. İki format kullanılacaksa roller ayrılmalı: long-form ana rehber/hub, short-form alt soruya hızlı cevap olmalı."
+    },
+    {
+      "q": "İçerik uzunluğunu nasıl belirlemeliyim?",
+      "a": "SERP’te kazanan formatı, PAA alt sorularını ve kullanıcı bilgi ihtiyacını değerlendirin. Sonra sitenizde benzer içerik var mı kontrol edip çakışmayı önleyin."
+    },
+    {
+      "q": "Long-form içerik ne zaman gerekli olur?",
+      "a": "Rekabetli ve çok alt sorulu konularda; süreç, örnek ve karar kriterleri gerektiğinde. Kullanıcı “tam rehber” bekliyorsa long-form daha uygundur."
+    },
+    {
+      "q": "Short-form içerik ne zaman daha iyi olur?",
+      "a": "Tek soruya net cevap gereken, hızlı çözüm aranan konularda. Snippet/PAA hedeflerinde kısa cevap blokları daha etkili olabilir."
+    },
+    {
+      "q": "İçeriği uzatmak sıralamayı otomatik artırır mı?",
+      "a": "Hayır. Uzatma tekrar üretirse performans düşebilir; ayrıca sayfa hızını/CWV’yi bozabilir. Amaç uzunluk değil, ihtiyacı karşılama düzeyidir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-hero-01.webp",
+        "h1-context — 1920×1080 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-h1-context-02.webp",
+        "divider-01 — 1600×1200 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-divider-03.webp",
+        "divider-02 — 1600×1200 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-divider-04.webp",
+        "diagram-05 — 1920×1080 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-diagram-05.webp",
+        "checklist-06 — 1200×1200 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-checklist-06.webp",
+        "kpi-07 — 1200×1200 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-kpi-07.webp",
+        "proof-08 — 1200×1200 — uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi-proof-08.webp",
+        "table-serp-uzunluk-analizi — (tablo görseli)",
+        "table-format-karar-sablonu — (şablon görseli)",
+        "table-long-short-page-skeleton — (sayfa iskeleti görseli)"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (aynı intent ile açılan long/short sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "Cannibalisation kontrolü (ana rehber / destek sayfa / SSS ayrımı)",
+        "İç link hiyerarşisi (hub → cluster → hizmet sayfası) kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "Featured Snippet ve PAA için kısa cevap blokları kontrolü",
+        "CWV / sayfa hızı kontrolü (gereksiz ağır modül ve görsel kullanımı)",
+        "365 günlük refresh döngüsü ile SERP formatı yeniden değerlendirme"
+      ]
+    }
   }
+}
 
 
 }

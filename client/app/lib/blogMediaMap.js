@@ -36457,6 +36457,306 @@ export const BLOG_MEDIA_MAP = {
       alt: "Event tracking + funnel raporlama deliverables kartı",
       caption: "Event tracking + funnel raporlama deliverables kartı"
     }
+  },
+
+  "dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin":{
+    banner: {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-1.webp",
+      alt: "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri",
+      caption: "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-2.webp",
+      alt: "Local E-E-A-T sinyal tablosu mockup",
+      caption: "Local E-E-A-T sinyal tablosu mockup" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-3.webp",
+    alt: "E-E-A-T giriş ayraç",
+      caption: "E-E-A-T giriş ayraç"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-4.webp",
+      alt: "Dış kaynaklar/OTA/basın bölümüne geçiş ayraç",
+      caption: "Dış kaynaklar/OTA/basın bölümüne geçiş ayraç"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-5.webp",
+      alt: "Dijital ayak izi harita diyagramı",
+      caption: "Dijital ayak izi harita diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-6.webp",
+      alt: "İlk 10 güven sinyali checklist kartı",
+      caption: "İlk 10 güven sinyali checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-7.webp",
+      alt: "Trust KPI kartı",
+      caption: "Trust KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-24/SEO2-24-8.webp",
+      alt: "Denetim raporu deliverables kartı",
+      caption: "Denetim raporu deliverables kartı"
+    }
+  },
+
+  "yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler":{
+    banner: {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-1.webp",
+      alt: "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri",
+      caption: "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-2.webp",
+      alt: "360 + harita entegrasyonu mockup bağlam görseli",
+      caption: "360 + harita entegrasyonu mockup bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-3.webp",
+    alt: "360/Street View giriş ayraç görseli",
+      caption: "360/Street View giriş ayraç görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-4.webp",
+      alt: "Hazırlık/ölçüm bölümüne geçiş ayraç görseli",
+      caption: "Hazırlık/ölçüm bölümüne geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-5.webp",
+      alt: "Sanal tur akışı + entegrasyon diyagramı",
+      caption: "Sanal tur akışı + entegrasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-6.webp",
+      alt: "Çekim öncesi hazırlık checklist kartı",
+      caption: "Çekim öncesi hazırlık checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-7.webp",
+      alt: "360 içerik KPI kartı",
+      caption: "360 içerik KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-25/SEO2-25-8.webp",
+      alt: "360 planı deliverables kartı",
+      caption: "360 planı deliverables kartı"
+    }
+  },
+
+  "editorial-kalender-ve-icerik-operasyon-sistemi":{
+     banner: {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-1.webp",
+      alt: "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+      caption: "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-2.webp",
+      alt: "İçerik operasyon akışı, brief’ten yayına ve revizyona",
+      caption: "İçerik operasyon akışı, brief’ten yayına ve revizyona" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-3.webp",
+    alt: "Yayın ritmi planı, haftalık ve aylık içerik yönetimi",
+      caption: "Yayın ritmi planı, haftalık ve aylık içerik yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-4.webp",
+      alt: "Raporlama ve revizyon döngüsü, içerik performans yönetimi",
+      caption: "Raporlama ve revizyon döngüsü, içerik performans yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-5.webp",
+      alt: "Rol ve workflow diyagramı, içerik üretim süreç akışı",
+      caption: "Rol ve workflow diyagramı, içerik üretim süreç akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-6.webp",
+      alt: "Editoryal takvim sütun checklist’i, SEO içerik operasyon standardı",
+      caption: "Editoryal takvim sütun checklist’i, SEO içerik operasyon standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-7.webp",
+      alt: "İçerik operasyon KPI kartı, yayın istikrarı ve görünürlük takibi",
+      caption: "İçerik operasyon KPI kartı, yayın istikrarı ve görünürlük takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-6/SEO3-6-8.webp",
+      alt: "Editoryal takvim deliverables, şablonlar ve süreç dokümantasyonu",
+      caption: "Editoryal takvim deliverables, şablonlar ve süreç dokümantasyonu"
+    }
+  },
+
+  "e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir":{
+     banner: {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-1.webp",
+      alt: "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+      caption: "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-2.webp",
+      alt: "Yazar ve kaynak şeffaflığı, içerik güvenini artıran yapı örneği",
+      caption: "Yazar ve kaynak şeffaflığı, içerik güvenini artıran yapı örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-3.webp",
+    alt: "Yazar kutusu ve uzman imzası, içerik otoritesi görsel ayracı",
+      caption: "Yazar kutusu ve uzman imzası, içerik otoritesi görsel ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-4.webp",
+      alt: "Trust sayfaları ve iletişim şeffaflığı, güven inşası ayırıcı görseli",
+      caption: "Trust sayfaları ve iletişim şeffaflığı, güven inşası ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-5.webp",
+      alt: "E-E-A-T güven grafiği, yazar-case-kaynak-trust sayfaları akışı",
+      caption: "E-E-A-T güven grafiği, yazar-case-kaynak-trust sayfaları akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-6.webp",
+      alt: "Minimum E-E-A-T checklist kartı, içerik güven kontrol adımları",
+      caption: "Minimum E-E-A-T checklist kartı, içerik güven kontrol adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-7.webp",
+      alt: "Güven KPI kartı, lead kalitesi ve görünürlük istikrarı takibi",
+      caption: "Güven KPI kartı, lead kalitesi ve görünürlük istikrarı takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-7/SEO3-7-8.webp",
+      alt: "E-E-A-T deliverables kartı, yazar kutusu kaynak standardı ve sayfalar",
+      caption: "E-E-A-T deliverables kartı, yazar kutusu kaynak standardı ve sayfalar"
+    }
+  },
+
+  "entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim":{
+     banner: {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-1.webp",
+      alt: "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+      caption: "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-2.webp",
+      alt: "Ana entity ve ilgili kavram ağı, içerik planlama akışı örneği",
+      caption: "Ana entity ve ilgili kavram ağı, içerik planlama akışı örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-3.webp",
+    alt: "Kavram alanı ve semantic coverage bölümü, içerik yapılandırma ayracı",
+      caption: "Kavram alanı ve semantic coverage bölümü, içerik yapılandırma ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-4.webp",
+      alt: "Schema ve internal linking bölümü, teknik ve içerik entegrasyon ayracı",
+      caption: "Schema ve internal linking bölümü, teknik ve içerik entegrasyon ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-5.webp",
+      alt: "Entity haritası diyagramı, ana konu ve ilgili kavram ağ yapısı",
+      caption: "Entity haritası diyagramı, ana konu ve ilgili kavram ağ yapısı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-6.webp",
+      alt: "Entity haritalama checklist kartı, brief ve başlık yapısı kontrolü",
+      caption: "Entity haritalama checklist kartı, brief ve başlık yapısı kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-7.webp",
+      alt: "Long-tail çeşitliliği KPI kartı, organik trafik eğilimi ve istikrar",
+      caption: "Long-tail çeşitliliği KPI kartı, organik trafik eğilimi ve istikrar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-8/SEO3-8-8.webp",
+      alt: "Entity-first içerik çıktıları kartı, tablo harita ve link planı kanıtı",
+      caption: "Entity-first içerik çıktıları kartı, tablo harita ve link planı kanıtı"
+    }
+  },
+
+  "uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi":{
+    banner: {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-1.webp",
+      alt: "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
+      caption: "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-2.webp",
+      alt: "SERP’e göre içerik formatı kararı, rehber ve quick answer örneği",
+      caption: "SERP’e göre içerik formatı kararı, rehber ve quick answer örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-3.webp",
+    alt: "SERP analizi ve format sinyalleri, içerik karar bölümü",
+      caption: "SERP analizi ve format sinyalleri, içerik karar bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-4.webp",
+      alt: "Cannibalisation ve rol dağılımı, içerik mimarisi bölümü",
+      caption: "Cannibalisation ve rol dağılımı, içerik mimarisi bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-5.webp",
+      alt: "Intent → SERP → önerilen format/uzunluk modeli, karar akışı",
+      caption: "Intent → SERP → önerilen format/uzunluk modeli, karar akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-6.webp",
+      alt: "Long/short karar checklist’i, hızlı format seçimi",
+      caption: "Long/short karar checklist’i, hızlı format seçimi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-7.webp",
+      alt: "Format seçimi KPI kartı, CTR-etkileşim-dönüşüm",
+      caption: "Format seçimi KPI kartı, CTR-etkileşim-dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-9/SEO3-9-8.webp",
+      alt: "Long-form ve short-form sayfa iskeletleri, örnek çıktılar",
+      caption: "Long-form ve short-form sayfa iskeletleri, örnek çıktılar"
+    }
   }
 
 };
