@@ -36757,6 +36757,307 @@ export const BLOG_MEDIA_MAP = {
       alt: "Long-form ve short-form sayfa iskeletleri, örnek çıktılar",
       caption: "Long-form ve short-form sayfa iskeletleri, örnek çıktılar"
     }
+  },
+
+  "icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz":{
+     banner: {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-1.webp",
+      alt: "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
+      caption: "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-2.webp",
+      alt: "Okunabilirlik ve layout iyileştirme, rehber içerik düzeni örneği",
+      caption: "Okunabilirlik ve layout iyileştirme, rehber içerik düzeni örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-3.webp",
+    alt: "Tipografi ve okunabilirlik, içerik UX bölüm ayracı”",
+      caption: "Tipografi ve okunabilirlik, içerik UX bölüm ayracı”"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-4.webp",
+      alt: "Mobil içerik deneyimi, okunabilirlik ve hız dengesi ayracı",
+      caption: "Mobil içerik deneyimi, okunabilirlik ve hız dengesi ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-5.webp",
+      alt: "İçerik deneyimi modeli, UX–SEO–dönüşüm ilişkisi diyagramı",
+      caption: "İçerik deneyimi modeli, UX–SEO–dönüşüm ilişkisi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-6.webp",
+      alt: "Mini okunabilirlik checklist kartı, içerik düzeni kontrolü",
+      caption: "Mini okunabilirlik checklist kartı, içerik düzeni kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-7.webp",
+      alt: "İçerik UX KPI kartı, scroll ve dönüşüm artışı eğilimi",
+      caption: "İçerik UX KPI kartı, scroll ve dönüşüm artışı eğilimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-10/SEO3-10-8.webp",
+      alt: "İçerik UX deliverables, layout örnekleri ve kontrol listeleri",
+      caption: "İçerik UX deliverables, layout örnekleri ve kontrol listeleri"
+    }
+  },
+
+  "aq-sss-icerik-stratejisi-ve-faq-schema-kullanimi":{
+    banner: {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-1.webp",
+      alt: "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?",
+      caption: "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-2.webp",
+      alt: "Sayfa içi SSS + SSS hub + schema akışı, kullanıcı yolculuğu",
+      caption: "Sayfa içi SSS + SSS hub + schema akışı, kullanıcı yolculuğu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-3.webp",
+    alt: "SSS yerleşimi ve içerik hiyerarşisi, sayfa içi blok tasarımı",
+      caption: "SSS yerleşimi ve içerik hiyerarşisi, sayfa içi blok tasarımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-4.webp",
+      alt: "Teknik entegrasyon, CWV ve sayfa hiyerarşisi bölümü ayırıcı",
+      caption: "Teknik entegrasyon, CWV ve sayfa hiyerarşisi bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-5.webp",
+      alt: "Soru toplama → yerleşim → schema → test → takip akışı diyagramı",
+      caption: "Soru toplama → yerleşim → schema → test → takip akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-6.webp",
+      alt: "10 soruluk minimum FAQ checklist kartı, schema ve test adımları",
+      caption: "10 soruluk minimum FAQ checklist kartı, schema ve test adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-7.webp",
+      alt: "SSS performans KPI kartı, etkileşim ve dönüşüm sinyalleri",
+      caption: "SSS performans KPI kartı, etkileşim ve dönüşüm sinyalleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-11/SEO3-11-8.webp",
+      alt: "FAQ deliverables kartı, soru havuzu, yerleşim planı, schema ve test çıktıları",
+      caption: "FAQ deliverables kartı, soru havuzu, yerleşim planı, schema ve test çıktıları"
+    }
+  },
+
+
+  "programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda":{
+    banner: {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-1.webp",
+      alt: "Programatik ve Şablon Bazlı İçerik SEO: Çok Sayfalı Yapılarda Nasıl Güvenli Kullanılır?",
+      caption: "Programatik ve Şablon Bazlı İçerik SEO: Çok Sayfalı Yapılarda Nasıl Güvenli Kullanılır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-2.webp",
+      alt: "Dinamik ve editoryal alan dengesi, çok sayfalı yapı örneği",
+      caption: "Dinamik ve editoryal alan dengesi, çok sayfalı yapı örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-3.webp",
+    alt: "Programatik iç link ağı, hub–cluster navigasyon ayracı",
+      caption: "Programatik iç link ağı, hub–cluster navigasyon ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-4.webp",
+      alt: "Template değişiklik yönetimi, QA ve regresyon ayracı",
+      caption: "Template değişiklik yönetimi, QA ve regresyon ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-5.webp",
+      alt: "Şablon iskeleti diyagramı, dinamik ve editoryal blok dengesi",
+      caption: "Şablon iskeleti diyagramı, dinamik ve editoryal blok dengesi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-6.webp",
+      alt: "Programatik sayfa checklist kartı, minimum kalite standardı",
+      caption: "Programatik sayfa checklist kartı, minimum kalite standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-7.webp",
+      alt: "Index kalitesi KPI kartı, programatik sayfa performans takibi",
+      caption: "Index kalitesi KPI kartı, programatik sayfa performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-12/SEO3-12-8.webp",
+      alt: "Programatik SEO deliverables kartı, template sözleşmesi ve audit çıktıları",
+      caption: "Programatik SEO deliverables kartı, template sözleşmesi ve audit çıktıları"
+    }
+  },
+
+  "persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar":{
+     banner: {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-1.webp",
+      alt: "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar",
+      caption: "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-2.webp",
+      alt: "Persona kartı ve mesaj eşleştirme, içerik akış örneği",
+      caption: "Persona kartı ve mesaj eşleştirme, içerik akış örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-3.webp",
+    alt: "Persona tanımı ve karar kriterleri, içerik stratejisi bölümü ayracı",
+      caption: "Persona tanımı ve karar kriterleri, içerik stratejisi bölümü ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-4.webp",
+      alt: "Mesaj ve CTA uyumu, persona yolculuğu bölümü ayracı",
+      caption: "Mesaj ve CTA uyumu, persona yolculuğu bölümü ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-5.webp",
+      alt: "Persona içerik uyum modeli diyagramı, mesaj ve sayfa blokları",
+      caption: "Persona içerik uyum modeli diyagramı, mesaj ve sayfa blokları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-6.webp",
+      alt: "Persona check checklist kartı, mesaj ve CTA kontrolü",
+      caption: "Persona check checklist kartı, mesaj ve CTA kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-7.webp",
+      alt: "Persona uyum KPI kartı, etkileşim ve dönüşüm artışı eğilimi",
+      caption: "Persona uyum KPI kartı, etkileşim ve dönüşüm artışı eğilimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-13/SEO3-13-8.webp",
+      alt: "Persona deliverables kartı, persona kartı ve mesaj haritası çıktıları",
+      caption: "Persona deliverables kartı, persona kartı ve mesaj haritası çıktıları"
+    }
+  },
+
+  "veri-istatistik-ve-orneklerle-icerik-zenginlestirme":{
+     banner: {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-1.webp",
+      alt: "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz?",
+      caption: "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-2.webp",
+      alt: "İddia → veri → görsel → case → CTA akışı, içerik örneği",
+      caption: "İddia → veri → görsel → case → CTA akışı, içerik örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-3.webp",
+    alt: "Veri türleri ve kaynaklar, içerik zenginleştirme ayracı",
+      caption: "Veri türleri ve kaynaklar, içerik zenginleştirme ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-4.webp",
+      alt: "Case snippet ve örnekler, kanıt anlatımı bölümü ayracı",
+      caption: "Case snippet ve örnekler, kanıt anlatımı bölümü ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-5.webp",
+      alt: "Veri → görsel → yorum → aksiyon akış diyagramı, içerik ikna modeli",
+      caption: "Veri → görsel → yorum → aksiyon akış diyagramı, içerik ikna modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-6.webp",
+      alt: "Veri kullanırken yapılacaklar checklist kartı, okunabilir kanıt",
+      caption: "Veri kullanırken yapılacaklar checklist kartı, okunabilir kanıt"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-7.webp",
+      alt: "Veri içerik KPI kartı, sayfada kalma ve paylaşım eğilimi",
+      caption: "Veri içerik KPI kartı, sayfada kalma ve paylaşım eğilimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-14/SEO3-14-8.webp",
+      alt: "Veri destekli içerik deliverables kartı, tablo grafik ve case blokları",
+      caption: "Veri destekli içerik deliverables kartı, tablo grafik ve case blokları"
+    }
+  },
+
+   "evergreen-ve-sezonluk-icerik-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-1.webp",
+      alt: "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur?",
+      caption: "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-2.webp",
+      alt: "İçerik yaşam döngüsü planı, sezon güncelleme ve arşiv yönetimi",
+      caption: "İçerik yaşam döngüsü planı, sezon güncelleme ve arşiv yönetimi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-3.webp",
+    alt: "Sezonluk içerik planı, kampanya dönemleri ve turizm talep dalgaları",
+      caption: "Sezonluk içerik planı, kampanya dönemleri ve turizm talep dalgaları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-4.webp",
+      alt: "Otel içerik portföyü dengesi, rehber ve kampanya sayfası uyumu",
+      caption: "Otel içerik portföyü dengesi, rehber ve kampanya sayfası uyumu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-5.webp",
+      alt: "İçerik yaşam döngüsü diyagramı, evergreen ve sezonluk akış modeli",
+      caption: "İçerik yaşam döngüsü diyagramı, evergreen ve sezonluk akış modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-6.webp",
+      alt: "Evergreen-sezonluk karar checklist’i, içerik portföy yönetimi",
+      caption: "Evergreen-sezonluk karar checklist’i, içerik portföy yönetimi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-7.webp",
+      alt: "Portföy KPI kartı, sezon dışı trafik ve kampanya dönüşüm takibi”",
+      caption: "Portföy KPI kartı, sezon dışı trafik ve kampanya dönüşüm takibi”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-15/SEO3-15-8.webp",
+      alt: "Yıllık içerik portföy çıktıları, plan şablonu ve güncelleme deliverables",
+      caption: "Yıllık içerik portföy çıktıları, plan şablonu ve güncelleme deliverables"
+    }
   }
 
 };

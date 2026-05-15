@@ -219,7 +219,13 @@ export const BLOG_MAP = {
     "editorial-kalender-ve-icerik-operasyon-sistemi":"BlogEditorialKalenderVeIcerikOperasyonSistemi",
     "e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir":"BlogEEATVeIcerikUretimiGuvenVeOtoriteNasilGosterilir",
     "entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim":"BlogEntityVeAnlamsalSEOIcerikteVarlikOdakliYapisalYaklasim",
-    "uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi":"BlogUzunFormVeKisaFormIcerikStratejisiNeZamanHangisi"
+    "uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi":"BlogUzunFormVeKisaFormIcerikStratejisiNeZamanHangisi",
+    "icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz":"BlogIcerikUxVeOkunabilirlikSeoIleTasarimiNasilDengelersiniz",
+    "aq-sss-icerik-stratejisi-ve-faq-schema-kullanimi":"BlogFaqSssIcerikStratejisiVeFaqSchemaKullanimi",
+    "programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda":"BlogProgramatikVeSablonBazliIcerikSeoBuyukYapilarda",
+    "persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar":"BlogPersonaOdakliIcerikStratejisiFarkliKitlelereFarkliMesajlar",
+    "veri-istatistik-ve-orneklerle-icerik-zenginlestirme":"BlogVeriIstatistikVeOrneklerleIcerikZenginlestirme",
+    "evergreen-ve-sezonluk-icerik-stratejisi":"BlogEvergreenVeSezonlukIcerikStratejisi"
   },
 
     smm: {
