@@ -225,7 +225,15 @@ export const BLOG_MAP = {
     "programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda":"BlogProgramatikVeSablonBazliIcerikSeoBuyukYapilarda",
     "persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar":"BlogPersonaOdakliIcerikStratejisiFarkliKitlelereFarkliMesajlar",
     "veri-istatistik-ve-orneklerle-icerik-zenginlestirme":"BlogVeriIstatistikVeOrneklerleIcerikZenginlestirme",
-    "evergreen-ve-sezonluk-icerik-stratejisi":"BlogEvergreenVeSezonlukIcerikStratejisi"
+    "evergreen-ve-sezonluk-icerik-stratejisi":"BlogEvergreenVeSezonlukIcerikStratejisi",
+    "seo-icerik-briefi-ve-outline-nasil-hazirlanir":"BlogSeoIcerikBriefiVeOutlineNasilHazirlanir",
+    "cok-dilli-icerik-seo-tr-en-de-ru-stratejisi":"BlogCokDilliIcerikSeoTrEnDeRuStratejisi",
+    "icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz":"BlogIcerikPruningIndexManagementHangiSayfalariTutacaginizHangiSayfalariKaldiracaginiz",
+    "ugc-yorum-sorucevap-ve-forum-iceriklerini-seo-icin-nasil-kullanirsiniz":"BlogUgcYorumSoruCevapVeForumIcerikleriniSeoIcinNasilKullanirsiniz",
+    "ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi":"BlogAiDestekliIcerikUretimiVeInsanEditorlukDengesi",
+    "sge-ai-answer-ve-icerik-seo-stratejisi":"BlogSgeAiAnswerVeIcerikSeoStratejisi",
+    "omni-kanal-icerik-yeniden-kullanimi-blog-sosyal-e-posta-ve-video":"BlogOmniKanalIcerikYenidenKullanimiBlogSosyalEpostaVeVideo",
+    "zero-click-serp-ve-marka-odakli-icerik-stratejisi":"BlogZeroClickSerpVeMarkaOdakliIcerikStratejisi"
   },
 
     smm: {

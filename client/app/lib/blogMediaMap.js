@@ -37049,14 +37049,415 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/seo/SEO3-15/SEO3-15-7.webp",
-      alt: "Portföy KPI kartı, sezon dışı trafik ve kampanya dönüşüm takibi”",
-      caption: "Portföy KPI kartı, sezon dışı trafik ve kampanya dönüşüm takibi”"
+      alt: "Portföy KPI kartı, sezon dışı trafik ve kampanya dönüşüm takibi",
+      caption: "Portföy KPI kartı, sezon dışı trafik ve kampanya dönüşüm takibi"
     },
 
           "proof-08": {
       src: "/images/blog/seo/SEO3-15/SEO3-15-8.webp",
       alt: "Yıllık içerik portföy çıktıları, plan şablonu ve güncelleme deliverables",
       caption: "Yıllık içerik portföy çıktıları, plan şablonu ve güncelleme deliverables"
+    }
+  },
+
+  "seo-icerik-briefi-ve-outline-nasil-hazirlanir":{
+    banner: {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-1.webp",
+      alt: "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
+      caption: "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-2.webp",
+      alt: "Brieften yayına içerik akışı, turizm ve B2B ekip uyumu",
+      caption: "Brieften yayına içerik akışı, turizm ve B2B ekip uyumu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-3.webp",
+    alt: "SEO brief bileşenleri, yazara yön verme ve kalite standardı",
+      caption: "SEO brief bileşenleri, yazara yön verme ve kalite standardı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-4.webp",
+      alt: "Outline ve revizyon süreci, içerik operasyon yönetimi",
+      caption: "Outline ve revizyon süreci, içerik operasyon yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-5.webp",
+      alt: "H2 H3 outline iskeleti, SEO içerik planı ve iş akışı",
+      caption: "H2 H3 outline iskeleti, SEO içerik planı ve iş akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-6.webp",
+      alt: "SEO brief checklist kartı, zorunlu alanlar ve hızlı kontrol",
+      caption: "SEO brief checklist kartı, zorunlu alanlar ve hızlı kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-7.webp",
+      alt: "Revizyon ve yayın hızı KPI kartı, içerik üretim verimliliği",
+      caption: "Revizyon ve yayın hızı KPI kartı, içerik üretim verimliliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-16/SEO3-16-8.webp",
+      alt: "Brief şablonu deliverables, outline ve QA çıktıları güven unsuru",
+      caption: "Brief şablonu deliverables, outline ve QA çıktıları güven unsuru"
+    }
+  },
+
+  "cok-dilli-icerik-seo-tr-en-de-ru-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-1.webp",
+      alt: "Çok Dilli İçerik SEO Stratejisi: TR–EN–DE–RU İçin İçerikleri Nasıl Kurgularsınız?",
+      caption: "Çok Dilli İçerik SEO Stratejisi: TR–EN–DE–RU İçin İçerikleri Nasıl Kurgularsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-2.webp",
+      alt: "Keyword–intent–hreflang üçgeni, TR EN DE RU içerik planı",
+      caption: "Keyword–intent–hreflang üçgeni, TR EN DE RU içerik planı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-3.webp",
+    alt: "Çeviri vs lokalizasyon ayracı, pazar dili uyumu",
+      caption: "Çeviri vs lokalizasyon ayracı, pazar dili uyumu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-4.webp",
+      alt: "hreflang ve teknik yapı ayracı, çok dilli SEO entegrasyonu",
+      caption: "hreflang ve teknik yapı ayracı, çok dilli SEO entegrasyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-5.webp",
+      alt: "Multilingual içerik modeli diyagramı, dil pazar keyword niyet akışı",
+      caption: "Multilingual içerik modeli diyagramı, dil pazar keyword niyet akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-6.webp",
+      alt: "Lokalizasyon checklist kartı, çeviri sonrası kalite kontrol",
+      caption: "Lokalizasyon checklist kartı, çeviri sonrası kalite kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-7.webp",
+      alt: "Dil bazlı KPI kartı, organik trafik ve dönüşüm kıyası",
+      caption: "Dil bazlı KPI kartı, organik trafik ve dönüşüm kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-17/SEO3-17-8.webp",
+      alt: "TR EN DE RU H1 özet örnekleri, içerik eşleştirme çıktıları",
+      caption: "TR EN DE RU H1 özet örnekleri, içerik eşleştirme çıktıları"
+    }
+  },
+
+  "icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz":{
+    banner: {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-1.webp",
+      alt: "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız?",
+      caption: "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-2.webp",
+      alt: "Tut-güncelle-birleştir-kaldır akışı, içerik envanteri yönetimi",
+      caption: "Tut-güncelle-birleştir-kaldır akışı, içerik envanteri yönetimi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-3.webp",
+    alt: "Karar matrisi bölümü ayracı, pruning aksiyonları",
+      caption: "Karar matrisi bölümü ayracı, pruning aksiyonları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-4.webp",
+      alt: "Teknik uygulama ayracı, noindex-301-410-canonical",
+      caption: "Teknik uygulama ayracı, noindex-301-410-canonical"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-5.webp",
+      alt: "Pruning akış diyagramı: veri → karar → teknik aksiyon → kontrol",
+      caption: "Pruning akış diyagramı: veri → karar → teknik aksiyon → kontrol"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-6.webp",
+      alt: "Lokalizasyon checklist kartı, çeviri sonrası kalite kontrol",
+      caption: "Lokalizasyon checklist kartı, çeviri sonrası kalite kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-7.webp",
+      alt: "Index hijyeni KPI kartı: index sayısı, görünürlük, kalite sinyali",
+      caption: "Index hijyeni KPI kartı: index sayısı, görünürlük, kalite sinyali"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-18/SEO3-18-8.webp",
+      alt: "Pruning deliverables: URL envanteri, karar matrisi, redirect map, iç link cleanup",
+      caption: "Pruning deliverables: URL envanteri, karar matrisi, redirect map, iç link cleanup"
+    }
+  },
+
+  "ugc-yorum-sorucevap-ve-forum-iceriklerini-seo-icin-nasil-kullanirsiniz":{
+    banner: {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-1.webp",
+      alt: "UGC, Yorum, Soru–Cevap ve Forum İçeriklerini SEO İçin Nasıl Kullanırsınız?",
+      caption: "UGC, Yorum, Soru–Cevap ve Forum İçeriklerini SEO İçin Nasıl Kullanırsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-2.webp",
+      alt: "Yorum–Q&A–forum akışı, moderasyon ve SSS besleme modeli",
+      caption: "Yorum–Q&A–forum akışı, moderasyon ve SSS besleme modeli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-3.webp",
+    alt: "UGC formatları ayracı, yorum soru-cevap forum rol farkı",
+      caption: "UGC formatları ayracı, yorum soru-cevap forum rol farkı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-4.webp",
+      alt: "UGC index yönetimi ayracı, noindex ve canonical kararları",
+      caption: "UGC index yönetimi ayracı, noindex ve canonical kararları"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-5.webp",
+      alt: "Forum hub–cluster mimarisi, kategori ve içerik akışı diyagramı",
+      caption: "Forum hub–cluster mimarisi, kategori ve içerik akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-6.webp",
+      alt: "UGC moderasyon checklist kartı, spam ve kalite kontrol adımları",
+      caption: "UGC moderasyon checklist kartı, spam ve kalite kontrol adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-7.webp",
+      alt: "UGC KPI kartı, long-tail trafik ve güven sinyali takibi",
+      caption: "UGC KPI kartı, long-tail trafik ve güven sinyali takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-19/SEO3-19-8.webp",
+      alt: "UGC deliverables kartı, moderasyon şablonu ve SSS taşıma çıktıları",
+      caption: "UGC deliverables kartı, moderasyon şablonu ve SSS taşıma çıktıları"
+    }
+  },
+
+  "ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi":{
+    banner: {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-1.webp",
+      alt: "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
+      caption: "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-2.webp",
+      alt: "Araştırma outline taslak editör QA akışı, hibrit içerik üretimi",
+      caption: "Araştırma outline taslak editör QA akışı, hibrit içerik üretimi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-3.webp",
+    alt: "AI ve insan rol ayrımı, içerik üretim süreci otel bağlamı",
+      caption: "AI ve insan rol ayrımı, içerik üretim süreci otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-4.webp",
+      alt: "Fact-check ve kaynak kontrolü, güvenli AI içerik yönetimi",
+      caption: "Fact-check ve kaynak kontrolü, güvenli AI içerik yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-5.webp",
+      alt: "AI+insan workflow diyagramı, kontrol kapıları ve QA",
+      caption: "AI+insan workflow diyagramı, kontrol kapıları ve QA"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-6.webp",
+      alt: "AI içerik editör checklist’i, kalite ve özgünlük kontrolü",
+      caption: "AI içerik editör checklist’i, kalite ve özgünlük kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-7.webp",
+      alt: "Hibrit üretim KPI kartı, hız kalite güven dengesi",
+      caption: "Hibrit üretim KPI kartı, hız kalite güven dengesi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-20/SEO3-20-8.webp",
+      alt: "AI+insan deliverables kartı, brief outline QA ve kanıt blokları",
+      caption: "AI+insan deliverables kartı, brief outline QA ve kanıt blokları"
+    }
+  },
+
+   "sge-ai-answer-ve-icerik-seo-stratejisi":{
+    banner: {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-1.webp",
+      alt: "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız?",
+      caption: "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-2.webp",
+      alt: "Önce cevap sonra detay modeli, SGE uyumlu sayfa akışı",
+      caption: "Önce cevap sonra detay modeli, SGE uyumlu sayfa akışı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-3.webp",
+    alt: "Answerability blokları, soru–cevap yapısı ve içerik SEO düzeni",
+      caption: "Answerability blokları, soru–cevap yapısı ve içerik SEO düzeni"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-4.webp",
+      alt: "Schema ve entity entegrasyonu, AI’nin sayfayı anlaması için yapı",
+      caption: "Schema ve entity entegrasyonu, AI’nin sayfayı anlaması için yapı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-5.webp",
+      alt: "Entity + schema + FAQ + iç link ilişkisi, AI answer modeli",
+      caption: "Entity + schema + FAQ + iç link ilişkisi, AI answer modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-6.webp",
+      alt: "AI answer içerik checklist’i, cevaplanabilir sayfa standardı",
+      caption: "AI answer içerik checklist’i, cevaplanabilir sayfa standardı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-7.webp",
+      alt: "AI answer KPI kartı, görünürlük ve dönüşüm sinyali takibi",
+      caption: "AI answer KPI kartı, görünürlük ve dönüşüm sinyali takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-21/SEO3-21-8.webp",
+      alt: "SGE SERP maketi ve örnek bloklar, uygulanabilir içerik deliverables",
+      caption: "SGE SERP maketi ve örnek bloklar, uygulanabilir içerik deliverables"
+    }
+  },
+
+  "omni-kanal-icerik-yeniden-kullanimi-blog-sosyal-e-posta-ve-video":{
+    banner: {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-1.webp",
+      alt: "Omni-Kanal İçerik Yeniden Kullanımı: Blog, Sosyal, E-posta ve Video Arasında Köprü Kurmak",
+      caption: "Omni-Kanal İçerik Yeniden Kullanımı: Blog, Sosyal, E-posta ve Video Arasında Köprü Kurmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-2.webp",
+      alt: "Blog merkezli içerik akışı, sosyal e-posta video köprüsü",
+      caption: "Blog merkezli içerik akışı, sosyal e-posta video köprüsü" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-3.webp",
+    alt: "Amiral içerik seçimi ve repurposing planı, strateji ayracı",
+      caption: "Amiral içerik seçimi ve repurposing planı, strateji ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-4.webp",
+      alt: "Kanal adaptasyonu ve link disiplini, tutarlılık ayracı",
+      caption: "Kanal adaptasyonu ve link disiplini, tutarlılık ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-5.webp",
+      alt: "Repurposing akışı: blog → sosyal → e-posta → video, link mimarisi",
+      caption: "Repurposing akışı: blog → sosyal → e-posta → video, link mimarisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-6.webp",
+      alt: "1 içeriği 5 parçaya bölme checklist’i, kanal planı",
+      caption: "1 içeriği 5 parçaya bölme checklist’i, kanal planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-7.webp",
+      alt: "Repurposing KPI kartı, temas noktası ve dönüşüm takibi",
+      caption: "Repurposing KPI kartı, temas noktası ve dönüşüm takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-22/SEO3-22-8.webp",
+      alt: "Repurposed içerik parçaları, blog-sosyal-e-posta-video örnekleri",
+      caption: "Repurposed içerik parçaları, blog-sosyal-e-posta-video örnekleri"
+    }
+  },
+
+
+  "zero-click-serp-ve-marka-odakli-icerik-stratejisi":{
+    banner: {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-1.webp",
+      alt: "Zero-Click SERP ve Marka Odaklı İçerik Stratejisi: Tıklama Almadan da Kazanmak Mümkün mü?",
+      caption: "Zero-Click SERP ve Marka Odaklı İçerik Stratejisi: Tıklama Almadan da Kazanmak Mümkün mü?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-2.webp",
+      alt: "Snippet, PAA, panel ve AI özetlerinde marka alanı, içerik mimarisi",
+      caption: "Snippet, PAA, panel ve AI özetlerinde marka alanı, içerik mimarisi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-3.webp",
+    alt: "Zero-click SERP türleri, featured snippet ve PAA görünürlüğü",
+      caption: "Zero-click SERP türleri, featured snippet ve PAA görünürlüğü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-4.webp",
+      alt: "Brand footprint ve ölçüm modeli, zero-click strateji ayracı",
+      caption: "Brand footprint ve ölçüm modeli, zero-click strateji ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-5.webp",
+      alt: "Zero-click türleri ile marka metrikleri ilişkisi, içerik stratejisi diyagramı",
+      caption: "Zero-click türleri ile marka metrikleri ilişkisi, içerik stratejisi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-6.webp",
+      alt: "Zero-click başarı checklist’i, marka odaklı içerik kontrolü",
+      caption: "Zero-click başarı checklist’i, marka odaklı içerik kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-7.webp",
+      alt: "Brand footprint KPI kartı, brand queries ve SERP görünürlük takibi",
+      caption: "Brand footprint KPI kartı, brand queries ve SERP görünürlük takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-23/SEO3-23-8.webp",
+      alt: "Zero-click SERP kolajı, snippet PAA panel harita AI özet örnekleri",
+      caption: "Zero-click SERP kolajı, snippet PAA panel harita AI özet örnekleri"
     }
   }
 
