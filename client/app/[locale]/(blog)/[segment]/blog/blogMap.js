@@ -238,7 +238,9 @@ export const BLOG_MAP = {
     "cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi":"BlogCevapMotorlariVeChatArayuzleriIcinAeoAdvancedIcerikStratejisi",
     "outreach-e-posta-ve-iliski-bazli-link-building":"BlogOutreachEpostaVeIliskiBazliLinkBuilding",
     "turizm-ve-destinasyon-odakli-backlink-firsatlari":"BlogTurizmVeDestinasyonOdakliBacklinkFirsatlari",
-    "cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar":"BlogCokDilliVeUluslararasiBacklinkStratejisiTrEnDeRuPazarlar"
+    "cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar":"BlogCokDilliVeUluslararasiBacklinkStratejisiTrEnDeRuPazarlar",
+    "link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak":"BlogLinkReclamationVeKirikLinkFirsatlariLinkKayiplariniGeriKazanmak",
+    "backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi":"BlogBacklinkCalismalarininEtkisiniOlcmekOtoriteTrafikVeGelirKpi"
   },
 
     smm: {

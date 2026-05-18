@@ -37677,8 +37677,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-01": {
       src: "/images/blog/seo/SEO4-8/SEO4-8-3.webp",
-    alt: "ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi”",
-      caption: "ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi”"
+    alt: "ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi",
+      caption: "ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi"
     },
 
     "divider-02": {
@@ -37709,6 +37709,106 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/seo/SEO4-8/SEO4-8-8.webp",
       alt: "Uluslararası backlink deliverables kartı, pazar planı ve PR paketi",
       caption: "Uluslararası backlink deliverables kartı, pazar planı ve PR paketi"
+    }
+  },
+
+  "link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak":{
+    banner: {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-1.webp",
+      alt: "Çok Dilli ve Uluslararası Backlink Stratejisi: TR–EN–DE–RU Pazarlarda Otorite Kurmak",
+      caption: "Çok Dilli ve Uluslararası Backlink Stratejisi: TR–EN–DE–RU Pazarlarda Otorite Kurmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-2.webp",
+      alt: "404→301 ve mention→link akışı, hızlı kazanım süreci görseli",
+      caption: "404→301 ve mention→link akışı, hızlı kazanım süreci görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-3.webp",
+    alt: "Reclamation fırsatları: 404, taşınan içerik, brand mention ayracı",
+      caption: "Reclamation fırsatları: 404, taşınan içerik, brand mention ayracı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-4.webp",
+      alt: "301 doğruluğu ve redirect chain riskleri, teknik uyarı ayracı",
+      caption: "301 doğruluğu ve redirect chain riskleri, teknik uyarı ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-5.webp",
+      alt: "Reclamation akış diyagramı: tespit–eşleştirme–301–doğrulama–rapor",
+      caption: "Reclamation akış diyagramı: tespit–eşleştirme–301–doğrulama–rapor"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-6.webp",
+      alt: "Kırık link ve mention reclamation checklist’i, hızlı kazanım kartı",
+      caption: "Kırık link ve mention reclamation checklist’i, hızlı kazanım kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-7.webp",
+      alt: "Reclamation KPI paneli, düzelen linkler ve görünürlük stabilitesi",
+      caption: "Reclamation KPI paneli, düzelen linkler ve görünürlük stabilitesi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-9/SEO4-9-8.webp",
+      alt: "Reclamation deliverables seti: 404 raporu, redirect haritası, outreach log",
+      caption: "Reclamation deliverables seti: 404 raporu, redirect haritası, outreach log"
+    }
+  },
+
+  "backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi":{
+     banner: {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-1.webp",
+      alt: "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI’ları",
+      caption: "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI’ları"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-2.webp",
+      alt: "Backlinkten gelire ölçüm zinciri, otel ve B2B raporlama görseli",
+      caption: "Backlinkten gelire ölçüm zinciri, otel ve B2B raporlama görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-3.webp",
+    alt: "Aktivite ve etki KPI ayrımı, backlink ölçüm rehberi",
+      caption: "Aktivite ve etki KPI ayrımı, backlink ölçüm rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-4.webp",
+      alt: "Cluster bazlı ölçüm ve önceliklendirme, raporlama ayracı",
+      caption: "Cluster bazlı ölçüm ve önceliklendirme, raporlama ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-5.webp",
+      alt: "Cluster bazlı görünürlük grafiği, öncesi sonrası trend",
+      caption: "Cluster bazlı görünürlük grafiği, öncesi sonrası trend"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-6.webp",
+      alt: "Backlink kampanya değerlendirme checklist kartı, raporlama standardı",
+      caption: "Backlink kampanya değerlendirme checklist kartı, raporlama standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-7.webp",
+      alt: "Backlink ROI KPI paneli, otorite sıralama trafik dönüşüm gelir",
+      caption: "Backlink ROI KPI paneli, otorite sıralama trafik dönüşüm gelir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-10/SEO4-10-8.webp",
+      alt: "Backlink ROI deliverables seti, baseline ve yönetim raporu çıktıları",
+      caption: "Backlink ROI deliverables seti, baseline ve yönetim raporu çıktıları"
     }
   }
 

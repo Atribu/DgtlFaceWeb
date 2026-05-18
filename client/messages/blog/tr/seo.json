@@ -56139,6 +56139,1444 @@
         ]
       }
     }
+  },
+
+   "BlogLinkReclamationVeKirikLinkFirsatlariLinkKayiplariniGeriKazanmak": {
+    "title": "Link Reclamation: Kırık Link ve Mention ile Kazanım | DGTLFACE",
+    "slug": "link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Link reclamation nedir? 404’e düşen backlink’leri bulun, eski URL’leri doğru 301 ile taşıyın, brand mention’lardan nazikçe link isteyin. Otel & B2B için hızlı kazanım rehberi.",
+    "seo": {
+      "metaTitle": "Link Reclamation: Kırık Link ve Mention ile Kazanım | DGTLFACE",
+      "metaDescription": "Link reclamation nedir? 404’e düşen backlink’leri bulun, eski URL’leri doğru 301 ile taşıyın, brand mention’lardan nazikçe link isteyin. Otel & B2B için hızlı kazanım rehberi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Backlink & Dijital Otorite Yönetimi — /tr/seo/backlink-yonetimi",
+        "Blog / URL: /tr/seo/blog/link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak"
+      ],
+      "strategySummary": "Bu yazı, backlink serisinin “en hızlı ROI” bölümüdür: sıfırdan link kovalamak yerine, zaten kazanılmış ama 404, URL değişimi, içerik taşınması veya “mention ama link yok” gibi sebeplerle kaybedilmiş değeri geri kazandırır. Hedef persona; site yenilemesi yapan oteller, B2B markalar ve ajans ekipleridir; “siteyi yeniledim, eski linkler boşa gitti mi?” sorusuna çözüm arar. Funnel’da MoFu’dan hızlıca BoFu’ya bağlanır; çünkü reclamation çoğu zaman hemen uygulanabilir teknik + outreach aksiyonlarına dönüşür. Ana iş sorusu: “Kaybettiğim linkleri nasıl tespit eder, 404→301 ile değeri nasıl taşır, mention’dan linki nasıl ister ve bunu periyodik bir sisteme nasıl bağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Link reclamation, yeni link inşa etmek yerine zaten kazanılmış ama kaybedilmiş link değerini geri almaktır. En büyük fırsatlar; site yenilemesi sonrası 404’e düşen eski URL’ler, taşınan/silinen içerikler ve link verilmemiş brand mention’lardır. Yapılacaklar nettir: backlink araçlarıyla kayıp linkleri tespit edin, doğru hedefe 301 ile taşıyın, redirect chain oluşturmayın ve mention sahiplerine nazik bir “kaynak link” talebi gönderin.",
+      "sgeSummary": "Önce kayıp linkleri tespit et: 404 ve taşınan URL’leri doğru 301 ile düzelt; linklenmemiş brand mention’lardan link rica et. Bu, en düşük eforlu backlink kazanımıdır.",
+      "voiceAnswer": "Eski linkler boşa gitmez; 404’leri bulun, doğru sayfaya 301 verin ve mention’lardan link isteyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Site yenilemesi/URL değişimi yaşayan oteller, B2B markalar, ajans SEO ekipleri",
+        "KPI: 404’e giden referring URL sayısı, düzelen redirect oranı, geri kazanılan referring domain, organik görünürlük stabilitesi, referral kalite",
+        "Entity: Link Reclamation, Broken Links, Brand Mentions, 404 → 301",
+        "Semantic: recovering lost value, low-hanging fruit links, technical + outreach",
+        "Funnel: Tactical quick wins → Consideration → (analiz talebi)",
+        "Risk notu: 301’ler doğru hedefe gitmeli, redirect chain oluşmamalı",
+        "Otel/B2B bağlam: site yenilemesi, dil sayfası taşınması, kampanya URL’leri"
+      ]
+    },
+    "h1": {
+      "title": "Link Reclamation ve Kırık Link Fırsatları: Link Kayıplarını Nasıl Geri Kazanırsınız?",
+      "intro": "Backlink çalışmasında en düşük eforla en hızlı sonucu veren alan genellikle “yeni link bulmak” değil, kaybedilmiş değeri geri kazanmaktır. Site yenilemesi, URL değişimi, içerik taşınması veya yanlış yönlendirmeler yüzünden değerli linkler 404’e düşebilir; ayrıca markanızdan bahseden içeriklerde link hiç eklenmemiş olabilir. Link reclamation bu sorunları sistematik şekilde çözer: 404’leri bulur, 301 ile doğru sayfaya taşır, mention’ları linke çevirir ve bunu periyodik bir kontrol döngüsüne bağlar.",
+      "quickSummary": [
+        "1) Kayıp linkleri ve 404 hedefleri tespit edin",
+        "2) Eski URL → yeni URL eşlemesini doğru yapın",
+        "3) 301 yönlendirmeleri tek hop ve eşdeğer hedefe taşıyın",
+        "4) Linklenmemiş brand mention’ları nazik outreach ile linke çevirin",
+        "5) Reclamation raporunu haftalık/aylık kontrol döngüsüne bağlayın"
+      ],
+      "ctaPrimary": {
+        "label": "Link Reclamation & Kırık Link Analizi Talep Et",
+        "text": "404’e düşen değerli linkleri ve en hızlı geri kazanım fırsatlarını çıkarmak isteyen otel/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Link Reclamation & Kırık Link Analizi Talep Et",
+        "text": "Site yenilemesi sonrası boşa düşen linkleri geri kazanmak isteyen otel/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      },
+      "secondary": {
+        "label": "Link Reclamation Takip & E-posta Şablonu Dosyasını İndir",
+        "text": "Kayıp linkleri takip etmeyi, 301 eşleştirmeyi ve mention outreach’ini tek dosyada standartlaştırır.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Backlink & Dijital Otorite Yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Çok Dilli ve Uluslararası Backlink Stratejisi: TR, EN, DE, RU Pazarlarda Otorite Kurmak",
+        "href": "/seo/blog/cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar"
+      },
+      {
+        "title": "Teknik SEO Nedir? Site Sağlığını ve Indexlenebilirliği Nasıl Güçlendirirsiniz?",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "SEO Raporlama: Organik Performansı Nasıl Okur ve Aksiyona Çevirirsiniz?",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "link-reclamation-nedir",
+        "title": "Link reclamation nedir? Neden en hızlı kazanımdır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Link reclamation, zaten geçmişte size verilmiş (ve bir şekilde değer üretmiş) linklerin boşa düşen kısmını tekrar “çalışır” hale getirmektir. Bu yüzden yeni link inşasına göre daha düşük eforla sonuç verme eğilimindedir; çünkü kaynağı ikna etmek için sıfırdan “neden link vereyim?” bariyerini aşmanız gerekmez—çoğu zaman zaten vermiştir."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Link reclamation nedir? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Link reclamation nedir? Cevap: Link reclamation, kaybedilmiş backlink değerini geri kazanma sürecidir; 404’e düşen linkleri düzeltmek ve linklenmemiş mention’ları linke çevirmek buna dahildir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "Otelinizin “balayı paketi” sayfası site yenilemesinde değişti ve eski URL 404 oldu. O sayfaya link veren 10 blog yazısı hâlâ duruyor; doğru 301 ile bu değeri geri kazanabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "Bir sektörel yayın şirketinizden bahsetmiş ama link vermemiş. Nazik bir “kaynak link ekler misiniz?” mesajıyla link kazanmak çoğu zaman yeni link avından daha hızlıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 12 ayda site yenilemesi/URL değişimi oldu mu?",
+              "En çok link alan sayfalarınızdan kaç tanesi 404 veriyor?",
+              "Markanızdan bahsedilen ama linklenmeyen içerik var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "“Kayıp link” ve “404 hedef” raporu çıkarın.",
+              "En çok link alan 20 URL’yi tek tek test edin.",
+              "Mention taraması için marka adınızı ve eski kampanya adlarınızı listeleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kirik-link-firsatlari-nasil-bulunur",
+        "title": "Kırık link (broken link) fırsatları nasıl bulunur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kırık link fırsatı iki şekilde çıkar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Size gelen link kırılmıştır (referrer doğru ama hedef URL’niz 404)",
+              "Başkasının kırık linkini siz onarırsınız (broken link building: “sizde şu sayfa 404, yerine şu kaynağı öneriyorum”)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yazıda ana odak #1’dir (reclamation), ama #2’yi de otel/B2B için pratik bir fırsat olarak ele alacağız."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Kırık link fırsatları nasıl bulunur? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Kırık link fırsatları nasıl bulunur? Cevap: Backlink araçlarından hedef URL’si 404 olan linkleri çıkarın; ayrıca sektörünüzdeki kaynak sayfalarında 404 veren linkleri tespit edip alternatif içerik önerin."
+          },
+          {
+            "type": "h3",
+            "text": "Reclamation için pratik kaynaklar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Backlink araçlarından “broken backlinks / lost backlinks” raporları",
+              "Search Console’da link alan sayfalar listesi + URL durum kontrolü",
+              "Site taraması (crawl) ile 404 listesi + referrer eşleştirmesi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "404 listesi “referrer” (link veren sayfa) ile eşleştirildi mi?",
+              "404’ler içinde en değerli sayfalar (konsept, rezervasyon, rehber) işaretlendi mi?",
+              "404 kaynağı “yanlış yönlendirme/kanonik” gibi bir hata mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce yüksek değer: en çok link alan URL’ler.",
+              "Sonra yaygın: site yenilemesiyle topluca değişen URL pattern’leri.",
+              "En son: tekil 404’ler."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tasinan-silinen-icerikler-ve-kaybedilen-backlinkler",
+        "title": "Taşınan/silinen içerikler ve kaybedilen backlink’ler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Site yenilemesi sonrası kayıpların %80’i, “eski URL → yeni URL” eşlemesinin yapılmamasından gelir. Burada çözüm basittir: doğru hedefe 301 (kalıcı yönlendirme) ile taşımak. Ama “doğru hedef” kritik: ana sayfaya toplu yönlendirme çoğu zaman hem kullanıcıyı hem sinyali bozar."
+          },
+          {
+            "type": "h3",
+            "text": "404 → 301: doğru taşıma prensipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eski URL’yi en yakın eşdeğer içeriğe yönlendirin",
+              "Toplu 404’leri ana sayfaya atmaktan kaçının",
+              "Yönlendirmeyi tek adımda yapın (redirect chain değil)",
+              "Yönlendirme sonrası hedef sayfa indexlenebilir olmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "/balayi-paketi sayfası yeni yapıda /kampanyalar/balayi olduysa, eski URL doğrudan yeni pakete 301 ile gitmeli; ana sayfaya değil."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "Bir “case study” URL’i değiştiyse, en yakın case sayfasına 301 verin; hizmet sayfasına değil (konu sinyali kaybolmasın)."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "301’ler “eşdeğer içerik”e mi gidiyor?",
+              "Redirect chain var mı (301→301→200)?",
+              "301 sonrası hedef sayfa 200 ve indexlenebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "404’leri “pattern” bazında gruplayın (eski kategori/slug yapıları).",
+              "İlk etapta sadece “en çok link alan” 50 URL’yi düzeltin.",
+              "2 hafta sonra backlink raporlarını tekrar çekin (kayıplar kapanıyor mu?)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "brand-mention-takibi",
+        "title": "Brand mention takibi: Link verilmemiş bahsi linke çevirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Brand mention reclamation, en “temiz” kazanımlardan biridir: birisi zaten sizden bahsetmiş, sadece link eklememiştir. Burada işin sırrı; kısa, nazik ve “okuyucu faydası” odaklı bir mesajdır."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Link kaybını nasıl tespit ederim? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Link kaybını nasıl tespit ederim? Cevap: Kayıp linkleri “lost/broken backlinks” raporlarından; linksiz mention’ları ise marka adı araması ve izleme araçlarıyla tespit edebilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Brand mention’dan link istemek için mini şablon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kişiselleştirme: hangi yazı, hangi bölüm",
+              "Teşekkür: bahsettiği için",
+              "Kolaylık: doğru resmi sayfa linki",
+              "Tek istek: “kaynak link ekler misiniz?”",
+              "Kibar kapanış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (mail/DM)"
+          },
+          {
+            "type": "p",
+            "text": "“Merhaba [İsim], [yazı] içeriğinizde otelimizden bahsettiğiniz için teşekkürler. Okuyucularınızın resmi bilgiye ulaşması için ilgili cümleye şu sayfayı kaynak olarak ekleyebilir misiniz? [URL]. Çok teşekkürler.”"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesaj kısa mı (maks 6–8 satır)?",
+              "Tek istek mi var?",
+              "Hedef URL doğru sayfa mı (dil/konsept uyumu)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk olarak yüksek otorite mention’ları hedefleyin.",
+              "İkinci dalgada “listicle/rehber” içeriklere gidin.",
+              "1 follow-up + nazik kapanış kuralı uygulayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "broken-link-building",
+        "title": "Kırık link önerisiyle değer sunmak (Broken link building)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu, reclamation’ın “dış versiyonu”dur: Başka bir sitede 404’e düşen bir kaynak linki bulursunuz ve “benzer/alternatif kaynak” önerirsiniz. Turizm ve B2B’de özellikle rehber sayfaları ve kaynak listelerinde işe yarar."
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için örnek senaryo"
+          },
+          {
+            "type": "p",
+            "text": "Bir gezi blogunda “Antalya’da yapılacaklar” yazısında bir plaj rehberi linki 404 olmuş. Siz destinasyon sayfanızdaki “plajlar + rota” bölümünü kaynak olarak önerebilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "B2B için örnek senaryo"
+          },
+          {
+            "type": "p",
+            "text": "Sektör blogunda “SEO raporlama araçları” listesinde bir link 404. Siz güncel bir rehber/şablon sayfası önerirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önerdiğiniz içerik gerçekten “eşdeğer” mi?",
+              "İçeriğinizde tablo/grafik/checklist gibi referans değeri var mı?",
+              "Mesaj “satış” değil “yardım” gibi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Kırık link bulduğunuz sayfaya 1–2 alternatif sunun (tek link zorlamayın).",
+              "İçeriğinize “kaynak” niteliği kazandırın (tablo, kontrol listesi).",
+              "Yanıt alamazsanız 1 follow-up ile kapatın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reclamation-raporu-ve-ornek-tablo",
+        "title": "Reclamation raporu ve örnek tablo (kırık link + kayıp link)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo, reclamation çalışmasını yönetmek için “minimum viable” rapor formatıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Reclamation raporu ve örnek tablo (kırık link + kayıp link)",
+            "headers": [
+              "Tip",
+              "Referrer (Link Veren Sayfa)",
+              "Eski Hedef URL",
+              "Durum",
+              "Önerilen Aksiyon",
+              "Yeni Hedef"
+            ],
+            "rows": [
+              [
+                "Broken backlink",
+                "Blog/Portal A",
+                "/eski-sayfa",
+                "404",
+                "301 ile eşleştir",
+                "/yeni-sayfa"
+              ],
+              [
+                "Lost link",
+                "Site B",
+                "/kampanya-2024",
+                "Kaldırılmış",
+                "İletişim + güncel alternatif",
+                "/kampanya"
+              ],
+              [
+                "Mention (no link)",
+                "Haber C",
+                "—",
+                "Link yok",
+                "Nazik link talebi",
+                "/resmi-sayfa"
+              ],
+              [
+                "Broken external",
+                "Kaynak D",
+                "dış link 404",
+                "404",
+                "Alternatif kaynak öner",
+                "/rehber"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her satırda “yeni hedef” var mı?",
+              "301 aksiyonları doğrulandı mı (tek hop)?",
+              "Outreach aksiyonlarında tarih/sonuç tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Haftalık: yeni 404 ve mention taraması.",
+              "Aylık: reclamation raporu + kazanım çıktısı.",
+              "90 günde bir: URL değişimleri ve redirect haritası kontrolü."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "teknik-notlar-301-dogrulugu-ve-redirect-chain-riskleri",
+        "title": "Teknik notlar: 301 doğruluğu ve redirect chain riskleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Teknik tarafta en kritik risk, “düzeltirken bozmak”tır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "301’leri yanlış sayfaya göndermek",
+              "301→302→301 gibi chain’ler oluşturmak",
+              "Eski URL’leri ana sayfaya toplu göndermek",
+              "Canonical/robots nedeniyle hedef sayfanın indexlenmemesi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Teknik not (kilitli vurgu)",
+            "items": [
+              "301 yönlendirmelerin doğru hedefe yapıldığından ve redirect chain oluşturulmadığından emin olmak gerekir; aksi halde hem kullanıcı deneyimi hem link değeri zayıflar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (soft claim)"
+          },
+          {
+            "type": "p",
+            "text": "Backlink reclamation yapılan projelerde, tamamen yeni link inşasına göre çok daha düşük eforla anlamlı otorite kazanımı sağlanabildiği sık görülür; çünkü var olan sinyal yeniden çalışır hale gelir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Link Reclamation & Kırık Link Analizi Talep Et",
+            "text": "Site yenilemesi sonrası boşa düşen linkleri hızlıca geri kazanmak isteyenler için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Link Reclamation Takip & E-posta Şablonu Dosyasını İndir",
+            "text": "Kayıp linkleri takip etmeyi, 301 eşleştirmeyi ve mention outreach’ini tek dosyada standartlaştırır.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "link-reclamation-takip-eposta-sablonu",
+        "title": "Link Reclamation Takip & E-posta Şablonu Dosyasını İndir — SEO / Reclamation",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Link Reclamation Takip & E-posta Şablonu Dosyasını İndir — SEO / Reclamation (v1.0)",
+            "purpose": "Bu dosya, kayıp backlink’leri ve linklenmemiş mention’ları tek bir yerde takip edip aksiyona dönüştürmeniz için hazırlanmıştır. 404→301 eşleştirme, redirect doğrulama ve outreach mesajlarını standartlaştırarak hızlı kazanım sağlar.",
+            "whoFor": "Site yenilemesi yapan oteller, B2B markalar ve ajans SEO ekipleri.",
+            "steps": [
+              "Backlink raporlarından 404’e giden linkleri ve lost linkleri içeri aktarın.",
+              "Eski URL → yeni URL eşleştirmesini yapıp 301 uygulayın; doğrulama alanını doldurun.",
+              "Mention’lar için e-posta/DM şablonunu kullanıp takip tarihleriyle süreci kapatın."
+            ],
+            "checklist": [
+              "İlk 50 kırık backlink tespit edildi",
+              "Eski URL → yeni URL eşleştirmesi yapıldı",
+              "301 tek hop doğrulandı",
+              "Mention listesi çıkarıldı ve ilk 20’ye mesaj atıldı",
+              "30 gün sonra rapor tekrarlandı"
+            ],
+            "templateFields": [
+              "Tip: (Broken backlink / Lost link / Mention-no-link / Broken external)",
+              "Referrer URL: ________",
+              "Referrer Domain: ________",
+              "Eski Hedef URL (varsa): ________",
+              "Mevcut Durum: (404 / 200 / 301 / kaldırıldı)",
+              "Yeni Hedef URL: ________",
+              "Aksiyon: (301 / İletişim / Alternatif öner / İzle)",
+              "Öncelik: (Yüksek/Orta/Düşük)",
+              "Kanıt Notu: ________",
+              "Outreach Kanalı: (Mail/DM/LinkedIn)",
+              "Gönderim Tarihi: ________",
+              "Follow-up Tarihi: ________",
+              "Sonuç: (Link eklendi / Yönlendirildi / Red / Beklemede)",
+              "Notlar: ________"
+            ],
+            "validationFields": [
+              "301 tek hop mu? (E/H): __",
+              "Hedef sayfa 200 dönüyor mu? (E/H): __",
+              "Indexlenebilir mi? (E/H): __",
+              "Redirect chain var mı? (E/H): __"
+            ],
+            "emailTemplates": [
+              {
+                "title": "A) Brand mention → link talebi (nazik, kısa)",
+                "subject": "[Yazınız] içeriği için küçük bir kaynak ekleme ricası",
+                "body": "Merhaba [İsim],\n[İçerik adı] yazınızda [Marka/Otel]’den bahsettiğiniz için teşekkürler. Okuyucularınızın resmi bilgiye ulaşabilmesi için ilgili cümleye şu sayfayı kaynak olarak ekleyebilir misiniz?\n[URL]\nTeşekkürler, [Ad]"
+              },
+              {
+                "title": "B) Broken backlink (404) → doğru URL paylaşımı",
+                "subject": "[Sayfa] içeriğinizdeki link güncellemesi için hızlı not",
+                "body": "Merhaba [İsim],\n[Sayfa] yazınızda yer verdiğiniz [eski URL] linki site yenilemesi sonrası değişti ve yeni adresi şu şekilde:\n[yeni URL]\nUygunsa linki güncelleyebilir misiniz? Okuyucularınız için de daha iyi olacaktır.\nTeşekkürler, [Ad]"
+              },
+              {
+                "title": "C) Broken external link building → alternatif öneri",
+                "subject": "İçeriğinizdeki kırık kaynak için alternatif öneri",
+                "body": "Merhaba [İsim],\n[Sayfa] içeriğinizdeki [kırık link] bağlantısı 404 görünüyor. Aynı konuyu kapsayan güncel bir kaynak olarak şu sayfayı önerebilirim:\n[alternatif URL]\nUygunsa kaynaklar kısmına ekleyebilirsiniz.\nTeşekkürler, [Ad]"
+              }
+            ],
+            "rules": [
+              "Önce “Yüksek öncelik” linkleri seçin: en çok link alan eski URL’ler.",
+              "301’leri ana sayfaya toplu yönlendirmeyin; eşdeğer içeriğe taşıyın.",
+              "Redirect chain’i kırın: eski URL → yeni URL tek adım.",
+              "Mention mesajlarında tek istek ve kısa metin kullanın.",
+              "30 günde bir yeniden tarayın: yeni 404 ve yeni mention’lar çıkar."
+            ],
+            "example": [
+              "Tip: Broken backlink",
+              "Eski URL: /kampanya-2023 → 404",
+              "Yeni hedef: /kampanyalar → 301",
+              "Sonuç: 1 hafta içinde referral ve link değeri geri kazanımı"
+            ],
+            "deliverables": [
+              "Reclamation takip sheet’i",
+              "Redirect haritası (mapping)",
+              "Mention outreach log’u"
+            ],
+            "href": "/downloads/link-reclamation-takip-eposta-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Eski linkler boşa gitmek zorunda değil",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Link reclamation, backlink stratejisinde en hızlı uygulanabilen ve çoğu zaman en düşük eforla değer üreten alanlardan biridir. Çünkü burada amaç sıfırdan otorite inşa etmek değil; zaten kazanılmış ama 404, URL değişimi, içerik taşınması veya linksiz mention nedeniyle boşa düşmüş değeri tekrar çalışır hale getirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Site yenilemesi, kampanya URL değişimleri, dil sayfası taşımaları ve eski içerik silinmeleri düzenli kontrol edilmediğinde değerli referring domain’ler görünmez şekilde kaybedilebilir. Bu nedenle 404→301 eşleştirme, mention outreach ve redirect doğrulama süreci tek seferlik değil; periyodik bir SEO bakım sistemi olarak ele alınmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Link Reclamation & Kırık Link Analizi Talep Et",
+            "text": "404’e düşen değerli linkleri ve en hızlı geri kazanım fırsatlarını çıkarmak isteyen otel/B2B ekipleri için.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Link reclamation nedir?",
+        "a": "Link reclamation, daha önce kazanılmış ama kaybedilmiş backlink değerini geri kazanma sürecidir. 404’e düşen linkleri düzeltmek ve linklenmemiş brand mention’ları linke çevirmek bunun parçasıdır."
+      },
+      {
+        "q": "Kırık link fırsatları nasıl bulunur?",
+        "a": "Backlink araçlarından hedef URL’si 404 olan linkleri çıkarın ve referrer sayfalarla eşleştirin. Ayrıca sektörünüzde 404 veren kaynak linkleri bulup alternatif içerik önerebilirsiniz."
+      },
+      {
+        "q": "Taşınan sayfalar yüzünden link kaybını nasıl önlerim?",
+        "a": "Eski URL’leri en yakın eşdeğer içeriğe 301 ile yönlendirin. Toplu ana sayfa yönlendirmelerinden ve redirect chain’lerden kaçının; yönlendirmeleri tek adımda doğrulayın."
+      },
+      {
+        "q": "Brand mention’dan link istemek için nasıl yazmalıyım?",
+        "a": "Kısa ve nazik yazın: bahsettikleri için teşekkür edin, okuyucu faydasını söyleyin ve doğru resmi sayfa linkini ekleyip tek bir rica ile bitirin."
+      },
+      {
+        "q": "Siteyi yeniledim, eski linkler boşa gitti mi?",
+        "a": "Boşa gitmek zorunda değil. 404’e düşen eski URL’leri tespit edip doğru sayfalara 301 verirseniz link değerinin önemli bir kısmını geri kazanabilirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-hero-01.webp — Alt: Link reclamation ile kayıp otoriteyi geri kazanma, otel ve B2B rehberi",
+          "h1-context — 1920×1080 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-h1-context-02.webp — Alt: 404→301 ve mention→link akışı, hızlı kazanım süreci görseli",
+          "divider-01 — 4:3 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-divider-03.webp — Alt: Reclamation fırsatları: 404, taşınan içerik, brand mention ayracı",
+          "divider-02 — 4:3 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-divider-04.webp — Alt: 301 doğruluğu ve redirect chain riskleri, teknik uyarı ayracı",
+          "diagram-05 — 1920×1080 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-diagram-05.webp — Alt: Reclamation akış diyagramı: tespit–eşleştirme–301–doğrulama–rapor",
+          "checklist-06 — 1200×1200 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-checklist-06.webp — Alt: Kırık link ve mention reclamation checklist’i, hızlı kazanım kartı",
+          "kpi-07 — 1200×1200 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-kpi-07.webp — Alt: Reclamation KPI paneli, düzelen linkler ve görünürlük stabilitesi",
+          "proof-08 — 1200×1200 — link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak-proof-08.webp — Alt: Reclamation deliverables seti: 404 raporu, redirect haritası, outreach log",
+          "table-reclamation-report — Kırık link ve link kaybı raporu örnek tablo"
+        ],
+        "technicalChecklist": [
+          "Backlink araçlarından broken backlinks / lost backlinks raporu çıkarıldı",
+          "Search Console link alan sayfalar listesi ile 404 durumları eşleştirildi",
+          "Eski URL → yeni URL redirect mapping hazırlandı",
+          "301 yönlendirmeler eşdeğer içeriklere yapıldı",
+          "Redirect chain oluşmadığı doğrulandı",
+          "301 sonrası hedef sayfaların 200 döndüğü ve indexlenebilir olduğu kontrol edildi",
+          "Brand mention taraması yapıldı ve linksiz mention listesi çıkarıldı",
+          "Outreach mesajları için tarih, kanal, follow-up ve sonuç alanları takip edildi",
+          "Haftalık yeni 404/mention taraması, aylık reclamation raporu ve 90 günlük redirect haritası kontrol ritmi belirlendi"
+        ]
+      }
+    }
+  },
+
+   "BlogBacklinkCalismalarininEtkisiniOlcmekOtoriteTrafikVeGelirKpi": {
+    "title": "Backlink ROI: Otorite, Trafik ve Gelir KPI’ları | DGTLFACE",
+    "slug": "backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Backlink etkisi nasıl ölçülür? Link sayısı değil; otorite, sıralama/görünürlük, organik trafik, lead/rezervasyon ve gelir KPI’larını birlikte izleyin. Otel & B2B için raporlama çerçevesi.",
+    "seo": {
+      "metaTitle": "Backlink ROI: Otorite, Trafik ve Gelir KPI’ları | DGTLFACE",
+      "metaDescription": "Backlink etkisi nasıl ölçülür? Link sayısı değil; otorite, sıralama/görünürlük, organik trafik, lead/rezervasyon ve gelir KPI’larını birlikte izleyin. Otel & B2B için raporlama çerçevesi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Backlink & Dijital Otorite Yönetimi — /tr/seo/backlink-yonetimi",
+        "Blog / URL: /tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Analytical",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+      ],
+      "strategySummary": "Bu yazı, serinin “yönetim dili” bölümüdür: backlink çalışmalarını DA/DR gibi tek metriklerle değil, otorite → sıralama → trafik → dönüşüm → gelir zinciriyle ölçmeyi öğretir. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir; “link alıyoruz ama işe yarıyor mu?” sorusuna KPI tabanlı cevap ister. Funnel’da MoFu–BoFu arasında köprü kurar; çünkü ölçüm çerçevesi, bütçe kararlarını ve hangi taktiğe devam edileceğini belirler. Ana iş sorusu: “Backlink yatırımının ROI’sini nasıl kanıtlarım ve raporu iş hedeflerine bağlayarak nasıl yönetime anlatırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Backlink çalışmalarının başarısını sadece “kaç link aldık?” veya DA/DR gibi metriklerle ölçmek yanıltıcıdır. Doğru ölçüm; otorite sinyali (referring domain kalitesi + hedef sayfa otoritesi) → cluster bazlı sıralama/görünürlük → organik trafik → dönüşüm (lead/rezervasyon) → gelir katkısı zincirini birlikte izlemektir. Kampanya öncesi baz çizgisi alın, hedef cluster’ları belirleyin, öncesi/sonrası raporu ile bütçe kararlarını veriyle yönetin.",
+      "sgeSummary": "Backlink ROI’yi link sayısıyla değil; otorite, cluster bazlı sıralama/görünürlük, organik trafik, lead/rezervasyon ve gelir KPI’larıyla ölçün. Önce baz çizgisi, sonra periyodik karşılaştırma.",
+      "voiceAnswer": "İşe yarıyor mu? Hedef cluster’da sıralama, organik trafik, dönüşüm ve gelir artışı var mı bakın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi, pazarlama müdürü, ajans yöneticisi, B2B büyüme ekipleri",
+        "KPI: referring domain kalitesi, hedef URL performansı, görünürlük/sıralama, organik trafik, lead/rezervasyon, gelir, CAC/CPA etkisi",
+        "Entity: Backlink ROI, Authority Metrics, Rankings, Organic Traffic, Revenue",
+        "Semantic: outcome-based measurement, link ROI, cluster-level evaluation",
+        "Funnel: Measurement → budget decision → optimization loop",
+        "Teknik not: DA/DR gibi 3. parti metrikler tek başına karar kriteri değildir; iş KPI’larıyla birlikte okunmalıdır",
+        "Otel/B2B bağlam: doluluk ve gelir katkısı / lead kalitesi ve pipeline katkısı"
+      ]
+    },
+    "h1": {
+      "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI’ları",
+      "intro": "Backlink kampanyalarını ölçerken en büyük hata, raporu “DA/DR yükseldi” veya “20 link aldık” diye kapatmaktır. Çünkü link sayısı ve üçüncü parti metrikler, iş sonucunu tek başına garanti etmez. Yönetimin asıl sorusu şudur: “Bu yatırım sıralamayı, trafiği, rezervasyonu/lead’i ve geliri artırdı mı?” Bu rehber, backlink ölçümünü “sonuç odaklı” bir çerçeveye bağlar: kampanya öncesi baz çizgisi, cluster bazlı görünürlük, hedef sayfa performansı ve gelir katkısı.",
+      "quickSummary": [
+        "1) Link sayısını değil, etki zincirini ölçün",
+        "2) Kampanya öncesi baseline alın",
+        "3) Hedef cluster ve hedef sayfa performansını ayrı izleyin",
+        "4) Organik trafik, lead/rezervasyon ve gelir KPI’larını birlikte okuyun",
+        "5) 30/60/90 gün karşılaştırmasıyla devam/stop/optimize kararını verin"
+      ],
+      "ctaPrimary": {
+        "label": "Backlink ROI & KPI Analizi Talep Et",
+        "text": "Backlink yatırımınızı yönetim diline çevirip hangi taktiğe devam edeceğinizi netleştirmek isteyen otel/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Backlink ROI & KPI Analizi Talep Et",
+        "text": "Backlink yatırımını yönetim seviyesinde ölçmek ve bütçe kararını netleştirmek isteyen otel/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      },
+      "secondary": {
+        "label": "Backlink Kampanyası Öncesi/Sonrası KPI Karşılaştırma Şablonunu İndir",
+        "text": "Baseline’ı almayı, cluster ölçümünü ve gelir/lead raporunu tek şablonda standartlaştırır.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Backlink & Dijital Otorite Yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Link Reclamation ve Kırık Link Fırsatları: Link Kayıplarını Nasıl Geri Kazanırsınız?",
+        "href": "/seo/blog/link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak"
+      },
+      {
+        "title": "Çok Dilli ve Uluslararası Backlink Stratejisi: TR, EN, DE, RU Pazarlarda Otorite Kurmak",
+        "href": "/seo/blog/cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar"
+      },
+      {
+        "title": "SEO Raporlama: Organik Performansı Nasıl Okur ve Aksiyona Çevirirsiniz?",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sadece-link-saymak-yeter-mi",
+        "title": "Sadece link saymak yeter mi? Neyi yanlış ölçüyoruz?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Link sayısı, en fazla “aktivite”yi gösterir; “etki”yi göstermez. İki kampanya düşünün:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya A: 50 düşük kaliteli dizin linki",
+              "Kampanya B: 5 niş, editoryal, alakalı kaynak"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kağıt üzerinde A daha iyi görünür; ama çoğu zaman B’nin etkisi daha anlamlıdır. Bu yüzden ölçümde “hacim” yerine “kalite ve sonuç” odaklı ilerlemek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Backlink kampanyası başarı kriterleri nelerdir? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Backlink kampanyası başarı kriterleri nelerdir? Cevap: Başarı; referring domain kalitesi, hedef cluster’da sıralama/görünürlük artışı, organik trafik büyümesi ve lead/rezervasyon-gelir katkısının birlikte iyileşmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "“Antalya aile oteli” cluster’ında görünürlük artıyor, organik trafik yükseliyor ve rezervasyon motoruna giden organik oturumların dönüşümü iyileşiyorsa backlink çalışması iş sonucuna bağlanmıştır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "Hizmet sayfasına gelen organik lead sayısı artıyor ama lead kalitesi düşüyorsa, ROI yanıltıcı olabilir; ölçüm “lead kalitesi + pipeline” katmanını da içermeli."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Raporunuzda link sayısı dışında en az 5 iş KPI’ı var mı?",
+              "Hedeflediğiniz cluster’lar net mi (hangi konu seti)?",
+              "Trafik artışı “nitelikli mi” (dönüşüme yakın mı)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "“Aktivite metrikleri” (kaç link) ile “sonuç metriklerini” (gelir) ayrı kutularda raporlayın.",
+              "Her kampanya için 3 hedef cluster seçin ve sadece onları ölçün (dağılmayın).",
+              "30/60/90 gün etkisini ayrı değerlendirin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kampanya-oncesi-baseline-nasil-alinir",
+        "title": "Kampanya öncesi baz çizgisi (baseline) nasıl alınır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "ROI ölçümü, “önce fotoğraf” olmadan yapılamaz. Backlink kampanyasına başlamadan önce, hedef cluster ve hedef sayfalar için bir baz çizgi alın:"
+          },
+          {
+            "type": "h3",
+            "text": "Baseline seti (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef cluster: 20–50 ana sorgu listesi (markasız)",
+              "Mevcut sıralama ve görünürlük durumu (cluster bazlı)",
+              "Hedef sayfaların organik trafik ve etkileşim metrikleri",
+              "Dönüşüm: lead/rezervasyon sayısı ve kalite/geldiği sayfa",
+              "Gelir: organik kaynaklı gelir veya tahmini katkı (kanal raporuna göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cluster keyword listesi hazır mı?",
+              "Hedef sayfalar sabit mi (kampanya boyunca değişmeyecek mi)?",
+              "Dönüşüm ölçümü (GA4/CRM/PMS) tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "1 sayfalık “Kampanya Baseline” dokümanı hazırlayın.",
+              "“Hedef sayfa–cluster eşlemesi” yapın (1 sayfa, 1 ana niyet).",
+              "90 günlük rapor döngüsünü baştan kurun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otorite-metrikleri",
+        "title": "Otorite metrikleri: Domain/URL bazında neye bakmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otoriteyi ölçerken iki katman var:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Link profili kalitesi (referring domain çeşitliliği, alaka, editoryal bağlam)",
+              "Hedef URL performansı (link alan sayfanın güçlenmesi)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "DA/DR gibi üçüncü parti metrikler “proxy” olabilir; ama karar tek başına bunlarla verilmez. Daha anlamlı olan, linklerin hangi sayfaya geldiği ve o sayfanın cluster performansına katkısıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otorite metrik seti (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni referring domain sayısı (kalite filtresiyle)",
+              "Editoryal link oranı (body içinde, bağlamlı)",
+              "Hedef URL’ye gelen link oranı (dağılım)",
+              "Anchor çeşitliliği (yapay profil riski var mı)",
+              "Kayıp link / reclamation ihtiyacı (boşa düşen değer)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Linkler “hub/cluster sayfalarına” mı geliyor?",
+              "Anchor şişkinliği var mı?",
+              "Kayıp linkler (404) raporda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "DA/DR’yi “tek başına başarı” diye sunmayın; “yardımcı sinyal” olarak koyun.",
+              "Otorite metriklerini her zaman “sıralama/gelir” katmanıyla birlikte raporlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "siralama-ve-gorunurluk-degisimi",
+        "title": "Sıralama ve görünürlük değişimi: Cluster bazlı ölçüm",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Backlink etkisini “site geneli” bir metrikle okumak çoğu zaman gürültü üretir. Daha sağlıklı yöntem; hedeflediğiniz konu kümelerinde (cluster) görünürlük ve sıralama trendini izlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Cluster bazlı ölçüm nasıl yapılır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cluster keyword listesi (20–50 sorgu)",
+              "Her sorgu için hedef URL eşlemesi",
+              "Haftalık/aylık görünürlük trendi",
+              "İlk 3 / ilk 10 oranı (pazar payı gibi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "“Bodrum balayı oteli” cluster’ında 10 sorgunun 6’sı ilk 10’a giriyorsa, kampanyanın odak etkisini görürsünüz."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cluster’lar doğru seçildi mi (iş hedefiyle uyumlu mu)?",
+              "Aynı sorgu farklı sayfalara bölünmüyor mu (cannibalization)?",
+              "Etkiyi 30/60/90 gün penceresinde ayrı görüyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "3 cluster seçin, her cluster’da 1 “hub” sayfa belirleyin.",
+              "90 gün boyunca cluster dışında KPI eklemeyin (odak bozulmasın).",
+              "Büyük algoritma güncellemeleri olduğunda raporda “not” düşüp yorumu ayırın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "organik-trafik-ve-donusum",
+        "title": "Organik trafik ve dönüşüm: Lead/rezervasyon KPI’ları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sıralama artışı tek başına yetmez; asıl hedef organik trafikten nitelikli dönüşüm elde etmektir. Burada iki şeye dikkat edin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trafiğin kaynağı: hedef cluster mı yoksa alakasız long-tail mi?",
+              "Dönüşüm kalitesi: otelde rezervasyon, B2B’de lead kalitesi/pipeline"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için gelir odaklı KPI seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik kaynaklı rezervasyon sayısı",
+              "Organik rezervasyon geliri (varsa)",
+              "Rezervasyon motoru tıklaması / booking intent event’i",
+              "Doluluk ve ADR/RevPAR gibi gelir metrikleriyle korelasyon (yumuşak yorumla)",
+              "“Direkt kanal payı” değişimi (organik katkı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için gelir odaklı KPI seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik lead sayısı",
+              "MQL/SQL oranı (lead kalitesi)",
+              "Pipeline değeri / kapanan anlaşma katkısı",
+              "Ortalama satış döngüsü (kısaldı mı)",
+              "İçerik etkileşimi (case study okunma, demo sayfası tıklama)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dönüşüm ölçümü tutarlı mı (GA4 + CRM/PMS eşleşmesi)?",
+              "Organik lead/rezervasyon “kalite” filtresi var mı?",
+              "Link alan sayfaların etkileşimi (scroll/time) izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Dönüşüm KPI’larını “sayfa bazında” raporlayın (hangi sayfa para kazandırıyor?).",
+              "Otelde: organik → rezervasyon motoru → satın alma adımlarını ölçün.",
+              "B2B’de: organik → form → MQL/SQL → pipeline zincirini kurun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "backlink-roi-nasil-hesaplanir",
+        "title": "Backlink ROI nasıl hesaplanır? (pratik yaklaşım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek bir “formül” her şirkette işlemez; ama pratik yaklaşım şudur:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kampanya maliyeti (PR, içerik, ajans, araç)",
+              "Hedef cluster etkisi (görünürlük/sıralama artışı)",
+              "Organik trafik artışı ve dönüşüm artışı",
+              "Gelir katkısı (doğrudan veya proxy)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Basit ROI çerçevesi (yönetime anlatım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Ne yaptık?” (linkable asset + PR/outreach)",
+              "“Nerede etkiledi?” (cluster ve hedef sayfa)",
+              "“Ne değişti?” (görünürlük, trafik, dönüşüm)",
+              "“İş sonucu?” (gelir/pipeline)",
+              "“Ne yapacağız?” (devam/stop/optimize)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Maliyetler tek kalemde mi (şeffaf) tutuluyor?",
+              "ROI’yi “90 gün gecikmeli etki”yle yorumluyor musunuz?",
+              "Rapor “aksiyon” önerisiyle bitiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Teknik not (kilitli vurgu)",
+            "items": [
+              "DA/DR gibi üçüncü parti metrikler tek başına karar kriteri olmamalıdır; asıl KPI’lar iş hedefiyle ilişkili sıralama, trafik, dönüşüm ve gelir metrikleridir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oncesi-sonrasi-karsilastirma-tablosu",
+        "title": "Öncesi/Sonrası karşılaştırma tablosu (tek sayfalık rapor)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tabloyu “yönetim özeti” olarak kullanabilirsiniz."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Öncesi/Sonrası karşılaştırma tablosu (tek sayfalık rapor)",
+            "headers": [
+              "KPI Grubu",
+              "KPI",
+              "Önce",
+              "Sonra (30/60/90g)",
+              "Yorum / Aksiyon"
+            ],
+            "rows": [
+              [
+                "Otorite",
+                "Kaliteli referring domain",
+                "TBD",
+                "TBD",
+                "Kaynak kalitesini koru"
+              ],
+              [
+                "Sıralama",
+                "Hedef cluster ilk 10 oranı",
+                "TBD",
+                "TBD",
+                "İçerik + iç link ile destek"
+              ],
+              [
+                "Görünürlük",
+                "Cluster görünürlük trendi",
+                "TBD",
+                "TBD",
+                "Etki gecikmesini not et"
+              ],
+              [
+                "Trafik",
+                "Hedef sayfa organik oturum",
+                "TBD",
+                "TBD",
+                "CTR/landing optimizasyonu"
+              ],
+              [
+                "Dönüşüm",
+                "Lead/rezervasyon sayısı",
+                "TBD",
+                "TBD",
+                "Funnel dar boğazı düzelt"
+              ],
+              [
+                "Gelir",
+                "Organik gelir/pipeline",
+                "TBD",
+                "TBD",
+                "Bütçe kararını bağla"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "link-almak-icin-link-alma-doneminden-cikis",
+        "title": "Fark yaratan bölüm: “Link almak için link alma” döneminden çıkış",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok projede backlink başarısı sadece DA/DR ekranına bakılarak değerlendiriliyor; sıralama, trafik ve gelir etkisi rapora girmiyor. Bu da bütçe kararlarını yanlış yönlendiriyor. Bu rehberin farkı, backlink’i iş hedeflerine bağlayan bir KPI sistemi kurmasıdır: cluster etkisi + dönüşüm + gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (soft claim)"
+          },
+          {
+            "type": "p",
+            "text": "Backlink yatırımlarını KPI bazlı ölçen projelerde, bütçe kararları daha sağlıklı verilebiliyor ve “sadece link almak için link alma” döneminden çıkılabiliyor."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Backlink ROI & KPI Analizi Talep Et",
+            "text": "Backlink yatırımının etkisini yönetim seviyesinde netleştirmek isteyenler için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Backlink Kampanyası Öncesi/Sonrası KPI Karşılaştırma Şablonunu İndir",
+            "text": "Baseline’ı almayı, cluster ölçümünü ve gelir/lead raporunu tek şablonda standartlaştırır.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "backlink-kampanyasi-kpi-karsilastirma-sablonu",
+        "title": "Backlink Kampanyası Öncesi/Sonrası KPI Karşılaştırma Şablonunu İndir — SEO / ROI",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Backlink Kampanyası Öncesi/Sonrası KPI Karşılaştırma Şablonunu İndir — SEO / ROI (v1.0)",
+            "purpose": "Bu şablon, backlink kampanyasını “link sayısı” değil “iş etkisi” ile ölçmeniz için hazırlanmıştır. Baseline (öncesi) verisini alır, cluster bazlı görünürlük/sıralama, organik trafik, lead/rezervasyon ve gelir KPI’larını 30/60/90 gün penceresinde karşılaştırır.",
+            "whoFor": "Otel yönetimi ve pazarlama ekipleri, ajans raporlama ekipleri, B2B growth ekipleri.",
+            "steps": [
+              "Kampanya başlamadan baseline değerlerini doldurun (cluster + hedef sayfa + dönüşüm).",
+              "30/60/90 günlerde aynı KPI’ları güncelleyin ve farkı yazın.",
+              "“Aksiyon” sütununda devam/stop/optimize kararını netleştirin."
+            ],
+            "templateFields": [
+              "Kampanya adı: ________",
+              "Tarih aralığı: ________",
+              "Hedef cluster(lar): ________",
+              "Hedef sayfa(lar): ________",
+              "Maliyet (toplam): ________",
+              "KPI Tablosu (Öncesi / Sonrası)",
+              "Cluster adı: ________",
+              "Ana sorgular (20): ________",
+              "Hub sayfa: ________",
+              "En çok kazanan sayfalar: ________"
+            ],
+            "rules": [
+              "KPI’ları “site geneli” değil “hedef cluster + hedef sayfa” ile bağlayın.",
+              "DA/DR’yi varsa rapora koyun ama karar sütununu ona bağlamayın.",
+              "Trafik artışını mutlaka dönüşüm ve gelirle birlikte okuyun.",
+              "30 günde etki sınırlı olabilir; 60–90 gün penceresi daha anlamlıdır (varsayım).",
+              "Her raporu “aksiyon” ile bitirin: devam/optimize/stop."
+            ],
+            "example": [
+              "Cluster: “balayı oteli”",
+              "60 günde: görünürlük ↑, organik trafik ↑, rezervasyon motoru tıklaması ↑",
+              "Aksiyon: aynı cluster’da 1 yeni linkable asset + 5 hedef yayıncı"
+            ],
+            "checklist": [
+              "Baseline alındı",
+              "Cluster listesi sabitlendi",
+              "30/60/90 rapor döngüsü takvime bağlandı",
+              "Dönüşüm ve gelir ölçümü doğrulandı",
+              "Aksiyon kararı rapor sonunda net"
+            ],
+            "deliverables": [
+              "Baseline dokümanı",
+              "30/60/90 KPI raporu",
+              "Yönetim özeti (tek sayfa)"
+            ],
+            "href": "/downloads/backlink-kampanyasi-oncesi-sonrasi-kpi-karsilastirma-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Backlink yatırımını iş hedefine bağlamadan ROI ölçülmez",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Backlink çalışmalarının gerçek etkisi, yalnızca link sayısı veya DA/DR ekranıyla anlaşılamaz. Ölçüm; otorite sinyali, hedef cluster görünürlüğü, organik trafik, dönüşüm ve gelir/pipeline katkısı birlikte okunduğunda anlamlı hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden her backlink kampanyası öncesinde baseline alınmalı, hedef cluster ve hedef sayfalar sabitlenmeli, 30/60/90 gün karşılaştırmasıyla sonuç yönetim diline çevrilmelidir. Böylece “link aldık” raporundan çıkıp “hangi yatırım işe yaradı, hangisini optimize etmeliyiz?” sorusuna cevap veren bir sistem kurulabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Backlink ROI & KPI Analizi Talep Et",
+            "text": "Backlink yatırımınızı yönetim diline çevirip hangi taktiğe devam edeceğinizi netleştirmek isteyen otel/B2B ekipleri için.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Backlink çalışmalarının etkisi nasıl ölçülür?",
+        "a": "Link sayısı yerine; referring domain kalitesi, hedef cluster’da sıralama/görünürlük, organik trafik, lead/rezervasyon ve gelir KPI’larını birlikte izleyerek ölçülür. Öncesi/sonrası karşılaştırma şarttır."
+      },
+      {
+        "q": "Sadece DA/DR’ye bakmak yeterli mi?",
+        "a": "Hayır. DA/DR üçüncü parti metriklerdir ve tek başına iş etkisini garanti etmez. Asıl KPI’lar sıralama, trafik, dönüşüm ve gelir gibi iş hedefiyle ilişkili metriklerdir."
+      },
+      {
+        "q": "Backlink kampanyası öncesi/sonrası neye bakmalıyım?",
+        "a": "Baseline alın: hedef cluster sıralaması, hedef sayfa organik trafik, dönüşüm (lead/rezervasyon) ve gelir/pipeline. Sonra 30/60/90 günde aynı KPI’ları kıyaslayın."
+      },
+      {
+        "q": "Oteller ve B2B markalar için backlink ROI’si nasıl hesaplanır?",
+        "a": "Kampanya maliyetini, hedef cluster’daki görünürlük ve trafik artışıyla; bunun dönüşüm (rezervasyon/lead) ve gelir/pipeline katkısıyla birlikte değerlendirerek hesaplanır. Tek metrik yerine KPI seti kullanılır."
+      },
+      {
+        "q": "Link alıyoruz ama işe yarıyor mu, nasıl anlarım?",
+        "a": "Hedeflediğiniz konu kümesinde sıralama/görünürlük artışı var mı, hedef sayfaya organik trafik geliyor mu ve bu trafik rezervasyon/lead ve gelir üretiyor mu bakın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-hero-01.webp — Alt: Backlink ROI ölçümü, otorite trafik ve gelir KPI çerçevesi",
+          "h1-context — 1920×1080 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-h1-context-02.webp — Alt: Backlinkten gelire ölçüm zinciri, otel ve B2B raporlama görseli",
+          "divider-01 — 4:3 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-divider-03.webp — Alt: Aktivite ve etki KPI ayrımı, backlink ölçüm rehberi",
+          "divider-02 — 4:3 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-divider-04.webp — Alt: Cluster bazlı ölçüm ve önceliklendirme, raporlama ayracı",
+          "diagram-05 — 1920×1080 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-diagram-05.webp — Alt: Cluster bazlı görünürlük grafiği, öncesi sonrası trend",
+          "checklist-06 — 1200×1200 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-checklist-06.webp — Alt: Backlink kampanya değerlendirme checklist kartı, raporlama standardı",
+          "kpi-07 — 1200×1200 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-kpi-07.webp — Alt: Backlink ROI KPI paneli, otorite sıralama trafik dönüşüm gelir",
+          "proof-08 — 1200×1200 — backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi-proof-08.webp — Alt: Backlink ROI deliverables seti, baseline ve yönetim raporu çıktıları",
+          "table-before-after-kpi — Backlink kampanyası öncesi/sonrası KPI karşılaştırma tablosu"
+        ],
+        "technicalChecklist": [
+          "Kampanya başlamadan baseline dokümanı hazırlandı",
+          "Hedef cluster listesi ve 20–50 ana sorgu seti sabitlendi",
+          "Hedef sayfa–cluster eşlemesi yapıldı",
+          "Referring domain kalitesi ve editoryal link oranı ayrı raporlandı",
+          "DA/DR gibi üçüncü parti metrikler yardımcı sinyal olarak konumlandırıldı",
+          "Cluster bazlı ilk 3 / ilk 10 oranı ve görünürlük trendi izleniyor",
+          "Organik trafik, lead/rezervasyon ve gelir/pipeline KPI’ları birlikte raporlanıyor",
+          "GA4 + CRM/PMS dönüşüm ölçümü doğrulandı",
+          "30/60/90 gün öncesi/sonrası karşılaştırma ritmi belirlendi",
+          "Rapor sonunda devam/optimize/stop aksiyon kararı net yazılıyor"
+        ]
+      }
+    }
   }
 
 
