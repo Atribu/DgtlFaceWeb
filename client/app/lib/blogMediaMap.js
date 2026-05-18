@@ -37459,6 +37459,257 @@ export const BLOG_MEDIA_MAP = {
       alt: "Zero-click SERP kolajı, snippet PAA panel harita AI özet örnekleri",
       caption: "Zero-click SERP kolajı, snippet PAA panel harita AI özet örnekleri"
     }
+  },
+
+
+   "video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri":{
+    banner: {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-1.webp",
+      alt: "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+      caption: "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-2.webp",
+      alt: "Blog video short köprüsü, transkript ve hub link akışı",
+      caption: "Blog video short köprüsü, transkript ve hub link akışı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-3.webp",
+    alt: "Shorts ve Reels rolü, keşiften blog rehbere geçiş planı",
+      caption: "Shorts ve Reels rolü, keşiften blog rehbere geçiş planı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-4.webp",
+      alt: "Embed ve transkript ile SEO bağlama, hız ve CWV dengesi",
+      caption: "Embed ve transkript ile SEO bağlama, hız ve CWV dengesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-5.webp",
+      alt: "Blog video short funnel diyagramı, hub-centric multimodal model",
+      caption: "Blog video short funnel diyagramı, hub-centric multimodal model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-6.webp",
+      alt: "Video ve short SEO checklist’i, embed transkript link disiplini",
+      caption: "Video ve short SEO checklist’i, embed transkript link disiplini"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-7.webp",
+      alt: "Video/short KPI kartı, etkileşim ve dönüşüm metrikleri",
+      caption: "Video/short KPI kartı, etkileşim ve dönüşüm metrikleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-24/SEO3-24-8.webp",
+      alt: "Video embed ve transkript mockup’ı, blog sayfası örnek yerleşim",
+      caption: "Video embed ve transkript mockup’ı, blog sayfası örnek yerleşim"
+    }
+  },
+
+  "cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi":{
+    banner: {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-1.webp",
+      alt: "Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi",
+      caption: "Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-2.webp",
+      alt: "Soru kümesi ve kısa cevap blokları, otel ve B2B içerik akışı",
+      caption: "Soru kümesi ve kısa cevap blokları, otel ve B2B içerik akışı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-3.webp",
+    alt: "Chat-dostu içerik blokları, soru-cevap ve detay katmanı düzeni",
+      caption: "Chat-dostu içerik blokları, soru-cevap ve detay katmanı düzeni"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-4.webp",
+      alt: "Otel ve B2B senaryoları, AEO soru kümeleri ve karar rehberi",
+      caption: "Otel ve B2B senaryoları, AEO soru kümeleri ve karar rehberi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-5.webp",
+      alt: "Soru kümesi akışı, kısa cevap ve schema ilişkisiyle AEO modeli",
+      caption: "Soru kümesi akışı, kısa cevap ve schema ilişkisiyle AEO modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-6.webp",
+      alt: "AEO içerik checklist’i, soru kümeleri ve cevap blokları kontrolü",
+      caption: "AEO içerik checklist’i, soru kümeleri ve cevap blokları kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-7.webp",
+      alt: "AEO KPI kartı, soru bazlı görünürlük ve dönüşüm sinyalleri",
+      caption: "AEO KPI kartı, soru bazlı görünürlük ve dönüşüm sinyalleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-25/SEO3-25-8.webp",
+      alt: "AEO iskeleti çıktıları, soru kümesi tablosu ve örnek bloklar",
+      caption: "AEO iskeleti çıktıları, soru kümesi tablosu ve örnek bloklar"
+    }
+  },
+
+  "outreach-e-posta-ve-iliski-bazli-link-building":{
+    banner: {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-1.webp",
+      alt: "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+      caption: "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-2.webp",
+      alt: "Spam değil ilişki: değer önerisiyle outreach, otel ve B2B örneği",
+      caption: "Spam değil ilişki: değer önerisiyle outreach, otel ve B2B örneği" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-3.webp",
+    alt: "Prospect seçimi: alaka ve otorite filtreleri, ilişki bazlı yaklaşım",
+      caption: "Prospect seçimi: alaka ve otorite filtreleri, ilişki bazlı yaklaşım"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-4.webp",
+      alt: "İlişki modeli: değer sunma ve iş birliği akışı, güvenli link kazanımı",
+      caption: "İlişki modeli: değer sunma ve iş birliği akışı, güvenli link kazanımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-5.webp",
+      alt: "Outreach e-posta akış diyagramı, follow-up ve kapanış süreci",
+      caption: "Outreach e-posta akış diyagramı, follow-up ve kapanış süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-6.webp",
+      alt: "Outreach yapılacaklar checklist’i, spam olmadan ilişki kurma",
+      caption: "Outreach yapılacaklar checklist’i, spam olmadan ilişki kurma"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-7.webp",
+      alt: "Outreach KPI kartı, yanıt oranı ve link kazanımı takibi",
+      caption: "Outreach KPI kartı, yanıt oranı ve link kazanımı takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-6/SEO4-6-8.webp",
+      alt: "Outreach deliverables: prospect listesi, şablonlar, takip sheet’i ve rapor",
+      caption: "Outreach deliverables: prospect listesi, şablonlar, takip sheet’i ve rapor"
+    }
+  },
+
+  "turizm-ve-destinasyon-odakli-backlink-firsatlari":{
+    banner: {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-1.webp",
+      alt: "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+      caption: "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-2.webp",
+      alt: "Destinasyon grafiği: portal/DMO, blog, medya ve etkinlik ilişkisi",
+      caption: "Destinasyon grafiği: portal/DMO, blog, medya ve etkinlik ilişkisi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-3.webp",
+    alt: "Turizm backlink ekosistemi kategorileri, otel SEO bağlamı",
+      caption: "Turizm backlink ekosistemi kategorileri, otel SEO bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-4.webp",
+      alt: "Gezi blogları ve yerel medya ile iş birliği akışı, otel rehberi",
+      caption: "Gezi blogları ve yerel medya ile iş birliği akışı, otel rehberi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-5.webp",
+      alt: "Destinasyon backlink haritası diyagramı, otel otorite kanalları",
+      caption: "Destinasyon backlink haritası diyagramı, otel otorite kanalları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-6.webp",
+      alt: "İlk 10 hedef site checklist’i, turizm backlink fırsatları",
+      caption: "İlk 10 hedef site checklist’i, turizm backlink fırsatları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-7.webp",
+      alt: "Turizm SEO KPI kartı, destinasyon görünürlüğü ve referral ölçümü",
+      caption: "Turizm SEO KPI kartı, destinasyon görünürlüğü ve referral ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-7/SEO4-7-8.webp",
+      alt: "Destinasyon backlink planı deliverables, hedef liste ve kampanya çıktıları",
+      caption: "Destinasyon backlink planı deliverables, hedef liste ve kampanya çıktıları"
+    }
+  },
+
+  "cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar":{
+     banner: {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-1.webp",
+      alt: "Çok Dilli ve Uluslararası Backlink Stratejisi: TR–EN–DE–RU Pazarlarda Otorite Kurmak",
+      caption: "Çok Dilli ve Uluslararası Backlink Stratejisi: TR–EN–DE–RU Pazarlarda Otorite Kurmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-2.webp",
+      alt: "Dil–ülke–domain–kaynak türü ilişkisi, global backlink haritası",
+      caption: "Dil–ülke–domain–kaynak türü ilişkisi, global backlink haritası" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-3.webp",
+    alt: "ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi”",
+      caption: "ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi”"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-4.webp",
+      alt: "Pazar bazlı link değeri ve önceliklendirme, strateji ayracı",
+      caption: "Pazar bazlı link değeri ve önceliklendirme, strateji ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-5.webp",
+      alt: "Uluslararası pazar haritası ve backlink akışı, otorite kurma diyagramı",
+      caption: "Uluslararası pazar haritası ve backlink akışı, otorite kurma diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-6.webp",
+      alt: "Her pazar için otorite kaynak checklist’i, çok dilli link planı",
+      caption: "Her pazar için otorite kaynak checklist’i, çok dilli link planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-7.webp",
+      alt: "Pazar bazlı SEO KPI kartı, görünürlük ve marka araması ölçümü",
+      caption: "Pazar bazlı SEO KPI kartı, görünürlük ve marka araması ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-8/SEO4-8-8.webp",
+      alt: "Uluslararası backlink deliverables kartı, pazar planı ve PR paketi",
+      caption: "Uluslararası backlink deliverables kartı, pazar planı ve PR paketi"
+    }
   }
 
 };

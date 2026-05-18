@@ -233,7 +233,12 @@ export const BLOG_MAP = {
     "ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi":"BlogAiDestekliIcerikUretimiVeInsanEditorlukDengesi",
     "sge-ai-answer-ve-icerik-seo-stratejisi":"BlogSgeAiAnswerVeIcerikSeoStratejisi",
     "omni-kanal-icerik-yeniden-kullanimi-blog-sosyal-e-posta-ve-video":"BlogOmniKanalIcerikYenidenKullanimiBlogSosyalEpostaVeVideo",
-    "zero-click-serp-ve-marka-odakli-icerik-stratejisi":"BlogZeroClickSerpVeMarkaOdakliIcerikStratejisi"
+    "zero-click-serp-ve-marka-odakli-icerik-stratejisi":"BlogZeroClickSerpVeMarkaOdakliIcerikStratejisi",
+    "video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri":"BlogVideoVeKisaFormIceriklerinSeoVeIcerikStratejisindekiYeri",
+    "cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi":"BlogCevapMotorlariVeChatArayuzleriIcinAeoAdvancedIcerikStratejisi",
+    "outreach-e-posta-ve-iliski-bazli-link-building":"BlogOutreachEpostaVeIliskiBazliLinkBuilding",
+    "turizm-ve-destinasyon-odakli-backlink-firsatlari":"BlogTurizmVeDestinasyonOdakliBacklinkFirsatlari",
+    "cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar":"BlogCokDilliVeUluslararasiBacklinkStratejisiTrEnDeRuPazarlar"
   },
 
     smm: {

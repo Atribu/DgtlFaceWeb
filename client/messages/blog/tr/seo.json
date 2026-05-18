@@ -52442,6 +52442,3703 @@
         ]
       }
     }
+  },
+
+
+   "BlogVideoVeKisaFormIceriklerinSeoVeIcerikStratejisindekiYeri": {
+    "title": "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+    "slug": "video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri",
+    "department": "seo",
+    "subDepartment":"content",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Video ve short içerikler SEO’ya nasıl bağlanır? Blog sayfasına embed + transkript ekleyin, VideoObject schema kullanın; açıklama/link alanlarını cluster/hub’a yönlendirip görünürlüğü artırın.",
+    "seo": {
+      "metaTitle": "Video & Shorts/Reels: SEO ve İçerik Stratejisi | DGTLFACE",
+      "metaDescription": "Video ve short içerikler SEO’ya nasıl bağlanır? Blog sayfasına embed + transkript ekleyin, VideoObject schema kullanın; açıklama/link alanlarını cluster/hub’a yönlendirip görünürlüğü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Sayfa Kodu / Sayfa URL: İçerik SEO (Content SEO) / seo-3 / https://dgtlface.com/tr/seo/icerik-seo",
+        "Blog Tipi / Blog No / Blog URL: Trend / 24 / https://dgtlface.com/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri",
+        "Blog Başlık + H1: Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
+      ],
+      "strategySummary": "Bu Trend içerik, TR’de yoğun üretilen video ve kısa form içerikleri (Shorts/Reels) “izleniyor ama SEO’ya bağlanmıyor” probleminden çıkarıp blog + video + short ekosistemi şeklinde hub/cluster mimarisine bağlar. Hedef persona otel sahibi/GM, pazarlama müdürü ve ajans yöneticisidir: amaç, video görünürlüğünü Google Video/Discover ve site içi dönüşüm yolculuğuna entegre etmektir. Funnel’da MoFu’dadır: kullanıcı hangi konuların video/short için uygun olduğunu seçer, video metni/transkript ve embed ile SEO sinyallerini güçlendirir; açıklama/link alanlarıyla otoriteyi hub sayfaya taşır. Bu yazı, Content SEO’yu video prodüksiyon ve reels/video sosyal medya sayfalarıyla birleştirerek tek bir ölçüm ve üretim standardı önerir. Ana iş sorusu: “Video ve short’ları blog/cluster’a bağlayıp hem arama hem sosyal/video platformlarında görünürlüğü nasıl büyütürüm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Video ve kısa form içerikler (Shorts/Reels), kullanıcıların içerikle etkileşim biçimini değiştirdi; SEO tarafında ise video içeriği “metinle birlikte” kurgulamak kritik hale geldi. En güvenli model: uzun rehber blog → video özet → short klipler; hepsini aynı cluster/hub sayfasına bağlamak. Blog sayfasına video embed + transkript ekleyip VideoObject schema ile işaretlemek, videonun Google arama, video modu ve Discover gibi yüzeylerde bulunmasını kolaylaştırabilir.",
+      "sgeSummary": "Blog + video + short ekosistemi kur: videoyu sayfaya embed et, transkript ekle, VideoObject schema uygula; short açıklamalarında hub linkini sabitle; performansı ölç ve güncelle.",
+      "voiceAnswer": "YouTube/Instagram videolarını blog sayfasına embed edin, transkript ekleyin ve açıklamada hub sayfanıza link verin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm, eğitim ve B2B sektörlerde çoklu kanal üreten ekipler",
+        "KPI: sayfada kalma, video etkileşimi, CTA tıklaması, organik görünürlük, brand queries eğilimi",
+        "Entity Theme: Video content, Shorts/Reels, transcripts, embeds, Discover",
+        "Semantic Theme: multimodal content, search+social bridge, engagement amplifiers",
+        "Funnel: ToFu (keşif: short) → MoFu (rehber: blog+video) → BoFu (CTA: hizmet/rezervasyon)",
+        "Teknik odak: VideoObject structured data, video erişilebilirliği, sayfa performansı (CWV)",
+        "Refresh: 365 gün (platform ve Google video yüzeyleri değiştikçe)"
+      ]
+    },
+    "h1": {
+      "title": "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+      "intro": "TR’de video ve kısa form içerikler (Reels/Shorts) yoğun üretiliyor; fakat çoğu projede bu üretim blog/cluster yapısına bağlanmadığı için “izlenme var, SEO ve dönüşüm yok” tablosu ortaya çıkıyor. Oysa doğru bağ kurulduğunda video iki şeyi aynı anda yapar: (1) kullanıcı güvenini artırır (deneyim kanıtı), (2) blog/hizmet sayfasına “daha uzun süre” ve “daha güçlü niyetle” trafik taşır.\n\nSEO perspektifinden kritik kavram şudur: video içeriği tek başına değil, “watch page” veya blog sayfasındaki metin/bağlam ile birlikte anlam kazanır. Google’ın video structured data dokümanı, VideoObject işaretlemesiyle videonun arama sonuçları, video modu, görseller ve Discover dahil farklı yüzeylerde görünebildiğini belirtir.",
+      "quickSummary": [
+        "1) Blog + video + short ekosistemini tek hub sayfaya bağla",
+        "2) Videoyu ilgili blog/cluster sayfasına embed et",
+        "3) Transkript, açıklayıcı metin ve VideoObject schema ile görünürlüğü güçlendir",
+        "4) Short’ları keşif katmanı olarak seri/playlist mantığıyla planla",
+        "5) Performans, CWV ve KPI takibini aynı üretim standardına bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Video & Short-Form İçerik Strateji Analizi Talep Et",
+        "text": "Video/short üretimini blog+cluster mimarisiyle birleştirip ölçülebilir hale getirmek isteyen otel ve ajans ekipleri için.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Video & Short-Form İçerik Strateji Analizi Talep Et",
+        "text": "Video/short üretimini blog ve cluster yapısına bağlayıp ölçülebilir hale getirmek isteyen otel ve B2B ekipleri için.",
+        "href": "/seo/icerik-seo"
+      },
+      "secondary": {
+        "label": "Video/Short + Blog Entegrasyon Checklist’ini İndir",
+        "text": "Embed, transkript, schema, link disiplini ve hız (CWV) kontrollerini tek listede uygulamanızı sağlar.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels video sosyal medya",
+        "href": "/smm/reels-video"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
+        "href": "/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
+      },
+      {
+        "title": "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur?",
+        "href": "/seo/blog/evergreen-ve-sezonluk-icerik-stratejisi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "google-video-sonuclari-discover",
+        "title": "Google’da video sonuçları ve Discover (video görünürlüğü nerede oluşur?)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Video artık “YouTube’da duran bir varlık” değil; Google arama yüzeylerinde de görünürlük alanı olan bir format. Google Search Central, videoların ana arama sonuçlarında, Video mode’da, Google Images’da ve Google Discover’da görünebildiğini açıkça belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Bu, içerik stratejisi açısından şu anlama gelir: video üretmek tek başına değil; videoyu doğru sayfada konumlandırmak, metinle bağlamak ve yapılandırılmış veriyi eklemek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Video görünürlüğünün tipik yüzeyleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama sonuçlarında video snippet/preview",
+              "Video mode (video sekmesi)",
+              "Discover kartları",
+              "Bazı sorgularda “key moments” (bölüm/chapters gibi) deneyimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Video içerik SEO’ya nasıl bağlanır? "
+          },
+          {
+            "type": "p",
+            "text": "Video SEO’yu güçlendirmek için videoyu ilgili blog/cluster sayfasına embed edin, sayfaya açıklayıcı metin ve transkript ekleyin ve VideoObject structured data ile işaretleyin. Google’ın videoyu “bulması ve göstermesi” için videoya erişebilmesi gerekir; doğru yapı (watch page + markup + metin) görünürlük şansını artırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Video, sayfanın ana içeriğinin “tamamlayıcısı” mı, yoksa rastgele embed mi?",
+              "Sayfada video hakkında metin + transkript var mı?",
+              "VideoObject schema düşünüldü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her video için “watch page / blog sayfası” belirle (tek URL).",
+              "Videoyu sayfada görünür konumda embed et; altına kısa özet + transkript ekle.",
+              "VideoObject structured data ile işaretle; thumbnail, upload date gibi alanları doğru doldur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "youtube-shorts-reels-tiktok-rolu",
+        "title": "YouTube Shorts, Reels ve TikTok’un rolü (kısa formun işi ne?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa form içerikler (Shorts/Reels) “keşif” kanalıdır: yeni kullanıcıya hızlı temas, hızlı güven ve hızlı merak üretir. Ama kısa formun en büyük zayıflığı şudur: kullanıcıyı “derinleşmeye” taşımazsanız, ekosistem platform içinde kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Kısa formun görevleri (funnel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ToFu: hızlı farkındalık (hook + 1 fikir)",
+              "MoFu köprüsü: “tam rehber”e yönlendirme (hub link)",
+              "BoFu tetik: itiraz kapatma (SSS klipleri) + next step CTA"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Önemli pratik not: YouTube Shorts’ta URL’lerin tıklanabilirliği sınırlıdır; YouTube Help, Shorts yorumları ve Shorts açıklamalarına konulan URL’lerin tıklanabilir olmadığını (spam/scam azaltma gerekçesiyle) belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden short’lardan web’e trafik planında “tek yol açıklamadaki link” varsayımına güvenmeyin: sabit yorum, profil linki, video serisi (short → uzun video → site) gibi köprüler tasarlayın (platform izinlerine göre)."
+          },
+          {
+            "type": "h3",
+            "text": "Shorts/Reels içerikleri web siteme nasıl trafik getirebilir? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa form içerikler web’e doğrudan trafik üretmekten çok “merak ve niyet” üretir; trafik için köprü tasarlamak gerekir: kısa klipte “tam rehber” vaadi, profil linki veya uzun video açıklaması üzerinden hub sayfaya yönlendirme gibi. YouTube Shorts’ta URL’ler tıklanabilir olmayabileceği için, web’e akışınızı platform kurallarına uygun alternatiflerle kurgulamalısınız."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Short’larda tek mesaj + tek CTA var mı?",
+              "“Derin içerik”e köprü net mi (hub URL / profil / seri)?",
+              "Platform kısıtlarına göre link stratejisi ayarlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 amiral blog seç; 5–10 short klip çıkar (SSS + mini ipuçları).",
+              "Her short’u aynı cluster/hub temasına bağla (etiket/playlist/seri).",
+              "Trafik için köprü kurgula: short → uzun video → blog/hizmet (en az bir ara basamak)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "blog-video-short-ekosistemi",
+        "title": "Blog + video + short ekosistemi (hub-centric multimodal model)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIO gereksinimine uygun “multimodal içerik modeli” şudur: Blog (hub) = ana bilgi deposu → Video = güven ve anlatım → Short = keşif ve giriş kapısı. Bu modelde SEO kazanımı, hub sayfanın güçlenmesiyle gelir; video ve short ise hub’a otorite ve davranış sinyali taşır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Hub-centric kurallar (3 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek URL merkezi: “Tam rehber” her zaman aynı blog/cluster sayfası.",
+              "Tek mesaj omurgası: Her format aynı ana fikri taşır (farklı uzunlukla).",
+              "Tek ölçüm planı: Video/short performansı “hub sayfa” KPI’larına bağlanır."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşak kullanım): Video ve short içeriklerin embed + transkript ile desteklendiği sayfalarda, sayfada kalma süresi ve etkileşim metriklerinde artış raporlanıyor (garanti değil; sık gözlenen bir örüntü)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Blog sayfası gerçekten “hub” gibi mi (SSS, iç link, CTA var mı)?",
+              "Video aynı sayfada mı embed (tek merkez) yoksa dağınık mı?",
+              "Short’lar “hub’a köprü” mü, yoksa bağımsız üretim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Hub blogu “answer pack + SSS + checklist” ile güçlendir.",
+              "Video’yu hub sayfaya embed et; transkript ekle; schema’yı uygula.",
+              "Short’ları hub’a bağlayan seri mantığı kur (playlist/etiket/pin)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "video-short-konu-secim-matrisi",
+        "title": "Hangi konular video/short için uygundur? (seçim matrisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her konu video istemez; her konu short’ta çalışmaz. Seçim, “anlatım türü”ne göre yapılmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Video için uygun (derin anlatım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Uzun rehberin özeti (6–10 dk)",
+              "“Nasıl yapılır?” süreçleri (HowTo)",
+              "Case/önce-sonra anlatımı (B2B)",
+              "Otelde deneyim: oda turu, konsept, lokasyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Short için uygun (tek fikir)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 soru → 1 cevap (SSS klibi)",
+              "1 hata → 1 düzeltme",
+              "3 maddelik mini checklist",
+              "“1 ipucu” (ama hub’a köprüyle)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Video ve short’lar için hangi metin alanları kritik? "
+          },
+          {
+            "type": "p",
+            "text": "Web tarafında kritik metin alanları: sayfa başlığı/heading, video embed çevresindeki açıklayıcı metin ve transkript; ayrıca VideoObject structured data alanları (başlık, açıklama, thumbnail, upload date gibi) videonun bulunmasına yardımcı olur. Platform tarafında ise başlık, açıklama ve (varsa) zaman damgaları/chapters gibi alanlar video keşfini etkileyebilir; Google, key moments için kendi tespitini yapabildiğini ve YouTube açıklamasındaki zaman damgalarını da kullanabildiğini belirtir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Video/Short metin alanları ve hedef URL disiplini",
+            "headers": [
+              "Format",
+              "Kritik metin alanı",
+              "Hedef URL disiplini",
+              "Kullanım notu"
+            ],
+            "rows": [
+              [
+                "Blog / hub sayfası",
+                "H1, giriş metni, SSS, transkript",
+                "Tek merkezi URL",
+                "Ana bilgi deposu olarak çalışır"
+              ],
+              [
+                "Uzun video",
+                "Başlık, açıklama, chapters/zaman damgaları",
+                "Hub sayfaya yönlendirme",
+                "Güven ve anlatım katmanı sağlar"
+              ],
+              [
+                "Shorts/Reels",
+                "Hook, tek mesaj, kısa CTA",
+                "Profil / seri / uzun video köprüsü",
+                "Keşif ve merak üretir"
+              ],
+              [
+                "Schema",
+                "VideoObject alanları",
+                "Watch page / blog URL",
+                "Video varlığını arama yüzeyleri için netleştirir"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Video embed çevresinde “ne öğretecek” metni var mı?",
+              "Transkript sayfada görünür mü (yalnız schema içine gömülü değil)? (Varsayım: içerik şeffaflığı için)",
+              "VideoObject alanları tamam mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her video için 2–3 cümle “sayfa içi özet” yaz (hub’da).",
+              "Transkripti ekle ve bölümlere ayır (H3 başlıklarıyla).",
+              "VideoObject schema’yı watch page’e ekle; eksik alan bırakma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "video-metni-transkript-embed-seo",
+        "title": "Video metni, transkript ve embed ile SEO’yu bağlamak (asıl kaldıraç)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Video SEO’yu “site SEO”ya bağlayan şey, embed + transkript + doğru işaretlemedir. Google, videonun sayfada bulunmasını ve doğru işaretlenmesini vurgular; VideoObject structured data, videonun detaylarının arama sonuçlarında gösterilmesini etkileyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Video transkriptleri SEO için önemli mi? "
+          },
+          {
+            "type": "p",
+            "text": "Transkript, video içeriğinin metin olarak anlaşılmasını kolaylaştırır; kullanıcı için erişilebilirliği artırırken sayfanın kavramsal kapsamasını da güçlendirir. En iyi pratik, transkripti sayfada okunabilir biçimde sunmak ve önemli bölümleri başlıklarla ayırmaktır; ardından video structured data ile video varlığını netleştirmektir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "Embed + transkript blok standardı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Video (üstte)",
+              "2–3 cümle “neden izlemeliyim?”",
+              "Bölümlenmiş transkript (H3/H4)",
+              "“İlgili SSS” (5 soru)",
+              "CTA (hizmet/rezervasyon/analiz)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Video sayfada ana içerikle ilişkili mi?",
+              "Transkript “tek parça” değil, bölümlenmiş mi?",
+              "SSS ve CTA video sonrası doğru yerde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Transkriptte geçen soruları SSS’ye dönüştür (PAA etkisi).",
+              "Video bölüm başlıklarını içerikte H3 olarak kullan (taranabilirlik).",
+              "Video sayfasını hub/cluster iç link ağına bağla (yetim kalmasın)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "short-iceriklerden-cluster-trafik",
+        "title": "Short içeriklerden ana cluster sayfasına trafik çekmek (gerçekçi köprü)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Short’ların “link verip trafik alırım” beklentisi çoğu platformda sınırlıdır. Özellikle YouTube Shorts’ta URL’lerin tıklanabilir olmaması önemli bir kısıttır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden kısa formdan web’e akış şu şekilde daha güvenlidir:"
+          },
+          {
+            "type": "h3",
+            "text": "Köprü modeli (3 adım)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Short: 1 soru → 1 cevap + “tam rehber” vaadi",
+              "Uzun video / playlist: açıklamada tıklanabilir link (platforma göre)",
+              "Hub blog: embed + transkript + CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Short: “Transfer var mı?” (10–20 sn)",
+              "Uzun video: “Otele ulaşım rehberi” (6 dk)",
+              "Hub sayfa: “Ulaşım + transfer rehberi” + rezervasyon CTA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Short: “SEO raporunda tek KPI seç”",
+              "Uzun video: “Raporlama paneli anlatımı”",
+              "Hub sayfa: “SEO raporlama rehberi” + analiz CTA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Short’lar “seri” mantığında mı (aynı konu kümesi)?",
+              "Köprü adımı var mı (short→uzun video)?",
+              "Hub sayfa CTA’sı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her cluster için 10 short planla: 5 SSS + 5 mini ipucu.",
+              "Short’ları playlist/seri ile bağla; uzun videoya yönlendir.",
+              "Hub sayfayı video + transkript + SSS ile güçlendir (dönüşüm için)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-notlar-cwv-video-indexing",
+        "title": "Teknik notlar (CWV, lazy load, video indexing hijyeni)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet’teki kritik teknik not: Video embed ederken sayfa hızını (CWV) bozmamak gerekir. Pratikte bu; lazy-load, preview image ve “kullanıcı tıklayınca yükle” yaklaşımıyla yapılır (uygulama yöntemi site altyapısına göre değişir). Aynı zamanda Google’ın video best practices dokümanı, Google’ın video dosyalarını fetch edebilmesi gerektiğini ve video preview/key moments gibi özellikler için erişimin önemli olduğunu vurgular."
+          },
+          {
+            "type": "h3",
+            "text": "Hız güvenliği için pratik set (genel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önizleme görseli (thumbnail)",
+              "Click-to-load embed",
+              "Video player scriptlerini kontrol et",
+              "Mobilde ilk ekranı ağırlaştırma"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Video embed, ilk ekranı “ağır” yapıyor mu?",
+              "Mobilde CLS/LCP riski artıyor mu? (Varsayım: ölçüm yapılıyor)",
+              "Video erişimi Google için engelli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Video embed’i “performans bütçesi” ile yayınla (kriter koy).",
+              "Preview image + lazy-load yaklaşımı kullan (mümkünse).",
+              "Video/short ekosistemini 365 gün döngüsünde güncelle (platform değişir)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competitor-gap-blog-cluster-baglantisi",
+        "title": "Fark yaratan mini bölüm (Competitor gap): TR’de “blog/cluster bağlantısı” az",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet’in gap notu doğru: TR’de video ve kısa form yoğun üretiliyor; ama blog/cluster yapısına bağlanması ve SEO’ya katkısı net konuşulmuyor. Bu sayfanın farkı, “multimodal hub model”i pratik hale getirmesi: embed + transkript + schema + kısa form köprüsü."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Video/Short + Blog Entegrasyon Checklist’ini İndir",
+            "text": "Video embed, transkript, schema, short köprüsü ve link disiplinini tek listede uygulamanızı sağlar.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Video & Short-Form İçerik Strateji Analizi Talep Et",
+            "text": "Video üretimi, blog/cluster bağlama, ölçüm ve hız risklerini birlikte planlamak isteyen ekipler için.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      },
+      {
+        "id": "video-short-blog-entegrasyon-checklist",
+        "title": "Video/Short + Blog Entegrasyon Checklist’ini İndir — SEO / Multimodal Content",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Video/Short + Blog Entegrasyon Checklist’ini İndir — SEO / Multimodal Content (v1.0)",
+            "purpose": "Bu asset, video ve short üretimini “platform içi izlenme”den çıkarıp blog/cluster SEO mimarisine bağlamak için hazırlanmış uygulama setidir. Amaç; video embed + transkript + VideoObject schema ile arama/Discover görünürlüğünü güçlendirmek ve short içeriklerden hub sayfaya köprü kurmaktır. Ayrıca sayfa hızını (CWV) bozmadan video yerleştirme standartlarını içerir.",
+            "whoFor": "SEO uzmanı, içerik editörü, video prodüksiyon ekibi, sosyal medya yöneticisi, web geliştirici.",
+            "steps": [
+              "Amiral blog/cluster sayfasını seç ve video/short paketini planla.",
+              "Videoyu sayfaya embed et, transkript ekle, VideoObject schema uygula.",
+              "Short’larla seri/playlist köprüsü kur; 30 gün KPI ile izleyip revize et."
+            ],
+            "checklist": [
+              "Amiral blog/cluster URL belirlendi (tek hedef URL)",
+              "Video sayfada görünür konuma embed edildi + açıklayıcı metin eklendi",
+              "Transkript sayfada okunabilir biçimde yer aldı (bölümlenmiş)",
+              "VideoObject structured data eklendi (thumbnailUrl, name, uploadDate vb.)",
+              "Video best practices kontrol edildi: video erişilebilir, preview/key moments için uygun",
+              "Discover hedefi için içerik kalitesi ve başlık/görsel standardı gözden geçirildi",
+              "Short köprü planı yazıldı (short → seri/playlist → uzun video → blog)",
+              "YouTube Shorts link kısıtı dikkate alındı; alternatif köprü tasarlandı",
+              "CTA konumu net: video sonrası + sayfa finali (hub → hizmet/rezervasyon)",
+              "Hız/CWV riski için preview image + lazy-load yaklaşımı planlandı (Varsayım)"
+            ],
+
+            "deliverables": [
+              "Amiral blog + video embed + transkript sayfa standardı",
+              "VideoObject schema planı",
+              "Short seri planı (10 klip) + köprü akışı",
+              "KPI takip şablonu (30/90 gün)",
+              "Performans optimizasyon checklist’i"
+            ],
+            "href": "/downloads/video-short-blog-entegrasyon-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Video ve short üretimi SEO’ya bağlanmadıkça eksik kalır",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Video ve kısa form içerikler, yalnızca sosyal platformlarda izlenme üretmek için değil; blog/cluster mimarisini güçlendirmek, kullanıcı güvenini artırmak ve dönüşüm yolculuğunu desteklemek için kullanılmalıdır. En güçlü model, uzun rehber blogu hub yapmak; videoyu bu hub’a embed etmek; transkript ve VideoObject schema ile arama görünürlüğünü güçlendirmek; short’ları ise keşif ve köprü katmanı olarak planlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım Content SEO’yu video prodüksiyon ve kısa form sosyal medya üretimiyle aynı ölçüm disiplinine bağlar. Böylece “izlenme var ama SEO ve dönüşüm yok” problemi yerine; hub URL, transkript, schema, CTA ve KPI düzeni olan sürdürülebilir bir multimodal içerik sistemi kurulur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Video & Short-Form İçerik Strateji Analizi Talep Et",
+            "text": "Video/short üretimini blog ve cluster yapısına bağlayıp ölçülebilir hale getirmek isteyen otel ve B2B ekipleri için.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Video/Short + Blog Entegrasyon Checklist’ini İndir",
+            "text": "Embed, transkript, schema, link disiplini ve hız (CWV) kontrollerini tek listede uygulamanızı sağlar.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Video içerik SEO’ya nasıl bağlanır?",
+        "a": "Videoyu ilgili blog/cluster sayfasına embed edin, video hakkında açıklayıcı metin ve transkript ekleyin, ardından VideoObject structured data ile işaretleyin. Bu kombinasyon, videonun arama ve Discover yüzeylerinde bulunmasını kolaylaştırabilir."
+      },
+      {
+        "q": "Shorts/Reels içerikleri web siteme nasıl trafik getirebilir?",
+        "a": "Kısa form içerikler “keşif” üretir; web’e trafik için köprü gerekir: short → seri/playlist → uzun video → blog hub. YouTube Shorts’ta URL’ler tıklanabilir olmayabileceği için link stratejisini buna göre tasarlayın."
+      },
+      {
+        "q": "Video transkriptleri SEO için önemli mi?",
+        "a": "Transkript, videonun içeriğini metin olarak erişilebilir ve anlaşılır hale getirir; sayfanın kavramsal kapsamasını güçlendirir. En iyi pratik, transkripti sayfada bölümlenmiş şekilde sunup video structured data ile videoyu işaretlemektir."
+      },
+      {
+        "q": "Blog + video + short ekosistemi nasıl kurulur?",
+        "a": "Blogu hub yapın, videoyu hub’a embed edin, short’ları keşif katmanı olarak seri mantığıyla videoya/hub’a bağlayın. Tüm formatlarda tek hedef URL disiplinini koruyun ve KPI ile ölçün."
+      },
+      {
+        "q": "Video’yu hangi sayfalara embed etmeliyim?",
+        "a": "En doğru yer, videonun konusunu en iyi kapsayan hub/cluster blog sayfasıdır; aynı videoyu çok sayfaya rastgele dağıtmak yerine tek merkezde derinleştirin. İstisna olarak ürün/oda sayfalarında “kanıt” rolündeki videolar kullanılabilir (performans riskini kontrol ederek)."
+      },
+      {
+        "q": "Google’da videonun görünürlüğünü artırmak için minimum teknik set nedir?",
+        "a": "VideoObject structured data, doğru thumbnail ve açıklama alanları ve Google’ın videoyu fetch edebilmesi temel setin parçasıdır."
+      },
+      {
+        "q": "Video embed sayfa hızını düşürürse SEO etkilenir mi?",
+        "a": "Kullanıcı deneyimi düşerse dönüşüm ve etkileşim metrikleri olumsuz etkilenebilir; bu yüzden preview image ve kontrollü yükleme yaklaşımlarıyla CWV riskini yönetmek gerekir (altyapıya göre)."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-hero-01.webp — Video ve short içerik ekosistemi, otel ve B2B içerik stratejisi",
+          "h1-context — 1920×1080 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-h1-context-02.webp — Blog video short köprüsü, transkript ve hub link akışı",
+          "divider-01 — 1600×1200 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-divider-03.webp — Shorts ve Reels rolü, keşiften blog rehbere geçiş planı",
+          "divider-02 — 1600×1200 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-divider-04.webp — Embed ve transkript ile SEO bağlama, hız ve CWV dengesi",
+          "diagram-05 — 1920×1080 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-diagram-05.webp — Blog video short funnel diyagramı, hub-centric multimodal model",
+          "checklist-06 — 1200×1200 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-checklist-06.webp — Video ve short SEO checklist’i, embed transkript link disiplini",
+          "kpi-07 — 1200×1200 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-kpi-07.webp — Video/short KPI kartı, etkileşim ve dönüşüm metrikleri",
+          "proof-08 — 1200×1200 — video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri-proof-08.webp — Video embed ve transkript mockup’ı, blog sayfası örnek yerleşim",
+          "table-video-short-url-discipline — Video/Short metin alanları ve hedef URL disiplini tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri",
+          "VideoObject structured data @graph içine eklenecek",
+          "Video thumbnailUrl, name, description, uploadDate alanları kontrol edilecek",
+          "Video embed için lazy-load / click-to-load yaklaşımı değerlendirilecek",
+          "Transkript sayfada görünür ve bölümlenmiş şekilde yer alacak",
+          "Short → uzun video / playlist → hub blog köprü akışı planlanacak",
+          "YouTube Shorts link kısıtları içerik yönlendirme planında dikkate alınacak",
+          "CWV kontrolü: LCP, CLS ve mobil ilk ekran yükü izlenecek",
+          "İç linklerde hub → service → creative/video-produksiyon → smm/reels-video akışı kurulacak",
+          "365 günlük refresh döngüsünde platform ve Google video yüzeyleri güncellenecek"
+        ]
+      }
+    }
+  },
+
+  "BlogCevapMotorlariVeChatArayuzleriIcinAeoAdvancedIcerikStratejisi": {
+    "title": "Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi",
+    "slug": "cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi",
+    "department": "seo",
+    "subDepartment":"content",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AEO nedir? Soru kümeleri çıkarın; her soru için kısa net cevap + detay blok yazın. FAQ/HowTo schema ve iç linklerle “cevaplanabilir” içerik kurup chat/answer engine görünürlüğünü artırın.",
+    "seo": {
+      "metaTitle": "AEO Advanced: Chat Arayüzleri İçin İçerik Stratejisi | DGTLFACE",
+      "metaDescription": "AEO nedir? Soru kümeleri çıkarın; her soru için kısa net cevap + detay blok yazın. FAQ/HowTo schema ve iç linklerle “cevaplanabilir” içerik kurup chat/answer engine görünürlüğünü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Sayfa Kodu / Sayfa URL: İçerik SEO (Content SEO) / seo-3 / https://dgtlface.com/tr/seo/icerik-seo",
+        "Blog Tipi / Blog No / Blog URL: Trend / 25 / https://dgtlface.com/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi",
+        "Blog Başlık + H1: Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, klasik SEO’nun “sıralama ve tıklama” odağının yanına, cevap motorları ve chat arayüzleri için cevaplanabilirlik (answerability) odağını ekler: hedef, içeriklerin AI yanıtlarında referans alınabilecek şekilde yapılandırılmasıdır. AEO (Answer Engine Optimisation), AI tabanlı cevap sistemlerinin içeriği daha kolay anlaması, güvenmesi ve alıntılaması için içeriği soru kümeleri ve kısa cevap + derin açıklama modeliyle düzenleme pratiği olarak anlatılır. Hedef persona; otel sahibi/GM, pazarlama müdürü ve ajans yöneticisidir: amaç, SSS/rehber içeriklerde “soru bazlı long-tail” kapsamasını büyütürken güven sinyallerini artırmaktır. Blogun rolü, Content SEO hizmet sayfasını Trend perspektifle beslemek ve teknik SEO + raporlama sayfalarıyla ölçüm döngüsü kurmaktır. Ana iş sorusu: “Chat/answer engine’lerin tüketebileceği şekilde içerikleri nasıl kurgular, hangi blokları zorunlu tutar ve başarımı nasıl ölçerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AEO (Answer Engine Optimisation), içerikleri chat arayüzleri ve cevap motorlarının doğrudan alıntılayabileceği şekilde yapılandırma yaklaşımıdır. En etkili model: soruları kümelendirip her soru için 1–2 cümlelik net cevap, ardından derin açıklama/örnek/kanıt bloğu vermektir. FAQ/HowTo gibi yapılar ve doğru schema, içeriğin “makine-okur” olmasını kolaylaştırır. Otel ve B2B’de hedef; kullanıcı itirazlarını hızlı kapatmak ve güven sinyallerini görünür kılmaktır.",
+      "sgeSummary": "Soruları kümelendir; her biri için kısa cevap + detay blok yaz; FAQ/HowTo schema ve iç linklerle yapılandır; kanıt/kaynak ekleyip chat/answer engine’lerin alıntılamasını kolaylaştır.",
+      "voiceAnswer": "AEO için soruyu başlık yapın, hemen 1–2 cümle cevap verip ardından detaylandırın.",
+      "aiFactSheet": [
+        "Hedef kitle: Bilgi yoğun içerik üreten otel/turizm ve B2B hizmet siteleri",
+        "KPI: soru bazlı long-tail görünürlük, snippet/FAQ uyumu, etkileşim (scroll/SSS), lead/rezervasyon kalitesi, brand queries eğilimi",
+        "Entity Theme: AEO, Answer Engines, Chat Interfaces, Q&A clusters, FAQ/HowTo schema",
+        "Semantic Theme: answer-first content, chat-friendly structure, trust signals",
+        "Funnel: ToFu (soru keşfi) → MoFu (ikna/kanıt) → BoFu (analiz/teklif/rezervasyon)",
+        "Geo: TR genel; otel ve hizmet dikeyleri (örneklerle)",
+        "Refresh: 365 gün (chat/answer deneyimleri geliştikçe)"
+      ]
+    },
+    "h1": {
+      "title": "Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi",
+      "intro": "AEO, SEO’nun “bir adım ötesi” gibi anlatılır çünkü hedef yalnızca bir sorguda sıralanmak değil; o sorguya cevap veren sistemlerin (chat/answer engine) içeriğinizden net bir yanıt çıkarabilmesini sağlamaktır. AEO, içeriği AI yanıtlarında “doğrudan cevap” olarak kullanılabilecek şekilde yapılandırma pratiği olarak tarif ediliyor.\n\nBu yeni dünyada içerik şunu yapmalı: soruyu hızlı yakalamalı, 1–2 cümlede net cevap vermeli, ardından “neden böyle?” kısmını derinleştirmeli (bağlam, örnek, kanıt), güven sinyali üretmeli (kaynak, güncellik, şeffaflık), iç linklerle kullanıcıyı bir sonraki doğru adıma taşımalı.",
+      "quickSummary": [
+        "1) İçeriği keyword listesi değil, soru kümeleri üzerinden planla",
+        "2) Her soru için kısa cevap + detay blok standardı kur",
+        "3) FAQPage, HowTo ve QAPage kullanımını doğru ayır",
+        "4) Kaynak, güncellik ve güven sinyallerini görünür kıl",
+        "5) Soru bazlı long-tail, SSS etkileşimi ve CTA kalitesini ölç"
+      ],
+      "ctaPrimary": {
+        "label": "AEO & Chat Arayüz İçerik Strateji Analizi Talep Et",
+        "text": "Soru bazlı içerik mimarisini kurup ölçmek isteyen otel ve ajans ekipleri için.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AEO & Chat Arayüz İçerik Strateji Analizi Talep Et",
+        "text": "Soru bazlı içerik mimarisini kurup ölçmek isteyen bilgi yoğun otel ve B2B ekipleri için.",
+        "href": "/seo/icerik-seo"
+      },
+      "secondary": {
+        "label": "AEO İçerik İskeleti & Soru Kümesi Planlama Şablonunu İndir",
+        "text": "Soru kümelerini, kısa cevap + detay bloklarını ve schema/iç link planını tek tabloda kurmanızı sağlar.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "Veri Analizi & Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+        "href": "/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
+      },
+      {
+        "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
+        "href": "/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "aeo-nedir-seodan-farki",
+        "title": "AEO nedir, SEO’dan farkı ne? (Advanced perspektif)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "AEO’yu “SEO’yu bırak, AEO yap” diye düşünmek yanıltıcı olur. AEO daha çok, SEO’nun üzerine eklenen bir yapılandırma ve tüketilebilirlik katmanıdır. SEO çoğu zaman “anahtar kelime → sayfa → sıralama” hattında ilerler; AEO ise “soru → net cevap → güven → kaynak olma” hattını güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "AEO’nun SEO’dan ayrıldığı 3 pratik nokta"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Birim: Keyword yerine “soru kümeleri” (question clusters) merkezde.",
+              "Format: “Cevap önce” + “detay sonra” (answer-first).",
+              "Kanıt: Çoklu kaynak ve güven sinyali (trust signals) zorunlu."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AEO nedir, SEO’dan farkı ne? (AEO net cevap)"
+          },
+          {
+            "type": "p",
+            "text": "AEO, içerikleri chat/answer engine’lerin doğrudan cevap üretebileceği formatta düzenleme yaklaşımıdır; hedef “cevap kutusunda/alinti alanında” seçilebilir olmaktır. SEO, sıralama ve tıklamaya odaklanırken; AEO soru bazlı yapı, kısa net cevap ve güven sinyali ile “alıntılanabilirlik” hedefini öne çıkarır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sayfada “soru başlığı → 1–2 cümle cevap” blokları var mı?",
+              "Cevaplar gereksiz jargon içermeden “direkt” mi?",
+              "Kaynak/güncellik/güven sinyali görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İçeriği keyword listesi değil, soru kümeleri üzerinden planla.",
+              "İlk ekrana “kısa cevap” bloğu koy; detayları altta aç.",
+              "Kanıt katmanını standardize et: kaynak + örnek + SSS."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chat-arayuzlerinde-icerik-tuketimi",
+        "title": "Cevap motorları ve chat arayüzlerinde içerik tüketimi (nasıl “okuyorlar”?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Chat arayüzleri “sayfanın tamamını okumak” yerine, sayfadan parça seçmeye eğilimlidir: bir tanım, bir adım listesi, bir tablo, bir SSS cevabı. Bu nedenle AEO’da hedef, içeriği “tek duvar metin” olmaktan çıkarıp bloklara bölmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Chat-dostu içerik sinyalleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sorunun kendisi başlıkta (H2/H3)",
+              "Cevap hemen altında kısa paragraf (1–2 cümle)",
+              "Detay: madde listesi, örnek, mini tablo, mini check",
+              "SSS: kısa cevap standardı",
+              "İç link: “bir sonraki mantıklı adım”a köprü"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her H2’nin altında 1–2 paragraf giriş + kısa cevap var mı?",
+              "Her H2’de en az 1 “☑ Mini Check” var mı?",
+              "Her ana bölüm sonunda “Ne yapmalıyım?” aksiyon listesi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İçerik iskeletini “soru–cevap” üzerine kur; sonra genişlet.",
+              "İçeriği bloklara böl: tanım → adım → örnek → SSS → CTA.",
+              "“Cevabı önce ver” kuralını sayfanın her kritik noktasında uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "soru-kumesi-intent-bazli-yapi",
+        "title": "Soru kümesi ve intent bazlı yapı (Question Clusters)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO’nun “advanced” kısmı, soruları tek tek değil kümeler halinde yönetmektir. Çünkü kullanıcı tek soru sormaz; bir sorudan diğerine akar. Chat arayüzleri de genellikle takip soruları üretir. Bu yüzden içerik planında şu iki katman olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana soru (primary question): sayfanın ana hedefi",
+              "Alt sorular (supporting questions): PAA/SSS ve kullanıcı itirazları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru kümeleri nasıl çıkarılır? "
+          },
+          {
+            "type": "p",
+            "text": "Önce ana soruyu yazın (“AEO nedir?”), sonra aynı konunun alt sorularını çıkarın (PAA mantığı, ekip/satış soruları, destek kayıtları). Bu alt soruları intent’e göre sınıflandırın: tanım, nasıl yapılır, kıyas, risk/itiraz, karar. Ardından her alt soruya 1–2 cümle cevap + detay bloğu atayarak içerik iskeletini kurun."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Soru Kümesi → Intent → Blok Tasarımı",
+            "headers": [
+              "Soru Kümesi",
+              "Intent",
+              "Kısa Cevap (1–2 cümle)",
+              "Detay Blok",
+              "En iyi Schema"
+            ],
+            "rows": [
+              [
+                "“AEO nedir?”",
+                "Tanım",
+                "net tanım + fark",
+                "örnek + karşılaştırma",
+                "FAQPage"
+              ],
+              [
+                "“Nasıl uygulanır?”",
+                "How-to",
+                "3 adım özet",
+                "adım adım rehber",
+                "HowTo"
+              ],
+              [
+                "“Ne işe yarar?”",
+                "İkna",
+                "fayda + hedef",
+                "KPI + örnek senaryo",
+                "FAQPage"
+              ],
+              [
+                "“Risk var mı?”",
+                "Risk azaltma",
+                "risk + çözüm",
+                "kontrol listesi",
+                "FAQPage"
+              ],
+              [
+                "“Chat içerikte ne ister?”",
+                "Kullanım",
+                "cevaplanabilirlik",
+                "blok örnekleri",
+                "FAQPage"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Soru kümesi listesi (en az 8–12 soru) çıkarıldı mı?",
+              "Sorular intent’e göre etiketlendi mi?",
+              "Her soru için kısa cevap + detay bloğu tasarlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Soru kümelerini “içerik brief”ine zorunlu alan yap.",
+              "Her kümeye bir “blok tipi” atayın (how-to, tablo, checklist).",
+              "En çok sorulan 5 soruyu SSS’ye ekleyip schema ile işaretle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kisa-cevap-derin-aciklama-modeli",
+        "title": "Kısa cevap + derin açıklama modeli (Answer-First)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu model, AEO’nun çekirdeği: “önce cevap, sonra bağlam.” Çünkü hem kullanıcı hem de chat arayüzleri ilk etapta net yanıt ister. Sonra detay arayan için derin bloklar gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Model şablonu (her soru için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısa cevap: 1–2 cümle (maks 25–35 kelime)",
+              "Detay: 3 alt bloktan biri",
+              "Liste (3–7 madde)",
+              "Mini örnek (otel/B2B bağlamı)",
+              "Mini check (kontrol listesi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru–cevap formatını nasıl yapılandırmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Soru başlığını H2/H3 olarak yazın; hemen altında 1–2 cümlelik net cevap verin. Ardından “neden/ nasıl / örnek” bloklarıyla derinleşin ve bölüm sonunda 3–6 maddelik aksiyon listesi ekleyin. Bu yapı hem taranabilirliği hem de alıntılanabilirliği artırır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Soru: “Misafir yorumları AEO’da işe yarar mı?” Kısa cevap: “Evet, yorumlar deneyim sinyali üretir; ama spam ve doğrulama kontrolü şarttır.” Detay: 5 madde + SSS + moderasyon checklist."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kısa cevap gerçekten kısa mı, yoksa açıklama mı?",
+              "Detay blokları “tekrar” değil yeni değer mi üretiyor?",
+              "Bölüm sonunda aksiyon listesi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her H2’de 1 kısa cevap bloğunu zorunlu kıl.",
+              "Her H2’de 1 mini örnek (otel/B2B) ekle.",
+              "Her H2 sonunda “Ne yapmalıyım?” listesini standartlaştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "coklu-kaynak-guven-sinyalleri",
+        "title": "Çoklu kaynak ve güven sinyalleri (Trust layer)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Advanced AEO’nun kritik kısmı “güven katmanı”dır. Çünkü chat/answer engine’ler açısından “doğru ve güvenilir içerik” daha değerlidir; kullanıcı açısından da aynı. Bu nedenle içerikte şu güven sinyallerini görünür kılmak gerekir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak ve güncellik (tarih, referans)",
+              "Yazar/uzman bilgisi (E-E-A-T)",
+              "Şeffaflık (iletişim, politika sayfaları)",
+              "Kanıt (örnek, tablo, ölçüm yaklaşımı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Structured data tarafında, Google “structured data’nın her zaman sonuç garantilemediğini” ve kalite yönergelerinin önemli olduğunu vurgular."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşak kullanım): AEO yaklaşımı uygulanan sayfalarda soru bazlı long-tail sorgularda ve snippet/FAQ görünürlüğünde artış potansiyeli bulunuyor (garanti değil; bir potansiyel alanı)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kritik iddialarda kaynak/güncellik var mı?",
+              "“Garanti vaat” içeren dil temizlendi mi?",
+              "Kullanıcı “kim yazdı?” sorusunu sayfada cevaplayabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kaynak + güncelleme notunu sayfa standardı yap.",
+              "SSS’lerde “risk azaltma” sorularını özellikle ekle.",
+              "Güven sayfalarına iç link ver (KVKK/iletişim vb.) (Varsayım: site yapınız varsa)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "schema-heading-yapisi",
+        "title": "Schema ve heading yapısı (FAQPage, HowTo, QAPage farkı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO’da schema “sihirli değnek” değil; ama içerik yapısını netleştirir. FAQPage schema, sayfada tek cevaplı soru–cevap setleri için uygundur."
+          },
+          {
+            "type": "p",
+            "text": "QAPage ise kullanıcıların bir soruya birden fazla cevap gönderebildiği ortamlar içindir; yalnız tek cevaplı SSS için QAPage kullanılmamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SSS (tek cevap): FAQPage",
+              "Topluluk (çok cevap): QAPage (yalnız gerçekten kullanıcı cevap ekleyebiliyorsa)",
+              "Adım adım süreç: HowTo (uygunsa)",
+              "Sesli okuma mikro-optim: speakable (kısıtlı bir özellik; mikro fayda)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sayfa gerçek SSS içeriyor mu (schema ile uydurma değil)?",
+              "FAQPage mi QAPage mi doğru seçildi?",
+              "Heading hiyerarşisi bozulmadan soru başlıkları yerleştirildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "FAQPage’i 5–10 soruyla kur; JSON-LD @graph içinde yayınla.",
+              "Süreç içeriklerinde HowTo adımlarını ekle (uygunsa).",
+              "QAPage yalnız topluluk siten gerçekten “cevap gönderme” destekliyorsa kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-gelismis-kullanim-senaryolari",
+        "title": "Otel ve B2B için gelişmiş kullanım senaryoları (advanced uygulama)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel senaryosu: “itiraz kapatma” soru kümeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“İptal koşulları nedir?”",
+              "“Transfer var mı?”",
+              "“Çocuk kulübü kaç yaş?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu soruların her biri için kısa cevap + detay blok + SSS ile “rezervasyon öncesi tereddüt” kapatılır. Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon örnekleri, kullanıcı bağlamını güçlendirir (abartısız, tekrar etmeden)."
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu: “karar rehberi” soru kümeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“AEO ile SEO farkı ne?”",
+              "“Hangi içerikler chat-dostu?”",
+              "“Hangi KPI’ları izlemeliyim?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Her soru için kısa cevap + tablo + mini checklist + CTA (analiz talebi) akışı kurulur."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde SSS, rezervasyon öncesi itirazları kapsıyor mu?",
+              "B2B’de süreç ve deliverable net mi?",
+              "İç linkler kullanıcıyı bir sonraki mantıklı sayfaya taşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel içeriklerinde SSS’yi “itiraz kapatma” mantığıyla yaz.",
+              "B2B’de “kısa cevap → kanıt → next step” kurgusunu standartlaştır.",
+              "İç link hedeflerini sabitle: içerik SEO + teknik SEO + raporlama."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "olcum-surdurulebilirlik-aeo-kpi",
+        "title": "Ölçüm ve sürdürülebilirlik (AEO KPI seti)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO’yu “yayınla ve bekle” değil; “yayınla, ölç, güncelle” şeklinde düşünmek gerekir. Klasik KPI’lara ek olarak soru bazlı performansı izlemek daha değerlidir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Soru bazlı long-tail sorgu çeşitliliği",
+              "SSS etkileşimi (accordion açma vb.) (Varsayım)",
+              "Brand queries trendi",
+              "İç link tıklaması (cluster akışı)",
+              "Lead/rezervasyon kalitesi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Soru kümesi” performansı raporlanıyor mu?",
+              "AEO sayfaları 365 gün döngüsünde güncelleniyor mu?",
+              "SSS soruları yeni PAA sorularıyla zenginleştiriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "90 günde bir soru kümesini gözden geçir; yeni soruları ekle, tekrarları birleştir.",
+              "AEO sayfalarına 365 gün refresh takvimi koy (örnekler, kaynaklar, SSS).",
+              "İçerik raporlama sayfasına (SEO raporlama) ölçüm köprüsü kur."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AEO İçerik İskeleti & Soru Kümesi Planlama Şablonunu İndir",
+            "text": "Soru kümelerini, kısa cevap + detay bloklarını ve schema/iç link planını tek tabloda kurmanızı sağlar.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AEO & Chat Arayüz İçerik Strateji Analizi Talep Et",
+            "text": "Soru bazlı içerik mimarisini kurup ölçmek isteyen bilgi yoğun siteler için.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      },
+      {
+        "id": "aeo-icerik-iskeleti-soru-kumesi-planlama-sablonu",
+        "title": "AEO İçerik İskeleti & Soru Kümesi Planlama Şablonunu İndir — SEO / AEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "AEO İçerik İskeleti & Soru Kümesi Planlama Şablonunu İndir — SEO / AEO (v1.0)",
+            "purpose": "Bu şablon, içerikleri cevap motorları ve chat arayüzleri için “cevaplanabilir” hale getirmek üzere soru kümeleri, kısa cevap + detay blokları ve schema/iç link planını tek yerde toplar. AEO yaklaşımını operasyonel hale getirip (brief → outline → QA → ölçüm) standardize eder. Ayrıca FAQPage/HowTo/QAPage gibi şema tiplerinin doğru kullanımını hatırlatır.",
+            "whoFor": "SEO uzmanı, içerik stratejisti, editör, ajans yöneticisi, konu uzmanı.",
+            "steps": [
+              "Konu için soru kümelerini çıkar ve intent’e göre etiketle.",
+              "Her soru için kısa cevap + detay bloğu planla; gerekli schema tipini seç.",
+              "İç link hedeflerini ekle; yayın sonrası 30/90 gün performans notu düş."
+            ],
+            "template": {
+              "contentIdentity": [
+                "H1 / URL: ________",
+                "Primer persona: ________",
+                "Intent: ________",
+                "Hub hedef URL: ________"
+              ],
+              "questionCluster": [
+                "Soru 1: ________ (Intent: tanım/how-to/risk/kıyas)",
+                "Soru 2: ________",
+                "Soru 3: ________",
+                "Soru 4: ________",
+                "Soru 5: ________",
+                "Soru 6: ________",
+                "Soru 7: ________",
+                "Soru 8: ________"
+              ],
+              "blockPlan": [
+                "Kısa cevap (1–2 cümle): ________",
+                "Detay bloğu tipi: (liste/örnek/tablo/checklist) ________",
+                "Kanıt/Kaynak notu: ________",
+                "İç link: ________",
+                "Schema: (FAQPage/HowTo/QAPage) ________"
+              ],
+              "pageSkeleton": [
+                "H2: Soru kümesi A (tanım)",
+                "H2: Soru kümesi B (how-to)",
+                "H2: Soru kümesi C (risk/itiraz)",
+                "H2: Ölçüm ve güncelleme"
+              ],
+              "qaChecklist": [
+                "Her soru altında kısa cevap var",
+                "Her H2’de Mini Check var",
+                "Her H2 sonunda “Ne yapmalıyım?” var",
+                "FAQPage yalnız tek cevaplı SSS için kullanıldı",
+                "QAPage yalnız kullanıcı cevap ekleyebiliyorsa kullanıldı",
+                "Structured data kalite yönergeleri kontrol edildi",
+                "İç link hedefleri doğru"
+              ]
+            },
+            "href": "/downloads/aeo-icerik-iskeleti-soru-kumesi-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: AEO, SEO’nun yerine değil; içeriğin cevaplanabilirliğini artırmak için çalışır",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "AEO, SEO’nun yerine geçen ayrı bir disiplin değil; içerikleri chat arayüzleri ve cevap motorları tarafından daha kolay anlaşılabilir, özetlenebilir ve alıntılanabilir hale getiren bir yapılandırma yaklaşımıdır. Bu nedenle başarılı AEO; keyword listesinden önce soru kümelerini, uzun anlatımdan önce kısa cevabı, genel vaatlerden önce güven sinyalini merkeze alır."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B gibi bilgi yoğun yapılarda bu model, kullanıcı itirazlarını daha erken kapatır; SSS/rehber içeriklerini daha taranabilir hale getirir; iç linklerle kullanıcıyı analiz, teklif veya rezervasyon gibi bir sonraki adıma taşır. En güçlü sonuç, kısa cevap + detay blok + schema + ölçüm döngüsü birlikte kurulduğunda ortaya çıkar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AEO & Chat Arayüz İçerik Strateji Analizi Talep Et",
+            "text": "Soru bazlı içerik mimarisini kurup ölçmek isteyen bilgi yoğun otel ve B2B ekipleri için.",
+            "href": "/seo/icerik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AEO İçerik İskeleti & Soru Kümesi Planlama Şablonunu İndir",
+            "text": "Soru kümelerini, kısa cevap + detay bloklarını ve schema/iç link planını tek tabloda kurmanızı sağlar.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AEO nedir, SEO’dan farkı ne?",
+        "a": "AEO, içerikleri chat/answer engine’lerin doğrudan cevap üretebileceği formatta yapılandırma yaklaşımıdır; SEO ise sıralama ve tıklama odaklıdır."
+      },
+      {
+        "q": "Cevap motorları için içerik nasıl yazılır?",
+        "a": "Soru başlıklarını H2/H3 olarak yazın, hemen altında 1–2 cümle net cevap verin ve ardından örnek/tablo/checklist ile derinleştirin. İç linklerle bir sonraki adımı gösterin."
+      },
+      {
+        "q": "Soru–cevap formatını nasıl yapılandırmalıyım?",
+        "a": "“Kısa cevap + detay blok” modelini kullanın: kısa cevapta özü verin, detay blokta kanıt ve uygulama adımlarını ekleyin. SSS bölümünü 5–10 çekirdek soruyla tamamlayın."
+      },
+      {
+        "q": "Chat arayüzleri hangi tipi içerikleri daha rahat tüketir?",
+        "a": "Bloklara ayrılmış, net başlık hiyerarşisi olan; tanım, liste, tablo ve kısa SSS cevapları içeren içerikler daha “alınabilir” yapı sunar."
+      },
+      {
+        "q": "FAQPage mi QAPage mi kullanmalıyım?",
+        "a": "Tek cevaplı SSS için FAQPage; kullanıcıların aynı soruya cevap ekleyebildiği sayfalar için QAPage kullanılmalıdır."
+      },
+      {
+        "q": "AEO’da schema şart mı?",
+        "a": "Şart değil; ama içerik yapısını netleştirir. Structured data’nın sonuç garantilemediğini bilerek kalite yönergelerine uymak gerekir."
+      },
+      {
+        "q": "AEO başarısını nasıl ölçerim?",
+        "a": "Soru bazlı long-tail görünürlük, SSS etkileşimi, brand queries trendi ve CTA’lı derin sorgu artışı gibi tıklama-dışı sinyalleri de takip edin."
+      },
+      {
+        "q": "AEO’da en sık hata nedir?",
+        "a": "Uzun genel anlatım yazıp net cevap blokları oluşturmamak ve güven/kanıt katmanını (kaynak, örnek) eklememektir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-hero-01.webp — AEO içerik modeli, chat arayüzlerinde cevaplanabilir yapı ve güven",
+          "h1-context — 1920×1080 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-h1-context-02.webp — Soru kümesi ve kısa cevap blokları, otel ve B2B içerik akışı",
+          "divider-01 — 1600×1200 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-divider-03.webp — Chat-dostu içerik blokları, soru-cevap ve detay katmanı düzeni",
+          "divider-02 — 1600×1200 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-divider-04.webp — Otel ve B2B senaryoları, AEO soru kümeleri ve karar rehberi",
+          "diagram-05 — 1920×1080 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-diagram-05.webp — Soru kümesi akışı, kısa cevap ve schema ilişkisiyle AEO modeli",
+          "checklist-06 — 1200×1200 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-checklist-06.webp — AEO içerik checklist’i, soru kümeleri ve cevap blokları kontrolü",
+          "kpi-07 — 1200×1200 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-kpi-07.webp — AEO KPI kartı, soru bazlı görünürlük ve dönüşüm sinyalleri",
+          "proof-08 — 1200×1200 — cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi-proof-08.webp — AEO iskeleti çıktıları, soru kümesi tablosu ve örnek bloklar",
+          "table-question-cluster-intent-block-design — Soru Kümesi → Intent → Blok Tasarımı tablosu",
+          "table-template-question-block-plan — Soru bazlı kısa cevap + detay blok planı tablosu",
+          "table-before-after-kpi — AEO öncesi/sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi",
+          "FAQPage yalnız gerçek tek cevaplı SSS alanları için kullanılacak",
+          "HowTo yalnız adım adım süreç anlatılan uygun bölümlerde değerlendirilecek",
+          "QAPage yalnız kullanıcıların cevap ekleyebildiği sayfalarda kullanılacak",
+          "Structured data kalite yönergeleri kontrol edilecek",
+          "Heading hiyerarşisi H2/H3 soru başlıklarıyla bozulmadan kurulacak",
+          "Her ana bölümde kısa cevap + detay blok + mini check + aksiyon listesi standardı korunacak",
+          "İç linklerde içerik SEO + teknik SEO + SEO raporlama akışı kurulacak",
+          "Soru kümesi performansı 30/90 gün raporlama notuyla izlenecek",
+          "365 günlük refresh döngüsünde yeni PAA/SSS soruları eklenecek"
+        ]
+      }
+    }
+  },
+
+  "BlogOutreachEpostaVeIliskiBazliLinkBuilding": {
+    "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+    "slug": "outreach-e-posta-ve-iliski-bazli-link-building",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Outreach nedir, backlink için nasıl kullanılır? Prospect listesi çıkarın, kişiselleştirilmiş e-posta yazın, follow-up sıklığını planlayın ve ilişki bazlı link kazanımı için takip sistemi kurun.",
+    "seo": {
+      "metaTitle": "Outreach E-posta Rehberi: İlişki Bazlı Link Building | DGTLFACE",
+      "metaDescription": "Outreach nedir, backlink için nasıl kullanılır? Prospect listesi çıkarın, kişiselleştirilmiş e-posta yazın, follow-up sıklığını planlayın ve ilişki bazlı link kazanımı için takip sistemi kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Sayfa URL: Backlink & Dijital Otorite Yönetimi — https://dgtlface.com/tr/seo/backlink-yonetimi",
+        "Blog No / Blog URL: 6 — https://dgtlface.com/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
+      ],
+      "strategySummary": "Bu içerik, link earning/PR yaklaşımını “saha uygulamasına” indirir: prospect listesi çıkarma → kişiselleştirilmiş outreach e-postası → follow-up → ilişki yönetimi döngüsünü playbook formatında verir. Hedef persona otel ve B2B markalarda SEO kararını veren yönetici/ajans ekibidir; “spam gibi görünmeden nasıl mail atarım?” sorusuna taktik seviyede cevap arar. Funnel’da MoFu (consideration) ağırlıklıdır; süreç doğru kurulduğunda BoFu’ya (strateji & e-posta analizi talebi) bağlanır. Ana iş sorusu: “Backlink için outreach yaparken kime, ne yazmalı, ne sıklıkla takip etmeli ve bunu nasıl bir ilişki sistemine dönüştürmeliyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi bir outreach stratejisi, rastgele herkese mail atmak değil; alaka + otorite kriterleriyle seçilmiş sitelerle karşılıklı faydaya dayalı ilişki kurmaktır. Kişiselleştirilmiş e-postalarda net bir değer önerisi (value proposition), doğru “linklenebilir varlık” (rehber, veri, case) ve planlı follow-up akışı bulunur. Otel ve B2B markalar için en sağlıklı link kazanımı; spam şablonlardan uzak, şeffaf ve takip sistemiyle yönetilen ilişki bazlı outreach’tir.",
+      "sgeSummary": "Outreach’te başarı: doğru hedef liste + kişiselleştirme + net değer önerisi + planlı follow-up. Amaç link istemek değil, fayda sunup ilişki kurarak doğal link kazanmak.",
+      "voiceAnswer": "Kısa yazın: neden siz, neden şimdi, ne fayda, tek istek; sonra 1–2 nazik takip yapın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel pazarlama ekipleri, ajans SEO ekipleri, B2B hizmet markaları",
+        "KPI: yanıt oranı, olumlu yanıt oranı, kazanılan referring domain, editorial link oranı, takip döngüsü tamamlanma oranı",
+        "Entity: Outreach, Relationship-Based Links, Prospects, Follow-up",
+        "Semantic: relationship-driven link acquisition, value exchange, non-spam outreach",
+        "Geo bağlam: TR geneli + turizm örnekleri (Antalya/Belek/Side/Kemer/Bodrum)",
+        "Funnel: Consideration → Uygulama → Analiz/iyileştirme",
+        "Etik not: Outreach e-postası link satışı/şema gibi görünmemeli; şeffaf ve değer odaklı olmalı"
+      ]
+    },
+    "h1": {
+      "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+      "intro": "Outreach, birçok ekipte “link isteme maili” olarak görülüyor; bu yüzden de toplu şablonlar, alakasız listeler ve düşük yanıt oranları ortaya çıkıyor. Oysa sürdürülebilir link kazanımı; doğru hedefleri seçmek, kişiselleştirmek ve karşılıklı fayda üreten bir ilişki yönetim modeli kurmakla olur. Bu rehberde “outreach e-posta backlink” sürecini uçtan uca ele alacağız: prospect listesi nasıl çıkarılır, mailde ne yazılır, follow-up kaç kez atılır ve oteller/B2B için gerçekçi senaryolarla nasıl uygulanır.",
+      "quickSummary": [
+        "1) Outreach’i “link talebi” değil “editoryal katkı” olarak çerçevele",
+        "2) Prospect listesini alaka + otorite + uygunluk filtresiyle kur",
+        "3) E-postada kişiselleştirme, değer önerisi, kanıt ve tek istek kullan",
+        "4) Follow-up sürecini 1–2 nazik takip ile sınırlandır",
+        "5) CRM/Sheet ile ilişki ve KPI takibini standartlaştır"
+      ],
+      "ctaPrimary": {
+        "label": "Outreach Strateji & E-posta Analizi Talep Et",
+        "text": "Yanıt oranınızı düşüren hedefleme ve mesaj hatalarını tespit etmek isteyen otel/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Outreach Strateji & E-posta Analizi Talep Et",
+        "text": "Yanıt oranını artırmak ve spam algısını düşürmek isteyen otel/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      },
+      "secondary": {
+        "label": "Outreach E-posta Şablonu & Takip Sheet’ini İndir",
+        "text": "Prospect listesinden follow-up takvimine kadar süreci standartlaştırır ve disiplinli outreach sağlar.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Backlink & Dijital Otorite Yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      },
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi",
+        "href": "/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
+      },
+      {
+        "title": "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+        "href": "/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
+      }
+    ],
+    "sections": [
+      {
+        "id": "outreach-nedir-backlink-icin-nasil-kullanilir",
+        "title": "Outreach nedir, backlink için nasıl kullanılır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Outreach; hedeflediğiniz yayıncı, blog, rehber sitesi, podcast ya da sektör platformuyla iletişime geçerek içeriğinizi görünür kılma ve uygun olduğunda “editoryal referans” (backlink) kazanma sürecidir. Burada kritik olan nokta “link istemek” değil; neden bu içeriğin onların okuyucusu için değerli olduğunu kanıtlamaktır. İlişki bazlı yaklaşım, outreach’i “tek seferlik mail”den çıkarır; uzun vadeli bir iş birliği kanalına dönüştürür."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Outreach’in amacı ne, mantığı ne? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Outreach nedir, backlink için nasıl kullanılır? Cevap: Outreach; alakalı ve otoritesi uygun sitelere kişiselleştirilmiş şekilde ulaşıp, değer sunarak içerik referansı (backlink) kazanma sürecidir; amaç spam değil, ilişki kurmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya’da destinasyon rehberi yayınlayan bir turizm blogu, “aile otelleri” yazısında güncel bir rehbere veya veri içeriğine kaynak gösterebilir. Siz “link ver” demek yerine, onların içeriğini geliştirecek bir kaynak sunarsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "Bir sektör blogu “lead kalitesi” yazısında, sizin benchmark içeriğinizden bir grafik alıntılayıp kaynak link ekleyebilir. Siz “satın alma” değil, editoryal katkı sunarsınız."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hedeflediğiniz kişi/site için “okuyucu faydası” net mi?",
+              "Mailiniz link istemekten çok “değer önerisi” içeriyor mu?",
+              "İçeriğiniz referans olmaya değer bir varlık (tablo/grafik/case) taşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Outreach’i “link talebi” değil “editoryal katkı” olarak yeniden çerçeveleyin.",
+              "İlk kampanyada tek bir içerik varlığına odaklanın (rehber/şablon/benchmark).",
+              "Yanıt KPI’larını baştan belirleyin: yanıt oranı, olumlu yanıt, kazanılan link."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hedef-site-listesi-prospect-listesi",
+        "title": "Hedef site listesi (prospect listesi) nasıl çıkarılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Outreach başarısı, e-postadan önce başlar: kime yazdığınız en kritik faktördür. Prospect listesi çıkarırken iki temel filtre kullanın: relevance (alaka) ve authority (otorite). Üçüncü filtre de pratikte hayat kurtarır: fit (uygunluk) — yani o sitenin içerik formatı gerçekten referans linklemeye açık mı?"
+          },
+          {
+            "type": "h3",
+            "text": "Prospect listesi oluşturma mantığı (3 katman)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Niş alaka: turizm/otel, B2B sektör yayınları, yerel rehberler",
+              "Format uyumu: rehber/inceleme/derleme, kaynak sayfaları, “best of” listeleri, podcast sayfaları",
+              "İletişim erişimi: editör/author profili, iletişim sayfası, LinkedIn, podcast host bilgisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (turizm)"
+          },
+          {
+            "type": "p",
+            "text": "Belek ve Side üzerine rehber yazan siteler, “destinasyon içeriği” ile daha iyi uyum yakalar. Kemer’de doğa/aktivite teması olan yayınlar ise “rota/aktivite” içeriklerine daha açık olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "Sektör blogları, LinkedIn newsletter’ları ve podcast sayfaları; “link building için mail örneği” gibi şablon içeriklere değil, vaka/veri içeren kaynaklara daha iyi yanıt verir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Listede her site için “neden uygun?” notu var mı?",
+              "Aynı nişten 20 site yerine 5 nişten 4’er site gibi çeşitlendirme var mı?",
+              "Her site için hedeflenen sayfa/konu eşleşmesi yapıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "30–50 prospect ile başlayın; önce kaliteyi oturtun, sonra ölçekleyin.",
+              "Her prospect’e 1 cümle “uygunluk nedeni” ekleyin (şablonla değil, kanıtla).",
+              "“prospect listesi nasıl çıkartılır” sürecini bir sheet/CRM’e bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "iyi-bir-outreach-epostasi-nasil-yazilir",
+        "title": "İyi bir outreach e-postası nasıl yazılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İyi outreach e-postası kısa, net ve kişiselleştirilmiştir. En iyi performans veren e-postalar genelde 120–180 kelime bandında kalır ve 4 şeyi aynı anda yapar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bağ kurar (neden bu kişiye yazıyorum?)",
+              "Değer sunar (okuyucuya fayda)",
+              "Kanıt verir (veri/grafik/case/alıntı)",
+              "Tek bir küçük istek ister (ör. “kaynak olarak ekleyebilir misiniz?”)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AEO – “İyi bir outreach e-postası nasıl yazılır?” (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: İyi bir outreach e-postası nasıl yazılır? Cevap: Kısa yazın: kişiselleştirme + net değer önerisi + 1 kanıt + tek istek + düşük eforlu next step."
+          },
+          {
+            "type": "h3",
+            "text": "E-posta iskeleti (Voice uyumlu 3–4 madde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kişiselleştirme: “X yazınızın Y bölümünü özellikle beğendim…”",
+              "Değer önerisi: “Okuyucularınız için şu eksik kısmı tamamlayacak…”",
+              "Kanıt: “1 tablo / 1 grafik / 1 kısa çıkarım”",
+              "Tek istek: “Uygunsa kaynaklara ekler misiniz?” + teşekkür"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek “ilk e-posta” (otel bağlamı)"
+          },
+          {
+            "type": "p",
+            "text": "Konu: Antalya aile otelleri rehberiniz için 1 veri + 1 kaynak önerisi\nMerhaba [İsim],\n[Sayfa] yazınızda “aile konsepti” bölümünü çok net anlatmışsınız. Biz de Antalya/Belek bölgesi için kısa bir “aile oteli kontrol listesi + destinasyon ipuçları” hazırladık; okuyucularınızın seçim yapmasını kolaylaştırabilir. İçerikte 1 sayfalık checklist ve örnek bir karar tablosu var. Uygunsa “Kaynaklar” kısmına eklemek ister misiniz?\nTeşekkürler, [Ad]"
+          },
+          {
+            "type": "h3",
+            "text": "Örnek “ilk e-posta” (B2B bağlamı)"
+          },
+          {
+            "type": "p",
+            "text": "Konu: Lead kalitesi yazınıza kısa bir benchmark ek\nMerhaba [İsim],\n“[Makale]” yazınızda lead kalitesi sinyallerini çok iyi toplamışsınız. Biz de benzer projelerde kullanılan 7 sinyali karşılaştıran mini bir tablo hazırladık. Uygunsa ilgili paragrafta kaynak olarak paylaşmanız, okuyucular için pratik bir referans olabilir. İsterseniz tabloyu embed/alıntı formatında da gönderebilirim.\nSevgiler, [Ad]"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mail “ben” değil “onlar ve okuyucusu” diliyle yazıldı mı?",
+              "Tek bir istek var mı (çoklu istek spam hissi yaratır)?",
+              "Kanıt/asset net mi (tablo/grafik/case)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her maili 3 cümlede özetleyebilecek kadar sadeleştirin.",
+              "“Kopyala-yapıştır” görünen cümleleri kaldırın; 1 kişiselleştirme satırı ekleyin.",
+              "Aynı kampanya için 2–3 farklı konu satırı test edin."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kötü vs İyi Outreach E-postası Karşılaştırması",
+            "headers": [
+              "Boyut",
+              "Kötü (Spam Hissi)",
+              "İyi (İlişki Bazlı)"
+            ],
+            "rows": [
+              [
+                "Açılış",
+                "“Merhaba, link değişimi yapalım.”",
+                "“X yazınızın Y bölümünü okudum...”"
+              ],
+              [
+                "Değer",
+                "Belirsiz / sadece link",
+                "Okuyucuya somut katkı"
+              ],
+              [
+                "Kanıt",
+                "Yok",
+                "1 tablo/grafik/case"
+              ],
+              [
+                "İstek",
+                "Çoklu istek, agresif",
+                "Tek istek, düşük efor"
+              ],
+              [
+                "Dil",
+                "Satış/şema gibi",
+                "Şeffaf, editoryal"
+              ],
+              [
+                "Uzunluk",
+                "Gereksiz uzun",
+                "Kısa ve net"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "follow-up-takip-sureci",
+        "title": "Follow-up (takip) süreci nasıl yönetilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Outreach’te “yanıt yoksa başarısız” demek erken bir yorumdur. Birçok editör/author yoğun; iyi follow-up, spam değildir—nazik hatırlatma ve ek değer sunma fırsatıdır. Kritik olan “kaç defa?” ve “ne söyleyerek?” takip ettiğinizdir."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – “Takip mailleri kaç defa atılmalı?” (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Takip mailleri kaç defa atılmalı? Cevap: Genelde 1–2 follow-up yeterlidir; her follow-up’ta yeni bir değer/kolaylık ekleyin ve kibar bir çıkış mesajı bırakın."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik takip kurgusu (varsayım: güvenli default)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. mail: gün 0",
+              "Follow-up 1: gün 3–5 (kısa hatırlatma + 1 ek kanıt/kolaylık)",
+              "Follow-up 2: gün 7–10 (son kez, çok kısa + “uygun değilse sorun değil” çıkışı)",
+              "Kapanış: yanıt yoksa dosyayı kapat, 60–90 gün sonra farklı içerikle yeniden dene"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (follow-up 1)"
+          },
+          {
+            "type": "p",
+            "text": "“Merhaba [İsim], kısa bir hatırlatma bırakmak istedim. İsterseniz tablonun görsel versiyonunu da gönderebilirim.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (follow-up 2)"
+          },
+          {
+            "type": "p",
+            "text": "“Son kez ping atıyorum; uygun değilse sorun değil. İleride benzer içeriklerde yardımcı olmaktan memnun olurum.”"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Follow-up’larınız “hatırlatma + kolaylık” mı, yoksa “ısrar” mı?",
+              "Aralarda yeterli süre var mı (aynı gün spam)?",
+              "Son mesajda nazik çıkış var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Follow-up 1’e küçük bir ek değer koyun: görsel, embed kodu, kısa özet.",
+              "Follow-up 2’yi “kapanış” gibi yazın; ilişki kapısını açık bırakın.",
+              "Yanıt oranını artırmak için follow-up’ları sheet/CRM’de otomatik hatırlatmaya bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-iliski-bazli-senaryolar",
+        "title": "Oteller ve B2B markalar için ilişki bazlı senaryolar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Outreach’in en güçlü hali; tek seferlik link değil, tekrar eden iş birliği üretmesidir. Bu da “karşılıklı fayda” kurgusuyla olur: içerik katkısı, uzman görüşü, veri paylaşımı, ortak yayın, podcast konukluğu, etkinlik iş birliği gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için ilişki senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon rehberleri: Antalya/Belek/Side/Kemer/Bodrum odaklı içeriklere güncel veri/rehber katkısı",
+              "Reyting/yorum platformları ve turizm siteleri: “sezon rehberi”, “aile/SPA/golf” gibi tematik içeriklerde kaynak olma",
+              "Yerel iş birlikleri: etkinlik, restoran, tur operatörü ile ortak “mini rehber” yayınları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da gastronomi odaklı bir içerik serisi yapan bir bloga “hotel chef röportajı + menü trendleri” içeriği sunmak; linki doğal şekilde doğurur."
+          },
+          {
+            "type": "h3",
+            "text": "B2B için ilişki senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sektör blog/podcast: uzman görüşü + kısa veri notu",
+              "Partner ekosistemi: entegrasyon sayfalarında karşılıklı kaynak gösterimi",
+              "Case study ortaklığı: müşteri hikâyesini birlikte yayınlama"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Bir B2B hizmet markası, “benchmark analizi” içeriğini sektör newsletter’ına özetleyip tam rapora kaynak link alabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Karşı tarafın okuyucusu” için somut değer var mı?",
+              "Tek seferlik link yerine 3 aylık ilişki planı var mı?",
+              "İçeriğiniz “alıntılanabilir” varlık içeriyor mu (tablo/grafik)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Oteller: 1 destinasyon rehberi + 1 deneyim içeriği + 1 yerel iş birliği planlayın.",
+              "B2B: 1 benchmark tablo + 1 case + 1 podcast/webinar hedefi belirleyin.",
+              "Her ilişki için “bir sonraki temas” kuralı koyun: link olsa da olmasa da teşekkür + güncelleme."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "takip-sistemi-crm-sheet-outreach",
+        "title": "Takip sistemi: CRM/Sheet ile outreach’i yönetmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Outreach “tek tek mail” değil, bir pipeline’dır. Basit bir sheet bile, yanıt oranınızı artırır; çünkü kimle ne konuştuğunuzu, hangi içerik teklif ettiğinizi ve follow-up zamanını unutmamış olursunuz."
+          },
+          {
+            "type": "h3",
+            "text": "Basit pipeline aşamaları (sheet kolonları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prospect (site/kişi)",
+              "Niş/konu etiketi",
+              "İletişim kanalı (mail/LinkedIn/DM)",
+              "Gönderim tarihi",
+              "Durum (beklemede/yanıtladı/yayınlandı/red)",
+              "Follow-up 1 tarihi / Follow-up 2 tarihi",
+              "Sonuç (link/referral/mention)",
+              "Notlar (kişiselleştirme ipucu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Kemer’de doğa odaklı bir yayıncıya gönderdiğiniz mail “yanıt beklemede” kaldıysa, follow-up zamanı geldiğinde sheet size hatırlatır; aynı maili 5 kez atıp spam’e düşmezsiniz."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her prospect için “kişiselleştirme notu” alanı var mı?",
+              "Follow-up tarihleri otomatik/planlı mı?",
+              "Sonuç KPI’ları (yanıt, link, mention) tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Minimum viable sistem kurun: 8–10 kolondan fazla büyütmeyin.",
+              "“Link aldı mı?” yanında “mention oldu mu?” alanı ekleyin (PR etkisini kaçırmayın).",
+              "Ayda bir: en iyi yanıt veren niş ve mail formatını çıkarıp optimize edin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "yaygin-hatalar-iliski-modeli",
+        "title": "Yaygın hatalar ve “fark yaratan” ilişki modeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok outreach kampanyası, toplu mail atma ve spam şablonlar yüzünden düşük performans verir. Bu yazının farkı; outreach’i “prospect → value proposition → follow-up → relationship” modeline oturtup ölçülebilir hale getirmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "En yaygın 7 hata"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Alakasız liste (relevance yok)",
+              "Aşırı uzun mail (okunmuyor)",
+              "“Link satışı” gibi duran dil",
+              "Kanıt/asset olmadan link istemek",
+              "Aynı gün üst üste takip (spam)",
+              "Kişiselleştirme yok (copy-paste)",
+              "Takip sistemi yok (pipeline çöküyor)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Teknik not (kilitli vurgu)",
+            "items": [
+              "Outreach e-postaları gizli link satışı/şeması gibi görünmemeli; şeffaf, değer odaklı ve editoryal katkı diliyle yazılmalıdır."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (soft claim): İlişki bazlı outreach süreçlerinde, standart “cold mail”lere kıyasla 3–5 kat daha yüksek yanıt oranı raporlayan vaka paylaşımlarına rastlanır; bu fark genelde hedefleme kalitesi ve kişiselleştirmeden gelir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mailiniz “link satışı” gibi mi, “editoryal katkı” gibi mi duruyor?",
+              "Listede alaka/uygunluk notu olmayan prospect var mı?",
+              "Follow-up’larınız planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk 2 hafta sadece liste kalitesi + mesaj kalitesini optimize edin.",
+              "3. haftadan itibaren ölçekleyin (günlük gönderim limitleri).",
+              "30 gün sonunda: hangi niş, hangi konu satırı, hangi asset daha iyi çalıştı raporlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Outreach Strateji & E-posta Analizi Talep Et",
+            "text": "Mevcut outreach’inizdeki hedefleme ve mesaj hatalarını hızlıca görmek isteyenler için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Outreach E-posta Şablonu & Takip Sheet’ini İndir",
+            "text": "Prospect listesinden follow-up takvimine kadar süreci standartlaştırır ve yanıt oranını artıracak disiplin sağlar.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "outreach-eposta-sablonu-takip-sheet",
+        "title": "Outreach E-posta Şablonu & Takip Sheet’ini İndir — SEO / Outreach",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Outreach E-posta Şablonu & Takip Sheet’ini İndir — SEO / Outreach (v1.0)",
+            "purpose": "Bu asset; outreach’i “toplu mail” olmaktan çıkarıp ilişki bazlı bir sürece dönüştürmeniz için hazırlanmıştır. Kişiselleştirilmiş e-posta şablonları, follow-up akışı ve prospect takip sheet’i ile yanıt oranını artıracak bir operasyon standardı sağlar.",
+            "whoFor": "Ajans SEO ekibi, otel pazarlama ekibi, B2B içerik/SEO ekipleri.",
+            "steps": [
+              "Prospect listesini relevance + authority filtresiyle oluşturun ve sheet’e girin.",
+              "Nişe göre uygun e-posta şablonunu seçip 3 satır kişiselleştirme ekleyin.",
+              "Follow-up takvimine göre ilerleyin; sonuçları KPI alanlarında işaretleyin."
+            ],
+            "templates": [
+              {
+                "name": "İlk Mail – “Kaynak önerisi” (genel)",
+                "body": "Konu: ________\nMerhaba [İsim],\n[İçeriğinizin spesifik bölümü] kısmını okudum ve özellikle [1 cümle kişiselleştirme] iyi yakalamışsınız.\nBiz de [konu] için kısa bir [asset türü: tablo/grafik/checklist/case] hazırladık; okuyucularınızın [fayda] elde etmesine yardımcı olabilir.\nUygunsa ilgili bölüme kaynak olarak eklemek ister misiniz? İsterseniz görsel/alıntı formatında da gönderebilirim.\nTeşekkürler, [Ad] — [Pozisyon]"
+              },
+              {
+                "name": "Follow-up 1 – “Kolaylık ekle”",
+                "body": "Merhaba [İsim], kısa bir hatırlatma bırakmak istedim. İsterseniz [asset]’in görsel versiyonunu/alıntı metnini de paylaşabilirim. Uygun mudur?"
+              },
+              {
+                "name": "Follow-up 2 – “Nazik kapanış”",
+                "body": "Merhaba [İsim], son kez ping atıyorum; uygun değilse sorun değil. İleride benzer içeriklerde destek olmaktan memnun olurum. Teşekkürler."
+              },
+              {
+                "name": "“İş birliği” (podcast/webinar/konuk içerik)",
+                "body": "Konu: ________\nMerhaba [İsim],\n[Program/yayın] formatınız [kısa kişiselleştirme] nedeniyle çok iyi. [Konu] üzerine kısa bir veri notu + pratik çerçeve paylaşabilirim. Uygunsa 15–20 dakikalık bir bölüm için konuşabilir miyiz?"
+              }
+            ],
+            "sheetColumns": [
+              "Prospect Site: ________",
+              "Niş/Etiket: ________",
+              "Kişi/Unvan: ________",
+              "İletişim (mail/LinkedIn): ________",
+              "Kişiselleştirme Notu (1 satır): ________",
+              "Gönderim Tarihi: ________",
+              "Durum: (Beklemede / Yanıt / Yayın / Red)",
+              "Follow-up 1 Tarihi: ________",
+              "Follow-up 2 Tarihi: ________",
+              "Sonuç: (Link / Mention / Yok)",
+              "Notlar: ________"
+            ],
+            "usageRules": [
+              "Her prospect için 1 satır kişiselleştirme notu zorunlu olsun.",
+              "Tek mailde tek istek: “kaynak önerisi” veya “iş birliği” — ikisini karıştırmayın.",
+              "Follow-up’larda yeni bir kolaylık ekleyin (görsel, kısa özet, embed).",
+              "Yanıt yoksa 2 follow-up sonrası dosyayı kapatın; spam’e dönmeyin.",
+              "Ay sonunda KPI özeti çıkarın: yanıt oranı, olumlu yanıt, link/mention."
+            ],
+            "example": [
+              "Prospect: Turizm rehberi sitesi",
+              "Kişiselleştirme: “Aile konsepti bölümünde seçim kriterleri iyi; 1 tablo eklenebilir.”",
+              "Şablon: A (Kaynak önerisi) + Follow-up 1",
+              "Sonuç: Mention + link (editoryal)"
+            ],
+            "checklist": [
+              "30–50 prospect listesi hazır",
+              "Her satırda kişiselleştirme notu var",
+              "2 follow-up kuralı tanımlı",
+              "“Link satışı” gibi dil yok, şeffaf değer dili var",
+              "KPI özeti aylık raporlanıyor"
+            ],
+            "deliverables": [
+              "E-posta şablon seti (ilk mail + follow-up + kapanış + iş birliği)",
+              "Prospect takip sheet’i (pipeline)",
+              "Aylık KPI raporu"
+            ],
+            "href": "/downloads/outreach-eposta-sablonu-takip-sheet-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Outreach link istemek değil, ilişki kurmaktır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Outreach e-posta süreci, doğru yönetildiğinde spam gibi görünmeden editoryal katkı sunmanın ve doğal backlink kazanmanın pratik yoludur. Başarı; kime yazdığınız, ne sunduğunuz, nasıl kişiselleştirdiğiniz ve follow-up sürecini ne kadar disiplinli yönettiğinizle belirlenir."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B markalar için sürdürülebilir link building, tek seferlik link taleplerinden değil; veri, rehber, checklist, benchmark, case ve uzman görüşü gibi alıntılanabilir varlıklarla kurulan uzun vadeli ilişkilerden gelir. Bu nedenle outreach’i bir mail kampanyası değil, prospect listesi + değer önerisi + takip sistemi + ilişki yönetimi modeli olarak ele almak gerekir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Outreach Strateji & E-posta Analizi Talep Et",
+            "text": "Yanıt oranını artırmak ve spam algısını düşürmek isteyen otel/B2B ekipleri için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Outreach E-posta Şablonu & Takip Sheet’ini İndir",
+            "text": "Prospect listesinden follow-up takvimine kadar süreci standartlaştırır ve disiplinli outreach sağlar.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Outreach nedir, backlink için nasıl kullanılır?",
+        "a": "Outreach; alakalı ve otoritesi uygun sitelere ulaşıp, editoryal fayda sunarak kaynak link kazanma sürecidir. Başarı, hedefleme kalitesi ve kişiselleştirmeden gelir; toplu mail genelde düşük performans verir."
+      },
+      {
+        "q": "İyi bir outreach e-postası nasıl yazılır?",
+        "a": "Kısa yazın, kişiselleştirin ve tek bir istekle ilerleyin. Net değer önerisi ve küçük bir kanıt (tablo/grafik) eklemek, “spam” algısını düşürür."
+      },
+      {
+        "q": "Hangi sitelere outreach yapmalıyım?",
+        "a": "Önce alaka (relevance), sonra otorite (authority), sonra format uyumu (fit) filtresini kullanın. Niş bloglar, rehber siteleri, sektör yayınları ve podcast sayfaları genelde daha uygun olur."
+      },
+      {
+        "q": "Takip mailleri kaç defa atılmalı?",
+        "a": "Çoğu senaryoda 1–2 follow-up yeterlidir. Follow-up’larda yeni bir kolaylık ekleyin ve son mesajda nazik bir çıkış bırakın."
+      },
+      {
+        "q": "Outreach’te en sık yapılan hata nedir?",
+        "a": "Alakasız listeye toplu mail atmak ve içerikte kanıt sunmadan link istemektir. Bu yaklaşım yanıt oranını düşürür ve markayı “spam” algısına iter."
+      },
+      {
+        "q": "Oteller için outreach’te hangi içerikler daha iyi çalışır?",
+        "a": "Destinasyon rehberleri, sezonluk mini raporlar ve deneyim odaklı checklist’ler daha iyi çalışır. Yerel basın ve turizm rehberleriyle ilişki kurmak sürdürülebilir sonuç verir."
+      },
+      {
+        "q": "B2B markalar için outreach’te hangi teklifler daha etkili?",
+        "a": "Benchmark tablosu, vaka çalışması ve uzman görüşü/podcast katkısı etkili olur. Değer önerisini “okuyucuya katkı” üzerinden kurmak, linkin editoryal olarak eklenmesini kolaylaştırır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — outreach-e-posta-ve-iliski-bazli-link-building-hero-01.webp — Outreach stratejisi ve ilişki bazlı link building, otel ve B2B bağlamı",
+          "h1-context — 1920×1080 — outreach-e-posta-ve-iliski-bazli-link-building-h1-context-02.webp — Spam değil ilişki: değer önerisiyle outreach, otel ve B2B örneği",
+          "divider-01 — 1600×1200 — outreach-e-posta-ve-iliski-bazli-link-building-divider-03.webp — Prospect seçimi: alaka ve otorite filtreleri, ilişki bazlı yaklaşım",
+          "divider-02 — 1600×1200 — outreach-e-posta-ve-iliski-bazli-link-building-divider-04.webp — İlişki modeli: değer sunma ve iş birliği akışı, güvenli link kazanımı",
+          "diagram-05 — 1920×1080 — outreach-e-posta-ve-iliski-bazli-link-building-diagram-05.webp — Outreach e-posta akış diyagramı, follow-up ve kapanış süreci",
+          "checklist-06 — 1200×1200 — outreach-e-posta-ve-iliski-bazli-link-building-checklist-06.webp — Outreach yapılacaklar checklist’i, spam olmadan ilişki kurma",
+          "kpi-07 — 1200×1200 — outreach-e-posta-ve-iliski-bazli-link-building-kpi-07.webp — Outreach KPI kartı, yanıt oranı ve link kazanımı takibi",
+          "proof-08 — 1200×1200 — outreach-e-posta-ve-iliski-bazli-link-building-proof-08.webp — Outreach deliverables: prospect listesi, şablonlar, takip sheet’i ve rapor",
+          "table-bad-vs-good-outreach-email — Kötü vs İyi Outreach E-postası Karşılaştırma Tablosu",
+          "table-prospect-follow-up-sheet — Prospect takip sheet’i kolon şablonu",
+          "table-monthly-kpi-report — Aylık outreach KPI raporu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building",
+          "Primary CTA hedefi mümkünse /tr/seo/backlink-yonetimi sayfasına bağlanacak",
+          "Secondary CTA sayfa içi indirme modülüne ve gerekirse /tr/seo/icerik-seo bağlamına yönlendirilecek",
+          "Outreach e-postalarında gizli link satışı/şema dili kullanılmayacak",
+          "Prospect listesinde relevance + authority + fit alanları zorunlu tutulacak",
+          "Follow-up akışı 1–2 takip ile sınırlandırılacak",
+          "Her prospect için kişiselleştirme notu tutulacak",
+          "KPI seti: yanıt oranı, olumlu yanıt, kazanılan link, mention, editorial link oranı",
+          "İç linklerde backlink yönetimi + içerik SEO + SEO raporlama akışı kurulacak",
+          "Şablon asset’i e-posta örnekleri + takip sheet’i + KPI alanlarıyla yayınlanacak"
+        ]
+      }
+    }
+  },
+
+  "BlogTurizmVeDestinasyonOdakliBacklinkFirsatlari": {
+    "title": "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+    "slug": "turizm-ve-destinasyon-odakli-backlink-firsatlari",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteliniz için turizm backlink ekosistemini haritalandırın: destinasyon portalları, DMO’lar, OTA’lar, gezi blogları, yerel medya ve etkinlik iş birlikleri. Önceliklendirme checklist’iyle başlayın.",
+    "seo": {
+      "metaTitle": "Otel İçin Turizm Backlink Fırsatları ve Kanallar | DGTLFACE",
+      "metaDescription": "Oteliniz için turizm backlink ekosistemini haritalandırın: destinasyon portalları, DMO’lar, OTA’lar, gezi blogları, yerel medya ve etkinlik iş birlikleri. Önceliklendirme checklist’iyle başlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Sayfa URL: Backlink & Dijital Otorite Yönetimi — https://dgtlface.com/tr/seo/backlink-yonetimi",
+        "Blog No / Blog URL: 7 — https://dgtlface.com/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
+      ],
+      "strategySummary": "Bu yazı, genel backlink taktiklerinden ayrışıp oteller için en değerli alanı hedefler: turizm ve destinasyon ekosistemi (portal–DMO–OTA–blog–yerel medya–etkinlik) içinde otorite kanallarını haritalandırır. Hedef persona, otel sahibi ve pazarlama yöneticisidir; “otelim için backlink nerelerden alınır?” sorusuna Türkiye destinasyonları özelinde net bir fırsat listesi ister. Funnel’da MoFu (consideration) ağırlıklıdır; doğru harita ve önceliklendirme BoFu’ya (ekosistem analizi talebi) bağlanır. Ana iş sorusu: “Turizm ekosisteminde otelime sürdürülebilir ve kaliteli backlink fırsatlarını nasıl çıkarır, hangilerini önceliklendiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Turizm ve destinasyon odaklı backlink fırsatları, klasik dizinlerin ötesinde; destinasyon portalları, DMO’lar, OTA’lar, gezi blogları, yerel medya ve etkinlik/sponsorluk iş birlikleri etrafında oluşur. Oteller için en doğru yaklaşım; bu ekosistemi haritalandırmak, her kanalı alaka ve otoriteye göre sınıflandırmak, “listicle/rehber” içeriklerde yer almak ve sürdürülebilir ortak kampanyalar kurmaktır. Sonuç: hem yerel görünürlük hem de direkt rezervasyon akışı.",
+      "sgeSummary": "Otel backlink’i için turizm ekosistemini kullanın: portal/DMO, OTA, gezi blogu, yerel medya, etkinlik-sponsorluk. Harita çıkarın, önceliklendirin, rehber listelerinde yer alacak içerik ve iş birlikleri kurun.",
+      "voiceAnswer": "Oteliniz için en iyi kaynaklar: destinasyon portalları, DMO’lar, gezi blogları, yerel medya ve etkinlik ortaklıklarıdır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi, satış-pazarlama müdürü, turizm odaklı ajanslar",
+        "KPI: destinasyon sorgularında görünürlük, marka araması, referral trafik, direkt rezervasyon lead’i, kazanılan kaliteli referring domain",
+        "Entity: Tourism Portals, DMO, OTA, Travel Blogs, Local Media",
+        "Semantic: destination-driven authority, tourism ecosystem links, local–tourism hybrid signals",
+        "Geo: TR + Antalya, Bodrum, Muğla, Kapadokya (destinasyon örnekleri)",
+        "Funnel: Awareness → Consideration → (ekosistem analizi)",
+        "Teknik not: OTA linkleri her zaman “klasik backlink” gibi değerlendirilmez; daha çok marka ve talep kanalıdır"
+      ]
+    },
+    "h1": {
+      "title": "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+      "intro": "Otel backlink stratejisi, çoğu zaman “genel SEO rehberlerinden” kopyalanan dizin/guest post önerilerine sıkışır. Oysa turizmde gerçek fırsatlar; destinasyon portalları, DMO’lar, OTA’lar, gezi blogları, yerel medya ve etkinlik ekosistemi içinde doğar. Bu kanallar sadece SEO sinyali üretmez; aynı zamanda doğrudan talep ve rezervasyon akışı da yaratır. Bu rehberde turizm backlink ekosistemini kategorize edeceğiz, oteller için önceliklendirme mantığını kuracağız ve Antalya–Bodrum–Kapadokya gibi destinasyonlar için uygulanabilir bir yol haritası çıkaracağız.",
+      "quickSummary": [
+        "1) Turizm backlink ekosistemini portal–DMO–blog–medya–etkinlik olarak haritalandır",
+        "2) Her kanalı SEO değeri, talep potansiyeli ve efora göre sınıflandır",
+        "3) OTA’yı klasik backlink değil, görünürlük ve marka/talep kanalı olarak değerlendir",
+        "4) Gezi blogları ve yerel medya için rehber geliştiren katkılar hazırla",
+        "5) İlk 10 hedef listeyi seçip outreach/PR paketini planla"
+      ],
+      "ctaPrimary": {
+        "label": "Turizm Backlink Ekosistemi Analizi Talep Et",
+        "text": "Otelinizin destinasyon ekosistemindeki fırsat haritasını çıkarıp ilk 10 hedefi netleştirmek isteyenler için.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Turizm Backlink Ekosistemi Analizi Talep Et",
+        "text": "Otelinizin destinasyon ekosistemindeki fırsatlarını netleştirmek isteyenler için.",
+        "href": "/seo/backlink-yonetimi"
+      },
+      "secondary": {
+        "label": "Turizm & Destinasyon Backlink Fırsat Listesi Şablonunu İndir",
+        "text": "Kaynakları tek tabloda toplayıp puanlamanızı ve ilk 10 hedefi seçmenizi sağlar.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Backlink & Dijital Otorite Yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+        "href": "/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
+      },
+      {
+        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+      }
+    ],
+    "sections": [
+      {
+        "id": "turizm-backlink-ekosistemi-nedir",
+        "title": "Turizm backlink ekosistemi nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Turizm backlink ekosistemi, otelinize link verebilecek (veya markanızı referans gösterebilecek) tüm destinasyon odaklı dijital varlıkların toplamıdır. Bu ekosistemde link, çoğu zaman “SEO taktiği” olarak değil; rehberleme, kaynak gösterme veya iş birliği sonucu oluşur. Bu yüzden en doğru yaklaşım, önce ekosistemi kategorize etmek, sonra her kategoriyi alaka (relevance) ve fayda açısından puanlamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Turizm backlink kaynakları nelerdir? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Turizm backlink kaynakları nelerdir? Cevap: Destinasyon portalları/DMO’lar, OTA ve seyahat platformları, gezi blogları, yerel medya/rehber siteleri ve etkinlik-sponsorluk iş birlikleri turizm ekosisteminin ana link kaynaklarıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "Antalya’da bir resort otel, destinasyon portalında “aile otelleri” listesinde yer alırken; yerel medyada bir etkinlik sponsorluğu haberiyle de doğal referans kazanabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelin destinasyonu için “portal + blog + medya + etkinlik” listesi çıkarıldı mı?",
+              "Her kaynak için “neden uygun?” notu var mı?",
+              "Linkin yanı sıra “talep/rezervasyon” potansiyeli de değerlendiriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Destinasyonunuzu bir sayfada yazın: “Antalya/Belek/Side/Kemer” veya “Bodrum/Muğla” gibi.",
+              "Bu destinasyonda kimler “rehber” rolünde? Portal, blog, yerel medya, DMO, etkinlik sayfaları.",
+              "Her kategori için 10’ar aday toplayın; sonra eleme yapın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "destinasyon-portallari-dmolar-seo-katkisi",
+        "title": "Destinasyon portalları ve DMO’lar SEO’ya nasıl katkı sağlar?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Destinasyon portalları ve DMO’lar (Destination Management Organization), turizmde “otorite kaynakları” gibi çalışır; çünkü konuları destinasyonla doğrudan ilgilidir. Bu platformlar üzerinden gelen referanslar çoğu zaman yüksek alaka taşır ve hem yerel sorgularda hem de marka sorgularında dolaylı katkı sağlayabilir."
+          },
+          {
+            "type": "h3",
+            "text": "DMO/portal fırsatları (oteller için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Nerede kalınır?” listeleri",
+              "Etkinlik takvimi sayfaları",
+              "Destinasyon rehberi içinde konaklama önerileri",
+              "“Ulaşım, plaj, aile, balayı” tematik sayfalar",
+              "Yerel işletme/partner sayfaları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Kapadokya)"
+          },
+          {
+            "type": "p",
+            "text": "Kapadokya’da balayı konsepti için “romantik rota” içeriğine otelinizin deneyim sayfası kaynak olabilir; bu, hem alaka hem talep üretir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelinize link gidecek hedef sayfa “destinasyon/konsept” ile uyumlu mu?",
+              "Portal/DMO içeriği “rehber” formatında mı (editoryal link ihtimali)?",
+              "İş birliği için gerekli varlıklar (görsel, kısa açıklama, teklif) hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Destinasyon sayfanızı ve konsept sayfalarınızı “referans verilebilir” hale getirin (tablo, checklist, rota).",
+              "DMO/portal içerik formatını analiz edip “hangi listelerde yer alabilirim?” planı çıkarın.",
+              "E-posta yerine bazen daha hızlı: telefon/LinkedIn/yerel network."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-seyahat-platformlari-link-mi-marka-kanali-mi",
+        "title": "OTA ve seyahat platformları: Link mi, marka kanalı mı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA profilleri ve seyahat platformları genellikle otelinizi görünür kılar; bazı profiller link de verir. Ancak teknik olarak her OTA linkini “klasik editorial backlink” gibi okumamak gerekir. Bu kanalları çoğu zaman marka ve talep yaratma (brand demand) ve “trust signal” (güven göstergesi) katmanı olarak düşünmek daha doğru olur."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – OTA profilleri backlink olarak sayılır mı? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: OTA profilleri backlink olarak sayılır mı? Cevap: Bazen link verirler; ancak çoğu durumda OTA’lar daha çok marka görünürlüğü ve talep yaratma kanalıdır, klasik editoryal backlink gibi değerlendirilmemelidir."
+          },
+          {
+            "type": "h3",
+            "text": "OTA tarafında doğru yapılacaklar (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Profil bilgilerinin tutarlılığı (isim, adres, konsept, görsel)",
+              "“Resmi site” alanlarının doğru kullanımı (varsa)",
+              "İçerik zenginliği (oda/konsept açıklamaları, deneyimler)",
+              "UTM’li takip (referral kaliteyi ölçmek için)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Tüm OTA profillerinde “resmi site” alanı doğru mu?",
+              "Profil içeriği destinasyon/konsept sinyallerini taşıyor mu?",
+              "OTA’dan gelen trafiğin rezervasyon katkısı ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "OTA’yı “link kaynağı” değil “görünürlük + güven” kanalı olarak konumlayın.",
+              "Asıl link hedefinizi portal/DMO/blog/medya gibi editoryal kanallara kaydırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gezi-bloglari-rehber-siteleriyle-calisma",
+        "title": "Gezi blogları ve rehber siteleriyle nasıl çalışmalıyım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Gezi blogları, turizmde en doğal “referans üretim makineleri”nden biridir; çünkü rehber içerik yazarlar ve kaynak göstermeye açıktırlar. Burada kritik olan, spam gibi “link değişimi” teklifleri değil; içeriklerini geliştirecek değerli katkı sunmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Çalışma modelleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Listicle” içeriklerde yer alma (örn. “Antalya’da aile otelleri”)",
+              "Destinasyon rehberine veri/harita/rota katkısı",
+              "Deneyim içerikleri (SPA, gastronomi, golf, MICE)",
+              "Ortak kampanyalar (sezonluk rehber, etkinlik)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (Bodrum)"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da gastronomi temalı bir rota içeriğine, otelinizin “chef table” deneyimini kaynak olarak sunabilirsiniz; bu hem trafik hem link kazanımı doğurabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Blogun nişi otelinizin konseptiyle uyumlu mu?",
+              "İçeriğe gerçek katkınız var mı (rota, veri, görsel, deneyim)?",
+              "Link hedef sayfa “rezervasyon niyeti”yle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "20 blogluk bir “destinasyon blog listesi” çıkarın; her birine 1 cümle kişiselleştirme notu yazın.",
+              "“link almak için değil, rehberi geliştirmek için” teklif oluşturun.",
+              "1–2 follow-up ile kibar kapanış kuralı uygulayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "yerel-medya-rehber-siteleri",
+        "title": "Yerel medya ve rehber siteleri: Yerel–turizm hibrit sinyaller",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel medya ve şehir rehberleri, “destinasyon sorguları” için güçlü bir hibrit sinyal üretir: hem yerel otorite hem turizm alaka. Özellikle sezon öncesi kampanyalar, yeni konsept açılışları, etkinlik sponsorluğu veya sosyal sorumluluk projeleri yerel medyada doğal olarak haber değeri taşır."
+          },
+          {
+            "type": "h3",
+            "text": "Yerel medya için içerik açısı (haber değeri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon trendleri (erken rezervasyon, aile konsepti, gastronomi)",
+              "Etkinlik (festival, spor, konferans) sponsorluğu",
+              "Sosyal sorumluluk projeleri",
+              "Yerel iş birlikleri (restoran, tur operatörü, müze)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Haber değeri var mı (neden şimdi)?",
+              "Medyaya kolay paket sunuyor musunuz (basın bülteni + görsel + 3 madde)?",
+              "Link değil “haber” odaklı mı ilerliyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Basın kitinizi standartlaştırın: 2 paragraf, 3 bullet, 1 görsel, 1 sayfa link.",
+              "Yerel medya listesi oluşturun ve yılda 2–4 tema ile planlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sponsorluk-etkinlik-kampanya-bazli-link-firsatlari",
+        "title": "Sponsorluk, etkinlik ve kampanya bazlı link fırsatları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Turizmde backlink fırsatlarının önemli kısmı “sayfa üstü” iş birliklerinden gelir: etkinlik sayfasında sponsor listesi, kampanya landing sayfasında partner alanı, biletleme/organizasyon sayfalarında konaklama önerisi vb. Bu fırsatlar hem link hem direkt talep üretebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Etkinlik bazlı fırsat tipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Festival/konser etkinlik sayfaları (konaklama partneri)",
+              "Spor organizasyonları (kamp/turnuva)",
+              "Kongre/MICE etkinlikleri (resmi otel)",
+              "Yerel kampanyalar (erken rezervasyon, sezon açılışı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Etkinlik sayfası gerçek bir trafik ve talep üretiyor mu?",
+              "Link, doğru hedef sayfaya gidiyor mu (paket/konsept/etkinlik landing)?",
+              "Anlaşma “sadece link” gibi görünmüyor mu (şeffaflık)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "12 aylık etkinlik takviminden 10 hedef etkinlik seçin.",
+              "Her etkinlik için “konaklama önerisi” içeriği hazırlayın (kısa landing).",
+              "Ölçümleyin: referral trafik + rezervasyon lead’i."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "turizm-link-kaynaklarini-siniflandiran-tablo",
+        "title": "Turizm link kaynaklarını sınıflandıran tablo + önceliklendirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo, “hangi kanal ne işe yarar?” sorusunu hızlıca cevaplamak için."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Turizm link kaynaklarını sınıflandıran tablo + önceliklendirme",
+            "headers": [
+              "Kanal",
+              "SEO Değeri",
+              "Talep/Rezervasyon Potansiyeli",
+              "Efor",
+              "Önerilen Kullanım"
+            ],
+            "rows": [
+              [
+                "Destinasyon portal/DMO",
+                "Yüksek (alaka)",
+                "Orta",
+                "Orta",
+                "Rehber/listelerde yer alma"
+              ],
+              [
+                "Gezi blogları",
+                "Orta-Yüksek",
+                "Orta-Yüksek",
+                "Orta",
+                "Rehber güncelleme + içerik katkısı"
+              ],
+              [
+                "Yerel medya",
+                "Orta",
+                "Orta",
+                "Orta",
+                "Haber değeri + PR paketi"
+              ],
+              [
+                "Etkinlik/sponsorluk",
+                "Orta",
+                "Yüksek",
+                "Orta-Yüksek",
+                "Partner sayfası + paket"
+              ],
+              [
+                "OTA profilleri",
+                "Düşük-Orta",
+                "Yüksek",
+                "Düşük-Orta",
+                "Marka/talep kanalı, profil optimizasyonu"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İlk 10 hedefinizi bu tabloya göre puanladınız mı?",
+              "En yüksek eforlu kanallara “hazır asset” olmadan girmiyor musunuz?",
+              "Ölçüm KPI’ları net mi (referral, lead, görünürlük)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk 30 gün: portal/DMO + 10 blog + 5 yerel medya hedefi çıkarın.",
+              "60 gün: 1 destinasyon rehberi + 1 etkinlik landing + 1 PR paketi hazırlayın.",
+              "90 gün: ilişki bazlı rutin kurun (ayda 5 temas)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilk-10-hedef-site-checklist",
+        "title": "İlk 10 hedef site checklist’i (hızlı başlangıç)",
+        "blocks": [
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (İlk 10 hedef)",
+            "items": [
+              "2 destinasyon portalı/DMO sayfası",
+              "3 gezi blogu (niş: aile/gastro/golf/SPA gibi)",
+              "2 yerel medya/şehir rehberi",
+              "2 etkinlik/organizasyon sayfası",
+              "1 OTA profil optimizasyon listesi (link değil, görünürlük checklist’i)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "turizm-ekosistemini-potansiyel-haritaya-cevirme",
+        "title": "Fark yaratan bölüm: Turizm ekosistemini “gözden kaçan potansiyel” olmaktan çıkarın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok otel backlink stratejisini genel SEO rehberleriyle kurguluyor; bu da turizm ve destinasyon ekosistemine özgü fırsatların gözden kaçmasına neden oluyor. Bu rehberin farkı, turizmde otoritenin destinasyon grafiği üzerinden kurulduğunu netleştirip, otel için sürdürülebilir fırsat haritasını sistematik hale getirmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (soft claim): Turizm odaklı backlink kaynaklarını aktif kullanan otellerin, yerel ve destinasyon sorgularında daha güçlü görünürlük yakaladığı saha gözlemlerinde raporlanıyor; çünkü sinyal hem alaka hem talep tarafında güçleniyor."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Turizm Backlink Ekosistemi Analizi Talep Et",
+            "text": "Otelinize özel destinasyon haritası + önceliklendirilmiş hedef liste isteyenler için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Turizm & Destinasyon Backlink Fırsat Listesi Şablonunu İndir",
+            "text": "Portal/DMO, blog, medya ve etkinlik kaynaklarını tek tabloda toplayıp puanlamanızı ve ilk 10 hedefi seçmenizi sağlar.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "turizm-destinasyon-backlink-firsat-listesi-sablonu",
+        "title": "Turizm & Destinasyon Backlink Fırsat Listesi Şablonunu İndir — SEO / Turizm Ekosistemi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Turizm & Destinasyon Backlink Fırsat Listesi Şablonunu İndir — SEO / Turizm Ekosistemi (v1.0)",
+            "purpose": "Bu şablon, otelinizin destinasyon ekosistemindeki portal/DMO, blog, yerel medya, etkinlik ve OTA kanallarını tek bir listede toplayıp puanlamanız için hazırlanmıştır. Amaç, “rastgele outreach” yerine sürdürülebilir ve alaka yüksek fırsatları önceliklendirmektir.",
+            "whoFor": "Otel pazarlama ekibi, satış ekibi, turizm odaklı ajanslar.",
+            "steps": [
+              "Destinasyonunuzu ve konseptinizi yazın (örn. Antalya–aile, Bodrum–gastro, Kapadokya–balayı).",
+              "Her kategori için 10 aday ekleyin; alaka/otorite/fayda ile puanlayın.",
+              "İlk 10 hedefi seçip outreach/PR paketini planlayın."
+            ],
+            "template": {
+              "identityAndGoal": [
+                "Destinasyon: ________",
+                "Konsept: ________",
+                "Hedef sayfalar (destinasyon/konsept/paket): ________",
+                "Hedef KPI (görünürlük/referral/rezervasyon): ________"
+              ],
+              "opportunityList": [
+                "Kategori (Portal/DMO, Blog, Yerel Medya, Etkinlik, OTA): ________",
+                "Site/Platform: ________",
+                "URL: ________",
+                "Neden uygun? (1 cümle): ________",
+                "İletişim kanalı: ________",
+                "Teklif/Hook: ________",
+                "Hedef sayfa: ________",
+                "Alaka (0–2): __",
+                "Otorite (0–2): __",
+                "Talep potansiyeli (0–2): __",
+                "Efor (0–2 ters): __",
+                "Toplam (0–8): __",
+                "Öncelik (İlk 10 / Yedek): ________",
+                "Notlar: ________"
+              ],
+              "prOutreachPackage": [
+                "2 paragraf özet: ________",
+                "3 bullet veri/insight: ________",
+                "1 görsel: ________",
+                "Link hedefi: ________"
+              ]
+            },
+            "usageRules": [
+              "Her satıra “neden uygun” notu ekleyin; boş geçmeyin.",
+              "Portal/DMO ve bloglarda “editoryal rehber” formatına öncelik verin.",
+              "Etkinliklerde linki “paket/etkinlik landing”e yönlendirin (genel ana sayfaya değil).",
+              "OTA’yı link kaynağı gibi değil, görünürlük/marka kanalı gibi puanlayın.",
+              "İlk 10 hedefi seçtikten sonra 30 gün içinde temas planı çıkarın."
+            ],
+            "example": [
+              "Kategori: Blog",
+              "Neden uygun: “Bodrum gastronomi rotaları” serisi var",
+              "Teklif: Chef röportajı + 1 rota haritası",
+              "Hedef sayfa: Gastronomi deneyim sayfası",
+              "Puan: 7/8 → İlk 10"
+            ],
+            "checklist": [
+              "Her kategoriden en az 2 hedef seçildi",
+              "İlk 10 hedef için hook/teklif yazıldı",
+              "Hedef sayfa eşleşmesi yapıldı",
+              "30 günlük temas takvimi oluşturuldu"
+            ],
+            "deliverables": [
+              "Fırsat listesi sheet’i (puanlı)",
+              "İlk 10 hedef + outreach planı",
+              "PR paketi (özet + görsel + 3 bullet)"
+            ],
+            "href": "/downloads/turizm-destinasyon-backlink-firsat-listesi-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Otel backlink stratejisi destinasyon ekosistemiyle güçlenir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Turizm ve destinasyon odaklı backlink stratejisi, genel dizin ve guest post yaklaşımından daha güçlü bir fırsat alanı sunar. Çünkü oteller için en değerli bağlantılar; destinasyon portalları, DMO’lar, gezi blogları, yerel medya, etkinlik sayfaları ve iş birlikleri üzerinden doğar."
+          },
+          {
+            "type": "p",
+            "text": "Bu kanallar yalnızca SEO sinyali üretmez; marka görünürlüğü, referral trafik, güven ve direkt rezervasyon potansiyeli de yaratır. Bu yüzden en doğru başlangıç; destinasyon ekosistemini haritalandırmak, kaynakları puanlamak, ilk 10 hedefi seçmek ve her hedef için doğru hook/teklif ile ilerlemektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Turizm Backlink Ekosistemi Analizi Talep Et",
+            "text": "Otelinizin destinasyon ekosistemindeki fırsatlarını netleştirmek isteyenler için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Turizm & Destinasyon Backlink Fırsat Listesi Şablonunu İndir",
+            "text": "Kaynakları tek tabloda toplayıp puanlamanızı ve ilk 10 hedefi seçmenizi sağlar.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oteller için backlink nerelerden alınır?",
+        "a": "En güçlü kaynaklar destinasyon portalları/DMO’lar, gezi blogları, yerel medya ve etkinlik partner sayfalarıdır. OTA profilleri ise çoğunlukla linkten çok görünürlük ve talep kanalı olarak değerlendirilmelidir."
+      },
+      {
+        "q": "Destinasyon portalları ve DMO’lar SEO’ya nasıl katkı sağlar?",
+        "a": "Yüksek alaka (relevance) taşıyan rehber içerikler üzerinden otelinize referans olabilirler. Bu referanslar destinasyon sorgularında otorite sinyalini güçlendirebilir ve marka güvenini artırabilir."
+      },
+      {
+        "q": "OTA profilleri backlink olarak sayılır mı?",
+        "a": "Bazen link verirler; ancak çoğu durumda OTA’lar marka görünürlüğü ve talep yaratma kanalıdır. Klasik editoryal backlink gibi etki beklemek yerine, profil optimizasyonu ve ölçümlemeye odaklanın."
+      },
+      {
+        "q": "Gezi blogları ve yerel medya ile nasıl çalışmalıyım?",
+        "a": "Link istemek yerine rehberi geliştirecek değer sunun: rota, veri, görsel, deneyim veya uzman görüşü. Yerel medyada haber değeri olan kampanya/etkinlik/sosyal sorumluluk hikâyeleriyle ilerlemek daha doğaldır."
+      },
+      {
+        "q": "Turizm backlink kaynaklarında hangileri daha önceliklidir?",
+        "a": "Genelde portal/DMO ve niş gezi blogları önceliklidir; çünkü hem alaka yüksek hem de editoryal link ihtimali güçlüdür. Etkinlik sayfaları talep potansiyeliyle öne çıkar; OTA’lar ise görünürlük katmanı olarak düşünülmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — turizm-ve-destinasyon-odakli-backlink-firsatlari-hero-01.webp — Turizm backlink ekosistemi, oteller için otorite kanalları haritası",
+          "h1-context — 1920×1080 — turizm-ve-destinasyon-odakli-backlink-firsatlari-h1-context-02.webp — Destinasyon grafiği: portal/DMO, blog, medya ve etkinlik ilişkisi",
+          "divider-01 — 1600×1200 — turizm-ve-destinasyon-odakli-backlink-firsatlari-divider-03.webp — Turizm backlink ekosistemi kategorileri, otel SEO bağlamı",
+          "divider-02 — 1600×1200 — turizm-ve-destinasyon-odakli-backlink-firsatlari-divider-04.webp — Gezi blogları ve yerel medya ile iş birliği akışı, otel rehberi",
+          "diagram-05 — 1920×1080 — turizm-ve-destinasyon-odakli-backlink-firsatlari-diagram-05.webp — Destinasyon backlink haritası diyagramı, otel otorite kanalları",
+          "checklist-06 — 1200×1200 — turizm-ve-destinasyon-odakli-backlink-firsatlari-checklist-06.webp — İlk 10 hedef site checklist’i, turizm backlink fırsatları",
+          "kpi-07 — 1200×1200 — turizm-ve-destinasyon-odakli-backlink-firsatlari-kpi-07.webp — Turizm SEO KPI kartı, destinasyon görünürlüğü ve referral ölçümü",
+          "proof-08 — 1200×1200 — turizm-ve-destinasyon-odakli-backlink-firsatlari-proof-08.webp — Destinasyon backlink planı deliverables, hedef liste ve kampanya çıktıları",
+          "table-tourism-link-sources-prioritization — Turizm link kaynaklarını sınıflandıran tablo",
+          "table-opportunity-scoring-sheet — Fırsat listesi ve puanlama tablosu",
+          "table-first-10-targets — İlk 10 hedef seçimi tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari",
+          "Primary CTA hedefi /tr/seo/backlink-yonetimi sayfasına bağlanacak",
+          "Secondary CTA sayfa içi indirme modülüne ve gerekirse /tr/seo/backlink-yonetimi bağlamına yönlendirilecek",
+          "OTA linkleri klasik editoryal backlink gibi konumlandırılmayacak; görünürlük/marka kanalı notu korunacak",
+          "Tablo: kanal, SEO değeri, talep/rezervasyon potansiyeli, efor, önerilen kullanım alanlarıyla yayınlanacak",
+          "İlk 10 hedef checklist’i sayfa içinde görünür olacak",
+          "İç linklerde backlink yönetimi + otel SEO + benchmark analizi akışı kurulacak",
+          "Fırsat listesi asset’i puanlama mantığıyla yayınlanacak",
+          "KPI seti: destinasyon görünürlüğü, marka araması, referral trafik, direkt rezervasyon lead’i, referring domain",
+          "Outreach/PR paketinde 2 paragraf özet + 3 bullet + 1 görsel + hedef sayfa standardı korunacak"
+        ]
+      }
+    }
+  },
+
+   "BlogCokDilliVeUluslararasiBacklinkStratejisiTrEnDeRuPazarlar": {
+    "title": "Çok Dilli ve Uluslararası Backlink Stratejisi: TR–EN–DE–RU Pazarlarda Otorite Kurmak",
+    "slug": "cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "18 Mayıs 2026",
+    "publishedAt": "2026-05-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "TR–EN–DE–RU pazarlarda uluslararası backlink nasıl kurulur? ccTLD vs .com mimarisi, dil bazlı kaynak türleri, anchor dili, PR/outreach planı ve risk yönetimiyle global otorite inşa edin.",
+    "seo": {
+      "metaTitle": "TR–EN–DE–RU Uluslararası Backlink Stratejisi | DGTLFACE",
+      "metaDescription": "TR–EN–DE–RU pazarlarda uluslararası backlink nasıl kurulur? ccTLD vs .com mimarisi, dil bazlı kaynak türleri, anchor dili, PR/outreach planı ve risk yönetimiyle global otorite inşa edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / Sayfa URL: Backlink & Dijital Otorite Yönetimi — https://dgtlface.com/tr/seo/backlink-yonetimi",
+        "Blog No / Blog URL: 8 — https://dgtlface.com/tr/seo/blog/cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar"
+      ],
+      "strategySummary": "Bu yazı, backlink serisini yerel Türkiye odağından çıkarıp çok dilli / çok pazar otorite kurma seviyesine taşır: TR–EN–DE–RU pazarlarında linkin “değerini” belirleyen şey sadece domain değil, dil, kaynak tipi, ülke otoritesi ve site mimarisidir. Hedef persona, Türkiye’den çıkıp uluslararası pazarlara açılan otel ve B2B yöneticileridir; “yabancı pazarlardan backlink almam gerekir mi, hangi pazarda neyi hedeflemeliyim?” sorusuna plan ister. Funnel’da MoFu (consideration) ağırlıklıdır; doğru pazar/kanal önceliği BoFu’ya (strateji analizi) bağlanır. Ana iş sorusu: “TR–EN–DE–RU pazarlarında, doğru domain yapısı + doğru içerik + doğru kaynaklardan link ile sürdürülebilir global otoriteyi nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Uluslararası çalışan otel ve B2B markalar için backlink stratejisi, sadece Türkiye sitelerinden link toplamakla sınırlı olamaz. Hedef pazarlarda (TR–EN–DE–RU) otorite kurmak için; o pazarın dilinde içerik üretmek, doğru site mimarisini (subfolder/subdomain/ccTLD) seçmek, yerel yayıncı–portal–blog–PR kanallarını hedeflemek ve anchor dilini bağlama uygun kullanmak gerekir. Amaç “link için link” değil; iş hedefi olan pazarlarda sürdürülebilir otorite ve talep üretmektir.",
+      "sgeSummary": "Uluslararası otorite: doğru pazar seçimi + dil uyumlu içerik + pazarın otorite kaynaklarından link. ccTLD/.com yapısını netleştir, anchor dilini kontrol et, PR/outreach’i hedef pazar bazında planla.",
+      "voiceAnswer": "Evet, hedef pazarınız varsa o dilde otorite sitelerinden link alıp global profili güçlendirmelisiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Türkiye çıkışlı oteller, turizm markaları, B2B/SaaS hizmet markaları",
+        "KPI: hedef pazarda organik görünürlük, marka aramaları, referral kalite, pazar bazlı dönüşüm/lead, referring domain çeşitliliği",
+        "Entity: International Backlinks, Multilingual Links, ccTLD vs .com, TR–EN–DE–RU",
+        "Semantic: market-specific authority, multilingual outreach, global brand presence",
+        "Geo bağlam: Türkiye çıkışlı; Almanya / Rusya / Birleşik Krallık pazarları + turizm destinasyon örnekleri (Antalya, Bodrum, Kapadokya)",
+        "Funnel: Awareness → Consideration → Strategy execution",
+        "Risk notu: İş hedefi olmayan pazarda “link için link” doğal görünürlüğü bozabilir"
+      ]
+    },
+    "h1": {
+      "title": "Çok Dilli ve Uluslararası Backlink Stratejisi: TR–EN–DE–RU Pazarlarda Otorite Kurmak",
+      "intro": "Uluslararası pazarlara açılan otel ve B2B markalarda en büyük yanılgı şudur: “Türkiye’den güçlü link alırsam tüm dillerde yükselirim.” Gerçekte Google, pazar sinyallerini dil–ülke–kaynak tipi–site mimarisi birlikte okur. Bu yüzden TR–EN–DE–RU pazarlarında otorite kurmak, tek bir link kampanyası değil; pazar bazlı otorite inşasıdır. Bu rehberde, hangi pazarda hangi link daha değerli, ccTLD mi .com mu, anchor dili nasıl seçilir ve uluslararası PR/outreach nasıl planlanır sorularını uçtan uca yanıtlayacağız.",
+      "quickSummary": [
+        "1) Hedef pazarları iş hedefiyle doğrula: TR, EN, DE, RU",
+        "2) Her pazar için dil sayfası, içerik açısı ve kaynak tipini eşleştir",
+        "3) ccTLD, subdomain veya .com alt klasör kararını operasyon kapasitesine göre ver",
+        "4) Anchor dilini hedef sayfa dili ve bağlama uygun seç",
+        "5) Uluslararası PR/outreach’i pazar bazlı asset + yayıncı + ölçüm planıyla yönet"
+      ],
+      "ctaPrimary": {
+        "label": "Uluslararası Backlink & Pazar Stratejisi Analiz Talebi",
+        "text": "Hangi pazara hangi içerikle gireceğini ve hangi kaynakları hedefleyeceğini netleştirmek isteyen turizm/B2B ekipleri için.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Uluslararası Backlink & Pazar Stratejisi Analiz Talebi",
+        "text": "TR’den çıkıp EN/DE/RU pazarlarda otorite kurmak isteyen turizm ve B2B markalar için.",
+        "href": "/seo/backlink-yonetimi"
+      },
+      "secondary": {
+        "label": "TR–EN–DE–RU Backlink Kaynak & Priorite Şablonunu İndir",
+        "text": "Pazar bazlı kaynakları puanlayıp önceliklendirmeyi ve 90 günlük planı standartlaştırmayı sağlar.",
+        "href": "/seo/backlink-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Backlink & Dijital Otorite Yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      },
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/otel/seo"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+        "href": "/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
+      },
+      {
+        "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+        "href": "/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
+      }
+    ],
+    "sections": [
+      {
+        "id": "uluslararasi-backlink-stratejisi-nasil-kurulur",
+        "title": "Uluslararası backlink stratejisi nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Uluslararası backlink stratejisi, önce “nerede iş var?” sorusuna cevap verir; sonra o pazarda dil uyumlu içerik + yerel otorite kaynakları üzerinden ilerler. Linkler, global profili destekler ama en iyi etkiyi hedef dil sayfalarınız doğru kurgulanmışsa verir (hreflang, doğru URL yapısı, içerik uyumu)."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Çok dilli backlink stratejisi nasıl olmalı? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Çok dilli backlink stratejisi nasıl olmalı? Cevap: Önce hedef pazarları seçin, her pazar için dil sayfalarını doğru mimaride yayınlayın, sonra o pazarın otorite kaynaklarından (portal, medya, blog, PR) link kazanın."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel)"
+          },
+          {
+            "type": "p",
+            "text": "Antalya’daki bir otel için Alman pazarında görünürlük hedefleniyorsa, Almanca destinasyon/konsept sayfaları + Almanca turizm portalları + Almanca gezi blogları kombinasyonu en gerçekçi yoldur."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "B2B hizmet markası İngilizce pazarda büyüyecekse, İngilizce case study ve benchmark içerikleri + sektör blogları + podcast/webinar sayfaları üzerinden link earning hedeflenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hedef pazarlar (TR/EN/DE/RU) net ve iş hedefiyle doğrulanmış mı?",
+              "Her pazar için hedef sayfa seti hazır mı (landing + içerik + proof)?",
+              "“Pazar bazlı KPI” tanımı var mı (görünürlük, lead, marka araması)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her pazar için 1 sayfalık “market brief” çıkarın: hedef kitle, teklif, içerik açısı, kanal listesi.",
+              "“Link hedefi” yerine “otorite hedefi” tanımlayın: kim bizi kaynak gösterecek?",
+              "Dil sayfalarınızın teknik temeli (hreflang + URL yapısı) sağlam değilse önce onu düzeltin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cctld-mi-com-mu-domain-lokasyon-hedefleme",
+        "title": "ccTLD mi, .com mu daha iyi? Domain ve lokasyon hedefleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu soru tek cümle cevaplanmaz; çünkü karar operasyon + içerik + marka bileşimidir. ccTLD (.de, .ru gibi) daha güçlü yerel sinyal verebilir; ama yönetimi zordur. .com üzerinde alt klasör (ör. /de/, /ru/) çoğu marka için ölçeklenebilir bir “tek otorite havuzu” sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "AEO – ccTLD mi, .com mu daha iyi? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: ccTLD mi, .com mu daha iyi? Cevap: Tek bir doğru yok; ccTLD yerel sinyali güçlendirebilir, .com + alt klasör ise ölçek ve otorite birikimi sağlar. Seçim, operasyon ve pazar hedeflerine göre yapılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik seçim matrisi (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              ".com + /tr/ /en/ /de/ /ru/ (subfolder): Merkezî otorite birikir, yönetim kolay; içerik ve PR ekipleri tek çatı; hreflang ve dil ayrımı iyi kurulmalı.",
+              "Subdomain (de.site.com): Teknik ayrışma kolay; otorite bölünebilir, yönetim karmaşıklığı artar.",
+              "ccTLD (.de, .ru): Yerel güven algısı ve ülke sinyali güçlü; ayrı site gibi yönetim gerekir: içerik, link, PR, teknik bakım yükü."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her dilde aynı içerik mi (kopya) yoksa pazar uyarlaması mı var?",
+              "Ülke bazlı ekip ve PR kapasitesi var mı?",
+              "Tek marka altında mı büyüyeceksiniz, yoksa ülke markaları mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Operasyon gücü düşükse” genelde /de/ /ru/ alt klasörle başlayın (varsayım: çoğu TR çıkışlı marka için en az sürtünme).",
+              "ccTLD’yi, o ülkede gerçekten büyük bütçe ve PR kapasitesi oluştuğunda düşünün.",
+              "Domain kararını “link stratejisi” ile birlikte verin: hangi modelde hangi kaynaklarla ölçekleneceksiniz?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "tr-en-de-ru-kaynak-tipleri",
+        "title": "TR vs EN vs DE vs RU kaynak tipleri nasıl farklılaşır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her pazarın “otorite üretim mekanizması” farklı çalışır. Aynı outreach şablonunu her dilde kopyalamak, yanıt oranını ve link kalitesini düşürür. Burada amaç: her pazarda kaynak tiplerini ve içerik formatını eşleştirmek."
+          },
+          {
+            "type": "h3",
+            "text": "Pazar bazlı kaynak tipleri (yüksek seviye)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR: destinasyon portalları, yerel medya, sektör blogları, turizm rehberleri, etkinlik ortaklıkları",
+              "EN: global bloglar, sektör yayınları, podcast/webinar sayfaları, araştırma/benchmark referansları",
+              "DE: Almanca seyahat portalları, destinasyon rehberleri, tematik bloglar (aile/aktivite), güven odaklı yayınlar",
+              "RU: Rusça turizm siteleri, forum/topluluk etkisi, seyahat rehberleri ve bölgesel yayınlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO – Dil, ülke, kaynak türü ve anchor dili ilişkisi"
+          },
+          {
+            "type": "p",
+            "text": "Çok dilli backlink stratejisinde “dil” sadece çeviri değil, pazar sinyalidir: hangi ülkeden hangi dilde link aldığınız, linkin hedeflediği dil sayfasıyla birleştiğinde pazar otoritesini güçlendirir. Bu yüzden domain yapısı (ccTLD/.com alt klasör), hedef sayfa dili (TR/EN/DE/RU), kaynak türü (portal/medya/blog/PR) ve anchor dili birlikte planlanmalıdır; örneğin Almanca bir yayından gelen linkin, Almanca bir destinasyon sayfasına bağlamsal anchor ile gitmesi “pazar uyumu” sinyalini artırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her pazar için 20–30 kaynaklık aday havuz var mı?",
+              "Her pazar için 2–3 içerik formatı seçildi mi (rehber/rapor/case)?",
+              "Aynı “tek anchor”ı her dilde zorlamıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "EN pazarda “benchmark + case” ağırlığına, DE pazarda “destinasyon rehberi + güven içerikleri”ne, RU pazarda “turizm ekosistemi + yerel rehber”e odaklanın.",
+              "Her pazar için ayrı pitch/dil tonu çıkarın (tek şablonla gitmeyin).",
+              "Kaynakları “editoryal link potansiyeli”ne göre puanlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-pazarda-hangi-link-degerli",
+        "title": "Hangi pazarda hangi link daha değerli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Değer”, sadece domain otoritesi değil; pazar alaka + dil uyumu + talep potansiyeli + link bağlamıdır. Otel için örnek: Almanca bir seyahat rehberinden gelen editoryal link, Alman pazarındaki sorgular için daha anlamlıdır. B2B’de örnek: İngilizce sektör yayınından gelen bir “case study” referansı, global marka algısını hızlandırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik değerlendirme kriterleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedef ülke/dil uyumu",
+              "İçerik bağlamı (body içinde editoryal)",
+              "Trafik ve niyet uyumu (rezervasyon/lead’e yakın mı?)",
+              "Marka güveni (yayın kalitesi, şeffaflık)",
+              "Anchor doğallığı (dil ve bağlam uyumu)",
+              "Linkin hedeflediği sayfa (doğru dil sayfası mı?)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Link, doğru dil sayfasına mı gidiyor?",
+              "O ülkede gerçek iş hedefiniz var mı?",
+              "Linkin yanında “talep” sinyali (referral/marka araması) geliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her pazarda “en az 10 otorite kaynak” hedefi koyun (portal/medya/blog dengesi).",
+              "Linkleri sadece “SEO puanı” ile değil, “pazar etkisi” ile raporlayın.",
+              "Hedef pazar dışından rastgele link toplamak yerine, seçici olun."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "uluslararasi-pr-guestpost-calismalari",
+        "title": "Uluslararası PR ve guestpost çalışmaları nasıl yapılmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Uluslararası PR/outreach’te en kritik hata: “link satışı” gibi duran anlaşmalarla hızlı gitmek. Uzun vadeli model; linkable asset + PR dağıtımı + ilişki yönetimidir. Guestpost ise ancak editoryal kalite yüksek, konu uyumu güçlü ve şeffaflık korunuyorsa değerlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Uluslararası PR playbook (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pazar içgörüsü (trend, sezon, veri)",
+              "Linkable asset (rapor/rehber/case + tablo/grafik)",
+              "Yayıncı listesi (pazar bazlı)",
+              "Dil uyumlu pitch (kısa, kanıtlı, tek istek)",
+              "Yayın → ölçüm → ikinci dalga (partner/podcast/yerel medya)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (turizm)"
+          },
+          {
+            "type": "p",
+            "text": "Bodrum için “gastro rota + sezon içgörüsü” içerikleriyle EN/DE yayıncılarına farklı pitch’ler hazırlanır; aynı içeriği birebir çevirmek yerine “pazarın sorusuna” göre uyarlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (B2B)"
+          },
+          {
+            "type": "p",
+            "text": "EN pazarda “benchmark + case” ile sektörel yayınlara; DE pazarda “güven/kalite süreçleri” vurgusuyla daha seçici yayınlara gidilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Pitch e-postası pazar diline doğal mı (çeviri kokmuyor mu)?",
+              "İçerik “haber değeri” taşıyor mu, yoksa link için mi?",
+              "Hedef sayfada aynı dilde CTA/kanıt (case, review, sertifika) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her pazar için 1 “ana asset” ve 2 “destek asset” planlayın.",
+              "Sadece PR değil, partner ve etkinlik sayfalarını da düşünün.",
+              "Ölçümü pazar bazında yapın: EN görünürlük, DE marka araması, RU referral kalite gibi."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "anchor-dili-nasil-secilmeli",
+        "title": "Anchor dilini nasıl seçmeliyim?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Anchor dili, linkin hedef dil sayfasıyla uyumlu olmalıdır. En güvenli yaklaşım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand/URL anchor omurgası (dil bağımsız)",
+              "Dil bazlı bağlamsal partial anchor (ör. Almanca sayfaya Almanca bağlam)",
+              "Exact-match’i çok sınırlı ve seçici kullanma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AEO – Anchor dilini nasıl seçmeliyim? (Q&A)"
+          },
+          {
+            "type": "p",
+            "text": "Soru: Anchor dilini nasıl seçmeliyim? Cevap: Link hangi dil sayfasına gidiyorsa, anchor o dilin bağlamına uygun olmalı; brand/URL ağırlığı korunmalı ve agresif exact-match tekrarından kaçınılmalı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "EN sayfaya RU anchor ile yüklenmiyor musunuz?",
+              "Aynı kelimeyi her pazarda exact-match tekrar etmiyor musunuz?",
+              "Linkin geçtiği paragraf gerçekten o dilde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her pazar için “anchor sözlüğü” oluşturun (brand/URL/partial setleri).",
+              "Dil sayfası hedefini her outreach satırında zorunlu alan yapın.",
+              "30 gün sonra pazar bazlı anchor raporu çekin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tr-en-de-ru-kaynak-listesi-oncelik-tablosu",
+        "title": "TR–EN–DE–RU örnek kaynak listesi ve öncelik tablosu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo, hangi pazarda hangi kaynak tipine ağırlık verileceğini hızlıca gösterir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: TR–EN–DE–RU örnek kaynak listesi ve öncelik tablosu",
+            "headers": [
+              "Pazar",
+              "Öncelikli Kaynak Tipleri",
+              "En İyi Çalışan İçerik Formatı",
+              "İlk 90 Gün Hedefi (varsayım)"
+            ],
+            "rows": [
+              [
+                "TR",
+                "destinasyon portalları, yerel medya, turizm rehberleri",
+                "destinasyon rehberi + etkinlik/PR",
+                "10 kaliteli kaynak"
+              ],
+              [
+                "EN",
+                "global bloglar, sektör yayınları, podcast/webinar sayfaları",
+                "benchmark + case + rehber",
+                "10–15 kaynak"
+              ],
+              [
+                "DE",
+                "Almanca seyahat portalları, tematik rehberler",
+                "güven odaklı rehber + destinasyon içerikleri",
+                "8–12 kaynak"
+              ],
+              [
+                "RU",
+                "Rusça turizm siteleri, rehber/topluluk etkisi",
+                "destinasyon + deneyim odaklı içerik",
+                "8–12 kaynak"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her pazar için en az 10 “otorite kaynak” hedefi var mı?",
+              "Kaynakların dili ve hedef sayfa dili eşleşiyor mu?",
+              "Ölçüm pazar bazında ayrı raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "teknik-notlar-risk-yonetimi",
+        "title": "Teknik notlar ve risk yönetimi",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gerçek iş hedefi olmayan pazarda sırf “global görünsün” diye link almak, profilin doğal görünürlüğünü bozabilir.",
+              "Tek bir dil sayfasına tüm pazarlardan link yığmak, pazar sinyalini zayıflatır.",
+              "Uluslararası büyümede “hızlı link” yerine “pazar uyumlu otorite” hedeflenmelidir."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (soft claim): Uluslararası backlink stratejisi uygulayan projelerde, hedef pazarlardaki marka aramaları ve organik görünürlük metriklerinde artış raporlanıyor; özellikle pazar dilinde içerik + yerel otorite kaynakları birlikte çalıştığında etki daha görünür oluyor."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Uluslararası Backlink & Pazar Stratejisi Analiz Talebi",
+            "text": "Hangi pazarda hangi kaynak ve içerikle otorite kurulacağını netleştirmek isteyenler için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "TR–EN–DE–RU Backlink Kaynak & Priorite Şablonunu İndir",
+            "text": "Her pazarın kaynaklarını puanlayıp önceliklendirmeyi ve 90 günlük planı standartlaştırmayı sağlar.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "tr-en-de-ru-backlink-kaynak-priorite-sablonu",
+        "title": "TR–EN–DE–RU Backlink Kaynak & Priorite Şablonunu İndir — SEO / International",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "TR–EN–DE–RU Backlink Kaynak & Priorite Şablonunu İndir — SEO / International (v1.0)",
+            "purpose": "Bu şablon, TR–EN–DE–RU pazarlarında backlink kaynaklarını tek tabloda toplayıp pazar uyumu ve iş etkisi kriterleriyle puanlamanız için hazırlanmıştır. Amaç “global görünsün” diye rastgele link almak değil; hedef pazarlarda sürdürülebilir otoriteyi planlı şekilde kurmaktır.",
+            "whoFor": "Uluslararası pazara açılan otel pazarlama ekipleri ve B2B büyüme ekipleri.",
+            "steps": [
+              "Hedef pazarları ve dil sayfalarını (TR/EN/DE/RU) netleştirin.",
+              "Her pazar için 20–30 aday kaynak ekleyip puanlayın (alaka/otorite/iş etkisi).",
+              "İlk 10 hedefi seçip 90 günlük PR/outreach planını çıkarın."
+            ],
+            "template": {
+              "marketBrief": [
+                "Pazar: (TR / EN / DE / RU)",
+                "Hedef ülke/şehir (varsa): ________",
+                "Ürün/teklif: ________",
+                "Hedef sayfalar: ________",
+                "KPI hedefi (görünürlük/lead/rezervasyon): ________"
+              ],
+              "sourcePool": [
+                "Pazar: ________",
+                "Kaynak tipi: (Portal/Medya/Blog/Podcast/Partner/Etkinlik)",
+                "Site adı: ________",
+                "URL: ________",
+                "Dil: ________",
+                "Neden uygun? (1 cümle): ________",
+                "Hedef sayfa (dil): ________",
+                "Pitch/Hook: ________",
+                "Anchor dili (brand/URL/partial): ________",
+                "Alaka (0–2): __",
+                "Otorite (0–2): __",
+                "İş etkisi (0–2): __",
+                "Efor (0–2 ters): __",
+                "Toplam (0–8): __",
+                "Öncelik: (İlk 10 / Yedek): ________"
+              ],
+              "ninetyDayPlan": [
+                "Hafta 1–2: ________",
+                "Hafta 3–4: ________",
+                "Ay 2: ________",
+                "Ay 3: ________"
+              ]
+            },
+            "usageRules": [
+              "Her pazarda “iş hedefi” yoksa o pazara kaynak eklemeyin (link için link yapmayın).",
+              "Kaynak dilini ve hedef sayfa dilini eşleştirin (DE kaynak → DE sayfa gibi).",
+              "Brand/URL anchor omurgasını koruyun; exact-match’i sınırlı tutun.",
+              "Her kaynak için “neden uygun” notu zorunlu olsun (kopyala-yapıştır görünmesin).",
+              "30 günde bir pazar bazlı rapor çıkarın; en iyi çalışan kaynak tipini ölçekleyin."
+            ],
+            "example": [
+              "Pazar: DE",
+              "Kaynak tipi: Almanca seyahat portalı",
+              "Hedef sayfa: /de/… (Almanca destinasyon sayfası)",
+              "Hook: “Sezon içgörüsü + destinasyon rehberi”",
+              "Anchor: brand + bağlamsal partial",
+              "Toplam: 7/8 → İlk 10"
+            ],
+            "checklist": [
+              "Her pazar için en az 20 aday kaynak girildi",
+              "İlk 10 hedef seçildi ve 90 gün planı yazıldı",
+              "Dil–sayfa eşleşmesi kontrol edildi",
+              "Ölçüm KPI’ları pazar bazlı tanımlandı"
+            ],
+            "deliverables": [
+              "Pazar bazlı kaynak listesi (puanlı)",
+              "İlk 10 hedef + pitch seti",
+              "90 gün PR/outreach takvimi"
+            ],
+            "href": "/downloads/tr-en-de-ru-backlink-kaynak-priorite-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Uluslararası backlink, pazar bazlı otorite inşasıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli ve uluslararası backlink stratejisi, yalnızca farklı ülkelerden link almak değildir. Doğru model; hedef pazarları iş hedefiyle seçmek, her pazar için doğru dil sayfasını hazırlamak, kaynak tiplerini yerel davranışa göre eşleştirmek ve anchor dilini bağlamla uyumlu tutmaktır."
+          },
+          {
+            "type": "p",
+            "text": "TR–EN–DE–RU pazarlarında sürdürülebilir global otorite, pazar uyumlu içerik + yerel otorite kaynakları + teknik mimari + düzenli ölçüm birlikte çalıştığında oluşur. Bu nedenle “link için link” yerine; pazar bazlı görünürlük, marka araması, referral kalite ve lead/rezervasyon etkisi birlikte izlenmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Uluslararası Backlink & Pazar Stratejisi Analiz Talebi",
+            "text": "TR’den çıkıp EN/DE/RU pazarlarda otorite kurmak isteyen turizm ve B2B markalar için.",
+            "href": "/seo/backlink-yonetimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "TR–EN–DE–RU Backlink Kaynak & Priorite Şablonunu İndir",
+            "text": "Pazar bazlı kaynakları puanlayıp önceliklendirmeyi ve 90 günlük planı standartlaştırmayı sağlar.",
+            "href": "/seo/backlink-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Uluslararası backlink stratejisi nasıl kurulur?",
+        "a": "Hedef pazarları netleştirip o pazarların dilinde içerik ve sayfa yapısı kurarak başlayın. Sonra pazarın otorite kaynaklarından (portal/medya/blog/PR) editoryal link kazanmaya odaklanın."
+      },
+      {
+        "q": "TR–EN–DE–RU pazarları için hangi siteler hedeflenmeli?",
+        "a": "TR’de destinasyon portalları ve yerel medya; EN’de global bloglar ve sektör yayınları; DE’de Almanca seyahat portalları ve tematik rehberler; RU’da Rusça turizm siteleri ve rehber ekosistemi daha önceliklidir."
+      },
+      {
+        "q": "ccTLD mi, .com mu daha iyi?",
+        "a": "ccTLD yerel sinyali güçlendirebilir ama yönetimi zordur; .com + alt klasör daha ölçeklenebilir olabilir. Karar, operasyon kapasitesi ve pazar hedeflerine göre verilmelidir."
+      },
+      {
+        "q": "Anchor dilini nasıl seçmeliyim?",
+        "a": "Link hangi dil sayfasına gidiyorsa anchor o dil bağlamına uygun olmalı; brand/URL ağırlığı korunmalı, agresif exact-match tekrarından kaçınılmalıdır."
+      },
+      {
+        "q": "Yabancı pazarlardan backlink almam gerekir mi?",
+        "a": "Evet, hedef pazarda görünürlük istiyorsanız o pazarın otorite kaynaklarından link kazanmak global algıyı ve pazar sinyalini güçlendirir."
+      },
+      {
+        "q": "İş hedefi olmayan bir pazardan link almak sorun olur mu?",
+        "a": "“Link için link” yaklaşımı doğal görünürlüğü bozabilir ve profilinizi anlamsız çeşitlendirebilir. Bu yüzden pazar seçimi iş hedefiyle doğrulanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-hero-01.webp — TR–EN–DE–RU pazarlarda uluslararası otorite, turizm ve B2B link stratejisi",
+          "h1-context — 1920×1080 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-h1-context-02.webp — Dil–ülke–domain–kaynak türü ilişkisi, global backlink haritası",
+          "divider-01 — 1600×1200 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-divider-03.webp — ccTLD ve .com mimarisi karşılaştırması, uluslararası yapı rehberi",
+          "divider-02 — 1600×1200 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-divider-04.webp — Pazar bazlı link değeri ve önceliklendirme, strateji ayracı",
+          "diagram-05 — 1920×1080 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-diagram-05.webp — Uluslararası pazar haritası ve backlink akışı, otorite kurma diyagramı",
+          "checklist-06 — 1200×1200 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-checklist-06.webp — Her pazar için otorite kaynak checklist’i, çok dilli link planı",
+          "kpi-07 — 1200×1200 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-kpi-07.webp — Pazar bazlı SEO KPI kartı, görünürlük ve marka araması ölçümü",
+          "proof-08 — 1200×1200 — cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar-proof-08.webp — Uluslararası backlink deliverables kartı, pazar planı ve PR paketi",
+          "table-tr-en-de-ru-source-priority — TR–EN–DE–RU örnek kaynak listesi ve öncelik tablosu",
+          "table-market-source-scoring — Pazar bazlı kaynak puanlama tablosu",
+          "table-ninety-day-pr-outreach-plan — 90 gün PR/outreach planı tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar",
+          "Primary CTA hedefi /tr/seo/backlink-yonetimi sayfasına bağlanacak",
+          "Secondary CTA sayfa içi indirme modülüne ve /tr/seo/backlink-yonetimi bağlamına yönlendirilecek",
+          "TR/EN/DE/RU dil sayfaları için hreflang ve URL yapısı kontrol edilecek",
+          "Domain modeli: .com alt klasör, subdomain veya ccTLD kararı operasyon kapasitesiyle birlikte değerlendirilecek",
+          "Kaynak dili ve hedef sayfa dili eşleştirilecek",
+          "Anchor sözlüğü pazar bazlı hazırlanacak: brand/URL/partial/exact-match sınırı",
+          "İş hedefi olmayan pazarlardan “link için link” yaklaşımı kullanılmayacak",
+          "İç linklerde backlink yönetimi + içerik SEO + otel SEO akışı kurulacak",
+          "KPI seti: pazar bazlı görünürlük, marka araması, referral kalite, lead/rezervasyon, referring domain çeşitliliği"
+        ]
+      }
+    }
   }
 
 
