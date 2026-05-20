@@ -240,7 +240,16 @@ export const BLOG_MAP = {
     "turizm-ve-destinasyon-odakli-backlink-firsatlari":"BlogTurizmVeDestinasyonOdakliBacklinkFirsatlari",
     "cok-dilli-ve-uluslararasi-backlink-stratejisi-tr-en-de-ru-pazarlar":"BlogCokDilliVeUluslararasiBacklinkStratejisiTrEnDeRuPazarlar",
     "link-reclamation-ve-kirik-link-firsatlari-link-kayiplarini-geri-kazanmak":"BlogLinkReclamationVeKirikLinkFirsatlariLinkKayiplariniGeriKazanmak",
-    "backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi":"BlogBacklinkCalismalarininEtkisiniOlcmekOtoriteTrafikVeGelirKpi"
+    "backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi":"BlogBacklinkCalismalarininEtkisiniOlcmekOtoriteTrafikVeGelirKpi",
+    "unlinked-brand-mentions-ve-marka-bahislerinden-backlink-kazanim":"BlogUnlinkedBrandMentionsVeMarkaBahislerindenBacklinkKazanim",
+    "link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir":"BlogLinkVelocityVeLinkTarihiGuvenliBuyumeNasilPlanlanir",
+    "ana-sayfa-ve-derin-sayfa-backlink-dagilimi-stratejisi":"BlogAnaSayfaVeDerinSayfaBacklinkDagilimiStratejisi",
+    "backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite":"BlogBacklinkVeCitationDengesiYerelSeoVeOffPageOtorite",
+    "negatif-seo-zararli-link-saldirilari-ve-marka-koruma":"BlogNegatifSeoZararliLinkSaldirilariVeMarkaKoruma",
+    "backlink-roadmap-6-12-aylik-otorite-plani":"BlogBacklinkRoadmap612AylikOtoritePlani",
+    "guest-post-stratejisi-editorial-mi-sponsorlu-mu":"BlogGuestPostStratejisiEditorialMiSponsorluMu",
+    "rakip-backlink-gap-analizi-ve-firsat-cikarma":"BlogRakipBacklinkGapAnaliziVeFirsatCikarma",
+    "backlink-yonetiminde-ajans-secimi-sla-ve-raporlama-kriterleri":"BlogBacklinkYonetimindeAjansSecimiSLAVeRaporlamaKriterleri"
   },
 
     smm: {

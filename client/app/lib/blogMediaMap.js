@@ -37810,8 +37810,465 @@ export const BLOG_MEDIA_MAP = {
       alt: "Backlink ROI deliverables seti, baseline ve yönetim raporu çıktıları",
       caption: "Backlink ROI deliverables seti, baseline ve yönetim raporu çıktıları"
     }
+  },
+
+   "unlinked-brand-mentions-ve-marka-bahislerinden-backlink-kazanim":{
+     banner: {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-1.webp",
+      alt: "Unlinked Brand Mentions: Marka Bahislerinden Backlink Kazanımı",
+      caption: "Unlinked Brand Mentions: Marka Bahislerinden Backlink Kazanımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-2.webp",
+      alt: "Brand mention raporu + önceliklendirme + otel pazarlama hızlı kazanım",
+      caption: "Brand mention raporu + önceliklendirme + otel pazarlama hızlı kazanım" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-3.webp",
+    alt: "Mention tespiti süreci + filtreleme + otel ve B2B bağlamı",
+      caption: "Mention tespiti süreci + filtreleme + otel ve B2B bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-4.webp",
+      alt: "Önceliklendirme ve risk kuralları + otel marka itibar yönetimi",
+      caption: "Önceliklendirme ve risk kuralları + otel marka itibar yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-5.webp",
+      alt: "Mention→link akışı + e-posta + takip + otel ve B2B modeli",
+      caption: "Mention→link akışı + e-posta + takip + otel ve B2B modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-6.webp",
+      alt: "Mention→link checklist + hızlı uygulama + turizm otel örnekler",
+      caption: "Mention→link checklist + hızlı uygulama + turizm otel örnekler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-7.webp",
+      alt: "Mention dönüşüm KPI paneli + backlink etkisi + otel ve B2B raporu",
+      caption: "Mention dönüşüm KPI paneli + backlink etkisi + otel ve B2B raporu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-11/SEO4-11-8.webp",
+      alt: "Takip sheet’i + e-posta seti + raporlama çıktısı + otel bağlamı",
+      caption: "Takip sheet’i + e-posta seti + raporlama çıktısı + otel bağlamı"
+    }
+  },
+
+
+  "link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir":{
+     banner: {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-1.webp",
+      alt: "Unlinked Brand Mentions: Marka Bahislerinden Backlink Kazanımı",
+      caption: "Unlinked Brand Mentions: Marka Bahislerinden Backlink Kazanımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-2.webp",
+      alt: "Brand mention raporu + önceliklendirme + otel pazarlama hızlı kazanım",
+      caption: "Brand mention raporu + önceliklendirme + otel pazarlama hızlı kazanım" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-3.webp",
+    alt: "Mention tespiti süreci + filtreleme + otel ve B2B bağlamı",
+      caption: "Mention tespiti süreci + filtreleme + otel ve B2B bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-4.webp",
+      alt: "Önceliklendirme ve risk kuralları + otel marka itibar yönetimi",
+      caption: "Önceliklendirme ve risk kuralları + otel marka itibar yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-5.webp",
+      alt: "Mention→link akışı + e-posta + takip + otel ve B2B modeli",
+      caption: "Mention→link akışı + e-posta + takip + otel ve B2B modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-6.webp",
+      alt: "Mention→link checklist + hızlı uygulama + turizm otel örnekler",
+      caption: "Mention→link checklist + hızlı uygulama + turizm otel örnekler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-7.webp",
+      alt: "Mention dönüşüm KPI paneli + backlink etkisi + otel ve B2B raporu",
+      caption: "Mention dönüşüm KPI paneli + backlink etkisi + otel ve B2B raporu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-12/SEO4-12-8.webp",
+      alt: "Takip sheet’i + e-posta seti + raporlama çıktısı + otel bağlamı",
+      caption: "Takip sheet’i + e-posta seti + raporlama çıktısı + otel bağlamı"
+    }
+  },
+
+
+  "ana-sayfa-ve-derin-sayfa-backlink-dagilimi-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-1.webp",
+      alt: "Ana Sayfa vs Derin Sayfa Backlink Dağılımı: Otoriteyi Nasıl Yayarsınız?",
+      caption: "Ana Sayfa vs Derin Sayfa Backlink Dağılımı: Otoriteyi Nasıl Yayarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-2.webp",
+      alt: "Otorite akışı modeli: ana sayfa hub cluster dönüşüm sayfaları",
+      caption: "Otorite akışı modeli: ana sayfa hub cluster dönüşüm sayfaları" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-3.webp",
+    alt: "Ana sayfa odaklı link profilinin sorunları, SEO dağılım ayracı",
+      caption: "Ana sayfa odaklı link profilinin sorunları, SEO dağılım ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-4.webp",
+      alt: "Derin sayfa linkleme ve hub stratejisi, planlama ayracı",
+      caption: "Derin sayfa linkleme ve hub stratejisi, planlama ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-5.webp",
+      alt: "Hub backlink haritası, kaynaklardan hub ve cluster’a otorite akışı",
+      caption: "Hub backlink haritası, kaynaklardan hub ve cluster’a otorite akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-6.webp",
+      alt: "Hedef URL planlama checklist’i, ana sayfa yığılmasını kırma",
+      caption: "Hedef URL planlama checklist’i, ana sayfa yığılmasını kırma"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-7.webp",
+      alt: "Backlink hedef URL KPI paneli, ana sayfa payı ve derin link payı",
+      caption: "Backlink hedef URL KPI paneli, ana sayfa payı ve derin link payı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-13/SEO4-13-8.webp",
+      alt: "Hedef URL dağılım deliverables, hub haritası ve rapor seti",
+      caption: "Hedef URL dağılım deliverables, hub haritası ve rapor seti"
+    }
+  },
+
+  "backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite":{
+    banner: {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-1.webp",
+      alt: "Backlink ve Citation Dengesi: Yerel SEO ve Off-Page Otoriteyi Nasıl Birleştirirsiniz?",
+      caption: "Backlink ve Citation Dengesi: Yerel SEO ve Off-Page Otoriteyi Nasıl Birleştirirsiniz?"
+    },
+
+          "h1-contex-02": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-2.webp",
+      alt: "NAP tutarlılığı ve backlink otoritesi, yerel ve global denge modeli",
+      caption: "NAP tutarlılığı ve backlink otoritesi, yerel ve global denge modeli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-3.webp",
+    alt: "Backlink vs citation farkı, yerel güven sinyali ayracı",
+      caption: "Backlink vs citation farkı, yerel güven sinyali ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-4.webp",
+      alt: "Yerel dizin ve NAP doğruluğu, citation yönetimi ayracı",
+      caption: "Yerel dizin ve NAP doğruluğu, citation yönetimi ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-5.webp",
+      alt: "Yerel–global otorite Venn diyagramı, citation ve backlink kesişimi",
+      caption: "Yerel–global otorite Venn diyagramı, citation ve backlink kesişimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-6.webp",
+      alt: "Yerel vs global off-page checklist’i, NAP ve link dengesi",
+      caption: "Yerel vs global off-page checklist’i, NAP ve link dengesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-7.webp",
+      alt: "Yerel SEO KPI paneli, NAP sağlığı ve yerel backlink ölçümü",
+      caption: "Yerel SEO KPI paneli, NAP sağlığı ve yerel backlink ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-14/SEO4-14-8.webp",
+      alt: "Off-page plan deliverables, citation listesi ve backlink haritası",
+      caption: "Off-page plan deliverables, citation listesi ve backlink haritası"
+    }
+  },
+
+  "negatif-seo-zararli-link-saldirilari-ve-marka-koruma":{
+     banner: {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-1.webp",
+      alt: "Negatif SEO, Zararlı Link Saldırıları ve Marka Koruma Stratejisi",
+      caption: "Negatif SEO, Zararlı Link Saldırıları ve Marka Koruma Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-2.webp",
+      alt: "NAP tutarlılığı ve backlink otoritesi, yerel ve global denge modeli",
+      caption: "NAP tutarlılığı ve backlink otoritesi, yerel ve global denge modeli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-3.webp",
+    alt: "Backlink vs citation farkı, yerel güven sinyali ayracı",
+      caption: "Backlink vs citation farkı, yerel güven sinyali ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-4.webp",
+      alt: "Yerel dizin ve NAP doğruluğu, citation yönetimi ayracı",
+      caption: "Yerel dizin ve NAP doğruluğu, citation yönetimi ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-5.webp",
+      alt: "Yerel–global otorite Venn diyagramı, citation ve backlink kesişimi",
+      caption: "Yerel–global otorite Venn diyagramı, citation ve backlink kesişimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-6.webp",
+      alt: "Yerel vs global off-page checklist’i, NAP ve link dengesi",
+      caption: "Yerel vs global off-page checklist’i, NAP ve link dengesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-7.webp",
+      alt: "Yerel SEO KPI paneli, NAP sağlığı ve yerel backlink ölçümü",
+      caption: "Yerel SEO KPI paneli, NAP sağlığı ve yerel backlink ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-15/SEO4-15-8.webp",
+      alt: "Off-page plan deliverables, citation listesi ve backlink haritası",
+      caption: "Off-page plan deliverables, citation listesi ve backlink haritası"
+    }
+  },
+
+
+  "backlink-roadmap-6-12-aylik-otorite-plani":{
+     banner: {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-1.webp",
+      alt: "Backlink Roadmap: 6–12 Aylık Otorite Planı Nasıl Çıkarılır?",
+      caption: "Backlink Roadmap: 6–12 Aylık Otorite Planı Nasıl Çıkarılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-2.webp",
+      alt: "Roadmap akışı: mevcut durumdan sprint planına, ölçüm ve revizyon döngüsü",
+      caption: "Roadmap akışı: mevcut durumdan sprint planına, ölçüm ve revizyon döngüsü" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-3.webp",
+    alt: "Mevcut durum analizi: backlink içerik rakip benchmark ayracı",
+      caption: "Mevcut durum analizi: backlink içerik rakip benchmark ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-4.webp",
+      alt: "Kaynak türleri önceliklendirme ve sprint planlama ayracı",
+      caption: "Kaynak türleri önceliklendirme ve sprint planlama ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-5.webp",
+      alt: "Silo/hub otorite haritası ve link akışı diyagramı",
+      caption: "Silo/hub otorite haritası ve link akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-6.webp",
+      alt: "İlk 90 gün roadmap checklist’i, sprint bazlı planlama kartı",
+      caption: "İlk 90 gün roadmap checklist’i, sprint bazlı planlama kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-7.webp",
+      alt: "Roadmap KPI kartı: hub görünürlük, gain-loss, dönüşüm ve gelir",
+      caption: "Roadmap KPI kartı: hub görünürlük, gain-loss, dönüşüm ve gelir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-16/SEO4-16-8.webp",
+      alt: "Roadmap deliverables kartı: 6–12 ay plan, sprint backlog, rapor seti",
+      caption: "Roadmap deliverables kartı: 6–12 ay plan, sprint backlog, rapor seti"
+    }
+  },
+
+
+  "guest-post-stratejisi-editorial-mi-sponsorlu-mu":{
+     banner: {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-1.webp",
+      alt: "Guest Post Stratejisi: Editorial İçerik mi, Sponsorlu İçerik mi?",
+      caption: "Guest Post Stratejisi: Editorial İçerik mi, Sponsorlu İçerik mi?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-2.webp",
+      alt: "Guest post risk spektrumu, editoryal iş birliği ve uyumlu sponsorlu model",
+      caption: "Guest post risk spektrumu, editoryal iş birliği ve uyumlu sponsorlu model" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-3.webp",
+    alt: "Editorial vs sponsorlu guest post karşılaştırması, karar ayracı",
+      caption: "Editorial vs sponsorlu guest post karşılaştırması, karar ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-4.webp",
+      alt: "rel nitelikleri ve şeffaflık, link policy uyum ayracı",
+      caption: "rel nitelikleri ve şeffaflık, link policy uyum ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-5.webp",
+      alt: "Guest post karar akışı: kalite, şeffaflık, hedef URL, ölçüm",
+      caption: "Guest post karar akışı: kalite, şeffaflık, hedef URL, ölçüm"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-6.webp",
+      alt: "Guest post kalite checklist’i, kabul/ret ve uyum kontrol kartı",
+      caption: "Guest post kalite checklist’i, kabul/ret ve uyum kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-7.webp",
+      alt: "Guest post KPI paneli, referral trafik ve marka etkisi ölçümü",
+      caption: "Guest post KPI paneli, referral trafik ve marka etkisi ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-17/SEO4-17-8.webp",
+      alt: "Guest post deliverables, yayın puanlama ve rel uyum çıktıları",
+      caption: "Guest post deliverables, yayın puanlama ve rel uyum çıktıları"
+    }
+  },
+
+
+  "rakip-backlink-gap-analizi-ve-firsat-cikarma":{
+     banner: {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-1.webp",
+      alt: "Rakip Backlink Gap Analizi: Rakiplerin Aldığı Linklerden Nasıl Fırsat Çıkarırsınız?",
+      caption: "Rakip Backlink Gap Analizi: Rakiplerin Aldığı Linklerden Nasıl Fırsat Çıkarırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-2.webp",
+      alt: "Rakip 1–2–3 vs biz gap mantığı, fırsat çıkarma görseli",
+      caption: "Rakip 1–2–3 vs biz gap mantığı, fırsat çıkarma görseli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-3.webp",
+    alt: "Gap analizi süreci ayracı, rakipte var bizde yok yaklaşımı",
+      caption: "Gap analizi süreci ayracı, rakipte var bizde yok yaklaşımı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-4.webp",
+      alt: "Fırsat sınıflandırma ve önceliklendirme, sprint planlama ayracı",
+      caption: "Fırsat sınıflandırma ve önceliklendirme, sprint planlama ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-5.webp",
+      alt: "Fırsat türleri diyagramı, PR blog rehber portal partner",
+      caption: "Fırsat türleri diyagramı, PR blog rehber portal partner"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-6.webp",
+      alt: "Fırsat aksiyon checklist’i, gap listesini outreach’e çevirme",
+      caption: "Fırsat aksiyon checklist’i, gap listesini outreach’e çevirme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-7.webp",
+      alt: "Gap KPI paneli, yanıt oranı ve otorite etkisi ölçümü",
+      caption: "Gap KPI paneli, yanıt oranı ve otorite etkisi ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-18/SEO4-18-8.webp",
+      alt: "Gap deliverables kartı, fırsat tablosu ve roadmap çıktısı",
+      caption: "Gap deliverables kartı, fırsat tablosu ve roadmap çıktısı"
+    }
+  },
+
+  "backlink-yonetiminde-ajans-secimi-sla-ve-raporlama-kriterleri":{
+     banner: {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-1.webp",
+      alt: "Backlink Yönetiminde Ajans Seçimi, SLA ve Raporlama Kriterleri",
+      caption: "Backlink Yönetiminde Ajans Seçimi, SLA ve Raporlama Kriterleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-2.webp",
+      alt: "Ajans–müşteri governance modeli, yöntem şeffaflığı ve KPI döngüsü",
+      caption: "Ajans–müşteri governance modeli, yöntem şeffaflığı ve KPI döngüsü" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-3.webp",
+    alt: "Ajansın yapması ve yapmaması gerekenler, kalite kontrol ayrac",
+      caption: "Ajansın yapması ve yapmaması gerekenler, kalite kontrol ayrac"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-4.webp",
+      alt: "SLA redline ve kalite kriterleri, sözleşme ayracı",
+      caption: "SLA redline ve kalite kriterleri, sözleşme ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-5.webp",
+      alt: "SLA yapısı diyagramı, kalite redline KPI rapor döngüsü",
+      caption: "SLA yapısı diyagramı, kalite redline KPI rapor döngüsü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-6.webp",
+      alt: "Ajans brifing checklist’i, seçim kriterleri ve soru seti",
+      caption: "Ajans brifing checklist’i, seçim kriterleri ve soru seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-7.webp",
+      alt: "Backlink SLA KPI paneli, hedef URL ve risk izleme ölçümü",
+      caption: "Backlink SLA KPI paneli, hedef URL ve risk izleme ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-19/SEO4-19-8.webp",
+      alt: "SLA ve rapor deliverables seti, yöntem ve kaynak şeffaflığı çıktıları",
+      caption: "SLA ve rapor deliverables seti, yöntem ve kaynak şeffaflığı çıktıları"
+    }
   }
 
+
+  
 };
 
 export function getMediaBySlot(slug, slot) {
