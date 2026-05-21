@@ -249,7 +249,13 @@ export const BLOG_MAP = {
     "backlink-roadmap-6-12-aylik-otorite-plani":"BlogBacklinkRoadmap612AylikOtoritePlani",
     "guest-post-stratejisi-editorial-mi-sponsorlu-mu":"BlogGuestPostStratejisiEditorialMiSponsorluMu",
     "rakip-backlink-gap-analizi-ve-firsat-cikarma":"BlogRakipBacklinkGapAnaliziVeFirsatCikarma",
-    "backlink-yonetiminde-ajans-secimi-sla-ve-raporlama-kriterleri":"BlogBacklinkYonetimindeAjansSecimiSLAVeRaporlamaKriterleri"
+    "backlink-yonetiminde-ajans-secimi-sla-ve-raporlama-kriterleri":"BlogBacklinkYonetimindeAjansSecimiSLAVeRaporlamaKriterleri",
+    "rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir":"BlogRelSponsoredRelUgcVeNofollowLinkAtributleriNasilKullanilir",
+    "ai-destekli-backlink-analizi-ve-prospect-bulma":"BlogAiDestekliBacklinkAnaliziVeProspectBulma",
+    "influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli":"BlogInfluencerVeCreatorIsbirlikleriOffPageOtoriteVeBacklinkPotansiyeli",
+    "podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi":"BlogPodcastVeVideoKonukluguIleOtoriteVeBacklinkKazanimi",
+    "backlink-graph-ve-entity-bazli-otorite-gelecegin-link-sinyalleri":"BlogBacklinkGraphVeEntityBazliOtoriteGeleceginLinkSinyalleri",
+    "sifir-baglantili-profilden-dengeli-otoriteye-yeni-domainler-icin-backlink-stratejisi":"BlogSifirBaglantiliProfildenDengeliOtoriteyeYeniDomainlerIcinBacklinkStratejisi"
   },
 
     smm: {

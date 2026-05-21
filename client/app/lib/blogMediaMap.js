@@ -38232,8 +38232,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-03": {
       src: "/images/blog/seo/SEO4-19/SEO4-19-3.webp",
-    alt: "Ajansın yapması ve yapmaması gerekenler, kalite kontrol ayrac",
-      caption: "Ajansın yapması ve yapmaması gerekenler, kalite kontrol ayrac"
+    alt: "Ajansın yapması ve yapmaması gerekenler, kalite kontrol ayracı",
+      caption: "Ajansın yapması ve yapmaması gerekenler, kalite kontrol ayracı"
     },
 
     "divider-04": {
@@ -38264,6 +38264,309 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/seo/SEO4-19/SEO4-19-8.webp",
       alt: "SLA ve rapor deliverables seti, yöntem ve kaynak şeffaflığı çıktıları",
       caption: "SLA ve rapor deliverables seti, yöntem ve kaynak şeffaflığı çıktıları"
+    }
+  },
+
+
+  "rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir":{
+     banner: {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-1.webp",
+      alt: "rel=“sponsored”, rel=“ugc” ve nofollow: Link Atributları Nasıl Doğru Kullanılır?",
+      caption: "rel=“sponsored”, rel=“ugc” ve nofollow: Link Atributları Nasıl Doğru Kullanılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-2.webp",
+      alt: "Editoryal, sponsorlu ve UGC link ayrımı, doğru etiketleme çerçevesi",
+      caption: "Editoryal, sponsorlu ve UGC link ayrımı, doğru etiketleme çerçevesi" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-3.webp",
+    alt: "Senaryo bazlı rel seçimi, teknik uyum ve risk azaltma görseli",
+      caption: "Senaryo bazlı rel seçimi, teknik uyum ve risk azaltma görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-4.webp",
+      alt: "Sponsorlu link şeffaflığı ve UGC kontrolü, operasyonel rehber ayracı",
+      caption: "Sponsorlu link şeffaflığı ve UGC kontrolü, operasyonel rehber ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-5.webp",
+      alt: "Link türüne göre rel karar ağacı, denetim ve otomasyon akışı",
+      caption: "Link türüne göre rel karar ağacı, denetim ve otomasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-6.webp",
+      alt: "Link attribute kontrol listesi, sponsorlu ve UGC etiketleme adımları",
+      caption: "Link attribute kontrol listesi, sponsorlu ve UGC etiketleme adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-7.webp",
+      alt: "Uyum KPI paneli, rel kullanım oranı ve risk sinyali takibi",
+      caption: "Uyum KPI paneli, rel kullanım oranı ve risk sinyali takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-20/SEO4-20-8.webp",
+      alt: "Denetim deliverables seti, link envanteri ve süreç dokümantasyonu",
+      caption: "Denetim deliverables seti, link envanteri ve süreç dokümantasyonu"
+    }
+  },
+
+
+  "ai-destekli-backlink-analizi-ve-prospect-bulma":{
+     banner: {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-1.webp",
+      alt: "AI Destekli Backlink Analizi ve Prospect Bulma: Link Building Sürecini Nasıl Hızlandırır?",
+      caption: "AI Destekli Backlink Analizi ve Prospect Bulma: Link Building Sürecini Nasıl Hızlandırır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-2.webp",
+      alt: "AI analiz ekranı mockup’ı, hibrit karar süreci ve kalite filtresi",
+      caption: "AI analiz ekranı mockup’ı, hibrit karar süreci ve kalite filtresi" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-3.webp",
+    alt: "Export’tan prospect listesine dönüşüm, hızlı sınıflandırma ve eleme",
+      caption: "Export’tan prospect listesine dönüşüm, hızlı sınıflandırma ve eleme"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-4.webp",
+      alt: "Outreach kuyruğu ve önceliklendirme, AI hız ve insan yargı",
+      caption: "Outreach kuyruğu ve önceliklendirme, AI hız ve insan yargı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-5.webp",
+      alt: "Hibrit workflow diyagramı: AI skor, insan denetim, outreach ve ölçüm",
+      caption: "Hibrit workflow diyagramı: AI skor, insan denetim, outreach ve ölçüm"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-6.webp",
+      alt: "AI + insan hibrit link süreci checklist kartı, güvenli operasyon",
+      caption: "AI + insan hibrit link süreci checklist kartı, güvenli operasyon"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-7.webp",
+      alt: "Prospect skor KPI kartı, eleme süresi ve yanıt oranı takibi",
+      caption: "Prospect skor KPI kartı, eleme süresi ve yanıt oranı takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-21/SEO4-21-8.webp",
+      alt: "Prospect listesi ve risk listesi çıktıları, 90 günlük plan kanıt kartı",
+      caption: "Prospect listesi ve risk listesi çıktıları, 90 günlük plan kanıt kartı"
+    }
+  },
+
+  "influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli":{
+     banner: {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-1.webp",
+      alt: "Influencer ve Creator İşbirlikleri: Off-Page Otorite ve Backlink Potansiyeli",
+      caption: "Influencer ve Creator İşbirlikleri: Off-Page Otorite ve Backlink Potansiyeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-2.webp",
+      alt: "Influencer kampanya akışı, brand search ve site trafiği ilişkisi",
+      caption: "Influencer kampanya akışı, brand search ve site trafiği ilişkisi" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-3.webp",
+    alt: "İşbirliği türleri ve link potansiyeli, sosyalden SEO’ya geçiş",
+      caption: "İşbirliği türleri ve link potansiyeli, sosyalden SEO’ya geçiş"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-4.webp",
+      alt: "Brief ve rel kuralları, sponsorlu içerik uyumu ve risk yönetimi",
+      caption: "Brief ve rel kuralları, sponsorlu içerik uyumu ve risk yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-5.webp",
+      alt: "Influencer funnel diyagramı, link mention brand search trafik dönüşüm",
+      caption: "Influencer funnel diyagramı, link mention brand search trafik dönüşüm"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-6.webp",
+      alt: "Influencer brief SEO checklist’i, hedef URL ve link kuralları",
+      caption: "Influencer brief SEO checklist’i, hedef URL ve link kuralları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-7.webp",
+      alt: "Brand search ve mention KPI paneli, influencer SEO etki ölçümü",
+      caption: "Brand search ve mention KPI paneli, influencer SEO etki ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-22/SEO4-22-8.webp",
+      alt: "Kampanya deliverables kartı, brief eki rapor ve ölçüm seti",
+      caption: "Kampanya deliverables kartı, brief eki rapor ve ölçüm seti"
+    }
+  },
+
+  "podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi":{
+    banner: {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-1.webp",
+      alt: "Podcast ve Video Konukluğu ile Otorite ve Backlink Kazanımı",
+      caption: "Podcast ve Video Konukluğu ile Otorite ve Backlink Kazanımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-2.webp",
+      alt: "Konukluk akışı: açıklama linkleri, embed ve cluster bağlama modeli",
+      caption: "Konukluk akışı: açıklama linkleri, embed ve cluster bağlama modeli" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-3.webp",
+    alt: "Yayın seçimi kriterleri, hedef kitle ve link alanı kontrolü",
+      caption: "Yayın seçimi kriterleri, hedef kitle ve link alanı kontrolü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-4.webp",
+      alt: "Embed ve cluster stratejisi, konukluk sonrası içerik entegrasyonu",
+      caption: "Embed ve cluster stratejisi, konukluk sonrası içerik entegrasyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-5.webp",
+      alt: "Konukluk → bölüm → açıklama linkleri → embed → dönüşüm diyagramı",
+      caption: "Konukluk → bölüm → açıklama linkleri → embed → dönüşüm diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-6.webp",
+      alt: "Konukluk öncesi sonrası checklist, link ve embed adımları",
+      caption: "Konukluk öncesi sonrası checklist, link ve embed adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-7.webp",
+      alt: "Podcast konukluğu KPI kartı, referral ve brand search ölçümü",
+      caption: "Podcast konukluğu KPI kartı, referral ve brand search ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-23/SEO4-23-8.webp",
+      alt: "Konukluk deliverables, yayın listesi link seti embed sayfaları rapor",
+      caption: "Konukluk deliverables, yayın listesi link seti embed sayfaları rapor"
+    }
+  },
+
+
+    "backlink-graph-ve-entity-bazli-otorite-gelecegin-link-sinyalleri":{
+    banner: {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-1.webp",
+      alt: "Backlink Graph ve Entity Bazlı Otorite: Geleceğin Link Sinyalleri",
+      caption: "Backlink Graph ve Entity Bazlı Otorite: Geleceğin Link Sinyalleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-2.webp",
+      alt: "Entity komşuluğu ve topic cluster ilişkisi, geleceğe dönük SEO bağlamı",
+      caption: "Entity komşuluğu ve topic cluster ilişkisi, geleceğe dönük SEO bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-3.webp",
+    alt: "Link, mention ve citation birlikte okuma, off-page sinyal karması",
+      caption: "Link, mention ve citation birlikte okuma, off-page sinyal karması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-4.webp",
+      alt: "Topical authority ve co-citation, bağlam odaklı otorite stratejisi",
+      caption: "Topical authority ve co-citation, bağlam odaklı otorite stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-5.webp",
+      alt: "Backlink graph şeması, entity ilişkileri ve topic kümeleri diyagramı",
+      caption: "Backlink graph şeması, entity ilişkileri ve topic kümeleri diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-6.webp",
+      alt: "Gelecek odaklı link stratejisi checklist kartı, entity ve topic aksiyonları",
+      caption: "Gelecek odaklı link stratejisi checklist kartı, entity ve topic aksiyonları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-7.webp",
+      alt: "Entity otorite KPI kartı, mention link ve cluster görünürlük ölçümü",
+      caption: "Entity otorite KPI kartı, mention link ve cluster görünürlük ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-24/SEO4-24-8.webp",
+      alt: "Entity graph deliverables, topic plan ve co-citation hedef listesi",
+      caption: "Entity graph deliverables, topic plan ve co-citation hedef listesi"
+    }
+  },
+
+  "sifir-baglantili-profilden-dengeli-otoriteye-yeni-domainler-icin-backlink-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-1.webp",
+      alt: "Sıfır Bağlantılı Profilden Dengeli Otoriteye: Yeni Domain’ler İçin Backlink Stratejisi",
+      caption: "Sıfır Bağlantılı Profilden Dengeli Otoriteye: Yeni Domain’ler İçin Backlink Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-2.webp",
+      alt: "0–6 ay zaman çizelgesi, güven sinyali ve kademeli link büyümesi",
+      caption: "0–6 ay zaman çizelgesi, güven sinyali ve kademeli link büyümesi" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-3.webp",
+    alt: "Yeni domain’de doğru sıra, önce güven sonra otorite stratejisi",
+      caption: "Yeni domain’de doğru sıra, önce güven sonra otorite stratejisi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-4.webp",
+      alt: "İlk link kaynakları ve agresif taktiklerden kaçınma rehberi ayracı",
+      caption: "İlk link kaynakları ve agresif taktiklerden kaçınma rehberi ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-5.webp",
+      alt: "0–3 ay ve 3–6 ay off-page roadmap diyagramı, zaman ekseni",
+      caption: "0–3 ay ve 3–6 ay off-page roadmap diyagramı, zaman ekseni"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-6.webp",
+      alt: "Yeni domain off-page checklist kartı, güven ve link büyümesi adımları",
+      caption: "Yeni domain off-page checklist kartı, güven ve link büyümesi adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-7.webp",
+      alt: "Yeni domain KPI paneli, brand search ve net otorite büyümesi ölçümü",
+      caption: "Yeni domain KPI paneli, brand search ve net otorite büyümesi ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-25/SEO4-25-8.webp",
+      alt: "0–6 ay off-page deliverables kartı, kaynak listesi ve kontrol raporu",
+      caption: "0–6 ay off-page deliverables kartı, kaynak listesi ve kontrol raporu"
     }
   }
 
