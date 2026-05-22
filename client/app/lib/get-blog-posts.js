@@ -105,6 +105,11 @@ function normalizeSegment(segment) {
     : null;
 }
 
+function stripHtmlTags(value) {
+  if (typeof value !== "string") return "";
+  return value.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+}
+
 async function loadBlogSegment(locale, segment) {
   const normalizedLocale = normalizeLocale(locale);
   const normalizedSegment = normalizeSegment(segment);
@@ -168,6 +173,9 @@ function buildBlogSummary(postKey, post, segment) {
   const slug = post?.slug || "";
   const trSlug = TR_SLUG_BY_POST_KEY[postKey];
   const banner = getMediaBySlot(slug, "banner") || (trSlug ? getMediaBySlot(trSlug, "banner") : null);
+  const excerpt =
+    (typeof post?.excerpt === "string" && post.excerpt.trim()) ||
+    stripHtmlTags(post?.h1?.intro || post?.h1Intro || "");
 
   return {
     id: postKey,
@@ -175,7 +183,7 @@ function buildBlogSummary(postKey, post, segment) {
     subDept: post?.subDepartman || post?.subDepartment || "",
     slug,
     title: post?.title || "",
-    excerpt: post?.h1?.intro || post?.excerpt || post?.h1Intro || "",
+    excerpt,
     publishedAt: post?.publishedAt || post?.byline?.publishedAt || "",
     updatedAt:
       post?.byline?.updatedAt ||
