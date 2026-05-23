@@ -382,7 +382,7 @@ export default async function Page({ params: { locale } }) {
      <QuestionsSection2 variant="light" faqs={faqs} />
      <FaqPrompt
        namespace="OtelSocialMediaPage.faqPrompt"
-       faqSlug="otel-sosyalmedya-sss"
+       faqSlug="sosyal-medya-sss"
      />
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>

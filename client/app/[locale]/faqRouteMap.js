@@ -153,7 +153,7 @@ export const FAQ_ROUTE_MAP = [
   // Otel sayfaları
   // -----------------------------
   { match: /^\/otel\/seo(\/.*)?$/, slug: "otel-seo-sss" },
-  { match: /^\/otel\/sosyal-medya(\/.*)?$/, slug: "otel-sosyalmedya-sss" },
+  { match: /^\/otel\/sosyal-medya(\/.*)?$/, slug: "sosyal-medya-sss" },
   { match: /^\/otel\/reklam-yonetimi(\/.*)?$/, slug: "otel-reklam-sss" },
   { match: /^\/otel\/ota-yonetimi(\/.*)?$/, slug: "otel-ota-sss" },
   { match: /^\/otel\/pms-entegrasyonu(\/.*)?$/, slug: "otel-pms-sss" },
@@ -241,7 +241,7 @@ export const FAQ_DEPT_CRUMB_MAP = {
 
   // Otel alt sayfaları
   "otel-seo-sss": "otel-dijital-pazarlama-sss",
-  "otel-sosyalmedya-sss": "otel-dijital-pazarlama-sss",
+  "sosyal-medya-sss": "otel-dijital-pazarlama-sss",
   "otel-reklam-sss": "otel-dijital-pazarlama-sss",
   "otel-pms-sss": "otel-dijital-pazarlama-sss",
   "otel-cagrimerkezi-sss": "otel-dijital-pazarlama-sss",
@@ -338,7 +338,7 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
 
     // Otel silo
     "otel-seo-sss": "otel",
-    "otel-sosyalmedya-sss": "otel",
+    "sosyal-medya-sss": "otel",
     "otel-reklam-sss": "otel",
     "otel-pms-sss": "otel",
     "otel-cagrimerkezi-sss": "otel",

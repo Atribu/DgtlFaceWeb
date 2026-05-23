@@ -58,7 +58,7 @@ export const FAQ_MAP = {
   "kvkk-veri-guvenligi-sss":"FaqKvkkDataSecurity",
 
     "otel-seo-sss":"FaqHotelSEO",
-  "otel-sosyalmedya-sss":"FaqHotelSocialMedia",
+  "sosyal-medya-sss":"FaqHotelSocialMedia",
    "otel-reklam-sss":"FaqHotelAdsManagement",
     "otel-ota-sss":"FaqHotelOtaManagement",
    "otel-pms-sss":"FaqHotelPmsIntegration",

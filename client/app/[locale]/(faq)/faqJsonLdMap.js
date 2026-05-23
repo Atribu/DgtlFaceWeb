@@ -16089,7 +16089,7 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
-"otel-sosyalmedya-sss":{
+"sosyal-medya-sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/otel/sosyal-medya-sss#faq",

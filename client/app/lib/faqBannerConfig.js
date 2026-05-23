@@ -213,7 +213,7 @@ const DigitalAnalysis_CHIPS = [
 const Hotel_CHIPS = [
   { label: "Otel Dijital Dönüşüm", slug: "otel-dijital-pazarlama-sss", labelKey: "faqChips.hotel.general" },
   { label: "Otel SEO", slug: "otel-seo-sss", labelKey: "faqChips.hotel.seo" },
-  { label: "Otel Sosyal Medya", slug: "otel-sosyalmedya-sss", labelKey: "faqChips.hotel.socialMedia" },
+  { label: "Otel Sosyal Medya", slug: "sosyal-medya-sss", labelKey: "faqChips.hotel.socialMedia" },
   { label: "Otel Reklam", slug: "otel-reklam-sss", labelKey: "faqChips.hotel.ads" },
   { label: "Otel OTA", slug: "otel-ota-sss", labelKey: "faqChips.hotel.ota" },
   { label: "Otel Pms", slug: "otel-pms-sss", labelKey: "faqChips.hotel.pms" },
@@ -330,7 +330,7 @@ const GROUPS = {
     slugs: [
       "otel-dijital-pazarlama-sss",
       "otel-seo-sss",
-      "otel-sosyalmedya-sss",
+      "sosyal-medya-sss",
       "otel-reklam-sss",
       "otel-ota-sss",
       "otel-pms-sss",
@@ -453,7 +453,7 @@ export const FAQ_BANNER_ASSET_MAP = {
   "otel-pms-sss": imgOtel3,
   "otel-reklam-sss": imgOtel4,
   "otel-seo-sss": imgOtel5,
-  "otel-sosyalmedya-sss": imgOtel6,
+  "sosyal-medya-sss": imgOtel6,
 
 };
 
@@ -551,7 +551,7 @@ export const FAQ_BANNER_ASSET_MAP_EN = {
   "otel-pms-sss": imgOtel3En,
   "otel-reklam-sss": imgOtel4En,
   "otel-seo-sss": imgOtel5En,
-  "otel-sosyalmedya-sss": imgOtel6En,
+  "sosyal-medya-sss": imgOtel6En,
 
 };
 
