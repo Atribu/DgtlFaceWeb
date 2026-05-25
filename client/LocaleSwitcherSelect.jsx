@@ -3,7 +3,10 @@ import { useRouter, usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
-import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
+import {
+  buildFaqHrefBySlug,
+  resolveFaqContentSlug,
+} from "@/app/lib/faq-url";
 
 // Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
 function cleanSlug(input) {
@@ -127,7 +130,13 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
 
           // Türkçe yorum: Normal FAQ alt sayfası
           const currentSlug = lastSeg;
-          const ns = FAQ_MAP?.[currentSlug];
+          const deptSegment = pathSegments.length >= 4 ? maybeSeg : null;
+          const resolvedCurrentSlug = resolveFaqContentSlug(
+            currentSlug,
+            currentLocale,
+            deptSegment
+          );
+          const ns = FAQ_MAP?.[resolvedCurrentSlug];
 
           // Türkçe yorum: Namespace bulunamazsa patlamasın diye fallback
           if (!ns) {
@@ -145,14 +154,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
             return;
           }
 
-          // Türkçe yorum: Yeni dilde segment
-          const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[newLang]?.[newSlug];
-
-          const target = deptSegment
-            ? `/${newLang}/${deptSegment}/${newSlug}`
-            : `/${newLang}/${newSlug}`;
-
-          router.replace(target);
+          router.replace(buildFaqHrefBySlug(newSlug, newLang));
           return;
         }
 

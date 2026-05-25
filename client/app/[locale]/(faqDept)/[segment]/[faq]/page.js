@@ -6,7 +6,6 @@ import { FAQ_JSONLD_MAP } from "../../../(faq)/faqJsonLdMap";
 import {
   FAQ_DEPT_CRUMB_MAP,
   FAQ_DEPT_LABEL_MAP,
-  FAQ_SLUG_DEPT_SEGMENT_MAP,
 } from "../../../faqRouteMap";
 import SearchBanner from "../../../sss/components/SearchBanner";
 import { fixFaqJsonLdLocale } from "../../../(faq)/utils/fixFaqJsonLd";
@@ -16,7 +15,7 @@ import FaqMainServer from "@/app/[locale]/sss/components/FaqMainServer";
 import {
   buildFaqHrefBySlug,
   findFaqSlugByNamespace,
-  getFaqLocaleSlug,
+  resolveFaqContentSlug,
 } from "@/app/lib/faq-url";
 import { getSiteUrl } from "@/app/lib/site-url";
 
@@ -39,32 +38,13 @@ function getFaqIndexHref(locale) {
   return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
 }
 
-// ✅ EN: /en/services-faq (tek segment)
-function getServicesFaqHref(locale) {
-  return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
-}
-
 /**
  * Locale + slug -> doğru URL
  * - Dept segmentli: /en/<segment>/<slug>
  * - Root: /en/faq, /tr/sss
- * - Services root: /en/services-faq, /tr/hizmetlerimiz-sss
  */
 function buildFaqUrl(locale, slug, deptSegment = null) {
-  // services root hem TR hem EN slug ile gelebilir
-  if (slug === "hizmetlerimiz-sss" || slug === "services-faq") {
-    return getServicesFaqHref(locale);
-  }
-
-  // FAQ index
-  if (slug === "sss" || slug === "faq") {
-    return getFaqIndexHref(locale);
-  }
-
-  const segment = deptSegment || FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
-  if (segment) return `/${locale}/${segment}/${slug}`;
-
-  return `/${locale}/${slug}`;
+  return buildFaqHrefBySlug(slug, locale, deptSegment);
 }
 
 /**
@@ -73,32 +53,30 @@ function buildFaqUrl(locale, slug, deptSegment = null) {
  * EN: /en/search-engine-optimization/seo-faq (senin map yapına göre)
  */
 function buildDeptUrl(locale, deptSlug) {
-  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[deptSlug];
-  if (deptSegment) return `/${locale}/${deptSegment}/${deptSlug}`;
-  return `/${locale}/${deptSlug}`;
+  return buildFaqHrefBySlug(deptSlug, locale);
 }
 
 export async function generateMetadata({ params }) {
   const locale = params?.locale || "tr";
   const slug = params?.faq;      // ✅ doğru: [faq]
   const segment = params?.segment; // ✅ doğru: [segment]
-  const localizedSlug = getFaqLocaleSlug(slug, locale);
-  const baseJsonLd = FAQ_JSONLD_MAP?.[localizedSlug] || FAQ_JSONLD_MAP?.[slug];
+  const resolvedSlug = resolveFaqContentSlug(slug, locale, segment);
+  const baseJsonLd = FAQ_JSONLD_MAP?.[resolvedSlug] || FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
   if (!fixedJsonLd) return {};
 
   const siteUrl = getSiteUrl();
-  const ogImage = getFaqOgImageUrl({ slug, locale, segment, siteUrl });
+  const ogImage = getFaqOgImageUrl({ slug: resolvedSlug, locale, segment, siteUrl });
 
   const title = fixedJsonLd.dgTitle || fixedJsonLd.name || "";
   const description =
     fixedJsonLd.dgMetaDescription || fixedJsonLd.description || "";
   const canonical = fixedJsonLd.url || "";
-  const pageNs = FAQ_MAP?.[slug];
-  const trSlug = findFaqSlugByNamespace(pageNs, "tr") || slug;
-  const enSlug = findFaqSlugByNamespace(pageNs, "en") || slug;
+  const pageNs = FAQ_MAP?.[resolvedSlug];
+  const trSlug = findFaqSlugByNamespace(pageNs, "tr") || resolvedSlug;
+  const enSlug = findFaqSlugByNamespace(pageNs, "en") || resolvedSlug;
   const canonicalUrl =
-    canonical || `${siteUrl}${buildFaqHrefBySlug(slug, locale, segment)}`;
+    canonical || `${siteUrl}${buildFaqHrefBySlug(resolvedSlug, locale, segment)}`;
 
   return {
     title,
@@ -132,24 +110,26 @@ export default function Page({ params }) {
   const locale = params?.locale || "tr";
   const segment = params?.segment; // ✅ doğru: [segment]
   const slug = params?.faq;        // ✅ doğru: [faq]
+  const resolvedSlug = resolveFaqContentSlug(slug, locale, segment);
 
   if (
     (locale === "en" && /-sss$/.test(slug)) ||
     (locale === "tr" && /-faq$/.test(slug))
   ) {
-    permanentRedirect(buildFaqHrefBySlug(slug, locale));
+    permanentRedirect(buildFaqHrefBySlug(resolvedSlug, locale, segment));
   }
 
-  const pageNs = FAQ_MAP?.[slug];
-  const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
+  const pageNs = FAQ_MAP?.[resolvedSlug];
+  const baseJsonLd = FAQ_JSONLD_MAP?.[resolvedSlug];
   if (!pageNs) notFound();
 
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
+  const canonicalHref = buildFaqHrefBySlug(resolvedSlug, locale, segment);
+  const currentHref = `/${locale}/${segment}/${slug}`;
 
-  // ✅ slug'ın doğru segmentte olup olmadığını kontrol et
-  const expectedSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
-  if (expectedSegment && expectedSegment !== segment) {
-    permanentRedirect(buildFaqHrefBySlug(slug, locale));
+  // Public slug, legacy slug ve canonical path tek yerde normalize edilir.
+  if (currentHref !== canonicalHref) {
+    permanentRedirect(canonicalHref);
   }
 
   // Labels
@@ -161,10 +141,10 @@ export default function Page({ params }) {
   const faqIndexHref = getFaqIndexHref(locale);
 
   // Dept info - TR slug kullanarak department bul
-  const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[slug] || 
-                     FAQ_DEPT_CRUMB_MAP?.[findSlugByNs(pageNs, "tr", FAQ_MAP)] || 
+  const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[resolvedSlug] ||
+                     FAQ_DEPT_CRUMB_MAP?.[findSlugByNs(pageNs, "tr", FAQ_MAP)] ||
                      null;
-  
+
   // ✅ FIX: Dept label'ı locale'e göre al
   const deptLabel = (() => {
     if (!deptSlugTR) return null;
@@ -188,18 +168,18 @@ export default function Page({ params }) {
 
   // ✅ FIX: Current label - JSON-LD'den al, fallback olarak slug kullan
   const currentLabel = fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel;
-  const currentHref = buildFaqUrl(locale, slug, segment);
+  const currentBreadcrumbHref = buildFaqUrl(locale, resolvedSlug, segment);
 
   const crumbItems = [
     { label: homeLabel, href: homeHref },
     { label: faqLabel, href: faqIndexHref },
-    ...(deptSlugTR && deptSlugTR !== slug ? [{ label: deptLabel, href: deptHref }] : []),
-    { label: currentLabel, href: currentHref },
+    ...(deptSlugTR && deptSlugTR !== resolvedSlug ? [{ label: deptLabel, href: deptHref }] : []),
+    { label: currentLabel, href: currentBreadcrumbHref },
   ];
 
   return (
     <div className="flex flex-col max-w-full">
-      <SearchBanner faqSlug={slug} />
+      <SearchBanner faqSlug={resolvedSlug} />
       <Breadcrumbs items={crumbItems} />
       <FaqMainServer locale={locale} pageNs={pageNs} />
     </div>

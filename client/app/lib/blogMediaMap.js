@@ -7735,6 +7735,12 @@ export const BLOG_MEDIA_MAP = {
       caption: "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması"
     },
 
+    og: {
+      src: "/images/blog/software/Software4-2/Software4-2-1-og.jpg",
+      alt: "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması",
+      caption: "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması"
+    },
+
           "h1-context": {
       src: "/images/blog/software/Software4-2/Software4-2-2.webp",
       alt: "SSL/TLS ve HSTS ile tarayıcı uyarısını bitirme, rezervasyon ve portal güvenliği",
@@ -38577,4 +38583,3 @@ export const BLOG_MEDIA_MAP = {
 export function getMediaBySlot(slug, slot) {
   return BLOG_MEDIA_MAP?.[slug]?.[slot] || null;
 }
-

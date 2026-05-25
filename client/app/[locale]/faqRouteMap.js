@@ -243,6 +243,7 @@ export const FAQ_DEPT_CRUMB_MAP = {
   "otel-seo-sss": "otel-dijital-pazarlama-sss",
   "sosyal-medya-sss": "otel-dijital-pazarlama-sss",
   "otel-reklam-sss": "otel-dijital-pazarlama-sss",
+  "otel-ota-sss": "otel-dijital-pazarlama-sss",
   "otel-pms-sss": "otel-dijital-pazarlama-sss",
   "otel-cagrimerkezi-sss": "otel-dijital-pazarlama-sss",
 };
@@ -340,6 +341,7 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
     "otel-seo-sss": "otel",
     "sosyal-medya-sss": "otel",
     "otel-reklam-sss": "otel",
+    "otel-ota-sss": "otel",
     "otel-pms-sss": "otel",
     "otel-cagrimerkezi-sss": "otel",
   },

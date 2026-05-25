@@ -17409,7 +17409,7 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
-  "otel-cagri-merkezi-sss": {
+  "otel-cagrimerkezi-sss": {
     "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/otel/cagri-merkezi-sss#faq",

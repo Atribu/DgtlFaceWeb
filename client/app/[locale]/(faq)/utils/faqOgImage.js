@@ -5,6 +5,7 @@ const TR_SLUG_FILE_ALIAS = {
   "kurumsal-hediye-tasarimi-sss": "kurumsal-hediye-sss",
   "ui-ux-tasarim-sss": "ui-ux-hizmeti-sss",
   "video-produksiyon-sss": "video-ve-produksiyon-sss",
+  "sosyal-medya-sss": "otel-sosyalmedya-sss",
   "otel-ota-sss": "otel-ota-sss (1)",
 };
 

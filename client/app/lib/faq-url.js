@@ -8,8 +8,66 @@ const ROOT_FAQ_SLUG_MAP = {
   "services-faq": { tr: "hizmetlerimiz-sss", en: "services-faq" },
 };
 
+const TR_FAQ_SLUG_ALIAS_TO_INTERNAL = {
+  "otel-sosyalmedya-sss": "sosyal-medya-sss",
+};
+
+const TR_HOTEL_FAQ_INTERNAL_TO_PUBLIC = {
+  "otel-seo-sss": "seo-sss",
+  "otel-reklam-sss": "reklam-yonetimi-sss",
+  "otel-ota-sss": "ota-yonetimi-sss",
+  "otel-pms-sss": "pms-entegrasyonu-sss",
+  "otel-cagrimerkezi-sss": "cagri-merkezi-sss",
+};
+
+const TR_HOTEL_FAQ_PUBLIC_TO_INTERNAL = {
+  "seo-sss": "otel-seo-sss",
+  "sosyal-medya-sss": "sosyal-medya-sss",
+  "reklam-yonetimi-sss": "otel-reklam-sss",
+  "ota-yonetimi-sss": "otel-ota-sss",
+  "pms-entegrasyonu-sss": "otel-pms-sss",
+  "cagri-merkezi-sss": "otel-cagrimerkezi-sss",
+  "otel-seo-sss": "otel-seo-sss",
+  "otel-reklam-sss": "otel-reklam-sss",
+  "otel-ota-sss": "otel-ota-sss",
+  "otel-pms-sss": "otel-pms-sss",
+  "otel-cagrimerkezi-sss": "otel-cagrimerkezi-sss",
+  "otel-sosyalmedya-sss": "sosyal-medya-sss",
+};
+
 function cleanFaqSlug(input) {
   return String(input || "").replace(/^\/+/, "");
+}
+
+function getFaqInternalSlug(slug, locale) {
+  const cleanedSlug = cleanFaqSlug(slug);
+  const rootMappedSlug = ROOT_FAQ_SLUG_MAP[cleanedSlug]?.[locale];
+
+  if (rootMappedSlug) return rootMappedSlug;
+
+  if (locale === "tr" && TR_FAQ_SLUG_ALIAS_TO_INTERNAL[cleanedSlug]) {
+    return TR_FAQ_SLUG_ALIAS_TO_INTERNAL[cleanedSlug];
+  }
+
+  const namespace = FAQ_MAP?.[cleanedSlug];
+  if (!namespace) return cleanedSlug;
+
+  return findFaqSlugByNamespace(namespace, locale) || cleanedSlug;
+}
+
+function getFaqPublicSlug(slug, locale, deptSegment = null) {
+  const internalSlug = getFaqInternalSlug(slug, locale);
+
+  if (locale !== "tr") return internalSlug;
+
+  const resolvedDeptSegment =
+    deptSegment || FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[internalSlug];
+
+  if (resolvedDeptSegment === "otel") {
+    return TR_HOTEL_FAQ_INTERNAL_TO_PUBLIC[internalSlug] || internalSlug;
+  }
+
+  return internalSlug;
 }
 
 export function findFaqSlugByNamespace(ns, locale) {
@@ -25,15 +83,7 @@ export function findFaqSlugByNamespace(ns, locale) {
 }
 
 export function getFaqLocaleSlug(slug, locale) {
-  const cleanedSlug = cleanFaqSlug(slug);
-  const rootMappedSlug = ROOT_FAQ_SLUG_MAP[cleanedSlug]?.[locale];
-
-  if (rootMappedSlug) return rootMappedSlug;
-
-  const namespace = FAQ_MAP?.[cleanedSlug];
-  if (!namespace) return cleanedSlug;
-
-  return findFaqSlugByNamespace(namespace, locale) || cleanedSlug;
+  return getFaqInternalSlug(slug, locale);
 }
 
 export function getFaqDeptSegment(slug, locale) {
@@ -53,8 +103,19 @@ export function getServicesFaqHref(locale) {
   return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
 }
 
+export function resolveFaqContentSlug(slug, locale, deptSegment = null) {
+  const internalSlug = getFaqInternalSlug(slug, locale);
+
+  if (locale === "tr" && deptSegment === "otel") {
+    return TR_HOTEL_FAQ_PUBLIC_TO_INTERNAL[internalSlug] || internalSlug;
+  }
+
+  return internalSlug;
+}
+
 export function buildFaqHrefBySlug(slug, locale, deptSegment = null) {
-  const localizedSlug = getFaqLocaleSlug(slug, locale);
+  const internalSlug = resolveFaqContentSlug(slug, locale, deptSegment);
+  const localizedSlug = getFaqPublicSlug(slug, locale, deptSegment);
 
   if (localizedSlug === "sss" || localizedSlug === "faq") {
     return getFaqIndexHref(locale);
@@ -68,7 +129,7 @@ export function buildFaqHrefBySlug(slug, locale, deptSegment = null) {
   }
 
   const resolvedDeptSegment =
-    deptSegment || FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[localizedSlug];
+    deptSegment || FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[internalSlug];
 
   if (resolvedDeptSegment) {
     return `/${locale}/${resolvedDeptSegment}/${localizedSlug}`;
