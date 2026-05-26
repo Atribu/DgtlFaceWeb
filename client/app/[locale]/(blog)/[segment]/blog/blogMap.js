@@ -255,7 +255,9 @@ export const BLOG_MAP = {
     "influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli":"BlogInfluencerVeCreatorIsbirlikleriOffPageOtoriteVeBacklinkPotansiyeli",
     "podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi":"BlogPodcastVeVideoKonukluguIleOtoriteVeBacklinkKazanimi",
     "backlink-graph-ve-entity-bazli-otorite-gelecegin-link-sinyalleri":"BlogBacklinkGraphVeEntityBazliOtoriteGeleceginLinkSinyalleri",
-    "sifir-baglantili-profilden-dengeli-otoriteye-yeni-domainler-icin-backlink-stratejisi":"BlogSifirBaglantiliProfildenDengeliOtoriteyeYeniDomainlerIcinBacklinkStratejisi"
+    "sifir-baglantili-profilden-dengeli-otoriteye-yeni-domainler-icin-backlink-stratejisi":"BlogSifirBaglantiliProfildenDengeliOtoriteyeYeniDomainlerIcinBacklinkStratejisi",
+    "teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir":"BlogTeknikSeoVeCoreWebVitalsRaporuNasilYorumlanir",
+    "icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir":"BlogIcerikVeTopicClusterPerformansRaporuNasilHazirlanir"
   },
 
     smm: {

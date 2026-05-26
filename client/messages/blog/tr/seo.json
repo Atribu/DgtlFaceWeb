@@ -67695,7 +67695,1638 @@
         ]
       }
     }
-  }
+  },
 
+  "BlogTeknikSeoVeCoreWebVitalsRaporuNasilYorumlanir": {
+    "title": "Teknik SEO & Core Web Vitals Raporu Rehberi",
+    "slug": "teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "26 Mayıs 2026",
+    "publishedAt": "2026-05-26",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CWV (LCP, CLS, INP) ve teknik SEO raporlarını skor gibi değil; hangi sayfada hangi sorun var, sıralama ve dönüşüme etkisi ne diye okuyun. Mobil/desktop ve field/lab ayrımıyla önceliklendirin.",
+    "seo": {
+      "metaTitle": "Teknik SEO & Core Web Vitals Raporu Rehberi | DGTLFACE",
+      "metaDescription": "CWV (LCP, CLS, INP) ve teknik SEO raporlarını skor gibi değil; hangi sayfada hangi sorun var, sıralama ve dönüşüme etkisi ne diye oku. Mobil/desktop ve field/lab ayrımıyla önceliklendir."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir",
+        "Blog Tipi: Core",
+        "Intent: Informational + Diagnostic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Varsayım: Silo kök sayfası /tr/seo",
+        "Canonical: /tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
+      ],
+      "strategySummary": "Bu blog, SEO raporlama silosunda “teknik rapor var ama aksiyon yok” problemini çözen, teknik SEO → iş etkisi köprüsünü kuran otorite içeriğidir. Hedef persona; otel sahibi/GM, pazarlama yöneticisi ve ajans yöneticisidir: “CWV kötü, ne anlama geliyor ve nereden başlamalıyım?” sorusuna net cevap ister. Funnel MoFu’dadır: teşhis, öncelik ve sprint planına dönüşür. Ana iş sorusu: “Hangi teknik problem hangi metrikleri (sıralama, organik trafik, UX, dönüşüm) etkiliyor ve en hızlı kazanım nerede?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-26",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Teknik SEO ve Core Web Vitals raporları; sitenizin yalnızca “hız skorunu” değil, Google’ın tarama/index davranışını, hangi sayfalarda gerçek kullanıcı deneyimi sorunu olduğunu ve bunun sıralama + dönüşüme etkisini gösterir. Doğru okuma; CWV (LCP/CLS/INP) metriklerini sayfa grupları ile eşleştirip, status kodları/tarama bulgularıyla “sorun → etki → aksiyon” haritası çıkarmaktır. Mobil–desktop ve field–lab ayrımını yapmadan karar vermeyin.",
+      "sgeSummary": "CWV’yi tek skor değil; hangi URL grubu hangi metrikte kötü diye oku. Tarama/index + status kod bulgularıyla eşleştir, mobil/desktop ve field/lab ayrımıyla öncelik ver.",
+      "voiceAnswer": "CWV kötü demek; bazı sayfalarda LCP/CLS/INP sorunları var, önce etkisi yüksek sayfaları düzeltin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/hizmet sitesi yöneticileri, teknik ekip, ajans yöneticisi",
+        "KPI: CWV (LCP, CLS, INP), tarama/index, status kodları, hız/TTFB, dönüşüm etkisi",
+        "Entity Theme: Core Web Vitals; Technical SEO KPIs; Crawl & Index; Status Codes",
+        "Semantic Theme: technical health reporting; CWV interpretation; error→impact mapping",
+        "Geo: TR (genel) + turizm/hizmet siteleri (örneklerle)",
+        "Funnel: Diagnostik → önceliklendirme → sprint aksiyonu",
+        "Çıktı: “İlk 10 teknik kontrol” + öncelik matrisi + 14 günlük sprint planı"
+      ]
+    },
+    "h1": {
+      "title": "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
+      "intro": "Teknik SEO raporları ve Core Web Vitals (CWV) ekranları çoğu ekipte aynı yere takılır: “Skor kırmızı, ne yapacağız?” Oysa gerçek soru skor değil; hangi sayfada hangi sorun var, bu sorun kullanıcı deneyimini ve iş sonucunu nasıl etkiliyor, öncelik sırası ne? Teknik SEO’yu doğru okumak; CWV metriklerini (LCP/CLS/INP) tarama–index–status kod bulgularıyla birleştirip error→impact mapping yapmaktır: sorunları tek listede değil, etki alanına göre yönetirsiniz.",
+      "quickSummary": [
+        "1) CWV’yi skor değil URL grubu bazında oku",
+        "2) LCP/CLS/INP sorunlarını tarama ve index bulgularıyla eşleştir",
+        "3) Mobil–desktop ve field–lab ayrımını yap",
+        "4) Teknik sorunları “sorun → etki → aksiyon” haritasına dönüştür",
+        "5) Top 10 kritik landing üzerinden 14 günlük sprint planı çıkar"
+      ],
+      "ctaPrimary": {
+        "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
+        "text": "Kritik sayfaları belirleyip CWV + tarama/index sorunlarını iş etkisiyle önceliklendirmek isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
+        "text": "Teknik raporu “skor” değil “iş etkisi + aksiyon planı” olarak okumak isteyen otel ve hizmet siteleri için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Teknik SEO & CWV Önceliklendirme Checklist’ini İndir",
+        "text": "İlk 10 teknik kontrolü standartlaştırır; CWV ve tarama sorunlarını P0–P2 önceliğiyle sprint’e çevirmenizi sağlar.",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO silo kök sayfası",
+        "href": "/seo"
+      },
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama Nedir? Performansı İş Etkisiyle Okuma Rehberi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "title": "Teknik SEO Nedir? Tarama, Index ve Performans Temeli",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "teknik-seo-ve-cwv-raporu-giris",
+        "title": "Teknik SEO ve Core Web Vitals raporu nasıl yorumlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik SEO raporları ve Core Web Vitals (CWV) ekranları çoğu ekipte aynı yere takılır: “Skor kırmızı, ne yapacağız?” Oysa gerçek soru skor değil; hangi sayfada hangi sorun var, bu sorun kullanıcı deneyimini ve iş sonucunu nasıl etkiliyor, öncelik sırası ne? Teknik SEO’yu doğru okumak; CWV metriklerini (LCP/CLS/INP) tarama–index–status kod bulgularıyla birleştirip error→impact mapping yapmaktır: sorunları tek listede değil, etki alanına göre yönetirsiniz."
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Answer Block",
+            "items": [
+              "CWV’yi skor gibi değil; URL grubu bazında LCP/CLS/INP sorunlarını ve tarama/index bulgularını eşleyerek “sorun→etki→aksiyon” haritası çıkarın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
+            "text": "Kritik sayfaları belirleyip CWV + tarama/index sorunlarını iş etkisiyle önceliklendirmek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "teknik-seo-kpilari-nelerdir",
+        "title": "Teknik SEO KPI’ları Nelerdir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik SEO KPI’ları, “Google bizi nasıl görüyor ve kullanıcı sayfayı nasıl yaşıyor?” sorusunu ölçer. Burada amaç; her şeyi raporlamak değil, karar verdiren KPI seti oluşturmaktır. Otel ve hizmet sitelerinde teknik KPI’lar genellikle iki ana yere bağlanır: (1) görünürlük kaybı riski (index/tarama), (2) dönüşüm sürtünmesi (performans/UX)."
+          },
+          {
+            "type": "h3",
+            "text": "Temel teknik KPI aileleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarama & Index: indexlenen URL sayısı, tarama hataları, canonical/robots/sitemap uyumu",
+              "Durum kodları: 404/5xx artışı, yanlış yönlendirme zincirleri",
+              "Performans & UX: CWV (LCP/CLS/INP), TTFB (bazı araçlarda), JS render gecikmeleri",
+              "Site sağlığı: büyük şablon sorunları (templated issues), mobil/desktop ayrışması"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Rezervasyon sayfası hızlı değilse (LCP yüksek) yalnız “SEO” değil, “rezervasyon tamamlama” da etkilenir. Teknik KPI’ların değeri, bu etkiyi görünür yapmasındadır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (teknik KPI seti)",
+            "items": [
+              "KPI’lar “tarama/index” ve “performans/UX” diye iki blokta mı?",
+              "Rapor bir “sorun listesi” değil, “öncelik listesi” üretiyor mu?",
+              "Mobil ve masaüstü ayrı mı izleniyor? (aynı KPI, farklı gerçek)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Teknik raporda KPI’ları 2 katmana ayırın: Google (crawl/index) ve kullanıcı (CWV/UX).",
+              "Her KPI için “iş etkisi” sütunu ekleyin (lead/rezervasyon sürtünmesi gibi).",
+              "Haftalık mini kontrol (status codes + tarama) ve aylık CWV trend takibi belirleyin.",
+              "“Şablon problemi” olan sayfaları (ör. tüm oda sayfaları) tek grup olarak ele alın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "core-web-vitals-lcp-cls-inp-raporlari",
+        "title": "Core Web Vitals (LCP, CLS, INP) Raporları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CWV, gerçek kullanıcı deneyimini ölçen üç metrikle özetler: yükleme (LCP), görsel stabilite (CLS), etkileşim (INP). Google Search Console’daki CWV raporu, URL’leri “Good / Need improvement / Poor” olarak sınıflandırır ve URL gruplarıyla gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Core Web Vitals raporu nasıl okunur?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu (AEO)",
+            "items": [
+              "CWV raporunda önce hangi URL grupları “Poor” görünüyor, onu bulun.",
+              "Sonra hangi metrikte kötü: LCP mi, CLS mi, INP mi?",
+              "Aynı URL grubunu PageSpeed Insights/Lighthouse ile test ederek kök nedeni bulun (lab veri debug içindir; field veri “gerçek dünya”dır)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CWV eşik değerleri pratikte ne demek?"
+          },
+          {
+            "type": "p",
+            "text": "Rapor okurken “iyi/kötü” etiketlerinin arkasındaki eşiği bilmek, ekiple aynı dili konuşmanızı sağlar. PageSpeed Insights, Web Vitals girişimine uyumlu eşikleri bu şekilde sınıflandırır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP: iyi ≤ 2.5s, geliştirmeli 2.5–4.0s, kötü > 4.0s",
+              "CLS: iyi ≤ 0.1, geliştirmeli 0.1–0.25, kötü > 0.25",
+              "INP: iyi ≤ 200ms, geliştirmeli 200–500ms, kötü > 500ms"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: INP, Core Web Vitals içinde etkileşim metriği olarak FID’in yerini aldı."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Bir otel ana sayfasında LCP kötü ama INP iyi olabilir: ana görsel/hero ağır, ama etkileşim hızlıdır. Bu durumda “tek skor” yerine “LCP odaklı çözüm” gerekir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (CWV okuma)",
+            "items": [
+              "URL grubu bazında mı okuyorum, tekil URL paniklemesi mi yapıyorum?",
+              "Mobil ve desktop raporlarını ayrı mı ele alıyorum?",
+              "Field (gerçek kullanıcı) ile Lab (test ortamı) verisini ayırıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "CWV raporunu “URL grubu → metrik → kök neden” şeklinde okuma standardı yazın.",
+              "Önce dönüşüm üreten sayfalardaki CWV sorunlarını düzeltin (iş etkisi yüksek).",
+              "Mobilde kötü, desktop’ta iyi olan sorunları ayrı backlog’a alın.",
+              "Lab testleriyle debug edin; başarı kriterini field veriye göre koyun."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "hiz-sunucu-yaniti-ve-render-sorunlari",
+        "title": "Hız, Sunucu Yanıtı ve Render Sorunları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CWV sorunlarının büyük bölümü üç kökten beslenir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sunucu yanıtı (TTFB, gecikmeli backend, CDN eksikleri)",
+              "Render bloklayıcı kaynaklar (CSS/JS, üçüncü parti scriptler)",
+              "Ağır görsel/video ve font stratejisi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik nokta: CWV “puan” değildir; sayfanın gerçekten kullanıcıda nasıl hissettirdiğini anlatır. Field veride kötü görünen bir LCP, çoğu zaman “zayıf cihaz + yavaş ağ” gerçeğini de taşır; lab testiniz iyi çıkabilir. Bu fark normaldir, önemli olan ikisini doğru amaçla kullanmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "LCP’yi bozan tipik nedenler (otel/hizmet örnekleri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero görseli çok büyük / yanlış format / lazy-load hatalı",
+              "Fontlar geç geliyor (FOIT/FOUT), kritik CSS gecikiyor",
+              "Üçüncü parti scriptler (chat, pixel, A/B test) render’ı kilitliyor",
+              "Sunucu cevap süresi yüksek (özellikle kampanya dönemlerinde)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "INP’yi bozan tipik nedenler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana thread yoğun (aşırı JS, ağır framework işleri)",
+              "Uzun task’lar, event handler’lar, gereksiz DOM işlemleri",
+              "Özellikle rezervasyon formu, tarih seçici, fiyat bileşeni gibi etkileşimli alanlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CLS’yi bozan tipik nedenler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görsel/iframe boyutları sabit değil",
+              "Sonradan yüklenen banner, pop-up, cookie bar sayfayı zıplatıyor",
+              "Font swap stratejisi kötü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (performans kök neden)",
+            "items": [
+              "“Sorun var” demek yerine “LCP/CLS/INP hangisi ve hangi bileşen?” diye ayırıyor muyum?",
+              "Üçüncü parti script’leri (ads, chat, analytics) listeliyor muyum?",
+              "Rezervasyon formu gibi kritik etkileşimlerde INP’ye bakıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "LCP için önce hero görsel + kritik CSS + sunucu yanıtı üçlüsünü kontrol edin.",
+              "CLS için “boyut sabitleme + geç yüklenen UI” temizliği yapın.",
+              "INP için “uzun task” ve etkileşimli bileşenleri (form/date picker) hedefleyin.",
+              "Lab veriyi debug için, field veriyi KPI olarak kullanın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "tarama-ve-index-durumu",
+        "title": "Tarama ve Index Durumu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CWV “kullanıcı” tarafını ölçer; tarama ve index ise “Google’ın içeriği keşfetmesi ve değerlendirmesi” tarafıdır. Teknik raporunuzun ikinci omurgası burası olmalı: çünkü tarama/index bozulduğunda, en iyi içerik bile görünmez hale gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik SEO raporunda ilk bakılması gereken alanlar neler?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu (AEO)",
+            "items": [
+              "Index kapsamı ve kritik şablonlar (hizmet/destinasyon/oda sayfaları index’te mi?)",
+              "Status kodları (404/5xx artışı var mı?)",
+              "Robots/sitemap/canonical tutarlılığı (yanlış bloklama var mı?)",
+              "Tarama raporu trendi (Googlebot erişimde zorlanıyor mu?)",
+              "CWV (özellikle dönüşüm sayfaları) (LCP/INP/CLS hangi grupta kötü?)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Tarama/index sorunlarını “iş etkisi” ile okumak"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Index düşerse: görünürlük kaybı riski (talep azalır)",
+              "5xx artarsa: tarama bütçesi ve kullanıcı deneyimi birden bozulur",
+              "Yanlış robots/canonical: yanlış sayfalar görünür, doğru sayfalar kaybolur"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Otel “kampanya” landing’i sezon başında robots ile yanlış bloklanırsa, “SEO çalışmıyor” gibi görünür ama problem içerik değil teknik karardır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (crawl/index)",
+            "items": [
+              "Kritik landing’ler (rezervasyon/teklif/hizmet) index’te mi?",
+              "404/5xx trendini haftalık izliyor muyum?",
+              "Sitemap ve canonical tutarlılığını release sonrası kontrol ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Kritik sayfalar listesi” oluşturun ve index durumunu periyodik kontrol edin.",
+              "404/5xx için otomatik alarm kurun (özellikle deployment sonrası).",
+              "Robots/sitemap/canonical değişikliklerini “change log” ile yönetin.",
+              "Tarama/index sorunlarını çözmeden CWV optimizasyonunu “tek çözüm” sanmayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-teknik-sorun-hangi-seo-metriklerini-etkiler",
+        "title": "Hangi Teknik Sorun Hangi SEO Metriklerini Etkiler?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, teknik raporu aksiyona çeviren ana parçadır: “ne bozuk” listesini “neye zarar veriyor” haritasına dönüştürür. Burada küçük bir model kurun:"
+          },
+          {
+            "type": "h3",
+            "text": "Teknik SEO → Sonuç modeli (AIO uyumlu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Crawl/Index sorunları → görünürlük kaybı (impressions/clicks düşer)",
+              "CWV/Performans sorunları → dönüşüm sürtünmesi + tıklama verimi (CTR/etkileşim düşer)",
+              "Status code/redirect sorunları → tarama verimsizliği + kullanıcı kaybı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu model, “technical health reporting” yaklaşımıdır: metrikler tek başına değil, etki zinciriyle okunur."
+          },
+          {
+            "type": "h3",
+            "text": "Sorun → Etki → İlk aksiyon (özet harita)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Teknik KPI özet tablosu — “Sorun → Etki → Aksiyon” matrisi",
+            "headers": [
+              "Teknik sorun",
+              "Raporda nerede görünür?",
+              "Etkilediği metrikler",
+              "İlk aksiyon"
+            ],
+            "rows": [
+              [
+                "LCP kötü",
+                "CWV / PSI",
+                "dönüşüm, kullanıcı deneyimi; bazen görünürlük potansiyeli",
+                "hero görsel + kritik CSS + sunucu yanıtı"
+              ],
+              [
+                "CLS kötü",
+                "CWV / PSI",
+                "kullanıcı güveni, form tamamlama",
+                "görsel boyut sabitleme, geç UI temizliği"
+              ],
+              [
+                "INP kötü",
+                "CWV / PSI",
+                "etkileşim, form kullanımı",
+                "uzun task azalt, JS optimizasyonu"
+              ],
+              [
+                "404 artışı",
+                "tarama + log + crawl",
+                "organik trafik kaybı, kullanıcı kaybı",
+                "404 kaynak analizi + 301 plan"
+              ],
+              [
+                "5xx artışı",
+                "tarama + uptime",
+                "tarama düşer, UX düşer",
+                "sunucu stabilizasyon + cache"
+              ],
+              [
+                "Yanlış robots/canonical",
+                "index raporu",
+                "index kaybı, yanlış sayfa görünürlüğü",
+                "robots/canonical düzelt, yeniden tarama"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (soft): Birçok çalışmada, CWV metriği iyileştirilen sayfalarda hem sıralama hem dönüşüm tarafında anlamlı artışlar gözlendiği raporlanıyor. (Kesin rakam iddiası değil; genel gözlem/rapor bulgusu olarak düşünün.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (etki haritası)",
+            "items": [
+              "Her teknik sorunun “iş etkisi” cümlesi var mı?",
+              "Her sorun için “ilk aksiyon” net mi (tek cümle)?",
+              "Önceliği, “trafik + dönüşüm” ağırlığıyla mı veriyorum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Teknik raporunuzda mutlaka “etki haritası” tablosu kullanın.",
+              "Önce yüksek trafik + yüksek dönüşüm sayfalarını düzeltin (P0/P1).",
+              "“Şablon kaynaklı” sorunları (tüm oda sayfaları) toplu çözün.",
+              "Her sprint sonunda aynı tabloyla önce/sonra kıyas yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "raporu-aksiyona-cevirme-onceliklendirme-mantigi",
+        "title": "Raporu Aksiyona Çevirme — Önceliklendirme Mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CWV ve teknik SEO raporları aksiyona dönmüyorsa, genellikle iki nedenle:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Hangi sayfa?” sorusu net değildir (URL grubu/landing eşleştirmesi yok)",
+              "“Hangi iş etkisi?” net değildir (dönüşüm/lead bağlantısı kurulmamış)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle basit bir öncelik kuralı önerin:"
+          },
+          {
+            "type": "callout",
+            "variant": "formula",
+            "title": "Öncelik skoru",
+            "items": [
+              "Öncelik skoru = (Trafik × Dönüşüm etkisi) ÷ Efor",
+              "Trafik: organik giriş hacmi",
+              "Dönüşüm etkisi: makro dönüşüm katkısı / funnel kritikliği",
+              "Efor: 1 gün, 1 hafta, 2 hafta gibi kaba tahmin"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Rezervasyon formu bulunan sayfada INP kötü ise (etkileşim gecikiyor), efor orta bile olsa öncelik yükselir; çünkü iş etkisi kritik."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (öncelik)",
+            "items": [
+              "“Kritik 10 sayfa” listem var mı?",
+              "CWV sorunlarını landing’lere bağladım mı?",
+              "Eforu abartmadan (kaba) yazıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "CWV + crawl/index sorunlarını “Top 10 kritik sayfa” üzerinde raporlayın.",
+              "Her sayfaya tek “ana aksiyon” verin (çoklu aksiyon kaosu yapmayın).",
+              "14 günlük sprint planıyla yürütün; her sprint sonunda ölçün (field + lab)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
+            "text": "CWV + tarama/index bulgularını “iş etkisi” ile eşleyip önceliklendirmek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "teknik-seo-cwv-onceliklendirme-checklist",
+        "title": "Teknik SEO & CWV Önceliklendirme Checklist’ini İndir — SEO / Teknik Sağlık",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Teknik SEO & CWV Önceliklendirme Checklist’ini İndir — SEO / Teknik Sağlık (v1.0)",
+            "purpose": "Bu asset, teknik SEO ve CWV raporlarını “kırmızı-yeşil skor” olmaktan çıkarıp hangi sayfa, hangi sorun, hangi iş etkisi çerçevesinde önceliklendirmenizi sağlar. Mobil/desktop ve field/lab ayrımını standartlaştırır; URL gruplarını kritik landing’lerle eşleyip 14 günlük sprint planı üretir.",
+            "whoFor": "Teknik ekip, SEO lideri, ürün/performans ekipleri ve ajans yöneticileri.",
+            "steps": [
+              "Top 10 kritik landing’i seç (trafik × dönüşüm etkisi).",
+              "Her landing için CWV (LCP/CLS/INP) + crawl/index + status kod kontrolünü doldur.",
+              "P0–P2 önceliği ver; 14 günlük sprint planına bağla ve önce/sonra kıyasla."
+            ],
+            "checklist": [
+              "Mobil ve masaüstü CWV raporları ayrı kontrol edildi (aynı sayfa, farklı gerçek).",
+              "Field data (gerçek kullanıcı) KPI; lab data (Lighthouse) debug olarak ele alındı.",
+              "Top 10 kritik landing seçildi (trafik × dönüşüm etkisi).",
+              "CWV metrikleri landing bazında kaydedildi: LCP / CLS / INP.",
+              "Status kod kontrolü yapıldı: 404/5xx, yönlendirme zinciri, yanlış 301.",
+              "Tarama/index kontrolü yapıldı: robots, sitemap, canonical tutarlılığı.",
+              "Üçüncü parti script listesi çıkarıldı (chat, pixel, A/B, widget).",
+              "“Sorun → iş etkisi” cümlesi yazıldı (dönüşüm sürtünmesi / görünürlük kaybı).",
+              "Her sayfaya tek ana aksiyon atandı (P0/P1/P2).",
+              "Sprint sonunda field+lab önce/sonra kıyas planlandı."
+            ],
+            "tables": [
+              {
+                "title": "Problem → Kök Neden → Çözüm Tablosu",
+                "headers": [
+                  "Problem",
+                  "Kök neden",
+                  "Çözüm"
+                ],
+                "rows": []
+              },
+              {
+                "title": "14 Günlük Sprint Planı",
+                "headers": [
+                  "Gün",
+                  "Aksiyon"
+                ],
+                "rows": [
+                  [
+                    "Gün 1",
+                    "Top 10 kritik landing seçimi + veri seti sabitleme (mobil/desktop, field/lab)"
+                  ],
+                  [
+                    "Gün 2",
+                    "CWV sorunlarının landing bazında sınıflandırması (LCP/CLS/INP)"
+                  ],
+                  [
+                    "Gün 3",
+                    "Status kod taraması (404/5xx/redirect) + kaynak analizi"
+                  ],
+                  [
+                    "Gün 4",
+                    "Crawl/index kontrolleri (robots/sitemap/canonical)"
+                  ],
+                  [
+                    "Gün 5",
+                    "P0 sayfalar için LCP kök neden analizi (hero/TTFB/CSS)"
+                  ],
+                  [
+                    "Gün 6",
+                    "P0 sayfalar için INP kök neden analizi (form/JS/long task)"
+                  ],
+                  [
+                    "Gün 7",
+                    "P0 sayfalar için CLS kök neden analizi (layout shifts)"
+                  ],
+                  [
+                    "Gün 8",
+                    "Çözüm uygulama 1 (görsel + kritik CSS + cache)"
+                  ],
+                  [
+                    "Gün 9",
+                    "Çözüm uygulama 2 (JS azaltma + etkileşim optimizasyonu)"
+                  ],
+                  [
+                    "Gün 10",
+                    "Çözüm uygulama 3 (layout shift düzeltmeleri)"
+                  ],
+                  [
+                    "Gün 11",
+                    "Teknik regresyon kontrolü (redirect, canonical, robots)"
+                  ],
+                  [
+                    "Gün 12",
+                    "Lab test tekrarları + debug notları"
+                  ],
+                  [
+                    "Gün 13",
+                    "Field KPI izleme planı + rapor güncelleme"
+                  ],
+                  [
+                    "Gün 14",
+                    "Yönetici özeti: 3 kazanım + 3 risk + 3 sonraki aksiyon"
+                  ]
+                ]
+              },
+              {
+                "title": "Öncesi / Sonrası KPI Tablosu (şablon)",
+                "headers": [
+                  "KPI",
+                  "Öncesi",
+                  "Sonrası",
+                  "Not"
+                ],
+                "rows": []
+              }
+            ],
+            "deliverables": [
+              "Top 10 landing teknik sağlık tablosu",
+              "P0–P2 öncelik listesi",
+              "14 günlük sprint backlog’u",
+              "Öncesi/sonrası KPI kıyası",
+              "Regresyon kontrol notları"
+            ],
+            "media": [
+              {
+                "slot": "checklist-06",
+                "title": "Checklist Card",
+                "purpose": "İlk 10 teknik kontrol kartı, amaç öncelik, teknik ekip bağlamı"
+              },
+              {
+                "slot": "diagram-05",
+                "title": "Diagram",
+                "purpose": "Sorun→etki akışı, amaç aksiyon haritası, otel dönüşüm bağlamı"
+              }
+            ],
+            "href": "/downloads/teknik-seo-ve-core-web-vitals-onceliklendirme-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Teknik SEO raporu skor değil, aksiyon planı üretmelidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik SEO ve Core Web Vitals raporları, yalnızca kırmızı/yeşil skor ekranları olarak okunursa ekipleri aksiyonsuz bırakır. Doğru yaklaşım; URL gruplarını, CWV metriklerini, tarama/index durumunu ve status kod bulgularını aynı çerçevede değerlendirip “sorun → etki → aksiyon” haritası çıkarmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu sayede teknik rapor, geliştirici backlog’u ile pazarlama hedefleri arasında ortak bir dile dönüşür. Önceliklendirme; trafik, dönüşüm etkisi ve efor üzerinden yapıldığında, teknik SEO çalışmaları yalnızca site sağlığını değil, kullanıcı deneyimi ve iş sonucunu da iyileştirir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
+            "text": "Teknik raporu “skor” değil “iş etkisi + aksiyon planı” olarak okumak isteyen otel ve hizmet siteleri için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Teknik SEO & CWV Önceliklendirme Checklist’ini İndir",
+            "text": "İlk 10 teknik kontrolü standartlaştırır; CWV ve tarama sorunlarını P0–P2 önceliğiyle sprint’e çevirmenizi sağlar.",
+            "href": "/veri-analiz-ve-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Core Web Vitals raporu nasıl okunur?",
+        "a": "Önce “Poor” olan URL gruplarını bulun, sonra hangi metrikte (LCP/CLS/INP) kötü olduğuna bakın. Aynı grubu PSI/Lighthouse ile test edip kök nedeni çıkarın; field veriyi KPI, lab veriyi debug olarak kullanın."
+      },
+      {
+        "q": "LCP, CLS ve INP SEO’yu nasıl etkiler?",
+        "a": "LCP yükleme hızını, CLS görsel stabiliteyi, INP etkileşim gecikmesini ölçer. Kötü CWV, kullanıcı deneyimini düşürerek dönüşüm sürtünmesi yaratabilir; ayrıca sayfanın “tam potansiyeline” ulaşmasını engelleyebilir."
+      },
+      {
+        "q": "CWV eşik değerleri ne anlama gelir?",
+        "a": "İyi deneyim için hedefler kabaca LCP ≤ 2.5s, CLS ≤ 0.1, INP ≤ 200ms’dir; arası “needs improvement”, üstü “poor” sayılır."
+      },
+      {
+        "q": "Hangi teknik SEO hataları raporda önceliklidir?",
+        "a": "İş etkisi yüksek sayfalarda görülen hatalar önceliklidir: 5xx/404 artışı, robots/canonical ile yanlış bloklama, kritik landing’lerde CWV kötüleşmesi. Önceliği trafik×dönüşüm etkisiyle belirleyin."
+      },
+      {
+        "q": "Teknik SEO raporundan aksiyon listesi nasıl çıkarılır?",
+        "a": "“Sorun → etki → ilk aksiyon” tablosu kurun ve her sayfaya tek ana aksiyon verin. P0–P2 önceliklendirme ile 14 günlük sprint planına bağlayın; sprint sonunda önce/sonra ölçün."
+      },
+      {
+        "q": "Field data ile lab data neden farklı çıkar?",
+        "a": "Field data gerçek kullanıcıların farklı cihaz/ağ koşullarını kapsar; lab data kontrollü test koşulunda hata ayıklamak içindir. Bu yüzden KPI’yı field veriden, çözüm yolunu lab veriden üretmek daha doğru olur."
+      },
+      {
+        "q": "Mobil ve masaüstü CWV sonuçları neden farklı?",
+        "a": "Kullanıcı cihazı ve ağ koşulları mobilde daha değişkendir; bu yüzden aynı sayfa mobilde kötü, masaüstünde iyi görünebilir. Raporlamada iki segmenti ayrı değerlendirmek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-hero-01.webp",
+          "h1-context — 1920×1080 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-h1-context-02.webp",
+          "divider-01 — 1600×1200 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-divider-03.webp",
+          "divider-02 — 1600×1200 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-divider-04.webp",
+          "diagram-05 — 1920×1080 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-diagram-05.webp",
+          "checklist-06 — 1200×1200 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-kpi-07.webp",
+          "proof-08 — 1200×1200 — teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir-proof-08.webp",
+          "table-technical-kpi-summary — Teknik sorun → etki → aksiyon matrisi",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+          "table-before-after-kpi — Öncesi / Sonrası KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "CWV raporu URL grubu bazında okunmalı",
+          "Mobil ve desktop CWV sonuçları ayrı değerlendirilmeli",
+          "Field data KPI, lab data debug verisi olarak ayrıştırılmalı",
+          "Top 10 kritik landing listesi trafik × dönüşüm etkisiyle belirlenmeli",
+          "LCP/CLS/INP sorunları tarama/index ve status kod bulgularıyla eşleştirilmeli",
+          "404/5xx artışı için kaynak analizi ve 301 planı hazırlanmalı",
+          "Robots/sitemap/canonical tutarlılığı release sonrası kontrol edilmeli",
+          "Üçüncü parti script listesi çıkarılmalı",
+          "Her teknik sorun için “sorun → iş etkisi → ilk aksiyon” cümlesi yazılmalı",
+          "P0–P2 önceliklendirme ile 14 günlük sprint backlog’u oluşturulmalı"
+        ]
+      }
+    }
+  },
+
+  "BlogIcerikVeTopicClusterPerformansRaporuNasilHazirlanir": {
+    "title": "Topic Cluster Performans Raporu Nasıl Hazırlanır?",
+    "slug": "icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir",
+    "department": "seo",
+    "subDepartment":"backlink",
+    "updatedAt": "26 Mayıs 2026",
+    "publishedAt": "2026-05-26",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "İçeriği URL bazlı değil cluster bazlı raporlayın. Hub + destek içerikler, görünürlük, trafik, sıralama ve backlink KPI’larıyla yetim içerikleri bulun, iç link planı ve aksiyon tablosu çıkarın.",
+    "seo": {
+      "metaTitle": "Topic Cluster Performans Raporu Nasıl Hazırlanır? | DGTLFACE",
+      "metaDescription": "İçeriği URL bazlı değil cluster bazlı raporla: hub + destek içerikler, görünürlük, trafik, sıralama ve backlink KPI’ları. Yetim içerikleri bul, iç link planı ve aksiyon tablosu çıkar."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir"
+      ],
+      "strategySummary": "Bu içerik, SEO silosu içinde “tekil URL raporu” kültürünü aşarak cluster-level analysis yaklaşımını yerleştiren otorite yazıdır. Hedef persona; otel/hizmet sitesi sahibi, ajans yöneticisi ve içerik lideridir: “çok içerik var, hangisi işe yarıyor ve nerede otorite kurduk?” sorusuna net cevap ister. Funnel MoFu’dadır; rapor, içerik üretimi/refresh/consolidation kararlarını hızlandırır. Ana iş sorusu: “Hub + destekleyici içerikleri birlikte okuyup, cluster görünürlüğünü ve otoriteyi nasıl ölçer; zayıf cluster’ları nasıl güçlendiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-05-26",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Topic cluster performans raporu; SEO’yu tekil içeriklerden değil, hub + destekleyici içerik kümeleri üzerinden okumanızı sağlar. Her cluster için toplam görünürlük (impressions/CTR), organik trafik, sıralama trendi, iç link sağlığı ve backlink sinyallerini birleştirerek “hangi konu alanında otorite kurduk, hangisi zayıf?” sorusunu netleştirir. Rapor; “yetim içerik”leri tespit eder, refresh/consolidation kararlarını hızlandırır ve bir aksiyon planına dönüşür.",
+      "sgeSummary": "Hub ve destek içerikleri cluster bazında grupla; görünürlük, trafik, sıralama ve backlink KPI’larını topla. Yetim içerikleri bul, iç link haritasını çıkar ve zayıf cluster’lar için aksiyon listesi yaz.",
+      "voiceAnswer": "Çok blog varsa, hub ve cluster bazında raporlayın; hangi konu kümesi iş üretiyor hemen görünür.",
+      "aiFactSheet": [
+        "Hedef kitle: İçerik liderleri, SEO/performans ekipleri, ajans yöneticileri",
+        "Entity Theme: Topic Clusters; Hub Pages; Content KPIs; Cluster Visibility",
+        "Semantic theme: cluster-level analysis; content portfolio view; hub performance",
+        "KPI seti: cluster impressions/clicks/CTR, organic sessions, ranking trend, backlinks, internal links",
+        "Funnel: Strateji → portföy yönetimi → aksiyon (refresh/consolidation)",
+        "Geo: TR + otel/destinasyon/hizmet silo’ları",
+        "Çıktı: Cluster tablosu + hub diyagramı + cluster iyileştirme checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?",
+      "intro": "Çok içerikli projelerde “tekil URL bazlı rapor” anlamlı ama eksik kalır: bir blog iyi gidiyor gibi görünür ama aslında hub sayfaya otorite taşımıyordur; ya da tekil sayfa düşüyor gibi görünür ama cluster genelinde pay büyüyordur. Topic cluster raporu, SEO’yu içerik portföyü gibi yönetmenizi sağlar: hangi konu alanında otorite kurduk, hangi kümelerde eksiğiz, hangi içerikler yetim kaldı, hangi hub’lar güçleniyor? Bu rehberde, raporu hub + destekleyici içerikler etrafında kurup; görünürlük, trafik, sıralama ve backlink sinyallerini tek tabloda birleştirerek net aksiyon planı çıkarmayı adım adım anlatıyoruz.",
+      "quickSummary": [
+        "1) Raporu URL listesi değil cluster listesi olarak kur",
+        "2) Her cluster için tek hub + destek içerikleri eşleştir",
+        "3) Görünürlük, trafik, sıralama, backlink ve internal link KPI’larını birlikte oku",
+        "4) Yetim içerikleri bulup hub’a ve ilgili sayfalara bağla",
+        "5) Refresh, consolidation ve expansion kararlarını sprint planına dönüştür"
+      ],
+      "ctaPrimary": {
+        "label": "Topic Cluster Performans Analizi Talep Et",
+        "text": "İçerik portföyünü cluster bazında ölçüp, refresh ve üretim kararlarını hızlandırmak isteyen blog/otel/hizmet siteleri için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Topic Cluster Performans Analizi Talep Et",
+        "text": "Cluster tablosu + iç link haritası + refresh/consolidation aksiyon planı isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir",
+        "text": "Cluster KPI’larını tek tabloda toplar; yetim içerikleri ve iyileştirme aksiyonlarını sprint planına çevirmenizi sağlar.",
+        "href": "/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO silo kök sayfası",
+        "href": "/seo"
+      },
+      {
+        "label": "İçerik SEO hizmet sayfası",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Backlink & Dijital Otorite Yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
+        "href": "/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
+      },
+      {
+        "title": "SEO Raporlama Nedir? Performansı İş Etkisiyle Okuma Rehberi",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "icerik-ve-topic-cluster-performans-raporu-giris",
+        "title": "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok içerikli projelerde “tekil URL bazlı rapor” anlamlı ama eksik kalır: bir blog iyi gidiyor gibi görünür ama aslında hub sayfaya otorite taşımıyordur; ya da tekil sayfa düşüyor gibi görünür ama cluster genelinde pay büyüyordur. Topic cluster raporu, SEO’yu içerik portföyü gibi yönetmenizi sağlar: hangi konu alanında otorite kurduk, hangi kümelerde eksiğiz, hangi içerikler yetim kaldı, hangi hub’lar güçleniyor? Bu rehberde, raporu hub + destekleyici içerikler etrafında kurup; görünürlük, trafik, sıralama ve backlink sinyallerini tek tabloda birleştirerek net aksiyon planı çıkarmayı adım adım anlatıyoruz."
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Topic Cluster Performans Analizi Talep Et",
+            "text": "İçerik portföyünü cluster bazında ölçüp, refresh ve üretim kararlarını hızlandırmak isteyen blog/otel/hizmet siteleri için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "icerik-bazli-degil-cluster-bazli-raporlama",
+        "title": "İçerik Bazlı Değil, Cluster Bazlı Raporlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "URL bazlı raporlar “hangi içerik iyi/kötü?” sorusunu cevaplar. Cluster bazlı raporlar ise daha stratejik soruları cevaplar: “Hangi konu alanında otorite kurduk?” ve “Hangi konu alanında zayıf kaldık?” Çünkü Google (ve kullanıcı) tek bir sayfaya değil, aynı konu alanında tutarlı bir bütünlüğe bakar: hub + destek içerik + iç link + topical coverage."
+          },
+          {
+            "type": "h3",
+            "text": "Cluster raporlamanın 3 avantajı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Topical authority (konu otoritesi) netleşir",
+              "İçerik üretimi “tekil fikir” değil, “kümeyi büyütme” olarak planlanır",
+              "Refresh/consolidation kararları hızlanır (hangi küme değerli?)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): “Antalya destinasyon” cluster’ı içinde; destinasyon sayfası hub, çevresinde “en iyi plajlar”, “aile aktiviteleri”, “ulaşım rehberi” gibi destek içerikler vardır. Bu küme güçlenirse, sadece blog değil destinasyon landing’i de etkilenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporu URL listesi değil “cluster listesi” olarak görüyor muyum?",
+              "Her cluster’ın bir hub sayfası var mı?",
+              "Cluster raporu üretim + refresh kararını tetikliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce 10–20 ana cluster’ı çıkarın (küçük başlayın).",
+              "Her cluster’a 1 hub + 5–20 destek içerik bağlayın.",
+              "Raporu aylık, cluster gelişimini çeyreklik okuyun."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "hub-sayfalar-ve-destekleyici-icerikler",
+        "title": "Hub Sayfalar ve Destekleyici İçerikler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cluster raporunun iskeleti: hub page + supporting pages. Hub sayfa, konunun ana iniş sayfasıdır; destek içerikler ise farklı niyetleri yakalayıp hub’a otorite taşır (internal link ile)."
+          },
+          {
+            "type": "h3",
+            "text": "Hub nasıl seçilir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konunun en kapsamlı ve ticari/stratejik sayfası (hizmet/destinasyon/pillar)",
+              "İç linklerin merkez noktası (hub’a link akışı)",
+              "GSC’de en fazla query çeşitliliği taşıyan sayfa (genelde)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Destek içerikler nasıl seçilir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Long-tail niyetleri yakalayan blog/SSS içerikleri",
+              "Hub’ı destekleyen alt başlıklar (tanım, rehber, karşılaştırma, checklist)",
+              "Operasyonel örnekler (otel/hizmet senaryoları)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (hizmet): Hub: “İçerik SEO” sayfası; destek: “evergreen vs sezonluk”, “topic cluster kurma”, “refresh planı” gibi yazılar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hub sayfa “ana niyeti” taşıyor mu?",
+              "Destek içerikler hub’a doğal link veriyor mu?",
+              "Hub yalnız değil; içerik “ekosistem” gibi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her cluster’da hub’ı tekil seçin, “iki hub” karmaşası yapmayın.",
+              "Destek içeriklerin her birine hub’a giden net bir internal link kuralı koyun.",
+              "Hub’ın dönüşüm/CTA rolünü ayrı izleyin; blog’ların rolü destek olmalı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cluster-kpilari-goruntuleme-trafik-siralama-backlink",
+        "title": "Cluster KPI’ları (Görüntüleme, Trafik, Sıralama, Backlink)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cluster KPI’ları, tek bir URL’nin performansından daha “toplam” bir tablo çıkarır. En iyi rapor, bu KPI’ları hem cluster toplamında, hem hub özelinde verir."
+          },
+          {
+            "type": "h3",
+            "text": "Cluster KPI seti (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görüntüleme (GSC impressions): konu talep havuzu",
+              "Tıklama/CTR: görünürlükten talep çekme verimi",
+              "Organik trafik (GA4 sessions): siteye gelen hacim",
+              "Sıralama trendi / görünürlük: cluster payı (share of voice)",
+              "Backlink sinyali: hub ve destek içeriklere gelen referanslar",
+              "Internal link sağlığı: hub’a kaç içerik linkliyor, yetim içerik var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI’ları “toplam → yorum → aksiyon” formatına sokmak"
+          },
+          {
+            "type": "p",
+            "text": "Bu KPI’lar tek başına bir şey söylemez; raporda şu mantık olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep var mı? (impressions)",
+              "Talebi çekiyor muyuz? (CTR/clicks)",
+              "Trafik iş üretiyor mu? (hub dönüşümü / micro conversions)",
+              "Otorite büyüyor mu? (visibility trend / backlink)",
+              "Yapı sağlam mı? (internal links / orphan)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Cluster mantığıyla raporlayan projelerde, içerik geliştirme ve refresh kararlarının daha hızlı ve isabetli alındığı görülüyor. (Kesin rakam iddiası değildir; operasyonel gözlem olarak düşünün.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "KPI’lar hem cluster toplamında hem hub özelinde var mı?",
+              "“Talep var ama CTR düşük” gibi senaryoları ayırıyor muyum?",
+              "Backlink ve internal link aynı raporda mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Cluster KPI setini standardize edin; her cluster aynı sütunlarla raporlansın.",
+              "Hub dönüşümünü ayrı KPI olarak ekleyin (iş hedefi).",
+              "Ayda bir trend, çeyrekte bir “portföy revizyonu” yapın."
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir — SEO / Topic Cluster (v1.0)",
+            "purpose": "Bu asset, içerik portföyünü URL bazından çıkarıp hub + cluster bazında ölçmenizi sağlar. Her cluster için görünürlük, trafik, sıralama trendi, backlink ve iç link sağlığını tek tabloda toplayarak “hangi konu alanına yatırım yapacağız?” kararını hızlandırır. Yetim içerikleri tespit eder ve refresh/consolidation + üretim planını sprint’e bağlar.",
+            "whoFor": "İçerik lideri, SEO lead, ajans yöneticisi ve yüksek içerik hacimli site ekipleri.",
+            "steps": [
+              "10–20 ana cluster belirle; her birine 1 hub + destek içerikleri bağla.",
+              "Tabloyu doldur (impressions/CTR/sessions/visibility/backlink/internal link).",
+              "Zayıf cluster’lar için checklist’i uygula ve 14 günlük sprint planını başlat."
+            ],
+            "checklist": [
+              "Cluster listesi güncel (yeni hizmet/destinasyon eklendiyse eklendi)",
+              "Her cluster’da tek hub net (çift hub yok)",
+              "Her içerik bir cluster’a bağlı (yetim içerik listesi çıkarıldı)",
+              "Hub’a giden internal link sayısı ölçüldü (min hedef belirlendi)",
+              "Cluster KPI seti standart (her cluster aynı sütunlarla raporlanıyor)",
+              "Backlink sinyali hub ve cluster toplamında ölçüldü",
+              "Brand/non-brand etkisi notlandı (cluster büyümesi nereden geliyor?)",
+              "“Büyüt” (expansion) ve “Onar” (refresh/consolidation) listeleri ayrıldı"
+            ],
+            "href": "/downloads/topic-cluster-performans-tablosu-aksiyon-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "yetim-icerikleri-tespit-etmek",
+        "title": "“Yetim” İçerikleri Tespit Etmek (Orphan Content)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Orphan içerik; yayınlanmış ama cluster içinde yeterli internal link almayan ve hub’a otorite taşımayan içeriktir. Çok içerikli projelerde bu, en yaygın verim kaybıdır: iyi içerik bile “yalnız” kaldığı için performans göstermez."
+          },
+          {
+            "type": "h3",
+            "text": "Yetim içerik nasıl anlaşılır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hub’dan link almıyor veya hub’a link vermiyor",
+              "Cluster tablosunda “internal links” sütunu zayıf",
+              "GSC’de impressions var ama click/CTR düşük ve sayfa derinlerde kalıyor",
+              "GA4’te organik trafik var ama içerik, diğer sayfalara akış üretmiyor"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Bodrum için “en iyi koylar” yazısı var ama Bodrum destinasyon sayfasına link yoksa; içerik trafik çekse bile hub’a otorite taşımaz."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her içerik en az 1 hub linki alıyor mu?",
+              "Hub sayfa, cluster içinden düzenli link alıyor mu?",
+              "Yetim içerikler için “bağlama sprint’i” planladım mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Orphan listesi çıkarın (cluster dışı kalan URL’ler).",
+              "Her yetim içeriği bir cluster’a bağlayın (hub + 2 iç link).",
+              "İç linkleri yalnız blog’da değil, ilgili hizmet/destinasyon sayfalarında da kullanın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-hizmet-silolari-icin-ornekler",
+        "title": "Otel ve Hizmet Silo’ları İçin Örnekler (Cluster Kurgusu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç; raporu teoriden çıkarıp pratik cluster örneklerine oturtmak."
+          },
+          {
+            "type": "h3",
+            "text": "Otel/destinasyon cluster örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hub: Antalya destinasyon sayfası",
+              "Destek: “Antalya aile aktiviteleri”, “Antalya transfer”, “Antalya plajlar”, “Side mi Belek mi?”",
+              "KPI: cluster impressions ↑, CTR ↑, hub dönüşümü ↑, internal links ↑"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hizmet/B2B cluster örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hub: SEO Raporlama sayfası",
+              "Destek: “SEO raporu KPI rehberi”, “GA4+GSC birlikte okuma”, “landing analizi”, “storytelling”",
+              "KPI: cluster visibility ↑, demo/lead ↑, backlink sinyali ↑"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "technical",
+            "title": "Technical Not (sheet)",
+            "items": [
+              "Sadece blog değil, hizmet ve ürün sayfalarının da ilgili cluster’lara bağlanması gerekir; aksi hâlde içerik otoritesi siteye tam yansımaz."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Blog–hizmet sayfası bağlantıları var mı?",
+              "Cluster’lar silo mantığıyla uyumlu mu?",
+              "Her cluster için “büyütme” ve “onarım” listesi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Cluster raporunda mutlaka “hub URL” ve “hizmet bağlantıları” sütunu olsun.",
+              "Silo içinde iç link standardı belirleyin (hub↔destek↔hizmet).",
+              "Cluster’ları yeni hizmet/destinasyon eklendikçe güncelleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-topic-cluster-performans-tablosu",
+        "title": "Örnek Topic Cluster Performans Tablosu (Hub–Cluster KPI)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Örnek topic cluster performans tablosu (hub–cluster KPI)",
+            "headers": [
+              "Cluster",
+              "Hub URL",
+              "Destek içerik sayısı",
+              "Impressions",
+              "CTR",
+              "Organik sessions",
+              "Visibility trend",
+              "Backlink sinyali",
+              "Internal link sağlığı",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "SEO Raporlama",
+                "/seo/seo-raporlama",
+                "8",
+                "yüksek",
+                "orta",
+                "yüksek",
+                "↑",
+                "orta",
+                "iyi",
+                "hub CTA + destek içerik refresh"
+              ],
+              [
+                "İçerik SEO",
+                "/seo/icerik-seo",
+                "12",
+                "yüksek",
+                "düşük",
+                "orta",
+                "→",
+                "zayıf",
+                "orta",
+                "snippet/meta + FAQ + iç link güçlendirme"
+              ],
+              [
+                "Backlink Yönetimi",
+                "/seo/backlink-yonetimi",
+                "10",
+                "orta",
+                "orta",
+                "orta",
+                "↑",
+                "güçlü",
+                "iyi",
+                "data/görsel asset + outreach"
+              ],
+              [
+                "Otel SEO",
+                "/otel/seo",
+                "15",
+                "yüksek",
+                "orta",
+                "yüksek",
+                "↑",
+                "orta",
+                "geliştirilmeli",
+                "yetim içerikleri hub’a bağlama"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cluster-iyilestirme-plani-refresh-consolidation",
+        "title": "Fark Yaratan Kapanış — Cluster İyileştirme Planı (Refresh + Consolidation)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok içerikli projelerde “tekil URL raporu” anlamlı ama eksik kalır; çünkü gerçek karar “hangi cluster’a yatırım yapacağız?” sorusudur. Raporunuz şu üç kararı hızlandırmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Refresh: iyi içerik güncellenmeli mi?",
+              "Consolidation: benzer içerikler birleştirilmeli mi?",
+              "Expansion: cluster’da eksik alt konular var mı?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Topic Cluster Performans Analizi Talep Et",
+            "text": "Cluster tablosu + iç link haritası + refresh/consolidation aksiyon planı isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "topic-cluster-performans-tablosu-aksiyon-sablonu",
+        "title": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir — SEO / Topic Cluster",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir — SEO / Topic Cluster (v1.0)",
+            "purpose": "Bu asset, içerik portföyünü URL bazından çıkarıp hub + cluster bazında ölçmenizi sağlar. Her cluster için görünürlük, trafik, sıralama trendi, backlink ve iç link sağlığını tek tabloda toplayarak “hangi konu alanına yatırım yapacağız?” kararını hızlandırır. Yetim içerikleri tespit eder ve refresh/consolidation + üretim planını sprint’e bağlar.",
+            "whoFor": "İçerik lideri, SEO lead, ajans yöneticisi ve yüksek içerik hacimli site ekipleri.",
+            "steps": [
+              "10–20 ana cluster belirle; her birine 1 hub + destek içerikleri bağla.",
+              "Tabloyu doldur (impressions/CTR/sessions/visibility/backlink/internal link).",
+              "Zayıf cluster’lar için checklist’i uygula ve 14 günlük sprint planını başlat."
+            ],
+            "checklist": [
+              "Cluster listesi güncel (yeni hizmet/destinasyon eklendiyse eklendi)",
+              "Her cluster’da tek hub net (çift hub yok)",
+              "Her içerik bir cluster’a bağlı (yetim içerik listesi çıkarıldı)",
+              "Hub’a giden internal link sayısı ölçüldü (min hedef belirlendi)",
+              "Cluster KPI seti standart (her cluster aynı sütunlarla raporlanıyor)",
+              "Backlink sinyali hub ve cluster toplamında ölçüldü",
+              "Brand/non-brand etkisi notlandı (cluster büyümesi nereden geliyor?)",
+              "“Büyüt” (expansion) ve “Onar” (refresh/consolidation) listeleri ayrıldı"
+            ],
+            "tables": [
+              {
+                "title": "Problem → Kök Neden → Çözüm Tablosu",
+                "headers": [
+                  "Problem",
+                  "Kök neden",
+                  "Çözüm"
+                ],
+                "rows": [
+                  [
+                    "Cluster impressions var, CTR düşük",
+                    "snippet/vaat zayıf, SERP yoğun",
+                    "hub title/meta + FAQ + destek içeriklerden hub’a link"
+                  ],
+                  [
+                    "Trafik var, hub dönüşümü düşük",
+                    "niyet/CTA/UX sürtünmesi",
+                    "hub’da ilk ekran vaadi + CTA + kanıt blokları"
+                  ],
+                  [
+                    "Cluster görünürlük trendi düşüyor",
+                    "içerikler eski, rakip daha kapsamlı",
+                    "refresh planı + yeni alt konular + internal link"
+                  ],
+                  [
+                    "Yetim içerik çok",
+                    "iç link kurgusu yok",
+                    "orphan sprint: her içerikten hub’a + 2 çapraz link"
+                  ],
+                  [
+                    "Backlink yok",
+                    "referans değeri düşük",
+                    "data/görsel asset + outreach + hub güçlendirme"
+                  ]
+                ]
+              },
+              {
+                "title": "14 Günlük Sprint Planı",
+                "headers": [
+                  "Gün",
+                  "Aksiyon"
+                ],
+                "rows": [
+                  [
+                    "Gün 1",
+                    "Cluster listesi + hub eşleştirmesi"
+                  ],
+                  [
+                    "Gün 2",
+                    "İçerik envanteri (cluster içerik sayıları) + orphan tespiti"
+                  ],
+                  [
+                    "Gün 3",
+                    "Cluster KPI çekimi (GSC+GA4)"
+                  ],
+                  [
+                    "Gün 4",
+                    "Hub KPI analizi (CTR, dönüşüm, giriş sayfaları)"
+                  ],
+                  [
+                    "Gün 5",
+                    "Zayıf cluster seçimi (Top 3) + kök neden"
+                  ],
+                  [
+                    "Gün 6",
+                    "Orphan bağlama (hub linkleri + çapraz linkler)"
+                  ],
+                  [
+                    "Gün 7",
+                    "Hub snippet/FAQ güncellemesi"
+                  ],
+                  [
+                    "Gün 8",
+                    "2 destek içeriği refresh (en çok potansiyel)"
+                  ],
+                  [
+                    "Gün 9",
+                    "Yeni içerik fırsat listesi (cluster gap)"
+                  ],
+                  [
+                    "Gün 10",
+                    "Backlink hedefli “asset” planı (grafik/tablo/checklist)"
+                  ],
+                  [
+                    "Gün 11",
+                    "İç link haritası final + kontrol"
+                  ],
+                  [
+                    "Gün 12",
+                    "Önce/sonra baseline kaydı"
+                  ],
+                  [
+                    "Gün 13",
+                    "Yönetici özeti: 3 başarı + 3 risk + 3 aksiyon"
+                  ],
+                  [
+                    "Gün 14",
+                    "Bir sonraki sprint backlog’u"
+                  ]
+                ]
+              },
+              {
+                "title": "Öncesi / Sonrası KPI Tablosu",
+                "headers": [
+                  "KPI",
+                  "Öncesi",
+                  "Sonrası",
+                  "Not"
+                ],
+                "rows": []
+              }
+            ],
+            "deliverables": [
+              "Cluster performans tablosu (dolu)",
+              "Orphan içerik listesi + bağlama planı",
+              "Top 3 zayıf cluster aksiyon planı",
+              "14 günlük sprint backlog’u",
+              "Yönetici özeti (1 sayfa)"
+            ],
+            "media": [
+              {
+                "slot": "table-cluster-performance",
+                "title": "Cluster performans tablosu görseli",
+                "purpose": "Portföy raporu, otel/hizmet bağlamı"
+              },
+              {
+                "slot": "diagram-05",
+                "title": "Diagram",
+                "purpose": "Hub–cluster ilişkisi, SEO bağlamı"
+              },
+              {
+                "slot": "checklist-06",
+                "title": "Checklist Card",
+                "purpose": "Cluster iyileştirme checklist, içerik ekibi bağlamı"
+              }
+            ],
+            "href": "/downloads/topic-cluster-performans-tablosu-aksiyon-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Topic cluster raporu, içerik portföyünü yönetilebilir hale getirir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Topic cluster performans raporu, SEO içeriklerini tek tek “iyi/kötü” diye okumak yerine, konu kümeleri üzerinden portföy mantığıyla yönetmenizi sağlar. Böylece hangi hub’ın güçlendiğini, hangi destek içeriklerin otorite taşıdığını, hangi içeriklerin yetim kaldığını ve hangi cluster’ların yeniden yapılandırılması gerektiğini net görürsünüz."
+          },
+          {
+            "type": "p",
+            "text": "En güçlü rapor; görünürlük, trafik, sıralama, backlink ve iç link sağlığını tek tabloda birleştirir. Bu tablo yalnızca performans ölçmez; refresh, consolidation, expansion ve outreach kararlarını da hızlandırır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Topic Cluster Performans Analizi Talep Et",
+            "text": "Cluster tablosu + iç link haritası + refresh/consolidation aksiyon planı isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir",
+            "text": "Cluster KPI’larını tek tabloda toplar; yetim içerikleri ve iyileştirme aksiyonlarını sprint planına çevirmenizi sağlar.",
+            "href": "/seo/icerik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Topic cluster performans raporu nasıl hazırlanır?",
+        "a": "Önce cluster’ları ve her birinin hub sayfasını belirleyin; destek içerikleri hub’a bağlayın. Sonra her cluster için görünürlük (impressions/CTR), trafik, sıralama trendi, backlink ve internal link sağlığını tek tabloda toplayıp aksiyon planı çıkarın."
+      },
+      {
+        "q": "Hub ve destekleyici içerikleri raporda nasıl birleştiririm?",
+        "a": "Rapor tablosunda “hub URL” sütunu açın ve cluster içindeki tüm URL’leri bu hub’a bağlayın. KPI’ları cluster toplamında gösterin; ayrıca hub için ayrı bir dönüşüm/CTA KPI’sı ekleyin."
+      },
+      {
+        "q": "Cluster KPI’ları neler olmalı?",
+        "a": "Minimum set: cluster impressions/clicks/CTR, GA4 organik sessions, görünürlük trendi (SOV/visibility), backlink sinyali ve internal link sağlığıdır. İsterseniz hub dönüşümünü ekleyerek iş etkisini görünür kılarsınız."
+      },
+      {
+        "q": "Zayıf kalan cluster’ları nasıl güçlendiririm?",
+        "a": "Önce yetim içerikleri hub’a bağlayın, sonra hub’ın snippet/FAQ/vaadini güçlendirin. En çok potansiyelli 2–3 içeriği refresh edin ve cluster’da eksik alt konular için yeni içerik planı çıkarın."
+      },
+      {
+        "q": "Yetim içerik nedir, nasıl tespit edilir?",
+        "a": "Bir cluster’a bağlanmayan veya hub’dan link almayan içeriktir. İç link sayısı zayıfsa ve içerik diğer sayfalara akış üretmiyorsa yetim olma ihtimali yüksektir; orphan listesi çıkarıp bağlama sprint’i yapın."
+      },
+      {
+        "q": "Blog dışı sayfaları cluster’a bağlamak neden önemli?",
+        "a": "Çünkü otoritenin siteye “iş etkisi” olarak yansıması çoğu zaman hizmet/destinasyon sayfalarında olur. Blog yalnız kalırsa, cluster otoritesi dönüşüme tam taşınmaz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-hero-01.webp",
+          "h1-context — 1920×1080 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-h1-context-02.webp",
+          "divider-01 — 1600×1200 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-divider-03.webp",
+          "divider-02 — 1600×1200 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-divider-04.webp",
+          "diagram-05 — 1920×1080 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-diagram-05.webp",
+          "checklist-06 — 1200×1200 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-kpi-07.webp",
+          "proof-08 — 1200×1200 — icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir-proof-08.webp",
+          "table-cluster-performance — Örnek topic cluster performans tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+          "table-before-after-kpi — Öncesi / Sonrası KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "Cluster listesi güncel tutulmalı; yeni hizmet/destinasyon eklendikçe güncellenmeli",
+          "Her cluster için tek hub sayfa belirlenmeli",
+          "Her destek içerik bir cluster’a bağlanmalı",
+          "Hub’a giden internal link sayısı ölçülmeli",
+          "Cluster KPI seti standartlaştırılmalı: impressions, clicks, CTR, sessions, visibility, backlink, internal link",
+          "KPI’lar hem cluster toplamında hem hub özelinde okunmalı",
+          "Yetim içerik listesi çıkarılmalı ve orphan sprint planı yapılmalı",
+          "Blog–hizmet/destinasyon sayfası bağlantıları kontrol edilmeli",
+          "Zayıf cluster’lar için refresh, consolidation ve expansion kararları ayrıştırılmalı",
+          "Top 3 zayıf cluster için 14 günlük sprint backlog’u oluşturulmalı"
+        ]
+      }
+    }
+  }
 
 }

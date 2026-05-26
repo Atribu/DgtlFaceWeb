@@ -38574,6 +38574,108 @@ export const BLOG_MEDIA_MAP = {
       alt: "0–6 ay off-page deliverables kartı, kaynak listesi ve kontrol raporu",
       caption: "0–6 ay off-page deliverables kartı, kaynak listesi ve kontrol raporu"
     }
+  },
+
+
+  "teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir":{
+      banner: {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-1.webp",
+      alt: "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
+      caption: "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-2.webp",
+      alt: "CWV ve tarama bulgularını eşleme, amaç önceliklendirme, turizm sitesi bağlamı",
+      caption: "CWV ve tarama bulgularını eşleme, amaç önceliklendirme, turizm sitesi bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-3.webp",
+    alt: "CWV metrik geçiş görseli, amaç raporu okumak, performans odaklı bağlam",
+      caption: "CWV metrik geçiş görseli, amaç raporu okumak, performans odaklı bağlam"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-4.webp",
+      alt: "Öncelik ve sprint planı geçişi, amaç aksiyon planı, ajans raporlama bağlamı",
+      caption: "Öncelik ve sprint planı geçişi, amaç aksiyon planı, ajans raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-5.webp",
+      alt: "Sorun kök neden etki akışı, amaç teknikten sonuca bağlamak, otel dönüşüm bağlamı",
+      caption: "Sorun kök neden etki akışı, amaç teknikten sonuca bağlamak, otel dönüşüm bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-6.webp",
+      alt: "İlk 10 teknik kontrol kartı, amaç hızlı kazanım, teknik ekip bağlamı",
+      caption: "İlk 10 teknik kontrol kartı, amaç hızlı kazanım, teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-7.webp",
+      alt: "LCP CLS INP ve tarama KPI kartı, amaç yönetici özeti, kurumsal bağlam",
+      caption: "LCP CLS INP ve tarama KPI kartı, amaç yönetici özeti, kurumsal bağlam"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-6/SEO5-6-8.webp",
+      alt: "Teknik sprint deliverables kartı, amaç güven ve takip, ajans sunumu bağlamı",
+      caption: "Teknik sprint deliverables kartı, amaç güven ve takip, ajans sunumu bağlamı"
+    }
+  },
+
+
+  "icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir":{
+      banner: {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-1.webp",
+      alt: "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?",
+      caption: "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-2.webp",
+      alt: "Hub ve cluster portföy görünümü, amaç karar vermek, ajans raporlama bağlamı",
+      caption: "Hub ve cluster portföy görünümü, amaç karar vermek, ajans raporlama bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-3.webp",
+    alt: "Cluster raporlama geçişi, amaç yaklaşımı değiştirmek, kurumsal SEO bağlamı",
+      caption: "Cluster raporlama geçişi, amaç yaklaşımı değiştirmek, kurumsal SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-4.webp",
+      alt: "Yetim içerik ve iç link geçişi, amaç yapı iyileştirmek, içerik ekibi bağlamı",
+      caption: "Yetim içerik ve iç link geçişi, amaç yapı iyileştirmek, içerik ekibi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-5.webp",
+      alt: "Hub–cluster ilişkisi diyagramı, amaç otorite modelini göstermek, SEO bağlamı",
+      caption: "Hub–cluster ilişkisi diyagramı, amaç otorite modelini göstermek, SEO bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-6.webp",
+      alt: "Cluster iyileştirme checklist kartı, amaç aksiyon planı, içerik ekip bağlamı",
+      caption: "Cluster iyileştirme checklist kartı, amaç aksiyon planı, içerik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-7.webp",
+      alt: "Cluster KPI skor kartı, amaç trend okuma, otel ve B2B bağlamı",
+      caption: "Cluster KPI skor kartı, amaç trend okuma, otel ve B2B bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-7/SEO5-7-8.webp",
+      alt: "Cluster rapor deliverables kartı, amaç portföy yönetimi, kurumsal bağlamı",
+      caption: "Cluster rapor deliverables kartı, amaç portföy yönetimi, kurumsal bağlamı"
+    }
   }
 
 
