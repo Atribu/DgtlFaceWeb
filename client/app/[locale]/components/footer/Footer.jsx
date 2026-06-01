@@ -14,6 +14,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link as LocalizedLink } from "@/i18n/navigation";
 import { buildLocalizedBlogListingPath } from "@/app/lib/blog-route-segments";
 import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
+import { getLocalizedHref } from "@/app/lib/localized-route-hrefs";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -64,7 +65,10 @@ export default function Footer() {
 
     { href: "/Services/hotel", label:t("hotel") },
  
-  ];
+  ].map((category) => ({
+    ...category,
+    href: getLocalizedHref(category.href, currentLocale),
+  }));
 
   const faqCategoryRoutes = [
     { tr: "sem-sss", en: "search-engine-marketing-faq", label: t("semSSS") },
@@ -172,7 +176,7 @@ export default function Footer() {
               
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
   {allServices.map((cat, index) => (
-    <LocalizedLink prefetch={false}
+    <NextLink prefetch={false}
       key={cat.href}
       href={cat.href}
       className={`
@@ -181,7 +185,7 @@ export default function Footer() {
       `}
     >
       {cat.label}
-    </LocalizedLink>
+    </NextLink>
   ))}
 </div>
 
@@ -273,24 +277,24 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
                 <div className="flex flex-col gap-[8px]">
                   {leftServices.map((cat) => (
-                    <LocalizedLink prefetch={false}
+                    <NextLink prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
                     >
                       {cat.label}
-                    </LocalizedLink>
+                    </NextLink>
                   ))}
                 </div>
                 <div className="flex flex-col gap-[8px] text-white">
                   {rightServices.map((cat) => (
-                    <LocalizedLink prefetch={false}
+                    <NextLink prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
                     >
                       {cat.label}
-                    </LocalizedLink>
+                    </NextLink>
                   ))}
                 </div>
               </div>

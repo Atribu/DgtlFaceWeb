@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
+import { getLocalizedHref } from "@/app/lib/localized-route-hrefs";
 
 // URL segment → Header.json key map
 const SEGMENT_TO_HEADER_KEY = {
@@ -154,7 +155,7 @@ const AutoBreadcrumbs = ({ className = "" }) => {
 
   if (!hasServicesSegment && firstServiceIndex !== -1) {
     items.push({
-      href: `/${locale}/Services`,
+      href: getLocalizedHref("/Services", locale),
       label: tHeader("services"), // Header.json → "Hizmetlerimiz"
     });
   }
@@ -217,7 +218,7 @@ const AutoBreadcrumbs = ({ className = "" }) => {
                     </span>
                   ) : (
                     <Link
-                      href={item.href}
+                      href={getLocalizedHref(item.href, locale)}
                       className="px-[6px] lg:px-2 py-0.5 rounded-full bg-white/5 text-white/90  hover:bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF] transition-colors duration-150"
                     >
                       {item.label}

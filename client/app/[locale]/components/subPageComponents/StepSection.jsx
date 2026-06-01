@@ -2,9 +2,10 @@
 import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link as LocalizedLink, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { normalizeHtmlLinks } from "@/app/lib/localized-route-hrefs";
 
 const LOCALIZED_PATH_TO_INTERNAL = Object.entries(routing.pathnames || {}).reduce(
   (acc, [internalPath, localizedValue]) => {
@@ -51,6 +52,7 @@ function resolveStepHref(rawHref) {
 }
 
 const StepSection = ({ header, header2, text, servicesData = [], buttonText, page }) => {
+  const locale = useLocale();
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     loop: false,
@@ -208,7 +210,11 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
                       className="flex left-[15px] md:left-[130px] top-[70px] lg:top-[140px] absolute text-left text-[12px] lg:text-[14px] leading-[110%] w-[89%] lg:w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1"
                     >
                       {card.text ? (
-                        <div dangerouslySetInnerHTML={{ __html: card.text }} />
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: normalizeHtmlLinks(card.text, locale),
+                          }}
+                        />
                       ) : (
                         <>{card.text}</>
                       )}
@@ -228,7 +234,11 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
                       className=" md:flex left-[50px] text-left text-[12px] lg:text-[14px] leading-[110%] top-[330px] absolute opacity-0 inline-flex flex-col gap-2 transform-gpu group-hover:opacity-100 group-hover:-translate-y-56 transition-[opacity,transform] duration-500 ease-out text-white w-[70%] [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1"
                     >
                       {card.text ? (
-                        <div dangerouslySetInnerHTML={{ __html: card.text }} />
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: normalizeHtmlLinks(card.text, locale),
+                          }}
+                        />
                       ) : (
                         <p>{card.text}</p>
                       )}

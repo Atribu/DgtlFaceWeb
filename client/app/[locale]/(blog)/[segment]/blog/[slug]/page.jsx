@@ -531,6 +531,33 @@ function normalizeBlogJsonLdData(data, siteUrl) {
   return normalizeJsonLdUrlString(data, siteUrl);
 }
 
+function alignBlogJsonLdWebPage(data, pageUrl, pageTitle) {
+  if (Array.isArray(data)) {
+    return data.map((item) => alignBlogJsonLdWebPage(item, pageUrl, pageTitle));
+  }
+
+  if (!data || typeof data !== "object") {
+    return data;
+  }
+
+  const normalizedEntries = Object.entries(data).map(([key, value]) => [
+    key,
+    alignBlogJsonLdWebPage(value, pageUrl, pageTitle),
+  ]);
+  const normalizedData = Object.fromEntries(normalizedEntries);
+
+  if (normalizedData["@type"] !== "WebPage") {
+    return normalizedData;
+  }
+
+  return {
+    ...normalizedData,
+    "@id": `${pageUrl}#webpage`,
+    url: pageUrl,
+    ...(pageTitle ? { name: pageTitle } : {}),
+  };
+}
+
 // Türkçe yorum: Department label
 function deptLabel(dept) {
   const map = {
@@ -591,7 +618,7 @@ export default async function BlogDetailPage({ params }) {
     department,
     slug
   );
-  const { postKey, post, redirectPath } = await resolveBlogPostState({
+  const { postKey, post, redirectPath, localizedSlugs } = await resolveBlogPostState({
     locale,
     department,
     slug,
@@ -692,7 +719,22 @@ export default async function BlogDetailPage({ params }) {
     BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
     BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
     null;
-  const jsonLd = rawJsonLd ? normalizeBlogJsonLdData(rawJsonLd, siteUrl) : null;
+  const canonicalSlug =
+    localizedSlugs?.[locale] ||
+    getLocalizedBlogSlug({ locale, post, postKey, fallbackSlug: slug }) ||
+    slug;
+  const blogPageUrl = new URL(
+    buildBlogHref(locale, department, canonicalSlug) ||
+      `/${locale}/${department}/blog/${canonicalSlug}`,
+    siteUrl
+  ).toString();
+  const jsonLd = rawJsonLd
+    ? alignBlogJsonLdWebPage(
+        normalizeBlogJsonLdData(rawJsonLd, siteUrl),
+        blogPageUrl,
+        post.title
+      )
+    : null;
 
   return (
     <main className="min-h-screen bg-[#120014] text-white">

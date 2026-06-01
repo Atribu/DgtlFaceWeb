@@ -1,7 +1,11 @@
 import React from "react";
+import { useLocale } from "next-intl";
+import { normalizeHtmlLinks } from "@/app/lib/localized-route-hrefs";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 
 const H2LogoSection = ({ items = [] }) => {
+  const locale = useLocale();
+
   if (!items.length) return null;
 
   const isOdd = items.length % 2 === 1;
@@ -15,7 +19,7 @@ const H2LogoSection = ({ items = [] }) => {
       return (
         <div
           className={textClassName}
-          dangerouslySetInnerHTML={{ __html: content }}
+          dangerouslySetInnerHTML={{ __html: normalizeHtmlLinks(content, locale) }}
         />
       );
     }

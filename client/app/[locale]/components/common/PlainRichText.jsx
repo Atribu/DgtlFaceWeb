@@ -2,6 +2,8 @@
 "use client";
 
 import React from "react";
+import { useLocale } from "next-intl";
+import { normalizeHtmlLinks } from "@/app/lib/localized-route-hrefs";
 
 const HTML_ENTITY_MAP = {
   amp: "&",
@@ -44,13 +46,19 @@ export default function PlainRichText({
   as: Tag = "p",
   className = "",
 }) {
+  const locale = useLocale();
+
   if (!html) return null;
+
+  const normalizedHtml = normalizeHtmlLinks(
+    decodeHtmlEntitiesInTextNodes(html),
+    locale
+  );
 
   return (
     <Tag
       className={className}
-      // html string içindeki <b>, <br>, <ul>, <li> vs. doğrudan render edilecek
-      dangerouslySetInnerHTML={{ __html: decodeHtmlEntitiesInTextNodes(html) }}
+      dangerouslySetInnerHTML={{ __html: normalizedHtml }}
     />
   );
 }

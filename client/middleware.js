@@ -63,20 +63,61 @@ const LEGACY_EXACT_REDIRECTS = new Map([
   ["/tr/creative/ui-ux-hizmeti-sss", "/tr/creative/ui-ux-tasarim-sss"],
   ["/tr/creative/video-ve-produksiyon", "/tr/creative/video-produksiyon"],
   ["/tr/creative/video-ve-produksiyon-sss", "/tr/creative/video-produksiyon-sss"],
+  ["/tr/seo/yerel-seo/side", "/tr/seo/yerel-seo"],
   ["/en/services/call-center", "/en/call-center"],
   ["/en/services/digital-analysis", "/en/digital-analysis"],
   ["/en/services/digital-analysis/website-reporting", "/en/digital-analysis/looker-studio"],
   ["/en/services/pms", "/en/pms-ota"],
   ["/en/services/pms/hotel-identification", "/en/pms-ota/pms-integration"],
   ["/en/services/pms/reservation-module", "/en/pms-ota/reservation-management"],
-  ["/en/services/seo/off-page-seo", "/en/search-engine-optimization/backlink-seo"],
-  ["/en/services/software/pdpa-compliance", "/en/software-development/kvkk-compliance-service"],
+  ["/en/services/seo/off-page-seo", "/en/seo/backlink-seo"],
+  ["/en/services/software/pdpa-compliance", "/en/software/kvkk-compliance-service"],
   ["/en/services/software/website-maintenance", "/en/software/website-maintenance"],
   ["/en/Services/smm/smmAds", "/en/smm/social-media-ads"],
+  [
+    "/en/pms-ota/blog/karmaşık-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+    "/tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+  ],
+  [
+    "/en/pms-ota/blog/karma%C5%9F%C4%B1k-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+    "/tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+  ],
+  [
+    "/en/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+    "/tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+  ],
+  [
+    "/en/pms-ota/blog/karma%C5%9Fik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+    "/tr/pms-ota/blog/karmaşik-rezervasyonlar-baglanti-odalar-aile-ve-ozel-istekler",
+  ],
+  ["/en/cms-integration-faq", "/en/software-development/cms-installation-faq"],
+  ["/en/maintenance-support-faq", "/en/software-development/website-maintenance-faq"],
   ["/en/seo-reporting", "/en/seo/seo-reporting"],
+  ["/en/search-engine-optimization/seo-reporting", "/en/seo/seo-reporting"],
   ["/en/server-security-faq", "/en/software-development/server-management-faq"],
   ["/en/software/website-development", "/en/software/website-and-software"],
   ["/en/software/server-security", "/en/software/server-management"],
+  ["/smm/content-production", "/en/social-media-management/social-media-content"],
+  [
+    "/pms-ota/blog/pms-data-migration-and-cleaning-process",
+    "/en/pms-ota/blog/pms-data-migration-and-cleaning-process",
+  ],
+  [
+    "/tr/pms-ota/blog/pms-data-migration-and-cleaning-process",
+    "/en/pms-ota/blog/pms-data-migration-and-cleaning-process",
+  ],
+  [
+    "/pms-ota/blog/ota-rate-parity-price-equalization-strategies",
+    "/en/pms-ota/blog/ota-rate-parity-price-equalization-strategies",
+  ],
+  [
+    "/tr/hotel/blog/how-to-optimize-room-pages-for-google-travel",
+    "/en/hotel/blog/how-to-optimize-room-pages-for-google-travel",
+  ],
+  [
+    "/tr/sem/blog/youtube-targeting-structure-for-hotels",
+    "/en/sem/blog/youtube-targeting-structure-for-hotels",
+  ],
   ["/en/smm/reeels-video", "/en/smm/reels-video"],
   ["/otel-sosyal-medya", "/tr/otel/sosyal-medya"],
   ["/tr/otel-sosyal-medya", "/tr/otel/sosyal-medya"],
@@ -203,6 +244,9 @@ const UNSUPPORTED_LOCALE_EXACT_REDIRECTS = new Map([
   ["/kontakty", "/en/contact"],
   ["/uslugi", "/en/services"],
   ["/Services", "/en/services"],
+  ["/uslugi/razrabotka-po/sootvetstvie-pdpa", "/en/software/kvkk-compliance-service"],
+  ["/uslugi/razrabotka-po/ustanovka-cms", "/en/software/cms-installation"],
+  ["/uslugi/seo/tehnicheskoe-seo", "/en/seo/technical-seo"],
 ]);
 
 const UNSUPPORTED_LOCALE_SERVICE_REDIRECTS = new Map([
@@ -269,7 +313,7 @@ const LEGACY_INTERNAL_ROUTE_MAP = {
   },
   "/Services/software/pdpaCompliance": {
     tr: "/tr/yazilim/kvkk-uyum-hizmeti",
-    en: "/en/software-development/kvkk-compliance-service",
+    en: "/en/software/kvkk-compliance-service",
   },
   "/Services/digitalAnalysis/websiteReportingService": {
     tr: "/tr/raporlama/looker-studio",

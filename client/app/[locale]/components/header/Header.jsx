@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect, useMemo } from "react";
+import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import LangSwitcher from "@/LangSwitcher";
@@ -14,6 +15,7 @@ import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 import { FaQuestion } from "react-icons/fa6";
+import { getLocalizedHref } from "@/app/lib/localized-route-hrefs";
 
 const SERVICE_MENU_CONFIG = [
   {
@@ -147,19 +149,20 @@ const Header = () => {
 const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
   const shouldHydrateServicesConfig = isOpen || isMobileServicesOpen;
+  const servicesHref = getLocalizedHref("/Services", locale);
   const servicesConfig = useMemo(() => {
     if (!shouldHydrateServicesConfig) return [];
 
     return SERVICE_MENU_CONFIG.map((service) => ({
       key: service.key,
       label: t(service.labelKey),
-      href: service.href,
+      href: getLocalizedHref(service.href, locale),
       subLinks: service.subLinks.map((item) => ({
         label: t(item.labelKey),
-        href: item.href,
+        href: getLocalizedHref(item.href, locale),
       })),
     }));
-  }, [shouldHydrateServicesConfig, t]);
+  }, [locale, shouldHydrateServicesConfig, t]);
 
 
 
@@ -229,11 +232,11 @@ onMouseLeave={() => {
 }}
   ref={dropdownRef}
 >
-  <Link prefetch={false} href="/Services">
+  <NextLink prefetch={false} href={servicesHref}>
     <button className="hover:text-gray-300 focus:outline-none">
       {t("services")}
     </button>
-  </Link>
+  </NextLink>
 
   {/* Hover buffer */}
   <div className="absolute top-full left-0 w-full h-2" />
@@ -258,7 +261,7 @@ onMouseLeave={() => {
   >
 
     {/* Üst başlık */}
-    <Link prefetch={false}
+    <NextLink prefetch={false}
 
 
       href={service.href}
@@ -272,7 +275,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
       onMouseEnter={() => setActiveService(service.key)}
     >
       {service.label}
-    </Link>
+    </NextLink>
 
 {service.subLinks && service.subLinks.length > 0 && (
   <div
@@ -300,12 +303,12 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
     <ul className="relative z-10 flex flex-col gap-2 text-[12px] text-white/80">
       {service.subLinks.map((item) => (
         <li key={item.href}>
-          <Link prefetch={false}
+          <NextLink prefetch={false}
             href={item.href}
             className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
           >
             {item.label}
-          </Link>
+          </NextLink>
         </li>
       ))}
     </ul>
@@ -437,8 +440,8 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
             className="flex gradient-border-button p-[15px] items-center justify-between text-center h-[57px] w-full !bg-[#140015]"
           >
             {/* Sol taraf: ikon + yazı → /Services'e gider */}
-            <Link prefetch={false}
-              href="/Services"
+            <NextLink prefetch={false}
+              href={servicesHref}
               className="flex items-center gap-[12px] flex-1"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -446,7 +449,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
               <p className="text-[14px] font-medium leading-normal -tracking-[0.3px] text-left">
                 {t("services")}
               </p>
-            </Link>
+            </NextLink>
 
             {/* Sağ taraf: ok → sadece paneli aç/kapa */}
             <button
@@ -491,7 +494,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
             <div className="max-h-[320px] overflow-y-auto pr-1">
               <div className="grid grid-cols-2 gap-[10px]">
                 {servicesConfig.map((service) => (
-                  <Link prefetch={false}
+                  <NextLink prefetch={false}
                     key={service.key}
                     href={service.href}
                       className="group relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200"
@@ -499,7 +502,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {service.label}
-                  </Link>
+                  </NextLink>
                 ))}
               </div>
             </div>
