@@ -7619,7 +7619,7 @@
           },
           {
             "q": "DGTLFACE sonuç odaklı mı çalışır, hangi KPI’ları takip eder?",
-            "a": "Evet, modelimiz sonuç odaklıdır. Takip ettiğimiz temel KPI seti proje tipine göre değişse de genellikle: Organik trafik ve görünürlük metrikleri (SEO) Kampanya bazında tıklama, dönüşüm ve ROAS (reklam) Etkileşim, erişim ve yönlendirme trafiği (sosyal medya) Rezervasyon/sipariş hacmi ve gelir (otel & e-ticaret) Doluluk, ADR, RevPAR gibi otel performans metrikleri Dönüşüm hunisi ve form / çağrı / mesaj sayıları üzerinden raporlanır. (→ /Services/digitalAnalysis)"
+            "a": "Evet, modelimiz sonuç odaklıdır. Takip ettiğimiz temel KPI seti proje tipine göre değişse de genellikle: Organik trafik ve görünürlük metrikleri (SEO) Kampanya bazında tıklama, dönüşüm ve ROAS (reklam) Etkileşim, erişim ve yönlendirme trafiği (sosyal medya) Rezervasyon/sipariş hacmi ve gelir (otel & e-ticaret) Doluluk, ADR, RevPAR gibi otel performans metrikleri Dönüşüm hunisi ve form / çağrı / mesaj sayıları üzerinden raporlanır. (<a href=\"/Services/digitalAnalysis\">Dijital analiz ve raporlama →</a>)"
           },
           {
             "q": "DGTLFACE sadece Antalya’daki otellerle mi çalışıyor?",
@@ -8066,7 +8066,7 @@
         "items": [
           {
             "q": "SEO hizmetinizin kapsamı nedir?",
-            "a": "SEO hizmeti; teknik SEO analizi, içerik stratejisi, bilgi mimarisi, anahtar kelime haritaları, sayfa içi optimizasyon, blog/SSS içerikleri, link yapısı ve raporlamayı kapsar. Özellikle otel ve turizm projelerinde, destinasyon ve pazar bazlı içerik kurgusuna önem veriyoruz. <seo>(→ /Services/seo)</seo>"
+            "a": "SEO hizmeti; teknik SEO analizi, içerik stratejisi, bilgi mimarisi, anahtar kelime haritaları, sayfa içi optimizasyon, blog/SSS içerikleri, link yapısı ve raporlamayı kapsar. Özellikle otel ve turizm projelerinde, destinasyon ve pazar bazlı içerik kurgusuna önem veriyoruz. <seo>(→ Seo)</seo>"
           },
           {
             "q": "Reklam (Google Ads) hizmetiniz nasıl yapılandırılıyor?",
@@ -8074,11 +8074,11 @@
           },
           {
             "q": "Sosyal medya yönetimi hizmetiniz neleri kapsar?",
-            "a": "Sosyal medya tarafında; strateji ve içerik planı, görsel ve video içerik üretimi, topluluk yönetimi, mesaj ve yorum takibi, reklam destekli büyüme, aylık performans raporları sunuyoruz. Otellerde; konsept, sezon ve GEO’ya göre içerik dili şekillendiriliyor. <smm>(→ /Services/sem)</smm>"
+            "a": "Sosyal medya tarafında; strateji ve içerik planı, görsel ve video içerik üretimi, topluluk yönetimi, mesaj ve yorum takibi, reklam destekli büyüme, aylık performans raporları sunuyoruz. Otellerde; konsept, sezon ve GEO’ya göre içerik dili şekillendiriliyor. <smm>(→ Smm)</smm>"
           },
           {
             "q": "Web geliştirme ve yazılım tarafında hangi teknolojilerle çalışıyorsunuz?",
-            "a": "Projeye göre değişmekle birlikte, modern ve performans odaklı teknolojiler kullanıyoruz (örneğin Next.js, React, modern CMS çözümleri vb.). Otel ve kurumsal projelerde; hız ve Core Web Vitals (Temel Web Performans Metrikleri), mobil uyumluluk, çok dilli yapı, rezervasyon ve form entegrasyonları kritik başlıklar olarak ele alınıyor. <software>(→ /tr/web-ve-yazilim-hizmetleri)</software>"
+            "a": "Projeye göre değişmekle birlikte, modern ve performans odaklı teknolojiler kullanıyoruz (örneğin Next.js, React, modern CMS çözümleri vb.). Otel ve kurumsal projelerde; hız ve Core Web Vitals (Temel Web Performans Metrikleri), mobil uyumluluk, çok dilli yapı, rezervasyon ve form entegrasyonları kritik başlıklar olarak ele alınıyor. <software>(→ Web ve yazılım hizmetleri)</software>"
           },
           {
             "q": "OTA–PMS yönetimi ve entegrasyon tarafında ne yapıyorsunuz?",
@@ -8090,7 +8090,7 @@
           },
           {
             "q": "Veri analizi ve raporlama hizmetinizin farkı nedir?",
-            "a": "Veri analizi hizmeti; yalnızca sayıları göstermekten öte, karar destek amaçlıdır. Google Analytics, reklam panelleri, PMS ve gelir verilerini birleştirir; Looker Studio gibi araçlarla dashboard’lar kurar; KPI’ları yönetim seviyesinde anlaşılır hale getirir. <reporting>(→ /Services/digitalAnalysis)</reporting>"
+            "a": "Veri analizi hizmeti; yalnızca sayıları göstermekten öte, karar destek amaçlıdır. Google Analytics, reklam panelleri, PMS ve gelir verilerini birleştirir; Looker Studio gibi araçlarla dashboard’lar kurar; KPI’ları yönetim seviyesinde anlaşılır hale getirir. <reporting>(→ Dijital analiz ve raporlama)</reporting>"
           },
           {
             "q": "Creative hizmetler (görsel, video, kampanya konsepti) nasıl devreye giriyor?",
