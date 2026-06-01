@@ -69327,6 +69327,1929 @@
         ]
       }
     }
+  },
+
+  "BlogYerelSeoVeHaritaPerformansiniSeoRaporunaNasilDahilEdersiniz": {
+    "title": "Yerel SEO ve Harita KPI’larını SEO Raporuna Ekle",
+    "slug": "yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "1 Haziran 2026",
+    "publishedAt": "2026-06-01",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "GBP metriklerini organik SEO raporuna dahil ederek map views, calls, direction requests ve website clicks verilerini GA4 local landing performansıyla birlikte okuyun.",
+    "seo": {
+      "metaTitle": "Yerel SEO ve Harita KPI’larını SEO Raporuna Ekle | DGTLFACE",
+      "metaDescription": "GBP metriklerini (map views, calls, direction requests) organik verilerle birleştir. Harita→site funnel’ını raporla, local landing performansını ölç, yerel keyword görünürlüğünü trendle."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz"
+      ],
+      "strategySummary": "Bu içerik, SEO raporlama silosunda “organik rapor var ama yerel görünürlük yok” eksiğini kapatan, local+organic visibility yaklaşımını standardize eden otorite yazıdır. Hedef persona; otel/yerel işletme sahibi, pazarlama yöneticisi ve ajans yöneticisidir: “Haritalar/Local Pack etkisini iş hedeflerine nasıl bağlarım?” sorusunu çözmek ister. Funnel MoFu’dadır; raporu bütçe, içerik ve GBP optimizasyon kararlarına bağlar. Ana iş sorusu: “Map views→site→call/rota→rezervasyon/lead” yerel funnel’ını SEO raporuna nasıl ekleyip doğru karar alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-01",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yerel SEO raporu; klasik organik metriklere ek olarak Google Haritalar/Local Pack performansını da kapsar. Google Business Profile’da map views, calls, direction requests ve website tıklamaları; yerel görünürlüğün ana KPI’larıdır. En doğru yöntem, bu metrikleri GA4’teki local landing trafik/dönüşüm verileriyle aynı tarih aralığında yan yana okumak ve “harita→site→arama/rota” akışından net aksiyon çıkarmaktır. Tarih aralığı ve filtre tutarlılığı kritik olduğu için raporda standartlaştırılmalıdır.",
+      "sgeSummary": "GBP’den map views–calls–direction requests al, GA4’te local landing performansıyla eşleştir. Harita→site funnel’ını raporla, “hizmet+şehir” keyword görünürlüğünü trendle ve aksiyon listesi çıkar.",
+      "voiceAnswer": "Yerel SEO’yu rapora eklemek için GBP KPI’larını GA4 local landing verisiyle aynı dönemde birleştirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel ve lokal işletme yöneticileri, ajanslar",
+        "Entity Theme: Local SEO KPIs; Map Views; GBP Stats; Local Landing Pages",
+        "Semantic theme: local+organic visibility; map→site funnel; hybrid reporting",
+        "KPI seti: map views, calls, direction requests, website clicks + local landing sessions/conversions + local keyword visibility",
+        "Funnel: Harita görünürlüğü → etkileşim → site → lead/rezervasyon",
+        "Geo: TR geneli; otel/restoran/klinik gibi lokal işletmeler",
+        "Çıktı: Birleşik tablo + KPI kartları + yerel+organik rapor checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Yerel SEO ve Harita Performansını SEO Raporuna Nasıl Dahil Edersiniz?",
+      "intro": "Birçok SEO raporu yalnızca “klasik organik” sonuçlara odaklanır: Search Console tıklama/CTR/konum, GA4 organik oturum ve dönüşüm… Ancak oteller ve yerel işletmeler için gerçek görünürlüğün önemli bir kısmı Google Haritalar (Maps) ve Local Pack üzerinden yaşanır. Kullanıcı “otel + şehir” arar, haritaya bakar, rotayı açar, arar veya web sitesine tıklar; bu akış raporda yoksa karar da eksik olur. Bu rehberde, Google Business Profile (GBP) KPI’larını GA4 ve Search Console ile birleştirerek harita→site→call/rota funnel’ını rapora nasıl ekleyeceğinizi adım adım kuruyoruz.",
+      "quickSummary": [
+        "1) GBP KPI’larını ayrı blok olarak rapora ekle",
+        "2) Map views, website clicks, calls ve direction requests metriklerini birlikte oku",
+        "3) GBP verisini GA4 local landing sessions/conversions ile aynı tarih aralığında eşleştir",
+        "4) Yerel keyword kümelerini şehir/konsept/hizmet bazında trendle",
+        "5) Raporu KPI kartları, birleşik tablo ve aksiyon listesiyle kapat"
+      ],
+      "ctaPrimary": {
+        "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
+        "text": "Harita performansını organik rapora bağlayıp yerel funnel’ı karar toplantısına taşıyan işletmeler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
+        "text": "Otel ve lokal işletmelerde harita KPI’larını organik dönüşümle bağlamak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Yerel SEO KPI & Dashboard Şablonunu İndir",
+        "text": "GBP KPI’larını GA4 local landing verileriyle aynı tabloda birleştirip yerel funnel’ı dashboard’a çevirmenizi sağlar.",
+        "href": "/downloads/yerel-seo-kpi-dashboard-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Yerel SEO rehberi",
+        "href": "/seo/yerel-seo"
+      },
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Looker Studio raporlama",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "title": "Yerel SEO Nedir? Harita ve Local Pack Görünürlüğü",
+        "href": "/seo/yerel-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "yerel-seo-kpi-map-views-direction-calls",
+        "title": "Yerel SEO KPI’ları (Map Views, Direction Requests, Calls)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel SEO KPI’ları “sıralama”dan ziyade “etkileşim”e yakındır. Çünkü harita sonuçlarında kullanıcı çoğu zaman siteye girmeden karar verebilir: arar, rota ister, mesaj atar. Bu yüzden raporunuzda GBP KPI’ları ayrı bir blok olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Yerel KPI seti (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Map Views (Harita görüntüleme): yerel görünürlüğün hacmi",
+              "Website Clicks: haritadan siteye geçen talep",
+              "Calls (Aramalar): yüksek niyetli etkileşim",
+              "Direction Requests (Rota istekleri): fiziksel ziyaret niyeti",
+              "(Opsiyonel) Messages / Bookings (işletme tipine göre)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Antalya’da “otel” aramasında map views artıp website clicks düşüyorsa, görünürlük var ama kullanıcı ya bilgiye haritada ulaşıyor ya da rakip kartları daha ikna edici."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "GBP KPI’larını raporda ayrı bir blok olarak veriyor muyum?",
+              "“Map views” artışını otomatik başarı saymıyor muyum?",
+              "Calls/rota gibi yüksek niyet KPI’larını iş KPI’larına bağlıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yerel raporun çekirdeğine 4 KPI koyun: map views, website clicks, calls, direction requests.",
+              "Bu KPI’ları haftalık trendle, aylık yorumla.",
+              "Arama/rota artışını operasyonla da paylaşın (ön büro/call center)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "google-business-profile-istatistikleri-okuma-mantigi",
+        "title": "Google Business Profile İstatistikleri (Okuma Mantığı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "GBP panelinde genellikle iki kritik alan raporu doğru kurdurur:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Arama türleri (doğrudan/keşif)",
+              "Etkileşim akışı (görüntüleme → tıklama → call/rota)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Arama türleri neyi anlatır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doğrudan (Direct): kullanıcı markayı/ismi biliyor (brand etkisi)",
+              "Keşif (Discovery): kullanıcı “otel + şehir” gibi genel aramalarla geliyor (non-brand fırsat)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Belek): Direct artışı, marka bilinirliğinin güçlendiğini gösterebilir; Discovery artışı ise “yerel talep havuzunda” pay aldığınızı gösterir. İkisini karıştırmadan yorumlamak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Harita etkileşim akışı nasıl okunur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Map views artıyor mu? (görünürlük)",
+              "Website clicks/calls/rota aynı hızla artıyor mu? (verim)",
+              "Artmıyorsa: kart içeriği, görseller, yorumlar, teklif/USP ve kategori uyumu sorgulanır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Direct vs discovery ayrımını raporda yazıyor muyum?",
+              "Görünürlük artışını “verim” KPI’larıyla doğruluyor muyum?",
+              "Harita kartı içeriği/yorumlar/fotoğraflar aksiyon listesine giriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporunuza “Direct/Discovery” kırılımını ekleyin.",
+              "KPI’ları funnel gibi okuyun: views → clicks/calls/directions.",
+              "Düşüşte önce “kart içeriği + yorumlar + görseller”i kontrol edin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "organik-ve-harita-trafigini-birlikte-okumak",
+        "title": "Organik ve Harita Trafiğini Birlikte Okumak (Hybrid Reporting)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel görünürlük tek başına “SEO başarısı” değildir; organik site trafiği ve dönüşümle birleştiğinde anlam kazanır. Bu nedenle raporda “harita KPI’ları”nı GA4 ve mümkünse GSC verileriyle aynı çerçeveye koymanız gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Harita → Site funnel’ını rapora çevirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP: map views, website clicks, calls, directions",
+              "GA4: local landing sessions, engagement, conversions",
+              "(Opsiyonel) Call tracking / rezervasyon: telefon dönüşümü"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Yerel SEO KPI’larının SEO raporuna dâhil edildiği müşterilerde, harita görünürlüğü ve yerel funnel performansı hakkında daha sağlıklı kararlar alınabildiği sıkça görülür. (Kesin rakam iddiası değil; operasyonel gözlem.)"
+          },
+          {
+            "type": "h3",
+            "text": "Harita ve organik sonuçları birlikte nasıl raporlarım?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): GBP’den map views/calls/directions/website clicks verilerini alın; aynı tarih aralığında GA4’te local landing sayfalarının organik performansını (sessions/dönüşüm) çekin. Bu iki veri setini tek tabloda yan yana koyun ve “görünürlük → etkileşim → site → dönüşüm” akışına göre aksiyon çıkarın."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: GBP + GA4 Birleşik Tablo — Yerel + Organik Görünürlük ve Funnel Performansı",
+            "headers": [
+              "Şehir/Şube",
+              "GBP Map Views",
+              "GBP Website Clicks",
+              "GBP Calls",
+              "GBP Directions",
+              "GA4 Local Landing Sessions",
+              "GA4 Conversions",
+              "Yorum",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "Antalya",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___"
+              ],
+              [
+                "Belek",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "GBP ve GA4’te tarih aralığı aynı mı?",
+              "Local landing sayfalarını net tanımladım mı?",
+              "Yorum “funnel” mantığıyla mı, yoksa metrik listesi gibi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Birleşik tabloyu raporun sabit sayfası yapın.",
+              "“Harita güçlü, site zayıf” ve “site güçlü, harita zayıf” senaryolarını ayrı aksiyonlayın.",
+              "Telefon/rota KPI’larını operasyonla birlikte hedefe bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yerel-keyword-ve-konum-bazli-gorunurluk",
+        "title": "Yerel Keyword ve Konum Bazlı Görünürlük",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel SEO’da görünürlük “şehir + hizmet” sorgularında şekillenir: “otel Antalya”, “Belek resort”, “Side aile oteli” gibi. Bu yüzden raporunuz, yerel keyword kümelerini ve konum bazlı görünürlüğü bir trend olarak göstermeli."
+          },
+          {
+            "type": "h3",
+            "text": "Yerel keyword kümeleri nasıl kurulur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hizmet + şehir: “otel Antalya”, “spa otel Belek”",
+              "Konsept + şehir: “aile oteli Side”, “balayı oteli Kemer”",
+              "Yakınlık/niyet: “yakınımdaki otel”, “airport hotel” (işletmeye göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Konum bazlı görünürlükte dikkat edilmesi gerekenler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama sonuçları lokasyona göre değişir; rapor tek lokasyonla “kesin hüküm” vermemeli.",
+              "Cihaz farkı (mobilde harita daha baskın) görünürlüğü ve tıklamayı etkiler."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Bodrum): Mobilde harita daha görünür olduğundan, “Bodrum otel” sorgusunda website clicks yerine calls/directions artabilir; rapor bunu “dönüşüm davranışı değişimi” olarak okumalı."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Yerel keyword setini cluster gibi raporluyor muyum?",
+              "Konum ve cihaz etkisini raporda not ediyor muyum?",
+              "Local pack + organik sonuç birlikte değerlendiriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yerel keyword’leri 3–5 kümeye ayırın ve trendleyin.",
+              "Mobil/desktop ayrı yorumlayın (harita ağırlığı farklı).",
+              "Yerel görünürlüğü “iş KPI” ile bağlayın: call/rota/rezervasyon."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "oteller-ve-yerel-isletmeler-icin-raporlama-ornekleri",
+        "title": "Oteller ve Yerel İşletmeler İçin Raporlama Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yerel raporlama, sektörün funnel’ına göre farklılaşır. Otelde “rota” bazen fiziksel ziyaret değil, “lokasyon değerlendirmesi” anlamına da gelebilir; restoranda rota daha direkt “ziyaret” sinyali olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için pratik rapor yapısı (1 sayfa özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP KPI kartları: views/calls/directions/website clicks",
+              "Local landing performansı: sessions + conversion",
+              "Yerel keyword trendi: 3 cluster",
+              "3 başarı + 3 risk + 3 aksiyon (sade)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Klinik/restoran gibi işletmeler için"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Calls ve directions ağırlığı daha yüksek olabilir",
+              "“Randevu” / “menu” / “rezervasyon” gibi dönüşüm aksiyonları öne çıkar"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): GBP istatistiklerindeki tarih aralığı ve görünüm türleri GA4 filtreleriyle uyumlu seçilmezse rapor kafa karıştırır. Bu yüzden raporun başına “filtre seti” ekleyin."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "İşletme tipine göre KPI ağırlıklarını ayarladım mı?",
+              "Filtre setini raporun başında sabitledim mi?",
+              "Yerel + organik raporu aksiyon listesiyle bitirdim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporu “tek sayfa özet + birleşik tablo + aksiyon” şeklinde standardize edin.",
+              "GBP optimizasyon aksiyonlarını rapora yazın (kategori, fotoğraf, yorum, post).",
+              "Yerel landing’lerde içerik/UX iyileştirmelerini sprint’e bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
+            "text": "Harita KPI’larını organik dönüşümle bağlayıp “yerel görünürlük” kararlarını netleştirmek isteyen işletmeler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "yerel-seo-kpi-dashboard-sablonu",
+        "title": "Yerel SEO KPI & Dashboard Şablonunu İndir — SEO / Yerel Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Yerel SEO KPI & Dashboard Şablonunu İndir — SEO / Yerel Raporlama (v1.0)",
+            "purpose": "Bu şablon, Google Business Profile (GBP) metriklerini GA4 local landing performansıyla aynı raporda birleştirerek yerel+organik görünürlüğü bütünsel ölçmenizi sağlar. Harita→site→call/rota akışını tek sayfada görür, hangi şehir/şube/landing’de sorun olduğunu hızlı teşhis edersiniz. Filtre setini (tarih/ülke/cihaz) standardize ederek rapor tutarlılığını artırır.",
+            "whoFor": "Otel ve lokal işletme yöneticileri, ajans raporlama ekipleri, pazarlama liderleri.",
+            "steps": [
+              "GBP’den KPI’ları aynı tarih aralığıyla çek (views, clicks, calls, directions).",
+              "GA4’te local landing sayfalarını tanımla ve organik sessions/dönüşümü çek.",
+              "Dashboard’da şehir/şube kırılımı ile “funnel verimi”ni izle ve aksiyon planını yaz."
+            ],
+            "template": {
+              "title": "Yerel + Organik Dashboard",
+              "sections": [
+                {
+                  "title": "A) Filtre Seti (Rapor başında sabit)",
+                  "items": [
+                    "Tarih aralığı: ______",
+                    "Şehir/Şube: ______",
+                    "Cihaz: Mobil / Desktop / Tümü",
+                    "Kanal: Organic + Local (GBP)"
+                  ]
+                },
+                {
+                  "title": "B) KPI Kartları (GBP)",
+                  "items": [
+                    "Map Views: ______",
+                    "Website Clicks: ______",
+                    "Calls: ______",
+                    "Direction Requests: ______"
+                  ]
+                },
+                {
+                  "title": "C) Birleşik Funnel Tablosu",
+                  "items": [
+                    "GBP + GA4 birleşik tablo ile şehir/şube bazında görünürlük, etkileşim ve dönüşüm performansı izlenir."
+                  ]
+                },
+                {
+                  "title": "D) Yerel Keyword Kümeleri (trend)",
+                  "items": [
+                    "Hizmet+şehir: ______",
+                    "Konsept+şehir: ______",
+                    "Yakınımdaki/niyet: ______"
+                  ]
+                },
+                {
+                  "title": "E) Kontrol listesi",
+                  "items": [
+                    "GBP ve GA4 tarih aralığı aynı",
+                    "Local landing’ler doğru etiketli",
+                    "Direct vs discovery notu var",
+                    "Mobil/desktop ayrımı yorumlandı",
+                    "3–6 aksiyon ile rapor kapandı"
+                  ]
+                }
+              ]
+            },
+            "deliverables": [
+              "Buraya: [KPI Card] — 1:1 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-kpi-07.webp — yerel KPI kartları, otel bağlamı",
+              "Buraya: [Diagram] — 16:9 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-diagram-05.webp — map→site funnel, yerel işletme bağlamı",
+              "Buraya: [Tablo] — GBP + GA4 birleşik tablo görseli — dashboard bileşeni"
+            ],
+            "href": "/downloads/yerel-seo-kpi-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Yerel SEO raporu yalnızca harita metriği değil, karar sistemidir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Yerel SEO raporlaması, GBP metriklerini ayrı bir ekran görüntüsü olarak sunmakla sınırlı kalmamalıdır. Map views, website clicks, calls ve direction requests; GA4 local landing sessions/conversions ve yerel keyword görünürlüğüyle birlikte okunduğunda gerçek karar değeri üretir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurgu; “haritada görünüyoruz” bilgisini “hangi şehir/şube/landing ne kadar talep üretiyor ve hangi aksiyon gerekli?” sorusuna dönüştürür. Bu nedenle yerel + organik rapor; KPI kartları, birleşik funnel tablosu, filtre seti ve net aksiyon listesiyle standardize edilmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
+            "text": "Otel ve lokal işletmelerde harita KPI’larını organik dönüşümle bağlamak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yerel SEO KPI & Dashboard Şablonunu İndir",
+            "text": "GBP KPI’larını GA4 local landing verileriyle aynı tabloda birleştirip yerel funnel’ı dashboard’a çevirmenizi sağlar.",
+            "href": "/downloads/yerel-seo-kpi-dashboard-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yerel SEO KPI’ları nelerdir?",
+        "a": "Minimum KPI seti: map views, website clicks, calls ve direction requests’tir. İşletmeye göre mesajlaşma/rezervasyon gibi ek metrikler de eklenebilir."
+      },
+      {
+        "q": "Google Business Profile istatistikleri SEO raporuna nasıl dahil edilir?",
+        "a": "GBP KPI’larını aynı tarih aralığıyla çekip, GA4 local landing performansıyla yan yana tabloya koyun. Sonra “görünürlük → etkileşim → site → dönüşüm” akışına göre yorumlayın."
+      },
+      {
+        "q": "Harita ve organik sonuçları birlikte nasıl raporlarım?",
+        "a": "Harita tarafında (GBP) views/calls/directions/clicks; organik tarafta (GA4/GSC) local landing sessions/dönüşüm ve yerel keyword görünürlüğünü aynı raporda gösterin. Senaryo bazlı aksiyon verin."
+      },
+      {
+        "q": "Local landing sayfaların performansını nasıl ölçerim?",
+        "a": "GA4’te local landing URL’lerini belirleyip organik sessions, etkileşim ve dönüşüm KPI’larını takip edin. GSC’de aynı sayfaların impressions/clicks/CTR verisiyle birleştirirseniz daha net olur."
+      },
+      {
+        "q": "Map views yüksek ama website clicks düşükse ne anlama gelir?",
+        "a": "Görünürlük var ama siteye geçiş verimi düşük demektir; kart içeriği/USP, fotoğraflar, yorumlar veya kullanıcı niyeti haritada karşılanıyor olabilir. “Kart optimizasyonu + yerel landing vaadi” aksiyonu gerekir."
+      },
+      {
+        "q": "Raporlarda filtre tutarlılığı neden önemli?",
+        "a": "GBP’deki tarih aralığı ve görünüm türleri GA4 filtreleriyle uyumlu değilse, metrikler yanlış yorumlanır. Bu yüzden rapor başına filtre setini sabitlemek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-hero-01.webp",
+          "h1-context — 1920×1080 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-h1-context-02.webp",
+          "divider-01 — 1600×1200 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-divider-03.webp",
+          "divider-02 — 1600×1200 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-divider-04.webp",
+          "diagram-05 — 1920×1080 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-kpi-07.webp",
+          "proof-08 — 1200×1200 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-proof-08.webp",
+          "table-gbp-ga4-combined — GBP + GA4 birleşik tablo görseli"
+        ],
+        "technicalChecklist": [
+          "GBP ve GA4 tarih aralığı aynı seçildi",
+          "Local landing URL seti net tanımlandı",
+          "Direct vs Discovery ayrımı raporda yer aldı",
+          "Mobil/desktop kırılımı rapor yorumuna eklendi",
+          "GBP KPI kartları: map views, website clicks, calls, direction requests",
+          "GA4 local landing sessions/conversions birleşik tabloya işlendi",
+          "Yerel keyword kümeleri hizmet+şehir, konsept+şehir ve niyet bazında ayrıldı",
+          "Rapor sonunda 3–6 aksiyon maddesi oluşturuldu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+"BlogSeoDeneyleriVeAbTestSonuclariniRaporlamak": {
+    "title": "SEO Deneyleri ve A/B Test Sonuçları Nasıl Raporlanır?",
+    "slug": "seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak",
+    "department": "seo",
+    "updatedAt": "1 Haziran 2026",
+    "publishedAt": "2026-06-01",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SEO deneylerini kontrol–deney URL gruplarıyla raporlayın. CTR, konum, trafik ve dönüşüm farkını tablo ve grafikle gösterin; test süresi, örneklem ve dış etkenleri not edip sonucu roadmap’e bağlayın.",
+    "seo": {
+      "metaTitle": "SEO Deneyleri ve A/B Test Sonuçları Nasıl Raporlanır? | DGTLFACE",
+      "metaDescription": "SEO deneylerini kontrol–deney URL gruplarıyla raporla: CTR, konum, trafik ve dönüşüm farkını tablo+grafikle göster. Test süresi/örneklem kuralı koy; sonucu roadmap ve standartlara bağla."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak"
+      ],
+      "strategySummary": "Bu içerik, SEO raporlama silosunda “değişiklik yaptık ama hangisi işe yaradı bilmiyoruz” problemini çözen, test-and-learn culture yaklaşımını kuran otorite yazıdır. Hedef persona; otel/hizmet markası yöneticisi ve ajans yöneticisidir; SEO geliştirmelerini “hissettim” değil ölçtüm diyerek savunmak ister. Funnel MoFu’dadır: deney sonuçları roadmap’e, standartlara ve bütçe kararına dönüşür. Ana iş sorusu: “Title/snippet, içerik blokları veya iç link değişikliği gerçekten fark yarattı mı ve bunu yönetime nasıl kanıtlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-01",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "SEO deneyleri ve A/B testleri, “şu değişiklik işe yaradı mı?” sorusunu veriyle cevaplamanın en temiz yoludur. Raporlama; kontrol ve deney URL setlerini net tanımlayıp, aynı dönemde CTR, konum, tıklama/organik trafik ve dönüşüm farkını tablo ve grafiklerle göstermelidir. En iyi rapor; test süresi ve örneklem şartlarını yazar, dış etkenleri (sezon/algoritma güncellemesi) not eder ve sonucu “kalıcı standart mı, tekrar test mi?” kararına bağlar.",
+      "sgeSummary": "Kontrol–deney URL grupları kur, aynı dönemde CTR/konum/tıklama/dönüşüm farkını ölç. Tablo+grafikle raporla, örneklem ve sezon etkisini not et, sonucu roadmap’e bağla.",
+      "voiceAnswer": "Title değiştirdiysen, kontrol–deney sayfalarını ayırıp CTR ve tıklama farkını aynı dönemde ölç.",
+      "aiFactSheet": [
+        "Hedef kitle: SEO/performans ekipleri, ajans yöneticileri, otel/hizmet markaları",
+        "Entity Theme: SEO Experiments; A/B Testing; Test Reporting; CTR & Rankings",
+        "Semantic theme: test-and-learn culture; experiment→decision; measurement discipline",
+        "KPI seti: CTR, clicks, impressions, position, organic sessions, conversions",
+        "Funnel: Deney → öğrenim → standartlaştırma → roadmap",
+        "Geo: TR geneli; sürekli iyileştirme kültürü kurmak isteyen markalar",
+        "Çıktı: Test log’u + sonuç tablosu + karar çerçevesi (keep/kill/iterate)"
+      ]
+    },
+    "h1": {
+      "title": "SEO Deneyleri ve A/B Test Sonuçlarını Nasıl Raporlarsınız?",
+      "intro": "SEO’da iyileştirme yapmak kolay; zor olan, “hangisi işe yaradı?” sorusunu net yanıtlamak. Birçok projede title değişir, iç link eklenir, içerik blokları düzenlenir ama bunlar “deney” gibi tasarlanıp raporlanmadığı için katkı ölçülemez. Deney raporu; değişkeni net tanımlar, kontrol–deney gruplarını kurar, uygun süre ve örneklemle ölçer, sonucu karara bağlar: kalıcı mı, geri mi alıyoruz, tekrar mı test ediyoruz? Bu rehber, SEO’yu “tahmin”den çıkarıp ölçüm disiplini ile yönetmenizi sağlar.",
+      "quickSummary": [
+        "1) Değişikliği deney mi bakım mı diye etiketle",
+        "2) Tek değişken belirle ve başarı KPI’larını baştan yaz",
+        "3) Kontrol–deney URL gruplarını benzer niyet, şablon ve trafikle kur",
+        "4) CTR, konum, tıklama, organik trafik ve dönüşüm farkını aynı dönemde ölç",
+        "5) Sonucu tablo + grafik + keep/kill/iterate kararıyla roadmap’e bağla"
+      ],
+      "ctaPrimary": {
+        "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
+        "text": "SEO değişikliklerini deney gibi tasarlayıp, yönetime kanıtla sunmak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
+        "text": "Deney tasarımı, ölçüm disiplini ve yönetime anlatım formatını kurmak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "SEO Test Log & Sonuç Raporlama Şablonunu İndir",
+        "text": "Deneyleri kayıt altına alır; kontrol–deney sonuçlarını standart tabloda raporlayıp karar (keep/kill/iterate) vermenizi sağlar.",
+        "href": "/downloads/seo-test-log-sonuc-raporlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "title": "Teknik SEO ile Ölçüm Disiplini Nasıl Kurulur?",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "seo-deneyi-nedir",
+        "title": "SEO Deneyi Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SEO deneyi, tek bir değişkenin (ör. title) etkisini ölçmek için tasarlanmış kontrollü bir iyileştirme çalışmasıdır. “Değişiklik yaptım, artmış” demek deney değildir; deney, artışın gerçekten o değişkenden mi kaynaklandığını anlamaya çalışır. Burada amaç mükemmel laboratuvar değil; daha güvenilir karar almaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Deneyin 4 temel şartı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Değişken net: neyi değiştirdik?",
+              "Kontrol grubu var: değişiklik yapılmayan benzer sayfalar",
+              "Zaman ve örneklem makul: yeterli veri toplanacak süre",
+              "KPI’lar sabit: neye göre “başarılı” sayacağız?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): “Belek aile oteli” odaklı landing’lerde title değişikliği yapacaksanız; benzer niyetteki başka landing’leri kontrol grubu yapıp CTR farkını kıyaslamalısınız."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Deneyde tek değişken mi var?",
+              "Kontrol grubu gerçekten benzer mi?",
+              "Başarı kriteri (KPI) baştan yazıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her değişikliği “deney mi, bakım mı?” diye etiketleyin.",
+              "Deneyse, mutlaka kontrol–deney grubu kurun.",
+              "Deney KPI’larını önceden sabitleyin (CTR, clicks, conversions gibi)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-degiskenler-test-edilebilir",
+        "title": "Hangi Değişkenler Test Edilebilir? (Title, Snippet, İçerik Blokları, İç Linkler)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SEO’da test edilebilir değişkenleri “SERP” ve “sayfa içi” diye ikiye ayırmak pratik olur."
+          },
+          {
+            "type": "h3",
+            "text": "SERP tarafı testleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Title testi: CTR ve tıklama verimine etki",
+              "Meta/snippet testi: CTR ve beklenti uyumu",
+              "FAQ/snippet görünümü: tıklama payı (SERP yer kaplama)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sayfa içi testleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H1 / içerik blok sırası: niyet uyumu ve dönüşüm sürtünmesi",
+              "CTA yerleşimi: mikro→makro dönüşüm etkisi",
+              "İç link ekleme/kaldırma: crawl/otorite akışı, cluster etkisi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Kemer’de “her şey dahil” landing’inde CTA’yı ilk ekrana almak, organik trafikten gelen kullanıcıyı daha hızlı lead’e çevirebilir (GA4 dönüşüm KPI’sı)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Test edilecek değişken KPI ile eşleşiyor mu?",
+              "Aynı anda iki değişken test etmiyor muyum?",
+              "Testin hedefi CTR mi, dönüşüm mü net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Title/snippet testlerinde ana KPI’yı CTR/clicks yapın.",
+              "İçerik/CTA testlerinde ana KPI’yı dönüşüm yapın.",
+              "İç link testlerinde cluster/hub performansını da ek KPI olarak izleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kontrol-ve-deney-gruplari",
+        "title": "Kontrol ve Deney Grupları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SEO testlerinde en kritik konu, “karşılaştırma adil mi?” sorusudur. Kontrol–deney grupları benzer değilse sonuç yanıltır."
+          },
+          {
+            "type": "h3",
+            "text": "Kontrol/deney URL seti nasıl seçilir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Benzer niyet (aynı sorgu kümesi)",
+              "Benzer trafik hacmi (çok farklıysa sonuç dalgalanır)",
+              "Benzer şablon (aynı template)",
+              "Benzer sezon etkisi (destinasyon sayfalarında kritik)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "URL grubu sayısı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Az trafikli sitelerde: 5–10 URL ile başla (daha uzun süre)",
+              "Trafiği yüksek sitelerde: 20–50 URL ile daha hızlı sonuç"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Bodrum): Bodrum ve Side destinasyon sayfalarını aynı gruba koymak her zaman adil olmayabilir; talep ve sezon farklıdır. Bu yüzden “aynı destinasyon kümesi” içinde benzer sayfalar seçmek daha iyidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Grup eşleşmesini niyet + şablon bazında yaptım mı?",
+              "Çok farklı trafik hacimli sayfaları aynı gruba koymadım mı?",
+              "Sezon etkisini kontrol ettim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kontrol ve deney listelerini rapora ekleyin (şeffaflık).",
+              "Grupların “benzerlik gerekçesi”ni 2 cümleyle yazın.",
+              "Deney sonuçlarını “sayfa bazında dağılım” ile de kontrol edin (outlier’lar)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zaman-ve-orneklem-buyuklugu",
+        "title": "Zaman ve Örneklem Büyüklüğü",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Test süresi ne kadar olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Test süresi; trafik hacmine ve KPI dalgalanmasına bağlıdır. Pratikte amaç, “günlük dalgalanma”yı aşacak kadar veri toplamaktır; bu yüzden genelde en az birkaç hafta aynı koşullarda ölçüm yapmak gerekir. Sezon/algoritma güncellemesi gibi büyük dış etkenler varsa test sonucu bozulabilir; raporda bu risk not edilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Evrensel tek bir “X gün” kuralı yok; bu yüzden raporda “örneklem yeterliliği”ni trafik hacmi ve trend stabilitesiyle açıklıyoruz."
+          },
+          {
+            "type": "h3",
+            "text": "Örneklem yeterli mi? (pratik kontrol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR grafiği “gürültü” mü, “trend” mi?",
+              "Click sayısı “çok düşük” mü? (tekil günler sonucu bozar)",
+              "Deney ve kontrol aynı dönemde benzer talep koşulunda mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Testte yeterli tıklama hacmi var mı?",
+              "Günlük dalgalanma yerine trend okuyor muyum?",
+              "Dış etkenleri (sezon/algoritma) rapora not ettim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Düşük trafikte daha az URL yerine daha uzun süre seçin.",
+              "Yüksek trafikte daha çok URL ile daha kısa sürede sonuç alın.",
+              "Test tarihlerini “deney log”a mutlaka yazın (sonradan kıyas için)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-sonuclarini-kpilarla-raporlamak",
+        "title": "Test Sonuçlarını KPI’larla Raporlamak (Tablo + Grafik)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Raporun en kritik kısmı burası: sonuçları “hikâye” değil, kanıt olarak sunmak. Minimum format: 1 tablo + 1 grafik + 1 karar cümlesi."
+          },
+          {
+            "type": "h3",
+            "text": "En temel sonuç tablosu (kontrol vs deney)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Örnek SEO A/B Test Sonuç Tablosu — Kontrol vs Deney KPI Farkı",
+            "headers": [
+              "KPI",
+              "Kontrol (Önce)",
+              "Kontrol (Sonra)",
+              "Deney (Önce)",
+              "Deney (Sonra)",
+              "Fark (Deney – Kontrol)",
+              "Yorum"
+            ],
+            "rows": [
+              [
+                "Impressions",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "Talep sabit mi?"
+              ],
+              [
+                "Clicks",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "Tıklama etkisi"
+              ],
+              [
+                "CTR",
+                "___%",
+                "___%",
+                "___%",
+                "___%",
+                "___%",
+                "Snippet/Title etkisi"
+              ],
+              [
+                "Avg Position",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "Konum etkisi var mı?"
+              ],
+              [
+                "Organic Sessions",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "Trafik etkisi"
+              ],
+              [
+                "Conversions",
+                "___",
+                "___",
+                "___",
+                "___",
+                "___",
+                "İş etkisi"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kontrol vs deney grafik (trend)"
+          },
+          {
+            "type": "p",
+            "text": "Grafik, yönetime “günlük dalgalanma” değil, trendi göstermeli: CTR veya conversions eğrileri."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Sonuç cümlesi + karar (Keep / Kill / Iterate)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Keep (kalıcılaştır): Deney anlamlı pozitif ve iş KPI’sına etkili",
+              "Kill (geri al): Negatif etki veya risk yüksek",
+              "Iterate (tekrar test): Etki var ama belirsiz; farklı varyasyon/segmentle tekrarla"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (title testi): Deney grubunda CTR ↑ ve clicks ↑, konum sabitse: title/snippet değişikliği işe yaramış olabilir; bunu standartlaştırıp yeni varyasyon testine geçebilirsiniz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Rapor 1 tablo + 1 grafik + 1 karar cümlesi içeriyor mu?",
+              "KPI farkı “deney–kontrol” şeklinde net mi?",
+              "Karar (keep/kill/iterate) yazıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sonuçları “deney–kontrol farkı” olarak verin; ham sayı bırakmayın.",
+              "Kararı raporun en üstünde tek cümle yazın.",
+              "Kazanan değişiklikleri “standart” haline getirin (style guide / checklist)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuclari-roadmape-baglamak",
+        "title": "Sonuçları Roadmap’e Bağlamak (Standartlaştırma)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Deney raporu, sadece “rapor” değil; süreçtir. Eğer sonucu roadmap’e bağlamazsanız, aynı hataları tekrar edersiniz ve öğrenim kaybolur."
+          },
+          {
+            "type": "h3",
+            "text": "Roadmap bağlantısı (3 katman)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Standart: işe yarayan değişiklik (ör. title formatı)",
+              "Backlog: sıradaki testler (2–3 hipotez)",
+              "Risk takvimi: büyük güncellemeler/sezon dönemlerinde test kısıtı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Deney odaklı çalışan SEO ekiplerinde, “hangi değişiklik işe yarıyor?” sorusuna daha hızlı ve güvenilir yanıt verilebildiği gözleniyor. (Kesin rakam iddiası değil; operasyonel gözlem.)"
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): SEO testlerinde algoritma güncellemeleri veya sezon etkisi sonucu bozabilir; tarih seçiminde ve örneklem yorumunda dikkatli olun. Raporun “dış etkenler” bölümünü sabitleyin."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
+            "text": "Deney tasarımı, ölçüm disiplini ve yönetime anlatım formatını kurmak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "seo-test-log-sonuc-raporlama-sablonu",
+        "title": "SEO Test Log & Sonuç Raporlama Şablonunu İndir — SEO / Deney Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "SEO Test Log & Sonuç Raporlama Şablonunu İndir — SEO / Deney Yönetimi (v1.0)",
+            "purpose": "Bu asset, SEO deneylerini “değişiklik yaptık” seviyesinden çıkarıp deney tasarımı + ölçüm + karar formatına sokar. Kontrol/deney URL seti, test değişkeni, süre ve KPI’ları tek log’da toplar; sonuçları standart tablo ve trend grafiğiyle raporlayıp “kalıcılaştır / geri al / tekrar test et” kararını netleştirir.",
+            "whoFor": "SEO/performans ekipleri, ajanslar, sürekli iyileştirme kültürü kurmak isteyen markalar.",
+            "steps": [
+              "Deneyi log’a gir: hipotez, değişken, kontrol/deney URL listesi, süre, KPI.",
+              "Test sonunda KPI tablosunu doldur ve kontrol–deney farkını çıkar.",
+              "Karar ver (keep/kill/iterate) ve roadmap’e aksiyon olarak ekle."
+            ],
+            "checklist": [
+              "Deney adı ve hipotez yazıldı (1 cümle)",
+              "Değişken tek: title/snippet/içerik blok/iç link/CTA",
+              "Kontrol ve deney URL setleri listelendi",
+              "Seçim gerekçesi yazıldı (niyet/şablon/benzer trafik)",
+              "Test başlangıç–bitiş tarihleri net",
+              "KPI’lar sabit: impressions, clicks, CTR, position, sessions, conversions",
+              "Dış etken notu var (sezon, kampanya, algoritma güncellemesi)",
+              "Sonuç tablosu dolduruldu",
+              "Karar (keep/kill/iterate) yazıldı",
+              "Roadmap aksiyonu oluşturuldu (sorumlu + tarih)"
+            ],
+            "template": {
+              "title": "Deney Log Şablonu",
+              "items": [
+                "Deney adı: ______",
+                "Hipotez: ______",
+                "Değişken: ______ (title/snippet/içerik/iç link/CTA)",
+                "Kontrol URL listesi: ______",
+                "Deney URL listesi: ______",
+                "Başlangıç: ______ / Bitiş: ______",
+                "KPI seti: CTR, clicks, impressions, position, sessions, conversions",
+                "Dış etkenler: ______",
+                "Karar: Keep / Kill / Iterate",
+                "Roadmap aksiyonu: ______ (kim + ne + ne zaman)"
+              ]
+            },
+            "sprintPlan": [
+              "Gün 1–2: hipotez + URL seti + ölçüm hazırlığı",
+              "Gün 3: değişikliği yayınla + log güncelle",
+              "Gün 4–12: izleme (haftalık mini kontrol)",
+              "Gün 13: sonuç tablosu + grafik",
+              "Gün 14: karar + standartlaştırma + yeni test backlog’u"
+            ],
+            "deliverables": [
+              "Deney log dosyası",
+              "Kontrol vs deney sonuç tablosu",
+              "Trend grafik (CTR veya conversions)",
+              "Karar cümlesi (keep/kill/iterate)",
+              "Roadmap güncellemesi",
+              "Buraya (Asset içi): [Tablo] — sonuç tablosu görseli — kontrol vs deney kıyası, raporlama bağlamı",
+              "Buraya (Asset içi): [Diagram] — 16:9 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-diagram-05.webp — kontrol vs deney trend grafiği, yönetici sunumu bağlamı"
+            ],
+            "href": "/downloads/seo-test-log-sonuc-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SEO deneyi, değişiklik değil öğrenim sistemidir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "SEO deneyleri yalnızca bir title değiştirmek, içerik bloğu eklemek veya CTA yerini güncellemek değildir. Asıl değer; değişikliğin etkisini kontrol–deney mantığıyla ölçmek, sonucu KPI farkı üzerinden yorumlamak ve öğrenimi kalıcı hale getirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle her deney; hipotez, değişken, kontrol/deney URL seti, sabit KPI’lar, dış etken notu, sonuç tablosu, trend grafik ve karar cümlesiyle raporlanmalıdır. Karar keep, kill veya iterate olarak netleştiğinde, SEO raporu yalnızca geçmişi anlatmaz; bir sonraki roadmap kararını üretir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
+            "text": "Deney tasarımı, ölçüm disiplini ve yönetime anlatım formatını kurmak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SEO Test Log & Sonuç Raporlama Şablonunu İndir",
+            "text": "Deneyleri kayıt altına alır; kontrol–deney sonuçlarını standart tabloda raporlayıp karar (keep/kill/iterate) vermenizi sağlar.",
+            "href": "/downloads/seo-test-log-sonuc-raporlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO A/B testi nasıl yapılır ve raporlanır?",
+        "a": "Test değişkenini seçip kontrol–deney URL grupları kurun. Aynı dönemde CTR, clicks, konum, trafik ve dönüşüm farkını ölçün; tablo + grafik + karar (keep/kill/iterate) formatıyla raporlayın."
+      },
+      {
+        "q": "Hangi değişkenler SEO için test edilebilir?",
+        "a": "Title/snippet gibi SERP öğeleri; içerik blokları, H1, CTA yerleşimi gibi sayfa içi öğeler; iç link ekleme/kaldırma gibi yapı öğeleri test edilebilir. KPI’yı değişkenle eşleştirmek önemlidir."
+      },
+      {
+        "q": "Test süresi ne kadar olmalı?",
+        "a": "Trafik hacmine göre değişir; amaç günlük dalgalanmayı aşacak kadar veri toplamaktır. Düşük trafikte daha uzun süre, yüksek trafikte daha çok URL ile daha kısa sürede sonuç alınabilir; sezon/algoritma etkisi raporda not edilmelidir."
+      },
+      {
+        "q": "Test sonuçları ne zaman anlamlı sayılır?",
+        "a": "Kontrol ve deney grubu benzer koşullarda yeterli veri topladığında ve fark, yalnız tekil günlerle açıklanmadığında daha anlamlıdır. Rapor, örneklem ve dış etkenleri şeffaf şekilde yazmalıdır."
+      },
+      {
+        "q": "Test sonuçlarını yönetime nasıl anlatırım?",
+        "a": "1 tablo (kontrol–deney farkı), 1 grafik (trend) ve 1 karar cümlesiyle başlayın. Sonra sonucu roadmap’e bağlayın: kalıcı standart mı, geri alma mı, tekrar test mi?"
+      },
+      {
+        "q": "Title değiştirdim, etkisini nasıl ölçerim?",
+        "a": "Benzer URL’lerden kontrol grubu seçin ve aynı dönemde CTR/clicks farkını kıyaslayın. Konum değişimini ayrıca izleyin; CTR artışı konumdan bağımsızsa title etkisi daha olasıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-hero-01.webp",
+          "h1-context — 1920×1080 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-h1-context-02.webp",
+          "divider-01 — 1600×1200 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-divider-03.webp",
+          "divider-02 — 1600×1200 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-divider-04.webp",
+          "diagram-05 — 1920×1080 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-diagram-05.webp",
+          "checklist-06 — 1200×1200 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-checklist-06.webp",
+          "kpi-07 — 1200×1200 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-kpi-07.webp",
+          "proof-08 — 1200×1200 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-proof-08.webp",
+          "table-seo-ab-test-results — SEO A/B test sonuç tablosu görseli"
+        ],
+        "technicalChecklist": [
+          "Deney adı ve hipotez yazıldı",
+          "Test değişkeni tekil bırakıldı",
+          "Kontrol ve deney URL setleri listelendi",
+          "Kontrol ve deney grupları benzer niyet/şablon/trafik mantığıyla seçildi",
+          "Test başlangıç ve bitiş tarihleri netleştirildi",
+          "KPI seti sabitlendi: impressions, clicks, CTR, position, organic sessions, conversions",
+          "Dış etkenler bölümü eklendi: sezon, kampanya, algoritma güncellemesi",
+          "Sonuç tablosu kontrol–deney farkıyla dolduruldu",
+          "Trend grafik CTR veya conversions üzerinden oluşturuldu",
+          "Karar cümlesi yazıldı: Keep / Kill / Iterate",
+          "Roadmap aksiyonu oluşturuldu: sorumlu + tarih",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+   "BlogSezonlukVeYilBazliSeoPerformansRaporlariTrendVeBenchmark": {
+    "title": "Sezonluk ve YoY SEO Raporu: Trend & Benchmark",
+    "slug": "sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "1 Haziran 2026",
+    "publishedAt": "2026-06-01",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ay/ay yerine YoY ve sezonluk trend grafikleriyle SEO performansını okuyun. Brand/non-brand, dönüşüm, kalite sinyali, benchmark hedefleri ve olay timeline’ı ile gerçek katkıyı görünür kılın.",
+    "seo": {
+      "metaTitle": "Sezonluk ve YoY SEO Raporu: Trend & Benchmark | DGTLFACE",
+      "metaDescription": "Ay/ay yerine YoY ve sezonluk trend grafikleriyle SEO’yu oku. Brand/non-brand, dönüşüm ve kaliteyi ekle; benchmark hedef koy, kritik tarihleri timeline’a işaretle."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      ],
+      "strategySummary": "Bu blog, özellikle sezon etkisi olan sektörlerde “ay/ay rapor panikleri”ni bitirip uzun vadeli trend + benchmark okuma alışkanlığı kazandıran otorite içeriktir. Hedef persona; otel sahibi/GM, satış–pazarlama direktörü ve ajans yöneticisidir; “bu ay düştük” yerine “yıl/yıl gidişatımız ve payımız ne?” sorusuna cevap arar. Funnel MoFu’dadır: rapor, bütçe/öncelik/roadmap kararını besler ve “kriz mi, normal sezon dalgası mı?” ayrımını netleştirir. Ana iş sorusu: “Sezonluk dalgalanmaları doğru okuyup, benchmark ve olay işaretleriyle SEO’nun gerçek katkısını nasıl ölçerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-01",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sezonluk sektörlerde SEO’yu “bu ay geçen aya göre nasılız?” diye okumak yanıltıcıdır. En doğru yaklaşım; YoY (yıl/yıl) ve sezon bazlı trend grafikleriyle organik görünürlük, trafik ve dönüşümü uzun vadede izlemek; bunu benchmark (geçen yıl, rakip, hedef) ve “önemli olay” notlarıyla (site geçişi, kampanya, kriz, algoritma değişimi) birlikte yorumlamaktır. Böylece kısa vadeli dalgalanma yerine gerçek katkı ve risk netleşir.",
+      "sgeSummary": "SEO’yu MoM değil; YoY ve sezonluk trendle oku. Brand/non-brand + dönüşüm + kaliteyi grafiğe ekle, benchmark hedef belirle, önemli tarihleri timeline’a işaretle.",
+      "voiceAnswer": "Bu ay trafik düştüyse panikleme; YoY ve sezon trendine bak, benchmark ve olay notlarıyla karar ver.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel grupları ve sezon etkili sektör yöneticileri, ajanslar",
+        "KPI: organik görünürlük, organik oturum, dönüşüm, brand/non-brand trendi, kalite metrikleri",
+        "Entity: Seasonal Trends; YoY Analysis; Benchmarks; SEO Timeline",
+        "Model: temporal seo analysis → season-aware reporting → long-view performance",
+        "Funnel: Stratejik okuma → hedef/benchmark → roadmap ve bütçe kararı",
+        "Geo: TR geneli; sezon örneklerinde Antalya / Belek / Side / Kemer / Bodrum",
+        "Çıktı: YoY + sezon grafikleri, timeline işaretleri, benchmark hedef tablosu, trend okuma checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+      "intro": "SEO raporlamasında en pahalı hata, “her ay aynı metriğe bakıp” aynı duygusal tepkiyi üretmektir: ay/ay düşüşte panik, ay/ay artışta rehavet. Sezon etkisi olan sektörlerde (turizm, perakende, e-ticaret) bu yaklaşım daha da yanıltıcıdır; çünkü talep dalgaları doğası gereği grafiği zıplatır. Doğru yaklaşım; YoY ve sezonluk trend ile uzun vadeli gidişatı okumak, bunu benchmark hedeflerle kıyaslamak ve grafiğe “önemli olayları” işaretleyerek nedeni görünür kılmaktır. Bu rehber, “yıl bazlı SEO raporu” kurgusunu pratik bir raporlama standardına dönüştürür.",
+      "quickSummary": [
+        "1) MoM, QoQ ve YoY pencerelerini amaca göre ayır",
+        "2) Sezon etkili sektörlerde ana grafiği YoY kur",
+        "3) Brand/non-brand, dönüşüm ve kalite sinyalini rapora ekle",
+        "4) Benchmark hedeflerini tek sayı değil trend bandı olarak belirle",
+        "5) Site geçişi, kampanya, kriz ve ölçüm değişikliklerini timeline’a işaretle"
+      ],
+      "ctaPrimary": {
+        "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
+        "text": "Sezon dalgasını panik değil planlama aracına çevirmek isteyen turizm ve sezon etkili markalar için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
+        "text": "Sezon dalgasını benchmark ve olay işaretleriyle okuyup yönetim kararına bağlamak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "YoY & Sezonluk SEO Performans Grafiği Şablonunu İndir",
+        "text": "YoY/seasonal grafik ve timeline yapısını hazır verir; raporu sakin, stratejik ve karar odaklı okumanızı sağlar.",
+        "href": "/downloads/yoy-sezonluk-seo-performans-grafigi-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "title": "Benchmark Analizi ile Performans Karşılaştırması",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ay-ay-ceyrek-ceyrek-yil-yil-yoy-karsilastirmalar",
+        "title": "Ay/Ay, Çeyrek/Çeyrek ve Yıl/Yıl (YoY) Karşılaştırmalar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Karşılaştırma penceresi, raporun yorumunu belirler. Aynı grafiğe bakıp farklı pencere seçerseniz tamamen farklı kararlar çıkabilir. Bu yüzden raporda “hangi pencereyle baktık?” sorusunun cevabı kilit olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "MoM (Ay/Ay) ne zaman anlamlıdır?"
+          },
+          {
+            "type": "p",
+            "text": "MoM, hızlı müdahale ve operasyonel kontrol için iyidir; özellikle teknik bir kırılım, site hatası veya kampanya değişimi gibi “yakın tarihli olaylarda” işe yarar. Ancak sezon etkisi yüksekse MoM, çoğu zaman “doğal dalgayı” kriz gibi gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "QoQ (Çeyrek/Çeyrek) ne zaman anlamlıdır?"
+          },
+          {
+            "type": "p",
+            "text": "QoQ, stratejik ritim için uygundur: içerik üretimi, refresh döngüsü, teknik sprintler ve bütçe kararları çeyrek bazında okunur. Sezonu daha yumuşatır ama hâlâ YoY kadar güven vermez (özellikle turizmde)."
+          },
+          {
+            "type": "h3",
+            "text": "SEO performansında YoY karşılaştırma neden önemlidir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): YoY, aynı sezon koşulunu aynı sezonla karşılaştırdığı için sezon dalgasını nötralize eder. “Bu ay düştük” yerine “geçen yıl aynı ayın üstünde miyiz?” sorusuna cevap verir; böylece gerçek büyümeyi, gerçek kaybı ve stratejinin işe yarayıp yaramadığını daha sağlıklı görürsünüz."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "MoM verisini “alarm” değil “sinyal” olarak mı görüyorum?",
+              "Sezon etkisi varsa YoY’yi ana okuma penceresi yaptım mı?",
+              "Çeyrek raporunda “üretim/refresh/teknik sprint” sonuçlarını ayrı okuyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporun en başına “Okuma penceresi: MoM/QoQ/YoY” satırını koyun.",
+              "Sezon etkili sektörlerde ana grafiği YoY kurun; MoM’yi “erken uyarı” olarak bırakın.",
+              "QoQ bölümünde sprint ve içerik planını özetleyin (çeyreklik strateji).",
+              "Aynı metrik için üç pencereyi aynı sayfaya yığmayın; “amaç” bazlı ayırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezon-etkisi-olan-sektorlerde-seo-trend-analizi",
+        "title": "Sezon Etkisi Olan Sektörlerde SEO Trend Analizi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Turizmde sezon, talebi değiştirir; talep değişince görünürlük, tıklama, dönüşüm ve hatta brand/non-brand dağılımı değişir. Bu nedenle sezonluk SEO performans analizi, “tek metrik” değil “metrik seti” ile yapılmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Sezon okumada en sık 3 hata"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "MoM düşüşü kriz sanmak: düşük sezonun doğal inişini panik olarak okumak.",
+              "Sadece trafik okumak: dönüşüm ve kaliteyi dışarıda bırakmak.",
+              "Brand etkisini karıştırmak: brand artınca “SEO büyüdü” sanmak; oysa non-brand zayıflıyor olabilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sezon raporuna hangi grafikler eklenmeli?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik görünürlük trendi (impressions/clicks/CTR seti)",
+              "Organik trafik trendi (oturum)",
+              "Organik dönüşüm trendi (lead/rezervasyon)",
+              "Brand vs non-brand trendi (pay değişimi)",
+              "(Opsiyonel) Landing kalite trendi (en az 1 kalite sinyali)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (turizm): Yüksek sezonda brand aramalar artabilir; bu durumda organik dönüşüm yükselir ama non-brand görünürlük düşüyor olabilir. Sezon raporu, bunu “maskelenmiş risk” olarak gösterebilmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Sezonda sadece trafik değil, dönüşüm ve kalite grafiği de var mı?",
+              "Brand/non-brand ayrımını raporda sabitledim mi?",
+              "Sezon dışı dönemde “stratejik üretim/refresh” kazanımını ayrı yorumluyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon raporunda “trafik + dönüşüm + brand/non-brand” üçlüsünü zorunlu yapın.",
+              "Yüksek/düşük sezon için iki ayrı yorum bloğu yazın (aynı dil farklı karar üretir).",
+              "Düşük sezonda hedefi “otorite ve temel güçlendirme” olarak koyun; yüksek sezonda “talep verimi”ne odaklanın.",
+              "“Sezonluk SEO performans analizi” bölümünde mutlaka karar cümlesi olsun: “Panik mi, normal mi?”"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "benchmark-ve-hedef-belirleme",
+        "title": "Benchmark ve Hedef Belirleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Benchmark, raporu “geçmişe bakış”tan çıkarıp “hedefe yürüyüş”e çevirir. Benchmark yoksa rapor sadece “ne oldu?” der; benchmark varsa “ne kadar iyiyiz ve nereye gitmeliyiz?” der."
+          },
+          {
+            "type": "h3",
+            "text": "Benchmark türleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Geçen yıl aynı dönem (YoY): en temiz sezon benchmark’ı",
+              "Hedef benchmark: hedeflenen büyüme bandı (plan/OKR)",
+              "Rakip/ sektör benchmark’ı: pay ve görünürlük kıyası (varsa)",
+              "Kanal benchmark’ı: organik payın diğer kanallarla kıyası (rapor hedefinize göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hedef belirlerken “metrik seçimi”"
+          },
+          {
+            "type": "p",
+            "text": "Sezon etkili işlerde hedefi tek metriğe bağlamak risklidir. Hedef seti şöyle daha sağlıklı olur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 iş KPI: dönüşüm/lead/rezervasyon",
+              "2 destek KPI: görünürlük trendi + brand/non-brand payı (veya CTR)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Trend & Benchmark Okuma Matrisi — Hangi Pencere, Hangi Soru, Hangi Risk?",
+            "headers": [
+              "Karşılaştırma",
+              "Ne sorar?",
+              "Ne zaman kullanılır?",
+              "Sezon riski",
+              "En iyi eş KPI"
+            ],
+            "rows": [
+              [
+                "MoM",
+                "“Bu ay ne değişti?”",
+                "teknik kırılım, ani düşüş/çıkış",
+                "Yüksek",
+                "olay işaretleri + kalite"
+              ],
+              [
+                "QoQ",
+                "“Bu çeyrek ne kazandık?”",
+                "sprint/roadmap ritmi",
+                "Orta",
+                "içerik/teknik çıktılar"
+              ],
+              [
+                "YoY",
+                "“Gerçek büyüme var mı?”",
+                "sezon etkili sektörlerde ana okuma",
+                "Düşük",
+                "brand/non-brand + dönüşüm"
+              ],
+              [
+                "Benchmark hedef",
+                "“Planın neresindeyiz?”",
+                "yönetim/OKR",
+                "Duruma bağlı",
+                "iş KPI + görünürlük"
+              ],
+              [
+                "Rakip kıyası",
+                "“Payımız ne?”",
+                "share-of-voice odaklı",
+                "Duruma bağlı",
+                "cluster görünürlüğü"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Benchmark türünü raporun amacına göre seçtim mi?",
+              "Hedef KPI seti 1 iş KPI + 2 destek KPI şeklinde mi?",
+              "Benchmark’ı “tek sayı” değil trend bandı olarak mı görüyorum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporunuzda benchmark’ı 1 satırla net yazın: “YoY + hedef + (varsa) rakip”.",
+              "Hedefleri “band” olarak koyun (kesin rakam iddiası yerine yön).",
+              "Brand/non-brand trendini benchmark’a dahil edin (aksi hâlde büyüme maskelenir).",
+              "Benchmark raporunu yılda en az 1–2 kez strateji toplantısında güncelleyin (Refresh Cycle: 365)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uzun-vadeli-grafik-okuma",
+        "title": "Uzun Vadeli Grafik Okuma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Uzun vadeli grafik okuma, “tek nokta” yerine “eğim” okumasıdır. Yönetim için en değerli şey, SEO’nun uzun vadede katkı yapıp yapmadığını görmek ve riskleri erken fark etmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Uzun vadede neye bakılır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trend yönü: yükselen/azalan/plateau",
+              "Volatilite: dalga büyüklüğü (daha mı oynak?)",
+              "Sezon tepe/dip değişimi: tepe aynı mı, daha mı yüksek? dip daha mı iyi?",
+              "Bileşenler: brand/non-brand, dönüşüm, kalite"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Her ay aynı metriğe bakmak” yerine trend okumak"
+          },
+          {
+            "type": "p",
+            "text": "Aylık raporun görevi “hikâye” değil “sinyal” üretmektir. Trend raporunun görevi “karar” üretmektir. İkisini ayırmazsanız rapor ya panik üretir ya da uyutur."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Bir otel grubunda yüksek sezonda zirve aynı kalıyor ama düşük sezonda dip daha iyi hâle geliyorsa; SEO’nun temel otoritesi artıyor demektir (uzun vadeli katkı). Bu, MoM ile yakalanmaz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Grafikte “eğim” ve “tepe/dip” farkını ayrı okuyorum mu?",
+              "Trend raporunda brand/non-brand ve dönüşüm mutlaka var mı?",
+              "Trend raporu karar cümlesiyle bitiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Uzun vadeli grafikte 12–24 ay penceresini standartlaştırın.",
+              "Tepe/dip analizi ekleyin: “Bu yıl tepe geçen yılın üstünde mi?”",
+              "Trend raporunun sonuna “3 başarı + 3 risk + 3 aksiyon” mini özeti koyun (yönetici için).",
+              "Trend raporunu aylık değil, çeyreklik/yarıyıllık ritimde yönetime sunun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kriz-ve-algoritma-degisimlerini-grafik-uzerinde-isaretlemek",
+        "title": "Kriz ve Algoritma Değişimlerini Grafik Üzerinde İşaretlemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Trend raporları, bağlam olmadan “gürültü” gibi görünür. O yüzden kritik olayları grafiğe işaretlemek şarttır: site geçişi, büyük release, kampanya değişimi, kriz, (varsa) algoritma dalgası."
+          },
+          {
+            "type": "h3",
+            "text": "Grafiklerde hangi olayları işaretlemeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): En az şu olayları işaretleyin: site taşınması/yenileme, URL yapısı değişimi, büyük içerik güncellemeleri, robots/sitemap/canonical değişiklikleri, büyük kampanya dönemleri, kriz dönemleri ve ölçüm değişiklikleri. Amaç “bahane üretmek” değil, trend kırılmalarını doğru açıklamaktır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Olay işaretleriyle “neden” üretmek"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trafik düştü → aynı gün/site release var mı?",
+              "CTR düştü → SERP görünümü değişti mi? (snippet/PAA yoğunluğu)",
+              "Dönüşüm düştü → sezonsal mı, UX/teklif mi, ölçüm mü?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): Trend analizinde sadece trafik değil, brand/non-brand ayrımı, dönüşüm ve kalite metrikleri de grafiklere eklenmelidir; aksi hâlde “yanlış alarm / gereksiz panik” üretirsiniz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Timeline’da “ölçüm değişiklikleri” de işaretli mi?",
+              "Düşüşte önce olay işaretlerine bakıyor muyum?",
+              "Panik yerine “trend + YoY + olay” üçlemesiyle karar veriyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Trend grafiğinin altına “Olay çizgisi” ekleyin (timeline).",
+              "Ölçüm değişikliklerini (etiket, hedef, tracking) mutlaka işaretleyin.",
+              "Düşüş raporunu “kriz mi, sezon mu, ölçüm mü?” sorusuyla açın.",
+              "Olay işaretleri rapor kültürünüzün parçası olsun; tek seferlik değil."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sakin-rapor-kulturu-ve-dogru-alarm-sistemi",
+        "title": "Fark Yaratan Kapanış — Sakin Rapor Kültürü ve Doğru Alarm Sistemi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Özellikle turizmde, ay/ay raporlar yanlış alarm üretir: düşük sezonda “bittik”, yüksek sezonda “uçtuk” hissi. Oysa strateji; YoY ve sezon trendiyle oturur, benchmark ile netleşir, timeline ile açıklanır. Bu yaklaşım, “yoy ve benchmark seo” bakış açısını kurar: kısa vadeli dalgalanmayı yönetirken uzun vadeli katkıyı görünür kılar."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
+            "text": "YoY + sezon grafikleri + benchmark hedefleri + timeline notlarıyla yönetim seviyesinde net karar isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "yoy-sezonluk-seo-performans-grafigi-sablonu",
+        "title": "YoY & Sezonluk SEO Performans Grafiği Şablonunu İndir — SEO / Trend Raporu",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "YoY & Sezonluk SEO Performans Grafiği Şablonunu İndir — SEO / Trend Raporu (v1.0)",
+            "purpose": "Bu şablon, sezon etkili sektörlerde SEO raporunu “MoM panik raporu” olmaktan çıkarıp YoY + sezon trend standardına taşır. Benchmark hedef bandını ve “olay işaretlerini” (site geçişi, release, kriz, ölçüm değişimi) aynı grafikte göstererek karar almayı kolaylaştırır. Brand/non-brand, dönüşüm ve kalite sinyallerini ekleyerek “gerçek katkı”yı görünür kılar.",
+            "whoFor": "Otel grupları, perakende/e-ticaret ekipleri, ajans raporlama ekipleri ve yönetici sunumu hazırlayanlar.",
+            "steps": [
+              "Son 24 ay verisini çıkar; YoY karşılaştırma ve sezon penceresini seç.",
+              "Grafiklere benchmark bandı ve önemli olay işaretlerini ekle.",
+              "Rapora 3–3–3 (başarı/risk/aksiyon) ekleyip sprint/backlog’a bağla."
+            ],
+            "template": {
+              "title": "YoY & Sezonluk SEO Performans Grafiği Şablonu",
+              "sections": [
+                {
+                  "title": "A) Rapor Filtre Seti (Rapor başında sabit)",
+                  "items": [
+                    "Dönem: ______ (örn. son 24 ay)",
+                    "Karşılaştırma: YoY (aynı ay / aynı sezon)",
+                    "Segment: Brand / Non-brand",
+                    "KPI seti: görünürlük, trafik, dönüşüm, kalite sinyali"
+                  ]
+                },
+                {
+                  "title": "B) YoY + Sezon Trend Grafikleri (4 grafik önerisi)",
+                  "items": [
+                    "Organik görünürlük (impressions/clicks/CTR) — YoY",
+                    "Organik trafik (oturum) — YoY",
+                    "Organik dönüşüm (lead/rezervasyon) — YoY",
+                    "Brand vs non-brand pay grafiği — YoY"
+                  ]
+                },
+                {
+                  "title": "C) Benchmark Bandı (hedef)",
+                  "items": [
+                    "Hedef band: ______ (örn. “YoY +%X bandı” — Varsayım: kesin rakam yerine bant)",
+                    "Benchmark türü: geçen yıl aynı dönem / hedef / (varsa) rakip"
+                  ]
+                },
+                {
+                  "title": "D) Olay Timeline (grafik üzerinde işaretlenecekler)",
+                  "items": [
+                    "Site geçişi / tasarım yenileme: ______",
+                    "URL yapısı değişimi: ______",
+                    "Büyük içerik refresh dalgası: ______",
+                    "Teknik release / CWV iyileştirmesi: ______",
+                    "Kriz / kampanya / sezon kırılımı: ______",
+                    "Ölçüm değişikliği: ______"
+                  ]
+                },
+                {
+                  "title": "E) Yönetici Özeti (3 cümle)",
+                  "items": [
+                    "Ne oldu: ______",
+                    "Neden oldu (1–2 madde): ______",
+                    "Ne yapıyoruz (3 aksiyon): ______"
+                  ]
+                },
+                {
+                  "title": "F) Trend Okuma Checklist",
+                  "items": [
+                    "Ana okuma penceresi YoY (sezon etkisi varsa)",
+                    "Brand/non-brand ayrımı grafikte var",
+                    "Dönüşüm ve kalite sinyali grafiğe eklendi",
+                    "Önemli olaylar timeline’da işaretli",
+                    "Benchmark bandı mevcut",
+                    "Rapor 3–6 aksiyonla bitiyor"
+                  ]
+                }
+              ]
+            },
+            "deliverables": [
+              "4 YoY grafik + 1 timeline",
+              "Benchmark hedef bandı notu",
+              "1 sayfa yönetici özeti",
+              "Sprint/backlog aksiyon listesi",
+              "Buraya (Asset içi): [Diagram] — 16:9 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-diagram-05.webp — timeline işaretleri, trend okuma bağlamı",
+              "Buraya (Asset içi): [Checklist Card] — 1:1 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-checklist-06.webp — trend okuma checklist, yönetim sunumu bağlamı"
+            ],
+            "href": "/downloads/yoy-sezonluk-seo-performans-grafigi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sezonluk SEO raporu panik değil, doğru alarm sistemi üretmelidir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Sezonluk ve yıl bazlı SEO raporları, sadece geçmiş performansı göstermek için değil; doğru alarm sistemi kurmak için hazırlanmalıdır. MoM dalgalanmaları tek başına kriz ya da başarı olarak okunursa, rapor yönetimi yanlış yönlendirebilir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru yaklaşım; YoY ve sezon trend grafikleriyle uzun vadeli eğimi okumak, benchmark hedefleriyle ilerlemeyi kıyaslamak, brand/non-brand ve dönüşüm ayrımını sabitlemek ve grafiğe kritik olayları işaretlemektir. Böylece “bu ay düştük” paniği yerine “gerçek katkı, gerçek risk ve sıradaki aksiyon nedir?” sorusu cevaplanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
+            "text": "Sezon dalgasını benchmark ve olay işaretleriyle okuyup yönetim kararına bağlamak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "YoY & Sezonluk SEO Performans Grafiği Şablonunu İndir",
+            "text": "YoY/seasonal grafik ve timeline yapısını hazır verir; raporu sakin, stratejik ve karar odaklı okumanızı sağlar.",
+            "href": "/downloads/yoy-sezonluk-seo-performans-grafigi-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO performansında yıl/yıl (YoY) karşılaştırma neden önemlidir?",
+        "a": "Çünkü aynı dönemi aynı dönemle karşılaştırır ve sezon dalgasını nötralize eder. MoM paniklerini azaltır; gerçek büyüme ve gerçek kaybı daha net gösterir."
+      },
+      {
+        "q": "Sezonluk sektörlerde SEO raporu nasıl okunmalı?",
+        "a": "YoY ve sezon trend grafikleriyle okunmalı; brand/non-brand, dönüşüm ve kalite sinyalleri aynı raporda yer almalı. Yüksek sezon ve düşük sezon yorumları ayrı yazılmalı."
+      },
+      {
+        "q": "Grafiklerde hangi olayları işaretlemeliyim?",
+        "a": "Site geçişi, URL değişimi, büyük içerik güncellemeleri, teknik release, kriz/kampanya dönemleri ve ölçüm değişiklikleri mutlaka işaretlenmeli. Böylece trend kırılmaları doğru açıklanır."
+      },
+      {
+        "q": "Benchmark ve hedefleri nasıl belirlemeliyim?",
+        "a": "Temel benchmark olarak geçen yıl aynı dönemi (YoY) kullanın. Hedefi tek metrik yerine 1 iş KPI + 2 destek KPI ile koyun; hedefi bant olarak tanımlayın."
+      },
+      {
+        "q": "Bu ay trafik düştü, paniklemeli miyim?",
+        "a": "Önce YoY’ye bakın: geçen yıl aynı aya göre durum nedir? Sonra timeline’daki olayları kontrol edin. Düşüş sadece MoM ise çoğu zaman sezon dalgası veya kısa vadeli gürültüdür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-hero-01.webp",
+          "h1-context — 1920×1080 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-h1-context-02.webp",
+          "divider-01 — 1600×1200 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-divider-03.webp",
+          "divider-02 — 1600×1200 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-divider-04.webp",
+          "diagram-05 — 1920×1080 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-kpi-07.webp",
+          "proof-08 — 1200×1200 — sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark-proof-08.webp",
+          "table-trend-benchmark-matrix — Trend & Benchmark okuma matrisi görseli"
+        ],
+        "technicalChecklist": [
+          "Ana okuma penceresi MoM/QoQ/YoY olarak rapor başında belirtildi",
+          "Sezon etkili sektörlerde YoY ana okuma penceresi yapıldı",
+          "MoM erken uyarı/sinyal olarak konumlandı",
+          "Brand/non-brand ayrımı rapora eklendi",
+          "Organik görünürlük, trafik, dönüşüm ve kalite sinyalleri birlikte okundu",
+          "Benchmark türü netleştirildi: YoY + hedef + varsa rakip",
+          "Benchmark hedefleri tek sayı yerine band olarak tanımlandı",
+          "12–24 ay trend grafiği standardize edildi",
+          "Timeline olay çizgisi eklendi",
+          "Site geçişi, URL değişimi, içerik refresh, teknik release, kampanya, kriz ve ölçüm değişiklikleri işaretlendi",
+          "Rapor 3 başarı + 3 risk + 3 aksiyon özetiyle kapatıldı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
   }
 
 }

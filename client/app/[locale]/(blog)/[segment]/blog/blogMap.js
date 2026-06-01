@@ -257,7 +257,10 @@ export const BLOG_MAP = {
     "backlink-graph-ve-entity-bazli-otorite-gelecegin-link-sinyalleri":"BlogBacklinkGraphVeEntityBazliOtoriteGeleceginLinkSinyalleri",
     "sifir-baglantili-profilden-dengeli-otoriteye-yeni-domainler-icin-backlink-stratejisi":"BlogSifirBaglantiliProfildenDengeliOtoriteyeYeniDomainlerIcinBacklinkStratejisi",
     "teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir":"BlogTeknikSeoVeCoreWebVitalsRaporuNasilYorumlanir",
-    "icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir":"BlogIcerikVeTopicClusterPerformansRaporuNasilHazirlanir"
+    "icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir":"BlogIcerikVeTopicClusterPerformansRaporuNasilHazirlanir",
+    "yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz":"BlogYerelSeoVeHaritaPerformansiniSeoRaporunaNasilDahilEdersiniz",
+    "seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak":"BlogSeoDeneyleriVeAbTestSonuclariniRaporlamak",
+    "sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark":"BlogSezonlukVeYilBazliSeoPerformansRaporlariTrendVeBenchmark"
   },
 
     smm: {

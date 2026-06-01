@@ -38676,6 +38676,157 @@ export const BLOG_MEDIA_MAP = {
       alt: "Cluster rapor deliverables kartı, amaç portföy yönetimi, kurumsal bağlamı",
       caption: "Cluster rapor deliverables kartı, amaç portföy yönetimi, kurumsal bağlamı"
     }
+  },
+
+  "yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz":{
+     banner: {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-1.webp",
+      alt: "Yerel SEO ve Harita Performansını SEO Raporuna Nasıl Dahil Edersiniz?",
+      caption: "Yerel SEO ve Harita Performansını SEO Raporuna Nasıl Dahil Edersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-2.webp",
+      alt: "Map→site funnel akışı, amaç bütünsel raporlama, yerel işletme bağlamı",
+      caption: "Map→site funnel akışı, amaç bütünsel raporlama, yerel işletme bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-3.webp",
+    alt: "Yerel KPI geçiş görseli, amaç metrikleri netleştirmek, SEO raporlama bağlamı",
+      caption: "Yerel KPI geçiş görseli, amaç metrikleri netleştirmek, SEO raporlama bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-4.webp",
+      alt: "Birleşik rapor ve aksiyon geçişi, amaç uygulama planı, ajans bağlamı",
+      caption: "Birleşik rapor ve aksiyon geçişi, amaç uygulama planı, ajans bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-5.webp",
+      alt: "Harita→site→call/rota akış diyagramı, amaç yerel funnel, otel bağlamı",
+      caption: "Harita→site→call/rota akış diyagramı, amaç yerel funnel, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-6.webp",
+      alt: "Yerel+organik rapor checklist kartı, amaç hızlı uygulama, işletme bağlamı",
+      caption: "Yerel+organik rapor checklist kartı, amaç hızlı uygulama, işletme bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-7.webp",
+      alt: "Yerel KPI kartları, amaç hızlı okuma, otel ve lokal işletme bağlamı",
+      caption: "Yerel KPI kartları, amaç hızlı okuma, otel ve lokal işletme bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-8/SEO5-8-8.webp",
+      alt: "Yerel rapor deliverables kartı, amaç yönetici sunumu, ajans bağlamı",
+      caption: "Yerel rapor deliverables kartı, amaç yönetici sunumu, ajans bağlamı"
+    }
+  },
+
+  "seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak":{
+    banner: {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-1.webp",
+      alt: "SEO Deneyleri ve A/B Test Sonuçlarını Nasıl Raporlarsınız?",
+      caption: "SEO Deneyleri ve A/B Test Sonuçlarını Nasıl Raporlarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-2.webp",
+      alt: "Kontrol ve deney tasarımı, amaç doğru ölçüm, ajans raporlama bağlamı",
+      caption: "Kontrol ve deney tasarımı, amaç doğru ölçüm, ajans raporlama bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-3.webp",
+    alt: "Deney kültürü geçişi, amaç ölçüm disiplini, kurumsal bağlam",
+      caption: "Deney kültürü geçişi, amaç ölçüm disiplini, kurumsal bağlam"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-4.webp",
+      alt: "Sonuç raporlama geçişi, amaç karar üretmek, yönetici sunumu bağlamı",
+      caption: "Sonuç raporlama geçişi, amaç karar üretmek, yönetici sunumu bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-5.webp",
+      alt: "Kontrol vs deney trend grafiği, amaç farkı görmek, raporlama bağlamı",
+      caption: "Kontrol vs deney trend grafiği, amaç farkı görmek, raporlama bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-6.webp",
+      alt: "Deney logu checklist kartı, amaç kayıt düzeni, SEO ekip bağlamı",
+      caption: "Deney logu checklist kartı, amaç kayıt düzeni, SEO ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-7.webp",
+      alt: "Deney KPI skor kartı, amaç CTR ve dönüşüm etkisi, otel pazarlama bağlamı",
+      caption: "Deney KPI skor kartı, amaç CTR ve dönüşüm etkisi, otel pazarlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-9/SEO5-9-8.webp",
+      alt: "Deney çıktıları kartı, amaç standartlaştırma, kurumsal bağlam",
+      caption: "Deney çıktıları kartı, amaç standartlaştırma, kurumsal bağlam"
+    }
+  },
+
+
+  "sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark":{
+    banner: {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-1.webp",
+      alt: "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+      caption: "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-2.webp",
+      alt: "Benchmark ve olay işaretli trend okuma, amaç sakin karar, yönetim bağlamı",
+      caption: "Benchmark ve olay işaretli trend okuma, amaç sakin karar, yönetim bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-3.webp",
+    alt: "Karşılaştırma pencereleri ayırıcı, amaç doğru lens seçimi, raporlama bağlamı",
+      caption: "Karşılaştırma pencereleri ayırıcı, amaç doğru lens seçimi, raporlama bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-4.webp",
+      alt: "Benchmark hedef geçişi, amaç kıyasla karar vermek, kurumsal bağlam",
+      caption: "Benchmark hedef geçişi, amaç kıyasla karar vermek, kurumsal bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-5.webp",
+      alt: "Timeline diyagramı ve olay işaretleri, amaç trend kırılmasını açıklamak, SEO bağlamı",
+      caption: "Timeline diyagramı ve olay işaretleri, amaç trend kırılmasını açıklamak, SEO bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-6.webp",
+      alt: "Trend okuma checklist kartı, amaç rapor standardı, ajans bağlamı",
+      caption: "Trend okuma checklist kartı, amaç rapor standardı, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-7.webp",
+      alt: "YoY KPI kartları paneli, amaç hızlı yönetici özeti, otel grubu bağlamı",
+      caption: "YoY KPI kartları paneli, amaç hızlı yönetici özeti, otel grubu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-10/SEO5-10-8.webp",
+      alt: "Trend rapor çıktıları kartı, amaç güven ve takip, kurumsal raporlama bağlamı",
+      caption: "Trend rapor çıktıları kartı, amaç güven ve takip, kurumsal raporlama bağlamı"
+    }
   }
 
 
