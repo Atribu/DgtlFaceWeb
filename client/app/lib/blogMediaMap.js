@@ -38827,6 +38827,257 @@ export const BLOG_MEDIA_MAP = {
       alt: "Trend rapor çıktıları kartı, amaç güven ve takip, kurumsal raporlama bağlamı",
       caption: "Trend rapor çıktıları kartı, amaç güven ve takip, kurumsal raporlama bağlamı"
     }
+  },
+
+  "segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen":{
+    banner: {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-1.webp",
+      alt: "Segment Bazlı SEO Raporu: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+      caption: "Segment Bazlı SEO Raporu: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-2.webp",
+      alt: "Cihaz ülke yeni-geri kırılımı, amaç fırsat ve risk, ajans raporlama bağlamı",
+      caption: "Cihaz ülke yeni-geri kırılımı, amaç fırsat ve risk, ajans raporlama bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-3.webp",
+    alt: "Cihaz segmenti geçiş görseli, amaç mobil vs desktop okuma, turizm bağlamı",
+      caption: "Cihaz segmenti geçiş görseli, amaç mobil vs desktop okuma, turizm bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-4.webp",
+      alt: "Ülke ve kullanıcı segmenti geçişi, amaç pazar analizi, kurumsal bağlam",
+      caption: "Ülke ve kullanıcı segmenti geçişi, amaç pazar analizi, kurumsal bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-5.webp",
+      alt: "Segment KPI aksiyon diyagramı, amaç hedefli optimizasyon, SEO bağlamı",
+      caption: "Segment KPI aksiyon diyagramı, amaç hedefli optimizasyon, SEO bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-6.webp",
+      alt: "Segment aksiyon checklist kartı, amaç hızlı uygulama, ajans bağlamı",
+      caption: "Segment aksiyon checklist kartı, amaç hızlı uygulama, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-7.webp",
+      alt: "Cihaz ülke yeni-geri KPI kartları, amaç hızlı kıyas, otel bağlamı",
+      caption: "Cihaz ülke yeni-geri KPI kartları, amaç hızlı kıyas, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-11/SEO5-11-8.webp",
+      alt: "Segment rapor deliverables kartı, amaç yönetici sunumu, kurumsal bağlamı",
+      caption: "Segment rapor deliverables kartı, amaç yönetici sunumu, kurumsal bağlamı"
+    }
+  },
+
+  "seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar":{
+    banner: {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-1.webp",
+      alt: "SEO Funnel Raporu: Ziyaretçiden Lead ve Rezervasyona Kadar",
+      caption: "SEO Funnel Raporu: Ziyaretçiden Lead ve Rezervasyona Kadar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-2.webp",
+      alt: "Görünürlükten dönüşüme akış, amaç darboğazı görmek, ajans raporlama bağlamı",
+      caption: "Görünürlükten dönüşüme akış, amaç darboğazı görmek, ajans raporlama bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-3.webp",
+    alt: "Funnel mantığı ayırıcı, amaç adımları netleştirmek, SEO raporlama bağlamı",
+      caption: "Funnel mantığı ayırıcı, amaç adımları netleştirmek, SEO raporlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-4.webp",
+      alt: "Benchmark hedef geçişi, amaç kıyasla karar vermek, kurumsal bağlam",
+      caption: "Benchmark hedef geçişi, amaç kıyasla karar vermek, kurumsal bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-5.webp",
+      alt: "SEO funnel huni diyagramı, amaç kaybı işaretlemek, otel/B2B bağlamı",
+      caption: "SEO funnel huni diyagramı, amaç kaybı işaretlemek, otel/B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-6.webp",
+      alt: "Darboğaz tespit checklist kartı, amaç hızlı teşhis, ekip bağlamı",
+      caption: "Darboğaz tespit checklist kartı, amaç hızlı teşhis, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-7.webp",
+      alt: "Funnel KPI kartları paneli, amaç yönetici özeti, otel ve B2B bağlamı",
+      caption: "Funnel KPI kartları paneli, amaç yönetici özeti, otel ve B2B bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-12/SEO5-12-8.webp",
+      alt: "Funnel rapor çıktıları kartı, amaç karar ve takip, kurumsal bağlam",
+      caption: "Funnel rapor çıktıları kartı, amaç karar ve takip, kurumsal bağlam"
+    }
+  },
+
+  "icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz":{
+    banner: {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-1.webp",
+      alt: "İçerik Refresh ve Consolidation Sonuçlarını SEO Raporuna Nasıl Yansıtırsınız?",
+      caption: "İçerik Refresh ve Consolidation Sonuçlarını SEO Raporuna Nasıl Yansıtırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-2.webp",
+      alt: "Consolidation toplam performans okuması, amaç doğru ölçüm, ajans raporlama bağlamı",
+      caption: "Consolidation toplam performans okuması, amaç doğru ölçüm, ajans raporlama bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-3.webp",
+    alt: "Baseline ve ölçüm geçişi, amaç karşılaştırmayı standardize etmek, ekip bağlamı",
+      caption: "Baseline ve ölçüm geçişi, amaç karşılaştırmayı standardize etmek, ekip bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-4.webp",
+      alt: "Cluster etkisi ve görselleştirme geçişi, amaç stratejik okuma, kurumsal bağlam",
+      caption: "Cluster etkisi ve görselleştirme geçişi, amaç stratejik okuma, kurumsal bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-5.webp",
+      alt: "Consolidation toplam→hedef grafiği, amaç etkiyi görmek, SEO bağlamı",
+      caption: "Consolidation toplam→hedef grafiği, amaç etkiyi görmek, SEO bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-6.webp",
+      alt: "Refresh raporlama checklist kartı, amaç süreç standardı, ajans bağlamı",
+      caption: "Refresh raporlama checklist kartı, amaç süreç standardı, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-7.webp",
+      alt: "Önce/sonra KPI kartları, amaç hızlı özet, içerik ve SEO bağlamı",
+      caption: "Önce/sonra KPI kartları, amaç hızlı özet, içerik ve SEO bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-13/SEO5-13-8.webp",
+      alt: "Refresh deliverables kartı, amaç karar ve takip, kurumsal raporlama bağlamı",
+      caption: "Refresh deliverables kartı, amaç karar ve takip, kurumsal raporlama bağlamı"
+    }
+  },
+
+  "seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi":{
+    banner: {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-1.webp",
+      alt: "SEO ve SEM Raporlarını Birlikte Okumak: Organik ve Reklam Sinerjisi",
+      caption: "SEO ve SEM Raporlarını Birlikte Okumak: Organik ve Reklam Sinerjisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-2.webp",
+      alt: "Sorgu ve landing eşleştirme görünümü, amaç çakışmayı görmek, ajans raporlama bağlamı",
+      caption: "Sorgu ve landing eşleştirme görünümü, amaç çakışmayı görmek, ajans raporlama bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-3.webp",
+    alt: "Kanal rol tanımı ayırıcı, amaç görev dağılımı, kurumsal pazarlama bağlamı",
+      caption: "Kanal rol tanımı ayırıcı, amaç görev dağılımı, kurumsal pazarlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-4.webp",
+      alt: "Attribution ve çakışma ayırıcı, amaç kredi yönetimi, yönetici raporu bağlamı",
+      caption: "Attribution ve çakışma ayırıcı, amaç kredi yönetimi, yönetici raporu bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-5.webp",
+      alt: "SERP organik ve reklam mockup diyagramı, amaç kombinasyonları anlamak, SEO bağlamı",
+      caption: "SERP organik ve reklam mockup diyagramı, amaç kombinasyonları anlamak, SEO bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-6.webp",
+      alt: "SEO+SEM karar checklist kartı, amaç hızlı aksiyon, ajans ve marka bağlamı",
+      caption: "SEO+SEM karar checklist kartı, amaç hızlı aksiyon, ajans ve marka bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-7.webp",
+      alt: "Toplam KPI skor kartı, amaç dönüşüm ve maliyet özeti, yönetim bağlamı",
+      caption: "Toplam KPI skor kartı, amaç dönüşüm ve maliyet özeti, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-14/SEO5-14-8.webp",
+      alt: "Birleşik rapor deliverables kartı, amaç karar toplantısı, kurumsal raporlama bağlamı",
+      caption: "Birleşik rapor deliverables kartı, amaç karar toplantısı, kurumsal raporlama bağlamı"
+    }
+  },
+
+
+   "ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler":{
+    banner: {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-1.webp",
+      alt: "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler Nasıl Kullanılır?",
+      caption: "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler Nasıl Kullanılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-2.webp",
+      alt: "AI önerisi insan kararı akışı, amaç hibrit model, kurum içi SEO bağlamı",
+      caption: "AI önerisi insan kararı akışı, amaç hibrit model, kurum içi SEO bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-3.webp",
+    alt: "Otomatik insight kartları geçiş görseli, amaç triage, SEO raporlama bağlamı",
+      caption: "Otomatik insight kartları geçiş görseli, amaç triage, SEO raporlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-4.webp",
+      alt: "Anomali ve erken uyarı geçişi, amaç risk yönetimi, ajans bağlamı",
+      caption: "Anomali ve erken uyarı geçişi, amaç risk yönetimi, ajans bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-5.webp",
+      alt: "AI içgörüden aksiyona akış diyagramı, amaç karar zinciri, SEO ekip bağlamı",
+      caption: "AI içgörüden aksiyona akış diyagramı, amaç karar zinciri, SEO ekip bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-6.webp",
+      alt: "AI ve insan raporlama checklist kartı, amaç güvenli kullanım, kurum bağlamı",
+      caption: "AI ve insan raporlama checklist kartı, amaç güvenli kullanım, kurum bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-7.webp",
+      alt: "Anomali KPI kartı, amaç hızlı öncelik, ajans raporlama bağlamı",
+      caption: "Anomali KPI kartı, amaç hızlı öncelik, ajans raporlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-15/SEO5-15-8.webp",
+      alt: "Hibrit rapor çıktıları kartı, amaç aksiyon ve takip, kurumsal bağlamı",
+      caption: "Hibrit rapor çıktıları kartı, amaç aksiyon ve takip, kurumsal bağlamı"
+    }
   }
 
 
