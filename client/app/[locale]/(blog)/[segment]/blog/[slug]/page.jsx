@@ -322,7 +322,7 @@ async function resolveBlogPostState({
 }
 
 export async function generateMetadata({ params }) {
-  const { locale, segment, slug } = params;
+  const { locale, segment, slug } = await params;
   const department = toCanonicalBlogSegment(segment);
 
   // Türkçe yorum: Locale set et
@@ -605,7 +605,7 @@ function Accordion({ items }) {
 }
 
 export default async function BlogDetailPage({ params }) {
-  const { locale, segment, slug } = params;
+  const { locale, segment, slug } = await params;
   const department = toCanonicalBlogSegment(segment);
   const siteUrl = getSiteUrl();
 

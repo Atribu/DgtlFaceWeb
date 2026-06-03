@@ -19,7 +19,7 @@ import {
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Türkçe yorum: bu sayfanın key'i (og-map + seo-utils ile aynı olmalı)
   const pathnameKey = "/Services/pms-ota";

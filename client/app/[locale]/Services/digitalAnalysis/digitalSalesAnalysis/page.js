@@ -21,7 +21,7 @@ import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from "@/app/[locale]/components/common/FaqPrompt";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   const pathnameKey = "/Services/digitalAnalysis/digitalSalesAnalysis";
 

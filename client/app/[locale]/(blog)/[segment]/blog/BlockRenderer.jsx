@@ -207,10 +207,11 @@ const finalFit = fitFromJson || fitClass;
   loading="lazy"
   quality={75}
   priority={Boolean(block?.priority)}
-  onLoadingComplete={(img) => {
+  onLoad={(event) => {
     // Türkçe yorum: JSON override varsa otomatik hesap yapma
     if (aspectFromJson || fitFromJson) return;
 
+    const img = event.currentTarget;
     const w = img.naturalWidth || 0;
     const h = img.naturalHeight || 0;
     if (!w || !h) return;

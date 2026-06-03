@@ -19,7 +19,7 @@ import {
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   const pathnameKey = "/Services/software";
 

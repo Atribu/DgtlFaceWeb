@@ -19,7 +19,7 @@ import { getSeoData } from "@/app/lib/seo-utils";
 import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Türkçe yorum: bu sayfanın standart key'i (og-map + seoConfig'te aynı key olmalı)
   const pathnameKey = "/Services/digitalAnalysis";

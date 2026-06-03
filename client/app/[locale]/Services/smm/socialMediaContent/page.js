@@ -20,7 +20,7 @@ import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from "@/app/[locale]/components/common/FaqPrompt";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
   const pathnameKey = "/Services/smm/socialMediaContent";

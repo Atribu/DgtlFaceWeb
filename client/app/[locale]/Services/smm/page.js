@@ -19,7 +19,7 @@ import {
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Türkçe yorum: bu sayfanın standart key'i
   const pathnameKey = "/Services/smm";

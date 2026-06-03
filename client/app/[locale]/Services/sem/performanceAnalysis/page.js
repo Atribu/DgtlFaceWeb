@@ -19,7 +19,7 @@ import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   const pathnameKey = "/Services/sem/performanceAnalysis";
 

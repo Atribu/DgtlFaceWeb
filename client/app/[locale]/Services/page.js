@@ -27,7 +27,7 @@ import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { getSeoData } from "@/app/lib/seo-utils";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   const pathnameKey = "/Services";
 
   const base = getBaseUrl();
@@ -375,7 +375,7 @@ function buildServicesHubJsonLd({
 
 
 const Page = async ({ params }) => {
-   const { locale } = params;
+   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "ServicesPage" });
   const t2 = await getTranslations({ locale, namespace: "ServicesPage.h4Section" });
 
