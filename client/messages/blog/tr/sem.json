@@ -1877,7 +1877,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
         "Blog / URL: /tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational",
         "Zorluk / Seviye: Intermediate",
         "Word Count Range: 2300–2700",
@@ -1907,7 +1907,7 @@
     },
     "h1": {
       "title": "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
-      "intro": "Kalite Puanı, otellerde özellikle “oda tipi + destinasyon” aramalarında (ör. Belek resort, Antalya aile oteli, Kemer denize sıfır) CPC’yi şişiren en görünmez sebeplerden biridir: reklam ve sayfa, arayan kişinin niyetine net cevap vermiyorsa Google bunu “kalite” sinyaliyle geri yansıtır. Quality Score’u bir “kural kitabı” değil, teşhis paneli gibi düşünün: hangi bileşenin sizi aşağı çektiğini söyler, siz de doğru noktaya müdahale edersiniz. Google da bunu zaten “diagnostic tool” olarak tanımlar.",
+      "intro": "Kalite Puanı, otellerde özellikle “oda tipi + destinasyon” aramalarında (ör. Belek resort, Antalya aile oteli, Kemer denize sıfır) CPC’yi şişiren en görünmez sebeplerden biridir: reklam ve sayfa, arayan kişinin niyetine net cevap vermiyorsa Google bunu “kalite” sinyaliyle geri yansıtır. Bu <a href=\"/tr/sem/google-ads-yonetimi\">kalite puanı nasıl yükseltilir</a> rehberinde, Quality Score’u bir “kural kitabı” değil, teşhis paneli gibi düşünün: hangi bileşenin sizi aşağı çektiğini söyler, siz de doğru noktaya müdahale edersiniz. Google da bunu zaten “diagnostic tool” olarak tanımlar.",
       "quickSummary": [
         "1) Expected CTR: reklamın tıklanma ihtimali",
         "2) Ad Relevance: reklam–keyword niyeti uyumu",
@@ -1934,26 +1934,54 @@
     },
     "internalLinks": [
       {
-        "label": "Google Ads Yönetimi",
+        "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads landing page optimizasyonu",
+        "href": "/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu"
+      },
+      {
+        "label": "Google Ads negatif anahtar kelime stratejisi",
+        "href": "/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi"
+      },
+      {
+        "label": "Google Ads kampanya hataları",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
       },
       {
         "label": "Teknik SEO",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+        "href": "/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu"
       },
       {
-        "title": "Teknik SEO",
-        "href": "/tr/seo/teknik-seo"
+        "title": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
+        "href": "/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi"
+      },
+      {
+        "title": "Otellerin Google Ads’te En Sık Yaptığı Hatalar ve Çözümleri",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -1967,11 +1995,15 @@
           },
           {
             "type": "p",
-            "text": "Kalite Puanı, Search kampanyalarında anahtar kelime seviyesinde 1–10 arası görünen ve reklam kalitenizi rakiplere göre kıyaslayan bir göstergedir. Üç bileşenin birleşik performansına dayanır: Expected CTR, Ad Relevance, Landing Page Experience. Amaç; “neyi düzeltmeliyim?” sorusuna teşhis sağlamaktır."
+            "text": "Kalite Puanı, Search kampanyalarında anahtar kelime seviyesinde 1–10 arası görünen ve reklam kalitenizi rakiplere göre kıyaslayan bir göstergedir. Üç bileşenin birleşik performansına dayanır: Expected CTR, Ad Relevance, Landing Page Experience. Amaç; “neyi düzeltmeliyim?” sorusuna teşhis sağlamaktır. Bu göstergeyi daha geniş <a href=\"/tr/sem\">SEM performans mimarisi</a> içinde okumak gerekir."
           },
           {
             "type": "p",
             "text": "Teknik ayrım (çok önemli): Quality Score, organik SEO’nun “puanı” değildir; reklam kalitesini teşhis eder. Ad Rank ise reklamın sıralamasını belirler ve teklif + reklam/landing kalitesi gibi birçok faktörden oluşur."
+          },
+          {
+            "type": "p",
+            "text": "Kalite puanını aşağı çeken senaryoları saha örnekleriyle görmek için <a href=\"/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri\">düşük kalite puanı nedenleri</a> tarafına da bakmak gerekir."
           },
           {
             "type": "callout",
@@ -2084,7 +2116,7 @@
           },
           {
             "type": "p",
-            "text": "“iş ilanı”, “staj”, “bedava”, “yorum”, “şikayet” gibi niyet dışı sorgular CTR’yi ve dönüşümü bozar → expected CTR ve relevance bileşenlerini indirebilir."
+            "text": "“iş ilanı”, “staj”, “bedava”, “yorum”, “şikayet” gibi niyet dışı sorgular CTR’yi ve dönüşümü bozar → <a href=\"/tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi\">reklam alaka düzeyi ve beklenen CTR</a> bileşenlerini aşağı çekebilir."
           },
           {
             "type": "list",
@@ -2112,7 +2144,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Landing page experience, reklamı tıklayan kişinin sayfada ne kadar ilgili ve faydalı bir deneyim yaşadığını ifade eder. Google, bileşen olarak açıkça “landing page experience”ı Quality Score’un parçası sayar ve geliştirme önerileri verir."
+            "text": "Landing page experience, reklamı tıklayan kişinin sayfada ne kadar ilgili ve faydalı bir deneyim yaşadığını ifade eder. Google, bileşen olarak açıkça “landing page experience”ı Quality Score’un parçası sayar ve geliştirme önerileri verir. Bu nedenle <a href=\"/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu\">açılış sayfası deneyimi</a> ayrı bir optimizasyon disiplini olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -2132,7 +2164,7 @@
           },
           {
             "type": "p",
-            "text": "Teknik not: Core Web Vitals (CWV) SEO tarafında doğrudan önemlidir; Ads tarafında ise “landing page experience” içinde hız/UX iyileştirmeleri pratikte kaliteyi destekler. Ama ikisini aynı metrik sanmayın—birinin adı “SEO performansı”, diğerinin odağı “reklam sonrası deneyim”."
+            "text": "Teknik not: Core Web Vitals (CWV) SEO tarafında doğrudan önemlidir; Ads tarafında ise “landing page experience” içinde hız/UX iyileştirmeleri pratikte kaliteyi destekler. Ama ikisini aynı metrik sanmayın—birinin adı “SEO performansı”, diğerinin odağı “reklam sonrası deneyim”. Bu noktada <a href=\"/tr/seo/teknik-seo\">otel landing page deneyimi</a> tarafındaki teknik SEO iyileştirmeleri doğrudan devreye girer."
           },
           {
             "type": "cta",
@@ -2248,6 +2280,10 @@
             "text": "Key Statistics / Data Point (satırdan, güvenli çerçeve): Kalite Puanı iyileştiğinde maliyet ve verimlilikte iyileşme görülebileceğine dair vaka örnekleri paylaşan kaynaklar var; ancak sonuçlar sektör, rekabet ve landing kalitesine göre ciddi değişir (garanti değildir). Örnek vaka anlatımlarında CPC’de düşüşler raporlanmıştır."
           },
           {
+            "type": "p",
+            "text": "Bu iyileşmenin gerçekten işe yarayıp yaramadığını görmek için <a href=\"/tr/veri-analiz-ve-raporlama\">Google Ads kalite puanı optimizasyonu</a> etkisini CTR, CPC, dönüşüm oranı ve landing performansıyla birlikte izlemek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
@@ -2255,6 +2291,10 @@
               "1 haftada “mimari + negatif” ile temizlik, 2 haftada “reklam testi”, 4 haftada “landing” iyileştirme döngüsü kurun.",
               "QS artışı hedef değil; CPC/CPA/ROAS iyileşmesi hedef."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sistematik kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads kalite puanını iyileştirmek</a> için hizmet kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -2339,7 +2379,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
         "Blog # / URL (Child): Blog #5 — /tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Technical",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 2300–2700 (hedef)",
@@ -2369,7 +2409,7 @@
     },
     "h1": {
       "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
-      "intro": "Otel reklamlarında performansı “bütçe” değil, çoğu zaman ölçüm doğruluğu belirler. Çünkü Google Ads (özellikle otomatik teklif stratejileri) dönüşüm sinyalini referans alır: dönüşüm yanlışsa optimizasyon da yanlıştır. Bu rehberde; otel özelinde dönüşüm türlerini sınıflandıracağız, GA4 + GTM mimarisini kuracağız, Google Ads’te primary/secondary dönüşüm ayrımıyla sinyali temizleyeceğiz ve booking engine cross-domain hatalarını engelleyeceğiz.",
+      "intro": "Otel reklamlarında performansı “bütçe” değil, çoğu zaman ölçüm doğruluğu belirler. Çünkü <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads dönüşüm takibi</a> yanlışsa optimizasyon da yanlıştır. Bu rehberde; otel özelinde dönüşüm türlerini sınıflandıracağız, GA4 + GTM mimarisini kuracağız, Google Ads’te primary/secondary dönüşüm ayrımıyla sinyali temizleyeceğiz ve booking engine cross-domain hatalarını engelleyeceğiz.",
       "quickSummaryTitle": "Hızlı Özet Kutusu :",
       "quickSummary": [
         "1. Dönüşümleri katmanla (primary/secondary)",
@@ -2410,19 +2450,56 @@
     },
     "internalLinks": [
       {
-        "label": "Dönüşüm Takibi (Tag Manager)",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
-      },
-      {
-        "label": "Google Ads Yönetimi",
+        "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
-        "label": "Satış & Dönüşüm Raporlama",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Dönüşüm Takibi ve Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Google Ads bütçe ve teklif stratejileri",
+        "href": "/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri"
+      },
+      {
+        "label": "Otel Google Ads KPI rehberi",
+        "href": "/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi"
+      },
+      {
+        "label": "Google Ads landing page optimizasyonu",
+        "href": "/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu"
+      },
+      {
+        "label": "Satış dönüşüm raporlaması",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
+        "href": "/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri"
+      },
+      {
+        "title": "Otel Google Ads KPI Rehberi: Rapor Nasıl Okunur?",
+        "href": "/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi"
+      },
+      {
+        "title": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
+        "href": "/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
+      }
+    ],
     "sections": [
       {
         "id": "donusum-turleri",
@@ -2430,7 +2507,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel funnel’ında “dönüşüm” tek bir aksiyon değildir. Direkt rezervasyon kadar, call center’a giden aramalar ve WhatsApp sohbetleri de gelir üretir. Bu nedenle dönüşümleri iki katmanda düşünmelisiniz:"
+            "text": "Otel funnel’ında “dönüşüm” tek bir aksiyon değildir. Direkt rezervasyon kadar, call center’a giden aramalar ve WhatsApp sohbetleri de gelir üretir. Bu nedenle dönüşümleri iki katmanda düşünmelisiniz. Bu kurgu, daha geniş <a href=\"/tr/sem\">SEM ölçümleme yapısı</a> içinde ele alındığında sağlıklı sonuç verir:"
           },
           {
             "type": "h3",
@@ -2503,6 +2580,10 @@
           {
             "type": "media",
             "slot": "goals-hierarchy"
+          },
+          {
+            "type": "p",
+            "text": "Bu teknik akışı adım adım uygulamak için <a href=\"/tr/sem/donusum-takibi-tag-manager\">GA4 GTM rezervasyon ölçümü</a> sayfası temel kurulum referansı olarak kullanılmalıdır."
           }
         ]
       },
@@ -2576,7 +2657,7 @@
           },
           {
             "type": "p",
-            "text": "Not: Conversion goals, conversion actions’ları gruplar; bir action’ın goal içinde “primary_for_goal” olması bid ve “Conversions” raporunu etkiler (Ads API mantığı da bunu doğrular)."
+            "text": "Not: Conversion goals, conversion actions’ları gruplar; bir action’ın goal içinde “primary_for_goal” olması bid ve “Conversions” raporunu etkiler (Ads API mantığı da bunu doğrular). Bu yüzden <a href=\"/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri\">dönüşüm verisine göre teklif stratejisi</a> kurulmadan önce ölçüm seti temizlenmelidir."
           },
           {
             "type": "callout",
@@ -2612,7 +2693,7 @@
           },
           {
             "type": "p",
-            "text": "Varsayım: Booking engine farklı domaindeyse, aşağıdaki cross-domain bölümünü mutlaka uygulayacaksın."
+            "text": "Varsayım: Booking engine farklı domaindeyse, aşağıdaki cross-domain bölümünü mutlaka uygulayacaksın. Özellikle form, telefon, WhatsApp ve rezervasyon sonrası akışta <a href=\"/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu\">landing page dönüşüm noktaları</a> düzgün kurgulanmadıysa kurulum eksik kalır."
           },
           {
             "type": "callout",
@@ -2663,7 +2744,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel sitelerinde rezervasyon motoru sıkça ayrı bir domain/subdomain olur. GA4’te cross-domain measurement doğru kurulmazsa, kullanıcı domain değiştirince “yeni oturum / referral” gibi görünür ve attribution bozulur. Google’ın resmi yönergesi; cross-domain measurement’ı Admin’den yapılandırmayı ve aynı tag ID’nin ilgili domainlerde kullanıldığını doğrulamayı anlatır."
+            "text": "Otel sitelerinde rezervasyon motoru sıkça ayrı bir domain/subdomain olur. GA4’te cross-domain measurement doğru kurulmazsa, kullanıcı domain değiştirince “yeni oturum / referral” gibi görünür ve attribution bozulur. Google’ın resmi yönergesi; cross-domain measurement’ı Admin’den yapılandırmayı ve aynı tag ID’nin ilgili domainlerde kullanıldığını doğrulamayı anlatır. Bu yüzden <a href=\"/tr/sem/donusum-takibi-tag-manager\">booking engine dönüşüm takibi</a> ayrı bir kontrol maddesi olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -2723,6 +2804,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu verileri yorumlarken <a href=\"/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi\">Google Ads dönüşüm raporları</a> ile ROAS, CPA, rezervasyon ve gelir etkisini birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki asıl amaç, tıklamayı değil sonucu görmek; yani <a href=\"/tr/raporlama/satis-donusum\">reklamdan rezervasyona ölçümleme</a> kurgusunu netleştirmektir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? :",
@@ -2768,6 +2857,10 @@
           {
             "type": "p",
             "text": "Primary = optimizasyon sinyali; Secondary = gözlem."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">oteller için Google Ads dönüşüm takibi kurulumu</a> kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -4056,7 +4149,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — /tr/sem/youtube-reklam-yonetimi",
         "Blog / URL: /tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Creative",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -5973,7 +6066,7 @@
         "Silo: SEM",
         "Sayfa Adı / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
         "Blog No / URL: Blog #1 — https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational",
         "Difficulty/Expertise = Intermediate–Expert",
         "Word Count = 3000–3500"
@@ -6854,7 +6947,7 @@
         "Silo: SEM",
         "Sayfa Adı / URL: Remarketing & Display Reklamlar — https://dgtlface.com/tr/sem/remarketing-ve-display",
         "Blog No / URL: Blog #2 — https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Tactical",
         "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500"
       ],
@@ -7709,7 +7802,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — /tr/sem/remarketing-ve-display",
         "Blog / URL: /tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Technical",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -8555,7 +8648,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — /tr/sem/remarketing-ve-display",
         "Blog / URL: /tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -9258,7 +9351,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Remarketing & Display Reklamlar — /tr/sem/remarketing-ve-display",
         "Blog / URL: /tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Transactional",
         "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
         "Refresh Cycle: 365 gün",
@@ -10003,7 +10096,7 @@
         "Silo: SEM",
         "Sayfa Adı / URL: Dönüşüm Takibi & Tag Manager — https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
         "Blog No / Blog URL: 1 — https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Technical",
         "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500"
       ],
@@ -10592,7 +10685,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Dönüşüm Takibi & Tag Manager — https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
         "Blog No + Blog URL: 2 — https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Technical",
         "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
         "Varsayım : Sheet’te GEO “Evet/Hayır” net değil; GEO şartı uygulanmadı (bölge zorunluluğu yok).",
@@ -11252,7 +11345,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Dönüşüm Takibi & Tag Manager — https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
         "Blog No + Blog URL: 3 — https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Technical",
         "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
         "(V2.3 Kilidi) Word Count: 3000–3500",
@@ -11914,7 +12007,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Dönüşüm Takibi & Tag Manager — https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
         "Blog No + Blog URL: 4 — https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Technical",
         "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
         "Canonical: /tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin"
@@ -72286,7 +72379,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
         "Blog / URL: /tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -72316,7 +72409,7 @@
     },
     "h1": {
       "title": "Oteller İçin Google Ads Kampanya Türleri ve Stratejileri",
-      "intro": "Otel reklamında başarı, “hangi kampanya türü daha iyi?” sorusundan çok hangi kampanya türü ne zaman devreye alınır? sorusunu doğru cevaplamaktır. Antalya–Belek gibi resort destinasyonlarında talep dalgası, Bodrum gibi premium pazarlarda mesaj ve görsel öncelikleri, city otellerde ise “iş/konum” niyeti kampanya karışımını değiştirir. Bu playbook’ta kampanya türlerini artı/eksi yönleriyle karşılaştırıp, resort–city–luxury–butik oteller için önerilen kampanya kombinasyonlarını hazır şekilde veriyoruz.",
+      "intro": "Otel reklamında başarı, “hangi kampanya türü daha iyi?” sorusundan çok hangi kampanya türü ne zaman devreye alınır? sorusunu doğru cevaplamaktır. Antalya–Belek gibi resort destinasyonlarında talep dalgası, Bodrum gibi premium pazarlarda mesaj ve görsel öncelikleri, city otellerde ise “iş/konum” niyeti kampanya karışımını değiştirir. Bu playbook’ta kampanya türlerini artı/eksi yönleriyle karşılaştırıp, resort–city–luxury–butik oteller için önerilen kampanya kombinasyonlarını hazır şekilde veriyoruz. Bu çerçeveyi daha geniş <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads kampanya yönetimi</a> planı içinde okumak gerekir.",
       "quickSummary": [
         "1) Önce Brand + Generic + Remarketing temel setini kur",
         "2) Kampanya türlerini kanal değil funnel rolü gibi düşün",
@@ -72344,30 +72437,58 @@
     },
     "internalLinks": [
       {
-        "label": "Google Ads Yönetimi hizmet sayfası",
+        "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads oteller için nasıl çalışır",
+        "href": "/tr/sem/blog/google-ads-oteller-icin-nasil-calisir"
+      },
+      {
+        "label": "Google Ads sezonluk otel kampanyaları",
+        "href": "/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari"
+      },
+      {
+        "label": "Google Ads Performance Max otel stratejisi",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      },
+      {
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Online Satış",
+        "label": "Online satış",
         "href": "/tr/pms-ota/online-satis"
       },
       {
-        "label": "Otel Reklam Yönetimi",
+        "label": "Otel reklam yönetimi",
         "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "YouTube Reklam Yönetimi",
-        "href": "/tr/sem/youtube-reklam-yonetimi"
+        "title": "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi",
+        "href": "/tr/sem/blog/google-ads-oteller-icin-nasil-calisir"
       },
       {
-        "title": "Otel Reklam Yönetimi",
-        "href": "/tr/otel/reklam-yonetimi"
+        "title": "Google Ads’te Sezonluk Otel Kampanyaları Nasıl Planlanır?",
+        "href": "/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari"
+      },
+      {
+        "title": "Performance Max Oteller İçin Ne Zaman ve Nasıl Kullanılmalı?",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -72377,7 +72498,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kampanya türlerini “kanal” gibi değil, funnel’daki rolü gibi düşünmek gerekir. Search, niyeti yüksek kullanıcıyı yakalar; Display/Video talep yaratır ve hatırlatır; Hotel Ads ise özellikle fiyat/uygunluk odaklı otel aramalarında farklı bir görünürlük modeli sunabilir. En büyük hata: hepsini aynı anda açıp, ölçüm/mesaj/landing hazır olmadan bütçeyi dağıtmak."
+            "text": "Kampanya türlerini “kanal” gibi değil, funnel’daki rolü gibi düşünmek gerekir. Search, niyeti yüksek kullanıcıyı yakalar; Display/Video talep yaratır ve hatırlatır; Hotel Ads ise özellikle fiyat/uygunluk odaklı otel aramalarında farklı bir görünürlük modeli sunabilir. En büyük hata: hepsini aynı anda açıp, ölçüm/mesaj/landing hazır olmadan bütçeyi dağıtmak. Bu kararları daha geniş <a href=\"/tr/sem\">SEM hizmet mimarisi</a> içinde okumak gerekir."
           },
           {
             "type": "h3",
@@ -72385,7 +72506,11 @@
           },
           {
             "type": "p",
-            "text": "Çoğu otelde temel set Brand Search + Generic Search + Remarketing ile başlar. Hedef pazarı büyütmek veya konsepti anlatmak gerektiğinde YouTube/Video, fiyat–uygunluk rekabeti için Hotel Ads eklenir. Display ise en verimli şekilde “remarketing” rolünde çalışır; soğuk kitleye geniş Display genelde daha geç aşamadır."
+            "text": "Çoğu otelde temel set Brand Search + Generic Search + Remarketing ile başlar. Hedef pazarı büyütmek veya konsepti anlatmak gerektiğinde <a href=\"/tr/sem/youtube-reklam-yonetimi\">video ve YouTube reklam stratejisi</a>, fiyat–uygunluk rekabeti için Hotel Ads eklenir. Display ise en verimli şekilde “remarketing” rolünde çalışır; soğuk kitleye geniş Display genelde daha geç aşamadır."
+          },
+          {
+            "type": "p",
+            "text": "Kampanya türlerine geçmeden önce temel akışı sade biçimde görmek isteyen ekipler için <a href=\"/tr/sem/blog/google-ads-oteller-icin-nasil-calisir\">Google Ads oteller için nasıl çalışır</a> rehberi iyi bir başlangıç noktasıdır."
           },
           {
             "type": "h3",
@@ -72525,6 +72650,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı saha planına dönüştürmek için <a href=\"/tr/otel/reklam-yonetimi\">destinasyona göre reklam stratejisi</a> yaklaşımı gerekir; aksi halde aynı kampanya içinde farklı niyetler birbirine karışır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -72616,7 +72745,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Turizmde sezon, kampanya türü kadar belirleyicidir. Antalya ve Belek gibi resort bölgelerinde yüksek sezonda rekabet artar; düşük sezonda ise “niş segment” ve “pazar çeşitlendirme” öne çıkar. Sezon stratejisi; kampanya türlerini yeniden sıralamak ve bütçeyi kaydırmaktır."
+            "text": "Turizmde sezon, kampanya türü kadar belirleyicidir. Antalya ve Belek gibi resort bölgelerinde yüksek sezonda rekabet artar; düşük sezonda ise “niş segment” ve “pazar çeşitlendirme” öne çıkar. Sezon stratejisi; kampanya türlerini yeniden sıralamak ve bütçeyi kaydırmaktır. Bu planı detaylandırmak için <a href=\"/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari\">Google Ads kampanya kombinasyonları</a> yaklaşımı sezon öncesi hazırlığı netleştirir."
           },
           {
             "type": "h3",
@@ -72721,6 +72850,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Otomasyon ve çok kanallı dağıtım kararlarını ayrıca değerlendirmek isteyen ekipler için <a href=\"/tr/sem/blog/google-ads-performance-max-otel-stratejisi\">Performance Max otel stratejisi</a> rehberi ayrı bir derinleşme alanı sunar."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Otel Türüne Göre Kampanya Playbook PDF’ini İndir",
@@ -72807,6 +72940,10 @@
             "text": "Key Statistics / Data Point (sheet’ten, abartısız kullanım): Çok kanallı kampanya kurgusu (brand + generic + remarketing + destek kampanyalar) olan otellerin, tek tip kampanyaya göre genelde daha iyi doluluk/gelir performansı yakalayabildiği gözlemlenir; etkisi pazar, sezon ve ölçüm doğruluğuna göre değişir. (Kesin garanti değildir.)"
           },
           {
+            "type": "p",
+            "text": "Bu kombinasyonların booking engine tarafında da çalışması için <a href=\"/tr/pms-ota/online-satis\">direkt rezervasyon ve online satış akışı</a> ile birlikte düşünülmesi gerekir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Oteliniz İçin Kampanya Strateji Call’u Planlayın",
@@ -72857,6 +72994,10 @@
           {
             "type": "p",
             "text": "İlk 30 günde temel seti stabilize edin; sonraki 60–90 günde destek kampanyaları kademeli ekleyin. Ölçüm, landing ve mesaj uyumu oturduğunda kampanya türleri birer kanal olmaktan çıkar, rezervasyon odaklı sistemin parçaları hâline gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">oteller için Google Ads kampanya yönetimi</a> kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -72940,7 +73081,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
         "Blog / URL: /tr/sem/blog/google-ads-negatif-anahtar-kelime-stratejisi",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Tactical",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -72970,7 +73111,7 @@
     },
     "h1": {
       "title": "Google Ads Negatif Anahtar Kelime Stratejisi ile Bütçe İsrafını Nasıl Azaltırsınız?",
-      "intro": "Otellerde Google Ads’in “pahalı” görünmesinin en yaygın sebebi, bütçenin doğru kampanyaya gitmemesi değil; yanlış arama niyetlerinde erimesidir. “Belek resort” aramasıyla gelen misafir adayı ile “Belek otel iş ilanı” araması arasında aynı tıklama maliyetini ödersiniz; ama ikinci grubun rezervasyona dönüşme ihtimali çoğu tesiste çok düşüktür. Bu rehber, negatif anahtar kelime stratejisini otel/destinasyon gerçekliğiyle kurar: Search Terms raporu → kategori listeleri → shared list operasyonu → çok dilli kontrol.",
+      "intro": "Otellerde Google Ads’in “pahalı” görünmesinin en yaygın sebebi, bütçenin doğru kampanyaya gitmemesi değil; yanlış arama niyetlerinde erimesidir. “Belek resort” aramasıyla gelen misafir adayı ile “Belek otel iş ilanı” araması arasında aynı tıklama maliyetini ödersiniz; ama ikinci grubun rezervasyona dönüşme ihtimali çoğu tesiste çok düşüktür. Bu rehber, <a href=\"/tr/sem/google-ads-yonetimi\">negatif anahtar kelime stratejisini</a> otel/destinasyon gerçekliğiyle kurar: Search Terms raporu → kategori listeleri → shared list operasyonu → çok dilli kontrol.",
       "quickSummary": [
         "1) Search Terms raporunu 7–14 günlük periyotla tarayın",
         "2) Negatifleri kategori bazlı toplayın",
@@ -72998,22 +73139,50 @@
     },
     "internalLinks": [
       {
-        "label": "Google Ads Yönetimi hizmet sayfası",
+        "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
-        "label": "Reklam Raporlama",
+        "label": "SEM performans mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads kalite puanı",
+        "href": "/tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir"
+      },
+      {
+        "label": "Google Ads kampanya hataları",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
+      },
+      {
+        "label": "Google Ads hesap auditi",
+        "href": "/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim"
+      },
+      {
+        "label": "Reklam raporlama",
         "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
+        "href": "/tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir"
       },
       {
-        "title": "Reklam Raporlama",
-        "href": "/tr/sem/reklam-raporlama"
+        "title": "Otellerin Google Ads’te En Sık Yaptığı Hatalar ve Çözümleri",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
+      },
+      {
+        "title": "Otel Google Ads Hesap Auditi Adım Adım",
+        "href": "/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -73031,7 +73200,11 @@
           },
           {
             "type": "p",
-            "text": "Otel aramalarında “fiyat/rezervasyon” niyetiyle “fotoğraf/yorum/şikayet/iş” niyeti sık karışır. Negatif strateji, bu karışımı temizleyip tıklama kalitesini yükseltir."
+            "text": "Otel aramalarında “fiyat/rezervasyon” niyetiyle “fotoğraf/yorum/şikayet/iş” niyeti sık karışır. Negatif strateji, bu karışımı temizleyip tıklama kalitesini yükseltir. Bu disiplin, daha geniş <a href=\"/tr/sem\">SEM performans mimarisi</a> içinde kampanya hijyeninin temelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu temizlik, <a href=\"/tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir\">alakasız aramaları temizleme</a> yaklaşımıyla birlikte düşünüldüğünde CTR, reklam alaka düzeyi ve kalite puanı tarafında daha net iyileşme sağlar."
           },
           {
             "type": "callout",
@@ -73076,7 +73249,7 @@
           },
           {
             "type": "p",
-            "text": "Pratikte bu rapor, reklamınızın gösterim/tıklama aldığı sorguları görmenizi sağlar; yani “Google Ads’in sizi hangi niyetlere sürüklediğini” çıplak şekilde gösterir."
+            "text": "Pratikte bu rapor, reklamınızın gösterim/tıklama aldığı sorguları görmenizi sağlar; yani “Google Ads’in sizi hangi niyetlere sürüklediğini” çıplak şekilde gösterir. Yanlış eşleme türleri ve kontrolsüz broad match sorunlarının büyüttüğü <a href=\"/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri\">Google Ads kampanya hijyeni</a> problemleri de burada görünür olur."
           },
           {
             "type": "h3",
@@ -73129,6 +73302,10 @@
               "İkinci sprint: kategorilere böl → shared list’e taşı.",
               "Üçüncü sprint: çok dilli pazarlarda (TR/EN) kontrol."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Buradaki amaç yalnız kelime eklemek değil; düzenli <a href=\"/tr/sem/reklam-raporlama\">arama terimleri raporu analizi</a> ile harcama, tıklama ve dönüşüm etkisini birlikte okumaktır."
           },
           {
             "type": "media",
@@ -73411,6 +73588,10 @@
               "Otel tipine göre istisna belirle (city konum kampanyası vb.).",
               "Haftalık rutin + aylık “liste denetimi” oluştur."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kontrolü sürdürülebilir hale getirmek için <a href=\"/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim\">negatif kelime listesi denetimi</a> mantığını düzenli hesap auditiyle birleştirmek gerekir."
           }
         ]
       },
@@ -73476,6 +73657,10 @@
           {
             "type": "media",
             "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads bütçe israfını azaltma</a> kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -73565,7 +73750,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
         "Blog / URL: /tr/sem/blog/google-ads-sezonluk-otel-kampanyalari",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -73595,7 +73780,7 @@
     },
     "h1": {
       "title": "Sezonluk Otel Kampanyaları İçin Google Ads Stratejisi",
-      "intro": "Sezonda “aynı reklamı” sürdürmek, otel pazarlamasında en pahalı hatalardan biri. Çünkü sezon yaklaşırken arama davranışı değişir: misafir önce “fikir toplar”, sonra “tarih/fiyat netleştirir”, son dakikada ise “mobilde hızlı karar” verir. Bu nedenle sezonluk Google Ads planını üç faz olarak kurgulamak gerekir: Sezon öncesi (early booking), sezon içi (doluluk tamamlama), son dakika (last minute). Bu rehber, Antalya–Side–Belek gibi resort destinasyonlarında takvim bazlı bir kampanya karışımı verir; aynı mantık city ve luxury otellere de uyarlanır.",
+      "intro": "Sezonda “aynı reklamı” sürdürmek, otel pazarlamasında en pahalı hatalardan biri. Çünkü sezon yaklaşırken arama davranışı değişir: misafir önce “fikir toplar”, sonra “tarih/fiyat netleştirir”, son dakikada ise “mobilde hızlı karar” verir. Bu nedenle <a href=\"/tr/sem/google-ads-yonetimi\">sezonluk otel kampanyaları</a> planını üç faz olarak kurgulamak gerekir: Sezon öncesi (early booking), sezon içi (doluluk tamamlama), son dakika (last minute). Bu rehber, Antalya–Side–Belek gibi resort destinasyonlarında takvim bazlı bir kampanya karışımı verir; aynı mantık city ve luxury otellere de uyarlanır.",
       "quickSummary": [
         "1) Sezonu üç fazda planla: öncesi / içi / son dakika",
         "2) 90–60–30 gün takvimiyle mesaj ve bütçeyi kademeli sıkılaştır",
@@ -73623,30 +73808,58 @@
     },
     "internalLinks": [
       {
-        "label": "Otel Reklam Yönetimi",
-        "href": "/tr/otel/reklam-yonetimi"
-      },
-      {
-        "label": "Google Ads Yönetimi hizmet sayfası",
+        "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
-        "label": "Online Satış",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads bütçe ve teklif stratejileri",
+        "href": "/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri"
+      },
+      {
+        "label": "Google Ads ve çağrı merkezi sinerjisi",
+        "href": "/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi"
+      },
+      {
+        "label": "Google Ads remarketing ile otel rezervasyon akışı",
+        "href": "/tr/sem/blog/google-ads-remarketing-otel-funnel"
+      },
+      {
+        "label": "Otel reklam yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "Online satış",
         "href": "/tr/pms-ota/online-satis"
       },
       {
-        "label": "Rezervasyon Desteği",
+        "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
+        "href": "/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri"
       },
       {
-        "title": "Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "Google Ads ve Çağrı Merkezi Sinerjisi Nasıl Kurulur?",
+        "href": "/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi"
+      },
+      {
+        "title": "Google Ads Remarketing ile Otel Funnel’ı Nasıl Güçlendirilir?",
+        "href": "/tr/sem/blog/google-ads-remarketing-otel-funnel"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -73660,7 +73873,11 @@
           },
           {
             "type": "p",
-            "text": "Sezonluk planın temelinde “talep eğrisi” (tourism demand curve) vardır: yüksek sezonda rekabet, CPC ve fiyat hassasiyeti farklı; düşük sezonda ise talep daralır ama segmentasyon fırsatları artar. Aynı kampanya yapısıyla yıl boyu gitmek, bir dönemde para yakıp diğer dönemde fırsatı kaçırır."
+            "text": "Sezonluk planın temelinde “talep eğrisi” (tourism demand curve) vardır: yüksek sezonda rekabet, CPC ve fiyat hassasiyeti farklı; düşük sezonda ise talep daralır ama segmentasyon fırsatları artar. Aynı kampanya yapısıyla yıl boyu gitmek, bir dönemde para yakıp diğer dönemde fırsatı kaçırır. Bu planı daha geniş <a href=\"/tr/sem\">SEM hizmet mimarisi</a> içinde okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tipi, destinasyon ve hedef pazara göre mesajı ayırmak için <a href=\"/tr/otel/reklam-yonetimi\">oteller için talep dönemlerine göre reklam stratejisi</a> yaklaşımı gerekir; aksi halde yüksek sezon ve düşük sezon aynı dilde yönetilir."
           },
           {
             "type": "h3",
@@ -73727,7 +73944,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sezon öncesi 90–60–30 planı; önce talebi ısıtıp (90), sonra niyeti netleştirip (60), son olarak dönüşüme odaklanarak (30) bütçe ve mesajı kademeli sıkılaştırmaktır. Early booking bu dönemde büyür; kampanya karışımı “genişten dıra” ilerler."
+            "text": "Sezon öncesi 90–60–30 planı; önce talebi ısıtıp (90), sonra niyeti netleştirip (60), son olarak dönüşüme odaklanarak (30) bütçe ve mesajı kademeli sıkılaştırmaktır. Early booking bu dönemde büyür; kampanya karışımı “genişten dıra” ilerler. Bu fazların bütçe dağılımını netleştirmek için <a href=\"/tr/sem/blog/google-ads-butce-ve-teklif-stratejileri\">early booking ve last minute kampanyaları</a> tarafındaki teklif ve bütçe mantığıyla birlikte ilerlemek gerekir."
           },
           {
             "type": "h3",
@@ -73864,7 +74081,7 @@
           },
           {
             "type": "p",
-            "text": "Last minute’da oyun “hız”dır: mobil kullanıcı kısa sürede karar verir. Bu yüzden last minute kampanyası; mobil deneyim, hızlı rezervasyon akışı ve güçlü remarketing ile kazanır."
+            "text": "Last minute’da oyun “hız”dır: mobil kullanıcı kısa sürede karar verir. Bu yüzden last minute kampanyası; mobil deneyim, hızlı rezervasyon akışı ve güçlü <a href=\"/tr/sem/blog/google-ads-remarketing-otel-funnel\">sezonluk rezervasyon funnel’ı</a> ile kazanır."
           },
           {
             "type": "h3",
@@ -74020,7 +74237,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sezon stratejisi, bütçe kaydırma olmadan “sunum”da kalır. Bütçeyi; faz, pazar ve kampanya türüne göre dağıtın:"
+            "text": "Sezon stratejisi, bütçe kaydırma olmadan “sunum”da kalır. Bütçeyi; faz, pazar ve kampanya türüne göre dağıtın. Bu kararları <a href=\"/tr/pms-ota/online-satis\">turizm talep eğrisi</a>, booking engine akışı ve direkt rezervasyon performansıyla birlikte okumak gerekir:"
           },
           {
             "type": "list",
@@ -74060,7 +74277,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sezon dönemlerinde “kararsız misafir” sayısı artar: oda tipi, çocuk politikası, transfer, iptal koşulu… Bu sorular, call center veya WhatsApp ile hızla kapanıyorsa dönüşüm artar. Bu nedenle:"
+            "text": "Sezon dönemlerinde “kararsız misafir” sayısı artar: oda tipi, çocuk politikası, transfer, iptal koşulu… Bu sorular, call center veya WhatsApp ile hızla kapanıyorsa dönüşüm artar. Bu nedenle <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">sezonluk rezervasyon talebini satışa çevirmek</a> kampanya planının doğal parçasıdır:"
           },
           {
             "type": "list",
@@ -74089,6 +74306,10 @@
               "Reklamdan gelen lead’i aynı gün içinde kapatma SLA’i koy.",
               "İç link: rezervasyon desteği süreçlerini standardize et."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın reklam tarafındaki devamını görmek için <a href=\"/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi\">Google Ads ve çağrı merkezi sinerjisi</a> rehberiyle birlikte okumak gerekir."
           },
           {
             "type": "cta",
@@ -74199,6 +74420,10 @@
             "text": "Rakip yazılar “sezonluk kampanya yapın” deyip geçiyor; burada farkı 90–60–30 takvimi + pazar davranışı + call center entegrasyonu ile koyuyoruz. Sezona 90 gün kala temel plan hazırsa, bütçe büyütmeden bile daha verimli sonuç almak mümkün."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">oteller için sezonluk Google Ads yönetimi</a> kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -74207,7 +74432,7 @@
             "variant": "primary",
             "label": "Sezonluk Google Ads Strateji Planı Talep Et",
             "text": "Antalya/Side/Belek gibi destinasyonlarda 90–60–30 takvimini otelinize uyarlayıp kampanya karışımını netleştirelim.",
-            "href": "/tr/pms-ota/online-satis"
+            "href": "/tr/sem/google-ads-yonetimi"
           }
         ]
       }
@@ -74286,7 +74511,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
         "Blog / URL: https://dgtlface.com/tr/sem/blog/google-ads-otel-marka-kampanyalari",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Transactional + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -74315,7 +74540,7 @@
     },
     "h1": {
       "title": "Otel Marka (Brand) Google Ads Kampanyaları Neden Zorunludur?",
-      "intro": "“Brand kampanya gereksiz, zaten beni arayan beni bulur” düşüncesi otellerde pahalıya patlar. Çünkü marka aramasında aynı anda OTA’lar, metasearch ve hatta rakipler görünür; kullanıcı ilk gördüğüne tıklayıp rezervasyonu komisyonlu kanala taşıyabilir. Brand kampanyanın hedefi agresif büyüme değil; direkt rezervasyonun kârlılığını korumak ve otel adını arayan yüksek niyetli kullanıcıyı en kısa yoldan doğru akışa sokmaktır.",
+      "intro": "“Brand kampanya gereksiz, zaten beni arayan beni bulur” düşüncesi otellerde pahalıya patlar. Çünkü marka aramasında aynı anda OTA’lar, metasearch ve hatta rakipler görünür; kullanıcı ilk gördüğüne tıklayıp rezervasyonu komisyonlu kanala taşıyabilir. Bu nedenle <a href=\"/tr/sem/google-ads-yonetimi\">otel marka kampanyası</a>nın hedefi agresif büyüme değil; direkt rezervasyonun kârlılığını korumak ve otel adını arayan yüksek niyetli kullanıcıyı en kısa yoldan doğru akışa sokmaktır.",
       "quickSummary": [
         "1) Brand aramayı yüksek niyetli dönüşüm anı olarak ayrı yönetin",
         "2) OTA rekabetini komisyon vs CPA matematiğiyle değerlendirin",
@@ -74343,26 +74568,58 @@
     },
     "internalLinks": [
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads vs Meta Ads vs OTA yatırım karşılaştırması",
+        "href": "/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi"
+      },
+      {
+        "label": "Google Ads oteller için nasıl çalışır",
+        "href": "/tr/sem/blog/google-ads-oteller-icin-nasil-calisir"
+      },
+      {
+        "label": "Google Ads hesap ve kampanya mimarisi",
+        "href": "/tr/sem/blog/google-ads-hesap-ve-kampanya-mimarisi"
       },
       {
         "label": "Otel OTA yönetimi",
         "href": "/tr/otel/ota-yonetimi"
       },
       {
-        "label": "Online satış",
+        "label": "Direkt rezervasyon ve online satış",
         "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Otel OTA Yönetimi",
-        "href": "/tr/otel/ota-yonetimi"
+        "title": "Google Ads vs Meta Ads vs OTA: Yatırım Karşılaştırması Nasıl Yapılır?",
+        "href": "/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi"
       },
       {
-        "title": "Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi",
+        "href": "/tr/sem/blog/google-ads-oteller-icin-nasil-calisir"
+      },
+      {
+        "title": "Google Ads Hesap ve Kampanya Mimarisi Nasıl Kurulur?",
+        "href": "/tr/sem/blog/google-ads-hesap-ve-kampanya-mimarisi"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -74376,7 +74633,7 @@
           },
           {
             "type": "p",
-            "text": "Sesli arama için tek cümlelik çerçeve: “Otel markanı korumak, en sıcak trafiği komisyonsuz yakalamaktır.”"
+            "text": "Sesli arama için tek cümlelik çerçeve: “Otel markanı korumak, en sıcak trafiği komisyonsuz yakalamaktır.” Bu yaklaşımı daha geniş <a href=\"/tr/sem\">marka koruma stratejisi</a> içinde okumak gerekir."
           },
           {
             "type": "cta",
@@ -74387,7 +74644,7 @@
           },
           {
             "type": "p",
-            "text": "Brand arama yapan kullanıcı genelde “bilinçli” gelir: otelinizi duymuştur, sosyal medyada görmüştür, tavsiye almıştır ya da daha önce konaklamıştır. Bu yüzden brand arama, arama hunisinin en altına yakındır. Bu noktada kayıp genellikle “ilgi” değil, yönlendirme ve hız yüzünden yaşanır."
+            "text": "Brand arama yapan kullanıcı genelde “bilinçli” gelir: otelinizi duymuştur, sosyal medyada görmüştür, tavsiye almıştır ya da daha önce konaklamıştır. Bu yüzden brand arama, arama hunisinin en altına yakındır. Bu noktada kayıp genellikle “ilgi” değil, yönlendirme ve hız yüzünden yaşanır. Temel akışı daha sade görmek isteyen ekipler için <a href=\"/tr/sem/blog/google-ads-oteller-icin-nasil-calisir\">marka aramalarında Google Ads mantığı</a> iyi bir başlangıç noktasıdır."
           },
           {
             "type": "h3",
@@ -74443,7 +74700,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Net görüş + 3–5 madde (zorunlu): Evet, oteller için brand kampanya çoğu senaryoda zorunlu kabul edilir; çünkü (1) marka araması en sıcak trafiktir, (2) OTA’lar marka alanında agresif rekabet eder, (3) direkt rezervasyonun kârlılığı komisyona göre daha yüksektir, (4) brand ile mesaj ve landing’i kontrol edersiniz, (5) raporlama ve bütçe disiplini kurarsınız."
+            "text": "Net görüş + 3–5 madde (zorunlu): Evet, oteller için brand kampanya çoğu senaryoda zorunlu kabul edilir; çünkü (1) marka araması en sıcak trafiktir, (2) OTA’lar marka alanında agresif rekabet eder, (3) direkt rezervasyonun kârlılığı komisyona göre daha yüksektir, (4) brand ile mesaj ve landing’i kontrol edersiniz, (5) raporlama ve bütçe disiplini kurarsınız. Aslında bu karar, daha geniş <a href=\"/tr/otel-dijital-pazarlama\">marka aramalarını koruma</a> ve direkt rezervasyon stratejisinin parçasıdır."
           },
           {
             "type": "h3",
@@ -74485,7 +74742,7 @@
           },
           {
             "type": "p",
-            "text": "Rakip içeriklerin çoğu burada yüzeysel kalır. Otel sahibi için karar, “brand CPC kaç?” değil; komisyon + kârlılık + kontrol denklemidir. Brand kampanyanın değeri, OTA’ya giden bir rezervasyonu direkt kanala çektiğinizde ortaya çıkar."
+            "text": "Rakip içeriklerin çoğu burada yüzeysel kalır. Otel sahibi için karar, “brand CPC kaç?” değil; komisyon + kârlılık + kontrol denklemidir. Brand kampanyanın değeri, <a href=\"/tr/otel/ota-yonetimi\">OTA yerine direkt rezervasyon</a> akışını güçlendirdiğinizde ortaya çıkar."
           },
           {
             "type": "p",
@@ -74493,7 +74750,7 @@
           },
           {
             "type": "p",
-            "text": "Yani brand kampanyada “doğru mesaj + doğru landing + doğru uzantı” gerçek bir rekabet avantajıdır."
+            "text": "Yani brand kampanyada “doğru mesaj + doğru landing + doğru uzantı” gerçek bir rekabet avantajıdır. Bütçe kararını kanal bazında netleştirmek için <a href=\"/tr/sem/blog/google-ads-vs-meta-ads-vs-ota-yatirim-karsilastirmasi\">Google Ads, Meta Ads ve OTA yatırım karşılaştırması</a> rehberiyle birlikte düşünün."
           },
           {
             "type": "table",
@@ -74645,7 +74902,7 @@
           },
           {
             "type": "p",
-            "text": "Brand kampanya bütçesi, “maksimum büyüme” bütçesi değildir; “marka alanını kaybetmeme” bütçesidir. Buradaki hata, brand’i generic gibi optimize etmeye çalışmak ya da tersine, brand’i fazla agresif büyütüp raporu şişirmektir."
+            "text": "Brand kampanya bütçesi, “maksimum büyüme” bütçesi değildir; “marka alanını kaybetmeme” bütçesidir. Buradaki hata, brand’i generic gibi optimize etmeye çalışmak ya da tersine, brand’i fazla agresif büyütüp raporu şişirmektir. Bu yüzden <a href=\"/tr/sem/blog/google-ads-hesap-ve-kampanya-mimarisi\">brand ve generic kampanya ayrımı</a> hesap mimarisinin temelidir."
           },
           {
             "type": "h3",
@@ -74805,8 +75062,8 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "(Internal Link) https://dgtlface.com/tr/otel/ota-yonetimi",
-              "(Internal Link) https://dgtlface.com/tr/pms-ota/online-satis"
+              "<a href=\"/tr/otel/ota-yonetimi\">OTA yerine direkt rezervasyon</a> hedefi için kanal komisyonlarını ve görünürlüğü düzenli izleyin.",
+              "<a href=\"/tr/pms-ota/online-satis\">Otel marka trafiğini direkt rezervasyona taşımak</a> için booking engine akışını sadeleştirin."
             ]
           },
           {
@@ -74879,6 +75136,10 @@
           {
             "type": "p",
             "text": "Brand kampanya, otel adını arayan kullanıcıyı komisyonsuz yakalamanın en pratik yoludur: görünürlük, mesaj ve landing kontrolünü sizde tutar. Ad Rank’in çok faktörlü doğası nedeniyle (kalite, bağlam, uzantı etkisi), brand’de “doğru kurulum” rekabet avantajına dönüşür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">oteller için marka Google Ads kampanyası yönetimi</a> kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -74970,7 +75231,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
         "Blog / URL: https://dgtlface.com/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Analytical",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -74999,7 +75260,7 @@
     },
     "h1": {
       "title": "Google Ads Raporları Nasıl Yorumlanır? Oteller İçin KPI Rehberi",
-      "intro": "Otel Google Ads raporları çoğu ekipte iki uçta kalır: ya çok teknik (kimse anlamaz) ya da çok yüzeysel (sadece tık/gösterim). Oysa doğru okunan rapor, sizi iki kritik karara götürür: (1) Hangi kampanya para kazandırıyor? (2) Bütçeyi nereye kaydırmalıyım? Bu rehber, KPI’ları otel bağlamına çevirir; brand/generic ayrımı, ülke/dil ve cihaz kırılımlarıyla “gerçek kazanç” resmini netleştirir.",
+      "intro": "Otel Google Ads raporları çoğu ekipte iki uçta kalır: ya çok teknik (kimse anlamaz) ya da çok yüzeysel (sadece tık/gösterim). Oysa doğru okunan rapor, sizi iki kritik karara götürür: (1) Hangi kampanya para kazandırıyor? (2) Bütçeyi nereye kaydırmalıyım? Bu <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads KPI rehberi</a>, KPI’ları otel bağlamına çevirir; brand/generic ayrımı, ülke/dil ve cihaz kırılımlarıyla “gerçek kazanç” resmini netleştirir.",
       "quickSummary": [
         "1) Tık/gösterim yerine dönüşüm + CPA + ROAS merkezli oku",
         "2) Brand ve generic kampanyaları aynı hedefle yorumlama",
@@ -75027,26 +75288,58 @@
     },
     "internalLinks": [
       {
-        "label": "Google Ads reklam raporlama",
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads dönüşüm kurgusu ve takibi",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
+      },
+      {
+        "label": "Google Ads hesap auditi",
+        "href": "/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim"
+      },
+      {
+        "label": "Google Ads verileriyle otel stratejisi geliştirme",
+        "href": "/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme"
+      },
+      {
+        "label": "Reklam raporlama",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Veri analiz ve raporlama",
-        "href": "/tr/raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "Looker Studio raporlama",
+        "label": "Looker Studio raporlama paneli",
         "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
       },
       {
-        "title": "Looker Studio ile reklam raporlama",
-        "href": "/tr/raporlama/looker-studio"
+        "title": "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?",
+        "href": "/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim"
+      },
+      {
+        "title": "Google Ads Verilerini Kullanarak Otel Stratejisi Nasıl Geliştirilir?",
+        "href": "/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -75067,7 +75360,7 @@
           },
           {
             "type": "p",
-            "text": "Temel KPI’lar aynı görünür ama otelde anlamları farklılaşır. Örneğin yüksek gösterim her zaman iyi değildir; yanlış pazarda görünürlük, bütçe israfı demek olabilir. Bu bölümde KPI’ları “otel kararlarına” çevireceğiz; yani her KPI’ın “neye işaret ettiğini” ve “hangi aksiyona götürdüğünü” anlayacaksınız."
+            "text": "Temel KPI’lar aynı görünür ama otelde anlamları farklılaşır. Örneğin yüksek gösterim her zaman iyi değildir; yanlış pazarda görünürlük, bütçe israfı demek olabilir. Bu bölümü daha geniş <a href=\"/tr/sem\">SEM hizmet mimarisi</a> içinde okumak gerekir; çünkü <a href=\"/tr/sem/reklam-raporlama\">oteller için reklam performans raporu</a> doğru okunmadığında bütçe kaydırma kararları da zayıflar."
           },
           {
             "type": "h3",
@@ -75117,7 +75410,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Google Ads KPI’ları tek başına “performans” değil, sadece “reklam performansı”dır. Otelde ise asıl soru şudur: Bu reklam doluluğu veya geliri artırdı mı? Bu yüzden Ads KPI’larını, otelin operasyon KPI’larıyla (doluluk, gelir, ADR/RevPAR gibi) yan yana koymak gerekir."
+            "text": "Google Ads KPI’ları tek başına “performans” değil, sadece “reklam performansı”dır. Otelde ise asıl soru şudur: Bu reklam doluluğu veya geliri artırdı mı? Bu yüzden <a href=\"/tr/veri-analiz-ve-raporlama\">Google Ads raporlarını genel veri analiziyle birleştirmek</a> gerekir; Ads KPI’larını, otelin operasyon KPI’larıyla (doluluk, gelir, ADR/RevPAR gibi) yan yana koymak gerekir."
           },
           {
             "type": "h3",
@@ -75148,7 +75441,7 @@
           },
           {
             "type": "p",
-            "text": "Varsayım: Antalya’da brand kampanya düşük maliyetle yüksek dönüşüm getirirken, generic daha yüksek hacim ama daha yüksek CPA ile çalışır. Doğru yorum; generic’i kapatmak değil, generic’i pazar/cihaz/niyet kırılımıyla rafine etmektir."
+            "text": "Varsayım: Antalya’da brand kampanya düşük maliyetle yüksek dönüşüm getirirken, generic daha yüksek hacim ama daha yüksek CPA ile çalışır. Doğru yorum; generic’i kapatmak değil, generic’i pazar/cihaz/niyet kırılımıyla rafine etmektir. Bunun bir sonraki adımı <a href=\"/tr/sem/blog/google-ads-verilerini-kullanarak-otel-stratejisi-gelistirme\">kampanya verilerinden otel stratejisi çıkarmak</a>tır."
           },
           {
             "type": "callout",
@@ -75165,7 +75458,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "Ads raporunu “gelir + doluluk” dashboard’una bağla (Looker Studio/BI).",
+              "Ads raporunu <a href=\"/tr/raporlama/looker-studio\">otel reklam raporlama paneli</a> ile gelir + doluluk ekranına bağla.",
               "Brand ve generic’i ayrı izle; ikisini aynı hedefle ölçme.",
               "OTA/direkt kanal payını haftalık trendle takip et."
             ]
@@ -75309,7 +75602,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap (2–3 cümle): CPA, bir rezervasyon/lead için ödediğiniz maliyettir; otelin marjı bu maliyeti taşıyamıyorsa kampanya büyütmek kârlılığı bozar. ROAS ise reklamın getirdiği geliri harcamaya oranlar; gelir ölçümü doğruysa, bütçeyi “para kazandıran” kampanyalara kaydırmanın en net göstergesidir."
+            "text": "Net cevap (2–3 cümle): CPA, bir rezervasyon/lead için ödediğiniz maliyettir; otelin marjı bu maliyeti taşıyamıyorsa kampanya büyütmek kârlılığı bozar. ROAS ise reklamın getirdiği geliri harcamaya oranlar; gelir ölçümü doğruysa, bütçeyi “para kazandıran” kampanyalara kaydırmanın en net göstergesidir. Bu yüzden <a href=\"/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi\">ROAS, CPA ve dönüşüm oranı</a> tarafındaki ölçüm kurgusunun doğru kurulmuş olması gerekir."
           },
           {
             "type": "h3",
@@ -75414,7 +75707,11 @@
           },
           {
             "type": "p",
-            "text": "Rakiplerin çoğu ya çok teknik (Ads arayüzü) ya da çok yüzeysel (KPI tanımı) kalır. Buradaki fark: Ads raporunu PMS/günlük gelir/dolulukla eşleştirip “kârlı kampanya”yı netleştirmek. Bu eşleme, özellikle Antalya gibi yoğun rekabette “hangi kampanyanın gerçekten oda sattığını” görünür kılar."
+            "text": "Rakiplerin çoğu ya çok teknik (Ads arayüzü) ya da çok yüzeysel (KPI tanımı) kalır. Buradaki fark: Ads raporunu PMS/günlük gelir/dolulukla eşleştirip “kârlı kampanya”yı netleştirmek. Bu eşleme, özellikle Antalya gibi yoğun rekabette “hangi kampanyanın gerçekten oda sattığını” görünür kılar. Raporlarda düşük ROAS, yüksek CPA veya ölçüm sapması göründüğünde bunu düzenli <a href=\"/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim\">Google Ads hesap auditi</a> ile doğrulamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads performansını doğru yorumlamak</a> için hizmet kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -75502,7 +75799,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi (URL normalizasyonu uygulandı)",
         "Blog No + Blog URL: Blog #11 — https://dgtlface.com/tr/sem/blog/google-ads-landing-page-otel-optimizasyonu (URL normalizasyonu uygulandı)",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Transactional",
         "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
         "(V2.3 Kilidi) Word Count Range: 3000–3500"
@@ -75530,7 +75827,7 @@
     },
     "h1": {
       "title": "Google Ads İçin Otel Landing Page Optimizasyonu Nasıl Yapılır?",
-      "intro": "Google Ads’te kampanya ne kadar iyi olursa olsun, misafir landing’de “karar alamıyorsa” bütçe yanar. Otel landing’inde dönüşüm; hız, mobil deneyim, net oda–fiyat sunumu, güven unsurları ve kısa rezervasyon akışı ile gelir. Üstelik Google Ads’te kalite tarafında; reklam/landing kalitesi Ad Rank’i etkileyen faktörlerden biridir ve Quality Score bileşenleri arasında “landing page experience” yer alır.",
+      "intro": "Google Ads’te kampanya ne kadar iyi olursa olsun, misafir landing’de “karar alamıyorsa” bütçe yanar. Otel landing’inde dönüşüm; hız, mobil deneyim, net oda–fiyat sunumu, güven unsurları ve kısa rezervasyon akışı ile gelir. Bu <a href=\"/tr/sem/google-ads-yonetimi\">otel landing page optimizasyonu</a> yaklaşımı, reklam bütçesini rezervasyona dönüştüren sayfa mimarisini kurmaya odaklanır. Üstelik Google Ads’te kalite tarafında; reklam/landing kalitesi Ad Rank’i etkileyen faktörlerden biridir ve Quality Score bileşenleri arasında “landing page experience” yer alır.",
       "quickSummary": [
         "1) Tek niyet + tek CTA ile ilk ekranı sadeleştir",
         "2) Mobil deneyimi ve scroll derinliğini optimize et",
@@ -75558,12 +75855,28 @@
     },
     "internalLinks": [
       {
-        "label": "Web sitesi geliştirme",
-        "href": "/tr/yazilim/web-sitesi-gelistirme"
-      },
-      {
         "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM performans mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads kalite puanı",
+        "href": "/tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir"
+      },
+      {
+        "label": "Google Ads dönüşüm kurgusu ve takibi",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
+      },
+      {
+        "label": "Google Ads kampanya hataları ve çözümleri",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
+      },
+      {
+        "label": "Web sitesi geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO",
@@ -75572,16 +75885,28 @@
       {
         "label": "Otel SEO",
         "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Google Ads yönetimi hakkında sık sorulan sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
+        "href": "/tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir"
       },
       {
-        "title": "Teknik SEO",
-        "href": "/tr/seo/teknik-seo"
+        "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
+      },
+      {
+        "title": "Otel Google Ads Kampanya Hataları ve Çözümleri",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
+      },
+      {
+        "title": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -75592,6 +75917,10 @@
           {
             "type": "media",
             "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, daha geniş <a href=\"/tr/sem\">SEM performans mimarisi</a> içinde düşünülmeli; çünkü landing’in tasarımı, hızı ve kullanıcı akışı çoğu zaman <a href=\"/tr/yazilim/web-sitesi-gelistirme\">rezervasyon sayfası dönüşüm optimizasyonu</a> ile birlikte ele alınır."
           },
           {
             "type": "p",
@@ -75615,6 +75944,10 @@
           {
             "type": "p",
             "text": "“Belek her şey dahil resort” reklamından gelen kullanıcı, ilk ekranda aile konsepti + fiyat başlangıcı + ‘Rezervasyon’ CTA + puan/yorum görürse karar hızlanır; aksi durumda “fotoğraf arayım / OTA’da fiyat bakayım” refleksi tetiklenir."
+          },
+          {
+            "type": "p",
+            "text": "Landing yalnızca reklama göre kurgulanırsa kısa vadede çalışsa bile, destinasyon niyeti ve içerik uyumu zayıflayabilir. Bu yüzden <a href=\"/tr/otel/seo\">otel landing page SEO uyumu</a> da korunmalı; sayfa hem reklam trafiğine hem de organik arama beklentisine yanıt verebilmelidir."
           },
           {
             "type": "h3",
@@ -75783,7 +76116,11 @@
           },
           {
             "type": "p",
-            "text": "Otel satın alımı “riskli” algılanır: iptal, temizlik, konum, ödeme… Bu yüzden trust signals (yorum/puan/rozet) landing’de dönüşümün yakıtıdır. Ayrıca Ads tarafında kalite sinyali olarak “landing page experience” bileşeni önemlidir; landing’in “relevant and useful” olması beklenir."
+            "text": "Otel satın alımı “riskli” algılanır: iptal, temizlik, konum, ödeme… Bu yüzden trust signals (yorum/puan/rozet) landing’de dönüşümün yakıtıdır. Ayrıca Ads tarafında kalite sinyali olarak “landing page experience” bileşeni önemlidir; landing’in “relevant and useful” olması beklenir. Bu nedenle <a href=\"/tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir\">Google Ads landing page deneyimi</a> ile kalite puanı ilişkisini birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Reklam mesajı ile landing’in sunduğu teklif uyuşmadığında, zayıf CTA ve eksik güven blokları doğrudan <a href=\"/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri\">reklam-sayfa uyumsuzluğu ve zayıf CTA hataları</a> olarak performansa yansır."
           },
           {
             "type": "h3",
@@ -75856,7 +76193,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Teknik performans iki nedenle kritik: (1) kullanıcı deneyimi, (2) arama ve kalite sinyalleri. Google Search tarafında Core Web Vitals; yükleme, etkileşim ve görsel stabiliteyi ölçer (LCP, INP, CLS)."
+            "text": "Teknik performans iki nedenle kritik: (1) kullanıcı deneyimi, (2) arama ve kalite sinyalleri. Google Search tarafında Core Web Vitals; yükleme, etkileşim ve görsel stabiliteyi ölçer (LCP, INP, CLS). Bu yüzden <a href=\"/tr/seo/teknik-seo\">sayfa hızı ve teknik landing page deneyimi</a> düzenli olarak izlenmelidir."
           },
           {
             "type": "p",
@@ -75930,6 +76267,10 @@
             "text": "Landing dönüşümün “giriş kapısıdır”, ama asıl kayıp çoğu zaman rezervasyon akışında olur: tarih seçimi, kişi sayısı, fiyat görme, ödeme… Ads’ten gelen kullanıcı için ideal akış: en az adım + en az sürpriz."
           },
           {
+            "type": "p",
+            "text": "Form, telefon, WhatsApp ve booking engine geçişlerinin gerçekten çalışıp çalışmadığını görmek için <a href=\"/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi\">form, telefon ve booking engine dönüşüm ölçümü</a> tarafının da doğru kurulmuş olması gerekir."
+          },
+          {
             "type": "h3",
             "text": "Akış tasarımı için 5 ilke"
           },
@@ -75997,6 +76338,10 @@
           {
             "type": "p",
             "text": "Landing optimizasyonu yapan otellerde, aynı trafik hacminde dönüşüm oranında %15–40 bandında artış gözlemlenebilir; bu da Google Ads ROI’sini doğrudan iyileştirebilir. (Sonuçlar otel tipi, sezon ve pazar kırılımına göre değişir; garanti değildir.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads landing page performansını artırmak</a> için hizmet kapsamını inceleyebilir, karar aşamasında <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
