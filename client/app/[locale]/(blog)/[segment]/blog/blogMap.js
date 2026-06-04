@@ -265,7 +265,10 @@ export const BLOG_MAP = {
     "seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar":"BlogSeoFunnelRaporuZiyaretciDenLeadVeRezervasyonaKadar",
     "icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz":"BlogIcerikRefreshVeConsolidationSonuclariniSeoRaporunaNasilYansitirsiniz",
     "seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi":"BlogSeoVeSemRaporlariniBirlikteOkumakOrganikVeReklamSynergisi",
-    "ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler":"BlogAiDestekliSeoRaporOzetiVeOtomatikIcgoruler"
+    "ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler":"BlogAiDestekliSeoRaporOzetiVeOtomatikIcgoruler",
+
+    "multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar":"BlogMultiSiteVeMultiBrandSeoRaporlamaZincirOtellerVeGruplar",
+    "rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik":"BlogRolBazliSeoDashboardlariCeoPazarlamaIcerikTeknik"
   },
 
     smm: {

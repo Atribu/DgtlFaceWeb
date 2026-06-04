@@ -74753,6 +74753,1202 @@
         ]
       }
     }
+  },
+
+  "BlogMultiSiteVeMultiBrandSeoRaporlamaZincirOtellerVeGruplar": {
+    "title": "Multi-Site SEO Raporlama: Zincir Oteller İçin Çerçeve",
+    "slug": "multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "4 Haziran 2026",
+    "publishedAt": "2026-06-04",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Zincir otellerde SEO’yu grup→marka/bölge→otel hiyerarşisiyle raporla. Ortak KPI setiyle roll-up görün, otel bazında teşhis et; tek panelde aksiyon üret.",
+    "seo": {
+      "metaTitle": "Multi-Site SEO Raporlama: Zincir Oteller İçin Çerçeve | DGTLFACE",
+      "metaDescription": "Zincir otellerde SEO’yu grup→marka/bölge→otel hiyerarşisiyle raporla. Ortak KPI setiyle roll-up görün, otel bazında teşhis et; tek panelde aksiyon üret."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 16 — https://dgtlface.com/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count Range = 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar"
+      ],
+      "strategySummary": "Bu içerik, zincir oteller ve çok markalı yapılarda SEO raporlamayı “tek site” mantığından çıkarıp grup→marka/bölge→site/otel hiyerarşisiyle yönetilebilir hale getiren otorite yazıdır. Hedef persona; otel grubu yöneticisi, pazarlama direktörü ve ajans yöneticisidir; “tüm grup iyi ama hangi otel geri kalıyor?” sorusuna net cevap ister. Funnel MoFu’dadır: rapor, bütçe/öncelik/operasyon kararlarına dönüşür ve ekiplerin aynı KPI setiyle aynı tabloya bakmasını sağlar. Ana iş sorusu: “Tek panelde büyük resmi ve detayı birlikte görüp, geri kalan marka/otel için aksiyon planını nasıl çıkarırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-04",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Multi-site veya multi-brand yapılarda SEO raporu; hem grup seviyesinde toplam resmi göstermeli hem de site/otel bazında derine inebilmelidir. Doğru kurguda; görünürlük, trafik ve dönüşüm KPI’ları “roll-up” (toplam) olarak izlenir, sonra marka/bölge filtreleriyle ayrıştırılır ve en altta tek tek otel/site teşhisine iner. Böylece “tüm grup iyi ama şu otel zayıf” senaryosu netleşir ve aksiyon planı çıkar.",
+      "sgeSummary": "Grup→marka/bölge→otel hiyerarşisi kur; ortak KPI setini roll-up izle, sonra site bazında teşhis et. Tek panelde büyük resim + detayla geri kalan oteli hızlı bul.",
+      "voiceAnswer": "Birden fazla oteli tek raporda görmek için KPI’ları grup→marka→otel hiyerarşisinde filtreleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Zincir oteller, grup markalar, merkezi pazarlama ekipleri, ajanslar",
+        "KPI: görünürlük (GSC), organik trafik (GA4), dönüşüm (lead/rezervasyon), otel bazlı katkı",
+        "Entity Theme: Multi-Site SEO; Multi-Brand Reporting; Chain Hotels; Group Dashboards",
+        "Semantic Theme: multi-entity reporting; roll-up KPIs; per-property diagnostics",
+        "Funnel: Stratejik okuma (grup) → teşhis (otel) → sprint aksiyonu",
+        "Geo: TR + çok lokasyonlu/çok markalı yapılar (Antalya/Belek/Side/Kemer/Bodrum örneklenebilir)",
+        "Çıktı: Hiyerarşik panel + otel bazlı aksiyon listesi + veri bütünlüğü kontrolü"
+      ]
+    },
+    "h1": {
+      "title": "Multi-Site ve Multi-Brand SEO Raporlama: Zincir Oteller ve Grup Markalar İçin Çerçeve",
+      "intro": "Zincir otellerde SEO raporlamanın en zor tarafı, iki ihtiyacı aynı anda karşılamaktır: yönetim “grup toplamı”nı görmek ister; operasyon ise “hangi otel/site geri kalıyor?” sorusuna inmek ister. Tek sitelik raporlama mantığıyla ilerlerseniz ya sadece toplamı görür, sorunlu oteli kaçırırsınız; ya da tek tek otel raporlarında boğulur, büyük resmi kaybedersiniz. Bu yüzden doğru model, hiyerarşik raporlamadır: grup→marka/bölge→otel/site. Bu rehber, ortak KPI setini koruyarak seviyeler arası roll-up ve drill-down (detaya inme) yapısını kurmanıza yardımcı olur.",
+      "quickSummary": [
+        "1) Grup→marka/bölge→otel/site hiyerarşisini kur",
+        "2) Ortak KPI sözlüğünü standardize et",
+        "3) Roll-up ile büyük resmi, drill-down ile otel teşhisini gör",
+        "4) Top 5 kazanım / Top 5 risk kartlarıyla öncelik çıkar",
+        "5) Her risk otel için P1/P2/P3 aksiyon backlog’u üret"
+      ],
+      "ctaPrimary": {
+        "label": "Multi-Site SEO Raporlama & KPI Yapısı Analizi Talep Et",
+        "text": "Grup, marka ve otel seviyesinde tek panel kurmak isteyen zincir oteller ve çok markalı yapılar için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Multi-Site SEO Raporlama & KPI Yapısı Analizi Talep Et",
+        "text": "Zincir otellerde KPI sözlüğü ve hiyerarşik paneli doğru kurmak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Grup/Marka/Site Bazlı SEO Dashboard Şablonunu İndir",
+        "text": "Hiyerarşik filtre setini ve roll-up KPI yapısını hazır verir; geri kalan oteli hızlı tespit edip aksiyon yazmanızı sağlar.",
+        "href": "/downloads/grup-marka-site-bazli-seo-dashboard-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "multi-site-multi-brand-yapilarda-seo-raporlama-zorluklari",
+        "title": "Multi-Site/Multi-Brand Yapılarda SEO Raporlama Zorlukları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Multi-entity yapılarda zorluk “veri çokluğu” değil, veri tutarsızlığı ve karar karmaşasıdır. Farklı sitelerde GA4 kurulumu farklı olabilir, bazı otellerde GSC eksik olabilir, dönüşüm tanımları farklı olabilir. Bu durumda rapor, “yanlış karşılaştırma” üretir."
+          },
+          {
+            "type": "h3",
+            "text": "En yaygın 5 zorluk"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI tanımlarının farklı olması (conversion = form mu rezervasyon mu?)",
+              "GA4 property/event isimlerinin tutarsızlığı",
+              "GSC kurulumu eksik veya farklı domain/property (subdomain vs domain)",
+              "Ülke/para birimi/çok dil etkisi (segmentler karışır)",
+              "Ortak panel var ama “hangi otel geri?” sorusuna cevap yok"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tüm sitelerde GA4 event sözlüğü aynı mı?",
+              "Tüm sitelerde GSC aktif ve doğru property mi?",
+              "Dönüşüm KPI’sı (lead/rezervasyon) standardize mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Önce veri bütünlüğü” kuralını yazın: GA4 + GSC standardı olmadan kıyas yok.",
+              "Ortak KPI sözlüğü oluşturun (grup geneli).",
+              "Grup raporunu “toplam + en iyi 5 + en zayıf 5” formatıyla okuyun."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "grup-vs-site-bazli-kpilar-roll-up-mantigi",
+        "title": "Grup vs Site Bazlı KPI’lar (Roll-Up Mantığı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Grup raporu ile otel raporu aynı şey değildir. Grup seviyesinde KPI’lar “toplam etki”yi; otel seviyesinde “teşhis”i anlatır."
+          },
+          {
+            "type": "h3",
+            "text": "Grup seviyesinde (roll-up) KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Toplam organik görünürlük (impressions/clicks/CTR trendi)",
+              "Toplam organik trafik (sessions)",
+              "Toplam dönüşüm (lead/rezervasyon/call)",
+              "Brand vs non-brand payı (grup stratejisi için)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel/site seviyesinde (drill-down) KPI seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel landing performansı (GSC+GA4)",
+              "Cihaz/ülke segment sapmaları",
+              "CWV/teknik sağlık (özellikle dönüşüm sayfaları)",
+              "Yerel/harita KPI’ları (GBP varsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “Grup toplamı iyi” ama Bodrum oteli düşüyorsa; grup KPI’ı bunu maskeleyebilir. Drill-down, otelin CTR mi dönüşüm mü kaybettiğini gösterir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup KPI’ları karar için, otel KPI’ları teşhis için mi?",
+              "KPI’lar her seviyede aynı sayıda değil (grupta sade, otelde derin)?",
+              "Rapor, “en zayıf 5 otel”i otomatik çıkarıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Grup sayfasında 6 KPI’dan fazlasını göstermeyin.",
+              "Otel sayfasında “senaryo etiketi” kullanın (Impr↑CTR↓ gibi).",
+              "Grup→otel drill-down’da aynı filtre setini koruyun (tarih/ülke/cihaz)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ortak-panel-detay-raporlar-tek-ekranda-buyuk-resim-derinlik",
+        "title": "Ortak Panel + Detay Raporlar (Tek Ekranda Büyük Resim + Derinlik)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Doğru yapı: tek panel ama çok seviye. Yönetici bir sayfada “genel sağlık” görür; ekip bir tıkla otel detayına iner."
+          },
+          {
+            "type": "h3",
+            "text": "Panel yapısı (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Grup Overview: toplam KPI + trend + en iyi/en zayıf oteller",
+              "Marka/Bölge View: marka/bölge filtreleriyle KPI kırılımı",
+              "Otel Drill-down: landing, segment ve dönüşüm teşhisi",
+              "Aksiyon Backlog: P1/P2/P3 öncelik listesi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Overview’da “en zayıf otel”i tek tıkla bulabiliyor muyum?",
+              "Otel drill-down “landing + segment + dönüşüm” veriyor mu?",
+              "Backlog alanı rapora entegre mi (rapor sadece izleme değil)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Grup panelinde “Top 5 kazanım / Top 5 risk” kartları ekleyin.",
+              "Otel drill-down’a “top 10 landing” tablosu koyun.",
+              "Her ay 2 oteli “derin teşhis” seçip sprint’e alın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marka-bolge-ve-site-bazli-segmentasyon",
+        "title": "Marka, Bölge ve Site Bazlı Segmentasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-site yapıların gerçek gücü segmentasyonla ortaya çıkar: marka bazlı, bölge bazlı, ülke bazlı, cihaz bazlı… Ama segmentasyonun “fazlası” raporu boğar. Kural: segment, karar verdiriyorsa anlamlıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Segmentasyon katmanları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka: marka stratejisi ve bütçe",
+              "Bölge: destinasyon performansı (Antalya/Belek/Side/Kemer/Bodrum)",
+              "Otel/Site: operasyonel teşhis",
+              "Pazar/Ülke: çok pazar yönetimi",
+              "Cihaz: mobil sürtünme"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Antalya bölgesinde genel trend iyi ama Kemer’de düşüş varsa, bölge katmanı “lokal risk”i erken yakalar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segmentler “toplam ortalamayı” açıyor mu?",
+              "Düşük örneklemli otelleri/segmentleri yanlış yorumlamıyor muyum?",
+              "Segment raporları aksiyon listesine bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Segment setini sınırlayın (marka+bölge+otel yeter).",
+              "Ülke segmentini sadece anlamlı hacimde ekleyin (düşük hacmi izle).",
+              "Mobil sorunları CWV + dönüşümle birlikte raporlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zincir-oteller-ve-grup-markalar-icin-ornek-dashboard-yapisi",
+        "title": "Zincir Oteller ve Grup Markalar İçin Örnek Dashboard Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “Türkçe kaynaklarda sınırlı” olan hiyerarşik örnek ihtiyacını kapatır: seviyelendirilmiş rapor mantığı."
+          },
+          {
+            "type": "h3",
+            "text": "Multi-site SEO raporu hangi seviyelerden oluşmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Multi-site SEO raporu 3 seviyeden oluşmalı: (1) Grup: toplam KPI ve trend, (2) Marka/Bölge: filtreli performans, (3) Site/Otel: landing + segment + dönüşüm teşhisi. Her seviye aynı KPI sözlüğünü kullanır ama farklı derinlikte sunar."
+          },
+          {
+            "type": "h3",
+            "text": "Grup vs site KPI’ları nasıl tanımlanmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Grup KPI’ları sade ve karar odaklıdır (toplam görünürlük, trafik, dönüşüm). Site KPI’ları teşhis odaklıdır (landing performansı, segment sapması, teknik risk). Aynı sözlükle konuşurlar; ama grup “ne oluyor?”, site “neden oluyor?” der."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Birden fazla siteyi tek panelde raporlayan yapılarda, “hangi otel/marka geri kalıyor?” sorusuna daha hızlı ve net yanıt verilebildiği görülüyor."
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): Farklı sitelerde farklı GA4 yapılandırmaları veya eksik GSC kurulumu varsa, veri bütünlüğü önce teknik olarak sağlanmalıdır; aksi hâlde kıyas yanlıştır."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Örnek multi-site KPI hiyerarşi tablosu — Seviye→KPI→Karar",
+            "headers": [
+              "Seviye",
+              "KPI seti",
+              "Soru",
+              "Çıktı"
+            ],
+            "rows": [
+              [
+                "Grup",
+                "total visibility/traffic/conversion",
+                "“Genel sağlık?”",
+                "trend + Top5 risk"
+              ],
+              [
+                "Marka/Bölge",
+                "filtreli KPI",
+                "“Hangi marka/bölge?”",
+                "pay değişimi"
+              ],
+              [
+                "Otel/Site",
+                "landing+segment+teknik",
+                "“Neden?”",
+                "aksiyon backlog"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard tek panel ama seviye seviye mi?",
+              "KPI sözlüğü tüm sitelerde aynı mı?",
+              "Otel bazında aksiyon üretmek kolay mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce veri standardını tamamlayın (GA4/GSC).",
+              "Grup paneliyle başlayıp marka/bölge filtreleri ekleyin.",
+              "Otel drill-down’da her otel için 1 ana aksiyon üretin (P1/P2/P3).",
+              "Yeni otel/site eklenince filtre ve hiyerarşiyi güncelleyin (Refresh: 365)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grup-marka-site-bazli-seo-dashboard-sablonunu-indir",
+        "title": "Grup/Marka/Site Bazlı SEO Dashboard Şablonunu İndir — SEO / Multi-Site",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Grup/Marka/Site Bazlı SEO Dashboard Şablonunu İndir — SEO / Multi-Site (v1.0)",
+            "purpose": "Bu şablon, multi-site/multi-brand yapılarda SEO raporunu grup→marka/bölge→otel/site hiyerarşisiyle kurmanızı sağlar. Roll-up KPI’larla büyük resmi gösterirken, drill-down ile tek tek otel performansını teşhis eder ve “geri kalan otel”i netleştirir. Veri bütünlüğü kontrolü (GA4/GSC standardı) adımını zorunlu tutarak yanlış kıyas riskini azaltır.",
+            "whoFor": "Zincir oteller, grup markalar, merkezi pazarlama ekipleri ve çok siteli ajans portföyleri.",
+            "steps": [
+              "Tüm sitelerde GA4 event sözlüğü ve GSC kurulumunu standardize et.",
+              "Dashboard’da 3 seviye oluştur: Grup Overview, Marka/Bölge, Otel Drill-down.",
+              "Her ay Top 5 risk oteli seç; P1/P2/P3 aksiyon backlog’u üret."
+            ],
+            "template": {
+              "name": "Template: Multi-Site SEO Dashboard",
+              "sections": [
+                {
+                  "title": "A) Filtre Seti (rapor başında sabit)",
+                  "items": [
+                    "Dönem: ______",
+                    "Seviye: Grup / Marka / Bölge / Otel",
+                    "Ülke/Pazar (ops.): ______",
+                    "Cihaz (ops.): Mobil/Desktop"
+                  ]
+                },
+                {
+                  "title": "B) Grup Overview (tek sayfa)",
+                  "items": [
+                    "KPI kartları: toplam impressions, toplam sessions, toplam conversions",
+                    "Top 5 kazanan otel / Top 5 risk otel",
+                    "Brand vs non-brand trend"
+                  ]
+                },
+                {
+                  "title": "C) Marka/Bölge Sayfası",
+                  "items": [
+                    "Marka/bölge filtresi",
+                    "KPI trendi + pay değişimi",
+                    "“Bu bölge neden düştü?” için not alanı"
+                  ]
+                },
+                {
+                  "title": "D) Otel Drill-down",
+                  "items": [
+                    "Top 10 landing tablosu",
+                    "Segment sapmaları (cihaz/ülke)",
+                    "Teknik risk etiketi (CWV/404/5xx)",
+                    "1 ana aksiyon alanı"
+                  ]
+                },
+                {
+                  "title": "E) Kontrol listesi",
+                  "items": [
+                    "GA4 dönüşüm/event tanımları tüm sitelerde aynı",
+                    "GSC kurulu ve doğru property",
+                    "Dönem/filtre seti tüm seviyelerde tutarlı",
+                    "Top 5 risk otel listesi otomatik",
+                    "Her risk otel için 1 ana aksiyon yazıldı"
+                  ]
+                }
+              ]
+            },
+            "href": "/downloads/grup-marka-site-bazli-seo-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Kapanış — “Büyük Resim + Detay” Dengesini Kurmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Grup yapılarında rapor ya sadece toplamı gösterip “geri kalan otel”i gizler ya da tek tek otellerde boğulup stratejiyi kaybettirir. Hiyerarşik raporlama, bu iki uç arasındaki köprüdür: aynı KPI diliyle konuşur, seviye değiştirdikçe derinleşir ve sonunda aksiyon üretir. Bu çerçeveyi kurduğunuzda, SEO raporu “okunan” değil “kullanılan” bir yönetim aracına dönüşür."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Multi-Site SEO Raporlama & KPI Yapısı Analizi Talep Et",
+            "text": "Grup→marka→otel seviyesinde tek panel kurup, geri kalan oteli hızlı yakalamak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Grup/Marka/Site Bazlı SEO Dashboard Şablonunu İndir",
+            "text": "Hiyerarşik filtre setini ve roll-up KPI yapısını hazır verir; geri kalan oteli hızlı tespit edip aksiyon yazmanızı sağlar.",
+            "href": "/downloads/grup-marka-site-bazli-seo-dashboard-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Zincir oteller için SEO raporu nasıl hazırlanır?",
+        "a": "Raporu grup→marka/bölge→otel seviyelerine ayırın. Grup seviyesinde toplam KPI’ları, otel seviyesinde landing/segment/dönüşüm teşhisini verin ve her seviyede aynı KPI sözlüğünü kullanın."
+      },
+      {
+        "q": "Multi-site yapılarda grup ve site bazlı KPI’ları nasıl ayırırım?",
+        "a": "Grup KPI’ları karar odaklı ve sade olmalı (toplam görünürlük, trafik, dönüşüm). Site KPI’ları teşhis odaklı olmalı (landing performansı, segment sapması, teknik risk) ve aksiyon üretmelidir."
+      },
+      {
+        "q": "Tek panelde birden fazla siteyi nasıl raporlarım?",
+        "a": "Tek panel içinde seviye mantığı kurun: Overview’da roll-up, filtrelerle marka/bölge, drill-down ile otel detayı. Böylece büyük resim ve detay aynı yapıda kalır."
+      },
+      {
+        "q": "Hangi markanın/otel’in geri kaldığını raporda nasıl gösteririm?",
+        "a": "“Top 5 risk otel” kartı ve P1/P2/P3 etiketli aksiyon listesi kullanın. Her risk otel için 1 ana sorun (CTR/UX/teknik) ve 1 ana aksiyon yazın."
+      },
+      {
+        "q": "Multi-site raporda en kritik teknik risk nedir?",
+        "a": "Veri tutarsızlığıdır: farklı GA4 event tanımı veya eksik GSC kurulumu, yanlış kıyas üretir. Önce veri bütünlüğü sağlanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-hero-01.webp — Alt text: Multi-site SEO dashboard, amaç grup görünümü, zincir otel bağlamı",
+          "H1 context — 16:9 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-h1-context-02.webp — Alt text: Grup marka otel filtre akışı, amaç hızlı drill-down, kurumsal raporlama bağlamı",
+          "Divider 01 — 4:3 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-divider-03.webp — Alt text: Veri bütünlüğü ve zorluklar ayırıcı, amaç standardizasyon, ajans bağlamı",
+          "Divider 02 — 4:3 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-divider-04.webp — Alt text: Hiyerarşi ve segmentasyon ayırıcı, amaç seviye okuma, zincir otel bağlamı",
+          "Diagram / Flow — 16:9 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-diagram-05.webp — Alt text: Grup marka otel hiyerarşi diyagramı, amaç rapor mimarisi, otel grubu bağlamı",
+          "Checklist / Framework Card — 1:1 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-checklist-06.webp — Alt text: Multi-site raporlama checklist kartı, amaç kurulum standardı, kurum bağlamı",
+          "KPI / Score Card — 1:1 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-kpi-07.webp — Alt text: Grup KPI skor kartı, amaç hızlı özet, yönetici bağlamı",
+          "Deliverables / Proof Card — 1:1 — multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar-proof-08.webp — Alt text: Hiyerarşik dashboard çıktıları, amaç karar ve takip, ajans bağlamı",
+          "Tablo (1 adet): Seviye→KPI→Karar tablosu"
+        ],
+        "technicalChecklist": [
+          "GA4 event sözlüğü tüm site/otel yapılarında standardize edildi",
+          "GSC property kurulumu tüm site/otel yapılarında doğrulandı",
+          "Grup→marka/bölge→otel/site hiyerarşisi rapor filtrelerine işlendi",
+          "Brand vs non-brand kırılımı raporda ayrıştırıldı",
+          "Top 5 kazanım / Top 5 risk kartları oluşturuldu",
+          "Otel drill-down’da landing + segment + teknik risk alanları tanımlandı",
+          "Aksiyon backlog alanı P1/P2/P3 öncelik yapısıyla eklendi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Refresh Cycle: 365 gün"
+        ]
+      }
+    }
+  },
+
+  "BlogRolBazliSeoDashboardlariCeoPazarlamaIcerikTeknik": {
+    "title": "Role-Bazlı SEO Dashboard’ları: CEO’dan Tekniğe",
+    "slug": "rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "4 Haziran 2026",
+    "publishedAt": "2026-06-04",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Aynı veriden role-bazlı SEO panelleri kur: CEO için iş KPI’ları, pazarlama için funnel/kampanya, içerik için cluster performansı, teknik için CWV-crawl-index. Tanımlar aynı, özet düzeyi farklı.",
+    "seo": {
+      "metaTitle": "Role-Bazlı SEO Dashboard’ları: CEO’dan Tekniğe | DGTLFACE",
+      "metaDescription": "Aynı veriden role-bazlı SEO panelleri kur: CEO için iş KPI’ları, pazarlama için funnel/kampanya, içerik için cluster performansı, teknik için CWV-crawl-index. Tanımlar aynı, özet düzeyi farklı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 17 — https://dgtlface.com/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count Range = 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
+      ],
+      "strategySummary": "Bu içerik, tek bir karmaşık dashboard’ı herkese gösterme hatasını çözen ve “aynı veri, farklı özet” prensibiyle role-specific views yaklaşımını kuran otorite yazıdır. Hedef persona; CEO/üst yönetim, pazarlama liderleri, içerik liderleri, teknik ekip ve ajans yöneticileridir; herkes aynı rapordan farklı şey bekler. Funnel MoFu’dadır: rapor kaosu azalır, okunma oranı artar, aksiyon alma hızı yükselir. Ana iş sorusu: “Aynı veri kaynağından CEO, pazarlama, içerik ve teknik ekipler için ayrı ama tutarlı SEO panellerini nasıl tasarlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-04",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Role-bazlı SEO dashboard’lar, herkesin aynı veri setinden kendi ihtiyacına uygun özetleri görmesini sağlar: CEO iş sonucu (gelir/lead/rezervasyon) ister; pazarlama ekipleri kanal karması ve funnel’ı; içerik ekibi cluster bazlı görünürlük ve içerik performansını; teknik ekip ise CWV, tarama, hata ve index sağlığını. Kritik kural: veri kaynağı ve KPI tanımları her rolde aynı kalmalı, sadece sunum ve derinlik değişmelidir; aksi hâlde ekipler arasında “farklı gerçekler” algısı oluşur.",
+      "sgeSummary": "Tek dashboard herkese yetmez. Aynı veri kaynağıyla CEO/pazarlama/içerik/teknik panelleri kur; KPI sözlüğünü ortak tut, her role uygun özet seviyesinde göster; rapor kaosunu azalt.",
+      "voiceAnswer": "Evet; patrona özet, ekiplere derin panel gösterin—ama KPI tanımları aynı kalsın.",
+      "aiFactSheet": [
+        "Hedef kitle: Orta/büyük kurumlar, ajanslar, çok paydaşlı SEO ekipleri",
+        "Entity Theme: Role-Based Dashboards; CEO vs Marketing vs Content vs Tech; KPI by Role",
+        "Semantic theme: role-specific views; stakeholder reporting; shared-data/different-cuts",
+        "KPI seti: CEO: dönüşüm/gelir; Pazarlama: funnel+kanal; İçerik: cluster; Teknik: CWV+crawl+index",
+        "Funnel: Yönetici özeti → ekip teşhisi → sprint aksiyonu",
+        "Geo: TR geneli; otel ve hizmet siteleri dahil",
+        "Çıktı: Rol→KPI eşleme tablosu + panel şeması + tasarım checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Role-Bazlı SEO Dashboard’ları: CEO, Pazarlama, İçerik ve Teknik Ekipler İçin Ayrı Paneller",
+      "intro": "SEO raporlamada en yaygın problem, tek bir dashboard’ı herkese göstermeye çalışmaktır. Sonuç: CEO paneli “fazla teknik” bulunur, içerik ekibi “çok genel” der, teknik ekip “hangi hata kritik?” diye arar; nihayetinde kimse paneli gerçekten kullanmaz. Role-bazlı dashboard yaklaşımı bu kaosu bitirir: aynı veri kaynağını ve aynı KPI sözlüğünü koruyarak, her role kendi dilinde bir özet üretir. Bu sayede yönetim karar alır, ekipler teşhis yapar, aksiyonlar sprint’e bağlanır ve SEO raporu “okunan” değil “kullanılan” bir araca dönüşür.",
+      "quickSummary": [
+        "1) Her rol için tek cümle karar sorusunu yaz",
+        "2) KPI sözlüğünü ortak tut",
+        "3) CEO’ya iş sonucu, ekiplere teşhis paneli göster",
+        "4) Aynı veri kaynağından farklı özet derinlikleri üret",
+        "5) Aksiyon alanını sprint ve sorumlu bilgisiyle bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Role-Bazlı SEO Dashboard Tasarım Analizi Talep Et",
+        "text": "CEO/pazarlama/içerik/teknik için tutarlı panel seti kurmak isteyen kurumlar ve ajanslar için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Role-Bazlı SEO Dashboard Tasarım Analizi Talep Et",
+        "text": "Orta/büyük kurumlarda paydaşlara göre panel seti tasarlamak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "CEO/Pazarlama/İçerik/Teknik İçin SEO KPI Seti Şablonunu İndir",
+        "text": "Her rolün KPI sözlüğünü ve panel bloklarını hazır verir; tek gerçek üzerinden farklı özet üretmenizi sağlar.",
+        "href": "/downloads/ceo-pazarlama-icerik-teknik-seo-kpi-seti-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "farkli-roller-icin-farkli-seo-kpilari",
+        "title": "Farklı Roller İçin Farklı SEO KPI’ları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Herkes aynı KPI’ya bakmaz; çünkü herkesin “kararı” farklıdır. Role-bazlı tasarımda ilk adım, rolün hangi kararı verdiğini netleştirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Rol→Karar→KPI yaklaşımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CEO: “SEO iş hedeflerine katkı veriyor mu?” → dönüşüm/gelir/lead, trend",
+              "Pazarlama: “hangi kanal neyi taşıyor, nerede büyüyeceğiz?” → funnel/segment/kampanya etkisi",
+              "İçerik: “hangi topic/cluster çalışıyor, hangisi zayıf?” → cluster görünürlük/refresh fırsatı",
+              "Teknik: “hangi hata risk, hangi sprint öncelik?” → CWV/crawl/index/status code"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Antalya/Belek/Side gibi destinasyonlarda yönetim “rezervasyon trendi” ister; teknik ekip “mobil CWV neden kırmızı?” diye bakar; içerik ekibi “destinasyon cluster’ı büyüyor mu?”yu sorar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her rol için “tek cümle karar sorusu” yazdım mı?",
+              "KPI sözlüğü ortak mı (tanım aynı)?",
+              "Dashboard, rolün kararını hızlandırıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "4 rol için 4 “karar sorusu”nu rapor standardına yazın.",
+              "KPI sözlüğünü tek dokümanda sabitleyin (dönüşüm tanımı, tarih aralığı vb.).",
+              "Her panelde 6–10 KPI’dan fazlasını göstermeyin; derinlik “drill-down” ile gelsin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "ceo-ust-yonetim-paneli-is-sonucu-trend",
+        "title": "CEO / Üst Yönetim Paneli (İş Sonucu + Trend)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CEO panelinin ana görevi “iş çıktısı”dır. SEO terimleri burada minimumda kalmalı; SEO’nun masadaki ağırlığı iş KPI’larıyla konuşmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "CEO panelinde olmalı (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik lead/rezervasyon (makro KPI)",
+              "Organik dönüşüm trendi (YoY/seasonal mümkünse)",
+              "Top 3 kazanan landing / Top 3 risk landing",
+              "3 başarı + 3 risk + 3 aksiyon (1 sayfa özeti)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “Bu ay organik rezervasyon/lead trendi şu yönde; düşüş varsa nedeni CTR/landing/teknik olarak sınıflandırıldı ve 3 aksiyon sprint’e alındı.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CEO panelinde teknik metrikler minimumda mı?",
+              "1 sayfada okunuyor mu?",
+              "Aksiyon bölümü net mi (sorumlu + tarih)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "CEO panelinde “toplam sonuç + trend”i sabitleyin.",
+              "Her grafiğin altına 1 cümle yorum yazın (storytelling).",
+              "Sonuna 3–3–3 ekleyin (başarı/risk/aksiyon)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pazarlama-buyume-paneli-kanal-karmasi-funnel",
+        "title": "Pazarlama & Büyüme Paneli (Kanal Karması + Funnel)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pazarlama paneli, SEO’yu diğer kanallarla birlikte okur: organik nerede büyütüyor, hangi landing’de kampanya etkisi var, funnel’da kayıp nerede?"
+          },
+          {
+            "type": "h3",
+            "text": "Pazarlama panelinde olmalı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SEO funnel görünümü (visibility→traffic→engagement→conversion)",
+              "Segmentler (cihaz/ülke)",
+              "Kampanya etkisi notları (sezon, fiyat, içerik)",
+              "Kanal karması referansı (varsa SEM/CRM) — ama KPI sözlüğü aynı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Mobilde organik trafik artıyor ama dönüşüm düşüyorsa, pazarlama paneli bunu “UX sürtünmesi + teklif/CTA testi” aksiyonuna bağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Funnel adımları net mi?",
+              "Segment sapmalarını gösteriyor mu?",
+              "Kampanya/olay notları var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Pazarlama panelinde funnel tablosunu zorunlu yapın.",
+              "Segment→aksiyon eşleştirme kutusu ekleyin.",
+              "“Bu hafta ne değişti?” için küçük anomali kartları ekleyin (AI destekli olsa da doğrulama şart)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-ekibi-paneli-cluster-performansi-portfoy-yonetimi",
+        "title": "İçerik Ekibi Paneli (Cluster Performansı + Portföy Yönetimi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İçerik ekibi “hangi yazı kaç trafik aldı?”dan fazlasını ister: hangi cluster büyüyor, hangisi zayıf, hangi içerik yetim, hangi içerik refresh edilmeli?"
+          },
+          {
+            "type": "h3",
+            "text": "İçerik panelinde olmalı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Topic cluster performans tablosu (hub + destek içerikler)",
+              "Cluster görünürlük trendi (impressions/clicks/CTR)",
+              "Orphan içerik listesi (internal link sağlığı)",
+              "Refresh backlog: Top 10 içerik (potansiyel×efor)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “Destinasyon cluster’ında görünürlük var ama CTR düşük; hub snippet iyileştirmesi + 2 destek içerik refresh sprint’i.”"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cluster bazlı okuma var mı?",
+              "Orphan içerik teşhisi var mı?",
+              "Refresh/Consolidation kararları rapora bağlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "İçerik panelinde URL listesi yerine cluster listesi öncelikli olsun.",
+              "Her cluster için 1 ana aksiyon sütunu koyun.",
+              "Refresh etkisini “önce/sonra” şablonuyla rapora bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-seo-gelistirme-paneli-cwv-crawl-hata-index",
+        "title": "Teknik SEO & Geliştirme Paneli (CWV, Crawl, Hata, Index)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik panel, “kritik risk”i erken yakalamalı ve sprint planı üretmelidir. Burada KPI’lar net ve aksiyon odaklı olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik panelinde olmalı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Core Web Vitals (LCP/CLS/INP) — mobil/desktop ayrımı",
+              "Crawl & index durumu (index coverage, tarama hataları)",
+              "Status kodları (404/5xx, redirect zinciri)",
+              "“Top 10 kritik landing” teknik sağlık etiketi (iyi/riskli/kritik)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Rezervasyon sayfalarında INP kötüleştiyse bu hem UX hem dönüşüm sürtünmesidir; teknik panel bunu “P0 sprint” olarak işaretlemeli."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teknik panel “P0/P1” öncelik üretiyor mu?",
+              "Mobil/desktop ayrımı net mi?",
+              "Ölçüm (event/goal) değişiklikleri notlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Teknik panelde “Top 10 kritik sayfa” standardı koyun.",
+              "Her hatayı “iş etkisi” ile etiketleyin (dönüşüm riski, görünürlük riski).",
+              "Sprint çıktısını rapora geri bağlayın (önce/sonra)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ayni-veriden-farkli-ozetler-uretmek-tek-gercek-farkli-lens",
+        "title": "Aynı Veriden Farklı Özetler Üretmek (Tek Gerçek, Farklı Lens)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Role-bazlı raporlamanın kritik şartı: tek gerçek. Yani veri kaynağı, tanımlar ve KPI sözlüğü her panelde aynı olmalı; sadece “sunum derinliği” değişmeli."
+          },
+          {
+            "type": "h3",
+            "text": "“Farklı gerçekler” algısı nasıl oluşur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CEO paneli farklı tarih aralığı kullanır",
+              "Teknik ekip farklı conversion tanımı görür",
+              "Pazarlama paneli farklı filtre seti uygular"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sonuç: ekipler aynı toplantıda farklı rakam söyler."
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): Veri kaynağı ve tanımlar her rolde aynı olmalı; sadece sunum ve özet düzeyi değişmeli, aksi hâlde ekipler arasında “farklı gerçekler” algısı oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tüm paneller aynı tarih/filtre varsayılanıyla mı açılıyor?",
+              "Dönüşüm tanımı tek mi?",
+              "KPI sözlüğü tek dokümanda mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“KPI sözlüğü”nü dashboard’un içine gömün (info ikonuyla).",
+              "Varsayılan filtre setini standardize edin (tarih, ülke, cihaz).",
+              "Her panelde drill-down aynı veri tabanına bağlansın (tek gerçek)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rol-kpi-eslestirme-tablosu",
+        "title": "Rol→KPI Eşleştirme Tablosu",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Tablo] — KPI→Rol eşleştirme tablosu — “rol karar sorusu + KPI seti”"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rol→KPI eşleştirme tablosu — rol karar sorusu + KPI seti",
+            "headers": [
+              "Rol",
+              "Karar sorusu",
+              "KPI seti (özet)",
+              "Derinleşme"
+            ],
+            "rows": [
+              [
+                "CEO",
+                "“SEO iş üretiyor mu?”",
+                "dönüşüm/rezervasyon/lead + trend",
+                "Top 3 risk landing"
+              ],
+              [
+                "Pazarlama",
+                "“Nerede büyürüz?”",
+                "funnel + segment + kampanya etkisi",
+                "kanal karması"
+              ],
+              [
+                "İçerik",
+                "“Hangi cluster çalışıyor?”",
+                "cluster görünürlük + orphan + refresh",
+                "içerik backlog"
+              ],
+              [
+                "Teknik",
+                "“Nerede risk var?”",
+                "CWV + crawl/index + 404/5xx",
+                "P0 sprint listesi"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ceo-pazarlama-icerik-teknik-seo-kpi-seti-sablonunu-indir",
+        "title": "CEO/Pazarlama/İçerik/Teknik İçin SEO KPI Seti Şablonunu İndir — SEO / Role-Based",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "CEO/Pazarlama/İçerik/Teknik İçin SEO KPI Seti Şablonunu İndir — SEO / Role-Based (v1.0)",
+            "purpose": "Bu şablon, role-bazlı SEO panel setini tasarlamak için ortak bir KPI sözlüğü ve panel blok yapısı sunar. CEO, pazarlama, içerik ve teknik ekipler aynı veri kaynağını kullanır; sadece özet derinliği değişir. Böylece “farklı gerçekler” algısı oluşmadan raporlar okunur ve aksiyon alınır.",
+            "whoFor": "Orta/büyük kurumlar, ajanslar, çok paydaşlı SEO programları.",
+            "steps": [
+              "KPI sözlüğünü sabitle (dönüşüm tanımı, tarih aralığı, segmentler).",
+              "Her rol için panel bloklarını seç (max 6–10 KPI).",
+              "Drill-down linklerini aynı veri tabanına bağla ve aksiyon alanını ekle."
+            ],
+            "template": {
+              "name": "Template: Role-Based KPI Seti",
+              "sections": [
+                {
+                  "title": "A) Ortak KPI Sözlüğü (zorunlu)",
+                  "items": [
+                    "Dönüşüm tanımı: ______",
+                    "Tarih aralığı varsayılanı: ______",
+                    "Segmentler: cihaz/ülke/brand-nonbrand",
+                    "Veri kaynakları: GSC + GA4 (+ teknik rapor)"
+                  ]
+                },
+                {
+                  "title": "B) Rol Panel Blokları",
+                  "items": [
+                    "CEO panel blokları: İş KPI + trend + 3–3–3",
+                    "Pazarlama panel blokları: funnel + segment + kampanya notu",
+                    "İçerik panel blokları: cluster tablosu + orphan + refresh backlog",
+                    "Teknik panel blokları: CWV + crawl/index + status kod + P0 listesi"
+                  ]
+                },
+                {
+                  "title": "C) Kontrol listesi",
+                  "items": [
+                    "KPI tanımları tüm rollerde aynı",
+                    "Varsayılan filtre seti aynı",
+                    "Her panel max 10 KPI",
+                    "Drill-down aynı veri tabanına bağlı",
+                    "Aksiyon alanı (sorumlu/tarih) var"
+                  ]
+                }
+              ],
+              "deliverables": [
+                "Buraya: [Tablo] — KPI→rol eşleştirme görseli — rol bazlı tasarım",
+                "Buraya: [Diagram] — 16:9 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-diagram-05.webp — panel seti şeması",
+                "Buraya: [Checklist Card] — 1:1 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-checklist-06.webp — rol bazlı checklist"
+              ]
+            },
+            "href": "/downloads/ceo-pazarlama-icerik-teknik-seo-kpi-seti-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Fark Yaratan Kapanış — Tek Dashboard Yerine Panel Seti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok projede tek bir karmaşık dashboard hem CEO’ya hem teknik ekibe gösterilmeye çalışılıyor; bu da kimsenin kullanmadığı panellerle sonuçlanıyor. Role-bazlı panel seti kurduğunuzda rapor “kişiselleşir” ama gerçek “tek” kalır: yönetim karar alır, ekip teşhis yapar, aksiyon sprint’e döner. Bu yaklaşım, raporların okunma ve aksiyon alma oranını yükseltir; çünkü herkes kendi karar sorusuna cevap görür."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Role-Bazlı SEO Dashboard Tasarım Analizi Talep Et",
+            "text": "Tek gerçek + farklı lens modeliyle CEO/pazarlama/içerik/teknik panel seti kurmak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CEO/Pazarlama/İçerik/Teknik İçin SEO KPI Seti Şablonunu İndir",
+            "text": "Rol→KPI eşlemesini ve panel bloklarını hazır verir; aynı veri setinden tutarlı özetler üretmenizi sağlar.",
+            "href": "/downloads/ceo-pazarlama-icerik-teknik-seo-kpi-seti-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO dashboard’ını kim için nasıl tasarlamalıyım?",
+        "a": "Önce rolün karar sorusunu yazın (CEO: iş sonucu; teknik: risk). Sonra aynı veri sözlüğüyle role uygun özet derinliği tasarlayın ve drill-down ile detaya bağlayın."
+      },
+      {
+        "q": "CEO için hangi SEO KPI’ları önemli?",
+        "a": "Organik dönüşüm/lead/rezervasyon, trend (YoY mümkünse), en iyi/en riskli landing’ler ve 3–3–3 aksiyon özeti."
+      },
+      {
+        "q": "İçerik ve teknik ekipler için ayrı dashboard gerekir mi?",
+        "a": "Evet; içerik ekibi cluster ve refresh kararına, teknik ekip CWV/crawl/index hatalarına bakar. Aynı veriden farklı özet sunmak rapor kaosunu azaltır."
+      },
+      {
+        "q": "Aynı veriden farklı özetleri nasıl üretirim?",
+        "a": "KPI sözlüğünü ve veri kaynağını ortak tutun; sadece sunum derinliğini ve blokları role göre değiştirin. Böylece ekipler “farklı gerçek” yaşamaz."
+      },
+      {
+        "q": "Tek dashboard’ı herkese gösterirsem ne olur?",
+        "a": "Genelde kimse paneli kullanmaz; CEO için fazla teknik, teknik ekip için fazla genel kalır. Role-bazlı panel seti kullanım oranını artırır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-hero-01.webp — Alt text: Rol bazlı dashboard şeması, amaç rapor kaosunu azaltmak, kurumsal SEO bağlamı",
+          "H1 context — 16:9 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-h1-context-02.webp — Alt text: Aynı veri farklı özet mantığı, amaç tutarlı raporlama, ajans bağlamı",
+          "Section Divider 01 — 4:3 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-divider-03.webp — Alt text: Rol bazlı KPI geçişi, amaç doğru lens, yönetici raporu bağlamı",
+          "Section Divider 02 — 4:3 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-divider-04.webp — Alt text: Tek gerçek farklı paneller ayırıcı, amaç ortak tanımlar, kurum bağlamı",
+          "Diagram / Flow — 16:9 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-diagram-05.webp — Alt text: Rol panelleri akış diyagramı, amaç panel seti tasarımı, SEO raporlama bağlamı",
+          "Checklist / Framework Card — 1:1 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-checklist-06.webp — Alt text: Rol bazlı dashboard checklist kartı, amaç uygulama standardı, ajans bağlamı",
+          "KPI / Score Card — 1:1 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-kpi-07.webp — Alt text: Rol bazlı KPI kartları paneli, amaç hızlı özet, kurumsal bağlamı",
+          "Deliverables / Proof Card — 1:1 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-proof-08.webp — Alt text: Panel seti deliverables kartı, amaç karar ve takip, kurum bağlamı",
+          "Tablo (1 adet): Rol→KPI eşleştirme tablosu"
+        ],
+        "technicalChecklist": [
+          "KPI sözlüğü tüm rollerde aynı tanımlandı",
+          "Varsayılan tarih aralığı ve filtre seti tüm panellerde standardize edildi",
+          "CEO panelinde iş KPI + trend + 3–3–3 özet yapısı kuruldu",
+          "Pazarlama panelinde funnel + segment + kampanya notu blokları tanımlandı",
+          "İçerik panelinde cluster tablosu + orphan + refresh backlog alanları tanımlandı",
+          "Teknik panelde CWV + crawl/index + status kod + P0 listesi tanımlandı",
+          "Her panel max 10 KPI prensibine göre sadeleştirildi",
+          "Drill-down bağlantıları aynı veri tabanına bağlandı",
+          "Aksiyon alanı sorumlu/tarih bilgisiyle eklendi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Refresh Cycle: 365 gün"
+        ]
+      }
+    }
   }
 
 }

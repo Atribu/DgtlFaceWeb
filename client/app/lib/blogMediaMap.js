@@ -39078,6 +39078,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Hibrit rapor çıktıları kartı, amaç aksiyon ve takip, kurumsal bağlamı",
       caption: "Hibrit rapor çıktıları kartı, amaç aksiyon ve takip, kurumsal bağlamı"
     }
+  },
+
+  "multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar":{
+    banner: {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-1.webp",
+      alt: "Multi-Site ve Multi-Brand SEO Raporlama: Zincir Oteller ve Grup Markalar İçin Çerçeve",
+      caption: "Multi-Site ve Multi-Brand SEO Raporlama: Zincir Oteller ve Grup Markalar İçin Çerçeve"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-2.webp",
+      alt: "Grup marka otel filtre akışı, amaç hızlı drill-down, kurumsal raporlama bağlamı",
+      caption: "Grup marka otel filtre akışı, amaç hızlı drill-down, kurumsal raporlama bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-3.webp",
+    alt: "Veri bütünlüğü ve zorluklar ayırıcı, amaç standardizasyon, ajans bağlamı",
+      caption: "Veri bütünlüğü ve zorluklar ayırıcı, amaç standardizasyon, ajans bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-4.webp",
+      alt: "Hiyerarşi ve segmentasyon ayırıcı, amaç seviye okuma, zincir otel bağlamı",
+      caption: "Hiyerarşi ve segmentasyon ayırıcı, amaç seviye okuma, zincir otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-5.webp",
+      alt: "Grup marka otel hiyerarşi diyagramı, amaç rapor mimarisi, otel grubu bağlamı",
+      caption: "Grup marka otel hiyerarşi diyagramı, amaç rapor mimarisi, otel grubu bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-6.webp",
+      alt: "Multi-site raporlama checklist kartı, amaç kurulum standardı, kurum bağlamı",
+      caption: "Multi-site raporlama checklist kartı, amaç kurulum standardı, kurum bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-7.webp",
+      alt: "Grup KPI skor kartı, amaç hızlı özet, yönetici bağlamı",
+      caption: "Grup KPI skor kartı, amaç hızlı özet, yönetici bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-16/SEO5-16-8.webp",
+      alt: "Hiyerarşik dashboard çıktıları, amaç karar ve takip, ajans bağlamı",
+      caption: "Hiyerarşik dashboard çıktıları, amaç karar ve takip, ajans bağlamı"
+    }
+  },
+
+  "rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik":{
+     banner: {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-1.webp",
+      alt: "Role-Bazlı SEO Dashboard’ları: CEO, Pazarlama, İçerik ve Teknik Ekipler İçin Ayrı Paneller",
+      caption: "Role-Bazlı SEO Dashboard’ları: CEO, Pazarlama, İçerik ve Teknik Ekipler İçin Ayrı Paneller"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-2.webp",
+      alt: "Aynı veri farklı özet mantığı, amaç tutarlı raporlama, ajans bağlamı",
+      caption: "Aynı veri farklı özet mantığı, amaç tutarlı raporlama, ajans bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-3.webp",
+    alt: "Rol bazlı KPI geçişi, amaç doğru lens, yönetici raporu bağlamı",
+      caption: "Rol bazlı KPI geçişi, amaç doğru lens, yönetici raporu bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-4.webp",
+      alt: "Tek gerçek farklı paneller ayırıcı, amaç ortak tanımlar, kurum bağlamı",
+      caption: "Tek gerçek farklı paneller ayırıcı, amaç ortak tanımlar, kurum bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-5.webp",
+      alt: "Rol panelleri akış diyagramı, amaç panel seti tasarımı, SEO raporlama bağlamı",
+      caption: "Rol panelleri akış diyagramı, amaç panel seti tasarımı, SEO raporlama bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-6.webp",
+      alt: "Rol bazlı dashboard checklist kartı, amaç uygulama standardı, ajans bağlamı",
+      caption: "Rol bazlı dashboard checklist kartı, amaç uygulama standardı, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-7.webp",
+      alt: "Rol bazlı KPI kartları paneli, amaç hızlı özet, kurumsal bağlamı",
+      caption: "Rol bazlı KPI kartları paneli, amaç hızlı özet, kurumsal bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-17/SEO5-17-8.webp",
+      alt: "Panel seti deliverables kartı, amaç karar ve takip, kurum bağlamı",
+      caption: "Panel seti deliverables kartı, amaç karar ve takip, kurum bağlamı"
+    }
   }
 
 
