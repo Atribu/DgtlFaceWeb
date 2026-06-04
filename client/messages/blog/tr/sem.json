@@ -21401,7 +21401,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Reklam Raporlama & Performans Analizi — https://dgtlface.com/tr/sem/reklam-raporlama",
         "Blog / URL: 13 — https://dgtlface.com/tr/sem/blog/otel-ltv-ve-tekrar-rezervasyon-raporlari-ile-reklam-performansini-birlestirmek",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -21997,7 +21997,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Reklam Raporlama & Performans Analizi — https://dgtlface.com/tr/sem/reklam-raporlama",
         "Blog / URL: 14 — https://dgtlface.com/tr/sem/blog/otel-icin-multi-property-reklam-raporu-nasil-tasarlanir",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -81830,7 +81830,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
         "Blog No + Blog URL: Blog #19 — https://dgtlface.com/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim",
-        "Blog Tipi: Core",
+        "Blog Tipi: Support_Page",
         "Intent: Informational + Diagnostic",
         "Difficulty/Expertise: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -81859,7 +81859,7 @@
     },
     "h1": {
       "title": "Otel Google Ads Hesap Auditi Adım Adım Nasıl Yapılır?",
-      "intro": "Audit, “hesabın fotoğrafını çekmek” değil; para kaçırdığın yeri bulup düzeltmeyi bir sistem haline getirmektir. Otellerde PPC’de sorunlar genelde tek noktadan çıkmaz: brand yoktur, dönüşüm seti yanlıştır, search terms junk doludur, mobil landing yavaştır, raporlar yanlış okunur… Bu yüzden adım adım audit, hem teşhis hem önceliklendirme ister. Bu rehberi otel gerçekliğiyle yazıyoruz: brand/generic ayrımı, sezon dalgası, çok dilli pazarlar, booking engine/call center kapanışı ve gelir-doluluk bağlantısı gibi otel spesifik riskler audit’in “olmazsa olmaz”larıdır.",
+      "intro": "Audit, “hesabın fotoğrafını çekmek” değil; <a href=\"/tr/sem/google-ads-yonetimi\">otel Google Ads hesap auditi</a> ile para kaçırdığın yeri bulup düzeltmeyi bir sistem haline getirmektir. Otellerde PPC’de sorunlar genelde tek noktadan çıkmaz: brand yoktur, dönüşüm seti yanlıştır, search terms junk doludur, mobil landing yavaştır, raporlar yanlış okunur… Bu yüzden adım adım audit, hem teşhis hem önceliklendirme ister. Bu rehberi otel gerçekliğiyle yazıyoruz: brand/generic ayrımı, sezon dalgası, çok dilli pazarlar, booking engine/call center kapanışı ve gelir-doluluk bağlantısı gibi otel spesifik riskler audit’in “olmazsa olmaz”larıdır.",
       "quickSummary": [
         "1) Audit’i not sistemi ve baseline ile başlat",
         "2) Hesap ayarları ve goals ekranını temizle",
@@ -81882,7 +81882,7 @@
       "secondary": {
         "label": "Audit Checklist ve Skor Kartı Şablonunu İndir",
         "text": "Hesabınızı 10 dakikada skorlar, en hızlı kazanç veren düzeltmeleri sıraya koyarsınız.",
-        "href": "/tr/sem/reklam-raporlama"
+        "href": "/downloads/audit-checklist-ve-skor-karti-sablonu-sem-otel-google-ads-audit-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -81891,22 +81891,50 @@
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads kampanya hataları",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
+      },
+      {
+        "label": "Google Ads dönüşüm kurgusu ve takibi",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
+      },
+      {
         "label": "Dönüşüm takibi ve Tag Manager",
         "href": "/tr/sem/donusum-takibi-tag-manager"
       },
       {
+        "label": "Google Ads KPI rehberi",
+        "href": "/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi"
+      },
+      {
         "label": "Reklam raporlama",
         "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads kampanya hataları",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri"
       },
       {
-        "title": "Dönüşüm Takibi ve Tag Manager",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "title": "Google Ads dönüşüm kurgusu ve takibi",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
+      },
+      {
+        "title": "Google Ads KPI rehberi",
+        "href": "/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi"
+      },
+      {
+        "title": "Google Ads Yönetimi Hakkında Sık Sorulan Sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -81916,7 +81944,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Audit, “hesabın fotoğrafını çekmek” değil; para kaçırdığın yeri bulup düzeltmeyi bir sistem haline getirmektir. Otellerde PPC’de sorunlar genelde tek noktadan çıkmaz: brand yoktur, dönüşüm seti yanlıştır, search terms junk doludur, mobil landing yavaştır, raporlar yanlış okunur… Bu yüzden adım adım audit, hem teşhis hem önceliklendirme ister."
+            "text": "Audit, “hesabın fotoğrafını çekmek” değil; para kaçırdığın yeri bulup düzeltmeyi bir sistem haline getirmektir. Otellerde PPC’de sorunlar genelde tek noktadan çıkmaz: brand yoktur, dönüşüm seti yanlıştır, search terms junk doludur, mobil landing yavaştır, raporlar yanlış okunur… Bu yüzden adım adım audit, hem teşhis hem önceliklendirme ister. Bu <a href=\"/tr/sem\">PPC health check, yani reklam hesabı sağlık kontrolü</a> yaklaşımını daha geniş SEM performans mimarisi içinde okumak gerekir."
           },
           {
             "type": "p",
@@ -82046,7 +82074,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel hesabında mimari, “performans” kadar “karar alma”yı da belirler. Audit’te hedef: her kampanyanın rolü net mi?"
+            "text": "Otel hesabında mimari, “performans” kadar “karar alma”yı da belirler. Audit’te hedef: her kampanyanın rolü net mi? Bu aşama, yaygın kurgu sorunlarını görünür kılan <a href=\"/tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri\">Google Ads hesap kontrol listesi</a> mantığıyla birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -82112,7 +82140,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Audit’in en kritik adımı budur: dönüşüm yanlışsa her şey yanlış optimize olur."
+            "text": "Audit’in en kritik adımı budur: dönüşüm yanlışsa her şey yanlış optimize olur. Bu yüzden <a href=\"/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi\">kampanya audit süreci</a> form, telefon, WhatsApp ve booking engine ölçümüyle birlikte okunmalıdır."
           },
           {
             "type": "h3",
@@ -82128,7 +82156,7 @@
           },
           {
             "type": "p",
-            "text": "Search terms raporu, dönüşüm getirmeyen “junk” sorguları gösterir; ama dönüşüm ölçümünüz bozuksa yanlış “junk” sanabilirsiniz. Önce tracking doğrula, sonra search terms temizle."
+            "text": "Search terms raporu, dönüşüm getirmeyen “junk” sorguları gösterir; ama dönüşüm ölçümünüz bozuksa yanlış “junk” sanabilirsiniz. Önce tracking doğrula, sonra search terms temizle. GA4 event, GTM tag, trigger ve conversion action eşleşmesini görmek için <a href=\"/tr/sem/donusum-takibi-tag-manager\">teknik dönüşüm takibi kontrolü</a> ayrıca yapılmalıdır."
           },
           {
             "type": "h3",
@@ -82368,7 +82396,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Audit bittiğinde “ne değişecek?” sorusunun cevabı raporda görünmeli. Raporlama disiplinin yoksa audit boşa gider."
+            "text": "Audit bittiğinde “ne değişecek?” sorusunun cevabı raporda görünmeli. Raporlama disiplinin yoksa audit boşa gider. Bu yüzden <a href=\"/tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi\">audit skor kartı</a> yalnız teknik kontrol değil, ROAS, CPA, CTR, CPC ve dönüşüm oranı yorumuyla birlikte okunmalıdır."
           },
           {
             "type": "h3",
@@ -82387,7 +82415,7 @@
           },
           {
             "type": "p",
-            "text": "Google Ads UI’da segment kullanarak tabloları cihaz gibi kırılımlara bölebilirsiniz."
+            "text": "Google Ads UI’da segment kullanarak tabloları cihaz gibi kırılımlara bölebilirsiniz. Bu görünümü düzenli <a href=\"/tr/sem/reklam-raporlama\">reklam hesabı performans denetimi</a> akışına bağlamadığınızda audit çıktısı sürdürülebilir olmaz."
           },
           {
             "type": "h3",
@@ -82503,7 +82531,7 @@
             "variant": "secondary",
             "label": "Audit Checklist ve Skor Kartı Şablonunu İndir",
             "text": "Hesabınızı 10 dakikada skorlar, en hızlı kazanç veren düzeltmeleri sıraya koyarsınız.",
-            "href": "/tr/sem/reklam-raporlama"
+            "href": "/downloads/audit-checklist-ve-skor-karti-sablonu-sem-otel-google-ads-audit-v1.0.pdf"
           }
         ]
       },
@@ -82557,13 +82585,13 @@
           },
           {
             "type": "p",
-            "text": "En doğru yaklaşım, hesabı 8 adımda skorlayıp hızlı kazanımları sıraya koymak ve 14 günlük sprint planıyla uygulamaktır. Böylece yalnız kampanya değil, direct gelir odağı da daha sağlıklı yönetilir."
+            "text": "En doğru yaklaşım, hesabı 8 adımda skorlayıp hızlı kazanımları sıraya koymak ve 14 günlük sprint planıyla uygulamaktır. Böylece yalnız kampanya değil, direct gelir odağı da daha sağlıklı yönetilir. Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına da geçebilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
-            "label": "Otel Google Ads Hesap Audit Hizmeti Talep Et",
-            "text": "Skor kart + önceliklendirme matrisi + 14 günlük sprint planıyla hesabınızı “sağlıklı” hale getirelim.",
+            "label": "Google Ads Hesabınızı Profesyonel Olarak Denetlemek",
+            "text": "Skor kart + önceliklendirme matrisi + 14 günlük sprint planıyla hesabınızı daha sağlıklı ve daha ölçülebilir hale getirelim.",
             "href": "/tr/sem/google-ads-yonetimi"
           }
         ]
@@ -82618,7 +82646,7 @@
           "Canonical kontrolü: /tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim",
           "Primary CTA 2 kez konumlandı (H1 giriş sonunda + son 1/3)",
           "Secondary CTA 1 kez orta bölümde tablo sonrası yerleştirildi",
-          "Internal link targets normalize edildi: /tr/sem/google-ads-yonetimi, /tr/sem/donusum-takibi-tag-manager, /tr/sem/reklam-raporlama",
+          "Internal link targets normalize edildi: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/sem/blog/google-ads-otel-kampanya-hatalari-ve-cozumleri, /tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi, /tr/sem/blog/google-ads-raporlari-nasil-yorumlanir-otel-kpi, /tr/sem/donusum-takibi-tag-manager, /tr/sem/reklam-raporlama, /tr/sem/google-ads-yonetimi-sss",
           "Tek tablo standardı korundu: Adım Adım Audit Kontrol Tablosu",
           "Brand/generic, sezon, çok dilli pazar ve booking/call kapanışı audit çerçevesine dahil edildi",
           "Schema @graph tek blok mantığı korunacak (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
