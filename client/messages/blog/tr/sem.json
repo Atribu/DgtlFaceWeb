@@ -3079,7 +3079,7 @@
     },
     "h1": {
       "title": "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?",
-      "intro": "YouTube, otellerde “ilham”ı tetikleyen en güçlü kanallardan biridir: misafir, arama yapmadan önce destinasyonu ve konsepti videoyla zihninde canlandırır. Sektörde sık görülen içgörü şu: çoğu tesiste YouTube, marka görünürlüğü açısından ilk 3 kanal içinde anılır; bu nedenle formatı hedefe göre seçmeden bütçe büyütmek genelde verimsizleşir. Bu rehber; TrueView/skippable, non-skippable, bumper ve discovery/in-feed formatlarını otel funnel’ına bağlayıp pratik bir seçim sistemi verir.",
+      "intro": "YouTube, otellerde “ilham”ı tetikleyen en güçlü kanallardan biridir: misafir, arama yapmadan önce destinasyonu ve konsepti videoyla zihninde canlandırır. Sektörde sık görülen içgörü şu: çoğu tesiste YouTube, marka görünürlüğü açısından ilk 3 kanal içinde anılır; bu nedenle <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam türleri</a>ni hedefe göre seçmeden bütçe büyütmek genelde verimsizleşir. Bu rehber; TrueView/skippable, non-skippable, bumper ve in-feed formatlarını otel funnel’ına bağlayıp pratik bir seçim sistemi verir.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "YouTube Reklam Format Analizi Talep Et",
@@ -3101,20 +3101,40 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Video Prodüksiyon",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube reklam hedefleme yapısı",
+        "href": "/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi"
+      },
+      {
+        "label": "YouTube kampanya kurulumu",
+        "href": "/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim"
+      },
+      {
+        "label": "Kısa ve uzun YouTube videoları",
+        "href": "/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi"
+      },
+      {
+        "label": "Video prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Otel Reklam Yönetimi",
+        "label": "Otel reklam yönetimi",
         "href": "/tr/otel/reklam-yonetimi"
       },
       {
-        "label": "SEM",
-        "href": "/tr/sem"
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [],
@@ -3128,14 +3148,26 @@
             "text": "YouTube reklam türleri; izleyicinin reklamı atlayabildiği (skippable/TrueView), atlayamadığı (non-skippable), 6 saniyelik kısa hatırlatma (bumper) ve arama/keşif alanlarında görünen (discovery/in-feed) formatlar olarak özetlenir. Temel fark; mesaj süresi, izlenme zorunluluğu, tıklama davranışı ve KPI yaklaşımıdır. Otel branding’de “destinasyon + konsept” aynı karede anlaşılmalı; aksi halde formatın avantajı kaybolur."
           },
           {
+            "type": "p",
+            "text": "Bu formatları daha geniş <a href=\"/tr/sem\">oteller için YouTube reklam formatları</a> çerçevesinde düşünmek gerekir; çünkü YouTube çoğu tesiste yalnız video alanı değil, daha büyük bir <a href=\"/tr/otel-dijital-pazarlama\">video reklam funnel’ı</a>nın üst ve orta katmanını taşır."
+          },
+          {
+            "type": "p",
+            "text": "Google’ın güncel terminolojisinde eski “discovery” tarafı çoğu yerde “in-feed video ads” olarak anılır; yani karar verirken format adından çok izlenme davranışına ve funnel rolüne bakmak gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
               "Skippable (TrueView): 5. saniyeden sonra atlanabilir; hikâye + CTA taşır.",
               "Non-skippable: 15–20 sn zorunlu; tek mesaj/tek vaat ister.",
               "Bumper: 6 sn; hatırlatma ve frekans yönetimi için.",
-              "Discovery / In-Feed: seçilerek izlenir; keşif ve ilgi bazlı yayılım için."
+              "In-Feed: seçilerek izlenir; keşif ve ilgi bazlı yayılım için."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Format kararı kadar doğru <a href=\"/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi\">YouTube reklam hedefleme yapısı</a> da sonucu belirler; çünkü aynı kreatif yanlış kitlede yalnız görüntülenme üretir."
           },
           {
             "type": "h3",
@@ -3176,6 +3208,10 @@
           {
             "type": "p",
             "text": "Skippable format otellerde “hikâye” taşımak için idealdir: resort otelde deneyim (aile-aquapark), city hotel’de lokasyon-iş konforu, butik otelde atmosfer-hikâye. Kritik nokta: ilk 5 saniyede değer önerisini vermezsen izleyici reklamı atlar. Non-skippable ise “tek mesaj, tek vaat” ile güçlüdür: sezon açılışı, erken rezervasyon duyurusu veya tek konsept (ör. Belek’te golf) gibi net anlatımlarda çalışır; ama dağınık mesaj marka algısını yıpratabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu karar, <a href=\"/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi\">skippable, bumper ve in-feed video süreleri</a> ile birlikte okunmalıdır; çünkü format kadar video uzunluğu da performansı değiştirir."
           },
           {
             "type": "h3",
@@ -3284,6 +3320,10 @@
             "text": "Discovery/in-feed formatı, izleyicinin videoyu “seçerek” izlediği alandır; bu yüzden otellerde ilham ve araştırma aşamasında değerlidir. Ama tipik hata; landing ve ölçüm hazırlamadan trafik çekmektir. SXO burada belirleyici: video vaadi, sayfa içeriği ve CTA aynı çizgide değilse kullanıcı kaybolur."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada doğru <a href=\"/tr/creative/video-produksiyon\">otel video format seçimi</a> kritik hale gelir; çünkü thumbnail, ilk sahne ve kısa hikâye yapısı keşif trafiğinin kalitesini doğrudan etkiler."
+          },
+          {
             "type": "h3",
             "text": "Otel için discovery kısa kullanım kuralı:"
           },
@@ -3317,7 +3357,7 @@
             "type": "list",
             "style": "ol",
             "items": [
-              "Discovery’yi keşif ve havuz büyütme olarak kurgula.",
+              "In-feed tarafını keşif ve havuz büyütme olarak kurgula.",
               "Landing’i hız ve net teklif için optimize et.",
               "Kreatif süreç için /tr/creative/video-produksiyon ile brief’i standardize et."
             ]
@@ -3333,10 +3373,18 @@
             "text": "Kısa cevap: Upper funnel’da bumper/non-skippable ile net mesaj + erişim; mid funnel’da skippable ile hikâye + değerlendirme; low funnel’da skippable remarketing ile teklif + aksiyon; discovery ile sürekli keşif havuzu büyütme en dengeli yaklaşımdır. Formatı yanlış aşamada kullanırsan ya gereksiz pahalı izlenme alırsın ya da dönüşümü erken zorlayıp kitleyi kaçırırsın."
           },
           {
+            "type": "p",
+            "text": "Bu dağılımı daha geniş <a href=\"/tr/otel/reklam-yonetimi\">YouTube otel reklam stratejisi</a> içinde okumak gerekir; çünkü YouTube çoğu zaman Meta, remarketing ve sezonluk kampanyalarla birlikte çalışır."
+          },
+          {
             "type": "table",
             "caption": "Otel YouTube reklam formatı × funnel × KPI karşılaştırması (1 adet tablo)",
             "headers": [],
             "rows": []
+          },
+          {
+            "type": "p",
+            "text": "Format seçimi netleştiğinde bunu yayına taşıyan operasyon adımı <a href=\"/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim\">YouTube kampanya formatı seçimi</a>, bütçe ve ölçüm ayarlarıyla tamamlanır."
           },
           {
             "type": "h3",
@@ -3462,7 +3510,15 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bumper/non-skippable ile net mesaj ve frekans kurar, skippable ile hikâyeyi ve teklifi taşır, discovery ile keşif havuzunu büyütürsün. Başarı; formatı doğru aşamada, doğru kreatifle ve doğru KPI ile çalıştırmaktan gelir. Ölçüm ve landing altyapısı zayıfsa bütçe yanar; bu nedenle kreatif + ölçüm + sayfa üçlüsünü birlikte ele almak gerekir."
+            "text": "Bumper/non-skippable ile net mesaj ve frekans kurar, skippable ile hikâyeyi ve teklifi taşır, in-feed ile keşif havuzunu büyütürsün. Başarı; formatı doğru aşamada, doğru kreatifle ve doğru KPI ile çalıştırmaktan gelir. Ölçüm ve landing altyapısı zayıfsa bütçe yanar; bu nedenle kreatif + ölçüm + sayfa üçlüsünü birlikte ele almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam yönetimi</a> kapsamını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
           },
           {
             "type": "cta",
@@ -3551,6 +3607,7 @@
           "proof-08 — 1:1 (1200×1200) — oteller-icin-youtube-reklam-turleri-proof-08.webp — Otel YouTube reklam planı deliverables ve güven unsurlarını gösteren kart"
         ],
         "technicalChecklist": [
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi, /tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim, /tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi, /tr/creative/video-produksiyon, /tr/otel/reklam-yonetimi, /tr/sem/youtube-reklam-yonetimi-sss",
           "Tablo (1 adet): KPI seti / format karşılaştırma tablosu: “Otel YouTube reklam formatı × funnel × KPI” (BÖLÜM 4 içinde)",
           "CTA Modülü (V2.3): Primary CTA 2 kez (H1 giriş sonu + son 1/3), Secondary CTA 1 kez (orta bölüm)",
           "Secondary CTA Asset (v1.0): Format–Hedef eşleştirme tablosu şablonu + kontrol listesi + deliverables"
@@ -3607,7 +3664,7 @@
     },
     "h1": {
       "title": "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?",
-      "intro": "YouTube kampanyalarında “format” doğru olsa bile hedefleme mimarisi zayıfsa bütçe hızlıca boşa gider. Oteller için asıl oyun, seyahat niyetini (in-market), destinasyon/konsept ilgisini (custom intent) ve rezervasyona yakın sinyalleri (remarketing) aynı yapı içinde doğru sırayla kullanmaktır. Bu rehber, hedefleme türlerini tek tek anlatmak yerine otel/turizm bağlamında karar verebileceğiniz bir sistem sunar.\nKey data point: Doğru hedefleme kurulan kampanyalarda CPV artmış görünse bile, genelde site ziyareti/lead/rezervasyon başı maliyet daha verimli hale gelir. (Varsayım: sektörel genel içgörü olarak yumuşatılmıştır; kesin rakam verilmemiştir.)",
+      "intro": "YouTube kampanyalarında “format” doğru olsa bile hedefleme mimarisi zayıfsa bütçe hızlıca boşa gider. Oteller için asıl oyun, <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube hedefleme yapısı</a> içinde seyahat niyetini (in-market), destinasyon/konsept ilgisini (custom intent) ve rezervasyona yakın sinyalleri (remarketing) aynı yapı içinde doğru sırayla kullanmaktır. Bu rehber, hedefleme türlerini tek tek anlatmak yerine otel/turizm bağlamında karar verebileceğiniz bir sistem sunar.\nKey data point: Doğru hedefleme kurulan kampanyalarda CPV artmış görünse bile, genelde site ziyareti/lead/rezervasyon başı maliyet daha verimli hale gelir. (Varsayım: sektörel genel içgörü olarak yumuşatılmıştır; kesin rakam verilmemiştir.)",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "YouTube Hedefleme Analizi Talep Et",
@@ -3629,20 +3686,40 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Remarketing ve Display",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Otel reklam yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "YouTube remarketing",
+        "href": "/tr/sem/blog/youtube-remarketing-otel-web-ve-ota-trafigi"
+      },
+      {
+        "label": "Remarketing ve display",
         "href": "/tr/sem/remarketing-ve-display"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/tr/sem/reklam-raporlama"
+        "label": "YouTube kampanya kurulumu",
+        "href": "/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim"
       },
       {
-        "label": "Otel Reklam Yönetimi",
-        "href": "/tr/otel/reklam-yonetimi"
+        "label": "YouTube A/B test stratejisi",
+        "href": "/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -3667,6 +3744,10 @@
           {
             "type": "p",
             "text": "YouTube hedefleme türleri; demografi (yaş, hane, ebeveyn durumu vb.), ilgi alanı, in-market (satın alma/seyahat niyeti), custom segments/custom intent, placement/kanaI hedefleme ve remarketing listeleri olarak sınıflanır. Otellerde başarı, bu hedeflemeleri “tek kampanyada karıştırmak” değil; funnel katmanlarına göre ayırıp doğru kombinasyonlarla çalıştırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/sem\">oteller için YouTube kitle hedefleme</a> mantığında okumak gerekir; çünkü doğru segmentasyon yalnız medya ayarı değil, aynı zamanda daha büyük bir <a href=\"/tr/otel-dijital-pazarlama\">destinasyon bazlı video reklam hedefleme</a> sisteminin parçasıdır."
           },
           {
             "type": "callout",
@@ -3701,6 +3782,10 @@
           {
             "type": "p",
             "text": "Hedefleme, “kitle seçimi” değil, önce pazarı tanımlama işidir. Antalya’daki all inclusive bir resort ile Side’de çift odaklı bir konseptin aynı hedefleme havuzunda çalışması çoğu zaman kaliteyi düşürür. Bu yüzden ilk adımda 3 şeyi netleştir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada <a href=\"/tr/otel/reklam-yonetimi\">in-market travel audience, yani seyahat niyeti yüksek kitleler</a> ile otel tipi, hedef pazar ve destinasyon bağlamını birlikte düşünmek gerekir."
           },
           {
             "type": "list",
@@ -3848,6 +3933,18 @@
             "text": "Burada ana risk: listeler doğru oluşmuyorsa reklam “boş havuza” döner. Bu yüzden teknik SEO notundaki gibi GA4 etiketleme ve liste uyumu kilittir."
           },
           {
+            "type": "p",
+            "text": "Web sitesi ziyaretçileri, OTA temasları ve video izleyen kullanıcıları yeniden toplamak için <a href=\"/tr/sem/blog/youtube-remarketing-otel-web-ve-ota-trafigi\">remarketing kitle segmentasyonu</a> ayrı bir kurgu ister."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, daha geniş <a href=\"/tr/sem/remarketing-ve-display\">yeniden hedefleme ve display kitleleri</a> mantığıyla birleştiğinde YouTube hedefleme yalnız izlenme değil, düşük funnel kapanış desteği de üretir."
+          },
+          {
+            "type": "p",
+            "text": "Segment yapısı netleştiğinde bunu yayına taşıyan adım <a href=\"/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim\">YouTube hedefleme ayarlarını kampanyaya taşımak</a> ve bütçe/ölçüm eşleşmesini kurmaktır."
+          },
+          {
             "type": "media",
             "slot": "funnel-layers"
           },
@@ -3921,6 +4018,10 @@
           {
             "type": "p",
             "text": "Rakip yazıların eksik bıraktığı yer tam burası: hedeflemeyi “teorik tanım” olarak anlatıp otel senaryosunda karıştırma mantığını vermemeleri. Otellerde sık görülen hatalar:"
+          },
+          {
+            "type": "p",
+            "text": "Bu hataları azaltmanın en pratik yolu, farklı segmentleri ve mesajları <a href=\"/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi\">otel video target segmentation</a> yaklaşımıyla kontrollü test etmektir."
           },
           {
             "type": "list",
@@ -4068,6 +4169,14 @@
             "text": "YouTube hedeflemesini pazar→segment→remarketing sırasıyla kurduğunda, gösterim kalitesi artar ve kampanya yönetimi sadeleşir. Destinasyon/konsept ayrımı, segmentleri karıştırma disiplini ve GA4 uyumlu liste yapısı bu işin omurgasıdır. Bu temel kurulduğunda, format seçiminden kreatife ve raporlamaya kadar tüm SEM akışı daha öngörülebilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube hedefleme stratejisi</a> kapsamını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "YouTube Hedefleme Analizi Talep Et",
@@ -4118,6 +4227,7 @@
           "Deliverables / Proof Card — 1:1 (1200×1200) — oteller-icin-youtube-hedefleme-yapisi-proof-08.webp — Hedefleme deliverables seti: segment planı, listeler, test planı"
         ],
         "technicalChecklist": [
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/otel/reklam-yonetimi, /tr/sem/blog/youtube-remarketing-otel-web-ve-ota-trafigi, /tr/sem/remarketing-ve-display, /tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim, /tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi, /tr/sem/youtube-reklam-yonetimi-sss",
           "Primary CTA: YouTube Hedefleme Analizi Talep Et",
           "Secondary CTA: Hedef Kitle Segment & Yapılandırma Şablonunu İndir",
           "Secondary CTA türü: Download Asset (şablon)",
@@ -4179,7 +4289,7 @@
     },
     "h1": {
       "title": "Otel YouTube Reklam Filmi İçin Senaryo ve Storyboard Nasıl Hazırlanır?",
-      "intro": "YouTube reklam filmi, otellerde “görsel vitrin” değil; doğru kurgulanırsa talep yaratma + değerlendirme + dönüşüm katmanlarını aynı yaratıcı omurgada birleştiren performans aracıdır. Sorun şu: çoğu video “güzel görüntüler”den oluşur ama mesaj akışı ve sahne önceliği planlanmadığı için ilk 5–10 saniyede izleyici kaybı yaşanır. İyi kurgulanmış videolarda ilk 5–10 saniye tutunma oranı genelde daha yüksektir; bu da reklam performansına direkt yansır. (Varsayım: sektörel genel içgörü; kesin sayı iddiası yok.)\nBu rehber; otel tanıtım filmi senaryosu, storyboard örneği (otel video) ve “YouTube hotel video script” mantığını otel tiplerine göre pratikleştirir: resort, city, butik.",
+      "intro": "Doğru kurgulanmış bir <a href=\"/tr/sem/youtube-reklam-yonetimi\">otel reklam filmi senaryosu</a>, otellerde yalnız “görsel vitrin” değil; talep yaratma + değerlendirme + dönüşüm katmanlarını aynı yaratıcı omurgada birleştiren performans aracıdır. Sorun şu: çoğu video “güzel görüntüler”den oluşur ama mesaj akışı ve sahne önceliği planlanmadığı için ilk 5–10 saniyede izleyici kaybı yaşanır. İyi kurgulanmış videolarda ilk 5–10 saniye tutunma oranı genelde daha yüksektir; bu da reklam performansına direkt yansır. (Varsayım: sektörel genel içgörü; kesin sayı iddiası yok.)\nBu rehber; otel tanıtım filmi senaryosu, storyboard örneği (otel video) ve “YouTube hotel video script” mantığını otel tiplerine göre pratikleştirir: resort, city, butik.",
       "quickSummary": [
         "1. Pazar/konsept hedefini seç (destinasyon + deneyim).",
         "2) Hook + 3 ana sahne akışı yaz.",
@@ -4205,16 +4315,40 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Video Prodüksiyon",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube thumbnail, müzik ve CTA",
+        "href": "/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta"
+      },
+      {
+        "label": "Destinasyon odaklı YouTube stratejisi",
+        "href": "/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi"
+      },
+      {
+        "label": "Video çekim brief'i",
+        "href": "/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir"
+      },
+      {
+        "label": "Video prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Reels / Shorts Video",
+        "label": "Reels ve Shorts video",
         "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -4253,6 +4387,10 @@
           {
             "type": "p",
             "text": "Senaryo yazmadan önce “tek cümle hedef” seçmek zorundasın. Çünkü hedef belirsizse storyboard, sahne listesi şişer; video uzar, mesaj bulanıklaşır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/sem\">YouTube video anlatı kurgusu</a> içinde düşünmek gerekir; çünkü video hedefi çoğu otelde yalnız izlenme değil, daha büyük bir <a href=\"/tr/otel-dijital-pazarlama\">video reklam funnel’ı</a> içindeki rolü belirler."
           },
           {
             "type": "h3",
@@ -4322,6 +4460,10 @@
             "text": "Senaryo yazımı, “sahne listelemek” değildir; hikâye akışı + mesaj ekonomisi kurmaktır. Otel videosunda en iyi çalışan yapı, izleyicinin zihnindeki 3 soruya cevap verir:\n\t1.\tBurada ne var? (destinasyon/konsept)\n\t2.\tBana ne fayda? (deneyim/kanıt)\n\t3.\tŞimdi ne yapmalıyım? (CTA)"
           },
           {
+            "type": "p",
+            "text": "Bu akış, yalnız oda göstermek yerine <a href=\"/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi\">deneyim odaklı video hikayesi</a> kurulduğunda çok daha güçlü çalışır."
+          },
+          {
             "type": "h3",
             "text": "Hikâye Yapısı: Giriş – Gelişme – Kapanış"
           },
@@ -4376,6 +4518,10 @@
           {
             "type": "p",
             "text": "YouTube’da ilk 5 saniye, “izle/atla” karar anıdır. Otellerde hook; rastgele drone görüntüsü değil, konsept + faydayı aynı anda söyleyen görsel hamledir."
+          },
+          {
+            "type": "p",
+            "text": "İlk saniyeyi doğru planlamak için <a href=\"/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta\">storyboard ve hook tasarımı</a> ile thumbnail, müzik ve CTA kararlarını aynı sistemde ele almak gerekir."
           },
           {
             "type": "h3",
@@ -4436,6 +4582,10 @@
             "text": "Storyboard; senaryodaki her cümleyi kare kare (frame/shot) planlayarak çekimi yöneten görsel plandır. Otellerde storyboard’un gerçek değeri şudur:\n\t•\tÇekim gününü hızlandırır (hangi sahne, hangi açı, hangi sırayla)\n\t•\tEdit’i kolaylaştırır (cut ritmi, geçişler, müzik uyumu)\n\t•\tKısa varyant üretimini garanti eder (bumper/shorts/reels kırpımları)"
           },
           {
+            "type": "p",
+            "text": "Bu yapı onaylandığında, sahneler artık yalnız yaratıcı taslak değil; doğrudan <a href=\"/tr/creative/video-produksiyon\">otel reklam filmi sahne planı</a> haline gelir."
+          },
+          {
             "type": "h3",
             "text": "Storyboard oluşturma adımları (net liste)"
           },
@@ -4482,6 +4632,10 @@
           {
             "type": "p",
             "text": "Storyboard “ne çekeceğini” söyler; çekim planı “ne zaman, nerede, nasıl çekeceğini” kilitler. Otellerde çekim planı yapmazsan, en iyi senaryo bile çekim gününde dağılır."
+          },
+          {
+            "type": "p",
+            "text": "Storyboard onaylandığında bunu <a href=\"/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir\">YouTube reklamı için çekim brief’i</a> ile sahne listesi, lokasyon ve ekipman düzeyine indirmek gerekir."
           },
           {
             "type": "h3",
@@ -4608,6 +4762,10 @@
             "text": "YouTube ana film çoğunlukla 16:9 ilerler; fakat oteller için gerçek ölçek çoğu zaman kısa formatlarla gelir (reels/shorts/bumper). Bu yüzden storyboard’da “kırpılabilir sahne” mantığını baştan kurmalısın."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşım, ana filmden <a href=\"/tr/smm/reels-video\">kısa video uyarlama kurgusu</a> üretmeyi ve sosyal medya dağıtımını aynı çekimden planlamayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Güvenli alan ve çekim kuralı"
           },
@@ -4719,7 +4877,15 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel YouTube reklam filmi; hedefi net, hook’u güçlü ve sahneleri planlı olduğunda hem ana film performans verir hem de bumper/shorts varyantlarıyla ölçeklenir. Storyboard; çekimi hızlandırır, edit’i sadeleştirir ve ajans/otel iletişiminde “ne çekeceğiz?” tartışmasını bitirir. Eğer süreci uçtan uca standartlaştırmak istiyorsan, prodüksiyon operasyonunu /tr/creative/video-produksiyon tarafına; kısa format türetmeyi /tr/smm/reels-video tarafına bağlayarak tek üretim hattı kur."
+            "text": "Otel YouTube reklam filmi; hedefi net, hook’u güçlü ve sahneleri planlı olduğunda hem ana film performans verir hem de bumper/shorts varyantlarıyla ölçeklenir. Storyboard; çekimi hızlandırır, edit’i sadeleştirir ve ajans/otel iletişiminde “ne çekeceğiz?” tartışmasını bitirir. Eğer süreci uçtan uca standartlaştırmak istiyorsan, prodüksiyon operasyonunu <a href=\"/tr/creative/video-produksiyon\">video prodüksiyon</a> ile; kısa format türetmeyi ise <a href=\"/tr/smm/reels-video\">kısa video uyarlama kurgusu</a> ile aynı üretim hattında toplamak en pratik modeldir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam filmi planlamak</a> kapsamını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
           },
           {
             "type": "media",
@@ -4837,7 +5003,7 @@
           "CTA yoğunluğu (Intent’e göre): Informational + Creative (MoFu) — Primary CTA: 2 kez (H1 giriş sonunda + son 1/3), Secondary CTA: 1 kez (orta bölüm)",
           "Primary CTA hedefi: /tr/sem/youtube-reklam-yonetimi",
           "Secondary CTA hedefi: Varsayım: Şablon, /tr/sem/youtube-reklam-yonetimi sayfasında indirilebilir kaynak olarak sunulur.",
-          "İç link hedefleri (sheet): /tr/creative/video-produksiyon, /tr/smm/reels-video, /tr/sem/youtube-reklam-yonetimi"
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta, /tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi, /tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir, /tr/creative/video-produksiyon, /tr/smm/reels-video, /tr/sem/youtube-reklam-yonetimi-sss"
         ]
       }
     }
@@ -4887,7 +5053,7 @@
     },
     "h1": {
       "title": "Oteller İçin YouTube Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
-      "intro": "YouTube kampanyasında hedefleme ve kreatif doğru olsa bile, bütçe ve teklif stratejisi yanlışsa performans “ya erken boğulur ya da boşa yanar”. Otellerde bu konu daha kritiktir; çünkü talep sezon ve pazar bazlı dalgalanır, marka filmi ile performans hedefi aynı dönemde çakışabilir. Doğru kurgulanmış bütçe ve bid stratejisinde, gösterim kalitesi yükselirken izlenme ve rezervasyon başı maliyetin zamanla optimize edilebilir hale gelmesi beklenir. (Varsayım: genel kabul gören içgörü; kesin rakam iddiası yok.)\nBu rehber, CPV–tCPA–tROAS kararını “tek model” diye dayatmadan; hedef + veri + sezon üçlüsüne göre otel özelinde net bir uygulama planı verir.",
+      "intro": "YouTube kampanyasında doğru bir <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube bütçe ve bid stratejisi</a> kurulmadığında, hedefleme ve kreatif güçlü olsa bile performans ya erken boğulur ya da boşa yanar. Otellerde bu konu daha kritiktir; çünkü talep sezon ve pazar bazlı dalgalanır, marka filmi ile performans hedefi aynı dönemde çakışabilir. Doğru kurgulanmış bütçe ve bid stratejisinde, gösterim kalitesi yükselirken izlenme ve rezervasyon başı maliyetin zamanla optimize edilebilir hale gelmesi beklenir. (Varsayım: genel kabul gören içgörü; kesin rakam iddiası yok.)\nBu rehber, CPV–tCPA–tROAS kararını “tek model” diye dayatmadan; hedef + veri + sezon üçlüsüne göre otel özelinde net bir uygulama planı verir.",
       "ctaPrimary": {
         "label": "YouTube Bütçe & Bid Strateji Analizi Talep Et",
         "text": "(Bütçeyi sezon ve hedefe göre doğru dağıtmak isteyen otel ekipleri için)",
@@ -4912,12 +5078,36 @@
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Otel reklam yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "YouTube raporlama ve KPI",
+        "href": "/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi"
+      },
+      {
+        "label": "YouTube reklam hataları ve çözümleri",
+        "href": "/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri"
+      },
+      {
+        "label": "12 aylık YouTube yol haritası",
+        "href": "/tr/sem/blog/oteller-icin-youtube-stratejisi-icin-12-aylik-yol-haritasi"
+      },
+      {
         "label": "Reklam raporlama",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Online satış",
         "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "sections": [
@@ -4949,6 +5139,10 @@
           {
             "type": "p",
             "text": "YouTube bütçesi belirlerken önce 3 soruya cevap verilir:\n\t1.\tHedef: marka bilinirliği mi, değerlendirme mi, rezervasyon mu?\n\t2.\tVeri: dönüşüm sinyali yeterli mi (tCPA/tROAS için)?\n\t3.\tSezon & pazar: hangi ülke/destinasyonda talep yükseliyor?\n\nBu üçlü netleşmeden “günlük bütçe” konuşmak yanıltır. Otellerde bütçe planı, çoğu zaman aylık hedefe göre kurulur; ardından günlük bütçe, sezon dalgalanmasına göre haftalık ayarlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/sem\">oteller için YouTube teklif stratejisi</a> içinde okumak gerekir; çünkü bütçe kararı çoğu tesiste daha büyük bir <a href=\"/tr/otel/reklam-yonetimi\">sezonluk video reklam bütçesi</a> planının parçasıdır."
           },
           {
             "type": "callout",
@@ -4983,6 +5177,10 @@
           {
             "type": "p",
             "text": "Bu üç modelin farkı, “neye ödeme yapıp neyi optimize ettiğiniz” ile ilgilidir:\n\t•\tCPV (Cost Per View): İzlenme üzerinden maliyet; bilinirlik/ilgi için daha uygundur.\n\t•\ttCPA (Target CPA): Hedef edinme başı maliyete göre optimize eder; lead/rezervasyon sinyali gerekiyordur.\n\t•\ttROAS (Target ROAS): Gelir/ROAS hedefi; değer takibi ve yeterli veri gerektirir.\n\nKritik teknik not: tCPA/tROAS gibi akıllı teklif stratejileri için sistemin öğrenme süresine ve yeterli dönüşüm sinyaline ihtiyacı vardır. Veri azsa, algoritma “yanlış sinyal” ile yanlış yere optimize olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modelleri düzenli <a href=\"/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi\">CPV, tCPA ve tROAS otel kampanyaları</a> çerçevesinde okumadığınızda, bid kararı ile performans yorumu birbirinden kopar."
           },
           {
             "type": "callout",
@@ -5045,6 +5243,10 @@
             "text": "YouTube’da otel bütçesini katmanlara ayırmak, aşırı gösterimi ve yanlış optimizasyonu azaltır:\n\t•\tUpper: erişim + bilinirlik (CPV)\n\t•\tMid: değerlendirme (CPV veya veri durumuna göre akıllı teklifler)\n\t•\tLow: remarketing + dönüşüm (tCPA/tROAS)"
           },
           {
+            "type": "p",
+            "text": "Bu dağılımın gerçekten çalışıp çalışmadığını görmek için düzenli <a href=\"/tr/sem/reklam-raporlama\">YouTube reklam performans raporlaması</a> şarttır; aksi halde bütçe kaydırma kararı yalnız panel içgörüsüne sıkışır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -5077,6 +5279,10 @@
           {
             "type": "p",
             "text": "Otel pazarlamasında aynı bütçe, farklı ülkelerde farklı sonuç üretir. Bu yüzden plan, ülke bazlı kırılım ve sezona göre kaydırma mantığıyla kurulmalıdır.\n\nPratik planlama yaklaşımı\n\t•\tYüksek sezon yaklaşırken: brand (upper) artar → talep ısınır\n\t•\tSezon ortasında: performance (low) artar → dönüşüm maksimize edilir\n\t•\tSezon sonunda: remarketing + teklif odaklı sıkılaştırma\n\nÖrnek senaryo:\n\t•\tBelek (golf/premium): daha niş; yüksek niyetli segment → daha kontrollü bütçe, daha yüksek kalite\n\t•\tAntalya (aile resort): daha geniş; ölçeklenebilir → frekans kontrolü kritik\n\t•\tKemer (aktivite/doğa): discovery/ilham + performance karışımı"
+          },
+          {
+            "type": "p",
+            "text": "Bu kaydırma mantığını operasyon planına çevirmek için <a href=\"/tr/sem/blog/oteller-icin-youtube-stratejisi-icin-12-aylik-yol-haritasi\">video kampanya bütçe planı</a> ile sezon, pazar ve kreatif takvimini aynı düzende görmek gerekir."
           },
           {
             "type": "callout",
@@ -5113,6 +5319,10 @@
             "text": "Oteller için “minimum bütçe” tek rakam değildir; hedefleme ölçeği, ülke rekabeti ve kreatif varyant sayısı belirleyicidir. Bu yüzden burada net rakam iddiası yerine “başlangıç prensibi” veriyoruz:\n\t•\tBrand’da amaç: yeterli öğrenme/ölçek → tutarlı izlenme verisi\n\t•\tPerformance’da amaç: yeterli dönüşüm sinyali → algoritmanın öğrenmesi"
           },
           {
+            "type": "p",
+            "text": "Başlangıç fazında en sık yapılan hatalar; bütçeyi çok erken kesmek, veri oluşmadan agresif bid modeline geçmek ve zayıf kreatifi “az bütçe” sanmaktır. Bu senaryoları <a href=\"/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri\">YouTube bütçe ve teklif hataları</a> tarafında ayrı okumak faydalıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -5143,6 +5353,10 @@
             "text": "Rakip yazılar çoğunlukla e-ticaret örnekleriyle konuşur; otellerde ise sezon, destinasyon ve pazar karması belirleyicidir. Bu rehberin farkı, bid stratejisini “hangi model daha iyi” diye değil; hangi hedefte hangi model mantıklı diye konumlamasıdır. Böylece hem marka filmi hem performans hatları bir arada yönetilir, raporlama daha anlaşılır olur."
           },
           {
+            "type": "p",
+            "text": "Ayrıca bütçe kararlarını yalnız panel harcaması olarak değil, <a href=\"/tr/pms-ota/online-satis\">video reklam bütçesini online satışa bağlamak</a> şeklinde booking engine ve rezervasyon akışıyla birlikte okumak gerekir."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -5162,6 +5376,14 @@
           {
             "type": "p",
             "text": "CPV, tCPA ve tROAS; doğru hedef ve doğru veriyle güçlü araçlardır. Otellerde başarı, brand ve performance hatlarını ayırıp; sezon ve pazar talebine göre bütçeyi düzenli kaydırmakla gelir. Öğrenme süresi ve dönüşüm sinyali şartlarını dikkate alan bir plan, kısa vadede dalgalanmayı azaltır; uzun vadede izlenme ve rezervasyon maliyetini optimize edilebilir hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube bütçe yönetimi</a> kapsamını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
           },
           {
             "type": "cta",
@@ -5291,7 +5513,10 @@
           "kpi-07 — 1:1 (1200×1200) — oteller-icin-youtube-butce-ve-teklif-stratejileri-kpi-07.webp — CPV, CPA ve ROAS gibi KPI’ları birlikte özetleyen skor kart",
           "proof-08 — 1:1 (1200×1200) — oteller-icin-youtube-butce-ve-teklif-stratejileri-proof-08.webp — Bütçe planı, bid stratejisi, sezon kaydırma ve raporlama çıktıları kartı"
         ],
-        "tableNote": "Tablo (1 adet): “Bid stratejileri × hedef × veri gereksinimi × risk” karşılaştırma tablosu (aşağıda)"
+        "tableNote": "Tablo (1 adet): “Bid stratejileri × hedef × veri gereksinimi × risk” karşılaştırma tablosu (aşağıda)",
+        "technicalChecklist": [
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel/reklam-yonetimi, /tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi, /tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri, /tr/sem/blog/oteller-icin-youtube-stratejisi-icin-12-aylik-yol-haritasi, /tr/sem/reklam-raporlama, /tr/pms-ota/online-satis, /tr/sem/youtube-reklam-yonetimi-sss"
+        ]
       }
     }
   },
@@ -5344,7 +5569,7 @@
     },
     "h1": {
       "title": "YouTube Remarketing ile Otel Web ve OTA Trafiğini Nasıl Geri Kazanırsınız?",
-      "intro": "Otellerde en pahalı trafik, zaten gelmiş ama rezervasyon yapmadan ayrılmış trafiktir. Çünkü bu kitle “soğuk” değildir: oteli görmüş, oda/konsept merak etmiş, bazen fiyat adımına kadar yaklaşmıştır. YouTube remarketing burada devreye girer: doğru segmentleme ve doğru video mesajıyla bu misafiri tekrar web’e veya çağrı merkezine geri çağırarak reservation recovery sağlar.\n\nBazı senaryolarda, OTA üzerinden gelip rezervasyon yapmayan kullanıcılar dahil “geri kazanılan” kitlelerden toplam rezervasyonların %5–15 bandında katkı görülebildiği raporlanır. Bu bir garanti değildir; segment kalitesi, sezon, teklif gücü ve ölçüm doğruluğuna göre değişir. (Veri noktası: sheet içgörüsü; iddia yumuşatılmıştır.)",
+      "intro": "Otellerde en pahalı trafik, zaten gelmiş ama rezervasyon yapmadan ayrılmış trafiktir. Çünkü bu kitle “soğuk” değildir: oteli görmüş, oda/konsept merak etmiş, bazen fiyat adımına kadar yaklaşmıştır. Bu yüzden güçlü bir <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube remarketing otel</a> kurgusu, doğru segmentleme ve doğru video mesajıyla bu misafiri tekrar web’e veya çağrı merkezine geri çağırarak reservation recovery sağlar.\n\nBazı senaryolarda, OTA üzerinden gelip rezervasyon yapmayan kullanıcılar dahil “geri kazanılan” kitlelerden toplam rezervasyonların %5–15 bandında katkı görülebildiği raporlanır. Bu bir garanti değildir; segment kalitesi, sezon, teklif gücü ve ölçüm doğruluğuna göre değişir. (Veri noktası: sheet içgörüsü; iddia yumuşatılmıştır.)",
       "quickSummary": [
         "Web ve video etkileşim sinyallerini ayrı listelere ayır.",
         "Her listeye ayrı mesaj/teklif kurgula.",
@@ -5370,28 +5595,44 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Remarketing & Display",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Remarketing ve display",
         "href": "/tr/sem/remarketing-ve-display"
       },
       {
-        "label": "Çağrı Merkezi: Rezervasyon Desteği",
-        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
-      },
-      {
-        "label": "PMS/OTA: Rezervasyon Yönetimi",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
-      },
-      {
-        "label": "Otel OTA Yönetimi",
+        "label": "Otel OTA yönetimi",
         "href": "/tr/otel/ota-yonetimi"
       },
       {
-        "label": "SEM Reklam Raporlama",
-        "href": "/tr/sem/reklam-raporlama"
+        "label": "YouTube hedefleme yapısı",
+        "href": "/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi"
+      },
+      {
+        "label": "Kısa ve uzun YouTube videoları",
+        "href": "/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi"
+      },
+      {
+        "label": "YouTube, Meta ve Google Ads entegrasyonu",
+        "href": "/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme"
+      },
+      {
+        "label": "Rezervasyon desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Rezervasyon yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -5437,6 +5678,10 @@
           {
             "type": "p",
             "text": "YouTube remarketing; daha önce sitenizi ziyaret eden, belirli sayfaları görüntüleyen, videonuzu izleyen veya etkileşim veren kullanıcıları, YouTube üzerinde yeniden hedefleyerek tekrar aksiyona (web ziyareti, form, arama/telefon) yönlendirme yöntemidir. Otellerde remarketing’in asıl değeri; “kararsız” misafiri doğru mesajla yakalayıp rezervasyona geri döndürmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/sem\">otel remarketing video stratejisi</a> içinde düşünmek ve güçlü bir <a href=\"/tr/sem/remarketing-ve-display\">web ve OTA trafiği geri kazanma</a> akışıyla beslemek gerekir."
           },
           {
             "type": "p",
@@ -5521,6 +5766,10 @@
             "text": "Otel remarketing başarısı, “tek liste” ile değil; farklı niyet seviyelerini ayıran liste mimarisiyle gelir. Aşağıdaki liste grupları, otel funnel’ında en pratik ve en ölçülebilir olanlardır."
           },
           {
+            "type": "p",
+            "text": "Bu segmentleri doğru ayırmak için <a href=\"/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi\">rezervasyon tamamlamayan kullanıcıyı yeniden hedeflemek</a> mantığını web davranışı, video izleme ve OTA ilgisiyle birlikte kurmak gerekir."
+          },
+          {
             "type": "h3",
             "text": "1) Web ziyaretçileri (Web Visitors)"
           },
@@ -5553,6 +5802,10 @@
           {
             "type": "p",
             "text": "Doğrudan “OTA’da otelinizi görüntüleyen herkesi” hedeflemek çoğu zaman mümkün değildir. Ancak şu iki yolla OTA kaynaklı talebi remarketing’e dahil edebilirsiniz:"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki amaç, kullanıcıyı yalnız geri çağırmak değil; <a href=\"/tr/otel/ota-yonetimi\">OTA’dan direct booking’e geri kazanım</a> senaryosunu daha kontrollü hale getirmektir."
           },
           {
             "type": "list",
@@ -5683,6 +5936,10 @@
             "text": "Rakip içerikler remarketing’i e-ticaret sepeti üzerinden anlatır. Otellerde gerçek fark; OTA + web + call center üçgeninde “kaçan misafiri” farklı senaryolarla geri çağırmaktır. Aşağıdaki tablo, remarketing listeleri ve video mesajlarını aynı çerçevede toplar."
           },
           {
+            "type": "p",
+            "text": "Bu noktada <a href=\"/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi\">video win-back funnel</a>, yani video ile geri kazanım akışı, kısa hatırlatma videoları ile daha uzun deneyim anlatılarını doğru yerde kullanmayı gerektirir."
+          },
+          {
             "type": "table",
             "caption": "[Tablo] — Segment–mesaj–teklif eşleştirme tablosu (otel win-back planı)",
             "headers": [
@@ -5795,7 +6052,7 @@
             "items": [
               "Web dönüşünü optimize et (hız + net teklif).",
               "Call center için ayrı mesaj ve çalışma saatleri planla.",
-              "Rezervasyon yönetimini /tr/pms-ota/rezervervasyon-yonetimi hattına bağla (Varsayım: sayfa mevcut)."
+              "Geri kazanılan talep için rezervasyon kayıt ve takip akışını netleştir."
             ]
           }
         ]
@@ -5817,6 +6074,10 @@
             "text": "Pratik kapanış kurgusu:\n\t•\tSıcak segment (rezervasyon adımı) → “Hızlı fiyat + 1 dakika” mesajı\n\t•\tArama/WhatsApp yönlendirme → kısa script ile ihtiyaç alma\n\t•\tPMS/rezervasyon ekranında hızlı teklif → kapanış"
           },
           {
+            "type": "p",
+            "text": "Bu aşamada <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">remarketing videosundan rezervasyona geçiş</a> akışını net kurmak, geri dönen kullanıcıyı satışa çeviren en kritik adımdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -5831,7 +6092,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "Call center akışını /tr/cagri-merkezi/rezervasyon-destegi ile standartlaştır.",
+              "Call center akışını rezervasyon desteği standardıyla netleştir.",
               "Sıcak segmente “tek tık arama” opsiyonu ekle.",
               "Görüşme sonrası “rezervasyonu tamamla” linkiyle web’e geri döndür."
             ]
@@ -5858,6 +6119,10 @@
             "text": "Burada amaç, kullanıcıyı her kanalda aynı mesajla bombardımana tutmak değil; her kanalı farklı rol ile kullanmaktır. Örnek: YouTube “hatırlatma”, Search “yakalama”, Call center “kapatma”."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle <a href=\"/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme\">çok kanallı remarketing akışı</a> kurmak, YouTube’u Meta ve Google Ads ile aynı geri kazanım senaryosunda daha verimli çalıştırır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -5874,7 +6139,7 @@
             "items": [
               "YouTube’ı win-back katmanı olarak konumla.",
               "Search ile marka/otel adı sorgularında yakala.",
-              "Raporlamayı /tr/sem/reklam-raporlama sayfasındaki mantıkla standardize et."
+              "Kanal raporlamasını ortak win-back mantığıyla standardize et."
             ]
           }
         ]
@@ -5916,6 +6181,10 @@
           {
             "type": "p",
             "text": "Senaryo: Misafir OTA’da otelinizi inceliyor, web’e geliyor, oda sayfasına bakıyor ama rezervasyon tamamlamıyor.\n\t1.\tOda sayfası segmentine düşer (7 gün).\n\t2.\tYouTube’da 6–15 sn video görür: “Bu oda kimler için ideal?” + 3 USP + kısa sosyal kanıt.\n\t3.\tCTA ile web’e döner; hala kararsızsa “1 dakikada fiyat alın” call center opsiyonunu görür.\n\t4.\tÇağrı merkezinde hızlı ihtiyaç analizi ve PMS üzerinden teklif; kapanış.\n\nBu akış, e-ticaretin “sepet” dilini otele uyarlamadan; OTA + web + call center gerçeğiyle win-back üretir."
+          },
+          {
+            "type": "p",
+            "text": "Kapanan talebin operasyon tarafında kaybolmaması için <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">geri kazanılan rezervasyonu sisteme işlemek</a> ve takip adımlarını ekip içinde standartlaştırmak gerekir."
           },
           {
             "type": "callout",
@@ -5985,7 +6254,15 @@
         "blocks": [
           {
             "type": "p",
-            "text": "YouTube remarketing, web ve OTA kaynaklı ama rezervasyon yapmayan misafiri segmente ederek geri kazanmanın en hızlı yollarından biridir. Başarı; listelerin doğru oluşması, segment–mesaj uyumu, frekans kontrolü ve call center kapanışıyla gelir. Eğer bu yapıyı uçtan uca kurup ölçeklemek istiyorsanız, remarketing hattını /tr/sem/remarketing-ve-display, OTA süreçlerini /tr/otel/ota-yonetimi ve rezervasyon yönetimini /tr/pms-ota/rezervasyon-yonetimi sayfalarıyla tek bir plan altında birleştirin."
+            "text": "YouTube remarketing, web ve OTA kaynaklı ama rezervasyon yapmayan misafiri segmente ederek geri kazanmanın en hızlı yollarından biridir. Başarı; listelerin doğru oluşması, segment–mesaj uyumu, frekans kontrolü ve call center kapanışıyla gelir. Eğer bu yapıyı uçtan uca kurup ölçeklemek istiyorsanız, remarketing hattını <a href=\"/tr/sem/remarketing-ve-display\">remarketing ve display</a>, OTA süreçlerini <a href=\"/tr/otel/ota-yonetimi\">OTA yönetimi</a> ve rezervasyon kaydını <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> ile tek plan altında birleştirin."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube remarketing yönetimi</a> kapsamını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
           },
           {
             "type": "cta",
@@ -6042,7 +6319,7 @@
           "Frekans kontrolü ve süre pencereleri (7/30/90) tanımlı",
           "Consent/KVKK uyum kontrolü yapıldı",
           "Call center tıklama/WhatsApp event ölçümü mevcut",
-          "İç link hedefleri (remarketing + call center + PMS/OTA) çalışıyor"
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/sem/remarketing-ve-display, /tr/otel/ota-yonetimi, /tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi, /tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme, /tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi, /tr/cagri-merkezi/rezervasyon-destegi, /tr/pms-ota/rezervasyon-yonetimi, /tr/sem/youtube-reklam-yonetimi-sss"
         ]
       }
     }
@@ -59695,7 +59972,7 @@
     },
     "h1": {
       "title": "Oteller İçin YouTube Kampanya Kurulumu Adım Adım Rehber",
-      "intro": "YouTube kampanyasında başarının büyük kısmı “optimizasyon” değil, kurulum kalitesi ile başlar. Yanlış hedef seçimi, eksik tracking, uygunsuz ağ/envanter ayarı veya hatalı frekans/brand safety kurgusu; kampanyayı daha ilk haftadan verimsizleştirir. Bu rehber, otel örneği üzerinden kampanyayı hedef→bütçe→ağ→hedefleme→kreatif→ölçüm sırasıyla kurar; ekranda hangi adımda hangi ayarın kritik olduğunu netleştirir.\n\nKey data point (yumuşak): Doğru kurulmuş kampanyalar, optimizasyon aşamasında genelde ciddi zaman ve bütçe kaybını azaltır. (Varsayım: genel kabul; kesin oran verilmez.)",
+      "intro": "YouTube kampanyasında başarının büyük kısmı, doğru bir <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube kampanya kurulumu</a> ile başlar. Yanlış hedef seçimi, eksik tracking, uygunsuz ağ/envanter ayarı veya hatalı frekans/brand safety kurgusu; kampanyayı daha ilk haftadan verimsizleştirir. Bu rehber, otel örneği üzerinden kampanyayı hedef→bütçe→ağ→hedefleme→kreatif→ölçüm sırasıyla kurar; ekranda hangi adımda hangi ayarın kritik olduğunu netleştirir.\n\nKey data point (yumuşak): Doğru kurulmuş kampanyalar, optimizasyon aşamasında genelde ciddi zaman ve bütçe kaybını azaltır. (Varsayım: genel kabul; kesin oran verilmez.)",
       "quickSummary": [
         "1) Hedefi seç: görünürlük, trafik veya dönüşüm",
         "2) Ağ/envanter ve brand safety ayarlarını netleştir",
@@ -59723,8 +60000,24 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "YouTube reklam türleri",
+        "href": "/tr/sem/blog/oteller-icin-youtube-reklam-turleri"
+      },
+      {
+        "label": "YouTube hedefleme yapısı",
+        "href": "/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi"
+      },
+      {
+        "label": "YouTube reklam hataları ve çözümleri",
+        "href": "/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri"
       },
       {
         "label": "Dönüşüm takibi ve Tag Manager",
@@ -59733,6 +60026,10 @@
       {
         "label": "Reklam raporlama",
         "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -59757,6 +60054,14 @@
           {
             "type": "p",
             "text": "Kuruluma başlamadan önce hedefi doğru seçmek, teklif stratejisinden kreatif türüne kadar her şeyi belirler. Otellerde üç ana hedef üzerinden ilerlemek pratik olur: görünürlük (marka/deneyim), trafik (site ziyareti) ve dönüşüm (lead/rezervasyon desteği). Hedefi yanlış seçersen, kampanya ya “izlenip geçilir” ya da “dönüşüm verisi yetmeden” sıkışır."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı daha geniş <a href=\"/tr/sem\">otel video reklam kurulumu</a> mantığı içinde düşünmek ve ilk kararları format ile hedefe göre netleştirmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kuruluma geçmeden önce <a href=\"/tr/sem/blog/oteller-icin-youtube-reklam-turleri\">YouTube reklam formatı seçimi</a> tarafını netleştirmek, skippable, bumper, in-feed veya Shorts benzeri seçenekleri hedefe uygun kullanmayı kolaylaştırır."
           },
           {
             "type": "list",
@@ -59851,6 +60156,10 @@
             "text": "4) Hedefleme bağlama (audience + placements + remarketing)"
           },
           {
+            "type": "p",
+            "text": "Bu adımda <a href=\"/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi\">YouTube hedefleme ayarları</a> lokasyon, demografi, seyahat niyeti ve remarketing mantığıyla birlikte kurgulanmalıdır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -59880,6 +60189,10 @@
           {
             "type": "p",
             "text": "Kurulum sırasında en sık atlanan adım burasıdır. GA4 bağlantısı ve dönüşüm event’leri doğru değilse kampanya “kör” çalışır; optimizasyonda bütçe boşa yanar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden <a href=\"/tr/sem/donusum-takibi-tag-manager\">video kampanyası ölçümleme kurulumu</a> telefon, WhatsApp, form ve landing page dönüşümlerini de kapsayacak şekilde kurulum checklist’inin zorunlu parçası olmalıdır."
           },
           {
             "type": "h3",
@@ -59987,6 +60300,10 @@
             "text": "Bu bölüm, kullanıcıyı yanlış akıştan koruyan “hata kutusu” görevi görür. Otellerde en sık kurulum hataları; frekansın kontrolden çıkması, brand safety’in atlanması, tracking’in eksik bırakılması ve hedeflemenin karıştırılmasıdır."
           },
           {
+            "type": "p",
+            "text": "Kurulum sırasında <a href=\"/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri\">hedef, bütçe ve kreatif ayarları</a> tarafında yapılan yanlışlar, daha kampanya öğrenme aşamasındayken performansı aşağı çekebilir."
+          },
+          {
             "type": "h3",
             "text": "Sık yapılan 7 kurulum hatası"
           },
@@ -60006,6 +60323,10 @@
           {
             "type": "h3",
             "text": "Mini Check"
+          },
+          {
+            "type": "p",
+            "text": "Kampanya yayına çıktıktan sonra <a href=\"/tr/sem/reklam-raporlama\">YouTube kampanya performans raporlaması</a> ile CPV, view-through, dönüşüm ve segment bazlı sonuçları birlikte okumak gerekir."
           },
           {
             "type": "list",
@@ -60189,6 +60510,14 @@
             "text": "Bu yüzden en güvenli yaklaşım; kampanyayı ekran ekran standart bir kurulum mantığıyla açmak, checklist ile doğrulamak ve ilk 14 günü öğrenme sürecini bozmayacak disiplinle yönetmektir."
           },
           {
+            "type": "p",
+            "text": "Kurulumu sahada standartlaştırmak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube kampanya kurulumu</a> yaklaşımını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları tamamlamak için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir sonraki adım olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "YouTube Kampanya Kurulum Analizi Talep Et",
@@ -60247,7 +60576,7 @@
           "Kurulum arayüzünde büyük değişikliklerde ekran/terim güncellemesi yapılmalı",
           "Primary CTA 3 kez kullanıldı",
           "Secondary CTA 1 kez kullanıldı",
-          "İç linkler: /sem/donusum-takibi-tag-manager ve /sem/reklam-raporlama eklendi",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/sem/blog/oteller-icin-youtube-reklam-turleri, /tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi, /tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri, /tr/sem/donusum-takibi-tag-manager, /tr/sem/reklam-raporlama, /tr/sem/youtube-reklam-yonetimi-sss",
           "GA4 + dönüşüm takibi kurulum aşamasında zorunlu check olarak işlendi",
           "Tablo sayısı 1 adet ve BÖLÜM 4 içinde konumlandı",
           "Checklist asset üretildi ve download_asset formatında işlendi"
@@ -60305,7 +60634,7 @@
     },
     "h1": {
       "title": "Otel YouTube Reklamlarında Kreatif, Thumbnail, Müzik ve CTA Nasıl Optimize Edilir?",
-      "intro": "YouTube reklamlarında hedefleme ve bütçe “kime” ve “ne kadar” sorusunu çözer; kreatif ise “neden izlesin ve neden aksiyon alsın?” sorusunun cevabıdır. Otellerde bu daha da kritiktir: kullanıcı çoğu zaman sound-off izler, küçük ekranda hızlı karar verir ve 5 saniyede “bu otel bana göre mi?” diye tartar. İyi tasarlanmış thumbnail ve güçlü CTA ekranı, izlenme ve tıklama oranında anlamlı artışlar sağlayabilir. (Varsayım: genel kabul; kesin oran iddiası yok.) Bu rehber, otel özelinde sahne sırası, thumbnail şablonları, müzik/ses ve CTA yazımı için uygulanabilir bir sistem sunar.",
+      "intro": "YouTube reklamlarında hedefleme ve bütçe “kime” ve “ne kadar” sorusunu çözer; güçlü bir <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube kreatif optimizasyonu</a> ise “neden izlesin ve neden aksiyon alsın?” sorusunun cevabıdır. Otellerde bu daha da kritiktir: kullanıcı çoğu zaman sound-off izler, küçük ekranda hızlı karar verir ve 5 saniyede “bu otel bana göre mi?” diye tartar. İyi tasarlanmış thumbnail ve güçlü CTA ekranı, izlenme ve tıklama oranında anlamlı artışlar sağlayabilir. (Varsayım: genel kabul; kesin oran iddiası yok.) Bu rehber, otel özelinde sahne sırası, thumbnail şablonları, müzik/ses ve CTA yazımı için uygulanabilir bir sistem sunar.",
       "quickSummary": [
         "1) İlk 5 saniyede destinasyon + konsept + kanıt sahnesini göster",
         "2) Thumbnail’i 3–5 kelimelik mobil okunur yapıya indir",
@@ -60333,11 +60662,27 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Grafik & motion tasarım",
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "YouTube reklam filmi senaryo ve storyboard",
+        "href": "/tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard"
+      },
+      {
+        "label": "YouTube video çekim brief'i",
+        "href": "/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir"
+      },
+      {
+        "label": "Kısa ve uzun YouTube videoları",
+        "href": "/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi"
+      },
+      {
+        "label": "Grafik ve motion tasarım",
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
@@ -60345,8 +60690,12 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Reels & video içerikleri",
+        "label": "Reels ve video içerikleri",
         "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -60371,6 +60720,10 @@
           {
             "type": "p",
             "text": "Otel kreatifinde amaç sinema filmi yapmak değil; konsepti 1–2 saniyede netleştirip izleyiciyi doğru akışa sokmaktır. Bu yüzden kreatifin çekirdeği 3 öğeden oluşur: (1) konsept/destinasyon netliği, (2) sahne sırası (kanıt akışı), (3) tek aksiyon CTA."
+          },
+          {
+            "type": "p",
+            "text": "Bu katmanı daha geniş <a href=\"/tr/sem\">otel video performans mimarisi</a> içinde düşünmek, kreatif kararları medya planı ve dönüşüm hedeflerinden koparmadan yönetmeyi sağlar."
           },
           {
             "type": "list",
@@ -60417,6 +60770,10 @@
           {
             "type": "p",
             "text": "İlk 5 saniye “izle/atla” karar anıdır. Otellerde en iyi çalışan yaklaşım, “destinasyon + konsept + en güçlü kanıt”ı aynı blokta vermektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu açılışı planlarken <a href=\"/tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard\">YouTube reklamında hook ve CTA</a> akışını storyboard mantığıyla kurmak, ilk saniyeyi rastlantıya bırakmamayı sağlar."
           },
           {
             "type": "h3",
@@ -60475,6 +60832,14 @@
           {
             "type": "p",
             "text": "Thumbnail, özellikle discovery/in-feed ve tekrar gösterimlerde “tıklama kararını” taşır. Otellerde thumbnail’in işi: “Bu video bana ne vaat ediyor?” sorusunu 1 saniyede cevaplamak."
+          },
+          {
+            "type": "p",
+            "text": "Burada güçlü bir <a href=\"/tr/creative/grafik-motion-tasarim\">otel reklam kreatifi tasarımı</a>, yazı kullanımı, kontrast, tipografi ve görsel vurgu tarafında videonun tıklanma ihtimalini belirgin şekilde etkiler."
+          },
+          {
+            "type": "p",
+            "text": "Thumbnail ve CTA için hangi kadrajların, sahnelerin ve görsel varyantların çekileceğini netleştirmek adına <a href=\"/tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir\">kreatif çekim brief’i hazırlamak</a> prodüksiyon öncesi büyük kolaylık sağlar."
           },
           {
             "type": "h3",
@@ -60573,6 +60938,10 @@
             "text": "Otel videolarında müzik “his” verir, ama performansı öldüren şey yanlış enerjidir: lüks butik otele aşırı hızlı beat; aile resort’a fazla dramatik müzik gibi. Ayrıca kullanıcıların önemli bir bölümü videoyu sessiz izlediği için “ses” tek başına mesaj taşıyamaz."
           },
           {
+            "type": "p",
+            "text": "Pratikte <a href=\"/tr/creative/video-produksiyon\">thumbnail, müzik ve CTA</a> kararları; kurgu, ses miksajı, tempo ve renk düzenleme ile birlikte ele alındığında kreatif kalite gerçek performansa dönüşür."
+          },
+          {
             "type": "h3",
             "text": "Konsepte göre müzik seçim çerçevesi"
           },
@@ -60649,6 +61018,10 @@
             "text": "16:9 ana filmden 9:16 kırpım planlıyorsanız, metinleri kenarlara yapıştırmayın; “güvenli alan” bırakın. (Teknik/davranışsal not.)"
           },
           {
+            "type": "p",
+            "text": "Bu noktada <a href=\"/tr/smm/reels-video\">kısa video performans öğeleri</a> ile Reels ve Shorts uyarlamalarını baştan düşünmek, aynı kreatiften daha fazla kullanım alanı çıkarmanızı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -60716,6 +61089,10 @@
               "“Odayı Gör”",
               "“Ulaşımı Gör” (city otel)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "CTA’nın videoda ne zaman görüneceği ve kaç saniye ekranda kalacağı, <a href=\"/tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi\">otel video performans öğeleri</a> ile birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -60883,6 +61260,14 @@
             "text": "Bu yüzden en iyi sonuç; prodüksiyon, tasarım ve performans ekiplerinin aynı kreatif standardında buluşmasıyla gelir. İyi/kötü örnekleri ortak dil haline getirip kazanan formatları standardize etmek, aynı bütçeyle daha verimli kreatif performansı üretmeye yardımcı olur."
           },
           {
+            "type": "p",
+            "text": "Bu standardı sahada büyütmek isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube kreatif performansını artırmak</a> tarafına daha yakından bakabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki uygulama detaylarını netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir tamamlayıcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Otel YouTube Kreatif Analizi Talep Et",
@@ -60941,7 +61326,7 @@
           "Trendler/arayüz/davranış değiştikçe güncelle",
           "Primary CTA 2 kez kullanıldı",
           "Secondary CTA 1 kez kullanıldı",
-          "İç link hedefleri: /creative/grafik-motion-tasarim, /creative/video-produksiyon, /smm/reels-video eklendi",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard, /tr/sem/blog/otel-youtube-video-cekim-briefi-nasil-hazirlanir, /tr/sem/blog/oteller-icin-kisa-ve-uzun-youtube-videolari-performans-karsilastirmasi, /tr/creative/grafik-motion-tasarim, /tr/creative/video-produksiyon, /tr/smm/reels-video, /tr/sem/youtube-reklam-yonetimi-sss",
           "Tablo sayısı 1 adet ve BÖLÜM 4 içinde konumlandı",
           "Download asset üretildi ve mini guide mantığında işlendi",
           "Kreatif optimizasyon çerçevesi: hook → thumbnail → metin → CTA standardize edildi"
@@ -60999,7 +61384,7 @@
     },
     "h1": {
       "title": "Oteller İçin Destinasyon ve Deneyim Odaklı YouTube Stratejisi",
-      "intro": "Otel pazarlamasında YouTube’u “oda turu” ile sınırlamak, markayı benzerler arasında görünmez kılar. Misafir artık “odayı” değil, o odanın içinde yaşayacağı deneyimi ve otelin bulunduğu destinasyonun hikâyesini satın alıyor. Deneyim odaklı videoların, sadece oda tanıtımına göre genelde daha yüksek izlenme süresi ve etkileşim ürettiği gözlemlenir. (Varsayım: genel kabul; kesin oran verilmez.) Bu rehber; destinasyon hikâyesi anlatımı, “tatilde bir gün” formatları ve hedef kitleye göre (aile/çift/arkadaş) ayrı kurgularla, otel YouTube stratejinizi uygulanabilir bir plana dönüştürür.",
+      "intro": "Otel pazarlamasında YouTube’u “oda turu” ile sınırlamak, markayı benzerler arasında görünmez kılar. Güçlü bir <a href=\"/tr/sem/youtube-reklam-yonetimi\">destinasyon odaklı YouTube stratejisi</a> ise misafirin sadece “odayı” değil, o odanın içinde yaşayacağı deneyimi ve otelin bulunduğu destinasyonun hikâyesini satın almasına yardım eder. Deneyim odaklı videoların, sadece oda tanıtımına göre genelde daha yüksek izlenme süresi ve etkileşim ürettiği gözlemlenir. (Varsayım: genel kabul; kesin oran verilmez.) Bu rehber; destinasyon hikâyesi anlatımı, “tatilde bir gün” formatları ve hedef kitleye göre (aile/çift/arkadaş) ayrı kurgularla, otel YouTube stratejinizi uygulanabilir bir plana dönüştürür.",
       "quickSummary": [
         "1) Destinasyon temasını tek cümlede seç",
         "2) Segmente göre hikâyeyi değiştir",
@@ -61010,14 +61395,14 @@
       "ctaPrimary": {
         "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
         "text": "Marka algısını deneyim üzerinden büyütmek isteyen oteller için.",
-        "href": "/tr/otel"
+        "href": "/tr/sem/youtube-reklam-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
         "text": "Destinasyon hikâyesini deneyim videolarıyla büyütmek isteyen otel ekipleri için.",
-        "href": "/tr/otel"
+        "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       "secondary": {
         "label": "Destinasyon Video Fikir & Storyboard Şablonunu İndir",
@@ -61027,8 +61412,28 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube reklam filmi senaryo ve storyboard",
+        "href": "/tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard"
+      },
+      {
+        "label": "YouTube kısa video ve Shorts stratejisi",
+        "href": "/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi"
+      },
+      {
+        "label": "12 aylık YouTube yol haritası",
+        "href": "/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi"
       },
       {
         "label": "Video prodüksiyon",
@@ -61039,8 +61444,8 @@
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -61065,6 +61470,10 @@
           {
             "type": "p",
             "text": "Destinasyon odaklı video; oteli “mekân” olarak değil, otelin içinde bulunduğu bölgeyle birlikte “hikâye” olarak anlatan içeriktir. Otel burada ana sahne olabilir ama anlatının motoru, misafirin deneyim yolculuğudur: sabah, aktivite, yeme-içme, gün batımı, gece, dönüş. Bu yaklaşım, oteli destinasyonla birlikte konumlandırır ve “neden burası?” sorusunu yanıtlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı daha geniş <a href=\"/tr/sem\">SEM video stratejisi</a> içinde okumak ve aynı zamanda <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama funnel’ı</a> ile birlikte düşünmek gerekir."
           },
           {
             "type": "callout",
@@ -61167,6 +61576,10 @@
             "text": "“Tatilde bir gün” formatı, izleyiciyi otelin içine “zaman çizgisi” üzerinden sokar. En büyük avantajı; deneyimi doğal ve akıcı gösterdiği için izlenme süresini artırmasıdır."
           },
           {
+            "type": "p",
+            "text": "Bu akışı sahne sahne netleştirmek için <a href=\"/tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard\">tatilde bir gün kurgusu</a> storyboard mantığıyla planlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Temel akış (6 sahne)"
           },
@@ -61224,6 +61637,10 @@
           {
             "type": "p",
             "text": "Bu üçlü; izleyicinin “nereye gideceğim, ne yaşayacağım, nerede kalacağım?” sorularını aynı akışta çözer. Antalya örneği üzerinden (spam yapmadan) kurguyu somutlayalım."
+          },
+          {
+            "type": "p",
+            "text": "Bu anlatıyı çekim aşamasında güçlü hale getirmek için <a href=\"/tr/creative/video-produksiyon\">deneyim temelli otel videoları</a> tarafında çekim, kurgu ve post-production kararlarının önceden netleşmesi gerekir."
           },
           {
             "type": "h3",
@@ -61374,7 +61791,11 @@
           },
           {
             "type": "p",
-            "text": "Bu videoların 9:16 kırpımları reels/shorts olarak kullanılıp remarketing havuzunu büyütebilir. İçerik üretimini /tr/smm/reels-video ile bağlamak ölçek sağlar."
+            "text": "Uzun deneyim anlatısını <a href=\"/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi\">kısa video deneyim kesitleri</a> mantığıyla bölmek, aynı hikâyeden Shorts için daha hızlı tüketilen varyantlar üretmenizi sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu videoların 9:16 kırpımlarını <a href=\"/tr/smm/reels-video\">sosyal medya için deneyim videosu kesitleri</a> olarak dağıtmak, remarketing havuzunu ve çoklu kanal görünürlüğünü birlikte büyütebilir."
           },
           {
             "type": "callout",
@@ -61432,6 +61853,10 @@
             "text": "Bu konuları storyboard’da küçük notlarla yönetmek, çekim gününü kurtarır."
           },
           {
+            "type": "p",
+            "text": "Bunu tek seferlik çekim olarak değil, <a href=\"/tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi\">destinasyon ve otel hikâyesi</a> etrafında kurulmuş yıllık bir içerik takvimi olarak planlamak daha sürdürülebilir sonuç verir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -61448,7 +61873,7 @@
             "items": [
               "Storyboard’a “ışık/izin” notu ekle.",
               "Sezonluk çekim günleri planla (yılda 2 ana çekim).",
-              "Prodüksiyon akışını /tr/creative/video-produksiyon ile standardize et."
+              "Prodüksiyon akışını video prodüksiyon standardıyla eşleştir."
             ]
           },
           {
@@ -61456,7 +61881,7 @@
             "variant": "primary",
             "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
             "text": "Deneyim & storytelling ekseninde YouTube’u büyütmek isteyen oteller için.",
-            "href": "/downloads/ulke-bazli-kampanya-yapilandirma-rehberi-v1.0.pdf"
+            "href": "/tr/sem/youtube-reklam-yonetimi"
           }
         ]
       },
@@ -61515,11 +61940,19 @@
             "text": "En güçlü sonuç, tek bir tanıtım filmi üretmekten değil; aile/çift/arkadaş segmentleri için varyantlı bir video portföyü kurmaktan gelir. Storyboard, sahne listesi, kısa format planı ve CTA uyumu baştan tasarlandığında YouTube daha ölçülebilir ve ölçeklenebilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sahada büyütmek isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için deneyim odaklı YouTube reklam yönetimi</a> yaklaşımını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki uygulama detaylarını tamamlamak için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir tamamlayıcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Destinasyon & Deneyim Video Strateji Çalışması Talep Et",
             "text": "Destinasyon hikâyesini deneyim videolarıyla büyütmek isteyen otel ekipleri için.",
-            "href": "/downloads/ulke-bazli-kampanya-yapilandirma-rehberi-v1.0.pdf"
+            "href": "/tr/sem/youtube-reklam-yonetimi"
           },
           {
             "type": "cta",
@@ -61571,7 +62004,7 @@
         "technicalChecklist": [
           "Primary CTA 2 kez yerleştirildi",
           "Secondary CTA 1 kez yerleştirildi",
-          "Internal link targets eklendi: /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard, /tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi, /tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi, /tr/creative/video-produksiyon, /tr/smm/reels-video, /tr/sem/youtube-reklam-yonetimi-sss",
           "Download Asset üretildi ve section içine işlendi",
           "Media pack standardı slug ile eşleşiyor",
           "Tablo BÖLÜM 4 içinde işlendi"
@@ -61629,7 +62062,7 @@
     },
     "h1": {
       "title": "Oteller İçin YouTube Raporlama ve KPI Rehberi",
-      "intro": "YouTube kampanyalarını “izlenme çok” diye başarılı saymak, otellerde en yaygın raporlama hatasıdır. Çünkü YouTube, funnel’ın üst katmanında ilham ve marka algısı üretir; alt katmanda ise remarketing ve teklif akışıyla rezervasyona katkı verir. Bu nedenle raporlama; kreatif kalitesi (view rate, watch time), aksiyon gücü (CTR/CTA) ve iş çıktısı (rezervasyon/doluluk/g gelir) arasında köprü kurmalıdır. Video izlenme davranışı ile rezervasyon/doluluk verisini birleştiren paneller, yalnız görüntülenme raporlarına göre çok daha isabetli karar aldırır. (Varsayım: genel kabul; kesin oran verilmez.)",
+      "intro": "Oteller için <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> yaparken kampanyaları yalnız “izlenme çok” diye başarılı saymak, en yaygın raporlama hatalarından biridir. Çünkü YouTube, funnel’ın üst katmanında ilham ve marka algısı üretir; alt katmanda ise remarketing ve teklif akışıyla rezervasyona katkı verir. Bu nedenle raporlama; kreatif kalitesi (view rate, watch time), aksiyon gücü (CTR/CTA) ve iş çıktısı (rezervasyon/doluluk/g gelir) arasında köprü kurmalıdır. Video izlenme davranışı ile rezervasyon/doluluk verisini birleştiren paneller, yalnız görüntülenme raporlarına göre çok daha isabetli karar aldırır. (Varsayım: genel kabul; kesin oran verilmez.)",
       "quickSummary": [
         "1) KPI’ları izlenme, ilgi derinliği, aksiyon ve iş etkisi olarak 4 gruba ayır",
         "2) View rate ve watch time ile kreatif sağlığını yorumla",
@@ -61657,7 +62090,19 @@
     },
     "internalLinks": [
       {
-        "label": "Reklam raporlama",
+        "label": "YouTube Reklam Yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
@@ -61665,12 +62110,24 @@
         "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "Veri analiz ve raporlama",
-        "href": "/tr/raporlama"
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "YouTube Analytics 2.0",
+        "href": "/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler"
+      },
+      {
+        "label": "YouTube reklam hataları ve çözümleri",
+        "href": "/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri"
+      },
+      {
+        "label": "YouTube + Meta + Google Ads entegrasyonu",
+        "href": "/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme"
+      },
+      {
+        "label": "YouTube Reklam Yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -61695,6 +62152,10 @@
           {
             "type": "p",
             "text": "YouTube reklam KPI’ları, “izlenme”, “ilgi derinliği”, “aksiyon” ve “iş etkisi” olarak 4 grupta ele alınır. Otellerde bu grupları ayırmadan raporlarsanız, awareness kampanyasını CPA ile boğabilir veya conversion kampanyasını sadece view rate ile yanlış okuyabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi daha geniş <a href=\"/tr/sem\">SEM performans mimarisi</a> içinde değerlendirmek ve aynı zamanda <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama stratejisi</a> ile birlikte okumak gerekir."
           },
           {
             "type": "h3",
@@ -61752,6 +62213,10 @@
               "Watch time düşük → sahne sırası/tempo/mesaj dağınık",
               "Her ikisi düşük → kreatif + hedefleme birlikte sorunlu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sinyalleri tek tek takip etmek yerine bunları bir <a href=\"/tr/sem/reklam-raporlama\">YouTube reklam performans raporu</a> içinde okumak ve gerekiyorsa <a href=\"/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri\">YouTube KPI sorunlarını teşhis etmek</a> gerekir."
           },
           {
             "type": "callout",
@@ -61838,6 +62303,10 @@
           {
             "type": "p",
             "text": "Bu tablo, raporda “ortak dil” sağlar. KPI’ları sadece açıklamaz; hangi katmanda ne işe yaradığını da bağlar."
+          },
+          {
+            "type": "p",
+            "text": "Temel tabloyu kurduktan sonra okumayı derinleştirmek için <a href=\"/tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler\">gelişmiş YouTube performans metrikleri</a> ile izleyici davranışını daha ayrıntılı yorumlamak faydalıdır."
           },
           {
             "type": "table",
@@ -61986,6 +62455,10 @@
             "text": "Bu adım, YouTube raporunu “iş etkisi”ne bağlayan köprüdür. YouTube raporları tek başına bırakılırsa, otelin satışa etkisi eksik görülür; çünkü rezervasyon/doluluk PMS ve OTA tarafında yaşar."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı karar verilebilir hale getirmek için <a href=\"/tr/raporlama/looker-studio\">video reklam KPI dashboard’u</a> kurmak ve veriyi <a href=\"/tr/veri-analiz-ve-raporlama\">çok kanallı veri analiz ve raporlama</a> yaklaşımıyla birleştirmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Entegrasyon mantığı (yüksek seviye)"
           },
@@ -62049,6 +62522,10 @@
             "text": "Otellerde ülke/pazar kırılımı çoğu zaman performansı dramatik değiştirir. Mobilde metin okunmuyorsa CTR düşer; belirli ülkede mesaj uyumsuzsa watch time düşer; remarketing segmenti zayıfsa dönüşüm katkısı düşer. Bu yüzden raporda şu kırılımlar standart olmalı:"
           },
           {
+            "type": "p",
+            "text": "Bu kırılımları yalnız YouTube içinde bırakmayıp <a href=\"/tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme\">YouTube, Meta ve Google Ads birleşik raporlama</a> mantığıyla okumak, bütçe ve kanal kararlarını daha sağlıklı hale getirir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -62104,6 +62581,14 @@
             "text": "Otel YouTube raporlamasında amaç; view rate ve watch time ile kreatif sağlığını, CTR ve GA4 davranış metrikleriyle aksiyon gücünü, PMS/OTA KPI’larıyla da satış etkisini birlikte okumaktır. Bu yapıyı kurduğunuzda YouTube, “nice to have” bir kanal olmaktan çıkar; bütçe kararlarını rasyonelleştiren bir büyüme kanalına dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu bakış açısını sahaya taşımak için <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam yönetimi</a> yaklaşımını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki uygulama detaylarını tamamlamak için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adım olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "YouTube KPI & Raporlama Analizi Talep Et",
@@ -62154,7 +62639,7 @@
           "Primary CTA 2 kez yerleştirildi",
           "Secondary CTA 1 kez yerleştirildi",
           "Secondary CTA türü navigation olarak işlendi",
-          "Internal link targets eklendi: /tr/sem/reklam-raporlama, /tr/raporlama/looker-studio, /tr/veri-analiz-ve-raporlama, /tr/otel-dijital-pazarlama",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/reklam-raporlama, /tr/raporlama/looker-studio, /tr/veri-analiz-ve-raporlama, /tr/sem/blog/youtube-analytics-2-0-otel-stratejisinde-yeni-metrikler, /tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri, /tr/sem/blog/otel-youtube-reklamlarini-meta-ve-google-ads-ile-birlestirme, /tr/sem/youtube-reklam-yonetimi-sss",
           "GA4 + Looker Studio + PMS/OTA entegrasyon mantığı section içinde işlendi",
           "Tablo BÖLÜM 4 içinde işlendi"
         ]
@@ -62211,7 +62696,7 @@
     },
     "h1": {
       "title": "Otellerin YouTube Reklamlarında En Sık Yaptığı Hatalar ve Çözümleri",
-      "intro": "YouTube kampanyası “çalışmıyor” dediğinizde sorun genelde tek bir yerde değildir; hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm birlikte bozulmuştur. Otellerde ayrıca mobil davranış (sound-off izlenme, küçük ekran okunabilirliği) ve video kanalının funnel’daki rolü sık yanlış konumlandırılır. YouTube hata analizi sonrası hızlı düzeltmeler uygulandığında, view rate ve etkileşimde kısa sürede iyileşme görülebilir. (Varsayım: genel kabul; kesin oran verilmez.) Bu rehber, en sık 10 hatayı teşhis eder; her hata için “belirti → kök neden → çözüm” verir ve sonunda otel için pratik bir sağlık kontrol listesi sunar.",
+      "intro": "Oteller için <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> yaparken kampanyanın “çalışmıyor” görünmesi genelde tek bir arızadan kaynaklanmaz; hedefleme, kreatif, bütçe/bid, remarketing ve ölçüm birlikte bozulmuştur. Otellerde ayrıca mobil davranış (sound-off izlenme, küçük ekran okunabilirliği) ve video kanalının funnel’daki rolü sık yanlış konumlandırılır. YouTube hata analizi sonrası hızlı düzeltmeler uygulandığında, view rate ve etkileşimde kısa sürede iyileşme görülebilir. (Varsayım: genel kabul; kesin oran verilmez.) Bu rehber, en sık 10 hatayı teşhis eder; her hata için “belirti → kök neden → çözüm” verir ve sonunda otel için pratik bir sağlık kontrol listesi sunar.",
       "quickSummary": [
         "1) Hedefleme doğru kitleye gidiyor mu kontrol et",
         "2) İlk 5 saniye hook ve kreatif sağlığını değerlendir",
@@ -62239,16 +62724,36 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi hizmet sayfası",
+        "label": "YouTube Reklam Yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Remarketing ve Display",
-        "href": "/tr/sem/remarketing-ve-display"
+        "label": "SEM",
+        "href": "/tr/sem"
       },
       {
         "label": "Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "YouTube Kampanya Kurulumu",
+        "href": "/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim"
+      },
+      {
+        "label": "YouTube Raporlama ve KPI",
+        "href": "/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi"
+      },
+      {
+        "label": "YouTube A/B Test Stratejisi",
+        "href": "/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi"
+      },
+      {
+        "label": "YouTube Reklam Yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -62273,6 +62778,10 @@
           {
             "type": "p",
             "text": "Kampanya sağlığını 5 soruyla hızlıca okuyabilirsiniz:"
+          },
+          {
+            "type": "p",
+            "text": "Bu sağlık kontrolünü daha geniş <a href=\"/tr/sem\">SEM performans çerçevesi</a> içinde düşünmek ve sonuçları düzenli <a href=\"/tr/sem/reklam-raporlama\">reklam performans raporlaması</a> ile okumak gerekir."
           },
           {
             "type": "list",
@@ -62434,6 +62943,10 @@
             "text": "Çözüm: İlk 5 saniyede destinasyon + konsept + kanıt sahnesi; 2 hook varyant test et."
           },
           {
+            "type": "p",
+            "text": "Sorun yalnız medya ayarında değilse, düşük izlenme ve zayıf anlatı çoğu zaman <a href=\"/tr/creative/video-produksiyon\">video prodüksiyon kalitesi</a> ile de ilişkilidir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -62502,6 +63015,10 @@
             "text": "Çözüm: Brand’da CPV, dönüşümde (veri varsa) tCPA/tROAS; öğrenme süresini koru."
           },
           {
+            "type": "p",
+            "text": "Bu tür hedef, format ve teklif hatalarının çoğu aslında <a href=\"/tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim\">YouTube kampanya kurulumu</a> aşamasında başlar."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -62568,6 +63085,10 @@
           {
             "type": "p",
             "text": "Çözüm: GA4 dönüşüm takibi + rapor dashboard; KPI→aksiyon döngüsü kur."
+          },
+          {
+            "type": "p",
+            "text": "Bu belirtileri doğru yorumlamak için ayrı bir <a href=\"/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi\">YouTube raporlama ve KPI rehberi</a> üzerinden view rate, watch time, CTR ve dönüşüm sinyallerini birlikte okumak gerekir."
           },
           {
             "type": "callout",
@@ -62735,6 +63256,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Düzeltmeleri rastgele değil, sistemli biçimde ilerletmek için <a href=\"/tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi\">YouTube reklamlarında A/B test stratejisi</a> kurmak daha sağlıklı sonuç verir."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Otel YouTube Hata & Çözüm Checklist PDF’ini İndir",
@@ -62857,6 +63382,14 @@
             "text": "Bu rehberdeki hata–çözüm matrisi ve sağlık checklist’i, kampanyayı yeniden kurmadan önce nerenin kırıldığını görmenizi sağlar. Sonraki adım, en kritik 3 hatayı seçip kontrollü şekilde düzeltmek ve kazanan varyantları ölçeklemektir."
           },
           {
+            "type": "p",
+            "text": "Bu düzeltme sürecini sahaya taşımak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam performansını düzeltmek</a> yaklaşımını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adım olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Otel YouTube Reklam Sağlık Kontrolü Talep Et",
@@ -62909,7 +63442,7 @@
           "İç linklerde kırık link ve redirect zinciri yok",
           "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
           "Secondary CTA → /tr/sem/youtube-reklam-yonetimi",
-          "İç link targets → /tr/sem/remarketing-ve-display, /tr/sem/reklam-raporlama"
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/sem/reklam-raporlama, /tr/creative/video-produksiyon, /tr/sem/blog/oteller-icin-youtube-kampanya-kurulumu-adim-adim, /tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi, /tr/sem/blog/otel-youtube-reklamlari-icin-a-b-test-stratejisi, /tr/sem/youtube-reklam-yonetimi-sss"
         ]
       }
     }
@@ -62964,7 +63497,7 @@
     },
     "h1": {
       "title": "Oteller İçin YouTube Reklamlarında A/B Test Stratejisi",
-      "intro": "A/B test, otellerde YouTube bütçesini “hissettiğim gibi” değil, veriyle yöneten en pratik yöntemdir. Aynı hedefleme ve bütçe ile bazı videoların daha yüksek view rate ve CTR üretmesi, çoğu zaman thumbnail, ilk 5 saniye hook veya CTA gibi küçük kreatif öğelerden kaynaklanır. Doğru yorumlandığında A/B test, zayıf kreatifleri hızlı eleme ve kazanan varyantı sezonda ölçekleme avantajı sağlar. (Varsayım: genel kabul; kesin oran iddiası yok.) Bu rehber, YouTube’da otel özelinde hangi öğelerin öncelikli test edileceğini, test türlerini, test matrisi kurulumunu ve sonuçları nasıl okuyacağınızı adım adım verir.",
+      "intro": "Oteller için <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> içinde A/B test, bütçeyi “hissettiğim gibi” değil, veriyle yöneten en pratik yöntemlerden biridir. Aynı hedefleme ve bütçe ile bazı videoların daha yüksek view rate ve CTR üretmesi, çoğu zaman thumbnail, ilk 5 saniye hook veya CTA gibi küçük kreatif öğelerden kaynaklanır. Doğru yorumlandığında A/B test, zayıf kreatifleri hızlı eleme ve kazanan varyantı sezonda ölçekleme avantajı sağlar. (Varsayım: genel kabul; kesin oran iddiası yok.) Bu rehber, YouTube’da otel özelinde hangi öğelerin öncelikli test edileceğini, test türlerini, test matrisi kurulumunu ve sonuçları nasıl okuyacağınızı adım adım verir.",
       "quickSummary": [
         "1) Test hedefini net seç",
         "2) Tek değişken kuralına sadık kal",
@@ -62992,8 +63525,12 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi hizmet sayfası",
+        "label": "YouTube Reklam Yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
       },
       {
         "label": "Reklam Raporlama",
@@ -63002,6 +63539,22 @@
       {
         "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Kreatif, Thumbnail, Müzik ve CTA",
+        "href": "/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta"
+      },
+      {
+        "label": "YouTube Reklam Hataları ve Çözümleri",
+        "href": "/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri"
+      },
+      {
+        "label": "YouTube Raporlama ve KPI",
+        "href": "/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi"
+      },
+      {
+        "label": "YouTube Reklam Yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -63030,6 +63583,10 @@
           {
             "type": "p",
             "text": "Altın kural: Aynı anda çok fazla değişken değiştirmeyin. “Thumbnail + hook + hedefleme” birlikte değişirse, neyin kazandırdığını anlayamazsınız."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı daha geniş <a href=\"/tr/sem\">SEM optimizasyon süreci</a> içinde düşünmek gerekir; çünkü sistematik test yapılmadığında ortaya çıkan <a href=\"/tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri\">YouTube reklam hataları ve çözümleri</a> çoğu zaman aynı kök nedenlere dayanır."
           },
           {
             "type": "callout",
@@ -63088,6 +63645,10 @@
               "KPI: CTR, video seçilme oranı (proxy)",
               "En hızlı sonuç: 2 thumbnail metin varyant"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu alanları sistemli test etmek için <a href=\"/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta\">thumbnail, hook ve CTA optimizasyonu</a> yaklaşımını referans almak faydalıdır."
           },
           {
             "type": "h3",
@@ -63220,6 +63781,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Hook, sahne ve mesaj alternatifleri gerekiyorsa bunları planlı bir <a href=\"/tr/creative/video-produksiyon\">video prodüksiyon süreci</a> içinde üretmek, test kalitesini ciddi biçimde artırır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -63277,6 +63842,10 @@
               "Orta sinyaller: engaged sessions, segment kalitesi",
               "Geç sinyaller: dönüşüm/CPA (varsa)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Kazanan varyasyonu belirlerken <a href=\"/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi\">YouTube raporlama ve KPI rehberi</a> ile ana metrikleri netleştirmek, sonuçları da düzenli <a href=\"/tr/sem/reklam-raporlama\">reklam performans raporlaması</a> içine taşımak gerekir."
           },
           {
             "type": "callout",
@@ -63494,6 +64063,24 @@
             "slot": "checklist-06"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: küçük testler sezon bütçesini daha güvenli yönetir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube A/B test süreci, oteller için yalnız iki kreatif arasında seçim yapmak değil; hipotez kurmak, tek değişken test etmek, doğru KPI ile karar vermek ve kazananı kontrollü biçimde ölçeklemektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı sahaya taşımak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam yönetimi</a> yaklaşımını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adım olur."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -63539,7 +64126,7 @@
           "İç linklerde kırık link ve redirect zinciri yok",
           "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
           "Secondary CTA → /tr/sem/youtube-reklam-yonetimi",
-          "İç link targets → /tr/sem/reklam-raporlama, /tr/creative/video-produksiyon"
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta, /tr/sem/blog/otellerin-youtube-reklamlarinda-yaptigi-hatalar-ve-cozumleri, /tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi, /tr/sem/reklam-raporlama, /tr/creative/video-produksiyon, /tr/sem/youtube-reklam-yonetimi-sss"
         ]
       }
     }
@@ -63595,7 +64182,7 @@
     },
     "h1": {
       "title": "Kısa vs Uzun Otel YouTube Videoları: Performans Karşılaştırması ve Strateji",
-      "intro": "“Video kısa mı olmalı, uzun mu?” sorusu otellerde tek bir cevap taşımaz; çünkü video süresi, hedefle ve funnel aşamasıyla birlikte anlam kazanır. Kısa videolar hızlı mesaj taşır; uzun videolar deneyimi derinleştirir. Kısa ve uzun videoların birlikte kullanıldığı kampanyalarda view rate ve marka araması artışının daha dengeli geliştiği gözlenebilir. (Varsayım: genel gözlem; kesin oran iddiası yok.) Bu rehber, kısa (6–15 sn) ve uzun (30–90 sn) videoları KPI’lar üzerinden kıyaslar, hangi hedef için hangi süreyi seçeceğinizi ve “bumper + long form” kombinasyonunu nasıl kurgulayacağınızı otel senaryolarıyla anlatır.",
+      "intro": "Oteller için <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> planlarken “video kısa mı olmalı, uzun mu?” sorusunun tek bir cevabı yoktur; çünkü video süresi, hedefle ve funnel aşamasıyla birlikte anlam kazanır. Kısa videolar hızlı mesaj taşır; uzun videolar deneyimi derinleştirir. Kısa ve uzun videoların birlikte kullanıldığı kampanyalarda view rate ve marka araması artışının daha dengeli geliştiği gözlenebilir. (Varsayım: genel gözlem; kesin oran iddiası yok.) Bu rehber, kısa (6–15 sn) ve uzun (30–90 sn) videoları KPI’lar üzerinden kıyaslar, hangi hedef için hangi süreyi seçeceğinizi ve “bumper + long form” kombinasyonunu nasıl kurgulayacağınızı otel senaryolarıyla anlatır.",
       "quickSummary": [
         "1) “Kısa mı uzun mu?” yerine “hangi hedef için?” diye sorun",
         "2) Bilinirlik ve hatırlatma için kısa video kullanın",
@@ -63627,12 +64214,32 @@
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Video prodüksiyon",
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "YouTube Reklam Türleri",
+        "href": "/tr/sem/blog/oteller-icin-youtube-reklam-turleri"
+      },
+      {
+        "label": "YouTube Shorts Stratejisi",
+        "href": "/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi"
+      },
+      {
+        "label": "Kreatif, Thumbnail, Müzik ve CTA",
+        "href": "/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta"
+      },
+      {
+        "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Reels video",
+        "label": "Reels Video",
         "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "YouTube Reklam Yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -63657,6 +64264,10 @@
           {
             "type": "p",
             "text": "“Kısa mı uzun mu?” yerine şu soruyu sorun: “Bu videoyla hangi davranışı istiyorum?”"
+          },
+          {
+            "type": "p",
+            "text": "Bu kararı daha geniş <a href=\"/tr/sem\">SEM video planlaması</a> içinde düşünmek ve önce <a href=\"/tr/sem/blog/oteller-icin-youtube-reklam-turleri\">YouTube video format seçimi</a> ile bumper, skippable ve long-form rollerini ayırmak gerekir."
           },
           {
             "type": "list",
@@ -63734,6 +64345,10 @@
             "text": "Kısa videoda metin/altyazı mobilde okunur değilse tüm mesaj boşa gider. Sound-off izlenmeye göre ekran yazısı şarttır."
           },
           {
+            "type": "p",
+            "text": "Bu kullanım mantığını daha ayrıntılı görmek için <a href=\"/tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi\">kısa video ve Shorts stratejisi</a> üzerinden mobil tüketim davranışını ayrı okumak faydalıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -63785,6 +64400,10 @@
             "text": "“Tatilde bir gün” gibi formatlar uzun videoda en iyi performans veren şablonlardandır (Varsayım: deneyim içeriği daha izlettirir)."
           },
           {
+            "type": "p",
+            "text": "Bu derinlikte bir anlatı kurmak için çoğu zaman <a href=\"/tr/creative/video-produksiyon\">uzun format video prodüksiyonu</a> planı gerekir; sahne sırası, çekim ve kurgu burada belirleyici olur."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -63817,6 +64436,10 @@
           {
             "type": "p",
             "text": "Bu kombinasyonun mantığı: kısa video ile dikkat ve hatırlama yarat, uzun video ile değerlendirmeyi derinleştir. Otellerde özellikle sezon başlangıcı ve destinasyon hikâyesi anlatımında iyi çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışta <a href=\"/tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta\">hook, müzik ve CTA zamanlaması</a> doğru kurulmadığında, kısa ve uzun video birlikte kullanılsa bile performans düşebilir."
           },
           {
             "type": "h3",
@@ -63992,8 +64615,8 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Tek konsepti 3 süreye çevir (6/15/30+).",
-              "Kısa formatları /tr/smm/reels-video ile ölçekle.",
-              "Prodüksiyonu /tr/creative/video-produksiyon ile standardize et."
+              "Kısa formatları <a href=\"/tr/smm/reels-video\">Reels ve kısa video uyarlaması</a> ile ölçekle.",
+              "Prodüksiyonu <a href=\"/tr/creative/video-produksiyon\">video prodüksiyon standardı</a> ile eşleştir."
             ]
           },
           {
@@ -64064,6 +64687,24 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: video süresi kararı hedefe ve hikâye derinliğine göre verilir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa ve uzun video arasında doğru seçim yapmak, yalnız saniye hesabı yapmak değil; funnel aşamasını, mesaj derinliğini, CTA zamanını ve prodüksiyon ihtiyacını birlikte değerlendirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı sahaya taşımak isterseniz <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam yönetimi</a> yaklaşımını inceleyebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adım olur."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -64102,7 +64743,7 @@
         "technicalChecklist": [
           "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
           "Secondary CTA → Varsayım: şablon indirme /tr/sem/youtube-reklam-yonetimi sayfasında",
-          "İç link targets → /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/sem/blog/oteller-icin-youtube-reklam-turleri, /tr/sem/blog/otel-youtube-kisavideo-shorts-stratejisi, /tr/sem/blog/otel-youtube-reklamlarinda-kreatif-thumbnail-muzik-cta, /tr/creative/video-produksiyon, /tr/smm/reels-video, /tr/sem/youtube-reklam-yonetimi-sss",
           "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
           "Secondary CTA türü: Download Asset",
           "Asset üretimi: Üretildi (zorunlu)",
@@ -64163,7 +64804,7 @@
     },
     "h1": {
       "title": "YouTube Reklamlarını Google Ads Search ve Meta Kampanyalarıyla Nasıl Birleştirirsiniz?",
-      "intro": "Tek kanala yüklenen otel kampanyaları kısa vadede çalışsa da, rekabeti yüksek destinasyonlarda sürdürülebilir büyüme genelde dengeli kanal karması ile gelir. YouTube, kullanıcı henüz arama yapmadan önce ilgi ve “gitme niyeti” üretir; Search bu niyeti yüksek niyetli sorgularda yakalar; Meta ise kanıt, tekrar temas ve remarketing ile kararı hızlandırır. Çok kanallı yapı kuran otellerde bilinirlik ve rezervasyon hacminin daha dengeli artma eğiliminde olduğu gözlenir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.) Bu rehber; mesaj/teklif setlerini ortaklaştırarak YouTube + Search + Meta’yı tek bir otel funnel’ı içinde çalıştırmanın pratik playbook’unu verir.",
+      "intro": "Tek kanala yüklenen otel kampanyaları kısa vadede çalışsa da, rekabeti yüksek destinasyonlarda sürdürülebilir büyüme genelde dengeli kanal karması ile gelir. Bu yüzden <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> yalnız bir bilinirlik kanalı gibi değil; Search ve Meta ile birlikte çalışan daha geniş bir talep yaratma ve yakalama sistemi olarak düşünülmelidir. YouTube, kullanıcı henüz arama yapmadan önce ilgi ve “gitme niyeti” üretir; Search bu niyeti yüksek niyetli sorgularda yakalar; Meta ise kanıt, tekrar temas ve remarketing ile kararı hızlandırır. Çok kanallı yapı kuran otellerde bilinirlik ve rezervasyon hacminin daha dengeli artma eğiliminde olduğu gözlenir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.) Bu rehber; mesaj/teklif setlerini ortaklaştırarak YouTube + Search + Meta’yı tek bir otel funnel’ı içinde çalıştırmanın pratik playbook’unu verir.",
       "quickSummary": [
         "1) YouTube ile ilgi ve niyet yarat",
         "2) Search ile marka ve yüksek niyetli talebi yakala",
@@ -64191,7 +64832,11 @@
     },
     "internalLinks": [
       {
-        "label": "SEM",
+        "label": "YouTube reklam yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "SEM kampanya mimarisi",
         "href": "/tr/sem"
       },
       {
@@ -64199,12 +64844,28 @@
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
-        "label": "Sosyal medya reklamları",
+        "label": "sosyal medya reklamları",
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube remarketing",
+        "href": "/tr/sem/blog/youtube-remarketing-otel-web-ve-ota-trafigi"
+      },
+      {
+        "label": "YouTube raporlama ve KPI",
+        "href": "/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi"
+      },
+      {
+        "label": "12 aylık YouTube stratejisi",
+        "href": "/tr/sem/blog/oteller-icin-youtube-stratejisi-icin-12-aylik-yol-haritasi"
+      },
+      {
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -64229,6 +64890,10 @@
           {
             "type": "p",
             "text": "Cross-channel strateji; YouTube, Search ve Meta’yı ayrı ayrı “kampanya” olarak değil, aynı müşteri yolculuğunun farklı temasları olarak kurgulamaktır. Otelde amaç, kullanıcıyı tek reklamla ikna etmek değil; doğru sırayla temas ederek kararı hızlandırmaktır: önce ilham, sonra arama, sonra kanıt ve teklif."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş <a href=\"/tr/sem\">SEM kampanya mimarisi</a> içinde okumak ve kanal rollerini aynı <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama stratejisi</a> altında toplamak, direct booking tarafında daha net bir yol haritası oluşturur."
           },
           {
             "type": "callout",
@@ -64340,6 +65005,10 @@
             "text": "YouTube’un rolü; otel/destinasyon konseptini tanıtıp kullanıcıyı “aklına sokmak”tır. Ardından kullanıcı marka veya destinasyon + otel araması yaptığında Search devreye girer. Bu kombinasyon, last-click bakışında görünmeyebilir; ama assisted etkisi genelde bu noktada oluşur."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads yönetimi</a>, YouTube’un ısıttığı talebi marka ve yüksek niyetli sorgularda yakalayan kanal haline gelir; yani video ilgiyi üretirken Search rezervasyona daha yakın aramaları toplar."
+          },
+          {
             "type": "h3",
             "text": "Pratik senaryo: Marka filmi → arama kampanyası"
           },
@@ -64421,6 +65090,10 @@
             "text": "Uzun YouTube videosundan 15s ve 6s kesitler çıkarıp reels formatına uygun hale getirmek maliyeti düşürür. Bu akışı /tr/smm/sosyal-medya-reklamlari ve /tr/smm/reels-video tarafıyla standardize etmek avantaj sağlar."
           },
           {
+            "type": "p",
+            "text": "Bu kısa kesitleri <a href=\"/tr/smm/sosyal-medya-reklamlari\">sosyal medya reklamları yönetimi</a> içinde Meta yerleşimlerine göre dağıtmak, aynı mesajı farklı formatlarda tekrar kullanmayı ve sosyal kanalda yeniden temas kurmayı kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -64449,6 +65122,10 @@
           {
             "type": "p",
             "text": "Cross-channel remarketing; YouTube izleyicisini Search ve Meta’da, site ziyaretçisini YouTube ve Meta’da yeniden hedefleme mantığıdır. Amaç, aynı kişiyi her yerde boğmak değil; niyet seviyesine göre doğru mesajla tekrar temas etmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu geri kazanım katmanını daha ayrıntılı kurmak için <a href=\"/tr/sem/blog/youtube-remarketing-otel-web-ve-ota-trafigi\">YouTube remarketing ile web ve OTA trafiğini geri kazanmak</a> mantığını segment bazında planlamak gerekir."
           },
           {
             "type": "h3",
@@ -64542,6 +65219,10 @@
             "text": "Cross-channel yapıda en sık hata, sadece last-click raporuna bakıp YouTube’u “satış getirmiyor” diye kısmaktır. YouTube çoğu zaman assisted etkide çalışır: marka araması artışı, remarketing havuzu büyümesi, daha yüksek CTR gibi dolaylı sinyaller üretir. Çakışmaları okurken; kanal rolü, frekans, segment paylaşımı ve kampanya hedefi birlikte değerlendirilmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu katkıyı doğru okumak için <a href=\"/tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi\">YouTube performans raporlaması</a> içinde assisted conversion, view-through ve kanal bazlı KPI ayrımını ayrıca takip etmek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -64570,6 +65251,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, “hemen başlayalım” diyen ekipler için minimum uygulanabilir pakettir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sadece tek kampanya değil, sezon ve hedef pazar planı olarak kurmak isteyen ekipler için <a href=\"/tr/sem/blog/oteller-icin-youtube-stratejisi-icin-12-aylik-yol-haritasi\">12 aylık YouTube kanal planı</a> yaklaşımı iyi bir tamamlayıcıdır."
           },
           {
             "type": "h3",
@@ -64697,6 +65382,24 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: YouTube, Search ve Meta aynı funnel’ın farklı görevlerini üstlenir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube tek başına sadece farkındalık, Search sadece son tıklama, Meta da sadece sosyal görünürlük kanalı değildir. Doğru kurguda bu üçü birbirinin sinyalini besler; YouTube ilgiyi üretir, Search niyeti yakalar, Meta ise tekrar temas ve kanıtla kararı hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı operasyona taşımak isteyen ekipler için <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam yönetimi</a> yaklaşımı, kanal rollerini ve remarketing akışını aynı planda toplamanıza yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adım olur."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -64735,7 +65438,7 @@
         "technicalChecklist": [
           "Primary CTA → /tr/otel-dijital-pazarlama",
           "Secondary CTA → Varsayım: şablon indirme /tr/sem sayfasında",
-          "İç link targets → /tr/sem, /tr/sem/google-ads-yonetimi, /tr/smm/sosyal-medya-reklamlari, /tr/otel-dijital-pazarlama",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/google-ads-yonetimi, /tr/smm/sosyal-medya-reklamlari, /tr/sem/blog/youtube-remarketing-otel-web-ve-ota-trafigi, /tr/sem/blog/oteller-icin-youtube-raporlama-ve-kpi, /tr/sem/blog/oteller-icin-youtube-stratejisi-icin-12-aylik-yol-haritasi, /tr/sem/youtube-reklam-yonetimi-sss",
           "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
           "Secondary CTA türü: Download Asset",
           "Asset üretimi: Üretildi (zorunlu)",
@@ -64798,7 +65501,7 @@
     },
     "h1": {
       "title": "Seslendirme ve Dil Stratejisi: Otel YouTube Reklamlarında Hangi Dilde Nasıl Konuşmalısınız?",
-      "intro": "Otel YouTube reklamında dil, sadece “anlaşılma” meselesi değildir; güven ve rezervasyon niyetinin en güçlü tetikleyicilerinden biridir. Özellikle Almanya ve Rusya gibi pazarlarda, misafire ana dilinde hitap eden video + çok dilli çağrı merkezi kombinasyonunun güven duygusunu artırabildiği gözlemlenir. (Veri noktası: sheet içgörüsü; kesin oran iddiası yok.) Ancak dil stratejisi, tek başına seslendirme eklemekle bitmez: altyazı standardı, ekran metinleri ve CTA’nın web/WhatsApp/4 dilli çağrı merkeziyle tutarlı olması gerekir. Bu rehber, TR/EN/DE/RU için pratik bir karar ağacı, ton rehberi ve uygulanabilir şablonlar sunar.",
+      "intro": "Otel YouTube reklamında dil, sadece “anlaşılma” meselesi değildir; güven ve rezervasyon niyetinin en güçlü tetikleyicilerinden biridir. Bu yüzden <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> içinde ses tonu, altyazı, hedef pazar ve karşılama dilini tek parça gibi düşünmek gerekir. Özellikle Almanya ve Rusya gibi pazarlarda, misafire ana dilinde hitap eden video + çok dilli çağrı merkezi kombinasyonunun güven duygusunu artırabildiği gözlemlenir. (Veri noktası: sheet içgörüsü; kesin oran iddiası yok.) Ancak dil stratejisi, tek başına seslendirme eklemekle bitmez: altyazı standardı, ekran metinleri ve CTA’nın web/WhatsApp/4 dilli çağrı merkeziyle tutarlı olması gerekir. Bu rehber, TR/EN/DE/RU için pratik bir karar ağacı, ton rehberi ve uygulanabilir şablonlar sunar.",
       "quickSummary": [
         "1) Hedef pazarın dilini seç; video dili ile web/call center dilini hizala",
         "2) Mesaj anlatıysa seslendirme, tek vaatse müzik + güçlü metin tercih et",
@@ -64826,20 +65529,40 @@
     },
     "internalLinks": [
       {
+        "label": "YouTube reklam yönetimi",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      {
+        "label": "SEM kampanya mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube hedefleme yapısı",
+        "href": "/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi"
+      },
+      {
         "label": "4 dilli çağrı merkezi",
         "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "senaryo ve storyboard planı",
+        "href": "/tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard"
       },
       {
-        "label": "İçerik üretimi",
+        "label": "destinasyon ve deneyim odaklı YouTube stratejisi",
+        "href": "/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi"
+      },
+      {
+        "label": "çok dilli içerik üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "YouTube reklam yönetimi",
-        "href": "/tr/sem/youtube-reklam-yonetimi"
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -64866,6 +65589,10 @@
             "text": "Kısa cevap: hedef pazarın dilini. Pratikte oteller için dil kararı 3 faktöre dayanır:"
           },
           {
+            "type": "p",
+            "text": "Bu kararı daha geniş <a href=\"/tr/sem\">SEM kampanya mimarisi</a> içinde ve otelin hangi pazarda nasıl büyüyeceğini belirleyen <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama stratejisi</a> ile birlikte okumak gerekir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -64877,6 +65604,10 @@
           {
             "type": "p",
             "text": "Eğer web veya 4 dilli çağrı merkezi o dili desteklemiyorsa, ana dilde video yapıp kullanıcıyı Türkçe bir form/telefon hattına atmak “iletişim kopukluğu” yaratabilir."
+          },
+          {
+            "type": "p",
+            "text": "Dil seçimini sezgiyle değil, <a href=\"/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi\">YouTube hedefleme yapısı</a> içinde ülke, dil, niyet ve pazar segmentleriyle birlikte kurgulamak gerekir."
           },
           {
             "type": "callout",
@@ -64925,6 +65656,10 @@
             "text": "Pratik kural: Eğer videonun mesajı “anlatı” gerektiriyorsa (hikâye/deneyim), seslendirme; eğer mesaj “tek vaat” ise (kampanya/teklif), müzik + güçlü metin çoğu zaman yeterlidir."
           },
           {
+            "type": "p",
+            "text": "Bu karar, aslında <a href=\"/tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard\">YouTube reklam filmi senaryosu ve storyboard planı</a> içinde verilir; çünkü ses tonu, metin ritmi ve hook yapısı sahne akışından ayrı düşünülmemelidir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check",
@@ -64953,6 +65688,10 @@
           {
             "type": "p",
             "text": "Evet, çünkü kullanıcıların önemli bir kısmı videoyu sessiz izler. Altyazı ve ekran metni; hem anlaşılmayı hem de hatırlamayı artırır. Oteller için en iyi pratik, altyazıyı “çeviri” değil, mesajı güçlendiren bir katman olarak kullanmaktır: kısa, net, mobil okunur."
+          },
+          {
+            "type": "p",
+            "text": "Bu altyazı, açıklama ve kısa sosyal copy setlerini tek standarda bağlamak için <a href=\"/tr/smm/icerik-uretimi\">çok dilli içerik üretimi</a> yaklaşımıyla çalışmak süreci daha sürdürülebilir hale getirir."
           },
           {
             "type": "h3",
@@ -64996,6 +65735,10 @@
           {
             "type": "p",
             "text": "Aynı mesajın tonu pazara göre değişebilir. Burada amaç stereotip üretmek değil; “otel markanızın” tonunu pazarda anlaşılır hale getirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu farkları yalnız çeviri olarak değil, <a href=\"/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi\">destinasyon ve deneyim odaklı video stratejisi</a> olarak okumak gerekir; çünkü aynı plaj, spa veya şehir deneyimi her pazarda aynı motivasyonla çalışmaz."
           },
           {
             "type": "h3",
@@ -65052,6 +65795,10 @@
           {
             "type": "p",
             "text": "Dil stratejisinin gerçek testi, CTA anıdır. Kullanıcı “şimdi ne yapacağım?” dediğinde karşısına çıkan web sayfası ve çağrı merkezi aynı dili desteklemiyorsa dönüşüm düşer. Bu yüzden CTA dilini ve aksiyonunu (telefon/WhatsApp/web) 4 dilli çağrı merkeziyle uyumlu tasarlamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi yapısı</a>, reklamda verdiğiniz dil vaadini telefon, WhatsApp ve satış tarafında tamamlayan kritik katmandır."
           },
           {
             "type": "h3",
@@ -65254,6 +66001,24 @@
             "slot": "proof-08"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: dil stratejisi yalnız çeviri değil, satış ve karşılama deneyimidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Video dili, ses tonu, altyazı yapısı, hedefleme mantığı ve çağrı merkezi karşılama dili birlikte çalıştığında çok dilli kampanya gerçekten güven üretir. Aksi halde kullanıcı videoda bir vaat görür, kapanışta başka bir deneyim yaşar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı operasyona taşımak isteyen ekipler için <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için YouTube reklam yönetimi</a> yaklaşımı; kreatif, hedefleme ve dil uyumunu aynı planda toplamanıza yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası iyi bir sonraki adım olur."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -65299,7 +66064,7 @@
           "Secondary CTA türü download_asset olarak işlendi",
           "Primary CTA → /tr/cagri-merkezi/4-dilli-cagri-merkezi",
           "Secondary CTA → /tr/cagri-merkezi/4-dilli-cagri-merkezi",
-          "İç link targets → /tr/otel-dijital-pazarlama, /tr/smm/icerik-uretimi, /tr/sem/youtube-reklam-yonetimi",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi, /tr/cagri-merkezi/4-dilli-cagri-merkezi, /tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard, /tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi, /tr/smm/icerik-uretimi, /tr/sem/youtube-reklam-yonetimi-sss",
           "Dil varyantları tablosu sections içinde table block olarak işlendi",
           "Template asset bölümü format bozulmadan download_asset içinde işlendi"
         ]
@@ -65357,7 +66122,7 @@
     },
     "h1": {
       "title": "Oteller İçin 12 Aylık YouTube Strateji Yol Haritası",
-      "intro": "YouTube’u “kampanya kampanya” yönetmek, otellerde sezonluluk nedeniyle genelde verimsizliğe yol açar: prodüksiyon geç kalır, bütçe yanlış ayda harcanır, ölçüm eksik kalır. Yıl boyu planlı kullanan otellerin daha güçlü marka algısı ve daha stabil rezervasyon akışı yakalayabildiği gözlenebilir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.) Bu yol haritası, Q1–Q4 boyunca hedefleri, video türlerini, medya ritmini, bütçe ve KPI takibini aynı takvimde birleştirir. Amaç: içerik üretimi ile kampanya planlamasının kopmaması; “çekim + medya + raporlama”nın tek döngüde çalışmasıdır.",
+      "intro": "YouTube’u “kampanya kampanya” yönetmek, otellerde sezonluluk nedeniyle genelde verimsizliğe yol açar: prodüksiyon geç kalır, bütçe yanlış ayda harcanır, ölçüm eksik kalır. Yıl boyu planlı kullanan otellerin daha güçlü marka algısı ve daha stabil rezervasyon akışı yakalayabildiği gözlenebilir. (Varsayım: genel gözlem; kesin kıyas iddiası yok.) Bu yol haritası, <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube reklam yönetimi</a> sürecini Q1–Q4 boyunca hedefler, video türleri, medya ritmi, bütçe ve KPI takibini aynı takvimde birleştirerek ele alır. Amaç: içerik üretimi ile kampanya planlamasının kopmaması; “çekim + medya + raporlama”nın tek döngüde çalışmasıdır.",
       "quickSummary": [
         "1) Q1’de ölçüm, kreatif set ve marka hazırlığını kilitle",
         "2) Q2’de erken rezervasyon ve cross-channel talep yaratmayı büyüt",
@@ -65385,20 +66150,40 @@
     },
     "internalLinks": [
       {
-        "label": "YouTube Reklam Yönetimi",
+        "label": "YouTube reklam yönetimi",
         "href": "/tr/sem/youtube-reklam-yonetimi"
       },
       {
-        "label": "Reklam Raporlama",
+        "label": "SEM strateji planlaması",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "otel dijital pazarlama stratejisi",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "YouTube bütçe ve teklif stratejileri",
+        "href": "/tr/sem/blog/oteller-icin-youtube-butce-ve-teklif-stratejileri"
+      },
+      {
+        "label": "destinasyon ve deneyim odaklı video stratejisi",
+        "href": "/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi"
+      },
+      {
+        "label": "2026 YouTube reklam trendleri",
+        "href": "/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin"
+      },
+      {
+        "label": "YouTube reklam performans raporlaması",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
+        "label": "satış dönüşüm raporlaması",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "label": "YouTube reklam yönetimi SSS",
+        "href": "/tr/sem/youtube-reklam-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -65422,7 +66207,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yol haritası, Q1–Q4 boyunca hedefleri, video türlerini, medya ritmini, bütçe ve KPI takibini aynı takvimde birleştirir. Amaç: içerik üretimi ile kampanya planlamasının kopmaması; “çekim + medya + raporlama”nın tek döngüde çalışmasıdır."
+            "text": "Bu yol haritası, yıllık video planını <a href=\"/tr/sem\">SEM strateji planlaması</a> içine yerleştirirken aynı zamanda <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama stratejisi</a> ile de aynı takvimde çalıştırmayı kolaylaştırır. Amaç: içerik üretimi ile kampanya planlamasının kopmaması; “çekim + medya + raporlama”nın tek döngüde çalışmasıdır."
           },
           {
             "type": "cta",
@@ -65659,7 +66444,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Q4, bir yandan sezon kapanışı ve win-back, diğer yandan gelecek yılın büyüme test dönemidir. Sadakat, tekrar rezervasyon ve yeni pazar (ör. yeni dil/segment) testleri burada konumlanır."
+            "text": "Q4, bir yandan sezon kapanışı ve win-back, diğer yandan gelecek yılın büyüme test dönemidir. Sadakat, tekrar rezervasyon ve yeni pazar (ör. yeni dil/segment) testleri burada konumlanır. Bu aşamada <a href=\"/tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin\">2026 YouTube reklam trendlerini</a> yeni yıl planına erken dahil etmek, Q1 prodüksiyon ve medya kararlarını daha sağlam kurmaya yardım eder."
           },
           {
             "type": "h3",
@@ -65716,6 +66501,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, yıllık planı “tek sayfada” görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Tabloyu doldururken yaz sezonu, erken rezervasyon, etkinlik, wellness, aile tatili ve “tatilde bir gün” gibi temaları <a href=\"/tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi\">destinasyon ve deneyim odaklı video stratejisi</a> mantığıyla çeyreklere dağıtmak gerekir."
           },
           {
             "type": "media",
@@ -65797,7 +66586,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Yıllık planın en kritik kısmı bütçeyi “sezon geldi, basalım” şeklinde değil, hedefe göre ritmik yönetmektir. Q1’de test ve hazırlık için kontrollü bütçe; Q2–Q3’te ölçek; Q4’te stabilizasyon ve yeni test."
+            "text": "Yıllık planın en kritik kısmı bütçeyi “sezon geldi, basalım” şeklinde değil, hedefe göre ritmik yönetmektir. Q1’de test ve hazırlık için kontrollü bütçe; Q2–Q3’te ölçek; Q4’te stabilizasyon ve yeni test. Bu ritmi kurarken <a href=\"/tr/sem/blog/oteller-icin-youtube-butce-ve-teklif-stratejileri\">YouTube bütçe ve teklif stratejileri</a> ile çeyrek bazlı teklif modelini eşlemek gerekir."
           },
           {
             "type": "h3",
@@ -65855,7 +66644,7 @@
           },
           {
             "type": "p",
-            "text": "İç link önerileri (sheet): /tr/sem/youtube-reklam-yonetimi, /tr/sem/reklam-raporlama, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama"
+            "text": "Yıllık planın yönetim tarafında medya sonuçlarını <a href=\"/tr/sem/reklam-raporlama\">YouTube reklam performans raporlaması</a> ile, rezervasyon ve lead etkisini ise <a href=\"/tr/raporlama/satis-donusum\">YouTube kampanyalarının satış dönüşüm etkisi</a> üzerinden birlikte okumak gerekir."
           },
           {
             "type": "callout",
@@ -65971,6 +66760,20 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc-yillik-youtube-planini-isletmek",
+        "title": "Sonuç: yıllık YouTube planını işletmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yıllık plan, yalnız içerik takvimi değil; prodüksiyon, medya bütçesi, raporlama ve satış etkisini birlikte yöneten bir çalışma modelidir. Bunu operasyonel olarak kurmak isteyen ekipler için <a href=\"/tr/sem/youtube-reklam-yonetimi\">oteller için yıllık YouTube reklam yönetimi</a> sayfası doğru bir sonraki adımdır."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki uygulama detaylarını netleştirmek için <a href=\"/tr/sem/youtube-reklam-yonetimi-sss\">YouTube reklam yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -66009,7 +66812,7 @@
         "technicalChecklist": [
           "Canonical /tr/sem/blog/otel-youtube-stratejisi-icin-12-aylik-yol-haritasi olarak tanımlandı",
           "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
-          "İç link targets: /tr/otel-dijital-pazarlama, /tr/sem/youtube-reklam-yonetimi, /tr/sem/reklam-raporlama, /tr/raporlama/satis-donusum",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/youtube-reklam-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/blog/oteller-icin-youtube-butce-ve-teklif-stratejileri, /tr/sem/blog/oteller-icin-destinasyon-ve-deneyim-odakli-youtube-stratejisi, /tr/sem/blog/2026-youtube-reklam-trendleri-oteller-icin, /tr/sem/reklam-raporlama, /tr/raporlama/satis-donusum, /tr/sem/youtube-reklam-yonetimi-sss",
           "Çeyrek bazlı tablo BÖLÜM 4 içinde işlendi",
           "Download Asset üretimi zorunlu olarak eklendi",
           "Media pack standardı V2.3 slot mantığıyla işlendi"
@@ -86061,7 +86864,7 @@
     },
     "h1": {
       "title": "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
-      "intro": "Mobilde otel araması, giderek daha fazla “anlık ihtiyaç” davranışına benziyor: kullanıcı yoldadır, şehirde geç saat olmuştur, toplantı uzamıştır ya da plan değişmiştir. Bu anda “yakınımdaki oteller” araması sadece bir bilgi sorgusu değil; “hemen karar” sinyalidir. Google/Think with Google içerikleri, “near me” niyetinin yerel bağlamda güçlü bir intent olduğunu mikro-anlar çerçevesinde anlatır.\n\nBu rehberin amacı: mobil ve near me aramalarını konum hedefleme + Maps/konum varlıkları + tıkla-ara/WhatsApp + mobil landing birleşimiyle yakalayıp rezervasyona çevirmek. Yani yalnız kampanya değil, operasyon hazır oluş (açık saat, çağrı merkezi) ve ölçüm (nitelikli çağrı) birlikte yönetilecek.",
+      "intro": "Mobilde otel araması, giderek daha fazla “anlık ihtiyaç” davranışına benziyor: kullanıcı yoldadır, şehirde geç saat olmuştur, toplantı uzamıştır ya da plan değişmiştir. Bu anda “yakınımdaki oteller” araması sadece bir bilgi sorgusu değil; “hemen karar” sinyalidir. Google/Think with Google içerikleri, “near me” niyetinin yerel bağlamda güçlü bir intent olduğunu mikro-anlar çerçevesinde anlatır.\n\nBu rehberin amacı: <a href=\"/tr/sem/google-ads-yonetimi\">near me otel aramaları</a> ve mobil aramaları konum hedefleme + Maps/konum varlıkları + tıkla-ara/WhatsApp + mobil landing birleşimiyle yakalayıp rezervasyona çevirmek. Yani yalnız kampanya değil, operasyon hazır oluş (açık saat, çağrı merkezi) ve ölçüm (nitelikli çağrı) birlikte yönetilecek.",
       "quickSummary": [
         "1) Near me niyetini ayrı kampanya mantığıyla ele al",
         "2) Presence odaklı konum hedeflemeyi test et",
@@ -86089,20 +86892,40 @@
     },
     "internalLinks": [
       {
-        "label": "Yerel SEO hizmet sayfası",
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Yerel SEO",
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
+        "label": "Otel SEO",
         "href": "/tr/otel/seo"
       },
       {
-        "label": "Çağrı merkezi rezervasyon desteği",
+        "label": "Sezonluk otel kampanyaları",
+        "href": "/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari"
+      },
+      {
+        "label": "Google Ads ve çağrı merkezi sinerjisi",
+        "href": "/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi"
+      },
+      {
+        "label": "Çok dilli otel kampanyaları",
+        "href": "/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari"
+      },
+      {
+        "label": "Rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
       },
       {
-        "label": "Google Ads yönetimi hizmet sayfası",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "label": "Google Ads yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -86123,6 +86946,10 @@
           {
             "type": "p",
             "text": "“Near me” davranışı çoğu zaman “I-want-to-go / I-want-to-buy” mikro-anlarıyla örtüşür: kullanıcı yakınında bir seçenek arar ve hızlı aksiyon bekler. Think with Google micro-moments kaynakları, near me aramalarının mobilde güçlü bir hız/niyet sinyali olduğuna dikkat çeker."
+          },
+          {
+            "type": "p",
+            "text": "Bu davranışı daha geniş <a href=\"/tr/sem\">mobil öncelikli otel reklamcılığı</a> içinde okumak gerekir; çünkü kullanıcı mobilde yalnız görünürlük değil, anında aksiyon bekler."
           },
           {
             "type": "p",
@@ -86170,6 +86997,10 @@
           {
             "type": "p",
             "text": "“Near me/yakınımdaki” otel aramaları, kullanıcının yakın çevrede ve genellikle kısa zaman penceresinde konaklama ihtiyacı taşıdığına işaret eder; niyet genellikle yüksektir. Bu sorguları yakalamak için konum hedefleme (özellikle “presence”) ve Maps/konum varlıklarıyla (location assets) güven sinyali vermek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden <a href=\"/tr/seo/yerel-seo\">lokasyon bazlı otel reklamları</a> ile harita görünürlüğü, işletme profili ve yerel niyet sinyalleri birlikte düşünülmelidir."
           },
           {
             "type": "callout",
@@ -86229,6 +87060,18 @@
           {
             "type": "p",
             "text": "Zamanlama: Sheet notuna paralel olarak şehir otellerinde mobil ve near me aramalarının akşam saatlerinde daha belirgin olabileceğine dair genel gözlemler paylaşılır (kesin rakam iddiası yapmadan). (Varsayım: pazar ve lokasyona göre değişir.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlüğü yalnız reklamla değil, <a href=\"/tr/otel/seo\">mobil otel arama görünürlüğü</a> ile de desteklemek gerekir; çünkü kullanıcı çoğu zaman reklam ve organik sonucu aynı karar akışında görür."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle hafta sonu, bayram ve last minute aramalarında <a href=\"/tr/sem/blog/google-ads-sezonluk-otel-kampanyalari\">mobil son dakika rezervasyon talebi</a> ayrı mesaj, saat planı ve teklif disiplini ister."
+          },
+          {
+            "type": "p",
+            "text": "Lokasyonda bulunan yabancı misafirler için <a href=\"/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari\">çok dilli mobil otel aramaları</a> da ayrı reklam dili ve landing uyumu gerektirir."
           },
           {
             "type": "callout",
@@ -86354,6 +87197,10 @@
             "text": "Otel pratiği:"
           },
           {
+            "type": "p",
+            "text": "Buradaki amaç, reklam tıklamasını yalnız aramaya değil, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">yerel aramadan telefonla rezervasyona geçiş</a> akışına taşımaktır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -86439,6 +87286,10 @@
           {
             "type": "p",
             "text": "Şehir otellerinde akşam saatlerinde gelen aramalarda “hızlı cevap” fark yaratır; destinasyon otellerinde ise “transfer/konum/iptal” itirazlarını script’le yönetmek gerekir (Varsayım)."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden <a href=\"/tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi\">mobil kullanıcıyı rezervasyona taşımak</a> yalnız medya planı değil, operasyon ve kapama süreci tasarımıdır."
           },
           {
             "type": "callout",
@@ -86596,6 +87447,14 @@
             "text": "Ama asıl farkı operasyon yaratır: açık saat, hızlı cevap, doğru script ve nitelikli çağrı ölçümü yoksa en değerli trafik boşa gider. Bu yüzden near me stratejisi kampanya ayarı olarak değil, reklam + landing + operasyon sistemi olarak ele alınmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isteyen ekipler için <a href=\"/tr/sem/google-ads-yonetimi\">lokasyon odaklı Google Ads yönetimi</a> yaklaşımı, reklam, SEO ve çağrı akışını tek planda toplar."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Mobil & Near Me Google Ads Stratejisi Talep Et",
@@ -86653,6 +87512,7 @@
           "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
         ],
         "technicalChecklist": [
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/seo/yerel-seo, /tr/otel/seo, /tr/sem/blog/google-ads-sezonluk-otel-kampanyalari, /tr/sem/blog/google-ads-ve-cagri-merkezi-sinerjisi, /tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari, /tr/cagri-merkezi/rezervasyon-destegi, /tr/sem/google-ads-yonetimi-sss",
           "Canonical kontrolü (parametreli sayfalar dahil)",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
