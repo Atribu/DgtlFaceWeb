@@ -22667,7 +22667,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Reklam Raporlama & Performans Analizi — https://dgtlface.com/tr/sem/reklam-raporlama",
         "Blog / URL: 15 — https://dgtlface.com/tr/sem/blog/rapordan-optimizasyona-otel-reklam-karar-surecini-nasil-kurgularsiniz",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -23291,7 +23291,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Reklam Raporlama & Performans Analizi — https://dgtlface.com/tr/sem/reklam-raporlama",
         "Blog / URL: 16 — https://dgtlface.com/tr/sem/blog/otel-reklam-butcesi-pacing-gunluk-haftalik-takip",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500"
@@ -26456,7 +26456,7 @@
         "Silo: SEM",
         "Sayfa (Hub) / URL: Reklam Raporlama & Performans Analizi — https://dgtlface.com/tr/sem/reklam-raporlama",
         "Blog / URL: 21 — https://dgtlface.com/tr/sem/blog/ai-destekli-otel-reklam-raporlari-ve-otomatik-icgoruler",
-        "Blog Tipi: Trend",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Zorluk / Seviye: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -82674,7 +82674,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
         "Blog No + Blog URL: Blog #20 — https://dgtlface.com/tr/sem/blog/google-ads-gizlilik-cerez-kvkk-degisiklikleri-otelleri-nasil-etkiliyor",
-        "Blog Tipi: Core",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Technical",
         "Difficulty/Expertise: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -82703,7 +82703,7 @@
     },
     "h1": {
       "title": "Google Ads, Çerezler ve KVKK: Otel Reklam Performansını Gizlilik Değişiklikleri Nasıl Etkiliyor?",
-      "intro": "Otel reklam performansında “dönüşüm düştü” paniğinin arkasında çoğu zaman iki ayrı gerçek vardır:\n1. Gerçekten talep düştü (sezon/pazar etkisi).\n2. Talep aynı kaldı ama ölçüm sinyali düştü (consent/cookie değişimleri).\n\nKVKK ve çerez rehberleri, kullanıcıya aydınlatma ve gerektiğinde açık rıza mantığını netleştirdi; ayrıca çerezlerin sınıflandırılması, aydınlatma ve açık rıza mekanizmasının doğru kurgulanması oteller için kritik hale geldi.\n\nGoogle tarafında ise Consent Mode; kullanıcının izin durumunu Google etiketlerine iletmenizi sağlayarak tag davranışını ayarlıyor ve bazı senaryolarda conversion modeling ile ölçüm boşluklarını “privacy-safe” şekilde doldurmayı hedefliyor.\n\nBu rehber, hukuki tavsiye vermez; teknik/operasyonel perspektifle “ölçümü koru + riski yönet + performansı doğru yorumla” çerçevesi sunar. Hukuki yorum gerektiren detaylar için kendi hukuk danışmanınıza başvurmanız gerekir.",
+      "intro": "Otel reklam performansında “dönüşüm düştü” paniğinin arkasında çoğu zaman iki ayrı gerçek vardır:\n1. Gerçekten talep düştü (sezon/pazar etkisi).\n2. Talep aynı kaldı ama ölçüm sinyali düştü (consent/cookie değişimleri).\n\n<a href=\"/tr/sem/google-ads-yonetimi\">Google Ads çerezler KVKK</a> ilişkisini doğru okumak bu yüzden kritiktir. KVKK ve çerez rehberleri, kullanıcıya aydınlatma ve gerektiğinde açık rıza mantığını netleştirdi; ayrıca çerezlerin sınıflandırılması, aydınlatma ve açık rıza mekanizmasının doğru kurgulanması oteller için kritik hale geldi.\n\nGoogle tarafında ise Consent Mode; kullanıcının izin durumunu Google etiketlerine iletmenizi sağlayarak tag davranışını ayarlıyor ve bazı senaryolarda conversion modeling ile ölçüm boşluklarını “privacy-safe” şekilde doldurmayı hedefliyor.\n\nBu rehber, hukuki tavsiye vermez; teknik/operasyonel perspektifle “ölçümü koru + riski yönet + performansı doğru yorumla” çerçevesi sunar. Hukuki yorum gerektiren detaylar için kendi hukuk danışmanınıza başvurmanız gerekir.",
       "quickSummary": [
         "1) Dönüşüm düşüşünü “talep” ve “ölçüm” diye ayır",
         "2) Consent/cookie kurgusunu KVKK uyumlu şekilde denetle",
@@ -82731,6 +82731,26 @@
     },
     "internalLinks": [
       {
+        "label": "Google Ads Yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads dönüşüm kurgusu ve takibi",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
+      },
+      {
+        "label": "Otel Google Ads hesap auditi",
+        "href": "/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim"
+      },
+      {
+        "label": "Google Ads trendleri 2026",
+        "href": "/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026"
+      },
+      {
         "label": "KVKK uyum hizmeti",
         "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       },
@@ -82745,16 +82765,28 @@
       {
         "label": "Dönüşüm takibi ve Tag Manager",
         "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Google Ads dönüşüm kurgusu ve takibi",
+        "href": "/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi"
       },
       {
-        "title": "Dönüşüm Takibi ve Tag Manager",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "title": "Otel Google Ads hesap auditi",
+        "href": "/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim"
+      },
+      {
+        "title": "Google Ads trendleri 2026",
+        "href": "/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026"
+      },
+      {
+        "title": "Google Ads Yönetimi Hakkında Sık Sorulan Sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -82764,11 +82796,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "KVKK’nın amacı, kişisel verilerin işlenmesinde temel hak ve özgürlükleri (özellikle özel hayatın gizliliği) korumak ve veri işleyenler için ilke/kuralları belirlemektir. Otellerde bu; web sitesi, rezervasyon motoru, call center, CRM ve pazarlama sistemlerinde “misafir verisi” ve “davranış verisi”nin daha dikkatli yönetilmesi anlamına gelir."
+            "text": "KVKK’nın amacı, kişisel verilerin işlenmesinde temel hak ve özgürlükleri (özellikle özel hayatın gizliliği) korumak ve veri işleyenler için ilke/kuralları belirlemektir. Otellerde bu; web sitesi, rezervasyon motoru, call center, CRM ve pazarlama sistemlerinde “misafir verisi” ve “davranış verisi”nin daha dikkatli yönetilmesi anlamına gelir. Bu konuyu daha geniş <a href=\"/tr/sem\">privacy-safe measurement</a> çerçevesinde okumak gerekir."
           },
           {
             "type": "p",
-            "text": "KVKK Kurumu’nun yayımladığı “Çerez Uygulamaları Hakkında Rehber”, çerez türleri, aydınlatma yükümlülüğü, açık rıza gerektiren durumlar ve iyi/kötü uygulama örnekleri gibi pratik yönleri ele alır. Ayrıca Kurul karar özetlerinde, çerezlere ilişkin aydınlatma/açık rıza metinlerinin sunulmamasının problem edildiği örnekler bulunur."
+            "text": "KVKK Kurumu’nun yayımladığı “Çerez Uygulamaları Hakkında Rehber”, çerez türleri, aydınlatma yükümlülüğü, açık rıza gerektiren durumlar ve iyi/kötü uygulama örnekleri gibi pratik yönleri ele alır. Ayrıca Kurul karar özetlerinde, çerezlere ilişkin aydınlatma/açık rıza metinlerinin sunulmamasının problem edildiği örnekler bulunur. Operasyon tarafında bunu <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyumlu Google Ads ölçümleme</a> yaklaşımıyla ele almak gerekir."
           },
           {
             "type": "h3",
@@ -82830,7 +82862,7 @@
           },
           {
             "type": "p",
-            "text": "Çerezler tamamen kalksa da kalkmasa da, consent oranları, tarayıcıların izleme önleme mekanizmaları ve yasal/ürün politikaları nedeniyle “gözlemlenebilir dönüşüm” düşebilir. Bu yüzden “cookie bitmedi” demek, “ölçüm sorunu bitti” demek değildir."
+            "text": "Çerezler tamamen kalksa da kalkmasa da, consent oranları, tarayıcıların izleme önleme mekanizmaları ve yasal/ürün politikaları nedeniyle “gözlemlenebilir dönüşüm” düşebilir. Bu yüzden “cookie bitmedi” demek, “ölçüm sorunu bitti” demek değildir. Bu yön değişimini daha geniş <a href=\"/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026\">Google Ads gizlilik trendleri</a> bağlamında okumak daha sağlıklıdır."
           },
           {
             "type": "p",
@@ -82864,7 +82896,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Google’ın EU User Consent Policy sayfası; belirli bölgelerde geçerli olmak üzere, reklam kişiselleştirme ve non-essential local storage gibi konularda geçerli rıza ve şeffaflık yükümlülüklerini vurgular. Google Ads tarafında Consent Mode, banner sağlamaz; sizin banner/CMP’nizden gelen kullanıcının izin sinyalini alıp tag davranışını ayarlar."
+            "text": "Google’ın EU User Consent Policy sayfası; belirli bölgelerde geçerli olmak üzere, reklam kişiselleştirme ve non-essential local storage gibi konularda geçerli rıza ve şeffaflık yükümlülüklerini vurgular. Google Ads tarafında Consent Mode, banner sağlamaz; sizin banner/CMP’nizden gelen kullanıcının izin sinyalini alıp tag davranışını ayarlar. Teknik kurgu tarafında <a href=\"/tr/sem/donusum-takibi-tag-manager\">consent mode hotel tracking</a> yaklaşımını GTM ve GA4 olaylarıyla birlikte düşünmek gerekir."
           },
           {
             "type": "p",
@@ -82928,7 +82960,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap (2–3 cümle): KVKK/consent değişimleri, kullanıcı izin vermediğinde cookie tabanlı ölçümü azaltır; Google Ads optimizasyonu daha az gözlemlenebilir dönüşümle çalışabilir. Bu yüzden consent yönetimi, ölçüm tasarımı (Consent Mode/Enhanced Conversions) ve veri güvenliği otel reklam performansının parçası haline gelir."
+            "text": "Net cevap (2–3 cümle): KVKK/consent değişimleri, kullanıcı izin vermediğinde cookie tabanlı ölçümü azaltır; Google Ads optimizasyonu daha az gözlemlenebilir dönüşümle çalışabilir. Bu yüzden consent yönetimi, ölçüm tasarımı (Consent Mode/Enhanced Conversions) ve veri güvenliği otel reklam performansının parçası haline gelir. Bu etkinin <a href=\"/tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi\">güvenli dönüşüm takibi</a> tarafında nasıl göründüğünü ayrıca kontrol etmek gerekir."
           },
           {
             "type": "callout",
@@ -83001,7 +83033,7 @@
           },
           {
             "type": "p",
-            "text": "Google GTM server-side tagging, ölçüm etiketlerini sunucu tarafına taşımaya imkan verir ve ölçümün nerede işlendiğini yeniden düzenler. Otellerde bu, özellikle booking engine / cross-domain / farklı vendor akışlarında daha kontrollü bir ölçüm hattı kurmaya yardımcı olabilir (uygulama karmaşıktır; planla gidilmeli)."
+            "text": "Google GTM server-side tagging, ölçüm etiketlerini sunucu tarafına taşımaya imkan verir ve ölçümün nerede işlendiğini yeniden düzenler. Otellerde bu, özellikle booking engine / cross-domain / farklı vendor akışlarında daha kontrollü bir ölçüm hattı kurmaya yardımcı olabilir (uygulama karmaşıktır; planla gidilmeli). Bu yapı aynı zamanda <a href=\"/tr/yazilim/sunucu-guvenlik\">güvenli ölçümleme altyapısı</a> ve erişim kontrolüyle birlikte ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -83081,9 +83113,13 @@
             "style": "ul",
             "items": [
               "Server-side tagging feasibility (gerekliyse)",
-              "Misafir verisi güvenliği ve erişim kontrolü (sunucu güvenliği) (Internal link: /tr/yazilim/sunucu-guvenlik)",
-              "KVKK veri güvenliği raporlama yaklaşımı (Internal link: /tr/raporlama/kvkk-veri-guvenligi)"
+              "<a href=\"/tr/yazilim/sunucu-guvenlik\">Misafir verisi güvenliği ve erişim kontrolü</a>",
+              "<a href=\"/tr/raporlama/kvkk-veri-guvenligi\">çerez ve rıza yönetimi</a> ile veri saklama ve raporlama disiplini"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yol haritasını düzenli <a href=\"/tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim\">privacy-safe measurement audit’i</a> ile kontrol etmezseniz, consent, GTM ve conversion setup hataları zamanla görünmez hale gelir."
           },
           {
             "type": "p",
@@ -83182,6 +83218,27 @@
         ]
       },
       {
+        "id": "sonuc",
+        "title": "Sonuç: gizlilik uyumlu ölçümleme, reklam performansının parçasıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads performansını artık yalnız tıklama ve dönüşüm sayısıyla değil; consent oranı, modeled conversions, veri güvenliği ve teknik ölçüm doğruluğuyla birlikte değerlendirmek gerekir. Oteller için sürdürülebilir yaklaşım, hukuki kesinlik iddiasına girmeden operasyonel uyum, güvenli veri yönetimi ve doğru dönüşüm sinyali arasında denge kurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına da geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "gizlilik uyumlu Google Ads yönetimi",
+            "text": "Google Ads yönetimi kapsamında consent, dönüşüm takibi, veri güvenliği ve kampanya performansını birlikte ele alan daha sağlıklı bir ölçüm yapısı kuralım.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
         "id": "kvkk-uyumlu-donusum-takibi-kontrol-listesi",
         "title": "KVKK Uyumlu Dönüşüm Takibi Kontrol Listesini İndir",
         "blocks": [
@@ -83270,7 +83327,8 @@
           "Booking engine / call center ölçüm QA tamamlandı",
           "Remarketing listeleri ve consent etkisi raporlandı",
           "Server-side tagging ihtiyacı değerlendirildi",
-          "Sunucu güvenliği ve erişim planı hazırlandı"
+          "Sunucu güvenliği ve erişim planı hazırlandı",
+          "İç link hedefleri normalize edildi: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi, /tr/sem/blog/google-ads-otel-hesap-auditi-adim-adim, /tr/sem/blog/google-ads-trendleri-otel-gelecek-2026, /tr/sem/donusum-takibi-tag-manager, /tr/yazilim/kvkk-uyum-hizmeti, /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/sunucu-guvenlik, /tr/sem/google-ads-yonetimi-sss"
         ]
       }
     }
@@ -83295,7 +83353,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
         "Blog No + Blog URL: Blog #21 — https://dgtlface.com/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026",
-        "Blog Tipi: Trend",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Difficulty/Expertise: Intermediate–Expert",
         "Word Count Range: 3000–3500",
@@ -83325,7 +83383,7 @@
     },
     "h1": {
       "title": "Google Ads Trendleri: Oteller İçin Yapay Zekâ, Otomasyon ve Yeni Kampanya Türleri",
-      "intro": "Google Ads’te değişen şey “bir feature” değil; iş yapış şekli. Oteller açısından bu dönüşüm üç alana yansıyor:\n• Ölçüm: consent/cookie değişimleri nedeniyle “görünen dönüşüm” azalabilir; modelleme ve first-party sinyal güçlendirme önem kazanır.\n• Kampanya türleri: Search tek başına yetmeyebilir; PMax ve Demand Gen gibi kampanyalar “ek yüzey” ve “asset kalitesi” ile büyür.\n• Operasyon: kreatif üretimi, feed/CRM entegrasyonu ve otomasyon kontrolü, “kampanya optimizasyonu” kadar kritik hale gelir.\n\nNot (tarih dili): Bu içerik, kesin tarihli kehanet yerine “yön ve prensip” anlatır. Ürün duyuruları ve gizlilik tarafı sık değiştiği için, otelinizin “değişime dayanıklı” ölçüm+operasyon sistemini kurmayı hedefler.",
+      "intro": "Google Ads’te değişen şey “bir feature” değil; iş yapış şekli. Oteller açısından bu dönüşüm üç alana yansıyor:\n• Ölçüm: consent/cookie değişimleri nedeniyle “görünen dönüşüm” azalabilir; modelleme ve first-party sinyal güçlendirme önem kazanır.\n• Kampanya türleri: Search tek başına yetmeyebilir; PMax ve Demand Gen gibi kampanyalar “ek yüzey” ve “asset kalitesi” ile büyür.\n• Operasyon: kreatif üretimi, feed/CRM entegrasyonu ve otomasyon kontrolü, “kampanya optimizasyonu” kadar kritik hale gelir.\n\nBu yüzden <a href=\"/tr/sem/google-ads-yonetimi\">Google Ads trendleri 2026</a> perspektifini yalnız yeni özellik listesi gibi değil, otelin ölçüm, kreatif ve kanal stratejisini yeniden kuran bir çerçeve olarak okumak gerekir.\n\nNot (tarih dili): Bu içerik, kesin tarihli kehanet yerine “yön ve prensip” anlatır. Ürün duyuruları ve gizlilik tarafı sık değiştiği için, otelinizin “değişime dayanıklı” ölçüm+operasyon sistemini kurmayı hedefler.",
       "quickSummary": [
         "1) Otomasyonu açmadan önce ölçüm ve brand hijyenini düzelt",
         "2) Search temelini koru; PMax ve Demand Gen’i rol bazlı kullan",
@@ -83357,26 +83415,54 @@
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads Performance Max otel stratejisi",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      },
+      {
+        "label": "Demand Gen kampanyaları",
+        "href": "/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor"
+      },
+      {
+        "label": "SGE ve otel Google Ads stratejisi",
+        "href": "/tr/sem/blog/sge-ve-otel-google-ads-stratejisi"
+      },
+      {
         "label": "Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Performance Max otel stratejisi",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
       },
       {
-        "title": "Reklam Raporlama",
-        "href": "/tr/sem/reklam-raporlama"
+        "title": "Demand Gen kampanyaları",
+        "href": "/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor"
+      },
+      {
+        "title": "SGE ve otel Google Ads stratejisi",
+        "href": "/tr/sem/blog/sge-ve-otel-google-ads-stratejisi"
+      },
+      {
+        "title": "Google Ads Yönetimi Hakkında Sık Sorulan Sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -83386,7 +83472,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otomasyon uzun süredir vardı; trend şu: otomasyon artık “opsiyonel katman” olmaktan çıkıp merkeze yerleşiyor. Bunun iki pratik göstergesi:"
+            "text": "Otomasyon uzun süredir vardı; trend şu: otomasyon artık “opsiyonel katman” olmaktan çıkıp merkeze yerleşiyor. Oteller için bunu <a href=\"/tr/sem\">future hotel PPC, yani geleceğin otel reklamcılığı</a> çerçevesinde okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı dönüşüm yalnız kampanya ayarını değil; direct booking, kreatif operasyon ve kanal karması tarafında <a href=\"/tr/otel-dijital-pazarlama\">2026 otel reklam stratejisi</a> kurgusunu da değiştiriyor. Bunun iki pratik göstergesi:"
           },
           {
             "type": "h3",
@@ -83402,7 +83492,7 @@
           },
           {
             "type": "p",
-            "text": "PMax, çok kanallı erişim sağlar. Otellerde en sık hata, PMax’i “Search yerine” koymak veya brand’i PMax’e bırakmaktır. Brand kampanyayı ayrı yönetiyorsanız, Google Ads Help “brand exclusions” kullanımını anlatır."
+            "text": "PMax, çok kanallı erişim sağlar. Otellerde en sık hata, PMax’i “Search yerine” koymak veya brand’i PMax’e bırakmaktır. Brand kampanyayı ayrı yönetiyorsanız, Google Ads Help “brand exclusions” kullanımını anlatır. Bu yapıyı daha detaylı okumak için <a href=\"/tr/sem/blog/google-ads-performance-max-otel-stratejisi\">oteller için AI destekli Google Ads</a> yaklaşımını ayrıca değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -83494,7 +83584,7 @@
           },
           {
             "type": "p",
-            "text": "Google Ads Help, Demand Gen kampanyalarının YouTube (Shorts dahil), Discover, Gmail ve Google Display Network’te etkileşim ve aksiyon yakalamayı hedeflediğini söylüyor. Ayrıca Google’ın Demand Gen Drop (Şubat 2026) duyurusunda, önerilen en iyi pratiklerin 3/4’ünü uygulayanların ortalama %40+ daha fazla dönüşüm gördüğü paylaşılmış. Otel yorumu: Demand Gen, resort konseptlerini (aile, aquapark, spa) “görsel anlatım” ile ısıtmak ve remarketing’i güçlendirmek için iyi bir katman olabilir; ama kreatif kalitesi şart."
+            "text": "Google Ads Help, Demand Gen kampanyalarının YouTube (Shorts dahil), Discover, Gmail ve Google Display Network’te etkileşim ve aksiyon yakalamayı hedeflediğini söylüyor. Ayrıca Google’ın Demand Gen Drop (Şubat 2026) duyurusunda, önerilen en iyi pratiklerin 3/4’ünü uygulayanların ortalama %40+ daha fazla dönüşüm gördüğü paylaşılmış. Otel yorumu: Demand Gen, resort konseptlerini (aile, aquapark, spa) “görsel anlatım” ile ısıtmak ve remarketing’i güçlendirmek için iyi bir katman olabilir; ama kreatif kalitesi şart. Bu alanı daha operasyonel okumak için <a href=\"/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor\">yeni kampanya türleri ve otomasyon</a> tarafını ayrıca incelemek gerekir."
           },
           {
             "type": "h3",
@@ -83503,6 +83593,14 @@
           {
             "type": "p",
             "text": "Brand exclusions dokümantasyonu, PMax ile brand çakışmasını yönetmenin temel araçlarından biri. Otel yorumu: Bu tip kampanyalarda “kontrol” giderek daha çok stratejik guardrail (brand, ölçüm, hedefler, placement/brand safety) kurmaya kayıyor."
+          },
+          {
+            "type": "h3",
+            "text": "SGE ve AI arama deneyimi görünürlüğü nasıl değiştiriyor?"
+          },
+          {
+            "type": "p",
+            "text": "Arama deneyimindeki AI özetleri ve yeni SERP dinamikleri, otellerde reklam görünürlüğü ile organik niyet yakalama dengesini etkiliyor. Search mesajı, brand savunması ve görünürlük tarafındaki değişimi daha net görmek için <a href=\"/tr/sem/blog/sge-ve-otel-google-ads-stratejisi\">SGE ve otel Google Ads stratejisi</a> rehberine ayrıca bakmak gerekir."
           },
           {
             "type": "callout",
@@ -83562,7 +83660,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Gizlilik ve otomasyon birlikte büyürken otelin “kendi verisi” daha kritik hale gelir:\n• Booking engine / PMS / call center verisi\n• Segment (aile, balayı, spa)\n• Pazar (DE/RU/EN/TR)\nBu veri, kampanyaları daha doğru hedeflemek ve ölçümü “gözlenen + modeled + offline” olarak birleştirmek için temel olur (özellikle hashed 1P sinyal yaklaşımlarıyla)."
+            "text": "Gizlilik ve otomasyon birlikte büyürken otelin “kendi verisi” daha kritik hale gelir:\n• Booking engine / PMS / call center verisi\n• Segment (aile, balayı, spa)\n• Pazar (DE/RU/EN/TR)\nBu veri, kampanyaları daha doğru hedeflemek ve ölçümü “gözlenen + modeled + offline” olarak birleştirmek için temel olur (özellikle hashed 1P sinyal yaklaşımlarıyla). Bunun daha sistematik karşılığı, <a href=\"/tr/veri-analiz-ve-raporlama\">kampanya verisiyle karar destek</a> yapısını otelin genel raporlama mimarisine taşımaktır."
           },
           {
             "type": "callout",
@@ -83592,7 +83690,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otomasyon kampanyalarında (PMax/Demand Gen gibi) raporlama her zaman “eski seviyede şeffaf” değildir; bu yüzden ekiplerin yeni standardı şu olmalı:\n• KPI seti net\n• Test tasarımı yazılı\n• Guardrail’ler (brand, bütçe sınırı, hedefler) net\n• Kampanya → aksiyon döngüsü haftalık"
+            "text": "Otomasyon kampanyalarında (PMax/Demand Gen gibi) raporlama her zaman “eski seviyede şeffaf” değildir; bu yüzden <a href=\"/tr/sem/reklam-raporlama\">AI-first kampanya raporlaması</a> standardı şu olmalı:\n• KPI seti net\n• Test tasarımı yazılı\n• Guardrail’ler (brand, bütçe sınırı, hedefler) net\n• Kampanya → aksiyon döngüsü haftalık"
           },
           {
             "type": "p",
@@ -83714,6 +83812,27 @@
             "slot": "proof-08"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 2026’da kazanan yapı, veri ve otomasyon dengesini kuran oteller olacak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads tarafında yapay zekâ, otomasyon ve yeni kampanya türleri tek başına avantaj yaratmaz; ölçüm kalitesi, kreatif operasyon ve kanal stratejisiyle birlikte yönetildiğinde değer üretir. Oteller için doğru yaklaşım, trendleri abartılı vaatlerle değil, kontrollü test, güvenilir veri ve direct booking odağıyla uygulamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına da geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "oteller için güncel Google Ads yönetimi",
+            "text": "Google Ads yönetimi kapsamında AI otomasyon, yeni kampanya türleri, ölçümleme ve raporlama yapınızı birlikte güncelleyelim.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -83767,14 +83886,15 @@
           "Asset matrix (konsept×sezon×dil) dokümante edildi",
           "Haftalık rapor ritmi ve guardrail seti belirlendi",
           "Call center/WhatsApp kapanışlarının ölçüm görünürlüğü değerlendirildi",
-          "24 aylık yol haritası için backlog + sprint planı oluşturuldu"
+          "24 aylık yol haritası için backlog + sprint planı oluşturuldu",
+          "İç link hedefleri normalize edildi: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/sem/blog/google-ads-performance-max-otel-stratejisi, /tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor, /tr/sem/blog/sge-ve-otel-google-ads-stratejisi, /tr/sem/reklam-raporlama, /tr/veri-analiz-ve-raporlama, /tr/otel-dijital-pazarlama, /tr/sem/google-ads-yonetimi-sss"
         ]
       }
     }
   },
 
   "BlogDemandGenKampanyalariOtellerIcinNeIfadeEdiyor": {
-    "title": "Demand Gen Oteller İçin Ne İfade Ediyor?",
+    "title": "Demand Gen Kampanyaları Oteller İçin Ne İfade Ediyor?",
     "slug": "demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor",
     "department": "sem",
     "subDepartment":"googleAdsAdvertising",
@@ -83792,7 +83912,7 @@
         "Silo: SEM",
         "Sayfa Adı + Sayfa URL: Google Ads Yönetimi — https://dgtlface.com/tr/sem/google-ads-yonetimi",
         "Blog No + Blog URL: Blog #22 — https://dgtlface.com/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor",
-        "Blog Tipi (Core/Trend): Trend",
+        "Blog Tipi: Bridge_Page",
         "Intent: Informational + Strategic",
         "Difficulty/Expertise: Intermediate–Expert",
         "Word Count Range: 3000–3500"
@@ -83820,7 +83940,7 @@
     },
     "h1": {
       "title": "Demand Gen Kampanyaları Oteller İçin Ne İfade Ediyor?",
-      "intro": "Demand Gen’i doğru anlamanın en kısa yolu şu: Search “ben arıyorum” anıdır, Demand Gen ise “ben henüz aramıyorum ama keşfediyorum” anıdır. Demand Gen kampanyaları; YouTube, YouTube Shorts, Discover ve Gmail gibi yüksek hacimli browse yüzeylerinde görsel-video kreatiflerle kullanıcıyı etkileyip aksiyon almaya yönlendirmeyi hedefler. Otel tarafında bu; “konsept anlatımı” (aile/aquapark, spa, balayı, luxury), “paket duyurusu” ve “sezon öncesi ısıtma” gibi alanlarda yeni bir büyüme kaldıraçıdır. Ancak yeni bir kampanya tipi olduğu için arayüz ve özelliklerin zamanla değişebileceğini baştan kabul etmek gerekir.",
+      "intro": "Demand Gen’i doğru anlamanın en kısa yolu şu: Search “ben arıyorum” anıdır, Demand Gen ise “ben henüz aramıyorum ama keşfediyorum” anıdır. Demand Gen kampanyaları; YouTube, YouTube Shorts, Discover ve Gmail gibi yüksek hacimli browse yüzeylerinde görsel-video kreatiflerle kullanıcıyı etkileyip aksiyon almaya yönlendirmeyi hedefler. Otel tarafında bu; “konsept anlatımı” (aile/aquapark, spa, balayı, luxury), “paket duyurusu” ve “sezon öncesi ısıtma” gibi alanlarda yeni bir büyüme kaldıraçıdır. Bu yüzden <a href=\"/tr/sem/google-ads-yonetimi\">Demand Gen oteller için</a> yalnız yeni bir kampanya tipi değil, üst funnel talep yaratma stratejisinin parçası olarak okunmalıdır. Ancak yeni bir kampanya tipi olduğu için arayüz ve özelliklerin zamanla değişebileceğini baştan kabul etmek gerekir.",
       "quickSummary": [
         "1) Search niyet yakalar, Demand Gen talebi ısıtır",
         "2) Demand Gen browse yüzeylerinde görsel-video anlatımla çalışır",
@@ -83848,8 +83968,24 @@
     },
     "internalLinks": [
       {
-        "label": "Google Ads yönetimi",
+        "label": "Google Ads Yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads trendleri 2026",
+        "href": "/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026"
+      },
+      {
+        "label": "Performance Max otel stratejisi",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      },
+      {
+        "label": "AI destekli reklam metni ve kreatif üretim",
+        "href": "/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin"
       },
       {
         "label": "YouTube reklam yönetimi",
@@ -83862,16 +83998,28 @@
       {
         "label": "Video prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Google Ads Yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Performance Max otel stratejisi",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
       },
       {
-        "title": "YouTube Reklam Yönetimi",
-        "href": "/tr/sem/youtube-reklam-yonetimi"
+        "title": "Google Ads trendleri 2026",
+        "href": "/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026"
+      },
+      {
+        "title": "AI destekli reklam metni ve kreatif üretim",
+        "href": "/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin"
+      },
+      {
+        "title": "Google Ads Yönetimi Hakkında Sık Sorulan Sorular",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "sections": [
@@ -83881,7 +84029,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Demand Gen, Google ekosisteminde görsel ve video ağırlıklı kreatiflerle, kullanıcılar arama yapmıyorken bile “ilgi ve talep” oluşturmayı hedefleyen kampanya yaklaşımıdır. YouTube/Shorts, Discover ve Gmail gibi yüzeylerde çalışır; oteller için marka-konsept anlatımı ve yeni kitleye erişim için üst–orta funnel aracı olarak konumlanır."
+            "text": "Demand Gen, Google ekosisteminde görsel ve video ağırlıklı kreatiflerle, kullanıcılar arama yapmıyorken bile “ilgi ve talep” oluşturmayı hedefleyen kampanya yaklaşımıdır. YouTube/Shorts, Discover ve Gmail gibi yüzeylerde çalışır; oteller için marka-konsept anlatımı ve yeni kitleye erişim için üst–orta funnel aracı olarak konumlanır. Bu yapıyı genel <a href=\"/tr/sem\">oteller için talep yaratma kampanyaları</a> yaklaşımı içinde ve <a href=\"/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026\">yeni Google Ads kampanya türleri</a> bağlamında değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -83921,7 +84069,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Demand Gen, Google’ın “browse yüzeyleri”nde performans odaklı görsel kampanya ihtiyacını büyütüyor. Resmî açıklamalarda Demand Gen; YouTube (Shorts dahil), Discover ve Gmail gibi alanlarda çalışır ve görsel-video kreatiflerle talep yaratmayı hedefler."
+            "text": "Demand Gen, Google’ın “browse yüzeyleri”nde performans odaklı görsel kampanya ihtiyacını büyütüyor. Resmî açıklamalarda Demand Gen; <a href=\"/tr/sem/youtube-reklam-yonetimi\">upper funnel hotel ads, yani üst funnel video görünürlüğü</a> mantığıyla YouTube (Shorts dahil), Discover ve Gmail gibi alanlarda çalışır ve görsel-video kreatiflerle talep yaratmayı hedefler."
           },
           {
             "type": "p",
@@ -83975,6 +84123,10 @@
           {
             "type": "p",
             "text": "Demand Gen’in yeri genelde Upper–Mid: talep yaratır, ilgiyi besler, Search’teki brand ve generic niyeti güçlendirebilir. Bu yüzden KPI seti “Search gibi” okunmamalı."
+          },
+          {
+            "type": "p",
+            "text": "Burada kritik ayrım, <a href=\"/tr/sem/blog/google-ads-performance-max-otel-stratejisi\">Demand Gen ve Performance Max farkı</a> tarafında ortaya çıkar; Demand Gen daha çok konsept anlatımı ve ilgi yaratma rolüne yaklaşırken, PMax otomasyon ve mevcut sinyallerle ek hacim üretmeye odaklanır."
           },
           {
             "type": "h3",
@@ -84096,11 +84248,11 @@
           },
           {
             "type": "p",
-            "text": "Demand Gen’in performansı büyük ölçüde kreatif setin kalitesine bağlıdır. Google Ads Help, Demand Gen için kullanılabilecek creative formatları ve asset gereksinimlerini (headline/description, logo, farklı görsel oranları, video formatları, carousel kartları) detaylandırır."
+            "text": "Demand Gen’in performansı büyük ölçüde kreatif setin kalitesine bağlıdır. Google Ads Help, Demand Gen için kullanılabilecek creative formatları ve asset gereksinimlerini (headline/description, logo, farklı görsel oranları, video formatları, carousel kartları) detaylandırır. Otel tarafında bu ihtiyaç, <a href=\"/tr/creative/video-produksiyon\">visual demand creation, yani görsel talep yaratma</a> kalitesiyle doğrudan ilişkilidir."
           },
           {
             "type": "p",
-            "text": "Google’ın “creative excellence” içerikleri de Demand Gen’de video, image, carousel gibi formatlarla hikâye anlatımı ve asset çeşitliliğinin önemini vurgular."
+            "text": "Google’ın “creative excellence” içerikleri de Demand Gen’de video, image, carousel gibi formatlarla hikâye anlatımı ve asset çeşitliliğinin önemini vurgular. Bu yüzden varyasyon üretimini <a href=\"/tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin\">AI destekli reklam kreatifleri</a> yaklaşımıyla ölçeklemek daha verimli hale gelir."
           },
           {
             "type": "h3",
@@ -84146,8 +84298,8 @@
             "style": "ul",
             "items": [
               "Kreatif üretimini bir “operasyon” yap: konsept×sezon×dil matrisini çıkar.",
-              "Video prodüksiyonu için iç link: https://dgtlface.com/tr/creative/video-produksiyon",
-              "İçerik üretimi için iç link: https://dgtlface.com/tr/smm/icerik-uretimi"
+              "<a href=\"/tr/creative/video-produksiyon\">görsel ve video odaklı otel reklamları</a> için prodüksiyon standardını baştan tanımla.",
+              "Sosyal medya uyumlu varyasyonları <a href=\"/tr/smm/icerik-uretimi\">Demand Gen kreatif stratejisi</a> ile aynı üretim hattında planla."
             ]
           }
         ]
@@ -84361,9 +84513,13 @@
             "text": "Özellikle lansman, re-branding, sezon öncesi ısıtma ve konsept/paket duyurularında Demand Gen’in etkisi; kreatif kalite, landing uyumu ve ölçüm disiplinine bağlı olarak anlamlı hale gelir. Bu nedenle kreatif operasyon, KPI çerçevesi ve 30 günlük test planı işin merkezinde olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
-            "label": "Demand Gen Uygunluk & Senaryo Analizi Talep Et",
+            "label": "oteller için Demand Gen ve Google Ads yönetimi",
             "text": "Oteliniz için Demand Gen’in rolünü, kreatif ihtiyacını ve 30 günlük test planını netleştiririz.",
             "href": "/tr/sem/google-ads-yonetimi"
           }
@@ -84416,7 +84572,7 @@
           "Primary CTA: Demand Gen Uygunluk & Senaryo Analizi Talep Et",
           "Secondary CTA: Demand Gen Otel Kampanya Brief Şablonunu İndir",
           "Secondary CTA türü: Download Asset (Template)",
-          "İç link hedefleri: /tr/sem/google-ads-yonetimi, /tr/sem/youtube-reklam-yonetimi, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon",
+          "İç link hedefleri normalize edildi: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/sem/blog/google-ads-trendleri-otel-gelecek-2026, /tr/sem/blog/google-ads-performance-max-otel-stratejisi, /tr/sem/blog/ai-destekli-reklam-metni-ve-kreatif-uretim-oteller-icin, /tr/sem/youtube-reklam-yonetimi, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon, /tr/sem/google-ads-yonetimi-sss",
           "Tablo kullanımı: Demand Gen vs Search vs Video karşılaştırma tablosu",
           "Trend içerik olduğundan 30/90 gün review ve test backlog mantığı korunmalı"
         ]
@@ -84472,7 +84628,7 @@
     },
     "h1": {
       "title": "SGE (Search Generative Experience) Otel Google Ads Stratejisini Nasıl Etkileyecek?",
-      "intro": "SGE, ilk çıktığı dönemde Search Labs’ta “AI destekli özet + keşif” katmanı olarak tartışılıyordu; bugün pratikte Google Search’te AI Overviews ve AI Mode gibi AI özellikleriyle aynı yönü temsil ediyor: kullanıcı daha fazla “özet” görüyor, daha farklı link setleriyle keşfe çıkabiliyor. Google, AI Overviews’ta reklamların “dedike slotlarda” ve açıkça etiketli biçimde görünmeye devam edeceğini; ayrıca Ads’in AI Overviews’un üstünde/altında/ içinde yer alabileceğini belirtir.\n\nOtel tarafında bu dönüşüm tek bir şey demek: marka/entity gücü + içerik/FAQ + Ads mesajı + ölçüm aynı sistemin parçaları haline geliyor. Antalya’da “aile aquapark”, Belek’te “golf resort”, Side’da “her şey dahil”, Bodrum’da “luxury deneyim” gibi aramalar; AI özetin üstte “destinasyon+deneyim” anlatımı yapabildiği, alt tarafta ise Ads ve OTA’ların rekabet ettiği yeni bir ekran gerçekliğine dönüşebilir. Bu yazı “kesin konuşmak” yerine, Google’ın resmi dokümantasyonundaki mekanikleri baz alıp otel için hazırlık adımlarını netleştirir.",
+      "intro": "SGE, ilk çıktığı dönemde Search Labs’ta “AI destekli özet + keşif” katmanı olarak tartışılıyordu; bugün pratikte Google Search’te AI Overviews ve AI Mode gibi AI özellikleriyle aynı yönü temsil ediyor: kullanıcı daha fazla “özet” görüyor, daha farklı link setleriyle keşfe çıkabiliyor. Google, AI Overviews’ta reklamların “dedike slotlarda” ve açıkça etiketli biçimde görünmeye devam edeceğini; ayrıca Ads’in AI Overviews’un üstünde/altında/ içinde yer alabileceğini belirtir.\n\nBu yüzden <a href=\"/tr/sem/google-ads-yonetimi\">SGE ve otel Google Ads</a> ilişkisini yalnız reklam yerleşimi değil, görünürlük mimarisi olarak okumak gerekir.\n\nOtel tarafında bu dönüşüm tek bir şey demek: marka/entity gücü + içerik/FAQ + Ads mesajı + ölçüm aynı sistemin parçaları haline geliyor. Antalya’da “aile aquapark”, Belek’te “golf resort”, Side’da “her şey dahil”, Bodrum’da “luxury deneyim” gibi aramalar; AI özetin üstte “destinasyon+deneyim” anlatımı yapabildiği, alt tarafta ise Ads ve OTA’ların rekabet ettiği yeni bir ekran gerçekliğine dönüşebilir. Bu yazı “kesin konuşmak” yerine, Google’ın resmi dokümantasyonundaki mekanikleri baz alıp otel için hazırlık adımlarını netleştirir.",
       "quickSummary": [
         "1) AI Overviews/AI Mode, otel aramalarında ilk ekran kararını erkene çekebilir",
         "2) Ads, AI Overviews’un üstünde, altında veya içinde konumlanabilir",
@@ -84500,6 +84656,26 @@
     },
     "internalLinks": [
       {
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads trendleri 2026",
+        "href": "/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026"
+      },
+      {
+        "label": "Mobil öncelikli otel arama davranışı",
+        "href": "/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri"
+      },
+      {
+        "label": "Çok dilli otel kampanyaları",
+        "href": "/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari"
+      },
+      {
         "label": "İçerik SEO",
         "href": "/tr/seo/icerik-seo"
       },
@@ -84509,11 +84685,11 @@
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Google Ads yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "label": "Google Ads yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -84533,7 +84709,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "SGE, Google Search’te generative AI destekli özetlerle kullanıcıya “konunun özünü” hızlı verme fikridir; bugün bu yön, AI Overviews ve AI Mode gibi AI özelliklerinde görünür. Google Search Central, AI Overviews ve AI Mode’un ilgili linkleri yüzeye çıkararak hızlı bilgi + keşif sağladığını; AI Overviews’ın yalnızca “classic Search’e ek fayda” sunduğu sorgularda tetiklendiğini anlatır."
+            "text": "SGE, Google Search’te generative AI destekli özetlerle kullanıcıya “konunun özünü” hızlı verme fikridir; bugün bu yön, AI Overviews ve AI Mode gibi AI özelliklerinde görünür. Google Search Central, AI Overviews ve AI Mode’un ilgili linkleri yüzeye çıkararak hızlı bilgi + keşif sağladığını; AI Overviews’ın yalnızca “classic Search’e ek fayda” sunduğu sorgularda tetiklendiğini anlatır. Bu değişimi daha geniş <a href=\"/tr/sem\">geleceğe dayanıklı otel reklamcılığı</a> çerçevesinde düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -84541,7 +84717,7 @@
           },
           {
             "type": "p",
-            "text": "AI özet alanı büyüdükçe, kullanıcı “ilk ekran kararını” daha erken verir. Bu, Ads ve organik sonuçların mutlak tıklamasını düşürebilir veya tıklamayı daha “seçilmiş” hale getirebilir (daha az ama daha niyetli tık). Bu etki sorgu tipine ve SERP düzenine göre değişir."
+            "text": "AI özet alanı büyüdükçe, kullanıcı “ilk ekran kararını” daha erken verir. Bu, Ads ve organik sonuçların mutlak tıklamasını düşürebilir veya tıklamayı daha “seçilmiş” hale getirebilir (daha az ama daha niyetli tık). Bu etki sorgu tipine ve SERP düzenine göre değişir. Bu yön değişimini daha geniş <a href=\"/tr/sem/blog/google-ads-trendleri-otel-gelecek-2026\">generative search impact, yani üretken arama etkisi</a> bağlamında okumak daha sağlıklıdır."
           },
           {
             "type": "h3",
@@ -84581,7 +84757,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Google Search Central dokümanı, AI Mode ve AI Overviews’un “query fan-out” ile birden çok alt sorgu çalıştırabildiğini; daha geniş ve çeşitli supporting link setleri gösterebildiğini söylüyor. Bu, klasik SERP’ten üç fark üretir:"
+            "text": "Google Search Central dokümanı, AI Mode ve AI Overviews’un “query fan-out” ile birden çok alt sorgu çalıştırabildiğini; daha geniş ve çeşitli supporting link setleri gösterebildiğini söylüyor. Bu, klasik SERP’ten üç fark üretir. Özellikle soru kümeleri, bilgi mimarisi ve cevap blokları tarafında <a href=\"/tr/seo/icerik-seo\">içerik SEO ve Google Ads uyumu</a> daha görünür hale gelir:"
           },
           {
             "type": "list",
@@ -84642,7 +84818,7 @@
           },
           {
             "type": "p",
-            "text": "Google, AI Overviews’un “gerekli gördüğünde” çıktığını söyler; yani her sorguda olmayabilir. Otel dikeyinde olası maket (pratik düşünce):"
+            "text": "Google, AI Overviews’un “gerekli gördüğünde” çıktığını söyler; yani her sorguda olmayabilir. Otel dikeyinde olası maketi değerlendirirken <a href=\"/tr/otel/seo\">otel arama görünürlüğü</a> ile reklam görünürlüğünü birlikte okumak gerekir:"
           },
           {
             "type": "list",
@@ -84657,6 +84833,10 @@
           {
             "type": "p",
             "text": "Önemli gerçek: Google Ads Help açıkça; reklamların AI Overviews’un üstünde, altında veya içinde gösterime uygun olabileceğini; bunun mevcut açık artırma ve sinyallerle çalıştığını belirtiyor."
+          },
+          {
+            "type": "p",
+            "text": "Harita, yerel sonuçlar ve hızlı karar davranışı özellikle mobilde daha belirginleştiği için <a href=\"/tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri\">mobil öncelikli otel arama davranışı</a> ile near-me niyetlerini de bu yeni SERP mantığıyla birlikte değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -84801,7 +84981,7 @@
           },
           {
             "type": "p",
-            "text": "Kanal karması artık sadece bütçe değil, “SERP içi rol” yönetimi olacak: Search (niyet), AI Overviews (özet), OTA (hacim), call center (kapanış)."
+            "text": "Kanal karması artık sadece bütçe değil, “SERP içi rol” yönetimi olacak: Search (niyet), AI Overviews (özet), OTA (hacim), call center (kapanış). Bu dengeyi daha geniş <a href=\"/tr/otel-dijital-pazarlama\">geleceğe dayanıklı otel reklam stratejisi</a> içinde kurmak gerekir."
           },
           {
             "type": "h3",
@@ -84828,6 +85008,10 @@
               "Destinasyon/deneyim içeriklerini (SSS + rehber) güçlendir.",
               "Demand Gen/Video gibi üst-funnel katmanları planla; Search’ü ikame etme."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Ülke ve dil bazında farklı arama davranışları oluştuğu için, Almanca, İngilizce, Rusça ve Türkçe sorguları aynı yapıda yönetmek yerine <a href=\"/tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari\">çok dilli SGE ve Google Ads stratejisi</a> kurgusuna ihtiyaç duyarsınız."
           }
         ]
       },
@@ -84862,7 +85046,7 @@
           },
           {
             "type": "p",
-            "text": "Search Central, AI özelliklerinde de SEO temellerinin geçerli olduğunu söylüyor."
+            "text": "Search Central, AI özelliklerinde de SEO temellerinin geçerli olduğunu söylüyor. Bu yüzden destinasyon içerikleri, soru-cevap blokları ve entity yapısını <a href=\"/tr/seo/icerik-seo\">içerik SEO ve Google Ads uyumu</a> mantığıyla ele almak gerekir."
           },
           {
             "type": "list",
@@ -85048,9 +85232,13 @@
             "text": "Reklam yerleşimleri değişebilir; Google Ads Help, reklamların AI Overviews’un üstünde, altında veya içinde görünebileceğini belirtir. Bu nedenle mesaj/landing uyumu, brand savunması ve ölçüm disiplininin önemi artar."
           },
           {
+            "type": "p",
+            "text": "Karar aşamasındaki detayları netleştirmek için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
-            "label": "SGE Hazırlık Analizi Talep Et",
+            "label": "AI arama deneyiminde otel reklamları",
             "text": "Otelinizin AI Overviews/SGE dönemine hazırlık seviyesini ölçüm + içerik + Ads boyutuyla çıkarırız.",
             "href": "/tr/sem/google-ads-yonetimi"
           },
@@ -85106,7 +85294,7 @@
           "table-sge-ai-overviews-etkisi-otel-aksiyonu — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Internal link target listesi uygulandı: /tr/seo/icerik-seo, /tr/otel/seo, /tr/otel-dijital-pazarlama, /tr/sem/google-ads-yonetimi",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/sem/blog/google-ads-trendleri-otel-gelecek-2026, /tr/sem/blog/mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri, /tr/sem/blog/google-ads-cok-dilli-otel-kampanyalari, /tr/seo/icerik-seo, /tr/otel/seo, /tr/otel-dijital-pazarlama, /tr/sem/google-ads-yonetimi-sss",
           "CTA yoğunluğu korundu: Primary 2 kez, Secondary 1 kez",
           "Secondary CTA türü Download Asset olarak üretildi",
           "Checklist + Sprint Plan asset kurgusu işlendi",
@@ -85165,7 +85353,7 @@
     },
     "h1": {
       "title": "AI Destekli Reklam Metni ve Kreatif Üretimi: Oteller Google Ads’te Nasıl Kullanmalı?",
-      "intro": "AI bugün otel reklamcılığında iki büyük problemi çözüyor gibi görünür: hız ve varyasyon. Tek bir otel konsepti için (ör. “aile/aquapark”, “spa weekend”, “balayı”, “luxury”) farklı pazarlara, farklı cihazlara, farklı sezon fazlarına göre onlarca reklam metni ve görsel üretmek klasik yöntemle yavaşlar. Ancak “hız” tek başına bir hedef değildir: otel reklamında yanlış vaat, ton kayması veya politika ihlali, hesabın performansını ve marka güvenini zedeleyebilir. Google Ads politikalarının, güvenli ve şeffaf ekosistem için AI + insan değerlendirmesiyle uygulandığı da özellikle belirtilir.\n\nBu rehberin ana fikri: AI = hızlandırıcı, insan = strateji + son onay. Yani AI size “ilk taslak” ve “varyasyon havuzu” verir; insan ekip ise otel marka tonu, vaat doğruluğu, KVKK/etik sınırlar ve yasal/policy uyumu üzerinden finali çıkarır.",
+      "intro": "AI bugün otel reklamcılığında iki büyük problemi çözüyor gibi görünür: hız ve varyasyon. Tek bir otel konsepti için (ör. “aile/aquapark”, “spa weekend”, “balayı”, “luxury”) farklı pazarlara, farklı cihazlara, farklı sezon fazlarına göre onlarca reklam metni ve görsel üretmek klasik yöntemle yavaşlar. Ancak “hız” tek başına bir hedef değildir: otel reklamında yanlış vaat, ton kayması veya politika ihlali, hesabın performansını ve marka güvenini zedeleyebilir. Google Ads politikalarının, güvenli ve şeffaf ekosistem için AI + insan değerlendirmesiyle uygulandığı da özellikle belirtilir.\n\nBu rehberin ana fikri: <a href=\"/tr/sem/google-ads-yonetimi\">AI destekli reklam metni</a> ve kreatif üretiminde AI = hızlandırıcı, insan = strateji + son onay. Yani AI size “ilk taslak” ve “varyasyon havuzu” verir; insan ekip ise otel marka tonu, vaat doğruluğu, KVKK/etik sınırlar ve yasal/policy uyumu üzerinden finali çıkarır.",
       "quickSummary": [
         "1) AI ile 20–30 metin/görsel varyasyonu hızla üret",
         "2) Final onayı insan ekip versin",
@@ -85193,6 +85381,26 @@
     },
     "internalLinks": [
       {
+        "label": "Google Ads yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "SEM hizmet mimarisi",
+        "href": "/tr/sem"
+      },
+      {
+        "label": "Google Ads kampanya türleri",
+        "href": "/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri"
+      },
+      {
+        "label": "Performance Max otel stratejisi",
+        "href": "/tr/sem/blog/google-ads-performance-max-otel-stratejisi"
+      },
+      {
+        "label": "Demand Gen kampanyaları",
+        "href": "/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor"
+      },
+      {
         "label": "Grafik & motion tasarım",
         "href": "/tr/creative/grafik-motion-tasarim"
       },
@@ -85201,12 +85409,12 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "Google Ads yönetimi",
-        "href": "/tr/sem/google-ads-yonetimi"
-      },
-      {
         "label": "Video prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Google Ads yönetimi SSS",
+        "href": "/tr/sem/google-ads-yonetimi-sss"
       }
     ],
     "relatedPosts": [
@@ -85239,12 +85447,16 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu üretimi daha geniş <a href=\"/tr/sem\">insan kontrollü kreatif iş akışı</a> içinde düşünmek gerekir; çünkü her Google Ads formatı aynı metin ve görsel disiplinini istemez."
+          },
+          {
             "type": "h3",
             "text": "Text customization (AI Max) otellerde nasıl avantaj sağlar?"
           },
           {
             "type": "p",
-            "text": "Google Ads, text customization’ın (eski adıyla automatically created assets) AI Max içinde kampanya düzeyinde bir ayar olduğunu; responsive search ads’te daha fazla başlık ve açıklama üretmeye yardımcı olabileceğini ve bunun “domain, landing page, mevcut reklamlar ve keyword bağlamı” ile üretildiğini açıklar. Otel pratiği: “tek metinle tüm niyete” yaklaşımı yerine; destinasyon+konsept bazlı daha uyumlu mesajlar üretmek."
+            "text": "Google Ads, text customization’ın (eski adıyla automatically created assets) AI Max içinde kampanya düzeyinde bir ayar olduğunu; responsive search ads’te daha fazla başlık ve açıklama üretmeye yardımcı olabileceğini ve bunun “domain, landing page, mevcut reklamlar ve keyword bağlamı” ile üretildiğini açıklar. Otel pratiği: “tek metinle tüm niyete” yaklaşımı yerine; destinasyon+konsept bazlı daha uyumlu mesajlar üretmek. Search, Display, YouTube ve Demand Gen gibi farklı formatlarda <a href=\"/tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri\">AI ile reklam metni varyasyonları</a> ihtiyacı da değişir."
           },
           {
             "type": "h3",
@@ -85288,7 +85500,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI yalnız metin üretmiyor; varlık (asset) tarafında da otomasyon var. Google Ads Help, account level automated assets ile Google’ın performansı artıracağını tahmin ettiği varlıkları otomatik oluşturup reklamın altında gösterebileceğini; bunun manuel varlıklarla birlikte çalıştığını ve performans raporundan izlenebileceğini anlatır. Otel pratiği: Bu varlıklar “faydalı” olabilir ama marka tonu ve yönlendirme kontrolü için izlenmelidir."
+            "text": "AI yalnız metin üretmiyor; varlık (asset) tarafında da otomasyon var. Google Ads Help, account level automated assets ile Google’ın performansı artıracağını tahmin ettiği varlıkları otomatik oluşturup reklamın altında gösterebileceğini; bunun manuel varlıklarla birlikte çalıştığını ve performans raporundan izlenebileceğini anlatır. Otel pratiği: Bu varlıklar “faydalı” olabilir ama marka tonu ve yönlendirme kontrolü için izlenmelidir. Bu mantık özellikle <a href=\"/tr/sem/blog/google-ads-performance-max-otel-stratejisi\">Performance Max için kreatif otomasyon</a> ve asset group yönetiminde daha görünür hale gelir."
           },
           {
             "type": "h3",
@@ -85349,7 +85561,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel reklamında “karar” çoğu zaman görselle verilir: aile konsepti, aquapark, oda manzarası, spa, beach, yemek deneyimi… Google Ads, generated images özelliğiyle prompt girerek yeni image asset’leri üretebileceğinizi, Google’ın size öneriler sunabileceğini ve kampanyaya ekleme kararının sizde olduğunu belirtir. Ayrıca bu araçların kampanya kurulumunda, ad/asset group düzenlemede veya Asset Library’de bulunabileceği; bazı görsellerin kampanya metinleri veya landing sayfanıza dayanarak otomatik üretilebileceği belirtilir."
+            "text": "Otel reklamında “karar” çoğu zaman görselle verilir: aile konsepti, aquapark, oda manzarası, spa, beach, yemek deneyimi… Google Ads, generated images özelliğiyle prompt girerek yeni image asset’leri üretebileceğinizi, Google’ın size öneriler sunabileceğini ve kampanyaya ekleme kararının sizde olduğunu belirtir. Ayrıca bu araçların kampanya kurulumunda, ad/asset group düzenlemede veya Asset Library’de bulunabileceği; bazı görsellerin kampanya metinleri veya landing sayfanıza dayanarak otomatik üretilebileceği belirtilir. Bu yapı özellikle <a href=\"/tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor\">üst funnel görsel talep yaratma</a> kurgularında daha kritik hale gelir."
           },
           {
             "type": "h3",
@@ -85381,7 +85593,11 @@
           },
           {
             "type": "p",
-            "text": "Google’ın Ads & Commerce blogu, Asset Studio’nun AI destekli kreatif workflow için “tek durak” olma hedefini; style references ile marka tutarlılığı ve paylaşılabilir önizleme/işbirliği gibi özellikleri anlatır. Otel pratiği: “brand look & feel” korunarak (renk, tipografi, fotoğraf tonu) seri üretim."
+            "text": "Google’ın Ads & Commerce blogu, Asset Studio’nun AI destekli kreatif workflow için “tek durak” olma hedefini; style references ile marka tutarlılığı ve paylaşılabilir önizleme/işbirliği gibi özellikleri anlatır. Otel pratiği: “brand look & feel” korunarak (renk, tipografi, fotoğraf tonu) seri üretim. Bu fikirleri profesyonel <a href=\"/tr/creative/grafik-motion-tasarim\">oteller için reklam kreatifi üretimi</a> süreciyle birleştirmek, banner ve motion setlerinde kaliteyi korur."
+          },
+          {
+            "type": "p",
+            "text": "Otel deneyimini daha güçlü anlatmak istediğinizde aynı akış <a href=\"/tr/creative/video-produksiyon\">video odaklı reklam kreatifleri</a> için de geçerlidir; AI fikir üretir, gerçek çekim ise güven ve kanıt sağlar."
           },
           {
             "type": "h3",
@@ -85488,7 +85704,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, “nasıl yapacağız?” sorusunun SOP’udur."
+            "text": "Bu bölüm, “nasıl yapacağız?” sorusunun SOP’udur. Bu SOP, sosyal ve arama tarafını birlikte düşünen <a href=\"/tr/smm/icerik-uretimi\">insan kontrolünde kreatif otomasyon</a> yaklaşımıyla daha sürdürülebilir hale gelir."
           },
           {
             "type": "h3",
@@ -85730,6 +85946,14 @@
             "text": "Doğru model; brief → AI taslak → insan revizyon → policy QA → test → ölçek akışıdır. Bu sistem kurulduğunda AI yalnızca hız değil, daha iyi varyasyon disiplini ve daha kontrollü öğrenme hızı da sağlayabilir."
           },
           {
+            "type": "p",
+            "text": "Bu disiplini kalıcı hale getirmek isteyen ekipler için <a href=\"/tr/sem/google-ads-yonetimi\">AI destekli Google Ads kreatif üretimi</a> tarafını operasyonel bir süreç olarak kurmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasında ekiplerin sık baktığı başlıklar için <a href=\"/tr/sem/google-ads-yonetimi-sss\">Google Ads yönetimi hakkında sık sorulan sorular</a> sayfası da iyi bir tamamlayıcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI Destekli Kreatif & Metin Üretimi Workshop’u Talep Et",
@@ -85777,7 +86001,7 @@
           "table-ai-onerisi-insan-kontrolu-test — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Internal link target listesi uygulandı: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/sem/google-ads-yonetimi, /tr/creative/video-produksiyon",
+          "Internal link target listesi uygulandı: /tr/sem, /tr/sem/google-ads-yonetimi, /tr/sem/blog/google-ads-otel-kampanya-turleri-ve-stratejileri, /tr/sem/blog/google-ads-performance-max-otel-stratejisi, /tr/sem/blog/demand-gen-kampanyalari-oteller-icin-ne-ifade-ediyor, /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon, /tr/sem/google-ads-yonetimi-sss",
           "CTA yoğunluğu korundu: Primary 2 kez, Secondary 1 kez",
           "Secondary CTA türü Download Asset olarak üretildi",
           "Checklist + Sprint Plan asset kurgusu işlendi",
