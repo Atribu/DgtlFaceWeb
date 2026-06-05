@@ -14,29 +14,29 @@ const FEATURED_KEYS = [
 export const HOME_FEATURED_BLOGS = {
   tr: [
     {
-      id: "BlogOtelRemarketingPerformansiIcinKpiVeRaporlamaRehberi",
+      id: "MobilOncelikliOtelAramaDavranisiVeNearMeTrendleri",
       dept: "sem",
-      slug: "otel-remarketing-performansi-icin-kpi-ve-raporlama-rehberi",
-      title: "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+      slug: "mobil-oncelikli-otel-arama-davranisi-ve-near-me-trendleri",
+      title: "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri",
       excerpt:
-        "Otel remarketing performansını CTR ile değil; segment bazlı dönüşüm, CPA, ROAS, assisted katkı ve frekans ile ölçün. Display ve video remarketing farkını, GA4 + Looker Studio dashboard’unda doluluk ve gelir verisiyle birlikte okuyarak gerçek katkıyı görün.",
-      updatedAt: "2026-04-01",
+        "Mobil “yakınımdaki oteller” aramalarını Google Ads ile yakalayın. Konum hedefleme, location assets, tıkla-ara, WhatsApp ve mobil landing UX ile son dakika rezervasyonlarını artırın.",
+      updatedAt: "2026-04-10",
       banner: {
-        src: "/images/blog/sem/SEM3-9/SEM3-9-1.webp",
-        alt: "Otel Remarketing Performansı İçin KPI ve Raporlama Rehberi",
+        src: "/images/blog/sem/SEM1-25/SEM1-25-1.webp",
+        alt: "Mobil Öncelikli Otel Arama Davranışı ve “Near Me” Trendleri: Google Ads ile Nasıl Yakalanır?",
       },
     },
     {
-      id: "BlogLogAnaliziIleCrawlBudgetVeBotDavranisiOtelSitelerinde",
+      id: "BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi",
       dept: "seo",
-      slug: "log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde",
-      title: "Log Analiziyle Crawl Budget: Otel SEO",
+      slug: "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi",
+      title: "SEO Raporlarında Veri Kalitesi ve İzleme Hijyeni",
       excerpt:
-        "Googlebot’un en çok/az taradığı URL’leri log’dan görün; 404/5xx ve yönlendirme zincirlerini tespit edin. Filtre/parametre yükünü azaltıp crawl budget’ı kazanın.",
-      updatedAt: "2026-04-24",
+        "SEO raporunu yorumlamadan önce veri hijyenini doğrula: GA4 organik kanal mapping, bot/spam filtreleri, event/tag kırılmaları ve GSC filtre uyumu. Yanlış veriye göre karar verme.",
+      updatedAt: "2026-06-05",
       banner: {
-        src: "/images/blog/seo/SEO1-11/SEO1-11-1.webp",
-        alt: "Log Analizi ile Crawl Budget ve Bot Davranışı Otel Sitelerinde Nasıl Okunur?",
+        src: "/images/blog/seo/SEO5-19/SEO5-19-1.webp",
+        alt: "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
       },
     },
     {

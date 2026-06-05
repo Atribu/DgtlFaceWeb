@@ -1,6 +1,7 @@
 "use client"; // İstemci taraflı bileşen olduğunu belirt
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
+import { IoPersonCircleSharp } from "react-icons/io5";
 
 const Section5 = () => {
    const t = useTranslations('ServicesPage');
@@ -100,11 +101,13 @@ const testimonialsData = [
                   {testimonial.role}
                 </div>
               </div>
-              <img
+              {/* <img
                 className="w-[38px] h-[38px] lg:w-[79px] lg:h-[79px] rounded-full"
                 src={testimonial.image}
                 alt={testimonial.name}
-              />
+              /> */}
+              <IoPersonCircleSharp className="hidden lg:flex" size={52}/>
+              <IoPersonCircleSharp className="flex lg:hidden" size={36}/>
             </div>
             <div className="w-full items-start text-start text-[#140c29] text-[12px] lg:text-[14px] font-normal font-inter28 leading-[120%] lg:leading-tight">
               {testimonial.comment}
