@@ -268,7 +268,9 @@ export const BLOG_MAP = {
     "ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler":"BlogAiDestekliSeoRaporOzetiVeOtomatikIcgoruler",
 
     "multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar":"BlogMultiSiteVeMultiBrandSeoRaporlamaZincirOtellerVeGruplar",
-    "rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik":"BlogRolBazliSeoDashboardlariCeoPazarlamaIcerikTeknik"
+    "rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik":"BlogRolBazliSeoDashboardlariCeoPazarlamaIcerikTeknik",
+    "site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei":"BlogSiteGecisleriVeDomainDegisimiIcinSeoRaporlamaTemplatei",
+    "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi":"BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi"
   },
 
     smm: {

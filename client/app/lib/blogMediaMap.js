@@ -39178,6 +39178,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Panel seti deliverables kartı, amaç karar ve takip, kurum bağlamı",
       caption: "Panel seti deliverables kartı, amaç karar ve takip, kurum bağlamı"
     }
+  },
+
+  "site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei":{
+    banner: {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-1.webp",
+      alt: "Site Geçişleri ve Domain Değişimi İçin SEO Raporlama Template’i",
+      caption: "Site Geçişleri ve Domain Değişimi İçin SEO Raporlama Template’i"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-2.webp",
+      alt: "Migration akış özeti görseli, amaç yol haritası, otel pazarlama bağlamı",
+      caption: "Migration akış özeti görseli, amaç yol haritası, otel pazarlama bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-3.webp",
+    alt: "Baseline hazırlık ayırıcı, amaç ölçüm disiplini, otel ve hizmet bağlamı",
+      caption: "Baseline hazırlık ayırıcı, amaç ölçüm disiplini, otel ve hizmet bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-4.webp",
+      alt: "90 gün takip ayırıcı, amaç sakin izleme, otel raporlama bağlamı",
+      caption: "90 gün takip ayırıcı, amaç sakin izleme, otel raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-5.webp",
+      alt: "Canlı izleme akış diyagramı, amaç erken uyarı, otel dönüşüm bağlamı",
+      caption: "Canlı izleme akış diyagramı, amaç erken uyarı, otel dönüşüm bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-6.webp",
+      alt: "Migration kontrol listesi kartı, amaç kritik hataları önlemek, ajans bağlamı",
+      caption: "Migration kontrol listesi kartı, amaç kritik hataları önlemek, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-7.webp",
+      alt: "Migration KPI skor kartı, amaç normal kriz ayrımı, kurumsal otel bağlamı",
+      caption: "Migration KPI skor kartı, amaç normal kriz ayrımı, kurumsal otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-18/SEO5-18-8.webp",
+      alt: "Migration rapor çıktıları kartı, amaç güven ve takip, otel grubu bağlamı",
+      caption: "Migration rapor çıktıları kartı, amaç güven ve takip, otel grubu bağlamı"
+    }
+  },
+
+  "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi":{
+    banner: {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-1.webp",
+      alt: "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+      caption: "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-2.webp",
+      alt: "Veri mi SEO mu? karar akışı, amaç doğru teşhis, otel/hizmet bağlamı",
+      caption: "Veri mi SEO mu? karar akışı, amaç doğru teşhis, otel/hizmet bağlamı" 
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-3.webp",
+    alt: "Veri hijyeni temeli ayırıcı, amaç ölçüm doğruluğu, raporlama bağlamı",
+      caption: "Veri hijyeni temeli ayırıcı, amaç ölçüm doğruluğu, raporlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-4.webp",
+      alt: "Aylık hijyen rutini ayırıcı, amaç sürdürülebilir kontrol, kurum bağlamı",
+      caption: "Aylık hijyen rutini ayırıcı, amaç sürdürülebilir kontrol, kurum bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-5.webp",
+      alt: "Ölçüm hatası senaryosu diyagramı, amaç triage, SEO raporlama bağlamı",
+      caption: "Ölçüm hatası senaryosu diyagramı, amaç triage, SEO raporlama bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-6.webp",
+      alt: "SEO veri hijyeni checklist kartı, amaç rutin kurmak, ajans bağlamı",
+      caption: "SEO veri hijyeni checklist kartı, amaç rutin kurmak, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-7.webp",
+      alt: "Veri hijyeni KPI kartı, amaç güven skoru, kurumsal bağlamı",
+      caption: "Veri hijyeni KPI kartı, amaç güven skoru, kurumsal bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-19/SEO5-19-8.webp",
+      alt: "Veri hijyeni deliverables kartı, amaç güven ve takip, kurum bağlamı",
+      caption: "Veri hijyeni deliverables kartı, amaç güven ve takip, kurum bağlamı"
+    }
   }
 
 

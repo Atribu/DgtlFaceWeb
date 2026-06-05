@@ -38649,11 +38649,7 @@
               "UTM ve event isimlerini standartlaştırın, CRM etiketlerini tanımlayın.",
               "Funnel KPI’larını kurup haftalık/aylık raporlayın."
             ],
-            
-            "deliverables": [
-              "Buraya: [Diagram / Flow] — 16:9 (1920×1080) — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-diagram-05.webp — Mesaj funnel diyagramı",
-              "Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar-proof-08.webp — Şablon deliverables kartı"
-            ],
+        
             "href": "/downloads/whatsapp-google-mesajlar-event-funnel-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
           },
@@ -69840,11 +69836,6 @@
                 }
               ]
             },
-            "deliverables": [
-              "Buraya: [KPI Card] — 1:1 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-kpi-07.webp — yerel KPI kartları, otel bağlamı",
-              "Buraya: [Diagram] — 16:9 — yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz-diagram-05.webp — map→site funnel, yerel işletme bağlamı",
-              "Buraya: [Tablo] — GBP + GA4 birleşik tablo görseli — dashboard bileşeni"
-            ],
             "href": "/downloads/yerel-seo-kpi-dashboard-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
           }
@@ -70491,9 +70482,7 @@
               "Kontrol vs deney sonuç tablosu",
               "Trend grafik (CTR veya conversions)",
               "Karar cümlesi (keep/kill/iterate)",
-              "Roadmap güncellemesi",
-              "Buraya (Asset içi): [Tablo] — sonuç tablosu görseli — kontrol vs deney kıyası, raporlama bağlamı",
-              "Buraya (Asset içi): [Diagram] — 16:9 — seo-deneyleri-ve-a-b-test-sonuclarini-raporlamak-diagram-05.webp — kontrol vs deney trend grafiği, yönetici sunumu bağlamı"
+              "Roadmap güncellemesi"
             ],
             "href": "/downloads/seo-test-log-sonuc-raporlama-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
@@ -75847,11 +75836,6 @@
                     "Aksiyon alanı (sorumlu/tarih) var"
                   ]
                 }
-              ],
-              "deliverables": [
-                "Buraya: [Tablo] — KPI→rol eşleştirme görseli — rol bazlı tasarım",
-                "Buraya: [Diagram] — 16:9 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-diagram-05.webp — panel seti şeması",
-                "Buraya: [Checklist Card] — 1:1 — rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik-checklist-06.webp — rol bazlı checklist"
               ]
             },
             "href": "/downloads/ceo-pazarlama-icerik-teknik-seo-kpi-seti-sablonu-v1.0.pdf",
@@ -75946,6 +75930,1336 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Refresh Cycle: 365 gün"
+        ]
+      }
+    }
+  },
+
+   "BlogSiteGecisleriVeDomainDegisimiIcinSeoRaporlamaTemplatei": {
+    "title": "Site Geçişi & Domain Değişimi SEO Raporlama Şablonu",
+    "slug": "site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "5 Haziran 2026",
+    "publishedAt": "2026-06-05",
+    "readingTime": "13 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Migration için SEO raporu: geçiş öncesi baseline, canlı izleme, 90 gün takip. Eski→yeni URL/301 kontrolü, indexlenme ve trafik-sıralama trendleriyle riskleri erken yakala.",
+    "seo": {
+      "metaTitle": "Site Geçişi & Domain Değişimi SEO Raporlama Şablonu | DGTLFACE",
+      "metaDescription": "Migration için SEO raporu: geçiş öncesi baseline, canlı izleme, 90 gün takip. Eski→yeni URL/301 kontrolü, indexlenme ve trafik-sıralama trendleriyle riskleri erken yakala."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 18 — https://dgtlface.com/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei"
+      ],
+      "strategySummary": "Bu içerik, site geçişi ve domain değişiminde “SEO çöktü mü?” paniğini azaltan; baz çizgi + canlı izleme + 90 gün takip kurgusuyla risk yönetimi odaklı bir raporlama standardı kurar. Hedef persona; otel/hizmet sitesi yöneticisi ve ajans yöneticisidir; geçişi güvenle yönetmek ve yöneticiye net bir “normal mi/kriz mi?” anlatısı sunmak ister. Funnel MoFu’dadır: doğru metrik setiyle erken uyarı kurulur, teknik/ölçüm/redirect hataları hızlı yakalanır, toparlanma sprint’leri netleşir. Ana iş sorusu: “Geçiş öncesi neyi kaydedip, geçiş sırasında neyi canlı izleyip, sonraki 90 günde hangi sapmaları normal kabul ederek nasıl aksiyon alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-05",
+      "readingTime": "13 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Site geçişleri ve domain değişimleri SEO açısından en riskli dönemlerdir. İyi bir raporlama şablonu; geçiş öncesi baz çizgiyi, geçiş anındaki kritik kontrolleri (URL eşleştirme/301, hata ve index) ve geçiş sonrası 90 günlük trend takibini netleştirir. Böylece düşüşlerin ne kadarının normal, ne kadarının hata olduğunu ayırt eder; CTR, trafik, sıralama ve dönüşüm sapmalarını erken yakalayıp aksiyon planına bağlarsınız.",
+      "sgeSummary": "Migration raporunda baseline al, canlı izleme kur, 90 gün trendi takip et. Eski→yeni URL/301, indexlenme hızı, trafik/CTR/sıralama ve dönüşüm sapmalarını “normal mi kriz mi” diye sınıflandır.",
+      "voiceAnswer": "Domain değiştirirken önce baseline kaydet, sonra 90 gün boyunca index, trafik ve hataları düzenli izle.",
+      "aiFactSheet": [
+        "Hedef kitle: Site yenilemesi/domain değişimi planlayan markalar (TR geneli; otel ve hizmet siteleri dahil)",
+        "KPI: indexlenme, 301 doğruluğu, 404/5xx, GSC görünürlük, GA4 organik trafik/dönüşüm",
+        "Entity Theme: Site Migration; Domain Change; Pre/Post Comparison; 90-Day Follow-up",
+        "Semantic Theme: migration-safe reporting; baseline vs post-move; risk monitoring",
+        "Funnel: Risk önleme → canlı izleme → toparlanma sprint’i → stabilizasyon",
+        "Geo notu: TR’de sezon etkisi (ör. Antalya/Belek/Side/Kemer/Bodrum) zaman penceresi seçiminde dikkate alınır",
+        "Çıktı: URL mapping tablosu + 90 gün takip paneli + alarm/erken uyarı listesi"
+      ]
+    },
+    "h1": {
+      "title": "Site Geçişleri ve Domain Değişimi İçin SEO Raporlama Template’i",
+      "intro": "Site geçişi (re-platform, tasarım yenileme, bilgi mimarisi değişimi) ve domain değişimi, SEO tarafında “en pahalı” risk dönemidir: doğru yapılırsa sorun yaşamadan devam edersiniz; yanlış yapılırsa görünürlük, trafik ve dönüşüm aynı anda düşebilir. Bu yüzden migration sürecinde başarı; tek bir “trafik grafiği” ile değil, baz çizgi + kritik kontroller + 90 gün takip disiplinini kurmakla gelir. Bu rehber, geçiş öncesi hangi metrikleri kaydetmeniz gerektiğini, geçiş sırasında canlı izleme ile hangi hataları erken yakalayacağınızı ve geçiş sonrası 90 gün boyunca hangi sapmaları “normal”, hangilerini “kriz” saymanız gerektiğini template formatında sunar.",
+      "quickSummary": [
+        "1) Geçiş öncesi baseline KPI’larını kaydet",
+        "2) Eski URL → yeni URL mapping dosyasını raporun çekirdeği yap",
+        "3) Go-live anında 301, index, robots, canonical ve GA4/tag kontrollerini canlı izle",
+        "4) 0–7 / 7–30 / 30–90 gün fazlarıyla toparlanma takibi kur",
+        "5) Sapmaları Normal/Risk/Kriz olarak sınıflandır ve aksiyon planına bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
+        "text": "Site yenilemesi veya domain değişiminde baseline + 90 gün takip + alarm sistemi kurmak isteyen markalar için.",
+        "href": "/tr/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
+        "text": "Domain değişimi veya altyapı geçişinde riskleri erken yakalayıp 90 gün toparlanma planı isteyen ekipler için.",
+        "href": "/tr/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir",
+        "text": "Baseline + mapping + 90 gün takip yapısını standartlaştırır; normal/kriz ayrımını hızlandırır.",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "title": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "site-gecisleri-ve-domain-degisimi-giris",
+        "title": "Site Geçişleri ve Domain Değişimi İçin SEO Raporlama Template’i",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+     
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
+            "text": "Site yenilemesi veya domain değişiminde baseline + 90 gün takip + alarm sistemi kurmak isteyen markalar için.",
+            "href": "/tr/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "site-gecisi-domain-degisiminde-neleri-olcmeliyiz",
+        "title": "Site Geçişi ve Domain Değişiminde Neleri Ölçmeliyiz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migration raporunun ilk adımı “neye bakacağız?” sorusunu netleştirmektir. Burada amaç; her şeyi ölçmek değil, riskli kırılmaları erken yakalayacak bir KPI seti oluşturmaktır. En pratik yaklaşım, metrikleri 4 sepete ayırmaktır:"
+          },
+          {
+            "type": "h3",
+            "text": "1. Yönlendirme & URL bütünlüğü (301 / mapping)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eski URL → yeni URL eşleşmesi var mı?",
+              "301 doğru mu, zincir var mı, yanlış hedefe gidiyor mu?",
+              "404 artışı var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "2. Crawl & Index sağlığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni domain’de/sitede index kapsamı nasıl?",
+              "Canonical/robots/sitemap tutarlı mı?",
+              "Tarama hataları (5xx, soft 404 vb.) var mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "3. Görünürlük & tıklama verimi (GSC)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Impressions/clicks/CTR/position trendi",
+              "En çok kayıp yaşayan query/landing kümeleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "4. İş çıktısı & ölçüm bütünlüğü (GA4 / dönüşüm)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik sessions ve conversions",
+              "Funnel adımları (form view → submit / rezervasyon adımı)",
+              "Ölçüm (tag/event) taşındı mı? (kritik)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (turizm): Antalya bölgesinde sezon başında domain değişimi yapıyorsanız, “talep dalgası” grafiği oynatır. Bu yüzden raporunuz, düşüşleri sadece trafikle değil, index + 301 + dönüşüm üçlüsüyle okumalı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "KPI seti 4 sepette toplanıyor mu (301/index/GSC/GA4)?",
+              "Ölçüm taşınması migration kapsamına dahil mi?",
+              "“Normal mi kriz mi?” ayrımı için erken uyarı metrikleri var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Migration dashboard’un ilk sayfasını 4 blok yapın: 301, index, görünürlük, dönüşüm.",
+              "“Kritik landing” listesini çıkarın (top 20 sayfa) ve bu sayfalar için ayrı takip koyun.",
+              "Ölçüm taşınmasını (GA4 event/goal, tag) bir “Go-live checklist” maddesi yapın.",
+              "Sezon etkisi varsa YoY destekli karşılaştırma satırı ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gecis-oncesi-baz-cizgisi",
+        "title": "Geçiş Öncesi Baz Çizgisi",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Site geçişi öncesi hangi SEO metriklerini kaydetmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Geçişten önce mutlaka bir baseline kaydedin: (1) en kritik landing’lerin GSC görünürlük KPI’ları (impressions/clicks/CTR/position), (2) GA4 organik sessions ve dönüşümler, (3) index kapsamı ve tarama hataları, (4) eski URL envanteri ve yeni URL mapping listesi. Baseline olmadan “düşüş normal mi hata mı?” ayrımı yapılamaz."
+          },
+          {
+            "type": "p",
+            "text": "Baseline’ı iki katmanda hazırlamak en iyi pratiktir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Özet baseline: toplam görünürlük, toplam organik trafik, toplam dönüşüm",
+              "Kritik sayfa baseline: top 20–50 landing (özellikle gelir/lead taşıyan sayfalar)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Burada fark yaratan detay: Baseline’a “değişiklik gerekçesi” ekleyin: neden geçiyoruz? (altyapı, hız, UX, marka) Bu, 90 gün içinde yönetici iletişimini kolaylaştırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Toplam baseline + kritik sayfa baseline ayrı mı?",
+              "Eski URL envanteri ve mapping dosyası hazır mı?",
+              "Baseline dönemi net mi (örn. son 28 gün + YoY notu)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Baseline’ı en az iki pencerede kaydedin: “son 28 gün” ve “YoY kıyas” (sezon etkisi için).",
+              "“Kritik sayfa listesi”ni iş hedefiyle seçin (rezervasyon, teklif, hizmet).",
+              "Mapping dosyasını raporun eki değil, raporun çekirdeği yapın.",
+              "Baseline’ı migration takvimine kilitleyin: go-live’dan önce kapanmış olmalı."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          }
+        ]
+      },
+      {
+        "id": "gecis-sirasinda-canli-izleme",
+        "title": "Geçiş Sırasında Canlı İzleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Go-live anı, “rapor değil operasyon” anıdır. Bu yüzden canlı izleme; basit, hızlı ve alarmlı olmalıdır. En doğru yaklaşım, 3 saat–24 saat–7 gün şeklinde kademeli kontrol yapmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Go-live anında kritik 8 kontrol"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "301 mapping örneklemi: kritik 50 URL tek tek test",
+              "Redirect zinciri: 301→301→200 gibi zincir var mı?",
+              "404/soft 404 artışı: loglar ve tarama raporları",
+              "Robots ve noindex: yanlışlıkla bloklanan alan var mı?",
+              "Canonical tutarlılığı: yeni domain’i işaret ediyor mu?",
+              "Sitemap: yeni URL’leri içeriyor mu, erişilebilir mi?",
+              "Analytics/tag: GA4 event’leri geliyor mu? dönüşüm çalışıyor mu?",
+              "Search Console: yeni property doğrulandı mı, gerekli ayarlar yapıldı mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet) ile kritik uyum: Migration raporlamasında sadece SEO değil, analitik ve tag yapılandırmasının da eksiksiz taşındığı doğrulanmalıdır. Aksi hâlde “dönüşüm düştü” alarmı ölçüm hatası olabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Go-live checklist’inizde GA4/tag doğrulaması var mı?",
+              "Redirect zinciri ve 404 kontrolü için hızlı rapor var mı?",
+              "Kritik sayfalar için “canlı” izleme paneli açık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Go-live günü “war room” paneli açın: 404/5xx, redirect, dönüşüm, index sinyalleri.",
+              "İlk 24 saatte dönüşüm event’lerini doğrulayıp bir “ölçüm OK” damgası koyun.",
+              "Kritik sorunlar için alarm eşikleri belirleyin (ör. 5xx artışı, 404 sıçraması).",
+              "Her bulguyu change log’a yazın; 90 gün raporunda olay işaretleri için gerekecek."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "gecis-sonrasi-90-gunluk-takip",
+        "title": "Geçiş Sonrası 90 Günlük Takip",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migration raporunun en önemli kısmı, “toparlanma penceresi”dir. 90 gün, pratikte üç faza bölünür:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–7 gün: kritik hata avı (redirect, index, ölçüm)",
+              "7–30 gün: görünürlük stabilizasyonu (GSC trend, index kapsamı)",
+              "30–90 gün: performans optimizasyonu (CTR, content/cluster, dönüşüm)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "90 günlük panelde hangi sayfalar izlenmeli?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Top 20 landing (gelir/lead taşıyan)",
+              "Top 20 organik giriş sayfası",
+              "En fazla impressions alan sayfalar (CTR fırsatı)",
+              "Consolidation yapılan sayfalar (toplam etkiler)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Burada kritik pratik: Raporu “toplam” ve “kritik sayfa” katmanıyla okuyun. Toplam düzeliyor gibi görünürken kritik sayfalardan biri kayıp yaşayabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "90 gün takibi 0–7 / 7–30 / 30–90 şeklinde mi?",
+              "Kritik sayfa listesi ve dashboard sabit mi?",
+              "Her fazda “aksiyon türü” net mi (hata düzeltme vs optimizasyon)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "90 gün raporunu fazlara bölün ve her fazın KPI’larını sadeleştirin.",
+              "7–30 gün arası CTR ve snippet iyileştirme backlog’u oluşturun.",
+              "30–90 gün arası içerik/cluster ve iç link güçlendirme sprint’i planlayın.",
+              "Her faz sonunda yöneticiye 3–3–3 formatında özet sunun (başarı/risk/aksiyon)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-04"
+          }
+        ]
+      },
+      {
+        "id": "hangi-metriklerde-hangi-sapma-normal",
+        "title": "Hangi Metriklerde Hangi Sapma Normal?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Geçiş sonrası düşüş ne kadar normaldir?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Migration sonrası kısa vadeli dalgalanma görülebilir; ancak “normal” olup olmadığı, tek bir trafik grafiğiyle değil redirect doğruluğu + index sinyalleri + kritik landing dönüşümü ile anlaşılır. 301 ve index sağlığı düzgünse, görünürlük ve trafik daha kontrollü toparlanır. Eğer 404/5xx artıyor, index kapsamı düşüyor veya kritik landing dönüşümü sert bozuluyorsa bu “normal dalga” değil, müdahale gerektiren risktir."
+          },
+          {
+            "type": "h3",
+            "text": "“Normal vs risk” sınıflandırması (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Normal dalga: küçük CTR/trafik oynaklığı, index kapsamı stabil, hatalar düşük",
+              "Risk: 404/5xx sıçraması, noindex/robots blokları, redirect zincirleri, kritik sayfa kaybı",
+              "Kriz: geniş ölçekte index kaybı + dönüşüm çöküşü + teknik hatalar (P0)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Migration sürecini raporla destekleyen projelerde, düşüşlerin normal/kriz ayrımı daha net yapılabildiği ve toparlanma aksiyonlarının daha hızlı alındığı görülüyor."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Normal mi kriz mi?” için net kriterlerim var mı?",
+              "Teknik hatalar ve ölçüm doğrulaması yapılmadan “trafik düştü” diye karar vermiyor muyum?",
+              "Sezon etkisini (özellikle turizm) kıyasta not ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Raporunuza “Normal/Risk/Kriz” kutusu ekleyin ve her metrik için eşik mantığı tanımlayın.",
+              "İlk 7 günde dönüşüm event’lerini kesin doğrulayın; ölçüm hatası ihtimalini kapatın.",
+              "Riskli düşüşte önce mapping/redirect/canonical/robots kontrolü yapın, sonra içerik optimizasyonuna geçin.",
+              "Sezon etkisi olan sektörlerde YoY destekli satır ekleyin (panik azaltır)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "panic-bitiren-3-dokuman",
+        "title": "Fark Yaratan Mini Bölüm — Panic’i Bitiren 3 Doküman",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu projede “SEO çöktü” paniği, teknik olarak değil; raporlama eksikliği nedeniyle büyür. Üç dokümanı migration standardı yaparsanız, kriz yönetimi çok daha sakin olur:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Baseline dosyası (toplam + kritik sayfalar)",
+              "URL mapping / redirect matrisi (eski→yeni)",
+              "90 gün takip paneli + change log (olay işaretleri)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Eski vs yeni domain/sayfa karşılaştırma tablosu (URL mapping + KPI)",
+            "headers": [
+              "Eski URL",
+              "Yeni URL",
+              "Redirect",
+              "Status",
+              "Index",
+              "Önce Clicks",
+              "Sonra Clicks",
+              "Not"
+            ],
+            "rows": [
+              [
+                "_____",
+                "_____",
+                "301",
+                "200",
+                "var/yok",
+                "___",
+                "___",
+                "zincir?"
+              ],
+              [
+                "_____",
+                "_____",
+                "301",
+                "200",
+                "var/yok",
+                "___",
+                "___",
+                "canonical?"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Tablo] — Eski vs yeni domain/sayfa karşılaştırma tablosu (URL mapping + KPI)"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [KPI / Score Card] — 1:1 (1200×1200) — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-kpi-07.webp — Migration KPI kartları (index/404/CTR/dönüşüm), amaç hızlı karar, otel/hizmet bağlamı"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Checklist / Framework Card] — 1:1 (1200×1200) — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-checklist-06.webp — Migration checklist kartı, amaç kriz anında net kontrol, ajans bağlamı"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-proof-08.webp — Migration deliverables, amaç güven ve takip, kurumsal bağlamı"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir",
+            "text": "Baseline, URL mapping ve 90 günlük takip yapısını hazır verir; normal/kriz ayrımını hızlı yapmanızı sağlar.",
+            "href": "/tr/veri-analiz-ve-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
+            "text": "Migration’ı baseline + canlı izleme + 90 gün takip ile güvenli yürütmek isteyen markalar için.",
+            "href": "/tr/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "site-gecisi-raporlama-sablonu-download-asset",
+        "title": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir — SEO / Migration",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir — SEO / Migration (v1.0)",
+            "purpose": "Bu şablon, migration sürecinde “baz çizgi yok” sorununu ortadan kaldırır ve geçişi baseline → canlı izleme → 90 gün takip olarak standardize eder. URL mapping/301 doğrulaması, indexlenme hızı, hata raporları ve organik performansı tek çerçevede birleştirerek “normal mi kriz mi?” ayrımını netleştirir. Ölçüm (GA4/tag) taşınmasının da kontrol edilmesini zorunlu tutar.",
+            "whoFor": "Domain değişimi, site yenilemesi veya altyapı geçişi planlayan markalar ve ajans ekipleri.",
+            "steps": [
+              "Go-live’dan önce baseline KPI’larını ve URL mapping’i doldur.",
+              "Go-live günü canlı izleme checklist’ini uygula ve change log tut.",
+              "0–7 / 7–30 / 30–90 gün paneliyle takip et; risk varsa P0 aksiyon al."
+            ],
+            "checklist": [
+              "A) Baseline (Go-live öncesi)",
+              "B) URL Mapping & Redirect Kontrol",
+              "C) Go-live Canlı İzleme Checklist’i",
+              "D) 90 Gün Takip (0–7 / 7–30 / 30–90)",
+              "E) Karar Kutusu (Normal/Risk/Kriz)"
+            ],
+            "href": "/downloads/site-gecisi-oncesi-sonrasi-seo-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Migration raporu panik değil, karar sistemi kurar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Site geçişi ve domain değişimi SEO tarafında yüksek riskli bir dönemdir; ancak doğru raporlama sistemiyle bu risk yönetilebilir hâle gelir. Baseline, URL mapping, canlı izleme, GA4/tag doğrulaması ve 90 günlük takip paneli birlikte çalıştığında, ekipler “normal dalga” ile “müdahale gerektiren kriz” ayrımını çok daha net yapabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle migration başarısı yalnızca yayına alma anına değil, geçiş öncesi hazırlık ve geçiş sonrası disiplinli takip ritmine bağlıdır. Rapor; teknik ekibi, pazarlama ekibini ve yöneticiyi aynı karar ekranında buluşturmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
+            "text": "Domain değişimi veya altyapı geçişinde riskleri erken yakalayıp 90 gün toparlanma planı isteyen ekipler için.",
+            "href": "/tr/seo/teknik-seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir",
+            "text": "Baseline + mapping + 90 gün takip yapısını standartlaştırır; normal/kriz ayrımını hızlandırır.",
+            "href": "/tr/veri-analiz-ve-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Site geçişi öncesi hangi SEO metriklerini kaydetmeliyim?",
+        "a": "Toplam görünürlük (impressions/clicks/CTR), organik trafik (sessions) ve dönüşüm (lead/rezervasyon) baseline’ını; ayrıca top 20–50 kritik landing KPI’larını kaydedin. URL envanteri ve mapping dosyası olmadan sağlıklı kıyas yapılamaz."
+      },
+      {
+        "q": "Domain değişiminden sonra SEO’yu nasıl takip ederim?",
+        "a": "0–7 gün hata/index/ölçüm; 7–30 gün görünürlük trendi; 30–90 gün performans optimizasyonu fazlarıyla takip edin. Özellikle 404/5xx, index kapsamı ve kritik landing dönüşümünü ayrı izleyin."
+      },
+      {
+        "q": "Geçiş sonrası düşüş ne kadar normaldir?",
+        "a": "Tek başına trafik grafiğiyle karar vermeyin. 301 ve index sağlığı düzgünse dalgalanma daha kontrol edilebilir; 404/5xx artışı veya kritik sayfa kaybı varsa bu risk/krizdir ve müdahale gerekir."
+      },
+      {
+        "q": "Geçiş sırasında en kritik raporlar hangileri?",
+        "a": "URL mapping/301 doğrulama, 404/5xx raporu, robots/noindex/canonical kontrol listesi, indexlenme sinyali ve GA4 dönüşüm event doğrulaması en kritiktir."
+      },
+      {
+        "q": "Eski URL’leri yeni URL’lere nasıl eşlemeliyim?",
+        "a": "Niyet eşleşmesiyle: aynı içeriğin en yakın karşılığına 301 verin. Ana sayfa veya alakasız sayfaya toplu yönlendirme, uzun vadede görünürlük kaybı yaratabilir."
+      },
+      {
+        "q": "Migration raporunda GA4/etiket taşınması neden kritik?",
+        "a": "Dönüşüm düşüşü çoğu zaman ölçüm eksikliğinden kaynaklanabilir. Bu yüzden go-live günü “ölçüm OK” doğrulaması yapılmadan performans yorumu yapılmamalıdır."
+      },
+      {
+        "q": "90 gün sonunda başarıyı nasıl tanımlarım?",
+        "a": "Toplam trendin stabil olması yetmez; kritik landing’lerde CTR, trafik ve dönüşümün toparlanması ve hata/index risklerinin kalıcı olarak düşmesi beklenir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-hero-01.webp",
+          "h1-context — 1920×1080 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-h1-context-02.webp",
+          "divider-01 — 1600×1200 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-divider-03.webp",
+          "divider-02 — 1600×1200 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-divider-04.webp",
+          "diagram-05 — 1920×1080 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-diagram-05.webp",
+          "checklist-06 — 1200×1200 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-kpi-07.webp",
+          "proof-08 — 1200×1200 — site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei-proof-08.webp",
+          "table-url-mapping-kpi — Eski vs yeni domain/sayfa karşılaştırma tablosu (URL mapping + KPI)"
+        ],
+        "technicalChecklist": [
+          "Eski URL envanteri ve yeni URL mapping listesi tamamlandı",
+          "301 yönlendirmeleri zincirsiz ve doğru hedefe gidiyor",
+          "404/5xx ve soft 404 artışı go-live günü izleniyor",
+          "Robots, noindex, canonical ve sitemap kontrolleri tamamlandı",
+          "Yeni domain/sitede Search Console property doğrulandı",
+          "GA4 event/goal ve tag taşınması doğrulandı",
+          "0–7 / 7–30 / 30–90 gün takip paneli kuruldu",
+          "Normal/Risk/Kriz eşikleri rapor içinde tanımlandı",
+          "Change log go-live gününden itibaren tutuluyor",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi": {
+    "title": "SEO Raporlarında Veri Kalitesi ve İzleme Hijyeni",
+    "slug": "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "5 Haziran 2026",
+    "publishedAt": "2026-06-05",
+    "readingTime": "13 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SEO raporunu yorumlamadan önce veri hijyenini doğrula: GA4 organik kanal mapping, bot/spam filtreleri, event/tag kırılmaları ve GSC filtre uyumu. Yanlış veriye göre karar verme.",
+    "seo": {
+      "metaTitle": "SEO Raporlarında Veri Kalitesi ve İzleme Hijyeni | DGTLFACE",
+      "metaDescription": "SEO raporunu yorumlamadan önce veri hijyenini doğrula: GA4 organik kanal mapping, bot/spam filtreleri, event/tag kırılmaları ve GSC filtre uyumu. Yanlış veriye göre karar verme."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 19 — https://dgtlface.com/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Diagnostic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      ],
+      "strategySummary": "Bu içerik, “performans düştü” diye panik yapmadan önce ölçümün doğru olup olmadığını sorgulatan, SEO raporlamanın güven temelini kuran otorite yazıdır. Hedef persona; otel/hizmet sitesi yöneticisi, ajans yöneticisi ve analisttir: rapor garip göründüğünde bunun SEO mu yoksa veri mi olduğunu ayırt etmek ister. Funnel MoFu’dadır: doğru veri hijyeni, yanlış alarmı azaltır ve karar kalitesini yükseltir. Ana iş sorusu: “GA4/GSC verisi temiz mi, kanal ataması doğru mu, event/tag kırıldı mı; rapora güvenebilir miyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-05",
+      "readingTime": "13 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "En sofistike SEO raporu bile veri kalitesi düşükse yanıltıcıdır. Yanlış kanal ataması, eksik/çift sayılan dönüşümler, bot trafiği veya bozuk tag’ler; sizi “performans düştü” diye yanlış karar almaya itebilir. Bu yüzden SEO raporlamasında “ne oldu?” sorusundan önce “ölçtüğümüz şey doğru mu?” sorusu sorulmalıdır. GA4 ve GSC filtre/tarih tutarlılığı, kanal mapping, event/tag değişiklikleri ve spam/bot temizliği rapor güveninin temelidir.",
+      "sgeSummary": "Rapor garipse önce veri hijyeni: GA4 kanal mapping ve dönüşüm event’leri, bot/spam filtreleri, GSC filtre/tarih uyumu, GTM değişiklikleri. Doğrulamadan “SEO düştü” deme.",
+      "voiceAnswer": "Raporlar garipse önce veri hijyenini kontrol edin; sorun çoğu zaman ölçüm ve tag kaynaklıdır.",
+      "aiFactSheet": [
+        "Hedef kitle: GA4 + GSC ile raporlama yapan tüm ekipler (ajans/kurum içi)",
+        "Entity Theme: Data Quality; Tracking Hygiene; Bot Traffic; Channel Mapping",
+        "Semantic theme: reliable reporting; measurement sanity checks; error-aware decisions",
+        "Risk alanları: kanal attribüsyonu, bot/spam, event/tag kırılması, GSC filtre uyumsuzluğu",
+        "Funnel: veri doğrulama → rapor güveni → doğru aksiyon",
+        "Geo: TR geneli (turizm ve hizmet siteleri dahil)",
+        "Çıktı: veri kalitesi checklist’i + hata senaryosu diyagramı + aylık hijyen rutini"
+      ]
+    },
+    "h1": {
+      "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+      "intro": "SEO raporlarınız bazen “garip” görünür: organik trafik bir anda artar/azalır, dönüşüm sayıları tutarsızlaşır, GSC ile GA4 birbirini tutmaz, CTR aniden düşer… Bu noktada iki farklı açıklama vardır: (1) gerçekten performans değişmiştir, (2) ölçüm bozulmuştur. Birçok projede ekipler ikinci ihtimali kontrol etmeden birinciye atlar ve yanlış aksiyon alır: gereksiz panik, yanlış optimizasyon, boşa harcanan bütçe. Bu rehberin amacı, raporlamadan önce uygulanan bir data hygiene rutini kurmaktır: GA4/GSC tutarlılığı, bot/spam temizliği, kanal mapping doğruluğu, event/tag kırılmalarını sistematik kontrol etmek.",
+      "quickSummary": [
+        "1) Rapor garipse önce veri hijyenini kontrol et",
+        "2) GA4 kanal mapping ve UTM standardını doğrula",
+        "3) GSC filtre/tarih/property uyumunu kontrol et",
+        "4) Event/tag kırılmalarını ve changelog’u incele",
+        "5) Bot/spam kaynaklı yanıltıcı trafik artışlarını ayır"
+      ],
+      "ctaPrimary": {
+        "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
+        "text": "Rapor kaynaklı yanlış alarm ve gereksiz panikleri azaltmak isteyen ekipler için.",
+        "href": "/tr/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
+        "text": "GA4/GSC ölçüm hatalarını yakalayıp rapor güvenini artırmak isteyen ekipler için.",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      "secondary": {
+        "label": "SEO Veri Kalitesi & Tracking Hijyen Checklist’ini İndir",
+        "text": "Aylık hijyen rutinini standartlaştırır; yanlış alarm ve gereksiz panikleri azaltmanıza yardımcı olur.",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "title": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    ],
+    "sections": [
+      {
+        "id": "veri-kalitesi-ve-izleme-hijyeni-giris",
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
+            "text": "Rapor kaynaklı yanlış alarm ve gereksiz panikleri azaltmak isteyen ekipler için.",
+            "href": "/tr/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "veri-kalitesi-nedir",
+        "title": "Veri Kalitesi Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veri kalitesi, raporda gördüğünüz sayıların “gerçek dünyayı” doğru temsil etmesidir. SEO raporları genellikle 3 veri ailesine dayanır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GSC: görünürlük (impressions/clicks/CTR/konum)",
+              "GA4: davranış ve dönüşüm (sessions/events/conversions)",
+              "Teknik/Tag: tag manager, ölçüm ve hata raporları"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu üçü tutarlı değilse rapor “doğru görünür” ama yanlış karar verdirir."
+          },
+          {
+            "type": "h3",
+            "text": "Veri kalitesi düşük olduğunda ne olur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Organik trafik düştü” sanıp içerik değiştirirsiniz; oysa kanal mapping bozulmuştur.",
+              "“Dönüşüm düştü” sanıp kampanyayı değiştirirsiniz; oysa event kırılmıştır.",
+              "“CTR düştü” sanıp title değiştirirsiniz; oysa GSC filtre/tarih uyumsuzdur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "GA4 ve GSC aynı tarih/filtre setiyle mi okunuyor?",
+              "Dönüşüm tanımı (event/goal) sabit mi?",
+              "Ölçüm değişiklikleri changelog’ta kayıtlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Raporun başına “Veri hijyeni durumu: OK / Risk / Kritik” satırı ekleyin.",
+              "KPI sözlüğünü sabitleyin (hangi event dönüşüm?).",
+              "Change log olmadan rapor yorumu yapmayın (özellikle düşüşlerde)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Section Divider 01] — 4:3 (1600×1200) — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-divider-03.webp — Veri kalitesi temeli ayırıcı, amaç güven, raporlama bağlamı"
+          }
+        ]
+      },
+      {
+        "id": "ga4-ve-gscde-sik-gorulen-olcum-hatalari",
+        "title": "GA4 ve GSC’de Sık Görülen Ölçüm Hataları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm “en sık görülen” hatalara odaklanır; çünkü pratikte rapor bozulmalarının büyük kısmı birkaç tekrar eden kalıptan gelir."
+          },
+          {
+            "type": "h3",
+            "text": "GA4’te en sık 6 hata"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Organic kanal mapping bozuk (UTM’ler, channel grouping yanlış)",
+              "Referrer spam veya bot kaynaklı şişme",
+              "Event isim değişimi (eski event raporda kaybolur)",
+              "Çift sayım (aynı event iki kez tetiklenir: GTM + hardcoded)",
+              "Cross-domain eksik (rezervasyon motoru geçişi kopar)",
+              "Consent/çerez etkisi (ölçüm düşüşü “performans düşüşü” gibi görünür)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "GSC’de en sık 4 hata"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yanlış property (domain vs URL-prefix) seçimi",
+              "Filtre uyumsuzluğu (ülke/cihaz/sayfa filtresi unutulmuş)",
+              "Tarih karşılaştırması hatası (7 gün vs 28 gün karışması)",
+              "Query vs page karışıklığı (yanlış yorum)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Otel sitesi bir kampanya döneminde UTM’leri yanlış kullanırsa, GA4’te organik trafik “Direct”e kayabilir; SEO raporu “organik düştü” der, halbuki SEO aynı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Organik kanal tanımı doğru mu (GA4 channel mapping)?",
+              "GSC’de doğru property ve filtre seti seçili mi?",
+              "Cross-domain ve dönüşüm event’leri çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "GA4’te “Organic Search” tanımını ve kaynak/medium kurallarını düzenli kontrol edin.",
+              "GSC’de rapora başlamadan önce property/filtre kontrol checklist’i çalıştırın.",
+              "Her event değişikliğini changelog’a yazın ve rapor dönemine not düşün."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bot-trafigi-ve-spam-filtreleme",
+        "title": "Bot Trafiği ve Spam Filtreleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bot trafiği ve spam, özellikle içerik sitelerinde “trafik arttı” yanılsamasının en büyük kaynağıdır. Rapor güveni için bot temizliği şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Bot/spam kaynaklı tipik sinyaller"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trafik artar ama dönüşüm/etkileşim artmaz",
+              "Ülke dağılımı aniden anlamsızlaşır",
+              "Sayfada kalma/etkileşim düşer (ya da absürt artar)",
+              "Belirli referer/host isimleri aniden çoğalır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pratik filtreleme yaklaşımı (rapor seviyesinde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ofis IP’lerini hariç tut (mümkünse)",
+              "Şüpheli kaynakları ayrı segmentte izle",
+              "Düşük kaliteli referrer’ları rapor yorumundan çıkar (önce doğrula)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Bir hafta organik trafik artıyor ama hiçbir form/rezervasyon artmıyorsa; önce “bot/spam” şüphesini koyup kaynak dağılımını incelemek gerekir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Trafik artışı dönüşümle doğrulanıyor mu?",
+              "Ülke/cihaz dağılımı normal mi?",
+              "Şüpheli kaynaklar için “izle/filtrele” kuralı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Dönüşümsüz trafik artışı” için otomatik uyarı koyun.",
+              "Şüpheli kaynaklar için ayrı segment oluşturun.",
+              "Rapor yorumunu “temiz veri” segmenti üzerinden yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yanlis-kanal-attribusyonu-organic-yanlis-gorunuyorsa",
+        "title": "Yanlış Kanal Attribüsyonu (Organic Yanlış Görünüyorsa)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kanal attribüsyonu bozulduğunda SEO raporu doğrudan yanlış karar verir; çünkü SEO’nun ölçtüğü ana gövde “organic search”tir."
+          },
+          {
+            "type": "h3",
+            "text": "GA4’te organik trafik hatalı görünüyorsa ne yapmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Önce GA4’te Organic Search kanal tanımını ve source/medium kurallarını kontrol edin; UTM’lerin yanlış kullanımı organiği başka kanallara kaydırabilir. Sonra landing bazlı organik girişleri ve GSC tıklamalarıyla çapraz doğrulayın: GSC click’ler stabilken GA4 organik düşüyorsa ölçüm/attribüsyon ihtimali yüksektir. Son olarak değişiklik günlüğüne bakın: GTM/kanal mapping güncellemesi var mı?"
+          },
+          {
+            "type": "h3",
+            "text": "En yaygın 3 attribüsyon sorunu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UTM’lerin organiği override etmesi",
+              "Cross-domain kopması (rezervasyon motoru)",
+              "Referral exclusion list eksikleri"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "GSC clicks ile GA4 organic sessions trendi tutarlı mı?",
+              "UTM politikası ekipte net mi?",
+              "Cross-domain ve referral ayarları doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "UTM standardı yayınlayın; organiği bozacak UTM kullanımını engelleyin.",
+              "Cross-domain geçişleri test edin (özellikle rezervasyon motoru).",
+              "“GSC vs GA4 trend sapması” için raporda uyarı alanı koyun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tag-event-kirilmalari-donusum-raporu-neden-oynar",
+        "title": "Tag/Event Kırılmaları (Dönüşüm Raporu Neden Oynar?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dönüşüm event’leri kırıldığında rapor “satış düştü” diye bağırır. Oysa bazen satış değil, ölçüm düşmüştür."
+          },
+          {
+            "type": "h3",
+            "text": "Tag kırılmasının tipik nedenleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GTM container değişti ama test edilmedi",
+              "Event adı değişti (rapor eski adı izliyor)",
+              "SPA/JS güncellemesi event’i tetiklemeyi bozdu",
+              "Consent değişti, event’ler düşmeye başladı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SEO raporu güvenilir mi, nasıl anlarım?"
+          },
+          {
+            "type": "p",
+            "text": "Net cevap bloğu (AEO): Raporun güvenilirliğini; (1) GSC ve GA4 trend tutarlılığı, (2) dönüşüm event’lerinin değişiklik geçmişi (changelog), (3) bot/spam temizliği ve (4) filtre/tarih uyumu üzerinden kontrol edersiniz. Bu dört alan “OK” değilse rapor yorumunu erteleyip önce ölçümü düzeltmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): Ölçüm tarafında yapılan her değişiklik (GA4 event, GTM tag, kanal mapping) changelog’ta tutulmalı ve rapor yorumlanırken bu log dikkate alınmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Dönüşüm event’lerinde son 30 günde değişiklik var mı?",
+              "GTM yayınları test edilmeden prod’a çıktı mı?",
+              "Ölçüm değişiklikleri rapor grafiğinde işaretli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Change log”u raporun standart bölümü yapın (deploy/tag/event).",
+              "Her GTM yayını için test checklist’i zorunlu kılın.",
+              "Dönüşüm düşüşünde önce event doğrulaması yapın; sonra SEO yorumlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "seo-kararlarini-yanlis-veriye-dayandirmamak",
+        "title": "SEO Kararlarını Yanlış Veriye Dayandırmamak (Pratik Rutine Dönüştürme)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu rehberin “fark yaratan” kısmı; veri hijyenini tek seferlik kontrol değil, aylık rutin haline getirmektir. Çünkü raporlama kültürü, “ölçümün doğru olduğu varsayımı”na dayanır. Bu varsayım kırıldığında, tüm kararlar kırılır."
+          },
+          {
+            "type": "h3",
+            "text": "Aylık veri hijyeni rutini (15–30 dk)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 organik kanal mapping kontrolü",
+              "Dönüşüm event’leri “beklenmedik düşüş” kontrolü",
+              "GSC filtre/tarih standardı kontrolü",
+              "Şüpheli trafik segmenti (bot/spam) kontrolü",
+              "Change log gözden geçirme"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Düzenli veri kalitesi kontrolleri yapılan yapılarda, rapor kaynaklı yanlış alarm ve gereksiz paniklerin anlamlı ölçüde azaldığı görülüyor."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Veri kalitesi kontrol listesi tablosu (aylık rutin)",
+            "headers": [
+              "Kontrol",
+              "Kaynak",
+              "Sıklık",
+              "“OK” kriteri",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Organic kanal mapping",
+                "GA4",
+                "aylık",
+                "organik trend GSC ile uyumlu",
+                "UTM politikası"
+              ],
+              [
+                "Dönüşüm event doğrulama",
+                "GA4/GTM",
+                "haftalık/aylık",
+                "event sayımı stabil",
+                "changelog"
+              ],
+              [
+                "GSC filtre/tarih uyumu",
+                "GSC",
+                "her rapor",
+                "aynı pencere/filtre",
+                "property"
+              ],
+              [
+                "Bot/spam kontrolü",
+                "GA4",
+                "aylık",
+                "şüpheli kaynak yok",
+                "segment"
+              ],
+              [
+                "404/5xx takip",
+                "teknik",
+                "haftalık",
+                "kritik artış yok",
+                "alarm"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Tablo] — Veri kalitesi kontrol listesi tablosu (aylık rutin)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aylık rutin yazılı mı?",
+              "“OK/Risk/Kritik” etiketi rapora ekleniyor mu?",
+              "Change log toplantıda referans alınıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Her raporun başına “Veri hijyeni: OK/Risk/Kritik” bandı koyun.",
+              "Change log’u rapor grafiğine işaretleyin (timeline).",
+              "Veri hijyeni yapılmadan “performans düştü” kararı vermeyin.",
+              "Hijyen checklist’ini yılda en az 1 kez güncelleyin (Refresh Cycle: 365)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [KPI / Score Card] — 1:1 (1200×1200) — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-kpi-07.webp — Veri hijyeni KPI kartı, amaç hızlı güven skoru, ajans bağlamı"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Checklist / Framework Card] — 1:1 (1200×1200) — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-checklist-06.webp — Tracking hijyeni checklist kartı, amaç uygulanabilir rutin, kurum bağlamı"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-proof-08.webp — Veri hijyeni deliverables, amaç güven ve takip, kurumsal bağlamı"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
+            "text": "GA4/GSC ölçüm hatalarını yakalayıp rapor güvenini yükseltmek isteyen ekipler için.",
+            "href": "/tr/veri-analiz-ve-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "seo-veri-kalitesi-tracking-hijyen-checklisti-download-asset",
+        "title": "SEO Veri Kalitesi & Tracking Hijyen Checklist’ini İndir — SEO / Ölçüm",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "SEO Veri Kalitesi & Tracking Hijyen Checklist’ini İndir — SEO / Ölçüm (v1.0)",
+            "purpose": "Bu asset, SEO raporlarını yorumlamadan önce GA4 ve GSC verisinin güvenilirliğini hızlıca doğrulamanızı sağlar. Kanal mapping, bot/spam, event/tag kırılmaları ve GSC filtre uyumu gibi en sık ölçüm hatalarını tek kontrol listesinde toplar; change log mantığıyla rapor yorumunu güvence altına alır. Amaç, “SEO düştü” paniklerini ölçüm kaynaklı hatalardan ayırmaktır.",
+            "whoFor": "GA4 + GSC ile raporlama yapan ajanslar ve kurum içi SEO/analitik ekipleri.",
+            "steps": [
+              "Aylık rapordan önce checklist’i çalıştır (15–30 dk).",
+              "“Risk/Kritik” çıkan alanları düzeltmeden rapor yorumu yapma.",
+              "Değişiklikleri changelog’a yaz ve rapor grafiğinde işaretle."
+            ],
+            "checklist": [
+              "[ ] Ölçüm & Önceliklendirme Checklist’i (Aylık Veri Hijyeni)",
+              "GA4 Organic Search kanal mapping doğrulandı (source/medium kuralları tutarlı)",
+              "UTM politikası organiği bozmayacak şekilde standardize",
+              "Cross-domain (rezervasyon motoru vb.) test edildi (kopma yok)",
+              "Dönüşüm event’leri çalışıyor (form submit/rezervasyon/call)",
+              "Event’lerde çift sayım yok (GTM + hardcoded çakışmıyor)",
+              "Bot/spam şüpheli kaynak segmenti kontrol edildi",
+              "Ofis/internal trafik ayrıştırma/filtreleme kontrol edildi (varsa)",
+              "GSC property doğru (domain vs URL-prefix)",
+              "GSC filtre seti raporla aynı (tarih/ülke/cihaz)",
+              "GSC vs GA4 trend sapması kontrol edildi (büyük fark varsa ölçüm şüphesi)",
+              "GTM yayınları test edilmeden prod’a çıkmadı (test checklist’i var)",
+              "Change log güncel (GA4 event, GTM tag, kanal mapping değişiklikleri)",
+              "Problem → Kök Neden → Çözüm Tablosu",
+              "14 Günlük Sprint Planı (Hijyen Fix)",
+              "Öncesi/Sonrası KPI Tablosu (ölçüm düzeltmesi sonrası)",
+              "Deliverables listesi",
+              "Aylık veri hijyeni kontrol raporu (OK/Risk/Kritik)",
+              "Change log güncellemesi",
+              "GA4 kanal mapping dokümanı",
+              "Event/goal sözlüğü",
+              "Bot/spam segment notları"
+            ],
+            "href": "/downloads/seo-veri-kalitesi-tracking-hijyen-checklisti-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SEO raporuna güvenmeden SEO kararı vermeyin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SEO raporlamasında en kritik soru çoğu zaman “performans ne oldu?” değil, “ölçtüğümüz şey doğru mu?” sorusudur. GA4 kanal mapping, GSC filtre/tarih uyumu, bot/spam sinyalleri, dönüşüm event’leri ve GTM değişiklikleri kontrol edilmeden yapılan yorumlar; yanlış alarm, gereksiz panik ve hatalı aksiyon üretebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden veri kalitesi ve izleme hijyeni, raporlama sürecinin teknik bir detayı değil; karar kalitesinin temelidir. Aylık hijyen rutini, changelog disiplini ve OK/Risk/Kritik etiketiyle raporlar daha güvenilir, ekipler daha sakin ve aksiyonlar daha isabetli hâle gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
+            "text": "GA4/GSC ölçüm hatalarını yakalayıp rapor güvenini artırmak isteyen ekipler için.",
+            "href": "/tr/veri-analiz-ve-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SEO Veri Kalitesi & Tracking Hijyen Checklist’ini İndir",
+            "text": "Aylık hijyen rutinini standartlaştırır; yanlış alarm ve gereksiz panikleri azaltmanıza yardımcı olur.",
+            "href": "/tr/veri-analiz-ve-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Veri kalitesi nedir, SEO raporları için neden kritiktir?",
+        "a": "Veri kalitesi, rapordaki sayıların gerçek dünyayı doğru temsil etmesidir. Kanal mapping, dönüşüm event’leri, bot/spam ve filtre uyumsuzluğu bozulursa SEO raporu yanlış karar verdirir."
+      },
+      {
+        "q": "GA4’te organik trafik hatalı görünüyorsa ne yapmalıyım?",
+        "a": "Önce Organic Search kanal mapping ve UTM kurallarını kontrol edin, sonra GSC tıklamalarıyla trend kıyası yapın. Trendler uyumsuzsa ölçüm/attribüsyon sorunu olma ihtimali yüksektir."
+      },
+      {
+        "q": "Bot trafiğini nasıl filtrelerim?",
+        "a": "Şüpheli kaynak/ülke/cihaz sinyallerini segmentleyip ayrı izleyin, ofis/internal trafiği ayrıştırın ve dönüşümsüz trafik sıçramalarını uyarı olarak işaretleyin. Filtreyi uygulamadan önce doğrulama yapın."
+      },
+      {
+        "q": "Tag/etiket değişiklikleri SEO raporlarını nasıl etkiler?",
+        "a": "Event kırılması veya çift sayım dönüşüm trendlerini yapay şekilde düşürür/yükseltir. Bu yüzden her değişiklik changelog’a yazılmalı ve rapor yorumunda dikkate alınmalıdır."
+      },
+      {
+        "q": "SEO raporu güvenilir mi, nasıl anlarım?",
+        "a": "GSC–GA4 trend tutarlılığı, filtre/tarih uyumu, dönüşüm event doğruluğu ve bot/spam temizliği “OK” ise rapor daha güvenilirdir. Aksi halde önce ölçümü düzeltin."
+      },
+      {
+        "q": "Dönüşüm bir anda düştüyse SEO mu bozuldu?",
+        "a": "Hemen değil; önce event/goal doğrulaması ve GTM yayınlarını kontrol edin. Ölçüm stabilse, sonra landing/UX ve SEO sinyallerine inin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-hero-01.webp",
+          "h1-context — 1920×1080 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-divider-03.webp",
+          "divider-02 — 1600×1200 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-divider-04.webp",
+          "diagram-05 — 1920×1080 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-kpi-07.webp",
+          "proof-08 — 1200×1200 — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-proof-08.webp",
+          "table-data-quality-checklist — Veri kalitesi kontrol listesi tablosu (aylık rutin)"
+        ],
+        "technicalChecklist": [
+          "GA4 Organic Search kanal mapping doğrulandı",
+          "UTM politikası organiği bozmayacak şekilde standardize edildi",
+          "Cross-domain ölçüm ve referral ayarları kontrol edildi",
+          "Dönüşüm event’leri ve goal tanımları çalışıyor",
+          "Event çift sayımı kontrol edildi",
+          "Bot/spam şüpheli kaynak segmenti kontrol edildi",
+          "Ofis/internal trafik ayrıştırma/filtreleme kontrol edildi",
+          "GSC property seçimi doğru",
+          "GSC filtre seti raporla aynı tarih/ülke/cihaz standardında",
+          "GSC vs GA4 trend sapması kontrol edildi",
+          "GTM yayınları test checklist’iyle doğrulandı",
+          "Change log güncel tutuluyor",
+          "Rapor başında Veri hijyeni: OK/Risk/Kritik etiketi var",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
         ]
       }
     }
