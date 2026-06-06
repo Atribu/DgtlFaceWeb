@@ -39278,6 +39278,157 @@ export const BLOG_MEDIA_MAP = {
       alt: "Veri hijyeni deliverables kartı, amaç güven ve takip, kurum bağlamı",
       caption: "Veri hijyeni deliverables kartı, amaç güven ve takip, kurum bağlamı"
     }
+  },
+
+
+  "raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek":{
+    banner: {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-1.webp",
+      alt: "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model",
+      caption: "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-2.webp",
+      alt: "Haftalık aylık çeyrek panel seti, amaç doğru derinlik, SEO ekip bağlamı",
+      caption: "Haftalık aylık çeyrek panel seti, amaç doğru derinlik, SEO ekip bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-3.webp",
+    alt: "Rapor ritmi neden önemli ayırıcı, amaç erken uyarı, kurumsal raporlama bağlamı",
+      caption: "Rapor ritmi neden önemli ayırıcı, amaç erken uyarı, kurumsal raporlama bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-4.webp",
+      alt: "Aylık performans raporu ayırıcı, amaç sonuç ve aksiyon, ekip bağlamı",
+      caption: "Aylık performans raporu ayırıcı, amaç sonuç ve aksiyon, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-5.webp",
+      alt: "Haftalık aylık çeyrek timeline diyagramı, amaç ritim tasarlamak, SEO ops bağlamı",
+      caption: "Haftalık aylık çeyrek timeline diyagramı, amaç ritim tasarlamak, SEO ops bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-6.webp",
+      alt: "SEO operasyon ritmi checklist kartı, amaç sürdürülebilir süreç, ajans bağlamı",
+      caption: "SEO operasyon ritmi checklist kartı, amaç sürdürülebilir süreç, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-7.webp",
+      alt: "Rapor türüne göre KPI kartları, amaç hızlı özet, yönetici ve ekip bağlamı",
+      caption: "Rapor türüne göre KPI kartları, amaç hızlı özet, yönetici ve ekip bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-8.webp",
+      alt: "Rapor toplantı backlog çıktıları, amaç takip ve ilerleme, kurumsal SEO bağlamı",
+      caption: "Rapor toplantı backlog çıktıları, amaç takip ve ilerleme, kurumsal SEO bağlamı"
+    }
+  },
+
+  "bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu":{
+    banner: {
+      src: "/images/blog/seo/SEO5-21/SEO5-21-1.webp",
+      alt: "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?",
+      caption: "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-21/SEO5-21-2.webp",
+      alt: "Kaynaklardan BigQuery’ye veri akışı, amaç tek havuz, ajans raporlama bağlamı",
+      caption: "Kaynaklardan BigQuery’ye veri akışı, amaç tek havuz, ajans raporlama bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-3.webp",
+    alt: "Veri ambarı mantığı ayırıcı, amaç karar çerçevesi, kurumsal SEO bağlamı",
+      caption: "Veri ambarı mantığı ayırıcı, amaç karar çerçevesi, kurumsal SEO bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-4.webp",
+      alt: "BI katmanı ayırıcı, amaç dashboard tasarımı, ekip bağlamı",
+      caption: "BI katmanı ayırıcı, amaç dashboard tasarımı, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-5.webp",
+      alt: "Kaynaklar BigQuery dashboard diyagramı, amaç SEO data stack, otel bağlamı",
+      caption: "Kaynaklar BigQuery dashboard diyagramı, amaç SEO data stack, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-6.webp",
+      alt: "SEO data stack checklist kartı, amaç sürdürülebilir mimari, ajans bağlamı",
+      caption: "SEO data stack checklist kartı, amaç sürdürülebilir mimari, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-7.webp",
+      alt: "Warehouse KPI skor kartı, amaç trend ve segment okuma, yönetici bağlamı",
+      caption: "Warehouse KPI skor kartı, amaç trend ve segment okuma, yönetici bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-20/SEO5-20-8.webp",
+      alt: "Şema ve pipeline çıktı kartı, amaç güven ve ölçek, kurumsal bağlamı",
+      caption: "Şema ve pipeline çıktı kartı, amaç güven ve ölçek, kurumsal bağlamı"
+    }
+  },
+
+  "consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz":{
+    banner: {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-1.webp",
+      alt: "Consent Mode, Cookie Banner ve Privacy Döneminde SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
+      caption: "Consent Mode, Cookie Banner ve Privacy Döneminde SEO Raporlamasını Nasıl Doğru Yorumlarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-2.webp",
+      alt: "Ölçüm mü performans mı akışı, hızlı triage, turizm ve B2B bağlamı",
+      caption: "Ölçüm mü performans mı akışı, hızlı triage, turizm ve B2B bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-3.webp",
+    alt: "Privacy dönemi raporlama ayracı, ölçüm etkisini ayırma, otel bağlamı",
+      caption: "Privacy dönemi raporlama ayracı, ölçüm etkisini ayırma, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-4.webp",
+      alt: "Modeled data ve doğrulama ayracı, güvenli yorum, kurum bağlamı",
+      caption: "Modeled data ve doğrulama ayracı, güvenli yorum, kurum bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-5.webp",
+      alt: "Consent banner veriden rapora akış diyagramı, doğru karar, otel bağlamı",
+      caption: "Consent banner veriden rapora akış diyagramı, doğru karar, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-6.webp",
+      alt: "Privacy sonrası rapor checklist kartı, yanlış alarmı azaltma, ajans bağlamı",
+      caption: "Privacy sonrası rapor checklist kartı, yanlış alarmı azaltma, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-7.webp",
+      alt: "Consent rate ve KPI kartları, hızlı özet, Avrupa pazar otel bağlamı",
+      caption: "Consent rate ve KPI kartları, hızlı özet, Avrupa pazar otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-22/SEO5-22-8.webp",
+      alt: "Privacy-aware rapor çıktıları kartı, güvenli yorumlama, kurum bağlamı",
+      caption: "Privacy-aware rapor çıktıları kartı, güvenli yorumlama, kurum bağlamı"
+    }
   }
 
 

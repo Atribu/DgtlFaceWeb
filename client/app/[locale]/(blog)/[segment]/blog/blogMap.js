@@ -270,7 +270,10 @@ export const BLOG_MAP = {
     "multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar":"BlogMultiSiteVeMultiBrandSeoRaporlamaZincirOtellerVeGruplar",
     "rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik":"BlogRolBazliSeoDashboardlariCeoPazarlamaIcerikTeknik",
     "site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei":"BlogSiteGecisleriVeDomainDegisimiIcinSeoRaporlamaTemplatei",
-    "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi":"BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi"
+    "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi":"BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi",
+    "raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek":"BlogRaporlamaRitmiVeSeoOperasyonKulturuHaftalikAylikCeyrek",
+    "bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu":"BlogBigQueryVeVeriAmbariIleSeoDataWarehouseKurulumu",
+    "consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz":"BlogConsentModeVeCookieBannerdanSonraSeoRaporlamasiniNasilDogruYorumlarsiniz"
   },
 
     smm: {

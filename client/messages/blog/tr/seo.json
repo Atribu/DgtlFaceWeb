@@ -31050,7 +31050,7 @@
       },
       {
         "id": "yanlis-konumda-gorunen-otel-pin-nasil-duzeltilir",
-        "title": "Yanlış konumda görünen otel pin’i nasıl düzeltilir? (GEO örnekli)",
+        "title": "Yanlış konumda görünen otel pin’i nasıl düzeltilir?",
         "blocks": [
           {
             "type": "p",
@@ -41813,7 +41813,7 @@
       },
       {
         "id": "otel-ve-hizmet-ornekleriyle-entity-first-icerik-kurgusu",
-        "title": "Otel ve hizmet örnekleriyle entity-first içerik kurgusu (GEO + sektör)",
+        "title": "Otel ve hizmet örnekleriyle entity-first içerik kurgusu",
         "blocks": [
           {
             "type": "p",
@@ -42444,7 +42444,7 @@
         },
         {
           "type": "h3",
-          "text": "Otel örnekleri (GEO doğal)"
+          "text": "Otel örnekleri"
         },
         {
           "type": "list",
@@ -50967,7 +50967,7 @@
       },
       {
         "id": "otel-ve-b2b-ornekleri",
-        "title": "Otel ve B2B örnekleri (GEO dahil, spam değil)",
+        "title": "Otel ve B2B örnekleri",
         "blocks": [
           {
             "type": "p",
@@ -67271,7 +67271,7 @@
           },
           {
             "type": "p",
-            "text": "Otel için pratik (GEO): Antalya/Bodrum gibi destinasyonlarda “harita ve yerel sorgular” önemliyse, GBP + NAP tutarlılığı ilk sprintte bitmeli."
+            "text": "Otel için pratik: Antalya/Bodrum gibi destinasyonlarda “harita ve yerel sorgular” önemliyse, GBP + NAP tutarlılığı ilk sprintte bitmeli."
           },
           {
             "type": "p",
@@ -67894,7 +67894,7 @@
           {
             "type": "callout",
             "variant": "answer",
-            "title": "Net cevap bloğu (AEO)",
+            "title": "Net cevap bloğu ",
             "items": [
               "CWV raporunda önce hangi URL grupları “Poor” görünüyor, onu bulun.",
               "Sonra hangi metrikte kötü: LCP mi, CLS mi, INP mi?",
@@ -68056,7 +68056,7 @@
           {
             "type": "callout",
             "variant": "answer",
-            "title": "Net cevap bloğu (AEO)",
+            "title": "Net cevap bloğu ",
             "items": [
               "Index kapsamı ve kritik şablonlar (hizmet/destinasyon/oda sayfaları index’te mi?)",
               "Status kodları (404/5xx artışı var mı?)",
@@ -69576,7 +69576,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): GBP’den map views/calls/directions/website clicks verilerini alın; aynı tarih aralığında GA4’te local landing sayfalarının organik performansını (sessions/dönüşüm) çekin. Bu iki veri setini tek tabloda yan yana koyun ve “görünürlük → etkileşim → site → dönüşüm” akışına göre aksiyon çıkarın."
+            "text": "Net cevap bloğu : GBP’den map views/calls/directions/website clicks verilerini alın; aynı tarih aralığında GA4’te local landing sayfalarının organik performansını (sessions/dönüşüm) çekin. Bu iki veri setini tek tabloda yan yana koyun ve “görünürlük → etkileşim → site → dönüşüm” akışına göre aksiyon çıkarın."
           },
           {
             "type": "table",
@@ -70212,7 +70212,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Test süresi; trafik hacmine ve KPI dalgalanmasına bağlıdır. Pratikte amaç, “günlük dalgalanma”yı aşacak kadar veri toplamaktır; bu yüzden genelde en az birkaç hafta aynı koşullarda ölçüm yapmak gerekir. Sezon/algoritma güncellemesi gibi büyük dış etkenler varsa test sonucu bozulabilir; raporda bu risk not edilmelidir."
+            "text": "Net cevap bloğu : Test süresi; trafik hacmine ve KPI dalgalanmasına bağlıdır. Pratikte amaç, “günlük dalgalanma”yı aşacak kadar veri toplamaktır; bu yüzden genelde en az birkaç hafta aynı koşullarda ölçüm yapmak gerekir. Sezon/algoritma güncellemesi gibi büyük dış etkenler varsa test sonucu bozulabilir; raporda bu risk not edilmelidir."
           },
           {
             "type": "p",
@@ -70712,7 +70712,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): YoY, aynı sezon koşulunu aynı sezonla karşılaştırdığı için sezon dalgasını nötralize eder. “Bu ay düştük” yerine “geçen yıl aynı ayın üstünde miyiz?” sorusuna cevap verir; böylece gerçek büyümeyi, gerçek kaybı ve stratejinin işe yarayıp yaramadığını daha sağlıklı görürsünüz."
+            "text": "Net cevap bloğu : YoY, aynı sezon koşulunu aynı sezonla karşılaştırdığı için sezon dalgasını nötralize eder. “Bu ay düştük” yerine “geçen yıl aynı ayın üstünde miyiz?” sorusuna cevap verir; böylece gerçek büyümeyi, gerçek kaybı ve stratejinin işe yarayıp yaramadığını daha sağlıklı görürsünüz."
           },
           {
             "type": "media",
@@ -70988,7 +70988,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): En az şu olayları işaretleyin: site taşınması/yenileme, URL yapısı değişimi, büyük içerik güncellemeleri, robots/sitemap/canonical değişiklikleri, büyük kampanya dönemleri, kriz dönemleri ve ölçüm değişiklikleri. Amaç “bahane üretmek” değil, trend kırılmalarını doğru açıklamaktır."
+            "text": "Net cevap bloğu : En az şu olayları işaretleyin: site taşınması/yenileme, URL yapısı değişimi, büyük içerik güncellemeleri, robots/sitemap/canonical değişiklikleri, büyük kampanya dönemleri, kriz dönemleri ve ölçüm değişiklikleri. Amaç “bahane üretmek” değil, trend kırılmalarını doğru açıklamaktır."
           },
           {
             "type": "media",
@@ -71454,7 +71454,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Güncellenen URL’ler için yayın tarihinden önceki dönemden bir baseline alın ve aynı uzunlukta “sonra” penceresi seçin. GSC (impressions/clicks/CTR/konum) ve GA4 (sessions/dönüşüm) KPI’larını birlikte karşılaştırın; mümkünse YoY veya benzer kontrol setiyle dış etkenleri not edin."
+            "text": "Net cevap bloğu : Güncellenen URL’ler için yayın tarihinden önceki dönemden bir baseline alın ve aynı uzunlukta “sonra” penceresi seçin. GSC (impressions/clicks/CTR/konum) ve GA4 (sessions/dönüşüm) KPI’larını birlikte karşılaştırın; mümkünse YoY veya benzer kontrol setiyle dış etkenleri not edin."
           },
           {
             "type": "h3",
@@ -72130,7 +72130,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Aynı tarih aralığında, GA4’te mobil ve masaüstü organik sessions + conversions KPI’larını; GSC’de mobil ve masaüstü CTR + position KPI’larını yan yana koyun. Mobilde dönüşüm düşük ama CTR iyi ise sorun çoğu zaman landing UX’tedir; mobilde CTR düşük ama dönüşüm iyi ise problem snippet/vaat olabilir."
+            "text": "Net cevap bloğu : Aynı tarih aralığında, GA4’te mobil ve masaüstü organik sessions + conversions KPI’larını; GSC’de mobil ve masaüstü CTR + position KPI’larını yan yana koyun. Mobilde dönüşüm düşük ama CTR iyi ise sorun çoğu zaman landing UX’tedir; mobilde CTR düşük ama dönüşüm iyi ise problem snippet/vaat olabilir."
           },
           {
             "type": "p",
@@ -72257,7 +72257,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): GA4’te new vs returning segmentini seçip organik sessions, engagement ve conversions KPI’larını ayrı gösterin. Yeni kullanıcı tarafında non-brand görünürlük ve CTR (GSC) ile ilişkilendirin; geri dönen tarafında brand trafiği ve dönüşüm davranışıyla birlikte okuyun."
+            "text": "Net cevap bloğu : GA4’te new vs returning segmentini seçip organik sessions, engagement ve conversions KPI’larını ayrı gösterin. Yeni kullanıcı tarafında non-brand görünürlük ve CTR (GSC) ile ilişkilendirin; geri dönen tarafında brand trafiği ve dönüşüm davranışıyla birlikte okuyun."
           },
           {
             "type": "p",
@@ -72734,7 +72734,7 @@
             "items": [
               "Rapor sayfasını 4 blok yapın: görünürlük, trafik, etkileşim, dönüşüm.",
               "Her blokta 2–4 KPI’dan fazla kullanmayın.",
-              "Her blok sonunda 3–6 maddelik aksiyon listesi ekleyin (SXO)."
+              "Her blok sonunda 3–6 maddelik aksiyon listesi ekleyin ."
             ]
           },
           {
@@ -72780,7 +72780,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): SEO funnel’i dört adımda okunur: görünürlük (impressions/konum) → trafik (sessions) → etkileşim (mikro event’ler) → dönüşüm (lead/rezervasyon/arama). Her adımın KPI’ı farklıdır; darboğaz hangi adımda ise aksiyon oradan başlar."
+            "text": "Net cevap bloğu : SEO funnel’i dört adımda okunur: görünürlük (impressions/konum) → trafik (sessions) → etkileşim (mikro event’ler) → dönüşüm (lead/rezervasyon/arama). Her adımın KPI’ı farklıdır; darboğaz hangi adımda ise aksiyon oradan başlar."
           },
           {
             "type": "h3",
@@ -73354,7 +73354,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Bazen evet, bazen hayır. Doğru karar; brand sorguda organik CTR + reklam tıklama payı + toplam dönüşüm + rakip görünürlüğü birlikte okunarak verilir. Eğer reklam, organiğin zaten aldığı talebi “yeniden” satın alıyorsa israf olabilir; ama rakipler brand sorguda agresifse, reklam “savunma” rolüyle toplam dönüşümü koruyabilir."
+            "text": "Net cevap bloğu : Bazen evet, bazen hayır. Doğru karar; brand sorguda organik CTR + reklam tıklama payı + toplam dönüşüm + rakip görünürlüğü birlikte okunarak verilir. Eğer reklam, organiğin zaten aldığı talebi “yeniden” satın alıyorsa israf olabilir; ama rakipler brand sorguda agresifse, reklam “savunma” rolüyle toplam dönüşümü koruyabilir."
           },
           {
             "type": "h3",
@@ -73656,7 +73656,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): SEO’yu doğrudan ROAS’ın içine “ek gelir” gibi yazmak yerine, birleşik raporda iki şey gösterin: (1) brand/generic sorgularda organiğin payı ve trendi, (2) Ads harcaması değiştiğinde toplam dönüşümün nasıl değiştiği. Böylece “reklam kapatınca SEO ne oldu?” sorusunu veriyle yanıtlayıp bütçe kararını daha doğru verirsiniz."
+            "text": "Net cevap bloğu : SEO’yu doğrudan ROAS’ın içine “ek gelir” gibi yazmak yerine, birleşik raporda iki şey gösterin: (1) brand/generic sorgularda organiğin payı ve trendi, (2) Ads harcaması değiştiğinde toplam dönüşümün nasıl değiştiği. Böylece “reklam kapatınca SEO ne oldu?” sorusunu veriyle yanıtlayıp bütçe kararını daha doğru verirsiniz."
           },
           {
             "type": "p",
@@ -74231,7 +74231,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Erken uyarıda en iyi KPI’lar; hızlı değişen ve iş etkisi olan metriklerdir: CTR (snippet), conversions (iş), 5xx/404 trendleri (teknik kırılım), belirli landing’lerde sessions düşüşü (trafik kaybı), segment bazlı sapmalar (mobil veya ülke). AI bu KPI’larda sapmayı işaretler; insan analist kök nedeni doğrular."
+            "text": "Net cevap bloğu : Erken uyarıda en iyi KPI’lar; hızlı değişen ve iş etkisi olan metriklerdir: CTR (snippet), conversions (iş), 5xx/404 trendleri (teknik kırılım), belirli landing’lerde sessions düşüşü (trafik kaybı), segment bazlı sapmalar (mobil veya ülke). AI bu KPI’larda sapmayı işaretler; insan analist kök nedeni doğrular."
           },
           {
             "type": "h3",
@@ -74294,7 +74294,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): AI için uygun sorular; kalıp desen yakalama ve anomali bulma odaklıdır: “bu hafta en büyük sapmalar nerede?”, “hangi 10 landing en çok düşmüş?”, “hangi segmentte CTR kırıldı?”. İnsan analist gerektiren sorular ise bağlam ve strateji ister: “bu değişimi hangi aksiyonla çözeriz?”, “brand/generic stratejisi nasıl değişmeli?”, “sezon etkisini nasıl okuyacağız?”. AI hızlı özetler; insan analist karar verir."
+            "text": "Net cevap bloğu : AI için uygun sorular; kalıp desen yakalama ve anomali bulma odaklıdır: “bu hafta en büyük sapmalar nerede?”, “hangi 10 landing en çok düşmüş?”, “hangi segmentte CTR kırıldı?”. İnsan analist gerektiren sorular ise bağlam ve strateji ister: “bu değişimi hangi aksiyonla çözeriz?”, “brand/generic stratejisi nasıl değişmeli?”, “sezon etkisini nasıl okuyacağız?”. AI hızlı özetler; insan analist karar verir."
           },
           {
             "type": "h3",
@@ -75085,7 +75085,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Multi-site SEO raporu 3 seviyeden oluşmalı: (1) Grup: toplam KPI ve trend, (2) Marka/Bölge: filtreli performans, (3) Site/Otel: landing + segment + dönüşüm teşhisi. Her seviye aynı KPI sözlüğünü kullanır ama farklı derinlikte sunar."
+            "text": "Net cevap bloğu : Multi-site SEO raporu 3 seviyeden oluşmalı: (1) Grup: toplam KPI ve trend, (2) Marka/Bölge: filtreli performans, (3) Site/Otel: landing + segment + dönüşüm teşhisi. Her seviye aynı KPI sözlüğünü kullanır ama farklı derinlikte sunar."
           },
           {
             "type": "h3",
@@ -75093,7 +75093,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Grup KPI’ları sade ve karar odaklıdır (toplam görünürlük, trafik, dönüşüm). Site KPI’ları teşhis odaklıdır (landing performansı, segment sapması, teknik risk). Aynı sözlükle konuşurlar; ama grup “ne oluyor?”, site “neden oluyor?” der."
+            "text": "Net cevap bloğu : Grup KPI’ları sade ve karar odaklıdır (toplam görünürlük, trafik, dönüşüm). Site KPI’ları teşhis odaklıdır (landing performansı, segment sapması, teknik risk). Aynı sözlükle konuşurlar; ama grup “ne oluyor?”, site “neden oluyor?” der."
           },
           {
             "type": "p",
@@ -76149,7 +76149,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Geçişten önce mutlaka bir baseline kaydedin: (1) en kritik landing’lerin GSC görünürlük KPI’ları (impressions/clicks/CTR/position), (2) GA4 organik sessions ve dönüşümler, (3) index kapsamı ve tarama hataları, (4) eski URL envanteri ve yeni URL mapping listesi. Baseline olmadan “düşüş normal mi hata mı?” ayrımı yapılamaz."
+            "text": "Net cevap bloğu : Geçişten önce mutlaka bir baseline kaydedin: (1) en kritik landing’lerin GSC görünürlük KPI’ları (impressions/clicks/CTR/position), (2) GA4 organik sessions ve dönüşümler, (3) index kapsamı ve tarama hataları, (4) eski URL envanteri ve yeni URL mapping listesi. Baseline olmadan “düşüş normal mi hata mı?” ayrımı yapılamaz."
           },
           {
             "type": "p",
@@ -76323,7 +76323,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Migration sonrası kısa vadeli dalgalanma görülebilir; ancak “normal” olup olmadığı, tek bir trafik grafiğiyle değil redirect doğruluğu + index sinyalleri + kritik landing dönüşümü ile anlaşılır. 301 ve index sağlığı düzgünse, görünürlük ve trafik daha kontrollü toparlanır. Eğer 404/5xx artıyor, index kapsamı düşüyor veya kritik landing dönüşümü sert bozuluyorsa bu “normal dalga” değil, müdahale gerektiren risktir."
+            "text": "Net cevap bloğu : Migration sonrası kısa vadeli dalgalanma görülebilir; ancak “normal” olup olmadığı, tek bir trafik grafiğiyle değil redirect doğruluğu + index sinyalleri + kritik landing dönüşümü ile anlaşılır. 301 ve index sağlığı düzgünse, görünürlük ve trafik daha kontrollü toparlanır. Eğer 404/5xx artıyor, index kapsamı düşüyor veya kritik landing dönüşümü sert bozuluyorsa bu “normal dalga” değil, müdahale gerektiren risktir."
           },
           {
             "type": "h3",
@@ -76900,7 +76900,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Önce GA4’te Organic Search kanal tanımını ve source/medium kurallarını kontrol edin; UTM’lerin yanlış kullanımı organiği başka kanallara kaydırabilir. Sonra landing bazlı organik girişleri ve GSC tıklamalarıyla çapraz doğrulayın: GSC click’ler stabilken GA4 organik düşüyorsa ölçüm/attribüsyon ihtimali yüksektir. Son olarak değişiklik günlüğüne bakın: GTM/kanal mapping güncellemesi var mı?"
+            "text": "Net cevap bloğu : Önce GA4’te Organic Search kanal tanımını ve source/medium kurallarını kontrol edin; UTM’lerin yanlış kullanımı organiği başka kanallara kaydırabilir. Sonra landing bazlı organik girişleri ve GSC tıklamalarıyla çapraz doğrulayın: GSC click’ler stabilken GA4 organik düşüyorsa ölçüm/attribüsyon ihtimali yüksektir. Son olarak değişiklik günlüğüne bakın: GTM/kanal mapping güncellemesi var mı?"
           },
           {
             "type": "h3",
@@ -76965,7 +76965,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap bloğu (AEO): Raporun güvenilirliğini; (1) GSC ve GA4 trend tutarlılığı, (2) dönüşüm event’lerinin değişiklik geçmişi (changelog), (3) bot/spam temizliği ve (4) filtre/tarih uyumu üzerinden kontrol edersiniz. Bu dört alan “OK” değilse rapor yorumunu erteleyip önce ölçümü düzeltmek gerekir."
+            "text": "Net cevap bloğu : Raporun güvenilirliğini; (1) GSC ve GA4 trend tutarlılığı, (2) dönüşüm event’lerinin değişiklik geçmişi (changelog), (3) bot/spam temizliği ve (4) filtre/tarih uyumu üzerinden kontrol edersiniz. Bu dört alan “OK” değilse rapor yorumunu erteleyip önce ölçümü düzeltmek gerekir."
           },
           {
             "type": "p",
@@ -77260,6 +77260,2133 @@
           "Change log güncel tutuluyor",
           "Rapor başında Veri hijyeni: OK/Risk/Kritik etiketi var",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+
+   "BlogRaporlamaRitmiVeSeoOperasyonKulturuHaftalikAylikCeyrek": {
+    "title": "SEO Rapor Ritmi: Haftalık–Aylık–Çeyrek Model",
+    "slug": "raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "6 Haziran 2026",
+    "publishedAt": "2026-06-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SEO’yu süreç yap: haftalık izleme+alarm, aylık sonuç+aksiyon, çeyreklik trend+benchmark. KPI setlerini sadeleştir, toplantı ritmi kur; backlog’un kaybolmasını engelle.",
+    "seo": {
+      "metaTitle": "SEO Rapor Ritmi: Haftalık–Aylık–Çeyrek Model | DGTLFACE",
+      "metaDescription": "SEO’yu süreç yap: haftalık izleme+alarm, aylık sonuç+aksiyon, çeyreklik trend+benchmark. KPI setlerini sadeleştir, toplantı ritmi kur; backlog’un kaybolmasını engelle."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      ],
+      "strategySummary": "Bu içerik, SEO raporlamayı “ara ara bakılan bir dosya” olmaktan çıkarıp operational cadence (ritim) haline getiren otorite yazıdır. Hedef persona; ajans yöneticileri ve kurum içi SEO/büyüme ekip liderleridir: “SEO raporu ne sıklıkla hazırlanmalı?” sorusunu ekip kapasitesi ve sezon etkisini dikkate alarak standardize etmek ister. Funnel MoFu’dadır; haftalık erken uyarı (monitoring), aylık sonuç+aksiyon ve çeyreklik trend+benchmark kurgusuyla SEO’nun sürekli iyileştirme kültürüne (continuous improvement) dönüşmesini sağlar. Ana iş sorusu: “Haftalık–aylık–çeyreklik rapor ritmini kurup, backlog’un kaybolmasını nasıl engeller ve SEO’yu düzenli işletilen bir operasyon hâline getiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "SEO tek seferlik raporlanacak bir iş değil, ritimle yönetilen bir operasyondur. Haftalık raporlar “monitoring & alert” ile erken uyarı üretir; aylık raporlar performansı “başarı–risk–aksiyon” formatında kapatır; çeyreklik/yıllık raporlar trend, benchmark ve roadmap’i değerlendirir. Doğru ritim kurulduğunda SEO aksiyonlarının “kayıp gitme” ihtimali azalır ve backlog gerçekten ilerler. Ritim; ekip kapasitesi, proje büyüklüğü ve sezon etkisine göre kalibre edilmelidir.",
+      "sgeSummary": "Haftalık izleme, aylık aksiyon, çeyreklik trend: SEO raporlarını üç ritimde kurgula. KPI’ları sade tut, toplantı takvimini belirle, alarm–aksiyon–takip zinciriyle operasyon kültürü oluştur.",
+      "voiceAnswer": "Haftalık takip, aylık performans, çeyreklik strateji raporu kur; SEO’yu düzenli bir operasyona çevir.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajanslar ve kurum içi SEO/büyüme ekipleri (TR geneli)",
+        "Entity Theme: Reporting Rhythm; Weekly/Monthly/Quarterly; SEO Ops Culture",
+        "Semantic Theme: operational cadence; continuous improvement; structured follow-up",
+        "KPI seti: haftalık (alarm KPI), aylık (başarı/risk/aksiyon KPI), çeyrek (trend/benchmark/roadmap)",
+        "Funnel: erken uyarı → teşhis → aksiyon → takip → öğrenim",
+        "Geo bağlam: TR’de sezon etkisi güçlü sektörlerde (turizm: Antalya/Belek/Side/Kemer; perakende/e-ticaret) ritim daha kritiktir",
+        "Çıktı: ritim timeline’ı + KPI tablosu + toplantı şablonu + operasyon checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model",
+      "intro": "SEO raporları iki uçta kaybolur: ya çok sık ama yüzeysel hazırlanır (her hafta aynı ekran görüntüleri), ya da çok seyrek ama aşırı detaylı hazırlanır (kimsenin okuyamadığı PDF’ler). Sonuçta rapor, karar üretmez; aksiyonlar “kayıp gider”, backlog ilerlemez. Oysa SEO’nun değer üretmesi için raporun bir operasyon ritmi (structured follow-up) kurması gerekir: haftalık erken uyarı, aylık performans+aksiyon ve çeyreklik strateji. Bu model, SEO’yu “ara ara bakılan bir dosya” olmaktan çıkarır; düzenli işletilen bir kültüre dönüştürür.",
+      "quickSummary": [
+        "1) Raporu üç ritme ayır: haftalık alarm, aylık sonuç+aksiyon, çeyrek trend+benchmark",
+        "2) Her ritmin KPI setini sabit ve sade tut",
+        "3) Haftalık raporu performans sunumu değil, anomali ve risk yakalama aracı olarak kullan",
+        "4) Aylık raporu başarı–risk–aksiyon formatında kapat",
+        "5) Çeyrek raporda trend, benchmark, roadmap ve stratejik kararları birlikte değerlendir"
+      ],
+      "ctaPrimary": {
+        "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
+        "text": "Haftalık–aylık–çeyreklik ritmi kurup aksiyonların kaybolmasını engellemek isteyen ajans ve kurum ekipleri için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
+        "text": "Ajans ve kurum ekiplerinde raporlama sıklığını ve içerik derinliğini doğru kalibre etmek isteyenler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir",
+        "text": "Haftalık–aylık–çeyrek rapor formatlarını ve toplantı ajandalarını hazır verir; aksiyonların kaybolmasını engeller.",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
+        "href": "/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-raporlama-ritmi-onemlidir",
+        "title": "Neden Raporlama Ritmi Önemlidir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Raporlama ritmi, SEO’da iki temel problemi çözer:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Erken uyarı: Hata ve dalgalanmaları gecikmeden yakalarsınız (monitoring).",
+              "Süreklilik: Aksiyonlar “raporda kalmaz”, takibe ve sprint’e dönüşür."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ritim olmadığında şunlar olur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR düşer, kimse fark etmez; bir ay sonra “trafik düştü” paniklemesi gelir.",
+              "Dönüşüm event’i kırılır, rapor “SEO kötü” diye okunur; yanlış aksiyon alınır.",
+              "Teknik borç birikir, çeyrek sonunda geri dönüş maliyeti büyür."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sezon etkisi notu (turizm): Antalya/Belek/Side gibi destinasyonlarda talep dalgalıdır; sadece aylık bakış, yanlış alarm üretir. Haftalık izleme “kırılma”yı, çeyreklik okuma “normal dalga mı strateji mi?” sorusunu cevaplar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rapor “erken uyarı” üretiyor mu, yoksa sadece özet mi?",
+              "Her rapor bir sonraki rapora devreden aksiyon listesi içeriyor mu?",
+              "Sezon etkisini (turizm/e-ticaret) ritimde dikkate aldım mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Raporu üç ritme ayırın: haftalık (alarm), aylık (sonuç+aksiyon), çeyrek (trend+benchmark).",
+              "Her ritmin KPI setini sabit ve sade tutun.",
+              "Her raporu “karar cümlesi + aksiyon backlog’u” ile kapatın.",
+              "Ajans–müşteri veya ekip içi toplantı takvimini rapora bağlayın (rapor toplantısız kalmasın)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "haftalik-takip-raporu-monitoring-alert",
+        "title": "Haftalık Takip Raporu (Monitoring & Alert)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Haftalık rapor “performans sunumu” değildir; anomali ve risk yakalama raporudur. Bu raporun hedefi, 30 dakikalık bir toplantıda şu soruyu cevaplamaktır: Bu hafta normal mi, risk mi var?"
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık raporda izlenecek temel metrikler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GSC hızlı sinyaller: impressions, clicks, CTR trendi (özellikle top landing’ler)",
+              "GA4 hızlı sinyaller: organic sessions, dönüşüm trendi (makro dönüşüm)",
+              "Teknik sinyaller: 404/5xx artışı, CWV kırılma sinyali (varsa)",
+              "Veri hijyeni sinyali: event/tag değişikliği oldu mu? (change log)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Haftalık raporun kuralı: “Her şeye bakmak” yok. 8–12 KPI ve en kritik 10 landing yeter."
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık alarm mantığı (triage)"
+          },
+          {
+            "type": "p",
+            "text": "Haftalık raporda her sapmayı kriz saymayın; 3 seviye kullanın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik: dönüşüm sert düştü + teknik hata var",
+              "Önemli: CTR düştü veya landing bazlı trafik kaybı var",
+              "İzle: düşük örneklemli segmentte dalga"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “Bu hafta CTR düştü” kartı geldi. Önce GSC’de sorgu/landing kırılımı; sonra SERP görünümü; sonra değişiklik log’u kontrol edilir. Aksiyon: title/meta test veya snippet iyileştirme."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Haftalık rapor KPI sayısı sınırlı mı (8–12)?",
+              "Alarm sınıflandırması var mı (kritik/önemli/izle)?",
+              "Haftalık rapor sonunda tek bir “bu haftanın 1–2 aksiyonu” çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Haftalık raporu “war-room” formatında tasarlayın: riskleri yakala, aksiyonu seç.",
+              "Top 10 landing listesiyle haftalık izlemeyi standardize edin.",
+              "Change log’u haftalık raporun zorunlu satırı yapın (ölçüm/teknik değişiklik).",
+              "Haftalık rapordan çıkan aksiyonları aylık rapor backlog’una taşıyın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aylik-performans-raporu-sonuc-aksiyon",
+        "title": "Aylık Performans Raporu (Sonuç & Aksiyon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aylık rapor, SEO’nun “ne oldu?” sorusunu iş etkisi ile bağlar ve “ne yapacağız?” ile kapanır. Burada ana hedef, haftalık sinyallerin birikimini anlamlı bir hikâyeye dönüştürmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Aylık rapor yapısı (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Özet (1 sayfa): ne oldu / neden oldu / ne yapıyoruz",
+              "Başarılar: 3 madde (iş KPI ile)",
+              "Riskler: 3 madde (kayıp ihtimali)",
+              "Aksiyonlar: 3–6 madde (sorumlu + tarih)",
+              "Ekler: landing/segment/teknik detay"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, raporu okunur yapar ve “SEO operasyon ritmi”nin merkezine oturtur."
+          },
+          {
+            "type": "h3",
+            "text": "Aylık KPI seti (çekirdek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GSC: impressions/clicks/CTR/position (trend)",
+              "GA4: organic sessions + conversions (makro)",
+              "Segment: mobil/desktop ve top ülke (hacim varsa)",
+              "İçerik: top landing kazananlar/riskliler",
+              "Teknik: 1–2 kritik sinyal (404/5xx veya CWV)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Düzenli raporlama ritmi ve takip toplantıları olan ekiplerde, SEO aksiyonlarının “kayıp gitme” ihtimali azalıyor ve backlog gerçekten ilerliyor."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aylık rapor “başarı–risk–aksiyon” ile kapanıyor mu?",
+              "Aylık raporda KPI sayısı kontrollü mü (yönetici için sade)?",
+              "Haftalık bulgular aylık raporda “neden”e bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Aylık raporu 1 sayfalık yönetici özetiyle açın.",
+              "“3 başarı + 3 risk + 3 aksiyon” çekirdeğini sabitleyin.",
+              "Aksiyonları sorumlu ve tarihle yazın; bir sonraki raporda “durum” kontrol edin.",
+              "Sezon etkisi varsa (turizm/e-ticaret) YoY satırı ekleyin (panik azaltır)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "ceyrek-yillik-strateji-raporu-trend-benchmark",
+        "title": "Çeyrek/Yıllık Strateji Raporu (Trend & Benchmark)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çeyreklik/yıllık rapor, “tek ayın gürültüsü”nü temizler ve SEO stratejisinin yönünü kontrol eder. Burada amaç; kısa vadeli dalgalanmaları değil, uzun vadeli katkıyı okumaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Çeyreklik rapor neyi gösterir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trend: son 3–6 ay görünürlük/traffic/dönüşüm gidişatı",
+              "Benchmark: geçen yıl aynı dönem veya hedef bandı",
+              "Roadmap: içerik/teknik backlog ilerledi mi, ne kaldı?",
+              "Öğrenimler: hangi aksiyonlar işe yaradı, hangileri yaramadı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çeyreklik raporda “işaretleme” standardı"
+          },
+          {
+            "type": "p",
+            "text": "Trend grafiğine önemli olayları işaretleyin: site geçişi, büyük içerik refresh, teknik release, ölçüm değişikliği. Bu, “neden değişti?” sorusunu hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Turizmde çeyreklik rapor, yüksek/düşük sezon geçişinde “normal dalga mı, performans kaybı mı?” ayrımını netleştirir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Çeyrek rapor benchmark içeriyor mu?",
+              "Roadmap ilerlemesi raporda görünür mü?",
+              "Olay işaretleri (timeline) grafikte var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Çeyreklik raporda 12–24 ay penceresiyle trend gösterin (sezon etkisi için).",
+              "Benchmark’ı “band” olarak koyun (hedef/YoY).",
+              "Roadmap’i rapora bağlayın: yapılanlar, kalanlar, bir sonraki çeyrek planı.",
+              "Çeyrek raporun sonunda “stratejik 3 karar” yazın (yatırım alanı, risk alanı, test alanı)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seoyu-surec-haline-getirmek-ops-culture",
+        "title": "SEO’yu Süreç Hâline Getirmek (Ops Culture)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rapor ritmi tek başına yetmez; ritim bir operasyon kültürüne bağlanmalı. Kültür dediğimiz şey; raporların toplantıya, toplantının backlog’a, backlog’un sprint’e ve sprint’in tekrar rapora dönmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Rapor tipi → hedef → KPI → toplantı ilişkisi (AIO uyumlu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: hedef erken uyarı → KPI alarm seti → 30 dk triage toplantısı",
+              "Aylık: hedef performans + aksiyon → KPI özet seti → 60 dk performans toplantısı",
+              "Çeyrek: hedef strateji + benchmark → trend KPI seti → 90 dk strateji toplantısı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu ilişki kurulmazsa rapor “dosya” olur, operasyon olmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Ajans–müşteri toplantı takvimi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: ajans içi kısa triage (müşteriyle her hafta şart değil)",
+              "Aylık: müşteri/üst yönetim performans toplantısı",
+              "Çeyrek: strateji + roadmap + bütçe görüşmesi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (sheet): Raporlama ritmi kurarken ekip kapasitesi, proje büyüklüğü ve sezon etkileri dikkate alınmalıdır. Her projeye aynı yoğunluğu dayatmak kaliteyi düşürür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporların toplantı ritmi var mı?",
+              "Aksiyon backlog’u takip ediliyor mu (kayıp gitmiyor mu)?",
+              "Proje büyüklüğüne göre ritim kalibre mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Haftalık–aylık–çeyrek toplantı takvimini yıl başında kilitleyin.",
+              "Her aksiyona owner ve tarih atayın; raporda status takip edin.",
+              "Ritim kapasiteye göre ölçeklensin: küçük projede haftalık “mini”, büyük projede haftalık “full” olabilir.",
+              "Sezon etkisi yüksek projelerde çeyreklik raporun önemini artırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rapor-cok-sik-mi-cok-seyrek-mi-problemini-cozmek",
+        "title": "Fark Yaratan Mini Bölüm — “Rapor Çok Sık mı, Çok Seyrek mi?” Problemini Çözmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok projede raporlar ya çok sık ve yüzeysel ya da çok seyrek ve aşırı detaylı hazırlanıyor; yapılandırılmış bir ritim, odak ve kaliteyi artırır. Bu blogun “fark yaratan” önerisi şudur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: sadece erken uyarı (alarm) — az KPI, hızlı aksiyon",
+              "Aylık: sonuç + aksiyon — yönetici özeti, net backlog",
+              "Çeyrek: trend + benchmark — stratejik yön, yatırım kararı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Böylece “seo raporu ne sıklıkla hazırlanmalı” sorusu netleşir ve ekipler her raporda aynı şeyi yapmaz; doğru raporu doğru amaçla yapar."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rapor türü için örnek KPI seti tablosu (haftalık/aylık/çeyrek)",
+            "headers": [
+              "Rapor türü",
+              "Amaç",
+              "KPI seti (örnek)",
+              "Çıktı"
+            ],
+            "rows": [
+              [
+                "Haftalık",
+                "Monitoring & alert",
+                "CTR sapması, dönüşüm sapması, 404/5xx",
+                "1–2 acil aksiyon"
+              ],
+              [
+                "Aylık",
+                "Sonuç & aksiyon",
+                "organik dönüşüm, sessions, CTR, top landing",
+                "3–6 backlog"
+              ],
+              [
+                "Çeyrek",
+                "Trend & benchmark",
+                "YoY trend, SOV/visibility, roadmap ilerleme",
+                "3 stratejik karar"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir — SEO / Operasyon (v1.0)",
+            "purpose": "Bu asset, SEO raporlamayı üç ritimde standardize eder: haftalık erken uyarı, aylık performans+aksiyon, çeyreklik trend+benchmark. Her rapor tipi için KPI setini sadeleştirir, toplantı ajandasını netleştirir ve aksiyonların backlog’da kaybolmasını engelleyecek takip yapısını kurar. Ekip kapasitesi ve sezon etkisine göre ritmi kalibre etmenizi sağlar.",
+            "whoFor": "Ajanslar, kurum içi SEO/büyüme ekipleri, düzenli takip toplantılarıyla backlog yönetmek isteyenler.",
+            "steps": [
+              "Haftalık–aylık–çeyrek rapor sayfalarını oluştur ve KPI setini sabitle.",
+              "Toplantı ajandalarını ekibe/cliente bağla (takvimde sabitle).",
+              "Her raporda aksiyonlara owner+tarih ata; bir sonraki raporda status güncelle."
+            ],
+            "checklist": [
+              "KPI sözlüğü sabit (tüm raporlarda aynı tanım)",
+              "Haftalık rapor KPI sayısı sınırlı (8–12)",
+              "Aylık rapor “başarı–risk–aksiyon” ile kapanıyor",
+              "Çeyrek rapor benchmark + roadmap içeriyor",
+              "Aksiyonlar owner+tarih ile takip ediliyor"
+            ],
+            "template": {
+              "title": "Template: Raporlama Ritmi + Toplantı Ajandası",
+              "sections": [
+                {
+                  "title": "A) Haftalık (Monitoring & Alert) — 30 dk",
+                  "items": [
+                    "Amaç: anomali/risk yakala",
+                    "KPI seti: CTR sapması, organik dönüşüm sapması, 404/5xx, top 10 landing",
+                    "Ajanda: 5 dk — data hygiene / change log",
+                    "Ajanda: 15 dk — kritik sapmalar (kritik/önemli/izle)",
+                    "Ajanda: 10 dk — 1–2 acil aksiyon (owner+tarih)"
+                  ]
+                },
+                {
+                  "title": "B) Aylık (Sonuç & Aksiyon) — 60 dk",
+                  "items": [
+                    "Amaç: performans hikâyesi + aksiyon planı",
+                    "KPI seti: organik dönüşüm, sessions, CTR/konum trendi, top kazanan/risk landing",
+                    "Ajanda: 10 dk — yönetici özeti (ne oldu/neden/ne yapıyoruz)",
+                    "Ajanda: 30 dk — 3 başarı + 3 risk",
+                    "Ajanda: 20 dk — 3–6 aksiyon backlog’u (P1/P2/P3)"
+                  ]
+                },
+                {
+                  "title": "C) Çeyrek (Trend & Benchmark) — 90 dk",
+                  "items": [
+                    "Amaç: strateji, benchmark, roadmap",
+                    "KPI seti: YoY trend, benchmark bandı, brand/non-brand, roadmap ilerleme",
+                    "Ajanda: 20 dk — trend + benchmark okuma",
+                    "Ajanda: 40 dk — roadmap review (yapılan/kalan)",
+                    "Ajanda: 30 dk — 3 stratejik karar (yatırım/risk/test)"
+                  ]
+                },
+                {
+                  "title": "D) Aksiyon Takip Tablosu",
+                  "items": [
+                    "Owner",
+                    "Tarih",
+                    "Öncelik",
+                    "Durum",
+                    "Sonraki adım"
+                  ]
+                },
+                {
+                  "title": "E) Kontrol listesi",
+                  "items": [
+                    "KPI sözlüğü sabit (tüm raporlarda aynı tanım)",
+                    "Haftalık rapor KPI sayısı sınırlı (8–12)",
+                    "Aylık rapor “başarı–risk–aksiyon” ile kapanıyor",
+                    "Çeyrek rapor benchmark + roadmap içeriyor",
+                    "Aksiyonlar owner+tarih ile takip ediliyor"
+                  ]
+                }
+              ]
+            },
+            "href": "/downloads/haftalik-aylik-ceyrek-seo-raporlama-toplanti-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir",
+            "text": "Üç seviyeli rapor ritmini ve toplantı ajandasını hazır verir; aksiyonların kaybolmasını önler.",
+            "href": "/veri-analiz-ve-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
+            "text": "Ajans–müşteri veya kurum içi ekiplerde raporlama ritmini kalibre edip sürdürülebilir operasyon kültürü kurmak isteyenler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SEO raporlamayı dosyadan operasyona dönüştürün",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SEO raporu yalnızca performans göstermek için değil, operasyon kurmak için hazırlanmalıdır. Haftalık takip erken uyarı üretir; aylık rapor başarı–risk–aksiyon dengesini kurar; çeyreklik rapor stratejik yönü ve benchmark’ı netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ritim kurulmadığında raporlar okunmayan dosyalara, aksiyonlar ise unutulan backlog maddelerine dönüşür. Doğru modelde rapor toplantıya, toplantı backlog’a, backlog sprint’e ve sprint tekrar rapora bağlanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
+            "text": "Ajans ve kurum ekiplerinde raporlama sıklığını ve içerik derinliğini doğru kalibre etmek isteyenler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir",
+            "text": "Haftalık–aylık–çeyrek rapor formatlarını ve toplantı ajandalarını hazır verir; aksiyonların kaybolmasını engeller.",
+            "href": "/veri-analiz-ve-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO raporlarını ne sıklıkla hazırlamalıyım?",
+        "a": "En sağlıklı model üç ritimdir: haftalık izleme+alarm, aylık performans+aksiyon, çeyreklik trend+benchmark. Kapasite ve sezon etkisine göre derinlik ayarlanır."
+      },
+      {
+        "q": "Haftalık raporda ne olmalı, aylıkta ne olmalı?",
+        "a": "Haftalık rapor anomali ve risk odaklıdır (CTR/dönüşüm sapması, 404/5xx, top landing). Aylık rapor sonuç ve aksiyon odaklıdır (başarı–risk–aksiyon, yönetici özeti)."
+      },
+      {
+        "q": "Çeyreklik SEO raporu neyi gösterir?",
+        "a": "Uzun vadeli trendi, benchmark’ı ve roadmap ilerlemesini gösterir. Kısa vadeli gürültüyü filtreleyip stratejik yön ve yatırım kararlarını destekler."
+      },
+      {
+        "q": "Ajans–müşteri SEO toplantı ritmi nasıl olmalı?",
+        "a": "Ajans içi haftalık kısa triage, müşteriyle aylık performans toplantısı ve çeyreklik strateji/roadmap toplantısı en pratik kurgudur. Proje büyüklüğüne göre kalibre edilir."
+      },
+      {
+        "q": "Sezonluk sektörlerde (turizm/e-ticaret) rapor ritmi nasıl değişmeli?",
+        "a": "Haftalık erken uyarı korunmalı; aylık rapora YoY satırı eklenmeli; çeyreklik rapor trend/benchmark okumasını güçlendirmelidir. Sezon dalgası yanlış alarm üretmesin diye pencere seçimi kritiktir."
+      },
+      {
+        "q": "Raporlarım çok sık ama yüzeysel, ne yapmalıyım?",
+        "a": "Haftalığı sadece alarm ve triage’a indirip KPI’yı azaltın. Asıl hikâye ve aksiyonu aylığa, stratejiyi çeyreğe taşıyın."
+      },
+      {
+        "q": "Raporlarım çok seyrek ve kimse okumuyor, ne yapmalıyım?",
+        "a": "Aylık raporu 1 sayfa yönetici özeti + aksiyon backlog’u formatına indirin. Haftalık mini izleme ile riskleri erken yakalayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-hero-01.webp",
+          "h1-context — 1920×1080 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-h1-context-02.webp",
+          "divider-01 — 1600×1200 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-divider-03.webp",
+          "divider-02 — 1600×1200 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-divider-04.webp",
+          "diagram-05 — 1920×1080 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-diagram-05.webp",
+          "checklist-06 — 1200×1200 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-checklist-06.webp",
+          "kpi-07 — 1200×1200 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-kpi-07.webp",
+          "proof-08 — 1200×1200 — raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek-proof-08.webp",
+          "table-report-type-kpi-output — Rapor türü → KPI seti → çıktı tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage şeması soru-cevaplarla eşleşiyor",
+          "İç link hedefleri doğru: /seo/seo-raporlama, /veri-analiz-ve-raporlama, /raporlama/satis-donusum",
+          "Download asset CTA bağlantısı kontrol edildi",
+          "Media slot isimleri template ile uyumlu",
+          "Tablo mobil görünümde kaydırılabilir yapı için test edilecek",
+          "Rapor türü KPI tablosu UI table component ile uyumlu"
+        ]
+      }
+    }
+  },
+
+   "BlogBigQueryVeVeriAmbariIleSeoDataWarehouseKurulumu": {
+    "title": "BigQuery ile SEO Data Warehouse Kurulumu",
+    "slug": "bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "6 Haziran 2026",
+    "publishedAt": "2026-06-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "GA4, GSC, Ads ve CRM verisini BigQuery’de birleştir; uzun dönem trend, segment ve kanal analizi yap. Şema+pipeline kurgusuyla Looker Studio’da ölçeklenebilir SEO dashboard’ları kur.",
+    "seo": {
+      "metaTitle": "BigQuery ile SEO Data Warehouse Kurulumu | DGTLFACE",
+      "metaDescription": "GA4, GSC, Ads ve CRM verisini BigQuery’de birleştir; uzun dönem trend, segment ve kanal analizi yap. Şema+pipeline kurgusuyla Looker Studio’da ölçeklenebilir SEO dashboard’ları kur."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
+      ],
+      "strategySummary": "Bu içerik, “GA4/GSC panelleriyle yetinme” seviyesinden çıkıp SEO’yu çok kaynaklı (GA4+GSC+Ads+CRM) tek havuz üzerinden yönetmek isteyen ekipler için bir mimari çerçeve sunar. Hedef persona; çok markalı/çok kanallı otel ve B2B yapılarda raporlama sorumluları ve ajans yöneticileridir; “tek panel” yerine esnek sorgular ve uzun dönem trend/segment analizi ister. Funnel MoFu’dadır: veri mimarisi kararı; dashboard’ların doğruluğunu, hızını ve sürdürülebilirliğini belirler. Ana iş sorusu: “BigQuery gibi bir veri ambarında SEO verisini nasıl merkezileştirir, doğru şema/pipeline ile Looker Studio gibi BI katmanında ölçeklenebilir raporlar üretirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Büyük SEO ekipleri ve çok kanallı projelerde sadece GA4 ve GSC panelleri yetmez; veriyi tek bir data warehouse altında toplayıp SEO + Ads + CRM kırılımında esnek analiz yapmak gerekir. BigQuery tabanlı bir SEO data warehouse; uzun dönem trend, segment ve kanal bazlı analizleri kolaylaştırır, aynı sorgu/landing için farklı kaynakları birleştirir. En iyi kullanım; doğru şema tasarımı, sağlam pipeline ve BI katmanında (Looker Studio) tutarlı KPI sözlüğü kurmaktır.",
+      "sgeSummary": "BigQuery’de GA4+GSC+Ads+CRM’yi tek havuzda topla; query→landing→dönüşüm analizini esnek sorgularla yap. Sağlam şema/pipeline kur, Looker Studio’da tek gerçek üzerinden dashboard üret.",
+      "voiceAnswer": "Excel yetmiyorsa, GA4+GSC+Ads+CRM verisini BigQuery’de birleştirip dashboard’u oradan besleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Çok markalı/çok kanallı otel ve B2B projeleri, ajans raporlama ekipleri",
+        "KPI odağı: görünürlük (GSC), davranış/dönüşüm (GA4), maliyet/verim (Ads), gelir/lead (CRM)",
+        "Entity Theme: SEO Data Warehouse; BigQuery; GA4+GSC Join; BI & Dashboards",
+        "Semantic Theme: data centralisation; advanced analytics; multi-source SEO reporting",
+        "Funnel: kaynak veriler → warehouse → semantic layer → dashboard → karar",
+        "Geo bağlam: TR geneli; destinasyon örneklerinde Antalya/Belek/Side/Kemer/Bodrum doğal geçebilir",
+        "Çıktı: minimal şema + join mantığı + pipeline + dashboard blokları"
+      ]
+    },
+    "h1": {
+      "title": "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?",
+      "intro": "GA4 ve Search Console panelleri, birçok proje için başlangıçta yeterlidir. Ama iş büyüdükçe raporlama soruları zorlaşır: “Bu dönüşüm hangi sorgu kümesinden geldi?”, “Brand sorgularda Ads kapatınca organik ne yaptı?”, “Zincir otellerde hangi otel geri kaldı ve hangi landing sorumlu?”, “6–12 ay trendde hangi cluster otorite kazandı?” Bu sorular, tek panel içinde kısıtlı filtrelerle değil; çok kaynaklı veriyi tek havuzda birleştirip esnek sorgularla cevaplanır. BigQuery tabanlı SEO data warehouse yaklaşımı; GA4 (davranış/dönüşüm), GSC (görünürlük), Ads (maliyet), CRM (gelir/lead) gibi kaynakları ortak bir şema ve KPI sözlüğüyle birleştirir. Sonra Looker Studio gibi BI araçlarında “tek gerçek” üzerinden rol/segment bazlı dashboard’lar üretirsiniz.",
+      "quickSummary": [
+        "1) Önce hedef soruları yaz: hangi kararları hızlandırmak istiyoruz?",
+        "2) GA4+GSC ile MVP kur, Ads ve CRM’yi fazlara ayır",
+        "3) URL, site_id ve KPI sözlüğünü standardize et",
+        "4) Raw, staging, mart ve semantic layer mantığıyla katmanlı ilerle",
+        "5) Looker Studio dashboard’larını mart tablolarından besle"
+      ],
+      "ctaPrimary": {
+        "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
+        "text": "Çok kaynaklı SEO verisini tek havuzda toplamak ve ölçeklenebilir dashboard mimarisi kurmak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
+        "text": "Çok kanallı otel ve B2B projelerinde SEO verisini tek havuzda toplayıp doğru dashboard mimarisi kurmak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonunu İndir",
+        "text": "MVP şema ve join mantığıyla hızlı kurulum sağlar; raporları tek gerçek üzerinden üretmenize yardımcı olur.",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık–Aylık–Çeyrek Model",
+        "href": "/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      },
+      {
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
+        "href": "/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "bigquery-ve-veri-ambari-mantigi",
+        "title": "BigQuery ve Veri Ambarı Mantığı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Veri ambarı (data warehouse), rapor için “bir tablo daha” değildir; organizasyonun veriyi tek yerde tutup, farklı ekiplerin aynı gerçek üzerinden konuşmasını sağlayan bir mimaridir. SEO bağlamında BigQuery yaklaşımı üç şeye hizmet eder:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Merkezileştirme: GA4, GSC, Ads, CRM aynı yerde",
+              "İlişkilendirme: sorgu → landing → dönüşüm zinciri",
+              "Sürdürülebilirlik: KPI sözlüğü ve şema standart, raporlar bozulmaz"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SEO data warehouse’ı neyi çözer?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Aynı landing’de organik + reklam performansı”nı yan yana okursunuz.",
+              "“Cluster etkisi”ni 6–12 ay geriye gidip ölçersiniz.",
+              "“Zincir otellerde otel bazlı teşhis”i tek panelde yaparsınız.",
+              "“Raporlama ritmi”ni otomatikleştirip tablo gezmeyi azaltırsınız."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (çok markalı otel): Antalya ve Bodrum’da iki farklı marka site yapısı kullanıyorsa, GA4/GSC kurulumları farklıysa “toplam rapor” yanıltır. Warehouse yaklaşımı; tek sözlükle normalize edip karşılaştırmayı güvenilir hâle getirir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Veri ambarını “dashboard” değil “tek gerçek” olarak mı görüyorum?",
+              "Kaynaklar arası ortak anahtarlar (URL, tarih, kampanya, site) net mi?",
+              "KPI sözlüğü (conversion, organic tanımı) tek mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce hedef soruları yazın: “Hangi kararları hızlandırmak istiyoruz?”",
+              "Tek gerçek prensibini benimseyin: KPI tanımı ve filtreler merkezî olsun.",
+              "Şemayı “minimum viable” başlayıp iteratif büyütün (her şeyi başta yapmayın).",
+              "Data quality ve changelog disiplinini en baştan kurun (sonradan pahalı olur)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "neden-sadece-ga4-gsc-panelleri-yetmez",
+        "title": "Neden Sadece GA4/GSC Panelleri Yetmez?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Panel limitleri ve operasyonel gerçekler"
+          },
+          {
+            "type": "p",
+            "text": "GA4 ve GSC, kendi alanlarında güçlüdür; ama ortak okuma (join) ve uzun dönem portföy analizi söz konusu olduğunda operasyonel zorluklar çıkar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynaklar arası birleşim zorluğu: GSC “sorgu+sayfa”, GA4 “oturum+dönüşüm” düzeyi.",
+              "Çoklu marka/site karmaşası: her property farklı, sözlük farklı.",
+              "Segment ve tarih karşılaştırma ihtiyacı: YoY/seasonal, multi-country, device.",
+              "Backlink/visibility tool + CRM: panel dışı veriler."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): GA4 veri saklama sürelerinin kısa tutulduğu ve bazı arayüz kısıtlarının devreye girdiği projelerde, BigQuery entegrasyonu uzun dönem SEO trendlerini daha sağlıklı izlemek için kritik hâle gelir. (Bu bir prensip: veri hacmi büyüdükçe warehouse mantıklı hâle gelir.)"
+          },
+          {
+            "type": "h3",
+            "text": "SEO için BigQuery ve veri ambarı kurmaya değer mi?"
+          },
+          {
+            "type": "p",
+            "text": "Değer, proje ölçeğine ve sorularınıza bağlıdır. Eğer raporlarınız “tek kanal/tek site/tek dönem” seviyesindeyse doğrudan BigQuery şart değildir. Ama çok site/çok marka, çok kanal (Ads+CRM) ve uzun dönem trend/segment soruları artıyorsa; veri ambarı, rapor kalitesini ve karar hızını belirgin şekilde artırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rapor sorularım “join” gerektiriyor mu (sorgu→landing→dönüşüm)?",
+              "Çok site/çok marka var mı?",
+              "Ads+CRM verisini SEO ile birlikte okumam gerekiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "“Warehouse şart mı?” sorusunu bütçe değil soru setiyle cevaplayın.",
+              "Başlangıç için GA4+GSC ile MVP kurun, Ads/CRM’yi ikinci faza alın.",
+              "Çok markalı yapılarda önce KPI sözlüğünü standardize edin; yoksa warehouse da dağılır.",
+              "Küçük ölçekli projelerde “hafif” mimari (daha az tablo, daha az pipeline) ile başlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seo-verilerini-tek-havuzda-toplamak",
+        "title": "SEO Verilerini Tek Havuzda Toplamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek havuz, “her şeyi tek tabloya atmak” değildir. İyi bir data warehouse; katmanlıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Raw (ham): kaynaklardan geldiği gibi",
+              "Staging (temizleme/normalize): URL, tarih, site_id standardı",
+              "Mart (rapor tabloları): dashboard’a hazır KPI tabloları",
+              "Semantic layer (opsiyonel): KPI sözlüğü/hesaplama standardı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "En kritik tasarım kararı: ortak anahtarlar"
+          },
+          {
+            "type": "p",
+            "text": "SEO data warehouse’ta “join” başarısı, ortak anahtarlara bağlıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "date (tarih)",
+              "site_id / brand_id (çoklu site/marka)",
+              "page_url (normalize edilmiş URL)",
+              "query (GSC sorgu)",
+              "landing_page (GA4 landing)",
+              "campaign_id (Ads)",
+              "lead_id / booking_id (CRM)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Belek’te bir otelin “/belek-aile-oteli” landing’i GSC’de sayfa olarak, GA4’te landing page path olarak, CRM’de lead source olarak geçer. URL normalize edilmezse join bozulur ve rapor “farklı gerçekler” üretir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "URL normalizasyon standardım var mı (domain, trailing slash, params)?",
+              "Multi-site için site_id/brand_id sözlüğü tanımlı mı?",
+              "Query ve landing eşleştirmesi hangi seviyede yapılacak net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "URL normalize etmeden hiçbir join’e güvenmeyin.",
+              "Multi-site/multi-brand sözlüğünü baştan çıkarın (site_id, brand_id, region).",
+              "Staging katmanında “temizlenmiş URL” alanını üretin (tek kaynak).",
+              "KPI tablolarını “rapor amaçlı” mart katmanında üretin (raw’a dashboard bağlamayın)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-kaynaklar-birlestirilmeli-ga4-gsc-ads-crm",
+        "title": "Hangi Kaynaklar Birleştirilmeli? (GA4, GSC, Ads, CRM)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kaynak sırası, “değer/efor” oranıyla belirlenmeli. Hepsini aynı anda bağlamak çoğu ekipte mimariyi kilitler."
+          },
+          {
+            "type": "h3",
+            "text": "Faz 1 (MVP) — GA4 + GSC"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4: sessions, events, conversions (landing bazlı)",
+              "GSC: queries, pages, impressions, clicks, CTR, position"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Amaç: sorgu→landing→dönüşüm zincirini ilk kez kurmak."
+          },
+          {
+            "type": "h3",
+            "text": "Faz 2 — Ads (Google Ads vb.)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "maliyet, tıklama, dönüşüm, kampanya",
+              "brand/generic rol dağılımı",
+              "SEO + SEM sinerji raporu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Faz 3 — CRM / PMS / Rezervasyon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "lead/rezervasyon, gelir, müşteri segmenti",
+              "“SEO gerçek iş etkisi” (pipeline)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Faz 4 — Backlink / Visibility tool verileri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "backlink sinyali, share of voice, rakip kıyas",
+              "cluster otorite okuması"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): CRM bağlandığında “organik dönüşüm” sadece form submit değil; pipeline ve satışa dönüşme oranı olarak okunabilir. Bu, CEO panelini gerçek iş KPI’larına bağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "MVP’de sadece GA4+GSC ile değer üretebiliyor muyum?",
+              "Ads ve CRM için join anahtarları (landing/campaign/lead) hazır mı?",
+              "Kaynakların veri sahipleri/erişimleri net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "MVP’yi 30–45 gün hedefleyin: GA4+GSC + 2–3 rapor tablosu.",
+              "Ads’i “brand/generic” kararlarını iyileştirmek için ikinci faza alın.",
+              "CRM’yi “iş etkisi” görünür olsun diye üçüncü faza alın.",
+              "Kaynak ekledikçe KPI sözlüğünü güncelleyin (Refresh Cycle 180)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "looker-studio-ve-diger-bi-araclariyla-dashboard-kurmak",
+        "title": "Looker Studio ve Diğer BI Araçlarıyla Üstünde Dashboard Kurmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Warehouse “mutfak”tır; BI “servis”tir. Dashboard tasarımında kritik kural: tek gerçek, farklı lens (role-based). Aynı veri setinden CEO/pazarlama/içerik/teknik panelleri üretebilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "BI katmanında önerilen dashboard blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Executive (CEO): iş KPI + trend + 3–3–3",
+              "Growth (Marketing): SEO funnel + segment + kampanya notları",
+              "Content: topic cluster performansı + refresh backlog",
+              "Tech: CWV/crawl/index + P0 listesi",
+              "Ops: haftalık alarm kartları + change log"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Looker Studio raporları veri ambarına bağlanınca ne kazanırım?"
+          },
+          {
+            "type": "p",
+            "text": "Dashboard’lar daha tutarlı ve ölçeklenebilir olur: aynı KPI sözlüğüyle farklı paneller üretilir, uzun dönem trendler ve segment analizleri daha esnek yapılır, kaynaklar arası join’ler rapor içinde değil warehouse’da yönetilir. Böylece raporlama süresi azalır, analiz ve aksiyon geliştirme süresi artar."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Dashboard KPI’ları raw değil mart katmanından mı geliyor?",
+              "Role-based panel seti var mı (CEO/pazarlama/içerik/teknik)?",
+              "Change log ve veri hijyeni notları dashboard’a işleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Dashboard’u mart tablolarına bağlayın; hesaplamayı BI’da çoğaltmayın.",
+              "Role-based panelleri aynı veri sözlüğüyle üretin.",
+              "Haftalık “alarm” panelini standartlaştırın (CTR/dönüşüm/404 sapmaları).",
+              "Dashboard’larda filtre setini sabitleyin (tarih, site_id, ülke, cihaz)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "basit-sema-tasarimi-ve-ornek-tablo-yapilari",
+        "title": "Basit Şema Tasarımı ve Örnek Tablo Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Türkçe kaynaklarda en eksik kalan yer genelde burası: “Tamam, warehouse kuracağız; peki şema nasıl olacak?” Bu bölüm, basitleştirilmiş ama uygulanabilir bir örnek verir."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum tablo seti (MVP)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "dim_site (site_id, brand_id, region, domain)",
+              "dim_page (page_url_normalized, page_type, cluster_id)",
+              "fct_gsc_daily (date, site_id, page_url, query, impressions, clicks, ctr, position)",
+              "fct_ga4_daily (date, site_id, landing_page, sessions, engaged_sessions, conversions, revenue_value_if_any)",
+              "mart_seo_landing_daily (date, site_id, landing_page, gsc_impr, gsc_clicks, gsc_ctr, ga4_sessions, ga4_conversions)",
+              "(Faz 2) fct_ads_daily (date, campaign, query_cluster, cost, clicks, conversions)",
+              "(Faz 3) fct_crm_daily (date, lead_id, source, landing_page, status, revenue)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: BigQuery veri şeması (basitleştirilmiş)",
+            "headers": [
+              "Katman",
+              "Tablo",
+              "Amaç",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Dimension",
+                "dim_site/dim_page",
+                "sözlük ve normalizasyon",
+                "tek gerçek"
+              ],
+              [
+                "Fact",
+                "fct_gsc_daily",
+                "görünürlük",
+                "query + page"
+              ],
+              [
+                "Fact",
+                "fct_ga4_daily",
+                "davranış/dönüşüm",
+                "landing odak"
+              ],
+              [
+                "Mart",
+                "mart_seo_landing_daily",
+                "rapor için birleşik",
+                "join burada"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Join mantığı "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GSC: query seviyesinde; GA4: session/dönüşüm seviyesinde",
+              "MVP’de en pratik yaklaşım: landing bazında birleşik mart üretmek",
+              "Query→landing ilişkilendirme: “query-to-landing mapping” raporu, ileri faz"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Zincir otellerde her otel için aynı mart tablosu üretirseniz, “tüm grup iyi ama şu otel zayıf” senaryosu tek filtreden görünür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Şemada dimension + fact + mart ayrımı var mı?",
+              "Join işlemleri dashboard’da değil mart’ta mı?",
+              "URL normalizasyonu dim_page’de mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "MVP’yi landing bazlı mart ile bitirin; query-to-landing’i ikinci iterasyona bırakın.",
+              "dim_site/dim_page sözlüğünü baştan doğru kurun (sonradan düzeltmesi pahalı).",
+              "Her yeni kaynak eklediğinizde mart’ı büyütün, dashboard’u değiştirmeden devam edin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operasyon-veri-hijyeni-ve-surdurulebilirlik",
+        "title": "Operasyon, Veri Hijyeni ve Sürdürülebilirlik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Warehouse kurulduktan sonra en önemli konu: “bozulmaması”. Bunun için 3 rutin şarttır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Change log: event, mapping, schema değişiklikleri",
+              "Data quality checks: bot/spam, kanal mapping, eksik günler",
+              "Ritim: haftalık monitoring, aylık performans, çeyreklik strateji (ops culture)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (row): Ölçek küçük projeler için doğrudan BigQuery zorunlu değildir; ancak veri hacmi büyüdükçe, limitsiz analiz ihtiyacı data warehouse’ı mantıklı hâle getirir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Pipeline kırıldığında alarm var mı (eksik gün)?",
+              "Event sözlüğü değişince mart güncelleniyor mu?",
+              "KPI sözlüğü ekiplere açık mı (tek gerçek)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Veri hijyeni kontrolünü aylık rutin yapın (OK/Risk/Kritik).",
+              "180 günde bir şema/pipeline gözden geçirmeyi takvime bağlayın.",
+              "Raporları warehouse üzerinden standardize edin; “Excel ad hoc”u azaltın.",
+              "Ajans–müşteri raporlama ritmini (haftalık/aylık/çeyrek) warehouse çıktılarıyla besleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonu — SEO / Data Warehouse (v1.0)",
+            "purpose": "Bu asset, SEO data warehouse’ı “MVP mantığıyla” kurmanız için basit bir şema, join mantığı ve pipeline adımları sunar. GA4 (davranış/dönüşüm), GSC (görünürlük), Ads (maliyet/verim) ve CRM (iş sonucu) verisini tek sözlükte birleştirerek Looker Studio gibi BI araçlarında ölçeklenebilir rapor üretmenizi sağlar. Çok markalı/çok kanallı yapılarda “tek gerçek” prensibini korumayı hedefler.",
+            "whoFor": "Çok kanallı otel ve B2B projeleri, raporlama hacmi yüksek ajanslar, kurum içi veri/SEO ekipleri.",
+            "steps": [
+              "MVP şemayı (dim + fact + mart) oluştur ve URL/site sözlüğünü standardize et.",
+              "GA4 ve GSC’yi bağlayıp mart_seo_landing_daily üret; sonra Ads ve CRM’yi ekle.",
+              "Looker Studio’da role-based dashboard seti kur; veri hijyeni ve change log rutinini ekle."
+            ],
+            "checklist": [
+              "URL normalizasyon standardı yazılı",
+              "site_id/brand_id sözlüğü hazır",
+              "KPI sözlüğü tek (conversion tanımı sabit)",
+              "Mart tablolar dashboard’a bağlanıyor",
+              "Change log tutuluyor (event/schema değişikliği)"
+            ],
+            "template": {
+              "title": "Template İçeriği",
+              "sections": [
+                {
+                  "title": "A) Dimension sözlükleri",
+                  "items": [
+                    "dim_site(site_id, brand_id, region, domain, currency, timezone)",
+                    "dim_page(page_url_raw, page_url_normalized, page_type, cluster_id, canonical_url)",
+                    "dim_campaign(campaign_id, channel, brand_generic_flag) (Ads fazı)"
+                  ]
+                },
+                {
+                  "title": "B) Fact tabloları (günlük grain)",
+                  "items": [
+                    "fct_gsc_daily(date, site_id, page_url_normalized, query, impressions, clicks, ctr, position)",
+                    "fct_ga4_daily(date, site_id, landing_page_normalized, sessions, engaged_sessions, conversions, revenue_value_if_any)",
+                    "fct_ads_daily(date, site_id, campaign_id, query_cluster, impressions, clicks, cost, conversions)",
+                    "fct_crm_daily(date, site_id, lead_id, landing_page_normalized, status, revenue)"
+                  ]
+                },
+                {
+                  "title": "C) Mart tabloları (dashboard-ready)",
+                  "items": [
+                    "mart_seo_landing_daily — join: fct_ga4_daily + fct_gsc_daily (landing/page düzeyi)",
+                    "mart_seo_channel_mix_daily — organik + ads toplam sonuç (opsiyonel)",
+                    "mart_seo_cluster_weekly — cluster-level rollup (içerik ekibi paneli)"
+                  ]
+                },
+                {
+                  "title": "D) Pipeline adımları (minimum)",
+                  "items": [
+                    "Ingest (GA4 export / GSC export / Ads / CRM)",
+                    "Normalize (URL, site_id, date)",
+                    "Validate (eksik gün, duplicate, outlier)",
+                    "Build marts (landing, cluster, channel mix)",
+                    "Serve dashboards (Looker Studio)"
+                  ]
+                },
+                {
+                  "title": "E) Kontrol listesi",
+                  "items": [
+                    "URL normalizasyon standardı yazılı",
+                    "site_id/brand_id sözlüğü hazır",
+                    "KPI sözlüğü tek (conversion tanımı sabit)",
+                    "Mart tablolar dashboard’a bağlanıyor",
+                    "Change log tutuluyor (event/schema değişikliği)"
+                  ]
+                }
+              ]
+            },
+            "href": "/downloads/ga4-gsc-ads-crm-bigquery-sema-pipeline-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonunu İndir",
+            "text": "MVP şema, join mantığı ve pipeline adımlarını hazır verir; hızlıca tek havuz kurmanızı sağlar.",
+            "href": "/veri-analiz-ve-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
+            "text": "Çok kanallı otel ve B2B projelerinde veri mimarisini doğru kurgulayıp Looker Studio üzerinde ölçeklemek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SEO verisini tek gerçek üzerinden yönetin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "BigQuery ve veri ambarı yaklaşımı, SEO raporlamasını panel kısıtlarından çıkarıp çok kaynaklı, uzun dönemli ve segment bazlı analiz seviyesine taşır. GA4, GSC, Ads ve CRM verisi aynı sözlükte birleştiğinde ekipler aynı gerçek üzerinden karar alır."
+          },
+          {
+            "type": "p",
+            "text": "Başarılı kurulumun temeli; minimum viable şema, doğru URL/site normalizasyonu, sağlam pipeline ve BI katmanında tutarlı KPI sözlüğüdür. Küçük projelerde sade başlamak, büyük yapılarda ise fazlı büyümek en güvenli yoldur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
+            "text": "Çok kanallı otel ve B2B projelerinde SEO verisini tek havuzda toplayıp doğru dashboard mimarisi kurmak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonunu İndir",
+            "text": "MVP şema ve join mantığıyla hızlı kurulum sağlar; raporları tek gerçek üzerinden üretmenize yardımcı olur.",
+            "href": "/veri-analiz-ve-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO için BigQuery ve veri ambarı kurmaya değer mi?",
+        "a": "Tek site ve basit rapor sorularında şart değildir. Çok site/çok marka, Ads+CRM birlikte okuma ve uzun dönem trend/segment ihtiyacı varsa değer hızla artar."
+      },
+      {
+        "q": "GA4 ve Search Console verisini BigQuery’de nasıl birleştiririm?",
+        "a": "MVP’de en pratik yol landing/page düzeyinde birleşik bir “mart” tablo üretmektir. URL normalizasyonu ve site_id sözlüğü kurduktan sonra GA4 landing verisini GSC sayfa verisiyle tarih bazında birleştirirsiniz."
+      },
+      {
+        "q": "SEO data warehouse’ında hangi tablolar olmalı?",
+        "a": "Minimum: dim_site, dim_page, fct_gsc_daily, fct_ga4_daily ve rapor için mart_seo_landing_daily. Sonra Ads ve CRM fact tabloları eklenir."
+      },
+      {
+        "q": "Looker Studio raporları veri ambarına bağlanınca ne kazanırım?",
+        "a": "KPI sözlüğü tekleşir, join işlemleri warehouse’da yönetilir, uzun dönem trend/segment analizi daha esnek olur. Role-based dashboard seti kurmak kolaylaşır."
+      },
+      {
+        "q": "Küçük projelerde BigQuery yerine ne yapmalıyım?",
+        "a": "Önce KPI sözlüğü ve veri hijyeni kurallarını oturtun; GA4+GSC ile sade dashboard’lar kullanın. İhtiyaç büyüdüğünde MVP warehouse’a geçin."
+      },
+      {
+        "q": "Multi-brand otel gruplarında veri ambarı en çok nerede fayda sağlar?",
+        "a": "Site/otel bazlı teşhis (hangi otel geri kalıyor), brand/generic rol dağılımı (SEO+Ads), uzun dönem cluster otorite okuması ve CRM ile gerçek iş etkisi eşleştirmesinde."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-hero-01.webp",
+          "h1-context — 1920×1080 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-divider-03.webp",
+          "divider-02 — 1600×1200 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-divider-04.webp",
+          "diagram-05 — 1920×1080 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-kpi-07.webp",
+          "proof-08 — 1200×1200 — bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu-proof-08.webp",
+          "table-bigquery-schema — BigQuery veri şeması (basitleştirilmiş)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage şeması soru-cevaplarla eşleşiyor",
+          "İç link hedefleri doğru: /seo/seo-raporlama, /veri-analiz-ve-raporlama, /raporlama/looker-studio",
+          "Download asset CTA bağlantısı kontrol edildi",
+          "Media slot isimleri template ile uyumlu",
+          "BigQuery şema tablosu UI table component ile uyumlu",
+          "Refresh Cycle 180 gün olarak işaretlendi",
+          "Data warehouse içeriklerinde KPI sözlüğü ve changelog vurgusu korundu"
+        ]
+      }
+    }
+  },
+
+  "BlogConsentModeVeCookieBannerdanSonraSeoRaporlamasiniNasilDogruYorumlarsiniz": {
+    "title": "Consent Mode Sonrası SEO Raporu Nasıl Yorumlanır?",
+    "slug": "consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "6 Haziran 2026",
+    "publishedAt": "2026-06-06",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Cookie banner ve Consent Mode sonrası GA4 düşüşlerini doğru yorumla: consent rate ve modeled data etkisini ayır. GSC görünürlüğü, brand arama ve offline lead sinyalleriyle SEO’yu doğrula.",
+    "seo": {
+      "metaTitle": "Consent Mode Sonrası SEO Raporu Nasıl Yorumlanır? | DGTLFACE",
+      "metaDescription": "Cookie banner ve Consent Mode sonrası GA4 düşüşlerini doğru yorumla: consent rate ve modeled data etkisini ayır. GSC görünürlüğü, brand arama ve offline lead sinyalleriyle SEO’yu doğrula."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: SEO Raporlama & Performans Analizi — /tr/seo/seo-raporlama",
+        "Blog / URL: /tr/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz"
+      ],
+      "strategySummary": "Bu blog, Consent Mode ve cookie banner sonrasında “GA4 düştü → SEO düştü” gibi yanlış okumaları engelleyen, measurement vs performance ayrımını kuran bir trend rehberidir. Hedef persona; Avrupa pazarına bakan otel ve B2B projeleri yöneten ajans/kurum ekipleridir; “performans mı düştü, ölçüm mü değişti?” sorusunu yönetim dilinde doğru anlatmak ister. Funnel MoFu’dadır: rapor güvenilirliği yükselir, yanlış alarm azalır, SEO aksiyonları doğru probleme yönelir. Ana iş sorusu: “Consent oranı, modeled data ve veri kaybı varken SEO raporunu nasıl doğru okur; hangi KPI’larla ‘gerçek’ trendi doğrularım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-06",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Privacy döneminde cookie banner ve Consent Mode, GA4 ölçümünü doğrudan etkileyebilir; bu yüzden her düşüş “SEO performansı düştü” anlamına gelmez. GA4’te izin vermeyen kullanıcılar için veri eksik kalabilir ve Consent Mode ile modeled (modelleme) veriler devreye girebilir. Bu dönemde SEO raporunu doğru okumak için; GA4 trendlerini consent rate ile birlikte yorumlayın, Search Console görünürlüğünü “ölçüm dışı referans” gibi kullanın ve brand arama/arama–call gibi offline sinyallerle sonucu doğrulayın.",
+      "sgeSummary": "Consent Mode ve cookie banner sonrası GA4 düşüşlerini önce “ölçüm etkisi mi?” diye kontrol et: consent rate + modeled data + event değişikliği. GSC trendi ve offline lead/call sinyalleriyle SEO’yu doğrula.",
+      "voiceAnswer": "Cookie onayı düşüyorsa GA4 azalabilir; önce consent rate ve GSC trendiyle SEO’yu doğrulayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Avrupa pazarı olan otel/B2B ekipleri, ajanslar, raporlama liderleri",
+        "Kritik kavramlar: consent rate, modeled data, measurement vs performance, data gaps",
+        "Entity Theme: Consent Mode; Cookie Banner; Modeled Data; Privacy-Aware SEO Reporting",
+        "Semantic Theme: data gaps; measurement vs performance; consent-aware KPIs",
+        "KPI seti: GSC görünürlük (impr/click/CTR), GA4 organik (sessions/conversions), consent rate, brand arama ve offline lead/call",
+        "Funnel: izin→ölçüm→modelleme→yorum→aksiyon",
+        "Çıktı: privacy-aware okuma modeli + karşılaştırma tablosu + checklist + yönetici iletişim çerçevesi"
+      ]
+    },
+    "h1": {
+      "title": "Consent Mode, Cookie Banner ve Privacy Döneminde SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
+      "intro": "Cookie banner sonrası GA4 grafikleri “bir anda düştü” diye ekiplere panik yaşatabiliyor. Özellikle Avrupa pazarına bakan otel ve B2B projelerinde, izin oranı (consent rate) değiştiğinde GA4’te ölçüm kapsamı değişebilir; bu da organik trafik ve dönüşüm raporlarını doğrudan etkiler. Consent Mode, kullanıcıların izin tercihlerini Google etiketlerine iletmenizi sağlar; kendisi bir banner değildir ve banner’dan aldığı sinyalle etiket davranışını ayarlar. Bu nedenle yeni dönemde rapor okuma sırası değişmeli: önce ölçüm değişti mi, sonra görünürlük değişti mi, ardından iş çıktısı değişti mi ve eğer değiştiyse hangi landing/segment/pazarda değişti soruları cevaplanmalıdır.",
+      "quickSummary": [
+        "1) Ölçüm değişti mi? (consent rate / event / tag / modelleme)",
+        "2) Görünürlük değişti mi? (GSC)",
+        "3) İş çıktısı değişti mi? (lead/rezervasyon/call)",
+        "4) Eğer değiştiyse nerede? (landing/segment/pazar)",
+        "5) GA4 düşüşünü tek başına SEO performans kaybı olarak yorumlama"
+      ],
+      "ctaPrimary": {
+        "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
+        "text": "Avrupa pazarı olan otel/B2B projelerinde “ölçüm mü performans mı?” ayrımını netleştirmek isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
+        "text": "Avrupa pazarında consent etkisini doğru okuyup SEO kararlarını güvenli almak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir",
+        "text": "Consent rate, modeled data ve GSC doğrulamasıyla raporu güvenli okumanızı sağlar.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "KVKK Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
+        "href": "/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "title": "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?",
+        "href": "/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "third-party-cookie-sonrasi-dunya",
+        "title": "Third-Party Cookie Sonrası Dünya",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Üçüncü parti cookie’lerin azalması ve regülasyon baskısı, “ölçümün tamamı” varsayımını kırdı. Bu, SEO raporlamada iki önemli sonuç doğuruyor:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4’te bazı kullanıcılar için eksik veri oluşabilir (izin verilmediğinde).",
+              "Ekiplerin “tek kaynak” yerine çoklu doğrulama (GSC + brand arama + offline) yaklaşımına geçmesi gerekir."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (turizm): Antalya/Belek/Side gibi destinasyonlarda yüksek sezonda talep dalgası zaten grafikleri oynatır; consent rate de aynı dönemde düşerse GA4’te iki farklı etki üst üste biner. Bu yüzden yalnız GA4’e bakıp “SEO kötüleşti” demek riskli hale gelir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporlarımı “ölçüm tam” varsayımıyla mı okuyorum?",
+              "GSC’yi ölçüm dışı bir referans olarak rapora ekledim mi?",
+              "Offline sinyalleri (call/lead) rapor yorumuna dahil ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Her raporda “consent etkisi var mı?” satırını standart yapın.",
+              "GSC trendini raporun ana doğrulama katmanı olarak kullanın.",
+              "Otel tarafında call/WhatsApp gibi offline dönüşümleri rapor yorumuna ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "consent-mode-v2-nedir",
+        "title": "Consent Mode (v2) Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Consent Mode; kullanıcıların izin tercihlerini Google etiketlerine (Analytics/Ads) iletmenizi sağlayan bir mekanizmadır. Banner/ CMP sağlamaz; mevcut banner’ınızın ürettiği consent sinyallerini alıp etiket davranışını buna göre ayarlar."
+          },
+          {
+            "type": "h3",
+            "text": "Consent Mode neyi değiştirir?"
+          },
+          {
+            "type": "p",
+            "text": "Consent Mode, izin durumuna göre etiketlerin veri toplama davranışını değiştirir. İzin verilmeyen kullanıcılarda GA4’te veri eksik kalabilir; bu boşluğu bazı raporlarda behavioral modeling (modelleme) yaklaşımıyla tahmini veriler destekleyebilir. Bu yüzden raporlarınızda “gördüğüm düşüş performans mı, ölçüm kapsamı mı?” sorusu her zaman ilk kontrol olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "GA4’te modeled data / behavioral modeling ne demek?"
+          },
+          {
+            "type": "p",
+            "text": "GA4 “behavioral modeling for consent mode”, izin vermeyen kullanıcılar için eksik kalan veriyi; izin veren benzer kullanıcı davranışlarından öğrenerek modellemeye çalışır. Bu, raporları “tamamlamak” için bir araçtır ama rapor yorumunda şeffaf okunmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Consent Mode’un banner olmadığını ekip biliyor mu?",
+              "GA4’te consent ayarlarını ve etki yüzdesini izliyor muyum?",
+              "Modeled data’nın “tahmin” katmanı olduğunu raporda belirtiyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "GA4’te consent settings ekranını aylık rutine alın (özellikle EEA trafiği yüksekse).",
+              "Raporların başına “consent rate değişti mi?” notu ekleyin.",
+              "Modeled data içeren raporları yönetimle paylaşırken “ölçüm kapsamı” açıklamasını standartlaştırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cookie-banner-ve-izin-oranlarinin-veriye-etkisi",
+        "title": "Cookie Banner ve İzin Oranlarının Veriye Etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cookie banner tasarımı ve izin oranı, GA4’te ölçüm kapsamını doğrudan etkiler. İzin oranları sektör ve tasarıma göre değişken olabilir; “legally compliant” yaklaşımlarda consent oranının daha düşük görülebildiğine dair benchmark çalışmaları bulunuyor (sektöre göre değişir)."
+          },
+          {
+            "type": "h3",
+            "text": "Consent rate düşünce SEO raporunda ne bozulur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 organik sessions düşer gibi görünebilir",
+              "GA4 dönüşüm sayıları eksik/az görünebilir",
+              "Segmentler (ülke/cihaz) bozulabilir (EEA ağırlığı artarsa)",
+              "“Dönüşüm oranı” yapay şişebilir (kalan örneklem bias)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Cookie banner sonrası GA4 verisi neden düştü?"
+          },
+          {
+            "type": "p",
+            "text": "Banner sonrası izin oranı düşerse GA4, izin vermeyen kullanıcılar için daha az veri toplayabilir; bu da organik sessions ve conversions gibi metriklerde düşüş gibi görünür. Bu durumda önce consent rate ve GA4 ölçüm değişikliklerini kontrol edin; sonra GSC tıklama/görünürlük trendiyle performansı doğrulayın."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (satırdan, yumuşatılmış): Consent oranlarının düştüğü pazarlarda GA4 organik verisiyle Search Console verisi arasındaki farkın açılabildiği; bu fark anlaşılmadan SEO yorumlamanın yanıltıcı olabileceği görülüyor. (Kesin rakam iddiası değildir; raporlama pratiği gözlemidir.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Consent rate değişimiyle GA4 düşüşü aynı tarihte mi başladı?",
+              "GSC clicks/impressions trendi aynı anda mı düştü?",
+              "Dönüşüm event’lerinde değişiklik var mı (change log)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Raporu “GSC görünürlük” ve “GA4 davranış” diye iki katmanda okuyun.",
+              "GA4 düşüşünde ilk soru: “consent rate/ölçüm değişti mi?”",
+              "Yönetim sunumunda “ölçüm kapsamı” slaytını standartlaştırın (yanlış alarmı azaltır)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ga4te-modelleme-ve-veri-kaybi-modeled-data",
+        "title": "GA4’te Modelleme ve Veri Kaybı (Modeled Data)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Modeled data, ölçüm boşluğunu kapatmaya çalışır; ama “gerçek veri” ile aynı şey değildir. GA4’ün consent mode için behavioral modeling yaklaşımı, izin vermeyen kullanıcıları izin veren benzer kullanıcılarla modellemeyi anlatır."
+          },
+          {
+            "type": "h3",
+            "text": "Modeled data nedir, ne kadar güvenilir?"
+          },
+          {
+            "type": "p",
+            "text": "Modeled data; eksik kalan kullanıcı davranışlarını istatistiksel/model tabanlı şekilde tahmin etmeye çalışır. Bu, trend okumayı kolaylaştırabilir ama “kesin” sayı gibi kullanılmamalıdır. En güvenli yaklaşım; modeled veriyi erken uyarı ve yön için kullanıp, SEO performansını doğrularken GSC görünürlüğü ve iş sinyallerini (lead/call) mutlaka referans almaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Rapor yorumunda pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 modeled: “fırsat/risk işaretleyici”",
+              "GSC: “SEO görünürlük gerçekliği”",
+              "Offline/CRM: “iş sonucu gerçekliği”"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Modeled data içeren grafikleri yönetimle paylaşırken not düşüyor muyum?",
+              "GSC trendini aynı raporda gösteriyor muyum?",
+              "Lead/call gibi ölçüm dışı sinyallerle doğruluyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Dashboard’da modeled veri olan kartlara “modelleme” etiketi koyun.",
+              "Karar verirken tek kaynak kullanmayın; en az GSC + GA4 çapraz okuma yapın.",
+              "“Düşüş var” demeden önce change log’u kontrol edin (banner/tag/event değişti mi?)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seo-raporlarini-yorumlarken-dikkat-edilmesi-gerekenler",
+        "title": "SEO Raporlarını Yorumlarken Dikkat Edilmesi Gerekenler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümün amacı: “privacy-aware SEO raporlama modeli” kurmak. Yani rapor okuma sırasını standartlaştırmak."
+          },
+          {
+            "type": "h3",
+            "text": "Privacy-aware rapor okuma sırası (triage)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Veri hijyeni: event/tag değişti mi? kanal mapping bozuldu mu?",
+              "Consent etkisi: consent rate değişti mi? (EEA etkisi)",
+              "GSC doğrulaması: görünürlük/tıklama trendi ne diyor?",
+              "İş sinyali: lead/rezervasyon/call nasıl?",
+              "Segment: hangi ülke/cihaz etkilenmiş?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "“Performans mı, ölçüm farkı mı?” karar matrisi"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Consent rate ve veri farkını özetleyen karşılaştırma tablosu",
+            "headers": [
+              "Durum",
+              "GA4 organik",
+              "GSC clicks/impr",
+              "Consent rate",
+              "En olası açıklama",
+              "İlk aksiyon"
+            ],
+            "rows": [
+              [
+                "A",
+                "↓",
+                "→ / ↑",
+                "↓",
+                "ölçüm kapsamı daraldı",
+                "consent + tag doğrula, GSC ile raporla"
+              ],
+              [
+                "B",
+                "↓",
+                "↓",
+                "→",
+                "gerçek görünürlük kaybı",
+                "CTR/konum/landing teşhisi"
+              ],
+              [
+                "C",
+                "→",
+                "→",
+                "↓",
+                "ölçüm etkisi sınırlı",
+                "modeled etiketi + offline doğrulama"
+              ],
+              [
+                "D",
+                "↑",
+                "↓",
+                "→",
+                "kanal mapping/bot şüphesi",
+                "veri hijyeni kontrolü"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical Not (satırdan): Consent çözümleri uygulanırken SEO raporlarının sadece “organik trafik” değil; brand aramaları, Search Console görünürlüğü ve call/lead gibi offline sinyallerle de desteklenmesi gerekir (özellikle Avrupa pazarında)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporumda “consent rate + modeled” notları var mı?",
+              "GSC görünürlüğü raporun ana doğrulama katmanı mı?",
+              "Offline sinyaller (call/lead) rapor yorumuna giriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Rapor template’inize “Consent etkisi” kutusu ekleyin (tarih + consent rate).",
+              "Yönetici özetinde “ölçüm değişti mi?” satırı zorunlu olsun.",
+              "Düşüş gördüğünüzde önce matrisi çalıştırın (A/B/C/D).",
+              "Avrupa pazarında ülke bazlı consent rate kıyasını rapora ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yonetimle-dogru-beklenti-yonetimi",
+        "title": "Yönetimle Doğru Beklenti Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Privacy döneminde en kritik “soft skill”, yönetimle doğru beklenti yönetimidir: “veri azaldı” demek yerine “ölçüm kapsamı değişti” demek. Çünkü SEO ekiplerinin kredisi, raporun güvenilirliğiyle doğrudan ilişkilidir."
+          },
+          {
+            "type": "h3",
+            "text": "Yöneticiye 3 cümlelik çerçeve"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Ne oldu? (GA4’de düşüş / modeled etkisi)",
+              "Neden olabilir? (consent rate / ölçüm / gerçek performans)",
+              "Ne yapıyoruz? (GSC doğrulama + aksiyon + takip)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “GA4 organik sessions düştü; aynı dönemde consent rate düştü ve GSC tıklamalar stabil. Öncelik: ölçüm etkisini izleyip, CTR/landing optimizasyonunu gerçek verilerle sürdürmek.”"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yöneticiye “performans mı ölçüm mü” ayrımını net anlatıyor muyum?",
+              "Rapor “tek kaynağa” değil çoklu doğrulamaya dayanıyor mu?",
+              "Aksiyon planı sprint formatında mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Yönetici özeti sayfasına “ölçüm kapsamı” satırı ekleyin.",
+              "Brand arama ve GSC görünürlüğünü yönetici raporunda standart KPI yapın.",
+              "Offline dönüşüm sinyallerini rapora dahil edin (call/lead)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "consent-modeu-seo-perspektifinden-okumak",
+        "title": "Fark Yaratan Mini Bölüm (Competitor Gap) — Consent Mode’u SEO Perspektifinden Okumak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR içeriklerinde Consent Mode çoğunlukla reklam performansı bağlamında anlatılıyor; SEO raporlaması bağlamında “ölçüm mü performans mı?” ayrımını ve GSC/brand/offline doğrulamasını detaylı işleyen kaynak sayısı sınırlı. Bu içerik farkı şu şekilde kapatır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Consent rate düşüşünde GA4 tek başına karar verdirmez",
+              "GSC görünürlüğü “performans referansı” olarak sabitlenir",
+              "Modeled data “erken uyarı” olarak kullanılır",
+              "Offline sinyaller (call/lead) ve brand arama “iş doğrulaması” sağlar"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir — SEO / Privacy Raporlama (v1.0)",
+            "purpose": "Bu asset, cookie banner ve Consent Mode sonrası SEO raporlarını “performans mı ölçüm mü?” ayrımıyla güvenli okumanız için tasarlanmıştır. Consent rate ve modeled data etkisini rapor yorumundan önce doğrulamanızı sağlar; GSC görünürlüğü ve offline lead/call sinyalleriyle çapraz kontrol kurgular. Amaç, yanlış alarm ve hatalı aksiyonların önüne geçmektir.",
+            "whoFor": "Avrupa pazarına bakan otel ve B2B projeleri yöneten ajans/kurum SEO ve analitik ekipleri.",
+            "steps": [
+              "Her rapordan önce consent rate ve değişiklik log’unu kontrol et.",
+              "GA4 trendini GSC trendiyle çapraz doğrula; modeled etiketli kartları “öncelik işaretleyici” olarak ele al.",
+              "Tek ana aksiyon seç (ölçüm düzeltme / snippet / landing / offline takip) ve 14 günlük sprint’e bağla."
+            ],
+            "checklist": [
+              "GA4 Consent settings kontrol edildi; EEA etkisi ve consent sinyalleri gözden geçirildi.",
+              "Consent Mode sinyalleri doğru iletiliyor (banner/CMP tarafı).",
+              "Modeled data kullanılan raporlar “modelleme” etiketiyle işaretli.",
+              "GA4 organik düşüşünde önce consent rate değişimi kontrol edildi.",
+              "GSC property/filtre/tarih seti sabit; kıyas pencereleri tutarlı.",
+              "GSC clicks/impressions trendi ile GA4 organik trendi karşılaştırıldı (sapma analizi).",
+              "Brand arama trendi (Search Console query veya arama hacmi proxy) rapora destek olarak eklendi.",
+              "Offline sinyaller (call/lead) rapor yorumunda kullanılıyor (özellikle otel).",
+              "Event/goal değişiklikleri change log’da; düşüşte önce ölçüm doğrulandı.",
+              "Düşük örneklemli ülke segmentleri “izle” kategorisine alındı."
+            ],
+            "template": {
+              "title": "Ölçüm & Önceliklendirme Checklist’i (Privacy Sonrası)",
+              "sections": [
+                {
+                  "title": "Problem → Kök Neden → Çözüm Tablosu",
+                  "items": [
+                    "Problem: GA4 organik düşüşü",
+                    "Kök neden: consent rate düşüşü / tag değişikliği / gerçek performans kaybı / kanal mapping sorunu",
+                    "Çözüm: consent kontrolü, GSC doğrulaması, event/tag düzeltmesi, landing/CTR teşhisi"
+                  ]
+                },
+                {
+                  "title": "14 Günlük Sprint Planı (Privacy-Aware Fix)",
+                  "items": [
+                    "Gün 1: Consent rate + GA4 consent settings kontrolü, rapor filtre seti sabitleme",
+                    "Gün 2: Modeled kartların etiketlenmesi + doğrulama akışının yazılması",
+                    "Gün 3: GSC vs GA4 trend sapma tablosu oluşturma",
+                    "Gün 4: Event/goal doğrulama + change log düzeni",
+                    "Gün 5: Top 10 landing “measurement vs performance” matrisi",
+                    "Gün 6–7: Snippet/CTR iyileştirme (title/meta/FAQ) denemeleri (riskli landing’lerde)",
+                    "Gün 8–9: Offline sinyal entegrasyonu (call/lead) rapor bloğu",
+                    "Gün 10–11: Ülke/cihaz segment raporu (EEA etkisi dahil)",
+                    "Gün 12: Yönetici özeti: ölçüm etkisi + gerçek performans ayrımı",
+                    "Gün 13: Aksiyonların standardize edilmesi (template + checklist)",
+                    "Gün 14: Sonuç kontrolü + bir sonraki sprint backlog’u"
+                  ]
+                },
+                {
+                  "title": "Deliverables listesi",
+                  "items": [
+                    "Consent etkisi notlu rapor şablonu (OK/Risk)",
+                    "GSC vs GA4 sapma matrisi",
+                    "Modeled data etiket standardı",
+                    "Privacy-aware karar checklist’i",
+                    "14 günlük sprint aksiyon listesi"
+                  ]
+                }
+              ]
+            },
+            "href": "/downloads/consent-mode-sonrasi-seo-kpi-veri-yorumlama-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
+            "text": "Consent etkisini ölçüm/performans ayrımıyla yönetmek ve yönetici iletişimini standardize etmek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir",
+            "text": "Consent rate, modeled data ve GSC doğrulamasıyla raporu güvenli okumanızı; yanlış alarmı azaltmanızı sağlar.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Privacy döneminde SEO raporunu tek metrikle okumayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Consent Mode ve cookie banner sonrası SEO raporlamasında en büyük risk, GA4 düşüşünü doğrudan performans kaybı olarak yorumlamaktır. Oysa düşüşün nedeni ölçüm kapsamı, consent rate, modeled data, event değişikliği veya gerçek görünürlük kaybı olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden privacy-aware raporlama modeli; GA4, GSC, consent rate, brand arama ve offline lead/call sinyallerini birlikte okur. Amaç, yanlış alarmı azaltmak ve SEO aksiyonlarını gerçek probleme yönlendirmektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
+            "text": "Avrupa pazarında consent etkisini doğru okuyup SEO kararlarını güvenli almak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir",
+            "text": "Consent rate, modeled data ve GSC doğrulamasıyla raporu güvenli okumanızı sağlar.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Consent Mode SEO raporlamasını nasıl etkiler?",
+        "a": "Consent Mode, izin durumuna göre GA4 ölçüm kapsamını değiştirebilir; bu da organik sessions ve conversions gibi metriklerde düşüş gibi görünebilir. Bu yüzden GA4 düşüşleri, consent rate ve GSC trendiyle birlikte okunmalıdır."
+      },
+      {
+        "q": "Cookie banner sonrası GA4 verisi neden düştü?",
+        "a": "İzin oranı düştüyse GA4 daha az kullanıcıyı ölçebilir; ölçüm kapsamı daralır. Önce consent rate ve değişiklik log’u kontrol edilir; sonra GSC tıklamalarıyla performans doğrulanır."
+      },
+      {
+        "q": "Modeled data nedir, ne kadar güvenilir?",
+        "a": "Modeled data, izin vermeyen kullanıcılar için eksik kalan veriyi modelleme ile tahmin etmeye çalışır. Trend okumayı kolaylaştırabilir ama kesin sayı gibi kullanılmamalı; GSC ve iş sinyalleriyle doğrulanmalıdır."
+      },
+      {
+        "q": "Privacy döneminde SEO performansını nasıl doğru okurum?",
+        "a": "Önce ölçüm hijyenini ve consent etkisini kontrol edin; ardından GSC görünürlüğüyle performansı doğrulayın. Offline lead/call ve brand arama trendiyle iş sonucunu destekleyin."
+      },
+      {
+        "q": "GA4 organik düşüyor ama GSC stabil; bu ne demek?",
+        "a": "Bu tablo genellikle ölçüm kapsamı/consent kaynaklı olabilir veya kanal mapping sorununu işaret edebilir. Önce consent settings ve ölçüm değişiklikleri kontrol edilmelidir."
+      },
+      {
+        "q": "Consent rate neden sektörlere göre değişiyor?",
+        "a": "Banner tasarımı, regülasyon uyumu ve kullanıcı beklentileri sektöre göre değişir; bu yüzden consent oranları “tek sayı” değildir. Rapor yorumunda kıyas yerine trend ve segment mantığı kullanılmalıdır."
+      },
+      {
+        "q": "SEO raporunu sadece GA4 ile okumak neden riskli?",
+        "a": "Consent ve privacy etkisi GA4 ölçümünü daraltabilir; bu durumda sadece GA4’e bakmak yanlış alarm üretebilir. GSC görünürlüğü ve offline sinyaller rapor güvenini artırır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-hero-01.webp",
+          "h1-context — 1920×1080 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-h1-context-02.webp",
+          "divider-01 — 1600×1200 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-divider-03.webp",
+          "divider-02 — 1600×1200 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-divider-04.webp",
+          "diagram-05 — 1920×1080 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-diagram-05.webp",
+          "checklist-06 — 1200×1200 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-checklist-06.webp",
+          "kpi-07 — 1200×1200 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-kpi-07.webp",
+          "proof-08 — 1200×1200 — consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz-proof-08.webp",
+          "table-consent-rate-ga4-gsc-matrix — Consent rate + GA4 + GSC karşılaştırma matrisi"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage şeması soru-cevaplarla eşleşiyor",
+          "İç link hedefleri doğru: /sem/donusum-takibi-tag-manager, /seo/seo-raporlama, /raporlama/kvkk-veri-guvenligi",
+          "Download asset CTA bağlantısı kontrol edildi",
+          "Media slot isimleri template ile uyumlu",
+          "Consent rate + GA4 + GSC karar matrisi UI table component ile uyumlu",
+          "Refresh Cycle 180 gün olarak işaretlendi",
+          "Privacy-aware raporlama modelinde GSC, brand arama ve offline sinyal vurgusu korundu"
         ]
       }
     }
