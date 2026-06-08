@@ -20756,6 +20756,1851 @@
         ]
       }
     }
+  },
+
+   "BlogSerilesmisIceriklerMiniSerilerVeHaftalikFormatlarIleFeedKurgulama": {
+    "title": "Serileşmiş İçerikler: Haftalık Formatlarla Feed Kurgusu | DGTLFACE",
+    "slug": "serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Mini serilerle içerik disiplinini kurun: Pazartesi ipucu, Çarşamba case, Cuma SSS gibi haftalık formatlar. Otel/B2B seri örnekleri, ölçüm ve devam kararı rehberi.",
+    "seo": {
+      "metaTitle": "Serileşmiş İçerikler: Haftalık Formatlarla Feed Kurgusu | DGTLFACE",
+      "metaDescription": "Mini serilerle içerik disiplinini kurun: Pazartesi ipucu, Çarşamba case, Cuma SSS gibi haftalık formatlar. Otel/B2B seri örnekleri, ölçüm ve devam kararı rehberi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: İçerik Üretimi — /tr/smm/icerik-uretimi → https://dgtlface.com/tr/smm/icerik-uretimi (Varsayım: relative path)",
+        "Blog No + Blog URL: #14 — /tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama → https://dgtlface.com/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama (Varsayım: relative path)",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert, Word Count = 3000–3500",
+        "Not: Sheet’te aynı değerler var; V2.3 kilidiyle uyumludur.",
+        "Blog-slug (V2.3): serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama",
+        "Canonical: /tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
+      ],
+      "strategySummary": "Bu blog, sosyal medya üretimini “her hafta ne paylaşacağız?” stresinden çıkarıp seri mantığıyla planlama omurgasına oturtan core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; düzenli yayın yapmak isteyen otel/destinasyon ve B2B markaları ile ajanslardır. Funnel’da ağırlıkla awareness → consideration çalışır: kullanıcı “beklenen içerik” alışkanlığıyla sadakat oluşur, kaydetme ve geri dönme artar; DM/lead’e zemin hazırlar. Ana iş sorusu: “Haftalık sabit formatları nasıl kurgularım, otel/B2B için hangi seri fikirleri uygulanır ve serinin performansını ölçüp devam/bitir kararını nasıl veririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Serileşmiş içerikler, marka tarafında planlama disiplinini artırır; kullanıcı tarafında ise “bu hesap her pazartesi X paylaşıyor” beklentisi oluşturarak sadakat yaratır. Düzenli formatlar, feed’in hem görsel hem konu bazında iskeletini oluşturur. En iyi yaklaşım: 2–4 mini seri seçmek, her seri için isim + görsel şablon + caption kalıbı belirlemek, 30 gün test edip kaydetme/erişim/DM gibi KPI’lara göre devam veya yenileme kararı almaktır.",
+      "sgeSummary": "Haftalık mini seriler planlama omurgasıdır: 2–4 seri seç, isim+şablon+caption kalıbını kilitle, her hafta aynı gün yayınla. 30 gün KPI ile ölç; tutanı sürdür, tutmayanı değiştir.",
+      "voiceAnswer": "Her hafta ne paylaşacağını bilmek için 2–3 seri seçip gün–format sabitleyin ve 30 gün ölçün.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel/destinasyon ve B2B markalar; ajans yöneticileri.",
+        "KPI: düzenli izleyici, kaydetme, paylaşma, tekrar izleme/geri dönme, DM/lead, seri tamamlama.",
+        "Entity: content series, recurring posts, weekly formats, audience habit, planning spine, template/caption patterns.",
+        "GEO: (Varsayım) Otel serilerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon temalı haftalık formatlar doğal çalışır.",
+        "Funnel: Awareness (alışkanlık) → Consideration (değer/kanıt) → Conversion (DM/teklif).",
+        "Veri noktası: seri formatları kullanan hesaplarda düzenli izleyici ve kaydetme oranlarının daha yüksek olduğu analizlerde görülür (sheet).",
+        "Operasyon: seri takvimi + şablon seti + ölçüm döngüsü."
+      ]
+    },
+    "h1": {
+      "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
+      "intro": "Sosyal medya yönetiminde en yıpratıcı soru şudur: “Bu hafta ne paylaşacağız?” Bu soruyu her hafta sıfırdan soran ekipler ya bir süre sonra kopar ya da rastgele paylaşımla kaliteyi düşürür. Serileşmiş içerik mantığı bu soruyu ortadan kaldırır: siz bir kez “haftalık omurgayı” kurarsınız; sonra sadece o omurga üzerinde konu ve örnekleri güncellersiniz. Kullanıcı tarafında ise çok net bir kazanım oluşur: “Bu hesap her pazartesi X paylaşıyor” beklentisi, alışkanlık ve sadakat üretir.\n\nBu rehberde; seri mantığının neden işe yaradığını, haftalık format örneklerini, otel ve B2B için uygulanabilir seri setlerini, seri isimlendirme–şablon–caption kalıplarını ve performansa göre devam/bitir kararını nasıl alacağınızı adım adım ele alacağız.",
+      "quickSummary": [
+        "1) 2–4 mini seri seç; fazlası sürdürülemez.",
+        "2) Her seri için gün, format, isim, görsel şablon ve caption kalıbı belirle.",
+        "3) Haftalık çapaları sabitle: Pazartesi ipucu, Çarşamba case, Cuma SSS gibi.",
+        "4) 30 gün boyunca aynı ritmi koru ve seri bazlı KPI ile ölç.",
+        "5) Devam/yenile/bitir kararını kaydetme, paylaşma, DM ve completion sinyallerine göre ver."
+      ],
+      "ctaPrimary": {
+        "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
+        "text": "Haftalık içerik omurgasını kurup sürdürülebilir yayın ritmi isteyen otel ve B2B ekipleri için.",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
+        "text": "Haftalık içerik omurgası kurup takipçide “beklenen içerik” alışkanlığı oluşturmak isteyen markalar için.",
+        "href": "/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Serileşmiş İçerik & Haftalık Format Planlama Şablonunu İndir",
+        "text": "2–4 seri için gün–format–CTA planını 30 dakikada çıkarır; üretimi sürdürülebilir hale getirirsiniz.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM Planlama Strateji",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "SMM Analiz Raporlama",
+        "href": "/smm/analiz-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "title": "Sosyal Medya Planlama Strateji",
+        "href": "/smm/planlama-strateji"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-seri-mantigi",
+        "title": "Neden Seri Mantığı?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Seri mantığı iki problemi aynı anda çözer: üretim disiplini ve kullanıcı beklentisi. Ekip açısından seri; planlamayı kolaylaştırır, “konu bulma” stresini azaltır ve tasarım/caption kalıplarıyla üretimi hızlandırır. Kullanıcı açısından seri; hesapla bir ilişki kurar: “pazartesi ipucu”, “çarşamba case”, “cuma SSS” gibi düzenli formatlar, takipçinin zihninde “geri gelme nedeni” üretir."
+          },
+          {
+            "type": "p",
+            "text": "Serinin gücü “aynı şeyi tekrar etmek” değil; aynı çerçeveyi tekrar etmektir. İçerik değişir, format aynı kalır. Böylece algoritmik olarak da tutarlı sinyal oluşur: belirli günlerde belirli etkileşim türleri."
+          },
+          {
+            "type": "h3",
+            "text": "Serileşmiş içerik nedir, ne işe yarar?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Serileşmiş içerik, belirli bir isim ve formatla düzenli aralıklarla tekrar eden içerik dizisidir. İşe yarar çünkü planlamayı kolaylaştırır, takipçide beklenti yaratır ve kaydetme/geri dönme gibi sadakat sinyallerini artırabilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Haftalık içerik omurganız var mı, yoksa her hafta sıfır mı?",
+              "Takipçi “haftanın aynı gününde aynı formatı” görüyor mu?",
+              "Serinin adı/şablonu/caption kalıbı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2–4 seri seç (fazlası sürdürülemez).",
+              "Her seri için tek sayfalık “seri kartı” oluştur (aşağıda).",
+              "30 gün test etmeyi kabul et; ilk hafta mükemmel olmasını bekleme."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
+            "text": "Haftalık içerik omurgasını kurup sürdürülebilir yayın ritmi isteyen otel ve B2B ekipleri için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "haftalik-duzenli-format-ornekleri",
+        "title": "Haftalık/Düzenli Format Örnekleri (Pazartesi İpucu, Çarşamba Case, Cuma SSS)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Seri kurgularken amaç; haftanın her gününü doldurmak değil, haftanın “çapalarını” koymaktır. En iyi başlangıç: haftada 2–3 seri. Her seri, farklı bir funnel ve KPI’yı hedefler: ipucu = kaydetme; case = güven; SSS = DM ve itiraz azaltma."
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık içerik formatlarını nasıl kurgularım?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Önce 2–3 seri seçin ve her birini bir günle sabitleyin. Sonra her seri için formatı (carousel/reels/story) ve CTA’yı belirleyin. 30 gün boyunca aynı ritmi koruyup KPI ile ölçün; tutan serileri büyütün, tutmayanları değiştirin."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek haftalık seri iskeleti (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazartesi İpucu: carousel (kaydetme)",
+              "Çarşamba Case: post/carousel (güven)",
+              "Cuma SSS: story + soru kutusu (DM)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Haftalık Seri Takvimi Örneği",
+            "headers": [
+              "Gün",
+              "Seri adı",
+              "Format",
+              "Hook kalıbı",
+              "CTA",
+              "Hedef KPI",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Pazartesi",
+                "Pazartesi İpucu",
+                "carousel",
+                "Bu hafta şunu deneyin:",
+                "Kaydet",
+                "kaydetme",
+                "Eğitici kısa format"
+              ],
+              [
+                "Çarşamba",
+                "Çarşamba Case",
+                "post/carousel",
+                "Önce/sonra farkı:",
+                "DM at",
+                "güven / DM",
+                "Kanıt ve sonuç odaklı"
+              ],
+              [
+                "Cuma",
+                "Cuma SSS",
+                "story + soru kutusu",
+                "En çok sorulan soru:",
+                "Soru gönder",
+                "DM",
+                "İtiraz azaltma"
+              ],
+              [
+                "Esnek slot",
+                "Sezon/Kampanya",
+                "reels/story",
+                "Bu hafta özel:",
+                "Linke git",
+                "profil tıklama",
+                "Sezon döneminde kullanılır"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her serinin KPI’sı farklı mı?",
+              "Gün ve format sabit mi?",
+              "CTA tek ve net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık 3 seriyle başla; 4’ü geçme.",
+              "Serileri feed–story–reels arasında dengeli dağıt.",
+              "Sezon/kampanya haftalarında 1 seriyi “esnek slot” bırak."
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Serileşmiş İçerik & Haftalık Format Planlama Şablonunu İndir — SMM / Content Series (v1.0)",
+            "purpose": "Bu şablon; 2–4 mini seriyi gün–format–hook–CTA düzeyinde planlayarak haftalık içerik omurgası kurmanızı sağlar. Amaç, hem ekipte üretim disiplinini artırmak hem de takipçide “beklenen içerik” alışkanlığı oluşturarak kaydetme ve düzenli izleyici metriklerini büyütmektir.",
+            "whoFor": "Düzenli yayın yapan otel/destinasyon ve B2B marka ekipleri; ajans içerik planlama ekipleri.",
+            "steps": [
+              "2–4 seri seç ve her seri için hedef KPI belirle.",
+              "Seri kartlarını doldur (isim, gün, format, hook, CTA, şablon).",
+              "30 gün yayınla; raporlamada seri bazlı KPI ile devam/yenile/bitir kararı ver."
+            ],
+            "checklist": [
+              "Checklist + Sprint Plan Şablonu",
+              "A) Ölçüm & Önceliklendirme checklist’i",
+              "B) Problem → Kök Neden → Çözüm tablosu",
+              "C) 14 günlük sprint planı (Gün 1–14)",
+              "D) Öncesi/Sonrası KPI tablosu",
+              "E) Deliverables listesi"
+            ],
+            "href": "/downloads/serilesmis-icerik-haftalik-format-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-uygulanabilir-seriler",
+        "title": "Otel ve B2B İçin Uygulanabilir Seriler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Seriler “sektöre göre” isim ve içerik değiştirir. Otelde seri, deneyim ve destinasyonla zenginleşir; B2B’de seri, know-how ve kanıtla güçlenir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için seri fikirleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda Tanıtım Serisi: “Haftanın Odası” (reels + kısa SSS)",
+              "Şehri Keşfet: “Bu hafta rota” (carousel)",
+              "Misafir Gözüyle: UGC highlight (story) (Varsayım: izinli)",
+              "Cuma SSS: itiraz kırma (story + sticker)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlar “Şehri Keşfet” serisinde doğal geçebilir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B için seri fikirleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Soru–Cevap Çarşambası: story + soru kutusu",
+              "Mini Case Cuma: önce/sonra (carousel)",
+              "İpucu Pazartesi: 3 maddelik mini eğitim (carousel)",
+              "Backstage: ekip/süreç (reels) (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Seri adı marka tonu ile uyumlu mu?",
+              "Seri “tek tema” etrafında mı dönüyor?",
+              "Seri için görsel şablon var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde 1 “destinasyon/rota” serisini sabitle.",
+              "B2B’de 1 “case” serisini sabitle (kanıt).",
+              "Her serinin CTA’sını standardize et (kaydet/DM/link)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "seriler-icin-isim-gorsel-format-ve-caption-kaliplari",
+        "title": "Seriler için İsim, Görsel Format ve Caption Kalıpları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir seri “seri” gibi görünmeli. Bunun için 3 şey kilitlenir: isim, görsel format ve caption kalıbı. Aksi halde kullanıcı seriyi tanımaz; beklenti oluşmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Seri kartı (her seri için 1 sayfa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seri adı: …",
+              "Gün: …",
+              "Format: …",
+              "Hook kalıbı (ilk satır): …",
+              "CTA kalıbı: …",
+              "Hashtag/etiket: … (Varsayım)",
+              "Highlight adı: … (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Serilere nasıl isim verilir?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Seri isimleri kısa, hatırlanır ve tekrar edilebilir olmalıdır; 1–3 kelime idealdir. İsim; formatı değil vaadi anlatmalı: “Haftanın Odası”, “Mini Case Cuma”, “SSS Cuma” gibi. Ayrıca hashtag ve highlight yapılarıyla uyumlu olursa arşivleme kolaylaşır (sheet teknik not)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Seri adı 3 kelimeyi geçiyor mu? (kısalt)",
+              "Her serinin kapağı/etiketi var mı?",
+              "Caption kalıbı sabit mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2 seri için kapak/etiket şablonu hazırla.",
+              "10 caption kalıbı oluştur ve seri bazında bağla.",
+              "Highlight ve hashtag’i seriyle aynı isim ailesinde seç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "serilerin-performansini-olcmek-ve-devam-karari-almak",
+        "title": "Serilerin Performansını Ölçmek ve Devam Kararı Almak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Seri başlatmanın en kritik kısmı “devam/bitir” kararını objektif almaktır. Bir seri 1–2 haftada tam oturmayabilir; ama 30 gün sonunda KPI net sinyal verir. Sheet’teki gözlem: seri formatları kullanan hesaplarda düzenli izleyici ve kaydetme daha yüksek olabilir; yine de her marka için ölçmek şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Seri performansını nasıl ölçer, ne zaman bırakırım?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Seriyi en az 4 hafta çalıştırın ve seri bazında KPI izleyin: kaydetme, paylaşma, completion, DM, profil tıklaması. KPI yükselmiyor ve “exits/forward” artıyorsa formatı değiştirin veya seriyi kapatın. Seri iyi gidiyorsa, aynı formatla konu havuzunu genişletin."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Devam/yenile/bitir matrisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Devam: KPI artıyor + üretim sürdürülebilir",
+              "Yenile: KPI sabit + yorum iyi → hook/format değiştir",
+              "Bitir: KPI düşüyor + ekip zorlanıyor → yerine yeni konsept"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "KPI’ları seri etiketiyle takip ediyor musun?",
+              "En iyi 3 seri konusu belli mi?",
+              "Sezon/kampanya döneminde seri yer değiştirebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Serileri raporda ayrı satır olarak etiketle (Varsayım).",
+              "30 gün sonunda 1 seriyi büyüt, 1 seriyi yenile, 1 seriyi bırak.",
+              "Sezon döneminde kampanya içeriklerine “esnek slot” aç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seri-kurgusu-planlama-omurgasi",
+        "title": "Fark Yaratan Mini Bölüm: Seri Kurgusu = Planlama Omurgası (Sezonda Esneklik)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok ekip seri kuruyor ama sezon/kampanya geldiğinde tamamen bozuyor. Oysa doğru sistem: seriler omurga, kampanyalar “özel slot”tur. Sheet notu da bunu söylüyor: sezon ve kampanya dönemlerinde bazı serilerin geçici olarak yerini kampanya içeriklerine bırakması planlamada düşünülmeli."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
+            "text": "Serilerinizi sezona uyumlu omurgaya oturtmak isteyen ekipler için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Seriler içerik üretimini rastgelelikten çıkarıp sürdürülebilir ritme bağlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Serileşmiş içerikler, sosyal medya üretimini “bu hafta ne paylaşacağız?” stresinden çıkarıp haftalık bir omurgaya bağlar. Ekip tarafında üretim disiplini ve hız sağlar; kullanıcı tarafında ise beklenen içerik alışkanlığı oluşturarak sadakat, kaydetme ve geri dönme davranışını güçlendirebilir."
+          },
+          {
+            "type": "p",
+            "text": "En sağlıklı model; 2–4 mini seriyle başlamak, her seri için isim–şablon–caption–CTA kalıbını netleştirmek ve 30 gün sonunda KPI ile devam/yenile/bitir kararı vermektir. Sezon ve kampanya dönemlerinde serileri tamamen bozmak yerine esnek slot mantığıyla omurgayı korumak, uzun vadeli feed kurgusunu daha sürdürülebilir hale getirir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
+            "text": "Haftalık içerik omurgası kurup takipçide “beklenen içerik” alışkanlığı oluşturmak isteyen markalar için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Serileşmiş İçerik & Haftalık Format Planlama Şablonunu İndir",
+            "text": "2–4 seri için gün–format–CTA planını 30 dakikada çıkarır; üretimi sürdürülebilir hale getirirsiniz.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Serileşmiş içerik nedir, ne işe yarar?",
+        "a": "Serileşmiş içerik, belirli gün ve formatla tekrar eden mini içerik dizisidir. Planlamayı kolaylaştırır ve takipçide beklenti oluşturarak sadakat, kaydetme ve geri dönme davranışını artırabilir."
+      },
+      {
+        "q": "Haftalık içerik formatlarını nasıl kurgularım?",
+        "a": "2–3 seri seçip gün–formatı sabitleyin (ör. Pazartesi ipucu, Cuma SSS). 30 gün yayınlayıp KPI ile ölçün; tutanı sürdürün, tutmayanı yenileyin."
+      },
+      {
+        "q": "Otel ve B2B için seri fikirleri neler?",
+        "a": "Otelde “Haftanın Odası”, “Şehri Keşfet”, “Cuma SSS”; B2B’de “Soru–Cevap Çarşambası”, “Mini Case Cuma”, “İpucu Pazartesi” gibi seriler uygulanabilir."
+      },
+      {
+        "q": "Serilere nasıl isim verilir?",
+        "a": "1–3 kelimelik kısa, hatırlanır ve tekrar edilebilir isimler seçin. Hashtag ve highlight yapısıyla uyumlu olursa arşivleme ve takip kolaylaşır."
+      },
+      {
+        "q": "Seri performansını nasıl ölçer, ne zaman bırakırım?",
+        "a": "Seri bazında kaydetme, paylaşma, DM ve completion gibi metrikleri izleyin. 4 hafta sonunda KPI artmıyorsa format/hook’u yenileyin; düşüyorsa seriyi kapatıp yeni konsept deneyin."
+      },
+      {
+        "q": "Sezon/kampanya dönemlerinde seriler bozulmalı mı?",
+        "a": "Tamamen bozulmamalı; bir seriyi geçici olarak kampanya slotuna devretmek daha iyi bir yaklaşımdır. Böylece omurga korunur, kampanya da yer bulur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-hero-01.webp — “Serileşmiş içerikler hero görseli, haftalık formatlarla feed kurgusu”",
+          "H1 Context — 1920×1080 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-h1-context-02.webp — “Haftalık seri omurgası bağlam görseli, içerik disiplini”",
+          "Section Divider 01 — 1600×1200 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-divider-03.webp — “Neden seri mantığı bölüm ayırıcı görseli”",
+          "Section Divider 02 — 1600×1200 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-divider-04.webp — “Otel ve B2B seri örnekleri bölüm ayırıcı görseli”",
+          "Diagram / Flow — 1920×1080 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-diagram-05.webp — “Haftalık seri takvimi ve esnek kampanya slotu diyagramı”",
+          "Checklist / Framework Card — 1200×1200 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-checklist-06.webp — “Seri başlatma checklist kartı, isim şablon KPI”",
+          "KPI / Score Card — 1200×1200 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-kpi-07.webp — “Seri KPI kartı: kaydetme, düzenli izleyici, DM”",
+          "Deliverables / Proof Card — 1200×1200 — serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama-proof-08.webp — “Grid mockup ve seri kartları deliverables görseli”",
+          "Tablo (1 adet): Haftalık Seri Takvimi Örneği — Gün | Seri adı | Format | Hook kalıbı | CTA | Hedef KPI | Not",
+          "Şablon mockup görseli + 3–4 post’luk seri grid örneği",
+          "Haftalık seri format takvimi görseli + grid mockup"
+        ],
+        "technicalChecklist": [
+          "Primary CTA hedefi: https://dgtlface.com/tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: https://dgtlface.com/tr/smm/planlama-strateji",
+          "Ölçüm linki: https://dgtlface.com/tr/smm/analiz-raporlama",
+          "2–4 seri seçildi mi?",
+          "Gün ve format sabitlendi mi?",
+          "Her seri için hook + CTA kalıbı yazıldı mı?",
+          "4 haftalık konu havuzu var mı?",
+          "Seri KPI’ları raporda etiketleniyor mu?",
+          "Sezon/kampanya için esnek slot var mı?",
+          "Seri kartları (2–4 adet)",
+          "Haftalık seri takvimi (4 hafta)",
+          "Hook + CTA kalıp bankası",
+          "Grid mockup örneği",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü yapıldı",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+  "BlogAiDestekliSosyalMedyaIcerikUretimiVeInsanKreatifDengesi": {
+    "title": "AI Destekli Sosyal Medya: İnsan Kreatif Dengesi | DGTLFACE",
+    "slug": "ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi",
+    "department": "smm",
+    "subDepartment": "content",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI ile içerik üretiminde hız kazanın ama riski yönetin: fikir–taslak–script’i AI üretir, ton/özgünlük/bağlamı insan editör kilitler. Kontrol listesiyle güvenli akış kurun.",
+    "seo": {
+      "metaTitle": "AI Destekli Sosyal Medya: İnsan Kreatif Dengesi | DGTLFACE",
+      "metaDescription": "AI ile içerik üretiminde hız kazanın ama riski yönetin: fikir–taslak–script’i AI üretir, ton/özgünlük/bağlamı insan editör kilitler. Kontrol listesiyle güvenli akış kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: İçerik Üretimi — /tr/smm/icerik-uretimi → https://dgtlface.com/tr/smm/icerik-uretimi (Varsayım: relative path)",
+        "Blog No + Blog URL: #15 — /tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi → https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi (Varsayım: relative path)",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert, Word Count = 3000–3500",
+        "Not: Sheet’te aynı değerler var; V2.3 kilidiyle uyumludur.",
+        "Blog-slug (V2.3): ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi",
+        "Canonical: /tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi"
+      ],
+      "strategySummary": "Bu blog, “AI ile içerik üretelim” yaklaşımını risklerinden arındırıp hibrit üretim modeline (AI + insan kreatif editör) dönüştüren core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; içerik hacmi yüksek ajanslar ve markalar (otel/B2B dahil) olup hem hız hem kalite dengesini korumak ister. Funnel’da consideration ağırlıklıdır: kullanıcı “AI ile yapalım mı?” kararını verirken güven, özgünlük ve marka tonu risklerini yönetmek ister. Ana iş sorusu: “AI’ı hangi aşamalarda kullanmalıyım, insan kreatif hangi işleri üstlenmeli ve ‘AI kokusu/yanlış bilgi/telif’ risklerini nasıl kontrol ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI, sosyal medya içerik üretiminde hız ve fikir açısından ciddi avantaj sağlasa da ton, özgünlük, marka kimliği ve bağlam için insan kreatif dokunuşuna hâlâ ihtiyaç vardır. Sağlıklı modelde AI; fikir, taslak ve iskelet üretir; insan ise seçip düzenler, sahayı ve kullanıcıyı bilen “yaratıcı editör” rolünü üstlenir. Riskleri (tekdüzelik, yanlış bilgi, telif ve “AI kokusu”) azaltmak için her içerik insan kontrolünden geçmeli ve marka tonu checklist’iyle yayınlanmalıdır.",
+      "sgeSummary": "AI’ı fikir ve taslak üretimde kullanın; final metin, görsel/senaryo ve marka tonu kararını insan kreatif versin. Yanlış bilgi–telif–AI kokusu riskine karşı kontrol listesi ve onay akışı kurun.",
+      "voiceAnswer": "ChatGPT ile post yazabilirsiniz; ama final tonu, doğruluk ve özgünlüğü insan editör mutlaka kontrol etmeli.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli içerik hacmi yüksek ajanslar ve markalar (otel/B2B dahil).",
+        "KPI: üretim hızı, tutarlılık, etkileşim, DM/lead, hata oranı, revizyon sayısı.",
+        "Entity: AI-assisted content, human creativity, brand voice, hybrid workflow, safe AI usage, editorial review.",
+        "GEO: (Varsayım) Otel örneklerinde destinasyon bağlamı (Antalya/Belek/Side/Kemer/Bodrum) insan editör tarafından doğrulanmalı.",
+        "Funnel: Awareness (hızlı içerik) → Consideration (güven/özgünlük) → Conversion (net CTA).",
+        "Risk: yanlış bilgi, tekdüzelik, telif/izin, platform algısı (“AI kokusu”).",
+        "Veri noktası: AI’yı “asistan” konumlayan markalar hız–kalite dengesini daha iyi kurabiliyor (sheet)."
+      ]
+    },
+    "h1": {
+      "title": "AI Destekli Sosyal Medya İçerik Üretimi ve İnsan Kreatif Dengesi",
+      "intro": "AI ile içerik üretmek artık “yapılır mı?” sorusu değil; “nasıl yapılırsa güvenli ve marka uyumlu olur?” sorusu. Çünkü AI size hız ve fikir verir; ama aynı zamanda tekdüzelik, yanlış bilgi, telif/izin ve “AI kokusu” riski de getirir. Özellikle otel ve hizmet markalarında, bağlam ve gerçeklik çok kritik olduğu için “otomatik üretim” yerine hibrit üretim gerekir.\n\nBu rehberde; AI’ı hangi aşamalarda kullanacağınızı (fikir–taslak–script), insan kreatifin rolünü (ton, özgünlük, saha bilgisi, son karar), riskleri ve güvenli kontrol mekanizmalarını anlatacağız. Sonunda da pratik bir AI+insan üretim akışı ve kontrol listesiyle sistemi kilitleyeceğiz.",
+      "quickSummary": [
+        "1) AI’ı tek başına içerik üreticisi değil, fikir–taslak–script asistanı olarak konumlandır.",
+        "2) İnsan kreatif tonu, özgünlüğü, saha bilgisini ve son kararı üstlenmeli.",
+        "3) Yanlış bilgi, tekdüzelik, telif/izin ve “AI kokusu” riskleri yayın öncesi kontrol edilmeli.",
+        "4) Her içerik doğruluk, ton ve özgünlük kontrolünden geçmeli.",
+        "5) Hibrit workflow fikir → taslak → edit → doğrulama → yayın şeklinde kurulmalı."
+      ],
+      "ctaPrimary": {
+        "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
+        "text": "AI ile hızlanırken marka tonu ve güveni korumak isteyen ekipler için.",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
+        "text": "AI ile hızlanırken marka tonu, doğruluk ve özgünlüğü korumak isteyen ekipler için.",
+        "href": "/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "AI Destekli SMM İçerik Üretim Akışı & Kontrol Listesini İndir",
+        "text": "Üretimi adımlara böler; her içerikte doğruluk–telif–AI kokusu riskini yayın öncesi yakalarsınız.",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "KVKK Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
+        "href": "/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
+      },
+      {
+        "title": "Sosyal Medya İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ai-araclariyla-icerik-fikirleri-uretmek",
+        "title": "AI Araçlarıyla İçerik Fikirleri Üretmek",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "AI’nin en güçlü olduğu yer “boş sayfa” problemidir. Konu havuzu üretmek, seri fikirleri bulmak, farklı açılar önermek ve topic cluster’a göre başlık varyasyonları çıkarmak için idealdir. Burada kritik nokta: AI’dan “tek doğru fikir” beklemek değil, 10–20 seçenek alıp insanın seçmesidir."
+          },
+          {
+            "type": "p",
+            "text": "AI’dan konu listesi alırken iyi brief şarttır: hedef persona, kanal, hedef KPI ve içerik formatı net olmalıdır. Otel örneklerinde “destinasyon/deneyim” bağlamı; B2B’de “problem/kanıt” bağlamı AI’a verilmezse çıkan fikirler yüzeysel kalır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Brief’inizde hedef persona ve KPI yazıyor mu?",
+              "AI’dan 5 değil, 20 fikir alıp eleme yapıyor musunuz?",
+              "Fikirleri seri mantığıyla gruplayabiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI brief şablonu oluştur: persona + KPI + format + ton.",
+              "20 fikir üret → 10’unu seç → 4’ünü seri yap.",
+              "Seçim kriteri koy: “özgünlük, uygulanabilirlik, marka uyumu”."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
+            "text": "AI ile hızlanırken marka tonu ve güveni korumak isteyen ekipler için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "caption-ve-metin-taslagi-olusturmak",
+        "title": "Caption ve Metin Taslağı Oluşturmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI caption taslaklarında hızlıdır; hook varyasyonları çıkarır, farklı CTA seçenekleri üretir, tonu “yaklaştırır”. Ama nihai ton ve bağlam kararını insan vermelidir. Çünkü marka dili çoğu zaman ince ayar ister: bazı kelimeler yasaktır, bazı kelimeler tercih edilir, bazı ifadeler sektör için risklidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otel içeriklerinde “vaat” dili ve bilgi doğruluğu önemlidir. B2B’de ise abartı, ölçüsüz iddia ve jargon riski yüksektir. AI taslağı bu riskleri artırabilir; insan editör burada devreye girer."
+          },
+          {
+            "type": "h3",
+            "text": "AI ile sosyal medya içeriği üretmek güvenli mi?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Güvenli olabilir; fakat yalnızca insan kontrolü + doğruluk kontrolü + marka tonu checklist’i ile. AI taslağı tek başına yayınlamak; yanlış bilgi, abartılı iddia, telif ve “AI kokusu” riskini artırır. En güvenli model: AI taslak üretir, insan editör doğrular ve markaya uyarlar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“AI taslak” → “insan final” dönüşüm kuralları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook kısalır, netleşir",
+              "Jargon temizlenir",
+              "CTA tek aksiyona indirilir",
+              "Abartı iddialar yumuşatılır (“genelde”, “çoğu zaman”)",
+              "Marka kelime listesi uygulanır"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Hibrit Üretim Rol & Kontrol Matrisi",
+            "headers": [
+              "Aşama",
+              "AI çıktısı",
+              "İnsan kreatif görevi",
+              "Risk",
+              "Kontrol adımı",
+              "Hedef KPI"
+            ],
+            "rows": [
+              [
+                "Fikir",
+                "konu havuzu / açı önerileri",
+                "seçim + önceliklendirme",
+                "yüzeysel fikir",
+                "persona + KPI uyumu",
+                "üretim hızı"
+              ],
+              [
+                "Caption",
+                "hook + metin taslağı + CTA",
+                "ton edit + marka dili",
+                "AI kokusu / abartı",
+                "brand voice checklist",
+                "revizyon sayısı"
+              ],
+              [
+                "Script",
+                "storyboard / sahne akışı",
+                "shot list + gerçek sahne seçimi",
+                "hayali sahne",
+                "saha doğrulama",
+                "çekilebilirlik"
+              ],
+              [
+                "Doğrulama",
+                "kontrol listesi önerisi",
+                "tarih/fiyat/özellik/iddia kontrolü",
+                "yanlış bilgi",
+                "kaynak ve gerçeklik kontrolü",
+                "hata oranı"
+              ],
+              [
+                "Yayın",
+                "varyasyon ve etiket önerisi",
+                "final onay + CTA kararı",
+                "telif/izin",
+                "izin ve telif kontrolü",
+                "etkileşim / DM"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Caption’da tek mesaj var mı?",
+              "CTA tek aksiyon mu?",
+              "“AI kokusu” yapan kalıp cümleler temizlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI’dan 5 hook + 5 CTA üret; insan 1’ini seçsin.",
+              "Marka kelime listesiyle hızlı edit yap.",
+              "Yayın öncesi “3 kontrol”: doğruluk, ton, özgünlük."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "AI Destekli SMM İçerik Üretim Akışı & Kontrol Listesini İndir — SMM / AI Workflow (v1.0)",
+            "purpose": "Bu asset; AI ile içerik üretimini “fikirden yayına” kadar adımlara böler ve her adımda risk kontrolü ekler. Amaç, üretim hızını korurken marka tonu, doğruluk, telif/izin ve “AI kokusu” risklerini insan editör kontrolüyle minimize etmektir.",
+            "whoFor": "İçerik hacmi yüksek ajanslar ve markaların sosyal medya, içerik ve creative ekipleri.",
+            "steps": [
+              "İçeriği aşamalara böl: fikir → taslak → edit → doğrulama → yayın.",
+              "Checklist ile her içerikte risk kontrolünü tamamla.",
+              "14 günlük sprint planıyla workflow’u ekip rutinine oturt."
+            ],
+            "checklist": [
+              "İçeriğin hedefi net mi? (KPI: ___)",
+              "Hedef persona ve kanal yazıldı mı?",
+              "AI’dan en az 10 varyasyon alındı mı?",
+              "İnsan editör “seçim” yaptı mı?",
+              "Doğruluk kontrolü yapıldı mı (tarih, fiyat, özellik, iddia)?",
+              "Telif/izin kontrolü yapıldı mı (görsel/video/alıntı)?",
+              "Marka tonu kontrolü yapıldı mı (kelime listesi, üslup)?",
+              "“AI kokusu” taraması yapıldı mı (genel kalıp cümleler temizlendi mi)?",
+              "Tek mesaj + tek CTA kuralı sağlandı mı?",
+              "Yayın sonrası ölçüm etiketi eklendi mi? (Varsayım)",
+              "AI brief şablonu",
+              "Brand voice sözlüğü",
+              "Hook + CTA kalıp bankası",
+              "Reels & carousel storyboard şablonları",
+              "Yayın öncesi risk kontrol checklist’i",
+              "Sprint retrospektif şablonu"
+            ],
+            "href": "/downloads/ai-destekli-smm-icerik-uretim-akisi-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "Kontrol Listesini İndir"
+          }
+        ]
+      },
+      {
+        "id": "gorsel-video-fikirleri-ve-script-onerileri",
+        "title": "Görsel/Video Fikirleri ve Script Önerileri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI, storyboard ve script taslağı çıkarma konusunda çok hızlıdır: 6–8 sahneli reels iskeleti, carousel slayt akışı, story senaryosu gibi yapıları saniyeler içinde üretir. Ancak görsel/video tarafında “gerçeklik” ve “saha bilgisi” şarttır. Otelde gerçek oda/deneyim, B2B’de gerçek süreç/ekran doğruluğu gerekir; AI bunları uydurabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden AI burada “iskelet” üretir; insan kreatif “sahne seçimi” yapar: hangi açı, hangi gerçek örnek, hangi çekim."
+          },
+          {
+            "type": "h3",
+            "text": "AI’dan alınacak en iyi çıktılar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reels storyboard (sahne 1–8)",
+              "Carousel slayt başlıkları",
+              "Story akış metinleri",
+              "Hook varyasyonları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Script “çekilebilir” mi, yoksa hayali mi?",
+              "Sahne listesi gerçek varlıklara dayanıyor mu?",
+              "B2B’de gizlilik (ekran, müşteri adı) kontrol edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI’dan storyboard al, sahayı bilen kişi “shot list”e çevirsin.",
+              "Otelde gerçek foto/video bankasıyla eşleştir.",
+              "B2B’de anonimleştirme kuralı koy (Varsayım)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "insan-kreatifin-rolu",
+        "title": "İnsan Kreatifin Rolü (Ton, Özgünlük, Marka Uyumu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İnsan kreatif burada “yazı düzeltici” değil; yaratıcı editördür. En kritik görevleri:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tonu korumak (brand voice)",
+              "Özgünlük katmak (gerçek deneyim, gerçek foto/video)",
+              "Bağlamı doğrulamak (yanlış bilgi riskini azaltmak)",
+              "Riskleri yönetmek (telif/izin)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "AI aynı görünme problemi genelde insan editör yokluğundan çıkar: herkes aynı prompt’la aynı dilde yazınca, tüm içerikler “benzer” olur. İnsan kreatif farklılaştırmayı sağlar: marka hikâyesi, gerçek vaka, saha detayı ve özgün görsel."
+          },
+          {
+            "type": "h3",
+            "text": "İnsan kreatif neden hâlâ gerekli?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Çünkü marka tonu, bağlam, özgünlük ve doğruluk “son karar” ister. AI hızlıdır ama “gerçekliği” ve marka hassasiyetlerini her zaman bilemez; insan kreatif ise kullanıcıyı ve sahayı bilir, riskleri görür ve markayı tutarlı kılar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerikte gerçek foto/video veya gerçek vaka detayı var mı?",
+              "Marka tonu 3 kelimeyle korunuyor mu?",
+              "Aynı cümle kalıpları sürekli tekrar ediyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“İnsan dokunuşu” kuralı koy: her içerikte 1 gerçek detay.",
+              "Brand voice sözlüğü oluştur (10 tercih, 10 yasak).",
+              "Haftada 1 “editör review” toplantısı yap (15 dk)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "riskler-tekduzelik-yanlis-bilgi-ai-kokusu",
+        "title": "Riskler: Tekdüzelik, Yanlış Bilgi, “AI Kokusu”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI kullanımı üç ana risk üretir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tekdüzelik: her içerik aynı ritimde, aynı kelimelerle",
+              "Yanlış bilgi: uydurma detay, yanlış gün/saat/fiyat vb.",
+              "Telif/izin: görsel/metin kaynak belirsizliği",
+              "AI kokusu: aşırı düzgün, genel, insan gibi görünmeyen dil"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sheet teknik notu net: AI ile üretilen metinlerin hatalı bilgi ve telif riskleri açısından her zaman insan tarafından kontrol edilmesi gerekir. Özellikle otel/turizmde “yanlış bilgi” doğrudan güven kaybıdır; B2B’de ise “abartı iddia” itibar riskidir."
+          },
+          {
+            "type": "h3",
+            "text": "AI ile üretilen içeriklerin aynı görünmesini nasıl engellerim?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "AEO – net cevap",
+            "items": [
+              "Üç şey yapın: (1) her içerikte gerçek saha detayı ekleyin, (2) marka kelime listesi ve ton rehberini uygulayın, (3) AI’dan tek taslak değil çok varyasyon üretip insanın seçmesini sağlayın. Ayrıca görsel tarafta özgün foto/video kullanmak tekdüzeliği hızla kırar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "İçerikte doğruluk kontrolü yapıldı mı?",
+              "Telif/izin riski olan görsel var mı?",
+              "“Genel, herkesin yazdığı” cümleler temizlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yayın öncesi 5 maddelik “risk kontrolü” uygula (aşağıda).",
+              "AI çıktısını “taslak” etiketiyle sakla; finali ayrı kaydet.",
+              "Her ay 1 kez “AI içerik audit” yap (tekdüzelik taraması)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "hibrit-uretim-operasyonu",
+        "title": "Fark Yaratan Mini Bölüm: Hibrit Üretim Operasyonu (AI = Asistan, İnsan = Editör)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI’yı “tek başına içerik üreticisi” değil, yaratıcı ekibe hız kazandıran bir asistan olarak konumlandıran markalar hız–kalite dengesini daha iyi kurabiliyor (sheet). Bu nedenle hibrit modelin net rol dağılımı olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI: fikir havuzu, taslak caption, storyboard, başlık varyasyonları",
+              "İnsan kreatif: seçim, edit, ton, doğruluk, özgün görsel/örnek, final CTA",
+              "Onay: risk kontrolü + marka onayı"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
+            "text": "Hibrit üretim modelini ekibinize uygun iş akışına çevirmek isteyenler için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: AI hız kazandırır, insan kreatif güven ve özgünlük kazandırır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI destekli sosyal medya içerik üretimi, doğru kullanıldığında ekiplerin fikir, taslak ve script üretimini hızlandırır. Ancak marka tonu, bağlam, doğruluk, telif/izin ve özgünlük kararları insan kreatif kontrolü olmadan güvenli şekilde yönetilemez."
+          },
+          {
+            "type": "p",
+            "text": "En sağlıklı model; AI’ı asistan, insan kreatifi editör ve son karar verici olarak konumlandıran hibrit workflow’dur. Bu yapı, üretim hızını artırırken “AI kokusu”, yanlış bilgi, tekdüzelik ve marka uyumsuzluğu risklerini kontrol altında tutar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
+            "text": "AI ile hızlanırken marka tonu, doğruluk ve özgünlüğü korumak isteyen ekipler için.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI Destekli SMM İçerik Üretim Akışı & Kontrol Listesini İndir",
+            "text": "Üretimi adımlara böler; her içerikte doğruluk–telif–AI kokusu riskini yayın öncesi yakalarsınız.",
+            "href": "/raporlama/kvkk-veri-guvenligi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AI ile sosyal medya içeriği üretmek güvenli mi?",
+        "a": "İnsan kontrolü ve doğruluk/telif kontrolüyle güvenli hale getirilebilir. AI taslağını doğrudan yayınlamak yerine editör onayıyla ilerlemek en sağlıklısıdır."
+      },
+      {
+        "q": "Hangi aşamalarda yapay zekâ kullanabilirim?",
+        "a": "Fikir havuzu, caption taslakları, storyboard/script iskeletleri ve varyasyon üretiminde kullanabilirsiniz. Final metin, iddia/doğruluk ve marka tonu kararı insanda kalmalıdır."
+      },
+      {
+        "q": "İnsan kreatif neden hâlâ gerekli?",
+        "a": "Marka tonu, bağlam ve özgünlük için “son karar” gerekir. İnsan kreatif, sahayı ve kullanıcıyı bildiği için AI’ın kaçırdığı riskleri görür ve içerikleri marka gibi konuşturur."
+      },
+      {
+        "q": "AI ile üretilen içeriklerin aynı görünmesini nasıl engellerim?",
+        "a": "Çok varyasyon üretip insanın seçmesini sağlayın, her içerikte gerçek saha detayı ekleyin ve brand voice sözlüğünü uygulayın. Özgün foto/video kullanımı da tekdüzeliği hızlı kırar."
+      },
+      {
+        "q": "ChatGPT ile post yazsam olur mu?",
+        "a": "Olur; ancak final metin ve CTA mutlaka insan editör tarafından marka tonuna göre düzenlenmeli ve doğruluk kontrolü yapılmalıdır."
+      },
+      {
+        "q": "AI kullanırken en büyük riskler neler?",
+        "a": "Yanlış bilgi, telif/izin riski, tekdüzelik ve “AI kokusu” en yaygın risklerdir. Yayın öncesi checklist ve onay akışı bu riskleri azaltır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-hero-01.webp — “AI destekli sosyal medya üretimi hero görseli, insan kreatif dengesi”",
+          "H1 Context — 1920×1080 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-h1-context-02.webp — “AI taslak → insan final bağlam görseli, hibrit workflow”",
+          "Section Divider 01 — 1600×1200 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-divider-03.webp — “AI ile fikir üretimi bölüm ayırıcı görseli”",
+          "Section Divider 02 — 1600×1200 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-divider-04.webp — “Riskler ve kontrol bölüm ayırıcı görseli, güvenli kullanım”",
+          "Diagram / Flow — 1920×1080 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-diagram-05.webp — “AI + insan içerik üretim akışı diyagramı”",
+          "Checklist / Framework Card — 1200×1200 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-checklist-06.webp — “AI + insan içerik checklist kartı, yayın kontrolü”",
+          "KPI / Score Card — 1200×1200 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-kpi-07.webp — “Hibrit üretim KPI kartı: hız, revizyon, hata oranı”",
+          "Deliverables / Proof Card — 1200×1200 — ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi-proof-08.webp — “AI brief + editör kontrol listesi deliverables görseli”",
+          "Tablo (1 adet): Hibrit Üretim Rol & Kontrol Matrisi — Aşama | AI çıktısı | İnsan kreatif görevi | Risk | Kontrol adımı | Hedef KPI",
+          "Workflow diyagramı + “AI taslak vs insan final” karşılaştırma görseli"
+        ],
+        "technicalChecklist": [
+          "Primary CTA hedefi: https://dgtlface.com/tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi önerisi: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+          "Destek link: https://dgtlface.com/tr/seo/icerik-seo",
+          "İçeriğin hedefi net mi?",
+          "Hedef persona ve kanal yazıldı mı?",
+          "AI’dan en az 10 varyasyon alındı mı?",
+          "İnsan editör seçim yaptı mı?",
+          "Doğruluk kontrolü yapıldı mı (tarih, fiyat, özellik, iddia)?",
+          "Telif/izin kontrolü yapıldı mı (görsel/video/alıntı)?",
+          "Marka tonu kontrolü yapıldı mı (kelime listesi, üslup)?",
+          "“AI kokusu” taraması yapıldı mı?",
+          "Tek mesaj + tek CTA kuralı sağlandı mı?",
+          "Yayın sonrası ölçüm etiketi eklendi mi?",
+          "AI brief şablonu",
+          "Brand voice sözlüğü",
+          "Hook + CTA kalıp bankası",
+          "Reels & carousel storyboard şablonları",
+          "Yayın öncesi risk kontrol checklist’i",
+          "Sprint retrospektif şablonu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü yapıldı",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+  "BlogFunnelBazliIcerikUretimiFarkliAsamalarIcinSosyalMedya": {
+    "title": "Sosyal Medyada Funnel Kurgusu: 4 Aşama İçerik Planı",
+    "slug": "funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Awareness–consideration–conversion–loyalty için içerik tipleri ve CTA’ları planlayın. Otel/B2B örnekleri, takvim şablonu, UTM+GA4 event etiketleriyle ölçülebilir funnel kurun.",
+    "seo": {
+      "metaTitle": "Sosyal Medyada Funnel Kurgusu: 4 Aşama İçerik Planı | DGTLFACE",
+      "metaDescription": "Awareness–consideration–conversion–loyalty için içerik tipleri ve CTA’ları planlayın. Otel/B2B örnekleri, takvim şablonu, UTM+GA4 event etiketleriyle ölçülebilir funnel kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya",
+        "Blog No: #16",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
+      ],
+      "strategySummary": "Evet, V2.3 kilitli üretim standartlarını koruyarak devam ediyoruz: bu blog SMM içerik üretimini “rastgele paylaşım”dan çıkarıp funnel (Awareness–Consideration–Conversion–Loyalty) mantığıyla planlanabilir bir omurgaya bağlayan core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; otel ve B2B markalarda satış–pazarlama/ajans yöneticileridir; her içeriğin hangi aşamaya hizmet ettiğini görmek ister. Funnel’da rolü hem planlama hem ölçüm tarafında kritiktir: özellikle orta/alt aşamada doğru içerik ve CTA ile lead/rezervasyon oranları artabilir (sheet veri noktası). Ana iş sorusu: “Hangi aşamada hangi içerik tipi/format/CTA kullanılmalı ve bunu takvime + ölçüme nasıl işlerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Funnel bazlı içerik üretimi, her gönderinin rastgele değil; farkındalık (awareness), değerlendirme (consideration), satın alma (conversion) ve sadakat (loyalty) aşamalarından hangisine hizmet ettiğini bilerek üretilmesidir. Otel ve B2B markalar için her aşamaya özel içerik tipi, format ve CTA kurgulamak etkileşimi artırırken lead/rezervasyon kararını da hızlandırabilir. En iyi pratik: takvimde her içeriği bir aşamaya etiketlemek ve UTM + GA4 event ile ölçmektir.",
+      "sgeSummary": "Sosyal medya funnel’ı 4 aşama: awareness, consideration, conversion, loyalty. Her aşama için içerik tipi + format + CTA seç; takvimde etiketle, UTM ve GA4 event’lerle ölç.",
+      "voiceAnswer": "Sosyal medya satış hunisi; her içeriği farkındalık–değerlendirme–karar–sadakat aşamasına göre planlayıp ölçmektir.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel ve B2B sosyal medya ekipleri; ajanslar.",
+        "KPI: awareness (reach/video view), consideration (kaydetme, site tıklama), conversion (DM/lead/rezervasyon tıklaması), loyalty (UGC, tekrar etkileşim).",
+        "Entity: marketing funnel, A/C/Cv/Loyalty, content formats, CTA mapping, UTM, GA4 events.",
+        "GEO: (Varsayım) Otel örneklerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlar awareness/rota içeriklerinde doğal kullanılabilir.",
+        "Funnel: 4 aşamalı staged messaging + journey-aware content.",
+        "Veri noktası: Funnel mantığına göre üretilen/ölçülen içerikler özellikle orta/alt aşamada lead ve rezervasyon oranlarını artırabiliyor (sheet).",
+        "Risk: UTM ve GA4 event etiketleri doğru ayrılmazsa “hangi içerik hangi aşamaya hizmet etti” karışır (sheet teknik not)."
+      ]
+    },
+    "h1": {
+      "title": "Funnel Bazlı İçerik Üretimi: Farklı Aşamalar İçin Sosyal Medya Kurgusu",
+      "intro": "Sosyal medya içerik üretiminde en sık hata şudur: her post “aynı hedefe” koşar. Bir gün eğitici carousel, ertesi gün kampanya, sonra UGC… Hepsi ayrı ayrı iyi olabilir; ama eğer hangi içeriğin hangi aşamaya hizmet ettiği net değilse, sonuç “düzensiz etkileşim” ve “ölçülemeyen katkı” olur. Funnel bazlı yaklaşım bu karmaşayı çözer: her içeriğe bir rol verirsiniz ve rolüne uygun format/CTA seçersiniz. Bu rehberde 4 aşamalı modelle (awareness–consideration–conversion–loyalty) sosyal medya kurgusunu kuracağız. Otel ve B2B için örnek funnel yapıları, takvimde etiketleme, CTA seçimi ve GA4/UTM ölçüm notlarıyla “planlanabilir ve raporlanabilir” bir içerik sistemi oluşturacağız.",
+      "quickSummary": [
+        "1) Funnel aşamalarını awareness–consideration–conversion–loyalty olarak ayır",
+        "2) Her içerik için tek aşama seç ve takvimde etiketle",
+        "3) Aşamaya göre içerik tipi, format ve CTA belirle",
+        "4) Otel ve B2B için farklı kanıt/CTA dilini uygula",
+        "5) UTM + GA4 event ile aşama bazlı ölçüm yap"
+      ],
+      "ctaPrimary": {
+        "label": "Funnel Bazlı İçerik Planlama Analizi Talep Et",
+        "text": "İçeriklerinizi aşamalara göre hizalayıp performansı ölçmek isteyen otel/B2B ekipleri için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Funnel Bazlı İçerik Planlama Analizi Talep Et",
+        "text": "İçeriklerinizi 4 aşamaya ayırıp ölçülebilir bir sosyal medya hunisi kurmak isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Funnel Aşaması → İçerik Türü & CTA Eşleştirme Şablonunu İndir",
+        "text": "Takviminize aşama etiketi ekler; her içerikte doğru CTA’yı seçip raporlamada karışıklığı azaltırsınız.",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM içerik üretimi hizmet sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM planlama ve strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "Satış ve dönüşüm raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya İçerik Üretimi Nedir?",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "SMM Planlama ve Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    ],
+    "sections": [
+      {
+        "id": "funnel-asamalari-awareness-consideration-conversion-loyalty",
+        "title": "Funnel Aşamaları (Awareness–Consideration–Conversion–Loyalty)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Funnel’ı “reklam teorisi” olarak değil, kullanıcının karar yolculuğu olarak düşünün. Sosyal medya bu yolculuğun farklı noktalarında çalışır: bazen keşif yaratır (awareness), bazen itirazı kırar (consideration), bazen aksiyona iter (conversion), bazen de ilişkiyi sürdürür (loyalty)."
+          },
+          {
+            "type": "p",
+            "text": "Bu modelde kritik olan şu: her aşamanın KPI’sı farklıdır. Awareness’te DM beklemek anlamsızdır; conversion’da sadece “beğeni” hedeflemek zayıftır. Bu yüzden her aşamaya farklı içerik ve CTA gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Funnel bazlı içerik üretimi nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Funnel bazlı içerik üretimi; her içeriği awareness, consideration, conversion veya loyalty aşamasına etiketleyip o aşamaya uygun mesaj, format ve CTA ile planlamaktır. Böylece içerikler hem daha tutarlı görünür hem de ölçüm/raporlama netleşir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Son 20 içeriğin kaçını bir aşamaya net bağlayabiliyorsunuz?",
+              "Awareness içeriklerinde “hemen satın al” CTA’sı var mı?",
+              "Conversion içeriklerinde net CTA ve teklif var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Takvime “Funnel Aşaması” sütunu ekle.",
+              "Her içerik için 1 aşama seç (ikili rol verme).",
+              "KPI’yı aşamaya göre kilitle: reach vs DM vs UGC."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "her-asama-icin-icerik-turleri",
+        "title": "Her Aşama İçin İçerik Türleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her aşama için içerik türünü ve formatı netleştirmek, üretimi hızlandırır. Aşağıda her aşamaya uygun içerik tiplerini ve “neden çalıştığını” veriyorum."
+          },
+          {
+            "type": "h3",
+            "text": "Awareness içerikleri (ilham/keşif)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reels: deneyim, destinasyon, hızlı ilham",
+              "Story: backstage, anlık atmosfer",
+              "Carousel: “rota/5 öneri” (kaydetme için)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Amaç: keşif ve dikkat. CTA: düşük bariyer (kaydet, takip et, story’de oy ver)."
+          },
+          {
+            "type": "h3",
+            "text": "Consideration içerikleri (karşılaştırma/SSS/case)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Carousel: SSS, karşılaştırma, “hata–çözüm”",
+              "Social proof: review/testimonial",
+              "Q&A story: soru kutusu ile itiraz toplama"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Amaç: güven ve itiraz azaltma. CTA: DM’ye köprü (DM ‘TARİH’, DM ‘TEKLİF’, linke git)."
+          },
+          {
+            "type": "h3",
+            "text": "Conversion içerikleri (teklif/kampanya/FOMO)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Offer post: kampanya, paket, net teklif",
+              "Reels: “son 48 saat” gibi hızlandırıcı (Varsayım: markaya göre)",
+              "Story: link sticker + DM CTA"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Amaç: aksiyon. CTA: tek aksiyon (rezervasyon linki / form / WhatsApp)."
+          },
+          {
+            "type": "h3",
+            "text": "Loyalty içerikleri (misafir hikâyeleri/UGC/üyelik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UGC story/derleme",
+              "“misafir hikâyesi” mini case",
+              "topluluk içerikleri: kulüp/üyelik (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Amaç: tekrar ve ilişki. CTA: düşük bariyer (etiketle, paylaş, yorumla, tekrar gel)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Awareness’te “kaydetme” odaklı içerik var mı?",
+              "Consideration’da sosyal kanıt düzenli mi?",
+              "Conversion’da tek net CTA var mı?",
+              "Loyalty’de UGC ve hikâye var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her aşama için 5 içerik fikri bankası çıkar.",
+              "Aylık planda her aşamaya “minimum kota” koy (aşağıda).",
+              "CTA’ları aşamaya göre standardize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-funnel-yapilari",
+        "title": "Otel ve B2B İçin Örnek Funnel Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı funnel modeli iki sektörde farklı “kanıt” diliyle çalışır. Otelde deneyim ve güven (SSS) çok kritik; B2B’de kanıt ve süreç şeffaflığı."
+          },
+          {
+            "type": "h3",
+            "text": "Otel funnel örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Awareness: destinasyon/deneyim reels (Antalya/Belek/Side/Kemer/Bodrum örnekleri doğal)",
+              "Consideration: SSS carousel + review post",
+              "Conversion: kampanya + rezervasyon linki/WhatsApp",
+              "Loyalty: misafir hikâyesi + UGC + “etiketle” çağrısı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B funnel örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Awareness: problem farkındalığı reels + mini eğitim carousel",
+              "Consideration: case + testimonial + süreç anlatımı",
+              "Conversion: demo/analiz talebi + net teklif CTA",
+              "Loyalty: müşteri başarı hikâyesi + eğitim serileri + topluluk"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde SSS, funnel’ın ortasında güçlü mü?",
+              "B2B’de kanıt (case/testimonial) düzenli mi?",
+              "Loyalty içerikleri sadece “teşekkür” mü, yoksa ilişki kuruyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde “SSS + review” ikilisini haftalık sabitle.",
+              "B2B’de “mini case” serisini haftalık sabitle.",
+              "Loyalty için ayda 2 UGC/başarı hikâyesi planla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "icerik-takvimine-funnel-perspektifini-eklemek",
+        "title": "İçerik Takvimine Funnel Perspektifini Eklemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Funnel yaklaşımı, takvime “tek bir sütun” ekleyerek bile ciddi fark yaratır: her içeriği aşamaya etiketlersiniz ve ay sonunda hangi aşamada eksik kaldığınızı görürsünüz. Bu yaklaşım, “rastgele içerik” yerine dengeli bir yayın karması sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Funnel’i içerik takvimine nasıl işlerim?"
+          },
+          {
+            "type": "p",
+            "text": "Takvime “Funnel Aşaması” sütunu ekleyin ve her içerik satırına A/C/Cv/L etiketi verin. Her aşama için format ve CTA’yı önceden standartlaştırın. Ay sonunda KPI raporunu aşama bazında okuyun ve dengesizliği düzeltin."
+          },
+          {
+            "type": "h3",
+            "text": "Aylık minimum kota (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Awareness: 8 içerik",
+              "Consideration: 8 içerik",
+              "Conversion: 4 içerik",
+              "Loyalty: 4 içerik",
+              "Toplam: 24 içerik (aylık hacme göre ölçeklenir)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aylık planınızda her aşama var mı?",
+              "Conversion içerikleri “az ama net” mi?",
+              "Loyalty içerikleri “gerçek hikâye” mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Aylık içerikleri A/C/Cv/L diye renklendir.",
+              "Eksik aşamayı bir sonraki ay yükselt.",
+              "Her aşama için “default CTA” belirle."
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Funnel Aşaması → İçerik Türü & CTA Eşleştirme Şablonunu İndir — SMM / Funnel (v1.0)",
+            "purpose": "Bu şablon; awareness–consideration–conversion–loyalty aşamalarını sosyal medya içerik tipleri, formatlar ve CTA’larla birebir eşleştirmenizi sağlar. Amaç, içerik planını dengeli kurmak ve UTM/GA4 event etiketleriyle “hangi içerik hangi aşamaya hizmet etti” karmaşasını azaltmaktır.",
+            "whoFor": "Otel ve B2B sosyal medya ekipleri, ajans planlama ekipleri, performans/raporlama sorumluları.",
+            "steps": [
+              "Aşamaları ve hedef KPI’yı tanımla (A/C/Cv/L).",
+              "Her aşama için içerik tipi + format + CTA’yı seçip tabloya işle.",
+              "UTM ve GA4 event etiketi ekle; ay sonunda aşama bazlı raporla revize et."
+            ],
+            "template": {
+              "setup": [
+                "Marka tipi: (Otel / B2B) ___",
+                "Ana hedef: (Rezervasyon / Lead / Bilinirlik) ___",
+                "Dönem: (Ay/Yıl) ___",
+                "Aylık içerik hacmi: ___",
+                "Ölçüm aracı: (GA4/Ads/CRM) ___ (Varsayım)"
+              ],
+              "mappingTable": [
+                "Awareness: İçerik tipleri ___ | Format ___ | CTA ___ | KPI ___ | UTM/Event ___",
+                "Consideration: İçerik tipleri ___ | Format ___ | CTA ___ | KPI ___ | UTM/Event ___",
+                "Conversion: İçerik tipleri ___ | Format ___ | CTA ___ | KPI ___ | UTM/Event ___",
+                "Loyalty: İçerik tipleri ___ | Format ___ | CTA ___ | KPI ___ | UTM/Event ___"
+              ],
+              "monthlyMinimumQuota": [
+                "Awareness: ___",
+                "Consideration: ___",
+                "Conversion: ___",
+                "Loyalty: ___"
+              ],
+              "utmTemplate": [
+                "utm_source: ___",
+                "utm_medium: ___",
+                "utm_campaign: ___",
+                "utm_content (funnel etiketi): ___ (A_/C_/CV_/L_) (Varsayım)"
+              ],
+              "ga4EventLabels": [
+                "Awareness: view_content / video_start",
+                "Consideration: click_link / engage / save (platforma göre Varsayım)",
+                "Conversion: generate_lead / purchase_click / whatsapp_click",
+                "Loyalty: share / follow / ugc_submit (Varsayım)"
+              ],
+              "howToFill": [
+                "Her içerik satırına tek aşama yaz; çift rol verme.",
+                "Aşamaya göre CTA’yı değiştir: awareness’te düşük bariyer, conversion’da net aksiyon.",
+                "UTM’de funnel etiketini zorunlu yap (utm_content).",
+                "GA4 event isimlerini standartlaştır; yoksa rapor karışır.",
+                "Ay sonunda aşama bazlı raporla: eksik aşamayı artır."
+              ],
+              "filledExample": [
+                "Otel | Conversion: “Kampanya + WhatsApp” | UTM: utm_content=CV_offer_story_01 (Varsayım)",
+                "B2B | Consideration: “Case carousel + DM ‘CASE’” (Varsayım)"
+              ],
+              "checklist": [
+                "4 aşama da planda var mı?",
+                "Her aşamada tek KPI seti var mı?",
+                "CTA’lar aşamaya uygun mu?",
+                "UTM ve event standardı yazıldı mı?",
+                "Aylık kota belirlendi mi?",
+                "Ay sonu revizyon planı var mı?"
+              ],
+              "deliverables": [
+                "Funnel içerik haritası (A/C/Cv/L)",
+                "Aylık kota planı",
+                "UTM şablonu + event naming standardı",
+                "Örnek takvim kesiti",
+                "Buraya: Funnel diyagramı + eşleştirme tablosu görseli"
+              ]
+            },
+            "href": "/downloads/funnel-asamasi-icerik-turu-cta-eslestirme-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "utm-ga4-event-etiketleme",
+        "title": "Teknik Not: UTM + GA4 Event Etiketleme (Karışıklığı Önleme)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet teknik notu kritik: funnel aşamalarına göre UTM ve event etiketleri GA4’te doğru ayrılmazsa, hangi içeriğin hangi aşamaya hizmet ettiği karışır. Sosyal medyada özellikle conversion içeriklerinde link/DM trafiği ölçümü çok kolay kayar."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım (pratik standart): UTM’de utm_content içine funnel etiketi koy: A_, C_, CV_, L_. Örn: utm_content=CV_offer_story_01"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de form submit, otelde rezervasyon tıklaması gibi event’leri funnel etiketiyle bağlamak raporlamayı netleştirir. (Buraya: /tr/raporlama/satis-donusum)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "UTM’de funnel etiketi var mı?",
+              "GA4’te event isimleri standart mı?",
+              "Raporlarda aşama bazlı okuma yapabiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "UTM şablonunu ekip standardı yap.",
+              "GA4 event naming konvansiyonu belirle (Varsayım).",
+              "Ay sonu raporunda “aşama bazlı” tablo çıkar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funnel-cta-haritasi",
+        "title": "Fark Yaratan Mini Bölüm: Funnel’i Teoriden Çıkaran “CTA Haritası”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Birçok rehber funnel’i teorik anlatıyor; sosyal medya içerik tiplerini aşamalarla birebir eşleyen Türkçe kaynak az (sheet). Buradaki fark: her aşama için format + CTA haritası çıkarmak. Çünkü sosyal medya “funnel”ı, pratikte CTA ile görünür olur."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Aşama → İçerik Türü & CTA Eşleştirme Tablosu",
+            "headers": [
+              "Funnel aşaması",
+              "İçerik tipi",
+              "Format",
+              "CTA tipi",
+              "Örnek (otel)",
+              "Örnek (B2B)",
+              "Ölçüm (UTM/GA4 event)"
+            ],
+            "rows": [
+              [
+                "Awareness",
+                "İlham, keşif, problem farkındalığı",
+                "Reels, kısa video, carousel, story",
+                "Kaydet, takip et, story’de oy ver",
+                "Antalya/Belek/Side/Kemer/Bodrum destinasyon/deneyim reels",
+                "Problem farkındalığı reels + mini eğitim carousel",
+                "Reach, video view, view_content, video_start"
+              ],
+              [
+                "Consideration",
+                "SSS, karşılaştırma, sosyal kanıt, case",
+                "Carousel, review/testimonial, Q&A story",
+                "DM’ye köprü, linke git, DM ‘TARİH’, DM ‘TEKLİF’",
+                "SSS carousel + review post",
+                "Case + testimonial + süreç anlatımı",
+                "Kaydetme, site tıklama, click_link, engage, save"
+              ],
+              [
+                "Conversion",
+                "Teklif, kampanya, FOMO, net aksiyon",
+                "Offer post, reels, story link sticker",
+                "Rezervasyon linki, form, WhatsApp",
+                "Kampanya + rezervasyon linki/WhatsApp",
+                "Demo/analiz talebi + net teklif CTA",
+                "DM, lead, rezervasyon tıklaması, generate_lead, purchase_click, whatsapp_click"
+              ],
+              [
+                "Loyalty",
+                "UGC, misafir/müşteri hikâyesi, topluluk",
+                "UGC story, derleme, mini case, eğitim serisi",
+                "Etiketle, paylaş, yorumla, tekrar gel",
+                "Misafir hikâyesi + UGC + “etiketle” çağrısı",
+                "Müşteri başarı hikâyesi + eğitim serileri + topluluk",
+                "UGC, tekrar etkileşim, share, follow, ugc_submit"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Funnel Bazlı İçerik Planlama Analizi Talep Et",
+            "text": "Aşama–format–CTA haritasını markanıza göre kurmak isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Funnel bazlı içerik üretimi sosyal medyayı ölçülebilir bir sisteme çevirir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Funnel bazlı içerik üretimi, sosyal medyayı yalnızca paylaşım takvimi olmaktan çıkarır; her içeriğe bir rol, her role uygun format ve her formata uygun CTA verir. Böylece awareness içerikleri keşif yaratır, consideration içerikleri güven kurar, conversion içerikleri aksiyonu hızlandırır, loyalty içerikleri ise ilişkiyi sürdürür."
+          },
+          {
+            "type": "p",
+            "text": "En kritik nokta, bu yapıyı takvim ve ölçüm sistemine aynı anda taşımaktır. Takvimde A/C/Cv/L etiketi, linklerde UTM standardı ve GA4 tarafında event naming net olduğunda “hangi içerik hangi aşamaya hizmet etti” sorusu çok daha okunabilir hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Funnel Bazlı İçerik Planlama Analizi Talep Et",
+            "text": "İçeriklerinizi 4 aşamaya ayırıp ölçülebilir bir sosyal medya hunisi kurmak isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Funnel Aşaması → İçerik Türü & CTA Eşleştirme Şablonunu İndir",
+            "text": "Takviminize aşama etiketi ekler; her içerikte doğru CTA’yı seçip raporlamada karışıklığı azaltırsınız.",
+            "href": "/tr/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Funnel bazlı içerik üretimi nedir?",
+        "a": "Her içeriği awareness–consideration–conversion–loyalty aşamalarından birine bağlayarak üretmektir. Böylece mesaj, format ve CTA aşamaya göre netleşir ve ölçüm kolaylaşır."
+      },
+      {
+        "q": "Awareness–consideration–conversion için hangi içerik tiplerini kullanmalıyım?",
+        "a": "Awareness’te ilham/keşif reels ve kısa videolar; consideration’da SSS, karşılaştırma ve sosyal kanıt; conversion’da kampanya/teklif ve net CTA’lı içerikler kullanılır. Loyalty’de UGC ve misafir/müşteri hikâyeleri öne çıkar."
+      },
+      {
+        "q": "Otel/B2B hesabında funnel’e göre içerik örnekleri neler?",
+        "a": "Otelde awareness destinasyon/deneyim, consideration SSS+review, conversion rezervasyon/WhatsApp, loyalty UGC şeklinde çalışır. B2B’de awareness problem farkındalığı, consideration case/testimonial, conversion demo/analiz, loyalty eğitim serileri şeklinde kurgulanır."
+      },
+      {
+        "q": "Funnel’i içerik takvimine nasıl işlerim?",
+        "a": "Takvime “funnel aşaması” sütunu ekleyip her içerik satırını A/C/Cv/L olarak etiketleyin. CTA ve formatları aşama bazında standartlaştırıp ay sonunda aşama bazlı raporlayın."
+      },
+      {
+        "q": "Funnel aşamalarında CTA nasıl değişmeli?",
+        "a": "Awareness’te düşük bariyerli CTA (kaydet/takip), consideration’da DM/SSS köprüsü, conversion’da tek net aksiyon (rezervasyon/form), loyalty’de topluluk CTA’sı (etiketle/paylaş) çalışır."
+      },
+      {
+        "q": "Funnel raporlaması neden karışır?",
+        "a": "UTM ve GA4 event etiketleri standart değilse içeriklerin hangi aşamaya hizmet ettiği görünmez. Funnel etiketiyle UTM içerik alanını ve event naming’i standardize etmek bu sorunu azaltır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-hero-01.webp — Sosyal medya funnel kurgusu hero görseli, 4 aşama içerik planı",
+          "h1-context — 1920×1080 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-h1-context-02.webp — Funnel bağlam görseli: awareness consideration conversion loyalty",
+          "divider-01 — 1600×1200 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-divider-03.webp — Funnel aşamaları bölüm ayırıcı görseli",
+          "divider-02 — 1600×1200 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-divider-04.webp — Otel ve B2B funnel örnekleri bölüm ayırıcı görseli",
+          "diagram-05 — 1920×1080 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-diagram-05.webp — Funnel diyagramı: awareness→consideration→conversion→loyalty",
+          "checklist-06 — 1200×1200 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-checklist-06.webp — Aylık funnel içerik checklist kartı, minimum kota",
+          "kpi-07 — 1200×1200 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-kpi-07.webp — Funnel KPI kartı: reach, kaydetme, DM, tıklama, UGC",
+          "proof-08 — 1200×1200 — funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya-proof-08.webp — Aşama–format–CTA haritası deliverables görseli",
+          "table-funnel-stage-content-cta — Aşama → İçerik Türü & CTA Eşleştirme Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema için 6 soru-cevap alanı hazırlanacak",
+          "İç link hedefleri kontrol edilecek: /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/raporlama/satis-donusum",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /tr/smm/planlama-strateji",
+          "UTM şablonunda funnel etiketi kullanılacak: A_, C_, CV_, L_",
+          "GA4 event naming standardı raporlama tarafında kontrol edilecek",
+          "Media pack dosya adları blog slug ile birebir uyumlu olacak",
+          "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
+        ]
+      }
+    }
   }
 
 }

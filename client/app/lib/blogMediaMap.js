@@ -39479,6 +39479,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Engagement raporu deliverables kartı, amaç güven ve çıktı, ajans bağlamı",
       caption: "Engagement raporu deliverables kartı, amaç güven ve çıktı, ajans bağlamı"
     }
+  },
+
+  "search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir":{
+     banner: {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-1.webp",
+      alt: "Search Generative Experience / AI Overview Metriklerini SEO Raporuna Nasıl Eklersiniz?",
+      caption: "Search Generative Experience / AI Overview Metriklerini SEO Raporuna Nasıl Eklersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-2.webp",
+      alt: "AI SERP notları ve timeline, amaç değişimleri izlemek, ajans raporlama bağlamı",
+      caption: "AI SERP notları ve timeline, amaç değişimleri izlemek, ajans raporlama bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-3.webp",
+    alt: "AI SERP kavramları ayırıcı, amaç ortak dil oluşturmak, SEO ekip bağlamı",
+      caption: "AI SERP kavramları ayırıcı, amaç ortak dil oluşturmak, SEO ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-4.webp",
+      alt: "Proxy izleme ve not sistemi ayırıcı, amaç pratik raporlama, kurum bağlamı",
+      caption: "Proxy izleme ve not sistemi ayırıcı, amaç pratik raporlama, kurum bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-5.webp",
+      alt: "AI Overview SERP mockup ve not akışı, amaç rapor bağlamı, SEO raporlama bağlamı",
+      caption: "AI Overview SERP mockup ve not akışı, amaç rapor bağlamı, SEO raporlama bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-6.webp",
+      alt: "AI SERP notları checklist kartı, amaç standart takip, ajans bağlamı",
+      caption: "AI SERP notları checklist kartı, amaç standart takip, ajans bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-7.webp",
+      alt: "AI SERP proxy KPI kartı, amaç hızlı özet, kurum SEO bağlamı",
+      caption: "AI SERP proxy KPI kartı, amaç hızlı özet, kurum SEO bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-24/SEO5-24-8.webp",
+      alt: "AI SERP rapor deliverables kartı, amaç takip ve karar, kurumsal bağlamı",
+      caption: "AI SERP rapor deliverables kartı, amaç takip ve karar, kurumsal bağlamı"
+    }
+  },
+
+  "seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri":{
+     banner: {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-1.webp",
+      alt: "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri Nasıl Kurulur?",
+      caption: "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-2.webp",
+      alt: "Alarmdan aksiyona ops akışı, amaç hızlı triage, otel ve B2B bağlamı",
+      caption: "Alarmdan aksiyona ops akışı, amaç hızlı triage, otel ve B2B bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-3.webp",
+    alt: "Otomasyon ihtiyacı ayırıcı, amaç proaktif izleme, SEO ops bağlamı",
+      caption: "Otomasyon ihtiyacı ayırıcı, amaç proaktif izleme, SEO ops bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-4.webp",
+      alt: "Günlük haftalık rapor akışı ayırıcı, amaç ritim kurmak, ekip bağlamı",
+      caption: "Günlük haftalık rapor akışı ayırıcı, amaç ritim kurmak, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-5.webp",
+      alt: "Slack ve e-posta alert akış diyagramı, amaç operasyon kültürü, ajans bağlamı",
+      caption: "Slack ve e-posta alert akış diyagramı, amaç operasyon kültürü, ajans bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-6.webp",
+      alt: "Alarm tasarım checklist kartı, amaç alarm yorgunluğunu azaltmak, ekip bağlamı",
+      caption: "Alarm tasarım checklist kartı, amaç alarm yorgunluğunu azaltmak, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-7.webp",
+      alt: "SEO ops KPI skor kartı, amaç hızlı karar, kurumsal raporlama bağlamı",
+      caption: "SEO ops KPI skor kartı, amaç hızlı karar, kurumsal raporlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-25/SEO5-25-8.webp",
+      alt: "Alert sistemi çıktı kartı, amaç güven ve takip, ajans bağlamı",
+      caption: "Alert sistemi çıktı kartı, amaç güven ve takip, ajans bağlamı"
+    }
+  },
+
+  "serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama":{
+     banner: {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-1.webp",
+      alt: "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
+      caption: "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-2.webp",
+      alt: "Haftalık seri omurgası bağlam görseli, içerik disiplini",
+      caption: "Haftalık seri omurgası bağlam görseli, içerik disiplini" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-3.webp",
+    alt: "Neden seri mantığı bölüm ayırıcı görseli",
+      caption: "Neden seri mantığı bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-4.webp",
+      alt: "Otel ve B2B seri örnekleri bölüm ayırıcı görseli",
+      caption: "Otel ve B2B seri örnekleri bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-5.webp",
+      alt: "Haftalık seri takvimi ve esnek kampanya slotu diyagramı",
+      caption: "Haftalık seri takvimi ve esnek kampanya slotu diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-6.webp",
+      alt: "Seri başlatma checklist kartı, isim şablon KPI",
+      caption: "Seri başlatma checklist kartı, isim şablon KPI"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-7.webp",
+      alt: "Seri KPI kartı: kaydetme, düzenli izleyici, DM",
+      caption: "Seri KPI kartı: kaydetme, düzenli izleyici, DM"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-14/SMM1-14-8.webp",
+      alt: "Grid mockup ve seri kartları deliverables görseli",
+      caption: "Grid mockup ve seri kartları deliverables görseli"
+    }
+  },
+
+   "ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi":{
+     banner: {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-1.webp",
+      alt: "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
+      caption: "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-2.webp",
+      alt: "AI taslak → insan final bağlam görseli, hibrit workflow",
+      caption: "AI taslak → insan final bağlam görseli, hibrit workflow" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-3.webp",
+    alt: "AI ile fikir üretimi bölüm ayırıcı görseli",
+      caption: "AI ile fikir üretimi bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-4.webp",
+      alt: "Riskler ve kontrol bölüm ayırıcı görseli, güvenli kullanım",
+      caption: "Riskler ve kontrol bölüm ayırıcı görseli, güvenli kullanım"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-5.webp",
+      alt: "AI + insan içerik üretim akışı diyagramı",
+      caption: "AI + insan içerik üretim akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-6.webp",
+      alt: "AI + insan içerik checklist kartı, yayın kontrolü",
+      caption: "AI + insan içerik checklist kartı, yayın kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-7.webp",
+      alt: "Hibrit üretim KPI kartı: hız, revizyon, hata oranı",
+      caption: "Hibrit üretim KPI kartı: hız, revizyon, hata oranı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-15/SMM1-15-8.webp",
+      alt: "AI brief + editör kontrol listesi deliverables görseli",
+      caption: "AI brief + editör kontrol listesi deliverables görseli"
+    }
+  },
+
+   "funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya":{
+     banner: {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-1.webp",
+      alt: "Funnel Bazlı İçerik Üretimi: Farklı Aşamalar İçin Sosyal Medya Kurgusu",
+      caption: "Funnel Bazlı İçerik Üretimi: Farklı Aşamalar İçin Sosyal Medya Kurgusu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-2.webp",
+      alt: "Funnel bağlam görseli: awareness consideration conversion loyalty",
+      caption: "Funnel bağlam görseli: awareness consideration conversion loyalty" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-3.webp",
+    alt: "Funnel aşamaları bölüm ayırıcı görseli",
+      caption: "Funnel aşamaları bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-4.webp",
+      alt: "Otel ve B2B funnel örnekleri bölüm ayırıcı görseli",
+      caption: "Otel ve B2B funnel örnekleri bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-5.webp",
+      alt: "Funnel diyagramı: awareness→consideration→conversion→loyalty",
+      caption: "Funnel diyagramı: awareness→consideration→conversion→loyalty"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-6.webp",
+      alt: "Aylık funnel içerik checklist kartı, minimum kota",
+      caption: "Aylık funnel içerik checklist kartı, minimum kota"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-7.webp",
+      alt: "Funnel KPI kartı: reach, kaydetme, DM, tıklama, UGC",
+      caption: "Funnel KPI kartı: reach, kaydetme, DM, tıklama, UGC"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-16/SMM1-16-8.webp",
+      alt: "Aşama–format–CTA haritası deliverables görseli",
+      caption: "Aşama–format–CTA haritası deliverables görseli"
+    }
   }
 
 

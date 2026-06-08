@@ -79557,7 +79557,7 @@
           {
             "type": "callout",
             "variant": "answer",
-            "title": "Net cevap bloğu (AEO)",
+            "title": "Net cevap bloğu ",
             "items": [
               "Engaged session; kullanıcının sayfada anlamlı bir etkileşim yaşadığını işaret eden oturumları temsil eder. SEO raporunda önemlidir çünkü CTR’ın ötesine geçip “tık sonrası değer”i gösterir: kullanıcı içeriği tüketiyor mu, kritik adımlara ilerliyor mu, yoksa sadece tıklayıp çıkıyor mu?"
             ]
@@ -79620,7 +79620,7 @@
           {
             "type": "callout",
             "variant": "answer",
-            "title": "Net cevap bloğu (AEO)",
+            "title": "Net cevap bloğu ",
             "items": [
               "Scroll depth için önce “içerik tüketimi sayılacak eşik” belirleyin (ör. %50). Sonra kritik içerik bloklarına ulaşılıp ulaşılmadığını event’lerle ölçün (ör. “fiyat/oda detayı”, “form view”, “CTA click”). Yorumda hedef; tık alan ama aşağı inmeyen sayfaları tespit edip içerik yapısını ve UX’i iyileştirmektir."
             ]
@@ -79959,6 +79959,1320 @@
           "“Tık var ama okunma yok” sayfaları P1 iyileştirme listesine alındı",
           "Mobil/desktop kırılımları ayrı raporlandı",
           "İçerik kalite/UX öncelik listesi oluşturuldu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü yapıldı",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+   "BlogSearchGenerativeExperienceAiOverviewMetrikleriSeoRaporunaNasilEklenir": {
+    "title": "AI Overview/SGE Metriklerini SEO Raporuna Ekleme | DGTLFACE",
+    "slug": "search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI Overviews/SGE etkisini rapora kat: kritik sorgularda AI görünürlüğünü proxy+manuel izle, timeline notu tut. CTR düşüşlerini AI SERP bağlamında yorumla; aksiyon planı çıkar.",
+    "seo": {
+      "metaTitle": "AI Overview/SGE Metriklerini SEO Raporuna Ekleme | DGTLFACE",
+      "metaDescription": "AI Overviews/SGE etkisini rapora kat: kritik sorgularda AI görünürlüğünü proxy+manuel izle, timeline notu tut. CTR düşüşlerini AI SERP bağlamında yorumla; aksiyon planı çıkar."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 24 — https://dgtlface.com/tr/seo/blog/search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count Range = 3000–3500",
+        "Refresh Cycle: 180 gün (SGE/AI Overviews yayılımı, tasarım ve ölçüm yaklaşımları değiştikçe güncellenecek)",
+        "Canonical: /tr/seo/blog/search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir"
+      ],
+      "strategySummary": "Bu içerik, AI Overviews/SGE ile değişen SERP gerçekliğini SEO raporuna “panik” değil kontekst olarak ekleyen trend rehberidir. Hedef persona; rekabetli informatif sorgularda çalışan marka ve ajans ekipleridir: “CTR düştü, SEO mu kötüleşti yoksa SERP mi değişti?” sorusunu doğru yönetmek ister. Funnel MoFu’dadır; rapor, klasik organik KPI’ları korurken “AI SERP notları” ve proxy metriklerle karar kalitesini artırır. Ana iş sorusu: “AI answer alanları doğrudan ölçülemese bile, kritik sorgularda AI görünürlüğünü nasıl takip eder, timeline’a nasıl işler ve raporu buna göre nasıl yorumlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI Overviews (SGE/AI Overview) görünürlük ve tıklama davranışını değiştirebilir; bu yüzden SEO raporlarında AI alanını yok saymak gerçekçi değildir. Google, AI özelliklerinde görünen linklerin Search Console’daki “Web” performans verisine dahil olduğunu belirtir; ancak pratikte bu etkiyi ayrı bir “AI report” olarak segmentlemek sınırlıdır. Bu nedenle kritik sorgular için manuel SERP kontrolü, rank tracker/LOG proxy’leri ve timeline notlarıyla AI SERP bağlamını rapora eklemek gerekir.",
+      "sgeSummary": "AI Overviews, organik CTR davranışını değiştirebilir. Search Console bu trafiği genel “Web” performansına dahil eder; ayrı segment sınırlı olduğu için kritik sorgularda proxy + timeline notlarıyla AI SERP etkisini rapora ekle.",
+      "voiceAnswer": "AI Overview varken CTR düşüşünü yorumlamak için kritik sorguları manuel izle ve değişimleri timeline’a yaz.",
+      "aiFactSheet": [
+        "Hedef kitle: Rekabetli informatif sorgularda çalışan markalar, ajanslar, SEO raporlama liderleri",
+        "KPI odağı: GSC görünürlük (impr/click/CTR), landing dönüşüm sinyali, “AI SERP notları” (proxy)",
+        "Entity Theme: SGE; AI Overview; AI SERP Notes; CTR Impact",
+        "Semantic Theme: ai-era SERP reading; experimental metrics; visibility context",
+        "Funnel: SERP görünürlük → tıklama verimi → sayfa tüketimi/dönüşüm → aksiyon",
+        "Risk: AI SERP metrikleri standart değil; yardımcı sinyal olarak görülmeli (teknik not)",
+        "Çıktı: AI SERP izleme listesi + timeline + karar checklist’i + rapor şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Search Generative Experience / AI Overview Metriklerini SEO Raporuna Nasıl Eklersiniz?",
+      "intro": "AI Overviews (SGE/AI Overview) ile SERP, “10 mavi link” döneminden daha karmaşık bir yapıya evrildi: AI yanıt bloğu, snippet, PAA, harita ve klasik organik sonuçlar aynı anda görünür olabiliyor. Bu tablo, SEO raporlarındaki en sık iki problemi büyütüyor:\n\n1. CTR düşüşleri “SEO düştü” diye yanlış okunabiliyor.\n2. AI alanının etkisi ölçüm araçlarında net görünmediği için ekipler “tamamen görmezden gelme” eğiliminde olabiliyor.\n\nGoogle Search Central, AI Overviews/AI Mode gibi AI özelliklerinde görünen linklerin Search Console’daki genel “Web” performans verisine dahil edildiğini söylüyor. Bu, raporlamada “AI alanı ayrı bir kanal” değil, organik görünürlüğün yeni bir bağlamı olduğunu gösterir.  \nAncak pratikte çoğu ekip, “AI answer’da çıkma”yı doğrudan ve tutarlı bir metrikle izleyemediği için, raporlamada bir boşluk oluşur. Bu rehber, o boşluğu proxy metrik + manuel izleme + timeline notları ile kapatan operasyonel bir çerçeve sunar.",
+      "quickSummary": [
+        "1) AI Overview’ü yeni kanal değil SERP bağlamı olarak konumlandır",
+        "2) Ölçebildiğin ve ölçemediğin alanları raporda şeffaf ayır",
+        "3) Kritik sorgular için AI SERP Watchlist oluştur",
+        "4) CTR düşüşlerini GSC + GA4 kalite sinyali + timeline notlarıyla yorumla",
+        "5) AI metriklerini kesin karar değil yardımcı sinyal olarak kullan"
+      ],
+      "ctaPrimary": {
+        "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
+        "text": "Kritik sorgularda AI SERP etkisini ölçüm boşluğu olmadan raporlayıp karar almak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
+        "text": "AI Overviews/SGE etkisini raporlama ritmine entegre edip CTR dalgalarını doğru yorumlamak isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "AI SERP Timeline & Not Şablonunu İndir",
+        "text": "AI SERP değişimlerini timeline’da işaretleyip kritik sorgularda görünürlüğü proxy+manuel yöntemle takip ederek raporu bağlamlı okumanızı sağlar.",
+        "href": "/downloads/ai-serp-timeline-not-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
+        "href": "/seo/blog/etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi"
+      },
+      {
+        "title": "Consent Mode ve Cookie Banner’dan Sonra SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
+        "href": "/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sge-ai-overview-nedir",
+        "title": "SGE / AI Overview Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "AI Overviews, Google’ın bazı sorgularda sayfanın üstünde AI destekli özet cevap ve destekleyici linkler gösterdiği bir deneyimdir. Google, AI Overviews’ün özellikle karmaşık sorularda “giste hızlı ulaşma” ve daha geniş kaynak çeşitliliğine yönlendirme amacı taşıdığını ve AI özelliklerinde görünmek için ek bir SEO gereksinimi olmadığını belirtir."
+          },
+          {
+            "type": "h3",
+            "text": "Klasik organikten farkı ne?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı “cevap”ı SERP üzerinde alabilir → daha fazla zero-click davranışı görülebilir.",
+              "Organik linkler aşağı itilebilir → CTR dağılımı değişebilir.",
+              "Aynı sorguda “AI + snippet + organik” birlikte görünür → rapor yorumunda bağlam şart olur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "AI Overview’ü “yeni kanal” değil “SERP bağlamı” olarak konumlandırdım mı?",
+              "AI özelliklerinde görünmenin mevcut SEO temelleriyle ilişkili olduğunu not ettim mi?",
+              "Rapor yorumunda “CTR düşüşü = SEO düşüşü” varsayımını kırdım mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Rapor şablonunuza “AI SERP bağlamı” satırı ekleyin (kritik sorgular için).",
+              "AI Overview’ün tetiklendiği sorgu tiplerini kümelere ayırın (informational, how-to, karşılaştırma vb.).",
+              "AI alanı varken performansı sadece CTR ile değil; GSC görünürlük + site içi kalite sinyalleriyle birlikte okuyun."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
+            "text": "Kritik sorgularda AI SERP etkisini ölçüm boşluğu olmadan raporlayıp karar almak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "olcebildigimiz-ve-olcemedigimiz-alanlar",
+        "title": "Ölçebildiğimiz ve Ölçemediğimiz Alanlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI SERP raporlamasında başarı, “ölçemediğim şeyi inkâr etmek” değil; ölçebildiklerimi doğru kullanıp ölçemediklerimi şeffaf bir not sistemiyle yönetmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Ölçebildiklerimiz (dayanak katman)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Search Console: impressions/clicks/CTR/position (AI dahil genel web performansı)",
+              "GA4: landing davranışı, engagement sinyalleri, dönüşüm",
+              "Query/landing segmentleri: AI tetikleyen sorgu kümeleri (proxy)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ölçmekte zorlandıklarımız (boşluk katmanı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu impression AI Overview’den mi geldi, klasik organikten mi?” (ayrı kırılım her zaman net değil; raporda varsayıma düşmemek gerekir)",
+              "“AI answer’da hangi formatla göründük?” (link tipi/konum/çeşit)",
+              "“AI bloğunda görünürken CTR nasıl değişti?” (korelasyon var; neden-sonuç için dikkat)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "technical",
+            "title": "Teknik not",
+            "items": [
+              "AI SERP metrikleri henüz standartlaşmadığı için, bu rehberde önerilen yöntemleri yardımcı sinyal olarak görmek gerekir (kesin metrik değil)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporumda “ölçemediğim alan” için şeffaf not var mı?",
+              "Ölçüm boşluğunu “proxy + manuel kontrol + timeline” ile kapatıyor muyum?",
+              "AI etkisini yorumlarken kesin iddia yerine “kontekst” dili kullanıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "KPI tablosunun yanına “AI SERP Notu” sütunu ekleyin (manuel işaretleme).",
+              "AI tetikleyen sorgular için sabit bir “kritik sorgu listesi” oluşturun (20–50 sorgu).",
+              "CTR düşüşlerinde “AI SERP etkisi olabilir mi?” sorusunu standart kontrol adımı yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-answerda-cikmayi-proxy-metriklerle-takip-etmek",
+        "title": "“AI Answer’da Çıkma”yı Proxy Metriklerle Takip Etmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Doğrudan ölçüm sınırlı olduğunda, raporlamayı ayakta tutan şey proxy’dir. Proxy, “kesin ölçüm” değil; muhtemel etkiyi işaretleyen sinyaldir."
+          },
+          {
+            "type": "h3",
+            "text": "Proxy yaklaşımının 3 katmanı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kritik sorgu listesi + manuel SERP snapshot\n* Haftalık/aylık aynı sorgulara bak\n* AI Overview var mı? Siteden alıntı/link var mı?",
+              "GSC sorgu kümeleri\n* “AI tetikleyen sorgu tipi” kümeleri oluştur (how-to, comparison, definitions)\n* Bu kümelerde CTR trendini takip et",
+              "Landing kalite sinyali (GA4)\n* AI bloğundan gelen tıklamalar bazen daha “niyetli” olabilir; bu yüzden engagement/dönüşüm sinyallerini ikinci katman KPI olarak eklemek gerekir (Google da AI Overviews’ten gelen ziyaretlerin daha nitelikli olabildiğini belirtir)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Araçlar AI SERP’i ölçemiyorsa ne yapmalıyım?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu ",
+            "items": [
+              "Araçlar AI SERP’i tam segmentleyemiyorsa, kritik sorgular için manuel izleme + timeline notu + proxy KPI seti kullanın: GSC’de ilgili sorgu kümelerinin CTR/click trendini izleyin, GA4’te landing kalite/dönüşüm sinyalleriyle sonucu doğrulayın. Rapor çıktısında “yardımcı sinyal” notunu açıkça yazın."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "“Bilgilendirici sorgular” kümesinde impressions sabit/artar, clicks düşer ve CTR gerilerse; AI Overviews gibi SERP değişiklikleri etken olabilir. Bu durumda aksiyon: snippet/başlık testi + içerik bloklarını “net cevap + kaynak” formatına çekmek + AI SERP notu tutmak."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kritik sorgu listem ve izleme frekansım var mı?",
+              "Proxy KPI setim net mi (GSC kümeleri + GA4 kalite)?",
+              "Rapor çıktısında “bu bir yardımcı sinyal” notunu belirtiyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "20 sorguluk “AI SERP Watchlist” oluşturun ve her raporda 5 tanesini örnek olarak gösterin.",
+              "Watchlist’e “AI Overview var/yok” ve “siteden referans var/yok” sütunu ekleyin.",
+              "Bu sorguların landing’lerinde “kısa cevap + derin açıklama” yapısını güçlendirin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "seo-raporlarina-ai-serp-notlarini-eklemek",
+        "title": "SEO Raporlarına AI SERP Notlarını Eklemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI SERP notları; raporu şişirmek için değil, yanlış yorum riskini azaltmak için vardır. Burada hedef, raporun “kendi kendini açıklaması”dır: CTR düşüşü varsa, AI alanı görülmüş mü? SERP değişimi timeline’a işlenmiş mi?"
+          },
+          {
+            "type": "h3",
+            "text": "AI SERP notu formatı (operasyonel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sorgu kümesi: (ör. “nasıl yapılır”, “nedir”, “karşılaştırma”)",
+              "SERP durumu: AI Overview var/yok, snippet var/yok",
+              "Bizim görünürlük: AI’da referans var/yok (manuel)",
+              "Etkisi: CTR trendi + landing kalite sinyali",
+              "Aksiyon: (snippet test, içerik blok düzeni, internal link)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: AI SERP Watchlist / Not tablosu",
+            "headers": [
+              "Sorgu",
+              "SERP tipi",
+              "AI Overview",
+              "Biz kaynak mıyız?",
+              "GSC CTR trend",
+              "GA4 kalite sinyali",
+              "Not",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "___",
+                "how-to",
+                "var/yok",
+                "var/yok",
+                "↑/→/↓",
+                "iyi/orta/zayıf",
+                "___",
+                "___"
+              ],
+              [
+                "___",
+                "definition",
+                "var/yok",
+                "var/yok",
+                "↑/→/↓",
+                "iyi/orta/zayıf",
+                "___",
+                "___"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AI SERP değişikliklerini timeline’da işaretlemek"
+          },
+          {
+            "type": "p",
+            "text": "AI yayılımı, tasarımı veya SERP düzeni değiştikçe CTR dalgalanabilir. Bu yüzden raporun trend grafiği altına olay işaretleri ekleyin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“AI Overview artışı gözlendi (kritik sorgu setinde)”",
+              "“Snippet yoğunluğu arttı / PAA genişledi”",
+              "“Site değişikliği / içerik refresh / başlık testleri”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point (yumuşatılmış)",
+            "items": [
+              "Bazı çalışmalar, AI Overviews görünen sorgularda organik CTR’nin anlamlı ölçüde düşebildiğini raporluyor.",
+              "Not: Bu tür dış çalışmaları “tek başına karar” değil, raporunuzdaki gözlemleri konumlandıran yardımcı bağlam olarak kullanın."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CTR değişimlerini timeline’da açıklayabiliyor muyum?",
+              "AI SERP notları “kısa ve karar odaklı” mı?",
+              "AI notlarını aksiyon backlog’una bağlıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Aylık rapora “AI SERP Notları” diye 1 mini bölüm ekleyin (maks 10 satır).",
+              "Her notun yanında 1 aksiyon yazın; rapor sadece gözlem olmasın.",
+              "AI alanı varken CTR düşüşlerini “kontekst + doğrulama” ile yönetin (GSC + GA4)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-alani-varken-ctr-dususlerini-nasil-yorumlarim",
+        "title": "AI Alanı Varken CTR Düşüşlerini Nasıl Yorumlarım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CTR düşüşünün üç ana kaynağı vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "SERP daha kalabalık (AI, snippet, PAA, harita)",
+              "Snippet vaadi zayıf (başlık/meta)",
+              "Niyet uyumsuzluğu (tık geliyor, hemen çıkıyor)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "AI Overviews, birinci kaynağı güçlendirebilir. Bu yüzden “CTR düştü” yorumunu tek adımla kapatmayın; triage yapın."
+          },
+          {
+            "type": "h3",
+            "text": "SGE ve AI overview SEO raporlarını nasıl etkiler?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu ",
+            "items": [
+              "AI Overviews, kullanıcının cevabı SERP üzerinde almasını kolaylaştırabilir; bu da bazı sorgularda tıklama ve CTR davranışını değiştirebilir. Search Console bu trafiği genel “Web” performans verisine dahil eder; dolayısıyla raporda CTR düşüşleri görülebilir ama bunun bir kısmı SERP bağlam değişimi olabilir. Bu yüzden CTR düşüşünü AI SERP notları ve landing kalite sinyalleriyle birlikte yorumlamak gerekir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Triage kuralı (3 adım)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "GSC sorgu kırılımı: düşüş hangi sorgu kümesinde?",
+              "AI SERP notu: o kümede AI Overview görünmüş mü?",
+              "GA4 kalite: tıklayan kullanıcı daha mı nitelikli? (engagement/dönüşüm)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (rekabetli informatif)"
+          },
+          {
+            "type": "p",
+            "text": "CTR düşüyor ama GA4’te engaged session artıyorsa: daha az tık, daha kaliteli trafik olabilir. Google da AI Overviews’ten gelen ziyaretlerin daha kaliteli olabileceğini ifade ediyor; bu yüzden sadece CTR’ye bakmak yanıltıcı olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CTR düşüşünü sorgu kümesi bazında ayırıyor muyum?",
+              "AI SERP notu ile korelasyon kuruyor muyum (kesin iddia değil)?",
+              "GA4 kalite/dönüşüm sinyaliyle kararı destekliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "CTR düşüşünde “AI SERP var mı?” sorusunu rapor check’ine ekleyin.",
+              "Snippet testlerini (title/meta) “kritik sorgu kümesi” üzerinde planlayın.",
+              "İçerik bloklarını net cevap + kaynak + derin açıklama formatına çekin ."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ai-serp-okuma-protokolu",
+        "title": "Fark Yaratan Mini Bölüm (Competitor Gap) — AI SERP Okuma Protokolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de SGE/AI overview çoğunlukla “panik/heyecan” düzeyinde konuşuluyor; raporlamada pratik takip protokolü neredeyse hiç standardize değil. Bu içerik farkı şu protokolle kapatır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Watchlist: 20–50 kritik sorgu",
+              "Not standardı: AI var/yok + biz var/yok + etki + aksiyon",
+              "Timeline: SERP değişimleri işaretli",
+              "Doğrulama: GSC görünürlük + GA4 kalite + (varsa) brand/offline sinyal"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI SERP Timeline & Not Şablonunu İndir",
+            "text": "Kritik sorgu watchlist’i, AI SERP not alanı ve timeline formatını hazır verir; raporu AI bağlamıyla güvenle yorumlamanızı sağlar.",
+            "href": "/downloads/ai-serp-timeline-not-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
+            "text": "AI SERP etkisini raporlama ritmine entegre edip, CTR dalgalarını doğru yorumlamak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "ai-serp-timeline-not-sablonu",
+        "title": "AI SERP Timeline & Not Şablonunu İndir — SEO / AI SERP (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "AI SERP Timeline & Not Şablonunu İndir — SEO / AI SERP (v1.0)",
+            "purpose": "Bu şablon, AI Overviews/SGE metrikleri standartlaşmamışken bile SEO raporuna “AI SERP bağlamı” eklemenizi sağlar. Kritik sorgular için watchlist oluşturur, AI var/yok ve “biz kaynak mıyız?” gibi manuel notları sistematik hale getirir; CTR ve tıklama değişimlerini timeline’da işaretleyerek yanlış yorum riskini azaltır. Not: Bu yöntemler yardımcı sinyal olarak ele alınmalıdır; tek başına kesin karar verdirmez.",
+            "whoFor": "Rekabetli informatif sorgularda çalışan markalar, ajans raporlama ekipleri, içerik/SEO liderleri.",
+            "steps": [
+              "20–50 kritik sorgudan “AI SERP Watchlist” oluştur.",
+              "Haftalık/aylık aynı sorguların SERP snapshot’ını al; AI var/yok ve kaynak görünürlüğünü not et.",
+              "GSC CTR trendi ve GA4 kalite sinyaliyle birlikte yorumla; her notu tek ana aksiyona bağla."
+            ],
+            "checklist": [
+              "Sorgu kümesi: how-to / definition / comparison / local intent",
+              "Öncelik: P1 (kritik) / P2 (önemli) / P3 (izle)",
+              "Landing eşleştirme: hedef sayfa",
+              "AI Overview yayılımı gözlendi: ___",
+              "SERP layout değişimi (snippet/PAA): ___",
+              "İçerik refresh / title testi: ___",
+              "Teknik değişiklik / deploy: ___",
+              "Her satırda tek sorgu + tek karar olsun.",
+              "“Biz kaynak mıyız?” alanı manuel olduğu için, notu kısa tut.",
+              "CTR düşüşünü tek başına yorumlama; GSC + GA4 kalite ile doğrula.",
+              "AI metriklerini “yardımcı sinyal” olarak etiketle.",
+              "Her notun sonunda 1 aksiyon yaz (test, refresh, internal link, snippet).",
+              "Watchlist 20–50 sorgu ile sınırlı",
+              "Haftalık/aylık snapshot ritmi var",
+              "Timeline olayları rapora işleniyor",
+              "Her satırda 1 aksiyon var",
+              "GSC + GA4 doğrulaması yapılıyor"
+            ],
+            "href": "/downloads/ai-serp-timeline-not-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: AI SERP etkisini panikle değil, not sistemiyle raporlayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI Overviews/SGE, SEO raporlamasında organik görünürlüğü ve CTR yorumlarını daha bağlamlı okumayı zorunlu hale getirir. Bu değişimi ayrı bir “AI kanalı” gibi değil; SERP’in değişen görünüm ve tıklama bağlamı olarak ele almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kritik sorgularda AI SERP Watchlist oluşturmak, timeline notları tutmak ve GSC + GA4 sinyallerini birlikte okumak; “CTR düştü, SEO kötüleşti” gibi hatalı yorumların önüne geçer. AI metrikleri standartlaşana kadar en güvenli yaklaşım, proxy metrikleri şeffaf notlarla ve aksiyon odaklı raporlama diliyle kullanmaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
+            "text": "AI Overviews/SGE etkisini raporlama ritmine entegre edip CTR dalgalarını doğru yorumlamak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI SERP Timeline & Not Şablonunu İndir",
+            "text": "AI SERP değişimlerini timeline’da işaretleyip kritik sorgularda görünürlüğü proxy+manuel yöntemle takip ederek raporu bağlamlı okumanızı sağlar.",
+            "href": "/downloads/ai-serp-timeline-not-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SGE ve AI overview SEO raporlarını nasıl etkiler?",
+        "a": "AI Overviews, kullanıcıların SERP üzerinde cevap almasını kolaylaştırıp tıklama/CTR davranışını değiştirebilir. Bu yüzden CTR düşüşleri AI SERP bağlamında, GSC ve site içi kalite sinyalleriyle birlikte yorumlanmalıdır."
+      },
+      {
+        "q": "AI answer alanında çıkıp çıkmadığımı nasıl takip ederim?",
+        "a": "Search Console verileri AI trafiğini genel “Web” performansına dahil eder; pratikte ayrı segment sınırlı olduğundan kritik sorgular için manuel SERP kontrolü + watchlist + timeline notu ile takip etmek daha gerçekçidir."
+      },
+      {
+        "q": "Araçlar AI SERP’i ölçemiyorsa ne yapmalıyım?",
+        "a": "Proxy metriklerle ilerleyin: AI tetikleyen sorgu kümelerinde CTR trendini izleyin, landing kalite sinyalleriyle doğrulayın ve rapora “AI SERP notu” sütunu ekleyin."
+      },
+      {
+        "q": "AI alanı varken CTR düşüşlerini nasıl yorumlarım?",
+        "a": "Önce sorgu kümesini ayırın, AI SERP notunu kontrol edin, ardından GA4 kalite/dönüşüm sinyaliyle sonucu doğrulayın. CTR düşüşü her zaman performans kaybı değildir; SERP bağlamı değişmiş olabilir."
+      },
+      {
+        "q": "AI Overviews için özel SEO optimizasyonu gerekir mi?",
+        "a": "Google, AI özellikleri için ekstra bir optimizasyon gereksinimi olmadığını; temel SEO iyi pratiklerinin geçerli olduğunu belirtir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 (1920×1080) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-hero-01.webp — Alt text: AI Overview’lü SERP ve rapor okuması, amaç AI bağlamını eklemek, SEO raporlama bağlamı",
+          "H1 sonrası Context — 16:9 (1920×1080) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-h1-context-02.webp — Alt text: AI SERP notları ve timeline, amaç değişimleri izlemek, ajans raporlama bağlamı",
+          "Section Divider 01 — 4:3 (1600×1200) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-divider-03.webp — Alt text: AI SERP kavramları ayırıcı, amaç ortak dil oluşturmak, SEO ekip bağlamı",
+          "Section Divider 02 — 4:3 (1600×1200) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-divider-04.webp — Alt text: Proxy izleme ve not sistemi ayırıcı, amaç pratik raporlama, kurum bağlamı",
+          "Diagram / Flow — 16:9 (1920×1080) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-diagram-05.webp — Alt text: AI Overview SERP mockup ve not akışı, amaç rapor bağlamı, SEO raporlama bağlamı",
+          "Checklist / Framework Card — 1:1 (1200×1200) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-checklist-06.webp — Alt text: AI SERP notları checklist kartı, amaç standart takip, ajans bağlamı",
+          "KPI / Score Card — 1:1 (1200×1200) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-kpi-07.webp — Alt text: AI SERP proxy KPI kartı, amaç hızlı özet, kurum SEO bağlamı",
+          "Deliverables / Proof Card — 1:1 (1200×1200) — search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir-proof-08.webp — Alt text: AI SERP rapor deliverables kartı, amaç takip ve karar, kurumsal bağlamı",
+          "Tablo (1 adet): AI SERP Watchlist / Not tablosu"
+        ],
+        "technicalChecklist": [
+          "AI Overview/SGE etkisi raporda ayrı kanal değil SERP bağlamı olarak konumlandırıldı",
+          "AI SERP metriklerinin standart olmadığı not edildi",
+          "Kritik sorgular için 20–50 sorguluk AI SERP Watchlist oluşturuldu",
+          "Watchlist alanları tanımlandı: sorgu, SERP tipi, AI Overview, biz kaynak mıyız, GSC CTR trend, GA4 kalite sinyali, not, aksiyon",
+          "Timeline olay işaretleri tanımlandı: AI Overview yayılımı, SERP layout değişimi, içerik refresh/title testi, teknik değişiklik/deploy",
+          "GSC görünürlük (impr/click/CTR) + GA4 kalite sinyali birlikte yorumlandı",
+          "CTR düşüşleri için triage kuralı kuruldu",
+          "AI metrikleri yardımcı sinyal olarak etiketlendi",
+          "Her not için 1 aksiyon yazma standardı eklendi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü yapıldı",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+  "BlogSeoOpsIcinOtomatikRaporVeSlackEPostaAlertSistemleri": {
+    "title": "SEO Ops Alert Sistemi: Slack/E-posta ile Otomasyon | DGTLFACE",
+    "slug": "seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Trafik/CTR/CWV/404-5xx için doğru eşiklerle SEO alert kur; günlük/haftalık özetleri Slack/e-postaya düşür. Alarm yorgunluğunu önle, düşüşleri rapor günü gelmeden yakala.",
+    "seo": {
+      "metaTitle": "SEO Ops Alert Sistemi: Slack/E-posta ile Otomasyon | DGTLFACE",
+      "metaDescription": "Trafik/CTR/CWV/404-5xx için doğru eşiklerle SEO alert kur; günlük/haftalık özetleri Slack/e-postaya düşür. Alarm yorgunluğunu önle, düşüşleri rapor günü gelmeden yakala."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 25 — https://dgtlface.com/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Tactical",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count Range = 3000–3500",
+        "Refresh Cycle: 180 gün (ekip yapısı, KPI seti, entegrasyonlar değiştikçe alert kurgusu yeniden tasarlanmalı)",
+        "Canonical: /tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
+      ],
+      "strategySummary": "Bu içerik, SEO’yu “rapor günü gelince fark edilen” bir süreç olmaktan çıkarıp proaktif ops modeline taşıyan trend rehberidir. Hedef persona; SEO ops olgunluğu yüksek ajanslar ve kurum içi büyüme/SEO ekipleridir; “site düşünce hemen haberim olsun” ihtiyacını doğru eşiklerle çözmek ister. Funnel MoFu’dadır: amaç erken uyarı (monitoring), hızlı triage ve sprint aksiyonudur; yanlış kurgulanmış sistemlerin yarattığı alarm yorgunluğunu engeller. Ana iş sorusu: “Traffic/CTR/CWV/hata gibi KPI’larda doğru eşikleri nasıl seçer, günlük/haftalık otomatik raporları Slack/e-posta ile nasıl iletir ve aksiyon kültürüne nasıl bağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "SEO ops için otomatik rapor ve uyarı sistemi, büyük düşüşleri haftalık/aylık raporu beklemeden yakalamanızı sağlar. En iyi kurgu; organik trafik/CTR gibi görünürlük KPI’larıyla 404/5xx ve CWV gibi teknik KPI’ları birlikte izler, yüzde değişim ve trend bazlı eşikler kullanır, uyarıları “kritik/önemli/izle” diye sınıflandırır. Slack/e-posta entegrasyonu, doğru eşiklerle tasarlandığında ekibi yormadan proaktif aksiyon üretir.",
+      "sgeSummary": "SEO ops’ta kritik KPI’lar için (trafik, CTR, CWV, hatalar) yüzde değişim bazlı eşikler belirle. Günlük/haftalık özetleri Slack/e-postaya gönder; kritik uyarıları triage ve sprint’e bağla.",
+      "voiceAnswer": "Site düşünce anında haberdar olmak için trafik, CTR, 404/5xx ve CWV alarmlarını kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: SEO ops olgunluğu yüksek ajanslar ve kurum içi ekipler",
+        "KPI: organic sessions, GSC clicks/CTR, 404/5xx, CWV trendi, dönüşüm sapması",
+        "Entity Theme: SEO Ops; Automated Reports; Slack/Email Alerts; KPI Thresholds",
+        "Semantic Theme: proactive monitoring; ops automation; early-warning SEO",
+        "Funnel: uyarı → doğrulama → kök neden → aksiyon → takip",
+        "Geo: TR geneli; otel/hizmet siteleri dahil",
+        "Çıktı: eşik matrisi + günlük/haftalık akış + alarm yorgunluğu önleme kuralları"
+      ]
+    },
+    "h1": {
+      "title": "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri Nasıl Kurulur?",
+      "intro": "SEO ekipleri en çok şu anda kaybeder: bir sorun olur (404 patlar, CWV bozulur, CTR düşer), ama ekip bunu rapor gününde fark eder. Bu gecikme, hem gelir kaybı hem de “neden oldu?” sorusunda belirsizlik demektir. Otomatik rapor ve alert sistemleri, tam bu noktada devreye girer: sorun büyümeden yakalar, triage akışını hızlandırır ve aksiyonu sprint’e çevirir.\nAncak yanlış kurgulanmış sistemler de başka bir kayıp üretir: her şeye alarm → alarm yorgunluğu → kimse bakmıyor. Bu rehber, SEO ops’ta doğru KPI’ları ve eşikleri seçip, Slack/e-posta kanallarında doğru yoğunlukta bildirimle sürdürülebilir bir ops kültürü kurmanın çerçevesini verir.",
+      "quickSummary": [
+        "1) Alarm sistemini raporun yerine değil, erken uyarı katmanı olarak konumlandır",
+        "2) 6–10 kritik KPI seç: trafik, CTR, CWV, 404/5xx ve dönüşüm sapması",
+        "3) Eşikleri yüzde değişim + trend yaklaşımıyla kur",
+        "4) Slack/e-posta mesajlarını “ne oldu/nerede/ilk kontrol/owner” formatına sabitle",
+        "5) Alarm yorgunluğunu kritik/önemli/izle sınıflandırmasıyla önle"
+      ],
+      "ctaPrimary": {
+        "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
+        "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup alarm yorgunluğu yaşamadan operasyonu proaktif yönetmek isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
+        "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup proaktif SEO ops yönetmek isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "SEO KPI Alert Eşik & Otomatik Raporlama Akış Şablonunu İndir",
+        "text": "KPI eşiklerini ve Slack/e-posta akışını standartlaştırır; alarm yorgunluğu yaşamadan erken uyarı sistemi kurmanızı sağlar.",
+        "href": "/downloads/seo-kpi-alert-esik-otomatik-raporlama-akis-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "AI Overview/SGE Metriklerini SEO Raporuna Ekleme",
+        "href": "/seo/blog/search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir"
+      },
+      {
+        "title": "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
+        "href": "/seo/blog/etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-otomatik-rapor-ve-alert-gerekli",
+        "title": "Neden Otomatik Rapor ve Alert Gerekli?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Otomatik rapor/alert iki şeyi aynı anda çözer:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Zaman kazanımı: ekip “tablo gezme” yerine “aksiyon”a vakit ayırır.",
+              "Erken uyarı: sorunlar büyümeden yakalanır (özellikle teknik kırılımlarda)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Manuel raporun doğal gecikmesi"
+          },
+          {
+            "type": "p",
+            "text": "Aylık rapor “ne oldu?”yu anlatır; ama “şu an ne oluyor?” sorusuna yetişmez. Haftalık rapor bile, 404/5xx gibi kritik bir kırılmada geç kalabilir. Bu yüzden ops yaklaşımı; haftalık/aylık raporun yanına günlük (hatta saatlik) kritik uyarı katmanı koyar."
+          },
+          {
+            "type": "h3",
+            "text": "Otomasyonun yanlış kurgulanırsa ürettiği risk"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her küçük dalgalanmaya alarm → ekip tükenir",
+              "“Alarm var ama aksiyon yok” → güven kaybı",
+              "Eşikler yanlış → yanlış pozitif/negatif"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Alarmın amacı “erken uyarı” mı, yoksa “rapor yerine geçmek” mi?",
+              "Her alarmın bir triage adımı var mı?",
+              "Alarm yorgunluğunu önleyecek sınıflandırma (kritik/önemli/izle) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Alarm sistemini raporun yerine değil, raporun önüne “erken uyarı katmanı” olarak koyun.",
+              "Uyarıları 3 seviyeye ayırın: kritik / önemli / izle.",
+              "Alarm → triage → aksiyon zincirini yazılı süreç haline getirin.",
+              "Eşiklerde “yüzde değişim + trend” yaklaşımını tercih edin (tek gün gürültüsünü azaltır)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
+            "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup alarm yorgunluğu yaşamadan operasyonu proaktif yönetmek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-metrikler-icin-alarm-kurulur",
+        "title": "Hangi Metrikler İçin Alarm Kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Alarm kurulacak metrikler, “iş etkisi” yüksek olanlar olmalı. SEO ops için en iyi minimum set:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Traffic drop: organik sessions düşüşü (GA4)",
+              "CTR sapması: GSC clicks/CTR düşüşü",
+              "CWV bozulması: özellikle mobilde kritik landing’lerde",
+              "Errors: 404/5xx artışı, redirect zinciri",
+              "(Opsiyonel) Conversion sapması: organik dönüşüm event’lerinde kırılma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI eşiklerini seçmenin 3 kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yüzde değişim bazlı: “%x düşüş” gibi; site ölçeğine uyumlu.",
+              "Kritik sayfa seti: top landing’ler için daha hassas eşik, tüm site için daha gevşek eşik.",
+              "Tek gün yerine kısa trend: 2–3 gün hareketli ortalama veya “iki gün üst üste” kuralı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SEO için hangi KPI’lara alarm kurmalıyım?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu (AEO)",
+            "items": [
+              "İlk etapta organik trafik (sessions), Search Console tıklama/CTR sapmaları, 404/5xx artışı ve CWV bozulması en kritik alarmlardır. Ardından organik dönüşüm event’leri ve kritik landing performansı eklenir. Amaç “çok alarm” değil, iş etkisi yüksek 6–10 alarmdır."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: KPI eşik matrisi (örnek)",
+            "headers": [
+              "KPI",
+              "Eşik türü",
+              "Örnek eşik",
+              "Seviye",
+              "İlk aksiyon"
+            ],
+            "rows": [
+              [
+                "Organic sessions",
+                "% değişim",
+                "2 gün üst üste %20↓",
+                "Kritik",
+                "veri hijyeni + landing kırılım"
+              ],
+              [
+                "GSC clicks",
+                "% değişim",
+                "7 gün ort. %15↓",
+                "Önemli",
+                "sorgu/landing analizi + SERP notu"
+              ],
+              [
+                "GSC CTR",
+                "% değişim",
+                "Top 20 landing’de %10↓",
+                "Önemli",
+                "title/meta/FAQ test"
+              ],
+              [
+                "404",
+                "mutlak + trend",
+                "günlük %50↑",
+                "Kritik",
+                "kaynak URL + redirect fix"
+              ],
+              [
+                "5xx",
+                "mutlak + trend",
+                "1 saat içinde artış",
+                "Kritik",
+                "uptime/infra triage"
+              ],
+              [
+                "CWV (LCP/INP)",
+                "threshold + trend",
+                "“kritik” sayfa etiketi ↑",
+                "Önemli",
+                "performans sprint (P0/P1)"
+              ],
+              [
+                "Organik dönüşüm",
+                "% değişim",
+                "%25↓ + event değişimi yok",
+                "Kritik",
+                "event doğrulama + funnel kontrol"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Alarm KPI’ları iş etkisi yüksek mi?",
+              "Eşikler yüzde değişim ve trend bazlı mı?",
+              "Kritik sayfa seti (top landing) ayrı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce 6–10 kritik alarmı seçin; sonra genişletin.",
+              "“Kritik sayfa listesi” oluşturun (top 20–50 landing) ve ayrı eşikler tanımlayın.",
+              "404/5xx için teknik ekiple ortak triage akışı belirleyin.",
+              "CTR alarmlarını “SERP bağlamı” notuyla birlikte yorumlayın (PAA/snippet/AI alanı olabilir)."
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "SEO KPI Alert Eşik & Otomatik Raporlama Akış Şablonu — SEO / Ops (v1.0)",
+            "purpose": "Bu asset, SEO ops için trafik/CTR/CWV/hata KPI’larında yüzde değişim + trend bazlı eşiklerle alarm tasarlamanızı ve günlük/haftalık otomatik rapor akışını Slack/e-posta kanallarına doğru yoğunlukta bağlamanızı sağlar. “Alarm yorgunluğu” riskini azaltmak için kritik/önemli/izle sınıflandırması ve owner-atama disiplinini standartlaştırır. Sonuç: büyük düşüşler rapor günü gelmeden yakalanır, aksiyonlar sprint’e bağlanır.",
+            "whoFor": "SEO ops olgunluğu yüksek ajanslar ve kurum içi ekipler; çok landing ve yoğun raporlama yapan projeler.",
+            "steps": [
+              "Kritik KPI listesini seç (6–10 metrik) ve eşik tipini belirle (yüzde değişim/trend).",
+              "Slack/e-posta mesaj şablonunu standartlaştır (ne oldu/nerede/ilk kontrol/owner).",
+              "Haftalık triage toplantısını sabitle; alarmları “kapanış notu” ile kapat."
+            ],
+            "checklist": [
+              "A) Alarm KPI Listesi (MVP)",
+              "Organic sessions (GA4)",
+              "GSC clicks / CTR",
+              "404 / 5xx",
+              "CWV kritik sayfa sayısı (mobil)",
+              "Organik dönüşüm (opsiyonel)",
+              "B) Eşik Tanımı ",
+              "C) Slack/E-posta Mesaj Şablonu",
+              "D) Günlük Rapor Şablonu (7 satır)",
+              "E) Alarm Yorgunluğu Kuralları",
+              "F) Deliverables + Buraya notları"
+            ],
+            "href": "/downloads/seo-kpi-alert-esik-otomatik-raporlama-akis-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "gunluk-haftalik-otomatik-rapor-akisi",
+        "title": "Günlük/Haftalık Otomatik Rapor Akışı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otomatik rapor, alarmın “kardeşidir”: alarm bir “kırmızı bayrak”, günlük rapor ise “kısa durum özeti”dir. Ama günlük rapor da doğru kurgulanmazsa gürültü üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Günlük özet rapor (5–7 satır)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Toplam organik sessions (dün / 7g ort)",
+              "GSC clicks & CTR (dün / 7g ort)",
+              "404/5xx (dün)",
+              "CWV kritik sayfa sayısı (varsa)",
+              "“En büyük 3 sapma” (landing veya sorgu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık özet rapor (operasyon ritmi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftanın 3 başarısı (kısa)",
+              "Haftanın 3 riski (alarm olayları)",
+              "3 aksiyon (owner + tarih)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (ajans)"
+          },
+          {
+            "type": "p",
+            "text": "Her sabah Slack’te 7 satırlık “SEO ops digest” gelir. Haftalık toplantıda bu digest’ten çıkan riskler aksiyona döner. Böylece raporlar “dosya” değil “operasyon” olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Günlük rapor 60 saniyede okunuyor mu?",
+              "Haftalık rapor aksiyon listesiyle kapanıyor mu?",
+              "Günlük raporda “en büyük 3 sapma” otomatik çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Günlük raporu “kısa” tutun: 5–7 satır + 1 mini tablo yeter.",
+              "Haftalık raporu “başarı–risk–aksiyon” formatına sabitleyin.",
+              "Günlük raporu Slack’e, haftalık raporu e-posta + toplantı ajandasına bağlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "slack-e-posta-entegrasyon-ornekleri",
+        "title": "Slack/E-posta Entegrasyon Örnekleri",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Slack ne zaman daha iyi?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hızlı triage: “hemen gör, hızlı aksiyon”",
+              "Günlük özetler: kısa ve ritmik",
+              "Teknik uyarılar: 5xx, 404 patlaması, CWV bozulması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "E-posta ne zaman daha iyi?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık/aylık özet: daha uzun, ek tablo ve notlarla",
+              "Yönetici iletişimi: “1 sayfa özet + aksiyon”",
+              "Arşiv: geriye dönük takip"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Slack veya e-posta ile SEO alert sistemi nasıl kurulur?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu (AEO)",
+            "items": [
+              "Önce alarm KPI’larını ve eşikleri seçin (trafik, CTR, 404/5xx, CWV). Sonra uyarıları “kritik/önemli/izle” diye sınıflandırın ve kanallara dağıtın: kritik uyarılar Slack (anlık), haftalık özet e-posta (toplantı öncesi). Her uyarı mesajında “ne oldu + nerede + ilk kontrol” formatı olmalı; aksi hâlde ekip alarmı görür ama ne yapacağını bilemez."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Uyarı mesajı şablonu (mesaj kalitesi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ne oldu? (KPI + yön: Organic sessions %25↓)",
+              "Nerede? (site/landing/ülke/cihaz)",
+              "Ne zaman? (pencere)",
+              "İlk kontrol: (data hygiene / tag / 404 / SERP)",
+              "Owner: (kimin bakacağı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek mesaj"
+          },
+          {
+            "type": "p",
+            "text": "“⚠️ Organic sessions 2 gün üst üste %20↓ — Top 5 landing etkilendi. İlk kontrol: tag/event değişikliği + GSC clicks trendi. Owner: SEO Ops.”"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Uyarı mesajım aksiyon doğuruyor mu (ilk kontrol adımı var mı)?",
+              "Kritik uyarılar Slack, özetler e-posta mı?",
+              "Owner ve takip adımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Uyarı mesajlarını standardize edin (ne oldu/nerede/ilk kontrol).",
+              "Slack kanalında kritik uyarı sayısını sınırlayın (günde 1–3).",
+              "E-posta özetini haftalık ritme bağlayın (toplantıdan 24 saat önce)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "ajans-ve-ekipler-icin-seo-ops-kulturu",
+        "title": "Ajans ve Ekipler İçin SEO Ops Kültürü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Araç kurmak yetmez; kültür gerekir. Ops kültürü; alarmın triage’a, triage’ın aksiyona, aksiyonun “kapanış”a bağlandığı ritimdir."
+          },
+          {
+            "type": "h3",
+            "text": "Alarm yorgunluğu yaşamamak için 5 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Az ama kritik alarm: 6–10 KPI ile başla",
+              "Seviye sistemi: kritik/önemli/izle",
+              "Trend bazlı eşik: tek gün değil kısa trend",
+              "Sessiz saatler: gece alarmı sadece 5xx gibi P0’lar",
+              "Kapatma disiplini: alarm tetiklenince “kapatıldı” kaydı (post-mortem)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point (yumuşatılmış)",
+            "items": [
+              "Alarm sistemi kurulan projelerde, büyük SEO sorunlarının çoğunun haftalık/aylık raporu beklemeden fark edilip müdahale edildiği raporlanıyor."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Otomatik raporlar manuel raporların yerini alabilir mi?”"
+          },
+          {
+            "type": "p",
+            "text": "Kısmen: otomatik raporlar izleme ve erken uyarıyı çok iyi yapar. Ama stratejik yorum, önceliklendirme ve roadmap kararı hâlâ insan analist ve ekip toplantısı gerektirir. En iyi model: otomasyon hızlandırır, manuel rapor karar üretir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Alarm → triage → aksiyon → kapanış zincirim yazılı mı?",
+              "Alarm sayısı ve yoğunluğu kontrol altında mı?",
+              "Otomatik raporlar karar toplantılarına bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Haftalık 30 dk ops triage toplantısını sabitleyin.",
+              "Her alarm için “kapanış notu” tutun (ne çıktı, ne öğrendik).",
+              "KPI ve eşikleri 180 günde bir yeniden kalibre edin (ekip ve site değişir).",
+              "Veriyi direkt GA4/GSC’den veya veri ambarından çekin; veri hijyeni kontrolünü rutine ekleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
+            "text": "KPI eşikleri, triage akışı ve kanal entegrasyonlarıyla sürdürülebilir SEO ops kurmak isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SEO ops alarmı sadece bildirim değil, aksiyon kültürüdür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SEO ops için otomatik rapor ve Slack/e-posta alert sistemleri, sorunları rapor gününü beklemeden fark etmeyi sağlar. Ancak sistemin değeri sadece bildirim göndermesinde değil; doğru eşik, doğru seviye, doğru owner ve kapanış disipliniyle aksiyona bağlanmasındadır."
+          },
+          {
+            "type": "p",
+            "text": "En sürdürülebilir model; 6–10 kritik KPI ile başlayan, alarm yorgunluğunu önleyen, günlük kısa özetleri Slack’e ve haftalık aksiyon raporlarını e-postaya bağlayan hibrit bir ops yapısıdır. Otomasyon hızlandırır; insan ekip karar verir ve sistemi sürekli kalibre eder."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
+            "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup proaktif SEO ops yönetmek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SEO KPI Alert Eşik & Otomatik Raporlama Akış Şablonunu İndir",
+            "text": "KPI eşiklerini ve Slack/e-posta akışını standartlaştırır; alarm yorgunluğu yaşamadan erken uyarı sistemi kurmanızı sağlar.",
+            "href": "/downloads/seo-kpi-alert-esik-otomatik-raporlama-akis-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO için hangi KPI’lara alarm kurmalıyım?",
+        "a": "Başlangıçta 6–10 kritik KPI yeterlidir: organic sessions, GSC clicks/CTR sapması, 404/5xx artışı ve CWV bozulması. Trafik ve CTR alarmları “yüzde değişim + trend” ile, hata alarmları “kritik artış” ile kurgulanmalıdır."
+      },
+      {
+        "q": "Slack veya e-posta ile SEO alert sistemi nasıl kurulur?",
+        "a": "Kritik uyarıları Slack’te anlık, haftalık/aylık özetleri e-postada gönderin. Her mesaj “ne oldu/nerede/ilk kontrol/owner” formatında olmalı; aksi hâlde ekip alarmı görür ama aksiyon üretemez."
+      },
+      {
+        "q": "Alarm yorgunluğu yaşamamak için eşikleri nasıl belirlemeliyim?",
+        "a": "Tek gün yerine kısa trend (2 gün üst üste) ve yüzde değişim yaklaşımı kullanın. Uyarıları kritik/önemli/izle seviyelerine ayırın ve KPI sayısını sınırlı tutun; çok uyarı varsa eşikleri kalibre edin."
+      },
+      {
+        "q": "Otomatik raporlar manuel raporların yerini alabilir mi?",
+        "a": "Otomatik raporlar erken uyarı ve monitoring’i mükemmel yapar; fakat stratejik yorum, önceliklendirme ve roadmap kararı için manuel rapor ve toplantı ritmi gerekir. En iyi model “otomasyon hızlandırır, insan karar verir” hibritidir."
+      },
+      {
+        "q": "404/5xx artışı SEO’yu nasıl etkiler ve nasıl izlenmeli?",
+        "a": "404 artışı kullanıcı kaybı ve tarama verimsizliği; 5xx artışı ise hem kullanıcı deneyimi hem tarama/index riski yaratır. Bu metrikler P0 seviyesinde izlenmeli ve teknik ekip triage akışına bağlanmalıdır."
+      },
+      {
+        "q": "CWV bozulduğunda hangi sayfalar öncelikli olmalı?",
+        "a": "Dönüşüm üreten kritik sayfalar (rezervasyon/teklif/hizmet) önceliklidir. CWV alarmı “kritik sayfa etiketi” üzerinden çalışırsa, aksiyon daha doğru yere gider."
+      },
+      {
+        "q": "Trafik düştü alarmı geldi; ilk neyi kontrol etmeliyim?",
+        "a": "Önce veri hijyeni ve ölçüm (tag/event değişimi), sonra GSC clicks trendi ve landing kırılımı kontrol edilir. Eğer teknik hata yoksa içerik/CTR/niyet uyumu teşhisine geçilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 (1920×1080) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-hero-01.webp — Alt text: SEO alert paneli görünümü, amaç erken uyarı, ajans ve kurum bağlamı",
+          "H1 context — 16:9 (1920×1080) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-h1-context-02.webp — Alt text: Alarmdan aksiyona ops akışı, amaç hızlı triage, otel ve B2B bağlamı",
+          "Section Divider 01 — 4:3 (1600×1200) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-divider-03.webp — Alt text: Otomasyon ihtiyacı ayırıcı, amaç proaktif izleme, SEO ops bağlamı",
+          "Section Divider 02 — 4:3 (1600×1200) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-divider-04.webp — Alt text: Günlük haftalık rapor akışı ayırıcı, amaç ritim kurmak, ekip bağlamı",
+          "Diagram / Flow — 16:9 (1920×1080) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-diagram-05.webp — Alt text: Slack ve e-posta alert akış diyagramı, amaç operasyon kültürü, ajans bağlamı",
+          "Checklist / Framework Card — 1:1 (1200×1200) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-checklist-06.webp — Alt text: Alarm tasarım checklist kartı, amaç alarm yorgunluğunu azaltmak, ekip bağlamı",
+          "KPI / Score Card — 1:1 (1200×1200) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-kpi-07.webp — Alt text: SEO ops KPI skor kartı, amaç hızlı karar, kurumsal raporlama bağlamı",
+          "Deliverables / Proof Card — 1:1 (1200×1200) — seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri-proof-08.webp — Alt text: Alert sistemi çıktı kartı, amaç güven ve takip, ajans bağlamı",
+          "Tablo (1 adet): KPI eşik matrisi"
+        ],
+        "technicalChecklist": [
+          "Alarm sistemi raporun yerine değil, erken uyarı katmanı olarak konumlandırıldı",
+          "Uyarılar kritik / önemli / izle olarak sınıflandırıldı",
+          "Alarm → triage → aksiyon zinciri yazılı süreç haline getirildi",
+          "Eşiklerde yüzde değişim + trend yaklaşımı kullanıldı",
+          "Kritik KPI seti belirlendi: organic sessions, GSC clicks/CTR, 404/5xx, CWV, organik dönüşüm",
+          "Top 20–50 landing için kritik sayfa listesi oluşturuldu",
+          "Slack/e-posta mesaj şablonu standardize edildi: ne oldu/nerede/ne zaman/ilk kontrol/owner/next update",
+          "Günlük rapor 5–7 satır + mini tablo formatına sabitlendi",
+          "Haftalık rapor başarı–risk–aksiyon formatına sabitlendi",
+          "Alarm yorgunluğu kuralları tanımlandı",
+          "Her alarm için kapanış notu standardı eklendi",
+          "KPI ve eşikleri 180 günde bir yeniden kalibre etme kuralı eklendi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "Canonical kontrolü yapıldı",
           "İç linklerde kırık link ve redirect zinciri yok"

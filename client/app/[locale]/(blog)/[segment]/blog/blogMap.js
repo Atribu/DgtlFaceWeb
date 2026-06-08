@@ -275,7 +275,9 @@ export const BLOG_MAP = {
     "bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu":"BlogBigQueryVeVeriAmbariIleSeoDataWarehouseKurulumu",
     "consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz":"BlogConsentModeVeCookieBannerdanSonraSeoRaporlamasiniNasilDogruYorumlarsiniz",
 
-    "etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi":"BlogEtkilesimMetrikleriEngagedSessionScrollDepthVeIcerikKalitesi"
+    "etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi":"BlogEtkilesimMetrikleriEngagedSessionScrollDepthVeIcerikKalitesi",
+    "search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir":"BlogSearchGenerativeExperienceAiOverviewMetrikleriSeoRaporunaNasilEklenir",
+    "seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri":"BlogSeoOpsIcinOtomatikRaporVeSlackEPostaAlertSistemleri"
   },
 
     smm: {
@@ -318,7 +320,11 @@ export const BLOG_MAP = {
      "stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu":"BlogStokGorselMiOzgunIcerikMiDengeliSosyalMedyaFeedKurulumu",
      "story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement":"BlogStoryIcerikleriAnketSoruKutusuVeEtkilesimStickerlariIleEngagement",
      "sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar":"BlogSosyalKanitIcerikleriReviewTestimonialVeCasePostlar",
-     "carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek":"BlogCarouselPostlarIleEgiticiVeDegerOdakliIcerikUretmek"
+     "carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek":"BlogCarouselPostlarIleEgiticiVeDegerOdakliIcerikUretmek",
+
+     "serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama":"BlogSerilesmisIceriklerMiniSerilerVeHaftalikFormatlarIleFeedKurgulama",
+     "ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi":"BlogAiDestekliSosyalMedyaIcerikUretimiVeInsanKreatifDengesi",
+     "funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya":"BlogFunnelBazliIcerikUretimiFarkliAsamalarIcinSosyalMedya"
   },
 
     yazilim: {
