@@ -39729,6 +39729,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Aşama–format–CTA haritası deliverables görseli",
       caption: "Aşama–format–CTA haritası deliverables görseli"
     }
+  },
+
+  "cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi":{
+     banner: {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-1.webp",
+      alt: "Çekim Günü Optimizasyonu: 1 Çekimle 1 Aylık Sosyal Medya İçeriği",
+      caption: "Çekim Günü Optimizasyonu: 1 Çekimle 1 Aylık Sosyal Medya İçeriği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-2.webp",
+      alt: "Çekim günü → arşiv → formatlara bölme bağlam görseli",
+      caption: "Çekim günü → arşiv → formatlara bölme bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-3.webp",
+    alt: "Planlama ve shot list bölüm ayırıcı görseli",
+      caption: "Planlama ve shot list bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-4.webp",
+      alt: "Otel ve B2B çekim senaryoları bölüm ayırıcı görseli",
+      caption: "Otel ve B2B çekim senaryoları bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-5.webp",
+      alt: "Multi-format output diyagramı, tek çekimden post/story/reels",
+      caption: "Multi-format output diyagramı, tek çekimden post/story/reels"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-6.webp",
+      alt: "Çekim günü checklist kartı, moodboard ve shot list",
+      caption: "Çekim günü checklist kartı, moodboard ve shot list"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-7.webp",
+      alt: "İçerik batching KPI kartı, üretim hızı ve stok sıkıntısı",
+      caption: "İçerik batching KPI kartı, üretim hızı ve stok sıkıntısı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-17/SMM1-17-8.webp",
+      alt: "Shot list tablosu ve arşiv/isimlendirme deliverables görseli",
+      caption: "Shot list tablosu ve arşiv/isimlendirme deliverables görseli"
+    }
+  },
+
+  "dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu":{
+    banner: {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-1.webp",
+      alt: "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçerik Üretiminin Görünmeyen Yüzü",
+      caption: "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçerik Üretiminin Görünmeyen Yüzü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-2.webp",
+      alt: "Yanıt içeriğinin görünmeyen yüzü bağlam görseli, marka tonu",
+      caption: "Yanıt içeriğinin görünmeyen yüzü bağlam görseli, marka tonu" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-3.webp",
+    alt: "Yanıt içeriği önemi bölüm ayırıcı görseli",
+      caption: "Yanıt içeriği önemi bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-4.webp",
+      alt: "Şablon vs kişiselleştirme bölüm ayırıcı görseli",
+      caption: "Şablon vs kişiselleştirme bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-5.webp",
+      alt: "DM→cevap→rezervasyon/lead conversational funnel diyagramı",
+      caption: "DM→cevap→rezervasyon/lead conversational funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-6.webp",
+      alt: "Şablon + kişiselleştirme checklist kartı, reply kalitesi",
+      caption: "Şablon + kişiselleştirme checklist kartı, reply kalitesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-7.webp",
+      alt: "Yanıt KPI kartı: hız, memnuniyet, dönüşüm",
+      caption: "Yanıt KPI kartı: hız, memnuniyet, dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-18/SMM1-18-8.webp",
+      alt: "Yanıt kütüphanesi deliverables: kategori seti ve ton rehberi",
+      caption: "Yanıt kütüphanesi deliverables: kategori seti ve ton rehberi"
+    }
   }
 
 

@@ -324,7 +324,9 @@ export const BLOG_MAP = {
 
      "serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama":"BlogSerilesmisIceriklerMiniSerilerVeHaftalikFormatlarIleFeedKurgulama",
      "ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi":"BlogAiDestekliSosyalMedyaIcerikUretimiVeInsanKreatifDengesi",
-     "funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya":"BlogFunnelBazliIcerikUretimiFarkliAsamalarIcinSosyalMedya"
+     "funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya":"BlogFunnelBazliIcerikUretimiFarkliAsamalarIcinSosyalMedya",
+     "cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi":"BlogCekimGunuOptimizasyonu1Cekimde1AylikSosyalMedyaIcerigi",
+     "dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu":"BlogDmVeYorumYanitSablonlariSosyalMedyaIcerigininGorunmeyenYuzu"
   },
 
     yazilim: {

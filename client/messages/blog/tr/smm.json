@@ -22063,7 +22063,7 @@
         "blocks": [
           {
             "type": "media",
-            "slot": "h1-context"
+            "slot": "h1-context-02"
           },
           {
             "type": "p",
@@ -22596,6 +22596,1375 @@
           "Secondary CTA hedefi: /tr/smm/planlama-strateji",
           "UTM şablonunda funnel etiketi kullanılacak: A_, C_, CV_, L_",
           "GA4 event naming standardı raporlama tarafında kontrol edilecek",
+          "Media pack dosya adları blog slug ile birebir uyumlu olacak",
+          "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
+        ]
+      }
+    }
+  },
+
+   "BlogCekimGunuOptimizasyonu1Cekimde1AylikSosyalMedyaIcerigi": {
+    "title": "1 Çekimle 1 Aylık Sosyal Medya İçeriği",
+    "slug": "cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Moodboard ve shot list ile çekim gününü planlayın. Tek çekimden post/story/reels/bannera bölün, dosya isimlendirme–arşiv düzeni kurun; otel ve B2B örnekleriyle hızlanın.",
+    "seo": {
+      "metaTitle": "1 Çekimle 1 Aylık Sosyal Medya İçeriği | DGTLFACE",
+      "metaDescription": "Moodboard ve shot list ile çekim gününü planlayın. Tek çekimden post/story/reels/bannera bölün, dosya isimlendirme–arşiv düzeni kurun; otel ve B2B örnekleriyle hızlanın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi",
+        "Blog No: #17",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+      ],
+      "strategySummary": "Bu blog, içerik üretiminde “görsel yetiştiremiyoruz” problemini çekim günü batching yaklaşımıyla çözen core child içeriktir ve /tr/smm/icerik-uretimi sayfasına otorite taşır. Hedef persona; otel/destinasyon markaları ve B2B ekip/ ofis çekimi gerektiren markalarda sosyal medya yöneten ekipler ile ajanslardır. Funnel’da consideration ağırlıklıdır: kullanıcı artık sürdürülebilir üretim sistemi ister; tek çekimden post/story/reels/bannera giden akışı kurmak ister. Ana iş sorusu: “Çekim gününü nasıl planlarım (moodboard+shot list), tek çekimden 1 aylık çoklu formatı nasıl çıkarırım ve arşiv/isimlendirme ile takvime nasıl entegre ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Doğru planlanmış bir çekim günü, otel ve B2B markalar için 1–3 aylık sosyal medya içeriğinin ham materyalini üretebilir. Çekim öncesi moodboard, shot list ve senaryo çalışması; gün içi paniği azaltır ve çekim sonrası post–story–reels olarak kolay bölünebilen zengin bir arşiv sağlar. En iyi yaklaşım: amaç ve konsepti netleştirip shot list’i formatlara göre yazmak, çekim sonrası dosya isimlendirme/klasörleme ile içerik takvimine bağlamaktır.",
+      "sgeSummary": "Tek çekimle 1 ay içerik için: amaç+konsept belirle, moodboard hazırla, shot list’i post/story/reels formatına göre yaz. Çekim sonrası arşiv ve isimlendirme kur, takvime dağıt.",
+      "voiceAnswer": "Sosyal medya çekiminde shot list hazırlayın; her sahneyi post, story ve reels’e bölünecek şekilde çekin.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel/destinasyon ve B2B markalar; ajanslar, creative ekipler.",
+        "KPI: üretim hızı, içerik sürekliliği, stok görsel ihtiyacının azalması, revizyon süresi, reels çıktısı, DM/CTR.",
+        "Entity: production day, shot list, content batching, multi-format output, asset library, naming convention.",
+        "GEO: (Varsayım) Otel çekimlerinde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda “deneyim kanıtı” kareleri önceliklenir.",
+        "Funnel: Awareness (deneyim reels) → Consideration (SSS/oda detay) → Conversion (kampanya CTA).",
+        "Veri noktası: planlı çekim günü kullanan markalarda yoğun sezonda görsel “stok” sıkıntısı azalır ve üretim hızı artar (sheet).",
+        "Risk: dosya boyutu/format (dikey-yatay) ve web/blog kullanım uyumu planlanmazsa arşiv verimsizleşir (sheet teknik not)."
+      ]
+    },
+    "h1": {
+      "title": "Çekim Günü Optimizasyonu: 1 Çekimle 1 Aylık Sosyal Medya İçeriği",
+      "intro": "Sosyal medya üretimi tıkandığında genelde iki sebep vardır: ya içerik fikri yoktur ya da görsel/video hammaddesi yoktur. İkinci problem daha kritik çünkü çözümü “bir post daha yazmak” değildir; çözümü planlı bir çekim günü ile içerik bankası oluşturmaktır. Tek bir çekim gününü doğru kurgularsanız; sadece Instagram feed değil, story, reels, banner ve hatta blog/web görselleri için bile ham materyal üretebilirsiniz. Bu rehber; çekim günü planlamasını (amaç–konsept–moodboard–shot list), otel ve B2B senaryolarını, tek çekimden çoklu format üretmeyi, çekim sonrası arşiv/isimlendirmeyi ve içerik takvimi entegrasyonunu “playbook” gibi adım adım verir.",
+      "quickSummary": [
+        "1) Çekimin amacını, KPI’ını ve konseptini netleştir",
+        "2) Moodboard ve 30+ sahnelik shot list hazırla",
+        "3) Her sahneye format etiketi ekle: P/S/R/W",
+        "4) Otel ve B2B için farklı shot list blokları oluştur",
+        "5) Çekim sonrası arşiv, isimlendirme ve takvim entegrasyonunu kur"
+      ],
+      "ctaPrimary": {
+        "label": "Çekim Günü & İçerik Batching Analizi Talep Et",
+        "text": "Tek çekimle 1 aylık içerik bankası kurmak isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çekim Günü & İçerik Batching Analizi Talep Et",
+        "text": "Tek çekimle 1 aylık içerik bankası kurup üretimi hızlandırmak isteyen markalar için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Çekim Günü Shot List & 1 Ay İçerik Planlama Şablonunu İndir",
+        "text": "Çekimi sahne sahne planlar; 1 günde 30 içerik parçası çıkaracak düzeni kurarsınız.",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM içerik üretimi hizmet sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Grafik ve motion tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya İçerik Üretimi Nedir?",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "Video Prodüksiyon ile Sosyal Medya İçeriği Nasıl Üretilir?",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cekim-gunu-planlamasi-amac-concept-shot-list",
+        "title": "Çekim Günü Planlaması (Amaç, Concept, Shot List)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Çekim gününün başarısı, kameradan önce brief ile başlar. Amaç net değilse “ne denk gelirse” çekilir; sonra da “bunu nereye koyacağız?” kaosu yaşanır. Planlamada hedef: çekim gününü bir “kreatif etkinlik” değil, üretim hattı gibi yönetmek."
+          },
+          {
+            "type": "p",
+            "text": "Planlama 3 parçaya bölünür:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Amaç & KPI (bu çekim neyi besliyor?)",
+              "Konsept & moodboard (görsel dünya)",
+              "Shot list (formatlara bölünebilir sahneler)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çekim günü nasıl planlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Çekim günü; amaç ve konsepti netleştirip moodboard oluşturduktan sonra, shot list’i post/story/reels formatlarına göre yazılarak planlanır. Gün içi akış; mekan–kadro–ışık–kıyafet–props gibi detaylarla kilitlenir ve her sahne “hangi formatta kullanılacağı” notuyla çekilir."
+          },
+          {
+            "type": "h3",
+            "text": "Ön hazırlık checklist’i"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Moodboard (10 referans)",
+              "Shot list (en az 30 sahne)",
+              "Mekân planı + çekim sırası",
+              "Ekip/rol dağılımı (kim çekiyor, kim yönlendiriyor)",
+              "Kıyafet/props listesi (Varsayım: otel/b2b için)",
+              "İzinler (yüz görünen kişi/konuk) (Varsayım)",
+              "Yedek plan (hava/yoğunluk)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her sahnenin “kullanım formatı” belli mi?",
+              "Gün içi çekim sırası (mekân rotası) var mı?",
+              "İzin ve gizlilik riski kontrol edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Çekim gününden 48 saat önce shot list’i kilitle.",
+              "“Format etiketi” ekle: P (post), S (story), R (reels), W (web).",
+              "Çekim gününde 3 blokla ilerle: oda/ürün → deneyim/süreç → ekip/kanıt."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-cekim-senaryolari",
+        "title": "Otel ve B2B İçin Çekim Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Shot list herkes için aynı değildir. Otelde “deneyim ve kanıt” ön plandadır; B2B’de “insan, süreç ve güven” ön plandadır. İyi çekim günü; sektörün satın alma itirazlarını bilir ve o itirazları görselleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel çekiminde neleri mutlaka çekmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Otel çekiminde oda tipleri, deneyim alanları (yemek/spa/havuz), destinasyon bağlamı ve ekip hizmet anları mutlaka çekilmelidir. Amaç; kullanıcıya “gerçek deneyim” kanıtı vermek ve SSS/itirazları görsel olarak desteklemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel shot list blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda: geniş plan, detay plan (yatak, banyo, balkon)",
+              "Deneyim: restoran sunum, spa, havuz/beach, kids (varsa)",
+              "Hizmet anı: karşılama, concierge, housekeeping (anonim) (Varsayım)",
+              "Destinasyon: rota/konum tabelaları, yakın çevre (Antalya/Belek/Side/Kemer/Bodrum bağlamı doğal)",
+              "SSS görsel seti: transfer, check-in, otopark gibi ikon/kart için arka plan (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için hangi kareler gerekir?"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de ekip, ofis, toplantı/süreç sahneleri ve (gizlilik kontrolüyle) ekran görüntüsü/ürün arayüzü gerekir. Amaç; “biz kimiz, nasıl çalışıyoruz, ne üretiyoruz?” sorusuna görsel kanıt üretmektir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B shot list blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ekip portreleri + iş anı",
+              "Toplantı, sprint, whiteboard",
+              "Ürün/dash ekranı (anonimleştirilmiş) (Varsayım)",
+              "Teslimat/çıktı görselleri (rapor, panel, plan) (Varsayım)",
+              "Kültür/backstage (güven)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde “kanıt” sahneleri (oda/temizlik/hizmet) var mı?",
+              "B2B’de “süreç” görünür mü?",
+              "Gizlilik/izin riskli kareler ayrıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde “oda + deneyim + ekip” üçlüsünü kilitle.",
+              "B2B’de “ekip + süreç + çıktı” üçlüsünü kilitle.",
+              "Her bloktan en az 10 sahne hedefle (toplam 30+)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "fotograf-ve-videodan-coklu-format-uretmek",
+        "title": "Fotoğraf ve Video’dan Çoklu Format Üretmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek çekimden 1 aylık içerik çıkarmanın sırrı; aynı sahneyi farklı formatlara bölmektir. Bir sahne;"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "reels (5–10 sn cut),",
+              "story (2–3 parça),",
+              "post (tek görsel),",
+              "carousel (3–5 slayt)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "olabilir. Bu yüzden shot list’i yazarken “hangi sahne hangi format” notu şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Tek çekimden 1 ay yetecek sosyal medya içeriği nasıl çıkarılır?"
+          },
+          {
+            "type": "p",
+            "text": "Çekimde her sahneyi kısa videoya uygun (dikey) ve fotoğrafa uygun (yatay/dikey) alarak çekin; sonra sahneleri post/story/reels olarak “cut” edip içerik bankasına koyun. En verimli yöntem: çekim sonrası 2 günlük bir “post-prod sprint” ile ham materyali 30 içerik parçasına bölmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Multi-format üretim kuralı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 mekân = 1 reels + 2 story + 1 foto hedefi (Varsayım)",
+              "Her reels için 6–8 sahne (hook + detay + CTA)",
+              "Story için sticker yerleşimi planı (anket/soru kutusu) (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Çekimde dikey format yeterince var mı?",
+              "Her sahne “en az 2 format”a bölünebilir mi?",
+              "Hook/CTA için ayrı kısa cut çekiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Shot list’e format etiketi” ekle: R/S/P/C.",
+              "Çekimde her sahneden 3 varyasyon al: geniş/orta/detay.",
+              "Çekim sonrası 48 saat içinde ilk 10 içeriği hazırla (momentum)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "cekim-sonrasi-arsiv-ve-isimlendirme",
+        "title": "Çekim Sonrası Arşiv ve İsimlendirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İçerik bankası kurmanın “gizli maliyeti” arşivdir. Arşiv yoksa çekim boşa gider: “hangi dosya neredeydi?” kaosu başlar. İyi arşiv; klasör yapısı + isimlendirme + meta notlarla çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Sheet teknik notu: dosya boyutları, dikey/yatay format tercihleri ve web/blog’da da kullanılabilecek karelerin üretilmesi gerektiği vurgulanıyor. Bu yüzden arşivde “format” ve “kullanım” etiketi şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Klasör yapısı (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/01_RAW/",
+              "/02_SELECTS/",
+              "/03_EDITED/",
+              "/04_EXPORTS/POST/",
+              "/04_EXPORTS/STORY/",
+              "/04_EXPORTS/REELS/",
+              "/05_WEB_BLOG/"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İsimlendirme standardı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YYYYMMDD_mekan_tema_format_001.mp4",
+              "20260311_lobby_deneyim_reels_003.mp4 (Varsayım: örnek)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "RAW ve export karışıyor mu?",
+              "Dosya adında tarih + tema + format var mı?",
+              "Web/blog kullanılacak kareler ayrılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Çekim sonrası ilk iş: selects klasörü ve isim standardı.",
+              "Her export’a “format” etiketini koy.",
+              "Web/blog karelerini ayrı klasöre ayır; SEO değeri üret."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-takvimi-ile-entegrasyon",
+        "title": "İçerik Takvimi ile Entegrasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Arşiv tek başına yeterli değil; içerik takvimine bağlanmadıkça “stok” gibi kalır. Takvimde her içerik satırı; ilgili dosya linkini, formatını, tema/pillar’ını ve CTA’sını taşımalı."
+          },
+          {
+            "type": "h3",
+            "text": "Takvim sütun önerisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih | Kanal | Format | Tema/Pillar | Hook | CTA | Dosya linki | Not (UTM/event) (Varsayım)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Çekim Günü Shot List Tablosu",
+            "headers": [
+              "Sahne",
+              "Mekân",
+              "Tema",
+              "Format etiketi (P/S/R/W)",
+              "Kadraj",
+              "Not",
+              "Çıkacak içerikler"
+            ],
+            "rows": [
+              [
+                "Oda geniş plan",
+                "Oda / suite",
+                "Konaklama kanıtı",
+                "P/S/R/W",
+                "Geniş + detay",
+                "Balkon, yatak, banyo detayları ayrı alınır",
+                "Feed post, story seti, reels cut, web/blog görseli"
+              ],
+              [
+                "Restoran sunum",
+                "Restoran",
+                "Deneyim",
+                "S/R/P",
+                "Orta + detay",
+                "Tabak, servis ve atmosfer varyasyonları alınır",
+                "Reels, story, carousel slaytı"
+              ],
+              [
+                "Ekip hizmet anı",
+                "Lobi / resepsiyon",
+                "Güven ve hizmet",
+                "S/R/W",
+                "Orta plan",
+                "Yüz/izin ve gizlilik kontrolü yapılır",
+                "Story, reels, web güven görseli"
+              ],
+              [
+                "B2B toplantı sahnesi",
+                "Ofis / toplantı odası",
+                "Süreç ve şeffaflık",
+                "P/S/R/W",
+                "Geniş + detay",
+                "Ekran ve müşteri bilgileri anonimleştirilir",
+                "LinkedIn post, story, reels cut, blog görseli"
+              ],
+              [
+                "Çıktı/rapor görseli",
+                "Ofis / masa",
+                "Kanıt ve deliverable",
+                "P/W",
+                "Detay plan",
+                "Rapor/panel hassas veriler temizlenir",
+                "Carousel, web/blog görseli"
+              ]
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Çekim Günü Shot List & 1 Ay İçerik Planlama Şablonunu İndir — SMM / Production Day (v1.0)",
+            "purpose": "Bu asset; tek bir çekim gününü üretim hattına çevirir: moodboard, shot list, format etiketleri ve post-prod sprint planıyla 1 aylık içerik bankası oluşturmayı hedefler. Otel ve B2B ekipleri için arşiv/isimlendirme standardı ve takvim entegrasyonu sunar.",
+            "whoFor": "Otel/destinasyon ve B2B markaların sosyal medya–creative ekipleri; ajans prodüksiyon ekipleri.",
+            "steps": [
+              "Moodboard + amaç + konsepti yaz; 30+ sahnelik shot list’i format etiketleriyle doldur.",
+              "Çekimde sahneleri “geniş/orta/detay” varyasyonla al; dikey/yatay gereksinimi not et.",
+              "14 günlük sprint planıyla seç–edit–export–takvim dağıt adımlarını tamamla."
+            ],
+            "checklist": [
+              "Çekimin hedefi net mi? (KPI: içerik sürekliliği / reels sayısı / kampanya)",
+              "Konsept ve moodboard hazır mı (10 referans)?",
+              "Shot list 30+ sahne mi?",
+              "Her sahnenin format etiketi var mı (P/S/R/W)?",
+              "Mekân rotası ve zaman planı yapıldı mı?",
+              "Ekip/rol dağılımı net mi?",
+              "İzin/gizlilik kontrolü yapıldı mı?",
+              "Dikey/yatay ihtiyaçları not edildi mi?",
+              "Arşiv klasör yapısı hazır mı?",
+              "İsimlendirme standardı belirlendi mi?"
+            ],
+            "problemRootSolution": [
+              {
+                "problem": "Çekimde panik",
+                "rootCause": "shot list yok",
+                "solution": "sahne bazlı plan + zaman blokları"
+              },
+              {
+                "problem": "Çekimden içerik çıkmıyor",
+                "rootCause": "format düşünülmedi",
+                "solution": "P/S/R/W etiketleme + varyasyon çekim"
+              },
+              {
+                "problem": "Dosyalar kayboluyor",
+                "rootCause": "arşiv yok",
+                "solution": "klasör + isim standardı"
+              },
+              {
+                "problem": "Dikey içerik az",
+                "rootCause": "yatay çekim ağırlığı",
+                "solution": "her sahneyi dikey varyasyonla çek"
+              }
+            ],
+            "sprintPlan": [
+              "Gün 1: Amaç + konsept + KPI kilidi",
+              "Gün 2: Moodboard (10 referans)",
+              "Gün 3: Shot list (30+ sahne) + format etiketleri",
+              "Gün 4: Mekân rotası + ekip planı",
+              "Gün 5: Çekim günü (blok 1–3)",
+              "Gün 6: RAW → SELECTS seçimi",
+              "Gün 7: İlk 10 içerik cut (reels/story/post)",
+              "Gün 8: Export preset + altyazı şablonu (Varsayım)",
+              "Gün 9: Arşiv klasörleme + isimlendirme",
+              "Gün 10: Kalan içeriklerin edit/export’u",
+              "Gün 11: Takvime dağıt (30 gün)",
+              "Gün 12: CTA/UTM notları ekle (Varsayım)",
+              "Gün 13: KPI takip planı",
+              "Gün 14: Retrospective + shot list revizyonu"
+            ],
+            "kpiTable": [
+              "Önce: aylık içerik boşluğu ___ | stok ihtiyacı ___ | üretim hızı ___",
+              "Sonra: aylık içerik bankası ___ | stok ihtiyacı ___ | üretim hızı ___ (Varsayım)"
+            ],
+            "deliverables": [
+              "Moodboard",
+              "Shot list tablosu",
+              "Mekân rotası + ekip planı",
+              "Arşiv klasör yapısı + isim standardı",
+              "30 günlük takvim entegrasyonu",
+              "Buraya: Shot list tablosu görseli + multi-format diyagram görseli"
+            ],
+            "href": "/downloads/cekim-gunu-shot-list-1-ay-icerik-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Takvimde dosya linki var mı?",
+              "İçerik bankası ile takvim aynı dili konuşuyor mu?",
+              "Çekimden çıkan içerikler 30 güne dağıtıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 çekim → 30 içerik hedefi koy (esnek).",
+              "İlk 2 hafta için içerikleri önden planla.",
+              "KPI’ya göre aynı bankadan yeni varyasyon üret."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kreatif-cekim-degil-uretim-gunu",
+        "title": "Fark Yaratan Mini Bölüm: “Kreatif Çekim” Değil “Üretim Günü”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de çoğu kaynak çekimi kreatif açıdan anlatıyor; ancak tek çekimden çoklu sosyal format üretme ve arşiv yönetimi daha az işlenmiş (sheet). Buradaki yaklaşım, çekim gününü “kreatif” değil üretim olarak tasarlamak: shot list format etiketi, post-prod sprint, arşiv standardı ve takvim entegrasyonu."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çekim Günü & İçerik Batching Analizi Talep Et",
+            "text": "1 çekimden 1 aylık içerik bankası ve arşiv sistemi kurmak isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Tek çekim günü doğru planlanırsa içerik üretimi sürdürülebilir hale gelir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çekim günü optimizasyonu, sosyal medya üretimini “son dakika görsel arama” probleminden çıkarır ve sistemli bir içerik bankasına dönüştürür. Amaç, konsept, moodboard ve shot list net olduğunda çekim günü yalnızca kreatif bir gün değil; post, story, reels, banner ve web/blog görselleri üreten bir üretim hattı haline gelir."
+          },
+          {
+            "type": "p",
+            "text": "En kritik fark, çekimin sadece çekim anıyla sınırlı düşünülmemesidir. Format etiketi, çoklu kadraj, arşiv/isimlendirme standardı ve içerik takvimi entegrasyonu birlikte kurulursa tek çekimden 1 aylık sürdürülebilir sosyal medya akışı çıkarılabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çekim Günü & İçerik Batching Analizi Talep Et",
+            "text": "Tek çekimle 1 aylık içerik bankası kurup üretimi hızlandırmak isteyen markalar için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Çekim Günü Shot List & 1 Ay İçerik Planlama Şablonunu İndir",
+            "text": "Çekimi sahne sahne planlar; 1 günde 30 içerik parçası çıkaracak düzeni kurarsınız.",
+            "href": "/tr/creative/video-produksiyon"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çekim günü nasıl planlanır?",
+        "a": "Amaç ve konsepti netleştirip moodboard oluşturun, sonra 30+ sahneli shot list yazın. Her sahneyi hangi formatta kullanacağınızı (post/story/reels) not ederek çekim sırasını planlayın."
+      },
+      {
+        "q": "Tek çekimden 1 ay yetecek sosyal medya içeriği nasıl çıkarılır?",
+        "a": "Çekimde sahneleri dikey/yatay varyasyonla alın ve her sahneyi en az iki formata bölünebilir çekin. Çekim sonrası 2 günlük post-prod sprint ile ham materyali 30 içerik parçasına dönüştürün."
+      },
+      {
+        "q": "Otel çekiminde neleri mutlaka çekmeliyim?",
+        "a": "Oda tipleri, deneyim alanları (yemek/spa/havuz), hizmet anları ve destinasyon bağlamı temel set olmalıdır. Ayrıca SSS’yi destekleyecek detay kareler çekmek dönüşümü kolaylaştırır."
+      },
+      {
+        "q": "B2B için hangi kareler gerekir?",
+        "a": "Ekip ve süreç sahneleri, ofis/backstage, toplantı akışı ve gizlilik kontrolüyle ekran/çıktı görselleri gerekir. Amaç güven ve şeffaflık üretmektir."
+      },
+      {
+        "q": "Çekim sonrası dosyaları nasıl arşivlemeliyim?",
+        "a": "RAW/SELECTS/EDITED/EXPORTS gibi klasör yapısı kurun ve dosya adında tarih–mekân–tema–format bilgisi kullanın. Web/blog için kullanılacak kareleri ayrı klasöre ayırın."
+      },
+      {
+        "q": "Çekimden çıkan içerikleri takvime nasıl bağlarım?",
+        "a": "Takvimde dosya linki sütunu açıp her içeriğe ilgili dosyayı bağlayın. Format, tema ve CTA notu ekleyerek 30 güne dağıtın ve KPI’ya göre aynı bankadan yeni varyasyonlar üretin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-hero-01.webp — Çekim günü optimizasyonu hero görseli, 1 çekimle 1 aylık içerik",
+          "h1-context — 1920×1080 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-h1-context-02.webp — Çekim günü → arşiv → formatlara bölme bağlam görseli",
+          "divider-01 — 1600×1200 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-divider-03.webp — Planlama ve shot list bölüm ayırıcı görseli",
+          "divider-02 — 1600×1200 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-divider-04.webp — Otel ve B2B çekim senaryoları bölüm ayırıcı görseli",
+          "diagram-05 — 1920×1080 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-diagram-05.webp — Multi-format output diyagramı, tek çekimden post/story/reels",
+          "checklist-06 — 1200×1200 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-checklist-06.webp — Çekim günü checklist kartı, moodboard ve shot list",
+          "kpi-07 — 1200×1200 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-kpi-07.webp — İçerik batching KPI kartı, üretim hızı ve stok sıkıntısı",
+          "proof-08 — 1200×1200 — cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi-proof-08.webp — Shot list tablosu ve arşiv/isimlendirme deliverables görseli",
+          "table-shot-list — Çekim Günü Shot List Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema için 6 soru-cevap alanı hazırlanacak",
+          "İç link hedefleri kontrol edilecek: /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon, /tr/creative/grafik-motion-tasarim",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /tr/creative/video-produksiyon",
+          "Destek link hedefi: /tr/creative/grafik-motion-tasarim",
+          "Shot list format etiketleri kullanılacak: P/S/R/W",
+          "Dosya isimlendirme standardı kontrol edilecek: YYYYMMDD_mekan_tema_format_001",
+          "Dikey/yatay format ihtiyaçları çekim öncesi shot list’e eklenecek",
+          "Web/blog kullanılacak kareler ayrı klasörde planlanacak",
+          "Media pack dosya adları blog slug ile birebir uyumlu olacak",
+          "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
+        ]
+      }
+    }
+  },
+
+  "BlogDmVeYorumYanitSablonlariSosyalMedyaIcerigininGorunmeyenYuzu": {
+    "title": "DM ve Yorum Yanıt Şablonları: Hızlı ve Tutarlı İletişim",
+    "slug": "dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu",
+    "department": "smm",
+    "subDepartment":"content",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "DM ve yorum yanıtlarını standartlaştırın: soru/şikâyet/fiyat/rezervasyon/demoya hazır şablonlar, ton rehberi ve KVKK güvenli akışla yanıt süresini düşürün.",
+    "seo": {
+      "metaTitle": "DM ve Yorum Yanıt Şablonları: Hızlı ve Tutarlı İletişim | DGTLFACE",
+      "metaDescription": "DM ve yorum yanıtlarını standartlaştırın: soru/şikâyet/fiyat/rezervasyon/demoya hazır şablonlar, ton rehberi ve KVKK güvenli akışla yanıt süresini düşürün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu",
+        "Blog No: #18",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      ],
+      "strategySummary": "Bu blog, sosyal medya üretimini yalnız “post paylaşımı” olarak değil, DM ve yorum yanıtlarını da bir içerik türü olarak ele alan core child içeriktir; yüksek mesaj hacminde marka tonu ve hizmet kalitesini standardize eder. Hedef persona; otel/restoran/klinik gibi DM hacmi yüksek işletmeler ile B2B hesaplarında ajans ve satış–pazarlama ekipleridir. Funnel’da consideration → conversion ağırlıklıdır: doğru yanıt; soruyu netleştirir, güven verir, rezervasyon/lead adımına taşır. Ana iş sorusu: “Hangi DM/yorum tipine hangi yanıt yapısı gerekir; şablonla kişiselleştirmeyi nasıl dengelerim ve KVKK/CRM/call center ile güvenli akış nasıl kurulur?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medya içeriği sadece paylaştığınız post’lardan ibaret değildir; DM ve yorumlara verdiğiniz yanıtlar da markanın tonu ve hizmet kalitesini gösterir. Önceden hazırlanmış, marka diline uygun yanıt şablonları; ekip hızını artırır ve misafir/müşteri için tutarlı deneyim sunar. En iyi model: şablonu iskelet olarak kullanıp 1–2 kişisel detay eklemek; hassas verileri DM’de değil güvenli kanallarda toplamak ve yanıtları CRM/call center akışına bağlamaktır.",
+      "sgeSummary": "DM/yorum yanıtları da içeriktir: soru–şikâyet–fiyat–rezervasyon–demo için şablon kütüphanesi kurun. Şablonu kişiselleştirin, tonu koruyun, hassas veriyi DM’de toplamayın; CRM/call center’a bağlayın.",
+      "voiceAnswer": "Şablon kullanabilirsiniz; ama 1–2 kişisel detay ekleyin ve hassas bilgileri DM’de istemeyin.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli DM hacmi yüksek otel/restoran/klinik ve B2B hesapları; ajanslar.",
+        "KPI: ilk yanıt süresi, çözüm süresi, DM’den rezervasyon/lead dönüşümü, memnuniyet, olumsuz yorum kapanışı.",
+        "Entity: DM replies, comment responses, response templates, brand tone, conversational content, reply UX.",
+        "GEO: (Varsayım) Otel örneklerinde destinasyon (Antalya/Belek/Side/Kemer/Bodrum) ve sezon bağlamı yanıt tonunu etkiler.",
+        "Funnel: DM → net yanıt → güven → rezervasyon/lead.",
+        "Risk: KVKK; hassas veriyi DM’de toplamak yerine güvenli kanal/CRM formu kullanmak gerekir (sheet teknik not).",
+        "Veri noktası: düzenli şablon kullanan markalarda DM yanıt süresi ve memnuniyet daha iyi raporlanıyor (sheet)."
+      ]
+    },
+    "h1": {
+      "title": "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçerik Üretiminin Görünmeyen Yüzü",
+      "intro": "Sosyal medyada görünür olan içerikler post’lar, reels’ler ve story’lerdir; ama görünmeyen tarafta asıl “marka deneyimi” DM ve yorumlarda yaşanır. Aynı içerik kalitesiyle iki marka arasında fark yaratan şey çoğu zaman şudur: biri mesajlara 10 dakikada net ve tutarlı yanıt verir; diğeri geç, dağınık ve farklı tonlarda yanıt verir. Kullanıcı için bu, “hizmet kalitesi” sinyalidir. Bu rehberde DM ve yorum yanıtlarını bir içerik türü olarak ele alacağız: yanıt tiplerini sınıflandıracağız (soru, şikâyet, teşekkür, fiyat, rezervasyon, demo/teklif), marka tonu ve dilini standardize edeceğiz, şablon–kişiselleştirme dengesini kuracağız ve call center/CRM/KVKK güvenli akışı ile ölçeklenebilir bir “yanıt kütüphanesi” çıkaracağız.",
+      "quickSummary": [
+        "1) DM ve yorum yanıtlarını da içerik türü olarak ele al",
+        "2) Mesaj tiplerini soru, şikâyet, teşekkür, fiyat, rezervasyon ve demo olarak sınıflandır",
+        "3) Marka tonu ve yanıt dilini ekip genelinde standardize et",
+        "4) Şablonları iskelet olarak kullanıp 1–2 kişisel detay ekle",
+        "5) Hassas veriyi DM’de isteme; CRM/call center/güvenli kanal akışı kur"
+      ],
+      "ctaPrimary": {
+        "label": "DM & Yorum Yanıt İçerik Analizi Talep Et",
+        "text": "Yanıt kalitesini ve hızını marka diline uygun şekilde standardize etmek isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "DM & Yorum Yanıt İçerik Analizi Talep Et",
+        "text": "DM/yüksek yorum hacminde marka tonunu koruyup yanıt süresini düşürmek isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "DM/Yorum Yanıt Şablon & Ton Rehberi Şablonunu İndir",
+        "text": "Kütüphane mantığında 30+ yanıt şablonu çıkarır; ekibinize tutarlı iletişim standardı kazandırırsınız.",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM içerik üretimi hizmet sayfası",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Çağrı merkezi mesaj yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya İçerik Üretimi Nedir?",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "title": "Mesaj Yönetimi ile DM Süreçleri Nasıl Standartlaştırılır?",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-yanit-icerigi-onemli",
+        "title": "Neden Yanıt İçeriği Önemli?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Yanıt içeriği, sosyal medyada “satışın ve itibarın” birleştiği noktadır. Bir kullanıcı fiyat sorar, siz cevap verirsiniz; bu bir satış konuşmasıdır. Bir kullanıcı şikâyet yazar, siz yönetirsiniz; bu itibar yönetimidir. Bir kullanıcı teşekkür eder, siz karşılık verirsiniz; bu sadakat yaratır. Yani yanıtlar; içerik üretiminin bir parçası değil, içerik üretiminin devamıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otel ve yüksek hacimli işletmelerde (rezervasyon, transfer, iptal, çocuk politikası gibi) aynı sorular tekrar eder. B2B’de de demo/teklif, kapsam, süre, fiyat gibi tekrar eden sorular vardır. Kütüphane mantığı burada devreye girer: “tek sefer yaz, doğru kullan”."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medyada DM ve yorumlara nasıl cevap vermeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "En iyi yaklaşım: hızlı, net ve tek aksiyonlu yanıt vermektir. Önce soruyu anladığınızı gösterin, kısa cevap verin, gerekiyorsa 1 net soru sorun ve bir sonraki adımı (DM/telefon/link) belirtin. Şikâyette empati→çözüm→kapanış akışı kullanın; hassas veriyi DM’de istemeyin."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Yanıtlarınız aynı tonla mı yazılıyor?",
+              "Cevaplar tek aksiyonla mı bitiyor?",
+              "“Hassas bilgi”yi DM’de mi topluyorsunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yanıtları kategoriye ayır ve kütüphane kur.",
+              "En sık 20 soru için hazır şablon yaz.",
+              "Şikâyet yanıtında 3 adımı standardize et (empati→çözüm→kapanış)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "dm-ve-yorum-turleri",
+        "title": "DM ve Yorum Türleri (Soru, Şikâyet, Teşekkür, Fiyat, Rezervasyon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yanıtların ölçeklenmesi için önce “gelen mesajları” sınıflandırmak gerekir. Çünkü fiyat sorusuna verilen dil ile şikâyete verilen dil aynı olamaz. Ayrıca yorumlar “herkese açık” olduğu için DM’den farklı risk taşır: gereksiz detay veya hassas bilgi paylaşılmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Ana DM/yorum tipleri"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bilgi sorusu: konum, saatler, hizmet detayları",
+              "Fiyat/teklif: “fiyat nedir?” “paket var mı?”",
+              "Rezervasyon niyeti: “şu tarihte müsait mi?”",
+              "Şikâyet/olumsuz yorum: memnuniyetsizlik, gecikme",
+              "Teşekkür/övgü: memnuniyet, beğeni",
+              "B2B demo/teklif: toplantı isteği, kapsam sorusu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel için fiyat/rezervasyon sorularına nasıl yazmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Fiyat/rezervasyon yanıtı; tek cümle netlik + 1 kısa soru + tek aksiyonla çalışır. “Fiyat tarih ve oda tipine göre değişiyor; tarihinizi ve kişi sayınızı yazın, en uygun seçenekleri hemen paylaşalım” gibi. Alternatif olarak güvenli bir link veya çağrı merkezi yönlendirmesi eklenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Fiyat yanıtı “tarih/kisi” gibi netleştirici soru içeriyor mu?",
+              "Rezervasyon için tek kanal belirli mi (WhatsApp/link/call center)?",
+              "Yorumlarda fiyat pazarlığına girmiyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Fiyat/rezervasyon için “DM ana şablon” ve “yorum kısa şablon” üret.",
+              "1 net soru ile bilgi topla; 3 soru sormaktan kaçın.",
+              "CTA’yı tek kanala indir (DM devam / link / call center)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yanit-tonu-ve-marka-dili",
+        "title": "Yanıt Tonu ve Marka Dili",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Şablonlar işe yarar ama “robot” gibi görünürse zarar verir. Burada çözüm: şablonun %80’i sabit kalsın, %20’si kişiselleşsin. Kişiselleştirme; ad, tarih, ihtiyacın tekrarı ve küçük bir sıcak cümle olabilir. Ton; otelde misafirperver ve pratik, B2B’de net ve profesyonel olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "GEO (Varsayım): Otel hesaplarında destinasyon vurgusu (Antalya/Belek/Side/Kemer/Bodrum) yanıtın bağlamını güçlendirebilir; fakat spam yapılmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Ton rehberi"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kısa cümle",
+              "Net bilgi",
+              "Empati (şikâyette)",
+              "Tek CTA",
+              "Gereksiz emoji/jargon yok"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı soruya farklı çalışanlar farklı tonda mı cevap veriyor?",
+              "Şikâyette savunmaya geçmeden empati kuruluyor mu?",
+              "Yanıtlarınızda “kopyala-yapıştır” kokusu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "10 “tercih edilen” ve 10 “yasak” kelime listesi oluştur.",
+              "Her şablona 1 kişiselleştirme alanı ekle (tarih, isim, ihtiyaç).",
+              "Şikâyet yanıtlarını ayrı klasörde yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hazir-sablonlar-vs-kisisellestirme",
+        "title": "Hazır Şablonlar vs Kişiselleştirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Yanıt şablonu kullanmak yapay durur mu?” sorusunun cevabı: şablonun nasıl kullanıldığına bağlı. Şablon, iskeletse yapay durmaz; bire bir kopyaysa yapay durur. En iyi pratik: şablonun içine değişken alanlar koymaktır: {isim}, {tarih}, {oda tipi}, {ihtiyaç}, {kanal}."
+          },
+          {
+            "type": "h3",
+            "text": "Yanıt şablonu kullanmak yapay durur mu?"
+          },
+          {
+            "type": "p",
+            "text": "Yapay durmaz; eğer şablon “iskelet” olarak kullanılıp 1–2 kişisel detay eklenirse. Yapay duran şey, hiçbir değişiklik yapmadan kopyalamaktır. Şablonlar hız verir, kişiselleştirme güven verir; ikisini birlikte kullanın."
+          },
+          {
+            "type": "h3",
+            "text": "Kişiselleştirme için 4 mikro dokunuş"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İhtiyacı tekrar et: “Temmuz’da aile odası soruyorsunuz…”",
+              "1 net soru: “Tarih ve kişi sayısı nedir?”",
+              "Mini teşekkür: “Yazdığınız için teşekkürler”",
+              "Tek next step: “DM’den ‘TARİH’ yazın” (Varsayım)"
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "DM/Yorum Yanıt Şablon & Ton Rehberi Şablonunu İndir — SMM / Conversation Content (v1.0)",
+            "purpose": "Bu şablon; DM ve yorum yanıtlarını kategori bazlı bir kütüphaneye dönüştürerek ekip hızını ve ton tutarlılığını artırır. Otel ve B2B senaryolarında fiyat/rezervasyon/demoya yanıt verirken KVKK riskini azaltmak için “güvenli kanal” yönlendirmelerini de standartlaştırır.",
+            "whoFor": "Otel/restoran/klinik ve B2B hesaplarında DM hacmi yüksek sosyal medya + çağrı merkezi/mesaj ekipleri; ajanslar.",
+            "steps": [
+              "Mesaj tiplerini etiketle (soru/şikâyet/teşekkür/fiyat/rezervasyon/demo).",
+              "Her tip için kısa–orta–uzun 3 şablon yaz; değişken alanları ekle.",
+              "KVKK “DM’de istenmez” listesini ekle; güvenli kanal link/numara standardını kilitle."
+            ],
+            "template": {
+              "brandTone": [
+                "Ton: ___ / ___ / ___",
+                "Tercih edilen kelimeler (10): ___",
+                "Yasak kelimeler (10): ___",
+                "Emoji dozu: (0–2 / 0–4) ___ (Varsayım)"
+              ],
+              "kvkkSecureChannelStandard": [
+                "DM’de istenmez (hassas veri listesi): ___",
+                "Güvenli kanal: (call center / link / form) ___",
+                "Standart yönlendirme cümlesi: ___"
+              ],
+              "messageTypesAndTemplates": [
+                "Bilgi sorusu — Kısa (yorum): ___ | Orta (DM): ___ | Uzun (DM): ___",
+                "Fiyat — Kısa (yorum): ___ | Orta (DM): ___ | Uzun (DM): ___",
+                "Rezervasyon — Kısa (yorum): ___ | Orta (DM): ___ | Uzun (DM): ___",
+                "Şikâyet — Kısa (yorum): ___ | Orta (DM): ___ | Uzun (DM): ___",
+                "Teşekkür — Kısa: ___ | Orta: ___ | Uzun: ___",
+                "B2B demo/teklif — Kısa (yorum): ___ | Orta (DM): ___ | Uzun (DM): ___"
+              ],
+              "variables": [
+                "{isim}",
+                "{tarih}",
+                "{kişi}",
+                "{oda_tipi}",
+                "{hedef}",
+                "{kanal_link}",
+                "{telefon}"
+              ],
+              "qualityControl": [
+                "Tek aksiyon CTA: ___",
+                "1 net soru kuralı: ___",
+                "Empati→çözüm→kapanış (şikâyet): ___"
+              ],
+              "howToFill": [
+                "Şablonu bire bir kopyalama; 1–2 kişisel detay ekle.",
+                "Yorumlarda fiyat pazarlığı ve hassas veri isteme; DM’ye al.",
+                "Şikâyette empatiyle başla, çözüm öner, kapanışta net aksiyon ver.",
+                "B2B’de kapsamı 1 soruyla netleştir (hedef ne?).",
+                "Kampanya çıktıkça şablonları güncelle ve ekiple paylaş."
+              ],
+              "filledExample": [
+                "Ton: “net, misafirperver, pratik”",
+                "Fiyat DM: “{tarih} ve {kişi} bilgisini yazarsanız en uygun seçenekleri hemen paylaşalım.”",
+                "KVKK: “Kimlik/kartekranı gibi bilgileri DM’de istemiyoruz; şu linkten ilerleyelim.” (Varsayım)"
+              ],
+              "checklist": [
+                "Kütüphane 6 mesaj tipini kapsıyor mu?",
+                "Her tipte kısa–orta–uzun şablon var mı?",
+                "Değişken alanlar eklendi mi?",
+                "KVKK güvenli kanal cümlesi sabit mi?",
+                "Şikâyet akışı empati→çözüm→kapanış mı?",
+                "Ekip paylaşım ve güncelleme rutini var mı?"
+              ],
+              "deliverables": [
+                "Yanıt kütüphanesi (30+ şablon)",
+                "Ton rehberi (kelime listesi)",
+                "KVKK güvenli kanal standardı",
+                "DM→rezervasyon/lead akış notu",
+                "Buraya: DM/yorum tipi tablosu + akış diyagramı görseli"
+              ]
+            },
+            "href": "/downloads/dm-yorum-yanit-sablon-ton-rehberi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Şablonda değişken alanlar var mı?",
+              "Kişiselleştirme 1–2 satırla sınırlı mı?",
+              "Yanıt süresi düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Şablonları “değişken alanlı” formatta yaz.",
+              "3 seviye hazırla: kısa (yorum), orta (DM), uzun (şikâyet).",
+              "Haftalık “şablon audit” yap: güncel mi, kampanya var mı?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-dm-yorum-yanit-kutuphanesi",
+        "title": "Otel ve B2B İçin Örnek DM/Yorum Yanıt Kütüphanesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki kütüphane, “kopyala-yapıştır” için değil; ekip içinde standart oluşturmak için iskelettir. Her şablonda değişken alanlar vardır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel — fiyat/rezervasyon (DM) şablonu"
+          },
+          {
+            "type": "p",
+            "text": "“Merhaba {isim} 😊 {tarih} için {oda tipi}/{kişi sayısı} bilgisini alabilir miyim? Fiyatlar bu detaylara göre değişiyor. Yazdığınız an en uygun seçenekleri DM’den paylaşayım.”"
+          },
+          {
+            "type": "h3",
+            "text": "Otel — fiyat (yorum) kısa şablon"
+          },
+          {
+            "type": "p",
+            "text": "“Merhaba! Fiyatlar tarih ve oda tipine göre değişiyor. DM’den {tarih}+{kişi} yazarsanız hemen yardımcı olalım.”"
+          },
+          {
+            "type": "h3",
+            "text": "Otel — şikâyet yanıtı (yorum)"
+          },
+          {
+            "type": "p",
+            "text": "“Yaşadığınız durum için üzgünüz. Konuyu hemen kontrol etmek isteriz. DM’den rezervasyon adınızı/ tarih bilgisinizi paylaşır mısınız? Size en kısa sürede dönüş yapacağız.”"
+          },
+          {
+            "type": "p",
+            "text": "Not: hassas detayları yorumda istemeyin."
+          },
+          {
+            "type": "h3",
+            "text": "B2B — demo/teklif DM şablonu"
+          },
+          {
+            "type": "p",
+            "text": "“Merhaba {isim}, ilgilendiğiniz için teşekkürler. Hangi hedefe odaklanıyorsunuz? (lead artışı / maliyet düşüşü / raporlama) 1 cümle yazarsanız uygun kapsam ve kısa bir görüşme slotu önereyim.”"
+          },
+          {
+            "type": "h3",
+            "text": "B2B — fiyat sorusu (yorum) kısa şablon"
+          },
+          {
+            "type": "p",
+            "text": "“Merhaba! Fiyat kapsam ve hedefe göre değişiyor. DM’den hedefinizi yazarsanız 2 seçenekle dönüş yapalım.”"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: DM/Yorum Tipi → Yanıt Şablonu Tablosu",
+            "headers": [
+              "Mesaj tipi",
+              "Amaç",
+              "Yanıt yapısı",
+              "Otel örneği",
+              "B2B örneği",
+              "CTA",
+              "KVKK notu"
+            ],
+            "rows": [
+              [
+                "Bilgi sorusu",
+                "Kullanıcıya hızlı ve net bilgi vermek",
+                "Soruyu anladığını göster → kısa yanıt → tek next step",
+                "Konum, saat, transfer, çocuk politikası bilgisi",
+                "Hizmet kapsamı, süreç, teslim süresi bilgisi",
+                "DM devam / link / telefon",
+                "Hassas veri gerekmez; detay gerekiyorsa güvenli kanala taşı"
+              ],
+              [
+                "Fiyat/teklif",
+                "Fiyat beklentisini netleştirmek ve doğru bilgi almak",
+                "Kısa açıklama → 1 net soru → tek kanal",
+                "Tarih ve kişi sayısı iste; fiyatın detaylara göre değiştiğini belirt",
+                "Hedef/kapsam sor; 2 seçenekle dönüş öner",
+                "DM / form / call center",
+                "Kart, kimlik, özel bilgi istenmez"
+              ],
+              [
+                "Rezervasyon niyeti",
+                "Kullanıcıyı rezervasyon adımına taşımak",
+                "Müsaitlik kontrolü → minimum bilgi → güvenli yönlendirme",
+                "Tarih + kişi + oda tipi al; link/call center’a yönlendir",
+                "Görüşme slotu veya demo formuna yönlendir",
+                "Rezervasyon linki / WhatsApp / form",
+                "Rezervasyon için hassas veri güvenli kanalda alınır"
+              ],
+              [
+                "Şikâyet/olumsuz yorum",
+                "İtibarı korumak ve çözüm akışı başlatmak",
+                "Empati → kontrol/çözüm niyeti → güvenli kanal",
+                "“Yaşadığınız durum için üzgünüz…” ile başlayıp DM’ye al",
+                "Sorunu kabul etmeden çözüm sürecini başlat ve iletişim kanalı ver",
+                "DM / destek formu / call center",
+                "Hassas detayları yorumda isteme"
+              ],
+              [
+                "Teşekkür/övgü",
+                "Sadakat ve topluluk hissi yaratmak",
+                "Teşekkür → kişisel sıcaklık → düşük bariyerli aksiyon",
+                "“Güzel yorumunuz için teşekkür ederiz…”",
+                "“Geri bildiriminiz bizim için değerli…”",
+                "Etiketle / tekrar bekleriz / paylaş",
+                "Hassas veri gerektirmez"
+              ],
+              [
+                "B2B demo/teklif",
+                "Lead’i netleştirmek ve görüşmeye taşımak",
+                "Teşekkür → 1 hedef sorusu → slot/link önerisi",
+                "Kurumsal etkinlik/otel anlaşması için güvenli form",
+                "“Hangi hedefe odaklanıyorsunuz?” sorusu + görüşme slotu",
+                "Takvim linki / form / DM",
+                "Şirket verisi ve özel dosyalar güvenli kanala taşınır"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde yorumda hassas veri istemiyor musunuz?",
+              "B2B’de kapsam sorusunu 1 cümleyle netleştiriyor musunuz?",
+              "Her şablon tek aksiyonla bitiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kütüphaneyi 6 kategoriyle kur: bilgi, fiyat, rezervasyon, şikâyet, teşekkür, B2B demo.",
+              "Her kategori için 3 şablon yaz (kısa/orta/uzun).",
+              "Şablonları ekibe mini eğitimle devret."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "call-center-crm-ve-kvkk",
+        "title": "Teknik Not: Call Center, CRM ve KVKK (Güvenli Veri Toplama)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sheet teknik notu net: call center, CRM ve KVKK gereksinimleri nedeniyle hassas veriler DM’de değil, güvenli kanallarda toplanmalıdır. DM’de kimlik, kart bilgisi, sağlık bilgisi, pasaport vb. istemek risklidir. Otelde rezervasyon için güvenli link/çağrı merkezi; B2B’de form/CRM kayıtlı kanal önerilir."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: DM’de sadece minimum bilgi (tarih, kişi sayısı, genel ihtiyaç) alınır; kişisel/hassas veri güvenli kanala taşınır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "DM’de hassas veri istiyor musunuz? (istemeyin)",
+              "Güvenli kanal linki/numarası hazır mı?",
+              "CRM’e aktarım kuralınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“DM’de istenmez” veri listesini ekibe yazılı ver.",
+              "Call center/CRM entegrasyon cümlesini standartlaştır.",
+              "Kampanya dönemlerinde şablonları güncelle ve duyur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yanit-kutuphanesi-marka-dili-standardi",
+        "title": "Fark Yaratan Mini Bölüm: Yanıt Kütüphanesi = Marka Dili Standardı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de yanıtlar genelde anlık ve kişiye göre değişiyor; marka diliyle uyumlu, kütüphane mantığında yönetilen yanıt rehberleri az (sheet). Oysa yanıt kütüphanesi kurulduğunda hız artar, ton tutarlı kalır ve DM’den rezervasyon/lead akışı daha temiz yönetilir. Ayrıca düzenli şablon kullanan markalarda yanıt süresi ve memnuniyetin daha iyi raporlandığı gözlemleniyor (sheet veri noktası)."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "DM & Yorum Yanıt İçerik Analizi Talep Et",
+            "text": "Yanıt kütüphanenizi marka tonuna göre kurup hız/memnuniyeti artırmak isteyenler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: DM ve yorum yanıtları, sosyal medya içerik üretiminin görünmeyen satış alanıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DM ve yorum yanıtları, sosyal medyada yalnızca operasyonel cevaplar değildir; marka tonu, hizmet kalitesi, güven ve dönüşüm sinyali üretir. Kullanıcı bir soru sorduğunda hızlı, net ve tek aksiyonlu yanıt almak ister. Bu nedenle yanıt kütüphanesi; sosyal medya içerik üretiminin görünmeyen ama en kritik parçalarından biridir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru model, şablon ve kişiselleştirmeyi birlikte kullanmaktır. Şablonlar ekip hızını artırır, kişiselleştirme güven verir, KVKK güvenli kanal standardı ise riski azaltır. Böylece DM’den rezervasyon/lead akışı daha temiz, ölçülebilir ve marka diline uygun şekilde yönetilebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "DM & Yorum Yanıt İçerik Analizi Talep Et",
+            "text": "DM/yüksek yorum hacminde marka tonunu koruyup yanıt süresini düşürmek isteyen ekipler için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "DM/Yorum Yanıt Şablon & Ton Rehberi Şablonunu İndir",
+            "text": "Kütüphane mantığında 30+ yanıt şablonu çıkarır; ekibinize tutarlı iletişim standardı kazandırırsınız.",
+            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medyada DM ve yorumlara nasıl cevap vermeliyim?",
+        "a": "Hızlı, net ve tek aksiyonla cevap verin. Soruyu anladığınızı gösterip kısa yanıt verin; gerekiyorsa tek bir net soru sorun ve bir sonraki adımı belirtin."
+      },
+      {
+        "q": "Yanıt şablonu kullanmak yapay durur mu?",
+        "a": "Şablon iskelet olarak kullanılır ve 1–2 kişisel detay eklenirse yapay durmaz. Yapay duran şey, hiçbir değişiklik yapmadan kopyalamaktır."
+      },
+      {
+        "q": "Otel için fiyat/rezervasyon sorularına nasıl yazmalıyım?",
+        "a": "Tarih ve kişi sayısı gibi tek netleştirici bilgi isteyin ve tek kanal üzerinden yönlendirin (DM devam/WhatsApp/link). Fiyat pazarlığını yorumlarda uzatmayın."
+      },
+      {
+        "q": "B2B’de demo/teklif DM’lerine yanıt örnekleri neler?",
+        "a": "Önce hedefi netleştiren tek soru sorun (lead mi, maliyet mi?). Sonra kısa seçenek ve görüşme adımı önerin; link veya takvim daveti ile tamamlayın."
+      },
+      {
+        "q": "Şikâyet yorumlarına nasıl yanıt vermeliyim?",
+        "a": "Empatiyle başlayın, çözüm niyetini net söyleyin ve DM’ye alın. Hassas detayları yorumda istemeyin; güvenli kanal üzerinden ilerleyin."
+      },
+      {
+        "q": "DM’de hangi bilgileri istememeliyim?",
+        "a": "Kimlik, kart bilgisi, sağlık verisi gibi hassas veriler DM’de istenmemelidir. Güvenli kanal (call center/CRM formu) üzerinden toplanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-hero-01.webp — DM ve yorum yanıt şablonları hero görseli, tutarlı iletişim",
+          "h1-context — 1920×1080 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-h1-context-02.webp — Yanıt içeriğinin görünmeyen yüzü bağlam görseli, marka tonu",
+          "divider-01 — 1600×1200 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-divider-03.webp — Yanıt içeriği önemi bölüm ayırıcı görseli",
+          "divider-02 — 1600×1200 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-divider-04.webp — Şablon vs kişiselleştirme bölüm ayırıcı görseli",
+          "diagram-05 — 1920×1080 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-diagram-05.webp — DM→cevap→rezervasyon/lead conversational funnel diyagramı",
+          "checklist-06 — 1200×1200 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-checklist-06.webp — Şablon + kişiselleştirme checklist kartı, reply kalitesi",
+          "kpi-07 — 1200×1200 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-kpi-07.webp — Yanıt KPI kartı: hız, memnuniyet, dönüşüm",
+          "proof-08 — 1200×1200 — dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu-proof-08.webp — Yanıt kütüphanesi deliverables: kategori seti ve ton rehberi",
+          "table-dm-comment-response-template — DM/Yorum Tipi → Yanıt Şablonu Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema için 6 soru-cevap alanı hazırlanacak",
+          "İç link hedefleri kontrol edilecek: /tr/smm/icerik-uretimi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /tr/cagri-merkezi/mesaj-yonetimi",
+          "Destek link hedefi: /tr/cagri-merkezi/rezervasyon-destegi",
+          "DM/yorum şablonlarında değişken alanlar kullanılacak: {isim}, {tarih}, {kişi}, {oda_tipi}, {hedef}, {kanal_link}, {telefon}",
+          "KVKK güvenli kanal standardı UI’da hassas veri uyarısı olarak ele alınacak",
+          "Yanıt şablonları kısa/orta/uzun seviye yapısıyla kurgulanacak",
+          "Şikâyet akışı empati→çözüm→kapanış olarak standardize edilecek",
           "Media pack dosya adları blog slug ile birebir uyumlu olacak",
           "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
         ]
