@@ -39429,6 +39429,56 @@ export const BLOG_MEDIA_MAP = {
       alt: "Privacy-aware rapor çıktıları kartı, güvenli yorumlama, kurum bağlamı",
       caption: "Privacy-aware rapor çıktıları kartı, güvenli yorumlama, kurum bağlamı"
     }
+  },
+
+  "etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi":{
+    banner: {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-1.webp",
+      alt: "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
+      caption: "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-2.webp",
+      alt: "Tık ve içerik tüketimi ayrımı, amaç doğru rapor okumak, otel blog bağlamı",
+      caption: "Tık ve içerik tüketimi ayrımı, amaç doğru rapor okumak, otel blog bağlamı" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-3.webp",
+    alt: "CTR ötesi raporlama geçişi, amaç engagement odağı, SEO raporlama bağlamı",
+      caption: "CTR ötesi raporlama geçişi, amaç engagement odağı, SEO raporlama bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-4.webp",
+      alt: "Scroll ve event ölçümü geçişi, amaç içerik tüketimi, UX bağlamı",
+      caption: "Scroll ve event ölçümü geçişi, amaç içerik tüketimi, UX bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-5.webp",
+      alt: "Content engagement modeli akışı, amaç tık→tüketim→dönüşüm, otel ve B2B bağlamı",
+      caption: "Content engagement modeli akışı, amaç tık→tüketim→dönüşüm, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-6.webp",
+      alt: "Etkileşim KPI checklist kartı, amaç uygulama adımları, içerik ekibi bağlamı",
+      caption: "Etkileşim KPI checklist kartı, amaç uygulama adımları, içerik ekibi bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-7.webp",
+      alt: "Engaged session ve scroll KPI kartı, amaç hızlı özet, SEO ve UX bağlamı",
+      caption: "Engaged session ve scroll KPI kartı, amaç hızlı özet, SEO ve UX bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-23/SEO5-23-8.webp",
+      alt: "Engagement raporu deliverables kartı, amaç güven ve çıktı, ajans bağlamı",
+      caption: "Engagement raporu deliverables kartı, amaç güven ve çıktı, ajans bağlamı"
+    }
   }
 
 

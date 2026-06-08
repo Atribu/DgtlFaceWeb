@@ -273,7 +273,9 @@ export const BLOG_MAP = {
     "veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi":"BlogVeriKalitesiVeIzlemeHijyeniSeoRaporlarinizGuvenilirMi",
     "raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek":"BlogRaporlamaRitmiVeSeoOperasyonKulturuHaftalikAylikCeyrek",
     "bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu":"BlogBigQueryVeVeriAmbariIleSeoDataWarehouseKurulumu",
-    "consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz":"BlogConsentModeVeCookieBannerdanSonraSeoRaporlamasiniNasilDogruYorumlarsiniz"
+    "consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz":"BlogConsentModeVeCookieBannerdanSonraSeoRaporlamasiniNasilDogruYorumlarsiniz",
+
+    "etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi":"BlogEtkilesimMetrikleriEngagedSessionScrollDepthVeIcerikKalitesi"
   },
 
     smm: {

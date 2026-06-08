@@ -79390,6 +79390,580 @@
         ]
       }
     }
-  }
+  },
 
+  "BlogEtkilesimMetrikleriEngagedSessionScrollDepthVeIcerikKalitesi": {
+    "title": "SEO Raporuna Engagement KPI’ları Nasıl Eklenir? | DGTLFACE",
+    "slug": "etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi",
+    "department": "seo",
+    "subDepartment":"reporting",
+    "updatedAt": "8 Haziran 2026",
+    "publishedAt": "2026-06-08",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Engaged session, engagement rate ve scroll depth ile “tık aldı ama okunmadı” sorununu gör. GA4 event’lerini içerik bloklarına bağla; içerik kalitesi/UX için net aksiyon çıkar.",
+    "seo": {
+      "metaTitle": "SEO Raporuna Engagement KPI’ları Nasıl Eklenir? | DGTLFACE",
+      "metaDescription": "Engaged session, engagement rate ve scroll depth ile “tık aldı ama okunmadı” sorununu gör. GA4 event’lerini içerik bloklarına bağla; içerik kalitesi/UX için net aksiyon çıkar."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı + Sayfa URL: SEO Raporlama & Performans Analizi — https://dgtlface.com/tr/seo/seo-raporlama",
+        "Blog No + Blog URL: 23 — https://dgtlface.com/tr/seo/blog/etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Tactical",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count Range = 3000–3500",
+        "Refresh Cycle: 180 gün (GA4 engagement metrikleri ve event önerileri geliştikçe güncellenecek)",
+        "Varsayım: Silo breadcrumb için SEO kök sayfası https://dgtlface.com/tr/seo kabul edilmiştir.",
+        "Canonical: /tr/seo/blog/etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi"
+      ],
+      "strategySummary": "Bu içerik, SEO raporlamayı “CTR ve sıralama” odaklı okumadan çıkarıp kullanıcı içeriği gerçekten tüketiyor mu? sorusuna bağlayan trend rehberidir. Hedef persona; otel/hizmet blogu yöneten pazarlama liderleri ve ajans yöneticileridir: “tık var ama okunma yok” problemini görünür yapmak ister. Funnel MoFu’dadır; rapor, hangi landing/içeriklerin UX ve içerik kalitesi açısından öncelikli iyileştirme adayı olduğunu netleştirir. Ana iş sorusu: “Engaged session, engagement rate, scroll depth ve kritik event’lerle içerik kalitesini nasıl ölçer, SEO raporuna ikinci katman KPI olarak nasıl eklerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-08",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Modern SEO raporlamasında yalnız sıralama ve tıklamaya bakmak yetmez; kullanıcı içeriği gerçekten tüketiyor mu, sayfada ne kadar ilerliyor, kritik bloklara ulaşıyor mu sorularını da ölçmek gerekir. GA4’te engaged session ve engagement rate; scroll depth ve önemli event’lerle birleştiğinde “tık aldı ama okunmadı” senaryolarını ortaya çıkarır. Bu metrikleri SEO raporunda ikinci katman KPI olarak kullanmak, içerik kalitesi ve UX iyileştirmelerini daha doğru önceliklendirir.",
+      "sgeSummary": "Engaged session, engagement rate ve scroll depth’i rapora ekle; içerik tüketimini ölç. Kritik blok event’lerini tanımla, “tık var ama okunma yok” sayfalarını bul ve aksiyon önceliği ver.",
+      "voiceAnswer": "Kullanıcıların ne kadar okuduğunu scroll depth ve kritik event’lerle ölçüp raporlayabilirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: İçerik hacmi yüksek siteler, otel/hizmet blogları, ajanslar",
+        "KPI seti: Engaged sessions, engagement rate, scroll depth, CTA click, form view/submit (varsa)",
+        "Entity Theme: Engaged Sessions; Engagement Rate; Scroll Depth; Content Quality",
+        "Semantic Theme: user engagement; consumption signals; behaviour-aware SEO reporting",
+        "Funnel: görünürlük/tıklama → içerik tüketimi → mikro etkileşim → (varsa) dönüşüm",
+        "Geo: TR geneli; örneklerde otel ve B2B senaryoları",
+        "Çıktı: GA4 mockup + scroll/event tablosu + içerik kalite/UX öncelik listesi"
+      ]
+    },
+    "h1": {
+      "title": "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
+      "intro": "SEO raporları çoğu zaman “tıklama geldi mi?” sorusuna takılır; oysa asıl kritik soru şudur: tıklayan kullanıcı içeriği tüketti mi? Özellikle içerik hacmi yüksek otel ve hizmet bloglarında, “tık aldı ama okunmadı” sayfalar bütçeyi ve ekibi yanlış yöne sürükler. Bu rehber, GA4’te engaged session ve engagement rate’i; scroll depth ve içerik blok event’leriyle birleştirip SEO raporuna ikinci katman KPI olarak eklemenin pratik yolunu anlatır.",
+      "quickSummary": [
+        "SEO raporları çoğu zaman “tıklama geldi mi?” sorusuna takılır",
+        "Asıl kritik soru şudur: tıklayan kullanıcı içeriği tüketti mi?",
+        "GA4’te engaged session ve engagement rate’i; scroll depth ve içerik blok event’leriyle birleştirmek gerekir",
+        "SEO raporuna ikinci katman KPI olarak eklemek pratik bir yoldur"
+      ],
+      "ctaPrimary": {
+        "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
+        "text": "İçerik/landing’lerde “okunma ve tüketim” sinyallerini KPI’a çevirip önceliklendirmek isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
+        "text": "İçerik tüketimini KPI’a çevirip, öncelikli iyileştirme adaylarını hızlı belirlemek isteyen ekipler için.",
+        "href": "/seo/seo-raporlama"
+      },
+      "secondary": {
+        "label": "Engagement KPI & Scroll Depth Raporlama Şablonunu İndir",
+        "text": "Scroll eşikleri ve kritik event setini standartlaştırır; “tık var ama okunma yok” sayfalarını netleştirmenizi sağlar.",
+        "href": "/downloads/engagement-kpi-scroll-depth-raporlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Consent Mode ve Cookie Banner’dan Sonra SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
+        "href": "/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz"
+      },
+      {
+        "title": "SEO Raporlama & Performans Analizi",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ctr-ve-siralamanin-otesi-etkilesim-metrikleri",
+        "title": "CTR ve Sıralamanın Ötesi: Etkileşim Metrikleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "CTR ve sıralama, “Google’dan tık aldık mı?” sorusunu cevaplar. Etkileşim metrikleri ise “site içinde değer oluştu mu?” sorusunu cevaplar. İkisini birleştirmezseniz, SEO raporu yanlış sonuç üretir: CTR iyi diye sevindiğiniz sayfada kullanıcı 3 saniyede çıkıyor olabilir; CTR düşük diye kestiğiniz sayfa ise az ama çok nitelikli kullanıcı getiriyor olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Etkileşim metrikleri SEO’ya ne kazandırır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik kalitesini “hissettim” değil “ölçtüm” seviyesine çeker",
+              "UX sorunlarını landing düzeyinde görünür yapar",
+              "“trafik var ama dönüşüm yok” durumlarında kaybın hangi sayfada olduğunu hızla gösterir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Raporum “tıklama” yanında “tüketim” sinyali veriyor mu?",
+              "“Tık aldı ama okunmadı” sayfalarını ayrı listeliyor muyum?",
+              "Etkileşim KPI’ları aksiyon üretiyor mu (yoksa sadece grafik mi)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "SEO raporunu iki katmana ayırın: (1) görünürlük/tıklama, (2) tüketim/etkileşim.",
+              "En çok tık alan ilk 20 landing için engagement KPI’larını zorunlu ekleyin.",
+              "“CTR iyi + engagement düşük” sayfaları UX/ilk ekran vaadi sprint’ine alın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "ga4te-engaged-session-ve-engagement-rate",
+        "title": "GA4’te Engaged Session ve Engagement Rate",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "GA4’te engaged session, “oturum gerçekten bir şey oldu mu?” sorusuna yaklaşan bir sinyaldir; engagement rate de bunun oranıdır. Bunlar tek başına “iyi/kötü” damgası değildir; içerik türüne ve niyete göre yorumlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Engaged session nedir, SEO raporunda neden önemlidir?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu (AEO)",
+            "items": [
+              "Engaged session; kullanıcının sayfada anlamlı bir etkileşim yaşadığını işaret eden oturumları temsil eder. SEO raporunda önemlidir çünkü CTR’ın ötesine geçip “tık sonrası değer”i gösterir: kullanıcı içeriği tüketiyor mu, kritik adımlara ilerliyor mu, yoksa sadece tıklayıp çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Engagement rate düşükse ne anlama gelir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik niyeti yanlış olabilir (kullanıcı aradığı cevabı bulamıyor)",
+              "İlk ekran vaadi zayıf olabilir (başlık doğru, içerik giriş kötü)",
+              "Sayfa UX’i zorlayıcı olabilir (mobil okuma, hız, pop-up vb.)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel blogu)"
+          },
+          {
+            "type": "p",
+            "text": "“Antalya’da çocuklu aile aktiviteleri” içeriği yüksek tık alıyor ama engagement düşükse; kullanıcı ya hızlı cevap arıyordur (listede bulamıyor) ya da ilk ekranda “özet + içindekiler” eksiktir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Engagement KPI’larını içerik türüne göre yorumluyor muyum (blog vs landing)?",
+              "Mobil/desktop kırılımını ayrı görüyor muyum?",
+              "Düşük engagement için “niyet mi UX mi?” ayrımı yapıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Engaged session/engagement rate’i “ikinci katman KPI” olarak rapora ekleyin.",
+              "Düşük engagement’te önce “ilk ekran vaadi + içerik yapısı”nı kontrol edin.",
+              "Mobilde düşükse teknik/UX (CWV, pop-up) kontrolünü aynı sayfaya bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scroll-depth-ve-onemli-eventler",
+        "title": "Scroll Depth ve Önemli Event’ler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Scroll depth, “kullanıcı sayfada ne kadar ilerledi?” sorusunu ölçer. Ama tek başına %50/%90 gibi eşikler, içerik türüne göre farklı anlamlara gelir. Bu yüzden doğru yaklaşım: scroll depth’i kritik blok event’leri ile birleştirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Scroll depth’i nasıl ölçer ve yorumlarım?"
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Net cevap bloğu (AEO)",
+            "items": [
+              "Scroll depth için önce “içerik tüketimi sayılacak eşik” belirleyin (ör. %50). Sonra kritik içerik bloklarına ulaşılıp ulaşılmadığını event’lerle ölçün (ör. “fiyat/oda detayı”, “form view”, “CTA click”). Yorumda hedef; tık alan ama aşağı inmeyen sayfaları tespit edip içerik yapısını ve UX’i iyileştirmektir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi scroll seviyesi “tüketim” sayılır?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kısa içerikte %50 bile yeterli olabilir",
+              "Uzun rehber içerikte %50 “okumaya başladı” sayılır, %75+ daha güçlü sinyaldir",
+              "En pratik yöntem: eşik + blok modeli (scroll + section view)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Tık aldı ama okunmadı” senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTR iyi, tıklama var",
+              "Engagement düşük",
+              "Scroll düşük"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu senaryo, SEO değil; çoğu zaman içerik yapısı/UX sorunudur."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Scroll depth ve kritik event’ler",
+            "headers": [
+              "KPI",
+              "Ölçüm",
+              "Ne anlatır?",
+              "Tipik sorun",
+              "İlk aksiyon"
+            ],
+            "rows": [
+              [
+                "Scroll %25",
+                "scroll_event",
+                "ilk ekranı geçti mi",
+                "giriş zayıf",
+                "giriş + TOC"
+              ],
+              [
+                "Scroll %50",
+                "scroll_event",
+                "tüketim başladı mı",
+                "niyet/UX",
+                "yapı + hız"
+              ],
+              [
+                "Section view",
+                "section_event",
+                "kritik bloğa geldi mi",
+                "sayfa uzun/dağınık",
+                "blok yeniden düzen"
+              ],
+              [
+                "CTA click",
+                "click_event",
+                "aksiyon niyeti var mı",
+                "CTA görünmüyor",
+                "CTA yerleşimi"
+              ],
+              [
+                "Form view",
+                "view_event",
+                "dönüşüm niyeti var mı",
+                "form sürtünmesi",
+                "form UX"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Scroll eşiklerini içerik türüne göre seçtim mi?",
+              "Kritik bloklar için event tanımım var mı?",
+              "“tık var ama okunma yok” listem otomatik çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Scroll depth’i tek başına değil, section/CTA/form event’leriyle raporlayın.",
+              "İlk 20 landing’de “tık var ama okunma yok” filtresi oluşturun.",
+              "İçerik bloklarını yeniden sıralayın: özet → içindekiler → kritik cevap → detay."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "icerik-kalitesi-ile-etkilesim-iliskisi",
+        "title": "İçerik Kalitesi ile Etkileşim İlişkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümün ana fikri: engagement metrikleri “SEO KPI” değildir; ama içerik kalitesi ve UX’in güçlü sinyalleridir. Bu yüzden SEO raporunda ikinci katman olarak konumlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Content engagement modeli (AIO uyumlu)"
+          },
+          {
+            "type": "p",
+            "text": "Engagement → içerik kalitesi → iş etkisi zinciri şöyle okunur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı içeriği tüketiyorsa (engagement + scroll + blok event), içerik/UX doğru eşleşmiştir.",
+              "Tüketim varsa, CTA ve yönlendirme iyi kurgulanırsa mikro etkileşimler dönüşüme yaklaşır.",
+              "Tüketim yoksa, SEO tarafında daha fazla trafik çekmek “daha fazla boşa tık” üretir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "p",
+            "text": "B2B hizmet sayfasında “case/kanıt” bloğuna ulaşan kullanıcı oranı düşükse; içerik kalitesi değil, sayfa akışı/kanıt yerleşimi sorunu olabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Etkileşim KPI’ları içerik iyileştirme backlog’una bağlanıyor mu?",
+              "CTR iyi diye düşük engagement’i görmezden gelmiyor muyum?",
+              "Engaged session artışıyla dönüşüm artışı birlikte mi izleniyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "İçerik kalite raporunu “engagement + scroll + CTA” üçlüsüyle kurun.",
+              "Düşük engagement’li yüksek trafikli sayfaları P1 iyileştirme listesine alın.",
+              "Yüksek engagement’li sayfaları “büyütme” listesine alın (internal link, snippet)."
+            ]
+          },
+
+                    {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-ornekleri",
+        "title": "Otel ve B2B Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Etkileşim metrikleri, sektör ve niyet farkına göre farklı okunur. Otelde kullanıcı daha “karar odaklı”; B2B’de daha “kanıt ve güven” odaklı ilerleyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği (blog → destinasyon/oda)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blog içerikte %50 scroll + “odalar” link tıklaması yüksekse: içerik doğru niyeti yakalamış demektir.",
+              "CTA click düşükse: CTA görünürlüğü ve “bir sonraki adım” kurgusu zayıftır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği (hizmet sayfası → form)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“case/kanıt” bloğu görüntülenme oranı düşükse: sayfa akışı ve kanıt konumlandırması iyileştirilir.",
+              "Form view var ama submit yoksa: form sürtünmesi/alan sayısı ve güven unsurları incelenir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "technical",
+            "title": "Technical Not",
+            "items": [
+              "Engagement metrikleri, özellikle “trafik var ama dönüşüm yok” durumlarında hangi sayfa ve içeriklerin öncelikli iyileştirme adayı olduğunu ortaya çıkarmada kritiktir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otel ve B2B’de “kritik blok” tanımlarım farklı mı?",
+              "Mikro event seti (CTA/form/rezervasyon adımı) net mi?",
+              "Engagement KPI’larını “aksiyon listesi”ne çeviriyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Otel için “okuma→oda/rezervasyon adımı” event zinciri kurun.",
+              "B2B için “kanıt→CTA→form view→submit” zinciri kurun.",
+              "En zayıf 10 landing’i engagement KPI’larına göre sprint’e alın; en iyi 10’u büyütün."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
+            "text": "Engagement KPI’larını doğru event planıyla kurup “tık var ama tüketim yok” problemini sayfa bazında çözmek isteyen ekipler için.",
+            "href": "/seo/seo-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "engagement-kpi-scroll-depth-raporlama-sablonu",
+        "title": "Engagement KPI & Scroll Depth Raporlama Şablonunu İndir — SEO / Engagement (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Engagement KPI & Scroll Depth Raporlama Şablonunu İndir — SEO / Engagement (v1.0)",
+            "purpose": "Bu şablon, SEO raporlarına engaged session, engagement rate, scroll depth ve kritik event’leri ikinci katman KPI olarak eklemenizi sağlar. “Tık aldı ama okunmadı” sayfalarını sistematik biçimde tespit edip, içerik kalitesi ve UX iyileştirmelerini önceliklendirmenize yardımcı olur. KPI sözlüğünü ve event isimlerini standardize ederek raporların tutarlı kalmasını hedefler.",
+            "whoFor": "İçerik hacmi yüksek siteler, otel/hizmet blogları, ajans SEO & analitik ekipleri.",
+            "steps": [
+              "Scroll eşiklerini ve kritik blok event’lerini seç (blog vs landing ayrımı).",
+              "GA4’te event sözlüğünü kur ve dashboard’a bağla.",
+              "“CTR/Click” + “Engagement” iki katman raporla; P1 iyileştirme listesini çıkar."
+            ],
+            "checklist": [
+              "scroll_25, scroll_50, scroll_75",
+              "section_view_keyblock (kritik blok)",
+              "cta_click_primary",
+              "form_view, form_submit (varsa)",
+              "Not: içerik türüne göre zorunlu event listesi ayrı",
+              "CTR yüksek + engagement düşük → ilk ekran/UX",
+              "CTR düşük + engagement yüksek → snippet/başlık-meta",
+              "Scroll düşük + CTA düşük → içerik yapısı/CTA görünürlüğü",
+              "Scroll yüksek + dönüşüm düşük → teklif/form sürtünmesi",
+              "Scroll eşikleri içerik türüne göre belirlendi",
+              "Kritik blok event’leri tanımlandı",
+              "KPI sözlüğü ve event isimleri sabitlendi",
+              "Top 20 landing için engagement raporu üretildi",
+              "P1 iyileştirme listesi çıkarıldı (en az 5 sayfa)"
+            ],
+            "href": "/downloads/engagement-kpi-scroll-depth-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Engaged session nedir, SEO raporunda neden önemlidir?",
+        "a": "Engaged session, kullanıcının sayfada anlamlı etkileşim yaşadığını gösteren bir sinyaldir. SEO raporunda önemlidir çünkü tıktan sonra içerik tüketimi olup olmadığını görmenizi sağlar."
+      },
+      {
+        "q": "Scroll depth’i nasıl ölçer ve yorumlarım?",
+        "a": "Önce içerik türüne göre eşikler belirleyin (ör. %50 tüketim başlangıcı). Sonra kritik blok event’leriyle destekleyin; düşük scroll, içerik yapısı veya UX sorununa işaret edebilir."
+      },
+      {
+        "q": "Engagement rate düşükse ne anlama gelir?",
+        "a": "Kullanıcı niyetiyle içerik uyuşmuyor, ilk ekran vaadi zayıf veya UX sürtünmesi yüksek olabilir. Mobil/desktop kırılımıyla birlikte okumak daha doğru sonuç verir."
+      },
+      {
+        "q": "İçerik kalitesini hangi etkileşim metrikleriyle izlemeliyim?",
+        "a": "Engaged session/engagement rate, scroll depth, kritik blok görüntüleme (section view) ve CTA click metrikleri birlikte en güçlü seti oluşturur."
+      },
+      {
+        "q": "“Tık aldı ama okunmadı” sayfalarını nasıl bulurum?",
+        "a": "CTR/clicks yüksekken engaged session ve scroll düşük olan sayfaları filtreleyin. Bu sayfalar genelde P1 iyileştirme adayıdır (ilk ekran, yapı, hız, pop-up)."
+      },
+      {
+        "q": "Engagement metrikleri SEO kararlarında nasıl kullanılır?",
+        "a": "Engagement KPI’ları, SEO raporunda ikinci katman olarak “içerik kalitesi/UX” teşhisi verir. Böylece büyütülecek ve düzeltilmesi gereken sayfaları daha doğru seçersiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 (1920×1080) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-hero-01.webp — Alt text: Etkileşim metrikleri dashboard görünümü, amaç içerik kalitesini ölçmek, otel ve B2B bağlamı",
+          "H1 context — 16:9 (1920×1080) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-h1-context-02.webp — Alt text: Tık ve içerik tüketimi ayrımı, amaç doğru rapor okumak, otel blog bağlamı",
+          "Section Divider 01 — 4:3 (1600×1200) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-divider-03.webp — Alt text: CTR ötesi raporlama geçişi, amaç engagement odağı, SEO raporlama bağlamı",
+          "Section Divider 02 — 4:3 (1600×1200) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-divider-04.webp — Alt text: Scroll ve event ölçümü geçişi, amaç içerik tüketimi, UX bağlamı",
+          "Diagram / Flow — 16:9 (1920×1080) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-diagram-05.webp — Alt text: Content engagement modeli akışı, amaç tık→tüketim→dönüşüm, otel ve B2B bağlamı",
+          "Checklist / Framework Card — 1:1 (1200×1200) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-checklist-06.webp — Alt text: Etkileşim KPI checklist kartı, amaç uygulama adımları, içerik ekibi bağlamı",
+          "KPI / Score Card — 1:1 (1200×1200) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-kpi-07.webp — Alt text: Engaged session ve scroll KPI kartı, amaç hızlı özet, SEO ve UX bağlamı",
+          "Deliverables / Proof Card — 1:1 (1200×1200) — etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi-proof-08.webp — Alt text: Engagement raporu deliverables kartı, amaç güven ve çıktı, ajans bağlamı",
+          "Tablo (1 adet): Scroll depth ve kritik event’ler özet tablosu"
+        ],
+        "technicalChecklist": [
+          "GA4 engaged session ve engagement rate metrikleri rapora eklendi",
+          "Scroll eşikleri içerik türüne göre belirlendi",
+          "Kritik blok event’leri tanımlandı",
+          "Event sözlüğü standardize edildi: scroll_25, scroll_50, scroll_75, section_view_keyblock, cta_click_primary, form_view, form_submit",
+          "Top 20 landing için engagement raporu üretildi",
+          "“CTR yüksek + engagement düşük” filtreleri kuruldu",
+          "“Tık var ama okunma yok” sayfaları P1 iyileştirme listesine alındı",
+          "Mobil/desktop kırılımları ayrı raporlandı",
+          "İçerik kalite/UX öncelik listesi oluşturuldu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü yapıldı",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  }
 }
