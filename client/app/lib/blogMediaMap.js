@@ -40181,6 +40181,358 @@ export const BLOG_MEDIA_MAP = {
       alt: "VIP içerik format seti deliverables, kanal akışı",
       caption: "VIP içerik format seti deliverables, kanal akışı"
     }
+  },
+
+
+   "ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi":{
+    banner: {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-1.webp",
+      alt: "İç Ekip ve Ajans İş Birliği: Brief ve Toplantı Ritmi Nasıl Kurulur?",
+      caption: "İç Ekip ve Ajans İş Birliği: Brief ve Toplantı Ritmi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-2.webp",
+      alt: "Sosyal medya brief şablonu ve toplantı ritmini B2B bağlamında özetleyen context görseli",
+      caption: "Sosyal medya brief şablonu ve toplantı ritmini B2B bağlamında özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-3.webp",
+    alt: "İç ekip ve ajans rol dağılımını ve karar yetkisini gösteren bölüm ayırıcı görseli",
+      caption: "İç ekip ve ajans rol dağılımını ve karar yetkisini gösteren bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-4.webp",
+      alt: "Onay akışı ve SLA mantığını sosyal medya operasyonunda gösteren bölüm görseli",
+      caption: "Onay akışı ve SLA mantığını sosyal medya operasyonunda gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-5.webp",
+      alt: "Brieften onaya ve yayın planına giden iç ekip ajans iş akışını gösteren diyagram",
+      caption: "Brieften onaya ve yayın planına giden iç ekip ajans iş akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-6.webp",
+      alt: "Ajansla çalışma checklist’ini brief onay toplantı başlıklarıyla özetleyen kart görseli",
+      caption: "Ajansla çalışma checklist’ini brief onay toplantı başlıklarıyla özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-7.webp",
+      alt: "Revizyon sayısı SLA uyumu gecikme ve rapor kalitesini gösteren governance KPI skor kartı",
+      caption: "Revizyon sayısı SLA uyumu gecikme ve rapor kalitesini gösteren governance KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-6/SMM2-6-8.webp",
+      alt: "Brief şablonu onay akışı ve toplantı ajandası deliverables setini özetleyen proof kartı",
+      caption: "Brief şablonu onay akışı ve toplantı ajandası deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama":{
+     banner: {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-1.webp",
+      alt: "Haftalık Sosyal Medya Operasyon Planı: İçerik, Yanıt ve Raporlama Akışı",
+      caption: "Haftalık Sosyal Medya Operasyon Planı: İçerik, Yanıt ve Raporlama Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-2.webp",
+      alt: "Pazartesi–Pazar ops tablosunu ve görev sahipliğini otel ve B2B için özetleyen görsel",
+      caption: "Pazartesi–Pazar ops tablosunu ve görev sahipliğini otel ve B2B için özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-3.webp",
+    alt: "Haftalık planın boş günler ve içerik sıkışmalarını azaltmasını anlatan bölüm görseli",
+      caption: "Haftalık planın boş günler ve içerik sıkışmalarını azaltmasını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-4.webp",
+      alt: "DM yorum yanıt SLA ve eskalasyon hattını gösteren sosyal medya operasyon görseli",
+      caption: "DM yorum yanıt SLA ve eskalasyon hattını gösteren sosyal medya operasyon görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-5.webp",
+      alt: "Haftalık ops toplantısı akışını ve mini rapor döngüsünü gösteren diyagram",
+      caption: "Haftalık ops toplantısı akışını ve mini rapor döngüsünü gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-6.webp",
+      alt: "Günlük ve haftalık sosyal medya rutin checklist’ini özetleyen kart görseli",
+      caption: "Günlük ve haftalık sosyal medya rutin checklist’ini özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-7.webp",
+      alt: "Yanıt süresi içerik yetişme oranı ve haftalık KPI trendini gösteren operasyon skor kartı",
+      caption: "Yanıt süresi içerik yetişme oranı ve haftalık KPI trendini gösteren operasyon skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-7/SMM2-7-8.webp",
+      alt: "Haftalık ops plan tablosu görev listesi ve mini rapor deliverables setini özetleyen proof kartı",
+      caption: "Haftalık ops plan tablosu görev listesi ve mini rapor deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler":{
+     banner: {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-1.webp",
+      alt: "Kanal Stratejisi: Instagram, TikTok, YouTube ve LinkedIn İçin Ayrı Hedefler Nasıl Belirlenir?",
+      caption: "Kanal Stratejisi: Instagram, TikTok, YouTube ve LinkedIn İçin Ayrı Hedefler Nasıl Belirlenir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-2.webp",
+      alt: "Rol hedef KPI ve format eşleşmesini çok kanallı SMM modeliyle özetleyen context görseli",
+      caption: "Rol hedef KPI ve format eşleşmesini çok kanallı SMM modeliyle özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-3.webp",
+    alt: "Farklı kanalların rol farklarını ve amaçlarını gösteren bölüm ayırıcı görseli",
+      caption: "Farklı kanalların rol farklarını ve amaçlarını gösteren bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-4.webp",
+      alt: "Rol-hedef-KPI eşleşmesini kanallar bazında açıklayan bölüm görseli",
+      caption: "Rol-hedef-KPI eşleşmesini kanallar bazında açıklayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-5.webp",
+      alt: "Otel ve B2B için örnek kanal haritasını ve çapraz tanıtımı gösteren diyagram",
+      caption: "Otel ve B2B için örnek kanal haritasını ve çapraz tanıtımı gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-6.webp",
+      alt: "Kanal önceliği belirleme checklist’ini karar odaklı özetleyen kart görseli",
+      caption: "Kanal önceliği belirleme checklist’ini karar odaklı özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-7.webp",
+      alt: "Her kanal için KPI setini karşılaştıran sosyal medya skor kart görseli",
+      caption: "Her kanal için KPI setini karşılaştıran sosyal medya skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-8/SMM2-8-8.webp",
+      alt: "Kanal haritası ve hedef-KPI matris deliverables setini özetleyen proof kartı",
+      caption: "Kanal haritası ve hedef-KPI matris deliverables setini özetleyen proof kartı"
+    }
+  },
+
+
+  "organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak":{
+     banner: {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-1.webp",
+      alt: "Organik ve Reklamlı Sosyal Medya Stratejisini Birlikte Planlamak",
+      caption: "Organik ve Reklamlı Sosyal Medya Stratejisini Birlikte Planlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-2.webp",
+      alt: "Organik→reklam test akışını funnel aşamalarıyla özetleyen context görseli",
+      caption: "Organik→reklam test akışını funnel aşamalarıyla özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-3.webp",
+    alt: "Organik ve reklam içerik rollerini test ve ölçek modeliyle anlatan bölüm görseli",
+      caption: "Organik ve reklam içerik rollerini test ve ölçek modeliyle anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-4.webp",
+      alt: "Test→scale döngüsünü ve öğrenim geri beslemesini gösteren bölüm görseli",
+      caption: "Test→scale döngüsünü ve öğrenim geri beslemesini gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-5.webp",
+      alt: "Organik içerikten reklama geçiş funnel diyagramını otel bağlamında gösteren akış görseli",
+      caption: "Organik içerikten reklama geçiş funnel diyagramını otel bağlamında gösteren akış görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-6.webp",
+      alt: "Organik ve reklam planlama checklist’ini karar odaklı özetleyen kart görseli",
+      caption: "Organik ve reklam planlama checklist’ini karar odaklı özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-7.webp",
+      alt: "Organik KPI ve reklam KPI setlerini birlikte gösteren performans skor kartı",
+      caption: "Organik KPI ve reklam KPI setlerini birlikte gösteren performans skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-9/SMM2-9-8.webp",
+      alt: "Creative library test raporu ve funnel set deliverables’ını özetleyen proof kartı",
+      caption: "Creative library test raporu ve funnel set deliverables’ını özetleyen proof kartı"
+    }
+  },
+
+  "test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi":{
+      banner: {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-1.webp",
+      alt: "Test–Ölç–Öğren Döngüsü ile Veri Odaklı Sosyal Medya Stratejisi",
+      caption: "Test–Ölç–Öğren Döngüsü ile Veri Odaklı Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-2.webp",
+      alt: "Test–ölç–öğren adımlarını ve öğrenim log mantığını özetleyen context görseli",
+      caption: "Test–ölç–öğren adımlarını ve öğrenim log mantığını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-3.webp",
+    alt: "Sosyal medyada test kültürünün neden gerekli olduğunu anlatan bölüm ayırıcı görseli",
+      caption: "Sosyal medyada test kültürünün neden gerekli olduğunu anlatan bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-4.webp",
+      alt: "Hook görsel CTA ve format A/B test örneklerini gösteren bölüm görseli",
+      caption: "Hook görsel CTA ve format A/B test örneklerini gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-5.webp",
+      alt: "Hipotezden öğrenim havuzuna uzanan test ölçüm döngüsünü gösteren diyagram",
+      caption: "Hipotezden öğrenim havuzuna uzanan test ölçüm döngüsünü gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-6.webp",
+      alt: "Test ve öğrenim logu checklist’ini uygulanabilir şekilde özetleyen kart görseli",
+      caption: "Test ve öğrenim logu checklist’ini uygulanabilir şekilde özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-7.webp",
+      alt: "Test KPI’larını ve kazanan varyasyonları gösteren performans skor kartı",
+      caption: "Test KPI’larını ve kazanan varyasyonları gösteren performans skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-10/SMM2-10-8.webp",
+      alt: "Learning log ve creative library deliverables setini özetleyen proof kartı",
+      caption: "Learning log ve creative library deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi":{
+    banner: {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-1.webp",
+      alt: "Yıllık Sosyal Medya Bütçesi ve Kaynak Planlaması Nasıl Yapılır?",
+      caption: "Yıllık Sosyal Medya Bütçesi ve Kaynak Planlaması Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-2.webp",
+      alt: "Bütçe hedef KPI ilişkisini ve aylık dağılım mantığını özetleyen context görseli",
+      caption: "Bütçe hedef KPI ilişkisini ve aylık dağılım mantığını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-3.webp",
+    alt: "Yıllık bütçe kalemlerini sadeleştiren sosyal medya planlama bölüm görseli",
+      caption: "Yıllık bütçe kalemlerini sadeleştiren sosyal medya planlama bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-4.webp",
+      alt: "Üretim bütçesi çekim ve video kapasitesini anlatan otel ve B2B bölüm görseli",
+      caption: "Üretim bütçesi çekim ve video kapasitesini anlatan otel ve B2B bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-5.webp",
+      alt: "Bütçe kalemlerinden hedef ve KPI’a giden ilişkiyi gösteren diyagram",
+      caption: "Bütçe kalemlerinden hedef ve KPI’a giden ilişkiyi gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-6.webp",
+      alt: "Yıllık planlama checklist’ini bütçe ve kaynak adımlarıyla özetleyen kart görseli",
+      caption: "Yıllık planlama checklist’ini bütçe ve kaynak adımlarıyla özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-7.webp",
+      alt: "Bütçe dağılımı ile KPI hedeflerini aynı kartta gösteren skor kart görseli",
+      caption: "Bütçe dağılımı ile KPI hedeflerini aynı kartta gösteren skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-8.webp",
+      alt: "Yıllık bütçe tablosu ve çeyreklik review deliverables setini özetleyen proof kartı",
+      caption: "Yıllık bütçe tablosu ve çeyreklik review deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu":{
+     banner: {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-1.webp",
+      alt: "Marka Rehberi, Ton ve Sosyal Medya Style Guide Entegrasyonu",
+      caption: "Marka Rehberi, Ton ve Sosyal Medya Style Guide Entegrasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-2.webp",
+      alt: "Ton görsel dil ve yanıt dili zincirini sosyal medya operasyonuna bağlayan context görseli",
+      caption: "Ton görsel dil ve yanıt dili zincirini sosyal medya operasyonuna bağlayan context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-3.webp",
+    alt: "Brand book öğelerinin sosyal medya formatlarına aktarımını gösteren bölüm görseli",
+      caption: "Brand book öğelerinin sosyal medya formatlarına aktarımını gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-4.webp",
+      alt: "Sosyal medya style guide outline’ını ve bölümlerini gösteren bölüm görseli",
+      caption: "Sosyal medya style guide outline’ını ve bölümlerini gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-5.webp",
+      alt: "Marka rehberi→ton→şablon→yayın kontrol zincirini gösteren diyagram",
+      caption: "Marka rehberi→ton→şablon→yayın kontrol zincirini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-6.webp",
+      alt: "Yayına çıkmadan önce stil kontrol checklist’ini özetleyen kart görseli",
+      caption: "Yayına çıkmadan önce stil kontrol checklist’ini özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-7.webp",
+      alt: "Stil tutarlılığı revizyon sayısı ve üretim hızını gösteren governance KPI kartı",
+      caption: "Stil tutarlılığı revizyon sayısı ve üretim hızını gösteren governance KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-11/SMM2-11-8.webp",
+      alt: "Style guide dokümanı template kütüphanesi ve yanıt rehberi deliverables setini özetleyen proof kartı",
+      caption: "Style guide dokümanı template kütüphanesi ve yanıt rehberi deliverables setini özetleyen proof kartı"
+    }
   }
 
 

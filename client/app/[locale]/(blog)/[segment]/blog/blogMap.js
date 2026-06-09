@@ -334,7 +334,14 @@ export const BLOG_MAP = {
      "sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler":"BlogSosyalAramaVeSocialSeoCaptionHashtagVeMetindeAnahtarKelimeler",
      "cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok":"BlogCrossPlatformKisaDikeyVideoStratejisiReelsShortsTiktok",
      "shoppable-icerikler-urun-ve-rezervasyon-etiketleri-ile-sosyal-medya":"BlogShoppableIceriklerUrunVeRezervasyonEtiketleriIleSosyalMedya",
-     "broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi":"BlogBroadcastKanallariVeToplulukOdakliIcerikYayinAkisi"
+     "broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi":"BlogBroadcastKanallariVeToplulukOdakliIcerikYayinAkisi",
+     "ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi":"BlogIcEkipVeAjansIsBirligiBriefVeToplantiRitmi",
+     "haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama":"BlogHaftalikSosyalMedyaOperasyonPlaniIcerikYanitVeRaporlama",
+     "kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler":"BlogKanalStratejisiInstagramTiktokYoutubeLinkedinIcinAyriHedefler",
+     "organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak":"BlogOrganikVeReklamliSosyalMedyaStratejisiniBirliktePlanlamak",
+     "test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi":"BlogTestOlcOgrenDongusuIleVeriOdakliSosyalMedyaStratejisi",
+     "yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi":"BlogYillikSosyalMedyaButcesiVeKaynakPlanlamasi",
+     "marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu":"BlogMarkaRehberiTonVeSosyalMedyaStyleGuideEntegrasyonu"
   },
 
     yazilim: {
