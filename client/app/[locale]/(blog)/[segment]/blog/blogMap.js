@@ -326,7 +326,15 @@ export const BLOG_MAP = {
      "ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi":"BlogAiDestekliSosyalMedyaIcerikUretimiVeInsanKreatifDengesi",
      "funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya":"BlogFunnelBazliIcerikUretimiFarkliAsamalarIcinSosyalMedya",
      "cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi":"BlogCekimGunuOptimizasyonu1Cekimde1AylikSosyalMedyaIcerigi",
-     "dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu":"BlogDmVeYorumYanitSablonlariSosyalMedyaIcerigininGorunmeyenYuzu"
+     "dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu":"BlogDmVeYorumYanitSablonlariSosyalMedyaIcerigininGorunmeyenYuzu",
+
+     "mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak":"BlogMizahTrendVeMemeIcerikleriIleMarkaKimliginiKorumak",
+     "kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi":"BlogKrizAnlarindaSosyalMedyaIcerigiMesajSssVePinlenmisPostStratejisi",
+     "tiktok-first-ve-instagram-first-icerik-stratejisi":"BlogTiktokFirstVeInstagramFirstIcerikStratejisi",
+     "sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler":"BlogSosyalAramaVeSocialSeoCaptionHashtagVeMetindeAnahtarKelimeler",
+     "cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok":"BlogCrossPlatformKisaDikeyVideoStratejisiReelsShortsTiktok",
+     "shoppable-icerikler-urun-ve-rezervasyon-etiketleri-ile-sosyal-medya":"BlogShoppableIceriklerUrunVeRezervasyonEtiketleriIleSosyalMedya",
+     "broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi":"BlogBroadcastKanallariVeToplulukOdakliIcerikYayinAkisi"
   },
 
     yazilim: {

@@ -39829,7 +39829,360 @@ export const BLOG_MEDIA_MAP = {
       alt: "Yanıt kütüphanesi deliverables: kategori seti ve ton rehberi",
       caption: "Yanıt kütüphanesi deliverables: kategori seti ve ton rehberi"
     }
+  },
+
+  "mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak":{
+     banner: {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-1.webp",
+      alt: "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak",
+      caption: "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-2.webp",
+      alt: "Trend filtresi ve karar matrisi özeti, marka kimliği koruma",
+      caption: "Trend filtresi ve karar matrisi özeti, marka kimliği koruma" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-3.webp",
+    alt: "Trend/meme nedir, risk yönetimi bağlamı, markalar için",
+      caption: "Trend/meme nedir, risk yönetimi bağlamı, markalar için"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-4.webp",
+      alt: "Uygunluk filtresi ve kırmızı çizgiler, brand safety",
+      caption: "Uygunluk filtresi ve kırmızı çizgiler, brand safety"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-5.webp",
+      alt: "Trend içerik onay akışı diyagramı, kreatif→legal→yayın",
+      caption: "Trend içerik onay akışı diyagramı, kreatif→legal→yayın"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-6.webp",
+      alt: "Yayın öncesi son kontrol checklist’i, risk filtresi",
+      caption: "Yayın öncesi son kontrol checklist’i, risk filtresi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-7.webp",
+      alt: "Trend içerik KPI paneli: erişim, paylaşım, negatif reaksiyon",
+      caption: "Trend içerik KPI paneli: erişim, paylaşım, negatif reaksiyon"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-19/SMM1-19-8.webp",
+      alt: "Karar matrisi ve onay checklist deliverables, ekip standardı",
+      caption: "Karar matrisi ve onay checklist deliverables, ekip standardı"
+    }
+  },
+
+  "kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-1.webp",
+      alt: "Kriz Anlarında Sosyal Medya İçeriği: Mesaj, SSS ve Pin’lenmiş Post Stratejisi",
+      caption: "Kriz Anlarında Sosyal Medya İçeriği: Mesaj, SSS ve Pin’lenmiş Post Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-2.webp",
+      alt: "İlk mesaj + SSS + pin stratejisi bağlam görseli",
+      caption: "İlk mesaj + SSS + pin stratejisi bağlam görseli" 
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-3.webp",
+    alt: "Kriz tipleri bölüm ayırıcı görseli, sınıflandırma",
+      caption: "Kriz tipleri bölüm ayırıcı görseli, sınıflandırma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-4.webp",
+      alt: "SSS ve pin’lenmiş post bölüm ayırıcı görseli",
+      caption: "SSS ve pin’lenmiş post bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-5.webp",
+      alt: "Kriz iletişim akışı diyagramı, structured updates",
+      caption: "Kriz iletişim akışı diyagramı, structured updates"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-6.webp",
+      alt: "Kriz anında içerik checklist kartı, adım adım",
+      caption: "Kriz anında içerik checklist kartı, adım adım"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-7.webp",
+      alt: "Kriz KPI paneli: DM yükü, yanlış bilgi, toparlanma",
+      caption: "Kriz KPI paneli: DM yükü, yanlış bilgi, toparlanma"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-20/SMM1-20-8.webp",
+      alt: "Kriz mesajı/SSS/pin kartı deliverables, tek kaynak",
+      caption: "Kriz mesajı/SSS/pin kartı deliverables, tek kaynak"
+    }
+  },
+
+  "tiktok-first-ve-instagram-first-icerik-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-1.webp",
+      alt: "TikTok-First vs Instagram-First: İçerik Stratejisi Nasıl Değişiyor?",
+      caption: "TikTok-First vs Instagram-First: İçerik Stratejisi Nasıl Değişiyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-2.webp",
+      alt: "Aynı sahnenin TikTok ve Reels için farklı kurgusu, adaptasyon",
+      caption: "Aynı sahnenin TikTok ve Reels için farklı kurgusu, adaptasyon "
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-3.webp",
+    alt: "TikTok-first yaklaşımı bölüm ayırıcı görseli",
+      caption: "TikTok-first yaklaşımı bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-4.webp",
+      alt: "Format ve tempo farkları bölüm ayırıcı görseli",
+      caption: "Format ve tempo farkları bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-5.webp",
+      alt: "Kanal-first üretim ve adaptasyon akışı diyagramı",
+      caption: "Kanal-first üretim ve adaptasyon akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-6.webp",
+      alt: "Kanal önceliği checklist kartı, karar matrisi",
+      caption: "Kanal önceliği checklist kartı, karar matrisi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-7.webp",
+      alt: "TikTok vs IG KPI paneli, izlenme ve dönüşüm",
+      caption: "TikTok vs IG KPI paneli, izlenme ve dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-21/SMM1-21-8.webp",
+      alt: "Adaptasyon kuralları ve playbook deliverables görseli",
+      caption: "Adaptasyon kuralları ve playbook deliverables görseli"
+    }
+  },
+
+  "sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler":{
+    banner: {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-1.webp",
+      alt: "Sosyal Arama ve Social SEO: Caption, Hashtag ve Metinde Anahtar Kelimeleri Nasıl Kullanırsınız?",
+      caption: "Sosyal Arama ve Social SEO: Caption, Hashtag ve Metinde Anahtar Kelimeleri Nasıl Kullanırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-2.webp",
+      alt: "Caption–on-screen text–hashtag hizalama, arama niyeti, otel bağlamı",
+      caption: "Caption–on-screen text–hashtag hizalama, arama niyeti, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-3.webp",
+    alt: "Sosyal arama kavramı, bulunabilirlik amacı, otel bağlamı",
+      caption: "Sosyal arama kavramı, bulunabilirlik amacı, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-4.webp",
+      alt: "Hashtag stratejisi, spamdan kaçınma amacı, otel bağlamı",
+      caption: "Hashtag stratejisi, spamdan kaçınma amacı, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-5.webp",
+      alt: "Social SEO modeli akışı, arama→izlenme→profil→DM, otel bağlamı",
+      caption: "Social SEO modeli akışı, arama→izlenme→profil→DM, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-6.webp",
+      alt: "Post öncesi Social SEO kontrol listesi, bulunabilirlik, otel bağlamı",
+      caption: "Post öncesi Social SEO kontrol listesi, bulunabilirlik, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-7.webp",
+      alt: "Social SEO KPI paneli, profil/DM/tıklama takibi, otel bağlamı",
+      caption: "Social SEO KPI paneli, profil/DM/tıklama takibi, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-22/SMM1-22-8.webp",
+      alt: "Ana sorgu bankası deliverables, caption/hashtag şablonu, otel bağlamı",
+      caption: "Ana sorgu bankası deliverables, caption/hashtag şablonu, otel bağlamı"
+    }
+  },
+
+  "cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok":{
+     banner: {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-1.webp",
+      alt: "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts ve TikTok’ta İçerik Dağıtımı",
+      caption: "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts ve TikTok’ta İçerik Dağıtımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-2.webp",
+      alt: "Master video → üç platform adaptasyon bağlamı",
+      caption: "Master video → üç platform adaptasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-3.webp",
+    alt: "Dikey video ekosistemi bölüm ayırıcı görseli ",
+      caption: "Dikey video ekosistemi bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-4.webp",
+      alt: "Platforma göre ince ayarlar bölüm ayırıcı görseli",
+      caption: "Platforma göre ince ayarlar bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-5.webp",
+      alt: "Reels–Shorts–TikTok dağıtım akışı diyagramı",
+      caption: "Reels–Shorts–TikTok dağıtım akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-6.webp",
+      alt: "Tek video → üç kanal checklist kartı",
+      caption: "Tek video → üç kanal checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-7.webp",
+      alt: "Platform KPI kartı, ölçüm paneli",
+      caption: "Platform KPI kartı, ölçüm paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-23/SMM1-23-8.webp",
+      alt: "Adaptasyon şablonu deliverables, playbook",
+      caption: "Adaptasyon şablonu deliverables, playbook"
+    }
+  },
+
+  "shoppable-icerikler-urun-ve-rezervasyon-etiketleri-ile-sosyal-medya":{
+    banner: {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-1.webp",
+      alt: "Satın Alınabilir (Shoppable) İçerikler: Ürün ve Rezervasyon Etiketleri ile Sosyal Medya",
+      caption: "Satın Alınabilir (Shoppable) İçerikler: Ürün ve Rezervasyon Etiketleri ile Sosyal Medya"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-2.webp",
+      alt: "Ürün/oda etiketi ve CTA hizalaması, rezervasyon niyeti, otel bağlamı",
+      caption: "Ürün/oda etiketi ve CTA hizalaması, rezervasyon niyeti, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-3.webp",
+    alt: "Shoppable içerik nedir, amaç ve fayda, otel bağlamı",
+      caption: "Shoppable içerik nedir, amaç ve fayda, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-4.webp",
+      alt: "Formatlara göre shoppable kurgular, reels/story/carousel, otel bağlamı",
+      caption: "Formatlara göre shoppable kurgular, reels/story/carousel, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-5.webp",
+      alt: "Etiketli içerik→ürün/oda→rezervasyon funnel akışı, otel bağlamı",
+      caption: "Etiketli içerik→ürün/oda→rezervasyon funnel akışı, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-6.webp",
+      alt: "Shoppable içerik kontrol listesi, şeffaflık ve ölçüm, otel bağlamı",
+      caption: "Shoppable içerik kontrol listesi, şeffaflık ve ölçüm, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-7.webp",
+      alt: "Shoppable KPI kartı, tıklama ve rezervasyon başlatma, otel bağlamı",
+      caption: "Shoppable KPI kartı, tıklama ve rezervasyon başlatma, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-24/SMM1-24-8.webp",
+      alt: "Shoppable playbook çıktıları, funnel raporu, otel bağlam",
+      caption: "Shoppable playbook çıktıları, funnel raporu, otel bağlam"
+    }
+  },
+
+
+
+   "broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi":{
+    banner: {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-1.webp",
+      alt: "Broadcast Kanalları ve Topluluk Odaklı İçerik: Close Friends, Yayın Kanalları ve Topluluklar",
+      caption: "Broadcast Kanalları ve Topluluk Odaklı İçerik: Close Friends, Yayın Kanalları ve Topluluklar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-2.webp",
+      alt: "Feed’den topluluğa geçiş bağlamı, funnel yaklaşımı",
+      caption: "Feed’den topluluğa geçiş bağlamı, funnel yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-3.webp",
+    alt: "Broadcast nedir, feed farkı, topluluk-first",
+      caption: "Broadcast nedir, feed farkı, topluluk-first"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-4.webp",
+      alt: "Ton ve sıklık, spam guardrails, topluluk yönetimi",
+      caption: "Ton ve sıklık, spam guardrails, topluluk yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-5.webp",
+      alt: "Feed → broadcast kanal funnel diyagramı",
+      caption: "Feed → broadcast kanal funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-6.webp",
+      alt: "Spam’den kaçınma ve kanal büyütme checklist’i",
+      caption: "Spam’den kaçınma ve kanal büyütme checklist’i"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-7.webp",
+      alt: "Topluluk KPI paneli: büyüme, okuma, çıkış",
+      caption: "Topluluk KPI paneli: büyüme, okuma, çıkış"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM1-25/SMM1-25-8.webp",
+      alt: "VIP içerik format seti deliverables, kanal akışı",
+      caption: "VIP içerik format seti deliverables, kanal akışı"
+    }
   }
+
 
 
   
