@@ -40783,6 +40783,406 @@ export const BLOG_MEDIA_MAP = {
       alt: "Insight board tema sözlüğü ve içerik takvimi deliverables setini özetleyen proof kartı",
       caption: "Insight board tema sözlüğü ve içerik takvimi deliverables setini özetleyen proof kartı"
     }
+  },
+
+  "rakip-ve-benchmark-analizi-ile-sosyal-medya-stratejisi-gelistirmek":{
+     banner: {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-1.webp",
+      alt: "Rakip ve Benchmark Analizi ile Sosyal Medya Stratejisi Geliştirmek",
+      caption: "Rakip ve Benchmark Analizi ile Sosyal Medya Stratejisi Geliştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-2.webp",
+      alt: "Veri kaynaklarının birleşip insight ve temaya dönüştüğü süreci özetleyen context görseli",
+      caption: "Veri kaynaklarının birleşip insight ve temaya dönüştüğü süreci özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-3.webp",
+    alt: "Stratejiyi besleyen veri kaynaklarını ve rollerini gösteren bölüm görseli",
+      caption: "Stratejiyi besleyen veri kaynaklarını ve rollerini gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-4.webp",
+      alt: "Otel ve B2B için insight kümelerini ve örnek soruları gösteren bölüm görseli",
+      caption: "Otel ve B2B için insight kümelerini ve örnek soruları gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-5.webp",
+      alt: "Analytics DM ve sosyal dinlemeden temaya ve takvime giden insight diyagramı",
+      caption: "Analytics DM ve sosyal dinlemeden temaya ve takvime giden insight diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-6.webp",
+      alt: "Aylık insight review checklist’ini içerik planlama adımlarıyla özetleyen kart görseli",
+      caption: "Aylık insight review checklist’ini içerik planlama adımlarıyla özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-7.webp",
+      alt: "Soru kümeleri itiraz kümeleri ve içerik performansını birlikte gösteren skor kartı",
+      caption: "Soru kümeleri itiraz kümeleri ve içerik performansını birlikte gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-18/SMM2-18-8.webp",
+      alt: "Insight board tema sözlüğü ve içerik takvimi deliverables setini özetleyen proof kartı",
+      caption: "Insight board tema sözlüğü ve içerik takvimi deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi":{
+    banner: {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-1.webp",
+      alt: "90 Günlük Sosyal Medya Roadmap ve Backlog Yönetimi",
+      caption: "90 Günlük Sosyal Medya Roadmap ve Backlog Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-2.webp",
+      alt: "Roadmap tablosu backlog listesi ve sprint akışını özetleyen context görseli",
+      caption: "Roadmap tablosu backlog listesi ve sprint akışını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-3.webp",
+    alt: "Aylık panikten 90 gün odağına geçişi anlatan bölüm görseli",
+      caption: "Aylık panikten 90 gün odağına geçişi anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-4.webp",
+      alt: "Sprint planning review retro ritmini sosyal medya operasyonuna uyarlayan bölüm görseli",
+      caption: "Sprint planning review retro ritmini sosyal medya operasyonuna uyarlayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-5.webp",
+      alt: "Stratejiden backlog’a sprint’lere giden 90 günlük plan akış diyagramı",
+      caption: "Stratejiden backlog’a sprint’lere giden 90 günlük plan akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-6.webp",
+      alt: "90 gün başlangıç checklist’ini görev adımlarıyla özetleyen kart görseli",
+      caption: "90 gün başlangıç checklist’ini görev adımlarıyla özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-7.webp",
+      alt: "Sprint çıktılarını ve hedef KPI ilerlemesini gösteren roadmap skor kartı",
+      caption: "Sprint çıktılarını ve hedef KPI ilerlemesini gösteren roadmap skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-19/SMM2-19-8.webp",
+      alt: "Roadmap tablosu backlog hijyen kuralları ve retrospective deliverables setini özetleyen proof kartı",
+      caption: "Roadmap tablosu backlog hijyen kuralları ve retrospective deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "okr-ve-hedef-hiyerarsisi-ile-sosyal-medya-stratejisini-sirket-hedefleri-ile-hizalamak":{
+     banner: {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-1.webp",
+      alt: "OKR ve Hedef Hiyerarşisi ile Sosyal Medya Stratejisini Şirket Hedefleriyle Hizalamak",
+      caption: "OKR ve Hedef Hiyerarşisi ile Sosyal Medya Stratejisini Şirket Hedefleriyle Hizalamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-2.webp",
+      alt: "OKR hedef zinciri ve ölçülebilir KR metriklerini özetleyen context görseli",
+      caption: "OKR hedef zinciri ve ölçülebilir KR metriklerini özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-3.webp",
+    alt: "OKR objective ve key results ayrımını açıklayan bölüm görseli",
+      caption: "OKR objective ve key results ayrımını açıklayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-4.webp",
+      alt: "Şirket→pazarlama→SMM hedef hiyerarşisini gösteren bölüm görseli",
+      caption: "Şirket→pazarlama→SMM hedef hiyerarşisini gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-5.webp",
+      alt: "Hedef hiyerarşisi diyagramını ve içerik-kampanya-bütçe bağlantısını gösteren diyagram",
+      caption: "Hedef hiyerarşisi diyagramını ve içerik-kampanya-bütçe bağlantısını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-6.webp",
+      alt: "Çeyrek sonu OKR review checklist’ini özetleyen kart görseli",
+      caption: "Çeyrek sonu OKR review checklist’ini özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-7.webp",
+      alt: "SMM OKR KR’lerini brand search lead ve rezervasyon metrikleriyle gösteren skor kartı",
+      caption: "SMM OKR KR’lerini brand search lead ve rezervasyon metrikleriyle gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-20/SMM2-20-8.webp",
+      alt: "OKR tablosu hedef zinciri ve review çıktıları deliverables setini özetleyen proof kartı",
+      caption: "OKR tablosu hedef zinciri ve review çıktıları deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi":{
+    banner: {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-1.webp",
+      alt: "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi Nasıl Kurulur?",
+      caption: "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-2.webp",
+      alt: "AI öneri ve insan karar akışını içerik takvimi üzerinde özetleyen görsel",
+      caption: "AI öneri ve insan karar akışını içerik takvimi üzerinde özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-3.webp",
+    alt: "AI fikir havuzunu temalara ayırıp takvime bağlayan sosyal medya görseli",
+      caption: "AI fikir havuzunu temalara ayırıp takvime bağlayan sosyal medya görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-4.webp",
+      alt: "KPI tahmini ve manuel sanity-check dengesini anlatan planlama bölüm görseli",
+      caption: "KPI tahmini ve manuel sanity-check dengesini anlatan planlama bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-5.webp",
+      alt: "AI öneri üretimi ve insan editör onayıyla planlama akışını gösteren diyagram",
+      caption: "AI öneri üretimi ve insan editör onayıyla planlama akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-6.webp",
+      alt: "AI planlarında insan onayı gereken alanları hızlı kontrol eden checklist kartı",
+      caption: "AI planlarında insan onayı gereken alanları hızlı kontrol eden checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-7.webp",
+      alt: "Takvim hızı ton tutarlılığı ve KPI gerçekçiliğini birlikte gösteren skor kartı",
+      caption: "Takvim hızı ton tutarlılığı ve KPI gerçekçiliğini birlikte gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-21/SMM2-21-8.webp",
+      alt: "AI planlama şablonları brief ve görev çıktılarıyla güven unsurlarını özetleyen kart",
+      caption: "AI planlama şablonları brief ve görev çıktılarıyla güven unsurlarını özetleyen kart"
+    }
+  },
+
+  "dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek":{
+    banner: {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-1.webp",
+      alt: "Dark Social ve Kapalı Kanallar: DM, WhatsApp ve Toplulukları Stratejiye Nasıl Dahil Edersiniz?",
+      caption: "Dark Social ve Kapalı Kanallar: DM, WhatsApp ve Toplulukları Stratejiye Nasıl Dahil Edersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-2.webp",
+      alt: "Paylaşılabilir içerik ve proxy KPI ölçümünü tek ekranda özetleyen görsel",
+      caption: "Paylaşılabilir içerik ve proxy KPI ölçümünü tek ekranda özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-3.webp",
+    alt: "Dark social kavramını ve görünmeyen paylaşımları otel bağlamında anlatan bölüm görseli",
+      caption: "Dark social kavramını ve görünmeyen paylaşımları otel bağlamında anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-4.webp",
+      alt: "Paylaşılabilir içerik kriterlerini ve DM odaklı formatları anlatan bölüm görseli",
+      caption: "Paylaşılabilir içerik kriterlerini ve DM odaklı formatları anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-5.webp",
+      alt: "DM ve WhatsApp paylaşım akışını ve özel landing/UTM bağlantısını gösteren diyagram",
+      caption: "DM ve WhatsApp paylaşım akışını ve özel landing/UTM bağlantısını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-6.webp",
+      alt: "Dark social uyumlu içerik checklist’ini paylaşılabilirlik odaklı özetleyen kart",
+      caption: "Dark social uyumlu içerik checklist’ini paylaşılabilirlik odaklı özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-7.webp",
+      alt: "Proxy KPI’lar ile dark social etkisini izleyen skor kart görseli",
+      caption: "Proxy KPI’lar ile dark social etkisini izleyen skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-22/SMM2-22-8.webp",
+      alt: "Dark social planlama şablonu özel landing ve ölçüm seti deliverables kartı",
+      caption: "Dark social planlama şablonu özel landing ve ölçüm seti deliverables kartı"
+    }
+  },
+
+  "creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama":{
+    banner: {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-1.webp",
+      alt: "Creator Ekonomisi ve Co-Creation: Yaratıcılarla Ortak İçerik Nasıl Planlanır?",
+      caption: "Creator Ekonomisi ve Co-Creation: Yaratıcılarla Ortak İçerik Nasıl Planlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-2.webp",
+      alt: "Marka-creator rol dağılımı ve üretim akışını özetleyen context görseli",
+      caption: "Marka-creator rol dağılımı ve üretim akışını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-3.webp",
+    alt: "Influencer ve creator farkını ve co-creation yaklaşımını anlatan bölüm görseli",
+      caption: "Influencer ve creator farkını ve co-creation yaklaşımını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-4.webp",
+      alt: "Brief ile yaratıcı özgürlüğü dengesini anlatan bölüm görseli",
+      caption: "Brief ile yaratıcı özgürlüğü dengesini anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-5.webp",
+      alt: "Marka–creator rol paylaşımı ve onay akışını gösteren diyagram",
+      caption: "Marka–creator rol paylaşımı ve onay akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-6.webp",
+      alt: "Co-creation kampanyası checklist’ini teslimat ve etik etiketlemeyle özetleyen kart",
+      caption: "Co-creation kampanyası checklist’ini teslimat ve etik etiketlemeyle özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-7.webp",
+      alt: "İzlenme süresi etkileşim kalitesi ve lead sinyallerini gösteren creator işbirliği skor kartı",
+      caption: "İzlenme süresi etkileşim kalitesi ve lead sinyallerini gösteren creator işbirliği skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-23/SMM2-23-8.webp",
+      alt: "Brief şablonu takvim kesiti ve onay/etik deliverables setini özetleyen proof kartı",
+      caption: "Brief şablonu takvim kesiti ve onay/etik deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama":{
+    banner: {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-1.webp",
+      alt: "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama",
+      caption: "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-2.webp",
+      alt: "Marka-creator rol dağılımı ve üretim akışını özetleyen context görseli",
+      caption: "Marka-creator rol dağılımı ve üretim akışını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-3.webp",
+    alt: "Influencer ve creator farkını ve co-creation yaklaşımını anlatan bölüm görseli",
+      caption: "Influencer ve creator farkını ve co-creation yaklaşımını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-4.webp",
+      alt: "Brief ile yaratıcı özgürlüğü dengesini anlatan bölüm görseli",
+      caption: "Brief ile yaratıcı özgürlüğü dengesini anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-5.webp",
+      alt: "Marka–creator rol paylaşımı ve onay akışını gösteren diyagram",
+      caption: "Marka–creator rol paylaşımı ve onay akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-6.webp",
+      alt: "Co-creation kampanyası checklist’ini teslimat ve etik etiketlemeyle özetleyen kart",
+      caption: "Co-creation kampanyası checklist’ini teslimat ve etik etiketlemeyle özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-7.webp",
+      alt: "İzlenme süresi etkileşim kalitesi ve lead sinyallerini gösteren creator işbirliği skor kartı",
+      caption: "İzlenme süresi etkileşim kalitesi ve lead sinyallerini gösteren creator işbirliği skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-24/SMM2-24-8.webp",
+      alt: "Brief şablonu takvim kesiti ve onay/etik deliverables setini özetleyen proof kartı",
+      caption: "Brief şablonu takvim kesiti ve onay/etik deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek":{
+    banner: {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-1.webp",
+      alt: "Değer Bazlı İçerik ve ESG Anlatı: Sürdürülebilirlik ve Markanın Amacını Stratejiye Eklemek",
+      caption: "Değer Bazlı İçerik ve ESG Anlatı: Sürdürülebilirlik ve Markanın Amacını Stratejiye Eklemek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-2.webp",
+      alt: "Ne yapıyoruz neden sonuç ne yapısını ESG içerik akışında özetleyen görsel",
+      caption: "Ne yapıyoruz neden sonuç ne yapısını ESG içerik akışında özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-3.webp",
+    alt: "Değer bazlı içerik temalarını ve kanıt formatlarını açıklayan bölüm görseli",
+      caption: "Değer bazlı içerik temalarını ve kanıt formatlarını açıklayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-4.webp",
+      alt: "Purpose washing risklerini ve şeffaf dil örneklerini anlatan bölüm görseli",
+      caption: "Purpose washing risklerini ve şeffaf dil örneklerini anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-5.webp",
+      alt: "ESG temalarını takvime yerleştiren amaç-led sosyal medya akış diyagramı",
+      caption: "ESG temalarını takvime yerleştiren amaç-led sosyal medya akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-6.webp",
+      alt: "Değer bazlı içerik checklist’ini veri hedef ve şeffaflık adımlarıyla özetleyen kart",
+      caption: "Değer bazlı içerik checklist’ini veri hedef ve şeffaflık adımlarıyla özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-7.webp",
+      alt: "ESG içeriklerinde güven sinyali ve etkileşim kalitesini gösteren skor kartı",
+      caption: "ESG içeriklerinde güven sinyali ve etkileşim kalitesini gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-25/SMM2-25-8.webp",
+      alt: "ESG takvim şablonu veri blokları ve örnek mockup deliverables kartı",
+      caption: "ESG takvim şablonu veri blokları ve örnek mockup deliverables kartı"
+    }
   }
 
 

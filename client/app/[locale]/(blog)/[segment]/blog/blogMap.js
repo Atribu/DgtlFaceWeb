@@ -346,7 +346,15 @@ export const BLOG_MAP = {
      "zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi":"BlogZincirOtellerVeCokLokasyonluMarkalarIcinSosyalMedyaStratejisi",
      "sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir":"BlogSosyalMedyaPlaybookVeOnboardingDokumaniNasilHazirlanir",
      "sosyal-medya-governance-risk-ve-onay-sureci":"BlogSosyalMedyaGovernanceRiskVeOnaySureci",
-     "insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama":"BlogInsightDrivenStratejiAnalyticsDmYorumVeSosyalDinlemeIleIcerikPlanlama"
+     "insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama":"BlogInsightDrivenStratejiAnalyticsDmYorumVeSosyalDinlemeIleIcerikPlanlama",
+     "rakip-ve-benchmark-analizi-ile-sosyal-medya-stratejisi-gelistirmek":"BlogRakipVeBenchmarkAnaliziIleSosyalMedyaStratejisiGelistirmek",
+     "90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi":"Blog90GunlukSosyalMedyaRoadmapVeBacklogYonetimi",
+     "okr-ve-hedef-hiyerarsisi-ile-sosyal-medya-stratejisini-sirket-hedefleri-ile-hizalamak":"BlogOkrVeHedefHiyerarsisiIleSosyalMedyaStratejisiniSirketHedefleriIleHizalamak",
+     "ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi":"BlogAiDestekliSosyalMedyaPlanlamaVeIcerikTakvimi",
+     "dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek":"BlogDarkSocialVeKapaliKanallarDmWhatsappVeTopluluklariStratejiyeDahilEtmek",
+     "creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama":"BlogCreatorEkonomisiVeCoCreationYaraticilarlaOrtakIcerikPlanlama",
+     "community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama":"BlogCommunityLedSosyalMedyaToplulukOncelikliStratejiVePlanlama",
+     "deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek":"BlogDegerBazliIcerikVeEsgAnlatiSurdurulebilirlikVeMarkaninAmaciniStratejiyeEklemek"
   },
 
     yazilim: {
