@@ -33493,6 +33493,3153 @@
         ]
       }
     }
+  },
+
+  "BlogSatisRezervasyonVeCrmEkipleriIleSosyalMedyaEntegrasyonu": {
+    "title": "Sosyal Medya–CRM Entegrasyonu: Lead→Satış Akışı",
+    "slug": "satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu",
+    "department": "smm",
+    "subDepartment":"planning",
+    "updatedAt": "10 Haziran 2026",
+    "publishedAt": "2026-06-10",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sosyal medyadan gelen DM/WhatsApp/web form taleplerini CRM ve satış/rezervasyon akışına bağlayın: lead kayıt, etiketleme, devir, pipeline ve ROI ölçümü.",
+    "seo": {
+      "metaTitle": "Sosyal Medya–CRM Entegrasyonu: Lead→Satış Akışı | DGTLFACE",
+      "metaDescription": "Sosyal medyadan gelen DM/WhatsApp/web form taleplerini CRM ve satış/rezervasyon akışına bağlayın: lead kayıt, etiketleme, devir, pipeline ve ROI ölçümü."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog No / URL: Blog #13 — /tr/smm/blog/satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu"
+      ],
+      "strategySummary": "Bu içerik, SMM planlama silosunda sosyal medyayı “etkileşim”ten çıkarıp lead–rezervasyon–satış etkisine bağlayan entegrasyon katmanını kuran otorite taşıyan child yazıdır. Hedef persona; call center/rezervasyon altyapısı olan otel gruplarında satış-pazarlama liderleri, CRM yöneticileri ve ajans ekipleri; B2B’de satış (SDR/BDR), marketing ops ve CRM sahipleridir. Funnel’da consideration → conversion tarafına doğrudan dokunur: DM/WhatsApp/web form akışlarını CRM/pipeline’a taşır. Ana iş sorusu: “Sosyal medyadan gelen talepleri nasıl kayıt altına alır, nasıl etiketler, kime devreder ve ROI/atribüsyonu nasıl ölçerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-10",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medyadan gelen mesaj, form ve yorumlar satış/rezervasyon/CRM ekiplerine doğru aktarılmıyorsa, en başarılı içerikler bile “like” seviyesinde kalır. Çözüm; DM/WhatsApp/Messenger ve web form taleplerini CRM/rezervasyon sistemine kayıt etmek, “sosyal medya” kaynak etiketleriyle segmentlemek, satış ekibine devir ve takip SLA’larını tanımlamak ve KPI’ları (lead, dönüşüm, ROI) raporlamaktır. Otel ve B2B’de bu entegrasyon, kanal katkısını netleştirir.",
+      "sgeSummary": "DM/WhatsApp/web form taleplerini CRM’e kaydedin, “sosyal medya” kaynağıyla etiketleyin, satış/rezervasyona SLA ile devredin ve pipeline/ROI raporlayın. Etkileşimi lead ve satışa çevirin.",
+      "voiceAnswer": "DM’den gelen talebi CRM’e kaydedin, “sosyal” etiketiyle işaretleyin ve satışa SLA ile devredip takip edin.",
+      "aiFactSheet": [
+        "Entity’ler: social leads, CRM integration, call center, reservations, pipeline, attribution, DM→CRM flow",
+        "Lead kaynakları: DM/WhatsApp/Messenger, yorumlar, web form, link tıklamaları",
+        "Ana çıktı: sosyal→CRM→satış/rezervasyon akışı + tag/segment kuralları + SLA",
+        "Otel: call center–sosyal koordinasyonu + rezervasyon akışı",
+        "B2B: pipeline entegrasyonu + lead kalite ölçümü",
+        "Teknik: UTM/event/kampanya etiketleri yoksa atribüsyon zorlaşır",
+        "Kazanım: kanal bazlı ROI ve gerçek satış katkısı daha net hesaplanır"
+      ]
+    },
+    "h1": {
+      "title": "Satış, Rezervasyon ve CRM Ekipleri ile Sosyal Medya Entegrasyonu Nasıl Kurulur?",
+      "intro": "Sosyal medya “etkileşim” üretiyor olabilir; ama bu etkileşim satış, rezervasyon ve CRM süreçlerine akmıyorsa iş etkisi görünmez kalır. Otel tarafında DM/WhatsApp üzerinden gelen fiyat–tarih–konsept soruları, doğru sistemle call center’a ve rezervasyon kaydına dönüşebilir. B2B’de ise sosyal medya lead’leri çoğu zaman “dağınık mesajlar” olarak kalır ve pipeline’a girmediği için pazarlama kanalının katkısı eksik raporlanır. Bu rehberin amacı, sosyal medyayı; lead yakalama, kayıt, etiketleme, devir, takip ve raporlama adımlarıyla ölçülebilir bir satış kanalına bağlamaktır. Burada ana prensip: “DM’de başlayan konuşma, CRM’de takip edilebilir bir kayda dönüşmeli.”",
+      "quickSummary": [
+        "1) Sosyal medyayı kanal değil, satış/rezervasyon süreci olarak konumlandırın",
+        "2) DM/WhatsApp/web form lead kaynaklarını ve talep türlerini standartlaştırın",
+        "3) CRM’de kaynak, kanal, kampanya, persona, durum ve SLA alanlarını zorunlu hale getirin",
+        "4) Otelde call center, B2B’de SDR/BDR devir akışını netleştirin",
+        "5) Sosyal lead→dönüşüm→ROI raporunu ayrı takip edin"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Medya → CRM/Rezervasyon Akış Analizi Talep Et",
+        "text": "Otel ve B2B ekiplerinde sosyal lead’leri sistematik kayda çevirip ROI’yi net görmek isteyenler için.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Medya → CRM/Rezervasyon Akış Analizi Talep Et",
+        "text": "Otel ve B2B ekiplerinde sosyal lead’leri sistematik kayda çevirip ROI’yi net görmek için.",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Lead & Rezervasyon Akış Şablonunu İndir",
+        "text": "DM/WhatsApp/web formdan CRM ve satışa giden akışı, etiketleri ve SLA’ları tek tabloda standartlaştırmanızı sağlar.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM planlama ve strateji hizmet sayfası",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "Çağrı merkezi rezervasyon desteği",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Satış ve dönüşüm raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Planlama ve Strateji Nedir?",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama Nasıl Kurulur?",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sosyal-medya-crm-satis-iliskisi",
+        "title": "Sosyal Medya – Satış/Rezervasyon/CRM İlişkisi – “Kanal değil, süreç”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal medya tek başına satış yapmaz; sosyal medya, talebi toplar ve doğru sürece aktarır. Bu nedenle entegrasyon “teknik bağ” kadar “operasyonel rol dağılımı”dır. Eğer kim, hangi tür lead’i alacak ve ne kadar sürede yanıtlayacak net değilse sistem çalışmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medya ile CRM’i nasıl entegre ederim?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Önce lead kaynaklarını (DM/WhatsApp/web form) tanımlayın, sonra bu taleplerin CRM’e hangi alanlarla kaydedileceğini belirleyin (kaynak, kampanya, persona, durum). Ardından satış/rezervasyon devri ve takip SLA’larını yazın; dashboard’ta lead→dönüşüm→ROI raporu kurun."
+          },
+          {
+            "type": "h3",
+            "text": "Bağlantı mantığı (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sosyal = giriş kapısı (inbox/DM)",
+              "CRM = kayıt ve takip merkezi",
+              "Satış/rezervasyon = sonuçlandıran ekip",
+              "Raporlama = kanal katkısını görünür yapan katman"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Süreç var mı?)",
+            "items": [
+              "“Sosyal lead” tanımı var mı?",
+              "CRM’de kaynak alanı zorunlu mu?",
+              "Satışa devir SLA yazılı mı?",
+              "Lead durumları (status) standart mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Lead tanımını ve kanallarını netleştirin (DM/WhatsApp/form).",
+              "CRM’de minimum alan setini zorunlu yapın (kaynak + kampanya + durum).",
+              "Satış/rezervasyon devir süresini ve sorumlusunu yazın.",
+              "Haftalık raporda “sosyal lead” satırını ayrı takip edin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "lead-ve-rezervasyon-akislari",
+        "title": "Lead ve Rezervasyon Akışları – “DM’de başlayan konuşma nerede biter?”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Akış tasarlarken iki temel soru vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Lead hangi kanaldan gelir?",
+              "Lead hangi ekibe hangi formatta devredilir?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel için “rezervasyon” genellikle hızlı yanıt ister; B2B’de ise lead’in niteliği ve pipeline aşaması önemlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Lead türleri (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: fiyat/tarih, konsept sorusu, grup rezervasyonu, MICE talebi, iptal/değişiklik",
+              "B2B: demo isteği, teklif/price request, webinar/ebook lead’i, partner talebi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Akışın kritik noktaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk yanıt süresi (SLA)",
+              "Lead kaydının CRM’e açılması",
+              "Devir (assign) ve takip (follow-up)",
+              "Sonuç (rezervasyon/meeting/teklif)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Akış kopuyor mu?)",
+            "items": [
+              "DM’de konuşma bitiyor ama CRM’de kayıt yok mu?",
+              "Satış ekibi “sosyal lead”i ayrı görüyor mu?",
+              "Takip yapılmadığı için lead düşüyor mu?",
+              "Lead sonucu CRM’de işleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her lead türüne “route” tanımlayın (kime gider?).",
+              "Otelde call center’a devir süresini kısaltın (Varsayım: kampanyada 1–2 saat).",
+              "B2B’de lead nitelik kriterini yazın (uygun sektör/rol/bütçe).",
+              "“Sonuç” alanını zorunlu yapın (kapanış nedeni)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dm-whatsapp-web-form-entegrasyonu",
+        "title": "DM/WhatsApp/Web Form Entegrasyonu – “Kayıt, etiket, devir”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki amaç; sosyal inbox’ı CRM’e bağlamak değil, sosyal talepleri CRM formatına çevirmektir. Bunun için standart bir “kayıt kartı” gerekir: kim, ne istiyor, ne zaman, hangi kampanyadan, hangi kanal."
+          },
+          {
+            "type": "h3",
+            "text": "DM ve WhatsApp üzerinden gelen talepleri nasıl kayıt altına almalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Her talebi CRM’de bir lead/rezervasyon kaydı olarak açın; kaynak = sosyal medya, kanal = IG/WhatsApp vb., kampanya = etiket/UTM, talep türü = fiyat/tarih/demo gibi alanları doldurun. İlk yanıt süresini ve devredilen kişiyi kaydedin."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum kayıt alanları (CRM)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: Social Media",
+              "Kanal: Instagram DM / WhatsApp / Messenger",
+              "Kampanya etiketi: (Varsayım: UTM veya kampanya kodu)",
+              "Talep türü: rezervasyon/teklif/demo/şikâyet",
+              "Persona/segment: aile/MICE/GM vb.",
+              "Durum: yeni, takipte, teklif verildi, kapandı",
+              "SLA alanları: ilk yanıt zamanı, devir zamanı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel pratik notu: WhatsApp ve DM çok hızlı akar; bu yüzden “kısa form” ile kayıt açıp, detayları ikinci adımda tamamlamak daha sürdürülebilir olabilir (Varsayım)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kayıt standardı)",
+            "items": [
+              "CRM’de sosyal kaynak alanı zorunlu mu?",
+              "Kampanya etiketi alanı var mı?",
+              "Talep türü standart mı?",
+              "SLA alanları ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Sosyal lead kayıt şablonu” oluşturun.",
+              "DM/WhatsApp’ta bilgi toplama sorularını standartlaştırın.",
+              "Kayıt açma sorumluluğunu netleştirin (community/call center).",
+              "Haftalık raporda SLA ihlallerini görünür yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crmde-tag-ve-segmentleme",
+        "title": "CRM’de Tag ve Segmentleme – “Kaynak görünür olmazsa ROI görünmez”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "CRM’de etiketleme (tagging) yoksa, sosyal medya lead’leri “genel havuz”da kaybolur. Etiketleme; kaynak, kampanya, persona ve içerik tipi gibi boyutları içerir. Böylece hem operasyon (kime ne gidiyor) hem raporlama (hangi kampanya ne getirdi) netleşir."
+          },
+          {
+            "type": "h3",
+            "text": "Etiketleme boyutları (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: social",
+              "Kanal: IG/WhatsApp/FB messenger",
+              "Kampanya: ER-2026-Q2 gibi (Varsayım)",
+              "Persona: aile / MICE / B2B GM / pazarlama müdürü",
+              "İçerik tipi: UGC / teklif / rehber"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: CRM’de Sosyal Medya Lead Kaydı Alanları (Örnek)",
+            "headers": [
+              "Alan",
+              "Örnek değer",
+              "Neden gerekli?"
+            ],
+            "rows": [
+              [
+                "Kaynak",
+                "Social Media",
+                "kanal katkısı/ROI"
+              ],
+              [
+                "Kanal",
+                "Instagram DM",
+                "operasyon route"
+              ],
+              [
+                "Kampanya etiketi",
+                "ER-2026-Q2 (Varsayım)",
+                "atribüsyon"
+              ],
+              [
+                "Talep türü",
+                "rezervasyon",
+                "doğru ekibe devir"
+              ],
+              [
+                "Persona/segment",
+                "aile / MICE",
+                "mesaj/teklif uyumu"
+              ],
+              [
+                "Durum",
+                "yeni / takipte / kapandı",
+                "pipeline görünürlüğü"
+              ],
+              [
+                "SLA ilk yanıt",
+                "1–2 saat (Varsayım)",
+                "hız ölçümü"
+              ],
+              [
+                "Sonuç",
+                "rezervasyon / lost",
+                "gerçek iş etkisi"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Etiket disiplini)",
+            "items": [
+              "Etiketler standart isimlendirmeye sahip mi?",
+              "Etiketler zorunlu alan mı?",
+              "Etiketsiz kayıt oranı ölçülüyor mu?",
+              "Etiketler rapora yansıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Etiket sözlüğü (dictionary) oluşturun.",
+              "Etiketleri otomatik doldurmayı hedefleyin (Varsayım: entegrasyon mümkünse).",
+              "Aylık raporda “etiketsiz lead” KPI’ı ekleyin.",
+              "Kampanya sonrası etiketlerin doğruluğunu denetleyin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Lead & Rezervasyon Akış Şablonunu İndir",
+            "text": "DM/WhatsApp/web formdan CRM ve satışa giden akışı, etiketleri ve SLA’ları tek tabloda standartlaştırmanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-surec-ornekleri",
+        "title": "Otel ve B2B İçin Süreç Örnekleri – “Call center + pipeline”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "Otel rezervasyon çağrı merkezi ile sosyal medya nasıl birlikte çalışır?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Sosyal medya DM/WhatsApp talepleri önce hızlı yanıtlanır, ardından talep türüne göre call center’a devredilir. CRM’de “social” kaynak etiketiyle kayıt açılır, görüşme sonucu rezervasyon/teklif durumuna işlenir ve haftalık raporda sosyal kanal katkısı ölçülür."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnek akış"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "DM: tarih/kişi sayısı/konsept sorulur",
+              "CRM kaydı açılır (source=social)",
+              "Call center’a devir (SLA)",
+              "Teklif/rezervasyon sonucu CRM’e işlenir",
+              "Haftalık raporda sosyal lead→rezervasyon oranı takip edilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B’de sosyal medya lead’lerini pipeline’a nasıl taşırım?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): DM/form taleplerini CRM’de lead olarak açın, persona/segment etiketleyin ve SDR/BDR’ye atayın. Pipeline aşamalarını (new→qualified→meeting→proposal→won/lost) standartlaştırıp sosyal kaynak raporunu ayrı izleyin."
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnek akış"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "LinkedIn DM veya form",
+              "Lead kaydı + nitelik soruları",
+              "SDR ataması + meeting",
+              "Teklif süreci",
+              "Pipeline raporunda “social source” performansı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Sosyal medya–CRM entegrasyonu kurulan yapılarda kanal bazlı ROI ve gerçek satış katkısı daha net hesaplanabiliyor (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet): UTM, event ve kampanya etiketleri olmadan sosyal medya kaynaklı lead/satışın doğru atribüsyonu zorlaşır; bu yüzden kampanya etiketleme standardı ve GA4 event yapısı baştan tasarlanmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Uygulama)",
+            "items": [
+              "Otelde call center devir SLA’sı var mı?",
+              "B2B’de pipeline aşamaları standart mı?",
+              "Sosyal kaynak raporu ayrı mı?",
+              "Closed-won/lost nedenleri yazılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde “sosyal→call center” devir prosedürü yazın.",
+              "B2B’de lead nitelik kriterini standartlaştırın.",
+              "“Sosyal kaynak” dashboard’ını satış-dönüşüm raporuna bağlayın.",
+              "365 günde bir (CRM/API değişince) akış ve etiketleri güncelleyin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya → CRM/Rezervasyon Akış Analizi Talep Et",
+            "text": "Otel ve B2B ekiplerinde sosyal lead’leri sistematik kayda çevirip ROI’yi net görmek için.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-lead-rezervasyon-akis-sablonu",
+        "title": "Sosyal Medya Lead & Rezervasyon Akış Şablonunu İndir — SMM→CRM Flow",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sosyal Medya Lead & Rezervasyon Akış Şablonunu İndir — SMM→CRM Flow (v1.0)",
+            "purpose": "Bu şablon, sosyal medya üzerinden gelen talepleri (DM/WhatsApp/web form) CRM/rezervasyon sistemine düzenli şekilde kaydetmek, etiketlemek ve satış/rezervasyon ekiplerine SLA ile devretmek için hazırlanmıştır. Kanal katkısını ROI düzeyinde raporlamayı kolaylaştırır. Otel (call center) ve B2B (pipeline) senaryoları için ayrı akış örnekleri içerir.",
+            "whoFor": "Call center/rezervasyon/CRM altyapısı olan otel ve B2B markalar; ajans ve in-house ekipler.",
+            "steps": [
+              "Lead kaynaklarını ve talep türlerini tanımlayıp CRM alanlarını zorunlu hale getirin.",
+              "Devir SLA’larını ve sorumluları belirleyip günlük ops rutinine bağlayın.",
+              "Aylık raporda sosyal kaynak lead→dönüşüm→ROI görünürlüğünü kurun."
+            ],
+            "checklist": [
+              "Lead kaynakları listelendi: IG DM / WhatsApp / Messenger / Web form",
+              "Talep türleri standardize edildi (rezervasyon/teklif/demo/şikâyet)",
+              "CRM alan seti zorunlu yapıldı (kaynak, kanal, kampanya, durum)",
+              "SLA hedefleri belirlendi (ilk yanıt, devir, takip)",
+              "Etiket sözlüğü (dictionary) oluşturuldu",
+              "Dashboard: sosyal lead→dönüşüm raporu planlandı"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Lead kaynakları + talep türleri + rol dağılımı",
+              "Gün 3–4: CRM alan seti ve zorunlu alanlar (kaynak/kanal/durum)",
+              "Gün 5–6: Etiket sözlüğü + kampanya etiket standardı (Varsayım)",
+              "Gün 7: SLA hedefleri + eskalasyon hattı",
+              "Gün 8–9: DM/WhatsApp bilgi toplama şablonları + eğitim",
+              "Gün 10: Pilot (1 hafta) — kayıt ve devir akışı",
+              "Gün 11: İlk mini rapor — SLA ihlalleri + eksikler",
+              "Gün 12–13: İyileştirme — alanlar/şablonlar/route düzeltme",
+              "Gün 14: Dashboard ilk versiyon + süreç dokümantasyonu"
+            ],
+            "deliverables": [
+              "CRM alan seti + etiket sözlüğü",
+              "Sosyal lead kayıt şablonu (DM/WhatsApp)",
+              "Devir SLA dokümanı + eskalasyon hattı",
+              "Sosyal kaynak dashboard (lead→dönüşüm)",
+              "Otel (call center) ve B2B (pipeline) akış diyagramı"
+            ],
+            "href": "/downloads/sosyal-medya-lead-rezervasyon-akis-sablonu-smm-crm-flow-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sosyal medya etkileşimi, CRM’de takip edilebilir kayda dönüşmeden ROI görünmez",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal medya, doğru entegrasyon kurulmadığında yalnızca etkileşim üreten bir iletişim kanalı gibi görünür. Oysa DM, WhatsApp, Messenger, web form ve yorumlardan gelen talepler CRM/rezervasyon sistemine düzenli şekilde kaydedildiğinde; sosyal medya lead, pipeline, rezervasyon ve satış etkisiyle okunabilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle kritik nokta, yalnızca sosyal inbox’ı yönetmek değil; sosyal medyadan gelen her talebi doğru kaynak, kanal, kampanya, persona, durum ve SLA alanlarıyla takip edilebilir bir iş kaydına dönüştürmektir. Otelde bu akış call center ve rezervasyon süreçleriyle, B2B’de ise SDR/BDR ve pipeline aşamalarıyla birlikte çalışmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya → CRM/Rezervasyon Akış Analizi Talep Et",
+            "text": "Otel ve B2B ekiplerinde sosyal lead’leri sistematik kayda çevirip ROI’yi net görmek için.",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Lead & Rezervasyon Akış Şablonunu İndir",
+            "text": "DM/WhatsApp/web formdan CRM ve satışa giden akışı, etiketleri ve SLA’ları tek tabloda standartlaştırmanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medya ile CRM’i nasıl entegre ederim?",
+        "a": "DM/WhatsApp/web form taleplerini CRM’de lead/rezervasyon kaydı olarak açın, “sosyal medya” kaynağıyla etiketleyin ve satış/rezervasyona SLA ile devredin. Sonuçları pipeline ve ROI raporlarına bağlayın."
+      },
+      {
+        "q": "DM ve WhatsApp üzerinden gelen talepleri nasıl kayıt altına almalıyım?",
+        "a": "Kaynak=Social, kanal=IG/WhatsApp, kampanya etiketi, talep türü, durum ve SLA alanlarıyla CRM’de kayıt açın. İlk yanıt ve devir zamanı gibi alanlar, operasyon kalitesini ölçmenizi sağlar."
+      },
+      {
+        "q": "Otel rezervasyon çağrı merkezi ile sosyal medya nasıl birlikte çalışır?",
+        "a": "Sosyal ekip hızlı ilk yanıtı verir, ardından talep türüne göre call center’a devreder. CRM’de sosyal kaynak etiketiyle süreç takip edilir ve rezervasyon sonucu kayda işlenir."
+      },
+      {
+        "q": "B2B’de sosyal medya lead’lerini pipeline’a nasıl taşırım?",
+        "a": "Lead’i CRM’e açıp SDR/BDR’ye atayın; pipeline aşamalarını standartlaştırın (new→qualified→meeting→proposal→won/lost). Sosyal kaynak raporunu ayrı izleyerek kanal katkısını görünür kılın."
+      },
+      {
+        "q": "Atribüsyon neden zorlaşıyor?",
+        "a": "UTM, event ve kampanya etiketleri yoksa sosyal kaynağın satışa etkisini doğru izlemek zorlaşır. Bu yüzden etiketleme standardını en baştan kurmak gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-hero-01.webp",
+          "h1-context — 1920×1080 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-divider-03.webp",
+          "divider-02 — 1600×1200 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-divider-04.webp",
+          "diagram-05 — 1920×1080 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-kpi-07.webp",
+          "proof-08 — 1200×1200 — satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu-proof-08.webp",
+          "table-crm-social-lead-fields — CRM’de Sosyal Medya Lead Kaydı Alanları (Örnek)",
+          "asset-diagram — Sosyal medya→CRM→satış/rezervasyon akış diyagramı",
+          "asset-checklist-card — Sosyal lead entegrasyonu kontrol kartı"
+        ],
+        "technicalChecklist": [
+          "DM/WhatsApp/web form lead kaynakları için CRM kaynak alanı standardı tanımlandı",
+          "Kampanya etiketi, UTM ve event yapısı GA4 raporlamasıyla uyumlu planlandı",
+          "CRM alan seti: kaynak, kanal, kampanya, talep türü, persona/segment, durum, SLA, sonuç",
+          "Otel için sosyal→call center devir SLA dokümanı oluşturuldu",
+          "B2B için social source pipeline aşamaları standartlaştırıldı",
+          "Sosyal lead→dönüşüm→ROI dashboard yapısı planlandı",
+          "Etiket sözlüğü (dictionary) ve etiketsiz lead KPI’ı tanımlandı",
+          "365 günlük refresh döngüsü: CRM/API değişince akış ve etiket güncelleme kontrolü"
+        ]
+      }
+    }
+  },
+
+  "BlogZincirOtellerVeCokLokasyonluMarkalarIcinSosyalMedyaStratejisi": {
+    "title": "Zincir Otellerde Sosyal Medya: Tek mi Çok Hesap mı?",
+    "slug": "zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi",
+    "department": "smm",
+    "subDepartment":"planning",
+    "updatedAt": "10 Haziran 2026",
+    "publishedAt": "2026-06-10",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Zincir otel ve çok lokasyonlu markalarda hesap mimarisi: merkez marka vs lokasyon hesapları, tek/çok hesap karar kriterleri, yetki ve içerik sınırları, lokal kampanya planı ve kontrol checklist’i.",
+    "seo": {
+      "metaTitle": "Zincir Otellerde Sosyal Medya: Tek mi Çok Hesap mı? | DGTLFACE",
+      "metaDescription": "Zincir otel ve çok lokasyonlu markalarda hesap mimarisi: merkez marka vs lokasyon hesapları, tek/çok hesap karar kriterleri, yetki ve içerik sınırları, lokal kampanya planı ve kontrol checklist’i."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog No / URL: Blog #14 — /tr/smm/blog/zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, SMM planlama silosunda zincir ve çok lokasyonlu yapılarda “hesap mimarisi” ve governance kararlarını veren otorite taşıyan child yazıdır. Hedef persona; zincir otellerde grup pazarlama/satış liderleri, bölge yöneticileri ve ajans yöneticileri; restoran grupları ve çok şubeli hizmet markalarında merkez pazarlama ekipleridir. Funnel’da awareness → consideration katmanını güçlendirir: doğru hesap kurgusu marka dilini korur, yerel ihtiyaçları karşılar ve yönetim yükünü azaltır. Ana iş sorusu: “Tek hesap mı çok hesap mı; merkez ve lokasyon hesaplarının rol, yetki ve içerik sınırlarını nasıl tanımlar, lokal kampanyaları nasıl planlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-10",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Zincir oteller ve çok lokasyonlu markalarda “tek hesap mı, her şube için ayrı hesap mı?” sorusu stratejik bir karardır. Yanlış yapı, yönetim yükünü artırır ve marka dilini parçalayabilir; doğru yapı ise kurumsal kimliği korurken lokal ihtiyaçları karşılar. Çözüm; merkez marka hesabının (kurumsal hikâye, global kampanya) ve lokasyon hesaplarının (yerel teklif, misafir iletişimi) rol–yetki–içerik sınırlarını netleştirmek, onay/stil kontrolü kurmak ve lokasyon bazlı kampanyaları planlamaktır.",
+      "sgeSummary": "Merkez hesap kurumsal hikâye ve global kampanya taşır; lokasyon hesapları yerel teklif ve iletişimi yürütür. Tek/çok hesap kararını kapasite, hedef pazar ve lokal içerik ihtiyacına göre verin.",
+      "voiceAnswer": "Beş otelde her hesap şart değil; kapasite ve lokal ihtiyaç yüksekse lokasyon hesabı, değilse tek hesap seçin.",
+      "aiFactSheet": [
+        "Entity’ler: HQ vs local accounts, chain hotels, multi-location brands, governance, account architecture, style control",
+        "Karar ekseni: marka tutarlılığı ↔ lokal ihtiyaç ↔ yönetim kapasitesi",
+        "Model: merkez hesap = kurumsal/üst kampanya • lokasyon hesap = lokal teklif/iletişim",
+        "Riskler: çok hesapta erişim/takipçi bölünmesi • tek hesapta lokal içerik talebi yönetimi",
+        "Çıktı: hesap mimarisi şeması + karar checklist’i + yetki matrisi",
+        "Kullanım: lokal kampanya ve hedefleme planı, raporlama kolaylığı",
+        "Refresh: yeni şube açıldıkça mimari yeniden gözden geçirilmeli (365)"
+      ]
+    },
+    "h1": {
+      "title": "Zincir Oteller ve Çok Lokasyonlu Markalar İçin Sosyal Medya Stratejisi",
+      "intro": "Zincir yapılarda sosyal medya çoğu zaman “herkes kendi hesabını açmış” bir durumdan büyür; sonra toparlamak zorlaşır. Çünkü hesap sayısı arttıkça; içerik üretimi, onay, kriz yönetimi ve raporlama parçalanır. Öte yandan tek hesapla ilerlemek de her lokasyonun yerel ihtiyaçlarını (teklifler, etkinlikler, operasyon duyuruları) karşılamakta zorlanabilir. Doğru strateji; merkez marka ile lokasyon hesaplarının rolünü netleştirip, yetki ve içerik sınırlarını standartlaştırmak ve lokasyon bazlı kampanyaları sürdürülebilir bir mimari içinde yönetmektir. Bu rehber, otel grupları ve çok şubeli markalar için “tek hesap mı çok hesap mı” kararını verdiren kriterleri ve uygulanabilir yapı örneklerini sunar.",
+      "quickSummary": [
+        "1) Merkez marka ve lokasyon hesaplarının rolünü ayrı tanımlayın",
+        "2) Tek hesap mı çok hesap mı kararını lokasyon sayısı, kapasite ve lokal ihtiyaçla verin",
+        "3) İçerik ve yetki paylaşımı için governance dokümanı oluşturun",
+        "4) Lokasyon bazlı kampanyaları merkez marka mesajını bölmeden planlayın",
+        "5) Yeni şube açıldıkça hesap mimarisini ve raporlama yapısını yeniden gözden geçirin"
+      ],
+      "ctaPrimary": {
+        "label": "Zincir Otel & Çok Lokasyonlu Marka SMM Yapı Analizi Talep Et",
+        "text": "Hesap mimarisini toparlayıp yönetim yükünü azaltmak ve marka dilini korumak isteyenler için.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Zincir Otel & Çok Lokasyonlu Marka SMM Yapı Analizi Talep Et",
+        "text": "Hesap mimarisini doğru kurup marka dilini korurken yerel ihtiyaçları yönetmek isteyen yapılar için.",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Merkez + Lokasyon Hesap Mimarisi Planlama Şablonunu İndir",
+        "text": "Tek/çok hesap kararını, rol-yetki sınırlarını ve kampanya/rapor akışını tek dokümanda planlamanızı sağlar.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM planlama ve strateji hizmet sayfası",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO rehberi",
+        "href": "/seo/yerel-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Planlama ve Strateji Nedir?",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "Yerel SEO Nedir? Çok Lokasyonlu Markalarda Görünürlük",
+        "href": "/seo/yerel-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "merkez-marka-vs-sube-hesaplari",
+        "title": "Merkez Marka vs Şube/Hizmet Noktası Hesapları – “Rol tanımı”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Multi-location mimaride ilk adım, hesapların rolünü tanımlamaktır. Merkez hesap “kurumsal kimlik ve üst seviye kampanyalar” taşır; lokasyon hesaplar ise “yerel teklif ve iletişim” yürütür. Rol tanımı yoksa içerikler tekrar eder, kullanıcı kafası karışır ve ekipler yorulur."
+          },
+          {
+            "type": "h3",
+            "text": "Merkez marka ve şube hesaplarının görev dağılımı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Merkez hesap kurumsal hikâye, marka standardı ve global kampanyaları yönetir; lokasyon hesaplar yerel teklif, etkinlik, misafir iletişimi ve lokal topluluk yönetimini yürütür. İçerik sınırları ve onay/stil kontrolü tek bir governance dokümanıyla standardize edilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Merkez hesabın tipik görevleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka hikâyesi, değer önerisi, güven/kanıt içerikleri",
+              "Grup kampanyaları (erken rezervasyon, marka kampanyası)",
+              "Style guide ve içerik şablonları (ortak)",
+              "Kurumsal duyurular ve PR"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Lokasyon hesabın tipik görevleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lokal teklif/etkinlik duyuruları",
+              "Lokasyon özel içerik (destinasyon, yerel deneyim)",
+              "DM/yorum yönetimi (misafir iletişimi)",
+              "Yerel kampanya hedeflemeye uygun içerik"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Rol netliği)",
+            "items": [
+              "Merkez hesabın 3 ana içerik pillar’ı yazılı mı?",
+              "Lokasyon hesabın “yerel içerik sınırı” var mı?",
+              "Tekrarlanan içerik oranı kontrol ediliyor mu?",
+              "DM/yorum operasyonu hangi hesapta?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Merkez ve lokasyon hesaplarına “rol kartı” çıkarın.",
+              "Paylaşım tiplerini 3 kategoriye ayırın: merkez, lokal, ortak.",
+              "Lokasyon içeriklerini merkez şablonlarına uyarlayın.",
+              "Onay ve kriz yönetimini tek hat üzerinden yönetin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "tek-hesap-mi-coklu-hesap-mi",
+        "title": "Hangi Durumda Tek Hesap, Hangi Durumda Çoklu Hesap? – “Karar kriterleri”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "En kritik karar: tek hesapla mı yürümeli, yoksa lokasyon hesapları açmalı mı? Bu karar “moda” değil; kapasite, hedef pazar, lokasyon sayısı ve yerel içerik ihtiyacına göre verilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Zincir oteller için tek hesap mı, çok hesap mı daha doğru?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Tek hesap; lokasyon sayısı az, içerik kapasitesi sınırlı ve marka tutarlılığı öncelikliyse daha uygundur. Çok hesap; lokasyon sayısı yüksek, yerel teklif/etkinlik ihtiyacı güçlü ve lokasyon bazlı iletişim gerektiriyorsa doğru çalışır. Karar, yönetim kapasitesi ve hedef pazar çeşitliliğiyle birlikte verilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Tek hesap daha mantıklıysa"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2–5 lokasyon ama içerik ekibi küçük (Varsayım)",
+              "Hedef pazar benzer, lokal fark düşük",
+              "Yönetim yükü ve tutarlılık kritik",
+              "Lokal içerik “slot”larla merkez hesapta çözülebilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çok hesap daha mantıklıysa"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "6+ lokasyon veya farklı şehir/ülke pazarları (Varsayım)",
+              "Lokasyon bazlı kampanya/etkinlik yoğun",
+              "DM/iletişim lokasyon bazında yönetilmeli",
+              "Yerel topluluk ve yerel SEO sinerjisi önemli"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet): Çok hesaplı yapılarda erişim ve takipçi bölünmesi riski vardır; tek hesapta ise lokal içerik talebi ve DM yönetimi zorlaşabilir. Bu iki risk dengeli biçimde değerlendirilmelidir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Tek Hesap vs Çok Hesap Karar Tablosu",
+            "headers": [
+              "Kriter",
+              "Tek hesap daha iyi",
+              "Çok hesap daha iyi"
+            ],
+            "rows": [
+              [
+                "Lokasyon sayısı",
+                "az/orta",
+                "yüksek"
+              ],
+              [
+                "İçerik kapasitesi",
+                "sınırlı",
+                "güçlü ekip/ajans"
+              ],
+              [
+                "Lokal teklif ihtiyacı",
+                "düşük",
+                "yüksek"
+              ],
+              [
+                "Marka tutarlılığı riski",
+                "düşük (kolay kontrol)",
+                "yüksek (governance şart)"
+              ],
+              [
+                "Takipçi/erişim",
+                "bölünmez",
+                "bölünebilir"
+              ],
+              [
+                "DM/iletişim",
+                "merkezi yönetilebilir",
+                "lokasyon bazlı daha hızlı"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Karar)",
+            "items": [
+              "Lokasyon sayısı ve içerik kapasitesi uyumlu mu?",
+              "Yerel teklif sıklığı yüksek mi?",
+              "Lokasyon bazlı hedefleme ihtiyacı var mı?",
+              "Raporlama ve governance yönetilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Pilot” ile başlayın: önce merkez + 1 lokasyon hesabı (Varsayım).",
+              "90 günde operasyon yükünü ölçün, sonra genişletin.",
+              "Çok hesap açmadan önce style guide ve onay akışını kurun.",
+              "Tek hesapta “lokasyon slotları” kurgulayın (haftalık)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Merkez + Lokasyon Hesap Mimarisi Planlama Şablonunu İndir",
+            "text": "Tek/çok hesap kararını, rol-yetki sınırlarını ve kampanya/rapor akışını tek dokümanda planlamanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "icerik-ve-yetki-paylasimi",
+        "title": "İçerik ve Yetki Paylaşımı – “Governance yoksa kaos”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Hesap sayısı arttıkça yetki yönetimi kritikleşir. Kim yayınlar, kim onaylar, kim yanıtlar, kim kriz yönetir? Bu sorular yazılı değilse, lokasyonlar “kendi dilini” üretmeye başlar; marka bütünlüğü parçalanır."
+          },
+          {
+            "type": "h3",
+            "text": "Yetki matrisi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Merkez: strateji, şablon, kampanya mesajı, kriz onayı",
+              "Lokasyon: yerel içerik üretimi, hızlı yanıt, lokal story akışı",
+              "Ajans: üretim/rapor, operasyon desteği (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Stil kontrolü"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek style guide",
+              "Şablon kütüphanesi (feed/story/reels)",
+              "Onay SLA: mesaj onayı + kreatif onayı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Yetki)",
+            "items": [
+              "Tek onay sahibi var mı?",
+              "Lokasyonların yayın sınırı yazılı mı?",
+              "Şablonlar ortak mı?",
+              "Krizde “durdur/yanıtla” prosedürü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "RACI benzeri rol matrisi hazırlayın.",
+              "Lokasyon hesaplarına hazır şablonlar verin.",
+              "Aylık “stil denetimi” rutini koyun.",
+              "Yetkiyi “minimum gerekli” seviyede tutun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lokasyon-bazli-kampanyalar",
+        "title": "Lokasyon Bazlı Kampanyalar – “Yereli büyüt, markayı bölme”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Lokasyon bazlı kampanya, “yerel teklif” üretmenin en güçlü yoludur; ama merkez kampanya mesajıyla çelişmemelidir. Otelde: Side/Belek/Kemer gibi destinasyonların sezon farklılıkları; restoran grubunda: şube özel menü veya etkinlik gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Lokasyon kampanyası planlama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya etiketi: lokasyon + dönem (Varsayım)",
+              "İçerik seti: teaser → teklif/proof → reminder → closing",
+              "Hedefleme: lokasyon çevresi + ilgi alanı (Varsayım: ads)",
+              "DM/rezervasyon akışı: lokasyon ekibine devir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kampanya uyumu)",
+            "items": [
+              "Merkez mesaj çerçevesiyle uyumlu mu?",
+              "Lokasyon CTA ve rezervasyon akışı net mi?",
+              "Kampanya etiketleme standardı var mı?",
+              "Raporlamada lokasyon performansı ayrılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Lokasyon kampanyaları için “tek sayfa brief” kullanın.",
+              "Merkez hesabın kampanyasını gölgelemeyecek yayın ritmi belirleyin.",
+              "Lokasyonlarda UGC/proof içeriklerini artırın.",
+              "Raporu lokasyon bazında çıkarın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-gruplari-ve-cok-subeli-markalar-icin-yapi-ornekleri",
+        "title": "Otel Grupları ve Çok Şubeli Markalar İçin Yapı Örnekleri – “Mimari şablonlar”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Burada amaç “tek doğru”yu dayatmak değil; karar vermeyi kolaylaştıran mimari şablon sunmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Mimari A (Merkez tek hesap + lokasyon slotları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek marka hesabı",
+              "Haftada 2 “lokasyon slotu” (story/reel)",
+              "DM/rezervasyon yönlendirmesi lokasyon tag’leriyle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Mimari B (Merkez + seçili lokasyon hesapları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Merkez hesap + 2–3 büyük lokasyon hesabı",
+              "Büyük lokasyonlarda yerel kampanya ve community",
+              "Küçük lokasyonlar merkez slotlarında temsil edilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Mimari C (Merkez + tüm lokasyon hesapları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çok lokasyon, yüksek kapasite",
+              "Sıkı style guide + onay SLA",
+              "Lokasyon bazlı raporlama ve bütçe yönetimi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Doğru kurgulanmış multi-location SMM mimarisinin içerik üretimini, yerel kampanyaları ve raporlamayı belirgin biçimde kolaylaştırdığı sık görülür (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Sürdürülebilirlik)",
+            "items": [
+              "Hesap sayısı kapasitenizi aşıyor mu?",
+              "Lokasyonların içerik üretim gücü var mı?",
+              "Stil kontrol mekanizması işliyor mu?",
+              "Yeni şube açılınca süreç hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mimariyi “bugün” değil “12 ay sonrası” ölçeğiyle kurun.",
+              "Yeni şube açılışını tetikleyen “hesap açma kriterleri” yazın.",
+              "/tr/seo/yerel-seo ile uyumlu lokasyon iletişimi planlayın.",
+              "365 günde bir mimariyi gözden geçirin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Zincir Otel & Çok Lokasyonlu Marka SMM Yapı Analizi Talep Et",
+            "text": "Hesap mimarisini doğru kurup marka dilini korurken yerel ihtiyaçları yönetmek isteyen yapılar için.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "merkez-lokasyon-hesap-mimarisi-planlama-sablonu",
+        "title": "Merkez + Lokasyon Hesap Mimarisi Planlama Şablonunu İndir — Multi-Location SMM",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Merkez + Lokasyon Hesap Mimarisi Planlama Şablonunu İndir — Multi-Location SMM (v1.0)",
+            "purpose": "Bu şablon, zincir ve çok lokasyonlu yapılarda merkez marka ile lokasyon hesaplarının rol, yetki ve içerik sınırlarını netleştirerek sürdürülebilir bir hesap mimarisi kurmanıza yardımcı olur. Tek hesap vs çok hesap kararını kriterlerle verir ve lokasyon bazlı kampanya/raporlama akışını standardize eder. Marka tutarlılığı ile yerel ihtiyaç dengesini korumayı hedefler.",
+            "whoFor": "Zincir oteller, restoran grupları ve çok şubeli hizmet markalarının merkez pazarlama ekipleri ve ajansları.",
+            "steps": [
+              "Lokasyon sayısı, kapasite ve lokal ihtiyaçlara göre tek/çok hesap kararını verin.",
+              "Merkez ve lokasyon hesapları için rol-yetki matrisi oluşturun.",
+              "Lokasyon kampanyaları ve raporlamayı etiket standardıyla planlayın."
+            ],
+            "template": {
+              "decisionForm": [
+                "Lokasyon sayısı: […]",
+                "Lokal teklif/etkinlik sıklığı: […]",
+                "DM/iletişim hacmi: […]",
+                "İçerik kapasitesi (haftalık): […]",
+                "Risk: takipçi bölünmesi / marka dilinin parçalanması: […]",
+                "Karar: [Tek / Hibrit / Çoklu]"
+              ],
+              "sections": [
+                "A) Tek Hesap vs Çok Hesap Karar Formu",
+                "B) Rol & İçerik Sınırları",
+                "C) Yetki ve Onay (Governance)",
+                "D) Lokasyon Kampanya Planı",
+                "E) Raporlama Yapısı"
+              ],
+              "governanceFields": [
+                "Style guide referansı: […]",
+                "Onay SLA: […]",
+                "Kriz prosedürü: […]",
+                "Aylık stil denetimi: […]"
+              ],
+              "reportingFields": [
+                "Merkez KPI seti: […]",
+                "Lokasyon KPI seti: […]",
+                "Takipçi/erişim bölünmesi takibi: […]",
+                "İçerik tekrar oranı takibi: […]"
+              ]
+            },
+            "checklist": [
+              "Rol kartları yazıldı",
+              "Tek/çok hesap kararı kriterlerle verildi",
+              "Style guide ve şablonlar dağıtıldı",
+              "Onay SLA ve kriz hattı tanımlı",
+              "Lokasyon kampanya etiketi standardı var",
+              "Raporlama merkez + lokasyon kırılımında kurulmuş",
+              "365 gün revizyon takvimi planlandı"
+            ],
+            "deliverables": [
+              "Tek hesap vs çok hesap karar formu",
+              "Merkez + lokasyon rol kartları",
+              "Rol-yetki matrisi ve onay akışı",
+              "Lokasyon kampanya brief şablonu",
+              "Merkez + lokasyon raporlama yapısı",
+              "Merkez + lokasyon hesap hiyerarşisi diyagramı",
+              "Çok lokasyonlu marka checklist kartı"
+            ],
+            "href": "/downloads/merkez-lokasyon-hesap-mimarisi-planlama-sablonu-multi-location-smm-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Çok lokasyonlu sosyal medya stratejisi, hesap sayısından önce mimari kararıdır",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Zincir oteller ve çok lokasyonlu markalar için sosyal medya stratejisinde en önemli konu, yalnızca kaç hesap açılacağı değildir. Asıl karar; merkez marka ile lokasyon hesaplarının hangi rolü üstleneceği, hangi içeriklerin nerede yayınlanacağı, kimin onay vereceği ve lokasyon performansının nasıl raporlanacağıdır."
+          },
+          {
+            "type": "p",
+            "text": "Tek hesap, marka tutarlılığını ve yönetim kolaylığını artırabilir; çok hesap ise yerel teklif, etkinlik ve misafir iletişimi ihtiyacını daha iyi karşılayabilir. Doğru yapı; lokasyon sayısı, içerik kapasitesi, hedef pazar çeşitliliği ve governance gücü birlikte değerlendirilerek kurulmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Zincir Otel & Çok Lokasyonlu Marka SMM Yapı Analizi Talep Et",
+            "text": "Hesap mimarisini doğru kurup marka dilini korurken yerel ihtiyaçları yönetmek isteyen yapılar için.",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Merkez + Lokasyon Hesap Mimarisi Planlama Şablonunu İndir",
+            "text": "Tek/çok hesap kararını, rol-yetki sınırlarını ve kampanya/rapor akışını tek dokümanda planlamanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Zincir oteller için tek hesap mı, çok hesap mı daha doğru?",
+        "a": "Lokasyon sayısı az ve içerik kapasitesi sınırlıysa tek hesap daha yönetilebilir olur. Lokasyon sayısı yüksek, yerel teklif/iletişim ihtiyacı güçlü ve ekip kapasitesi varsa çok hesap doğru çalışır; governance şarttır."
+      },
+      {
+        "q": "Merkez marka ve şube hesaplarının görev dağılımı nasıl olmalı?",
+        "a": "Merkez hesap kurumsal hikâye, style guide ve grup kampanyalarını taşır. Lokasyon hesaplar yerel teklif, etkinlik ve misafir iletişimini yürütür; içerik sınırları ve onay süreçleri yazılı olmalıdır."
+      },
+      {
+        "q": "Lokasyon bazlı kampanyalar sosyal medyada nasıl planlanır?",
+        "a": "Kampanya etiketi ve brief ile başlayın, teaser→launch→reminder→closing akışı kurun. Hedeflemeyi lokasyon çevresi ve ilgili kitleye göre yapın (Varsayım: ads) ve DM/rezervasyon devrini netleştirin."
+      },
+      {
+        "q": "Stil ve ton kontrolünü çok hesaplı yapılarda nasıl korurum?",
+        "a": "Tek bir style guide ve şablon kütüphanesi kullanın, onay SLA belirleyin ve aylık stil denetimi yapın. Kriz prosedürü ve tek onay hattı özellikle önemlidir."
+      },
+      {
+        "q": "Çok hesap açmanın en büyük riski nedir?",
+        "a": "Takipçi/erişim bölünmesi ve marka dilinin parçalanmasıdır. Bu risk, rol tanımı ve governance ile yönetilebilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-hero-01.webp",
+          "h1-context — 1920×1080 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-divider-03.webp",
+          "divider-02 — 1600×1200 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi-proof-08.webp",
+          "table-account-architecture-decision — Tek Hesap vs Çok Hesap Karar Tablosu",
+          "asset-diagram — Merkez + lokasyon hesap hiyerarşisi diyagramı",
+          "asset-checklist-card — Çok lokasyonlu marka checklist kartı"
+        ],
+        "technicalChecklist": [
+          "Merkez marka ve lokasyon hesapları için rol kartları oluşturuldu",
+          "Tek hesap / hibrit / çoklu hesap karar kriterleri belirlendi",
+          "Style guide, şablon kütüphanesi ve onay SLA yapısı tanımlandı",
+          "Lokasyon hesapları için yayın sınırı ve kriz prosedürü yazıldı",
+          "Lokasyon kampanyaları için etiket standardı ve tek sayfa brief şablonu planlandı",
+          "Merkez + lokasyon kırılımında raporlama yapısı kurgulandı",
+          "Takipçi/erişim bölünmesi ve içerik tekrar oranı KPI olarak izlendi",
+          "365 günlük refresh döngüsü: yeni şube açılışı ve hesap mimarisi revizyon kontrolü"
+        ]
+      }
+    }
+  },
+
+  "BlogSosyalMedyaPlaybookVeOnboardingDokumaniNasilHazirlanir": {
+    "title": "Sosyal Medya Playbook & Onboarding Dokümanı",
+    "slug": "sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir",
+    "department": "smm",
+    "subDepartment":"planning",
+    "updatedAt": "10 Haziran 2026",
+    "publishedAt": "2026-06-10",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sosyal medya playbook’u nasıl hazırlanır? Strateji özeti, ton/stil linkleri, formatlar, süreçler, kriz/escalation, SSS ve ilk 30 gün onboarding checklist’iyle sürdürülebilir yapı kurun.",
+    "seo": {
+      "metaTitle": "Sosyal Medya Playbook & Onboarding Dokümanı | DGTLFACE",
+      "metaDescription": "Sosyal medya playbook’u nasıl hazırlanır? Strateji özeti, ton/stil linkleri, formatlar, süreçler (brief-onay-yayın), kriz/escalation, SSS ve ilk 30 gün onboarding checklist’iyle sürdürülebilir yapı kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog No / URL: Blog #15 — /tr/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir"
+      ],
+      "strategySummary": "Bu içerik, SMM planlama silosunda sosyal medya operasyonunu “kişi bağımlı” olmaktan çıkarıp süreç odaklı hale getiren playbook ve onboarding sistemini kuran otorite taşıyan child yazıdır. Hedef persona; otel ve B2B markalarda ekip yöneten pazarlama liderleri, ajans yöneticileri ve operasyon sahipleridir. Funnel’da awareness → consideration katmanını güçlendirir: tutarlı kalite ve hız, marka güvenini artırır ve kampanya dönemlerinde hatayı azaltır. Ana iş sorusu: “Playbook’u hangi bölümlerle kurarım, yeni ekip üyesini ilk 30 günde nasıl onboard ederim ve ajans/ekip değişimlerinde sürekliliği nasıl korurum?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-10",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medya playbook’u, “ekibe yeni biri geldiğinde her şeyi sıfırdan anlatma” zorunluluğunu ortadan kaldıran operasyonel anayasadır. Strateji, stil/ton, format standartları, brief–onay–yayın süreçleri, kriz/escalation adımları ve sık yapılan hataları tek yerde toplar. Buna bağlı onboarding dokümanı ise yeni ekip üyesinin ilk 30 günde hangi adımları tamamlayacağını netleştirir. Otel ve B2B ekiplerinde bu yapı kaliteyi ve sürekliliği korur.",
+      "sgeSummary": "Playbook; strateji + ton/stil + formatlar + süreçler + kriz protokolü + SSS’yi tek dokümanda toplar. Onboarding, ilk 30 günde erişimler, rutinler ve kontrol checklist’iyle hız kazandırır.",
+      "voiceAnswer": "Yeni ekip için playbook hazırlayın: strateji, ton/stil, süreç, kriz ve ilk 30 gün checklist’i tek yerde olsun.",
+      "aiFactSheet": [
+        "Entity’ler: social media playbook, onboarding, governance, SOPs, knowledge transfer, continuity",
+        "Amaç: bilgi transferi + süreç standardı + ajans/ekip değişiminde süreklilik",
+        "İçerik: strateji özeti, kanal rolleri, style guide linkleri, SOP, kriz, SSS",
+        "Onboarding: ilk 30 gün planı + erişim/araçlar + gölge (shadowing)",
+        "KPI etkisi: revizyon sayısı, teslimat SLA, hata/kriz sıklığı, üretim hızı",
+        "Teknik: versiyonlama + değişiklik tarihi tutulmalı",
+        "Refresh: yılda 1 tam review + değişiklikte güncelleme (365)"
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Medya Playbook’u ve Onboarding Dokümanı Nasıl Hazırlanır?",
+      "intro": "Yazılı playbook’u olmayan ekiplerde, personel/ajans değişimlerinde öğrenme eğrisi uzar ve hataya açıklık artar. Çünkü bilgi “kişilerin kafasında” kalır: kim onaylar, hangi tonla yazılır, DM’ler nasıl yönetilir, kriz olursa ne yapılır… Yeni biri geldiğinde her şeyi yeniden anlatmak gerekir ve operasyon birkaç hafta yavaşlar. Sosyal medya playbook’u bu sorunu çözer: strateji, stil, süreç ve sorumlulukları tek bir “operasyonel anayasa”da toplar. Onboarding dokümanı ise bu anayasayı yeni ekip üyesine ilk 30 günde adım adım uygulatır. Bu rehber, otel ve B2B ekipleri için playbook iskeletini, örnek içeriklerini ve kopyalanabilir onboarding planını sunar.",
+      "quickSummary": [
+        "1) Playbook’u kişi bağımlılığını azaltan tek kaynak gerçek olarak konumlandırın",
+        "2) Strateji özeti, kanal rolleri, ton/stil, formatlar ve SOP bölümlerini netleştirin",
+        "3) Yeni ekip üyesi için ilk 30 günü erişim, gölge çalışma, yayın ve rapor aşamalarına bölün",
+        "4) Ajans/ekip değişimlerinde handover paketi ve QA kontrol süreci oluşturun",
+        "5) Playbook’u versiyonlama, değişiklik log’u ve yıllık review ile güncel tutun"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Medya Playbook & Onboarding Analizi Talep Et",
+        "text": "Operasyonu kişi bağımlı olmaktan çıkarıp süreç odaklı hale getirmek isteyen ekipler için.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Medya Playbook & Onboarding Analizi Talep Et",
+        "text": "Ajans ve in-house ekiplerde süreçleri tek dokümana toplayıp operasyonu kişi bağımlı olmaktan çıkarmak için.",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Playbook & Onboarding Doküman Şablonunu İndir",
+        "text": "İçindekiler yapısı, SOP bölümleri ve ilk 30 gün checklist’iyle hızlıca playbook oluşturmanızı sağlar.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM planlama ve strateji hizmet sayfası",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "Sosyal medya içerik üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "Sosyal medya analiz ve raporlama",
+        "href": "/smm/analiz-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Planlama ve Strateji Nedir?",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "Sosyal Medya Analiz ve Raporlama Nasıl Kurulur?",
+        "href": "/smm/analiz-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-playbook-gerekli",
+        "title": "Neden Playbook Gerekli? – “Kişi bağımlılığını bitir”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Playbook’un değeri, “doküman olsun” diye değil; günlük operasyonda tekrar eden işleri standardize ettiği için ortaya çıkar. Revizyonları azaltır, onay süreçlerini hızlandırır ve kriz anında panik yerine protokol işletir."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medya playbook’u nedir, içinde neler olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Sosyal medya playbook’u; strateji özeti, kanal rolleri, ton/stil kuralları, içerik format standartları, brief–onay–yayın SOP’ları, kriz/escalation adımları, raporlama ritmi ve sık sorulan soruları tek dokümanda toplayan operasyon rehberidir."
+          },
+          {
+            "type": "h3",
+            "text": "Playbook’un sağladığı temel faydalar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni ekip/ajans onboarding süresini kısaltır",
+              "Hata ve revizyon sayısını azaltır",
+              "Marka tutarlılığını korur",
+              "Raporlamayı standardize eder",
+              "Krizde “kim ne yapacak?” sorusunu bitirir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Playbook ihtiyacı var mı?)",
+            "items": [
+              "Ajans/ekip değişimi oluyor mu?",
+              "Revizyon sayısı yüksek mi?",
+              "Onay süreçleri uzuyor mu?",
+              "DM/yorum yönetimi kişi bazlı mı?",
+              "Krizde “protokol” yok mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Playbook’u “tek kaynak gerçek” ilan edin.",
+              "İçindekiler sayfasını (TOC) önce yazın, sonra doldurun.",
+              "SOP’ları (brief-onay-yayın) en önce netleştirin.",
+              "Playbook’a style guide linklerini gömün."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "playbook-bolumleri",
+        "title": "Playbook Bölümleri – “Strateji özeti, ton, formatlar, süreçler”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "İyi playbook’un sırrı, “her şeyi yazmak” değil; en çok tekrar eden kararları yazmaktır. Bu yüzden bölümler; strateji özeti, stil/ton, kanal rolü, format standartları, süreçler ve kriz yönetimi etrafında toplanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Playbook hangi başlıkları içermeli?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Minimum başlıklar: strateji & hedef özeti, kanal haritası, ton of voice ve style guide referansları, içerik format standartları, brief–onay–yayın süreçleri, DM/yorum yanıt protokolü, kriz/escalation, raporlama ritmi ve SSS/sık hatalardır."
+          },
+          {
+            "type": "h3",
+            "text": "Playbook bölüm iskeleti (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Strateji özeti (amaç, hedef kitle, KPI seti)",
+              "Kanal rolleri (IG/TikTok/YouTube/LinkedIn)",
+              "Ton & stil (style guide linki + do/don’t)",
+              "İçerik formatları (reels/carousel/story standartları)",
+              "Brief şablonu ve iş açma kuralları",
+              "Onay mekanizması ve SLA (kim, kaç saatte?)",
+              "Yayın ve takvim ops (haftalık rutin)",
+              "Community: DM/yorum yanıt dili + eskalasyon",
+              "Kriz yönetimi (durdur/yanıtla protokolü)",
+              "Raporlama: haftalık mini + aylık review",
+              "SSS ve sık yapılan hatalar",
+              "Versiyonlama & değişiklik log’u"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Playbook İçindekiler + Onboarding 30 Gün Planı",
+            "headers": [
+              "Bölüm",
+              "İçerik",
+              "Onboarding’de ne zaman?"
+            ],
+            "rows": [
+              [
+                "Strateji özeti",
+                "hedef, persona, KPI",
+                "Gün 1–2"
+              ],
+              [
+                "Kanal rolleri",
+                "IG/TikTok/YouTube/LinkedIn",
+                "Gün 2–3"
+              ],
+              [
+                "Ton & style guide",
+                "do/don’t + linkler",
+                "Gün 3–5"
+              ],
+              [
+                "SOP (brief-onay-yayın)",
+                "SLA + süreç",
+                "Hafta 2"
+              ],
+              [
+                "Community & kriz",
+                "DM/yorum + escalation",
+                "Hafta 3"
+              ],
+              [
+                "Raporlama ritmi",
+                "haftalık/aylık",
+                "Hafta 4"
+              ],
+              [
+                "Versiyonlama",
+                "değişiklik log’u",
+                "Sürekli"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (İskelet doğru mu?)",
+            "items": [
+              "Kanal rolü yazıldı mı?",
+              "Stil/ton linkleri net mi?",
+              "SOP ve SLA var mı?",
+              "Kriz protokolü var mı?",
+              "Raporlama ritmi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her bölüm için 1 “kural listesi” + 1 “örnek” ekleyin.",
+              "Playbook’u 10 sayfa “net” tutmaya çalışın; ekleri ayrı yönetin (Varsayım).",
+              "Şablonları (brief, takvim, rapor) linkleyin.",
+              "Yeni kampanya geldiğinde playbook’u referans alın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yeni-ekip-uyeleri-icin-onboarding",
+        "title": "Yeni Ekip Üyeleri İçin Onboarding – “İlk 30 gün planı”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Onboarding dokümanı, playbook’un “uygulama planı”dır. Yeni ekip üyesi playbook’u okuyup “anladım” demekle kalmamalı; erişim, rutin ve görevleri adım adım tamamlamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Onboarding dokümanı yeni ekip için nasıl hazırlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Onboarding’i 30 güne bölün: İlk hafta erişimler ve temel dokümanlar, ikinci hafta gölge çalışma (shadowing) ve küçük görevler, üçüncü hafta yayın/yanıt operasyonu, dördüncü hafta rapor ve optimizasyon. Her adımı checklist ile takip edin."
+          },
+          {
+            "type": "h3",
+            "text": "İlk 30 gün (önerilen plan)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gün 1–3: erişimler (Meta Business, TikTok, YouTube, LinkedIn), araçlar, güvenlik (Varsayım: izinler)",
+              "Gün 4–7: style guide + ton, kanal rolleri, haftalık ops plan",
+              "Hafta 2: 5 içerik brief’i yazma + 5 caption hazırlama + 1 reel taslağı (gölgeli)",
+              "Hafta 3: 1 haftalık yayın yönetimi + DM/yorum SOP uygulama",
+              "Hafta 4: mini rapor hazırlama + toplantıda sunma + 3 aksiyon önerisi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Onboarding etkin mi?)",
+            "items": [
+              "Erişimler tamam mı?",
+              "Style guide anlaşılmış mı? (mini quiz/örnek)",
+              "1 haftalık ops yürütüldü mü?",
+              "1 rapor üretildi mi?",
+              "Kriz protokolü öğrenildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Onboarding’i “görev bazlı” tasarlayın, sadece okuma değil.",
+              "Yeni kişi için mentor belirleyin (Varsayım).",
+              "İlk ay “düşük risk” içeriklerle başlayın.",
+              "Ay sonunda performans ve süreç geri bildirimi alın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Playbook & Onboarding Doküman Şablonunu İndir",
+            "text": "İçindekiler yapısı, SOP bölümleri ve ilk 30 gün checklist’iyle hızlıca playbook oluşturmanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "ajans-ic-ekip-degisimlerinde-surekliligi-korumak",
+        "title": "Ajans/İç Ekip Değişimlerinde Sürekliliği Korumak – “Devir teslim protokolü”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Ekip değişimi olduğunda kayıp yaşanmasının sebebi genelde doküman değil, devir teslimin olmamasıdır. Playbook, devir teslimi kolaylaştırır; ama ayrıca “handover checklist” gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Ajans/ekip değişimlerinde sürekliliği nasıl korurum?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Devir teslimi standartlaştırın: erişimler, şablonlar, kreatif kütüphane, kampanya takvimi, raporlar, öğrenim havuzu ve açık işler (backlog) tek paket halinde devredilsin. İlk 2 hafta playbook üzerinden ortak çalışma ve kalite kontrol yapılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Devir teslim paketi (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Platform erişimleri + yetki matrisi",
+              "Style guide + template kütüphanesi",
+              "İçerik takvimi (4 hafta ileri)",
+              "Raporlar (son 3 ay) + KPI seti",
+              "Öğrenim havuzu (test log)",
+              "Açık işler/backlog + kriz geçmişi (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Oturmuş playbook ve onboarding yapısı, sosyal medya operasyonunu kişi bağımlı olmaktan çıkarıp süreç odaklı hale getirir; ajans değişiminde bile kalite daha kolay korunur (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Süreklilik)",
+            "items": [
+              "Erişimler tek elde mi?",
+              "Şablonlar kayboluyor mu?",
+              "Backlog devrediliyor mu?",
+              "Rapor formatı standard mı?",
+              "İlk 2 hafta “QA kontrol” var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ajans sözleşmesine “handover paketi” şartı koyun (Varsayım).",
+              "İlk 2 hafta “gölge çalışma” ve kalite kontrol uygulayın.",
+              "Playbook’u onboarding’in ilk gününe koyun.",
+              "Her çeyrekte SOP’ları gözden geçirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-yapi",
+        "title": "Otel ve B2B İçin Örnek Yapı – “Playbook’un içindekiler mantığı”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında DM/rezervasyon akışı ve kampanya sezonsallığı playbook’ta daha büyük yer tutar. B2B’de ise kanal rolü (LinkedIn), case/kanıt formatı ve lead pipeline süreçleri öne çıkar. Temel yapı aynı, vurgu değişir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel playbook vurgu başlıkları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya timeline (teaser→launch→closing)",
+              "DM/WhatsApp → call center devir SOP",
+              "UGC/proof standartları",
+              "Sezon bazlı yayın ritmi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B playbook vurgu başlıkları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LinkedIn içerik standardı (case/framework)",
+              "Lead form → CRM/pipeline SOP",
+              "Webinar/lansman playbook’u",
+              "KPI dashboard ve meeting hedefleri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet): Playbook’un güncel kalması için versiyonlama ve değişiklik tarihi notları tutulmalı; değişen strateji/süreç/ekip yapısı playbook’a işlenmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Güncellik)",
+            "items": [
+              "Versiyon numarası var mı?",
+              "Son güncelleme tarihi var mı?",
+              "Değişiklik log’u tutuluyor mu?",
+              "Yılda 1 tam review planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Playbook’u yılda en az 1 kez tam review yapın (365).",
+              "Büyük strateji/süreç değişiminde anında güncelleyin.",
+              "/tr/smm/icerik-uretimi ve /tr/smm/analiz-raporlama ile tutarlı tutun.",
+              "“Playbook sahibi” atayın (tek sorumlu)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Playbook & Onboarding Analizi Talep Et",
+            "text": "Ajans ve in-house ekiplerde süreçleri tek dokümana toplayıp operasyonu kişi bağımlı olmaktan çıkarmak için.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-playbook-onboarding-dokuman-sablonu",
+        "title": "Sosyal Medya Playbook & Onboarding Doküman Şablonunu İndir — Playbook Kit",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "mini_guide",
+            "version": "v1.0",
+            "title": "Sosyal Medya Playbook & Onboarding Doküman Şablonunu İndir — Playbook Kit (v1.0)",
+            "purpose": "Bu doküman şablonu, sosyal medya stratejisi, stil/ton, SOP’lar, kriz protokolü ve raporlama ritmini tek bir playbook altında toplamanız için hazırlanmıştır. Yeni ekip üyeleri ve ajanslar, ilk 30 gün onboarding checklist’iyle hızlıca sisteme dahil olur. Versiyonlama ve değişiklik log’u bölümüyle dokümanın güncel kalmasını sağlar.",
+            "whoFor": "Ajanslar ve orta/büyük ölçekli otel, turizm ve B2B markaların sosyal medya ekipleri.",
+            "steps": [
+              "İçindekiler şablonunu kopyalayın ve kendi kanal/rol yapınıza uyarlayın.",
+              "SOP ve kriz bölümlerini mevcut operasyonunuza göre doldurun.",
+              "Onboarding checklist’iyle yeni ekip üyesini 30 günde uygulamalı şekilde ilerletin."
+            ],
+            "miniGuide": [
+              {
+                "title": "1) Playbook Temelleri (Strateji Özeti)",
+                "items": [
+                  "Amaç, hedef kitle, persona özetleri",
+                  "KPI seti (marka/etkileşim/trafik/lead)",
+                  "Kanal haritası: rol ve hedefler"
+                ]
+              },
+              {
+                "title": "Hızlı kazanım (10 madde)",
+                "items": [
+                  "Hedefi 1 cümle yaz",
+                  "Ana KPI seç",
+                  "Kanal rolünü netleştir",
+                  "Haftalık ops ritmi belirle",
+                  "Onay SLA koy",
+                  "Kriz hattı tanımla",
+                  "Template kütüphanesi oluştur",
+                  "Rapor formatını standardize et",
+                  "Öğrenim log’u aç",
+                  "Versiyon tarihi ekle"
+                ]
+              },
+              {
+                "title": "2) Stil & Ton Bölümü",
+                "items": [
+                  "Style guide linkleri",
+                  "Ton of voice: 3 sıfat + do/don’t",
+                  "CTA sözlüğü + yasaklı dil listesi",
+                  "3 sık hata + çözüm: farklı tonlar → örnek cümle seti",
+                  "3 sık hata + çözüm: şablon kaybı → tek template kütüphanesi",
+                  "3 sık hata + çözüm: kampanyada agresif dil → ton sınırları"
+                ]
+              },
+              {
+                "title": "3) SOP: İçerik Üretim → Onay → Yayın",
+                "items": [
+                  "Brief şablonu zorunlu alanlar",
+                  "Onay 2 aşama + revizyon limiti",
+                  "Yayın takvimi ve görev sahipliği",
+                  "Haftalık ops toplantı ajandası"
+                ]
+              },
+              {
+                "title": "4) Community + Kriz Protokolü",
+                "items": [
+                  "DM/yorum yanıt şablonları",
+                  "Eskalasyon hattı (kim, ne zaman?)",
+                  "“Durdur/yanıtla” kriterleri",
+                  "Post-mortem ve öğrenim havuzu"
+                ]
+              },
+              {
+                "title": "5) Onboarding: İlk 30 Gün Planı",
+                "items": [
+                  "Gün 1–7: erişim, dokümanlar, ton/stil",
+                  "Hafta 2: 5 brief + 5 caption + 1 reel taslağı",
+                  "Hafta 3: 1 haftalık yayın + yanıt SOP",
+                  "Hafta 4: mini rapor + toplantıda sunum + 3 aksiyon",
+                  "CTA & next step: Playbook’u “tek kaynak gerçek” ilan edin, versiyonlamayı başlatın."
+                ]
+              }
+            ],
+            "checklist": [
+              "Strateji özeti yazıldı",
+              "Kanal rolleri ve KPI seti tanımlandı",
+              "Style guide linkleri ve ton of voice bölümü eklendi",
+              "Brief-onay-yayın SOP’si yazıldı",
+              "DM/yorum ve kriz/escalation protokolü eklendi",
+              "İlk 30 gün onboarding checklist’i oluşturuldu",
+              "Versiyonlama ve değişiklik log’u başlatıldı"
+            ],
+            "deliverables": [
+              "Playbook içindekiler şablonu",
+              "SOP bölüm taslakları",
+              "Kriz/escalation protokol alanı",
+              "İlk 30 gün onboarding checklist kartı",
+              "Onboarding adım akışı diyagramı",
+              "Versiyonlama ve değişiklik log’u alanı"
+            ],
+            "href": "/downloads/sosyal-medya-playbook-onboarding-dokuman-sablonu-playbook-kit-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Playbook, sosyal medya operasyonunun tek kaynak gerçeğidir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal medya operasyonu büyüdükçe, bilginin kişilerin hafızasında kalması sürdürülebilir değildir. Kim onay verir, hangi tonla yazılır, kriz anında ne yapılır, yeni ekip üyesi hangi adımları izler gibi sorular yazılı hale getirilmezse operasyon yavaşlar ve kalite dalgalanır."
+          },
+          {
+            "type": "p",
+            "text": "Playbook; strateji, ton/stil, SOP, kriz protokolü, raporlama ve onboarding adımlarını tek yerde toplayarak ekip ve ajans değişimlerinde sürekliliği korur. Onboarding dokümanı ise bu yapıyı ilk 30 güne yayarak yeni ekip üyesinin yalnızca okumasını değil, uygulayarak öğrenmesini sağlar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Playbook & Onboarding Analizi Talep Et",
+            "text": "Ajans ve in-house ekiplerde süreçleri tek dokümana toplayıp operasyonu kişi bağımlı olmaktan çıkarmak için.",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Playbook & Onboarding Doküman Şablonunu İndir",
+            "text": "İçindekiler yapısı, SOP bölümleri ve ilk 30 gün checklist’iyle hızlıca playbook oluşturmanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medya playbook’u nedir, içinde neler olmalı?",
+        "a": "Strateji özeti, kanal rolleri, ton/stil kuralları, format standartları, brief-onay-yayın SOP’ları, kriz/escalation, raporlama ritmi ve SSS/sık hataları tek dokümanda toplamalıdır."
+      },
+      {
+        "q": "Onboarding dokümanı yeni ekip için nasıl hazırlanır?",
+        "a": "İlk 30 günü planlayın: ilk hafta erişimler ve dokümanlar, ikinci hafta gölge çalışma ve küçük görevler, üçüncü hafta yayın/yanıt, dördüncü hafta rapor ve optimizasyon. Checklist ile takip edin."
+      },
+      {
+        "q": "Ajans/ekip değişimlerinde sürekliliği nasıl korurum?",
+        "a": "Handover paketi tanımlayın: erişimler, template kütüphane, takvim, raporlar, öğrenim log’u ve backlog devredilsin. İlk 2 hafta playbook üzerinden QA kontrolü yapın."
+      },
+      {
+        "q": "Playbook ile günlük operasyonu nasıl bağlarım?",
+        "a": "Haftalık ops planı, toplantı ajandası, görev sahipliği ve SLA’ları playbook’a gömün. Böylece playbook “raf dokümanı” değil, günlük çalışma aracı olur."
+      },
+      {
+        "q": "Playbook ne sıklıkla güncellenmeli?",
+        "a": "Strateji/süreç/ekip yapısı değiştikçe güncellenmeli; yılda en az 1 kez tam review yapılmalı ve versiyon tarihi/log tutulmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-hero-01.webp",
+          "h1-context — 1920×1080 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-h1-context-02.webp",
+          "divider-01 — 1600×1200 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-divider-03.webp",
+          "divider-02 — 1600×1200 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-divider-04.webp",
+          "diagram-05 — 1920×1080 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-kpi-07.webp",
+          "proof-08 — 1200×1200 — sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir-proof-08.webp",
+          "table-playbook-onboarding-plan — Playbook İçindekiler + Onboarding 30 Gün Planı",
+          "asset-checklist-card — İlk 30 gün onboarding checklist kartı",
+          "asset-diagram — Onboarding adım akışı diyagramı"
+        ],
+        "technicalChecklist": [
+          "Playbook içindekiler yapısı strateji, kanal rolleri, ton/stil, SOP, kriz ve raporlama bölümleriyle kuruldu",
+          "Brief-onay-yayın SOP’si ve onay SLA alanları tanımlandı",
+          "DM/yorum yanıt protokolü ve kriz/escalation hattı eklendi",
+          "İlk 30 gün onboarding planı erişim, shadowing, yayın/yanıt ve rapor aşamalarıyla oluşturuldu",
+          "Ajans/ekip değişimleri için handover paketi ve QA kontrol süreci tanımlandı",
+          "Playbook sahibi, versiyon numarası, son güncelleme tarihi ve değişiklik log’u planlandı",
+          "SMM içerik üretimi ve analiz-raporlama sayfalarıyla iç link tutarlılığı kontrol edildi",
+          "365 günlük refresh döngüsü: yılda 1 tam review + strateji/süreç değişiminde anlık güncelleme"
+        ]
+      }
+    }
+  },
+
+  "BlogSosyalMedyaGovernanceRiskVeOnaySureci": {
+    "title": "Sosyal Medya Governance: Risk ve Onay Süreci",
+    "slug": "sosyal-medya-governance-risk-ve-onay-sureci",
+    "department": "smm",
+    "subDepartment":"planning",
+    "updatedAt": "10 Haziran 2026",
+    "publishedAt": "2026-06-10",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sosyal medya governance nasıl kurulur? Rol/sorumluluk matrisi, onay akışı, hukuk–KVKK–İK kontrolü, kriz/escalation prosedürleri ve riskli içerik checklist’iyle hız ve güvenliği dengeleyin.",
+    "seo": {
+      "metaTitle": "Sosyal Medya Governance: Risk ve Onay Süreci | DGTLFACE",
+      "metaDescription": "Sosyal medya governance nasıl kurulur? Rol/sorumluluk matrisi, onay akışı, hukuk–KVKK–İK kontrolü, kriz/escalation prosedürleri ve riskli içerik checklist’iyle hız ve güvenliği dengeleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog No / URL: Blog #16 — /tr/smm/blog/sosyal-medya-governance-risk-ve-onay-sureci",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/sosyal-medya-governance-risk-ve-onay-sureci"
+      ],
+      "strategySummary": "Bu içerik, SMM planlama silosunda “hızlı üretim” ile “risk yönetimi” arasındaki dengeyi kuran governance katmanını tanımlayan otorite taşıyan child yazıdır. Hedef persona; regüle sektörler, otel zincirleri ve kurumsal B2B markalarda pazarlama liderleri, ajans yöneticileri ve içerik onay süreçlerinde rol alan hukuk/KVKK/İK paydaşlarıdır. Funnel’da consideration → conversion tarafında kritiktir: onay gecikmeleri ve hatalı paylaşım riskini düşürerek kampanya çevikliğini artırır. Ana iş sorusu: “Her post için patrona sormadan nasıl güvenli ölçeklerim; rol matrisi, onay akışı, eskalasyon ve kriz prosedürünü nasıl tasarlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-10",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medya governance; kim neyi, ne zaman ve hangi sınırlar içinde yapabilir sorularına net cevap veren çerçevedir. İyi kurgulanmış rol/sorumluluk matrisi, onay akışı ve kriz/escalation prosedürü; markayı hukuki ve itibar risklerinden korurken günlük operasyonun gereksiz yavaşlamasını da önler. Özellikle fiyat, kampanya koşulları, kişisel veri ve kriz gibi hassas içeriklerde ek kontrol adımları belirlemek; güvenli ölçeklemenin temelidir.",
+      "sgeSummary": "Governance; rol matrisi + onay akışı + riskli içerik kuralları + kriz/escalation planıdır. Hukuk/KVKK/İK onayı gereken içerikleri önceden işaretleyin; hız ve güvenliği birlikte yönetin.",
+      "voiceAnswer": "Hayır; her post için patrona sormak yerine rol matrisi ve risk seviyesine göre onay akışı kurmalısınız.",
+      "aiFactSheet": [
+        "Entity’ler: social media governance, approval flow, roles & responsibilities, risk management, escalation, crisis comms",
+        "Paydaşlar: pazarlama, iç iletişim, hukuk/KVKK, İK, call center/CS",
+        "Risk sınıfları: düşük (always-on) / orta (kampanya) / yüksek (KVKK/kriz/fiyat)",
+        "Çıktı: RACI/rol matrisi + onay akış diyagramı + riskli içerik checklist’i",
+        "KPI etkisi: onay süresi, revizyon sayısı, hatalı paylaşım sayısı, kriz yanıt süresi",
+        "Teknik: riskli içerikler takvimde önceden işaretlenmeli (son dakika onay çakışması yok)",
+        "Refresh: şirket/hukuk gereklilikleri değiştikçe güncelle (365)"
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Medya Governance: Risk ve Onay Süreci Nasıl Tasarlanır?",
+      "intro": "Sosyal medyada iki uç yaklaşım sık görülür: “Her şey serbest, hızlı gidelim” ve “Her post patrona gitsin.” İlki hatalı paylaşım ve kriz riskini büyütür; ikincisi ise operasyonu gereksiz yavaşlatır ve ekipleri kampanya döneminde kilitler. Doğru çözüm, risk seviyesine göre çalışan bir governance sistemi kurmaktır: kim hangi içerik türünü üretir, kim onaylar, hangi içerikler hukuk/KVKK/İK kontrolüne girer ve kriz olursa kim konuşur? Bu rehber, otel zincirleri ve kurumsal B2B markalar için hem güvenlik hem hız odaklı bir rol matrisi, onay akışı ve eskalasyon prosedürü tasarlamanıza yardımcı olur.",
+      "quickSummary": [
+        "1) Governance’i bürokrasi değil, güvenli ölçekleme sistemi olarak kurun",
+        "2) İçerik türlerine göre rol ve sorumlulukları RACI mantığıyla netleştirin",
+        "3) Düşük riskli içerik için hızlı, yüksek riskli içerik için kontrollü onay şeridi oluşturun",
+        "4) Hukuk/KVKK/İK kontrolü gereken içerikleri takvimde önceden işaretleyin",
+        "5) Kriz ve hatalı paylaşım için eskalasyon zinciri ve post-mortem süreci tanımlayın"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Medya Governance & Onay Süreci Analizi Talep Et",
+        "text": "Hızlı üretimi boğmadan riskleri yönetecek rol matrisi ve onay akışını kurmak isteyen ekipler için.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Medya Governance & Onay Süreci Analizi Talep Et",
+        "text": "Otel zincirleri ve kurumsal B2B markalarda hızı boğmadan riskleri yönetecek governance yapısı kurmak için.",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Governance Rol Matrisi & Onay Akışı Şablonunu İndir",
+        "text": "Risk seviyelerine göre rol matrisi, onay şeritleri ve eskalasyon zincirini tek dokümanda kurmanızı sağlar.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "SMM planlama ve strateji hizmet sayfası",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "KVKK ve veri güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Satış sonrası destek ve çağrı merkezi",
+        "href": "/cagri-merkezi/satis-sonrasi-destek"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Planlama ve Strateji Nedir?",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "Sosyal Medya Playbook ve Onboarding Dokümanı Nasıl Hazırlanır?",
+        "href": "/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sosyal-medya-governance-nedir",
+        "title": "Sosyal Medya Governance Nedir? – “Kimin ne yapacağı yazılı olsun”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Governance, “bürokrasi” değil; ölçeklenebilirliktir. Üretim arttıkça (kanal sayısı, kampanya yoğunluğu, lokasyon hesapları) karar noktaları çoğalır. Yazılı governance yoksa sorunlar ya geç fark edilir ya da kriz anında “kim konuşacak?” tartışmasına döner."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medya governance nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Sosyal medya governance; içerik üretimi, onay, yayın, yanıt ve kriz yönetiminde rol ve sorumlulukları tanımlayan, riskli içerikler için kontrol adımlarını belirleyen süreç çerçevesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Governance’in 3 hedefi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Risk azaltma: KVKK/itibar/hukuk riskleri",
+              "Hız: düşük riskli içerikte hızlı onay",
+              "Tutarlılık: ton/stil/mesaj standardı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Governance ihtiyacı)",
+            "items": [
+              "“Kim onaylıyor?” net mi?",
+              "Riskli içerikler tanımlı mı?",
+              "Krizde eskalasyon hattı var mı?",
+              "Onay süreleri kampanyayı geciktiriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Governance’i “risk seviyesi” mantığıyla kurun.",
+              "Düşük riskte hızlı yol, yüksek riskte kontrollü yol tanımlayın.",
+              "Tek bir “onay sahibi” belirleyin.",
+              "Kriz protokolünü bir sayfaya indirin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "rol-ve-sorumluluk-matrisi",
+        "title": "Rol ve Sorumluluk Matrisi – “RACI ile netleştir”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rol matrisi, “kim önerir, kim yapar, kim onaylar, kim bilgilendirilir?” sorularına cevap verir. Zincir otellerde ve kurumsal B2B’de paydaş sayısı arttığı için RACI benzeri tablo kritikleşir."
+          },
+          {
+            "type": "h3",
+            "text": "Onay süreci ve rol matrisi nasıl oluşturulur?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Önce içerik türlerini sınıflandırın (always-on, kampanya, hassas), sonra her tür için RACI atayın: üreten (Responsible), onaylayan (Accountable), danışılan (Consulted), bilgilendirilen (Informed). Tek “Accountable” kişi süreçte kilit olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Tipik rol seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazarlama/Brand: strateji, mesaj, kampanya onayı",
+              "İç iletişim: kurumsal duyurular (Varsayım: varsa)",
+              "Hukuk/KVKK: kişisel veri, kampanya koşulu, iddia/vaat, çekiliş",
+              "İK: çalışan yüzü/işveren markası hassasiyeti (Varsayım)",
+              "Operasyon/Call center: fiyat, müsaitlik, süreç doğruluğu (otel)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Governance Rol & Sorumluluk Matrisi (RACI)",
+            "headers": [
+              "İş/İçerik türü",
+              "Responsible",
+              "Accountable",
+              "Consulted",
+              "Informed"
+            ],
+            "rows": [
+              [
+                "Always-on içerik",
+                "Ajans/Social",
+                "Brand",
+                "—",
+                "Operasyon"
+              ],
+              [
+                "Kampanya teklifi",
+                "Ajans + Brand",
+                "Brand Lead",
+                "Operasyon",
+                "Satış/CC"
+              ],
+              [
+                "KVKK içeren içerik",
+                "Social + Brand",
+                "Brand Lead",
+                "Hukuk/KVKK",
+                "İK"
+              ],
+              [
+                "Çalışan içeriği",
+                "Social",
+                "Brand Lead",
+                "İK",
+                "Hukuk"
+              ],
+              [
+                "Kriz açıklaması",
+                "Brand",
+                "Üst yönetim",
+                "Hukuk/KVKK",
+                "Tüm ekip"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Rol matrisi)",
+            "items": [
+              "Her içerik türü için tek accountable var mı?",
+              "Danışılan paydaşlar net mi?",
+              "İçerik doğruluğu sahibi belirli mi?",
+              "Ajans/in-house sorumlulukları ayrıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "RACI tablosunu 1 sayfaya indirin.",
+              "“Accountable” rolünü tek kişide toplayın.",
+              "Ajansın hangi aşamada devreye girdiğini yazın.",
+              "Rol matrisi dokümanını playbook’a bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "onay-approval-akisi",
+        "title": "Onay (Approval) Akışı – “Risk seviyesine göre iki şerit”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "En iyi onay akışı, her içeriğe aynı yolu zorunlu kılmaz. Düşük riskli içerik hızlı akarken, yüksek riskli içerik planlı ve kontrollü ilerler. Bu yaklaşım “güvenli ölçekleme” sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Her post için patrona sormak zorunda mıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Hayır. Düşük riskli içerikler için hızlı onay şeridi, kampanya ve KVKK/hukuk içeren içerikler için kontrollü onay şeridi kurarak patron onayını sadece gerekli risk sınıfına sınırlayabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek iki şeritli akış"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Şerit A (Düşük risk / Always-on): brief → üretim → brand onayı → yayın",
+              "Şerit B (Orta/Yüksek risk): brief → mesaj onayı → hukuk/KVKK kontrolü → kreatif final onayı → yayın"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SLA önerisi (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Düşük risk: 24 saat içinde onay",
+              "Kampanya: 48 saat (planlı)",
+              "Yüksek risk/KVKK: 72 saat (planlı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Onay hızı)",
+            "items": [
+              "Risk sınıfları yazılı mı?",
+              "İki ayrı onay şeridi var mı?",
+              "SLA ve revizyon limiti var mı?",
+              "Kampanya takviminde onay buffer’ı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İçeriği “risk etiketi” ile takvimde işaretleyin.",
+              "Onay süresini yayın tarihinden geriye doğru planlayın.",
+              "Revizyon tur limitini belirleyin (örn. 2 tur – Varsayım).",
+              "Kampanya dönemlerinde “hızlı onay slotu” açın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Governance Rol Matrisi & Onay Akışı Şablonunu İndir",
+            "text": "Risk seviyelerine göre rol matrisi, onay şeritleri ve eskalasyon zincirini tek dokümanda kurmanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "hukuk-kvkk-ik-ile-calisma",
+        "title": "Hukuk/KVKK/İK ile Çalışma – “Son dakika değil, takvimde”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Hukuk ve KVKK gerektiren içerikler “son dakika” geldiğinde herkes zorlanır: yayın tarihi yaklaşır, onay beklenir, içerik değişir. Doğru yaklaşım, bu içerikleri takvimde önceden işaretleyip kontrol penceresi açmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi içerikler hukuk/KVKK onayına girmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Kişisel veri içeren içerikler (misafir/çalışan yüzü, isim, plaka vb.), çekiliş/yarışma koşulları, fiyat ve kampanya şartları, “garanti/iddia” içeren ifadeler, kriz iletişimi ve KVKK kapsamındaki veri toplama çağrıları hukuk/KVKK onayına girmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Hassas içerik listesi (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat/indirim/koşullar ve iptal şartları",
+              "Çekiliş, kampanya şartları, sözleşme dili",
+              "Misafir/çalışan görseli (izin)",
+              "Sağlık/güvenlik iddiaları (Varsayım: otelde hizmet iddiaları)",
+              "Şikâyet/kaza/kriz açıklamaları",
+              "Form/lead toplama metinleri (KVKK aydınlatma)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Uyum)",
+            "items": [
+              "KVKK metinleri ve izinler hazır mı?",
+              "Kampanya koşulları net mi?",
+              "İK onayı gereken içerikler ayrıldı mı?",
+              "Hukuk onayı takvimde buffer’lı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Takvimde “KVKK/Hukuk” etiketli içerikler için 72 saat buffer bırakın (Varsayım).",
+              "İzin/consent süreçlerini şablonlaştırın.",
+              "Kampanya koşullarını tek sayfada toplayın.",
+              "Riskli içeriklerde “kanıt/iddia” dilini sadeleştirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kriz-ve-eskalasyon-prosedurleri",
+        "title": "Kriz ve Eskalasyon Prosedürleri – “On-call mantığıyla düşün”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Kriz; hatalı paylaşım, yanlış bilgi, olumsuz yorum dalgası veya dışsal bir olay olabilir. Krizde en büyük kayıp zaman ve belirsizliktir. Prosedür; kimin konuşacağı, hangi kanalda, hangi sürede yanıt verileceğini netleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Kriz ve hatalı paylaşım durumunda eskalasyon akışı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Eskalasyon zincirini önceden yazın: tespit eden kişi → sosyal lead → brand owner → hukuk/KVKK → üst yönetim. “Durdur–düzelt–yanıtla” adımlarını ve her adım için SLA’yı belirleyin; kriz sonrası post-mortem yapın."
+          },
+          {
+            "type": "h3",
+            "text": "Kriz akışı (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tespit (monitoring)",
+              "Durdur (gerekirse içerik kaldır)",
+              "İç değerlendirme (doğruluk + risk)",
+              "Yanıt/statement (tek ağız)",
+              "Takip ve kapanış",
+              "Post-mortem (öğrenim)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "On-call yaklaşımı (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya günlerinde bir “kriz sorumlusu”",
+              "Hafta sonu kritik slotlarda erişilebilir kişi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Sosyal medya kaynaklı krizlerin önemli bir kısmında, içerikten önce governance ve onay süreci eksikliğinin temel problem olarak öne çıktığı sık görülür (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kriz hazır mı?)",
+            "items": [
+              "Eskalasyon zinciri yazılı mı?",
+              "Tek sözcü/tek onay hattı var mı?",
+              "“Durdur–düzelt–yanıtla” kriterleri var mı?",
+              "Post-mortem şablonu hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kriz playbook’unu 1 sayfaya indirin.",
+              "Yanıt şablonlarını hazırlayın (3 seviye).",
+              "Monitoring sorumluluğunu netleştirin.",
+              "Her kriz sonrası öğrenimi governance dokümanına ekleyin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Governance & Onay Süreci Analizi Talep Et",
+            "text": "Otel zincirleri ve kurumsal B2B markalarda hızı boğmadan riskleri yönetecek governance yapısı kurmak için.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-governance-rol-matrisi-onay-akisi-sablonu",
+        "title": "Sosyal Medya Governance Rol Matrisi & Onay Akışı Şablonunu İndir — Governance Kit",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "audit_sheet",
+            "version": "v1.0",
+            "title": "Sosyal Medya Governance Rol Matrisi & Onay Akışı Şablonunu İndir — Governance Kit (v1.0)",
+            "purpose": "Bu şablon, sosyal medya governance yapısını rol matrisi (RACI), risk sınıfları ve iki şeritli onay akışı ile hızlıca kurmanız için hazırlanmıştır. Hukuk/KVKK/İK kontrol gerektiren içerikleri önceden takvimde işaretlemeyi ve kriz/escalation zincirini netleştirmeyi sağlar. Amaç; hem markayı korumak hem de operasyonu gereksiz yavaşlatmadan güvenli ölçeklemektir.",
+            "whoFor": "Regüle sektörler, otel zincirleri ve kurumsal B2B markalarda pazarlama, hukuk/KVKK, İK ve ajans ekipleri.",
+            "steps": [
+              "İçerik türlerini risk seviyesine göre sınıflandırın ve RACI tablosunu doldurun.",
+              "Onay şeritlerini (hızlı vs kontrollü) SLA’larla tanımlayın.",
+              "Kriz/escalation zincirini ve post-mortem adımlarını dokümana ekleyin."
+            ],
+            "auditSheet": {
+              "sections": [
+                "1) Risk Sınıfları ve Skorlama (0–2)",
+                "2) Kırmızı/Sarı/Yeşil yorum alanları",
+                "3) İlk 10 aksiyon listesi",
+                "4) Öncesi/Sonrası tablosu",
+                "5) Deliverables"
+              ],
+              "trafficLightFields": [
+                "Kırmızı (acil): […]",
+                "Sarı (iyileştirme): […]",
+                "Yeşil (koru): […]"
+              ],
+              "firstActions": [
+                "RACI tablosunu tek sayfaya indir.",
+                "Risk sınıfları (düşük/orta/yüksek) tanımla.",
+                "İki şeritli onay akışını çiz.",
+                "SLA (24/48/72 saat) hedeflerini yaz.",
+                "KVKK/hukuk içerik türlerini listele.",
+                "Takvimde “risk etiketi” alanı ekle.",
+                "Kriz zinciri ve tek sözcü kuralı koy.",
+                "Post-mortem şablonu oluştur.",
+                "Template/brief’e risk alanı ekle.",
+                "Versiyonlama ve güncelleme tarihini ekle."
+              ]
+            },
+            "checklist": [
+              "Risk sınıfları düşük/orta/yüksek olarak tanımlandı",
+              "RACI rol matrisi tek sayfada tamamlandı",
+              "İki şeritli onay akışı ve SLA hedefleri yazıldı",
+              "KVKK/hukuk içerik türleri listelendi",
+              "Takvimde risk etiketi standardı oluşturuldu",
+              "Kriz zinciri ve tek sözcü kuralı tanımlandı",
+              "Post-mortem şablonu hazırlandı",
+              "Versiyonlama log’u eklendi"
+            ],
+            "deliverables": [
+              "RACI rol matrisi",
+              "Riskli içerik sözlüğü",
+              "İki şeritli onay akışı + SLA",
+              "Kriz/escalation playbook (1 sayfa)",
+              "Takvim “risk etiketi” standardı",
+              "Versiyonlama log’u",
+              "Onay + eskalasyon akışı diyagramı",
+              "Riskli içerik checklist kartı"
+            ],
+            "href": "/downloads/sosyal-medya-governance-rol-matrisi-onay-akisi-sablonu-governance-kit-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Governance, sosyal medyada hız ve güvenliği aynı sistemde buluşturur",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal medya governance, her içeriği ağır bir onay zincirine sokmak için değil; hangi içeriğin hızlı, hangisinin kontrollü ilerlemesi gerektiğini netleştirmek için kurulur. Böylece düşük riskli always-on içerikler operasyonu yavaşlatmadan yayınlanabilir; fiyat, kampanya koşulu, KVKK, çalışan içeriği veya kriz açıklaması gibi hassas içerikler ise doğru paydaşlardan geçer."
+          },
+          {
+            "type": "p",
+            "text": "Doğru yapı; rol matrisi, iki şeritli onay akışı, riskli içerik checklist’i ve kriz/escalation prosedürünün birlikte çalışmasıyla oluşur. Bu sistem kurulduğunda ekipler patron onayına bağımlı kalmadan daha hızlı üretir; marka ise hukuki, operasyonel ve itibar risklerini daha kontrollü yönetir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Governance & Onay Süreci Analizi Talep Et",
+            "text": "Otel zincirleri ve kurumsal B2B markalarda hızı boğmadan riskleri yönetecek governance yapısı kurmak için.",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Governance Rol Matrisi & Onay Akışı Şablonunu İndir",
+            "text": "Risk seviyelerine göre rol matrisi, onay şeritleri ve eskalasyon zincirini tek dokümanda kurmanızı sağlar.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medya governance nedir?",
+        "a": "Kim neyi, ne zaman ve hangi sınırlar içinde yapabilir sorularına cevap veren rol, onay ve kriz yönetimi çerçevesidir. Amaç riskleri azaltırken operasyon hızını korumaktır."
+      },
+      {
+        "q": "Onay süreci ve rol matrisi nasıl oluşturulur?",
+        "a": "İçerik türlerini risk sınıflarına ayırın ve RACI tablosu çıkarın. Tek accountable kişi belirleyin; danışılan (hukuk/KVKK/İK) paydaşları içerik türüne göre ekleyin."
+      },
+      {
+        "q": "Hangi içerikler hukuk/KVKK onayına girmeli?",
+        "a": "Kişisel veri içeren içerikler, çekiliş/koşullar, fiyat/kampanya şartları, iddia/garanti içeren ifadeler ve kriz açıklamaları hukuk/KVKK kontrolü gerektirir."
+      },
+      {
+        "q": "Kriz ve hatalı paylaşım durumunda eskalasyon akışı nasıl olmalı?",
+        "a": "Tespit eden kişi → sosyal sorumlusu → brand owner → hukuk/KVKK → üst yönetim zinciriyle ilerlemeli; “durdur–düzelt–yanıtla” adımları SLA ile tanımlanmalıdır."
+      },
+      {
+        "q": "Her post için patrona sormak zorunda mıyım?",
+        "a": "Hayır. Risk seviyesine göre iki şeritli onay akışı kurarak patron onayını yalnızca kampanya/KVKK gibi yüksek riskli içeriklerle sınırlayabilirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sosyal-medya-governance-risk-ve-onay-sureci-hero-01.webp",
+          "h1-context — 1920×1080 — sosyal-medya-governance-risk-ve-onay-sureci-h1-context-02.webp",
+          "divider-01 — 1600×1200 — sosyal-medya-governance-risk-ve-onay-sureci-divider-03.webp",
+          "divider-02 — 1600×1200 — sosyal-medya-governance-risk-ve-onay-sureci-divider-04.webp",
+          "diagram-05 — 1920×1080 — sosyal-medya-governance-risk-ve-onay-sureci-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sosyal-medya-governance-risk-ve-onay-sureci-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sosyal-medya-governance-risk-ve-onay-sureci-kpi-07.webp",
+          "proof-08 — 1200×1200 — sosyal-medya-governance-risk-ve-onay-sureci-proof-08.webp",
+          "table-governance-raci — Governance Rol & Sorumluluk Matrisi (RACI)",
+          "asset-diagram — Onay + eskalasyon akışı diyagramı",
+          "asset-checklist-card — Riskli içerik checklist kartı"
+        ],
+        "technicalChecklist": [
+          "Governance yapısı risk seviyesi mantığıyla düşük/orta/yüksek olarak sınıflandırıldı",
+          "RACI rol ve sorumluluk matrisi oluşturuldu",
+          "İki şeritli onay akışı: düşük risk hızlı yol, orta/yüksek risk kontrollü yol olarak tanımlandı",
+          "Onay SLA hedefleri 24/48/72 saat varsayımıyla planlandı",
+          "Hukuk/KVKK/İK kontrolü gereken içerik türleri listelendi",
+          "Takvimde risk etiketi ve onay buffer alanları kurgulandı",
+          "Kriz/escalation zinciri ve tek sözcü kuralı tanımlandı",
+          "Post-mortem şablonu, öğrenim log’u ve versiyonlama alanı eklendi",
+          "KVKK/veri güvenliği ve satış sonrası destek iç linkleriyle stratejik bağ kuruldu",
+          "365 günlük refresh döngüsü: şirket/hukuk gereklilikleri değiştikçe güncelleme kontrolü"
+        ]
+      }
+    }
+  },
+
+   "BlogInsightDrivenStratejiAnalyticsDmYorumVeSosyalDinlemeIleIcerikPlanlama": {
+    "title": "Insight-Driven SMM: Analytics + DM + Sosyal Dinleme",
+    "slug": "insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama",
+    "department": "smm",
+    "subDepartment":"planning",
+    "updatedAt": "10 Haziran 2026",
+    "publishedAt": "2026-06-10",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Insight-driven sosyal medya planı kurun: GA4/GSC, platform insights, DM/yorum, anket ve sosyal dinleme verisini temalara çevirin. Otel/B2B örnekleri, tablo, diyagram ve aylık insight checklist’i.",
+    "seo": {
+      "metaTitle": "Insight-Driven SMM: Analytics + DM + Sosyal Dinleme | DGTLFACE",
+      "metaDescription": "Insight-driven sosyal medya planı kurun: GA4/GSC, platform insights, DM/yorum, anket ve sosyal dinleme verisini temalara çevirin. Otel/B2B örnekleri, tablo, diyagram ve aylık insight checklist’i."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog No / URL: Blog #17 — /tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
+      ],
+      "strategySummary": "Bu içerik, SMM planlama silosunda içerik kararlarını “içgüdü” yerine içgörü (insight) ile besleyen sistemi kuran otorite taşıyan child yazıdır ve analiz/raporlama ile içerik SEO arasında köprü kurar. Hedef persona; otel/turizm markalarında içerik hacmi yüksek ekipler ve ajanslar; B2B’de ürün/pazarlama ekipleri ve growth liderleridir. Funnel’da consideration tarafında güçlüdür: kullanıcı sorularını ve itirazlarını yakalayıp doğru formatlarla yanıt vermeyi sağlar. Ana iş sorusu: “Analytics + DM/yorum + sosyal dinleme verisini nasıl toplar, sınıflandırır ve content pillars/takvime dönüştürürüm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-10",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Insight-driven strateji, sosyal medyada “içgüdü ile” değil; gerçek kullanıcı davranışı ve verisiyle planlama yapmaktır. GA4 ve platform insights performansı, Search Console (ve sosyal arama sinyalleri) içerik niyetini, DM/yorumlar gerçek soruları, sosyal dinleme ise trend ve şikâyet kümelerini gösterir. Bu sinyalleri düzenli toplayıp etiketleyerek (soru–itiraz–şikâyet–övgü), temalara ve content pillars’a dönüştürdüğünüzde; hem otel hem B2B’de boşa giden içerik azalır, daha yüksek performans üreten içerikler artar.",
+      "sgeSummary": "Analytics + DM/yorum + sosyal dinleme verisini tek havuzda toplayın; sorular/itirazlar/trendler olarak etiketleyin; temalara çevirip content pillars ve takvime bağlayın. Vanity metrikle yetinmeyin.",
+      "voiceAnswer": "İnsanların ne istediğini analytics’ten, DM/yorum sorularından ve sosyal dinleme trendlerinden birlikte okuyarak anlarsınız.",
+      "aiFactSheet": [
+        "Entity’ler: analytics, social insights, DM & comments, social listening, content pillars, listening loops",
+        "Veri kaynakları: GA4, GSC, platform insights, DM/yorum, anket, sosyal dinleme",
+        "Model: insight → tema → içerik fikri → format → takvim → ölçüm → geri besleme",
+        "KPI odağı: sadece reach/like değil; soru/itiraz kümeleri, lead/DM, oturum kalitesi",
+        "Çıktı: insight tablosu + birleşik veri diyagramı + aylık insight review checklist’i",
+        "Otel/B2B: otelde fiyat/koşul/konsept soruları; B2B’de demo/ROI/uygulama soruları",
+        "Teknik: insight toplantılarında vanity metrics yerine soru/itiraz/şikâyet kümeleri etiketlenmeli"
+      ]
+    },
+    "h1": {
+      "title": "Insight-Driven Strateji: Analytics, DM, Yorum ve Sosyal Dinleme ile İçerik Planlamak",
+      "intro": "TR’de sosyal medya stratejisi çoğu zaman “beğeni–gösterim” rakamlarıyla konuşuluyor; ama bu metrikler tek başına “insanlar gerçekten ne istiyor?” sorusuna cevap vermez. Insight-driven yaklaşım, içerik üretimini üç güçlü sinyalle besler: analytics (ne tüketiliyor?), DM/yorum (ne soruluyor/itiraz ediliyor?) ve sosyal dinleme (piyasada ne konuşuluyor, hangi şikâyet/trend kümeleri büyüyor?). Bu üçgeni kurduğunuzda, içerik planı “tahmin” olmaktan çıkar; kullanıcı sorularına birebir cevap veren, formatı doğru seçilmiş ve takvimde sistematik şekilde işleyen bir düzene dönüşür. Bu rehberde; veri kaynaklarını birleştirip insight’ı tema ve içerik fikrine çeviren pratik bir yöntem, otel/B2B örnekleri ve kopyalanabilir bir insight→takvim şablonu bulacaksınız.",
+      "quickSummary": [
+        "1) Analytics, DM/yorum, anket ve sosyal dinleme verilerini tek insight havuzunda toplayın",
+        "2) Ham sinyalleri soru, itiraz, şikâyet, övgü ve trend olarak etiketleyin",
+        "3) Her insight’ı tema, content pillar, içerik fikri, format, KPI ve CTA’ya çevirin",
+        "4) Otel ve B2B için farklı soru/itiraz kümelerini ayrı planlayın",
+        "5) Haftalık uygulama ve aylık insight review ritmiyle öğrenimleri takvime aktarın"
+      ],
+      "ctaPrimary": {
+        "label": "Insight-Driven Sosyal Medya Stratejisi Analizi Talep Et",
+        "text": "Otel ve B2B’de içerik kararlarını veriye bağlayıp “boşa giden içerik” oranını düşürmek isteyen ekipler için.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Insight-Driven Sosyal Medya Stratejisi Analizi Talep Et",
+        "text": "Otel ve B2B’de içerik kararlarını veriye bağlayıp performansı sistematik yükseltmek isteyen ekipler için.",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Analytics + DM + Sosyal Dinleme Insight → İçerik Planlama Şablonunu İndir",
+        "text": "Veriyi tema ve içerik fikrine çevirip takvim slotlarına bağlayacağınız tek tablolu sistemi hazır verir.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "SMM planlama ve strateji hizmet sayfası",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "İçerik SEO rehberi",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz ve Raporlama Nasıl Kurulur?",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "İçerik SEO Nedir? İçerik Stratejisi Nasıl Kurulur?",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hangi-veriler-stratejiyi-besler",
+        "title": "Hangi Veriler Stratejiyi Besler? – “Tek metrik yetmez”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Insight-driven planlama, farklı veri kaynaklarını birleştirerek “tam resim” görmeyi amaçlar. Analytics size davranışı, DM/yorum size motivasyon ve itirazı, sosyal dinleme ise pazarın gürültüsünü ve trendleri verir. Anketler de “neden” tarafını netleştirmede yardımcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "Insight-driven sosyal medya stratejisi nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Insight-driven strateji, içerik kararlarını kullanıcı davranışı (analytics), kullanıcı geri bildirimi (DM/yorum) ve pazar sinyalleri (sosyal dinleme) ile besleyip bunları tema ve içerik planına dönüştüren veri odaklı yaklaşımdır."
+          },
+          {
+            "type": "h3",
+            "text": "Kaynak → ne verir? (özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4: hangi içerik web’e trafik getiriyor, hangi oturum kalitesi iyi (Varsayım: UTM varsa)",
+              "GSC: hangi sorular/aramalar içerik fırsatı (Varsayım: site içerikleriyle)",
+              "Platform insights: hangi format/tema kaydediliyor, paylaşılıyor",
+              "DM/yorum: gerçek sorular, itirazlar, satın alma bariyerleri",
+              "Anket: motivasyon ve karar kriterleri",
+              "Sosyal dinleme: trendler, şikâyet kümeleri, rakip konuşmaları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Kaynak çeşitliliği)",
+            "items": [
+              "En az 2 nicel (GA4/insights) + 2 nitel (DM/anket) kaynak var mı?",
+              "Veriler tek havuzda toplanıyor mu?",
+              "“Soru/itiraz/şikâyet” etiketleri var mı?",
+              "Aylık ritimle okunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Veri kaynaklarını tek “Insight Board”da birleştirin.",
+              "DM/yorumları etiketleyerek toplayın (tema bazında).",
+              "GSC’den soru kümeleri çıkarıp içerik pillar’larına bağlayın.",
+              "Sosyal dinleme çıktılarıyla trend slotları planlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "icgoruden-icerik-fikrine-gecis",
+        "title": "İçgörüden İçerik Fikrine Geçiş – “Insight → tema → format”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veri tek başına fikir üretmez; çeviri gerekir. En pratik yöntem; her insight’ı bir “tema”ya, temayı bir “content pillar”a, sonra uygun formata bağlamaktır. Önemli olan, her insight için “hangi soruya cevap veriyoruz?” sorusunu yazmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Analytics ve DM verisini içerik planına nasıl çeviririm?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Analytics’ten hangi sayfa/tema ilgi görüyor ve hangi format performanslı sorularını alın; DM/yorumdan en sık 10 soru ve 10 itirazı çıkarın. Sonra her birini “tema + içerik fikri + format + CTA” olarak takvime işleyin."
+          },
+          {
+            "type": "h3",
+            "text": "Insight çeviri şablonu (kopyalanabilir)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Insight: “DM’de en çok X soruluyor.”",
+              "Tema: “X hakkında karar kriteri.”",
+              "İçerik fikri: “X’i 3 maddede netleştiren rehber.”",
+              "Format: carousel (kaydetme) / reels (reach) / story Q&A (yanıt)",
+              "CTA: DM/WhatsApp / link / form (persona’ya göre)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Insight → Tema → İçerik Fikri Eşleştirme Tablosu",
+            "headers": [
+              "Kaynak",
+              "Insight (ham sinyal)",
+              "Tema",
+              "İçerik fikri",
+              "Format",
+              "KPI",
+              "CTA"
+            ],
+            "rows": [
+              [
+                "DM",
+                "“iptal koşulu?” sorusu artıyor",
+                "koşul şeffaflığı",
+                "SSS carousel",
+                "carousel",
+                "kaydetme",
+                "DM"
+              ],
+              [
+                "GA4",
+                "“erken rezervasyon” sayfası trafik alıyor",
+                "teklif",
+                "3 adım rehber",
+                "reels",
+                "CTR",
+                "link"
+              ],
+              [
+                "Listening",
+                "“fiyat” şikâyeti trend",
+                "itiraz",
+                "fiyat/kalite proof",
+                "story Q&A",
+                "yanıt",
+                "DM"
+              ],
+              [
+                "GSC",
+                "“x nasıl yapılır?”",
+                "eğitim",
+                "mini rehber",
+                "video",
+                "izlenme",
+                "link"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Çeviri kalitesi)",
+            "items": [
+              "Insight tek cümle mi?",
+              "Tema content pillar’lara bağlandı mı?",
+              "Format hedef KPI’a uyuyor mu?",
+              "CTA net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her insight için 1 içerik fikri değil, 3 format varyasyonu üretin.",
+              "“Soru bazlı” içerik slotları açın (AEO etkisi).",
+              "İtiraz çözücü içerikleri remarketing ile eşleştirin (Varsayım: ads).",
+              "Her ay 3 trend slotu bırakın (dinleme çıktıları için)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-insight-ornekleri",
+        "title": "Otel ve B2B İçin Insight Örnekleri – “Sektöre göre soru kümeleri”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Otel için tipik içgörü kümeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat/koşul şeffaflığı (iptal, dahil hizmetler)",
+              "Aile/çocuk konsepti detayları",
+              "Ulaşım/transfer",
+              "Sezonluk doluluk/erken rezervasyon bariyerleri",
+              "Olumlu: deneyim, hizmet, yemek, temizlik (UGC/proof)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için tipik içgörü kümeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“ROI nasıl?” ve “ne kadar sürede?”",
+              "Entegrasyon/uygulama süreci",
+              "Örnek/case talebi",
+              "Fiyatlandırma bariyeri",
+              "İtiraz: “bizde çalışır mı?” (sektör uyumu)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Örnekleri yakalama)",
+            "items": [
+              "DM sorularını temalara ayırdınız mı?",
+              "Şikâyet kümeleri ayrı mı tutuluyor?",
+              "Övgü/UGC içerikleri sistematik mi?",
+              "Rakip/trend sinyalleri dinleme ile geliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde “koşul şeffaflığı” içeriklerini düzenli slotlayın.",
+              "B2B’de case + framework içeriklerini pillar yapın.",
+              "Olumlu geri bildirimleri proof card formatına çevirin.",
+              "Şikâyet kümelerinden “önleyici içerik” üretin (SSS)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insight-driven-icerik-takvimi",
+        "title": "Insight-Driven İçerik Takvimi – “Aylık review + haftalık uygulama”",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "İçgörü kültürü, ritim ister. Haftalık ops planınız yoksa insight’lar uygulanmaz; aylık review ritminiz yoksa insight’lar birikmez. En pratik yapı: haftalık içerik planı + aylık insight review toplantısı."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal dinleme araçları stratejiyi nasıl besler?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Sosyal dinleme, trend ve şikâyet kümelerini erken yakalar; markanızın ve rakiplerin konuşulduğu konuları gösterir. Bu sinyalleri “trend slotları” ve “itiraz/SSS içerikleri” olarak takvime işlerseniz strateji güncel kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Aylık insight review (60 dk) ajandası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En iyi 5 içerik: neden iyi?",
+              "En sık 10 DM/yorum sorusu: tema kümeleri",
+              "En sık 5 itiraz: içerik yanıt planı",
+              "Dinleme trendleri: 3 konu → 3 içerik",
+              "Öğrenimler: 3 madde → gelecek ay slotları"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet): Insight toplantılarında sadece vanity metrics değil; sorular, itirazlar, şikâyet ve olumlu geri bildirim kümeleri de etiketlenip dokümante edilmelidir. Aksi halde “içgörü” değil “sayı raporu” yapılır."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Insight toplantı ritmi kurulan yapılarda boşa giden içerik oranının düştüğü; kullanıcı sorularına birebir cevap veren içeriklerin daha yüksek performans ürettiği raporlanır (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Ritim)",
+            "items": [
+              "Haftalık ops plan var mı?",
+              "Aylık insight review toplantısı var mı?",
+              "Insight’lar takvime “slot” olarak işleniyor mu?",
+              "Öğrenimler dokümante mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık insight review’i takvime sabitleyin.",
+              "DM/yorum etiketleme standardı kurun (tema sözlüğü).",
+              "Trend slotlarını boş bırakın (sonradan doldur).",
+              "/tr/smm/analiz-raporlama ve /tr/seo/icerik-seo ile uyumlu içerik üretin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Analytics + DM + Sosyal Dinleme Insight → İçerik Planlama Şablonunu İndir",
+            "text": "Veriyi tema ve içerik fikrine çevirip takvim slotlarına bağlayacağınız tek tablolu sistemi hazır verir.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      },
+      {
+        "id": "analytics-dm-sosyal-dinleme-insight-icerik-planlama-sablonu",
+        "title": "Analytics + DM + Sosyal Dinleme Insight → İçerik Planlama Şablonunu İndir — Insight Board",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Analytics + DM + Sosyal Dinleme Insight → İçerik Planlama Şablonunu İndir — Insight Board (v1.0)",
+            "purpose": "Bu şablon, GA4/GSC, platform insights, DM/yorum ve sosyal dinleme verilerini tek bir “insight havuzu”nda toplayıp tema ve içerik fikrine dönüştürmeniz için tasarlanmıştır. Soru–itiraz–şikâyet–övgü kümelerini etiketleyerek içerik planını kullanıcı ihtiyacına bağlar. Aylık insight review ritmiyle öğrenimleri takvime sistematik şekilde aktarır.",
+            "whoFor": "Otel, turizm ve B2B’de içerik hacmi yüksek ekipler; growth ve performans odaklı ajanslar.",
+            "steps": [
+              "Veri kaynaklarını düzenli çekip “ham sinyal” olarak tabloya girin.",
+              "Sinyali tema/pillar’a çevirip format ve KPI’ı seçin.",
+              "Aylık review’de en iyi 3 öğrenimi takvim slotlarına çevirin."
+            ],
+            "template": {
+              "sections": [
+                "A) Insight Havuzu (Ham Veri)",
+                "B) Insight → Tema → İçerik Fikri → Format → KPI → CTA Eşleştirme",
+                "C) Aylık Insight Review Ajandası (60 dk)",
+                "D) Aylık Insight Review Checklist’i"
+              ],
+              "monthlyReviewAgenda": [
+                "En iyi 5 içerik (neden iyi?)",
+                "En sık 10 soru (DM/yorum)",
+                "En sık 5 itiraz/şikâyet",
+                "Trend slotları (3 konu)",
+                "3 öğrenim + 3 aksiyon"
+              ],
+              "reviewChecklist": [
+                "Vanity metrik değil, soru/itiraz kümeleri toplandı",
+                "Tema sözlüğü güncellendi",
+                "3 yeni içerik fikri takvime işlendi",
+                "1 test hipotezi belirlendi",
+                "Rapor /tr/smm/analiz-raporlama ile hizalı"
+              ]
+            },
+            "checklist": [
+              "GA4/GSC ve platform insights verileri toplandı",
+              "DM/yorum soruları etiketlendi",
+              "Sosyal dinleme trend ve şikâyet kümeleri çıkarıldı",
+              "Soru–itiraz–şikâyet–övgü tema sözlüğü oluşturuldu",
+              "Insight’lar içerik fikri, format, KPI ve CTA’ya bağlandı",
+              "Aylık insight review ajandası takvime eklendi",
+              "Öğrenimler gelecek ay içerik slotlarına aktarıldı"
+            ],
+            "deliverables": [
+              "Insight havuzu tablosu",
+              "Insight → tema → içerik fikri eşleştirme tablosu",
+              "Tema sözlüğü",
+              "Aylık insight review checklist’i",
+              "Veri kaynakları birleşik insight diyagramı",
+              "İçerik takvimi slotlama alanı"
+            ],
+            "href": "/downloads/analytics-dm-sosyal-dinleme-insight-icerik-planlama-sablonu-insight-board-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: İçerik fikri tahminden değil, düzenli insight döngüsünden çıkmalı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Insight-driven sosyal medya stratejisi, içerik üretimini yalnızca beğeni ve gösterim rakamlarına göre değil; kullanıcı davranışı, gerçek sorular, itirazlar, şikâyet kümeleri ve pazar trendleriyle birlikte planlamaktır. GA4/GSC, platform insights, DM/yorum ve sosyal dinleme verileri ayrı ayrı değil, tek bir insight havuzunda birlikte okunmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu sistem kurulduğunda içerik takvimi “ne paylaşsak?” sorusundan çıkar; hangi kullanıcı sorusuna, hangi tema altında, hangi formatla ve hangi CTA ile cevap vereceğini bilen bir plana dönüşür. Otel tarafında fiyat/koşul, konsept ve rezervasyon bariyerleri; B2B’de ROI, entegrasyon ve case talepleri daha doğru içeriklerle karşılanır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Insight-Driven Sosyal Medya Stratejisi Analizi Talep Et",
+            "text": "Otel ve B2B’de içerik kararlarını veriye bağlayıp performansı sistematik yükseltmek isteyen ekipler için.",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Analytics + DM + Sosyal Dinleme Insight → İçerik Planlama Şablonunu İndir",
+            "text": "Veriyi tema ve içerik fikrine çevirip takvim slotlarına bağlayacağınız tek tablolu sistemi hazır verir.",
+            "href": "/smm/planlama-strateji"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Insight-driven sosyal medya stratejisi nedir?",
+        "a": "İçerik kararlarını analytics, DM/yorum geri bildirimi ve sosyal dinleme sinyalleriyle besleyen; bu sinyalleri temalara çevirip takvime bağlayan veri odaklı yaklaşımdır."
+      },
+      {
+        "q": "Analytics ve DM verisini içerik planına nasıl çeviririm?",
+        "a": "Analytics’ten performanslı tema/formatları, DM/yorumdan en sık soru ve itirazları çıkarın. Her sinyali tema→içerik fikri→format→KPI→CTA olarak planlayıp takvime işleyin."
+      },
+      {
+        "q": "Otel/B2B için hangi içgörüler önemli?",
+        "a": "Otelde fiyat/koşul, konsept, transfer ve UGC; B2B’de ROI, uygulama süreci, case talebi ve itiraz kümeleri öne çıkar. Bu kümeler içerik pillar’larını doğrudan besler."
+      },
+      {
+        "q": "Sosyal dinleme araçları stratejiyi nasıl besler?",
+        "a": "Trend ve şikâyet kümelerini erken yakalar; kullanıcıların ve rakiplerin konuştuğu konuları görünür kılar. Bu sinyaller takvimde “trend slotları” ve “itiraz çözücü” içeriklere dönüşür."
+      },
+      {
+        "q": "Neden sadece beğeni/gösterimle plan yapmak yeterli değil?",
+        "a": "Çünkü bu metrikler “neden”i ve gerçek soruları göstermez. DM/yorum ve dinleme olmadan içerik kullanıcı ihtiyacına birebir cevap veremez."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-hero-01.webp",
+          "h1-context — 1920×1080 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-h1-context-02.webp",
+          "divider-01 — 1600×1200 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-divider-03.webp",
+          "divider-02 — 1600×1200 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-divider-04.webp",
+          "diagram-05 — 1920×1080 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-diagram-05.webp",
+          "checklist-06 — 1200×1200 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-checklist-06.webp",
+          "kpi-07 — 1200×1200 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-kpi-07.webp",
+          "proof-08 — 1200×1200 — insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama-proof-08.webp",
+          "table-insight-theme-content-match — Insight → Tema → İçerik Fikri Eşleştirme Tablosu",
+          "asset-diagram — Veri kaynakları birleşik insight diyagramı",
+          "asset-checklist-card — Aylık insight review checklist kartı"
+        ],
+        "technicalChecklist": [
+          "GA4/GSC, platform insights, DM/yorum, anket ve sosyal dinleme veri kaynakları tanımlandı",
+          "Insight havuzu için soru, itiraz, şikâyet, övgü ve trend etiketleri oluşturuldu",
+          "Insight → tema → content pillar → içerik fikri → format → KPI → CTA akışı kurgulandı",
+          "Otel ve B2B için ayrı soru/itiraz kümeleri tanımlandı",
+          "Aylık insight review toplantısı ve 60 dakikalık ajanda planlandı",
+          "Haftalık ops plan ile aylık insight öğrenimleri içerik takvimine bağlandı",
+          "Vanity metrics yerine soru/itiraz/şikâyet kümelerini izleyen raporlama yaklaşımı belirlendi",
+          "SMM analiz-raporlama ve içerik SEO iç linkleriyle stratejik bağ kuruldu",
+          "365 günlük refresh döngüsü: tema sözlüğü, veri kaynakları ve insight board güncelleme kontrolü"
+        ]
+      }
+    }
   }
 
 }

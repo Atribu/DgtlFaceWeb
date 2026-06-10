@@ -341,7 +341,12 @@ export const BLOG_MAP = {
      "organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak":"BlogOrganikVeReklamliSosyalMedyaStratejisiniBirliktePlanlamak",
      "test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi":"BlogTestOlcOgrenDongusuIleVeriOdakliSosyalMedyaStratejisi",
      "yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi":"BlogYillikSosyalMedyaButcesiVeKaynakPlanlamasi",
-     "marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu":"BlogMarkaRehberiTonVeSosyalMedyaStyleGuideEntegrasyonu"
+     "marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu":"BlogMarkaRehberiTonVeSosyalMedyaStyleGuideEntegrasyonu",
+     "satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu":"BlogSatisRezervasyonVeCrmEkipleriIleSosyalMedyaEntegrasyonu",
+     "zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi":"BlogZincirOtellerVeCokLokasyonluMarkalarIcinSosyalMedyaStratejisi",
+     "sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir":"BlogSosyalMedyaPlaybookVeOnboardingDokumaniNasilHazirlanir",
+     "sosyal-medya-governance-risk-ve-onay-sureci":"BlogSosyalMedyaGovernanceRiskVeOnaySureci",
+     "insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama":"BlogInsightDrivenStratejiAnalyticsDmYorumVeSosyalDinlemeIleIcerikPlanlama"
   },
 
     yazilim: {

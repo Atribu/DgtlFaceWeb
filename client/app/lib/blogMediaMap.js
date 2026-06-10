@@ -40487,51 +40487,301 @@ export const BLOG_MEDIA_MAP = {
 
   "marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu":{
      banner: {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-1.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-1.webp",
       alt: "Marka Rehberi, Ton ve Sosyal Medya Style Guide Entegrasyonu",
       caption: "Marka Rehberi, Ton ve Sosyal Medya Style Guide Entegrasyonu"
     },
 
           "h1-context-02": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-2.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-2.webp",
       alt: "Ton görsel dil ve yanıt dili zincirini sosyal medya operasyonuna bağlayan context görseli",
       caption: "Ton görsel dil ve yanıt dili zincirini sosyal medya operasyonuna bağlayan context görseli"
     },
 
            "divider-01": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-3.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-3.webp",
     alt: "Brand book öğelerinin sosyal medya formatlarına aktarımını gösteren bölüm görseli",
       caption: "Brand book öğelerinin sosyal medya formatlarına aktarımını gösteren bölüm görseli"
     },
 
     "divider-02": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-4.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-4.webp",
       alt: "Sosyal medya style guide outline’ını ve bölümlerini gösteren bölüm görseli",
       caption: "Sosyal medya style guide outline’ını ve bölümlerini gösteren bölüm görseli"
     },
 
      "diagram-05": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-5.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-5.webp",
       alt: "Marka rehberi→ton→şablon→yayın kontrol zincirini gösteren diyagram",
       caption: "Marka rehberi→ton→şablon→yayın kontrol zincirini gösteren diyagram"
     },
 
           "checklist-06": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-6.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-6.webp",
       alt: "Yayına çıkmadan önce stil kontrol checklist’ini özetleyen kart görseli",
       caption: "Yayına çıkmadan önce stil kontrol checklist’ini özetleyen kart görseli"
     },
 
       "kpi-07": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-7.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-7.webp",
       alt: "Stil tutarlılığı revizyon sayısı ve üretim hızını gösteren governance KPI kartı",
       caption: "Stil tutarlılığı revizyon sayısı ve üretim hızını gösteren governance KPI kartı"
     },
 
           "proof-08": {
-      src: "/images/blog/smm/SMM2-11/SMM2-11-8.webp",
+      src: "/images/blog/smm/SMM2-12/SMM2-12-8.webp",
       alt: "Style guide dokümanı template kütüphanesi ve yanıt rehberi deliverables setini özetleyen proof kartı",
       caption: "Style guide dokümanı template kütüphanesi ve yanıt rehberi deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu":{
+    banner: {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-1.webp",
+      alt: "Satış, Rezervasyon ve CRM Ekipleri ile Sosyal Medya Entegrasyonu Nasıl Kurulur?",
+      caption: "Satış, Rezervasyon ve CRM Ekipleri ile Sosyal Medya Entegrasyonu Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-2.webp",
+      alt: "DM WhatsApp web form taleplerinin CRM ve satışa aktarım akışını özetleyen context görseli",
+      caption: "DM WhatsApp web form taleplerinin CRM ve satışa aktarım akışını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-3.webp",
+    alt: "Sosyal medya ile CRM ilişkisinin süreç mantığını gösteren bölüm görseli",
+      caption: "Sosyal medya ile CRM ilişkisinin süreç mantığını gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-4.webp",
+      alt: "DM ve WhatsApp taleplerini kayıt ve devir standardıyla anlatan bölüm görseli",
+      caption: "DM ve WhatsApp taleplerini kayıt ve devir standardıyla anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-5.webp",
+      alt: "Sosyal medya→CRM/rezervasyon→satış funnel akışını gösteren diyagram",
+      caption: "Sosyal medya→CRM/rezervasyon→satış funnel akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-6.webp",
+      alt: "Sosyal medya lead entegrasyonu checklist’ini süreç adımlarıyla özetleyen kart görseli",
+      caption: "Sosyal medya lead entegrasyonu checklist’ini süreç adımlarıyla özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-7.webp",
+      alt: "Sosyal lead sayısı SLA uyumu dönüşüm oranı ve ROI KPI’larını gösteren skor kartı",
+      caption: "Sosyal lead sayısı SLA uyumu dönüşüm oranı ve ROI KPI’larını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-13/SMM2-13-8.webp",
+      alt: "CRM etiket sözlüğü akış dokümanı ve dashboard deliverables setini özetleyen proof kartı",
+      caption: "CRM etiket sözlüğü akış dokümanı ve dashboard deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "zincir-oteller-ve-cok-lokasyonlu-markalar-icin-sosyal-medya-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-1.webp",
+      alt: "Zincir Oteller ve Çok Lokasyonlu Markalar İçin Sosyal Medya Stratejisi",
+      caption: "Zincir Oteller ve Çok Lokasyonlu Markalar İçin Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-2.webp",
+      alt: "Tek hesap ve çok hesap karar kriterlerini otel grubu bağlamında özetleyen görsel",
+      caption: "Tek hesap ve çok hesap karar kriterlerini otel grubu bağlamında özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-3.webp",
+    alt: "Merkez marka ve lokasyon hesap rollerini hiyerarşik yapıda gösteren bölüm görseli",
+      caption: "Merkez marka ve lokasyon hesap rollerini hiyerarşik yapıda gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-4.webp",
+      alt: "Tek hesap vs çok hesap karar matrisini kriterlerle anlatan bölüm görseli",
+      caption: "Tek hesap vs çok hesap karar matrisini kriterlerle anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-5.webp",
+      alt: "Merkez marka ve şube hesap hiyerarşisini ve içerik akışını gösteren diyagram",
+      caption: "Merkez marka ve şube hesap hiyerarşisini ve içerik akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-6.webp",
+      alt: "Çok lokasyonlu marka hesap mimarisi checklist’ini karar adımlarıyla özetleyen kart",
+      caption: "Çok lokasyonlu marka hesap mimarisi checklist’ini karar adımlarıyla özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-7.webp",
+      alt: "Hesap sayısı yönetim yükü stil tutarlılığı ve lokal performansı gösteren skor kartı",
+      caption: "Hesap sayısı yönetim yükü stil tutarlılığı ve lokal performansı gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-14/SMM2-14-8.webp",
+      alt: "Hesap mimarisi dokümanı rol-yetki matrisi ve raporlama deliverables setini özetleyen proof kartı",
+      caption: "Hesap mimarisi dokümanı rol-yetki matrisi ve raporlama deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir":{
+    banner: {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-1.webp",
+      alt: "Sosyal Medya Playbook’u ve Onboarding Dokümanı Nasıl Hazırlanır?",
+      caption: "Sosyal Medya Playbook’u ve Onboarding Dokümanı Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-2.webp",
+      alt: "Playbook içindekiler ve onboarding akışını tek ekranda özetleyen context görseli",
+      caption: "Playbook içindekiler ve onboarding akışını tek ekranda özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-3.webp",
+    alt: "Playbook’un kişi bağımlılığını azaltmasını anlatan bölüm ayırıcı görseli",
+      caption: "Playbook’un kişi bağımlılığını azaltmasını anlatan bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-4.webp",
+      alt: "Playbook bölümlerini ve SOP yapı taşlarını gösteren bölüm görseli",
+      caption: "Playbook bölümlerini ve SOP yapı taşlarını gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-5.webp",
+      alt: "Onboarding checklist akışını ve ilk 30 gün planını gösteren diyagram",
+      caption: "Onboarding checklist akışını ve ilk 30 gün planını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-6.webp",
+      alt: "İlk 30 gün onboarding checklist’ini pratik görevlerle özetleyen kart görseli",
+      caption: "İlk 30 gün onboarding checklist’ini pratik görevlerle özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-7.webp",
+      alt: "Revizyon sayısı teslimat SLA ve onboarding hızını gösteren governance KPI kartı",
+      caption: "Revizyon sayısı teslimat SLA ve onboarding hızını gösteren governance KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-15/SMM2-15-8.webp",
+      alt: "Playbook dokümanı SOP şablonları ve handover paketi deliverables setini özetleyen proof kartı",
+      caption: "Playbook dokümanı SOP şablonları ve handover paketi deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "sosyal-medya-governance-risk-ve-onay-sureci":{
+    banner: {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-1.webp",
+      alt: "Sosyal Medya Governance: Risk ve Onay Süreci Nasıl Tasarlanır?",
+      caption: "Sosyal Medya Governance: Risk ve Onay Süreci Nasıl Tasarlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-2.webp",
+      alt: "Rol matrisi ve risk seviyesine göre onay akışını özetleyen sosyal medya governance görseli",
+      caption: "Rol matrisi ve risk seviyesine göre onay akışını özetleyen sosyal medya governance görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-3.webp",
+    alt: "Governance’in operasyon hızını bozmadan risk yönetimini sağlamasını anlatan bölüm görseli",
+      caption: "Governance’in operasyon hızını bozmadan risk yönetimini sağlamasını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-4.webp",
+      alt: "İki şeritli onay akışını ve SLA mantığını gösteren bölüm görseli",
+      caption: "İki şeritli onay akışını ve SLA mantığını gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-5.webp",
+      alt: "Onay ve eskalasyon akışını rol bazında gösteren governance diyagramı",
+      caption: "Onay ve eskalasyon akışını rol bazında gösteren governance diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-6.webp",
+      alt: "Riskli içerik checklist’ini sosyal medya onay sürecine bağlayan kart görseli",
+      caption: "Riskli içerik checklist’ini sosyal medya onay sürecine bağlayan kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-7.webp",
+      alt: "Onay süresi revizyon sayısı ve kriz yanıt süresini gösteren governance KPI kartı",
+      caption: "Onay süresi revizyon sayısı ve kriz yanıt süresini gösteren governance KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-16/SMM2-16-8.webp",
+      alt: "Rol matrisi onay akışı ve kriz playbook deliverables setini özetleyen proof kartı",
+      caption: "Rol matrisi onay akışı ve kriz playbook deliverables setini özetleyen proof kartı"
+    }
+  },
+
+  "insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama":{
+     banner: {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-1.webp",
+      alt: "Insight-Driven Strateji: Analytics, DM, Yorum ve Sosyal Dinleme ile İçerik Planlamak",
+      caption: "Insight-Driven Strateji: Analytics, DM, Yorum ve Sosyal Dinleme ile İçerik Planlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-2.webp",
+      alt: "Veri kaynaklarının birleşip insight ve temaya dönüştüğü süreci özetleyen context görseli",
+      caption: "Veri kaynaklarının birleşip insight ve temaya dönüştüğü süreci özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-3.webp",
+    alt: "Stratejiyi besleyen veri kaynaklarını ve rollerini gösteren bölüm görseli",
+      caption: "Stratejiyi besleyen veri kaynaklarını ve rollerini gösteren bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-4.webp",
+      alt: "Otel ve B2B için insight kümelerini ve örnek soruları gösteren bölüm görseli",
+      caption: "Otel ve B2B için insight kümelerini ve örnek soruları gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-5.webp",
+      alt: "Analytics DM ve sosyal dinlemeden temaya ve takvime giden insight diyagramı",
+      caption: "Analytics DM ve sosyal dinlemeden temaya ve takvime giden insight diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-6.webp",
+      alt: "Aylık insight review checklist’ini içerik planlama adımlarıyla özetleyen kart görseli",
+      caption: "Aylık insight review checklist’ini içerik planlama adımlarıyla özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-7.webp",
+      alt: "Soru kümeleri itiraz kümeleri ve içerik performansını birlikte gösteren skor kartı",
+      caption: "Soru kümeleri itiraz kümeleri ve içerik performansını birlikte gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-17/SMM2-17-8.webp",
+      alt: "Insight board tema sözlüğü ve içerik takvimi deliverables setini özetleyen proof kartı",
+      caption: "Insight board tema sözlüğü ve içerik takvimi deliverables setini özetleyen proof kartı"
     }
   }
 
