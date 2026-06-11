@@ -354,7 +354,13 @@ export const BLOG_MAP = {
      "dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek":"BlogDarkSocialVeKapaliKanallarDmWhatsappVeTopluluklariStratejiyeDahilEtmek",
      "creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama":"BlogCreatorEkonomisiVeCoCreationYaraticilarlaOrtakIcerikPlanlama",
      "community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama":"BlogCommunityLedSosyalMedyaToplulukOncelikliStratejiVePlanlama",
-     "deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek":"BlogDegerBazliIcerikVeEsgAnlatiSurdurulebilirlikVeMarkaninAmaciniStratejiyeEklemek"
+     "deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek":"BlogDegerBazliIcerikVeEsgAnlatiSurdurulebilirlikVeMarkaninAmaciniStratejiyeEklemek",
+     "reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik":"BlogReelsOnScreenTextVeAltyaziStratejisiSessizIzlemeVeErisilebilirlik",
+     "reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak":"BlogReelsIleWebSiteVeRezervasyonSayfasinaTrafikYaratmak",
+     "reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak":"BlogReelsIcerikBatchingVeBRollKutuphanesiKurmak",
+     "reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri":"BlogReelsAdsVeOdemeKampanyalarindaKisaVideoKreatifleri",
+     "reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi":"BlogReelsCollabUgcVeInfluencerIcerikleriIcinOrtakUretimStratejisi",
+     "employer-branding-ik-reels-stratejisi":"BlogEmployerBrandingIkReelsStratejisi"
   },
 
     yazilim: {

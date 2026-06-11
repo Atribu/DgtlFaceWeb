@@ -41183,6 +41183,307 @@ export const BLOG_MEDIA_MAP = {
       alt: "ESG takvim şablonu veri blokları ve örnek mockup deliverables kartı",
       caption: "ESG takvim şablonu veri blokları ve örnek mockup deliverables kartı"
     }
+  },
+
+
+    "reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik":{
+    banner: {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-1.webp",
+      alt: "Reels On-Screen Text ve Altyazı Stratejisi: Sessiz İzleme ve Erişilebilirlik",
+      caption: "Reels On-Screen Text ve Altyazı Stratejisi: Sessiz İzleme ve Erişilebilirlik"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-2.webp",
+      alt: "Hook–mesaj–CTA metin katmanlarını gösteren bağlam görseli",
+      caption: "Hook–mesaj–CTA metin katmanlarını gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-3.webp",
+    alt: "Sessiz izleme ve erişilebilirlik temasını vurgulayan bölüm görseli",
+      caption: "Sessiz izleme ve erişilebilirlik temasını vurgulayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-4.webp",
+      alt: "Okunabilirlik ve safe zone kurallarını özetleyen bölüm görseli",
+      caption: "Okunabilirlik ve safe zone kurallarını özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-5.webp",
+      alt: "Sessiz izleme odaklı reels UX modeli diyagramı",
+      caption: "Sessiz izleme odaklı reels UX modeli diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-6.webp",
+      alt: "On-screen text & altyazı okunabilirlik checklist kart",
+      caption: "On-screen text & altyazı okunabilirlik checklist kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-7.webp",
+      alt: "Metin stratejisiyle retention ve tıklama KPI’larını gösteren skor kart",
+      caption: "Metin stratejisiyle retention ve tıklama KPI’larını gösteren skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-6/SMM3-6-8.webp",
+      alt: "On-screen text katmanları mockup ve iyi/kötü örnekleri gösteren proof kartı",
+      caption: "On-screen text katmanları mockup ve iyi/kötü örnekleri gösteren proof kartı"
+    }
+  },
+
+  "reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak":{
+    banner: {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-1.webp",
+      alt: "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+      caption: "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-2.webp",
+      alt: "CTA + link yolu + landing uyumu üçlüsünü özetleyen bağlam görseli",
+      caption: "CTA + link yolu + landing uyumu üçlüsünü özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-3.webp",
+    alt: "Reels→site köprüsünün adımlarını ayıran bölüm görseli",
+      caption: "Reels→site köprüsünün adımlarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-4.webp",
+      alt: "Landing match ve ölçüm katmanlarını özetleyen bölüm görseli",
+      caption: "Landing match ve ölçüm katmanlarını özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-5.webp",
+      alt: "Reels → landing page → rezervasyon/lead funnel diyagramı",
+      caption: "Reels → landing page → rezervasyon/lead funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-6.webp",
+      alt: "Reels→site→rezervasyon checklist kartı",
+      caption: "Reels→site→rezervasyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-7.webp",
+      alt: "Trafik ve dönüşüm KPI paneli skor kartı",
+      caption: "Trafik ve dönüşüm KPI paneli skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-7/SMM3-7-8.webp",
+      alt: "CTA ve link yerleşimi mockup + çıktıların proof kartı",
+      caption: "CTA ve link yerleşimi mockup + çıktıların proof kartı"
+    }
+  },
+
+  "reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak":{
+    banner: {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-1.webp",
+      alt: "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
+      caption: "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-2.webp",
+      alt: "Çekim günü → arşiv → varyasyon akışını özetleyen bağlam görseli",
+      caption: "Çekim günü → arşiv → varyasyon akışını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-3.webp",
+    alt: "Batching mantığını anlatan bölüm görseli",
+      caption: "Batching mantığını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-4.webp",
+      alt: "Reuse stratejisini özetleyen bölüm görseli",
+      caption: "Reuse stratejisini özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-5.webp",
+      alt: "Reusable video asset modeli diyagramı",
+      caption: "Reusable video asset modeli diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-6.webp",
+      alt: "B-roll çekim günü ve arşiv checklist kartı",
+      caption: "B-roll çekim günü ve arşiv checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-7.webp",
+      alt: "Batching ile verimlilik KPI skor kartı",
+      caption: "Batching ile verimlilik KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-8/SMM3-8-8.webp",
+      alt: "Kütüphane çıktıları ve 3 reels storyboard proof kartı",
+      caption: "Kütüphane çıktıları ve 3 reels storyboard proof kartı"
+    }
+  },
+
+  "reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri":{
+    banner: {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-1.webp",
+      alt: "Reels Ads: Reklam Kampanyalarında Kısa Video Kreatiflerini Nasıl Kullanırsınız?",
+      caption: "Reels Ads: Reklam Kampanyalarında Kısa Video Kreatiflerini Nasıl Kullanırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-2.webp",
+      alt: "Organik vs reklam reels farkı ve test mantığını özetleyen bağlam görseli",
+      caption: "Organik vs reklam reels farkı ve test mantığını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-3.webp",
+    alt: "Hedef temelli Reels Ads kullanımını anlatan bölüm görseli",
+      caption: "Hedef temelli Reels Ads kullanımını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-4.webp",
+      alt: "Test ve optimizasyon mantığını özetleyen bölüm görseli",
+      caption: "Test ve optimizasyon mantığını özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-5.webp",
+      alt: "Hedef/kitleye göre kreatif uyarlama karar ağacı diyagramı",
+      caption: "Hedef/kitleye göre kreatif uyarlama karar ağacı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-6.webp",
+      alt: "Reels Ads kreatif checklist kartı",
+      caption: "Reels Ads kreatif checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-7.webp",
+      alt: "CTR/LPV/lead KPI skor kartı",
+      caption: "CTR/LPV/lead KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-9/SMM3-9-8.webp",
+      alt: "Mockup + test planı + kreatif çıktıları proof kartı",
+      caption: "Mockup + test planı + kreatif çıktıları proof kartı"
+    }
+  },
+
+  "reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-1.webp",
+      alt: "Reels Collab, UGC ve Influencer İçerikleri İçin Ortak Üretim Stratejisi",
+      caption: "Reels Collab, UGC ve Influencer İçerikleri İçin Ortak Üretim Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-2.webp",
+      alt: "Brief, onay ve etiketleme adımlarını özetleyen reels bağlam görseli",
+      caption: "Brief, onay ve etiketleme adımlarını özetleyen reels bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-3.webp",
+    alt: "Collab ve co-creation sürecini ayıran bölüm görseli",
+      caption: "Collab ve co-creation sürecini ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-4.webp",
+      alt: "UGC ve influencer risk yönetimini özetleyen bölüm görseli",
+      caption: "UGC ve influencer risk yönetimini özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-5.webp",
+      alt: "Brief→çekim→onay→yayın ortak üretim akış diyagramı",
+      caption: "Brief→çekim→onay→yayın ortak üretim akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-6.webp",
+      alt: "UGC ve influencer süreç kontrol listesini özetleyen kart görseli",
+      caption: "UGC ve influencer süreç kontrol listesini özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-7.webp",
+      alt: "Erişim, güven ve sosyal kanıt KPI’larını özetleyen skor kartı",
+      caption: "Erişim, güven ve sosyal kanıt KPI’larını özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-10/SMM3-10-8.webp",
+      alt: "Collab ve sponsorlu etiketleri gösteren proof kartı görseli",
+      caption: "Collab ve sponsorlu etiketleri gösteren proof kartı görseli"
+    }
+  },
+
+  "employer-branding-ik-reels-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-1.webp",
+      alt: "Employer Branding ve İK İçin Reels Stratejisi",
+      caption: "Employer Branding ve İK İçin Reels Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-2.webp",
+      alt: "Takım kültürü ve işe alım reels hiyerarşisini gösteren bağlam görseli",
+      caption: "Takım kültürü ve işe alım reels hiyerarşisini gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-3.webp",
+    alt: "Employer brand bileşenlerini (insan/ortam/süreç) ayıran bölüm görseli",
+      caption: "Employer brand bileşenlerini (insan/ortam/süreç) ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-4.webp",
+      alt: "İK reels formatlarını (portre/backstage/rol) ayıran bölüm görseli",
+      caption: "İK reels formatlarını (portre/backstage/rol) ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-5.webp",
+      alt: "Employer branding reels modeli (kültür→rol→CTA) diyagramı",
+      caption: "Employer branding reels modeli (kültür→rol→CTA) diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-6.webp",
+      alt: "İK reels üretim checklist kartı",
+      caption: "İK reels üretim checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-7.webp",
+      alt: "Başvuru/CV/DM KPI skor kartı",
+      caption: "Başvuru/CV/DM KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-11/SMM3-11-8.webp",
+      alt: "Storyboard ve konu listesi deliverables proof kartı",
+      caption: "Storyboard ve konu listesi deliverables proof kartı"
+    }
   }
 
 
