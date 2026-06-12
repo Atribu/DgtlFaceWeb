@@ -360,7 +360,12 @@ export const BLOG_MAP = {
      "reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak":"BlogReelsIcerikBatchingVeBRollKutuphanesiKurmak",
      "reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri":"BlogReelsAdsVeOdemeKampanyalarindaKisaVideoKreatifleri",
      "reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi":"BlogReelsCollabUgcVeInfluencerIcerikleriIcinOrtakUretimStratejisi",
-     "employer-branding-ik-reels-stratejisi":"BlogEmployerBrandingIkReelsStratejisi"
+     "employer-branding-ik-reels-stratejisi":"BlogEmployerBrandingIkReelsStratejisi",
+
+     "destinasyon-ve-deneyim-reels-hikaye-anlatimi":"BlogDestinasyonVeDeneyimReelsHikayeAnlatimi",
+     "b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak":"BlogB2BReelsKompleksHizmetleri30SaniyedeAnlatmak",
+     "reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak":"BlogReelsIcerikSerileriVeEpisodikFormatlarlaMarkayiKonumlamak",
+     "uzun-form-videolardan-reels-uretmek-webinar-ve-youtube-split-stratejisi":"BlogUzunFormVideolardanReelsUretmekWebinarVeYoutubeSplitStratejisi"
   },
 
     yazilim: {

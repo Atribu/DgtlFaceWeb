@@ -41484,6 +41484,208 @@ export const BLOG_MEDIA_MAP = {
       alt: "Storyboard ve konu listesi deliverables proof kartı",
       caption: "Storyboard ve konu listesi deliverables proof kartı"
     }
+  },
+
+
+  "destinasyon-ve-deneyim-reels-hikaye-anlatimi":{
+    banner: {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-1.webp",
+      alt: "Destinasyon ve Deneyim Reels’leri ile Hikâye Anlatımı",
+      caption: "Destinasyon ve Deneyim Reels’leri ile Hikâye Anlatımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-2.webp",
+      alt: "Sabah–gün–akşam akışını özetleyen bağlam görseli",
+      caption: "Sabah–gün–akşam akışını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-3.webp",
+    alt: "Deneyim içeriğinin gücünü vurgulayan bölüm görseli",
+      caption: "Deneyim içeriğinin gücünü vurgulayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-4.webp",
+      alt: "Otel içi ve çevre senaryolarını ayıran bölüm görseli",
+      caption: "Otel içi ve çevre senaryolarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-5.webp",
+      alt: "1 günde X reels storyboard akış diyagramı",
+      caption: "1 günde X reels storyboard akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-6.webp",
+      alt: "Sezonlara göre deneyim reels checklist kartı",
+      caption: "Sezonlara göre deneyim reels checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-7.webp",
+      alt: "Kaydetme/paylaşma/tıklama KPI skor kartı",
+      caption: "Kaydetme/paylaşma/tıklama KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-12/SMM3-12-8.webp",
+      alt: "Storyboard + sahne listesi proof kartı",
+      caption: "Storyboard + sahne listesi proof kartı"
+    }
+  },
+
+  "b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak":{
+    banner: {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-1.webp",
+      alt: "B2B Reels: Kompleks Hizmetleri 30 Saniyede Nasıl Anlatırsınız?",
+      caption: "B2B Reels: Kompleks Hizmetleri 30 Saniyede Nasıl Anlatırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-2.webp",
+      alt: "Pain–promise–proof–CTA katmanlarını gösteren bağlam görseli",
+      caption: "Pain–promise–proof–CTA katmanlarını gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-3.webp",
+    alt: "B2B kısa video zorluklarını özetleyen bölüm görseli",
+      caption: "B2B kısa video zorluklarını özetleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-4.webp",
+      alt: "CTA ve dönüşüm köprüsünü özetleyen bölüm görseli",
+      caption: "CTA ve dönüşüm köprüsünü özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-5.webp",
+      alt: "PSR / B2B kısa video modeli diyagramı",
+      caption: "PSR / B2B kısa video modeli diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-6.webp",
+      alt: "30 saniyelik script checklist kartı",
+      caption: "30 saniyelik script checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-7.webp",
+      alt: "DM/demo/tıklama KPI skor kartı",
+      caption: "DM/demo/tıklama KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-13/SMM3-13-8.webp",
+      alt: "Storyboard + script kalıpları proof kartı",
+      caption: "Storyboard + script kalıpları proof kartı"
+    }
+  },
+
+
+  "reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak":{
+    banner: {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-1.webp",
+      alt: "Reels İçerik Serileri ve Episodik Formatlarla Markayı Konumlandırmak",
+      caption: "Reels İçerik Serileri ve Episodik Formatlarla Markayı Konumlandırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-2.webp",
+      alt: "Seri adı + ritim + kapak dili üçlüsünü özetleyen bağlam görseli",
+      caption: "Seri adı + ritim + kapak dili üçlüsünü özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-3.webp",
+    alt: "Seri faydalarını özetleyen bölüm görseli",
+      caption: "Seri faydalarını özetleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-4.webp",
+      alt: "Otel/B2B seri fikirlerini ayıran bölüm görseli",
+      caption: "Otel/B2B seri fikirlerini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-5.webp",
+      alt: "Series-first reels modeli diyagramı",
+      caption: "Series-first reels modeli diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-6.webp",
+      alt: "Seri başlatma & sürdürme checklist kartı",
+      caption: "Seri başlatma & sürdürme checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-7.webp",
+      alt: "Seri KPI skor kartı",
+      caption: "Seri KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-14/SMM3-14-8.webp",
+      alt: "Seri kapak grid’i ve takvim kesiti proof kart",
+      caption: "Seri kapak grid’i ve takvim kesiti proof kart"
+    }
+  },
+
+  "uzun-form-videolardan-reels-uretmek-webinar-ve-youtube-split-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-1.webp",
+      alt: "Uzun Form Videolardan Reels Üretmek: Webinar ve YouTube İçin Split Stratejisi",
+      caption: "Uzun Form Videolardan Reels Üretmek: Webinar ve YouTube İçin Split Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-2.webp",
+      alt: "Golden nugget seçimi ve CTA köprüsünü gösteren bağlam görseli",
+      caption: "Golden nugget seçimi ve CTA köprüsünü gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-3.webp",
+    alt: "Repurposing’in neden güçlü olduğunu özetleyen bölüm ayırıcı görsel",
+      caption: "Repurposing’in neden güçlü olduğunu özetleyen bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-4.webp",
+      alt: "Context card ve altyazı stratejisini özetleyen bölüm ayırıcı görsel",
+      caption: "Context card ve altyazı stratejisini özetleyen bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-5.webp",
+      alt: "Uzun form → nugget → split → reels akış diyagramı",
+      caption: "Uzun form → nugget → split → reels akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-6.webp",
+      alt: "Uzun formdan reels üretim checklist kartı",
+      caption: "Uzun formdan reels üretim checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-7.webp",
+      alt: "Repurposing KPI paneli skor kartı",
+      caption: "Repurposing KPI paneli skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-15/SMM3-15-8.webp",
+      alt: "Webinar kaydından çıkan reels setlerini gösteren proof kartı",
+      caption: "Webinar kaydından çıkan reels setlerini gösteren proof kartı"
+    }
   }
 
 
