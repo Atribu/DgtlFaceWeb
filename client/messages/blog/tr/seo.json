@@ -43,7 +43,7 @@
     },
     "h1": {
       "title": "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber",
-      "intro": "Core Web Vitals (CWV), Google’ın “sayfa deneyimi” yaklaşımında gerçek kullanıcı deneyimini ölçmek için kullandığı metrik setidir. Otel web siteleri genelde görsel ağırlıklı, etkileşimli (menüler, modüller, takvimler) ve pazarlama script’leriyle dolu olduğu için CWV problemleri daha sık görülür. Bu rehberde LCP, CLS ve INP’yi nasıl okuyacağınızı, otel senaryosunda neden bozulduğunu ve Next.js gibi modern framework’lerde adım adım nasıl düzelteceğinizi pratik bir şekilde ilerleteceğiz.",
+      "intro": "Core Web Vitals (CWV), Google’ın “sayfa deneyimi” yaklaşımında gerçek kullanıcı deneyimini ölçmek için kullandığı metrik setidir. Otel web siteleri genelde görsel ağırlıklı, etkileşimli (menüler, modüller, takvimler) ve pazarlama script’leriyle dolu olduğu için CWV problemleri daha sık görülür. Bu [otel sitelerinde Core Web Vitals optimizasyonu](/tr/seo/teknik-seo) rehberinde LCP, CLS ve INP’yi nasıl okuyacağınızı, otel senaryosunda neden bozulduğunu ve Next.js gibi modern framework’lerde adım adım nasıl düzelteceğinizi pratik bir şekilde ilerleteceğiz.",
       "quickSummary": [
         "Ölç → teşhis et → önceliklendir → sprint ile uygula"
       ],
@@ -67,16 +67,40 @@
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO (hub)",
+        "label": "core web vitals otel sitesi",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Web sitesi geliştirme",
+        "label": "SEO hizmetleri içinde teknik performans optimizasyonu",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "görsel optimizasyonu, WebP ve CDN yaklaşımı",
+        "href": "/tr/seo/blog/gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin"
+      },
+      {
+        "label": "mobil otel sitelerinde Core Web Vitals performansı",
+        "href": "/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo"
+      },
+      {
+        "label": "TTFB, cache ve CDN ile Core Web Vitals iyileştirme",
+        "href": "/tr/seo/blog/sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo"
+      },
+      {
+        "label": "Next.js Core Web Vitals fix",
         "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
-        "label": "Reklam raporlama",
+        "label": "sayfa hızı ve reklam performansı ilişkisi",
         "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "otel sitelerinde Core Web Vitals performansı",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Teknik SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "sections": [
@@ -87,6 +111,10 @@
           {
             "type": "p",
             "text": "Core Web Vitals’ı doğru iyileştirmek için önce metriklerin ne ölçtüğünü ve “lab vs field” farkını netleştirmek gerekir. Lighthouse/PageSpeed gibi araçlar size bir laboratuvar simülasyonu verir; CrUX ve RUM ise gerçek kullanıcı verisini gösterir. Otel sitelerinde karar verici hatası genelde şudur: “Skor düşük → her şeyi aynı anda düzelt” yaklaşımı. Doğrusu: en büyük etkiyi veren kök nedeni bulup sırayla çözmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu metrikler, [SEO hizmetleri içinde teknik performans optimizasyonu](/tr/seo-hizmetleri) katmanının en görünür parçasıdır; çünkü hız, etkileşim kalitesi ve sayfa stabilitesi artık sadece geliştirme konusu değil, doğrudan organik görünürlük ve kullanıcı memnuniyeti başlığıdır."
           },
           {
             "type": "media",
@@ -152,12 +180,20 @@
             "text": "Varsayım : Antalya, Belek, Side, Kemer gibi destinasyon sorgularında rekabet yoğun olduğu için performans farkı, aynı kalitede içerikler arasında belirleyici olabilir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [otel sitelerinde Core Web Vitals performansı](/tr/otel/seo) yalnızca PageSpeed puanı değil; oda, kampanya ve lokasyon sayfalarının organik rekabet gücünü etkileyen temel bir teknik kalite katmanıdır."
+          },
+          {
             "type": "h3",
             "text": "CWV SEO’yu gerçekten etkiler mi? "
           },
           {
             "type": "p",
             "text": "Evet, CWV doğrudan “tek başına sıralama garantisi” değildir; ancak içerik ve otorite benzerken daha iyi deneyim sunan sayfalar avantaj yakalayabilir. Ayrıca CWV iyileştirmesi çoğu zaman daha hızlı gezinme ve daha yüksek dönüşüm getirerek dolaylı SEO sinyallerini de güçlendirir (daha uzun oturum, daha fazla sayfa, daha az terk)."
+          },
+          {
+            "type": "p",
+            "text": "Aynı teknik sorunlar ücretli trafikte de maliyet yaratır; özellikle landing page tarafında [sayfa hızı ve reklam performansı ilişkisi](/tr/sem/reklam-raporlama) bounce, conversion rate ve kampanya verimliliği üzerinde çok net hissedilir."
           },
           {
             "type": "h3",
@@ -207,6 +243,10 @@
             "text": "LCP’de amaç: kullanıcı ilk ekranda “asıl içeriği” mümkün olan en kısa sürede görsün. Otel sitelerinde LCP çoğunlukla hero görsel ve üst bloktaki büyük bileşenlerdir. Next.js tarafında doğru stratejiyle LCP’yi iyileştirmek genelde en hızlı kazanım sağlar."
           },
           {
+            "type": "p",
+            "text": "Özellikle hero alanı, galeri blokları ve oda sayfalarındaki büyük asset’ler için [görsel optimizasyonu, WebP ve CDN yaklaşımı](/tr/seo/blog/gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin) LCP tarafında en hızlı ve en kalıcı kazanımlardan birini sağlar."
+          },
+          {
             "type": "h3",
             "text": "Hero görsel stratejisi: doğru dosya, doğru boyut, doğru öncelik "
           },
@@ -248,6 +288,10 @@
           {
             "type": "p",
             "text": "Otel sitelerinde görsel/asset yoğunluğu yüksek olduğu için CDN ve caching LCP’yi dramatik etkiler.\n\t•\tStatik asset’leri CDN’e koy\n\t•\tUzun cache + fingerprint kullan\n\t•\tGerekli origin’lere preconnect (abartmadan)"
+          },
+          {
+            "type": "p",
+            "text": "Burada sadece görsel sıkıştırması değil, [TTFB, cache ve CDN ile Core Web Vitals iyileştirme](/tr/seo/blog/sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo) mantığı da belirleyicidir; çünkü geç gelen HTML ve yavaş origin yanıtı iyi optimize edilmiş hero görseli bile geciktirebilir."
           },
           {
             "type": "media",
@@ -342,6 +386,10 @@
             "text": "INP, otel sitelerinde “menü açılmıyor”, “takvim geç tepki veriyor”, “CTA tıklandı ama bir şey olmuyor” hissini yaratır. Bu his, özellikle mobilde rezervasyon niyeti yüksek kullanıcıyı kaybettirir. INP’yi iyileştirmek çoğu zaman “daha az JS, daha doğru öncelik” demektir."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle cihaz bazlı davranışı ayrıca okumak gerekir; özellikle [mobil otel sitelerinde Core Web Vitals performansı](/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo) responsive yapı, dokunma alanları ve mobil etkileşim akışıyla birlikte değerlendirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Ağır JS bundle ve gereksiz hydration "
           },
@@ -397,6 +445,10 @@
           {
             "type": "p",
             "text": "Next.js, doğru kullanıldığında CWV için güçlü avantajlar sunar; yanlış kullanıldığında da “her şey JS, her şey client” ile performansı hızla bozar. Bu bölümde otel sitelerinde en çok işe yarayan pratik yaklaşımı topluyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte bu iyileştirmelerin önemli kısmı yazılım tarafında çözülür; [Next.js tarafında Core Web Vitals iyileştirmeleri](/tr/yazilim/web-sitesi-gelistirme) image pipeline, script yükleme sırası, component ayrıştırması, hydration kontrolü ve font optimizasyonu kararlarını birlikte ele alır."
           },
           {
             "type": "h3",
@@ -476,6 +528,10 @@
           {
             "type": "media",
             "slot": "cwv-goal"
+          },
+          {
+            "type": "p",
+            "text": "Bu problemleri sadece teşhis etmek değil, kalıcı iyileştirme planına dönüştürmek istiyorsanız [oteller için teknik SEO ve Core Web Vitals iyileştirmesi](/tr/seo/teknik-seo) tarafını değerlendirebilir, karar sürecinde [Teknik SEO hakkında sık sorulan sorular](/tr/seo/teknik-seo-sss) sayfasından ek çerçeve alabilirsiniz."
           },
           {
             "type": "ctaInline",
@@ -603,7 +659,7 @@
     },
     "h1": {
       "title": "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
-      "intro": "Doğru site mimarisi; Google’ın sitenizi daha verimli taramasını, sayfalar arasındaki ilişkiyi daha doğru anlamasını ve kullanıcıların siteyi daha kolay gezmesini sağlar. Otel sitelerinde en büyük hata, oda–destinasyon–konsept sayfalarını “rastgele” büyütmek; ajans sitelerinde ise hizmetleri karıştırıp otoriteyi dağıtmaktır. Bu rehberde; silo mantığını kuracak, URL kurallarını standardize edecek, breadcrumb ve dahili link akışıyla mimariyi “SEO + UX” açısından ölçeklenebilir hale getireceğiz.",
+      "intro": "Doğru [site mimarisi ve teknik SEO yaklaşımı](/tr/seo/teknik-seo); Google’ın sitenizi daha verimli taramasını, sayfalar arasındaki ilişkiyi daha doğru anlamasını ve kullanıcıların siteyi daha kolay gezmesini sağlar. Otel sitelerinde en büyük hata, oda–destinasyon–konsept sayfalarını “rastgele” büyütmek; ajans sitelerinde ise hizmetleri karıştırıp otoriteyi dağıtmaktır. Bu rehberde; silo mantığını kuracak, URL kurallarını standardize edecek, breadcrumb ve dahili link akışıyla mimariyi “SEO + UX” açısından ölçeklenebilir hale getireceğiz.",
       "quickSummary": [
         "1) Site mimarisini (hiyerarşi + iç link akışı) netleştir",
         "2) Otel/ajans için silo mantığını kur ve hub sayfaları belirle",
@@ -629,16 +685,40 @@
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO",
+        "label": "site mimarisi SEO otel",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "SEO Hizmetleri",
-        "href": "/tr/seo"
+        "label": "SEO hizmetleri içinde site mimarisi ve URL stratejisi",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Web Sitesi Geliştirme",
+        "label": "otel oda destinasyon silo yapısı",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "SEO URL yapısı hizmet sayfaları",
         "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "site mimarisinde robots.txt ve sitemap kontrolü",
+        "href": "/tr/seo/blog/robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu"
+      },
+      {
+        "label": "URL değişikliklerinde 301 ve canonical yönetimi",
+        "href": "/tr/seo/blog/yonlendirmeler-404-301-canonical-otel-sitelerinde"
+      },
+      {
+        "label": "hizmet, blog ve kategori sayfalarında URL mimarisi",
+        "href": "/tr/seo/blog/blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri"
+      },
+      {
+        "label": "oda, destinasyon ve içerik kümelerini silo yapısına oturtmak",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Teknik SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -684,6 +764,10 @@
           {
             "type": "p",
             "text": "Site mimarisi (site architecture), sayfalarınızın hiyerarşisini, kategorizasyonunu ve iç link akışını tanımlayan “bilgi mimarisi” planıdır. Google açısından bu yapı; hangi sayfanın “ana”, hangisinin “alt”, hangisinin “destek” içerik olduğunu anlamayı kolaylaştırır. Kullanıcı açısından ise doğru mimari; aradığı odayı, destinasyonu veya hizmeti 3 tık içinde bulmasını sağlar.\nVarsayım: “3 tık” kuralı mutlak bir SEO kuralı değil; pratik UX hedefidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde site mimarisi ve URL stratejisi](/tr/seo-hizmetleri) yalnızca teknik bir düzenleme değil; içerik üretimi, internal linking ve tarama verimliliğini aynı çatı altında toplayan temel optimizasyon katmanıdır."
           },
           {
             "type": "h3",
@@ -814,6 +898,10 @@
             "text": "Otel sitelerinde SEO’yu ölçekleyen asıl yapı; oda tipleri, konseptler ve destinasyonlar arasındaki doğru hiyerarşidir. Burada hedef; kullanıcı “Antalya’da aile oteli” ararken destinasyon → konsept → oda gibi net bir yol bulsun; Google da bu ilişkiyi kolayca okusun."
           },
           {
+            "type": "p",
+            "text": "Pratikte bu yapı, [otel oda destinasyon silo yapısı](/tr/otel/seo) doğru kurulmadan sürdürülebilir olmaz; çünkü oda, kampanya, hizmet ve destinasyon sayfalarının birbirine nasıl bağlanacağı doğrudan otel SEO performansını belirler."
+          },
+          {
             "type": "h3",
             "text": "Oda tipi sayfaları nasıl konumlanmalı? "
           },
@@ -894,6 +982,10 @@
             "text": "Bu içerik özelinde hedef: Teknik SEO ile Web Sitesi Geliştirme sayfası arasında “mimari + URL + route” köprüsü kurmak. Next.js gibi framework’lerde route yapısı doğrudan URL standardına dönüşür; bu yüzden yazılım ekibi ile SEO ekibinin aynı sözlüğü konuşması gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [hizmet sayfaları için SEO dostu URL yapısı](/tr/yazilim/web-sitesi-gelistirme) kararları; slug standardı, breadcrumb üretimi, navigation mantığı, CMS alanları ve route kurgusunun geliştirme tarafında gerçekten uygulanabilir hale gelmesini sağlar."
+          },
+          {
             "type": "media",
             "slot": "silo-schema"
           },
@@ -971,6 +1063,10 @@
             "text": "Next.js’te route yapısı URL standardıdır. Bu yüzden:\n\t•\tDinamik route’lar (ör. destinasyon/oda) “kural seti” ile üretilmeli\n\t•\tParametreli sayfalar indeks stratejisiyle yönetilmeli (kopya üretme riski)\n\t•\tSitemap ve breadcrumb üretimi route yapısıyla uyumlu olmalı"
           },
           {
+            "type": "p",
+            "text": "Mimari revizyonlarda en büyük teknik risk, eski URL’leri boşta bırakmak veya canonical ilişkisinin kopmasıdır; bu nedenle [URL değişikliklerinde 301 ve canonical yönetimi](/tr/seo/blog/yonlendirmeler-404-301-canonical-otel-sitelerinde) ayrı bir kontrol katmanı olarak ele alınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Ne yapmalıyım? "
           },
@@ -1008,6 +1104,14 @@
           {
             "type": "p",
             "text": "Dahili link; otoriteyi ve tarama önceliğini dağıtır. En kritik sayfalar, menü ve içerik içi linklerle “üst katmanda” beslenmelidir. Blog içerikleri; ilgili hizmet/oda/destinasyon sayfasına link vermiyorsa “otorite taşıma” görevi zayıflar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapının arama motoru tarafında sağlıklı çalışması için [site mimarisinde robots.txt ve sitemap kontrolü](/tr/seo/blog/robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu) de ayrıca düşünülmelidir; çünkü iyi kurgulanmış bir silo bile yanlış tarama yönetimi yüzünden görünürlük kaybı yaşayabilir."
+          },
+          {
+            "type": "p",
+            "text": "İçerik hacmi büyüdükçe [oda, destinasyon ve içerik kümelerini silo yapısına oturtmak](/tr/seo/icerik-seo) gerekir; aksi halde blog üretimi otorite taşımak yerine dağınık URL şişmesine dönüşebilir. Özellikle [hizmet, blog ve kategori sayfalarında URL mimarisi](/tr/seo/blog/blog-kategori-ve-tag-sayfalarinda-teknik-seo-otel-kumeleri) kararları, kategori/tag sayfalarının index-noindex dengesini doğru kurmak için kritiktir."
           },
           {
             "type": "h3",
@@ -1060,6 +1164,10 @@
           {
             "type": "media",
             "slot": "silo-breadcrumbs"
+          },
+          {
+            "type": "p",
+            "text": "Mevcut yapınızı sadeleştirip teknik riskleri azaltmak istiyorsanız [oteller için teknik SEO ve site mimarisi optimizasyonu](/tr/seo/teknik-seo) tarafını değerlendirebilir, karar aşamasında [Teknik SEO hakkında sık sorulan sorular](/tr/seo/teknik-seo-sss) sayfasından ek çerçeve alabilirsiniz."
           },
           {
             "type": "cta",
@@ -1211,7 +1319,7 @@
     },
     "h1": {
       "title": "robots.txt ve XML Sitemap ile Otel Sitelerinde Tarama Kontrolü Nasıl Sağlanır?",
-      "intro": "robots.txt ve XML sitemap, Google’ın sitenizi nasıl “gördüğünü” şekillendiren iki temel kontrol panelidir. Otel siteleri; görsel ağırlığı, kampanya sayfaları, çok dilli yapı ve özellikle rezervasyon adımları / filtre URL’leri nedeniyle tarama verimi açısından daha kırılgandır. Buradaki hedef “botları engellemek” değil; botlara doğru yolu göstermek ve gereksiz yerlere harcadıkları zamanı azaltmaktır. Bu rehberde; hangi sayfaların sınırlandırılması gerektiğini, sitemap’i nasıl segmentleyeceğinizi ve Search Console ile nasıl doğrulayacağınızı adım adım ele alacağız.",
+      "intro": "Bu [otel sitelerinde robots.txt ve sitemap yönetimi](/tr/seo/teknik-seo) rehberi, Google’ın sitenizi nasıl “gördüğünü” şekillendiren iki temel kontrol paneline odaklanır. Otel siteleri; görsel ağırlığı, kampanya sayfaları, çok dilli yapı ve özellikle rezervasyon adımları / filtre URL’leri nedeniyle tarama verimi açısından daha kırılgandır. Buradaki hedef “botları engellemek” değil; botlara doğru yolu göstermek ve gereksiz yerlere harcadıkları zamanı azaltmaktır. Bu rehberde; hangi sayfaların sınırlandırılması gerektiğini, sitemap’i nasıl segmentleyeceğinizi ve Search Console ile nasıl doğrulayacağınızı adım adım ele alacağız.",
       "ctaPrimary": {
         "label": "robots.txt & Sitemap Analizi Talep Et",
         "text": "Otel sitenizde tarama risklerini kapatıp, hangi URL’lerin indexlenip hangilerinin dışarıda kalacağını netleştirmek isteyen ekipler için.",
@@ -1232,16 +1340,40 @@
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO",
+        "label": "robots.txt otel sitesi",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Rezervasyon Yönetimi",
+        "label": "SEO hizmetleri içinde tarama kontrolü",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "site mimarisi ve tarama kontrolü",
+        "href": "/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin"
+      },
+      {
+        "label": "XML sitemap otel SEO",
+        "href": "/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist"
+      },
+      {
+        "label": "crawl budget turizm siteleri",
+        "href": "/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde"
+      },
+      {
+        "label": "gereksiz URL’leri index dışında tutmak",
         "href": "/tr/pms-ota/rezervasyon-yonetimi"
       },
       {
-        "label": "Web Sitesi Geliştirme",
+        "label": "robots.txt ve sitemap geliştirme uygulaması",
         "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "sitemap ve crawl budget yönetimi",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Teknik SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "sections": [
@@ -1258,6 +1390,10 @@
           {
             "type": "p",
             "text": "robots.txt, arama motoru botlarına “bu siteyi tararken hangi klasör ve URL desenlerine yaklaşma / yaklaş” diyen bir yönerge dosyasıdır. En kritik nokta şudur: robots.txt indeksleme komutu değildir, tarama komutudur."
+          },
+          {
+            "type": "p",
+            "text": "Bu alan, [SEO hizmetleri içinde tarama kontrolü](/tr/seo-hizmetleri) başlığının çekirdek parçalarından biridir; çünkü doğru indexlenebilir URL seti oluşturulmadan içerik, teknik kalite ve görünürlük çabaları aynı ölçüde verimli çalışmaz."
           },
           {
             "type": "h3",
@@ -1312,6 +1448,10 @@
             "text": "Otel ve turizm sitelerinde amaç, botların zamanını “gelir getiren ve arama niyetiyle uyumlu” sayfalara ayırmaktır: oda, destinasyon, kampanya, konsept ve hizmet sayfaları. Buna karşılık; yönetim panelleri, test ortamları, teşekkür sayfaları, filtre kombinasyonları ve rezervasyon adımlarının çoğu tarama yükü üretir ve indekslenmesi genellikle istenmez."
           },
           {
+            "type": "p",
+            "text": "Bu ayrım, [site mimarisi ve tarama kontrolü](/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin) doğru kurulmadan sürdürülebilir olmaz; çünkü silo yapısı, önemli sayfaların hangileri olduğunu ve hangi URL sınıflarının tarama bütçesi açısından risk yarattığını baştan tanımlar."
+          },
+          {
             "type": "h3",
             "text": "Otel sitesinde robots.txt ile engellenmesi sık görülen alanlar"
           },
@@ -1337,6 +1477,10 @@
           {
             "type": "p",
             "text": "Rezervasyon akışı çoğu zaman: kullanıcıya özel, oturum bazlı, parametreli ve tekrarlanan URL’ler üretir. Bunların indexlenmesi:"
+          },
+          {
+            "type": "p",
+            "text": "Özellikle booking engine tarafında [gereksiz URL’leri index dışında tutmak](/tr/pms-ota/rezervasyon-yonetimi) gerekir; tarih, kişi sayısı, oda varyasyonu, ödeme ve durum adımları yanlışlıkla keşfedildiğinde hem tarama bütçesi boşa gider hem de kullanıcılar arama sonuçlarından yanlış sayfalara düşebilir."
           },
           {
             "type": "list",
@@ -1399,6 +1543,10 @@
           {
             "type": "p",
             "text": "XML sitemap, botlara “bu site için önemli URL listesi burada” diyen bir envanter dosyasıdır. Sitemap, Google’a garanti vermez ama keşfi hızlandırır ve özellikle büyük/çok dilli yapılarda kontrol sağlar. Otel sitelerinde genellikle standart (urlset) sitemap yeterlidir; ancak görsel ağırlığı yüksek sayfalarda image sitemap mantığı da düşünülür."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte bu dosyanın kalitesi, [XML sitemap kontrolünü teknik SEO auditine taşımak](/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist) ile doğrulanmalıdır; çünkü sitemap içinde noindex, canonical dışı, redirect veya 404 URL kalması tarama kontrolü mantığını hızla zayıflatır."
           },
           {
             "type": "h3",
@@ -1504,6 +1652,10 @@
             "text": "Crawl budget, Google botlarının sitenize ayırdığı tarama kaynaklarının pratik karşılığıdır. Çok sayıda gereksiz URL üretirseniz (filtre parametreleri, test sayfaları, kopya varyasyonlar), botlar enerjisini boşa harcar ve önemli sayfalarınız geç taranır veya geç güncellenir. Otel sitelerinde bu risk; kampanya dönemlerinde ve yoğun içerik üretiminde daha görünür olur."
           },
           {
+            "type": "p",
+            "text": "Bu davranışı gerçekten görmek için [turizm sitelerinde crawl budget analizi](/tr/seo/blog/log-analizi-ile-crawl-budget-ve-bot-davranisi-otel-sitelerinde) yaklaşımı gerekir; çünkü hangi URL’lerin ne sıklıkla tarandığını, botların gereksiz parametrelere ne kadar zaman harcadığını ve önemli sayfaların geride kalıp kalmadığını en net log verisi gösterir."
+          },
+          {
             "type": "h3",
             "text": "Tarama bütçesini bozan otel senaryoları"
           },
@@ -1556,6 +1708,10 @@
             "text": "robots ve sitemap değişikliklerinde “tek yanlış satır” büyük hasar üretebilir; bu yüzden test ve doğrulama süreci kilit önemdedir. Hedef; değişiklikleri canlıya almadan önce kontrol etmek, canlıda ise Search Console üzerinden doğru okunup okunmadığını düzenli olarak izlemektir."
           },
           {
+            "type": "p",
+            "text": "Bu uygulamaların kalıcı olması için [robots.txt ve sitemap geliştirme uygulaması](/tr/yazilim/web-sitesi-gelistirme) tarafı da doğru kurgulanmalıdır; CMS sitemap üretimi, dinamik route yönetimi, deploy sonrası güncellemeler ve staging ortamının kapalı tutulması genelde yazılım ekibiyle birlikte çözülür."
+          },
+          {
             "type": "h3",
             "text": "Search Console’da robots ve sitemap testleri"
           },
@@ -1576,6 +1732,10 @@
           {
             "type": "p",
             "text": "robots.txt ile engellediğiniz URL’ler “tarama dışı” kalır; ancak indeksleme hedefiniz varsa, doğru araç çoğu zaman noindex + canonical + iç link düzeni olur. robots ile “yanlış sayfayı kapatmak” kolaydır; geri dönüşü ise zaman alıcı ve risklidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden index coverage, blocked URL, sitemap hataları ve tarama eğilimleri düzenli olarak [sitemap ve crawl budget yönetimi](/tr/seo/seo-raporlama) mantığıyla takip edilmelidir; aksi halde yapılan teknik değişikliklerin sahadaki etkisi görünmez kalır."
           },
           {
             "type": "media",
@@ -1607,6 +1767,10 @@
           {
             "type": "p",
             "text": "robots.txt ve sitemap birlikte kullanıldığında, botlara aynı anda iki net mesaj verirsiniz: “gereksiz sayfalar burada değil” ve “asıl sayfalar burada”. Otel sitelerinde rezervasyon adımları ve filtre URL’leri en büyük tarama bütçesi sızıntısıdır; oda, destinasyon ve kampanya sayfaları ise en yüksek iş değerini taşır. Doğru kurguyla hem index kapsamı daha temiz olur hem de yeni içerikler daha hızlı keşfedilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kalıcı hale getirmek istiyorsanız [oteller için teknik SEO ve tarama kontrolü](/tr/seo/teknik-seo) tarafını değerlendirebilir, karar aşamasında [Teknik SEO hakkında sık sorulan sorular](/tr/seo/teknik-seo-sss) sayfasından ek çerçeve alabilirsiniz."
           },
           {
             "type": "media",
@@ -1789,7 +1953,7 @@
     },
     "h1": {
       "title": "hreflang ve Çok Dilli Teknik SEO: Otel Siteleri İçin TR–EN–DE–RU Haritalama Rehberi",
-      "intro": "Çok dilli otel sitelerinde “yanlış dilde sonuç çıkması”, iyi içerik olsa bile satışa giden yolu kıran bir problemdir. Kullanıcı Almanca ararken Türkçe sayfaya düşerse güven kaybeder, siteden çıkar ve dönüşüm düşer. hreflang bu problemi çözmek için vardır; ama yanlış kurulduğunda canonical ile çakışır, duplicate içerik üretir ve otoriteyi böler. Bu rehberde TR–EN–DE–RU yapısını directory stratejisiyle kuracak, hreflang–canonical ilişkisini doğru bağlayacak ve Search Console üzerinden test ederek hataları kapatacağız.",
+      "intro": "Bu [çok dilli otel sitelerinde hreflang yapısını](/tr/seo/teknik-seo) rehberinde, çok dilli otel sitelerinde “yanlış dilde sonuç çıkması” gibi satışa giden yolu kıran bir problemi çözüyoruz. Kullanıcı Almanca ararken Türkçe sayfaya düşerse güven kaybeder, siteden çıkar ve dönüşüm düşer. hreflang bu problemi çözmek için vardır; ama yanlış kurulduğunda canonical ile çakışır, duplicate içerik üretir ve otoriteyi böler. Bu rehberde TR–EN–DE–RU yapısını directory stratejisiyle kuracak, hreflang–canonical ilişkisini doğru bağlayacak ve Search Console üzerinden test ederek hataları kapatacağız.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "hreflang & Çok Dilli SEO Analizi Talep Et",
@@ -1811,16 +1975,40 @@
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO",
+        "label": "hreflang otel çok dilli site",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Otel SEO",
+        "label": "SEO hizmetleri içinde çok dilli teknik SEO",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "TR–EN–DE–RU SEO haritalaması",
+        "href": "/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin"
+      },
+      {
+        "label": "çok dilli sayfalarda schema kullanımı",
+        "href": "/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin"
+      },
+      {
+        "label": "çok dilli rezervasyon motoru teknik SEO kontrolü",
+        "href": "/tr/seo/blog/rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde"
+      },
+      {
+        "label": "dil ve ülke eşleşmelerini doğru kurmak",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "TR, EN, DE ve RU pazarları için otel SEO eşleşmesi",
         "href": "/tr/otel/seo"
       },
       {
-        "label": "Web Sitesi Geliştirme",
-        "href": "/tr/yazilim/web-sitesi-gelistirme"
+        "label": "çok dilli SEO’nun online satışa etkisi",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Teknik SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [],
@@ -1838,6 +2026,10 @@
           {
             "type": "p",
             "text": "hreflang, arama motoruna “bu sayfanın şu dil/bölge versiyonu budur” diyen bir eşleştirme sinyalidir. Amaç; aynı içerik ailesinin (ör. oda sayfası) dil versiyonlarını doğru şekilde birbirine bağlayıp, kullanıcının arama diline ve konum sinyallerine göre doğru sayfayı göstermektir. hreflang bir “sıralama hack’i” değil; uluslararası sitelerde doğru sayfayı doğru kullanıcıya götüren teknik bir yönlendirme katmanıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu katman, [SEO hizmetleri içinde çok dilli teknik SEO](/tr/seo-hizmetleri) başlığının kritik parçalarından biridir; çünkü çeviri tek başına yetmez, URL, canonical, sitemap ve dil eşleşmelerinin aynı teknik mimaride çalışması gerekir."
           },
           {
             "type": "h3",
@@ -1902,6 +2094,10 @@
             "text": "Bu modelde hedef: kullanıcı diliyle aynı sayfaya düşsün ve rezervasyon yolculuğu kesilmesin."
           },
           {
+            "type": "p",
+            "text": "Pratikte [TR, EN, DE ve RU pazarları için otel SEO eşleşmesi](/tr/otel/seo) doğru kurulmadığında, doğru içerik bile yanlış pazarda veya yanlış dilde görünerek hem organik görünürlüğü hem de kullanıcı güvenini zayıflatabilir."
+          },
+          {
             "type": "h3",
             "text": "Dil–ülke kodu: ne zaman tr-TR / de-DE kullanmalıyım? "
           },
@@ -1952,6 +2148,10 @@
           {
             "type": "p",
             "text": "Bu yapı, hem kullanıcıya hem arama motoruna net sinyal verir. Otel sitelerinde oda/destinasyon/kampanya sayfaları bu directory yapısının altında silo’lanır."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki asıl kritik nokta, [TR–EN–DE–RU SEO haritalaması](/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin) mantığını baştan doğru kurgulamaktır; çünkü dil klasörleri, slug standardı ve sayfa aileleri düzgün eşleşmezse hreflang seti teknik olarak doğru görünse bile kullanıcıyı yanlış URL ailesine taşıyabilir."
           },
           {
             "type": "h4",
@@ -2037,6 +2237,22 @@
           {
             "type": "p",
             "text": "Sonuç: Google “asıl sayfa TR” der, diğer diller zayıflar."
+          },
+          {
+            "type": "h3",
+            "text": "Çok dilli sayfalarda schema nasıl yönetilmeli? "
+          },
+          {
+            "type": "p",
+            "text": "Dil bazlı sayfa eşleşmesi sadece meta ve hreflang ile sınırlı değildir; [çok dilli sayfalarda schema kullanımı](/tr/seo/blog/yapilandirilmis-veri-ve-schema-otel-ve-hizmet-siteleri-icin) da otel adı, adres, hizmet bilgileri, local business alanları ve sayfa türüne göre işaretlemelerin doğru dil bağlamında verilmesini gerektirir."
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon motoru ve PMS çok dilli SEO’yu nasıl etkiler? "
+          },
+          {
+            "type": "p",
+            "text": "Özellikle oda, fiyat ve rezervasyon akışında [çok dilli rezervasyon motoru teknik SEO kontrolü](/tr/seo/blog/rezervasyon-motoru-pms-ve-teknik-seo-otel-sitelerinde) gerekir; çünkü dil parametreleri, PMS kaynaklı URL varyasyonları, canonical/noindex kararları ve booking path yapısı hreflang mimarisini kolayca bozabilir."
           },
           {
             "type": "media",
@@ -2131,6 +2347,10 @@
             "text": "Next.js gibi framework’lerde çok dillilik genelde route seviyesinde yönetilir. Burada kilit konu: her dil sayfasında doğru canonical ve hreflang tag’lerinin “server-side” doğru basılması ve sitemap’in dil bazlı üretimidir."
           },
           {
+            "type": "p",
+            "text": "Bu uygulamanın yazılım tarafında temiz ilerlemesi için [dil ve ülke eşleşmelerini doğru kurmak](/tr/yazilim/web-sitesi-gelistirme) gerekir; route yapısı, CMS dil alanları, otomatik hreflang üretimi, canonical mantığı ve deploy sonrası sitemap kontrolleri aynı standarda bağlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Minimum uygulanabilir kontrol seti "
           },
@@ -2164,6 +2384,14 @@
           {
             "type": "p",
             "text": "hreflang, çok dilli otel sitelerinde “doğru pazara doğru dil” garantisinin temelidir. Ancak tek başına yetmez: URL/directory standardı, self canonical kuralı, karşılıklı hreflang haritalaması ve Search Console test ritmi birlikte çalışmalıdır. Yeni dil eklenmeleri, domain/directory değişimleri veya redesign sonrası bu sistem mutlaka yeniden audit edilmelidir; aksi halde yanlış dilde sıralanma sorunları tekrarlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, kullanıcıyı doğru dilde oda, fiyat ve kampanya sayfasına taşıdığı için [çok dilli SEO’nun online satışa etkisi](/tr/pms-ota/online-satis) doğrudan hissedilir; direct booking performansı çoğu zaman teknik eşleşme kalitesiyle düşündüğümüzden daha güçlü bağ kurar."
+          },
+          {
+            "type": "p",
+            "text": "Haritalama ve uygulama hatalarını kalıcı olarak kapatmak istiyorsanız [oteller için teknik SEO ve hreflang kontrolü](/tr/seo/teknik-seo) tarafını değerlendirebilir, karar aşamasında [Teknik SEO hakkında sık sorulan sorular](/tr/seo/teknik-seo-sss) sayfasından ek çerçeve alabilirsiniz."
           },
           {
             "type": "media",
@@ -2318,7 +2546,7 @@
     },
     "h1": {
       "title": "JavaScript ve Next.js Tabanlı Sitelerde Teknik SEO Sorunları ve Çözümleri",
-      "intro": "Next.js ve modern JavaScript framework’leri; hız, UX ve geliştirme verimliliği için güçlüdür. Ancak yanlış render stratejisi ve yanlış URL/meta kurgusu, Google’ın sayfayı taramasını ve içeriği anlamasını zorlaştırabilir. Otel ve ajans projelerinde risk genelde aynı yerde patlar: oda listeleme/filtre, rezervasyon adımları, dinamik route’lar, meta+schema ve performansı bozan 3. parti script’ler. Bu rehber, “Google nasıl görüyor?” sorusuyla başlayıp SSR/SSG/CSR seçimini, meta/schema ve canonical standardını ve gerçek hayatta sık görülen sorun–çözüm senaryolarını adım adım netleştirir.",
+      "intro": "Next.js ve modern JavaScript framework’leri; hız, UX ve geliştirme verimliliği için güçlüdür. Ancak [JavaScript teknik SEO](/tr/seo/teknik-seo) doğru kurulmadığında, yanlış render stratejisi ve yanlış URL/meta kurgusu Google’ın sayfayı taramasını ve içeriği anlamasını zorlaştırabilir. Otel ve ajans projelerinde risk genelde aynı yerde patlar: oda listeleme/filtre, rezervasyon adımları, dinamik route’lar, meta+schema ve performansı bozan 3. parti script’ler. Bu rehber, “Google nasıl görüyor?” sorusuyla başlayıp SSR/SSG/CSR seçimini, meta/schema ve canonical standardını ve gerçek hayatta sık görülen sorun–çözüm senaryolarını adım adım netleştirir.",
       "quickSummary": [
         "1) Google’ın ilk HTML’de ne gördüğünü kontrol et",
         "2) Para sayfalarında SSR/SSG/ISR kararını doğru ver",
@@ -2346,16 +2574,40 @@
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO (Hub)",
+        "label": "JavaScript teknik SEO",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Web Sitesi Geliştirme",
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Next.js SEO sorunları",
         "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
-        "label": "Dönüşüm Takibi & Tag Manager",
+        "label": "Core Web Vitals",
+        "href": "/tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi"
+      },
+      {
+        "label": "mobil-first teknik SEO",
+        "href": "/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo"
+      },
+      {
+        "label": "Headless CMS ve Jamstack",
+        "href": "/tr/seo/blog/headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari"
+      },
+      {
+        "label": "JavaScript dönüşüm takibi",
         "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "teknik SEO ve UX",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Teknik SEO soruları",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -2408,6 +2660,10 @@
           },
           {
             "type": "p",
+            "text": "Bu yüzden modern frontend projelerinde JavaScript SEO, [SEO hizmetleri](/tr/seo-hizmetleri) içinde yalnızca meta etiket kontrolü değil; render kalitesi, indekslenebilir HTML, taranabilir link yapısı ve performans çıktılarının birlikte ele alındığı bir çalışma alanı olarak değerlendirilmelidir."
+          },
+          {
+            "type": "p",
             "text": "Varsayım: Burada amaç korkutmak değil; “kritik içerik ilk HTML’de olsun” standardını kilitlemektir."
           },
           {
@@ -2449,6 +2705,10 @@
           {
             "type": "p",
             "text": "Bu üç yaklaşımın SEO etkisi, “Google içeriği ne zaman görebiliyor?” sorusuna cevap verir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle SSR, SSG, ISR, dynamic route ve metadata kararlarının nasıl uygulanacağını görmek isteyen ekipler için [Next.js SEO sorunları](/tr/yazilim/web-sitesi-gelistirme) tarafı, teknik SEO teşhisini doğrudan geliştirme backlog’una çevirmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -2501,6 +2761,14 @@
           {
             "type": "p",
             "text": "Next.js SEO’da başarılıdır; fakat bazı hatalar “sessiz” yaşanır: site görünür, kullanıcı okur, ama Google’ın gördüğü sayfa zayıf olur."
+          },
+          {
+            "type": "p",
+            "text": "Bu riskler performans tarafında da büyür; özellikle hydration, font yükleme, image optimization ve script sırası sorunları [Core Web Vitals](/tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi) tarafında LCP, CLS ve INP skorlarını aşağı çekebilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı yapının mobil kırılımında ise menü, CTA görünürlüğü, responsive layout ve cihaz bazlı render farkları [mobil-first teknik SEO](/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo) gerektirir; çünkü masaüstünde çalışan bir akış mobil-first index tarafında sorun üretebilir."
           },
           {
             "type": "h3",
@@ -2601,6 +2869,10 @@
             "text": "Otel ve ajans sitelerinde dinamik route kaçınılmazdır: oda detayları, bloglar, kampanyalar, hizmet alt sayfaları. Risk, kontrolsüz parametrelerle “sonsuz URL” üretmektir."
           },
           {
+            "type": "p",
+            "text": "Bu nokta, headless mimarilerde daha da kritik hale gelir; çünkü içerik dağıtımı, statik üretim ve route stratejisi doğru kurgulanmazsa [Headless CMS ve Jamstack](/tr/seo/blog/headless-cms-jamstack-ve-otel-sitelerinde-teknik-seo-firsatlari) yaklaşımı bile index şişmesi ve zayıf keşif sorunlarına dönüşebilir."
+          },
+          {
             "type": "h3",
             "text": "Dinamik URL parametreleri ve canonical kullanımı"
           },
@@ -2639,6 +2911,14 @@
           {
             "type": "p",
             "text": "Bu bölüm, “gerçekte ne oluyor?” sorusuna kısa teşhis–çözüm kalıplarıyla cevap verir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle client-side routing, thank you page tetikleri ve booking engine geçişlerinde yaşanan event kayıpları, [JavaScript dönüşüm takibi](/tr/sem/donusum-takibi-tag-manager) ile birlikte değerlendirilmediğinde SEO tarafında doğru çalışan bir sayfa ölçüm tarafında eksik veri üretebilir."
+          },
+          {
+            "type": "p",
+            "text": "Benzer şekilde layout shift, etkileşim gecikmesi, CTA yerleşimi ve mobil akış kararları da yalnız performans değil, [teknik SEO ve UX](/tr/creative/ui-ux-tasarim) açısından birlikte ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -2714,6 +2994,10 @@
           {
             "type": "p",
             "text": "Modern JS/Next.js sitelerde SEO başarısı, “Google’ın gördüğü sayfa” ile “kullanıcının gördüğü sayfanın” aynı olmasına dayanır. SSR/SSG seçimleri, meta/schema standardı, dinamik route ve canonical stratejisi doğru kurulduğunda Next.js son derece SEO dostudur; üstelik performans avantajıyla rekabette öne çıkar. Ancak Google’ın JS işleme süreçleri ve Next.js sürümleri zamanla güncellenebileceği için bu rehberdeki kontrol noktaları 365 gün periyotla yeniden gözden geçirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Eğer render, indeks, canonical, filtre URL veya client-side takip sorunlarını tek planda toparlamak istiyorsanız [Next.js teknik SEO](/tr/seo/teknik-seo) hizmet sayfasına geçebilir; karar aşamasında ek netlik için de [Teknik SEO soruları](/tr/seo/teknik-seo-sss) bölümünü inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -14992,7 +15276,7 @@
     },
     "h1": {
       "title": "Yönlendirmeler, 404, 301 ve Canonical: Otel Sitelerinde Teknik SEO Denge Noktası",
-      "intro": "Otel sitelerinde teknik SEO’nun en kritik “denge noktası” çoğu zaman içerik değil, URL’lerin güvenliği ve otoritenin korunmasıdır. Site yenileme (re-design), domain değişimi, çok dilli yapı veya rezervasyon motoru güncellemesi gibi dönemlerde; yanlış 301’ler, artan 404’ler ve hatalı canonical etiketleri birkaç gün içinde organik görünürlüğü düşürebilir. Bu rehber, önce “hangi durumda hangi kural” sorusunu netleştirir; sonra da 301 haritası, 404 yönetimi, canonical stratejisi ve test/doğrulama adımlarını otel senaryolarıyla uygulamaya çevirir.",
+      "intro": "Otel sitelerinde [301 yönlendirme yönetimi](/tr/seo/teknik-seo) çoğu zaman içerikten daha kritik bir güvenlik katmanıdır; çünkü URL’lerin güvenliğini ve birikmiş otoriteyi korur. Site yenileme (re-design), domain değişimi, çok dilli yapı veya rezervasyon motoru güncellemesi gibi dönemlerde; yanlış 301’ler, artan 404’ler ve hatalı canonical etiketleri birkaç gün içinde organik görünürlüğü düşürebilir. Bu rehber, önce “hangi durumda hangi kural” sorusunu netleştirir; sonra da 301 haritası, 404 yönetimi, canonical stratejisi ve test/doğrulama adımlarını otel senaryolarıyla uygulamaya çevirir.",
       "quickSummary": [
         "1) 301 ve 302 farkını doğru senaryoya göre uygula",
         "2) 404 ve soft 404’leri kritik URL’lerde sıfıra yaklaştır",
@@ -15003,33 +15287,57 @@
       "ctaPrimary": {
         "label": "Teknik Yönlendirme & Canonical Analizi Talep Et",
         "text": "Site yenileme/domain değişimi öncesi URL haritasını çıkarıp trafik kaybını minimize etmek isteyen oteller için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Teknik Yönlendirme & Canonical Analizi Talep Et",
         "text": "Site yenileme veya domain değişimi öncesi 301/404/canonical risklerini kapatmak isteyen oteller için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       "secondary": {
         "label": "Yönlendirme Haritası & Canonical Planlama Şablonunu İndir",
         "text": "Eski→yeni URL eşleştirmesini tek tabloda kilitler; go-live öncesi trafik kaybını azaltırsınız.",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO hizmet sayfası",
-        "href": "/seo/teknik-seo"
+        "label": "301 yönlendirme yönetimi",
+        "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Web sitesi geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "label": "site mimarisi ve URL yapısı",
+        "href": "/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin"
+      },
+      {
+        "label": "URL parametreleri ve duplicate içerik",
+        "href": "/tr/seo/blog/url-parametreleri-utm-ve-duplicate-icerik-sorunlari"
+      },
+      {
+        "label": "bakım modu ve 503",
+        "href": "/tr/seo/blog/bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo"
+      },
+      {
+        "label": "site yenileme geliştirme süreci",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "otel SEO performansı",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Teknik SEO soruları",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -15049,7 +15357,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Yönlendirme, bir URL’den diğerine kullanıcıyı ve botları taşıma mekanizmasıdır. Otel sitelerinde yönlendirme ihtiyacı en çok; kampanya URL’leri, sezon sayfaları, oda adı değişiklikleri ve site tasarım yenilemelerinde ortaya çıkar. Burada amaç “her şeyi ana sayfaya göndermek” değil; her URL’yi en yakın niyet ve içerik eşine taşımaktır. Çünkü Google’ın gözünde bir URL’ün değeri, en çok da “hangi sayfaya ve nasıl taşındığı” ile korunur."
+            "text": "Yönlendirme, bir URL’den diğerine kullanıcıyı ve botları taşıma mekanizmasıdır. Otel sitelerinde yönlendirme ihtiyacı en çok; kampanya URL’leri, sezon sayfaları, oda adı değişiklikleri ve site tasarım yenilemelerinde ortaya çıkar. Bu yüzden [SEO hizmetleri](/tr/seo-hizmetleri) içinde yönlendirme ve canonical yönetimi, yalnızca hata düzeltme değil URL otoritesi koruma işi olarak ele alınmalıdır. Burada amaç “her şeyi ana sayfaya göndermek” değil; her URL’yi en yakın niyet ve içerik eşine taşımaktır. Çünkü Google’ın gözünde bir URL’ün değeri, en çok da “hangi sayfaya ve nasıl taşındığı” ile korunur."
           },
           {
             "type": "h3",
@@ -15057,7 +15365,7 @@
           },
           {
             "type": "p",
-            "text": "301 kalıcı yönlendirmedir; URL otoritesini (link equity) uzun vadede yeni hedefe taşımak için kullanılır. 302 geçici yönlendirmedir; kısa süreli bakım, A/B test veya geçici kampanya durumlarında tercih edilir. Site yenileme ve domain değişiminde ana senaryo genellikle 301’dir."
+            "text": "301 kalıcı yönlendirmedir; URL otoritesini (link equity) uzun vadede yeni hedefe taşımak için kullanılır. 302 geçici yönlendirmedir; kısa süreli bakım, A/B test veya geçici kampanya durumlarında tercih edilir. Geçici erişim kesintilerinde [bakım modu ve 503 yönetimi](/tr/seo/blog/bakim-sayfasi-503-ve-bakim-modu-otel-sitelerinde-seo) ile 302/503 ayrımını net kurmak gerekir. Site yenileme ve domain değişiminde ana senaryo genellikle 301’dir."
           },
           {
             "type": "h3",
@@ -15116,7 +15424,7 @@
           },
           {
             "type": "p",
-            "text": "Tekil ve doğru yönetilen 404’ler genelde sorun değildir; ancak çok sayıda önemli URL 404 olursa tarama bütçesi boşa gider ve organik görünürlük düşebilir. Asıl hedef, 404’leri “kritik URL’lerde sıfıra yaklaştırmak” ve internal link kaynaklı 404’leri temizlemektir."
+            "text": "Tekil ve doğru yönetilen 404’ler genelde sorun değildir; ancak çok sayıda önemli URL 404 olursa tarama bütçesi boşa gider ve organik görünürlük düşebilir. Asıl hedef, 404’leri “kritik URL’lerde sıfıra yaklaştırmak” ve internal link kaynaklı 404’leri temizlemektir. Bu nedenle [SEO raporlama](/tr/seo/seo-raporlama) içinde 404, redirect chain ve soft 404 takibini ayrı bir teknik panel olarak izlemek gerekir."
           },
           {
             "type": "h3",
@@ -15188,7 +15496,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Canonical, Google’a “bu sayfanın asıl (tercih edilen) sürümü budur” mesajını verir. Otel sitelerinde canonical ihtiyacı; aynı oda için farklı URL’ler, kampanya varyasyonları, parametreli filtre sayfaları ve çok dilli yapılar gibi “duplicate” riskinin yüksek olduğu alanlarda doğar. Canonical, doğru kullanıldığında indeks kalitesini artırır; yanlış kullanıldığında ise yanlış sayfanın sıralanmasına neden olabilir."
+            "text": "Canonical, Google’a “bu sayfanın asıl (tercih edilen) sürümü budur” mesajını verir. Otel sitelerinde canonical ihtiyacı; aynı oda için farklı URL’ler, kampanya varyasyonları, parametreli filtre sayfaları ve çok dilli yapılar gibi “duplicate” riskinin yüksek olduğu alanlarda doğar. Bu risklerin büyük bölümü [URL parametreleri ve duplicate içerik](/tr/seo/blog/url-parametreleri-utm-ve-duplicate-icerik-sorunlari) tarafında görünür hale gelir. Canonical, doğru kullanıldığında indeks kalitesini artırır; yanlış kullanıldığında ise yanlış sayfanın sıralanmasına neden olabilir."
           },
           {
             "type": "h3",
@@ -15248,7 +15556,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Domain değişimi veya büyük URL revizyonu, SEO açısından “yüksek riskli operasyon”dur. Otelde bu risk; sezon öncesi yapılan redesign’larda ve rezervasyon motoru entegrasyon değişimlerinde daha da büyür. Buradaki altın kural: Önce mevcut performansı çıkar → sonra yeni yapıyı eşleştir → sonra tek tek 301’le → sonra doğrula. “Toplu ana sayfa yönlendirmesi” veya “eski sayfaları kaderine bırakma” yaklaşımı organik trafiği hızla düşürebilir."
+            "text": "Domain değişimi veya büyük URL revizyonu, SEO açısından “yüksek riskli operasyon”dur. Otelde bu risk; sezon öncesi yapılan redesign’larda ve rezervasyon motoru entegrasyon değişimlerinde daha da büyür. Bu kayıp en hızlı şekilde [otel SEO performansı](/tr/otel/seo) üzerinde oda, destinasyon ve kampanya sayfalarında görünür hale gelir. Buradaki altın kural: Önce mevcut performansı çıkar → sonra yeni yapıyı eşleştir → sonra tek tek 301’le → sonra doğrula. “Toplu ana sayfa yönlendirmesi” veya “eski sayfaları kaderine bırakma” yaklaşımı organik trafiği hızla düşürebilir."
           },
           {
             "type": "h3",
@@ -15256,7 +15564,11 @@
           },
           {
             "type": "p",
-            "text": "Önce Search Console ve analytics’ten en çok trafik alan ve en çok link alan URL’leri çıkarın. Sonra her URL için “en yakın niyet ve içerik eşini” belirleyin (oda→oda, destinasyon→destinasyon, kampanya→kampanya). Ardından 301 haritasını uygulayıp, yönlendirme zincirleri ve 404’leri test ederek canlıya alın."
+            "text": "Önce Search Console ve analytics’ten en çok trafik alan ve en çok link alan URL’leri çıkarın. Sonra her URL için “en yakın niyet ve içerik eşini” belirleyin (oda→oda, destinasyon→destinasyon, kampanya→kampanya). Bu eşleştirmenin sağlıklı olması için [site mimarisi ve URL yapısı](/tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin) baştan net olmalıdır. Ardından 301 haritasını uygulayıp, yönlendirme zincirleri ve 404’leri test ederek canlıya alın."
+          },
+          {
+            "type": "p",
+            "text": "Redirect map’in route değişimleri, eski slug eşleşmeleri ve canonical üretimiyle birlikte uygulanması gerekir; bu yüzden [site yenileme geliştirme süreci](/tr/yazilim/web-sitesi-gelistirme) ile SEO ekibi aynı geçiş tablosu üzerinden ilerlemelidir."
           },
           {
             "type": "h3",
@@ -15496,21 +15808,21 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel sitesinde yönlendirmeler, 404 ve canonical; tek tek küçük ayar gibi görünür ama birlikte SEO’nun güvenlik ağıdır. Site yenileme veya domain değişiminde bu ağı önceden kurmazsanız, organik görünürlükte ani kayıplar yaşayabilirsiniz. Doğru yaklaşım “harita + standart + test + izleme”dir: Top URL’leri çıkarın, her birini doğru hedefe 301’leyin, canonical’ı duplicate yönetimi için kilitleyin ve Search Console ile 2–6 hafta izleyin."
+            "text": "Otel sitesinde yönlendirmeler, 404 ve canonical; tek tek küçük ayar gibi görünür ama birlikte SEO’nun güvenlik ağıdır. Site yenileme veya domain değişiminde bu ağı önceden kurmazsanız, organik görünürlükte ani kayıplar yaşayabilirsiniz. Doğru yaklaşım “harita + standart + test + izleme”dir: Top URL’leri çıkarın, her birini doğru hedefe 301’leyin, canonical’ı duplicate yönetimi için kilitleyin ve Search Console ile 2–6 hafta izleyin. Geçiş öncesi [teknik SEO ve URL otoritesi](/tr/seo/teknik-seo) çerçevenizi netleştirip ek karar noktaları için [Teknik SEO soruları](/tr/seo/teknik-seo-sss) sayfasını da kullanabilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Teknik Yönlendirme & Canonical Analizi Talep Et",
             "text": "Domain değişimi veya büyük URL revizyonu öncesi “mutlaka kontrol” isteyen oteller için.",
-            "href": "/otel/seo"
+            "href": "/tr/seo/teknik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Yönlendirme Haritası & Canonical Planlama Şablonunu İndir",
             "text": "Eski→yeni URL eşleştirmesini tek tabloda kilitler; go-live öncesi trafik kaybını azaltırsınız.",
-            "href": "/yazilim/web-sitesi-gelistirme"
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
           }
         ]
       },
@@ -15651,7 +15963,7 @@
     },
     "h1": {
       "title": "Görsel Optimizasyonu, WebP ve CDN: Otel Siteleri İçin Hız ve SEO Rehberi",
-      "intro": "Otel sitelerinde “görsel kalite” satışın bir parçasıdır; ama yanlış yönetilen görseller, sitenizi yavaşlatıp kullanıcıyı daha oda sayfasını görmeden kaçırabilir. Galeri, oda, havuz ve restoran fotoğrafları; doğru boyutlandırılmadığında sayfa ağırlığını şişirir, Core Web Vitals’ı düşürür ve özellikle mobilde LCP’yi uzatır. Bu rehberde, WebP/modern formatlar, CDN, lazy load ve doğru görsel isimlendirme/alt metin stratejisiyle kalite-performans dengesini nasıl kuracağınızı otel senaryolarıyla adım adım göstereceğiz.",
+      "intro": "Otel sitelerinde [otel görsel optimizasyonu](/tr/seo/teknik-seo) satışın bir parçasıdır; ama yanlış yönetilen görseller, sitenizi yavaşlatıp kullanıcıyı daha oda sayfasını görmeden kaçırabilir. Galeri, oda, havuz ve restoran fotoğrafları; doğru boyutlandırılmadığında sayfa ağırlığını şişirir, Core Web Vitals’ı düşürür ve özellikle mobilde LCP’yi uzatır. Bu rehberde, WebP/modern formatlar, CDN, lazy load ve doğru görsel isimlendirme/alt metin stratejisiyle kalite-performans dengesini nasıl kuracağınızı otel senaryolarıyla adım adım göstereceğiz.",
       "quickSummary": [
         "1) Görsel yükünü şablon bazında ölç",
         "2) Doğru boyutlandırma ve sıkıştırma standardı kur",
@@ -15662,33 +15974,57 @@
       "ctaPrimary": {
         "label": "Görsel Optimizasyon & Hız Analizi Talep Et",
         "text": "Otel sitenizde görsel kaynaklı hız sorunlarını tespit edip LCP’yi iyileştirmek isteyen ekipler için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Görsel Optimizasyon & Hız Analizi Talep Et",
         "text": "Otel sitenizde görsel kaynaklı hız sorunlarını tespit edip LCP’yi iyileştirmek isteyen ekipler için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       "secondary": {
         "label": "Otel Görsel Optimizasyon Checklist’ini İndir",
         "text": "Ekibinize görev listesi verirsiniz; görsel hız sprint’ini 14 günde standartlaştırırsınız.",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO hizmet sayfası",
-        "href": "/seo/teknik-seo"
+        "label": "otel görsel optimizasyonu",
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Web sitesi geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "label": "Core Web Vitals",
+        "href": "/tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi"
+      },
+      {
+        "label": "mobil görsel performansı",
+        "href": "/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo"
+      },
+      {
+        "label": "CDN ve TTFB",
+        "href": "/tr/seo/blog/sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo"
+      },
+      {
+        "label": "WebP ve CDN uygulaması",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "otel SEO performansı",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Teknik SEO soruları",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -15708,7 +16044,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel web sitesinde kullanıcı, kararın büyük kısmını “görsel algı” ile verir: oda, manzara, havuz, restoran, spa… Bu nedenle fotoğraflar genelde çoktur ve yüksek çözünürlüklüdür. Sorun şu: aynı görseli hem masaüstüne hem mobile aynı ağırlıkta servis etmek, sayfa hızını gereksiz yere yavaşlatır. Üstelik görsel yükü sadece “açılış hızı” değil; etkileşim gecikmesi ve dönüşüm davranışı üzerinde de etkilidir."
+            "text": "Otel web sitesinde kullanıcı, kararın büyük kısmını “görsel algı” ile verir: oda, manzara, havuz, restoran, spa… Bu nedenle fotoğraflar genelde çoktur ve yüksek çözünürlüklüdür. Sorun şu: aynı görseli hem masaüstüne hem mobile aynı ağırlıkta servis etmek, sayfa hızını gereksiz yere yavaşlatır. Bu yüzden [SEO hizmetleri](/tr/seo-hizmetleri) içinde görsel performans optimizasyonu, sadece estetik değil teknik performans katmanı olarak ele alınmalıdır. Üstelik görsel yükü sadece “açılış hızı” değil; etkileşim gecikmesi ve dönüşüm davranışı üzerinde de etkilidir."
           },
           {
             "type": "h3",
@@ -15716,7 +16052,7 @@
           },
           {
             "type": "p",
-            "text": "Görsel optimizasyonu sayfa hızını ve Core Web Vitals metriklerini iyileştirerek kullanıcı deneyimini güçlendirir. Daha hızlı açılan sayfalar daha az terk edilir; bu da organik performansı ve dönüşüm oranını dolaylı olarak destekler."
+            "text": "Görsel optimizasyonu sayfa hızını ve Core Web Vitals metriklerini iyileştirerek kullanıcı deneyimini güçlendirir. Daha hızlı açılan sayfalar daha az terk edilir; bu da [otel SEO performansını](/tr/otel/seo) ve dönüşüm oranını dolaylı olarak destekler."
           },
           {
             "type": "h3",
@@ -15724,7 +16060,7 @@
           },
           {
             "type": "p",
-            "text": "Antalya’da bir resort otelin “oda detayı” sayfasında 25 fotoğraf varsa; her fotoğrafın “tek boy” ve yüksek kaliteyle servis edilmesi mobilde sayfayı ağırlaştırır. Doğru strateji; hero görseli öncelik, galeri görselleri için responsive + lazy load, thumbnail’lar için daha küçük boyut kullanmaktır."
+            "text": "Antalya’da bir resort otelin “oda detayı” sayfasında 25 fotoğraf varsa; her fotoğrafın “tek boy” ve yüksek kaliteyle servis edilmesi mobilde sayfayı ağırlaştırır. Bu noktada [mobil görsel performansı](/tr/seo/blog/mobil-first-index-ve-responsive-otel-sitelerinde-teknik-seo) özellikle kırılgan hale gelir. Doğru strateji; hero görseli öncelik, galeri görselleri için responsive + lazy load, thumbnail’lar için daha küçük boyut kullanmaktır."
           },
           {
             "type": "h3",
@@ -15883,7 +16219,7 @@
           },
           {
             "type": "p",
-            "text": "Şart olmak zorunda değil; ancak görsel yükü yüksek ve farklı pazarlara hitap eden otel sitelerinde CDN genellikle ciddi hız avantajı sağlar. Özellikle hero ve galeri görselleri CDN ile daha hızlı servis edilir; doğru cache stratejisiyle performans kalıcı olur."
+            "text": "Şart olmak zorunda değil; ancak görsel yükü yüksek ve farklı pazarlara hitap eden otel sitelerinde CDN genellikle ciddi hız avantajı sağlar. Özellikle hero ve galeri görselleri CDN ile daha hızlı servis edilir; doğru cache stratejisiyle performans kalıcı olur. Bu katman, [CDN ve TTFB](/tr/seo/blog/sunucu-yanit-suresi-ttfb-cache-ve-cdn-otel-seo) performansıyla birlikte okunmalıdır."
           },
           {
             "type": "h3",
@@ -15942,7 +16278,7 @@
           },
           {
             "type": "p",
-            "text": "Doğru yerde kullanılırsa gereksiz görsel yükünü azaltır ve performansı iyileştirir. Ancak hero/ilk ekran görseli gibi LCP öğelerini lazy etmek, LCP’yi uzatarak Core Web Vitals skorlarını kötüleştirebilir."
+            "text": "Doğru yerde kullanılırsa gereksiz görsel yükünü azaltır ve performansı iyileştirir. Ancak hero/ilk ekran görseli gibi LCP öğelerini lazy etmek, LCP’yi uzatarak [Core Web Vitals](/tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi) skorlarını kötüleştirebilir."
           },
           {
             "type": "h3",
@@ -15967,7 +16303,7 @@
           },
           {
             "type": "p",
-            "text": "Next.js Image, responsive ve optimizasyon için iyi bir çerçeve sunar; ama yanlış kullanılırsa (sizes yanlış, priority her yerde) faydayı azaltır. Kural: priority sadece LCP adayı görselde."
+            "text": "Next.js Image, responsive ve optimizasyon için iyi bir çerçeve sunar; ama yanlış kullanılırsa (sizes yanlış, priority her yerde) faydayı azaltır. Bu yüzden [WebP ve CDN uygulaması](/tr/yazilim/web-sitesi-gelistirme) geliştirme tarafında image component, srcset, sizes ve priority kurgusuyla birlikte düşünülmelidir. Kural: priority sadece LCP adayı görselde."
           },
           {
             "type": "h3",
@@ -16013,7 +16349,7 @@
           },
           {
             "type": "p",
-            "text": "Sheet notunu kilitleyerek söyleyelim: sadece agresif sıkıştırmaya yüklenmek doğru değildir. Tasarım ekibiyle birlikte “kabul edilebilir kalite” standardı belirlenmeli; özellikle oda içi detaylarda aşırı sıkıştırma satış hissini düşürür."
+            "text": "Sheet notunu kilitleyerek söyleyelim: sadece agresif sıkıştırmaya yüklenmek doğru değildir. Tasarım ekibiyle birlikte “kabul edilebilir kalite” standardı belirlenmeli; özellikle oda içi detaylarda aşırı sıkıştırma satış hissini düşürür. Kampanya videoları ve hero medya alanlarında da [video prodüksiyon](/tr/creative/video-produksiyon) tarafıyla görsel kalite ve hız dengesi birlikte kurulmalıdır."
           },
           {
             "type": "h3",
@@ -16168,14 +16504,14 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel sitenizde hız problemi çoğu zaman “tek bir kötü görsel stratejisinin” toplam etkisidir. WebP/modern format, doğru boyutlandırma, CDN cache ve LCP–lazy dengesi birlikte kurulduğunda hem kalite korunur hem hız artar. En iyi yaklaşım; önce en kritik 3 şablonda ölçmek, sonra pipeline’ı standartlaştırıp tüm görsel üretimini otomatik hale getirmektir."
+            "text": "Otel sitenizde hız problemi çoğu zaman “tek bir kötü görsel stratejisinin” toplam etkisidir. WebP/modern format, doğru boyutlandırma, CDN cache ve LCP–lazy dengesi birlikte kurulduğunda hem kalite korunur hem hız artar. En iyi yaklaşım; önce en kritik 3 şablonda ölçmek, sonra pipeline’ı standartlaştırıp tüm görsel üretimini otomatik hale getirmektir. Bu yapıyı kalıcı hale getirmek için [oteller için teknik SEO ve görsel performans optimizasyonu](/tr/seo/teknik-seo) tarafını değerlendirebilir, karar aşamasında [Teknik SEO soruları](/tr/seo/teknik-seo-sss) sayfasından ek çerçeve alabilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Görsel Optimizasyon & Hız Analizi Talep Et",
             "text": "WebP/CDN ve LCP odaklı hız kazanımı planı isteyen oteller için.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       }
@@ -16288,7 +16624,7 @@
     },
     "h1": {
       "title": "Mobil-First Index ve Responsive Tasarım: Otel Sitelerinde Teknik SEO İpuçları",
-      "intro": "Google’ın mobil-first yaklaşımı, otel sitelerinin mobilde “sadece açılıyor” olmasını değil; içerik, link, hız ve rezervasyon akışının kusursuz çalışmasını zorunlu kıldı. Masaüstünde güçlü görünen ama mobilde içerik/link gizleyen, kırılımlarda bozulan veya rezervasyon formunu zora sokan siteler; hem görünürlük hem satış tarafında kayıp yaşar. Bu rehberde mobil-first index mantığını netleştirip; responsive hataları, mobil navigasyon, dokunmatik alanlar, font ve Core Web Vitals ilişkisini otel senaryolarıyla teşhis ederek çözeceğiz.",
+      "intro": "Google’ın mobil-first yaklaşımı, otel sitelerinin mobilde “sadece açılıyor” olmasını değil; [mobil-first teknik SEO](/tr/seo/teknik-seo) tarafında içerik, link, hız ve rezervasyon akışının kusursuz çalışmasını zorunlu kıldı. Masaüstünde güçlü görünen ama mobilde içerik/link gizleyen, kırılımlarda bozulan veya rezervasyon formunu zora sokan siteler; hem görünürlük hem satış tarafında kayıp yaşar. Bu rehberde mobil-first index mantığını netleştirip; responsive hataları, mobil navigasyon, dokunmatik alanlar, font ve Core Web Vitals ilişkisini otel senaryolarıyla teşhis ederek çözeceğiz.",
       "quickSummary": [
         "1) Mobil-first index mobil içeriği ve deneyimi esas alır",
         "2) Mobil–masaüstü içerik tutarlılığını koru",
@@ -16299,33 +16635,57 @@
       "ctaPrimary": {
         "label": "Mobil UX & Teknik SEO Analizi Talep Et",
         "text": "Mobildeki SEO ve rezervasyon akışı problemlerini teşhis edip hızlı düzeltmek isteyen oteller için.",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Mobil UX & Teknik SEO Analizi Talep Et",
         "text": "Mobildeki SEO ve rezervasyon akışı sorunlarını tespit edip dönüşümü artırmak isteyen oteller için.",
-        "href": "/otel/seo"
+        "href": "/tr/seo/teknik-seo"
       },
       "secondary": {
         "label": "Mobil Kullanılabilirlik ve Rezervasyon Akışı Kontrol Listesini İndir",
         "text": "Ekibinize test senaryosu verirsiniz; mobil QA’yı 14 günlük sprint’e çevirirsiniz.",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "mobil-first teknik SEO",
+        "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Web sitesi geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Otel SEO",
-        "href": "/otel/seo"
+        "label": "Core Web Vitals",
+        "href": "/tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi"
+      },
+      {
+        "label": "mobil görsel performansı",
+        "href": "/tr/seo/blog/gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin"
+      },
+      {
+        "label": "responsive SEO hataları",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "mobil rezervasyon formu",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "mobil erişilebilirlik",
+        "href": "/tr/seo/blog/erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri"
+      },
+      {
+        "label": "otel SEO performansı",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Teknik SEO soruları",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -16349,7 +16709,7 @@
           },
           {
             "type": "p",
-            "text": "Mobil-first index, Google’ın sitenizi tarama ve değerlendirme süreçlerinde mobil versiyonu esas almasıdır. Bu, “mobil sitem var” demekle bitmez: mobilde içerik/link eksikse, Google’ın gördüğü sayfa da eksik olur. Otel sitelerinde bu durum genellikle; mobilde kapatılan metin blokları, gizlenen iç linkler, ağır görsellerin mobilde de aynı şekilde taşınması ve rezervasyon akışındaki UI bileşenlerinin bozulmasıyla ortaya çıkar."
+            "text": "Mobil-first index, Google’ın sitenizi tarama ve değerlendirme süreçlerinde mobil versiyonu esas almasıdır. Bu, “mobil sitem var” demekle bitmez: mobilde içerik/link eksikse, Google’ın gördüğü sayfa da eksik olur. Bu nedenle [SEO hizmetleri](/tr/seo-hizmetleri) içinde mobil teknik uyum, yalnız responsive görünüm değil aynı zamanda içerik ve rezervasyon akışının arama motoruna doğru görünmesi anlamına gelir. Otel sitelerinde bu durum genellikle; mobilde kapatılan metin blokları, gizlenen iç linkler, ağır görsellerin mobilde de aynı şekilde taşınması ve rezervasyon akışındaki UI bileşenlerinin bozulmasıyla ortaya çıkar."
           },
           {
             "type": "h3",
@@ -16357,7 +16717,7 @@
           },
           {
             "type": "p",
-            "text": "Google, sitenizin mobil sürümündeki içerik ve linkleri temel alır. Mobilde gizlenen kritik içerikler, bozuk UX veya yavaş yüklenen sayfalar; hem sıralama sinyallerini hem de kullanıcı davranışını olumsuz etkileyebilir."
+            "text": "Google, sitenizin mobil sürümündeki içerik ve linkleri temel alır. Mobilde gizlenen kritik içerikler, bozuk UX veya yavaş yüklenen sayfalar; hem sıralama sinyallerini hem de [otel SEO performansını](/tr/otel/seo) olumsuz etkileyebilir."
           },
           {
             "type": "h3",
@@ -16392,7 +16752,7 @@
             "variant": "primary",
             "label": "Mobil UX & Teknik SEO Analizi Talep Et",
             "text": "Mobildeki SEO ve rezervasyon akışı problemlerini teşhis edip hızlı düzeltmek isteyen oteller için.",
-            "href": "/seo/teknik-seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       },
@@ -16452,7 +16812,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Responsive hatalar, sadece “görüntü bozuldu” problemi değildir; kullanıcı görevini (rezervasyon) yapamazsa dönüşüm düşer. Google da mobil kullanılabilirlik sorunlarını raporlar. Bu hatalar çoğunlukla breakpoint’lerde taşan öğeler, yanlış viewport ayarı, sabit genişlikli bileşenler ve ağır slider/video kullanımından kaynaklanır."
+            "text": "Responsive hatalar, sadece “görüntü bozuldu” problemi değildir; kullanıcı görevini (rezervasyon) yapamazsa dönüşüm düşer. Google da mobil kullanılabilirlik sorunlarını raporlar. Bu hatalar çoğunlukla breakpoint’lerde taşan öğeler, yanlış viewport ayarı, sabit genişlikli bileşenler ve ağır slider/video kullanımından kaynaklanır. Bu tür [responsive SEO hataları](/tr/yazilim/web-sitesi-gelistirme) geliştirme tarafında breakpoint, layout ve bileşen davranışı üzerinden çözülmelidir."
           },
           {
             "type": "h3",
@@ -16561,7 +16921,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Mobilde kullanıcı “tıklamak” ister; tıklayamazsa çıkar. Dokunmatik alanlar küçükse, fontlar okunmuyorsa veya sayfa kayıyorsa (CLS), kullanıcı deneyimi düşer. Otel sitelerinde bu problem özellikle tarih seçici, kişi sayısı seçimi, oda kartları ve “teklif al” formlarında görünür. Burada teknik SEO ile UX birleşir: CWV ve mobil kullanılabilirlik birlikte iyileştirilir."
+            "text": "Mobilde kullanıcı “tıklamak” ister; tıklayamazsa çıkar. Dokunmatik alanlar küçükse, fontlar okunmuyorsa veya sayfa kayıyorsa (CLS), kullanıcı deneyimi düşer. Otel sitelerinde bu problem özellikle tarih seçici, kişi sayısı seçimi, oda kartları ve “teklif al” formlarında görünür. Burada [Core Web Vitals](/tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi), [mobil görsel performansı](/tr/seo/blog/gorsel-optimizasyonu-webp-ve-cdn-otel-siteleri-icin) ve [mobil erişilebilirlik](/tr/seo/blog/erisilebilirlik-semantic-html-ve-teknik-seo-otel-siteleri) birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -16616,7 +16976,7 @@
           },
           {
             "type": "p",
-            "text": "Gerçek cihazlarda (iOS/Android) en az 3 senaryo çalıştırın: tarih seçimi, kişi sayısı/oda seçimi ve ödeme/ön onay adımı. Her adımda form alanları, hata mesajları, performans (yükleme/tepki) ve 3. parti script çakışmalarını kontrol edin; ardından Lighthouse ve Search Console mobil kullanılabilirlik raporlarıyla doğrulayın."
+            "text": "Gerçek cihazlarda (iOS/Android) en az 3 senaryo çalıştırın: tarih seçimi, kişi sayısı/oda seçimi ve ödeme/ön onay adımı. Her adımda [mobil rezervasyon formu](/tr/creative/ui-ux-tasarim) alanları, hata mesajları, performans (yükleme/tepki) ve 3. parti script çakışmalarını kontrol edin; ardından Lighthouse ve Search Console mobil kullanılabilirlik raporlarıyla doğrulayın."
           },
           {
             "type": "h3",
@@ -16741,7 +17101,7 @@
             "variant": "secondary",
             "label": "Mobil Kullanılabilirlik ve Rezervasyon Akışı Kontrol Listesini İndir",
             "text": "Ekibinize test senaryosu verirsiniz; mobil QA’yı 14 günlük sprint’e çevirirsiniz.",
-            "href": "/yazilim/web-sitesi-gelistirme"
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
           }
         ]
       },
@@ -16751,7 +17111,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Mobil-first index döneminde otel sitenizin mobil performansı, hem SEO hem gelir tarafının temel belirleyicilerinden biri. Kritik içerik/link tutarlılığı, responsive kırılımlarda sağlamlık ve mobil rezervasyon akışının gerçek cihazlarda sorunsuz çalışması; “tek seferlik düzeltme” değil, süreçtir. Bu rehberi bir QA standardına çevirip her release öncesi 30 dakikalık mobil kontrol rutiniyle ilerlerseniz, hem görünürlük hem dönüşüm tarafında istikrarlı iyileşme görürsünüz."
+            "text": "Mobil-first index döneminde otel sitenizin mobil performansı, hem SEO hem gelir tarafının temel belirleyicilerinden biri. Kritik içerik/link tutarlılığı, responsive kırılımlarda sağlamlık ve mobil rezervasyon akışının gerçek cihazlarda sorunsuz çalışması; “tek seferlik düzeltme” değil, süreçtir. Bu rehberi bir QA standardına çevirip her release öncesi 30 dakikalık mobil kontrol rutiniyle ilerlerseniz, hem görünürlük hem dönüşüm tarafında istikrarlı iyileşme görürsünüz. Bunu operasyonel hale getirmek için [mobil-first teknik SEO kontrolü](/tr/seo/teknik-seo) tarafını değerlendirebilir, karar aşamasında [Teknik SEO soruları](/tr/seo/teknik-seo-sss) sayfasından ek çerçeve alabilirsiniz."
           },
           {
             "type": "media",
@@ -16766,7 +17126,7 @@
             "variant": "primary",
             "label": "Mobil UX & Teknik SEO Analizi Talep Et",
             "text": "Mobildeki kullanılabilirlik ve rezervasyon akışı sorunlarını hızlıca teşhis edip çözmek isteyen oteller için.",
-            "href": "/otel/seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       },
@@ -16920,7 +17280,7 @@
     },
     "h1": {
       "title": "Yapılandırılmış Veri (Schema) Otel ve Hizmet Sitelerinde Nasıl Kullanılmalı?",
-      "intro": "Schema, Google’a “bu sayfa bir otel mi, hizmet mi, SSS mi?” sorusunun cevabını teknik olarak netleştiren bir işaretleme sistemidir. Otel sitelerinde adres/telefon/olanaklar gibi bilgiler; hizmet sitelerinde kapsam, teklif alma, çalışma şekli gibi alanlar çoğu zaman metinde dağınık kalır ve arama motoru bunu “entity” olarak güçlü biçimde toparlayamaz. JSON-LD ile doğru schema türlerini doğru sayfalara eklediğinizde; rich result ihtimalini artırır, breadcrumb ile hiyerarşiyi güçlendirir ve SSS bloklarını FAQ schema ile görünür kılabilirsiniz. Bu rehber, otel + hizmet/ajans sitesi kombinasyonunda “hangi schema nerede?” sorusunu uygulamaya dönüştürür.",
+      "intro": "Schema, Google’a “bu sayfa bir otel mi, hizmet mi, SSS mi?” sorusunun cevabını teknik olarak netleştiren bir işaretleme sistemidir. Otel sitelerinde adres/telefon/olanaklar gibi bilgiler; hizmet sitelerinde kapsam, teklif alma, çalışma şekli gibi alanlar çoğu zaman metinde dağınık kalır ve arama motoru bunu “entity” olarak güçlü biçimde toparlayamaz. JSON-LD ile doğru schema türlerini doğru sayfalara eklediğinizde; rich result ihtimalini artırır, breadcrumb ile hiyerarşiyi güçlendirir ve SSS bloklarını FAQ schema ile görünür kılabilirsiniz. Bu rehber, otel + hizmet/ajans sitesi kombinasyonunda [schema ve yapılandırılmış veri](/tr/seo/teknik-seo) kullanımını uygulamaya dönüştürür.",
       "quickSummary": [
         "1) Sayfa türünü doğru sınıflandır: otel, hizmet, blog, SSS",
         "2) Her sayfa için minimum schema setini belirle",
@@ -16931,43 +17291,67 @@
       "ctaPrimary": {
         "label": "Schema & Yapılandırılmış Veri Analizi Talep Et",
         "text": "Otel/hizmet sitenizde hangi schema’ların eksik olduğunu tespit edip doğru JSON-LD kurgusunu kurmak isteyen ekipler için.",
-        "href": "/otel/seo"
+        "href": "/tr/seo/teknik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Schema & Yapılandırılmış Veri Analizi Talep Et",
         "text": "Otel ve hizmet sayfalarınızda schema eksiklerini bulup doğru JSON-LD setini kurmak isteyen ekipler için.",
-        "href": "/otel/seo"
+        "href": "/tr/seo/teknik-seo"
       },
       "secondary": {
         "label": "Otel & Hizmet Sayfaları İçin Schema Alan Şablonunu İndir",
         "text": "Alanları tek tabloda kilitler; her sayfa türü için doğru schema’yı hızlıca doldurursunuz.",
-        "href": "/seo/teknik-seo"
+        "href": "/downloads/otel-hizmet-sayfalari-icin-schema-alan-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO hizmet sayfası",
-        "href": "/seo/teknik-seo"
+        "label": "schema ve yapılandırılmış veri",
+        "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Reklam raporlama sayfası",
-        "href": "/sem/reklam-raporlama"
+        "label": "otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "çok dilli schema uyumu",
+        "href": "/tr/seo/blog/hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi"
+      },
+      {
+        "label": "teknik SEO audit checklist’i",
+        "href": "/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist"
+      },
+      {
+        "label": "SGE ve AI Search",
+        "href": "/tr/seo/blog/sge-ai-search-ve-teknik-seo-otel-sitelerinde"
+      },
+      {
+        "label": "SEO raporlaması",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "reklam raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Teknik SEO soruları",
+        "href": "/tr/seo/teknik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
         "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "title": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       }
     ],
     "sections": [
@@ -16977,7 +17361,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Schema (structured data), sayfadaki bilgileri standart bir sözlükle (schema.org) etiketleyerek arama motorlarının daha doğru anlamlandırmasını sağlar. Bu bir “sihirli sıralama butonu” değil; doğru uygulandığında entity’yi netleştirip rich results için zemin hazırlayan bir teknik katmandır. Otel siteleri için “otel nedir, nerede, hangi olanaklar var?” gibi bilgiler; hizmet siteleri için “hangi hizmeti sunuyorsun, kapsamı ne?” gibi bilgiler schema ile daha net hale gelir."
+            "text": "Schema (structured data), sayfadaki bilgileri standart bir sözlükle (schema.org) etiketleyerek arama motorlarının daha doğru anlamlandırmasını sağlar. Bu bir “sihirli sıralama butonu” değil; doğru uygulandığında entity’yi netleştirip rich results için zemin hazırlayan bir teknik katmandır. Otel siteleri için “otel nedir, nerede, hangi olanaklar var?” gibi bilgiler; hizmet siteleri için “hangi hizmeti sunuyorsun, kapsamı ne?” gibi bilgiler schema ile daha net hale gelir. Bu yüzden [SEO hizmetleri](/tr/seo-hizmetleri) içinde yapılandırılmış veri, arama görünürlüğünü destekleyen ayrı bir teknik katman olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -16985,7 +17369,7 @@
           },
           {
             "type": "p",
-            "text": "Schema, sayfadaki bilgileri yapılandırılmış biçimde işaretleyerek Google’ın içerikleri daha net anlamasına yardımcı olur. Doğru uygulandığında rich result görünürlüğünü artırabilir ve entity bazlı otoriteyi güçlendirebilir."
+            "text": "Schema, sayfadaki bilgileri yapılandırılmış biçimde işaretleyerek Google’ın içerikleri daha net anlamasına yardımcı olur. Doğru uygulandığında rich result görünürlüğünü artırabilir ve entity bazlı otoriteyi güçlendirebilir. Özellikle [SGE ve AI Search](/tr/seo/blog/sge-ai-search-ve-teknik-seo-otel-sitelerinde) döneminde sayfa bağlamını ve entity ilişkilerini daha tutarlı anlatmaya yardımcı olur."
           },
           {
             "type": "h3",
@@ -17023,7 +17407,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel sayfalarında schema’nın temel amacı; otelin entity’sini netleştirmek ve temel bilgileri (adres, telefon, konum, olanaklar) tutarlı biçimde sunmaktır. Özellikle turizmde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda arama yapan kullanıcıların beklentisi nettir: “nerede, nasıl, hangi imkanlar var?” Bu bilgiler sayfada zaten varsa, schema ile işaretlemek anlamlandırmayı güçlendirir."
+            "text": "Otel sayfalarında schema’nın temel amacı; otelin entity’sini netleştirmek ve temel bilgileri (adres, telefon, konum, olanaklar) tutarlı biçimde sunmaktır. Özellikle turizmde Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda arama yapan kullanıcıların beklentisi nettir: “nerede, nasıl, hangi imkanlar var?” Bu bilgiler sayfada zaten varsa, schema ile işaretlemek anlamlandırmayı güçlendirir ve [otel SEO](/tr/otel/seo) tarafında konum ile tesis sinyallerini netleştirir."
           },
           {
             "type": "h3",
@@ -17169,7 +17553,7 @@
           },
           {
             "type": "p",
-            "text": "Genellikle sayfanın <head> veya <body> içinde tek bir JSON-LD script bloğu olarak eklenir. Önemli olan konumdan çok; kodun her sayfada doğru, tutarlı ve test edilebilir şekilde üretilmesidir."
+            "text": "Genellikle sayfanın <head> veya <body> içinde tek bir JSON-LD script bloğu olarak eklenir. Önemli olan konumdan çok; kodun her sayfada doğru, tutarlı ve test edilebilir şekilde üretilmesidir. TR, EN, DE ve RU gibi sürümlerde [çok dilli schema uyumu](/tr/seo/blog/hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi) kurulmadan entity bilgisi her dilde tutarlı kalmaz."
           },
           {
             "type": "h3",
@@ -17218,7 +17602,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Schema uygulaması “ekledim bitti” değildir. Rich result kriterleri ve policy’ler zamanla değişebilir; ayrıca küçük bir hata (yanlış tip, eksik alan, duplicate) rich result’ı engelleyebilir. Bu yüzden test rutini şarttır: örnek sayfaları seçip düzenli kontrol etmek, hataları backlog’a bağlamak gerekir."
+            "text": "Schema uygulaması “ekledim bitti” değildir. Rich result kriterleri ve policy’ler zamanla değişebilir; ayrıca küçük bir hata (yanlış tip, eksik alan, duplicate) rich result’ı engelleyebilir. Bu yüzden [teknik SEO audit checklist’i](/tr/seo/blog/otel-siteleri-icin-teknik-seo-auditi-adim-adim-checklist) ile düzenli kontrol yapmak ve hataları backlog’a bağlamak gerekir."
           },
           {
             "type": "h3",
@@ -17235,7 +17619,7 @@
           },
           {
             "type": "p",
-            "text": "“Yapılandırılmış veri, özellikle marka, otel ve hizmet entity’sini Google nezdinde netleştiren kritik bir teknik SEO sinyalidir.” (Veri noktası içerikte işlendi; iddia “kritik sinyal” düzeyinde, nicel oran verilmedi.)"
+            "text": "Yapılandırılmış veri, marka, otel ve hizmet entity’sini Google nezdinde netleştiren kritik bir teknik SEO sinyalidir. Bu nedenle Search Console kaynaklı hataları [SEO raporlaması](/tr/seo/seo-raporlama) içinde izlemek, CTR ve görünürlük etkisini ise [reklam raporlama](/tr/sem/reklam-raporlama) tarafında düzenli okumak gerekir."
           },
           {
             "type": "h3",
@@ -17378,14 +17762,14 @@
           },
           {
             "type": "p",
-            "text": "Schema, otel ve hizmet sitelerinde Google’a “ne sunuyorum?” sorusunun teknik cevabını verir. Hotel/LodgingBusiness ile otel entity’sini, Service ile hizmet kapsamını, FAQ ve breadcrumb ile hiyerarşi ve soruları netleştirdiğinizde; rich result ihtimali ve entity netliği artar. Ancak sürdürülebilir başarı için iki kuralı kilitleyin: görünen içerik dışında işaretleme yapma ve test/doğrulamayı rutinleştir."
+            "text": "Schema, otel ve hizmet sitelerinde Google’a “ne sunuyorum?” sorusunun teknik cevabını verir. Hotel/LodgingBusiness ile otel entity’sini, Service ile hizmet kapsamını, FAQ ve breadcrumb ile hiyerarşi ve soruları netleştirdiğinizde; rich result ihtimali ve entity netliği artar. Ancak sürdürülebilir başarı için iki kuralı kilitleyin: görünen içerik dışında işaretleme yapma ve test/doğrulamayı rutinleştir. Bunu kurumsal ölçekte standardize etmek istiyorsanız [teknik SEO ve schema kontrolü](/tr/seo/teknik-seo) tarafını değerlendirebilir, detaylı yanıtlar için [Teknik SEO hakkında sık sorulan sorular](/tr/seo/teknik-seo-sss) bölümüne geçebilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Schema & Yapılandırılmış Veri Analizi Talep Et",
             "text": "Hangi schema türlerinin eksik olduğunu bulup doğru JSON-LD setini kurmak isteyen ekipler için.",
-            "href": "/otel/seo"
+            "href": "/tr/seo/teknik-seo"
           }
         ]
       }
@@ -26491,7 +26875,7 @@
             "variant": "secondary",
             "label": "Headless Projeler İçin Teknik SEO Ön Hazırlık Şablonunu İndir",
             "text": "Mimari kararı öncesi gereksinimleri netleştirir; ekipleri aynı checklist’te hizalarsınız.",
-            "href": "/yazilim/web-sitesi-gelistirme"
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
           }
         ]
       },

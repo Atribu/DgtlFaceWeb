@@ -41,6 +41,13 @@ function decodeHtmlEntitiesInTextNodes(html) {
     .join("");
 }
 
+function convertMarkdownLinksToHtml(text) {
+  return String(text).replace(
+    /\[([^\]]+)\]\(([^)\s]+)\)/g,
+    '<a href="$2">$1</a>'
+  );
+}
+
 export default function PlainRichText({
   html,
   as: Tag = "p",
@@ -51,7 +58,7 @@ export default function PlainRichText({
   if (!html) return null;
 
   const normalizedHtml = normalizeHtmlLinks(
-    decodeHtmlEntitiesInTextNodes(html),
+    convertMarkdownLinksToHtml(decodeHtmlEntitiesInTextNodes(html)),
     locale
   );
 

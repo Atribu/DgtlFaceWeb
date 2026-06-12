@@ -41,6 +41,13 @@ function decodeHtmlEntitiesInTextNodes(html) {
     .join("");
 }
 
+function convertMarkdownLinksToHtml(text) {
+  return String(text).replace(
+    /\[([^\]]+)\]\(([^)\s]+)\)/g,
+    '<a href="$2">$1</a>'
+  );
+}
+
 function isSpecialHref(rawHref) {
   return /^(#|mailto:|tel:|javascript:|https?:\/\/)/i.test(rawHref);
 }
@@ -59,8 +66,9 @@ function renderInlineRichText(text, locale) {
     /<br\s*\/?>/gi,
     "<br></br>"
   );
+  const normalizedText = convertMarkdownLinksToHtml(preparedText);
 
-  if (!preparedText.includes("<")) return preparedText;
+  if (!normalizedText.includes("<")) return normalizedText;
 
   const tagRegex = /<(a|b|strong|br)(\s+[^>]*)?>(.*?)<\/\1>/gis;
   const out = [];
@@ -68,12 +76,12 @@ function renderInlineRichText(text, locale) {
   let match;
   let key = 0;
 
-  while ((match = tagRegex.exec(preparedText)) !== null) {
+  while ((match = tagRegex.exec(normalizedText)) !== null) {
     const [full, tag, attrString = "", inner = ""] = match;
     const start = match.index;
 
     if (start > lastIndex) {
-      out.push(preparedText.slice(lastIndex, start));
+      out.push(normalizedText.slice(lastIndex, start));
     }
 
     const children = renderInlineRichText(inner, locale);
@@ -118,8 +126,8 @@ function renderInlineRichText(text, locale) {
     lastIndex = start + full.length;
   }
 
-  if (lastIndex < preparedText.length) {
-    out.push(preparedText.slice(lastIndex));
+  if (lastIndex < normalizedText.length) {
+    out.push(normalizedText.slice(lastIndex));
   }
 
   return out;
