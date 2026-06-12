@@ -41686,6 +41686,208 @@ export const BLOG_MEDIA_MAP = {
       alt: "Webinar kaydından çıkan reels setlerini gösteren proof kartı",
       caption: "Webinar kaydından çıkan reels setlerini gösteren proof kartı"
     }
+  },
+
+  "reels-algoritma-degisiklikleri-ve-strateji-guncelleme":{
+    banner: {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-1.webp",
+      alt: "Reels Algoritma Değişiklikleri ve Strateji Güncelleme Rehberi",
+      caption: "Reels Algoritma Değişiklikleri ve Strateji Güncelleme Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-2.webp",
+      alt: "Sinyal-temelli optimizasyon ve test döngüsünü anlatan bağlam görseli",
+      caption: "Sinyal-temelli optimizasyon ve test döngüsünü anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-3.webp",
+    alt: "Resmî bilgi ile şehir efsanelerini ayıran bölüm görseli",
+      caption: "Resmî bilgi ile şehir efsanelerini ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-4.webp",
+      alt: "Test ve uzun dönem trend okumayı özetleyen bölüm görseli",
+      caption: "Test ve uzun dönem trend okumayı özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-5.webp",
+      alt: "Reels dağıtım ve strateji güncelleme akış diyagramı",
+      caption: "Reels dağıtım ve strateji güncelleme akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-6.webp",
+      alt: "Algoritma haberi geldiğinde yapılacaklar checklist kartı",
+      caption: "Algoritma haberi geldiğinde yapılacaklar checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-7.webp",
+      alt: "Retention, kaydetme, paylaşma ve tıklama sinyallerini özetleyen KPI kartı",
+      caption: "Retention, kaydetme, paylaşma ve tıklama sinyallerini özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-16/SMM3-16-8.webp",
+      alt: "Trend okuma, test planı ve aksiyon çıktıları proof kartı",
+      caption: "Trend okuma, test planı ve aksiyon çıktıları proof kartı"
+    }
+  },
+
+  "canli-yayin-ve-etkinliklerden-reels-uretmek-live-to-short-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-1.webp",
+      alt: "Canlı Yayın ve Etkinliklerden Reels Üretmek: Live-to-Short Stratejisi",
+      caption: "Canlı Yayın ve Etkinliklerden Reels Üretmek: Live-to-Short Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-2.webp",
+      alt: "Teaser–highlight–recap akışını özetleyen bağlam görseli",
+      caption: "Teaser–highlight–recap akışını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-3.webp",
+    alt: "Live-to-short faydalarını özetleyen bölüm görseli",
+      caption: "Live-to-short faydalarını özetleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-4.webp",
+      alt: "Etkinlik öncesi/sırası/sonrası akışını ayıran bölüm görseli",
+      caption: "Etkinlik öncesi/sırası/sonrası akışını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-5.webp",
+      alt: "Planla→yakala→seç→kes→yayınla akış diyagramı",
+      caption: "Planla→yakala→seç→kes→yayınla akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-6.webp",
+      alt: "Etkinlik video checklist kartı",
+      caption: "Etkinlik video checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-7.webp",
+      alt: "Live-to-short KPI skor kartı",
+      caption: "Live-to-short KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-17/SMM3-17-8.webp",
+      alt: "Etkinlikten çıkan reels setleri proof kartı",
+      caption: "Etkinlikten çıkan reels setleri proof kartı"
+    }
+  },
+
+
+  "reels-icin-guvenlik-kvkk-ve-etik-rehberi-yuzler-cocuklar-ve-mekan-izinleri":{
+    banner: {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-1.webp",
+      alt: "Reels İçin Güvenlik, KVKK ve Etik Rehberi: Yüzler, Çocuklar ve Mekân İzinleri",
+      caption: "Reels İçin Güvenlik, KVKK ve Etik Rehberi: Yüzler, Çocuklar ve Mekân İzinleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-2.webp",
+      alt: "Yüz, çocuk ve mekân izinlerini sınıflandıran bağlam görseli",
+      caption: "Yüz, çocuk ve mekân izinlerini sınıflandıran bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-3.webp",
+    alt: "KVKK neden kritik sorusunu özetleyen bölüm ayırıcı",
+      caption: "KVKK neden kritik sorusunu özetleyen bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-4.webp",
+      alt: "Yüz/çocuk tanınabilirliği ve kadraj risklerini anlatan bölüm ayırıcı",
+      caption: "Yüz/çocuk tanınabilirliği ve kadraj risklerini anlatan bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-5.webp",
+      alt: "Çekim öncesi KVKK risk kontrol akış diyagramı",
+      caption: "Çekim öncesi KVKK risk kontrol akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-6.webp",
+      alt: "Reels çekim öncesi KVKK checklist kartı",
+      caption: "Reels çekim öncesi KVKK checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-7.webp",
+      alt: "Şikâyet/içerik kaldırma riski ve süreç KPI’larını gösteren skor kartı",
+      caption: "Şikâyet/içerik kaldırma riski ve süreç KPI’larını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-18/SMM3-18-8.webp",
+      alt: "Güvenli vs riskli reels karelerini karşılaştıran proof kartı",
+      caption: "Güvenli vs riskli reels karelerini karşılaştıran proof kartı"
+    }
+  },
+
+
+  "markali-efekt-filtre-ve-ar-artirma-reels-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-1.webp",
+      alt: "Markalı Efekt, Filtre ve AR Kullanarak Reels Stratejisini Güçlendirmek",
+      caption: "Markalı Efekt, Filtre ve AR Kullanarak Reels Stratejisini Güçlendirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-2.webp",
+      alt: "AR filtre kullanım akışını ve CTA köprüsünü anlatan bağlam görseli",
+      caption: "AR filtre kullanım akışını ve CTA köprüsünü anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-3.webp",
+    alt: "AR filtrelerin reels’e katkısını özetleyen bölüm ayırıcı",
+      caption: "AR filtrelerin reels’e katkısını özetleyen bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-4.webp",
+      alt: "Tasarım/performans ve spam algısı risklerini özetleyen bölüm ayırıcı",
+      caption: "Tasarım/performans ve spam algısı risklerini özetleyen bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-5.webp",
+      alt: "AR ile tetiklenen UGC akışını gösteren diyagram",
+      caption: "AR ile tetiklenen UGC akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-6.webp",
+      alt: "Filtre tasarım checklist’i kartı",
+      caption: "Filtre tasarım checklist’i kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-7.webp",
+      alt: "Kullanım/UGC/tıklama KPI skor kartı",
+      caption: "Kullanım/UGC/tıklama KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-19/SMM3-19-8.webp",
+      alt: "Markalı AR filtre mockup’ı ve UGC çıktıları proof kartı",
+      caption: "Markalı AR filtre mockup’ı ve UGC çıktıları proof kartı"
+    }
   }
 
 

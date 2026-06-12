@@ -365,7 +365,11 @@ export const BLOG_MAP = {
      "destinasyon-ve-deneyim-reels-hikaye-anlatimi":"BlogDestinasyonVeDeneyimReelsHikayeAnlatimi",
      "b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak":"BlogB2BReelsKompleksHizmetleri30SaniyedeAnlatmak",
      "reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak":"BlogReelsIcerikSerileriVeEpisodikFormatlarlaMarkayiKonumlamak",
-     "uzun-form-videolardan-reels-uretmek-webinar-ve-youtube-split-stratejisi":"BlogUzunFormVideolardanReelsUretmekWebinarVeYoutubeSplitStratejisi"
+     "uzun-form-videolardan-reels-uretmek-webinar-ve-youtube-split-stratejisi":"BlogUzunFormVideolardanReelsUretmekWebinarVeYoutubeSplitStratejisi",
+     "reels-algoritma-degisiklikleri-ve-strateji-guncelleme":"BlogReelsAlgoritmaDegisiklikleriVeStratejiGuncelleme",
+     "canli-yayin-ve-etkinliklerden-reels-uretmek-live-to-short-stratejisi":"BlogCanliYayinVeEtkinliklerdenReelsUretmekLiveToShortStratejisi",
+     "reels-icin-guvenlik-kvkk-ve-etik-rehberi-yuzler-cocuklar-ve-mekan-izinleri":"BlogReelsIcinGuvenlikKvkkVeEtikRehberiYuzlerCocuklarVeMekanIzinleri",
+     "markali-efekt-filtre-ve-ar-artirma-reels-stratejisi":"BlogMarkaliEfektFiltreVeArArtirmaReelsStratejisi"
   },
 
     yazilim: {
