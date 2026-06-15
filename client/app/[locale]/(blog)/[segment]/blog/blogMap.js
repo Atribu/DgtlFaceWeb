@@ -369,7 +369,11 @@ export const BLOG_MAP = {
      "reels-algoritma-degisiklikleri-ve-strateji-guncelleme":"BlogReelsAlgoritmaDegisiklikleriVeStratejiGuncelleme",
      "canli-yayin-ve-etkinliklerden-reels-uretmek-live-to-short-stratejisi":"BlogCanliYayinVeEtkinliklerdenReelsUretmekLiveToShortStratejisi",
      "reels-icin-guvenlik-kvkk-ve-etik-rehberi-yuzler-cocuklar-ve-mekan-izinleri":"BlogReelsIcinGuvenlikKvkkVeEtikRehberiYuzlerCocuklarVeMekanIzinleri",
-     "markali-efekt-filtre-ve-ar-artirma-reels-stratejisi":"BlogMarkaliEfektFiltreVeArArtirmaReelsStratejisi"
+     "markali-efekt-filtre-ve-ar-artirma-reels-stratejisi":"BlogMarkaliEfektFiltreVeArArtirmaReelsStratejisi",
+     "reels-uretim-ekibi-rol-ve-surec-tasarimi":"BlogReelsUretimEkibiRolVeSurecTasarimi",
+     "ai-destekli-reels-kurgu-ve-otomatik-edit-araclari":"BlogAiDestekliReelsKurguVeOtomatikEditAraclari",
+     "reels-icin-social-seo-ve-video-arama-tetikleyicileri":"BlogReelsIcinSocialSeoVeVideoAramaTetikleyicileri",
+     "asmr-pov-ve-sinematik-reels-yeni-video-trendleri":"BlogAsmrPovVeSinematikReelsYeniVideoTrendleri" 
   },
 
     yazilim: {

@@ -51420,7 +51420,7 @@
       },
       {
         "id": "markali-ar-filtreler-reels-stratejisine-nasil-katki-saglar",
-        "title": "Markalı AR Filtreler Reels Stratejisine Nasıl Katkı Sağlar? (AEO Soru Başlığı)",
+        "title": "Markalı AR Filtreler Reels Stratejisine Nasıl Katkı Sağlar? ",
         "blocks": [
           {
             "type": "p",
@@ -51714,7 +51714,7 @@
       },
       {
         "id": "filtre-ve-efekt-tasarlarken-nelere-dikkat-etmeliyim",
-        "title": "Filtre ve Efekt Tasarlarken Nelere Dikkat Etmeliyim? (AEO Soru Başlığı)",
+        "title": "Filtre ve Efekt Tasarlarken Nelere Dikkat Etmeliyim? ",
         "blocks": [
           {
             "type": "p",
@@ -51951,6 +51951,2814 @@
           "Refresh Cycle: 180 gün — platform araçları, politika güncellemeleri ve kullanıcı alışkanlıkları kontrol edilecek",
           "Media slot adları frontend bileşenleriyle uyumlu tutuldu",
           "Risk notları: ağır filtre düşük kullanım, spam algısı, platform politika/performans kısıtları, UGC izin/KVKK kontrolü"
+        ]
+      }
+    }
+  },
+
+  "BlogReelsUretimEkibiRolVeSurecTasarimi": {
+    "title": "Reels Üretim Ekibi: Rol ve Süreç Tasarımı",
+    "slug": "reels-uretim-ekibi-rol-ve-surec-tasarimi",
+    "department": "smm",
+    "subDepartment":"reels",
+    "updatedAt": "15 Haziran 2026",
+    "publishedAt": "2026-06-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Reels üretiminde rol karmaşasını bitirin: strateji, kreatif, çekim, montaj, yayın ve raporlama sorumluluklarını ayırın. Brief’ten yayına workflow kurun.",
+    "seo": {
+      "metaTitle": "Reels Üretim Ekibi: Rol ve Süreç Tasarımı (Ajans + İç Ekip) | DGTLFACE",
+      "metaDescription": "Reels üretiminde rol karmaşasını bitirin: strateji–kreatif–çekim–montaj–yayın–raporlama sorumluluklarını ayırın. Brief→onay→yayın akışını Trello/Asana ile standardize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: Reels & Video İçerik Üretimi — https://dgtlface.com/tr/smm/reels-video",
+        "Blog No + Blog URL: Blog #20 — https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Canonical: /tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi"
+      ],
+      "strategySummary": "Bu blog, kurumsal reels üretiminde en sık görülen “herkes her şeyi yapıyor” kaosunu çözmek için rol netliği + süreç tasarımı yaklaşımı getirir. Hedef persona; otel grupları, B2B içerik ekipleri ve ajans yöneticileridir; çünkü düzenli üretim, yetenekten çok process-first production ile sürdürülebilir hale gelir. Funnel açısından MoFu’da operasyonel olgunluk ve kalite standardı sağlar; BoFu’da hız, revizyon azaltma ve raporlama döngüsüyle performansı iyileştirir. Ana iş sorusu: “Reels üretiminde kim ne yapmalı; brief’ten yayına kadar süreci nasıl görünür ve tekrar edilebilir hale getiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-15",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Düzenli reels üretimi, “herkes her şeyi yapsın” modeliyle sürdürülemez. Strateji, kreatif fikir, çekim, montaj, yayın ve raporlama adımlarının sahipleri netleştiğinde kalite ve hız artar; revizyon ve son dakika krizleri azalır. En iyi pratik; rol–görev matrisiyle RACI (sorumlu/onaylayıcı) belirlemek, brief→çekim→montaj→onay→yayın→rapor akışını tek bir task sisteminde yönetmek ve haftalık üretim ritmini sabitlemektir.",
+      "sgeSummary": "Reels üretimini process-first kur: rol netliği (strateji/kreatif/çekim/montaj/yayın/rapor) + RACI matrisi + task tool. Brief→onay→yayın akışı ve haftalık ritimle krizleri azalt.",
+      "voiceAnswer": "Kim ne yapacak netleşsin: rol matrisi kur, brief→çekim→montaj→onay→yayın döngüsünü tek sistemde yönet.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajanslar, otel grupları, B2B içerik ekipleri",
+        "Entity seti: Production Team, Roles & Workflow, In-House vs Agency, Task Management",
+        "AIO modeli: “reels üretim workflow modeli” = rol netliği + RACI + task board + QA + rapor",
+        "KPI: yayın istikrarı, revizyon sayısı, teslim süresi, performans öğrenimleri",
+        "Operasyon: 1–2 kişilik minimal model → büyüyen ekip → hibrit ajans modeli",
+        "Araç: Trello/Asana/Notion; deadline/sorumlu/durum/not alanları zorunlu",
+        "Çıktı: süreç diyagramı + rol matrisi + haftalık üretim ritmi checklist"
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Medya Reels Üretim Ekibi: Rol, Görev ve Süreç Tasarımı",
+      "intro": "Reels üretimi düzenli hale geldiğinde ilk kırılan şey kreatif değil, operasyondur: “kim brief yazacak?”, “kim onaylayacak?”, “kim yayınlayacak?”, “raporu kim çıkaracak?” soruları net değilse aynı iş iki kere yapılır, revizyonlar uzar, yayınlar aksar. Özellikle otel grupları ve B2B markalarda çok paydaşlı yapı (pazarlama, satış, operasyon, İK, ajans) bu kaosu artırır. Bu rehber, rol netliği (strateji–kreatif–çekim–montaj–yayın–rapor) ve task yönetimiyle brief’ten yayına kadar tekrar edilebilir bir reels üretim sistemi kurmanıza yardım eder.",
+      "quickSummary": [
+        "1) Reels üretimini “video” değil mini ürün gibi düşün",
+        "2) Strateji, kreatif, çekim, montaj, yayın ve rapor rollerini ayır",
+        "3) RACI ile işi yapan ve onaylayan kişiyi netleştir",
+        "4) Brief→çekim→montaj→onay→yayın→rapor akışını tek board’da yönet",
+        "5) Haftalık üretim ritmiyle revizyon ve krizleri azalt"
+      ],
+      "ctaPrimary": {
+        "label": "Reels Üretim Süreci & Rol Dağılımı Analizi Talep Et",
+        "text": "Ekibinize ve ajans yapınıza göre rol matrisi + akış diyagramı + haftalık ritim planını birlikte kuralım.",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Reels Üretim Süreci & Rol Dağılımı Analizi Talep Et",
+        "text": "Ekibinizin kapasitesine göre rol netliği, workflow ve onay süreçlerini kurarak yayın istikrarını artırır, revizyon krizlerini azaltırız.",
+        "href": "/smm/reels-video"
+      },
+      "secondary": {
+        "label": "Reels Üretim Workflow & Rol Matrisi Şablonunu İndir",
+        "text": "Rol–görev matrisi ve brief→yayın task akışını hazır şablonla kurar; Trello/Asana/Notion’da tekrar edilebilir bir üretim sistemi oluşturursunuz.",
+        "href": "/downloads/reels-uretim-workflow-rol-matrisi-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "label": "SMM Planlama ve Strateji",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "title": "SMM Planlama ve Strateji",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "reels-uretiminde-hangi-roller-var",
+        "title": "Reels Üretiminde Hangi Roller Var? (Stratejist, Yaratıcı, Çekim, Montaj, Yayın, Raporlama)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Reels üretimini “video” olarak düşünmek yerine “mini ürün” gibi düşünün: fikir, üretim, kalite kontrol, dağıtım ve öğrenim döngüsü var. Rol sayısı ekip büyüklüğüne göre değişir; ama sorumluluklar değişmez."
+          },
+          {
+            "type": "h3",
+            "text": "6 temel rol (çekirdek)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Stratejist (Owner): hedef, format, seri planı, KPI",
+              "Yaratıcı (Creative): hook, script, storyboard, metin dili",
+              "Çekim (Production): sahne planı, ışık/kadraj, ham çekim",
+              "Montaj (Edit): tempo/cut, altyazı, on-screen text, export",
+              "Yayın (Publisher): caption/hashtag, zamanlama, community/DM",
+              "Raporlama (Analyst): metrik okuma, öğrenim, test önerileri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Küçük ekiplerde aynı kişi birden fazla rolü üstlenebilir; ama “rol şapkaları” yine de ayrı yazılmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Bu 6 rolün her biri için “sahip” belli mi?",
+              "Aynı iş iki kişide mi (çakışma)?",
+              "Yayın ve raporlama “sonradan” mı kalıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "6 rolü yaz ve her role bir isim ata (kişi aynı olabilir).",
+              "“Onaylayan” kişiyi tekleştir (onay kaosunu azaltır).",
+              "Raporlamayı üretimin parçası yap; haftalık rutine bağla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kucuk-ve-buyuk-ekip-modelleri",
+        "title": "Küçük ve Büyük Ekip Modelleri (1–2 Kişilikten Çoklu Ekibe)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her ekip aynı kaynakla başlamaz. Bu yüzden “ideal ekip” yerine “çalışan model” gerekir. İki uç arasında ilerleyin:"
+          },
+          {
+            "type": "h3",
+            "text": "Model-1: 1 kişilik minimal ekip (solo)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Strateji + kreatif + yayın aynı kişide",
+              "Çekim/montaj basitleştirilir (template + batching)",
+              "Raporlama haftada 30 dakika"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Risk: tükenmişlik ve kalite dalgalanması"
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: seri şablonları ve B-roll kütüphanesi"
+          },
+          {
+            "type": "h3",
+            "text": "Model-2: 2 kişilik ekip (en verimli minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kişi A: strateji + kreatif + yayın",
+              "Kişi B: çekim + montaj",
+              "Raporlama ortak review"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Model-3: 4–6 kişilik ekip (ölçekli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Stratejist + creative + shooter + editor + publisher + analyst",
+              "RACI netleşir; throughput artar"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Ekip kapasitem “kaç reels/hafta” kaldırıyor?",
+              "Darboğaz neresi (çekim mi, montaj mı, onay mı)?",
+              "1 kişiye aşırı yük biniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce darboğazı çöz: genelde montaj veya onay.",
+              "2 kişilik minimum modelle standardı oturt; sonra ölçekle.",
+              "Üretimi batching ile planla; sahaya yüklenme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajans-ic-ekip-hibrit-yapilar",
+        "title": "Ajans–İç Ekip Hibrit Yapılar (Kim Ne Sahiplenir?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel gruplarında ve B2B’de hibrit model çok yaygındır: iç ekip marka/operasyon bilgisini taşır; ajans üretim kapasitesi sağlar. Hibritte sorun, “sorumluluk gri alanları”dır."
+          },
+          {
+            "type": "h3",
+            "text": "Hibritte 3 net sınır"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İç ekip: marka tonu, onay, operasyon gerçekliği, kriz yönetimi",
+              "Ajans: kreatif üretim kapasitesi, montaj standardı, yayın/optimizasyon desteği",
+              "Ortak: strateji ve KPI review"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "RACI mantığı ile rol netliği"
+          },
+          {
+            "type": "p",
+            "text": "RACI pratikleri:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "R (Responsible): işi yapan",
+              "A (Accountable): tek onay sahibi",
+              "C (Consulted): görüşü alınan",
+              "I (Informed): bilgilendirilen"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Ajans ve iç ekip birlikte çalışırken süreç nasıl tasarlanmalı?",
+            "text": "Cevap: Rol matrisi ve tek onay sahibiyle (A) ilerleyin. Ajans üretimden sorumlu (R) olurken, iç ekip marka/onay ve operasyon gerçekliğinden sorumlu (A) olmalı; haftalık KPI review ortak yürütülmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Tek “Accountable” (onay sahibi) var mı?",
+              "Ajansın teslim formatı ve deadline standardı yazılı mı?",
+              "İç ekip “sürekli mikro müdahale” ile üretimi yavaşlatıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ajans brief şablonunu tek sayfaya indir; onay süresini yaz.",
+              "İç ekipte “tek onay” kuralı koy.",
+              "Haftalık 20 dakikalık KPI review ile öğrenimi ortaklaştır."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "brief-ten-yayina-surec-akisi",
+        "title": "Brief’ten Yayına Kadar Süreç Akışı (Workflow)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Süreç, ekibin “hafızası”dır. Süreç yoksa her video sıfırdan başlar ve revizyonlar bitmez. En pratik workflow:"
+          },
+          {
+            "type": "h3",
+            "text": "Workflow: Brief → Çekim → Montaj → Onay → Yayın → Rapor"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Brief: hedef, format, mesaj, CTA, referans",
+              "Çekim: shotlist, lokasyon, B-roll",
+              "Montaj: cut/tempo, altyazı, metin hiyerarşisi",
+              "Onay: tek onay sahibi, 1–2 revizyon turu",
+              "Yayın: caption, tag, community planı",
+              "Rapor: sinyal okuma, öğrenim, test önerisi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Onay kaosunu önleyen 3 kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek onay sahibi",
+              "Revizyon turu limiti (max 2)",
+              "Revizyon penceresi (ör. 24–48 saat)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Workflow tek sayfada yazılı mı?",
+              "Revizyon turu ve süresi net mi?",
+              "Yayın sonrası rapor “zorunlu adım” mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Workflow’u bir board’a dönüştür (kolonlar).",
+              "Revizyon limitini yazılı hale getir.",
+              "Raporlamayı “yayın” ile birlikte otomatik göreve bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "task-yonetimi-trello-asana-notion",
+        "title": "Task Yönetimi (Trello/Asana/Notion) — Liste Değil Sistem",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Task araçları sadece “liste” olarak kullanılırsa işe yaramaz. Sistem olması için kartlarda dört alan zorunlu olmalı: deadline, sorumlu, durum, not. Ayrıca her kartın “brief” linki ve asset linki olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Board yapısı (öneri kolonlar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Backlog (fikir havuzu)",
+              "Brief hazır",
+              "Çekimde",
+              "Montajda",
+              "Onayda",
+              "Yayında",
+              "Raporlandı / Öğrenimler"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kart şablonu (minimum alanlar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlık: Seri adı + Ep + konu",
+              "Sorumlu: R",
+              "Onay sahibi: A",
+              "Deadline: tarih/saat",
+              "Asset link: drive/klasör",
+              "Not: hook, CTA, risk notu (KVKK/telif)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Board kolonları workflow’a uyuyor mu?",
+              "Her kartta deadline ve owner var mı?",
+              "Asset linkleri ve onay notu tek yerde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kart şablonunu kilitle; herkes aynı formatla açsın.",
+              "Haftalık planning toplantısında backlog’dan 5–10 kart seç.",
+              "“Onayda” kolonunda maksimum bekleme süresi belirle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-organizasyon",
+        "title": "Otel ve B2B İçin Örnek Organizasyon (Rol Matrisleri)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel grubu (hibrit örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İç ekip: strateji + onay + operasyon doğrulama",
+              "Ajans: kreatif + çekim + montaj + yayın optimizasyonu",
+              "Ortak: KPI review + seri planı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B teknoloji (in-house ağırlıklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "In-house: strateji + kreatif + product knowledge + proof",
+              "Dış kaynak: montaj/animasyon (gerektikçe)",
+              "Ortak: lead/CRM sinyalleri review"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rol ve görev dağılım matrisi (RACI)",
+            "headers": [
+              "Rol",
+              "Sorumluluk",
+              "R (Yapan)",
+              "A (Onay)",
+              "C (Danış)",
+              "I (Bilgi)"
+            ],
+            "rows": [
+              [
+                "Stratejist",
+                "KPI, seri planı, hedef",
+                "_____",
+                "_____",
+                "_____",
+                "_____"
+              ],
+              [
+                "Kreatif",
+                "hook/script/storyboard",
+                "_____",
+                "_____",
+                "_____",
+                "_____"
+              ],
+              [
+                "Çekim",
+                "çekim planı, sahne",
+                "_____",
+                "_____",
+                "_____",
+                "_____"
+              ],
+              [
+                "Montaj",
+                "cut, altyazı, export",
+                "_____",
+                "_____",
+                "_____",
+                "_____"
+              ],
+              [
+                "Yayın",
+                "caption, scheduling",
+                "_____",
+                "_____",
+                "_____",
+                "_____"
+              ],
+              [
+                "Rapor",
+                "metrik okuma, öğrenim",
+                "_____",
+                "_____",
+                "_____",
+                "_____"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "RACI tablosu var mı?",
+              "“A (accountable)” tek kişi mi?",
+              "KPI review kimde ve hangi periyotta?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "RACI tablosunu 1 sayfada çıkar; duvara asılacak kadar basit tut.",
+              "Otelde KVKK/izin riskleri için ekstra “kontrol adımı” ekle.",
+              "B2B’de proof/veri hassasiyeti için maskeleme standardı yaz."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Üretim Süreci & Rol Dağılımı Analizi Talep Et",
+            "text": "Rol matrisi ve workflow’u ekibinizin gerçekliğine göre uyarlayıp revizyon/krizleri azaltalım.",
+            "href": "/smm/reels-video"
+          }
+        ]
+      },
+      {
+        "id": "reels-uretim-workflow-rol-matrisi-sablonu",
+        "title": "Reels Üretim Workflow & Rol Matrisi Şablonunu İndir — Ops & Team",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Reels Üretim Workflow & Rol Matrisi Şablonunu İndir — Ops & Team (v1.0)",
+            "purpose": "Bu şablon, reels üretimini “ad-hoc” işlerden çıkarıp rol netliği ve task akışıyla tekrar edilebilir bir operasyona dönüştürmek için tasarlandı. Strateji–kreatif–çekim–montaj–yayın–raporlama rollerini RACI mantığıyla ayırır; brief→onay→yayın sürecini Trello/Asana/Notion gibi araçlarda standardize eder. Revizyon ve son dakika krizlerini azaltıp yayın istikrarını artırmayı hedefler.",
+            "whoFor": "TR geneli; ajanslar, otel grupları ve B2B içerik ekipleri.",
+            "steps": [
+              "Rol matrisi (RACI) doldur: kim R, kim A?",
+              "Workflow board kolonlarını kur ve kart şablonunu kilitle.",
+              "Haftalık ritmi uygula: planning → üretim → yayın → rapor → öğrenim."
+            ],
+            "checklist": [
+              "A tek kişidir (tek onay sahibi).",
+              "Revizyon 2 turla sınırlıdır (süreli).",
+              "Kartta deadline ve owner yoksa iş yoktur.",
+              "Asset link tek kaynaktır; dosya kaosu yok.",
+              "Rapor “yayın sonrası zorunlu adımdır”."
+            ],
+            "href": "/downloads/reels-uretim-workflow-rol-matrisi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Reels üretim ekibinde hangi roller olmalı?",
+        "a": "Çekirdek roller strateji, kreatif, çekim, montaj, yayın ve raporlamadır. Küçük ekipte bir kişi birden fazla rol üstlenebilir; ama sorumluluklar yazılı olmalıdır."
+      },
+      {
+        "q": "Küçük bir ekipte kısa video üretimini nasıl organize ederim?",
+        "a": "1–2 kişilik modelle başlayın: bir kişi strateji/kreatif/yayın, diğer kişi çekim/montaj yapabilir. Seri şablonları ve batching yaklaşımı üretim yükünü azaltır."
+      },
+      {
+        "q": "Ajans ve iç ekip birlikte çalışırken süreç nasıl tasarlanmalı?",
+        "a": "RACI ile rol sınırlarını çizin ve tek onay sahibi belirleyin. Ajans üretimde sorumlu olurken iç ekip marka/onay ve operasyon gerçekliğinden sorumludur; haftalık KPI review ortak yapılmalıdır."
+      },
+      {
+        "q": "Brief’ten yayına kadar reels üretim akışı nasıl görünür?",
+        "a": "Brief → çekim → montaj → onay → yayın → rapor akışı, tek bir task board üzerinde kolonlarla yönetilmelidir. Revizyon turu ve süreleri net yazılmalıdır."
+      },
+      {
+        "q": "Süreci hızlandıran en kritik iki kural nedir?",
+        "a": "Tek onay sahibi (A) ve revizyon sınırı (max 2 tur). Bu ikisi yoksa üretim uzar ve yayın istikrarı bozulur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — reels-uretim-ekibi-rol-ve-surec-tasarimi-hero-01.webp — Reels üretim ekibi rol ve süreç tasarımı kapak görseli",
+          "h1-context — 1920×1080 — reels-uretim-ekibi-rol-ve-surec-tasarimi-h1-context-02.webp — Brief→çekim→montaj→onay→yayın akışını özetleyen bağlam görseli",
+          "divider-01 — 1600×1200 — reels-uretim-ekibi-rol-ve-surec-tasarimi-divider-03.webp — Reels üretimindeki temel rolleri özetleyen bölüm görseli",
+          "divider-02 — 1600×1200 — reels-uretim-ekibi-rol-ve-surec-tasarimi-divider-04.webp — Ajans–iç ekip hibrit çalışma yapısını özetleyen bölüm görseli",
+          "diagram-05 — 1920×1080 — reels-uretim-ekibi-rol-ve-surec-tasarimi-diagram-05.webp — Reels üretim süreci akış diyagramı",
+          "checklist-06 — 1200×1200 — reels-uretim-ekibi-rol-ve-surec-tasarimi-checklist-06.webp — Haftalık reels üretim ritmi checklist kartı",
+          "kpi-07 — 1200×1200 — reels-uretim-ekibi-rol-ve-surec-tasarimi-kpi-07.webp — Süreç KPI’ları skor kartı",
+          "proof-08 — 1200×1200 — reels-uretim-ekibi-rol-ve-surec-tasarimi-proof-08.webp — Rol matrisi ve workflow deliverables proof kartı",
+          "table-raci-matrix — Rol ve görev dağılımını gösteren RACI matrisi tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları PAA hedefleriyle eşleşiyor",
+          "İç link hedefleri kontrol edildi: /smm/reels-video, /smm/planlama-strateji, /smm/icerik-uretimi",
+          "Primary CTA H1 sonunda ve son 1/3’te konumlandı",
+          "Secondary CTA Download Asset olarak eklendi",
+          "Media pack slot adları section içi media bloklarıyla eşleşiyor",
+          "RACI tablosu örnek organizasyon bölümüne eklendi"
+        ]
+      }
+    }
+  },
+
+    "BlogAiDestekliReelsKurguVeOtomatikEditAraclari": {
+    "title": "AI Reels Kurgusu: Otomatik Edit ve Şablon Stratejisi",
+    "slug": "ai-destekli-reels-kurgu-ve-otomatik-edit-araclari",
+    "department": "smm",
+    "subDepartment":"reels",
+    "updatedAt": "15 Haziran 2026",
+    "publishedAt": "2026-06-15",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI edit araçlarıyla reels’i hızlandırın: template, auto-caption, beat sync ve otomatik cut. Marka tonunu korumak için hibrit workflow kurun.",
+    "seo": {
+      "metaTitle": "AI Reels Kurgusu: Otomatik Edit ve Şablon Stratejisi | DGTLFACE",
+      "metaDescription": "AI edit araçlarıyla reels’i hızlandırın: template, auto-caption, beat sync ve otomatik cut. Marka tonunu korumak için hibrit workflow kurun, export ayarlarını optimize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: Reels & Video İçerik Üretimi — https://dgtlface.com/tr/smm/reels-video",
+        "Blog No + Blog URL: Blog #21 — https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Not: V2.3 kilitli üretim standartlarımızın seviyesi düşürülmeden üretime devam edilmiştir.",
+        "Canonical: /tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari"
+      ],
+      "strategySummary": "Bu blog, AI destekli kurgu/otomatik edit araçlarının (template, auto-caption, beat sync, otomatik cut) reels üretiminde nerede konumlanması gerektiğini “hız vs farklılaşma” dengesiyle anlatan Trend rehberidir. Hedef persona; otel/turizm ve B2B kısa video üreten marka ekipleri ile ajans yöneticileridir; çünkü AI hız kazandırırken şablonlara teslim olunduğunda içerikler birbirine benzeyebilir ve marka tonu zayıflayabilir. Funnel açısından MoFu (güven/otorite) üretirken, doğru CTA ve workflow ile BoFu’ya (trafik/lead) köprü kurar. Ana iş sorusu: “AI edit araçlarını nerede kullanayım, nerede insan kreatif kontrolü şart ve bunu nasıl operasyonlaştırırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-15",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI destekli edit araçları reels kurgusunu dakikalar içinde çıkarabilir; ancak şablonlara tamamen teslim olursanız içerikler birbirine benzer ve marka tonu zayıflar. En sağlıklı yaklaşım hibrittir: AI’ı hızlandırıcı olarak kullanın (auto-caption, beat sync, otomatik cut, template), ama storyboard, mesaj, marka dili ve final kurgu kararını insan kreatif/stratejiste bırakın. Otel ve B2B ekipleri için bu model hem üretim hızını artırır hem farklılaşmayı korur.",
+      "sgeSummary": "AI ile hızlı kurgu: auto-caption + beat sync + template. Ama marka tonu ve final karar insanda kalmalı. Hibrit workflow kur, export ayarlarını optimize et; benzerlik riskini azalt.",
+      "voiceAnswer": "AI’ı hız için kullan; ama mesaj, marka tonu ve final kurguyu insan kontrolünde bitir.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli; otel, turizm ve B2B video ekipleri + ajanslar",
+        "KPI: üretim süresi, yayın sıklığı, retention, kaydetme/paylaşma, tıklama/DM",
+        "Entity seti: AI Editing, Auto-Caption, Templates, Beat Sync, Human Oversight",
+        "Funnel: MoFu (öğretici/güven) → BoFu (CTA ile lead/rezervasyon)",
+        "Model: AI-assisted production + template-aware creativity + speed vs distinctiveness",
+        "Risk: “herkesinkiyle aynı görünme”, yanlış altyazı, teknik export hataları",
+        "Çıktı: AI+insan workflow, do/don’t checklist, otel/B2B örnek kurgular"
+      ]
+    },
+    "h1": {
+      "title": "AI Destekli Reels Kurgu ve Otomatik Edit Araçları",
+      "intro": "AI destekli edit araçları, reels üretiminde iki büyük vaatte bulunur: hız ve kolaylık. Gerçekten de otomatik altyazı, beat sync, otomatik cut ve template tabanlı kurgularla dakikalar içinde “yayına yakın” bir taslak çıkarabilirsiniz. Ancak pratikte iki risk hızla büyür: (1) içeriklerin “herkesinkiyle aynı” görünmesi, (2) marka tonunun şablon estetiği içinde erimesi. Bu yüzden doğru soru “AI kullanayım mı?” değil; “AI’ı nerede hızlandırıcı olarak kullanıp nerede insan kreatif kontrolüyle bitireceğim?” olmalı. Bu rehber, otel ve B2B ekipleri için AI araçlarını süreçte doğru yere oturtan hibrit bir üretim modeli sunar.",
+      "quickSummary": [
+        "1) AI’ı final karar verici değil, taslak hızlandırıcı olarak konumla",
+        "2) Template, auto-caption, beat sync ve auto cut özelliklerini kullanım amacına göre ayır",
+        "3) Marka tonu, storyboard, mesaj ve CTA kararını insan kreatif kontrolde tut",
+        "4) Hız ve farklılaşma dengesini hibrit workflow ile yönet",
+        "5) Export, okunabilirlik, KVKK/telif ve kalite kontrol adımlarını yayın öncesi zorunlu yap"
+      ],
+      "ctaPrimary": {
+        "label": "AI Destekli Reels Kurgu & Şablon Analizi Talep Et",
+        "text": "Ekibinizin kullandığı araçları ve şablonları marka tonu kaybetmeden hızlandıracak bir hibrit workflow’a bağlayalım.",
+        "href": "/smm/reels-video"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI Destekli Reels Kurgu & Şablon Analizi Talep Et",
+        "text": "AI araçlarını hız için kullanırken marka tonunu ve farklılaşmayı kaybetmek istemeyen otel/B2B ekipleri için.",
+        "href": "/smm/reels-video"
+      },
+      "secondary": {
+        "label": "AI Edit + İnsan Kreatif Workflow Şablonunu İndir",
+        "text": "AI’nın hızını koruyup final kurgu ve marka tonu kararlarını insan kontrolde tutan akışla, üretimi standartlaştırıp benzerlik riskini azaltırsınız.",
+        "href": "/downloads/ai-edit-insan-kreatif-workflow-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "title": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "title": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ai-ve-otomatik-edit-araclari-nedir",
+        "title": "AI ve Otomatik Edit Araçları Nedir? (Ne Hızlandırır, Ne Hızlandırmaz?)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "AI edit araçlarını doğru konumlamak için önce “ne iş yaptıklarını” netleştirmek gerekir. Bu araçların çoğu, kreatif fikri üretmez; kurguyu hızlandırır. Yani “iyi bir storyboard” yoksa, AI sadece kötü bir kurguyu daha hızlı üretir. Burada temel ayrım şu:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hızlandırdığı şeyler: altyazı çıkarma, sessizlik/boşluk temizleme, beat’e göre kesme, template ile temel ritim, yüz/konuşma odaklı otomatik kadrajlama, hızlı export preset’leri.",
+              "Hızlandırmadığı şeyler: marka tonu, hikâye akışı, hedef persona için doğru mesaj, “neden izlenmeli?” sorusunun cevabı, etik/KVKK risk kontrolü."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "AI’ı “edit asistanı” gibi düşünün: kaba taslak çıkarır. Son kararı veren bir kreatif ve stratejist yoksa, içerik “hızlı ama sıradan” olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Bu içerikte net bir storyboard/mesaj var mı?",
+              "AI’dan beklentim “fikir” mi, “kurgu hızlandırma” mı?",
+              "Finalde marka tonu ve CTA’yı kim kontrol edecek?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI’ı “taslak üretim” için kullan; “final karar”ı insanda tut.",
+              "İçerik hedefini yaz: awareness mi, traffic mi, lead mi?",
+              "Her reels’e tek mesaj + tek CTA kuralını AI’dan önce belirle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "sablon-bazli-kurgu-templates",
+        "title": "Şablon Bazlı Kurgu (Templates) — Hız mı, Kimlik mi?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Template’ler, üretimi dramatik şekilde hızlandırır: ritim, geçiş, metin yerleşimi ve müzik uyumu hazırdır. Bu iyi bir şeydir; özellikle yoğun dönemlerde otel ve ajans ekipleri “içerik yetiştirme” sorununu azaltır. Ama şablonların doğal bir yan etkisi var: benzerlik. Aynı template’i yüzlerce hesap kullanıyorsa, sizin videonuz da kalabalığın içinde “aynı” görünür."
+          },
+          {
+            "type": "h3",
+            "text": "Şablonlarla çalışırken marka tonunu nasıl korurum? "
+          },
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Şablonlarla çalışırken marka tonunu nasıl korurum?",
+            "text": "Cevap: Template’i “iskelet” olarak kullanın; kimliği ise 4 noktada siz belirleyin: (1) hook cümlesi, (2) renk/typography (kapak ve metin), (3) B-roll seçimi (sizin dünyanız), (4) final CTA. Aynı template’i kullanabilirsiniz ama bu dört katman değişmezse video markalaşır."
+          },
+          {
+            "type": "h3",
+            "text": "Template-aware creativity (şablon farkındalığı)"
+          },
+          {
+            "type": "p",
+            "text": "Şablonu seçerken şu soruyu sorun: “Bu şablon benim markamın temposu mu?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde “premium/sakin” ton için aşırı hızlı, agresif geçişli template çoğu zaman ters çalışır.",
+              "B2B’de “uzmanlık” tonu için aşırı eğlenceli sticker/efekt yığını güveni düşürebilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Herkesinkiyle aynı” riskini azaltan 5 hamle"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Aynı şablonu değil, aynı şablon ailesini kullan (tutarlılık + farklılık).",
+              "Metni “template metni” değil, marka metni yap (sizin kelimeleriniz).",
+              "B-roll’ları kütüphaneden değil, kendi çekiminizden seçin (özgünlük).",
+              "Kapak grid’ini seri gibi tasarlayın (episodik kimlik).",
+              "CTA’yı standardize edin (aynı fiil, aynı son kare)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Template seçimi marka tonuna uyuyor mu?",
+              "Hook metni “benim” mi, template’in default’u mu?",
+              "B-roll özgün mü (otel mekânı/ofis/proof)?",
+              "Final CTA net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "3 template seç: biri hızlı, biri sakin, biri bilgi odaklı; bunları “marka preset’i” yap.",
+              "Her template için 10 hook cümlesi bankası çıkar (kopya hissi azalır).",
+              "Template’i kullan ama kapak/typography’yi brand book’a bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otomatik-altyazi-cut-ve-beat-sync",
+        "title": "Otomatik Altyazı, Cut ve Beat Sync Özellikleri (Ne Zaman İşe Yarar?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI edit araçlarının en çok değer verdiği yer burasıdır: otomatik altyazı ve otomatik kesme. Çünkü bu işler hem zaman alır hem de “ufak hatalar” izlenebilirliği bozar. Ancak otomatikleşince iki risk oluşur: yanlış altyazı ve yanlış ritim."
+          },
+          {
+            "type": "h3",
+            "text": "Auto-caption (otomatik altyazı) — hız + kalite kontrol"
+          },
+          {
+            "type": "p",
+            "text": "Auto-caption özellikle B2B ve anlatımlı otel içeriklerinde hayat kurtarır. Ama her otomatik altyazı “yayına hazır” değildir. Türkçe özelinde; isimler, marka adları, yabancı kelimeler ve sektör terimleri sık hata yapar. Bu yüzden en iyi pratik: otomatik çıkar → hızlı düzelt → okunabilir biçime sok."
+          },
+          {
+            "type": "p",
+            "text": "Okunabilirlik kuralları (özet):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1–2 satır",
+              "satır başına 6–10 kelime",
+              "yüksek kontrast",
+              "safe zone (UI çakışmasın)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Beat sync (ritme göre kesme) — herkes için değil"
+          },
+          {
+            "type": "p",
+            "text": "Beat sync, özellikle otel deneyim montajlarında (havuz/aktivite/gün batımı) enerji verir. Fakat “her sahneyi beat’e uydurmak” videoyu yapaylaştırır. Premium bir otelde sakin ritim daha iyi olabilir. B2B’de ise beat sync çoğu zaman ikincildir; asıl amaç “anlaşılırlık”tır."
+          },
+          {
+            "type": "h3",
+            "text": "Otomatik sahne seçimi / otomatik cut"
+          },
+          {
+            "type": "p",
+            "text": "Otomatik cut (sessizlik temizleme, tekrarları atma) konuşmalı içerikte ciddi hız kazandırır. Fakat “anlam” kaybı riski vardır: bazen duraklama, vurgunun parçasıdır. Bu yüzden AI’nın kestiği yerleri hızlıca kontrol etmek gerekir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: AI Özelliği → Ne Zaman Kullanılır → Risk → İnsan Kontrolü",
+            "headers": [
+              "AI özelliği",
+              "Ne zaman ideal?",
+              "Tipik risk",
+              "İnsan kontrol hamlesi"
+            ],
+            "rows": [
+              [
+                "Auto-caption",
+                "Konuşmalı içerik, eğitim, SSS",
+                "Yanlış kelime/isim",
+                "3 dk düzelt + okunur format"
+              ],
+              [
+                "Auto cut (silence)",
+                "Uzun konuşma, webinar split",
+                "Anlam/vurgu kaybı",
+                "“vurgulu durak”ları geri ekle"
+              ],
+              [
+                "Beat sync",
+                "Deneyim/mood videoları",
+                "Yapay tempo",
+                "Premium ton için yavaşlat"
+              ],
+              [
+                "Template",
+                "Seri üretim, hızlı taslak",
+                "Herkesinkiyle aynı",
+                "hook/kapak/B-roll/CTA markalaştır"
+              ],
+              [
+                "Auto framing",
+                "Tek kişi konuşma",
+                "Kadraj zıplaması",
+                "kritik sahnelerde sabitle"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Auto-caption sonrası 3 dakikalık düzeltme yaptım mı?",
+              "Beat sync marka tonuna uygun mu?",
+              "Auto cut anlamı bozdu mu? (vurguları kontrol et)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Auto-caption’ı “yayın öncesi zorunlu QA” adımı yap.",
+              "Beat sync’i sadece “enerji” gereken videolarda kullan; her içerikte değil.",
+              "Auto cut sonrası 1 dakikalık “anlam kontrolü” yap (kritik cümleler)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "avantajlar-ve-riskler",
+        "title": "Avantajlar ve Riskler (Hız vs Farklılaşma Dengesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI editin en büyük avantajı, toplam kurgu süresini ciddi biçimde azaltma potansiyelidir. Ama aynı anda “kopya estetik” riskini büyütür. Bu, özellikle TR’de çok sayıda hesabın aynı hazır şablonlara yönelmesiyle daha görünür hale geldi."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "text": "AI edit araçları doğru kullanıldığında toplam kurgu süresini ciddi biçimde azaltırken, insan kreatif dokunuşu olmayan içeriklerin birbirine benzeme riski hızla artıyor."
+          },
+          {
+            "type": "h3",
+            "text": "Avantajlar (net)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hızlı taslak: 1 saatte 3–5 taslak üretme",
+              "Operasyonel istikrar: ekip yorgunluğu azalır",
+              "Eğitim kolaylığı: yeni editör daha hızlı adapte olur",
+              "Multi-format: aynı içeriği farklı platformlara uyarlamak kolaylaşır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Riskler (net)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka tonu kaybı (template estetiği)",
+              "Altyazı hataları (anlam kaybı, komik durumlar)",
+              "Aşırı efekt/tempo (spam algısı)",
+              "Gizlilik/etik risk: otomatik seçilen sahnelerde yüz/isim/ekran detayları",
+              "Teknik risk: yanlış export ayarı, kalite düşüşü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Risk azaltan “hibrit model” prensibi"
+          },
+          {
+            "type": "p",
+            "text": "AI = hız; insan = kalite ve anlam. Bu denge, hem otel hem B2B’de sürdürülebilir üretim için şarttır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "AI çıktılarını “final” diye yayınlıyor muyum? (dur)",
+              "Marka tonunu koruyan kapak/metin standardım var mı?",
+              "KVKK/telif risk taraması yapıyor muyum?",
+              "Export kalitesi platforma uygun mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI çıktılarını “taslak” olarak etiketle; final için insan QA zorunlu olsun.",
+              "Template sayısını sınırlayıp marka preset’i oluştur.",
+              "Yayın öncesi 3 kontrol: metin, risk (KVKK/telif), export."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-kullanim-senaryolari",
+        "title": "Otel ve B2B İçin Kullanım Senaryoları (Pratik Reels Akışları)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI edit araçları en iyi, tekrar eden formatlarda çalışır. Çünkü template ve otomatik altyazı “seriler” için doğal bir hızlandırıcıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Oda turu (15–25 sn): AI cut ile boşluk temizle, auto-caption ile kısa metin; finalde “oda detayları linkte”.",
+              "Deneyim günü (20–30 sn): beat sync ile tempo; ambiyans + minimal metin; “kaydet” CTA.",
+              "SSS serisi (15–20 sn): auto-caption + 3 madde; her Cuma 1 soru.",
+              "Etkinlik highlight (15–20 sn): live-to-short klip + hızlı template; “takvim profilde”."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyon örneklerinde tempo ve beat sync, içerik “enerji” taşıyorsa iyi çalışır; premium/sakin konseptte daha minimal kurgu tercih edilir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryoları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Problem→Çözüm→Sonuç (20–30 sn): auto-caption ile net mesaj, AI cut ile hız; final “demo” CTA.",
+              "Mini case (15–20 sn): proof kartı + on-screen text; template yalnız çerçeve.",
+              "Webinar split (15–30 sn): golden nugget seçimi, auto-caption düzeltme; “tam bölüm linkte”."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Otelde içerik türüne göre tempo seçtim mi? (enerji vs premium)",
+              "B2B’de proof ve CTA net mi?",
+              "Template sadece iskelet mi, yoksa içerik her şey mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde 3 şablon: deneyim (beat), SSS (caption), paket (CTA).",
+              "B2B’de 2 şablon: PSR (anlatım), proof (kart).",
+              "Her şablon için “marka metni” bankası oluştur (benzerlik azalır)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "ai-insan-kurgu-modeli-workflow",
+        "title": "AI + İnsan Kurgu Modeli (Workflow) — Trend İçeriği Operasyona Bağlamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI araçları tek başına strateji değildir; ancak doğru workflow içinde güçlü bir hızlandırıcı olur. Buradaki hedef, “AI ile kurgu yaptım” demek değil; AI-assisted production ile tekrar edilebilir bir takım sistemi kurmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "6 adımlı hibrit workflow"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Storyboard & mesaj (insan): tek mesaj, tek CTA, hedef persona",
+              "Rough cut (AI): template + auto cut + beat sync (gerekiyorsa)",
+              "Metin/altyazı (AI + insan): otomatik çıkar, hızlı düzelt",
+              "Marka cilası (insan): kapak, typography, renk, pacing, proof",
+              "Risk & teknik kontrol (insan): KVKK/telif + export ayarları",
+              "Yayın + rapor (insan): sinyaller → test → standardize"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu model, “hız vs farklılaşma” dengesini yönetir: AI hız verir, insan kaliteyi kilitler."
+          },
+          {
+            "type": "h3",
+            "text": "CTA ve link köprüsü (MoFu→BoFu)"
+          },
+          {
+            "type": "p",
+            "text": "AI ile ürettiğiniz içerik hızlandıkça, CTA disiplinini kaybetmeyin. B2B’de “demo/teklif”, otelde “paket/oda” CTA’sı; finalde tek aksiyon olarak görünür olmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI Edit + İnsan Kreatif Workflow Şablonunu İndir",
+            "text": "AI’ın hızını korurken marka tonunu ve final kalite kontrolünü standardize eden tek sayfalık workflow şablonuyla ekibi hizalarsınız.",
+            "href": "/downloads/ai-edit-insan-kreatif-workflow-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Finalde “insan QA” adımı zorunlu mu?",
+              "Export ayarı ve dosya kalitesi platform önerileriyle uyumlu mu?",
+              "Workflow’da risk kontrolü (KVKK/telif) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Workflow’u 1 sayfaya indir; ekipte herkes aynı adımla ilerlesin.",
+              "“AI rough cut” ile “final” arasına kalite kapısı koy (QA).",
+              "Haftalık 1 test kuralı ekle: hook veya CTA varyasyonu."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "teknik-notlar-export-ayarlari",
+        "title": "Teknik Notlar (Export Ayarları, Sürüm Uyumu, Platform Gereksinimleri)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI araçlarının sürümleri ve export preset’leri hızlı değişebilir. Aynı zamanda platformların dikey video teknik beklentileri (oran, bitrate, dosya boyutu, altyazı görünürlüğü) değiştikçe “iyi görünen” kurgu bozulabilir. Bu yüzden iki kontrol şarttır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sürüm/özellik kontrolü: AI aracının caption/beat sync doğruluğu güncellenmiş mi?",
+              "Export kontrolü: Dikey format, okunabilir altyazı, dosya kalitesi ve yükleme davranışı test edilmiş mi?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Reels Kurgu & Şablon Analizi Talep Et",
+            "text": "Kullandığınız AI edit araçlarını, template setini ve export standartlarını marka tonunu kaybetmeden hızlandıracak şekilde birlikte kurgulayalım.",
+            "href": "/smm/reels-video"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "2 cihazda okunabilirlik testi yaptım mı?",
+              "Export kalitesi ve dosya boyutu stabil mi?",
+              "Template’ler “cool” mu, yoksa spam mı? (180 gün refresh)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her ay 1 kez “template ve export” audit yap.",
+              "180 gün döngüsünde örnekleri/preset’leri güncelle.",
+              "En iyi 3 template’i marka preset’i olarak kilitle; diğerlerini ele."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ai-edit-insan-kreatif-workflow-sablonu",
+        "title": "AI Edit + İnsan Kreatif Workflow Şablonunu İndir — Reels Üretimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "AI Edit + İnsan Kreatif Workflow Şablonunu İndir — Reels Üretimi (v1.0)",
+            "purpose": "Bu şablon, AI edit araçlarını “taslak hızlandırıcı” olarak kullanırken marka tonu ve final kalite kontrolünü insan kreatif/stratejiste bırakan hibrit üretim modelini standardize eder. Template, auto-caption, beat sync gibi özellikleri doğru adımda devreye alarak hem üretim süresini kısaltır hem de içeriklerin birbirine benzemesi riskini azaltır. Otel ve B2B ekipleri için tekrar edilebilir bir ops ritmi sunar.",
+            "whoFor": "TR geneli; otel/turizm ve B2B kısa video üreten in-house ekipler ve ajanslar.",
+            "steps": [
+              "Her reels için tek mesaj + tek CTA’yı brief’e yaz.",
+              "AI ile rough cut çıkar; ardından insan QA ile marka dili ve okunabilirliği kilitle.",
+              "Haftalık raporla “kazanan şablonları” standarda çevir, 180 gün döngüsünde güncelle."
+            ],
+            "checklist": [
+              "Brief tek mesaj + tek CTA",
+              "AI rough cut çıktı",
+              "Altyazı düzeltildi",
+              "İnsan cilası tamam",
+              "Teknik QA + yayın"
+            ],
+            "templates": [
+              {
+                "title": "A) Brief (Stratejist)",
+                "items": [
+                  "Hedef: [ ] Awareness [ ] Trafik [ ] Lead",
+                  "Persona: ____________",
+                  "Tek mesaj (1 cümle): ____________________",
+                  "Tek CTA (tek fiil): ______________________",
+                  "Risk notu (KVKK/telif): ___________________"
+                ]
+              },
+              {
+                "title": "B) AI Rough Cut (Edit)",
+                "items": [
+                  "Kullanılan özellikler: [ ] Template [ ] Auto cut [ ] Beat sync",
+                  "Çıkan süre: ___ sn",
+                  "Not: “AI çıktı = taslak” (Varsayım: zorunlu)"
+                ]
+              },
+              {
+                "title": "C) Metin/Altyazı (AI + İnsan)",
+                "items": [
+                  "Auto-caption: [ ] aç [ ] kapat",
+                  "Düzeltme yapılacak kelimeler: ____________________",
+                  "Okunabilirlik: [ ] 1–2 satır [ ] safe zone [ ] kontrast"
+                ]
+              },
+              {
+                "title": "D) İnsan Cilası (Creative)",
+                "items": [
+                  "Hook varyasyonu: A / B",
+                  "Marka dili (font/renk/kapak): ____________________",
+                  "Proof sahnesi (varsa): ____________________"
+                ]
+              },
+              {
+                "title": "E) Teknik QA (Publisher)",
+                "items": [
+                  "Export preset: ____________",
+                  "Dikey oran: [ ] uygun",
+                  "Dosya boyutu/kalite: [ ] uygun",
+                  "2 cihaz testi: [ ] yapıldı"
+                ]
+              },
+              {
+                "title": "F) Yayın & Rapor (Analyst)",
+                "items": [
+                  "KPI: [ ] retention [ ] saves/shares [ ] clicks/DM",
+                  "Öğrenim: ____________________",
+                  "Bir sonraki test (tek değişken): ____________________"
+                ]
+              },
+              {
+                "title": "Nasıl doldurulur? (5 kural)",
+                "items": [
+                  "AI her zaman taslak üretir; final kararı insan verir.",
+                  "Template kullanılsa bile hook/kapak/CTA markalaştırılır.",
+                  "Auto-caption mutlaka hızlı düzeltmeden geçer.",
+                  "Export ve okunabilirlik iki cihazda test edilir.",
+                  "180 gün döngüsünde template ve preset’ler yenilenir."
+                ]
+              },
+              {
+                "title": "1 örnek (kısa)",
+                "items": [
+                  "Hedef: Trafik",
+                  "Mesaj: “Oda turu 20 saniyede — 3 detay”",
+                  "CTA: “Oda seçenekleri: profilde link”",
+                  "AI: auto cut + minimal template",
+                  "İnsan: kapak ve metin hiyerarşisi + CTA final sahnesi"
+                ]
+              }
+            ],
+            "href": "/downloads/ai-edit-insan-kreatif-workflow-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AI destekli edit araçları reels için nasıl kullanılır?",
+        "a": "AI’ı taslak hızlandırıcı olarak konumlayın: auto-caption, otomatik cut ve template ile rough cut çıkarın. Finalde marka tonu ve CTA kararını insan kreatif/stratejist versin."
+      },
+      {
+        "q": "Şablonlarla çalışırken marka tonunu nasıl korurum?",
+        "a": "Template’i iskelet olarak kullanın; hook metni, kapak dili, B-roll seçimi ve final CTA’yı markalaştırın. Aynı template’i bile farklı görünür kılan şey bu dört katmandır."
+      },
+      {
+        "q": "Otomatik altyazı ve beat sync gerçekten işe yarıyor mu?",
+        "a": "Evet, doğru içerikte işe yarar: konuşmalı içerikte auto-caption hız kazandırır, deneyim/mood videolarında beat sync tempo verir. Ancak her ikisi de insan QA olmadan hata ve “spam” riski yaratabilir."
+      },
+      {
+        "q": "Otel/B2B markası AI ile kurgu yaparken nelere dikkat etmeli?",
+        "a": "Otelde tempo marka tonuna (premium vs enerjik) uygun olmalı; B2B’de ise anlaşılabilirlik ve proof önceliklidir. Her ikisinde de tek mesaj, okunabilir metin ve tek CTA kuralı korunmalıdır."
+      },
+      {
+        "q": "AI ile üretilen içerikler neden birbirine benziyor?",
+        "a": "Aynı template setleri ve aynı metin/efekt dili tekrarlandığı için. Marka preset’i, özgün B-roll ve custom hook/CTA ile bu risk azaltılabilir."
+      },
+      {
+        "q": "AI edit çıktısını doğrudan yayınlamak doğru mu?",
+        "a": "Genelde hayır. Auto-caption hataları, yanlış tempo, marka tonu kaybı ve riskli kareler için yayın öncesi insan kontrolü gerekir."
+      },
+      {
+        "q": "Export ayarları neden önemli?",
+        "a": "Yanlış export kaliteyi düşürür, metin okunmaz hale gelir ve kullanıcı deneyimini bozar. Platform dikey video teknik gereksinimleriyle uyumlu preset’ler kullanılmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-hero-01.webp — AI destekli reels kurgusu ile hız kazanımı otel içerik üretiminde",
+          "h1-context — 1920×1080 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-h1-context-02.webp — Template ve auto-caption akışıyla marka tonunu koruyan otel reels modeli",
+          "divider-01 — 1600×1200 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-divider-03.webp — AI edit sınırlarını açıklayan görsel rehber otel pazarlaması bağlamında",
+          "divider-02 — 1600×1200 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-divider-04.webp — Hız ve farklılaşma dengesini gösteren karşılaştırma görseli otel bağlamı",
+          "diagram-05 — 1920×1080 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-diagram-05.webp — AI ve insan kurgu workflow akışını anlatan şema otel içerik ekibi için",
+          "checklist-06 — 1200×1200 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-checklist-06.webp — AI edit do ve don’t checklist kartı otel ve B2B ekipleri için",
+          "kpi-07 — 1200×1200 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-kpi-07.webp — Üretim hızı ve marka tonu KPI paneli otel reels performansı için",
+          "proof-08 — 1200×1200 — ai-destekli-reels-kurgu-ve-otomatik-edit-araclari-proof-08.webp — AI kurgusu ve manuel cilayı karşılaştıran çıktı kartı otel bağlamı",
+          "table-ai-feature-control — AI özelliği → kullanım → risk → insan kontrolü karşılaştırma tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları PAA hedefleriyle eşleşiyor",
+          "İç link hedefleri kontrol edildi: /smm/reels-video, /smm/icerik-uretimi, /creative/video-produksiyon",
+          "Primary CTA H1 sonunda ve son 1/3’te konumlandı",
+          "Secondary CTA Download Asset olarak eklendi",
+          "Media pack slot adları section içi media bloklarıyla eşleşiyor",
+          "AI özelliği kullanım/risk/insan kontrolü tablosu otomatik altyazı-cut-beat sync bölümüne eklendi",
+          "Trend içerik olduğu için 180 gün refresh notu teknik kontrol listesine dahil edildi",
+          "Export ayarları, sürüm uyumu, okunabilirlik ve KVKK/telif QA adımları içerik içinde işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogReelsIcinSocialSeoVeVideoAramaTetikleyicileri": {
+    "title": "Reels Social SEO: Aramada Çıkma Tetikleyicileri",
+    "slug": "reels-icin-social-seo-ve-video-arama-tetikleyicileri",
+    "department": "smm",
+    "subDepartment":"reels",
+    "updatedAt": "15 Haziran 2026",
+    "publishedAt": "2026-06-15",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Reels’leri Instagram/TikTok araması için optimize edin: başlık, caption, on-screen text ve hashtag’lerde niyet odaklı ifadeler kullanın; web topic cluster’larıyla eşleştirin.",
+    "seo": {
+      "metaTitle": "Reels Social SEO: Aramada Çıkma Tetikleyicileri | DGTLFACE",
+      "metaDescription": "Reels’leri Instagram/TikTok araması için optimize edin: başlık, caption, on-screen text ve hashtag’lerde niyet odaklı ifadeler kullanın; web topic cluster’larıyla eşleştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: Reels & Video İçerik Üretimi — https://dgtlface.com/tr/smm/reels-video",
+        "Blog No + Blog URL: Blog #22 — https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Not: V2.3 kilitli üretim standartlarıyla (seviye/kalite düşürmeden) üretime devam edilmiştir.",
+        "Canonical: /tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri"
+      ],
+      "strategySummary": "Bu blog, Reels’i “sadece keşfet” değil sosyal arama sonuçlarında bulunabilir hale getiren video-first social SEO yaklaşımını anlatan Trend rehberidir. Hedef persona; destinasyon otelleri (Antalya/Belek/Side/Kemer/Bodrum gibi) ve B2B “how-to” içeriği üreten markalar ile ajans ekipleridir; çünkü kullanıcılar Instagram/TikTok aramasında “otel + bölge”, “X nasıl yapılır?” gibi sorgular yazıyor. Funnel açısından MoFu’da (keşif/niyet) görünürlüğü artırır; doğru caption, on-screen text ve CTA ile BoFu (trafik/lead/rezervasyon) köprüsünü kurar. Ana iş sorusu: “Reels’lerim aramada nasıl çıkar; başlık/caption/text/hashtag alanlarını nasıl niyete göre kurgular ve web/SEO konu kümeleriyle nasıl eşleştiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-15",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kullanıcılar artık sadece Google’da değil, Instagram ve TikTok arama çubuklarında da “otel + bölge”, “X nasıl yapılır?” gibi sorgular yazıyor. Reels’i social SEO mantığıyla kurgulamak; başlık, caption, on-screen text ve hashtag alanlarında arama niyetine uygun anahtar kelimeleri doğal cümlelerle kullanmak demektir. En iyi yapı: soru gibi başlayan hook metni, kısa cevap (video içi), caption’da niyet cümlesi ve kategori hashtag’leri. Web/blog topic cluster’larıyla eşleştirerek kısa videodan uzun içeriğe trafik köprüsü kurun.",
+      "sgeSummary": "Reels’te aramada çıkmak için: başlık/caption/on-screen text’i sorgu niyetine göre yaz, hashtag’leri kategori gibi kullan, video içini soru–cevap yap. Web topic cluster’larıyla eşleştir, trafik al.",
+      "voiceAnswer": "Başlık, caption, ekrandaki metin ve hashtag’leri arama niyetine göre yaz; doğal cümleyle çıkarsın.",
+      "aiFactSheet": [
+        "Hedef kitle: Destinasyon otelleri + B2B “how-to” içerik ekipleri, ajanslar",
+        "KPI: aramadan gelen izlenmeler, profil ziyaretleri, kaydetme, tıklama/DM",
+        "Entity theme: Social Search, Video SEO, Captions & Text, Hashtags, Topic Clusters",
+        "AIO modeli: “video-first social SEO modeli” = niyet → metin alanları → sinyal → cluster → CTA",
+        "Geo: TR geneli; örneklerde Antalya/Belek/Side/Kemer/Bodrum doğal geçiş",
+        "Risk: keyword stuffing/spam algısı",
+        "Çıktı: caption + on-screen text şablonları, cluster eşleştirme, checklist"
+      ]
+    },
+    "h1": {
+      "title": "Reels İçin Social SEO ve Video Arama Tetikleyicileri",
+      "intro": "Instagram ve TikTok, kullanıcı için artık sadece “izleme” değil “arama” kanalı. İnsanlar “Bodrum otel önerisi”, “Antalya’da çocuklu tatil”, “reels performansı nasıl artırılır?” gibi sorgularla içerik buluyor. Bu da Reels’te yeni bir oyun alanı açıyor: short-form discoverability. Bu rehber, Reels’i sosyal aramaya uygun hale getirmek için dört metin alanını (başlık/caption/on-screen text/hashtag) nasıl “niyet odaklı” kurgulayacağınızı ve bunu web/SEO topic cluster’larıyla nasıl birleştireceğinizi anlatır.",
+      "quickSummary": [
+        "1) Reels’i sadece keşfet değil sosyal arama kanalı olarak düşün",
+        "2) Her reels’e tek arama sorgusu ve tek niyet ata",
+        "3) Başlık, caption, on-screen text ve hashtag alanlarını doğal cümlelerle kurgula",
+        "4) Hashtag’leri kategori etiketi gibi 3–6 arası kullan",
+        "5) Reels’i web/SEO topic cluster’larıyla eşleştirip UTM ile ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Reels Social SEO & Aranabilirlik Analizi Talep Et",
+        "text": "Reels’lerinizi arama niyetine göre yeniden yapılandırıp caption/on-screen text ve topic cluster eşleştirmesiyle bulunabilirliği artırmak isteyen otel ve B2B ekipleri için.",
+        "href": "/smm/reels-video"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Reels Social SEO & Aranabilirlik Analizi Talep Et",
+        "text": "Instagram/TikTok aramasında çıkmak için reels başlık–caption–on-screen text ve hashtag yapınızı niyet odaklı kurup ölçülebilir hale getiririz (otel/B2B için).",
+        "href": "/smm/reels-video"
+      },
+      "secondary": {
+        "label": "Reels Başlık/Caption & Social SEO Planlama Şablonunu İndir",
+        "text": "Her reels’i 1 sorgu mantığıyla planlar, doğal cümlelerle keyword stuffing riskine düşmeden arama görünürlüğünü artırırsınız.",
+        "href": "/downloads/reels-baslik-caption-social-seo-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "title": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "title": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sosyal-arama-ve-reels-search",
+        "title": "Sosyal Arama ve Reels (Search) — Yeni “Keşfet” Mantığı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal arama, klasik SEO gibi “uzun metin + backlink” değildir; daha çok niyet + sinyal + metin alanları birleşimidir. İnsanların aramada yazdığı sorgular genelde iki tiptir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon/yerel: “Belek otel”, “Side aile oteli”, “Kemer beach club”",
+              "How-to/problem: “reels retention nedir”, “B2B reels nasıl yapılır”, “otel reels fikirleri”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Reels, aramada çıkmak için sadece “etiket doldurmak” değil, videonun metinsel katmanlarını doğru kurmak zorundadır: başlık/caption/on-screen text."
+          },
+          {
+            "type": "h3",
+            "text": "Arama davranışı Reels’i nasıl değiştirir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Viral” tekil videodan “aranabilir” seri içeriklere geçiş",
+              "Soruyu başlık gibi yazıp videoda cevap verme (AEO gibi)",
+              "“Konum + kategori” eşleşmesi (otel/destinasyon)",
+              "“Problem + çözüm” eşleşmesi (B2B)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Kitlem aramada ne yazıyor? (otel + bölge / how-to)",
+              "Reels’te soru–cevap yapısı var mı?",
+              "Caption “okunur” mu yoksa etiket yığını mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "10 arama sorgusu listesi çıkar: 5 destinasyon, 5 how-to.",
+              "Bu sorguları Reels serilerine dönüştür (Ep.01–06).",
+              "“Soruyu ekrana yaz + 2 cümle cevap” formatını standardize et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "reels-icin-social-seo-nedir",
+        "title": "Reels İçin Social SEO Nedir? ",
+        "blocks": [
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "Reels için social SEO nedir?",
+            "text": "Cevap: Social SEO, Reels’in başlık, caption, on-screen text ve hashtag alanlarında arama niyetine uygun kelimeleri doğal cümlelerle kullanarak sosyal platform aramalarında bulunabilirliğini artırma yaklaşımıdır. “Keyword doldurma” değil, soruyu ve cevabı netleştiren yapı kurmaktır. Doğru yapı; aramadan gelen keşfi, profil ziyaretini ve tıklamayı artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Video-first social SEO modeli (AIO)"
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli tek cümlede ilişkilendir: Niyet (sorgu) → Metin alanları (başlık/caption/text/hashtag) → Davranış sinyalleri (retention/saves/shares/clicks) → Topic cluster eşleşmesi → CTA. Burada kilit nokta: metin alanları “arama”yı tetikler, sinyaller “dağıtım”ı büyütür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Ana niyetim tek bir sorgu mu?",
+              "Reels metni bu sorguyu gerçekten yanıtlıyor mu?",
+              "Sinyal takibi (retention/saves) yapıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her reels’e 1 sorgu ata (tek hedef).",
+              "Videoda o sorguya net cevap ver; caption bunu desteklesin.",
+              "4 hafta sonra hangi sorgu seti daha çok arama trafiği getiriyor gör."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "baslik-caption-ve-on-screen-textte-anahtar-kelime-kullanimi",
+        "title": "Başlık, Caption ve On-Screen Text’te Anahtar Kelime Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aramada çıkmanın çekirdeği burasıdır. Ama “anahtar kelime” denince çoğu ekip yanlış yere gider: kelime yığını. Oysa platformlar spam/keyword stuffing algısına hassastır. İhtiyacınız olan şey, sorgu benzeri ama doğal okunabilir cümle."
+          },
+          {
+            "type": "h3",
+            "text": "Başlık (title) — sorguyu “tek cümleye” indir"
+          },
+          {
+            "type": "p",
+            "text": "Başlıkta (veya ilk satırda) sorguyu net geçir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Antalya’da çocuklu tatil için 3 ipucu”",
+              "“B2B’de reels ile lead nasıl alınır?”",
+              "“Bodrum’da gün batımı + otel deneyimi (1 günde)”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Caption — niyeti genişlet, bağlam ekle"
+          },
+          {
+            "type": "p",
+            "text": "Caption’da 2 katman iyi çalışır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Arama cümlesi (sorgu gibi): “Side aile oteli arayanlar için…”",
+              "Kısa açıklama: “transfer/çocuk kulübü/oda tipi” gibi 2–3 madde",
+              "Tek CTA: “Kaydet” veya “Link profilde”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "On-screen text — soruyu yaz, cevabı göster"
+          },
+          {
+            "type": "p",
+            "text": "On-screen text, sessiz izlemeyi de taşır. Social SEO’da en iyi yapı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk kare: “Soru: …?”",
+              "Orta: “Cevap: … (2 madde)”",
+              "Final: “CTA: …”"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Social SEO uyumlu caption + on-screen text örnekleri (otel ve B2B)",
+            "headers": [
+              "Senaryo",
+              "Arama sorgusu",
+              "Başlık / İlk satır",
+              "On-screen text",
+              "Caption yapısı",
+              "CTA"
+            ],
+            "rows": [
+              [
+                "Otel / destinasyon",
+                "Antalya’da çocuklu tatil",
+                "Antalya’da çocuklu tatil için 3 ipucu",
+                "Soru: Çocuklu tatilde neye bakmalı? → 1) oda tipi 2) aktivite 3) transfer",
+                "Antalya’da çocuklu tatil arayanlar için: çocuk kulübü, oda tipi ve transfer detaylarını kontrol edin.",
+                "Kaydet"
+              ],
+              [
+                "Otel / konsept",
+                "Bodrum otel önerisi",
+                "Bodrum’da gün batımı + otel deneyimi",
+                "Soru: Bodrum’da sakin otel deneyimi nasıl seçilir? → konum + manzara + ulaşım",
+                "Bodrum otel önerisi arayanlar için kısa kontrol: konum, manzara ve ulaşım kolaylığı.",
+                "Oda linki profilde"
+              ],
+              [
+                "B2B / how-to",
+                "reels retention nasıl artırılır",
+                "Reels retention nasıl artırılır?",
+                "Soru: İzlenme nerede düşüyor? → hook + tempo + net CTA",
+                "Reels retention artırmak için ilk 3 saniyeyi netleştirin, gereksiz girişleri çıkarın ve tek CTA kullanın.",
+                "DM “PLAN”"
+              ],
+              [
+                "B2B / problem",
+                "B2B reels nasıl yapılır",
+                "B2B’de reels ile lead nasıl alınır?",
+                "Problem → çözüm → proof → CTA",
+                "B2B reels üretiminde problem–çözüm–proof kurgusu, izleyiciyi aksiyona daha net taşır.",
+                "Link profilde"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Başlık sorgu gibi ama doğal mı?",
+              "Caption 2–3 maddede net mi?",
+              "On-screen text safe zone’da mı ve okunur mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Başlıkta “sorgu cümlesi” kuralını koy.",
+              "Caption’ı 3 parçaya böl: sorgu → mini cevap → CTA.",
+              "On-screen text’i soru–cevap formatında standardize et."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels Başlık/Caption & Social SEO Planlama Şablonunu İndir",
+            "text": "Reels başlığı, caption ve on-screen text’i “arama niyeti”ne göre tek sayfada planlar; keyword stuffing riskine düşmeden bulunabilirliği artırırsınız.",
+            "href": "/downloads/reels-baslik-caption-social-seo-planlama-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "hashtag-ve-ses-audio-sinyalleri",
+        "title": "Hashtag ve Ses (Audio) Sinyalleri — Kategori Etiketi Gibi Kullan",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hashtag konusu genelde ya abartılır ya da tamamen boşlanır. Social SEO açısından en sağlıklı yaklaşım: hashtag’leri “kategori etiketi” gibi kullanmak. 30 hashtag yığını yerine 3–6 net etiket, arama sinyali açısından daha temizdir."
+          },
+          {
+            "type": "h3",
+            "text": "Hashtag stratejisi (kategori mantığı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1–2 kategori: #otel #b2b (veya daha spesifik)",
+              "1–2 niyet: #otelonerisi #reelstaktikleri",
+              "1–2 yer/tema: #bodrum #antalya (spam yapmadan)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ses (audio) sinyali nasıl düşünülmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Audio, aramada doğrudan “keyword” gibi çalışmaz; ama içerik “format kimliği” ve trend yakalama için sinyal olabilir. Social SEO’da audio’nun rolü:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deneyim içeriklerinde mood/tempo taşıma (otel)",
+              "B2B’de mesajı bastırmayan minimal ses (anlaşılırlık)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Hashtag setim 3–6 arası mı?",
+              "Hashtag’ler kategori gibi mi, yoksa rastgele mi?",
+              "Audio mesajı bozuyor mu (B2B) veya duyguyu güçlendiriyor mu (otel)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her seri için 1 hashtag seti oluştur (tekrar edilebilir).",
+              "Audio’yu “trend” için değil “ton” için seç; B2B’de minimal tut.",
+              "Hashtag’leri doldurmak yerine niyeti güçlendiren 3–6 etikete in."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-aranabilir-reels-yapisi",
+        "title": "Otel ve B2B İçin “Aranabilir” Reels Yapısı (Şablonlar)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aranabilir Reels, tek tek iyi videolardan çok “tutarlı yapı”dır. Bu yüzden iki şablon öneriyorum:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel arama şablonu (konum + kategori + fayda)",
+              "B2B arama şablonu (problem + çözüm + proof + CTA)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel şablonu (Antalya/Belek/Side/Kemer/Bodrum örnekli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook (0–2 sn): “Belek’te aile oteli arayanlara 3 ipucu”",
+              "Cevap (2–12 sn): “çocuk kulübü / oda tipi / transfer”",
+              "Proof (opsiyonel): “en çok sorulan SSS”",
+              "CTA (final): “Kaydet” veya “Oda linki profilde”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B şablonu (how-to)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Reels’ten siteye trafik gelmiyor mu?”",
+              "Cevap: “caption + text + CTA uyumu” (2 madde)",
+              "Proof: “test et: 2 hook varyasyonu”",
+              "CTA: “DM ‘PLAN’” veya “link”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Arama sorusu” ile başlayan episodik seri"
+          },
+          {
+            "type": "p",
+            "text": "Social SEO’yu en iyi büyüten şey seri mantığıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Her Cuma 1 SSS (otel)”",
+              "“Her Pazartesi 1 reels taktiği (B2B/ajans)”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Otel reels’im konum + faydayı aynı anda veriyor mu?",
+              "B2B reels’im problem–çözüm–CTA net mi?",
+              "Bu yapıyı seri haline getirdim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel için 10 sorgu: “Bodrum otel + konsept” listesi çıkar, 10 reels yap.",
+              "B2B için 10 sorgu: “X nasıl yapılır?” listesi çıkar, 10 reels yap.",
+              "Her seride CTA’yı sabitle; ölçümü kolaylaştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "social-seo-ile-web-seo-stratejisini-birlestirmek",
+        "title": "Social SEO ile Web/SEO Stratejisini Birleştirmek (Topic Cluster Köprüsü)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada asıl kaldıraç var: Reels’i web/blog konu kümeleriyle eşleştirirseniz, kısa form sadece “izlenme” değil trafik ve otorite üretir. Mantık: web’de hangi cluster’larınız varsa, sosyal aramada da aynı niyet kümelerini çalışırsınız."
+          },
+          {
+            "type": "h3",
+            "text": "Cluster eşleştirme mantığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web cluster: “Yerel SEO”, “Reels stratejisi”, “B2B içerik SEO”",
+              "Social cluster: aynı soruların kısa video versiyonu",
+              "Köprü: caption’da “devamı blogda” + UTM ile ölçüm"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Pratik eşleştirme örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: “Antalya’da aile oteli seçimi” → web’de rehber → reels’te 3 ipucu → link",
+              "B2B: “reels retention nedir?” → web’de metrik rehberi → reels’te 20 sn açıklama → link",
+              "Ajans: “reels performans analizi” → web’de checklist → reels’te 1 madde → kaydet CTA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "text": "Social arama mantığına göre optimize edilen reels’lerin “nasıl yapılır / nereye gidilir” sorgularında daha iyi performans gösterdiği saha gözlemlerinde öne çıkıyor (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Web’de cluster’ım var mı, yoksa reels boşta mı?",
+              "CTA hedefim net mi (blog/landing/DM)?",
+              "UTM ile ölçüyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Web’deki 5 cluster’ı seç; her birinden 5 reels çıkar (25 reels plan).",
+              "Reels→web köprüsünü UTM ile takip et.",
+              "En iyi cluster’ı seri haline getir (episodik)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-keyword-stuffing-yerine-niyet",
+        "title": "Teknik Not: Keyword Stuffing Yerine Niyet (Spam Algısından Kaçın)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Social SEO’nun en büyük hatası “anahtar kelime doldurma”dır. Platformlar bunu spam gibi algılayabilir; kullanıcı da caption’ı okumaz. En sağlıklı kural:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 reels = 1 sorgu",
+              "1 caption = 1 doğal cümle + 2–3 destek madde",
+              "3–6 hashtag = kategori etiketleri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca arama davranışı ve arama sonuç görünümü dönemsel değişebilir (Refresh Cycle: 180). Bu nedenle caption örnekleri ve alan kullanımı periyodik güncellenmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Social SEO & Aranabilirlik Analizi Talep Et",
+            "text": "Reels’lerinizi arama niyetine göre yeniden yazıp (başlık/caption/text), web cluster’larıyla eşleştirerek sürdürülebilir bulunabilirlik kuralım.",
+            "href": "/smm/reels-video"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "reels-baslik-caption-social-seo-planlama-sablonu",
+        "title": "Reels Başlık/Caption & Social SEO Planlama Şablonunu İndir — Video Search",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Reels Başlık/Caption & Social SEO Planlama Şablonunu İndir — Video Search (v1.0)",
+            "purpose": "Bu şablon, reels’leri sosyal arama niyetine göre planlamak için başlık, caption, on-screen text ve hashtag alanlarını tek çerçevede toplar. “1 reels = 1 sorgu” yaklaşımıyla keyword stuffing riskini azaltır; otel destinasyon sorguları ve B2B how-to sorgularını web topic cluster’larıyla eşleştirerek trafikleri ölçülebilir hale getirir. 180 günlük döngüde arama davranışı değiştikçe güncellenebilir yapı sunar.",
+            "whoFor": "TR geneli; destinasyon otelleri ve B2B “how-to” içerik üreten markalar, ajanslar.",
+            "steps": [
+              "Her reels için 1 arama sorgusu seç.",
+              "Başlık/caption/on-screen text’i sorguya göre yaz ve hashtag setini kategori gibi belirle.",
+              "Web topic cluster ve CTA hedefini ekle; UTM ile ölç."
+            ],
+            "checklist": [
+              "Sorguyu başlık ve ilk karede net geçir.",
+              "Cevabı 2 maddeyle ver; uzun anlatma.",
+              "Hashtag’leri kategori etiketi gibi kullan; yığın yapma.",
+              "CTA tek aksiyon; caption’da doğal bir cümleyle ver.",
+              "180 gün döngüsünde örnekleri güncelle; spam algısından kaçın."
+            ],
+            "templates": [
+              {
+                "title": "A) Arama Sorgusu (1 reels = 1 sorgu)",
+                "items": [
+                  "Sorgu: ____________________",
+                  "Niyet: [ ] destinasyon/otel [ ] how-to/problem [ ] karşılaştırma",
+                  "Persona: ____________________"
+                ]
+              },
+              {
+                "title": "B) Başlık (sorgu cümlesi)",
+                "items": [
+                  "Başlık: ____________________ (55 karakteri zorlamadan, doğal)"
+                ]
+              },
+              {
+                "title": "C) On-screen text (soru → cevap → CTA)",
+                "items": [
+                  "İlk kare soru: ____________________",
+                  "2 maddelik cevap: 1) ____ 2) ____",
+                  "Final CTA metni: ____________________"
+                ]
+              },
+              {
+                "title": "D) Caption (3 parça)",
+                "items": [
+                  "Sorgu cümlesi: ____________________",
+                  "Mini açıklama (2–3 madde): ____________________",
+                  "Tek CTA: [ ] Kaydet [ ] DM [ ] Link — metin: ____________"
+                ]
+              },
+              {
+                "title": "E) Hashtag seti (3–6)",
+                "items": [
+                  "#________ #________ #________ #________"
+                ]
+              },
+              {
+                "title": "F) Web/SEO cluster köprüsü",
+                "items": [
+                  "Cluster sayfa/blog: ____________________",
+                  "İç link hedefi: https://dgtlface.com/tr/seo/icerik-seo (örnek)",
+                  "UTM: [ ] var [ ] yok"
+                ]
+              },
+              {
+                "title": "G) KPI",
+                "items": [
+                  "Hedef KPI: [ ] arama izlenmesi [ ] account visits [ ] saves [ ] clicks/DM",
+                  "2 hafta sonra karar: [ ] devam [ ] pivot"
+                ]
+              }
+            ],
+            "href": "/downloads/reels-baslik-caption-social-seo-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Reels için social SEO nedir?",
+        "a": "Reels’in başlık, caption, on-screen text ve hashtag alanlarını arama niyetine göre doğal cümlelerle kurgulayarak sosyal aramalarda bulunabilirliği artırma yaklaşımıdır. Keyword stuffing değil, soru–cevap netliğidir."
+      },
+      {
+        "q": "Başlık ve caption’da anahtar kelimeleri nasıl kullanmalıyım?",
+        "a": "1 reels = 1 sorgu mantığıyla hareket edin. Başlıkta sorgu cümlesini verin, caption’da 2–3 maddeyle cevabı genişletip tek CTA ile bitirin."
+      },
+      {
+        "q": "On-screen text social SEO’da neden önemli?",
+        "a": "Sessiz izlemeyi taşır ve “soru–cevap” yapısını görünür kılar. Arama niyetine uygun soru metni, videonun mesajını hızlı anlatır ve retention’ı destekler."
+      },
+      {
+        "q": "Otel ve B2B için örnek arama odaklı reels kurguları neler?",
+        "a": "Otelde “bölge + konsept + 3 ipucu” (ör. Bodrum aile oteli); B2B’de “problem + çözüm + CTA” (ör. reels retention nasıl artar) kurguları aranabilirliği artırır."
+      },
+      {
+        "q": "Reels’i web/SEO topic cluster’larıyla nasıl eşleştiririm?",
+        "a": "Web’deki konu kümelerindeki soruları reels’te kısa cevaplara çevirin ve caption’da “devamı blogda” CTA’sı kullanın. UTM/event tracking ile kısa→uzun trafik köprüsünü ölçün."
+      },
+      {
+        "q": "Hashtag’leri nasıl kullanmalıyım?",
+        "a": "Hashtag’leri kategori etiketi gibi 3–6 arası tutun. Rastgele yığın yapmak yerine kategori + niyet + yer/tema kombinasyonu kullanın."
+      },
+      {
+        "q": "Keyword stuffing yaparsam ne olur?",
+        "a": "Okunabilirlik düşer, spam algısı oluşur ve performans sinyalleri zayıflayabilir. Doğal cümle + tek sorgu yaklaşımı daha güvenlidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-hero-01.webp — Reels social SEO ile aramada görünürlük sağlayan kapak görseli",
+          "h1-context — 1920×1080 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-h1-context-02.webp — Başlık–caption–text–hashtag alanlarının arama rolünü gösteren bağlam görseli",
+          "divider-01 — 1600×1200 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-divider-03.webp — Sosyal arama niyeti ve reels yapısını ayıran bölüm görseli",
+          "divider-02 — 1600×1200 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-divider-04.webp — Hashtag ve audio sinyallerini özetleyen bölüm görseli",
+          "diagram-05 — 1920×1080 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-diagram-05.webp — Video-first social SEO modeli ve web cluster köprüsü diyagramı",
+          "checklist-06 — 1200×1200 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-checklist-06.webp — Reels social SEO checklist kartı",
+          "kpi-07 — 1200×1200 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-kpi-07.webp — Arama görünürlüğü KPI kartı",
+          "proof-08 — 1200×1200 — reels-icin-social-seo-ve-video-arama-tetikleyicileri-proof-08.webp — Caption + on-screen text örnekleri proof kartı",
+          "table-social-seo-caption-onscreen — Social SEO uyumlu caption + on-screen text örnek tablosu (otel/B2B)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları PAA hedefleriyle eşleşiyor",
+          "İç link hedefleri kontrol edildi: /smm/reels-video, /seo/icerik-seo, /smm/icerik-uretimi",
+          "Primary CTA H1 sonunda ve son 1/3’te konumlandı",
+          "Secondary CTA Download Asset olarak eklendi",
+          "Media pack slot adları section içi media bloklarıyla eşleşiyor",
+          "Social SEO uyumlu caption + on-screen text örnek tablosu ilgili bölüme eklendi",
+          "Keyword stuffing/spam algısı teknik not bölümünde işlendi",
+          "Trend içerik olduğu için 180 gün refresh notu teknik kontrol listesine dahil edildi",
+          "Reels → web/SEO topic cluster köprüsü ve UTM ölçüm önerisi içerikte işlendi"
+        ]
+      }
+    }
+  },
+
+   "BlogAsmrPovVeSinematikReelsYeniVideoTrendleri": {
+    "title": "ASMR, POV, Sinematik Reels: Trendleri Seçici Kullan",
+    "slug": "asmr-pov-ve-sinematik-reels-yeni-video-trendleri",
+    "department": "smm",
+    "subDepartment":"reels",
+    "updatedAt": "15 Haziran 2026",
+    "publishedAt": "2026-06-15",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "ASMR/POV/sinematik trendlerini kopyalamayın: marka tonu ve KPI’ya göre pilot test edin. Otel/B2B için güvenli örnekler, storyboard’lar ve trend dozaj checklist’i.",
+    "seo": {
+      "metaTitle": "ASMR, POV, Sinematik Reels: Trendleri Seçici Kullan | DGTLFACE",
+      "metaDescription": "ASMR/POV/sinematik trendlerini kopyalamayın: marka tonu ve KPI’ya göre pilot test edin. Otel/B2B için güvenli örnekler, storyboard’lar ve “trend dozaj” checklist’i."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı + Sayfa URL: Reels & Video İçerik Üretimi — https://dgtlface.com/tr/smm/reels-video",
+        "Blog No + Blog URL: Blog #23 — https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri"
+      ],
+      "strategySummary": "Bu blog, ASMR, POV ve sinematik reels gibi trend formatları “körü körüne kopyalama” yerine marka uyumu + KPI filtresiyle seçerek stratejiye dahil etmeyi anlatan Trend rehberidir. Hedef persona; deneyim/duygu satan otel, turizm ve lifestyle markalar ile premium segmente oynayan ekipler ve ajans yöneticileridir; ayrıca B2B tarafı için “dozaj” ve güven sınırları kritiktir. Funnel açısından MoFu’da (duygu/güven) etki yaratır; doğru CTA ile BoFu’ya (trafik/rezervasyon/lead) köprü kurar. Ana iş sorusu: “ASMR/POV/sinematik markama uyar mı; nasıl pilot test eder, nasıl standardize eder ve ‘aşırı trendci’ görünmeden denge kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-15",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "ASMR, POV ve sinematik reels formatları duygu ve deneyimi aktarmada güçlüdür; ancak her marka ve hedef için uygun değildir. En sağlıklı yaklaşım, trendleri küçük pilotlarla test edip yalnızca markaya ve KPI’ya uyan formatları standardize etmektir. Otellerde ASMR (ambiyans), POV (gözünden bir gün) ve sinematik (slow-motion) deneyimi güçlendirir; B2B’de ise dozaj düşük tutulmalı, anlaşılırlık ve güven korunmalıdır. “Aşırı trendci” görünmeden denge, seri format ve ölçümle kurulur.",
+      "sgeSummary": "ASMR/POV/sinematik trendlerini pilot test et; KPI ve marka tonuna uyanı seçip seri yap. Otelde duygu/deneyim güçlü; B2B’de dozaj düşük, net mesaj ve proof öncelikli.",
+      "voiceAnswer": "Uyar; önce 2 haftalık pilot test et, KPI’ya uyan formatı seçip seri yap, dozajı koru.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm/lifestyle markalar; premium segment; B2B için kontrollü kullanım",
+        "KPI: izlenme süresi/retention, kaydetme/paylaşma, profil ziyareti, tıklama/rezervasyon/lead",
+        "Entity seti: ASMR; POV; Cinematic Reels; Trend Formats; Experimentation",
+        "AIO modeli: “trend format değerlendirme modeli” = uyum → pilot → ölçüm → standardize/pivot",
+        "Geo: TR geneli; örneklerde Antalya/Belek/Side/Kemer/Bodrum doğal",
+        "Risk: aşırı trend kullanımı markayı “ciddi olmayan” gösterebilir (özellikle B2B/premium otel)",
+        "Çıktı: storyboard kolajı + pilot planı + trend checklist"
+      ]
+    },
+    "h1": {
+      "title": "ASMR, POV ve Sinematik Reels: Yeni Video Trendlerini Stratejiye Nasıl Dahil Edersiniz?",
+      "intro": "Trend formatlar her yerde: ASMR sesler, POV “gözünden” videolar, sinematik slow-motion geçişler… Bu trendler doğru kullanıldığında otel ve deneyim markalarında “içine alma” etkisi yaratır; yanlış kullanıldığında ise marka tonunu bozar ve içerikler “kopya” görünür. B2B tarafında risk daha da büyüktür: aşırı trend, güven ve ciddiyet algısını zedeleyebilir. Bu yüzden trendleri stratejiye dahil etmenin yolu “hemen uygulamak” değil; uyum filtresi + küçük pilot + KPI ile karardır. Bu rehber, hangi trendin hangi marka için uygun olduğunu, güvenli kullanım örneklerini, pilot test akışını ve standardize etme kriterlerini verir.",
+      "quickSummary": [
+        "1) Trend formatı kopyalamadan önce marka tonu ve KPI filtresinden geçir",
+        "2) ASMR, POV ve sinematik reels’i kullanım amacına göre ayır",
+        "3) Otel/turizmde duygu ve deneyimi güçlendir; B2B’de dozajı düşük tut",
+        "4) 2 haftalık pilot planla formatları test et",
+        "5) Kazanan formatı seri yap, uymayanı pivot et veya düşük dozajda bırak"
+      ],
+      "ctaPrimary": {
+        "label": "ASMR/POV/Sinematik Reels Trend Analizi Talep Et",
+        "text": "Markanız için trend format uyumunu, pilot test planını ve seri standardını birlikte çıkaralım.",
+        "href": "/smm/reels-video"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "ASMR/POV/Sinematik Reels Trend Analizi Talep Et",
+        "text": "Markanıza uyan trend formatları seçip pilot test ve KPI çerçevesiyle standardize ederiz; trendci görünmeden doğru dozajı kurarız.",
+        "href": "/smm/reels-video"
+      },
+      "secondary": {
+        "label": "Trend Reels Format Değerlendirme & Pilot Planlama Şablonunu İndir",
+        "text": "ASMR/POV/sinematik formatları uyum–KPI–pilot sonuçlarına göre puanlar; kazananı seri yapıp kaybedeni pivot etmenizi kolaylaştırır.",
+        "href": "/downloads/trend-reels-format-degerlendirme-pilot-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Reels & Video İçerik Üretimi",
+        "href": "/smm/reels-video"
+      },
+      {
+        "title": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      },
+      {
+        "title": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "asmr-pov-ve-sinematik-reels-nedir",
+        "title": "ASMR, POV ve Sinematik Reels Nedir? (Kısa Tanım + Ne İşe Yarar?)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Trendleri doğru yönetmek için önce üç formatı net ayıralım:"
+          },
+          {
+            "type": "h3",
+            "text": "ASMR (duyusal ambiyans)"
+          },
+          {
+            "type": "p",
+            "text": "ASMR reels, çoğu zaman konuşmadan çok ortam sesiyle (kahve, dalga, spa, tabak sesi) “his” taşır. Otel ve lifestyle’da güçlüdür; çünkü duygu satarsınız. B2B’de ise dikkatli kullanılmalı; sesin “gimmick” olmaması gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "POV (gözünden bir gün)"
+          },
+          {
+            "type": "p",
+            "text": "POV, izleyiciyi sahnenin içine koyar: “senin gözünden”. “1 gün sende” formatı bunun en pratik hâlidir. Otelde destinasyon/deneyim için çok güçlü; B2B’de “müşteri/ekip gözünden süreç” gibi kurgulanabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Sinematik (slow-motion + geçiş estetiği)"
+          },
+          {
+            "type": "p",
+            "text": "Sinematik reels, görsel kalite algısını yükseltir (premium otellerde özellikle). Ancak aşırı geçiş/efekt “yapay” his yaratabilir. B2B’de sinematik daha çok “kurumsal ciddiyet” için minimal kullanılmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Markam “duygu” mu satıyor, “bilgi/kanıt” mı?",
+              "Trend formatın amacı net mi (retention/saves/brand)?",
+              "Format, marka tonunu bozuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde ASMR/POV’yi ana trend; sinematiği premium cilası olarak kullan.",
+              "B2B’de POV’yi süreç/kanıt için; ASMR’yi minimal; sinematiği sade kullan.",
+              "Her trend için 1 hedef KPI belirle (kaydetme mi, retention mı?)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "asmr-ve-pov-reels-nedir-nasil-kullanilir",
+        "title": "ASMR ve POV Reels Nedir, Nasıl Kullanılır? ",
+        "blocks": [
+          {
+            "type": "callout",
+            "variant": "answer",
+            "title": "ASMR ve POV reels nedir, nasıl kullanılır?",
+            "text": "Cevap: ASMR reels, ortam sesleriyle duygu ve ambiyans taşır; POV reels ise izleyiciyi “senin gözünden” deneyimin içine sokar. Otelde ASMR (kahve/dalga/spa) ve POV (1 gün sende) kaydetme ve izlenme süresini güçlendirebilir; B2B’de POV, süreci basitleştirmek için daha uygundur. Her iki format da kısa, net ve marka tonuna uyumlu kullanılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için güvenli ASMR örnekleri (basit storyboard)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kahve: çekim + kahve sesi + minimal metin (“Sabah ritüeli”)",
+              "Dalga: sahil + ambiyans + “Bodrum’da akşam hissi”",
+              "Spa: havlu/yağ/ambiyans + “sakinlik” CTA: “kaydet”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel için güvenli POV örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Check-in’den gün batımına” (sabah–gün–akşam)",
+              "“Çocuklu aile için 3 an” (POV: aile)",
+              "“Çift konsepti” (POV: romantik)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "ASMR’de ses temiz mi (gürültü yok mu)?",
+              "POV’de izleyici “ben buradayım” hissini alıyor mu?",
+              "Metin minimal ve okunur mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "ASMR’de 1 ses kaynağı seç; karıştırma.",
+              "POV’de “1 gün sende” omurgası kur; 3 blok yeter.",
+              "Her videoda tek duygu ve tek mesaj kuralını uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-marka-icin-hangi-trend-uygun",
+        "title": "Hangi Marka İçin Hangi Trend Uygun? (Uyum Matrisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Trend seçimi, “beğeni” değil “uyum” işidir. Uyum, üç bileşenle okunur: marka tonu, hedef KPI, kitle beklentisi."
+          },
+          {
+            "type": "h3",
+            "text": "Uyum soruları (hızlı filtre)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka tonum: premium/sakin mi, enerjik mi, uzman mı?",
+              "Hedefim: kaydetme mi, tıklama mı, güven mi?",
+              "Kitle: eğlence mi bekliyor, bilgi mi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Uyum matrisi (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Premium otel: sinematik + minimal ASMR (yüksek uyum), POV (orta-yüksek uyum)",
+              "Lifestyle/deneyim: ASMR + POV (yüksek), sinematik (orta)",
+              "B2B: POV (orta, süreç anlatımı), sinematik (düşük-orta, minimal), ASMR (düşük, çok seçici)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (dozaj): Aşırı trend kullanımı markayı “ciddi olmayan” gösterebilir; bu yüzden özellikle B2B ve premium otel segmentinde dozaj ayarı önemlidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Trend format marka tonumu güçlendiriyor mu?",
+              "Bu formatın KPI hedefi net mi?",
+              "Dozaj planım var mı (haftada kaç trend video)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Premium/B2B’de trend oranını %10–20 bandında tut (Varsayım: içerik karmasında düşük).",
+              "Lifestyle/deneyimde trend oranı daha yüksek olabilir; yine de seri standardı kur.",
+              "Uyum matrisi ile 2 format seç, 1 formatı “opsiyon” bırak."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-guvenli-kullanim-ornekleri",
+        "title": "Otel ve B2B İçin Güvenli Kullanım Örnekleri (Storyboard Setleri)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Trendleri “güvenli” kullanmak, hem marka tonu hem operasyonel risk (KVKK/etik) açısından önemlidir. Özellikle kalabalık alanlarda yüzler, çocuklar ve üçüncü kişi detayları kontrol edilmelidir (gerekirse yüzsüz kadraj veya maskeleme)."
+          },
+          {
+            "type": "h3",
+            "text": "Otel storyboard seti (3’lü)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "ASMR: “Sabah kahvesi + balkon” (15–20 sn) → CTA: Kaydet",
+              "POV: “1 gün sende: kahvaltı–deniz–gün batımı” (25–35 sn) → CTA: Profilde paket",
+              "Sinematik: “Premium oda detayları” (15–25 sn) → CTA: Oda seçenekleri linkte"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B storyboard seti (2’li)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "POV (süreç): “Bir müşteri görüşmesi öncesi 3 hazırlık” (20–30 sn) → CTA: DM “PLAN”",
+              "Minimal sinematik: “Dashboard preview + 3 KPI” (15–20 sn) → CTA: Demo linki"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Otelde duygu sahnesi güçlü mü (kaydetme için)?",
+              "B2B’de mesaj net mi (trend estetiği mesajı boğmuyor mu)?",
+              "KVKK/izin riski tarandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde trend formatı “deneyim” içeriklerine bağla; rezervasyon CTA’yı finalde netleştir.",
+              "B2B’de trendi estetik cilası olarak kullan; ana yapı PSR ve proof olsun.",
+              "Trend storyboard’larını 2 hafta pilotla test et, sonra seri yap."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Trend Reels Format Değerlendirme & Pilot Planlama Şablonunu İndir",
+            "text": "ASMR/POV/sinematik formatları uyum–KPI–pilot sonuçlarına göre puanlar; kazananı seri yapıp kaybedeni pivot etmenizi kolaylaştırır.",
+            "href": "/downloads/trend-reels-format-degerlendirme-pilot-planlama-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "trendleri-test-etme-ve-standardize-etme",
+        "title": "Trendleri Test Etme ve Standardize Etme (Pilot → KPI → Karar)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Trend formatların ömrü kısa; bu yüzden ana yetenek “trend yakalamak” değil, trend değerlendirmektir. En iyi süreç: küçük pilotlar + KPI ile karar."
+          },
+          {
+            "type": "h3",
+            "text": "2 haftalık pilot plan (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2 ASMR klip",
+              "2 POV klip",
+              "2 sinematik klip",
+              "Toplam 6 içerik, aynı haftalarda yayınlanır. KPI’lar kıyaslanır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KPI okuma (hangi format neyi güçlendirir?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ASMR: izlenme süresi + kaydetme eğilimi",
+              "POV: retention + account visits",
+              "Sinematik: algı + paylaşma (bazen)",
+              "Varsayım: Trend formatları seçici kullanan markalar, hem çağın diline uyum sağlıyor hem de marka tonunu koruyarak daha kalıcı değer üretebiliyor."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Standardize etme kriteri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2 hafta üst üste benzer sinyal üretmesi",
+              "Marka tonuna uyum (yorum kalitesi)",
+              "Üretim maliyeti makul olması",
+              "Risk (KVKK/etik/telif) kontrol altında olması"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Format → marka uyumu → hedef KPI → pilot sonucu → karar",
+            "headers": [
+              "Format",
+              "Marka uyumu",
+              "Hedef KPI",
+              "Pilot sonucu",
+              "Karar"
+            ],
+            "rows": [
+              [
+                "ASMR",
+                "Otel/lifestyle için yüksek; B2B için seçici",
+                "İzlenme süresi, kaydetme",
+                "2 haftalık pilotta ses kalitesi + retention okunur",
+                "Standardize / düşük dozaj / bırak"
+              ],
+              [
+                "POV",
+                "Otel deneyiminde yüksek; B2B süreç anlatımında orta",
+                "Retention, profil ziyareti",
+                "“1 gün sende” veya süreç akışında sinyal ölçülür",
+                "Seri yap / pivot"
+              ],
+              [
+                "Sinematik",
+                "Premium otelde yüksek; B2B’de minimal",
+                "Paylaşma, algı, profil ziyareti",
+                "Görsel kalite ve yorum kalitesi birlikte okunur",
+                "Premium seri / düşük dozaj"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Pilot testte tek değişken mi var? (format)",
+              "KPI’lar format hedefiyle uyumlu mu?",
+              "Standardize etmeye yetecek veri var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Pilot testte formatları aynı mesaj ailesi içinde tut (kıyas adil olsun).",
+              "Kazanan formatı 6 bölümlük seri yap (episodik).",
+              "Kaybedeni tamamen atma; “düşük dozaj” olarak kenarda tut."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "fazla-trendci-gorunmeden-denge-kurmak",
+        "title": "Fazla “Trendci” Görünmeden Denge Kurmak (Marka Tonu Koruma)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Trend kullanımı bir “baharat” olmalı, ana yemek değil. Özellikle premium oteller ve B2B’de trendlerin aşırı kullanımı “ciddiyetsizlik” algısı yaratabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Denge için 3 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Trend oranı düşük: haftalık içerikte sınırlı slot",
+              "Trend bile olsa mesaj net: tek mesaj + tek CTA",
+              "Brand anchors: her hafta 1 “evergreen” seri (SSS, ipucu, case)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Trend → evergreen dönüşümü"
+          },
+          {
+            "type": "p",
+            "text": "Trend format tuttuysa, onu “marka formatı”na dönüştürün:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“ASMR: otelde 1 dakika sakinlik” serisi",
+              "“POV: 30 saniyede 1 gün” serisi",
+              "“Sinematik: oda detayı” serisi",
+              "Böylece trend “geçici” değil “kalıcı format” olur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Bu bölüm için)",
+            "items": [
+              "Trend içerik oranı kontrol altında mı?",
+              "Brand anchors (evergreen seriler) var mı?",
+              "Trend formatı seri haline getirdim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Haftalık 1 trend slot + 2 evergreen slot kuralı koy (Varsayım).",
+              "Trend format tutarsa 6 bölüm seri yap; sonra yeniden değerlendir.",
+              "180 gün döngüsünde trend örneklerini ve dozajı güncelle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "ASMR/POV/Sinematik Reels Trend Analizi Talep Et",
+            "text": "Marka tonu ve KPI’lara göre trend format uyumunu belirleyip pilot test + seri standardını çıkaralım.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "trend-reels-format-degerlendirme-pilot-planlama-sablonu",
+        "title": "Trend Reels Format Değerlendirme & Pilot Planlama Şablonunu İndir — Trend Formats",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Trend Reels Format Değerlendirme & Pilot Planlama Şablonunu İndir — Trend Formats (v1.0)",
+            "purpose": "Bu şablon, ASMR/POV/sinematik gibi trend formatları “hemen kopyalama” yerine marka uyumu ve KPI hedeflerine göre değerlendirmek için tasarlandı. 2 haftalık pilot plan, format–dozaj–mesaj standardı ve karar kriterleri (standardize/pivot/bırak) tek sayfada yönetilir. Trendlerin 180 günlük ömürde periyodik gözden geçirilmesini sağlar.",
+            "whoFor": "TR geneli; deneyim ve duygu satışı yapan otel/turizm/lifestyle markalar ve ajanslar (B2B’de kontrollü kullanım için de uygundur).",
+            "steps": [
+              "Marka tonu ve hedef KPI’ya göre formatları puanla.",
+              "2 haftalık pilot seti hazırla (6 video: 2 ASMR, 2 POV, 2 sinematik).",
+              "Sonuçlara göre kazananı seri yap, diğerlerini pivot et."
+            ],
+            "checklist": [
+              "Marka tonu tanımlandı: premium/sakin, enerjik, uzman veya lifestyle",
+              "Her format için hedef KPI seçildi",
+              "2 haftalık pilot seti hazırlandı",
+              "KVKK/etik/telif riski kontrol edildi",
+              "Kazanan format için 6 bölümlük seri planlandı",
+              "180 gün refresh döngüsü not edildi"
+            ],
+            "templates": [
+              {
+                "title": "TEMPLATE: Trend Format Uyum Puanlama",
+                "items": [
+                  "Format: [ ] ASMR [ ] POV [ ] Sinematik",
+                  "Marka tonu uyumu: 1–5",
+                  "Hedef KPI: retention / saves / shares / profile visits / clicks",
+                  "Üretim maliyeti: düşük / orta / yüksek",
+                  "Risk: KVKK / etik / telif / marka tonu",
+                  "Karar: standardize / pivot / düşük dozaj / bırak"
+                ]
+              },
+              {
+                "title": "TEMPLATE: 2 Haftalık Pilot Plan",
+                "items": [
+                  "Hafta 1: 1 ASMR + 1 POV + 1 sinematik",
+                  "Hafta 2: 1 ASMR + 1 POV + 1 sinematik",
+                  "Kıyas kuralı: aynı mesaj ailesi, benzer yayın saatleri",
+                  "Ölçüm: retention, saves, shares, profile visits, clicks/lead"
+                ]
+              },
+              {
+                "title": "TEMPLATE: Karar Kriterleri",
+                "items": [
+                  "2 hafta üst üste benzer sinyal üretiyor mu?",
+                  "Marka tonuna uyuyor mu?",
+                  "Yorum kalitesi olumlu mu?",
+                  "Üretim maliyeti sürdürülebilir mi?",
+                  "Risk kontrol altında mı?"
+                ]
+              }
+            ],
+            "href": "/downloads/trend-reels-format-degerlendirme-pilot-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "ASMR ve POV reels nedir, nasıl kullanılır?",
+        "a": "ASMR reels ortam sesleriyle duygu taşır; POV reels izleyiciyi “senin gözünden” deneyimin içine sokar. Otelde deneyim aktarımı için güçlü, B2B’de ise POV süreç anlatımı için daha uygun olabilir."
+      },
+      {
+        "q": "Hangi marka için sinematik reels uygun?",
+        "a": "Premium ve deneyim odaklı markalarda sinematik estetik algıyı yükseltir. B2B’de ise minimal dozajla, mesajı boğmadan kullanmak gerekir."
+      },
+      {
+        "q": "Otel ve B2B için trend format örnekleri neler?",
+        "a": "Otelde ASMR (kahve/dalga/spa), POV (1 gün sende), sinematik (oda detayları). B2B’de POV (süreç), minimal sinematik (dashboard preview) ve çok seçici ASMR (ambiyans) örnekleri denenebilir."
+      },
+      {
+        "q": "Trendleri denemek ile stratejiye yerleştirmek arasındaki denge nasıl kurulur?",
+        "a": "2 haftalık pilot test yapıp KPI ile karar verin. Uyan formatı 6 bölümlük seri haline getirip standardize edin; uymayanı pivot edin veya düşük dozajda bırakın."
+      },
+      {
+        "q": "Trend formatlar markayı “ciddi olmayan” gösterebilir mi?",
+        "a": "Evet, özellikle B2B ve premium otellerde aşırı trend kullanımı bu riski taşır. Dozajı sınırlı tutmak ve brand anchor (evergreen seri) içeriklerle dengelemek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-hero-01.webp — ASMR/POV/sinematik trendlerini stratejiye dahil etme kapak görseli",
+          "h1-context — 1920×1080 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-h1-context-02.webp — Pilot test ve standardize akışını gösteren bağlam görseli",
+          "divider-01 — 1600×1200 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-divider-03.webp — Trend format tanımlarını ayıran bölüm görseli",
+          "divider-02 — 1600×1200 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-divider-04.webp — Uygunluk/dozaj filtresini özetleyen bölüm görseli",
+          "diagram-05 — 1920×1080 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-diagram-05.webp — Trend deneme→performans→standardize diyagramı",
+          "checklist-06 — 1200×1200 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-checklist-06.webp — Trend format checklist kartı",
+          "kpi-07 — 1200×1200 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-kpi-07.webp — Trend format KPI kıyası skor kartı",
+          "proof-08 — 1200×1200 — asmr-pov-ve-sinematik-reels-yeni-video-trendleri-proof-08.webp — Storyboard kolajı ve pilot plan proof kartı",
+          "table-trend-format-evaluation — Format → marka uyumu → hedef KPI → pilot sonucu → karar tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage schema soruları PAA hedefleriyle eşleşiyor",
+          "İç link hedefleri kontrol edildi: /smm/reels-video, /creative/video-produksiyon, /smm/icerik-uretimi",
+          "Primary CTA H1 sonunda ve son 1/3’te konumlandı",
+          "Secondary CTA Download Asset olarak eklendi",
+          "Media pack slot adları section içi media bloklarıyla eşleşiyor",
+          "Format → marka uyumu → hedef KPI → pilot sonucu → karar tablosu pilot test bölümüne eklendi",
+          "Trend içerik olduğu için 180 gün refresh döngüsü teknik kontrol listesine dahil edildi",
+          "KVKK/etik/telif riski güvenli kullanım ve pilot plan bölümlerinde işlendi",
+          "Trend dozajı ve brand anchor dengelemesi sonuç bölümünde işlendi"
         ]
       }
     }

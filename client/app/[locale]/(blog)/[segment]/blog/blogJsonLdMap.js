@@ -64356,6 +64356,948 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"reels-uretim-ekibi-rol-ve-surec-tasarimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi",
+
+      "name": "Sosyal Medya Reels Üretim Ekibi: Rol, Görev ve Süreç Tasarımı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#breadcrumb"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#webpage"
+
+      },
+
+      "headline": "Sosyal Medya Reels Üretim Ekibi: Rol, Görev ve Süreç Tasarımı",
+
+      "description": "Reels üretiminde strateji, kreatif fikir, çekim, montaj, yayın ve raporlama adımlarının sahiplerini netleştirerek süreci task yönetim araçlarıyla tekrar edilebilir hâle getirin; kalite ve yayın istikrarını artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "datePublished": "2026-03-17",
+
+      "dateModified": "2026-03-17",
+
+      "keywords": [
+
+        "reels üretim ekibi rol dağılımı",
+
+        "küçük ekiple kısa video süreci",
+
+        "ajans iç ekip reels workflow",
+
+        "production team",
+
+        "roles & workflow",
+
+        "task management",
+
+        "in-house vs agency"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+
+      "name": "Reels & Video İçerik Üretimi",
+
+      "serviceType": "Short-Form Video Strategy & Production",
+
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "areaServed": { "@type": "Country", "name": "TR" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Reels & Video İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/reels-video" },
+
+        { "@type": "ListItem", "position": 4, "name": "Reels Üretim Ekibi: Rol ve Süreç Tasarımı", "item": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reels üretim ekibinde hangi roller olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Çekirdek roller strateji, kreatif, çekim, montaj, yayın ve raporlamadır. Küçük ekipte aynı kişi birden fazla rol üstlenebilir; ancak sorumluluklar yazılı olmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Küçük bir ekipte kısa video üretimini nasıl organize ederim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "1–2 kişilik modelle başlayın; rol şapkalarını yazılı ayırın. Seri şablonları ve batching yaklaşımı üretim yükünü azaltır; haftalık rapor rutini kurun." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ajans ve iç ekip birlikte çalışırken süreç nasıl tasarlanmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "RACI ile rol sınırlarını çizin ve tek onay sahibi belirleyin. Ajans üretimde sorumlu olurken iç ekip marka/onay ve operasyon gerçekliğinden sorumlu olur; KPI review ortak yapılır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Brief’ten yayına kadar reels üretim akışı nasıl görünür?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Brief → çekim → montaj → onay → yayın → rapor akışı tek bir task board üzerinde kolonlarla yönetilmelidir. Revizyon turu ve süreleri net yazılmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#howto",
+
+      "name": "Reels Üretim Süreci Nasıl Tasarlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Rolleri ve onay sahibini belirle", "text": "Strateji, kreatif, çekim, montaj, yayın ve rapor rollerini yaz; tek onay sahibi (A) ata." },
+
+        { "@type": "HowToStep", "name": "Workflow board’u kur", "text": "Brief→çekim→montaj→onay→yayın→rapor kolonlarını oluştur; kartlarda deadline, sorumlu, durum ve not alanlarını zorunlu tut." },
+
+        { "@type": "HowToStep", "name": "Haftalık ritim ve KPI review yap", "text": "Planning–üretim–yayın–rapor döngüsünü haftalık sabitle; revizyonları azaltmak için öğrenimleri standarda çevir." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-uretim-ekibi-rol-ve-surec-tasarimi#speakable",
+
+      "cssSelector": [ "h1", ".answer-block" ]
+
+    }
+
+  ]
+
+},
+
+"ai-destekli-reels-kurgu-ve-otomatik-edit-araclari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari",
+
+      "name": "AI Destekli Reels Kurgu ve Otomatik Edit Araçları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#webpage" },
+
+      "headline": "AI Destekli Reels Kurgu ve Otomatik Edit Araçları",
+
+      "description": "AI edit araçlarını hız için kullanın; ancak storyboard, marka tonu ve final kurgu kararını insan kreatif ve stratejiste bırakın. Template, auto-caption ve beat sync’i hibrit workflow ile yönetin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "datePublished": "2026-03-17",
+
+      "dateModified": "2026-03-17",
+
+      "keywords": [
+
+        "ai destekli reels edit",
+
+        "capcut template marka tonu",
+
+        "otomatik altyazı beat sync kullanımı",
+
+        "ai editing",
+
+        "auto-caption",
+
+        "templates",
+
+        "beat sync",
+
+        "human oversight"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+
+      "name": "Reels & Video İçerik Üretimi",
+
+      "serviceType": "Short-Form Video Strategy & Production",
+
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "areaServed": { "@type": "Country", "name": "TR" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Reels & Video İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/reels-video" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI Destekli Reels Kurgu ve Otomatik Edit Araçları", "item": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI destekli edit araçları reels için nasıl kullanılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "AI’ı taslak hızlandırıcı olarak kullanın: auto-caption, otomatik cut ve template ile rough cut çıkarın. Finalde marka tonu ve CTA kararını insan kreatif/stratejist versin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Şablonlarla çalışırken marka tonunu nasıl korurum?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Template’i iskelet olarak kullanın; hook metni, kapak dili, B-roll seçimi ve final CTA’yı markalaştırın. Böylece aynı template bile farklı görünür." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otomatik altyazı ve beat sync gerçekten işe yarıyor mu?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Doğru içerikte işe yarar: auto-caption konuşmalı içerikte hız kazandırır, beat sync deneyim videolarında tempo verir. Yayın öncesi insan kontrolü şarttır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI ile üretilen içerikler neden birbirine benziyor?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Aynı template setleri ve aynı estetik dil tekrarlandığı için. Marka preset’i, özgün B-roll ve custom hook/CTA ile benzerlik riski azaltılabilir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#howto",
+
+      "name": "AI ile Reels Kurgusu Nasıl Hibrit Yapılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Mesajı ve CTA’yı kilitle", "text": "Tek mesaj ve tek aksiyon CTA belirle; storyboard’u yaz ve hedefi netleştir." },
+
+        { "@type": "HowToStep", "name": "AI ile rough cut üret", "text": "Template/auto cut/beat sync ile taslak kurgu çıkar; auto-caption ile altyazı üret." },
+
+        { "@type": "HowToStep", "name": "İnsan QA ile finalize et", "text": "Altyazıyı düzelt, marka tonunu kapak/metin diliyle uygula, risk ve export kontrolü yapıp yayınla." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari#speakable",
+
+      "cssSelector": [ "h1", ".answer-block" ]
+
+    }
+
+  ]
+
+},
+
+"reels-icin-social-seo-ve-video-arama-tetikleyicileri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri",
+
+      "name": "Reels İçin Social SEO ve Video Arama Tetikleyicileri",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#breadcrumb"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#webpage"
+
+      },
+
+      "headline": "Reels İçin Social SEO ve Video Arama Tetikleyicileri",
+
+      "description": "Reels’i sosyal arama (social SEO) mantığıyla; başlık, caption, on-screen text ve hashtag alanlarında arama niyetine uygun kelimelerle kurgulayarak Instagram/TikTok aramalarında bulunabilirliği artırın ve web topic cluster’larıyla eşleştirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "datePublished": "2026-03-17",
+
+      "dateModified": "2026-03-17",
+
+      "keywords": [
+
+        "reels social seo",
+
+        "instagram aramada reels çıkartmak",
+
+        "video arama tetikleyicileri sosyal medya",
+
+        "social search",
+
+        "video seo",
+
+        "captions & text",
+
+        "hashtags",
+
+        "topic clusters"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+
+      "name": "Reels & Video İçerik Üretimi",
+
+      "serviceType": "Short-Form Video Strategy & Production",
+
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "areaServed": { "@type": "Country", "name": "TR" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Reels & Video İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/reels-video" },
+
+        { "@type": "ListItem", "position": 4, "name": "Reels İçin Social SEO ve Video Arama Tetikleyicileri", "item": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reels için social SEO nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Social SEO, Reels’in başlık, caption, on-screen text ve hashtag alanlarını arama niyetine göre doğal cümlelerle kurgulayarak sosyal aramalarda bulunabilirliği artırma yaklaşımıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Başlık ve caption’da anahtar kelimeleri nasıl kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "1 reels = 1 sorgu mantığıyla hareket edin. Başlıkta sorgu cümlesini verin, caption’da 2–3 maddelik kısa cevap ve tek CTA ile bitirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hashtag’leri social SEO için nasıl kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hashtag’leri kategori etiketi gibi 3–6 arası tutun; kategori + niyet + yer/tema kombinasyonu kullanın. Etiket yığını yapmak yerine okunabilirliği koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reels’i web/SEO topic cluster’larıyla nasıl eşleştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Web’deki konu kümelerindeki soruları reels’te kısa cevaplara çevirin ve caption’da uzun içeriğe yönlendirin. UTM/event tracking ile kısa→uzun trafik köprüsünü ölçün."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#howto",
+
+      "name": "Reels Social SEO ile Aramada Nasıl Çıkılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tek sorgu seç",
+
+          "text": "Her reels için tek bir arama sorgusu belirle; niyeti (destinasyon/how-to) netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Metin alanlarını niyete göre yaz",
+
+          "text": "Başlık ve caption’da sorgu benzeri doğal cümle kur; on-screen text’te soru–cevap yap; hashtag’leri kategori etiketi gibi 3–6 arası kullan."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Cluster ve CTA ile köprü kur",
+
+          "text": "Reels’i web/blog topic cluster’ıyla eşleştir; tek CTA ile yönlendir ve UTM/event ile ölçerek kazanan sorgu setlerini seri yap."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri#speakable",
+
+      "cssSelector": [ "h1", ".answer-block" ]
+
+    }
+
+  ]
+
+},
+
+"asmr-pov-ve-sinematik-reels-yeni-video-trendleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri",
+
+      "name": "ASMR, POV ve Sinematik Reels: Yeni Video Trendlerini Stratejiye Nasıl Dahil Edersiniz?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#webpage" },
+
+      "headline": "ASMR, POV ve Sinematik Reels: Yeni Video Trendlerini Stratejiye Nasıl Dahil Edersiniz?",
+
+      "description": "ASMR, POV ve sinematik reels formatlarını stratejik ve sınırlı pilotlarla test edin; sadece markaya ve KPI’ya uyan formatları standardize ederek stratejiye dahil edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "datePublished": "2026-03-17",
+
+      "dateModified": "2026-03-17",
+
+      "keywords": [
+
+        "asmr reels otel",
+
+        "pov kısa video örnekleri",
+
+        "sinematik reels formatları",
+
+        "asmr",
+
+        "pov",
+
+        "cinematic reels",
+
+        "trend formats",
+
+        "experimentation"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+
+      "name": "Reels & Video İçerik Üretimi",
+
+      "serviceType": "Short-Form Video Strategy & Production",
+
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "areaServed": { "@type": "Country", "name": "TR" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Reels & Video İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/reels-video" },
+
+        { "@type": "ListItem", "position": 4, "name": "ASMR, POV ve Sinematik Reels Trendleri", "item": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "ASMR ve POV reels nedir, nasıl kullanılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "ASMR reels ortam sesleriyle duygu taşır; POV reels izleyiciyi ‘senin gözünden’ deneyimin içine sokar. Otelde deneyim aktarımı için güçlü, B2B’de POV süreç anlatımı için daha uygundur." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi marka için sinematik reels uygun?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Premium ve deneyim odaklı markalarda sinematik estetik algıyı yükseltir. B2B’de ise minimal dozajla ve mesajı boğmadan kullanılmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Trendleri denemek ile stratejiye yerleştirmek arasındaki denge nasıl kurulur?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "2 haftalık pilot test yapıp KPI ile karar verin. Uyan formatı 6 bölümlük seri haline getirip standardize edin; uymayanı pivot edin veya düşük dozajda bırakın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aşırı trend kullanımı neden risklidir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Özellikle B2B ve premium segmentte aşırı trend, markayı ‘ciddi olmayan’ gösterebilir. Dozajı sınırlı tutup evergreen serilerle dengelemek gerekir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#howto",
+
+      "name": "Trend Reels Formatları Nasıl Seçilir ve Standardize Edilir?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Uyum filtresi uygula", "text": "Marka tonu, hedef KPI ve kitle beklentisine göre ASMR/POV/sinematik formatlarını puanla." },
+
+        { "@type": "HowToStep", "name": "2 haftalık pilot test yap", "text": "Her formattan 2 video üret; aynı dönemde yayınla ve retention/saves/account visits sinyallerini kıyasla." },
+
+        { "@type": "HowToStep", "name": "Kazananı seri yap, dozu ayarla", "text": "Uyan formatı 6 bölümlük seri olarak standardize et; B2B/premium segmentte trend dozajını düşük tut." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri#speakable",
+
+      "cssSelector": [ "h1", ".answer-block" ]
+
+    }
+
+  ]
+
 }
 
     },

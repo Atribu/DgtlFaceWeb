@@ -41888,6 +41888,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "Markalı AR filtre mockup’ı ve UGC çıktıları proof kartı",
       caption: "Markalı AR filtre mockup’ı ve UGC çıktıları proof kartı"
     }
+  },
+
+
+  "reels-uretim-ekibi-rol-ve-surec-tasarimi":{
+    banner: {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-1.webp",
+      alt: "Sosyal Medya Reels Üretim Ekibi: Rol, Görev ve Süreç Tasarımı",
+      caption: "Sosyal Medya Reels Üretim Ekibi: Rol, Görev ve Süreç Tasarımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-2.webp",
+      alt: "Brief→çekim→montaj→onay→yayın akışını özetleyen bağlam görseli",
+      caption: "Brief→çekim→montaj→onay→yayın akışını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-3.webp",
+    alt: "Reels üretimindeki temel rolleri özetleyen bölüm görseli",
+      caption: "Reels üretimindeki temel rolleri özetleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-4.webp",
+      alt: "Ajans–iç ekip hibrit çalışma yapısını özetleyen bölüm görseli",
+      caption: "Ajans–iç ekip hibrit çalışma yapısını özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-5.webp",
+      alt: "Reels üretim süreci akış diyagramı",
+      caption: "Reels üretim süreci akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-6.webp",
+      alt: "Haftalık reels üretim ritmi checklist kartı",
+      caption: "Haftalık reels üretim ritmi checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-7.webp",
+      alt: "Süreç KPI’ları skor kartı",
+      caption: "Süreç KPI’ları skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-20/SMM3-20-8.webp",
+      alt: "Rol matrisi ve workflow deliverables proof kartı",
+      caption: "Rol matrisi ve workflow deliverables proof kartı"
+    }
+  },
+
+  "ai-destekli-reels-kurgu-ve-otomatik-edit-araclari":{
+     banner: {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-1.webp",
+      alt: "AI Destekli Reels Kurgu ve Otomatik Edit Araçları",
+      caption: "AI Destekli Reels Kurgu ve Otomatik Edit Araçları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-2.webp",
+      alt: "Template ve auto-caption akışıyla marka tonunu koruyan otel reels modeli",
+      caption: "Template ve auto-caption akışıyla marka tonunu koruyan otel reels modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-3.webp",
+    alt: "AI edit sınırlarını açıklayan görsel rehber otel pazarlaması bağlamında",
+      caption: "AI edit sınırlarını açıklayan görsel rehber otel pazarlaması bağlamında"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-4.webp",
+      alt: "Hız ve farklılaşma dengesini gösteren karşılaştırma görseli otel bağlamı",
+      caption: "Hız ve farklılaşma dengesini gösteren karşılaştırma görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-5.webp",
+      alt: "AI ve insan kurgu workflow akışını anlatan şema otel içerik ekibi için",
+      caption: "AI ve insan kurgu workflow akışını anlatan şema otel içerik ekibi için"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-6.webp",
+      alt: "AI edit do ve don’t checklist kartı otel ve B2B ekipleri için",
+      caption: "AI edit do ve don’t checklist kartı otel ve B2B ekipleri için"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-7.webp",
+      alt: "Üretim hızı ve marka tonu KPI paneli otel reels performansı için",
+      caption: "Üretim hızı ve marka tonu KPI paneli otel reels performansı için"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-21/SMM3-21-8.webp",
+      alt: "AI kurgusu ve manuel cilayı karşılaştıran çıktı kartı otel bağlamı",
+      caption: "AI kurgusu ve manuel cilayı karşılaştıran çıktı kartı otel bağlamı"
+    }
+  },
+
+  "reels-icin-social-seo-ve-video-arama-tetikleyicileri":{
+     banner: {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-1.webp",
+      alt: "Reels İçin Social SEO ve Video Arama Tetikleyicileri",
+      caption: "Reels İçin Social SEO ve Video Arama Tetikleyicileri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-2.webp",
+      alt: "Başlık–caption–text–hashtag alanlarının arama rolünü gösteren bağlam görseli",
+      caption: "Başlık–caption–text–hashtag alanlarının arama rolünü gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-3.webp",
+    alt: "Sosyal arama niyeti ve reels yapısını ayıran bölüm görseli",
+      caption: "Sosyal arama niyeti ve reels yapısını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-4.webp",
+      alt: "Hashtag ve audio sinyallerini özetleyen bölüm görseli",
+      caption: "Hashtag ve audio sinyallerini özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-5.webp",
+      alt: "Video-first social SEO modeli ve web cluster köprüsü diyagramı",
+      caption: "Video-first social SEO modeli ve web cluster köprüsü diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-6.webp",
+      alt: "Reels social SEO checklist kartı",
+      caption: "Reels social SEO checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-7.webp",
+      alt: "Arama görünürlüğü KPI kartı",
+      caption: "Arama görünürlüğü KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-22/SMM3-22-8.webp",
+      alt: "Caption + on-screen text örnekleri proof kartı",
+      caption: "Caption + on-screen text örnekleri proof kartı"
+    }
+  },
+
+   "asmr-pov-ve-sinematik-reels-yeni-video-trendleri":{
+     banner: {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-1.webp",
+      alt: "ASMR, POV ve Sinematik Reels: Yeni Video Trendlerini Stratejiye Nasıl Dahil Edersiniz?",
+      caption: "ASMR, POV ve Sinematik Reels: Yeni Video Trendlerini Stratejiye Nasıl Dahil Edersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-2.webp",
+      alt: "Pilot test ve standardize akışını gösteren bağlam görseli",
+      caption: "Pilot test ve standardize akışını gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-3.webp",
+    alt: "Trend format tanımlarını ayıran bölüm görseli",
+      caption: "Trend format tanımlarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-4.webp",
+      alt: "Uygunluk/dozaj filtresini özetleyen bölüm görseli",
+      caption: "Uygunluk/dozaj filtresini özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-5.webp",
+      alt: "Trend deneme→performans→standardize diyagramı",
+      caption: "Trend deneme→performans→standardize diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-6.webp",
+      alt: "Trend format checklist kartı",
+      caption: "Trend format checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-7.webp",
+      alt: "Trend format KPI kıyası skor kartı",
+      caption: "Trend format KPI kıyası skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-23/SMM3-23-8.webp",
+      alt: "Storyboard kolajı ve pilot plan proof kartı",
+      caption: "Storyboard kolajı ve pilot plan proof kartı"
+    }
   }
 
 
