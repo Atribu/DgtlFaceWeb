@@ -10,6 +10,11 @@ const ROOT_FAQ_SLUG_MAP = {
 
 const TR_FAQ_SLUG_ALIAS_TO_INTERNAL = {
   "otel-sosyalmedya-sss": "sosyal-medya-sss",
+  "yerel-seo-sss": "local-seo-sss",
+};
+
+const TR_FAQ_INTERNAL_TO_PUBLIC = {
+  "local-seo-sss": "yerel-seo-sss",
 };
 
 const TR_HOTEL_FAQ_INTERNAL_TO_PUBLIC = {
@@ -65,6 +70,10 @@ function getFaqPublicSlug(slug, locale, deptSegment = null) {
 
   if (resolvedDeptSegment === "otel") {
     return TR_HOTEL_FAQ_INTERNAL_TO_PUBLIC[internalSlug] || internalSlug;
+  }
+
+  if (TR_FAQ_INTERNAL_TO_PUBLIC[internalSlug]) {
+    return TR_FAQ_INTERNAL_TO_PUBLIC[internalSlug];
   }
 
   return internalSlug;

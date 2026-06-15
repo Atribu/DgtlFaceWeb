@@ -3153,7 +3153,7 @@
     },
     "h1": {
       "title": "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
-      "intro": "Google Haritalar (Google Maps) ve Local Pack, özellikle mobil odaklı kullanıcı davranışında “ilk temas noktası” haline geldi. Oteller için bu alan; yalnızca rota veya telefon araması değil, aynı zamanda rezervasyon niyetinin en hızlı toplandığı kanallardan biridir. Bu rehberde, “neden üstte değiliz?” sorusunu soyut öneriler yerine ölçülebilir sinyallere ayıracağız: yakınlık–ilişkililik–otorite, Google Business Profile (GBP), yorumlar, NAP ve web sitesi etkisi.",
+      "intro": "Google Haritalar (Google Maps) ve Local Pack, özellikle mobil odaklı kullanıcı davranışında “ilk temas noktası” haline geldi. Oteller için bu alan; yalnızca rota veya telefon araması değil, aynı zamanda rezervasyon niyetinin en hızlı toplandığı kanallardan biridir. Bu rehberde, [Google Haritalar sıralama faktörleri](/tr/seo/yerel-seo) konusunu soyut öneriler yerine ölçülebilir sinyallere ayıracağız: yakınlık–ilişkililik–otorite, Google Business Profile (GBP), yorumlar, NAP ve web sitesi etkisi.",
       "quickSummary": [
         "Birçok çalışmada/analizde, kullanıcıların otel aramalarında ilk harita sonuçlarına yoğunlaştığı ve ikinci sayfaya çok nadir indiği gözlemleniyor; bu yüzden hedef, “sırf trafik” değil ilk 3–5 görünür alanda kalıcı yer edinmek olmalı.",
         "Aşağıdaki yapı, hem SERP/SGE hem de Voice için cevap odaklı; aynı zamanda ekiplerin uygulayabileceği “ilk 30 gün” planını içerir."
@@ -3173,17 +3173,45 @@
       "secondary": {
         "label": "Google Haritalar Optimizasyon Checklist’ini İndir",
         "text": "NAP + GBP + Site üçgeninde eksikleri 30 dakikada tespit edip hızlı aksiyon çıkarırsınız.",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "href": "/downloads/google-haritalar-optimizasyon-checklist-yerel-seo-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Yerel SEO (Local SEO)",
+        "label": "Google Haritalar sıralama faktörleri",
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Otel SEO",
+        "label": "SEO hizmetleri içinde yerel görünürlük yönetimi",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Google Business Profile optimizasyonu",
+        "href": "/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
+      },
+      {
+        "label": "otel yorum yönetimi ve puanlama",
+        "href": "/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi"
+      },
+      {
+        "label": "yerel SEO’da NAP tutarlılığı",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
+      },
+      {
+        "label": "otel SEO’da harita görünürlüğü",
         "href": "/tr/otel/seo"
+      },
+      {
+        "label": "yerel görünürlük benchmark analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "otel dijital pazarlama performansında yerel görünürlük",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [],
@@ -3214,12 +3242,20 @@
             "text": "Otel aramalarında (ör. “Belek resort”, “Side aile oteli”, “Bodrum butik otel”), kullanıcılar çoğunlukla harita kartı → yorumlar → fotoğraflar → web/arama akışını izler. Bu yüzden harita tarafındaki sinyaller yalnızca görünürlük değil, tıklama ve dönüşüm oranı üzerinde de doğrudan etkilidir."
           },
           {
+            "type": "p",
+            "text": "Bu görünürlük, [SEO hizmetleri içinde yerel görünürlük yönetimi](/tr/seo-hizmetleri) olarak ele alındığında teknik yapı, içerik, kullanıcı güveni ve işletme sinyallerinin aynı anda optimize edilmesini gerektirir; Local Pack tarafı tek başına bir profil yönetimi işi değildir."
+          },
+          {
             "type": "h3",
             "text": "Local Pack’te görünmek neden zor?"
           },
           {
             "type": "p",
             "text": "Çünkü Google, harita sonuçlarını “en iyi işletme” mantığıyla değil, çoğu zaman kullanıcının bağlamına en uygun işletmeyi göstermek üzere kurgular. Bu bağlam; konum (yakınlık), arama niyeti (ilişkililik) ve güven/ün (otorite) ile şekillenir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden rakip farkını yalnız gözle değil, [yerel görünürlük benchmark analizi](/tr/raporlama/benchmark-analizi) ile yorum sayısı, puan ortalaması, profil doluluğu ve Local Pack pozisyonu bazında karşılaştırmak daha sağlıklı bir başlangıç verir."
           },
           {
             "type": "h3",
@@ -3337,6 +3373,10 @@
           },
           {
             "type": "p",
+            "text": "Profil tamlığı, kategori seçimi, açıklama, fotoğraf seti ve hizmet alanı gibi alanları daha sistemli ele almak için [Google Business Profile optimizasyonu](/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist) checklist'ine göre ilerlemek, Local Pack tarafındaki temel eksikleri daha hızlı görünür kılar."
+          },
+          {
+            "type": "p",
             "text": "Teknik not: Google Business Profile’ın doğrulanmış olması ve her ay en az 1–2 kez (post, fotoğraf, Q&A, özellik güncellemesi) güncellenmesi, istikrar açısından güçlü bir sinyaldir."
           },
           {
@@ -3412,6 +3452,10 @@
           {
             "type": "p",
             "text": "Yorumlar, Local Pack’te hem otorite hem de dönüşüm tarafını etkiler. Otellerde yorum yönetimi “sadece puan” değil; sezonluk operasyon, hizmet kalitesi ve beklenti yönetimiyle iç içedir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [otel yorum yönetimi ve puanlama](/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi) yaklaşımı, yalnız daha fazla yorum istemek değil; doğru zamanda yorum toplamak, yanıt standardı kurmak ve güven sinyalini istikrarlı biçimde büyütmek anlamına gelir."
           },
           {
             "type": "h3",
@@ -3490,6 +3534,10 @@
             "text": "“Yerel SEO NAP tutarlılığı” (Name–Address–Phone), çoğu işletmede dağınık kalır: farklı dizinlerde farklı telefon, eski adres, yanlış web linki… Bu da Google’ın “tekil işletme kimliği” oluşturmasını zorlaştırır."
           },
           {
+            "type": "p",
+            "text": "Özellikle [yerel SEO’da NAP tutarlılığı](/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite) tarafı, işletme adı, adres ve telefon bilgisinin yerel dizinlerde nasıl çoğaldığını ve küçük tutarsızlıkların nasıl güven kaybı yarattığını daha detaylı görmenizi sağlar."
+          },
+          {
             "type": "h3",
             "text": "NAP neden bu kadar etkili?"
           },
@@ -3548,7 +3596,7 @@
             "variant": "secondary",
             "label": "Google Haritalar Optimizasyon Checklist’ini İndir",
             "text": "NAP + GBP + Site üçgeninde eksikleri 30 dakikada tespit edip hızlı aksiyon çıkarırsınız.",
-            "href": "/tr/raporlama/benchmark-analizi"
+            "href": "/downloads/google-haritalar-optimizasyon-checklist-yerel-seo-v1.0.pdf"
           }
         ]
       },
@@ -3559,6 +3607,10 @@
           {
             "type": "p",
             "text": "Google Haritalar sıralaması “sadece GBP” değildir. Web sitesi; otel için hem otorite hem de “son tıklama” dönüşüm alanıdır. Üstelik hızlı ve mobil uyumlu bir site; harita üzerinden gelen trafiğin kaybolmasını engeller."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, [otel SEO’da harita görünürlüğü](/tr/otel/seo) ile doğrudan ilişkilidir; çünkü destinasyon, konsept ve marka bazlı organik görünürlük çoğu zaman Local Pack sinyalleriyle birlikte çalışır, birbirinden bağımsız ilerlemez."
           },
           {
             "type": "h3",
@@ -3611,7 +3663,11 @@
           },
           {
             "type": "p",
-            "text": "Bodrum’da bir butik otel düşünün: GBP mükemmel ama NAP dağınık ve site yavaşsa, görünürlük kısa süreli olur. Ya da NAP kusursuz ama GBP içeriği zayıfsa, ilişkililik kaybı yaşarsınız. Üçgeni birlikte optimize etmek, “hotel local pack optimizasyonu”nun en pratik ve sürdürülebilir yoludur."
+            "text": "Bodrum’da bir butik otel düşünün: GBP mükemmel ama NAP dağınık ve site yavaşsa, görünürlük kısa süreli olur. Ya da NAP kusursuz ama GBP içeriği zayıfsa, ilişkililik kaybı yaşarsınız. Üçgeni birlikte optimize etmek, oteller için Local Pack optimizasyonunun en pratik ve sürdürülebilir yoludur."
+          },
+          {
+            "type": "p",
+            "text": "Aynı etki, [otel dijital pazarlama performansında yerel görünürlük](/tr/otel-dijital-pazarlama) açısından da kritiktir; çünkü harita üzerinden gelen marka teması, telefon araması, rota isteği ve web ziyareti daha sonra rezervasyon ve yeniden pazarlama performansını doğrudan besler."
           },
           {
             "type": "h3",
@@ -3749,7 +3805,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Google Haritalar sıralama faktörleri; yakınlık–ilişkililik–otorite üçlüsünü GBP + yorum + NAP + site üzerinden yönetmeyi gerektirir. Bu rehberdeki yaklaşımın farkı, otel/turizm bağlamında “üçgen” modeliyle ilerlemesidir: tek bir alanı parlatmak yerine, sistemi dengede tutmak. Düzenli güncelleme rutini ve ölçüm disiplini kurduğunuzda, Local Pack görünürlüğü daha stabil hale gelir ve harita trafiğini rezervasyona bağlamak kolaylaşır."
+            "text": "Google Haritalar sıralama faktörleri; yakınlık–ilişkililik–otorite üçlüsünü GBP + yorum + NAP + site üzerinden yönetmeyi gerektirir. Bu rehberdeki yaklaşımın farkı, otel/turizm bağlamında “üçgen” modeliyle ilerlemesidir: tek bir alanı parlatmak yerine, sistemi dengede tutmak. Düzenli güncelleme rutini ve ölçüm disiplini kurduğunuzda, Local Pack görünürlüğü daha stabil hale gelir ve harita trafiğini rezervasyona bağlamak kolaylaşır. Bunu daha sistemli bir plana taşımak için [oteller için Yerel SEO çalışması](/tr/seo/yerel-seo) değerlendirmesine geçebilir, karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfasını kullanabilirsiniz."
           },
           {
             "type": "cta",
@@ -3908,7 +3964,7 @@
     },
     "h1": {
       "title": "Google Business Profile Otel Optimizasyon Checklist’i",
-      "intro": "Tam optimize edilmemiş bir Google Business Profile, oteller için yarım bırakılmış bir vitrin gibidir: kullanıcı sizi görür ama güvenmez; tıklar ama aradığını bulamaz; rezervasyon linkine ulaşamaz ve geri döner. Oysa kategori, açıklama, fotoğraf, özellikler (amenities), telefon ve rezervasyon linki gibi alanları eksiksiz doldurmak; harita görünürlüğünü, tıklama oranlarını ve doğrudan rezervasyon potansiyelini artırma eğilimindedir (özellikle mobilde). Bu rehber, “ne dolduracağım?” sorusunu otel özelinde net bir checklist’e çevirir ve ilk 30 dakikada yapılacakları sıralar.",
+      "intro": "Tam optimize edilmemiş bir Google Business Profile, oteller için yarım bırakılmış bir vitrin gibidir: kullanıcı sizi görür ama güvenmez; tıklar ama aradığını bulamaz; rezervasyon linkine ulaşamaz ve geri döner. Oysa kategori, açıklama, fotoğraf, özellikler (amenities), telefon ve rezervasyon linki gibi alanları eksiksiz doldurmak; harita görünürlüğünü, tıklama oranlarını ve doğrudan rezervasyon potansiyelini artırma eğilimindedir (özellikle mobilde). Bu rehber, [Google Business Profile otel optimizasyonu](/tr/seo/yerel-seo) sürecini otel özelinde net bir checklist’e çevirir ve ilk 30 dakikada yapılacakları sıralar.",
       "quickSummary": [
         "1) Doğrulama + NAP standardını sabitle",
         "2) Birincil/ikincil kategori ve amenities setini tamamla",
@@ -3936,16 +3992,40 @@
     },
     "internalLinks": [
       {
-        "label": "Yerel SEO (Local SEO) hizmet sayfası",
+        "label": "Google Business Profile otel optimizasyonu",
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
+        "label": "SEO hizmetleri içinde yerel görünürlük yönetimi",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Google Haritalar sıralamasında GBP’nin rolü",
+        "href": "/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin"
+      },
+      {
+        "label": "otel yorum yönetimi ve puanlama",
+        "href": "/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi"
+      },
+      {
+        "label": "GBP fotoğraf ve görsel optimizasyonu",
+        "href": "/tr/seo/blog/yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler"
+      },
+      {
+        "label": "otel SEO’da Google Business Profile’ın rolü",
         "href": "/tr/otel/seo"
       },
       {
-        "label": "Rezervasyon desteği (çağrı merkezi)",
+        "label": "GBP’den gelen rezervasyon taleplerini yönetmek",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "otel dijital pazarlama performansında GBP görünürlüğü",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -3970,6 +4050,14 @@
           {
             "type": "p",
             "text": "AEO gereksinimi gereği bu bölüm, numaralı liste formatında net ilerler. Amaç “her şeyi aynı anda” yapmak değil; önce görünürlüğü etkileyen çekirdek alanları tamamlayıp sonra gelişmiş alanlara geçmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu checklist, [SEO hizmetleri içinde yerel görünürlük yönetimi](/tr/seo-hizmetleri) perspektifiyle okunduğunda yalnız profil alanlarını doldurmayı değil; harita görünürlüğü, yorum yönetimi, kullanıcı aksiyonları ve rezervasyon akışını aynı çatı altında düşünmeyi gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [Google Haritalar sıralamasında GBP’nin rolü](/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin) düşünüldüğünde, profil tamlığı Local Pack görünürlüğünü etkileyen ana sinyallerden yalnız biridir; kategori, yorum, NAP ve site kalitesi birlikte çalışır."
           },
           {
             "type": "h3",
@@ -4024,6 +4112,10 @@
             "text": "Otel GBP’sinde kategori, “hangi arama niyetinde” görünür olacağınızı belirler. Birincil kategori yanlışsa, ne kadar fotoğraf yükleseniz de ilişkililik sinyali zayıf kalır. Birincil kategori; otelin tipine göre “Hotel / Resort Hotel / Boutique Hotel” gibi, ikincil kategoriler ise gerçek hizmeti destekleyecek şekilde seçilmelidir (ör. spa, restoran, etkinlik alanı gibi; işletmenin gerçekten sunduğu ölçüde)."
           },
           {
+            "type": "p",
+            "text": "Pratikte oteller için Google Maps kategori seçimi, yalnız ana kategoriyi işaretlemek değildir; otel profilinde GBP özellik alanları ile birlikte doğru konsepti, hizmet kapsamını ve kullanıcı beklentisini aynı anda yansıtmanız gerekir."
+          },
+          {
             "type": "h3",
             "text": "Doğru kategori seçimi için hızlı kural seti"
           },
@@ -4073,6 +4165,10 @@
           {
             "type": "p",
             "text": "Bir otel GBP profilinde “zorunlu” alanları, kullanıcı yolculuğuna göre düşünmek daha doğru: kullanıcı harita kartında önce güven sinyali arar, sonra karar sinyali arar, sonra aksiyon (web/rezervasyon/arama) ister."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada yorum sayısı, puan ortalaması, son yorumların tarihi ve yanıt kalitesi de profil güvenini tamamlayan alanlar haline gelir. Bu yüzden [otel yorum yönetimi ve puanlama](/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi) süreci; sadece itibar yönetimi değil, Local Pack tıklama davranışı ve rezervasyon kararını etkileyen bir kalite sinyali olarak düzenli takip edilmelidir."
           },
           {
             "type": "h3",
@@ -4138,6 +4234,10 @@
           {
             "type": "p",
             "text": "Fotoğraf ve video, otellerde “ilk izlenim”i oluşturur. GBP’de iyi bir görsel set, sadece kullanıcıyı ikna etmez; aynı zamanda kart etkileşimini artırarak “profil aktif ve tercih edilebilir” sinyali üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [GBP fotoğraf ve görsel optimizasyonu](/tr/seo/blog/yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler) yaklaşımı, oda görselleri, ortak alan fotoğrafları, dış cephe ve deneyim karelerinin sadece estetik değil, yerel görünürlük ve güven sinyali olarak da planlanmasını gerektirir."
           },
           {
             "type": "h3",
@@ -4207,6 +4307,10 @@
           {
             "type": "p",
             "text": "Rezervasyon linki yoksa, harita kartı çoğu zaman OTA’ya veya rakiplere gider. Bu rehberin otel odaklı farkı şudur: GBP’yi sadece “tanıtım” değil, rezervasyon aksiyonu için optimize eder."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [GBP’den gelen rezervasyon taleplerini yönetmek](/tr/cagri-merkezi/rezervasyon-destegi) de önemlidir; çünkü telefon aramaları, mesajlar ve yol tarifi tıklamaları çoğu zaman doğrudan rezervasyon niyeti taşır ve operasyon tarafında doğru karşılanmadığında görünürlük kazancı satışa dönüşmeyebilir."
           },
           {
             "type": "list",
@@ -4432,7 +4536,15 @@
           },
           {
             "type": "p",
-            "text": "Birçok rehber GBP’yi genel işletme perspektifiyle anlatır; bu içerikte fark, otel/turizm için kategori + amenities + rezervasyon linki üçlüsünü tek çerçevede ele almaktır. Otel için “profil tamlığı” yalnız görünürlük değil, doğrudan rezervasyon akışının da parçasıdır."
+            "text": "Birçok rehber GBP’yi genel işletme perspektifiyle anlatır; bu içerikte fark, otel/turizm için kategori + amenities + rezervasyon linki üçlüsünü tek çerçevede ele almaktır. Otel için “profil tamlığı” yalnız görünürlük değil, doğrudan rezervasyon akışının da parçasıdır. Bu süreci daha sistemli hale getirmek için [oteller için Yerel SEO ve Google Business Profile optimizasyonu](/tr/seo/yerel-seo) değerlendirmesine geçebilir, karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfasını kullanabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Google Business Profile, özellikle lokasyon ve konsept niyeti taşıyan aramalarda organik görünürlüğün doğal bir uzantısı gibi çalışır. Bu yüzden [otel SEO’da Google Business Profile’ın rolü](/tr/otel/seo), yalnız harita kartı optimizasyonu değil; destinasyon sayfaları, marka aramaları ve yakın çevre görünürlüğüyle birlikte ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı mantık, [otel dijital pazarlama performansında GBP görünürlüğü](/tr/otel-dijital-pazarlama) açısından da değerlidir; çünkü Google Maps üzerinden gelen güven sinyali, marka araması, telefon aksiyonu ve web tıklaması daha sonra rezervasyon, yeniden pazarlama ve genel dijital talep performansını besler."
           },
           {
             "type": "callout",
@@ -4539,7 +4651,7 @@
     }
   },
   "BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi": {
-    "title": "Otel Yorum Yönetimi: Yerel SEO Puanlama Rehberi",
+    "title": "Yorum Yönetimi ve Puanlama: Oteller İçin Yerel SEO Stratejisinin Kalbi",
     "slug": "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi",
     "department": "seo",
     "subDepartment": "local",
@@ -4587,7 +4699,7 @@
     },
     "h1": {
       "title": "Yorum Yönetimi ve Puanlama: Oteller İçin Yerel SEO Stratejisinin Kalbi",
-      "intro": "Yorumlar, oteller için yalnızca “itibar” değil; aynı zamanda Google Haritalar’da (Local Pack) görünürlük ve tıklama davranışını etkileyen güçlü bir sinyal setidir. Yeterli sayıda, düzenli gelen ve yüksek ortalamalı yorumlara sahip olmak; bunun yanında yorumlara profesyonelce yanıt vermek, misafir güvenini ve dönüşüm niyetini artırma eğilimindedir. Bu rehberde “otel yorumları yerel SEO etkisi” konusunu soyut öneriler yerine ölçülebilir bir çerçeveye oturtuyoruz: yorum sayısı, puan, tazelik (recency), yanıt disiplini ve kalite döngüsü.\n\nİşin kritik yanı şu: rakip içeriklerin çoğu yorum yönetimini yalnız müşteri ilişkileri perspektifinden ele alır; burada biz, aynı zamanda yerel sıralama (local ranking) ve SEO sinyali boyutunu da sürece bağlıyoruz. Ayrıca sahte yorum gibi riskli uygulamalara girmeden, etik ve sürdürülebilir bir yorum akışı kurmayı anlatıyoruz.",
+      "intro": "Yorumlar, oteller için yalnızca “itibar” değil; aynı zamanda Google Haritalar’da (Local Pack) görünürlük ve tıklama davranışını etkileyen güçlü bir sinyal setidir. Yeterli sayıda, düzenli gelen ve yüksek ortalamalı yorumlara sahip olmak; bunun yanında yorumlara profesyonelce yanıt vermek, misafir güvenini ve dönüşüm niyetini artırma eğilimindedir. Bu rehberde [otel yorumları yerel SEO etkisi](/tr/seo/yerel-seo) konusunu soyut öneriler yerine ölçülebilir bir çerçeveye oturtuyoruz: yorum sayısı, puan, tazelik (recency), yanıt disiplini ve kalite döngüsü.\n\nİşin kritik yanı şu: rakip içeriklerin çoğu yorum yönetimini yalnız müşteri ilişkileri perspektifinden ele alır; burada biz, aynı zamanda yerel sıralama (local ranking) ve SEO sinyali boyutunu da sürece bağlıyoruz. Ayrıca sahte yorum gibi riskli uygulamalara girmeden, etik ve sürdürülebilir bir yorum akışı kurmayı anlatıyoruz.",
       "quickSummary": [
         "1) Yorum KPI’larını 4 sinyalde takip et: sayı, puan, tazelik, yanıt oranı",
         "2) Yorum almayı kampanya değil, süreç olarak kurgula",
@@ -4609,21 +4721,45 @@
       "secondary": {
         "label": "Yorum Yanıt Şablonları & İtibar Yönetimi Checklist’ini İndir",
         "text": "Yanıt kalitesini standartlaştırıp 30 dakikada eksikleri işaretleyerek hızlı aksiyon çıkarırsınız.",
-        "href": "/tr/seo/yerel-seo"
+        "href": "/downloads/yorum-yanit-sablonlari-itibar-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Yerel SEO (Local SEO)",
+        "label": "otel yorumları yerel SEO etkisi",
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/tr/otel"
+        "label": "SEO hizmetleri içinde yorum ve yerel görünürlük yönetimi",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Çağrı merkezi performans analizi",
+        "label": "Google yorum sayısı önemi",
+        "href": "/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin"
+      },
+      {
+        "label": "GBP yorum yönetimi",
+        "href": "/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
+      },
+      {
+        "label": "rakip otellerin yorum performansı",
+        "href": "/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+      },
+      {
+        "label": "otel dijital pazarlama performansında yorumların etkisi",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "misafir geri bildirimlerini performans analizine taşımak",
         "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "otel SEO’da yorum ve puanlama sinyalleri",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -4633,23 +4769,6 @@
       }
     ],
     "sections": [
-      {
-        "id": "hero",
-        "title": "Yorum yönetimi: güven + Local Pack görünürlüğü",
-        "blocks": [
-          {
-            "type": "media",
-            "slot": "h1-context-02"
-          },
-          {
-            "type": "cta",
-            "variant": "primary",
-            "label": "Yorum ve İtibar Yönetimi Analizi Talep Et",
-            "text": "Yorum profilinizi yerel sıralama sinyalleriyle birlikte analiz edip, uygulanabilir bir yanıt ve yorum alma planı çıkarın.",
-            "href": "/tr/seo/yerel-seo"
-          }
-        ]
-      },
       {
         "id": "yerel-siralama-sinyalleri",
         "title": "Yorum ve puanlamanın yerel sıralamadaki rolü (reviews, rating, recency, responses)",
@@ -4663,12 +4782,24 @@
             "text": "Yorumlar, oteller için iki şeyi aynı anda etkiler:\n\t1.\tAlgı ve güven: Misafir “bu otel güvenilir mi?” sorusunu yorumlardan cevaplar.\n\t2.\tDavranış sinyali: Kullanıcı harita kartında durur, yorumlara girer, tıklar/arar/rota ister. Bu davranışlar dolaylı olarak görünürlüğü destekleyen bir kalite sinyali üretebilir.\n\nBu bölümde dört temel sinyali netleştirelim:"
           },
           {
+            "type": "p",
+            "text": "Bu çerçeve, [SEO hizmetleri içinde yorum ve yerel görünürlük yönetimi](/tr/seo-hizmetleri) perspektifiyle okunduğunda yalnız itibar tarafını değil; Local Pack görünürlüğü, kullanıcı güveni, tıklama davranışı ve rezervasyon niyetini aynı anda yöneten bir sistem haline gelir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [rakip otellerin yorum performansı](/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler) düzenli olarak izlenmeli; yorum sayısı, puan ortalaması, son 90 gündeki yorum tazeliği ve yanıt disiplini birlikte okunmadan gerçek görünürlük farkını görmek zordur."
+          },
+          {
             "type": "h3",
             "text": "1) Yorum sayısı (volume)"
           },
           {
             "type": "p",
             "text": "“Google yorum sayısı önemi” otellerde basittir: sıfır veya çok az yorum, kartı zayıflatır. Ama tek başına “çok yorum” da yeterli değildir; kalite ve tazelikle birleşmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [Google yorum sayısı önemi](/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin) sadece hacim değil; yorumların tazeliği, ortalama puanı ve yanıt disipliniyle birlikte okunmalıdır. Harita kartında güçlü görünmek isteyen oteller için yorum sinyali, diğer Google Haritalar faktörlerinden bağımsız çalışmaz."
           },
           {
             "type": "h3",
@@ -4693,6 +4824,10 @@
           {
             "type": "p",
             "text": "Yanıtlar, sadece “nazik olmak” değildir; işletmenin problem çözme kapasitesini ve marka tonunu gösterir. Yanıtsız kötü yorumlar, karttaki güven sinyalini zayıflatır; hızlı ve empatik yanıtlar ise riski azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [GBP yorum yönetimi](/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist) yalnız cevap yazmak değil; profil güvenini korumak, doğru ton standardı kurmak ve yorumları rezervasyon kararını etkileyen bir kalite sinyaline dönüştürmek anlamına gelir."
           },
           {
             "type": "callout",
@@ -4725,6 +4860,10 @@
           {
             "type": "p",
             "text": "Google Haritalar sıralaması doğrudan “Booking puanı” ile hesaplanmaz; fakat gerçek dünyada misafir algısı ve marka araması (brand demand) üzerinde dolaylı etkiler vardır. Yani, Booking/Expedia gibi kanallardaki yorumlar;\n\t•\tmisafirin güvenini artırıp marka aramasını yükseltebilir,\n\t•\tweb site tıklamasını ve çağrı/rezervasyon davranışını etkileyebilir,\n\t•\t“itibar”ın genel resmini güçlendirerek yerel görünürlüğe dolaylı katkı sağlayabilir.\n\nOtel tarafında ideal yaklaşım: yorum ekosistemini tek kanala sıkıştırmadan “çok kaynaklı itibar yönetimi” olarak görmek; ama her kaynağın rolünü doğru konumlandırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı etki [otel dijital pazarlama performansında yorumların etkisi](/tr/otel-dijital-pazarlama) açısından da önemlidir; çünkü reklamla veya marka aramasıyla gelen kullanıcı, çoğu zaman son kararı yorum güveni üzerinden verir ve iyi yönetilmiş bir yorum profili kampanya sonrası dönüşüm oranlarını dolaylı olarak destekler."
           },
           {
             "type": "h3",
@@ -4901,7 +5040,7 @@
           },
           {
             "type": "p",
-            "text": "Kriz yorumlarında amaç “haklı çıkmak” değil; risk azaltmak ve dışarıdaki okuyucuya güven vermektir. “Kötü yoruma otel olarak nasıl cevap vermeliyim?” sorusunun en kısa cevabı: empati + net aksiyon + iletişim kanalı."
+            "text": "Pratikte kötü yorumlara profesyonel cevap vermek, “haklı çıkmaya çalışmak” değil; riski azaltıp dışarıdan okuyan kullanıcıya güven vermektir. “Kötü yoruma otel olarak nasıl cevap vermeliyim?” sorusunun en kısa cevabı: empati + net aksiyon + iletişim kanalı."
           },
           {
             "type": "callout",
@@ -5006,6 +5145,10 @@
             "text": "Yorum yönetimi, en iyi sonuçları “kalite döngüsü”ne bağlandığında verir: yorumlar sadece yanıtlanmaz, aynı zamanda operasyonu iyileştirmek için kullanılır."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [misafir geri bildirimlerini performans analizine taşımak](/tr/cagri-merkezi/performans-analizi) önemlidir; çünkü yorumlarda tekrar eden şikayet başlıkları çoğu zaman çağrı merkezi, rezervasyon deneyimi, check-in akışı veya hizmet standardında ölçülebilir operasyon sinyalleri üretir."
+          },
+          {
             "type": "h3",
             "text": "Döngü nasıl çalışır?"
           },
@@ -5086,7 +5229,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip içerikler çoğunlukla yorum yönetimini CRM/itibar yönetimi olarak anlatır; bu rehberde fark, yorumları local ranking bileşenleriyle birlikte ele almak: rating + recency + responses + davranış sinyali. Bu çerçeveyle ilerlediğinizde, “kötü yoruma cevap örneği” sadece bir metin değil; görünürlük ve dönüşüm performansını etkileyen bir süreç parçası olur."
+            "text": "Yerel görünürlük ile organik görünürlük çoğu zaman birbirinden kopuk ilerlemez. Bu yüzden [otel SEO’da yorum ve puanlama sinyalleri](/tr/otel/seo), yalnız Google Maps kartı için değil; marka aramaları, destinasyon sayfaları, kullanıcı güveni ve rezervasyon kararı açısından da güçlü bir destek katmanı oluşturur."
+          },
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu yorum yönetimini yalnız itibar veya CRM perspektifinden anlatır; burada fark, yorumları local ranking + dönüşüm + operasyon kalitesi çerçevesinde birlikte okumaktır. Bu süreci daha sistemli hale getirmek için [oteller için Yerel SEO ve yorum yönetimi](/tr/seo/yerel-seo) değerlendirmesine geçebilir, karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfasını kullanabilirsiniz."
           },
           {
             "type": "media",
@@ -5168,7 +5315,7 @@
             "variant": "secondary",
             "label": "Yorum Yanıt Şablonları & İtibar Yönetimi Checklist’ini İndir",
             "text": "Yanıt kalitesini standartlaştırıp 30 dakikada eksikleri işaretleyerek hızlı aksiyon çıkarırsınız.",
-            "href": "/tr/seo/yerel-seo"
+            "href": "/downloads/yorum-yanit-sablonlari-itibar-checklist-v1.0.pdf"
           }
         ]
       }
@@ -5268,7 +5415,7 @@
     },
     "h1": {
       "title": "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite: Oteller İçin Yerel Alıntı (Citation) Stratejisi",
-      "intro": "NAP tutarlılığı, yerel SEO’nun en temel ama en çok ihmal edilen parçalarından biridir. Otelinizin adı, adresi, telefonu ve web sitesi; farklı dizin ve platformlarda farklı görünüyorsa, Google ve misafirler açısından “aynı işletme miyiz?” sorusu netleşmez. Bu durum; harita kartında yanlış rota, yanlış arama, karışık marka isimleri, hatta eski telefonlara giden çağrılar gibi gerçek kayıplara yol açabilir. Bu rehber, NAP’i teoride bırakmadan otel + OTA + yerel rehber kombinasyonuna uygun pratik citation stratejisi ve temizlik adımlarını verir.",
+      "intro": "NAP tutarlılığı, yerel SEO’nun en temel ama en çok ihmal edilen parçalarından biridir. Otelinizin adı, adresi, telefonu ve web sitesi; farklı dizin ve platformlarda farklı görünüyorsa, Google ve misafirler açısından “aynı işletme miyiz?” sorusu netleşmez. Bu durum; harita kartında yanlış rota, yanlış arama, karışık marka isimleri, hatta eski telefonlara giden çağrılar gibi gerçek kayıplara yol açabilir. Bu rehber, NAP’i teoride bırakmadan otel + OTA + yerel rehber kombinasyonuna uygun pratik citation stratejisi ve temizlik adımlarını verir. Özellikle [NAP tutarlılığı otel](/tr/seo/yerel-seo) çalışmalarını operasyonel bir audit planına çevirmek isteyen ekipler için yol haritası görevi görür.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "NAP & Citation Audit Çalışması Talep Et",
@@ -5285,7 +5432,7 @@
       "secondary": {
         "label": "NAP Tutarlılığı Kontrol & Dizin Listesi Şablonunu İndir",
         "text": "Tüm platformları tek sayfada görüp 30 dakikada tutarsızlıkları işaretleyerek öncelik çıkarırsınız.",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "href": "/downloads/nap-citation-audit-sheet-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -5294,12 +5441,36 @@
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/tr/otel"
+        "label": "SEO hizmetleri içinde NAP ve yerel görünürlük yönetimi",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Benchmark Analizi",
+        "label": "Google Haritalar’da NAP sinyalleri",
+        "href": "/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin"
+      },
+      {
+        "label": "çok lokasyonlu otellerde NAP yönetimi",
+        "href": "/tr/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+      },
+      {
+        "label": "oteller için yerel dizin kayıt temizliği",
+        "href": "/tr/seo/blog/google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme"
+      },
+      {
+        "label": "otel dijital pazarlama performansında doğru işletme bilgisi",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "rakip otellerin citation görünürlüğü",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "otel citation stratejisi",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -5313,16 +5484,6 @@
       }
     ],
     "sections": [
-      {
-        "id": "h1-context",
-        "title": "H1 sonrası Context görseli",
-        "blocks": [
-          {
-            "type": "media",
-            "slot": "h1-context-02"
-          }
-        ]
-      },
       {
         "id": "nap-nedir-yerel-seo",
         "title": "NAP nedir, yerel SEO’da neden önemlidir? ",
@@ -5356,6 +5517,10 @@
               "marka karışıklığı artabilir (eski otel adı/isim varyasyonu),",
               "Local Pack görünürlüğü “istikrarsız” hale gelebilir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde NAP ve yerel görünürlük yönetimi](/tr/seo-hizmetleri), yalnız dizin güncelleme işi değil; Local Pack istikrarı, kullanıcı güveni ve citation doğruluğu çerçevesinde ele alınmalıdır. Bu ilişkiyi [Google Haritalar’da NAP sinyalleri](/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin) üzerinden okumak, küçük tutarsızlıkların neden görünürlük kaybına dönüşebildiğini daha net gösterir."
           },
           {
             "type": "h3",
@@ -5436,6 +5601,10 @@
             "text": "Oteller, çoğu yerel işletmeden daha fazla platformda listelenir: Google, OTA’lar, turizm portalları, yerel rehberler, oda birlikleri, etkinlik/şehir sayfaları… Bu yüzden citation stratejisi, “kaç tane dizin?” değil, “hangi dizin daha kritik?” sorusuyla yönetilmelidir."
           },
           {
+            "type": "p",
+            "text": "Birden fazla tesis, resort alt markası veya farklı şehirlerde operasyon yürüten yapılarda [çok lokasyonlu otellerde NAP yönetimi](/tr/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi) yaklaşımı devreye girer; her lokasyonun ayrı kimliği korunurken ana marka altında karışıklık yaratmamak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Oteller için citation kaynaklarını 4 katmanda düşünün"
           },
@@ -5456,6 +5625,10 @@
           {
             "type": "p",
             "text": "Ajanslar çoğu zaman kayıt açar; otel operasyonu ise güncellik sağlar. Eğer bu iki taraf arasında “NAP master” dokümanı yoksa, tutarsızlık kaçınılmaz olur. Bu yüzden süreç tasarımı gerekir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu disiplin, [otel citation stratejisi](/tr/otel/seo) açısından da kritiktir; çünkü local authority sinyalleri otelin destinasyon aramalarındaki organik güvenini ve harita kartı görünürlüğünü birlikte besler."
           },
           {
             "type": "list",
@@ -5505,6 +5678,10 @@
           {
             "type": "p",
             "text": "SXO gereksinimi gereği, burada “uygulama adımları” net olmalı: NAP’i düzeltmek bir defalık iş değil, kontrollü bir hijyen sürecidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [oteller için yerel dizin kayıt temizliği](/tr/seo/blog/google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme) süreci, eski telefonlar, yanlış pin'ler ve duplicate kartların hangi sırayla kaldırılacağını netleştirmek için önemlidir."
           },
           {
             "type": "h3",
@@ -5560,6 +5737,10 @@
             "text": "Otel giriş pin’i yanlışsa, yakınlık ve rota deneyimi bozulabilir. Bu da davranış sinyallerini olumsuz etkileyebilir."
           },
           {
+            "type": "p",
+            "text": "Bu tür hatalar, [otel dijital pazarlama performansında doğru işletme bilgisi](/tr/otel-dijital-pazarlama) açısından da kritiktir; kampanya, marka araması veya navigasyon niyetiyle gelen kullanıcı yanlış konum ya da telefonla karşılaşırsa güven hızla düşer."
+          },
+          {
             "type": "h3",
             "text": "5) Değişiklikleri takip et (log tut)"
           },
@@ -5611,6 +5792,10 @@
           {
             "type": "p",
             "text": "Birçok ekip “daha çok dizin” arar; oysa hedef “doğru dizin + doğru tutarlılık” olmalı. Yeni citation fırsatlarını bulurken şu iki kriteri kullanın:"
+          },
+          {
+            "type": "p",
+            "text": "Bu fırsatları kör toplamak yerine [rakip otellerin citation görünürlüğü](/tr/raporlama/benchmark-analizi) üzerinden okumak, hangi dizinlerin gerçekten görünürlük ve güven farkı yarattığını daha hızlı gösterir."
           },
           {
             "type": "list",
@@ -5706,6 +5891,14 @@
           {
             "type": "p",
             "text": "Birçok local SEO içeriği NAP’i teorik tanımlar; ancak oteller, OTA profilleri ve yerel rehberlerin aynı anda yönetildiği kompleks bir ekosisteme sahiptir. Bu rehberin farkı, citation stratejisini “daha çok dizin” değil citation hijyeni + öncelik haritası + rebrand yönetimi olarak ele almasıdır. Böylece hem algoritmik hem algısal güven sinyali güçlenir ve harita görünürlüğü daha istikrarlı hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden oteller için [Yerel SEO ve NAP tutarlılığı](/tr/seo/yerel-seo) çalışması, sadece dizin temizliği değil; marka güveni, çağrı doğruluğu ve harita görünürlüğünü birlikte stabilize eden bir altyapı işi olarak ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Süreçleri netleştirdikten sonra [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfası üzerinden duplicate kayıt, Local Pack ve citation temizliğiyle ilgili karar noktalarını da hızlıca gözden geçirebilirsiniz."
           },
           {
             "type": "media",
@@ -5804,7 +5997,7 @@
     }
   },
   "BlogYerelLandingPageStratejisiAntalyaBelekKemerIcin": {
-    "title": "Antalya Yerel Landing Stratejisi: SEO Mimarı",
+    "title": "Antalya Yerel Landing Stratejisi: SEO Mimarisi",
     "slug": "yerel-landing-page-stratejisi-antalya-belek-kemer-icin",
     "department": "seo",
     "subDepartment": "local",
@@ -5814,7 +6007,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Antalya, Belek, Kemer için yerel landing page mimarisi kurun: heading yapısı, yerel SSS, harita, iç link ağı ve dönüşüm bloklarıyla “bölge + hizmet” aramalarında otorite kazanın.",
     "seo": {
-      "metaTitle": "Antalya Yerel Landing Stratejisi: SEO Mimarı | DGTLFACE",
+      "metaTitle": "Antalya Yerel Landing Stratejisi: SEO Mimarisi | DGTLFACE",
       "metaDescription": "Antalya, Belek, Kemer için yerel landing page mimarisi kurun: heading yapısı, yerel SSS, harita, iç link ağı ve dönüşüm bloklarıyla “bölge + hizmet” aramalarında otorite kazanın."
     },
     "blueprint": {
@@ -5850,8 +6043,8 @@
       ]
     },
     "h1": {
-      "title": "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer Gibi Bölgeler İçin SEO Mimarı Nasıl Kurulur?",
-      "intro": "Yerel landing sayfalar, “Antalya otel SEO”, “Belek dijital pazarlama”, “Kemer otel reklam yönetimi” gibi bölge + hizmet aramalarında otorite kazanmanın en sağlıklı yollarından biridir. Ancak kritik nokta şudur: aynı bölge için üretilmiş çok sayıda zayıf sayfa yerine, az ama derin birkaç sayfa her zaman daha etkili olur. Bu yazı, otel ve ajans hizmetleri için Geo-SEO landing mimarisini; heading yapısı, yerel SSS, harita entegrasyonu, iç link ağı ve dönüşüm bloklarıyla birlikte bir blueprint olarak sunar.",
+      "title": "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer Gibi Bölgeler İçin SEO Mimarisi Nasıl Kurulur?",
+      "intro": "Yerel landing sayfalar, “Antalya otel SEO”, “Belek dijital pazarlama”, “Kemer otel reklam yönetimi” gibi bölge + hizmet aramalarında otorite kazanmanın en sağlıklı yollarından biridir. Ancak kritik nokta şudur: aynı bölge için üretilmiş çok sayıda zayıf sayfa yerine, az ama derin birkaç sayfa her zaman daha etkili olur. Bu yazı, otel ve ajans hizmetleri için Geo-SEO landing mimarisini; heading yapısı, yerel SSS, harita entegrasyonu, iç link ağı ve dönüşüm bloklarıyla birlikte bir blueprint olarak sunar. Özellikle [Antalya Belek Kemer yerel landing](/tr/seo/yerel-seo) kurgusunu hizmet mimarisiyle birlikte düşünmek isteyen ekipler için pratik bir çerçeve sunar.",
       "quickSummary": [
         "Bölge başına az ama güçlü landing yaklaşımını kullan.",
         "Heading mimarisini (H1–H2–H3) geo-intent’e göre kur.",
@@ -5862,19 +6055,19 @@
       "ctaPrimary": {
         "label": "Yerel Landing Strateji Analizi Talep Et",
         "text": "Antalya/Belek/Kemer için doğru sayfa sayısını, heading mimarisini ve internal link planını netleştirin.",
-        "href": "https://dgtlface.com/tr/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yerel Landing Strateji Analizi Talep Et",
         "text": "Antalya/Belek/Kemer için sayfa sayısı + heading mimarisi + iç link planını netleştirip uygulanabilir blueprint alın.",
-        "href": "https://dgtlface.com/tr/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Yerel Landing Page Heading & İçerik Şablonunu İndir",
         "text": "Bölge landing’lerini tek sayfada şablonlayıp 30 dakikada başlık ve içerik iskeletini çıkarırsınız.",
-        "href": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
+        "href": "/downloads/yerel-landing-page-heading-icerik-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -5883,12 +6076,36 @@
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Otel SEO",
+        "label": "SEO hizmetleri içinde bölge bazlı landing mimarisi",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "yerel anahtar kelime araştırması",
+        "href": "/tr/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani"
+      },
+      {
+        "label": "çok lokasyonlu Yerel SEO mimarisi",
+        "href": "/tr/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+      },
+      {
+        "label": "turizm destinasyonlarında sezonluk yerel SEO",
+        "href": "/tr/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi"
+      },
+      {
+        "label": "oteller için geo SEO stratejisi",
         "href": "/tr/otel/seo"
       },
       {
-        "label": "Benchmark Analizi",
+        "label": "bölge bazlı rakip görünürlük analizi",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "otel dijital pazarlama için bölge bazlı landing sayfaları",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
@@ -5904,7 +6121,7 @@
     "sections": [
       {
         "id": "h1-context",
-        "title": "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer Gibi Bölgeler İçin SEO Mimarı Nasıl Kurulur?",
+        "title": "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer Gibi Bölgeler İçin SEO Mimarisi Nasıl Kurulur?",
         "blocks": [
           {
             "type": "media",
@@ -5919,7 +6136,7 @@
             "variant": "primary",
             "label": "Yerel Landing Strateji Analizi Talep Et",
             "text": "Antalya/Belek/Kemer için doğru sayfa sayısını, heading mimarisini ve internal link planını netleştirin.",
-            "href": "https://dgtlface.com/tr/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -5940,6 +6157,10 @@
             "text": "Yerel landing page; tek bir destinasyon (Antalya/Belek/Kemer/Side) için, o bölgeye yönelik hizmet niyetini (SEO, reklam, dijital pazarlama, vb.) karşılayan derin, tekil ve yapılandırılmış bir sayfadır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı [SEO hizmetleri içinde bölge bazlı landing mimarisi](/tr/seo-hizmetleri) olarak okumak gerekir; çünkü doğru landing kurgusu sadece içerik üretimi değil, iç link akışı, dönüşüm tasarımı ve bölgesel görünürlük planlamasıyla birlikte çalışır."
+          },
+          {
             "type": "h3",
             "text": "Ne işe yarar?"
           },
@@ -5951,6 +6172,10 @@
               "Kullanıcıya “bu bölgede hizmet veriyoruz” mesajını net verir (dönüşüm).",
               "İç link ağıyla ana hizmet sayfanıza otorite aktarır (SEO mimarisi)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Pratikte bu yaklaşım, [oteller için geo SEO stratejisi](/tr/otel/seo) açısından değerlidir; çünkü destinasyon aramasındaki görünürlük, doğru bölge sinyali ile doğru hizmet sayfasını aynı çatı altında buluşturduğunuzda daha güçlü hale gelir."
           },
           {
             "type": "callout",
@@ -5982,6 +6207,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Evet, ayrı sayfa açabilirsiniz; ama her bölge için tek güçlü sayfa yaklaşımı, aynı bölge için çok sayıda benzer sayfa üretmekten daha sağlıklıdır. “Çok sayfa” yaklaşımı; içerik kalitesi düşerse cannibalisation ve kalite sinyali problemi doğurabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kararı vermeden önce [yerel anahtar kelime araştırması](/tr/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani) yapmak gerekir; çünkü Antalya, Belek ve Kemer için gerçekten ayrı arama niyeti oluşup oluşmadığını görmeden sayfa sayısını büyütmek gereksiz çoğalmaya yol açabilir."
           },
           {
             "type": "h3",
@@ -6043,6 +6272,10 @@
             "text": "Bu bölüm, hem otel hem ajans hizmetleri için “bölge bazlı landing” mimarisini şablonlaştırır. Amaç: her bölge için aynı iskelet, ama içerik içinde bölgeye özgü kanıt ve detay."
           },
           {
+            "type": "p",
+            "text": "Birden fazla tesis, otel grubu veya lokasyon kombinasyonu yönetiliyorsa [çok lokasyonlu Yerel SEO mimarisi](/tr/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi) yaklaşımı devreye girer; her destinasyon sayfasının kendi niyetini korurken ana hizmet mimarisi altında tutarlı kalması gerekir."
+          },
+          {
             "type": "h3",
             "text": "Önerilen URL ve hiyerarşi (Varsayım: servis sayfaları mevcut)"
           },
@@ -6100,6 +6333,10 @@
             "text": "Aşağıdaki H2 iskeleti, her bölge sayfasında aynı kalabilir; içerik, bölge detaylarıyla doldurulur."
           },
           {
+            "type": "p",
+            "text": "Bu iskelet, [turizm destinasyonlarında sezonluk yerel SEO](/tr/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi) mantığıyla birlikte düşünülmelidir; çünkü Antalya, Belek ve Kemer gibi bölgelerde sezon, etkinlik ve kampanya dönemi aynı sayfanın hangi bloklarının öne çıkacağını doğrudan değiştirir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -6139,7 +6376,7 @@
             "variant": "secondary",
             "label": "Yerel Landing Page Heading & İçerik Şablonunu İndir",
             "text": "Bölge landing’lerini tek sayfada şablonlayıp 30 dakikada başlık ve içerik iskeletini çıkarırsınız.",
-            "href": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
+            "href": "/downloads/yerel-landing-page-heading-icerik-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -6195,6 +6432,18 @@
             "text": "Bölge landing, sadece SEO değil aynı zamanda “hizmet talebi” sayfasıdır. Bu yüzden CTA ve güven unsurları (kanıt, süreç, deliverables) net olmalıdır.\n\t•\tİlk ekran: “bölge + hizmet” değer önerisi + tek CTA\n\t•\tOrta bölüm: “benchmark/analiz” gibi risk azaltıcı asset\n\t•\tFinal: süreç + deliverables + tekrar CTA"
           },
           {
+            "type": "p",
+            "text": "Hangi destinasyon sayfasının önce güçlendirileceğini anlamak için [bölge bazlı rakip görünürlük analizi](/tr/raporlama/benchmark-analizi) yapmak gerekir; rakip otellerin Antalya, Belek ve Kemer sayfalarında hangi sorgularda görünür olduğunu görmeden içerik önceliği koymak eksik kalır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı yapı, [otel dijital pazarlama için bölge bazlı landing sayfaları](/tr/otel-dijital-pazarlama) açısından da kritiktir; çünkü destinasyon bazlı talep çoğu zaman kampanya, marka araması ve direct booking niyetiyle birleşir."
+          },
+          {
+            "type": "p",
+            "text": "Bu mimariyi daha sistemli bir plana taşımak için [bölge bazlı hizmet sayfası stratejisi](/tr/seo/yerel-seo) değerlendirmesine geçebilir, karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfasını kullanabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -6207,7 +6456,7 @@
             "variant": "primary",
             "label": "Yerel Landing Strateji Analizi Talep Et",
             "text": "Antalya/Belek/Kemer için sayfa sayısı + içerik şablonu + iç link planını netleştirip uygulanabilir blueprint alın.",
-            "href": "https://dgtlface.com/tr/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -28274,7 +28523,7 @@
   },
 
     "BlogYerelAnahtarKelimeArastirmasiVeIcerikPlani": {
-    "title": "Yerel Anahtar Kelime Araştırması: İçerik Planı",
+    "title": "Yerel Anahtar Kelime Araştırması ve İçerik Planı: Oteller ve Yerel İşletmeler İçin Yol Haritası",
     "slug": "yerel-anahtar-kelime-arastirmasi-ve-icerik-plani",
     "department": "seo",
     "subDepartment":"local",
@@ -28284,7 +28533,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Yerel keyword araştırmasını hizmet+şehir+semt ve “yakınımda” kümeleriyle yapın; keyword haritası çıkarıp landing ve blog planına dönüştürün. İlk 10 sayfa önerisi içerir.",
     "seo": {
-      "metaTitle": "Yerel Anahtar Kelime Araştırması: İçerik Planı | DGTLFACE",
+      "metaTitle": "Yerel Anahtar Kelime Araştırması ve İçerik Planı | DGTLFACE",
       "metaDescription": "Yerel keyword araştırmasını hizmet+şehir+semt ve “yakınımda” kümeleriyle yapın; keyword haritası çıkarıp landing ve blog planına dönüştürün. İlk 10 sayfa önerisi içerir."
     },
     "blueprint": {
@@ -28322,7 +28571,7 @@
     },
     "h1": {
       "title": "Yerel Anahtar Kelime Araştırması ve İçerik Planı: Oteller ve Yerel İşletmeler İçin Yol Haritası",
-      "intro": "Yerel aramaların önemli bir kısmı hizmet + lokasyon formunda ve çoğunlukla mobil cihazlardan yapılır. Bu yüzden “yerel SEO yapıyoruz” demek yetmez; önce doğru yerel keyword kümelerini çıkarıp bunları landing ve blog içeriklerine mimari bir planla dağıtmak gerekir. Bu rehber, Antalya/Belek/Kemer gibi destinasyonlarda “bölge + hizmet” niyetini yakalayan keyword haritasını nasıl kuracağınızı ve ilk 10 sayfalık içerik planını nasıl çıkaracağınızı adım adım gösterir.",
+      "intro": "Yerel aramaların önemli bir kısmı hizmet + lokasyon formunda ve çoğunlukla mobil cihazlardan yapılır. Bu yüzden “yerel SEO yapıyoruz” demek yetmez; önce doğru [yerel anahtar kelime araştırması](/tr/seo/yerel-seo) kümelerini çıkarıp bunları landing ve blog içeriklerine mimari bir planla dağıtmak gerekir. Bu rehber, Antalya/Belek/Kemer gibi destinasyonlarda “bölge + hizmet” niyetini yakalayan keyword haritasını nasıl kuracağınızı ve ilk 10 sayfalık içerik planını nasıl çıkaracağınızı adım adım gösterir.",
       "quickSummary": [
         "1) Hizmet + şehir + semt seed sorgularını çıkarın",
         "2) Google Suggest, Related Searches, Haritalar ve PAA kaynaklarını birleştirin",
@@ -28333,43 +28582,67 @@
       "ctaPrimary": {
         "label": "Yerel Anahtar Kelime & İçerik Planı Analizi Talep Et",
         "text": "Sizin destinasyon ve hizmetlerinize göre keyword kümelerini çıkarıp 90 günlük içerik mimarisini netleştirin.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yerel Anahtar Kelime & İçerik Planı Analizi Talep Et",
         "text": "Keyword haritasını çıkarıp landing+blog mimarisini 90 gün için planlayalım.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Yerel Keyword Haritası & İçerik Takvimi Şablonunu İndir",
         "text": "Kümeleri tek tabloda toplayıp 30 dakikada landing ve blog içerik planını çıkarırsınız.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/downloads/yerel-keyword-haritasi-icerik-takvimi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "label": "SEO hizmetleri içinde yerel keyword mapping",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "label": "hizmet + şehir SEO anahtar kelimeleri",
+        "href": "/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin"
+      },
+      {
+        "label": "near me sorguları için içerik planı",
+        "href": "/tr/seo/blog/voice-search-ve-yakinimda-sorgular-icin-yerel-seo-stratejisi"
+      },
+      {
+        "label": "turizm destinasyonları için sezonluk keyword planı",
+        "href": "/tr/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi"
+      },
+      {
+        "label": "yerel keyword mapping’i içerik planına dönüştürmek",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "otel SEO’da yerel arama niyeti",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "otel dijital pazarlamada yerel arama niyeti",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
         "title": "Google Haritalar Sıralama Faktörleri",
-        "href": "/seo/blog/google-haritalar-siralama-faktorleri"
+        "href": "/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin"
       },
       {
         "title": "Yerel Landing Page Stratejisi",
-        "href": "/seo/blog/yerel-landing-page-stratejisi"
+        "href": "/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin"
       }
     ],
     "sections": [
@@ -28384,6 +28657,10 @@
           {
             "type": "p",
             "text": "Yerel keyword araştırmasını “tool’dan liste indir” seviyesinde bırakınca, içerik planı dağınık olur. Doğru yaklaşım; kaynakları birleştirip (Suggest, Related, Haritalar, SERP) sonra kümeleri niyete göre sınıflandırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çalışma, [SEO hizmetleri içinde yerel keyword mapping](/tr/seo-hizmetleri) olarak ele alınmalıdır; çünkü amaç yalnız kelime çıkarmak değil, landing, blog, FAQ ve iç link akışını tek plan altında toplamaktır."
           },
           {
             "type": "h3",
@@ -28468,6 +28745,10 @@
             "text": "Örn: “Antalya otel SEO”, “Belek dijital pazarlama” Genelde ticari niyet daha yüksektir; landing sayfa adayıdır."
           },
           {
+            "type": "p",
+            "text": "Bu kümeleri [otel SEO’da yerel arama niyeti](/tr/otel/seo) açısından okumak gerekir; çünkü destinasyon ve hizmet kombinasyonları, doğrudan rezervasyon ya da hizmet talebi niyetini taşıyan en kritik sorgu tiplerinden biridir."
+          },
+          {
             "type": "h3",
             "text": "2) Hizmet + Semt / Bölge"
           },
@@ -28484,6 +28765,10 @@
             "text": "Örn: “otel pazarlama ajansı yakınımda” (Varsayım) Mobil ağırlıklıdır; çoğu zaman harita niyeti taşır. İçerik, “hizmet alanı” mesajı ve hızlı iletişimle desteklenmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [near me sorguları için içerik planı](/tr/seo/blog/voice-search-ve-yakinimda-sorgular-icin-yerel-seo-stratejisi) ayrı düşünülmelidir; çünkü mobil kullanıcı davranışı, soru biçimi ve hızlı aksiyon beklentisi klasik blog kurgusundan farklı çalışır."
+          },
+          {
             "type": "h3",
             "text": "4) Soru formatlı yerel sorgular"
           },
@@ -28498,6 +28783,10 @@
           {
             "type": "p",
             "text": "Örn: “Belek resort SEO”, “Kemer butik otel reklam” Dikkat: ayrı sayfa enflasyonu yaratmadan, ana landing içinde H3/H4 olarak kapsamak çoğu zaman daha iyidir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm bölgelerinde bu kümeler mevsime göre de değişir; bu yüzden [turizm destinasyonları için sezonluk keyword planı](/tr/seo/blog/turizm-destinasyonlarinda-sezonluk-ve-etkinlik-bazli-yerel-seo-stratejisi) yaklaşımıyla sezon, etkinlik ve dönemsel talep farklılıklarını ayrıca işlemek gerekir."
           },
           {
             "type": "callout",
@@ -28529,6 +28818,10 @@
           {
             "type": "p",
             "text": "Pratikte en hızlı yol; “hizmet → şehir → semt → niş” zincirini, kullanıcı dilinin geçtiği kaynaklardan çekmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kümeler daha sonra [hizmet + şehir SEO anahtar kelimeleri](/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin) mantığıyla landing page mimarisine bağlanır; yani keyword listesi doğrudan sayfa ağacını ve bölgesel içerik derinliğini belirler."
           },
           {
             "type": "list",
@@ -28588,6 +28881,10 @@
           {
             "type": "p",
             "text": "Yerel keyword haritası; liste değil, bir mimari tablodur. Amaç: her kümeyi bir “tekil sayfa niyeti”ne bağlamak ve içerik üretiminde cannibalisation’ı önlemektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu haritayı operasyonel hale getiren şey, [yerel keyword mapping’i içerik planına dönüştürmek](/tr/seo/icerik-seo) becerisidir; çünkü hangi kümenin landing, hangisinin blog, hangisinin FAQ olacağı ancak içerik mimarisi bakışıyla netleşir."
           },
           {
             "type": "h3",
@@ -28685,7 +28982,7 @@
             "variant": "secondary",
             "label": "Yerel Keyword Haritası & İçerik Takvimi Şablonunu İndir",
             "text": "Kümeleri tek tabloda toplayıp 30 dakikada landing ve blog içerik planını çıkarırsınız.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/downloads/yerel-keyword-haritasi-icerik-takvimi-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -28700,6 +28997,10 @@
           {
             "type": "p",
             "text": "Dağılımda ana kural: en ticari kümeler landing’lerde; bilgi/soru kümeleri blog ve SSS’de; “yakınımda” niyeti ise GBP + landing + hızlı iletişim kombinasyonunda çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Bu dağılım, [otel dijital pazarlamada yerel arama niyeti](/tr/otel-dijital-pazarlama) açısından da kritiktir; çünkü kampanya, direct booking ve marka görünürlüğü çoğu zaman doğru sorgunun doğru sayfaya bağlanmasına bağlıdır."
           },
           {
             "type": "h3",
@@ -28818,7 +29119,7 @@
             "variant": "primary",
             "label": "Yerel Anahtar Kelime & İçerik Planı Analizi Talep Et",
             "text": "Keyword haritasını çıkarıp landing+blog mimarisini 90 gün için planlayalım.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -28911,20 +29212,24 @@
             "type": "p",
             "text": "Doğru keyword map; rastgele içerik üretimini önler, cannibalisation riskini azaltır ve yerel otoriteyi adım adım büyütür. 90 günlük içerik planı ise bu haritayı uygulanabilir bir yayın sistemine dönüştürür."
           },
+          {
+            "type": "p",
+            "text": "Bu süreci daha sistemli hale getirmek için [oteller için Yerel SEO anahtar kelime planı](/tr/seo/yerel-seo) değerlendirmesine geçebilir, karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfasını kullanabilirsiniz."
+          },
           {"type":"media","slot":"kpi-07"},
           {
             "type": "cta",
             "variant": "primary",
             "label": "Yerel Anahtar Kelime & İçerik Planı Analizi Talep Et",
             "text": "Sizin destinasyon ve hizmetlerinize göre keyword kümelerini çıkarıp 90 günlük içerik mimarisini netleştirin.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Yerel Keyword Haritası & İçerik Takvimi Şablonunu İndir",
             "text": "Kümeleri tek tabloda toplayıp 30 dakikada landing ve blog içerik planını çıkarırsınız.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/downloads/yerel-keyword-haritasi-icerik-takvimi-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -28982,7 +29287,7 @@
   },
 
   "BlogYerelLinkBuildingVePrStratejisiOtelVeIsletmeler": {
-    "title": "Yerel Link Building ve PR: Otel Otorite Rehberi",
+    "title": "Yerel Link Building ve PR: Otel ve Yerel İşletmeler İçin Otorite Stratejisi",
     "slug": "yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler",
     "department": "seo",
     "subDepartment":"local",
@@ -28992,7 +29297,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Otel ve yerel işletmeler için yerel link building + PR stratejisi: turizm portalları, medya, dernekler, etkinlik/sponsorluklar. Kaynak tablosu ve kampanya akışı içerir.",
     "seo": {
-      "metaTitle": "Yerel Link Building ve PR: Otel Otorite Rehberi | DGTLFACE",
+      "metaTitle": "Yerel Link Building ve PR: Otel ve Yerel İşletmeler İçin Otorite Stratejisi | DGTLFACE",
       "metaDescription": "Otel ve yerel işletmeler için yerel link building + PR stratejisi: turizm portalları, medya, dernekler, etkinlik/sponsorluklar. Kaynak tablosu ve kampanya akışı içerir."
     },
     "blueprint": {
@@ -29030,7 +29335,7 @@
     },
     "h1": {
       "title": "Yerel Link Building ve PR: Otel ve Yerel İşletmeler İçin Otorite Stratejisi",
-      "intro": "Yerel link building, çoğu zaman “backlink toplayalım” diye daraltılır; oysa oteller ve yerel işletmeler için asıl değer, PR + görünürlük + gerçek trafik üçlüsünün aynı anda gelmesidir. Yerel medya, turizm portalları, belediye/oda/dernek siteleri ve etkinlik/sponsorluklar; hem Google açısından yerel otorite sinyali üretebilir hem de doğrudan müşteri yönlendiren kanallar yaratabilir. Bu rehber, link kaynaklarını sınıflandırır, kampanya akışını verir ve riskli taktiklerden uzak durmanız için net kurallar sunar.",
+      "intro": "Yerel link building, çoğu zaman “backlink toplayalım” diye daraltılır; oysa oteller ve yerel işletmeler için asıl değer, PR + görünürlük + gerçek trafik üçlüsünün aynı anda gelmesidir. Yerel medya, turizm portalları, belediye/oda/dernek siteleri ve etkinlik/sponsorluklar; hem Google açısından yerel otorite sinyali üretebilir hem de doğrudan müşteri yönlendiren kanallar yaratabilir. Bu rehber, [yerel link building otel](/tr/seo/yerel-seo) yaklaşımını link kaynakları, kampanya akışı ve ölçüm mantığıyla birlikte netleştirir; riskli taktiklerden uzak durmanız için de pratik kurallar sunar.",
       "quickSummary": [
         "1) Yerel link building’i link sayısı değil kalite + alaka olarak düşünün",
         "2) Yerel medya, turizm portalları, oda/dernek ve etkinlik kaynaklarını sınıflandırın",
@@ -29041,43 +29346,67 @@
       "ctaPrimary": {
         "label": "Yerel Link & PR Strateji Çalışması Talep Et",
         "text": "Hangi kaynaklardan, hangi hikâyeyle ve hangi kampanya akışıyla doğal link/mention alacağınızı netleştirin.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yerel Link & PR Strateji Çalışması Talep Et",
         "text": "Antalya/Belek/Kemer odaklı kaynak listesini ve 30 günlük kampanya akışını birlikte çıkaralım.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Yerel Link Kaynağı Listesi & Kampanya Planı Şablonunu İndir",
         "text": "Kaynakları tek listede toplayıp 30 dakikada outreach ve kampanya akışını çıkarırsınız.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/downloads/yerel-link-kaynagi-listesi-kampanya-plani-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Backlink yönetimi hizmet sayfası",
-        "href": "/seo/backlink-yonetimi"
+        "label": "SEO hizmetleri içinde yerel otorite çalışmaları",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "label": "oteller için citation ve yerel dizin kaynakları",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
+      },
+      {
+        "label": "rakiplerin yerel backlink kaynakları",
+        "href": "/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+      },
+      {
+        "label": "local E-E-A-T ve dijital ayak izi",
+        "href": "/tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
+      },
+      {
+        "label": "yerel PR’ın SEO etkisi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "Antalya turizm portalı link fırsatları",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "yerel link building performansını raporlamak",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
         "title": "Yerel Anahtar Kelime Araştırması ve İçerik Planı",
-        "href": "/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani"
+        "href": "/tr/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani"
       },
       {
         "title": "Google Haritalar Sıralama Faktörleri",
-        "href": "/seo/blog/google-haritalar-siralama-faktorleri"
+        "href": "/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin"
       }
     ],
     "sections": [
@@ -29096,6 +29425,10 @@
           {
             "type": "p",
             "text": "Yerel link building; bir otelin/işletmenin bulunduğu şehir/ilçe ekosistemindeki güvenilir kaynaklardan (medya, turizm portalları, dernekler, rehberler) editoryal ve ilgili bağlantılar alarak yerel otoritesini güçlendirmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu çalışma, [SEO hizmetleri içinde yerel otorite çalışmaları](/tr/seo-hizmetleri) olarak düşünülmelidir; çünkü hedef sadece bağlantı toplamak değil, marka görünürlüğü, güven ve destinasyon bazlı otorite üretmektir."
           },
           {
             "type": "h3",
@@ -29135,6 +29468,10 @@
           {
             "type": "p",
             "text": "Yerel link kaynaklarını sınıflandırmak, “nereden başlayacağım?” sorusunu kolaylaştırır. Antalya/Belek/Kemer gibi destinasyonlarda turizm ekosistemi geniş olduğu için fırsatlar daha fazladır; ama kontrolsüz ilerlemek spam riskini artırır."
+          },
+          {
+            "type": "p",
+            "text": "Bu ekosistemde [oteller için citation ve yerel dizin kaynakları](/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite) da tamamen ayrı düşünülmemelidir; çünkü güçlü dizin ve citation katmanı, editoryal linklerin otorite etkisini destekleyen temel görünürlük zeminini oluşturur."
           },
           {
             "type": "h3",
@@ -29230,11 +29567,15 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Ayrıca [rakiplerin yerel backlink kaynakları](/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler) düzenli izlenmelidir; rakiplerin hangi medya, portal ve sponsor sayfalarında yer aldığını görmek, kör outreach yerine daha hedefli fırsat listesi çıkarmanızı sağlar."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Yerel Link Kaynağı Listesi & Kampanya Planı Şablonunu İndir",
             "text": "Kaynakları tek listede toplayıp 30 dakikada outreach ve kampanya akışını çıkarırsınız.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/downloads/yerel-link-kaynagi-listesi-kampanya-plani-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -29249,6 +29590,10 @@
           {
             "type": "p",
             "text": "PR, yerel SEO’da iki kanallı çalışır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu etkiyi doğru okumak için [local E-E-A-T ve dijital ayak izi](/tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin) çerçevesi önemlidir; çünkü yerel haberler, mention’lar ve sponsorluk görünürlüğü yalnız link değil, marka güveni ve uzmanlık algısı da üretir."
           },
           {
             "type": "list",
@@ -29320,6 +29665,10 @@
             "text": "Rakip backlink içerikleri çoğunlukla global ve e-ticaret merkezli; otellerde ise en etkili yaklaşım çoğu zaman “destinasyon rehberi” ve “veri temelli içerik”tir."
           },
           {
+            "type": "p",
+            "text": "Özellikle [Antalya turizm portalı link fırsatları](/tr/otel-dijital-pazarlama) doğru kurgulandığında yalnız SEO sinyali değil; marka araması, referral trafik ve rezervasyon niyeti açısından da değer üretir."
+          },
+          {
             "type": "h3",
             "text": "“Veri + rehber” ile link alma örnekleri"
           },
@@ -29365,6 +29714,10 @@
           {
             "type": "p",
             "text": "Yerel link building’de en büyük hata, anchor’ı aşırı optimize etmektir. “Antalya otel SEO” gibi exact-match anchor’ları her linkte zorlamak, doğal olmayan bir profil üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [yerel PR’ın SEO etkisi](/tr/seo/backlink-yonetimi) sadece link sayısıyla değil; anchor doğallığı, kaynak kalitesi, konu alaka düzeyi ve uzun vadeli profil dengesiyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -29457,6 +29810,10 @@
             "text": "SXO gereksinimi gereği, uygulanabilir bir mini kampanya planı:"
           },
           {
+            "type": "p",
+            "text": "Kampanyanın gerçek etkisini görmek için [yerel link building performansını raporlamak](/tr/seo/seo-raporlama) gerekir; aksi halde kazanılan mention, referral trafik ve görünürlük artışı operasyonel aksiyona dönüşmez."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -29501,7 +29858,7 @@
             "variant": "primary",
             "label": "Yerel Link & PR Strateji Çalışması Talep Et",
             "text": "Antalya/Belek/Kemer odaklı kaynak listesini ve 30 günlük kampanya akışını birlikte çıkaralım.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -29642,18 +29999,22 @@
             "text": "En sağlıklı strateji; az ama kaliteli kaynaklara odaklanmak, her linki gerçek bir PR hikâyesiyle desteklemek ve riskli link taktiklerinden uzak durmaktır. Antalya/Belek/Kemer gibi destinasyonlarda güçlü sonuç, kaynak listesi + hikâye açısı + hedef landing + ölçüm ritminin birlikte çalışmasıyla gelir."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi daha planlı hale getirmek için [oteller için Yerel SEO ve yerel link building stratejisi](/tr/seo/yerel-seo) değerlendirmesine geçebilir, karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfasını kullanabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Yerel Link & PR Strateji Çalışması Talep Et",
             "text": "Hangi kaynaklardan, hangi hikâyeyle ve hangi kampanya akışıyla doğal link/mention alacağınızı netleştirin.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Yerel Link Kaynağı Listesi & Kampanya Planı Şablonunu İndir",
             "text": "Kaynakları tek listede toplayıp 30 dakikada outreach ve kampanya akışını çıkarırsınız.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/downloads/yerel-link-kaynagi-listesi-kampanya-plani-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -29710,7 +30071,7 @@
 
 
    "BlogVoiceSearchVeYakinimdaSorgularIcinYerelSeoStratejisi": {
-    "title": "Voice Search ve Yakınımda: Yerel SEO Rehberi",
+    "title": "Voice Search ve “Yakınımda” Sorgular: Otel ve Yerel İşletmeler İçin Yerel SEO Stratejisi",
     "slug": "voice-search-ve-yakinimda-sorgular-icin-yerel-seo-stratejisi",
     "department": "seo",
     "subDepartment":"local",
@@ -29720,7 +30081,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Voice search ve “yakınımda” sorguları için yerel SEO stratejisi: soru formatlı içerikler, güçlü GBP, FAQ schema ve hızlı mobil UX ile yüksek niyetli mobil talebi dönüşüme taşıyın.",
     "seo": {
-      "metaTitle": "Voice Search ve Yakınımda: Yerel SEO Rehberi | DGTLFACE",
+      "metaTitle": "Voice Search ve “Yakınımda” Sorgular: Otel ve Yerel İşletmeler İçin Yerel SEO Stratejisi | DGTLFACE",
       "metaDescription": "Voice search ve “yakınımda” sorguları için yerel SEO: soru formatlı içerikler, güçlü GBP, FAQ schema ve hızlı mobil UX. Otel/işletme örnekleri ve şablon içerir."
     },
     "blueprint": {
@@ -29758,7 +30119,7 @@
     },
     "h1": {
       "title": "Voice Search ve “Yakınımda” Sorgular: Otel ve Yerel İşletmeler İçin Yerel SEO Stratejisi",
-      "intro": "Voice search ve “yakınımda” sorguları, otel ve yerel işletmeler için özellikle mobil kullanıcıların önemli bir kısmını temsil eder. Bu kullanıcılar genellikle acil veya yüksek niyetli aramalar yapar: “yakınımdaki oteller”, “Belek’te en yakın eczane”, “Antalya’da en iyi kebapçı” gibi. Bu sorgularda pay almak, sadece içerik yazmakla değil; soru formatı + GBP doğruluğu + mobil dönüşüm deneyimi üçlüsünü aynı anda kurmakla mümkündür. Bu rehberde önce voice mantığını, sonra “yakınımda” akışını ve en sonunda otel/işletme için uygulanabilir blueprint’i vereceğiz.",
+      "intro": "Voice search ve “yakınımda” sorguları, otel ve yerel işletmeler için özellikle mobil kullanıcıların önemli bir kısmını temsil eder. Bu kullanıcılar genellikle acil veya yüksek niyetli aramalar yapar: “yakınımdaki oteller”, “Belek’te en yakın eczane”, “Antalya’da en iyi kebapçı” gibi. Bu sorgularda pay almak, sadece içerik yazmakla değil; soru formatı + GBP doğruluğu + mobil dönüşüm deneyimi üçlüsünü aynı anda kurmakla mümkündür. Bu rehberde önce [voice search ve yerel SEO](/tr/seo/yerel-seo) ilişkisinin mantığını, sonra “yakınımda” akışını ve en sonunda otel/işletme için uygulanabilir blueprint’i vereceğiz.",
       "quickSummary": [
         "1) Voice sorgularını konuşma dili ve yüksek niyet üzerinden okuyun",
         "2) “Yakınımda” sorgularında GBP, konum ve mobil CTA’yı birlikte optimize edin",
@@ -29769,43 +30130,67 @@
       "ctaPrimary": {
         "label": "Voice & “Yakınımda” Strateji Analizi Talep Et",
         "text": "Sizin bölgeniz ve hizmetleriniz için voice/near-me sorgu planını, GBP ve mobil UX aksiyonlarını netleştirin.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Voice & “Yakınımda” Strateji Analizi Talep Et",
         "text": "Sizin bölgeniz ve hizmetleriniz için voice/near-me sorgu planını, GBP ve mobil UX aksiyonlarını netleştirin.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Voice Search & Yakınımda Sorgular İçin SSS Şablonunu İndir",
         "text": "Soru bankasını tek şablonda toplayıp 30 dakikada SSS bloklarını ve kısa yanıtları hazır edersiniz.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/voice-search-yakinimda-sss-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "SEO hizmetleri içinde mobil yerel arama stratejisi",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Yerel anahtar kelime araştırması ve içerik planı",
+        "href": "/tr/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani"
+      },
+      {
+        "label": "Yerel SEO ve mesaj butonları",
+        "href": "/tr/seo/blog/yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar"
+      },
+      {
+        "label": "Yerel landing page stratejisi",
+        "href": "/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin"
       },
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
-        "href": "/seo/yerel-seo"
+        "title": "Yerel Anahtar Kelime Araştırması ve İçerik Planı",
+        "href": "/tr/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani"
       },
       {
-        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
-        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+        "title": "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer İçin",
+        "href": "/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin"
       }
     ],
     "sections": [
@@ -29832,6 +30217,10 @@
           {
             "type": "p",
             "text": "Bu yüzden voice için içerik yazarken hedef “uzun anlatı” değil; kısa, net, tek aksiyonlu cevaplar üretmektir. Otellerde en çok çıkan voice niyeti; “yakınımda otel”, “fiyat”, “aile dostu mu”, “check-in kaçta” gibi hızlı karar sorularıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [SEO hizmetleri içinde mobil yerel arama stratejisi](/tr/seo-hizmetleri) olarak içerik, Google Business Profile ve mobil aksiyon kurgusunun tek planda düşünülmesini gerektirir."
           },
           {
             "type": "h3",
@@ -29872,6 +30261,10 @@
             "text": "“Yakınımda” sorguları neredeyse her zaman mobil + konum servisleri ile birlikte çalışır. Bu akışta Google çoğu zaman Local Pack/Haritalar sonuçlarını öne çıkarır; kullanıcı da “karta tıkla → ara/rota → karar” akışına gider."
           },
           {
+            "type": "p",
+            "text": "Bu davranışı kalıcı görünürlüğe çevirmek için [yakınımda sorguları için yerel anahtar kelime planı](/tr/seo/blog/yerel-anahtar-kelime-arastirmasi-ve-icerik-plani) çıkarılmalı; şehir, semt, hizmet ve “şimdi açık mı?” varyasyonları birlikte gruplanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "“Yakınımda” akışındaki 3 kritik sinyal"
           },
@@ -29909,6 +30302,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Kullanıcı bu aşamada uzun form doldurmak istemediği için [mobil yerel aramalarda mesaj butonları](/tr/seo/blog/yerel-seo-ve-mesaj-butonlari-whatsapp-google-mesajlar) da telefon ve rota kadar görünür olmalı; özellikle hızlı soru-cevap bekleyen mobil kullanıcı bekletilmemelidir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           }
@@ -29934,6 +30331,10 @@
           {
             "type": "p",
             "text": "Otel örneğinde; kullanıcı “yakınımdaki oteller” dediğinde harita kartı öne çıkar. Ama kullanıcı “Antalya’da otel SEO yapan ajans nasıl aranır?” dediğinde, blog/SSS tarafındaki net cevaplar daha çok çalışır (niyet bilgi + karar)."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [near me sorguları için içerik](/tr/seo/icerik-seo) planlanırken kısa cevap blokları, FAQ başlıkları ve aksiyon odaklı CTA yerleşimi aynı brief içinde kurgulanmalıdır."
           },
           {
             "type": "h3",
@@ -30008,6 +30409,10 @@
               "30 gün içinde SSS havuzunu genişletin ve ölçün (call/rota/web).",
               "Yorum yönetimiyle “güven” sinyalini destekleyin (bir önceki içeriklerle uyumlu)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle destinasyon bazlı talepte [bölge bazlı landing sayfaları](/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin) şehir, semt ve yakın çevre varyasyonlarını daha net karşılar; bu ihtiyaç [yakınımdaki oteller araması](/tr/otel/seo) için görünür olmak isteyen markalarda lokasyon, harita ve dönüşüm stratejisinin birlikte kurulmasını gerektirir."
           }
         ]
       },
@@ -30253,6 +30658,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu akış, [otel dijital pazarlamada mobil yerel arama niyeti](/tr/otel-dijital-pazarlama) yüksek olan kullanıcıların reklam, marka ve organik temaslardan sonra doğrudan arama, mesaj veya rezervasyon aksiyonuna geçmesini kolaylaştırır."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -30302,7 +30711,7 @@
             "variant": "primary",
             "label": "Voice & “Yakınımda” Strateji Analizi Talep Et",
             "text": "Soru bankası + GBP kontrol + mobil UX aksiyonlarını tek planla çıkaralım.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -30316,21 +30725,21 @@
           },
           {
             "type": "p",
-            "text": "Bu yazı, Yerel SEO silosunda yüksek niyetli mobil talebi yakalamak için kullanılacak temel çerçeveyi verir. Devam eden çalışmalarda SSS bankası, schema yapısı, GBP optimizasyonu ve mobil UX iyileştirmeleri birlikte planlandığında, voice ve near-me sorgularından gelen trafik daha ölçülebilir bir dönüşüm kanalına dönüşebilir."
+            "text": "Bu yazı, Yerel SEO silosunda yüksek niyetli mobil talebi yakalamak için kullanılacak temel çerçeveyi verir. Devam eden çalışmalarda SSS bankası, schema yapısı, GBP optimizasyonu ve mobil UX iyileştirmeleri birlikte planlandığında, [oteller için Yerel SEO ve yakınımda sorguları stratejisi](/tr/seo/yerel-seo) daha ölçülebilir bir dönüşüm kanalına dönüşebilir; karar aşamasında olan ekipler için [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) bölümü de kapsamı netleştirir."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Voice & “Yakınımda” Strateji Analizi Talep Et",
             "text": "Sizin bölgeniz ve hizmetleriniz için voice/near-me sorgu planını, GBP ve mobil UX aksiyonlarını netleştirin.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Voice Search & Yakınımda Sorgular İçin SSS Şablonunu İndir",
             "text": "Soru bankasını tek şablonda toplayıp 30 dakikada SSS bloklarını ve kısa yanıtları hazır edersiniz.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/voice-search-yakinimda-sss-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -30389,7 +30798,7 @@
   },
 
   "BlogYerelSeoRaporlamaKpiVeDashboardOtelVeIsletmeler": {
-    "title": "Yerel SEO Raporlama: KPI ve Dashboard",
+    "title": "Yerel SEO Raporlama: KPI’lar ve Dashboard Tasarımı (Otel ve Yerel İşletmeler)",
     "slug": "yerel-seo-raporlama-kpi-ve-dashboard-otel-ve-isletmeler",
     "department": "seo",
     "subDepartment":"local",
@@ -30399,7 +30808,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Otel ve yerel işletmeler için yerel SEO KPI’ları: GBP map views, arama türleri, site tıklaması, arama/rota ve dönüşüm. Looker Studio dashboard tasarımı ve aksiyon tablosuyla ölçümden karara geçin.",
     "seo": {
-      "metaTitle": "Yerel SEO Raporlama: KPI ve Dashboard | DGTLFACE",
+      "metaTitle": "Yerel SEO Raporlama: KPI’lar ve Dashboard Tasarımı (Otel ve Yerel İşletmeler) | DGTLFACE",
       "metaDescription": "Otel ve yerel işletmeler için yerel SEO KPI’ları: GBP map views, arama türleri, site tıklaması, arama/rota ve dönüşüm. Looker Studio dashboard tasarımı + aksiyon tablosu."
     },
     "blueprint": {
@@ -30437,7 +30846,7 @@
     },
     "h1": {
       "title": "Yerel SEO Raporlama: KPI’lar ve Dashboard Tasarımı (Otel ve Yerel İşletmeler)",
-      "intro": "Yerel SEO raporlaması, sadece “kaç kelimede üstteyiz?” sorusuna yanıt vermez; harita görüntülenmeleri, arama türleri, tıklamalar ve bunların rezervasyon/arama gibi dönüşümlere etkisini bir arada göstermelidir. Özellikle otellerde Local Pack performansı, çoğu zaman direkt arama/rota isteği ve web tıklaması üzerinden gelir; bu yüzden gerçek etkileşim metrikleri olmadan “başarı” yanlış okunabilir. Bu rehberde KPI setini, dashboard sayfa mimarisini ve en önemlisi “KPI → aksiyon” eşleştirmesini netleştireceğiz.",
+      "intro": "Yerel SEO raporlaması, sadece “kaç kelimede üstteyiz?” sorusuna yanıt vermez; harita görüntülenmeleri, arama türleri, tıklamalar ve bunların rezervasyon/arama gibi dönüşümlere etkisini bir arada göstermelidir. Özellikle otellerde Local Pack performansı, çoğu zaman direkt arama/rota isteği ve web tıklaması üzerinden gelir; bu yüzden gerçek etkileşim metrikleri olmadan “başarı” yanlış okunabilir. Bu rehberde [yerel SEO KPI otel](/tr/seo/yerel-seo) yaklaşımı üzerinden KPI setini, dashboard sayfa mimarisini ve en önemlisi “KPI → aksiyon” eşleştirmesini netleştireceğiz.",
       "quickSummary": [
         "1) Yerel SEO KPI’larını görünürlük, etkileşim, dönüşüm ve kalite katmanlarında okuyun",
         "2) GBP map views, web click, call ve directions metriklerini tek huniye bağlayın",
@@ -30448,43 +30857,67 @@
       "ctaPrimary": {
         "label": "Yerel SEO KPI & Dashboard Tasarım Çalışması Talep Et",
         "text": "Oteliniz için KPI setini ve Looker Studio dashboard mimarisini aksiyon odaklı kurun.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yerel SEO KPI & Dashboard Tasarım Çalışması Talep Et",
         "text": "Oteliniz için KPI setini ve dashboard mimarisini kurup raporu aksiyona bağlayın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Yerel SEO Dashboard & Rapor Şablonunu İndir",
         "text": "KPI’ları tek panelde toplayıp 30 dakikada yönetim ve operasyon rapor formatını çıkarırsınız.",
-        "href": "/raporlama/looker-studio"
+        "href": "/downloads/yerel-seo-dashboard-rapor-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "SEO hizmetleri içinde yerel SEO raporlama",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Yerel SEO benchmark ve rakip analizi",
+        "href": "/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
+      },
+      {
+        "label": "Yerel SEO ve performans reklamları",
+        "href": "/tr/seo/blog/yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak"
+      },
+      {
+        "label": "Yorum yönetimi ve puanlama",
+        "href": "/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi"
       },
       {
         "label": "Reklam raporlama hizmet sayfası",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Looker Studio raporlama hizmet sayfası",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Voice Search ve Yakınımda: Yerel SEO Rehberi",
-        "href": "/seo/blog/voice-search-ve-yakinimda-sorgular-icin-yerel-seo-stratejisi"
+        "title": "Yerel SEO Benchmark ve Rakip Analizi",
+        "href": "/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler"
       },
       {
-        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
-        "href": "/seo/yerel-seo"
+        "title": "Yerel SEO ve Performans Reklamları",
+        "href": "/tr/seo/blog/yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak"
       }
     ],
     "sections": [
@@ -30503,6 +30936,10 @@
           {
             "type": "p",
             "text": "Yerel SEO KPI’larını 4 katmanda okumak daha sağlıklı: görünürlük, etkileşim, dönüşüm ve kalite/istikrar."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, [SEO hizmetleri içinde yerel SEO raporlama](/tr/seo-hizmetleri) yaklaşımının neden yalnız sıralama takibiyle sınırlı kalmaması gerektiğini de gösterir; harita verisi, dönüşüm ve reputasyon aynı panelde birlikte okunmalıdır."
           },
           {
             "type": "h3",
@@ -30557,6 +30994,10 @@
               "NAP tutarlılığı sorun sayısı (Varsayım: audit çıktısı)",
               "CTR trendi (görüntülenme → tıklama)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kalite katmanına [yorum ve puanlama KPI’ları](/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi) da eklenmelidir; çünkü yorum hacmi, puan ortalaması ve yanıt düzeni yerel görünürlüğün güven tarafını doğrudan etkiler."
           },
           {
             "type": "h3",
@@ -30627,6 +31068,10 @@
             "text": "Sheet’teki data point’e uygun vurgulama: GBP istatistiklerinde “harita görüntülenmesi → site tıklaması → arama/rota isteği” zinciri doğru takip edilmezse, yerel SEO’nun etkisi sıkça yanlış okunur."
           },
           {
+            "type": "p",
+            "text": "Bu zinciri yönetim için anlaşılır hale getirmek adına [Google Business Profile istatistikleri raporu](/tr/veri-analiz-ve-raporlama) yaklaşımıyla GBP, dönüşüm ve yorum verilerinin aynı analiz çerçevesinde değerlendirilmesi gerekir."
+          },
+          {
             "type": "h3",
             "text": "Mini Check (GBP Okuma)"
           },
@@ -30658,6 +31103,10 @@
           {
             "type": "p",
             "text": "Harita (GBP) ve organik (Search Console/GA4) verileri ayrı okununca, kararlar da parçalanır. Doğru yaklaşım, tek panelde iki akışı aynı hedefe bağlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [harita ve arama verisini birlikte okumak](/tr/seo/blog/yerel-seo-ve-performans-reklamlari-harita-ve-arama-verisini-birlikte-okumak) sadece medya metriği değil; organik, Local Pack ve kampanya etkisini ortak yorumlama disiplini olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -30714,6 +31163,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Kanal karşılaştırması tarafında [yerel SEO ve reklam raporlarını birlikte okumak](/tr/sem/reklam-raporlama) da kritiktir; çünkü bazı bölgelerde harita görünürlüğü ile reklam tıklamalarının birbirini nasıl tamamladığı ancak ortak dashboard kurgusunda netleşir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           }
@@ -30763,6 +31216,10 @@
               "Her küme için hedef sayfa belirleyin.",
               "Sıralama düşüşünde önce “etkileşim KPI”larına bakın (call/rota/web)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kümelerin performansını anlamlandırırken [rakip yerel SEO benchmark verileri](/tr/seo/blog/yerel-seo-benchmark-ve-rakip-analizi-otel-ve-isletmeler) ile aynı bölgede kimlerin Local Pack, yorum ve görünürlük avantajı ürettiğini karşılaştırmak gerekir."
           }
         ]
       },
@@ -30773,6 +31230,10 @@
           {
             "type": "p",
             "text": "AEO gereksinimi gereği, dashboard mimarisini net veriyoruz. (Varsayım: Looker Studio veya benzeri bir BI aracı kullanıyorsunuz.)"
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [yerel SEO dashboard tasarımı](/tr/raporlama/looker-studio) yapılırken KPI kartları, bölge filtreleri, yorum trendleri ve dönüşüm panelleri tek kullanıcı akışında okunabilir olmalıdır."
           },
           {
             "type": "h3",
@@ -30960,7 +31421,7 @@
             "variant": "primary",
             "label": "Yerel SEO KPI & Dashboard Tasarım Çalışması Talep Et",
             "text": "Raporu “sıralama raporu” olmaktan çıkarıp aksiyon üreten bir panele çevirelim.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -30974,21 +31435,21 @@
           },
           {
             "type": "p",
-            "text": "Doğru dashboard; yönetim için sade, operasyon için aksiyon üretici olmalıdır. GBP, GA4 ve Search Console verileri aynı huniye bağlandığında; hangi bölge, sorgu, landing sayfa veya profil sinyalinin iyileştirilmesi gerektiği daha net görülür. Böylece raporlama, aylık sunum olmaktan çıkar ve yerel SEO büyümesini yöneten bir karar sistemine dönüşür."
+            "text": "Doğru dashboard; yönetim için sade, operasyon için aksiyon üretici olmalıdır. GBP, GA4 ve Search Console verileri aynı huniye bağlandığında; hangi bölge, sorgu, landing sayfa veya profil sinyalinin iyileştirilmesi gerektiği daha net görülür. Böylece [oteller için Yerel SEO raporlama ve KPI takibi](/tr/seo/yerel-seo) aylık sunum olmaktan çıkar ve yerel SEO büyümesini yöneten bir karar sistemine dönüşür; karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfası da kapsamı netleştirir."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Yerel SEO KPI & Dashboard Tasarım Çalışması Talep Et",
             "text": "Oteliniz için KPI setini ve dashboard mimarisini kurup raporu aksiyona bağlayın.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Yerel SEO Dashboard & Rapor Şablonunu İndir",
             "text": "KPI’ları tek panelde toplayıp 30 dakikada yönetim ve operasyon rapor formatını çıkarırsınız.",
-            "href": "/raporlama/looker-studio"
+            "href": "/downloads/yerel-seo-dashboard-rapor-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -31046,7 +31507,7 @@
   },
 
   "BlogCokSubeliVeCokLokasyonluYapilardaYerelSeoMimarisi": {
-    "title": "Çok Lokasyonlu Yerel SEO Mimarisi (Şube/GBP)",
+    "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur?",
     "slug": "cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi",
     "department": "seo",
     "subDepartment":"local",
@@ -31056,7 +31517,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Çok şubeli markalar için yerel SEO mimarisi: tek domain altında /lokasyonlar/ yapısı, lokasyon landing’leri, her şube için ayrı GBP ve iç link/breadcrumb planı.",
     "seo": {
-      "metaTitle": "Çok Lokasyonlu Yerel SEO Mimarisi (Şube/GBP) | DGTLFACE",
+      "metaTitle": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur? | DGTLFACE",
       "metaDescription": "Çok şubeli markalar için yerel SEO mimarisi: tek domain altında /lokasyonlar/ yapısı, lokasyon landing’leri, her şube için ayrı GBP ve iç link/breadcrumb planı."
     },
     "blueprint": {
@@ -31094,7 +31555,7 @@
     },
     "h1": {
       "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur?",
-      "intro": "Çok şubeli ve çok lokasyonlu yapılarda yerel SEO, tek lokasyonlu işletmelere göre daha karmaşıktır. Çünkü hem site mimarisinde hem Google Business Profile (GBP) tarafında her lokasyonu doğru temsil ederken; marka otoritesini bölmeden, şehir ve ilçe bazlı otorite sayfaları üzerinden güçlendirmek gerekir. Mimari kötü kurgulandığında kullanıcılar “doğru şubeyi” bulamaz, Google da doğru lokasyonu eşleştirmekte zorlanır; marka aramalarında karışıklık yaşanması sık görülen bir vakadır. Bu rehber, tek domain altında ölçeklenebilir bir lokasyon yapısı kurmayı ve GBP→landing eşleşmesini blueprint olarak anlatır.",
+      "intro": "Çok şubeli ve çok lokasyonlu yapılarda yerel SEO, tek lokasyonlu işletmelere göre daha karmaşıktır. Çünkü hem site mimarisinde hem Google Business Profile (GBP) tarafında her lokasyonu doğru temsil ederken; marka otoritesini bölmeden, şehir ve ilçe bazlı otorite sayfaları üzerinden güçlendirmek gerekir. Mimari kötü kurgulandığında kullanıcılar “doğru şubeyi” bulamaz, Google da doğru lokasyonu eşleştirmekte zorlanır; marka aramalarında karışıklık yaşanması sık görülen bir vakadır. Bu rehber, [multi lokasyon yerel SEO](/tr/seo/yerel-seo) mantığıyla tek domain altında ölçeklenebilir bir lokasyon yapısı kurmayı ve GBP→landing eşleşmesini blueprint olarak anlatır.",
       "quickSummary": [
         "1) Lokasyon envanterini şehir/ilçe/şube kırılımıyla çıkar",
         "2) Tek domain altında /lokasyonlar/ mimarisini planla",
@@ -31105,43 +31566,67 @@
       "ctaPrimary": {
         "label": "Multi-Lokasyon Yerel SEO Mimari Analizi Talep Et",
         "text": "Lokasyon hiyerarşinizi, URL yapınızı ve GBP→landing eşleşmesini ölçeklenebilir şekilde tasarlayın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Multi-Lokasyon Yerel SEO Mimari Analizi Talep Et",
         "text": "Lokasyon hiyerarşinizi, URL yapınızı ve GBP→landing eşleşmesini ölçeklenebilir şekilde tasarlayın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Lokasyon Yapısı & Landing Bileşenleri Planlama Şablonunu İndir",
         "text": "/lokasyonlar/ mimarisini ve şube sayfası bileşenlerini tek şablonda toplayıp 30 dakikada plan çıkarırsınız.",
-        "href": "/seo/teknik-seo"
+        "href": "/downloads/lokasyon-yapisi-landing-bilesenleri-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "SEO hizmetleri içinde çok lokasyonlu yerel mimari",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Yerel landing page stratejisi",
+        "href": "/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin"
+      },
+      {
+        "label": "NAP tutarlılığı ve citation",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
+      },
+      {
+        "label": "İkincil işletmeler için yerel SEO",
+        "href": "/tr/seo/blog/otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi"
       },
       {
         "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
-        "href": "/seo/yerel-seo"
+        "title": "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer İçin",
+        "href": "/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin"
       },
       {
-        "title": "Teknik SEO Nedir? Site Mimarisi, Index ve Canonical Temeli",
-        "href": "/seo/teknik-seo"
+        "title": "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
       }
     ],
     "sections": [
@@ -31156,6 +31641,10 @@
           {
             "type": "p",
             "text": "Multi-lokasyon, aynı markanın birden fazla şehir/ilçe veya aynı şehir içinde birden fazla şube/lokasyonda hizmet vermesidir. Zincir otellerde bu “otel grubu”, franchise yapılarda “şubeler” şeklinde görülür. Zorluk; her lokasyonun kendine ait NAP, saat, yorum, harita, fotoğraf ve yerel bağlama sahip olması gerekirken marka bütünlüğünü ve otoriteyi de korumaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [SEO hizmetleri içinde çok lokasyonlu yerel mimari](/tr/seo-hizmetleri) olarak yalnızca ayrı sayfa açma kararı değil; içerik ayrıştırma, teknik yapı, NAP yönetimi ve ölçümleme katmanlarının birlikte planlanmasını gerektirir."
           },
           {
             "type": "h3",
@@ -31193,6 +31682,10 @@
           {
             "type": "p",
             "text": "Çoğu senaryoda tek domain altında çok lokasyon yaklaşımı daha sağlıklıdır; çünkü marka otoritesi dağılmaz, yönetim kolaylaşır ve iç link/breadcrumb ile lokasyonlar arasında tutarlı bir mimari kurulur. Ancak (Varsayım) tamamen farklı markalar veya ayrı yönetim/teknik altyapılar varsa ayrı domain düşünülebilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle destinasyon bazlı rezervasyon rekabetinde [çok şubeli otel zinciri SEO](/tr/otel-dijital-pazarlama) bakışı da önemlidir; çünkü lokasyon mimarisi, kampanya görünürlüğü ile direct booking akışının hangi şubeye yönleneceğini doğrudan etkiler."
           },
           {
             "type": "h3",
@@ -31289,6 +31782,10 @@
             "text": "Çünkü şehir/ilçe sayfaları, hem kullanıcıya “seçim ekranı” sunar hem de arama motoru için bölgesel bağlam yaratır. Ayrıca aynı şehirde birden fazla şube varsa cannibalisation riskini azaltır: şube sayfalarını “ilçe” katmanı altında ayrıştırırsınız."
           },
           {
+            "type": "p",
+            "text": "Bu ayrım, [lokasyon bazlı landing sayfası mimarisi](/tr/seo/blog/yerel-landing-page-stratejisi-antalya-belek-kemer-icin) kurgulanırken şehir, ilçe ve şube seviyesinde hangi sayfanın hangi sorgu grubunu karşılayacağını netleştirmek için kritik rol oynar."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check (Mimari Sağlaması)"
           },
@@ -31325,6 +31822,10 @@
           {
             "type": "p",
             "text": "Lokasyon landing sayfaları, “kopyala-yapıştır şehir sayfası” olmamalı. Her şube için gerçekten o lokasyona özel veri taşımadığınızda, hem kullanıcı hem Google “aynı sayfa” hissine kapılır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı mantık, [otel içindeki ikincil işletmeler için yerel SEO](/tr/seo/blog/otel-icindeki-restoran-spa-ve-ikincil-isletmeler-icin-yerel-seo-stratejisi) tarafında da geçerlidir; restoran, spa veya beach club gibi alt birimlerin ne zaman ana otel sayfasından ayrışacağı bu landing mimarisinde baştan tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -31434,7 +31935,7 @@
             "variant": "secondary",
             "label": "Lokasyon Yapısı & Landing Bileşenleri Planlama Şablonunu İndir",
             "text": "/lokasyonlar/ mimarisini ve şube sayfası bileşenlerini tek şablonda toplayıp 30 dakikada plan çıkarırsınız.",
-            "href": "/seo/teknik-seo"
+            "href": "/downloads/lokasyon-yapisi-landing-bilesenleri-planlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -31445,6 +31946,10 @@
           {
             "type": "p",
             "text": "Multi-location yapılarda en kritik kırılma: her lokasyon için ayrı GBP oluşturmak ve onu doğru landing’e bağlamak. Aksi halde kullanıcı yanlış şubeye yönlenir; marka aramasında karışıklık artar."
+          },
+          {
+            "type": "p",
+            "text": "Bu eşleşmenin sağlıklı çalışması için [her lokasyon için NAP tutarlılığı](/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite) ayrı ayrı korunmalı; şube adı, adres, telefon ve dizin kayıtları farklı lokasyonlar arasında karışmamalıdır."
           },
           {
             "type": "h3",
@@ -31482,6 +31987,10 @@
               "Yanlış/duplicate profilleri temizleyin (önce).",
               "Eşleştirme sonrası 30 gün KPI takip edin: call/rota/web click."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamadan sonra [lokasyon bazlı performans raporlama](/tr/veri-analiz-ve-raporlama) ile her GBP profili ve landing sayfası için görünürlük, tıklama, rota ve dönüşüm verisi ayrı izlenmelidir."
           }
         ]
       },
@@ -31548,6 +32057,10 @@
             "text": "Technical SEO notu gereği: Her lokasyon sayfasının gerçekten o şubeye özel NAP, çalışma saatleri ve içerik içermesi şarttır. Kopya/çok benzer şehir sayfaları; kalite sorunu ve cannibalisation doğurur; ayrıca marka aramalarında “yanlış şubeye” yönlendirme ve karışıklık yaşanabilir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [çok lokasyonlu sayfalarda teknik SEO kontrolü](/tr/seo/teknik-seo) URL standardı, canonical, indexlenebilirlik ve duplicate riskinin en baştan tanımlandığı ayrı bir disiplin olarak ele alınmalıdır."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -31564,7 +32077,7 @@
             "variant": "primary",
             "label": "Multi-Lokasyon Yerel SEO Mimari Analizi Talep Et",
             "text": "/lokasyonlar/ yapınızı, landing bileşenlerini ve GBP eşleşmesini ölçeklenebilir şekilde kurun.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -31648,21 +32161,21 @@
           },
           {
             "type": "p",
-            "text": "Doğru kurulan multi-location mimarisi; kullanıcıya doğru şubeyi seçtirir, Google’a lokasyon sinyallerini net verir ve lokasyon bazlı görünürlük ile dönüşüm takibini daha yönetilebilir hale getirir."
+            "text": "Doğru kurulan multi-location mimarisi; kullanıcıya doğru şubeyi seçtirir, Google’a lokasyon sinyallerini net verir ve [çok lokasyonlu yapılar için Yerel SEO mimarisi](/tr/seo/yerel-seo) ile lokasyon bazlı görünürlük ve dönüşüm takibini daha yönetilebilir hale getirir. Karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfası da duplicate kayıtlar, lokasyon sayfaları ve NAP yönetimi için iyi bir kontrol noktası olur."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Multi-Lokasyon Yerel SEO Mimari Analizi Talep Et",
             "text": "Lokasyon hiyerarşinizi, URL yapınızı ve GBP→landing eşleşmesini ölçeklenebilir şekilde tasarlayın.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Lokasyon Yapısı & Landing Bileşenleri Planlama Şablonunu İndir",
             "text": "/lokasyonlar/ mimarisini ve şube sayfası bileşenlerini tek şablonda toplayıp 30 dakikada plan çıkarırsınız.",
-            "href": "/seo/teknik-seo"
+            "href": "/downloads/lokasyon-yapisi-landing-bilesenleri-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -31720,7 +32233,7 @@
   },
 
   "BlogGoogleHaritalarYanlisKonumVeDuplicateKayitTemizleme": {
-    "title": "Google Haritalar Duplicate ve Yanlış Konum Temizliği",
+    "title": "Google Haritalar’da Yanlış Konum ve Duplicate Kayıt Temizleme Rehberi",
     "slug": "google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme",
     "department": "seo",
     "subDepartment":"local",
@@ -31730,7 +32243,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Otelinizin Google Haritalar kartında yanlış pin veya duplicate kayıt mı var? Doğru kartı belirleyip merge/close adımlarıyla temizleyin, NAP’ı düzeltin ve görünürlüğü toparlayın.",
     "seo": {
-      "metaTitle": "Google Haritalar Duplicate ve Yanlış Konum Temizliği | DGTLFACE",
+      "metaTitle": "Google Haritalar’da Yanlış Konum ve Duplicate Kayıt Temizleme Rehberi | DGTLFACE",
       "metaDescription": "Otelinizin Google Haritalar kartında yanlış pin veya duplicate kayıt mı var? Doğru kartı belirleyip merge/close adımlarıyla temizleyin, NAP’ı düzeltin ve görünürlüğü toparlayın."
     },
     "blueprint": {
@@ -31769,7 +32282,7 @@
     },
     "h1": {
       "title": "Google Haritalar’da Yanlış Konum ve Duplicate Kayıt Temizleme Rehberi",
-      "intro": "Google Haritalar’da yanlış konum, duplicate kartlar veya kapanmış eski şube kayıtları; otelinizin görünürlüğünü böler, markanızı “parçalı” gösterir ve kullanıcıyı yanlış yere/yanlış numaraya yönlendirebilir. Özellikle Antalya, Belek, Kemer, Side gibi turizm destinasyonlarında misafir hızlı karar verdiği için, harita kartındaki küçük bir hata bile doğrudan kayba dönüşür. Yerel SEO’nun ilk adımlarından biri; tüm kartları tek tek tarayıp yanlış, kapalı veya kopya kayıtları tespit etmek; doğru NAP bilgisiyle güncellemek, birleştirmek veya kaldırmaktır. Bu rehberde “önce tarama → sonra düzeltme” akışını, riskleriyle birlikte netleştiriyoruz.",
+      "intro": "Google Haritalar’da yanlış konum, duplicate kartlar veya kapanmış eski şube kayıtları; otelinizin görünürlüğünü böler, markanızı “parçalı” gösterir ve kullanıcıyı yanlış yere/yanlış numaraya yönlendirebilir. Özellikle Antalya, Belek, Kemer, Side gibi turizm destinasyonlarında misafir hızlı karar verdiği için, harita kartındaki küçük bir hata bile doğrudan kayba dönüşür. Yerel SEO’nun ilk adımlarından biri; tüm kartları tek tek tarayıp yanlış, kapalı veya kopya kayıtları tespit etmek; doğru NAP bilgisiyle güncellemek, birleştirmek veya kaldırmaktır. Bu rehberde [Google Haritalar duplicate işletme silme](/tr/seo/yerel-seo) ve yanlış pin düzeltme akışını, riskleriyle birlikte netleştiriyoruz.",
       "quickSummary": [
         "1) Sahipli ve doğrulanmış doğru ana kartı belirle",
         "2) Duplicate, kapanmış, taşınmış ve yanlış pin kayıtlarını listele",
@@ -31780,43 +32293,67 @@
       "ctaPrimary": {
         "label": "Harita & Duplicate Kayıt Temizlik Analizi Talep Et",
         "text": "Doğru ana kartı güvenle belirleyip, bozuk/duplicate kayıtları temizlemek için adım adım plan çıkarın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Harita & Duplicate Kayıt Temizlik Analizi Talep Et",
         "text": "Doğru ana kartı güvenle belirleyip, bozuk/duplicate kayıtları temizlemek için adım adım plan çıkarın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "Google Haritalar Duplicate & Yanlış Konum Temizlik Checklist’ini İndir",
         "text": "Kart envanterini çıkarıp 30 dakikada duplicate/yanlış pin sorunlarını işaretleyerek işlem önceliği belirlersiniz.",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/downloads/google-haritalar-duplicate-yanlis-konum-temizlik-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "SEO hizmetleri içinde harita kayıt temizliği",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Google Business Profile checklist",
+        "href": "/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
+      },
+      {
+        "label": "NAP tutarlılığı ve citation",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
+      },
+      {
+        "label": "Geçici kapanış ve bilgi güncelleme",
+        "href": "/tr/seo/blog/gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme"
       },
       {
         "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       },
       {
         "label": "Benchmark analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Yerel SEO hakkında sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur?",
-        "href": "/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+        "title": "Google Business Profile Otel Optimizasyon Checklist’i",
+        "href": "/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
       },
       {
-        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
-        "href": "/seo/yerel-seo"
+        "title": "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
       }
     ],
     "sections": [
@@ -31836,6 +32373,10 @@
           {
             "type": "p",
             "text": "Duplicate kayıtları temizlemenin en güvenli yolu: doğru (sahipli/doğrulanmış) ana kartı belirlemek, sonra duplicate kartları durumuna göre merge (birleştir) veya close/remove (kapat/kaldır) akışına sokmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu süreç, [SEO hizmetleri içinde harita kayıt temizliği](/tr/seo-hizmetleri) olarak yalnızca tek seferlik bir düzeltme değil; Google Business Profile, NAP tutarlılığı ve kullanıcı güveniyle birlikte ele alınması gereken sürekli bir bakım alanıdır."
           },
           {
             "type": "h3",
@@ -31875,6 +32416,10 @@
               "Duplicate’leri en çok trafik alan sorgulardan başlayarak temizleyin.",
               "Temizlik sonrası 14–30 gün KPI izleyin (yanlış arama/rota şikâyeti)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Ana kartı sabitledikten sonra [Google Business Profile kayıt kontrolü](/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist) ile kategori, adres, telefon, saat ve web URL alanlarının doğru profil üzerinde kaldığını da teyit etmek gerekir."
           }
         ]
       },
@@ -31885,6 +32430,10 @@
           {
             "type": "p",
             "text": "Duplicate’ler her zaman aynı isimle görünmez. Özellikle eski otellerde veya isim değişikliği yaşayan markalarda, aynı otel için 2–4 arası duplicate/bozuk kayıt bulunması yaygındır (eski marka adı, eski telefon, farklı pin)."
+          },
+          {
+            "type": "p",
+            "text": "Bu tablo çoğu zaman [otellerde NAP tutarlılığı](/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite) bozulduğunda büyür; farklı adres, eski telefon ve dizinlerde kalan eski işletme adları duplicate kayıtları daha görünür hale getirir."
           },
           {
             "type": "h3",
@@ -31949,6 +32498,10 @@
             "text": "“Yanlış pin” problemi Antalya/Belek/Kemer/Side gibi turizm bölgelerinde sık çıkar: otel giriş noktası yanlış işaretlenmiştir veya aynı ada sahip başka bir işletme ile karışır. Sonuç: misafir yanlış noktaya gider, bu da yorumlara ve itibar döngüsüne zarar verir."
           },
           {
+            "type": "p",
+            "text": "Bu hata, [harita konumu ve otel SEO görünürlüğü](/tr/otel/seo) açısından da kritiktir; çünkü yanlış rota deneyimi hem kullanıcı güvenini hem de lokasyon bazlı arama görünürlüğünün kalitesini bozar."
+          },
+          {
             "type": "h3",
             "text": "Yanlış pin düzeltme mantığı"
           },
@@ -31997,6 +32550,10 @@
           {
             "type": "p",
             "text": "Kapanmış veya taşınmış şubeler, harita sonuçlarında hâlâ görünüyorsa marka karışıklığı yaratır. Burada amaç “tarihi izleri silmek” değil; kullanıcının yanlış yönlenmesini engellemektir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle sezonluk veya kriz dönemlerinde [eski kayıtları kapatma](/tr/seo/blog/gecici-kapanis-sezon-kapanisi-ve-kriz-durumlarinda-yerel-seo-bilgi-guncelleme) kararı aceleyle verilmemeli; geçici kapanış, sezon pasifi ve kalıcı kapanış senaryoları ayrı değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -32132,6 +32689,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Rakip görünürlüğünü de kontrol etmek için [rakip harita kayıtlarını benchmark ile incelemek](/tr/raporlama/benchmark-analizi) faydalıdır; bazen duplicate veya yanlış pin sorunu sadece sizde değil, aynı bölgede rakiplerde de görünür ve Local Pack dağılımını etkiler."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -32140,7 +32701,7 @@
             "variant": "secondary",
             "label": "Google Haritalar Duplicate & Yanlış Konum Temizlik Checklist’ini İndir",
             "text": "Kart envanterini çıkarıp 30 dakikada duplicate/yanlış pin sorunlarını işaretleyerek işlem önceliği belirlersiniz.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/downloads/google-haritalar-duplicate-yanlis-konum-temizlik-checklisti-v1.0.pdf"
           }
         ]
       },
@@ -32163,6 +32724,10 @@
           {
             "type": "p",
             "text": "Sheet’teki veri noktasına uygun şekilde: Çok lokasyonlu yapılarda duplicate temizlik yapılan hesaplarda, kullanıcıların yanlış numarayı arama veya yanlış konuma gitme şikâyetlerinde belirgin azalma görülebilir (kesin rakam iddiası yapmadan, gözlemsel olarak)."
+          },
+          {
+            "type": "p",
+            "text": "Bu tablo aynı zamanda [yanlış harita konumunun otel dijital pazarlama etkisi](/tr/otel-dijital-pazarlama) için de önemlidir; çünkü kullanıcı güveni zedelenirse reklam, marka araması ve doğrudan rezervasyon niyeti de zayıflayabilir."
           },
           {
             "type": "h3",
@@ -32210,7 +32775,7 @@
             "variant": "primary",
             "label": "Harita & Duplicate Kayıt Temizlik Analizi Talep Et",
             "text": "Doğru kartı koruyarak, duplicate/yanlış pin temizliğini güvenli şekilde planlayalım.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -32286,21 +32851,21 @@
           },
           {
             "type": "p",
-            "text": "Doğru yönetilen harita temizliği; görünürlüğün tek kartta toplanmasını, NAP tutarlılığının güçlenmesini ve kullanıcıların yanlış numara ya da yanlış adrese yönlenme riskinin azalmasını sağlar."
+            "text": "Doğru yönetilen harita temizliği; görünürlüğün tek kartta toplanmasını, NAP tutarlılığının güçlenmesini ve [oteller için Yerel SEO ve harita kayıt temizliği](/tr/seo/yerel-seo) ile kullanıcıların yanlış numara ya da yanlış adrese yönlenme riskinin azalmasını sağlar. Karar aşamasında [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfası duplicate kayıt, yanlış konum ve bilgi güncelleme başlıklarını netleştirmek için iyi bir referans olur."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Harita & Duplicate Kayıt Temizlik Analizi Talep Et",
             "text": "Doğru ana kartı güvenle belirleyip, bozuk/duplicate kayıtları temizlemek için adım adım plan çıkarın.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Google Haritalar Duplicate & Yanlış Konum Temizlik Checklist’ini İndir",
             "text": "Kart envanterini çıkarıp 30 dakikada duplicate/yanlış pin sorunlarını işaretleyerek işlem önceliği belirlersiniz.",
-            "href": "/raporlama/benchmark-analizi"
+            "href": "/downloads/google-haritalar-duplicate-yanlis-konum-temizlik-checklisti-v1.0.pdf"
           }
         ]
       }
@@ -32360,7 +32925,7 @@
 
 
    "BlogYerelSeoIcinFotografVeGorselStratejisiOtelVeIsletmeler": {
-    "title": "Yerel SEO İçin GBP Fotoğraf Stratejisi (Otel)",
+    "title": "Yerel SEO İçin Fotoğraf ve Görsel Stratejisi: Oteller ve Yerel İşletmeler",
     "slug": "yerel-seo-icin-fotograf-ve-gorsel-stratejisi-otel-ve-isletmeler",
     "department": "seo",
     "subDepartment":"local",
@@ -32370,7 +32935,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Otel ve yerel işletmeler için fotoğraf stratejisi: GBP fotoğraf türleri, minimum set, UGC yönetimi ve “3 ayda bir kontrol” rutini. Kalite ve güncellikle etkileşimi artırın.",
     "seo": {
-      "metaTitle": "Yerel SEO İçin GBP Fotoğraf Stratejisi (Otel) | DGTLFACE",
+      "metaTitle": "Yerel SEO İçin Fotoğraf ve Görsel Stratejisi: Oteller ve Yerel İşletmeler | DGTLFACE",
       "metaDescription": "Otel ve yerel işletmeler için fotoğraf stratejisi: GBP fotoğraf türleri, minimum set, UGC yönetimi ve “3 ayda bir kontrol” rutini. Kalite ve güncellikle etkileşimi artırın."
     },
     "blueprint": {
@@ -32409,7 +32974,7 @@
     },
     "h1": {
       "title": "Yerel SEO İçin Fotoğraf ve Görsel Stratejisi: Oteller ve Yerel İşletmeler",
-      "intro": "Yerel SEO’da güçlü bir fotoğraf seti, Google Haritalar kartınızın tıklanma oranını, kullanıcıların güven algısını ve dolaylı olarak rezervasyon/ziyaret isteğini artırabilir. Otel ve yerel işletmeler için; güncel, net, markaya uygun ve farklı alanları gösteren kaliteli fotoğraflar, düşük çözünürlüklü/karanlık/alakasız görsellere göre çok daha fazla etki yaratır. Bu rehber, GBP fotoğraf türlerini, otel/işletme için minimum görsel setini, UGC yönetimini ve 3 ayda bir görsel kontrol rutinini pratik bir standart haline getirir.",
+      "intro": "Yerel SEO’da güçlü bir [Google Maps fotoğraf optimizasyonu](/tr/seo/yerel-seo) yaklaşımı, Google Haritalar kartınızın tıklanma oranını, kullanıcıların güven algısını ve dolaylı olarak rezervasyon/ziyaret isteğini artırabilir. Otel ve yerel işletmeler için; güncel, net, markaya uygun ve farklı alanları gösteren kaliteli fotoğraflar, düşük çözünürlüklü/karanlık/alakasız görsellere göre çok daha fazla etki yaratır. Bu rehber, GBP fotoğraf türlerini, otel/işletme için minimum görsel setini, UGC yönetimini ve 3 ayda bir görsel kontrol rutinini pratik bir standart haline getirir.",
       "quickSummary": [
         "1) GBP fotoğraflarını CTR ve güven sinyali olarak ele al",
         "2) Kapak, dış cephe, oda/hizmet ve ekip/ürün minimum setini tamamla",
@@ -32420,43 +32985,67 @@
       "ctaPrimary": {
         "label": "Yerel Fotoğraf & Görsel Optimizasyon Analizi Talep Et",
         "text": "GBP ve diğer yerel profillerinizde görsel seti standartlaştırıp etkileşimi artırın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yerel Fotoğraf & Görsel Optimizasyon Analizi Talep Et",
         "text": "GBP ve diğer yerel profillerinizde görsel seti standartlaştırıp etkileşimi artırın.",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       "secondary": {
         "label": "GBP ve Yerel Profil Görsel Checklist’ini İndir",
         "text": "Minimum görsel seti ve 3 aylık kontrol rutinini tek listede toplayıp 30 dakikada eksikleri işaretlersiniz.",
-        "href": "/creative-ve-tasarim"
+        "href": "/downloads/gbp-ve-yerel-profil-gorsel-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Yerel SEO hizmet sayfası",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "SEO hizmetleri içinde yerel görsel optimizasyon",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Google Business Profile fotoğraf alanları",
+        "href": "/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
+      },
+      {
+        "label": "UGC fotoğrafların yerel SEO etkisi",
+        "href": "/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi"
+      },
+      {
+        "label": "360 görünüş ve immersive harita deneyimleri",
+        "href": "/tr/seo/blog/yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler"
       },
       {
         "label": "Creative ve tasarım hizmetleri",
-        "href": "/creative-ve-tasarim"
+        "href": "/tr/creative-ve-tasarim"
       },
       {
         "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Otel SEO stratejisi",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Yerel SEO sık sorulan sorular",
+        "href": "/tr/seo/yerel-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Haritalar’da Yanlış Konum ve Duplicate Kayıt Temizleme Rehberi",
-        "href": "/seo/blog/google-haritalar-yanlis-konum-ve-duplicate-kayit-temizleme"
+        "title": "Google Business Profile Otel Optimizasyon Checklist’i",
+        "href": "/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
       },
       {
-        "title": "Çok Şubeli ve Çok Lokasyonlu Yapılarda Yerel SEO Mimarisi Nasıl Kurulur?",
-        "href": "/seo/blog/cok-subeli-ve-cok-lokasyonlu-yapilarda-yerel-seo-mimarisi"
+        "title": "Yorum Yönetimi ve Puanlama: Oteller İçin Yerel SEO Stratejisinin Kalbi",
+        "href": "/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi"
       }
     ],
     "sections": [
@@ -32471,6 +33060,14 @@
           {
             "type": "p",
             "text": "Yerel aramalarda kullanıcı davranışı çok “görsel” ilerler: kartı açar, fotoğraflara bakar, yorumlara göz atar ve sonra ara/rota/web aksiyonuna geçer. Bu nedenle fotoğraf, çoğu zaman sıralama tartışmasından bağımsız şekilde dönüşüm bariyerlerini azaltır. Yapılan birçok testte, fotoğraf seti zayıf/eksik işletmelerin, zengin görselli rakiplere göre daha düşük etkileşim aldığı gözlemleniyor (kesin rakam vermeden, pratik gözlem)."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde yerel görsel optimizasyon](/tr/seo-hizmetleri), yalnızca estetik iyileştirme değil; harita görünürlüğü, kullanıcı güveni ve karar anı performansını birlikte yöneten bir optimizasyon alanı olarak ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle konaklama sektöründe [otel SEO’da görsel güven sinyalleri](/tr/otel/seo), kullanıcının karttan siteye geçip geçmemesi ve lokasyon bazlı organik görünürlüğe ne kadar güven duyduğu üzerinde doğrudan etkili olur."
           },
           {
             "type": "h3",
@@ -32505,6 +33102,10 @@
           {
             "type": "p",
             "text": "GBP’de fotoğraflar “rastgele galeri” değil; kullanıcının karar akışını yöneten bir vitrin olarak düşünülmeli. Temel fotoğraf türleri otellerde daha kritik hale gelir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu alanları doğru kurgulamak için [Google Business Profile fotoğraf alanları](/tr/seo/blog/google-business-profile-otel-optimizasyon-checklist) checklist mantığıyla ele alınmalı; kapak, dış cephe, oda ve hizmet görselleri profil bütünlüğü içinde değerlendirilmelidir."
           },
           {
             "type": "list",
@@ -32554,6 +33155,10 @@
           {
             "type": "p",
             "text": "AEO gereksinimi gereği net minimum set veriyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada otel için hangi fotoğrafların gerekli olduğu sorusunu yalnız çekim listesi olarak değil; oda, lobi, restoran, spa, havuz ve dış cepheyi marka algısıyla uyumlu gösteren profesyonel bir [otel görsel seti hazırlama](/tr/creative-ve-tasarim) standardı olarak düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -32737,7 +33342,7 @@
             "variant": "secondary",
             "label": "GBP ve Yerel Profil Görsel Checklist’ini İndir",
             "text": "Minimum görsel seti ve 3 aylık kontrol rutinini tek listede toplayıp 30 dakikada eksikleri işaretlersiniz.",
-            "href": "/creative-ve-tasarim"
+            "href": "/downloads/gbp-ve-yerel-profil-gorsel-checklisti-v1.0.pdf"
           }
         ]
       },
@@ -32775,6 +33380,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [UGC fotoğrafların yerel SEO etkisi](/tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi), yalnızca görsel kaliteyle değil; yorum tonu, puanlama, kullanıcı güveni ve gerçek deneyim sinyalleriyle birlikte değerlendirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check (UGC Yönetimi)"
           },
@@ -32806,6 +33415,10 @@
           {
             "type": "p",
             "text": "Technical SEO notu gereği: Geotag efsanelerine kapılmadan, fotoğraf kalitesi, çeşitliliği ve güncelliği üzerinden ilerlemek gerekir. “Fotoğrafa geotag basınca sıralama uçar” tarzı yaklaşımlar yerine; kullanıcı davranışını iyileştiren gerçek sinyallere odaklanın: daha iyi fotoğraf → daha çok etkileşim → daha güçlü güven."
+          },
+          {
+            "type": "p",
+            "text": "Klasik fotoğraf galerisinin ötesine geçmek isteyen markalar için [360 görünüş ve immersive harita deneyimleri](/tr/seo/blog/yeni-nesil-harita-deneyimleri-360-gorunus-ve-immersive-view-otel-ve-isletmeler), kullanıcıya mekânı daha iyi anlatan gelişmiş bir güven ve keşif katmanı sunabilir."
           },
           {
             "type": "h3",
@@ -32854,6 +33467,10 @@
             "text": "Fotoğraf güncellemesi yapılan kartlarda, görsel kalitenin artmasıyla beraber harita kartı etkileşimlerinde (tıklama, rota, arama) anlamlı iyileşmeler rapor edilebiliyor (yumuşak ifade ile)."
           },
           {
+            "type": "p",
+            "text": "Bu iyileşme, [otel dijital pazarlamada görsel kalitenin etkisi](/tr/otel-dijital-pazarlama) açısından da kritiktir; çünkü harita kartındaki güçlü görseller marka algısını yükseltir ve rezervasyon niyetli kullanıcının karar sürecini kısaltabilir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -32874,7 +33491,7 @@
             "variant": "primary",
             "label": "Yerel Fotoğraf & Görsel Optimizasyon Analizi Talep Et",
             "text": "Fotoğraf setinizi standartlaştırıp 3 aylık rutinle etkileşimi artırın.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           }
         ]
       },
@@ -32928,18 +33545,26 @@
             "text": "Bu nedenle doğru yaklaşım; minimum görsel seti tamamlamak, zayıf fotoğrafları temizlemek, UGC’yi düzenli izlemek ve 3 ayda bir güncelleme rutini kurmaktır. Geotag efsanelerine değil; kalite, çeşitlilik ve güncellik standardına odaklanmak daha sürdürülebilir sonuç üretir."
           },
           {
+            "type": "p",
+            "text": "Bu süreci kurumsal düzeyde ele almak isteyen markalar için [oteller için Yerel SEO ve Google Maps görsel optimizasyonu](/tr/seo/yerel-seo), profil vitrini ile görünürlük performansını aynı çerçevede iyileştirme fırsatı sunar."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasında ek çerçeve ve süreç soruları için [Yerel SEO hakkında sık sorulan sorular](/tr/seo/yerel-seo-sss) sayfası da faydalı bir sonraki adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Yerel Fotoğraf & Görsel Optimizasyon Analizi Talep Et",
             "text": "GBP ve diğer yerel profillerinizde görsel seti standartlaştırıp etkileşimi artırın.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/seo/yerel-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "GBP ve Yerel Profil Görsel Checklist’ini İndir",
             "text": "Minimum görsel seti ve 3 aylık kontrol rutinini tek listede toplayıp 30 dakikada eksikleri işaretlersiniz.",
-            "href": "/creative-ve-tasarim"
+            "href": "/downloads/gbp-ve-yerel-profil-gorsel-checklisti-v1.0.pdf"
           }
         ]
       }

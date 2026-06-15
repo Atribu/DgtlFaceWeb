@@ -3517,7 +3517,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Otel yorum yönetimi, güven ve harita görünürlüğü temasını anlatan kapak görseli"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/seo/SEO2-3/SEO2-3-2.webp",
       alt: "Harita kartında yorum ve puanın karar anına etkisini gösteren görsel",
       caption: "Harita kartında yorum ve puanın karar anına etkisini gösteren görsel"
@@ -3971,7 +3971,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite: Oteller İçin Yerel Alıntı (Citation) Stratejisi"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/seo/SEO2-4/SEO2-4-2.webp",
       alt: "Farklı platformlarda NAP varyasyonlarını gösteren bağlam görseli",
       caption: "Farklı platformlarda NAP varyasyonlarını gösteren bağlam görseli"
