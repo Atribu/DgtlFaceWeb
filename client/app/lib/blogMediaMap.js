@@ -42089,9 +42089,159 @@ export const BLOG_MEDIA_MAP = {
       alt: "Storyboard kolajı ve pilot plan proof kartı",
       caption: "Storyboard kolajı ve pilot plan proof kartı"
     }
+  },
+
+
+  "edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari":{
+     banner: {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-1.webp",
+      alt: "Edutainment: Eğitim ve Eğlenceyi Birleştiren Reels Formatları",
+      caption: "Edutainment: Eğitim ve Eğlenceyi Birleştiren Reels Formatları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-2.webp",
+      alt: "Hook→mini ders→örnek→CTA akışını gösteren edutainment görsel",
+      caption: "Hook→mini ders→örnek→CTA akışını gösteren edutainment görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-3.webp",
+    alt: "Micro-learning ve save/share odaklı edutainment bölüm ayırıcı görseli",
+      caption: "Micro-learning ve save/share odaklı edutainment bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-4.webp",
+      alt: "Eğitim–eğlence dozajını anlatan bölüm ayırıcı görseli",
+      caption: "Eğitim–eğlence dozajını anlatan bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-5.webp",
+      alt: "Edutainment üretim akışı diyagramı ve seri standardı",
+      caption: "Edutainment üretim akışı diyagramı ve seri standardı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-6.webp",
+      alt: "Edutainment script checklist ile kısa videoda öğretme kartı",
+      caption: "Edutainment script checklist ile kısa videoda öğretme kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-7.webp",
+      alt: "Kaydetme-paylaşma odaklı edutainment KPI kartı",
+      caption: "Kaydetme-paylaşma odaklı edutainment KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-24/SMM3-24-8.webp",
+      alt: "Storyboard ve içerik matrisi deliverables proof kartı",
+      caption: "Storyboard ve içerik matrisi deliverables proof kartı"
+    }
+  },
+
+
+   "yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-1.webp",
+      alt: "Yapay Zekâ Avatar, Voice Clone ve Sanal Sunucu ile Reels Üretim Stratejisi",
+      caption: "Yapay Zekâ Avatar, Voice Clone ve Sanal Sunucu ile Reels Üretim Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-2.webp",
+      alt: "Şeffaflık bildirimi ve insan QA adımlarını özetleyen bağlam görseli",
+      caption: "Şeffaflık bildirimi ve insan QA adımlarını özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-3.webp",
+    alt: "AI avatar nedir ve risk seviyesi katmanlarını anlatan bölüm görseli",
+      caption: "AI avatar nedir ve risk seviyesi katmanlarını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-4.webp",
+      alt: "Yeşil-sarı-kırmızı kullanım filtresini özetleyen bölüm görseli",
+      caption: "Yeşil-sarı-kırmızı kullanım filtresini özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-5.webp",
+      alt: "Etik AI video modeli akış diyagramı (disclosure + KVKK + QA)",
+      caption: "Etik AI video modeli akış diyagramı (disclosure + KVKK + QA)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-6.webp",
+      alt: "AI video etik checklist özet kartı (do/don’t)",
+      caption: "AI video etik checklist özet kartı (do/don’t)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-7.webp",
+      alt: "Güven ve performans KPI paneli (şikâyet, retention, tıklama)",
+      caption: "Güven ve performans KPI paneli (şikâyet, retention, tıklama)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-25/SMM3-25-8.webp",
+      alt: "AI avatar/voice-over reels mockup’ı ve şeffaflık örnekleri proof kartı",
+      caption: "AI avatar/voice-over reels mockup’ı ve şeffaflık örnekleri proof kartı"
+    }
+  },
+
+  "remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma":{
+    banner: {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-1.webp",
+      alt: "Remarketing Kampanyaları: Sıcak Kitle ile Satış ve Rezervasyon Artırma",
+      caption: "Remarketing Kampanyaları: Sıcak Kitle ile Satış ve Rezervasyon Artırma"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-2.webp",
+      alt: "Warm hot kitle segmentleri ve teklif akışı, remarketing planı otel bağlamı",
+      caption: "Warm hot kitle segmentleri ve teklif akışı, remarketing planı otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-3.webp",
+    alt: "Kitle segmentasyonu bölüm ayracı, cold warm hot remarketing yaklaşımı",
+      caption: "Kitle segmentasyonu bölüm ayracı, cold warm hot remarketing yaklaşımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-4.webp",
+      alt: "Frekans ve reklam yorgunluğu bölüm ayracı, remarketing optimizasyonu",
+      caption: "Frekans ve reklam yorgunluğu bölüm ayracı, remarketing optimizasyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-5.webp",
+      alt: "Remarketing funnel diyagramı, kitle mesaj teklif akışı ve dönüşüm yolu",
+      caption: "Remarketing funnel diyagramı, kitle mesaj teklif akışı ve dönüşüm yolu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-6.webp",
+      alt: "Remarketing kampanyası checklist’i, segmentasyon teklif frekans kontrol rehberi",
+      caption: "Remarketing kampanyası checklist’i, segmentasyon teklif frekans kontrol rehberi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-7.webp",
+      alt: "CPA ROAS ve frequency paneli, reklam yorgunluğu yönetimi skor kartı",
+      caption: "CPA ROAS ve frequency paneli, reklam yorgunluğu yönetimi skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-6/SMM4-6-8.webp",
+      alt: "Otel ve B2B remarketing senaryo seti deliverables kartı, uygulama rehberi",
+      caption: "Otel ve B2B remarketing senaryo seti deliverables kartı, uygulama rehberi"
+    }
   }
-
-
 
   
 };

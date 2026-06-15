@@ -373,7 +373,10 @@ export const BLOG_MAP = {
      "reels-uretim-ekibi-rol-ve-surec-tasarimi":"BlogReelsUretimEkibiRolVeSurecTasarimi",
      "ai-destekli-reels-kurgu-ve-otomatik-edit-araclari":"BlogAiDestekliReelsKurguVeOtomatikEditAraclari",
      "reels-icin-social-seo-ve-video-arama-tetikleyicileri":"BlogReelsIcinSocialSeoVeVideoAramaTetikleyicileri",
-     "asmr-pov-ve-sinematik-reels-yeni-video-trendleri":"BlogAsmrPovVeSinematikReelsYeniVideoTrendleri" 
+     "asmr-pov-ve-sinematik-reels-yeni-video-trendleri":"BlogAsmrPovVeSinematikReelsYeniVideoTrendleri",
+     "edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari":"BlogEdutainmentEgitimVeEglenceyiBirlestirenReelsFormatlari",
+     "yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi":"BlogYapayZekaAvatarVoiceCloneVeSanalSunucuIleReelsUretimStratejisi",
+     "remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma":"BlogRemarketingKampanyalariSicakKitleIleSatisVeRezervasyonArtirma"
   },
 
     yazilim: {

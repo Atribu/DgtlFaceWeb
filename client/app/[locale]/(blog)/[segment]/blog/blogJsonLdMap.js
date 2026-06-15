@@ -65298,8 +65298,669 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
 
+"edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari",
+
+      "name": "Edutainment: Eğitim ve Eğlenceyi Birleştiren Reels Formatları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#breadcrumb"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#webpage"
+
+      },
+
+      "headline": "Edutainment: Eğitim ve Eğlenceyi Birleştiren Reels Formatları",
+
+      "description": "Edutainment ile eğitici içeriği sıkmadan anlatın: 15–30 saniyelik mini dersler, hikâye/mizah dengesi ve kaydetme/paylaşma KPI’larıyla otel ve B2B için uygulanabilir reels formatları.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "datePublished": "2026-03-17",
+
+      "dateModified": "2026-03-17",
+
+      "keywords": [
+
+        "edutainment reels örnekleri",
+
+        "eğitici eğlenceli kısa video",
+
+        "otel için ipucu reels fikirleri",
+
+        "edutainment",
+
+        "micro-learning",
+
+        "tips & hacks",
+
+        "save/share focus"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+
+      "name": "Reels & Video İçerik Üretimi",
+
+      "serviceType": "Short-Form Video Strategy & Production",
+
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "areaServed": { "@type": "Country", "name": "TR" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Reels & Video İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/reels-video" },
+
+        { "@type": "ListItem", "position": 4, "name": "Edutainment Reels Formatları", "item": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Edutainment nedir, reels’te nasıl uygulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Edutainment, mikro eğitim içeriğini küçük bir hikâye/mizah dokunuşuyla sıkmadan anlatmaktır. Reels’te hook→2 madde→mini örnek→tek CTA akışı en iyi çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kısa eğitim videolarını sıkıcı olmadan nasıl anlatırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek öğrenim seçin ve 2 maddeyle anlatın. Güçlü bir hook kullanın ve mini hikâyeyle yumuşatın; finalde tek aksiyon CTA ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için edutainment konu örnekleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde destinasyon ipuçları, rezervasyon tüyoları ve SSS; B2B’de sık yapılan hata–çözüm, mini case ve uzman ipuçları edutainment için uygundur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Edutainment reels’lerinde hangi KPI’lara bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Primary KPI kaydetme ve paylaşmadır; secondary KPI retention ve account visits’tir. Dönüşüm hedefi varsa tıklama/DM ölçülmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#howto",
+
+      "name": "Edutainment Reels Nasıl Yazılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Tek mesajı seç", "text": "15–30 saniyede aktarabileceğin tek öğrenimi belirle ve 2 maddeye indir." },
+
+        { "@type": "HowToStep", "name": "Hook ile başlat, mini örnekle somutlaştır", "text": "‘Bunu biliyor muydun?’ veya ‘bu hatayı yapma’ gibi hook kullan; 1 mini örnek ekle." },
+
+        { "@type": "HowToStep", "name": "Tek CTA ile bitir ve KPI’ları izle", "text": "Kaydetme/paylaşma odaklı tek aksiyon CTA kullan; 2 haftalık pilotta KPI’larla kazanan formatı seri yap." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari#speakable",
+
+      "cssSelector": [ "h1", ".answer-block" ]
+
+    }
+
+  ]
+
+},
+
+"yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi",
+
+      "name": "Yapay Zekâ Avatar, Voice Clone ve Sanal Sunucu ile Reels Üretim Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#article",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#webpage" },
+
+      "headline": "Yapay Zekâ Avatar, Voice Clone ve Sanal Sunucu ile Reels Üretim Stratejisi",
+
+      "description": "AI avatar ve voice clone teknolojilerini reels üretiminde şeffaflık, etik ve KVKK sınırlarıyla kullanın; gerçek kişileri taklit etmeden hibrit (AI hız + insan QA) modelle güveni koruyun.",
+
+      "inLanguage": "tr-TR",
+
+      "datePublished": "2026-03-17",
+
+      "dateModified": "2026-03-17",
+
+      "keywords": [
+
+        "ai avatar reels kullanımı",
+
+        "voice clone ile video çekmek etik mi",
+
+        "sanal sunucu sosyal medya stratejisi",
+
+        "ai avatars",
+
+        "voice clone",
+
+        "virtual presenter",
+
+        "transparency",
+
+        "ethics"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Reels & Video İçerik Üretimi", "item": "https://dgtlface.com/tr/smm/reels-video" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI Avatar ve Voice Clone ile Reels", "item": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yapay zekâ avatar ve voice clone reels’te nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En güvenli kullanım, bilgilendirici mini içeriklerde AI’ı hızlandırıcı olarak kullanmak ve videoda “AI ile üretildi” açıklamasını görünür tutmaktır. Final mesaj/ton kontrolü insan QA ile yapılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Gerçek kişiyi taklit etmek etik mi, riskleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İzinsiz taklit etik değildir ve güven kaybı ile hukuki/politika riskleri doğurabilir. Taklit yerine sentetik sunum + şeffaflık yaklaşımı tercih edilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok dilli içerik için AI ses kullanmak güvenli mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uygun senaryolarda kullanılabilir; ancak anlaşılırlık ve terim doğruluğu için insan QA gerekir. Kısa cümle ve disclosure metniyle risk azaltılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B markaları bu teknolojileri nasıl şeffaf kullanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "On-screen veya caption’da “AI ile hazırlanmıştır” gibi açık bir ifade kullanın, yanıltıcı insan taklidi hissinden kaçının ve KVKK risk taraması yapın. Hassas verileri anonimleştirin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi#speakable",
+
+      "cssSelector": [ "h1", ".answer-block" ]
+
+    }
+
+  ]
+
+},
+
+"remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma",
+
+      "headline": "Remarketing Kampanyaları: Sıcak Kitle ile Satış ve Rezervasyon Artırma",
+
+      "name": "Remarketing Kampanyaları: Sıcak Kitle ile Satış ve Rezervasyon Artırma",
+
+      "description": "Remarketing kampanyaları: warm/hot kitle segmentleri, otel ve B2B senaryoları, teklif ve frekans yönetimi. Pixel/CAPI ve event tasarımıyla kitle kalitesini güçlendir.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Remarketing",
+
+        "Warm Audiences",
+
+        "Hot Audiences",
+
+        "Frequency",
+
+        "Offer Strategy",
+
+        "Pixel",
+
+        "Conversion API",
+
+        "Funnel"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        { "@type": "ListItem", "position": 4, "name": "Remarketing Kampanyaları: Sıcak Kitle ile Satış ve Rezervasyon Artırma",
+
+          "item": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Remarketing kampanyası nedir, nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Remarketing, sitenizi ziyaret eden veya içeriklerinize etkileşim veren kullanıcıları yeniden hedefleyerek dönüşüme yaklaştıran kampanyadır. Pixel/CAPI ile kitle oluşturulur; warm/hot segmentlere göre mesaj ve teklif değişir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Cold ve warm kitleler için remarketing’i nasıl ayırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cold kitle prospecting’dir. Warm kitle (7–30 gün) kanıt ve bağlamla ısıtılır; hot kitle (1–7 gün) net teklif ve risk azaltma ile kapatılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Frequency ve reklam yorgunluğu nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Frequency’yi haftalık izleyip CTR/CPA ile birlikte değerlendirin. Kreatif rotasyonu yapın, hot pencereleri kısa tutun ve warm kitlelerde daha düşük frekans hedefleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için remarketing senaryoları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda/teklif sayfası bakan, checkout’a gelen ve sepete bırakan; B2B’de case okuyan, form başlatan ve formu yarım bırakan senaryolar temel remarketing setidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
     },
 
     yazilim: {
