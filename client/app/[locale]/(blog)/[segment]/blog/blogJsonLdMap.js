@@ -65960,6 +65960,2796 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek",
+
+      "headline": "Kreatif ve Metin A/B Testleri ile Sosyal Medya Reklamlarını Optimize Etmek",
+
+      "name": "Kreatif ve Metin A/B Testleri ile Sosyal Medya Reklamlarını Optimize Etmek",
+
+      "description": "A/B test rehberi: tek değişkenli test tasarımı, örneklem ve süre, görsel–başlık–CTA varyasyonları. Otel/B2B senaryoları, sonuç tablosu ve A/B test checklist’i.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "A/B Testing",
+
+        "Creatives",
+
+        "Headlines",
+
+        "CTAs",
+
+        "Experimentation",
+
+        "Test Measure Learn",
+
+        "Optimisation"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kreatif ve Metin A/B Testleri ile Sosyal Medya Reklamlarını Optimize Etmek",
+
+          "item": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "A/B test nedir, sosyal medya reklamlarında nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı hedef ve koşullarda iki varyasyonu tek değişkenle karşılaştırmaktır. Hipotez yazılır, tek değişken seçilir, yeterli süre çalıştırılır ve KPI’ya göre kazanan belirlenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi öğeleri test etmeliyim (görsel, başlık, CTA vs.)?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En büyük kaldıraç genelde format/görsel ve hook/başlıktadır. Sonra teklif/kanıt, ardından CTA ve metin uzunluğu gelir. Funnel katmanına göre KPI ile eşleştirerek test edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Test ne kadar sürmeli, kaç gösterim yeterli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ölçeğe bağlıdır; amaç gün içi dalgalanmayı ve öğrenme etkisini aşmaktır. Dönüşüm azsa önce CTR/LPV gibi üst metriklerde veri toplayıp, sonra CPA/ROAS testlerine geçmek daha güvenlidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek A/B test senaryoları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda vs deneyim görseli, esnek iptal vs erken rezervasyon başlığı ve farklı CTA’lar; B2B’de problem–çözüm hook’u, mini case vurgusu ve demo vs ücretsiz analiz CTA’sı test edilebilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak",
+
+      "headline": "UGC ve Sosyal Kanıt İçeriklerini Reklam Kreatifi Olarak Kullanmak",
+
+      "name": "UGC ve Sosyal Kanıt İçeriklerini Reklam Kreatifi Olarak Kullanmak",
+
+      "description": "UGC, yorum ve testimonial içeriklerini reklama çevir: seçme kriterleri, kreatif formatlar, otel/B2B senaryoları, izin–KVKK kontrolü ve test planı + UGC checklist’i.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "UGC Ads",
+
+        "Testimonials",
+
+        "Reviews",
+
+        "Social Proof Creatives",
+
+        "Ad Creatives",
+
+        "Offer Strategy",
+
+        "A/B Testing",
+
+        "Privacy"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak#howto",
+
+      "name": "UGC ve Sosyal Kanıtı Reklam Kreatifine Dönüştürme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "UGC ve kanıt içeriğini seç",
+
+          "text": "Spesifik kanıt içeren UGC/review/testimonial’ları karar faktörlerine göre filtreleyin ve kreatif aday listesini oluşturun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İzin ve KVKK kontrolünü tamamla",
+
+          "text": "Kullanım iznini alın; isim/yüz/handle gibi kişisel veriler için maskeleme ve kayıt süreçlerini standardize edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kreatifi paketle ve test et",
+
+          "text": "Proof-card/reels/carousel formatında kısa metin + net CTA ile kreatif üretin; A/B test ile kazananı ölçekleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "UGC ve Sosyal Kanıt İçeriklerini Reklam Kreatifi Olarak Kullanmak",
+
+          "item": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC ve sosyal kanıt içerikleri reklamda nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UGC/review içeriklerini seçip izin/KVKK kontrolünü tamamladıktan sonra proof-card, reels veya carousel formatına dönüştürerek kullanabilirsiniz. Kısa metin ve net CTA ile tamamlayıp A/B test ile ölçekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafir/müşteri yorumlarını reklama taşımak için ne yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yorumdan çekirdek kanıt cümlesini seçin, kaynak doğrulaması yapın ve mümkünse kullanım izni alın. İsim/yüz/handle gibi kişisel verileri maskeleyip mobil okunabilir proof-card üretin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC reklamlarında izin ve KVKK açısından nelere dikkat edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reklam kullanım amacı için açık izin almak en güvenli yaklaşımdır. İsim, kullanıcı adı, yüz ve konum gibi kişisel veriler için maskeleme/izin süreçleri uygulanmalı; gereksiz veri gösterilmemelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için UGC reklam örnekleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde temizlik/konum/yemek yorumu + puan + paket CTA’sı; B2B’de testimonial + mini sonuç + ücretsiz analiz CTA’sı yaygın örneklerdir. Warm kitlede kanıt, hot kitlede kanıt+teklif birlikte çalışır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin",
+
+      "headline": "Yerel ve GEO Targeting Kampanyaları: Otel ve Lokal İşletmeler İçin Rehber",
+
+      "name": "Yerel ve GEO Targeting Kampanyaları: Otel ve Lokal İşletmeler İçin Rehber",
+
+      "description": "Geo-targeting ile ülke/şehir/bölge/çember hedefleme, turist vs yerel stratejisi ve lokasyona göre dil/kreatif uyarlama. Otel ve lokal işletme örnek setleri + ölçüm notları.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Local Ads",
+
+        "Geo-Targeting",
+
+        "Tourism Campaigns",
+
+        "Proximity Targeting",
+
+        "City-Focused Creatives",
+
+        "Offline Conversions"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Yerel ve GEO Targeting Kampanyaları: Otel ve Lokal İşletmeler İçin Rehber",
+
+          "item": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Geo-targeting nedir, sosyal medya reklamlarında nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Geo-targeting, reklamları ülke/şehir/bölge veya çember hedeflemesiyle belirli lokasyonlarda gösterme yöntemidir. Turist ve yerel kitleyi ayırıp lokasyona göre kreatif/dil/teklif uyarlayarak kullanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel için turist ve yerel kitleyi nasıl ayırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Turist kitlesini varış destinasyonu ve seyahat davranışıyla; yerel kitleyi lokasyonda yaşayan kullanıcılarla hedeflersiniz. Turiste transfer/paket, yerele yakında/rota mesajı daha uygundur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lokal işletmeler için yakın çevre reklam hedeflemesi nasıl yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çember (proximity) hedeflemesiyle 1–3–5 km gibi radius testleri yapılır. Yakında mesajı, harita/rota ve arama CTA’sı ile desteklenirse dönüşüm artabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lokasyona göre kreatif ve dil nasıl uyarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Şehir/destinasyon referansını görsel ve metinde kullanıp, turist pazarında dil varyasyonu üretirsiniz. Yerel hedefte yakında/bugün gibi kısa karar mesajları çalışır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi",
+
+      "headline": "Multi-Channel Attribution ve Sosyal Medya Reklamlarının Toplam Performansa Etkisi",
+
+      "name": "Multi-Channel Attribution ve Sosyal Medya Reklamlarının Toplam Performansa Etkisi",
+
+      "description": "Last click yanıltabilir. GA4 multi-channel attribution ile sosyal medyanın üst huni ve asist katkısını ölç; Meta+Google Ads+SEO/OTA verilerini birlikte yorumla.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Attribution",
+
+        "Last Click",
+
+        "Data-Driven Attribution",
+
+        "Assisted Conversions",
+
+        "Multi-Channel Funnels",
+
+        "Social Media Advertising",
+
+        "Cross-Channel Reading"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Multi-Channel Attribution ve Sosyal Medya Reklamlarının Toplam Performansa Etkisi",
+
+          "item": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Attribution nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Attribution, dönüşüme hangi kanalın katkı verdiğini gösterir. Bütçe kararları buna dayanır; sadece last click’e bakmak sosyal gibi üst huni kanallarını haksız biçimde değersiz gösterebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya reklamlarının katkısını nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 multi-channel raporlarında assisted conversions, path length ve top paths’i inceleyin; Meta/Google Ads panellerini aynı tarih ve model disiplininde yorumlayın. Sosyalin first/assist rolünü görün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Last click verisi neden yanıltıcı olabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Last click dönüşümü son temas eden kanala yazar; sosyal gibi ilk temas/asist kanalları düşük görünür. Bu, üst huni bütçesini yanlış kesmeye yol açabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4 ve reklam panellerini birlikte nasıl yorumlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce GA4 attribution modeli ve tarih aralığını sabitleyin; sonra Ads panellerini aynı dönemle kıyaslayın. Model ve pencere farklarını not edip kararları kanal katkısıyla verin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi",
+
+      "headline": "Reklam Yorgunluğu (Creative Fatigue) ve Frequency Capping Stratejisi",
+
+      "name": "Reklam Yorgunluğu (Creative Fatigue) ve Frequency Capping Stratejisi",
+
+      "description": "Creative fatigue’i CPM↑ + CTR/Dönüşüm↓ sinyalleriyle yakala. Frequency kontrolü, kreatif havuzu ve refresh takvimiyle CPA’yı düşür, marka algısını koru.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Creative Fatigue",
+
+        "Frequency",
+
+        "CPM",
+
+        "CTR",
+
+        "Conversion Rate",
+
+        "Creative Pool",
+
+        "Rotation Strategy",
+
+        "Saturation Control"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Reklam Yorgunluğu (Creative Fatigue) ve Frequency Capping Stratejisi",
+
+          "item": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reklam yorgunluğu (creative fatigue) nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Creative fatigue, aynı kitleye aynı reklamı yüksek sıklıkla gösterdikçe performansın bozulmasıdır. CPM yükselirken CTR ve dönüşüm düşer, CPA artar; remarketing’te olumsuz feedback görülebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reklam sıklığı (frequency) kaç olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evrensel tek sayı yoktur; kitle büyüklüğü ve funnel aşamasına göre değişir. Önemli olan frequency artışıyla birlikte CTR/CVR düşüşü görüp görmediğinizdir; eşikleri trendle doğrulamak gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yorgun kampanyaları nasıl yenilerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Soft refresh (hook/görsel), medium refresh (format/kanıt) ve hard refresh (teklif/tema) adımlarıyla yenileyin. Kreatif havuzu oluşturup rotasyon takvimiyle proaktif ilerleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Frequency raporlarını hangi seviyede incelemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya, reklam seti ve kreatif seviyesinde ayrı ayrı; auto-placement kullanıyorsanız placement bazında da incelemelisiniz. Yorgunluk çoğu zaman tek kreatifte veya tek placement’ta oluşur."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali",
+
+      "headline": "Lead Form Ads vs Landing Page: Hangisi Ne Zaman Kullanılmalı?",
+
+      "name": "Lead Form Ads vs Landing Page: Hangisi Ne Zaman Kullanılmalı?",
+
+      "description": "Lead form ads hacim, landing page kalite getirir. Otel ve B2B senaryoları, hibrit model, CRM entegrasyonu ve KVKK/double opt-in notlarıyla doğru dengeyi test ederek bul.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Lead Form Ads",
+
+        "Landing Pages",
+
+        "Lead Quality",
+
+        "Lead Volume",
+
+        "CRM Integration",
+
+        "Lead Nurturing",
+
+        "Conversion UX"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Lead Form Ads vs Landing Page: Hangisi Ne Zaman Kullanılmalı?",
+
+          "item": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead form ads nedir, ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Lead form ads, Meta içinde hızlı form doldurtarak lead toplar; mobilde sürtünmeyi düşürür ve hacmi artırır. Ancak düşük niyetli başvuru riski olabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Landing page ile lead toplamanın artı/eksi yönleri nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Landing page daha fazla bilgi verip niyeti filtreleyerek daha kaliteli lead üretebilir; ancak sürtünme ve sayfa hızına bağlı olarak hacim düşebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için lead form mu landing mi daha iyi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hacim gerekiyorsa lead form, kalite ve niyet gerekiyorsa landing daha uygundur. En doğrusu segment bazlı test yapıp hibrit modelle dengeyi bulmaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead kalitesi ve hacmini nasıl dengelerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CPL/CPA yanında CRM’de MQL/SQL ve lead→satış oranını takip edin. Lead formu kalite filtreleriyle güçlendirin, landing’i hız/UX ile optimize edin; hibrit akışla nurture ekleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek",
+
+      "headline": "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek",
+
+      "name": "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek",
+
+      "description": "Meta/TikTok/LinkedIn reklam politikaları: en sık red nedenleri, metin-görsel-hedefleme hataları, düzeltme/itiraz akışı ve hesap sağlığı. Yayın öncesi checklist.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Ad Policies",
+
+        "Disapprovals",
+
+        "Account Health",
+
+        "Appeals",
+
+        "Compliance",
+
+        "Creative Limits",
+
+        "Targeting Rules"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek#howto",
+
+      "name": "Reklam Reddini Düzeltme ve Yeniden Yayınlama",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Red nedenini sınıflandır",
+
+          "text": "Paneldeki red gerekçesini okuyup metin, görsel, hedefleme veya landing kaynaklı olup olmadığını belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tek değişken düzelt ve yeniden gönder",
+
+          "text": "Sadece sorunlu bileşeni düzeltin ve reklamı yeniden incelemeye gönderin; gerekirse yeni reklam oluşturun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Uygunsa itiraz et ve öğrenimi kaydet",
+
+          "text": "Yanlış red olduğunu düşünüyorsanız itiraz/yeniden inceleme talep edin; sonucu not edip checklist’i güncelleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek",
+
+          "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya reklamım neden reddedildi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En sık nedenler; yanıltıcı/garanti iddialar, hassas içerik veya hedefleme, telif ihlali, uygunsuz görsel ve landing uyumsuzluğudur. Red gerekçesini panelden okuyup sınıflandırarak ilgili bileşeni düzeltmek en hızlı çözümdür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Red sonrası nasıl düzeltme yapar ve itiraz ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce red sınıfını belirleyip ilgili parçayı (metin/görsel/targeting/landing) düzeltin ve yeniden gönderin. Yanlış red olduğunu düşünüyorsanız itiraz/yeniden inceleme talep edip sonucu not edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B kampanyalarında en sık red nedenleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde abartılı garanti/“en iyi” söylemleri, telifli görsel/video ve landing tutarsızlığı; B2B’de garanti sonuç iddiaları ve hassas kişisel özelliklere gönderme sık red nedenleridir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#service",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "serviceType": "Social Media Advertising",
+
+      "areaServed": "TR",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi",
+
+      "headline": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+
+      "name": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+
+      "description": "Otel/turizm için sosyal reklam stratejisi: sezon, destinasyon ve pazar bazlı planlama; OTA vs direkt rezervasyon dengesi; funnel kampanya setleri + remarketing ve call center entegrasyonu.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Hotel & Tourism Ads",
+
+        "Seasonality",
+
+        "OTA vs Direct",
+
+        "Destination Targeting",
+
+        "Remarketing",
+
+        "Call Center"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+
+          "item": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve turizm için sosyal medya reklam stratejisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Strateji; sezon, destinasyon ve kaynak pazar kırılımıyla planlanmalı; üst hunide deneyim/destinasyon, alt hunide direkt rezervasyon + call center + remarketing ile kapatılmalıdır. OTA vs direkt hedefi ayrıca raporlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erken rezervasyon ve son dakika kampanyalarını nasıl ayırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Erken rezervasyonda ilham kreatifleriyle havuz büyütür ve plan yapan kitleyi yakalarsınız; son dakikada hot remarketing ve hızlı CTA (WhatsApp/ara) ile sürtünmeyi azaltırsınız. KPI seti dönemlere göre ayrılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA ve direkt rezervasyon dengesini sosyal reklamlarda nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Direkt kanal için net avantajları (esnek iptal, özel paket, upgrade) reklama taşıyın ve web’de kanıtı görünür kılın. OTA’yı kullanıcı davranışı olarak izleyip remarketing’de engel kaldırma mesajlarıyla direkt kanalı güçlendirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yurt içi ve yurt dışı pazarlar için hedefleme ve kreatifleri nasıl ayırmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ülke/şehir bazlı hedeflemeyi ayrı setlerde yönetin; dil ve kreatifi pazar motivasyonuna göre uyarlayın. Sadece çeviri değil, kanıt ve teklif sırasını da pazara göre düzenleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#service",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "serviceType": "Social Media Advertising",
+
+      "areaServed": "TR",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak",
+
+      "headline": "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak",
+
+      "name": "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak",
+
+      "description": "B2B’de LinkedIn üst huni, Meta remarketing ve maliyet verimliliği sunar. Funnel, bütçe ve KPI dağılımı; webinar/demo/lead form senaryoları ve birlikte raporlama rehberi.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "B2B LinkedIn Ads",
+
+        "Meta Ads",
+
+        "Decision Makers",
+
+        "Multi-Platform Funnel",
+
+        "Lead Quality",
+
+        "Pipeline Reporting",
+
+        "Attribution"
+
+      ],
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak#article"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak#howto",
+
+      "name": "LinkedIn + Meta ile B2B Funnel Planlama",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Platform rollerini tanımla",
+
+          "text": "LinkedIn’i üst hunide karar verici erişimi, Meta’yı remarketing ve dönüşüm için konumlandır."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kampanya setlerini funnel’a göre ayır",
+
+          "text": "Upper: insight/webinar; Mid: case/kanıt; Lower: remarketing ile demo/teklif akışını kur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KPI’ları pipeline’a bağla",
+
+          "text": "CPL yanında MQL/SQL, meeting ve satış metriklerini rapora ekleyerek bütçe kararlarını kaliteyle ver."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak",
+
+          "item": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "B2B için LinkedIn mi Meta mı daha iyi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hedefe bağlıdır: karar verici erişimi ve üst huni güven için LinkedIn; remarketing ve maliyet verimliliği için Meta güçlüdür. En iyi pratik, iki platformu aynı funnel’da görev paylaşımıyla kullanmaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "LinkedIn ve Meta Ads’i aynı funnel içinde nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "LinkedIn’de üst hunide insight/webinar ile nitelikli ilgi üretin; Meta’da bu ilgiyi remarketing ile ısıtıp demo/teklif aksiyonuna taşıyın. KPI’ları platform ve pipeline düzeyinde ayrı takip edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi hedefi hangi platforma vermeliyim (webinar, demo, lead form)?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Webinar/insight için LinkedIn genelde daha uygundur; demo/teklif için Meta remarketing güçlüdür. Lead form performansını CPL ile değil SQL/toplantı oranıyla doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İki platformun sonuçlarını birlikte nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı tarih aralığında platform KPI’ları (CTR/LPV/CPL) ile CRM pipeline KPI’larını (MQL/SQL/meeting/won) birlikte raporlayın. Kararı ucuz lead yerine satışa giden lead’e göre verin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#service",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "serviceType": "Social Media Advertising",
+
+      "areaServed": "TR",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama",
+
+      "headline": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
+
+      "name": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
+
+      "description": "Kampanya/ad set/ad isimlendirme standardı + UTM eşleşmesiyle hesap hijyeni kurun. Otel ve B2B için örnek yapı, label sistemi ve GA4/Looker Studio raporlama uyumu.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Campaign Structure",
+
+        "Naming Convention",
+
+        "Labels",
+
+        "UTM",
+
+        "Reporting",
+
+        "GA4",
+
+        "Looker Studio"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama#howto",
+
+      "name": "Meta Ads Hesap Hijyeni: Naming Convention Kurulumu",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hiyerarşiyi netleştir",
+
+          "text": "Kampanya hedefi ve funnel’ı; ad set’te kitle/placement; ad’de kreatif/format sorumluluğunu belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Naming şemasını sabitle",
+
+          "text": "Campaign/ad set/ad için kod sözlüğü ve isim formatını belirleyip ekipte tek kaynak dokümana bağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "UTM ve raporu eşleştir",
+
+          "text": "UTM’leri naming kodlarıyla aynı mantıkta üret; GA4/Looker’da filtrelenebilir rapor kırılımlarını kur."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
+
+          "item": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kampanya yapısı ve naming convention neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya/ad set/ad isimleri hedef, pazar, kitle ve kreatif bilgisini taşıdığında optimizasyon ve raporlama hızlanır; GA4/Looker kırılımları daha okunur hâle gelir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Facebook/Instagram reklamlarında kampanya isimlerini nasıl yazmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanyada funnel+objective+pazar+tarih/batch; ad set’te kitle türü ve segment; ad’de format ve kreatif tema kodlanmalıdır. Bu ayrım raporlamayı kolaylaştırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UTM şeması naming kodlarıyla neden uyumlu olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4/Looker raporları UTM’ler üzerinden kampanya ve kreatif kırılımı alır. Naming kodları UTM’ye aynı mantıkla taşınmazsa veri parçalanır ve kıyaslar yanıltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için naming’de en kritik fark nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde pazar/dil/destinasyon kırılımı kritik; B2B’de offer (demo/webinar/audit) ve pipeline hedefi (SQL/toplantı) isimlerde görünür olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak",
+
+      "headline": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+
+      "name": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+
+      "description": "Boost hızlı amplifikasyon sağlar; dark post kontrollü test ve raporlama disiplini sunar. Organik top performer’ları boost’la büyüt, hipotezleri dark post’la test et ve UTM hijyenini koru.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Boosted Posts",
+
+        "Dark Posts",
+
+        "Organic Top Performers",
+
+        "Creative Testing",
+
+        "Organic Paid Bridge",
+
+        "UTM Reporting"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak#howto",
+
+      "name": "Organikten Reklama: Boost ve Dark Post ile Planlama",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Top performer içeriği seç",
+
+          "text": "Save/share, yorum kalitesi ve tıklama sinyallerine göre organik içeriklerden en iyi performans gösterenleri belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Boost ile hızlı amplifikasyon yap",
+
+          "text": "Kısa süreli boost ile erişimi büyüt ve remarketing için etkileşim havuzu oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dark post ile kontrollü test et",
+
+          "text": "Mesaj/CTA/kitle hipotezlerini tek değişkenle test et; UTM ve raporlama standardını koruyarak kazananı ölçekle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+
+          "item": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Boost nedir, dark post nedir, farkı ne?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Boost mevcut organik gönderiyi hızlıca büyütür. Dark post ise Business Manager’dan oluşturulan, hedefleme ve test kontrolü yüksek reklam kreatifidir; performans ve raporlama disiplini sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi içerikleri boost etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Save/share oranı yüksek, yorumları soru içeren ve tıklama sinyali veren top performer içerikleri boost etmek daha verimlidir. Boost’u kısa süreli kullanıp kazanan içeriği dark post testlerine taşıyabilirsiniz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ne zaman dark post yaratmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yeni mesaj/CTA/teklif test etmek, remarketing yapmak veya dönüşüm hedefiyle ilerlemek istiyorsanız dark post daha uygundur. Kontrol ve ölçüm ihtiyacı arttıkça dark post öne çıkar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Boost kullanmak doğru mu, yoksa Business Manager’dan mı açmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hızlı erişim/etkileşim için boost uygundur; ancak hedefleme, UTM ve raporlama kontrolü gerekiyorsa Business Manager (dark post) daha güvenlidir. En iyi model, ikisini amaçlarına göre birlikte kullanmaktır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 

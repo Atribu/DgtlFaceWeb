@@ -42241,6 +42241,558 @@ export const BLOG_MEDIA_MAP = {
       alt: "Otel ve B2B remarketing senaryo seti deliverables kartı, uygulama rehberi",
       caption: "Otel ve B2B remarketing senaryo seti deliverables kartı, uygulama rehberi"
     }
+  },
+
+  "kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek":{
+    banner: {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-1.webp",
+      alt: "Kreatif ve Metin A/B Testleri ile Sosyal Medya Reklamlarını Optimize Etmek",
+      caption: "Kreatif ve Metin A/B Testleri ile Sosyal Medya Reklamlarını Optimize Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-2.webp",
+      alt: "Tek değişkenli test mantığı ve test ölç öğren akışı görseli",
+      caption: "Tek değişkenli test mantığı ve test ölç öğren akışı görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-3.webp",
+    alt: "A/B test nedir ve değişken seçimi bölüm ayracı, performans test rehberi",
+      caption: "A/B test nedir ve değişken seçimi bölüm ayracı, performans test rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-4.webp",
+      alt: "Test tasarımı ve sonuç yorumlama bölüm ayracı, deney kültürü yönetimi",
+      caption: "Test tasarımı ve sonuç yorumlama bölüm ayracı, deney kültürü yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-5.webp",
+      alt: "Test–measure–learn diyagramı, hipotezden ölçeğe A/B test akışı",
+      caption: "Test–measure–learn diyagramı, hipotezden ölçeğe A/B test akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-6.webp",
+      alt: "A/B test checklist’i, tek değişken örneklem süre ve KPI uyumu",
+      caption: "A/B test checklist’i, tek değişken örneklem süre ve KPI uyumu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-7.webp",
+      alt: "CTR CPA ROAS paneli, test kazananı seçmek için skor kartı",
+      caption: "CTR CPA ROAS paneli, test kazananı seçmek için skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-7/SMM4-7-8.webp",
+      alt: "A/B test sonuç tablosu ve öğrenim kütüphanesi deliverables kartı",
+      caption: "A/B test sonuç tablosu ve öğrenim kütüphanesi deliverables kartı"
+    }
+  },
+
+  "ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak":{
+    banner: {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-1.webp",
+      alt: "UGC ve Sosyal Kanıt İçeriklerini Reklam Kreatifi Olarak Kullanmak",
+      caption: "UGC ve Sosyal Kanıt İçeriklerini Reklam Kreatifi Olarak Kullanmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-2.webp",
+      alt: "Review’den reklama dönüşüm akışı, izin ve test adımları",
+      caption: "Review’den reklama dönüşüm akışı, izin ve test adımları"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-3.webp",
+    alt: "UGC seçimi ve reklama taşıma bölüm ayracı, performans bağlamı",
+      caption: "UGC seçimi ve reklama taşıma bölüm ayracı, performans bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-4.webp",
+      alt: "İzin ve KVKK süreçleri bölüm ayracı, risk yönetimi görseli",
+      caption: "İzin ve KVKK süreçleri bölüm ayracı, risk yönetimi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-5.webp",
+      alt: "UGC izin kreatif test ölçek akış diyagramı, reklam optimizasyonu",
+      caption: "UGC izin kreatif test ölçek akış diyagramı, reklam optimizasyonu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-6.webp",
+      alt: "UGC reklam checklist’i, izin maskeleme ve kaynak doğrulama kuralları",
+      caption: "UGC reklam checklist’i, izin maskeleme ve kaynak doğrulama kuralları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-7.webp",
+      alt: "CTR CPA ve ROAS etkisi paneli, UGC kreatif performans skor kartı",
+      caption: "CTR CPA ve ROAS etkisi paneli, UGC kreatif performans skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-8/SMM4-8-8.webp",
+      alt: "UGC ve review kreatif mockup kolajı, otel ve B2B örnekleri",
+      caption: "UGC ve review kreatif mockup kolajı, otel ve B2B örnekleri"
+    }
+  },
+
+  "yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin":{
+    banner: {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-1.webp",
+      alt: "Yerel ve GEO Targeting Kampanyaları: Otel ve Lokal İşletmeler İçin Rehber",
+      caption: "Yerel ve GEO Targeting Kampanyaları: Otel ve Lokal İşletmeler İçin Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-2.webp",
+      alt: "Turist ve yerel kitle ayrımı, şehir ve çember hedefleme çerçevesi",
+      caption: "Turist ve yerel kitle ayrımı, şehir ve çember hedefleme çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-3.webp",
+    alt: "Lokasyon hedefleme türleri bölüm ayracı, geo seçenekleri rehberi",
+      caption: "Lokasyon hedefleme türleri bölüm ayracı, geo seçenekleri rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-4.webp",
+      alt: "Turist vs yerel stratejisi bölüm ayracı, lokasyon bazlı reklam planı",
+      caption: "Turist vs yerel stratejisi bölüm ayracı, lokasyon bazlı reklam planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-5.webp",
+      alt: "Geo-targeting harita mockup’ı, şehir ve çember hedefleme seçenekleri",
+      caption: "Geo-targeting harita mockup’ı, şehir ve çember hedefleme seçenekleri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-6.webp",
+      alt: "Lokasyon bazlı kampanya checklist’i, kreatif ve teklif uyarlama rehberi",
+      caption: "Lokasyon bazlı kampanya checklist’i, kreatif ve teklif uyarlama rehberi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-7.webp",
+      alt: "Rezervasyon arama mağaza ziyareti KPI paneli, geo kampanya performansı",
+      caption: "Rezervasyon arama mağaza ziyareti KPI paneli, geo kampanya performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-9/SMM4-9-8.webp",
+      alt: "Otel ve lokal işletme için geo kampanya seti deliverables kartı",
+      caption: "Otel ve lokal işletme için geo kampanya seti deliverables kartı"
+    }
+  },
+
+  "multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi":{
+     banner: {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-1.webp",
+      alt: "Multi-Channel Attribution ve Sosyal Medya Reklamlarının Toplam Performansa Etkisi",
+      caption: "Multi-Channel Attribution ve Sosyal Medya Reklamlarının Toplam Performansa Etkisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-2.webp",
+      alt: "First click assist last click katkı farkları, kanal katkısı özet görseli",
+      caption: "First click assist last click katkı farkları, kanal katkısı özet görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-3.webp",
+    alt: "Last click ve data-driven modeller bölüm ayracı, attribution karşılaştırması",
+      caption: "Last click ve data-driven modeller bölüm ayracı, attribution karşılaştırması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-4.webp",
+      alt: "GA4 ve reklam panelleri birlikte okuma bölüm ayracı, raporlama disiplini",
+      caption: "GA4 ve reklam panelleri birlikte okuma bölüm ayracı, raporlama disiplini"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-5.webp",
+      alt: "Çok kanallı attribution akış diyagramı, sosyalden dönüşüme yolculuk",
+      caption: "Çok kanallı attribution akış diyagramı, sosyalden dönüşüme yolculuk"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-6.webp",
+      alt: "Attribution okuma checklist’i, model ve tarih tutarlılığı kontrol kartı",
+      caption: "Attribution okuma checklist’i, model ve tarih tutarlılığı kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-7.webp",
+      alt: "Assisted conversions path length ve kanal katkısı KPI paneli, karar kartı",
+      caption: "Assisted conversions path length ve kanal katkısı KPI paneli, karar kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-10/SMM4-10-8.webp",
+      alt: "Multi-channel rapor deliverables kartı, sosyal+GA4 okuma çıktıları",
+      caption: "Multi-channel rapor deliverables kartı, sosyal+GA4 okuma çıktıları"
+    }
+  },
+
+  "reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-1.webp",
+      alt: "Reklam Yorgunluğu (Creative Fatigue) ve Frequency Capping Stratejisi",
+      caption: "Reklam Yorgunluğu (Creative Fatigue) ve Frequency Capping Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-2.webp",
+      alt: "CPM CTR dönüşüm trendleri ve frequency eşikleri, fatigue erken uyarı görseli",
+      caption: "CPM CTR dönüşüm trendleri ve frequency eşikleri, fatigue erken uyarı görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-3.webp",
+    alt: "Fatigue sinyalleri bölüm ayracı, metrik trend okuma rehberi",
+      caption: "Fatigue sinyalleri bölüm ayracı, metrik trend okuma rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-4.webp",
+      alt: "Refresh ve rotasyon stratejisi bölüm ayracı, kreatif yenileme yaklaşımı",
+      caption: "Refresh ve rotasyon stratejisi bölüm ayracı, kreatif yenileme yaklaşımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-5.webp",
+      alt: "Frequency fatigue refresh akış diyagramı, kreatif rotasyon döngüsü",
+      caption: "Frequency fatigue refresh akış diyagramı, kreatif rotasyon döngüsü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-6.webp",
+      alt: "Fatigue ve frequency checklist’i, eşik ve aksiyon planı kontrol kartı",
+      caption: "Fatigue ve frequency checklist’i, eşik ve aksiyon planı kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-7.webp",
+      alt: "CPM CTR CVR CPA paneli, reklam yorgunluğu tespiti skor kartı",
+      caption: "CPM CTR CVR CPA paneli, reklam yorgunluğu tespiti skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-11/SMM4-11-8.webp",
+      alt: "Creative pool ve refresh takvimi deliverables kartı, optimizasyon çıktıları",
+      caption: "Creative pool ve refresh takvimi deliverables kartı, optimizasyon çıktıları"
+    }
+  },
+
+
+  "lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali":{
+    banner: {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-1.webp",
+      alt: "Lead Form Ads vs Landing Page: Hangisi Ne Zaman Kullanılmalı?",
+      caption: "Lead Form Ads vs Landing Page: Hangisi Ne Zaman Kullanılmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-2.webp",
+      alt: "Kalite hacim dengesi ve hibrit model akışı, mobil lead toplama çerçevesi",
+      caption: "Kalite hacim dengesi ve hibrit model akışı, mobil lead toplama çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-3.webp",
+    alt: "Lead form vs landing karar matrisi bölüm ayracı, dönüşüm UX rehberi",
+      caption: "Lead form vs landing karar matrisi bölüm ayracı, dönüşüm UX rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-4.webp",
+      alt: "Hibrit model ve CRM entegrasyonu bölüm ayracı, lead nurturing yaklaşımı",
+      caption: "Hibrit model ve CRM entegrasyonu bölüm ayracı, lead nurturing yaklaşımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-5.webp",
+      alt: "Lead form ve landing funnel karşılaştırma diyagramı, hibrit akış modeli",
+      caption: "Lead form ve landing funnel karşılaştırma diyagramı, hibrit akış modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-6.webp",
+      alt: "Lead form vs landing test checklist’i, kalite hacim karar kartı",
+      caption: "Lead form vs landing test checklist’i, kalite hacim karar kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-7.webp",
+      alt: "Lead kalitesi ve hacmi KPI paneli, MQL SQL ve CPA trend kartı",
+      caption: "Lead kalitesi ve hacmi KPI paneli, MQL SQL ve CPA trend kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-12/SMM4-12-8.webp",
+      alt: "Hibrit lead akışı deliverables kartı, CRM entegrasyon çıktıları",
+      caption: "Hibrit lead akışı deliverables kartı, CRM entegrasyon çıktıları"
+    }
+  },
+
+
+  "sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek":{
+     banner: {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-1.webp",
+      alt: "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek",
+      caption: "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-2.webp",
+      alt: "Red nedenleri sınıfları ve düzeltme akışı, operasyonel kontrol çerçevesi",
+      caption: "Red nedenleri sınıfları ve düzeltme akışı, operasyonel kontrol çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-3.webp",
+    alt: "Sık red nedenleri ve risk sınıfları, sosyal reklam politika rehberi",
+      caption: "Sık red nedenleri ve risk sınıfları, sosyal reklam politika rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-4.webp",
+      alt: "İtiraz ve hesap sağlığı yönetimi, reklam uyum süreç bölümü",
+      caption: "İtiraz ve hesap sağlığı yönetimi, reklam uyum süreç bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-5.webp",
+      alt: "Red-düzeltme-yeniden yayın akış diyagramı, kampanya uyum süreci",
+      caption: "Red-düzeltme-yeniden yayın akış diyagramı, kampanya uyum süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-6.webp",
+      alt: "Yayına çıkmadan önce politika checklist’i, metin görsel hedefleme kontrolü",
+      caption: "Yayına çıkmadan önce politika checklist’i, metin görsel hedefleme kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-7.webp",
+      alt: "Onay oranı ve hesap sağlığı KPI paneli, red riskini azaltma takibi",
+      caption: "Onay oranı ve hesap sağlığı KPI paneli, red riskini azaltma takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-13/SMM4-13-8.webp",
+      alt: "Red çözüm şablonu ve uyum deliverables kartı, operasyon çıktıları",
+      caption: "Red çözüm şablonu ve uyum deliverables kartı, operasyon çıktıları"
+    }
+  },
+
+  "otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-1.webp",
+      alt: "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek",
+      caption: "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-2.webp",
+      alt: "Turizm funnel’ı ve booking yolculuğu, otel reklam planı görsel",
+      caption: "Turizm funnel’ı ve booking yolculuğu, otel reklam planı görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-3.webp",
+    alt: "Sezon bazlı kampanya planı, otel pazarlama stratejisi bölümü",
+      caption: "Sezon bazlı kampanya planı, otel pazarlama stratejisi bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-4.webp",
+      alt: "OTA ve direkt rezervasyon dengesi, turizm reklam yönetimi bölümü",
+      caption: "OTA ve direkt rezervasyon dengesi, turizm reklam yönetimi bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-5.webp",
+      alt: "Awareness’ten booking’e turizm reklam akışı, kanal rolleri diyagramı",
+      caption: "Awareness’ten booking’e turizm reklam akışı, kanal rolleri diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-6.webp",
+      alt: "Otel kampanya checklist’i, sezon pazar kanal kontrol çerçevesi",
+      caption: "Otel kampanya checklist’i, sezon pazar kanal kontrol çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-7.webp",
+      alt: "Doluluk CPA ROAS ve direkt rezervasyon payı KPI paneli, otel performansı",
+      caption: "Doluluk CPA ROAS ve direkt rezervasyon payı KPI paneli, otel performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-14/SMM4-14-8.webp",
+      alt: "Sezon ve pazar bazlı kampanya planı çıktıları, otel reklam deliverables kartı",
+      caption: "Sezon ve pazar bazlı kampanya planı çıktıları, otel reklam deliverables kartı"
+    }
+  },
+
+  "b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak":{
+     banner: {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-1.webp",
+      alt: "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak",
+      caption: "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-2.webp",
+      alt: "LinkedIn üst funnel ve Meta remarketing akışı, B2B funnel planı",
+      caption: "LinkedIn üst funnel ve Meta remarketing akışı, B2B funnel planı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-3.webp",
+    alt: "Hedefe göre platform seçimi, B2B reklam planlama bölümü",
+      caption: "Hedefe göre platform seçimi, B2B reklam planlama bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-4.webp",
+      alt: "Raporlama ve pipeline okuma, LinkedIn Meta optimizasyon bölümü",
+      caption: "Raporlama ve pipeline okuma, LinkedIn Meta optimizasyon bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-5.webp",
+      alt: "B2B iki platformlu funnel diyagramı, üstten alta dönüşüm akışı",
+      caption: "B2B iki platformlu funnel diyagramı, üstten alta dönüşüm akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-6.webp",
+      alt: "LinkedIn + Meta planlama checklist’i, rol KPI ve bütçe kontrol kartı",
+      caption: "LinkedIn + Meta planlama checklist’i, rol KPI ve bütçe kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-7.webp",
+      alt: "CPL SQL meeting ve satış KPI paneli, çok platformlu raporlama kartı",
+      caption: "CPL SQL meeting ve satış KPI paneli, çok platformlu raporlama kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-15/SMM4-15-8.webp",
+      alt: "Platform bazlı kreatif ton farkı ve deliverables, B2B reklam seti kanıt kartı",
+      caption: "Platform bazlı kreatif ton farkı ve deliverables, B2B reklam seti kanıt kartı"
+    }
+  },
+
+  "kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama":{
+     banner: {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-1.webp",
+      alt: "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
+      caption: "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-2.webp",
+      alt: "Kampanya ad set ad hiyerarşisi, raporlama için isimlendirme alanları görseli",
+      caption: "Kampanya ad set ad hiyerarşisi, raporlama için isimlendirme alanları görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-3.webp",
+    alt: "Kampanya hiyerarşisi bölüm ayracı, Meta Ads hesap düzeni rehber",
+      caption: "Kampanya hiyerarşisi bölüm ayracı, Meta Ads hesap düzeni rehber"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-4.webp",
+      alt: "UTM ve raporlama uyumu bölüm ayracı, GA4 Looker filtre mantığı",
+      caption: "UTM ve raporlama uyumu bölüm ayracı, GA4 Looker filtre mantığı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-5.webp",
+      alt: "Naming ve UTM akışı, GA4 Looker Studio raporlama eşleşmesi diyagramı",
+      caption: "Naming ve UTM akışı, GA4 Looker Studio raporlama eşleşmesi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-6.webp",
+      alt: "Naming convention checklist’i, hesap hijyeni kontrol listesi otel ve B2B",
+      caption: "Naming convention checklist’i, hesap hijyeni kontrol listesi otel ve B2B"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-7.webp",
+      alt: "Raporlama süresi ve optimizasyon hızı KPI paneli, operasyon verimlilik kartı",
+      caption: "Raporlama süresi ve optimizasyon hızı KPI paneli, operasyon verimlilik kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-16/SMM4-16-8.webp",
+      alt: "İyi naming sözlüğü ve rapor filtre çıktıları, hesap standardı proof kartı",
+      caption: "İyi naming sözlüğü ve rapor filtre çıktıları, hesap standardı proof kartı"
+    }
+  },
+
+  "boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak":{
+    banner: {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-1.webp",
+      alt: "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+      caption: "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-2.webp",
+      alt: "Organik→paid geçiş akışı + kreatif test modeli + pazarlama bağlamı",
+      caption: "Organik→paid geçiş akışı + kreatif test modeli + pazarlama bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-3.webp",
+    alt: "Top performer seçimi + boost vs dark post karar bölümü + sosyal reklam bağlamı",
+      caption: "Top performer seçimi + boost vs dark post karar bölümü + sosyal reklam bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-4.webp",
+      alt: "UTM raporlama hijyeni + Business Manager disiplin bölümü + uygulama bağlamı",
+      caption: "UTM raporlama hijyeni + Business Manager disiplin bölümü + uygulama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-5.webp",
+      alt: "Organikten reklama akış diyagramı + boost ve dark post adımları + otel/B2B",
+      caption: "Organikten reklama akış diyagramı + boost ve dark post adımları + otel/B2B"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-6.webp",
+      alt: "Boost mu dark post mu checklist + karar soruları + reklam planlama bağlamı",
+      caption: "Boost mu dark post mu checklist + karar soruları + reklam planlama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-7.webp",
+      alt: "Organik performans ve paid KPI paneli + CTR CPA etkisi + raporlama bağlamı",
+      caption: "Organik performans ve paid KPI paneli + CTR CPA etkisi + raporlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-17/SMM4-17-8.webp",
+      alt: "Organik→paid kreatif seti deliverables kartı + test planı + marka bağlamı",
+      caption: "Organik→paid kreatif seti deliverables kartı + test planı + marka bağlamı"
+    }
   }
 
   

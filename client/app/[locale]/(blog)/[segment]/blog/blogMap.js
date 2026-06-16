@@ -376,7 +376,18 @@ export const BLOG_MAP = {
      "asmr-pov-ve-sinematik-reels-yeni-video-trendleri":"BlogAsmrPovVeSinematikReelsYeniVideoTrendleri",
      "edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari":"BlogEdutainmentEgitimVeEglenceyiBirlestirenReelsFormatlari",
      "yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi":"BlogYapayZekaAvatarVoiceCloneVeSanalSunucuIleReelsUretimStratejisi",
-     "remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma":"BlogRemarketingKampanyalariSicakKitleIleSatisVeRezervasyonArtirma"
+     "remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma":"BlogRemarketingKampanyalariSicakKitleIleSatisVeRezervasyonArtirma",
+     "kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek":"BlogKreatifVeMetinABTestleriIleSosyalMedyaReklamlariniOptimizeEtmek",
+     "ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak":"BlogUgcVeSosyalKanitIcerikleriniReklamKreatifiOlarakKullanmak",
+     "yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin":"BlogYerelVeGeoTargetingKampanyalariOtelVeLokalIsletmelerIcin",
+     "multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi":"BlogMultiChannelAttributionVeSosyalMedyaReklamlarininToplamPerformansaEtkisi",
+     "reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi":"BlogReklamYorgunluguCreativeFatigueVeFrequencyCappingStratejisi",
+     "lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali":"BlogLeadFormAdsVsLandingPageHangisiNeZamanKullanilmali",
+     "sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek":"BlogSosyalMedyaReklamPolitikalariVeReklamRedleriniCozmek",
+     "otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi":"BlogOtelVeTurizmMarkalariIcinSosyalMedyaReklamStratejisi",
+     "b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak":"BlogB2BMarkalarIcinLinkedInVeMetaAdsStratejileriniBirliktePlanlamak",
+     "kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama":"BlogKampanyaYapisiVeNamingConventionHesapHijyeniVeRaporlama",
+     "boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak":"BlogBoostMuDarkPostMuOrganikVeReklamIceriginiBirliktePlanlamak"
   },
 
     yazilim: {
