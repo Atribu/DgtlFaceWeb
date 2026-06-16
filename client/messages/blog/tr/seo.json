@@ -9161,7 +9161,7 @@
     }
   },
   "BlogIcerikIcerisindeInternalLinkStratejisiOtoriteDagilimi": {
-    "title": "Internal Link Stratejisi: Otorite Dağılımı | DGTLFACE",
+    "title": "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu",
     "slug": "icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi",
     "department": "seo",
     "subDepartment": "content",
@@ -9171,7 +9171,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Internal link nedir, SEO’ya nasıl etki eder? Hangi sayfalara link vermeli, anchor text nasıl seçilir, hub–cluster ağ nasıl kurulur? Otel/B2B örnekleriyle.",
     "seo": {
-      "metaTitle": "Internal Link Stratejisi: Otorite Dağılımı | DGTLFACE",
+      "metaTitle": "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu | DGTLFACE",
       "metaDescription": "Internal link nedir, SEO’ya nasıl etki eder? Hangi sayfalara link vermeli, anchor text nasıl seçilir, hub–cluster ağ nasıl kurulur? Otel/B2B örnekleriyle."
     },
     "blueprint": {
@@ -9208,7 +9208,7 @@
     },
     "h1": {
       "title": "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu",
-      "intro": "İç link yapısı, sitenizin görünen tasarımından daha az dikkat çeker ama çoğu zaman SEO performansını daha fazla etkiler. Çünkü iç linkler, Google’a “hangi sayfalar önemli, hangi sayfalar aynı konu kümesinde” mesajını verir; kullanıcıya da “şimdi nereye gideyim?” sorusunun cevabını sessizce sunar. Çok sayıda sitede ya hiç iç link stratejisi yoktur ya da aşırı anahtar kelime gömülü, yapay anchor’lar kullanıldığı için potansiyel tam kullanılamaz. Bu rehberde, hub–cluster mantığıyla otorite dağıtmayı ve içerik içinde mikro CTA’larla kullanıcı yolculuğunu tasarlamayı adım adım kuracağız.",
+      "intro": "[internal link stratejisi](/tr/seo/icerik-seo) kurgusu, sitenizin görünen tasarımından daha az dikkat çeker ama çoğu zaman SEO performansını daha fazla etkiler. Çünkü iç linkler, Google’a “hangi sayfalar önemli, hangi sayfalar aynı konu kümesinde” mesajını verir; kullanıcıya da “şimdi nereye gideyim?” sorusunun cevabını sessizce sunar. Çok sayıda sitede ya hiç iç link stratejisi yoktur ya da aşırı anahtar kelime gömülü, yapay anchor’lar kullanıldığı için potansiyel tam kullanılamaz. Bu rehberde, hub–cluster mantığıyla otorite dağıtmayı ve içerik içinde mikro CTA’larla kullanıcı yolculuğunu tasarlamayı adım adım kuracağız.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Internal Link & Otorite Dağılımı Analizi Talep Et",
@@ -9225,7 +9225,7 @@
       "secondary": {
         "label": "Internal Link Planlama & Anchor Metin Şablonunu İndir",
         "text": "Hedef sayfa rolü, anchor çeşitliliği ve 3–5 stratejik link planını tek tabloda kurmanızı sağlar.",
-        "href": "/tr/seo/icerik-seo"
+        "href": "/downloads/internal-link-planlama-anchor-metin-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -9234,15 +9234,44 @@
         "href": "/tr/seo/icerik-seo"
       },
       {
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Topic Cluster ve Content Hub Mimarisi",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+      },
+      {
+        "label": "İçerik UX ve Okunabilirlik",
+        "href": "/tr/seo/blog/icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz"
+      },
+      {
+        "label": "SEO İçerik Brief'i ve Outline",
+        "href": "/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+      },
+      {
         "label": "Teknik SEO",
         "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Otel SEO",
         "href": "/tr/otel/seo"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+      },
+      {
+        "title": "SEO İçerik Brief'i ve Outline Nasıl Hazırlanır?",
+        "href": "/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+      }
+    ],
     "sections": [
       {
         "id": "h1-context",
@@ -9251,6 +9280,10 @@
           {
             "type": "media",
             "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı [SEO hizmetleri içinde iç link mimarisi](/tr/seo-hizmetleri) olarak düşünmek gerekir; çünkü iç linkler yalnızca ilgili yazıya bağlantı vermek değil, otorite dağılımı, kullanıcı yolculuğu, crawl yolu ve money page güçlendirme sistemini birlikte kurmak anlamına gelir."
           },
           {
             "type": "cta",
@@ -9372,6 +9405,10 @@
             "text": "Cevap (2–3 cümle):\nAnchor metin, link verdiğiniz sayfanın konusunu doğal biçimde anlatmalı ve cümle içinde akmalıdır. Aynı anahtar kelimeyi tekrar tekrar anchor yapmak yerine semantik varyasyonlar kullanın (ör. “içerik SEO”, “content SEO danışmanlığı”, “içerik optimizasyonu”). Ayrıca anchor’ın tıklanabilir olması için “ne bulacağım?” vaadini netleştirin."
           },
           {
+            "type": "p",
+            "text": "Bu planı içerik yazımı başlamadan kurmak için [anchor text seçimi](/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir) ve hedef URL mantığını brief / outline aşamasında tanımlamak gerekir; böylece link verilecek bölüm, sayfa rolü ve editoryal akış sonradan yamalanmak zorunda kalmaz."
+          },
+          {
             "type": "h3",
             "text": "Anchor çeşitliliği örnekleri (kısa)"
           },
@@ -9459,6 +9496,10 @@
           },
           {
             "type": "p",
+            "text": "Bu akışı tasarlarken [hub cluster iç link mimarisi](/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi) mantığı kritik hale gelir; çünkü pillar, support, bridge ve FAQ katmanları arasında hangi linkin üstten alta, hangisinin alttan üste çalışacağı baştan planlanmazsa ağ kolayca dağılır."
+          },
+          {
+            "type": "p",
             "text": "Mini örnek (otel):\nHub: “Otel SEO” → cluster: “teknik SEO”, “içerik SEO”, “yerel SEO” → SSS: “kaç ayda sonuç alınır?” gibi sorular."
           },
           {
@@ -9490,6 +9531,10 @@
           {
             "type": "p",
             "text": "İç link stratejisi sadece SEO değil; dönüşüm tasarımıdır. Kullanıcı içerikte ilerlerken küçük “micro CTA”larla bir sonraki adıma yönlenir: “ilgili hizmet”, “örnek plan”, “şablon indir”, “analiz talep et”. Bu, blog trafiğini “boşta dolaşma”dan “hedefe ilerleme”ye çevirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [kullanıcı yolculuğuna göre iç link kullanımı](/tr/seo/blog/icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz) önemlidir; çünkü link yoğunluğu, okunabilirlik ve CTA dengesi bozulursa doğru hedef sayfaları seçseniz bile kullanıcı akışı zayıflar."
           },
           {
             "type": "h3",
@@ -9536,7 +9581,7 @@
             "variant": "secondary",
             "label": "Internal Link Planlama & Anchor Metin Şablonunu İndir",
             "text": "Hedef sayfa rolü, anchor çeşitliliği ve 3–5 stratejik link planını tek tabloda kurmanızı sağlar.",
-            "href": "/tr/seo/icerik-seo"
+            "href": "/downloads/internal-link-planlama-anchor-metin-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -9547,6 +9592,10 @@
           {
             "type": "p",
             "text": "Teknik nottaki kritik kural: İç link stratejisi sadece bloglarda yapılmaz. Hizmet/ürün sayfaları genellikle daha fazla otorite toplar; buradan blog ve cluster’lara doğru link vermek, ağı dengeler. Ayrıca breadcrumb ile içerik içi link aynı şey değildir: breadcrumb yapısal navigasyondur; içerik içi link ise bağlam ve niyet taşır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [içerik içinde otorite dağılımı](/tr/seo/teknik-seo) yalnızca editoryal karar değildir; orphan page, breadcrumb, canonical, iç link derinliği ve crawl yolu birlikte yönetildiğinde gerçekten sağlıklı bir site mimarisi oluşur."
           },
           {
             "type": "h3",
@@ -9564,6 +9613,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşak kullanım):\nİyi planlanmış iç link ağına sahip sitelerde, önemli sayfaların yetim (orphan) kalma riskinin azaldığı ve hedef URL’lerin daha istikrarlı sıralamalar yakaladığı sıkça gözlemlenir. Bu garanti değil; ama link ağı iyileştikçe “doğru sayfaya doğru sinyal” verme olasılığı artar."
+          },
+          {
+            "type": "p",
+            "text": "Bu model özellikle [otel SEO’da iç link stratejisi](/tr/otel/seo) kurulurken önemlidir; çünkü destinasyon sayfaları, hizmet sayfaları, blog ağı, FAQ katmanı ve rezervasyon odaklı geçişler birbirine planlı bağlanmadığında otel sitelerinde kullanıcı yolculuğu erken kopabilir."
           },
           {
             "type": "media",
@@ -9613,6 +9666,10 @@
             ],
             "href": "/downloads/internal-link-planlama-anchor-metin-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberden sonra [profesyonel İçerik SEO ve internal link stratejisi](/tr/seo/icerik-seo) ile yapıyı daha sistematik hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından anchor text, content hub ve kullanıcı yolculuğu detaylarına geçebilirsiniz."
           }
         ]
       }
@@ -42275,7 +42332,7 @@
   },
 
    "BlogEditorialKalenderVeIcerikOperasyonSistemi": {
-    "title": "Editoryal Takvim ve İçerik Operasyon Sistemi",
+    "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
     "slug": "editorial-kalender-ve-icerik-operasyon-sistemi",
     "department": "seo",
     "subDepartment":"content",
@@ -42285,7 +42342,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "SEO odaklı editoryal takvim nasıl hazırlanır? Sütunlar, roller, haftalık/aylık ritim, onay–yayın akışı ve performans/refresh döngüsüyle içerik operasyonu kurun.",
     "seo": {
-      "metaTitle": "Editoryal Takvim ve İçerik Operasyon Sistemi | DGTLFACE",
+      "metaTitle": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur? | DGTLFACE",
       "metaDescription": "SEO odaklı editoryal takvim nasıl hazırlanır? Sütunlar, roller, haftalık/aylık ritim, onay–yayın akışı ve performans/refresh döngüsüyle içerik operasyonu kurun."
     },
     "blueprint": {
@@ -42323,7 +42380,7 @@
     },
     "h1": {
       "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
-      "intro": "İçerik üreten birçok marka aynı probleme takılır: bir ay çok üretir, sonraki ay durur; bir yazar başka bir yazarın formatını takip etmez; SEO kontrolü bazen yapılır bazen atlanır; performans verisi “bir yerde” kalır ama takvime geri dönmez. Sonuç: içerik hacmi artar ama tutarlılık ve otorite inşası zayıf kalır. Editoryal takvim, bu dağınıklığı tek bir “tek kaynak (single source of truth)” altında toplar: konu + keyword + persona + funnel + sorumlu + durum + yayın tarihi + performans notu + refresh kararı aynı yerde yaşar. Böylece içerik, hem üretim hem de optimizasyon açısından “repeatable system” haline gelir.",
+      "intro": "[editorial calendar SEO](/tr/seo/icerik-seo) kurgusunda içerik üreten birçok marka aynı probleme takılır: bir ay çok üretir, sonraki ay durur; bir yazar başka bir yazarın formatını takip etmez; SEO kontrolü bazen yapılır bazen atlanır; performans verisi “bir yerde” kalır ama takvime geri dönmez. Sonuç: içerik hacmi artar ama tutarlılık ve otorite inşası zayıf kalır. Editoryal takvim, bu dağınıklığı tek bir “tek kaynak (single source of truth)” altında toplar: konu + keyword + persona + funnel + sorumlu + durum + yayın tarihi + performans notu + refresh kararı aynı yerde yaşar. Böylece içerik, hem üretim hem de optimizasyon açısından “repeatable system” haline gelir.",
       "quickSummary": [
         "1) Takvimi sadece yayın listesi değil, operasyon sistemi olarak kur",
         "2) Her içerik satırına keyword + persona + funnel + içerik türü ekle",
@@ -42334,47 +42391,63 @@
       "ctaPrimary": {
         "label": "Editoryal Takvim & İçerik Operasyon Analizi Talep Et",
         "text": "Dağınık içerik üretimini sistemleştirip SEO’da tutarlı otorite inşa etmek isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Editoryal Takvim & İçerik Operasyon Analizi Talep Et",
         "text": "Üretim dalgalanmasını azaltıp SEO’da tutarlı otorite kurmak isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Editoryal Takvim Excel/Sheets Şablonunu İndir",
         "text": "Takvim sütunlarını ve durum akışını hazır formatta kullanarak 1 günde sistemi başlatmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/editorial-takvim-excel-sheets-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Search Intent Analizi ve İçerik Haritalama",
+        "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
+      },
+      {
+        "label": "SEO İçerik Brief'i ve Outline",
+        "href": "/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+      },
+      {
+        "label": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi",
+        "href": "/tr/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
       },
       {
         "label": "Satış dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
-        "href": "/seo/teknik-seo"
+        "title": "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+        "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
       },
       {
-        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
-        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+        "title": "SEO İçerik Brief'i ve Outline Nasıl Hazırlanır?",
+        "href": "/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
       }
     ],
     "sections": [
@@ -42385,6 +42458,10 @@
           {
             "type": "p",
             "text": "Editoryal takvim, sadece yayın tarihlerini yazdığınız bir liste değildir. Bir operasyon sistemi olarak takvim; stratejiyi (hedef, persona, funnel), üretimi (brief, sorumlu, durum), kaliteyi (edit + SEO kontrol), yayınlamayı (onay akışı) ve iyileştirmeyi (performans + revizyon/refresh) tek yapıda birleştirir. İçerik SEO’da “tutarlılık”, tek tek harika yazılardan daha değerlidir; çünkü topical authority ve kullanıcı alışkanlığı zamanla oluşur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı [SEO hizmetleri içinde içerik operasyon süreci](/tr/seo-hizmetleri) olarak değerlendirmek gerekir; çünkü SEO içerik üretimi yalnızca yazı yayınlamak değil, niyet analizi, brief, editörlük, yayın ritmi ve performans takibiyle çalışan bir sistem kurmaktır."
           },
           {
             "type": "p",
@@ -42446,6 +42523,10 @@
           {
             "type": "p",
             "text": "Burada önemli prensip: Önce hizmet/destinasyon öncelikleri. Öncelikli gelir alanları veya stratejik hizmetler (ör. “içerik SEO”, “otel SEO”, “satış-dönüşüm raporlama”) önce takvime oturur; sonra destekleyici bloglar bu omurgayı besler."
+          },
+          {
+            "type": "p",
+            "text": "Bu dağılımı daha sağlıklı kurmak için [search intent’e göre içerik takvimi](/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama) mantığını baştan belirlemek gerekir; çünkü kullanıcı niyeti, funnel aşaması ve doğru sayfa tipi eşleşmeden doldurulan takvimler kısa sürede dağılır."
           },
           {
             "type": "h3",
@@ -42632,6 +42713,10 @@
             "text": "Not: Tarih formatı ve ekip alanları, kurumunuzun işleyişine göre özelleştirilebilir."
           },
           {
+            "type": "p",
+            "text": "Takvime girecek her içeriğin üretim öncesi standardı için [SEO içerik brief’i ve outline](/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir) hazırlanması önemlidir; böylece H2 planı, hedef kelimeler, iç link hedefleri ve editör notları yazım başlamadan netleşir."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -42723,6 +42808,10 @@
           {
             "type": "p",
             "text": "Tipik içerik operasyonunda yazar taslağı üretir, editör dili ve akışı düzeltir, SEO uzmanı intent/heading/on-page kontrol yapar, tasarım ekibi görsel paketini üretir ve yayın sorumlusu (veya içerik lideri) son onayı verip yayına alır. Bu akışın adımları “durum” alanına yansıtılmalı ve her adımın sahibi takvimde görünmelidir. Böylece üretim dalgalanması ve gecikmeler azalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [içerik üretiminde AI ve insan editörlük dengesi](/tr/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi) kritik hale gelir; çünkü taslak üretimi hızlansa bile marka tonu, doğruluk kontrolü, örnek kalitesi ve editoryal karar mekanizması insan denetimi olmadan sürdürülebilir olmaz."
           },
           {
             "type": "media",
@@ -42867,6 +42956,10 @@
             "text": "Burada raporlama araçları (ör. Google Search Console ve Google Analytics / GA4) yalnız “veri” üretmez; takvimi besleyen kararları üretir: güncelleme mi yapılacak, içerik mi genişleyecek, cluster mı güçlenecek?"
           },
           {
+            "type": "p",
+            "text": "Karar verici tarafında ise [içerik operasyonunun satış dönüşüm etkisi](/tr/raporlama/satis-donusum) görünür olmalıdır; çünkü yayınlanan içeriklerin lead, form, satış veya rezervasyon katkısı ölçülmediğinde takvim yalnız üretim listesi gibi kalır."
+          },
+          {
             "type": "h3",
             "text": "İlk 30 günde yapılacaklar listesi"
           },
@@ -42922,18 +43015,22 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu ritim özellikle [otel dijital pazarlamada içerik takvimi](/tr/otel-dijital-pazarlama) planlarında değerlidir; çünkü sezonluk kampanyalar, destinasyon görünürlüğü, sosyal/SEO içerik akışı ve rezervasyon hedefleri aynı yayın sistemine bağlandığında ekipler daha öngörülebilir hareket eder."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Editoryal Takvim Excel/Sheets Şablonunu İndir",
             "text": "Takvim sütunlarını, durum akışını ve sorumlulukları hazır formatta kullanıp 1 günde operasyonu başlatmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/editorial-takvim-excel-sheets-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Editoryal Takvim & İçerik Operasyon Analizi Talep Et",
             "text": "İçerik üretim dalgalanmasını azaltmak, rol/süreçleri netleştirmek ve SEO’da tutarlı otorite inşa etmek isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -43007,6 +43104,10 @@
             ],
             "href": "/downloads/editorial-takvim-excel-sheets-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberden sonra [profesyonel İçerik SEO ve içerik operasyon süreci](/tr/seo/icerik-seo) ile sistemi daha kontrollü hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından takvim, brief, editörlük ve performans döngüsü detaylarına geçebilirsiniz."
           }
         ]
       }
@@ -43078,7 +43179,7 @@
   },
 
    "BlogEEATVeIcerikUretimiGuvenVeOtoriteNasilGosterilir": {
-    "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite",
+    "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
     "slug": "e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir",
     "department": "seo",
     "subDepartment":"content",
@@ -43088,7 +43189,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "E-E-A-T nedir? Yazar kutusu, gerçek deneyim/case, güvenilir kaynaklar ve şeffaf iletişimle içerikte otoriteyi gösterin. Turizm/B2B örnekleriyle uygulayın.",
     "seo": {
-      "metaTitle": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite | DGTLFACE",
+      "metaTitle": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir? | DGTLFACE",
       "metaDescription": "E-E-A-T nedir? Yazar kutusu, gerçek deneyim/case, güvenilir kaynaklar ve şeffaf iletişimle içerikte otoriteyi gösterin. Turizm/B2B örnekleriyle uygulayın."
     },
     "blueprint": {
@@ -43126,7 +43227,7 @@
     },
     "h1": {
       "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
-      "intro": "İçerik SEO’da “iyi yazı” tek başına yetmeyebilir. Özellikle hizmet satın alma, destek alma, rezervasyon yapma gibi yüksek bütçeli veya yüksek riskli kararlarda kullanıcı şunu sorar: Bu yazıyı kim yazdı, nereden biliyor, bu ekip gerçek mi? Bu yüzden güven, yalnızca metnin doğruluğu değil; metnin arkasındaki insan + deneyim + şeffaflık sistemidir. Google tarafında E-E-A-T, kalite değerlendirmelerinde kullanılan bir çerçeve olarak anlatılır; kalite değerlendiriciler (quality raters) içeriklerin E-E-A-T göstergelerine bakarak sayfa kalitesini değerlendirir. Ayrıca E-E-A-T’nin bir “puan” ya da doğrudan “tek bir sıralama faktörü” olmadığı; ancak içerik kalitesiyle örtüşen sinyallerin önemli olduğu vurgulanır.",
+      "intro": "[E-E-A-T içerik SEO](/tr/seo/icerik-seo) yaklaşımında “iyi yazı” tek başına yetmeyebilir. Özellikle hizmet satın alma, destek alma, rezervasyon yapma gibi yüksek bütçeli veya yüksek riskli kararlarda kullanıcı şunu sorar: Bu yazıyı kim yazdı, nereden biliyor, bu ekip gerçek mi? Bu yüzden güven, yalnızca metnin doğruluğu değil; metnin arkasındaki insan + deneyim + şeffaflık sistemidir. Google tarafında E-E-A-T, kalite değerlendirmelerinde kullanılan bir çerçeve olarak anlatılır; kalite değerlendiriciler (quality raters) içeriklerin E-E-A-T göstergelerine bakarak sayfa kalitesini değerlendirir. Ayrıca E-E-A-T’nin bir “puan” ya da doğrudan “tek bir sıralama faktörü” olmadığı; ancak içerik kalitesiyle örtüşen sinyallerin önemli olduğu vurgulanır.",
       "quickSummary": [
         "1) E-E-A-T’yi tek sayfa değil, içerik + site geneli güven sistemi olarak ele alın",
         "2) Yazar kutusu, uzman incelemesi ve güncelleme bilgisini standartlaştırın",
@@ -43137,47 +43238,63 @@
       "ctaPrimary": {
         "label": "E-E-A-T & İçerik Güven Analizi Talep Et",
         "text": "Turizm/B2B içeriklerinizde güven sinyallerini görünür kılıp dönüşüm yolculuğunu güçlendirmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "E-E-A-T & İçerik Güven Analizi Talep Et",
         "text": "Turizm/B2B içeriklerinde güven sinyallerini standardize etmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "E-E-A-T Sinyalleri Kontrol Listesini İndir",
         "text": "Her içerikte minimum güven sinyal setini hızlıca doğrulamanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/e-e-a-t-sinyalleri-kontrol-listesi-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
       },
       {
         "label": "KVKK ve veri güvenliği raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "label": "Veri, istatistik ve örneklerle içerik zenginleştirme",
+        "href": "/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme"
+      },
+      {
+        "label": "Dijital Ayak İzi ve Local E-E-A-T",
+        "href": "/tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
+      },
+      {
+        "label": "AEO advanced içerik stratejisi",
+        "href": "/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
-        "href": "/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+        "title": "Veri, İstatistik ve Örneklerle İçerik Zenginleştirme",
+        "href": "/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme"
       },
       {
         "title": "Dijital Ayak İzi ve Local E-E-A-T: Otel ve Yerel İşletmeler İçin Güven Sinyalleri",
-        "href": "/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
+        "href": "/tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin"
       }
     ],
     "sections": [
@@ -43188,6 +43305,10 @@
           {
             "type": "p",
             "text": "E-E-A-T’yi “SEO checklist” gibi görmek yanıltıcı olur. Çünkü güven sinyali; yalnızca sayfaya bir kutu eklemekle değil, içerik ve site genelinde tutarlı bir resim çizmekle oluşur: aynı uzman adı, aynı yöntem dili, aynı düzeltme yaklaşımı, aynı referans standardı. Google Search Central, “helpful content / people-first content” yaklaşımında “Who/How/Why (Kim/Nasıl/Neden)” gibi soruları öne çıkararak bu şeffaflık çerçevesini destekler."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı [SEO hizmetleri içinde güven odaklı içerik üretimi](/tr/seo-hizmetleri) olarak değerlendirmek gerekir; çünkü güvenilir içerik yalnız iyi yazılmış metin değil, uzmanlık, kaynak, veri, editörlük ve teknik doğruluğun birlikte çalıştığı bir standarttır."
           },
           {
             "type": "p",
@@ -43285,6 +43406,10 @@
           {
             "type": "p",
             "text": "Yazar kutusu tek başına “sıralamayı büyüten” sihirli bir etiket değildir; ama güven ve şeffaflık sinyalini güçlendirerek kullanıcı deneyimini iyileştirir. Kalite değerlendirmelerinde içerik üreticisinin “kim” olduğu ve içerik üretim sürecinin şeffaflığı önemsenir. Bu yüzden yazar bilgisi, özellikle rekabetli ve güven gerektiren konularda içerik kalitesini daha görünür hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [yazar kutusu SEO etkisi](/tr/seo/blog/dijital-ayak-izi-ve-local-e-e-a-t-otel-ve-isletmeler-icin) doğrudan sıralama garantisi gibi değil; uzmanlığı, marka geçmişini ve güven sinyallerini görünür kılan daha geniş bir dijital ayak izi standardının parçası olarak okunmalıdır."
           },
           {
             "type": "h3",
@@ -43431,6 +43556,10 @@
             "text": "Her içerik akademik makale gibi kaynakça taşımaz; ancak kullanıcı riskinin yüksek olduğu konularda doğrulanabilirlik güveni ciddi artırır. Kaynak göstermek; iddiayı abartmadan çerçevelemeyi, güncelliği belirtmeyi ve kullanıcıya “kontrol edebilirsin” mesajı vermeyi sağlar. Bu yaklaşım, uzun vadede güven ve kalite algısını güçlendirir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [referans kaynak göstermek önemli mi](/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme) sorusu yalnız editoryal tercih değil; veri, istatistik, örnek ve kanıt kullanımının içerik güvenini nasıl yükselttiğini belirleyen operasyon standardıdır."
+          },
+          {
             "type": "table",
             "caption": "Tablo: E-E-A-T sinyallerini özetleyen tablo",
             "headers": [
@@ -43517,6 +43646,10 @@
             "text": "Bu sayfalar “tek başına sıralama artıran” sayfalar gibi düşünülmemeli; fakat güven ve şeffaflık için kritik destek katmanıdır. Kullanıcıların ve kalite değerlendirmelerinin “siteyi kim yönetiyor, nasıl ulaşılır” sorularını cevaplaması, içeriklerin güven algısını yükseltir. Özellikle hizmet ve yüksek riskli konularda bu etki daha görünür olur."
           },
           {
+            "type": "p",
+            "text": "Aynı nedenle [içerikte veri güvenliği ve KVKK hassasiyeti](/tr/raporlama/kvkk-veri-guvenligi) görünür olmalıdır; çünkü müşteri örnekleri, referanslar, form alanları ve veri kullanımı şeffaf yönetilmediğinde güven sinyali içerik seviyesinde zayıflayabilir."
+          },
+          {
             "type": "h3",
             "text": "Trust sayfaları için minimum paket"
           },
@@ -43577,6 +43710,10 @@
             "text": "AIO açısından E-E-A-T’yi bir “güven grafiği” gibi düşün: Yazar (kim) → Uzmanlık (neden) → Deneyim/case (kanıt) → Kaynak (doğrulama) → Trust sayfaları (şeffaflık) → Kullanıcı aksiyonu (dönüşüm). Bu grafikte bir halka zayıfsa, kullanıcı yolculuğu kırılır: mükemmel rehber yazarsınız ama iletişim yoksa güven düşer; güçlü ekip vardır ama içerik güncel değilse güven düşer; case vardır ama kaynak/şeffaflık yoksa soru işareti kalır."
           },
           {
+            "type": "p",
+            "text": "Bu mantık aynı zamanda [cevap motorları için güvenilir içerik](/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi) üretmenin temelidir; çünkü cevap motorları ve chat arayüzleri net, kaynaklı, şeffaf ve yapılandırılmış içeriği daha güvenle öne çıkarabilir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -43617,18 +43754,22 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yapı özellikle [otel dijital pazarlamada güven odaklı içerik](/tr/otel-dijital-pazarlama) planlarında değerlidir; çünkü marka otoritesi, yorumlar, kampanya güveni ve rezervasyon kararı çoğu zaman içeriğin ne kadar şeffaf ve kanıtlı göründüğüne bağlı olarak şekillenir."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "E-E-A-T Sinyalleri Kontrol Listesini İndir",
             "text": "Her içerikte hangi güven sinyallerinin görünür olması gerektiğini 5 dakikada kontrol etmenizi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/e-e-a-t-sinyalleri-kontrol-listesi-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "E-E-A-T & İçerik Güven Analizi Talep Et",
             "text": "Yazar kutusu, case dili, kaynak standardı ve trust sayfalarıyla site genelinde güven grafiğini kurmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -43682,6 +43823,10 @@
             ],
             "href": "/downloads/e-e-a-t-sinyalleri-kontrol-listesi-v1.0.pdf",
             "buttonLabel": "Kontrol Listesini İndir"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberden sonra [profesyonel İçerik SEO ve E-E-A-T stratejisi](/tr/seo/icerik-seo) ile yapıyı daha sistematik hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından yazar kutusu, kaynak standardı ve güven sinyalleri detaylarına geçebilirsiniz."
           }
         ]
       }
@@ -43759,7 +43904,7 @@
   },
 
   "BlogEntityVeAnlamsalSEOIcerikteVarlikOdakliYapisalYaklasim": {
-    "title": "Entity ve Anlamsal SEO: Varlık Odaklı İçerik",
+    "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
     "slug": "entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim",
     "department": "seo",
     "subDepartment":"content",
@@ -43769,7 +43914,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Entity nedir, anahtar kelimeden farkı nedir? Anlamsal SEO ile varlık/kavram ağını çıkarın, içerikte kapsayın; schema ve iç linklerle güçlendirin.",
     "seo": {
-      "metaTitle": "Entity ve Anlamsal SEO: Varlık Odaklı İçerik | DGTLFACE",
+      "metaTitle": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım | DGTLFACE",
       "metaDescription": "Entity nedir, anahtar kelimeden farkı nedir? Anlamsal SEO ile varlık/kavram ağını çıkarın, içerikte kapsayın; schema ve iç linklerle güçlendirin."
     },
     "blueprint": {
@@ -43807,7 +43952,7 @@
     },
     "h1": {
       "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
-      "intro": "Bir içerik “anahtar kelimeyi” yakalayıp yine de istediğiniz stabil görünürlüğü getirmeyebilir. Çünkü rekabetli konularda asıl fark, tek kelimeyi kaç kez kullandığınız değil; konunun kavram alanını (topic space) ne kadar doğru ve bütünlüklü işlediğinizdir. Arama motorları, özellikle Google tarafında, sayfaları “bir kelime” üzerinden değil; varlıklar ve ilişkiler üzerinden anlamlandırmaya çalışır: konu nedir, hangi alt kavramlarla bağlıdır, hangi soruları kapsar, hangi sayfalarla ilişkilidir? Bu rehberde; entity (varlık) nedir, keyword’den farkı nedir, anlamsal SEO içerikte neyi değiştirir, entity haritası nasıl çıkarılır ve bunu schema + internal linking ile nasıl pekiştirirsiniz sorularını otel ve B2B örnekleriyle netleştireceğiz.",
+      "intro": "Bir içerik “anahtar kelimeyi” yakalayıp yine de istediğiniz stabil görünürlüğü getirmeyebilir. Çünkü rekabetli konularda asıl fark, tek kelimeyi kaç kez kullandığınız değil; konunun kavram alanını (topic space) ne kadar doğru ve bütünlüklü işlediğinizdir. Arama motorları, özellikle Google tarafında, sayfaları “bir kelime” üzerinden değil; varlıklar ve ilişkiler üzerinden anlamlandırmaya çalışır: konu nedir, hangi alt kavramlarla bağlıdır, hangi soruları kapsar, hangi sayfalarla ilişkilidir? Bu rehberde; [entity nedir SEO](/tr/seo/icerik-seo), keyword’den farkı nedir, anlamsal SEO içerikte neyi değiştirir, entity haritası nasıl çıkarılır ve bunu schema + internal linking ile nasıl pekiştirirsiniz sorularını otel ve B2B örnekleriyle netleştireceğiz.",
       "quickSummary": [
         "1) Anahtar kelime yerine önce ana entity’yi netleştir",
         "2) İlgili varlık/kavram ağını çıkar ve topic space’i tanımla",
@@ -43818,47 +43963,63 @@
       "ctaPrimary": {
         "label": "Entity & Semantic İçerik Analizi Talep Et",
         "text": "Konu otoritesini entity kapsamasıyla güçlendirmek isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Entity & Semantic İçerik Analizi Talep Et",
         "text": "Rekabetli konularda entity kapsamasıyla daha stabil görünürlük isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Entity Haritası ve Kavram Listesi Şablonunu İndir",
         "text": "Her içerik için ilgili varlık/kavram ağını çıkarıp başlık mimarisine dağıtmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/entity-haritasi-ve-kavram-listesi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
-      },
-      {
-        "label": "Teknik SEO hizmet sayfası",
-        "href": "/seo/teknik-seo"
-      },
-      {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Topic cluster ve content hub mimarisi",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+      },
+      {
+        "label": "FAQ / SSS içerik stratejisi",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
+      },
+      {
+        "label": "AEO advanced içerik stratejisi",
+        "href": "/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
+      },
+      {
+        "label": "Teknik SEO hizmet sayfası",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
-        "href": "/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
+        "title": "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
       },
       {
-        "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
-        "href": "/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+        "title": "FAQ / SSS İçerik Stratejisi ve FAQ Schema Kullanımı",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
       }
     ],
     "sections": [
@@ -43869,6 +44030,10 @@
           {
             "type": "p",
             "text": "Anahtar kelime, kullanıcının yazdığı ifadedir; entity ise arama motorunun “gerçek dünyadaki varlık” olarak yorumladığı kavram/nesne/yer/organizasyon setidir. Bu ayrım içerik üretiminde kritik bir dönüşüm yaratır: keyword odaklı içerik “ifadeyi” kovalar; entity odaklı içerik “anlamı ve bağları” kurar."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, [SEO hizmetleri içinde anlamsal içerik mimarisi](/tr/seo-hizmetleri) konuşulurken neden yalnız kelime eşleşmesine değil; konu ilişkilerine, schema katmanına ve kullanıcı niyetine de bakıldığını netleştirir."
           },
           {
             "type": "h3",
@@ -44043,7 +44208,7 @@
           },
           {
             "type": "p",
-            "text": "Entity haritası çıkarmak için ana konuyu (entity) yazın, sonra ilgili varlıkları ve kavramları (alt varlıklar, süreçler, metrikler, araçlar) listeleyin ve bunları içerik başlıklarına dağıtın. Her varlığa bir “amaç” atayın: tanım, örnek, süreç, ölçüm veya karar. Son adımda schema ve internal link hedefleriyle bu varlıkları sayfa dışı bağlara bağlayın."
+            "text": "Entity haritası çıkarmak için ana konuyu (entity) yazın, sonra ilgili varlıkları ve kavramları (alt varlıklar, süreçler, metrikler, araçlar) listeleyin ve bunları içerik başlıklarına dağıtın. Her varlığa bir “amaç” atayın: tanım, örnek, süreç, ölçüm veya karar. Son adımda schema ve internal link hedefleriyle bu varlıkları sayfa dışı bağlara bağlayın. Bu adımı daha sistematik kurmak için [entity tabanlı topic cluster mimarisi](/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi) yaklaşımı iyi bir referans noktasıdır."
           },
           {
             "type": "h3",
@@ -44117,7 +44282,11 @@
           },
           {
             "type": "p",
-            "text": "Schema ile sayfanın türünü ve soru-cevap bloklarını netleştirerek içeriğin yapısını makine-okur hale getirirsiniz; bu, entity ilişkilerinin daha anlaşılır olmasına yardım eder. Internal linklerle de ana entity’yi hub sayfaya bağlar, ilgili alt kavramları cluster içeriklere dağıtır ve kullanıcıyı mantıklı bir yolculuğa sokarsınız. Böylece hem anlam hem otorite akışı aynı anda güçlenir."
+            "text": "Schema ile sayfanın türünü ve soru-cevap bloklarını netleştirerek içeriğin yapısını makine-okur hale getirirsiniz; bu, entity ilişkilerinin daha anlaşılır olmasına yardım eder. Internal linklerle de ana entity’yi hub sayfaya bağlar, ilgili alt kavramları cluster içeriklere dağıtır ve kullanıcıyı mantıklı bir yolculuğa sokarsınız. Böylece hem anlam hem otorite akışı aynı anda güçlenir. Özellikle [FAQ schema ile anlamsal içerik](/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi), kullanıcı sorularını entity ilişkileriyle birlikte kapsamak için güçlü bir tamamlayıcıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapının teknik tarafta sağlıklı çalışması için [entity ve schema teknik SEO ilişkisi](/tr/seo/teknik-seo) doğru kurulmalı; aynı zamanda açık tanımlar, net ilişki ağları ve kaynaklı açıklamalar üretmek isteyen ekipler için [cevap motorları için entity tabanlı içerik](/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi) yaklaşımı da önemli bir devam katmanı sunar."
           },
           {
             "type": "callout",
@@ -44155,7 +44324,7 @@
           },
           {
             "type": "p",
-            "text": "Antalya gibi bir destinasyon, tek başına “şehir adı” değil; birçok alt varlığın bağlandığı bir kavram alanıdır: sezon, konaklama tipleri, teklif akışları, rezervasyon kanalları, yorum/puan, yerel aramalar vb. İçerikte bu kavramları doğru bölümlemeyle işlediğinizde “tek kelimeye abanma” yerine anlam genişliği yakalarsınız."
+            "text": "Antalya gibi bir destinasyon, tek başına “şehir adı” değil; birçok alt varlığın bağlandığı bir kavram alanıdır: sezon, konaklama tipleri, teklif akışları, rezervasyon kanalları, yorum/puan, yerel aramalar vb. İçerikte bu kavramları doğru bölümlemeyle işlediğinizde “tek kelimeye abanma” yerine anlam genişliği yakalarsınız. Bu model, [otel SEO’da entity yaklaşımı](/tr/otel/seo) kurgulanırken oda tipi, tesis özelliği, lokasyon ve kullanıcı niyeti gibi varlıkların birlikte ele alınmasını da kolaylaştırır."
           },
           {
             "type": "h3",
@@ -44264,14 +44433,14 @@
             "variant": "secondary",
             "label": "Entity Haritası ve Kavram Listesi Şablonunu İndir",
             "text": "Her içerik için entity setini 10 dakikada çıkarıp başlıklara dağıtmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/entity-haritasi-ve-kavram-listesi-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Entity & Semantic İçerik Analizi Talep Et",
             "text": "Entity kapsaması, schema ve iç linklerle konu otoritesini sistematik güçlendirmek isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -44333,6 +44502,10 @@
             ],
             "href": "/downloads/entity-haritasi-ve-kavram-listesi-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberden sonra [profesyonel İçerik SEO ve anlamsal içerik stratejisi](/tr/seo/icerik-seo) ile yapıyı daha sistematik hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından entity haritalama, schema ve topic cluster detaylarına geçebilirsiniz."
           }
         ]
       }
@@ -44410,7 +44583,7 @@
   },
 
   "BlogUzunFormVeKisaFormIcerikStratejisiNeZamanHangisi": {
-  "title": "Long-Form mı Short-Form mı? İçerik Uzunluğu",
+  "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
   "slug": "uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi",
   "department": "seo",
   "subDepartment":"content",
@@ -44420,7 +44593,7 @@
   "author": "DGTLFACE Editorial",
   "excerpt": "Uzun içerik mi kısa içerik mi? Sihirli kelime sayısı yok. SERP yapısı, arama niyeti ve bilgi ihtiyacına göre long-form rehber mi quick answer mı seçeceğinizi öğrenin.",
   "seo": {
-    "metaTitle": "Long-Form mı Short-Form mı? İçerik Uzunluğu | DGTLFACE",
+    "metaTitle": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız? | DGTLFACE",
     "metaDescription": "Uzun içerik mi kısa içerik mi? Sihirli kelime sayısı yok. SERP yapısı, arama niyeti ve bilgi ihtiyacına göre long-form rehber mi quick answer mı seçeceğinizi öğrenin."
   },
   "blueprint": {
@@ -44460,7 +44633,7 @@
   },
   "h1": {
     "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
-    "intro": "“Uzun içerik daha iyi” veya “kısa içerik daha iyi” gibi tek cümlelik kurallar, pratikte sizi yanlış yere götürür. Çünkü SEO’da uzunluk, tek başına bir hedef değil; değer yoğunluğunun (kullanıcının ihtiyacını karşılayan bilgi miktarı) bir sonucudur. Bazı SERP’ler kapsamlı rehberleri ödüllendirirken, bazıları kısa net cevapları ve SSS formatını daha uygun bulur. Bu rehberde, içerik uzunluğunu SERP + intent + davranış ile belirleyen bir karar sistemi kuracağız; otel ve hizmet siteleri için örneklerle netleştireceğiz.",
+    "intro": "“Uzun içerik daha iyi” veya “kısa içerik daha iyi” gibi tek cümlelik kurallar, pratikte sizi yanlış yere götürür. Çünkü SEO’da uzunluk, tek başına bir hedef değil; değer yoğunluğunun (kullanıcının ihtiyacını karşılayan bilgi miktarı) bir sonucudur. Bazı SERP’ler kapsamlı rehberleri ödüllendirirken, bazıları kısa net cevapları ve SSS formatını daha uygun bulur. Bu rehberde, [uzun içerik mi kısa içerik mi](/tr/seo/icerik-seo) kararını SERP + intent + davranış ile belirleyen bir sistem kuracağız; otel ve hizmet siteleri için örneklerle netleştireceğiz.",
     "quickSummary": [
       "1) İçerik uzunluğu için sihirli kelime sayısı yoktur",
       "2) Karar SERP formatı, intent ve alt soru sayısıyla verilmelidir",
@@ -44471,43 +44644,63 @@
     "ctaPrimary": {
       "label": "Long/Short İçerik Strateji Analizi Talep Et",
       "text": "Konu bazında doğru formatı seçip cannibalisation’ı azaltmak isteyen otel ve ajans ekipleri için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Long/Short İçerik Strateji Analizi Talep Et",
       "text": "SERP ve intent’e göre doğru formatı seçip içerik yatırımını verimli yapmak isteyen ekipler için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     },
     "secondary": {
       "label": "Long-Form vs Short-Form İçerik Karar Şablonunu İndir",
       "text": "Format kararını SERP sinyali ve kapsam kriterleriyle standartlaştırmanızı sağlar.",
-      "href": "/seo/icerik-seo"
+      "href": "/downloads/long-form-vs-short-form-icerik-karar-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "İçerik SEO hizmet sayfası",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     },
     {
       "label": "SEO hizmetleri",
-      "href": "/seo-hizmetleri"
+      "href": "/tr/seo-hizmetleri"
+    },
+    {
+      "label": "Search intent analizi ve içerik haritalama",
+      "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
+    },
+    {
+      "label": "Veri, istatistik ve örneklerle içerik zenginleştirme",
+      "href": "/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme"
+    },
+    {
+      "label": "Evergreen ve sezonluk içerik stratejisi",
+      "href": "/tr/seo/blog/evergreen-ve-sezonluk-icerik-stratejisi"
     },
     {
       "label": "SEO raporlama",
-      "href": "/seo/seo-raporlama"
+      "href": "/tr/seo/seo-raporlama"
+    },
+    {
+      "label": "Otel SEO hizmet sayfası",
+      "href": "/tr/otel/seo"
+    },
+    {
+      "label": "İçerik SEO SSS",
+      "href": "/tr/seo/icerik-seo-sss"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
-      "href": "/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
+      "title": "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+      "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
     },
     {
-      "title": "İçerik SEO Nedir? Arama Niyeti ve Sayfa Mimarisi Nasıl Kurulur?",
-      "href": "/seo/icerik-seo"
+      "title": "Evergreen ve Sezonluk İçerik Stratejisi",
+      "href": "/tr/seo/blog/evergreen-ve-sezonluk-icerik-stratejisi"
     }
   ],
   "sections": [
@@ -44522,6 +44715,10 @@
         {
           "type": "p",
           "text": "Long-form içerik, genellikle bir konunun “rehber” mantığında kapsamlı ele alındığı, alt soruların da kapatıldığı formatı ifade eder. Short-form ise tek bir soruya hızlı, net cevap veren; çoğu zaman SSS/quick answer veya kısa rehber formatında hazırlanmış içeriklerdir. Burada kritik nokta, long-form’un “uzun” olduğu için değerli olmaması; short-form’un “kısa” olduğu için yetersiz sayılmamasıdır. Değer, uzunluktan değil ihtiyacı karşılamadan gelir."
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden [SEO hizmetleri içinde içerik uzunluğu stratejisi](/tr/seo-hizmetleri) konuşulurken yalnız kelime sayısına değil; arama niyetine, SERP formatına, konu derinliğine ve kullanıcı beklentisine birlikte bakmak gerekir."
         },
         {
           "type": "h3",
@@ -44627,7 +44824,7 @@
         },
         {
           "type": "p",
-          "text": "Önce SERP’teki kazanan formatı belirleyin: rehber mi, liste mi, quick answer mı? Sonra kullanıcının bilgi ihtiyacını çıkarın: kaç alt soru var, karar karmaşık mı, örnek/şema gerekiyor mu? En son cannibalisation riskini kontrol edin: aynı konuyu başka URL’de zaten kapsamlı anlatıyorsanız, ikinci bir long-form açmak yerine destekleyici kısa içerik üretin."
+          "text": "Önce SERP’teki kazanan formatı belirleyin: rehber mi, liste mi, quick answer mı? Sonra kullanıcının bilgi ihtiyacını çıkarın: kaç alt soru var, karar karmaşık mı, örnek/şema gerekiyor mu? En son cannibalisation riskini kontrol edin: aynı konuyu başka URL’de zaten kapsamlı anlatıyorsanız, ikinci bir long-form açmak yerine destekleyici kısa içerik üretin. Bu karar setini daha sistematik kurmak için [search intent’e göre içerik uzunluğu](/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama) yaklaşımı iyi bir başlangıç noktasıdır."
         },
         {
           "type": "h3",
@@ -44684,7 +44881,7 @@
         },
         {
           "type": "p",
-          "text": "Uzunluğu artırmak kolay; değeri artırmak zordur. Değer yoğunluğu, şu soruyla ölçülür: “Kullanıcı bu sayfada, aradığı cevabı ve bir sonraki adımı buluyor mu?” Eğer bulmuyorsa, 1000 kelime daha eklemek çözüm değildir."
+          "text": "Uzunluğu artırmak kolay; değeri artırmak zordur. Değer yoğunluğu, şu soruyla ölçülür: “Kullanıcı bu sayfada, aradığı cevabı ve bir sonraki adımı buluyor mu?” Eğer bulmuyorsa, 1000 kelime daha eklemek çözüm değildir. Özellikle [veriyle zenginleştirilmiş long-form içerik](/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme), yalnız hacim değil kanıt, örnek, istatistik ve açıklayıcı çerçeve ürettiğinde gerçekten güç kazanır."
         },
         {
           "type": "h3",
@@ -44798,6 +44995,14 @@
           ]
         },
         {
+          "type": "p",
+          "text": "Bu ayrım, [evergreen ve sezonluk içerik uzunluğu](/tr/seo/blog/evergreen-ve-sezonluk-icerik-stratejisi) planlanırken daha da görünür hale gelir; çünkü yıl boyu değer taşıyan rehber içerikler ile kampanya, sezon ve duyuru odaklı sayfalar aynı derinlik ihtiyacıyla yönetilmez."
+        },
+        {
+          "type": "p",
+          "text": "Sektörel tarafta da [otel SEO’da long-form ve short-form içerik](/tr/otel/seo) ayrımı önemlidir; destinasyon rehberleri, oda/tesis açıklamaları, kampanya sayfaları ve hızlı bilgi blokları farklı kullanıcı niyetlerine hizmet ettiği için formatları da farklı kurgulanmalıdır."
+        },
+        {
           "type": "h3",
           "text": "Technical SEO notu (row’dan)"
         },
@@ -44823,7 +45028,7 @@
         },
         {
           "type": "p",
-          "text": "SERP ve kullanıcı beklentileri değiştikçe aynı konu için ideal format da değişebilir; bu yüzden içerikler periyodik olarak yeniden değerlendirilmelidir. Yeni SERP özellikleri (video, snippet, AI cevaplar) format kararlarını etkiledikçe strateji örneklerini güncellemek gerekir."
+          "text": "SERP ve kullanıcı beklentileri değiştikçe aynı konu için ideal format da değişebilir; bu yüzden içerikler periyodik olarak yeniden değerlendirilmelidir. Yeni SERP özellikleri (video, snippet, AI cevaplar) format kararlarını etkiledikçe strateji örneklerini güncellemek gerekir. Bu güncelleme döngüsünü düzenli [içerik uzunluğu SEO etkisi](/tr/seo/seo-raporlama) takibiyle desteklemek; gösterim, tıklama, etkileşim ve dönüşüm farklarını format bazında daha net okumayı sağlar."
         },
         {
           "type": "callout",
@@ -44900,14 +45105,18 @@
           "variant": "primary",
           "label": "Long/Short İçerik Strateji Analizi Talep Et",
           "text": "Konu bazında format seçimi, cannibalisation kontrolü ve içerik mimarisi planı isteyen ekipler için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         },
         {
           "type": "cta",
           "variant": "secondary",
-          "label": "Long-Form vs Short-Form İçerik Karar Şablonunu İndir",
-          "text": "SERP sinyali, intent ve kapsam kriterleriyle format kararını 5 dakikada vermenizi sağlar.",
-          "href": "/seo/icerik-seo"
+          "label": "İçerik SEO Hakkında Sık Sorulan Sorular",
+          "text": "Format seçimi, search intent, blog uzunluğu ve içerik süreciyle ilgili karar sorularını netleştirmek isteyenler için.",
+          "href": "/tr/seo/icerik-seo-sss"
+        },
+        {
+          "type": "p",
+          "text": "Bu rehberden sonra [profesyonel İçerik SEO ve içerik uzunluğu stratejisi](/tr/seo/icerik-seo) ile format kararını daha sistematik hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından long-form, short-form, search intent ve performans ölçümü detaylarına geçebilirsiniz."
         }
       ]
     }
