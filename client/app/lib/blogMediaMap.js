@@ -42793,6 +42793,408 @@ export const BLOG_MEDIA_MAP = {
       alt: "Organik→paid kreatif seti deliverables kartı + test planı + marka bağlamı",
       caption: "Organik→paid kreatif seti deliverables kartı + test planı + marka bağlamı"
     }
+  },
+
+  "etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari":{
+     banner: {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-1.webp",
+      alt: "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
+      caption: "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-2.webp",
+      alt: "Teaser→last call akışı + kitle segmentleri + kayıt stratejisi",
+      caption: "Teaser→last call akışı + kitle segmentleri + kayıt stratejisi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-3.webp",
+    alt: "Kitle seçimi + segment yönetimi + etkinlik reklam stratejisi bölümü",
+      caption: "Kitle seçimi + segment yönetimi + etkinlik reklam stratejisi bölümü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-4.webp",
+      alt: "VIP teklif + reminder/last call planı + zaman hassas kampanya bölümü",
+      caption: "VIP teklif + reminder/last call planı + zaman hassas kampanya bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-5.webp",
+      alt: "Zaman çizelgesi diyagramı + 4 dalga kampanya akışı + kayıt funnel’ı",
+      caption: "Zaman çizelgesi diyagramı + 4 dalga kampanya akışı + kayıt funnel’ı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-6.webp",
+      alt: "Etkinlik/webinar kampanya checklist’i + kitle mesaj timing kontrol listesi",
+      caption: "Etkinlik/webinar kampanya checklist’i + kitle mesaj timing kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-7.webp",
+      alt: "Kayıt CPL katılım oranı ve son 48 saat KPI paneli + performans takibi",
+      caption: "Kayıt CPL katılım oranı ve son 48 saat KPI paneli + performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-18/SMM4-18-8.webp",
+      alt: "Otel etkinliği ve B2B webinar kreatif örnekleri + mesaj şablonları kartı",
+      caption: "Otel etkinliği ve B2B webinar kreatif örnekleri + mesaj şablonları kartı"
+    }
+  },
+
+  "teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama":{
+     banner: {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-1.webp",
+      alt: "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
+      caption: "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-2.webp",
+      alt: "İndirim vs value-add vs paket karar haritası + reklam teklif kurgusu",
+      caption: "İndirim vs value-add vs paket karar haritası + reklam teklif kurgusu"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-3.webp",
+    alt: "Paket ve bundling teklifleri bölümü + fiyatlandırma stratejisi bağlamı",
+      caption: "Paket ve bundling teklifleri bölümü + fiyatlandırma stratejisi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-4.webp",
+      alt: "FOMO ve kıtlık mesajları bölümü + teklif psikolojisi bağlamı",
+      caption: "FOMO ve kıtlık mesajları bölümü + teklif psikolojisi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-5.webp",
+      alt: "Teklif kurgulama akışı: değer→ankraj→FOMO→landing uyumu diyagramı",
+      caption: "Teklif kurgulama akışı: değer→ankraj→FOMO→landing uyumu diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-6.webp",
+      alt: "Teklif kurgulama checklist’i + indirim value-add paket FOMO kontrol listesi",
+      caption: "Teklif kurgulama checklist’i + indirim value-add paket FOMO kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-7.webp",
+      alt: "VR CPA ROAS ve marj etkisi KPI paneli + kampanya performans kartı",
+      caption: "VR CPA ROAS ve marj etkisi KPI paneli + kampanya performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-19/SMM4-19-8.webp",
+      alt: "Otel ve B2B teklif kreatif mockup’ları + örnek mesaj setleri kartı",
+      caption: "Otel ve B2B teklif kreatif mockup’ları + örnek mesaj setleri kartı"
+    }
+  },
+
+  "dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji":{
+    banner: {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-1.webp",
+      alt: "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
+      caption: "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-2.webp",
+      alt: "Feed→template→dinamik kreatif akışı + remarketing modeli bağlamı",
+      caption: "Feed→template→dinamik kreatif akışı + remarketing modeli bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-3.webp",
+    alt: "Feed tasarımı ve katalog alanları bölümü + kurulum bağlamı",
+      caption: "Feed tasarımı ve katalog alanları bölümü + kurulum bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-4.webp",
+      alt: "Remarketing ve cross-sell senaryoları bölümü + dönüşüm bağlamı",
+      caption: "Remarketing ve cross-sell senaryoları bölümü + dönüşüm bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-5.webp",
+      alt: "Dinamik reklam akışı diyagramı: feed→template→reels/görsel + retargeting",
+      caption: "Dinamik reklam akışı diyagramı: feed→template→reels/görsel + retargeting"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-6.webp",
+      alt: "Dinamik reklam kurulum checklist’i + feed kalite ve event eşleşme kontrolü",
+      caption: "Dinamik reklam kurulum checklist’i + feed kalite ve event eşleşme kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-7.webp",
+      alt: "ROAS CVR ve feed hata oranı KPI paneli + DPA performans kartı",
+      caption: "ROAS CVR ve feed hata oranı KPI paneli + DPA performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-20/SMM4-20-8.webp",
+      alt: "Otel oda feed’i ve B2B paket feed’i dinamik kreatif mockup’ları",
+      caption: "Otel oda feed’i ve B2B paket feed’i dinamik kreatif mockup’ları"
+    }
+  },
+
+  "meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-1.webp",
+      alt: "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi",
+      caption: "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-2.webp",
+      alt: "Klasik kampanya ve Advantage+ farkı, kontrol noktaları ve KPI çerçevesi",
+      caption: "Klasik kampanya ve Advantage+ farkı, kontrol noktaları ve KPI çerçevesi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-3.webp",
+    alt: "Advantage+ türleri ve kullanım senaryoları, AI kampanya yaklaşımı",
+      caption: "Advantage+ türleri ve kullanım senaryoları, AI kampanya yaklaşımı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-4.webp",
+      alt: "Hibrit manuel+AI model ve kontrol kaybını önleme, optimizasyon rehberi",
+      caption: "Hibrit manuel+AI model ve kontrol kaybını önleme, optimizasyon rehberi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-5.webp",
+      alt: "Advantage+ test→ölçek akışı, sinyal-kreatif-bütçe döngüsü diyagramı",
+      caption: "Advantage+ test→ölçek akışı, sinyal-kreatif-bütçe döngüsü diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-6.webp",
+      alt: "Advantage+ ön koşul checklist’i, pixel CAPI kreatif ve event hacmi kontrolü",
+      caption: "Advantage+ ön koşul checklist’i, pixel CAPI kreatif ve event hacmi kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-7.webp",
+      alt: "CPA ROAS ve sinyal kalitesi paneli, otomasyon performans skor kartı",
+      caption: "CPA ROAS ve sinyal kalitesi paneli, otomasyon performans skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-21/SMM4-21-8.webp",
+      alt: "Hibrit manuel+AI kampanya planı deliverables, otel ve B2B kullanım",
+      caption: "Hibrit manuel+AI kampanya planı deliverables, otel ve B2B kullanım"
+    }
+  },
+
+  "click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji":{
+     banner: {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-1.webp",
+      alt: "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
+      caption: "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-2.webp",
+      alt: "Mesajlaşma-first funnel, gösterimden DM’ye dönüşüm akışı otel bağlamı",
+      caption: "Mesajlaşma-first funnel, gösterimden DM’ye dönüşüm akışı otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-3.webp",
+    alt: "Script ve SLA yönetimi, WhatsApp reklam operasyonu bölüm görsel",
+      caption: "Script ve SLA yönetimi, WhatsApp reklam operasyonu bölüm görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-4.webp",
+      alt: "CRM etiketleme ve takip, mesajlaşma reklamları süreç görseli",
+      caption: "CRM etiketleme ve takip, mesajlaşma reklamları süreç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-5.webp",
+      alt: "DM funnel diyagramı, gösterimden rezervasyona mesajlaşma dönüşümü",
+      caption: "DM funnel diyagramı, gösterimden rezervasyona mesajlaşma dönüşümü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-6.webp",
+      alt: "Messaging ads checklist’i, script SLA CRM KVKK kontrol listesi",
+      caption: "Messaging ads checklist’i, script SLA CRM KVKK kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-7.webp",
+      alt: "SLA ve DM dönüşüm KPI paneli, nitelikli lead ve rezervasyon takibi",
+      caption: "SLA ve DM dönüşüm KPI paneli, nitelikli lead ve rezervasyon takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-22/SMM4-22-8.webp",
+      alt: "Click-to-WhatsApp reklam mockup’ı, otel ve B2B mesaj şablonu örnekleri",
+      caption: "Click-to-WhatsApp reklam mockup’ı, otel ve B2B mesaj şablonu örnekleri"
+    }
+  },
+
+
+  "social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi":{
+     banner: {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-1.webp",
+      alt: "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+      caption: "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-2.webp",
+      alt: "Shop ve in-app checkout akışı, reklamdan satın almaya, otel ve B2B bağlamı",
+      caption: "Shop ve in-app checkout akışı, reklamdan satın almaya, otel ve B2B bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-3.webp",
+    alt: "Shop entegrasyonu ve ürün etiketi, uygulama içi satın alma, otel bağlamı",
+      caption: "Shop entegrasyonu ve ürün etiketi, uygulama içi satın alma, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-4.webp",
+      alt: "Otel ve B2B senaryoları, paket ve ek hizmet satışları, otel bağlamı",
+      caption: "Otel ve B2B senaryoları, paket ve ek hizmet satışları, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-5.webp",
+      alt: "Shop funnel diyagramı, etiket→checkout akışı, otel ve hizmet bağlam",
+      caption: "Shop funnel diyagramı, etiket→checkout akışı, otel ve hizmet bağlam"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-6.webp",
+      alt: "Social commerce checklist, ürün seçimi ve senkron kontrolü, otel bağlamı",
+      caption: "Social commerce checklist, ürün seçimi ve senkron kontrolü, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-7.webp",
+      alt: "In-app dönüşüm ve ROAS paneli, sürtünme azaltma, otel bağlamı",
+      caption: "In-app dönüşüm ve ROAS paneli, sürtünme azaltma, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-23/SMM4-23-8.webp",
+      alt: "Ürün/oda etiketli post ve reels mockup’ı, satış akışı, otel bağlamı",
+      caption: "Ürün/oda etiketli post ve reels mockup’ı, satış akışı, otel bağlamı"
+    }
+  },
+
+  "cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi":{
+    banner: {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-1.webp",
+      alt: "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
+      caption: "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-2.webp",
+      alt: "Browser ve server sinyal akışı, privacy dönüşümünde ölçüm çerçevesi",
+      caption: "Browser ve server sinyal akışı, privacy dönüşümünde ölçüm çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-3.webp",
+    alt: "Event önceliklendirme ve modelleme bölümü, privacy odaklı reklam ölçümü",
+      caption: "Event önceliklendirme ve modelleme bölümü, privacy odaklı reklam ölçümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-4.webp",
+      alt: "1st party veri ve CRM sinyali bölümü, cookieless dayanıklılık yaklaşımı",
+      caption: "1st party veri ve CRM sinyali bölümü, cookieless dayanıklılık yaklaşımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-5.webp",
+      alt: "Cookieless sinyal akışı diyagramı, browser server platform CRM bütünlüğü",
+      caption: "Cookieless sinyal akışı diyagramı, browser server platform CRM bütünlüğü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-6.webp",
+      alt: "Cookieless sinyal checklist’i, CAPI consent event ve CRM kontrol listesi",
+      caption: "Cookieless sinyal checklist’i, CAPI consent event ve CRM kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-7.webp",
+      alt: "Sinyal coverage ve CPA ROAS stabilite paneli, privacy dönemi KPI kartı",
+      caption: "Sinyal coverage ve CPA ROAS stabilite paneli, privacy dönemi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-24/SMM4-24-8.webp",
+      alt: "Event seti ve CAPI planı çıktıları, 1st party veri deliverables kartı",
+      caption: "Event seti ve CAPI planı çıktıları, 1st party veri deliverables kartı"
+    }
+  },
+
+
+  "ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi":{
+     banner: {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-1.webp",
+      alt: "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zekâ Kullanımı",
+      caption: "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zekâ Kullanımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-2.webp",
+      alt: "AI önerisi ve insan guardrail modeli, karar koridoru reklam bağlamı",
+      caption: "AI önerisi ve insan guardrail modeli, karar koridoru reklam bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-3.webp",
+    alt: "Learning phase ve sinyal ihtiyacı, AI optimizasyon rehberi bağlamı",
+      caption: "Learning phase ve sinyal ihtiyacı, AI optimizasyon rehberi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-4.webp",
+      alt: "Riskler ve kontrol mekanizmaları, bütçe yönetişimi bağlamı",
+      caption: "Riskler ve kontrol mekanizmaları, bütçe yönetişimi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-5.webp",
+      alt: "AI öneri guardrail insan onayı döngüsü, testten ölçeğe optimizasyon akışı",
+      caption: "AI öneri guardrail insan onayı döngüsü, testten ölçeğe optimizasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-6.webp",
+      alt: "AI bid ve bütçe checklist’i, guardrail ve kontrol noktaları otel bağlamı",
+      caption: "AI bid ve bütçe checklist’i, guardrail ve kontrol noktaları otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-7.webp",
+      alt: "CPA ROAS ve learning KPI paneli, AI optimizasyon performans takibi",
+      caption: "CPA ROAS ve learning KPI paneli, AI optimizasyon performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-25/SMM4-25-8.webp",
+      alt: "AI optimizasyon yönetişimi deliverables kartı, guardrail ve rapor çıktıları",
+      caption: "AI optimizasyon yönetişimi deliverables kartı, guardrail ve rapor çıktıları"
+    }
   }
 
   

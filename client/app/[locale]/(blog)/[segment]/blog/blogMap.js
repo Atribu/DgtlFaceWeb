@@ -387,7 +387,15 @@ export const BLOG_MAP = {
      "otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi":"BlogOtelVeTurizmMarkalariIcinSosyalMedyaReklamStratejisi",
      "b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak":"BlogB2BMarkalarIcinLinkedInVeMetaAdsStratejileriniBirliktePlanlamak",
      "kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama":"BlogKampanyaYapisiVeNamingConventionHesapHijyeniVeRaporlama",
-     "boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak":"BlogBoostMuDarkPostMuOrganikVeReklamIceriginiBirliktePlanlamak"
+     "boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak":"BlogBoostMuDarkPostMuOrganikVeReklamIceriginiBirliktePlanlamak",
+     "etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari":"BlogEtkinlikVeWebinarKayitKampanyalariIcinSosyalMedyaReklamlari",
+     "teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama":"BlogTeklifVeFiyatlandirmaPsikolojisiSosyalMedyaReklamlarindaTeklifKurgulama",
+     "dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji":"BlogDinamikReklamlarVeKatalogAdsOtelVeB2BUrunleriIcinFeedTabanliStrateji",
+     "meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi":"BlogMetaAdvantagePlusVeOtomasyonAiDestekliKampanyaStratejisi",
+     "click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji":"BlogClickToWhatsappVeMesajlasmaOdakliReklamlarIcinStrateji",
+     "social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi":"BlogSocialCommerceVeInAppCheckoutSosyalMedyaReklamlarindaSatinAlmaAkisi",
+     "cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi":"BlogCookielessVePrivacyDonusumundeSosyalMedyaReklamStratejisi",
+     "ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi":"BlogAiDestekliBidVeBudgetOptimisationSosyalMedyaReklamlarindaYapayZekaKullanimi"
   },
 
     yazilim: {

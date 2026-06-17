@@ -68750,6 +68750,1864 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari",
+
+      "headline": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
+
+      "name": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
+
+      "description": "Teaser→Launch→Reminder→Last Call akışıyla etkinlik/webinar kayıtlarını büyütme; kitle segmentasyonu, form/landing seçimi ve kayıt sonrası CRM nurturing planı.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Event Ads",
+
+        "Webinar Registration",
+
+        "Lead Generation",
+
+        "Nurturing",
+
+        "Time-Sensitive Funnels",
+
+        "CRM Integration"
+
+      ],
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari#article"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari#howto",
+
+      "name": "Etkinlik/Webinar Kayıt Kampanyası Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "4 dalga zaman çizelgesi oluştur",
+
+          "text": "Teaser, launch, reminder ve last call aşamalarını etkinlik tarihine göre planla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kitleyi segmentle ve mesajı uyarlа",
+
+          "text": "Cold/warm/hot segmentlere göre mesaj ve teklif kurgusunu değiştir; last call’ı hot kitleye odakla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kayıt sonrası nurturing akışını bağla",
+
+          "text": "Onay + takvime ekle + hatırlatma e-postaları ve CRM entegrasyonu ile katılımı artır; KVKK onayını doğru al."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
+
+          "item": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Webinar ve etkinlik kayıt reklamları nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanyayı teaser, launch, reminder ve last call olmak üzere 4 dalgada kurgulayın. Her dalgada kitle segmenti ve mesaj değişir; son 24–48 saatte hot remarketing’e odaklanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kitlelere, ne zaman reklam göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Teaser’da cold/LLA ile ilgi yaratın; launch ve reminder’da warm kitlelerle kayıt toplayın; last call’da hot kitleye (kayıt sayfası ziyaret/form start) yoğunlaşın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Webinar kayıtlarından sonra nurturing sürecini nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kayıt sonrası anında onay + takvime ekleme, 24–48 saat önce hatırlatma ve etkinlikten 1–2 saat önce kısa hatırlatma akışı kurun. Katılmayanlara replay/özet ile ikinci şans verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK açısından kayıt formlarında nelere dikkat edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aydınlatma metni ve açık rıza formda net olmalı; kayıtlar CRM/mailing list’e doğru alan eşleşmesiyle aktarılmalı ve izin bilgisi kayıt altına alınmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama",
+
+      "headline": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
+
+      "name": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
+
+      "description": "İndirim yerine value-add ve paket tekliflerini test et; fiyat ankrajı ve sınırlı süre/kıtlık mesajlarıyla hem kârlılığı hem dönüşüm oranını dengele. Teklif mesajını landing’de bire bir doğrula.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Offer Design",
+
+        "Pricing Psychology",
+
+        "Value-Add",
+
+        "Discount",
+
+        "Bundling",
+
+        "Scarcity",
+
+        "FOMO",
+
+        "Landing Page Consistency"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
+
+          "item": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reklamlarda yüzde indirim mi, ekstra değer mi daha etkilidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüzde indirim hızlı tepki verebilir ancak marjı düşürebilir; value-add algılanan değeri artırıp kârlılığı koruyabilir. En doğrusu A/B test edip CVR, CPA ve marj etkisiyle karar vermektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için paket teklifleri nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Paketi 3 maddeyle sade anlatın ve landing’de detaylandırın. Otelde konaklama+transfer/spa; B2B’de abonelik+onboarding/eğitim gibi. Paket değeri ankrajla desteklenebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "FOMO ve kıtlık mesajlarını nasıl kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "FOMO’yu sadece son 48–72 saat gibi belirli pencerelerde ve gerçekçi koşullarla kullanın. Süre ve koşullar landing’de bire bir doğrulanmalı; abartılı ve sürekli last-call dili güveni zedeler."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teklif ve fiyatı reklamdaki mesajla landing’de nasıl uyumlu tutarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reklamdaki teklif cümlesi landing’in ilk ekranında aynen yer almalı; koşullar, ek ücretler ve sözleşme detayları şeffaf olmalıdır. Tutarsızlık dönüşümü düşürür ve güven kaybı yaratır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji",
+
+      "headline": "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
+
+      "name": "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
+
+      "description": "Feed tabanlı dinamik reklamlarla, kullanıcının baktığı oda/ürün/paketi otomatik göster; kişiselleştirilmiş remarketing ve cross-sell kampanyalarıyla ROAS’ı yükselt. Feed kalitesi performans için kritiktir.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Dynamic Product Ads",
+
+        "Catalog Ads",
+
+        "Feeds",
+
+        "Personalised Remarketing",
+
+        "Room Packages",
+
+        "B2B Product Catalog",
+
+        "ROAS"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
+
+          "item": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dinamik reklam (DPA) nedir, nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DPA, katalog feed’inden ürün/oda/paket bilgilerini alıp kullanıcı davranışına göre otomatik reklam üretir. Akış feed→template→dinamik kreatiftir ve remarketing’te özellikle etkilidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel odaları için katalog/dinamik reklam kurulumu nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda/paket bazlı feed (id, title, image, url, price, availability) oluşturulur ve web event’leriyle eşleştirilir. Dinamik template ile abandoned view/booking remarketing kampanyaları kurulabilir; fiyat/müsaitlik doğruluğu kritiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "B2B ürün/hizmetleri için feed tabanlı reklam mümkün mü?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Plan/paket veya use-case bazlı katalog oluşturup, site etkileşimi olan kitleye dinamik olarak aynı paketleri gösterebilirsiniz. Starting at veya teklif al akışı landing’de net olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Feed kalitesi neden kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yanlış fiyat veya müsaitlik kullanıcı deneyimini bozar, dönüşümü düşürür ve hesap sağlığı riskini artırabilir. Düzenli QA ve güncelleme gereklidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi",
+
+      "headline": "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi",
+
+      "name": "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi",
+
+      "description": "Meta Advantage+ kampanyalarını sinyal altyapısı (pixel+CAPI), kreatif havuzu ve bütçe sınırları netken test+ölçek motoru olarak kullan; hibrit manuel+AI modelle kontrolü koru.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Meta Advantage+",
+
+        "Automation",
+
+        "AI Bidding",
+
+        "Signal Quality",
+
+        "Hybrid Campaign Strategy",
+
+        "Creative Diversity"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi",
+
+          "item": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Meta Advantage+ nedir, klasik kampanyalardan farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Advantage+ daha fazla hedefleme/placement/kreatif optimizasyon kararını AI’ye devrederek verim ve ölçek hedefler. Klasikte kontrol daha fazladır; Advantage+’ta kontrol noktaları doğru seçilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi durumlarda Advantage+ kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pixel+CAPI sinyali güçlü, event hacmi yeterli ve kreatif havuzu genişse; Advantage+’ı geniş kitlelerde test+ölçek motoru olarak kullanmak uygundur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otomasyon kullanırken kontrolü nasıl kaybetmem?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hibrit model kurun (manuel+AI), bütçe artışını kademeli yapın, health KPI’ları (frequency/fatigue/sinyal) izleyin ve ön koşul checklist ile riski azaltın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Minimum event hacmi neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI’nin öğrenmesi için yeterli dönüşüm sinyali gerekir; hacim yoksa optimizasyon rastgeleleşir, dalgalanma artar ve otomasyon kötü sinyali büyütebilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji",
+
+      "headline": "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
+
+      "name": "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
+
+      "description": "Click-to-WhatsApp ve messaging reklamlarında kreatif + script + hızlı yanıt (SLA) + CRM etiketleme funnel’ini birlikte kurgulayarak DM’leri gerçek lead ve rezervasyona çevirin.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Click-to-WhatsApp",
+
+        "Messaging Ads",
+
+        "DM Funnel",
+
+        "Script",
+
+        "SLA",
+
+        "CRM",
+
+        "Lead Tracking"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
+
+          "item": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Click-to-WhatsApp reklamları nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kullanıcı reklamı tıklayınca WhatsApp sohbeti açılır. Karşılama mesajı ve 3 soru akışıyla kullanıcı niteliklendirilir; ardından teklif/rezervasyon adımına yönlendirilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mesajlaşma script’ini nasıl yazmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Karşılama + 3 kısa soru + tek next step formatı en pratiktir. Otelde tarih/kişi/oda; B2B’de sektör/KPI/zamanlama soruları ile nitelik alın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "WhatsApp lead’lerini CRM’de nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Etiket/aşama sistemi kurun (NEW/QUALIFIED/OFFER/WON) ve CRM’de kaynak=WhatsApp Ads olarak kaydedin. UTM/kampanya adıyla rapor kırılımı alın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yanıt süresi (SLA) neden kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yanıt geciktikçe kullanıcı karar anını kaçırır ve talep boşa düşer. Hedef olarak iş saatlerinde hızlı yanıt (örn. 5–10 dakika bandı) dönüşümü anlamlı artırabilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi",
+
+      "headline": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+
+      "name": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+
+      "description": "Social commerce ve in-app checkout ile satın alma sürtünmesini azalt: Shop, ürün/oda etiketleri, uygun ürün seçimi, senkron stok/fiyat/iade yönetimi ve in-app vs web raporlama çerçevesi.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Social Commerce",
+
+        "In-App Checkout",
+
+        "Shop Integration",
+
+        "Product Tags",
+
+        "Catalog Ads",
+
+        "Low-Friction Buying",
+
+        "Inventory Sync"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+
+          "item": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Social commerce nedir, in-app checkout nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Social commerce, sosyal platformlarda ürün keşfini satın almaya bağlayan yaklaşımdır. In-app checkout’ta kullanıcı uygulama içinden ödemeyi tamamlayabilir; bu da adımları azaltarak dönüşümü artırabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi ürünleri sosyal medya içinden satmak mantıklı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Düşük biletli, net koşullu ve stok/müsaitliği yönetilebilir ürün ve paketler daha uygundur. Karmaşık ve çok seçenekli teklifler genelde web/DM akışında daha iyi çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için social commerce örnekleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde SPA paketi, transfer, gift card ve günübirlik paketler; B2B’de mini eğitim, template ve starter paket gibi ürünleşmiş teklifler iyi başlangıçtır. Oda gibi karmaşık ürünler çoğu zaman etiketten web akışına daha uygundur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Shop ve stok/oda sistemi entegrasyonunda nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat, stok/müsaitlik ve iade/iptal bilgilerinin senkron olması gerekir. Tutarsızlık kullanıcı güvenini düşürür; düzenli QA rutini ve raporlama ayrımı (in-app vs web) şarttır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi",
+
+      "headline": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
+
+      "name": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
+
+      "description": "Cookieless dünyada pixel sinyal kayıplarını CAPI, aggregated events, consent yönetimi ve 1st party veri/CRM stratejileriyle telafi ederek sosyal medya reklamlarını geleceğe dayanıklı kılın.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Cookieless",
+
+        "Privacy",
+
+        "Aggregated Events",
+
+        "Conversions API",
+
+        "Consent Mode",
+
+        "First Party Data",
+
+        "CRM"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        { "@type": "ListItem", "position": 4, "name": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi", "item": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Cookieless dönem sosyal medya reklamlarını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cookieless ve privacy kısıtları pixel sinyallerini azaltabilir; bu da ölçüm ve optimizasyonu zorlaştırır. CAPI, event önceliklendirme ve 1st party veri/CRM ile sinyal dayanıklılığı kurulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aggregated events ve modelleme ne demek?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Privacy kısıtları nedeniyle platformlar bazı dönüşümleri daha toplu/korumalı ölçer ve boşlukları modelleme ile tamamlamaya çalışır. Bu nedenle raporlar trend okumaya daha uygun, kesinliğe daha az uygundur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CAPI ve 1st party veri stratejisi neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CAPI server-side sinyal ekleyerek tarayıcı kayıplarını azaltır; 1st party veri/CRM listeleri ise hedefleme ve kalite kontrol için cookieless dönemde daha değerli hâle gelir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için privacy uyumlu reklam yapısı nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pixel+CAPI hibrit ölçüm, sade event seti, consent yönetimi, CRM listeleri ve rapor tutarlılığı ile kurulur. Otelde call center/CRM, B2B’de pipeline metrikleri rapora bağlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+
+      "name": "Sosyal Medya Reklamları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi#article",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi",
+
+      "headline": "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zekâ Kullanımı",
+
+      "name": "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zekâ Kullanımı",
+
+      "description": "AI bid ve bütçe önerilerini guardrail ve insan kontrolüyle birlikte kullan; learning etkisini trendle değerlendir; pixel+CAPI sinyali güçlü değilse önce ölçümü güçlendir.",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "AI Bid Optimisation",
+
+        "Budget Recommendations",
+
+        "Learning Phase",
+
+        "Human Oversight",
+
+        "Signal Quality",
+
+        "Performance Governance"
+
+      ],
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi#article" },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "@id": "https://dgtlface.com/#organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi#howto",
+
+      "name": "AI Bid ve Bütçe Önerilerini Guardrail ile Yönetme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hedef ve KPI koridorunu belirle",
+
+          "text": "Ana optimizasyon event’ini seç ve kabul edilebilir CPA/ROAS aralığını tanımla; bütçe üst limitlerini yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ölçüm ve sinyali doğrula",
+
+          "text": "Pixel+CAPI hibrit ölçümü ve dedupe (event_id) kontrolünü yap; event setini sadeleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "AI önerilerini trendle değerlendir",
+
+          "text": "Kısa dönem sapmalar yerine 1–2 haftalık trendle karar ver; learning döneminde sık ve büyük değişikliklerden kaçın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zekâ Kullanımı",
+
+          "item": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi#faq",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI destekli bid ve bütçe optimizasyonu nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Platformun teklif ve bütçe dağılımı kararlarını performans sinyallerine göre otomatikleştirmesidir. Doğru sinyal ve guardrail ile verim artabilir; zayıf sinyalde dalgalanma büyüyebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kararları yapay zekâya bırakmalıyım, hangilerini manuel yönetmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI’ye placement ve benzer setler arası bütçe dağılımı gibi mikro optimizasyonlar bırakılabilir. İnsan tarafında hedef KPI koridoru, teklif/ürün önceliği, pazar stratejisi ve kalite metriği (SQL/toplantı) kalmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI önerilerini körü körüne uygulamanın riskleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bütçe yanlış önceliklere kayabilir, learning sürekli resetlenebilir, zayıf sinyal kötü optimizasyonu büyütebilir ve kısa dönem sapmalar yanlış karar üretebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Learning phase nedir ve neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yeni kampanya/ad set veya önemli değişikliklerden sonra sistemin teslimatı öğrenmeye çalıştığı dönemdir. Bu süreçte büyük/sık değişiklikler performans dalgalanmasını artırabilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 
