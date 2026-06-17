@@ -70608,7 +70608,1361 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar",
+
+      "name": "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "SMM Segments" },
+
+        { "@type": "Thing", "name": "Device" },
+
+        { "@type": "Thing", "name": "Geo" },
+
+        { "@type": "Thing", "name": "New vs Returning" },
+
+        { "@type": "Thing", "name": "Segment KPIs" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#webpage"
+
+      },
+
+      "headline": "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+
+      "description": "Sosyal medya performansını cihaz, ülke ve yeni/geri dönen segmentleriyle okuyun; genel ortalamanın sakladığı sorun ve fırsatları ortaya çıkarıp segment→aksiyon planıyla optimize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#howto",
+
+      "name": "Segment Bazlı Sosyal Medya Analizi Yapma",
+
+      "description": "Cihaz, ülke/pazar ve yeni-geri dönen kullanıcı segmentleriyle sosyal medya performansını ayrıştırıp aksiyona dönüştürme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Filtreleri senkronla", "text": "GA4 ve platform insights’ta tarih/ülke/cihaz filtrelerini aynı seçin; organic ve paid social ayrımını netleştirin." },
+
+        { "@type": "HowToStep", "name": "Segment KPI’larını çıkar", "text": "Device, geo ve new/returning segmentlerinde panel KPI’ları (reach/engagement) ve GA4 KPI’larını (quality/conversion) raporlayın." },
+
+        { "@type": "HowToStep", "name": "Zayıf segmentleri seç", "text": "En büyük sapma gösteren 3 segmenti belirleyin ve problem sinyalini yazın." },
+
+        { "@type": "HowToStep", "name": "Hipotez ve test yaz", "text": "Her zayıf segment için 1 hipotez ve 30 günlük 1 test planlayın; hızlı kazanım aksiyonu ekleyin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Segment Bazlı Sosyal Medya Analizi", "item": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya segment bazlı analiz nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cihaz, ülke/pazar ve yeni-geri dönen segmentlerini tanımlayın ve GA4 ile platform insights’ta tarih/ülke/cihaz filtrelerini senkronlayın. Organic/paid ayrımıyla KPI’ları çıkarın, en zayıf segmentleri seçin ve her biri için hipotez + test + aksiyon planı yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil ve masaüstü performansını nasıl karşılaştırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cihaz kırılımında panel tüketim metriklerini ve GA4’te sessions → engaged sessions → conversion zincirini karşılaştırın. Mobilde düşüş varsa landing hızı, form sürtünmesi ve CTA görünürlüğünü kontrol edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yeni ve geri dönen kullanıcıları raporda nasıl ayırırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4’te new/returning kırılımını organic/paid social kanalları için ayrı raporlayın. Yeni kullanıcı acquisition’ı, geri dönen kullanıcı sadakati ve niyeti gösterir; iki grupta kalite ve dönüşüm farkına bakın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Segment analizi neden yanlış çıkabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 ve platform insights’ta tarih/ülke/cihaz filtreleri tutarlı seçilmezse veya organic/paid ayrımı net değilse segment sonuçları yanıltıcı olur. Filtre senkronunu raporun başında kontrol edin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e",
+
+      "name": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Social Funnel" },
+
+        { "@type": "Thing", "name": "Bottleneck Detection" },
+
+        { "@type": "Thing", "name": "Leads" },
+
+        { "@type": "Thing", "name": "Reservations" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#webpage"
+
+      },
+
+      "headline": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+
+      "description": "Impressions→engagement→click→site→lead/rezervasyon funnel’ini raporlayın; her adım için KPI seçip darboğazı tespit ederek doğru aksiyonu uygulayın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#howto",
+
+      "name": "Sosyal Medya Funnel Raporu Hazırlama",
+
+      "description": "Görünürlükten lead/rezervasyona sosyal medya funnel’ini adım adım kurma ve darboğaz tespiti yapma.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Funnel adımlarını sabitle", "text": "Impressions/reach → engagement → clicks → site behavior → lead/rezervasyon adımlarını rapor standardı yapın." },
+
+        { "@type": "HowToStep", "name": "Adım KPI’larını seç", "text": "Her adım için 2–4 çekirdek KPI belirleyin ve geçiş oranlarını takip edin." },
+
+        { "@type": "HowToStep", "name": "Verileri eşle", "text": "Organik, reklam ve GA4 verilerini aynı tarih/kampanya filtreleriyle eşleştirerek karşılaştırın." },
+
+        { "@type": "HowToStep", "name": "Darboğazı tespit et", "text": "En büyük düşüşün olduğu adımı seçin ve kreatif/hedefleme/landing/form düzeyinde kök neden yazın." },
+
+        { "@type": "HowToStep", "name": "Aksiyon planı çıkar", "text": "30 gün içinde 2 test (kreatif + landing/form) ve 1 hızlı kazanım aksiyonu planlayın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sosyal Medya Funnel Raporu", "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya funnel raporu nedir, nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sosyal medya funnel raporu, reach/impressions’tan başlayıp etkileşim, tıklama, site davranışı ve lead/rezervasyona kadar adım adım ölçüm yapar. Her adım için çekirdek KPI’lar seçilir, geçiş oranları hesaplanır ve en büyük kayıp adımı darboğaz olarak işaretlenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi adımda hangi KPI’ya bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Görünürlükte reach/impressions; etkileşimde engagement rate ve save/share; tıklamada CTR ve link clicks; sitede engaged sessions ve landing performansı; dönüşümde lead/rezervasyon sayısı ve conversion rate izlenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Funnel’deki kayıpları nasıl tespit ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Adımlar arası geçiş oranlarına bakın: düşük CTR mesaj/CTA sorunu; düşük engaged sessions landing uyumu/hız sorunu; düşük conversion rate form/rezervasyon sürtünmesi olabilir. En büyük düşüş olan adımı seçip testlerle doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Trafik geliyor ama rezervasyon yok, sorun nerede?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tıklama→site davranışı→dönüşüm adımlarını ölçün. Engaged düşükse landing uyumu/hız; engaged iyi ama conversion düşükse form/rezervasyon akışı sürtünmesi muhtemeldir. Sorunu hangi adım diye isimlendirip o adımda test yapın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak",
+
+      "name": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Time-Series" },
+
+        { "@type": "Thing", "name": "YoY Trends" },
+
+        { "@type": "Thing", "name": "Seasonality" },
+
+        { "@type": "Thing", "name": "Timeline Annotations" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#webpage"
+
+      },
+
+      "headline": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
+
+      "description": "Aylık dalgalanmalara takılmayın: sosyal medya performansını YoY ve sezon bazlı trend grafikleriyle okuyun, kampanya/kriz/algoritma etkilerini timeline’da işaretleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#howto",
+
+      "name": "YoY ve Sezonluk Sosyal Medya Trend Analizi Yapma",
+
+      "description": "Sosyal medya performansını MoM yerine YoY ve sezon trendiyle okuyup olay notlarıyla doğru yorumlama adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Aynı dönemi YoY kıyasla", "text": "Bu yılın dönemini geçen yılın aynı dönemiyle karşılaştırın (örn. 1–31 Ocak)." },
+
+        { "@type": "HowToStep", "name": "3 katmanlı KPI seti seç", "text": "Reach/engagement trendi, GA4 trafik kalitesi ve lead/rezervasyon KPI’larını birlikte okuyun (ölçüm varsa)." },
+
+        { "@type": "HowToStep", "name": "Sezon fazını notla", "text": "Sezon öncesi/yüksek sezon/sezon sonu gibi fazı rapora ekleyin ve KPI’ları buna göre yorumlayın." },
+
+        { "@type": "HowToStep", "name": "Timeline olaylarını işaretle", "text": "Kampanya, kriz, bütçe değişimi ve format/algoritma etkilerini grafikte işaretleyin." },
+
+        { "@type": "HowToStep", "name": "Aksiyon planı çıkar", "text": "Sapma varsa hipotez ve 30 günlük aksiyonlarla raporu kapatın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Zaman Bazlı ve Sezonluk Analiz", "item": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya performansını yıl/yıl (YoY) nasıl analiz ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı takvim dönemini geçen yılın aynı dönemiyle kıyaslayın ve reach/engagement yanında GA4 trafik kalitesi ve dönüşüm KPI’larını da ekleyin. Kampanya, kriz veya algoritma olaylarını grafikte işaretleyip sapmanın nedenini daha doğru yorumlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sezonluk sektörlerde ay/ay rapor yanıltıcı olabilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Turizm gibi sektörlerde talep ve içerik tüketimi aylar arasında doğal olarak değişir; bu yüzden MoM kıyas yanlış alarm üretebilir. YoY ve sezon trendi daha sağlıklı kontrol sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi olayları grafiğe not düşmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya başlangıç/bitiş tarihleri, büyük kreatif değişimleri, bütçe değişimleri, kriz/PR olayları ve platformdaki önemli format/algoritma değişimleri grafikte işaretlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bu ay düşüş var, paniklemeli miyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce YoY kıyası ve sezon trendine bakın. Düşüş aynı dönemde de varsa veya trend aşağı yönlü ise aksiyon gerekir; yoksa normal sezon dalgalanması olabilir. Timeline olay notlarıyla teşhisi doğrulayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak",
+
+      "name": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Campaign vs Always-On" },
+
+        { "@type": "Thing", "name": "Burst vs Baseline" },
+
+        { "@type": "Thing", "name": "Dual KPI Sets" },
+
+        { "@type": "Thing", "name": "Timeline" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#webpage"
+
+      },
+
+      "headline": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
+
+      "description": "Kampanya (burst) ve always-on (baseline) performansını ayrı KPI setleriyle raporlayın; kampanya tarihlerini timeline’da işaretleyip yıllık strateji ve bütçeyi daha sağlıklı değerlendirin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#howto",
+
+      "name": "Kampanya ve Always-On Performansını Ayrı Raporlama",
+
+      "description": "Kampanya spike’larını baseline’dan ayırarak dual KPI setleriyle sosyal medya raporu oluşturma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Kampanya tarihlerini işaretle", "text": "Tüm kampanyaların başlangıç ve bitiş tarihlerini raporda net şekilde tanımlayın." },
+
+        { "@type": "HowToStep", "name": "Baseline panelini oluştur", "text": "Always-on KPI’larını kampanya günleri hariç trend olarak raporlayın (reach/engagement/stabil trafik)." },
+
+        { "@type": "HowToStep", "name": "Kampanya panelini oluştur", "text": "Kampanya KPI setini sonuç odaklı kurun (CTR, lead/rezervasyon, CPA/CPL, landing conversion)." },
+
+        { "@type": "HowToStep", "name": "Timeline ve yıl planıyla bağla", "text": "Yıllık timeline’da kampanya bloklarını gösterin ve baseline yönünü ayrı değerlendirin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kampanya vs Always-On Raporlama", "item": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kampanya ve always-on sosyal medya performansı neden ayrı raporlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya dönemleri metrikleri geçici olarak şişirir (burst) ve always-on sürdürülebilir temel hattı (baseline) temsil eder. İkisini karıştırmak yanlış bütçe ve strateji kararlarına yol açabilir; ayrı raporlama gerçek katkıyı ve sürdürülebilirliği netleştirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar kampanya, hangileri always-on için önceliklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanyada CTR, lead/rezervasyon, conversion rate ve CPL/CPA gibi sonuç KPI’ları; always-on’da engagement (save/share), stabil trafik trendi ve marka sesi KPI’ları önceliklidir. Beklenti ve hedefe göre iki KPI seti ayrı kurulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yıllık sosyal medya planında bu ayrımı nasıl gösteririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yıl çizgisi üzerinde kampanya bloklarını tarih aralığıyla işaretleyin ve her blok için hedef/KPI setini yazın. Blok dışındaki dönemleri always-on olarak gösterip baseline KPI trendini ekleyin; yıl sonunda iki hattı ayrı değerlendirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Raporlarda kampanya tarihleri işaretlenmezse ne olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya günleri YoY ve kanal analizini bozabilir; spike’lar baseline sanılır ve yanlış yorumlara neden olur. Bu yüzden kampanya tarih aralıkları raporda net olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri",
+
+      "name": "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Anomaly Detection" },
+
+        { "@type": "Thing", "name": "Alerts" },
+
+        { "@type": "Thing", "name": "Monitoring" },
+
+        { "@type": "Thing", "name": "KPI Thresholds" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#webpage"
+
+      },
+
+      "headline": "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
+
+      "description": "Sosyal medya KPI’larında ani düşüş/yükselişleri otomatik rapor ve alert sistemiyle yakalayın; trend bazlı eşikler kurup Slack/e-posta bildirimleriyle hızlı müdahale edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#howto",
+
+      "name": "Sosyal Medya KPI Alert Sistemi Kurma",
+
+      "description": "KPI seçimi, trend bazlı eşik tanımı, Slack/e-posta bildirimi ve triage playbook ile otomatik alert sistemi kurma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "KPI’ları seç", "text": "Trafik, erişim, CTR, dönüşüm ve negatif geri bildirim KPI’larını belirleyin." },
+
+        { "@type": "HowToStep", "name": "Eşik mantığını belirle", "text": "Mutlak sayı yerine yüzde değişim ve 3/7/14 günlük trend bazlı eşikler tanımlayın." },
+
+        { "@type": "HowToStep", "name": "Bildirim kanalını kur", "text": "Kritik KPI’lar için Slack, trend özetleri için e-posta bildirim akışını yapılandırın." },
+
+        { "@type": "HowToStep", "name": "Triage playbook oluştur", "text": "Alarm sonrası doğrulama → sınıflandırma → müdahale → olay notu adımlarını standardize edin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Anomali ve Alert Sistemleri", "item": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya için otomatik alert sistemi nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI’ları seçin (trafik, erişim, CTR, dönüşüm, negatif geri bildirim), eşikleri trend/yüzde değişim mantığıyla tanımlayın ve Slack/e-posta bildirim akışı kurun. Alarm sonrası doğrulama–triage–müdahale adımlarını playbook olarak yazın ve eşikleri pilotla kalibre edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar için alarm tanımlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İş etkisi yüksek KPI’lar önceliklidir: GA4 social sessions, lead/rezervasyon dönüşümü, CTR (paid), organic reach trendi ve negatif yorum/DM hacmi. 5–8 KPI ile başlayıp sistem oturdukça genişletin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ani düşüş veya artışları nasıl yorumlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce veri doğrulaması yapın (UTM, event, panel erişimi), sonra sınıflandırın: teknik, kreatif, hedefleme veya itibar. Mutlak eşik yerine trend/yüzde eşik kullanmak ve kampanya günlerini etiketlemek yanlış pozitifleri azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Slack/e-posta ile SMM alert akışı nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik KPI’lar için Slack’te anlık uyarı, trend KPI’ları için e-posta özet kullanın. Uyarıya ilk kontrol listesi ve sorumlu kişi etiketini ekleyin; çözüm sonrası rapora olay notu düşin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas",
+
+      "name": "Influencer ve Creator Kampanyalarını Raporlamak: KPI ve ROAS Çerçevesi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Influencer Reporting" },
+
+        { "@type": "Thing", "name": "Creator Campaign KPIs" },
+
+        { "@type": "Thing", "name": "Coupon Tracking" },
+
+        { "@type": "Thing", "name": "UTM Tracking" },
+
+        { "@type": "Thing", "name": "ROAS" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas#webpage"
+
+      },
+
+      "headline": "Influencer ve Creator Kampanyalarını Raporlamak: KPI ve ROAS Çerçevesi",
+
+      "description": "Influencer/creator kampanyalarını reach ile sınırlamayın; kupon, UTM ve funnel KPI’larıyla lead/rezervasyon/satış katkısını ölçüp CPA/ROAS ile karar verin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas#howto",
+
+      "name": "Influencer ve Creator Kampanyası Raporlama",
+
+      "description": "UTM ve kupon ile takip kurup funnel KPI’larıyla influencer/creator kampanyasının iş etkisini ölçme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Hedef ve KPI setini belirle", "text": "Kampanya hedefini (brand/lead/rezervasyon) yazın ve reach→engagement→click→conversion KPI’larını seçin." },
+
+        { "@type": "HowToStep", "name": "UTM ve kupon tanımla", "text": "Her creator için tekil UTM link ve kupon kodu oluşturun; brief’e doğru kullanımını ekleyin." },
+
+        { "@type": "HowToStep", "name": "GA4 ve CRM/rezervasyon eşleştir", "text": "GA4’te UTM ile kalite ve dönüşümü izleyin; CRM/rezervasyon sisteminde kupon kullanımını creator anahtarında eşleştirin." },
+
+        { "@type": "HowToStep", "name": "CPA/ROAS hesapla ve karar ver", "text": "Maliyetleri dahil edip CPA/ROAS hesaplayın; scale/test/stop kararlarını öğrenimlerle raporlayın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Influencer KPI ve ROAS Raporlama", "item": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-2raporlamak-kpi-ve-roas#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Influencer ve creator kampanyaları nasıl raporlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hedefi netleştirip KPI’ları funnel gibi kurun: reach/engagement → click → site davranışı → lead/rezervasyon/satış. Creator bazında UTM link ve/veya kupon kodu tanımlayın, GA4 ile kalite ve dönüşümü ölçün; maliyetleri ekleyip CPA/ROAS hesaplayın ve raporu öğrenimlerle kapatın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kupon kodu ve UTM ile satış katkısı nasıl ölçülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her creator’a özel UTM’li link ve kupon kodu verin. GA4’te UTM ile sessions/engaged/conversion’ı izleyin; CRM veya rezervasyon sisteminde kupon kullanımını creator anahtarında eşleştirin. Böylece atribüsyon hatası azalır ve ROAS/CPA hesaplanabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar kullanılmalı (reach, engagement, satış)?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reach/impressions görünürlük; save/share ve yorum kalitesi etkileşim kalitesi; click/CTR niyet; GA4 engaged sessions kalite; lead/rezervasyon/satış ise iş sonucudur. Hedefe göre ağırlık değişir ama iş etkisi KPI’ları olmadan değerlendirme eksik kalır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için influencer raporu nasıl görünmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde rezervasyon/kupon kullanımı ve teklif sayfası kalite KPI’ları; B2B’de form/demo lead ve lead kalite sinyalleri öne çıkar. Creator bazlı satır, UTM/kupon alanları ve scale/test/stop kararı içeren 1 sayfalık yönetici özeti idealdir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":{}
     },
 
     yazilim: {

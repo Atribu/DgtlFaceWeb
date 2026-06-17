@@ -43195,8 +43195,357 @@ export const BLOG_MEDIA_MAP = {
       alt: "AI optimizasyon yönetişimi deliverables kartı, guardrail ve rapor çıktıları",
       caption: "AI optimizasyon yönetişimi deliverables kartı, guardrail ve rapor çıktıları"
     }
-  }
+  },
 
+  "segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar":{
+    banner: {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-1.webp",
+      alt: "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+      caption: "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-2.webp",
+      alt: "Segment-first dashboard, cihaz ülke kullanıcı tipi kırılımı, raporlama çerçevesi",
+      caption: "Segment-first dashboard, cihaz ülke kullanıcı tipi kırılımı, raporlama çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-3.webp",
+    alt: "Segment analizi yöntemi, filtre senkronu, GA4 ve platform raporlama",
+      caption: "Segment analizi yöntemi, filtre senkronu, GA4 ve platform raporlama"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-4.webp",
+      alt: "Ülke pazar kırılımı, mobil masaüstü farkı, turizm ve B2B segment raporu",
+      caption: "Ülke pazar kırılımı, mobil masaüstü farkı, turizm ve B2B segment raporu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-5.webp",
+      alt: "Segment teşhis akışı, mobil drop-off ve ülke analizi, optimizasyon diyagramı",
+      caption: "Segment teşhis akışı, mobil drop-off ve ülke analizi, optimizasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-6.webp",
+      alt: "Segment aksiyon checklist’i, cihaz ülke yeni geri dönen, rapor standardı",
+      caption: "Segment aksiyon checklist’i, cihaz ülke yeni geri dönen, rapor standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-7.webp",
+      alt: "Segment KPI kartları, mobil ve pazar performansı, otel ve B2B raporlama",
+      caption: "Segment KPI kartları, mobil ve pazar performansı, otel ve B2B raporlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-6/SMM5-6-8.webp",
+      alt: "Segment raporu teslim paketi, dashboard ve aksiyon planı, ajans yönetimi",
+      caption: "Segment raporu teslim paketi, dashboard ve aksiyon planı, ajans yönetimi"
+    }
+  },
+
+  "sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e":{
+    banner: {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-1.webp",
+      alt: "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+      caption: "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-2.webp",
+      alt: "Funnel adımları ve KPI katmanları, sosyal medya raporlama çerçevesi, iş etkisi",
+      caption: "Funnel adımları ve KPI katmanları, sosyal medya raporlama çerçevesi, iş etkisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-3.webp",
+    alt: "Funnel adım KPI seti, görünürlük etkileşim tıklama, otel ve B2B raporu",
+      caption: "Funnel adım KPI seti, görünürlük etkileşim tıklama, otel ve B2B raporu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-4.webp",
+      alt: "Darboğaz tespiti ve problem localisation, kreatif hedefleme landing, sosyal analiz",
+      caption: "Darboğaz tespiti ve problem localisation, kreatif hedefleme landing, sosyal analiz"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-5.webp",
+      alt: "Sosyal medya funnel huni diyagramı, impression engagement click lead, otel ve B2B",
+      caption: "Sosyal medya funnel huni diyagramı, impression engagement click lead, otel ve B2B"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-6.webp",
+      alt: "Darboğaz tespit checklist’i, funnel raporlama, aksiyon planı",
+      caption: "Darboğaz tespit checklist’i, funnel raporlama, aksiyon planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-7.webp",
+      alt: "Funnel KPI skor kartı, adım bazlı performans, otel ve B2B dönüşüm",
+      caption: "Funnel KPI skor kartı, adım bazlı performans, otel ve B2B dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-7/SMM5-7-8.webp",
+      alt: "Funnel raporu teslim paketi, dashboard ve aksiyon listesi, ajans raporlama",
+      caption: "Funnel raporu teslim paketi, dashboard ve aksiyon listesi, ajans raporlama"
+    }
+  },
+
+  "zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak":{
+    banner: {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-1.webp",
+      alt: "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
+      caption: "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-2.webp",
+      alt: "Ay ay ve yıl yıl karşılaştırma, sezon etkisi, sosyal medya raporlama grafiği",
+      caption: "Ay ay ve yıl yıl karşılaştırma, sezon etkisi, sosyal medya raporlama grafiği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-3.webp",
+    alt: "Sezonluk okuma, turizmde trend analizi, stratejik sosyal medya raporu",
+      caption: "Sezonluk okuma, turizmde trend analizi, stratejik sosyal medya raporu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-4.webp",
+      alt: "Haftalık paternler ve zaman serisi, içerik ritmi, otel ve B2B analiz",
+      caption: "Haftalık paternler ve zaman serisi, içerik ritmi, otel ve B2B analiz"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-5.webp",
+      alt: "Timeline annotation diyagramı, kampanya kriz algoritma etkisi, trend okuma modeli",
+      caption: "Timeline annotation diyagramı, kampanya kriz algoritma etkisi, trend okuma modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-6.webp",
+      alt: "Trend okuma checklist’i, YoY ve sezonluk analiz, panik kontrol rehberi",
+      caption: "Trend okuma checklist’i, YoY ve sezonluk analiz, panik kontrol rehberi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-7.webp",
+      alt: "YoY KPI kartları, reach engagement traffic lead, sezon bazlı raporlama",
+      caption: "YoY KPI kartları, reach engagement traffic lead, sezon bazlı raporlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-8/SMM5-8-8.webp",
+      alt: "YoY trend analizi teslim paketi, grafik şablonları, stratejik raporlama çıktıları",
+      caption: "YoY trend analizi teslim paketi, grafik şablonları, stratejik raporlama çıktıları"
+    }
+  },
+
+  "kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak":{
+    banner: {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-1.webp",
+      alt: "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
+      caption: "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-2.webp",
+      alt: "Dual-layer raporlama, baseline ve kampanya spike’ları, yönetici özeti çerçevesi",
+      caption: "Dual-layer raporlama, baseline ve kampanya spike’ları, yönetici özeti çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-3.webp",
+    alt: "KPI seti ayrımı, kampanya vs always-on, sosyal medya rapor standardı",
+      caption: "KPI seti ayrımı, kampanya vs always-on, sosyal medya rapor standardı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-4.webp",
+      alt: "Yıllık timeline üzerinde kampanya blokları, bütçe ve strateji okuması, raporlama",
+      caption: "Yıllık timeline üzerinde kampanya blokları, bütçe ve strateji okuması, raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-5.webp",
+      alt: "Baseline vs spikes akışı, kampanya bloklarıyla okuma, dual KPI modeli",
+      caption: "Baseline vs spikes akışı, kampanya bloklarıyla okuma, dual KPI modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-6.webp",
+      alt: "Kampanya always-on rapor checklist’i, KPI ayrımı, ajans ve marka ekipleri",
+      caption: "Kampanya always-on rapor checklist’i, KPI ayrımı, ajans ve marka ekipleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-7.webp",
+      alt: "Campaign ve baseline KPI kartları, ROI ve istikrar metrikleri, sosyal rapor",
+      caption: "Campaign ve baseline KPI kartları, ROI ve istikrar metrikleri, sosyal rapor"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-9/SMM5-9-8.webp",
+      alt: "Ayrıştırılmış SMM dashboard teslim paketi, timeline ve KPI setleri, raporlama",
+      caption: "Ayrıştırılmış SMM dashboard teslim paketi, timeline ve KPI setleri, raporlama"
+    }
+  },
+
+  "anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri":{
+    banner: {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-1.webp",
+      alt: "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
+      caption: "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-2.webp",
+      alt: "Erken uyarı sistemi, KPI izleme ve bildirim akışı, sosyal medya raporlama",
+      caption: "Erken uyarı sistemi, KPI izleme ve bildirim akışı, sosyal medya raporlama"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-3.webp",
+    alt: "Alert kurulum adımları, KPI seçimi ve eşik tasarımı, monitoring rehberi",
+      caption: "Alert kurulum adımları, KPI seçimi ve eşik tasarımı, monitoring rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-4.webp",
+      alt: "Trend bazlı eşikler ve yanlış pozitif azaltma, sosyal medya izleme modeli",
+      caption: "Trend bazlı eşikler ve yanlış pozitif azaltma, sosyal medya izleme modeli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-5.webp",
+      alt: "Otomatik alert akış diyagramı, Slack e-posta bildirimleri, triage süreci",
+      caption: "Otomatik alert akış diyagramı, Slack e-posta bildirimleri, triage süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-6.webp",
+      alt: "Alarm tasarım checklist’i, KPI eşik seçimi, ajans ve in-house SMM ekipleri",
+      caption: "Alarm tasarım checklist’i, KPI eşik seçimi, ajans ve in-house SMM ekipleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-7.webp",
+      alt: "KPI alarm kartları, trafik CTR dönüşüm izleme, otel ve B2B performans",
+      caption: "KPI alarm kartları, trafik CTR dönüşüm izleme, otel ve B2B performans"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-10/SMM5-10-8.webp",
+      alt: "Alert sistemi teslim paketi, eşik tablosu ve akış şablonu, raporlama çıktıları",
+      caption: "Alert sistemi teslim paketi, eşik tablosu ve akış şablonu, raporlama çıktıları"
+    }
+  },
+
+"influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas":{
+    banner: {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-1.webp",
+      alt: "Influencer ve Creator Kampanyalarını Raporlamak: KPI ve ROAS Çerçevesi",
+      caption: "Influencer ve Creator Kampanyalarını Raporlamak: KPI ve ROAS Çerçevesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-2.webp",
+      alt: "Influencer ölçüm katmanları, içerikten iş sonucuna raporlama, UTM ve kupon takibi",
+      caption: "Influencer ölçüm katmanları, içerikten iş sonucuna raporlama, UTM ve kupon takibi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-3.webp",
+    alt: "Influencer KPI seti, funnel bazlı raporlama, creator performans analizi",
+      caption: "Influencer KPI seti, funnel bazlı raporlama, creator performans analizi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-4.webp",
+      alt: "Otel ve B2B influencer raporu örneği, lead rezervasyon ölçümü, iş etkisi",
+      caption: "Otel ve B2B influencer raporu örneği, lead rezervasyon ölçümü, iş etkisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-5.webp",
+      alt: "Kupon ve UTM ile influencer funnel akışı, tıklamadan dönüşüme, ROAS modeli",
+      caption: "Kupon ve UTM ile influencer funnel akışı, tıklamadan dönüşüme, ROAS modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-6.webp",
+      alt: "Influencer rapor checklist’i, UTM kupon takip planı, kampanya ölçüm standardı",
+      caption: "Influencer rapor checklist’i, UTM kupon takip planı, kampanya ölçüm standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-7.webp",
+      alt: "Creator KPI skor kartı, reach engagement click conversion, işbirliği ROI raporu",
+      caption: "Creator KPI skor kartı, reach engagement click conversion, işbirliği ROI raporu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-11/SMM5-11-8.webp",
+      alt: "Influencer kampanya raporu teslim paketi, dashboard mockup ve öğrenimler",
+      caption: "Influencer kampanya raporu teslim paketi, dashboard mockup ve öğrenimler"
+    }
+  },
+
+  "yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":{
+    banner: {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-1.webp",
+      alt: "Yorum, DM ve UGC İçin Duygu (Sentiment) Analizi Nasıl Yapılır?",
+      caption: "Yorum, DM ve UGC İçin Duygu (Sentiment) Analizi Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-2.webp",
+      alt: "Duygu ve tema analizi akışı, sosyal geri bildirim döngüsü, müşteri deneyimi raporu",
+      caption: "Duygu ve tema analizi akışı, sosyal geri bildirim döngüsü, müşteri deneyimi raporu"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-3.webp",
+    alt: "Yorum ve DM kaynak haritası, sentiment okuma yöntemi, otel ve B2B analiz",
+      caption: "Yorum ve DM kaynak haritası, sentiment okuma yöntemi, otel ve B2B analiz"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-4.webp",
+      alt: "Tema kategorileri ve duygu sınıfları, ısı haritası yaklaşımı, raporlama",
+      caption: "Tema kategorileri ve duygu sınıfları, ısı haritası yaklaşımı, raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-5.webp",
+      alt: "Sentiment tema aksiyon modeli, duygu haritası okuma, hizmet ve içerik iyileştirme",
+      caption: "Sentiment tema aksiyon modeli, duygu haritası okuma, hizmet ve içerik iyileştirme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-6.webp",
+      alt: "Sentiment aksiyon checklist’i, yorum DM tema raporu, operasyon ve CRM",
+      caption: "Sentiment aksiyon checklist’i, yorum DM tema raporu, operasyon ve CRM"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-7.webp",
+      alt: "Pozitif negatif oranı KPI kartı, tema yoğunluğu, sosyal medya duygu raporu",
+      caption: "Pozitif negatif oranı KPI kartı, tema yoğunluğu, sosyal medya duygu raporu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-12/SMM5-12-8.webp",
+      alt: "Sentiment raporu teslim paketi, ısı haritası ve aksiyon planı, marka yönetimi",
+      caption: "Sentiment raporu teslim paketi, ısı haritası ve aksiyon planı, marka yönetimi"
+    }
+  }
   
 };
 

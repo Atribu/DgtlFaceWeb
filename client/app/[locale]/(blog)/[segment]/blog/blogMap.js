@@ -395,7 +395,14 @@ export const BLOG_MAP = {
      "click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji":"BlogClickToWhatsappVeMesajlasmaOdakliReklamlarIcinStrateji",
      "social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi":"BlogSocialCommerceVeInAppCheckoutSosyalMedyaReklamlarindaSatinAlmaAkisi",
      "cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi":"BlogCookielessVePrivacyDonusumundeSosyalMedyaReklamStratejisi",
-     "ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi":"BlogAiDestekliBidVeBudgetOptimisationSosyalMedyaReklamlarindaYapayZekaKullanimi"
+     "ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi":"BlogAiDestekliBidVeBudgetOptimisationSosyalMedyaReklamlarindaYapayZekaKullanimi",
+     "segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar":"BlogSegmentBazliSosyalMedyaAnaliziCihazUlkeVeYeniGeriDonenKullanicilar",
+     "sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e":"BlogSosyalMedyaFunnelRaporuGorunurluktenRezervasyonVeLeade",
+     "zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak":"BlogZamanBazliVeSezonlukAnalizSosyalMedyaPerformansiniAylikDegilTrendBazliOkumak",
+     "kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak":"BlogKampanyaBazliVeAlwaysOnSosyalMedyaPerformansiniAyriRaporlamak",
+     "anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri":"BlogAnomaliVeSpikeTespitiIcinOtomatikRaporVeAlertSistemleri",
+     "influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas":"BlogInfluencerVeCreatorKampanyalariniRaporlamakKpiVeRoas",
+     "yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":"BlogYorumDmVeUgcIcinDuyguSentimentAnaliziNasilYapilir"
   },
 
     yazilim: {
