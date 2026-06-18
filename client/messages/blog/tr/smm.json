@@ -74635,6 +74635,2921 @@
         ]
       }
     }
+  },
+
+  "BlogMarkaItibariVeKrizSonrasiSosyalMedyaPerformansAnalizi": {
+    "title": "Kriz Sonrası Sosyal Medya Analizi: İtibar ve Recovery",
+    "slug": "marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kriz öncesi baz çizgi, kriz anı KPI’ları ve sonrası recovery trendiyle itibar hasarını ölçün. Sentiment, takipçi ve negatif yorum/DM değişimini izleyin; iş KPI’larıyla bağlayın.",
+    "seo": {
+      "metaTitle": "Kriz Sonrası Sosyal Medya Analizi: İtibar ve Recovery | DGTLFACE",
+      "metaDescription": "Kriz öncesi baz çizgi, kriz anı KPI’ları ve sonrası recovery trendiyle itibar hasarını ölçün. Sentiment, takipçi ve negatif yorum/DM değişimini izleyin; iş KPI’larıyla bağlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 13 — /tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda kriz dönemlerini “kaç yorum geldi?” seviyesinden çıkarıp itibar hasarı + güven toparlanması (recovery) perspektifiyle ölçen bir analiz çerçevesi sunar. Hedef persona; reputasyon riski yüksek otel/turizm, sağlık ve B2B markalar ile ajans yöneticileridir; çünkü kriz sonrası “ne kadar zarar gördük ve ne kadar sürede toparlanıyoruz?” sorusuna veriye dayalı yanıt ister. Funnel’da stratejik karar destek: kriz iletişimi, içerik planı ve operasyon/CRM aksiyonlarını aynı ölçüm hattında toplar. Ana iş sorusu: “Kriz öncesi baz çizgiden sapma ne; kriz anı KPI’ları ne söylüyor; toparlanma ne kadar sürüyor?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kriz sonrası sosyal medya analizi, sadece “kaç yorum geldi?” değil; itibarın ne kadar hasar aldığı ve ne kadar sürede toparlandığı (recovery) sorularını cevaplamalıdır. Bunun için kriz öncesi baz çizgi oluşturun, kriz döneminde erişim, sentiment, negatif yorum/DM artışı ve takipçi kaybı gibi KPI’ları izleyin; kriz sonrası açıklama/SSS/pin’li içerik performansını ve duygu-trend toparlanmasını grafikte takip edin. Sosyal metrikleri web trafik/lead/rezervasyon gibi iş KPI’larıyla birlikte okuyun.",
+      "sgeSummary": "Kriz analizi: önce baz çizgi, sonra kriz KPI’ları (sentiment/negatif artış/takipçi), ardından recovery trendi. Açıklama ve pin’li içerik performansını ölçün; sosyal+iş KPI’larını birlikte okuyun.",
+      "voiceAnswer": "Kriz sonrası zararını baz çizgiye göre sapma, kriz KPI’ları ve recovery trendiyle ölç; panikle değil veriyle.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel/turizm, sağlık ve reputasyon riski yüksek B2B markalar",
+        "Model: pre/post baseline + crisis window + recovery trends",
+        "Entity theme: kriz, sentiment, reach, follower change, recovery, trust trajectory",
+        "KPI seti: negatif yorum/DM hızı, sentiment oranı, takipçi net değişim, açıklama post performansı",
+        "İş KPI’ları: web trafik, inbound çağrı, lead/rezervasyon (Varsayım: ölçüm altyapısı)",
+        "Çıktı: trend grafikleri + tablo + kriz analizi checklist’i",
+        "Başarı ölçümü: toparlanma stratejisinin daha hızlı ve hedefe dönük güncellenmesi"
+      ]
+    },
+    "h1": {
+      "title": "Marka İtibarı ve Kriz Sonrası Sosyal Medya Performans Analizi",
+      "intro": "Bir kriz yaşandığında ekipler çoğu zaman “kaç yorum geldi, kaç kişi sordu?” diye bakar. Oysa yöneticinin gerçek sorusu farklıdır: İtibarımız ne kadar hasar aldı, güven ne kadar sürede toparlanıyor ve bu süreçte neyi doğru/yanlış yaptık? Kriz analizi; kriz öncesi baz çizgi (normal durum), kriz penceresi (olayın etkisi) ve kriz sonrası recovery trendi (toparlanma) olarak üç dönemi ayrı raporlamalıdır. Üstelik sadece sosyal metriklerle değil; web trafiği, inbound çağrı, lead/rezervasyon gibi iş KPI’larıyla da birlikte okunmalıdır. Bu rehber, yüksek stres dönemlerinde bile uygulanabilir bir kriz analizi şablonu sunar.",
+      "quickSummary": [
+        "1) Kriz öncesi baz çizgiyi oluştur",
+        "2) Kriz penceresinde risk ve kontrol KPI’larını izle",
+        "3) Sentiment ve tematik yoğunluğu ayrı oku",
+        "4) Recovery trendini baz çizgi bandına dönüşle ölç",
+        "5) Sosyal metrikleri web trafik, lead/rezervasyon ve inbound çağrı gibi iş KPI’larıyla birlikte değerlendir"
+      ],
+      "ctaPrimary": {
+        "label": "Kriz & Marka İtibarı Sosyal Medya Analizi Talep Et",
+        "text": "Kriz öncesi/anı/sonrası metrikleri çıkarır, recovery sürecini ölçer ve aksiyon planını sahiplendirir; otel ve B2B markalar için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kriz & Marka İtibarı Sosyal Medya Analizi Talep Et",
+        "text": "Kriz öncesi baz çizgi, kriz KPI’ları ve recovery trendleriyle itibar hasarını ölçer; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Kriz Öncesi/Anı/Sonrası Sosyal Medya Performans Raporlama Şablonunu İndir",
+        "text": "Pre/post baseline ve recovery grafikleriyle krizi veriyle okumanızı, toparlanma planını hızla kurmanızı sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Satış sonrası destek",
+        "href": "/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "label": "KVKK ve veri güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Satış Sonrası Destek ve Çağrı Merkezi",
+        "href": "/cagri-merkezi/satis-sonrasi-destek"
+      },
+      {
+        "title": "KVKK ve Veri Güvenliği Raporlama",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kriz-oncesi-baz-cizgi",
+        "title": "Kriz öncesi baz çizgi nasıl oluşturulur?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Baz çizgi, “normal koşulda” sosyal medya davranışının fotoğrafıdır. Baz çizgi olmadan kriz yorumunu doğru yapmak zordur; çünkü hangi sapmanın “normal dalga”, hangisinin “kriz etkisi” olduğunu ayırt edemezsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Baz çizgi için minimum set (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hacim: günlük yorum/DM sayısı (ortalama + aralık)",
+              "Duygu: pozitif/nötr/negatif oranı",
+              "Topluluk: takipçi net değişimi (günlük)",
+              "Performans: reach/impressions trendi",
+              "Trafik: GA4 social sessions ve kalite (Varsayım: mevcut)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Normalde günde 20 DM alıyorsunuz; kriz gününde 250 DM geldi. Baz çizgi, bunun “10x sapma” olduğunu net gösterir ve ekip için alarm seviyesini belirler."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (baz çizgi)",
+            "items": [
+              "Baz çizgi için 30–90 günlük veri var mı? (Varsayım: mümkünse 90)",
+              "Sentiment oranı düzenli ölçülüyor mu?",
+              "DM hacmi ve negatif artış eşikleri var mı? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kriz olmadan önce “baz çizgi dashboard”u hazırla",
+              "Baz çizgiyi sezona göre de düşün (turizmde)",
+              "Baz çizgiyi belirli aralıklarla güncelle (yılda en az 1)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kriz-doneminde-kpi",
+        "title": "Kriz döneminde hangi KPI’lar takip edilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Kriz penceresinde KPI’lar “başarı” değil “risk ve kontrol” için izlenir. Amaç; krizin büyüyüp büyümediğini görmek, yanlış anlaşılmayı azaltmak ve operasyon/CRM aksiyonunu hızlandırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi KPI’lar kriz döneminde önemlidir? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Negatif yorum/DM hızı: 1 saat/24 saat artış",
+              "Sentiment oranı: negatif payı ve temalar",
+              "Takipçi net değişimi: ani kayıp veya unfollow dalgası",
+              "Erişim/mention: kriz içeriği ne kadar yayılıyor?",
+              "Açıklama içerikleri: pin’li post / story / SSS performansı",
+              "Yanıt süresi: DM ve yorumlara dönüş hızı (Varsayım: SLA)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kriz türleri ve KPI odağı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Operasyon krizi: temizlik/hizmet/rezervasyon problemi → DM, sentiment tema yoğunluğu",
+              "İtibar krizi: yanlış bilgi/PR → mention, paylaşım hızı, açıklama post performansı",
+              "Güvenlik krizi: güvenlik/sağlık → duygu + güven temaları, inbound çağrı (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (kriz KPI)",
+            "items": [
+              "Negatif artış hızı ölçülüyor mu?",
+              "Sentiment temaları çıkarılıyor mu?",
+              "Açıklama/pin’li içerik KPI’ları raporda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Krizde “hız KPI”larına odaklan (24 saat)",
+              "Açıklama/SSS içeriklerini ayrı raporla",
+              "DM yanıt SLA’sını artır (kriz günlerinde)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yorum-sentiment-medya-yansimalari",
+        "title": "Yorum/Sentiment ve medya yansımaları (tematik okuma)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Krizde sadece “negatif arttı” demek yetmez; neden arttı ve hangi temada yoğunlaştı? Ayrıca kriz büyürken bazen sosyal medya dışı yansımalar (haber/kişisel paylaşımlar) sosyal konuşmayı etkiler (Varsayım: markanın sektörüne göre)."
+          },
+          {
+            "type": "h3",
+            "text": "Sentiment + tema haritası (kriz odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Temalar: güvenlik, hizmet, fiyat, iletişim, etik, süreç",
+              "Her tema için: negatif yoğunluk + örnek cümle + önerilen aksiyon"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Negatif temanın çoğu “iletişim gecikmesi” ise, asıl çözüm içerik değil süreç/SLA olabilir. Sentiment analizi bunu ayırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (tematik okuma)",
+            "items": [
+              "Negatiflerin %70’i tek temada mı birikiyor?",
+              "Yanıtlar temaya göre mi hazırlanıyor?",
+              "“Yanlış bilgi” mi “gerçek hizmet hatası” mı ayrıştı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Temaya göre cevap şablonları üret",
+              "Operasyonel temada “düzeltme planı” paylaş",
+              "Yanlış bilgi varsa “tek doğrulama sayfası”na yönlendir (SSS/pin)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sentiment + takipçi değişimi özet tablosu",
+            "headers": [
+              "Dönem",
+              "Negatif oran",
+              "Negatif yorum/DM hızı",
+              "Takipçi net",
+              "Açıklama post CTR/erişim",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Baz çizgi",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——"
+              ],
+              [
+                "Kriz penceresi",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——"
+              ],
+              [
+                "Recovery",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kriz-sonrasi-recovery-trendleri",
+        "title": "Kriz sonrası toparlanma (Recovery) trendleri",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Kriz bitti sanmak kolaydır; ama itibar “gecikmeli” toparlanır. Recovery analizi, duygunun ve topluluk davranışının baz çizgiye ne kadar sürede döndüğünü ölçer."
+          },
+          {
+            "type": "h3",
+            "text": "İtibar ve güven toparlanmasını grafikte nasıl görürüm? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sentiment (negatif oran) trendini günlük/haftalık çiz",
+              "Negatif yorum/DM hızını çiz",
+              "Takipçi net değişimini çiz",
+              "Açıklama/SSS içerik performansını çiz (zamanla düşüş normal)",
+              "Baz çizgi aralığını grafikte “band” olarak göster (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Recovery için 3 aşama"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Şok: negatif hız yüksek",
+              "Stabilizasyon: negatif hız düşer, ama duygu hâlâ düşük",
+              "Normalleşme: duygu ve hacim baz çizgi bandına döner"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (recovery)",
+            "items": [
+              "Negatif oran baz çizgi bandına döndü mü?",
+              "Takipçi kaybı durdu mu?",
+              "SSS/pin’li içerik hâlâ doğru soruları cevaplıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Recovery boyunca “haftalık itibar raporu” çıkar (4–6 hafta)",
+              "Kriz sonrası içerik planını “güven” temasıyla güncelle",
+              "Operasyonel aksiyonları dışa vur (kanıt + ilerleme)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-kriz-raporlari",
+        "title": "Otel ve B2B için örnek kriz raporları (iş KPI’larıyla bağlamak)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Kriz analizi sadece sosyal metrikle kalırsa “algı”yı ölçer; ama işletme “iş etkisini” de görmek ister."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği (operasyon krizi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sosyal: negatif DM artışı, temizlik/hizmet teması",
+              "Web: teklif sayfası trafiği düşüşü veya iptal niyeti (Varsayım)",
+              "Çağrı merkezi: inbound şikâyet artışı (Varsayım)",
+              "Aksiyon: operasyon düzeltme + SSS + pin’li post + DM SLA"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği (itibar/güven krizi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sosyal: “sonuç vermiyor” teması, güven kaybı",
+              "Web: demo talebi düşüşü (Varsayım)",
+              "Sales: toplantı iptali artışı (Varsayım)",
+              "Aksiyon: kanıt/case içerikleri + süreç iyileştirme + net açıklama"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "Kriz raporlamasında sadece sosyal metriklere değil; rezervasyon/lead, inbound çağrı ve web trafiği gibi iş KPI’larına da bakılmalıdır. Aksi halde toparlanma gerçekçi okunamaz."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Kriz dönemlerinde anlık panik yerine veriye dayalı okuma yapan ekipler, toparlanma stratejilerini ve içerik planını daha hızlı ve hedefe dönük güncelleyebilir; çünkü recovery trendleri “ne işe yaradı?”yı gösterir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kriz & Marka İtibarı Sosyal Medya Analizi Talep Et",
+            "text": "Pre/post baseline + kriz KPI + recovery trend raporu çıkarır; süreç iyileştirmelerini sahiplendirir.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kriz Öncesi/Anı/Sonrası Sosyal Medya Performans Raporlama Şablonunu İndir",
+            "text": "Baz çizgi, kriz KPI’ları ve recovery grafikleriyle raporu standartlaştırır, stres anında rehberlik sağlar.",
+            "href": "/smm/analiz-raporlama"
+          },
+           {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kriz-raporlama-sablonu",
+        "title": "Kriz Öncesi/Anı/Sonrası Sosyal Medya Performans Raporlama Şablonunu İndir — SMM / Crisis Analytics",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kriz Öncesi/Anı/Sonrası Sosyal Medya Performans Raporlama Şablonu — SMM / Crisis Analytics (v1.0)",
+            "purpose": "Bu şablon, krizi üç döneme ayırarak raporlamanızı sağlar: baz çizgi (pre), kriz penceresi (during) ve toparlanma (recovery). Sentiment, negatif yorum/DM hızı, takipçi net değişimi ve açıklama/SSS içerik performansını tek sayfada toplar; ardından 14 günlük recovery sprint planıyla operasyon/CRM/içerik aksiyonlarını sahiplendirir.",
+            "whoFor": "Otel, turizm, sağlık ve reputasyon riski yüksek B2B markalarda kriz iletişimi ve sosyal medya ekipleri.",
+            "steps": [
+              "Kriz tarih aralığını ve baz çizgi dönemini yazın.",
+              "Kriz KPI tablosunu doldurup en kritik temaları seçin.",
+              "14 günlük recovery sprint planıyla aksiyonları uygulayıp grafikte toparlanmayı izleyin."
+            ],
+            "checklist": [
+              "Kriz başlangıç/bitiş zamanı net mi?",
+              "Baz çizgi dönemi seçildi mi (30–90g)?",
+              "Negatif yorum/DM hızı ölçülüyor mu?",
+              "Sentiment + tema haritası çıkarıldı mı?",
+              "Takipçi net değişimi izleniyor mu?",
+              "Pin’li açıklama/SSS içerikleri KPI’ları raporda mı?",
+              "Web trafik/lead/rezervasyon KPI’ları eklendi mi? (Varsayım)",
+              "Aksiyon sahipleri belirlendi mi (Operasyon/CRM/İçerik)?"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: KPI doğrulama + tema sınıflandırma + kriz mesajı standardı",
+              "Gün 3–4: Pin’li post/SSS güncelleme + DM yanıt protokolü",
+              "Gün 5–7: Operasyon/CRM düzeltmeleri + sık soruların içerikleşmesi",
+              "Gün 8–10: Recovery içerik planı (güven/kanıt) + moderasyon ayarları",
+              "Gün 11–12: Trend kontrol (sentiment/DM hızı/takipçi) + ek aksiyon",
+              "Gün 13–14: Retrospective: öğrenimler + kriz rehberi güncellemesi"
+            ],
+            "deliverables": [
+              "Kriz pre/during/post trend grafiği",
+              "Sentiment + tema özeti",
+              "1 sayfa yönetici özeti + öğrenimler",
+              "Güncellenmiş kriz playbook’u"
+            ],
+            "mediaNotes": [
+              "Buraya: [Trend Graph] — 16:9 — pre/during/post trend grafiği",
+              "Buraya: [Checklist Card] — 1:1 — kriz analizi checklist’i",
+              "Buraya: [KPI Card] — 1:1 — sentiment & follower değişimi kartı"
+            ],
+            "href": "/downloads/kriz-oncesi-ani-sonrasi-sosyal-medya-performans-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kriz sonrası sosyal medya performansı nasıl analiz edilir?",
+        "a": "Krizi üç döneme ayırın: kriz öncesi baz çizgi, kriz penceresi ve kriz sonrası recovery. Kriz döneminde negatif yorum/DM hızı, sentiment, takipçi net değişimi ve açıklama/pin’li içerik performansını izleyin. Recovery’de bu KPI’ların baz çizgi bandına ne kadar sürede döndüğünü trend grafikleriyle takip edin ve aksiyon planıyla kapatın."
+      },
+      {
+        "q": "Hangi KPI’lar kriz döneminde önemlidir?",
+        "a": "Negatif yorum/DM artış hızı, sentiment oranı ve temaları, takipçi net değişimi, mention/erişim yayılımı ve açıklama/SSS/pin’li içerik performansı kritiktir. Ayrıca mümkünse web trafiği ve dönüşüm (lead/rezervasyon) KPI’ları da izlenmelidir."
+      },
+      {
+        "q": "İtibar ve güven toparlanmasını grafikte nasıl görürüm?",
+        "a": "Sentiment oranı, negatif yorum/DM hızı ve takipçi net değişimini günlük/haftalık trend grafiğinde izleyin. Baz çizgi dönemini “band” olarak gösterip recovery’nin bu banda dönüş süresini ölçün. Açıklama içeriklerinin performansını da ayrı izlemek, hangi müdahalenin işe yaradığını gösterir."
+      },
+      {
+        "q": "Otel/B2B için kriz raporu nasıl hazırlanır?",
+        "a": "Otelde operasyon temaları (temizlik/hizmet) ve rezervasyon etkisi; B2B’de güven/sonuç temaları ve lead/toplantı etkisi öne çıkar. Her iki durumda da baz çizgi + kriz KPI + recovery trend + 14 günlük aksiyon planı raporun çekirdeğini oluşturur."
+      },
+      {
+        "q": "Kriz raporunda sadece sosyal metriklere bakmak yeterli mi?",
+        "a": "Hayır. Sosyal metrikler algıyı gösterir; ancak web trafiği, inbound çağrı ve lead/rezervasyon gibi iş KPI’ları toparlanmanın gerçek etkisini ölçer. İkisini birlikte okumak daha doğru teşhis sağlar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-hero-01.webp",
+          "h1-context — 1920×1080 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-divider-03.webp",
+          "divider-02 — 1600×1200 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-divider-04.webp",
+          "diagram-05 — 1920×1080 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-kpi-07.webp",
+          "proof-08 — 1200×1200 — marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi-proof-08.webp",
+          "table-crisis-kpi-summary — Kriz öncesi/dönemi/sonrası KPI özeti tablosu (sentiment + takipçi + negatif hız)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /cagri-merkezi/satis-sonrasi-destek, /raporlama/kvkk-veri-guvenligi",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: raporlama şablonu",
+          "Tablo: sentiment + takipçi değişimi özet tablosu eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi"
+        ]
+      }
+    }
+  },
+
+  "BlogSeoSemVeSmmPerformansiniBirlikteRaporlamakOmnichannelDashboard": {
+    "title": "SEO + SEM + SMM Omnichannel Dashboard Nasıl Kurulur?",
+    "slug": "seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SEO, SEM ve SMM KPI’larını tek dashboard’ta birleştirin. Kanal rollerini discover, consider ve convert aşamalarında görünür kılın; sinerji-çakışmayı ölçün ve bütçe kararlarını ortak KPI setiyle verin.",
+    "seo": {
+      "metaTitle": "SEO + SEM + SMM Omnichannel Dashboard Nasıl Kurulur? | DGTLFACE",
+      "metaDescription": "SEO, SEM ve SMM KPI’larını tek dashboard’ta birleştirin. Kanal rollerini (discover/consider/convert) gösterin, sinerji-çakışmayı ölçün ve bütçe kararlarını ortak KPI setiyle verin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 14 — /tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard"
+      ],
+      "strategySummary": "Bu blog, SEO/SEM/SMM raporlarını parçalı okumayı bırakıp tek bir omnichannel dashboard ile kanalların funnel içindeki rolünü (discover/consider/convert) görünür kılan otorite içeriğidir. Hedef persona; çok kanallı yatırım yapan otel grupları, B2B markalar ve ajans yöneticileridir; çünkü “hangisi işe yarıyor?” sorusuna tek hikâyede ve tek KPI setiyle yanıt ister. Funnel’da stratejik karar destek: bütçe kaydırma, kanal rolü netleştirme ve çakışma/sinerji tespiti sağlar. Ana iş sorusu: “SEO, Ads ve sosyal medya birlikte çalışırken hangi kanal hangi aşamada katkı veriyor ve bütçeyi nasıl dengelemeliyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Omnichannel dashboard, SEO (organik trafik/sıralama), SEM (Ads ROAS/CPA) ve SMM’yi (organik+ads erişim/lead) aynı funnel ve KPI diliyle birleştirir. Böylece “kanal kanal rapor” yerine kanalların rolünü (discover/consider/convert) ve gerçek katkısını birlikte okursunuz. Doğru kurulum için UTM naming, kanal/medium mapping ve GA4 + Looker Studio modellemesini önce standardize edin; sonra unified KPI seti, kanal rol tablosu ve attribution (ilk/assist/son dokunuş) görünümünü ekleyin.",
+      "sgeSummary": "SEO, SEM ve SMM’yi tek panelde birleşik KPI’larla okuyun. Kanal rollerini gösterin, sinerji-çakışmayı ölçün; önce UTM ve GA4 mapping’i standardize edin, sonra dashboard’ı kurun.",
+      "voiceAnswer": "SEO/Ads/sosyal raporları birleşik dashboard’ta birleştir; kanal rollerini ve katkıyı aynı KPI’larla göster.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli çok kanallı dijital yatırım yapan otel grupları ve B2B markalar",
+        "Kanallar: SEO + SEM + SMM (organik + paid)",
+        "Entity theme: funnel, KPI, attribution, channel roles, synergy/overlap",
+        "Model: holistic reporting → budget re-allocation → single narrative",
+        "Ön koşul: UTM naming + channel/medium mapping + GA4/Looker modellemesi",
+        "Çıktı: omni-dashboard mockup + rol tablosu + checklist",
+        "Başarı ölçümü: bütçe kaydırma ve strateji güncelleme kararlarının hızlanması"
+      ]
+    },
+    "h1": {
+      "title": "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard",
+      "intro": "SEO raporu ayrı, Google Ads raporu ayrı, sosyal medya raporu ayrı olunca yönetim toplantısında aynı soru döner: “Peki hangisi işe yarıyor?” Bu soru, tek bir kanalı değil; kanalların birlikte çalıştığı funnel’ı sorar. Çünkü otel ve B2B markalarda kullanıcı, çoğu zaman aramada görür (SEO/SEM), sosyalde ikna olur (SMM), sonra tekrar arayıp dönüşür (SEM/brand). Omnichannel dashboard, bu zinciri tek panelde gösterir: kanalların rolünü, KPI’larını, sinerjisini ve çakışmasını. Bu rehberde, omni-dashboard kurulum adımlarını, ortak KPI setini ve yönetici için “tek hikâye” kapanışını kuracağız.",
+      "quickSummary": [
+        "1) SEO, SEM ve SMM raporlarını tek funnel diliyle birleştir",
+        "2) Kanal rollerini discover/consider/convert olarak netleştir",
+        "3) UTM naming + GA4 channel mapping standardını kur",
+        "4) Unified KPI setiyle yönetici özetini tek sayfaya indir",
+        "5) Sinerji/çakışma bulgularıyla bütçe kaydırma kararlarını veriye bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Omnichannel SEO+SEM+SMM Rapor Analizi Talep Et",
+        "text": "Kanal mapping + unified KPI seti + rol tablosu ile omni-dashboard’ı kurar; otel ve B2B markalar için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Omnichannel SEO+SEM+SMM Rapor Analizi Talep Et",
+        "text": "SEO/Ads/SMM’yi tek KPI diliyle birleştirir, kanal rollerini netleştirir; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "SEO+SEM+SMM Omnichannel Dashboard & KPI Şablonunu İndir",
+        "text": "UTM mapping ve unified KPI setiyle omni-dashboard’ı standartlaştırır, bütçe kararlarını tek hikâyede toplar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Looker Studio raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Looker Studio ile Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "title": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-omnichannel-dashboard",
+        "title": "Neden omnichannel dashboard?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Parçalı rapor, her kanalı “kendi içinde” iyi gösterir ama toplam etkiyi ve kanal rolünü göstermez. Omnichannel dashboard’un amacı; kanalları tek bir “performans hikâyesi”nde buluşturmak ve şu üç soruyu cevaplamaktır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hangi kanal hangi aşamada güçlü?",
+              "Kanallar birbirini besliyor mu, çakışıyor mu?",
+              "Bütçeyi nereye kaydırırsak toplam sonuç büyür?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): SMM destinasyon içeriğiyle talep yaratır, SEM brand aramalarını yakalar, SEO oda sayfalarıyla ikna eder. Ayrı raporda bu sinerji görünmez; omni-dashboard’ta “assist” katkı görünür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (omni ihtiyaç)",
+            "items": [
+              "“SEO iyi, Ads iyi, sosyal iyi” ama toplam iş etkisi belirsiz mi?",
+              "Bütçe kaydırma kararları tartışmalı mı?",
+              "Kanalların rolü ekip içinde net değil mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dashboard’u “kanal KPI’ları” değil “funnel KPI’ları” etrafında kur",
+              "Rol tablosunu (discover/consider/convert) rapora ekle",
+              "Toplantıda açılan tek sayfa hedefle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seo-sem-smm-kpi-birlestirme",
+        "title": "SEO, SEM ve SMM KPI’larını nasıl birleştirirsiniz?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Birleştirmek “her şeyi aynı KPI yapmak” değildir. Doğru yaklaşım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ortak KPI’lar: herkesin konuşacağı “tek dil”",
+              "Kanal özel KPI’lar: her kanalın rolünü doğru ölçmek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi KPI’lar kanallar arasında ortak, hangileri farklı olmalı? "
+          },
+          {
+            "type": "h3",
+            "text": "Ortak (Unified) KPI’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Nitelikli trafik (GA4 engaged sessions, Varsayım)",
+              "Dönüşüm (lead/rezervasyon)",
+              "Gelir/ROAS veya CPA (ölçüm olgunluğuna göre)",
+              "Brand demand proxy (brand search / branded clicks, Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kanal özel KPI’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SEO: organik trafik, sıralama, organik CTR, brand search trendi",
+              "SEM: spend, CPC, CTR, CPA/ROAS, impression share (Varsayım)",
+              "SMM: reach/impressions, engagement quality, video retention, social lead/traffic"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Birleştirme mantığı (mapping)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4’te kanal gruplamasını doğru kur (organic search / paid search / organic social / paid social)",
+              "Kampanya ve UTM adlandırmasını standardize et",
+              "Looker Studio’da “unified KPI layer” oluştur"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "UTM naming, kanal/medium mapping ve GA4/Looker Studio modellemesi omni-dashboard tasarımından önce standardize edilmelidir. Aksi halde aynı kampanya farklı kanallara dağılır ve dashboard güven kaybeder."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (unified KPI)",
+            "items": [
+              "GA4 channel grouping doğru mu?",
+              "UTM standardı tüm kampanyalarda aynı mı?",
+              "Ortak KPI’ları 5–7 aralığında tutabildin mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce veri sözlüğü (channel mapping) oluştur",
+              "Sonra unified KPI katmanını kur",
+              "En son kanal detay panellerini ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanallar-arasi-sinerji-cakisma",
+        "title": "Kanallar arası sinerji ve çakışma (Synergy vs Overlap)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Omnichannel dashboard’un en büyük değeri, “bir kanalın diğerinin alanını çalıp çalmadığını” veya “bir kanalı besleyip beslemediğini” görmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Sinerji örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SMM içerikleri → brand search artışı (SEO/SEM)",
+              "SEO içerikleri → remarketing havuzu (SMM/SEM)",
+              "SEM kampanyaları → hızlı test öğrenimi (SEO içerik önceliği)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çakışma (overlap) sinyalleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Paid search, organik trafiği gereksiz yere “ikame” ediyorsa (Varsayım: marka aramalarında)",
+              "Paid social, aynı kitleyi çok frekansla tüketip organik etkileşimi düşürüyorsa",
+              "Kanal mesajları tutarsızsa (funnel kopuyor)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): LinkedIn paid ile lead geliyor; ama SEO’da aynı anahtar kelimede organik sıralama yükselmiş. Paid bütçeyi “brand/non-brand” ayrımıyla optimize etmek gerekebilir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (sinerji/çakışma)",
+            "items": [
+              "Brand aramalarda paid/organic dengesi izleniyor mu?",
+              "Remarketing havuzları kanallar arasında paylaşılıyor mu?",
+              "Mesaj/teklif tutarlılığı kontrol ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Dashboard’a “brand vs non-brand” ve “assist” görünümü ekle (Varsayım)",
+              "Çakışma gördüğünde test planı çıkar (bütçe kaydırma)",
+              "Funnel mesajını tekleştir (landing + kreatif + reklam metni)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-cok-kanalli-rapor-ornekleri",
+        "title": "Otel ve B2B için çok kanallı rapor örnekleri",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel omni-dashboard örneği (rol bazlı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Discover: SMM (destinasyon/konsept içerikleri) + SEO (destinasyon sayfaları)",
+              "Consider: SEO (oda sayfaları), SMM (UGC/kanıt), SEM (non-brand aramalar)",
+              "Convert: SEM (brand + remarketing), site dönüşüm optimizasyonu (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Hızlı yorum: Otelde “brand demand” çoğu zaman SMM/SEO’dan beslenir; SEM bunu son adımda yakalar."
+          },
+          {
+            "type": "h3",
+            "text": "B2B omni-dashboard örneği (lead odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Discover: SEO (problem aramaları) + SMM (thought leadership)",
+              "Consider: SEO (case/rehber), SEM (high-intent keywords), SMM (retargeting)",
+              "Convert: SEM (demo/teklif), SMM (lead form/remarketing), landing"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (örnek uyarlama)",
+            "items": [
+              "Kanal rollerini sektörüne göre yazdın mı?",
+              "Unified KPI’lar her iki örnekte aynı mı?",
+              "Yönetici özeti 1 sayfaya sığıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde: “destinasyon → teklif → rezervasyon” zincirini dashboard’a koy",
+              "B2B’de: “rehber/case → demo” zincirini ölç",
+              "Her iki modelde assist katkıyı görünür yap"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kanal rollerini özetleyen tablo",
+            "headers": [
+              "Kanal",
+              "Rol",
+              "Discover",
+              "Consider",
+              "Convert"
+            ],
+            "rows": [
+              [
+                "SEO",
+                "Organik talep",
+                "✓",
+                "✓",
+                "○"
+              ],
+              [
+                "SEM",
+                "Kontrollü ölçek",
+                "○",
+                "✓",
+                "✓"
+              ],
+              [
+                "SMM",
+                "Talep + ikna",
+                "✓",
+                "✓",
+                "○/✓"
+              ]
+            ],
+            "note": "○ = duruma göre (kampanya türüne bağlı)"
+          }
+        ]
+      },
+      {
+        "id": "yonetici-ozeti-kanal-rolleri",
+        "title": "Yönetici özeti ve kanal rolleri (tek hikâye)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Omnichannel rapor, yönetici için “tek sayfa” olmalı. Detaylar ayrı panellerde dursun; yönetici sayfasında şunlar yer alsın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3 KPI: nitelikli trafik, dönüşüm, maliyet/gelir (Varsayım: ölçüm)",
+              "Kanal rolleri tablosu",
+              "3 öğrenim: sinerji/çakışma bulgusu",
+              "3 aksiyon: bütçe kaydırma + içerik + landing"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Omni-dashboard yapısı oturduğunda, SEO/Ads/SMM aksiyonlarının “tek hikâye” içinde görülmesi kolaylaşır; bütçe ve strateji güncelleme kararları daha hızlı ve güvenle alınır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (exec summary)",
+            "items": [
+              "3 KPI ile anlatabiliyor musun?",
+              "Rol tablosu net mi?",
+              "3 aksiyon “kim/tarih” ile sahiplendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yönetici özetini raporun ilk sayfası yap",
+              "Kanal ekiplerini “rol” diliyle hizala",
+              "Aylık bütçe kaydırma kararını bu sayfadan çıkar"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Omnichannel SEO+SEM+SMM Rapor Analizi Talep Et",
+            "text": "Omni-dashboard’ı kurar, kanal rollerini netleştirir, tek hikâye üretir; otel ve B2B için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SEO+SEM+SMM Omnichannel Dashboard & KPI Şablonunu İndir",
+            "text": "Kanal mapping, unified KPI seti ve rol tablosuyla omni-dashboard’ı hızlıca standartlaştırmanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "omnichannel-dashboard-kpi-sablonu",
+        "title": "SEO+SEM+SMM Omnichannel Dashboard & KPI Şablonunu İndir — Omnichannel Analytics",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "SEO+SEM+SMM Omnichannel Dashboard & KPI Şablonu — Omnichannel Analytics (v1.0)",
+            "purpose": "Bu şablon, SEO/SEM/SMM verilerini tek bir omnichannel dashboard’ta birleştirerek unified KPI seti ve kanal rol tablosu (discover/consider/convert) sunar. UTM naming, channel/medium mapping ve GA4/Looker modellemesini sabitleyip “sinerji/çakışma” bulgularını ve bütçe kaydırma kararlarını tek hikâyede raporlamanızı sağlar.",
+            "whoFor": "Çok kanallı dijital yatırım yapan otel grupları, B2B markalar ve ajans analistleri.",
+            "steps": [
+              "UTM + channel mapping sözlüğünü oluşturun ve GA4’te doğrulayın.",
+              "Unified KPI katmanını kurup kanal panellerini bağlayın.",
+              "Rol tablosu + yönetici özetini ekleyip aylık karar ritmini başlatın."
+            ],
+            "template": {
+              "dataDictionary": [
+                "organic_search → SEO",
+                "paid_search → SEM",
+                "organic_social → SMM (organik)",
+                "paid_social → SMM (ads)",
+                "brand vs non-brand (Varsayım): ____ (kuralınızı yazın)"
+              ],
+              "unifiedKpiSet": [
+                "Nitelikli trafik (GA4 engaged sessions): ____",
+                "Dönüşüm (lead/rezervasyon): ____",
+                "Maliyet (CPA) / Gelir (ROAS) (Varsayım): ____",
+                "Brand demand proxy (brand search/branded clicks): ____",
+                "Funnel ilerlemesi (assist/attribution, Varsayım): ____"
+              ],
+              "channelPanels": [
+                "SEO panel: organik trafik, sıralama, organik CTR, brand search trend",
+                "SEM panel: spend, CPC, CTR, CPA/ROAS, campaign breakdown",
+                "SMM panel: reach/impressions, engagement quality, video retention, social lead/traffic"
+              ],
+              "roleTable": "Kanal Rol Tablosu (Discover/Consider/Convert)",
+              "synergyOverlapControl": [
+                "Sinerji bulgusu 1: __________",
+                "Çakışma bulgusu 1: __________",
+                "Test planı: __________ (bütçe kaydırma/mesaj/landing)"
+              ],
+              "executiveSummary": [
+                "3 KPI sonucu: 1) ____ 2) ____ 3) ____",
+                "3 öğrenim: ____ / ____ / ____",
+                "3 aksiyon: ____ (sahip/tarih) / ____ / ____"
+              ]
+            },
+            "checklist": [
+              "UTM naming standardı uygulanıyor",
+              "GA4 channel grouping doğru",
+              "Looker modellemesi tekil KPI tanımlarıyla kurulu",
+              "Kanal rolleri yazılı ve ekiple hizalı",
+              "Aylık karar ritmi: bütçe kaydırma + test planı var"
+            ],
+            "deliverables": [
+              "Omni-dashboard (Looker)",
+              "KPI sözlüğü dokümanı",
+              "Rol tablosu",
+              "Yönetici özeti (1 sayfa)"
+            ],
+            "mediaNotes": [
+              "Buraya: [Dashboard Mockup] — 16:9 — SEO+SEM+SMM tek panel mockup",
+              "Buraya: [Role Table Card] — 1:1 — kanal rol tablosu kartı"
+            ],
+            "href": "/downloads/seo-sem-smm-omnichannel-dashboard-kpi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO, SEM ve SMM performansını tek panelde nasıl raporlarım?",
+        "a": "Önce UTM naming ve GA4 kanal/medium mapping’i standardize edin. Sonra unified KPI setini (nitelikli trafik, dönüşüm, CPA/ROAS) tanımlayıp SEO/SEM/SMM panellerini bu KPI’lara bağlayın. Son olarak kanal rollerini (discover/consider/convert) tabloyla gösterip yönetici özetini 1 sayfaya indirin."
+      },
+      {
+        "q": "Hangi KPI’lar kanallar arasında ortak, hangileri farklı olmalı?",
+        "a": "Ortak KPI’lar GA4 tabanlı nitelikli trafik ve dönüşüm gibi “tek dil” KPI’larıdır. Kanal özel KPI’lar SEO’da sıralama/organik CTR, SEM’de spend/CPA/ROAS, SMM’de reach/engagement/retention gibi rolü ölçen metriklerdir. İkisini birlikte kullanmak en sağlıklı yaklaşımdır."
+      },
+      {
+        "q": "Otel/B2B için omni-dashboard nasıl kurgulanır?",
+        "a": "Otelde discover katmanında SMM+SEO, convert katmanında SEM daha baskın olabilir; B2B’de SEO ve SEM high-intent dönüşümü taşırken SMM retargeting ile destekler. Dashboard’u funnel katmanları üzerinden kurgulayıp kanalların rolünü netleştirin."
+      },
+      {
+        "q": "Kanal rollerini (discover/consider/convert) raporda nasıl gösteririm?",
+        "a": "Rol tablosu kullanın ve her kanalın hangi aşamada güçlü olduğunu işaretleyin. Ardından unified KPI’larda (nitelikli trafik/dönüşüm) kanal katkısını ve sinerji-çakışma bulgularını kısa notlarla ekleyin."
+      },
+      {
+        "q": "Omni-dashboard için en kritik ön koşul nedir?",
+        "a": "UTM naming, kanal/medium mapping ve GA4/Looker modellemesinin standardize edilmesidir. Bu temel yoksa aynı kampanya farklı kanallara dağılır, KPI’lar tutarsızlaşır ve dashboard güven kaybeder."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-hero-01.webp",
+          "h1-context — 1920×1080 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-h1-context-02.webp",
+          "divider-01 — 1600×1200 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-divider-03.webp",
+          "divider-02 — 1600×1200 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-divider-04.webp",
+          "diagram-05 — 1920×1080 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-diagram-05.webp",
+          "checklist-06 — 1200×1200 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-checklist-06.webp",
+          "kpi-07 — 1200×1200 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-kpi-07.webp",
+          "proof-08 — 1200×1200 — seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard-proof-08.webp",
+          "table-channel-roles — Kanal rolleri (discover/consider/convert) tablosu + unified KPI notu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /raporlama/looker-studio, /veri-analiz-ve-raporlama, /seo/seo-raporlama",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: dashboard + KPI şablonu",
+          "Tablo: kanal rolleri discover/consider/convert olarak eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi",
+          "UTM naming + channel/medium mapping + GA4/Looker modellemesi teknik ön koşul olarak işlendi"
+        ]
+      }
+    }
+  },
+
+   "BlogAiDestekliSosyalMedyaAnaliziVeOtomatikIcgoruler": {
+    "title": "AI Destekli SMM Analizi: Insight Kartları ve İnsan Kontrolü",
+    "slug": "ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI insight kartlarıyla anomali ve trendleri hızla yakalayın. Otomatik özetleri önceliklendirme için kullanın; tarih/kampanya/sezon bağlamında doğrulamayı ve aksiyon kararını insan analiste bırakın.",
+    "seo": {
+      "metaTitle": "AI Destekli SMM Analizi: Insight Kartları ve İnsan Kontrolü | DGTLFACE",
+      "metaDescription": "AI insight kartlarıyla anomali ve trendleri hızla yakalayın. Otomatik özetleri önceliklendirme için kullanın; tarih/kampanya/sezon bağlamında doğrulamayı ve aksiyon kararını insan analiste bırakın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 15 — /tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda AI destekli insight kartları ve otomatik özetlerle analizi hızlandırmayı; ama karar kalitesini analyst-in-the-loop (insan kontrolü) modeliyle korumayı hedefleyen otorite içeriğidir. Hedef persona; veri hacmi yüksek otel grupları, ajanslar ve B2B ekipleridir; çünkü “tablo gezme” süresini azaltırken yanlış önceliklendirme riskini de yönetmek ister. Funnel’da stratejik karar destek: anomali/spike tespiti, trend okuma ve aksiyon önerilerini insan filtresiyle gerçek iş değerine bağlar. Ana iş sorusu: “AI özetler hızlandırır mı; hangi içgörüye güvenmeli ve hangi aksiyonu yine insan kararına bırakmalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI destekli sosyal medya analizi; otomatik özetler ve insight/anomali kartlarıyla ham verideki değişimleri hızlıca görünür kılar. “Bu hafta engagement neden düştü?” gibi sorularda AI, olası nedenleri ve dikkat noktalarını sıralayabilir; ancak hangi içgörünün iş değeri taşıdığına ve hangi aksiyonun alınacağına karar vermek hâlâ insan analistin görevidir. En iyi model, AI’nin hızlandırdığı ama insanın tarih/kampanya/sezon bağlamında doğruladığı hibrit (analyst-in-the-loop) yaklaşımdır.",
+      "sgeSummary": "AI insight kartları trend ve anomalileri hızlı bulur; insan analist bağlamla doğrular ve aksiyon kararını verir. En güvenli kullanım: AI özet + insan filtre + test/plan.",
+      "voiceAnswer": "AI raporu özetler ve sinyal çıkarır; ama karar, bağlam ve aksiyon planı insanda kalmalıdır.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli veri hacmi yüksek otel grupları, ajanslar, B2B ekipleri",
+        "Entity theme: AI insights, anomaly cards, KPI, aksiyon, analyst-in-the-loop",
+        "Kullanım alanı: anomali/trend tespiti, otomatik özet, önceliklendirme",
+        "Guardrail: ölçüm hatası/kısa dalga/seasonality → insan doğrulaması",
+        "Çıktı: insight kart mockup + AI→insan karar akışı + checklist",
+        "Risk: yanlış konfigürasyonla “gürültü üretimi”",
+        "Başarı ölçümü: analiz hızının artması + karar kalitesinin korunması"
+      ]
+    },
+    "h1": {
+      "title": "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler",
+      "intro": "Sosyal medya analizinde en büyük zaman kaybı, ham veriyi “tek tek gezmek”tir: platform panelleri, GA4, kampanya raporları, içerik performansı… AI destekli insight sistemleri bu yükü azaltabilir; anomali/spike noktalarını öne çıkarır, otomatik özetler üretir ve “dikkat etmen gereken yer burası” der. Ancak burada kritik bir ayrım var: AI hızlandırır; karar yine insandadır. Çünkü en pahalı hatalar, ölçüm hatasını “kriz” sanmak veya kısa dönem dalgalanmayı “strateji değişimi” diye okumaktır. Bu rehber; AI insight kartlarının ne olduğunu, hangi sorularda işe yaradığını, hangi sınırlarda kullanılacağını ve insan analist + AI hibrit modelini otel ve B2B örnekleriyle anlatır.",
+      "quickSummary": [
+        "1) AI insight kartlarını son karar değil ön inceleme olarak kullan",
+        "2) Otomatik özetleri anomali ve trend sinyallerini hızla görmek için değerlendir",
+        "3) Kritik içgörüleri tarih/kampanya/sezon bağlamında doğrula",
+        "4) Ölçüm hatası, kısa dalga ve seasonality riskini insan analistle filtrele",
+        "5) Kalan içgörüleri test backlog’u ve aksiyon sprintine çevir"
+      ],
+      "ctaPrimary": {
+        "label": "AI Destekli SMM Analiz & Insight Kullanım Analizi Talep Et",
+        "text": "AI insight kurulumunu KPI seti ve guardrail’lerle tasarlar; insan filtreli aksiyon akışını kurar; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI Destekli SMM Analiz & Insight Kullanım Analizi Talep Et",
+        "text": "AI insight kartlarını doğru KPI seti ve guardrail’lerle kurar, insan filtresiyle yanlış önceliği azaltır; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "AI + İnsan Sosyal Medya Analiz Akışı & Insight Checklist Şablonunu İndir",
+        "text": "AI özetlerini güvenli kullanmak için doğrulama adımları, rol dağılımı ve haftalık aksiyon ritmini standartlaştırır.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Looker Studio raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Looker Studio ile Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ai-destekli-icgoru-sistemleri-nedir",
+        "title": "AI destekli içgörü (Insight) sistemleri nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "AI insight sistemleri; raporlama aracının (ör. BI/Looker Studio benzeri) veya özel bir analiz katmanının, verideki değişimleri otomatik yakalayıp açıklama üretmesidir. Genellikle 3 çıktı türü vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otomatik özet: “Bu hafta şu oldu…”",
+              "Anomali kartı: “Bu metrik beklenenden saptı…”",
+              "Öneri kartı: “Şunları test etmeyi düşünebilirsin…” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AI destekli sosyal medya analizi nedir? "
+          },
+          {
+            "type": "p",
+            "text": "AI destekli analiz; veriyi sizin yerinize “yorumlamak” değil, verideki desenleri ve sapmaları hızlıca işaretleyip önceliklendirmektir. Analist, bu sinyalleri kampanya/sezon/ölçüm bağlamında doğrular ve gerçek aksiyonu seçer. Bu yüzden modelin adı “AI + insan”dır; tek başına AI raporu yeterli değildir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (tanım)",
+            "items": [
+              "AI “son karar” değil, “ön inceleme” mi?",
+              "Insight kartları veri kaynağıyla (GA4/panel) tutarlı mı?",
+              "Aynı içgörü farklı kaynakta doğrulanabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Insight kartlarını “öncelik listesi” gibi kullan",
+              "Kritik kararları ikinci kaynakla doğrula (GA4/panel)",
+              "AI’nın ürettiği önerileri test backlog’una çevir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otomatik-ozetler-ve-anomali-kartlari",
+        "title": "Otomatik özetler ve anomali kartları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Otomatik özetler, yönetici ve ekip için “hızlı resim” sağlar. Anomali kartları ise “norm dışı sapma”yı yakalar. Ama ikisi de yanlış konfigürasyonla gürültü üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Anomali kartları nasıl çalışır? "
+          },
+          {
+            "type": "p",
+            "text": "Anomali kartları genellikle bir metriğin önceki döneme, hareketli ortalamaya veya beklenen banda göre anlamlı sapmasını tespit eder. Örneğin engagement -%25 düşerse kart açılır; sistem olası nedenleri (format değişimi, kampanya bitişi, takipçi doygunluğu) sıralayabilir. Doğru yaklaşım, bu kartları “hipotez” olarak görmek ve insana doğrulatmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "En yararlı 5 otomatik kart türü (SMM için)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Engagement drop/spike (format/kitle etkisi)",
+              "CTR değişimi (teklif/kreatif yorgunluğu)",
+              "Conversion anomali (ölçüm/landing/form riski)",
+              "Negatif geri bildirim spike (itibar/kriz riski)",
+              "Kanal kırılım sapması (organic vs paid dengesizliği)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (kart kalitesi)",
+            "items": [
+              "Kart “ne değişti”yi net söylüyor mu?",
+              "“neden” kısmı hipotez mi, kesin hüküm mü?",
+              "Kart, aksiyon önerisini kanıtla bağlıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kartların eşiklerini trend/yüzde bazlı ayarla",
+              "Conversion anomalilerini “kritik” seviyeye al",
+              "Negatif geri bildirim kartını kriz playbook’una bağla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-sorular-icin-ai-icgoru-kullanisli",
+        "title": "Hangi sorular için AI içgörü kullanışlıdır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI içgörü, her soruda iyi değildir. En iyi olduğu yer “büyük veri + çok kırılım” içinde sinyal bulmaktır; en zayıf olduğu yer ise “bağlam” gerektiren kararlar."
+          },
+          {
+            "type": "h3",
+            "text": "AI’nin iyi olduğu soru tipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu hafta ne değişti?” (özet)",
+              "“Hangi metrik norm dışı saptı?” (anomali)",
+              "“Hangi içerik formatı yükseliyor/düşüyor?” (pattern)",
+              "“Hangi ülke/cihaz segmentinde sorun var?” (segment sinyali, Varsayım)",
+              "“Hangi kampanya grubu en büyük sapmayı yarattı?” (breakdown)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AI’nin riskli olduğu soru tipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu düşüş kriz mi?” (sezon/kampanya etkisi olabilir)",
+              "“Bütçeyi %30 artırmalı mıyız?” (iş hedefi ve kısıtlar gerekir)",
+              "“Bu yorumlar gerçekten negatif mi?” (ironi/dil bağlamı)",
+              "“Hangi kanal en değerli?” (attribution/assist karmaşıklığı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (soru seçimi)",
+            "items": [
+              "Soru desen bulma mı, karar mı?",
+              "Karar ise bağlam verisi var mı? (kampanya/seasonality)",
+              "İkinci kaynakla doğrulama yapabiliyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "AI’yi “dikkat noktası” için kullan",
+              "Bütçe/strateji kararını insan + dashboard ile ver",
+              "Sentiment gibi nitel konularda insan örneklem kontrolü yap"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: AI uygun / insan şart karar tablosu",
+            "headers": [
+              "Soru tipi",
+              "AI uygun mu?",
+              "İnsan şart mı?",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Anomali tespiti",
+                "✓",
+                "○",
+                "eşik/filtre kontrol"
+              ],
+              [
+                "Otomatik özet",
+                "✓",
+                "○",
+                "bağlam eklenmeli"
+              ],
+              [
+                "Bütçe kaydırma kararı",
+                "○",
+                "✓",
+                "hedef + kısıt gerekir"
+              ],
+              [
+                "Kriz yorumu",
+                "○",
+                "✓",
+                "itibar ve bağlam şart"
+              ],
+              [
+                "Sentiment yorumlama",
+                "○/✓",
+                "✓",
+                "ironi/dil riski"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insan-analist-ai-hibrit-modeli",
+        "title": "İnsan analist + AI hibrit modeli (Analyst-in-the-Loop)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "En iyi model, AI’nin “hız”ını ve insanın “bağlam + muhakeme” gücünü birleştirir. Bu modelde roller nettir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI: sinyal çıkarır, özetler, olası nedenleri listeler",
+              "İnsan: doğrular, önceliklendirir, aksiyon seçer, test tasarlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AI içgörülerine ne kadar güvenmeliyim? "
+          },
+          {
+            "type": "p",
+            "text": "AI içgörülerini “ilk taslak” ve “hipotez” olarak güvenilir sayabilirsiniz; ancak aksiyon kararını vermeden önce mutlaka üç kontrol yapın:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tarih/kampanya/sezon bağlamı",
+              "Ölçüm doğruluğu (UTM/event)",
+              "İkinci kaynak doğrulaması (GA4 vs panel)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu üç kontrol, AI’nin “gürültü üretici” olmasını engeller."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (hibrit model)",
+            "items": [
+              "AI içgörüsünü doğrulama adımlarım var mı?",
+              "Aksiyon önerisi test planına dönüyor mu?",
+              "Yanlış içgörüleri “geri besleme” ile azaltıyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Haftalık ritim: AI özet → analist doğrulama → 3 aksiyon",
+              "Aylık ritim: trend + seasonality kontrolü",
+              "En kritik KPI’larda (conversion) insan onayını zorunlu yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-kullanim-ornekleri",
+        "title": "Otel ve B2B için kullanım örnekleri (pratik)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği — “Bu hafta engagement neden düştü?”"
+          },
+          {
+            "type": "p",
+            "text": "AI kartı: “Reels engagement -%22”"
+          },
+          {
+            "type": "p",
+            "text": "İnsan doğrulama: kampanya bitti mi, sezon fazı değişti mi, format dağılımı değişti mi?"
+          },
+          {
+            "type": "p",
+            "text": "Aksiyon: 2 hook testi + destinasyon serisini geri getir + landing uyum kontrolü"
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği — “CTR düştü ama lead aynı”"
+          },
+          {
+            "type": "p",
+            "text": "AI kartı: “CTR -%18”"
+          },
+          {
+            "type": "p",
+            "text": "İnsan yorumu: CTR düşse de lead sabitse kalite artmış olabilir; hedefleme değişmiş olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Aksiyon: kreatif varyant test + form sürtünmesi kontrolü + segment bazlı okuma"
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "AI önerileri ölçüm hataları veya kısa dönem dalgalanmalarla karışabilir. Bu yüzden mutlaka tarih, kampanya ve sezon bağlamında insan tarafından yorumlanmalıdır; aksi halde yanlış önceliklendirme doğar."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "AI insight’lar doğru KPI seti ve insan kontrolüyle kullanıldığında analiz hızını ciddi artırabilir; yanlış konfigürasyonda ise “gürültü üretici” olabilir. Guardrail ve insan filtresi kritik farkı yaratır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli SMM Analiz & Insight Kullanım Analizi Talep Et",
+            "text": "AI insight kartlarını doğru KPI ve guardrail ile kurar; insan filtreli karar akışını standardize eder.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI + İnsan Sosyal Medya Analiz Akışı & Insight Checklist Şablonunu İndir",
+            "text": "AI özetlerini güvenli kullanmak için doğrulama adımlarını ve aksiyon ritmini standartlaştırır.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "ai-insan-analiz-akisi-checklist-sablonu",
+        "title": "AI + İnsan Sosyal Medya Analiz Akışı & Insight Checklist Şablonunu İndir — SMM / Analyst-in-the-Loop",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "AI + İnsan Sosyal Medya Analiz Akışı & Insight Checklist — SMM / Analyst-in-the-Loop (v1.0)",
+            "purpose": "Bu şablon, AI insight kartlarını “hızlandırıcı” olarak kullanırken karar kalitesini insan doğrulamasıyla koruyan analyst-in-the-loop sürecini standartlaştırır. Hangi insight’ın aksiyona dönüşeceğini belirlemek için tarih/kampanya/sezon kontrolü, ölçüm doğrulaması ve ikinci kaynak karşılaştırmasını zorunlu kılar; 14 günlük sprint planıyla test/iyileştirme döngüsünü kurar.",
+            "whoFor": "Veri hacmi yüksek otel grupları, ajanslar ve B2B SMM/performance analistleri.",
+            "steps": [
+              "AI’nin ürettiği özet ve anomali kartlarını haftalık “inbox” olarak toplayın.",
+              "Doğrulama checklist’iyle sinyali filtreleyin (ölçüm/kampanya/seasonality).",
+              "Kalan 3–5 içgörüyü test backlog’una çevirip 14 günlük sprintte uygulayın."
+            ],
+            "checklist": [
+              "Insight hangi KPI’da? (reach/CTR/conversion/sentiment)",
+              "Tarih aralığı ve kampanya durumu kontrol edildi mi?",
+              "Sezon fazı/YoY bağlamı kontrol edildi mi?",
+              "Ölçüm doğrulaması yapıldı mı? (UTM, GA4 event, kanal mapping)",
+              "İkinci kaynakla doğrulandı mı? (GA4 vs panel vs BI)",
+              "Etki seviyesi: düşük / orta / yüksek (iş KPI’larına göre)",
+              "Aksiyon türü seçildi mi? kreatif / hedefleme / landing / ölçüm düzeltme / CRM/operasyon"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Insight inbox → doğrulama → önceliklendirme (Top 3)",
+              "Gün 3–4: Hipotez + test tasarımı (kreatif/landing)",
+              "Gün 5–7: Uygulama (yayın + ölçüm kontrol)",
+              "Gün 8–10: Ara değerlendirme + iterasyon",
+              "Gün 11–12: Sonuç okuma + öğrenim yazımı",
+              "Gün 13–14: Playbook güncelleme + yeni sprint backlog’u"
+            ],
+            "deliverables": [
+              "Haftalık AI insight inbox (1 sayfa)",
+              "Doğrulama raporu (kalan 3 içgörü)",
+              "14 günlük test sonuçları + öğrenimler",
+              "Güncellenmiş guardrail dokümanı"
+            ],
+            "mediaNotes": [
+              "Buraya: [Diagram] — 16:9 — AI→insan karar akışı",
+              "Buraya: [Checklist Card] — 1:1 — doğrulama checklist’i",
+              "Buraya: [KPI Card] — 1:1 — anomali KPI kartı mockup"
+            ],
+            "href": "/downloads/ai-insan-sosyal-medya-analiz-akişi-insight-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AI destekli sosyal medya analizi nedir?",
+        "a": "AI destekli analiz; otomatik özetler, trend ve anomali kartlarıyla verideki değişimleri hızlıca işaretleyip önceliklendiren yaklaşımdır. AI “hipotez” üretir; insan analist kampanya/sezon/ölçüm bağlamında doğrular ve aksiyon kararını verir."
+      },
+      {
+        "q": "Otomatik insight kartları nasıl çalışır?",
+        "a": "Genellikle bir KPI’nın önceki dönem, hareketli ortalama veya beklenen banda göre sapmasını tespit eder ve kart üretir. Sistem olası nedenleri listeler; ancak bunlar kesin hüküm değil, doğrulanması gereken hipotezlerdir."
+      },
+      {
+        "q": "AI içgörülerine ne kadar güvenmeliyim?",
+        "a": "AI’yi sinyal ve önceliklendirme için güvenle kullanabilirsiniz; ancak aksiyon kararı vermeden önce kampanya/sezon bağlamı, ölçüm doğrulaması ve ikinci kaynak karşılaştırmasıyla insan kontrolü şarttır. Aksi halde kısa dalgalanmalar “kriz” sanılabilir."
+      },
+      {
+        "q": "İnsan analist bu modelde hangi rolü üstlenmeli?",
+        "a": "İnsan analist; içgörüleri doğrular, iş etkisine göre önceliklendirir, test tasarlar ve aksiyon planı oluşturur. Ayrıca yanlış pozitifleri azaltmak için eşik/konfigürasyonu günceller ve öğrenimleri playbook’a ekler."
+      },
+      {
+        "q": "AI raporları özetlese yeter mi?",
+        "a": "Hayır. AI özetleme hız kazandırır ama bağlam ve karar sorumluluğu insanda kalmalıdır. Özellikle kampanya, sezonluk dalgalanma ve ölçüm hataları, insan doğrulaması olmadan yanlış önceliklendirme doğurabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-hero-01.webp",
+          "h1-context — 1920×1080 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-h1-context-02.webp",
+          "divider-01 — 1600×1200 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-divider-03.webp",
+          "divider-02 — 1600×1200 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-divider-04.webp",
+          "diagram-05 — 1920×1080 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-diagram-05.webp",
+          "checklist-06 — 1200×1200 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-checklist-06.webp",
+          "kpi-07 — 1200×1200 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-kpi-07.webp",
+          "proof-08 — 1200×1200 — ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler-proof-08.webp",
+          "table-ai-human-decision — AI uygun / insan şart karar tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /raporlama/looker-studio, /veri-analiz-ve-raporlama",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: akış + checklist",
+          "Tablo: AI uygun / insan şart karar tablosu eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi",
+          "Analyst-in-the-loop modeli, guardrail ve insan doğrulama akışı işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogMultiAccountVeMultiBrandSosyalMedyaRaporu": {
+    "title": "Multi-Account SMM Raporu: Portföy Dashboard Nasıl Kurulur?",
+    "slug": "multi-account-ve-multi-brand-sosyal-medya-raporu",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ajans ve zincir oteller için multi-account/multi-brand sosyal medya raporu kurun. Grup→marka→hesap hiyerarşisi, ortak KPI seti, filtreler ve governance ile tek panelden yönetin.",
+    "seo": {
+      "metaTitle": "Multi-Account SMM Raporu: Portföy Dashboard Nasıl Kurulur? | DGTLFACE",
+      "metaDescription": "Ajans ve zincir oteller için multi-account/multi-brand sosyal medya raporu kurun. Grup→marka→hesap hiyerarşisi, ortak KPI seti, filtreler ve governance ile tek panelden yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 16 — /tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda ajanslar ve zincir otel grupları için “tek tek rapor” yaklaşımını bırakıp portföy (multi-account/multi-brand) dashboard mimarisini kuran otorite içeriktir. Hedef persona; onlarca hesap yöneten ajans yöneticileri ve çok markalı otel gruplarıdır; çünkü aynı anda hem “büyük resmi” hem de “hesap seviyesinde sorun/fırsat”ı tek yapıdan görmek ister. Funnel’da stratejik karar destek: bütçe/efor kaydırma, governance ve naming standardı ile sürdürülebilir raporlama sağlar. Ana iş sorusu: “Portföyü tek ekranda nasıl özetler, gerektiğinde marka/otel/hesap seviyesine kontrollü şekilde nasıl inerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Multi-account/multi-brand sosyal medya raporu, portföyü tek ekranda özetleyip gerektiğinde marka/otel ve hesap seviyesine inmeyi sağlayan bir dashboard mimarisidir. Doğru kurulum için grup→marka/hotel→hesap hiyerarşisi tanımlanır, ortak KPI seti oluşturulur (reach, engagement, trafik/lead), filtre ve segmentler (ülke, marka, hesap türü) planlanır ve governance (erişim/yetki) kuralları belirlenir. Naming standardı yoksa rapor hızla karışır.",
+      "sgeSummary": "Portföy dashboard; grup→marka→hesap hiyerarşisiyle SMM’yi tek panelde toplar. Ortak KPI seti, filtre/segment tasarımı ve governance + naming standardı ile sürdürülebilir hale gelir.",
+      "voiceAnswer": "Evet, onlarca hesabı tek panelde görebilirsin; portföy dashboard kurup filtrelerle hesap seviyesine inersin.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajanslar, zincir oteller, multi-brand B2B yapılar (TR geneli)",
+        "KPI çekirdeği: portföy KPI’ları + hesap KPI’ları (reach/engagement/traffic/lead)",
+        "Entity theme: brand portfolio, accounts, governance, filters, naming standard",
+        "Funnel: MoFu stratejik karar (bütçe/efor kaydırma)",
+        "Kritik risk: GA4/Looker’da data source ve hesap adları standardize değilse karmaşa",
+        "Çıktı: hiyerarşi şeması + KPI tablosu + multi-account checklist",
+        "Başarı ölçümü: tek sayfada kıyas + hızlı optimizasyon ve efor dağılımı"
+      ]
+    },
+    "h1": {
+      "title": "Multi-Account ve Multi-Brand Sosyal Medya Raporu Nasıl Kurulur?",
+      "intro": "Ajans olarak onlarca müşteri hesabı ya da zincir bir otel grubunda birden fazla marka/otel hesabı yönetiyorsanız, her hesabı ayrı ayrı raporlamak kısa sürede sürdürülemez hale gelir. Zaman kaybı bir yana, stratejik karar da zorlaşır: hangi hesap gerçekten büyüyor, hangisi geride kalıyor, bütçeyi ve üretim eforunu nereye kaydırmalıyız? Multi-account/multi-brand rapor yaklaşımı, bu sorunu bir portföy dashboard mimarisiyle çözer: portföyü tek ekranda özetler, gerektiğinde marka/otel ve hesap seviyesine kontrollü şekilde iner. Bu rehber, hiyerarşi tasarımını, ortak KPI setini, filtre/segment planını ve governance (erişim-yetki) kurulumunu pratik örneklerle anlatır.",
+      "quickSummary": [
+        "1) Grup→marka/otel→hesap hiyerarşisini netleştir",
+        "2) Ortak KPI sözlüğü ve naming standardı oluştur",
+        "3) Portföy, marka/otel ve hesap KPI katmanlarını ayır",
+        "4) Filtre/segment ve drill-down yapısını sade kur",
+        "5) Governance ile erişim-yetki ve veri izolasyonunu güvenceye al"
+      ],
+      "ctaPrimary": {
+        "label": "Multi-Account Sosyal Medya Rapor Analizi Talep Et",
+        "text": "Portföy dashboard mimarisini kurar, KPI seti + filtre yapısı + governance ile sürdürülebilir raporlama sağlar; ajans ve zincir yapılar için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Multi-Account Sosyal Medya Rapor Analizi Talep Et",
+        "text": "Portföyü tek panelde özetleyip hesap seviyesine drill-down ile iner; ajans ve zincir yapılar için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Multi-Account SMM Dashboard & KPI Yapısı Şablonunu İndir",
+        "text": "Hiyerarşi, ortak KPI seti ve filtre yapısıyla multi-account raporu hızlıca kurup sürdürülebilir hale getirmenizi sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Looker Studio raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Looker Studio ile Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "multi-account-smm-raporlama-zorluklari",
+        "title": "Multi-account/multi-brand SMM raporlama zorlukları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Çok hesaplı yapıda en büyük zorluk “veri” değil, standarttır. Her hesap farklı isimle, farklı KPI tanımıyla, farklı rapor formatıyla gelirse portföy raporu hızla Excel kabusuna döner."
+          },
+          {
+            "type": "h3",
+            "text": "En yaygın 5 zorluk"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Naming karmaşası (hesap adları, kampanya adları, veri kaynakları)",
+              "KPI tanımlarının tutarsızlığı (reach/engagement aynı mı?)",
+              "Farklı pazar ve diller (ülke segmentleri)",
+              "Erişim ve yetki (governance): kim hangi hesabı görür?",
+              "Operasyonel görünüm ile yönetici görünümünün karışması"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (ajans): Müşteri A “booking lead” sayıyor, Müşteri B “form submit” sayıyor. Portföy raporunda “lead” tek KPI gibi görünür ama aslında elma-armut kıyasıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (zorluk teşhisi)",
+            "items": [
+              "“Lead” tanımı tüm hesaplarda aynı mı?",
+              "Hesap adları ve country/brand etiketleri standart mı?",
+              "Erişim yetkisi net mi (müşteri verisi izolasyonu)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Veri sözlüğü (KPI dictionary) oluştur",
+              "Naming standardı zorunlu kıl",
+              "Operasyonel ve yönetici görünümünü ayır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajans-zincir-otel-portfoy-mantigi",
+        "title": "Ajans ve zincir otel senaryoları (portföy mantığı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Multi-account raporu iki ana dünyada çok kritik: ajans ve zincir/çok markalı işletmeler."
+          },
+          {
+            "type": "h3",
+            "text": "Ajans senaryosu (çok müşteri, tek operasyon)"
+          },
+          {
+            "type": "p",
+            "text": "Ajans tarafında amaç:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Portföyde “kim iyi, kim riskte?”yi hızlı görmek",
+              "Hesap bazında hızlı teşhis ve aksiyon",
+              "Müşteri gizliliği: erişim ayrıştırma (governance)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Zincir otel / multi-brand senaryosu"
+          },
+          {
+            "type": "p",
+            "text": "Otel gruplarında amaç:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup genelinde marka sesi ve talep göstergelerini görmek",
+              "Otel bazında (Belek/Side/Kemer gibi destinasyon farklılıkları) kıyas",
+              "Bölge/pazar bazında segment (ülke ve cihaz)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (senaryo uyumu)",
+            "items": [
+              "Ajans için müşteri izolasyonu var mı?",
+              "Otel grubunda marka/otel hiyerarşisi net mi?",
+              "Destinasyon/ülke segmentleri filtrelenebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ajans: müşteri bazlı workspace/row-level security kurgula (Varsayım: BI imkânına göre)",
+              "Otel grubu: marka→otel→hesap hiyerarşisini zorunlu etiket yap",
+              "Her iki durumda da ortak KPI katmanı kur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grup-marka-hesap-kpi-ayrimi",
+        "title": "Grup vs marka/hesap bazlı KPI’lar nasıl ayrılır?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Portföy dashboard’un kalbi bu ayrımdır: üst seviye KPI’lar ile alt seviye KPI’lar karışmamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Grup (portfolio) KPI’ları (özet katmanı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Toplam görünürlük trendi (reach/impressions toplam + trend)",
+              "Toplam nitelikli etkileşim (save/share gibi kalite sinyali)",
+              "Toplam trafik/lead katkısı (Varsayım: ölçüm varsa GA4)",
+              "Risk bayrakları: ani düşüş/spike, negatif yorum artışı (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kural: Grup KPI’ları, “toplam” kadar “dağılım” da göstermeli (en iyi/en kötü 5 hesap)."
+          },
+          {
+            "type": "h3",
+            "text": "Marka/Otel KPI’ları (ara katman)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka/otel bazında performans trendi",
+              "Pazar/ülke kırılımı",
+              "Content pillar veya format kırılımı (Varsayım: etiketleme)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hesap KPI’ları (operasyon katmanı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal + format bazlı KPI (post/story/reels; organic/paid)",
+              "Kampanya bazlı detay (Varsayım: paid varsa)",
+              "Aksiyon listesi (ne yapacağız?)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (KPI mimarisi)",
+            "items": [
+              "Grup KPI’ları “karar” üretiyor mu?",
+              "Marka/otel katmanı, kıyas yapmaya uygun mu?",
+              "Hesap katmanı, aksiyona iniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI’ları “katmanlara” göre tanımla",
+              "Grup katmanında 6–8 KPI’yı geçme",
+              "Alt katmanda detay KPI’ları bırak"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Çok hesaplı KPI seti örneği",
+            "headers": [
+              "Katman",
+              "KPI grubu",
+              "Örnek KPI",
+              "Kullanım"
+            ],
+            "rows": [
+              [
+                "Portföy",
+                "Health & trend",
+                "reach trend, lead trend",
+                "hızlı risk/fırsat"
+              ],
+              [
+                "Marka/Otel",
+                "Benchmark",
+                "ülke, cihaz, format",
+                "kıyas & yön"
+              ],
+              [
+                "Hesap",
+                "Ops",
+                "CTR, conversion, top içerik",
+                "aksiyon"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "portfoy-dashboard-tasarimi",
+        "title": "Portföy dashboard tasarımı (hiyerarşi + filtre + drill-down)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "İyi bir portföy dashboard, tek sayfada “özet” verir ama tek tıkla detay açar. Bunu sağlayan üç bileşen vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hiyerarşi: Grup → Marka/HOTEL → Hesap",
+              "Filtre/segment: ülke, marka, hesap türü (organic/paid), platform",
+              "Drill-down: “en kötü 5 hesap”tan hesap sayfasına geçiş"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Dashboard hiyerarşi şeması (zorunlu görsel fikri)"
+          },
+          {
+            "type": "p",
+            "text": "Portföy → marka/hotel → hesap hiyerarşisini tek diyagramda gösterin. Yönetici bu diyagramla “nasıl okuyacağını” anlar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (tasarım)",
+            "items": [
+              "İlk sayfa tek ekranda okunuyor mu?",
+              "Filtreler minimum ama kritik mi?",
+              "Drill-down ile hesap sayfasına geçiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. sayfa: portföy sağlık + en iyi/en kötü",
+              "2. sayfa: marka/otel kıyas",
+              "3. sayfa: hesap operasyon (format/kampanya/aksiyon)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "erisim-yetki-governance",
+        "title": "Erişim ve yetki (Governance) – görünürlük kontrolü",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Multi-account raporun görünmeyen ama en kritik katmanı governance’tır. Ajans için müşteri verisi izolasyonu, otel grubu için departman bazlı görünürlük, dış paydaş için kısıtlı görünüm gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Governance için 4 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hesap etiketleri zorunlu: brand, owner, ülke, hesap tipi",
+              "Yetki seviyesi: admin / analyst / client-view",
+              "Paylaşım formatı: “snapshot PDF” vs canlı dashboard",
+              "Audit log (Varsayım): kim neyi gördü/indirdi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "GA4/Looker Studio tarafında data source ve hesap adları standardize edilmezse multi-account dashboard kurarken ciddi karışıklık olur. Naming standardı ve veri sözlüğü, governance kadar kritiktir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (governance)",
+            "items": [
+              "Müşteri izolasyonu net mi?",
+              "Kullanıcı rolleri tanımlı mı?",
+              "Naming standardı zorunlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporlamayı “rol bazlı” tasarla (operasyon vs yönetici)",
+              "Paylaşımda hassas veriyi filtrele",
+              "Naming + etiket zorunluluğunu süreç dokümanına ekle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Portföy dashboard’ı kullanan ekiplerde, hesap bazlı sorun ve fırsatları tek sayfada karşılaştırıp bütçe ve eforu nereye kaydıracaklarına daha hızlı karar verebildikleri görülür; çünkü kıyas “tek yerde” yapılır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Multi-Account Sosyal Medya Rapor Analizi Talep Et",
+            "text": "Portföy dashboard’ı kurar, naming+governance ile sürdürülebilir hale getirir; ajans ve zincir yapılar için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Multi-Account SMM Dashboard & KPI Yapısı Şablonunu İndir",
+            "text": "Hiyerarşi, ortak KPI seti, filtreler ve governance alanlarını tek şablonda toplayarak portföy raporunu hızla kurmanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "multi-account-dashboard-kpi-sablonu",
+        "title": "Multi-Account SMM Dashboard & KPI Yapısı Şablonunu İndir — SMM / Portfolio Analytics",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Multi-Account SMM Dashboard & KPI Yapısı Şablonu — SMM / Portfolio Analytics (v1.0)",
+            "purpose": "Bu şablon, multi-account/multi-brand sosyal medya raporunu portföy dashboard mantığıyla kurmanız için hiyerarşi (grup→marka/otel→hesap), ortak KPI seti, filtre/segment yapısı ve governance alanlarını tek dokümanda toplar. Ajanslarda müşteri izolasyonu, zincir otellerde marka/otel kıyası ve operasyonel vs yönetici görünümü ayrımını netleştirir.",
+            "whoFor": "Ajanslar, zincir otel grupları ve multi-brand B2B organizasyonları.",
+            "steps": [
+              "Hesap/marka etiketlerini ve naming standardını doldurun.",
+              "KPI katmanlarını (portföy/marka/hesap) seçip dashboard sayfalarını planlayın.",
+              "Filtreler + governance kurallarıyla paylaşımı güvenli hale getirin."
+            ],
+            "template": {
+              "hierarchy": [
+                "Portfolio adı: __________________",
+                "Brand/Hotel listesi: __________________",
+                "Account listesi (platform bazlı): __________________"
+              ],
+              "namingStandard": [
+                "Brand code: ____",
+                "Hotel code (Varsayım): ____",
+                "Account naming: {brand}-{hotel}-{platform}-{country}",
+                "Campaign naming (Varsayım): YYYYMM_objective_market"
+              ],
+              "commonKpiSet": [
+                "Portföy KPI: reach trend, engagement quality, lead/traffic trend (Varsayım)",
+                "Marka/Otel KPI: ülke/cihaz/format kırılımı",
+                "Hesap KPI: CTR, conversion, top içerik, paid/organic ayrımı"
+              ],
+              "filtersAndSegments": [
+                "Ülke: ____",
+                "Marka: ____",
+                "Hesap türü: organic / paid",
+                "Platform: IG / TikTok / FB / LinkedIn",
+                "Dönem: 7g / 30g / 90g"
+              ],
+              "governance": [
+                "Rol: Admin / Analyst / Client-view",
+                "Görünürlük kuralı: __________________",
+                "Paylaşım: Canlı dashboard / PDF snapshot / Haftalık e-posta"
+              ],
+              "dashboardPagePlan": [
+                "Portfolio Overview (Health + Top/Low 5)",
+                "Brand/Hotel Compare (Benchmark)",
+                "Account Drill-down (Ops + Aksiyon)"
+              ]
+            },
+            "checklist": [
+              "KPI dictionary tamam",
+              "Naming standard zorunlu",
+              "Filtreler sade ve kritik",
+              "Drill-down çalışıyor",
+              "Governance kuralları yazılı"
+            ],
+            "deliverables": [
+              "Portföy dashboard",
+              "KPI sözlüğü + naming dokümanı",
+              "Yönetici özeti (1 sayfa)",
+              "Operasyonel aksiyon listesi"
+            ],
+            "mediaNotes": [
+              "Buraya: [Hierarchy Diagram] — 16:9 — grup→marka/otel→hesap şeması",
+              "Buraya: [Dashboard Mockup] — 16:9 — portföy overview ekranı"
+            ],
+            "href": "/downloads/multi-account-smm-dashboard-kpi-yapisi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Multi-account sosyal medya raporu nasıl kurulur?",
+        "a": "Grup→marka/otel→hesap hiyerarşisi tanımlayın, ortak KPI setini oluşturun ve filtre/segmentleri (ülke, marka, hesap türü) planlayın. Portföy overview sayfası ile başlayıp drill-down ile hesap seviyesine inin. Naming standard ve governance kuralları yoksa rapor sürdürülemez hale gelir."
+      },
+      {
+        "q": "Ajanslar ve zincir oteller için portföy dashboard’ı nasıl olmalı?",
+        "a": "Tek sayfada portföy sağlık (trend + risk bayrakları) ve en iyi/en kötü hesaplar görünmeli; ardından marka/otel kıyas sayfası ve hesap operasyon sayfası gelmeli. Ajanslarda müşteri izolasyonu, zincir otellerde marka/otel segmentleri ve destinasyon farkları filtrelenebilir olmalıdır."
+      },
+      {
+        "q": "Grup seviyesi ve hesap seviyesi KPI’ları nasıl ayrılır?",
+        "a": "Grup seviyesinde az KPI ile karar üretilir (trend, risk, lead/traffic yönü). Hesap seviyesinde detay KPI’lar ve aksiyonlar yer alır (format, kampanya, CTR, conversion). Bu iki katmanı aynı tabloda karıştırmak yanlış kıyas üretir."
+      },
+      {
+        "q": "Birden fazla hesap için ortak KPI seti nasıl tanımlanır?",
+        "a": "Önce KPI sözlüğü oluşturup tanımları standardize edin (lead/dönüşüm tanımı gibi). Sonra tüm hesaplar için ortak bir çekirdek set belirleyin (reach, engagement quality, trafik/lead) ve kanal/format özel KPI’ları alt seviyede bırakın."
+      },
+      {
+        "q": "Naming standardı neden kritiktir?",
+        "a": "Çünkü multi-account dashboard’da veri kaynakları, hesap adları ve kampanyalar aynı formatta değilse filtre ve drill-down doğru çalışmaz. Naming standard, raporun uzun vadede ölçeklenmesini ve governance’ı mümkün kılar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — multi-account-ve-multi-brand-sosyal-medya-raporu-hero-01.webp",
+          "h1-context — 1920×1080 — multi-account-ve-multi-brand-sosyal-medya-raporu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — multi-account-ve-multi-brand-sosyal-medya-raporu-divider-03.webp",
+          "divider-02 — 1600×1200 — multi-account-ve-multi-brand-sosyal-medya-raporu-divider-04.webp",
+          "diagram-05 — 1920×1080 — multi-account-ve-multi-brand-sosyal-medya-raporu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — multi-account-ve-multi-brand-sosyal-medya-raporu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — multi-account-ve-multi-brand-sosyal-medya-raporu-kpi-07.webp",
+          "proof-08 — 1200×1200 — multi-account-ve-multi-brand-sosyal-medya-raporu-proof-08.webp",
+          "table-multi-account-kpi-set — Multi-account SMM dashboard örnek KPI tablosu (grup/marka/hesap katmanları)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /raporlama/looker-studio, /veri-analiz-ve-raporlama",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: dashboard + KPI yapısı şablonu",
+          "Tablo: çok hesaplı KPI seti örneği eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi",
+          "Naming standardı, KPI dictionary ve governance kuralları teknik ön koşul olarak işlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogRolBazliSosyalMedyaDashboardlariCeoPazarlamaIcerikVeIk": {
+    "title": "Rol Bazlı SMM Dashboard: CEO, Pazarlama, İçerik, İK",
+    "slug": "rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CEO, pazarlama, içerik ve İK için aynı veriden farklı dashboard görünümleri tasarlayın. Rol→KPI eşleşmesiyle rapor kaosunu azaltın; filtre ve hesaplamalarda tutarlılığı koruyun.",
+    "seo": {
+      "metaTitle": "Rol Bazlı SMM Dashboard: CEO, Pazarlama, İçerik, İK | DGTLFACE",
+      "metaDescription": "CEO, pazarlama, içerik ve İK için aynı veriden farklı dashboard görünümleri tasarlayın. Rol→KPI eşleşmesiyle rapor kaosunu azaltın; filtre ve hesaplamalarda tutarlılığı koruyun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 17 — /tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda tek bir kalabalık dashboard’un “kimseye yetmeyen” yapısını bırakıp aynı veri setinden rol bazlı (CEO/Pazarlama/İçerik/İK) görünümler üretmeyi öğreten otorite içeriktir. Hedef persona; orta/büyük ölçekli otel grupları, ajanslar ve B2B markalardır; çünkü patron iş etkisi isterken ekip format detayına, İK ise employer branding’e bakar. Funnel’da stratejik karar destek: paydaşlar arası “farklı gerçeklik” algısını azaltır, raporu okunur ve aksiyon aldırır hale getirir. Ana iş sorusu: “Aynı veriden farklı rollere göre sade ama tutarlı panelleri nasıl tasarlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Rol bazlı sosyal medya dashboard’ları, aynı veri setinden farklı ekiplerin ihtiyaçlarına göre ayrı ama tutarlı özetler üretir: CEO iş etkisini (gelir/lead/rezervasyon/risk), pazarlama kanal karmasını ve funnel performansını, içerik ekibi post/story/reels KPI’larını, İK ise employer branding ve işe alım sinyallerini görür. Kritik kural, her panelde filtre ve hesaplamaların (tarih, kanal, para birimi) aynı “gerçeklik”te kalmasıdır; aksi halde ekipler arasında güven kaybı oluşur.",
+      "sgeSummary": "Tek dashboard herkese yetmez. Aynı veriden CEO, pazarlama, içerik ve İK için rol bazlı KPI panelleri üretin; ortak filtre/hesaplama standardıyla tutarlılığı koruyun.",
+      "voiceAnswer": "Patron ve ekip farklı şey istiyorsa, aynı veriden rol bazlı paneller üretip KPI’ları role göre sadeleştir.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli orta/büyük otel grupları, ajanslar, B2B markalar",
+        "Roller: CEO/üst yönetim, pazarlama-büyüme, içerik-SMM, İK/employer branding",
+        "Entity theme: role, KPI, dashboard view, shared data, governance/tutarlılık",
+        "Model: shared-data / different-cuts → stakeholder-friendly reporting",
+        "Risk: farklı panellerde farklı filtre/hesaplama → “farklı gerçeklik” algısı",
+        "Çıktı: rol bazlı panel şeması + rol→KPI tablosu + checklist",
+        "Başarı ölçümü: raporun okunma ve aksiyon alma oranının artması"
+      ]
+    },
+    "h1": {
+      "title": "Rol Bazlı Sosyal Medya Dashboard’ları: CEO, Pazarlama, İçerik ve İK Ekibi",
+      "intro": "Sosyal medya raporlarında en yaygın sorun, tek bir dashboard’a “herkesin görmek istediğini” koymaya çalışmaktır. Sonuç: kalabalık, karmaşık ve pratikte kimsenin düzenli kullanmadığı bir panel ortaya çıkar. Oysa CEO iş etkisi (lead/rezervasyon/risk) ister; pazarlama ekibi kanal karması ve funnel performansı görür; içerik ekibi format bazlı KPI’larla çalışır; İK ise employer branding ve işe alım sinyallerine bakar. Rol bazlı dashboard yaklaşımı, aynı veri setinden ayrı ama tutarlı görünümler üretir: herkes kendi dilinde okur, ama tek veri gerçekliği korunur. Bu rehberde rol→KPI eşleşmesini, panel layout önerilerini ve tutarlılık/filtre riskini nasıl yöneteceğinizi adım adım kuracağız.",
+      "quickSummary": [
+        "1) Roller ve karar sorularını netleştir",
+        "2) Her rol için 5–8 KPI seç",
+        "3) CEO, pazarlama, içerik ve İK panellerini ayrı tasarla",
+        "4) Aynı veri setinden farklı ama tutarlı özetler üret",
+        "5) KPI sözlüğü, filtre standardı ve governance ile “farklı gerçeklik” riskini azalt"
+      ],
+      "ctaPrimary": {
+        "label": "Rol Bazlı Sosyal Medya Dashboard Analizi Talep Et",
+        "text": "CEO/pazarlama/içerik/İK için rol bazlı KPI setleri ve layout’larla panelleri tasarlar; ortak veri gerçekliğini korur.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rol Bazlı Sosyal Medya Dashboard Analizi Talep Et",
+        "text": "CEO/pazarlama/içerik/İK için rol bazlı KPI setleriyle panelleri tasarlar; tek veri gerçekliğini korur.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Rol → KPI Eşleşmesi & Dashboard Layout Şablonunu İndir",
+        "text": "Rol bazlı KPI sözlüğü ve sayfa layout’larıyla dashboard’u hızlıca kurmanızı, ekiplerin aynı gerçeği görmesini sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Looker Studio raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Looker Studio ile Raporlama",
+        "href": "/raporlama/looker-studio"
+      },
+      {
+        "title": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "farkli-roller-icin-farkli-kpilar",
+        "title": "Farklı roller için farklı KPI’lar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Rol bazlı dashboard’un çıkış noktası şudur: aynı veri, farklı sorulara cevap verir. Bu yüzden önce “rol hangi soruyu soruyor?”u netleştirip sonra KPI’ları seçmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Rol bazlı sosyal medya dashboard’ı nasıl tasarlanır? (AEO cevap bloğu)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Roller ve karar sorularını yaz (CEO/pazarlama/içerik/İK)",
+              "Her rol için 5–8 KPI seç (sade)",
+              "Ortak filtre/hesaplama standardını sabitle (tarih, kanal, para birimi)",
+              "Aynı veri kaynağından farklı görünümler üret (shared-data/different-cuts)",
+              "Her paneli “aksiyon” bloğuyla kapat (3–5 madde)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: CEO panelinde “reach” değil “nitelikli trafik ve dönüşüm” öne çıkar; içerik panelinde ise reach yerine “retention/save/share” gibi içerik kalitesi sinyalleri daha anlamlıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (rol ayrımı)",
+            "items": [
+              "Her rol için “tek cümle karar sorusu” var mı?",
+              "KPI sayısı 8’i geçiyor mu? (fazlaysa kırp)",
+              "Aynı KPI farklı panelde farklı tanımlanmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol KPI’larını “tek sözlük”te topla",
+              "KPI’ları role göre sadeleştir",
+              "Her panelde 1 “Ne yapmalıyım?” alanı koy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ceo-ust-yonetim-paneli",
+        "title": "CEO / Üst Yönetim Paneli (iş etkisi + risk)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "CEO’nun istediği: sosyal medyanın iş sonucuna katkısı ve risk görünürlüğü. Bu panel, “kanal detayı” değil “iş dili” konuşur."
+          },
+          {
+            "type": "h3",
+            "text": "CEO için hangi sosyal medya KPI’ları önemli? (AEO cevap bloğu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lead/rezervasyon (Varsayım: ölçüm varsa)",
+              "Nitelikli trafik (GA4 engaged sessions/time, Varsayım)",
+              "CPA/ROAS (paid varsa)",
+              "Brand demand proxy (brand search/branded clicks, Varsayım)",
+              "Risk KPI’ları: negatif yorum/DM artışı, kriz bayrağı (Varsayım)",
+              "3 öğrenim + 3 aksiyon (yönetici formatı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): CEO paneli, “bu ay Reels izlenmesi arttı” demez; “rezervasyon niyeti/lead trendi ve maliyet” der. Riskte ise “negatif yorum artışı”nı erken görür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (CEO panel)",
+            "items": [
+              "3 KPI ile anlatabiliyor musun?",
+              "Risk bayrağı var mı?",
+              "Aksiyonlar sahiplendirildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CEO panelini 1 sayfada tut",
+              "Dönüşüm yoksa proxy KPI koy (nitelikli trafik)",
+              "Risk bölümünü “alarm” sistemiyle bağla (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pazarlama-buyume-paneli",
+        "title": "Pazarlama & Büyüme Paneli (kanal karması + funnel)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pazarlama ekibi, kanal karmasını ve funnel performansını görmek ister: hangi kanal hangi aşamada çalışıyor, bütçe nereye kaymalı?"
+          },
+          {
+            "type": "h3",
+            "text": "Pazarlama panelinin omurgası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal karması: SEO/SEM/SMM (Varsayım: omnichannel görünüm)",
+              "Funnel: discover → consider → convert",
+              "Paid KPI: spend, CTR, CPA/ROAS",
+              "Organic KPI: reach/engagement trend",
+              "Assist katkı (Varsayım: attribution modeli)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (pazarlama panel)",
+            "items": [
+              "Kanal rolleri net mi?",
+              "Funnel darboğazı görünüyor mu?",
+              "Bütçe kaydırma kararına giden 3 sinyal var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pazarlama panelinde “rol tablosu” kullan",
+              "Kampanya vs always-on ayrımı ekle",
+              "Haftalık test backlog’u ile kapat"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Rol → KPI Eşleştirme Tablosu",
+            "headers": [
+              "Rol",
+              "En kritik sorular",
+              "KPI seti (örnek)",
+              "Panel çıktısı"
+            ],
+            "rows": [
+              [
+                "CEO",
+                "İş etkisi var mı? Risk var mı?",
+                "lead/rez, CPA/ROAS, risk bayrakları",
+                "1 sayfa exec özet"
+              ],
+              [
+                "Pazarlama",
+                "Kanal rolü ne? Bütçe nereye?",
+                "kanal karması, funnel, ROAS/CPA",
+                "büyüme paneli"
+              ],
+              [
+                "İçerik",
+                "Ne işe yarıyor? Ne üretelim?",
+                "post/story/reels KPI, top içerik",
+                "üretim odağı"
+              ],
+              [
+                "İK",
+                "Aday ilgisi var mı?",
+                "kariyer trafik, başvuru niyeti, DM",
+                "employer paneli"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-smm-ekibi-paneli",
+        "title": "İçerik & SMM Ekibi Paneli (format + üretim odağı)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "İçerik ekibi için panel, “hangi format/pillar çalışıyor?” sorusunu cevaplamalıdır: post/story/reels KPI’ları, top içerikler, zayıf halka analizi."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik panelinde çekirdek KPI’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Post: ER + save/share",
+              "Story: completion/drop-off + reply/link taps",
+              "Reels: watch time/retention + save/share",
+              "Content pillar kıyası (Varsayım: etiketleme)",
+              "Top 10 & zayıf 10 içerik listesi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Case içerikleri kaydetme yüksekse, içerik paneli bunu ölçeklemeye yönlendirir; pazarlama paneli ise bunun lead’e etkisini izler."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (içerik panel)",
+            "items": [
+              "Format bazlı KPI’lar ayrı mı?",
+              "Top 10/zayıf 10 listesi var mı?",
+              "Haftalık üretim odağı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İçerik panelini “üretim brief”iyle bağla",
+              "Her hafta 2 test konsepti seç",
+              "Zayıf halka kategorilerini standartlaştır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ik-employer-branding-paneli",
+        "title": "İK / Employer Branding Paneli (işe alım + algı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İK’nın sosyal medya hedefi “satış” değildir; doğru adayları çekmek, algıyı yönetmek ve işe alım hunisini beslemektir. Bu panel, employer branding KPI’larını içerir."
+          },
+          {
+            "type": "h3",
+            "text": "İK panelinde örnek KPI seti (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kariyer sayfası trafiği (GA4)",
+              "İş başvurusu/başvuru niyeti event’i (Varsayım)",
+              "Employer branding içerik etkileşimi (save/share/comment quality)",
+              "Mesaj/DM hacmi (aday soruları)",
+              "Olumsuz tema/sentiment (işveren algısı, Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (İK panel)",
+            "items": [
+              "Kariyer sayfası KPI’ları var mı?",
+              "Aday soruları için DM akışı ölçülüyor mu?",
+              "Employer brand içerik serileri kıyaslanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İK panelini “aylık işe alım ritmi”ne bağla",
+              "Aday DM’leri için SLA ve şablon oluştur",
+              "En güçlü employer content pillar’ını seri yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ayni-veriden-farkli-ozetler",
+        "title": "Aynı veriden farklı özetler üretmek (tutarlılık riski)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Rol bazlı panelin en kritik riski: aynı veri farklı panellere taşınırken filtre ve hesaplamaların tutarsızlaşmasıyla ekipler “farklı gerçeklikler” yaşar."
+          },
+          {
+            "type": "h3",
+            "text": "Tutarlılık için 5 guardrail"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek veri sözlüğü: KPI tanımları tek yerde",
+              "Tek tarih filtresi: tüm paneller aynı default aralığı kullanır",
+              "Tek kanal mapping: GA4 channel group ve UTM standardı sabit",
+              "Para birimi/gelir hesapları tek yerde (Varsayım)",
+              "Panel sahipliği: her panelin owner’ı ve review ritmi var"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "Aynı veriyi farklı panellere taşırken filtre ve hesaplamalar (tarih, kanal, para birimi) tutarlı kalmazsa ekipler arasında “farklı gerçeklikler” algısı oluşur; bu da dashboard güvenini düşürür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (tutarlılık)",
+            "items": [
+              "KPI tanımı her panelde aynı mı?",
+              "Default filtreler aynı mı?",
+              "Aynı dönem için KPI’lar tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“KPI dictionary” + “dashboard governance” dokümanı yaz",
+              "Her ay panel tutarlılık audit’i yap",
+              "Değişiklikleri changelog ile paylaş"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Rol bazlı paneller tasarlayan ekiplerde, sosyal medya raporlarının gerçekten okunma ve aksiyon alma oranı belirgin yükselir; çünkü herkes kendi rolüne uygun, sade bir panel görür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rol Bazlı Sosyal Medya Dashboard Analizi Talep Et",
+            "text": "Rol KPI’larını ve layout’u tasarlar; tutarlılık ve governance ile dashboard’u yaşayan sisteme çevirir.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Rol → KPI Eşleşmesi & Dashboard Layout Şablonunu İndir",
+            "text": "CEO/pazarlama/içerik/İK için KPI seti ve sayfa layout’unu tek şablonda toplar, rol bazlı panel kurulumunu hızlandırır.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "rol-kpi-dashboard-layout-sablonu",
+        "title": "Rol → KPI Eşleşmesi & Dashboard Layout Şablonunu İndir — SMM / Role-Based",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Rol → KPI Eşleşmesi & Dashboard Layout Şablonu — SMM / Role-Based (v1.0)",
+            "purpose": "Bu şablon, CEO/pazarlama/içerik/İK ekipleri için rol bazlı KPI setlerini ve dashboard sayfa layout’larını tek dokümanda toplar. Aynı veri setinden farklı görünümler üretirken filtre ve hesaplamaların tutarlı kalmasını sağlayan guardrail’ler içerir; böylece “farklı gerçeklik” algısını azaltır.",
+            "whoFor": "Orta/büyük ölçekli otel grupları, ajanslar ve B2B markalarda raporlama sahipleri.",
+            "steps": [
+              "Roller ve karar sorularını yazın.",
+              "Rol başına 5–8 KPI seçip sözlüğe ekleyin.",
+              "Layout planını uygulayıp tutarlılık audit’iyle yayına alın."
+            ],
+            "template": {
+              "roleDefinitionsAndQuestions": [
+                "CEO: __________________",
+                "Pazarlama: __________________",
+                "İçerik: __________________",
+                "İK: __________________"
+              ],
+              "roleKpiDictionary": "Rol → KPI Sözlüğü",
+              "dashboardPageLayout": [
+                "CEO / Exec Overview (1 sayfa)",
+                "Marketing & Growth (funnel + kanal karması)",
+                "Content Ops (format + top içerik)",
+                "HR / Employer (kariyer + aday ilgisi)"
+              ],
+              "consistencyGuardrails": [
+                "Tek tarih filtresi: ____",
+                "Kanal mapping: ____",
+                "Para birimi/gelir hesapları: ____ (Varsayım)",
+                "KPI hesaplama yöntemi: ____",
+                "Değişiklik log’u: ____"
+              ],
+              "thirtyDayImplementationPlan": [
+                "Gün 1–3: KPI sözlüğü",
+                "Gün 4–7: Layout prototip",
+                "Gün 8–14: Veri doğrulama + filtre tutarlılığı",
+                "Gün 15–30: Pilot + geri bildirim + revizyon"
+              ]
+            },
+            "checklist": [
+              "KPI tanımları tek sözlükte",
+              "Default filtreler tüm panellerde aynı",
+              "Rol başına KPI sayısı 8’i geçmiyor",
+              "Panel sahipleri ve review ritmi tanımlı",
+              "“Farklı gerçeklik” riski kontrol edildi"
+            ],
+            "deliverables": [
+              "4 rol paneli (yayında)",
+              "KPI sözlüğü + mapping dokümanı",
+              "1 sayfa yönetici özet standardı",
+              "Aksiyon/backlog şablonu"
+            ],
+            "href": "/downloads/kpi-eslesmesi-dashboard-layout-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Rol bazlı sosyal medya dashboard’ı nasıl tasarlanır?",
+        "a": "Önce rollerin karar sorularını netleştirin, sonra her rol için 5–8 KPI seçin. Aynı veri kaynağından farklı görünümler üretirken tarih/kanal/para birimi gibi filtreleri ortaklaştırın. Her paneli “Ne yapmalıyım?” aksiyon bloğuyla kapatın."
+      },
+      {
+        "q": "CEO için hangi sosyal medya KPI’ları önemli?",
+        "a": "CEO için iş etkisi ve risk KPI’ları önemlidir: lead/rezervasyon, nitelikli trafik, CPA/ROAS (paid varsa) ve negatif yorum/DM artışı gibi risk bayrakları. KPI’lar teknik değil iş diliyle sunulmalıdır."
+      },
+      {
+        "q": "İçerik ekibi ve İK için ayrı panel gerekir mi?",
+        "a": "Evet. İçerik ekibi format (post/story/reels) ve içerik kalite sinyallerine (retention/save/share) bakar; İK ise kariyer trafiği, aday ilgisi ve employer branding sinyallerine odaklanır. Tek panelde ikisini birleştirmek pratikte okunabilirliği düşürür."
+      },
+      {
+        "q": "Aynı veriden farklı özetleri nasıl üretirim?",
+        "a": "Ortak bir KPI sözlüğü ve kanal mapping ile tek veri gerçekliği kurun. Ardından role göre filtrelenmiş sayfalar (views) üretin: her sayfada aynı tarih aralığı ve aynı hesaplama kuralları kullanılsın. Tutarlılık audit’iyle “farklı gerçeklik” riskini azaltın."
+      },
+      {
+        "q": "Rol bazlı dashboard’larda en büyük risk nedir?",
+        "a": "Filtre ve hesaplamaların tutarsızlaşmasıdır. Farklı paneller farklı tarih aralığı veya farklı kanal mapping ile çalışırsa ekipler aynı KPI için farklı sonuç görür ve dashboard’a güven kaybeder."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-hero-01.webp",
+          "h1-context — 1920×1080 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-h1-context-02.webp",
+          "divider-01 — 1600×1200 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-divider-03.webp",
+          "divider-02 — 1600×1200 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-divider-04.webp",
+          "diagram-05 — 1920×1080 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-diagram-05.webp",
+          "checklist-06 — 1200×1200 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-checklist-06.webp",
+          "kpi-07 — 1200×1200 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-kpi-07.webp",
+          "proof-08 — 1200×1200 — rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik-proof-08.webp",
+          "table-role-kpi-mapping — Rol → KPI Eşleştirme Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /raporlama/looker-studio, /seo/seo-raporlama",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: eşleşme + layout şablonu",
+          "Tablo: Rol → KPI Eşleştirme Tablosu eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi",
+          "KPI dictionary, ortak filtre/hesaplama standardı ve dashboard governance teknik ön koşul olarak işlendi"
+        ]
+      }
+    }
   }
 
 }

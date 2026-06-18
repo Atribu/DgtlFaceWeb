@@ -402,7 +402,12 @@ export const BLOG_MAP = {
      "kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak":"BlogKampanyaBazliVeAlwaysOnSosyalMedyaPerformansiniAyriRaporlamak",
      "anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri":"BlogAnomaliVeSpikeTespitiIcinOtomatikRaporVeAlertSistemleri",
      "influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas":"BlogInfluencerVeCreatorKampanyalariniRaporlamakKpiVeRoas",
-     "yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":"BlogYorumDmVeUgcIcinDuyguSentimentAnaliziNasilYapilir"
+     "yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":"BlogYorumDmVeUgcIcinDuyguSentimentAnaliziNasilYapilir",
+     "marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi":"BlogMarkaItibariVeKrizSonrasiSosyalMedyaPerformansAnalizi",
+     "seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard":"BlogSeoSemVeSmmPerformansiniBirlikteRaporlamakOmnichannelDashboard",
+     "ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler":"BlogAiDestekliSosyalMedyaAnaliziVeOtomatikIcgoruler",
+     "multi-account-ve-multi-brand-sosyal-medya-raporu":"BlogMultiAccountVeMultiBrandSosyalMedyaRaporu",
+     "rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":"BlogRolBazliSosyalMedyaDashboardlariCeoPazarlamaIcerikVeIk"
   },
 
     yazilim: {

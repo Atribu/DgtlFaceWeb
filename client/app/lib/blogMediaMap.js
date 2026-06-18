@@ -43545,6 +43545,257 @@ export const BLOG_MEDIA_MAP = {
       alt: "Sentiment raporu teslim paketi, ısı haritası ve aksiyon planı, marka yönetimi",
       caption: "Sentiment raporu teslim paketi, ısı haritası ve aksiyon planı, marka yönetimi"
     }
+  },
+
+  "marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi":{
+    banner: {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-1.webp",
+      alt: "Marka İtibarı ve Kriz Sonrası Sosyal Medya Performans Analizi",
+      caption: "Marka İtibarı ve Kriz Sonrası Sosyal Medya Performans Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-2.webp",
+      alt: "Kriz öncesi baz çizgi ve sapma, sosyal medya itibar izleme paneli, güven ölçümü",
+      caption: "Kriz öncesi baz çizgi ve sapma, sosyal medya itibar izleme paneli, güven ölçümü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-3.webp",
+    alt: "Kriz dönem KPI’ları, sentiment ve negatif artış takibi, reputasyon analizi",
+      caption: "Kriz dönem KPI’ları, sentiment ve negatif artış takibi, reputasyon analizi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-4.webp",
+      alt: "Recovery trendleri ve toparlanma fazları, kriz sonrası performans okuması, raporlama",
+      caption: "Recovery trendleri ve toparlanma fazları, kriz sonrası performans okuması, raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-5.webp",
+      alt: "Kriz pre/post baseline ve recovery akışı, güven toparlanma modeli, sosyal medya raporu",
+      caption: "Kriz pre/post baseline ve recovery akışı, güven toparlanma modeli, sosyal medya raporu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-6.webp",
+      alt: "Kriz analizi checklist’i, itibar ve güven izleme, yüksek stres rehberi",
+      caption: "Kriz analizi checklist’i, itibar ve güven izleme, yüksek stres rehberi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-7.webp",
+      alt: "Sentiment ve takipçi değişimi KPI kartları, kriz etkisi ölçümü, otel ve B2B",
+      caption: "Sentiment ve takipçi değişimi KPI kartları, kriz etkisi ölçümü, otel ve B2B"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-13/SMM5-13-8.webp",
+      alt: "Kriz raporu teslim paketi, recovery grafikleri ve öğrenimler, süreç iyileştirme",
+      caption: "Kriz raporu teslim paketi, recovery grafikleri ve öğrenimler, süreç iyileştirme"
+    }
+  },
+
+  "seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard":{
+    banner: {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-1.webp",
+      alt: "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard",
+      caption: "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-2.webp",
+      alt: "Omnichannel funnel görünümü, kanal rollerini gösteren rapor, karar paneli",
+      caption: "Omnichannel funnel görünümü, kanal rollerini gösteren rapor, karar paneli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-3.webp",
+    alt: "KPI birleştirme ve channel mapping, GA4 ve Looker Studio modelleme, raporlama standardı",
+      caption: "KPI birleştirme ve channel mapping, GA4 ve Looker Studio modelleme, raporlama standardı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-4.webp",
+      alt: "Sinerji ve çakışma analizi, bütçe kaydırma kararları, çok kanallı performans",
+      caption: "Sinerji ve çakışma analizi, bütçe kaydırma kararları, çok kanallı performans"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-5.webp",
+      alt: "Discover consider convert rol akışı, SEO SEM SMM sinerji diyagramı, omnichannel model",
+      caption: "Discover consider convert rol akışı, SEO SEM SMM sinerji diyagramı, omnichannel model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-6.webp",
+      alt: "Omnichannel rapor checklist’i, KPI ve mapping kontrolü, yönetici raporu",
+      caption: "Omnichannel rapor checklist’i, KPI ve mapping kontrolü, yönetici raporu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-7.webp",
+      alt: "Unified KPI kartları, SEO Ads sosyal performans, bütçe optimizasyon paneli",
+      caption: "Unified KPI kartları, SEO Ads sosyal performans, bütçe optimizasyon paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-14/SMM5-14-8.webp",
+      alt: "Omnichannel dashboard teslim paketi, Looker Studio paneli ve veri sözlüğü, raporlama",
+      caption: "Omnichannel dashboard teslim paketi, Looker Studio paneli ve veri sözlüğü, raporlama"
+    }
+  },
+
+
+  "ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler":{
+    banner: {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-1.webp",
+      alt: "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler",
+      caption: "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-2.webp",
+      alt: "Otomatik özetler ve anomali sinyalleri, analist-in-the-loop yaklaşımı, rapor ekranı",
+      caption: "Otomatik özetler ve anomali sinyalleri, analist-in-the-loop yaklaşımı, rapor ekranı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-3.webp",
+    alt: "AI insight kartları nasıl çalışır, SMM KPI yorumlama, güvenli kullanım prensipleri",
+      caption: "AI insight kartları nasıl çalışır, SMM KPI yorumlama, güvenli kullanım prensipleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-4.webp",
+      alt: "İnsan analist rolü ve doğrulama adımları, bağlam kontrolü, ölçüm güvenliği",
+      caption: "İnsan analist rolü ve doğrulama adımları, bağlam kontrolü, ölçüm güvenliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-5.webp",
+      alt: "AI önerisi insan kararı akışı, analyst-in-the-loop modeli, aksiyon planı",
+      caption: "AI önerisi insan kararı akışı, analyst-in-the-loop modeli, aksiyon planı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-6.webp",
+      alt: "AI içgörü checklist’i, doğrulama ve guardrail’ler, sosyal medya analizi",
+      caption: "AI içgörü checklist’i, doğrulama ve guardrail’ler, sosyal medya analizi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-7.webp",
+      alt: "Anomali kartları KPI paneli, trend ve spike tespiti, otel ve B2B",
+      caption: "Anomali kartları KPI paneli, trend ve spike tespiti, otel ve B2B"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-15/SMM5-15-8.webp",
+      alt: "AI destekli raporlama teslim paketi, insight kartları ve süreç dokümanı, ajans ekipleri",
+      caption: "AI destekli raporlama teslim paketi, insight kartları ve süreç dokümanı, ajans ekipleri"
+    }
+  },
+
+  "multi-account-ve-multi-brand-sosyal-medya-raporu":{
+    banner: {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-1.webp",
+      alt: "Multi-Account ve Multi-Brand Sosyal Medya Raporu Nasıl Kurulur?",
+      caption: "Multi-Account ve Multi-Brand Sosyal Medya Raporu Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-2.webp",
+      alt: "Portföy raporlama zorlukları, standardizasyon ve governance, multi-brand yapı",
+      caption: "Portföy raporlama zorlukları, standardizasyon ve governance, multi-brand yapı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-3.webp",
+    alt: "Ajans ve zincir otel portföy dashboard senaryosu, raporlama hiyerarşisi, kıyas paneli",
+      caption: "Ajans ve zincir otel portföy dashboard senaryosu, raporlama hiyerarşisi, kıyas paneli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-4.webp",
+      alt: "Grup marka hesap KPI katmanları, filtre ve drill-down tasarımı, raporlama mimarisi",
+      caption: "Grup marka hesap KPI katmanları, filtre ve drill-down tasarımı, raporlama mimarisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-5.webp",
+      alt: "Grup marka otel hesap hiyerarşisi, portföy dashboard akışı, drill-down ve segmentler",
+      caption: "Grup marka otel hesap hiyerarşisi, portföy dashboard akışı, drill-down ve segmentler"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-6.webp",
+      alt: "Multi-account rapor checklist’i, naming standardı ve governance, sürdürülebilir raporlama",
+      caption: "Multi-account rapor checklist’i, naming standardı ve governance, sürdürülebilir raporlama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-7.webp",
+      alt: "Portföy sağlık KPI kartları, en iyi en kötü hesaplar, ajans ve otel grubu görünümü",
+      caption: "Portföy sağlık KPI kartları, en iyi en kötü hesaplar, ajans ve otel grubu görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-16/SMM5-16-8.webp",
+      alt: "Portföy dashboard teslim paketi, KPI sözlüğü ve filtre yapısı, multi-brand rapor",
+      caption: "Portföy dashboard teslim paketi, KPI sözlüğü ve filtre yapısı, multi-brand rapor"
+    }
+  },
+
+  "rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":{
+     banner: {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-1.webp",
+      alt: "Rol Bazlı Sosyal Medya Dashboard’ları: CEO, Pazarlama, İçerik ve İK Ekibi",
+      caption: "Rol Bazlı Sosyal Medya Dashboard’ları: CEO, Pazarlama, İçerik ve İK Ekibi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-2.webp",
+      alt: "Aynı veriden farklı özetler, rol bazlı KPI seçimi, dashboard mimarisi",
+      caption: "Aynı veriden farklı özetler, rol bazlı KPI seçimi, dashboard mimarisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-3.webp",
+    alt: "CEO paneli, iş KPI’ları ve risk görünümü, rol bazlı raporlama yapısı",
+      caption: "CEO paneli, iş KPI’ları ve risk görünümü, rol bazlı raporlama yapısı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-4.webp",
+      alt: "İçerik ve İK panelleri, format ve employer branding KPI’ları, dashboard layout",
+      caption: "İçerik ve İK panelleri, format ve employer branding KPI’ları, dashboard layout"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-5.webp",
+      alt: "Rol bazlı 4 dashboard görünümü şeması, shared data farklı kesitler, panel mimarisi",
+      caption: "Rol bazlı 4 dashboard görünümü şeması, shared data farklı kesitler, panel mimarisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-6.webp",
+      alt: "Rol bazlı dashboard checklist’i, KPI tutarlılığı ve governance, rapor standartları",
+      caption: "Rol bazlı dashboard checklist’i, KPI tutarlılığı ve governance, rapor standartları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-7.webp",
+      alt: "Rol bazlı KPI kartları, CEO pazarlama içerik İK özetleri, karar paneli",
+      caption: "Rol bazlı KPI kartları, CEO pazarlama içerik İK özetleri, karar paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-17/SMM5-17-8.webp",
+      alt: "Rol bazlı dashboard teslim paketi, KPI sözlüğü ve layout’lar, Looker kurulumu",
+      caption: "Rol bazlı dashboard teslim paketi, KPI sözlüğü ve layout’lar, Looker kurulumu"
+    }
   }
   
 };

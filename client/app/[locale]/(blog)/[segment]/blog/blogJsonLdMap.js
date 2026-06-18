@@ -71962,7 +71962,1143 @@ export const BLOG_JSONLD_MAP = {
 
 },
 
-"yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":{}
+"yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir",
+
+      "name": "Yorum, DM ve UGC İçin Duygu (Sentiment) Analizi Nasıl Yapılır?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Sentiment Analysis" },
+
+        { "@type": "Thing", "name": "Comments" },
+
+        { "@type": "Thing", "name": "DMs" },
+
+        { "@type": "Thing", "name": "UGC" },
+
+        { "@type": "Thing", "name": "Thematic Insights" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#webpage"
+
+      },
+
+      "headline": "Yorum, DM ve UGC İçin Duygu (Sentiment) Analizi Nasıl Yapılır?",
+
+      "description": "Yorum, DM ve UGC’yi pozitif/nötr/negatif ve tema bazında analiz ederek sosyal medyada duyguyu ölçün; sonuçları hizmet, içerik ve CRM aksiyonlarına bağlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#howto",
+
+      "name": "Yorum ve DM’lerden Sentiment Analizi Yapma",
+
+      "description": "Yorum/DM/UGC verisini duygu ve tema bazında sınıflandırıp aksiyona çevirme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Veriyi topla", "text": "Yorum, DM, UGC ve mümkünse review verisini dönem bazında toplayın." },
+
+        { "@type": "HowToStep", "name": "Duygu sınıflandır", "text": "Mesajları pozitif/nötr/negatif olarak etiketleyin; karma mesajları notlayın." },
+
+        { "@type": "HowToStep", "name": "Tema etiketle", "text": "Otel için oda/hizmet/temizlik/konum; B2B için iletişim/kalite/sonuç gibi temalarla etiketleyin." },
+
+        { "@type": "HowToStep", "name": "Isı haritası çıkar", "text": "Tema bazında pozitif/negatif yoğunluğu görselleştirip en kritik 3 temayı seçin." },
+
+        { "@type": "HowToStep", "name": "Aksiyon planı yaz", "text": "Operasyon, CRM ve içerik aksiyonlarını sahip/tarih ile sahiplendirin; kritik kararları insan doğrulamasıyla verin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sentiment Analizi", "item": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sentiment analizi nedir, sosyal medyada nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sentiment analizi, yorum/DM/UGC metinlerini pozitif-nötr-negatif olarak sınıflandırıp tema etiketleriyle hangi konularda yoğunlaştığını çıkarır. Veriyi toplar, duygu+tema etiketler, ısı haritası üretir ve sonuçları operasyon/CRM/içerik aksiyonlarına bağlarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yorum ve DM’lerden duygu analizi nasıl çıkarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Örneklem veriyi toplayıp her mesajı duygu sınıfına koyun ve tema etiketi ekleyin. En negatif 3 temayı seçip aksiyon sahibi ve tarih belirleyin; sonraki dönemde aynı temaların değişimini karşılaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için hangi temalar takip edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda/temizlik/hizmet/yeme-içme/konum/fiyat; B2B’de hizmet kalitesi/iletişim/süreç/sonuç/destek/fiyat temaları izlenebilir. Tema setini 10–12 başlıkta tutmak yönetilebilirlik sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sentiment sonuçlarını aksiyona nasıl çeviririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Negatif yoğun temaları operasyon ve CRM aksiyonlarına bağlayın; pozitif temaları içerikte ölçekleyin; nötr temaları FAQ ve açıklama diliyle netleştirin. Her aksiyonu sahip ve tarihle sahiplendirin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi",
+
+      "name": "Marka İtibarı ve Kriz Sonrası Sosyal Medya Performans Analizi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Reputation" },
+
+        { "@type": "Thing", "name": "Crisis Analytics" },
+
+        { "@type": "Thing", "name": "Pre/Post Baseline" },
+
+        { "@type": "Thing", "name": "Recovery Trends" },
+
+        { "@type": "Thing", "name": "Sentiment" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#webpage"
+
+      },
+
+      "headline": "Marka İtibarı ve Kriz Sonrası Sosyal Medya Performans Analizi",
+
+      "description": "Kriz öncesi baz çizgi, kriz anı KPI’ları ve recovery trendleriyle sosyal medyada itibar hasarını ölçün; sentiment, takipçi ve negatif yorum/DM değişimini iş KPI’larıyla birlikte okuyun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#howto",
+
+      "name": "Kriz Sonrası Sosyal Medya Recovery Analizi",
+
+      "description": "Baz çizgi, kriz KPI’ları ve recovery trendleriyle itibar hasarını ölçme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Baz çizgiyi oluştur", "text": "Kriz öncesi 30–90 günlük reach, sentiment, DM hacmi ve takipçi net değişimi gibi KPI’ları baz çizgi olarak çıkarın." },
+
+        { "@type": "HowToStep", "name": "Kriz penceresini ölç", "text": "Kriz döneminde negatif yorum/DM hızı, sentiment oranı, takipçi kaybı ve açıklama/pin’li içerik performansını izleyin." },
+
+        { "@type": "HowToStep", "name": "Recovery trendini takip et", "text": "Kriz sonrası haftalık trend grafikleriyle KPI’ların baz çizgi bandına dönüş süresini ölçün ve aksiyon planını güncelleyin." },
+
+        { "@type": "HowToStep", "name": "İş KPI’larıyla bağla", "text": "Web trafik, inbound çağrı ve lead/rezervasyon gibi iş KPI’larını ekleyerek toparlanmayı gerçekçi değerlendirin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kriz ve İtibar Analizi", "item": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kriz sonrası sosyal medya performansı nasıl analiz edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Krizi baz çizgi, kriz penceresi ve recovery olarak üç döneme ayırın. Krizde negatif yorum/DM hızı, sentiment, takipçi net değişimi ve açıklama/pin’li içerik performansını izleyin. Recovery’de bu KPI’ların baz çizgi bandına dönüş süresini trend grafikleriyle ölçün ve aksiyon planıyla kapatın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar kriz döneminde önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Negatif yorum/DM artış hızı, sentiment oranı ve temaları, takipçi net değişimi, mention/erişim yayılımı ve açıklama/SSS/pin’li içerik performansı kritiktir. Mümkünse web trafiği ve lead/rezervasyon gibi iş KPI’ları da eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İtibar ve güven toparlanmasını grafikte nasıl görürüm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sentiment oranı, negatif yorum/DM hızı ve takipçi net değişimini günlük/haftalık trend grafiğinde izleyin. Baz çizgi dönemini band olarak gösterip recovery’nin bu banda dönüş süresini ölçün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel/B2B için kriz raporu nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel için operasyon temaları ve rezervasyon etkisi; B2B için güven/sonuç temaları ve lead/toplantı etkisi öne çıkar. Baz çizgi + kriz KPI + recovery trend + 14 günlük aksiyon planı ile raporlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard",
+
+      "name": "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Omnichannel Dashboard" },
+
+        { "@type": "Thing", "name": "SEO" },
+
+        { "@type": "Thing", "name": "SEM" },
+
+        { "@type": "Thing", "name": "SMM" },
+
+        { "@type": "Thing", "name": "Attribution" },
+
+        { "@type": "Thing", "name": "Channel Roles" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#webpage"
+
+      },
+
+      "headline": "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard",
+
+      "description": "SEO, SEM ve SMM KPI’larını tek omnichannel dashboard’ta birleştirerek kanal rollerini (discover/consider/convert) ve gerçek katkıyı birlikte okuyun; UTM ve GA4 mapping’i standardize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#howto",
+
+      "name": "SEO + SEM + SMM Omnichannel Dashboard Kurma",
+
+      "description": "Kanal mapping ve unified KPI setiyle SEO/SEM/SMM performansını tek panelde raporlama adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "UTM ve kanal mapping’i standardize et", "text": "UTM naming ve GA4 channel/medium mapping’i sabitleyin; organic search, paid search, organic social, paid social ayrımını doğrulayın." },
+
+        { "@type": "HowToStep", "name": "Unified KPI setini tanımla", "text": "Nitelikli trafik, dönüşüm ve CPA/ROAS gibi ortak KPI’ları belirleyin ve Looker modellemesine ekleyin." },
+
+        { "@type": "HowToStep", "name": "Kanal panellerini bağla", "text": "SEO (organik trafik/sıralama), SEM (Ads ROAS/CPA) ve SMM (reach/lead) panellerini unified KPI’lara bağlayın." },
+
+        { "@type": "HowToStep", "name": "Kanal rol tablosu ekle", "text": "Discover/consider/convert rol tablosunu ekleyip sinerji/çakışma bulgularını rapora notlayın." },
+
+        { "@type": "HowToStep", "name": "Yönetici özetini oluştur", "text": "3 KPI + 3 öğrenim + 3 aksiyon formatında tek sayfalık yönetici özetini ekleyin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Omnichannel Dashboard", "item": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "SEO, SEM ve SMM performansını tek panelde nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce UTM naming ve GA4 kanal/medium mapping’i standardize edin. Sonra unified KPI setini tanımlayıp SEO/SEM/SMM panellerini bu KPI’lara bağlayın; kanal rollerini discover/consider/convert tablosuyla gösterip yönetici özetini 1 sayfaya indirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi KPI’lar kanallar arasında ortak, hangileri farklı olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortak KPI’lar nitelikli trafik ve dönüşüm gibi GA4 tabanlı tek dil KPI’larıdır. Kanal özel KPI’lar SEO’da sıralama/organik CTR, SEM’de spend/CPA/ROAS, SMM’de reach/engagement/retention gibi metriklerdir; ikisi birlikte kullanılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kanal rollerini raporda nasıl gösteririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Discover/consider/convert rol tablosu kullanın ve her kanalın hangi aşamada güçlü olduğunu işaretleyin. Ardından unified KPI’larda katkıyı ve sinerji/çakışma bulgularını kısa notlarla ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Omni-dashboard için en kritik ön koşul nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UTM naming, kanal/medium mapping ve GA4/Looker modellemesinin standardize edilmesidir. Bu temel yoksa KPI’lar tutarsızlaşır ve dashboard güven kaybeder."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler",
+
+      "name": "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "AI Insights" },
+
+        { "@type": "Thing", "name": "Auto-Summaries" },
+
+        { "@type": "Thing", "name": "Anomaly Cards" },
+
+        { "@type": "Thing", "name": "Analyst-in-the-Loop" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#webpage"
+
+      },
+
+      "headline": "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler",
+
+      "description": "AI insight kartları ve otomatik özetlerle trend ve anomalileri hızla yakalayın; kampanya/sezon/ölçüm bağlamında insan doğrulamasıyla aksiyon kararını güvenli şekilde verin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#howto",
+
+      "name": "AI Insight Kartlarını Güvenli Kullanma",
+
+      "description": "AI özet ve anomali kartlarını insan doğrulamasıyla aksiyona çevirme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Insight’ı topla ve sınıflandır", "text": "AI’nin ürettiği özet ve anomali kartlarını KPI türüne göre sınıflandırın (engagement, CTR, conversion, sentiment)." },
+
+        { "@type": "HowToStep", "name": "Bağlam kontrolü yap", "text": "Tarih aralığı, kampanya durumu ve sezon fazını kontrol ederek içgörüyü bağlama oturtun." },
+
+        { "@type": "HowToStep", "name": "Ölçüm doğrulaması yap", "text": "UTM, GA4 event ve kanal mapping doğruluğunu kontrol ederek ölçüm hatası riskini azaltın." },
+
+        { "@type": "HowToStep", "name": "İkinci kaynakla doğrula", "text": "GA4 ve platform insights gibi ikinci bir kaynakla sinyali doğrulayın." },
+
+        { "@type": "HowToStep", "name": "Aksiyon ve test planı çıkar", "text": "Doğrulanan 3–5 içgörüyü test backlog’una çevirip 14 günlük sprintte uygulayın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI Destekli SMM Analizi", "item": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI destekli sosyal medya analizi nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI destekli analiz, otomatik özetler ve insight/anomali kartlarıyla verideki değişimleri hızlıca işaretleyip önceliklendirir. AI hipotez üretir; insan analist kampanya/sezon/ölçüm bağlamında doğrular ve aksiyon kararını verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otomatik insight kartları nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genellikle bir KPI’nın önceki dönem, hareketli ortalama veya beklenen banda göre sapmasını tespit eder ve olası nedenleri listeler. Bu nedenler kesin hüküm değil, doğrulanması gereken hipotezlerdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI içgörülerine ne kadar güvenmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI’yi sinyal ve önceliklendirme için kullanın; ancak aksiyon kararı öncesinde kampanya/sezon bağlamı, ölçüm doğrulaması ve ikinci kaynak karşılaştırmasıyla insan kontrolü şarttır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İnsan analist bu modelde hangi rolü üstlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İnsan analist içgörüleri doğrular, iş etkisine göre önceliklendirir, test tasarlar ve aksiyon planı oluşturur; yanlış pozitifleri azaltmak için eşikleri ve konfigürasyonu günceller."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"multi-account-ve-multi-brand-sosyal-medya-raporu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu",
+
+      "name": "Multi-Account ve Multi-Brand Sosyal Medya Raporu Nasıl Kurulur?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Multi-Account SMM" },
+
+        { "@type": "Thing", "name": "Portfolio Dashboard" },
+
+        { "@type": "Thing", "name": "Agency Reporting" },
+
+        { "@type": "Thing", "name": "Hotel Groups" },
+
+        { "@type": "Thing", "name": "Governance" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#webpage"
+
+      },
+
+      "headline": "Multi-Account ve Multi-Brand Sosyal Medya Raporu Nasıl Kurulur?",
+
+      "description": "Multi-account/multi-brand sosyal medya raporuyla portföyü tek ekranda özetleyin, marka/otel ve hesap seviyesine drill-down ile inin; ortak KPI seti, filtreler ve governance ile sürdürülebilir raporlama kurun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#howto",
+
+      "name": "Multi-Account Portföy Dashboard Kurma",
+
+      "description": "Grup→marka/otel→hesap hiyerarşisi ve ortak KPI setiyle multi-account SMM raporu oluşturma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Hiyerarşiyi tanımla", "text": "Portfolio (grup) → marka/otel → hesap hiyerarşisini belirleyin ve her hesabı etiketleyin." },
+
+        { "@type": "HowToStep", "name": "Ortak KPI setini oluştur", "text": "Portföy, marka/otel ve hesap seviyesinde KPI’ları katmanlı tanımlayın; KPI sözlüğü hazırlayın." },
+
+        { "@type": "HowToStep", "name": "Filtre ve drill-down tasarla", "text": "Ülke, marka ve hesap türü filtrelerini kurun; portföy overview’dan hesap detayına drill-down sağlayın." },
+
+        { "@type": "HowToStep", "name": "Governance ve naming standardı kur", "text": "Rol bazlı erişim/yetki ve naming standardını zorunlu hale getirerek raporu sürdürülebilir yapın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Multi-Account Raporlama", "item": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Multi-account sosyal medya raporu nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Grup→marka/otel→hesap hiyerarşisi tanımlayın, ortak KPI setini oluşturun ve filtre/segmentleri planlayın. Portföy overview sayfası ile başlayıp drill-down ile hesap seviyesine inin. Naming standard ve governance kuralları yoksa rapor sürdürülemez hale gelir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ajanslar ve zincir oteller için portföy dashboard’ı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek sayfada portföy sağlık trendi ve en iyi/en kötü hesaplar görünmeli; ardından marka/otel kıyas ve hesap operasyon sayfaları gelmeli. Ajanslarda müşteri izolasyonu, zincir yapılarda marka/otel segmentleri filtrelenebilir olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Grup seviyesi ve hesap seviyesi KPI’ları nasıl ayrılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Grup seviyesinde az KPI ile karar üretilir (trend, risk, lead/traffic yönü). Hesap seviyesinde detay KPI’lar ve aksiyonlar yer alır (format, kampanya, CTR, conversion). Bu iki katmanı aynı tabloda karıştırmak yanlış kıyas üretir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Naming standardı neden kritiktir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri kaynakları, hesap adları ve kampanyalar aynı formatta değilse filtre ve drill-down doğru çalışmaz. Naming standard, raporun ölçeklenmesini ve governance’ı mümkün kılar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/multi-account-ve-multi-brand-sosyal-medya-raporu#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":{}
     },
 
     yazilim: {
