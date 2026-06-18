@@ -407,7 +407,9 @@ export const BLOG_MAP = {
      "seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard":"BlogSeoSemVeSmmPerformansiniBirlikteRaporlamakOmnichannelDashboard",
      "ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler":"BlogAiDestekliSosyalMedyaAnaliziVeOtomatikIcgoruler",
      "multi-account-ve-multi-brand-sosyal-medya-raporu":"BlogMultiAccountVeMultiBrandSosyalMedyaRaporu",
-     "rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":"BlogRolBazliSosyalMedyaDashboardlariCeoPazarlamaIcerikVeIk"
+     "rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":"BlogRolBazliSosyalMedyaDashboardlariCeoPazarlamaIcerikVeIk",
+     "veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi":"BlogVeriKalitesiVeIzlemeHijyeniSosyalMedyaRaporlarinizGuvenilirMi",
+     "sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu":"BlogSosyalMedyaGelirRaporlamaVeCrmEntegrasyonu"
   },
 
     yazilim: {

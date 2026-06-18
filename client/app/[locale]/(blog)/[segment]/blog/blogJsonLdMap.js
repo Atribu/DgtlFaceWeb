@@ -73098,7 +73098,687 @@ export const BLOG_JSONLD_MAP = {
 
 },
 
-"rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":{}
+"rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik",
+
+      "name": "Rol Bazlı Sosyal Medya Dashboard’ları: CEO, Pazarlama, İçerik ve İK Ekibi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Role-Based Dashboards" },
+
+        { "@type": "Thing", "name": "CEO KPIs" },
+
+        { "@type": "Thing", "name": "Marketing KPIs" },
+
+        { "@type": "Thing", "name": "Content KPIs" },
+
+        { "@type": "Thing", "name": "HR Employer Branding" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#webpage"
+
+      },
+
+      "headline": "Rol Bazlı Sosyal Medya Dashboard’ları: CEO, Pazarlama, İçerik ve İK Ekibi",
+
+      "description": "Aynı veri setinden CEO, pazarlama, içerik ve İK ekipleri için rol bazlı dashboard görünümleri tasarlayın; rol→KPI eşleşmesiyle rapor kaosunu azaltın ve filtre tutarlılığını koruyun.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#howto",
+
+      "name": "Rol Bazlı Sosyal Medya Dashboard Tasarlama",
+
+      "description": "Aynı veri setinden CEO/pazarlama/içerik/İK için ayrı ve tutarlı dashboard görünümleri üretme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Rolleri ve soruları tanımla", "text": "CEO, pazarlama, içerik ve İK ekiplerinin karar sorularını netleştirin." },
+
+        { "@type": "HowToStep", "name": "Rol KPI setlerini seç", "text": "Her rol için 5–8 KPI seçin ve tek KPI sözlüğünde tanımlayın." },
+
+        { "@type": "HowToStep", "name": "Ortak filtre standardı kur", "text": "Tarih, kanal mapping ve para birimi gibi filtre/hesaplama kurallarını tüm panellerde aynı tutun." },
+
+        { "@type": "HowToStep", "name": "Panel layout’larını oluştur", "text": "Rol bazlı sayfa layout’ları üretin ve her paneli aksiyon bloğuyla kapatın." },
+
+        { "@type": "HowToStep", "name": "Tutarlılık audit’i yap", "text": "Paneller arası KPI tutarlılığını kontrol ederek farklı gerçeklik riskini azaltın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Rol Bazlı Dashboard’lar", "item": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rol bazlı sosyal medya dashboard’ı nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rollerin karar sorularını netleştirip her rol için 5–8 KPI seçin. Aynı veri kaynağından role göre farklı görünümler üretin; tarih/kanal/para birimi filtrelerini tüm panellerde tutarlı tutun ve her paneli aksiyon bloğuyla kapatın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CEO için hangi sosyal medya KPI’ları önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CEO için iş etkisi ve risk KPI’ları önemlidir: lead/rezervasyon, nitelikli trafik, CPA/ROAS (paid varsa) ve negatif yorum/DM artışı gibi risk bayrakları. KPI’lar iş diliyle sunulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İçerik ekibi ve İK için ayrı panel gerekir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. İçerik ekibi format KPI’larına (post/story/reels, retention, save/share) bakar; İK ise kariyer trafiği, aday ilgisi ve employer branding sinyallerine odaklanır. Ayrı panel okunabilirliği artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aynı veriden farklı özetleri nasıl üretirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortak KPI sözlüğü ve kanal mapping ile tek veri gerçekliği kurun. Role göre filtrelenmiş sayfalar üretin; tüm panellerde aynı tarih aralığı ve aynı hesaplama kuralları kullanılsın. Tutarlılık audit’iyle farklı gerçeklik riskini azaltın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi",
+
+      "name": "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Data Quality" },
+
+        { "@type": "Thing", "name": "Tracking Hygiene" },
+
+        { "@type": "Thing", "name": "Bot Traffic" },
+
+        { "@type": "Thing", "name": "Channel Mapping" },
+
+        { "@type": "Thing", "name": "GA4 Events" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#webpage"
+
+      },
+
+      "headline": "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?",
+
+      "description": "GA4 kanal ataması, UTM hataları, bot/ofis trafiği ve event kırılmalarını kontrol ederek sosyal medya raporlarınızın güvenilirliğini artırın; yanlış veriye göre strateji kararı vermeyin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#howto",
+
+      "name": "Sosyal Medya Tracking Hijyeni Kontrolü",
+
+      "description": "GA4 kanal mapping, UTM standardı, bot filtreleri ve event sağlığını doğrulayıp raporu güvenilir hale getirme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Kanal mapping’i doğrula", "text": "GA4 channel grouping’de organic_social ve paid_social ayrımını ve kanal atamasını kontrol edin." },
+
+        { "@type": "HowToStep", "name": "UTM standardını denetle", "text": "utm_source/medium/campaign alanlarının tutarlı ve standart formatta olduğundan emin olun." },
+
+        { "@type": "HowToStep", "name": "Event sağlığını test et", "text": "Tag Manager değişikliklerinden sonra lead/rezervasyon event’leri için smoke test yapın; çift sayımı kontrol edin." },
+
+        { "@type": "HowToStep", "name": "Bot ve internal trafiği filtrele", "text": "Ofis IP’lerini internal traffic filtreleriyle hariç tutun; şüpheli spam trafiği kalite metrikleriyle doğrulayın." },
+
+        { "@type": "HowToStep", "name": "Changelog tut ve rutine bağla", "text": "UTM, kanal tanımı ve event değişikliklerini kaydedin; aylık hijyen rutinini rapora ekleyin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Veri Kalitesi & Hijyen", "item": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri kalitesi nedir, sosyal medya raporları için neden kritiktir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri kalitesi; kanal ataması, UTM, event ve filtrelerin doğru çalışmasıyla raporun gerçeği yansıtmasıdır. Veri kalitesi düşükse rapor yanlış negatif/pozitif sonuç üretir ve bütçe/kreatif kararları hatalı olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4’te sosyal trafik yanlış görünüyor, ne yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 channel grouping ve paid_social/organic_social ayrımını kontrol edin. UTM standardını doğrulayın, redirect/link kaynaklı kayıpları ve internal traffic filtrelerini kontrol edin; campaign name tutarlılığını denetleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UTM ve kanal ataması hataları raporu nasıl bozar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Paid sosyal trafik direct/referral altında toplanabilir veya kampanyalar farklı adlarla bölünebilir; bu da sosyal kanalın etkisini yanlış gösterir. Optimizasyon öğrenimi kaybolur ve bütçe yanlış kaydırılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bot trafiğini ve ofis IP’lerini nasıl filtrelerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 internal traffic filtreleriyle ofis IP’lerini hariç tutun; şüpheli spam kaynaklarını engelleyin. Sessions artışı engaged sessions ile doğrulanmıyorsa bot ihtimalini segment kırılımıyla kontrol edin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu",
+
+      "name": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Revenue Reporting" },
+
+        { "@type": "Thing", "name": "CRM Integration" },
+
+        { "@type": "Thing", "name": "Channel Income" },
+
+        { "@type": "Thing", "name": "Social LTV" },
+
+        { "@type": "Thing", "name": "Sales Pipeline" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#webpage"
+
+      },
+
+      "headline": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+
+      "description": "Sosyal medya kaynaklı lead ve rezervasyonları CRM’de source/campaign ile etiketleyin; kanal ve kampanya bazında gelir, CPA/ROAS ve LTV katkısını raporlayarak sosyal medya ROI’sini görünür kılın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#howto",
+
+      "name": "Sosyal Medyayı CRM ve Gelire Bağlama",
+
+      "description": "UTM ve CRM source/campaign alanlarıyla sosyal medya lead/rezervasyonlarını satış ve LTV’ye bağlama adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "UTM ve kaynak alanlarını standardize et", "text": "utm_source/medium/campaign standartlarını belirleyin ve CRM’de source/medium/campaign sözlüğünü kilitleyin." },
+
+        { "@type": "HowToStep", "name": "UTM’yi CRM’ye taşı", "text": "Form/rezervasyon adımlarında hidden alanlarla UTM’leri yakalayıp CRM kayıtlarına yazın." },
+
+        { "@type": "HowToStep", "name": "Pipeline’ı ölç", "text": "Lead→MQL→SQL→Won aşamalarında dönüşüm oranlarını kanal ve kampanya bazında raporlayın." },
+
+        { "@type": "HowToStep", "name": "Gelir ve LTV raporu çıkar", "text": "Kapanan satış gelirini ve maliyeti ilişkilendirip CPA/ROAS hesaplayın; tekrar satın alma/rezervasyon varsa LTV görünümü ekleyin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Gelir & CRM Entegrasyonu", "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya ne kadar gelir kazandırıyor, nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UTM ile sosyal trafiği etiketleyip bu bilgiyi CRM’ye source/medium/campaign alanlarıyla taşıyarak ölçersiniz. Lead’in pipeline boyunca ilerleyişini izleyip kapanan satış gelirini kanala bağlarsınız; tekrar satın alma/rezervasyon varsa LTV’yi de kanal bazında raporlarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CRM’de sosyal medya kaynağını nasıl takip ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Form/rezervasyon adımına UTM’leri yakalayan hidden alanlar ekleyin ve CRM’de source/medium/campaign sözlüğünü standardize edin. Serbest metin yerine dropdown kullanın ve mapping dokümanını güncel tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kanal/kampanya bazlı gelir raporunu nasıl çıkarırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CRM’de kapanan satışları (won deals/confirmed bookings) kanal ve kampanya alanına göre gruplayın, gelir + maliyeti birlikte gösterip CPA/ROAS hesaplayın. LTV varsa first-touch ve last-touch görünümleriyle ayrı raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "LTV ve tekrar rezervasyonu sosyal medya ile nasıl ilişkilendiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CRM’de first-touch kaynağını kalıcı alan olarak saklayın ve tekrar satın alma/rezervasyon kayıtlarını aynı müşteri ID’siyle bağlayın. Kanal bazında LTV veya repeat rate çıkararak sosyalin uzun vadeli katkısını görünür kılın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+}
     },
 
     yazilim: {

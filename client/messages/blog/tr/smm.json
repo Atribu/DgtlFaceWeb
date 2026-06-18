@@ -36352,7 +36352,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Her insight için 1 içerik fikri değil, 3 format varyasyonu üretin.",
-              "“Soru bazlı” içerik slotları açın (AEO etkisi).",
+              "“Soru bazlı” içerik slotları açın .",
               "İtiraz çözücü içerikleri remarketing ile eşleştirin (Varsayım: ads).",
               "Her ay 3 trend slotu bırakın (dinleme çıktıları için)."
             ]
@@ -38604,7 +38604,7 @@
             "items": [
               "Konu listesi (30–60 fikir)",
               "Tema/pillar kümeleri (4–6 ana tema)",
-              "“Soru içerikleri” listesi (AEO için)",
+              "“Soru içerikleri” listesi ",
               "İçerik format eşleştirmesi (reels/carousel/story/video)",
               "Takvim boşluğu doldurma önerileri"
             ]
@@ -77074,7 +77074,7 @@
           },
           {
             "type": "h3",
-            "text": "Rol bazlı sosyal medya dashboard’ı nasıl tasarlanır? (AEO cevap bloğu)"
+            "text": "Rol bazlı sosyal medya dashboard’ı nasıl tasarlanır? "
           },
           {
             "type": "list",
@@ -77127,7 +77127,7 @@
           },
           {
             "type": "h3",
-            "text": "CEO için hangi sosyal medya KPI’ları önemli? (AEO cevap bloğu)"
+            "text": "CEO için hangi sosyal medya KPI’ları önemli? "
           },
           {
             "type": "list",
@@ -77547,6 +77547,1175 @@
           "Tablo: Rol → KPI Eşleştirme Tablosu eklendi",
           "Media slot isimleri mediaPack ile eşleştirildi",
           "KPI dictionary, ortak filtre/hesaplama standardı ve dashboard governance teknik ön koşul olarak işlendi"
+        ]
+      }
+    }
+  },
+
+    "BlogVeriKalitesiVeIzlemeHijyeniSosyalMedyaRaporlarinizGuvenilirMi": {
+    "title": "SMM Veri Kalitesi: GA4 ve Tracking Hijyeni Kontrolü",
+    "slug": "veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sosyal medya raporunu yorumlamadan önce veri hijyenini kontrol edin. GA4 kanal ataması, UTM hataları, bot/ofis trafiği ve event kırılmalarını yakalayın; yanlış veriye göre karar vermeyin.",
+    "seo": {
+      "metaTitle": "SMM Veri Kalitesi: GA4 ve Tracking Hijyeni Kontrolü | DGTLFACE",
+      "metaDescription": "Sosyal medya raporunu yorumlamadan önce veri hijyenini kontrol edin. GA4 kanal ataması, UTM hataları, bot/ofis trafiği ve event kırılmalarını yakalayın; yanlış veriye göre karar vermeyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 18 — /tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Diagnostic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda “raporlar doğru mu?” sorusunu merkeze alıp data-quality-first bir yaklaşım kurar: GA4 ve platform insights verisi temiz değilse en iyi dashboard bile yanlış karar üretir. Hedef persona; GA4 + Meta/TikTok/LinkedIn panelleriyle çalışan otel ve B2B ekipleri ile ajans analistleridir; çünkü “sosyal işe yaramıyor” veya “her şeyi sosyal getiriyor” gibi uç yorumların çoğu ölçüm hatasından kaynaklanabilir. Funnel’da diagnostic/stratejik karar destek: önce veri hijyeni, sonra bütçe ve kreatif kararı. Ana iş sorusu: “Sorun performansta mı, yoksa tracking/kanal ataması hatasında mı?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Veri kalitesi düşükse en sofistike sosyal medya raporu bile yanıltıcıdır. GA4’te sosyal trafiğin yanlış kanala düşmesi, UTM/campaign name hataları, bot/ofis IP trafiği, eksik/çift sayılan dönüşümler ve Tag Manager event kırılmaları; otel ve B2B markaların yanlış bütçe ve kreatif kararları almasına yol açar. Bu yüzden rapor yorumlamadan önce “tracking hygiene” kontrolleri yapın: kanal mapping, UTM standart, event test, filtreleme ve changelog.",
+      "sgeSummary": "Önce veri hijyeni: GA4 kanal mapping, UTM standardı, bot/ofis filtreleri ve event testleri doğru mu? Veri temiz değilse rapor doğru karar üretemez.",
+      "voiceAnswer": "Rapor saçmaysa önce veriyi kontrol et: kanal ataması, UTM, bot filtreleri ve event kırılması.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli GA4 + sosyal platform panelleri kullanan otel ve B2B ekipler",
+        "Entity theme: data quality, channel mapping, events, filters, changelog",
+        "Riskler: yanlış kanal ataması, bot trafik, event/tag kırılması, offline dönüşüm eksikliği",
+        "Model: measurement sanity checks → reliable reporting → error-aware decisions",
+        "Öncelik: önce veri hijyeni, sonra optimizasyon/bütçe",
+        "Çıktı: hygiene checklist tablosu + hata senaryosu diyagramı + aylık rutin",
+        "Başarı ölçümü: yanlış alarmların tracking aşamasında yakalanması"
+      ]
+    },
+    "h1": {
+      "title": "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?",
+      "intro": "Sosyal medya raporları bazen “mantıksız” görünür: GA4’te sosyal trafik bir gün patlar, ertesi gün sıfırlanır; platform paneli yüksek tıklama gösterir ama GA4’te oturum yoktur; dönüşüm bir anda iki katına çıkar ama satış ekibi hiçbir şey hissetmez. Bu durumlarda refleks çoğu zaman “performans düştü” veya “algoritma bozdu” demektir. Oysa en yaygın neden, veri hijyeni problemidir: yanlış kanal ataması, UTM hatası, bot/ofis trafiği, event kırılması veya çift sayım. Bu rehber, sosyal medya kararlarını yanlış veriye dayandırmamak için GA4 + platform verisinde en sık hataları, kontrol adımlarını ve aylık hygiene rutinini pratik bir çerçevede toplar.",
+      "quickSummary": [
+        "1) Raporu yorumlamadan önce veri hijyenini kontrol et",
+        "2) GA4 kanal mapping ve paid/organic social ayrımını doğrula",
+        "3) UTM, campaign naming ve event/tag sağlığını test et",
+        "4) Bot/ofis trafiği ve spam sinyallerini filtrele",
+        "5) Büyük sapmalarda önce “ölçüm mü performans mı?” ayrımı yap"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Medya Veri Kalitesi & Tracking Hijyen Analizi Talep Et",
+        "text": "GA4 kanal mapping, UTM standardı, event test ve filtreleri denetler; raporu güvenilir hale getirir.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Medya Veri Kalitesi & Tracking Hijyen Analizi Talep Et",
+        "text": "GA4 kanal ataması, UTM ve event sağlığını denetleyip raporun güvenilirliğini artırır; otel ve B2B hesaplar için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "SMM Veri Kalitesi & İzleme Hijyeni Checklist Şablonunu İndir",
+        "text": "Aylık veri hijyeni kontrollerini standartlaştırır, ölçüm hatalarından doğan yanlış kararları azaltır.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Dönüşüm takibi ve Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Satış ve dönüşüm raporu",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Dönüşüm Takibi ve Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "veri-kalitesi-nedir-neden-kritik",
+        "title": "Veri kalitesi nedir, sosyal medya raporları için neden kritiktir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Veri kalitesi; raporladığınız sayının doğru kaynaktan gelip gelmediği, doğru tanımlanıp tanımlanmadığı ve zaman içinde tutarlı olup olmadığıdır. Sosyal medya raporlarında veri kalitesi düşükse iki tür “pahalı” hata olur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yanlış negatif: “Sosyal işe yaramıyor” sanıp bütçeyi kesmek",
+              "Yanlış pozitif: “Sosyal her şeyi getiriyor” sanıp gereksiz büyütmek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Veri kalitesi neden kritiktir? "
+          },
+          {
+            "type": "p",
+            "text": "Çünkü bütçe, kreatif ve kanal kararları rapora göre alınır. GA4’te sosyal trafik yanlış kanalda toplanıyorsa, paid/organic ayrımı bozuksa veya dönüşüm event’i kırıldıysa, rapor gerçeği değil hatayı ölçer. Bu durumda optimizasyon yerine “ölçümü optimize etmiş” olursunuz."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Rezervasyon event’i çift sayılıyorsa, ROAS “harika” görünür; ama gerçekte satış artmamıştır. Bu, yanlış pozitifin klasik örneğidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (kırmızı bayraklar)",
+            "items": [
+              "GA4’te sosyal trafik bir günde %200 oynuyor mu?",
+              "Platform click var ama GA4 session yok mu?",
+              "Dönüşüm aniden “iki kat” oldu ama iş tarafı hissetmedi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her raporu “hijyen kontrol satırı” ile başlat",
+              "Kritik KPI’lar için ikinci kaynak doğrulaması yap (GA4 vs panel)",
+              "Şüpheli değişimde önce tracking’i kontrol et, sonra stratejiyi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "platform-insights-ga4-olcum-hatalari",
+        "title": "Platform insights ve GA4’te sık görülen ölçüm hataları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölümde, “raporlar saçma” hissini yaratan tipik hataları sınıflandırıyoruz."
+          },
+          {
+            "type": "h3",
+            "text": "GA4’te sosyal trafik yanlış görünüyor, ne yapmalıyım? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "GA4 Channel Grouping’de organic_social / paid_social ayrımı doğru mu?",
+              "UTM’ler doğru mu? utm_source/medium/campaign tutarlı mı?",
+              "Redirect/link-in-bio aracı var mı ve referrer kaybı yaratıyor mu? (Varsayım)",
+              "Consent/çerez etkisi var mı? (özellikle belirli pazarlarda)",
+              "İç trafik/office IP filtreleri uygulanmış mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "En sık 6 hata"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yanlış kanal ataması: social trafik “direct” veya “referral” altında birikir",
+              "UTM hatası: utm_medium yanlış (paid_social yerine social vs)",
+              "Campaign name karmaşası: aynı kampanya 5 farklı adla görünür",
+              "Event kırılması: Tag Manager değişti, conversion event çalışmıyor",
+              "Çift sayım: iki tag aynı event’i gönderiyor",
+              "Offline dönüşüm eksikliği: DM/WhatsApp/telefon dönüşümü hiç yok sayılıyor (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (ölçüm hatası avı)",
+            "items": [
+              "Social trafiğin önemli kısmı “direct” mi?",
+              "Campaign isimleri standart mı?",
+              "Conversion event’leri son günlerde “sıfır” mı?",
+              "DM/WhatsApp gibi dönüşüm yolları raporda var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "UTM standardını zorunlu kıl (her link)",
+              "GA4 event’lerini haftalık smoke test yap",
+              "“Offline dönüşüm” için minimum proxy event ekle (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bot-trafigi-ve-spam",
+        "title": "Bot trafiği ve spam (yanlış sinyal üreticiler)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bot ve spam trafiği, özellikle trafik ve etkileşim KPI’larını şişirebilir. Bu da kampanyanın “iyi” görünüp gerçekte iş getirmemesine yol açar."
+          },
+          {
+            "type": "h3",
+            "text": "Bot trafiğini ve ofis IP’lerini nasıl filtrelerim? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4’te internal traffic (office IP) filtrelemesi kurun (Varsayım: GA4 internal traffic rule)",
+              "Bilinen bot/referral spam kaynaklarını hariç tutun",
+              "Şüpheli trafik için “engaged session” ve “engagement time” ile kalite doğrulaması yapın",
+              "Ani spike olduğunda ülke/cihaz segmentiyle kontrol edin (bot genelde anormal dağılım gösterir)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Bir gün sosyal sessions 3 katına çıktı ama engaged sessions aynı kaldı. Bu, bot/referral spam ihtimalini güçlendirir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (bot/spam sinyali)",
+            "items": [
+              "Sessions ↑ ama engaged aynı mı?",
+              "Tek ülkeden/tek cihazdan anormal yoğunluk var mı?",
+              "Referrer listesinde şüpheli domain’ler var mı? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Trafik KPI’sını “kalite KPI” ile çift doğrula",
+              "Ofis IP’lerini filtrelemeden rapor yorumlama",
+              "Spike’ları segment bazlı incele (ülke/cihaz)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yanlis-kanal-atamasi-utm-event-kirilmalari",
+        "title": "Yanlış kanal ataması, UTM ve event kırılmaları (en pahalı hatalar)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yanlış kanal ataması, sosyal raporların en sık “yanlış karar” üreten kök nedenidir. Özellikle paid_social’ın “paid search” veya “direct” gibi görünmesi, bütçeyi yanlış yönlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "UTM ve kanal ataması hataları raporu nasıl bozar?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Paid social dönüşümünü yanlışlıkla direct’e yazarsınız → sosyal “zayıf” görünür",
+              "Campaign isimleri dağılır → optimizasyon öğrenimi kaybolur",
+              "Event kırılır → “dönüşüm yok” paniği başlar (oysa form bozulmuştur)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "DM/WhatsApp/telefon gibi offline dönüşümler neden kritik?"
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otellerde ve hizmet sektöründe kullanıcı sosyalden gelir ama dönüşümü WhatsApp/telefonla yapar. Bu görünmüyorsa sosyal “iş getirmiyor” sanılabilir. Varsayım: Bu dönüşümleri ölçmek için en azından tıklama event’leri (tel: / wa.me) rapora eklenmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (kritik hatalar)",
+            "items": [
+              "paid_social doğru sınıflanıyor mu?",
+              "UTM medium/source sözlüğü var mı?",
+              "Tel/WhatsApp click event’leri var mı?",
+              "Form/checkout event’leri son deploy sonrası test edildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kanal mapping sözlüğünü yazılı hale getir",
+              "Tag Manager değişikliklerinde test zorunlu yap",
+              "Offline dönüşüm proxy event’lerini rapora ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data-quality-first-rutin",
+        "title": "Sosyal medya kararlarını yanlış veriye dayandırmamak (data-quality-first rutin)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm, tüm kontrolleri “rutine” bağlar. Çünkü veri hijyeni bir defalık iş değil, sürekli bakımdır."
+          },
+          {
+            "type": "h3",
+            "text": "Aylık veri hijyeni rutini (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: event smoke test (lead/rezervasyon) + kampanya UTM kontrolü",
+              "Aylık: kanal mapping denetimi + bot/office filtre kontrolü + changelog gözden geçirme",
+              "Kampanya öncesi: UTM/kupon listesi + landing event doğrulama",
+              "Kampanya sonrası: attribution sanity check + ölçüm sapma analizi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "UTM, kanal tanımı ve event değişikliklerinde changelog tutulmaması trend analizini zorlaştırır. Her tracking değişikliği mutlaka kayıt altına alınmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Düzenli veri kalitesi kontrolü yapan ekiplerde “performans düştü/patladi” gibi yanlış alarmların önemli kısmı daha kaynağında (tracking tarafında) yakalanıp düzeltilir; böylece strateji yanlış veriye göre değişmez."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (rutin)",
+            "items": [
+              "Hijyen checklist’i rapora her ay ekleniyor mu?",
+              "Changelog var mı?",
+              "Şüpheli sapmada önce ölçüm kontrolü yapılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporun ilk sayfasına “Data Quality Status” kutusu ekle",
+              "10 maddelik hygiene checklist’i her ay doldur",
+              "Büyük değişimlerde “ölçüm mü performans mı?” ayrımı yap"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sosyal medya veri kalitesi kontrol listesi",
+            "headers": [
+              "Kontrol alanı",
+              "Ne kontrol edilir?",
+              "Risk",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "GA4 channel grouping",
+                "organic_social / paid_social ayrımı",
+                "Sosyal trafik direct/referral altında birikir",
+                "Kanal mapping sözlüğünü doğrula"
+              ],
+              [
+                "UTM standardı",
+                "source / medium / campaign formatı",
+                "Kampanya performansı bölünür veya yanlış atanır",
+                "UTM naming standardını zorunlu kıl"
+              ],
+              [
+                "Event/tag sağlığı",
+                "Lead/rezervasyon event’leri",
+                "Dönüşüm sıfır/çift sayılır",
+                "GTM smoke test yap"
+              ],
+              [
+                "Bot/ofis filtreleri",
+                "Internal traffic ve referral spam",
+                "Trafik yapay şişer",
+                "IP ve spam filtrelerini kontrol et"
+              ],
+              [
+                "Offline dönüşüm",
+                "tel/WhatsApp/DM proxy event’leri",
+                "Sosyal katkı eksik görünür",
+                "Minimum proxy event ekle"
+              ],
+              [
+                "Changelog",
+                "UTM/event/channel değişiklikleri",
+                "Trend analizi bozulur",
+                "Tracking değişikliklerini kaydet"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Veri Kalitesi & Tracking Hijyen Analizi Talep Et",
+            "text": "GA4+platform ölçüm hatalarını bulur, kanal mapping ve event test sürecini oturtur; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SMM Veri Kalitesi & İzleme Hijyeni Checklist Şablonunu İndir",
+            "text": "Aylık hijyen rutinini standartlaştırır, yanlış alarmları azaltır ve rapor güvenilirliğini artırır.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "smm-veri-kalitesi-izleme-hijyeni-checklist",
+        "title": "SMM Veri Kalitesi & İzleme Hijyeni Checklist Şablonunu İndir — SMM / Data Quality",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "SMM Veri Kalitesi & İzleme Hijyeni Checklist — SMM / Data Quality (v1.0)",
+            "purpose": "Bu checklist, sosyal medya raporunu yorumlamadan önce GA4 kanal mapping, UTM standardı, bot/ofis filtreleri ve event/tag sağlığını hızlıca doğrulamanızı sağlar. Yanlış pozitif/yanlış negatif alarmları azaltır; tracking değişikliklerini changelog ile kayıt altına alarak trend analizinin bozulmasını önler. 14 günlük mini sprint planı ile en kritik ölçüm sorunlarını kalıcı biçimde düzeltmeye odaklanır.",
+            "whoFor": "GA4 + Meta/TikTok/LinkedIn panelleriyle çalışan otel ve B2B ekipleri, ajans analistleri.",
+            "steps": [
+              "Aylık rapor öncesi checklist’i doldurun (10–15 dk).",
+              "Kırmızı bulguları “kritik” olarak işaretleyin ve sprint backlog’una alın.",
+              "14 gün içinde mapping/UTM/event düzeltmelerini yapıp tekrar test edin."
+            ],
+            "checklist": [
+              "GA4 channel grouping: organic_social / paid_social doğru mu?",
+              "UTM medium sözlüğü sabit mi? (paid_social/organic_social)",
+              "Campaign name standardı var mı (tek format)?",
+              "Social trafiğin “direct/referral” altında birikmesi var mı?",
+              "Tag Manager değişikliği sonrası event smoke test yapıldı mı?",
+              "Conversion event’leri (lead/rezervasyon) çalışıyor mu?",
+              "Çift sayım kontrol edildi mi? (iki tag/iki event)",
+              "Ofis/internal traffic filtreleri aktif mi?",
+              "Bot/spam sinyali var mı? (sessions↑ engaged aynı)",
+              "Offline dönüşüm proxy’leri var mı? (tel/WhatsApp click) (Varsayım)",
+              "Değişiklikler için changelog tutuluyor mu?",
+              "Rapor “data quality status” kutusuyla başlıyor mu?"
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Mevcut mapping/UTM audit + en kritik 3 hata seçimi",
+              "Gün 3–4: UTM standard güncelleme + kampanya isim şablonu",
+              "Gün 5–7: GTM event test + conversion doğrulama",
+              "Gün 8–10: Internal/bot filtreleri + referral spam temizliği",
+              "Gün 11–12: Offline proxy event’leri (tel/WA) ekleme (Varsayım)",
+              "Gün 13–14: Retest + changelog + rapor şablonuna “data quality status” ekleme"
+            ],
+            "deliverables": [
+              "UTM sözlüğü + campaign naming standard",
+              "GA4 channel mapping dokümanı",
+              "GTM event test raporu",
+              "Changelog şablonu (tracking değişiklikleri)"
+            ],
+            "href": "/downloads/smm-veri-kalitesi-izlenme-hijyeni-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Veri kalitesi nedir, sosyal medya raporları için neden kritiktir?",
+        "a": "Veri kalitesi; kanal ataması, UTM, event ve filtrelerin doğru çalışmasıyla raporun gerçeği yansıtmasıdır. Veri kalitesi düşükse rapor yanlış negatif/pozitif sonuç üretir ve bütçe/kreatif kararları hatalı olur."
+      },
+      {
+        "q": "GA4’te sosyal trafik yanlış görünüyor, ne yapmalıyım?",
+        "a": "Önce GA4 channel grouping ve paid_social/organic_social ayrımını kontrol edin. UTM’lerin source/medium/campaign standardını doğrulayın, redirect/link-in-bio kaynaklı kayıpları kontrol edin ve internal traffic filtrelerini uygulayın. Son olarak campaign name tutarlılığını denetleyin."
+      },
+      {
+        "q": "UTM ve kanal ataması hataları raporu nasıl bozar?",
+        "a": "Paid sosyal trafiği direct/referral altında toplanabilir veya kampanyalar farklı adlarla bölünebilir; bu da sosyal kanalın etkisini düşük/yanlış gösterir. Aksiyon öğrenimi kaybolur ve bütçe yanlış kaydırılır."
+      },
+      {
+        "q": "Bot trafiğini ve ofis IP’lerini nasıl filtrelerim?",
+        "a": "GA4 internal traffic filtreleriyle ofis IP’lerini hariç tutun; şüpheli referrer spam kaynaklarını engelleyin. Sessions artışı engaged sessions ile doğrulanmıyorsa bot ihtimalini segment (ülke/cihaz) kırılımıyla kontrol edin."
+      },
+      {
+        "q": "Tag/Event kırılmaları nasıl yakalanır?",
+        "a": "Her GTM/landing değişikliğinden sonra conversion event’leri için smoke test yapın. Dönüşüm bir anda sıfırlanır veya iki katına çıkarsa ilk kontrol event/tag sağlığı olmalıdır. Changelog ile değişiklikleri kayıt altına alın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-hero-01.webp",
+          "h1-context — 1920×1080 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-divider-03.webp",
+          "divider-02 — 1600×1200 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-divider-04.webp",
+          "diagram-05 — 1920×1080 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-kpi-07.webp",
+          "proof-08 — 1200×1200 — veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi-proof-08.webp",
+          "table-data-quality-checklist — Sosyal medya veri kalitesi kontrol listesi tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /sem/donusum-takibi-tag-manager, /raporlama/satis-donusum",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: checklist",
+          "Tablo: sosyal medya veri kalitesi kontrol listesi eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi",
+          "GA4 channel grouping, UTM standardı, GTM event test, bot/internal traffic filtreleri ve changelog teknik ön koşul olarak işlendi"
+        ]
+      }
+    }
+  },
+
+
+  "BlogSosyalMedyaGelirRaporlamaVeCrmEntegrasyonu": {
+    "title": "Sosyal Medya Gelir Raporu: CRM Entegrasyonu ve LTV",
+    "slug": "sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "18 Haziran 2026",
+    "publishedAt": "2026-06-18",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sosyal medya kaynaklı lead/rezervasyonları CRM’de source+campaign ile etiketleyin. Kanal ve kampanya bazında gelir, ROAS ve LTV raporu çıkarın; bütçeyi veriyle savunun.",
+    "seo": {
+      "metaTitle": "Sosyal Medya Gelir Raporu: CRM Entegrasyonu ve LTV | DGTLFACE",
+      "metaDescription": "Sosyal medya kaynaklı lead/rezervasyonları CRM’de source+campaign ile etiketleyin. Kanal ve kampanya bazında gelir, ROAS ve LTV raporu çıkarın; bütçeyi veriyle savunun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog No / URL: 19 — /tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda sosyal medyayı “reach/like” seviyesinden çıkarıp gelir ve LTV ile konuşan CFO/GM diline bağlar: sosyal medya → lead/rezervasyon → satış akışı ve CRM entegrasyonu. Hedef persona; CRM altyapısı olan otel/turizm ve B2B markalar ile ajans yöneticileridir; çünkü patronun “kaç para kazandırıyor?” sorusuna kanıtlı cevap gerekir. Funnel’da MoFu→BoFu köprüsü kurar: kaynak (source) ve kampanya alanları doğru kullanılırsa sosyal kanalın gerçek ROI’si görünür olur ve bütçe “kısıntı” değil “akıllı yeniden dağıtım” ile yönetilir. Ana iş sorusu: “Sosyal medya kaynaklı lead/rezervasyonların satışa ve LTV’ye etkisini CRM’de nasıl etiketler ve raporlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-18",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "“Sosyal medya ne kadar para kazandırıyor?” sorusunun cevabı, sosyal medya → lead/rezervasyon → satış akışını CRM ile bağlamaktan geçer. Form ve rezervasyon adımlarına source/medium/campaign alanlarını ekleyin, UTM’leri CRM’ye taşıyıp lead’i pipeline’da (MQL/SQL/satış) izleyin. Otellerde oda geliri ve tekrar rezervasyon; B2B’de sözleşme/abonelik geliri ve LTV kanal bazında raporlanır. Kritik nokta: CRM alanları tutarlı kullanılmazsa gelir atribüsyonu bozulur.",
+      "sgeSummary": "Sosyal medya gelir raporu için CRM’de source/campaign alanlarını standardize edin. UTM’yi lead’e taşıyın, pipeline ve gelir/LTV’yi kanal-kampanya bazında raporlayın.",
+      "voiceAnswer": "Patrona, sosyal medya gelirini CRM’de source+campaign ile takip edip satış ve LTV raporuyla gösterebilirsin.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli CRM altyapısı olan otel/turizm ve B2B markalar",
+        "Entity theme: social, lead, reservation, CRM, revenue, LTV, pipeline",
+        "Model: smm→revenue bridge + source-aware CRM + lifetime value by channel",
+        "KPI seti: lead→MQL/SQL→sales, revenue, CPA/ROAS, LTV, repeat rate (otel)",
+        "Kritik risk: CRM source/medium/campaign tutarsızlığı → yanlış/eksik atribüsyon",
+        "Çıktı: funnel diyagramı + gelir/LTV tablosu + checklist",
+        "Başarı ölçümü: sosyal kanalın gerçek ROI’si görünür; bütçe akıllı dağıtılır"
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+      "intro": "Sosyal medya raporlamasının en zor ama en kritik sorusu şudur: “Bu kanal gerçekten ne kadar para kazandırıyor?” Reach ve etkileşim güzel görünebilir; ama yönetim, CFO veya GM seviyesinde karar dili gelir ve kârlılıktır. Bu nedenle sosyal medya performansını gelire bağlamak için iki şey gerekir: (1) lead/rezervasyon akışında doğru etiketleme (source/medium/campaign), (2) CRM’de pipeline ve gelir ölçümünün doğru kurgulanması. Bu rehber; sosyal medya → CRM → satış zincirini kurmayı, otel ve B2B örnekleriyle kanal/kampanya bazlı gelir ve LTV raporu üretmeyi ve raporu yöneticiye “tek hikâye” ile anlatmayı sağlar.",
+      "quickSummary": [
+        "1) Sosyal medya → lead/rezervasyon → satış akışını tek funnel olarak kur",
+        "2) UTM bilgilerini CRM’de source/medium/campaign alanlarına taşı",
+        "3) Lead’i MQL/SQL/satış aşamalarında izle",
+        "4) Kanal ve kampanya bazında gelir, CPA/ROAS ve LTV raporu çıkar",
+        "5) CRM alanlarını sözlükle standardize ederek atribüsyon hatasını azalt"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Medya Gelir & CRM Rapor Analizi Talep Et",
+        "text": "CRM source/campaign standardı kurar, sosyal lead/rezervasyonların gelir ve LTV katkısını raporlar; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Medya Gelir & CRM Rapor Analizi Talep Et",
+        "text": "Sosyal kaynaklı lead/rezervasyonların satışa ve LTV’ye etkisini görünür kılar; CRM alanlarını standardize eder.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Sosyal Medya → CRM Kanal Geliri & LTV Raporlama Şablonunu İndir",
+        "text": "Source/campaign sözlüğü ve gelir/LTV tablosuyla sosyal medya ROI’sini CFO/GM dilinde raporlamanızı sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Analiz & Raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Satış ve dönüşüm raporu",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Analiz & Raporlama",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "title": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sosyal-medya-lead-rezervasyon-satis-akisi",
+        "title": "Sosyal Medya → Lead/Rezervasyon → Satış akışı nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Gelir raporlaması “tek metrik” değildir; bir akıştır. Sosyal medya bir temas noktasıdır; lead/rezervasyon ise ilk somut sinyaldir; satış/gelir ise kapanıştır. Bu nedenle raporun omurgası pipeline olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medya ne kadar gelir kazandırıyor, nasıl ölçerim? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sosyalden gelen trafiği UTM ile etiketle (source/medium/campaign/content)",
+              "Form/rezervasyon adımında bu bilgiyi CRM’ye taşı (hidden field + mapping, Varsayım)",
+              "CRM’de lead’i pipeline aşamalarında izleyerek satışa dönüşüm oranlarını ölç",
+              "Satış kapanınca gelir ve maliyeti ilişkilendir (CPA/ROAS)",
+              "Tekrar satın alma/rezervasyonu dahil ederek LTV’yi kanal bazında raporla"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Instagram kampanyası → teklif sayfası → rezervasyon isteği → konaklama geliri → 6 ay sonra tekrar rezervasyon. Eğer CRM/PMS kaydı sosyal kaynağı taşıyorsa, sosyal kanalın “ilk satış + tekrar” etkisi görünür olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (akış)",
+            "items": [
+              "UTM bilgisi CRM’ye taşıyor mu?",
+              "Lead pipeline aşamalarında (MQL/SQL) izleniyor mu?",
+              "Gelir kapanışında kampanya kaynağı korunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Akışı “1 lead = 1 source record” mantığında sabitle",
+              "Lead’i pipeline’da kaybettiğin aşamayı raporla",
+              "Gelir raporu yoksa “kapanış proxy”leri tanımla (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "crm-source-kampanya-takibi",
+        "title": "CRM’de kaynak (Source) ve kampanya takibi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "CRM entegrasyonunun başarısı, “kaynak alanları”nın doğru tasarımına bağlıdır. En sık hata: herkesin farklı şekilde doldurduğu serbest metin alanları."
+          },
+          {
+            "type": "h3",
+            "text": "CRM alanları nasıl tasarlanmalı? (pratik model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "source: instagram / tiktok / facebook / linkedin (veya “paid_social/organic_social” ayrımı)",
+              "medium: paid_social / organic_social / influencer / affiliate (Varsayım)",
+              "campaign: standart isim (YYYYMM_kampanyaadi)",
+              "content: kreatif/format (reel-01, story-02)",
+              "referrer/landing: ilk sayfa/URL (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CRM’de sosyal medya kaynağını nasıl takip ederim? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web form ve rezervasyon formlarına hidden UTM alanları ekleyin.",
+              "Tag Manager/GA4 üzerinden UTM’leri capture edip CRM’ye yazın (Varsayım: teknik setup).",
+              "Offline temas (telefon/WhatsApp) için kampanya kodu veya kısa link kullanın (Varsayım).",
+              "CRM’de source/medium/campaign alanlarını dropdown + sözlükle standardize edin."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not (sheet’ten)"
+          },
+          {
+            "type": "p",
+            "text": "CRM alanlarının (source, campaign, medium) tutarlı kullanılmaması sosyal medya gelir katkısının yanlış/eksik raporlanmasına yol açar. Bu alanlar sözlük (dictionary) ile kilitlenmeli ve değişiklikler kayıt altına alınmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (CRM hijyen)",
+            "items": [
+              "Source alanı serbest metin mi? (kötü)",
+              "Campaign isim standardı var mı?",
+              "UTM→CRM mapping dokümante mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CRM’de source/medium/campaign alanlarını sözlükle kilitle",
+              "UTM naming standardını pazarlama ekibine zorunlu kıl",
+              "Mapping değişikliklerinde changelog tut (trend bozulmasın)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gelir-ltv-analizi-kanal-bazinda",
+        "title": "Gelir ve LTV analizi (kanal bazında)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Gelir raporlamasında iki seviye vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kısa dönem gelir/ROI: kampanya bazında kapanan satışlar",
+              "Uzun dönem değer (LTV): tekrar satın alma/rezervasyon etkisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kanal/kampanya bazlı gelir raporu nasıl çıkarırım? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CRM’de kapanan satışları (won deals / confirmed bookings) kanal ve kampanya alanına göre gruplayın.",
+              "Gelir + maliyeti aynı tabloda gösterin (ROAS/CPA).",
+              "B2B’de sözleşme/abonelik için LTV modelini ekleyin (Varsayım: ortalama süre/ARPA).",
+              "Otelde tekrar rezervasyon davranışını (repeat) kanal bazında izleyin (Varsayım: PMS/CRM)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "LTV’yi sosyal medyayla ilişkilendirme (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk temas kaynağını “first-touch” olarak saklayın (Varsayım)",
+              "Son dönüşüm kaynağını da ayrı tutun (last-touch)",
+              "LTV raporunda iki görünüm verin: first-touch LTV ve last-touch LTV"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu, sosyalin “ilk dokunuş” katkısını görünür kılar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (LTV)",
+            "items": [
+              "Repeat satın alma/rezervasyon ölçülüyor mu?",
+              "B2B’de churn/abonelik süresi takip ediliyor mu?",
+              "First-touch kaynağı kaybolmuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "First-touch alanını CRM’de kalıcı yap",
+              "Kampanya raporuna LTV görünümü ekle (en az quarterly)",
+              "LTV yoksa “repeat rate” proxy’si kullan (Varsayım)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kanal/kampanya gelir + LTV tablosu",
+            "headers": [
+              "Kanal",
+              "Kampanya",
+              "Lead",
+              "SQL/Rez",
+              "Satış",
+              "Gelir",
+              "Maliyet",
+              "CPA/ROAS",
+              "LTV (Varsayım)"
+            ],
+            "rows": [
+              [
+                "Paid Social",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——"
+              ],
+              [
+                "Organic Social",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——"
+              ],
+              [
+                "Influencer (Varsayım)",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——",
+                "——"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-raporlar",
+        "title": "Otel ve B2B için örnek raporlar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği — oda geliri katkısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: Instagram paid + organik içerik",
+              "Ara KPI: teklif sayfası nitelikli trafik (GA4)",
+              "CRM/PMS: rezervasyon kaydı + gelir",
+              "Repeat: tekrar rezervasyon oranı (Varsayım)",
+              "Aksiyon: destinasyon içerikleri brand demand’i artırıyorsa, arama kampanyasıyla birlikte okumak (omnichannel)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği — sözleşme/abonelik geliri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: LinkedIn lead form + site demo form",
+              "Pipeline: lead→MQL→SQL→won",
+              "Gelir: sözleşme tutarı veya MRR (Varsayım)",
+              "LTV: ortalama abonelik süresi × MRR (Varsayım)",
+              "Aksiyon: sosyal kanalın “kalite” getirdiği segmentleri büyütmek."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (örneklerden öğren)",
+            "items": [
+              "Otelde rezervasyon kaydı kampanya kaynağını taşıyor mu?",
+              "B2B pipeline aşamaları standart mı?",
+              "Gelir alanları raporlanabilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde: PMS/CRM entegrasyonunda source alanını zorunlu kıl",
+              "B2B’de: pipeline stage tanımlarını sabitle (MQL/SQL)",
+              "Her iki yapıda: kampanya isim standardı + UTM zorunlu"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yonetici-diliyle-sosyal-medya-geliri",
+        "title": "“Sosyal medya ne kadar para kazandırıyor?” sorusuna yönetici diliyle cevap",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Bu soru, teknik KPI’larla değil, tek sayfalık yönetici özetiyle cevaplanır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bu ay sosyal kaynaklı gelir: ____ (Varsayım: ölçüm varsa)",
+              "Maliyet ve verim: CPA/ROAS",
+              "Kalite: lead→satış dönüşüm oranı",
+              "Uzun vadeli değer: LTV veya repeat rate",
+              "3 aksiyon: bütçe/mesaj/landing/CRM düzeltme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Sosyal medya–CRM entegrasyonu olan projelerde sosyal kanalın gerçek ROI’si görünür hale geldiği için bütçe kısıntıları yerine akıllı yeniden dağıtım kararları alınabilir; kanal savunması “veriyle” yapılır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (exec cevap)",
+            "items": [
+              "Geliri kanal/kampanya bazında gösterebiliyor musun?",
+              "Lead kalitesi/pipeline dönüşümü var mı?",
+              "CRM alanları tutarlı mı (source/medium/campaign)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yönetici özetini “gelir + verim + kalite + LTV” dörtlemesiyle yaz",
+              "Eksik ölçüm varsa önce CRM alanlarını düzelt (sonra rapor)",
+              "Her ay 1 iyileştirme: mapping/UTM/event"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Gelir & CRM Rapor Analizi Talep Et",
+            "text": "Kanal gelir ve LTV raporunu kurar; CRM alanlarını standardize eder.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya → CRM Kanal Geliri & LTV Raporlama Şablonunu İndir",
+            "text": "Source/campaign sözlüğü, pipeline tablosu ve gelir/LTV görünümüyle raporu CFO/GM seviyesinde okunur hale getirir.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-crm-kanal-geliri-ltv-sablonu",
+        "title": "Sosyal Medya → CRM Kanal Geliri & LTV Raporlama Şablonunu İndir — Revenue-linked SMM",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sosyal Medya → CRM Kanal Geliri & LTV Raporlama Şablonu — Revenue-linked SMM (v1.0)",
+            "purpose": "Bu şablon, sosyal medya kaynaklı lead/rezervasyonların CRM’de doğru etiketlenmesini (source/medium/campaign) ve pipeline boyunca (MQL/SQL/satış) izlenmesini sağlar. Kanal ve kampanya bazında gelir, CPA/ROAS ve LTV görünümünü tek tabloda toplar; yönetici özetini “gelir + verim + kalite + LTV” diliyle standartlaştırır.",
+            "whoFor": "CRM altyapısı olan otel/turizm ve B2B markalarda pazarlama, satış ve analitik ekipleri; ajanslar.",
+            "steps": [
+              "UTM→CRM alan eşleşmesini kurun ve sözlüğü kilitleyin.",
+              "Pipeline aşamalarını standartlaştırıp kanal/kampanya kırılımında raporlayın.",
+              "Gelir + maliyet + LTV görünümünü çıkarıp aylık yönetici özetine bağlayın."
+            ],
+            "template": {
+              "crmFieldDictionary": [
+                "source: __________________ (dropdown)",
+                "medium: __________________ (paid_social/organic_social vb.)",
+                "campaign: __________________ (YYYYMM_kampanyaadi)",
+                "content: __________________ (reel-01, story-02)",
+                "first_touch_source (Varsayım): __________________",
+                "last_touch_source (Varsayım): __________________"
+              ],
+              "pipelineStages": [
+                "Lead → MQL → SQL → Won (satış)",
+                "Aşama tanımları: __________________"
+              ],
+              "revenueTable": "Kanal/Kampanya Gelir Tablosu",
+              "attributionNote": [
+                "First-touch raporu: __________________",
+                "Last-touch raporu: __________________",
+                "Assist görünümü: __________________"
+              ],
+              "executiveSummary": [
+                "Gelir: ____",
+                "Verim (CPA/ROAS): ____",
+                "Kalite (SQL/Won oranı): ____",
+                "LTV/Repeat (Varsayım): ____",
+                "3 aksiyon (30 gün): 1) ____ 2) ____ 3) ____"
+              ]
+            },
+            "checklist": [
+              "CRM source/medium/campaign alanları sözlükle kilitli",
+              "UTM’ler CRM’ye düşüyor",
+              "Pipeline aşamaları standart",
+              "Gelir kapanışında kaynak korunuyor",
+              "Tracking değişiklikleri changelog’da"
+            ],
+            "deliverables": [
+              "Kanal/kampanya gelir dashboard’u",
+              "CRM mapping dokümanı + sözlük",
+              "Aylık yönetici özeti",
+              "LTV/Repeat görünümü (quarterly)"
+            ],
+            "href": "/downloads/sosyal-medya-crm-kanal-geliri-ltv-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medya ne kadar gelir kazandırıyor, nasıl ölçerim?",
+        "a": "UTM ile sosyal trafiği etiketleyip bu bilgiyi CRM’ye source/medium/campaign alanlarıyla taşıyarak ölçersiniz. Lead’in pipeline boyunca (MQL/SQL/satış) ilerleyişini izleyip kapanan satış gelirini kanala bağlarsınız. Tekrar satın alma/rezervasyon varsa LTV’yi de kanal bazında raporlarsınız."
+      },
+      {
+        "q": "CRM’de sosyal medya kaynağını nasıl takip ederim?",
+        "a": "Form/rezervasyon adımına UTM’leri yakalayan hidden alanlar ekleyin ve CRM’de source/medium/campaign sözlüğünü standardize edin. Serbest metin yerine dropdown kullanın ve mapping dokümanını güncel tutun. Offline temaslar için kupon/kısa link gibi proxy’ler kullanın (Varsayım)."
+      },
+      {
+        "q": "Otel ve B2B için kanal/kampanya bazlı gelir raporunu nasıl çıkarırım?",
+        "a": "Otelde rezervasyon/PMS gelirini kampanya kaynağıyla eşleyip kanal bazında gelir ve repeat rate’i izleyin. B2B’de pipeline (MQL/SQL/Won) ve sözleşme/abonelik gelirini kanal-kampanya kırılımında raporlayın. Her iki durumda da maliyeti ekleyip CPA/ROAS hesaplayın."
+      },
+      {
+        "q": "LTV ve tekrar rezervasyon davranışını sosyal medya ile nasıl ilişkilendiririm?",
+        "a": "CRM’de first-touch kaynağını kalıcı alan olarak saklayın (Varsayım) ve tekrar satın alma/rezervasyon kayıtlarını aynı müşteri ID’siyle bağlayın. Kanal bazında LTV veya repeat rate çıkarın; sosyalin “ilk dokunuş” katkısını ayrıca gösterin."
+      },
+      {
+        "q": "CRM alanları tutarsızsa ne olur?",
+        "a": "Sosyal medya gelir katkısı eksik veya yanlış raporlanır; kampanyalar bölünür, kanallar yanlış sınıflanır ve ROI hesapları güven kaybeder. Bu yüzden source/medium/campaign sözlüğü ve changelog kritik ön koşuldur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-hero-01.webp",
+          "h1-context — 1920×1080 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-divider-03.webp",
+          "divider-02 — 1600×1200 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-divider-04.webp",
+          "diagram-05 — 1920×1080 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-kpi-07.webp",
+          "proof-08 — 1200×1200 — sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu-proof-08.webp",
+          "table-channel-campaign-revenue-ltv — Kanal/kampanya bazlı gelir ve LTV tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Internal link targets: /smm/analiz-raporlama, /raporlama/satis-donusum, /raporlama/benchmark-analizi",
+          "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
+          "Download Asset türü: şablon",
+          "Tablo: kanal/kampanya bazlı gelir ve LTV tablosu eklendi",
+          "Media slot isimleri mediaPack ile eşleştirildi",
+          "CRM source/medium/campaign sözlüğü, UTM→CRM mapping, pipeline stage ve LTV/Repeat görünümü teknik ön koşul olarak işlendi"
         ]
       }
     }

@@ -43796,6 +43796,107 @@ export const BLOG_MEDIA_MAP = {
       alt: "Rol bazlı dashboard teslim paketi, KPI sözlüğü ve layout’lar, Looker kurulumu",
       caption: "Rol bazlı dashboard teslim paketi, KPI sözlüğü ve layout’lar, Looker kurulumu"
     }
+  },
+
+  "veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi":{
+    banner: {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-1.webp",
+      alt: "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?",
+      caption: "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-2.webp",
+      alt: "Ölçüm hatası mı performans mı, data-quality-first yaklaşımı, rapor doğrulama",
+      caption: "Ölçüm hatası mı performans mı, data-quality-first yaklaşımı, rapor doğrulama"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-3.webp",
+    alt: "GA4 kanal mapping hataları, UTM ve event kırılmaları, SMM ölçüm hijyeni",
+      caption: "GA4 kanal mapping hataları, UTM ve event kırılmaları, SMM ölçüm hijyeni"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-4.webp",
+      alt: "Bot trafiği ve spam sinyalleri, engaged session doğrulaması, güvenilir raporlama",
+      caption: "Bot trafiği ve spam sinyalleri, engaged session doğrulaması, güvenilir raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-5.webp",
+      alt: "Ölçüm hatası senaryoları, kanal ataması ve event kontrol akışı, SMM data hygiene",
+      caption: "Ölçüm hatası senaryoları, kanal ataması ve event kontrol akışı, SMM data hygiene"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-6.webp",
+      alt: "SMM veri kalitesi checklist’i, GA4 kanal ataması ve UTM kontrolü, rapor hijyeni",
+      caption: "SMM veri kalitesi checklist’i, GA4 kanal ataması ve UTM kontrolü, rapor hijyeni"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-7.webp",
+      alt: "Tracking sağlık KPI kartları, event ve dönüşüm kontrolü, otel ve B2B raporlama",
+      caption: "Tracking sağlık KPI kartları, event ve dönüşüm kontrolü, otel ve B2B raporlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-18/SMM5-18-8.webp",
+      alt: "Data hygiene teslim paketi, mapping sözlüğü ve changelog, ölçüm düzeltme",
+      caption: "Data hygiene teslim paketi, mapping sözlüğü ve changelog, ölçüm düzeltme"
+    }
+  },
+
+
+  "sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu":{
+    banner: {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-1.webp",
+      alt: "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+      caption: "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-2.webp",
+      alt: "Sosyal medya CRM satış akışı, kaynak ve kampanya etiketleme, gelir raporu çerçevesi",
+      caption: "Sosyal medya CRM satış akışı, kaynak ve kampanya etiketleme, gelir raporu çerçevesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-3.webp",
+    alt: "CRM source medium campaign standardı, UTM mapping, güvenilir gelir atribüsyonu",
+      caption: "CRM source medium campaign standardı, UTM mapping, güvenilir gelir atribüsyonu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-4.webp",
+      alt: "Otel ve B2B gelir raporu örnekleri, pipeline ve LTV görünümü, yönetici raporu",
+      caption: "Otel ve B2B gelir raporu örnekleri, pipeline ve LTV görünümü, yönetici raporu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-5.webp",
+      alt: "Sosyal medya CRM satış funnel diyagramı, lead MQL SQL satış akışı, gelir raporu",
+      caption: "Sosyal medya CRM satış funnel diyagramı, lead MQL SQL satış akışı, gelir raporu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-6.webp",
+      alt: "Sosyal medya gelir raporu checklist’i, CRM alan hijyeni, kanal bazlı raporlama",
+      caption: "Sosyal medya gelir raporu checklist’i, CRM alan hijyeni, kanal bazlı raporlama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-7.webp",
+      alt: "Kanal gelir KPI kartları, CPA ROAS ve LTV, CFO ve GM rapor görünümü",
+      caption: "Kanal gelir KPI kartları, CPA ROAS ve LTV, CFO ve GM rapor görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-19/SMM5-19-8.webp",
+      alt: "CRM entegrasyonu teslim paketi, mapping sözlüğü ve gelir dashboard çıktıları",
+      caption: "CRM entegrasyonu teslim paketi, mapping sözlüğü ve gelir dashboard çıktıları"
+    }
   }
   
 };
