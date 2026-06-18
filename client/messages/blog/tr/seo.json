@@ -45183,7 +45183,7 @@
 },
 
 "BlogIcerikUxVeOkunabilirlikSeoIleTasarimiNasilDengelersiniz": {
-  "title": "İçerik UX ve Okunabilirlik: SEO–Tasarım Dengesi",
+  "title": "İçerik UX ve Okunabilirlik: SEO ile Tasarımı Nasıl Dengelersiniz?",
   "slug": "icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz",
   "department": "seo",
   "subDepartment":"content",
@@ -45193,7 +45193,7 @@
   "author": "DGTLFACE Editorial",
   "excerpt": "Okunabilirlik SEO’yu etkiler mi? Tipografi, satır uzunluğu, başlık–liste–görsel düzeni ve mobil deneyimle içerik UX’i iyileştirin; SEO sinyallerini kaybetmeden dönüşümü artırın.",
   "seo": {
-    "metaTitle": "İçerik UX ve Okunabilirlik: SEO–Tasarım Dengesi | DGTLFACE",
+    "metaTitle": "İçerik UX ve Okunabilirlik: SEO ile Tasarımı Nasıl Dengelersiniz? | DGTLFACE",
     "metaDescription": "Okunabilirlik SEO’yu etkiler mi? Tipografi, satır uzunluğu, başlık–liste–görsel düzeni ve mobil deneyimle içerik UX’i iyileştirin; SEO sinyallerini kaybetmeden dönüşümü artırın."
   },
   "blueprint": {
@@ -45233,7 +45233,7 @@
   },
   "h1": {
     "title": "İçerik UX ve Okunabilirlik: SEO ile Tasarımı Nasıl Dengelersiniz?",
-    "intro": "Bir sayfa “SEO için” yazılıp okunmuyorsa, arama motorundan trafik gelse bile iş hedefi (lead/rezervasyon/teklif) gelmeyebilir. Tersi de mümkün: tasarım “çok şık”tır ama heading, iç link, metin yoğunluğu ve bilgi mimarisi zayıf olduğu için organik potansiyel tam kullanılmaz. İçerik UX yaklaşımı, bu iki tarafı aynı masaya oturtur: kullanıcı için tüketilebilir, arama motoru için anlaşılır ve iş hedefi için yönlendirici sayfalar üretmek.",
+    "intro": "Bir sayfa “SEO için” yazılıp okunmuyorsa, arama motorundan trafik gelse bile iş hedefi (lead/rezervasyon/teklif) gelmeyebilir. Tersi de mümkün: tasarım “çok şık”tır ama heading, iç link, metin yoğunluğu ve bilgi mimarisi zayıf olduğu için organik potansiyel tam kullanılmaz. Bu [okunabilirlik SEO etkisi](/tr/seo/icerik-seo) çerçevesi, iki tarafı aynı masaya oturtur: kullanıcı için tüketilebilir, arama motoru için anlaşılır ve iş hedefi için yönlendirici sayfalar üretmek.",
     "quickSummary": [
       "1) İçerik UX; okunabilirlik, SEO sinyalleri ve dönüşüm hedeflerini birlikte dengeler",
       "2) Kısa paragraflar, net heading yapısı, listeler ve kutucuklar taranabilirliği artırır",
@@ -45244,47 +45244,67 @@
     "ctaPrimary": {
       "label": "İçerik UX & Okunabilirlik Analizi Talep Et",
       "text": "Rehber ve hizmet/destinasyon sayfalarında okunabilirliği artırıp SEO sinyallerini korumak isteyen ekipler için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "İçerik UX & Okunabilirlik Analizi Talep Et",
       "text": "SEO sinyallerini bozmadan okunabilirlik ve dönüşümü artırmak isteyen otel ve ajans ekipleri için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     },
     "secondary": {
       "label": "Okunabilirlik ve Layout Kontrol Listesini İndir",
       "text": "Her sayfada 10 dakikada UX–SEO dengesini kontrol edip hızlı aksiyon çıkarmanızı sağlar.",
-      "href": "/seo/icerik-seo"
+      "href": "/downloads/okunabilirlik-ve-layout-kontrol-listesi-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "İçerik SEO hizmet sayfası",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     },
     {
       "label": "SEO hizmetleri",
-      "href": "/seo-hizmetleri"
+      "href": "/tr/seo-hizmetleri"
+    },
+    {
+      "label": "SEO uyumlu içerik temel rehberi",
+      "href": "/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber"
+    },
+    {
+      "label": "FAQ / SSS içerik stratejisi",
+      "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
+    },
+    {
+      "label": "Video ve kısa form içerik stratejisi",
+      "href": "/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
     },
     {
       "label": "UI/UX tasarım",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     {
       "label": "Web sitesi geliştirme",
-      "href": "/yazilim/web-sitesi-gelistirme"
+      "href": "/tr/yazilim/web-sitesi-gelistirme"
+    },
+    {
+      "label": "Otel SEO hizmet sayfası",
+      "href": "/tr/otel/seo"
+    },
+    {
+      "label": "İçerik SEO SSS",
+      "href": "/tr/seo/icerik-seo-sss"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
-      "href": "/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi"
+      "title": "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber",
+      "href": "/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber"
     },
     {
-      "title": "İçerik SEO Nedir? Arama Niyeti ve Sayfa Mimarisi Nasıl Kurulur?",
-      "href": "/seo/icerik-seo"
+      "title": "FAQ / SSS İçerik Stratejisi ve FAQ Schema Kullanımı",
+      "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
     }
   ],
   "sections": [
@@ -45299,6 +45319,10 @@
         {
           "type": "p",
           "text": "Okunabilirlik, metnin “okunabilmesi” değil; web’de taranabilmesi (scannability) ve hızlı anlaşılabilmesidir. Kullanıcılar çoğu zaman kelime kelime okumaz; ekranı tarar, başlıklara bakar, listeleri inceler, kutucukları yakalar, sonra karar verir. Okunabilirlik düştüğünde şu zincir oluşur: düşük tüketim → düşük etkileşim → zayıf dönüşüm → içerik yatırımının boşa gitmesi."
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden [SEO hizmetleri içinde içerik deneyimi](/tr/seo-hizmetleri) konuşulurken yalnız metin uzunluğuna değil; taranabilir yapı, görsel hiyerarşi, hız ve kullanıcı yolculuğuna birlikte bakmak gerekir."
         },
         {
           "type": "h3",
@@ -45352,6 +45376,10 @@
         {
           "type": "p",
           "text": "Okunabilirlik yalnız metin editörünün işi değildir; tipografi ve görsel hiyerarşi tasarımın doğrudan sorumluluğudur. Satır uzunluğu çok uzunsa göz yorulur; kontrast düşükse metin okunmaz; font boyutu küçükse mobilde kopuş olur. Bu noktada hedef “gösterişli tasarım” değil, kolay tüketimdir."
+        },
+        {
+          "type": "p",
+          "text": "Bu dengeyi sürdürülebilir kurmak için [UI/UX tasarım ve SEO dengesi](/tr/creative/ui-ux-tasarim) baştan birlikte düşünülmelidir; çünkü tipografi, boşluk kullanımı ve CTA yerleşimi içerik performansını doğrudan etkiler."
         },
         {
           "type": "h3",
@@ -45415,7 +45443,7 @@
         },
         {
           "type": "p",
-          "text": "Heading hiyerarşisini (H1→H2→H3) koruyup tasarım bileşenlerini bu hiyerarşiye oturtun; H2’yi görsel olarak büyük göstermek için farklı heading seviyesine taşımayın. Liste ve kutucukları “alt soru cevap” mantığıyla kullanın; böylece hem kullanıcı hem arama motoru sayfanın bölümlerini net okur. Görselleri “anlatımı hızlandıran” yerlerde konumlandırın ve alt metinleri spam yapmadan yazın."
+          "text": "Heading hiyerarşisini (H1→H2→H3) koruyup tasarım bileşenlerini bu hiyerarşiye oturtun; H2’yi görsel olarak büyük göstermek için farklı heading seviyesine taşımayın. Liste ve kutucukları “alt soru cevap” mantığıyla kullanın; böylece hem kullanıcı hem arama motoru sayfanın bölümlerini net okur. Görselleri “anlatımı hızlandıran” yerlerde konumlandırın ve alt metinleri spam yapmadan yazın. Bu temel yapı, [SEO uyumlu içerikte okunabilirlik](/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber) tarafında başlık akışı, paragraf ritmi ve taranabilir metin mantığıyla birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -45481,7 +45509,7 @@
         },
         {
           "type": "p",
-          "text": "Mobilde hedef, kullanıcının ekranı tarayarak ilerlemesini kolaylaştırmaktır: daha kısa paragraflar, daha sık alt başlıklar ve daha net kutucuklar kullanın. Ağır modülleri (rezervasyon, galeri, harita) metni kesmeyecek şekilde konumlandırın ve ilk ekranda “okunur giriş + net CTA” dengesini kurun. Hız ve Core Web Vitals’ı bozmamak için görsel/komponent yükünü kontrol edin."
+          "text": "Mobilde hedef, kullanıcının ekranı tarayarak ilerlemesini kolaylaştırmaktır: daha kısa paragraflar, daha sık alt başlıklar ve daha net kutucuklar kullanın. Ağır modülleri (rezervasyon, galeri, harita) metni kesmeyecek şekilde konumlandırın ve ilk ekranda “okunur giriş + net CTA” dengesini kurun. Hız ve Core Web Vitals’ı bozmamak için görsel/komponent yükünü kontrol edin. Bu yapıyı teknik olarak doğru taşımak için [içerik deneyimini web sitesi geliştirme ile desteklemek](/tr/yazilim/web-sitesi-gelistirme) gerekir; responsive bloklar, component davranışı ve performans optimizasyonu burada belirleyicidir."
         },
         {
           "type": "h3",
@@ -45496,6 +45524,10 @@
             "Orta: örnek/diagram + iç linkler",
             "Final: CTA + SSS"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Özellikle uzun metinli sayfalarda [FAQ bloklarıyla içerik deneyimi](/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi) kullanıcıya hızlı cevap alanları açar; metin yükünü dengelemek için de [video ve kısa form içeriklerle okunabilirlik](/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri) yaklaşımı destekleyici bir format katmanı sunar."
         },
         {
           "type": "h3",
@@ -45536,7 +45568,7 @@
         },
         {
           "type": "p",
-          "text": "Metni, kullanıcı kararını ilerleten parçalara bölün: kısa özet, kriter listesi, konsept/oda/konum başlıkları ve sık sorular. Rezervasyon modülünü içeriği kesmeyecek ama karar anında görünür olacak şekilde konumlandırın; CTA’ları “okuduktan sonra mantıklı” noktalara yerleştirin. Görseller, metnin söylediğini kanıtlasın; metin de görselin ne anlattığını netleştirsin."
+          "text": "Metni, kullanıcı kararını ilerleten parçalara bölün: kısa özet, kriter listesi, konsept/oda/konum başlıkları ve sık sorular. Rezervasyon modülünü içeriği kesmeyecek ama karar anında görünür olacak şekilde konumlandırın; CTA’ları “okuduktan sonra mantıklı” noktalara yerleştirin. Görseller, metnin söylediğini kanıtlasın; metin de görselin ne anlattığını netleştirsin. Bu dengeyi kurarken [otel sayfasında içerik tasarım dengesi](/tr/otel/seo) yaklaşımı; oda sayfaları, destinasyon içerikleri ve rezervasyon yolculuğu için daha net bir çerçeve sağlar."
         },
         {
           "type": "h3",
@@ -45659,14 +45691,14 @@
           "variant": "secondary",
           "label": "Okunabilirlik ve Layout Kontrol Listesini İndir",
           "text": "Her sayfada 10 dakikada UX–SEO dengesini kontrol edip hızlı aksiyon çıkarmanızı sağlar.",
-          "href": "/seo/icerik-seo"
+          "href": "/downloads/okunabilirlik-ve-layout-kontrol-listesi-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "İçerik UX & Okunabilirlik Analizi Talep Et",
           "text": "Sayfalarınızda SEO sinyallerini bozmadan okunabilirlik ve dönüşüm performansını iyileştirmek isteyen ekipler için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         }
       ]
     },
@@ -45812,14 +45844,18 @@
           "variant": "primary",
           "label": "İçerik UX & Okunabilirlik Analizi Talep Et",
           "text": "SEO sinyallerini bozmadan okunabilirlik ve dönüşümü artırmak isteyen otel ve ajans ekipleri için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         },
         {
           "type": "cta",
           "variant": "secondary",
-          "label": "Okunabilirlik ve Layout Kontrol Listesini İndir",
-          "text": "Her sayfada 10 dakikada UX–SEO dengesini kontrol edip hızlı aksiyon çıkarmanızı sağlar.",
-          "href": "/seo/icerik-seo"
+          "label": "İçerik SEO Hakkında Sık Sorulan Sorular",
+          "text": "Okunabilirlik, içerik yapısı, FAQ kullanımı ve içerik deneyimiyle ilgili karar sorularını netleştirmek isteyenler için.",
+          "href": "/tr/seo/icerik-seo-sss"
+        },
+        {
+          "type": "p",
+          "text": "Bu rehberden sonra [profesyonel İçerik SEO ve okunabilirlik stratejisi](/tr/seo/icerik-seo) ile yapıyı daha sistematik hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından içerik yapısı, FAQ kullanımı ve içerik deneyimi detaylarına geçebilirsiniz."
         }
       ]
     }
@@ -45890,7 +45926,7 @@
 },
 
 "BlogFaqSssIcerikStratejisiVeFaqSchemaKullanimi": {
-  "title": "FAQ & SSS Stratejisi: FAQ Schema Nasıl Kullanılır?",
+  "title": "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?",
   "slug": "faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi",
   "department": "seo",
   "subDepartment":"content",
@@ -45900,7 +45936,7 @@
   "author": "DGTLFACE Editorial",
   "excerpt": "SSS sorularını Search Console, PAA ve çağrı merkezinden toplayın. Sayfa içi SSS mi, ayrı SSS hub mı seçin; FAQ schema’yı doğru kurup test ederek AEO’yu güçlendirin.",
   "seo": {
-    "metaTitle": "FAQ & SSS Stratejisi: FAQ Schema Nasıl Kullanılır? | DGTLFACE",
+    "metaTitle": "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız? | DGTLFACE",
     "metaDescription": "SSS sorularını Search Console, PAA ve çağrı merkezinden toplayın. Sayfa içi SSS mi, ayrı SSS hub mı seçin; FAQ schema’yı doğru kurup test ederek AEO’yu güçlendirin."
   },
   "blueprint": {
@@ -45939,7 +45975,7 @@
   },
   "h1": {
     "title": "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?",
-    "intro": "SSS (Sık Sorulan Sorular) çoğu sitede “sonradan eklenen, rastgele büyüyen” bir blok olarak kalıyor. Sonuç: sorular gerçek kullanıcı verisine dayanmıyor, cevaplar uzun/dağınık oluyor, sayfa hiyerarşisi bozuluyor ve schema ya hiç yok ya da yanlış. Oysa doğru kurgulanmış bir FAQ stratejisi; kullanıcıların kararını hızlandırır, çağrı merkezi yükünü azaltır ve AEO/voice tarafında “net cevap” üretir.",
+    "intro": "SSS (Sık Sorulan Sorular) çoğu sitede “sonradan eklenen, rastgele büyüyen” bir blok olarak kalıyor. Sonuç: sorular gerçek kullanıcı verisine dayanmıyor, cevaplar uzun/dağınık oluyor, sayfa hiyerarşisi bozuluyor ve schema ya hiç yok ya da yanlış. Oysa doğru kurgulanmış bir [FAQ SEO stratejisi](/tr/seo/icerik-seo); kullanıcıların kararını hızlandırır, çağrı merkezi yükünü azaltır ve AEO/voice tarafında “net cevap” üretir.",
     "quickSummary": [
       "1) SSS stratejisi rastgele soru yazmak değil, gerçek veriyle soru havuzu kurmaktır",
       "2) Sorular ToFu/MoFu/BoFu rolüne göre blog, hizmet sayfası veya SSS hub içinde konumlandırılmalıdır",
@@ -45950,47 +45986,67 @@
     "ctaPrimary": {
       "label": "FAQ & SSS İçerik Analizi Talep Et",
       "text": "SSS’leri veriye dayalı kurup sayfa hiyerarşisini bozmadan uygulamak isteyen otel ve ajans ekipleri için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "FAQ & SSS İçerik Analizi Talep Et",
       "text": "SSS’leri veriye dayalı kurup sayfa hiyerarşisini bozmadan uygulamak isteyen otel ve ajans ekipleri için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     },
     "secondary": {
       "label": "FAQ İçerik & FAQ Schema Uygulama Checklist’ini İndir",
       "text": "10 soruluk minimum SSS setini, schema ve test adımlarıyla birlikte uygulamanızı sağlar.",
-      "href": "/seo/icerik-seo"
+      "href": "/downloads/faq-icerik-ve-faq-schema-uygulama-checklisti-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "İçerik SEO hizmet sayfası",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
+    },
+    {
+      "label": "SEO hizmetleri",
+      "href": "/tr/seo-hizmetleri"
+    },
+    {
+      "label": "Search intent analizi ve içerik haritalama",
+      "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
+    },
+    {
+      "label": "Entity ve anlamsal SEO",
+      "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
+    },
+    {
+      "label": "AEO advanced içerik stratejisi",
+      "href": "/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
     },
     {
       "label": "Teknik SEO",
-      "href": "/seo/teknik-seo"
+      "href": "/tr/seo/teknik-seo"
     },
     {
       "label": "Otel SEO",
-      "href": "/otel/seo"
+      "href": "/tr/otel/seo"
     },
     {
       "label": "Çağrı merkezi hizmetleri",
-      "href": "/cagri-merkezi-hizmetleri"
+      "href": "/tr/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "İçerik SEO SSS",
+      "href": "/tr/seo/icerik-seo-sss"
     }
   ],
   "relatedPosts": [
     {
-      "title": "İçerik UX ve Okunabilirlik: SEO ile Tasarımı Nasıl Dengelersiniz?",
-      "href": "/seo/blog/icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz"
+      "title": "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+      "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
     },
     {
-      "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
-      "href": "/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi"
+      "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+      "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
     }
   ],
   "sections": [
@@ -46005,6 +46061,14 @@
         {
           "type": "p",
           "text": "FAQ’lar “sadece bilgi” değildir; funnel içinde farklı görevleri vardır. Üst funnel’da (ToFu) kullanıcı hızlı tanım ister; mid funnel’da (MoFu) kıyas ve risk azaltma ister; bottom funnel’da (BoFu) ise “kapanış soruları” sorar (fiyat, süreç, iptal, SLA, teslimat, rezervasyon adımları gibi). Aynı SSS bloğuna her şeyi doldurmak yerine, soruları funnel rolüne göre dağıtmak hem UX’i hem SEO’yu güçlendirir."
+        },
+        {
+          "type": "p",
+          "text": "Bu katman, [SEO hizmetleri içinde FAQ içerik stratejisi](/tr/seo-hizmetleri) düşünülürken yalnız soru-cevap alanı değil; search intent, entity, schema ve kullanıcı karar sürecini destekleyen ayrı bir içerik mimarisi olarak ele alınmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "Özellikle [search intent’e göre FAQ soruları](/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama) gruplandığında; bilgilendirici, karşılaştırmalı ve dönüşüm odaklı soruların hangi sayfa tipinde daha iyi çalıştığı çok daha net görünür."
         },
         {
           "type": "h3",
@@ -46058,7 +46122,7 @@
         },
         {
           "type": "p",
-          "text": "SSS’ye; (1) arama verisinde tekrar eden sorgular, (2) satış/çağrı merkezi kayıtlarında en çok gelen sorular ve (3) dönüşüm öncesi “tereddüt” yaratan itiraz soruları alınır. Öncelik, kullanıcı kararını hızlandıran ve destek yükünü azaltan sorulardadır. Aynı soruyu farklı şekillerde tekrar etmek yerine bir “ana soru + net cevap” standardı kullanın."
+          "text": "SSS’ye; (1) arama verisinde tekrar eden sorgular, (2) satış/çağrı merkezi kayıtlarında en çok gelen sorular ve (3) dönüşüm öncesi “tereddüt” yaratan itiraz soruları alınır. Öncelik, kullanıcı kararını hızlandıran ve destek yükünü azaltan sorulardadır. Aynı soruyu farklı şekillerde tekrar etmek yerine bir “ana soru + net cevap” standardı kullanın. Bu ham veriyi sistematikleştirmek için [çağrı merkezi sorularından FAQ üretimi](/tr/cagri-merkezi-hizmetleri) yaklaşımı; tekrar eden itirazları ve rezervasyon öncesi soruları içerik havuzuna taşımada çok değerlidir."
         },
         {
           "type": "h3",
@@ -46163,6 +46227,10 @@
             "“İlgili rehber” ve “ilgili hizmet” linklerini ölçülü ekle.",
             "Aynı soruyu sayfa içinde 2 kez tekrar etme; tek yerde doğru cevap ver."
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu kısa cevap mantığı, [entity odaklı FAQ içerikleri](/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim) kurarken de önemlidir; çünkü soru-cevap blokları tekil kelimeleri değil, varlık ilişkilerini ve semantik bağlamı da besler. Aynı zamanda [cevap motorları için FAQ içerikleri](/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi) üretmek isteyen ekipler için açık, net ve yapılandırılmış cevap standardı temel gerekliliktir."
         }
       ]
     },
@@ -46195,6 +46263,10 @@
             "Otel sayfası: iptal/rezervasyon, transfer, çocuk, check-in/out, konsept",
             "SSS hub (/sss/ veya /faq/): kategori bazlı SSS (varsayım: site yapınız uygunsa)"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Sektörel tarafta [otel SEO’da SSS sayfası kullanımı](/tr/otel/seo), özellikle rezervasyon, iptal, ulaşım, oda tipi, konsept ve fiyat sorularını karar anına yakın şekilde yanıtlamak için güçlü bir katman oluşturur."
         },
         {
           "type": "h3",
@@ -46239,7 +46311,7 @@
         },
         {
           "type": "p",
-          "text": "FAQ schema için sayfada gerçek SSS içeriği olmalı; ardından JSON-LD ile FAQPage ve mainEntity altında Question/Answer alanları eklenir. Zorunlu alanları doldurduktan sonra Rich Results Test ile doğrulayın ve URL Denetimi ile Google’ın sayfayı nasıl gördüğünü kontrol edin."
+          "text": "FAQ schema için sayfada gerçek SSS içeriği olmalı; ardından JSON-LD ile FAQPage ve mainEntity altında Question/Answer alanları eklenir. Zorunlu alanları doldurduktan sonra Rich Results Test ile doğrulayın ve URL Denetimi ile Google’ın sayfayı nasıl gördüğünü kontrol edin. Bu süreci daha güvenli uygulamak için [FAQ Schema nasıl kullanılır](/tr/seo/teknik-seo) tarafında structured data, validasyon ve indexlenebilirlik kontrolleri birlikte ele alınmalıdır."
         },
         {
           "type": "h3",
@@ -46446,14 +46518,14 @@
           "variant": "secondary",
           "label": "FAQ İçerik & FAQ Schema Uygulama Checklist’ini İndir",
           "text": "10 soruluk minimum SSS setini, schema ve test adımlarıyla birlikte uygulamanızı sağlar.",
-          "href": "/seo/icerik-seo"
+          "href": "/downloads/faq-icerik-ve-faq-schema-uygulama-checklisti-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "FAQ & SSS İçerik Analizi Talep Et",
           "text": "SSS mimarisi, soru seçimi, schema uygulaması ve performans takibini tek planda kurmak isteyen ekipler için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         }
       ]
     },
@@ -46592,14 +46664,18 @@
           "variant": "primary",
           "label": "FAQ & SSS İçerik Analizi Talep Et",
           "text": "SSS mimarisi, soru seçimi, schema uygulaması ve performans takibini tek planda kurmak isteyen ekipler için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         },
         {
           "type": "cta",
           "variant": "secondary",
           "label": "FAQ İçerik & FAQ Schema Uygulama Checklist’ini İndir",
           "text": "10 soruluk minimum SSS setini, schema ve test adımlarıyla birlikte uygulamanızı sağlar.",
-          "href": "/seo/icerik-seo"
+          "href": "/downloads/faq-icerik-ve-faq-schema-uygulama-checklisti-v1.0.pdf"
+        },
+        {
+          "type": "p",
+          "text": "Bu rehberden sonra [profesyonel İçerik SEO ve FAQ stratejisi](/tr/seo/icerik-seo) ile soru mimarisini daha sistematik hale getirebilir, karar aşamasında da [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından FAQ yapısı, search intent ve schema uygulama detaylarına geçebilirsiniz."
         }
       ]
     }
@@ -46672,7 +46748,7 @@
 },
 
 "BlogProgramatikVeSablonBazliIcerikSeoBuyukYapilarda": {
-  "title": "Programatik İçerik SEO: Şablonlarla Güvenli Ölçek",
+  "title": "Programatik ve Şablon Bazlı İçerik SEO: Çok Sayfalı Yapılarda Nasıl Güvenli Kullanılır?",
   "slug": "programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda",
   "department": "seo",
   "subDepartment":"content",
@@ -46682,7 +46758,7 @@
   "author": "DGTLFACE Editorial",
   "excerpt": "Programatik içerik nedir? Şablon bazlı sayfalarda dinamik+editoryal denge kurun, duplicate’i azaltın, canonical+sitemap+iç link stratejisiyle index kalitesini koruyun.",
   "seo": {
-    "metaTitle": "Programatik İçerik SEO: Şablonlarla Güvenli Ölçek | DGTLFACE",
+    "metaTitle": "Programatik ve Şablon Bazlı İçerik SEO: Çok Sayfalı Yapılarda Nasıl Güvenli Kullanılır? | DGTLFACE",
     "metaDescription": "Programatik içerik nedir? Şablon bazlı sayfalarda dinamik+editoryal denge kurun, duplicate’i azaltın, canonical+sitemap+iç link stratejisiyle index kalitesini koruyun."
   },
   "blueprint": {
@@ -46721,7 +46797,7 @@
   },
   "h1": {
     "title": "Programatik ve Şablon Bazlı İçerik SEO: Çok Sayfalı Yapılarda Nasıl Güvenli Kullanılır?",
-    "intro": "Yüzlerce sayfa üreten yapılarda en büyük ikilem şudur: “Bu hacmi elle yazamayız, ama şablonla üretirsek sayfalar birbirinin kopyası olur mu?” Cevap: doğru tasarlanmamış template gerçekten de kopya sayfalar üretir; fakat iyi tasarlanmış programatik sistem, hem ölçeklenebilirlik hem de SEO açısından sürdürülebilir büyüme sağlar. Buradaki oyun alanı “daha çok sayfa” değil; daha çok sayfada benzersiz değer üretmektir.\n\nBu rehber; dinamik alanlar (fiyat/stok/özellik), editoryal alanlar (rehber, ipucu, karşılaştırma), duplicate kontrolü (canonical/noindex), site mimarisi (hub–cluster iç link ağı) ve template değişiklik yönetimini tek bir blueprint olarak birleştirir.",
+    "intro": "Yüzlerce sayfa üreten yapılarda en büyük ikilem şudur: “Bu hacmi elle yazamayız, ama şablonla üretirsek sayfalar birbirinin kopyası olur mu?” Cevap: doğru tasarlanmamış template gerçekten de kopya sayfalar üretir; fakat iyi tasarlanmış [programatik içerik SEO](/tr/seo/icerik-seo) sistemi, hem ölçeklenebilirlik hem de SEO açısından sürdürülebilir büyüme sağlar. Buradaki oyun alanı “daha çok sayfa” değil; daha çok sayfada benzersiz değer üretmektir.\n\nBu rehber; dinamik alanlar (fiyat/stok/özellik), editoryal alanlar (rehber, ipucu, karşılaştırma), duplicate kontrolü (canonical/noindex), site mimarisi (hub–cluster iç link ağı) ve template değişiklik yönetimini tek bir blueprint olarak birleştirir.",
     "quickSummary": [
       "1) Programatik içerik, veri alanları ve template ile çok sayfalı yapıları ölçekler",
       "2) Şablon bazlı sayfalarda asıl risk duplicate, thin content ve index kalitesi düşüşüdür",
@@ -46732,43 +46808,67 @@
     "ctaPrimary": {
       "label": "Programatik İçerik & Template Yapı Analizi Talep Et",
       "text": "Büyük yapılarda duplicate riskini azaltıp index kalitesini artırmak isteyen ekipler için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Programatik İçerik & Template Yapı Analizi Talep Et",
       "text": "Büyük yapılarda duplicate riskini azaltıp index kalitesini artırmak isteyen otel ve ajans ekipleri için.",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
     },
     "secondary": {
       "label": "Programatik Sayfa Tasarımı & Kontrol Şablonunu İndir",
       "text": "Sayfa aileleri, alanlar, canonical ve iç link kurallarını tek tabloda planlamanızı sağlar.",
-      "href": "/seo/icerik-seo"
+      "href": "/downloads/programatik-sayfa-tasarimi-ve-kontrol-sablonu-v1.0.pdf"
     }
   },
   "internalLinks": [
     {
       "label": "İçerik SEO hizmet sayfası",
-      "href": "/seo/icerik-seo"
+      "href": "/tr/seo/icerik-seo"
+    },
+    {
+      "label": "SEO hizmetleri",
+      "href": "/tr/seo-hizmetleri"
+    },
+    {
+      "label": "Topic cluster ve content hub mimarisi",
+      "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+    },
+    {
+      "label": "İçerik pruning ve index management",
+      "href": "/tr/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz"
+    },
+    {
+      "label": "İçerik içinde internal link stratejisi",
+      "href": "/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi"
     },
     {
       "label": "Teknik SEO",
-      "href": "/seo/teknik-seo"
+      "href": "/tr/seo/teknik-seo"
     },
     {
-      "label": "Online satış optimizasyonu",
-      "href": "/pms-ota/online-satis"
+      "label": "Online satış",
+      "href": "/tr/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel SEO",
+      "href": "/tr/otel/seo"
+    },
+    {
+      "label": "İçerik SEO SSS",
+      "href": "/tr/seo/icerik-seo-sss"
     }
   ],
   "relatedPosts": [
     {
-      "title": "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?",
-      "href": "/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
+      "title": "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+      "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
     },
     {
-      "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
-      "href": "/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi"
+      "title": "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız?",
+      "href": "/tr/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz"
     }
   ],
   "sections": [
@@ -46783,6 +46883,10 @@
         {
           "type": "p",
           "text": "Programatik içerik, bir veri setinden (ör. oda tipi, lokasyon, ürün varyantı, özellik kombinasyonu) otomatik olarak sayfa üretmektir. Bu sayfalar tek tek elle yazılmaz; bir şablon (template) ve veri alanları (fields) birleşir. Buradaki kritik ayrım: programatik sayfa “otomatik üretildi” diye kalitesiz olmak zorunda değildir; ama kaliteyi otomatikleştirmek için şablonun editoryal ve teknik standartları taşıması gerekir."
+        },
+        {
+          "type": "p",
+          "text": "Bu yaklaşım, [SEO hizmetleri içinde programatik içerik yapısı](/tr/seo-hizmetleri) olarak konumlandığında yalnız üretim hacmini değil; index kalitesini, teknik güvenliği ve içerik mimarisini birlikte yönetmeyi gerektirir."
         },
         {
           "type": "h3",
@@ -46852,7 +46956,15 @@
         },
         {
           "type": "p",
+          "text": "Bu ölçek özellikle [büyük yapılarda içerik SEO](/tr/otel/seo) planlanırken daha kritik hale gelir; çünkü oda tipi, lokasyon ve kampanya sayfalarının birbirini kopyalamadan farklılaşması gerekir."
+        },
+        {
+          "type": "p",
           "text": "Katalog örneği: renk/kapasite varyantı sayfalarında “aynı açıklama” tekrar edilirse duplicate ve cannibalisation artar."
+        },
+        {
+          "type": "p",
+          "text": "Dinamik fiyat, kampanya ve müsaitlik akışı taşıyan yapılarda [dinamik satış sayfalarında programatik içerik](/tr/pms-ota/online-satis) ancak veri kalitesi, index kararı ve kullanıcı niyeti birlikte düşünülürse sürdürülebilir değer üretir."
         },
         {
           "type": "h3",
@@ -47111,6 +47223,14 @@
           "text": "Önce benzer sayfaları kümeler hâlinde sınıflandırın: hangisi “ana sayfa”, hangisi “varyant” rolünde? Ana sayfayı index’te tutup, çok benzer varyantları canonical ile ana sayfaya bağlayın veya noindex uygulayın (senaryoya göre). Ardından iç linkleri ve sitemap’i bu hiyerarşiye uygun güncelleyin; böylece arama motoru hangi URL’nin esas olduğunu net anlar."
         },
         {
+          "type": "p",
+          "text": "Bu kararları pratikte standartlaştırmak için [programatik sayfalarda index yönetimi](/tr/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz) yaklaşımı; zayıf varyantları, tekrar eden URL’leri ve gereksiz index yükünü sistemli biçimde ayıklamanıza yardımcı olur."
+        },
+        {
+          "type": "p",
+          "text": "Aynı noktada doğru [şablon bazlı sayfa tasarımı](/tr/seo/teknik-seo), canonical, crawl budget, sitemap ve pagination kararlarını içerik üretiminden ayrı değil; aynı kalite güvence katmanının parçası olarak ele alır."
+        },
+        {
           "type": "h3",
           "text": "Canonical karar matrisi (pratik)"
         },
@@ -47172,6 +47292,14 @@
         {
           "type": "p",
           "text": "Programatik sayfaların en büyük problemlerinden biri “yetim” kalmalarıdır: URL var ama içerik ağına bağlı değil. Bu da hem kullanıcı deneyimini hem de SEO sinyalini zayıflatır. Çözüm: hub–cluster mimarisiyle programatik sayfaları doğru hiyerarşide birbirine bağlamak."
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden programatik üretim, rastgele URL çoğaltmak yerine [content hub içinde programatik sayfalar](/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi) mantığıyla kurgulanmalıdır; her şablon sayfa bir hub, kategori veya karar aşaması içeriğine bağlanmalıdır."
+        },
+        {
+          "type": "p",
+          "text": "Aynı ağ içinde [şablon sayfalarda internal link mimarisi](/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi) doğru kurulmadığında; güçlü hub’lar otorite aktaramaz, alt sayfalar da kullanıcıyı bir sonraki adıma taşıyamaz."
         },
         {
           "type": "h3",
@@ -47459,14 +47587,14 @@
           "variant": "secondary",
           "label": "Programatik Sayfa Tasarımı & Kontrol Şablonunu İndir",
           "text": "Sayfa ailelerini, dinamik/editoryal alanları ve index kurallarını tek tabloda planlamanızı sağlar.",
-          "href": "/seo/icerik-seo"
+          "href": "/downloads/programatik-sayfa-tasarimi-ve-kontrol-sablonu-v1.0.pdf"
         },
         {
           "type": "cta",
           "variant": "primary",
           "label": "Programatik İçerik & Template Yapı Analizi Talep Et",
           "text": "Template, canonical, iç link ve performans risklerini birlikte ele alıp ölçeklenebilir plan isteyen ekipler için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         }
       ]
     },
@@ -47559,18 +47687,22 @@
           "text": "Asıl hedef daha fazla URL üretmek değil; index’e girmeye değer, kullanıcı ihtiyacını karşılayan ve benzersiz değer taşıyan sayfa aileleri kurmaktır. Bu sistem doğru kurulduğunda, Content SEO ve Teknik SEO aynı mimari içinde ölçeklenebilir hale gelir."
         },
         {
+          "type": "p",
+          "text": "Bu yapıyı stratejik olarak kurmak istiyorsanız [profesyonel İçerik SEO ve programatik içerik stratejisi](/tr/seo/icerik-seo) yaklaşımını değerlendirebilir; karar aşamasındaki ek sorular için de [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasına geçebilirsiniz."
+        },
+        {
           "type": "cta",
           "variant": "primary",
           "label": "Programatik İçerik & Template Yapı Analizi Talep Et",
           "text": "Büyük yapılarda duplicate riskini azaltıp index kalitesini artırmak isteyen otel ve ajans ekipleri için.",
-          "href": "/seo/icerik-seo"
+          "href": "/tr/seo/icerik-seo"
         },
         {
           "type": "cta",
           "variant": "secondary",
           "label": "Programatik Sayfa Tasarımı & Kontrol Şablonunu İndir",
           "text": "Sayfa aileleri, alanlar, canonical ve iç link kurallarını tek tabloda planlamanızı sağlar.",
-          "href": "/seo/icerik-seo"
+          "href": "/downloads/programatik-sayfa-tasarimi-ve-kontrol-sablonu-v1.0.pdf"
         }
       ]
     }
@@ -47642,8 +47774,8 @@
   }
 },
 
-"BlogPersonaOdakliIcerikStratejisiFarkliKitlelereFarkliMesajlar": {
-    "title": "Persona Odaklı İçerik Stratejisi: Mesaj Eşleştirme",
+  "BlogPersonaOdakliIcerikStratejisiFarkliKitlelereFarkliMesajlar": {
+    "title": "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar",
     "slug": "persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar",
     "department": "seo",
     "subDepartment":"content",
@@ -47653,7 +47785,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Persona nedir? GM, pazarlama müdürü, ajans yöneticisi ve tatilci gibi kitlelere mesajı uyarlayın. Persona kartı çıkarın, intent’i okuyun, CTA’ları hedefe göre kurgulayın.",
     "seo": {
-      "metaTitle": "Persona Odaklı İçerik Stratejisi: Mesaj Eşleştirme | DGTLFACE",
+      "metaTitle": "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar | DGTLFACE",
       "metaDescription": "Persona nedir? GM, pazarlama müdürü, ajans yöneticisi ve tatilci gibi kitlelere mesajı uyarlayın. Persona kartı çıkarın, intent’i okuyun, CTA’ları hedefe göre kurgulayın."
     },
     "blueprint": {
@@ -47691,7 +47823,7 @@
     },
     "h1": {
       "title": "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar",
-      "intro": "Aynı içerik herkes için aynı anlama gelmez. Otel genel müdürü bir sayfayı “gelire etkisi var mı?” diye okur; pazarlama müdürü “ölçer miyim, uygulaması kolay mı?” diye bakar; ajans yöneticisi “süreç, deliverable, kaynak planı” arar; aile tatilci ise “benim ihtiyacım çözülüyor mu?” der. Persona odaklı içerik stratejisi, bu farkı kabul edip içerikte mesaj, kanıt, örnek ve CTA katmanlarını personaya göre uyarlamayı hedefler.",
+      "intro": "Aynı içerik herkes için aynı anlama gelmez. Otel genel müdürü bir sayfayı “gelire etkisi var mı?” diye okur; pazarlama müdürü “ölçer miyim, uygulaması kolay mı?” diye bakar; ajans yöneticisi “süreç, deliverable, kaynak planı” arar; aile tatilci ise “benim ihtiyacım çözülüyor mu?” der. Bu nedenle [persona odaklı içerik](/tr/seo/icerik-seo) yaklaşımı, içerikte mesaj, kanıt, örnek ve CTA katmanlarını hedef kitleye göre uyarlamayı amaçlar.",
       "quickSummary": [
         "1) Primer persona’yı netleştir",
         "2) Persona karar kriterlerini belirle",
@@ -47702,43 +47834,63 @@
       "ctaPrimary": {
         "label": "Persona Bazlı İçerik Strateji Analizi Talep Et",
         "text": "Tek tonda yazılan içerikleri persona’ya göre dönüştürmek isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Persona Bazlı İçerik Strateji Analizi Talep Et",
         "text": "Mevcut içerikleri persona’ya göre yeniden kurgulayıp etkiyi artırmak isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Persona Kartı & Mesaj Haritalama Şablonunu İndir",
         "text": "Her persona için hedef, itiraz, kanıt ve CTA’yı tek tabloda eşleştirmenizi sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/persona-karti-mesaj-haritalama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Search intent analizi ve içerik haritalama",
+        "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
+      },
+      {
+        "label": "E-E-A-T ve içerik üretimi",
+        "href": "/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
+      },
+      {
+        "label": "SEO içerik brief’i ve outline",
+        "href": "/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik SEO Nedir? Google İçin Değil, Kullanıcı Niyeti İçin Yazmak",
-        "href": "/seo/icerik-seo"
+        "title": "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+        "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
       },
       {
-        "title": "SEO Hizmetleri: Strateji, Teknik Altyapı ve İçerik Büyümesi",
-        "href": "/seo-hizmetleri"
+        "title": "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
+        "href": "/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
       }
     ],
     "sections": [
@@ -47753,6 +47905,10 @@
           {
             "type": "p",
             "text": "Persona; hedef kitlenin “kim olduğunun” ötesinde, nasıl karar verdiğinin kısa özetidir. Demografi tek başına yetmez: aynı yaş grubundaki iki kişi farklı motivasyonla arar. Persona, içerikte hangi örneği vereceğinizi, hangi riski azaltacağınızı, hangi metrikle ikna edeceğinizi ve CTA’yı nereye koyacağınızı belirler."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [SEO hizmetleri içinde persona bazlı içerik planı](/tr/seo-hizmetleri) kurulurken yalnız anahtar kelime değil; hedef kitle, karar aşaması, güven ihtiyacı ve mesaj tonunun birlikte düşünülmesini gerektirir."
           },
           {
             "type": "h3",
@@ -47893,6 +48049,10 @@
             "text": "Önce arama niyetini çıkarın, sonra bu niyeti en çok taşıyan persona’yı seçin. Aynı konu birden fazla personaya hitap ediyorsa, tek sayfada herkese aynı mesajı vermek yerine mesaj katmanlarını ayırın: giriş ve örnekler primer persona için, diğer personaya kısa geçiş bloklarıyla destek. Böylece hem okunabilirlik hem dönüşüm netleşir."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı sistematik kurmak için [search intent ve persona eşleşmesi](/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama) mantığıyla; bilgilendirici, ticari ve dönüşüm odaklı sorguların hangi persona tarafından hangi sayfa tipinde karşılanacağını baştan belirlemek gerekir."
+          },
+          {
             "type": "h3",
             "text": "AIO mini model: “Persona → Niyet → Mesaj → CTA”"
           },
@@ -47954,6 +48114,14 @@
             "text": "Önce ortak faydayı koruyun (ör. “daha fazla direkt satış”), sonra persona’ya göre farklılaştırın: GM için ROI ve risk azaltma dili; pazarlama müdürü için KPI ve uygulama adımları; ajans yöneticisi için süreç ve deliverable; B2C için deneyim ve pratik bilgi. Aynı hizmeti farklı anlatmak, “yalan söylemek” değil, aynı değeri farklı açıyla görünür kılmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu mesaj farkını güvene çevirmek için [E-E-A-T ile güven veren içerik](/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir) yaklaşımı önemlidir; çünkü her persona aynı uzmanlık sinyalini değil, kendi karar kriterine uygun kaynak, otorite ve kanıt biçimini arar."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [farklı hedef kitlelere içerik yazmak](/tr/otel-dijital-pazarlama) özellikle kritik hale gelir; çünkü aileler, çiftler, iş seyahati yapanlar veya erken rezervasyon kitlesi aynı otel teklifini çok farklı beklentilerle değerlendirir."
+          },
+          {
             "type": "h3",
             "text": "Aynı konu için farklı persona’ya göre başlık/giriş varyasyonları"
           },
@@ -48006,6 +48174,10 @@
             "text": "Persona uyumu sadece metinde değil, sayfa yapısında görünmelidir. Örneğin GM için “özet + sonuç + risk” blokları üstte olmalı; pazarlama müdürü için “adım adım plan + checklist” erken gelmeli; B2C için “kriter listesi + görsel destek + SSS” öne çıkmalı."
           },
           {
+            "type": "p",
+            "text": "Bu blokları üretim öncesinde netleştirmek için [persona kartı nasıl hazırlanır](/tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir) sorusunu brief ve outline aşamasında cevaplamak gerekir; böylece ton, örnekler, itirazlar ve CTA yerleşimi yazım başlamadan standardize edilir."
+          },
+          {
             "type": "h3",
             "text": "Sayfa blok önerileri (persona bazlı)"
           },
@@ -48052,6 +48224,10 @@
           {
             "type": "p",
             "text": "SSS ve case, personaya göre farklı iş görür:"
+          },
+          {
+            "type": "p",
+            "text": "Bu itirazları doğru toplamak için [çağrı merkezi verisinden persona çıkarmak](/tr/cagri-merkezi-hizmetleri) çok değerlidir; çünkü rezervasyon, fiyat, süreç ve güven soruları gerçek kullanıcı dilini doğrudan içerik stratejisine taşır."
           },
           {
             "type": "list",
@@ -48169,14 +48345,14 @@
             "variant": "secondary",
             "label": "Persona Kartı & Mesaj Haritalama Şablonunu İndir",
             "text": "Her persona için hedef, itiraz, kanıt ve CTA’yı tek tabloda eşleştirmenizi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/persona-karti-mesaj-haritalama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Persona Bazlı İçerik Strateji Analizi Talep Et",
             "text": "Mevcut içerikleri persona’ya göre yeniden kurgulayıp etkiyi artırmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -48266,18 +48442,22 @@
             "text": "Bu yaklaşım özellikle Content SEO sürecinde strateji standardı olarak çalışır: brief’ten editoryal QA’ya, sayfa bloklarından CTA yerleşimine kadar her adımda “bu içeriği kim, hangi karar kriteriyle okuyacak?” sorusunu canlı tutar."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha sistematik kurmak için [profesyonel İçerik SEO ve persona odaklı içerik stratejisi](/tr/seo/icerik-seo) yaklaşımını değerlendirebilir; karar aşamasındaki ek sorular için de [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Persona Bazlı İçerik Strateji Analizi Talep Et",
             "text": "Tek tonda yazılan içerikleri persona’ya göre dönüştürmek isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Persona Kartı & Mesaj Haritalama Şablonunu İndir",
             "text": "Her persona için hedef, itiraz, kanıt ve CTA’yı tek tabloda eşleştirmenizi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/persona-karti-mesaj-haritalama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -48346,7 +48526,7 @@
   },
 
   "BlogVeriIstatistikVeOrneklerleIcerikZenginlestirme": {
-    "title": "Veri Destekli İçerik: İstatistik ve Örneklerle Zenginleştir",
+    "title": "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz?",
     "slug": "veri-istatistik-ve-orneklerle-icerik-zenginlestirme",
     "department": "seo",
     "subDepartment":"content",
@@ -48356,7 +48536,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Veri destekli içerik nasıl yazılır? İstatistikleri metne yığmadan kullanın, tablo/grafikle görselleştirin, case snippet’leri ekleyin ve kaynak+tarih notuyla güveni artırın.",
     "seo": {
-      "metaTitle": "Veri Destekli İçerik: İstatistik ve Örneklerle Zenginleştir | DGTLFACE",
+      "metaTitle": "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz? | DGTLFACE",
       "metaDescription": "Veri destekli içerik nasıl yazılır? İstatistikleri metne yığmadan kullanın, tablo/grafikle görselleştirin, case snippet’leri ekleyin ve kaynak+tarih notuyla güveni artırın."
     },
     "blueprint": {
@@ -48394,7 +48574,7 @@
     },
     "h1": {
       "title": "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz?",
-      "intro": "SEO ve içerik dünyasında en büyük farklardan biri şudur: Bazı içerikler “doğru şeyleri söyler” ama ikna etmez; bazı içerikler ise doğru şeyi kanıtlayarak söyler ve kullanıcıyı aksiyona taşır. Veri destekli içerik yaklaşımı, iddiaları “görünür kanıt”a dönüştürerek güveni artırır ve karar süresini kısaltır. Burada kritik denge: veriyi metne yığmadan, okunabilirliği bozmadan, görselleştirerek ve doğru bağlamla sunmaktır.",
+      "intro": "SEO ve içerik dünyasında en büyük farklardan biri şudur: Bazı içerikler “doğru şeyleri söyler” ama ikna etmez; bazı içerikler ise doğru şeyi kanıtlayarak söyler ve kullanıcıyı aksiyona taşır. [veri destekli içerik](/tr/seo/icerik-seo) yaklaşımı, iddiaları “görünür kanıt”a dönüştürerek güveni artırır ve karar süresini kısaltır. Burada kritik denge: veriyi metne yığmadan, okunabilirliği bozmadan, görselleştirerek ve doğru bağlamla sunmaktır.",
       "quickSummary": [
         "1) İçerikte kanıt gerektiren iddiaları seç",
         "2) Her iddia için doğru veri türünü belirle",
@@ -48405,43 +48585,67 @@
       "ctaPrimary": {
         "label": "Veri Destekli İçerik & Case Analizi Talep Et",
         "text": "İçeriklerinde iddiayı kanıtla güçlendirip daha ikna edici sayfalar isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Veri Destekli İçerik & Case Analizi Talep Et",
         "text": "İçeriklerini kanıtla güçlendirip daha ikna edici sayfalar isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Veri ve Case Snippet Planlama Şablonunu İndir",
         "text": "İddia–veri–grafik–case–kaynak alanlarını planlayıp içerikte hızlı uygulamanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/veri-ve-case-snippet-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "E-E-A-T ve içerik üretimi",
+        "href": "/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
+      },
+      {
+        "label": "Uzun-form ve kısa-form içerik stratejisi",
+        "href": "/tr/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi"
+      },
+      {
+        "label": "Zero-click SERP stratejisi",
+        "href": "/tr/seo/blog/zero-click-serp-ve-marka-odakli-icerik-stratejisi"
       },
       {
         "label": "Satış ve dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Reklam raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar",
-        "href": "/seo/blog/persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar"
+        "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
+        "href": "/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
       },
       {
-        "title": "İçerik SEO Nedir? Google İçin Değil, Kullanıcı Niyeti İçin Yazmak",
-        "href": "/seo/icerik-seo"
+        "title": "Long-Form ve Short-Form İçerik Stratejisi: Ne Zaman Hangisini Kullanmalıyız?",
+        "href": "/tr/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi"
       }
     ],
     "sections": [
@@ -48460,6 +48664,10 @@
           {
             "type": "p",
             "text": "Bu avantajların SEO tarafındaki katkısı, doğrudan “veri koydum sıralamam arttı” gibi mekanik bir ilişki değildir. Daha gerçekçi çerçeve: veri destekli içerik, kullanıcı deneyimini güçlendirdiği için etkileşim ve dönüşüm sinyallerini iyileştirme eğilimi taşır; bu da içerik yatırımının geri dönüşünü artırır. Google tarafında içerik kalitesi “kanıt ve fayda” ile birlikte değerlendirilir; kullanıcı için net ve doğrulanabilir anlatım genellikle daha iyi bir deneyim yaratır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde veri destekli içerik üretimi](/tr/seo-hizmetleri), yalnızca metin yazmak değil; kanıt yerleşimini, performans yorumunu ve kullanıcı güvenini birlikte planlamak anlamına gelir."
           },
           {
             "type": "h3",
@@ -48512,6 +48720,10 @@
           {
             "type": "p",
             "text": "Üç ana veri kaynağı kullanabilirsiniz: (1) pazar verileri ve sektör araştırmaları, (2) kendi iç raporlarınız (performans, dönüşüm, çağrı merkezi, satış), (3) vaka/örnek veriler (case snippet’leri). En iyi pratik, her içerikte “en güvenilir ve en güncel” kaynağı seçip bağlamı doğru vermektir: veri hangi dönem, hangi koşul ve hangi kitle için geçerli?"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki seçim, yalnızca “hangi sayıyı kullanayım?” sorusu değildir; aynı zamanda güven standardını da belirler. Bu nedenle [veri ve kaynaklarla güvenilir içerik](/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir) yaklaşımı, hangi kaynağın hangi iddiayı desteklemesi gerektiğini daha net kurmanıza yardım eder."
           },
           {
             "type": "h3",
@@ -48576,6 +48788,10 @@
           {
             "type": "p",
             "text": "İstatistiği, yalnızca “sayı” olarak değil, iddianın kanıtı olarak kullanın: önce neyi savunduğunuzu net söyleyin, sonra sayıyı verin, ardından bu sayının ne anlama geldiğini 1–2 cümleyle açıklayın. Son adımda kullanıcıya uygulanabilir bir çıkarım sunun (ör. “hangi KPI’ı takip etmeli?”). İstatistiklerinizin kaynağını ve tarihini ekleyerek güveni koruyun."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle derin rehberlerde [SEO içeriğinde istatistik kullanmak](/tr/seo/blog/uzun-form-ve-kisa-form-icerik-stratejisi-ne-zaman-hangisi), yalnızca daha fazla sayı eklemek değildir; içerik uzadıkça her verinin gerçekten yeni bir içgörü taşıması ve kullanıcıyı sonraki adıma hazırlaması gerekir."
           },
           {
             "type": "h3",
@@ -48712,6 +48928,10 @@
             "text": "Veriyi metne yığmak yerine “tek mesajlı” grafik ve küçük tablolara bölün; her görselin üstüne 1 cümlelik yorum ekleyin. Paragrafları kısa tutup listeler ve kutucuklarla nefes aldırın; aynı anda sayfa hızını bozmayacak görsel boyutu/formatı kullanın. Böylece hem kanıt gücü artar hem de kullanıcı sayfayı terk etmez."
           },
           {
+            "type": "p",
+            "text": "Bu yapı, kısa ve taranabilir veri blokları üretmek açısından da önemlidir; çünkü [case study’den snippet uyumlu örnek üretmek](/tr/seo/blog/zero-click-serp-ve-marka-odakli-icerik-stratejisi), özellikle zero-click görünürlükte kullanıcının önce özet veriyi görüp sonra markaya güvenmesini kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "“Örnek claim” yazımı (abartısız ve güvenli)"
           },
@@ -48765,6 +48985,14 @@
           {
             "type": "p",
             "text": "Case snippet’lerini, kullanıcının “inanmak için kanıta ihtiyaç duyduğu” noktalara yerleştirin: problem tanımı sonrası, çözüm önerisi sonrası ve CTA öncesi. İlk iki durumda güveni kurar; CTA öncesinde tereddütleri kapatır. Case sayısı az ama net olsun; her biri tek mesaj taşısın."
+          },
+          {
+            "type": "p",
+            "text": "Bu örnekler, özellikle [satış dönüşüm verisiyle case study](/tr/raporlama/satis-donusum) mantığıyla kurgulandığında daha güçlü çalışır; çünkü kullanıcı yalnızca yapılan işi değil, bunun lead, rezervasyon veya teklif kalitesine nasıl yansıdığını da görmek ister."
+          },
+          {
+            "type": "p",
+            "text": "Aynı şekilde [reklam raporlarıyla içerik zenginleştirme](/tr/sem/reklam-raporlama) yaklaşımı, hangi mesajın hangi kampanya sonucu veya kanal performansıyla desteklendiğini görünür hale getirir. Turizm tarafında ise [otel dijital pazarlamada veri destekli içerik](/tr/otel-dijital-pazarlama) kullanımı; kampanya güveni, sezon etkisi ve rezervasyon kararını destekleyen örnekleri daha ikna edici biçimde anlatmayı sağlar."
           },
           {
             "type": "h3",
@@ -48898,14 +49126,14 @@
             "variant": "secondary",
             "label": "Veri ve Case Snippet Planlama Şablonunu İndir",
             "text": "İddia–veri–grafik–case–kaynak alanlarını tek tabloda planlayıp içerikte hızlı uygulamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/veri-ve-case-snippet-planlama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Veri Destekli İçerik & Case Analizi Talep Et",
             "text": "Mevcut içeriklerinizde kanıt bloklarını kurgulayıp güveni ve dönüşümü artırmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -48996,18 +49224,22 @@
             "text": "En iyi yapı; iddia → veri → görsel → kısa yorum → aksiyon → CTA akışıdır. Böylece içerik yalnızca bilgilendirmez; güven oluşturur, tereddütleri azaltır ve kullanıcıyı bir sonraki adıma taşır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı düzenli kurmak isteyen ekipler için [profesyonel İçerik SEO ve veri destekli içerik üretimi](/tr/seo/icerik-seo) desteği, kanıt bloklarını editoryal planla birleştirmeyi kolaylaştırır; karar aşamasındaki ek sorular için de [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfası iyi bir sonraki adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Veri Destekli İçerik & Case Analizi Talep Et",
             "text": "İçeriklerini kanıtla güçlendirip daha ikna edici sayfalar isteyen otel ve B2B ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Veri ve Case Snippet Planlama Şablonunu İndir",
             "text": "İddia–veri–grafik–case–kaynak alanlarını planlayıp içerikte hızlı uygulamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/veri-ve-case-snippet-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -49067,8 +49299,8 @@
           "Meta description 150–170 karakter bandında kontrol edildi",
           "Schema @graph tek blok planlanmalı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage yalnız görünür FAQ sorularından üretilecek",
-          "İç linkler /tr/seo/icerik-seo, /tr/raporlama/satis-donusum ve /tr/sem/reklam-raporlama hedeflerine bağlanacak",
-          "Download asset CTA hedefi asset landing yoksa /tr/seo/icerik-seo üzerinden talep/indir akışına bağlanacak",
+          "İç linkler /tr/seo/icerik-seo, /tr/seo-hizmetleri, /tr/raporlama/satis-donusum, /tr/sem/reklam-raporlama ve ilgili sibling içeriklere bağlanacak",
+          "Download asset CTA hedefi /downloads/veri-ve-case-snippet-planlama-sablonu-v1.0.pdf olarak kontrol edilecek",
           "Veri bloklarında kaynak + tarih alanı içerik standardı olarak kontrol edilecek",
           "Kopya grafik/infografik kullanım riski editoryal QA’da kontrol edilecek",
           "Tablo ve grafiklerde kesin rakam yoksa TBD alanları ölçüm alanı olarak bırakılacak"
@@ -49078,7 +49310,7 @@
   },
 
   "BlogEvergreenVeSezonlukIcerikStratejisi": {
-    "title": "Evergreen ve Sezonluk İçerik Stratejisi",
+    "title": "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur?",
     "slug": "evergreen-ve-sezonluk-icerik-stratejisi",
     "department": "seo",
     "subDepartment":"content",
@@ -49088,7 +49320,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Evergreen ve sezonluk içerikleri dengeleyin: hangi konu hangi tipe uygun, portföy oranı nasıl olmalı, sezon bitince ne yapmalı? Güncelleme ve arşiv stratejisiyle yönetin.",
     "seo": {
-      "metaTitle": "Evergreen ve Sezonluk İçerik Stratejisi | DGTLFACE",
+      "metaTitle": "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur? | DGTLFACE",
       "metaDescription": "Evergreen ve sezonluk içerikleri dengeleyin: hangi konu hangi tipe uygun, portföy oranı nasıl olmalı, sezon bitince ne yapmalı? Güncelleme ve arşiv stratejisiyle yönetin."
     },
     "blueprint": {
@@ -49126,7 +49358,7 @@
     },
     "h1": {
       "title": "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur?",
-      "intro": "Birçok sitede içerik takvimi neredeyse tamamen kampanya/sezon odaklı ilerliyor. Bu, kısa vadede trafik getirebilir ama uzun vadede organik otoriteyi zayıflatır: sezon bittiğinde trafik de “biter”. Tersine, sadece evergreen rehber yazmak da kampanya dönemlerindeki talep piklerini kaçırmanıza neden olabilir.\nDoğru çözüm: Evergreen taban + sezonluk pik yaklaşımıyla, içerikleri bir “portföy” gibi yönetmektir. Bu yazıda; hangi konu hangi tipe uygun, ideal denge nasıl kurulur ve sezon bitince içeriklere ne yapılır sorularını otel/turizm örnekleriyle netleştireceğiz.",
+      "intro": "Birçok sitede içerik takvimi neredeyse tamamen kampanya/sezon odaklı ilerliyor. Bu, kısa vadede trafik getirebilir ama uzun vadede organik otoriteyi zayıflatır: sezon bittiğinde trafik de “biter”. Tersine, sadece [evergreen içerik nedir](/tr/seo/icerik-seo) sorusuna cevap veren rehberler yazmak da kampanya dönemlerindeki talep piklerini kaçırmanıza neden olabilir.\nDoğru çözüm: Evergreen taban + sezonluk pik yaklaşımıyla, içerikleri bir “portföy” gibi yönetmektir. Bu yazıda; hangi konu hangi tipe uygun, ideal denge nasıl kurulur ve sezon bitince içeriklere ne yapılır sorularını otel/turizm örnekleriyle netleştireceğiz.",
       "quickSummary": [
         "1) Evergreen içerikle yıl boyu trafik ve otorite tabanı kur",
         "2) Sezonluk içerikle kampanya ve pik dönem talebini yakala",
@@ -49137,43 +49369,63 @@
       "ctaPrimary": {
         "label": "Evergreen & Sezonluk İçerik Portföy Analizi Talep Et",
         "text": "Sezon dışı trafik istikrarı kurmak ve kampanya dönemlerinde pik yakalamak isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Evergreen & Sezonluk İçerik Portföy Analizi Talep Et",
         "text": "Portföy oranını, güncelleme/arşiv kararlarını ve iç link mimarisini birlikte kurmak isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Evergreen/Sezonluk İçerik Planlama Şablonunu İndir",
         "text": "Evergreen omurga, sezonluk pik ve sezon sonrası aksiyonları tek tabloda planlamanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/evergreen-sezonluk-icerik-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Eski içerikleri güncelleme",
+        "href": "/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi"
+      },
+      {
+        "label": "Veri destekli içerik",
+        "href": "/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme"
+      },
+      {
+        "label": "FAQ içerik stratejisi",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz?",
-        "href": "/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme"
+        "title": "Eski İçerikleri Güncelleme ve Consolidation Stratejisi: Silmek Yerine Güçlendirmek",
+        "href": "/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi"
       },
       {
-        "title": "Persona Odaklı İçerik Stratejisi: Farklı Kitlelere Farklı Mesajlar",
-        "href": "/seo/blog/persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar"
+        "title": "Veri, İstatistik ve Örneklerle İçeriği Nasıl Zenginleştirirsiniz?",
+        "href": "/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme"
       }
     ],
     "sections": [
@@ -49192,6 +49444,14 @@
           {
             "type": "p",
             "text": "Evergreen içerik, zamanla arama talebi tamamen kaybolmayan ve doğru güncelleme ile uzun süre değer üreten içeriktir. Genellikle rehber, nasıl yapılır, kavram açıklama ve süreç anlatımı formatlarında çalışır. Başarısı; güncellik, kapsam ve iç link/CTA ile doğru yolculuk kurgusuna bağlıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde içerik portföyü dengesi](/tr/seo-hizmetleri), yalnızca yeni blog yazıları eklemek değil; evergreen omurgayı, sezonluk talep sayfalarını ve düzenli güncelleme disiplinini aynı sistem içinde yönetmek anlamına gelir."
+          },
+          {
+            "type": "p",
+            "text": "Uzun ömürlü rehberlerin gerçekten değer üretmeye devam etmesi için [veriyle güçlendirilmiş evergreen içerik](/tr/seo/blog/veri-istatistik-ve-orneklerle-icerik-zenginlestirme) yaklaşımı önemlidir; çünkü örnek, istatistik ve güncel kanıt katmanı eklenmeyen rehberler zamanla yalnızca doğru ama zayıf kalan açıklamalara dönüşebilir."
           },
           {
             "type": "h3",
@@ -49391,6 +49651,10 @@
             "text": "Evergreen tabanı güçlü olan projelerde, sezon dışı dönemlerde bile stabil organik trafik ve lead akışı korunabildiği sık gözlemlenir. Bu, kampanya trafiği bittiğinde “site tamamen durmasın” hedefi için kritik bir portföy sigortasıdır."
           },
           {
+            "type": "p",
+            "text": "Bu omurganın çalışmaya devam etmesi için [evergreen içerikleri güncelleme](/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi) disiplini gerekir; çünkü kalıcı içerik, yalnızca yayına alınmış olmakla değil, düzenli refresh ve consolidation kararlarıyla güçlü kalır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -49436,6 +49700,14 @@
           {
             "type": "p",
             "text": "GEO mini örnek (doğal, spam yok):\nBir destinasyon rehberi evergreen’dir; aynı destinasyonun “bayram kampanyası” sayfası sezonluktur. Sezonluk sayfa, evergreen rehbere ve rezervasyon/teklif akışına bağlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıda destek katmanını [evergreen içeriklerde FAQ kullanımı](/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi) ile kurmak da önemlidir; çünkü kullanıcıların iptal, çocuk, transfer veya sezon farkı gibi soruları çoğu zaman long-tail görünürlüğü ve dönüşüm öncesi güveni birlikte besler."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [sezonluk içerik SEO](/tr/otel-dijital-pazarlama) yaklaşımı, erken rezervasyon, bayram, yaz dönemi veya etkinlik sayfalarını yalnız kampanya duyurusu olarak değil; marka görünürlüğü ve rezervasyon akışını destekleyen planlı içerik katmanı olarak ele almayı gerektirir."
           },
           {
             "type": "callout",
@@ -49576,18 +49848,22 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu matrisi yalnız planlama aracı olarak değil, performans okuma çerçevesi olarak da kullanın; çünkü [sezonluk içerik performansını raporlamak](/tr/seo/seo-raporlama), hangi kampanya sayfasının gerçekten talep çektiğini ve hangi evergreen rehberin sezon dışı dönemde portföyü ayakta tuttuğunu görmeyi sağlar."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Evergreen/Sezonluk İçerik Planlama Şablonunu İndir",
             "text": "Evergreen omurga, sezonluk pik ve sezon sonrası aksiyonları tek tabloda planlamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/evergreen-sezonluk-icerik-planlama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Evergreen & Sezonluk İçerik Portföy Analizi Talep Et",
             "text": "Portföy oranını, güncelleme/arşiv kararlarını ve iç link mimarisini birlikte kurmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -49675,18 +49951,22 @@
             "text": "Asıl fark, sezon bitince başlar: içerikleri silmek yerine güncellemek, arşivlemek veya evergreen’e dönüştürmek; içerik yatırımını her yıl yeniden kullanılır hale getirir. Böylece içerik takvimi, kısa vadeli kampanya refleksi olmaktan çıkar ve uzun vadeli organik büyüme sistemine dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi kalıcı hale getirmek isteyen ekipler için [profesyonel İçerik SEO ve içerik portföyü dengesi](/tr/seo/icerik-seo) desteği; evergreen omurga, sezonluk kampanya planı ve refresh disiplinini birlikte kurmayı kolaylaştırır. Karar aşamasındaki ek sorular için de [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfası iyi bir tamamlayıcıdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Evergreen & Sezonluk İçerik Portföy Analizi Talep Et",
             "text": "Sezon dışı trafik istikrarı kurup kampanya dönemlerinde pik yakalamak isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Evergreen/Sezonluk İçerik Planlama Şablonunu İndir",
             "text": "Evergreen omurga, sezonluk pik ve sezon sonrası aksiyonları tek tabloda planlamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/evergreen-sezonluk-icerik-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -49747,8 +50027,8 @@
           "Meta description 150–170 karakter bandında kontrol edildi",
           "Schema @graph tek blok planlanmalı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage yalnız görünür FAQ sorularından üretilecek",
-          "İç linkler /tr/seo/icerik-seo, /tr/seo-hizmetleri ve /tr/otel-dijital-pazarlama hedeflerine bağlanacak",
-          "Download asset CTA hedefi asset landing yoksa /tr/seo/icerik-seo üzerinden talep/indir akışına bağlanacak",
+          "İç linkler /tr/seo/icerik-seo, /tr/seo-hizmetleri, /tr/otel-dijital-pazarlama, /tr/seo/seo-raporlama ve ilgili sibling içeriklere bağlanacak",
+          "Download asset CTA hedefi /downloads/evergreen-sezonluk-icerik-planlama-sablonu-v1.0.pdf olarak kontrol edilecek",
           "Sezonluk içerikler için update / evergreen’e çevir / archive / redirect karar alanı içerik envanterine eklenecek",
           "Evergreen içerikler için 365 günlük refresh döngüsü takip edilecek",
           "Aynı konunun farklı sezon URL’leriyle cannibalisation yaratmadığı kontrol edilecek",
@@ -49807,7 +50087,7 @@
     },
     "h1": {
       "title": "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
-      "intro": "İçerik üretiminde en pahalı hata, brief olmadan yazıya başlamaktır. Çünkü yazı “akıcı” olabilir ama hedefi belirsiz kalır: yanlış niyete oynar, başlık yapısı dağılır, CTA unutulur, iç linkler rastgele eklenir ve SEO gereksinimleri sonradan “yama” yapılır. Bu da iki maliyet doğurur: revizyon döngüsü uzar ve ekip motivasyonu düşer.\n\nİyi bir SEO içerik brief’i, yazara sadece konu başlığı vermez; karar çerçevesi verir: kime yazıyoruz, kullanıcı ne arıyor, sayfa hangi adımı kolaylaştıracak, hangi iç linklere bağlanacak, hangi bölümde hangi örnek kullanılacak, hangi schema hedeflenecek? Outline ise bu brief’in “iskeleti”dir: H2–H3 planı doğru kurulduğunda içerik hem okunur hem de SEO sinyali üretir.",
+      "intro": "İçerik üretiminde en pahalı hata, brief olmadan yazıya başlamaktır. Çünkü yazı “akıcı” olabilir ama hedefi belirsiz kalır: yanlış niyete oynar, başlık yapısı dağılır, CTA unutulur, iç linkler rastgele eklenir ve SEO gereksinimleri sonradan “yama” yapılır. Bu da iki maliyet doğurur: revizyon döngüsü uzar ve ekip motivasyonu düşer.\n\nİyi bir [SEO içerik brief şablonu](/tr/seo/icerik-seo), yazara sadece konu başlığı vermez; karar çerçevesi verir: kime yazıyoruz, kullanıcı ne arıyor, sayfa hangi adımı kolaylaştıracak, hangi iç linklere bağlanacak, hangi bölümde hangi örnek kullanılacak, hangi schema hedeflenecek? Outline ise bu brief’in “iskeleti”dir: H2–H3 planı doğru kurulduğunda içerik hem okunur hem de SEO sinyali üretir.",
       "quickSummary": [
         "1) Hedef ve persona bilgisini netleştir",
         "2) Ana keyword + yardımcı keyword setini intent ile hizala",
@@ -49818,51 +50098,63 @@
       "ctaPrimary": {
         "label": "SEO İçerik Brief & Outline Analizi Talep Et",
         "text": "Briefsiz üretimden kaynaklanan revizyonları azaltmak isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO İçerik Brief & Outline Analizi Talep Et",
         "text": "Briefsiz üretimden kaynaklanan revizyonları azaltmak ve içerik operasyonunu standartlaştırmak için mevcut sürecinizi birlikte inceleyelim.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "SEO İçerik Brief + Outline Şablonunu İndir",
         "text": "Brief alanlarını ve outline iskeletini hazır formatta kullanarak her içerikte aynı standardı yakalamanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/seo-icerik-briefi-ve-outline-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO uyumlu içerik rehberi",
+        "href": "/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber"
+      },
+      {
+        "label": "Editoryal takvim ve içerik operasyonu",
+        "href": "/tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+      },
+      {
+        "label": "Persona odaklı içerik stratejisi",
+        "href": "/tr/seo/blog/persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar"
       },
       {
         "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Yerel SEO rehberi",
-        "href": "/seo/yerel-seo"
+        "label": "İçerik SEO SSS",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Evergreen ve Sezonluk İçerik Stratejisi: Dengeli Bir İçerik Portföyü Nasıl Kurulur?",
-        "href": "/seo/blog/evergreen-ve-sezonluk-icerik-stratejisi"
+        "title": "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber",
+        "href": "/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber"
       },
       {
-        "title": "SEO Raporlama Nedir? Organik Performans Nasıl Ölçülür?",
-        "href": "/seo/seo-raporlama"
+        "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+        "href": "/tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
       }
     ],
     "sections": [
@@ -49877,6 +50169,10 @@
           {
             "type": "p",
             "text": "SEO içerik brief’i, “yazıya başlamadan önce” hem editörün hem SEO’nun hem de yazarın aynı sayfaya bakmasını sağlar. Outline ise brief’in operasyonel karşılığıdır: brief’te “konu + niyet + hedefler” konuşulur; outline’da bu hedefler başlık mimarisine dönüşür."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde içerik brief süreci](/tr/seo-hizmetleri), yalnız yazara konu teslim etmek değil; hedef kelimeyi, niyeti, iç link akışını, CTA beklentisini ve başarı ölçümünü daha içerik yazılmadan netleştiren bir planlama katmanıdır."
           },
           {
             "type": "p",
@@ -50013,6 +50309,14 @@
             "text": "Turizm örneği: Antalya/Belek/Side gibi destinasyonlarda “erken rezervasyon” içerikleri farklı personada farklı okunur: GM için doluluk ve gelir; pazarlama için kampanya kurgusu; aile tatilci için iptal/çocuk/transfer gibi SSS. Brief bunu baştan belirlemeli."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [persona bilgisiyle içerik brief’i hazırlamak](/tr/seo/blog/persona-odakli-icerik-stratejisi-farkli-kitlelere-farkli-mesajlar), yalnız hedef kitleyi etiketlemek değil; hangi örneğin, hangi itirazın ve hangi CTA tonunun kullanılacağını üretim başlamadan standardize etmek anlamına gelir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel dijital pazarlamada içerik brief’i](/tr/otel-dijital-pazarlama) özellikle önemlidir; çünkü sezonluk kampanya, erken rezervasyon, aile paketi veya destinasyon rehberi gibi içeriklerde aynı otel için bile farklı hedef kitlelere farklı mesaj setleri gerekir."
+          },
+          {
             "type": "h3",
             "text": "Brief’te persona alanına ne yazmalıyım?"
           },
@@ -50125,6 +50429,10 @@
             "text": "Kural gibi düşünme; ama operasyonel olarak çoğu ekipte evet, hatadır. Çünkü outline; kapsamı, örnekleri ve CTA yerleşimini baştan planlar. Özellikle multi-author ekiplerde outline olmadan üretilen içeriklerin tonu ve yapısı tutarsızlaşır."
           },
           {
+            "type": "p",
+            "text": "Bu iskelet netleştikten sonra [SEO uyumlu içerik yazım süreci](/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber) daha kontrollü ilerler; çünkü başlık akışı, bölüm derinliği ve hangi soruya hangi paragrafta cevap verileceği yazım başlamadan görünür hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Outline örneği"
           },
@@ -50149,7 +50457,7 @@
             "variant": "secondary",
             "label": "SEO İçerik Brief + Outline Şablonunu İndir",
             "text": "Brief alanlarını ve outline iskeletini hazır formatta kullanarak her içerikte aynı standardı yakalamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/seo-icerik-briefi-ve-outline-sablonu-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -50243,6 +50551,10 @@
             "text": "Brief’in etkisi, iletişim kalitesiyle büyür. Yazar brief’i doğru anlar ama editör geri bildirim veremezse içerik yine dağılır. Bu yüzden brief, yalnız içerik şablonu değil; aynı zamanda “anlaşma metni”dir: kim neyi ne zaman teslim edecek, revizyon nasıl yapılacak, hangi standarda göre onay verilecek."
           },
           {
+            "type": "p",
+            "text": "Bu akışı sürdürülebilir hale getirmek için [editoryal takvimde brief yönetimi](/tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi) standardı gerekir; çünkü brief teslimi, revizyon turu, yayın ritmi ve içerik önceliği tek bir operasyon sistemi içinde tanımlanmadığında ekipler farklı yorumlarla ilerler."
+          },
+          {
             "type": "h3",
             "text": "İyi bir SEO brief’i hangi sorulara cevap vermeli?"
           },
@@ -50287,6 +50599,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (row’dan, yumuşak kullanım):\nDüzenli brief/outline kullanılan ekiplerde, ilk taslak–yayın arası revizyon sayısının belirgin biçimde azaldığı ve SEO gereksinimlerinin daha az “sonradan yamandığı” sık gözlemleniyor. Bu bir garanti değil; ama tekrar eden bir operasyon paterni."
+          },
+          {
+            "type": "p",
+            "text": "Bu etkinin sürdürülebilir olup olmadığını görmek için [brief kalitesini SEO raporlamasıyla ölçmek](/tr/seo/seo-raporlama) gerekir; çünkü gösterim, tıklama, hedef kelime kapsaması ve yayın sonrası revizyon ihtiyacı birlikte okunmadan hangi brief standardının gerçekten daha iyi sonuç verdiği anlaşılamaz."
           },
           {
             "type": "h3",
@@ -50335,7 +50651,7 @@
             "variant": "primary",
             "label": "SEO İçerik Brief & Outline Analizi Talep Et",
             "text": "Ekipte brief standardı kurup üretimi hızlandırmak isteyen otel ve B2B ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -50384,18 +50700,22 @@
             "text": "Briefsiz üretim revizyonu artırır; outline’sız üretim kapsamı dağıtır. Hedef, persona, intent, keyword, H2–H3 iskelet, iç link, CTA ve teknik notlar tek dokümanda birleştiğinde içerik daha hızlı, daha tutarlı ve daha ölçülebilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu standardı sistemli biçimde kurmak isteyen ekipler için [profesyonel İçerik SEO ve brief hazırlama süreci](/tr/seo/icerik-seo) desteği; brief, outline ve yayın sonrası kontrol döngüsünü tek akışta toplamayı kolaylaştırır. Karar aşamasında ek sorular için de [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfası iyi bir sonraki adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "SEO İçerik Brief & Outline Analizi Talep Et",
             "text": "Briefsiz üretimden kaynaklanan revizyonları azaltmak isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "SEO İçerik Brief + Outline Şablonunu İndir",
             "text": "Brief alanlarını ve outline iskeletini hazır formatta kullanarak her içerikte aynı standardı yakalamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/seo-icerik-briefi-ve-outline-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -50448,9 +50768,9 @@
         "technicalChecklist": [
           "Canonical kontrolü: /tr/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir",
           "Schema @graph tek blok: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
-          "İç link hedefleri kontrolü: /seo/icerik-seo, /seo-hizmetleri, /seo/seo-raporlama",
-          "CTA hedefleri kontrolü: Primary ve Secondary CTA aynı hizmet akışına bağlanıyor",
-          "Download asset için şablon dosyası üretim ve href kontrolü",
+          "İç link hedefleri kontrolü: /tr/seo/icerik-seo, /tr/seo-hizmetleri, /tr/seo/seo-raporlama, /tr/otel-dijital-pazarlama ve ilgili sibling içerikler",
+          "CTA hedefleri kontrolü: Primary CTA /tr/seo/icerik-seo, Secondary CTA /downloads/seo-icerik-briefi-ve-outline-sablonu-v1.0.pdf",
+          "Download asset için şablon dosyası üretim ve href kontrolü: /downloads/seo-icerik-briefi-ve-outline-sablonu-v1.0.pdf",
           "Heading hiyerarşisi: H1 tek, H2–H3 iskelet sıralı",
           "FAQ soruları PAA uyumlu ve kısa cevap formatında",
           "Görsel alt text ve dosya adları slug ile uyumlu",
@@ -50462,7 +50782,7 @@
   },
 
    "BlogCokDilliIcerikSeoTrEnDeRuStratejisi": {
-    "title": "Çok Dilli İçerik SEO: TR–EN–DE–RU Rehberi",
+    "title": "Çok Dilli İçerik SEO Stratejisi: TR–EN–DE–RU İçin İçerikleri Nasıl Kurgularsınız?",
     "slug": "cok-dilli-icerik-seo-tr-en-de-ru-stratejisi",
     "department": "seo",
     "subDepartment":"content",
@@ -50472,7 +50792,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "TR–EN–DE–RU içerikleri çeviri değil lokalizasyonla kurun: her dilde ayrı keyword/intent, örnek ve CTA uyarlaması; hreflang ve sayfa yapısıyla SEO karışıklığını azaltın.",
     "seo": {
-      "metaTitle": "Çok Dilli İçerik SEO: TR–EN–DE–RU Rehberi | DGTLFACE",
+      "metaTitle": "Çok Dilli İçerik SEO Stratejisi: TR–EN–DE–RU İçin İçerikleri Nasıl Kurgularsınız? | DGTLFACE",
       "metaDescription": "TR–EN–DE–RU içerikleri çeviri değil lokalizasyonla kurun: her dilde ayrı keyword/intent, örnek ve CTA uyarlaması; hreflang ve sayfa yapısıyla SEO karışıklığını azaltın."
     },
     "blueprint": {
@@ -50512,7 +50832,7 @@
     },
     "h1": {
       "title": "Çok Dilli İçerik SEO Stratejisi: TR–EN–DE–RU İçin İçerikleri Nasıl Kurgularsınız?",
-      "intro": "Çok dilli projelerde en sık yapılan hata şu: “Türkçe içerik iyi, hadi çevirelim.” Sonra her dilde aynı başlık, aynı kelime seti, aynı örnekler ve aynı CTA kullanılıyor. Sonuç: bazı pazarlarda içerik beklenen görünürlüğü alamıyor; bazen de Google yanlış dili yanlış ülkeye gösteriyor.\n\nDoğru yaklaşım, “çeviri” değil lokalizasyon + dil bazlı keyword/intent + teknik eşleşme (hreflang) üçlüsüdür. Bu rehberde TR–EN–DE–RU için hangi içeriklerin çevrileceğini, nasıl lokalize edileceğini, anahtar kelime araştırmasının nasıl yapılacağını ve hreflang ile sayfa eşleştirmesinin nasıl kurgulanacağını adım adım anlatıyoruz.",
+      "intro": "Çok dilli projelerde en sık yapılan hata şu: “Türkçe içerik iyi, hadi çevirelim.” Sonra her dilde aynı başlık, aynı kelime seti, aynı örnekler ve aynı CTA kullanılıyor. Sonuç: bazı pazarlarda içerik beklenen görünürlüğü alamıyor; bazen de Google yanlış dili yanlış ülkeye gösteriyor.\n\nDoğru yaklaşım, [çok dilli içerik SEO](/tr/seo/icerik-seo) sürecini “çeviri” değil lokalizasyon + dil bazlı keyword/intent + teknik eşleşme (hreflang) üçlüsüyle kurmaktır. Bu rehberde TR–EN–DE–RU için hangi içeriklerin çevrileceğini, nasıl lokalize edileceğini, anahtar kelime araştırmasının nasıl yapılacağını ve hreflang ile sayfa eşleştirmesinin nasıl kurgulanacağını adım adım anlatıyoruz.",
       "quickSummary": [
         "1) Çok dilli SEO’yu çeviri değil pazar bazlı lokalizasyon olarak ele al",
         "2) Her dil için ayrı keyword/intent seti çıkar",
@@ -50523,51 +50843,59 @@
       "ctaPrimary": {
         "label": "Çok Dilli İçerik & Lokalizasyon Analizi Talep Et",
         "text": "TR’den EN/DE/RU pazarlarına açılırken görünürlük ve dönüşümü “lokal” yakalamak isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Dilli İçerik & Lokalizasyon Analizi Talep Et",
         "text": "Dil bazlı keyword/intent, lokalizasyon ve hreflang uyumunu tek planda kurmak isteyen ekipler için çok dilli içerik yapınızı birlikte inceleyelim.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "TR–EN–DE–RU İçin İçerik & KW Eşleştirme Şablonunu İndir",
         "text": "Her dil için keyword seti, H1/özet, CTA ve hreflang eşleşmesini tek tabloda planlamanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/tr-en-de-ru-icerik-kw-eslestirme-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
-      },
-      {
-        "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
-      },
-      {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "label": "Search intent analizi",
+        "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
+      },
+      {
+        "label": "Entity ve anlamsal SEO rehberi",
+        "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "İçerik SEO SSS sayfası",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
-        "href": "/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+        "title": "Search Intent Analizi ve İçerik Haritalama",
+        "href": "/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama"
       },
       {
-        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
-        "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+        "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+        "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
       }
     ],
     "sections": [
@@ -50586,6 +50914,10 @@
           {
             "type": "p",
             "text": "Temel prensipler (5 madde):"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde çok dilli içerik stratejisi](/tr/seo-hizmetleri), yalnız çeviri akışı olarak değil; intent analizi, lokalizasyon, semantik tutarlılık ve teknik eşleşme planıyla birlikte ele alınmalıdır."
           },
           {
             "type": "list",
@@ -50666,6 +50998,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Uluslararası görünürlük hedefleyen markalarda [otel SEO’da çok dilli içerik](/tr/otel/seo) yaklaşımı; oda, destinasyon ve rezervasyon akışının her dilde aynı sayfa rolünü korumasını gerektirir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -50698,6 +51034,10 @@
           {
             "type": "p",
             "text": "Birebir çeviri, en çok “aynı başlık–aynı kelime” hatasını doğurur. Lokalizasyon ise mesajı ve örnekleri hedef pazara göre uyarlayarak arama niyetini daha iyi yakalar. Burada amaç “edebi çeviri” değil; arama dili + kullanıcı itirazları + CTA davranışı uyumudur."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda marka, hizmet ve lokasyon isimlerinin diller arasında kaymaması için [çok dilli entity ve anlam tutarlılığı](/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim) mantığıyla ilerlemek gerekir."
           },
           {
             "type": "h3",
@@ -50751,7 +51091,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çok dilli projelerde en kritik adım burasıdır: aynı içerik farklı dillerde farklı keyword kümeleri ile çalışır. Bu yüzden TR’de çalışan bir sayfanın EN’de “direkt çeviri keyword” ile çalışacağını varsaymak risklidir."
+            "text": "Çok dilli projelerde en kritik adım burasıdır: aynı içerik farklı dillerde farklı keyword kümeleri ile çalışır. Bu yüzden TR’de çalışan bir sayfanın EN’de “direkt çeviri keyword” ile çalışacağını varsaymak risklidir; önce [dil bazlı search intent analizi](/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama) yapmak gerekir."
           },
           {
             "type": "p",
@@ -50810,7 +51150,7 @@
           },
           {
             "type": "p",
-            "text": "Çok dilli SEO’da içerik ve teknik yapı birbirinden ayrılamaz. Hreflang yanlışsa, doğru lokalize içerik bile yanlış pazara gidebilir. Ayrıca URL yapısı (dil klasörü, ülke klasörü), canonical ve sitemap stratejisi de dil mimarisine göre tutarlı olmalıdır."
+            "text": "Çok dilli SEO’da içerik ve teknik yapı birbirinden ayrılamaz. [Hreflang ile içerik eşleştirme](/tr/seo/teknik-seo) yanlışsa, doğru lokalize içerik bile yanlış pazara gidebilir. Ayrıca URL yapısı (dil klasörü, ülke klasörü), canonical ve sitemap stratejisi de dil mimarisine göre tutarlı olmalıdır."
           },
           {
             "type": "h3",
@@ -50984,14 +51324,14 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU İçin İçerik & KW Eşleştirme Şablonunu İndir",
             "text": "Her dil için keyword seti, H1/özet, CTA ve hreflang eşleşmesini tek tabloda planlamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/tr-en-de-ru-icerik-kw-eslestirme-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Çok Dilli İçerik & Lokalizasyon Analizi Talep Et",
             "text": "Dil bazlı keyword/intent, lokalizasyon ve hreflang uyumunu tek planda kurmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -51062,18 +51402,22 @@
             "text": "Hreflang, canonical ve sitemap kararları içerik planından ayrı düşünülmemelidir. İçerik doğru lokalize edilse bile teknik eşleşme hatalıysa yanlış dilde görünürlük, zayıf dönüşüm ve SEO karışıklığı oluşabilir. Bu yüzden çok dilli içerik üretimi; strateji, içerik, teknik SEO ve ölçüm döngüsünün birlikte çalıştığı bir sistem olarak kurulmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kurarken [profesyonel İçerik SEO ve çok dilli içerik stratejisi](/tr/seo/icerik-seo) desteği almak ve süreç detaylarını [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasından görmek, özellikle yeni dil açılışlarında karar sürecini hızlandırır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Çok Dilli İçerik & Lokalizasyon Analizi Talep Et",
             "text": "TR’den EN/DE/RU pazarlarına açılırken görünürlük ve dönüşümü “lokal” yakalamak isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "TR–EN–DE–RU İçin İçerik & KW Eşleştirme Şablonunu İndir",
             "text": "Her dil için keyword seti, H1/özet, CTA ve hreflang eşleşmesini tek tabloda planlamanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/tr-en-de-ru-icerik-kw-eslestirme-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -51147,7 +51491,7 @@
   },
 
   "BlogIcerikPruningIndexManagementHangiSayfalariTutacaginizHangiSayfalariKaldiracaginiz": {
-    "title": "İçerik Pruning ve Index Yönetimi Rehberi",
+    "title": "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız?",
     "slug": "icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz",
     "department": "seo",
     "subDepartment":"content",
@@ -51157,7 +51501,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "İçerik pruning nedir? Trafik almayan/ince sayfaları veriden tespit edin; tut–güncelle–birleştir–kaldır matrisiyle noindex, canonical, 301/410 kararlarını uygulayın.",
     "seo": {
-      "metaTitle": "İçerik Pruning ve Index Yönetimi Rehberi | DGTLFACE",
+      "metaTitle": "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız? | DGTLFACE",
       "metaDescription": "İçerik pruning nedir? Trafik almayan/ince sayfaları veriden tespit edin; tut–güncelle–birleştir–kaldır matrisiyle noindex, canonical, 301/410 kararlarını uygulayın."
     },
     "blueprint": {
@@ -51196,7 +51540,7 @@
     },
     "h1": {
       "title": "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız?",
-      "intro": "Her sayfayı sonsuza kadar açık tutmak, SEO için her zaman iyi değildir. Özellikle uzun süredir içerik üreten sitelerde URL sayısı büyür; ama bu URL’lerin kayda değer bir kısmı neredeyse hiç trafik üretmez. Bu sayfalar yalnız “boş durmaz”: crawl budget’ı dağıtabilir, site kalite sinyalini bulanıklaştırabilir ve içerik çakışmalarını (cannibalisation) artırabilir.\n\nİçerik pruning, “sil gitsin” değil; veriye dayalı karar verme sürecidir. Bu rehberde zayıf sayfaları nasıl tespit edeceğinizi, Tut–Güncelle–Birleştir–Kaldır karar matrisiyle nasıl aksiyonlayacağınızı ve teknik uygulamada noindex/301/410/canonical kararlarını nasıl seçeceğinizi adım adım ele alacağız.",
+      "intro": "Her sayfayı sonsuza kadar açık tutmak, SEO için her zaman iyi değildir. Özellikle uzun süredir içerik üreten sitelerde URL sayısı büyür; ama bu URL’lerin kayda değer bir kısmı neredeyse hiç trafik üretmez. Bu sayfalar yalnız “boş durmaz”: crawl budget’ı dağıtabilir, site kalite sinyalini bulanıklaştırabilir ve içerik çakışmalarını (cannibalisation) artırabilir.\n\n[içerik pruning nedir](/tr/seo/icerik-seo) sorusuna sağlıklı cevap verebilmek için “sil gitsin” yaklaşımından uzak durmak gerekir. Bu rehberde zayıf sayfaları nasıl tespit edeceğinizi, Tut–Güncelle–Birleştir–Kaldır karar matrisiyle nasıl aksiyonlayacağınızı ve teknik uygulamada noindex/301/410/canonical kararlarını nasıl seçeceğinizi adım adım ele alacağız.",
       "quickSummary": [
         "1) URL envanteri çıkar ve sayfa rollerini belirle",
         "2) Trafik, etkileşim, backlink ve iç link düğümü sinyallerini kontrol et",
@@ -51207,51 +51551,63 @@
       "ctaPrimary": {
         "label": "İçerik Pruning & Index Yönetimi Analiz Talebi",
         "text": "Büyük içerik hacminde index’i temizleyip crawl odağını güçlendirmek isteyen otel ve ajans ekipleri için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "İçerik Pruning & Index Yönetimi Analiz Talebi",
         "text": "Hangi sayfalar siloda kritik, hangileri çöp; teknik uygulama ve ölçüm planıyla birlikte netleştirmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Pruning Karar Matrisi & Uygulama Şablonunu İndir",
         "text": "URL envanterinizi tek tabloda sınıflandırıp noindex/301/410 kararlarını uygulama planıyla çıkarmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/pruning-karar-matrisi-uygulama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
-      },
-      {
-        "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
-      },
-      {
-        "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Eski içerikleri güncelleme ve consolidation",
+        "href": "/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi"
+      },
+      {
+        "label": "Programatik içerik SEO rehberi",
+        "href": "/tr/seo/blog/programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda"
+      },
+      {
+        "label": "Teknik SEO rehberi",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "İçerik SEO SSS sayfası",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
-        "href": "/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+        "title": "Eski İçerikleri Güncelleme ve Consolidation Stratejisi",
+        "href": "/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi"
       },
       {
-        "title": "Çok Dilli İçerik SEO: TR–EN–DE–RU Rehberi",
-        "href": "/seo/blog/cok-dilli-icerik-seo-tr-en-de-ru-stratejisi"
+        "title": "Programatik ve Şablon Bazlı İçerik SEO: Çok Sayfalı Yapılarda Nasıl Güvenli Kullanılır?",
+        "href": "/tr/seo/blog/programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda"
       }
     ],
     "sections": [
@@ -51270,6 +51626,10 @@
           {
             "type": "p",
             "text": "Pruning’in iki temel faydası vardır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde index management](/tr/seo-hizmetleri), yalnız yeni sayfa açma değil; mevcut URL kalitesini, index durumunu ve organik katkıyı düzenli değerlendirme süreci olarak ele alınmalıdır."
           },
           {
             "type": "list",
@@ -51311,7 +51671,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Pruning “hissiyatla” yapılmaz. İlk adım, sayfaları veriye göre sınıflandırmaktır: trafik, etkileşim, sorgu görünürlüğü, backlink durumu, iç link düğümü olup olmadığı. Burada iki ana kaynak kullanılır: Search Console (organik görünürlük) ve Analytics (kullanıcı davranışı). (Varsayım: erişim ve ölçüm kurulu.)"
+            "text": "Pruning “hissiyatla” yapılmaz. İlk adım, sayfaları veriye göre sınıflandırmaktır: trafik, etkileşim, sorgu görünürlüğü, backlink durumu, iç link düğümü olup olmadığı. Burada iki ana kaynak kullanılır: Search Console (organik görünürlük) ve Analytics (kullanıcı davranışı). (Varsayım: erişim ve ölçüm kurulu.) Bu yüzden [trafik almayan sayfaları silmeden önce analiz etmek](/tr/seo/seo-raporlama), kararın en kritik başlangıç adımıdır."
           },
           {
             "type": "h3",
@@ -51418,6 +51778,10 @@
             "text": "Not: 301/410 seçimi senaryoya bağlıdır; aşağıdaki teknik bölümde netleştiriyoruz."
           },
           {
+            "type": "p",
+            "text": "Bir URL’yi kaldırmadan önce, bazı sayfaların aslında [eski içerikleri güncelleme ve consolidation](/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi) yaklaşımıyla yeniden değerlendirilebileceğini unutmamak gerekir."
+          },
+          {
             "type": "h3",
             "text": "İçerik pruning nedir, ne zaman yapılmalı? "
           },
@@ -51457,7 +51821,7 @@
           },
           {
             "type": "p",
-            "text": "Pruning’in başarıya dönüşmesi, teknik uygulamanın doğru seçilmesine bağlıdır. Yanlış 301 zinciri, yanlış canonical veya rastgele noindex; kaliteyi artırmak yerine karışıklık yaratabilir. Bu yüzden burada “ne yaptığını bilen” bir teknik plan gerekir."
+            "text": "Pruning’in başarıya dönüşmesi, teknik uygulamanın doğru seçilmesine bağlıdır. Yanlış 301 zinciri, yanlış canonical veya rastgele noindex; kaliteyi artırmak yerine karışıklık yaratabilir. Bu yüzden burada [teknik SEO ile index kontrolü](/tr/seo/teknik-seo) mantığında ilerleyen net bir plan gerekir."
           },
           {
             "type": "h3",
@@ -51520,7 +51884,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Pruning, her sektörde aynı görünmez. Otel/turizmde sezonluk kampanya birikimi ve oda/destinasyon varyantları çoktur. B2B hizmet sitelerinde ise benzer bloglar, SSS kopyaları ve “aynı konu farklı başlık” sorunu öne çıkar."
+            "text": "Pruning, her sektörde aynı görünmez. Otel/turizmde sezonluk kampanya birikimi ve oda/destinasyon varyantları çoktur. B2B hizmet sitelerinde ise benzer bloglar, SSS kopyaları ve “aynı konu farklı başlık” sorunu öne çıkar. Özellikle çok sayfalı yapılarda [programatik sayfalarda index yönetimi](/tr/seo/blog/programatik-ve-sablon-bazli-icerik-seo-buyuk-yapilarda) yaklaşımı, hangi varyasyonların tutulacağına daha kontrollü karar vermeyi sağlar."
           },
           {
             "type": "h3",
@@ -51564,6 +51928,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşak kullanım):\nUzun süredir içerik üreten sitelerde toplam URL’lerin kayda değer kısmının neredeyse hiç trafik üretmediği ve pruning sonrası daha temiz bir index yapısına geçildiği sıkça raporlanır. Ayrıca pruning yapılan projelerde toplam index sayısı azalsa bile organik trafik/görünürlük artışı görülebilmesi, “daha fazla sayfa = daha fazla trafik” varsayımını kırar."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde ise [otel SEO’da düşük performanslı içerikleri yönetmek](/tr/otel/seo), eski kampanya, destinasyon ve blog sayfalarının hangilerinin güncelleneceğini, hangilerinin arşivleneceğini daha net gösterir."
           },
           {
             "type": "media",
@@ -51642,14 +52010,14 @@
             "variant": "secondary",
             "label": "Pruning Karar Matrisi & Uygulama Şablonunu İndir",
             "text": "URL envanterinizi tek tabloda sınıflandırıp noindex/301/410 kararlarını uygulama planıyla çıkarmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/pruning-karar-matrisi-uygulama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "İçerik Pruning & Index Yönetimi Analiz Talebi",
             "text": "Hangi sayfalar siloda kritik, hangileri çöp; teknik uygulama ve ölçüm planıyla birlikte netleştirmek isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -51695,18 +52063,22 @@
             "text": "Tut–Güncelle–Birleştir–Kaldır matrisi, içerik ve teknik SEO ekiplerinin aynı karar dilini kullanmasını sağlar. Noindex, canonical, 301 ve 410 kararları sayfa rolüne göre seçildiğinde; internal link cleanup ve 30/90 gün takibiyle pruning kalıcı bir SEO operasyonuna dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu süreci düzenli kurmak isteyen ekipler için [profesyonel İçerik SEO ve index management süreci](/tr/seo/icerik-seo) desteği ile ilerlemek ve karar detaylarını [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasında netleştirmek, özellikle büyük içerik portföylerinde işleri hızlandırır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "İçerik Pruning & Index Yönetimi Analiz Talebi",
             "text": "Büyük içerik hacminde index’i temizleyip crawl odağını güçlendirmek isteyen otel ve ajans ekipleri için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Pruning Karar Matrisi & Uygulama Şablonunu İndir",
             "text": "URL envanterinizi tek tabloda sınıflandırıp noindex/301/410 kararlarını uygulama planıyla çıkarmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/pruning-karar-matrisi-uygulama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -51782,7 +52154,7 @@
   },
 
   "BlogUgcYorumSoruCevapVeForumIcerikleriniSeoIcinNasilKullanirsiniz": {
-    "title": "UGC ve Topluluk İçeriği ile SEO: Moderasyon Rehberi",
+    "title": "UGC, Yorum, Soru–Cevap ve Forum İçeriklerini SEO İçin Nasıl Kullanırsınız?",
     "slug": "ugc-yorum-sorucevap-ve-forum-iceriklerini-seo-icin-nasil-kullanirsiniz",
     "department": "seo",
     "subDepartment":"content",
@@ -51792,7 +52164,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "UGC (yorum, soru–cevap, forum) SEO’ya nasıl katkı sağlar? Değerli UGC’yi seçin, spam’i moderasyonla filtreleyin; SSS ve ana içeriklere taşıyıp site mimarisine bağlayın.",
     "seo": {
-      "metaTitle": "UGC ve Topluluk İçeriği ile SEO: Moderasyon Rehberi | DGTLFACE",
+      "metaTitle": "UGC, Yorum, Soru–Cevap ve Forum İçeriklerini SEO İçin Nasıl Kullanırsınız? | DGTLFACE",
       "metaDescription": "UGC (yorum, soru–cevap, forum) SEO’ya nasıl katkı sağlar? Değerli UGC’yi seçin, spam’i moderasyonla filtreleyin; SSS ve ana içeriklere taşıyıp site mimarisine bağlayın."
     },
     "blueprint": {
@@ -51832,7 +52204,7 @@
     },
     "h1": {
       "title": "UGC, Yorum, Soru–Cevap ve Forum İçeriklerini SEO İçin Nasıl Kullanırsınız?",
-      "intro": "UGC (User Generated Content) “kullanıcıların ürettiği içerik” demektir: yorumlar, soru–cevaplar, forum başlıkları, topluluk yazıları, hatta puanlamalar. Doğru yönetildiğinde UGC; içerik ekibinin tek başına yakalayamayacağı long-tail sorguları ve gerçek kullanıcı dilini ortaya çıkarır. Ayrıca otel/destinasyon gibi deneyim ağırlıklı sektörlerde “deneyim sinyali” ve güven algısı yaratır.\n\nAma kontrolsüz UGC, iki büyük riski beraberinde getirir:\n\n1. Spam & düşük kalite: SEO sinyalini kirletir, kullanıcı deneyimini bozar.\n2. Index karmaşası: binlerce zayıf sayfa crawl bütçesini dağıtabilir, kalite algısını zayıflatabilir.\n\nBu rehber, UGC’yi “risk” değil “sistem” olarak yönetmenin blueprint’ini verir: değerli UGC’yi seç, moderasyonla temizle, SSS ve ana içeriklere taşı, forum içeriklerini hub/kategoriyle bağla, index yönetimini teknik olarak doğru uygula.",
+      "intro": "UGC (User Generated Content) “kullanıcıların ürettiği içerik” demektir: yorumlar, soru–cevaplar, forum başlıkları, topluluk yazıları, hatta puanlamalar. Doğru yönetildiğinde [UGC içerik SEO](/tr/seo/icerik-seo) yaklaşımı; içerik ekibinin tek başına yakalayamayacağı long-tail sorguları ve gerçek kullanıcı dilini ortaya çıkarır. Ayrıca otel/destinasyon gibi deneyim ağırlıklı sektörlerde “deneyim sinyali” ve güven algısı yaratır.\n\nAma kontrolsüz UGC, iki büyük riski beraberinde getirir:\n\n1. Spam & düşük kalite: SEO sinyalini kirletir, kullanıcı deneyimini bozar.\n2. Index karmaşası: binlerce zayıf sayfa crawl bütçesini dağıtabilir, kalite algısını zayıflatabilir.\n\nBu rehber, UGC’yi “risk” değil “sistem” olarak yönetmenin blueprint’ini verir: değerli UGC’yi seç, moderasyonla temizle, SSS ve ana içeriklere taşı, forum içeriklerini hub/kategoriyle bağla, index yönetimini teknik olarak doğru uygula.",
       "quickSummary": [
         "1) UGC’nin hedefini belirle: soru keşfi, güven sinyali veya ikisi",
         "2) Yorum, soru–cevap ve forum formatlarını ayrı rollerle yönet",
@@ -51843,51 +52215,67 @@
       "ctaPrimary": {
         "label": "UGC & Topluluk İçerik Analizi Talep Et",
         "text": "UGC’yi spam’den arındırıp SSS ve ana içerikleri besleyen bir sisteme dönüştürmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "UGC & Topluluk İçerik Analizi Talep Et",
         "text": "UGC alanlarını SEO büyüme motoruna çevirirken spam ve index riskini birlikte yönetmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "UGC Moderasyon & SSS’e Taşıma Şablonunu İndir",
         "text": "UGC’den çıkan soru kümelerini seçip SSS’ye taşıma ve moderasyon kurallarını tek tabloda yönetmenizi sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/ugc-moderasyon-sss-tasima-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
-      },
-      {
-        "label": "Yerel SEO rehberi",
-        "href": "/seo/yerel-seo"
-      },
-      {
-        "label": "Çağrı merkezi performans analizi",
-        "href": "/cagri-merkezi/performans-analizi"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "label": "FAQ içerik stratejisi",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
+      },
+      {
+        "label": "İçerik pruning rehberi",
+        "href": "/tr/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz"
+      },
+      {
+        "label": "Video ve kısa form içerik rehberi",
+        "href": "/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
+      },
+      {
+        "label": "Yerel SEO rehberi",
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "Çağrı merkezi performans analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "İçerik SEO SSS sayfası",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Pruning ve Index Yönetimi Rehberi",
-        "href": "/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz"
+        "title": "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
       },
       {
-        "title": "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
-        "href": "/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+        "title": "İçerik Pruning ve Index Management: Hangi Sayfaları Tutmalı, Hangilerini Kaldırmalısınız?",
+        "href": "/tr/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz"
       }
     ],
     "sections": [
@@ -51902,6 +52290,10 @@
           {
             "type": "p",
             "text": "UGC, kullanıcıların “bizim söylemediğimiz” ama kullanıcıların sorduğu/yaşadığı şeyleri içerik haline getirir. Bu, SEO açısından iki kritik avantaj sağlar:"
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde kullanıcı üretimli içerik](/tr/seo-hizmetleri), yalnız yorum kutusu yönetimi değil; soru keşfi, güven sinyali, içerik genişletme ve index hijyeni açısından birlikte ele alınmalıdır."
           },
           {
             "type": "list",
@@ -51922,6 +52314,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel):\nMisafir yorumlarında sık geçen “transfer”, “çocuk kulübü”, “erken check-in” gibi sorular; SSS ve sayfa içi bilgi bloklarına taşınırsa hem dönüşüm hem memnuniyet artar."
+          },
+          {
+            "type": "p",
+            "text": "Bu geri bildirimleri [otel SEO’da UGC ve misafir soruları](/tr/otel/seo) yaklaşımıyla değerlendirmek, rezervasyon öncesi tereddütleri daha görünür hale getirir ve içerik planını sahadan besler."
           },
           {
             "type": "callout",
@@ -51976,7 +52372,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap (2–3 cümle):\nYorumları sosyal kanıt ve “deneyim” sinyali olarak kullanın; ancak yorumlardan çıkan tekrarlı soruları ana içerik veya SSS bloklarına taşıyın. Soru–cevap alanlarını ise kısa ve net cevap standardıyla kurgulayın (2–4 cümle) ve ilgili rehber/hizmet sayfalarına iç link ekleyin. Amaç, kullanıcıyı “okudum ama emin değilim” noktasından “karar” noktasına taşımaktır."
+            "text": "Cevap (2–3 cümle):\nYorumları sosyal kanıt ve “deneyim” sinyali olarak kullanın; ancak yorumlardan çıkan tekrarlı soruları ana içerik veya SSS bloklarına taşıyın. Soru–cevap alanlarını ise kısa ve net cevap standardıyla kurgulayın (2–4 cümle) ve ilgili rehber/hizmet sayfalarına iç link ekleyin. Amaç, kullanıcıyı “okudum ama emin değilim” noktasından “karar” noktasına taşımaktır. Özellikle yerel işletmelerde [yorum ve soru-cevap SEO etkisi](/tr/seo/yerel-seo), doğrudan garanti iddiası değil; güven sinyali, soru keşfi ve içerik iyileştirme fırsatı olarak okunmalıdır."
           },
           {
             "type": "callout",
@@ -52151,7 +52547,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "UGC’nin en büyük değerlerinden biri, içerik ekibine “gerçek soru” sağlar. Fakat bu sorular yalnız yorumlarda kalırsa fayda sınırlı olur. Doğru yaklaşım: UGC’den çıkan soru kümelerini SSS ve ana içeriklere taşımak (content mining) ve böylece UGC’yi içerik stratejisinin yakıtı haline getirmektir."
+            "text": "UGC’nin en büyük değerlerinden biri, içerik ekibine “gerçek soru” sağlar. Fakat bu sorular yalnız yorumlarda kalırsa fayda sınırlı olur. Doğru yaklaşım: [UGC’den FAQ üretimi](/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi) mantığıyla soru kümelerini SSS ve ana içeriklere taşımak (content mining) ve böylece UGC’yi içerik stratejisinin yakıtı haline getirmektir."
           },
           {
             "type": "h3",
@@ -52172,6 +52568,14 @@
           {
             "type": "p",
             "text": "Mini örnek (otel):\n“Transfer var mı?” sorusu → Otel sayfası SSS bloğu + “transfer hizmeti” iç linki + rezervasyona yakın CTA."
+          },
+          {
+            "type": "p",
+            "text": "Aynı soru kümeleri, [kullanıcı sorularından kısa form içerik](/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri) üretmek için de güçlü bir hammaddedir; özellikle reels, shorts veya kısa açıklayıcı bloklarda hızlıca değerlendirilebilir."
+          },
+          {
+            "type": "p",
+            "text": "Operasyon tarafında ise [çağrı merkezi sorularını içerik stratejisine aktarmak](/tr/cagri-merkezi/performans-analizi), sık tekrar eden itirazları yalnız destek verisi olarak değil; FAQ, rehber ve mikro içerik fikri olarak okumayı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -52205,7 +52609,7 @@
           },
           {
             "type": "p",
-            "text": "Forum içerikleri büyüdükçe, kategori/hub mimarisi olmadan SEO sinyali dağılır. Çözüm: forumu “hub–cluster” mantığıyla bağlamak: ana kategoriler hub gibi, alt başlıklar cluster gibi çalışır. Ayrıca forum sayfalarının hangilerinin index’lenmesini istediğinizi stratejik belirlemelisiniz."
+            "text": "Forum içerikleri büyüdükçe, kategori/hub mimarisi olmadan SEO sinyali dağılır. Çözüm: forumu “hub–cluster” mantığıyla bağlamak: ana kategoriler hub gibi, alt başlıklar cluster gibi çalışır. Ayrıca forum sayfalarının hangilerinin index’lenmesini istediğinizi stratejik belirlemelisiniz; pratikte [forum içeriği siteye nasıl bağlanır](/tr/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz) sorusunun devamı, hangi thread’lerin kalite eşiğini geçtiğine karar vermektir."
           },
           {
             "type": "h3",
@@ -52311,14 +52715,14 @@
             "variant": "secondary",
             "label": "UGC Moderasyon & SSS’e Taşıma Şablonunu İndir",
             "text": "UGC’den çıkan soru kümelerini seçip SSS’ye taşıma ve moderasyon kurallarını tek tabloda yönetmenizi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/ugc-moderasyon-sss-tasima-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "UGC & Topluluk İçerik Analizi Talep Et",
             "text": "UGC alanlarını SEO büyüme motoruna çevirirken spam ve index riskini birlikte yönetmek isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -52365,18 +52769,22 @@
             "text": "Bu yüzden UGC stratejisi; moderasyon, SSS’e taşıma, forum hub–cluster mimarisi ve index hijyeniyle birlikte düşünülmelidir. Değerli UGC seçilip ana içeriklere taşındığında, kullanıcı yolculuğu güçlenir; düşük kaliteli alanlar noindex/canonical gibi teknik kararlarla yönetildiğinde site kalite sinyali korunur."
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha sistemli kurmak için [profesyonel İçerik SEO ve UGC içerik stratejisi](/tr/seo/icerik-seo) desteğiyle ilerlemek ve karar detaylarını [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasında netleştirmek, özellikle yüksek hacimli yorum ve forum alanlarında işleri kolaylaştırır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "UGC & Topluluk İçerik Analizi Talep Et",
             "text": "UGC’yi spam’den arındırıp SSS ve ana içerikleri besleyen bir sisteme dönüştürmek isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "UGC Moderasyon & SSS’e Taşıma Şablonunu İndir",
             "text": "UGC’den çıkan soru kümelerini seçip SSS’ye taşıma ve moderasyon kurallarını tek tabloda yönetmenizi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/ugc-moderasyon-sss-tasima-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -52451,7 +52859,7 @@
   },
 
   "BlogAiDestekliIcerikUretimiVeInsanEditorlukDengesi": {
-    "title": "AI İçerik Üretimi + İnsan Editörlük Dengesi",
+    "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
     "slug": "ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi",
     "department": "seo",
     "subDepartment":"content",
@@ -52461,7 +52869,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "AI ile içerik üretmek riskli mi? Araştırma–outline–taslakta AI kullanın; editör doğruluk, özgünlük ve marka tonu için devreye girsin. E-E-A-T ve kontrol listesiyle yönetin.",
     "seo": {
-      "metaTitle": "AI İçerik Üretimi + İnsan Editörlük Dengesi | DGTLFACE",
+      "metaTitle": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur? | DGTLFACE",
       "metaDescription": "AI ile içerik üretmek riskli mi? Araştırma–outline–taslakta AI kullanın; editör doğruluk, özgünlük ve marka tonu için devreye girsin. E-E-A-T ve kontrol listesiyle yönetin."
     },
     "blueprint": {
@@ -52501,7 +52909,7 @@
     },
     "h1": {
       "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
-      "intro": "AI ile içerik üretmek, ekiplerin hızını ciddi biçimde artırabilir: araştırma özetleri, outline üretimi, taslak yazımı ve varyasyon çıkarma gibi işler çok daha hızlı akar. Ancak “hız” tek başına hedef olursa, iki risk büyür: (1) kalite ve güven kaybı, (2) ölçekli düşük değer üretimi (scaled content abuse) riski. Google’ın temel yaklaşımı, kullanılan araçtan çok içeriğin insana faydası, özgün değeri ve spam amaçlı üretilip üretilmediği ile ilgilidir.\n\nSağlıklı model şu dengeyi kurar: AI hızlandırır; insan editör “kaliteyi mühürler.” Bu yazıda; hangi aşamalar otomatize edilebilir, editör nerede devreye girmeli, marka tonu/doğruluk/özgünlük nasıl korunmalı ve süreç nasıl ölçülüp standardize edilmeli adım adım anlatıyoruz.",
+      "intro": "AI ile içerik üretmek, ekiplerin hızını ciddi biçimde artırabilir: araştırma özetleri, outline üretimi, taslak yazımı ve varyasyon çıkarma gibi işler çok daha hızlı akar. Ancak “hız” tek başına hedef olursa, iki risk büyür: (1) kalite ve güven kaybı, (2) ölçekli düşük değer üretimi (scaled content abuse) riski. [AI destekli içerik SEO](/tr/seo/icerik-seo) yaklaşımında temel mesele, kullanılan araçtan çok içeriğin insana faydası, özgün değeri ve spam amaçlı üretilip üretilmediğidir.\n\nSağlıklı model şu dengeyi kurar: AI hızlandırır; insan editör “kaliteyi mühürler.” Bu yazıda; hangi aşamalar otomatize edilebilir, editör nerede devreye girmeli, marka tonu/doğruluk/özgünlük nasıl korunmalı ve süreç nasıl ölçülüp standardize edilmeli adım adım anlatıyoruz.",
       "quickSummary": [
         "1) AI kullanımını hız değil editöre zaman kazandırma hedefiyle tanımla",
         "2) Araştırma, soru listesi, outline ve ilk taslakta AI’dan destek al",
@@ -52512,51 +52920,63 @@
       "ctaPrimary": {
         "label": "AI + İnsan İçerik Süreci Analizi Talep Et",
         "text": "AI ile hız kazanırken kalite ve güven parametrelerini korumak isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI + İnsan İçerik Süreci Analizi Talep Et",
         "text": "AI hızını kalite ve güvenle birleştiren workflow kurmak isteyen ekipler için içerik sürecinizi birlikte inceleyelim.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "AI Destekli İçerik Üretim Akışı & Editörlük Checklist’ini İndir",
         "text": "Hangi adımda AI kullanıp hangi adımda editör kontrolü yapacağınızı netleştirir ve uygulamayı standartlaştırır.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/ai-destekli-icerik-uretim-akisi-editorluk-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Editoryal takvim ve içerik operasyonu",
+        "href": "/tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
+      },
+      {
+        "label": "E-E-A-T içerik üretimi rehberi",
+        "href": "/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
+      },
+      {
+        "label": "Zero-click SERP stratejisi",
+        "href": "/tr/seo/blog/zero-click-serp-ve-marka-odakli-icerik-stratejisi"
       },
       {
         "label": "KVKK ve veri güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "label": "İçerik SEO SSS sayfası",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO İçerik Brief’i ve Outline Nasıl Hazırlanır?",
-        "href": "/seo/blog/seo-icerik-briefi-ve-outline-nasil-hazirlanir"
+        "title": "Editoryal Takvim ve İçerik Operasyon Sistemi Nasıl Kurulur?",
+        "href": "/tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi"
       },
       {
-        "title": "İçerik Pruning ve Index Yönetimi Rehberi",
-        "href": "/seo/blog/icerik-pruning-index-management-hangi-sayfalari-tutacaginiz-hangi-sayfalari-kaldiracaginiz"
+        "title": "E-E-A-T ve İçerik Üretimi: Güven ve Otorite İçerikte Nasıl Gösterilir?",
+        "href": "/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir"
       }
     ],
     "sections": [
@@ -52571,6 +52991,10 @@
           {
             "type": "p",
             "text": "AI’ın en büyük fırsatı “boş sayfayı doldurmak” değil; editöre zaman kazandırmaktır. Yani editör, enerjisini yaratıcı fikir bulmaya değil; doğruluk, örnek zenginliği, case ve marka tonu gibi “insan gücü” gereken işlere harcar. En büyük risk ise AI’ın “hız” avantajını, değer eklemeden sayfa çoğaltmaya çevirmektir. Google, otomasyonla içerik üretiminin spam amaçlı (sıralamayı manipüle etmek için) kullanılmasını spam politikaları kapsamında ihlal olarak değerlendirir; “değer eklemeden çok sayfa üretme” özellikle risklidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde AI destekli içerik üretimi](/tr/seo-hizmetleri), yalnız metin üretimini hızlandıran bir araç seti olarak değil; brief, editörlük, kalite kontrol ve yayın disipliniyle birlikte ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -52620,7 +53044,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI’ın en güvenli kullanıldığı yerler “ön üretim” adımlarıdır: araştırma, soru listesi çıkarma, outline kurgusu ve ilk taslak. Çünkü bu aşamalar “ham madde” üretir; nihai kalite yine editörün elindedir. Burada kritik nokta: AI’ın ürettiği bilgi doğru kabul edilmez; doğrulama editörde kalır."
+            "text": "AI’ın en güvenli kullanıldığı yerler “ön üretim” adımlarıdır: araştırma, soru listesi çıkarma, outline kurgusu ve ilk taslak. Çünkü bu aşamalar “ham madde” üretir; nihai kalite yine editörün elindedir. Burada kritik nokta: AI’ın ürettiği bilgi doğru kabul edilmez; doğrulama editörde kalır. Uygulamada [AI içerik üretiminde editoryal operasyon](/tr/seo/blog/editorial-kalender-ve-icerik-operasyon-sistemi) kurgusu olmadan bu hız, kaliteye dönüşmez."
           },
           {
             "type": "table",
@@ -52716,7 +53140,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI taslaklarının çoğu “genel”dir: doğru gibi görünen ama herkesin yazabileceği metin. İnsan editör, içeriği “marka dili + gerçek örnek + doğrulanmış bilgi” ile benzersizleştirir. Ayrıca E-E-A-T açısından, içerikte “kim yazdı, hangi deneyimle yazdı” sinyallerini görünür kılmak editör standardının parçası olmalıdır."
+            "text": "AI taslaklarının çoğu “genel”dir: doğru gibi görünen ama herkesin yazabileceği metin. İnsan editör, içeriği “marka dili + gerçek örnek + doğrulanmış bilgi” ile benzersizleştirir. Ayrıca E-E-A-T açısından, içerikte “kim yazdı, hangi deneyimle yazdı” sinyallerini görünür kılmak editör standardının parçası olmalıdır. Bu noktada [insan editörlük ve yapay zeka dengesi](/tr/seo/blog/e-e-a-t-ve-icerik-uretimi-guven-ve-otorite-nasil-gosterilir), güven ve kalite kontrolünün merkezine oturur."
           },
           {
             "type": "p",
@@ -52871,6 +53295,11 @@
               "AI çıktısını “ham taslak” kabul et; nihai metin editör ürünüdür."
             ]
           }
+          ,
+          {
+            "type": "p",
+            "text": "Özellikle gerçek müşteri bilgisi, kampanya notu veya kişisel veri kullanılan senaryolarda [AI içerik üretiminde veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi) standardı netleşmeden ham veriyi araçlara taşımamak gerekir."
+          }
         ]
       },
       {
@@ -52911,6 +53340,10 @@
             "text": "Key Statistics / Data Point (yumuşak kullanım):\nNet tanımlanmış AI + insan workflow’una sahip ekiplerin, hız kazanırken kalite ve güven parametrelerini korumakta daha başarılı göründüğü sıkça gözlemleniyor (garanti değil; tekrar eden bir operasyon örüntüsü)."
           },
           {
+            "type": "p",
+            "text": "Bu yapı aynı zamanda [AI destekli içerikte zero-click SERP yapısı](/tr/seo/blog/zero-click-serp-ve-marka-odakli-icerik-stratejisi) kurarken önemlidir; çünkü net özet bloklar, kısa yanıtlar ve marka tutarlılığı çoğu zaman ancak kontrollü bir workflow ile sürdürülebilir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -52942,21 +53375,21 @@
           },
           {
             "type": "p",
-            "text": "AI’ı yalnızca kelime sayısını artırmak için kullanırsanız kısa vadede hacim artar; ama uzun vadede güven ve performans düşebilir. Doğru yaklaşım: AI ile hız kazanıp o zamanı kaliteye yatırmak. Özellikle otel/destinasyon içeriklerinde pratik örnek, SSS, süreç ve güven sayfalarına bağlantı gibi “insan dokunuşu” olmazsa içerik yüzeysel kalır."
+            "text": "AI’ı yalnızca kelime sayısını artırmak için kullanırsanız kısa vadede hacim artar; ama uzun vadede güven ve performans düşebilir. Doğru yaklaşım: AI ile hız kazanıp o zamanı kaliteye yatırmak. Özellikle otel/destinasyon içeriklerinde pratik örnek, SSS, süreç ve güven sayfalarına bağlantı gibi “insan dokunuşu” olmazsa içerik yüzeysel kalır. Bu nedenle [AI destekli otel pazarlama içerikleri](/tr/otel-dijital-pazarlama), marka tonu ve rezervasyon odaklı mesaj disipliniyle birlikte ele alınmalıdır."
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "AI Destekli İçerik Üretim Akışı & Editörlük Checklist’ini İndir",
             "text": "AI’ın hangi adımda kullanılacağını ve editörün hangi kontrol kapılarından geçireceğini tek listede uygulatır.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/ai-destekli-icerik-uretim-akisi-editorluk-checklist-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "AI + İnsan İçerik Süreci Analizi Talep Et",
             "text": "AI hızını kaliteyle birleştiren workflow, stil rehberi ve doğruluk kontrolünü kurmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -53026,18 +53459,22 @@
             "text": "Sağlıklı hibrit model; brief, outline QA, fact-check, stil rehberi, plajyerizm kontrolü, teknik SEO kontrolü ve yayın sonrası 30 gün performans notunu tek workflow içinde toplar. Böylece AI yalnızca daha fazla metin üretmek için değil; editöre zaman kazandırıp kaliteyi ölçeklemek için kullanılır."
           },
           {
+            "type": "p",
+            "text": "Bu modeli sürdürülebilir hale getirmek için [profesyonel İçerik SEO ve AI destekli içerik süreci](/tr/seo/icerik-seo) desteğiyle ilerlemek ve karar detaylarını [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasında netleştirmek, özellikle yüksek hacimli ekiplerde kalite standardını korumayı kolaylaştırır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI + İnsan İçerik Süreci Analizi Talep Et",
             "text": "AI ile hız kazanırken kalite ve güven parametrelerini korumak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "AI Destekli İçerik Üretim Akışı & Editörlük Checklist’ini İndir",
             "text": "Hangi adımda AI kullanıp hangi adımda editör kontrolü yapacağınızı netleştirir ve uygulamayı standartlaştırır.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/ai-destekli-icerik-uretim-akisi-editorluk-checklist-v1.0.pdf"
           }
         ]
       }
@@ -53111,7 +53548,7 @@
   },
 
    "BlogSgeAiAnswerVeIcerikSeoStratejisi": {
-    "title": "SGE ve AI Answer İçin İçerik SEO Stratejisi",
+    "title": "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız?",
     "slug": "sge-ai-answer-ve-icerik-seo-stratejisi",
     "department": "seo",
     "subDepartment":"content",
@@ -53121,7 +53558,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "SGE/AI Answer dönemine hazırlanın: soru–cevap blokları, özet paragraflar, FAQ/HowTo segmentleri, entity + schema ve iç link ile sayfanızı “cevaplanabilir” yapıda kurgulayın.",
     "seo": {
-      "metaTitle": "SGE ve AI Answer İçin İçerik SEO Stratejisi | DGTLFACE",
+      "metaTitle": "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız? | DGTLFACE",
       "metaDescription": "SGE/AI Answer dönemine hazırlanın: soru–cevap blokları, özet paragraflar, FAQ/HowTo segmentleri, entity + schema ve iç link ile sayfanızı “cevaplanabilir” yapıda kurgulayın."
     },
     "blueprint": {
@@ -53159,7 +53596,7 @@
     },
     "h1": {
       "title": "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız?",
-      "intro": "AI destekli SERP düzeninde kullanıcı davranışı değişiyor: bazı sorgularda kullanıcı önce AI özetini okuyor, sonra içindeki kaynak linklere tıklıyor veya tıklamadan karar veriyor. Google Search Central, site sahiplerine yönelik “AI features and your website” dokümanında AI Overviews ve AI Mode gibi özelliklerin site perspektifinden nasıl ele alınacağını anlatıyor. Bu, içerik SEO tarafında yeni bir hedef doğuruyor: sayfayı yalnız “rank” ettirmek değil; AI tarafından parça parça anlaşılır ve referans verilebilir hale getirmek. Bu rehber, SGE/AI Answer bağlamında en pratik içerik mimarisini sunar: net soru–cevap blokları, güçlü outline, FAQ/HowTo segmentleri, schema + entity netliği, iç link ile konu haritası ve “önce cevap sonra detay” akışı. Özellikle turizm (otel/destinasyon) ve B2B hizmet sayfalarında bu yapı; hem kullanıcı deneyimini hem de “kaynak seçilme” ihtimalini güçlendirebilir.",
+      "intro": "AI destekli SERP düzeninde kullanıcı davranışı değişiyor: bazı sorgularda kullanıcı önce AI özetini okuyor, sonra içindeki kaynak linklere tıklıyor veya tıklamadan karar veriyor. Google Search Central, site sahiplerine yönelik “AI features and your website” dokümanında AI Overviews ve AI Mode gibi özelliklerin site perspektifinden nasıl ele alınacağını anlatıyor. Bu, [SGE içerik SEO](/tr/seo/icerik-seo) tarafında yeni bir hedef doğuruyor: sayfayı yalnız “rank” ettirmek değil; AI tarafından parça parça anlaşılır ve referans verilebilir hale getirmek. Bu rehber, SGE/AI Answer bağlamında en pratik içerik mimarisini sunar: net soru–cevap blokları, güçlü outline, FAQ/HowTo segmentleri, schema + entity netliği, iç link ile konu haritası ve “önce cevap sonra detay” akışı. Özellikle turizm (otel/destinasyon) ve B2B hizmet sayfalarında bu yapı; hem kullanıcı deneyimini hem de “kaynak seçilme” ihtimalini güçlendirebilir.",
       "quickSummary": [
         "1) İlk ekrana 2–3 cümlelik direct answer ekle",
         "2) Soru–cevap başlıklarıyla AEO uyumlu yapı kur",
@@ -53170,51 +53607,71 @@
       "ctaPrimary": {
         "label": "SGE İçerik Hazırlık Analizi Talep Et",
         "text": "Turizm ve B2B sayfalarınızı AI destekli SERP’e uygun “cevaplanabilir” yapıya dönüştürmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SGE İçerik Hazırlık Analizi Talep Et",
         "text": "Turizm ve B2B sayfalarını AI destekli SERP’e uygun “cevaplanabilir” yapıya dönüştürmek isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "SGE / AI Answer İçin İçerik Yapı Checklist’ini İndir",
         "text": "Sayfayı answer pack, SSS, schema ve entity ile AI’nin kolay sindireceği yapıda kurmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/sge-ai-answer-icerik-yapi-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "FAQ ve SSS içerik stratejisi",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
+      },
+      {
+        "label": "AEO advanced içerik stratejisi",
+        "href": "/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
+      },
+      {
+        "label": "Entity ve anlamsal SEO rehberi",
+        "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "SGE cluster hub alanı",
-        "href": "BURAYI-SONRA-SGE-CLUSTER-İLE-BAĞLA"
+        "label": "Otel SEO hizmet sayfası",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "İçerik SEO SSS sayfası",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
-        "href": "/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
+        "title": "FAQ ve SSS İçerik Stratejisi: Kullanıcı Sorularını ve FAQ Schema’yı Nasıl Kullanırsınız?",
+        "href": "/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi"
       },
       {
-        "title": "İçerik SEO Denetimi Nasıl Yapılır?",
-        "href": "/seo/icerik-seo"
+        "title": "Cevap Motorları ve Chat Arayüzleri İçin AEO (Answer Engine Optimisation) – Advanced İçerik Stratejisi",
+        "href": "/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi"
       },
       {
-        "title": "Teknik SEO Nedir?",
-        "href": "/seo/teknik-seo"
+        "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+        "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
       }
     ],
     "sections": [
@@ -53233,6 +53690,10 @@
           {
             "type": "p",
             "text": "Bu geçiş, içerik stratejisinde iki temel değişim yaratır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde AI Answer hazırlığı](/tr/seo-hizmetleri), yalnız içerik yazımı değil; FAQ, entity, teknik erişilebilirlik ve ölçümleme katmanlarıyla birlikte düşünülmelidir."
           },
           {
             "type": "list",
@@ -53283,6 +53744,10 @@
           {
             "type": "p",
             "text": "Cevap (2–3 cümle): Sayfanızın kaynak olma şansını artırmak için içeriği “cevaplanabilir” hale getirin: soruyu başlık olarak yazın, hemen altında 2–3 cümle net cevap verin, sonra detaylandırın. Net heading hiyerarşisi, FAQ/HowTo segmentleri ve schema; sayfanın yapısını makine-okur hale getirir. Ayrıca özgün değer (örnek, tablo, yerel senaryo) ve güven sinyalleri, aynı konudaki yüzeysel içeriklerden ayrışmayı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu iskeleti [AI Answer kaynak sayfa olma](/tr/seo/blog/cevap-motorlari-ve-chat-arayuzleri-icin-aeo-advanced-icerik-stratejisi) ihtimalini artıran AEO mantığıyla kurmak, cevap bloklarını daha net ve referanslanabilir hale getirebilir."
           },
           {
             "type": "h3",
@@ -53384,6 +53849,10 @@
             "text": "AI answer katmanında sayfanın seçilmesi “sadece metin” değil; yapı + bağlam + güven bileşimiyle güçlenir. Burada üç kaldıraç öne çıkar:"
           },
           {
+            "type": "p",
+            "text": "Kullanıcıdan gelen alt soruları [SGE için soru-cevap blog yapısı](/tr/seo/blog/faq-sss-icerik-stratejisi-ve-faq-schema-kullanimi) mantığıyla toparlayıp kısa cevap bloklarına çevirmek, sayfanın answerability düzeyini güçlendirir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -53397,12 +53866,20 @@
             "text": "Google, structured data’nın her zaman rich result garantilemediğini açıkça belirtir; ama structured data hâlâ “anlamı netleştirme” ve farklı arama yüzeylerinde kullanılabilirlik açısından değerli bir tekniktir."
           },
           {
+            "type": "p",
+            "text": "Bu yapının yalnız görünür tarafta iyi yazılması yetmez; [AI Answer hazırlığında teknik SEO](/tr/seo/teknik-seo) kontrolleriyle schema, crawl, hız ve indexlenebilirlik tarafı da temiz kalmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Schema ve entity SGE’de neden önemli? "
           },
           {
             "type": "p",
             "text": "Cevap (2–3 cümle): Schema, sayfanın “ne tür içerik” olduğunu (Article/FAQPage/HowTo) ve içerik parçalarının nasıl yapılandığını makine-okur biçimde anlatır; entity kapsaması ise sayfanın konu alanını netleştirir. Bu ikisi birlikte, AI sistemlerinin sayfadan doğru parçayı seçmesini kolaylaştırır; özellikle SSS blokları kullanıcı alt sorularını hızlı kapattığı için “cevaplanabilirlik” artar."
+          },
+          {
+            "type": "p",
+            "text": "Bunu [entity tabanlı AI Answer hazırlığı](/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim) yaklaşımıyla desteklemek, marka, hizmet, lokasyon ve konu ilişkilerini daha tutarlı göstermeye yardım eder."
           },
           {
             "type": "h3",
@@ -53513,6 +53990,10 @@
             "text": "Bu bölüm, “cevaplanabilir yapı”yı sahaya indirir. Aynı yapı; otel sayfalarında rezervasyon kararını, B2B sayfalarda teklif/analiz kararını hızlandırır."
           },
           {
+            "type": "p",
+            "text": "Özellikle turizm tarafında [otel SEO’da AI Answer hazırlığı](/tr/otel/seo), destinasyon soruları, hizmet detayları ve rezervasyon öncesi itirazları cevap bloklarına dönüştürmek için güçlü bir çerçeve sunar."
+          },
+          {
             "type": "h3",
             "text": "Otel örneği — destinasyon ve konsept soruları"
           },
@@ -53550,7 +54031,7 @@
               "https://dgtlface.com/tr/seo/icerik-seo",
               "https://dgtlface.com/tr/seo/teknik-seo",
               "https://dgtlface.com/tr/seo/seo-raporlama",
-              "Varsayım: BURAYI-SONRA-SGE-CLUSTER-İLE-BAĞLA alanı, ileride eklenecek SGE cluster hub sayfasıdır; yayın sonrası iç link planına eklenecek."
+              "AI Answer cluster'ı genişledikçe yeni bridge ve support içerikler bu yapıya bağlanabilir."
             ]
           },
           {
@@ -53582,6 +54063,10 @@
           {
             "type": "p",
             "text": "SGE/AI Overviews gibi özellikler; görünüm, kapsama ve kaynak gösterim biçimi açısından değişebiliyor. Bu yüzden bu içerik için refresh döngüsü 180 gün olarak mantıklı: örnekler, ekran maketleri, önerilen bloklar ve schema pratikleri periyodik gözden geçirilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu değişimi [SGE görünürlüğünü SEO raporlamasında izlemek](/tr/seo/seo-raporlama) yaklaşımıyla ele almak, yalnız trafik değil marka araması, zero-click etkisi ve soru kümelerindeki hareketi de takip etmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -53640,14 +54125,14 @@
             "variant": "secondary",
             "label": "SGE / AI Answer İçin İçerik Yapı Checklist’ini İndir",
             "text": "Sayfayı answer pack, SSS, schema ve entity ile AI’ye sindirilebilir yapıda kurmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/sge-ai-answer-icerik-yapi-checklist-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "SGE İçerik Hazırlık Analizi Talep Et",
             "text": "Mevcut sayfalarınızı SGE/AI answer dönemine uygun bloklarla yeniden yapılandırmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -53717,18 +54202,22 @@
             "text": "Answer Pack, soru–cevap blokları, FAQ/HowTo segmentleri, schema + entity netliği ve iç link mimarisi birlikte çalıştığında; sayfa hem kullanıcı hem AI sistemleri için daha anlaşılır hale gelir. Bu yapı, görünürlük garantisi vermez; ancak AI destekli SERP’e hazırlık için uygulanabilir ve ölçülebilir bir standart sunar."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi sahaya taşımak için [profesyonel İçerik SEO ve AI Answer hazırlığı](/tr/seo/icerik-seo) desteğiyle ilerlemek ve uygulama detaylarını [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasında netleştirmek, özellikle answer pack, FAQ ve entity kurgusunu birlikte yöneten ekipler için işleri kolaylaştırır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "SGE İçerik Hazırlık Analizi Talep Et",
             "text": "Turizm ve B2B sayfalarını AI destekli SERP’e uygun “cevaplanabilir” yapıya dönüştürmek isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "SGE / AI Answer İçin İçerik Yapı Checklist’ini İndir",
             "text": "Sayfayı answer pack, SSS, schema ve entity ile AI’nin kolay sindireceği yapıda kurmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/sge-ai-answer-icerik-yapi-checklist-v1.0.pdf"
           }
         ]
       }
@@ -53787,8 +54276,8 @@
           "FAQPage schema: sayfadaki gerçek FAQ ile birebir uyumlu",
           "HowTo schema yalnız uygun adım adım bölümlerde kullanıldı",
           "speakable alanı H1 + answer block için değerlendirildi",
-          "İç link hedefleri: /seo/icerik-seo, /seo/teknik-seo, /seo/seo-raporlama",
-          "BURAYI-SONRA-SGE-CLUSTER-İLE-BAĞLA alanı yayın sonrası cluster hub ile güncellenecek",
+          "İç link hedefleri: /tr/seo/icerik-seo, /tr/seo/teknik-seo, /tr/seo/seo-raporlama",
+          "AI Answer cluster'ı büyüdükçe yeni internal link fırsatları yayın sonrası plana eklenmeli",
           "180 günlük refresh takvimi oluşturuldu",
           "CWV, mobil ilk ekran ve CTA görünürlüğü kontrol edildi"
         ]
@@ -53797,7 +54286,7 @@
   },
 
   "BlogOmniKanalIcerikYenidenKullanimiBlogSosyalEpostaVeVideo": {
-    "title": "Omni-Kanal Repurposing: Blogdan Sosyal/E-posta/Video",
+    "title": "Omni-Kanal İçerik Yeniden Kullanımı: Blog, Sosyal, E-posta ve Video Arasında Köprü Kurmak",
     "slug": "omni-kanal-icerik-yeniden-kullanimi-blog-sosyal-e-posta-ve-video",
     "department": "seo",
     "subDepartment":"content",
@@ -53807,7 +54296,7 @@
     "author": "DGTLFACE Editorial",
     "excerpt": "Repurposing nedir? Amiral blog içeriğini sosyal post, e-posta serisi ve video’ya bölün; ton/uzunluk/CTA uyarlayın. Link şemasını hub/cluster’a bağlayıp SEO otoritesini koruyun.",
     "seo": {
-      "metaTitle": "Omni-Kanal Repurposing: Blogdan Sosyal/E-posta/Video | DGTLFACE",
+      "metaTitle": "Omni-Kanal İçerik Yeniden Kullanımı: Blog, Sosyal, E-posta ve Video Arasında Köprü Kurmak | DGTLFACE",
       "metaDescription": "Repurposing nedir? Amiral blog içeriğini sosyal post, e-posta serisi ve video’ya bölün; ton/uzunluk/CTA uyarlayın. Link şemasını hub/cluster’a bağlayıp SEO otoritesini koruyun."
     },
     "blueprint": {
@@ -53845,7 +54334,7 @@
     },
     "h1": {
       "title": "Omni-Kanal İçerik Yeniden Kullanımı: Blog, Sosyal, E-posta ve Video Arasında Köprü Kurmak",
-      "intro": "İçerik üretmek maliyetli: araştırma, yazım, edit, tasarım, onay, yayın, ölçüm… Her kanalda her seferinde sıfırdan üretmek; hem bütçeyi hem de ekibin odağını tüketir. Bu nedenle çoklu kanalda sürdürülebilir büyüme, genellikle şu modelle gelir: tek bir amiral içerik (cornerstone) → çoklu format kırılımı (repurposing) → tek bir hub/cluster link mimarisi. Ama repurposing “kopyala-yapıştır” değildir. Her kanalda format, ton ve CTA farklıdır. Blog uzun ve öğreticidir; sosyal kısa ve dikkat çekicidir; e-posta daha kişisel ve seri mantığıyla ilerler; video ise görsel anlatım ve tempo ister. İşin SEO tarafındaki kritik noktası ise şudur: Her format ayrı bir “başlık/URL karmaşası” yaratmadan, aynı ana sayfaya otorite taşımalıdır.",
+      "intro": "İçerik üretmek maliyetli: araştırma, yazım, edit, tasarım, onay, yayın, ölçüm… Her kanalda her seferinde sıfırdan üretmek; hem bütçeyi hem de ekibin odağını tüketir. Bu nedenle [içerik repurposing nedir](/tr/seo/icerik-seo) sorusu, yalnız üretim verimi değil; ana içerik varlıklarının nasıl ölçekleneceği açısından da önemlidir. Çoklu kanalda sürdürülebilir büyüme genellikle şu modelle gelir: tek bir amiral içerik (cornerstone) → çoklu format kırılımı (repurposing) → tek bir hub/cluster link mimarisi. Ama repurposing “kopyala-yapıştır” değildir. Her kanalda format, ton ve CTA farklıdır. Blog uzun ve öğreticidir; sosyal kısa ve dikkat çekicidir; e-posta daha kişisel ve seri mantığıyla ilerler; video ise görsel anlatım ve tempo ister. İşin SEO tarafındaki kritik noktası ise şudur: Her format ayrı bir “başlık/URL karmaşası” yaratmadan, aynı ana sayfaya otorite taşımalıdır.",
       "quickSummary": [
         "1) 90 gün için 3–5 amiral içerik belirle",
         "2) Her amiral içerikten 5–7 mesaj bloğu çıkar",
@@ -53856,47 +54345,71 @@
       "ctaPrimary": {
         "label": "Repurposing & Omni-Kanal İçerik Strateji Analizi Talep Et",
         "text": "Tek içerikten çok temas noktası üretip link mimarisini toparlamak isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Repurposing & Omni-Kanal İçerik Strateji Analizi Talep Et",
         "text": "Tek amiral içerikten çoklu kanal temas noktası üretip link mimarisini toparlamak isteyen ekipler için.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       "secondary": {
         "label": "Amiral İçerik → Repurposing Planlama Şablonunu İndir",
         "text": "Bir içeriği 5 parçaya bölme planını, kanal formatını ve link disiplinini tek tabloda kurmanızı sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/amiral-icerik-repurposing-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Topic cluster ve content hub mimarisi",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+      },
+      {
+        "label": "İçerik UX ve okunabilirlik rehberi",
+        "href": "/tr/seo/blog/icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz"
+      },
+      {
+        "label": "Video ve kısa form içerik rehberi",
+        "href": "/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
       },
       {
         "label": "Sosyal medya yönetimi",
-        "href": "/smm"
+        "href": "/tr/smm"
       },
       {
         "label": "Reklam raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Video prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "İçerik SEO SSS sayfası",
+        "href": "/tr/seo/icerik-seo-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
-        "href": "/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
+        "title": "Topic Cluster ve Content Hub Mimarisi Nasıl Kurulur?",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
       },
       {
-        "title": "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız?",
-        "href": "/seo/blog/sge-ai-answer-ve-icerik-seo-stratejisi"
+        "title": "İçerik UX ve Okunabilirlik: SEO ile Tasarımı Nasıl Dengelersiniz?",
+        "href": "/tr/seo/blog/icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz"
       },
       {
-        "title": "İçerik SEO Denetimi Nasıl Yapılır?",
-        "href": "/seo/icerik-seo"
+        "title": "Video ve Kısa Form İçeriklerin (Shorts/Reels) SEO ve İçerik Stratejisindeki Yeri",
+        "href": "/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri"
       }
     ],
     "sections": [
@@ -53911,6 +54424,10 @@
           {
             "type": "p",
             "text": "Repurposing, aynı içeriğin farklı kanallarda “farklı format”la yeniden kullanılmasıdır. Buradaki hedef, tekrar üretmek değil; aynı ana mesajı farklı tüketim alışkanlıklarına uygun sunmaktır. Örneğin 3000 kelimelik bir rehber, blogda derinlik üretirken sosyalde 5 kısa post, e-postada 3 parçalık mini seri, videoda 6–8 dakikalık anlatım olarak yaşayabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde omni-kanal içerik stratejisi](/tr/seo-hizmetleri), yalnız blog yazmak değil; o blogu sosyal, video ve dağıtım katmanlarına bağlayacak merkezî bir içerik sistemi kurmak anlamına gelir."
           },
           {
             "type": "h3",
@@ -53949,6 +54466,10 @@
           {
             "type": "p",
             "text": "Amiral içerik, konunun en güçlü, en kapsamlı, en güncel sayfasıdır. “Hub” gibi çalışır ve diğer içerikler buraya bağlanır. Repurposing’in sağlıklı çalışması için amiral içerik;"
+          },
+          {
+            "type": "p",
+            "text": "Bu merkezi yapı, [content hub’dan sosyal medya içerikleri üretmek](/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi) isteyen ekipler için özellikle kritiktir; çünkü tekrar kullanılacak her parça aynı ana konu ağından beslenmelidir."
           },
           {
             "type": "list",
@@ -53996,6 +54517,10 @@
           {
             "type": "p",
             "text": "Bu akışın amacı, kullanıcıyı “tek temas”tan “çoklu temas”a taşımaktır. Blog, keşif ve derinlik sağlar; sosyal farkındalık üretir; e-posta ilişkiyi derinleştirir; video güven ve anlaşılabilirlik sağlar. Hepsinin sonunda aynı hedefe bağlanması gerekir: hub/cluster veya hizmet sayfası."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [blog içeriğini sosyal medya, e-posta ve videoya dönüştürmek](/tr/smm), aynı mesajı farklı tüketim anlarına uyarlamak demektir; ancak e-posta için bu sayfada ayrıca bir hedef URL üretilmemeli, yalnız süreç mantığı anlatılmalıdır."
           },
           {
             "type": "media",
@@ -54060,6 +54585,10 @@
             "text": "Repurposing’de en sık hata: blog metnini kısaltıp sosyalde paylaşmak. Bu, sosyalde “metin duvarı” olur; e-postada “soğuk ve robotik” olur; videoda ise “okunan metin” hissi verir. Doğru adaptasyon, her kanalın tüketim biçimine göre yeniden kurgudur."
           },
           {
+            "type": "p",
+            "text": "Bu geçişlerde [kanallar arasında içerik deneyimini korumak](/tr/seo/blog/icerik-ux-ve-okunabilirlik-seo-ile-tasarimi-nasil-dengelersiniz), özellikle uzun blogdan carousel, kısa açıklama veya e-posta serisi üretirken okunabilirliği ve mesaj netliğini kaybetmemek için önemlidir."
+          },
+          {
             "type": "h3",
             "text": "Kanal kuralları (özet)"
           },
@@ -54076,6 +54605,10 @@
           {
             "type": "p",
             "text": "Teknik not (sheet): Video ve sosyal formatlara bölünen içeriklerde açıklama/link alanları, cluster veya hub sayfasına otorite taşıyacak şekilde yapılandırılmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı mantık, [kısa form video içerik stratejisi](/tr/seo/blog/video-ve-kisa-form-iceriklerin-seo-ve-icerik-stratejisindeki-yeri) kurarken de geçerlidir; reels, shorts ve mikro video parçaları ana blogun özetini taşımalı, yerine geçmeye çalışmamalıdır."
           },
           {
             "type": "callout",
@@ -54124,6 +54657,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (sheet’den, yumuşak kullanım): İyi kurgulanmış repurposing süreçlerinde, tek bir güçlü içerikten 5–10 farklı format ve temas noktası üretilebiliyor. Bu, üretim verimini artırırken mesaj ve link tutarlılığını korumayı da gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [omni-kanal içerik performansını raporlamak](/tr/sem/reklam-raporlama), yalnız sosyal erişimi değil; hangi mesaj bloğunun daha çok tıklama, izlenme veya dönüşüm ürettiğini birlikte okumayı sağlar."
           },
           {
             "type": "table",
@@ -54202,6 +54739,10 @@
             "text": "Otel paketi (destinasyon/konsept rehberi)"
           },
           {
+            "type": "p",
+            "text": "Bu paketler video ayağına taşınırken [video prodüksiyon ile içerik yeniden kullanımı](/tr/creative/video-produksiyon) yaklaşımı devreye girer; blogdan doğrudan metin okumak yerine, mesaj bloklarını senaryo, çekim akışı ve kısa video formatına çevirmek gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -54236,14 +54777,14 @@
             "variant": "secondary",
             "label": "Amiral İçerik → Repurposing Planlama Şablonunu İndir",
             "text": "Bir içeriği 5 parçaya bölme planını, kanal formatını ve link disiplinini tek tabloda kurmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/amiral-icerik-repurposing-planlama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Repurposing & Omni-Kanal İçerik Strateji Analizi Talep Et",
             "text": "Amiral içerik seçimi, paket tasarımı ve ölçüm planını tek sistemde kurmak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       },
@@ -54330,18 +54871,22 @@
             "text": "Kritik nokta, repurposing’i kopyala-yapıştır gibi değil; kanal bazlı ton, uzunluk, CTA ve link mimarisi uyarlaması olarak ele almaktır. Böylece sosyal, e-posta ve video içerikleri yalnızca dağıtım formatı olmaz; amiral içeriği ve hub/cluster yapısını besleyen stratejik temas noktalarına dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi daha planlı kurmak için [profesyonel İçerik SEO ve omni-kanal içerik stratejisi](/tr/seo/icerik-seo) desteğiyle ilerlemek ve uygulama detaylarını [İçerik SEO hakkında sık sorulan sorular](/tr/seo/icerik-seo-sss) sayfasında netleştirmek, özellikle çok kanalda aynı ana mesajı korumaya çalışan ekipler için işleri kolaylaştırır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Repurposing & Omni-Kanal İçerik Strateji Analizi Talep Et",
             "text": "Tek amiral içerikten çoklu kanal temas noktası üretip link mimarisini toparlamak isteyen ekipler için.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Amiral İçerik → Repurposing Planlama Şablonunu İndir",
             "text": "Bir içeriği 5 parçaya bölme planını, kanal formatını ve link disiplinini tek tabloda kurmanızı sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/amiral-icerik-repurposing-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -54403,7 +54948,7 @@
           "Article + WebPage + WebSite schema @graph kontrolü",
           "FAQPage schema: sayfadaki gerçek FAQ ile birebir uyumlu",
           "Download asset linki yayın öncesi doğrulandı",
-          "İç link hedefleri: /seo/icerik-seo, /smm, /sem/reklam-raporlama",
+          "İç link hedefleri: /tr/seo/icerik-seo, /tr/seo-hizmetleri, /tr/smm, /tr/sem/reklam-raporlama, /tr/creative/video-produksiyon",
           "Repurposing paketlerinde tek hedef URL kuralı korundu",
           "UTM standardı için kampanya parametreleri planlandı",
           "365 günlük refresh takvimi oluşturuldu",
