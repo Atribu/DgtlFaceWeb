@@ -13133,7 +13133,7 @@
     },
     "h1": {
       "title": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
-      "intro": "SEO raporu hazırlamak, “kaç ziyaretçimiz var?” sorusundan çıkıp ölçüm temeli (measurement foundation) kurmak demektir. Çünkü SEO; yalnızca sıralama değil, görüntüleme–tıklama–CTR–konum davranışıyla başlar ve GA4 tarafında oturum kalitesi + dönüşüm ile iş sonucuna bağlanır. Bu rehberde, raporun çekirdeğini oluşturan KPI’ları nasıl okuyacağınızı, segmentlerle nasıl anlamlandıracağınızı ve yöneticiye “rakam” değil karar taşıyan bir anlatı kuracağınızı adım adım göreceksiniz.",
+      "intro": "SEO raporu hazırlamak, “kaç ziyaretçimiz var?” sorusundan çıkıp ölçüm temeli (measurement foundation) kurmak demektir. Çünkü SEO; yalnızca sıralama değil, görüntüleme–tıklama–CTR–konum davranışıyla başlar ve GA4 tarafında oturum kalitesi + dönüşüm ile iş sonucuna bağlanır. Bu [SEO raporu nasıl hazırlanır](/tr/seo/seo-raporlama) rehberinde, raporun çekirdeğini oluşturan KPI’ları nasıl okuyacağınızı, segmentlerle nasıl anlamlandıracağınızı ve yöneticiye “rakam” değil karar taşıyan bir anlatı kuracağınızı adım adım göreceksiniz.",
       "quickSummary": [
         "1) GSC KPI’larını (impressions/clicks/CTR/position) birlikte oku.",
         "2) GA4’te organik oturum kalitesi + dönüşüm katmanını ekle.",
@@ -13161,30 +13161,54 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
+        "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Satış & Dönüşüm Raporlama",
+        "label": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
+      },
+      {
+        "label": "Yönetici Özetiyle SEO Raporu Nasıl Anlatılır?",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/tr/seo/seo-raporlama"
+        "title": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "title": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
       },
       {
-        "title": "Satış & Dönüşüm Raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Yönetici Özetiyle SEO Raporu Nasıl Anlatılır?",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
       }
     ],
     "sections": [
@@ -13199,6 +13223,10 @@
           {
             "type": "p",
             "text": "SEO raporlama; “aylık pozisyon listesi” veya “trafik grafiği” değildir. SEO raporu, core KPI literacy sağlar: metriklerin ne anlama geldiğini, birbirini nasıl etkilediğini ve hangi aksiyonlara dönmesi gerektiğini açıklar. Özellikle turizm ve otel tarafında (Antalya/Belek/Side gibi destinasyonlarda) karar vericinin ihtiyacı şudur: “Organik görünürlük → talep → rezervasyon/lead” zincirinde nerede iyiyiz, nerede kaybediyoruz?"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde performans raporlaması](/tr/seo-hizmetleri), yalnızca trafik tablosu üretmek değil; organik performansı, teknik sorunları, içerik etkisini ve aksiyon önceliklerini birlikte okumayı gerektirir."
           },
           {
             "type": "h3",
@@ -13342,6 +13370,10 @@
             "text": "• CTR tek başına iyi/kötü değildir. Konum, SERP görünümü ve arama niyeti ile birlikte okunur.\n• Ortalama konum “ortalama”dır. 2. sırada bir kelime ve 20. sırada 10 kelime varsa, rapor “iyi görünüp” tıklama getirmeyebilir.\n• En sağlıklı okuma: Query → Konum → CTR → Landing davranışı."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı daha detaylı görmek için [CTR ve ortalama konum yorumu](/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir), sıralama ve görünürlük verisini query bağlamında daha doğru yorumlamaya yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Mini örnek (turizm):"
           },
@@ -13390,6 +13422,10 @@
           {
             "type": "p",
             "text": "GSC, “Google’da ne oldu?”yu söyler; GA4 ise “site içinde ne oldu?”yu. Burada amaç; organik trafiği kalite ile ölçmektir. Çünkü özellikle otel sitelerinde organik trafik artarken rezervasyon düşebiliyor: sebep çoğu zaman yanlış niyetli trafik veya landing deneyimi."
+          },
+          {
+            "type": "p",
+            "text": "Raporun veri temelini doğru kurmak için [GA4 ve Search Console verilerini birlikte okumak](/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak), tıklama, gösterim, oturum ve dönüşüm sinyallerini aynı çerçevede yorumlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -13445,6 +13481,10 @@
           {
             "type": "p",
             "text": "SEO raporu, dönüşüm olmadan “tam” değildir. Dönüşüm; otel tarafında rezervasyon, teklif talebi, telefon/WhatsApp tıklaması, form gönderimi gibi ölçülebilir iş sonuçlarıdır. Bu bölüm, raporun “işe yarıyor mu?” kısmını netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO raporunda satış ve dönüşüm etkisi](/tr/raporlama/satis-donusum), organik performansı yalnızca trafik ve sıralama değil; lead, rezervasyon, form ve gelir etkisiyle birlikte ele almayı sağlar."
           },
           {
             "type": "h3",
@@ -13504,6 +13544,10 @@
           {
             "type": "p",
             "text": "Segment; raporu “yönetilebilir” hale getirir. Segment yoksa, rapor genel konuşur; aksiyon spesifikleşmez. Bu bölümde amaç: aynı KPI’ları kırılımlarla okumak."
+          },
+          {
+            "type": "p",
+            "text": "Segmentasyonun değer üretmesi için [SEO verisini analiz etmek](/tr/veri-analiz-ve-raporlama), dashboard mantığı, veri temizliği ve kırılım disiplinini raporun standart parçası haline getirmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -13569,6 +13613,10 @@
             "text": "Yönetici; 40 KPI görmek istemez. Yönetici; 3–4 KPI + 3 aksiyon ister. Bu bölüm, raporu “sunulabilir” hale getirir; sakin, uygulama odaklı ve karar verdiren bir anlatı kurar."
           },
           {
+            "type": "p",
+            "text": "Bu anlatıyı sadeleştirmek için [SEO raporunu yönetici özetiyle anlatmak](/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak), ham KPI listesini yönetici diliyle okunabilir bir performans hikayesine çevirir."
+          },
+          {
             "type": "h3",
             "text": "Yöneticiye SEO raporunu nasıl anlatırım?"
           },
@@ -13599,6 +13647,10 @@
             "text": "Key Statistics / Data Point (yumuşatılmış veri noktası):\nSearch Console verisi kullanan sitelerde, temel KPI’ları düzenli takip eden projelerin genelde “sadece trafik sayan” projelere göre daha hızlı aksiyon aldığı ve sorunları daha erken fark ettiği gözlenir. (Kesin rakam iddiası değildir; pratik saha gözlemidir.)"
           },
           {
+            "type": "p",
+            "text": "Yönetim katında [SEO ve reklam raporlarını birlikte okumak](/tr/sem/reklam-raporlama), organik ve ücretli kanal etkisini aynı karar çerçevesinde değerlendirmeyi kolaylaştırır."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -13626,6 +13678,10 @@
               "Sunumda teknik detayı ek’e alın; ana akış sade kalsın.",
               "Aksiyonları sorumlu–tarih ile yazın (backlog gibi)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı standartlaştırmak isteyen ekipler için [profesyonel SEO Raporlama ve KPI analizi](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; değerlendirme öncesinde [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da süreç beklentilerini netleştirmeye yardımcı olur."
           },
           {
             "type": "cta",
@@ -62889,7 +62945,7 @@
     },
     "h1": {
       "title": "Ana Sayfa vs Derin Sayfa Backlink Dağılımı: Otoriteyi Nasıl Yayarsınız?",
-      "intro": "Backlink çalışmalarında en yaygın hatalardan biri, “en güvenlisi ana sayfaya link alalım” diyerek tüm linkleri ana sayfaya yığmaktır. Evet, ana sayfa genelde en güçlü URL’dir; ama SEO’da kazanım, sadece domain otoritesi değil, hangi sayfanın hangi konu setinde güçlendiği ile ölçülür. Otellerde destinasyon ve konsept sayfaları; B2B’de hizmet ve çözüm sayfaları; çoğu zaman asıl para kazandıran ve sıralama hedefi taşıyan derin sayfalardır. Bu rehber, ana sayfa ve derin sayfa linklerinin rolünü ayrıştırır, hub/cluster mantığıyla otoriteyi yaymanın pratik planını verir.",
+      "intro": "Backlink çalışmalarında en yaygın hatalardan biri, “en güvenlisi ana sayfaya link alalım” diyerek tüm linkleri ana sayfaya yığmaktır. Evet, ana sayfa genelde en güçlü URL’dir; ama SEO’da kazanım, sadece domain otoritesi değil, hangi sayfanın hangi konu setinde güçlendiği ile ölçülür. Otellerde destinasyon ve konsept sayfaları; B2B’de hizmet ve çözüm sayfaları; çoğu zaman asıl para kazandıran ve sıralama hedefi taşıyan derin sayfalardır. Bu [derin sayfa backlink](/tr/seo/backlink-yonetimi) planlaması, ana sayfa ve derin sayfa linklerinin rolünü ayrıştırır, hub/cluster mantığıyla otoriteyi yaymanın pratik planını verir.",
       "quickSummary": [
         "1) Backlink hedef URL dağılımını ana sayfa vs derin sayfa olarak analiz et",
         "2) Hub/cluster mimarisini netleştir",
@@ -62900,14 +62956,14 @@
       "ctaPrimary": {
         "label": "Backlink Hedef URL & Dağılım Analizi Talep Et",
         "text": "Profilinizde linklerin nereye yığıldığını görüp doğru hedef URL planını çıkarmak isteyenler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink Hedef URL & Dağılım Analizi Talep Et",
         "text": "Ana sayfa yığılmasını kırıp hub/derin sayfa otoritesini büyütmek isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Ana Sayfa vs Derin Sayfa Backlink Planlama Şablonunu İndir",
@@ -62917,26 +62973,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Anchor Text Stratejisi ve Link Yerleşimi",
+        "href": "/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi"
+      },
+      {
+        "label": "Topic Cluster ve Content Hub Mimarisi",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+      },
+      {
+        "label": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Link Velocity ve Link Tarihi: Güvenli Büyüme Nasıl Planlanır?",
-        "href": "/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
+        "title": "Anchor Text Stratejisi ve Link Yerleşimi",
+        "href": "/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi"
       },
       {
-        "title": "Unlinked Brand Mentions ve Marka Bahislerinden Backlink Kazanımı",
-        "href": "/seo/blog/unlinked-brand-mentions-ve-marka-bahislerinden-backlink-kazanim"
+        "title": "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+        "href": "/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi"
+      },
+      {
+        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
       }
     ],
     "sections": [
@@ -62951,6 +63035,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: çoğu zaman hayır. Ana sayfa linkleri domain otoritesini artırabilir; ancak derin sayfaların hedeflediği sorgularda sıralama kazanması için çoğu senaryoda sayfa seviyesinde sinyal gerekir. Üstelik iç linkleme her zaman ana sayfadan otoriteyi “tam verimle” derin sayfalara taşıyamaz; bilgi mimarisi zayıfsa, otorite “dağılamaz”."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde hedef URL stratejisi](/tr/seo-hizmetleri), yalnız dış link kazanımı değil; içerik mimarisi, iç link akışı ve dönüşüm odaklı sayfa öncelikleriyle birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -63058,6 +63146,10 @@
             "text": "Derin sayfa linkleri, o sayfanın hedeflediği sorgu setinde doğrudan otorite sinyali üretir. Özellikle “hizmet”, “destinasyon”, “konsept”, “ürün/paket” gibi sayfalar; arama niyetiyle daha iyi eşleştiği için derin linklerin etkisi daha görünür olabilir."
           },
           {
+            "type": "p",
+            "text": "Ancak bu etkiyi güvenli hale getirmek için [derin sayfalara doğal anchor ile link vermek](/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi), hedef URL ile anchor vaadi arasında net bir uyum kurmayı gerektirir."
+          },
+          {
             "type": "h3",
             "text": "AEO – Derin sayfa linkleri neden kritik? (Q&A)"
           },
@@ -63122,6 +63214,10 @@
             "text": "Bu model, hem link kazanımını hem iç linklemeyi sistematik hale getirir."
           },
           {
+            "type": "p",
+            "text": "Özellikle [hub sayfalara link](/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi) yaklaşımı, backlink otoritesini tekil landing’lerde değil; destek içeriklerle büyüyen konu kümelerinde toplamayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "AIO – Otorite dağılım modeli (paragraf)"
           },
@@ -63172,6 +63268,10 @@
             "text": "En iyi strateji, ikisini de kullanır ama ağırlığı “iş hedefi”ne göre verir: yeni marka için navigasyonel daha fazla olabilir; büyüme aşamasında içerik bazlı linkler kritikleşir."
           },
           {
+            "type": "p",
+            "text": "Bu dağılımı kısa vadeli kampanya kararı değil, [hedef URL stratejisi](/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani) olarak 6–12 aylık plana bağlamak; ana sayfa, hub ve derin sayfa paylarını daha sağlıklı dengelemenizi sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -63214,6 +63314,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Bir gezi blogu “Side’de aile tatili” yazısında otelinizi anıyor. En iyi hedef URL çoğu zaman “Side + aile konsepti” hub sayfanızdır; ana sayfa değil."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [otel SEO’da backlink hedef sayfa seçimi](/tr/otel/seo), ana sayfayı güçlendirmekle yetinmeyip destinasyon, konsept ve talep yaratan içerik sayfalarını da oyun planına dahil etmelidir."
           },
           {
             "type": "h3",
@@ -63353,6 +63457,14 @@
             "text": "Bazı sayfalar (teknik hub’lar, hizmet landing’leri) PR açısından “seksi” görünmez; bu yüzden yıllarca link almaz. Oysa SEO için kritik olabilirler. Çözüm: içerik–PR stratejisine bu sayfaları da dahil edecek “linklenebilir katman” eklemek: rehber, veri, checklist, case."
           },
           {
+            "type": "p",
+            "text": "Çünkü yayıncıların gerçekten kaynak göstermek isteyeceği sayfalar üretmeden link dağılımı kurmak zordur; bu noktada [link almaya uygun derin sayfa içeriği](/tr/seo/icerik-seo), hedef URL’nin değer önerisini güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [derin sayfa backlinklerinde teknik SEO kontrolü](/tr/seo/teknik-seo), link verilen URL’nin 200 dönmesi, doğru canonical’a sahip olması ve gereksiz redirect zincirleri üretmemesi için temel kontroldür."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Teknik not (kilitli vurgu)",
@@ -63365,7 +63477,7 @@
             "variant": "primary",
             "label": "Backlink Hedef URL & Dağılım Analizi Talep Et",
             "text": "Ana sayfa yığılmasını kırıp hub/derin sayfa planını netleştirmek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -63445,11 +63557,15 @@
             "text": "Otoriteyi yaymanın en pratik yolu; PR/outreach kampanyalarında hedef URL’leri önceden belirlemek, hub/cluster mimarisini güçlendirmek ve iç linklerle ana sayfadan derin sayfalara net akış kurmaktır. Böylece sadece daha fazla link değil, daha doğru sayfalara daha anlamlı otorite aktarımı sağlanır."
           },
           {
+            "type": "p",
+            "text": "[profesyonel Backlink Yönetimi ve hedef URL stratejisi](/tr/seo/backlink-yonetimi) desteği gerektiğinde, karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Backlink Hedef URL & Dağılım Analizi Talep Et",
             "text": "Ana sayfa yığılmasını kırıp hub/derin sayfa otoritesini büyütmek isteyen otel ve B2B ekipleri için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -63504,10 +63620,10 @@
           "Canonical: /tr/seo/blog/ana-sayfa-ve-derin-sayfa-backlink-dagilimi-stratejisi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları BÖLÜM 5 / PAA ile uyumlu",
-          "Primary CTA hedefi: /seo/backlink-yonetimi",
+          "Primary CTA hedefi: /tr/seo/backlink-yonetimi",
           "Secondary CTA türü: Download Asset",
           "Secondary CTA hedefi: /downloads/ana-sayfa-vs-derin-sayfa-backlink-planlama-sablonu-v1.0.pdf",
-          "İç link hedefleri: /seo/backlink-yonetimi, /seo/icerik-seo, /seo/teknik-seo",
+          "İç link hedefleri: /tr/seo-hizmetleri, /tr/seo/backlink-yonetimi, /tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi, /tr/seo/blog/topic-cluster-ve-content-hub-mimarisi, /tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani, /tr/seo/icerik-seo, /tr/seo/teknik-seo, /tr/otel/seo, /tr/seo/backlink-yonetimi-sss",
           "Tablo görseli: Hedef URL türü → amaç → örnek",
           "Risk vurgusu: sadece ana sayfaya yığılma, derin sayfaların konu otoritesini sınırlayabilir",
           "Teknik vurgu: SEO için kritik teknik/hub sayfalar da link alacak stratejiye dahil edilmeli",
@@ -63565,7 +63681,7 @@
     },
     "h1": {
       "title": "Backlink ve Citation Dengesi: Yerel SEO ve Off-Page Otoriteyi Nasıl Birleştirirsiniz?",
-      "intro": "Yerel SEO’da iki farklı off-page sinyal aynı anda çalışır: citation (NAP doğruluğu) ve backlink (otorite bağlantısı). Çoğu projede biri yapılır diğeri ihmal edilir: ya sadece dizin kayıtlarıyla “harita” hedeflenir ya da sadece backlink kovalanır ve yerel güven katmanı zayıf kalır. Oysa oteller ve yerel işletmelerde sürdürülebilir görünürlük; NAP tutarlılığı + kaliteli yerel/niş backlink kombinasyonuyla gelir. Bu rehber, citation ile backlink’in rolünü netleştirir, linkli/linksiz citation’ı ayırır ve yerel + global otoriteyi tek plan içinde kurgular.",
+      "intro": "Yerel SEO’da iki farklı off-page sinyal aynı anda çalışır: citation (NAP doğruluğu) ve backlink (otorite bağlantısı). Çoğu projede biri yapılır diğeri ihmal edilir: ya sadece dizin kayıtlarıyla “harita” hedeflenir ya da sadece backlink kovalanır ve yerel güven katmanı zayıf kalır. Oysa oteller ve yerel işletmelerde sürdürülebilir görünürlük; NAP tutarlılığı + kaliteli yerel/niş backlink kombinasyonuyla gelir. Bu [backlink ve citation dengesi](/tr/seo/backlink-yonetimi), citation ile backlink’in rolünü netleştirir, linkli/linksiz citation’ı ayırır ve yerel + global otoriteyi tek plan içinde kurgular.",
       "quickSummary": [
         "1) Citation ve backlink rollerini ayır",
         "2) Önce NAP master formatını oluştur",
@@ -63576,14 +63692,14 @@
       "ctaPrimary": {
         "label": "Backlink & Citation Strateji Analizi Talep Et",
         "text": "Yerel harita görünürlüğü ve organik otoriteyi aynı planda büyütmek isteyen otel/yerel işletmeler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink & Citation Strateji Analizi Talep Et",
         "text": "Yerel harita görünürlüğü ile organik otoriteyi aynı planda büyütmek isteyen otel/yerel işletmeler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Yerel Citation + Backlink Kaynak Planlama Şablonunu İndir",
@@ -63593,26 +63709,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "NAP Tutarlılığı ve Yerel Dizinler",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
+      },
+      {
+        "label": "Turizm ve Destinasyon Odaklı Backlink Fırsatları",
+        "href": "/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
+      },
+      {
+        "label": "Yerel Link Building ve PR",
+        "href": "/tr/seo/blog/yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler"
       },
       {
         "label": "Yerel SEO",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "label": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Ana Sayfa ve Derin Sayfa Backlink Dağılımı Stratejisi",
-        "href": "/seo/blog/ana-sayfa-ve-derin-sayfa-backlink-dagilimi-stratejisi"
+        "title": "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite: Oteller İçin Yerel Alıntı (Citation) Stratejisi",
+        "href": "/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite"
       },
       {
-        "title": "Link Velocity ve Link Tarihi: Güvenli Büyüme Nasıl Planlanır?",
-        "href": "/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
+        "title": "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+        "href": "/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
+      },
+      {
+        "title": "Yerel Link Building ve PR: Otel ve Yerel İşletmeler İçin Otorite Stratejisi",
+        "href": "/tr/seo/blog/yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler"
       }
     ],
     "sections": [
@@ -63627,6 +63771,10 @@
           {
             "type": "p",
             "text": "Citation, işletmenizin ad–adres–telefon bilgilerinin (NAP) web’de tutarlı şekilde yer almasıdır. Backlink ise başka bir siteden sizin sitenize verilen bağlantıdır. Yerel SEO’da citation, çoğu zaman “kim olduğunuzu ve nerede olduğunuzu” doğrular; backlink ise “ne kadar otoritesiniz ve neden kaynak gösteriliyorsunuz?” sinyalini taşır."
+          },
+          {
+            "type": "p",
+            "text": "Bu dengeyi [SEO hizmetleri içinde local authority](/tr/seo-hizmetleri) olarak okumak gerekir; çünkü off-page SEO yalnız link kazanımı değil, yerel dizinlerde tutarlı bilgi, NAP kontrolü ve bölgesel güven sinyalleriyle birlikte çalışır."
           },
           {
             "type": "h3",
@@ -63673,6 +63821,10 @@
           {
             "type": "p",
             "text": "Yerel dizinler, harita sonuçlarında “tutarlılık” sinyali üretir. NAP tutarsızlığı; yanlış telefon, eski adres, farklı marka adı gibi sapmalar; hem kullanıcı deneyimini bozar hem de yerel güveni zayıflatır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [NAP ve off-page otorite](/tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite) ilişkisi, citation sinyallerinin backlink stratejisiyle çelişmeden aynı güven katmanında büyümesini sağlar."
           },
           {
             "type": "h3",
@@ -63807,6 +63959,10 @@
             "text": "Soru: Yerel SEO için hangisi daha önemli: backlink mi citation mı? Cevap: İkisi farklı ama tamamlayıcıdır: citation yerel güveni kurar, backlink otoriteyi büyütür; en iyi sonuç dengeli plandan gelir."
           },
           {
+            "type": "p",
+            "text": "Özellikle [Yerel SEO’da backlink ve citation dengesi](/tr/seo/yerel-seo), harita görünürlüğü ile organik konu otoritesini aynı rapor içinde ama farklı sinyal gruplarıyla okumayı gerektirir."
+          },
+          {
             "type": "h3",
             "text": "Yerel–global otoriteyi gösteren model (Venn mantığı)"
           },
@@ -63864,6 +64020,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu modelde [turizm backlink kaynakları ve citation dengesi](/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari), destinasyon portalları, rehber siteler ve yerel medya görünürlüğünü aynı off-page plan içinde toplamanıza yardım eder."
+          },
+          {
             "type": "h3",
             "text": "Yerel hizmet işletmesi modeli"
           },
@@ -63876,6 +64036,14 @@
               "Hizmet sayfalarına niş içerik → backlink kazanımı",
               "Ölçüm: arama–harita görünürlüğü + lead"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [yerel PR ile local authority oluşturmak](/tr/seo/blog/yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler), sponsorluk, etkinlik, oda/dernek ve yerel haber kaynaklarını hem citation görünürlüğü hem de backlink güveni için daha işlevsel hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında [otel SEO’da local authority](/tr/otel/seo), NAP doğruluğunu destinasyon sayfaları, otel listeleri ve talep yaratan konsept sayfalarıyla birlikte büyütmeyi hedefler."
           },
           {
             "type": "callout",
@@ -63983,6 +64151,10 @@
             "text": "Key Statistics / Data Point (soft claim): Yerel SEO çalışmalarında hem güçlü citation hem de kaliteli yerel backlink’e sahip işletmelerin, sadece biri güçlü olanlara göre daha stabil harita görünürlüğü yakaladığı sıkça raporlanıyor."
           },
           {
+            "type": "p",
+            "text": "Bu görünürlüğü yalnız SEO metriği olarak değil, [off-page otoriteyi otel dijital pazarlamaya bağlamak](/tr/otel-dijital-pazarlama) açısından marka güveni, kampanya etkisi ve rezervasyon niyetiyle birlikte okumak gerekir."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -63991,7 +64163,7 @@
             "variant": "primary",
             "label": "Backlink & Citation Strateji Analizi Talep Et",
             "text": "Yerel ve global off-page planını tek çerçevede kurmak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -64072,11 +64244,15 @@
             "text": "En sağlıklı yaklaşım, önce NAP master formatını netleştirip temel citation setini düzeltmek; ardından yerel medya, destinasyon portalları, partnerler ve niş yayınlarla kaliteli backlink portföyü oluşturmaktır. Böylece harita görünürlüğü ile organik konu otoritesi aynı off-page plan içinde dengeli şekilde büyür."
           },
           {
+            "type": "p",
+            "text": "[profesyonel Backlink Yönetimi ve citation dengesi](/tr/seo/backlink-yonetimi) desteği gerektiğinde, karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Backlink & Citation Strateji Analizi Talep Et",
             "text": "Yerel harita görünürlüğü ile organik otoriteyi aynı planda büyütmek isteyen otel/yerel işletmeler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -64131,10 +64307,10 @@
           "Canonical: /tr/seo/blog/backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları BÖLÜM 5 / PAA ile uyumlu",
-          "Primary CTA hedefi: /seo/backlink-yonetimi",
+          "Primary CTA hedefi: /tr/seo/backlink-yonetimi",
           "Secondary CTA türü: Download Asset",
           "Secondary CTA hedefi: /downloads/yerel-citation-backlink-kaynak-planlama-sablonu-v1.0.pdf",
-          "İç link hedefleri: /seo/backlink-yonetimi, /seo/yerel-seo, /otel/seo",
+          "İç link hedefleri: /tr/seo-hizmetleri, /tr/seo/backlink-yonetimi, /tr/seo/blog/nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite, /tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari, /tr/seo/blog/yerel-link-building-ve-pr-stratejisi-otel-ve-isletmeler, /tr/seo/yerel-seo, /tr/otel/seo, /tr/otel-dijital-pazarlama, /tr/seo/backlink-yonetimi-sss",
           "Tablo görseli: Backlink ve citation kaynaklarını ayıran tablo",
           "Risk vurgusu: sırf link için spam dizinlere girilmemeli",
           "Teknik vurgu: yerel dizinler sadece SEO için değil, kullanıcıların bilgi aldığı ve markanın kontrol edebildiği kanallar olarak seçilmeli",
@@ -64192,7 +64368,7 @@
     },
     "h1": {
       "title": "Negatif SEO, Zararlı Link Saldırıları ve Marka Koruma Stratejisi",
-      "intro": "“Rakipler kötü link gönderiyor, sıralamam düştü!” cümlesi, SEO’da en sık panik üreten cümlelerden biri. Gerçek şu: spam linkler olabilir, hatta kasıtlı saldırılar da yaşanabilir; ama çoğu “negatif SEO” paniği, detaylı analizle doğal dalgalanma, algoritma güncellemesi, site içi teknik değişim veya ölçüm hatası olarak açıklanabilir. Bu rehber, iki uçtan uzak durur: ne her şeyi saldırı sayar, ne de riski yok sayar. Amaç; düzenli monitoring ile anomaliyi erken yakalamak, kanıtla hareket etmek ve gerekiyorsa kontrollü müdahale etmektir.",
+      "intro": "“Rakipler kötü link gönderiyor, sıralamam düştü!” cümlesi, SEO’da en sık panik üreten cümlelerden biri. Gerçek şu: spam linkler olabilir, hatta kasıtlı saldırılar da yaşanabilir; ama çoğu “negatif SEO” paniği, detaylı analizle doğal dalgalanma, algoritma güncellemesi, site içi teknik değişim veya ölçüm hatası olarak açıklanabilir. Bu [negatif SEO risk yönetimi](/tr/seo/backlink-yonetimi), iki uçtan uzak durur: ne her şeyi saldırı sayar, ne de riski yok sayar. Amaç; düzenli monitoring ile anomaliyi erken yakalamak, kanıtla hareket etmek ve gerekiyorsa kontrollü müdahale etmektir.",
       "quickSummary": [
         "1) Her kötü linki saldırı saymadan önce anomaliyi doğrula",
         "2) Link spike, anchor dağılımı, ülke/dil ve hedef URL desenlerini kontrol et",
@@ -64203,14 +64379,14 @@
       "ctaPrimary": {
         "label": "Negatif SEO & Backlink Risk Analizi Talep Et",
         "text": "Ani link artışı, spam anchor ve yabancı kaynak patlamalarında “gerçek risk mi, gürültü mü?” ayrımını netleştirmek isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Negatif SEO & Backlink Risk Analizi Talep Et",
         "text": "Şüpheli link dalgalarını sakin ve kanıtlı şekilde yönetmek isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Negatif SEO Olay Yönetimi & İzleme Şablonunu İndir",
@@ -64220,26 +64396,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Backlink Analizi, Audit ve Disavow Stratejisi",
+        "href": "/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi"
+      },
+      {
+        "label": "Link Velocity ve Link Tarihi",
+        "href": "/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
+      },
+      {
+        "label": "Teknik SEO Monitoring",
+        "href": "/tr/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink ve Citation Dengesi: Yerel SEO ve Off-Page Otorite",
-        "href": "/seo/blog/backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite"
+        "title": "Backlink Analizi, Audit ve Disavow Stratejisi: Ne Zaman, Nasıl Yapılmalı?",
+        "href": "/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi"
       },
       {
         "title": "Link Velocity ve Link Tarihi: Güvenli Büyüme Nasıl Planlanır?",
-        "href": "/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
+        "href": "/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
+      },
+      {
+        "title": "Teknik SEO Monitoring: Otomatik Kontroller ve Değişim Takibi Nasıl Kurulur?",
+        "href": "/tr/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi"
       }
     ],
     "sections": [
@@ -64254,6 +64458,10 @@
           {
             "type": "p",
             "text": "Negatif SEO, bir sitenin SEO performansını düşürmek amacıyla dışarıdan yapılan manipülasyon denemelerinin genel adıdır. En çok konuşulan türü “zararlı link saldırıları”dır; ancak negatif SEO iddiaları çoğu zaman link dışı riskleri (hack, içerik kopyalama, sahte sayfalar, itibar saldırısı) da kapsayabilir. Bu yazının odağı: backlink profiline yönelik zararlı desenler ve bunlara karşı savunma planı."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [SEO hizmetleri içinde marka koruma](/tr/seo-hizmetleri), sadece link temizliği değil; backlink monitoring, teknik kontrol, veri sınıflandırması ve kontrollü raporlama akışını birlikte yönetmek anlamına gelir."
           },
           {
             "type": "h3",
@@ -64304,6 +64512,10 @@
           {
             "type": "p",
             "text": "Zararlı link saldırıları çoğu zaman “kalite” değil “miktar + desen” üzerinden çalışır: çok sayıda alakasız link, spam anchor yoğunluğu, aynı ağdan gelen tekrarlar, hacklenmiş sayfalardan linkler gibi. Aşağıda sahada en sık görülen desenleri netleştirelim."
+          },
+          {
+            "type": "p",
+            "text": "Bu tür şüpheli kümeleri panikle değil, [zararlı link saldırıları](/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi) için audit, sınıflandırma ve gerekirse kontrollü disavow mantığıyla değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -64392,6 +64604,10 @@
             "text": "Negatif SEO’yu “olay” yapan şey, çoğu zaman ani değişimdir: link velocity patlaması, yeni domain sayısında sıçrama, anchor dağılımında bozulma, hedef URL dağılımında dengesizlik. Burada kritik nokta: sadece link metriğine bakmayın—aynı dönemde site içi ve algoritmik değişkenleri de kontrol edin."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [ani link artışı ve link velocity](/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir), saldırı şüphesini doğal PR dalgalarından ve açıklanabilir büyüme desenlerinden ayırmak için temel karşılaştırma alanıdır."
+          },
+          {
             "type": "h3",
             "text": "Anomali tespiti için minimum rapor seti"
           },
@@ -64414,6 +64630,10 @@
           {
             "type": "p",
             "text": "Bu bölüm kritik; çünkü birçok “negatif SEO paniği” aslında buradan çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Düzenli [backlink monitoring](/tr/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi), sadece link sayısını değil; index değişimi, görünürlük kaybı ve teknik anomali sinyallerini aynı zaman çizelgesinde izlemenizi sağlar."
           },
           {
             "type": "list",
@@ -64548,12 +64768,20 @@
             "text": "Disavow, “her kötü linkte” kullanılacak bir panik butonu değildir. En doğru yaklaşım; kalıcı, bariz spam/toksik kümelerde ve kanıt seti oluştuğunda devreye almaktır. Aksi halde değerli sinyalleri de zayıflatma riski vardır."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [negatif SEO sonrası teknik SEO kontrolü](/tr/seo/teknik-seo), saldırı şüphesiyle birlikte gelen crawl, index, canonical, redirect ve spam sayfa risklerini gözden geçirmek için kritik katmandır."
+          },
+          {
             "type": "h3",
             "text": "Kritik teknik not"
           },
           {
             "type": "p",
             "text": "Negatif SEO şüphesinde sadece linklere değil, aynı dönemde yaşanan teknik, içerik veya algoritma güncellemelerine de bakmak gerekir. Çünkü birçok “negatif SEO paniği”, detaylı analiz sonrası bu faktörlerle açıklanabilir; gerçek saldırı vakaları ise düzenli monitoring yapan projelerde daha erken fark edilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [zararlı link verisini analiz etmek](/tr/veri-analiz-ve-raporlama), şüpheli domainleri kaynak, anchor, tarih, hedef URL ve risk seviyesi bazında sınıflandırarak aksiyon önceliğini daha net belirlemenizi sağlar."
           },
           {
             "type": "p",
@@ -64592,6 +64820,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki tablo, ekiplerin “ne gördük, ne yapıyoruz?” sorusunu aynı formatta cevaplaması için kullanılabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu tabloyu yorumlarken [negatif SEO riskini benchmark ile doğrulamak](/tr/raporlama/benchmark-analizi), değişimin yalnız sizin profile özgü mü yoksa sektör ve rakiplerde de görülen daha geniş bir dalga mı olduğunu anlamayı kolaylaştırır."
           },
           {
             "type": "table",
@@ -64654,7 +64886,7 @@
             "variant": "primary",
             "label": "Negatif SEO & Backlink Risk Analizi Talep Et",
             "text": "Şüpheli link dalgalarını teknik/algoritma faktörlerinden ayırıp doğru müdahale planını çıkarmak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -64740,11 +64972,15 @@
             "text": "Gerçekten kalıcı ve bariz zararlı bir desen varsa müdahale planı minimum gerekli kapsamda uygulanmalıdır. Monitoring, olay dokümantasyonu, kontrollü iletişim ve gerektiğinde sınırlı disavow; markayı ve SEO performansını korumanın daha güvenli yoludur."
           },
           {
+            "type": "p",
+            "text": "[profesyonel Backlink Yönetimi ve marka koruma süreci](/tr/seo/backlink-yonetimi) gerektiğinde, karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Negatif SEO & Backlink Risk Analizi Talep Et",
             "text": "Şüpheli link dalgalarını sakin ve kanıtlı şekilde yönetmek isteyen otel/B2B ekipleri için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -64807,10 +65043,10 @@
           "Canonical: /tr/seo/blog/negatif-seo-zararli-link-saldirilari-ve-marka-koruma",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları BÖLÜM 5 / PAA ile uyumlu",
-          "Primary CTA hedefi: /seo/backlink-yonetimi",
+          "Primary CTA hedefi: /tr/seo/backlink-yonetimi",
           "Secondary CTA türü: Download Asset",
           "Secondary CTA hedefi: /downloads/negatif-seo-olay-yonetimi-izleme-sablonu-v1.0.pdf",
-          "İç link hedefleri: /seo/backlink-yonetimi, /seo/teknik-seo, /veri-analiz-ve-raporlama",
+          "İç link hedefleri: /tr/seo-hizmetleri, /tr/seo/backlink-yonetimi, /tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi, /tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir, /tr/seo/blog/teknik-seo-monitoring-otomatik-kontrol-ve-degisim-takibi, /tr/seo/teknik-seo, /tr/veri-analiz-ve-raporlama, /tr/raporlama/benchmark-analizi, /tr/seo/backlink-yonetimi-sss",
           "Tablo görseli: Sinyal → olası neden → kontrol → aksiyon",
           "Risk vurgusu: her kötü link saldırı değildir; teknik/algoritma etkileri dışlanmadan müdahale edilmemeli",
           "Teknik vurgu: disavow panik butonu değildir; kanıt seti ve minimum gerekli kapsamla uygulanmalı",
@@ -64868,7 +65104,7 @@
     },
     "h1": {
       "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı Nasıl Çıkarılır?",
-      "intro": "Backlink çalışmaları çoğu projede “o hafta fırsat çıktıysa yapalım” şeklinde ilerler. Bu yaklaşım kısa vadede birkaç link kazandırabilir ama otoriteyi hangi sayfalara ve hangi konu kümelerine taşıdığınızı yönetemez. Roadmap yaklaşımı ise backlink’i 6–12 aya yayılan, silo/hub odaklı bir büyüme programına çevirir: mevcut durumu analiz eder, rakipleri benchmark’lar, hedef cluster’ları seçer, planı 90 günlük sprint’lere böler ve her sprint sonunda KPI’larla “otorite fotoğrafı” alır. Böylece bütçe, ekip rolü ve risk dönemleri (site geçişi, kampanya) planlı şekilde yönetilir.",
+      "intro": "Backlink çalışmaları çoğu projede “o hafta fırsat çıktıysa yapalım” şeklinde ilerler. Bu yaklaşım kısa vadede birkaç link kazandırabilir ama otoriteyi hangi sayfalara ve hangi konu kümelerine taşıdığınızı yönetemez. Bu [backlink roadmap](/tr/seo/backlink-yonetimi), backlink’i 6–12 aya yayılan, silo/hub odaklı bir büyüme programına çevirir: mevcut durumu analiz eder, rakipleri benchmark’lar, hedef cluster’ları seçer, planı 90 günlük sprint’lere böler ve her sprint sonunda KPI’larla “otorite fotoğrafı” alır. Böylece bütçe, ekip rolü ve risk dönemleri (site geçişi, kampanya) planlı şekilde yönetilir.",
       "quickSummary": [
         "1) Mevcut backlink profili, içerik mimarisi ve rakip benchmark’ını çıkar",
         "2) Öncelikli silo/hub sayfaları iş etkisine göre seç",
@@ -64879,14 +65115,14 @@
       "ctaPrimary": {
         "label": "Backlink Roadmap & Otorite Planı Analizi Talep Et",
         "text": "6–12 aylık planı silo/hub hedefleriyle netleştirip gerçekçi KPI seti kurmak isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink Roadmap & Otorite Planı Analizi Talep Et",
         "text": "6–12 aylık planı silo/hub hedefleriyle netleştirmek isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "6–12 Aylık Backlink Roadmap Şablonunu İndir",
@@ -64896,26 +65132,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Backlink Çalışmalarının Etkisini Ölçmek",
+        "href": "/tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+      },
+      {
+        "label": "Stratejik Link Building için Dijital PR ve İçerik",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
+      },
+      {
+        "label": "Link Velocity ve Link Tarihi",
+        "href": "/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI",
-        "href": "/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI’ları",
+        "href": "/tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
       },
       {
-        "title": "Negatif SEO: Zararlı Link Saldırıları ve Marka Koruma",
-        "href": "/seo/blog/negatif-seo-zararli-link-saldirilari-ve-marka-koruma"
+        "title": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
+      },
+      {
+        "title": "Link Velocity ve Link Tarihi: Güvenli Büyüme Nasıl Planlanır?",
+        "href": "/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
       }
     ],
     "sections": [
@@ -64930,6 +65194,10 @@
           {
             "type": "p",
             "text": "Roadmap, backlink’i “taktik” olmaktan çıkarıp program haline getirir. Özellikle çok silo/cluster’lı turizm ve B2B sitelerinde, rastgele link almak yerine şu soruların cevabı gerekir:"
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [SEO hizmetleri içinde 6–12 aylık otorite planı](/tr/seo-hizmetleri), linkleri tek seferlik kampanya gibi değil; silo önceliği, içerik hazırlığı, link velocity ve raporlama ritmiyle yönetmek anlamına gelir."
           },
           {
             "type": "list",
@@ -65014,6 +65282,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [silo bazlı otorite](/tr/seo/icerik-seo), link almaya aday hub ve destek içeriklerin gerçekten linklenebilir bir değer üretip üretmediğini netleştirmek için kritik olur."
+          },
+          {
             "type": "h3",
             "text": "3) Rakip benchmark’ı (boşluk analizi)"
           },
@@ -65025,6 +65297,10 @@
               "Hangi kaynak tiplerini kullanıyor (portal, medya, blog, partner)?",
               "Bizde eksik olan “linkable asset” türü ne?"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Rakip boşluklarını [rakip backlink benchmark analizi](/tr/raporlama/benchmark-analizi) ile okumak, hangi kaynak tiplerinin gerçekten roadmap’e girmesi gerektiğini daha net gösterir."
           },
           {
             "type": "h3",
@@ -65129,6 +65405,10 @@
             "text": "Sprint yaklaşımı, hem operasyonu yönetir hem de “her 3 ayda bir otorite fotoğrafı” almanızı sağlar. 6–12 ay planı genelde 2–4 sprint’e bölünür."
           },
           {
+            "type": "p",
+            "text": "Bu sprint ritmini [güvenli link büyüme planı](/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir) ile eşleştirmek, her dönemde aynı hızda link kovalamak yerine doğal büyüme temposunu korumanıza yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Sprint yapısı (her sprintte zorunlu)"
           },
@@ -65218,6 +65498,10 @@
             "text": "Roadmap, “her ay aynı şeyi yapma” değildir. Bazı aylarda PR daha mantıklıdır; bazı aylarda turizm portalları ve yerel medya; bazı aylarda B2B’de sektör yayınları ve partnerlikler."
           },
           {
+            "type": "p",
+            "text": "Roadmap içinde [link planlama](/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi), PR, outreach ve link earning kalemlerini aynı takvimde dengelemek için kullanılır; böylece tek kanala aşırı yüklenme riski azalır."
+          },
+          {
             "type": "h3",
             "text": "Kaynak karması (örnek set)"
           },
@@ -65275,6 +65559,10 @@
             "text": "Roadmap’in başarısı, KPI’ların iş hedefleriyle bağlı olmasına bağlıdır. Sadece link sayısı değil; cluster görünürlük, trafik ve dönüşüm de raporda olmalı."
           },
           {
+            "type": "p",
+            "text": "Bu planı ölçülebilir hale getirmek için [backlink KPI takibi](/tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi), otorite, trafik, sıralama ve gelir etkisini aynı çerçevede okumayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "KPI seti (minimum)"
           },
@@ -65292,6 +65580,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (soft claim): Sprint bazlı çalışan backlink roadmap’lerinde, “3 ayda bir otorite fotoğrafı” alındığında, otorite artışının daha kontrollü ve ölçülebilir olduğu görülüyor."
+          },
+          {
+            "type": "p",
+            "text": "Bu ilerlemeyi [6–12 aylık backlink planını raporlamak](/tr/seo/seo-raporlama), aylık ve çeyreklik ritimde gain-loss, cluster görünürlüğü ve iş etkisini aynı dashboard içinde izlemeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -65381,6 +65673,10 @@
             "text": "Çoğu projede backlink çalışmaları ad-hoc ilerliyor; silo/hub bazlı 6–12 aylık plan yapılmadığı için otorite “yanlış sayfalarda” birikiyor veya ölçülemiyor. Roadmap yaklaşımı; hedef URL stratejisi, kaynak karması ve KPI raporlamayı tek çerçevede birleştirerek “rastgele büyüme”yi “kontrollü otorite inşası”na çevirir."
           },
           {
+            "type": "p",
+            "text": "[profesyonel Backlink Yönetimi ve roadmap planlama](/tr/seo/backlink-yonetimi) desteği gerektiğinde, karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -65389,7 +65685,7 @@
             "variant": "primary",
             "label": "Backlink Roadmap & Otorite Planı Analizi Talep Et",
             "text": "6–12 ay planı, sprint ve KPI’larla yönetmek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -65516,7 +65812,11 @@
           "90 günlük sprint planı, asset ve kaynak türleriyle eşleştirildi",
           "30/60/90 KPI rapor döngüsü kuruldu",
           "Site geçişi / URL değişimi / büyük yeniden yapılanma takvime işlendi",
-          "Algoritma güncellemeleri raporda notla ayrıştırılacak şekilde planlandı"
+          "Algoritma güncellemeleri raporda notla ayrıştırılacak şekilde planlandı",
+          "Primary CTA hedefi: /tr/seo/backlink-yonetimi",
+          "Secondary CTA türü: Download Asset",
+          "Secondary CTA hedefi: /downloads/6-12-aylik-backlink-roadmap-sablonu-v1.0.pdf",
+          "İç link hedefleri: /tr/seo-hizmetleri, /tr/seo/backlink-yonetimi, /tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi, /tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi, /tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir, /tr/seo/icerik-seo, /tr/raporlama/benchmark-analizi, /tr/seo/seo-raporlama, /tr/seo/backlink-yonetimi-sss"
         ]
       }
     }
@@ -65570,7 +65870,7 @@
     },
     "h1": {
       "title": "Guest Post Stratejisi: Editorial İçerik mi, Sponsorlu İçerik mi?",
-      "intro": "Guest post, SEO dünyasında iki farklı şekilde yaşanıyor: Birincisi gerçek editoryal iş birlikleri; ikincisi “paket halinde link satışı” gibi çalışan düşük kaliteli ağlar. İkisi aynı şey değil. Otel ve B2B markalar için sürdürülebilir yaklaşım; guest post’u bir “link satın alma taktiği” değil, uzmanlık gösterimi + okuyucu faydası + ilişki bazlı yayıncılık olarak kurgulamaktır. Sponsorlu içerik tarafında ise şeffaflık ve uyum (rel nitelikleri) kritik hâle gelir. Bu rehber, editorial vs sponsorlu farkını netleştirir, rel=“sponsored”/“ugc” kullanımını doğru çerçeveye oturtur ve guest post’u 6–12 aylık roadmap içinde güvenli bir yere yerleştirir.",
+      "intro": "Guest post, SEO dünyasında iki farklı şekilde yaşanıyor: Birincisi gerçek editoryal iş birlikleri; ikincisi “paket halinde link satışı” gibi çalışan düşük kaliteli ağlar. İkisi aynı şey değil. Otel ve B2B markalar için sürdürülebilir yaklaşım; [guest post stratejisi](/tr/seo/backlink-yonetimi) içinde bunu bir “link satın alma taktiği” değil, uzmanlık gösterimi + okuyucu faydası + ilişki bazlı yayıncılık olarak kurgulamaktır. Sponsorlu içerik tarafında ise şeffaflık ve uyum (rel nitelikleri) kritik hâle gelir. Bu rehber, editorial vs sponsorlu farkını netleştirir, rel=“sponsored”/“ugc” kullanımını doğru çerçeveye oturtur ve guest post’u 6–12 aylık roadmap içinde güvenli bir yere yerleştirir.",
       "quickSummary": [
         "1) Guest post’u link paketi değil, uzmanlık ve okuyucu faydası üzerinden değerlendir",
         "2) Editorial guest post ile sponsorlu içeriği net şekilde ayır",
@@ -65581,14 +65881,14 @@
       "ctaPrimary": {
         "label": "Guest Post & İçerik İşbirliği Analizi Talep Et",
         "text": "Yayın havuzunuzu kalite/uyum açısından sınıflandırıp güvenli bir iş birliği planı çıkarmak isteyenler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Guest Post & İçerik İşbirliği Analizi Talep Et",
         "text": "Editoryal iş birliği mi, sponsorlu içerik mi kararını güvenli vermek isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Guest Post Değerlendirme & rel Niteliği Checklist’ini İndir",
@@ -65598,26 +65898,50 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Outreach E-posta ve İlişki Bazlı Link Building",
+        "href": "/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
+      },
+      {
+        "label": "rel sponsored, rel UGC ve nofollow Link Atributleri",
+        "href": "/tr/seo/blog/rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir"
+      },
+      {
+        "label": "Stratejik Link Building İçin Dijital PR ve İçerik",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
-        "href": "/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+        "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+        "href": "/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
       },
       {
-        "title": "Negatif SEO: Zararlı Link Saldırıları ve Marka Koruma",
-        "href": "/seo/blog/negatif-seo-zararli-link-saldirilari-ve-marka-koruma"
+        "title": "rel sponsored, rel UGC ve nofollow Link Atributleri Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir"
+      },
+      {
+        "title": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
       }
     ],
     "sections": [
@@ -65632,6 +65956,10 @@
           {
             "type": "p",
             "text": "Guest post, bir markanın/kisinin başka bir yayında konuk yazar olarak içerik üretmesidir. Temel amaç; o yayının okuyucusuna değer sunmak, uzmanlık göstermek ve bazen doğal olarak referans (backlink) kazanmaktır. Sorun, guest post’un “her yayında, her konuda, her anchor’la link koyma” paketine dönüşmesinde başlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi [SEO hizmetleri içinde guest post ve link building](/tr/seo-hizmetleri) olarak okumak gerekir; çünkü guest post yalnızca backlink alma işi değil, içerik kalitesi, yayıncı ilişkisi, şeffaflık ve off-page stratejinin birleşimidir."
           },
           {
             "type": "h3",
@@ -65677,6 +66005,10 @@
           {
             "type": "p",
             "text": "Editorial guest post, yayıncının editoryal sürecinden geçen, konu uyumlu ve okuyucu faydası yüksek içeriktir. Sponsorlu içerik ise bir iş birliği/reklam ilişkisinin parçasıdır; şeffaflık ve uygun işaretleme gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurgulanan [editorial guest post](/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi), dijital PR ve içerik desteğiyle yalnız link değil; marka güveni, görünürlük ve doğal referans kazanımı da üretir."
           },
           {
             "type": "h3",
@@ -65784,6 +66116,10 @@
             "text": "Rel nitelikleri, linkin doğasını arama motorlarına anlatmaya yarar. Buradaki kritik yaklaşım: şeffaflık. Sponsorlu iş birliği veya kullanıcı üretimi içeriklerde uygun rel kullanımı, risk azaltma açısından önemlidir."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı [sponsorlu içerik ve rel sponsored kullanımı](/tr/seo/blog/rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir) üzerinden netleştirmek, guest post ile reklam ilişkisini teknik ve etik olarak doğru sınıflandırmanıza yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "AEO – rel=“sponsored” ve rel=“ugc” ne zaman kullanılmalı? (Q&A)"
           },
@@ -65830,6 +66166,11 @@
               "“rel var diye her şey serbest” sanmayın; kalite ve alaka yine şart."
             ]
           }
+          ,
+          {
+            "type": "p",
+            "text": "Ayrıca [rel sponsored teknik kontrolü](/tr/seo/teknik-seo), canonical, indexlenebilirlik ve attribute kullanımının yayın sonrasında da doğru kaldığını doğrulamak için önemlidir."
+          }
         ]
       },
       {
@@ -65861,6 +66202,10 @@
               "Yayın “guest post çiftliği” gibi çalışıyorsa",
               "Aynı anchor ile seri link dayatılıyorsa"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu fırsatları değerlendirirken [ilişki bazlı guest post outreach’i](/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building), kişiselleştirilmiş konu önerisi ve gerçek değer sunma mantığıyla ilerlemeyi gerektirir; toplu spam yaklaşımı burada ters etki yaratır."
           },
           {
             "type": "h3",
@@ -65910,6 +66255,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, yerel pazarda sık görülen “paket guest post” problemine karşı karar çerçevesidir."
+          },
+          {
+            "type": "p",
+            "text": "Yayına sunulan metnin gerçekten [editoryal değer odaklı içerik üretimi](/tr/seo/icerik-seo) taşıması gerekir; aksi halde guest post, okuyucuya değer sunan bir içerik değil yalnızca yapay bir link taşıyıcısı gibi görünür."
           },
           {
             "type": "h3",
@@ -66003,6 +66352,10 @@
             "text": "Key Statistics / Data Point (soft claim): Rel niteliği ve yayın kalitesine dikkat edilen guest post çalışmalarında, manuel işlem riskinin ciddi ölçüde azaldığı gözleniyor."
           },
           {
+            "type": "p",
+            "text": "[profesyonel Backlink Yönetimi ve guest post stratejisi](/tr/seo/backlink-yonetimi) desteği gerektiğinde, karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -66015,7 +66368,7 @@
             "variant": "primary",
             "label": "Guest Post & İçerik İşbirliği Analizi Talep Et",
             "text": "Yayın havuzunu temizleyip editoryal iş birliklerini güvenli şekilde ölçeklemek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -66141,7 +66494,11 @@
           "Yayınların niş alaka, editoryal süreç ve outbound link yoğunluğu kontrol edildi",
           "Guest post hedef URL’leri hub/kanıt sayfalarıyla eşleştirildi",
           "Anchor tekrarları ve link satışı çiftliği riskleri filtrelendi",
-          "Referral kalite, marka araması ve cluster görünürlük KPI’ları rapora eklendi"
+          "Referral kalite, marka araması ve cluster görünürlük KPI’ları rapora eklendi",
+          "Primary CTA hedefi: /tr/seo/backlink-yonetimi",
+          "Secondary CTA türü: Download Asset",
+          "Secondary CTA hedefi: /downloads/guest-post-degerlendirme-rel-niteligi-checklist-v1.0.pdf",
+          "İç link hedefleri: /tr/seo-hizmetleri, /tr/seo/backlink-yonetimi, /tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building, /tr/seo/blog/rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir, /tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi, /tr/seo/icerik-seo, /tr/seo/teknik-seo, /tr/seo/backlink-yonetimi-sss"
         ]
       }
     }
@@ -66196,7 +66553,7 @@
     },
     "h1": {
       "title": "Rakip Backlink Gap Analizi: Rakiplerin Aldığı Linklerden Nasıl Fırsat Çıkarırsınız?",
-      "intro": "Backlink stratejisinde “fırsat buldukça link alalım” yaklaşımı çoğu zaman verimsizdir; çünkü hedefleme rastgele olur. Rakip backlink gap analizi ise tam tersini yapar: halihazırda sektörünüzde link veren kaynakları tespit eder ve size “nereden başlayacağınızı” söyler. Özellikle otellerde destinasyon portalları, rehber listeleri ve yerel medya; B2B’de sektör yayınları, partner sayfaları ve uzman içerikleri; rakip analizinde çok hızlı görünür olur. Bu rehberde 1–3 rakip seçimi, araç seti, “rakipte var bizde yok” filtresi, fırsat puanlama ve outreach planına dönüştürme adımlarını uçtan uca anlatacağım.",
+      "intro": "Backlink stratejisinde “fırsat buldukça link alalım” yaklaşımı çoğu zaman verimsizdir; çünkü hedefleme rastgele olur. Bu [backlink gap analizi](/tr/seo/backlink-yonetimi), tam tersini yapar: halihazırda sektörünüzde link veren kaynakları tespit eder ve size “nereden başlayacağınızı” söyler. Özellikle otellerde destinasyon portalları, rehber listeleri ve yerel medya; B2B’de sektör yayınları, partner sayfaları ve uzman içerikleri; rakip analizinde çok hızlı görünür olur. Bu rehberde 1–3 rakip seçimi, araç seti, “rakipte var bizde yok” filtresi, fırsat puanlama ve outreach planına dönüştürme adımlarını uçtan uca anlatacağım.",
       "quickSummary": [
         "1) Aynı pazar, aynı dil/ülke ve aynı cluster’daki 1–3 rakibi seç",
         "2) Rakiplerin link aldığı ama sizde olmayan kaynakları çıkar",
@@ -66207,14 +66564,14 @@
       "ctaPrimary": {
         "label": "Rakip Backlink Gap Analizi Talep Et",
         "text": "Rakiplerin link kaynaklarını temiz bir fırsat listesine çevirip 90 günlük uygulama planı çıkarmak isteyenler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Rakip Backlink Gap Analizi Talep Et",
         "text": "Rakiplerin link kaynaklarını hızlıca fırsat listesine çevirmek isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Rakip Backlink Gap → Fırsat & Outreach Şablonunu İndir",
@@ -66224,26 +66581,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Outreach E-posta ve İlişki Bazlı Link Building",
+        "href": "/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
+      },
+      {
+        "label": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+      },
+      {
+        "label": "Turizm ve Destinasyon Odaklı Backlink Fırsatları",
+        "href": "/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
-        "href": "/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+        "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+        "href": "/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
       },
       {
-        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI",
-        "href": "/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+      },
+      {
+        "title": "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+        "href": "/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
       }
     ],
     "sections": [
@@ -66258,6 +66643,10 @@
           {
             "type": "p",
             "text": "Gap analizi, rakiplerinizin link aldığı ama sizin almadığınız kaynakları sistematik biçimde çıkarma yöntemidir. Buradaki mantık basit: Eğer bir yayın/portal/rehber rakibinize link verdiyse, sektörünüzde link verme davranışı vardır; siz de doğru içerik ve değer önerisiyle bu kaynakta yer alabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [SEO hizmetleri içinde rakip backlink kaynakları analizi](/tr/seo-hizmetleri), yalnızca rakibin linklerini listelemek değil; tekrar eden yayınları, kaliteli kaynakları ve prospect adaylarını ayıran bir competitor link gap süreci kurmak anlamına gelir."
           },
           {
             "type": "h3",
@@ -66322,6 +66711,10 @@
             "text": "Araç seçiminde amaç “listeyi çekmek” değil, listeyi temizlemek ve sınıflandırmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [rakip backlink benchmark analizi](/tr/raporlama/benchmark-analizi), hangi kaynakların gerçekten sektörel bir fırsat, hangilerinin yalnızca tekil bir rakip avantajı olduğunu ayırt etmeyi kolaylaştırır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -66363,6 +66756,10 @@
           {
             "type": "p",
             "text": "Gap’in çıktısı bir “prospect list”tir. İşin püf noktası: sadece domain değil, hangi sayfa link almış ve link hangi bağlamda verilmiş?"
+          },
+          {
+            "type": "p",
+            "text": "Bu listeyi gerçek aksiyona çevirmek için [prospect listesi oluşturma](/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building), yayıncı adaylarını sadece toplamakla kalmayıp doğru hedef URL ve doğru değer önerisiyle outreach akışına bağlamayı gerektirir."
           },
           {
             "type": "h3",
@@ -66465,6 +66862,10 @@
             "text": "Fırsatı sınıflandırmak, hem hız hem risk yönetimi sağlar. En pratik sınıflar:"
           },
           {
+            "type": "p",
+            "text": "Buradaki [link fırsat çıkarma](/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani) mantığı, bulunan kaynakları tek seferlik fırsat gibi değil; kalite, zorluk ve sektör alaka düzeyine göre 6–12 aylık plana yerleştirmek üzerine kurulmalıdır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -66529,6 +66930,10 @@
             "text": "Mini örnek: Rakibiniz Bodrum listelerinde yer alıyorsa, siz de “gastro/SPA/aile” konseptinizle aynı listelerde konumlanabilirsiniz; ana farkı “kanıt”la koyun (ödül, deneyim, veri)."
           },
           {
+            "type": "p",
+            "text": "Özellikle [turizm backlink fırsatları](/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari), rakip otellerin aldığı destinasyon portalları, yerel medya ve seyahat rehberi kaynaklarını sektör mantığıyla ayrıştırmayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "B2B (sektör yayınları ve partnerlik)"
           },
@@ -66545,6 +66950,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Rakip bir “benchmark analizi” içeriğiyle link alıyorsa, siz daha iyi bir “şablon + case” paketi sunarak aynı kaynağa girebilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı [otel SEO’da rakip backlink kaynakları](/tr/otel/seo) üzerinden okumak, destinasyon görünürlüğü ve konsept sayfaları için hangi kaynakların gerçekten işe yaradığını daha net gösterir."
           },
           {
             "type": "h3",
@@ -66599,6 +67008,14 @@
             "text": "Key Statistics / Data Point (soft claim): Gerçek gap analizi ve uygulaması yapılan hesaplarda, az sayıda ama “tam isabetli” kaynaklardan gelen linklerin otoriteyi anlamlı ölçüde yükselttiği raporlanıyor."
           },
           {
+            "type": "p",
+            "text": "Uygulama sonrasında [backlink fırsatlarını SEO raporlamasında izlemek](/tr/seo/seo-raporlama), hangi prospect kümelerinin linke, hangi linklerin görünürlük ve referral etkisine dönüştüğünü düzenli olarak görmenizi sağlar."
+          },
+          {
+            "type": "p",
+            "text": "[profesyonel Backlink Yönetimi ve rakip backlink gap analizi](/tr/seo/backlink-yonetimi) desteği gerektiğinde, karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -66615,7 +67032,7 @@
             "variant": "primary",
             "label": "Rakip Backlink Gap Analizi Talep Et",
             "text": "Rakip kaynaklarını temiz fırsat listesine çevirip 90 günlük planı çıkarmak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -66739,7 +67156,11 @@
           "Kaynaklar PR/Blog/Rehber/Portal/Partner türlerine göre sınıflandırıldı",
           "Fırsatlar alaka, otorite, kolaylık ve iş etkisiyle puanlandı",
           "İlk 20 fırsat outreach pipeline’a aktarıldı",
-          "30/60/90 gün KPI rapor döngüsü planlandı"
+          "30/60/90 gün KPI rapor döngüsü planlandı",
+          "Primary CTA hedefi: /tr/seo/backlink-yonetimi",
+          "Secondary CTA türü: Download Asset",
+          "Secondary CTA hedefi: /downloads/rakip-backlink-gap-firsat-outreach-sablonu-v1.0.pdf",
+          "İç link hedefleri: /tr/seo-hizmetleri, /tr/seo/backlink-yonetimi, /tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building, /tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani, /tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari, /tr/raporlama/benchmark-analizi, /tr/seo/seo-raporlama, /tr/otel/seo, /tr/seo/backlink-yonetimi-sss"
         ]
       }
     }
@@ -66794,7 +67215,7 @@
     },
     "h1": {
       "title": "Backlink Yönetiminde Ajans Seçimi, SLA ve Raporlama Kriterleri",
-      "intro": "Backlink hizmeti satın almak, “paket link” alıp geçmek değildir; aslında bir otorite ve risk yönetimi işidir. Otellerde destinasyon ve konsept sayfaları, B2B’de hizmet ve case sayfaları doğru büyütülmezse linkler ya boşa gider ya da risk üretir. Bu yüzden ajans seçimini “kaç link” vaadiyle değil; yöntem, kaynak şeffaflığı, SLA (Service Level Agreement) ve raporlama standardı üzerinden yapmak gerekir. Bu rehber, hangi soruların sorulacağını, SLA’da hangi maddelerin olacağını ve aylık raporun nasıl görünmesi gerektiğini pratik bir çerçeveyle anlatır.",
+      "intro": "Backlink hizmeti satın almak, “paket link” alıp geçmek değildir; aslında bir otorite ve risk yönetimi işidir. Otellerde destinasyon ve konsept sayfaları, B2B’de hizmet ve case sayfaları doğru büyütülmezse linkler ya boşa gider ya da risk üretir. Bu yüzden [backlink ajansı seçimi](/tr/seo/backlink-yonetimi) kararını “kaç link” vaadiyle değil; yöntem, kaynak şeffaflığı, SLA (Service Level Agreement) ve raporlama standardı üzerinden yapmak gerekir. Bu rehber, hangi soruların sorulacağını, SLA’da hangi maddelerin olacağını ve aylık raporun nasıl görünmesi gerektiğini pratik bir çerçeveyle anlatır.",
       "quickSummary": [
         "1) Ajansı link sayısı vaadiyle değil, yöntem ve kaynak şeffaflığıyla değerlendir",
         "2) Kabul/ret kriterlerini ve redline maddelerini yazılı hale getir",
@@ -66805,14 +67226,14 @@
       "ctaPrimary": {
         "label": "Backlink Ajansı & SLA Analizi Talep Et",
         "text": "Mevcut teklifleri kalite ve risk açısından kıyaslayıp doğru sözleşme maddelerini netleştirmek isteyen markalar için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Backlink Ajansı & SLA Analizi Talep Et",
         "text": "Yöntem, kaynak şeffaflığı ve SLA ile risk yönetimini netleştirmek isteyen otel/B2B markalar için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Backlink Ajansı Değerlendirme & SLA Şablonunu İndir",
@@ -66822,26 +67243,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Backlink Çalışmalarının Etkisini Ölçmek",
+        "href": "/tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+      },
+      {
+        "label": "Backlink Roadmap",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+      },
+      {
+        "label": "Guest Post Stratejisi",
+        "href": "/tr/seo/blog/guest-post-stratejisi-editorial-mi-sponsorlu-mu"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı",
-        "href": "/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI’ları",
+        "href": "/tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
       },
       {
-        "title": "Rakip Backlink Gap Analizi ile Link Fırsatları",
-        "href": "/seo/blog/rakip-backlink-gap-analizi-ve-firsat-cikarma"
+        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı Nasıl Çıkarılır?",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+      },
+      {
+        "title": "Guest Post Stratejisi: Editorial İçerik mi, Sponsorlu İçerik mi?",
+        "href": "/tr/seo/blog/guest-post-stratejisi-editorial-mi-sponsorlu-mu"
       }
     ],
     "sections": [
@@ -66856,6 +67305,10 @@
           {
             "type": "p",
             "text": "Ajansın rolü sadece link “bulmak” değildir; doğru hedef URL’lere, doğru kaynak tiplerinden, doğru bağlamla link kazandırmak ve bunu ölçmektir. Yapmaması gereken ise “metrik ekranı” büyütmek için kaliteyi düşüren, şeffaf olmayan yöntemlere başvurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [SEO hizmetleri içinde backlink SLA ve raporlama](/tr/seo-hizmetleri), backlink yönetimini tek seferlik link alımından ayıran temel yönetişim katmanıdır."
           },
           {
             "type": "h3",
@@ -67018,6 +67471,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle [guest post ve sponsorlu içerik şeffaflığı](/tr/seo/blog/guest-post-stratejisi-editorial-mi-sponsorlu-mu) net değilse, editoryal görünüm ile ücretli yerleşim arasındaki çizgi hızla bulanıklaşır."
+          },
+          {
+            "type": "p",
+            "text": "Sağlıklı bir [link hizmeti denetimi](/tr/veri-analiz-ve-raporlama), kaynak tipi, anchor dağılımı, hedef URL ve risk seviyesini aynı tabloda okuyabildiğinizde mümkündür."
+          },
+          {
             "type": "table",
             "caption": "Tablo: Ajans seçim kriterleri tablosu",
             "headers": [
@@ -67096,6 +67557,10 @@
             "text": "SLA, “sözleşme dili” ile kaliteyi korur. Link sayısı tek başına SLA maddesi olmamalı; çünkü kaliteyi geri plana iter. SLA’da üç katman olmalı: kabul kriterleri, yasaklar (redline), ölçüm/KPI."
           },
           {
+            "type": "p",
+            "text": "Buna ek olarak yazılı bir [6–12 aylık backlink roadmap](/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani), teslimat temposunu, hedef sayfa önceliklerini ve risk limitlerini daha anlaşılır hale getirir."
+          },
+          {
             "type": "h3",
             "text": "SLA zorunlu maddeler (öneri)"
           },
@@ -67165,6 +67630,14 @@
           {
             "type": "p",
             "text": "Aylık rapor “DA/DR yükseldi” sunumu değil; operasyon + sonuç raporu olmalı. Minimum rapor katmanları:"
+          },
+          {
+            "type": "p",
+            "text": "Doğru [backlink raporlama kriterleri](/tr/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi), sadece domain metriğini değil hedef URL performansını ve iş etkisini birlikte göstermelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [backlink raporlarını performans raporlaması standardına bağlamak](/tr/sem/reklam-raporlama), yönetim tarafında okunabilir ve aksiyona dökülebilir çıktı üretmek için önemlidir."
           },
           {
             "type": "h3",
@@ -67253,6 +67726,14 @@
             "text": "Birçok marka backlink hizmetini “paket link” olarak satın alıyor; yöntem, kaynak ve SLA net olmadığı için risk sonradan ortaya çıkıyor. Bu rehberin farkı; ajans seçimini yönetim standardına bağlamasıdır: şeffaflık, redline, hedef URL stratejisi ve rapor formatı olmadan işe başlamayın."
           },
           {
+            "type": "p",
+            "text": "Özellikle [otel markaları için backlink ajansı seçimi](/tr/otel-dijital-pazarlama), destinasyon görünürlüğü, sezon kampanyaları ve rezervasyon hedefleriyle birlikte değerlendirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Teklifleri yöntem şeffaflığı, redline, KPI ve rapor standardı üzerinden kıyaslamak istiyorsanız, [profesyonel Backlink Yönetimi ve SLA odaklı süreç](/tr/seo/backlink-yonetimi) yaklaşımına bakabilir; karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) bölümünden çerçeveyi netleştirebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -67269,7 +67750,7 @@
             "variant": "primary",
             "label": "Backlink Ajansı & SLA Analizi Talep Et",
             "text": "Mevcut teklifleri kalite/uyum açısından değerlendirmek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -67345,11 +67826,11 @@
               "Buraya: Checklist — 1:1 — “Ajans brifing kartı”",
               "Buraya: Proof — 1:1 — “SLA deliverables kartı”"
             ],
-            "href": "/downloads/backlink-ajansi-degerlendirme-sla-sablonu-v1.0.pdf",
-            "buttonLabel": "Şablonu İndir"
-          }
-        ]
-      }
+      "href": "/downloads/backlink-ajansi-degerlendirme-sla-sablonu-v1.0.pdf",
+      "buttonLabel": "Şablonu İndir"
+    }
+  ]
+}
     ],
     "faqTitle": "Sık Sorulan Sorular",
     "faq": [
@@ -67450,7 +67931,7 @@
     },
     "h1": {
       "title": "rel=“sponsored”, rel=“ugc” ve nofollow: Link Atributları Nasıl Doğru Kullanılır?",
-      "intro": "Bir içerik sayfası düşünün: hem editoryal referanslar var, hem sponsorlu bir iş birliği var, hem de yorum alanında kullanıcı link bırakıyor. Hepsi “link” ama hepsinin doğası aynı değil. İşte rel nitelikleri, tam bu ayrımı arama motorlarına ve risk yönetimine “etiket” olarak taşır. Türkiye’de hâlâ birçok sitede sponsorlu/affiliate linklerin hiç rel niteliği olmadan “follow” bırakılması, orta–uzun vadede gereksiz risk üretebilir. Bu rehber; rel=“nofollow”, rel=“sponsored”, rel=“ugc” kavramlarını netleştirir, hangi senaryoda hangisini seçmeniz gerektiğini kod örnekleriyle gösterir ve ekip içinde standartlaştırabileceğiniz bir karar tablosu sunar.",
+      "intro": "Bir içerik sayfası düşünün: hem editoryal referanslar var, hem sponsorlu bir iş birliği var, hem de yorum alanında kullanıcı link bırakıyor. Hepsi “link” ama hepsinin doğası aynı değil. İşte rel nitelikleri, tam bu ayrımı arama motorlarına ve risk yönetimine “etiket” olarak taşır. Türkiye’de hâlâ birçok sitede sponsorlu/affiliate linklerin hiç rel niteliği olmadan “follow” bırakılması, orta–uzun vadede gereksiz risk üretebilir. Bu rehber, [link attribute kontrolü](/tr/seo/backlink-yonetimi) yaklaşımından başlayarak rel=“nofollow”, rel=“sponsored” ve rel=“ugc” kavramlarını netleştirir; hangi senaryoda hangisini seçmeniz gerektiğini kod örnekleriyle gösterir ve ekip içinde standartlaştırabileceğiniz bir karar tablosu sunar.",
       "quickSummary": [
         "1) Linkin editoryal, paid veya UGC doğasını ayır",
         "2) Sponsorlu/affiliate linklerde rel=“sponsored” kullan",
@@ -67461,14 +67942,14 @@
       "ctaPrimary": {
         "label": "Link Attribute & Uyum Analizi Talep Et",
         "text": "Sponsorlu/affiliate ve UGC linklerinin doğru etiketlenip etiketlenmediğini denetlemek isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Link Attribute & Uyum Analizi Talep Et",
         "text": "Sponsorlu/affiliate/UGC linklerde uyum ve risk yönetimini netleştirmek isteyen markalar için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "rel=“sponsored”/“ugc”/nofollow Kullanım Checklist’ini İndir",
@@ -67478,26 +67959,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Guest Post Stratejisi",
+        "href": "/tr/seo/blog/guest-post-stratejisi-editorial-mi-sponsorlu-mu"
+      },
+      {
+        "label": "Anchor Text Stratejisi ve Link Yerleşimi",
+        "href": "/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi"
+      },
+      {
+        "label": "Backlink Analizi, Audit ve Disavow Stratejisi",
+        "href": "/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "KVKK ve Veri Güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Yönetiminde Ajans Seçimi, SLA ve Raporlama Kriterleri",
-        "href": "/seo/blog/backlink-yonetiminde-ajans-secimi-sla-ve-raporlama-kriterleri"
+        "title": "Guest Post Stratejisi: Editorial İçerik mi, Sponsorlu İçerik mi?",
+        "href": "/tr/seo/blog/guest-post-stratejisi-editorial-mi-sponsorlu-mu"
       },
       {
-        "title": "Negatif SEO, Zararlı Link Saldırıları ve Marka Koruma",
-        "href": "/seo/blog/negatif-seo-zararli-link-saldirilari-ve-marka-koruma"
+        "title": "Anchor Text Stratejisi ve Link Yerleşimi: Otoriteyi Doğru Yere Nasıl Taşırsınız?",
+        "href": "/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi"
+      },
+      {
+        "title": "Backlink Analizi, Audit ve Disavow Stratejisi: Ne Zaman, Nasıl Yapılmalı?",
+        "href": "/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi"
       }
     ],
     "sections": [
@@ -67512,6 +68021,10 @@
           {
             "type": "p",
             "text": "Bu üç nitelik, linkin “neden orada olduğunu” anlatır. Birini seçmek, “SEO’yu kapatmak” değildir; bağlamı doğru etiketlemektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde link atributları](/tr/seo-hizmetleri), backlink kazanımından bağımsız değil; teknik uygunluk, sponsorlu içerik şeffaflığı ve risk yönetimiyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -67596,11 +68109,15 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Affiliate link: rel=“sponsored” (varsayılan doğru yaklaşım)",
+                "Affiliate link: rel=“sponsored” (varsayılan doğru yaklaşım)",
               "Sponsorlu makale içinde marka linki: rel=“sponsored”",
               "Reklam banner linki: rel=“sponsored”",
-              "Eğer link ayrıca kullanıcı üretimi alanda ise (örn. kullanıcı tarafından eklenen sponsor link): rel=“ugc sponsored” gibi kombinasyon mantığı devreye girebilir."
+                "Eğer link ayrıca kullanıcı üretimi alanda ise (örn. kullanıcı tarafından eklenen sponsor link): rel=“ugc sponsored” gibi kombinasyon mantığı devreye girebilir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [rel sponsored kullanımı](/tr/seo/blog/guest-post-stratejisi-editorial-mi-sponsorlu-mu), sponsorlu içerik, guest post ve editoryal içerik ayrımını netleştiren temel kontrol noktalarından biridir."
           },
           {
             "type": "h3",
@@ -67677,6 +68194,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı değerlendirirken [link atributları ve anchor text ilişkisi](/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi), bağlantının yalnızca teknik değil bağlamsal olarak da doğal olup olmadığını anlamanıza yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "İç link tarafında pratik kurallar"
           },
@@ -67718,6 +68239,10 @@
             "text": "Bir rehber içerikte örnek araçlara link veriyorsunuz. Eğer bir araçla affiliate anlaşmanız varsa “sponsored” kullanmanız gerekir; editoryal öneri gibi bırakmak risk üretir."
           },
           {
+            "type": "p",
+            "text": "Aynı zamanda yorum alanları, sponsorlu iş birlikleri ve editoryal içerikler arasında ayrım kurmak için [UGC ve sponsorlu içerik yönetimi](/tr/seo/icerik-seo) yaklaşımının içerik operasyonuna dahil edilmesi gerekir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -67750,6 +68275,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki snippet’ler, ekip içi standardı hızla oturtmak için. En iyi pratik: bir “component” (bileşen) mantığıyla sponsorlu linkleri tek bir fonksiyondan geçirmek (özellikle affiliate sitelerde)."
+          },
+          {
+            "type": "p",
+            "text": "Canlıya çıkan bu [link atributları](/tr/seo/teknik-seo), crawl, render ve kaynak kod seviyesinde teknik olarak doğrulanmadıkça doğru uygulandığından emin olmak zordur."
           },
           {
             "type": "h3",
@@ -67826,6 +68355,10 @@
             "text": "Rel kullanımı bir “etiketleme” katmanıdır; ama tek başına her şeyi çözmez. Risk yönetimi; içerik üretim süreci, sponsorlu ilişki şeffaflığı, UGC moderasyonu ve periyodik denetimle tamamlanır."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [backlink audit içinde link attribute kontrolü](/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi), yanlış işaretlenmiş sponsorlu linkleri, eksik UGC etiketlerini ve riskli dış bağlantıları düzenli olarak görünür kılar."
+          },
+          {
             "type": "h3",
             "text": "Operasyonel kontroller (minimum)"
           },
@@ -67857,6 +68390,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (soft claim): Google yönergeleri ve link spam güncellemeleri, rel niteliklerini doğru kullanan sitelerin uzun vadede daha düşük risk profiline sahip olabildiğini gösterir; bu yüzden “uyum” bir SEO yatırım sigortası gibi düşünülmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle yorum ve forum alanlarında [UGC linklerinde veri ve güvenlik kontrolü](/tr/raporlama/kvkk-veri-guvenligi), yalnızca SEO riski için değil kullanıcı katkıları ve platform sorumluluğu açısından da önem taşır."
           },
           {
             "type": "callout",
@@ -67901,7 +68438,7 @@
             "variant": "primary",
             "label": "Link Attribute & Uyum Analizi Talep Et",
             "text": "Sponsorlu/UGC linklerin doğru etiketlenip etiketlenmediğini kanıtlı biçimde denetlemek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -68073,11 +68610,15 @@
             "text": "Bu yaklaşım, sponsorlu/affiliate ilişkilerde şeffaflığı artırır, UGC kaynaklı riskleri azaltır ve backlink yönetimini denetlenebilir hâle getirir."
           },
           {
+            "type": "p",
+            "text": "Bu standardı operasyonel olarak kurmak isteyen ekipler için [profesyonel Backlink Yönetimi ve link attribute kontrolü](/tr/seo/backlink-yonetimi) yaklaşımı pratik bir çerçeve sunar; karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) bölümünden de sık görülen senaryoları netleştirebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Link Attribute & Uyum Analizi Talep Et",
             "text": "Sponsorlu/affiliate/UGC linklerde uyum ve risk yönetimini netleştirmek isteyen markalar için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -68196,7 +68737,7 @@
     },
     "h1": {
       "title": "AI Destekli Backlink Analizi ve Prospect Bulma: Link Building Sürecini Nasıl Hızlandırır?",
-      "intro": "Backlink operasyonunda en pahalı şey çoğu zaman “outreach maili” değil, o maili atacağınız doğru hedefi bulmak ve elemek için harcanan zamandır. AI destekli yaklaşım, backlink araçlarından aldığınız export’ları hızlıca sınıflandırır; sektöre uygun kaynakları öne çıkarır; riskli kaynakları “şüpheli” etiketiyle ayırır ve size bir outreach öncelik kuyruğu üretir. Ama kritik ayrım şu: AI hızlandırır, insan karar verir. Bu rehberde hibrit workflow’u kuracağız: export → AI sınıflandırma → skor → manuel örnekleme → outreach planı → KPI döngüsü.",
+      "intro": "Backlink operasyonunda en pahalı şey çoğu zaman “outreach maili” değil, o maili atacağınız doğru hedefi bulmak ve elemek için harcanan zamandır. [AI backlink analizi](/tr/seo/backlink-yonetimi) yaklaşımı, backlink araçlarından aldığınız export’ları hızlıca sınıflandırır; sektöre uygun kaynakları öne çıkarır; riskli kaynakları “şüpheli” etiketiyle ayırır ve size bir outreach öncelik kuyruğu üretir. Ama kritik ayrım şu: AI hızlandırır, insan karar verir. Bu rehberde hibrit workflow’u kuracağız: export → AI sınıflandırma → skor → manuel örnekleme → outreach planı → KPI döngüsü.",
       "quickSummary": [
         "1) Backlink export’unu tek formatta hazırla",
         "2) AI ile kaynak tipi, tema ve risk sınıflandırması yap",
@@ -68207,14 +68748,14 @@
       "ctaPrimary": {
         "label": "AI Destekli Backlink & Prospect Analizi Talep Et",
         "text": "Backlink export’larınızı hibrit modele göre sınıflandırıp “ilk 100 fırsat + risk listesi” çıkarmak isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI Destekli Backlink & Prospect Analizi Talep Et",
         "text": "Backlink hacmi yüksek otel/B2B projelerinde eleme ve önceliklendirmeyi hızlandırmak isteyenler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "AI + İnsan Hibrit Backlink Süreci Checklist’ini İndir",
@@ -68224,26 +68765,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Outreach E-posta ve İlişki Bazlı Link Building",
+        "href": "/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
+      },
+      {
+        "label": "Rakip Backlink Gap Analizi",
+        "href": "/tr/seo/blog/rakip-backlink-gap-analizi-ve-firsat-cikarma"
+      },
+      {
+        "label": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi",
+        "href": "/tr/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI",
-        "href": "/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+        "title": "Outreach E-posta ve İlişki Bazlı Link Building: Spam Değil, İlişki Kurmak",
+        "href": "/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building"
       },
       {
-        "title": "Backlink Yönetiminde Ajans Seçimi, SLA ve Raporlama Kriterleri",
-        "href": "/seo/blog/backlink-yonetiminde-ajans-secimi-sla-ve-raporlama-kriterleri"
+        "title": "Rakip Backlink Gap Analizi: Rakiplerin Aldığı Linklerden Nasıl Fırsat Çıkarırsınız?",
+        "href": "/tr/seo/blog/rakip-backlink-gap-analizi-ve-firsat-cikarma"
+      },
+      {
+        "title": "AI Destekli İçerik Üretimi ve İnsan Editörlük Dengesi Nasıl Kurulur?",
+        "href": "/tr/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi"
       }
     ],
     "sections": [
@@ -68258,6 +68827,10 @@
           {
             "type": "p",
             "text": "AI backlink analizi, temelde bir “etiketleme ve özetleme” motoru gibi düşünülmeli: ham backlink verisini (domain, sayfa, anchor, hedef URL, metrikler) alır; bunu belirli kurallarla kategorize eder ve karar vermenizi hızlandıracak bir özet üretir. En iyi kullanım; AI’yı “veri hazırlayan asistan” yapmak, “son kararı” insan filtresinde tutmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde hibrit backlink süreci](/tr/seo-hizmetleri), yalnızca veri hızlandırma aracı değil; kalite kontrolü, risk yönetimi ve uzman kararını birlikte taşıyan bir operasyon modeli olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -68297,6 +68870,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Burada [insan kontrolüyle backlink fırsatı seçimi](/tr/seo/blog/ai-destekli-icerik-uretimi-ve-insan-editorluk-dengesi), AI tarafından işaretlenen kaynakların alaka, güven ve marka uyumu filtresinden geçmesini sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -68329,6 +68906,10 @@
           {
             "type": "p",
             "text": "Prospect listesi, outreach’in hedef listesi demektir. AI burada iki şeyi hızlandırır: (1) aday havuzunu genişletir, (2) adayları “niş alaka” ve “fırsat tipi”ne göre gruplar. Yine de doğru süreç: “AI çıkarır → insan filtreler → outreach başlar”."
+          },
+          {
+            "type": "p",
+            "text": "Rakip export’larıyla çalışırken [AI ile rakip backlink gap analizi](/tr/seo/blog/rakip-backlink-gap-analizi-ve-firsat-cikarma), tekrar eden yayın tiplerini, erişilebilir kaynakları ve sektörel boşlukları daha hızlı ayırmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -68394,6 +68975,10 @@
           {
             "type": "p",
             "text": "AI’nın en işe yarar kullanım alanlarından biri, “riskli görünen kümeleri” hızlı ayırmaktır. Burada hedef, AI’ya “yargıç” rolü vermek değil; riskli kümeleri erken görüp insan incelemesini hızlandırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Sağlıklı bir [prospect scoring](/tr/veri-analiz-ve-raporlama) modeli; domain kalitesi, konu alaka düzeyi, trafik potansiyeli, risk seviyesi ve outreach uygunluğunu aynı karar setinde toplar."
           },
           {
             "type": "h3",
@@ -68465,6 +69050,10 @@
             "text": "AI’nın asıl kazancı, ekibin her gün “bugün kime yazacağım?” kararını otomatikleştirmesidir. Doğru kuyruk; “A sınıfı fırsat”ları önce gönderir, B’leri sıraya koyar, C’leri bekletir."
           },
           {
+            "type": "p",
+            "text": "Ancak listenin gerçek kazanıma dönüşmesi için [AI ile bulunan prospect listesini outreach’e aktarmak](/tr/seo/blog/outreach-e-posta-ve-iliski-bazli-link-building), kişiselleştirilmiş değer önerisi ve ilişki bazlı iletişim mantığıyla yürütülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Öncelik kuyruğu (A/B/C) mantığı"
           },
@@ -68532,6 +69121,10 @@
             "text": "AI destekli model, “hız” kadar “ölçek” için de işe yarar. Otellerde destinasyon ekosistemi geniş olduğu için; B2B’de ise sektör yayınları ve partner ağları genişlediği için; listeyi insanla yönetmek zorlaşır. Hibrit workflow burada fark yaratır."
           },
           {
+            "type": "p",
+            "text": "Sektör ölçeğinde [AI destekli backlink benchmark analizi](/tr/raporlama/benchmark-analizi), rakiplerin tekrar ettiği kaynak tiplerini ve erişilebilir fırsat kümelerini daha görünür hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Oteller (turizm) için 3 senaryo"
           },
@@ -68592,6 +69185,10 @@
             "text": "Bu içerik Trend olduğu için, operasyonel gerçekliği not etmek gerekir: AI araçları, fiyatlandırmalar ve arama yönergeleri zamanla değişebilir. Bu yüzden süreç “tek seferlik kurulum” değil, 6 ayda bir (180 gün) gözden geçirilen bir standarda bağlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Operasyon olgunlaştıkça [AI backlink fırsatlarını SEO raporlamasında izlemek](/tr/seo/seo-raporlama), hangi skorların gerçekten link kazanımına, referral trafiğe ve görünürlüğe dönüştüğünü daha net gösterir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -68624,7 +69221,7 @@
             "variant": "primary",
             "label": "AI Destekli Backlink & Prospect Analizi Talep Et",
             "text": "Export’larınızı hibrit modele göre sınıflandırıp “A sınıfı fırsat + risk” çıktısı almak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -68801,11 +69398,15 @@
             "text": "En güvenli model; AI’nın liste ve skor üretmesi, insanın alaka, itibar, gerçek trafik, marka riski ve outreach teklifini onaylamasıdır. Böylece backlink operasyonu hem ölçeklenebilir hem de denetlenebilir hâle gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı uygulamaya almak isteyen ekipler için [profesyonel Backlink Yönetimi ve hibrit backlink süreci](/tr/seo/backlink-yonetimi) daha kontrollü bir çerçeve sunar; karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfası da süreci netleştirmeye yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI Destekli Backlink & Prospect Analizi Talep Et",
             "text": "Backlink hacmi yüksek otel/B2B projelerinde eleme ve önceliklendirmeyi hızlandırmak isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -68926,7 +69527,7 @@
     },
     "h1": {
       "title": "Influencer ve Creator İşbirlikleri: Off-Page Otorite ve Backlink Potansiyeli",
-      "intro": "Influencer kampanyaları genelde “erişim ve etkileşim” odaklı kurgulanır: Reels, story, video… Oysa doğru planlandığında bu işbirlikleri; platform dışı blog yazıları, web sayfaları, podcast sayfaları ve “rehber/listicle” içeriklerde editoryal link veya en azından marka bahsi üreterek off-page otoriteyi büyütebilir. Buradaki hedef “link kovalamak” değil; kampanyayı kalıcı içerik varlıklarıyla destekleyip sosyal → SEO köprüsü kurmaktır. Bu rehberde hangi işbirliklerinin link fırsatı yarattığını, brief’te hangi SEO maddelerinin zorunlu olduğunu ve sponsorlu içeriklerde rel/disclosure uyumunu nasıl yöneteceğinizi anlatacağım.",
+      "intro": "Influencer kampanyaları genelde “erişim ve etkileşim” odaklı kurgulanır: Reels, story, video… Oysa doğru planlandığında bu işbirlikleri; platform dışı blog yazıları, web sayfaları, podcast sayfaları ve “rehber/listicle” içeriklerde editoryal link veya en azından marka bahsi üreterek off-page otoriteyi büyütebilir. Buradaki hedef [influencer SEO etkisi](/tr/seo/backlink-yonetimi) üzerinden “link kovalamak” değil; kampanyayı kalıcı içerik varlıklarıyla destekleyip sosyal → SEO köprüsü kurmaktır. Bu rehberde hangi işbirliklerinin link fırsatı yarattığını, brief’te hangi SEO maddelerinin zorunlu olduğunu ve sponsorlu içeriklerde rel/disclosure uyumunu nasıl yöneteceğinizi anlatacağım.",
       "quickSummary": [
         "1) Kampanyayı sadece sosyal erişim değil, off-page otorite yatırımı olarak kurgula",
         "2) Kalıcı web içerikleriyle link/mention fırsatı yarat",
@@ -68937,14 +69538,14 @@
       "ctaPrimary": {
         "label": "Influencer & Off-Page Otorite Strateji Analizi Talep Et",
         "text": "Creator kampanyasını SEO sinyallerine bağlayacak format ve brief’i netleştirmek isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Influencer & Off-Page Otorite Strateji Analizi Talep Et",
         "text": "Creator kampanyalarını SEO sinyallerine bağlayarak sürdürülebilir otorite üretmek isteyen markalar için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Influencer Kampanya Brief’ine Eklenebilir SEO Maddeleri Şablonunu İndir",
@@ -68954,26 +69555,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Stratejik Link Building İçin Dijital PR ve İçerik",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
+      },
+      {
+        "label": "Podcast ve Video Konukluğu ile Otorite ve Backlink",
+        "href": "/tr/seo/blog/podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi"
+      },
+      {
+        "label": "Turizm ve Destinasyon Odaklı Backlink Fırsatları",
+        "href": "/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
       },
       {
         "label": "Sosyal Medya Yönetimi",
-        "href": "/smm"
+        "href": "/tr/smm"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "rel sponsored / ugc / nofollow: Doğru Kullanım",
-        "href": "/seo/blog/rel-sponsored-rel-ugc-ve-nofollow-link-atributleri-nasil-kullanilir"
+        "title": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
       },
       {
-        "title": "AI Destekli Backlink Analizi ve Prospect Bulma",
-        "href": "/seo/blog/ai-destekli-backlink-analizi-ve-prospect-bulma"
+        "title": "Podcast ve Video Konukluğu ile Otorite ve Backlink Kazanımı",
+        "href": "/tr/seo/blog/podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi"
+      },
+      {
+        "title": "Turizm ve Destinasyon Odaklı Backlink Fırsatları: Oteller İçin Otorite Kanalları",
+        "href": "/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari"
       }
     ],
     "sections": [
@@ -68988,6 +69617,10 @@
           {
             "type": "p",
             "text": "Influencer işbirliği doğrudan “SEO linki” üretmeyebilir; ama üç kanaldan SEO’yu besleyebilir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde off-page otorite](/tr/seo-hizmetleri), influencer kampanyalarını yalnız erişim değil; marka bahsi, kalıcı içerik ve potansiyel kaynak gösterimi açısından da değerlendirmeyi gerektirir."
           },
           {
             "type": "list",
@@ -69021,6 +69654,10 @@
           {
             "type": "p",
             "text": "Bir creator’ın LinkedIn içeriğini, kendi blogunda “case/podcast notu”na çevirmesi; markanızın niş kitlede referans olmasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Dağıtım tarafında [influencer iş birliklerini sosyal medya stratejisine bağlamak](/tr/smm), kampanyanın yalnız anlık etkileşim üretmesini değil içerik ömrünü ve topluluk erişimini de büyütür."
           },
           {
             "type": "callout",
@@ -69057,6 +69694,10 @@
             "text": "Link fırsatı doğuran işbirlikleri, genelde “web üzerinde kalıcı içerik” üretir: blog yazısı, rehber sayfası, partner sayfası, podcast show-notes gibi."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [creator iş birlikleriyle dijital PR](/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi), marka görünürlüğünü yayıncı ilişkileri ve doğal kaynak gösterimi ihtimaliyle birleştiren en sağlıklı çerçevelerden biridir."
+          },
+          {
             "type": "h3",
             "text": "AEO – Hangi influencer içerikleri backlink fırsatı doğurur? (Q&A)"
           },
@@ -69078,6 +69719,10 @@
               "Case içerik (B2B’de çok güçlü)",
               "Ortak mini rapor/benchmark (linkable asset)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle podcast ve röportaj formatlarında [creator iş birliği backlink](/tr/seo/blog/podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi) potansiyeli, show-notes, konuk profil sayfası ve bölüm kaynakları üzerinden ortaya çıkar; burada mesele garanti link değil, editoryal kaynak gösterimi fırsatıdır."
           },
           {
             "type": "callout",
@@ -69108,6 +69753,10 @@
           {
             "type": "p",
             "text": "Her platform aynı link davranışını üretmez. Bu yüzden formatları “link alanı”na göre düşünmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Kampanya çıktısını kalıcı hale getirmek için [creator içeriklerinden link çeken içerik üretmek](/tr/seo/icerik-seo), blog özeti, röportaj sayfası, rehber veya case formatında ek varlıklar oluşturmayı gerektirir."
           },
           {
             "type": "h3",
@@ -69153,9 +69802,13 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Link alanı: show-notes (web sayfası), konuk profil sayfası, platform sayfaları",
-              "B2B’de SEO açısından en “temiz” otorite kanallarından biri olabilir"
+                "Link alanı: show-notes (web sayfası), konuk profil sayfası, platform sayfaları",
+                "B2B’de SEO açısından en “temiz” otorite kanallarından biri olabilir"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden podcast ve video konukluğu, creator görünürlüğünün kalıcı web varlıklarıyla nasıl desteklenebileceğini görmek için güçlü bir referans çerçevesi sunar."
           },
           {
             "type": "callout",
@@ -69308,6 +69961,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu modelde [turizm ve destinasyon odaklı creator fırsatları](/tr/seo/blog/turizm-ve-destinasyon-odakli-backlink-firsatlari), seyahat blogları, destinasyon rehberleri ve yerel yayınlarla daha doğal bir off-page görünürlük hattı kurar."
+          },
+          {
             "type": "h3",
             "text": "B2B (hizmet markaları)"
           },
@@ -69319,6 +69976,10 @@
               "Creator LinkedIn serisi + blog derlemesi (kalıcı içerik)",
               "Partner/komünite sayfalarında “uzman içerik” görünürlüğü"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle konaklama markalarında [otel pazarlamasında influencer görünürlüğü](/tr/otel-dijital-pazarlama), kampanya etkisini destinasyon talebi, marka güveni ve rezervasyon karar süreciyle daha doğrudan ilişkilendirir."
           },
           {
             "type": "callout",
@@ -69369,7 +70030,7 @@
             "variant": "primary",
             "label": "Influencer & Off-Page Otorite Strateji Analizi Talep Et",
             "text": "Kampanyayı otorite ve SEO sinyallerine bağlayacak planı netleştirmek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -69521,11 +70182,15 @@
             "text": "Bunun için kampanyayı baştan “sosyal + kalıcı içerik + doğru hedef URL + uyumlu linkleme + ölçüm” modeliyle planlamak gerekir. Böylece işbirliği tek seferlik görünürlükten çıkar, sürdürülebilir bir otorite yatırımına dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha planlı kurmak isteyen ekipler için [profesyonel Backlink Yönetimi ve creator iş birliği stratejisi](/tr/seo/backlink-yonetimi) daha net bir çerçeve sunar; değerlendirme öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfası da karar aşamasını destekler."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Influencer & Off-Page Otorite Strateji Analizi Talep Et",
             "text": "Creator kampanyalarını SEO sinyallerine bağlayarak sürdürülebilir otorite üretmek isteyen markalar için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -69643,7 +70308,7 @@
     },
     "h1": {
       "title": "Podcast ve Video Konukluğu ile Otorite ve Backlink Kazanımı",
-      "intro": "Podcast’e çıktınız, webinar paneline katıldınız, YouTube röportajı yaptınız… çoğu ekip burada duruyor: “güzel görünürlük aldık.” Oysa gerçek potansiyel, bölüm açıklaması linkleri + site içi embed + cluster bağlama ile ortaya çıkar. Çünkü bu konukluklar; hem markalı aramaları (brand search) hem de “referans trafik”i artırabilir; ayrıca show-notes / açıklama sayfalarında kalıcı link alanları yaratabilir. Bu rehberde, doğru yayın seçimi, doğru link yerleşimi, doğru hedef URL ve ölçüm kurgusuyla konukluğu “otorite yatırımına” çevireceğiz.",
+      "intro": "Podcast’e çıktınız, webinar paneline katıldınız, YouTube röportajı yaptınız… çoğu ekip burada duruyor: “güzel görünürlük aldık.” Oysa gerçek potansiyel, bölüm açıklaması linkleri + site içi embed + cluster bağlama ile ortaya çıkar. Çünkü bu konukluklar; hem markalı aramaları (brand search) hem de “referans trafik”i artırabilir; ayrıca show-notes / açıklama sayfalarında kalıcı link alanları yaratabilir. Bu rehberde, doğru yayın seçimi, doğru link yerleşimi, doğru hedef URL ve ölçüm kurgusuyla [podcast konukluğu backlink](/tr/seo/backlink-yonetimi) potansiyelini “otorite yatırımına” çevireceğiz.",
       "quickSummary": [
         "1) Konukluk konusunu hub/cluster stratejisine bağla",
         "2) Show-notes veya açıklama alanında doğru link setini hazırla",
@@ -69654,14 +70319,14 @@
       "ctaPrimary": {
         "label": "Podcast/Video Konukluk & Otorite Analizi Talep Et",
         "text": "Konukluklarınızı link/traffic/cluster etkisine bağlayacak planı netleştirmek isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Podcast/Video Konukluk & Otorite Analizi Talep Et",
         "text": "Konuklukları link/traffic/cluster etkisine bağlayarak otoriteyi büyütmek isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Konukluk Öncesi/Sonrası Link ve İçerik Checklist’ini İndir",
@@ -69671,26 +70336,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Influencer ve Creator İşbirlikleri",
+        "href": "/tr/seo/blog/influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli"
+      },
+      {
+        "label": "Unlinked Brand Mentions",
+        "href": "/tr/seo/blog/unlinked-brand-mentions-ve-marka-bahislerinden-backlink-kazanim"
+      },
+      {
+        "label": "Stratejik Link Building için Dijital PR ve İçerik",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
         "title": "Influencer ve Creator İşbirlikleri: Off-Page Otorite ve Backlink Potansiyeli",
-        "href": "/seo/blog/influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli"
+        "href": "/tr/seo/blog/influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli"
       },
       {
-        "title": "AI Destekli Backlink Analizi ve Prospect Bulma",
-        "href": "/seo/blog/ai-destekli-backlink-analizi-ve-prospect-bulma"
+        "title": "Unlinked Brand Mentions: Marka Bahislerinden Backlink Kazanımı",
+        "href": "/tr/seo/blog/unlinked-brand-mentions-ve-marka-bahislerinden-backlink-kazanim"
+      },
+      {
+        "title": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi"
       }
     ],
     "sections": [
@@ -69705,6 +70398,10 @@
           {
             "type": "p",
             "text": "Podcast konukluğu “tek başına link” değildir; ama SEO’ya üç kanaldan katkı verebilir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde thought leadership SEO](/tr/seo-hizmetleri), podcast ve video konukluklarını yalnız PR görünürlüğü değil; marka bahsi, referral trafik ve off-page otorite açısından da değerlendirmeyi gerektirir."
           },
           {
             "type": "list",
@@ -69738,6 +70435,10 @@
           {
             "type": "p",
             "text": "B2B marka “case analizi” webinarına çıkar; show-notes’ta case sayfasına link verir; lead form dönüşümüne destek olur."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [creator iş birlikleriyle podcast görünürlüğü](/tr/seo/blog/influencer-ve-creator-isbirlikleri-off-page-otorite-ve-backlink-potansiyeli), uzmanlık görünürlüğünü daha geniş bir off-page otorite akışına bağlamanın etkili yollarından biridir."
           },
           {
             "type": "callout",
@@ -69792,6 +70493,10 @@
             "text": "Soru: Hangi yayınlara konuk olmak daha değerli? Cevap: Hedef kitlenize hitap eden, web sayfasında show-notes/açıklama link alanı olan ve editoryal kalitesi yüksek yayınlar daha değerlidir; metrik tek başına belirleyici değildir."
           },
           {
+            "type": "p",
+            "text": "Benzer fırsatları sistemli görmek için [rakiplerin podcast ve video konukluklarını analiz etmek](/tr/raporlama/benchmark-analizi), hangi yayınların tekrar eden değer ürettiğini daha hızlı ortaya çıkarır."
+          },
+          {
             "type": "h3",
             "text": "Kısa seçim matrisi (0–2 puan)"
           },
@@ -69835,6 +70540,10 @@
           {
             "type": "p",
             "text": "Açıklama alanı, bu kanalın “SEO bağlantı noktası”dır. Hedef; 5 link koymak değil, 2–3 linkle net yönlendirme yapmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Açıklamada link eksikse ya da yalnızca marka adı geçiyorsa [podcast sonrası marka bahsi takibi](/tr/seo/blog/unlinked-brand-mentions-ve-marka-bahislerinden-backlink-kazanim), bu görünürlüğü sonradan backlink fırsatına çevirmenin en pratik yollarından biridir."
           },
           {
             "type": "h3",
@@ -69908,6 +70617,10 @@
             "text": "Bu, en çok kaçırılan fırsat: konukluğu sitede embed etmek ve cluster’a bağlamak. Böylece konukluk, sadece dış platformda kalmaz; sitenizde içerik varlığına dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu etkiyi kalıcı hale getirmek için [konukluk içeriğini SEO içeriğine dönüştürmek](/tr/seo/icerik-seo), transkript, özet yazı, rehber veya case formatında ek içerik varlıkları üretmeyi gerektirir."
+          },
+          {
             "type": "h3",
             "text": "Embed stratejisi (3 parça)"
           },
@@ -69959,6 +70672,10 @@
             "text": "Podcast/video konukluklarının çoğu “kişisel marka” üzerinden yürür. Bunu kurumsal otoriteye bağlamak için:"
           },
           {
+            "type": "p",
+            "text": "Bu yapı [podcast konukluğunu dijital PR stratejisine bağlamak](/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi) açısından değerlidir; çünkü uzman görünürlüğü doğru içerik ve yayın akışıyla doğal link earning potansiyeline dönüşebilir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -69970,6 +70687,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Otel genel müdürü “sürdürülebilirlik” konuştuysa, otelin ESG/yeşil uygulamalar sayfası linklenebilir; B2B’de kurucu “ölçümleme” konuştuysa case/raporlama sayfası hedeflenebilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle konaklama sektöründe [otel markaları için uzman görünürlüğü](/tr/otel-dijital-pazarlama), destinasyon anlatımı ve marka güvenini rezervasyon karar sürecine daha güçlü bağlar."
           },
           {
             "type": "callout",
@@ -70034,7 +70755,7 @@
             "variant": "primary",
             "label": "Podcast/Video Konukluk & Otorite Analizi Talep Et",
             "text": "Yayın listesi + link seti + embed/cluster planını birlikte tasarlamak isteyen ekipler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -70204,11 +70925,15 @@
             "text": "Bunun için yayın seçimini hedef kitle ve link alanına göre yapmak, açıklama linklerini hub + kanıt mantığıyla hazırlamak, yayın sonrası embed sayfası üretmek ve 30 günlük KPI döngüsüyle etkiyi ölçmek gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha planlı kurmak isteyen ekipler için [profesyonel Backlink Yönetimi ve podcast konukluğu stratejisi](/tr/seo/backlink-yonetimi) daha net bir çerçeve sunar; değerlendirme öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfası da karar aşamasını destekler."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Podcast/Video Konukluk & Otorite Analizi Talep Et",
             "text": "Konuklukları link/traffic/cluster etkisine bağlayarak otoriteyi büyütmek isteyen otel ve B2B ekipleri için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -70325,7 +71050,7 @@
     },
     "h1": {
       "title": "Backlink Graph ve Entity Bazlı Otorite: Geleceğin Link Sinyalleri",
-      "intro": "Backlink’ler uzun süre “kaç tane link aldık?” üzerinden konuşuldu. Bugün hâlâ link önemlidir; fakat değer giderek bağlam (context) ve entity ilişkisi üzerinden okunmaya başlıyor: kim, hangi konuda, kimlerle birlikte anılıyor ve hangi kaynaklar bunu doğruluyor? Bu perspektifte “backlink graph nedir?” sorusu, sadece teknik bir kavram değil; off-page stratejiyi uzun vadeli ve dayanıklı tasarlamanın anahtarıdır. Bu rehberde URL seviyesinden entity seviyesine geçişi, link–mention–citation karmasını ve otel/B2B için uygulanabilir bir “entity-first” planlama yaklaşımını adım adım kuracağız.",
+      "intro": "Backlink’ler uzun süre “kaç tane link aldık?” üzerinden konuşuldu. Bugün hâlâ link önemlidir; fakat değer giderek bağlam (context) ve entity ilişkisi üzerinden okunmaya başlıyor: kim, hangi konuda, kimlerle birlikte anılıyor ve hangi kaynaklar bunu doğruluyor? Bu perspektifte [backlink graph](/tr/seo/backlink-yonetimi) sorusu, sadece teknik bir kavram değil; off-page stratejiyi uzun vadeli ve dayanıklı tasarlamanın anahtarıdır. Bu rehberde URL seviyesinden entity seviyesine geçişi, link–mention–citation karmasını ve otel/B2B için uygulanabilir bir “entity-first” planlama yaklaşımını adım adım kuracağız.",
       "quickSummary": [
         "1) Backlink graph’ı sadece URL→URL değil, bağlam + entity ağı olarak oku",
         "2) Link, mention ve citation sinyallerini tek off-page planında birleştir",
@@ -70336,14 +71061,14 @@
       "ctaPrimary": {
         "label": "Entity & Topical Otorite Strateji Analizi Talep Et",
         "text": "Backlink’i entity ve konu kümeleri üzerinden yeniden kurgulamak isteyen otel/B2B ekipleri için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Entity & Topical Otorite Strateji Analizi Talep Et",
         "text": "Uzun vadeli, dayanıklı off-page otorite kurmak isteyen turizm ve B2B markalar için entity/topical haritanızı çıkaralım.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Entity + Backlink Graph Odaklı Link Planlama Şablonunu İndir",
@@ -70353,26 +71078,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Entity ve Anlamsal SEO",
+        "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
+      },
+      {
+        "label": "Backlink ve Citation Dengesi",
+        "href": "/tr/seo/blog/backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite"
+      },
+      {
+        "label": "SGE ve AI Answer",
+        "href": "/tr/seo/blog/sge-ai-answer-ve-icerik-seo-stratejisi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Podcast ve Video Konukluğu ile Otorite ve Backlink Kazanımı",
-        "href": "/seo/blog/podcast-ve-video-konuklugu-ile-otorite-ve-backlink-kazanimi"
+        "title": "Entity ve Anlamsal SEO: İçerikte Varlık Odaklı Yapısal Yaklaşım",
+        "href": "/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim"
       },
       {
-        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI",
-        "href": "/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+        "title": "Backlink ve Citation Dengesi: Yerel SEO ve Off-Page Otoriteyi Nasıl Birleştirirsiniz?",
+        "href": "/tr/seo/blog/backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite"
+      },
+      {
+        "title": "SGE, AI Answer ve İçerik SEO: Sayfalarınızı Yeni SERP Düzenine Nasıl Hazırlarsınız?",
+        "href": "/tr/seo/blog/sge-ai-answer-ve-icerik-seo-stratejisi"
       }
     ],
     "sections": [
@@ -70387,6 +71140,10 @@
           {
             "type": "p",
             "text": "Backlink graph, web’i bir “bağlantılar ağı” olarak ele alır: sayfalar arası linkler, markaların/kurumların (entity) birlikte anılma ilişkileri ve konu kümeleri aynı haritada düşünülür. Klasik bakışta link “A sayfası B sayfasına link verdi”dir. Graph bakışta ise soru şudur: “A, B’yi hangi bağlamda referans veriyor ve bu referans hangi konu otoritesini güçlendiriyor?”"
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde entity bazlı otorite](/tr/seo-hizmetleri), modern backlink yönetimini yalnız sayısal kazanımla değil; konu kümeleri, kaynak komşulukları ve bağlam tutarlılığıyla birlikte okumayı gerektirir."
           },
           {
             "type": "h3",
@@ -70432,6 +71189,10 @@
           {
             "type": "p",
             "text": "Domain otoritesi hâlâ bir sinyal katmanı olabilir; ama tek başına “konu otoritesi” üretmez. Entity düzeyi, markayı/kurumu “kimlik” olarak ele alır ve şu soruları güçlendirir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu bakışı içerikte somutlaştırmak için [entity bazlı otorite](/tr/seo/blog/entity-ve-anlamsal-seo-icerikte-varlik-odakli-yapisal-yaklasim), varlık ilişkilerini ve semantik bağlamı aynı plan içinde düşünmeyi kolaylaştırır."
           },
           {
             "type": "list",
@@ -70510,6 +71271,10 @@
             "text": "Bu üçü aynı yönde çalıştığında “bağlam tutarlılığı” artar."
           },
           {
+            "type": "p",
+            "text": "Pratikte [backlink ve citation dengesi](/tr/seo/blog/backlink-ve-citation-dengesi-yerel-seo-ve-off-page-otorite), özellikle yerel güven sinyalleri ile editoryal görünürlüğün aynı hikayeyi desteklemesini sağlar."
+          },
+          {
             "type": "h3",
             "text": "AEO – SGE/AI döneminde linkler tamamen önemsizleşecek mi? (Q&A)"
           },
@@ -70520,6 +71285,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel – yerel + global): Yerelde NAP tutarlılığı (citation) + destinasyon portallarında mention + birkaç editoryal link birleştiğinde hem local pack hem organik taraf daha dayanıklı olur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [AI Answer için entity bazlı otorite](/tr/seo/blog/sge-ai-answer-ve-icerik-seo-stratejisi), linklerin yalnızca kaynak değil cevaplanabilir içerik ve güvenilir bağlam üretme kapasitesiyle de değerlendirilmesini öne çıkarır."
           },
           {
             "type": "h3",
@@ -70559,6 +71328,10 @@
             "text": "Topical authority, belirli bir konu kümesinde (ör. “otel SEO”, “destinasyon rehberi”, “B2B raporlama”) tutarlı içerik ve referans üretmektir. Co-citation ise iki entity’nin aynı bağlamda sık birlikte anılmasıdır (link olsun ya da olmasın). İkisi birleşince şu olur: “Bu marka şu konunun doğal parçası.”"
           },
           {
+            "type": "p",
+            "text": "Bu kümeleri güçlendirmek için [topical authority link sinyalleri](/tr/seo/icerik-seo), hub ve cluster içeriklerin aynı tema altında düzenli biçimde desteklenmesini gerektirir."
+          },
+          {
             "type": "h3",
             "text": "Topical kümeler nasıl kurulur?"
           },
@@ -70585,6 +71358,10 @@
               "Destinasyon portalları / DMO içerikleri (otel için)",
               "Partner ve entegrasyon sayfaları (B2B için)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapının doğru URL’lere, sağlıklı internal link akışına ve tutarlı schema/canonical düzenine oturması için [backlink graph teknik SEO kontrolü](/tr/seo/teknik-seo) kritik destek katmanıdır."
           },
           {
             "type": "h3",
@@ -70700,6 +71477,10 @@
             "text": "Key Statistics / Data Point (yumuşak): Bazı Google patentleri ve sektör gözlemleri, linklerin giderek entity ve konu bağlamıyla birlikte değerlendirildiğini, salt “adet” odağının zayıfladığını işaret ediyor."
           },
           {
+            "type": "p",
+            "text": "Bu ilerlemeyi daha sağlıklı okumak için [entity bazlı otoriteyi SEO raporlamasında izlemek](/tr/seo/seo-raporlama), yalnız link sayısını değil cluster görünürlüğünü, marka aramalarını ve referral trafiği birlikte değerlendirmeyi sağlar."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -70748,7 +71529,7 @@
             "variant": "primary",
             "label": "Entity & Topical Otorite Strateji Analizi Talep Et",
             "text": "Entity/topical haritanızı çıkarıp 90 günlük uygulanabilir plan isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -70844,11 +71625,15 @@
             "text": "Bu yüzden geleceğe dönük off-page strateji; paket link, rastgele domain ve kısa vadeli adet hedefi yerine, hub/cluster mimarisiyle desteklenen, doğru entity komşuluklarında görünür olan ve 90 günlük ölçüm döngüsüyle yenilenen bir sistem olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi uygulamaya almak isteyen ekipler için [profesyonel Backlink Yönetimi ve entity bazlı otorite stratejisi](/tr/seo/backlink-yonetimi) daha net bir yol haritası sunar; değerlendirme öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfası da temel kararları netleştirmeye yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Entity & Topical Otorite Strateji Analizi Talep Et",
             "text": "Uzun vadeli, dayanıklı off-page otorite kurmak isteyen turizm ve B2B markalar için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -70966,7 +71751,7 @@
     },
     "h1": {
       "title": "Sıfır Bağlantılı Profilden Dengeli Otoriteye: Yeni Domain’ler İçin Backlink Stratejisi",
-      "intro": "Yeni domain açtığınızda (özellikle yeni bir otel sitesi veya yeni bir B2B marka sitesi), “hemen backlink alalım” refleksi çok yaygın. Problem şu: yeni domain’de arama motorlarının görmek istediği ilk şey “kaç link aldın” değil; güven, tutarlılık ve doğal büyüme. Erken dönemde agresif link paketleri, alakasız dizinler ve ani link patlamaları; faydadan çok risk üretebilir ve sonradan telafisi zor bir “otorite kalitesi” problemi doğurabilir. Bu rehber, sıfırdan başlayan bir alan adını 0–6 ay içinde güvenli biçimde büyütmek için; önce marka ve temel sinyalleri kuran, sonra niş ve kaliteli linklerle otoriteyi artıran bir yol haritası sunar.",
+      "intro": "Yeni domain açtığınızda (özellikle yeni bir otel sitesi veya yeni bir B2B marka sitesi), “hemen backlink alalım” refleksi çok yaygın. Problem şu: yeni domain’de arama motorlarının görmek istediği ilk şey “kaç link aldın” değil; güven, tutarlılık ve doğal büyüme. Erken dönemde agresif link paketleri, alakasız dizinler ve ani link patlamaları; faydadan çok risk üretebilir ve sonradan telafisi zor bir “otorite kalitesi” problemi doğurabilir. Bu [yeni domain backlink stratejisi](/tr/seo/backlink-yonetimi) rehberi, sıfırdan başlayan bir alan adını 0–6 ay içinde güvenli biçimde büyütmek için; önce marka ve temel sinyalleri kuran, sonra niş ve kaliteli linklerle otoriteyi artıran bir yol haritası sunar.",
       "quickSummary": [
         "1) İlk ay link hedefi değil, güven hedefi koyun",
         "2) 0–3 ayda teknik temel, marka güveni, GBP ve NAP/citation sinyallerini kurun",
@@ -70977,14 +71762,14 @@
       "ctaPrimary": {
         "label": "Yeni Domain Backlink Strateji Analizi Talep Et",
         "text": "Yeni domain’inize özel 0–6 ay off-page planı ve güvenli büyüme hedefi çıkarmak isteyen ekipler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yeni Domain Backlink Strateji Analizi Talep Et",
         "text": "Yeni açılan otel/B2B projelerinde 0–6 ay güvenli büyüme planı isteyenler için.",
-        "href": "/seo/backlink-yonetimi"
+        "href": "/tr/seo/backlink-yonetimi"
       },
       "secondary": {
         "label": "Yeni Domain 0–6 Ay Off-Page Planlama Şablonunu İndir",
@@ -70994,26 +71779,54 @@
     },
     "internalLinks": [
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Backlink Yönetimi",
+        "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Link Velocity ve Link Tarihi",
+        "href": "/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
+      },
+      {
+        "label": "Backlink Roadmap",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+      },
+      {
+        "label": "Backlink Temel Rehberi",
+        "href": "/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "href": "/tr/seo/teknik-seo"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Backlink Yönetimi SSS",
+        "href": "/tr/seo/backlink-yonetimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Backlink Graph ve Entity Bazlı Otorite: Geleceğin Link Sinyalleri",
-        "href": "/seo/blog/backlink-graph-ve-entity-bazli-otorite-gelecegin-link-sinyalleri"
+        "title": "Link Velocity ve Link Tarihi: Güvenli Büyüme Nasıl Planlanır?",
+        "href": "/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir"
       },
       {
-        "title": "Backlink Çalışmalarının Etkisini Ölçmek: Otorite, Trafik ve Gelir KPI",
-        "href": "/seo/blog/backlink-calismalarinin-etkisini-olcmek-otorite-trafik-ve-gelir-kpi"
+        "title": "Backlink Roadmap: 6–12 Aylık Otorite Planı Nasıl Çıkarılır?",
+        "href": "/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani"
+      },
+      {
+        "title": "Backlink Nedir, Neden Önemlidir? Oteller ve B2B Markalar İçin Temel Rehber",
+        "href": "/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber"
       }
     ],
     "sections": [
@@ -71028,6 +71841,10 @@
           {
             "type": "p",
             "text": "Yeni domain, iki açıdan dezavantajlıdır: (1) geçmiş sinyali yoktur (link history, marka araması, kullanıcı davranışı), (2) ani davranışlar daha “yapay” görünür. Bu, “hiç link alma” demek değildir; ama link kazanımını kanıtlı aktivite ve kademeli hız ile yönetmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde yeni site link planı](/tr/seo-hizmetleri), yeni domain’lerde backlink büyümesini teknik hazırlık, içerik kalitesi ve kontrollü hızla birlikte ele almayı gerektirir."
           },
           {
             "type": "h3",
@@ -71050,6 +71867,10 @@
           {
             "type": "p",
             "text": "Mini örnek : Yeni bir B2B ajans sitesi, “teknik SEO” hizmetinde görünür olmak ister; önce hizmet sayfası + kanıt (case) yoksa link, kalıcı performansa dönmeyebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu zemini sağlamlaştırmak için [backlink öncesi teknik SEO hazırlığı](/tr/seo/teknik-seo), indexlenebilirlik, canonical, yönlendirme ve crawl sağlığını backlink çalışmalarından önce netleştirmeye yardımcı olur."
           },
           {
             "type": "h3",
@@ -71095,6 +71916,10 @@
           {
             "type": "p",
             "text": "Soru: Yeni domain’lerde öncelikli off-page adımlar neler? Cevap: Önce marka ve güven sinyalleri (site, GBP, NAP/citation, tutarlı profiller), sonra kademeli şekilde niş ve kaliteli editoryal linkler; agresif paket linklerden kaçınma."
+          },
+          {
+            "type": "p",
+            "text": "Temeli netleştirmek isteyen ekipler için [yeni domain için backlink temeli](/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber), backlink mantığını off-page SEO içindeki rolüyle daha sade bir çerçevede açıklar."
           },
           {
             "type": "callout",
@@ -71145,6 +71970,10 @@
               "Link velocity: yumuşak artış, ani patlamadan kaçınma",
               "Hub hedef URL: ana sayfaya yığılmadan hub/konsept sayfaları besleme"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu ikinci fazı yazılı bir [yeni site link planı](/tr/seo/blog/backlink-roadmap-6-12-aylik-otorite-plani) içinde toplamak, aylık hedefleri ve kaynak çeşitliliğini daha gerçekçi yönetmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -71360,6 +72189,10 @@
             "text": "Risk yönetimi: Link velocity’yi yumuşak tutun; kampanya/PR dönemlerinde spike olursa bunu “kanıt” ile açıklayın (etkinlik sayfası, medya haberi, rapor yayını gibi)."
           },
           {
+            "type": "p",
+            "text": "Yeni domain’lerde [güvenli otorite büyümesi](/tr/seo/blog/link-velocity-ve-link-tarihi-guvenli-buyume-nasil-planlanir), ani sıçramalar yerine açıklanabilir ve zamana yayılmış backlink artışını korumaya dayanır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -71458,6 +72291,14 @@
             "text": "Key Statistics / Data Point (yumuşak): Yeni domain’lerde ilk 6 ayda yapılan yanlış backlink hamleleri, sonradan telafisi zor otorite sorunlarına yol açabiliyor; bu yüzden doğru başlangıç kritik."
           },
           {
+            "type": "p",
+            "text": "Bu büyümenin görünür olması için [ilk 6 ay off-page etkisini raporlamak](/tr/seo/seo-raporlama), link kazanımı, referral trafik ve organik görünürlük gelişimini aynı ritimde takip etmeyi sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [yeni domain backlink benchmark’ı](/tr/raporlama/benchmark-analizi), rakiplerin başlangıç hızını ve sektör eşiğini görmeden gereksiz agresifleşmeyi önleyen daha gerçekçi bir karşılaştırma zemini sunar."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -71470,7 +72311,7 @@
             "variant": "primary",
             "label": "Yeni Domain Backlink Strateji Analizi Talep Et",
             "text": "0–6 ay planını hedef URL ve KPI’larla netleştirmek isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
@@ -71539,11 +72380,15 @@
             "text": "Bu zemin kurulduktan sonra, 3–6 ay içinde az ama kaliteli, niş ve alakalı editoryal linklerle otorite kademeli olarak büyütülebilir. Böylece yeni domain, agresif paket link riskine girmeden; ölçülebilir, denetlenebilir ve sürdürülebilir bir off-page profile doğru ilerler."
           },
           {
+            "type": "p",
+            "text": "Bu süreci daha kontrollü yürütmek isteyen ekipler için [profesyonel Backlink Yönetimi ve güvenli otorite büyümesi](/tr/seo/backlink-yonetimi) daha net bir çerçeve sunar; karar öncesinde [Backlink Yönetimi hakkında sık sorulan sorular](/tr/seo/backlink-yonetimi-sss) sayfası da temel beklentileri netleştirmeye yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Yeni Domain Backlink Strateji Analizi Talep Et",
             "text": "Yeni açılan otel/B2B projelerinde 0–6 ay güvenli büyüme planı isteyenler için.",
-            "href": "/seo/backlink-yonetimi"
+            "href": "/tr/seo/backlink-yonetimi"
           },
           {
             "type": "cta",
