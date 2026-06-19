@@ -73778,6 +73778,680 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu",
+
+      "name": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Reporting Rhythm" },
+
+        { "@type": "Thing", "name": "SMM Ops Culture" },
+
+        { "@type": "Thing", "name": "Daily Weekly Monthly Quarterly" },
+
+        { "@type": "Thing", "name": "Cadence Design" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#webpage"
+
+      },
+
+      "headline": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+
+      "description": "Günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji ritmiyle sosyal medyayı sürekli işleyen bir analiz ve öğrenim sürecine dönüştürün; hangi KPI’ya ne sıklıkta bakacağınızı standardize edin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#howto",
+
+      "name": "Sosyal Medya Raporlama Ritmi Kurma",
+
+      "description": "Günlük/haftalık/aylık/çeyreklik analiz ritmiyle SMM operasyon kültürü oluşturma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Ritim seviyelerini belirle", "text": "Günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji seviyelerini tanımlayın." },
+
+        { "@type": "HowToStep", "name": "Seviye bazlı KPI setini seç", "text": "Her seviyede maksimum 5–8 KPI ile sade bir set oluşturun ve sorumluları belirleyin." },
+
+        { "@type": "HowToStep", "name": "Toplantı ve çıktı formatını standardize et", "text": "Haftalık öğrenim özeti, aylık aksiyon backlog’u ve çeyreklik strateji karar formatını sabitleyin." },
+
+        { "@type": "HowToStep", "name": "Kapasite ve sezon ayarı yap", "text": "Ekip kapasitesi, kanal sayısı ve sezon yoğunluğuna göre ritmi sadeleştirip sürdürülebilir hale getirin." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Raporlama Ritmi", "item": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal medya performansını ne sıklıkla analiz etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En sürdürülebilir yaklaşım günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji review’dan oluşan 4 seviyeli ritimdir. Her seviyede KPI seti farklıdır; ekip kapasitesi ve kanal sayısına göre sadeleştirerek uygulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Günlük, haftalık, aylık raporlarda hangi KPI’lara bakılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Günlükte kritik sinyaller ve anomali/alert’ler; haftalıkta format ve test sonuçları; aylıkta funnel, segment ve kampanya vs always-on analizi; çeyreklikte hedef/KPI revizyonu ve kanal rolleri öne çıkar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çeyreklik sosyal medya strateji review’u nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çeyrek hedefleri ve KPI seti gözden geçirilir, kanal rolleri güncellenir, en iyi öğrenimler playbook’a eklenir ve bütçe/efor kaydırma kararları yazılı alınır. Sezon etkisi yüksek sektörlerde YoY/seasonality eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Raporlama ritmi sürdürülemezse ne olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ekip ritmi bırakır ve analiz reaktif hale geri döner; sorunlar geç fark edilir. Bu yüzden ritim tasarımında ekip kapasitesi, kanal sayısı ve sezon yoğunluğu gerçekçi planlanmalı, az ama düzenli yaklaşımı tercih edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu",
+
+      "name": "Kitle Kohort Analizi: Takipçi ve Ziyaretçi Kohortları ile Sosyal Medya Raporu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Cohort Analysis" },
+
+        { "@type": "Thing", "name": "Retention" },
+
+        { "@type": "Thing", "name": "Repeat Engagement" },
+
+        { "@type": "Thing", "name": "Repeat Visits" },
+
+        { "@type": "Thing", "name": "Long-Term Value" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#webpage"
+
+      },
+
+      "headline": "Kitle Kohort Analizi: Takipçi ve Ziyaretçi Kohortları ile Sosyal Medya Raporu",
+
+      "description": "Takipçi ve ziyaretçi kohortlarını 30/60/90 gün pencerelerinde izleyerek retention, tekrar etkileşim, tekrar ziyaret ve lead/rezervasyon katkısını ölçün; kalıcı değere göre içerik ve bütçe kararları alın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#howto",
+
+      "name": "Sosyal Medyada Kohort Raporu Oluşturma",
+
+      "description": "Takipçi ve ziyaretçi kohortlarını 30/60/90 gün pencerelerinde izleyerek retention ve kalıcı değeri ölçme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Kohortu tanımla", "text": "Takipçi veya ziyaretçi kohortunu seçin ve kazanım tarihini (ay/hafta) sabitleyin." },
+
+        { "@type": "HowToStep", "name": "KPI pencerelerini kur", "text": "0–30–60–90 gün pencerelerinde retention, repeat engagement/visit ve conversion KPI’larını tanımlayın." },
+
+        { "@type": "HowToStep", "name": "Filtreleri tutarlı uygula", "text": "Kampanya ve kanal filtrelerini tutarlı seçerek kohortlar arasında sahte fark oluşmasını engelleyin." },
+
+        { "@type": "HowToStep", "name": "Aksiyona bağla", "text": "En iyi kohortu ölçekleyin, zayıf kohortta düşüş penceresine göre içerik/bütçe/nurture aksiyonu planlayın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kohort Analizi", "item": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kohort analizi sosyal medya için nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Takipçi veya ziyaretçi kohortunu seçip kazanım tarihini sabitleyin, 30/60/90 gün pencerelerinde retention ve tekrar etkileşim/ziyaret KPI’larını ölçün. Kohortları kaynak/kampanya/persona bazında kıyaslayıp en değerli kohortu ölçekleyin, zayıf kohortta düşüş noktasına göre aksiyon yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Takipçi kohortlarını 30/60/90 gün bazında nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her ay kazanılan yeni takipçileri bir kohort olarak tanımlayın ve 30/60/90 gün içinde tekrar etkileşim yapan oranı ölçün. Save/share ve tıklama gibi kalite KPI’larını ekleyerek kohortun kalıcı değerini görünür kılın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kohort sonuçlarını içerik ve bütçe kararına nasıl yansıtırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En iyi kohortun geldiği içerik pillar’ını ölçekleyin ve bütçeyi retention yüksek kaynağa kaydırın (paid varsa). Zayıf kohortlarda düşüş penceresine göre welcome serisi, nurture içerikleri veya landing/teklif optimizasyonu planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kohort raporlarında en büyük hata nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tarih aralıklarını sabitlemeden veya kampanya/kanal filtrelerini tutarlı seçmeden kıyas yapmaktır. Bu, kohortlar arasında sahte farklar üretip yanlış bütçe ve içerik kararlarına yol açabilir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"share-of-voice-ve-sosyal-medya-pazar-payi-analizi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi",
+
+      "name": "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Share of Voice" },
+
+        { "@type": "Thing", "name": "Social Listening" },
+
+        { "@type": "Thing", "name": "Competitive Benchmark" },
+
+        { "@type": "Thing", "name": "Market Visibility" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#webpage"
+
+      },
+
+      "headline": "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+
+      "description": "Share of Voice (SOV) ile markanın sosyal medyada rakiplerine göre ne kadar konuşulduğunu ölçün; mention/reach/engagement SOV’u trafik, lead ve rezervasyon trendleriyle birlikte yorumlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#howto",
+
+      "name": "Sosyal Medyada Share of Voice Ölçme",
+
+      "description": "Rakip seti seçerek mention/reach/engagement bazlı SOV hesaplama ve sonuç KPI’larıyla yorumlama adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Rakip setini belirle", "text": "Aynı segment ve pazardan 5–8 rakip seçin; kampanya dönemlerini notlayın." },
+
+        { "@type": "HowToStep", "name": "SOV türünü seç", "text": "Mention SOV, reach SOV ve engagement SOV metriklerini ayrı hesaplayın." },
+
+        { "@type": "HowToStep", "name": "SOV trendini çıkar", "text": "Seçilen dönemde SOV trend grafiğini oluşturup önemli olayları timeline’da işaretleyin." },
+
+        { "@type": "HowToStep", "name": "Sonuç KPI’larıyla birlikte oku", "text": "SOV trendini trafik/lead/rezervasyon trendleri ve sentiment notlarıyla birlikte yorumlayın; aksiyon planı çıkarın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Share of Voice Analizi", "item": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Share of voice (SOV) nedir, sosyal medyada nasıl ölçülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SOV, rakip seti içinde konuşmanın payıdır. Mention, reach veya engagement bazında marka metriği / (marka + rakipler) şeklinde hesaplanır ve sonuç KPI’larıyla birlikte yorumlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rakip seti nasıl seçilir ve SOV raporuna nasıl yansıtılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rakip seti aynı segment ve pazardan 5–8 markadan seçilmeli; dashboard’ta rakip seti filtresi görünür olmalı ve kampanya dönemleri timeline’da işaretlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SOV artışı her zaman pazar payı artışı mı demektir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hayır. SOV artışı pozitif görünürlük, negatif kriz görünürlüğü veya paid bütçe artışı nedeniyle olabilir. Bu yüzden sentiment ve trafik/lead/rezervasyon trendleriyle birlikte doğrulamak gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal dinleme aracının sınırlamaları SOV’u etkiler mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Kanal ve dil kapsamı sınırlıysa bazı konuşmalar yakalanmayabilir ve SOV eksik/yanlış görünebilir. Raporun başında veri kapsamı notu ve guardrail kontrolleri yer almalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
 }
     },
 

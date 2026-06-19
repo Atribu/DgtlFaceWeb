@@ -409,7 +409,10 @@ export const BLOG_MAP = {
      "multi-account-ve-multi-brand-sosyal-medya-raporu":"BlogMultiAccountVeMultiBrandSosyalMedyaRaporu",
      "rol-bazli-sosyal-medya-dashboardlari-ceo-pazarlama-icerik-ve-ik":"BlogRolBazliSosyalMedyaDashboardlariCeoPazarlamaIcerikVeIk",
      "veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi":"BlogVeriKalitesiVeIzlemeHijyeniSosyalMedyaRaporlarinizGuvenilirMi",
-     "sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu":"BlogSosyalMedyaGelirRaporlamaVeCrmEntegrasyonu"
+     "sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu":"BlogSosyalMedyaGelirRaporlamaVeCrmEntegrasyonu",
+     "raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu":"BlogRaporlamaRitmiVeSosyalMedyaAnalizOperasyonKulturu",
+     "kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu":"BlogKitleKohortAnaliziTakipciVeZiyaretciKohortlariIleSosyalMedyaRaporu",
+     "share-of-voice-ve-sosyal-medya-pazar-payi-analizi":"BlogShareOfVoiceVeSosyalMedyaPazarPayiAnalizi"
   },
 
     yazilim: {

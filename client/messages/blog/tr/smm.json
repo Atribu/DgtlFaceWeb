@@ -78719,6 +78719,1853 @@
         ]
       }
     }
+  },
+
+   "BlogRaporlamaRitmiVeSosyalMedyaAnalizOperasyonKulturu": {
+    "title": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+    "slug": "raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "19 Haziran 2026",
+    "publishedAt": "2026-06-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji ritmi kurun. Hangi KPI’ya ne sıklıkta bakacağınızı netleştirip otel/B2B ekiplerinde sürekli öğrenim döngüsü oluşturun.",
+    "seo": {
+      "metaTitle": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi | DGTLFACE",
+      "metaDescription": "Günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji ritmi kurun. Hangi KPI’ya ne sıklıkta bakacağınızı netleştirip otel/B2B ekiplerinde sürekli öğrenim döngüsü oluşturun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog / URL: /tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      ],
+      "strategySummary": "Bu içerik, sosyal medya analizini “vakit bulunca bakılan rapor” modundan çıkarıp Reporting Rhythm / SMM Ops Culture yaklaşımıyla süreç hâline getirir: günlük monitoring, haftalık ops, aylık performans, çeyreklik strateji review. Hedef persona; düzenli sosyal medya yatırımı olan otel/turizm ve B2B ekipleri ile ajans yöneticileridir; çünkü sorunları geç fark etmek yerine proaktif karar döngüsü kurmak ister. Funnel’da MoFu karar desteği üretir: hangi sıklıkta hangi KPI’lara bakılacağını netleştirip ekip içi ritmi standardize eder. Ana iş sorusu: “Sosyal medya performansını ne sıklıkla izlemeli ve hangi toplantıda hangi kararları almalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medya analizi “arada bakılan rapor” olarak kalırsa sorunlar geç fark edilir, fırsatlar kaçırılır. En etkili yaklaşım, 4 seviyeli bir raporlama ritmidir: günlük monitoring ve alert’ler; haftalık mini ops/performans toplantısı; aylık derinlemesine rapor ve optimizasyon; çeyreklik strateji review. Her seviyede farklı KPI seti ve farklı karar türü vardır. Ritmi ekip kapasitesi, kanal sayısı ve sezon yoğunluğuna göre gerçekçi tasarlayın ve öğrenimleri dokümante edin.",
+      "sgeSummary": "SMM’yi süreçle yönetin: günlük izleme, haftalık ops, aylık performans, çeyreklik strateji. Her seviyeye KPI seti tanımlayın; öğrenimleri kaydedip aksiyona çevirin.",
+      "voiceAnswer": "Her gün izleme, haftalık ops, aylık performans ve çeyreklik strateji ritmiyle sosyal medyayı yönet.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel/turizm ve B2B ekipleri, ajanslar",
+        "KPI çekirdeği: monitoring KPI’ları + performans KPI’ları + strateji KPI’ları",
+        "Entity theme: Reporting Rhythm, Daily/Weekly/Monthly/Quarterly, SMM Ops Culture",
+        "Semantic theme: continuous improvement, cadence design, process-embedded analytics",
+        "Funnel: MoFu (düzenli karar + öğrenim döngüsü)",
+        "Kritik risk: ekip kapasitesi/kanal sayısı dikkate alınmazsa sürdürülemez ritim",
+        "Çıktı: timeline diyagramı + seviye bazlı KPI tablosu + ritim checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+      "intro": "Sosyal medya analizi “vakit bulunca bakılır” modunda kaldığında iki şey olur: (1) sorunlar geç fark edilir, (2) fırsatlar rapor tarihine kadar kaçırılır. Oysa sürdürülebilir büyüme, tek bir rapordan değil ritimden gelir: her gün küçük kontrol, her hafta mini ops, her ay derin analiz, her çeyrek strateji revizyonu. Bu yaklaşım, özellikle otellerde sezon yoğunluğu (ör. Antalya/Belek hattında yüksek sezon) ve B2B’de kampanya döngüleri nedeniyle daha da kritiktir. Bu rehberde “sosyal medya raporu ne sıklıkla hazırlanmalı?” sorusuna net bir çerçeve verip analiz operasyon kültürünü (SMM Ops Culture) kuracağız.",
+      "quickSummary": [
+        "1) Sosyal medya analizini tek rapor değil, ritim olarak kurgula",
+        "2) Günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji seviyelerini ayır",
+        "3) Her seviyeye farklı KPI seti ve karar türü tanımla",
+        "4) Ekip kapasitesi, kanal sayısı ve sezon yoğunluğuna göre sürdürülebilir cadence design kur",
+        "5) Öğrenimleri dokümante edip aksiyon backlog’una çevir"
+      ],
+      "ctaPrimary": {
+        "label": "Sosyal Medya Raporlama Ritmi & Analiz Ops Analizi Talep Et",
+        "text": "Ekip kapasitesi ve kanal sayınıza göre günlük/haftalık/aylık/çeyreklik analiz ritmi kurar; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sosyal Medya Raporlama Ritmi & Analiz Ops Analizi Talep Et",
+        "text": "Ekip kapasitesi ve kanal sayınıza göre sürdürülebilir analiz ritmi kurar; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Analiz Takvimi & Raporlama Ritmi Şablonunu İndir",
+        "text": "Günlük-haftalık-aylık-çeyreklik KPI seti ve toplantı ajandasıyla ritmi hızlıca kurup aksiyon üretmenizi sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Satış ve dönüşüm raporlama yaklaşımı",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal medya planlama ve strateji",
+        "href": "/smm/planlama-strateji"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Planlama ve Strateji Nasıl Kurulur?",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama Nasıl Okunur?",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-raporlama-ritmi-onemli",
+        "title": "Neden raporlama ritmi önemli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Raporlama ritmi, “ölçüm”ü bir teslimat değil, sürekli iyileştirme (continuous improvement) döngüsü hâline getirir. Ritim yoksa ekip reaktiftir: kriz çıkınca müdahale eder, kampanya bitince bakar. Ritim varsa ekip proaktiftir: küçük sapmaları erken görür, küçük testlerle büyütür."
+          },
+          {
+            "type": "h3",
+            "text": "Ritmin 3 temel faydası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken uyarı: küçük düşüşler büyümeden yakalanır",
+              "Öğrenim birikimi: “ne işe yaradı?” kurumsal hafızaya döner",
+              "Kapasite yönetimi: herkes neyi ne zaman izleyeceğini bilir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (ritim ihtiyacı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sorunları haftalık/aylık raporda geç mi görüyorsunuz?",
+              "Aksiyonlar “rapor bitti” diye erteleniyor mu?",
+              "Öğrenimler yazılı değil de “kişide” mi kalıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Günlük küçük kontrol listesi oluştur",
+              "Haftalık 30 dakikalık ops toplantısı planla",
+              "Aylık derin raporu “aksiyon backlog” ile kapat",
+              "Öğrenimleri tek bir not formatında standartlaştır"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-performansi-ne-siklikla-analiz-edilmeli",
+        "title": "Sosyal medya performansını ne sıklıkla analiz etmeliyim?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Net cevap: 4 seviyeli ritim. Bu, “her gün her şeye bak” demek değildir. Her seviyenin amacı ve KPI seti farklıdır."
+          },
+          {
+            "type": "h3",
+            "text": "4 seviyeli ritim (Daily / Weekly / Monthly / Quarterly)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük (Monitoring): alarm ve sapma kontrolü",
+              "Haftalık (Ops): küçük optimizasyonlar ve test planı",
+              "Aylık (Performance): kapsamlı analiz + bütçe/kreatif kararları",
+              "Çeyreklik (Strategy): hedefler, kanal rolleri, büyük yön değişimleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (sıklık kararı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaç kanal yönetiyorsunuz? (IG/TikTok/LinkedIn vb.)",
+              "Paid bütçe var mı? (Varsayım)",
+              "Sezonsallık yüksek mi? (turizm gibi)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Günlükte “kritik KPI” sayısını 5–8’de tut",
+              "Haftalıkta 2–3 test seç",
+              "Aylıkta “funnel + segment + içerik” üçlüsünü mutlaka oku",
+              "Çeyreklikte KPI setini gözden geçir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "gunluk-haftalik-aylik-ceyreklik-kpi-setleri",
+        "title": "Günlük/haftalık/aylık/çeyreklik raporlarda hangi KPI’lara bakılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO için net cevap: Her seviyede KPI seti sadeleşir/derinleşir. Günlükte “alarm”, aylıkta “neden-sonuç”, çeyreklikte “yön”."
+          },
+          {
+            "type": "h3",
+            "text": "Seviye bazlı KPI seti (tek tabloda)"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo, ritmin “çekirdeği”dir ve her ekip için uyarlanabilir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Seviye bazlı KPI seti",
+            "headers": [
+              "Seviye",
+              "Amaç",
+              "KPI seti (örnek)",
+              "Çıktı"
+            ],
+            "rows": [
+              [
+                "Günlük",
+                "erken uyarı",
+                "erişim/trafik ani düşüş, CTR, dönüşüm event, negatif yorum/DM",
+                "alarm + triage"
+              ],
+              [
+                "Haftalık",
+                "küçük optimizasyon",
+                "top içerikler, format performansı, kısa vadeli trend, test sonuçları",
+                "3 öğrenim + 3 test"
+              ],
+              [
+                "Aylık",
+                "derin performans",
+                "funnel (reach→click→conversion), segment (ülke/cihaz), kampanya vs always-on",
+                "aksiyon backlog"
+              ],
+              [
+                "Çeyreklik",
+                "strateji",
+                "hedef/KPI revizyonu, kanal rolleri, bütçe dağılımı, seasonality/YoY",
+                "strateji kararları"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (KPI disiplini)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlükte “dönüşüm event sağlığı” var mı?",
+              "Haftalıkta “test” ve “öğrenim” yazıyor musun?",
+              "Aylıkta funnel ve segment okunuyor mu?",
+              "Çeyreklikte KPI seti revize ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Günlük KPI’ları “kritik” seç (hepsine bakma)",
+              "Haftalık toplantıda 1 sayfa “öğrenim” zorunlu yap",
+              "Aylık raporu “kapanış: 10 aksiyon” ile bitir",
+              "Çeyreklikte “kapat: 3 strateji kararı” üret"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-analiz-takvimi",
+        "title": "Otel ve B2B için örnek analiz takvimi (cadence design)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ritim, sektörle birlikte değişir. Otelde sezon/rezervasyon penceresi; B2B’de pipeline ve kampanya ritmi belirleyicidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ritmi (sezon duyarlı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük: negatif yorum/DM spike + rezervasyon event sağlığı (Varsayım)",
+              "Haftalık: içerik formatı + destinasyon/oda pillar kıyası",
+              "Aylık: kampanya vs always-on + pazar/ülke segmentleri",
+              "Çeyreklik: sezon stratejisi, kanal rolleri, fiyat/teklif iletişimi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Yüksek sezonda günlükte “dönüşüm event kırıldı mı?” kontrolü kritiktir; çünkü birkaç saatlik kayıp maliyetlidir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B ritmi (pipeline odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük: lead akışı ve form sağlığı (Varsayım)",
+              "Haftalık: içerik pillar performansı + CTR/lead kalite sinyali",
+              "Aylık: lead→MQL→SQL dönüşüm ve kampanya learnings",
+              "Çeyreklik: ICP/mesaj revizyonu, içerik stratejisi, bütçe dağılımı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (takvim uyumu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon yoğunluğu (otel) veya kampanya döngüsü (B2B) ritme yansıdı mı?",
+              "Haftalık toplantı süresi gerçekçi mi? (30–45 dk)",
+              "Aylık raporda aksiyonlar sahipli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde sezon öncesi “ritim prova” yap (pilot)",
+              "B2B’de pipeline stage’leri rapora sabitle",
+              "Her iki modelde “toplantı notu” şablonu kullan"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "analizi-surec-haline-getirmek-ops-culture",
+        "title": "Analizi süreç hâline getirmek (Ops Culture)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ritim; toplantı takvimi değil, kültürdür. Kültür, şu üç şeyle oturur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sahiplik: kim bakar, kim karar verir?",
+              "Dokümantasyon: öğrenimler nerede birikir?",
+              "Geri besleme: testler nasıl kapanır?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çeyreklik sosyal medya strateji review’u nasıl yapılır? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Çeyrek hedeflerini ve KPI setini gözden geçir",
+              "Kanal rollerini güncelle (discover/consider/convert) (Varsayım)",
+              "En iyi 3 öğrenimi “standart”a çevir (playbook)",
+              "En zayıf 3 alan için “odak” belirle",
+              "Bütçe/efor kaydırma kararını yazılı al"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet’ten): Ritim planlanırken ekip kapasitesi, kanal sayısı ve sezon yoğunluğu dikkate alınmazsa sürdürülemeyen ritimler oluşur. “Az ama düzenli” ritim, “çok ama kısa ömürlü” ritimden daha değerlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (ops kültürü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık toplantı notları tek yerde mi?",
+              "Testler “sonuç + öğrenim” ile kapanıyor mu?",
+              "Rol bazlı dashboard’lar aynı veri gerçekliğini mi kullanıyor? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 sayfalık “ops ritmi playbook” yaz",
+              "Her ay 1 “öğrenim retrospektifi” ekle",
+              "KPI’ları “sonradan bakılan sayı” değil “sinyal” gibi yönet"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Ritim ve ops kültürü oluşturan ekiplerde KPI’lar “sonradan bakılan sayı” değil, sürekli takip edilen ve aksiyon üreten sinyaller hâline gelir; kararlar reaktif değil proaktifleşir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Raporlama Ritmi & Analiz Ops Analizi Talep Et",
+            "text": "Kanal sayınıza ve kapasitenize uygun analiz ritmi kurgular, toplantı/rapor şablonlarını oturtur; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Analiz Takvimi & Raporlama Ritmi Şablonunu İndir",
+            "text": "Günlük-haftalık-aylık-çeyreklik KPI seti, toplantı ajandası ve aksiyon şablonuyla ritmi hızlıca kurmanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-analiz-takvimi-raporlama-ritmi-sablonu",
+        "title": "Sosyal Medya Analiz Takvimi & Raporlama Ritmi Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sosyal Medya Analiz Takvimi & Raporlama Ritmi Şablonu — SMM / Ops Cadence (v1.0)",
+            "purpose": "Bu şablon, sosyal medya analizini dört seviyeli ritme böler (günlük/haftalık/aylık/çeyreklik) ve her seviyede bakılacak KPI seti, toplantı ajandası, sahiplik ve çıktı formatını standartlaştırır. Ekip kapasitesi ve sezon yoğunluğunu (özellikle turizm) hesaba katarak sürdürülebilir bir cadence design kurar; öğrenimleri dokümante edip aksiyona çevirmenizi kolaylaştırır.",
+            "whoFor": "TR geneli düzenli sosyal medya yatırımı olan otel/turizm ve B2B ekipleri; ajans operasyonları.",
+            "steps": [
+              "Kanal sayısı ve ekip kapasitesine göre ritim seviyelerini seçin (min 4 seviye).",
+              "KPI setlerini ve toplantı ajandalarını doldurun, sahipleri atayın.",
+              "30 gün pilot uygulayıp sürdürülemez kısımları sadeleştirerek kalibre edin."
+            ],
+            "checklist": [
+              "KPI sayıları sade (günlük max 8)",
+              "Sahiplik ve takvim net",
+              "Sezon/kampanya yoğunluğu hesaba katıldı",
+              "Öğrenimler tek formatta dokümante ediliyor",
+              "30 gün pilot + kalibrasyon planı var"
+            ],
+            "template": {
+              "cadence": [
+                "Günlük monitoring: ☐ var ☐ yok | Süre: ____ dk | Sorumlu: ____",
+                "Haftalık ops: ☐ var ☐ yok | Gün/saat: ____ | Sorumlu: ____",
+                "Aylık performans: ☐ var ☐ yok | Tarih: ____ | Sorumlu: ____",
+                "Çeyreklik strateji: ☐ var ☐ yok | Tarih: ____ | Sorumlu: ____"
+              ],
+              "levelBasedKpiSet": "B) Seviye Bazlı KPI Seti",
+              "meetingAgenda": [
+                "Günlük: 3 sinyal + 1 risk + 1 hızlı aksiyon",
+                "Haftalık: 3 öğrenim + 3 test + 3 engel",
+                "Aylık: funnel + segment + içerik kıyası + bütçe notu",
+                "Çeyreklik: hedef/KPI revizyonu + rol tablosu + bütçe dağılımı"
+              ],
+              "learningNoteTemplate": [
+                "Ne oldu? ____",
+                "Neden oldu? ____",
+                "Ne yapacağız? ____ (Sahip/Tarih)",
+                "Kanıt/KPI: ____"
+              ],
+              "capacityAndSeasonAdjustment": [
+                "Kanal sayısı: ____",
+                "Haftalık içerik üretim kapasitesi: ____",
+                "Sezon yoğunluğu notu: ____",
+                "Sadeleştirme kararı: ____ (hangi KPI/ritim çıkacak)"
+              ]
+            },
+            "href": "/downloads/sosyal-medya-analiz-takvimi-raporlama-ritmi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sosyal medya analizi rapor değil, ritim işidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya analizi “vakit bulunca bakılan” bir rapor olarak kaldığında ekip sorunları geç fark eder ve fırsatları kaçırır. Sürdürülebilir büyüme için günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji review birlikte çalışmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "En güçlü yapı; ekip kapasitesi, kanal sayısı ve sezon yoğunluğuna göre sadeleştirilmiş ama düzenli işleyen bir ritimdir. Böylece KPI’lar sonradan bakılan sayılar olmaktan çıkar, karar ve aksiyon üreten sinyallere dönüşür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya Raporlama Ritmi & Analiz Ops Analizi Talep Et",
+            "text": "Ekip kapasitesi ve kanal sayınıza göre sürdürülebilir analiz ritmi kurar; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Analiz Takvimi & Raporlama Ritmi Şablonunu İndir",
+            "text": "Günlük-haftalık-aylık-çeyreklik KPI seti ve toplantı ajandasıyla ritmi hızlıca kurup aksiyon üretmenizi sağlar.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sosyal medya performansını ne sıklıkla analiz etmeliyim?",
+        "a": "En sürdürülebilir yaklaşım 4 seviyeli ritimdir: günlük monitoring, haftalık ops, aylık performans ve çeyreklik strateji review. Her seviyede KPI seti farklıdır; günlükte alarm, aylıkta neden-sonuç, çeyrekte yön okunur. Ekip kapasitesi ve kanal sayısına göre sadeleştirerek uygulayın."
+      },
+      {
+        "q": "Günlük, haftalık, aylık raporlarda hangi KPI’lara bakılır?",
+        "a": "Günlükte erişim/trafik/dönüşüm event’i gibi kritik sinyaller ve negatif geri bildirim spike’ları; haftalıkta format ve top içerikler ile test sonuçları; aylıkta funnel ve segment analizi ile kampanya vs always-on ayrımı öne çıkar. KPI sayısını her seviyede sınırlamak sürdürülebilirlik sağlar."
+      },
+      {
+        "q": "Çeyreklik sosyal medya strateji review’u nasıl yapılır?",
+        "a": "Çeyrek hedefleri ve KPI seti gözden geçirilir, kanal rolleri güncellenir, en iyi öğrenimler playbook’a eklenir. Bütçe/efor kaydırma kararları yazılı alınır ve bir sonraki çeyrek test planı çıkarılır. Sezon etkisi yüksek sektörlerde YoY/seasonality mutlaka eklenmelidir."
+      },
+      {
+        "q": "Otel ve B2B için örnek analiz takvimi nasıl olmalı?",
+        "a": "Otellerde sezon fazına göre günlük kontrol (rezervasyon/event sağlığı) daha kritik olabilir; B2B’de pipeline ritmi (lead→MQL→SQL) ve kampanya döngüsü belirleyicidir. Her iki durumda da haftalık ops ve aylık performans raporu aksiyon backlog’u ile kapanmalıdır."
+      },
+      {
+        "q": "Raporlama ritmi sürdürülemezse ne olur?",
+        "a": "Ekip kısa sürede ritmi bırakır ve analiz “reaktif” hale geri döner. Bu yüzden ritim tasarımında ekip kapasitesi, kanal sayısı ve sezon yoğunluğu gerçekçi planlanmalı; “az ama düzenli” yaklaşımı tercih edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-hero-01.webp",
+          "h1-context — 1920×1080 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-divider-03.webp",
+          "divider-02 — 1600×1200 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-divider-04.webp",
+          "diagram-05 — 1920×1080 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-kpi-07.webp",
+          "proof-08 — 1200×1200 — raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu-proof-08.webp",
+          "table-level-based-kpi-set — Seviye bazlı KPI seti tablosu (Daily/Weekly/Monthly/Quarterly)",
+          "timeline-diagram — 16:9 — ritim timeline görseli",
+          "kpi-card — 1:1 — seviye KPI kartları"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Primary CTA 2 kez yerleştirildi",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Download Asset bloğu üretildi",
+          "İç link hedefleri kontrol edildi: /smm/analiz-raporlama, /raporlama/satis-donusum, /smm/planlama-strateji",
+          "Tablo içeriği seviye bazlı KPI seti olarak eklendi",
+          "Media pack slot adları içerik içindeki media bloklarıyla uyumlu"
+        ]
+      }
+    }
+  },
+
+  "BlogKitleKohortAnaliziTakipciVeZiyaretciKohortlariIleSosyalMedyaRaporu": {
+    "title": "Sosyal Medyada Kohort Analizi: 30/60/90 Gün Retention",
+    "slug": "kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "19 Haziran 2026",
+    "publishedAt": "2026-06-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Takipçi ve ziyaretçi kohortlarını 30/60/90 gün boyunca izleyin. Retention, tekrar etkileşim ve tekrar ziyaret KPI’larıyla kalıcı değeri ölçün; otel/B2B’de bütçe ve içerik kararlarını kohorta göre verin.",
+    "seo": {
+      "metaTitle": "Sosyal Medyada Kohort Analizi: 30/60/90 Gün Retention | DGTLFACE",
+      "metaDescription": "Takipçi ve ziyaretçi kohortlarını 30/60/90 gün boyunca izleyin. Retention, tekrar etkileşim ve tekrar ziyaret KPI’larıyla kalıcı değeri ölçün; otel/B2B’de bütçe ve içerik kararlarını kohorta göre verin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog / URL: /tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu"
+      ],
+      "strategySummary": "Bu blog, SMM “Analiz & Raporlama” silo’sunda sosyal medyayı “bu ay kaç takipçi geldi?” seviyesinden çıkarıp kohort (30/60/90 gün retention) bakışıyla uzun vadeli değer okumayı öğreten trend içeriktir. Hedef persona; sürekli yeni takipçi/ziyaretçi kazanan otel ve B2B ekipleri ile ajans yöneticileridir; çünkü anlık spike’lar yerine “kalıcı değer” ve tekrar etkileşim/ziyaret davranışını görmek ister. Funnel’da MoFu stratejik karar desteği: içerik pillar’ı ve bütçe dağılımını kohort performansına göre optimize eder. Ana iş sorusu: “Yeni takipçi ve ziyaretçiler 30/60/90 gün sonra ne yapıyor; hangi kampanya/persona daha değerli kohort üretiyor?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kohort analizi, “bu ay kaç takipçi geldi?” sorusundan çok “bu ay kazandığım takipçi ve ziyaretçiler 30/60/90 gün sonra ne yapıyor?” sorusunu cevaplar. Takipçi kohortlarını kazanım ayına göre gruplayıp 0–30–60–90 gün içinde tekrar etkileşim, tıklama ve profil aksiyonlarını izleyin. Site ziyaretçi kohortlarını kampanya veya persona bazında takip ederek tekrar ziyaret ve lead/rezervasyon katkısını ölçün. Kohort sonuçlarına göre içerik pillar’ı ve bütçe kaydırın.",
+      "sgeSummary": "Kohort raporu, yeni takipçi ve ziyaretçilerin 30/60/90 gün davranışını ölçer. Retention ve tekrar etkileşim/ziyaret KPI’larıyla kalıcı değeri görür, içerik ve bütçeyi ona göre optimize edersiniz.",
+      "voiceAnswer": "Bu ay gelen takipçilerin sonrası için 30/60/90 gün kohort retention grafiği çıkarıp tekrar etkileşimi ölç.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel ve B2B markalar (sürekli acquisition yapanlar)",
+        "Entity theme: cohort, retention, repeat engagement, repeat visits, conversion",
+        "Model: kohort-bazlı SMM raporlama → takipçi ömrü → uzun vadeli değer",
+        "KPI seti: 30/60/90 gün retention, repeat visit, lead/rezervasyon katkısı (Varsayım: ölçüm)",
+        "Risk: tarih aralıkları sabitlenmez ve filtreler tutarsız seçilirse sahte fark oluşur",
+        "Çıktı: retention grafiği + kohort tablosu + kohort→aksiyon checklist",
+        "Başarı ölçümü: anlık spike yerine uzun vadeli değer odaklı bütçe/üretim kararları"
+      ]
+    },
+    "h1": {
+      "title": "Kitle Kohort Analizi: Takipçi ve Ziyaretçi Kohortları ile Sosyal Medya Raporu",
+      "intro": "Sosyal medya raporlarında büyüme çoğu zaman “kaç takipçi kazandık, kaç erişim aldık?” gibi anlık metriklerle değerlendirilir. Ancak bu metrikler, yeni gelen kitlenin kalıcı değerini söylemez: Bu ay gelen takipçiler 30 gün sonra hâlâ etkileşiyor mu? Kampanyadan gelen ziyaretçiler 60 gün sonra tekrar siteye dönüyor mu? Otel ve B2B markalar için asıl kritik soru budur; çünkü sürdürülebilir büyüme, tek seferlik spike değil retention ile gelir. Kohort analizi, kazanım dönemine göre gruplar oluşturup bu grupların 30/60/90 gün sonraki tekrar etkileşim, tekrar ziyaret ve dönüşüm davranışını ölçer. Bu rehber, takipçi ve site ziyaretçi kohortlarını nasıl çıkaracağınızı ve sonuçları içerik+bütçe kararına nasıl bağlayacağınızı anlatır.",
+      "quickSummary": [
+        "1) Takipçi ve ziyaretçi kohortlarını kazanım dönemine göre ayır",
+        "2) 0–30–60–90 gün pencerelerini standartlaştır",
+        "3) Retention, tekrar etkileşim ve tekrar ziyaret KPI’larını birlikte oku",
+        "4) Kampanya/persona/kaynak bazında en değerli kohortları bul",
+        "5) İçerik pillar’ı, bütçe ve nurture kararlarını kohort performansına bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Kohort Bazlı SMM Analizi Talep Et",
+        "text": "Takipçi ve ziyaretçi kohortlarını çıkarır, 30/60/90 gün retention raporu ve aksiyon planı üretir; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kohort Bazlı SMM Analizi Talep Et",
+        "text": "Yeni takipçi ve ziyaretçi kohortlarının 30/60/90 gün davranışını ölçer; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Kohort Bazlı Takipçi & Ziyaretçi Raporlama Şablonunu İndir",
+        "text": "Retention grafikleri ve kohort tablosuyla kalıcı değeri görünür kılar, içerik ve bütçe kararını kohorta bağlamanızı sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Satış ve dönüşüm raporlama yaklaşımı",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+        "href": "/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama Nasıl Okunur?",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kohort-analizi-nedir",
+        "title": "Kohort analizi nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kohort, aynı dönemde veya aynı kaynaktan kazanılmış kullanıcı grubudur. Sosyal medyada iki temel kohort türü vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Takipçi kohortu: belirli ay/haftada kazanılan yeni takipçiler",
+              "Ziyaretçi kohortu: belirli kampanya veya persona üzerinden siteye gelen ziyaretçiler"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kohort analizi, bu grupların zaman içinde davranışını izler: tekrar etkileşim, tekrar ziyaret, dönüşüm. Bu sayede “acquisition”ın kalitesini görürsünüz."
+          },
+          {
+            "type": "h3",
+            "text": "Kohort analizi sosyal medya için nasıl yapılır? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kohort tanımını seç (takipçi veya ziyaretçi)",
+              "Kazanım tarihini sabitle (ayın ilk günü/hafta)",
+              "0–30–60–90 gün pencereleri belirle",
+              "Her pencerede KPI’ları ölç (retention, repeat engagement/visit, conversion)",
+              "Kohortları karşılaştır ve en değerli kaynak/tema/kampanyayı bul",
+              "Sonuçları içerik ve bütçe kararına bağla"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (kohort kurgusu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kohort “kazanım tarihi” net mi?",
+              "30/60/90 pencereleri aynı mı?",
+              "KPI seti hem sosyal hem web’i kapsıyor mu? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce tek kohort (takipçi) ile başla, sonra ziyaretçiye genişlet",
+              "90 gün trendiyle karar ver (tek haftaya bakma)",
+              "Kohort sonuçlarını “ölçekle/test et/durdur” kararına çevir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "takipci-kohortlari-ay-ay-30-60-90-gun",
+        "title": "Takipçi kohortları (Ay/Ay – 0–30–60–90 gün)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Takipçi kohortu, “takipçi ömrü”nü ölçer: yeni gelen kitle sadece sayıyı mı artırıyor, yoksa markayla ilişki kuruyor mu? Özellikle otellerde sezonsal takipçi artışı olur; B2B’de webinar veya lead magnet sonrası takipçi artışı görülebilir. Kohort analizi, bu artışın kalitesini ölçer."
+          },
+          {
+            "type": "h3",
+            "text": "Takipçi kohortlarını 30/60/90 gün bazında nasıl raporlarım? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her ay kazanılan yeni takipçileri bir kohort olarak tanımlayın (örn. Mart kohortu).",
+              "0–30 gün: ilk etkileşim ve profil aksiyonları",
+              "30–60 gün: tekrar etkileşim oranı",
+              "60–90 gün: kalıcı etkileşim + link tıklama (Varsayım: ölçülebiliyorsa)",
+              "Her kohort için retention (tekrar etkileşim yapan takipçi oranı) çıkarın."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Yüksek sezonda kazanılan takipçi kohortu 30 gün sonra düşüyorsa, içerik “anlık ilgi” çekiyor ama sürdürülebilir ilişki kurmuyor olabilir. Aksiyon: seri içerik ve topluluk formatı."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (takipçi kohortu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Retention’ı “tekrar etkileşim” ile ölçüyor musun?",
+              "Kohortlar aynı pencerelerle kıyaslanıyor mu?",
+              "Sezon etkisi ayrıca notlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yeni takipçi kohortlarına “welcome” içerik serisi planla",
+              "En iyi kohortun geldiği içerik pillar’ını ölçekle",
+              "Düşük retention kohortlarını “kaynak/tema” bazında ayrıştır"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "site-ziyaretci-kohortlari-kampanya-persona-bazli",
+        "title": "Site ziyaretçi kohortları (Kampanya / Persona bazlı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ziyaretçi kohortu, sosyal medyanın siteye getirdiği kitlenin “tekrar değerini” ölçer. Tek seferlik trafik getirmek kolaydır; tekrar ziyaret ve dönüşüm daha değerlidir."
+          },
+          {
+            "type": "h3",
+            "text": "Kampanya bazlı ziyaretçi kohortu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya A (örn. erken rezervasyon) → tekrar ziyaret oranı",
+              "Kampanya B (örn. destinasyon rehberi) → tekrar ziyaret + conversion (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Persona bazlı ziyaretçi kohortu (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile tatili arayanlar → tekrar ziyaret + teklif sayfası davranışı",
+              "B2B karar verici → tekrar ziyaret + demo form eğilimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (ziyaretçi kohortu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4’te kampanya/persone filtreleri tutarlı mı?",
+              "Repeat visit KPI’sı tanımlı mı?",
+              "Lead/rezervasyon event’i kohorta bağlanıyor mu? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kampanyaları UTM standardıyla net ayır",
+              "“Repeat visit” ve “engaged session” ile kaliteyi ölç",
+              "Kohort bazlı remarketing mesajı tasarla (Varsayım: paid varsa)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "retention-ve-tekrar-etkilesim-analizi-kpi-seti",
+        "title": "Retention ve tekrar etkileşim analizi (KPI seti)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kohort raporunun omurgası retention’dır. Sosyal medyada retention’ı “tekrar etkileşim” ve “tekrar ziyaret” ile temsil edersiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Retention KPI’ları (pratik set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Takipçi retention: 30/60/90 gün içinde en az 1 etkileşim yapan oran (Varsayım)",
+              "Repeat engagement: save/share veya yorum gibi kalite etkileşimi oranı",
+              "Repeat visit: GA4 returning users / repeat sessions (Varsayım)",
+              "Conversion persistence: 90 gün içinde lead/rezervasyon oranı (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Webinar sonrası gelen kohort 30 gün içinde siteye tekrar dönüyor ama form doldurmuyorsa, içerik nurture eksik olabilir. Aksiyon: e-posta/remarketing + case içerikleri."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (KPI seçimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI’lar hem sosyal hem web davranışını kapsıyor mu?",
+              "30/60/90 pencereleri standart mı?",
+              "“Kalite etkileşimi” ayrı KPI mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Retention KPI’larını rol bazlı panellere bağla (CEO’ya LTV, içerik ekibine retention)",
+              "Kalite etkileşimini (save/share) ayrı takip et",
+              "Kohort KPI’larını aylık ritimde sabitle"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kohort tablosu (batch → tekrar oranı)",
+            "headers": [
+              "Kohort (kazanım)",
+              "0–30 gün retention",
+              "30–60 gün retention",
+              "60–90 gün retention",
+              "Repeat visit",
+              "Lead/Rez (Varsayım)"
+            ],
+            "rows": [
+              [
+                "Mart 2026",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____"
+              ],
+              [
+                "Nisan 2026",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-kohort-bazli-aksiyon-ornekleri",
+        "title": "Otel ve B2B için kohort bazlı aksiyon örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kohort raporu “okunabilir ama etkisiz” kalmasın diye sonuçları aksiyona bağlamak şart. Aksiyonlar genelde üç alanda toplanır: içerik, bütçe, nurture."
+          },
+          {
+            "type": "h3",
+            "text": "Otel aksiyonları (sezon bazlı kohort)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon başı kohortu retention düşük → “welcome + seri destinasyon” içerikleri",
+              "Repeat visit yüksek ama rezervasyon düşük → landing/teklif uyumu",
+              "En iyi kohort hangi içerikten geldi? → o temayı ölçekle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B aksiyonları (webinar sonrası kohort)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "30 gün repeat visit yüksek → nurture içerik serisi (case/rehber)",
+              "60–90 gün conversion yok → form sürtünmesi veya teklif netliği",
+              "Persona bazlı kohort → mesaj/CTA kişiselleştirme (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet’ten): Kohort raporlarında tarih aralıklarını sabitlemek ve kampanya/kanal filtrelerini tutarlı seçmek gerekir; aksi halde kohortlar arasında sahte farklar görülebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (aksiyon köprüsü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En iyi 2 kohort neden iyi? (kaynak/tema)",
+              "En zayıf 2 kohort nerede düşüyor? (30 mu 60 mı?)",
+              "Aksiyonlar 30 gün içinde test edilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık: “en iyi kohort → ölçekle”, “en zayıf kohort → düzelt”",
+              "Bütçeyi retention yüksek kaynağa kaydır (Varsayım: paid varsa)",
+              "Kohort farklarını “sezon/kampanya notları” ile açıklamayı zorunlu kıl"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Kohort analizi kullanan ekipler, anlık spike’lara değil uzun vadeli etki ve sadakate bakarak sosyal medya kanallarını daha doğru konumlandırabilir; bütçe ve üretim odağı “kalıcı değer”e kayar."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kohort Bazlı Takipçi & Ziyaretçi Raporlama Şablonunu İndir",
+            "text": "Retention grafikleri ve kohort tablosuyla raporu standartlaştırır, içerik ve bütçe kararlarını kohorta bağlamanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kohort-bazli-takipci-ve-ziyaretci-raporlama-sablonu",
+        "title": "Kohort Bazlı Takipçi & Ziyaretçi Raporlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Kohort Bazlı Takipçi & Ziyaretçi Raporlama Şablonu — SMM / Cohort Analytics (v1.0)",
+            "purpose": "Bu şablon, takipçi ve site ziyaretçi kohortlarını kazanım dönemine göre gruplayıp 30/60/90 gün pencerelerinde retention, tekrar etkileşim/ziyaret ve lead/rezervasyon katkısını raporlamanızı sağlar. Tarih aralıklarını sabitleme ve kampanya/kanal filtrelerini tutarlı seçme guardrail’leriyle “sahte kohort farkı” riskini azaltır. Sonuçları içerik pillar’ı ve bütçe kaydırma kararına bağlayan aksiyon alanları içerir.",
+            "whoFor": "TR geneli sürekli acquisition yapan otel ve B2B ekipleri, ajans analistleri.",
+            "steps": [
+              "Kohort tanımını seçin (takipçi veya ziyaretçi) ve kazanım tarihini sabitleyin.",
+              "30/60/90 pencerelerinde retention ve tekrar KPI’larını doldurun.",
+              "En iyi ve en zayıf kohortlar için içerik/bütçe aksiyonlarını yazın."
+            ],
+            "checklist": [
+              "Tarih aralıkları sabit",
+              "Kampanya/kanal filtreleri tutarlı",
+              "Retention tanımı yazılı",
+              "Sezon notu eklendi (otel)",
+              "Kararlar aksiyona bağlandı"
+            ],
+            "template": {
+              "cohortDefinition": [
+                "Kohort tipi: ☐ Takipçi ☐ Ziyaretçi",
+                "Kazanım dönemi: ☐ Ay ☐ Hafta (Varsayım)",
+                "Dönem başlangıcı: ____",
+                "Not: Kampanya filtresi: ____ | Kanal filtresi: ____"
+              ],
+              "kpiSet": "B) 30/60/90 KPI Seti",
+              "cohortTable": "C) Kohort Tablosu (batch → tekrar oranı)",
+              "decisionBlock": [
+                "En iyi 2 kohort: ____ / ____ | Neden: ____",
+                "En zayıf 2 kohort: ____ / ____ | Nerede düşüyor: ____",
+                "Aksiyon: ☐ Ölçekle ☐ Test et ☐ Durdur"
+              ],
+              "actionPlan30Days": [
+                "İçerik aksiyonu: ____ | Sahip: ____ | Tarih: ____",
+                "Bütçe aksiyonu (Varsayım): ____ | Sahip: ____ | Tarih: ____",
+                "Nurture/remarketing (Varsayım): ____ | Sahip: ____ | Tarih: ____"
+              ]
+            },
+            "deliverables": [
+              "Retention grafiği (30/60/90)",
+              "Kohort tablosu",
+              "Aksiyon planı (30 gün)"
+            ],
+            "href": "/downloads/kohort-bazli-takipci-ve-ziyaretci-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Anlık büyüme değil, kalıcı değer ölçülmeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kohort analizi, sosyal medya raporunu “bu ay kaç takipçi geldi?” seviyesinden çıkarıp “bu kitle 30/60/90 gün sonra ne yaptı?” sorusuna taşır. Bu sayede anlık spike’ların arkasındaki gerçek değer görünür hâle gelir."
+          },
+          {
+            "type": "p",
+            "text": "Takipçi ve ziyaretçi kohortları düzenli okunduğunda, içerik pillar’ları, bütçe dağılımı ve nurture akışları daha sağlıklı yönetilir. Otel ve B2B ekipleri için önemli olan yalnızca acquisition değil, retention ve tekrar değer üretimidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kohort Bazlı SMM Analizi Talep Et",
+            "text": "Yeni takipçi ve ziyaretçi kohortlarının 30/60/90 gün davranışını ölçer; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kohort Bazlı Takipçi & Ziyaretçi Raporlama Şablonunu İndir",
+            "text": "Retention grafikleri ve kohort tablosuyla kalıcı değeri görünür kılar, içerik ve bütçe kararını kohorta bağlamanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kohort analizi sosyal medya için nasıl yapılır?",
+        "a": "Takipçi veya ziyaretçi kohortunu seçip kazanım tarihini sabitleyin, 0–30–60–90 gün pencerelerinde retention ve tekrar etkileşim/ziyaret KPI’larını ölçün. Kohortları kaynak/kampanya/persona bazında kıyaslayıp en değerli kohortu ölçekleyin, zayıf kohortta düşüş noktasına göre aksiyon yazın."
+      },
+      {
+        "q": "Takipçi kohortlarını 30/60/90 gün bazında nasıl raporlarım?",
+        "a": "Her ay kazanılan yeni takipçileri bir kohort olarak tanımlayın ve 30/60/90 gün içinde tekrar etkileşim yapan oranı ölçün. Save/share ve tıklama gibi kalite KPI’larını ekleyerek kohortun kalıcı değerini görünür kılın."
+      },
+      {
+        "q": "Otel ve B2B için hangi kohortlar kritik?",
+        "a": "Otelde sezon bazlı yeni takipçi kohortları ve kampanya sonrası site ziyaretçi kohortları kritiktir. B2B’de webinar/lead magnet sonrası gelen ziyaretçi kohortu ve tekrar ziyaret/lead üretim oranı önemlidir. Hangi kohortun daha yüksek retention ve dönüşüm getirdiğini kıyaslayın."
+      },
+      {
+        "q": "Kohort sonuçlarını içerik ve bütçe kararına nasıl yansıtırım?",
+        "a": "En iyi kohortun geldiği içerik pillar’ını ölçekleyin ve bütçeyi retention yüksek kaynağa kaydırın (Varsayım). Zayıf kohortlarda düşüşün olduğu pencereye göre “welcome serisi”, nurture içerikleri veya landing/teklif optimizasyonu planlayın."
+      },
+      {
+        "q": "Kohort raporlarında en büyük hata nedir?",
+        "a": "Tarih aralıklarını sabitlemeden veya kampanya/kanal filtrelerini tutarlı seçmeden kıyas yapmaktır. Bu, kohortlar arasında sahte farklar üretip yanlış bütçe ve içerik kararlarına yol açabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-hero-01.webp",
+          "h1-context — 1920×1080 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-h1-context-02.webp",
+          "divider-01 — 1600×1200 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-divider-03.webp",
+          "divider-02 — 1600×1200 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-divider-04.webp",
+          "diagram-05 — 1920×1080 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-diagram-05.webp",
+          "checklist-06 — 1200×1200 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-checklist-06.webp",
+          "kpi-07 — 1200×1200 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-kpi-07.webp",
+          "proof-08 — 1200×1200 — kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu-proof-08.webp",
+          "table-cohort-retention — Kohort tablosu (batch → tekrar etkileşim/ziyaret oranı)",
+          "retention-graph — 16:9 — 30/60/90 retention mockup",
+          "cohort-table-card — 1:1 — kohort tablosu kartı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Primary CTA trend hassasiyetine göre H1 sonunda kullanıldı",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Download Asset bloğu üretildi",
+          "İç link hedefleri kontrol edildi: /smm/analiz-raporlama, /raporlama/satis-donusum, /veri-analiz-ve-raporlama",
+          "Kohort tablosu içerik içine eklendi",
+          "Media pack slot adları içerik içindeki media bloklarıyla uyumlu",
+          "Tarih aralıkları, kampanya/kanal filtre tutarlılığı ve retention tanımı teknik notlarda vurgulandı"
+        ]
+      }
+    }
+  },
+
+   "BlogShareOfVoiceVeSosyalMedyaPazarPayiAnalizi": {
+    "title": "Share of Voice: Sosyal Medyada Rakip Benchmark ve SOV",
+    "slug": "share-of-voice-ve-sosyal-medya-pazar-payi-analizi",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "19 Haziran 2026",
+    "publishedAt": "2026-06-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SOV ile sosyal medyada rakiplere göre görünürlüğünüzü ölçün. Mention/reach/engagement SOV’u trafik–lead–rezervasyon trendleriyle birlikte okuyun; rakip setini doğru seçin.",
+    "seo": {
+      "metaTitle": "Share of Voice: Sosyal Medyada Rakip Benchmark ve SOV | DGTLFACE",
+      "metaDescription": "SOV ile sosyal medyada rakiplere göre görünürlüğünüzü ölçün. Mention/reach/engagement SOV’u trafik–lead–rezervasyon trendleriyle birlikte okuyun; rakip setini doğru seçin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog / URL: /tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi"
+      ],
+      "strategySummary": "Bu içerik, SMM “Analiz & Raporlama” silo’sunda “ne kadar konuşuluyoruz?” sorusunu rakip bağlamına oturtan Share of Voice (SOV) yaklaşımını anlatır ve SOV’i trafik/lead/rezervasyon gibi sonuç KPI’larıyla aynı ekranda okumayı sağlar. Hedef persona; rekabetin yoğun olduğu otel/turizm (örn. Antalya–Belek–Side hattı gibi destinasyonlar) ve B2B markalar ile ajans yöneticileridir; çünkü marka gücü ve pazar görünürlüğü kararlarını veriye dayalı almak ister. Funnel’da stratejik karar desteği sağlar: rakip seti seçimi, SOV metrikleri (mention/reach/engagement) ve yorumlama guardrail’leriyle “sinerji mi, gürültü mü?” ayrımını yapar. Ana iş sorusu: “SOV arttıysa bu gerçekten pazar payı/gelir artışı mı; değilse neden?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Share of Voice (SOV), sosyal medyada markanızın rakiplere kıyasla ne kadar “konuşulduğunu” gösteren rekabet metriğidir. SOV; mention (bahsedilme), reach (erişim) veya engagement (etkileşim) bazında ölçülebilir. En doğru kullanım, SOV trendini tek başına değil; aynı dönemdeki site trafiği, lead ve rezervasyon değişimleriyle birlikte okumaktır. Böylece “çok konuşuluyoruz ama satış yok” veya “az konuşuluyoruz ama iş geliyor” gibi durumların kök nedeni daha netleşir.",
+      "sgeSummary": "SOV, sosyal görünürlüğün rakiplere göre payıdır. Mention/reach/engagement bazında ölçün; trendi trafik–lead–rezervasyonla yan yana koyarak pazar görünürlüğünü sonuçlarla ilişkilendirin.",
+      "voiceAnswer": "Rakiplere göre gücünüzü SOV ile görürsünüz; SOV trendini trafik ve lead/rezervasyonla birlikte okuyun.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli rekabeti yoğun otel/turizm, FMCG ve B2B markalar",
+        "KPI çekirdeği: mention SOV + reach SOV + engagement SOV + trafik/lead/rezervasyon trendi",
+        "Entity theme: SOV, social listening, competitive benchmark, market visibility",
+        "Funnel: discover → consider → convert (SOV çoğunlukla üst/orta huni sinyali)",
+        "Risk: sosyal dinleme aracının kanal/dil kapsamı sınırlıysa SOV yanlış yorumlanır",
+        "Çıktı: SOV grafik mockup + SOV→sonuç tablosu + SOV checklist",
+        "Başarı ölçümü: SOV artışı ile trafik/lead trendlerini birlikte okuyarak kök nedeni daha net görmek"
+      ]
+    },
+    "h1": {
+      "title": "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+      "intro": "Sosyal medyada bazen “çok içerik üretiyoruz ama rakip daha çok konuşuluyor” hissi oluşur. Bazen de tam tersi: marka çok konuşuluyor gibi görünür ama web trafiği veya lead/rezervasyon artmıyordur. İşte bu noktada Share of Voice (SOV) analizi devreye girer: markanızın sosyal görünürlüğünü rakip seti içinde ölçer ve bu görünürlüğün sonuç KPI’larıyla (trafik, lead, rezervasyon) ilişkisini daha net okumanızı sağlar. Bu rehber, SOV’u nasıl ölçebileceğinizi (mention/reach/engagement), rakip setini nasıl seçeceğinizi, otel ve B2B için dashboard kurgusunu ve SOV artışının her zaman “pazar payı artışı” demek olmadığını nasıl yorumlayacağınızı anlatır.",
+      "quickSummary": [
+        "1) SOV’u mention, reach ve engagement bazında ayrı oku",
+        "2) Rakip setini aynı kategori, pazar ve ölçeğe göre seç",
+        "3) SOV trendini trafik, lead ve rezervasyon trendleriyle yan yana değerlendir",
+        "4) Negatif görünürlük riskini sentiment ve tema kontrolleriyle ayır",
+        "5) SOV artışını doğrudan pazar payı artışı gibi yorumlama; sonuç KPI’larıyla doğrula"
+      ],
+      "ctaPrimary": {
+        "label": "Share of Voice & Sosyal Medya Benchmark Analizi Talep Et",
+        "text": "Rakip seti ve SOV modelini kurar; SOV’i trafik/lead/rezervasyonla birlikte okuyarak net aksiyon üretir.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Share of Voice & Sosyal Medya Benchmark Analizi Talep Et",
+        "text": "Rakip seti ve SOV modelini kurar, SOV’i trafik/lead/rezervasyon trendleriyle birlikte yorumlar; rekabeti yoğun markalar için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "SOV & Rakip Karşılaştırmalı Sosyal Medya Dashboard Şablonunu İndir",
+        "text": "SOV metriklerini ve sonuç KPI’larını tek panelde birleştirip rakip kıyasını net ve okunabilir hale getirir.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SEO otorite ve backlink yönetimi",
+        "href": "/seo/backlink-yonetimi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+        "href": "/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
+        "title": "Kitle Kohort Analizi: Takipçi ve Ziyaretçi Kohortları ile Sosyal Medya Raporu",
+        "href": "/smm/blog/kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "share-of-voice-sov-nedir",
+        "title": "Share of Voice (SOV) nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SOV, en basit haliyle “konuşmanın payı”dır: belirli bir dönemde ve belirli bir ortamda (sosyal medya/online konuşma), sizin markanızın rakiplere göre ne kadar yer kapladığını gösterir. SOV tek bir sayı gibi görünse de, doğru karar için hangi sinyale göre hesaplandığını bilmek şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Share of voice (SOV) nedir, sosyal medyada nasıl ölçülür? "
+          },
+          {
+            "type": "p",
+            "text": "SOV, bir rakip seti içindeki toplam konuşmanın (mention/reach/engagement) içinde markanızın payıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mention SOV = markanızın mention’ları / (marka + rakip mention’ları)",
+              "Reach SOV = markanızın erişimi / (marka + rakip erişimi)",
+              "Engagement SOV = markanızın etkileşimi / (marka + rakip etkileşimi)",
+              "SOV’yi doğru yorumlamak için aynı dönem trafik/lead/rezervasyon trendini de yanına koymanız gerekir."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): Bir destinasyonda (örn. Belek) 5 otel rakip seti seçiyorsunuz. Bir otelin mention SOV’u yükseliyor ama sentiment negatife dönüyorsa, bu “pazar payı” değil “kriz görünürlüğü” olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (SOV temeli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SOV’u hangi sinyalle ölçüyorum (mention/reach/engagement)?",
+              "Rakip setim aynı kategori ve hedef kitlede mi?",
+              "SOV’u tek başına değil sonuç KPI’larıyla birlikte mi okuyorum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Önce “SOV türü”nü seç (mention mi reach mi?)",
+              "SOV grafiğine mutlaka “sonuç grafiği” ekle (trafik/lead)",
+              "Negatif görünürlük riskini sentiment/tema ile kontrol et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "mention-reach-ve-engagement-bazli-sov",
+        "title": "Mention, Reach ve Engagement bazlı SOV",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SOV’un “tek bir doğru” formu yoktur; her bir SOV türü farklı soruyu cevaplar. Bu yüzden dashboard’ta SOV’u tek metrik yerine katmanlı düşünmek en sağlıklısıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mention SOV (bahsedilme payı)"
+          },
+          {
+            "type": "p",
+            "text": "Ne soruyu cevaplar? “Marka hakkında ne kadar konuşuluyor?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Artı: PR, konuşma yoğunluğu ve kriz sinyalini yakalar.",
+              "Eksi: Negatif konuşma da mention’ı artırabilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Reach SOV (erişim payı)"
+          },
+          {
+            "type": "p",
+            "text": "Ne soruyu cevaplar? “Konuşma kaç kişiye ulaşıyor?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Artı: dağıtım gücünü, paid boost veya viral yayılımı gösterir.",
+              "Eksi: platform raporları ve tahmin algoritmaları farklı olabilir (Varsayım: araç farkı)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Engagement SOV (etkileşim payı)"
+          },
+          {
+            "type": "p",
+            "text": "Ne soruyu cevaplar? “Kitle kimle etkileşime giriyor?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Artı: topluluk ve içerik kalitesine daha yakın sinyal üretir.",
+              "Eksi: etkileşim botları veya giveaway etkisiyle şişebilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (SOV tür seçimi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Konuşulma” mı, “ulaşma” mı, “etkileşim” mi ölçmek istiyorum?",
+              "Negatif konuşmalar SOV’u şişiriyor olabilir mi?",
+              "Format/kampanya (giveaway vs) etkisini not ediyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 SOV’u aynı ekranda küçük panellerle göster",
+              "Engagement SOV’u “kalite etkileşimi” (save/share) ile doğrula (Varsayım)",
+              "Mention SOV artışında sentiment ve tema kontrolü ekle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "rakip-seti-nasil-secilir",
+        "title": "Rakip seti nasıl seçilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SOV’un doğruluğu, rakip setinin doğruluğudur. Yanlış rakip seti seçerseniz SOV sayısı “matematiksel” olarak doğru olsa bile stratejik olarak anlamsız olur."
+          },
+          {
+            "type": "h3",
+            "text": "Rakip seti seçimi için 6 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Aynı kategori: aynı segment (ör. resort vs city hotel)",
+              "Aynı pazar/ülke: hedef kitle ve dil yakınlığı",
+              "Benzer ölçek: dev marka ile butik markayı aynı sepete koymak yanıltır",
+              "Benzer kanal mix: bir marka TikTok ağırlıklı, diğeri LinkedIn ağırlıklıysa ayrı okumak gerekebilir",
+              "Aynı dönem: kampanya dönemlerini işaretle (campaign vs always-on)",
+              "Az ama doğru: 5–8 rakip ideal (çoğalınca gürültü artar)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rakip seti nasıl seçilir ve SOV raporuna nasıl yansıtılır? "
+          },
+          {
+            "type": "p",
+            "text": "Rakip setini belirledikten sonra her rakibi “etiketle”yin: segment, ülke, ürün/teklif, kanal ağırlığı. Dashboard’ta rakip setini bir filtre olarak tutun; SOV grafiği her zaman “hangi set” ile ölçüldüğünü yazsın. Böylece ekip “hangi sepete göre konuşuyoruz?” sorusunu net görür."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: B2B’de rakip seti; aynı hizmet alanında ve benzer fiyat bandında 6 firma. Otelde rakip seti; aynı destinasyonda (Side) aynı konseptte 5 otel."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (rakip set sağlığı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rakip setinde “farklı segment” kaçakları var mı?",
+              "Rakiplerin kampanya dönemleri notlanıyor mu?",
+              "Rakip setini 6 ayda bir gözden geçiriyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rakip setini “çekirdek” ve “geniş” olarak iki katman yap (Varsayım)",
+              "Kampanya dönemlerini timeline’a işaretle",
+              "Rakip setini büyütmek yerine seti “doğrula”"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-sov-dashboard-ornegi",
+        "title": "Otel ve B2B için SOV dashboard örneği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SOV dashboard’un hedefi: “kim daha çok konuşuluyor?” demek değil; “neden konuşuluyor ve bu konuşma iş sonucuna bağlanıyor mu?” sorusunu cevaplamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "SOV dashboard’un minimum bileşenleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SOV trend grafiği (mention + reach + engagement)",
+              "Rakip seti filtresi",
+              "Sentiment/tema mini paneli (en azından negatif spike kontrolü)",
+              "Sonuç paneli: GA4 trafik + lead/rezervasyon trendi (Varsayım: ölçüm)",
+              "Not alanı: kampanya/kriz/algoritma olayları (timeline)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel dashboard örneği (destinasyon SOV)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon: Antalya/Belek/Side/Kemer/Bodrum gibi bir bölge seti",
+              "Rakip seti: aynı konseptte 5–7 otel",
+              "SOV: mention/reach/engagement",
+              "Sonuç: teklif sayfası trafiği, rezervasyon niyeti proxy’si (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Okuma: SOV artışı varsa “hangi tema konuşuluyor?” ve “rezervasyon niyeti artıyor mu?” birlikte."
+          },
+          {
+            "type": "h3",
+            "text": "B2B dashboard örneği (sektör SOV)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rakip seti: aynı ICP’ye hitap eden firmalar",
+              "SOV: mention + engagement (LinkedIn ağırlıklı olabilir)",
+              "Sonuç: siteye nitelikli trafik, demo lead (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Okuma: SOV artışı, thought leadership mi yoksa tartışma/kriz mi?"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (dashboard okunabilirliği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SOV trendi ile sonuç trendi yan yana mı?",
+              "Rakip seti filtresi görünür mü?",
+              "Negatif görünürlük kontrolü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "SOV grafiğinin yanına “trafik/lead” grafiği koy",
+              "Haftalık: SOV değişimi + 1 cümle neden notu",
+              "Aylık: SOV→sonuç korelasyon hipotezi + test"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: SOV ile sonuç KPI’larını yan yana gösteren tablo",
+            "headers": [
+              "Dönem",
+              "Mention SOV",
+              "Reach SOV",
+              "Engagement SOV",
+              "Site trafiği",
+              "Lead/Rez (Varsayım)",
+              "Not (kampanya/olay)"
+            ],
+            "rows": [
+              [
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____"
+              ],
+              [
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SOV & Rakip Karşılaştırmalı Sosyal Medya Dashboard Şablonunu İndir",
+            "text": "Rakip seti filtresi, SOV türleri ve sonuç KPI’larını tek panelde birleştirip okunabilir bir benchmark yapısı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      },
+      {
+        "id": "sov-pazar-payi-iliskisini-yorumlamak",
+        "title": "SOV → pazar payı ilişkisini yorumlamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada kritik uyarı: SOV artışı her zaman pazar payı artışı değildir. SOV bir “görünürlük” sinyalidir; pazar payı ise çoğu zaman fiyat, ürün, dağıtım ve talep koşulları gibi daha geniş dinamiklere bağlıdır."
+          },
+          {
+            "type": "h3",
+            "text": "SOV artışı her zaman pazar payı artışı mı demektir? "
+          },
+          {
+            "type": "p",
+            "text": "Hayır. SOV artışı üç farklı nedenle olabilir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pozitif görünürlük: iyi kampanya/UGC/PR → talep artışıyla birlikte gelebilir",
+              "Negatif görünürlük: kriz/şikâyet → SOV artar ama satış düşebilir",
+              "Paid görünürlük: bütçe artışı → reach SOV artar ama verim düşebilir"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden SOV trendini mutlaka trafik/lead/rezervasyon ve sentiment ile birlikte okumak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "“SOV + Sonuç” modeli (pratik yorum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SOV ↑ + Trafik ↑ + Lead ↑ → görünürlük işe dönüyor (ölçekle)",
+              "SOV ↑ + Trafik ↔ + Lead ↔ → konuşma var ama niyet yok (mesaj/CTA/landing)",
+              "SOV ↑ + Trafik ↓ + Negatif ↑ → kriz görünürlüğü (itibar aksiyonu)",
+              "SOV ↓ + Trafik ↑ → organik talep başka yerden geliyor olabilir (SEO/SEM sinerjisi, Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet’ten): Sosyal dinleme araçlarının dil ve veri kapsamı sınırlamaları vardır. Hangi kanalları, hangi dilleri, hangi kaynakları kapsadığını bilmeden SOV’u “mutlak gerçek” gibi yorumlamak risklidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (yorum guardrail)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SOV artışı “pozitif mi negatif mi” ayrıştı mı?",
+              "Araç kapsama alanı (kanal/dil) net mi?",
+              "SOV’u sonuç KPI’larıyla aynı tarihte mi okuyorsun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "SOV artışında 3 kontrol: sentiment, kampanya notu, sonuç KPI",
+              "“SOV↑ ama satış yok” durumunda mesaj/landing uyumunu test et",
+              "SOV↓ durumunda rakiplerin kampanya dönemlerini kontrol et (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): SOV artışı ile trafik/lead trendlerini birlikte okuyan markalar, “çok konuşuluyoruz ama satış yok” veya tam tersi durumların kök nedenini daha net görebiliyor; SOV tek başına değil, sonuçlarla birlikte anlam kazanıyor."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Share of Voice & Sosyal Medya Benchmark Analizi Talep Et",
+            "text": "Rakip setini doğrular, SOV türlerini kurar, SOV→sonuç okumasıyla aksiyon planı çıkarır.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sov-rakip-karsilastirmali-sosyal-medya-dashboard-sablonu",
+        "title": "SOV & Rakip Karşılaştırmalı Sosyal Medya Dashboard Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "SOV & Rakip Karşılaştırmalı Sosyal Medya Dashboard Şablonu — SMM / SOV Benchmark (v1.0)",
+            "purpose": "Bu şablon, SOV’u (mention/reach/engagement) rakip seti içinde ölçüp trafik/lead/rezervasyon trendleriyle aynı ekranda okumayı sağlar. Rakip seti seçimi, veri kapsamı (dil/kanal) notları ve “SOV artışı ≠ pazar payı” guardrail’leriyle yanlış yorumu azaltır. Otel ve B2B için rol bazlı (yönetici/analist) görünümleri kolayca türetilebilir.",
+            "whoFor": "TR geneli rekabetin yoğun olduğu otel/turizm, FMCG ve B2B ekipleri; ajanslar.",
+            "steps": [
+              "Rakip setini seçip etiketleyin (segment/pazar/kanal ağırlığı).",
+              "SOV türlerini (mention/reach/engagement) hesaplayıp timeline’a yerleştirin.",
+              "SOV trendini trafik/lead/rezervasyon grafikleriyle yan yana koyup aksiyon çıkarın."
+            ],
+            "checklist": [
+              "SOV artışı negatif mi? (sentiment/tema)",
+              "Kampanya/PR olayı var mı? (timeline notu)",
+              "Sonuç KPI’larında eş zamanlı artış var mı?",
+              "Veri kapsamı değişti mi? (dil/kanal)"
+            ],
+            "template": {
+              "competitorSetDefinition": [
+                "Pazar/segment: __________________",
+                "Rakip seti (5–8 marka): __________________",
+                "Not: kampanya dönemleri: __________________"
+              ],
+              "dataScopeNote": [
+                "Sosyal dinleme aracı: __________________ (Varsayım)",
+                "Kapsanan kanallar: __________________",
+                "Dil kapsamı: __________________",
+                "Kısıt/boşluk: __________________"
+              ],
+              "sovKpiSet": "C) SOV KPI Seti",
+              "sovResultTable": "D) SOV + Sonuç Tablosu",
+              "guardrailControls": [
+                "SOV artışı negatif mi? (sentiment/tema)",
+                "Kampanya/PR olayı var mı? (timeline notu)",
+                "Sonuç KPI’larında eş zamanlı artış var mı?",
+                "Veri kapsamı değişti mi? (dil/kanal)"
+              ],
+              "actionPlan30Days": [
+                "Aksiyon 1 (içerik): ____ | Sahip: ____ | Tarih: ____",
+                "Aksiyon 2 (paid/dağıtım, Varsayım): ____ | Sahip: ____ | Tarih: ____",
+                "Aksiyon 3 (SEO/PR sinerji, Varsayım): ____ | Sahip: ____ | Tarih: ____"
+              ]
+            },
+            "deliverables": [
+              "SOV dashboard (timeline + rakip seti filtresi)",
+              "SOV + sonuç özet tablosu",
+              "Aksiyon planı + olay notları"
+            ],
+            "href": "/downloads/sov-rakip-karsilastirmali-sosyal-medya-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: SOV tek başına değil, sonuç KPI’larıyla anlam kazanır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Share of Voice, markanızın sosyal medyada rakiplere göre ne kadar görünür olduğunu anlamak için güçlü bir rekabet metriğidir. Ancak SOV tek başına pazar payı veya gelir artışı anlamına gelmez; yalnızca görünürlük sinyalidir."
+          },
+          {
+            "type": "p",
+            "text": "Doğru yorum için SOV’u mention, reach ve engagement katmanlarında ölçmek; rakip setini sağlıklı seçmek; sentiment, kampanya notları ve trafik/lead/rezervasyon trendleriyle birlikte okumak gerekir. Böylece “çok konuşuluyoruz ama satış yok” ya da “az konuşuluyoruz ama iş geliyor” gibi durumların kök nedeni daha net görünür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Share of Voice & Sosyal Medya Benchmark Analizi Talep Et",
+            "text": "Rakip seti ve SOV modelini kurar, SOV’i trafik/lead/rezervasyon trendleriyle birlikte yorumlar; rekabeti yoğun markalar için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "SOV & Rakip Karşılaştırmalı Sosyal Medya Dashboard Şablonunu İndir",
+            "text": "SOV metriklerini ve sonuç KPI’larını tek panelde birleştirip rakip kıyasını net ve okunabilir hale getirir.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Share of voice (SOV) nedir, sosyal medyada nasıl ölçülür?",
+        "a": "SOV, rakip seti içinde konuşmanın payıdır. Mention, reach veya engagement bazında hesaplanabilir: marka metriği / (marka + rakipler). Doğru yorum için SOV trendi, trafik/lead/rezervasyon trendleriyle birlikte okunmalıdır."
+      },
+      {
+        "q": "Rakip seti nasıl seçilir ve SOV raporuna nasıl yansıtılır?",
+        "a": "Rakip seti aynı segment, pazar ve ölçekten 5–8 markadan seçilmelidir. Dashboard’ta rakip seti filtresi görünür olmalı ve SOV her zaman “hangi set” ile ölçüldüğünü belirtmelidir. Kampanya dönemleri timeline’a işaretlenmelidir."
+      },
+      {
+        "q": "Otel ve B2B için SOV’i hangi KPI’larla birlikte okumalıyım?",
+        "a": "Otelde SOV’i site trafiği, teklif sayfası davranışı ve rezervasyon niyeti/rezervasyon KPI’larıyla (Varsayım) birlikte okuyun; B2B’de nitelikli trafik ve demo/lead ile birlikte izleyin. Negatif görünürlük riskini sentiment/tema ile kontrol edin."
+      },
+      {
+        "q": "SOV artışı her zaman pazar payı artışı mı demektir?",
+        "a": "Hayır. SOV artışı pozitif görünürlük, negatif kriz görünürlüğü veya paid bütçe artışı nedeniyle olabilir. Bu yüzden sentiment ve sonuç KPI’larıyla birlikte doğrulamak gerekir; aksi halde yanlış yorum riski oluşur."
+      },
+      {
+        "q": "Sosyal dinleme aracının sınırlamaları SOV’u etkiler mi?",
+        "a": "Evet. Kanal ve dil kapsamı sınırlıysa bazı konuşmalar yakalanmayabilir ve SOV eksik/yanlış görünebilir. Raporun başında veri kapsamı notu ve guardrail kontrolleri yer almalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-hero-01.webp",
+          "h1-context — 1920×1080 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-divider-03.webp",
+          "divider-02 — 1600×1200 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-divider-04.webp",
+          "diagram-05 — 1920×1080 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-kpi-07.webp",
+          "proof-08 — 1200×1200 — share-of-voice-ve-sosyal-medya-pazar-payi-analizi-proof-08.webp",
+          "table-sov-result-kpi — SOV (mention/reach/engagement) + trafik/lead trend tablosu",
+          "sov-chart-mockup — 16:9 — marka vs rakip SOV yüzdeleri",
+          "side-by-side-trend — 16:9 — SOV ve trafik/lead trendleri yan yana"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Primary CTA H1 sonunda ve kapanışta kullanıldı",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Download Asset bloğu üretildi",
+          "İç link hedefleri kontrol edildi: /smm/analiz-raporlama, /raporlama/benchmark-analizi, /seo/backlink-yonetimi",
+          "SOV + sonuç KPI tablosu içerik içine eklendi",
+          "Media pack slot adları içerik içindeki media bloklarıyla uyumlu",
+          "SOV artışı ≠ pazar payı guardrail’i içerik ve asset içinde vurgulandı"
+        ]
+      }
+    }
   }
 
 }

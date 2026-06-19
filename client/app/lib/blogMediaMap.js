@@ -43897,6 +43897,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "CRM entegrasyonu teslim paketi, mapping sözlüğü ve gelir dashboard çıktıları",
       caption: "CRM entegrasyonu teslim paketi, mapping sözlüğü ve gelir dashboard çıktıları"
     }
+  },
+
+  "raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu":{
+    banner: {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-1.webp",
+      alt: "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+      caption: "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-2.webp",
+      alt: "SMM ops kültürü, rapor ritmi katmanları, ekip içi karar döngüsü",
+      caption: "SMM ops kültürü, rapor ritmi katmanları, ekip içi karar döngüsü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-3.webp",
+    alt: "Günlük haftalık aylık çeyreklik analiz ritmi, sosyal medya operasyon takvimi, sürdürülebilir raporlama",
+      caption: "Günlük haftalık aylık çeyreklik analiz ritmi, sosyal medya operasyon takvimi, sürdürülebilir raporlama"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-4.webp",
+      alt: "Otel ve B2B analiz takvimi, cadence design, sezon ve pipeline uyumu",
+      caption: "Otel ve B2B analiz takvimi, cadence design, sezon ve pipeline uyumu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-5.webp",
+      alt: "Sosyal medya analiz ritmi timeline diyagramı, öğrenim döngüsü, operasyon kültürü",
+      caption: "Sosyal medya analiz ritmi timeline diyagramı, öğrenim döngüsü, operasyon kültürü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-6.webp",
+      alt: "Raporlama ritmi checklist’i, KPI ve toplantı rutinleri, ekip kapasitesi uyumu",
+      caption: "Raporlama ritmi checklist’i, KPI ve toplantı rutinleri, ekip kapasitesi uyumu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-7.webp",
+      alt: "Seviye bazlı KPI kartları, günlükten çeyreğe ölçüm seti, otel ve B2B raporu",
+      caption: "Seviye bazlı KPI kartları, günlükten çeyreğe ölçüm seti, otel ve B2B raporu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-20/SMM5-20-8.webp",
+      alt: "Analiz ops playbook teslim paketi, takvim şablonu ve rapor çıktıları, DGTLFACE",
+      caption: "Analiz ops playbook teslim paketi, takvim şablonu ve rapor çıktıları, DGTLFACE"
+    }
+  },
+
+  "kitle-kohort-analizi-takipci-ve-ziyaretci-kohortlari-ile-sosyal-medya-raporu":{
+     banner: {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-1.webp",
+      alt: "Kitle Kohort Analizi: Takipçi ve Ziyaretçi Kohortları ile Sosyal Medya Raporu",
+      caption: "Kitle Kohort Analizi: Takipçi ve Ziyaretçi Kohortları ile Sosyal Medya Raporu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-2.webp",
+      alt: "Kohort mantığı, kazanım ayı ve retention pencereleri, sosyal medya raporlama",
+      caption: "Kohort mantığı, kazanım ayı ve retention pencereleri, sosyal medya raporlama"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-3.webp",
+    alt: "Takipçi kohortları, 30/60/90 gün retention grafiği, sosyal büyüme kalitesi",
+      caption: "Takipçi kohortları, 30/60/90 gün retention grafiği, sosyal büyüme kalitesi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-4.webp",
+      alt: "Ziyaretçi kohortları, kampanya ve persona bazlı tekrar ziyaret, dönüşüm köprüsü",
+      caption: "Ziyaretçi kohortları, kampanya ve persona bazlı tekrar ziyaret, dönüşüm köprüsü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-5.webp",
+      alt: "Kohort retention ve aksiyon akışı, içerik ve bütçe kaydırma, otel ve B2B model",
+      caption: "Kohort retention ve aksiyon akışı, içerik ve bütçe kaydırma, otel ve B2B model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-6.webp",
+      alt: "Kohort analiz checklist’i, tarih ve filtre tutarlılığı, sosyal medya raporu",
+      caption: "Kohort analiz checklist’i, tarih ve filtre tutarlılığı, sosyal medya raporu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-7.webp",
+      alt: "Retention KPI kartları, repeat engagement ve repeat visit, kohort performansı",
+      caption: "Retention KPI kartları, repeat engagement ve repeat visit, kohort performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-21/SMM5-21-8.webp",
+      alt: "Kohort raporu teslim paketi, retention grafikleri ve tablo, aksiyon planı",
+      caption: "Kohort raporu teslim paketi, retention grafikleri ve tablo, aksiyon planı"
+    }
+  },
+
+  "share-of-voice-ve-sosyal-medya-pazar-payi-analizi":{
+     banner: {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-1.webp",
+      alt: "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+      caption: "Share of Voice ve Sosyal Medya Pazar Payı Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-2.webp",
+      alt: "Kohort mantığı, kazanım ayı ve retention pencereleri, sosyal medya raporlama",
+      caption: "Kohort mantığı, kazanım ayı ve retention pencereleri, sosyal medya raporlama"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-3.webp",
+    alt: "Takipçi kohortları, 30/60/90 gün retention grafiği, sosyal büyüme kalitesi",
+      caption: "Takipçi kohortları, 30/60/90 gün retention grafiği, sosyal büyüme kalitesi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-4.webp",
+      alt: "Ziyaretçi kohortları, kampanya ve persona bazlı tekrar ziyaret, dönüşüm köprüsü",
+      caption: "Ziyaretçi kohortları, kampanya ve persona bazlı tekrar ziyaret, dönüşüm köprüsü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-5.webp",
+      alt: "Kohort retention ve aksiyon akışı, içerik ve bütçe kaydırma, otel ve B2B model",
+      caption: "Kohort retention ve aksiyon akışı, içerik ve bütçe kaydırma, otel ve B2B model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-6.webp",
+      alt: "Kohort analiz checklist’i, tarih ve filtre tutarlılığı, sosyal medya raporu",
+      caption: "Kohort analiz checklist’i, tarih ve filtre tutarlılığı, sosyal medya raporu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-7.webp",
+      alt: "Retention KPI kartları, repeat engagement ve repeat visit, kohort performansı",
+      caption: "Retention KPI kartları, repeat engagement ve repeat visit, kohort performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-22/SMM5-22-8.webp",
+      alt: "Kohort raporu teslim paketi, retention grafikleri ve tablo, aksiyon planı",
+      caption: "Kohort raporu teslim paketi, retention grafikleri ve tablo, aksiyon planı"
+    }
   }
   
 };
