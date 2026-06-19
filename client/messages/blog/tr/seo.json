@@ -13833,7 +13833,7 @@
     },
     "h1": {
       "title": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
-      "intro": "SEO raporlamada en sık yapılan hata; GA4’e “trafik raporu”, Search Console’a “SEO raporu” gözüyle ayrı ayrı bakmaktır. Oysa gerçek değer, dual-source reporting yaklaşımıyla gelir: GSC’nin görünürlük sinyallerini (impressions/clicks/CTR/position) GA4’ün davranış sinyalleriyle (sessions/engagement/conversions) aynı dönemde birleştirdiğinizde, “ne oldu?”nun yanında “neden oldu?” ve “ne yapmalıyız?” netleşir. Özellikle turizm ve hizmet sitelerinde (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda) karar verici şunu ister: hangi sorgudan gelen kullanıcı hangi landing’de nasıl davrandı? İşte bu rehber, query-to-landing mapping mantığını pratik şekilde kurar.",
+      "intro": "SEO raporlamada en sık yapılan hata; GA4’e “trafik raporu”, Search Console’a “SEO raporu” gözüyle ayrı ayrı bakmaktır. Oysa gerçek değer, [GA4 ve Search Console birlikte](/tr/seo/seo-raporlama) okunduğunda ortaya çıkar: GSC’nin görünürlük sinyallerini (impressions/clicks/CTR/position) GA4’ün davranış sinyalleriyle (sessions/engagement/conversions) aynı dönemde birleştirdiğinizde, “ne oldu?”nun yanında “neden oldu?” ve “ne yapmalıyız?” netleşir. Özellikle turizm ve hizmet sitelerinde (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda) karar verici şunu ister: hangi sorgudan gelen kullanıcı hangi landing’de nasıl davrandı? İşte bu rehber, query-to-landing mapping mantığını pratik şekilde kurar.",
       "quickSummary": [
         "1) GA4 neyi ölçer / GSC neyi ölçer? (behaviour vs visibility)",
         "2) Aynı landing + aynı dönem kuralını sabitle",
@@ -13861,19 +13861,56 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
+        "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO Raporu KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "label": "Segment Bazlı SEO Raporu",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporu KPI Rehberi (TR): Nasıl Hazırlanır?",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "title": "Segment Bazlı SEO Raporu: Cihaz & Ülke Analizi",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
+      },
+      {
+        "title": "SEO Raporlarında Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      }
+    ],
     "sections": [
       {
         "id": "ga4-vs-gsc",
@@ -13886,6 +13923,10 @@
           {
             "type": "p",
             "text": "GA4 ve Google Search Console aynı şeye bakmaz; bu yüzden bazen “rakamlar uyuşmuyor” hissi doğar. Aslında uyuşmamasının nedeni çoğu zaman “hata” değil; ölçtükleri şeyin farklı olmasıdır. Bu bölümü doğru kurarsanız, raporunuzun omurgası oturur: visibility (GSC) + behaviour (GA4)."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [SEO hizmetleri içinde GA4 ve GSC analizi](/tr/seo-hizmetleri), sıralama takibini davranış, dönüşüm ve kanal etkisiyle birlikte okunan daha geniş bir raporlama süreci olarak konumlanır."
           },
           {
             "type": "h3",
@@ -13985,6 +14026,10 @@
             "text": "Bu farkı kabul etmeden rapor okumaya çalışırsanız iki risk doğar:\n1. GSC’de “tıklama düştü” görür, GA4’te “oturum aynı” görüp yanlış sonuca varırsınız.\n2. GA4’te “organik oturum düştü” görür, GSC’de “impressions aynı” deyip problemi kaçırırsınız."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı temel KPI mantığına bağlamak için [GSC ve GA4 farkı](/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi), görünürlük ve davranış metriklerinin hangi kararları desteklediğini daha sade bir çerçevede açıklar."
+          },
+          {
             "type": "h3",
             "text": "En sık karışan 4 durum ve doğru yorum"
           },
@@ -14001,6 +14046,10 @@
           {
             "type": "p",
             "text": "Mini örnek (Bodrum):\nBodrum konsept sayfanızın impressions artıyor ama CTR sabitse, GSC “görünüyorum” der; GA4 “trafik aynı” der. Buradan çıkacak aksiyon genellikle: başlık–meta–FAQ snippet güçlendirme + landing vaadini netleştirme."
+          },
+          {
+            "type": "p",
+            "text": "Bu veriyi daha derin yorumlamak için [GA4 ve GSC verisini analiz etmek](/tr/veri-analiz-ve-raporlama), segmentasyon, veri temizliği ve karşılaştırma mantığını raporun standardı haline getirmeyi kolaylaştırır."
           },
           {
             "type": "callout",
@@ -14171,6 +14220,10 @@
             "text": "Brand/non-brand ayrımı yapılmadan rapor “iyi gidiyor” gibi görünebilir ama büyüme alanını kaçırabilirsiniz. Çünkü brand aramalarda CTR doğal olarak yüksek olabilir; asıl kazanım çoğu zaman non-brand tarafında, yani yeni talepte saklıdır."
           },
           {
+            "type": "p",
+            "text": "Cihaz, ülke, kullanıcı tipi ve [segment bazlı SEO raporu](/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen) kırılımları, marka / non-brand analizini tek bir sorgu listesi olmaktan çıkarıp gerçek karar alanlarına taşır."
+          },
+          {
             "type": "h3",
             "text": "Brand/non-brand ayrımı nasıl yapılır? (pratik yaklaşım)"
           },
@@ -14305,6 +14358,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [SEO verisinde izleme hijyeni](/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi), event eksikleri, filtre sorunları ve veri güvenilirliği problemlerini yorum aşamasından önce görünür hale getiren kritik bir katmandır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check (Bu bölümün kontrolü)",
@@ -14343,11 +14400,19 @@
             "text": "TR içeriklerinde çoğu rehber GA4 ve GSC’yi ayrı ayrı açıklar; ancak iki aracı aynı landing ve aynı dönem için bağlayan örnekler sınırlıdır. Bu yüzden rapor standardınızı şu cümleyle kilitleyin:\n“Her yorum, aynı landing ve aynı tarih aralığı için GSC görünürlük + GA4 davranış birlikte okunarak yapılır.”"
           },
           {
+            "type": "p",
+            "text": "Bu standardı sürdürülebilir kılmak için [GA4 + GSC dashboard](/tr/raporlama/looker-studio), görünürlük ve davranış sinyallerini tek panelde takip etmeyi kolaylaştırır; yönetim katında ise [SEO ve reklam raporlarını birlikte okumak](/tr/sem/reklam-raporlama), organik ve ücretli kanal etkisini aynı karar çerçevesinde değerlendirmenizi sağlar."
+          },
+          {
             "type": "media",
             "slot": "proof-08",
             "src": "ga4-ve-search-console-verilerini-birlikte-okumak-proof-08.webp",
             "alt": "Birleşik rapor çıktı kartı, amaç yönetici özeti, otel-ajans raporlama bağlamı",
             "ratio": "1:1"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı standartlaştırmak isteyen ekipler için [profesyonel SEO Raporlama ve GA4 + GSC analizi](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; değerlendirme öncesinde [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da süreç beklentilerini netleştirmeye yardımcı olur."
           },
           {
             "type": "cta",
@@ -14535,7 +14600,7 @@
     },
     "h1": {
       "title": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
-      "intro": "Anahtar kelime sıralama raporu görmek rahatlatıcıdır: “şu kelimede 3’e çıktık” gibi net cümleler kurdurur. Ama SEO’nun gerçek etkisi çoğu zaman bu kadar basit değildir; çünkü SERP artık tek bir “10 mavi link” düzeni değil: PAA, featured snippet, harita, otel blokları, video/AI cevaplar derken tıklama davranışı sürekli değişir. Bu yüzden doğru okuma; tek tek kelimeler yerine cluster bazlı görünürlük trendini (share of voice) izlemek ve bunu brand/non-brand ayrımıyla netleştirmektir. Bu rehber, yönetim toplantısında “1. sırada değiliz” paniğini, stratejik bir görünürlük okumasına çevirmenizi sağlar.",
+    "intro": "Anahtar kelime sıralama raporu görmek rahatlatıcıdır: “şu kelimede 3’e çıktık” gibi net cümleler kurdurur. Ama SEO’nun gerçek etkisi çoğu zaman bu kadar basit değildir; çünkü SERP artık tek bir “10 mavi link” düzeni değil: PAA, featured snippet, harita, otel blokları, video/AI cevaplar derken tıklama davranışı sürekli değişir. Bu yüzden doğru okuma; tek tek kelimeler yerine cluster bazlı görünürlük trendini (share of voice) izlemek ve bunu brand/non-brand ayrımıyla netleştirmektir. Bu rehber, [anahtar kelime sıralama raporu](/tr/seo/seo-raporlama) okumalarını yönetim toplantısında “1. sırada değiliz” paniğinden çıkarıp stratejik bir görünürlük okumasına çevirmenizi sağlar.",
       "quickSummary": [
         "1) Sıralama raporunu “tek sayfa karar” olmaktan çıkar; GSC+GA4 ile bağla",
         "2) Listeyi “tek kelime” değil, cluster mantığıyla kur",
@@ -14563,26 +14628,54 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
+        "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO Raporu KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "label": "Sezonluk ve Yıl Bazlı SEO Performans Raporları",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      },
+      {
+        "label": "Segment Bazlı SEO Raporu",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
+      },
+      {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/tr/seo/seo-raporlama"
+        "title": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      },
+      {
+        "title": "Segment Bazlı SEO Raporu: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
       }
     ],
     "sections": [
@@ -14594,10 +14687,14 @@
             "type": "media",
             "slot": "h1-context-02"
           },
-          {
-            "type": "p",
-            "text": "Sıralama takibi, belirlediğiniz “hedef keyword listesi” üzerinden bir trend sunar: artış/azalış görürsünüz. Ancak bu listenin iki sınırlılığı vardır:\n\t1.\tGerçek sorgu evrenini tam temsil etmeyebilir (Google’da kullanıcılar sizin listeden farklı şekilde arar).\n\t2.\tSERP özellikleri nedeniyle, “pozisyon” tıklamaya aynı etkiyi yapmayabilir."
-          },
+            {
+              "type": "p",
+              "text": "Sıralama takibi, belirlediğiniz “hedef keyword listesi” üzerinden bir trend sunar: artış/azalış görürsünüz. Ancak bu listenin iki sınırlılığı vardır:\n\t1.\tGerçek sorgu evrenini tam temsil etmeyebilir (Google’da kullanıcılar sizin listeden farklı şekilde arar).\n\t2.\tSERP özellikleri nedeniyle, “pozisyon” tıklamaya aynı etkiyi yapmayabilir."
+            },
+            {
+              "type": "p",
+              "text": "Bu yüzden bu tabloyu, [SEO hizmetleri içinde görünürlük raporu](/tr/seo-hizmetleri) yaklaşımının bir parçası olarak; sıralama, tıklama ve davranış verisiyle birlikte okumak gerekir."
+            },
           {
             "type": "h3",
             "text": "Gösterir:"
@@ -14680,10 +14777,14 @@
               "Cihaz/lokasyon etkisini unutma: Özellikle turizmde lokasyon ve kişiselleştirme konumu etkileyebilir."
             ]
           },
-          {
-            "type": "p",
-            "text": "Mini örnek (Kemer):\nKemer’de arama yapan kullanıcı harita paketini görür; desktop’ta “konum 4” olan sayfa mobilde harita altında kalabilir. Bu yüzden “ortalama konum aynı” olsa bile tıklama değişebilir."
-          },
+            {
+              "type": "p",
+              "text": "Mini örnek (Kemer):\nKemer’de arama yapan kullanıcı harita paketini görür; desktop’ta “konum 4” olan sayfa mobilde harita altında kalabilir. Bu yüzden “ortalama konum aynı” olsa bile tıklama değişebilir."
+            },
+            {
+              "type": "p",
+              "text": "Bu metriği daha geniş KPI setiyle okumak için [ortalama konum nedir](/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi) sorusunu CTR, gösterim ve tıklama verisiyle birlikte ele almak gerekir."
+            },
           {
             "type": "callout",
             "variant": "action",
@@ -14727,10 +14828,14 @@
               "Rekabet kıyası daha nettir: “biz ne kadar pay alıyoruz?”"
             ]
           },
-          {
-            "type": "p",
-            "text": "Key Statistics / Data Point (yumuşatılmış):\nKeyword bazlı değil, cluster bazlı görünürlük artışı raporlayan projelerin yönetim tarafında “gerçek SEO etkisini” daha net gösterebildiği sıklıkla görülür."
-          },
+            {
+              "type": "p",
+              "text": "Key Statistics / Data Point (yumuşatılmış):\nKeyword bazlı değil, cluster bazlı görünürlük artışı raporlayan projelerin yönetim tarafında “gerçek SEO etkisini” daha net gösterebildiği sıklıkla görülür."
+            },
+            {
+              "type": "p",
+              "text": "Özellikle dönemsel talebi yüksek sektörlerde [sezonluk sıralama değişimlerini yorumlamak](/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark), görünürlük düşüşünün gerçekten performans sorunu mu yoksa doğal trend mi olduğunu ayırmayı kolaylaştırır."
+            },
           {
             "type": "callout",
             "variant": "action",
@@ -14777,10 +14882,14 @@
               "Non-brand: yeni talep, yeni müşteri, yeni pazar"
             ]
           },
-          {
-            "type": "p",
-            "text": "Mini örnek (Bodrum):\n“[Otel adı] Bodrum” brand tarafında CTR yüksek olabilir; ama “Bodrum her şey dahil aile oteli” non-brand cluster’ında görünürlük payı artıyorsa, gerçek büyüme oradadır."
-          },
+            {
+              "type": "p",
+              "text": "Mini örnek (Bodrum):\n“[Otel adı] Bodrum” brand tarafında CTR yüksek olabilir; ama “Bodrum her şey dahil aile oteli” non-brand cluster’ında görünürlük payı artıyorsa, gerçek büyüme oradadır."
+            },
+            {
+              "type": "p",
+              "text": "Bu ayrımı cihaz, ülke ve kullanıcı tipiyle derinleştirmek için [segment bazlı keyword görünürlüğü](/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen) yaklaşımı özellikle değer üretir. Turizm projelerinde [otel SEO’da anahtar kelime görünürlüğü](/tr/otel/seo) okunurken marka, destinasyon, oda tipi ve kampanya kümelerini ayrı değerlendirmek gerekir."
+            },
           {
             "type": "callout",
             "variant": "action",
@@ -14836,10 +14945,14 @@
             "type": "p",
             "text": "Net cevap bloğu :\nÖnce keyword’leri konu kümelerine ayırın (brand/non-brand dahil). Sonra her cluster için “Top 3/Top 10 payı + visibility trendi” çıkarın. Son olarak değişimi aksiyonlara bağlayın: içerik güncelleme, internal link, snippet iyileştirme ve teknik temizlik."
           },
-          {
-            "type": "p",
-            "text": "Mini örnek :\n“SEO raporlama” cluster’ında Top 10 payı artıyor ama CTR düşüyorsa; içerik görünür ama tıklamaya dönmüyor demektir. Aksiyon: başlık/meta + FAQ + snippet testi."
-          },
+            {
+              "type": "p",
+              "text": "Mini örnek :\n“SEO raporlama” cluster’ında Top 10 payı artıyor ama CTR düşüyorsa; içerik görünür ama tıklamaya dönmüyor demektir. Aksiyon: başlık/meta + FAQ + snippet testi."
+            },
+            {
+              "type": "p",
+              "text": "Bu yapıyı kalıcı hale getirmek için [keyword verisini analiz etmek](/tr/veri-analiz-ve-raporlama), listeyi sadece dışa aktarmaktan daha değerlidir; çünkü anlamlı gruplama ve trend yorumu burada başlar."
+            },
           {
             "type": "callout",
             "variant": "action",
@@ -14870,13 +14983,21 @@
         "id": "competitor-gap-kapanis",
         "title": "Fark Yaratan Kapanış (Competitor Gap) — “Kaç kelimede 1.’yiz?” Sorusu Yanlış Soru",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Çoğu kullanıcı hâlâ sadece “kaç kelimede 1. sıradayız?” sorusuna odaklanıyor; oysa SEO etkisini yönetim tarafında net gösteren yaklaşım: cluster görünürlüğü + share of voice + trend. SERP’de snippet, PAA, harita ve AI cevaplar arttıkça, “ortalama konum”un tek başına önemi azalır; görünürlük metrikleri daha anlamlı hale gelir. Bu yüzden raporunuzun dili değişmeli: “tek kelime” yerine “topic payı”, “pozisyon” yerine “görünürlük + tıklama”."
-          },
-          {
-            "type": "media",
-            "slot": "proof-08"
+            {
+              "type": "p",
+              "text": "Çoğu kullanıcı hâlâ sadece “kaç kelimede 1. sıradayız?” sorusuna odaklanıyor; oysa SEO etkisini yönetim tarafında net gösteren yaklaşım: cluster görünürlüğü + share of voice + trend. SERP’de snippet, PAA, harita ve AI cevaplar arttıkça, “ortalama konum”un tek başına önemi azalır; görünürlük metrikleri daha anlamlı hale gelir. Bu yüzden raporunuzun dili değişmeli: “tek kelime” yerine “topic payı”, “pozisyon” yerine “görünürlük + tıklama”."
+            },
+            {
+              "type": "p",
+              "text": "Burada [rakip görünürlük benchmark analizi](/tr/raporlama/benchmark-analizi) yapmak, hangi cluster’larda pay kaybettiğinizi ve hangi konu alanlarında fırsat kaldığını daha net gösterir."
+            },
+            {
+              "type": "p",
+              "text": "Bu okuma modelini düzenli bir sisteme çevirmek için [profesyonel SEO Raporlama ve görünürlük analizi](/tr/seo/seo-raporlama) desteği alabilir, karar aşamasında da [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasından süreci netleştirebilirsiniz."
+            },
+            {
+              "type": "media",
+              "slot": "proof-08"
           },
           {
             "type": "cta",
@@ -15052,7 +15173,7 @@
     },
     "h1": {
       "title": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
-      "intro": "SEO raporlamasında en büyük verim artışı, “kaç kelimede kaçıncıyız?” çizgisinden çıkıp hangi sayfalar iş üretiyor? sorusuna geçince gelir. Çünkü SEO’nun iş çıktısı, çoğu zaman belirli landing’lerde yoğunlaşır: otel sayfaları, destinasyon sayfaları, oda/teklif sayfaları, hizmet sayfaları… Sayfa bazlı landing analizi; görünürlük (GSC) + davranış/dönüşüm (GA4) + teknik sağlık (hız/CWV) verilerini aynı tabloda birleştirerek önceliği belirlemenizi sağlar. Bu rehberde, hangi sayfaları “landing” kabul edeceğinizi, hangi KPI’ları izleyeceğinizi ve “en çok potansiyel taşıyan sayfaları” nasıl seçip büyüteceğinizi adım adım kuracağız.",
+      "intro": "SEO raporlamasında en büyük verim artışı, “kaç kelimede kaçıncıyız?” çizgisinden çıkıp hangi sayfalar iş üretiyor? sorusuna geçince gelir. Çünkü SEO’nun iş çıktısı, çoğu zaman belirli landing’lerde yoğunlaşır: otel sayfaları, destinasyon sayfaları, oda/teklif sayfaları, hizmet sayfaları… [sayfa bazlı SEO raporu](/tr/seo/seo-raporlama), görünürlük (GSC) + davranış/dönüşüm (GA4) + teknik sağlık (hız/CWV) verilerini aynı tabloda birleştirerek önceliği belirlemenizi sağlar. Bu rehberde, hangi sayfaları “landing” kabul edeceğinizi, hangi KPI’ları izleyeceğinizi ve “en çok potansiyel taşıyan sayfaları” nasıl seçip büyüteceğinizi adım adım kuracağız.",
       "quickSummary": [
         "1) Landing setini seç ve kategorize et (hizmet/destinasyon/oda/teklif/blog)",
         "2) GSC + GA4 KPI’larını aynı tarih aralığında yan yana koy",
@@ -15080,19 +15201,56 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
+        "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/tr/seo/teknik-seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Looker Studio Raporlama",
+        "label": "SEO Funnel Raporu",
+        "href": "/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar"
+      },
+      {
+        "label": "İçerik Refresh ve Consolidation",
+        "href": "/tr/seo/blog/icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz"
+      },
+      {
+        "label": "Teknik SEO ve Core Web Vitals Raporu",
+        "href": "/tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "SEO Funnel Raporu: Ziyaretçiden Lead ve Rezervasyona Kadar",
+        "href": "/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar"
+      },
+      {
+        "title": "İçerik Refresh ve Consolidation Sonuçlarını SEO Raporuna Nasıl Yansıtırsınız?",
+        "href": "/tr/seo/blog/icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz"
+      },
+      {
+        "title": "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
+        "href": "/tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
+      }
+    ],
     "sections": [
       {
         "id": "hangi-sayfalar-landing-olarak-izlenmeli",
@@ -15102,10 +15260,14 @@
             "type": "media",
             "slot": "h1-context-02"
           },
-          {
-            "type": "p",
-            "text": "Landing sayfası, organik trafikten kullanıcıyı ilk karşılayan ve “iş çıktısı”na en yakın etkisi olan sayfadır. Ancak her sayfa landing değildir: blog sayfaları, kategori sayfaları, kampanya sayfaları, hatta bazı filtre sayfaları… Burada amaç, ölçümü sadeleştirip “gerçek iş üretimi”ne bağlamaktır."
-          },
+            {
+              "type": "p",
+              "text": "Landing sayfası, organik trafikten kullanıcıyı ilk karşılayan ve “iş çıktısı”na en yakın etkisi olan sayfadır. Ancak her sayfa landing değildir: blog sayfaları, kategori sayfaları, kampanya sayfaları, hatta bazı filtre sayfaları… Burada amaç, ölçümü sadeleştirip “gerçek iş üretimi”ne bağlamaktır."
+            },
+            {
+              "type": "p",
+              "text": "Bu yaklaşım, [SEO hizmetleri içinde landing page performansı](/tr/seo-hizmetleri) konusunu yalnızca trafik tablosu değil; görünürlük, teknik sağlık ve dönüşüm katkısı birlikte okunan bir analiz katmanı haline getirir."
+            },
           {
             "type": "h3",
             "text": "Landing seçimi için pratik kategoriler (otel/hizmet)"
@@ -15114,7 +15276,7 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "Hizmet sayfaları: /tr/seo/seo-raporlama gibi (lead üretimi)",
+                "Hizmet sayfaları: SEO raporlama gibi lead odaklı sayfalar",
               "Destinasyon sayfaları: Antalya/Belek/Side/Kemer/Bodrum gibi (talep toplama)",
               "Oda/teklif sayfaları: rezervasyon niyeti yüksek sayfalar",
               "Blog (seçili): yüksek hacimli, dönüşüm destekleyen pillar içerikler",
@@ -15125,10 +15287,14 @@
             "type": "h3",
             "text": "Mini örnek"
           },
-          {
-            "type": "p",
-            "text": "Belek’te destinasyon sayfası “görüntüleme” alır, oda sayfası “dönüşüm” üretir. Landing analizi bu zinciri görünür kılar: hangi sayfa talep topluyor, hangisi dönüştürüyor?"
-          },
+            {
+              "type": "p",
+              "text": "Belek’te destinasyon sayfası “görüntüleme” alır, oda sayfası “dönüşüm” üretir. Landing analizi bu zinciri görünür kılar: hangi sayfa talep topluyor, hangisi dönüştürüyor?"
+            },
+            {
+              "type": "p",
+              "text": "Turizm projelerinde [otel SEO’da landing page performansı](/tr/otel/seo) okunurken ana sayfa, destinasyon, oda, kampanya ve blog sayfalarını aynı beklentiyle değil; niyet ve iş çıktısına göre ayrı değerlendirmek gerekir."
+            },
           {
             "type": "h3",
             "text": "☑ Mini Check"
@@ -15165,10 +15331,14 @@
         "id": "sayfa-bazli-kpilar",
         "title": "Sayfa Bazlı KPI’lar (Görüntüleme, Trafik, Dönüşüm, Bounce)",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Sayfa bazlı raporun gücü, KPI’ları tek tek değil “hikâye” olarak okutmasındadır: görünürlük → tıklama → davranış → dönüşüm. Burada iki kaynağı birleştiriyoruz: GSC + GA4."
-          },
+            {
+              "type": "p",
+              "text": "Sayfa bazlı raporun gücü, KPI’ları tek tek değil “hikâye” olarak okutmasındadır: görünürlük → tıklama → davranış → dönüşüm. Burada iki kaynağı birleştiriyoruz: GSC + GA4."
+            },
+            {
+              "type": "p",
+              "text": "Bu zinciri daha net kurmak için [landing page funnel analizi](/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar), sayfanın görünürlükten lead veya rezervasyona kadar nerede değer ürettiğini göstermede güçlü bir çerçeve sunar."
+            },
           {
             "type": "h3",
             "text": "GSC KPI’ları (görünürlük katmanı)"
@@ -15196,10 +15366,14 @@
               "Conversions: makro + mikro dönüşümler (lead/rezervasyon/WhatsApp/telefon vb.)"
             ]
           },
-          {
-            "type": "p",
-            "text": "Not: Sheet’te “bounce” geçiyor; GA4’te klasik bounce yerine engagement yaklaşımı tercih edilir. Varsayım: “bounce” burada düşük etkileşim / hızlı çıkış davranışı anlamında okunur."
-          },
+            {
+              "type": "p",
+              "text": "Not: Sheet’te “bounce” geçiyor; GA4’te klasik bounce yerine engagement yaklaşımı tercih edilir. Varsayım: “bounce” burada düşük etkileşim / hızlı çıkış davranışı anlamında okunur."
+            },
+            {
+              "type": "p",
+              "text": "Bu yüzden [sayfa bazlı SEO verisini analiz etmek](/tr/veri-analiz-ve-raporlama), tek tek metrik okumaktan daha değerlidir; çünkü aynı landing için görünürlük, davranış ve dönüşüm sinyallerini birlikte önceliklendirmeyi sağlar."
+            },
           {
             "type": "h3",
             "text": "Bir sayfanın iyi performans gösterdiğini nasıl anlarım?"
@@ -15248,10 +15422,14 @@
             "type": "media",
             "slot": "diagram-05"
           },
-          {
-            "type": "p",
-            "text": "Landing analizi, sayfayı “kötü” diye etiketlemek için değil; sorunun hangi katmanda olduğunu bulmak içindir:\n\t•\tGörünürlükte mi sorun var?\n\t•\tTıklamada mı sorun var?\n\t•\tDavranış/UX’te mi sorun var?\n\t•\tDönüşüm/teklif/ölçümde mi sorun var?"
-          },
+            {
+              "type": "p",
+              "text": "Landing analizi, sayfayı “kötü” diye etiketlemek için değil; sorunun hangi katmanda olduğunu bulmak içindir:\n\t•\tGörünürlükte mi sorun var?\n\t•\tTıklamada mı sorun var?\n\t•\tDavranış/UX’te mi sorun var?\n\t•\tDönüşüm/teklif/ölçümde mi sorun var?"
+            },
+            {
+              "type": "p",
+              "text": "Burada asıl soru, [hangi sayfaları önce iyileştirmeli](/tr/seo/blog/icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz) olmalıdır; çünkü düşük CTR, zayıf niyet eşleşmesi veya cannibalization yaşayan landing’ler çoğu zaman içerik refresh ya da consolidation adayıdır."
+            },
           {
             "type": "h3",
             "text": "4 tipik senaryo ve doğru aksiyon"
@@ -15306,10 +15484,14 @@
         "id": "teknik-durum-cwv",
         "title": "Teknik Durum (Hız, CWV) ve SEO Sonuçları",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Teknik sağlık, sayfa bazlı raporda “gizli” ama etkisi büyük bir katmandır. Özellikle otel sitelerinde görsel yük, video, ağır script’ler CWV’yi bozabilir; bu da hem sıralamayı hem dönüşümü etkileyebilir."
-          },
+            {
+              "type": "p",
+              "text": "Teknik sağlık, sayfa bazlı raporda “gizli” ama etkisi büyük bir katmandır. Özellikle otel sitelerinde görsel yük, video, ağır script’ler CWV’yi bozabilir; bu da hem sıralamayı hem dönüşümü etkileyebilir."
+            },
+            {
+              "type": "p",
+              "text": "Bu katmanı düzenli okumak için [landing page teknik sağlık raporu](/tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir), hız, mobil deneyim ve Core Web Vitals etkisini sayfa performansıyla aynı çerçevede yorumlamayı kolaylaştırır."
+            },
           {
             "type": "h3",
             "text": "CWV/hız verisini rapora nasıl eklersiniz?"
@@ -15368,10 +15550,14 @@
           }
         ],
         "blocks": [
-          {
-            "type": "p",
-            "text": "Landing bazlı rapor, sonunda mutlaka bir “öncelik sırası” üretmelidir. En iyi yöntem, basit bir matristir: Potansiyel × Etki × Efor."
-          },
+            {
+              "type": "p",
+              "text": "Landing bazlı rapor, sonunda mutlaka bir “öncelik sırası” üretmelidir. En iyi yöntem, basit bir matristir: Potansiyel × Etki × Efor."
+            },
+            {
+              "type": "p",
+              "text": "Bu çıktıyı ekip içinde sürdürülebilir hale getirmek için [sayfa bazlı SEO dashboard](/tr/raporlama/looker-studio), landing gruplarını filtreleyip aynı panelde KPI, öncelik ve aksiyonları izlemeyi kolaylaştırır."
+            },
           {
             "type": "h3",
             "text": "Öncelik matrisi (pratik)"
@@ -15447,13 +15633,17 @@
               "Sonraki raporda aynı tabloyla önce/sonra kıyaslayın."
             ]
           },
-          {
-            "type": "media",
-            "slot": "proof-08"
-          },
-          {
-            "type": "cta",
-            "variant": "primary",
+            {
+              "type": "media",
+              "slot": "proof-08"
+            },
+            {
+              "type": "p",
+              "text": "Landing’leri iş hedefiyle birlikte okumak isteyen ekipler için [profesyonel SEO Raporlama ve landing page analizi](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; karar öncesinde [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da süreci netleştirmeye yardımcı olur."
+            },
+            {
+              "type": "cta",
+              "variant": "primary",
             "label": "Sayfa Bazlı SEO Performans Analizi Talep Et",
             "text": "Landing’leri iş hedefiyle bağlayıp, CWV + UX + içerik aksiyonlarını tek planla yöneten ekipler için.",
             "href": "/tr/seo/seo-raporlama"
@@ -15593,7 +15783,7 @@
     },
     "h1": {
       "title": "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?",
-      "intro": "SEO raporları çoğu projede okunmuyor. Nedeni “SEO kötü” değil; raporların çoğu, yönetici zihninin çalıştığı yere (gelir, lead, rezervasyon, risk) değil, teknik metriklere (pozisyon listesi, ham grafikler) odaklanıyor. Oysa iyi bir rapor; SEO’yu “ekip içi raporlama”dan çıkarıp “karar toplantısı”na taşır: ne oldu, neden oldu, ne yapıyoruz? Bu rehberde, raporu 1 sayfaya indirip, anlaşılır bir hikâye kurarak SEO’nun masadaki ağırlığını nasıl artıracağınızı göstereceğiz.",
+      "intro": "SEO raporları çoğu projede okunmuyor. Nedeni “SEO kötü” değil; raporların çoğu, yönetici zihninin çalıştığı yere (gelir, lead, rezervasyon, risk) değil, teknik metriklere (pozisyon listesi, ham grafikler) odaklanıyor. Oysa iyi bir [yönetici için SEO raporu](/tr/seo/seo-raporlama); SEO’yu “ekip içi raporlama”dan çıkarıp “karar toplantısı”na taşır: ne oldu, neden oldu, ne yapıyoruz? Bu rehberde, raporu 1 sayfaya indirip, anlaşılır bir hikâye kurarak SEO’nun masadaki ağırlığını nasıl artıracağınızı göstereceğiz.",
       "quickSummary": [
         "1) İlk satırı iş KPI’sı ile aç (lead/rezervasyon/dönüşüm)",
         "2) 3 cümle kuralı: ne oldu → neden oldu → ne yapıyoruz",
@@ -15621,27 +15811,56 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
+        "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO Raporu KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "label": "Rol Bazlı SEO Dashboard'ları",
+        "href": "/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
+      },
+      {
+        "label": "SEO Raporlama Ritmi",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      },
+      {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/tr/seo"
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/tr/seo/teknik-seo"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Dönüşüm oranı optimizasyonu",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "title": "Role-Bazlı SEO Dashboard’ları: CEO, Pazarlama, İçerik ve Teknik Ekipler İçin Ayrı Paneller",
+        "href": "/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
+      },
+      {
+        "title": "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      }
+    ],
     "sections": [
       {
         "id": "yonetici-neylerle-ilgilenir",
@@ -15653,10 +15872,14 @@
           }
         ],
         "blocks": [
-          {
-            "type": "p",
-            "text": "Yönetici raporu “merak” için değil, karar için okur. Bu yüzden raporun ilk satırı bile şu soruyu cevaplamalıdır: “Bu ay SEO iş hedeflerimize nasıl etki etti?” Özellikle otel gruplarında (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda) SEO’nun masadaki karşılığı çoğu zaman “rezervasyon/lead” ve “talep payı”dır."
-          },
+            {
+              "type": "p",
+              "text": "Yönetici raporu “merak” için değil, karar için okur. Bu yüzden raporun ilk satırı bile şu soruyu cevaplamalıdır: “Bu ay SEO iş hedeflerimize nasıl etki etti?” Özellikle otel gruplarında (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda) SEO’nun masadaki karşılığı çoğu zaman “rezervasyon/lead” ve “talep payı”dır."
+            },
+            {
+              "type": "p",
+              "text": "Bu nedenle [SEO hizmetleri içinde SEO storytelling raporlama](/tr/seo-hizmetleri), yalnızca metrik paylaşımı değil; performansı, riskleri ve bir sonraki aksiyonu yönetime anlaşılır biçimde taşıyan bir karar destek katmanı olarak düşünülmelidir."
+            },
           {
             "type": "h3",
             "text": "Yönetici KPI diline çeviri (SEO → iş)"
@@ -15672,10 +15895,14 @@
               "“CWV kötüleşti” → Dönüşüm sürtünmesi ve kayıp riski (UX/performans)"
             ]
           },
-          {
-            "type": "p",
-            "text": "Mini örnek (otel): Side’de organik trafik sabit kalsa bile, organik rezervasyon/lead artıyorsa yönetici bunu “verimli büyüme” olarak görür. Tam tersi; trafik artıp dönüşüm düşüyorsa “yanlış trafik” veya “landing sürtünmesi” riski vardır."
-          },
+            {
+              "type": "p",
+              "text": "Mini örnek (otel): Side’de organik trafik sabit kalsa bile, organik rezervasyon/lead artıyorsa yönetici bunu “verimli büyüme” olarak görür. Tam tersi; trafik artıp dönüşüm düşüyorsa “yanlış trafik” veya “landing sürtünmesi” riski vardır."
+            },
+            {
+              "type": "p",
+              "text": "Bu çeviriyi sadeleştirmek için [yönetici özetinde SEO KPI’ları](/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi) iş sonucu ile destek metriklerini aynı çerçevede okumaya yardımcı olur. Özellikle [SEO’nun satış ve dönüşüm etkisi](/tr/raporlama/satis-donusum) netleştirildiğinde, [otel dijital pazarlamada SEO raporu anlatımı](/tr/otel-dijital-pazarlama) rezervasyon ve kampanya etkisiyle çok daha anlaşılır hale gelir."
+            },
           {
             "type": "callout",
             "variant": "action",
@@ -15706,10 +15933,14 @@
         "id": "seo-verisini-hikayelestirmek",
         "title": "SEO verisini hikâyeleştirmek (Ne oldu → Neden oldu → Ne yapıyoruz)",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Storytelling burada “hikâye uydurmak” değil; veriyi karar akışına sokmaktır. Yönetici, üç şeye bakar: sonuç, neden ve plan."
-          },
+            {
+              "type": "p",
+              "text": "Storytelling burada “hikâye uydurmak” değil; veriyi karar akışına sokmaktır. Yönetici, üç şeye bakar: sonuç, neden ve plan."
+            },
+            {
+              "type": "p",
+              "text": "Buradaki asıl fark, ham metrikleri bırakıp [SEO verisini içgörüye dönüştürmek](/tr/veri-analiz-ve-raporlama) tarafına geçmektir; çünkü yönetici için değer, sayıların değil neden-sonuç ilişkilerinin açık olmasıdır."
+            },
           {
             "type": "h3",
             "text": "3 cümlelik rapor iskeleti (her ay aynı)"
@@ -15762,10 +15993,14 @@
         "id": "once-ozet-sonra-detay",
         "title": "Önce özet sonra detay yapısı (1 sayfa + ekler)",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Yönetici raporu tarar; detay isteyen ekip ekleri açar. Bu yüzden en iyi yapı: Özet (1 sayfa) → Detay (ekler)."
-          },
+            {
+              "type": "p",
+              "text": "Yönetici raporu tarar; detay isteyen ekip ekleri açar. Bu yüzden en iyi yapı: Özet (1 sayfa) → Detay (ekler)."
+            },
+            {
+              "type": "p",
+              "text": "Aynı veri setini farklı paydaşlara uyarlamak gerektiğinde [rol bazlı SEO dashboard](/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik) yaklaşımı, CEO ile teknik ekibin aynı rapordan farklı kararlar alabilmesini kolaylaştırır."
+            },
           {
             "type": "h3",
             "text": "1 sayfalık yönetici özeti hangi bloklardan oluşur?"
@@ -15852,10 +16087,14 @@
         "id": "333-modeli",
         "title": "3 Başarı + 3 Risk + 3 Aksiyon modeli (3–3–3)",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Bu model, raporu “okunur” kilit hale getirir. Çünkü yönetici; başarıyı görmek, riski bilmek ve aksiyonu onaylamak ister."
-          },
+            {
+              "type": "p",
+              "text": "Bu model, raporu “okunur” kilit hale getirir. Çünkü yönetici; başarıyı görmek, riski bilmek ve aksiyonu onaylamak ister."
+            },
+            {
+              "type": "p",
+              "text": "Bu yapının sürdürülebilir olması için [SEO raporlama ritmi ve operasyon kültürü](/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek) net olmalıdır; çünkü haftalık kontrol, aylık özet ve çeyreklik karar toplantısı aynı dilin farklı katmanlarıdır."
+            },
           {
             "type": "h3",
             "text": "3–3–3 nasıl yazılır? (kural)"
@@ -16027,13 +16266,17 @@
         "id": "kapanis-rapor-okunmuyorsa-etki-yoktur",
         "title": "Kapanış: Rapor okunmuyorsa etki yoktur",
         "blocks": [
-          {
-            "type": "p",
-            "text": "Birçok projede SEO raporları teknik ve uzun olduğu için yönetici tarafından okunmuyor; bu da SEO yatırımlarının etkisini görünmez kılıyor. O yüzden hedefiniz “daha çok sayfa” değil, daha çok referans alınan 1 sayfa olmalı. Yönetici özeti olan raporların, karar toplantılarında daha fazla referans alındığı sıklıkla görülür; çünkü rapor artık “veri” değil “plan” taşır."
-          },
-          {
-            "type": "media",
-            "slot": "proof-08"
+            {
+              "type": "p",
+              "text": "Birçok projede SEO raporları teknik ve uzun olduğu için yönetici tarafından okunmuyor; bu da SEO yatırımlarının etkisini görünmez kılıyor. O yüzden hedefiniz “daha çok sayfa” değil, daha çok referans alınan 1 sayfa olmalı. Yönetici özeti olan raporların, karar toplantılarında daha fazla referans alındığı sıklıkla görülür; çünkü rapor artık “veri” değil “plan” taşır."
+            },
+            {
+              "type": "p",
+              "text": "Bu yapıyı kurmak isteyen ekipler için [profesyonel SEO Raporlama ve yönetici özeti hazırlama](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; değerlendirme öncesinde [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da süreç beklentilerini netleştirmeye yardımcı olur."
+            },
+            {
+              "type": "media",
+              "slot": "proof-08"
           },
           {
             "type": "cta",
@@ -72501,7 +72744,7 @@
     },
     "h1": {
       "title": "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
-      "intro": "Teknik SEO raporları ve Core Web Vitals (CWV) ekranları çoğu ekipte aynı yere takılır: “Skor kırmızı, ne yapacağız?” Oysa gerçek soru skor değil; hangi sayfada hangi sorun var, bu sorun kullanıcı deneyimini ve iş sonucunu nasıl etkiliyor, öncelik sırası ne? Teknik SEO’yu doğru okumak; CWV metriklerini (LCP/CLS/INP) tarama–index–status kod bulgularıyla birleştirip error→impact mapping yapmaktır: sorunları tek listede değil, etki alanına göre yönetirsiniz.",
+      "intro": "Teknik SEO raporları ve Core Web Vitals (CWV) ekranları çoğu ekipte aynı yere takılır: “Skor kırmızı, ne yapacağız?” Oysa gerçek soru skor değil; hangi sayfada hangi sorun var, bu sorun kullanıcı deneyimini ve iş sonucunu nasıl etkiliyor, öncelik sırası ne? [Core Web Vitals raporu yorumlama](/tr/seo/seo-raporlama), CWV metriklerini (LCP/CLS/INP) tarama–index–status kod bulgularıyla birleştirip error→impact mapping yapmayı gerektirir: sorunları tek listede değil, etki alanına göre yönetirsiniz.",
       "quickSummary": [
         "1) CWV’yi skor değil URL grubu bazında oku",
         "2) LCP/CLS/INP sorunlarını tarama ve index bulgularıyla eşleştir",
@@ -72512,51 +72755,71 @@
       "ctaPrimary": {
         "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
         "text": "Kritik sayfaları belirleyip CWV + tarama/index sorunlarını iş etkisiyle önceliklendirmek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
         "text": "Teknik raporu “skor” değil “iş etkisi + aksiyon planı” olarak okumak isteyen otel ve hizmet siteleri için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Teknik SEO & CWV Önceliklendirme Checklist’ini İndir",
         "text": "İlk 10 teknik kontrolü standartlaştırır; CWV ve tarama sorunlarını P0–P2 önceliğiyle sprint’e çevirmenizi sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "SEO silo kök sayfası",
-        "href": "/seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Teknik SEO hizmet sayfası",
-        "href": "/seo/teknik-seo"
+        "label": "Site Geçişi ve Domain Değişimi SEO Raporlama",
+        "href": "/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "Landing Page SEO Performans Raporu",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama Nedir? Performansı İş Etkisiyle Okuma Rehberi",
-        "href": "/seo/seo-raporlama"
+        "title": "Site Geçişleri ve Domain Değişimi İçin SEO Raporlama Template’i",
+        "href": "/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei"
       },
       {
-        "title": "Teknik SEO Nedir? Tarama, Index ve Performans Temeli",
-        "href": "/seo/teknik-seo"
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "title": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
       }
     ],
     "sections": [
@@ -72567,6 +72830,10 @@
           {
             "type": "p",
             "text": "Teknik SEO raporları ve Core Web Vitals (CWV) ekranları çoğu ekipte aynı yere takılır: “Skor kırmızı, ne yapacağız?” Oysa gerçek soru skor değil; hangi sayfada hangi sorun var, bu sorun kullanıcı deneyimini ve iş sonucunu nasıl etkiliyor, öncelik sırası ne? Teknik SEO’yu doğru okumak; CWV metriklerini (LCP/CLS/INP) tarama–index–status kod bulgularıyla birleştirip error→impact mapping yapmaktır: sorunları tek listede değil, etki alanına göre yönetirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde teknik SEO raporlaması](/tr/seo-hizmetleri), yalnızca hata listesi üretmek değil; tarama, index, hız, kullanıcı deneyimi ve organik performansı birlikte yorumlayan bir karar destek alanı olarak ele alınmalıdır."
           },
           {
             "type": "callout",
@@ -72585,7 +72852,7 @@
             "variant": "primary",
             "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
             "text": "Kritik sayfaları belirleyip CWV + tarama/index sorunlarını iş etkisiyle önceliklendirmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -72596,6 +72863,10 @@
           {
             "type": "p",
             "text": "Teknik SEO KPI’ları, “Google bizi nasıl görüyor ve kullanıcı sayfayı nasıl yaşıyor?” sorusunu ölçer. Burada amaç; her şeyi raporlamak değil, karar verdiren KPI seti oluşturmaktır. Otel ve hizmet sitelerinde teknik KPI’lar genellikle iki ana yere bağlanır: (1) görünürlük kaybı riski (index/tarama), (2) dönüşüm sürtünmesi (performans/UX)."
+          },
+          {
+            "type": "p",
+            "text": "Bu tabloyu güvenle okumak için [teknik SEO raporlarında veri kalitesi](/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi) ayrı bir kontrol katmanı olmalıdır; çünkü eksik ölçüm, yanlış izleme veya tutarsız veri kaynağı teknik öncelikleri kolayca bozabilir."
           },
           {
             "type": "h3",
@@ -72614,6 +72885,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel): Rezervasyon sayfası hızlı değilse (LCP yüksek) yalnız “SEO” değil, “rezervasyon tamamlama” da etkilenir. Teknik KPI’ların değeri, bu etkiyi görünür yapmasındadır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde [otel SEO’da Core Web Vitals etkisi](/tr/otel/seo), yalnız PageSpeed puanını değil; mobil deneyim, rezervasyon akışı ve oda veya kampanya sayfalarının görünürlük gücünü birlikte etkiler."
           },
           {
             "type": "callout",
@@ -72686,6 +72961,10 @@
             "text": "Mini örnek: Bir otel ana sayfasında LCP kötü ama INP iyi olabilir: ana görsel/hero ağır, ama etkileşim hızlıdır. Bu durumda “tek skor” yerine “LCP odaklı çözüm” gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu metriği iş etkisiyle birleştirmek için [landing page teknik sağlık raporu](/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi), teknik sorunları sayfa bazlı trafik, görünürlük ve dönüşüm önceliğiyle birlikte yorumlamayı kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (CWV okuma)",
@@ -72732,6 +73011,10 @@
           {
             "type": "p",
             "text": "Buradaki kritik nokta: CWV “puan” değildir; sayfanın gerçekten kullanıcıda nasıl hissettirdiğini anlatır. Field veride kötü görünen bir LCP, çoğu zaman “zayıf cihaz + yavaş ağ” gerçeğini de taşır; lab testiniz iyi çıkabilir. Bu fark normaldir, önemli olan ikisini doğru amaçla kullanmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [LCP, CLS ve INP SEO etkisi](/tr/yazilim/web-sitesi-gelistirme) yalnız teknik eşiklerle değil; frontend mimarisi, görsel optimizasyonu, script yükleme sırası ve etkileşimli bileşen davranışıyla birlikte ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -72807,6 +73090,10 @@
           {
             "type": "p",
             "text": "CWV “kullanıcı” tarafını ölçer; tarama ve index ise “Google’ın içeriği keşfetmesi ve değerlendirmesi” tarafıdır. Teknik raporunuzun ikinci omurgası burası olmalı: çünkü tarama/index bozulduğunda, en iyi içerik bile görünmez hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [site geçişi sonrası SEO raporlama](/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei) okurken redirect, canonical, crawl ve index değişimlerini aynı tabloda değerlendirmek gerekir; yerel not olarak `templatei` slug’ı JSON içinde bu haliyle geçiyor ve bağlantıyı aynen kullandım."
           },
           {
             "type": "h3",
@@ -72977,6 +73264,10 @@
             "text": "CWV ve teknik SEO raporları aksiyona dönmüyorsa, genellikle iki nedenle:"
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [teknik SEO verisini analiz etmek](/tr/veri-analiz-ve-raporlama), tekil hata listesinden çıkıp trend, sayfa grubu ve öncelik puanı üreten daha anlamlı bir çerçeve kurmanızı sağlar."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -73044,7 +73335,7 @@
             "variant": "primary",
             "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
             "text": "CWV + tarama/index bulgularını “iş etkisi” ile eşleyip önceliklendirmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -73199,18 +73490,22 @@
             "text": "Bu sayede teknik rapor, geliştirici backlog’u ile pazarlama hedefleri arasında ortak bir dile dönüşür. Önceliklendirme; trafik, dönüşüm etkisi ve efor üzerinden yapıldığında, teknik SEO çalışmaları yalnızca site sağlığını değil, kullanıcı deneyimi ve iş sonucunu da iyileştirir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sürdürülebilir hale getirmek için [profesyonel SEO Raporlama ve teknik SEO analizi](/tr/seo/seo-raporlama) desteği alınabilir; süreç, kapsam ve rapor beklentilerini netleştirmek için de [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası iyi bir başlangıç noktasıdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Teknik SEO & CWV Rapor Analizi Talep Et",
             "text": "Teknik raporu “skor” değil “iş etkisi + aksiyon planı” olarak okumak isteyen otel ve hizmet siteleri için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Teknik SEO & CWV Önceliklendirme Checklist’ini İndir",
             "text": "İlk 10 teknik kontrolü standartlaştırır; CWV ve tarama sorunlarını P0–P2 önceliğiyle sprint’e çevirmenizi sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/tr/veri-analiz-ve-raporlama"
           }
         ]
       }
@@ -73326,7 +73621,7 @@
     },
     "h1": {
       "title": "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?",
-      "intro": "Çok içerikli projelerde “tekil URL bazlı rapor” anlamlı ama eksik kalır: bir blog iyi gidiyor gibi görünür ama aslında hub sayfaya otorite taşımıyordur; ya da tekil sayfa düşüyor gibi görünür ama cluster genelinde pay büyüyordur. Topic cluster raporu, SEO’yu içerik portföyü gibi yönetmenizi sağlar: hangi konu alanında otorite kurduk, hangi kümelerde eksiğiz, hangi içerikler yetim kaldı, hangi hub’lar güçleniyor? Bu rehberde, raporu hub + destekleyici içerikler etrafında kurup; görünürlük, trafik, sıralama ve backlink sinyallerini tek tabloda birleştirerek net aksiyon planı çıkarmayı adım adım anlatıyoruz.",
+      "intro": "Çok içerikli projelerde “tekil URL bazlı rapor” anlamlı ama eksik kalır: bir blog iyi gidiyor gibi görünür ama aslında hub sayfaya otorite taşımıyordur; ya da tekil sayfa düşüyor gibi görünür ama cluster genelinde pay büyüyordur. [topic cluster raporlama](/tr/seo/seo-raporlama), SEO’yu içerik portföyü gibi yönetmenizi sağlar: hangi konu alanında otorite kurduk, hangi kümelerde eksiğiz, hangi içerikler yetim kaldı, hangi hub’lar güçleniyor? Bu rehberde, raporu hub + destekleyici içerikler etrafında kurup; görünürlük, trafik, sıralama ve backlink sinyallerini tek tabloda birleştirerek net aksiyon planı çıkarmayı adım adım anlatıyoruz.",
       "quickSummary": [
         "1) Raporu URL listesi değil cluster listesi olarak kur",
         "2) Her cluster için tek hub + destek içerikleri eşleştir",
@@ -73337,51 +73632,71 @@
       "ctaPrimary": {
         "label": "Topic Cluster Performans Analizi Talep Et",
         "text": "İçerik portföyünü cluster bazında ölçüp, refresh ve üretim kararlarını hızlandırmak isteyen blog/otel/hizmet siteleri için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Topic Cluster Performans Analizi Talep Et",
         "text": "Cluster tablosu + iç link haritası + refresh/consolidation aksiyon planı isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir",
         "text": "Cluster KPI’larını tek tabloda toplar; yetim içerikleri ve iyileştirme aksiyonlarını sprint planına çevirmenizi sağlar.",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "SEO silo kök sayfası",
-        "href": "/seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "İçerik SEO hizmet sayfası",
-        "href": "/seo/icerik-seo"
+        "label": "İçerik Refresh ve Consolidation",
+        "href": "/tr/seo/blog/icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz"
       },
       {
-        "label": "Backlink & Dijital Otorite Yönetimi",
-        "href": "/seo/backlink-yonetimi"
+        "label": "Landing Page SEO Performans Raporu",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Anahtar Kelime Görünürlük Raporu",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
-        "href": "/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
+        "title": "İçerik Refresh ve Consolidation Sonuçlarını SEO Raporuna Nasıl Yansıtırsınız?",
+        "href": "/tr/seo/blog/icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz"
       },
       {
-        "title": "SEO Raporlama Nedir? Performansı İş Etkisiyle Okuma Rehberi",
-        "href": "/seo/seo-raporlama"
+        "title": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
+      },
+      {
+        "title": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
       }
     ],
     "sections": [
@@ -73394,6 +73709,10 @@
             "text": "Çok içerikli projelerde “tekil URL bazlı rapor” anlamlı ama eksik kalır: bir blog iyi gidiyor gibi görünür ama aslında hub sayfaya otorite taşımıyordur; ya da tekil sayfa düşüyor gibi görünür ama cluster genelinde pay büyüyordur. Topic cluster raporu, SEO’yu içerik portföyü gibi yönetmenizi sağlar: hangi konu alanında otorite kurduk, hangi kümelerde eksiğiz, hangi içerikler yetim kaldı, hangi hub’lar güçleniyor? Bu rehberde, raporu hub + destekleyici içerikler etrafında kurup; görünürlük, trafik, sıralama ve backlink sinyallerini tek tabloda birleştirerek net aksiyon planı çıkarmayı adım adım anlatıyoruz."
           },
           {
+            "type": "p",
+            "text": "Bu çerçevede [SEO hizmetleri içinde cluster bazlı içerik performansı](/tr/seo-hizmetleri), tekil URL veya keyword listesinden çıkıp hub sayfa, destek içerik, görünürlük ve dönüşüm etkisini cluster düzeyinde okuma yaklaşımı sunar."
+          },
+          {
             "type": "media",
             "slot": "h1-context-02"
           },
@@ -73402,7 +73721,7 @@
             "variant": "primary",
             "label": "Topic Cluster Performans Analizi Talep Et",
             "text": "İçerik portföyünü cluster bazında ölçüp, refresh ve üretim kararlarını hızlandırmak isteyen blog/otel/hizmet siteleri için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -73496,6 +73815,10 @@
             "text": "Mini örnek (hizmet): Hub: “İçerik SEO” sayfası; destek: “evergreen vs sezonluk”, “topic cluster kurma”, “refresh planı” gibi yazılar."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı tek tek URL performansıyla da doğrulamak gerekir; iyi bir [hub sayfa SEO raporu](/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi), hub ve support içeriklerin hangi landing’lerde gerçekten trafik ve dönüşüm ürettiğini görünür kılar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -73563,6 +73886,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşatılmış): Cluster mantığıyla raporlayan projelerde, içerik geliştirme ve refresh kararlarının daha hızlı ve isabetli alındığı görülüyor. (Kesin rakam iddiası değildir; operasyonel gözlem olarak düşünün.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlüğü okumak için [cluster bazlı keyword görünürlüğü](/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir), ortalama konum, CTR ve sıralama değişimlerini konu kümeleri seviyesinde yorumlamayı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -73638,6 +73965,10 @@
             "text": "Mini örnek: Bodrum için “en iyi koylar” yazısı var ama Bodrum destinasyon sayfasına link yoksa; içerik trafik çekse bile hub’a otorite taşımaz."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [içerik refresh ve consolidation sonuçları](/tr/seo/blog/icerik-refresh-ve-consolidation-sonuclarini-seo-raporuna-nasil-yansitirsiniz), zayıflayan, birbirini yiyen veya güncellendiğinde cluster’a yeniden değer katacak içerikleri daha net ayırmanızı sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -73698,6 +74029,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Turizm projelerinde [otel SEO’da topic cluster performansı](/tr/otel/seo), destinasyon, oda, hizmet ve kampanya içeriklerinin birlikte nasıl görünürlük ürettiğini anlamayı sağlar. Bu görünürlük, [cluster performansını otel dijital pazarlamaya bağlamak](/tr/otel-dijital-pazarlama) açısından da değerlidir; çünkü içerik kümeleri kampanya mesajı, marka görünürlüğü ve rezervasyon niyeti üzerinde doğrudan etkili olabilir."
+          },
+          {
             "type": "callout",
             "variant": "technical",
             "title": "Technical Not (sheet)",
@@ -73749,7 +74084,7 @@
             "rows": [
               [
                 "SEO Raporlama",
-                "/seo/seo-raporlama",
+                "/tr/seo/seo-raporlama",
                 "8",
                 "yüksek",
                 "orta",
@@ -73761,7 +74096,7 @@
               ],
               [
                 "İçerik SEO",
-                "/seo/icerik-seo",
+                "/tr/seo/icerik-seo",
                 "12",
                 "yüksek",
                 "düşük",
@@ -73773,7 +74108,7 @@
               ],
               [
                 "Backlink Yönetimi",
-                "/seo/backlink-yonetimi",
+                "/tr/seo/backlink-yonetimi",
                 "10",
                 "orta",
                 "orta",
@@ -73785,7 +74120,7 @@
               ],
               [
                 "Otel SEO",
-                "/otel/seo",
+                "/tr/otel/seo",
                 "15",
                 "yüksek",
                 "orta",
@@ -73817,15 +74152,23 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu kararları takip edilebilir hale getirmek için [topic cluster dashboard](/tr/raporlama/looker-studio), hub, support içerikler, keyword grupları ve dönüşüm sinyallerini tek panelde izlemeyi kolaylaştırır."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı standartlaştırmak isteyen ekipler için [profesyonel SEO Raporlama ve topic cluster performans analizi](/tr/seo/seo-raporlama) desteği değerli olur; karar öncesinde [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da süreç beklentilerini netleştirmeye yardımcı olur."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Topic Cluster Performans Analizi Talep Et",
             "text": "Cluster tablosu + iç link haritası + refresh/consolidation aksiyon planı isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -74013,14 +74356,14 @@
             "variant": "primary",
             "label": "Topic Cluster Performans Analizi Talep Et",
             "text": "Cluster tablosu + iç link haritası + refresh/consolidation aksiyon planı isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Topic Cluster Performans Tablosu & Aksiyon Şablonunu İndir",
             "text": "Cluster KPI’larını tek tabloda toplar; yetim içerikleri ve iyileştirme aksiyonlarını sprint planına çevirmenizi sağlar.",
-            "href": "/seo/icerik-seo"
+            "href": "/tr/seo/icerik-seo"
           }
         ]
       }
@@ -74133,7 +74476,7 @@
     },
     "h1": {
       "title": "Yerel SEO ve Harita Performansını SEO Raporuna Nasıl Dahil Edersiniz?",
-      "intro": "Birçok SEO raporu yalnızca “klasik organik” sonuçlara odaklanır: Search Console tıklama/CTR/konum, GA4 organik oturum ve dönüşüm… Ancak oteller ve yerel işletmeler için gerçek görünürlüğün önemli bir kısmı Google Haritalar (Maps) ve Local Pack üzerinden yaşanır. Kullanıcı “otel + şehir” arar, haritaya bakar, rotayı açar, arar veya web sitesine tıklar; bu akış raporda yoksa karar da eksik olur. Bu rehberde, Google Business Profile (GBP) KPI’larını GA4 ve Search Console ile birleştirerek harita→site→call/rota funnel’ını rapora nasıl ekleyeceğinizi adım adım kuruyoruz.",
+      "intro": "Birçok SEO raporu yalnızca “klasik organik” sonuçlara odaklanır: Search Console tıklama/CTR/konum, GA4 organik oturum ve dönüşüm… Ancak oteller ve yerel işletmeler için gerçek görünürlüğün önemli bir kısmı Google Haritalar (Maps) ve Local Pack üzerinden yaşanır. Kullanıcı “otel + şehir” arar, haritaya bakar, rotayı açar, arar veya web sitesine tıklar; bu akış raporda yoksa karar da eksik olur. Bu rehberde, [yerel SEO KPI raporlama](/tr/seo/seo-raporlama) yaklaşımıyla Google Business Profile (GBP) KPI’larını GA4 ve Search Console ile birleştirerek harita→site→call/rota funnel’ını rapora nasıl ekleyeceğinizi adım adım kuruyoruz.",
       "quickSummary": [
         "1) GBP KPI’larını ayrı blok olarak rapora ekle",
         "2) Map views, website clicks, calls ve direction requests metriklerini birlikte oku",
@@ -74144,14 +74487,14 @@
       "ctaPrimary": {
         "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
         "text": "Harita performansını organik rapora bağlayıp yerel funnel’ı karar toplantısına taşıyan işletmeler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
         "text": "Otel ve lokal işletmelerde harita KPI’larını organik dönüşümle bağlamak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Yerel SEO KPI & Dashboard Şablonunu İndir",
@@ -74161,26 +74504,54 @@
     },
     "internalLinks": [
       {
-        "label": "Yerel SEO rehberi",
-        "href": "/seo/yerel-seo"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Looker Studio raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Segment Bazlı SEO Raporu",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
+      },
+      {
+        "label": "GA4 ve Search Console Birlikte Okuma",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "Sezonluk ve Yıl Bazlı SEO Performans Raporları",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Segment Bazlı SEO Raporu: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
       },
       {
-        "title": "Yerel SEO Nedir? Harita ve Local Pack Görünürlüğü",
-        "href": "/seo/yerel-seo"
+        "title": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
       }
     ],
     "sections": [
@@ -74191,6 +74562,10 @@
           {
             "type": "p",
             "text": "Yerel SEO KPI’ları “sıralama”dan ziyade “etkileşim”e yakındır. Çünkü harita sonuçlarında kullanıcı çoğu zaman siteye girmeden karar verebilir: arar, rota ister, mesaj atar. Bu yüzden raporunuzda GBP KPI’ları ayrı bir blok olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde harita ve organik SEO raporu](/tr/seo-hizmetleri), yalnız organik trafik ve sıralama değil; harita görünürlüğü, local pack performansı, GBP etkileşimleri ve lokasyon bazlı kullanıcı davranışını birlikte yorumlamayı gerektirir."
           },
           {
             "type": "h3",
@@ -74270,6 +74645,10 @@
             "text": "Mini örnek (Belek): Direct artışı, marka bilinirliğinin güçlendiğini gösterebilir; Discovery artışı ise “yerel talep havuzunda” pay aldığınızı gösterir. İkisini karıştırmadan yorumlamak gerekir."
           },
           {
+            "type": "p",
+            "text": "İyi bir Google Business Profile istatistik raporu, direct ve discovery ayrımını etkileşim verimiyle birlikte okumalıdır."
+          },
+          {
             "type": "h3",
             "text": "Harita etkileşim akışı nasıl okunur?"
           },
@@ -74328,6 +74707,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşatılmış): Yerel SEO KPI’larının SEO raporuna dâhil edildiği müşterilerde, harita görünürlüğü ve yerel funnel performansı hakkında daha sağlıklı kararlar alınabildiği sıkça görülür. (Kesin rakam iddiası değil; operasyonel gözlem.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [harita ve organik SEO raporu](/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak), GBP görünürlüğünü GA4 oturumları ve Search Console sorgu verileriyle aynı tarih aralığında birleştirerek daha net yorum üretir."
           },
           {
             "type": "h3",
@@ -74436,6 +74819,14 @@
             "text": "Mini örnek (Bodrum): Mobilde harita daha görünür olduğundan, “Bodrum otel” sorgusunda website clicks yerine calls/directions artabilir; rapor bunu “dönüşüm davranışı değişimi” olarak okumalı."
           },
           {
+            "type": "p",
+            "text": "Burada [yerel SEO segment analizi](/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen), cihaz, şehir, ülke ve yeni/geri dönen kullanıcı kırılımlarını ayrı okuyarak local pack davranışını daha görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle turizm bölgelerinde [sezonluk yerel SEO performansı](/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark), harita görünürlüğündeki artış veya düşüşün dönemsel talep mi yoksa gerçek performans sorunu mu olduğunu ayırmada yardımcı olur."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -74500,6 +74891,14 @@
             "text": "Technical Not (sheet): GBP istatistiklerindeki tarih aralığı ve görünüm türleri GA4 filtreleriyle uyumlu seçilmezse rapor kafa karıştırır. Bu yüzden raporun başına “filtre seti” ekleyin."
           },
           {
+            "type": "p",
+            "text": "Turizm projelerinde [local pack performansını raporlamak](/tr/otel/seo), destinasyon aramaları, marka aramaları ve organik landing page performansını aynı görünürlük çerçevesinde birleştirmeyi gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlük, [otel dijital pazarlamada harita görünürlüğü](/tr/otel-dijital-pazarlama) açısından kampanya etkisi, marka güveni ve direkt rezervasyon niyetiyle birlikte okunmalıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -74528,7 +74927,7 @@
             "variant": "primary",
             "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
             "text": "Harita KPI’larını organik dönüşümle bağlayıp “yerel görünürlük” kararlarını netleştirmek isteyen işletmeler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -74536,6 +74935,10 @@
         "id": "yerel-seo-kpi-dashboard-sablonu",
         "title": "Yerel SEO KPI & Dashboard Şablonunu İndir — SEO / Yerel Raporlama",
         "blocks": [
+          {
+            "type": "p",
+            "text": "Bu veriyi düzenli takip etmek için [harita görünürlüğünü dashboard’a taşımak](/tr/raporlama/looker-studio), GBP istatistikleri, local pack görünürlüğü, organik trafik ve dönüşüm sinyallerini tek panelde toplamayı kolaylaştırır."
+          },
           {
             "type": "download_asset",
             "assetType": "template",
@@ -74617,11 +75020,15 @@
             "text": "Doğru kurgu; “haritada görünüyoruz” bilgisini “hangi şehir/şube/landing ne kadar talep üretiyor ve hangi aksiyon gerekli?” sorusuna dönüştürür. Bu nedenle yerel + organik rapor; KPI kartları, birleşik funnel tablosu, filtre seti ve net aksiyon listesiyle standardize edilmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve yerel SEO KPI analizi](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; süreç beklentilerini görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası iyi bir başlangıç olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Yerel + Organik SEO Raporlama Analizi Talep Et",
             "text": "Otel ve lokal işletmelerde harita KPI’larını organik dönüşümle bağlamak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
@@ -74738,7 +75145,7 @@
     },
     "h1": {
       "title": "SEO Deneyleri ve A/B Test Sonuçlarını Nasıl Raporlarsınız?",
-      "intro": "SEO’da iyileştirme yapmak kolay; zor olan, “hangisi işe yaradı?” sorusunu net yanıtlamak. Birçok projede title değişir, iç link eklenir, içerik blokları düzenlenir ama bunlar “deney” gibi tasarlanıp raporlanmadığı için katkı ölçülemez. Deney raporu; değişkeni net tanımlar, kontrol–deney gruplarını kurar, uygun süre ve örneklemle ölçer, sonucu karara bağlar: kalıcı mı, geri mi alıyoruz, tekrar mı test ediyoruz? Bu rehber, SEO’yu “tahmin”den çıkarıp ölçüm disiplini ile yönetmenizi sağlar.",
+      "intro": "SEO’da iyileştirme yapmak kolay; zor olan, “hangisi işe yaradı?” sorusunu net yanıtlamak. Birçok projede title değişir, iç link eklenir, içerik blokları düzenlenir ama bunlar “deney” gibi tasarlanıp raporlanmadığı için katkı ölçülemez. Deney raporu; değişkeni net tanımlar, kontrol–deney gruplarını kurar, uygun süre ve örneklemle ölçer, sonucu karara bağlar: kalıcı mı, geri mi alıyoruz, tekrar mı test ediyoruz? Bu rehber, [SEO A/B testi raporlama](/tr/seo/seo-raporlama) yaklaşımıyla SEO’yu “tahmin”den çıkarıp ölçüm disiplini ile yönetmenizi sağlar.",
       "quickSummary": [
         "1) Değişikliği deney mi bakım mı diye etiketle",
         "2) Tek değişken belirle ve başarı KPI’larını baştan yaz",
@@ -74749,14 +75156,14 @@
       "ctaPrimary": {
         "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
         "text": "SEO değişikliklerini deney gibi tasarlayıp, yönetime kanıtla sunmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
         "text": "Deney tasarımı, ölçüm disiplini ve yönetime anlatım formatını kurmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "SEO Test Log & Sonuç Raporlama Şablonunu İndir",
@@ -74766,26 +75173,54 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "SEO Raporu KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "label": "Raporlama Ritmi ve SEO Operasyon Kültürü",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      },
+      {
+        "label": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
       },
       {
-        "title": "Teknik SEO ile Ölçüm Disiplini Nasıl Kurulur?",
-        "href": "/seo/teknik-seo"
+        "title": "Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      },
+      {
+        "title": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
       }
     ],
     "sections": [
@@ -74796,6 +75231,10 @@
           {
             "type": "p",
             "text": "SEO deneyi, tek bir değişkenin (ör. title) etkisini ölçmek için tasarlanmış kontrollü bir iyileştirme çalışmasıdır. “Değişiklik yaptım, artmış” demek deney değildir; deney, artışın gerçekten o değişkenden mi kaynaklandığını anlamaya çalışır. Burada amaç mükemmel laboratuvar değil; daha güvenilir karar almaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde deney ve test raporlaması](/tr/seo-hizmetleri), title, meta description, içerik, iç link veya CTA değişikliklerinin yalnız uygulanmasını değil; sonuçlarının düzenli KPI raporlarıyla izlenmesini de kapsar."
           },
           {
             "type": "h3",
@@ -74880,6 +75319,10 @@
             "text": "Mini örnek: Kemer’de “her şey dahil” landing’inde CTA’yı ilk ekrana almak, organik trafikten gelen kullanıcıyı daha hızlı lead’e çevirebilir (GA4 dönüşüm KPI’sı)."
           },
           {
+            "type": "p",
+            "text": "Burada [SEO ve reklam testlerini birlikte raporlamak](/tr/sem/reklam-raporlama), iki kanalın aynı A/B mantığıyla değil ama benzer ölçüm disipliniyle nasıl okunacağını görmek açısından faydalıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -74940,6 +75383,10 @@
             "text": "Mini örnek (Bodrum): Bodrum ve Side destinasyon sayfalarını aynı gruba koymak her zaman adil olmayabilir; talep ve sezon farklıdır. Bu yüzden “aynı destinasyon kümesi” içinde benzer sayfalar seçmek daha iyidir."
           },
           {
+            "type": "p",
+            "text": "Bu karşılaştırmayı güvenilir hale getirmek için [SEO test sonuçlarını veriyle analiz etmek](/tr/veri-analiz-ve-raporlama), test öncesi/sonrası dönemleri, kontrol grubu yapısını ve segment farklarını daha sistemli okumanızı sağlar."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -74976,6 +75423,10 @@
           {
             "type": "p",
             "text": "Varsayım: Evrensel tek bir “X gün” kuralı yok; bu yüzden raporda “örneklem yeterliliği”ni trafik hacmi ve trend stabilitesiyle açıklıyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO deneylerini raporlama ritmine bağlamak](/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek), haftalık kontrol ile aylık değerlendirme ve çeyreklik karar seviyelerini birbirine karıştırmadan ilerlemenizi sağlar."
           },
           {
             "type": "h3",
@@ -75019,6 +75470,10 @@
           {
             "type": "p",
             "text": "Raporun en kritik kısmı burası: sonuçları “hikâye” değil, kanıt olarak sunmak. Minimum format: 1 tablo + 1 grafik + 1 karar cümlesi."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [title testi CTR etkisi](/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi), gösterim, tıklama, CTR, ortalama konum ve organik dönüşüm metriklerini birlikte okuyarak deneyin gerçekten neyi değiştirdiğini daha net gösterir."
           },
           {
             "type": "h3",
@@ -75174,6 +75629,10 @@
             "text": "Technical Not (sheet): SEO testlerinde algoritma güncellemeleri veya sezon etkisi sonucu bozabilir; tarih seçiminde ve örneklem yorumunda dikkatli olun. Raporun “dış etkenler” bölümünü sabitleyin."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [AI destekli SEO deney içgörüleri](/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler), test sonuçlarından hızlı özet, anomali notu ve bir sonraki aksiyon önerisini daha sistemli çıkarmanıza yardımcı olabilir."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -75182,7 +75641,7 @@
             "variant": "primary",
             "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
             "text": "Deney tasarımı, ölçüm disiplini ve yönetime anlatım formatını kurmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -75190,6 +75649,10 @@
         "id": "seo-test-log-sonuc-raporlama-sablonu",
         "title": "SEO Test Log & Sonuç Raporlama Şablonunu İndir — SEO / Deney Yönetimi",
         "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yapıyı sürdürülebilir hale getirmek için [SEO deney dashboard’u](/tr/raporlama/looker-studio), test ve kontrol gruplarını, tarih aralıklarını ve KPI değişimlerini tek panelde izlemeyi kolaylaştırır."
+          },
           {
             "type": "download_asset",
             "assetType": "template",
@@ -75265,11 +75728,15 @@
             "text": "Bu nedenle her deney; hipotez, değişken, kontrol/deney URL seti, sabit KPI’lar, dış etken notu, sonuç tablosu, trend grafik ve karar cümlesiyle raporlanmalıdır. Karar keep, kill veya iterate olarak netleştiğinde, SEO raporu yalnızca geçmişi anlatmaz; bir sonraki roadmap kararını üretir."
           },
           {
+            "type": "p",
+            "text": "Bu standardı kurmak isteyen ekipler için [profesyonel SEO Raporlama ve SEO deney analizi](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; süreç detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası iyi bir başlangıç olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "SEO Deneyi & A/B Test Sonuç Analizi Talep Et",
             "text": "Deney tasarımı, ölçüm disiplini ve yönetime anlatım formatını kurmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
@@ -75390,7 +75857,7 @@
     },
     "h1": {
       "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
-      "intro": "SEO raporlamasında en pahalı hata, “her ay aynı metriğe bakıp” aynı duygusal tepkiyi üretmektir: ay/ay düşüşte panik, ay/ay artışta rehavet. Sezon etkisi olan sektörlerde (turizm, perakende, e-ticaret) bu yaklaşım daha da yanıltıcıdır; çünkü talep dalgaları doğası gereği grafiği zıplatır. Doğru yaklaşım; YoY ve sezonluk trend ile uzun vadeli gidişatı okumak, bunu benchmark hedeflerle kıyaslamak ve grafiğe “önemli olayları” işaretleyerek nedeni görünür kılmaktır. Bu rehber, “yıl bazlı SEO raporu” kurgusunu pratik bir raporlama standardına dönüştürür.",
+      "intro": "SEO raporlamasında en pahalı hata, “her ay aynı metriğe bakıp” aynı duygusal tepkiyi üretmektir: ay/ay düşüşte panik, ay/ay artışta rehavet. Sezon etkisi olan sektörlerde (turizm, perakende, e-ticaret) bu yaklaşım daha da yanıltıcıdır; çünkü talep dalgaları doğası gereği grafiği zıplatır. Doğru yaklaşım; YoY ve sezonluk trend ile uzun vadeli gidişatı okumak, bunu benchmark hedeflerle kıyaslamak ve grafiğe “önemli olayları” işaretleyerek nedeni görünür kılmaktır. Bu rehber, [yıl bazlı SEO raporu](/tr/seo/seo-raporlama) kurgusunu pratik bir raporlama standardına dönüştürür.",
       "quickSummary": [
         "1) MoM, QoQ ve YoY pencerelerini amaca göre ayır",
         "2) Sezon etkili sektörlerde ana grafiği YoY kur",
@@ -75401,14 +75868,14 @@
       "ctaPrimary": {
         "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
         "text": "Sezon dalgasını panik değil planlama aracına çevirmek isteyen turizm ve sezon etkili markalar için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
         "text": "Sezon dalgasını benchmark ve olay işaretleriyle okuyup yönetim kararına bağlamak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "YoY & Sezonluk SEO Performans Grafiği Şablonunu İndir",
@@ -75418,26 +75885,54 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Benchmark analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Veri analiz ve raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "label": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
+      },
+      {
+        "label": "Segment Bazlı SEO Raporu",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
+      },
+      {
+        "label": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
       },
       {
-        "title": "Benchmark Analizi ile Performans Karşılaştırması",
-        "href": "/raporlama/benchmark-analizi"
+        "title": "Segment Bazlı SEO Raporu: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+        "href": "/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen"
+      },
+      {
+        "title": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
       }
     ],
     "sections": [
@@ -75448,6 +75943,10 @@
           {
             "type": "p",
             "text": "Karşılaştırma penceresi, raporun yorumunu belirler. Aynı grafiğe bakıp farklı pencere seçerseniz tamamen farklı kararlar çıkabilir. Bu yüzden raporda “hangi pencereyle baktık?” sorusunun cevabı kilit olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde sezonluk performans analizi](/tr/seo-hizmetleri), yalnız aylık artış ve düşüşleri değil; sezon, yıl bazlı karşılaştırma, rakip benchmark ve pazarlama takvimini birlikte yorumlayan daha geniş bir raporlama yaklaşımı gerektirir."
           },
           {
             "type": "h3",
@@ -75541,6 +76040,18 @@
             "text": "Mini örnek (turizm): Yüksek sezonda brand aramalar artabilir; bu durumda organik dönüşüm yükselir ama non-brand görünürlük düşüyor olabilir. Sezon raporu, bunu “maskelenmiş risk” olarak gösterebilmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu farkı daha net görmek için [sezonluk sıralama değişimlerini yorumlamak](/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir), görünürlük, ortalama konum ve CTR tarafındaki dalgalanmaları talep değişiminden ayırmaya yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Aynı tabloyu derinleştirmek isteyen ekipler için [segment bazlı sezonluk SEO raporu](/tr/seo/blog/segment-bazli-seo-raporu-cihaz-ulke-yeni-geri-donen), cihaz, ülke, kullanıcı tipi ve lokasyon kırılımlarını ayrı okuyarak sezon etkisinin hangi segmentte daha güçlü olduğunu görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde [otel dijital pazarlamada sezonluk SEO performansı](/tr/otel-dijital-pazarlama), erken rezervasyon dönemi, kampanya takvimi, destinasyon görünürlüğü ve rezervasyon niyetiyle birlikte değerlendirildiğinde çok daha anlamlı hale gelir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -75570,6 +76081,10 @@
           {
             "type": "p",
             "text": "Benchmark, raporu “geçmişe bakış”tan çıkarıp “hedefe yürüyüş”e çevirir. Benchmark yoksa rapor sadece “ne oldu?” der; benchmark varsa “ne kadar iyiyiz ve nereye gitmeliyiz?” der."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [YoY ve benchmark SEO analizi](/tr/raporlama/benchmark-analizi), performansı yalnız geçen yılın aynı dönemiyle değil; rakiplerin görünürlük payı, sektör yönü ve pazar fırsatlarıyla birlikte yorumlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -75685,6 +76200,10 @@
             "text": "Uzun vadeli grafik okuma, “tek nokta” yerine “eğim” okumasıdır. Yönetim için en değerli şey, SEO’nun uzun vadede katkı yapıp yapmadığını görmek ve riskleri erken fark etmektir."
           },
           {
+            "type": "p",
+            "text": "Bunu daha güvenilir yapmak için [sezonluk SEO verisini analiz etmek](/tr/veri-analiz-ve-raporlama), yıl bazlı karşılaştırma, trend temizliği, segmentasyon ve dönemsel veri kalitesini aynı çerçevede okumayı destekler."
+          },
+          {
             "type": "h3",
             "text": "Uzun vadede neye bakılır?"
           },
@@ -75771,6 +76290,10 @@
             "text": "Technical Not (sheet): Trend analizinde sadece trafik değil, brand/non-brand ayrımı, dönüşüm ve kalite metrikleri de grafiklere eklenmelidir; aksi hâlde “yanlış alarm / gereksiz panik” üretirsiniz."
           },
           {
+            "type": "p",
+            "text": "Burada [AI destekli sezonluk SEO içgörüleri](/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler), YoY farkları, beklenmeyen düşüşleri ve anomali sinyallerini daha hızlı özetleyerek ekiplerin ilk yorumu daha kontrollü yapmasına yardımcı olabilir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -75818,7 +76341,7 @@
             "variant": "primary",
             "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
             "text": "YoY + sezon grafikleri + benchmark hedefleri + timeline notlarıyla yönetim seviyesinde net karar isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -75861,11 +76384,15 @@
             "text": "Doğru yaklaşım; YoY ve sezon trend grafikleriyle uzun vadeli eğimi okumak, benchmark hedefleriyle ilerlemeyi kıyaslamak, brand/non-brand ve dönüşüm ayrımını sabitlemek ve grafiğe kritik olayları işaretlemektir. Böylece “bu ay düştük” paniği yerine “gerçek katkı, gerçek risk ve sıradaki aksiyon nedir?” sorusu cevaplanır."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve sezonluk performans analizi](/tr/seo/seo-raporlama) daha net bir yapı sunar; süreç detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası iyi bir başlangıç olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sezonluk & YoY SEO Trend Analizi Talep Et",
             "text": "Sezon dalgasını benchmark ve olay işaretleriyle okuyup yönetim kararına bağlamak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
@@ -75982,7 +76509,7 @@
     },
     "h1": {
       "title": "İçerik Refresh ve Consolidation Sonuçlarını SEO Raporuna Nasıl Yansıtırsınız?",
-      "intro": "İçerik refresh ve consolidation, SEO’da en büyük “gizli verim” alanlarından biridir: doğru sayfaları güncellediğinizde görünürlük artar, CTR iyileşir, trafik ve dönüşüm yükselir; doğru birleştirme yaptığınızda içerik cannibalization azalır ve otorite tek sayfada toplanır. Ama bunları rapora yansıtmazsanız, ekip sadece “çok iş yaptık” der; hangi yaklaşımın gerçekten değer ürettiği bilinmez. Bu rehberde, refresh ve consolidation işlerini baseline → değişiklik log’u → önce/sonra KPI → karar formatına sokarak raporlamayı standardize edeceğiz.",
+      "intro": "İçerik refresh ve consolidation, SEO’da en büyük “gizli verim” alanlarından biridir: doğru sayfaları güncellediğinizde görünürlük artar, CTR iyileşir, trafik ve dönüşüm yükselir; doğru birleştirme yaptığınızda içerik cannibalization azalır ve otorite tek sayfada toplanır. Ama bunları rapora yansıtmazsanız, ekip sadece “çok iş yaptık” der; hangi yaklaşımın gerçekten değer ürettiği bilinmez. Bu rehberde, [içerik güncelleme etkisi raporlama](/tr/seo/seo-raporlama) yaklaşımını baseline → değişiklik log’u → önce/sonra KPI → karar formatına dönüştürerek standardize edeceğiz.",
       "quickSummary": [
         "1) Baseline olmadan “etki” yoktur; önce “önce”yi doğru yakalayın",
         "2) KPI setini sabitleyin: impressions, clicks, CTR, avg position, sessions, conversions",
@@ -75993,51 +76520,71 @@
       "ctaPrimary": {
         "label": "İçerik Refresh & Consolidation Sonuç Analizi Talep Et",
         "text": "Refresh ve consolidation çalışmalarını KPI bazlı kanıtla rapora taşımak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "İçerik Refresh & Consolidation Sonuç Analizi Talep Et",
         "text": "Hangi refresh türü değer üretiyor, hangi consolidation yaklaşımı riskli; net KPI raporu isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Refresh/Consolidation Öncesi–Sonrası Raporlama Şablonunu İndir",
         "text": "Baseline ve önce/sonra KPI setini standartlaştırır; consolidation’da toplam→hedef ölçümüyle gerçek etkiyi netleştirmenizi sağlar.",
-        "href": "/seo/seo-raporlama"
+        "href": "/downloads/refresh-consolidation-oncesi-sonrasi-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "İçerik ve Topic Cluster Performans Raporu",
+        "href": "/tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Sayfa Bazlı SEO Performans Raporu",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
+      },
+      {
+        "label": "Sezonluk ve Yıl Bazlı SEO Performans Raporları",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?",
+        "href": "/tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir"
       },
       {
-        "title": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "title": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
       },
       {
-        "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
       }
     ],
     "sections": [
@@ -76054,7 +76601,7 @@
             "variant": "primary",
             "label": "İçerik Refresh & Consolidation Sonuç Analizi Talep Et",
             "text": "Refresh ve consolidation çalışmalarını KPI bazlı kanıtla rapora taşımak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -76065,6 +76612,10 @@
           {
             "type": "p",
             "text": "Baseline olmadan “etki” yoktur. Önce/sonra kıyas yapacaksanız, önce “önce”yi doğru yakalamanız gerekir. Baseline, sadece KPI’ları değil; değişiklik tarihini, kapsamını ve hangi sayfaların etkilendiğini de içerir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde refresh önce / sonra KPI takibi](/tr/seo-hizmetleri), içerik güncellemesini yalnızca yayın aksiyonu değil; görünürlük, trafik, CTR, ortalama konum, dönüşüm ve cluster etkisiyle ölçülmesi gereken bir performans süreci olarak ele alır."
           },
           {
             "type": "h3",
@@ -76153,6 +76704,10 @@
             "text": "Mini örnek (B2B): Hizmet sayfasını refresh ettiniz; impressions aynı, CTR ↑, lead ↑ ise “vaat+kanıt+CTA” güncellemesi işe yaramıştır."
           },
           {
+            "type": "p",
+            "text": "Güncellenen veya birleştirilen URL'nin etkisini netleştirmek için [refresh sonrası landing page performansı](/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi), trafik, görünürlük, dönüşüm ve kullanıcı davranışını URL bazında birlikte okumayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -76216,6 +76771,14 @@
             "text": "Net cevap bloğu : Güncellenen URL’ler için yayın tarihinden önceki dönemden bir baseline alın ve aynı uzunlukta “sonra” penceresi seçin. GSC (impressions/clicks/CTR/konum) ve GA4 (sessions/dönüşüm) KPI’larını birlikte karşılaştırın; mümkünse YoY veya benzer kontrol setiyle dış etkenleri not edin."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [refresh etkisini sezonluk trendden ayırmak](/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark), artış veya düşüşü yalnızca güncelleme etkisine bağlamadan önce YoY trendi ve benchmark farkını da kontrol etmeyi gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Sağlıklı karşılaştırma için [refresh önce / sonra KPI](/tr/veri-analiz-ve-raporlama), doğru dönem seçimi, segmentasyon ve veri temizliğiyle birlikte okunmalıdır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -76253,6 +76816,10 @@
             "text": "Refresh/consolidation bazen tek sayfayı değil, cluster’ı etkiler. Özellikle hub–cluster yapısında bir içeriği güçlendirmek, hub’a otorite taşıyabilir."
           },
           {
+            "type": "p",
+            "text": "Bu çerçevede [içerik refresh ve consolidation sonuçları](/tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir), tek URL kazanımlarını hub, support içerik ve topic cluster performansıyla birlikte değerlendirmeyi sağlar."
+          },
+          {
             "type": "h3",
             "text": "Cluster etkisini nasıl işaretlersiniz?"
           },
@@ -76269,6 +76836,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel): “Antalya rehberi” blogu refresh edilip hub destinasyon sayfasına daha güçlü link verildiyse; blogun CTR artışı yanında hub’ın dönüşümü de artabilir. Raporda bunu “cluster etkisi” olarak not etmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [otel SEO'da içerik güncelleme etkisi](/tr/otel/seo), destinasyon, oda, kampanya ve blog sayfalarındaki refresh etkisini sezon ve rezervasyon niyeti bağlamında okumayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -76302,6 +76873,10 @@
           {
             "type": "p",
             "text": "Refresh ve consolidation raporu, yönetime tek bakışta anlaşılır olmalı: bir tablo ve küçük bir trend grafiği çoğu zaman yeterli."
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlüğü sürdürülebilir hale getirmek için [içerik güncelleme dashboard'u](/tr/raporlama/looker-studio), refresh tarihi, eski/yeni URL, görünürlük, CTR, oturum ve dönüşüm verilerini tek panelde izlemeyi sağlar."
           },
           {
             "type": "h3",
@@ -76429,6 +77004,10 @@
             "text": "Key Statistics / Data Point (yumuşatılmış): Refresh/consolidation sonrası doğru dönem karşılaştırmaları yapıldığında, genelde hedeflenen URL’lerde hem görünürlük hem trafik artışı görüldüğü raporlanıyor. (Kesin rakam iddiası değil; genel bulgu olarak düşünün.)"
           },
           {
+            "type": "p",
+            "text": "Bu süreci standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve içerik refresh analizi](/tr/seo/seo-raporlama) daha net bir ölçüm çerçevesi sunar; uygulama detayları için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -76468,14 +77047,14 @@
             "variant": "primary",
             "label": "İçerik Refresh & Consolidation Sonuç Analizi Talep Et",
             "text": "Hangi refresh türü değer üretiyor, hangi consolidation yaklaşımı riskli; net KPI raporu isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Refresh/Consolidation Öncesi–Sonrası Raporlama Şablonunu İndir",
             "text": "Baseline ve önce/sonra KPI setini standartlaştırır; consolidation’da toplam→hedef ölçümüyle gerçek etkiyi netleştirmenizi sağlar.",
-            "href": "/seo/seo-raporlama"
+            "href": "/downloads/refresh-consolidation-oncesi-sonrasi-raporlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -76715,7 +77294,7 @@
     },
     "h1": {
       "title": "Segment Bazlı SEO Raporu: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
-      "intro": "SEO raporunda “organik trafik arttı/azaldı” demek çoğu zaman yetersizdir; çünkü toplam ortalama, içerideki farklı gerçekleri gizler. Örneğin mobil kullanıcı sayısı artarken dönüşüm düşebilir; bazı ülkelerde görünürlük kaybı yaşanırken toplam trafik sabit kalabilir; yeni kullanıcı kazanımı azalırken geri dönen kullanıcılar artıyor olabilir. Segment bazlı rapor, bu çelişkileri çözer ve raporu “sunum” olmaktan çıkarıp hedefli aksiyon planına dönüştürür. Bu rehberde, cihaz/ülke/yeni–geri dönen segmentlerini GA4 ve GSC verileriyle nasıl birleştirip “segment→KPI→aksiyon” zinciri kuracağınızı anlatıyoruz.",
+      "intro": "SEO raporunda “organik trafik arttı/azaldı” demek çoğu zaman yetersizdir; çünkü toplam ortalama, içerideki farklı gerçekleri gizler. Örneğin mobil kullanıcı sayısı artarken dönüşüm düşebilir; bazı ülkelerde görünürlük kaybı yaşanırken toplam trafik sabit kalabilir; yeni kullanıcı kazanımı azalırken geri dönen kullanıcılar artıyor olabilir. [segment bazlı SEO raporu](/tr/seo/seo-raporlama), bu çelişkileri çözer ve raporu “sunum” olmaktan çıkarıp hedefli aksiyon planına dönüştürür. Bu rehberde, cihaz/ülke/yeni–geri dönen segmentlerini GA4 ve GSC verileriyle nasıl birleştirip “segment→KPI→aksiyon” zinciri kuracağınızı anlatıyoruz.",
       "quickSummary": [
         "1) SEO performansını toplam ortalama yerine cihaz, ülke ve kullanıcı tipi kırılımlarında okuyun",
         "2) GA4 davranış/dönüşüm verileri ile GSC görünürlük verilerini yan yana getirin",
@@ -76726,55 +77305,71 @@
       "ctaPrimary": {
         "label": "Segment Bazlı SEO Analizi Talep Et",
         "text": "Segment kırılımlarıyla fırsat/riskleri netleştirip aksiyon hızını artırmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Segment Bazlı SEO Analizi Talep Et",
         "text": "Cihaz/ülke/yeni–geri segmentlerinde fırsat ve riskleri netleştirip aksiyon hızını artırmak isteyen projeler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Segment Bazlı SEO Raporlama & Aksiyon Şablonunu İndir",
         "text": "Cihaz/ülke/yeni–geri segmentlerini tek tabloda toplar; düşük örneklemi filtreleyip segment→aksiyon planı yazmanızı sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Sezonluk ve Yıl Bazlı SEO Performans Raporları",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      },
+      {
+        "label": "Yerel SEO ve Harita Performansı",
+        "href": "/tr/seo/blog/yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
       },
       {
-        "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "title": "Yerel SEO ve Harita Performansını SEO Raporuna Nasıl Dahil Edersiniz?",
+        "href": "/tr/seo/blog/yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz"
       }
     ],
     "sections": [
@@ -76795,7 +77390,7 @@
             "variant": "primary",
             "label": "Segment Bazlı SEO Analizi Talep Et",
             "text": "Segment kırılımlarıyla fırsat/riskleri netleştirip aksiyon hızını artırmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -76806,6 +77401,10 @@
           {
             "type": "p",
             "text": "Segment bazlı raporlama, aynı KPI’ları farklı kullanıcı gruplarında ayrı ayrı okuyarak “genel ortalamanın” sakladığı gerçeği açığa çıkarır. Bu, özellikle turizm ve çok pazarlı projelerde kritiktir: mobil kullanıcı davranışı, ülke bazlı niyet, yeni/geri dönen farkı… Hepsi farklı optimizasyon gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde segment bazlı performans analizi](/tr/seo-hizmetleri), toplam organik trafik artışını tek başına yeterli görmez; cihaz, ülke, lokasyon ve kullanıcı tipi kırılımlarını ayrı ayrı okuyarak daha güvenilir karar üretmeyi hedefler."
           },
           {
             "type": "h3",
@@ -76823,6 +77422,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Belek destinasyon sayfası Almanya pazarında (DE) iyi performans gösterirken TR’de düşebilir. Toplam raporda bu kaybolur; segment raporu bunu görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Bu veri kaynaklarını doğru bağlamak için [GA4 ve Search Console segmentlerini birlikte okumak](/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak), cihaz, ülke, landing page ve kullanıcı tipi kırılımlarını aynı dönem içinde davranış ve görünürlük verileriyle eşleştirmenizi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -76896,6 +77499,10 @@
             "text": "Mini örnek (otel): Mobilde “telefon/WhatsApp” dönüşümü artıp form dönüşümü düşebilir. Bu “kötü” değil, cihaz davranışının değişmesidir; raporda mikro dönüşümleri doğru setlemek gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu farkı daha sağlıklı yorumlamak için [mobil vs masaüstü organik performans](/tr/veri-analiz-ve-raporlama), cihaz bazlı dönüşüm, CTR, trend temizliği ve segmentasyon mantığını aynı veri çerçevesinde okumanızı destekler."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -76962,6 +77569,14 @@
             "text": "Mini örnek: Antalya destinasyon sayfası İngiltere pazarında güçlü impressions alıp düşük CTR veriyorsa; title/snippet vaadi (fiyat/konsept/kanıt) o pazara uymuyor olabilir."
           },
           {
+            "type": "p",
+            "text": "Burada [sezonluk segment performansı](/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark), ülke ve cihaz bazındaki değişimlerin dönemsel talep mi yoksa gerçek performans sorunu mu olduğunu ayırmada önemli bir referans sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Lokasyon tarafını derinleştirmek isteyen ekipler için [yerel SEO segmentlerini rapora dahil etmek](/tr/seo/blog/yerel-seo-ve-harita-performansini-seo-raporuna-nasil-dahiledersiniz), şehir, Google Business Profile, local pack ve harita görünürlüğünü segment bazlı raporlama yapısına taşır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -77021,6 +77636,14 @@
           {
             "type": "p",
             "text": "Mini örnek: Side’de destinasyon içerikleri yeni kullanıcı getiriyor ama geri dönen kullanıcıyı artırmıyorsa; “re-visit” için e-posta/teklif/rehber içerik zinciri ve iç link yolculuğu güçlendirilebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kırılımı sürekli izlemek için [segment bazlı SEO dashboard](/tr/raporlama/looker-studio), yeni vs geri dönen kullanıcı SEO analizi, cihaz, ülke ve landing page filtrelerini tek panelde toplamanızı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle turizm projelerinde [otel dijital pazarlamada segment bazlı SEO analizi](/tr/otel-dijital-pazarlama), ülke pazarı, mobil rezervasyon davranışı, lokasyon etkisi ve kullanıcı tipi farklarını kampanya ve rezervasyon kararlarına bağlamak için değerlidir."
           },
           {
             "type": "h3",
@@ -77202,14 +77825,14 @@
             "variant": "primary",
             "label": "Segment Bazlı SEO Analizi Talep Et",
             "text": "Cihaz/ülke/yeni–geri segmentlerinde fırsat ve riskleri netleştirip aksiyon hızını artırmak isteyen projeler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Segment Bazlı SEO Raporlama & Aksiyon Şablonunu İndir",
             "text": "Cihaz/ülke/yeni–geri segmentlerini tek tabloda toplar; düşük örneklemi filtreleyip segment→aksiyon planı yazmanızı sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/tr/veri-analiz-ve-raporlama"
           }
         ]
       },
@@ -77217,6 +77840,10 @@
         "id": "segment-bazli-seo-raporlama-aksiyon-sablonu",
         "title": "Segment Bazlı SEO Raporlama & Aksiyon Şablonunu İndir — SEO / Segment Analizi",
         "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yapı, segment kırılımlarını yalnız raporlamak değil; düzenli izlenebilir hale getirmek için dashboard ve aksiyon şablonunu birlikte düşünmeyi gerektirir."
+          },
           {
             "type": "download_asset",
             "assetType": "template",
@@ -77255,11 +77882,15 @@
             "text": "Bu yüzden iyi bir rapor, yalnızca cihaz/ülke/yeni–geri dönen kırılımlarını listelemekle yetinmez; her segment için KPI sapmasını, olası kök nedeni ve tek ana aksiyonu yazar. Böylece rapor, yönetim sunumundan çıkıp sprint backlog’unu besleyen karar aracına dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve segment bazlı analiz](/tr/seo/seo-raporlama) daha net bir çalışma yapısı sunar; süreç detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası iyi bir başlangıç olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Segment Bazlı SEO Analizi Talep Et",
             "text": "Segment kırılımlarıyla fırsat/riskleri netleştirip aksiyon hızını artırmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       }
@@ -77367,7 +77998,7 @@
     },
     "h1": {
       "title": "SEO Funnel Raporu: Ziyaretçiden Lead ve Rezervasyona Kadar",
-      "intro": "SEO raporu çoğu zaman iki uçta kalır: ya sadece sıralama konuşur ya da sadece trafik. Oysa iş tarafının derdi şudur: trafik geliyor ama neden lead/rezervasyon olmuyor? İşte funnel raporu, SEO’yu uçtan uca okur: görünürlükten başlayıp site içi etkileşime ve dönüşüme kadar her aşamayı ölçer. Bu yaklaşım, ekibin “keyword/teknik” iyileştirmelerle oyalanmasını engeller; asıl kaybın landing, form veya rezervasyon adımında olup olmadığını netleştirir. Bu rehberde, otel ve B2B örnekleriyle funnel adımlarını ve KPI’ları standardize edeceğiz.",
+      "intro": "SEO raporu çoğu zaman iki uçta kalır: ya sadece sıralama konuşur ya da sadece trafik. Oysa iş tarafının derdi şudur: trafik geliyor ama neden lead/rezervasyon olmuyor? İşte funnel raporu, SEO’yu uçtan uca okur: görünürlükten başlayıp site içi etkileşime ve dönüşüme kadar her aşamayı ölçer. Bu yaklaşım, ekibin “keyword/teknik” iyileştirmelerle oyalanmasını engeller; asıl kaybın landing, form veya rezervasyon adımında olup olmadığını netleştirir. Bu rehberde, [SEO funnel nedir](/tr/seo/seo-raporlama) sorusunu otel ve B2B örnekleriyle açıp funnel adımlarını ve KPI'ları standardize edeceğiz.",
       "quickSummary": [
         "1) SEO’yu sadece sıralama veya trafik değil, funnel adımlarıyla okuyun",
         "2) Görünürlük, trafik, etkileşim ve dönüşüm için ayrı KPI seti kurun",
@@ -77378,55 +78009,71 @@
       "ctaPrimary": {
         "label": "SEO Funnel & Dönüşüm Analizi Talep Et",
         "text": "“Trafik var ama iş yok” sorununu funnel adımlarında netleştirip çözmek isteyen otel ve B2B ekipleri için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Funnel & Dönüşüm Analizi Talep Et",
         "text": "Funnel raporunu kurup darboğazları sprint planına çevirmek isteyen otel ve B2B markaları için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "SEO Funnel Raporlama & Darboğaz Tespit Şablonunu İndir",
         "text": "Funnel adımlarını ve KPI’ları hazır verir; kaybın hangi aşamada olduğunu gösterip aksiyonu sprint planına çevirmenizi sağlar.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
-      },
-      {
-        "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
-      },
-      {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
-      },
-      {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Sayfa Bazlı SEO Performans Raporu",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
+      },
+      {
+        "label": "SEO ve SEM Raporlarını Birlikte Okumak",
+        "href": "/tr/seo/blog/seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
       },
       {
-        "title": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "title": "SEO ve SEM Raporlarını Birlikte Okumak: Organik ve Reklam Synergisi",
+        "href": "/tr/seo/blog/seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi"
       },
       {
-        "title": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
       }
     ],
     "sections": [
@@ -77443,7 +78090,7 @@
             "variant": "primary",
             "label": "SEO Funnel & Dönüşüm Analizi Talep Et",
             "text": "“Trafik var ama iş yok” sorununu funnel adımlarında netleştirip çözmek isteyen otel ve B2B ekipleri için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -77454,6 +78101,10 @@
           {
             "type": "p",
             "text": "Funnel, SEO’yu “arama sonuçları”ndan “iş sonucu”na bağlayan basit ama güçlü bir modeldir. Her aşama farklı soru sorar ve farklı KPI ile ölçülür. En kritik fikir: aynı KPI’yı her aşamada kullanamazsınız; aksi hâlde rapor “genel konuşur” ve çözüm üretmez."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde funnel raporlama](/tr/seo-hizmetleri), yalnızca trafik üretimini değil; ziyaretçiyi lead, rezervasyon veya satışa taşıyan yolculuğu da ölçmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -77542,6 +78193,10 @@
             "text": "Net cevap bloğu : SEO funnel’i dört adımda okunur: görünürlük (impressions/konum) → trafik (sessions) → etkileşim (mikro event’ler) → dönüşüm (lead/rezervasyon/arama). Her adımın KPI’ı farklıdır; darboğaz hangi adımda ise aksiyon oradan başlar."
           },
           {
+            "type": "p",
+            "text": "Funnel hangi landing page'de kırılıyor sorusunu yanıtlamak için [landing page funnel analizi](/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi), trafik alan ama dönüşüm üretmeyen sayfaları aksiyon önceliğiyle birlikte okumayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -77593,6 +78248,14 @@
             "text": "Mini örnek: Belek’te bir resort için organik trafik iyi ama rezervasyon düşüyorsa; sorun “SEO bitti” değil, çoğu zaman rezervasyon adımı sürtünmesi (mobilde hız, form, ödeme) olabilir."
           },
           {
+            "type": "p",
+            "text": "Bu akışı iş sonucuna bağlamak için [ziyaretçiden rezervasyona kadar raporlama](/tr/raporlama/satis-donusum), lead, rezervasyon, telefon ve gelir etkisini funnel'ın son adımıyla birlikte yorumlamayı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde [otel dijital pazarlamada SEO funnel analizi](/tr/otel-dijital-pazarlama), organik trafik, kampanya sayfaları, rezervasyon niyeti ve mobil kullanıcı davranışını aynı karar çerçevesinde birleştirir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -77642,6 +78305,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Hizmet sayfası impressions alıyor ama CTA click düşükse; sorun çoğu zaman “değer önerisi” ve “kanıt” bloklarının zayıf olmasıdır. Dönüşüm düşüyorsa ölçüm (event) doğrulaması da şarttır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle “trafik var satış yok, nerede sorun” diye düşünülen durumlarda [trafik var satış yok, nerede sorun](/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi) sorusuna başlamadan önce form event'i, CTA click ve dönüşüm ölçümünün gerçekten doğru çalıştığını kontrol etmek gerekir."
           },
           {
             "type": "h3",
@@ -77748,6 +78415,14 @@
             "text": "Key Statistics / Data Point (yumuşatılmış): Funnel temelli raporlama kullanan projelerde, “trafik var ama iş yok” şikayetlerinin daha hızlı ve somut şekilde çözüldüğü gözleniyor. (Kesin rakam iddiası değil; operasyonel gözlem.)"
           },
           {
+            "type": "p",
+            "text": "Organik ve ücretli kanal katkısını birlikte görmek için [SEO ve SEM funnel raporu](/tr/seo/blog/seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi), aynı sorgu ve landing düzeyinde kanal rolünü daha net yorumlamaya yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Kanal bazlı maliyet ve katkı tarafını derinleştirmek için [organik ve reklam funnel performansını karşılaştırmak](/tr/sem/reklam-raporlama), lead kalitesi ve dönüşüm yolu üzerinde daha dengeli karar vermeyi destekler."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check"
           },
@@ -77781,6 +78456,10 @@
             "text": "Funnel bakışı olmayan raporlarda ekipler çoğu zaman teknik/keyword iyileştirmeleriyle yetinir; asıl kaybın form/rezervasyon adımında olduğu geç fark edilir. Funnel raporu, SEO’nun masadaki değerini artırır: görünürlükten iş sonucuna kadar zinciri netleştirir ve “nereden başlamalıyız?” sorusuna sakin bir cevap üretir."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve funnel analizi](/tr/seo/seo-raporlama) daha net bir yapı sunar; süreç detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası iyi bir başlangıç olur."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -77797,14 +78476,14 @@
             "variant": "primary",
             "label": "SEO Funnel & Dönüşüm Analizi Talep Et",
             "text": "Funnel raporunu kurup darboğazları sprint planına çevirmek isteyen otel ve B2B markaları için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "SEO Funnel Raporlama & Darboğaz Tespit Şablonunu İndir",
             "text": "Funnel adımlarını ve KPI’ları hazır verir; kaybın hangi aşamada olduğunu gösterip aksiyonu sprint planına çevirmenizi sağlar.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       },
@@ -77943,7 +78622,7 @@
     },
     "h1": {
       "title": "SEO ve SEM Raporlarını Birlikte Okumak: Organik ve Reklam Sinerjisi",
-      "intro": "SEO ve reklam raporlarını ayrı ayrı okumak, “iki ayrı başarı hikâyesi” üretir; ama iş hedefi tek bir şey ister: toplam talep + toplam dönüşüm + doğru maliyet. Özellikle “seo ve sem raporları birlikte” okuma kültürü olmayan ekiplerde, aynı sorguda hem organik hem reklam görünür; sonra da “kredi kimin?” tartışması başlar. Bu rehberin amacı, kanalları rakip gibi değil, funnel’ın farklı katmanlarını yöneten tamamlayıcı yapılar gibi konumlandırmak ve kararları sorgu/landing düzeyinde vermektir: brand’de koruma mı, generic’te büyüme mi, hangi SERP kombinasyonu değerli, attribution nasıl yönetilir?",
+      "intro": "SEO ve reklam raporlarını ayrı ayrı okumak, “iki ayrı başarı hikâyesi” üretir; ama iş hedefi tek bir şey ister: toplam talep + toplam dönüşüm + doğru maliyet. Özellikle [SEO ve SEM raporları birlikte](/tr/seo/seo-raporlama) okunmadığında, aynı sorguda hem organik hem reklam görünür; sonra da “kredi kimin?” tartışması başlar. Bu rehberin amacı, kanalları rakip gibi değil, funnel'ın farklı katmanlarını yöneten tamamlayıcı yapılar gibi konumlandırmak ve kararları sorgu/landing düzeyinde vermektir: brand'de koruma mı, generic'te büyüme mi, hangi SERP kombinasyonu değerli, attribution nasıl yönetilir?",
       "quickSummary": [
         "1) SEO ve SEM’i ayrı başarı hikâyeleri olarak değil, toplam sonuç üzerinden okuyun",
         "2) Aynı sorgu ve aynı landing için organik + reklam verisini yan yana getirin",
@@ -77954,55 +78633,71 @@
       "ctaPrimary": {
         "label": "SEO + SEM Birleşik Rapor Analizi Talep Et",
         "text": "SEO ve reklamı tek panelde birleştirip, brand/generic rol dağılımını veriye göre belirlemek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO + SEM Birleşik Rapor Analizi Talep Et",
         "text": "SEO ve reklamı aynı sorgu/landing düzeyinde okuyup bütçe ve rol kararını netleştirmek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "SEO & Google Ads Ortak Raporlama Şablonunu İndir",
         "text": "Sorgu tipi + landing eşleştirmesiyle çakışmayı görünür kılar; lider kanal kararını yazmanızı sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/downloads/seo-google-ads-ortak-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO Funnel Raporu",
+        "href": "/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar"
+      },
+      {
+        "label": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "SEO Raporu Nasıl Hazırlanır",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
       },
       {
         "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "SEO Funnel Raporu: Ziyaretçiden Lead ve Rezervasyona Kadar",
+        "href": "/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar"
       },
       {
-        "title": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "title": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "title": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
       }
     ],
     "sections": [
@@ -78019,7 +78714,7 @@
             "variant": "primary",
             "label": "SEO + SEM Birleşik Rapor Analizi Talep Et",
             "text": "SEO ve reklamı tek panelde birleştirip, brand/generic rol dağılımını veriye göre belirlemek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -78030,6 +78725,14 @@
           {
             "type": "p",
             "text": "İlk kural: SEO ve SEM aynı hedefe hizmet edebilir ama farklı mekanizmalarla çalışır. SEO; içerik, otorite ve teknik sağlamlıkla uzun vadeli görünürlük inşa eder. SEM; bütçe, teklif ve kreatifle anlık görünürlük ve talep yakalar. “Organik ve reklam sinerjisi” dediğimiz şey; birinin diğerini iptal etmesi değil, doğru rol dağılımıyla toplam sonucu büyütmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde organik ve reklam sinerjisi](/tr/seo-hizmetleri), organik performansın reklam verisinden kopuk yorumlanmaması; aynı sorgu, landing page ve dönüşüm yolculuğu içinde birlikte değerlendirilmesi gerektiğini gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Ziyaretçiden lead ve rezervasyona kadar aynı yolu görmek için [SEO ve SEM funnel raporu](/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar), organik ve reklam trafiğinin hangi aşamada birbirini desteklediğini ya da çakıştığını daha net anlatır."
           },
           {
             "type": "h3",
@@ -78114,6 +78817,10 @@
           {
             "type": "p",
             "text": "Net cevap bloğu : Bazen evet, bazen hayır. Doğru karar; brand sorguda organik CTR + reklam tıklama payı + toplam dönüşüm + rakip görünürlüğü birlikte okunarak verilir. Eğer reklam, organiğin zaten aldığı talebi “yeniden” satın alıyorsa israf olabilir; ama rakipler brand sorguda agresifse, reklam “savunma” rolüyle toplam dönüşümü koruyabilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [marka sorgularında SEO ve Ads ilişkisi](/tr/veri-analiz-ve-raporlama), brand / non-brand, landing page ve attribution farklarını aynı veri modeli içinde yorumlayarak maliyet ve görünürlük kararlarını daha güvenilir hale getirir."
           },
           {
             "type": "h3",
@@ -78252,6 +78959,14 @@
           {
             "type": "p",
             "text": "Birleşik raporda en büyük hata: SEO KPI’larını ve Ads KPI’larını aynı tabloda “karıştırmak” ve karar verememek. Doğru yaklaşım: ortak KPI’lar (toplam sonuç) + ayrışan KPI’lar (kanal sağlığı) şeklinde iki katman kurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu ortak okuryazarlığı standardize etmek için [SEO ve SEM ortak KPI’ları](/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi), tıklama, gösterim, CTR, ortalama konum, trafik, dönüşüm ve maliyet verisini aynı karar çerçevesinde yorumlamayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı sorgu ve landing düzeyinde davranış verisini görünürlük katmanıyla birleştirmek için [GA4, Search Console ve reklam verisini birlikte okumak](/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak), kullanıcı davranışı ile kanal katkısını aynı tabloda okumaya yardımcı olur."
           },
           {
             "type": "h3",
@@ -78419,6 +79134,14 @@
           },
           {
             "type": "p",
+            "text": "Ücretli kampanya tarafını derinleştirmek için [organik ve reklam sinerjisi](/tr/sem/reklam-raporlama), CPC, CPA, kampanya yapısı ve kanal katkısını organik görünürlük ve landing etkisiyle birlikte değerlendirmeyi destekler."
+          },
+          {
+            "type": "p",
+            "text": "Gerçek iş etkisini görmek için [organik ve reklam kanallarının satış katkısı](/tr/raporlama/satis-donusum), lead, rezervasyon, satış, assisted conversion ve gelir katkısını tek kanala indirgemeden birlikte okumayı sağlar."
+          },
+          {
+            "type": "p",
             "text": "Mini örnek (turizm): Antalya gibi destinasyonlarda sezon başında Ads baskın olabilir; ama sezon ortasında organik görünürlük güçlüyse brand kampanyası optimizasyonu ile maliyet düşürmek mümkün olabilir. Bu karar, yalnız Ads raporundan değil birleşik panelden çıkar."
           },
           {
@@ -78567,18 +79290,22 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve organik / reklam kanal analizi](/tr/seo/seo-raporlama) daha net bir karar çerçevesi sunar; uygulama detayları için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "SEO & Google Ads Ortak Raporlama Şablonunu İndir",
             "text": "Sorgu tipi + landing eşleştirmesiyle organik ve reklam verisini tek tabloda birleştirip kanal rol kararını yazmanızı sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/seo-google-ads-ortak-raporlama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "SEO + SEM Birleşik Rapor Analizi Talep Et",
             "text": "SEO ve Google Ads verisini tek panelde birleştirip, brand/generic bütçe kararlarını optimize etmek isteyen ekipler için.",
-            "href": "/sem/reklam-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -78790,7 +79517,7 @@
     },
     "h1": {
       "title": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler Nasıl Kullanılır?",
-      "intro": "Raporlama ölçeği büyüdükçe, SEO ekibinin en pahalı kaynağı “veriyi görmek” değil “doğru yorumlamak” olur. Birçok ekip, Search Console/GA4/BI panellerinde onlarca tabloya bakar; ama asıl kritik soruya geç kalır: Nerede anomali var? Nerede risk var? Nerede fırsat var? AI destekli rapor özeti ve otomatik içgörü kartları, bu darboğazı çözmek için güçlü bir hızlandırıcıdır: tablolarda kaybolmak yerine, değişimi ve anomaliyi işaretler. Ama burada ince bir çizgi var: AI, öncelik işaretleyicidir, karar verici değildir. AI’ın yanlış pozitif/negatif içgörüler üretebileceğini kabul edip, analist-in-the-loop (insan kontrollü) bir model kurmazsanız “hız” yanlış karara dönüşebilir. Bu rehber, AI destekli seo raporu yaklaşımını; erken uyarı, doğrulama ve aksiyon planı üreten hibrit bir raporlama standardına dönüştürür.",
+      "intro": "Raporlama ölçeği büyüdükçe, SEO ekibinin en pahalı kaynağı “veriyi görmek” değil “doğru yorumlamak” olur. Birçok ekip, Search Console/GA4/BI panellerinde onlarca tabloya bakar; ama asıl kritik soruya geç kalır: Nerede anomali var? Nerede risk var? Nerede fırsat var? AI destekli rapor özeti ve otomatik içgörü kartları, bu darboğazı çözmek için güçlü bir hızlandırıcıdır: tablolarda kaybolmak yerine, değişimi ve anomaliyi işaretler. Ama burada ince bir çizgi var: AI, öncelik işaretleyicidir, karar verici değildir. AI’ın yanlış pozitif/negatif içgörüler üretebileceğini kabul edip, analist-in-the-loop (insan kontrollü) bir model kurmazsanız “hız” yanlış karara dönüşebilir. Bu rehber, [AI destekli SEO raporu](/tr/seo/seo-raporlama) yaklaşımını; erken uyarı, doğrulama ve aksiyon planı üreten hibrit bir raporlama standardına dönüştürür.",
       "quickSummary": [
         "1) AI özetlerini karar verici değil, öncelik işaretleyici olarak konumlandırın",
         "2) Otomatik insight kartlarını anomali, risk ve fırsat tespiti için kullanın",
@@ -78801,55 +79528,71 @@
       "ctaPrimary": {
         "label": "AI Destekli SEO Raporlama & Insight Analizi Talep Et",
         "text": "Raporlama süresini kısaltıp analiz ve aksiyon geliştirmeye odaklanmak isteyen ajans ve kurum içi ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI Destekli SEO Raporlama & Insight Analizi Talep Et",
         "text": "Raporlama hacmi yüksek ekiplerde AI içgörülerini hızlandırıcıya çevirip doğru aksiyonu seçmek isteyenler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "AI + İnsan SEO Raporlama Akış Şablonunu İndir",
         "text": "AI içgörülerini doğrulama ve karar adımlarıyla standartlaştırır; ekipte tutarlı hibrit raporlama akışı kurmanızı sağlar.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/downloads/ai-insan-seo-raporlama-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO Rapor Ritmi",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      },
+      {
+        "label": "SEO Data Warehouse",
+        "href": "/tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
+      },
+      {
+        "label": "SEO Ops Alert Sistemleri",
+        "href": "/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "title": "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?",
+        "href": "/tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
       },
       {
-        "title": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "title": "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri Nasıl Kurulur?",
+        "href": "/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
       }
     ],
     "sections": [
@@ -78866,7 +79609,7 @@
             "variant": "primary",
             "label": "AI Destekli SEO Raporlama & Insight Analizi Talep Et",
             "text": "Raporlama süresini kısaltıp analiz ve aksiyon geliştirmeye odaklanmak isteyen ajans ve kurum içi ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -78877,6 +79620,10 @@
           {
             "type": "p",
             "text": "AI destekli rapor özeti, “ham metrikleri tekrar anlatan” bir metin değil; değişimleri, anomalileri ve öncelikleri tek bakışta öne çıkaran bir katmandır. Buradaki değer, daha hızlı rapor yazmak değil; daha hızlı doğru soruya geçmektir: “Bu hafta CTR neden düştü?”, “Hangi landing’lerde dönüşüm sapması var?”, “Hangi pazar segmentinde görünürlük kaybediyoruz?” gibi."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde yapay zeka SEO rapor özeti](/tr/seo-hizmetleri), metrikleri özetleme, anomali tespit etme ve aksiyon adayı üretme sürecini hızlandırırken uzman yorumunun yerini almayan bir destek katmanı olarak konumlanmalıdır."
           },
           {
             "type": "p",
@@ -78893,6 +79640,10 @@
           {
             "type": "p",
             "text": "Mini örnek (turizm): Antalya odaklı bir otel sitesinde “trafik düştü” alarmı, düşük sezon dalgası olabilir. AI özeti burada “panik” değil “trend” üretmeli: YoY kıyası ve segment notuyla."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı sürdürülebilir hale getirmek için [SEO rapor özetlerini otomatikleştirmek](/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek), haftalık anomali özeti ile aylık performans değerlendirmesi ve çeyreklik strateji seviyelerini birbirine karıştırmadan kullanmanızı sağlar."
           },
           {
             "type": "h3",
@@ -78927,6 +79678,10 @@
           {
             "type": "p",
             "text": "Otomatik insight kartları, rapor içinde belirli KPI sapmalarını yakalayıp “bu normal değil” diye işaretleyen mini modüllerdir. En faydalı kullanım şekli: kartları “alarm paneli” gibi değil, triage (önceliklendirme) paneli gibi kullanmaktır. Çünkü her sapma kriz değildir; bazı sapmalar kampanya/seasonality kaynaklıdır."
+          },
+          {
+            "type": "p",
+            "text": "Operasyon tarafında [otomatik insight kartları](/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri), Slack ve e-posta uyarılarıyla birleştiğinde yalnızca özet üretmekle kalmaz; kritik kartların doğru ekibe ve doğru ritimde düşmesini de kolaylaştırır."
           },
           {
             "type": "h3",
@@ -79056,6 +79811,10 @@
             "text": "Net cevap bloğu : AI için uygun sorular; kalıp desen yakalama ve anomali bulma odaklıdır: “bu hafta en büyük sapmalar nerede?”, “hangi 10 landing en çok düşmüş?”, “hangi segmentte CTR kırıldı?”. İnsan analist gerektiren sorular ise bağlam ve strateji ister: “bu değişimi hangi aksiyonla çözeriz?”, “brand/generic stratejisi nasıl değişmeli?”, “sezon etkisini nasıl okuyacağız?”. AI hızlı özetler; insan analist karar verir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [AI destekli SEO içgörüleri](/tr/veri-analiz-ve-raporlama), ham veri, segment kırılımı, trend kontrolü ve uzman yorumu ile doğrulanmadan nihai karar gibi ele alınmamalıdır."
+          },
+          {
             "type": "h3",
             "text": "AI’ya bırakılabilecek işler"
           },
@@ -79180,6 +79939,18 @@
           {
             "type": "p",
             "text": "AI destekli raporlama, araçtan bağımsız bir modeldir; ama uygulama tarafında “rapor katmanı” ve “yönetişim” net olmalı. Tipik kurgu: dashboard içinde otomatik insight katmanı + insan analist notları + aksiyon alanı."
+          },
+          {
+            "type": "p",
+            "text": "Bu katmanın güvenilir çalışması için [AI insight üretimi için SEO data warehouse](/tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu), temiz veri, merkezi KPI sözlüğü ve yeniden kullanılabilir veri modeli tarafını sağlamlaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Görselleştirme tarafında [AI destekli SEO dashboard özeti](/tr/raporlama/looker-studio), insight kartları, anomali kutuları ve analist notlarını dashboard içinde anlaşılır bir akışa dönüştürmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Kanal bazlı kıyas ihtiyacında [SEO ve reklam raporlarında otomatik içgörü](/tr/sem/reklam-raporlama), ortak performans sinyallerini tek kanala indirgemeden yorumlamaya yardımcı olur."
           },
           {
             "type": "h3",
@@ -79337,14 +80108,14 @@
             "variant": "primary",
             "label": "AI Destekli SEO Raporlama & Insight Analizi Talep Et",
             "text": "AI içgörülerini hızlandırıcıya çevirip, analist-in-the-loop modelle doğru aksiyonu seçmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "AI + İnsan SEO Raporlama Akış Şablonunu İndir",
             "text": "AI içgörülerini doğrulama ve karar adımlarıyla standartlaştırır; ekipte tutarlı hibrit raporlama akışı kurmanızı sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/ai-insan-seo-raporlama-akis-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -79374,18 +80145,6 @@
             ],
             "href": "/downloads/ai-insan-seo-raporlama-akis-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
-          },
-          {
-            "type": "h3",
-            "text": "6) Öğrenim Notu (Post-mortem)"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "AI sinyali doğru çıktı mı?: Evet/Hayır",
-              "Bir dahaki sefere kural güncellemesi: ______"
-            ]
           },
           {
             "type": "h3",
@@ -79431,11 +80190,15 @@
             "text": "En sağlıklı model, insight → doğrulama → kök neden → aksiyon → öğrenim zincirini standardize eden hibrit akıştır. Böylece ekipler tablo gezmek yerine kritik değişimleri daha hızlı görür, yanlış pozitif/negatif riskini azaltır ve raporu aksiyon üreten bir karar sistemine dönüştürür."
           },
           {
+            "type": "p",
+            "text": "Bu modeli kurumsallaştırmak isteyen ekipler için [profesyonel SEO Raporlama ve AI destekli rapor özeti](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; süreç detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI Destekli SEO Raporlama & Insight Analizi Talep Et",
             "text": "AI içgörülerini hızlandırıcıya çevirip, analist-in-the-loop modelle doğru aksiyonu seçmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       }
@@ -79551,7 +80314,7 @@
     },
     "h1": {
       "title": "Multi-Site ve Multi-Brand SEO Raporlama: Zincir Oteller ve Grup Markalar İçin Çerçeve",
-      "intro": "Zincir otellerde SEO raporlamanın en zor tarafı, iki ihtiyacı aynı anda karşılamaktır: yönetim “grup toplamı”nı görmek ister; operasyon ise “hangi otel/site geri kalıyor?” sorusuna inmek ister. Tek sitelik raporlama mantığıyla ilerlerseniz ya sadece toplamı görür, sorunlu oteli kaçırırsınız; ya da tek tek otel raporlarında boğulur, büyük resmi kaybedersiniz. Bu yüzden doğru model, hiyerarşik raporlamadır: grup→marka/bölge→otel/site. Bu rehber, ortak KPI setini koruyarak seviyeler arası roll-up ve drill-down (detaya inme) yapısını kurmanıza yardımcı olur.",
+      "intro": "Zincir otellerde SEO raporlamanın en zor tarafı, iki ihtiyacı aynı anda karşılamaktır: yönetim “grup toplamı”nı görmek ister; operasyon ise “hangi otel/site geri kalıyor?” sorusuna inmek ister. Tek sitelik raporlama mantığıyla ilerlerseniz ya sadece toplamı görür, sorunlu oteli kaçırırsınız; ya da tek tek otel raporlarında boğulur, büyük resmi kaybedersiniz. Bu yüzden doğru model, hiyerarşik raporlamadır: grup→marka/bölge→otel/site. Bu rehber, [zincir otel SEO raporlama](/tr/seo/seo-raporlama) yaklaşımında ortak KPI setini koruyarak seviyeler arası roll-up ve drill-down (detaya inme) yapısını kurmanıza yardımcı olur.",
       "quickSummary": [
         "1) Grup→marka/bölge→otel/site hiyerarşisini kur",
         "2) Ortak KPI sözlüğünü standardize et",
@@ -79562,14 +80325,14 @@
       "ctaPrimary": {
         "label": "Multi-Site SEO Raporlama & KPI Yapısı Analizi Talep Et",
         "text": "Grup, marka ve otel seviyesinde tek panel kurmak isteyen zincir oteller ve çok markalı yapılar için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Multi-Site SEO Raporlama & KPI Yapısı Analizi Talep Et",
         "text": "Zincir otellerde KPI sözlüğü ve hiyerarşik paneli doğru kurmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Grup/Marka/Site Bazlı SEO Dashboard Şablonunu İndir",
@@ -79579,26 +80342,54 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Rol Bazlı SEO Dashboard'ları",
+        "href": "/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
+      },
+      {
+        "label": "Yönetici Özeti ve Storytelling",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
+      },
+      {
+        "label": "Sezonluk ve Yıl Bazlı SEO Performans Raporları",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Role-Bazlı SEO Dashboard’ları: CEO’dan Tekniğe",
+        "href": "/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "title": "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
+      },
+      {
+        "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
       }
     ],
     "sections": [
@@ -79613,6 +80404,10 @@
           {
             "type": "p",
             "text": "Multi-entity yapılarda zorluk “veri çokluğu” değil, veri tutarsızlığı ve karar karmaşasıdır. Farklı sitelerde GA4 kurulumu farklı olabilir, bazı otellerde GSC eksik olabilir, dönüşüm tanımları farklı olabilir. Bu durumda rapor, “yanlış karşılaştırma” üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde multi-site SEO dashboard](/tr/seo-hizmetleri), tek bir toplam trafik raporu yerine site, marka, ülke, lokasyon ve otel bazında ayrıştırılmış bir performans yönetimi gerektirir."
           },
           {
             "type": "h3",
@@ -79703,6 +80498,10 @@
             "text": "Mini örnek: “Grup toplamı iyi” ama Bodrum oteli düşüyorsa; grup KPI’ı bunu maskeleyebilir. Drill-down, otelin CTR mi dönüşüm mü kaybettiğini gösterir."
           },
           {
+            "type": "p",
+            "text": "Bu yapı özellikle [rol bazlı SEO dashboard](/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik) yaklaşımıyla birleştiğinde, CEO, pazarlama, teknik ve marka ekiplerinin aynı veriyi kendi karar seviyelerinde okumasını kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -79734,6 +80533,10 @@
           {
             "type": "p",
             "text": "Doğru yapı: tek panel ama çok seviye. Yönetici bir sayfada “genel sağlık” görür; ekip bir tıkla otel detayına iner."
+          },
+          {
+            "type": "p",
+            "text": "Yönetim seviyesinde bu veriyi sadeleştirmek için [grup marka SEO yönetici özeti](/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak), çoklu site performansını 3 başarı, 3 risk ve 3 aksiyon formatında anlatmayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -79806,6 +80609,10 @@
             "text": "Mini örnek: Antalya bölgesinde genel trend iyi ama Kemer’de düşüş varsa, bölge katmanı “lokal risk”i erken yakalar."
           },
           {
+            "type": "p",
+            "text": "Bu katmanda [multi-site SEO veri modeli](/tr/veri-analiz-ve-raporlama), marka, site, otel, ülke, dil ve lokasyon kırılımlarını tek rapor mimarisinde düzenlemek için kritik hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -79861,6 +80668,18 @@
           {
             "type": "p",
             "text": "Technical Not (sheet): Farklı sitelerde farklı GA4 yapılandırmaları veya eksik GSC kurulumu varsa, veri bütünlüğü önce teknik olarak sağlanmalıdır; aksi hâlde kıyas yanlıştır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde [zincir otellerde sezonluk SEO performansı](/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark), lokasyon ve dönem farklarını tek toplam trend içinde kaybetmeden okumayı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [zincir otel pazarlama performansı](/tr/otel-dijital-pazarlama), SEO görünürlüğünü kampanya, marka yönetimi ve rezervasyon hedefleriyle aynı karar masasına taşır."
+          },
+          {
+            "type": "p",
+            "text": "Grup içi ve rakip karşılaştırmalar için [zincir otellerde SEO benchmark analizi](/tr/raporlama/benchmark-analizi), markalar, oteller ve lokasyonlar arasında kıyaslamalı performans okumayı destekler."
           },
           {
             "type": "table",
@@ -79997,6 +80816,10 @@
             "text": "Grup yapılarında rapor ya sadece toplamı gösterip “geri kalan otel”i gizler ya da tek tek otellerde boğulup stratejiyi kaybettirir. Hiyerarşik raporlama, bu iki uç arasındaki köprüdür: aynı KPI diliyle konuşur, seviye değiştirdikçe derinleşir ve sonunda aksiyon üretir. Bu çerçeveyi kurduğunuzda, SEO raporu “okunan” değil “kullanılan” bir yönetim aracına dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve multi-site dashboard kurgusu](/tr/seo/seo-raporlama) daha net bir yönetim yapısı sunar; uygulama detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -80013,7 +80836,7 @@
             "variant": "primary",
             "label": "Multi-Site SEO Raporlama & KPI Yapısı Analizi Talep Et",
             "text": "Grup→marka→otel seviyesinde tek panel kurup, geri kalan oteli hızlı yakalamak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
@@ -85585,7 +86408,7 @@
           {
             "type": "callout",
             "variant": "answer",
-            "title": "Net cevap bloğu (AEO)",
+            "title": "Net cevap bloğu ",
             "items": [
               "İlk etapta organik trafik (sessions), Search Console tıklama/CTR sapmaları, 404/5xx artışı ve CWV bozulması en kritik alarmlardır. Ardından organik dönüşüm event’leri ve kritik landing performansı eklenir. Amaç “çok alarm” değil, iş etkisi yüksek 6–10 alarmdır."
             ]
@@ -85810,7 +86633,7 @@
           {
             "type": "callout",
             "variant": "answer",
-            "title": "Net cevap bloğu (AEO)",
+            "title": "Net cevap bloğu ",
             "items": [
               "Önce alarm KPI’larını ve eşikleri seçin (trafik, CTR, 404/5xx, CWV). Sonra uyarıları “kritik/önemli/izle” diye sınıflandırın ve kanallara dağıtın: kritik uyarılar Slack (anlık), haftalık özet e-posta (toplantı öncesi). Her uyarı mesajında “ne oldu + nerede + ilk kontrol” formatı olmalı; aksi hâlde ekip alarmı görür ama ne yapacağını bilemez."
             ]
