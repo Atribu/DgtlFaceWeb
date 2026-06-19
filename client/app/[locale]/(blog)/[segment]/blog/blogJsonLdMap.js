@@ -74452,6 +74452,684 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini",
+
+      "name": "Prediktif Analitik ve Sosyal Medya İçerik Performans Tahmini",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Predictive Analytics" },
+
+        { "@type": "Thing", "name": "Content Scoring" },
+
+        { "@type": "Thing", "name": "Forecasting" },
+
+        { "@type": "Thing", "name": "AI-Assisted Planning" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#webpage"
+
+      },
+
+      "headline": "Prediktif Analitik ve Sosyal Medya İçerik Performans Tahmini",
+
+      "description": "Geçmiş KPI ve içerik özellikleriyle potansiyel içerik skoru üretin; skoru tek karar kaynağı yapmadan insan stratejist ile hibrit test planı kurarak güvenli şekilde kullanın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#howto",
+
+      "name": "Prediktif İçerik Skoru Oluşturma",
+
+      "description": "Geçmiş içerik verisiyle tema/format/saat özelliklerinden potansiyel skor üretme ve test planına çevirme adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Veriyi ve etiketleri hazırla", "text": "Geçmiş içerikleri tema/format/saat gibi özelliklerle etiketleyin ve KPI’ları tutarlı şekilde toplayın." },
+
+        { "@type": "HowToStep", "name": "Skor modelini kur", "text": "Basit bir yüksek/orta/düşük potansiyel skoru tanımlayın; sezon ve kampanya notlarını ekleyin." },
+
+        { "@type": "HowToStep", "name": "Skoru test önceliğine çevir", "text": "Yüksek skorları önce test edin, orta skorları iyileştirme testine alın; düşük skorları küçük denemelerle öğrenim için kullanın." },
+
+        { "@type": "HowToStep", "name": "İnsan doğrulaması ve kalibrasyon", "text": "Skorları insan stratejist bağlamıyla doğrulayın, test sonuçlarına göre ağırlık/threshold kalibrasyonu yapın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Prediktif Analitik", "item": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Prediktif analitik sosyal medya için nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Geçmiş içerik KPI’ları ile tema/format/saat gibi özellikleri eşleştirerek bir potansiyel skoru üretir. Skor kesin tahmin değil, test önceliği sinyalidir ve insan stratejist tarafından doğrulanarak kullanılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Model skoru ne anlama gelir, nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Skor, belirli kombinasyonun geçmişe göre daha yüksek performans potansiyeli taşıdığını söyler. Skoru önce test edilecek içerikleri seçmek için kullanın; sonuçları ölçüp öğrenimleri modele geri besleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Prediktif model ne zaman yanıltıcı olur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Veri seti küçük/dengesizse, etiketler yanlışsa veya sezon/kampanya etkisi işaretlenmemişse model yanıltıcı skor üretebilir. Bu yüzden tek karar kaynağı değil yardımcı sinyal olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için prediktif içerik planlama örnekleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde sezonluk destinasyon/konsept içerikleri, B2B’de konu başlığı+format eşleşmeleri skorlanır; yüksek skorlar önce test edilir ve öğrenimler planlamaya geri beslenir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak",
+
+      "name": "Yaratıcı Küme Analizi (Creative Clustering) ile Sosyal Medya İçeriklerini Gruplamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Creative Clusters" },
+
+        { "@type": "Thing", "name": "Themes & Hooks" },
+
+        { "@type": "Thing", "name": "Visual Language" },
+
+        { "@type": "Thing", "name": "Cluster KPIs" },
+
+        { "@type": "Thing", "name": "Message Archetypes" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#webpage"
+
+      },
+
+      "headline": "Yaratıcı Küme Analizi (Creative Clustering) ile Sosyal Medya İçeriklerini Gruplamak",
+
+      "description": "Tema, hook ve görsel dile göre creative cluster’lar oluşturarak içerikleri tek tek post yerine kümeler hâlinde analiz edin; cluster KPI’larıyla scale/refresh/drop kararlarını veriye dayalı verin.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#howto",
+
+      "name": "Creative Cluster Analizi Yapma",
+
+      "description": "Tema/hook/görsel dil taxonomy’siyle içerikleri kümelere ayırıp KPI’ları cluster bazında okuma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Taxonomy’yi tanımla", "text": "Tema/pillar, hook ve görsel dil etiketlerini belirleyip sürümleyin." },
+
+        { "@type": "HowToStep", "name": "İçerikleri etiketle", "text": "Her post/story/reels için tema+hook+görsel dil etiketlerini doldurun." },
+
+        { "@type": "HowToStep", "name": "Cluster KPI’larını hesapla", "text": "Cluster bazında reach, kalite etkileşim, CTR ve dönüşüm KPI’larını çıkarın." },
+
+        { "@type": "HowToStep", "name": "Karar ver ve uygula", "text": "Isı haritasıyla kıyaslayıp scale/refresh/drop kararı verin; 30 günlük test planı yazın." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Creative Clustering", "item": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Creative clustering nedir, sosyal medya içerikleri için nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Benzer tema/hook/görsel dili paylaşan içerikleri cluster’lara ayırıp performansı cluster bazında okumaktır. Taxonomy belirlenir, içerikler etiketlenir, KPI’lar cluster düzeyinde hesaplanır ve scale/refresh/drop kararları verilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kümeleri ölçekleyip hangilerini bırakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüksek ve stabil KPI’lı kümeler ölçeklenir; orta performanslı kümeler zayıf halka tespitiyle refresh edilir; düşük performanslı ve tekrar denemelerde iyileşmeyen kümeler drop/arsivlenir. Tek içerikle karar verilmemelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tema/hook/görsel dile göre kümeleri nasıl tanımlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tema (pillar), hook ve görsel dil için sade bir etiket sözlüğü oluşturup her içeriğe bu üç etiketi verin. Etiket disiplinini korumak için taxonomy’yi sürümleyin ve değişiklikleri not edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Cluster analizi neden dağınık hale gelir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Etiketleme disiplini ve taxonomy baştan kurgulanmazsa içerikler farklı isimlerle etiketlenir, kümeler parçalanır ve KPI’lar yorumlanamaz hale gelir. Bu yüzden yükleme aşamasında etiket zorunlu olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#webpage",
+
+      "url": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi",
+
+      "name": "Analytics Operasyonları İçin Dokümantasyon ve Knowledge Base Yapısı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        { "@type": "Thing", "name": "Analytics Documentation" },
+
+        { "@type": "Thing", "name": "KPI Dictionary" },
+
+        { "@type": "Thing", "name": "UTM Channel Mapping" },
+
+        { "@type": "Thing", "name": "Changelog" },
+
+        { "@type": "Thing", "name": "Analytics Ops Governance" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#article",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#webpage"
+
+      },
+
+      "headline": "Analytics Operasyonları İçin Dokümantasyon ve Knowledge Base Yapısı",
+
+      "description": "SMM analytics için KPI tanım sözlüğü, dashboard rehberleri, UTM/channel mapping ve tracking changelog’larından oluşan bir knowledge base kurarak herkesin aynı veriyi aynı şekilde okumasını sağlayın.",
+
+      "inLanguage": "tr-TR",
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "url": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#howto",
+
+      "name": "SMM Analytics Knowledge Base Kurma",
+
+      "description": "KPI sözlüğü, dashboard rehberleri, UTM/mapping ve changelog ile analytics knowledge base oluşturma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "KPI sözlüğünü oluştur", "text": "İlk 15 KPI için tanım, hesaplama ve veri kaynağı alanlarını doldurarak KPI dictionary yayınlayın." },
+
+        { "@type": "HowToStep", "name": "UTM ve kanal mapping’i standardize et", "text": "UTM izinli değer sözlüğünü ve GA4 channel grouping eşleşmesini dokümante edip zorunlu hale getirin." },
+
+        { "@type": "HowToStep", "name": "Dashboard rehberlerini yaz", "text": "Her dashboard için amaç, hedef rol, okuma sırası ve tipik aksiyonları içeren kısa rehberler oluşturun." },
+
+        { "@type": "HowToStep", "name": "Changelog sistemini kur", "text": "KPI, event, mapping ve dashboard değişikliklerini tarih/sahip/beklenen etki alanlarıyla changelog’a kaydedin." },
+
+        { "@type": "HowToStep", "name": "Review ritmi ve temizlik uygula", "text": "Aylık doc review yapın, deprecated sayfaları kaldırın ve sürümlemeyi (v1.x) koruyun." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+
+        { "@type": "ListItem", "position": 4, "name": "Analytics Knowledge Base", "item": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Analytics dokümantasyonu neden gerekli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "KPI tanımları, mapping ve event’ler değiştikçe raporların anlamı kayar. Merkezi dokümantasyon, hangi veriye güvenileceğini tek yerden açıklayarak tutarlılığı ve karar hızını korur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KPI definition sözlüğü nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her KPI için tanım, hesaplama yöntemi, veri kaynağı, scope (paid/organic/platform), sahip ve not alanlarını standart doldurun; ilk 15 KPI ile başlayıp sürümleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UTM ve kanal mapping dokümanını nasıl tutarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UTM izinli değer sözlüğü ve campaign naming standardı oluşturun, GA4 channel grouping ile eşleştirin ve mapping değişikliklerini changelog’a kaydedin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tracking değişiklikleri neden changelog’a yazılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Event veya tanım değiştiğinde trend grafikleri aynı şeyi göstermeyebilir. Changelog olmadan ekip yanlış alarm üretir ve rapora güven düşer; bu yüzden her değişiklik kayıt altına alınmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
 }
     },
 

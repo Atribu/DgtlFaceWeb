@@ -72944,7 +72944,7 @@
           },
           {
             "type": "h3",
-            "text": "“Hangi KPI, hangi eşik, hangi kanal?” (AEO Q&A)"
+            "text": "“Hangi KPI, hangi eşik, hangi kanal?” "
           },
           {
             "type": "list",
@@ -80563,6 +80563,1844 @@
           "SOV + sonuç KPI tablosu içerik içine eklendi",
           "Media pack slot adları içerik içindeki media bloklarıyla uyumlu",
           "SOV artışı ≠ pazar payı guardrail’i içerik ve asset içinde vurgulandı"
+        ]
+      }
+    }
+  },
+
+   "BlogPrediktifAnalitikVeSosyalMedyaIcerikPerformansTahmini": {
+    "title": "Prediktif Analitik ile Sosyal Medya İçerik Skoru",
+    "slug": "prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "19 Haziran 2026",
+    "publishedAt": "2026-06-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Geçmiş KPI, tema, format ve saat verisiyle içerik performans potansiyeli skoru üretin. Skoru “yardımcı sinyal” olarak kullanın; test planını insan stratejistle güvenli şekilde yönetin.",
+    "seo": {
+      "metaTitle": "Prediktif Analitik ile Sosyal Medya İçerik Skoru | DGTLFACE",
+      "metaDescription": "Geçmiş KPI, tema, format ve saat verisiyle içerik performans potansiyeli skoru üretin. Skoru “yardımcı sinyal” olarak kullanın; test planını insan stratejistle güvenli şekilde yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog / URL: /tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini"
+      ],
+      "strategySummary": "Bu trend içerik, SMM “Analiz & Raporlama” silo’sunda “içerik planını sezgiyle değil veriyle başlatma” ihtiyacını prediktif analitik + içerik skoru yaklaşımıyla çözer. Hedef persona; veri hacmi yüksek otel grupları, ajanslar ve B2B ekipleridir; çünkü “gelecek ay hangi içerik önce test edilmeli?” sorusuna daha sistematik cevap arar. Funnel’da MoFu stratejik karar desteği sağlar: tema/format/saat gibi özelliklerden “yüksek-orta-düşük potansiyel” skoru üreterek test önceliğini belirler. Ana iş sorusu: “Model ne söyler/ne söylemez; skorları nasıl güvenli kullanır ve insan stratejistle nasıl birlikte karar veririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Prediktif analitik, “şu içerik kesin X alır” demek değildir; geçmiş veriye göre hangi tema/format/saat kombinasyonlarının daha yüksek performans potansiyeli taşıdığını gösteren bir rehberdir. Geçmiş içerikler için tema, format, süre, yayın saati ve KPI verisini toplayıp basit bir “yüksek/orta/düşük potansiyel” skoru üretin. Skoru tek karar kaynağı yapmayın; veri seti küçük/dengesizse yanıltabilir. En doğru kullanım, model skoru + insan stratejist hibrit test planıdır.",
+      "sgeSummary": "Prediktif içerik skoru, geçmiş KPI ve içerik özelliklerinden potansiyel tahmin eder. Skoru yardımcı sinyal olarak kullanın; insan stratejist test önceliğini seçsin ve öğrenimleri modele geri beslesin.",
+      "voiceAnswer": "Gelecek ay için içerik skoru çıkarabilirsin; ama karar insan stratejistte, model sadece sinyal verir.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli veri hacmi yüksek otel, ajans ve B2B ekipleri",
+        "Entity theme: predictive analytics, content scoring, geçmiş KPI’lar, içerik özellikleri, insan stratejist",
+        "Model: AI destekli ama insan kontrolünde içerik tahmin modeli",
+        "KPI seti: engagement quality, retention, CTR, trafik/lead (Varsayım)",
+        "Risk: küçük/dengesiz/yanlış etiketlenmiş veri → yanıltıcı skor",
+        "Çıktı: skor tablosu + model→insan karar akışı + test checklist",
+        "Başarı ölçümü: “nereden başlamalıyız?” sorusuna veri destekli önceliklendirme"
+      ]
+    },
+    "h1": {
+      "title": "Prediktif Analitik ve Sosyal Medya İçerik Performans Tahmini",
+      "intro": "Prediktif analitik sosyal medyada çoğu zaman “sihirli kutu” gibi anlatılır: sanki model, bir içeriğin kaç izleneceğini nokta atışı söyleyecekmiş gibi. Gerçek daha pratik: prediktif yaklaşım, geçmiş veriye bakarak hangi tema/format/saat kombinasyonlarının daha yüksek performans potansiyeli taşıdığını tahmin eder ve stratejiste “önce neyi test edelim?” sorusunda hız kazandırır. Otel tarafında sezonluk destinasyon ve konsept içerikleri; B2B’de konu başlığı ve format seçimi (case, rehber, webinar) bu skorlama ile daha sistematik hale gelebilir. Bu rehberde, hangi verilerin gerektiğini, basit içerik skoru modelini, skorun nasıl yorumlanacağını ve insan stratejist + model hibrit karar yapısını güvenli guardrail’lerle anlatıyoruz.",
+      "quickSummary": [
+        "1) Prediktif analitiği kesin tahmin değil, test önceliği sinyali olarak kullan",
+        "2) Geçmiş KPI, tema, format, süre, saat ve kanal verisini standartlaştır",
+        "3) İçeriklere yüksek/orta/düşük potansiyel skoru üret",
+        "4) Skoru sezon, kampanya ve veri kalitesi guardrail’leriyle yorumla",
+        "5) Model skoru + insan stratejist hibrit karar yapısıyla test planı kur"
+      ],
+      "ctaPrimary": {
+        "label": "Prediktif Analitik & İçerik Performans Analizi Talep Et",
+        "text": "Veri setinizi temizler, içerik özelliklerinden skor üretir ve test planını kurar; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Prediktif Analitik & İçerik Performans Analizi Talep Et",
+        "text": "Tema/format/saat kombinasyonları için potansiyel skor üretir; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Prediktif İçerik Skoru & Test Planlama Şablonunu İndir",
+        "text": "Skoru güvenli kullanmak için test planını ve guardrail’leri standartlaştırır, hangi içeriğin önce deneneceğini netleştirir.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+        "href": "/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
+        "title": "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+        "href": "/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "prediktif-analitik-nedir",
+        "title": "Prediktif analitik nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Prediktif analitik, geçmiş davranışlardan geleceğe dair olasılıksal bir rehber üretir. Sosyal medya bağlamında bu; içerik özelliklerini (tema, format, süre, saat) performans KPI’larıyla ilişkilendirip bir “potansiyel skoru” çıkarma işidir."
+          },
+          {
+            "type": "h3",
+            "text": "Prediktif analitik sosyal medya için nasıl çalışır? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Geçmiş içerikleri topla (en az 50–200 içerik, Varsayım)",
+              "İçerik özelliklerini etiketle (tema, format, süre, saat, kanal)",
+              "KPI hedefini seç (örn. retention, save/share, CTR, lead)",
+              "Basit skor modeli kur (ağırlıklı puan veya sınıflandırma)",
+              "Skoru “test önceliği” olarak kullan, sonucu geri besle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (tanım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Model “kesin tahmin” değil “öncelik sinyali” mi?",
+              "KPI hedefi net mi? (engagement mi dönüşüm mü?)",
+              "Etiketleme tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk etapta 1 KPI seç (karmaşayı azalt)",
+              "Modeli basit tut (yüksek/orta/düşük)",
+              "Sonuçları “öğrenim bankası”na yaz"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "hangi-veriler-kullanilir-gecmis-kpilar-tema-format-saat",
+        "title": "Hangi veriler kullanılır? (Geçmiş KPI’lar, tema, format, saat vb.)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Prediktif skorlama için iki tür veri gerekir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Özellik verisi: içeriğin ne olduğu (tema/format/saat/süre)",
+              "Sonuç verisi: içeriğin ne yaptığı (KPI’lar)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Minimum veri alanları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih, saat",
+              "Platform (IG/TikTok/LinkedIn)",
+              "Format (post/story/reels/video)",
+              "Tema/pillar (destinasyon/oda/case/rehber)",
+              "KPI’lar: reach, engagement, save/share, watch time, CTR",
+              "(Varsayım) GA4: sessions, engaged sessions, conversion event"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Veri kalitesi uyarısı (kritik)"
+          },
+          {
+            "type": "p",
+            "text": "Model, veriniz kadar iyidir. Etiketler yanlışsa veya veri hacmi çok küçükse skorlar yanıltıcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (veri seti)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En az 3 ay / 50+ içerik var mı? (Varsayım)",
+              "Tema etiketleri tutarlı mı?",
+              "KPI tanımları platformlar arasında normalize mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Veri setini temizle: aynı KPI tanımı, aynı etiket sözlüğü",
+              "Çok az veri varsa “heuristic” skorla başla",
+              "Bot/spam etkisini filtrele (Varsayım: trafik KPI’larında)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "modelden-cikan-skoru-nasil-yorumlariz",
+        "title": "Modelden çıkan “skor”u nasıl yorumlarız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Skor, bir “vaat” değil, bir “olasılık”tır. Doğru yorum: “Bu kombinasyonun test edilme önceliği yüksek.” Yanlış yorum: “Bu içerik kesin patlayacak.”"
+          },
+          {
+            "type": "h3",
+            "text": "Model skoru ne anlama gelir, nasıl kullanılır? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek skor: önce test et; 2 varyant üret; ölçüm planı net olsun",
+              "Orta skor: test havuzunda tut; kreatif/CTA ile iyileştir",
+              "Düşük skor: sadece özel amaç varsa yayınla; “öğrenim” için küçük dene"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Skorun yanlış kullanılacağı 4 durum"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek veri kaynağına dayanmak (sadece reach)",
+              "Sezon etkisini yok saymak (otel)",
+              "Kampanya dönemlerini etiketlememek",
+              "Skoru “tek karar kaynağı” yapmak"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (skor disiplini)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Skorun yanında “güven seviyesi” var mı? (veri hacmine göre)",
+              "Sezon/kampanya notu ekli mi?",
+              "Skor → test planı bağlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Skoru “test listesi”ne çevir",
+              "Her test için 1 KPI hedefi seç",
+              "Sonuçları modele geri besle (aylık)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: İçerik özellikleri → skor tablosu",
+            "headers": [
+              "Tema",
+              "Format",
+              "Saat aralığı",
+              "Sezon notu",
+              "Beklenen KPI",
+              "Skor (H/M/L)",
+              "Test önerisi"
+            ],
+            "rows": [
+              [
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-kullanim-ornekleri",
+        "title": "Otel ve B2B için kullanım örnekleri",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel örneği — sezonluk tema ve destinasyon tahmini"
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında skorlar sezonla birlikte değişir. Sezon öncesi “destinasyon keşfi” iyi çalışabilir; yüksek sezonda “teklif/oda” içerikleri daha güçlü olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Mini senaryo:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Geçmiş veri: Belek destinasyon reels + akşam saatleri yüksek retention",
+              "Skor: yüksek",
+              "Aksiyon: destinasyon reels serisi + 2 hook varyantı + landing uyumu kontrolü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği — konu başlığı ve format tahmini"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de skorlar genellikle format + konu eşleşmesinde çıkar: case içerikleri LinkedIn’de daha iyi “kalite etkileşimi” üretebilir, rehber içerikleri daha iyi trafik getirebilir."
+          },
+          {
+            "type": "p",
+            "text": "Mini senaryo:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Geçmiş veri: “case + carousel” save/share yüksek",
+              "Skor: yüksek",
+              "Aksiyon: 3 case carousel planla + CTA’yı demo sayfasıyla hizala (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (örnek uyarlama)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde sezon fazı skora dahil mi?",
+              "B2B’de ICP/persona etkisi etiketleniyor mu? (Varsayım)",
+              "Skor sonucu “test sayısı” ve “format standardı”na dönüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde: sezon etiketini zorunlu alan yap",
+              "B2B’de: konu başlığı/pillar etiketini standartlaştır",
+              "Her iki tarafta: skor→test→öğrenim döngüsü kur"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "insan-stratejist-model-hibrit-karar-yapisi",
+        "title": "İnsan stratejist + model hibrit karar yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yaklaşımın adı “AI-assisted planning” olabilir ama kritik nokta human-overseen decisions: model hızlandırır, stratejist karar verir."
+          },
+          {
+            "type": "h3",
+            "text": "Model ne söyler, ne söylemez? "
+          },
+          {
+            "type": "p",
+            "text": "Söyler: geçmişe göre hangi kombinasyonlar daha potansiyelli; nereden test etmeli."
+          },
+          {
+            "type": "p",
+            "text": "Söylemez: kesin sonuç; yaratıcı kalite; ani trend/kriz etkisi; platform değişiklikleri."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden modelin çıktısı “hipotez listesi”dir, karar “insan”dadır."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet’ten): Veri seti küçük, dengesiz veya yanlış etiketlenmişse prediktif model sonuçları yanıltıcı olabilir. Modeli tek karar kaynağı değil, yardımcı sinyal olarak görmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (hibrit model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Model çıktısı “öneri” mi, “karar” mı?",
+              "İnsan doğrulaması için kontrol listesi var mı?",
+              "Model yanlış çıktılarında kalibrasyon yapılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Skorları haftalık test toplantısında kullan",
+              "Aylık: model kalibrasyonu + etiket sözlüğü kontrolü",
+              "“Başarısız test”i bile öğrenim olarak kaydet"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Prediktif İçerik Skoru & Test Planlama Şablonunu İndir",
+            "text": "Skor tablosu ve model→test checklist’iyle güvenli kullanım sağlar; önceliklendirmeyi standartlaştırır.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+       
+        ]
+      },
+      {
+        "id": "prediktif-icerik-skoru-test-planlama-sablonu",
+        "title": "Prediktif İçerik Skoru & Test Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Prediktif İçerik Skoru & Test Planlama Şablonu — SMM / Predictive Planning (v1.0)",
+            "purpose": "Bu şablon, geçmiş içerik verisinden tema/format/saat özellikleriyle “yüksek/orta/düşük potansiyel” içerik skoru üretmenizi ve bu skoru test önceliğine dönüştürmenizi sağlar. Skorun yanlış yorumlanmasını engelleyen guardrail’ler (sezon/kampanya/örneklem büyüklüğü) içerir ve insan stratejistin onayıyla hibrit karar akışı kurar.",
+            "whoFor": "TR geneli veri hacmi yüksek otel, ajans ve B2B içerik/performans ekipleri.",
+            "steps": [
+              "İçerik etiket sözlüğünü sabitleyip geçmiş içerik tablosunu doldurun.",
+              "Skor kurallarını seçip (ağırlıklar/threshold) “potansiyel” sınıfını üretin.",
+              "Skora göre 14 günlük test planı çıkarıp öğrenimleri geri besleyin."
+            ],
+            "checklist": [
+              "Veri seti yeterli mi? (min ____ içerik)",
+              "Sezon/kampanya etiketli mi?",
+              "KPI tanımı tutarlı mı?",
+              "Aykırı değerler/bot etkisi temizlendi mi? (Varsayım)"
+            ],
+            "template": {
+              "dataSetDefinition": [
+                "Dönem: ____",
+                "İçerik adedi: ____",
+                "Platform: ☐ IG ☐ TikTok ☐ LinkedIn ☐ diğer",
+                "Etiket sözlüğü sürümü: ____ (Varsayım)"
+              ],
+              "contentFeaturesScoreTable": "B) İçerik Özellikleri → Skor Tablosu",
+              "guardrails": [
+                "Veri seti yeterli mi? (min ____ içerik)",
+                "Sezon/kampanya etiketli mi?",
+                "KPI tanımı tutarlı mı?",
+                "Aykırı değerler/bot etkisi temizlendi mi? (Varsayım)"
+              ],
+              "testPlan14Days": [
+                "Yüksek potansiyel: ____ (2 varyant)",
+                "Orta potansiyel: ____ (1 varyant)",
+                "Düşük potansiyel: ____ (sadece öğrenim)",
+                "Başarı kriteri KPI: ____",
+                "Sahip/Tarih: ____"
+              ],
+              "learningFeedback": [
+                "Ne oldu? ____",
+                "Neden? ____",
+                "Ne değişecek? ____",
+                "Skor kalibrasyonu: ____ (threshold/ağırlık)"
+              ]
+            },
+            "deliverables": [
+              "Skor tablosu",
+              "Test backlog’u",
+              "Aylık kalibrasyon notu"
+            ],
+            "href": "/downloads/prediktif-icerik-skoru-test-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+
+             {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Prediktif skor karar değil, güvenli test sinyalidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Prediktif analitik, sosyal medya içerik planını sezgiyle başlatmak yerine veriyle önceliklendirmeyi sağlar. Ancak bu yaklaşım bir içeriğin kesin performansını söylemez; geçmiş veri üzerinden hangi tema/format/saat kombinasyonlarının daha yüksek potansiyel taşıdığını gösterir."
+          },
+          {
+            "type": "p",
+            "text": "En sağlıklı kullanım, içerik skorunu insan stratejistin yorumuyla birleştirmektir. Veri kalitesi, sezon/kampanya etkisi ve örneklem büyüklüğü kontrol edildiğinde skorlar “önce neyi test edelim?” sorusuna güçlü bir yardımcı sinyal üretir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Prediktif Analitik & İçerik Performans Analizi Talep Et",
+            "text": "Tema/format/saat kombinasyonları için potansiyel skor üretir; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Prediktif İçerik Skoru & Test Planlama Şablonunu İndir",
+            "text": "Skoru güvenli kullanmak için test planını ve guardrail’leri standartlaştırır, hangi içeriğin önce deneneceğini netleştirir.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Prediktif analitik sosyal medya için nasıl çalışır?",
+        "a": "Geçmiş içerik KPI’ları ile içerik özelliklerini (tema/format/saat/süre) eşleştirip bir potansiyel skoru üretir. Bu skor “kesin sonuç” değil, test önceliği sinyalidir ve insan stratejist tarafından doğrulanarak kullanılır."
+      },
+      {
+        "q": "Hangi verilerle içerik performans tahmini yapılabilir?",
+        "a": "Minimumda yayın tarihi/saat, platform, format, tema/pillar ve KPI’lar (retention, save/share, CTR) gerekir. Varsa GA4 kalite/dönüşüm KPI’ları da eklenir. Etiketleme tutarlı değilse skorlar yanıltıcı olabilir."
+      },
+      {
+        "q": "Model skoru ne anlama gelir, nasıl kullanılır?",
+        "a": "Skor; belirli tema/format/saat kombinasyonunun geçmişe göre daha yüksek performans potansiyeli taşıdığını söyler. Skoru “önce test et” listesini oluşturmak için kullanın; sonuçları ölçüp öğrenimleri modele geri besleyin."
+      },
+      {
+        "q": "Otel ve B2B için prediktif içerik planlama örnekleri neler?",
+        "a": "Otelde sezonluk destinasyon/konsept içerikleri için skor üretilip en potansiyelli kombinasyonlar önce test edilir. B2B’de konu başlığı + format (case carousel, rehber) eşleşmeleri skorlanır ve lead/CTR hedeflerine göre planlanır."
+      },
+      {
+        "q": "Prediktif model ne zaman yanıltıcı olur?",
+        "a": "Veri seti küçük, dengesiz veya yanlış etiketlenmişse; sezon/kampanya etkisi işaretlenmemişse; KPI tanımları tutarsızsa model yanıltıcı skor üretebilir. Bu yüzden tek karar kaynağı değil, yardımcı sinyal olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-hero-01.webp",
+          "h1-context — 1920×1080 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-h1-context-02.webp",
+          "divider-01 — 1600×1200 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-divider-03.webp",
+          "divider-02 — 1600×1200 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-divider-04.webp",
+          "diagram-05 — 1920×1080 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-diagram-05.webp",
+          "checklist-06 — 1200×1200 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-checklist-06.webp",
+          "kpi-07 — 1200×1200 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-kpi-07.webp",
+          "proof-08 — 1200×1200 — prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini-proof-08.webp",
+          "table-content-features-score — İçerik özellikleri → performans skoru örnek tablosu",
+          "score-table-card — 1:1 — içerik skoru kartı",
+          "decision-flow — 16:9 — model→insan→test akışı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Primary CTA trend hassasiyetine göre H1 sonunda kullanıldı",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Download Asset bloğu üretildi",
+          "İç link hedefleri kontrol edildi: /smm/analiz-raporlama, /raporlama/benchmark-analizi, /veri-analiz-ve-raporlama",
+          "İçerik özellikleri → skor tablosu içerik içine eklendi",
+          "Media pack slot adları içerik içindeki media bloklarıyla uyumlu",
+          "Model skoru yardımcı sinyal olarak konumlandırıldı; insan stratejist onayı ve guardrail’ler vurgulandı"
+        ]
+      }
+    }
+  },
+
+    "BlogYaraticiKumeAnaliziCreativeClusteringIleSosyalMedyaIcerikleriniGruplamak": {
+    "title": "Creative Clustering: Sosyal Medyada Tema ve Hook Kümeleri",
+    "slug": "yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "19 Haziran 2026",
+    "publishedAt": "2026-06-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "İçerikleri tek tek değil; tema, hook ve görsel dile göre creative cluster’larda analiz edin. Cluster KPI’larıyla “scale/refresh/drop” kararını verin; otel ve B2B için örnek kümelerle ilerleyin.",
+    "seo": {
+      "metaTitle": "Creative Clustering: Sosyal Medyada Tema ve Hook Kümeleri | DGTLFACE",
+      "metaDescription": "İçerikleri tek tek değil; tema, hook ve görsel dile göre creative cluster’larda analiz edin. Cluster KPI’larıyla “scale/refresh/drop” kararını verin; otel ve B2B için örnek kümelerle ilerleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog / URL: /tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak"
+      ],
+      "strategySummary": "Bu trend içerik, SMM “Analiz & Raporlama” silo’sunda “tek tek post” yorumundan çıkıp creative clustering ile içerikleri tema/hook/görsel dil kümeleri halinde okumayı öğreten otorite yazıdır. Hedef persona; içerik hacmi yüksek otel grupları, ajanslar ve B2B ekipleridir; çünkü “fiyat mı deneyim mi daha iyi çalışıyor?” gibi mesaj/arketype kararlarını daha sağlam veriye bağlamak ister. Funnel’da MoFu stratejik karar desteği sağlar: küme KPI’larıyla hangi hikâye setlerinin ölçekleneceği, hangilerinin refresh edileceği veya bırakılacağı netleşir. Ana iş sorusu: “Hangi creative cluster gerçekten iş üretiyor; hangi cluster yoruldu veya hiç çalışmıyor?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Creative clustering, benzer tema/hook/görsel dili paylaşan post/story/reels’leri kümeler hâlinde gruplandırıp performansı “tek tek post” yerine story-set düzeyinde okumayı sağlar. Böylece otel ve B2B markalar “fiyat odaklı mı, deneyim odaklı mı daha iyi çalışıyor?” sorusuna daha net yanıt bulur. Her cluster için erişim/etkileşim, tıklama ve dönüşüm KPI’larını izleyin; ısı haritası ile karşılaştırın ve karar çerçevesiyle (scale/refresh/drop) aksiyona çevirin.",
+      "sgeSummary": "Creative clustering; içerikleri tema/hook/görsel dil kümelerine ayırır. KPI’ları cluster bazında okuyup ısı haritasıyla karşılaştırın; hangi kümeyi ölçekleyeceğinize veya bırakacağınıza karar verin.",
+      "voiceAnswer": "Fiyat mı deneyim mi daha iyi? Postları creative cluster’lara ayırıp küme KPI’larıyla ölç.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli içerik hacmi yüksek otel, ajans ve B2B ekipleri",
+        "Entity theme: creative clusters, theme, hook, visual language, cluster KPIs, scale/refresh/drop",
+        "Model: creative-level analytics → story-set optimisation → message archetypes",
+        "KPI seti: engagement quality, CTR, conversion (Varsayım: ölçüm)",
+        "Risk: etiketleme/taxonomy yoksa cluster sonuçları dağınık olur",
+        "Çıktı: cluster ısı haritası + aksiyon akışı + checklist",
+        "Başarı ölçümü: tek post yorumları yerine net “hikâye seti” tercihleriyle strateji"
+      ]
+    },
+    "h1": {
+      "title": "Yaratıcı Küme Analizi (Creative Clustering) ile Sosyal Medya İçeriklerini Gruplamak",
+      "intro": "Sosyal medya analizinde en sık yapılan şey, “şu post iyi, bu post kötü” diye tek tek örnekler üzerinden konuşmaktır. Bu yaklaşım hızlıdır ama strateji üretmez; çünkü postların performansı çoğu zaman “hikâye seti”ne bağlıdır: fiyat odaklı mesajlar, deneyim odaklı içerikler, SSS/edutainment serileri gibi. Creative clustering, benzer tema, hook ve görsel dile sahip içerikleri kümeler hâlinde gruplandırır ve performansı cluster düzeyinde okumayı sağlar. Böylece otel ve B2B markalar için “hangi mesaj arketipi işe yarıyor?” sorusuna daha sağlam yanıt üretilir. Bu rehber; cluster tanımını, örnek kümeleri, cluster KPI’larını ve scale/refresh/drop karar sistemini adım adım kurar.",
+      "quickSummary": [
+        "1) İçerikleri tek tek post yerine hikâye seti/cluster düzeyinde oku",
+        "2) Tema, hook ve görsel dil taxonomy’sini baştan sabitle",
+        "3) Her cluster için erişim, kalite etkileşimi, CTR ve dönüşüm KPI’larını izle",
+        "4) Otel ve B2B için mesaj arketiplerini ayrı cluster’lara ayır",
+        "5) Cluster sonuçlarını scale/refresh/drop karar sistemine bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Yaratıcı Küme Analizi & Mesaj Strateji Analizi Talep Et",
+        "text": "Tema/hook/görsel dil taxonomy’si kurar, cluster KPI’larını çıkarır ve mesaj stratejisini veriyle netleştirir; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yaratıcı Küme Analizi & Mesaj Strateji Analizi Talep Et",
+        "text": "Tema/hook/görsel dil kümeleriyle hangi hikâye setlerinin işe yaradığını netleştirir; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Yaratıcı Küme → KPI & Aksiyon Raporlama Şablonunu İndir",
+        "text": "Cluster KPI’ları ve scale/refresh/drop karar çerçevesiyle analizi doğrudan içerik stratejisine bağlamanızı sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal medya içerik üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "Reels ve video içerik stratejisi",
+        "href": "/smm/reels-video"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Prediktif Analitik ve Sosyal Medya İçerik Performans Tahmini",
+        "href": "/smm/blog/prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini"
+      },
+      {
+        "title": "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+        "href": "/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "creative-clustering-nedir",
+        "title": "Creative clustering nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Creative clustering; içerikleri “benzer hikâye ve görsel dil” kümelerine ayırıp performansı bu kümeler üzerinden okuma yöntemidir. İçerik stratejisinde en faydalı çıktısı şudur: “fiyat arketipi mi, deneyim arketipi mi, SSS arketipi mi daha iyi çalışıyor?”"
+          },
+          {
+            "type": "h3",
+            "text": "Creative clustering nedir, sosyal medya içerikleri için nasıl yapılır? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Taxonomy belirle: tema/pillar + hook + görsel dil",
+              "İçerikleri etiketle (yükleme anında ideal)",
+              "Aynı etiket setine sahip içerikleri cluster’a al",
+              "Cluster KPI’larını hesapla (ortalama + medyan)",
+              "Isı haritasıyla cluster’ları kıyasla",
+              "Karar ver: scale / refresh / drop"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (cluster tanımı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Tema” ve “hook” ayrımı net mi?",
+              "Görsel dil etiketleri var mı? (örn. UGC/stock/infografik)",
+              "Cluster başına en az 8–15 içerik var mı? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce 6–10 cluster ile başla",
+              "Etiket sözlüğünü sabitle (değişirse kıyas bozulur)",
+              "Cluster KPI’larını aylık ritme bağla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "tema-hook-ve-gorsel-dile-gore-gruplama-taxonomy",
+        "title": "Tema, hook ve görsel dile göre gruplama (taxonomy)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cluster analizi, iyi bir taxonomy ile başlar. Taxonomy yoksa analiz “etiket karmaşası”na döner."
+          },
+          {
+            "type": "h3",
+            "text": "Tema (pillar) örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: oda/konsept, destinasyon, kampanya, SSS, UGC/kanıt",
+              "B2B: case, rehber, edutainment, ürün/hizmet, kanıt/ROI"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hook (ilk 2–3 saniye / ilk cümle) örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Fiyat/teklif” hook’u (indirim, paket)",
+              "“Problem/çözüm” hook’u (B2B)",
+              "“Deneyim” hook’u (otel konsept)",
+              "“Şaşırtan bilgi” hook’u (edutainment)",
+              "“Soru” hook’u (SSS)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Görsel dil örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UGC (misafir/ müşteri üretimi)",
+              "Sinematik/estetik",
+              "Infografik/slide",
+              "Before-after / proof",
+              "Screen recording / demo (B2B)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (taxonomy sağlık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etiket sayısı 20’yi geçiyor mu? (fazlaysa sadeleştir)",
+              "Aynı içeriğe 3’ten fazla etiket ekleniyor mu? (Varsayım: kısıtla)",
+              "Taxonomy versiyonlama var mı? (v1.0, v1.1)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tema + hook + görsel dil üçlüsünü zorunlu alan yap",
+              "Etiketleri yükleme sırasında doldur (sonradan zor)",
+              "90 günde bir taxonomy gözden geçir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kpilar-tek-tek-post-degil-yaratici-kume-bazinda-okumak",
+        "title": "KPI’ları “tek tek post” değil, yaratıcı küme bazında okumak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek post KPI’ı “gürültü” üretir; cluster KPI’ı “sinyal” üretir. Çünkü aynı arketipteki içerikler tekrarlandığında gerçek performans potansiyeli ortaya çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "Cluster KPI seti (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görünürlük: ortalama reach/impressions (median tercih edilebilir)",
+              "Kalite etkileşim: save/share, yorum kalitesi (Varsayım)",
+              "Niyet: CTR / link tıklama",
+              "Sonuç: lead/rezervasyon katkısı (Varsayım: ölçüm)",
+              "Stabilite: varyans/dağılım (cluster “istikrarlı mı?”)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: “Fiyat odaklı” cluster reach iyi ama CTR düşükse, teklif mesajı net değil veya CTA zayıf olabilir. “Deneyim odaklı” cluster CTR iyi ama conversion düşükse landing/teklif uyumu sorunu olabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (cluster okuma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ortalama yerine medyan kontrol ettin mi? (uç değer etkisi)",
+              "Cluster KPI’ları funnel gibi mi okunuyor?",
+              "Cluster’lar arası kıyas aynı dönemde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Cluster KPI’larını funnel zinciriyle yorumla",
+              "Her ay 2 cluster’ı ölçekle, 2 cluster’ı refresh et",
+              "Düşük cluster’ları “drop” yerine önce “neden” ile test et"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Cluster KPI tablosu",
+            "headers": [
+              "Cluster",
+              "Tema",
+              "Hook",
+              "Görsel dil",
+              "Reach",
+              "Save/Share",
+              "CTR",
+              "Lead/Rez (Varsayım)",
+              "Karar"
+            ],
+            "rows": [
+              [
+                "Fiyat odaklı",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "____",
+                "☐ Scale ☐ Refresh ☐ Drop"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-kumeler-message-archetypes",
+        "title": "Otel ve B2B için örnek kümeler (message archetypes)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel için örnek cluster’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat/Paket: erken rezervasyon, kampanya",
+              "Deneyim/konsept: spa, gastronomi, aile",
+              "Destinasyon: çevre, rota, aktivite",
+              "Kanıt/UGC: misafir videoları, yorumlar",
+              "SSS: “transfer var mı?”, “check-in saatleri” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için örnek cluster’lar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Case & proof: sonuç, metrik, referans",
+              "Edutainment: kısa bilgi, yanlış-doğru",
+              "Ürün demo: ekran kaydı, özellik",
+              "Problem/çözüm: pain point üzerinden anlatım",
+              "SSS: fiyat, süreç, teslim (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (örnekleme)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kümeler işletmenin hedefiyle uyumlu mu?",
+              "Her cluster için “başarı KPI”sı net mi?",
+              "Cluster sayısı yönetilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "8–12 cluster ile başla, sonra birleştir/sadeleştir",
+              "Her cluster’ı içerik takviminde “seri” olarak planla",
+              "Cluster başına “minimum içerik sayısı” belirle (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "hangi-kumeleri-olcekleyip-hangilerini-birakmali",
+        "title": "Hangi kümeleri ölçekleyip hangilerini bırakmalı? (scale/refresh/drop)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cluster analizi “karar” üretmelidir. En pratik karar çerçevesi: Scale / Refresh / Drop."
+          },
+          {
+            "type": "h3",
+            "text": "Scale / Refresh / Drop karar kuralları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Scale: KPI’lar yüksek + stabil → daha çok üret, paid ile destekle (Varsayım)",
+              "Refresh: orta performans + net zayıf halka → hook/CTA/görsel dil değiştir",
+              "Drop: düşük performans + tekrar denemelerde iyileşmiyor → arşivle"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi kümeleri ölçekleyip hangilerini bırakmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Kümeyi ölçeklemek için iki şart arayın: (1) kalite sinyali (save/share veya retention), (2) hedef KPI (CTR/lead/rez) artışı. Refresh için “tek bir zayıf halka” tespit edin (hook mu, CTA mı, format mı?). Drop için en az 2–3 deneme sonrası düşük performans teyidi arayın; tek seferlik sonuçla hüküm vermeyin."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet’ten): Kümeleri oluştururken etiketleme/disiplin olmazsa sonuçlar dağınık ve yorumlanamaz olur. Bu yüzden içerik yüklenirken taxonomy/etiket yapısı baştan kurgulanmalı ve sürdürülmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check (karar disiplini)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Scale kararı için “stabilite”ye baktın mı?",
+              "Refresh’te tek değişkenle test yapıyor musun?",
+              "Drop kararı için yeterli deneme var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her ay 1 scale, 1 refresh, 1 drop kararı çıkar",
+              "Refresh testini 14 günlük sprint’e bağla",
+              "Cluster kararlarını “öğrenim notu” ile kaydet"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Cluster analizi kullanıldığında içerik stratejisinde tek tek post yorumları yerine net hikâye seti tercihleriyle çalışmak mümkün olur; karar kalitesi artar ve üretim odağı netleşir."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yaratıcı Küme → KPI & Aksiyon Raporlama Şablonunu İndir",
+            "text": "Cluster ısı haritası, KPI tablosu ve karar akışıyla analizi doğrudan içerik ve bütçe kararına bağlamanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        
+        ]
+      },
+      {
+        "id": "yaratici-kume-kpi-aksiyon-raporlama-sablonu",
+        "title": "Yaratıcı Küme → KPI & Aksiyon Raporlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Yaratıcı Küme → KPI & Aksiyon Raporlama Şablonu — SMM / Creative Clusters (v1.0)",
+            "purpose": "Bu şablon, içerikleri tema/hook/görsel dil taxonomy’siyle cluster’lara ayırıp KPI’ları cluster bazında raporlamanızı sağlar. Isı haritası ile kümeleri kıyaslar, scale/refresh/drop kararını standartlaştırır ve “tek post” yorumundan “hikâye seti optimizasyonu”na geçişi kolaylaştırır. Etiket disiplini ve taxonomy yönetimi guardrail’leri içerir.",
+            "whoFor": "TR geneli içerik hacmi yüksek otel, ajans ve B2B içerik/performance ekipleri.",
+            "steps": [
+              "Taxonomy’yi (tema/hook/görsel dil) sabitleyip içerikleri etiketleyin.",
+              "Cluster KPI tablosunu doldurup ısı haritasını çıkarın.",
+              "Her cluster için scale/refresh/drop kararı ve 30 günlük test planı yazın."
+            ],
+            "checklist": [
+              "Etiketleme disiplinli",
+              "Cluster başına yeterli içerik var",
+              "KPI tanımları tutarlı",
+              "Kararlar test/planla bağlandı"
+            ],
+            "template": {
+              "taxonomy": [
+                "Tema/Pillar listesi: ____",
+                "Hook listesi: ____",
+                "Görsel dil listesi: ____",
+                "Taxonomy sürümü: v____"
+              ],
+              "clusterKpiTable": "B) Cluster KPI Tablosu",
+              "heatmapSummary": [
+                "Satırlar: Cluster’lar",
+                "Sütunlar: KPI’lar (save/share, CTR, conversion)",
+                "Hücre: normalize skor (Varsayım)"
+              ],
+              "decisionNote": [
+                "Scale gerekçesi: ____",
+                "Refresh gerekçesi (zayıf halka): ____",
+                "Drop gerekçesi (deneme sayısı): ____"
+              ],
+              "actionPlan30Days": [
+                "Scale: ____ (kaç içerik) | Sahip: ____ | Tarih: ____",
+                "Refresh testi: ____ (tek değişken) | Sahip: ____ | Tarih: ____",
+                "Drop: ____ (arşiv) | Sahip: ____ | Tarih: ____"
+              ]
+            },
+            "deliverables": [
+              "Cluster ısı haritası",
+              "Cluster KPI tablosu",
+              "Scale/refresh/drop planı"
+            ],
+            "href": "/downloads/yaratici-kume-kpi-aksiyon-raporlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Tek post yorumu değil, hikâye seti optimizasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Creative clustering, sosyal medya analizini tek tek post yorumlarından çıkarıp hikâye seti ve mesaj arketipi düzeyine taşır. Bu sayede hangi temanın, hangi hook’un ve hangi görsel dilin gerçekten performans ürettiği daha net görülür."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B ekipleri için en sağlıklı yaklaşım; taxonomy’yi baştan sabitlemek, içerikleri disiplinli etiketlemek, cluster KPI’larını aylık ritimde okumak ve scale/refresh/drop kararlarını öğrenim notlarıyla kaydetmektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yaratıcı Küme Analizi & Mesaj Strateji Analizi Talep Et",
+            "text": "Tema/hook/görsel dil kümeleriyle hangi hikâye setlerinin işe yaradığını netleştirir; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yaratıcı Küme → KPI & Aksiyon Raporlama Şablonunu İndir",
+            "text": "Cluster KPI’ları ve scale/refresh/drop karar çerçevesiyle analizi doğrudan içerik stratejisine bağlamanızı sağlar.",
+            "href": "/smm/analiz-raporlama"
+          },
+            {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Creative clustering nedir, sosyal medya içerikleri için nasıl yapılır?",
+        "a": "Benzer tema/hook/görsel dili paylaşan içerikleri cluster’lara ayırıp performansı cluster bazında okumaktır. Önce taxonomy belirlenir, içerikler etiketlenir, sonra her cluster için KPI’lar hesaplanır ve ısı haritasıyla kıyaslanır. Son adım scale/refresh/drop kararlarıdır."
+      },
+      {
+        "q": "Tema/hook/görsel dile göre yaratıcı kümeleri nasıl tanımlarım?",
+        "a": "Tema (pillar) ve hook listesini sade tutup görsel dili birkaç kategoriye ayırın (UGC, sinematik, infografik gibi). Her içeriğe bu üç etiketi vererek kümeleri otomatik oluşur hale getirirsiniz. Taxonomy değişirse kıyas bozulacağından sürümlemeyi not edin."
+      },
+      {
+        "q": "Hangi kümeleri ölçekleyip hangilerini bırakmalıyım?",
+        "a": "Scale için yüksek ve stabil KPI’lar; refresh için orta performans + net zayıf halka; drop için tekrarlı denemelerde de düşük sonuç gerekir. Tek içerikle karar vermeyin; cluster bazında yeterli örnekle teyit arayın."
+      },
+      {
+        "q": "Otel ve B2B için yaratıcı küme örnekleri neler?",
+        "a": "Otelde fiyat/paket, deneyim/konsept, destinasyon, UGC/kanıt, SSS kümeleri; B2B’de case/proof, edutainment, ürün demo, problem/çözüm, SSS kümeleri iyi başlangıçtır. Her cluster’ı hedef KPI ile eşleştirin."
+      },
+      {
+        "q": "Cluster analizi neden dağınık hale gelir?",
+        "a": "Etiketleme disiplini ve taxonomy baştan kurgulanmazsa içerikler farklı isimlerle etiketlenir, kümeler parçalanır ve KPI’lar yorumlanamaz hale gelir. Bu yüzden taxonomy ve etiket sözlüğü zorunlu olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-hero-01.webp",
+          "h1-context — 1920×1080 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-h1-context-02.webp",
+          "divider-01 — 1600×1200 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-divider-03.webp",
+          "divider-02 — 1600×1200 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-divider-04.webp",
+          "diagram-05 — 1920×1080 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-diagram-05.webp",
+          "checklist-06 — 1200×1200 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-checklist-06.webp",
+          "kpi-07 — 1200×1200 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-kpi-07.webp",
+          "proof-08 — 1200×1200 — yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak-proof-08.webp",
+          "heatmap — 1920×1080 — cluster bazlı KPI yoğunluğu",
+          "table-cluster-kpi — Cluster KPI tablosu (tema + hook + görsel dil + karar)",
+          "decision-flow — 16:9 — scale/refresh/drop akışı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Primary CTA trend hassasiyetine göre H1 sonunda kullanıldı",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Download Asset bloğu üretildi",
+          "İç link hedefleri kontrol edildi: /smm/analiz-raporlama, /smm/icerik-uretimi, /smm/reels-video",
+          "Cluster KPI tablosu içerik içine eklendi",
+          "Media pack slot adları içerik içindeki media bloklarıyla uyumlu",
+          "Taxonomy, etiket disiplini ve scale/refresh/drop karar çerçevesi içerik ve asset içinde vurgulandı"
+        ]
+      }
+    }
+  },
+
+  "BlogAnalyticsOperasyonlariIcinDokumantasyonVeKnowledgeBaseYapisi": {
+    "title": "SMM Analytics Dokümantasyonu: KPI Sözlüğü ve Changelog",
+    "slug": "analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi",
+    "department": "smm",
+    "subDepartment":"reporting",
+    "updatedAt": "19 Haziran 2026",
+    "publishedAt": "2026-06-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KPI definition sözlüğü, dashboard rehberleri, UTM/channel mapping ve tracking changelog ile SMM analytics knowledge base kurun. Herkes aynı veriyi aynı şekilde okusun, güven ve hız artsın.",
+    "seo": {
+      "metaTitle": "SMM Analytics Dokümantasyonu: KPI Sözlüğü ve Changelog | DGTLFACE",
+      "metaDescription": "KPI definition sözlüğü, dashboard rehberleri, UTM/channel mapping ve tracking changelog ile SMM analytics knowledge base kurun. Herkes aynı veriyi aynı şekilde okusun, güven ve hız artsın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Analiz & Raporlama — /tr/smm/analiz-raporlama",
+        "Blog / URL: /tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi"
+      ],
+      "strategySummary": "Bu trend içerik, SMM “Analiz & Raporlama” silo’sunda büyüyen raporlama operasyonlarının kaçınılmaz sorusunu çözer: “Herkes aynı KPI’yı aynı şekilde mi okuyor?” Hedef persona; büyüyen SMM/analytics ekipleri olan otel grupları, ajanslar ve B2B markalardır; çünkü KPI tartışmaları ve dağınık dokümanlar, karar hızını düşürür ve güven kaybı yaratır. Funnel’da MoFu stratejik karar desteği sağlar: KPI sözlüğü, dashboard rehberleri, UTM/channel mapping ve changelog’u tek “knowledge base” altında toplayarak tek veri gerçekliği oluşturur. Ana iş sorusu: “SMM analytics wiki’yi nasıl kurar, nasıl güncel tutar ve ekipte standart okuma kültürü yaratırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medya analitiği büyüdükçe KPI tanımları, dashboard’lar, UTM şemaları ve tracking değişiklikleri hızla karmaşıklaşır. Analytics dokümantasyonu ve knowledge base; “veri nasıl okunur, neye güvenebiliriz?” sorularına tek yerden cevap vererek tutarlılık ve hız sağlar. Doğru yapı; KPI definition sözlüğü (ne, nasıl hesaplanır, hangi kaynak), dashboard kullanım rehberleri, UTM/channel mapping dokümanı ve tracking/event değişiklikleri için changelog kayıtlarını içerir. Güncel tutulmazsa yanlış karar riski büyür.",
+      "sgeSummary": "Analytics knowledge base; KPI sözlüğü + dashboard rehberi + UTM/mapping + changelog’dan oluşur. Amaç tek veri gerçekliği: herkes aynı KPI’yı aynı tanımla okur, karar hızlanır.",
+      "voiceAnswer": "KPI’ları standardize etmek için KPI sözlüğü, UTM/mapping ve changelog içeren tek bir analytics wiki kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel grupları, ajanslar ve B2B analytics ekipleri",
+        "KPI çekirdeği: KPI dictionary + dashboard rehberleri + UTM/channel mapping + changelog",
+        "Entity theme: KPI, dashboard, UTM, tracking, changelog, governance",
+        "Model: analytics ops & governance → shared understanding → hızlı onboarding",
+        "Risk: güncellenmeyen doküman = yanlış karar + güven kaybı",
+        "Çıktı: knowledge base şeması + KPI sözlüğü tablosu + dokümantasyon checklist’i",
+        "Başarı ölçümü: onboarding hızlanır, KPI tartışmaları nesnelleşir"
+      ]
+    },
+    "h1": {
+      "title": "Analytics Operasyonları İçin Dokümantasyon ve Knowledge Base Yapısı",
+      "intro": "Sosyal medya analitiği büyüdükçe “rapor üretmek”ten daha zor bir şey ortaya çıkar: aynı raporu aynı şekilde okumak. Bir ekip “lead” derken form gönderimini, diğeri WhatsApp tıklamasını anlıyorsa; bir raporda paid_social direct altında akıyorsa; Tag Manager değişikliği sonrası event kırıldı ama kimse fark etmediyse… en iyi dashboard bile güven kaybeder. Bu yüzden “analytics ops” sadece panel yapmak değil, paneli yaşatan bir dokümantasyon ve governance sistemi kurmaktır. Bu rehber; KPI sözlüğü, dashboard rehberleri, UTM/channel mapping ve changelog’u tek bir knowledge base (wiki) yapısında toplayarak “tek veri gerçekliği” yaratmanın pratik yolunu anlatır.",
+      "quickSummary": [
+        "1) Analytics dokümantasyonunu rapor güvenilirliğinin sigortası olarak kur",
+        "2) KPI sözlüğüyle her metriğin tanımını, hesabını, kaynağını ve sahibini netleştir",
+        "3) Dashboard rehberleriyle rol bazlı okuma ve aksiyon sistemini standartlaştır",
+        "4) UTM/channel mapping ile paid, organic ve kampanya kaynaklarını tek gerçekliğe bağla",
+        "5) Changelog ile tracking, KPI ve dashboard değişikliklerini yaşayan sistem olarak takip et"
+      ],
+      "ctaPrimary": {
+        "label": "SMM Analytics Dokümantasyon & Knowledge Base Analizi Talep Et",
+        "text": "KPI sözlüğü + mapping + changelog yapısını kurar; otel ve B2B ekiplerinde ortak veri dili oluşturur.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SMM Analytics Dokümantasyon & Knowledge Base Analizi Talep Et",
+        "text": "KPI sözlüğü, mapping ve changelog ile ekipte tek veri gerçekliği kurar; otel ve B2B ekipleri için.",
+        "href": "/smm/analiz-raporlama"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Analytics KPI Sözlüğü & Changelog Şablonunu İndir",
+        "text": "KPI tanımı, kaynak, hesaplama ve tracking değişikliklerini tek yerde toplayarak herkesin aynı veriyi aynı şekilde okumasını sağlar.",
+        "href": "/smm/analiz-raporlama"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sosyal medya analiz ve raporlama hizmet sayfası",
+        "href": "/smm/analiz-raporlama"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Benchmark analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+        "href": "/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
+        "title": "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+        "href": "/smm/blog/share-of-voice-ve-sosyal-medya-pazar-payi-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-analytics-dokumantasyonu",
+        "title": "Neden analytics dokümantasyonu?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Analytics dokümantasyonu “ekstra iş” gibi görünür; ama aslında raporun güvenilirliğini ve karar hızını koruyan sigortadır. Özellikle ajanslarda ekip değişimi, otel gruplarında marka/otel sayısının artması ve B2B’de pipeline tanımlarının evrilmesiyle “kafadaki bilgi” hızla kırılır."
+          },
+          {
+            "type": "h3",
+            "text": "Analytics dokümantasyonu neden gerekli? "
+          },
+          {
+            "type": "p",
+            "text": "Çünkü KPI tanımı, kanal mapping ve event yapısı değiştikçe raporun anlamı da değişir. Dokümantasyon yoksa ekipler farklı KPI tanımıyla karar verir ve aynı grafikten farklı sonuç çıkarır. Merkezi knowledge base; KPI sözlüğü, mapping ve changelog ile “hangi veri doğrudur?” sorusuna tek cevap üretir ve onboarding’i hızlandırır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI’lar ekip içinde farklı mı yorumlanıyor?",
+              "Yeni gelen biri “hangi dashboard ne işe yarar?” sorusunu 10 dakikada bulabiliyor mu?",
+              "Tracking değişiklikleri “kimin aklında” kalıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek bir “analytics wiki” alanı aç",
+              "KPI sözlüğünü ilk doküman olarak zorunlu kıl",
+              "Her tracking değişikliğine changelog şartı getir"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          }
+        ]
+      },
+      {
+        "id": "kpi-tanim-sozlugu-kpi-dictionary",
+        "title": "KPI tanım sözlüğü (KPI Dictionary)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KPI sözlüğü, knowledge base’in çekirdeğidir. “Ne ölçüyoruz?” kadar “nasıl hesaplıyoruz?” sorusunu da kilitler. İyi bir sözlük, rapor tartışmasını “yorum”dan çıkarıp “tanım”a taşır."
+          },
+          {
+            "type": "h3",
+            "text": "KPI definition sözlüğü nasıl hazırlanır? "
+          },
+          {
+            "type": "p",
+            "text": "Her KPI için şu alanları standart doldurun:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI adı: tek ve kısa",
+              "Tanım: iş diliyle 1 cümle",
+              "Hesaplama: formül veya event mantığı",
+              "Kaynak: GA4 / platform insights / CRM",
+              "Segment: organic/paid, platform, ülke (Varsayım)",
+              "Sahip: kim sorumlu?",
+              "Not: değişiklik ve istisna"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Lead” tanımı tek mi?",
+              "“Engagement rate” reach bazlı mı, impression bazlı mı?",
+              "KPI’nın kaynağı ve event adı yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk 15 KPI ile başla (fazlası sonra)",
+              "KPI’ları “core” ve “advanced” diye ayır",
+              "Her değişiklikte sözlüğü güncelle ve sürümle (v1.0 → v1.1)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: KPI dictionary örnek tablosu",
+            "headers": [
+              "KPI",
+              "Tanım",
+              "Hesaplama",
+              "Kaynak",
+              "Scope",
+              "Sahip",
+              "Son güncelleme"
+            ],
+            "rows": [
+              [
+                "Lead",
+                "Satışa aday aksiyon",
+                "form_submit + WA_click (varsayım)",
+                "GA4+CRM",
+                "paid+organic",
+                "____",
+                "____"
+              ],
+              [
+                "Engagement Rate",
+                "Etkileşim/erişim",
+                "(engagement / reach)",
+                "Platform",
+                "organic",
+                "____",
+                "____"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dashboard-ve-rapor-rehberleri-nasil-okunur",
+        "title": "Dashboard ve rapor rehberleri (Nasıl okunur?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dashboard rehberi, “panel var ama kimse bakmıyor” sorununu çözer. Her panelin amacı, kimin baktığı ve hangi kararı desteklediği yazılı değilse ekipler dashboard’u yanlış beklentiyle açar."
+          },
+          {
+            "type": "h3",
+            "text": "Dashboard rehberi içeriği (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard adı + link (Varsayım)",
+              "Amaç: hangi soruyu cevaplar?",
+              "Hedef rol: CEO / pazarlama / içerik / İK (Varsayım)",
+              "Okuma sırası: 1–2–3 adım",
+              "Sık hata: yanlış yorum örnekleri",
+              "“Ne yapmalıyım?”: tipik aksiyonlar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard’lar rol bazlı mı?",
+              "Her panelin “okuma sırası” var mı?",
+              "Yanlış yorumlara karşı not kutusu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CEO paneli için 1 sayfalık okuma kılavuzu yaz",
+              "İçerik paneli için “top 10 / zayıf 10” standartlaştır",
+              "Her panelin sonuna “aksiyon backlog” linki koy"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "utm-ve-kanal-mapping-dokumani-tek-gerceklik",
+        "title": "UTM ve kanal mapping dokümanı (tek gerçeklik)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya raporlarında en pahalı hata “yanlış kanal ataması”dır. UTM ve channel mapping dokümanı; paid_social/organic_social ayrımını, campaign naming standardını ve GA4 kanal gruplamasını tekleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "UTM ve kanal mapping dokümanını nasıl tutarım? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UTM sözlüğü yaz: utm_source, utm_medium, utm_campaign, utm_content",
+              "Allowed values (izinli değerler) tanımla: paid_social / organic_social vb.",
+              "GA4 channel grouping ile eşleştir",
+              "Örnek link şablonları ver",
+              "Kampanya naming standardını zorunlu kıl (YYYYMM_kampanyaadi)",
+              "Değişiklikleri changelog’a bağla"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "UTM medium değerleri ekipte herkes için aynı mı?",
+              "Campaign isim standardı var mı?",
+              "GA4’te social trafik “direct” altında mı birikiyor? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "UTM sözlüğünü knowledge base’in “zorunlu” sayfası yap",
+              "Kampanya açılmadan önce UTM checklist’i çalıştır",
+              "Mapping değiştiğinde dashboard notunu güncelle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "degisiklik-changelog-kayitlari-tracking-ve-kpi-evrimi",
+        "title": "Değişiklik (changelog) kayıtları (tracking ve KPI evrimi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Analytics ops’un en kritik “yaşayan” parçası changelog’dur. Çünkü KPI tanımı veya event değiştiğinde trend grafikleri “aynı şey”i göstermemeye başlar. Changelog yoksa ekip yanlış alarm üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Changelog’da ne olmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih",
+              "Ne değişti? (UTM, event, dashboard, KPI tanımı)",
+              "Etkilenen raporlar/paneller",
+              "Beklenen etki (kısa)",
+              "Sahip / onaylayan",
+              "Geri dönüş planı (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (kritik): Dokümantasyon yaşayan bir sistemdir. Güncellenmeyen KPI tanımları ve UTM şemaları zamanla yanlış karar ve güven kaybına yol açar; bu nedenle changelog ve periyodik temizlik (deprecated sayfaları kaldırma) şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tag Manager deploy sonrası event testi kayıt altına alınıyor mu?",
+              "KPI tanımı değişince eski rapor notlanıyor mu?",
+              "Changelog okunmadan trend yorumu yapılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Değişiklik yapıldıysa changelog zorunlu” kuralı koy",
+              "Aylık: changelog review + deprecated temizlik",
+              "Büyük değişiklikte: rapor üstüne “kırılma notu” ekle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-analytics-knowledge-base-ornek-yapilari",
+        "title": "Otel ve B2B için analytics knowledge base örnek yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Knowledge base’in yapısı sektöre göre küçük farklar gösterir ama ana başlıklar aynıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için örnek wiki yapısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI Dictionary (rezervasyon niyeti, WhatsApp/telefon click, teklif sayfası KPI’ları)",
+              "Kanal mapping (seasonality notları dahil)",
+              "Dashboard rehberleri (GM/gelir yönetimi vs içerik ekibi)",
+              "Changelog (PMS/rezervasyon event değişimleri)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için örnek wiki yapısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI Dictionary (lead→MQL→SQL tanımları)",
+              "CRM source/campaign mapping (Varsayım)",
+              "Dashboard rehberleri (sales + marketing ortak dili)",
+              "Changelog (form event ve pipeline değişimleri)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): İyi dokümante edilmiş analytics süreçlerine sahip ekiplerde yeni çalışan/ajans onboarding’i daha hızlı olur; KPI tartışmaları ise daha nesnel ve verimli ilerler. Bu, raporun “kullanılma” oranını da artırır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde sezon notları ve event tanımları wiki’de var mı?",
+              "B2B’de pipeline tanımları KPI sözlüğüne yazıldı mı?",
+              "Wiki sahipliği ve güncelleme ritmi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Knowledge base’e bir “owner” ata (analytics ops owner)",
+              "Aylık “doc review” ritmi koy (30 dk)",
+              "En çok sorulan 10 soruyu wiki’ye çevir (SSS mantığı)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SMM Analytics Dokümantasyon & Knowledge Base Analizi Talep Et",
+            "text": "KPI sözlüğü, mapping ve changelog yapısını kurar; ekipte ortak veri dilini oturtur.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Analytics KPI Sözlüğü & Changelog Şablonunu İndir",
+            "text": "KPI tanımlarını, UTM/channel mapping’i ve tracking değişiklik kayıtlarını tek standartta toplayarak herkesin aynı veriyi aynı şekilde okumasını sağlar.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "media",
+            "slot": "knowledge-base-schema"
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-analytics-kpi-sozlugu-ve-changelog-sablonu",
+        "title": "Sosyal Medya Analytics KPI Sözlüğü & Changelog Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sosyal Medya Analytics KPI Sözlüğü & Changelog Şablonu — Analytics Ops (v1.0)",
+            "purpose": "Bu şablon, SMM analytics operasyonunu ölçeklemek için gerekli iki ana dokümanı tek formatta toplar: KPI definition sözlüğü ve tracking/dashboard changelog kayıtları. UTM/channel mapping bölümüyle “tek veri gerçekliği”ni destekler; onboarding’i hızlandırır ve KPI tartışmalarını nesnelleştirir. Yaşayan sistem mantığıyla sürümleme ve temizlik (deprecated) adımlarını zorunlu tutar.",
+            "whoFor": "Büyüyen otel grupları, ajanslar ve B2B markalarda analytics owner, SMM lead ve performance ekipleri.",
+            "steps": [
+              "İlk 15 KPI’yı sözlüğe girip kaynak ve hesaplamayı kilitleyin.",
+              "UTM/mapping sözlüğünü ekleyip izinli değerleri yayınlayın.",
+              "Her tracking/dashboard değişikliğini changelog’a kaydedip aylık “doc review” ile güncelleyin."
+            ],
+            "checklist": [
+              "KPI tanımları tek sözlükte",
+              "UTM/mapping izinli değerleri yayınlandı",
+              "Changelog zorunlu kuralı var",
+              "Aylık doc review yapılıyor",
+              "Eski/yanlış tanımlar temizleniyor"
+            ],
+            "template": {
+              "kpiDefinitionDictionary": "A) KPI Definition Sözlüğü",
+              "utmAndChannelMapping": [
+                "Allowed utm_medium: ☐ paid_social ☐ organic_social ☐ influencer ☐ affiliate (Varsayım)",
+                "Campaign naming: YYYYMM_kampanyaadi",
+                "GA4 channel grouping eşleşmesi: __________________",
+                "Örnek UTM link: __________________"
+              ],
+              "dashboardGuideTemplate": [
+                "Dashboard adı: ____",
+                "Amaç: ____",
+                "Hedef rol: ____",
+                "Okuma sırası: 1) ____ 2) ____ 3) ____",
+                "Sık hata: ____",
+                "Aksiyon: ____"
+              ],
+              "changelog": "D) Changelog (zorunlu)",
+              "governance": [
+                "Owner: ____",
+                "Review ritmi: ☐ aylık ☐ çeyreklik",
+                "Deprecated temizlik: ☐ var ☐ yok (Varsayım)"
+              ]
+            },
+            "deliverables": [
+              "KPI sözlüğü (v1.x)",
+              "UTM/mapping sayfası",
+              "Changelog log’u",
+              "Dashboard rehberleri"
+            ],
+            "href": "/downloads/sosyal-medya-analytics-kpi-sozlugu-changelog-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Analytics ops, tek veri gerçekliğiyle çalışır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya analitiğinde rapor üretmek kadar önemli olan şey, raporu herkesin aynı tanımla okuyabilmesidir. KPI sözlüğü, dashboard rehberleri, UTM/channel mapping ve changelog bu ortak dili kurar."
+          },
+          {
+            "type": "p",
+            "text": "Knowledge base yaşayan bir sistem olarak yönetildiğinde onboarding hızlanır, KPI tartışmaları nesnelleşir ve dashboard güveni artar. Güncellenmeyen dokümantasyon ise zamanla yanlış karar ve güven kaybı üretir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SMM Analytics Dokümantasyon & Knowledge Base Analizi Talep Et",
+            "text": "KPI sözlüğü, mapping ve changelog ile ekipte tek veri gerçekliği kurar; otel ve B2B ekipleri için.",
+            "href": "/smm/analiz-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Analytics KPI Sözlüğü & Changelog Şablonunu İndir",
+            "text": "KPI tanımı, kaynak, hesaplama ve tracking değişikliklerini tek yerde toplayarak herkesin aynı veriyi aynı şekilde okumasını sağlar.",
+            "href": "/smm/analiz-raporlama"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Analytics dokümantasyonu neden gerekli?",
+        "a": "KPI tanımları, mapping ve event’ler değiştikçe raporların anlamı kayar. Dokümantasyon, “hangi veri doğrudur?” sorusuna tek yerden cevap vererek tutarlılığı ve karar hızını korur; onboarding’i hızlandırır."
+      },
+      {
+        "q": "KPI definition sözlüğü nasıl hazırlanır?",
+        "a": "Her KPI için tanım, hesaplama yöntemi, veri kaynağı, scope (paid/organic/platform), sahip ve not alanlarını standart doldurun. İlk 15 KPI ile başlayıp sürümleyin (v1.0→v1.1)."
+      },
+      {
+        "q": "UTM ve kanal mapping dokümanını nasıl tutarım?",
+        "a": "UTM alanları için izinli değer sözlüğü oluşturun, campaign naming standardı belirleyin ve GA4 channel grouping ile eşleştirin. Mapping değiştiğinde changelog kaydı ve dashboard notu ekleyin."
+      },
+      {
+        "q": "Tracking değişikliklerini neden mutlaka changelog’a yazmalıyım?",
+        "a": "Çünkü trend grafikleri, tanım veya event değiştiğinde aynı şeyi göstermemeye başlar. Changelog yoksa ekip yanlış alarm üretir, kararlar hatalı olur ve dashboard’a güven düşer."
+      },
+      {
+        "q": "Knowledge base yapısı nasıl kurulmalı?",
+        "a": "Minimum yapı: KPI sözlüğü, dashboard rehberleri, UTM/channel mapping ve changelog. Üstte “Sık Sorulanlar”, altta “Sürüm/Temizlik” bölümü ekleyin ve bir owner ile aylık review ritmi tanımlayın."
+      },
+      {
+        "q": "Dokümantasyon güncellenmezse ne olur?",
+        "a": "Eski KPI tanımları ve mapping’ler yanlış karar üretir; ekipler aynı KPI için farklı sonuçlar görür ve güven kaybı oluşur. Dokümantasyon yaşayan sistem olarak ele alınmalı ve periyodik temizlenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-hero-01.webp",
+          "h1-context — 1920×1080 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-h1-context-02.webp",
+          "divider-01 — 1600×1200 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-divider-03.webp",
+          "divider-02 — 1600×1200 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi-proof-08.webp",
+          "knowledge-base-schema — 1920×1080 — wiki yapısı görseli",
+          "table-kpi-dictionary — KPI definition sözlüğü örnek tablosu",
+          "dictionary-table-card — 1:1 — KPI sözlüğü kartı"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage gerçek PAA sorularıyla beslendi",
+          "Primary CTA H1 sonunda ve kapanışa yakın yumuşak şekilde kullanıldı",
+          "Secondary CTA 1 kez yerleştirildi",
+          "Download Asset bloğu üretildi",
+          "İç link hedefleri kontrol edildi: /smm/analiz-raporlama, /veri-analiz-ve-raporlama, /raporlama/benchmark-analizi",
+          "KPI dictionary örnek tablosu içerik içine eklendi",
+          "Media pack slot adları içerik içindeki media bloklarıyla uyumlu",
+          "KPI sözlüğü, UTM/channel mapping, dashboard rehberleri ve changelog yapısı içerik ve asset içinde vurgulandı"
         ]
       }
     }

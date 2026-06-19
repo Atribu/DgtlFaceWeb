@@ -44047,6 +44047,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "Kohort raporu teslim paketi, retention grafikleri ve tablo, aksiyon planı",
       caption: "Kohort raporu teslim paketi, retention grafikleri ve tablo, aksiyon planı"
     }
+  },
+
+  "prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini":{
+    banner: {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-1.webp",
+      alt: "Share of Voice ve Sosyal Medya Pazar Payı Analizi",
+      caption: "Share of Voice ve Sosyal Medya Pazar Payı Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-2.webp",
+      alt: "Prediktif analitik mantığı, içerik özellikleri ve KPI ilişkisi, güvenli kullanım",
+      caption: "Prediktif analitik mantığı, içerik özellikleri ve KPI ilişkisi, güvenli kullanım"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-3.webp",
+    alt: "Veri seti ve etiketleme, içerik skoru için gerekli alanlar, SMM tahmin modeli",
+      caption: "Veri seti ve etiketleme, içerik skoru için gerekli alanlar, SMM tahmin modeli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-4.webp",
+      alt: "Otel ve B2B prediktif planlama örnekleri, skorla test önceliği, stratejist kararı",
+      caption: "Otel ve B2B prediktif planlama örnekleri, skorla test önceliği, stratejist kararı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-5.webp",
+      alt: "Model skoru insan karar akışı, hibrit karar yapısı, güvenli içerik tahmini",
+      caption: "Model skoru insan karar akışı, hibrit karar yapısı, güvenli içerik tahmini"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-6.webp",
+      alt: "Model skoru checklist’i, test ve yayın kararları, prediktif içerik planlama",
+      caption: "Model skoru checklist’i, test ve yayın kararları, prediktif içerik planlama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-7.webp",
+      alt: "İçerik potansiyel skor kartı, yüksek orta düşük, veri odaklı planlama",
+      caption: "İçerik potansiyel skor kartı, yüksek orta düşük, veri odaklı planlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-23/SMM5-23-8.webp",
+      alt: "Prediktif içerik skoru teslim paketi, veri sözlüğü ve test planı, DGTLFACE",
+      caption: "Prediktif içerik skoru teslim paketi, veri sözlüğü ve test planı, DGTLFACE"
+    }
+  },
+
+  "yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak":{
+      banner: {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-1.webp",
+      alt: "Yaratıcı Küme Analizi (Creative Clustering) ile Sosyal Medya İçeriklerini Gruplamak",
+      caption: "Yaratıcı Küme Analizi (Creative Clustering) ile Sosyal Medya İçeriklerini Gruplamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-2.webp",
+      alt: "Yaratıcı küme mantığı, taxonomy ve etiketleme, story-set analizi",
+      caption: "Yaratıcı küme mantığı, taxonomy ve etiketleme, story-set analizi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-3.webp",
+    alt: "Tema hook görsel dil taxonomy’si, creative cluster etiketleme, analiz sistemi",
+      caption: "Tema hook görsel dil taxonomy’si, creative cluster etiketleme, analiz sistemi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-4.webp",
+      alt: "Otel ve B2B cluster örnekleri, mesaj arketipleri, içerik stratejisi",
+      caption: "Otel ve B2B cluster örnekleri, mesaj arketipleri, içerik stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-5.webp",
+      alt: "Creative cluster aksiyon akışı, scale refresh drop karar modeli, optimizasyon süreci",
+      caption: "Creative cluster aksiyon akışı, scale refresh drop karar modeli, optimizasyon süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-6.webp",
+      alt: "Küme bazlı analiz checklist’i, taxonomy ve etiket disiplini, SMM ops",
+      caption: "Küme bazlı analiz checklist’i, taxonomy ve etiket disiplini, SMM ops"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-7.webp",
+      alt: "Cluster KPI kartları, fiyat vs deneyim performansı, otel ve B2B kıyası",
+      caption: "Cluster KPI kartları, fiyat vs deneyim performansı, otel ve B2B kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-24/SMM5-24-8.webp",
+      alt: "Creative clustering teslim paketi, ısı haritası ve aksiyon planı, DGTLFACE",
+      caption: "Creative clustering teslim paketi, ısı haritası ve aksiyon planı, DGTLFACE"
+    }
+  },
+
+  "analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi":{
+     banner: {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-1.webp",
+      alt: "Analytics Operasyonları İçin Dokümantasyon ve Knowledge Base Yapısı",
+      caption: "Analytics Operasyonları İçin Dokümantasyon ve Knowledge Base Yapısı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-2.webp",
+      alt: "Tek veri gerçekliği, KPI standardizasyonu, analytics ops kültürü, ekip uyumu",
+      caption: "Tek veri gerçekliği, KPI standardizasyonu, analytics ops kültürü, ekip uyumu"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-3.webp",
+    alt: "Dashboard rehberi ve rol bazlı okuma, analytics ops standardı, karar akışı",
+      caption: "Dashboard rehberi ve rol bazlı okuma, analytics ops standardı, karar akışı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-4.webp",
+      alt: "Tracking changelog ve governance, event değişiklikleri, sürdürülebilir raporlama",
+      caption: "Tracking changelog ve governance, event değişiklikleri, sürdürülebilir raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-5.webp",
+      alt: "UTM channel mapping akışı, KPI sözlüğüyle tek gerçeklik, SMM analytics governance",
+      caption: "UTM channel mapping akışı, KPI sözlüğüyle tek gerçeklik, SMM analytics governance"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-6.webp",
+      alt: "Analytics dokümantasyon checklist’i, KPI sözlüğü ve changelog, ekip standardı",
+      caption: "Analytics dokümantasyon checklist’i, KPI sözlüğü ve changelog, ekip standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-7.webp",
+      alt: "KPI dictionary kartları, tanım ve hesaplama, otel ve B2B rapor tutarlılığı",
+      caption: "KPI dictionary kartları, tanım ve hesaplama, otel ve B2B rapor tutarlılığı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-25/SMM5-25-8.webp",
+      alt: "Knowledge base teslim paketi, wiki şeması ve doküman seti, DGTLFACE",
+      caption: "Knowledge base teslim paketi, wiki şeması ve doküman seti, DGTLFACE"
+    }
   }
   
 };

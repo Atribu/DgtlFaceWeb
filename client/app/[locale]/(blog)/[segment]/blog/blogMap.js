@@ -277,7 +277,10 @@ export const BLOG_MAP = {
 
     "etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi":"BlogEtkilesimMetrikleriEngagedSessionScrollDepthVeIcerikKalitesi",
     "search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir":"BlogSearchGenerativeExperienceAiOverviewMetrikleriSeoRaporunaNasilEklenir",
-    "seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri":"BlogSeoOpsIcinOtomatikRaporVeSlackEPostaAlertSistemleri"
+    "seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri":"BlogSeoOpsIcinOtomatikRaporVeSlackEPostaAlertSistemleri",
+    "prediktif-analitik-ve-sosyal-medya-icerik-performans-tahmini":"BlogPrediktifAnalitikVeSosyalMedyaIcerikPerformansTahmini",
+    "yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak":"BlogYaraticiKumeAnaliziCreativeClusteringIleSosyalMedyaIcerikleriniGruplamak",
+    "analytics-operasyonlari-icin-dokumantasyon-ve-knowledge-base-yapisi":"BlogAnalyticsOperasyonlariIcinDokumantasyonVeKnowledgeBaseYapisi"
   },
 
     smm: {
