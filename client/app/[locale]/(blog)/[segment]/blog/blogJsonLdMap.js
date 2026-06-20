@@ -81362,6 +81362,1068 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin",
+
+      "name": "Görsel Stratejisi ve Medya Yönetimi: Kurumsal ve Otel Web Siteleri İçin",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Image Strategy",
+
+        "Media Library",
+
+        "DAM",
+
+        "WebP",
+
+        "Responsive Images",
+
+        "Alt Text",
+
+        "Media Optimisation"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#article",
+
+      "headline": "Görsel Stratejisi ve Medya Yönetimi: Kurumsal ve Otel Web Siteleri İçin",
+
+      "description": "Otel ve kurumsal sitede görsel/video seçimini, WebP–responsive img optimizasyonunu ve merkezi DAM kütüphanesini kurun. Hız, SEO ve içerik güncelleme hızını artırın.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#howto",
+
+      "name": "Web Sitesinde Görsel Optimizasyonu ve DAM Kurulumu",
+
+      "description": "Görsel/video seçimi, WebP–responsive optimizasyon ve merkezi medya kütüphanesi (DAM) ile sürdürülebilir medya yönetimi adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kritik görsel setini belirle ve envanterle",
+
+          "text": "Hero, kart ve galeri görsellerini sayfa türlerine göre listele; otel/B2B senaryo setlerini tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Format ve boyut optimizasyonunu uygula",
+
+          "text": "WebP ve responsive images standardı kur; LCP’yi etkileyen hero görselini önceliklendir ve galerileri lazy-load ile hafiflet."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "DAM yapısını kur ve standardize et",
+
+          "text": "Klasör yapısını tek kaynak gerçek olacak şekilde kurgula; dosya adı ve alt metin standartlarını zorunlu hale getir."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Görsel Stratejisi ve Medya Yönetimi", "item": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Görsel stratejisi web siteleri için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çünkü görseller hem karar verdirir hem de siteyi ağırlaştırabilir. Doğru strateji; performans, anlam ve sürdürülebilir yönetimi birlikte optimize eder."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "WebP ve responsive img nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "WebP ile dosya boyutunu düşürür, responsive images ile cihazın ihtiyacı kadar görsel gönderirsiniz. Hero kritik, galeri ve alt sayfa görselleri lazy-load ile optimize edilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Merkezi medya kütüphanesi (DAM) yapısını nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Klasör standardını yazılı hale getirip tek kaynak gerçek kuralı koyun. Dosya adı ve alt metin standardı ile etiketleme yaparak tekrar kullanım ve arama hızını artırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve kurumsal sitelerde hangi görsellere öncelik vermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde hero + oda/paket kartları + galeri; B2B’de hero + ürün/dashboard + case görselleri önceliklidir. En çok trafik alan sayfalardaki görseller ilk optimizasyon adayıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"web-site-governance-style-guide-ve-degisiklik-yonetimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi",
+
+      "name": "Web Site Governance: Style Guide ve Değişiklik Yönetimi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Web Governance",
+
+        "Style Guide",
+
+        "Change Management",
+
+        "Roles & Responsibilities",
+
+        "Approval Workflow",
+
+        "Controlled Updates"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#article",
+
+      "headline": "Web Site Governance: Style Guide ve Değişiklik Yönetimi",
+
+      "description": "Style guide, rol-sorumluluk matrisi ve değişiklik onay süreciyle web sitenizi lansman sonrası da tutarlı yönetin. Otel/B2B governance modeli + checklist.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#howto",
+
+      "name": "Web Site Governance Kurulumu",
+
+      "description": "Style guide, rol matrisi ve change management süreci ile web sitesini kontrollü şekilde yönetme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Style guide’ı tanımla ve yayınla",
+
+          "text": "İçerik ton-of-voice ve UI/görsel standartlarını v1 olarak yaz; örneklerle destekleyip ekipte tek kaynak gerçek oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rolleri ve yetkileri netleştir",
+
+          "text": "RACI matrisi çıkar; dev/staging/prod ortamlarında kim neyi değiştirebilir ve kim onaylar netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Change request ve onay akışını işlet",
+
+          "text": "Küçük/orta/büyük değişiklik sınıfları ve SLA tanımla; staging testini zorunlu yap; düzenli governance review ritmi kur."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Web Site Governance", "item": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web site governance nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Governance; style guide, rol/sorumluluklar ve change yönetimi ile sitenin kontrollü evrilmesini sağlar. Dağınık güncellemeleri azaltır, tutarlılık ve güvenlik kazandırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Style guide’de hangi başlıklar olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İçerik tarafında ton of voice, başlık/CTA standardı ve terim sözlüğü; tasarım tarafında renk, tipografi, spacing ve component kuralları bulunmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web sitesinde değişiklikleri kim, nasıl onaylamalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İçerik değişikliklerinde sayfa sahibi + marka onayı; teknik değişikliklerde QA + teknik onay gerekir. Büyük değişikliklerde SEO ve UX consulted olmalı ve staging’den geçmeden prod’a alınmamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için governance modeli nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel zincirlerinde merkez standartları belirler, yerel ekip içerik girer; B2B’de departman talep eder, merkezi ekip onaylar. Her iki modelde de tek backlog ve net RACI şarttır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme",
+
+      "name": "Security by Design: Kurumsal Web Sitelerinde Güvenlik Odaklı Geliştirme",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Web Security",
+
+        "OWASP Principles",
+
+        "Authentication",
+
+        "Authorization",
+
+        "Secure Forms",
+
+        "Admin Panel Hardening",
+
+        "Security by Design"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#article",
+
+      "headline": "Security by Design: Kurumsal Web Sitelerinde Güvenlik Odaklı Geliştirme",
+
+      "description": "Kurumsal sitede OWASP risklerini baştan ele alın: kimlik doğrulama, veri koruma, form/ödeme ve admin panel güvenliği. Otel/B2B checklist + go-live kontrolü.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#howto",
+
+      "name": "Kurumsal Web Sitesinde Security by Design Uygulama",
+
+      "description": "OWASP temelleri, auth/role modeli, input doğrulama ve admin panel hardening ile güvenliği baştan kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Risk yüzeyini ve OWASP kontrollerini belirle",
+
+          "text": "Formlar, login, admin panel ve entegrasyonlar için OWASP risklerini çıkar; kontrol kapılarını tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kimlik doğrulama ve yetkilendirmeyi sertleştir",
+
+          "text": "RBAC rol matrisi kur; MFA ve rate limit ekle; admin panel erişimini kısıtla ve log/alert kurgusunu çalıştır."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Input, upload ve veri korumayı tamamla",
+
+          "text": "Input doğrulama/escape uygula; upload allowlist ve limit koy; PII minimizasyon ve şifreleme yaklaşımını planla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Security by Design", "item": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Security by design nedir, web sitesi için ne ifade eder?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Security by design; kimlik doğrulama, yetkilendirme, veri koruma ve input doğrulama gibi güvenlik konularının proje başında mimariye dahil edilmesidir. Böylece güvenlik sonradan eklenen yamalarla değil varsayılan davranışla sağlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal web sitesinde en sık görülen güvenlik açıkları nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "XSS, SQLi, CSRF, zayıf kimlik doğrulama, hatalı yetkilendirme ve güvenli olmayan dosya yükleme en yaygın risklerdir. Çoğu, input doğrulama ve rol modelinin zayıflığından doğar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Login, form ve yönetici paneli güvenliğini nasıl tasarlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "MFA ve rate limit ile login’i sertleştirin, RBAC ile yetkileri sınırlandırın. Formlarda doğrulama/CSRF, admin panelde erişim kısıtı ve log/alert kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B siteleri için güvenlik checklist’i nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde rezervasyon/ödeme ve admin panel; B2B’de portal/raporlama ve doküman erişimi önceliklidir. OWASP + auth + form/upload + log/alert seti temel checklist’tir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek",
+
+      "name": "Geliştirici ve SEO İş Birliği: Web Projelerinde Teknik SEO’yu Sürece Dahil Etmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Developer–SEO Collaboration",
+
+        "Technical SEO",
+
+        "URL Planning",
+
+        "Schema",
+
+        "Hreflang",
+
+        "Core Web Vitals",
+
+        "Release QA"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#article",
+
+      "headline": "Geliştirici ve SEO İş Birliği: Web Projelerinde Teknik SEO’yu Sürece Dahil Etmek",
+
+      "description": "Teknik SEO’yu proje başında dev sürecine dahil edin: URL/IA, CWV, schema ve hreflang’ı birlikte planlayın. Release öncesi QA checklist + workflow örnekleri.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#howto",
+
+      "name": "Teknik SEO’yu Dev Sürecine Dahil Etme",
+
+      "description": "Kickoff gereksinimleri, planlama ve release öncesi SEO QA gate ile launch-safe web sitesi üretme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dev–SEO kickoff ve gereksinim toplama",
+
+          "text": "URL/IA, CWV hedefleri, schema ve hreflang gereksinimlerini proje başında tek dokümana yaz ve sahiplikleri belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "URL/head/schema planını kilitle",
+
+          "text": "URL ve breadcrumb standardını finalize et; meta şablonları ve schema setini sayfa tiplerine göre planla; (varsa) hreflang kurallarını ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Release öncesi SEO QA gate işlet",
+
+          "text": "Staging’de robots/sitemap/canonical/hreflang, schema validasyonu, CWV ölçümü ve 404/301 zincir kontrolünü yap; bulguları backlog’a yaz."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Dev–SEO İş Birliği", "item": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Geliştirici ve SEO ekipleri web projelerinde nasıl birlikte çalışmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Proje başında ortak kickoff yapıp URL/IA, CWV hedefleri, schema ve hreflang gereksinimlerini yazılı hale getirmelidir. Release öncesi teknik SEO QA kapısı ile staging’de doğrulama yapılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teknik SEO gereksinimleri projeye ne zaman dahil edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En erken aşamada, kickoff’ta. Çünkü URL, render stratejisi, schema ve hreflang gibi kararlar kodla birlikte şekillenir; sonradan eklemek pahalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Release öncesi teknik SEO QA checklist’i neler içermeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "robots/sitemap, canonical/hreflang, status code taraması (404/301 zinciri), schema doğrulama, CWV ölçümü ve breadcrumb/iç link kontrolleri minimum settir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projeleri için dev–SEO iş akışı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde destinasyon/oda siloları ve CWV kritik; B2B’de hizmet/case/kaynaklar kurgusu ve lead ölçümü kritik olur. Her iki modelde de kickoff dokümanı + QA gate zorunlu olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
 }
     },
 

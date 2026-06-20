@@ -456,7 +456,11 @@ export const BLOG_MAP = {
     "ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops":"BlogCiCdVeDeploymentStratejisiNextjsKurumsalSitelerIcinDevops",
     "cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim":"BlogCmsMiHeadlessCmsMiKurumsalWebSitesiIcinDogruSecim",
     "bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi":"BlogBilgiMimarisiVeSiteHaritasiKurumsalWebSitesiIcinIaStratejisi",
-    "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":"BlogIcerikTasimaStratejisiEskiWebSitedenYeniNextjsSiteyeGecis"
+    "icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis":"BlogIcerikTasimaStratejisiEskiWebSitedenYeniNextjsSiteyeGecis",
+    "gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin":"BlogGorselStratejisiVeMedyaYonetimiKurumsalVeOtelWebSiteleriIcin",
+    "web-site-governance-style-guide-ve-degisiklik-yonetimi":"BlogWebSiteGovernanceStyleGuideVeDegisiklikYonetimi",
+    "security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme":"BlogSecurityByDesignKurumsalWebSitelerindeGuvenlikOdakliGelistirme",
+    "gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek":"BlogGelistiriciVeSeoIsBirligiWebProjelerindeTeknikSeoYuSureceDahilEtmek"
   },
    
   creative: {

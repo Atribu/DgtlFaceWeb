@@ -44197,6 +44197,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "Knowledge base teslim paketi, wiki şeması ve doküman seti, DGTLFACE",
       caption: "Knowledge base teslim paketi, wiki şeması ve doküman seti, DGTLFACE"
     }
+  },
+
+
+   "gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin":{
+     banner: {
+      src: "/images/blog/software/Software1-14/Software1-14-1.webp",
+      alt: "Görsel Stratejisi ve Medya Yönetimi: Kurumsal ve Otel Web Siteleri İçin",
+      caption: "Görsel Stratejisi ve Medya Yönetimi: Kurumsal ve Otel Web Siteleri İçin"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-14/Software1-14-2.webp",
+      alt: "Görsel optimizasyon ve DAM bağlamı, kurumsal sitede sürdürülebilir medya yönetimi",
+      caption: "Görsel optimizasyon ve DAM bağlamı, kurumsal sitede sürdürülebilir medya yönetimi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-14/Software1-14-3.webp",
+    alt: "Görsel stratejisinin önemi bölüm ayırıcı, otel deneyimi ve site hızını dengeleme",
+      caption: "Görsel stratejisinin önemi bölüm ayırıcı, otel deneyimi ve site hızını dengeleme"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-14/Software1-14-4.webp",
+      alt: "DAM ve medya kütüphanesi bölüm ayırıcı, dağınık klasör kaosunu önleme",
+      caption: "DAM ve medya kütüphanesi bölüm ayırıcı, dağınık klasör kaosunu önleme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-14/Software1-14-5.webp",
+      alt: "Görsel optimizasyon akış diyagramı, WebP ve responsive görüntü ile otel sitesini hızlandırma",
+      caption: "Görsel optimizasyon akış diyagramı, WebP ve responsive görüntü ile otel sitesini hızlandırma"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-14/Software1-14-6.webp",
+      alt: "Görsel strateji ve DAM checklist kartı, otel ve B2B medya yönetimini standardize etme",
+      caption: "Görsel strateji ve DAM checklist kartı, otel ve B2B medya yönetimini standardize etme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-14/Software1-14-7.webp",
+      alt: "Medya performansı KPI kartı, sayfa hızı ve içerik güncelleme hızını artırma",
+      caption: "Medya performansı KPI kartı, sayfa hızı ve içerik güncelleme hızını artırma"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-14/Software1-14-8.webp",
+      alt: "DAM yapısı ve optimizasyon deliverables kanıt kartı, kurumsal web medya yönetimi",
+      caption: "DAM yapısı ve optimizasyon deliverables kanıt kartı, kurumsal web medya yönetimi"
+    }
+  },
+
+  "web-site-governance-style-guide-ve-degisiklik-yonetimi":{
+    banner: {
+      src: "/images/blog/software/Software1-15/Software1-15-1.webp",
+      alt: "Style guide ve değişiklik yönetimi bağlam görseli, kontrollü güncelleme süreci",
+      caption: "Style guide ve değişiklik yönetimi bağlam görseli, kontrollü güncelleme süreci"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-15/Software1-15-2.webp",
+      alt: "Görsel optimizasyon ve DAM bağlamı, kurumsal sitede sürdürülebilir medya yönetimi",
+      caption: "Görsel optimizasyon ve DAM bağlamı, kurumsal sitede sürdürülebilir medya yönetimi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-15/Software1-15-3.webp",
+    alt: "Governance neden gerekli bölüm ayırıcı, otel zincirinde tutarlılığı koruma",
+      caption: "Governance neden gerekli bölüm ayırıcı, otel zincirinde tutarlılığı koruma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-15/Software1-15-4.webp",
+      alt: "Change management süreci bölüm ayırıcı, kurumsal sitede kontrollü evrim",
+      caption: "Change management süreci bölüm ayırıcı, kurumsal sitede kontrollü evrim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-15/Software1-15-5.webp",
+      alt: "Web governance organizasyon ve onay akışı diyagramı, otel zinciri ve B2B rol modeli",
+      caption: "Web governance organizasyon ve onay akışı diyagramı, otel zinciri ve B2B rol modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-15/Software1-15-6.webp",
+      alt: "Style guide başlangıç checklist kartı, otel ve B2B web sitesi tutarlılığı",
+      caption: "Style guide başlangıç checklist kartı, otel ve B2B web sitesi tutarlılığı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-15/Software1-15-7.webp",
+      alt: "Change yönetimi KPI kartı, revizyon sayısı ve canlı hata riskini azaltma",
+      caption: "Change yönetimi KPI kartı, revizyon sayısı ve canlı hata riskini azaltma"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-15/Software1-15-8.webp",
+      alt: "Governance deliverables kanıt kartı, otel ve B2B’de kontrollü site yönetimi",
+      caption: "Governance deliverables kanıt kartı, otel ve B2B’de kontrollü site yönetimi"
+    }
+  },
+
+  "security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme":{
+    banner: {
+      src: "/images/blog/software/Software1-16/Software1-16-1.webp",
+      alt: "Security by Design: Kurumsal Web Sitelerinde Güvenlik Odaklı Geliştirme",
+      caption: "Security by Design: Kurumsal Web Sitelerinde Güvenlik Odaklı Geliştirme"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-16/Software1-16-2.webp",
+      alt: "OWASP riskleri ve güvenlik katmanları bağlamı, kurumsal site hardening",
+      caption: "OWASP riskleri ve güvenlik katmanları bağlamı, kurumsal site hardening"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-16/Software1-16-3.webp",
+    alt: "Security by design temel prensipler bölüm ayırıcı, otel ve B2B risk azaltma",
+      caption: "Security by design temel prensipler bölüm ayırıcı, otel ve B2B risk azaltma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-16/Software1-16-4.webp",
+      alt: "Change management süreci bölüm ayırıcı, kurumsal sitede kontrollü evrim",
+      caption: "Change management süreci bölüm ayırıcı, kurumsal sitede kontrollü evrim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-16/Software1-16-5.webp",
+      alt: "Katmanlı güvenlik mimarisi diyagramı, kimlik doğrulama ve admin panel koruması",
+      caption: "Katmanlı güvenlik mimarisi diyagramı, kimlik doğrulama ve admin panel koruması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-16/Software1-16-6.webp",
+      alt: "OWASP tabanlı web güvenlik checklist kartı, otel ve B2B go-live kontrolü",
+      caption: "OWASP tabanlı web güvenlik checklist kartı, otel ve B2B go-live kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-16/Software1-16-7.webp",
+      alt: "Güvenlik bulguları ve risk azaltma KPI kartı, kurumsal web güvenliği",
+      caption: "Güvenlik bulguları ve risk azaltma KPI kartı, kurumsal web güvenliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-16/Software1-16-8.webp",
+      alt: "Güvenlik hardening deliverables kanıt kartı, admin panel ve form koruması",
+      caption: "Güvenlik hardening deliverables kanıt kartı, admin panel ve form koruması"
+    }
+  },
+
+  "gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek":{
+    banner: {
+      src: "/images/blog/software/Software1-17/Software1-17-1.webp",
+      alt: "Geliştirici ve SEO İş Birliği: Web Projelerinde Teknik SEO’yu Sürece Dahil Etmek",
+      caption: "Geliştirici ve SEO İş Birliği: Web Projelerinde Teknik SEO’yu Sürece Dahil Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-17/Software1-17-2.webp",
+      alt: "Teknik SEO gereksinim planlama bağlamı, URL ve schema kararlarını baştan kilitleme",
+      caption: "Teknik SEO gereksinim planlama bağlamı, URL ve schema kararlarını baştan kilitleme"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-17/Software1-17-3.webp",
+    alt: "Dev–SEO iş birliği önemi bölüm ayırıcı, otel ve B2B’de pahalı SEO hatalarını önleme",
+      caption: "Dev–SEO iş birliği önemi bölüm ayırıcı, otel ve B2B’de pahalı SEO hatalarını önleme"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-17/Software1-17-4.webp",
+      alt: "Release öncesi SEO QA bölüm ayırıcı, kontrollü yayına alma",
+      caption: "Release öncesi SEO QA bölüm ayırıcı, kontrollü yayına alma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-17/Software1-17-5.webp",
+      alt: "Dev–SEO iş akışı diyagramı, brief’ten QA’ya teknik SEO entegrasyonu",
+      caption: "Dev–SEO iş akışı diyagramı, brief’ten QA’ya teknik SEO entegrasyonu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-17/Software1-17-6.webp",
+      alt: "Teknik SEO QA checklist kartı, otel ve B2B release öncesi kontrol",
+      caption: "Teknik SEO QA checklist kartı, otel ve B2B release öncesi kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-17/Software1-17-7.webp",
+      alt: "Release sonrası SEO revizyon maliyeti ve risk KPI kartı, launch-safe web projeleri",
+      caption: "Release sonrası SEO revizyon maliyeti ve risk KPI kartı, launch-safe web projeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-17/Software1-17-8.webp",
+      alt: "Dev–SEO kickoff ve QA deliverables kanıt kartı, otel ve B2B teknik SEO süreci",
+      caption: "Dev–SEO kickoff ve QA deliverables kanıt kartı, otel ve B2B teknik SEO süreci"
+    }
   }
   
 };

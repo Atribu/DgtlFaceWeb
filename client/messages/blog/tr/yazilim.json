@@ -18549,7 +18549,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İlk adım: 10 kullanıcı görevi yaz (otel: oda/teklif/konum; B2B: hizmet/case/teklif)",
               "Her görev için “hedef sayfa” belirle (tek doğru sayfa)",
@@ -18612,7 +18612,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Top-level menüyü 5–7 görev başlığına indir",
               "Mega menü kullanacaksan “silo başına 6–10 link” sınırı koy",
@@ -18674,7 +18674,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "URL standardını yazılı hale getir (slug kuralı dahil)",
               "Breadcrumb’ı her sayfada aynı mantıkla üret",
@@ -18788,7 +18788,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Otel: oda/teklif/destinasyon silolarını ayır; “rezervasyon”u sabit CTA yap",
               "B2B: kaynakları ayrı silo yap; case study’yi hizmet sayfalarıyla bağla",
@@ -18842,7 +18842,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Her silo için bir hub sayfa belirle ve menüye koy",
               "Child sayfalardan hub’a ve sibling sayfalara link planı çıkar",
@@ -18891,7 +18891,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "IA workshop’u proje kickoff’una koy",
               "Sitemap v1’i canlıya çıkmadan finalize et",
@@ -19266,7 +19266,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Kickoff’ta “migration scope”u yaz (URL, içerik, medya)",
               "301 planını go-live’dan önce tamamla ve staging’de test et",
@@ -19329,7 +19329,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Envanteri sayfa türlerine göre filtrele (kritik 100 sayfa)",
               "Trafik alan sayfalara “koru” önceliği ver",
@@ -19391,7 +19391,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "En çok trafik alan 50 URL için bire bir redirect’i “zorunlu” yap",
               "404 raporunu go-live sonrası ilk 72 saatte günlük kontrol et",
@@ -19483,7 +19483,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "IA mapping’i redirect planıyla birlikte yürüt (aynı doküman)",
               "Hub sayfaları belirle ve internal link planı çıkar",
@@ -19544,7 +19544,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Go-live öncesi “SEO smoke test” çalıştır (robots/sitemap/canonical)",
               "Go-live sonrası ilk 14 gün günlük; sonraki 14 gün haftalık kontrol planla",
@@ -19612,7 +19612,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Baseline export’u (GSC + GA4) go-live’dan önce al",
               "72 saat: günlük 404+GSC kontrolü",
@@ -19799,6 +19799,2619 @@
           "Teknik SEO smoke test: robots/sitemap/canonical/hreflang/critical URL kontrolü",
           "KPI seti: organik trafik değişimi, 404/soft-404, indekslenen URL sayısı, GSC klik/pozisyon, dönüşüm",
           "Baseline export: GA4 + Search Console go-live öncesi alınmalı"
+        ]
+      }
+    }
+  },
+
+   "BlogGorselStratejisiVeMedyaYonetimiKurumsalVeOtelWebSiteleriIcin": {
+    "title": "Görsel Stratejisi ve DAM: Otel Web Siteleri",
+    "slug": "gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "20 Haziran 2026",
+    "publishedAt": "2026-06-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve kurumsal sitede görsel/video seçimini, WebP–responsive img optimizasyonunu ve merkezi DAM kütüphanesini kurun. Hız, SEO ve içerik güncelleme hızını artırın.",
+    "seo": {
+      "metaTitle": "Görsel Stratejisi ve DAM: Otel Web Siteleri | DGTLFACE",
+      "metaDescription": "Otel ve kurumsal sitede görsel/video seçimini, WebP–responsive img optimizasyonunu ve merkezi DAM kütüphanesini kurun. Hız, SEO ve içerik güncelleme hızını artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “performans + sürdürülebilir içerik üretimi” katmanını güçlendiren otorite child rolündedir: görseli sadece “güzel görünüm” değil, visual performance + content velocity + centralized assets (DAM) olarak konumlandırır. Hedef persona otel sahibi / satış–pazarlama müdürü / ajans yöneticisi; funnel’da MoFu (taktik rehber) olup doğrudan ölçülebilir çıktıya (hız, içerik güncelleme hızı, tekrar kullanım) bağlanır. Ana iş sorusu: Otel ve B2B sitelerinde görsel/video seçimini, format–boyut optimizasyonunu ve DAM kütüphanesini nasıl kurarım ki site hızlansın, yönetim kolaylaşsın ve SEO sinyali güçlensin? Bu yazı, “dağınık klasör” kaosunu engelleyen bir görsel strateji modeli sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Görsel stratejisi ve medya yönetimi; siteyi sadece “güzel” değil, hızlı, anlaşılır ve sürdürülebilir kılan kritik katmandır. Doğru fotoğraf/video seçimi, format–boyut optimizasyonu (WebP, responsive img), anlamlı dosya adı ve alt metin; performans ve SEO’yu güçlendirir. Merkezi bir medya kütüphanesi (DAM) ise otel ve B2B projelerinde içerik güncelleme hızını artırır, tekrar yüklemeleri azaltır ve ekiplerin aynı varlıkları tutarlı kullanmasını sağlar.",
+      "sgeSummary": "Görseli hızlandırmak için: doğru format (WebP), doğru boyut (responsive), doğru anlam (alt metin) ve merkezi DAM. Böylece site ağırlaşmaz, ekip görsel bulma/uyarlama süresini kısaltır.",
+      "voiceAnswer": "Siteniz ağırsa görselleri WebP’ye çevirin, responsive boyutlandırın ve DAM ile merkezi yönetin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel pazarlama, ajans kreatif/teknik ekip, B2B içerik yöneticisi, ürün/UX",
+        "KPI: LCP (hero görsel), sayfa ağırlığı, medya tekrar kullanım oranı, içerik yayına alma süresi, görsel arama/uyarlama süresi",
+        "Entity set: Image strategy, WebP, responsive images, alt text, file naming, DAM, media library, video optimization",
+        "GEO: Türkiye geneli; yoğun görsel kullanan otel ve kurumsal B2B siteleri",
+        "Funnel: MoFu (uygulanabilir rehber) → hız/operasyon kazanımı",
+        "Risk alanları: Oversized görseller, dağınık klasörler, kopya upload, alt metin yokluğu, yanlış video embed",
+        "Çıktı: DAM klasör şeması + optimize görsel örnekleri + checklist + şablon"
+      ]
+    },
+    "h1": {
+      "title": "Görsel Stratejisi ve Medya Yönetimi: Kurumsal ve Otel Web Siteleri İçin",
+      "intro": "Otel ve kurumsal B2B sitelerinde görsel, çoğu zaman “en güçlü satış argümanı” ve aynı zamanda “en büyük performans riski”dir. Otelde oda/konsept fotoğrafları, restoran ve etkinlik görselleri; B2B’de ekip, ürün, dashboard ve case görselleri kullanıcı kararını hızlandırır. Ama görseller optimize edilmezse site ağırlaşır; optimize edilip doğru yönetilmezse ekipler “hangi görsel nerede?” kaosuna düşer. Bu rehber, visual performance (format/boyut) ve content velocity (DAM ile sürdürülebilir yönetim) hedeflerini aynı modelde birleştirir; SEO için alt metin ve dosya adlandırmayı da standardize eder.",
+      "quickSummary": [
+        "1) Kritik görsel setini belirle: hero + kart + galeri",
+        "2) WebP ve responsive img ile format–boyut optimizasyonu yap",
+        "3) Hero görselini LCP hedefiyle yönet",
+        "4) DAM klasör yapısı ve tek kaynak gerçek kuralı kur",
+        "5) Dosya adı + alt metin standardını SEO ve operasyon için kilitle"
+      ],
+      "ctaPrimary": {
+        "label": "Görsel Stratejisi & Medya Yönetimi Analizi Talep Et",
+        "text": "Sitenizin görsel/video envanterini çıkarıp WebP–responsive optimizasyon ve DAM yapısıyla hız ve içerik yönetimini birlikte iyileştirelim (otel & B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Görsel Stratejisi & Medya Yönetimi Analizi Talep Et",
+        "text": "Görsel/video envanterinizi çıkarıp WebP–responsive optimizasyon ve DAM düzeniyle hız ve içerik yönetimini birlikte iyileştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Görsel & Medya Kütüphanesi (DAM) Yapı & Optimizasyon Şablonunu İndir",
+        "text": "Klasör standardı, dosya adı/alt metin kuralı ve WebP–responsive planıyla ekipte tek düzen kurarsınız.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Hız, CWV ve Index Temeli",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "title": "Video Prodüksiyon ile Web Sitesinde Güven ve Dönüşüm Nasıl Artar?",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "title": "Grafik & Motion Tasarım ile Kurumsal Web Deneyimi Nasıl Güçlenir?",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "gorsel-stratejisi-neden-onemli",
+        "title": "Görsel Stratejisi Neden Önemli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Görsel stratejisi; “hangi görseli seçelim?” sorusunu “hangi görsel hedefi çözer?” sorusuna çevirir. İyi bir strateji üç işi aynı anda yapar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kullanıcıya doğru mesajı hızlı verir (anlam),",
+              "Sayfayı ağırlaştırmaz (performans),",
+              "Ekiplerin içerik üretimini hızlandırır (operasyon)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "Birçok projede görsel yönetimi proje ilerledikçe dağınık klasörlere dönüşür; aynı görsel farklı boyutlarda defalarca yüklenir, alt metinler unutulur, yeni kampanya geldiğinde “doğru dosyayı bulma” saatler alır. Merkezi DAM + standart isimlendirme bu kaosu büyük ölçüde önler."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hero ve oda/ürün görselleri performans KPI’ı olarak takip ediliyor mu?",
+              "Aynı görselin 3 farklı kopyası var mı (duplicate)?",
+              "Görsel üretim ve güncelleme süresi ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kritik görsel seti”ni belirle (hero + kart + galeri)",
+              "Performans hedefi koy: LCP’ye etki eden görseli optimize et",
+              "DAM olmadan yeni kampanya açmama kuralı koy (en azından klasör standardı)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "fotograf-ve-video-secimi",
+        "title": "Fotoğraf ve Video Seçimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Seçim aşamasında amaç “en güzel” değil, “en doğru” görseli seçmektir. Otel sitesinde gerçek mekânı net gösteren fotoğraf, kullanıcı güvenini artırır; B2B’de ürün/dashboards’ı doğru anlatan görseller karar süresini kısaltır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için görsel senaryo setleri (oda–restoran–etkinlik–destinasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda seti: 5–8 çekirdek kare (geniş, detay, banyo, manzara)",
+              "Restoran: menü/atmosfer/servis",
+              "Etkinlik: düğün, toplantı salonu, konferans",
+              "Destinasyon: Antalya/Belek/Side/Kemer/Bodrum gibi çevre deneyimleri (spam değil, rehberleyici)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için görsel senaryo setleri (ekip–ürün–dashboard–case)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün: problem→özellik→çıktı kurgusu",
+              "Dashboard: okunabilir ekran görüntüsü (blur varsa açıklama)",
+              "Case: önce/sonra, KPI paneli (abartısız)",
+              "Ekip: güven ve “kurumsal gerçeklik” sinyali"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Her sayfa türü için “çekirdek görsel seti” tanımlı mı?",
+              "Video gerçekten gerekli mi, yoksa LCP’yi mi bozuyor?",
+              "“Güven” için gerçek foto/video kullanılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: oda ve konsept setlerini standardize et (çekim brief’i)",
+              "B2B: dashboard görsellerinde okunabilirlik kuralı koy",
+              "Video kullanacaksan “poster + lazy load” yaklaşımını planla (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "format-ve-boyutlandirma",
+        "title": "Format ve Boyutlandırma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Görsel optimizasyonu iki sorunun cevabıdır: “Doğru format mı?” ve “Doğru boyut mu?” Web’de en sık yapılan hata: mobil kullanıcıya dev görsel göndermek."
+          },
+          {
+            "type": "h3",
+            "text": "WebP, responsive img ve video kullanımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WebP (ve mümkünse modern formatlar) ile dosya boyutu düşer.",
+              "Responsive images ile her cihaz kendi boyutunu alır.",
+              "Video için: kısa, amaçlı, poster’lı ve kontrollü embed."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Lazy-loading, kritik görseller ve LCP yönetimi"
+          },
+          {
+            "type": "p",
+            "text": "Her görseli lazy-load yapmak da hatadır. LCP öğesi (hero) genelde “kritik”tir; doğru yüklenmelidir. Galeriler ve sayfa altı görseller lazy-load ile hafifletilmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hero görseli “kritik” olarak ele alındı mı?",
+              "Mobilde gönderilen görsel boyutu gereksiz büyük mü?",
+              "Galeri ve kart görselleri lazy-load mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "LCP’yi etkileyen 3 sayfayı seç ve hero’yu optimize et",
+              "Responsive img standardı koy (kırpma/ratio dahil)",
+              "Video embed’lerinde “yüklenme kontrolü” uygula (poster + defer)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "medya-kutuphanesi-dam-yapisi",
+        "title": "Medya Kütüphanesi (DAM) Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DAM (Digital Asset Management), “bir klasör düzeni”nden fazlasıdır: görsellerin tek kaynak gerçek olarak saklandığı, etiketlendiği, versiyonlandığı ve yeniden kullanıldığı sistemdir. Kurumsal ekipler büyüdükçe DAM, içerik operasyonunu hızlandırır; ajans–müşteri ilişkisini de netleştirir (“en güncel dosya hangisi?” kavgasını bitirir)."
+          },
+          {
+            "type": "h3",
+            "text": "DAM klasör yapısı (pratik şablon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/brand/ (logo, ikon, brand kit)",
+              "/hotel/rooms/, /hotel/restaurant/, /hotel/events/, /hotel/destination/",
+              "/b2b/product/, /b2b/dashboard/, /b2b/team/, /b2b/case/",
+              "/campaigns/YYYY-MM/",
+              "/exports/webp/, /exports/social/"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Alt metin ve dosya isimleri (SEO + operasyon)"
+          },
+          {
+            "type": "p",
+            "text": "Alt metin ve dosya adı, sadece SEO değil; arama ve tekrar kullanım için de hayat kurtarır. Standart koymazsanız DAM de dağılır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dosya adı: konu + bağlam + varyant (kısa ve tutarlı)",
+              "Alt metin: “konu + amaç + otel bağlamı” (spam değil)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "DAM’de “tek kaynak gerçek” var mı, yoksa kopyalar mı dolaşıyor?",
+              "Klasör yapısı sayfa türleriyle uyumlu mu?",
+              "Versiyonlama ve onay süreci var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "DAM’i “kime hizmet ediyor?” sorusuyla kur (editör, tasarım, dev)",
+              "Klasör standardını yazılı hale getir ve 10 örnekle göster",
+              "Dosya adı + alt metin standardını zorunlu yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-gorsel-senaryolari",
+        "title": "Otel ve B2B İçin Görsel Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, stratejiyi “sayfa bazında” netleştirir: ana sayfa hero, kartlar, galeriler, ikonlar ve case görselleri hangi standartla yönetilecek?"
+          },
+          {
+            "type": "h3",
+            "text": "Ana sayfa hero (otel ve B2B farklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel hero: konsept + atmosfer; ama LCP’yi boğmayan boyut/format",
+              "B2B hero: problem/vaat + ürün görseli; okunabilirlik öncelik"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kart görselleri (oda/ürün/paket/plan)"
+          },
+          {
+            "type": "p",
+            "text": "Kartlar; listeler ve landing’lerde en çok görülen varlıklardır. Burada standardizasyon şart: ratio, kırpma, alt metin ve dosya adı."
+          },
+          {
+            "type": "h3",
+            "text": "İkon ve illüstrasyonlar"
+          },
+          {
+            "type": "p",
+            "text": "İkonlar “hızlı anlam” verir ama tutarsız olursa marka dilini bozar. Design system ile uyum (Varsayım) idealdir: ikon seti + stroke kalınlığı + renk kuralı."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Medya kütüphanesi olan projelerde, yeni sayfa ve kampanyalar için görsel bulma/uyarlama süresi ciddi şekilde kısalıyor; aynı zamanda gereksiz tekrar yüklemeler azalıyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kart görsellerinde tek ratio standardı var mı?",
+              "Hero görseli LCP hedefiyle uyumlu mu?",
+              "İkon seti brand ile tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Hero / Card / Gallery” için 3 ratio standardı belirle",
+              "Otel: oda setlerini ve destinasyon setlerini DAM’e bağla",
+              "B2B: ürün/dash/case görsellerini “kullanım senaryosu” etiketiyle yönet"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Görsel Stratejisi & Medya Yönetimi Analizi Talep Et",
+            "text": "Görsel envanterinizi çıkarıp performans optimizasyonu + DAM düzeniyle hız ve içerik yönetimini iyileştirelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "gorsel-optimizasyon-matrisi",
+        "title": "Görsel Optimizasyon Matrisi (Özet)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo – Görsel Optimizasyon Matrisi (Özet)",
+            "headers": [
+              "Kullanım",
+              "Hedef",
+              "Format",
+              "Boyut/Oran",
+              "Alt Metin Kuralı"
+            ],
+            "rows": [
+              [
+                "Hero",
+                "LCP’yi düşürmek",
+                "WebP",
+                "16:9",
+                "Konsept + amaç"
+              ],
+              [
+                "Kart",
+                "Liste hızını korumak",
+                "WebP",
+                "1:1 / 4:3",
+                "Oda/ürün + fark"
+              ],
+              [
+                "Galeri",
+                "Hafif gezinme",
+                "WebP",
+                "4:3",
+                "Mekân + detay"
+              ],
+              [
+                "Doküman görseli",
+                "Okunabilirlik",
+                "PNG/WebP",
+                "16:9",
+                "Doküman + konu"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gorsel-medya-kutuphanesi-dam-sablonu",
+        "title": "Görsel & Medya Kütüphanesi (DAM) Yapı & Optimizasyon Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Görsel & Medya Kütüphanesi (DAM) Yapı & Optimizasyon Şablonunu İndir — Yazılım / Medya Yönetimi (v1.0)",
+            "purpose": "Bu şablon, otel ve kurumsal B2B sitelerinde görsel/video varlıklarını merkezi bir DAM yapısında toplamak, klasör/etiket standardı kurmak ve WebP–responsive optimizasyon planını uygulamak için hazırlanmıştır. Amaç; site hızını artırırken görsel bulma/uyarlama süresini kısaltmak ve tekrar yüklemeleri azaltmaktır. SEO için dosya adı ve alt metin standardı da aynı dokümanda kilitlenir.",
+            "whoFor": "İçerik editörü, kreatif ekip, web geliştirici, SEO/performance, ajans PM.",
+            "steps": [
+              "Mevcut görsel/video envanterini çıkarıp DAM klasörlerine göre yeniden sınıflandırın.",
+              "Dosya adı + alt metin standardını uygulayın ve format/boyut optimizasyon hedeflerini belirleyin.",
+              "14 günlük sprint planıyla hero/kart/galeri önceliğinde dönüşümü tamamlayın, KPI’ları izleyin."
+            ],
+            "template": [
+              {
+                "title": "1) Envanter Özeti",
+                "items": [
+                  "Site tipi: [ ] Otel [ ] B2B [ ] Hibrit",
+                  "Toplam medya sayısı (tahmini): ____",
+                  "En kritik 20 sayfa (hero/kart/galeri): ____________________"
+                ]
+              },
+              {
+                "title": "2) DAM Klasör Yapısı (Seçim)",
+                "items": [
+                  "/brand/ (logo, ikon, kit)",
+                  "/hotel/rooms/ /hotel/restaurant/ /hotel/events/ /hotel/destination/",
+                  "/b2b/product/ /b2b/dashboard/ /b2b/team/ /b2b/case/",
+                  "/campaigns/YYYY-MM/",
+                  "/exports/webp/ /exports/social/",
+                  "Notlar: _______________________________________________"
+                ]
+              },
+              {
+                "title": "3) Dosya Adı Standardı",
+                "items": [
+                  "Şablon: {konu}-{sayfa-turu}-{varyant}-{boyut}",
+                  "Örnek: aile-odasi-room-card-1x1.webp",
+                  "Kural notu: _____________________________________________"
+                ]
+              },
+              {
+                "title": "4) Alt Metin Standardı",
+                "items": [
+                  "Şablon: “{konu} + {amaç} + {otel bağlamı}” (10–16 kelime)",
+                  "Örnek: “Aile odası geniş iç mekân fotoğrafı, Antalya resort konaklama deneyimi”",
+                  "Kural notu: _____________________________________________"
+                ]
+              },
+              {
+                "title": "5) Optimizasyon Planı (Hedefler)",
+                "items": [
+                  "Hero: format ____ / max KB ____ / ratio 16:9",
+                  "Card: format ____ / max KB ____ / ratio ____",
+                  "Gallery: format ____ / lazy-load ____",
+                  "Video: poster ____ / autoplay ____ / embed kontrol ____"
+                ]
+              },
+              {
+                "title": "6) Etiketleme / Metadata (Opsiyonel)",
+                "items": [
+                  "Tag seti: oda/konsept/season/kanal/ülke: __________________",
+                  "Lisans & kullanım hakkı notu: _____________________________"
+                ]
+              }
+            ],
+            "rules": [
+              "Önce “kritik sayfalar”ı belirleyin; her şeyi aynı anda optimize etmeyin.",
+              "Hero görselini LCP hedefiyle ele alın; önce onu küçültün ve WebP’ye alın.",
+              "Kart ve galeri için ratio standardı koyun; kırpma tutarlı olsun.",
+              "DAM’de tek kaynak gerçek kuralı uygulayın; kopya yüklemeyi engelleyin.",
+              "Dosya adı + alt metin standardını zorunlu yapın; arama ve SEO kazanımı buradan gelir."
+            ],
+            "example": [
+              "Otel /rooms/ klasörü: her oda için 8 çekirdek foto + 3 varyant",
+              "Hero: konsept-hero-16x9.webp, alt metin: “Denize sıfır resort atmosferi, Belek tatil deneyimi”",
+              "Card: 1:1 standardı; tüm oda kartları aynı kırpma"
+            ],
+            "checklist": [
+              "DAM klasör standardı yazılı",
+              "Tek kaynak gerçek kuralı uygulandı",
+              "Hero/kart/galeri ratio standardı belirlendi",
+              "WebP + responsive planı hazır",
+              "Alt metin ve dosya adı standardı zorunlu",
+              "Video embed performans kuralı var"
+            ],
+            "deliverables": [
+              "DAM klasör şeması (diyagram)",
+              "20 kritik sayfa için medya optimizasyon listesi",
+              "Dosya adı + alt metin sözlüğü",
+              "Export preset’leri (webp/social)",
+              "Buraya: DAM klasör şeması görseli",
+              "Buraya: Optimize görsel mockup’ı (boyut + alt metin örneği)"
+            ],
+            "href": "/downloads/gorsel-medya-kutuphanesi-dam-yapi-optimizasyon-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Görsel stratejisi hız, SEO ve içerik operasyonunu aynı anda yönetir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Görsel stratejisi ve medya yönetimi, otel ve kurumsal B2B sitelerinde sadece tasarım kalitesini değil; performans, SEO ve içerik üretim hızını da etkiler. Doğru fotoğraf/video seçimi, WebP–responsive optimizasyon, LCP odaklı hero yönetimi ve merkezi DAM düzeni birlikte çalıştığında site hem daha hızlı hem de daha sürdürülebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu model; “hangi görsel nerede?” kaosunu azaltır, tekrar yüklemeleri önler, ekiplerin aynı varlıkları tutarlı kullanmasını sağlar ve görsel arama/uyarlama süresini kısaltır. Özellikle otel ve yoğun görsel kullanan B2B sitelerinde, görsel yönetimini proje sonu işi değil; web sitesi geliştirme sürecinin temel katmanı olarak ele almak gerekir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Görsel Stratejisi & Medya Yönetimi Analizi Talep Et",
+            "text": "Görsel/video envanterinizi çıkarıp WebP–responsive optimizasyon ve DAM düzeniyle hız ve içerik yönetimini birlikte iyileştirelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Görsel & Medya Kütüphanesi (DAM) Yapı & Optimizasyon Şablonunu İndir",
+            "text": "Klasör standardı, dosya adı/alt metin kuralı ve WebP–responsive planıyla ekipte tek düzen kurarsınız.",
+            "href": "/tr/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Görsel stratejisi web siteleri için neden önemlidir?",
+        "a": "Çünkü görseller hem karar verdirir hem de siteyi ağırlaştırabilir. Doğru strateji; performans, anlam ve sürdürülebilir yönetimi birlikte optimize eder."
+      },
+      {
+        "q": "Otel ve kurumsal sitelerde hangi görsellere öncelik vermeliyim?",
+        "a": "Otelde hero + oda/paket kartları + galeri; B2B’de hero + ürün/dashboard + case görselleri önceliklidir. En çok trafik alan sayfalardaki görseller her zaman ilk optimizasyon adayıdır."
+      },
+      {
+        "q": "WebP ve responsive img nasıl kullanılır?",
+        "a": "WebP ile dosya boyutunu düşürür, responsive images ile cihazın ihtiyacı kadar görsel gönderirsiniz. Hero görseli kritik, galeri ve alt sayfa görselleri ise lazy-load ile optimize edilmelidir."
+      },
+      {
+        "q": "Merkezi medya kütüphanesi (DAM) yapısını nasıl kurarım?",
+        "a": "Klasör standardını (brand/otel/b2b/kampanya) yazılı hale getirip tek kaynak gerçek kuralı koyun. Dosya adı ve alt metin standardı ile etiketleme yaparak tekrar kullanım ve arama hızını artırın."
+      },
+      {
+        "q": "Alt metin ve dosya adları SEO’yu etkiler mi?",
+        "a": "Evet; alt metin görselin anlamını arama motoruna ve erişilebilirlik araçlarına taşır. Dosya adı ise operasyonel aramayı ve içerik yönetimini kolaylaştırır; tutarlı standart şarttır."
+      },
+      {
+        "q": "Video kullanmak siteyi yavaşlatır mı?",
+        "a": "Kontrolsüz autoplay veya ağır embed’ler yavaşlatabilir. Poster kullanımı, defer/lazy load ve doğru platform seçimiyle video “amaçlı ve kontrollü” kullanılmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-hero-01.webp — alt text: “Görsel strateji kapak görseli, otel web sitesinde hız ve kalite dengesini kurma”",
+          "h1-context — 1920×1080 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-h1-context-02.webp — alt text: “Görsel optimizasyon ve DAM bağlamı, kurumsal sitede sürdürülebilir medya yönetimi”",
+          "divider-01 — 1600×1200 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-divider-03.webp — alt text: “Görsel stratejisinin önemi bölüm ayırıcı, otel deneyimi ve site hızını dengeleme”",
+          "divider-02 — 1600×1200 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-divider-04.webp — alt text: “DAM ve medya kütüphanesi bölüm ayırıcı, dağınık klasör kaosunu önleme”",
+          "diagram-05 — 1920×1080 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-diagram-05.webp — alt text: “Görsel optimizasyon akış diyagramı, WebP ve responsive görüntü ile otel sitesini hızlandırma”",
+          "checklist-06 — 1200×1200 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-checklist-06.webp — alt text: “Görsel strateji ve DAM checklist kartı, otel ve B2B medya yönetimini standardize etme”",
+          "kpi-07 — 1200×1200 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-kpi-07.webp — alt text: “Medya performansı KPI kartı, sayfa hızı ve içerik güncelleme hızını artırma”",
+          "proof-08 — 1200×1200 — gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin-proof-08.webp — alt text: “DAM yapısı ve optimizasyon deliverables kanıt kartı, kurumsal web medya yönetimi”",
+          "table-gorsel-optimizasyon-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Hero görsel LCP kontrolü",
+          "WebP ve responsive image standardı",
+          "Lazy-load / critical image ayrımı",
+          "Video embed performans kontrolü (poster + defer/lazy-load)",
+          "DAM klasör standardı ve tek kaynak gerçek kuralı",
+          "Dosya adı + alt metin standardı",
+          "Duplicate medya dosyası kontrolü",
+          "Görsel ratio standardı (Hero / Card / Gallery)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+  "BlogWebSiteGovernanceStyleGuideVeDegisiklikYonetimi": {
+    "title": "Web Site Governance ve Change Management",
+    "slug": "web-site-governance-style-guide-ve-degisiklik-yonetimi",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "20 Haziran 2026",
+    "publishedAt": "2026-06-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Style guide, rol-sorumluluk matrisi ve değişiklik onay süreciyle web sitenizi lansman sonrası da tutarlı yönetin. Otel/B2B governance modeli + checklist.",
+    "seo": {
+      "metaTitle": "Web Site Governance ve Change Management | DGTLFACE",
+      "metaDescription": "Style guide, rol-sorumluluk matrisi ve değişiklik onay süreciyle web sitenizi lansman sonrası da tutarlı yönetin. Otel/B2B governance modeli + checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “lansman sonrası sürdürülebilirlik” için otorite child rolündedir: siteyi sadece yayınlamak değil, uzun vadede kontrollü evrim ile yönetmek (governance + style guide + change management) odağındadır. Hedef persona otel zinciri/holding yöneticisi, ajans yöneticisi ve çok departmanlı B2B organizasyonlardır; funnel’da consideration aşamasında “nasıl kontrol ederim, kim neyi değiştirebilir?” kararlarını netleştirir. Ana iş sorusu: Web sitesini lansmandan sonra da tutarlı, güvenli ve yönetilebilir kılmak için style guide, rol/sorumluluk matrisi ve değişiklik onay sürecini nasıl kurarım? TR’de governance’ın “marka rehberi” ile sınırlı anlatılması competitor gap’tir; bu yazı web’e özel rol+process katmanını derinleştirir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi bir web projesi lansmanla bitmez; governance modeli olmayan siteler birkaç ay içinde stil, içerik ve teknik açıdan dağılır. Web site governance; style guide (içerik + tasarım), rol/sorumluluk tanımları ve değişiklik (change) yönetimi ile “kim neyi, nasıl, hangi ortamda” değiştireceğini netleştirir. Otel zincirleri ve çok departmanlı B2B organizasyonlarda bu model; tutarlılığı, güvenliği ve yayınların öngörülebilirliğini artırır; “kim neyi bozdu?” problemlerini azaltır.",
+      "sgeSummary": "Governance; style guide + rol matrisi + change request sürecidir. Kim değiştirir, kim onaylar, nasıl test edilir? Bu çerçeve otel/B2B sitelerinde dağınıklığı azaltır ve öngörülebilir yayın sağlar.",
+      "voiceAnswer": "Herkes kafasına göre değiştirmesin diye rol matrisi, style guide ve onaylı change süreci kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel zinciri dijital ekipleri, holding iletişim, ajans PM, B2B pazarlama/IT",
+        "KPI: Revizyon tur sayısı, stil/ton ihlali sayısı, canlı hata oranı, change lead time, rollback ihtiyacı",
+        "Entity set: Web governance, style guide, roles & responsibilities, change management, approval workflow, deployment discipline",
+        "GEO: Türkiye geneli; otel zincirleri ve çok departmanlı B2B organizasyonlar",
+        "Funnel: MoFu/Consideration (süreç kararı) → BoFu (bakım/destek ve kontrollü yayın)",
+        "Risk alanları: Yetkisiz değişiklik, farklı ton-of-voice, UI tutarsızlığı, kontrolsüz deploy, sorumluluk belirsizliği",
+        "Çıktı: Governance modeli + RACI + change request checklist + style guide tablosu"
+      ]
+    },
+    "h1": {
+      "title": "Web Site Governance: Style Guide ve Değişiklik Yönetimi",
+      "intro": "Bir web sitesi lansman gününde “en düzenli” halindedir. Sonra içerik istekleri gelir, kampanyalar başlar, farklı departmanlar “şunu da ekleyelim” der, ajanslar değişir, sayfalar çoğalır… Governance yoksa site birkaç ay içinde ton, tasarım ve teknik kalite açısından dağılmaya başlar. Otel zincirlerinde bu dağınıklık, farklı otel sayfalarında farklı dil ve farklı CTA’lar şeklinde görünür; B2B’de ise hizmet sayfaları ile blog arasında “kurumsal ses” kayar, UI tutarsızlaşır. Bu rehber, web governance’ı “marka rehberi”nin ötesine taşıyıp style guide + rol matrisi + change management olarak kurar: kim neyi hangi ortamda değiştirir, kim onaylar, ne zaman yayınlanır?",
+      "quickSummary": [
+        "1) Style guide ile içerik ve UI standardını netleştir",
+        "2) RACI ile kim neyin sahibi sorusunu cevapla",
+        "3) Küçük değişiklik ve büyük geliştirmeyi ayır",
+        "4) Change request sürecini tek kanala bağla",
+        "5) Staging, onay ve rollback disiplinini governance modeline ekle"
+      ],
+      "ctaPrimary": {
+        "label": "Web Site Governance & Süreç Analizi Talep Et",
+        "text": "Style guide, rol-sorumluluk matrisi ve değişiklik onay akışınızı otel/B2B yapınıza göre tasarlayıp kontrolü kalıcı hale getirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Web Site Governance & Süreç Analizi Talep Et",
+        "text": "Style guide, rol matrisi ve onay akışınızı netleştirip sitenizi lansman sonrası da kontrollü yönetin.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Web Style Guide & Değişiklik Yönetimi Süreç Şablonunu İndir",
+        "text": "Rol matrisi, onay akışı ve change request formunu tek dokümana koyup ekipte ortak çalışma standardı kurarsınız.",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "SMM Planlama & Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme Sürecinde Lansman Sonrası Bakım Neden Kritiktir?",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "title": "UI/UX Tasarım ile Kurumsal Web Deneyimi Nasıl Standardize Edilir?",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "title": "Planlama ve Strateji ile Çok Kanallı İçerik Yönetimi Nasıl Kurulur?",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-web-site-governance-gerekli",
+        "title": "Neden Web Site Governance Gerekli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Governance; sitenin “kafasına göre” büyümesini engelleyen yönetim çerçevesidir. Sorun “insanlar kötü niyetli” olduğu için değil; herkesin farklı hedefi olduğu için çıkar: satış hızlı kampanya ister, pazarlama görsel değiştirir, IT riskten kaçınır, ajans hızlı teslim eder. Governance, bu hedefleri tek bir sistemde hizalar: kurallar + roller + süreç."
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "TR’de governance çoğu zaman “marka rehberi” diye geçer; oysa web özelinde kritik katman change yönetimidir: “hangi değişiklik küçük, hangisi büyük; kim onaylar; hangi ortamda test edilir; nasıl geri alınır?” Bu katman olmadan marka rehberi tek başına dağınıklığı durduramaz."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Son 3 ayda “kim neyi bozdu?” problemi yaşandı mı?",
+              "Aynı tür sayfalarda (hizmet/blog/otel sayfası) farklı ton var mı?",
+              "Değişiklikler staging’den geçmeden prod’a gidiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Kurallar”ı style guide’a yaz, “süreç”i change yönetimine bağla",
+              "Küçük değişiklik ile büyük geliştirmeyi ayır (SLA gibi)",
+              "Yetkileri ortama göre sınırla (dev/staging/prod)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "style-guide-icerik-tasarim",
+        "title": "Style Guide (İçerik + Tasarım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Style guide iki parçadır: içerik stil rehberi ve UI/görsel stil kılavuzu. İkisi birlikte çalışmadığında, ya “güzel tasarım ama kötü dil” ya da “doğru dil ama tutarsız UI” ortaya çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik style guide (Ton of voice + yazım kuralları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ton: danışman/stratejist; net, sakin, güven veren",
+              "Başlıklar: kısa, vaadi net; gereksiz süs yok",
+              "CTA dili: tek aksiyon, net fayda",
+              "Yasaklı/kısıtlı ifadeler: (Varsayım) abartılı vaatler, belirsiz “en iyi” iddiaları",
+              "Otel/B2B terminoloji sözlüğü: oda, paket, teklif, demo, case vb."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "UI/görsel style guide (tasarım standardı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Renk paleti ve kontrast standardı",
+              "Tipografi ve spacing kuralları",
+              "Component kullanımı (button, card, form)",
+              "Görsel oranları (hero 16:9, card 1:1 vb.) (media stratejiyle uyum)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Style Guide Bölümleri (Özet)",
+            "headers": [
+              "Bölüm",
+              "Ne içerir?",
+              "Kim sahiplenir?",
+              "En sık hata"
+            ],
+            "rows": [
+              [
+                "Ton of Voice",
+                "dil, üslup, kelime sözlüğü",
+                "Pazarlama/iletişim",
+                "farklı departman dili"
+              ],
+              [
+                "Başlık/CTA standardı",
+                "başlık formatı, CTA kuralları",
+                "Pazarlama + UX",
+                "belirsiz CTA"
+              ],
+              [
+                "UI tokens",
+                "renk, tipografi, spacing",
+                "UX + FE",
+                "rastgele component"
+              ],
+              [
+                "Component kuralları",
+                "button/card/form varyantları",
+                "FE/Design system",
+                "varyant patlaması"
+              ],
+              [
+                "Görsel standardı",
+                "oran, alt metin, dosya adı",
+                "İçerik + Kreatif",
+                "dağınık medya"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Bu sayfayı kim yazıyor, kim onaylıyor?” net mi?",
+              "CTA ve başlıklar standart mı?",
+              "UI bileşenleri “tek kaynak”tan mı geliyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 sayfalık “mini style guide” ile başla; sonra genişlet",
+              "Tone-of-voice sözlüğünü 30 kelimeyle kilitle",
+              "UI bileşenlerini design system’e bağla (Varsayım: mevcut)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "rol-ve-sorumluluklar",
+        "title": "Rol ve Sorumluluklar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Governance’ın kalbi “kim neyin sahibi?” sorusudur. Rol tanımı yoksa onay akışı kilitlenir veya herkes her şeye dokunur. En pratik yaklaşım RACI’dir (Responsible/Accountable/Consulted/Informed)."
+          },
+          {
+            "type": "h3",
+            "text": "Kim neyi hangi ortamda değiştirebilir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik ekibi: metin ve medya güncelleme (staging onayıyla)",
+              "Pazarlama: kampanya sayfası brief ve onay",
+              "UX/UI: bileşen ve tasarım standardı",
+              "Dev/DevOps: teknik değişiklik ve deploy",
+              "SEO: URL/redirect/canonical/metadata kontrol"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel zinciri): Her otel sayfası “local owner”a sahip olabilir ama global ton ve UI kuralları merkezi ekipte kalır."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B holding): Her iş birimi içerik talep edebilir; ancak yayın onayı merkezi governance ile yürür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sayfa sahipliği (owner) tanımlı mı?",
+              "Teknik değişiklik ile içerik değişikliği ayrıldı mı?",
+              "“Acil değişiklik” prosedürü var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 sayfalık RACI çıkar ve herkese duyur",
+              "Ortam bazlı yetki ver: prod erişimini minimum tut",
+              "“Acil durum” ve “normal” değişiklik akışını ayır"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "degisiklik-change-surecleri-ve-onay-akisi",
+        "title": "Değişiklik (Change) Süreçleri ve Onay Akışı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Change management, “istekleri sıraya koyma ve güvenle yayınlama” disiplinidir. Burada kritik ayrım: küçük değişiklik (copy, görsel, CTA) vs büyük geliştirme (IA değişimi, yeni sayfa tipi, component değişimi). İkisi aynı süreçte yürürse ya hız kaybolur ya kalite düşer."
+          },
+          {
+            "type": "h3",
+            "text": "Web sitesinde değişiklikleri kim, nasıl onaylamalı?"
+          },
+          {
+            "type": "p",
+            "text": "İçerik değişikliklerinde sayfa sahibi + marka/iletişim onayı genelde yeterlidir; teknik değişikliklerde ise QA + DevOps onayı zorunludur. Büyük değişikliklerde (IA, component, ölçüm) SEO ve teknik ekip “consulted” olmalı; staging’de test edilmeden prod’a alınmamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik istek/brief süreci (tek form, tek kaynak)"
+          },
+          {
+            "type": "p",
+            "text": "İstekler e-posta/WhatsApp’ta dağılırsa governance çöker. Tek form: amaç, hedef sayfa, değişiklik türü, görsel, deadline, başarı ölçütü."
+          },
+          {
+            "type": "h3",
+            "text": "Küçük değişiklik vs büyük geliştirme ayrımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Küçük: metin düzeltme, görsel güncelleme, link",
+              "Orta: yeni landing, yeni blok, kampanya kurgusu",
+              "Büyük: IA değişimi, yeni component, CMS/mimari değişim"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Change request tek kanalda mı toplanıyor?",
+              "Her istek “başarı ölçütü” taşıyor mu?",
+              "Staging’de test rutini var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Change request formu + SLA tanımla (küçük/orta/büyük)",
+              "Staging’de “SEO + UX smoke test” zorunlu yap",
+              "Rollback planını her büyük değişiklikte yaz (Varsayım: CI/CD var)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Governance modeli kurulan projelerde “kim neyi bozdu?” problemleri ve stil/ton dağınıklığı belirgin ölçüde azalıyor; deployment’lar daha öngörülebilir ilerliyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-web-governance-ornekleri",
+        "title": "Otel ve B2B İçin Web Governance Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Governance modeli “tek beden” değildir; organizasyon yapınıza göre değişir. Ama prensip sabit: merkezi standart + yerel esneklik."
+          },
+          {
+            "type": "h3",
+            "text": "Otel zinciri modeli (merkez + otel bazlı içerik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Merkez ekip: UI/ton/SEO standartları, global sayfalar",
+              "Otel bazlı ekip: yerel kampanyalar, etkinlikler, duyurular",
+              "Ajans: üretim ve uygulama; governance ile uyumlu çalışır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B holding modeli (çok departman + merkezi onay)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Departmanlar: içerik talebi ve uzmanlık girdisi",
+              "Merkezi ekip: yayın onayı + style guide uyumu",
+              "Teknik ekip: staging/prod yayın disiplini"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Merkez–yerel ayrımı net mi?",
+              "Ajans/kurum rolleri sözleşmeye yazıldı mı?",
+              "Süreç dokümanı herkesin erişiminde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel zincirinde “global template + local content” modelini kur",
+              "B2B’de departman taleplerini tek backlog’da topla",
+              "Haftalık governance review ritmi belirle (30 dk)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Style Guide & Değişiklik Yönetimi Süreç Şablonunu İndir",
+            "text": "Rol matrisi, onay akışı ve change request formunu tek dokümana koyup ekipte ortak çalışma standardı kurarsınız.",
+            "href": "/tr/yazilim/bakim-ve-destek"
+          }
+        ]
+      },
+      {
+        "id": "web-style-guide-degisiklik-yonetimi-surec-sablonu",
+        "title": "Web Style Guide & Değişiklik Yönetimi Süreç Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Web Style Guide & Değişiklik Yönetimi Süreç Şablonunu İndir — Yazılım / Web Governance (v1.0)",
+            "purpose": "Bu şablon, web sitesini lansman sonrası da tutarlı yönetmek için style guide başlıklarını, rol/sorumluluk matrisini ve change request onay akışını tek dokümanda toplar. Otel zincirleri ve çok departmanlı B2B organizasyonlarda “dağınık güncelleme” riskini azaltır, yayınları öngörülebilir hale getirir. Ajans–kurum iş birliğinde tek kaynak gerçek oluşturur.",
+            "whoFor": "Kurumsal iletişim/pazarlama, UX/UI, teknik ekip, ajans PM ve içerik yöneticileri.",
+            "steps": [
+              "Style guide’ın minimum sürümünü (v1) doldurun ve örneklerle yayınlayın.",
+              "RACI rol matrisini çıkarıp ortam bazlı yetkileri netleştirin.",
+              "Change request formu ve onay akışını yürürlüğe alın; haftalık governance review ile güncel tutun."
+            ],
+            "template": [
+              {
+                "title": "1) Style Guide (İçerik)",
+                "items": [
+                  "Ton of voice: __________________________",
+                  "Yasaklı/kaçınılan ifadeler: ______________",
+                  "Başlık standardı (H1/H2): _______________",
+                  "CTA dili standardı: _____________________",
+                  "Otel/B2B terim sözlüğü: _________________"
+                ]
+              },
+              {
+                "title": "2) Style Guide (Tasarım/UI)",
+                "items": [
+                  "Renk paleti: ___________________________",
+                  "Tipografi scale: ________________________",
+                  "Spacing/radius: _________________________",
+                  "Component kuralları (button/form/card): __",
+                  "Görsel ratio standardı: __________________"
+                ]
+              },
+              {
+                "title": "3) Rol & Sorumluluklar (RACI)",
+                "items": [
+                  "Responsible: ___________________________",
+                  "Accountable: ___________________________",
+                  "Consulted: _____________________________",
+                  "Informed: ______________________________"
+                ]
+              },
+              {
+                "title": "4) Ortam Bazlı Yetki",
+                "items": [
+                  "Dev: kim erişir? ________",
+                  "Staging: kim onaylar? ____",
+                  "Prod: kim yayınlar? _______"
+                ]
+              },
+              {
+                "title": "5) Change Request Formu",
+                "items": [
+                  "Amaç: ____________________",
+                  "Değişiklik türü: [ ] küçük [ ] orta [ ] büyük",
+                  "Etkilenen sayfalar: _______",
+                  "İçerik/görsel dosyaları: ___",
+                  "Başarı ölçütü: ____________",
+                  "Deadline: ________________",
+                  "Onaylayanlar: _____________"
+                ]
+              },
+              {
+                "title": "6) Onay Akışı",
+                "items": [
+                  "Küçük değişiklik: ________",
+                  "Orta değişiklik: _________",
+                  "Büyük değişiklik: ________",
+                  "Rollback koşulu: _________"
+                ]
+              }
+            ],
+            "rules": [
+              "“Tek sayfalık v1” ile başlayın; mükemmel doküman beklemeyin.",
+              "Her değişikliği bir “amaç + KPI” ile bağlayın.",
+              "Küçük/orta/büyük değişiklik SLA’sını yazın.",
+              "Prod erişimini minimum kişiyle sınırlandırın.",
+              "Haftalık 30 dakikalık governance review ile dokümanı yaşatın."
+            ],
+            "example": [
+              "Küçük değişiklik: metin/görsel → içerik owner + marka onayı → staging → prod",
+              "Büyük değişiklik: yeni component → UX+FE+SEO onayı → QA → prod + rollback planı"
+            ],
+            "checklist": [
+              "Style guide v1 yayınlandı",
+              "RACI tamamlandı",
+              "Change request tek kanala alındı",
+              "Onay akışı yazılı",
+              "Staging zorunlu",
+              "Haftalık review planlandı"
+            ],
+            "deliverables": [
+              "Style guide v1 (content + UI)",
+              "RACI matrisi",
+              "Change request formu",
+              "Onay akışı diyagramı",
+              "Buraya: Organizasyon şeması görseli",
+              "Buraya: Style guide özet tablo görseli"
+            ],
+            "href": "/downloads/web-style-guide-degisiklik-yonetimi-surec-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Governance = Tutarlılık + Güvenlik + Öngörülebilir Yayın",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Lansman sonrası web sitesi iki yola gider: ya kontrollü evrilir ya da dağılır. Style guide; “ne üretileceğini”, rol matrisi “kimin üreteceğini”, change management ise “nasıl yayınlanacağını” belirler. Bu üçü birlikte kurulursa, otel ve B2B sitelerinde hem marka tutarlılığı korunur hem de teknik kalite bozulmadan gelişim sürer."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Site Governance & Süreç Analizi Talep Et",
+            "text": "Mevcut süreçlerinizi çıkarıp style guide + RACI + change request akışını oturan bir governance modeline dönüştürelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Web site governance nedir, neden önemlidir?",
+        "a": "Governance; style guide, rol/sorumluluklar ve change yönetimi ile sitenin kontrollü evrilmesini sağlar. Dağınık güncellemeleri azaltır, tutarlılık ve güvenlik kazandırır."
+      },
+      {
+        "q": "Style guide’de hangi başlıklar olmalı?",
+        "a": "İçerik tarafında ton of voice, başlık/CTA standardı ve terim sözlüğü; tasarım tarafında renk, tipografi, spacing ve component kuralları bulunmalıdır. Örneklerle desteklenirse ekip hızlı uygular."
+      },
+      {
+        "q": "Web sitesinde değişiklikleri kim, nasıl onaylamalı?",
+        "a": "İçerik değişikliklerinde sayfa sahibi + marka onayı; teknik değişikliklerde QA + teknik onay gerekir. Büyük değişikliklerde SEO ve UX consulted olmalı ve staging’den geçmeden prod’a alınmamalıdır."
+      },
+      {
+        "q": "Otel ve B2B için governance modeli nasıl kurulur?",
+        "a": "Otel zincirlerinde merkez standartları belirler, yerel ekip içerik girer; B2B’de departman talep eder, merkezi ekip onaylar. Her iki modelde de tek backlog ve net RACI şarttır."
+      },
+      {
+        "q": "Küçük değişiklik ile büyük geliştirmeyi nasıl ayırırım?",
+        "a": "Metin/görsel/link küçük; yeni landing orta; IA/component/mimari değişimler büyük kabul edilir. Her seviye için ayrı onay ve test kapısı tanımlayın."
+      },
+      {
+        "q": "Governance dokümanı “marka rehberi” ile aynı mı?",
+        "a": "Hayır. Marka rehberi “neye benzemeli” der; governance “kim, nasıl, ne zaman değiştirir”i belirler. İkisi birlikte çalışınca kalite korunur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — web-site-governance-style-guide-ve-degisiklik-yonetimi-hero-01.webp — alt text: “Web site governance kapak görseli, otel ve B2B’de tutarlı yönetim modeli”",
+          "h1-context — 1920×1080 — web-site-governance-style-guide-ve-degisiklik-yonetimi-h1-context-02.webp — alt text: “Style guide ve değişiklik yönetimi bağlam görseli, kontrollü güncelleme süreci”",
+          "divider-01 — 1600×1200 — web-site-governance-style-guide-ve-degisiklik-yonetimi-divider-03.webp — alt text: “Governance neden gerekli bölüm ayırıcı, otel zincirinde tutarlılığı koruma”",
+          "divider-02 — 1600×1200 — web-site-governance-style-guide-ve-degisiklik-yonetimi-divider-04.webp — alt text: “Change management süreci bölüm ayırıcı, kurumsal sitede kontrollü evrim”",
+          "diagram-05 — 1920×1080 — web-site-governance-style-guide-ve-degisiklik-yonetimi-diagram-05.webp — alt text: “Web governance organizasyon ve onay akışı diyagramı, otel zinciri ve B2B rol modeli”",
+          "checklist-06 — 1200×1200 — web-site-governance-style-guide-ve-degisiklik-yonetimi-checklist-06.webp — alt text: “Style guide başlangıç checklist kartı, otel ve B2B web sitesi tutarlılığı”",
+          "kpi-07 — 1200×1200 — web-site-governance-style-guide-ve-degisiklik-yonetimi-kpi-07.webp — alt text: “Change yönetimi KPI kartı, revizyon sayısı ve canlı hata riskini azaltma”",
+          "proof-08 — 1200×1200 — web-site-governance-style-guide-ve-degisiklik-yonetimi-proof-08.webp — alt text: “Governance deliverables kanıt kartı, otel ve B2B’de kontrollü site yönetimi”",
+          "table-style-guide-bolumleri — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Style guide v1 yayınlandı",
+          "Ton of voice, başlık ve CTA standardı tanımlandı",
+          "UI tokens ve component kullanım kuralları belirlendi",
+          "RACI rol matrisi çıkarıldı",
+          "Dev/staging/prod ortam bazlı yetkiler sınırlandı",
+          "Change request tek kanala alındı",
+          "Küçük/orta/büyük değişiklik SLA’sı tanımlandı",
+          "Staging’de SEO + UX smoke test zorunlu hale getirildi",
+          "Rollback planı büyük değişikliklerde yazılı hale getirildi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+  "BlogSecurityByDesignKurumsalWebSitelerindeGuvenlikOdakliGelistirme": {
+    "title": "Security by Design: Kurumsal Web Güvenliği",
+    "slug": "security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "20 Haziran 2026",
+    "publishedAt": "2026-06-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kurumsal sitede OWASP risklerini baştan ele alın: kimlik doğrulama, veri koruma, form/ödeme ve admin panel güvenliği. Otel/B2B checklist + go-live kontrolü.",
+    "seo": {
+      "metaTitle": "Security by Design: Kurumsal Web Güvenliği | DGTLFACE",
+      "metaDescription": "Kurumsal sitede OWASP risklerini baştan ele alın: kimlik doğrulama, veri koruma, form/ödeme ve admin panel güvenliği. Otel/B2B checklist + go-live kontrolü."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “güvenli mimari standardı” kuran otorite child rolündedir: güvenliği sonradan eklenen patch değil, secure-by-default architecture olarak proje başına taşır. Hedef persona ajans teknik lideri, otel/B2B dijital ekipleri ve IT/operasyon tarafıdır; funnel’da MoFu teknik rehber olup itibar ve hukuki riskleri azaltarak bakım/destek süreçlerine bağlanır. Ana iş sorusu: OWASP temelleri, kimlik doğrulama-yetkilendirme, veri koruma ve form/ödeme güvenliğini baştan kurgulayarak canlıdaki açık/hack riskini nasıl düşürürüm? Otellerde rezervasyon/ödeme ve admin panel; B2B’de portal/raporlama ekranları kritik yüzeylerdir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Güvenlik, kurumsal web projelerinde sonradan eklenen bir “patch” değil, en baştan mimarinin parçası olmalıdır. Security by design; OWASP temellerini kimlik doğrulama-yetkilendirme, veri koruma, form/dosya yükleme ve yönetici paneli güvenliğiyle birlikte düşünür. Otel sitelerinde rezervasyon/ödeme akışı; B2B’de portal ve raporlama ekranları kritik yüzeylerdir. Başta doğru model kurmak, itibar ve hukuki riskleri ciddi biçimde azaltır.",
+      "sgeSummary": "Security by design için: OWASP risklerini bil, auth/role modelini kur, input doğrula, veriyi koru, admin paneli sertleştir, go-live öncesi checklist ile test et.",
+      "voiceAnswer": "Web sitenizi güvenli yapmak için OWASP risklerini kontrol edin, login-yetkiyi kurun, formları ve veriyi koruyun.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans teknik lideri, FE/BE, otel IT/dijital, B2B ürün/IT, operasyon",
+        "KPI: Güvenlik bulgu sayısı, kritik açık sayısı, yetkisiz erişim denemeleri, incident/MTTR, form abuse oranı",
+        "Entity set: Security by design, OWASP, authentication, authorization, secure forms, input validation, admin panel hardening",
+        "GEO: Türkiye geneli; otel, turizm ve B2B kurumsal web projeleri",
+        "Funnel: MoFu (mimari karar) → BoFu (go-live güvenlik kapısı)",
+        "Risk alanları: XSS/SQLi/CSRF, zayıf auth, dosya upload, admin panel, ödeme akışı (Varsayım: PCI)",
+        "Çıktı: Katmanlı güvenlik modeli + checklist + go-live güvenlik kapısı"
+      ]
+    },
+    "h1": {
+      "title": "Security by Design: Kurumsal Web Sitelerinde Güvenlik Odaklı Geliştirme",
+      "intro": "Kurumsal web projelerinde güvenlik genelde “yayına çıkınca bakalım” diye ertelenir. Oysa en pahalı risk, canlıda ortaya çıkan risktir: itibar kaybı, veri sızıntısı, hizmet kesintisi ve hukuki yük (KVKK gibi) birlikte gelir. Security by design yaklaşımı, güvenliği tek tek önlemler listesi değil, mimarinin varsayılan davranışı yapar: kimlik doğrulama ve yetkilendirme doğru kurulur, girdiler doğrulanır, veriler korunur, admin paneli sertleştirilir ve go-live öncesi güvenlik kapısı işletilir. Otel tarafında rezervasyon/ödeme; B2B’de portal/raporlama ekranları en kritik yüzeylerdir.",
+      "quickSummary": [
+        "1) Güvenliği proje başında mimari gereksinim olarak tanımla",
+        "2) OWASP risklerini ekip dili haline getir",
+        "3) Auth/RBAC, input validation ve veri koruma katmanlarını kur",
+        "4) Admin panel, form, upload ve ödeme akışlarını ayrı test et",
+        "5) Go-live öncesi security gate checklist’i ile yayına çık"
+      ],
+      "ctaPrimary": {
+        "label": "Web Güvenlik & Security by Design Analizi Talep Et",
+        "text": "OWASP temelleri, auth/role modeli, form/ödeme ve admin panel güvenliğinizi değerlendirip uygulanabilir bir hardening planı çıkaralım (otel & B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Web Güvenlik & Security by Design Analizi Talep Et",
+        "text": "OWASP risklerini, auth/role modelini ve form/admin güvenliğini birlikte değerlendirip uygulanabilir hardening planı çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "“Kurumsal Web Güvenlik Checklist’i” Şablonunu İndir",
+        "text": "Go-live öncesi kontrol noktalarını tek dokümanda toplar; ekipte sorumluluk dağıtımı yaparsınız.",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Sunucu Güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK Veri Güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sunucu Güvenliği ile Kurumsal Web Altyapısı Nasıl Sertleştirilir?",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "title": "KVKK Uyum Hizmeti ile Web Projelerinde Veri Riskleri Nasıl Azaltılır?",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "title": "KVKK Veri Güvenliği: Raporlama ve Operasyonel Kontrol Noktaları",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "security-by-design-nedir",
+        "title": "Security by Design Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Security by design, güvenliği “kontrol listesi” olarak değil, sistemin tasarım prensibi olarak ele alır: varsayılan ayarlar güvenli olur (secure-by-default), yetkiler minimumda tutulur (least privilege) ve her katmanda savunma bulunur (defense-in-depth). Bu yaklaşımda güvenlik, sprint sonunda “eklenen” değil; her feature ile birlikte “tasarlanan” bir gereksinimdir."
+          },
+          {
+            "type": "h3",
+            "text": "Security by design nedir, web sitesi için ne ifade eder?"
+          },
+          {
+            "type": "p",
+            "text": "Security by design; web sitesinde kimlik doğrulama, yetkilendirme, input doğrulama, veri koruma ve log/izleme gibi konuların daha proje başında mimariye dahil edilmesidir. Böylece güvenlik, sonradan eklenen yamalarla değil, sistemin varsayılan davranışıyla sağlanır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Güvenlik gereksinimleri (auth, veri, admin) proje scope’unda yazılı mı?",
+              "“Min yetki” prensibi rol modelinde var mı?",
+              "Go-live’da güvenlik kapısı (gate) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Security requirements’ı “Definition of Done”a ekle",
+              "Rol ve yetki modelini (RBAC) baştan çiz",
+              "Go-live öncesi güvenlik checklist’ini zorunlu yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "owasp-temelleri-web-uygulama-riskleri",
+        "title": "OWASP Temelleri (Web Uygulama Riskleri)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OWASP, web uygulamalarında en sık karşılaşılan risk sınıflarını anlatır. Buradaki amaç “korkutmak” değil; ekibin aynı dili konuşmasını sağlamaktır. Kurumsal sitelerde risk yüzeyi genelde şu alanlarda büyür: formlar, admin panel, oturum yönetimi, dosya yükleme ve entegrasyonlar."
+          },
+          {
+            "type": "h3",
+            "text": "Kurumsal web sitesinde en sık görülen güvenlik açıkları nelerdir?"
+          },
+          {
+            "type": "p",
+            "text": "Sıklıkla görülen açıklıklar; XSS (kötü amaçlı script), SQLi (veritabanı enjeksiyonu), CSRF (oturumla işlem yaptırma), zayıf kimlik doğrulama, hatalı yetkilendirme, güvenli olmayan dosya yükleme ve yanlış yapılandırmadır. Bunlar genelde input doğrulama, rol modeli ve güvenli varsayılanlar doğru kurulmadığında ortaya çıkar."
+          },
+          {
+            "type": "h3",
+            "text": "XSS / SQLi / CSRF — basit açıklama + pratik karşılık"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "XSS: Kullanıcı girdisi ekranda “ham” basılırsa risk artar → escape/sanitize",
+              "SQLi: Parametreli sorgu yoksa risk artar → prepared statements/ORM",
+              "CSRF: Oturumla kritik işlem yapılır, token yoksa risk artar → CSRF token + same-site cookies (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Input’lar sanitize/escape ediliyor mu?",
+              "Yetki kontrolü her endpoint’te var mı?",
+              "Form işlemlerinde CSRF koruması var mı? (Varsayım: gerekli)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "En kritik 10 endpoint’i (login/form/upload) listele",
+              "Her biri için “risk → kontrol” eşleştirmesi yap",
+              "Staging’de OWASP checklist’ini smoke test gibi çalıştır"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo (1 adet): Basitleştirilmiş OWASP Kontrol Matrisi",
+            "headers": [
+              "Risk Alanı",
+              "Tipik Problem",
+              "Hızlı Kontrol",
+              "Go-Live Testi"
+            ],
+            "rows": [
+              [
+                "XSS",
+                "sanitize yok",
+                "output escape",
+                "form alanı test"
+              ],
+              [
+                "SQLi",
+                "parametreli sorgu yok",
+                "prepared/ORM",
+                "API endpoint test"
+              ],
+              [
+                "CSRF",
+                "token yok",
+                "CSRF token / same-site",
+                "form submit test"
+              ],
+              [
+                "Auth",
+                "zayıf parola/MFA yok",
+                "MFA + rate limit",
+                "brute force simülasyonu"
+              ],
+              [
+                "Upload",
+                "dosya türü serbest",
+                "allowlist + limit",
+                "zararlı dosya denemesi"
+              ],
+              [
+                "Admin",
+                "açık erişim",
+                "IP/VPN + MFA",
+                "erişim testi"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kimlik-dogrulama-ve-yetkilendirme",
+        "title": "Kimlik Doğrulama ve Yetkilendirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal sitelerde en büyük risklerden biri “kimse fark etmeden admin paneline girilmesi” veya “yanlış rolün yanlış veriye erişmesi”dir. Güvenli auth/authorization; sadece login ekranı değil, oturum yönetimi, MFA, şifre politikası ve rol modelini kapsar."
+          },
+          {
+            "type": "h3",
+            "text": "Login ve yetki katmanı tasarımı (RBAC)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rol tanımları: admin, editor, viewer (örnek)",
+              "Yetkiler: sayfa düzenleme, yayınlama, kullanıcı yönetimi",
+              "“Minimum yetki”: varsayılan rol en kısıtlı olmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Admin panel hardening (kritik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Admin URL gizleme tek başına güvenlik değildir; ama yüzeyi küçültür (Varsayım)",
+              "IP allowlist/VPN (Varsayım: kurum politikası)",
+              "MFA zorunluluğu",
+              "Rate limiting / brute force koruması"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Admin panel için MFA zorunlu mu?",
+              "Editor ile admin ayrıldı mı?",
+              "Oturum süresi ve logout davranışı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "RBAC matrisini çıkar (kim ne yapar)",
+              "Admin panel erişimini kısıtla (MFA + rate limit)",
+              "Log ve alert kurgusunu (şüpheli giriş) aktive et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "girdilerin-dogrulanmasi-ve-veri-koruma",
+        "title": "Girdilerin Doğrulanması ve Veri Koruma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Input validation” güvenliğin temelidir; form alanlarından dosya yüklemeye kadar her yerde geçerlidir. Veri koruma ise hem güvenlik hem uyum (KVKK/PCI gibi) açısından kritik katmandır: hangi veri toplanıyor, nerede tutuluyor, kim erişiyor?"
+          },
+          {
+            "type": "h3",
+            "text": "Form ve dosya yükleme güvenliği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dosya türü kontrolü (allowlist)",
+              "Boyut limiti ve tarama (Varsayım)",
+              "Upload’ların public path’ten servis edilmemesi (Varsayım)",
+              "Form abuse (spam) önlemleri: rate limit, honeypot (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Veri koruma (PII) ve minimizasyon"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gereğinden fazla veri toplama = risk",
+              "Şifreleme (in transit + at rest) (Varsayım)",
+              "Log’larda PII maskeleme (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Formlarda “minimum veri” prensibi var mı?",
+              "Upload’lar güvenli storage’a gidiyor mu?",
+              "Log’larda hassas veri sızıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Form alanlarını KVKK perspektifiyle sadeleştir",
+              "Upload için allowlist + limit + izolasyon uygula",
+              "PII için saklama ve maskeleme politikasını yaz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-guvenlik-checklisti",
+        "title": "Otel ve B2B İçin Güvenlik Checklist’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B’nin ortak noktası: form akışları ve admin alanlar. Farkı ise otelde ödeme/rezervasyon ve sezon kampanyaları; B2B’de portal/raporlama ekranları ve doküman erişimleridir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için kritik yüzeyler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon/ödeme akışı (Varsayım: ödeme sağlayıcı/PCI uyumu)",
+              "Kampanya landing’leri (tracking script’leri)",
+              "Call center / CRM entegrasyonları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için kritik yüzeyler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Portal login ve yetki katmanı",
+              "Raporlama ekranları (data exposure riski)",
+              "Doküman indirme/erişim kontrolü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "Proje başında güvenlik odaklı mimari tasarlanan sitelerde, canlıya geçtikten sonra güvenlik açığı/hack vakalarının anlamlı ölçüde azaldığı pek çok örnek raporlanıyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Go-live öncesi güvenlik kontrol listesi çalıştırıldı mı?",
+              "Admin panel koruması (MFA/rate limit) aktif mi?",
+              "Form ve upload güvenliği test edildi mi?",
+              "Log/alert (şüpheli hareket) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Go-live’da “security gate” uygula (kritik kontroller geçmeden yayın yok)",
+              "Otel: ödeme/rezervasyon akışını ayrı test planı yap",
+              "B2B: rol bazlı yetki ve veri erişimini doğrula"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Güvenlik & Security by Design Analizi Talep Et",
+            "text": "OWASP + auth + form/admin hardening planınızı çıkarıp go-live öncesi güvenlik kapısını birlikte kuralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Kurumsal Web Güvenlik Checklist’i” Şablonunu İndir",
+            "text": "Go-live öncesi kontrol noktalarını tek dokümanda toplar; ekipte sorumluluk dağıtımı yaparsınız.",
+            "href": "/tr/yazilim/sunucu-guvenlik"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-web-guvenlik-checklisti-sablonu",
+        "title": "“Kurumsal Web Güvenlik Checklist’i” Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "“Kurumsal Web Güvenlik Checklist’i” Şablonunu İndir — Yazılım / Web Security (v1.0)",
+            "purpose": "Bu checklist, kurumsal web sitelerinde security by design yaklaşımını go-live öncesi uygulanabilir kontrol noktalarına dönüştürür. OWASP riskleri, auth/role, form/upload ve admin panel hardening adımlarını tek dokümanda toplar. Otel ve B2B projelerinde canlıya çıkış öncesi güvenlik kapısı (security gate) gibi kullanılır.",
+            "whoFor": "Tech lead, FE/BE, DevOps, QA, güvenlik sorumlusu, proje yöneticisi.",
+            "steps": [
+              "Checklist’i staging ortamında çalıştırın ve bulguları kayıt altına alın.",
+              "Riskleri “kök neden → çözüm” tablosuyla önceliklendirin.",
+              "14 günlük sprint planıyla hardening’i tamamlayıp go-live’da tekrar doğrulayın."
+            ],
+            "checklist": [
+              "MFA + rate limit aktif mi?",
+              "RBAC rol matrisi var mı?",
+              "Input validation / output escaping kontrol edildi mi?",
+              "CSRF koruması var mı?",
+              "Upload allowlist + limit var mı?",
+              "Admin erişimi kısıtlı mı (VPN/IP)?",
+              "Log/alert (şüpheli giriş) var mı?",
+              "KVKK/PII minimizasyonu yapıldı mı?"
+            ],
+            "problemRootSolution": [
+              {
+                "problem": "Zayıf login güvenliği",
+                "rootCause": "MFA ve rate limit yok",
+                "solution": "MFA zorunlu hale getir, brute force koruması ekle"
+              },
+              {
+                "problem": "Yetkisiz veri erişimi",
+                "rootCause": "RBAC net değil",
+                "solution": "Rol matrisini çıkar, endpoint bazlı yetki kontrolü uygula"
+              },
+              {
+                "problem": "Form abuse ve injection riski",
+                "rootCause": "Input validation standardı yok",
+                "solution": "Allowlist validation, output escaping ve CSRF kontrolü uygula"
+              },
+              {
+                "problem": "Güvensiz dosya yükleme",
+                "rootCause": "Dosya türü ve boyut kontrolü yok",
+                "solution": "Upload allowlist, limit, izolasyon ve tarama süreci kur"
+              }
+            ],
+            "sprintPlan": [
+              "Gün 1: Risk yüzeyi envanteri (auth/form/admin)",
+              "Gün 2: MFA + rate limiting",
+              "Gün 3: RBAC ve yetki kontrolleri",
+              "Gün 4: Input validation standardı",
+              "Gün 5: CSRF kontrolleri",
+              "Gün 6: Upload hardening",
+              "Gün 7: Admin panel erişim kısıtları",
+              "Gün 8: Log/alert kurgusu",
+              "Gün 9: PII minimizasyon + maskeleme",
+              "Gün 10: Otel/B2B kritik akış testleri",
+              "Gün 11: Staging security gate dry-run",
+              "Gün 12: Fix deploy",
+              "Gün 13: Retest",
+              "Gün 14: Go-live checklist final"
+            ],
+            "kpiTable": [
+              "Güvenlik bulgu sayısı",
+              "Kritik açık sayısı",
+              "Yetkisiz erişim denemeleri",
+              "Incident/MTTR",
+              "Form abuse oranı",
+              "Go-live security gate geçiş durumu"
+            ],
+            "deliverables": [
+              "RBAC matrisi",
+              "Admin hardening ayar listesi",
+              "Upload policy dokümanı",
+              "Go-live security gate checklist’i",
+              "Buraya: Katmanlı güvenlik diyagramı",
+              "Buraya: OWASP kontrol kartı"
+            ],
+            "href": "/downloads/kurumsal-web-guvenlik-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Güvenlik sonradan eklenen değil, baştan tasarlanan bir mimari katmandır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Security by design, kurumsal web projelerinde güvenliği yayından sonra çözülmesi gereken bir problem olmaktan çıkarır; proje başında mimari karar haline getirir. OWASP risklerini anlamak, auth/role modelini doğru kurmak, input doğrulama ve veri korumayı standartlaştırmak, admin paneli sertleştirmek ve go-live öncesi security gate işletmek bu yaklaşımın temelidir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında rezervasyon/ödeme ve admin panel; B2B tarafında portal, raporlama ve doküman erişimleri en kritik yüzeylerdir. Bu yüzeyleri baştan güvenli tasarlamak, hem itibar hem de hukuki riskleri azaltır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Güvenlik & Security by Design Analizi Talep Et",
+            "text": "OWASP risklerini, auth/role modelini ve form/admin güvenliğini birlikte değerlendirip uygulanabilir hardening planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Kurumsal Web Güvenlik Checklist’i” Şablonunu İndir",
+            "text": "Go-live öncesi kontrol noktalarını tek dokümanda toplar; ekipte sorumluluk dağıtımı yaparsınız.",
+            "href": "/tr/yazilim/sunucu-guvenlik"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Security by design nedir, web sitesi için ne ifade eder?",
+        "a": "Güvenliğin tasarımın parçası olmasıdır; auth/role, veri koruma ve input doğrulama baştan kurgulanır. Böylece güvenlik sonradan eklenen yamalara kalmaz."
+      },
+      {
+        "q": "Kurumsal web sitesinde en sık görülen güvenlik açıkları nelerdir?",
+        "a": "XSS, SQLi, CSRF, zayıf kimlik doğrulama, hatalı yetkilendirme ve güvenli olmayan dosya yükleme en yaygın risklerdir. Çoğu, input doğrulama ve rol modelinin zayıflığından doğar."
+      },
+      {
+        "q": "Login, form ve yönetici paneli güvenliğini nasıl tasarlamalıyım?",
+        "a": "MFA ve rate limit ile login’i sertleştirin, RBAC ile yetkileri sınırlandırın. Formlarda doğrulama/CSRF, admin panelde erişim kısıtı ve log/alert kullanın."
+      },
+      {
+        "q": "Otel ve B2B siteleri için güvenlik checklist’i nasıl olmalı?",
+        "a": "Otelde rezervasyon/ödeme ve admin panel; B2B’de portal/raporlama ve doküman erişimi önceliklidir. OWASP + auth + form/upload + log/alert seti temel checklist’tir."
+      },
+      {
+        "q": "Güvenliği “go-live”dan sonra düzeltmek yeterli mi?",
+        "a": "Yeterli değildir; canlıdaki risk pahalıdır ve itibar kaybı yaratır. Go-live öncesi güvenlik kapısı ve düzenli kontrol rutini daha güvenli yaklaşımdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-hero-01.webp — alt text: “Security by design kapak görseli, otel ve B2B web güvenlik mimarisi”",
+          "h1-context — 1920×1080 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-h1-context-02.webp — alt text: “OWASP riskleri ve güvenlik katmanları bağlamı, kurumsal site hardening”",
+          "divider-01 — 1600×1200 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-divider-03.webp — alt text: “Security by design temel prensipler bölüm ayırıcı, otel ve B2B risk azaltma”",
+          "divider-02 — 1600×1200 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-divider-04.webp",
+          "diagram-05 — 1920×1080 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-diagram-05.webp — alt text: “Katmanlı güvenlik mimarisi diyagramı, kimlik doğrulama ve admin panel koruması”",
+          "checklist-06 — 1200×1200 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-checklist-06.webp — alt text: “OWASP tabanlı web güvenlik checklist kartı, otel ve B2B go-live kontrolü”",
+          "kpi-07 — 1200×1200 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-kpi-07.webp — alt text: “Güvenlik bulguları ve risk azaltma KPI kartı, kurumsal web güvenliği”",
+          "proof-08 — 1200×1200 — security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme-proof-08.webp — alt text: “Güvenlik hardening deliverables kanıt kartı, admin panel ve form koruması”",
+          "table-owasp-kontrol-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Security requirements Definition of Done’a eklendi",
+          "RBAC rol matrisi çıkarıldı",
+          "MFA + rate limit aktif edildi",
+          "Input validation / output escaping kontrol edildi",
+          "CSRF koruması değerlendirildi",
+          "Upload allowlist + limit + izolasyon standardı belirlendi",
+          "Admin erişimi IP/VPN + MFA ile kısıtlandı",
+          "Log/alert kurgusu aktif edildi",
+          "KVKK/PII minimizasyonu ve maskeleme kontrol edildi",
+          "Go-live security gate checklist’i çalıştırıldı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
+        ]
+      }
+    }
+  },
+
+    "BlogGelistiriciVeSeoIsBirligiWebProjelerindeTeknikSeoYuSureceDahilEtmek": {
+    "title": "Dev–SEO İş Birliği ve Teknik SEO QA Rehberi",
+    "slug": "gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "20 Haziran 2026",
+    "publishedAt": "2026-06-20",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Teknik SEO’yu proje başında dev sürecine dahil edin: URL/IA, CWV, schema ve hreflang’ı birlikte planlayın. Release öncesi QA checklist + workflow örnekleri.",
+    "seo": {
+      "metaTitle": "Dev–SEO İş Birliği ve Teknik SEO QA Rehberi | DGTLFACE",
+      "metaDescription": "Teknik SEO’yu proje başında dev sürecine dahil edin: URL/IA, CWV, schema ve hreflang’ı birlikte planlayın. Release öncesi QA checklist + workflow örnekleri."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “launch-safe site” standardını kuran otorite child rolündedir: teknik SEO’yu proje sonunda “hızlı düzeltme” olmaktan çıkarıp mimari kararların içine (URL, CWV, schema, hreflang) gömer. Hedef persona ajans yöneticisi, otel/B2B pazarlama lideri, SEO uzmanı ve geliştirici ekiplerdir; funnel’da consideration aşamasında “süreci nasıl kuralım?” kararını netleştirir. Ana iş sorusu: Geliştirici ve SEO ekiplerini proje başında hizalayarak URL/IA, head/schema, render stratejisi (SSR/SSG) ve release öncesi QA ile sonradan pahalı revizyonları nasıl önlerim? Otel ve B2B’de geri dönülmesi zor hataları (URL değişimi, hreflang, CWV) daha kod yazılmadan azaltır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-20",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Teknik SEO, web projesinin sonunda “hızlı düzeltme” ile çözülecek bir detay değil; mimari kararların içine gömülmesi gereken bir disiplindir. Geliştirici ve SEO ekipleri proje başında aynı masaya oturursa URL/breadcrumb, CWV, schema ve hreflang gibi alanlarda sonradan pahalıya patlayan hatalar azalır. Doğru model; SEO gereksinim toplama, planlama ve release öncesi teknik SEO QA kapısı ile ilerler.",
+      "sgeSummary": "En iyi SEO, en baştan planlanan SEO’dur: dev–SEO kickoff yapın, URL/IA + schema/hreflang + CWV/render kararlarını yazın, release öncesi SEO QA checklist’iyle yayınlayın.",
+      "voiceAnswer": "Siteyi yaptık sonra SEO olur mu? Olur ama pahalı; en iyisi SEO’yu baştan planlamaktır.",
+      "aiFactSheet": [
+        "Hedef kitle: Geliştirici ekip, SEO uzmanı, ajans PM, otel/B2B pazarlama lideri",
+        "KPI: Release sonrası SEO revizyon maliyeti, CWV (LCP/INP/CLS), indeks hataları, 404 oranı, sıralama kaybı riski",
+        "Entity set: developer–SEO collaboration, technical SEO QA, URL planning, schema, hreflang, CWV, SSR/SSG",
+        "GEO: Türkiye geneli; SEO ajanslarıyla çalışan otel ve B2B web projeleri",
+        "Funnel: MoFu (süreç tasarımı) → BoFu (launch-safe yayın)",
+        "Risk alanları: URL değişimi, head/meta/scheme eksikliği, hreflang hatası, CWV düşüşü, robots/sitemap yanlışları",
+        "Çıktı: Kickoff ajandası + Jira workflow + QA checklist + test kapısı"
+      ]
+    },
+    "h1": {
+      "title": "Geliştirici ve SEO İş Birliği: Web Projelerinde Teknik SEO’yu Sürece Dahil Etmek",
+      "intro": "“Siteyi yapalım, sonra SEO’yu ekleriz” yaklaşımı, özellikle yeni mimari (Next.js gibi), yeni URL yapısı ve çok dilli hedefler varsa pahalı sonuç verir. Çünkü teknik SEO; URL hiyerarşisi, render stratejisi (SSR/SSG/ISR), head yönetimi, schema ve hreflang gibi kodla birlikte şekillenen konulardır. Otel projelerinde destinasyon/oda sayfaları ve rezervasyon akışı; B2B’de hizmet/çözüm sayfaları ve içerik cluster’ları teknik SEO’nun doğrudan sahasıdır. Bu rehber, dev–SEO alignment’ı “toplantı” değil, workflow + doküman + QA kapısı olarak kurar.",
+      "quickSummary": [
+        "1) Dev + SEO + içerik liderini proje kickoff’unda aynı masaya koy",
+        "2) URL/IA, head/meta, schema ve hreflang kararlarını kod başlamadan kilitle",
+        "3) Render stratejisi ve CWV hedeflerini sayfa tiplerine göre planla",
+        "4) SEO gereksinimlerini Jira/Trello backlog’una user story olarak ekle",
+        "5) Release öncesi teknik SEO QA gate’i olmadan yayına çıkma"
+      ],
+      "ctaPrimary": {
+        "label": "Dev–SEO İş Birliği & Teknik SEO QA Analizi Talep Et",
+        "text": "Projenizde URL/IA, CWV, schema ve hreflang gereksinimlerini daha kod yazılmadan netleştirip release öncesi SEO QA kapısı kuralım (otel & B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Dev–SEO İş Birliği & Teknik SEO QA Analizi Talep Et",
+        "text": "URL, CWV, schema ve hreflang planınızı baştan kilitleyip release öncesi SEO QA kapısı kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "“Web Projesi Teknik SEO Gereksinim & QA” Şablonunu İndir",
+        "text": "Gereksinimleri tek dokümanda toplayıp Jira backlog’una çevirir; her release’te SEO QA gate çalıştırırsınız.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Hız, Index ve Schema Temeli",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "title": "SEO Raporlama ile Release Sonrası Performans Nasıl İzlenir?",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "title": "Web Sitesi Geliştirme Sürecinde Launch-Safe Yayın Modeli",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dev-seo-is-birligi-neden-kritik",
+        "title": "Dev–SEO İş Birliği Neden Kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dev ve SEO ayrı diller konuştuğunda proje ikiye bölünür: dev “çalışıyor” der, SEO “indexlenmiyor” der. Aslında ikisi de haklıdır; çünkü teknik SEO, kodun davranışına bağlıdır. URL ve IA kararları geç verilirse 301/redirect maliyeti çıkar; schema ve head planı yoksa içerik yayına çıkınca “sonradan ekleme” başlar; CWV kötü ise reklam ve organik birlikte etkilenir."
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "Birçok projede SEO sonradan devreye girer; URL ve mimariyi değiştirmek pahalı olur. Dev–SEO workflow’u baştan kurulan yapılarda bu maliyetler düşer ve lansman sonrası panik azalır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "SEO, proje kickoff’unda var mı yok mu?",
+              "URL ve IA kararları kod başlamadan verildi mi?",
+              "Release öncesi SEO QA “gate” olarak tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kickoff’a dev + SEO + içerik liderini birlikte koy",
+              "URL/IA + schema/hreflang + CWV hedeflerini tek dokümana yaz",
+              "Release’e “SEO QA geçmeden yayın yok” kuralı ekle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "proje-baslangicinda-seo-gereksinim-toplama",
+        "title": "Proje Başlangıcında SEO Gereksinim Toplama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik SEO gereksinimleri, “liste” gibi değil, ürün gereksinimi gibi toplanmalı: hedef sayfalar, kullanıcı görevleri, index kuralları, çok dilli plan, performans hedefleri, ölçüm (analytics) ve teknik kısıtlar."
+          },
+          {
+            "type": "h3",
+            "text": "Gereksinim seti (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "URL/slug standardı + IA haritası",
+              "Head: title/meta standartları",
+              "Schema seti ve sayfa tipleri",
+              "CWV hedefleri ve performans bütçesi (Varsayım)",
+              "robots/sitemap/canonical kuralları",
+              "Çok dilli ise hreflang stratejisi",
+              "Log/monitoring ve error raporlama (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik SEO gereksinimleri projeye ne zaman dahil edilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "En erken aşamada: proje kickoff’unda. Çünkü URL hiyerarşisi, render stratejisi, schema ve hreflang gibi kararlar kodla birlikte şekillenir. Sonradan eklenirse, yeniden çalışma ve risk artar; lansman gecikir veya sıralama kaybı olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“SEO gereksinim dokümanı” var mı?",
+              "Çok dilli hedef varsa hreflang planı yazılı mı?",
+              "Render stratejisi (SSR/SSG) SEO ile birlikte seçildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SEO gereksinimlerini “user story” formatına çevir",
+              "Her gereksinimi bir test maddesine bağla",
+              "Gereksinimleri Jira/Trello’da sprint backlog’una aktar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "url-head-ve-schema-planlamasi",
+        "title": "URL, Head ve Schema Planlaması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu üçlü, teknik SEO’nun çekirdeğidir. URL/IA yanlışsa geri dönüş pahalıdır; head standardı yoksa snippet kalitesi düşer; schema yoksa SERP zenginleşmesi kaçabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Keyword & IA haritasını geliştiriciyle paylaşmak"
+          },
+          {
+            "type": "p",
+            "text": "SEO’nun keyword cluster haritası, dev için “hangi sayfalar önemli” haritasıdır. Bu haritayı IA (site haritası) ile birleştirin; dev ekibinin route’ları doğru kurmasını sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "URL ve breadcrumb kararlarını birlikte almak"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "URL’ler kısa ve tutarlı olmalı",
+              "Breadcrumb her sayfada hiyerarşiyi göstermeli",
+              "Redirect ihtiyacı doğuracak “keyfi” slug değişimlerinden kaçınılmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Meta, structured data ve hreflang gereksinimleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Meta şablonları: sayfa tipine göre",
+              "Schema: WebPage/Article/FAQ/HowTo vb.",
+              "Çok dilli: hreflang karşılıklılık ve canonical uyumu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "URL standardı dokümante mi?",
+              "Meta şablonları sayfa tipine göre hazır mı?",
+              "Schema listesi ve test yöntemi var mı?",
+              "Hreflang (varsa) reciprocal kuralı planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "URL/slug + breadcrumb standardını “kilit doküman” yap",
+              "Schema’ları component seviyesinde kurgula (Varsayım)",
+              "Çok dilli ise hreflang testini release QA’ya ekle"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "release-oncesi-teknik-seo-qa",
+        "title": "Release Öncesi Teknik SEO QA",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Release öncesi QA, SEO’nun “son dakika kontrolü” değil; güvenli yayın (launch-safe) kapısıdır. Amaç, canlıya çıkmadan kritik sinyalleri doğrulamak: index, canonical, robots, sitemap, schema, CWV ve 404 riskleri."
+          },
+          {
+            "type": "h3",
+            "text": "Release öncesi teknik SEO QA checklist’i neler içermeli?"
+          },
+          {
+            "type": "p",
+            "text": "Minimum checklist; robots/sitemap doğrulama, canonical/hreflang kontrolü, status code (200/301/404) taraması, meta/head şablon doğrulaması, schema testleri, CWV ölçümü ve iç link/breadcrumb kontrolünü içermelidir. Ayrıca staging ile prod farkları (config drift) kontrol edilmelidir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo (1 adet): Teknik SEO QA Checklist (Özet)",
+            "headers": [
+              "Kontrol",
+              "Ne aranır?",
+              "Nerede test edilir?",
+              "Sık hata"
+            ],
+            "rows": [
+              [
+                "robots.txt",
+                "yanlış noindex",
+                "staging/prod",
+                "staging robots prod’a kalır"
+              ],
+              [
+                "sitemap",
+                "güncel URL listesi",
+                "GSC hazırlığı",
+                "eksik/çift URL"
+              ],
+              [
+                "canonical",
+                "self-canonical",
+                "kaynak kod",
+                "çapraz canonical"
+              ],
+              [
+                "hreflang",
+                "reciprocal",
+                "dil sayfaları",
+                "tek yönlü etiket"
+              ],
+              [
+                "schema",
+                "@graph valid",
+                "schema test",
+                "eksik FAQ/HowTo"
+              ],
+              [
+                "CWV",
+                "LCP/INP/CLS trend",
+                "pagespeed",
+                "ağır hero/JS"
+              ],
+              [
+                "404/301",
+                "bozuk link",
+                "crawl",
+                "redirect zinciri"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Staging’de SEO smoke test yapılıyor mu?",
+              "Schema doğrulaması release kapısı mı?",
+              "CWV hedefleri izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her release’te “SEO QA gate” çalıştır",
+              "En kritik 20 sayfa için hızlı crawl rutini koy",
+              "Go-live sonrası 72 saat “404 + index” izleme yap (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-dev-seo-workflow-ornekleri",
+        "title": "Otel ve B2B İçin Dev–SEO Workflow Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Süreç “tek tip” değildir; ama ortak iskelet aynı: brief → geliştirme → QA → yayın. Otel ve B2B’de farklılaşan kısım, kritik sayfa tipleri ve ölçüm noktalarıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel workflow (destinasyon/oda/rezervasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "IA + URL planı: destinasyon/oda/paket siloları",
+              "CWV: ağır görsel riskine özel optimizasyon",
+              "Schema: hotel/FAQ/Article (gerektiğinde)",
+              "Release QA: rezervasyon CTA + critical pages"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B workflow (hizmet/case/kaynaklar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "IA + URL planı: hizmet/çözüm/kaynaklar",
+              "Schema: service/article/faq",
+              "Ölçüm: lead form event + doküman indirme",
+              "Release QA: lead funnel ve internal link"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B projeleri için dev–SEO iş akışı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde SEO, görsel performans (CWV) ve destinasyon/oda silolarıyla birlikte planlanmalı; rezervasyon yolculuğu QA’nın parçası olmalıdır. B2B’de ise hizmet–case–kaynaklar kurgusu ve lead ölçümü daha kritiktir. Her iki durumda da SEO gereksinimleri kickoff’ta yazılmalı ve release öncesi SEO QA kapısı zorunlu olmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Statistics / Data Point",
+            "items": [
+              "SEO’nun proje başında sürece dahil edildiği projelerde, canlıya geçiş sonrası SEO revizyon maliyeti ve sıralama kaybı riski anlamlı şekilde azalıyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Jira/Trello’da SEO story’leri var mı?",
+              "Release checklist içinde SEO QA maddeleri var mı?",
+              "Go-live sonrası raporlama/monitoring planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Dev–SEO için tek bir workflow şablonu oluştur (Jira/Trello)",
+              "Kickoff ajandası standardı koy (aşağıda)",
+              "Release’e SEO QA gate ekle ve “bypass yok” yap"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Dev–SEO İş Birliği & Teknik SEO QA Analizi Talep Et",
+            "text": "Projenize uygun dev–SEO workflow’u ve release QA kapısını kurup launch riskini azaltalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Web Projesi Teknik SEO Gereksinim & QA” Şablonunu İndir",
+            "text": "Gereksinimleri tek dokümanda toplayıp Jira backlog’una çevirir; her release’te SEO QA gate çalıştırırsınız.",
+            "href": "/tr/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "dev-seo-kickoff-toplantisi-ajandasi",
+        "title": "Dev–SEO Kickoff Toplantısı Ajandası (Uygulanabilir Şablon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “hemen yarın” uygulanabilir olsun diye eklendi; çoğu içerikte eksik kalan pratik parçadır."
+          },
+          {
+            "type": "h3",
+            "text": "45–60 dakikalık ajanda"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "10 dk: hedef KPI + kritik sayfa tipleri (otel: oda/rezervasyon; B2B: lead/case)",
+              "10 dk: IA + URL standardı (slug/breadcrumb)",
+              "10 dk: render stratejisi + CWV hedefleri",
+              "10 dk: schema/hreflang planı",
+              "10 dk: release QA checklist + sahiplik (RACI)",
+              "5 dk: go-live sonrası izleme (GSC/404/CWV)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ajandada “karar” çıkarılıyor mu, yoksa sohbet mi?",
+              "Çıktı dokümanları sprint backlog’una giriyor mu?",
+              "QA gate sahipliği net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kickoff notlarını tek dokümana kilitle",
+              "SEO gereksinimlerini user story’ye çevir",
+              "QA gate’i CI/CD pipeline’a bağla (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "web-projesi-teknik-seo-gereksinim-qa-sablonu",
+        "title": "“Web Projesi Teknik SEO Gereksinim & QA” Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "“Web Projesi Teknik SEO Gereksinim & QA” Şablonunu İndir — Yazılım / Teknik SEO (v1.0)",
+            "purpose": "Bu şablon, teknik SEO’yu proje başında dev sürecine entegre etmek için URL/IA, head/meta, schema, hreflang ve CWV gereksinimlerini tek dokümanda toplar. Release öncesi SEO QA kapısını (gate) checklist’e dönüştürür ve Jira/Trello workflow’una aktarılabilir hale getirir. Otel ve B2B projelerinde sonradan pahalı revizyonları ve lansman sonrası riskleri azaltmayı hedefler.",
+            "whoFor": "SEO uzmanı, tech lead, ajans PM, QA ve içerik lideri.",
+            "steps": [
+              "Gereksinim alanlarını doldurun ve sayfa tiplerine göre standardı kilitleyin.",
+              "SEO QA checklist’ini staging’de çalıştırıp bulguları backlog’a yazın.",
+              "Her release’te QA gate’i işletin; go-live sonrası raporlama rutinini başlatın."
+            ],
+            "template": [
+              {
+                "title": "1) IA + URL Standardı",
+                "items": [
+                  "Silo/cluster haritası: __________________",
+                  "URL/slug kuralı: ________________________",
+                  "Breadcrumb kuralı: _______________________"
+                ]
+              },
+              {
+                "title": "2) Render & CWV Hedefleri",
+                "items": [
+                  "Render stratejisi (SSR/SSG/ISR): _________",
+                  "LCP/INP/CLS hedef notu: __________________",
+                  "Kritik sayfalar listesi (Top 20): __________"
+                ]
+              },
+              {
+                "title": "3) Head / Meta Standardı",
+                "items": [
+                  "Title şablonu: __________________________",
+                  "Meta description şablonu: ________________",
+                  "OpenGraph/preview: ______________________"
+                ]
+              },
+              {
+                "title": "4) Schema Planı",
+                "items": [
+                  "Zorunlu: WebSite/WebPage/Article/Breadcrumb/FAQ",
+                  "Ek: HowTo/Service/QAPage/speakable: ______",
+                  "Test aracı/akışı: ________________________"
+                ]
+              },
+              {
+                "title": "5) Hreflang (Varsa)",
+                "items": [
+                  "Locale yapısı: __________________________",
+                  "Reciprocal kuralı: _______________________",
+                  "Canonical uyumu: ________________________"
+                ]
+              },
+              {
+                "title": "6) Release Öncesi SEO QA Checklist",
+                "items": [
+                  "robots/sitemap doğrulandı",
+                  "canonical/hreflang kontrol edildi",
+                  "status code taraması (404/301 zinciri)",
+                  "schema valid",
+                  "CWV ölçümü alındı",
+                  "iç link/breadcrumb test edildi"
+                ]
+              },
+              {
+                "title": "7) Workflow (Jira/Trello)",
+                "items": [
+                  "Ticket tipleri: [ ] SEO Req [ ] SEO QA [ ] SEO Fix",
+                  "Sahiplik (RACI): ________________________"
+                ]
+              }
+            ],
+            "rules": [
+              "URL/IA kararını kod başlamadan kilitleyin.",
+              "Schema ve head standardı “component” gibi ele alın; tekrarlanabilir olsun.",
+              "CWV hedeflerini sayfa tipine göre belirleyin; hero görseli ve JS riskini planlayın.",
+              "Hreflang varsa reciprocal + canonical uyumunu QA gate’e ekleyin.",
+              "QA bulgularını backlog’a yazmadan “tamam” demeyin."
+            ],
+            "example": [
+              "URL: /tr/yazilim/… + breadcrumb standard",
+              "Schema: Article+FAQ her blogda, Service hizmet sayfasında",
+              "QA gate: staging’de robots/canonical/schema + CWV"
+            ],
+            "checklist": [
+              "Gereksinim dokümanı onaylandı",
+              "QA gate release sürecine eklendi",
+              "Sahiplik net (RACI)",
+              "Go-live sonrası raporlama planı var"
+            ],
+            "deliverables": [
+              "SEO gereksinim dokümanı",
+              "Release SEO QA checklist",
+              "Jira/Trello workflow şablonu",
+              "Buraya: Workflow diyagram görseli",
+              "Buraya: QA checklist kartı görseli"
+            ],
+            "href": "/downloads/web-projesi-teknik-seo-gereksinim-qa-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Teknik SEO en iyi proje başında çözülür",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Teknik SEO, web projesinin sonunda eklenen bir kontrol listesi değil; URL, render, head, schema, hreflang ve performans kararlarıyla birlikte şekillenen mimari bir disiplindir. Dev ve SEO ekipleri proje başında hizalanırsa, canlıya çıkış sonrası revizyon maliyeti, 404/redirect riski, indeks hataları ve sıralama kaybı ihtimali azalır."
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde destinasyon/oda siloları, görsel ağırlığı ve rezervasyon akışı; B2B projelerinde hizmet/case/kaynak yapısı, lead ölçümü ve içerik cluster’ları teknik SEO’nun doğrudan etkilediği alanlardır. Bu yüzden doğru model; kickoff dokümanı, backlog’a giren SEO story’leri ve release öncesi SEO QA gate ile kurulmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Dev–SEO İş Birliği & Teknik SEO QA Analizi Talep Et",
+            "text": "URL, CWV, schema ve hreflang planınızı baştan kilitleyip release öncesi SEO QA kapısı kuralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Web Projesi Teknik SEO Gereksinim & QA” Şablonunu İndir",
+            "text": "Gereksinimleri tek dokümanda toplayıp Jira backlog’una çevirir; her release’te SEO QA gate çalıştırırsınız.",
+            "href": "/tr/seo/teknik-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Geliştirici ve SEO ekipleri web projelerinde nasıl birlikte çalışmalı?",
+        "a": "Proje başında ortak kickoff yapıp URL/IA, CWV hedefleri, schema ve hreflang gereksinimlerini yazılı hale getirmelidir. Release öncesi teknik SEO QA kapısı ile staging’de doğrulama yapılmalıdır."
+      },
+      {
+        "q": "Teknik SEO gereksinimleri projeye ne zaman dahil edilmeli?",
+        "a": "En erken aşamada, kickoff’ta. Çünkü URL, render stratejisi, schema ve hreflang gibi kararlar kodla birlikte şekillenir; sonradan eklemek pahalıdır."
+      },
+      {
+        "q": "Release öncesi teknik SEO QA checklist’i neler içermeli?",
+        "a": "robots/sitemap, canonical/hreflang, status code taraması (404/301 zinciri), schema doğrulama, CWV ölçümü ve breadcrumb/iç link kontrolleri minimum settir."
+      },
+      {
+        "q": "Otel ve B2B projeleri için dev–SEO iş akışı nasıl olmalı?",
+        "a": "Otelde destinasyon/oda siloları ve CWV (görsel ağırlığı) kritik; B2B’de hizmet/case/kaynaklar ve lead ölçümü kritik olur. Her iki modelde de kickoff dokümanı + QA gate zorunlu olmalıdır."
+      },
+      {
+        "q": "“Siteyi yaptık, sonra SEO yapabilir miyiz?”",
+        "a": "Evet ama genelde pahalı olur; URL ve mimari değişikliği gerekebilir. En iyi yaklaşım SEO’yu baştan planlayıp dev sürecine entegre etmektir."
+      },
+      {
+        "q": "Dev ekibi SEO’yu neden “sonradan eklenemez” görüyor?",
+        "a": "Çünkü birçok SEO konusu kod davranışına bağlıdır: render, routing, head yönetimi, schema ve hreflang. Bu alanlar baştan planlanmazsa yeniden çalışma çıkar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-hero-01.webp — alt text: “Dev–SEO iş birliği kapak görseli, otel ve B2B’de launch-safe teknik SEO süreci”",
+          "h1-context — 1920×1080 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-h1-context-02.webp — alt text: “Teknik SEO gereksinim planlama bağlamı, URL ve schema kararlarını baştan kilitleme”",
+          "divider-01 — 1600×1200 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-divider-03.webp — alt text: “Dev–SEO iş birliği önemi bölüm ayırıcı, otel ve B2B’de pahalı SEO hatalarını önleme”",
+          "divider-02 — 1600×1200 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-divider-04.webp — alt text: “Release öncesi SEO QA bölüm ayırıcı, kontrollü yayına alma”",
+          "diagram-05 — 1920×1080 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-diagram-05.webp — alt text: “Dev–SEO iş akışı diyagramı, brief’ten QA’ya teknik SEO entegrasyonu”",
+          "checklist-06 — 1200×1200 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-checklist-06.webp — alt text: “Teknik SEO QA checklist kartı, otel ve B2B release öncesi kontrol”",
+          "kpi-07 — 1200×1200 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-kpi-07.webp — alt text: “Release sonrası SEO revizyon maliyeti ve risk KPI kartı, launch-safe web projeleri”",
+          "proof-08 — 1200×1200 — gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek-proof-08.webp — alt text: “Dev–SEO kickoff ve QA deliverables kanıt kartı, otel ve B2B teknik SEO süreci”",
+          "table-teknik-seo-qa-checklist — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "SEO gereksinim dokümanı proje başında oluşturuldu",
+          "URL/slug ve breadcrumb standardı kilitlendi",
+          "Render stratejisi (SSR/SSG/ISR) SEO ile birlikte değerlendirildi",
+          "Head/meta şablonları sayfa tiplerine göre tanımlandı",
+          "Schema seti ve test yöntemi belirlendi",
+          "Hreflang reciprocal + canonical uyumu release QA’ya eklendi",
+          "robots.txt ve sitemap staging/prod farkı kontrol edildi",
+          "Canonical ve status code taraması yapıldı",
+          "CWV hedefleri ve kritik sayfa listesi çıkarıldı",
+          "SEO QA gate release sürecine eklendi",
+          "Go-live sonrası 72 saat 404 + index izleme planlandı",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok"
         ]
       }
     }
