@@ -43,7 +43,7 @@
     },
     "h1": {
       "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
-      "intro": "Sosyal medya hesabı büyütmenin en büyük tuzağı şudur: “Bugün ne paylaşsak?” sorusunu her gün yeniden sormak. Bu yaklaşım kısa vadede hareket üretir ama orta vadede marka dilini bozar, ekip motivasyonunu düşürür ve en önemlisi ölçümü zorlaştırır. Çünkü içerikler bir “sistem” değil, “tekil fikirler” olarak akar.\n\nBu yazıda; content pillars (içerik kategorileri) ile stratejiyi nasıl kuracağınızı, post/story/reels/video/carousel dengesini nasıl planlayacağınızı ve otel/destinasyon markaları ile B2B hizmet markaları için örnek pillar setlerini adım adım göreceksiniz. ",
+      "intro": "Sosyal medya hesabı büyütmenin en büyük tuzağı şudur: “Bugün ne paylaşsak?” sorusunu her gün yeniden sormak. Bu yaklaşım kısa vadede hareket üretir ama orta vadede marka dilini bozar, ekip motivasyonunu düşürür ve en önemlisi ölçümü zorlaştırır. Çünkü içerikler bir “sistem” değil, “tekil fikirler” olarak akar.\n\nBu yazıda; [sosyal medya content pillars](/tr/smm/icerik-uretimi) yaklaşımıyla stratejiyi nasıl kuracağınızı, post/story/reels/video/carousel dengesini nasıl planlayacağınızı ve otel/destinasyon markaları ile B2B hizmet markaları için örnek pillar setlerini adım adım göreceksiniz.",
       "ctaPrimary": {
         "label": "İçerik Stratejisi & Content Pillars Analizi Talep Et",
         "text": "Marka türünüze (otel/B2B) göre pillar setini ve format dengesini 30 gün içinde netleştirmek isteyen ekipler için.",
@@ -64,16 +64,40 @@
     },
     "internalLinks": [
       {
-        "label": "/tr/smm/icerik-uretimi",
+        "label": "İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "/tr/smm/planlama-strateji",
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Planlama & Strateji",
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "/tr/seo/icerik-seo",
+        "label": "Aylık Sosyal Medya İçerik Takvimi",
+        "href": "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
+      },
+      {
+        "label": "Sosyal Medya Caption Yazımı",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      },
+      {
+        "label": "Funnel Bazlı İçerik Üretimi",
+        "href": "/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
+      },
+      {
+        "label": "İçerik SEO",
         "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "sections": [
@@ -92,6 +116,10 @@
           {
             "type": "p",
             "text": "Bir otel için “oda” içerikleri tek başına pillar değildir; “oda” pillar’ının içine; oda tipi anlatımı, oda içi deneyim, fiyat/teklif mantığı, SSS, rezervasyon güveni gibi alt temalar girer. Bir B2B ajans için de “hizmet” pillar’ı tek başına yetmez; case study, know-how, süreç, ekip, perde arkası gibi alt kategoriler gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden pillar yapısını, yalnız içerik listesi gibi değil; [sosyal medya yönetimi içinde içerik stratejisi](/tr/sosyal-medya-yonetimi) olarak düşünmek gerekir. Paylaşım takvimi, marka dili, hedef kitle beklentisi ve kanal seçimi aynı omurgaya bağlanmadığında format dengesi kısa sürede dağılır."
           },
           {
             "type": "media",
@@ -159,6 +187,10 @@
           {
             "type": "p",
             "text": "Pillar tasarımında en sağlam yol: persona sorunlarını içerik vaadine çevirmektir.\n\t•\tOtel (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda):\n\t•\tProblem: “Benzer oteller arasında fark görünmüyor.”\n\t•\tİçerik vaadi: “Deneyimi netleştir, güven üret, rezervasyona giden yolu kısalt.”\n\t•\tB2B hizmet markası (ajans/teknoloji):\n\t•\tProblem: “Hizmet var ama somut sonuç ve süreç görünmüyor.”\n\t•\tİçerik vaadi: “Süreci şeffaflaştır, kanıt göster, karar riskini azalt.”"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik soru aslında [içerik kategorisi nasıl belirlenir](/tr/smm/planlama-strateji) sorusudur. Eğer persona problemi, ticari hedef ve marka dili aynı tabloda buluşmuyorsa pillar’lar kısa sürede rastgele başlıklara dönüşür."
           },
           {
             "type": "media",
@@ -272,6 +304,10 @@
             "text": "Kısa cevap: Tek doğru oran yok; oranı hedef KPI + üretim kapasitesi + içerik türü belirler.\nBaşlangıç için güvenli yaklaşım: Reels/video keşfi büyütür, carousel bilgiyi taşır, story ilişkiyi güçlendirir, post ise kimliği sabitler; 30 gün test edip pillar bazında optimize edin."
           },
           {
+            "type": "p",
+            "text": "Pratikte [post, story ve reels dengesi](/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya) her markada aynı kurulmaz; çünkü üst funnel’da keşif alan formatlarla, alt funnel’da güven ve teklif taşıyan formatların rolü farklıdır."
+          },
+          {
             "type": "h3",
             "text": "Formatların rolü (hızlı karar matrisi)"
           },
@@ -354,6 +390,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki set, Türkiye geneli otellerde çok sık çalışır; destinasyon örneklerini Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerle “doğal” bağlayabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu örnekleri birebir kopyalamak yerine, [oteller için sosyal medya içerik stratejisi](/tr/otel/sosyal-medya) mantığıyla sezon, misafir profili, kampanya dönemi ve rezervasyon hedeflerine göre yeniden dağıtmak daha sağlıklıdır."
           },
           {
             "type": "h3",
@@ -520,6 +560,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu akışı operasyonel hale getirmek için ayrı bir [aylık sosyal medya içerik takvimi](/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur) sistemi kurmanız gerekir; yoksa pillar seti doğru olsa bile yayın ritmi kısa sürede dağılır."
+          },
+          {
             "type": "media",
             "slot": "30-days"
           },
@@ -539,6 +583,14 @@
               "Cts: UGC/story (sosyal kanıt)",
               "Paz: “Haftanın özeti” (story + kısa video)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Takvim dolduktan sonra iş sadece konu planı değildir; her başlığın metin tarafında da tutarlılık gerekir. Bu yüzden hook, mesaj akışı ve CTA seviyesinde [sosyal medya caption yazımı](/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi) disiplini ayrıca tanımlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Eğer blog ve sosyal medya aynı tema mimarisinden beslenecekse, [SEO içerik stratejisiyle uyumlu sosyal medya temaları](/tr/seo/icerik-seo) kurmak hem tekrar üretimi azaltır hem de markanın arama ve sosyal görünürlüğünü aynı konu kümeleri etrafında güçlendirir."
           },
           {
             "type": "h3",
@@ -581,6 +633,10 @@
           {
             "type": "p",
             "text": "Content pillars; sosyal medyada “ne anlatıyoruz?” sorusunun kalıcı cevabıdır. Format dengesi ise “nasıl anlatıyoruz?” kısmını çözer. Bu ikisini takvim dağılımı ve KPI ölçümüyle birleştirdiğinizde; içerik üretimi stres değil, yönetilebilir bir süreç olur. Özellikle otel ve B2B markalarda; sosyal kanıt + know-how + SSS/güven katmanları olmadan satış odaklı içerikler tek başına sürdürülebilir performans vermez."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı ekibinize uygun biçimde kurmak isterseniz [profesyonel sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle pillar setinizi, format dağılımınızı ve aylık üretim akışınızı netleştirebilirsiniz. Sürecin kapsamı ve çalışma modeli için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası da karar aşamasında iyi bir referans olur."
           },
           {
             "type": "cta",
@@ -813,7 +869,7 @@
     },
     "h1": {
       "title": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
-      "intro": "Sosyal medya üretiminde en pahalı şey “fazla iş” değil; plansızlık yüzünden tekrar iş üretmektir. Bugün çekilen içerik yarın kampanya değiştiği için çöpe gider; tasarım revizyonu uzar; onay beklerken yayın günü kaçar. Bu döngüyü kıran en pratik sistem: aylık içerik takvimi + durum akışı + raporlamayla beslenen revizyon döngüsüdür.\n\nBu rehberde; takvimin hangi sütunlarla kurulacağını, otel ve B2B markalar için örnek ritmi, onay–revizyon akışını ve performans verisiyle takvimi nasıl güncelleyeceğinizi adım adım anlatacağım.\nBuraya: İç link merkezi — /tr/smm/icerik-uretimi",
+      "intro": "Sosyal medya üretiminde en pahalı şey “fazla iş” değil; plansızlık yüzünden tekrar iş üretmektir. Bugün çekilen içerik yarın kampanya değiştiği için çöpe gider; tasarım revizyonu uzar; onay beklerken yayın günü kaçar. Bu döngüyü kıran en pratik sistem: [aylık sosyal medya içerik takvimi](/tr/smm/icerik-uretimi) mantığıyla çalışan durum akışı ve raporlamayla beslenen revizyon döngüsüdür.\n\nBu rehberde; takvimin hangi sütunlarla kurulacağını, otel ve B2B markalar için örnek ritmi, onay–revizyon akışını ve performans verisiyle takvimi nasıl güncelleyeceğinizi adım adım anlatacağım.",
       "ctaPrimary": {
         "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
         "text": "Ekibinizin üretim kapasitesine göre sütun yapısı, onay akışı ve aylık ritmi netleştirmek isteyen otel/B2B ekipleri için. (Hedef: /tr/smm/icerik-uretimi)",
@@ -838,12 +894,36 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya İçerik Stratejisi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
         "label": "Planlama & Strateji",
         "href": "/tr/smm/planlama-strateji"
       },
       {
+        "label": "Mini Seriler ve Haftalık Formatlar",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
+      },
+      {
+        "label": "Funnel Bazlı İçerik Üretimi",
+        "href": "/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
+      },
+      {
         "label": "Analiz & Raporlama",
         "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "sections": [
@@ -857,7 +937,7 @@
           },
           {
             "type": "p",
-            "text": "Bu rehberde; takvimin hangi sütunlarla kurulacağını, otel ve B2B markalar için örnek ritmi, onay–revizyon akışını ve performans verisiyle takvimi nasıl güncelleyeceğinizi adım adım anlatacağım.\nBuraya: İç link merkezi — /tr/smm/icerik-uretimi"
+            "text": "Bu rehberde; takvimin hangi sütunlarla kurulacağını, otel ve B2B markalar için örnek ritmi, onay–revizyon akışını ve performans verisiyle takvimi nasıl güncelleyeceğinizi adım adım anlatacağım."
           },
           {
             "type": "cta",
@@ -879,6 +959,10 @@
           {
             "type": "p",
             "text": "Otel tarafında takvim; sezon, doluluk, kampanya ve deneyim yoğunluğu ile birlikte yürür. B2B tarafında ise “case/know-how/offer” dengesini koruyarak pipeline’ı besler. Türkiye geneli çalışan markalarda (özellikle destinasyon odaklı otellerde) bu sistem, yoğun haftalarda bile yayın tutarlılığını korumanın en kısa yoludur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden takvimi sadece paylaşım listesi gibi değil; [sosyal medya yönetimi sürecinde içerik takvimi](/tr/sosyal-medya-yonetimi) olarak düşünmek gerekir. Ayrıca hedef kitle, marka dili ve kampanya önceliği netleşmeden hazırlanan planlar kısa sürede dağılır; bu noktada [stratejiye bağlı sosyal medya içerik planı](/tr/smm/planlama-strateji) yaklaşımı belirleyici olur."
           },
           {
             "type": "h3",
@@ -929,6 +1013,10 @@
             "text": "Aşağıdaki 6 sütun, takvimi “plan” haline getirir:\n\t1.\tTarih / Saat\n\t2.\tKanal (IG/TT/LI/X/YT)\n\t3.\tFormat (Reels/Story/Carousel/Post/Video)\n\t4.\tKonu / Mesaj (1 cümle net)\n\t5.\tContent Pillar (kategori)\n\t6.\tDil (TR/EN/DE/RU gibi) (Varsayım: çoklu dil varsa)"
           },
           {
+            "type": "p",
+            "text": "Bu çekirdeği kurarken, [içerik takviminde hangi sütunlar olmalı](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) sorusunu pillar yapısı, format dengesi ve içerik amacıyla birlikte düşünmek gerekir; aksi halde takvim dolu görünür ama stratejik olarak boş kalır."
+          },
+          {
             "type": "media",
             "slot": "sheets-excel"
           },
@@ -947,6 +1035,10 @@
           {
             "type": "p",
             "text": "\t•\tB2B: Funnel aşaması (ToFu/MoFu/BoFu), CTA türü (Link/DM/Yorum)\n\t•\tOtel: konsept/deneyim alanı (spa, beach, kids, gastronomi), destinasyon etiketi (Antalya/Belek/Side/Kemer/Bodrum)"
+          },
+          {
+            "type": "p",
+            "text": "Takvimde farkındalık, değerlendirme ve teklif içeriklerini gerçekten dengelemek istiyorsanız bu sütunları [funnel bazlı içerik planı](/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya) mantığıyla standardize etmek işinizi ciddi biçimde kolaylaştırır."
           },
           {
             "type": "media",
@@ -989,12 +1081,20 @@
             "text": "Takvim kurarken hedef “her gün içerik” değil; sürdürülebilir ritimdir. Aşağıdaki örnekler, Intermediate seviye ekipler için gerçekçidir."
           },
           {
+            "type": "p",
+            "text": "Bu ritmi sürdürülebilir yapan şey, takvimi sadece tekil post listesi gibi değil; [haftalık sosyal medya formatları](/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama) ve tekrar eden mini seriler etrafında kurmaktır."
+          },
+          {
             "type": "h3",
             "text": "Otel için örnek haftalık yayın ritmi (Varsayım)"
           },
           {
             "type": "p",
             "text": "\t•\tReels/Shorts: 2–3 / hafta (deneyim, destinasyon, kulis)\n\t•\tStory: 4–6 gün / hafta (anket, soru kutusu, repost, mini duyuru)\n\t•\tCarousel: 1–2 / hafta (SSS, oda/konsept açıklaması, rota)\n\t•\tPost: 1 / hafta (kampanya, net teklif, brand message)"
+          },
+          {
+            "type": "p",
+            "text": "Sezon, kampanya, restoran, spa, etkinlik ve misafir deneyimi yoğunluğu olan yapılarda bu dağılımı ayrı senaryolarla düşünmek gerekir; bu yüzden [otel aylık içerik planı](/tr/otel/sosyal-medya) mantığı genel takvim yaklaşımından biraz daha ticari ve dönemsel ele alınmalıdır."
           },
           {
             "type": "media",
@@ -1102,6 +1202,10 @@
             "text": "Aylık takvim “bir kere yap, unut” değildir. Asıl değer; raporlamanın takvime geri akmasıdır. Aynı takvim yapısı performans verileriyle eşleştiğinde; hangi gün/format/pillar kombinasyonunun daha iyi çalıştığı kolayca görünür (sheet notu)."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [performansa göre içerik takvimi güncelleme](/tr/smm/analiz-raporlama) disiplini olmadan yeni aya geçmek, aynı konu ve format hatalarını tekrar etmeye yol açar."
+          },
+          {
             "type": "h3",
             "text": "Takvimde raporlamaya bağlanacak alanlar"
           },
@@ -1194,6 +1298,10 @@
           {
             "type": "p",
             "text": "Aylık içerik takvimi; hem otelleri (sezon/kampanya yoğunluğu) hem de B2B markaları (know-how + kanıt + offer dengesi) “son dakika” döngüsünden çıkarır. Takvimde doğru sütunlar, net durum akışı ve ay sonu raporlamayla beslenen revizyon modeli kurulduğunda; yayın tutarlılığı artar, revizyon azalır, ekip daha hızlı üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu süreci ekip yapınıza göre kurmak isterseniz [profesyonel sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle aylık takvim sisteminizi, onay akışınızı ve yayın ritminizi standardize edebilirsiniz. Hizmet kapsamı ve çalışma modeli için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası da karar vermeyi kolaylaştırır."
           },
           {
             "type": "cta",
@@ -1436,7 +1544,7 @@
     },
     "h1": {
       "title": "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
-      "intro": "Sosyal medyada içerikleriniz iyi olabilir; başlıklar düzgün, fikirler güçlü, videolar kaliteli… ama yine de hesap “dağınık” görünüyorsa problem genelde içerikte değil görsel standartta olur. Kullanıcılar Instagram’da (ve hatta LinkedIn’de) hesabınıza 3–5 saniye bakıp şu kararı verir: “Bu marka profesyonel mi? Tanınır mı? Güven verir mi?” Bu kararın büyük kısmı, metinden önce görsel dil ile şekillenir.\n\nBu rehberde; marka kimliğini sosyal medyada korumak için renk paleti, tipografi, foto/video stil rehberi, grid pattern’leri ve format tutarlılığı adımlarını netleştireceğiz. Otel ve B2B markaları için uygulanabilir örnekler, mini stil kılavuzu ve feed mockup’ı üzerinden ilerleyeceğiz.",
+      "intro": "Sosyal medyada içerikleriniz iyi olabilir; başlıklar düzgün, fikirler güçlü, videolar kaliteli… ama yine de hesap “dağınık” görünüyorsa problem genelde içerikte değil görsel standartta olur. Kullanıcılar Instagram’da (ve hatta LinkedIn’de) hesabınıza 3–5 saniye bakıp şu kararı verir: “Bu marka profesyonel mi? Tanınır mı? Güven verir mi?” Bu kararın büyük kısmı, metinden önce görsel dil ile şekillenir.\n\nBu rehberde; [Instagram feed marka kimliği](/tr/smm/icerik-uretimi) yaklaşımıyla marka kimliğini sosyal medyada korumak için renk paleti, tipografi, foto/video stil rehberi, grid pattern’leri ve format tutarlılığı adımlarını netleştireceğiz. Otel ve B2B markaları için uygulanabilir örnekler, mini stil kılavuzu ve feed mockup’ı üzerinden ilerleyeceğiz.",
       "quickSummary": [
         "1) Renk paleti, tipografi ve foto/video stilini kilitle",
         "2) Brand guideline’ı sosyal medya guideline’a çevir",
@@ -1459,7 +1567,7 @@
       "secondary": {
         "label": "Sosyal Medya Stil & Feed Tasarım Şablonunu İndir",
         "text": "Ekibinize kılavuz gibi verin; 1 günde renk–tipografi–pattern standartlarını çıkarırsınız.",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "href": "/downloads/sosyal-medya-stil-feed-tasarım-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -1468,12 +1576,36 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Tasarım Şablonları",
+        "href": "/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi"
+      },
+      {
+        "label": "Stok Görsel mi Özgün İçerik mi",
+        "href": "/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu"
+      },
+      {
+        "label": "Sosyal Kanıt İçerikleri",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      },
+      {
         "label": "Grafik & Motion Tasarım",
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "SMM",
-        "href": "/tr/smm"
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [],
@@ -1491,12 +1623,20 @@
             "text": "Otel tarafında bu etki daha da kritiktir: Antalya, Belek, Kemer, Bodrum gibi destinasyonlarda benzer sahil/oda görselleri arasında fark yaratmak için “güzel foto” yetmez; aynı kaliteyi her paylaşımda sürdüren bir dil gerekir. B2B tarafında ise güven ve otorite, “düzenli ve profesyonel görünüm” sinyaliyle başlar."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde feed tutarlılığı](/tr/sosyal-medya-yonetimi) yalnız tasarım konusu değildir; marka algısı, yayın ritmi ve profil dönüşümüyle birlikte düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Sosyal medyada marka kimliği nasıl korunur?"
           },
           {
             "type": "p",
             "text": "Kısa cevap: Marka kimliğini korumak için 4 şey sabitlenir: renk paleti, tipografi, foto/video stil rehberi ve grid/pattern sistemi.\nBunlar sabitlenince içerik ekibi “her paylaşımda sıfırdan tasarım” yapmaz; aynı dili tekrar eder. Tekrar = tanınabilirlik demektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu temel kararları sosyal medya özelinde netleştirmenin en sağlıklı yolu, [sosyal medya için renk paleti](/tr/creative-ve-tasarim), logo kullanımı, tipografi ve görsel sistemi daha geniş Creative & Tasarım çerçevesi içinde tanımlamaktır."
           },
           {
             "type": "h3",
@@ -1592,6 +1732,10 @@
             "text": "Otel feed’i çoğu zaman fotoğraf ağırlıklıdır; bu yüzden “fotoğraf dili” kimliğin %60’ıdır. B2B’de ise görsel dil; grafik, ekran görüntüsü ve insan odaklı içeriklerin dengesiyle kurulur."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [stok ve özgün görsel dengesi](/tr/smm/blog/stok-gorsel-mi-ozgun-icerik-mi-dengeli-sosyal-medya-feed-kurulumu) kritik hale gelir; çünkü fazla stok kullanımında marka anonimleşir, tamamen özgün üretimde ise operasyon zorlaşabilir."
+          },
+          {
             "type": "h4",
             "text": "Foto/video stil rehberi maddeleri"
           },
@@ -1657,6 +1801,14 @@
           {
             "type": "p",
             "text": "Ayda 4 kez tekrarlanan seri: “Haftanın Odası”, “Haftanın Deneyimi”, “Haftanın Rota Önerisi”, “Haftanın SSS’si”."
+          },
+          {
+            "type": "p",
+            "text": "Bu düzeni ekip içinde sürdürülebilir hale getirmek için [ölçeklenebilir sosyal medya tasarım şablonları](/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi) kullanmak gerekir; böylece her postta tasarımı sıfırdan kurmak yerine aynı sistemi çoğaltabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Feed’i yalnız estetik değil, güven üretimi açısından da planlamak önemlidir. Özellikle review, testimonial ve case benzeri [sosyal kanıt içerikleri](/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar) düzenin içine doğru yerleştirildiğinde marka algısını güçlendirir."
           },
           {
             "type": "media",
@@ -1743,6 +1895,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Story geçişleri, animasyonlu başlıklar, hareketli CTA alanları ve reels kapak sistemi söz konusu olduğunda [marka kimliğine uygun grafik ve motion tasarım](/tr/creative/grafik-motion-tasarim) desteği feed bütünlüğünü belirgin biçimde güçlendirebilir."
+          },
+          {
             "type": "h4",
             "text": "Story’de kimliği koruma (hızlı yöntem)"
           },
@@ -1797,6 +1953,10 @@
             "text": "• Renk: sıcak nötr + 1 deniz tonu accent\n• Tipografi: zarif başlık + okunur gövde\n• Foto stili: doğal ışık, temiz ton, fazla filtre yok\n• Grid: alternasyon + haftalık seri\n• CTA: “DM/WhatsApp ile hızlı bilgi” (sezonda pratik)"
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımı sektörel olarak uygularken [otel hesabında grid tasarımı](/tr/otel/sosyal-medya) mantığıyla oda, restoran, spa ve destinasyon görsellerinin aynı kimlik altında akmasını sağlamak gerekir."
+          },
+          {
             "type": "media",
             "slot": "visual-language-guide"
           },
@@ -1820,7 +1980,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Görsel dil “estetik” kadar “düzen”dir. Blog içindeki örnek görsellerin dosya adları ve alt metinleri; ileride Creative ve SEO sayfalarıyla da uyumlu olmalı. (Buraya: /tr/creative/grafik-motion-tasarim) ve SMM içerik akışıyla standardize edilmelidir. (Buraya: /tr/smm)\n\nVarsayım: Görsel dosya adlarında tireli, açıklayıcı ve Türkçe karakter içermeyen yapı tercih edilir."
+            "text": "Görsel dil “estetik” kadar “düzen”dir. Blog içindeki örnek görsellerin dosya adları ve alt metinleri; ileride Creative üretim akışıyla ve sosyal medya içerik operasyonuyla uyumlu olmalı.\n\nVarsayım: Görsel dosya adlarında tireli, açıklayıcı ve Türkçe karakter içermeyen yapı tercih edilir."
           },
           {
             "type": "h3",
@@ -1857,6 +2017,10 @@
             "text": "Marka kimliği sosyal medyada; tek tek postlardan değil, bütün olarak tutarlı görünen bir sistemden anlaşılır. Renk paleti, tipografi ve foto/video stilini sabitlediğinizde; grid pattern’leriyle tekrar eden düzen kurduğunuzda ve post–story–reels tutarlılığını sağladığınızda; içerikleriniz hem daha profesyonel görünür hem de marka daha hızlı tanınır. Otel ve B2B’de bu fark, “güzel içerik” ile “güven veren marka” arasındaki çizgidir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı markanıza göre sistemleştirmek isterseniz [profesyonel sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle görsel dilinizi, format kurallarınızı ve feed standardınızı netleştirebilirsiniz. Sürecin kapsamı ve çalışma modeli için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası da karar aşamasında yardımcı olur."
+          },
+          {
             "type": "media",
             "slot": ""
           },
@@ -1872,7 +2036,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Stil & Feed Tasarım Şablonunu İndir",
             "text": "Ekibinize görev listesi gibi dağıtın; 1 günde görsel dil standardını çıkarıp revizyonları azaltırsınız.",
-            "href": "/tr/creative/grafik-motion-tasarim"
+            "href": "/downloads/sosyal-medya-stil-feed-tasarım-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -1985,7 +2149,7 @@
     },
     "h1": {
       "title": "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
-      "intro": "Otel sosyal medya yönetiminde sorun çoğu zaman “ekip yok” değil; sistem yoktur. Her gün “bugün ne paylaşacağız?” sorusuyla ilerleyen hesaplar, sezon ortasında tıkanır ve feed tutarlılığı bozulur. Çözüm; içerikleri tek tek değil, paket gibi düşünmektir: her ay tekrar edilebilir bir 20 içerik iskeleti kurarsınız, sonra sadece sezona/konsepte göre uyarlarsınız.\n\nBu rehberde; otel ve turizm markaları için 1 ayda 20 içerik modelini (8 post + 8 reels + 4 story serisi) tema/format dengesiyle kuracağız. Oda, deneyim, destinasyon ve SSS içeriklerini rezervasyon hunisine göre dağıtıp; örnek takvim, görsel/metin iskeletleri ve sezonluk uyarlama mantığını vereceğim.",
+      "intro": "Otel sosyal medya yönetiminde sorun çoğu zaman “ekip yok” değil; sistem yoktur. Her gün “bugün ne paylaşacağız?” sorusuyla ilerleyen hesaplar, sezon ortasında tıkanır ve feed tutarlılığı bozulur. Çözüm; [otel sosyal medya 1 ay 20 içerik](/tr/smm/icerik-uretimi) mantığıyla içerikleri tek tek değil, paket gibi düşünmektir: her ay tekrar edilebilir bir 20 içerik iskeleti kurarsınız, sonra sadece sezona/konsepte göre uyarlarsınız.\n\nBu rehberde; otel ve turizm markaları için 1 ayda 20 içerik modelini (8 post + 8 reels + 4 story serisi) tema/format dengesiyle kuracağız. Oda, deneyim, destinasyon ve SSS içeriklerini rezervasyon hunisine göre dağıtıp; örnek takvim, görsel/metin iskeletleri ve sezonluk uyarlama mantığını vereceğim.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Otel İçerik Paketi & Aylık Model Analizi Talep Et",
@@ -1996,13 +2160,13 @@
     "ctaModule": {
       "primary": {
         "label": "Otel İçerik Paketi & Aylık Model Analizi Talep Et",
-        "text": "(1 cümle fayda + kim için)",
+        "text": "Otel ve turizm markalarında 20 içeriklik aylık üretim sistemini tema, format ve çekim planıyla netleştirmek isteyen ekipler için.",
         "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
-        "label": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir",
-        "text": "(ne işe yarar? 1 cümle)",
-        "href": "/tr/otel/sosyal-medya"
+        "label": "Otel Instagram İçerik Takvimi Örneğini İndir",
+        "text": "20 içeriklik paketi haftalara, formatlara ve CTA'lara dağıtan örnek takvimi ekip içinde hızlıca uyarlamanızı sağlar.",
+        "href": "/downloads/otel-instagram-icerik-takvimi-örnegi-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -2011,12 +2175,40 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "label": "Aylık Sosyal Medya İçerik Takvimi",
+        "href": "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
+      },
+      {
+        "label": "Çekim Günü Optimizasyonu",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+      },
+      {
         "label": "Otel Sosyal Medya",
         "href": "/tr/otel/sosyal-medya"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Reels & Video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Planlama & Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [],
@@ -2042,6 +2234,10 @@
           {
             "type": "p",
             "text": "Özellikle turizmde sezon baskısı, kampanya değişimi ve yoğun operasyon nedeniyle “ad-hoc paylaşım” en hızlı yıpratan yöntemdir. Paket modeli ise ekibe “bu ayın iskeleti”ni verir: herkes ne yapacağını bilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden bu modeli sadece görsel listesi gibi değil; [sosyal medya yönetimi içinde otel içerik planı](/tr/sosyal-medya-yonetimi) olarak ele almak gerekir. Sezon, segment, kampanya ve marka dili net değilse en iyi [turizm markası için içerik paketi planlamak](/tr/smm/planlama-strateji) fikri bile birkaç hafta içinde dağılır."
           },
           {
             "type": "callout",
@@ -2110,6 +2306,10 @@
           },
           {
             "type": "p",
+            "text": "Bu başlıkları yalnız fikir listesi gibi değil; [oda, deneyim ve destinasyon içerikleri](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) mantığıyla içerik kategorilerine ayırdığınızda hem tema dengesi hem de format seçimi çok daha net hale gelir."
+          },
+          {
+            "type": "p",
             "text": "Varsayım (başlangıç denge):\n\t•\tOda: 5 içerik\n\t•\tDeneyim: 6 içerik\n\t•\tDestinasyon: 5 içerik\n\t•\tSSS: 4 içerik\nToplam: 20. (Sezon/kampanya yoğunluğuna göre esnetilir.)"
           },
           {
@@ -2119,6 +2319,10 @@
           {
             "type": "p",
             "text": "Bu 20 içerik seti, tema–format–funnel ilişkisiyle çalışır: Destinasyon ve deneyim içerikleri awareness üretir; oda ve SSS içerikleri consideration’da güveni artırır; kampanya ve net CTA’lı post/reels’ler conversion’ı tamamlar. Böylece feed “güzel görüntüler”den ibaret kalmaz; rezervasyon niyetine giden yolu kısaltan bir sistem olur."
+          },
+          {
+            "type": "p",
+            "text": "Bu pakette hangi fikirlerin dikey video tarafına öncelik vermesi gerektiğini erken belirlemek de önemlidir; çünkü oda turu, deneyim sahneleri ve kısa SSS cevapları genelde [otel reels ve video içerikleri](/tr/smm/reels-video) olarak daha yüksek erişim ve anlatım gücü sağlar."
           },
           {
             "type": "callout",
@@ -2139,6 +2343,10 @@
           {
             "type": "p",
             "text": "Bu bölümde her tema için hem örnek konular hem de metin iskeleti veriyorum. Böylece ekip her içerikte sıfırdan yazmak zorunda kalmaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu örnekleri kendi yapınıza uyarlarken, genel içerik üretimi mantığından çıkıp doğrudan [otel sosyal medya içerik planı](/tr/otel/sosyal-medya) perspektifiyle düşünmek daha sağlıklıdır; çünkü oda tipi, misafir profili ve sezon dili markadan markaya ciddi biçimde değişir."
           },
           {
             "type": "h3",
@@ -2217,6 +2425,10 @@
             "text": "Bu 20 içerik paketini haftalara “sprint” gibi bölerseniz üretim hızlanır."
           },
           {
+            "type": "p",
+            "text": "Bu sprint yapısını sahada sürdürülebilir kılan şey ise çekimi parçalı değil, planlı düşünmektir. Özellikle oda, restoran, spa ve genel alan çekimlerinde [1 çekim günüyle 1 aylık otel içeriği](/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi) yaklaşımı ciddi verim sağlar."
+          },
+          {
             "type": "h3",
             "text": "1 haftalık mini paket (5 içerik) örneği"
           },
@@ -2255,9 +2467,9 @@
           {
             "type": "cta",
             "variant": "secondary",
-            "label": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir",
-            "text": "Ekibinize aylık görev listesi olarak verin; 20 içeriği tema/format dengesiyle 60 dakikada takvime dökersiniz. (Hedef: /tr/otel/sosyal-medya)",
-            "href": "/tr/otel/sosyal-medya"
+            "label": "Otel Instagram İçerik Takvimi Örneğini İndir",
+            "text": "Ekibinize aylık görev listesi olarak verin; 20 içeriği tema, format ve CTA bazında örnek takvime hızla dağıtmanızı kolaylaştırır.",
+            "href": "/downloads/otel-instagram-icerik-takvimi-örnegi-v1.0.pdf"
           }
         ]
       },
@@ -2268,6 +2480,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki tablo; 20 içeriği “tema + format + funnel + CTA” ile örnekler. (Günler örnektir, kendi yoğunluğunuza göre kaydırabilirsiniz.)"
+          },
+          {
+            "type": "p",
+            "text": "Buradaki örnek akışı gerçek bir yayın düzenine çevirmek için ayrı bir [otel aylık sosyal medya takvimi](/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur) sistemi kurmanız gerekir; böylece içerik, onay ve revizyon süreci tek tabloda yönetilir."
           },
           {
             "type": "media",
@@ -2294,6 +2510,10 @@
             "text": "Paket modelinin gücü; aynı iskeletin her sezon “giydirilmesi”dir:\n\t•\tYaz: beach/pool, aile aktiviteleri, open-air gastronomi\n\t•\tKış: spa/wellness, indoor deneyimler, gastronomi, romantik paketler\n\t•\tBayram: minimum 3 içerik “planlama + yoğunluk + erken rezervasyon”\n\t•\tYoğun dönem: story ağırlığı artar, reels “stok içerik”ten beslenir"
           },
           {
+            "type": "p",
+            "text": "Sezon etiketlerini sadece içerik başlığı gibi değil; rezervasyon dönemi, kampanya mesajı ve görünürlük hedefi olarak okumak gerekir. Bu yüzden [otel dijital pazarlama için sosyal medya içerikleri](/tr/otel-dijital-pazarlama) yaklaşımı, hangi dönemde hangi içeriğin öne çıkacağını belirlemede kritik rol oynar."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
@@ -2314,6 +2534,10 @@
             "text": "Otel/turizm markaları için 1 ayda 20 içerik modeli; üretimi sürdürülebilir hale getirir, feed tutarlılığını korur ve rezervasyon hunisini sistemli biçimde besler. Oda–deneyim–destinasyon–SSS temalarıyla kurulan 20’lik paket; sezon boyunca çoğaltılabilir ve segmentlere (aile/çift/luxury) göre özelleştirilebilir."
           },
           {
+            "type": "p",
+            "text": "Bu modeli otelinize göre netleştirmek isterseniz [profesyonel sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle içerik setinizi, çekim planınızı ve aylık yayın akışınızı standardize edebilirsiniz. Sürecin kapsamı ve çalışma biçimi için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası da karar aşamasında faydalı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Otel İçerik Paketi & Aylık Model Analizi Talep Et",
@@ -2324,13 +2548,13 @@
       },
       {
         "id": "secondary-asset",
-        "title": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir — SMM / Tourism Content Pack (v1.0)",
+        "title": "Otel Instagram İçerik Takvimi Örneğini İndir — 1 Ay / 20 İçerik Planı (v1.0)",
         "blocks": [
           {
             "type": "download_asset",
             "assetType": "template",
             "version": "v1.0",
-            "title": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir — SMM / Tourism Content Pack (v1.0)",
+            "title": "Otel Instagram İçerik Takvimi Örneğini İndir — 1 Ay / 20 İçerik Planı (v1.0)",
             "purpose": "Bu şablon; otel hesabınız için 1 ayda 20 içerik üretimini (8 post + 8 reels + 4 story serisi) tek tabloda planlamanızı sağlar. Oda/deneyim/destinasyon/SSS temalarını formatlarla eşleyip, takvim ve CTA mantığını standartlaştırarak sezon boyunca sürdürülebilir ritim kurmanıza yardımcı olur.",
             "whoFor": "Otel satış–pazarlama ekipleri, sosyal medya yöneticileri, ajans içerik/creative ekipleri.",
             "steps": [
@@ -2338,7 +2562,7 @@
               "20 içeriği tabloya girin: format + tema + konu + CTA + çekim notu.",
               "Haftalık sprint planına bölün; ay sonunda KPI ile oranları güncelleyin."
             ],
-            "href": "/tr/otel/sosyal-medya",
+            "href": "/downloads/otel-instagram-icerik-takvimi-örnegi-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
           }
         ]

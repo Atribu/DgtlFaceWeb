@@ -80949,7 +80949,7 @@
     },
     "h1": {
       "title": "Role-Bazlı SEO Dashboard’ları: CEO, Pazarlama, İçerik ve Teknik Ekipler İçin Ayrı Paneller",
-      "intro": "SEO raporlamada en yaygın problem, tek bir dashboard’ı herkese göstermeye çalışmaktır. Sonuç: CEO paneli “fazla teknik” bulunur, içerik ekibi “çok genel” der, teknik ekip “hangi hata kritik?” diye arar; nihayetinde kimse paneli gerçekten kullanmaz. Role-bazlı dashboard yaklaşımı bu kaosu bitirir: aynı veri kaynağını ve aynı KPI sözlüğünü koruyarak, her role kendi dilinde bir özet üretir. Bu sayede yönetim karar alır, ekipler teşhis yapar, aksiyonlar sprint’e bağlanır ve SEO raporu “okunan” değil “kullanılan” bir araca dönüşür.",
+      "intro": "SEO raporlamada en yaygın problem, tek bir dashboard’ı herkese göstermeye çalışmaktır. Sonuç: CEO paneli “fazla teknik” bulunur, içerik ekibi “çok genel” der, teknik ekip “hangi hata kritik?” diye arar; nihayetinde kimse paneli gerçekten kullanmaz. [SEO dashboard rol bazlı](/tr/seo/seo-raporlama) kurgulandığında aynı veri kaynağını ve aynı KPI sözlüğünü koruyarak, her role kendi dilinde bir özet üretmek mümkün hale gelir. Bu sayede yönetim karar alır, ekipler teşhis yapar, aksiyonlar sprint’e bağlanır ve SEO raporu “okunan” değil “kullanılan” bir araca dönüşür.",
       "quickSummary": [
         "1) Her rol için tek cümle karar sorusunu yaz",
         "2) KPI sözlüğünü ortak tut",
@@ -80960,14 +80960,14 @@
       "ctaPrimary": {
         "label": "Role-Bazlı SEO Dashboard Tasarım Analizi Talep Et",
         "text": "CEO/pazarlama/içerik/teknik için tutarlı panel seti kurmak isteyen kurumlar ve ajanslar için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Role-Bazlı SEO Dashboard Tasarım Analizi Talep Et",
         "text": "Orta/büyük kurumlarda paydaşlara göre panel seti tasarlamak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "CEO/Pazarlama/İçerik/Teknik İçin SEO KPI Seti Şablonunu İndir",
@@ -80977,26 +80977,54 @@
     },
     "internalLinks": [
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Yönetici Özeti ve Storytelling",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
+      },
+      {
+        "label": "Multi-Site ve Multi-Brand SEO Raporlama",
+        "href": "/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar"
+      },
+      {
+        "label": "Raporlama Ritmi ve SEO Operasyon Kültürü",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
       },
       {
-        "title": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "title": "Multi-Site ve Multi-Brand SEO Raporlama: Zincir Oteller ve Grup Markalar İçin Çerçeve",
+        "href": "/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar"
+      },
+      {
+        "title": "Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Yapı Nasıl Kurulur?",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
       }
     ],
     "sections": [
@@ -81011,6 +81039,10 @@
           {
             "type": "p",
             "text": "Herkes aynı KPI’ya bakmaz; çünkü herkesin “kararı” farklıdır. Role-bazlı tasarımda ilk adım, rolün hangi kararı verdiğini netleştirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde rol bazlı SEO dashboard](/tr/seo-hizmetleri), tek bir standart ekran yerine CEO, pazarlama, içerik ve teknik ekiplerin farklı KPI ve aksiyon ihtiyaçlarına göre ayrışan bir panel seti gerektirir."
           },
           {
             "type": "h3",
@@ -81029,6 +81061,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel): Antalya/Belek/Side gibi destinasyonlarda yönetim “rezervasyon trendi” ister; teknik ekip “mobil CWV neden kırmızı?” diye bakar; içerik ekibi “destinasyon cluster’ı büyüyor mu?”yu sorar."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [otel pazarlama ekipleri için SEO dashboard](/tr/otel-dijital-pazarlama), pazarlama, satış, içerik ve teknik ekiplerin rezervasyon hedefi etrafında aynı veriyi farklı lenslerle okumasını destekler."
           },
           {
             "type": "h3",
@@ -81066,6 +81102,10 @@
           {
             "type": "p",
             "text": "CEO panelinin ana görevi “iş çıktısı”dır. SEO terimleri burada minimumda kalmalı; SEO’nun masadaki ağırlığı iş KPI’larıyla konuşmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [CEO için SEO KPI paneli](/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak), organik büyüme, riskler ve bir sonraki aksiyonu teknik detaya boğmadan yönetici diline çevirmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -81170,6 +81210,10 @@
             "text": "İçerik ekibi “hangi yazı kaç trafik aldı?”dan fazlasını ister: hangi cluster büyüyor, hangisi zayıf, hangi içerik yetim, hangi içerik refresh edilmeli?"
           },
           {
+            "type": "p",
+            "text": "Bu noktada [içerik performans verisini analiz etmek](/tr/veri-analiz-ve-raporlama), cluster, keyword, CTR ve refresh backlog’unu aynı veri modeli içinde ayrıştırarak içerik önceliklendirmesini hızlandırır."
+          },
+          {
             "type": "h3",
             "text": "İçerik panelinde olmalı"
           },
@@ -81219,6 +81263,10 @@
           {
             "type": "p",
             "text": "Teknik panel, “kritik risk”i erken yakalamalı ve sprint planı üretmelidir. Burada KPI’lar net ve aksiyon odaklı olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Ayrı görünüm ve filtre mantığıyla [Looker Studio’da rol bazlı SEO paneli](/tr/raporlama/looker-studio), teknik ekip için crawl, index, CWV ve hata akışını diğer rolleri boğmadan sunmayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -81297,6 +81345,10 @@
             "text": "Technical Not (sheet): Veri kaynağı ve tanımlar her rolde aynı olmalı; sadece sunum ve özet düzeyi değişmeli, aksi hâlde ekipler arasında “farklı gerçekler” algısı oluşur."
           },
           {
+            "type": "p",
+            "text": "Çoklu marka ve zincir yapılarda [multi-site SEO dashboard](/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar), aynı rol mantığını marka, lokasyon ve otel seviyesine genişleterek panel setini daha yönetilebilir hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -81368,6 +81420,10 @@
                 "P0 sprint listesi"
               ]
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu panel setinin gerçekten kullanılabilmesi için [rol bazlı dashboard raporlama ritmi](/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek), haftalık kontrol, aylık performans ve çeyreklik strateji görünümünü her rol için ayrı bir kullanım alışkanlığına bağlamalıdır."
           }
         ]
       },
@@ -81434,6 +81490,10 @@
             "text": "Birçok projede tek bir karmaşık dashboard hem CEO’ya hem teknik ekibe gösterilmeye çalışılıyor; bu da kimsenin kullanmadığı panellerle sonuçlanıyor. Role-bazlı panel seti kurduğunuzda rapor “kişiselleşir” ama gerçek “tek” kalır: yönetim karar alır, ekip teşhis yapar, aksiyon sprint’e döner. Bu yaklaşım, raporların okunma ve aksiyon alma oranını yükseltir; çünkü herkes kendi karar sorusuna cevap görür."
           },
           {
+            "type": "p",
+            "text": "Bu panel setini standardize etmek isteyen ekipler için [profesyonel SEO Raporlama ve rol bazlı dashboard kurgusu](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; uygulama detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -81450,7 +81510,7 @@
             "variant": "primary",
             "label": "Role-Bazlı SEO Dashboard Tasarım Analizi Talep Et",
             "text": "Tek gerçek + farklı lens modeliyle CEO/pazarlama/içerik/teknik panel seti kurmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
@@ -81566,7 +81626,7 @@
     },
     "h1": {
       "title": "Site Geçişleri ve Domain Değişimi İçin SEO Raporlama Template’i",
-      "intro": "Site geçişi (re-platform, tasarım yenileme, bilgi mimarisi değişimi) ve domain değişimi, SEO tarafında “en pahalı” risk dönemidir: doğru yapılırsa sorun yaşamadan devam edersiniz; yanlış yapılırsa görünürlük, trafik ve dönüşüm aynı anda düşebilir. Bu yüzden migration sürecinde başarı; tek bir “trafik grafiği” ile değil, baz çizgi + kritik kontroller + 90 gün takip disiplinini kurmakla gelir. Bu rehber, geçiş öncesi hangi metrikleri kaydetmeniz gerektiğini, geçiş sırasında canlı izleme ile hangi hataları erken yakalayacağınızı ve geçiş sonrası 90 gün boyunca hangi sapmaları “normal”, hangilerini “kriz” saymanız gerektiğini template formatında sunar.",
+      "intro": "Site geçişi (re-platform, tasarım yenileme, bilgi mimarisi değişimi) ve domain değişimi, SEO tarafında “en pahalı” risk dönemidir: doğru yapılırsa sorun yaşamadan devam edersiniz; yanlış yapılırsa görünürlük, trafik ve dönüşüm aynı anda düşebilir. Bu yüzden migration sürecinde başarı; tek bir “trafik grafiği” ile değil, baz çizgi + kritik kontroller + 90 gün takip disiplinini kurmakla gelir. Bu [site geçişi SEO raporlama](/tr/seo/seo-raporlama) rehberi, geçiş öncesi hangi metrikleri kaydetmeniz gerektiğini, geçiş sırasında canlı izleme ile hangi hataları erken yakalayacağınızı ve geçiş sonrası 90 gün boyunca hangi sapmaları “normal”, hangilerini “kriz” saymanız gerektiğini template formatında sunar.",
       "quickSummary": [
         "1) Geçiş öncesi baseline KPI’larını kaydet",
         "2) Eski URL → yeni URL mapping dosyasını raporun çekirdeği yap",
@@ -81584,36 +81644,64 @@
       "primary": {
         "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
         "text": "Domain değişimi veya altyapı geçişinde riskleri erken yakalayıp 90 gün toparlanma planı isteyen ekipler için.",
-        "href": "/tr/seo/teknik-seo"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir",
         "text": "Baseline + mapping + 90 gün takip yapısını standartlaştırır; normal/kriz ayrımını hızlandırır.",
-        "href": "/tr/veri-analiz-ve-raporlama"
+        "href": "/downloads/site-gecisi-oncesi-sonrasi-seo-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Teknik SEO",
-        "href": "/tr/seo/teknik-seo"
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "SEO Raporlama & Performans Analizi",
-        "href": "/tr/seo/seo-raporlama"
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Teknik SEO ve Core Web Vitals Raporu",
+        "href": "/tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "Sezonluk ve Yıl Bazlı SEO Performans Raporları",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Veri Analiz ve Raporlama",
         "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/tr/seo/seo-raporlama"
+        "title": "Teknik SEO ve Core Web Vitals Raporu Nasıl Yorumlanır?",
+        "href": "/tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir"
       },
       {
-        "title": "Teknik SEO",
-        "href": "/tr/seo/teknik-seo"
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "title": "Sezonluk ve Yıl Bazlı SEO Performans Raporları: Trend ve Benchmark Nasıl Okunur?",
+        "href": "/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark"
       }
     ],
     "sections": [
@@ -81642,6 +81730,10 @@
           {
             "type": "p",
             "text": "Migration raporunun ilk adımı “neye bakacağız?” sorusunu netleştirmektir. Burada amaç; her şeyi ölçmek değil, riskli kırılmaları erken yakalayacak bir KPI seti oluşturmaktır. En pratik yaklaşım, metrikleri 4 sepete ayırmaktır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde domain değişimi SEO takibi](/tr/seo-hizmetleri), yalnızca yazılım yayına alma süreci değil; teknik SEO, veri kalitesi, trafik, görünürlük ve dönüşüm etkisiyle birlikte takip edilmesi gereken bir SEO operasyonu olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -81807,6 +81899,18 @@
             "text": "Technical Not (sheet) ile kritik uyum: Migration raporlamasında sadece SEO değil, analitik ve tag yapılandırmasının da eksiksiz taşındığı doğrulanmalıdır. Aksi hâlde “dönüşüm düştü” alarmı ölçüm hatası olabilir."
           },
           {
+            "type": "p",
+            "text": "Redirect, crawl, index, canonical ve hız tarafını [geçiş sonrası teknik SEO raporu](/tr/seo/blog/teknik-seo-ve-core-web-vitals-raporu-nasil-yorumlanir) ile birlikte okumak, migration kaynaklı teknik riskleri daha erken teşhis etmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı anda [migration sonrası veri kalitesi kontrolü](/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi), GA4, Search Console, event ve dönüşüm takibinin gerçekten taşınıp taşınmadığını doğrulamak için zorunlu hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Redirect map, canonical, yeni şablonlar ve frontend çıktılarında hata ararken [site geçişinde web sitesi geliştirme kontrolü](/tr/yazilim/web-sitesi-gelistirme), rapor bulgularını doğrudan teknik uygulama backlog’una bağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -81842,6 +81946,10 @@
             "text": "Migration raporunun en önemli kısmı, “toparlanma penceresi”dir. 90 gün, pratikte üç faza bölünür:"
           },
           {
+            "type": "p",
+            "text": "Bu fazları [site geçişi SEO dashboard’u](/tr/raporlama/looker-studio) içinde 0–7 / 7–30 / 30–90 gün görünümüyle izlemek, teknik ve performans sinyallerini aynı zaman çizelgesinde toplamayı kolaylaştırır."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -81867,6 +81975,10 @@
           {
             "type": "p",
             "text": "Burada kritik pratik: Raporu “toplam” ve “kritik sayfa” katmanıyla okuyun. Toplam düzeliyor gibi görünürken kritik sayfalardan biri kayıp yaşayabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [migration sonrası SEO performansı](/tr/veri-analiz-ve-raporlama), toplam trend ile kritik sayfa kaybını aynı veri modeli içinde ayırarak yanlış iyimserliği önler."
           },
           {
             "type": "callout",
@@ -81906,6 +82018,10 @@
           {
             "type": "p",
             "text": "Net cevap bloğu : Migration sonrası kısa vadeli dalgalanma görülebilir; ancak “normal” olup olmadığı, tek bir trafik grafiğiyle değil redirect doğruluğu + index sinyalleri + kritik landing dönüşümü ile anlaşılır. 301 ve index sağlığı düzgünse, görünürlük ve trafik daha kontrollü toparlanır. Eğer 404/5xx artıyor, index kapsamı düşüyor veya kritik landing dönüşümü sert bozuluyorsa bu “normal dalga” değil, müdahale gerektiren risktir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle turizm ve kampanya etkisinin yüksek olduğu projelerde [migration sonrası SEO performansını sezonluk trendden ayırmak](/tr/seo/blog/sezonluk-ve-yil-bazli-seo-performans-raporlari-trend-ve-benchmark), teknik kaynaklı düşüşle talep dalgasını birbirine karıştırmamak için kritik hale gelir."
           },
           {
             "type": "h3",
@@ -82033,14 +82149,14 @@
             "variant": "secondary",
             "label": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir",
             "text": "Baseline, URL mapping ve 90 günlük takip yapısını hazır verir; normal/kriz ayrımını hızlı yapmanızı sağlar.",
-            "href": "/tr/veri-analiz-ve-raporlama"
+            "href": "/downloads/site-gecisi-oncesi-sonrasi-seo-raporlama-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
             "text": "Migration’ı baseline + canlı izleme + 90 gün takip ile güvenli yürütmek isteyen markalar için.",
-            "href": "/tr/seo/teknik-seo"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -82085,18 +82201,22 @@
             "text": "Bu nedenle migration başarısı yalnızca yayına alma anına değil, geçiş öncesi hazırlık ve geçiş sonrası disiplinli takip ritmine bağlıdır. Rapor; teknik ekibi, pazarlama ekibini ve yöneticiyi aynı karar ekranında buluşturmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu süreci standartlaştırmak isteyen ekipler için [profesyonel SEO Raporlama ve migration takip süreci](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; uygulama detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Site Geçişi SEO Raporlama & Risk Analizi Talep Et",
             "text": "Domain değişimi veya altyapı geçişinde riskleri erken yakalayıp 90 gün toparlanma planı isteyen ekipler için.",
-            "href": "/tr/seo/teknik-seo"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Site Geçişi Öncesi/Sonrası SEO Raporlama Şablonunu İndir",
             "text": "Baseline + mapping + 90 gün takip yapısını standartlaştırır; normal/kriz ayrımını hızlandırır.",
-            "href": "/tr/veri-analiz-ve-raporlama"
+            "href": "/downloads/site-gecisi-oncesi-sonrasi-seo-raporlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -82211,7 +82331,7 @@
     },
     "h1": {
       "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
-      "intro": "SEO raporlarınız bazen “garip” görünür: organik trafik bir anda artar/azalır, dönüşüm sayıları tutarsızlaşır, GSC ile GA4 birbirini tutmaz, CTR aniden düşer… Bu noktada iki farklı açıklama vardır: (1) gerçekten performans değişmiştir, (2) ölçüm bozulmuştur. Birçok projede ekipler ikinci ihtimali kontrol etmeden birinciye atlar ve yanlış aksiyon alır: gereksiz panik, yanlış optimizasyon, boşa harcanan bütçe. Bu rehberin amacı, raporlamadan önce uygulanan bir data hygiene rutini kurmaktır: GA4/GSC tutarlılığı, bot/spam temizliği, kanal mapping doğruluğu, event/tag kırılmalarını sistematik kontrol etmek.",
+      "intro": "SEO raporlarınız bazen “garip” görünür: organik trafik bir anda artar/azalır, dönüşüm sayıları tutarsızlaşır, GSC ile GA4 birbirini tutmaz, CTR aniden düşer… Bu noktada iki farklı açıklama vardır: (1) gerçekten performans değişmiştir, (2) ölçüm bozulmuştur. Birçok projede ekipler ikinci ihtimali kontrol etmeden birinciye atlar ve yanlış aksiyon alır: gereksiz panik, yanlış optimizasyon, boşa harcanan bütçe. Bu [SEO raporu veri kalitesi](/tr/seo/seo-raporlama) rehberinin amacı, raporlamadan önce uygulanan bir data hygiene rutini kurmaktır: GA4/GSC tutarlılığı, bot/spam temizliği, kanal mapping doğruluğu, event/tag kırılmalarını sistematik kontrol etmek.",
       "quickSummary": [
         "1) Rapor garipse önce veri hijyenini kontrol et",
         "2) GA4 kanal mapping ve UTM standardını doğrula",
@@ -82229,12 +82349,12 @@
       "primary": {
         "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
         "text": "GA4/GSC ölçüm hatalarını yakalayıp rapor güvenini artırmak isteyen ekipler için.",
-        "href": "/tr/veri-analiz-ve-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "SEO Veri Kalitesi & Tracking Hijyen Checklist’ini İndir",
         "text": "Aylık hijyen rutinini standartlaştırır; yanlış alarm ve gereksiz panikleri azaltmanıza yardımcı olur.",
-        "href": "/tr/veri-analiz-ve-raporlama"
+        "href": "/downloads/seo-veri-kalitesi-tracking-hijyen-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -82243,22 +82363,50 @@
         "href": "/tr/seo/seo-raporlama"
       },
       {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "Site Geçişi & Domain Değişimi SEO Raporlama Şablonu",
+        "href": "/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei"
+      },
+      {
+        "label": "SEO Ops Alert Sistemi",
+        "href": "/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
+      },
+      {
         "label": "Veri Analiz ve Raporlama",
         "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Dönüşüm Takibi & Tag Manager",
         "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/tr/seo/seo-raporlama"
+        "title": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
       },
       {
-        "title": "Dönüşüm Takibi & Tag Manager",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "title": "Site Geçişi & Domain Değişimi SEO Raporlama Şablonu",
+        "href": "/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei"
+      },
+      {
+        "title": "SEO Ops Alert Sistemi: Slack/E-posta ile Otomasyon | DGTLFACE",
+        "href": "/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
       }
     ],
     "sections": [
@@ -82299,6 +82447,10 @@
           {
             "type": "p",
             "text": "Bu üçü tutarlı değilse rapor “doğru görünür” ama yanlış karar verdirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde güvenilir raporlama verisi](/tr/seo-hizmetleri), yalnızca metrik üretmekten değil; doğru izleme kurulumu, temiz veri, bot filtreleme ve güvenilir kanal atamasıyla birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -82386,6 +82538,10 @@
             "text": "Mini örnek: Otel sitesi bir kampanya döneminde UTM’leri yanlış kullanırsa, GA4’te organik trafik “Direct”e kayabilir; SEO raporu “organik düştü” der, halbuki SEO aynı."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [GA4 ve Search Console verilerini karşılaştırmak](/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak), “GA4 organik trafik hatası” gibi görünen farkların gerçekten ölçüm kaynaklı mı yoksa performans kaynaklı mı olduğunu ayırmayı kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -82445,6 +82601,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Bir hafta organik trafik artıyor ama hiçbir form/rezervasyon artmıyorsa; önce “bot/spam” şüphesini koyup kaynak dağılımını incelemek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Burada [bot trafiğini filtreleme](/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri) sürecini yalnız manuel kontrole bırakmak yerine, ani organik sıçrama, dönüşümsüz trafik artışı ve tracking bozulmaları için otomatik Slack veya e-posta uyarıları kurmak daha sağlıklı olur."
           },
           {
             "type": "callout",
@@ -82554,6 +82714,14 @@
             "text": "Technical Not (sheet): Ölçüm tarafında yapılan her değişiklik (GA4 event, GTM tag, kanal mapping) changelog’ta tutulmalı ve rapor yorumlanırken bu log dikkate alınmalıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle site taşıma, domain değişimi veya rezervasyon motoru geçişi sonrasında [migration sonrası tracking kontrolü](/tr/seo/blog/site-gecisleri-ve-domain-degisimi-icin-seo-raporlama-templatei), event kaybı, Search Console mülk kopması ve kanal kırılmalarını erkenden görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Aynı bölümde [dönüşüm takibi ve Tag Manager kontrolü](/tr/sem/donusum-takibi-tag-manager), form, telefon, WhatsApp ve rezervasyon event’lerinin gerçekten tetiklenip tetiklenmediğini doğrulamak için temel kontrol katmanıdır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -82605,6 +82773,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşatılmış): Düzenli veri kalitesi kontrolleri yapılan yapılarda, rapor kaynaklı yanlış alarm ve gereksiz paniklerin anlamlı ölçüde azaldığı görülüyor."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [SEO raporu verisini analiz etmek](/tr/veri-analiz-ve-raporlama), kanal kırılımlarını, bot segmentlerini, tarih karşılaştırmalarını ve ölçüm tutarlılığını aynı karar destek çerçevesinde değerlendirmeyi kolaylaştırır."
           },
           {
             "type": "table",
@@ -82704,11 +82876,15 @@
             "text": "Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi-proof-08.webp — Veri hijyeni deliverables, amaç güven ve takip, kurumsal bağlamı"
           },
           {
+            "type": "p",
+            "text": "Ayrıca [SEO raporlarında veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi), dashboard erişimleri, kullanıcı verisi, izinler ve KVKK uyumunun veri kalitesi kadar disiplinli yönetilmesini gerektirir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
             "text": "GA4/GSC ölçüm hatalarını yakalayıp rapor güvenini yükseltmek isteyen ekipler için.",
-            "href": "/tr/veri-analiz-ve-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -82770,18 +82946,22 @@
             "text": "Bu yüzden veri kalitesi ve izleme hijyeni, raporlama sürecinin teknik bir detayı değil; karar kalitesinin temelidir. Aylık hijyen rutini, changelog disiplini ve OK/Risk/Kritik etiketiyle raporlar daha güvenilir, ekipler daha sakin ve aksiyonlar daha isabetli hâle gelir."
           },
           {
+            "type": "p",
+            "text": "Bu süreci daha sistematik kurmak isteyen ekipler için [profesyonel SEO Raporlama ve veri kalitesi kontrolü](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; uygulama detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Veri Kalitesi & SEO Raporlama Hijyeni Analizi Talep Et",
             "text": "GA4/GSC ölçüm hatalarını yakalayıp rapor güvenini artırmak isteyen ekipler için.",
-            "href": "/tr/veri-analiz-ve-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "SEO Veri Kalitesi & Tracking Hijyen Checklist’ini İndir",
             "text": "Aylık hijyen rutinini standartlaştırır; yanlış alarm ve gereksiz panikleri azaltmanıza yardımcı olur.",
-            "href": "/tr/veri-analiz-ve-raporlama"
+            "href": "/downloads/seo-veri-kalitesi-tracking-hijyen-checklisti-v1.0.pdf"
           }
         ]
       }
@@ -82897,7 +83077,7 @@
     },
     "h1": {
       "title": "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model",
-      "intro": "SEO raporları iki uçta kaybolur: ya çok sık ama yüzeysel hazırlanır (her hafta aynı ekran görüntüleri), ya da çok seyrek ama aşırı detaylı hazırlanır (kimsenin okuyamadığı PDF’ler). Sonuçta rapor, karar üretmez; aksiyonlar “kayıp gider”, backlog ilerlemez. Oysa SEO’nun değer üretmesi için raporun bir operasyon ritmi (structured follow-up) kurması gerekir: haftalık erken uyarı, aylık performans+aksiyon ve çeyreklik strateji. Bu model, SEO’yu “ara ara bakılan bir dosya” olmaktan çıkarır; düzenli işletilen bir kültüre dönüştürür.",
+      "intro": "SEO raporları iki uçta kaybolur: ya çok sık ama yüzeysel hazırlanır (her hafta aynı ekran görüntüleri), ya da çok seyrek ama aşırı detaylı hazırlanır (kimsenin okuyamadığı PDF’ler). Sonuçta rapor, karar üretmez; aksiyonlar “kayıp gider”, backlog ilerlemez. Bu [SEO raporu ne sıklıkla hazırlanmalı](/tr/seo/seo-raporlama) sorusunun pratik cevabı; haftalık erken uyarı, aylık performans+aksiyon ve çeyreklik strateji katmanlarını aynı operasyon akışında birleştirmektir. Bu model, SEO’yu “ara ara bakılan bir dosya” olmaktan çıkarır; düzenli işletilen bir kültüre dönüştürür.",
       "quickSummary": [
         "1) Raporu üç ritme ayır: haftalık alarm, aylık sonuç+aksiyon, çeyrek trend+benchmark",
         "2) Her ritmin KPI setini sabit ve sade tut",
@@ -82908,51 +83088,71 @@
       "ctaPrimary": {
         "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
         "text": "Haftalık–aylık–çeyreklik ritmi kurup aksiyonların kaybolmasını engellemek isteyen ajans ve kurum ekipleri için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
         "text": "Ajans ve kurum ekiplerinde raporlama sıklığını ve içerik derinliğini doğru kalibre etmek isteyenler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir",
         "text": "Haftalık–aylık–çeyrek rapor formatlarını ve toplantı ajandalarını hazır verir; aksiyonların kaybolmasını engeller.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/downloads/haftalik-aylik-ceyrek-seo-raporlama-toplanti-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+      },
+      {
+        "label": "Yönetici Özetiyle SEO Raporu Nasıl Anlatılır?",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
+      },
+      {
+        "label": "Rol Bazlı SEO Dashboard’ları",
+        "href": "/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
-        "href": "/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+        "title": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+        "href": "/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
       },
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "Yönetici Özetiyle SEO Raporu Nasıl Anlatılır?",
+        "href": "/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak"
+      },
+      {
+        "title": "Rol Bazlı SEO Dashboard’ları: CEO, Pazarlama, İçerik ve Teknik Ekipler İçin Ayrı Paneller",
+        "href": "/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik"
       }
     ],
     "sections": [
@@ -82992,6 +83192,10 @@
           {
             "type": "p",
             "text": "Sezon etkisi notu (turizm): Antalya/Belek/Side gibi destinasyonlarda talep dalgalıdır; sadece aylık bakış, yanlış alarm üretir. Haftalık izleme “kırılma”yı, çeyreklik okuma “normal dalga mı strateji mi?” sorusunu cevaplar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde haftalık, aylık, çeyreklik SEO raporlama](/tr/seo-hizmetleri), tek seferlik PDF üretmekten çok alarm, analiz ve strateji katmanlarını farklı amaçlarla çalıştıran sürdürülebilir bir süreç olarak düşünülmelidir."
           },
           {
             "type": "callout",
@@ -83045,6 +83249,10 @@
           {
             "type": "p",
             "text": "Haftalık raporun kuralı: “Her şeye bakmak” yok. 8–12 KPI ve en kritik 10 landing yeter."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [haftalık SEO KPI kontrolü](/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi), tıklama, gösterim, CTR, görünürlük, teknik hata ve dönüşüm sinyallerini aynı raporlama diliyle takip etmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -83118,6 +83326,10 @@
             "text": "Bu yapı, raporu okunur yapar ve “SEO operasyon ritmi”nin merkezine oturtur."
           },
           {
+            "type": "p",
+            "text": "Özellikle yönetim katında [aylık SEO yönetici özeti](/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak), aylık performansı yalnızca metrik listesi gibi değil; başarı, risk ve bir sonraki aksiyon seti olarak anlatmayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Aylık KPI seti (çekirdek)"
           },
@@ -83135,6 +83347,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşatılmış): Düzenli raporlama ritmi ve takip toplantıları olan ekiplerde, SEO aksiyonlarının “kayıp gitme” ihtimali azalıyor ve backlog gerçekten ilerliyor."
+          },
+          {
+            "type": "p",
+            "text": "Bu ritmin iş tarafına değmesi için [SEO raporlama ritmini satış dönüşüm takibine bağlamak](/tr/raporlama/satis-donusum), lead, rezervasyon, form ve gelir etkisini aylık kapanışın standart parçası haline getirmeyi gerektirir."
           },
           {
             "type": "callout",
@@ -83198,6 +83414,10 @@
             "text": "Mini örnek: Turizmde çeyreklik rapor, yüksek/düşük sezon geçişinde “normal dalga mı, performans kaybı mı?” ayrımını netleştirir."
           },
           {
+            "type": "p",
+            "text": "Özellikle turizm tarafında [otel dijital pazarlamada SEO operasyon ritmi](/tr/otel-dijital-pazarlama), kampanya takvimi, erken rezervasyon dönemi, sezon geçişi ve lokasyon bazlı talebi çeyreklik karar döngüsüne bağlamayı kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -83246,6 +83466,10 @@
             "text": "Bu ilişki kurulmazsa rapor “dosya” olur, operasyon olmaz."
           },
           {
+            "type": "p",
+            "text": "Ekiplerin aynı veri setini farklı amaçlarla kullanabilmesi için [rol bazlı SEO operasyon dashboard’u](/tr/seo/blog/rol-bazli-seo-dashboardlari-ceo-pazarlama-icerik-teknik), CEO, pazarlama, içerik ve teknik ekiplerin haftalık, aylık ve çeyreklik görünümünü birbirinden ayırır."
+          },
+          {
             "type": "h3",
             "text": "Ajans–müşteri toplantı takvimi (pratik)"
           },
@@ -83261,6 +83485,10 @@
           {
             "type": "p",
             "text": "Technical Not (sheet): Raporlama ritmi kurarken ekip kapasitesi, proje büyüklüğü ve sezon etkileri dikkate alınmalıdır. Her projeye aynı yoğunluğu dayatmak kaliteyi düşürür."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı [SEO operasyon ritmini veri analiziyle desteklemek](/tr/veri-analiz-ve-raporlama), haftalık kontrol, aylık trend ve çeyreklik karar seviyelerinde aynı metrikleri daha temiz ve karşılaştırılabilir biçimde okumayı sağlar."
           },
           {
             "type": "callout",
@@ -83434,14 +83662,14 @@
             "variant": "secondary",
             "label": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir",
             "text": "Üç seviyeli rapor ritmini ve toplantı ajandasını hazır verir; aksiyonların kaybolmasını önler.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/haftalik-aylik-ceyrek-seo-raporlama-toplanti-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
             "text": "Ajans–müşteri veya kurum içi ekiplerde raporlama ritmini kalibre edip sürdürülebilir operasyon kültürü kurmak isteyenler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -83458,18 +83686,22 @@
             "text": "Bu ritim kurulmadığında raporlar okunmayan dosyalara, aksiyonlar ise unutulan backlog maddelerine dönüşür. Doğru modelde rapor toplantıya, toplantı backlog’a, backlog sprint’e ve sprint tekrar rapora bağlanır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kurmak isteyen ekipler için [profesyonel SEO Raporlama ve operasyon ritmi kurulumu](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; uygulama detaylarını görmek için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "SEO Raporlama Ritmi & Operasyon Kültürü Analizi Talep Et",
             "text": "Ajans ve kurum ekiplerinde raporlama sıklığını ve içerik derinliğini doğru kalibre etmek isteyenler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Haftalık/Aylık/Çeyrek SEO Raporlama & Toplantı Şablonunu İndir",
             "text": "Haftalık–aylık–çeyrek rapor formatlarını ve toplantı ajandalarını hazır verir; aksiyonların kaybolmasını engeller.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/haftalik-aylik-ceyrek-seo-raporlama-toplanti-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -83523,7 +83755,7 @@
           "Canonical kontrolü: /tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage şeması soru-cevaplarla eşleşiyor",
-          "İç link hedefleri doğru: /seo/seo-raporlama, /veri-analiz-ve-raporlama, /raporlama/satis-donusum",
+          "İç link hedefleri doğru: /tr/seo/seo-raporlama, /tr/veri-analiz-ve-raporlama, /tr/raporlama/satis-donusum",
           "Download asset CTA bağlantısı kontrol edildi",
           "Media slot isimleri template ile uyumlu",
           "Tablo mobil görünümde kaydırılabilir yapı için test edilecek",
@@ -83593,51 +83825,71 @@
       "ctaPrimary": {
         "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
         "text": "Çok kaynaklı SEO verisini tek havuzda toplamak ve ölçeklenebilir dashboard mimarisi kurmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
         "text": "Çok kanallı otel ve B2B projelerinde SEO verisini tek havuzda toplayıp doğru dashboard mimarisi kurmak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonunu İndir",
         "text": "MVP şema ve join mantığıyla hızlı kurulum sağlar; raporları tek gerçek üzerinden üretmenize yardımcı olur.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/downloads/ga4-gsc-ads-crm-bigquery-sema-pipeline-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SEO Hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "label": "Multi-Site ve Multi-Brand SEO Raporlama",
+        "href": "/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar"
+      },
+      {
+        "label": "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri",
+        "href": "/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
-        "label": "Teknik SEO rehberi",
-        "href": "/seo/teknik-seo"
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık–Aylık–Çeyrek Model",
-        "href": "/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+        "title": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
       },
       {
-        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
-        "href": "/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+        "title": "Multi-Site ve Multi-Brand SEO Raporlama: Zincir Oteller ve Grup Markalar İçin Çerçeve",
+        "href": "/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar"
+      },
+      {
+        "title": "SEO Ops Alert Sistemi: Slack/E-posta ile Otomasyon | DGTLFACE",
+        "href": "/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri"
       }
     ],
     "sections": [
@@ -83651,7 +83903,7 @@
           },
           {
             "type": "p",
-            "text": "Veri ambarı (data warehouse), rapor için “bir tablo daha” değildir; organizasyonun veriyi tek yerde tutup, farklı ekiplerin aynı gerçek üzerinden konuşmasını sağlayan bir mimaridir. SEO bağlamında BigQuery yaklaşımı üç şeye hizmet eder:"
+            "text": "Veri ambarı (data warehouse), rapor için “bir tablo daha” değildir; organizasyonun veriyi tek yerde tutup, farklı ekiplerin aynı gerçek üzerinden konuşmasını sağlayan bir mimaridir. Bu [SEO BigQuery data warehouse](/tr/seo/seo-raporlama) yaklaşımı, ileri seviye SEO raporlamayı GA4 veya Search Console ekranı okumaktan çıkarıp merkezi veri modeli mantığına taşır."
           },
           {
             "type": "list",
@@ -83679,6 +83931,10 @@
           {
             "type": "p",
             "text": "Mini örnek (çok markalı otel): Antalya ve Bodrum’da iki farklı marka site yapısı kullanıyorsa, GA4/GSC kurulumları farklıysa “toplam rapor” yanıltır. Warehouse yaklaşımı; tek sözlükle normalize edip karşılaştırmayı güvenilir hâle getirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [SEO hizmetleri içinde SEO veri ambarı kurulum rehberi](/tr/seo-hizmetleri), yalnızca veri toplamak değil; farklı kaynakları ortak KPI sözlüğü, standart filtreler ve karar destek mantığıyla bir araya getirmek olarak düşünülmelidir."
           },
           {
             "type": "callout",
@@ -83740,6 +83996,10 @@
           {
             "type": "p",
             "text": "Değer, proje ölçeğine ve sorularınıza bağlıdır. Eğer raporlarınız “tek kanal/tek site/tek dönem” seviyesindeyse doğrudan BigQuery şart değildir. Ama çok site/çok marka, çok kanal (Ads+CRM) ve uzun dönem trend/segment soruları artıyorsa; veri ambarı, rapor kalitesini ve karar hızını belirgin şekilde artırır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [AI destekli SEO raporu için veri altyapısı](/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler), anomali tespiti, otomatik özet ve insight kartlarının güvenilir çalışması için temiz, merkezi ve yeniden kullanılabilir veri katmanına ihtiyaç duyar."
           },
           {
             "type": "callout",
@@ -83808,6 +84068,10 @@
             "text": "Mini örnek: Belek’te bir otelin “/belek-aile-oteli” landing’i GSC’de sayfa olarak, GA4’te landing page path olarak, CRM’de lead source olarak geçer. URL normalize edilmezse join bozulur ve rapor “farklı gerçekler” üretir."
           },
           {
+            "type": "p",
+            "text": "Bu yapı özellikle [multi-site SEO veri modeli](/tr/seo/blog/multi-site-ve-multi-brand-seo-raporlama-zincir-oteller-ve-gruplar) gereken zincir otel ve grup marka projelerinde kritik hale gelir; çünkü site, marka, ülke ve lokasyon kırılımları aynı veri sözlüğünde birleşmeden güvenilir karşılaştırma üretmek zorlaşır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -83855,6 +84119,10 @@
             "text": "Amaç: sorgu→landing→dönüşüm zincirini ilk kez kurmak."
           },
           {
+            "type": "p",
+            "text": "Pratikte `GA4 ve Search Console BigQuery birleştirme` mantığı burada başlar: önce landing bazında ortak tarih ve URL sözlüğü kurulur, sonra Ads ve CRM gibi ek kaynaklar bu omurgaya eklenir."
+          },
+          {
             "type": "h3",
             "text": "Faz 2 — Ads (Google Ads vb.)"
           },
@@ -83894,6 +84162,10 @@
           {
             "type": "p",
             "text": "Mini örnek (B2B): CRM bağlandığında “organik dönüşüm” sadece form submit değil; pipeline ve satışa dönüşme oranı olarak okunabilir. Bu, CEO panelini gerçek iş KPI’larına bağlar."
+          },
+          {
+            "type": "p",
+            "text": "Burada [SEO ve reklam verisini aynı data warehouse içinde okumak](/tr/sem/reklam-raporlama), organik görünürlük, Ads maliyeti, kampanya etkisi ve lead kalitesini aynı karar modelinde değerlendirmeyi kolaylaştırır."
           },
           {
             "type": "callout",
@@ -83948,6 +84220,10 @@
           {
             "type": "p",
             "text": "Dashboard’lar daha tutarlı ve ölçeklenebilir olur: aynı KPI sözlüğüyle farklı paneller üretilir, uzun dönem trendler ve segment analizleri daha esnek yapılır, kaynaklar arası join’ler rapor içinde değil warehouse’da yönetilir. Böylece raporlama süresi azalır, analiz ve aksiyon geliştirme süresi artar."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [BigQuery’den Looker Studio dashboard’a veri aktarmak](/tr/raporlama/looker-studio), mart tablolarını yönetici paneli, ekip bazlı filtreler ve haftalık alarm kartları olarak görünür hale getirmenin en pratik yollarından biridir."
           },
           {
             "type": "media",
@@ -84059,6 +84335,10 @@
             "text": "Mini örnek: Zincir otellerde her otel için aynı mart tablosu üretirseniz, “tüm grup iyi ama şu otel zayıf” senaryosu tek filtreden görünür."
           },
           {
+            "type": "p",
+            "text": "Bu katman, aynı zamanda [SEO veri ambarı kurulum rehberi](/tr/veri-analiz-ve-raporlama) mantığında veri modelleme, temizleme, segmentasyon ve karar destek tablolarını genel analitik mimariye bağlamayı gerektirir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -84100,6 +84380,10 @@
           {
             "type": "p",
             "text": "Technical Not (row): Ölçek küçük projeler için doğrudan BigQuery zorunlu değildir; ancak veri hacmi büyüdükçe, limitsiz analiz ihtiyacı data warehouse’ı mantıklı hâle getirir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [SEO data warehouse ile otomatik rapor üretimi](/tr/seo/blog/seo-ops-icin-otomatik-rapor-ve-slack-e-posta-alert-sistemleri), eksik gün, pipeline kırılması, ani trafik sapması ve KPI eşiği aşımlarını Slack veya e-posta akışlarına bağlayarak operasyonel tepki süresini kısaltır."
           },
           {
             "type": "callout",
@@ -84211,14 +84495,14 @@
             "variant": "secondary",
             "label": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonunu İndir",
             "text": "MVP şema, join mantığı ve pipeline adımlarını hazır verir; hızlıca tek havuz kurmanızı sağlar.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/ga4-gsc-ads-crm-bigquery-sema-pipeline-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
             "text": "Çok kanallı otel ve B2B projelerinde veri mimarisini doğru kurgulayıp Looker Studio üzerinde ölçeklemek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -84235,18 +84519,22 @@
             "text": "Başarılı kurulumun temeli; minimum viable şema, doğru URL/site normalizasyonu, sağlam pipeline ve BI katmanında tutarlı KPI sözlüğüdür. Küçük projelerde sade başlamak, büyük yapılarda ise fazlı büyümek en güvenli yoldur."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kurmak isteyen ekipler için [profesyonel SEO Raporlama ve BigQuery veri ambarı kurgusu](/tr/seo/seo-raporlama) daha net bir çerçeve sunar; değerlendirme öncesinde [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da süreç beklentilerini netleştirmeye yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "SEO Data Warehouse & BigQuery Mimari Analizi Talep Et",
             "text": "Çok kanallı otel ve B2B projelerinde SEO verisini tek havuzda toplayıp doğru dashboard mimarisi kurmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "GA4 + GSC + Ads + CRM İçin BigQuery Şema & Pipeline Şablonunu İndir",
             "text": "MVP şema ve join mantığıyla hızlı kurulum sağlar; raporları tek gerçek üzerinden üretmenize yardımcı olur.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/ga4-gsc-ads-crm-bigquery-sema-pipeline-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -84296,7 +84584,7 @@
           "Canonical kontrolü: /tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage şeması soru-cevaplarla eşleşiyor",
-          "İç link hedefleri doğru: /seo/seo-raporlama, /veri-analiz-ve-raporlama, /raporlama/looker-studio",
+          "İç link hedefleri doğru: /tr/seo/seo-raporlama, /tr/veri-analiz-ve-raporlama, /tr/raporlama/looker-studio",
           "Download asset CTA bağlantısı kontrol edildi",
           "Media slot isimleri template ile uyumlu",
           "BigQuery şema tablosu UI table component ile uyumlu",
@@ -84356,7 +84644,7 @@
     },
     "h1": {
       "title": "Consent Mode, Cookie Banner ve Privacy Döneminde SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
-      "intro": "Cookie banner sonrası GA4 grafikleri “bir anda düştü” diye ekiplere panik yaşatabiliyor. Özellikle Avrupa pazarına bakan otel ve B2B projelerinde, izin oranı (consent rate) değiştiğinde GA4’te ölçüm kapsamı değişebilir; bu da organik trafik ve dönüşüm raporlarını doğrudan etkiler. Consent Mode, kullanıcıların izin tercihlerini Google etiketlerine iletmenizi sağlar; kendisi bir banner değildir ve banner’dan aldığı sinyalle etiket davranışını ayarlar. Bu nedenle yeni dönemde rapor okuma sırası değişmeli: önce ölçüm değişti mi, sonra görünürlük değişti mi, ardından iş çıktısı değişti mi ve eğer değiştiyse hangi landing/segment/pazarda değişti soruları cevaplanmalıdır.",
+      "intro": "Cookie banner sonrası GA4 grafikleri “bir anda düştü” diye ekiplere panik yaşatabiliyor. Bu [Consent Mode SEO raporlama](/tr/seo/seo-raporlama) yaklaşımında özellikle Avrupa pazarına bakan otel ve B2B projelerinde, izin oranı (consent rate) değiştiğinde GA4’te ölçüm kapsamı değişebilir; bu da organik trafik ve dönüşüm raporlarını doğrudan etkiler. Consent Mode, kullanıcıların izin tercihlerini Google etiketlerine iletmenizi sağlar; kendisi bir banner değildir ve banner’dan aldığı sinyalle etiket davranışını ayarlar. Bu nedenle yeni dönemde rapor okuma sırası değişmeli: önce ölçüm değişti mi, sonra görünürlük değişti mi, ardından iş çıktısı değişti mi ve eğer değiştiyse hangi landing/segment/pazarda değişti soruları cevaplanmalıdır.",
       "quickSummary": [
         "1) Ölçüm değişti mi? (consent rate / event / tag / modelleme)",
         "2) Görünürlük değişti mi? (GSC)",
@@ -84367,51 +84655,71 @@
       "ctaPrimary": {
         "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
         "text": "Avrupa pazarı olan otel/B2B projelerinde “ölçüm mü performans mı?” ayrımını netleştirmek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
         "text": "Avrupa pazarında consent etkisini doğru okuyup SEO kararlarını güvenli almak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir",
         "text": "Consent rate, modeled data ve GSC doğrulamasıyla raporu güvenli okumanızı sağlar.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/consent-mode-sonrasi-seo-kpi-veri-yorumlama-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Dönüşüm Takibi & Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
-      },
-      {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
-      },
-      {
-        "label": "KVKK Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
-      },
-      {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "SEO hizmetleri",
-        "href": "/seo-hizmetleri"
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "GA4 ve Search Console Verilerini Birlikte Okumak",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "SEO ve SEM Raporlarını Birlikte Okumak",
+        "href": "/tr/seo/blog/seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi"
+      },
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "KVKK Veri Güvenliği Raporlama",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Güvenilir mi?",
-        "href": "/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
       },
       {
-        "title": "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?",
-        "href": "/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
+        "title": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+      },
+      {
+        "title": "SEO ve SEM Raporlarını Birlikte Okumak: Organik ve Reklam Sinerjisi",
+        "href": "/tr/seo/blog/seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi"
       }
     ],
     "sections": [
@@ -84434,6 +84742,10 @@
               "GA4’te bazı kullanıcılar için eksik veri oluşabilir (izin verilmediğinde).",
               "Ekiplerin “tek kaynak” yerine çoklu doğrulama (GSC + brand arama + offline) yaklaşımına geçmesi gerekir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde privacy döneminde raporlama](/tr/seo-hizmetleri), yalnız trafik grafiği okumaktan değil; consent, veri kalitesi ve kanal atamasındaki kaymaları birlikte yorumlamaktan geçer."
           },
           {
             "type": "p",
@@ -84474,6 +84786,10 @@
             "text": "Consent Mode; kullanıcıların izin tercihlerini Google etiketlerine (Analytics/Ads) iletmenizi sağlayan bir mekanizmadır. Banner/ CMP sağlamaz; mevcut banner’ınızın ürettiği consent sinyallerini alıp etiket davranışını buna göre ayarlar."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [Consent Mode ve Tag Manager kontrolü](/tr/sem/donusum-takibi-tag-manager), banner sinyalinin GA4 ve reklam etiketlerine doğru aktarıldığını doğrulamak için kritik hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Consent Mode neyi değiştirir?"
           },
@@ -84488,6 +84804,10 @@
           {
             "type": "p",
             "text": "GA4 “behavioral modeling for consent mode”, izin vermeyen kullanıcılar için eksik kalan veriyi; izin veren benzer kullanıcı davranışlarından öğrenerek modellemeye çalışır. Bu, raporları “tamamlamak” için bir araçtır ama rapor yorumunda şeffaf okunmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda rapor erişimleri, kullanıcı rızası ve veri paylaşım akışları kurulurken [KVKK uyumlu raporlama verisi](/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla hangi verinin kimlerle paylaşılacağı netleştirilmelidir."
           },
           {
             "type": "callout",
@@ -84540,6 +84860,14 @@
           {
             "type": "p",
             "text": "Banner sonrası izin oranı düşerse GA4, izin vermeyen kullanıcılar için daha az veri toplayabilir; bu da organik sessions ve conversions gibi metriklerde düşüş gibi görünür. Bu durumda önce consent rate ve GA4 ölçüm değişikliklerini kontrol edin; sonra GSC tıklama/görünürlük trendiyle performansı doğrulayın."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [cookie banner GA4 veri düşmesi](/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi) gibi görünen sapmaları önce izleme hijyeni, bot filtreleme ve kanal ataması açısından kontrol etmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Ardından [GA4 ve Search Console verilerini karşılaştırmak](/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak), düşüşün gerçekten görünürlük kaybına mı yoksa ölçüm kapsamına mı bağlı olduğunu ayırmanın en temiz yoludur."
           },
           {
             "type": "p",
@@ -84704,6 +85032,10 @@
             "text": "Technical Not (satırdan): Consent çözümleri uygulanırken SEO raporlarının sadece “organik trafik” değil; brand aramaları, Search Console görünürlüğü ve call/lead gibi offline sinyallerle de desteklenmesi gerekir (özellikle Avrupa pazarında)."
           },
           {
+            "type": "p",
+            "text": "Sağlıklı bir [privacy döneminde SEO performansı yorumlama](/tr/veri-analiz-ve-raporlama) çerçevesi kurmak için segment, tarih aralığı ve consent etkisini aynı analiz akışında birlikte görmek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -84750,6 +85082,10 @@
           {
             "type": "p",
             "text": "Mini örnek: “GA4 organik sessions düştü; aynı dönemde consent rate düştü ve GSC tıklamalar stabil. Öncelik: ölçüm etkisini izleyip, CTR/landing optimizasyonunu gerçek verilerle sürdürmek.”"
+          },
+          {
+            "type": "p",
+            "text": "Özellikle brand sorgu, assisted conversion ve kampanya etkisi konuşuluyorsa, [privacy sonrası SEO ve SEM raporlarını birlikte okumak](/tr/seo/blog/seo-ve-sem-raporlarini-birlikte-okumak-organik-ve-reklam-synergisi) yönetimin kanal katkısını daha doğru görmesini sağlar."
           },
           {
             "type": "callout",
@@ -84874,14 +85210,14 @@
             "variant": "primary",
             "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
             "text": "Consent etkisini ölçüm/performans ayrımıyla yönetmek ve yönetici iletişimini standardize etmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir",
             "text": "Consent rate, modeled data ve GSC doğrulamasıyla raporu güvenli okumanızı; yanlış alarmı azaltmanızı sağlar.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/consent-mode-sonrasi-seo-kpi-veri-yorumlama-checklist-v1.0.pdf"
           }
         ]
       },
@@ -84898,18 +85234,22 @@
             "text": "Bu yüzden privacy-aware raporlama modeli; GA4, GSC, consent rate, brand arama ve offline lead/call sinyallerini birlikte okur. Amaç, yanlış alarmı azaltmak ve SEO aksiyonlarını gerçek probleme yönlendirmektir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sistematik kurmak isteyen ekipler için [profesyonel SEO Raporlama ve consent sonrası veri yorumu](/tr/seo/seo-raporlama) daha net bir çalışma çerçevesi sunar; süreç beklentileri ve uygulama detayları için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da karar aşamasında yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Privacy Dönemi SEO Raporlama & Consent Mode Analizi Talep Et",
             "text": "Avrupa pazarında consent etkisini doğru okuyup SEO kararlarını güvenli almak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Consent Mode Sonrası SEO KPI & Veri Yorumlama Checklist’ini İndir",
             "text": "Consent rate, modeled data ve GSC doğrulamasıyla raporu güvenli okumanızı sağlar.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/consent-mode-sonrasi-seo-kpi-veri-yorumlama-checklist-v1.0.pdf"
           }
         ]
       }
@@ -84963,7 +85303,7 @@
           "Canonical kontrolü: /tr/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage şeması soru-cevaplarla eşleşiyor",
-          "İç link hedefleri doğru: /sem/donusum-takibi-tag-manager, /seo/seo-raporlama, /raporlama/kvkk-veri-guvenligi",
+          "İç link hedefleri doğru: /tr/sem/donusum-takibi-tag-manager, /tr/seo/seo-raporlama, /tr/raporlama/kvkk-veri-guvenligi, /tr/veri-analiz-ve-raporlama",
           "Download asset CTA bağlantısı kontrol edildi",
           "Media slot isimleri template ile uyumlu",
           "Consent rate + GA4 + GSC karar matrisi UI table component ile uyumlu",
@@ -85023,7 +85363,7 @@
     },
     "h1": {
       "title": "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
-      "intro": "SEO raporları çoğu zaman “tıklama geldi mi?” sorusuna takılır; oysa asıl kritik soru şudur: tıklayan kullanıcı içeriği tüketti mi? Özellikle içerik hacmi yüksek otel ve hizmet bloglarında, “tık aldı ama okunmadı” sayfalar bütçeyi ve ekibi yanlış yöne sürükler. Bu rehber, GA4’te engaged session ve engagement rate’i; scroll depth ve içerik blok event’leriyle birleştirip SEO raporuna ikinci katman KPI olarak eklemenin pratik yolunu anlatır.",
+      "intro": "SEO raporları çoğu zaman “tıklama geldi mi?” sorusuna takılır; oysa asıl kritik soru şudur: tıklayan kullanıcı içeriği tüketti mi? Özellikle içerik hacmi yüksek otel ve hizmet bloglarında, “tık aldı ama okunmadı” sayfalar bütçeyi ve ekibi yanlış yöne sürükler. Bu rehber, [engaged session nedir GA4](/tr/seo/seo-raporlama) sorusunu SEO raporlama bağlamında ele alarak engaged session ve engagement rate’i; scroll depth ve içerik blok event’leriyle birleştirip ikinci katman KPI olarak kullanmanın pratik yolunu anlatır.",
       "quickSummary": [
         "SEO raporları çoğu zaman “tıklama geldi mi?” sorusuna takılır",
         "Asıl kritik soru şudur: tıklayan kullanıcı içeriği tüketti mi?",
@@ -85033,14 +85373,14 @@
       "ctaPrimary": {
         "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
         "text": "İçerik/landing’lerde “okunma ve tüketim” sinyallerini KPI’a çevirip önceliklendirmek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
         "text": "İçerik tüketimini KPI’a çevirip, öncelikli iyileştirme adaylarını hızlı belirlemek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "Engagement KPI & Scroll Depth Raporlama Şablonunu İndir",
@@ -85051,25 +85391,53 @@
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "Sayfa Bazlı SEO Performans Raporu",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
+      },
+      {
+        "label": "SEO Funnel Raporu",
+        "href": "/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar"
+      },
+      {
+        "label": "İçerik ve Topic Cluster Performans Raporu",
+        "href": "/tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Consent Mode ve Cookie Banner’dan Sonra SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
-        "href": "/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz"
+        "title": "Sayfa Bazlı SEO Performans Raporu ve Landing Page Analizi",
+        "href": "/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi"
       },
       {
-        "title": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "title": "SEO Funnel Raporu: Ziyaretçiden Lead ve Rezervasyona Kadar",
+        "href": "/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar"
+      },
+      {
+        "title": "İçerik ve Topic Cluster Performans Raporu Nasıl Hazırlanır?",
+        "href": "/tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir"
       }
     ],
     "sections": [
@@ -85084,6 +85452,10 @@
           {
             "type": "p",
             "text": "CTR ve sıralama, “Google’dan tık aldık mı?” sorusunu cevaplar. Etkileşim metrikleri ise “site içinde değer oluştu mu?” sorusunu cevaplar. İkisini birleştirmezseniz, SEO raporu yanlış sonuç üretir: CTR iyi diye sevindiğiniz sayfada kullanıcı 3 saniyede çıkıyor olabilir; CTR düşük diye kestiğiniz sayfa ise az ama çok nitelikli kullanıcı getiriyor olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde içerik kalitesi metrikleri](/tr/seo-hizmetleri), yalnız görünürlük değil; kullanıcının sayfada gerçekten ilerleyip ilerlemediğini de rapora taşıyan bir ikinci katman olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -85166,6 +85538,10 @@
             "text": "“Antalya’da çocuklu aile aktiviteleri” içeriği yüksek tık alıyor ama engagement düşükse; kullanıcı ya hızlı cevap arıyordur (listede bulamıyor) ya da ilk ekranda “özet + içindekiler” eksiktir."
           },
           {
+            "type": "p",
+            "text": "Bu veriyi doğru okumak için [engagement verisini analiz etmek](/tr/veri-analiz-ve-raporlama), cihaz, landing page ve kullanıcı tipi segmentlerini aynı rapor içinde birlikte görmeyi gerektirir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -85236,6 +85612,10 @@
           {
             "type": "p",
             "text": "Bu senaryo, SEO değil; çoğu zaman içerik yapısı/UX sorunudur."
+          },
+          {
+            "type": "p",
+            "text": "Burada [scroll depth SEO raporuna nasıl eklenir](/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi) sorusu landing page performansını yalnız trafikle değil, sayfa içi tüketim sinyalleriyle de değerlendirmek açısından kritik hale gelir."
           },
           {
             "type": "table",
@@ -85345,6 +85725,14 @@
             "text": "B2B hizmet sayfasında “case/kanıt” bloğuna ulaşan kullanıcı oranı düşükse; içerik kalitesi değil, sayfa akışı/kanıt yerleşimi sorunu olabilir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [içerik kalitesi metrikleri SEO](/tr/seo/blog/icerik-ve-topic-cluster-performans-raporu-nasil-hazirlanir) yaklaşımı, engagement verisini tek bir sayfa yerine hub, support içerik ve cluster seviyesinde birlikte okumayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [içerik tüketimini SEO funnel içinde okumak](/tr/seo/blog/seo-funnel-raporu-ziyaretci-den-lead-ve-rezervasyona-kadar), sayfada kalan kullanıcının bir sonraki adıma geçip geçmediğini lead, form ve rezervasyon akışıyla birlikte yorumlamayı sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -85404,6 +85792,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu noktada [etkileşim metriklerini satış dönüşümle bağlamak](/tr/raporlama/satis-donusum), yüksek tüketim gösteren sayfaların gerçekten lead, teklif, rezervasyon veya satış üretip üretmediğini netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde ise [otel SEO’da içerik kalitesi metrikleri](/tr/otel/seo), destinasyon, oda ve kampanya içeriklerinin gerçekten tüketilip tüketilmediğini organik performansla birlikte değerlendirmeyi kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "technical",
             "title": "Technical Not",
@@ -85448,7 +85844,7 @@
             "variant": "primary",
             "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
             "text": "Engagement KPI’larını doğru event planıyla kurup “tık var ama tüketim yok” problemini sayfa bazında çözmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -85486,6 +85882,24 @@
             ],
             "href": "/downloads/engagement-kpi-scroll-depth-raporlama-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sistematik kurmak isteyen ekipler için [profesyonel SEO Raporlama ve etkileşim metrikleri analizi](/tr/seo/seo-raporlama) daha net bir çalışma çerçevesi sunar; uygulama detayları ve süreç beklentileri için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da karar aşamasında yardımcı olur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Etkileşim Metrikleri & İçerik Kalitesi Analizi Talep Et",
+            "text": "Engagement KPI’larını SEO raporuna doğru bağlayıp içerik tüketimini aksiyona dönüştürmek isteyen ekipler için.",
+            "href": "/tr/seo/seo-raporlama"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Engagement KPI & Scroll Depth Raporlama Şablonunu İndir",
+            "text": "Scroll eşikleri ve kritik event setini standartlaştırır; “tık var ama okunma yok” sayfalarını netleştirmenizi sağlar.",
+            "href": "/downloads/engagement-kpi-scroll-depth-raporlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -85597,7 +86011,7 @@
     },
     "h1": {
       "title": "Search Generative Experience / AI Overview Metriklerini SEO Raporuna Nasıl Eklersiniz?",
-      "intro": "AI Overviews (SGE/AI Overview) ile SERP, “10 mavi link” döneminden daha karmaşık bir yapıya evrildi: AI yanıt bloğu, snippet, PAA, harita ve klasik organik sonuçlar aynı anda görünür olabiliyor. Bu tablo, SEO raporlarındaki en sık iki problemi büyütüyor:\n\n1. CTR düşüşleri “SEO düştü” diye yanlış okunabiliyor.\n2. AI alanının etkisi ölçüm araçlarında net görünmediği için ekipler “tamamen görmezden gelme” eğiliminde olabiliyor.\n\nGoogle Search Central, AI Overviews/AI Mode gibi AI özelliklerinde görünen linklerin Search Console’daki genel “Web” performans verisine dahil edildiğini söylüyor. Bu, raporlamada “AI alanı ayrı bir kanal” değil, organik görünürlüğün yeni bir bağlamı olduğunu gösterir.  \nAncak pratikte çoğu ekip, “AI answer’da çıkma”yı doğrudan ve tutarlı bir metrikle izleyemediği için, raporlamada bir boşluk oluşur. Bu rehber, o boşluğu proxy metrik + manuel izleme + timeline notları ile kapatan operasyonel bir çerçeve sunar.",
+      "intro": "AI Overviews (SGE/AI Overview) ile SERP, “10 mavi link” döneminden daha karmaşık bir yapıya evrildi: AI yanıt bloğu, snippet, PAA, harita ve klasik organik sonuçlar aynı anda görünür olabiliyor. Bu [SGE AI Overview SEO raporu](/tr/seo/seo-raporlama) yaklaşımı, SEO raporlarındaki en sık iki problemi büyüten yeni bağlamı doğru okumayı hedefler:\n\n1. CTR düşüşleri “SEO düştü” diye yanlış okunabiliyor.\n2. AI alanının etkisi ölçüm araçlarında net görünmediği için ekipler “tamamen görmezden gelme” eğiliminde olabiliyor.\n\nGoogle Search Central, AI Overviews/AI Mode gibi AI özelliklerinde görünen linklerin Search Console’daki genel “Web” performans verisine dahil edildiğini söylüyor. Bu, raporlamada “AI alanı ayrı bir kanal” değil, organik görünürlüğün yeni bir bağlamı olduğunu gösterir.  \nAncak pratikte çoğu ekip, “AI answer’da çıkma”yı doğrudan ve tutarlı bir metrikle izleyemediği için, raporlamada bir boşluk oluşur. Bu rehber, o boşluğu proxy metrik + manuel izleme + timeline notları ile kapatan operasyonel bir çerçeve sunar.",
       "quickSummary": [
         "1) AI Overview’ü yeni kanal değil SERP bağlamı olarak konumlandır",
         "2) Ölçebildiğin ve ölçemediğin alanları raporda şeffaf ayır",
@@ -85608,14 +86022,14 @@
       "ctaPrimary": {
         "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
         "text": "Kritik sorgularda AI SERP etkisini ölçüm boşluğu olmadan raporlayıp karar almak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
         "text": "AI Overviews/SGE etkisini raporlama ritmine entegre edip CTR dalgalarını doğru yorumlamak isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "AI SERP Timeline & Not Şablonunu İndir",
@@ -85626,25 +86040,53 @@
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
+      },
+      {
+        "label": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "label": "BigQuery ve Veri Ambarı ile SEO Data Warehouse",
+        "href": "/tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
-        "href": "/seo/blog/etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi"
+        "title": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+        "href": "/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir"
       },
       {
-        "title": "Consent Mode ve Cookie Banner’dan Sonra SEO Raporlamasını Nasıl Doğru Yorumlarsınız?",
-        "href": "/seo/blog/consent-mode-ve-cookie-bannerdan-sonra-seo-raporlamasini-nasil-dogru-yorumlarsiniz"
+        "title": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "title": "BigQuery ve Veri Ambarı ile SEO Data Warehouse Nasıl Kurulur?",
+        "href": "/tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu"
       }
     ],
     "sections": [
@@ -85659,6 +86101,10 @@
           {
             "type": "p",
             "text": "AI Overviews, Google’ın bazı sorgularda sayfanın üstünde AI destekli özet cevap ve destekleyici linkler gösterdiği bir deneyimdir. Google, AI Overviews’ün özellikle karmaşık sorularda “giste hızlı ulaşma” ve daha geniş kaynak çeşitliliğine yönlendirme amacı taşıdığını ve AI özelliklerinde görünmek için ek bir SEO gereksinimi olmadığını belirtir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde AI cevap alanı raporlaması](/tr/seo-hizmetleri), artık klasik pozisyon ve tıklama tablolarına ek olarak SERP bağlamı, CTR kayması ve görünürlük notlarını da içeren daha geniş bir okuma disiplini gerektirir."
           },
           {
             "type": "h3",
@@ -85698,7 +86144,7 @@
             "variant": "primary",
             "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
             "text": "Kritik sorgularda AI SERP etkisini ölçüm boşluğu olmadan raporlayıp karar almak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "media",
@@ -85812,6 +86258,10 @@
             "text": "“Bilgilendirici sorgular” kümesinde impressions sabit/artar, clicks düşer ve CTR gerilerse; AI Overviews gibi SERP değişiklikleri etken olabilir. Bu durumda aksiyon: snippet/başlık testi + içerik bloklarını “net cevap + kaynak” formatına çekmek + AI SERP notu tutmak."
           },
           {
+            "type": "p",
+            "text": "Burada [AI cevap alanını raporlara ekleme](/tr/veri-analiz-ve-raporlama) yaklaşımı, manuel gözlemleri GSC trendi, landing davranışı ve tarihsel timeline notlarıyla birlikte okuyan bir veri analizi çerçevesi kurmayı gerektirir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -85923,6 +86373,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu gözlemleri karar destek katmanına taşımak için [AI Overview görünürlüğünü otomatik içgörüye çevirmek](/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler), aylık raporda anomali notlarını ve aksiyon özetlerini daha tutarlı hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı watchlist yapısını daha sonra [AI SERP verisini data warehouse’a taşımak](/tr/seo/blog/bigquery-ve-veri-ambari-ile-seo-data-warehouse-kurulumu) için sorgu, tarih, landing page ve CTR değişimiyle birlikte merkezi tabloda tutmak da uzun vadede karşılaştırmayı kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -85999,6 +86457,10 @@
             "text": "CTR düşüyor ama GA4’te engaged session artıyorsa: daha az tık, daha kaliteli trafik olabilir. Google da AI Overviews’ten gelen ziyaretlerin daha kaliteli olabileceğini ifade ediyor; bu yüzden sadece CTR’ye bakmak yanıltıcı olur."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [AI SERP CTR yorumu](/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir), ortalama konum, görünürlük ve tıklama verisini AI bağlam notlarıyla birlikte okuyarak klasik görünürlük raporunu daha dengeli yorumlamayı sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -86039,6 +86501,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Turizm projelerinde [otel SEO’da AI Overview görünürlüğü](/tr/otel/seo), destinasyon, oda, kampanya ve bölge sorgularında AI cevap alanında hangi içerik tiplerinin öne çıktığını stratejik olarak yorumlamayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [AI cevap alanı benchmark analizi](/tr/raporlama/benchmark-analizi), rakip markalar, OTA’lar, rehber siteler ve medya kaynaklarının hangi sorgularda öne çıktığını daha sistematik karşılaştırmak için faydalı bir katman sağlar."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -86063,7 +86533,7 @@
             "variant": "primary",
             "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
             "text": "AI SERP etkisini raporlama ritmine entegre edip, CTR dalgalarını doğru yorumlamak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -86120,11 +86590,15 @@
             "text": "Kritik sorgularda AI SERP Watchlist oluşturmak, timeline notları tutmak ve GSC + GA4 sinyallerini birlikte okumak; “CTR düştü, SEO kötüleşti” gibi hatalı yorumların önüne geçer. AI metrikleri standartlaşana kadar en güvenli yaklaşım, proxy metrikleri şeffaf notlarla ve aksiyon odaklı raporlama diliyle kullanmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sistematik kurmak isteyen ekipler için [profesyonel SEO Raporlama ve AI Overview metrik takibi](/tr/seo/seo-raporlama) daha net bir çalışma çerçevesi sunar; süreç beklentileri ve uygulama detayları için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da karar aşamasında yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI SERP & SGE Notları İçin SEO Raporlama Analizi Talep Et",
             "text": "AI Overviews/SGE etkisini raporlama ritmine entegre edip CTR dalgalarını doğru yorumlamak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
@@ -86243,7 +86717,7 @@
     },
     "h1": {
       "title": "SEO Ops İçin Otomatik Rapor ve Slack/E-posta Alert Sistemleri Nasıl Kurulur?",
-      "intro": "SEO ekipleri en çok şu anda kaybeder: bir sorun olur (404 patlar, CWV bozulur, CTR düşer), ama ekip bunu rapor gününde fark eder. Bu gecikme, hem gelir kaybı hem de “neden oldu?” sorusunda belirsizlik demektir. Otomatik rapor ve alert sistemleri, tam bu noktada devreye girer: sorun büyümeden yakalar, triage akışını hızlandırır ve aksiyonu sprint’e çevirir.\nAncak yanlış kurgulanmış sistemler de başka bir kayıp üretir: her şeye alarm → alarm yorgunluğu → kimse bakmıyor. Bu rehber, SEO ops’ta doğru KPI’ları ve eşikleri seçip, Slack/e-posta kanallarında doğru yoğunlukta bildirimle sürdürülebilir bir ops kültürü kurmanın çerçevesini verir.",
+      "intro": "SEO ekipleri en çok şu anda kaybeder: bir sorun olur (404 patlar, CWV bozulur, CTR düşer), ama ekip bunu rapor gününde fark eder. Bu [SEO Slack alert sistemi](/tr/seo/seo-raporlama) yaklaşımı, hem gelir kaybını hem de “neden oldu?” sorusundaki belirsizliği azaltmak için otomatik rapor ve alert katmanını devreye alır: sorun büyümeden yakalar, triage akışını hızlandırır ve aksiyonu sprint’e çevirir.\nAncak yanlış kurgulanmış sistemler de başka bir kayıp üretir: her şeye alarm → alarm yorgunluğu → kimse bakmıyor. Bu rehber, SEO ops’ta doğru KPI’ları ve eşikleri seçip, Slack/e-posta kanallarında doğru yoğunlukta bildirimle sürdürülebilir bir ops kültürü kurmanın çerçevesini verir.",
       "quickSummary": [
         "1) Alarm sistemini raporun yerine değil, erken uyarı katmanı olarak konumlandır",
         "2) 6–10 kritik KPI seç: trafik, CTR, CWV, 404/5xx ve dönüşüm sapması",
@@ -86254,14 +86728,14 @@
       "ctaPrimary": {
         "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
         "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup alarm yorgunluğu yaşamadan operasyonu proaktif yönetmek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
         "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup proaktif SEO ops yönetmek isteyen ekipler için.",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       "secondary": {
         "label": "SEO KPI Alert Eşik & Otomatik Raporlama Akış Şablonunu İndir",
@@ -86272,25 +86746,53 @@
     "internalLinks": [
       {
         "label": "SEO Raporlama & Performans Analizi",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "SEO hizmetleri",
+        "href": "/tr/seo-hizmetleri"
+      },
+      {
+        "label": "Raporlama Ritmi ve SEO Operasyon Kültürü",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
+      },
+      {
+        "label": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Looker Studio",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "SEO Raporlama SSS",
+        "href": "/tr/seo/seo-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "AI Overview/SGE Metriklerini SEO Raporuna Ekleme",
-        "href": "/seo/blog/search-generative-experience-ai-overview-metrikleri-seo-raporuna-nasil-eklenir"
+        "title": "Yapısal Raporlama Ritmi ve SEO Operasyon Kültürü: Haftalık, Aylık, Çeyreklik Model",
+        "href": "/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek"
       },
       {
-        "title": "Etkileşim Metrikleri: Engaged Session, Scroll Depth ve İçerik Kalitesini SEO Raporuna Nasıl Dahil Edersiniz?",
-        "href": "/seo/blog/etkilesim-metrikleri-engaged-session-scroll-depth-ve-icerik-kalitesi"
+        "title": "AI Destekli SEO Rapor Özeti ve Otomatik İçgörüler Nasıl Kullanılır?",
+        "href": "/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler"
+      },
+      {
+        "title": "Veri Kalitesi ve İzleme Hijyeni: SEO Raporlarınız Gerçekten Güvenilir mi?",
+        "href": "/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi"
       }
     ],
     "sections": [
@@ -86321,6 +86823,10 @@
           {
             "type": "p",
             "text": "Aylık rapor “ne oldu?”yu anlatır; ama “şu an ne oluyor?” sorusuna yetişmez. Haftalık rapor bile, 404/5xx gibi kritik bir kırılmada geç kalabilir. Bu yüzden ops yaklaşımı; haftalık/aylık raporun yanına günlük (hatta saatlik) kritik uyarı katmanı koyar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [SEO hizmetleri içinde otomatik SEO raporu mail akışı](/tr/seo-hizmetleri), yalnız rapor üretmekten değil; kritik metriklerde anlık uyarı ve takip akışı kurmaktan geçer."
           },
           {
             "type": "h3",
@@ -86361,7 +86867,7 @@
             "variant": "primary",
             "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
             "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup alarm yorgunluğu yaşamadan operasyonu proaktif yönetmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "media",
@@ -86412,6 +86918,18 @@
             "items": [
               "İlk etapta organik trafik (sessions), Search Console tıklama/CTR sapmaları, 404/5xx artışı ve CWV bozulması en kritik alarmlardır. Ardından organik dönüşüm event’leri ve kritik landing performansı eklenir. Amaç “çok alarm” değil, iş etkisi yüksek 6–10 alarmdır."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu eşikleri sezgisel değil, [KPI threshold alarm tasarımı](/tr/veri-analiz-ve-raporlama) yaklaşımıyla trend, segment ve ortalama sapma mantığı üzerinden kurmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle form, telefon, WhatsApp ve rezervasyon event’leri için [dönüşüm takibi alarm sistemi](/tr/sem/donusum-takibi-tag-manager), sessiz veri kayıplarını veya bozuk event akışlarını erken fark etmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [alert sistemi için veri kalitesi kontrolü](/tr/seo/blog/veri-kalitesi-ve-izleme-hijyeni-seo-raporlariniz-guvenilir-mi), bot trafik, eksik tracking veya yanlış kanal ataması yüzünden üretilen hatalı alarmları azaltır."
           },
           {
             "type": "table",
@@ -86571,6 +87089,14 @@
             "text": "Her sabah Slack’te 7 satırlık “SEO ops digest” gelir. Haftalık toplantıda bu digest’ten çıkan riskler aksiyona döner. Böylece raporlar “dosya” değil “operasyon” olur."
           },
           {
+            "type": "p",
+            "text": "Bu düzeni [SEO operasyon ritmine bağlı otomatik raporlar](/tr/seo/blog/raporlama-ritmi-ve-seo-operasyon-kulturu-haftalik-aylik-ceyrek) mantığıyla kurmak, alarmların günlük gürültü değil haftalık ve aylık karar akışının parçası olmasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Günlük özetleri [otomatik SEO raporu dashboard’u](/tr/raporlama/looker-studio) ile desteklemek de ekiplerin hangi KPI kartının neden alarm ürettiğini görsel olarak daha hızlı anlamasını sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -86660,6 +87186,10 @@
           {
             "type": "p",
             "text": "“⚠️ Organic sessions 2 gün üst üste %20↓ — Top 5 landing etkilendi. İlk kontrol: tag/event değişikliği + GSC clicks trendi. Owner: SEO Ops.”"
+          },
+          {
+            "type": "p",
+            "text": "Bu uyarıların yalnız ham bildirim olarak kalmaması için [AI destekli otomatik insight kartları](/tr/seo/blog/ai-destekli-seo-rapor-ozeti-ve-otomatik-icgoruler), alarmın yanında kısa yorum ve ilk aksiyon önerisini de standartlaştırmaya yardımcı olur."
           },
           {
             "type": "callout",
@@ -86764,7 +87294,7 @@
             "variant": "primary",
             "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
             "text": "KPI eşikleri, triage akışı ve kanal entegrasyonlarıyla sürdürülebilir SEO ops kurmak isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           }
         ]
       },
@@ -86781,11 +87311,15 @@
             "text": "En sürdürülebilir model; 6–10 kritik KPI ile başlayan, alarm yorgunluğunu önleyen, günlük kısa özetleri Slack’e ve haftalık aksiyon raporlarını e-postaya bağlayan hibrit bir ops yapısıdır. Otomasyon hızlandırır; insan ekip karar verir ve sistemi sürekli kalibre eder."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sistematik kurmak isteyen ekipler için [profesyonel SEO Raporlama ve otomatik alert sistemi](/tr/seo/seo-raporlama) daha net bir çalışma çerçevesi sunar; süreç beklentileri ve uygulama detayları için [SEO Raporlama hakkında sık sorulan sorular](/tr/seo/seo-raporlama-sss) sayfası da karar aşamasında yardımcı olur."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "SEO Alert & Otomatik Rapor Tasarım Analizi Talep Et",
             "text": "Trafik/CTR/CWV/hata alarmlarını doğru eşiklerle kurup proaktif SEO ops yönetmek isteyen ekipler için.",
-            "href": "/seo/seo-raporlama"
+            "href": "/tr/seo/seo-raporlama"
           },
           {
             "type": "cta",
