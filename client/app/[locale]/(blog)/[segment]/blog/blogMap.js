@@ -460,7 +460,12 @@ export const BLOG_MAP = {
     "gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin":"BlogGorselStratejisiVeMedyaYonetimiKurumsalVeOtelWebSiteleriIcin",
     "web-site-governance-style-guide-ve-degisiklik-yonetimi":"BlogWebSiteGovernanceStyleGuideVeDegisiklikYonetimi",
     "security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme":"BlogSecurityByDesignKurumsalWebSitelerindeGuvenlikOdakliGelistirme",
-    "gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek":"BlogGelistiriciVeSeoIsBirligiWebProjelerindeTeknikSeoYuSureceDahilEtmek"
+    "gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek":"BlogGelistiriciVeSeoIsBirligiWebProjelerindeTeknikSeoYuSureceDahilEtmek",
+    "pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi":"BlogPwaVeOfflineDeneyimKurumsalVeOtelWebSiteleriIcinProgressiveWebAppStratejisi",
+    "cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak":"BlogCerezYonetimiVeConsentUxKvkkUyumluWebDeneyimiTasarlamak",
+    "web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye":"BlogWebSitesiYasamDongusuVeYolHaritasiV1DenSurekliIyilestirmeye",
+    "jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler":"BlogJamstackVeEdgeRenderingKurumsalWebSiteleriIcinYeniMimariTrendler",
+    "design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi":"BlogDesignTokenVeMultiBrandDijitalEkosistemlerIcinWebAltyapisi"
   },
    
   creative: {

@@ -44398,6 +44398,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Dev–SEO kickoff ve QA deliverables kanıt kartı, otel ve B2B teknik SEO süreci",
       caption: "Dev–SEO kickoff ve QA deliverables kanıt kartı, otel ve B2B teknik SEO süreci"
     }
+  },
+
+  "pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software1-18/Software1-18-1.webp",
+      alt: "PWA ve Offline Deneyim: Kurumsal ve Otel Web Siteleri İçin Progressive Web App Stratejisi",
+      caption: "PWA ve Offline Deneyim: Kurumsal ve Otel Web Siteleri İçin Progressive Web App Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-18/Software1-18-2.webp",
+      alt: "Manifest ve service worker bağlam görseli, kurumsal sitede app benzeri kullanım",
+      caption: "Manifest ve service worker bağlam görseli, kurumsal sitede app benzeri kullanım"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-18/Software1-18-3.webp",
+    alt: "PWA nedir bölüm ayırıcı görseli, otel ve B2B’de uygulama benzeri deneyim",
+      caption: "PWA nedir bölüm ayırıcı görseli, otel ve B2B’de uygulama benzeri deneyim"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-18/Software1-18-4.webp",
+      alt: "Offline ve zayıf bağlantı bölüm ayırıcı, otel kullanıcılarında kesintisiz deneyim",
+      caption: "Offline ve zayıf bağlantı bölüm ayırıcı, otel kullanıcılarında kesintisiz deneyim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-18/Software1-18-5.webp",
+      alt: "Manifest-service worker-cache mimarisi diyagramı, otel ve B2B offline UX",
+      caption: "Manifest-service worker-cache mimarisi diyagramı, otel ve B2B offline UX"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-18/Software1-18-6.webp",
+      alt: "PWA uygunluk checklist kartı, otel ve B2B için offline karar çerçevesi",
+      caption: "PWA uygunluk checklist kartı, otel ve B2B için offline karar çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-18/Software1-18-7.webp",
+      alt: "PWA KPI kartı, tekrar ziyaret ve mobil etkileşim artışı hedefi",
+      caption: "PWA KPI kartı, tekrar ziyaret ve mobil etkileşim artışı hedefi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-18/Software1-18-8.webp",
+      alt: "PWA deliverables kanıt kartı, offline sayfa ve cache planı çıktıları",
+      caption: "PWA deliverables kanıt kartı, offline sayfa ve cache planı çıktıları"
+    }
+  },
+
+  "cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak":{
+     banner: {
+      src: "/images/blog/software/Software1-19/Software1-19-1.webp",
+      alt: "Çerez Yönetimi ve Consent UX: KVKK Uyumlu Web Deneyimi Tasarlamak",
+      caption: "Çerez Yönetimi ve Consent UX: KVKK Uyumlu Web Deneyimi Tasarlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-19/Software1-19-2.webp",
+      alt: "Çerez kategorileri bağlamı, otel rezervasyon deneyiminde şeffaf izin yönetimi",
+      caption: "Çerez kategorileri bağlamı, otel rezervasyon deneyiminde şeffaf izin yönetimi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-19/Software1-19-3.webp",
+    alt: "Çerez kategorileri bölüm ayırıcı, otel kullanıcılarında şeffaf izin akışı",
+      caption: "Çerez kategorileri bölüm ayırıcı, otel kullanıcılarında şeffaf izin akışı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-19/Software1-19-4.webp",
+      alt: "Consent preference center bölüm ayırıcı, otel web sitesinde kullanıcı kontrolü",
+      caption: "Consent preference center bölüm ayırıcı, otel web sitesinde kullanıcı kontrolü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-19/Software1-19-5.webp",
+      alt: "Consent banner akışı diyagramı, otel sitesinde KVKK uyumlu kullanıcı kontrolü",
+      caption: "Consent banner akışı diyagramı, otel sitesinde KVKK uyumlu kullanıcı kontrolü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-19/Software1-19-6.webp",
+      alt: "Consent UX checklist kartı, otel web sitesinde güven ve şeffaflık",
+      caption: "Consent UX checklist kartı, otel web sitesinde güven ve şeffaflık"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-19/Software1-19-7.webp",
+      alt: "Consent opt-in ve bounce dengesi KPI kartı, otel web deneyiminde güven",
+      caption: "Consent opt-in ve bounce dengesi KPI kartı, otel web deneyiminde güven"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-19/Software1-19-8.webp",
+      alt: "Consent UX deliverables kartı, KVKK uyumlu ölçüm ve tag yönetimi",
+      caption: "Consent UX deliverables kartı, KVKK uyumlu ölçüm ve tag yönetimi"
+    }
+  },
+
+  "web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye":{
+     banner: {
+      src: "/images/blog/software/Software1-20/Software1-20-1.webp",
+      alt: "Web Sitesi Yaşam Döngüsü ve Yol Haritası: V1’den Sürekli İyileştirmeye",
+      caption: "Web Sitesi Yaşam Döngüsü ve Yol Haritası: V1’den Sürekli İyileştirmeye"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-20/Software1-20-2.webp",
+      alt: "V1’den roadmap’e bağlam görseli, lansman sonrası planlı gelişim modeli",
+      caption: "V1’den roadmap’e bağlam görseli, lansman sonrası planlı gelişim modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-20/Software1-20-3.webp",
+    alt: "Lifecycle adımları bölüm ayırıcı, otel ve B2B’de planlı iyileştirme",
+      caption: "Lifecycle adımları bölüm ayırıcı, otel ve B2B’de planlı iyileştirme"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-20/Software1-20-4.webp",
+      alt: "Roadmap örnekleri bölüm ayırıcı, otel ve B2B’de sürdürülebilir büyüme",
+      caption: "Roadmap örnekleri bölüm ayırıcı, otel ve B2B’de sürdürülebilir büyüme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-20/Software1-20-5.webp",
+      alt: "Web sitesi yaşam döngüsü timeline diyagramı, otel ve B2B için 12 aylık plan",
+      caption: "Web sitesi yaşam döngüsü timeline diyagramı, otel ve B2B için 12 aylık plan"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-20/Software1-20-6.webp",
+      alt: "Lansman sonrası yapılacaklar checklist kartı, otel ve B2B yol haritası",
+      caption: "Lansman sonrası yapılacaklar checklist kartı, otel ve B2B yol haritası"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-20/Software1-20-7.webp",
+      alt: "Roadmap KPI kartı, dönüşüm ve CWV iyileştirme hedefleri",
+      caption: "Roadmap KPI kartı, dönüşüm ve CWV iyileştirme hedefleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-20/Software1-20-8.webp",
+      alt: "Roadmap deliverables kanıt kartı, 12 aylık plan ve sprint ritmi",
+      caption: "Roadmap deliverables kanıt kartı, 12 aylık plan ve sprint ritmi"
+    }
+  },
+
+  "jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler":{
+     banner: {
+      src: "/images/blog/software/Software1-21/Software1-21-1.webp",
+      alt: "Jamstack ve Edge Rendering: Kurumsal Web Siteleri İçin Yeni Mimari Trendler",
+      caption: "Jamstack ve Edge Rendering: Kurumsal Web Siteleri İçin Yeni Mimari Trendler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-21/Software1-21-2.webp",
+      alt: "CDN-first teslimat bağlamı, otel ve B2B kullanıcılarında hızlı açılış",
+      caption: "CDN-first teslimat bağlamı, otel ve B2B kullanıcılarında hızlı açılış"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-21/Software1-21-3.webp",
+    alt: "Jamstack tanımı bölüm ayırıcı, kurumsal sitede hız ve güvenlik hedefi",
+      caption: "Jamstack tanımı bölüm ayırıcı, kurumsal sitede hız ve güvenlik hedefi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-21/Software1-21-4.webp",
+      alt: "Edge karar kriterleri bölüm ayırıcı, global kullanıcıda düşük gecikme hedefi",
+      caption: "Edge karar kriterleri bölüm ayırıcı, global kullanıcıda düşük gecikme hedefi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-21/Software1-21-5.webp",
+      alt: "Jamstack ve edge katmanları diyagramı, otel ve B2B’de CDN-first hız",
+      caption: "Jamstack ve edge katmanları diyagramı, otel ve B2B’de CDN-first hız"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-21/Software1-21-6.webp",
+      alt: "Jamstack edge uygunluk checklist kartı, otel ve B2B mimari kararı",
+      caption: "Jamstack edge uygunluk checklist kartı, otel ve B2B mimari kararı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-21/Software1-21-7.webp",
+      alt: "Edge performans KPI kartı, global kullanıcıda TTFB düşürme hedefi",
+      caption: "Edge performans KPI kartı, global kullanıcıda TTFB düşürme hedefi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-21/Software1-21-8.webp",
+      alt: "Mimari karar deliverables kartı, cache planı ve SEO QA çıktıları",
+      caption: "Mimari karar deliverables kartı, cache planı ve SEO QA çıktıları"
+    }
+  },
+
+  "design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi":{
+    banner: {
+      src: "/images/blog/software/Software1-22/Software1-22-1.webp",
+      alt: "Design Token ve Multi-Brand Dijital Ekosistemler İçin Web Altyapısı",
+      caption: "Design Token ve Multi-Brand Dijital Ekosistemler İçin Web Altyapısı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software1-22/Software1-22-2.webp",
+      alt: "Tek kod tabanında tema varyantları bağlamı, holding ekosisteminde ölçeklenebilir UI",
+      caption: "Tek kod tabanında tema varyantları bağlamı, holding ekosisteminde ölçeklenebilir UI"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-22/Software1-22-3.webp",
+    alt: "Design token tanımı bölüm ayırıcı, otel ve holdinglerde tek stil kaynağı",
+      caption: "Design token tanımı bölüm ayırıcı, otel ve holdinglerde tek stil kaynağı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-22/Software1-22-4.webp",
+      alt: "Multi-brand tema yaklaşımı bölüm ayırıcı, holding ekosisteminde hızlı marka ekleme",
+      caption: "Multi-brand tema yaklaşımı bölüm ayırıcı, holding ekosisteminde hızlı marka ekleme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-22/Software1-22-5.webp",
+      alt: "Token hiyerarşisi diyagramı, core-semantic-component katmanlarıyla multi-brand tema yönetimi",
+      caption: "Token hiyerarşisi diyagramı, core-semantic-component katmanlarıyla multi-brand tema yönetimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-22/Software1-22-6.webp",
+      alt: "Multi-brand token checklist kartı, otel gruplarında tek stil kaynağıyla ölçekleme",
+      caption: "Multi-brand token checklist kartı, otel gruplarında tek stil kaynağıyla ölçekleme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-22/Software1-22-7.webp",
+      alt: "Yeni marka ekleme süresi KPI kartı, token tabanlı web sistemlerinde hız",
+      caption: "Yeni marka ekleme süresi KPI kartı, token tabanlı web sistemlerinde hız"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-22/Software1-22-8.webp",
+      alt: "Token seti ve tema varyantları deliverables kartı, holding ekosistemi yönetimi",
+      caption: "Token seti ve tema varyantları deliverables kartı, holding ekosistemi yönetimi"
+    }
   }
   
 };

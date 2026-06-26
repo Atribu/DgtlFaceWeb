@@ -22415,5 +22415,3377 @@
         ]
       }
     }
+  },
+
+   "BlogPwaVeOfflineDeneyimKurumsalVeOtelWebSiteleriIcinProgressiveWebAppStratejisi": {
+    "title": "PWA ve Offline Deneyim Stratejisi",
+    "slug": "pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PWA ile offline/low-connectivity deneyimi kurun: manifest, service worker ve cache stratejisi. Otel/B2B için uygunluk checklist’i + Next.js uygulama notları.",
+    "seo": {
+      "metaTitle": "PWA ve Offline Deneyim Stratejisi | DGTLFACE",
+      "metaDescription": "PWA ile offline/low-connectivity deneyimi kurun: manifest, service worker ve cache stratejisi. Otel/B2B için uygunluk checklist’i + Next.js uygulama notları."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “mobil ve düşük bağlantı koşullarında süreklilik” ihtiyacını çözen otorite child rolündedir: PWA’yı hype olarak değil, doğru senaryoda app-like UX ve offline/low-connectivity avantajı üreten bir strateji olarak ele alır. Hedef persona otel sahibi / satış–pazarlama müdürü / ajans yöneticisi (ve teknik ekip) olup funnel’da consideration aşamasında “PWA gerekli mi, hangi kapsamla?” kararını kolaylaştırır. Ana iş sorusu: Hangi sayfaları offline cache’lemeli, service worker/manifest’i nasıl kurgulamalı, push bildirimlerini hangi durumda kullanmalı ve bunu CWV/SEO’yu bozmadan nasıl işletmeliyim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PWA her kurumsal site için zorunlu değildir; ancak doğru senaryoda önemli UX avantajı sağlar. Manifest ve service worker ile kritik sayfaları ve varlıkları önbelleğe almak, özellikle seyahat hâlindeki kullanıcılar veya zayıf bağlantı koşullarında otel ve B2B deneyimini kesintisiz kılar. En iyi yaklaşım “full PWA” takıntısı değil; hangi sayfalar offline olacak, cache nasıl yönetilecek, push ne zaman değer üretir sorularına cevap veren planlı bir stratejidir.",
+      "sgeSummary": "PWA için önce uygunluk seç: sık ziyaret edilen sayfaları cache’le, service worker ile offline/low-connectivity deneyimi tasarla, manifest ile “Add to Home Screen” sun. CWV/Lighthouse testini unutma.",
+      "voiceAnswer": "Otel sitenizi uygulama gibi kullandırmak için PWA’yı seçici kullanın: offline sayfalar + cache planı.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel pazarlama/dijital, ajans teknik ekipleri, B2B portal sahipleri, ürün/UX",
+        "KPI: Tekrar ziyaret, mobil etkileşim, sayfa yüklenme (CWV), offline hata oranı, “Add to Home Screen” kullanım oranı (Varsayım: izlenebilir)",
+        "Entity set: PWA, offline UX, manifest, service worker, cache strategies, push notifications, Lighthouse",
+        "GEO: Türkiye geneli; seyahat odaklı otel siteleri ve B2B dashboard/portal projeleri",
+        "Funnel: MoFu (karar + plan) → BoFu (uygulama + bakım)",
+        "Risk alanları: Yanlış cache (stale içerik), CWV bozulması, SEO sinyali karışması, bakım yükü, iOS sınırlamaları (Varsayım: platform farkları)",
+        "Çıktı: Uygunluk matrisi + cache stratejisi + offline ekran taslağı + bakım checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "PWA ve Offline Deneyim: Kurumsal ve Otel Web Siteleri İçin Progressive Web App Stratejisi",
+      "intro": "PWA (Progressive Web App), web sitesini “uygulama gibi” hissettiren; offline/low-connectivity koşullarında bile temel deneyimi sürdürebilen bir yaklaşımdır. Ama her siteyi PWA’ya çevirmek doğru hedef değildir: yanlış kurgulanmış cache stratejisi içerikleri bayatlatır, bakım yükünü artırır ve performansı (CWV) bozabilir. Doğru yaklaşım; hangi sayfalar ve hangi varlıklar offline/az bağlantıda çalışmalı, service worker nasıl davranmalı, push bildirimleri ne zaman değer üretir sorularını iş hedefiyle birlikte cevaplamaktır. Özellikle seyahat halindeki kullanıcı profiline sahip otel siteleri ve sık kullanılan B2B portal/dashboard’larda PWA doğru kurgulandığında güçlü bir UX kaldıracı olabilir.",
+      "quickSummary": [
+        "1) PWA’yı her site için zorunlu değil, uygun senaryo için seçici değerlendir",
+        "2) Kritik sayfaları ve statik varlıkları cache kapsamına al",
+        "3) Manifest ve service worker kurgusunu iş hedefiyle birlikte planla",
+        "4) Offline/low-connectivity ekranını boş sayfa yerine yönlendirici deneyim olarak tasarla",
+        "5) Lighthouse, CWV ve cache invalidation testlerini bakım sürecine bağla"
+      ],
+      "ctaPrimary": {
+        "label": "PWA & Offline Deneyim Analizi Talep Et",
+        "text": "Otel/B2B projeniz için PWA uygunluğunu, cache stratejisini ve bakım planını netleştirelim; CWV ve SEO’yu bozmadan uygulayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PWA & Offline Deneyim Analizi Talep Et",
+        "text": "PWA’nın sizin senaryonuzda değer üretip üretmeyeceğini netleştirip cache/offline planını CWV’yi bozmadan kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "PWA Uygunluk & Offline UX Planlama Şablonunu İndir",
+        "text": "Uygunluk kararını puanlar, cache ve offline ekranı netleştirip sprint planına dönüştürürsünüz.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Lighthouse, CWV ve Performans Temeli",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "title": "Web Sitesi Bakım ve Destek Süreci Nasıl Planlanır?",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pwa-nedir",
+        "title": "PWA Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PWA, web teknolojileriyle (HTTPS, manifest, service worker) “install edilebilir”, hızlı açılan ve gerektiğinde offline/az bağlantıda da temel içeriği gösterebilen deneyimler sunar. Kullanıcı açısından en görünür parçalar: “Add to Home Screen” (Ana ekrana ekle), ikon/launcher hissi ve offline ekranıdır. Teknik açıdan ise esas güç, service worker’ın cache ve ağ stratejisini yönetmesidir."
+          },
+          {
+            "type": "h3",
+            "text": "PWA nedir, klasik web sitesinden farkı nedir?"
+          },
+          {
+            "type": "p",
+            "text": "PWA; bir web sitesinin manifest ve service worker ile “install edilebilir” hale gelmesi ve belirli içerik/varlıkları cache’leyerek offline/low-connectivity koşullarında çalışabilmesidir. Klasik web sitesinde ağ yoksa sayfa genelde tamamen düşer; PWA’da en azından kritik ekranlar, içerikler veya “offline bilgi ekranı” kullanıcıyı yarı yolda bırakmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcılar sitenize “tekrar tekrar” geri geliyor mu?",
+              "Mobil kullanım oranı yüksek mi?",
+              "Kötü bağlantı koşullarında bile kullanıcıya “en azından” sunulacak kritik bilgiler var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "PWA’yı “install” değil, “kesintisiz görev” (offline task) için değerlendir",
+              "Kritik 3 görev belirle: otelde “iletişim/konum/rezervasyon başlatma”, B2B’de “dashboard görüntüleme/son rapor” gibi",
+              "İlk sürümde sadece bu görevleri destekle; her şeyi cache’leme"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-kurumsal-otel-sitelerinde-mantikli",
+        "title": "Hangi Kurumsal/Otel Sitelerinde Mantıklı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PWA, “herkese lazım” değil, doğru senaryoda çok değerli bir çözüm. Karar kriterleri: ziyaret sıklığı, kullanıcı görevi tekrarı, bağlantı kalitesi, içerik güncellik ihtiyacı ve bakım kapasitesi."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi kurumsal ve otel siteleri için PWA mantıklıdır?"
+          },
+          {
+            "type": "p",
+            "text": "PWA; kullanıcıların sık ziyaret ettiği, düşük bağlantı koşullarında bile “temel görevi” tamamlamak istediği sitelerde mantıklıdır. Otel sitelerinde konum/iletişim/rezervasyon başlatma ve tesis bilgileri; B2B’de dashboard/portal ekranları ve tekrar eden rapor görüntüleme senaryoları PWA’dan net fayda görebilir. Buna karşılık, çok nadir ziyaret edilen “broşür” sitelerde PWA bakım yükü çoğu zaman gereksizdir."
+          },
+          {
+            "type": "h3",
+            "text": "“Standart site vs PWA” karar çerçevesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Broşür sitesi: düşük tekrar ziyaret → PWA şart değil",
+              "Yoğun kampanya/teklif sayfaları: offline gereksinimi düşük → PWA seçici",
+              "Portal/dashboard: tekrar ziyaret yüksek → PWA güçlü aday",
+              "Seyahat/low connectivity: offline bilgi ekranı faydalı → PWA aday"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcının offline ihtiyaç duyacağı “kritik bilgi” listesi var mı?",
+              "İçerik güncelliği çok yüksek mi (stale risk)?",
+              "Ekipte PWA bakımını sürdürecek kapasite var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Uygunluk matrisi” ile karar ver (aşağıdaki tabloyu kullan)",
+              "Otelde offline hedefi: “iletişim/konum/tesise dair kritik bilgiler + son arama/son görüntülenen oda” (Varsayım)",
+              "B2B’de offline hedefi: “son rapor snapshot + temel navigasyon” (Varsayım)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – PWA Uygunluk Matrisi (Özet)",
+            "headers": [
+              "Senaryo",
+              "PWA Değeri",
+              "Önerilen Kapsam",
+              "Risk / Dikkat"
+            ],
+            "rows": [
+              [
+                "Otel (seyahat/low connectivity)",
+                "Yüksek",
+                "offline bilgi ekranı + kritik sayfalar cache",
+                "stale içerik, CWV"
+              ],
+              [
+                "Otel (broşür + düşük tekrar)",
+                "Düşük",
+                "PWA yerine performans optimizasyonu",
+                "bakım yükü gereksiz"
+              ],
+              [
+                "B2B portal/dashboard",
+                "Yüksek",
+                "login sonrası temel ekran cache + offline fallback",
+                "veri güvenliği, yetki"
+              ],
+              [
+                "B2B içerik sitesi",
+                "Orta",
+                "statik varlık cache + offline fallback",
+                "ölçüm ve SEO uyumu"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "manifest-service-worker-cache-stratejisi",
+        "title": "Manifest, Service Worker ve Cache Stratejisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PWA’nın kalbi service worker’dır. Manifest “install” deneyimini sağlar; service worker ise cache stratejisini ve offline davranışı belirler. Buradaki kritik tasarım, “neyi cache’leyeceğiz” sorusu değil; hangi içerik hangi stratejiyle cache’lenecek sorusudur."
+          },
+          {
+            "type": "h3",
+            "text": "Manifest (Add to Home Screen) ve ikon tasarımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "App name/short name, ikon seti, theme color",
+              "Start URL (genelde ana sayfa veya “hub” sayfa)",
+              "Display mode (standalone)",
+              "Varsayım: Otel sitelerinde start URL genelde “ana sayfa + hızlı arama”; B2B’de “dashboard/login”."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Next.js projelerinde PWA ve service worker nasıl kurgulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Next.js projelerinde PWA yaklaşımı; manifest dosyası, service worker kaydı ve cache stratejisinin seçici tanımlanmasıyla kurulur. Kritik nokta; tüm siteyi cache’lemek yerine “sık kullanılan sayfalar + statik varlıklar + offline fallback” yaklaşımını uygulamaktır. Ayrıca her sürümde cache invalidation planı yapılmazsa kullanıcı eski içerikte kalabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Cache stratejileri (pratik dilde)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cache-first: statik varlıklar için (ikon, CSS)",
+              "Network-first: güncel olması gereken içerikler için",
+              "Stale-while-revalidate: kullanıcıya hızlı göster, arkadan güncelle (çok kullanılır)",
+              "Offline fallback: ağ yoksa bilgi ekranı göster"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cache invalidation (sürüm değişince) planı var mı?",
+              "“Bayat içerik” riski yönetiliyor mu?",
+              "Service worker hata log’ları izleniyor mu? (Varsayım: mümkün)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk sürüm: statik varlıklar + offline fallback + 3 kritik sayfa cache",
+              "Release notlarına “cache sürüm” adımı ekle",
+              "Staging’de offline test senaryosu çalıştır (uçak modu test)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "offline-low-connectivity-deneyimi",
+        "title": "Offline/Low-Connectivity Deneyimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Offline deneyim, “site açılmıyor” yerine “kontrollü bir ekran” sunmaktır. En iyi offline deneyim, kullanıcıyı boş sayfaya düşürmez; ona bir sonraki adımı verir."
+          },
+          {
+            "type": "h3",
+            "text": "Offline sayfa tasarımı (otel ve B2B farkı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: Konum, iletişim, tesis bilgileri, “rezervasyon için arayın/WhatsApp” kısa yolu, son görüntülenen sayfa (Varsayım)",
+              "B2B: Son rapor snapshot, temel menü, “bağlantı gelince yenile” mesajı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Low-connectivity (zayıf bağlantı) modu"
+          },
+          {
+            "type": "p",
+            "text": "Zayıf bağlantıda hedef: ağır görselleri azaltmak, skeleton/loading kullanmak, kritik metinleri hızlı göstermek. Burada CWV ve performans bütçesi devreye girer."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Offline ekran “ne yapmalıyım?” diyor mu?",
+              "Zayıf bağlantıda ağır görseller erteleniyor mu?",
+              "Kullanıcı “son gördüğü” içeriği tekrar görebiliyor mu? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Offline ekranını bir “micro-landing” gibi tasarla: 3 kısa aksiyon",
+              "Zayıf bağlantıda görsel kalite düşürme/erteleme stratejisi uygula (Varsayım)",
+              "Otel için “iletişim/konum” bilgilerini offline erişilebilir yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "push-bildirimleri-kullanim-senaryolari",
+        "title": "Push Bildirimleri ve Kullanım Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Push bildirimleri PWA’nın “en riskli ama güçlü” parçasıdır. Yanlış kullanılırsa kullanıcıyı rahatsız eder; doğru kullanılırsa tekrar ziyaret ve etkileşimi artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Ne zaman push mantıklı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: rezervasyon hatırlatması, kampanya bildirimi (izinli ve sınırlı) (Varsayım)",
+              "B2B: rapor hazır, sistem durumu, görev hatırlatma (Varsayım)",
+              "Push için en kritik kural: “kullanıcıya değer ve kontrol.”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İzin yönetimi ve frekans disiplini"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzni “ilk ekranda” istemek yerine, değer anında istemek",
+              "Frekans limitleri ve kapatma seçenekleri",
+              "KVKK/pazarlama uyumu (Varsayım: kurum politikası)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Push “değer” anında mı isteniyor?",
+              "Bildirim frekans limiti var mı?",
+              "Kullanıcı kolayca kapatabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Push’ı MVP kapsamına hemen alma; önce offline + cache’i oturt",
+              "Push senaryolarını 2–3 ile sınırla ve ölç (opt-in oranı)",
+              "Bildirim metnini style guide’a bağla (Varsayım: governance)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lighthouse-cwv-etkisi-bakim-sureci",
+        "title": "Lighthouse, CWV Etkisi ve Bakım Süreci",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PWA kurmak “bir kere yap bitti” değildir. Service worker ve cache, doğru yönetilmezse CWV’yi bozabilir veya stale içerik yaratabilir. Bu yüzden teknik nottaki gibi Lighthouse ve CWV etkisi düzenli izlenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Lighthouse ve performans test rutini"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PWA audit: manifest, service worker, offline support",
+              "Performance audit: LCP/INP/CLS riskleri",
+              "Technical SEO Notu: PWA kurulurken Lighthouse testi ve CWV etkisi düşünülmeli; teknik SEO ile uyum (/tr/seo/teknik-seo) ve bakım süreçleri (/tr/yazilim/bakim-ve-destek) birlikte planlanmalıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Cache invalidation ve release disiplini"
+          },
+          {
+            "type": "p",
+            "text": "Her release’te cache sürümleme ve invalidation kuralı olmalı. Aksi halde kullanıcı “eski siteyi” görürken siz yeni siteyi deploy etmiş olursunuz."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): PWA’nın doğru kurgulandığı projelerde, özellikle mobil kullanıcılar için tekrar ziyaret ve etkileşim metriklerinde artış raporlanıyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her deploy sonrası PWA test senaryosu var mı?",
+              "Cache sürüm stratejisi dokümante mi?",
+              "CWV ve Lighthouse skorları izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“PWA bakım checklist”ini bakım-destek sürecine ekle",
+              "Release sonrası 30 dk: offline ve update testini zorunlu yap",
+              "CWV düşüşünde PWA/cache etkisini ayrıca analiz et"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PWA & Offline Deneyim Analizi Talep Et",
+            "text": "PWA uygunluğunuzu netleştirip offline UX + cache stratejisi + bakım planını birlikte kuralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PWA Uygunluk & Offline UX Planlama Şablonunu İndir",
+            "text": "Uygunluk kararını puanlar, cache ve offline ekranı netleştirip sprint planına dönüştürürsünüz.",
+            "href": "/tr/seo/teknik-seo"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "pwa-uygunluk-offline-ux-planlama-sablonu",
+        "title": "PWA Uygunluk & Offline UX Planlama Şablonunu İndir — Yazılım / PWA",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "PWA Uygunluk & Offline UX Planlama Şablonunu İndir — Yazılım / PWA (v1.0)",
+            "purpose": "Bu şablon, PWA’yı “hype” yerine iş hedefiyle değerlendirmek için uygunluk kriterlerini puanlayıp kapsamı netleştirir. Manifest, service worker ve cache stratejisini “hangi sayfalar offline olacak?” sorusuna göre planlar; offline/low-connectivity ekranını tasarlatır. Ayrıca Lighthouse/CWV etkisini ve bakım sürecini (release sonrası test) planın parçası yapar.",
+            "whoFor": "Ajans teknik lideri, ürün/UX, otel dijital ekipleri, B2B portal sahibi, QA.",
+            "steps": [
+              "Uygunluk bölümünde senaryonuzu puanlayın ve MVP kapsamını seçin.",
+              "Cache stratejisini (cache-first/network-first/stale-while-revalidate) sayfa/varlık bazında doldurun.",
+              "Offline ekranı ve test planını tamamlayıp 14 günlük sprint ile uygulayın."
+            ],
+            "template": {
+              "emptyFields": [
+                {
+                  "title": "1) Uygunluk Puanlama (1–5)",
+                  "items": [
+                    "Tekrar ziyaret sıklığı: __",
+                    "Mobil kullanım oranı: __",
+                    "Low-connectivity riski: __",
+                    "İçerik güncellik hassasiyeti: __",
+                    "Bakım kapasitesi: __",
+                    "Toplam: __ / 25  → Karar: [ ] PWA yok [ ] Seçici PWA [ ] Geniş PWA"
+                  ]
+                },
+                {
+                  "title": "2) MVP Kapsamı (offline hedefleri)",
+                  "items": [
+                    "Otel: [ ] iletişim/konum [ ] tesis bilgileri [ ] rezervasyon başlatma (Varsayım)",
+                    "B2B: [ ] dashboard snapshot [ ] temel navigasyon [ ] rapor ekranı (Varsayım)"
+                  ]
+                },
+                {
+                  "title": "3) Cache Planı (Sayfa/varlık bazında)",
+                  "items": []
+                },
+                {
+                  "title": "4) Manifest Planı",
+                  "items": [
+                    "name / short_name: ______",
+                    "start_url: ______",
+                    "icons (boyut seti): ______",
+                    "theme_color: ______"
+                  ]
+                },
+                {
+                  "title": "5) Offline/Low-Connectivity UX",
+                  "items": [
+                    "Offline ekran mesajı (1–2 cümle): ______",
+                    "3 aksiyon (buton): ______ / ______ / ______",
+                    "Zayıf bağlantı modu: [ ] görsel düşür [ ] skeleton [ ] defer"
+                  ]
+                },
+                {
+                  "title": "6) Push (opsiyonel)",
+                  "items": [
+                    "Senaryo 1: ______",
+                    "Frekans limiti: ______",
+                    "İzin isteme anı: ______"
+                  ]
+                },
+                {
+                  "title": "7) Test & Bakım",
+                  "items": [
+                    "Lighthouse kontrol listesi: ______",
+                    "CWV izleme planı: ______",
+                    "Release sonrası PWA test adımı: ______",
+                    "Cache invalidation yaklaşımı: ______"
+                  ]
+                }
+              ],
+              "rules": [
+                "Önce uygunluk puanla; “her site PWA” diye başlamayın.",
+                "MVP’de 3 kritik sayfayı seç; her şeyi offline yapma.",
+                "Cache stratejisini içerik güncelliğine göre seç; stale riski yönetin.",
+                "Offline ekranı boş bırakma: 3 aksiyon ver (iletişim, yenile, yardım gibi).",
+                "Lighthouse/CWV testini release sürecine bağla; bakım olmadan PWA sürdürülemez."
+              ],
+              "filledExample": [
+                "Karar: Seçici PWA",
+                "MVP: offline iletişim/konum + temel bilgiler",
+                "Cache: statik varlık cache-first; içerik stale-while-revalidate; hero network-first",
+                "Test: her release sonrası offline + update kontrolü"
+              ],
+              "checklist": [
+                "Uygunluk puanı çıkarıldı",
+                "MVP kapsamı seçildi",
+                "Cache planı yazıldı",
+                "Offline ekran tasarlandı",
+                "Lighthouse/CWV test rutini eklendi",
+                "Release sonrası bakım adımı tanımlandı"
+              ]
+            },
+            "href": "/downloads/pwa-uygunluk-offline-ux-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: PWA hedef değil, doğru senaryoda süreklilik stratejisidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PWA, her kurumsal veya otel sitesi için otomatik olarak uygulanması gereken bir özellik değildir. Asıl değer, kullanıcıların tekrar ettiği görevlerde, mobil kullanımın yüksek olduğu senaryolarda ve offline/low-connectivity koşullarında kritik deneyimi sürdürebilme ihtiyacında ortaya çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle en sağlıklı yaklaşım; önce uygunluk matrisini çıkarmak, ardından manifest, service worker, cache kapsamı, offline ekran, Lighthouse/CWV testleri ve bakım sürecini birlikte planlamaktır. Doğru kapsamla PWA; otel ve B2B projelerinde app-like UX, daha güçlü mobil süreklilik ve daha kontrollü kullanıcı deneyimi sağlayabilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PWA & Offline Deneyim Analizi Talep Et",
+            "text": "PWA’nın sizin senaryonuzda değer üretip üretmeyeceğini netleştirip cache/offline planını CWV’yi bozmadan kuralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PWA nedir, klasik web sitesinden farkı nedir?",
+        "a": "PWA; manifest ve service worker ile install edilebilir ve offline/low-connectivity koşullarında çalışabilir bir web deneyimidir. Klasik web sitesinde ağ yoksa deneyim tamamen düşebilir; PWA’da kontrollü fallback ve cache ile süreklilik sağlanır."
+      },
+      {
+        "q": "Hangi kurumsal ve otel siteleri için PWA mantıklıdır?",
+        "a": "Sık ziyaret edilen ve zayıf bağlantıda bile “kritik görevi” sürdürecek sitelerde mantıklıdır. Otelde iletişim/konum/rezervasyon başlatma; B2B’de portal/dashboard gibi tekrar eden görevler PWA’dan fayda görür."
+      },
+      {
+        "q": "Next.js projelerinde PWA ve service worker nasıl kurgulanır?",
+        "a": "Manifest ile install deneyimi tanımlanır; service worker ile cache stratejisi seçici uygulanır. Kritik nokta cache invalidation’dır; sürüm değişince kullanıcı eski içerikte kalmamalıdır."
+      },
+      {
+        "q": "Offline ve zayıf bağlantı deneyimini nasıl tasarlamalıyım?",
+        "a": "Offline ekranı boş sayfa değil, 3 aksiyonlu bir yönlendirme olmalıdır (iletişim/yenile/yardım). Zayıf bağlantıda görsel yükü azaltıp metni önce göstermek kullanıcıyı elde tutar."
+      },
+      {
+        "q": "Push bildirimleri PWA’da şart mı?",
+        "a": "Hayır. Push yanlış kullanılırsa rahatsız eder. Önce offline ve cache değerini oturtmak, push’ı ancak net değer üreten 1–2 senaryoyla denemek daha güvenlidir."
+      },
+      {
+        "q": "PWA SEO’yu bozar mı?",
+        "a": "PWA tek başına SEO’yu bozmaz; yanlış cache ve yanlış yönlendirme davranışları risk yaratabilir. Lighthouse/CWV testleri ve teknik SEO kontrolleriyle uyumlu ilerlemek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-hero-01.webp — alt text: “PWA stratejisi kapak görseli, otel sitesinde offline deneyim ve hız”",
+          "h1-context — 1920×1080 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-h1-context-02.webp — alt text: “Manifest ve service worker bağlam görseli, kurumsal sitede app benzeri kullanım”",
+          "divider-01 — 1600×1200 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-divider-03.webp — alt text: “PWA nedir bölüm ayırıcı görseli, otel ve B2B’de uygulama benzeri deneyim”",
+          "divider-02 — 1600×1200 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-divider-04.webp — alt text: “Offline ve zayıf bağlantı bölüm ayırıcı, otel kullanıcılarında kesintisiz deneyim”",
+          "diagram-05 — 1920×1080 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-diagram-05.webp — alt text: “Manifest-service worker-cache mimarisi diyagramı, otel ve B2B offline UX”",
+          "checklist-06 — 1200×1200 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-checklist-06.webp — alt text: “PWA uygunluk checklist kartı, otel ve B2B için offline karar çerçevesi”",
+          "kpi-07 — 1200×1200 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-kpi-07.webp — alt text: “PWA KPI kartı, tekrar ziyaret ve mobil etkileşim artışı hedefi”",
+          "proof-08 — 1200×1200 — pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi-proof-08.webp — alt text: “PWA deliverables kanıt kartı, offline sayfa ve cache planı çıktıları”",
+          "table-pwa-uygunluk-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Manifest dosyası kontrolü (name, short_name, icons, theme_color, start_url)",
+          "Service worker kayıt ve scope kontrolü",
+          "Cache stratejisi kontrolü (cache-first/network-first/stale-while-revalidate/offline fallback)",
+          "Cache invalidation ve sürümleme kontrolü",
+          "Offline ekran senaryosu ve uçak modu testi",
+          "Lighthouse PWA audit kontrolü",
+          "CWV etkisi kontrolü (LCP/INP/CLS)",
+          "SEO uyumu kontrolü (indexlenebilirlik, canonical, render davranışı)",
+          "Push izin yönetimi ve frekans kontrolü",
+          "Release sonrası PWA bakım checklist’i"
+        ]
+      }
+    }
+  },
+
+  "BlogCerezYonetimiVeConsentUxKvkkUyumluWebDeneyimiTasarlamak": {
+    "title": "KVKK Uyumlu Consent UX ve Çerez Yönetimi",
+    "slug": "cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KVKK uyumlu consent banner + preference center tasarlayın; zorunlu/opsiyonel çerezleri ayırın. GTM consent mode ile analytics/ads tag’lerini izinle tetikleyin.",
+    "seo": {
+      "metaTitle": "KVKK Uyumlu Consent UX ve Çerez Yönetimi | DGTLFACE",
+      "metaDescription": "KVKK uyumlu consent banner + preference center tasarlayın; zorunlu/opsiyonel çerezleri ayırın. GTM consent mode ile analytics/ads tag’lerini izinle tetikleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak"
+      ],
+      "strategySummary": "Bu blog, Web Sitesi Geliştirme silo’sunda “privacy-first UX + lawful tracking” yaklaşımını oturtan otorite child rolündedir: çerez banner’ını “ekstra pop-up” olmaktan çıkarıp kullanıcı güveni + ölçüm mimarisi ile birlikte tasarlar. Hedef persona otel sahibi / satış–pazarlama müdürü / ajans yöneticisidir; funnel’da consideration aşamasında “KVKK uyumlu consent tasarımını nasıl kurgularım ve ölçümü nasıl bozmadan yönetirim?” kararını netleştirir. Ana iş sorusu: Zorunlu/opsiyonel çerez ayrımını doğru yapıp, banner + preference center UX’i şeffaf kurarak, GA4/Ads tag’lerini izinle tetikleyen ölçüm mimarisini nasıl tasarlarım (otel/B2B senaryolarında)?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Çerez yönetimi ve consent UX, sadece yasal zorunluluk değil; kullanıcı güveni ve ölçüm kalitesi için kritik bir tasarım konusudur. KVKK uyumlu bir yaklaşım; çerez kategorilerini şeffaf tanımlar, kullanıcıya “Kabul/Reddet/Ayarlar” kontrolü verir ve analytics/ads tag’lerini izinle tetikler. Otel sitelerinde OTA/remarketing entegrasyonları; B2B’de lead tracking ve remarketing akışları doğru consent kurgusu ister. Amaç, lawful tracking ile güven veren deneyimi birlikte kurmaktır.",
+      "sgeSummary": "Consent UX için: çerezleri kategorize et, banner’da net seçenekler ver, preference center kur, GTM consent mode ile tag’leri izin sonrası çalıştır. Otel/B2B entegrasyonlarını senaryoya göre planla.",
+      "voiceAnswer": "KVKK’ya uygun çerez uyarısı için kategori sunun, reddet seçeneği verin, tercih merkezini açın, tag’leri izinle çalıştırın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel pazarlama/revenue, B2B growth, ajans PM, geliştirici+analytics ekipleri",
+        "KPI: Opt-in oranı, bounce/şikâyet dengesi, tag firing doğruluğu, ölçüm boşluğu (data loss), dönüşüm takibi doğruluğu",
+        "Entity set: Cookie Management, Consent UX, KVKK, Tag Manager, Consent Mode, analytics/ads tags, preference center",
+        "GEO: Türkiye geneli; otel/turizm ve B2B kurumsal siteler (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda mobil yoğun)",
+        "Funnel: Consideration → Conversion (güven + doğru ölçüm)",
+        "Risk alanları: Yanlış kategorileme, “reddet yok” UX, erken tag tetikleme, stale consent, vendor karmaşası",
+        "Çıktı: Consent akışı, kategori tablosu, GTM tetikleme planı, test rutini + şablon"
+      ]
+    },
+    "h1": {
+      "title": "Çerez Yönetimi ve Consent UX: KVKK Uyumlu Web Deneyimi Tasarlamak",
+      "intro": "Çerez banner’ı çoğu projede “yayına çıkarken eklenen bir pop-up” gibi ele alınıyor. Oysa consent UX; hem kullanıcı güvenini hem de ölçüm mimarisini belirleyen kritik bir katman. Kullanıcıya şeffaf kontrol sunmayan bir banner, hukuki riski artırdığı gibi marka algısını da zedeler; aşırı agresif bir banner ise bounce’u yükseltebilir. Doğru model, privacy-first UX yaklaşımıyla ilerler: kategori netliği, “Kabul/Reddet/Ayarlar” seçenekleri, iyi bir preference center ve consent-aware analytics (izinle tetiklenen tag’ler). Otel tarafında remarketing/OTA/analytics; B2B tarafında lead tracking ve remarketing akışları bu disiplinle yönetilmelidir.",
+      "quickSummary": [
+        "1) Çerez kategorilerini gerçek işlevlerine göre ayır",
+        "2) Banner’da Kabul / Reddet / Ayarlar seçeneklerini net sun",
+        "3) Preference center ile kategori bazlı kontrol ver",
+        "4) GA4/Ads tag’lerini GTM consent state’e göre tetikle",
+        "5) Kabul / Reddet / Kısmi izin senaryolarını staging’de test et"
+      ],
+      "ctaPrimary": {
+        "label": "Çerez Yönetimi & Consent UX Analizi Talep Et",
+        "text": "Mevcut banner/tercih merkezi yapınızı KVKK uyumu + ölçüm kalitesi açısından analiz edip otel/B2B için doğru consent modelini kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çerez Yönetimi & Consent UX Analizi Talp Et",
+        "text": "Banner, preference center ve tag tetikleme kurgunuzu KVKK uyumu + ölçüm kalitesi açısından birlikte iyileştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "KVKK Uyumlu Çerez Yönetimi & Consent UX Planlama Şablonunu İndir",
+        "text": "Kategori–tag mapping’i tek dokümana döker, QA senaryolarını sprint planına çevirirsiniz.",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK Veri Güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Dönüşüm Takibi ve Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme: Kurumsal Sitelerde Teknik Altyapı ve UX",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Dönüşüm Takibi ve Tag Manager Kurulumu",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cerez-turleri-ve-kategorileri",
+        "title": "Çerez Türleri ve Kategorileri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Consent UX’in temeli kategorilerdir. Kullanıcı “neye izin verdiğini” anlamıyorsa, izin akışı sadece formalite olur. Kategorileri doğru tanımlamak; hem KVKK uyumu hem de teknik tetikleme (tag firing) açısından şarttır."
+          },
+          {
+            "type": "p",
+            "text": "Çoğu ekip “analytics” ve “marketing” ayrımını bilir; ancak pratikte kategori setini basit tutmak gerekir. Çok fazla kategori, tercih merkezini karmaşıklaştırır; çok az kategori ise gerçek kontrol hissini azaltır. İyi pratik: Zorunlu (essential) + İstatistik (analytics) + Pazarlama (ads/remarketing) + Tercih/Fonksiyonel gibi bir çatı."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi çerezler zorunlu, hangileri için izin gerekir?"
+          },
+          {
+            "type": "p",
+            "text": "Genel olarak “siteyi çalıştırmak” için gerekli olan çerezler zorunlu kategoride değerlendirilir; analitik, reklam/remarketing ve kişiselleştirme gibi amaçlar ise genellikle kullanıcı onayı gerektirir. Kritik nokta: “zorunlu” etiketiyle aslında pazarlama/ölçüm yapan etiketleri çalıştırmamak; kategorileri gerçek işlevine göre ayırmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu kategori gerçekten “siteyi çalıştıran” çerezlerle sınırlı mı?",
+              "Analytics ve ads tag’leri ayrı kategoride mi?",
+              "Vendor listesi ve amaç açıklamaları anlaşılır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kategori sayısını 4–5’te sabitle; isimleri sadeleştir",
+              "Her kategori için 1 cümle “ne işe yarar?” açıklaması yaz",
+              "“Zorunlu” kapsamını dar tut (gerçek zorunlular)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-ve-cerez-izinlerinin-temel-cercevesi",
+        "title": "KVKK ve Çerez İzinlerinin Temel Çerçevesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu içerik teknik/UX perspektifi sağlar; KVKK yorumları ve metinler her kurumun risk profiline göre değişebilir. Pratikte hedef; şeffaflık + kontrol + kanıtlanabilirlik üçlüsüdür: kullanıcı neye izin verdi, ne zaman verdi, nasıl değiştirebilir? Ayrıca “izin yoksa çalışmaması gereken” tag’ler gerçekten çalışmamalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Burada iki denge vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hukuki uyum: kategoriler, açıklamalar, tercih yönetimi, kayıt",
+              "İş hedefi: ölçümün tamamen körleşmemesi; lawful tracking ile sürdürülebilir analytics"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "KVKK uyumlu çerez yönetiminde “minimum doğru set” nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Minimum doğru set; kullanıcıya net seçenekler sunan bir banner, detaylı tercih yönetimi (preference center), kategori bazlı kontrol ve izinle tetiklenen tag mimarisidir. Buna ek olarak kullanıcı tercihlerini değiştirebileceği kalıcı bir erişim (footer linki gibi) bulunmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tercihler sonradan değiştirilebiliyor mu?",
+              "İzin kayıtları (consent log) tutuluyor mu? (Varsayım: CMP ile)",
+              "Banner metni “kontrol” odaklı mı, “baskı” odaklı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Tercihleri yönet” linkini footer’da kalıcı yap",
+              "Kategorilerin açıklamasını kısa ve net tut",
+              "Hukuki metinler için mutlaka hukuk danışmanlığı süreci ekle (aşağıdaki teknik notta da vurgulanır)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "consent-banner-ve-preference-center-uxi",
+        "title": "Consent Banner ve Preference Center UX’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Banner’ın amacı “kullanıcıyı hızlıca kapattırmak” değil; kullanıcıya karar alanı açmaktır. En kötü UX: yalnız “Kabul et” sunmak veya reddetmeyi saklamak. En iyi UX: tek ekranda Hepsini Kabul / Hepsini Reddet / Ayarları Yönet üçlüsünü net verir; ardından preference center’da kategori bazlı kontrol sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Banner’da buton kurgusu ve hiyerarşi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Birincil CTA: kullanıcı kararına göre olabilir; ama manipülatif olmamalı",
+              "“Reddet” görünür olmalı (saklı link değil)",
+              "“Ayarlar” ile preference center açılmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Preference center (tercih merkezi) iyi pratikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kategori bazında toggle",
+              "Her kategori için kısa açıklama",
+              "İsteğe bağlı: vendor listesi (aşırı uzatmadan)",
+              "“Kaydet ve çık” net aksiyonu",
+              "“Tercihlerimi sıfırla” opsiyonu (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reddet butonu aynı görünürlükte mi?",
+              "Preference center açılınca kullanıcı neyi değiştirdiğini anlıyor mu?",
+              "Tercih linki her sayfadan erişilebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Banner’ı 3 aksiyonlu yap: Kabul / Reddet / Ayarlar",
+              "Preference center’ı kategori bazlı ve sade kurgula",
+              "Tercih linkini footer’a sabitle; 2 tıkta ulaşılabilir olsun"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "analytics-ads-taglerinin-izinle-tetiklenmesi",
+        "title": "Analytics/Ads Tag’lerinin İzinle Tetiklenmesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, consent UX’in “ölçüm mimarisi” tarafıdır. Kategori var ama tag’ler izin olmadan çalışıyorsa, tüm kurgu boşa gider. Hedef: Tag Manager üzerinden consent-aware firing kurgulamak; analytics/ads tag’lerini sadece ilgili izinler verildiyse tetiklemek."
+          },
+          {
+            "type": "h3",
+            "text": "Tag Manager ile consent mode entegrasyonu (AIO odak)"
+          },
+          {
+            "type": "p",
+            "text": "Burada ana prensip: varsayılan durum kısıtlı (consent yok) olmalı; kullanıcı izin verince durum güncellenmeli. Böylece lawful tracking korunur. Ayrıca test edilmesi gerekir: “Reddet” seçeneğinde gerçekten hiçbir opsiyonel tag çalışmıyor mu?"
+          },
+          {
+            "type": "h3",
+            "text": "Tag Manager ve consent mode’u web projemde nasıl kullanırım?"
+          },
+          {
+            "type": "p",
+            "text": "Önce çerez kategorilerini consent state’e map edersiniz (analytics/ads/functional). Sonra GTM’de tag tetikleyicilerini bu state’e bağlarsınız; izin verilmediyse tag çalışmaz, izin verildiyse tetiklenir. En kritik adım, go-live öncesi “tag firing QA” yapmaktır: her buton senaryosunda hangi tag’lerin çalıştığını doğrulamak."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Çerez Kategorileri ve Tag Tetikleme Mantığı (Özet)",
+            "headers": [
+              "Kategori",
+              "Örnek",
+              "İzin Gerektirir mi?",
+              "GTM’de Tetikleme Kuralı",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Zorunlu",
+                "oturum, güvenlik, dil seçimi",
+                "Genelde hayır",
+                "Her zaman (opsiyonel olmayanlar)",
+                "“Zorunlu”yu dar tut"
+              ],
+              [
+                "Fonksiyonel",
+                "tercih, kişiselleştirme",
+                "Çoğu zaman evet",
+                "İzin varsa çalışır",
+                "Sade anlat"
+              ],
+              [
+                "Analytics",
+                "GA4 ölçüm event’leri",
+                "Evet",
+                "analytics_consent=granted",
+                "Ölçüm kalitesi için kritik"
+              ],
+              [
+                "Ads/Remarketing",
+                "Meta/Google ads dönüşüm",
+                "Evet",
+                "ad_consent=granted",
+                "Otelde OTA/remarketing hassas"
+              ],
+              [
+                "Vendor/3rd Party",
+                "widget, chat, video embed",
+                "Çoğu zaman evet",
+                "kategori + vendor bazlı",
+                "Gereksiz vendor azalt"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Reddet” senaryosunda analytics/ads tag’leri gerçekten çalışmıyor mu?",
+              "“Ayarlar”dan sadece analytics açılırsa ads kapalı kalıyor mu?",
+              "Tag sayısı kontrol altında mı (gereksiz vendor var mı)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kategori→tag mapping dokümanı oluştur (tek kaynak gerçek)",
+              "Go-live öncesi 3 senaryo testi yap: Kabul / Reddet / Kısmi izin",
+              "Ölçüm planına “consent-aware tracking” notunu ekle"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "KVKK Uyumlu Çerez Yönetimi & Consent UX Planlama Şablonunu İndir",
+            "text": "Kategori–tag mapping’i tek dokümana döker, QA senaryolarını sprint planına çevirirsiniz.",
+            "href": "/tr/sem/donusum-takibi-tag-manager"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-consent-akislari",
+        "title": "Otel ve B2B İçin Örnek Consent Akışları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Consent akışı, sektör ve entegrasyon yoğunluğuna göre farklı hassasiyet taşır. Otellerde OTA, remarketing ve yoğun görsel/harita entegrasyonları; B2B’de lead tracking ve remarketing akışları öne çıkar. GEO bağlamında özellikle Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlara hitap eden otel sitelerinde mobil trafik ve zayıf bağlantı koşulları daha sık görülebildiğinden banner’ın performans ve okunabilirlik standardı önem kazanır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu (OTA/analitik/reklam entegrasyonları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Banner: hızlı karar + net kontrol",
+              "Preference center: analytics/ads ayrımı net",
+              "Harita/Video widget’ları: tercihe göre yüklenebilir (Varsayım)",
+              "Rezervasyon akışı: consent ekranı “işi engellememeli”; ama izin de manipüle edilmemeli"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu (lead tracking + remarketing)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Form submit event: analytics izinli ölçülür",
+              "Remarketing: ads izni olmadan çalışmaz",
+              "Doküman indirme: event’ler consent’e bağlı",
+              "Portal ekranları: vendor kontrolü daha kritik (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Consent UX’i doğru kurgulayan sitelerde, opt-in oranları ile kullanıcı şikâyetleri/bounce oranı daha dengeli seviyelerde raporlanıyor. (Bu veri noktası “denge” vurgusu için abartısız kullanıldı.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde “ads” ve “analytics” ayrı mı yönetiliyor?",
+              "B2B’de lead event’leri consent’e saygılı mı?",
+              "Vendor listesi kontrol altında mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: harita/video gibi 3rd party içerikleri tercihe bağla (gerekiyorsa)",
+              "B2B: lead tracking ve remarketing’i kategori bazlı ayrıştır",
+              "Her iki senaryo için “consent QA”yı go-live checklist’ine ekle"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çerez Yönetimi & Consent UX Analizi Talep Et",
+            "text": "KVKK uyumlu, ölçüm kalitesi yüksek ve kullanıcı dostu consent akışını otel/B2B senaryonuza göre kuralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Technical SEO Notu",
+            "items": [
+              "Bu içerik teknik/UX perspektifi sunar; KVKK yorumları ve hukuki metinler için mutlaka hukuk danışmanlığı gerekir.",
+              "Consent kurgusu teknik SEO ile uyumlu olmalı: tag’ler izinle çalışmalı, performans/CWV etkisi izlenmeli.",
+              "İç link önerisi: /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama/kvkk-veri-guvenligi."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kvkk-uyumlu-cerez-yonetimi-consent-ux-planlama-sablonu",
+        "title": "KVKK Uyumlu Çerez Yönetimi & Consent UX Planlama Şablonunu İndir — Yazılım / Consent UX",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "KVKK Uyumlu Çerez Yönetimi & Consent UX Planlama Şablonunu İndir — Yazılım / Consent UX (v1.0)",
+            "purpose": "Bu şablon, KVKK uyumlu consent banner + preference center tasarımını ve GTM üzerinden izinle tetiklenen analytics/ads ölçüm mimarisini tek dokümanda planlamanızı sağlar. Amaç; kullanıcıya kontrol veren şeffaf bir UX kurarken ölçüm kalitesini de “consent-aware” şekilde korumaktır. Otel ve B2B senaryoları için ayrı akış alanları içerir.",
+            "whoFor": "Hukuk/uyum koordinatörü (danışmanlıkla), UX lead, GTM/analytics uzmanı, ajans PM, geliştirici ekip.",
+            "steps": [
+              "Çerez kategorilerini ve vendor listesini çıkarın; banner metinlerini ve buton kurgusunu yazın.",
+              "Kategori→tag mapping’i oluşturup GTM tetikleme kurallarını planlayın.",
+              "QA senaryolarını (kabul/reddet/kısmi izin) staging’de test edin ve go-live checklist’ine bağlayın."
+            ],
+            "template": {
+              "emptyFields": [
+                {
+                  "title": "1) Kategori Seti",
+                  "items": [
+                    "Zorunlu: ________",
+                    "Fonksiyonel: ________",
+                    "Analytics: ________",
+                    "Ads/Remarketing: ________",
+                    "Vendor/3rd party: ________"
+                  ]
+                },
+                {
+                  "title": "2) Banner Metni + Butonlar",
+                  "items": [
+                    "Kısa açıklama (1–2 cümle): ____________________",
+                    "Butonlar: [ ] Hepsini Kabul  [ ] Hepsini Reddet  [ ] Ayarları Yönet",
+                    "Linkler: Çerez Politikası / Tercihleri Değiştir (footer): ________"
+                  ]
+                },
+                {
+                  "title": "3) Preference Center İçeriği",
+                  "items": [
+                    "Kategori açıklamaları (her biri 1 cümle): ________",
+                    "Vendor listesi: [ ] kısa  [ ] detaylı",
+                    "Kaydet/Çık: ________  Sıfırla: ________"
+                  ]
+                },
+                {
+                  "title": "4) Tag Mapping (GTM)",
+                  "items": []
+                },
+                {
+                  "title": "5) Otel Senaryosu Notları",
+                  "items": [
+                    "OTA/remarketing vendor’ları: ________",
+                    "Harita/video widget’ları: ________",
+                    "Rezervasyon akışı etkisi: ________"
+                  ]
+                },
+                {
+                  "title": "6) B2B Senaryosu Notları",
+                  "items": [
+                    "Lead tracking: ________",
+                    "Remarketing: ________",
+                    "Doküman indirme: ________"
+                  ]
+                },
+                {
+                  "title": "7) QA Senaryoları",
+                  "items": [
+                    "Senaryo A (Kabul): beklenen tag’ler ________",
+                    "Senaryo B (Reddet): beklenen tag’ler ________",
+                    "Senaryo C (Kısmi): beklenen tag’ler ________",
+                    "Kanıt: GTM preview ekran görüntüsü / network logs (Varsayım)"
+                  ]
+                }
+              ],
+              "rules": [
+                "Banner’da “Reddet”i görünür yap; saklamaya çalışma.",
+                "Kategori setini sade tut; tercih merkezini anlaşılır kıl.",
+                "Tag’leri izinle tetikle; aksi halde tüm UX boşa gider.",
+                "QA’yı staging’de yapmadan prod’a geçme.",
+                "Hukuki metinler için mutlaka hukuk danışmanlığı al (bu doküman teknik/UX içindir)."
+              ],
+              "filledExample": [
+                "Banner: Kabul / Reddet / Ayarlar",
+                "Analytics: GA4 sadece analytics granted",
+                "Ads: remarketing sadece ads granted",
+                "Footer: “Çerez Tercihleri” linki kalıcı"
+              ],
+              "checklist": [
+                "Kategoriler net ve sade",
+                "Reddet butonu görünür",
+                "Preference center anlaşılır",
+                "Tag mapping yazılı",
+                "3 senaryo QA yapıldı",
+                "Footer’da tercih linki var",
+                "Hukuk danışmanlığı notu eklendi"
+              ],
+              "deliverables": [
+                "Banner metin seti + buton hiyerarşisi",
+                "Preference center wireframe",
+                "Kategori→tag mapping dokümanı",
+                "QA kanıt paketi (preview screenshots)",
+                "Buraya: Consent akışı diyagram görseli",
+                "Buraya: İyi/kötü banner mockup görseli"
+              ]
+            },
+            "href": "/downloads/kvkk-uyumlu-cerez-yonetimi-consent-ux-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Consent UX, güven ve ölçüm mimarisini birlikte kurar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çerez yönetimi yalnızca “banner eklemek” değildir. Kategori netliği, kullanıcı kontrolü, preference center, GTM consent state ve QA süreci birlikte ele alınmadığında hem hukuki risk hem de ölçüm kalitesi problemi doğar."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B projelerinde doğru consent UX; kullanıcıyı manipüle etmeden kontrol verir, analytics/ads tag’lerini izinle çalıştırır ve ekiplerin lawful tracking yaklaşımıyla daha güvenilir ölçüm yapmasını sağlar. Bu nedenle consent tasarımı, web sitesi geliştirme sürecinin sonradan eklenen küçük bir parçası değil; UX, teknik, analytics ve uyum ekiplerinin birlikte planladığı temel bir katmandır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çerez Yönetimi & Consent UX Analizi Talep Et",
+            "text": "Banner, preference center ve tag tetikleme kurgunuzu KVKK uyumu + ölçüm kalitesi açısından birlikte iyileştirelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çerez yönetimi ve consent UX nedir?",
+        "a": "Çerez kategorilerini şeffaf anlatan, kullanıcıya kontrol veren ve tercihlere göre tag’leri tetikleyen izin deneyimidir. Amaç, KVKK uyumu kadar güven ve ölçüm kalitesidir."
+      },
+      {
+        "q": "KVKK uyumlu çerez banner’ı nasıl tasarlanır?",
+        "a": "Tek ekranda “Kabul / Reddet / Ayarları Yönet” seçeneklerini net sunun ve kullanıcıyı manipüle etmeyin. Tercihleri daha sonra değiştirebileceği kalıcı bir erişim (footer linki) ekleyin."
+      },
+      {
+        "q": "Hangi çerezler zorunlu, hangileri için izin gerekir?",
+        "a": "Genelde sitenin çalışması için gerekli olanlar zorunlu; analytics, reklam/remarketing ve kişiselleştirme amaçlı olanlar izin gerektirir. Kategorileri gerçek işlevine göre ayırmak gerekir."
+      },
+      {
+        "q": "Tag Manager ve consent mode’u web projemde nasıl kullanırım?",
+        "a": "Kategori→consent state mapping yapıp GTM’de tag tetikleyicilerini bu state’e bağlarsınız. Kabul/reddet/kısmi izin senaryolarını staging’de test ederek go-live’a alırsınız."
+      },
+      {
+        "q": "Consent banner opt-in oranını artırmak için “Reddet”i gizlemek doğru mu?",
+        "a": "Kısa vadede opt-in artıyor gibi görünse de güven ve şikâyet riskini yükseltebilir. Daha sürdürülebilir yaklaşım, net açıklama ve iyi tasarlanmış preference center’dır."
+      },
+      {
+        "q": "Otel sitelerinde remarketing ve OTA entegrasyonları consent’i nasıl etkiler?",
+        "a": "Ads/remarketing vendor’ları izin kategorisine bağlanmalı; izin yoksa tetiklenmemelidir. Rezervasyon akışını bozmayacak, ama kontrol de verecek şekilde tasarlanmalıdır."
+      },
+      {
+        "q": "B2B lead tracking ve remarketing nasıl yönetilmeli?",
+        "a": "Analytics ile form/lead event’leri; ads ile remarketing ayrıştırılmalı ve ayrı izinlerle tetiklenmelidir. Böylece ölçüm lawful tracking ile daha güvenilir olur."
+      },
+      {
+        "q": "Consent UX SEO’yu etkiler mi?",
+        "a": "Doğrudan SEO sinyali değildir ama kullanıcı deneyimini ve performansı etkileyebilir. Ayrıca yanlış cache/yanlış script tetikleme CWV’yi bozabilir; bu nedenle teknik SEO ile birlikte ele alınmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-hero-01.webp — alt text: “Consent UX stratejisi kapağı, otel sitesinde güven ve doğru ölçüm”",
+          "h1-context — 1920×1080 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-h1-context-02.webp — alt text: “Çerez kategorileri bağlamı, otel rezervasyon deneyiminde şeffaf izin yönetimi”",
+          "divider-01 — 1600×1200 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-divider-03.webp — alt text: “Çerez kategorileri bölüm ayırıcı, otel kullanıcılarında şeffaf izin akışı”",
+          "divider-02 — 1600×1200 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-divider-04.webp — alt text: “Consent preference center bölüm ayırıcı, otel web sitesinde kullanıcı kontrolü”",
+          "diagram-05 — 1920×1080 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-diagram-05.webp — alt text: “Consent banner akışı diyagramı, otel sitesinde KVKK uyumlu kullanıcı kontrolü”",
+          "checklist-06 — 1200×1200 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-checklist-06.webp — alt text: “Consent UX checklist kartı, otel web sitesinde güven ve şeffaflık”",
+          "kpi-07 — 1200×1200 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-kpi-07.webp — alt text: “Consent opt-in ve bounce dengesi KPI kartı, otel web deneyiminde güven”",
+          "proof-08 — 1200×1200 — cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak-proof-08.webp — alt text: “Consent UX deliverables kartı, KVKK uyumlu ölçüm ve tag yönetimi”",
+          "table-cerez-kategorileri-tag-tetikleme-mantigi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Çerez kategorileri gerçek işlevlerine göre ayrıldı",
+          "Zorunlu kategori kapsamı dar tutuldu",
+          "Banner’da Kabul / Reddet / Ayarlar seçenekleri görünür",
+          "Preference center kategori bazlı ve sade",
+          "Footer’da “Çerez Tercihleri” veya tercihleri değiştirme linki var",
+          "Kategori→tag mapping dokümanı oluşturuldu",
+          "GTM consent state kurgusu analytics/ads/functional ayrımına göre yapıldı",
+          "Kabul / Reddet / Kısmi izin senaryoları staging’de test edildi",
+          "Reddet senaryosunda opsiyonel analytics/ads tag’leri çalışmıyor",
+          "KVKK yorumları ve hukuki metinler için hukuk danışmanlığı süreci eklendi",
+          "Performans/CWV etkisi ve 3rd party script yükü kontrol edildi"
+        ]
+      }
+    }
+  },
+
+   "BlogWebSitesiYasamDongusuVeYolHaritasiV1DenSurekliIyilestirmeye": {
+    "title": "Web Sitesi Roadmap ve Yaşam Döngüsü Rehberi",
+    "slug": "web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Web sitenizi ürün gibi yönetin: V1→lansman→ölçüm→iyileştirme döngüsü kurun. Otel/B2B için 6/12 aylık roadmap, bakım+refactoring ve KPI sprint planı.",
+    "seo": {
+      "metaTitle": "Web Sitesi Roadmap ve Yaşam Döngüsü Rehberi | DGTLFACE",
+      "metaDescription": "Web sitenizi ürün gibi yönetin: V1→lansman→ölçüm→iyileştirme döngüsü kurun. Otel/B2B için 6/12 aylık roadmap, bakım+refactoring ve KPI sprint planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “siteyi ürün gibi yönetme” yaklaşımını oturtan otorite child rolündedir: web sitesini lansmanla biten proje değil, lifecycle + roadmap ile sürekli iyileştirilen canlı ürün olarak konumlandırır. Hedef persona otel ve B2B tarafında ürün/proje sahibi, pazarlama lideri ve ajans yöneticisidir; funnel’da consideration aşamasında “lansman sonrası ne yapacağız, nasıl planlayacağız?” kararını kolaylaştırır. Ana iş sorusu: V1 hedef seti, ilk 3 ay stabilizasyon, 6/12 aylık roadmap, bakım/refactoring döngüleri ve KPI odaklı sprint’lerle sürdürülebilir gelişim kültürünü nasıl kurarım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Web sitesi, lansman günü biten bir proje değil; performans, güvenlik, UX ve iş hedefleri açısından sürekli gelişen canlı bir üründür. Sağlam bir yaşam döngüsü; planlama→geliştirme→lansman→ölçüm→iyileştirme adımlarını, 6/12 aylık roadmap ve düzenli sprint ritmiyle birleştirir. Otel ve B2B sitelerinde bu yaklaşım, “bir kere yaptık bıraktık” yerine veriyle beslenen iteratif iyileştirmelerle direkt rezervasyon/lead hedeflerine daha yakın çalışmayı sağlar.",
+      "sgeSummary": "Siteyi ürün gibi yönet: V1 hedef seti belirle, lansman sonrası 3 ay stabilizasyon yap, 6/12 aylık roadmap çıkar, bakım+refactoring sprint’leriyle veriye dayalı iyileştir.",
+      "voiceAnswer": "Siteyi yayına aldıktan sonra ölç, 3 ay stabil tut, 6/12 aylık roadmap ile sürekli iyileştir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B ürün-proje sahipleri, pazarlama liderleri, ajans PM, teknik lider",
+        "KPI: Dönüşüm (rezervasyon/lead), CWV, güvenlik bulguları, içerik üretim hızı, sprint teslim oranı, incident sayısı",
+        "Entity set: lifecycle, roadmap, sprint, post-launch optimisation, maintenance, refactoring, KPI governance",
+        "GEO: Türkiye geneli; otel ve B2B kurumsal siteler",
+        "Funnel: Consideration → Conversion (planlı iyileştirme ile hedefe yaklaşma)",
+        "Risk alanları: Lansman sonrası sahipsizlik, biriken teknik borç, ölçümsüz kararlar, “komple yenileme” döngüsü",
+        "Çıktı: 12 aylık timeline + backlog tablosu + lansman sonrası checklist + şablon"
+      ]
+    },
+    "h1": {
+      "title": "Web Sitesi Yaşam Döngüsü ve Yol Haritası: V1’den Sürekli İyileştirmeye",
+      "intro": "Bir web sitesi “yayında” olduğu gün en iyi halinde değildir; tam tersine, gerçek ürün yönetimi o gün başlar. Lansmandan sonra kullanıcı davranışı, kanal performansı, CWV, güvenlik ve içerik ihtiyaçları netleşir; bir şeyler kırılır, yeni talepler gelir, kampanyalar değişir. Otel sitelerinde rezervasyon akışı ve sezon kampanyaları; B2B’de lead funnel, case/doküman içerikleri ve portal deneyimi sitenin canlılığını belirler. Bu rehber, web sitesini product-thinking ile yönetmek için lifecycle adımlarını ve 6/12 aylık roadmap planlamasını uygulanabilir bir modele çevirir: V1 hedef seti → 3 ay stabilizasyon → 6/12 ay büyüme → bakım/refactoring döngüleri.",
+      "quickSummary": [
+        "1) Web sitesini lansmanla biten proje değil, canlı ürün gibi yönet",
+        "2) V1 hedef setini kritik kullanıcı görevleriyle sınırla",
+        "3) İlk 90 günü stabilizasyon ve ölçüm doğrulama dönemi olarak planla",
+        "4) 6/12 aylık roadmap’i Growth / UX / Tech / Compliance lane’lerine ayır",
+        "5) Bakım/refactoring işlerini sprint ritmine dahil et"
+      ],
+      "ctaPrimary": {
+        "label": "Web Sitesi Roadmap & Yaşam Döngüsü Analizi Talep Et",
+        "text": "Otel/B2B siteniz için V1 hedef seti, KPI’lar, 6/12 aylık roadmap ve sprint ritmini birlikte çıkaralım; “komple yenileme” yerine sürdürülebilir iyileştirme kültürü kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Web Sitesi Roadmap & Yaşam Döngüsü Analizi Talp Et",
+        "text": "V1 sonrası stabilizasyon, 6/12 ay roadmap ve bakım/refactor ritmini sitenize göre tasarlayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Web Sitesi Lansman Sonrası 6/12 Aylık Roadmap Planlama Şablonunu İndir",
+        "text": "Backlog’u lane’lere ayırır, sprint ritmini kurar ve KPI’ya bağlı 12 aylık plan çıkarırsınız.",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal Medya Planlama ve Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Bakım ve Destek Süreci Nasıl Planlanır?",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama ile KPI Takibi",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "web-sitesi-yasam-dongusu-nedir",
+        "title": "Web Sitesi Yaşam Döngüsü Nedir? (Planlama→Geliştirme→Lansman→Ölçüm→İyileştirme)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Web lifecycle, “tek proje planı” değil; tekrar eden bir döngüdür. Planla → yap → ölç → iyileştir. Bu döngüyü kurmadığınızda site doğal olarak “bozulmaya” başlar: içerik ton dağılır, performans düşer, güvenlik riskleri birikir, kullanıcı yolu friksiyonlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Web sitesi yaşam döngüsü nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Web sitesi yaşam döngüsü; planlama, geliştirme ve lansmanın ardından ölçüm ve iyileştirme adımlarının sürekli tekrarlandığı ürün yönetimi yaklaşımıdır. Amaç, siteyi statik bir broşür değil, KPI’larla yönetilen canlı bir sistem haline getirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel): V1’de rezervasyon akışını sağlam kurarsınız; lansman sonrası drop-off verisiyle ödeme adımını iyileştirirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): V1’de teklif formu çalışır; ölçümle en çok lead getiren sayfaları görüp içerik cluster’ı genişletirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Site için “sahip” (owner) belli mi?",
+              "KPI’lar ve ölçüm planı yazılı mı?",
+              "Lansman sonrası ilk 30/90 gün planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Lifecycle’ı 5 adım olarak dokümante et; her adıma 1 sahip ata",
+              "“Ölçüm olmadan iyileştirme yok” kuralını koy",
+              "İlk 90 gün stabilizasyon sprint’ini şimdiden planla"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "roadmap-nasil-hazirlanir",
+        "title": "Roadmap Nasıl Hazırlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Roadmap; “istek listesi” değil, hedefe bağlı önceliklendirme aracıdır. İyi roadmap, üç şeyi aynı anda dengeler:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İş hedefleri (rezervasyon/lead),",
+              "Kullanıcı deneyimi (UX/CWV),",
+              "Teknik sürdürülebilirlik (bakım/refactoring)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Roadmap’in temel bileşenleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "North Star hedef: tek cümle (ör. “direkt rezervasyon oranını artırmak”)",
+              "KPI seti: 3–5 metrik",
+              "Backlog kategorileri: growth / UX / tech debt / compliance",
+              "Ritim: 2 haftalık sprint + aylık review (Varsayım)",
+              "Gate: her release’te QA + izleme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu ekip “site eskidi, komple yenileyelim” döngüsüne girer. Roadmap yaklaşımı olan ekiplerde ise yenileme yerine “parça parça, veriye dayalı iyileştirme” kültürü gelişir. Bu hem bütçeyi daha sürdürülebilir kılar hem de riskleri azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Roadmap’te “bakım/refactoring” için slot var mı?",
+              "Backlog “istek sahipleri” ile “KPI sahipleri” ayrılmış mı?",
+              "Her madde bir KPI’ya bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Roadmap’i 4 lane’e ayır: Growth / UX / Tech / Compliance",
+              "Her sprintte en az 1 “bakım/refactoring” işi olsun",
+              "Aylık roadmap review ile öncelikleri güncelle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6-12-aylik-gelistirme-plani",
+        "title": "6/12 Aylık Geliştirme Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm “takvim” verir: lansman sonrası ne zaman ne yapılır? Elbette her proje farklıdır; ancak iyi pratik, 0–3 ay stabilizasyon + 3–6 ay büyüme + 6–12 ay ölçekleme şeklindedir."
+          },
+          {
+            "type": "h3",
+            "text": "V1 lansman hedef seti (net, sınırlı)"
+          },
+          {
+            "type": "p",
+            "text": "V1’in amacı “her şey olsun” değil; kritik kullanıcı görevlerini sorunsuz çalıştırmaktır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: arama → oda → fiyat → rezervasyon / teklif",
+              "B2B: hizmet → case → teklif / demo"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İlk 3 ay (stabilizasyon) — hata düzeltme + CWV"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "404/redirect düzeltmeleri (Varsayım: migration varsa)",
+              "CWV iyileştirmeleri (hero görsel, JS yükü)",
+              "Form akışı ve ölçüm doğrulaması",
+              "Güvenlik temel hardening (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "6–12 ay (büyüme/ölçek) — yeni modüller"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blog cluster genişlemesi",
+              "PWA seçici kullanım (uygunsa)",
+              "Rezervasyon/portal geliştirmeleri",
+              "UX testleri ve A/B test planı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "V1 scope sınırlı mı, yoksa “her şey” mi?",
+              "İlk 90 gün için stabilizasyon backlog’u var mı?",
+              "6–12 ay büyüme işleri KPI’lara bağlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "V1’i 3 kritik görevle sınırla; kalanları roadmap’e koy",
+              "İlk 90 gün “stabilizasyon sprint” bütçesi ayır",
+              "6–12 ayda büyüme işlerini “KPI etkisi” ile sırala"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-yol-haritasi",
+        "title": "Otel ve B2B İçin Örnek Yol Haritası",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Roadmap örneği, ekiplerin aynı sayfaya bakmasını sağlar. Otel ve B2B’de fark, growth işlerinin doğasıdır: otelde sezon ve kampanya; B2B’de içerik cluster ve lead kalitesi."
+          },
+          {
+            "type": "h3",
+            "text": "Otel roadmap örneği (sezon + direkt rezervasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–3 ay: rezervasyon drop-off azaltma, CWV, call center entegrasyon iyileştirmesi",
+              "3–6 ay: kampanya modülü, destinasyon içerik seti, remarketing ölçüm düzeni",
+              "6–12 ay: PWA (uygunsa), kişiselleştirme (Varsayım), içerik otomasyonu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B roadmap örneği (lead + içerik otoritesi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–3 ay: lead form UX, ölçüm, teknik SEO QA rutini",
+              "3–6 ay: case study şablonu, içerik cluster genişleme, conversion rate optimizasyon",
+              "6–12 ay: portal/dash modülü geliştirme, enterprise içerik akışları"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Roadmap yaklaşımı benimseyen ekiplerde “site eskidi, komple yenileyelim” döngüsü yerine daha sürdürülebilir, parçalı ve veriye dayalı iyileştirme kültürü oluşuyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – 12 Aylık Roadmap Backlog Örneği (Özet)",
+            "headers": [
+              "Dönem",
+              "Growth",
+              "UX/CRO",
+              "Tech",
+              "Compliance"
+            ],
+            "rows": [
+              [
+                "0–3 ay",
+                "kampanya landing (Varsayım)",
+                "form/funnel iyileştirme",
+                "CWV + bugfix",
+                "KVKK/consent düzeni"
+              ],
+              [
+                "3–6 ay",
+                "içerik cluster",
+                "A/B test başlangıcı",
+                "refactor sprint",
+                "güvenlik hardening"
+              ],
+              [
+                "6–12 ay",
+                "PWA (uygunsa)",
+                "kişiselleştirme (Varsayım)",
+                "CI/CD iyileştirme",
+                "raporlama & audit"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde sezon öncesi “kritik sprint” var mı?",
+              "B2B’de “lead kalitesi” KPI’ı takip ediliyor mu?",
+              "Roadmap’in bir sahibi ve ritmi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: sezon takvimine göre roadmap’i ayarla (peak öncesi stabilizasyon)",
+              "B2B: içerik ve form iyileştirmelerini aynı backlog’da yönet",
+              "Her iki modelde de aylık roadmap review zorunlu yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "bakim-ve-refactoring-donguleri",
+        "title": "Bakım ve Refactoring Döngüleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bakım, “bozulunca düzeltmek” değil; bozulmadan önce düzenli temizliktir. Refactoring ise yeni özelliklerin sürdürülebilir olması için teknik borcun yönetilmesidir. Bu ikisi roadmap’te slot bulamazsa, 6–12 ay sonra “komple yenileme” konuşulmaya başlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Bakım, refactoring ve yeni özellik dengesini nasıl kurarım?"
+          },
+          {
+            "type": "p",
+            "text": "Her sprintte küçük bir bakım/refactor payı ayırarak denge kurabilirsiniz (ör. her sprintte 1–2 görev). Yeni özellikler KPI etkisiyle seçilir; bakım işleri ise risk ve maliyet önleme odaklıdır. Aylık review’de “tech debt” ve “growth” lane’leri birlikte değerlendirilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Lansman sonrası hangi sıklıkla iyileştirme yapmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Genel pratik: 2 haftalık sprint ritmi + aylık ölçüm/roadmap review. Otel sitelerinde sezon yoğunluğuna göre sprint planı esnetilebilir; B2B’de kampanya ve içerik planlarıyla senkron tutulur."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bakım/refactor için düzenli slot var mı?",
+              "Release sonrası izleme (404/CWV/lead) rutini var mı?",
+              "Her iyileştirme bir KPI’ya bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Bakım sprint’i”ni 6–8 haftada bir planla (Varsayım)",
+              "Refactor backlog’unu görünür tut (gizli borç olmasın)",
+              "İyileştirmeleri ölçümle doğrula (A/B test veya önce/sonra)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Sitesi Roadmap & Yaşam Döngüsü Analizi Talp Et",
+            "text": "V1 sonrası stabilizasyon, 6/12 ay roadmap ve bakım/refactor ritmini sitenize göre tasarlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Sitesi Lansman Sonrası 6/12 Aylık Roadmap Planlama Şablonunu İndir",
+            "text": "Backlog’u lane’lere ayırır, sprint ritmini kurar ve KPI’ya bağlı 12 aylık plan çıkarırsınız.",
+            "href": "/tr/yazilim/bakim-ve-destek"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "web-sitesi-lansman-sonrasi-6-12-aylik-roadmap-planlama-sablonu",
+        "title": "Web Sitesi Lansman Sonrası 6/12 Aylık Roadmap Planlama Şablonunu İndir — Yazılım / Lifecycle",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Web Sitesi Lansman Sonrası 6/12 Aylık Roadmap Planlama Şablonunu İndir — Yazılım / Lifecycle (v1.0)",
+            "purpose": "Bu şablon, web sitesini tek seferlik proje değil, sürekli gelişen ürün olarak yönetmek için 6/12 aylık roadmap’i KPI temelli planlamanızı sağlar. V1 hedef seti, ilk 90 gün stabilizasyon işleri, 6–12 ay büyüme modülleri ve bakım/refactor döngülerini tek dokümanda toplar. Otel ve B2B ekipleri için sprint ritmi ve sahiplik (owner) alanlarını içerir.",
+            "whoFor": "Ürün/proje sahibi, pazarlama lideri, ajans PM, teknik lider, analitik/raporlama sorumlusu.",
+            "steps": [
+              "V1 hedeflerini ve KPI setini yazın; ilk 90 gün stabilizasyon backlog’unu çıkarın.",
+              "6/12 ay için growth/UX/tech/compliance lane’lerini doldurun ve önceliklendirin.",
+              "Sprint ritmini (2 hafta) ve aylık roadmap review’u planlayıp uygulayın."
+            ],
+            "template": {
+              "emptyFields": [
+                {
+                  "title": "1) North Star Hedef",
+                  "items": [
+                    "Hedef (1 cümle): ____________________"
+                  ]
+                },
+                {
+                  "title": "2) KPI Seti (3–5)",
+                  "items": [
+                    "KPI 1: ________  KPI 2: ________  KPI 3: ________  KPI 4: ________  KPI 5: ________"
+                  ]
+                },
+                {
+                  "title": "3) V1 Kapsamı (Must-have)",
+                  "items": [
+                    "Otel: ________",
+                    "B2B: ________",
+                    "Teknik: ________"
+                  ]
+                },
+                {
+                  "title": "4) 0–3 Ay Stabilizasyon Backlog’u",
+                  "items": [
+                    "Hata düzeltme: ________",
+                    "CWV: ________",
+                    "Ölçüm doğrulama: ________",
+                    "Güvenlik/uyum: ________"
+                  ]
+                },
+                {
+                  "title": "5) 3–6 Ay Roadmap (Lane’ler)",
+                  "items": [
+                    "Growth: ________",
+                    "UX/CRO: ________",
+                    "Tech debt: ________",
+                    "Compliance: ________"
+                  ]
+                },
+                {
+                  "title": "6) 6–12 Ay Roadmap (Lane’ler)",
+                  "items": [
+                    "Growth: ________",
+                    "UX/CRO: ________",
+                    "Tech: ________",
+                    "Compliance: ________"
+                  ]
+                },
+                {
+                  "title": "7) Sprint Ritmi ve Sahiplik",
+                  "items": [
+                    "Sprint süresi: [ ] 1 hafta [ ] 2 hafta",
+                    "Roadmap review: [ ] aylık [ ] 6 haftada bir",
+                    "Owner: ________  Tech lead: ________  Analytics: ________"
+                  ]
+                }
+              ],
+              "rules": [
+                "Roadmap’i istek listesi değil, KPI planı yap.",
+                "Her sprintte “bakım/refactor” slotu bırak.",
+                "Stabilizasyon dönemini (0–3 ay) hafife alma.",
+                "Otel/B2B sezon ve kampanya takvimini plana işle.",
+                "Aylık review ile planı güncelle; roadmap yaşayan dokümandır."
+              ],
+              "filledExample": [
+                "KPI: rezervasyon/lead ↑, CWV ↑, incident ↓",
+                "0–3 ay: CWV + form UX + ölçüm QA",
+                "6–12 ay: içerik cluster + PWA (uygunsa) + portal iyileştirme"
+              ],
+              "checklist": [
+                "North Star + KPI seti yazıldı",
+                "V1 scope kilitlendi",
+                "0–3 ay stabilizasyon backlog’u var",
+                "12 aylık lane planı hazır",
+                "Sprint ritmi + review takvimi belirlendi"
+              ],
+              "deliverables": [
+                "12 aylık roadmap tablosu",
+                "Backlog lane’leri",
+                "Stabilizasyon sprint planı",
+                "KPI izleme sayfası",
+                "Buraya: Timeline diyagram görseli",
+                "Buraya: Roadmap tablo görseli"
+              ]
+            },
+            "href": "/downloads/web-sitesi-lansman-sonrasi-6-12-aylik-roadmap-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Web sitesi lansmanla bitmez, roadmap ile gelişir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Web sitesini ürün gibi yönetmek, lansmandan sonra ne yapılacağını belirsiz bırakmamak demektir. V1 kapsamı netleştiğinde, ilk 90 gün stabilizasyon için ayrıldığında ve 6/12 aylık roadmap KPI’lara bağlandığında site “eskimeye bırakılan” bir varlık olmaktan çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B projelerinde sürdürülebilir başarı; tek seferlik büyük yenilemelerden değil, düzenli ölçüm, bakım/refactoring ve veriye dayalı sprint kültüründen gelir. Bu yaklaşım, teknik borcu görünür kılar, büyüme fırsatlarını önceliklendirir ve web sitesini iş hedeflerine daha yakın çalışan canlı bir sisteme dönüştürür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Sitesi Roadmap & Yaşam Döngüsü Analizi Talp Et",
+            "text": "V1 sonrası stabilizasyon, 6/12 ay roadmap ve bakım/refactor ritmini sitenize göre tasarlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Web sitesi yaşam döngüsü nedir?",
+        "a": "Planlama→geliştirme→lansman→ölçüm→iyileştirme adımlarının tekrar eden döngüsüdür. Siteyi ürün gibi yönetmeyi sağlar."
+      },
+      {
+        "q": "Kurumsal/otel sitesi için 6–12 aylık roadmap nasıl hazırlanır?",
+        "a": "North Star hedef ve KPI setini belirleyip backlog’u growth/UX/tech/compliance lane’lerine ayırın. İlk 3 ayı stabilizasyon, 6–12 ayı ölçekleme olarak planlayın ve aylık review ile güncelleyin."
+      },
+      {
+        "q": "Lansman sonrası hangi sıklıkla iyileştirme yapmalıyım?",
+        "a": "Genel pratik 2 haftalık sprint ritmi ve aylık roadmap review’dur. Otelde sezon yoğunluğu, B2B’de kampanya ve içerik takvimi ritmi etkileyebilir."
+      },
+      {
+        "q": "Bakım, refactoring ve yeni özellik dengesini nasıl kurarım?",
+        "a": "Her sprintte küçük bir bakım/refactor slotu ayırın ve büyük refactor işleri için periyodik bakım sprint’leri planlayın. Yeni özellikleri KPI etkisine göre seçin."
+      },
+      {
+        "q": "V1 lansman hedef seti nasıl belirlenir?",
+        "a": "Kritik kullanıcı görevlerini seçip (otel: rezervasyon; B2B: lead) bunları sorunsuz çalıştıracak minimum kapsamı kilitleyin. Diğer özellikleri roadmap’e koyun."
+      },
+      {
+        "q": "Roadmap’i kim sahiplenmeli?",
+        "a": "Bir ürün/proje sahibi (owner) olmalı; pazarlama ve teknik liderle birlikte çalışmalıdır. Aylık review’de kararlar kayıt altına alınmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-hero-01.webp — alt text: “Web sitesi yaşam döngüsü kapak görseli, otel ve B2B için sürekli iyileştirme”",
+          "h1-context — 1920×1080 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-h1-context-02.webp — alt text: “V1’den roadmap’e bağlam görseli, lansman sonrası planlı gelişim modeli”",
+          "divider-01 — 1600×1200 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-divider-03.webp — alt text: “Lifecycle adımları bölüm ayırıcı, otel ve B2B’de planlı iyileştirme”",
+          "divider-02 — 1600×1200 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-divider-04.webp — alt text: “Roadmap örnekleri bölüm ayırıcı, otel ve B2B’de sürdürülebilir büyüme”",
+          "diagram-05 — 1920×1080 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-diagram-05.webp — alt text: “Web sitesi yaşam döngüsü timeline diyagramı, otel ve B2B için 12 aylık plan”",
+          "checklist-06 — 1200×1200 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-checklist-06.webp — alt text: “Lansman sonrası yapılacaklar checklist kartı, otel ve B2B yol haritası”",
+          "kpi-07 — 1200×1200 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-kpi-07.webp — alt text: “Roadmap KPI kartı, dönüşüm ve CWV iyileştirme hedefleri”",
+          "proof-08 — 1200×1200 — web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye-proof-08.webp — alt text: “Roadmap deliverables kanıt kartı, 12 aylık plan ve sprint ritmi”",
+          "table-12-aylik-roadmap-backlog-ornegi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "V1 hedef seti ve must-have kapsamı dokümante edildi",
+          "North Star hedef ve KPI seti belirlendi",
+          "İlk 30/90 gün stabilizasyon planı oluşturuldu",
+          "Roadmap Growth / UX / Tech / Compliance lane’lerine ayrıldı",
+          "Bakım/refactoring işleri roadmap’te görünür hale getirildi",
+          "Sprint ritmi ve aylık roadmap review takvimi belirlendi",
+          "Release sonrası QA + izleme rutini tanımlandı",
+          "CWV, 404/redirect, form/lead ve dönüşüm ölçüm kontrolleri eklendi",
+          "Otel/B2B sezon, kampanya ve içerik takvimi roadmap’e bağlandı",
+          "Owner, tech lead ve analytics sorumluları belirlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogJamstackVeEdgeRenderingKurumsalWebSiteleriIcinYeniMimariTrendler": {
+    "title": "Jamstack ve Edge Rendering ile Kurumsal Site",
+    "slug": "jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Jamstack ve edge rendering ile CDN-first hız ve güvenlik kazanın. Otel/B2B’de ne zaman mantıklı? Next.js edge, cache stratejisi, karar checklist’i ve SEO notları.",
+    "seo": {
+      "metaTitle": "Jamstack ve Edge Rendering ile Kurumsal Site | DGTLFACE",
+      "metaDescription": "Jamstack ve edge rendering ile CDN-first hız ve güvenlik kazanın. Otel/B2B’de ne zaman mantıklı? Next.js edge, cache stratejisi, karar checklist’i ve SEO notları."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler"
+      ],
+      "strategySummary": "Bu içerik, “Web Sitesi Geliştirme” silo’sunda mimari kararları modernleştiren otorite taşıyan trend child rolünde: Jamstack ve edge’i “geliştirici oyuncağı” değil, performans + güvenlik + global erişim için iş tarafıyla birlikte değerlendirilen bir mimari alternatife çevirir. Hedef persona otel grubu dijital lideri, B2B pazarlama/IT ve ajans yöneticisidir; funnel’da consideration aşamasında “hangi mimari bizim için doğru?” kararını kolaylaştırır. Ana iş sorusu: Global trafik ve hız hedefi için Jamstack/edge ne zaman mantıklı; içerik güncelleme sıklığı ve dinamik ihtiyaçlar artınca hangi model daha doğru?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Jamstack ve edge rendering, “her şeyi tek sunucudan yayınlama” yaklaşımına modern bir alternatif sunar: statik build + headless API + CDN/edge dağıtımı ile hız ve güvenlik artabilir. Ancak içerik güncelleme sıklığı yüksekse veya yoğun dinamik fonksiyon gerekiyorsa, yanlış kurgulanmış cache/edge modeli operasyonu zorlayabilir. Doğru yaklaşım; trafik coğrafyası, içerik dinamikliği, ekip yetkinliği ve bakım maliyetini birlikte değerlendirip kademeli geçiş yapmaktır.",
+      "sgeSummary": "Jamstack/edge kararında 3 şey belirleyici: global performans hedefi, içerik güncelleme sıklığı, dinamik fonksiyon ihtiyacı. CDN-first + doğru cache ile hız kazan; her şeyi edge’e taşımadan önce uygunluğu ölç.",
+      "voiceAnswer": "Jamstack’e geçmeden önce global hız hedefi, içerik güncelleme sıklığı ve dinamik ihtiyaçları birlikte değerlendirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel grubu dijital lideri, ajans teknik lideri, B2B IT/ürün, pazarlama",
+        "KPI: TTFB, toplam yüklenme süresi, CWV (LCP/INP/CLS), yayın/rollback süresi, güvenlik yüzey alanı",
+        "Entity set: Jamstack, edge rendering, CDN, edge functions, headless API, Next.js, caching strategies",
+        "GEO: Türkiye geneli + global ziyaretçi (otel/B2B); Antalya/Belek/Side/Kemer/Bodrum destinasyon trafiği (doğal)",
+        "Funnel: Consideration (mimari seçimi) → uygulama planı (roadmap/POC)",
+        "Risk alanları: stale cache, içerik yayın gecikmesi, yanlış SSR/edge seçimi, gözden kaçan SEO sinyalleri",
+        "Çıktı: mimari diyagram + edge vs SSR tablo + uygunluk checklist’i + sprint planı"
+      ]
+    },
+    "h1": {
+      "title": "Jamstack ve Edge Rendering: Kurumsal Web Siteleri İçin Yeni Mimari Trendler",
+      "intro": "Kurumsal web siteleri uzun süre “tek sunucu + klasik SSR” mantığıyla büyüdü. Bugün ise iki baskı aynı anda arttı: (1) kullanıcı beklentisi (her ülkede hızlı açılan sayfa) ve (2) güvenlik/operasyon ihtiyacı (daha küçük saldırı yüzeyi, daha öngörülebilir yayın). Jamstack ve edge rendering bu noktada güçlü bir alternatif sunar: içeriği build-time’da üretip CDN/edge katmanına dağıtarak hız ve güvenlik kazanımı sağlayabilir. Ancak bu yaklaşım her site için “default doğru” değildir; içerik güncelleme sıklığı, dinamik fonksiyon ihtiyacı ve ekip/operasyon olgunluğu hesaba katılmadan yapılan tam geçişler, “bayat içerik” ve yayın karmaşası yaratabilir. Bu rehber, otel ve B2B karar kriterlerini iş tarafıyla birlikte netleştirir.",
+      "quickSummary": [
+        "1) Jamstack’i statik sayfa değil, CDN-first teslimat disiplini olarak değerlendir",
+        "2) Sayfaları statik / yarı-dinamik / tam dinamik olarak sınıflandır",
+        "3) Global trafik ve düşük latency hedefi varsa edge fırsatını analiz et",
+        "4) Cache invalidation, rebuild ve SEO QA süreçlerini önceden planla",
+        "5) Tam geçiş yerine POC → hibrit → kademeli geçiş yaklaşımıyla ilerle"
+      ],
+      "ctaPrimary": {
+        "label": "Jamstack/Edge Mimari Analizi Talep Et",
+        "text": "Trafik coğrafyanız, içerik güncelleme sıklığınız ve dinamik ihtiyaçlarınıza göre Jamstack/edge uygunluğunu birlikte çıkaralım; kademeli bir geçiş planı kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Jamstack/Edge Mimari Analizi Talep Et",
+        "text": "Trafik coğrafyanız ve içerik dinamikliğinize göre Jamstack/edge uygunluğunu netleştirip kademeli geçiş planı çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Jamstack & Edge Rendering Uygunluk & Karar Checklist Şablonunu İndir",
+        "text": "Sayfa tiplerini puanlar, hibrit mimari kararını netleştirip sprint planına dönüştürürsünüz.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "CMS Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Sunucu Güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Canonical, Hreflang ve CWV Temeli",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "title": "CMS Entegrasyonu ile Kurumsal İçerik Yönetimi",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "jamstack-nedir",
+        "title": "Jamstack Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Jamstack; modern web’i “sayfa üretimi” ile “veri/iş mantığı”nı ayrıştırarak ele alan bir yaklaşımdır. Basit tanım: JavaScript + APIs + Markup. Kurumsal bağlamda bunun karşılığı şudur: içerik ve sayfa şablonları build-time’da üretilir; dinamik ihtiyaçlar API’larla çözülür; dağıtım CDN üzerinden yapılır."
+          },
+          {
+            "type": "p",
+            "text": "Jamstack’in iş tarafına bakan faydası genelde 3 başlıkta toplanır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hız: kullanıcıya en yakın edge noktalarından servis",
+              "Güvenlik: “her istekte çalışan sunucu” yüzeyi daralabilir",
+              "Öngörülebilir yayın: build → test → publish ritmiyle daha kontrollü süreç"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Jamstack nedir, klasik kurumsal site mimarisinden farkı nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Jamstack’te sayfalar çoğunlukla build-time’da üretilir ve CDN/edge katmanından servis edilir; klasik mimaride ise sayfalar çoğu zaman sunucuda her istekte üretilir (SSR) veya tek sunucudan yayınlanır. Jamstack yaklaşımı hız ve güvenlik avantajı sağlayabilir; ancak içerik güncelleme sıklığı ve dinamik işlev ihtiyacı yükseldikçe doğru cache/yenileme (rebuild/ISR/edge) tasarımı şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ziyaretçilerinizin önemli kısmı Türkiye dışından mı geliyor?",
+              "İçerikleriniz “saniyeler içinde” güncellenmek zorunda mı?",
+              "Dinamik fonksiyonlarınız (portal/kişiselleştirme/ödeme) ne kadar yoğun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İçerik türlerini sınıflandır: statik / sık güncellenen / tamamen dinamik",
+              "“Jamstack uygun” sayfa setini seç (genelde blog, rehber, destinasyon)",
+              "Tam geçiş yerine kademeli geçiş planı yap (POC → hibrit)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "static-api-cdn-mantigi",
+        "title": "Static + API + CDN Mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Jamstack’in asıl gücü “statik sayfa” kelimesinden değil, CDN-first delivery disiplininden gelir. Statik üretim, CDN’in cache mantığıyla birleşince TTFB ve yüklenme süreleri düşebilir. Burada kritik olan, hangi içeriğin statik kalacağı, hangisinin API’dan geleceği ve CDN cache’in nasıl yönetileceğidir."
+          },
+          {
+            "type": "h3",
+            "text": "Jamstack temel bileşenleri (statik build, headless API, CDN)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Statik build: sayfaları üretir (site build pipeline)",
+              "Headless API: içerik ve veri sağlar (CMS/CRM/PMS entegrasyonları)",
+              "CDN: global dağıtım ve cache ile hız sağlar"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel örneği: Antalya/Belek/Side/Kemer/Bodrum destinasyon sayfaları ve blog içerikleri statik+CDN ile çok hızlı servis edilebilir; rezervasyon/ödeme akışı ise ayrı bir dinamik katmanda kalabilir."
+          },
+          {
+            "type": "p",
+            "text": "B2B örneği: Global trafik alan landing ve kaynak sayfaları CDN’de çok hızlı açılır; portal/dash dinamik katmanda yönetilir."
+          },
+          {
+            "type": "h3",
+            "text": "İçerik güncelleme sıklığı “mimariyi belirler”"
+          },
+          {
+            "type": "p",
+            "text": "Jamstack’te en kritik soru şudur: “İçerik ne kadar sık ve ne kadar hızlı güncellenmeli?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Saatlik/günlük güncelleme: build/ISR ile yönetilebilir",
+              "Dakikalık güncelleme: edge cache + revalidation gerekir",
+              "Anlık değişim (fiyat/müsaitlik): genelde dinamik katman (SSR/edge/API)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik güncellemeleri kampanya/duyuru ritmine mi bağlı, yoksa anlık mı?",
+              "“Yanlış/bayat içerik” riskini tolere edebilir misiniz?",
+              "CDN cache invalidation süreci (kim, nasıl) tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İçerik güncelleme SLA’sı belirle (örn. 15 dk / 1 saat / 1 gün)",
+              "CDN cache invalidation ve rebuild tetikleme süreçlerini dokümante et",
+              "Operasyon kapasitesini netleştir: kim yayınlar, kim rollback yapar?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "edge-rendering-ve-edge-functions",
+        "title": "Edge Rendering ve Edge Functions",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Edge rendering, “SSR’yi CDN’ye taşımak” gibi düşünülebilir ama tam karşılığı değildir: edge, kullanıcıya yakın noktada daha hızlı yanıt verebilir; ayrıca edge functions ile bazı kararları (coğrafya bazlı içerik, A/B, dil yönlendirme) uçta verebilirsiniz. Ancak edge’de her şeyi çalıştırmaya çalışmak, maliyet ve karmaşıklığı artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Edge rendering kurumsal web siteleri için ne fayda sağlar?"
+          },
+          {
+            "type": "p",
+            "text": "Edge rendering, global kullanıcılar için gecikmeyi (latency) azaltabilir ve TTFB’yi iyileştirebilir; bu da özellikle uluslararası trafiği olan otel/B2B sitelerinde hız hissini artırır. Ayrıca edge functions ile coğrafya/language yönlendirmesi, kişiselleştirme veya güvenlik kontrolleri gibi işlemler “kullanıcıya yakın” yürütülebilir. Ancak yanlış cache stratejisi ve aşırı edge logic, bakım maliyetini yükseltebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Edge rendering vs klasik SSR (ne zaman hangisi?)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Klasik SSR: merkezde güçlü kontrol, bazı ekiplerde daha basit operasyon",
+              "Edge SSR/Rendering: global performans, daha düşük latency, doğru kurguda daha iyi deneyim",
+              "Hibrit: statik+CDN + sadece gerekli yerlerde edge/dinamik"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Edge Rendering vs Klasik SSR (Özet)",
+            "headers": [
+              "Boyut",
+              "Edge Rendering",
+              "Klasik SSR",
+              "Karar İpucu"
+            ],
+            "rows": [
+              [
+                "Global hız",
+                "Genelde daha iyi latency",
+                "Bölgeye göre değişir",
+                "Global trafik varsa edge"
+              ],
+              [
+                "Operasyon",
+                "Cache/edge karmaşıklığı artabilir",
+                "Daha tanıdık süreç",
+                "Ekip olgunluğu önemli"
+              ],
+              [
+                "Dinamik içerik",
+                "Edge ile mümkün, dikkatli",
+                "Doğal",
+                "Yoğun dinamikte SSR"
+              ],
+              [
+                "SEO",
+                "Uyumlu ama QA şart",
+                "Uyumlu",
+                "canonical/hreflang test"
+              ],
+              [
+                "Güvenlik",
+                "Yüzey daralabilir, API risk",
+                "Sunucu yüzeyi genişleyebilir",
+                "security-by-design şart"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Global trafik var mı ve kullanıcılar “uzaktan” mı geliyor?",
+              "Dinamik kararlar (dil/ülke/segment) edge’de mantıklı mı?",
+              "Edge’de çalışacak kodun test/izleme (observability) disiplini var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Edge’i “kritik birkaç karar noktası” için kullan (aşırıya kaçma)",
+              "Edge function değişikliklerini CI/CD + staging ile yönet",
+              "Hata/latency izlemeyi (log/metrics) planla (Varsayım)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-otel-sitelerinde-nerede-mantikli",
+        "title": "Kurumsal/Otel Sitelerinde Nerede Mantıklı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Jamstack/edge kararını “mimari trend” değil, sayfa tipine göre verin. En iyi pratik; sayfaları üç sınıfa ayırmaktır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Statik (CDN-friendly): blog, rehber, destinasyon, hakkımızda",
+              "Yarı-dinamik: kampanya sayfaları, içerik blokları, bölgesel varyasyonlar",
+              "Tam dinamik: rezervasyon/ödeme, girişli portal, kişisel veriler"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu (destinasyon & blog edge-distributed)"
+          },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde destinasyon içerikleri (Antalya, Belek, Side, Kemer, Bodrum) ve blog içerikleri global kullanıcıya hızlı servis edildiğinde, ilk izlenim ve güven artar. Rezervasyon motoru ise çoğu zaman ayrı bir sistemdir; burada hedef, motorun önündeki içerik katmanını hızlandırmaktır (landing → karar → rezervasyona geçiş)."
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu (global trafik + latency azaltma)"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de global trafik varsa, özellikle ürün/kaynak sayfaları edge/CDN ile hızlı açılınca hem UX hem de reklam landing performansı iyileşebilir. Portal/dash ise login ve yetki nedeniyle daha kontrollü mimari ister."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): CDN/edge’e taşınan projelerde, özellikle yurt dışı kullanıcılar için TTFB ve toplam yükleme süresinde anlamlı düşüşler raporlanıyor. (Kesin rakam vaadi vermeden veri noktası olarak kullanıldı.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi sayfa tipleri global kullanıcıya ilk temas noktası?",
+              "Hangi sayfalar “anlık doğruluk” gerektiriyor?",
+              "Operasyon ekibi cache/rebuild yönetebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: destinasyon + blog + kampanya landing’leri Jamstack/edge ile hızlandır",
+              "B2B: kaynak/hizmet sayfalarını CDN-first yap; portalı ayrı katmanda tut",
+              "Her iki senaryoda da “hibrit mimari”yi varsayılan kabul et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "seo-performans-ve-guvenlik-etkileri",
+        "title": "SEO, Performans ve Güvenlik Etkileri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Jamstack/edge doğru kurgulanırsa performans ve güvenlikte avantaj sunabilir; yanlış kurgulanırsa SEO sinyalleri karışabilir (yanlış canonical, yanlış hreflang, cache yüzünden bayat meta vb.). Bu nedenle “teknik SEO ile birlikte mimari” yaklaşımı şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "SEO etkisi: indexlenebilirlik ve şeffaf sinyaller"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SSR/SSG/ISR/edge stratejileri indexlenebilirliği etkiler",
+              "canonical/hreflang doğruluğu şarttır",
+              "sitemap ve robots yönetimi release sürecinin parçası olmalıdır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Performans etkisi: CWV ve cache stratejisi"
+          },
+          {
+            "type": "p",
+            "text": "Jamstack tek başına CWV garantisi vermez; görsel optimizasyonu, JS yükü ve cache stratejisi birlikte çalışmalıdır. Edge’i yanlış kullanmak (ağır edge logic) TTFB’yi artırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Güvenlik etkisi: yüzey alanı ve güvenli varsayılanlar"
+          },
+          {
+            "type": "p",
+            "text": "CDN-first ve statik servis, bazı saldırı yüzeylerini azaltabilir; ancak API ve edge function’lar yeni riskler doğurur. Bu yüzden sunucu güvenliği ve secrets yönetimi (Varsayım) şarttır."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Technical SEO Notu",
+            "items": [
+              "Edge rendering ve caching yapılandırması; indexlenebilirlik, CWV ve canonical/hreflang doğruluğu için /tr/seo/teknik-seo ile uyumlu tasarlanmalıdır.",
+              "Güvenli yayın ve erişim kontrolü için /tr/yazilim/sunucu-guvenlik ile uyumlu tasarlanmalıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "canonical/hreflang test rutini var mı?",
+              "Cache invalidation “kim, ne zaman” belli mi?",
+              "Edge function güvenliği (secrets, rate limit) planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SEO QA gate: robots/sitemap/canonical/schema/CWV kontrolü ekle",
+              "Cache planını dokümante et ve staging’de test et",
+              "Güvenlik için edge/API katmanını “security by design” yaklaşımıyla ele al"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Jamstack/Edge Mimari Analizi Talep Et",
+            "text": "Jamstack/edge uygunluğunuzu, cache stratejinizi ve SEO-güvenlik etkilerini birlikte değerlendirip uygulanabilir bir geçiş planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Jamstack & Edge Rendering Uygunluk & Karar Checklist Şablonunu İndir",
+            "text": "Sayfa tiplerini puanlar, hibrit mimari kararını netleştirip sprint planına dönüştürürsünüz.",
+            "href": "/tr/seo/teknik-seo"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "jamstack-edge-rendering-uygunluk-karar-checklist-sablonu",
+        "title": "Jamstack & Edge Rendering Uygunluk & Karar Checklist Şablonunu İndir — Yazılım / Mimari",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Jamstack & Edge Rendering Uygunluk & Karar Checklist Şablonunu İndir — Yazılım / Mimari (v1.0)",
+            "purpose": "Bu asset, Jamstack/edge kararını “trend” yerine ölçülebilir kriterlerle (trafik coğrafyası, içerik güncelleme SLA, dinamik ihtiyaç, ekip olgunluğu) vermenizi sağlar. Sayfa tiplerini sınıflandırıp hibrit mimariyi netleştirir; cache ve SEO QA gereksinimlerini go-live öncesi kontrol listesine çevirir. Otel ve B2B senaryoları için ayrı karar notları içerir.",
+            "whoFor": "Tech lead, ajans PM, SEO/performance uzmanı, ürün sahibi, DevOps.",
+            "steps": [
+              "Sayfaları “statik / yarı-dinamik / dinamik” olarak sınıflandırıp uygunluk skorunu çıkarın.",
+              "Cache ve edge stratejisini (network-first/stale-while-revalidate) sayfa tipine göre yazın.",
+              "14 günlük sprint planıyla POC/hibrid geçişi uygulayın; CWV/SEO QA gate ile doğrulayın."
+            ],
+            "checklist": [
+              "Trafiğin coğrafi dağılımı net mi? (TR vs global)",
+              "İçerik güncelleme SLA’nız nedir? (15 dk / 1 saat / 1 gün)",
+              "Dinamik fonksiyon yüzeyi nedir? (rezervasyon/portal/ödeme)",
+              "Cache invalidation ve rebuild süreci tanımlı mı?",
+              "SEO QA gate var mı? (robots/sitemap/canonical/schema/CWV)",
+              "Güvenlik gereksinimleri (edge/API) planlandı mı?",
+              "Ekip olgunluğu: CI/CD + staging + monitoring var mı?"
+            ],
+            "sprintPlan": [
+              "Gün 1: Sayfa tipleri sınıflandırma + uygunluk skoru",
+              "Gün 2: Trafik coğrafyası + performans hedefleri (TTFB/CWV)",
+              "Gün 3: Jamstack/edge kapsamı (MVP) seçimi",
+              "Gün 4: Cache stratejisi taslağı + invalidation planı",
+              "Gün 5: SEO gereksinimleri (canonical/sitemap/schema) checklist",
+              "Gün 6: Güvenlik gereksinimleri (edge/API) checklist",
+              "Gün 7: POC ortamı + staging kurulum (Varsayım)",
+              "Gün 8: Blog/destinasyon gibi statik sayfaları CDN-first taşı",
+              "Gün 9: Edge rendering POC (tek sayfa tipi)",
+              "Gün 10: Ölçüm: TTFB/CWV baseline + kıyas",
+              "Gün 11: SEO QA gate dry-run",
+              "Gün 12: Hata düzeltme + cache tuning",
+              "Gün 13: Dokümantasyon + runbook",
+              "Gün 14: Karar raporu + roadmap"
+            ],
+            "deliverables": [
+              "Uygunluk skoru ve kapsam kararı",
+              "Cache stratejisi dokümanı",
+              "SEO QA gate checklist’i",
+              "Edge/API güvenlik notları",
+              "POC raporu (before/after)",
+              "Buraya: mimari diyagram + performans tablo görseli"
+            ],
+            "href": "/downloads/jamstack-edge-rendering-uygunluk-karar-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Jamstack ve edge, doğru senaryoda mimari kaldıraçtır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Jamstack ve edge rendering, kurumsal web siteleri için güçlü bir performans ve güvenlik fırsatı sunabilir; ancak bu karar yalnızca trend olduğu için verilmemelidir. Trafik coğrafyası, içerik güncelleme sıklığı, dinamik fonksiyon ihtiyacı ve ekip olgunluğu birlikte değerlendirilmediğinde cache karmaşası, bayat içerik ve operasyonel yük artabilir."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B projelerinde en güvenli yaklaşım çoğu zaman hibrittir: blog, rehber, destinasyon ve kaynak sayfaları CDN-first hızlandırılır; rezervasyon, ödeme, portal ve kişisel veri içeren akışlar daha kontrollü dinamik katmanda tutulur. Doğru POC, SEO QA gate, cache planı ve güvenlik tasarımıyla Jamstack/edge kararı sürdürülebilir bir mimari avantaja dönüşebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Jamstack/Edge Mimari Analizi Talep Et",
+            "text": "Trafik coğrafyanız ve içerik dinamikliğinize göre Jamstack/edge uygunluğunu netleştirip kademeli geçiş planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Jamstack nedir, klasik kurumsal site mimarisinden farkı nedir?",
+        "a": "Jamstack, sayfaları build-time’da üretip CDN/edge üzerinden servis etmeye dayanır; dinamik ihtiyaçları API’larla çözer. Klasik mimaride sayfalar genelde sunucuda üretilir; Jamstack/edge hız ve güvenlik avantajı sağlayabilir."
+      },
+      {
+        "q": "Edge rendering kurumsal web siteleri için ne fayda sağlar?",
+        "a": "Global kullanıcılar için latency/TTFB iyileştirebilir ve deneyimi hızlandırır. Doğru cache ve izleme olmadan kullanılırsa bayat içerik ve operasyon karmaşası yaratabilir."
+      },
+      {
+        "q": "Otel ve B2B sitelerinde Jamstack/edge ne zaman mantıklı?",
+        "a": "Global trafik varsa ve içerik ağırlıklı sayfalar (destinasyon/blog/kaynaklar) fazlaysa mantıklıdır. Rezervasyon/portal gibi yoğun dinamik katmanlar genelde ayrı yönetilir; hibrit yaklaşım en güvenlisidir."
+      },
+      {
+        "q": "Next.js ile edge rendering nasıl kurgulanır?",
+        "a": "Sayfa tipine göre edge/SSR/SSG seçilir; cache stratejisi ve revalidation planı yazılır. Release sürecine SEO QA (canonical/sitemap/schema) ve CWV kontrolü eklenir."
+      },
+      {
+        "q": "Jamstack’e geçerken en büyük risk nedir?",
+        "a": "Yanlış cache stratejisiyle bayat içerik ve yanlış SEO sinyali (canonical/hreflang) üretmektir. Invalidation ve QA gate kritik önlemdir."
+      },
+      {
+        "q": "Jamstack/edge güvenliği artırır mı?",
+        "a": "Statik+CDN yaklaşımı bazı yüzeyleri daraltabilir; ancak API ve edge function’lar yeni riskler doğurur. Güvenlik tasarımının mimariyle birlikte yapılması gerekir."
+      },
+      {
+        "q": "Tam geçiş mi hibrit mi daha iyi?",
+        "a": "Çoğu kurum için hibrit daha güvenlidir: içerik sayfaları CDN-first, dinamik akışlar kontrollü katmanda. Tam geçiş kararı, içerik güncelleme SLA ve dinamik ihtiyaç netleşmeden verilmemelidir."
+      },
+      {
+        "q": "Jamstack/edge SEO’yu bozar mı?",
+        "a": "Doğru kurgulanırsa bozmaz; hatta performansla destekleyebilir. Yanlış canonical/hreflang, robots/sitemap ve cache yönetimi sorun yaratır; teknik SEO ile birlikte tasarlanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-hero-01.webp — alt text: “Jamstack edge mimarisi özeti, otel sitelerinde global hız hedefi”",
+          "h1-context — 1920×1080 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-h1-context-02.webp — alt text: “CDN-first teslimat bağlamı, otel ve B2B kullanıcılarında hızlı açılış”",
+          "divider-01 — 1600×1200 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-divider-03.webp — alt text: “Jamstack tanımı bölüm ayırıcı, kurumsal sitede hız ve güvenlik hedefi”",
+          "divider-02 — 1600×1200 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-divider-04.webp — alt text: “Edge karar kriterleri bölüm ayırıcı, global kullanıcıda düşük gecikme hedefi”",
+          "diagram-05 — 1920×1080 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-diagram-05.webp — alt text: “Jamstack ve edge katmanları diyagramı, otel ve B2B’de CDN-first hız”",
+          "checklist-06 — 1200×1200 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-checklist-06.webp — alt text: “Jamstack edge uygunluk checklist kartı, otel ve B2B mimari kararı”",
+          "kpi-07 — 1200×1200 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-kpi-07.webp — alt text: “Edge performans KPI kartı, global kullanıcıda TTFB düşürme hedefi”",
+          "proof-08 — 1200×1200 — jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler-proof-08.webp — alt text: “Mimari karar deliverables kartı, cache planı ve SEO QA çıktıları”",
+          "table-edge-rendering-vs-klasik-ssr — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Sayfa tipleri statik / yarı-dinamik / tam dinamik olarak sınıflandırıldı",
+          "Trafik coğrafyası ve global latency ihtiyacı analiz edildi",
+          "İçerik güncelleme SLA’sı belirlendi",
+          "Cache invalidation ve rebuild/revalidation süreci dokümante edildi",
+          "Jamstack/edge için POC kapsamı seçildi",
+          "SEO QA gate eklendi: robots, sitemap, canonical, hreflang, schema, CWV",
+          "Edge/API güvenlik gereksinimleri planlandı",
+          "CI/CD, staging ve rollback akışı tanımlandı",
+          "Edge function log/metrics/observability planı oluşturuldu",
+          "Hibrit mimari kararı iş hedefi ve ekip olgunluğuna göre netleştirildi"
+        ]
+      }
+    }
+  },
+
+   "BlogDesignTokenVeMultiBrandDijitalEkosistemlerIcinWebAltyapisi": {
+    "title": "Multi-Brand Design Token Altyapısı Rehberi",
+    "slug": "design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Design token’larla renk/tipografi/spacing’i tek merkezden yönetin. Otel grupları/holdingler için tek kod tabanı + tema varyantları, Figma senkronu ve CMS tema kurgusu.",
+    "seo": {
+      "metaTitle": "Multi-Brand Design Token Altyapısı Rehberi | DGTLFACE",
+      "metaDescription": "Design token’larla renk/tipografi/spacing’i tek merkezden yönetin. Otel grupları/holdingler için tek kod tabanı + tema varyantları, Figma senkronu ve CMS tema kurgusu."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “multi-brand ölçekleme” trendini taşıyan otorite taşıyan trend child rolündedir: çok markalı yapılarda “her siteyi baştan tasarlama + kopyalanmış kod” yaklaşımını bırakıp single source of style (design tokens + shared components + theme variants) modeline geçişi anlatır. Hedef persona otel grubu/holding yöneticisi, ajans yöneticisi ve UX/FE liderleridir; funnel’da consideration aşamasında “tek kod tabanı mı, ayrı siteler mi?” kararını kolaylaştırır. Ana iş sorusu: Renk/tipografi/spacing kararlarını token’lara taşıyıp, tek component kütüphanesinden çok markalı temaları nasıl yönetirim; Figma–kod senkronu ve CMS tema seçimini nasıl kurgularım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Design token yaklaşımı, çok markalı yapılarda “her siteyi baştan tasarlama” ihtiyacını azaltarak renk, tipografi, spacing ve bileşen stillerini tek merkezden yönetmeyi sağlar. Tek component kütüphanesi üzerinden marka A/B/C için tema varyantları üretir, UI tutarlılığını korur ve geliştirme hızını artırır. Figma’daki token’ların koda senkron aktarılması ve CMS’te marka bazlı tema seçimi ile sistem sürdürülebilir hâle gelir.",
+      "sgeSummary": "Multi-brand yapıda ölçek için: design token’ları tanımla, shared component library kur, theme variants üret, Figma↔kod senkronu kur, CMS’te marka teması yönet. Kopya tema/koddan kaçın.",
+      "voiceAnswer": "Birden çok markanız varsa tek kod tabanı kurup design token + tema varyantlarıyla ölçekleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel grupları/holding dijital liderleri, ajans PM, UX lead, FE lead",
+        "KPI: Yeni marka/otel ekleme süresi, UI tutarsızlık sayısı, component reuse oranı, revizyon maliyeti, release öngörülebilirliği",
+        "Entity set: design tokens, multi-brand systems, shared components, theme variants, Figma tokens, CMS theming, versioning",
+        "GEO: Türkiye geneli; çok markalı otel grupları ve holding ekosistemleri",
+        "Funnel: Consideration (sistem kararı) → delivery (token sistemi + rollout)",
+        "Risk alanları: token sprawl, senkron kopması (Figma≠kod), tema kopyalama, CMS theme chaos",
+        "Çıktı: token hiyerarşisi şeması + tema matrisi + checklist + şablon"
+      ]
+    },
+    "h1": {
+      "title": "Design Token ve Multi-Brand Dijital Ekosistemler İçin Web Altyapısı",
+      "intro": "Birden fazla marka/otel yöneten yapılarda en büyük maliyet, “yeni site yapmak” değil; her markada tutarlılığı ve hızını koruyarak sürekli güncelleme yapmaktır. Türkiye’de yaygın çözüm, aynı temayı kopyalayıp çoğaltmak; zamanla UI parçalanır, farklı ajanslar farklı stiller ekler ve “tek merkezden yönetim” hayal olur. Design token yaklaşımı ise tam bu sorunu çözer: renk, tipografi, spacing ve bileşen seviyesindeki stil kararları token’lara taşınır; tek component kütüphanesi üzerinden çok markalı theme variants üretilir. Otel grupları ve holdinglerde bu model, yeni marka ekleme süresini kısaltır ve UI tutarsızlığını azaltır.",
+      "quickSummary": [
+        "1) Renk, tipografi ve spacing kararlarını token sistemine taşı",
+        "2) Token’ları core → semantic → component katmanlarıyla düzenle",
+        "3) Tek component kütüphanesinden marka A/B/C için theme variants üret",
+        "4) Figma ↔ kod senkronunu ve token versioning sürecini kur",
+        "5) CMS’te brand/tema seçimini standartlaştırarak multi-brand yönetimi ölçekle"
+      ],
+      "ctaPrimary": {
+        "label": "Design Token & Multi-Brand Web Sistem Analizi Talep Et",
+        "text": "Mevcut marka/otel sitelerinizi token+tema perspektifiyle analiz edip tek kod tabanlı bir multi-brand sistem tasarlayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Design Token & Multi-Brand Web Sistem Analizi Talep Et",
+        "text": "Token hiyerarşinizi ve tema varyantlarınızı çıkarıp tek kod tabanında sürdürülebilir multi-brand sistem tasarlayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Multi-Brand Design Token & Tema Planlama Şablonunu İndir",
+        "text": "Token hiyerarşisini ve brand mapping’i tek dokümana döker; yeni marka eklemeyi sprint planına çevirirsiniz.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "CMS Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "UI/UX Tasarım ile Kurumsal Dijital Deneyim Nasıl Ölçeklenir?",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "title": "CMS Entegrasyonu ile Multi-Brand İçerik Yönetimi",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-token-nedir",
+        "title": "Design Token Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Design token, bir tasarım kararını kodun anlayacağı “değişken” formatına dönüştürür. Renk paleti, font boyutu, spacing aralığı, border radius gibi kurallar token’lara taşındığında, UI “rastgele” değil “sistematik” olur. Token’lar, design system’in temel katmanıdır: komponentlerin nasıl görüneceğini token’lar belirler; komponentler de sayfaların nasıl görüneceğini."
+          },
+          {
+            "type": "h3",
+            "text": "Design token nedir, kurumsal/multi-brand sitelerde nasıl kullanılır?"
+          },
+          {
+            "type": "p",
+            "text": "Design token; renk, tipografi, spacing gibi stil kararlarını platform bağımsız biçimde tanımlayan, Figma ve kodda aynı isimlerle yaşayan değişkenlerdir. Multi-brand yapılarda token’lar “tema varyantı” olarak çoğalır: aynı component kütüphanesi, farklı token setleriyle farklı markalara uyarlanır. Böylece kopya tema/kod yerine tek sistemden yönetim sağlanır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Token’lar “tasarım kararı”nı mı temsil ediyor, yoksa rastgele değerler mi?",
+              "Token isimlendirme standardı var mı?",
+              "Aynı component farklı markalarda “kopyalanmadan” çalışabilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Token’ları 3 katmana ayır: core → semantic → component",
+              "Token isimlerini “tasarım dili”yle standardize et",
+              "İlk etapta sadece 20–40 temel token ile başla (sprawl’i önle)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "renk-tipografi-spacing-ve-bilesen-seviyesi-tokenlar",
+        "title": "Renk, Tipografi, Spacing ve Bileşen Seviyesi Token’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Token’ları seviyelendirmezseniz sistem kısa sürede şişer. En iyi pratik: token’ı “ham değer”den “anlamlı karar”a doğru taşımak."
+          },
+          {
+            "type": "h3",
+            "text": "Core tokens (ham değerler)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Renk skalası: brand-500, neutral-900 vb.",
+              "Spacing scale: 4, 8, 12, 16…",
+              "Font scale: sm, md, lg, xl"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Semantic tokens (anlam katmanı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "color.text.primary",
+              "color.bg.surface",
+              "color.action.primary",
+              "Bu katman, multi-brand’de asıl sihirli yerdir: her marka semantic token’ları farklı core değerlerle map eder."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Component tokens (bileşen kararları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Button padding, radius, hover state",
+              "Card shadow, border",
+              "Form input focus ring",
+              "Bu katman, component library’nin stabil kalmasını sağlar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Core ile semantic ayrılmış mı?",
+              "“Primary button” rengi her markada semantic token’dan mı geliyor?",
+              "Component token’ları dokümante mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce semantic token’ları sabitle; markaları buradan yönet",
+              "Component token’larını sınırlı tut; varyant patlamasını önle",
+              "Tasarım ve kodda aynı token isimlerini kullan"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "multi-brand-yapilarda-tek-kod-tabani",
+        "title": "Multi-Brand Yapılarda Tek Kod Tabanı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek kod tabanı demek “tek tasarım” demek değildir. Amaç, aynı component kütüphanesini farklı token setleriyle giydirmek (theme variants). Böylece her markanın “farklılığı” korunurken, sistemin çekirdeği (component library + erişilebilirlik + performans) ortak kalır."
+          },
+          {
+            "type": "h3",
+            "text": "Marka A/B/C için varyantlar (theme variants)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand A: premium (daha geniş spacing, farklı typography)",
+              "Brand B: resort (daha canlı palette)",
+              "Brand C: business (daha sade)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu varyantlar “theme config” olarak yönetilir; sayfalar aynı komponentleri kullanır, sadece token seti değişir."
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "TR’de multi-brand yapıların çoğu “tema kopyalama + ufak CSS oynama” ile çözülüyor. Bu kısa vadede hızlı gibi görünür; ama uzun vadede yeni marka ekleme süresi uzar, UI tutarsızlıkları artar ve bakım maliyeti yükselir. Token tabanlı sistem, kopya kodu azaltarak bu kaosu önler."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Multi-Brand Tema Varyantı Matrisi (Özet)",
+            "headers": [
+              "Katman",
+              "Örnek Token",
+              "Marka A",
+              "Marka B",
+              "Marka C"
+            ],
+            "rows": [
+              [
+                "Semantic",
+                "color.action.primary",
+                "mavi",
+                "turkuaz",
+                "koyu gri"
+              ],
+              [
+                "Semantic",
+                "typography.heading",
+                "serif",
+                "sans",
+                "sans-condensed"
+              ],
+              [
+                "Component",
+                "button.radius",
+                "12",
+                "16",
+                "10"
+              ],
+              [
+                "Component",
+                "card.shadow",
+                "medium",
+                "soft",
+                "strong"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni marka eklemek “kopyala-yapıştır” mı, yoksa “yeni token seti” mi?",
+              "Shared component library tek yerde mi?",
+              "Brand varyantları versioning ile yönetiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Markaları “tema config” ile ayır, kodu kopyalama",
+              "Ortak component kütüphanesini tek repo/tek paket olarak yönet (Varsayım)",
+              "Yeni marka ekleme süresini KPI olarak takip et"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-gruplari-ve-holdingler-icin-token-stratejisi",
+        "title": "Otel Grupları ve Holdingler İçin Token-Stratejisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel gruplarında “marka” çoğu zaman yalnız logo değil; hedef kitle, konsept ve içerik dili de farklıdır. Token stratejisi, bu farkları UI’da yönetilebilir hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel grupları için pratik token seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "brand.primary, brand.secondary",
+              "typography.heading, typography.body",
+              "radius.card, shadow.card",
+              "spacing.section, spacing.card"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Antalya’daki resort markası için daha sıcak palette; şehir oteli markası için daha minimal palette aynı component setiyle yönetilebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Holding/B2B için pratik token seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün/dash ekranlarında okunabilirlik odaklı typography",
+              "Plan/fiyat kartlarında tutarlı grid",
+              "Case study bloklarında aynı yapı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Token tabanlı yaklaşıma geçen ekiplerde, yeni marka/otel ekleme süresi ve UI tutarsızlıkları anlamlı şekilde azalıyor. (Gözlemsel veri noktası olarak kullanıldı.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel markalarında “konsept farkı” token setine yansıyor mu?",
+              "Holdingde ürün/dash sayfalarında typography standardı var mı?",
+              "Tek bir component setiyle farklı brand hissi verebiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: “oda kartı / paket kartı / CTA bandı” gibi kritik component’leri token’dan besle",
+              "B2B: plan/kart/dash bileşenlerini theme ile varyantla",
+              "Her brand için token setini “v1” olarak kilitle; sonra iteratif geliştir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cms-ve-tasarim-araclariyla-entegrasyon",
+        "title": "CMS ve Tasarım Araçlarıyla Entegrasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Token sistemi sadece kodda yaşarsa, tasarım tarafında kopar. Sadece Figma’da yaşarsa, implementasyonda kopar. İdeal hedef: Figma ↔ kod token senkronu ve CMS’te marka teması seçimi."
+          },
+          {
+            "type": "h3",
+            "text": "Figma’daki token’ları koda nasıl aktarırım?"
+          },
+          {
+            "type": "p",
+            "text": "En iyi pratik; token’ları tek kaynakta (JSON gibi) tutup hem Figma hem kod tarafında bu kaynaktan üretmektir. Böylece renk/tipografi güncellemeleri iki tarafta da senkron kalır. Senkron bozulursa “tasarımda var, kodda yok” problemi büyür."
+          },
+          {
+            "type": "h3",
+            "text": "CMS tarafında marka teması yönetimini nasıl kurgularım?"
+          },
+          {
+            "type": "p",
+            "text": "CMS’te içerik, “brand” alanıyla etiketlenebilir; front-end bu etikete göre doğru token setini (theme) uygular. Böylece aynı içerik modeli, doğru markanın UI’ı ile sunulur. Bu yapı, multi-brand ekosistemde içerik operasyonunu hızlandırır ve tutarlılık sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Token’lar tek kaynaktan mı yönetiliyor?",
+              "CMS’te brand/tema seçimi alanı var mı?",
+              "Theme seçimi “sayfa bazında mı”, “site/brand bazında mı” net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Figma ↔ kod senkronunu süreç haline getir (release öncesi kontrol)",
+              "CMS’te brand alanı ve theme mapping planı çıkar",
+              "Token değişiklikleri için changelog/versiyonlama koy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bakim-ve-versiyonlama",
+        "title": "Bakım ve Versiyonlama",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Token sistemi bir “ürün”dür: bakım, sürüm ve değişiklik yönetimi ister. Aksi halde token’lar çoğalır, isimler bozulur, component’ler farklılaşır."
+          },
+          {
+            "type": "h3",
+            "text": "Token değişikliği nasıl yönetilir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Değişiklik tipi: minor (renk tonu) vs major (semantic mapping değişimi)",
+              "Deprecation: eski token’ı kaldırma planı",
+              "Release notları: hangi brand etkilendi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Multi-brand governance (kısa çerçeve)"
+          },
+          {
+            "type": "p",
+            "text": "Token sistemi, style guide ve governance dokümanlarıyla birlikte yürümelidir. Bu yüzden UI/UX tasarım ve CMS entegrasyon içerikleriyle bağ önemlidir."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Technical SEO Notu",
+            "items": [
+              "Token sistemi doğrudan SEO değil; ancak tutarlı UI ve performans (daha az CSS kaosu) üzerinden CWV’ye dolaylı katkı yapabilir.",
+              "Multi-brand’de URL/IA ve içerik yönetimi ile birlikte ele alınmalıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Token changelog’u var mı?",
+              "Yeni token ekleme kuralı var mı?",
+              "Brand A/B/C etkisi test ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Token’lar için “review” ritmi koy (aylık)",
+              "Yeni token eklemeyi “kural”a bağla (semantic önce)",
+              "Brand bazlı görsel regression test planla (Varsayım)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Design Token & Multi-Brand Web Sistem Analizi Talep Et",
+            "text": "Token hiyerarşinizi, tema varyantlarınızı ve Figma/CMS entegrasyonunuzu denetleyip sürdürülebilir bir multi-brand sistem tasarlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Multi-Brand Design Token & Tema Planlama Şablonunu İndir",
+            "text": "Token hiyerarşisini ve brand mapping’i tek dokümana döker; yeni marka eklemeyi sprint planına çevirirsiniz.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "multi-brand-design-token-tema-planlama-sablonu",
+        "title": "Multi-Brand Design Token & Tema Planlama Şablonunu İndir — Yazılım / Design Tokens",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Multi-Brand Design Token & Tema Planlama Şablonunu İndir — Yazılım / Design Tokens (v1.0)",
+            "purpose": "Bu şablon, çok markalı dijital ekosistemde design token hiyerarşisini (core→semantic→component) ve marka tema varyantlarını tek dokümanda planlamanızı sağlar. Figma↔kod token senkronu ve CMS’te marka teması seçimi kurgusunu standartlaştırarak kopyalanmış tema/kod problemini azaltır. Amaç; yeni marka eklemeyi hızlandırmak ve UI tutarsızlıklarını düşürmektir.",
+            "whoFor": "UX lead, FE lead, design ops, ajans PM, CMS yöneticisi.",
+            "steps": [
+              "Core/semantic/component token listesini çıkarın ve isim standardını kilitleyin.",
+              "Marka A/B/C için semantic mapping’i doldurun; component varyantlarını sınırlayın.",
+              "Figma↔kod senkron sürecini ve CMS theme mapping’ini kurup 14 günlük sprintle uygulayın."
+            ],
+            "template": {
+              "emptyFields": [
+                {
+                  "title": "1) Token Hiyerarşisi",
+                  "items": [
+                    "Core tokens: ____________________",
+                    "Semantic tokens: __________________",
+                    "Component tokens: ________________"
+                  ]
+                },
+                {
+                  "title": "2) İsimlendirme Standardı",
+                  "items": [
+                    "Örnek format: color.action.primary, typography.heading.lg, spacing.section.md",
+                    "Kurallar: ________________________"
+                  ]
+                },
+                {
+                  "title": "3) Brand Theme Mapping (A/B/C)",
+                  "items": []
+                },
+                {
+                  "title": "4) Component Varyantları (Sınır)",
+                  "items": [
+                    "Button varyantları: ___",
+                    "Card varyantları: ___",
+                    "Form varyantları: ___"
+                  ]
+                },
+                {
+                  "title": "5) Figma ↔ Kod Senkron",
+                  "items": [
+                    "Kaynak: [ ] JSON [ ] Figma plugin [ ] Diğer: ___",
+                    "Senkron sıklığı: ___",
+                    "Onay süreci: ___"
+                  ]
+                },
+                {
+                  "title": "6) CMS Theme Yönetimi",
+                  "items": [
+                    "Brand alanı: ___",
+                    "Theme mapping: ___",
+                    "Preview/staging: ___"
+                  ]
+                }
+              ],
+              "rules": [
+                "Token sayısını başta küçük tut; sprawl’i önle.",
+                "Semantic token’ları sabitle; markaları mapping ile yönet.",
+                "Component varyantlarını sınırlı tut; her varyantın nedeni olsun.",
+                "Figma ve kodda aynı isimlendirmeyi zorunlu kıl.",
+                "Theme değişikliklerini versiyonla ve changelog tut."
+              ],
+              "filledExample": [
+                "Brand A primary: mavi, Brand B primary: turkuaz, Brand C primary: koyu gri",
+                "typography.heading: A serif, B sans, C sans-condensed",
+                "button.radius: A 12, B 16, C 10"
+              ],
+              "checklist": [
+                "Token hiyerarşisi yazılı",
+                "Brand mapping tamamlandı",
+                "Varyant sınırları belirlendi",
+                "Figma↔kod senkron kuralı var",
+                "CMS theme mapping planı var",
+                "Versiyon/changelog var"
+              ],
+              "deliverables": [
+                "Token seti dokümanı",
+                "Brand mapping tablosu",
+                "CMS theme kuralı",
+                "Senkron ve versiyonlama runbook’u",
+                "Buraya: Token şeması görseli",
+                "Buraya: Multi-brand component gallery görseli"
+              ]
+            },
+            "href": "/downloads/multi-brand-design-token-tema-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Multi-brand ölçekleme, token ve tema disipliniyle sürdürülebilir olur",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok markalı yapılarda sürdürülebilir web altyapısı, her siteyi ayrı ayrı kopyalamaktan değil; ortak component kütüphanesi, design token hiyerarşisi ve marka bazlı tema varyantlarından gelir. Bu yaklaşım, yeni marka ekleme süresini kısaltır, UI tutarsızlıklarını azaltır ve bakım maliyetini daha yönetilebilir hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Otel grupları ve holding ekosistemlerinde design token sistemi yalnızca tasarım düzeni değil; Figma, kod, CMS, release ve governance süreçlerini birbirine bağlayan bir operasyon modelidir. Token’lar doğru seviyelendirilip versioning ile yönetildiğinde, tek kod tabanında farklı marka deneyimleri üretmek çok daha kontrollü ve ölçeklenebilir olur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Design Token & Multi-Brand Web Sistem Analizi Talep Et",
+            "text": "Token hiyerarşinizi ve tema varyantlarınızı çıkarıp tek kod tabanında sürdürülebilir multi-brand sistem tasarlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Design token nedir, kurumsal/multi-brand sitelerde nasıl kullanılır?",
+        "a": "Design token; renk, tipografi ve spacing gibi stil kararlarını kodda yönetilebilir değişkenlere çevirir. Multi-brand yapılarda token’lar tema varyantı olarak map edilir; aynı component library farklı markalara uyarlanır."
+      },
+      {
+        "q": "Birden fazla otel/marka için tek component kütüphanesi nasıl yönetilir?",
+        "a": "Component’leri tek kütüphanede tutup görünümü token setleriyle (theme) değiştirirsiniz. Böylece kod kopyalamadan marka varyantları yönetilir ve bakım maliyeti düşer."
+      },
+      {
+        "q": "Figma’daki token’ları koda nasıl aktarırım?",
+        "a": "Token’ları tek kaynaktan (JSON gibi) yönetip hem Figma hem kodda bu kaynaktan üretmek en sürdürülebilir yöntemdir. İsimlendirme birliği ve versiyonlama senkronun anahtarıdır."
+      },
+      {
+        "q": "CMS tarafında marka teması yönetimini nasıl kurgularım?",
+        "a": "CMS’te içerikleri brand alanıyla etiketleyip front-end’de doğru token setini seçebilirsiniz. Böylece aynı içerik modeli farklı marka temalarıyla tutarlı sunulur."
+      },
+      {
+        "q": "Token sistemi kurmak neden kopya tema kullanmaktan daha iyi?",
+        "a": "Kopya tema kısa vadede hızlıdır ama zamanla UI tutarsızlığı ve bakım maliyeti büyür. Token sistemi yeni marka ekleme süresini kısaltır ve değişiklikleri tek yerden yönetmenizi sağlar."
+      },
+      {
+        "q": "Token’lar SEO’yu etkiler mi?",
+        "a": "Doğrudan değil; ancak tutarlı UI ve daha az stil kaosu performansı (CWV) iyileştirebilir. Ayrıca multi-brand’de içerik/URL yönetimiyle birlikte ele alınmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-hero-01.webp — alt text: “Design token kapak görseli, otel gruplarında çok markalı tutarlı web sistemi”",
+          "h1-context — 1920×1080 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-h1-context-02.webp — alt text: “Tek kod tabanında tema varyantları bağlamı, holding ekosisteminde ölçeklenebilir UI”",
+          "divider-01 — 1600×1200 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-divider-03.webp — alt text: “Design token tanımı bölüm ayırıcı, otel ve holdinglerde tek stil kaynağı”",
+          "divider-02 — 1600×1200 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-divider-04.webp — alt text: “Multi-brand tema yaklaşımı bölüm ayırıcı, holding ekosisteminde hızlı marka ekleme”",
+          "diagram-05 — 1920×1080 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-diagram-05.webp — alt text: “Token hiyerarşisi diyagramı, core-semantic-component katmanlarıyla multi-brand tema yönetimi”",
+          "checklist-06 — 1200×1200 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-checklist-06.webp — alt text: “Multi-brand token checklist kartı, otel gruplarında tek stil kaynağıyla ölçekleme”",
+          "kpi-07 — 1200×1200 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-kpi-07.webp — alt text: “Yeni marka ekleme süresi KPI kartı, token tabanlı web sistemlerinde hız”",
+          "proof-08 — 1200×1200 — design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi-proof-08.webp — alt text: “Token seti ve tema varyantları deliverables kartı, holding ekosistemi yönetimi”",
+          "table-multi-brand-tema-varyanti-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Token hiyerarşisi core → semantic → component olarak ayrıldı",
+          "Token isimlendirme standardı belirlendi",
+          "İlk token seti küçük ve yönetilebilir tutuldu",
+          "Marka A/B/C için semantic mapping oluşturuldu",
+          "Component varyant sınırları belirlendi",
+          "Shared component library tek kaynak olarak planlandı",
+          "Figma ↔ kod token senkron süreci tanımlandı",
+          "CMS brand/theme mapping alanları planlandı",
+          "Token versioning ve changelog süreci oluşturuldu",
+          "Brand bazlı görsel regression test planı eklendi",
+          "Yeni marka ekleme süresi KPI olarak takip edilecek şekilde tanımlandı"
+        ]
+      }
+    }
   }
 }

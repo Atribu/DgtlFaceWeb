@@ -82424,8 +82424,1338 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
+
+"pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
     },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi",
+
+      "name": "PWA ve Offline Deneyim: Kurumsal ve Otel Web Siteleri İçin Progressive Web App Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Progressive Web Apps",
+
+        "Offline UX",
+
+        "Service Worker",
+
+        "Manifest",
+
+        "Add to Home Screen",
+
+        "Cache Strategy",
+
+        "Push Notifications"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#article",
+
+      "headline": "PWA ve Offline Deneyim: Kurumsal ve Otel Web Siteleri İçin Progressive Web App Stratejisi",
+
+      "description": "PWA ile offline/low-connectivity deneyimi kurun: manifest, service worker ve cache stratejisi. Otel/B2B için uygunluk checklist’i + Next.js uygulama notları.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#howto",
+
+      "name": "Kurumsal Sitede PWA ve Offline Deneyimi Kurma",
+
+      "description": "Uygunluk seçimi, manifest/service worker kurulumu ve cache stratejisiyle offline/low-connectivity deneyimi planlama adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "PWA uygunluğunu ve kapsamı belirle",
+
+          "text": "Tekrar ziyaret ve offline ihtiyaçlarına göre senaryoyu seç; MVP’de 3 kritik sayfayı offline/low-connectivity için tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Manifest ve service worker stratejisini kur",
+
+          "text": "Manifest ile install deneyimini tanımla; service worker ile cache-first/network-first/stale-while-revalidate stratejilerini sayfa/varlık bazında uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Offline ekranı ve bakım/test rutinini ekle",
+
+          "text": "Offline fallback ekranını 3 aksiyonla tasarla; Lighthouse/CWV testini release sürecine bağla ve cache invalidation planını yaz."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "PWA ve Offline Deneyim", "item": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "PWA nedir, klasik web sitesinden farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PWA; manifest ve service worker ile install edilebilir ve offline/low-connectivity koşullarında çalışabilir bir web deneyimidir. Klasik web sitesinde ağ yoksa deneyim düşebilir; PWA’da cache ve fallback ile süreklilik sağlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kurumsal ve otel siteleri için PWA mantıklıdır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sık ziyaret edilen ve zayıf bağlantıda bile kritik görevi sürdürecek sitelerde mantıklıdır. Otelde iletişim/konum/rezervasyon başlatma; B2B’de portal/dashboard senaryoları PWA’dan fayda görür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Next.js projelerinde PWA ve service worker nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Manifest ile install deneyimi tanımlanır; service worker ile cache stratejisi seçici uygulanır. Cache invalidation planı yapılmazsa kullanıcı eski içerikte kalabilir; bu yüzden release sürecine test eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Offline ve zayıf bağlantı deneyimini nasıl tasarlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Offline ekranı 3 aksiyonlu yönlendirme sunmalı (iletişim/yenile/yardım gibi). Zayıf bağlantıda görsel yükünü azaltıp metni önce göstermek kullanıcıyı elde tutar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak",
+
+      "name": "Çerez Yönetimi ve Consent UX: KVKK Uyumlu Web Deneyimi Tasarlamak",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Cookie Management",
+
+        "Consent UX",
+
+        "KVKK",
+
+        "Tag Manager",
+
+        "Consent Mode",
+
+        "Preference Center",
+
+        "Lawful Tracking"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#article",
+
+      "headline": "Çerez Yönetimi ve Consent UX: KVKK Uyumlu Web Deneyimi Tasarlamak",
+
+      "description": "KVKK uyumlu consent banner + preference center tasarlayın; zorunlu/opsiyonel çerezleri ayırın. GTM consent mode ile analytics/ads tag’lerini izinle tetikleyin.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#howto",
+
+      "name": "KVKK Uyumlu Consent UX Kurulumu",
+
+      "description": "Çerez kategorileri, banner/preference center tasarımı ve GTM üzerinden izinle tetiklenen analytics/ads ölçüm mimarisi adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Çerez kategorilerini ve metinleri belirle",
+
+          "text": "Zorunlu/opsiyonel ayrımını netleştir; banner metnini ve preference center açıklamalarını kategori bazında hazırla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "GTM consent-aware tetikleme planını kur",
+
+          "text": "Kategori→consent state mapping yap; analytics ve ads tag’lerini yalnız ilgili izin verildiyse tetikle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "QA senaryoları ile go-live güvence altına al",
+
+          "text": "Kabul/Reddet/Kısmi izin senaryolarında tag firing’i staging’de doğrula; tercih linkini kalıcı hale getir."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Çerez Yönetimi ve Consent UX", "item": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK uyumlu çerez banner’ı nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Banner’da net seçenekler sunun: Hepsini Kabul, Hepsini Reddet ve Ayarları Yönet. Tercihleri daha sonra değiştirmek için kalıcı bir tercih merkezi bağlantısı ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi çerezler zorunlu, hangileri için izin gerekir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genelde sitenin çalışması için gerekli çerezler zorunlu; analytics, reklam/remarketing ve kişiselleştirme amaçlı çerezler ise kullanıcı onayı gerektirir. Kategoriler gerçek işlevine göre ayrılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tag Manager ve consent mode’u web projemde nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kategori→consent state mapping yapıp GTM’de tag tetikleyicilerini bu state’e bağlarsınız. Kabul/reddet/kısmi izin senaryolarını staging’de test ederek go-live’a alırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çerez yönetimi ve consent UX nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çerezleri kategorize eden, kullanıcıya kontrol sunan ve tercihlere göre analytics/ads tag’lerini izinle tetikleyen izin deneyimidir. Amaç KVKK uyumu kadar güven ve ölçüm kalitesidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye",
+
+      "name": "Web Sitesi Yaşam Döngüsü ve Yol Haritası: V1’den Sürekli İyileştirmeye",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Website Lifecycle",
+
+        "Roadmap",
+
+        "Continuous Improvement",
+
+        "Post-Launch Optimisation",
+
+        "Maintenance",
+
+        "Refactoring",
+
+        "Sprint Planning"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye/#article",
+
+      "headline": "Web Sitesi Yaşam Döngüsü ve Yol Haritası: V1’den Sürekli İyileştirmeye",
+
+      "description": "Web sitenizi ürün gibi yönetin: V1→lansman→ölçüm→iyileştirme döngüsü kurun. Otel/B2B için 6/12 aylık roadmap, bakım+refactoring ve KPI sprint planı.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye/#howto",
+
+      "name": "Lansman Sonrası Web Sitesi Roadmap Kurulumu",
+
+      "description": "V1 hedef seti, stabilizasyon dönemi ve 6/12 aylık roadmap ile web sitesini ürün gibi yönetme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "V1 hedef seti ve KPI’ları belirle",
+
+          "text": "Kritik kullanıcı görevlerini seç; 3–5 KPI ile başarı tanımı yap ve ölçüm planını kur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İlk 90 gün stabilizasyon backlog’unu çıkar",
+
+          "text": "Hata düzeltme, CWV iyileştirmeleri, ölçüm doğrulama ve güvenlik/uyum işlerini sprint planına yerleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "6/12 aylık roadmap’i lane’lere ayır ve ritim koy",
+
+          "text": "Growth/UX/Tech/Compliance lane’leriyle 12 aylık plan çıkar; 2 haftalık sprint ve aylık roadmap review ritmini işlet."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmaye/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Web Sitesi Yaşam Döngüsü", "item": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmaye/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web sitesi yaşam döngüsü nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Planlama→geliştirme→lansman→ölçüm→iyileştirme adımlarının tekrar eden döngüsüdür. Siteyi ürün gibi yönetmeyi sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal/otel sitesi için 6–12 aylık roadmap nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "North Star hedef ve KPI setini belirleyip backlog’u growth/UX/tech/compliance lane’lerine ayırın. İlk 3 ayı stabilizasyon, 6–12 ayı ölçekleme olarak planlayın ve aylık review ile güncelleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lansman sonrası hangi sıklıkla iyileştirme yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genel pratik 2 haftalık sprint ritmi ve aylık roadmap review’dur. Otelde sezon yoğunluğu, B2B’de kampanya ve içerik takvimi ritmi etkileyebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım, refactoring ve yeni özellik dengesini nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her sprintte küçük bir bakım/refactor slotu ayırın ve büyük refactor işleri için periyodik bakım sprint’leri planlayın. Yeni özellikleri KPI etkisine göre seçin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmaye/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler",
+
+      "name": "Jamstack ve Edge Rendering: Kurumsal Web Siteleri İçin Yeni Mimari Trendler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Modern Web Architecture",
+
+        "Jamstack",
+
+        "Edge Rendering",
+
+        "CDN-First Delivery",
+
+        "Headless API",
+
+        "Next.js",
+
+        "Caching Strategy"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#article",
+
+      "headline": "Jamstack ve Edge Rendering: Kurumsal Web Siteleri İçin Yeni Mimari Trendler",
+
+      "description": "Jamstack ve edge rendering ile CDN-first hız ve güvenlik kazanın. Otel/B2B’de ne zaman mantıklı? Next.js edge, cache stratejisi, karar checklist’i ve SEO notları.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Kurumsal Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#howto",
+
+      "name": "Jamstack ve Edge Rendering Uygunluk Değerlendirmesi",
+
+      "description": "Sayfa tipleri, içerik güncelleme SLA ve dinamik ihtiyaçlara göre Jamstack/edge mimarisini seçme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sayfa tiplerini sınıflandır",
+
+          "text": "Sayfaları statik, yarı-dinamik ve tam dinamik olarak ayır; global trafik ve güncelleme sıklığını belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Cache ve edge stratejisini tasarla",
+
+          "text": "Cache-first/network-first/stale-while-revalidate yaklaşımlarını sayfa tipine göre seç; invalidation ve revalidation planı yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "SEO ve güvenlik QA kapısını ekle",
+
+          "text": "robots/sitemap/canonical/schema/CWV kontrollerini release öncesi QA gate’e bağla; edge/API güvenliğini hardening planına dahil et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Jamstack ve Edge Rendering", "item": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Jamstack nedir, klasik kurumsal site mimarisinden farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Jamstack, sayfaları build-time’da üretip CDN/edge üzerinden servis etmeye dayanır; dinamik ihtiyaçları API’larla çözer. Klasik mimaride sayfalar genelde sunucuda üretilir; Jamstack/edge hız ve güvenlik avantajı sağlayabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Edge rendering kurumsal web siteleri için ne fayda sağlar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Global kullanıcılar için latency/TTFB iyileştirebilir ve deneyimi hızlandırır. Doğru cache ve izleme olmadan kullanılırsa bayat içerik ve operasyon karmaşası yaratabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B sitelerinde Jamstack/edge ne zaman mantıklı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Global trafik varsa ve içerik ağırlıklı sayfalar (destinasyon/blog/kaynaklar) fazlaysa mantıklıdır. Rezervasyon/portal gibi yoğun dinamik katmanlar genelde ayrı yönetilir; hibrit yaklaşım en güvenlisidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Next.js ile edge rendering nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sayfa tipine göre edge/SSR/SSG seçilir; cache stratejisi ve revalidation planı yazılır. Release sürecine SEO QA (canonical/sitemap/schema) ve CWV kontrolü eklenir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi",
+
+      "name": "Design Token ve Multi-Brand Dijital Ekosistemler İçin Web Altyapısı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Design Tokens",
+
+        "Multi-Brand Systems",
+
+        "Shared Components",
+
+        "Theme Variants",
+
+        "Figma Tokens",
+
+        "CMS Theming"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#article",
+
+      "headline": "Design Token ve Multi-Brand Dijital Ekosistemler İçin Web Altyapısı",
+
+      "description": "Design token’larla renk/tipografi/spacing’i tek merkezden yönetin. Otel grupları/holdingler için tek kod tabanı + tema varyantları, Figma senkronu ve CMS tema kurgusu.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#howto",
+
+      "name": "Multi-Brand Design Token Sistemi Kurma",
+
+      "description": "Token hiyerarşisi, tema varyantları ve Figma/CMS entegrasyonu ile tek kod tabanında çok markalı web sistemi kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Token hiyerarşisini tanımla",
+
+          "text": "Core, semantic ve component token katmanlarını oluştur; isimlendirme standardını kilitle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tema varyantlarını ve shared component’leri kur",
+
+          "text": "Tek component kütüphanesi üzerinden Brand A/B/C semantic mapping’i oluştur; varyantları sınırlı tut."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Figma↔kod senkronu ve CMS theme mapping’i işlet",
+
+          "text": "Token senkron sürecini versiyonla; CMS’te brand alanı ile tema seçimini kurgula ve değişiklikleri changelog ile yönet."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Design Token ve Multi-Brand", "item": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Design token nedir, kurumsal/multi-brand sitelerde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Design token; renk, tipografi ve spacing gibi stil kararlarını kodda yönetilebilir değişkenlere çevirir. Multi-brand yapılarda token’lar tema varyantı olarak map edilir; aynı component library farklı markalara uyarlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Birden fazla otel/marka için tek component kütüphanesi nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Component’leri tek kütüphanede tutup görünümü token setleriyle (theme) değiştirirsiniz. Böylece kod kopyalamadan marka varyantları yönetilir ve bakım maliyeti düşer."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Figma’daki token’ları koda nasıl aktarırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Token’ları tek kaynaktan (JSON gibi) yönetip hem Figma hem kodda bu kaynaktan üretmek en sürdürülebilir yöntemdir. İsimlendirme birliği ve versiyonlama senkronun anahtarıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS tarafında marka teması yönetimini nasıl kurgularım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS’te içerikleri brand alanıyla etiketleyip front-end’de doğru token setini seçebilirsiniz. Böylece aynı içerik modeli farklı marka temalarıyla tutarlı sunulur."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+}
+
+
+},
 
     creative: {
       "marka-sosyal-medya-gorsel-dili-rehberi": {
