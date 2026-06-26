@@ -2663,7 +2663,7 @@
     },
     "h1": {
       "title": "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
-      "intro": "Çok dilli sosyal medya yönetimi, çoğu ekipte yanlış yerden başlar: “Türkçe metni yazalım, sonra çevirelim.” Sonuç genelde şudur: İngilizce “fazla düz”, Almanca “fazla resmi”, Rusça “fazla kısa” ya da “fazla sert” görünür; CTA çalışmaz; yorum dili uyumsuz kalır. Çünkü problem çeviri kalitesinden çok, mesajın pazara göre yeniden kurgulanmamasıdır.\n\nBu rehberde; TR–EN–DE–RU için çok dilli içerik üretimini lokalizasyon modeli ile ele alacağız: hangi içerikler hangi dillere çevrilmeli, copy–paste çeviri yerine nasıl uyarlanmalı, aynı tasarım mı ayrı tasarım mı, caption/hashtag/emoji kullanımında kültürel farklar ve ekip–onay–takvim organizasyonu nasıl kurulmalı?",
+      "intro": "Çok dilli sosyal medya yönetimi, çoğu ekipte yanlış yerden başlar: “Türkçe metni yazalım, sonra çevirelim.” Sonuç genelde şudur: İngilizce “fazla düz”, Almanca “fazla resmi”, Rusça “fazla kısa” ya da “fazla sert” görünür; CTA çalışmaz; yorum dili uyumsuz kalır. Çünkü problem çeviri kalitesinden çok, mesajın pazara göre yeniden kurgulanmamasıdır.\n\nBu rehberde; TR–EN–DE–RU için [çok dilli sosyal medya içeriği](/tr/smm/icerik-uretimi) üretimini lokalizasyon modeli ile ele alacağız: hangi içerikler hangi dillere çevrilmeli, copy–paste çeviri yerine nasıl uyarlanmalı, aynı tasarım mı ayrı tasarım mı, caption/hashtag/emoji kullanımında kültürel farklar ve ekip–onay–takvim organizasyonu nasıl kurulmalı?",
       "quickSummary": [
         "1) Tek master içeriği tanımla",
         "2) Her dil için persona + CTA niyetini seç",
@@ -2691,8 +2691,24 @@
     },
     "internalLinks": [
       {
-        "label": "İçerik Üretimi (Hub)",
+        "label": "İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "label": "Social SEO Caption ve Hashtag",
+        "href": "/tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler"
+      },
+      {
+        "label": "Broadcast Kanalları ve Topluluk Akışı",
+        "href": "/tr/smm/blog/broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi"
       },
       {
         "label": "Otel SEO",
@@ -2700,21 +2716,33 @@
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "4 Dilli Çağrı Merkezi",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      {
+        "label": "SEO İçerik",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi: Süreç, Takvim ve Operasyon",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
       },
       {
-        "title": "Otel SEO: Çok Dilli Görünürlük Mantığı",
-        "href": "/tr/otel/seo"
+        "title": "Sosyal Arama ve Social SEO: Caption, Hashtag ve Metinde Anahtar Kelimeler",
+        "href": "/tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler"
       },
       {
-        "title": "Otel Dijital Pazarlama: Çatı Yaklaşım",
-        "href": "/tr/otel"
+        "title": "Broadcast Kanalları ve Topluluk Odaklı İçerik Yayın Akışı",
+        "href": "/tr/smm/blog/broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi"
       }
     ],
     "sections": [
@@ -2737,6 +2765,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Tek bir “master içerik” omurgası oluşturun; sonra her dil için persona/pazar farkına göre mesaj, ton, CTA, örnek ve hashtag katmanını yeniden yazın. Böylece marka tutarlılığı korunur ama içerik her pazarda “yerel” gibi görünür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde çok dilli içerik üretimi](/tr/sosyal-medya-yonetimi), yalnız çeviri akışı değil; hedef kitle, kültürel ton, yayın ritmi ve topluluk davranışını birlikte yöneten bir operasyon modeli olarak ele alınmalıdır."
           },
           {
             "type": "callout",
@@ -2811,6 +2843,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Hangi içeriğin hangi dile taşınacağını belirlerken tema iskeletini sıfırdan kurmak gerekmez; önemli olan [çok dilli content pillar yapısı](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) koruyup örnek, vurgu ve CTA'yı pazara göre esnetmektir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? ",
@@ -2866,6 +2902,10 @@
               "B2B’de emoji minimum; otelde kontrollü.",
               "Her dilde aynı emoji seti “yapay” durabilir. (Varsayım)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Keşfedilebilirlik katmanı da lokalize edilmelidir; [dil bazlı social SEO ve hashtag kullanımı](/tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler) her pazarda aynı caption kelimelerinin ve aynı hashtag setinin kopyalanmaması gerektiğini gösterir."
           },
           {
             "type": "media",
@@ -3001,6 +3041,10 @@
             "text": "Varsayım: Çok dilde en sağlıklı yöntem; her dil varyantını ayrı satırda planlamak ve “Master Content ID” ile bağlamaktır."
           },
           {
+            "type": "p",
+            "text": "Takvim sadece üretim planı değil, aynı zamanda dil bazlı segmentasyon haritasıdır. Özellikle TR, EN, DE ve RU için [çok dilli topluluk yayın akışı](/tr/smm/blog/broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi) kurulduğunda broadcast mesajları, duyurular ve topluluk tonları tek içerik kopyasına sıkışmadan ayrışır."
+          },
+          {
             "type": "h3",
             "text": "Onay süreci (dil bazlı SLA)"
           },
@@ -3016,6 +3060,10 @@
           {
             "type": "media",
             "slot": "flow-tr-to-multilang"
+          },
+          {
+            "type": "p",
+            "text": "İçerikte verdiğiniz dil vaadinin DM, WhatsApp ve lead karşılama tarafında boşa düşmemesi için [4 dilli müşteri iletişimi](/tr/cagri-merkezi/4-dilli-cagri-merkezi) yapısı ile sosyal medya mesajlarının aynı ton, aynı bilgi ve aynı SLA üzerinde buluşması gerekir."
           },
           {
             "type": "h3",
@@ -3038,7 +3086,15 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu blogdaki dil örnekleri; web tarafındaki TR–EN–DE–RU stratejisiyle aynı masada olmalı. İç link hedefleri:\n• /tr/otel/seo (çok dilli görünürlük mantığı)\n• /tr/seo/icerik-seo (içerik standardı)\n• /tr/otel-dijital-pazarlama (turizm pazarlama çerçevesi)"
+            "text": "Otel markalarında çok pazarlı görünürlüğü büyütmek için [otel markaları için çok dilli SEO ve sosyal medya uyumu](/tr/otel/seo) önemlidir; çünkü sosyal içeriklerde öne çıkan destinasyon, konsept ve soru kalıpları çoğu zaman organik arama niyetini de besler."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle rezervasyon dönemi, hedef pazar ve sezon mesajı planlanırken [TR, EN, DE ve RU sosyal medya lokalizasyonu](/tr/otel-dijital-pazarlama) kampanya dili, teklif yapısı ve pazar önceliğiyle birlikte okunmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı tema haritasını blog, landing page ve caption katmanında korumak için [SEO içerik stratejisiyle uyumlu çok dilli sosyal medya içerikleri](/tr/seo/icerik-seo) üretmek gerekir; böylece sosyal medya lokalizasyonu web içerik mimarisinden kopuk ilerlemez."
           },
           {
             "type": "callout",
@@ -3059,6 +3115,10 @@
           {
             "type": "p",
             "text": "TR–EN–DE–RU sosyal medya yönetimi; çeviri değil, lokalizasyon operasyonudur. Tek master içeriği koruyup her dilde persona/pazar farkına göre mesaj, ton, CTA ve hashtag’i yeniden kurguladığınızda; içerik hem tutarlı hem de “yerel” görünür. Bu yaklaşım, çok pazarlı otel grupları ve B2B markalarda etkileşimi ve geri dönüşü yükseltirken; ekip içi revizyon maliyetini düşürür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı markanıza göre standardize etmek isterseniz [4 dilli sosyal medya stratejisi](/tr/smm/icerik-uretimi) desteğiyle dil bazlı içerik sistemi, onay akışı ve yayın planını birlikte kurabilirsiniz. Sürecin kapsamı için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası da karar aşamasında yardımcı olur."
           },
           {
             "type": "cta",
@@ -15692,7 +15752,7 @@
     },
     "h1": {
       "title": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
-      "intro": "Caption’ı “görselin altındaki açıklama” diye düşünürseniz, sosyal medya performansının yarısını kaçırırsınız. Çünkü kullanıcı çoğu zaman önce videonun/karusel’in ilk hissini alır, sonra caption’ın ilk satırına bakıp karar verir: “Devam edeyim mi, DM atayım mı, linke tıklayayım mı?” İyi caption; görseli yalnız bırakmaz, mesajı netleştirir ve kullanıcıyı tek bir aksiyona yönlendirir.\n\nBu rehberde; hook (ilk satır), marka tonu (brand voice) ve CTA üçlüsünü otel ve B2B örnekleriyle formüle edeceğiz. Post, reels ve story için ayrı caption iskeletleri, emoji/hashtag yerleşimi, “iyi-kötü” karşılaştırmaları ve test planı ile yazma pratiğini sistem haline getireceğiz.",
+      "intro": "Caption’ı “görselin altındaki açıklama” diye düşünürseniz, sosyal medya performansının yarısını kaçırırsınız. Çünkü kullanıcı çoğu zaman önce videonun/karusel’in ilk hissini alır, sonra caption’ın ilk satırına bakıp karar verir: “Devam edeyim mi, DM atayım mı, linke tıklayayım mı?” İyi caption; görseli yalnız bırakmaz, mesajı netleştirir ve kullanıcıyı tek bir aksiyona yönlendirir.\n\nBu rehberde; [sosyal medya caption yazımı](/tr/smm/icerik-uretimi) açısından hook (ilk satır), marka tonu (brand voice) ve CTA üçlüsünü otel ve B2B örnekleriyle formüle edeceğiz. Post, reels ve story için ayrı caption iskeletleri, emoji/hashtag yerleşimi, “iyi-kötü” karşılaştırmaları ve test planı ile yazma pratiğini sistem haline getireceğiz.",
       "quickSummary": [
         "1) İlk satırda net bir hook ile dikkati yakala",
         "2) Marka tonunu kelime seçimi ve ritimle koru",
@@ -15703,43 +15763,71 @@
       "ctaPrimary": {
         "label": "Caption & Metin Yazımı Analizi Talep Et",
         "text": "Otel, ajans ve B2B hesaplarında caption’ları performansa göre standardize etmek isteyen ekipler için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Caption & Metin Yazımı Analizi Talep Et",
         "text": "Otel, ajans ve B2B hesaplarında hook–ton–CTA formülünü performansa göre standardize etmek isteyen ekipler için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "Caption Hook + CTA Kalıp Şablonunu İndir",
         "text": "Ekibiniz 30 dakikada 20 caption kalıbı çıkarır; DM ve tıklama odaklı yazmayı hızlandırır.",
-        "href": "/smm/planlama-strateji"
+        "href": "/downloads/caption-hook-cta-kalip-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "İçerik üretimi hizmet sayfası",
-        "href": "/smm/icerik-uretimi"
+        "label": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "SMM planlama ve strateji",
-        "href": "/smm/planlama-strateji"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "label": "Carousel Postlar",
+        "href": "/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      },
+      {
+        "label": "DM ve Yorum Yanıt Şablonları",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      },
+      {
+        "label": "SMM Planlama & Strateji",
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
       },
       {
-        "title": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "title": "Carousel Postlar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+        "href": "/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      },
+      {
+        "title": "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçeriğinin Görünmeyen Yüzü",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
       }
     ],
     "sections": [
@@ -15762,6 +15850,14 @@
           {
             "type": "p",
             "text": "Hook; ilk satırda kullanıcıya tek bir sebep verir: “Bunu okumaya/izlemeye değer.” En hızlı çalışan kalıplar: fayda + süre, itirazı kırma, mini söz, kontrast (yanlış/doğru) ve kanıt (sonuç/örnek)."
+          },
+          {
+            "type": "p",
+            "text": "Bu katman, [sosyal medya yönetimi içinde caption ve CTA kullanımı](/tr/sosyal-medya-yonetimi) bağlamında düşünülmelidir; çünkü caption sadece metin değil, etkileşim, tıklama ve mesaj trafiği üreten stratejik bir temas noktasıdır."
+          },
+          {
+            "type": "p",
+            "text": "İlk cümleyi yazarken [Instagram hook örnekleri](/tr/smm/planlama-strateji) ezberlemekten çok, hedef kitlenin hangi kararı vereceğini, kampanya mesajını ve marka vaadini netleştirmek gerekir."
           },
           {
             "type": "h3",
@@ -15820,6 +15916,10 @@
           {
             "type": "p",
             "text": "Burada kritik nokta: ton “yaratıcı yazarlık” değil, tutarlılık işidir. 30 içerikte 6 farklı “ses” kullanırsanız algoritma değil, insan kaybolur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden eğitici, satış odaklı, güven artırıcı ya da topluluk temelli postlarda [içerik kategorisine göre caption dili](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) değişmelidir; aynı ton iskeleti korunur ama vurgu ve CTA içeriğin amacına göre ayarlanır."
           },
           {
             "type": "h3",
@@ -15919,6 +16019,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle eğitici serilerde [carousel post caption yapısı](/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek), ilk slayttaki hook ile açıklama metnini aynı değer vaadinde birleştirip kaydetme ve paylaşma CTA'sını daha doğal hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Emoji ve hashtag yerleşimi (kural seti)"
           },
@@ -15929,6 +16033,10 @@
               "Emoji: hook’ta değil, gövdede “vurguda” kullan (abartma).",
               "Hashtag: en alta; 3–8 arası (Varsayım), dil/segment uyumlu."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Caption metinlerini yalnız platform içi akış için değil, [SEO içerik stratejisiyle uyumlu caption metinleri](/tr/seo/icerik-seo) mantığıyla tema, anahtar kelime ve arama niyeti taşıyan bir uzantı olarak düşünmek keşfedilebilirliği güçlendirir."
           },
           {
             "type": "h3",
@@ -15974,6 +16082,14 @@
           {
             "type": "p",
             "text": "İyi CTA, tek aksiyon + tek fayda taşır. “Ne yapayım?” sorusunu netleştirir ve “neden?” sorusuna 3–5 kelimelik fayda ekler: “DM at — hızlı seçenek al” gibi."
+          },
+          {
+            "type": "p",
+            "text": "CTA yorum ve DM üretmeye başladığında [DM ve yorum yanıt akışı](/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu) önceden hazırlanmalıdır; aksi halde iyi yazılmış caption, devamı gelmeyen bir etkileşim yüküne dönüşebilir."
+          },
+          {
+            "type": "p",
+            "text": "Daha yoğun akışlarda [CTA sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi), DM, WhatsApp, yorum ve lead trafiğini tek standarda bağlayarak CTA'nın ürettiği talebin operasyonel tarafta kaybolmasını engeller."
           },
           {
             "type": "h3",
@@ -16289,18 +16405,22 @@
             "text": "Sosyal medya caption performansı; güzel cümlelerden çok doğru yapıdan gelir. İlk satırdaki hook, gövdedeki tek mesaj ve sondaki net CTA birlikte çalıştığında kullanıcı neyi neden yapacağını anlar. Otel ve B2B hesaplarında bunu kütüphane, ton rehberi ve test planı ile standardize etmek; hem üretim hızını hem de DM/tıklama kalitesini artırır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı markanız için standardize etmek isterseniz [sosyal medya için CTA cümleleri ve içerik metinleri](/tr/smm/icerik-uretimi) desteğiyle caption sisteminizi kurabilir, süreç detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Caption & Metin Yazımı Analizi Talep Et",
             "text": "Otel, ajans ve B2B hesaplarında hook–ton–CTA formülünü performansa göre standardize etmek isteyen ekipler için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Caption Hook + CTA Kalıp Şablonunu İndir",
             "text": "Ekibiniz 30 dakikada 20 caption kalıbı çıkarır; DM ve tıklama odaklı yazmayı hızlandırır.",
-            "href": "/smm/planlama-strateji"
+            "href": "/downloads/caption-hook-cta-kalip-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -16417,7 +16537,7 @@
     },
     "h1": {
       "title": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
-      "intro": "Reels’te en pahalı şey kamera değil; ilk 3 saniyede kaybedilen izleyicidir. Kullanıcı ekranı kaydırırken beyninde tek soru vardır: “Bu benim için mi?” Eğer cevap ilk karede netleşmezse video ne kadar iyi olursa olsun izlenmez. Bu yüzden kısa videoda başarı; “trend ses”ten önce hook tasarımı ve senaryo disiplini ile gelir.\n\nBu rehberde; ilk 3 saniyenin neden kritik olduğunu, hook türlerini (soru/şok/fayda/önce-sonra), otel ve B2B için 6–8 sahneli senaryo iskeletlerini, altyazı–müzik–tempo uyumunu ve son karede CTA kullanımını adım adım kuracağız.",
+      "intro": "Reels’te en pahalı şey kamera değil; ilk 3 saniyede kaybedilen izleyicidir. Kullanıcı ekranı kaydırırken beyninde tek soru vardır: “Bu benim için mi?” Eğer cevap ilk karede netleşmezse video ne kadar iyi olursa olsun izlenmez. Bu yüzden kısa videoda başarı; “trend ses”ten önce [reels ilk 3 saniye hook](/tr/smm/icerik-uretimi) tasarımı ve senaryo disiplini ile gelir.\n\nBu rehberde; ilk 3 saniyenin neden kritik olduğunu, hook türlerini (soru/şok/fayda/önce-sonra), otel ve B2B için 6–8 sahneli senaryo iskeletlerini, altyazı–müzik–tempo uyumunu ve son karede CTA kullanımını adım adım kuracağız.",
       "quickSummary": [
         "1) İlk 3 saniyeyi ayrı bir mikro senaryo gibi yaz",
         "2) Hook türünü hedef KPI’a göre seç",
@@ -16440,31 +16560,59 @@
       "secondary": {
         "label": "Reels Senaryo & İlk 3 Saniye Planlama Şablonunu İndir",
         "text": "Her videoda 6–8 sahnelik akışı 15 dakikada çıkarır; hook ve CTA’yı tek senaryoda hizalarsınız.",
-        "href": "/tr/smm/reels-video"
+        "href": "/downloads/reels-senaryo-ilk-3-saniye-planlama-v1.0.pdf"
       }
     },
     "internalLinks": [
-      {
-        "label": "Reels video sayfası",
-        "href": "/tr/smm/reels-video"
-      },
       {
         "label": "İçerik üretimi sayfası",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Caption yazımı rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      },
+      {
+        "label": "Çekim günü optimizasyonu rehberi",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+      },
+      {
+        "label": "Cross-platform kısa dikey video rehberi",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
+      },
+      {
+        "label": "Reels ve video hizmet sayfası",
+        "href": "/tr/smm/reels-video"
+      },
+      {
         "label": "Video prodüksiyon sayfası",
         "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Otel sosyal medya sayfası",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM içerik üretimi SSS sayfası",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels Video",
-        "href": "/tr/smm/reels-video"
+        "title": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
       },
       {
-        "title": "Video Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Çekim Günü Optimizasyonu: 1 Çekimde 1 Aylık Sosyal Medya İçeriği",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+      },
+      {
+        "title": "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts, TikTok",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
       }
     ],
     "sections": [
@@ -16478,6 +16626,10 @@
           },
           {
             "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde kısa video stratejisi](/tr/sosyal-medya-yonetimi), yalnızca çekim anını değil; senaryo, yayın ritmi, caption, CTA ve performans takibini birlikte düşünmek zorundadır."
+          },
+          {
+            "type": "p",
             "text": "Buradaki kritik hata: önce logo animasyonu, sonra uzun intro, sonra konuya giriş. Kısa videoda intro yoktur; konu doğrudan başlar. Logo ve marka unsuru ya ilk karede minimal bir etiketle, ya da son ekranda yer alır."
           },
           {
@@ -16487,6 +16639,10 @@
           {
             "type": "p",
             "text": "İlk 3 saniyede tek bir şey gösterin: izleyicinin kazanacağı fayda veya merak. En güvenli seçenekler: önce/sonra, net vaat (X saniyede şunu gösteriyoruz), kanıt veya problem cümlesi + çözüm vaadi."
+          },
+          {
+            "type": "p",
+            "text": "Bu açılış mantığını hizmet seviyesinde sistemleştirmek gerektiğinde [reels ve kısa video hook stratejisi](/tr/smm/reels-video), izlenme süresi, tekrar izleme ve kaydetme hedeflerini tek video üretim akışına bağlar."
           },
           {
             "type": "h3",
@@ -16549,6 +16705,10 @@
           {
             "type": "p",
             "text": "Hook, metin ve sahnenin birlikte verdiği vaattir. Aynı cümle; yanlış sahneyle zayıf, doğru sahneyle güçlü olur. Bu yüzden her hook türü için “cümle + ilk sahne” ikilisini tasarlayın."
+          },
+          {
+            "type": "p",
+            "text": "Video açılışındaki görsel vurgu ile caption’ın ilk cümlesi aynı şeyi söylemediğinde etki zayıflar; bu yüzden [video hook’u ve caption uyumu](/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi) ayrı bir copy standardı olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -16659,6 +16819,10 @@
             "text": "Otel reels senaryosu; hızlı mini tur + 1 pratik bilgi + tek CTA üçlüsüyle yazılır. Oda/deneyim/destinasyon içerikleri için 6–8 sahneli iskelet kurup, her videoda sadece temayı değiştirin."
           },
           {
+            "type": "p",
+            "text": "Bu akışı ekip içinde tekrar edilebilir hale getirmek için [kısa video senaryo örnekleri](/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi), shot list ve çekim brief’i ile birlikte hazırlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryo iskeleti (6–8 sahne)"
           },
@@ -16677,6 +16841,10 @@
           {
             "type": "p",
             "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum örnekleri “rota/deneyim” bağlamında 1–2 yerde geçebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım özellikle [otel reels içerik fikirleri](/tr/otel/sosyal-medya) üretirken oda turu, kahvaltı, spa, etkinlik ve destinasyon temalarını aynı içerik sistemine bağlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -16715,11 +16883,15 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Aynı temel fikri farklı platformlarda dağıtacaksanız [Reels, Shorts ve TikTok video stratejisi](/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok), açılış sahnesi, süre, altyazı yoğunluğu ve CTA farklarını netleştirir."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Reels Senaryo & İlk 3 Saniye Planlama Şablonunu İndir",
             "text": "Her videoda 6–8 sahnelik akışı 15 dakikada çıkarır; hook ve CTA’yı tek senaryoda hizalarsınız.",
-            "href": "/tr/smm/reels-video"
+            "href": "/downloads/reels-senaryo-ilk-3-saniye-planlama-v1.0.pdf"
           }
         ]
       },
@@ -16758,6 +16930,10 @@
               "“Boş sahne” yok",
               "En güçlü sahne ilk 3 saniyede"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Hook’un ilk saniyede gerçekten dikkat çekmesi için kadraj, ışık, ses temizliği ve kurgu ritmi de güçlü olmalıdır; bu noktada [kısa video prodüksiyon kalitesi](/tr/creative/video-produksiyon), yaratıcı fikri teknik olarak taşıyan katmandır."
           },
           {
             "type": "callout",
@@ -16926,6 +17102,10 @@
             "text": "Otel ve B2B’de içerik konuları farklı olsa da sistem aynıdır: güçlü bir vaat, 6–8 sahneli net akış, okunabilir altyazı ve tek CTA. Bu standardı kurduğunuzda üretim kolaylaşır, test ritmi hızlanır ve izlenme/kaydetme/DM performansı daha yönetilebilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı ekip içinde sürdürülebilir hale getirmek için [profesyonel sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteği ile senaryo, video akışı ve hook standardını birlikte kurabilir; uygulama detayları için de [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasından kapsamı inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Hook & Senaryo Analizi Talep Et",
@@ -16981,7 +17161,7 @@
           "Canonical: /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi",
           "Primary CTA 2 kez yerleştirildi (H1 giriş sonu + son 1/3)",
           "Secondary CTA 1 kez yerleştirildi ve download asset ile eşlendi",
-          "Internal link hedefleri işlendi: /tr/smm/reels-video, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon",
+          "Internal link hedefleri işlendi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi, /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi, /tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok, /tr/smm/reels-video, /tr/creative/video-produksiyon, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
           "Hook türleri özeti tablo bloğu eklendi",
           "Media pack V2.3 standardına göre 8 görsel tanımlandı",
           "JSON key sırası ve sections mantığı korundu"
@@ -17038,7 +17218,7 @@
     },
     "h1": {
       "title": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
-      "intro": "Otel ve hizmet markalarında sosyal medya akışı çoğu zaman aynı döngüye girer: kampanya duyurusu, bir iki profesyonel çekim, sonra “bugün ne paylaşsak?” stresi. Bu noktada UGC (User Generated Content) doğru kullanılırsa, içerik üretimi yalnızca markanın anlattığı bir hikâye olmaktan çıkar; misafirlerin ve müşterilerin katıldığı bir topluluk hikâyesine dönüşür. Sonuç sadece “akış doldu” değildir; güven, sosyal kanıt ve daha hızlı karar süreci de gelir.\n\nBu rehberde UGC’nin ne olduğunu, misafir içeriklerini nasıl toplayacağınızı, etiket/hashtag stratejisini, izin–onay–KVKK çerçevesini ve UGC’yi feed–story içinde marka görsel diline uyarlayarak nasıl konumlandıracağınızı adım adım ele alacağız.",
+      "intro": "Otel ve hizmet markalarında sosyal medya akışı çoğu zaman aynı döngüye girer: kampanya duyurusu, bir iki profesyonel çekim, sonra “bugün ne paylaşsak?” stresi. Bu noktada UGC (User Generated Content) doğru kullanılırsa, içerik üretimi yalnızca markanın anlattığı bir hikâye olmaktan çıkar; misafirlerin ve müşterilerin katıldığı bir topluluk hikâyesine dönüşür. Sonuç sadece “akış doldu” değildir; güven, sosyal kanıt ve daha hızlı karar süreci de gelir.\n\nBu rehberde [UGC nedir sosyal medya](/tr/smm/icerik-uretimi) sorusundan başlayarak misafir içeriklerini nasıl toplayacağınızı, etiket/hashtag stratejisini, izin–onay–KVKK çerçevesini ve UGC’yi feed–story içinde marka görsel diline uyarlayarak nasıl konumlandıracağınızı adım adım ele alacağız.",
       "quickSummary": [
         "1) UGC’yi rastgele repost değil, program olarak düşün",
         "2) Misafir içeriği için doğru temas noktalarında tetik kur",
@@ -17061,7 +17241,7 @@
       "secondary": {
         "label": "UGC Toplama & Yeniden Kullanım Akış Şablonunu İndir",
         "text": "UGC’yi toplama-izinleme-yayınlama adımlarına böler; ekibiniz 1 günde sürdürülebilir akış kurar.",
-        "href": "/tr/smm/icerik-uretimi"
+        "href": "/downloads/ugc-toplama-yeniden-kullanim-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -17070,22 +17250,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "İçerik SEO sayfası",
-        "href": "/tr/seo/icerik-seo"
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal kanıt içerikleri rehberi",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      },
+      {
+        "label": "Story engagement rehberi",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      },
+      {
+        "label": "Otel 20 içerik modeli rehberi",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli"
       },
       {
         "label": "Yerel SEO sayfası",
         "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "Otel dijital pazarlama sayfası",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Mesaj yönetimi sayfası",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "SMM içerik üretimi SSS sayfası",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Postlar",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
       },
       {
-        "title": "İçerik SEO",
-        "href": "/tr/seo/icerik-seo"
+        "title": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Stickerları ile Engagement",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      },
+      {
+        "title": "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli"
       }
     ],
     "sections": [
@@ -17107,6 +17315,10 @@
           },
           {
             "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde UGC kullanımı](/tr/sosyal-medya-yonetimi), sadece repost yapılacak içerik aramak değil; güven, topluluk ve sürdürülebilir içerik akışını birlikte yönetmek anlamına gelir."
+          },
+          {
+            "type": "p",
             "text": "Otel tarafında UGC; oda deneyimi, manzara, kahvaltı, spa, etkinlik, destinasyon anları gibi alanlarda doğal olarak oluşur. B2B’de ise UGC çoğunlukla “müşteri yorumu”, “ekip paylaşımı”, “etkinlik fotoğrafı”, “case study’den alıntı” gibi biçimlerde gelir."
           },
           {
@@ -17116,6 +17328,10 @@
           {
             "type": "p",
             "text": "UGC, kullanıcıların sizin hakkınızda ürettiği içeriktir; sosyal medyada önemlidir çünkü güven ve sosyal kanıt üretir. Doğru izinle kullanıldığında, kullanıcıların karar vermesini hızlandırır ve markanın “tek taraflı anlatım” algısını azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Misafir deneyimlerini planlı güven katmanına çevirmek için [UGC ile sosyal kanıt içerikleri](/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar), review, testimonial ve case formatlarıyla daha sistematik bir yayın akışı kurmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -17199,6 +17415,14 @@
             "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda “lokasyon etiketi” UGC’yi artıran pratiklerden biridir (spam değil, örnek)."
           },
           {
+            "type": "p",
+            "text": "Özellikle konaklama markalarında [otel için UGC içerik örnekleri](/tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli), oda, kahvaltı, spa, etkinlik ve destinasyon deneyimlerini aylık plana dağılmış uygulanabilir içerik modellerine dönüştürür."
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon niyeti taşıyan bu deneyim paylaşımları, doğru sezonda ve doğru pazarda kurgulandığında [otel dijital pazarlamada misafir içeriği](/tr/otel-dijital-pazarlama), marka güvenini ve kampanya iletişimini destekleyen güçlü bir katmana dönüşür."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -17230,6 +17454,10 @@
           {
             "type": "p",
             "text": "UGC’nin bulunabilir olması için etiket sistemi şarttır. Markalı hashtag’in amacı “trend olmak” değil; içerikleri toplamak ve takip etmektir. Lokasyon etiketi ise özellikle otel/turizm markalarında keşfi güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Lokasyon etiketi, Google yorumları ve deneyim anlatımları birlikte düşünüldüğünde [yerel SEO için misafir yorumları](/tr/seo/yerel-seo), markanın yerel güven sinyallerini güçlendiren doğal bir destek katmanı oluşturur."
           },
           {
             "type": "h3",
@@ -17358,6 +17586,10 @@
             "text": "UGC’nin en büyük hatası: rastgele repost. Bu, akışı doldurur ama marka dilini zayıflatabilir. Doğru yaklaşım; UGC’yi marka görsel diline uyarlamak ve “kendi içeriğinizle” dengeli bir akış kurmaktır."
           },
           {
+            "type": "p",
+            "text": "Pratikte misafir içeriği nasıl kullanılır sorusunun en net cevabı şudur: story’de hızlı ve canlı, feed’de seçilmiş ve proof odaklı, reels’te ise derleme mantığıyla. Özellikle [story akışında misafir içeriği](/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement), repost, anket, soru kutusu ve mention akışını daha etkileşimli hale getirir."
+          },
+          {
             "type": "h3",
             "text": "UGC’yi kendi görsel diline uyarlama (pratik)"
           },
@@ -17405,6 +17637,10 @@
               "UGC kapak şablonu oluştur (etiket + tipografi).",
               "UGC’den sonra “kendi içeriğin” ile dengeyi koru (pattern)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "UGC paylaşımlarından sonra artan soru, fiyat talebi ve DM akışı için [UGC sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi), yorumları ve lead dönüşlerini operasyonel bir standarda bağlamayı kolaylaştırır."
           }
         ]
       },
@@ -17442,6 +17678,10 @@
               "Ayda 1 kez “UGC performans” değerlendirmesi yap.",
               "En iyi UGC içeriklerini “proof bank” olarak sakla."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı marka içinde sürdürülebilir hale getirmek için [profesyonel sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle UGC toplama, izin, yayın ve proof akışını standardize edebilir; uygulama kapsamını görmek için de [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -17637,7 +17877,7 @@
           "Primary CTA son 1/3 bölümde tekrarlandı",
           "Secondary CTA template asset olarak eklendi",
           "UGC Toplama & Kullanım Matrisi tablo olarak eklendi",
-          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/seo/icerik-seo ve /tr/seo/yerel-seo ile hizalandı",
+          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar, /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement, /tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli, /tr/seo/yerel-seo, /tr/otel-dijital-pazarlama, /tr/cagri-merkezi/mesaj-yonetimi ve /tr/smm/icerik-uretimi-sss ile hizalandı",
           "UGC programı yaklaşımı competitor gap kapanışı olarak işlendi",
           "İzin/KVKK boyutu ayrı bölümde ele alındı",
           "Feed–Story dağılım modeli içerikte işlendi",
@@ -17696,7 +17936,7 @@
     },
     "h1": {
       "title": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
-      "intro": "Sosyal medya üretiminde “yetişemiyoruz” şikâyetinin kök nedeni çoğu zaman içerik fikri değil; tasarımı sıfırdan yapma alışkanlığıdır. Her post, her story, her reels kapağı yeniden tasarlanıyorsa; üretim hızı düşer, revizyon artar, marka dili dağılır. Oysa şablon seti kurduğunuzda ekip “tasarım üretmeye” değil, mesajı ve görseli doğru yerleştirmeye odaklanır; hız ve tutarlılık aynı anda gelir.\n\nBu rehberde; design system ve şablon mantığını, hangi formatlar için şablon gerektiğini (feed/story/reels kapak), Canva/Figma ile çalışma düzenini, marka kimliği uyumunu, otel ve B2B için örnek şablon setlerini ve şablon yönetimi/versiyonlamayı adım adım kuracağız.",
+      "intro": "Sosyal medya üretiminde “yetişemiyoruz” şikâyetinin kök nedeni çoğu zaman içerik fikri değil; tasarımı sıfırdan yapma alışkanlığıdır. Her post, her story, her reels kapağı yeniden tasarlanıyorsa; üretim hızı düşer, revizyon artar, marka dili dağılır. Oysa [sosyal medya tasarım şablonu](/tr/smm/icerik-uretimi) seti kurduğunuzda ekip “tasarım üretmeye” değil, mesajı ve görseli doğru yerleştirmeye odaklanır; hız ve tutarlılık aynı anda gelir.\n\nBu rehberde; design system ve şablon mantığını, hangi formatlar için şablon gerektiğini (feed/story/reels kapak), Canva/Figma ile çalışma düzenini, marka kimliği uyumunu, otel ve B2B için örnek şablon setlerini ve şablon yönetimi/versiyonlamayı adım adım kuracağız.",
       "quickSummary": [
         "1) Design system olmadan şablon çoğalmaz",
         "2) En çok tekrar eden formatları önce şablonla",
@@ -17719,7 +17959,7 @@
       "secondary": {
         "label": "Sosyal Medya Tasarım Şablon Seti Planlama Şablonunu İndir",
         "text": "Format–varyasyon–owner yapısını netleştirir; ekibiniz 1 haftada sürdürülebilir şablon seti kurar.",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "href": "/downloads/sosyal-medya-tasarim-sablon-seti-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -17728,22 +17968,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Marka kimliği ve feed tutarlılığı rehberi",
+        "href": "/tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi"
+      },
+      {
+        "label": "Carousel içerik rehberi",
+        "href": "/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      },
+      {
+        "label": "Çekim günü optimizasyonu rehberi",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+      },
+      {
         "label": "Grafik ve motion tasarım sayfası",
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Creative sayfası",
-        "href": "/tr/creative"
+        "label": "Creative ve tasarım sayfası",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Web ve yazılım hizmetleri sayfası",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
+      },
+      {
+        "label": "SMM içerik üretimi SSS sayfası",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
+        "href": "/tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi"
       },
       {
-        "title": "Grafik ve Motion Tasarım",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "title": "Carousel Postlar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+        "href": "/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      },
+      {
+        "title": "Çekim Günü Optimizasyonu: 1 Çekimde 1 Aylık Sosyal Medya İçeriği",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
       }
     ],
     "sections": [
@@ -17758,6 +18026,10 @@
           {
             "type": "p",
             "text": "Şablon üretmek, Canva’da birkaç kutu çizmek değildir. Asıl iş; şablonların arkasında bir design system kurmaktır: renkler, tipografi, boşluklar, logo alanı, CTA alanı, ikon seti, fotoğraf tonları… Bunlar standart değilse, şablon çoğalmaz; her seferinde bozulur."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde tasarım şablonları](/tr/sosyal-medya-yonetimi), yalnızca görsel hız kazandıran araçlar değil; marka tutarlılığı, yayın ritmi ve ekip koordinasyonunu birlikte taşıyan operasyonel bir sistem olarak düşünülmelidir."
           },
           {
             "type": "p",
@@ -17828,6 +18100,10 @@
           {
             "type": "p",
             "text": "Genel kural: Feed (post/carousel), Story serileri ve Reels kapakları mutlaka şablonlanmalıdır. Çünkü bunlar hem sık kullanılır hem de tutarlılığı doğrudan etkiler. Reels’in içeriği video olduğu için şablon daha çok kapak + altyazı stilinde olur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle eğitici serilerde [carousel içerik şablonları](/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek), ilk slayt hook’undan CTA slaytına kadar tekrar kullanılabilir bir bilgi mimarisi kurarak üretimi ciddi biçimde hızlandırır."
           },
           {
             "type": "h3",
@@ -17907,6 +18183,14 @@
             "text": "Önce brand bileşenlerini (renk/font/logo) “kit” olarak tanımlayın. Sonra master layout’ları oluşturun: başlık alanı, görsel alanı, CTA alanı. En son varyasyonları üretip kilitlenmesi gereken katmanları (logo/renk/typography) kilitleyin; ekip sadece metin ve görsel alanını değiştirsin."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [Canva / Figma içerik şablonları](/tr/creative-ve-tasarim), yalnızca dosya düzeni değil; brand kit, layout mantığı ve creative üretim standardının ekipler arasında taşınmasını sağlayan bir sistem görevi görür."
+          },
+          {
+            "type": "p",
+            "text": "Statik setin yanında [grafik ve motion tasarım şablonları](/tr/creative/grafik-motion-tasarim), animasyonlu story, hareketli kampanya postu ve reels kapağı gibi alanlarda markanın yaratıcı dilini daha canlı hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Çalışma düzeni (5–7 madde)"
           },
@@ -17958,6 +18242,10 @@
           },
           {
             "type": "p",
+            "text": "Pratikte [marka kimliğine uygun tasarım şablonları](/tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi), renk, tipografi, grid ve logo kullanımını her formatta aynı görsel aile içinde tutarak feed’in dağılmasını engeller."
+          },
+          {
+            "type": "p",
             "text": "Teknik not (sheet): Şablonların dosya boyutu, mobil okunabilirlik ve alt metin/başlık alanlarının SEO ile uyumu önemlidir. Bu, özellikle carousel’lerde ve bilgi kartlarında kritik olur."
           },
           {
@@ -18006,6 +18294,10 @@
           {
             "type": "p",
             "text": "Şablon seti “sektör”e göre farklı çalışır. Otelde görsel daha baskın; B2B’de bilgi kartları ve kanıt (case) daha baskındır."
+          },
+          {
+            "type": "p",
+            "text": "Elinizdeki ham fotoğraf ve video arşivini sistematik kullanmak için [çekim günü içeriklerini şablonlarla çoğaltmak](/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi), tek çekimden çıkan materyali post, story, carousel ve reels kapağına dönüştüren pratik bir üretim modeli sunar."
           },
           {
             "type": "h3",
@@ -18073,6 +18365,10 @@
           {
             "type": "p",
             "text": "Şablon seti bir kez yapılıp bırakılmaz; platform formatları, kampanya ihtiyaçları ve kreatif trendler değiştikçe güncellenir (sheet refresh notu). Yönetilmezse herkes kendi kopyasını üretir ve sistem bozulur."
+          },
+          {
+            "type": "p",
+            "text": "Şablon kütüphanesi, versiyonlama ve ekip erişim mantığı birlikte kurulduğunda [design system ile sosyal medya üretimi](/tr/web-ve-yazilim-hizmetleri), yalnızca tasarım dosyası değil; ölçeklenebilir dijital operasyon mantığının da bir parçasına dönüşür."
           },
           {
             "type": "h3",
@@ -18155,6 +18451,10 @@
               "10–12 şablonla başla; sonra veriyle genişlet.",
               "Kampanya dönemlerinde şablon setini “sprint” gibi kullan."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sistemi ekibiniz için kalıcı hale getirmek isterseniz [ölçeklenebilir sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle şablon yapısını, creative akışı ve yayın operasyonunu birlikte kurabilir; uygulama kapsamı için de [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -18335,7 +18635,7 @@
           "Primary CTA son 1/3 bölümde tekrarlandı",
           "Secondary CTA template asset olarak eklendi",
           "Şablon Seti Planı tablo olarak eklendi",
-          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/creative/grafik-motion-tasarim ve /tr/creative ile hizalandı",
+          "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi, /tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek, /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi, /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/web-ve-yazilim-hizmetleri ve /tr/smm/icerik-uretimi-sss ile hizalandı",
           "Design system + şablon mantığı ayrı bölümde işlendi",
           "Canva/Figma çalışma düzeni ve owner modeli netleştirildi",
           "Versiyonlama ve changelog süreci içerikte işlendi",
@@ -18394,7 +18694,7 @@
   },
   "h1": {
     "title": "Stok Görsel mi, Özgün İçerik mi? Dengeli Sosyal Medya Feed’i Nasıl Kurulur?",
-    "intro": "Birçok marka sosyal medyada iki uç arasında gidip gelir: ya tamamen stok görsellere yaslanır ve “kolay üretim” kazanır ama güven kaybeder; ya da sadece özgün çekim ister ve bu sefer “yetişememe” nedeniyle akış kopar. Sağlıklı çözüm bu iki ucu birleştiren hibrit modeldir: özgün içerik feed’in omurgasını kurar, stok görsel ise planlı şekilde destekleyici katman olarak kullanılır. Böylece hem hız hem özgünlük aynı anda yönetilir. Bu rehberde; stok görselin ne olduğunu ve ne zaman kullanılacağını, özgün foto/video çekimini nasıl planlayacağınızı, hibrit modelin oranlarını, otel ve B2B için pratik dağılım örneklerini ve marka güveni/algısı üzerindeki etkilerini net bir çerçeveye oturtacağız.",
+    "intro": "Birçok marka sosyal medyada iki uç arasında gidip gelir: ya tamamen stok görsellere yaslanır ve “kolay üretim” kazanır ama güven kaybeder; ya da sadece özgün çekim ister ve bu sefer “yetişememe” nedeniyle akış kopar. Sağlıklı çözüm bu iki ucu birleştiren hibrit modeldir: özgün içerik feed’in omurgasını kurar, stok görsel ise planlı şekilde destekleyici katman olarak kullanılır. Böylece hem hız hem özgünlük aynı anda yönetilir. Bu rehberde [stok görsel mi özgün içerik mi](/tr/smm/icerik-uretimi) sorusundan başlayarak stok görselin ne olduğunu ve ne zaman kullanılacağını, özgün foto/video çekimini nasıl planlayacağınızı, hibrit modelin oranlarını, otel ve B2B için pratik dağılım örneklerini ve marka güveni/algısı üzerindeki etkilerini net bir çerçeveye oturtacağız.",
     "quickSummary": [
       "1) Stok görseli kanıt yerine değil, destek katmanı olarak kullan",
       "2) Özgün fotoğraf/video çekimini feed’in omurgası yap",
@@ -18405,14 +18705,14 @@
     "ctaPrimary": {
       "label": "Stok vs Özgün İçerik Dengesi Analiz Talebi",
       "text": "Mevcut feed’inizde güven–hız dengesini kurmak isteyen otel ve B2B ekipleri için.",
-      "href": "/smm/icerik-uretimi"
+      "href": "/tr/smm/icerik-uretimi"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Stok vs Özgün İçerik Dengesi Analiz Talebi",
       "text": "Feed’inizde hız ile güven dengesini kurup uzun vadeli görsel stratejiye geçmek isteyen markalar için.",
-      "href": "/smm/icerik-uretimi"
+      "href": "/tr/smm/icerik-uretimi"
     },
     "secondary": {
       "label": "Özgün Çekim Planlama & Hibrit Feed Şablonunu İndir",
@@ -18422,26 +18722,54 @@
   },
   "internalLinks": [
     {
-      "label": "İçerik Üretimi hizmet sayfası",
-      "href": "/smm/icerik-uretimi"
+      "label": "İçerik üretimi hizmet sayfası",
+      "href": "/tr/smm/icerik-uretimi"
     },
     {
-      "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "label": "Sosyal medya yönetimi sayfası",
+      "href": "/tr/sosyal-medya-yonetimi"
     },
     {
-      "label": "Grafik & Motion Tasarım",
-      "href": "/creative/grafik-motion-tasarim"
+      "label": "Marka kimliği ve feed tutarlılığı rehberi",
+      "href": "/tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi"
+    },
+    {
+      "label": "Tasarım şablonları rehberi",
+      "href": "/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi"
+    },
+    {
+      "label": "Çekim günü optimizasyonu rehberi",
+      "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+    },
+    {
+      "label": "Video prodüksiyon sayfası",
+      "href": "/tr/creative/video-produksiyon"
+    },
+    {
+      "label": "Grafik ve motion tasarım sayfası",
+      "href": "/tr/creative/grafik-motion-tasarim"
+    },
+    {
+      "label": "Otel sosyal medya sayfası",
+      "href": "/tr/otel/sosyal-medya"
+    },
+    {
+      "label": "SMM içerik üretimi SSS sayfası",
+      "href": "/tr/smm/icerik-uretimi-sss"
     }
   ],
   "relatedPosts": [
     {
-      "title": "İçerik Üretimi ile Sosyal Medyada Güven ve Süreklilik Kurmak",
-      "href": "/smm/icerik-uretimi"
+      "title": "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
+      "href": "/tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi"
     },
     {
-      "title": "Video Prodüksiyon ile Özgün İçerik Bankası Oluşturma",
-      "href": "/creative/video-produksiyon"
+      "title": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+      "href": "/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi"
+    },
+    {
+      "title": "Çekim Günü Optimizasyonu: 1 Çekimde 1 Aylık Sosyal Medya İçeriği",
+      "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
     }
   ],
   "sections": [
@@ -18459,7 +18787,15 @@
         },
         {
           "type": "p",
+          "text": "Bu yüzden [sosyal medya yönetimi içinde görsel içerik dengesi](/tr/sosyal-medya-yonetimi), yalnızca estetik bir tercih değil; güven, marka algısı, içerik sürekliliği ve performansı birlikte etkileyen operasyonel bir karar alanıdır."
+        },
+        {
+          "type": "p",
           "text": "Stok görselin doğru yeri vardır: konsept anlatımı, bilgi kartı arka planı, ikon/illüstrasyon, mevsimsel bağlam gibi alanlarda destekleyici çalışır. Ama “ürün/oda/tesis/ekip” gibi kanıt isteyen içeriklerde omurgayı stok ile kurmak risklidir."
+        },
+        {
+          "type": "p",
+          "text": "Özellikle stok materyali doğrudan kullanmak yerine [stok görselleri tasarım şablonlarıyla uyarlamak](/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi), marka rengi, tipografi ve içerik formatı üzerinden daha güvenli bir görsel standardı kurar."
         },
         {
           "type": "h3",
@@ -18532,6 +18868,10 @@
           "text": "Özgün içerik, güven ve farklılaşma için kritiktir; çünkü kullanıcı “gerçek deneyim” görmek ister. Otelde odanın/deneyimin gerçekliğini, B2B’de ekibin/sürecin şeffaflığını en hızlı özgün içerik taşır; bu da DM, tıklama ve karar hızını artırabilir."
         },
         {
+          "type": "p",
+          "text": "Gerçek mekan, ekip ve deneyim görsellerini [marka kimliğine uygun özgün içerik](/tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi) yaklaşımıyla kullandığınızda feed yalnızca daha estetik değil, aynı zamanda daha inandırıcı hale gelir."
+        },
+        {
           "type": "h3",
           "text": "Otel için “3 çekim günüyle 3 aylık içerik” fikri"
         },
@@ -18553,6 +18893,10 @@
           "text": "Not (V2.3 Key Statistic alanı boş değil): Bu içerikteki “3 çekim günü” fikri, pratik bir üretim yöntemi olarak geçer; kesin çıktı garantisi değildir."
         },
         {
+          "type": "p",
+          "text": "Bu ihtiyacı plansız çekim yerine sisteme bağlamak için [çekim günüyle özgün içerik üretimi](/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi), tek günde toplanan ham materyali aylık post, story, reels ve carousel akışına dönüştürür."
+        },
+        {
           "type": "h3",
           "text": "B2B için özgün içerik setleri"
         },
@@ -18564,6 +18908,18 @@
             "Ekran görüntüsü (dashboard, süreç akışı) (Varsayım: gizlilik kontrolü)",
             "Case proof görselleri (anonimleştirilmiş) (Varsayım)"
           ]
+        },
+        {
+          "type": "p",
+          "text": "B2B sosyal medyada stok görsel kullanımı belirli konseptlerde pratik olabilir; ancak süreç, ekip, dashboard veya case kanıtı gibi alanlarda özgün materyal hâlâ en güçlü güven unsurudur."
+        },
+        {
+          "type": "p",
+          "text": "Stok görselin anlatım gücünün yetmediği yerlerde [özgün video prodüksiyon desteği](/tr/creative/video-produksiyon), marka filmi, kısa video, mekan çekimi ve profesyonel görsel kaliteyi devreye alarak içeriğin inandırıcılığını yükseltir."
+        },
+        {
+          "type": "p",
+          "text": "Özellikle konaklama markalarında [otel için özgün sosyal medya fotoğrafları](/tr/otel/sosyal-medya), gerçek oda, restoran, spa, havuz ve destinasyon deneyimini gösterdiği için stok görselden çok daha güçlü bir rezervasyon sinyali üretir."
         },
         {
           "type": "h3",
@@ -18605,6 +18961,10 @@
         {
           "type": "p",
           "text": "Özgün içerik; kanıt gereken yerlerde (oda, deneyim, ekip, gerçek mekan) kullanılır. Stok görsel; bağlam ve tasarım desteği gereken yerlerde (ikon, arka plan, konsept görsel) kullanılır. Kural: “güven sinyali gereken yerde özgün.”"
+        },
+        {
+          "type": "p",
+          "text": "Bu hibrit modelde [grafik ve motion tasarımla görsel içerik üretimi](/tr/creative/grafik-motion-tasarim), hem stok asset’leri hem de ham özgün çekimleri daha okunur, marka uyumlu ve kampanya odaklı hale getiren tamamlayıcı katmandır."
         },
         {
           "type": "h3",
@@ -18765,6 +19125,10 @@
           "text": "Bu içerik, stok ağırlıklı çalışan hesapların uzun vadede daha özgün, marka odaklı bir görsel stratejiye geçişi için köprü olabilir (sheet notu). Hızlı geçiş planı:"
         },
         {
+          "type": "p",
+          "text": "Bu geçişi ekip içinde sistematik hale getirmek isterseniz [dengeli sosyal medya feed’i için içerik üretimi](/tr/smm/icerik-uretimi) desteğiyle görsel oranları, çekim planı ve marka güveni dengesini birlikte kurabilir; kapsam detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+        },
+        {
           "type": "list",
           "style": "ul",
           "items": [
@@ -18779,7 +19143,7 @@
           "variant": "primary",
           "label": "Stok vs Özgün İçerik Dengesi Analiz Talebi",
           "text": "Mevcut feed’inizi hibrit modele geçirip güveni artırmak isteyen ekipler için.",
-          "href": "/smm/icerik-uretimi"
+          "href": "/tr/smm/icerik-uretimi"
         },
         {
           "type": "media",
@@ -18944,6 +19308,7 @@
         "Stok ağırlıklı vs özgün ağırlıklı feed karşılaştırma görseli"
       ],
       "technicalChecklist": [
+        "Internal link hedefleri /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi, /tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi, /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi, /tr/creative/video-produksiyon, /tr/creative/grafik-motion-tasarim, /tr/otel/sosyal-medya ve /tr/smm/icerik-uretimi-sss ile hizalandı",
         "Stok/özgün oranı ölçüldü",
         "Omurga içerikler özgün çekimle kilitlendi",
         "Destek içerikler stok/asset olarak sınıflandırıldı",
@@ -19009,7 +19374,7 @@
     },
     "h1": {
       "title": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
-      "intro": "Story’ler “kalıcı değil” diye hafife alındığında en büyük fırsat kaçırılır: Story, kullanıcıyla en hızlı bağ kurduğunuz ve en düşük bariyerle aksiyon aldığınız yerdir. Feed’de kullanıcı bakar geçer; story’de oy verir, soru yazar, slider’ı oynatır, DM atar. Bu mikro aksiyonlar, hem algoritmik dağılıma hem de satış/lead akışına gerçek katkı verir. Bu rehberde; story içeriklerinin rolünü, sticker türlerini (anket, soru kutusu, slider, quiz), otel ve B2B için hazır senaryo akışlarını, yayın sıklığı–zamanlamayı ve story performansını ölçmeyi net bir playbook’a bağlayacağız.",
+      "intro": "Story’ler “kalıcı değil” diye hafife alındığında en büyük fırsat kaçırılır: Story, kullanıcıyla en hızlı bağ kurduğunuz ve en düşük bariyerle aksiyon aldığınız yerdir. Feed’de kullanıcı bakar geçer; story’de oy verir, soru yazar, slider’ı oynatır, DM atar. Bu mikro aksiyonlar, hem algoritmik dağılıma hem de satış/lead akışına gerçek katkı verir. Bu rehberde; [Instagram story anket kullanımı](/tr/smm/icerik-uretimi) odağında story içeriklerinin rolünü, sticker türlerini (anket, soru kutusu, slider, quiz), otel ve B2B için hazır senaryo akışlarını, yayın sıklığı–zamanlamayı ve story performansını ölçmeyi net bir playbook’a bağlayacağız.",
       "quickSummary": [
         "1) Story’nin ana hedefini seç: içgörü, DM, link veya lead.",
         "2) Anket ve slider ile düşük bariyerli ilk etkileşimi al.",
@@ -19032,7 +19397,7 @@
       "secondary": {
         "label": "Story Sticker Senaryo & Haftalık Planlama Şablonunu İndir",
         "text": "Haftalık 2 interaktif story serisini 30 dakikada planlar; sticker–CTA akışını standartlaştırırsınız.",
-        "href": "/tr/smm/planlama-strateji"
+        "href": "/downloads/story-sticker-senaryo-haftalik-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -19041,22 +19406,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "SMM planlama ve strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "label": "Sosyal medya yönetimi hub sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "DM ve yorum yanıt şablonları blogu",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      },
+      {
+        "label": "UGC ve misafir içeriği blogu",
+        "href": "/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek"
+      },
+      {
+        "label": "Serileşmiş içerikler ve haftalık formatlar blogu",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
       },
       {
         "label": "SMM analiz ve raporlama",
         "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Mesaj yönetimi hizmet sayfası",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Otel sosyal medya hizmet sayfası",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM içerik üretimi SSS sayfası",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi ile Sosyal Medyada Sürekli ve Ölçülebilir Büyüme",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçeriğinin Görünmeyen Yüzü",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
       },
       {
-        "title": "Sosyal Medya Planlama ve Strateji ile Haftalık İçerik Akışı Nasıl Kurulur?",
-        "href": "/tr/smm/planlama-strateji"
+        "title": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
+        "href": "/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek"
+      },
+      {
+        "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlar ile Feed Kurgulama",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
       }
     ],
     "sections": [
@@ -19074,7 +19467,7 @@
           },
           {
             "type": "p",
-            "text": "Birçok hesap story’yi “feed postunu paylaşmak” için kullanır. Bu da fena değildir ama story’nin asıl gücü, sticker’larla interaktif hale gelmesidir."
+            "text": "Birçok hesap story’yi “feed postunu paylaşmak” için kullanır. Bu da fena değildir ama story’nin asıl gücü, sticker’larla interaktif hale gelmesidir; bunu [sosyal medya yönetimi içinde story engagement](/tr/sosyal-medya-yonetimi) mantığıyla ele aldığınızda story yalnızca görünürlük değil, düzenli etkileşim ve topluluk verisi de üretir."
           },
           {
             "type": "h3",
@@ -19123,7 +19516,7 @@
           },
           {
             "type": "p",
-            "text": "Anketi “ısıtma” ve hızlı içgörü için kullanın: 2 seçenekle karar vermeyi kolaylaştırır. Soru kutusunu “derin içgörü” ve DM’ye geçiş için kullanın: kullanıcı yazdığı an ilişki güçlenir. Kural: önce anketle kolay aksiyon al, sonra soru kutusuyla derinleştir."
+            "text": "Anketi “ısıtma” ve hızlı içgörü için kullanın: 2 seçenekle karar vermeyi kolaylaştırır. Soru kutusunu “derin içgörü” ve DM’ye geçiş için kullanın: kullanıcı yazdığı an ilişki güçlenir. Kural: önce anketle kolay aksiyon al, sonra [soru kutusu ile etkileşim](/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu) akışını derinleştir ve sonucu [story sticker performans analizi](/tr/smm/analiz-raporlama) ile düzenli takip et."
           },
           {
             "type": "h3",
@@ -19224,7 +19617,7 @@
           },
           {
             "type": "p",
-            "text": "Otel hesabında story’nin ana yakıtı: deneyim anları + SSS + backstage + misafir içeriği. Bu içerikleri sticker’larla bağlayıp DM’ye yönlendirdiğinizde, hem etkileşim hem rezervasyon niyeti artar."
+            "text": "Otel hesabında story’nin ana yakıtı: deneyim anları + SSS + backstage + misafir içeriği. Bu akışı [story akışında UGC kullanımı](/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek) ile güçlendirip [otel story içerik fikirleri](/tr/otel/sosyal-medya) seviyesinde haftalık senaryoya bağladığınızda, hem etkileşim hem rezervasyon niyeti artar."
           },
           {
             "type": "h3",
@@ -19295,7 +19688,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Story’de “çok atmak” tek başına çözüm değildir; önemli olan ritim ve “zamanlama tutarlılığı”dır. Çoğu hesap bir gün 20 story atıp sonra 3 gün susar; bu, algoritmik ve kullanıcı alışkanlığı açısından zayıftır. Daha iyi yaklaşım: günde 3–8 story bandında düzenli akış ve haftada en az 2 interaktif seri."
+            "text": "Story’de “çok atmak” tek başına çözüm değildir; önemli olan ritim ve “zamanlama tutarlılığı”dır. Çoğu hesap bir gün 20 story atıp sonra 3 gün susar; bu, algoritmik ve kullanıcı alışkanlığı açısından zayıftır. Daha iyi yaklaşım: günde 3–8 story bandında düzenli akış ve haftada en az 2 interaktif seri. Bunu sürdürülebilir hale getirmek için [haftalık story formatları](/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama) mantığıyla tekrar eden seriler kurmak işinizi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -19340,7 +19733,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Story, “hissettim iyi gitti” ile yönetilmez. En kritik story insights metrikleri: reply (yanıt), tap forward/back, exits ve completion. Bu metrikler, senaryonun nerede koptuğunu gösterir."
+            "text": "Story, “hissettim iyi gitti” ile yönetilmez. En kritik story insights metrikleri: reply (yanıt), tap forward/back, exits ve completion. Bu metrikler, senaryonun nerede koptuğunu gösterir; sticker sonrası büyüyen DM ve talep akışını da baştan [story sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) planına bağlamak gerekir."
           },
           {
             "type": "h3",
@@ -19490,7 +19883,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yüzden en iyi sonuç, rastgele story paylaşımıyla değil; haftalık senaryo bankası, sticker planı, tek CTA ve düzenli story insights takibiyle gelir."
+            "text": "Bu yüzden en iyi sonuç, rastgele story paylaşımıyla değil; haftalık senaryo bankası, sticker planı, tek CTA ve düzenli story insights takibiyle gelir. Bunu ekip içinde sistematik hale getirmek istiyorsanız [etkileşim odaklı sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımıyla ilerleyip detaylar için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -19504,7 +19897,7 @@
             "variant": "secondary",
             "label": "Story Sticker Senaryo & Haftalık Planlama Şablonunu İndir",
             "text": "Haftalık 2 interaktif story serisini 30 dakikada planlar; sticker–CTA akışını standartlaştırırsınız.",
-            "href": "/tr/smm/planlama-strateji"
+            "href": "/downloads/story-sticker-senaryo-haftalik-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -19555,8 +19948,8 @@
           "Canonical kontrolü: /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema soruları sayfadaki FAQ ile birebir eşleşiyor",
-          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/smm/analiz-raporlama",
-          "CTA hedefleri kontrol edildi: Primary /tr/smm/icerik-uretimi, Secondary /tr/smm/planlama-strateji",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu, /tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek, /tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama, /tr/smm/analiz-raporlama, /tr/cagri-merkezi/mesaj-yonetimi, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
+          "CTA hedefleri kontrol edildi: Primary /tr/smm/icerik-uretimi, Secondary /downloads/story-sticker-senaryo-haftalik-planlama-sablonu-v1.0.pdf",
           "Media slot isimleri component tarafındaki görsel eşleşmesiyle uyumlu",
           "Download asset tipi template olarak işlendi",
           "Story KPI tablosu ve sticker seçim matrisi UI’da responsive kontrol edilmeli"
@@ -19614,7 +20007,7 @@
     },
     "h1": {
       "title": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
-      "intro": "Sosyal medyada “biz iyiyiz” demek artık kimseyi ikna etmiyor. İnsanlar, markanın kendini övmesinden çok başka insanların deneyimine bakıyor: yorumlar, puanlar, ekran görüntüleri, mini başarı hikâyeleri… İşte sosyal kanıtın gücü burada. Doğru tasarlandığında sosyal kanıt; hem güveni artırır hem de karar aşamasındaki kullanıcıya “bu benim için de olabilir” hissi vererek DM/telefon/rezervasyon aksiyonunu hızlandırır.\n\nBu rehberde sosyal kanıtın temelini, review/puan paylaşımlarını, testimonial tasarımlarını, mini case (success story) formatını ve otel–B2B örnek yapılarını net bir sistemle ele alacağız. Ayrıca KVKK açısından kritik olan isim/kişisel bilgi maskeleme ve izin süreçlerini de pratik şekilde çerçeveleyeceğiz.",
+      "intro": "Sosyal medyada “biz iyiyiz” demek artık kimseyi ikna etmiyor. İnsanlar, markanın kendini övmesinden çok başka insanların deneyimine bakıyor: yorumlar, puanlar, ekran görüntüleri, mini başarı hikâyeleri… İşte [sosyal kanıt içerikleri](/tr/smm/icerik-uretimi) tam burada devreye giriyor. Doğru tasarlandığında sosyal kanıt; hem güveni artırır hem de karar aşamasındaki kullanıcıya “bu benim için de olabilir” hissi vererek DM/telefon/rezervasyon aksiyonunu hızlandırır.\n\nBu rehberde sosyal kanıtın temelini, review/puan paylaşımlarını, testimonial tasarımlarını, mini case (success story) formatını ve otel–B2B örnek yapılarını net bir sistemle ele alacağız. Ayrıca KVKK açısından kritik olan isim/kişisel bilgi maskeleme ve izin süreçlerini de pratik şekilde çerçeveleyeceğiz.",
       "quickSummary": [
         "1) Sosyal kanıtı 3 formatta planla: review, testimonial, mini case.",
         "2) Doğru yorumları seç ve spesifik faydayı öne çıkar.",
@@ -19637,7 +20030,7 @@
       "secondary": {
         "label": "Review/Testimonial Post & Mini Case Şablonunu İndir",
         "text": "Ayda 8 sosyal kanıt içeriğini 1 saatte planlar; tasarım ve metni tek standartta üretirsiniz.",
-        "href": "/tr/smm/icerik-uretimi"
+        "href": "/downloads/review-testimonial-post-mini-case-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -19646,22 +20039,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal medya yönetimi hub sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "UGC ve misafir içeriği blogu",
+        "href": "/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek"
+      },
+      {
+        "label": "DM ve yorum yanıt şablonları blogu",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      },
+      {
+        "label": "Funnel bazlı içerik üretimi blogu",
+        "href": "/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
+      },
+      {
+        "label": "Satış dönüşüm raporlama sayfası",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
         "label": "Yerel SEO rehberi",
         "href": "/tr/seo/yerel-seo"
       },
       {
-        "label": "Satış & Dönüşüm Raporlama",
-        "href": "/tr/raporlama/satis-donusum"
+        "label": "Otel dijital pazarlama sayfası",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM içerik üretimi SSS sayfası",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Yerel SEO Nedir? Lokasyon ve Güven Sinyalleri Nasıl Yönetilir?",
-        "href": "/tr/seo/yerel-seo"
+        "title": "UGC ve Misafir İçeriği ile Sosyal Medya Akışını Nasıl Beslersiniz?",
+        "href": "/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek"
       },
       {
-        "title": "Satış ve Dönüşüm Raporlama: DM, Arama ve Rezervasyon Tıklamaları Nasıl Okunur?",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçeriğinin Görünmeyen Yüzü",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      },
+      {
+        "title": "Funnel Bazlı İçerik Üretimi: Farklı Aşamalar İçin Sosyal Medya",
+        "href": "/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
       }
     ],
     "sections": [
@@ -19675,7 +20096,7 @@
           },
           {
             "type": "p",
-            "text": "Sosyal kanıtı doğru yönetmeyen hesaplarda iki uç görülür: ya hiç kanıt paylaşılmaz (güven boşluğu), ya da rastgele ekran görüntüsü paylaşılır (dağınık ve riskli). En sağlıklı yaklaşım; sosyal kanıtı formatlara ayırıp şablonlamak ve izin/mask süreçlerini standartlaştırmaktır."
+            "text": "Sosyal kanıtı doğru yönetmeyen hesaplarda iki uç görülür: ya hiç kanıt paylaşılmaz (güven boşluğu), ya da rastgele ekran görüntüsü paylaşılır (dağınık ve riskli). En sağlıklı yaklaşım; sosyal kanıtı formatlara ayırıp şablonlamak, izin/mask süreçlerini standartlaştırmak ve bunu [sosyal medya yönetimi içinde güven içerikleri](/tr/sosyal-medya-yonetimi) yaklaşımıyla ele almaktır."
           },
           {
             "type": "h3",
@@ -19683,7 +20104,7 @@
           },
           {
             "type": "p",
-            "text": "Sosyal kanıt içerikleri; müşteri/misafir yorumları, puanlar, testimonial’lar ve mini case hikâyeleridir. Önemlidir çünkü kullanıcıların “başkaları ne yaşamış?” sorusuna cevap vererek güveni artırır ve DM/rezervasyon/lead kararını hızlandırır."
+            "text": "Sosyal kanıt içerikleri; müşteri/misafir yorumları, puanlar, testimonial’lar ve mini case hikâyeleridir. Önemlidir çünkü kullanıcıların “başkaları ne yaşamış?” sorusuna cevap vererek güveni artırır ve DM/rezervasyon/lead kararını hızlandırır. Bu kaynakları daha sürdürülebilir toplamak için [UGC ile sosyal kanıt üretimi](/tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek) mantığını da düzenli kurmak gerekir."
           },
           {
             "type": "callout",
@@ -19741,7 +20162,7 @@
           },
           {
             "type": "p",
-            "text": "En iyi yorumlar; belirli bir faydayı net anlatan, hedef personanın itirazını kıran ve tekrar eden temaları doğrulayan yorumlardır. “Her şey çok güzeldi” yerine “temizlik, kahvaltı, çocuklu aile deneyimi” gibi spesifik detay içeren yorumlar daha ikna edicidir."
+            "text": "En iyi yorumlar; belirli bir faydayı net anlatan, hedef personanın itirazını kıran ve tekrar eden temaları doğrulayan yorumlardır. “Her şey çok güzeldi” yerine “temizlik, kahvaltı, çocuklu aile deneyimi” gibi spesifik detay içeren yorumlar daha ikna edicidir. Özellikle lokasyon odaklı markalarda [yerel SEO için müşteri yorumları](/tr/seo/yerel-seo) yaklaşımı da bu güven sinyalini arama görünürlüğüne taşır."
           },
           {
             "type": "h3",
@@ -19854,7 +20275,7 @@
           },
           {
             "type": "p",
-            "text": "Case’i uzun anlatmayın; 3 parçaya bölün: Problem → Müdahale → Sonuç. 1 görsel/karusel/mini video içinde bu üç parçayı net verin; sonucu bir KPI veya somut çıktı ile destekleyin (abartmadan)."
+            "text": "Case’i uzun anlatmayın; 3 parçaya bölün: Problem → Müdahale → Sonuç. 1 görsel/karusel/mini video içinde bu üç parçayı net verin; sonucu bir KPI veya somut çıktı ile destekleyin (abartmadan). Bu yapıyı [sosyal medyada mini case story kurgusu](/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya) yaklaşımıyla değerlendirme ve dönüşüm aşamalarına yerleştirmek daha doğru sonuç verir."
           },
           {
             "type": "h3",
@@ -19873,7 +20294,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet): Yorum ve case içeriklerinin DM, telefon araması veya rezervasyon tıklaması gibi aksiyonları tetiklediği raporlamada işaretlenmeli. Bu yüzden case post’larında CTA ve ölçüm etiketi (UTM/lead tag) önemlidir (Varsayım)."
+            "text": "Key Statistics / Data Point (sheet): Yorum ve case içeriklerinin DM, telefon araması veya rezervasyon tıklaması gibi aksiyonları tetiklediği raporlamada işaretlenmeli. Bu yüzden case post’larında CTA ve ölçüm etiketi (UTM/lead tag) önemlidir; [satış ve dönüşüm odaklı testimonial içerikleri](/tr/raporlama/satis-donusum) bakışıyla bu etkiyi raporlamak ve etkileşim büyüdüğünde [DM ve yorum yanıt akışı](/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu) tarafını önceden hazırlamak gerekir."
           },
           {
             "type": "callout",
@@ -19908,7 +20329,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel ve B2B’de “kanıt dili” farklıdır ama iskelet aynıdır: net mesaj + okunabilir tasarım + doğru CTA."
+            "text": "Otel ve B2B’de “kanıt dili” farklıdır ama iskelet aynıdır: net mesaj + okunabilir tasarım + doğru CTA. Özellikle rezervasyon niyetine yakın hesaplarda [otel markaları için sosyal kanıt](/tr/otel-dijital-pazarlama) yaklaşımı, review ve testimonial içeriklerini yalnız görünürlük değil karar hızlandırıcı bir katmana dönüştürür."
           },
           {
             "type": "h3",
@@ -20215,7 +20636,7 @@
           },
           {
             "type": "p",
-            "text": "En sağlıklı yapı; yorum seçimi, KVKK maskeleme, tasarım şablonu, mini case iskeleti ve ölçüm etiketini tek sistemde yönetmektir. Böylece sosyal kanıt yalnızca güzel görünen bir paylaşım değil, raporlanabilir bir dönüşüm aracı haline gelir."
+            "text": "En sağlıklı yapı; yorum seçimi, KVKK maskeleme, tasarım şablonu, mini case iskeleti ve ölçüm etiketini tek sistemde yönetmektir. Böylece sosyal kanıt yalnızca güzel görünen bir paylaşım değil, raporlanabilir bir dönüşüm aracı haline gelir. Bunu ekip içinde sistematik hale getirmek için [review / testimonial post tasarımı ve sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımıyla ilerleyip detaylar için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına da bakabilirsiniz."
           },
           {
             "type": "cta",
@@ -20229,7 +20650,7 @@
             "variant": "secondary",
             "label": "Review/Testimonial Post & Mini Case Şablonunu İndir",
             "text": "Ayda 8 sosyal kanıt içeriğini 1 saatte planlar; tasarım ve metni tek standartta üretirsiniz.",
-            "href": "/tr/smm/icerik-uretimi"
+            "href": "/downloads/review-testimonial-post-mini-case-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -20280,8 +20701,8 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "Review/testimonial/case içeriklerinde KVKK maskeleme notu görünür şekilde işaretlendi",
           "Primary CTA hedefi: /tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi: /tr/smm/icerik-uretimi",
-          "Destek iç linkleri: /tr/seo/yerel-seo ve /tr/raporlama/satis-donusum",
+          "Secondary CTA hedefi: /downloads/review-testimonial-post-mini-case-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/ugc-ve-misafir-icerigi-ile-sosyal-medya-akisini-beslemek, /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu, /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya, /tr/raporlama/satis-donusum, /tr/seo/yerel-seo, /tr/otel-dijital-pazarlama, /tr/smm/icerik-uretimi-sss",
           "Download asset tipi: template",
           "Ölçüm etiketi önerileri: SP-REV / SP-TES / SP-CASE"
         ]
@@ -20339,7 +20760,7 @@
     },
     "h1": {
       "title": "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
-      "intro": "Tek görsel postlar hızlıdır ama “değer anlatma” kapasitesi sınırlıdır. Carousel ise doğru kurgulanınca bir post olmaktan çıkar, mini rehbere dönüşür: kullanıcı kaydırdıkça öğrenir, sonunda kaydeder ve paylaşır. Bu yüzden carousel; özellikle otel ve B2B hesaplarında “otorite” ve “geri dönme” davranışı üretmek için güçlü bir formattır.\n\nBu rehberde; neden carousel’lerin iyi çalıştığını, hangi konu türlerinde en etkili olduğunu, problem→neden→çözüm→özet akışını, mobilde metin/görsel dengesini ve otel/B2B için konu örneklerini net bir sistemle anlatacağız. Ayrıca “iyi vs zayıf carousel” karşılaştırması ve storyboard ile doğrudan uygulanabilir bir plan çıkaracağız.",
+      "intro": "Tek görsel postlar hızlıdır ama “değer anlatma” kapasitesi sınırlıdır. Carousel ise doğru kurgulanınca bir post olmaktan çıkar, mini rehbere dönüşür: kullanıcı kaydırdıkça öğrenir, sonunda kaydeder ve paylaşır. Bu yüzden [carousel post içerik örnekleri](/tr/smm/icerik-uretimi); özellikle otel ve B2B hesaplarında “otorite” ve “geri dönme” davranışı üretmek için güçlü bir formata dönüşür.\n\nBu rehberde; neden carousel’lerin iyi çalıştığını, hangi konu türlerinde en etkili olduğunu, problem→neden→çözüm→özet akışını, mobilde metin/görsel dengesini ve otel/B2B için konu örneklerini net bir sistemle anlatacağız. Ayrıca “iyi vs zayıf carousel” karşılaştırması ve storyboard ile doğrudan uygulanabilir bir plan çıkaracağız.",
       "quickSummary": [
         "1) Carousel’i mini rehber olarak konumlandır: tek konu, tek vaat.",
         "2) İlk slaytta güçlü hook ve net vaat kullan.",
@@ -20362,7 +20783,7 @@
       "secondary": {
         "label": "Carousel Post Tasarım & Metin Planlama Şablonunu İndir",
         "text": "5–8 slaytlık akışı 20 dakikada yazar; metin yoğunluğunu düşürüp kaydırma oranını artırırsınız.",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/downloads/carousel-post-tasarim-metin-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -20371,22 +20792,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal medya yönetimi hub sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Caption yazımı rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      },
+      {
+        "label": "Content pillars ve format dengesi blogu",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "label": "Serileşmiş içerikler blogu",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
+      },
+      {
         "label": "İçerik SEO rehberi",
         "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "SMM analiz ve raporlama",
         "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Otel sosyal medya hizmet sayfası",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM içerik üretimi SSS sayfası",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik SEO Nedir? Blog Topic Cluster ve İçerik Otoritesi Nasıl Kurulur?",
-        "href": "/tr/seo/icerik-seo"
+        "title": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
       },
       {
-        "title": "SMM Analiz ve Raporlama: Kaydetme, Paylaşma ve DM KPI’ları Nasıl Okunur?",
-        "href": "/tr/smm/analiz-raporlama"
+        "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlar ile Feed Kurgulama",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
       }
     ],
     "sections": [
@@ -20400,7 +20849,7 @@
           },
           {
             "type": "p",
-            "text": "Otel tarafında carousel; destinasyon ipuçları, rezervasyon öncesi SSS, “5 şey” listeleriyle çalışır. B2B’de ise mini eğitim, checklist, süreç şeması, “3 hata + çözüm” formatları güçlüdür."
+            "text": "Otel tarafında carousel; destinasyon ipuçları, rezervasyon öncesi SSS, “5 şey” listeleriyle çalışır. B2B’de ise mini eğitim, checklist, süreç şeması, “3 hata + çözüm” formatları güçlüdür. Bu yüzden [sosyal medya yönetimi içinde carousel içerikler](/tr/sosyal-medya-yonetimi) yalnızca çoklu görsel paylaşımı değil; kullanıcıyı içerikte tutan, kaydetme ve paylaşılma oranını artıran öğretici bir format olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -20442,7 +20891,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Carousel, “değer” vaat eden konularda çalışır. Değer, ya pratik ipucu verir (nasıl yapılır), ya hata önler (kaçın), ya da karar kolaylaştırır (karşılaştır). Bu yüzden konu seçerken “kullanıcı bunu neden kaydetsin?” sorusunu sorarsınız."
+            "text": "Carousel, “değer” vaat eden konularda çalışır. Değer, ya pratik ipucu verir (nasıl yapılır), ya hata önler (kaçın), ya da karar kolaylaştırır (karşılaştır). Bu yüzden konu seçerken “kullanıcı bunu neden kaydetsin?” sorusunu sorarsınız; [content pillars’a bağlı carousel konuları](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) seçmek bu planlamayı çok daha tutarlı hale getirir."
           },
           {
             "type": "h3",
@@ -20527,7 +20976,7 @@
           },
           {
             "type": "p",
-            "text": "İyi bir carousel akışı 4 adımdan oluşur: 1) Problem/Hook, 2) Neden/bağlam, 3) Çözüm (madde madde), 4) Özet + tek CTA. Kullanıcı her slaytta “bir sonraki slaytta ne kazanacağım?” hissini almalıdır."
+            "text": "İyi bir carousel akışı 4 adımdan oluşur: 1) Problem/Hook, 2) Neden/bağlam, 3) Çözüm (madde madde), 4) Özet + tek CTA. Kullanıcı her slaytta “bir sonraki slaytta ne kazanacağım?” hissini almalıdır; bu yüzden ilk slayt başlığı ile açıklama metnini birlikte düşünmek ve [carousel kapak hook’u](/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi) yapısını caption tonu ve CTA ile uyumlu kurmak gerekir."
           },
           {
             "type": "h3",
@@ -20633,7 +21082,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel carousel’i “rota/SSS/rezervasyon ipucu” ile; B2B carousel’i “mini eğitim/çerçeve/kanıt” ile öne çıkar. İkisinde de hedef aynı: kullanıcı kaydıracak, kaydedecek, paylaşacak."
+            "text": "Otel carousel’i “rota/SSS/rezervasyon ipucu” ile; B2B carousel’i “mini eğitim/çerçeve/kanıt” ile öne çıkar. İkisinde de hedef aynı: kullanıcı kaydıracak, kaydedecek, paylaşacak. Bu yapıyı sürdürülebilir hale getirmek için [haftalık carousel serileri](/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama) mantığıyla aynı tema etrafında tekrar eden mini rehber akışları kurmak çok işe yarar."
           },
           {
             "type": "h3",
@@ -20689,7 +21138,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sheet notu önemli bir fırsatı işaret ediyor: Carousel içerikleri blog içerikleriyle eşleştirildiğinde, hem sosyal hem organik tarafta aynı konunun otoritesi güçlenir. Yani carousel’i “tekil post” değil, blog cluster’ın sosyal dağıtım parçası gibi düşünmek fark yaratır."
+            "text": "Sheet notu önemli bir fırsatı işaret ediyor: Carousel içerikleri blog içerikleriyle eşleştirildiğinde, hem sosyal hem organik tarafta aynı konunun otoritesi güçlenir. Yani carousel’i “tekil post” değil, blog cluster’ın sosyal dağıtım parçası gibi düşünmek fark yaratır; bunun için [SEO içerik temalarıyla uyumlu carousel postlar](/tr/seo/icerik-seo) üretmek gerekir."
           },
           {
             "type": "p",
@@ -20702,6 +21151,10 @@
               "Blog: “Rezervasyon öncesi SSS” → Carousel: “7 soru 7 cevap” → iç link/CTA: ilgili sayfa",
               "Blog: “Destinasyon rota” → Carousel: “48 saat plan” → DM/link CTA"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sistemin gerçekten çalışıp çalışmadığını anlamak için kaydetme, paylaşma, slayt tamamlama, profil ziyareti ve tıklama verisini düzenli [carousel performans analizi](/tr/smm/analiz-raporlama) çerçevesiyle okumak gerekir."
           },
           {
             "type": "cta",
@@ -20903,11 +21356,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Carousel post’lar, doğru akışla kurgulandığında yalnızca çok görselli bir paylaşım değil, kullanıcının kaydırarak öğrendiği mini rehberlere dönüşür. Bu yüzden özellikle eğitim, ipucu, SSS, süreç ve problem→çözüm içeriklerinde kaydetme ve paylaşma davranışını güçlendirir."
+            "text": "Carousel post’lar, doğru akışla kurgulandığında yalnızca çok görselli bir paylaşım değil, kullanıcının kaydırarak öğrendiği mini rehberlere dönüşür. Bu yüzden özellikle eğitim, ipucu, SSS, süreç ve problem→çözüm içeriklerinde kaydetme ve paylaşma davranışını güçlendirir. Bu formatı sektörel olarak uygularken [otel için carousel fikirleri](/tr/otel/sosyal-medya) yaklaşımıyla oda, restoran, spa, destinasyon ve kampanya anlatımlarını ayrı seri mantıklarına ayırmak da çok işe yarar."
           },
           {
             "type": "p",
-            "text": "En sağlıklı yapı; güçlü ilk slayt, kısa ve sindirilebilir orta slaytlar, sonda özet + tek CTA ve raporlanabilir KPI setidir. Otel ve B2B hesaplarında carousel’leri topic cluster ile eşleştirmek, hem sosyal medya hem organik içerik otoritesini aynı anda destekler."
+            "text": "En sağlıklı yapı; güçlü ilk slayt, kısa ve sindirilebilir orta slaytlar, sonda özet + tek CTA ve raporlanabilir KPI setidir. Otel ve B2B hesaplarında carousel’leri topic cluster ile eşleştirmek, hem sosyal medya hem organik içerik otoritesini aynı anda destekler. Bunu ekip içinde sistematik hale getirmek için [eğitici carousel içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımıyla ilerleyip detaylar için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -20921,7 +21374,7 @@
             "variant": "secondary",
             "label": "Carousel Post Tasarım & Metin Planlama Şablonunu İndir",
             "text": "5–8 slaytlık akışı 20 dakikada yazar; metin yoğunluğunu düşürüp kaydırma oranını artırırsınız.",
-            "href": "/tr/smm/analiz-raporlama"
+            "href": "/downloads/carousel-post-tasarim-metin-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -20971,8 +21424,8 @@
           "Canonical: /tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "Primary CTA hedefi: /tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi: /tr/smm/analiz-raporlama",
-          "Destek iç linki: /tr/seo/icerik-seo",
+          "Secondary CTA hedefi: /downloads/carousel-post-tasarim-metin-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi, /tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi, /tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama, /tr/seo/icerik-seo, /tr/smm/analiz-raporlama, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
           "Download asset tipi: template",
           "Carousel akışı: problem→neden→çözüm→özet",
           "KPI seti: kaydetme, paylaşma, slayt tamamlama, profil tıklaması, DM/lead",
@@ -21031,7 +21484,7 @@
     },
     "h1": {
       "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
-      "intro": "Sosyal medya yönetiminde en yıpratıcı soru şudur: “Bu hafta ne paylaşacağız?” Bu soruyu her hafta sıfırdan soran ekipler ya bir süre sonra kopar ya da rastgele paylaşımla kaliteyi düşürür. Serileşmiş içerik mantığı bu soruyu ortadan kaldırır: siz bir kez “haftalık omurgayı” kurarsınız; sonra sadece o omurga üzerinde konu ve örnekleri güncellersiniz. Kullanıcı tarafında ise çok net bir kazanım oluşur: “Bu hesap her pazartesi X paylaşıyor” beklentisi, alışkanlık ve sadakat üretir.\n\nBu rehberde; seri mantığının neden işe yaradığını, haftalık format örneklerini, otel ve B2B için uygulanabilir seri setlerini, seri isimlendirme–şablon–caption kalıplarını ve performansa göre devam/bitir kararını nasıl alacağınızı adım adım ele alacağız.",
+      "intro": "Sosyal medya yönetiminde en yıpratıcı soru şudur: “Bu hafta ne paylaşacağız?” Bu soruyu her hafta sıfırdan soran ekipler ya bir süre sonra kopar ya da rastgele paylaşımla kaliteyi düşürür. Serileşmiş içerik mantığı bu soruyu ortadan kaldırır: siz bir kez “haftalık omurgayı” kurarsınız; sonra sadece o omurga üzerinde konu ve örnekleri güncellersiniz. Kullanıcı tarafında ise çok net bir kazanım oluşur: “Bu hesap her pazartesi X paylaşıyor” beklentisi, alışkanlık ve sadakat üretir.\n\nBu rehberde; seri mantığının neden işe yaradığını, haftalık format örneklerini, otel ve B2B için uygulanabilir seri setlerini, seri isimlendirme–şablon–caption kalıplarını ve performansa göre devam/bitir kararını nasıl alacağınızı adım adım ele alacağız.\n\nBu yapıyı içerik sistemi tarafında düşünürken, [serileşmiş içerik nedir](/tr/smm/icerik-uretimi) sorusunun pratik cevabı da tam burada başlar.",
       "quickSummary": [
         "1) 2–4 mini seri seç; fazlası sürdürülemez.",
         "2) Her seri için gün, format, isim, görsel şablon ve caption kalıbı belirle.",
@@ -21042,43 +21495,71 @@
       "ctaPrimary": {
         "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
         "text": "Haftalık içerik omurgasını kurup sürdürülebilir yayın ritmi isteyen otel ve B2B ekipleri için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
         "text": "Haftalık içerik omurgası kurup takipçide “beklenen içerik” alışkanlığı oluşturmak isteyen markalar için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "Serileşmiş İçerik & Haftalık Format Planlama Şablonunu İndir",
         "text": "2–4 seri için gün–format–CTA planını 30 dakikada çıkarır; üretimi sürdürülebilir hale getirirsiniz.",
-        "href": "/smm/planlama-strateji"
+        "href": "/downloads/serilesmis-icerik-haftalik-format-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "SMM Planlama Strateji",
-        "href": "/smm/planlama-strateji"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "SMM Analiz Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+        "href": "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
+      },
+      {
+        "label": "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+        "href": "/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      },
+      {
+        "label": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      },
+      {
+        "label": "SMM Planlama & Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "SMM Analiz & Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+        "href": "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
       },
       {
-        "title": "Sosyal Medya Planlama Strateji",
-        "href": "/smm/planlama-strateji"
+        "title": "Carousel Post’lar ile Eğitici ve Değer Odaklı İçerik Üretmek",
+        "href": "/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek"
+      },
+      {
+        "title": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
       }
     ],
     "sections": [
@@ -21096,7 +21577,7 @@
           },
           {
             "type": "p",
-            "text": "Serinin gücü “aynı şeyi tekrar etmek” değil; aynı çerçeveyi tekrar etmektir. İçerik değişir, format aynı kalır. Böylece algoritmik olarak da tutarlı sinyal oluşur: belirli günlerde belirli etkileşim türleri."
+            "text": "Serinin gücü “aynı şeyi tekrar etmek” değil; aynı çerçeveyi tekrar etmektir. İçerik değişir, format aynı kalır. Böylece algoritmik olarak da tutarlı sinyal oluşur: belirli günlerde belirli etkileşim türleri. Bu yüzden [sosyal medya yönetimi içinde mini seriler](/tr/sosyal-medya-yonetimi), yalnızca içerik fikri değil; yayın disiplini ve takipçi beklentisi kuran bir sistem olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -21135,7 +21616,7 @@
             "variant": "primary",
             "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
             "text": "Haftalık içerik omurgasını kurup sürdürülebilir yayın ritmi isteyen otel ve B2B ekipleri için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -21149,7 +21630,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Seri kurgularken amaç; haftanın her gününü doldurmak değil, haftanın “çapalarını” koymaktır. En iyi başlangıç: haftada 2–3 seri. Her seri, farklı bir funnel ve KPI’yı hedefler: ipucu = kaydetme; case = güven; SSS = DM ve itiraz azaltma."
+            "text": "Seri kurgularken amaç; haftanın her gününü doldurmak değil, haftanın “çapalarını” koymaktır. En iyi başlangıç: haftada 2–3 seri. Her seri, farklı bir funnel ve KPI’yı hedefler: ipucu = kaydetme; case = güven; SSS = DM ve itiraz azaltma. Bu seçimler [stratejiye bağlı haftalık içerik formatları](/tr/smm/planlama-strateji) ile yapıldığında seri yapısı daha tutarlı ilerler."
           },
           {
             "type": "h3",
@@ -21160,7 +21641,7 @@
             "variant": "answer",
             "title": "AEO – net cevap",
             "items": [
-              "Önce 2–3 seri seçin ve her birini bir günle sabitleyin. Sonra her seri için formatı (carousel/reels/story) ve CTA’yı belirleyin. 30 gün boyunca aynı ritmi koruyup KPI ile ölçün; tutan serileri büyütün, tutmayanları değiştirin."
+              "Önce 2–3 seri seçin ve her birini bir günle sabitleyin. Sonra her seri için formatı (carousel/reels/story) ve CTA’yı belirleyin. 30 gün boyunca aynı ritmi koruyup KPI ile ölçün; tutan serileri büyütün, tutmayanları değiştirin. Bunu [aylık içerik takviminde mini seriler](/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur) mantığıyla 4 haftalık plana dağıtın."
             ]
           },
           {
@@ -21278,7 +21759,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Seriler “sektöre göre” isim ve içerik değiştirir. Otelde seri, deneyim ve destinasyonla zenginleşir; B2B’de seri, know-how ve kanıtla güçlenir."
+            "text": "Seriler “sektöre göre” isim ve içerik değiştirir. Otelde seri, deneyim ve destinasyonla zenginleşir; B2B’de seri, know-how ve kanıtla güçlenir. Bu noktada özellikle [eğitici carousel serileri](/tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek) ile bilgi aktarımı yapmak, tekrar eden serileri hem daha öğretici hem de daha kaydedilebilir hale getirir."
           },
           {
             "type": "h3",
@@ -21296,7 +21777,7 @@
           },
           {
             "type": "p",
-            "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlar “Şehri Keşfet” serisinde doğal geçebilir."
+            "text": "GEO (doğal): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlar “Şehri Keşfet” serisinde doğal geçebilir. Aynı akışı story tarafında soru-cevap, mini quiz ve tercih anketleriyle desteklemek isterseniz [story formatlarıyla engagement artırma](/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement) yaklaşımı seri mantığını güçlendirir."
           },
           {
             "type": "h3",
@@ -21414,7 +21895,7 @@
             "variant": "answer",
             "title": "AEO – net cevap",
             "items": [
-              "Seriyi en az 4 hafta çalıştırın ve seri bazında KPI izleyin: kaydetme, paylaşma, completion, DM, profil tıklaması. KPI yükselmiyor ve “exits/forward” artıyorsa formatı değiştirin veya seriyi kapatın. Seri iyi gidiyorsa, aynı formatla konu havuzunu genişletin."
+              "Seriyi en az 4 hafta çalıştırın ve seri bazında KPI izleyin: kaydetme, paylaşma, completion, DM, profil tıklaması. KPI yükselmiyor ve “exits/forward” artıyorsa formatı değiştirin veya seriyi kapatın. Seri iyi gidiyorsa, aynı formatla konu havuzunu genişletin. Bunu düzenli bir [seri içerik performans analizi](/tr/smm/analiz-raporlama) ile takip edin."
             ]
           },
           {
@@ -21458,14 +21939,14 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Birçok ekip seri kuruyor ama sezon/kampanya geldiğinde tamamen bozuyor. Oysa doğru sistem: seriler omurga, kampanyalar “özel slot”tur. Sheet notu da bunu söylüyor: sezon ve kampanya dönemlerinde bazı serilerin geçici olarak yerini kampanya içeriklerine bırakması planlamada düşünülmeli."
+            "text": "Birçok ekip seri kuruyor ama sezon/kampanya geldiğinde tamamen bozuyor. Oysa doğru sistem: seriler omurga, kampanyalar “özel slot”tur. Sheet notu da bunu söylüyor: sezon ve kampanya dönemlerinde bazı serilerin geçici olarak yerini kampanya içeriklerine bırakması planlamada düşünülmeli. Özellikle [otel için seri içerik fikirleri](/tr/otel/sosyal-medya) üreten markalarda bu esneklik; sezon, kampanya ve deneyim içeriklerini bozmadan feed disiplinini korumayı kolaylaştırır."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
             "text": "Serilerinizi sezona uyumlu omurgaya oturtmak isteyen ekipler için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -21498,18 +21979,22 @@
             "text": "En sağlıklı model; 2–4 mini seriyle başlamak, her seri için isim–şablon–caption–CTA kalıbını netleştirmek ve 30 gün sonunda KPI ile devam/yenile/bitir kararı vermektir. Sezon ve kampanya dönemlerinde serileri tamamen bozmak yerine esnek slot mantığıyla omurgayı korumak, uzun vadeli feed kurgusunu daha sürdürülebilir hale getirir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı markanıza göre kurmak isterseniz [düzenli sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımını inceleyebilir, süreç ve kapsam detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Seri & Haftalık Format Strateji Analizi Talep Et",
             "text": "Haftalık içerik omurgası kurup takipçide “beklenen içerik” alışkanlığı oluşturmak isteyen markalar için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Serileşmiş İçerik & Haftalık Format Planlama Şablonunu İndir",
             "text": "2–4 seri için gün–format–CTA planını 30 dakikada çıkarır; üretimi sürdürülebilir hale getirirsiniz.",
-            "href": "/smm/planlama-strateji"
+            "href": "/downloads/serilesmis-icerik-haftalik-format-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -21558,22 +22043,20 @@
           "Haftalık seri format takvimi görseli + grid mockup"
         ],
         "technicalChecklist": [
-          "Primary CTA hedefi: https://dgtlface.com/tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi: https://dgtlface.com/tr/smm/planlama-strateji",
-          "Ölçüm linki: https://dgtlface.com/tr/smm/analiz-raporlama",
+          "Canonical: /tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/serilesmis-icerik-haftalik-format-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/planlama-strateji, /tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur, /tr/smm/blog/carousel-postlar-ile-egitici-ve-deger-odakli-icerik-uretmek, /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement, /tr/smm/analiz-raporlama, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: template",
           "2–4 seri seçildi mi?",
           "Gün ve format sabitlendi mi?",
           "Her seri için hook + CTA kalıbı yazıldı mı?",
           "4 haftalık konu havuzu var mı?",
           "Seri KPI’ları raporda etiketleniyor mu?",
           "Sezon/kampanya için esnek slot var mı?",
-          "Seri kartları (2–4 adet)",
           "Haftalık seri takvimi (4 hafta)",
-          "Hook + CTA kalıp bankası",
-          "Grid mockup örneği",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "Canonical kontrolü yapıldı",
-          "İç linklerde kırık link ve redirect zinciri yok"
+          "Grid mockup örneği"
         ]
       }
     }
@@ -21628,7 +22111,7 @@
     },
     "h1": {
       "title": "AI Destekli Sosyal Medya İçerik Üretimi ve İnsan Kreatif Dengesi",
-      "intro": "AI ile içerik üretmek artık “yapılır mı?” sorusu değil; “nasıl yapılırsa güvenli ve marka uyumlu olur?” sorusu. Çünkü AI size hız ve fikir verir; ama aynı zamanda tekdüzelik, yanlış bilgi, telif/izin ve “AI kokusu” riski de getirir. Özellikle otel ve hizmet markalarında, bağlam ve gerçeklik çok kritik olduğu için “otomatik üretim” yerine hibrit üretim gerekir.\n\nBu rehberde; AI’ı hangi aşamalarda kullanacağınızı (fikir–taslak–script), insan kreatifin rolünü (ton, özgünlük, saha bilgisi, son karar), riskleri ve güvenli kontrol mekanizmalarını anlatacağız. Sonunda da pratik bir AI+insan üretim akışı ve kontrol listesiyle sistemi kilitleyeceğiz.",
+      "intro": "AI ile içerik üretmek artık “yapılır mı?” sorusu değil; “nasıl yapılırsa güvenli ve marka uyumlu olur?” sorusu. Çünkü AI size hız ve fikir verir; ama aynı zamanda tekdüzelik, yanlış bilgi, telif/izin ve “AI kokusu” riski de getirir. Özellikle otel ve hizmet markalarında, bağlam ve gerçeklik çok kritik olduğu için “otomatik üretim” yerine hibrit üretim gerekir.\n\nBu rehberde; AI’ı hangi aşamalarda kullanacağınızı (fikir–taslak–script), insan kreatifin rolünü (ton, özgünlük, saha bilgisi, son karar), riskleri ve güvenli kontrol mekanizmalarını anlatacağız. Sonunda da pratik bir AI+insan üretim akışı ve kontrol listesiyle sistemi kilitleyeceğiz.\n\nBugün bu yaklaşımı [AI destekli sosyal medya içeriği](/tr/smm/icerik-uretimi) üretim sistemi içinde düşünmek, yalnız hız değil kalite kontrol açısından da kritik hale geldi.",
       "quickSummary": [
         "1) AI’ı tek başına içerik üreticisi değil, fikir–taslak–script asistanı olarak konumlandır.",
         "2) İnsan kreatif tonu, özgünlüğü, saha bilgisini ve son kararı üstlenmeli.",
@@ -21639,43 +22122,71 @@
       "ctaPrimary": {
         "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
         "text": "AI ile hızlanırken marka tonu ve güveni korumak isteyen ekipler için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
         "text": "AI ile hızlanırken marka tonu, doğruluk ve özgünlüğü korumak isteyen ekipler için.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "AI Destekli SMM İçerik Üretim Akışı & Kontrol Listesini İndir",
         "text": "Üretimi adımlara böler; her içerikte doğruluk–telif–AI kokusu riskini yayın öncesi yakalarsınız.",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/downloads/ai-destekli-smm-icerik-uretim-akisi-kontrol-listesi-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "KVKK Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "label": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      },
+      {
+        "label": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "label": "Sosyal Arama ve Social SEO: Caption, Hashtag ve Metinde Anahtar Kelimeler",
+        "href": "/tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler"
+      },
+      {
+        "label": "SEO İçerik",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "KVKK ve Veri Güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "SMM Planlama & Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
-        "href": "/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
+        "title": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "title": "Sosyal Arama ve Social SEO: Caption, Hashtag ve Metinde Anahtar Kelimeler",
+        "href": "/tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler"
       }
     ],
     "sections": [
@@ -21689,11 +22200,11 @@
           },
           {
             "type": "p",
-            "text": "AI’nin en güçlü olduğu yer “boş sayfa” problemidir. Konu havuzu üretmek, seri fikirleri bulmak, farklı açılar önermek ve topic cluster’a göre başlık varyasyonları çıkarmak için idealdir. Burada kritik nokta: AI’dan “tek doğru fikir” beklemek değil, 10–20 seçenek alıp insanın seçmesidir."
+            "text": "AI’nin en güçlü olduğu yer “boş sayfa” problemidir. Konu havuzu üretmek, seri fikirleri bulmak, farklı açılar önermek ve topic cluster’a göre başlık varyasyonları çıkarmak için idealdir. Burada kritik nokta: AI’dan “tek doğru fikir” beklemek değil, 10–20 seçenek alıp insanın seçmesidir. Bu üretimin rastgele kalmaması için [AI ile content pillar fikirleri](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) mantığıyla filtrelenmesi gerekir."
           },
           {
             "type": "p",
-            "text": "AI’dan konu listesi alırken iyi brief şarttır: hedef persona, kanal, hedef KPI ve içerik formatı net olmalıdır. Otel örneklerinde “destinasyon/deneyim” bağlamı; B2B’de “problem/kanıt” bağlamı AI’a verilmezse çıkan fikirler yüzeysel kalır."
+            "text": "AI’dan konu listesi alırken iyi brief şarttır: hedef persona, kanal, hedef KPI ve içerik formatı net olmalıdır. Otel örneklerinde “destinasyon/deneyim” bağlamı; B2B’de “problem/kanıt” bağlamı AI’a verilmezse çıkan fikirler yüzeysel kalır. Bu yüzden [sosyal medya yönetimi içinde AI destekli içerik üretimi](/tr/sosyal-medya-yonetimi), yalnızca prompt yazmak değil; fikir eleme, içerik önceliği ve yayın disiplini kurmak anlamına gelir."
           },
           {
             "type": "callout",
@@ -21720,7 +22231,7 @@
             "variant": "primary",
             "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
             "text": "AI ile hızlanırken marka tonu ve güveni korumak isteyen ekipler için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -21734,11 +22245,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI caption taslaklarında hızlıdır; hook varyasyonları çıkarır, farklı CTA seçenekleri üretir, tonu “yaklaştırır”. Ama nihai ton ve bağlam kararını insan vermelidir. Çünkü marka dili çoğu zaman ince ayar ister: bazı kelimeler yasaktır, bazı kelimeler tercih edilir, bazı ifadeler sektör için risklidir."
+            "text": "AI caption taslaklarında hızlıdır; hook varyasyonları çıkarır, farklı CTA seçenekleri üretir, tonu “yaklaştırır”. Ama nihai ton ve bağlam kararını insan vermelidir. Çünkü marka dili çoğu zaman ince ayar ister: bazı kelimeler yasaktır, bazı kelimeler tercih edilir, bazı ifadeler sektör için risklidir. Bu yüzden [ChatGPT ile caption yazmak](/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi) tek başına yeterli değildir."
           },
           {
             "type": "p",
-            "text": "Özellikle otel içeriklerinde “vaat” dili ve bilgi doğruluğu önemlidir. B2B’de ise abartı, ölçüsüz iddia ve jargon riski yüksektir. AI taslağı bu riskleri artırabilir; insan editör burada devreye girer."
+            "text": "Özellikle otel içeriklerinde “vaat” dili ve bilgi doğruluğu önemlidir. B2B’de ise abartı, ölçüsüz iddia ve jargon riski yüksektir. AI taslağı bu riskleri artırabilir; insan editör burada devreye girer. Aynı zamanda [social SEO uyumlu AI caption üretimi](/tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler) yaklaşımıyla anahtar kelime, hashtag ve platform içi arama niyeti de ayrıca kontrol edilmelidir."
           },
           {
             "type": "h3",
@@ -21890,7 +22401,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yüzden AI burada “iskelet” üretir; insan kreatif “sahne seçimi” yapar: hangi açı, hangi gerçek örnek, hangi çekim."
+            "text": "Bu yüzden AI burada “iskelet” üretir; insan kreatif “sahne seçimi” yapar: hangi açı, hangi gerçek örnek, hangi çekim. Burada ayrıca [SEO içerik stratejisiyle uyumlu sosyal medya fikirleri](/tr/seo/icerik-seo) üretmek, aynı konunun blog, landing page ve sosyal medya akışında birbirini beslemesini sağlar."
           },
           {
             "type": "h3",
@@ -21952,7 +22463,7 @@
           },
           {
             "type": "p",
-            "text": "AI aynı görünme problemi genelde insan editör yokluğundan çıkar: herkes aynı prompt’la aynı dilde yazınca, tüm içerikler “benzer” olur. İnsan kreatif farklılaştırmayı sağlar: marka hikâyesi, gerçek vaka, saha detayı ve özgün görsel."
+            "text": "AI aynı görünme problemi genelde insan editör yokluğundan çıkar: herkes aynı prompt’la aynı dilde yazınca, tüm içerikler “benzer” olur. İnsan kreatif farklılaştırmayı sağlar: marka hikâyesi, gerçek vaka, saha detayı ve özgün görsel. Bu nedenle [insan kreatif ve yapay zeka dengesi](/tr/smm/planlama-strateji), sadece operasyonel değil; hedef kitle, marka tonu ve kampanya hedefiyle ilgili stratejik bir karardır."
           },
           {
             "type": "h3",
@@ -22008,7 +22519,7 @@
           },
           {
             "type": "p",
-            "text": "Sheet teknik notu net: AI ile üretilen metinlerin hatalı bilgi ve telif riskleri açısından her zaman insan tarafından kontrol edilmesi gerekir. Özellikle otel/turizmde “yanlış bilgi” doğrudan güven kaybıdır; B2B’de ise “abartı iddia” itibar riskidir."
+            "text": "Sheet teknik notu net: AI ile üretilen metinlerin hatalı bilgi ve telif riskleri açısından her zaman insan tarafından kontrol edilmesi gerekir. Özellikle otel/turizmde “yanlış bilgi” doğrudan güven kaybıdır; B2B’de ise “abartı iddia” itibar riskidir. Ayrıca [AI kullanımında KVKK ve veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi) açısından müşteri bilgisi, özel kampanya verisi ve kişisel verilerin prompt içine taşınmaması gerekir."
           },
           {
             "type": "h3",
@@ -22074,7 +22585,7 @@
             "variant": "primary",
             "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
             "text": "Hibrit üretim modelini ekibinize uygun iş akışına çevirmek isteyenler için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -22095,18 +22606,22 @@
             "text": "En sağlıklı model; AI’ı asistan, insan kreatifi editör ve son karar verici olarak konumlandıran hibrit workflow’dur. Bu yapı, üretim hızını artırırken “AI kokusu”, yanlış bilgi, tekdüzelik ve marka uyumsuzluğu risklerini kontrol altında tutar."
           },
           {
+            "type": "p",
+            "text": "Bu modeli markanıza uyarlamak isterseniz [AI destekli sosyal medya içerik üretimi workflow’u](/tr/smm/icerik-uretimi) yaklaşımını inceleyebilir, süreç ve kapsam detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI + İnsan İçerik Üretim Strateji Analizi Talep Et",
             "text": "AI ile hızlanırken marka tonu, doğruluk ve özgünlüğü korumak isteyen ekipler için.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "AI Destekli SMM İçerik Üretim Akışı & Kontrol Listesini İndir",
             "text": "Üretimi adımlara böler; her içerikte doğruluk–telif–AI kokusu riskini yayın öncesi yakalarsınız.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/downloads/ai-destekli-smm-icerik-uretim-akisi-kontrol-listesi-v1.0.pdf"
           }
         ]
       }
@@ -22154,9 +22669,12 @@
           "Workflow diyagramı + “AI taslak vs insan final” karşılaştırma görseli"
         ],
         "technicalChecklist": [
-          "Primary CTA hedefi: https://dgtlface.com/tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi önerisi: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
-          "Destek link: https://dgtlface.com/tr/seo/icerik-seo",
+          "Canonical: /tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/ai-destekli-smm-icerik-uretim-akisi-kontrol-listesi-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi, /tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi, /tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler, /tr/seo/icerik-seo, /tr/raporlama/kvkk-veri-guvenligi, /tr/smm/planlama-strateji, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: checklist",
           "İçeriğin hedefi net mi?",
           "Hedef persona ve kanal yazıldı mı?",
           "AI’dan en az 10 varyasyon alındı mı?",
@@ -22166,16 +22684,9 @@
           "Marka tonu kontrolü yapıldı mı (kelime listesi, üslup)?",
           "“AI kokusu” taraması yapıldı mı?",
           "Tek mesaj + tek CTA kuralı sağlandı mı?",
-          "Yayın sonrası ölçüm etiketi eklendi mi?",
           "AI brief şablonu",
           "Brand voice sözlüğü",
-          "Hook + CTA kalıp bankası",
-          "Reels & carousel storyboard şablonları",
-          "Yayın öncesi risk kontrol checklist’i",
-          "Sprint retrospektif şablonu",
-          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "Canonical kontrolü yapıldı",
-          "İç linklerde kırık link ve redirect zinciri yok"
+          "Yayın öncesi risk kontrol checklist’i"
         ]
       }
     }
@@ -22230,7 +22741,7 @@
     },
     "h1": {
       "title": "Funnel Bazlı İçerik Üretimi: Farklı Aşamalar İçin Sosyal Medya Kurgusu",
-      "intro": "Sosyal medya içerik üretiminde en sık hata şudur: her post “aynı hedefe” koşar. Bir gün eğitici carousel, ertesi gün kampanya, sonra UGC… Hepsi ayrı ayrı iyi olabilir; ama eğer hangi içeriğin hangi aşamaya hizmet ettiği net değilse, sonuç “düzensiz etkileşim” ve “ölçülemeyen katkı” olur. Funnel bazlı yaklaşım bu karmaşayı çözer: her içeriğe bir rol verirsiniz ve rolüne uygun format/CTA seçersiniz. Bu rehberde 4 aşamalı modelle (awareness–consideration–conversion–loyalty) sosyal medya kurgusunu kuracağız. Otel ve B2B için örnek funnel yapıları, takvimde etiketleme, CTA seçimi ve GA4/UTM ölçüm notlarıyla “planlanabilir ve raporlanabilir” bir içerik sistemi oluşturacağız.",
+      "intro": "Sosyal medya içerik üretiminde en sık hata şudur: her post “aynı hedefe” koşar. Bir gün eğitici carousel, ertesi gün kampanya, sonra UGC… Hepsi ayrı ayrı iyi olabilir; ama eğer hangi içeriğin hangi aşamaya hizmet ettiği net değilse, sonuç “düzensiz etkileşim” ve “ölçülemeyen katkı” olur. Funnel bazlı yaklaşım bu karmaşayı çözer: her içeriğe bir rol verirsiniz ve rolüne uygun format/CTA seçersiniz. Bu rehberde 4 aşamalı modelle (awareness–consideration–conversion–loyalty) sosyal medya kurgusunu kuracağız. Otel ve B2B için örnek funnel yapıları, takvimde etiketleme, CTA seçimi ve GA4/UTM ölçüm notlarıyla “planlanabilir ve raporlanabilir” bir içerik sistemi oluşturacağız. Bu yapıyı [funnel bazlı içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımıyla kurduğunuzda, her postun görevi daha net görünür.",
       "quickSummary": [
         "1) Funnel aşamalarını awareness–consideration–conversion–loyalty olarak ayır",
         "2) Her içerik için tek aşama seç ve takvimde etiketle",
@@ -22253,7 +22764,7 @@
       "secondary": {
         "label": "Funnel Aşaması → İçerik Türü & CTA Eşleştirme Şablonunu İndir",
         "text": "Takviminize aşama etiketi ekler; her içerikte doğru CTA’yı seçip raporlamada karışıklığı azaltırsınız.",
-        "href": "/tr/smm/planlama-strateji"
+        "href": "/downloads/funnel-asamasi-icerik-turu-cta-eslestirme-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -22262,22 +22773,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "SMM planlama ve strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      },
+      {
+        "label": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      },
+      {
+        "label": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+        "href": "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
       },
       {
         "label": "Satış ve dönüşüm raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "PMS / OTA Online Satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "SMM içerik üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi Nedir?",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+        "href": "/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
       },
       {
-        "title": "SMM Planlama ve Strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "title": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      },
+      {
+        "title": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+        "href": "/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
       }
     ],
     "sections": [
@@ -22295,7 +22834,7 @@
           },
           {
             "type": "p",
-            "text": "Bu modelde kritik olan şu: her aşamanın KPI’sı farklıdır. Awareness’te DM beklemek anlamsızdır; conversion’da sadece “beğeni” hedeflemek zayıftır. Bu yüzden her aşamaya farklı içerik ve CTA gerekir."
+            "text": "Bu modelde kritik olan şu: her aşamanın KPI’sı farklıdır. Awareness’te DM beklemek anlamsızdır; conversion’da sadece “beğeni” hedeflemek zayıftır. Bu yüzden her aşamaya farklı içerik ve CTA gerekir. Bu yapı, [sosyal medya yönetimi içinde funnel kurgusu](/tr/sosyal-medya-yonetimi) olarak ele alındığında daha net yönetilir."
           },
           {
             "type": "h3",
@@ -22303,7 +22842,7 @@
           },
           {
             "type": "p",
-            "text": "Funnel bazlı içerik üretimi; her içeriği awareness, consideration, conversion veya loyalty aşamasına etiketleyip o aşamaya uygun mesaj, format ve CTA ile planlamaktır. Böylece içerikler hem daha tutarlı görünür hem de ölçüm/raporlama netleşir."
+            "text": "Funnel bazlı içerik üretimi; her içeriği awareness, consideration, conversion veya loyalty aşamasına etiketleyip o aşamaya uygun mesaj, format ve CTA ile planlamaktır. Böylece içerikler hem daha tutarlı görünür hem de ölçüm/raporlama netleşir. Özellikle [awareness, consideration ve conversion içerikleri](/tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi) arasındaki fark bu etiketleme ile belirginleşir."
           },
           {
             "type": "callout",
@@ -22371,7 +22910,7 @@
           },
           {
             "type": "p",
-            "text": "Amaç: güven ve itiraz azaltma. CTA: DM’ye köprü (DM ‘TARİH’, DM ‘TEKLİF’, linke git)."
+            "text": "Amaç: güven ve itiraz azaltma. CTA: DM’ye köprü (DM ‘TARİH’, DM ‘TEKLİF’, linke git). Bu aşamada özellikle [sosyal kanıt odaklı conversion içerikleri](/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar) karar vermeye yaklaşan kullanıcıyı ikna etmekte güçlü çalışır."
           },
           {
             "type": "h3",
@@ -22388,7 +22927,7 @@
           },
           {
             "type": "p",
-            "text": "Amaç: aksiyon. CTA: tek aksiyon (rezervasyon linki / form / WhatsApp)."
+            "text": "Amaç: aksiyon. CTA: tek aksiyon (rezervasyon linki / form / WhatsApp). Özellikle teklif ve kampanya odaklı akışlarda [conversion içeriklerini online satışa bağlamak](/tr/pms-ota/online-satis) sosyal medya ile rezervasyon/satış kanalı arasındaki kopukluğu azaltır."
           },
           {
             "type": "h3",
@@ -22436,7 +22975,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aynı funnel modeli iki sektörde farklı “kanıt” diliyle çalışır. Otelde deneyim ve güven (SSS) çok kritik; B2B’de kanıt ve süreç şeffaflığı."
+            "text": "Aynı funnel modeli iki sektörde farklı “kanıt” diliyle çalışır. Otelde deneyim ve güven (SSS) çok kritik; B2B’de kanıt ve süreç şeffaflığı. Özellikle [otel dijital pazarlamada sosyal medya funnel’ı](/tr/otel-dijital-pazarlama) kurarken awareness’ten rezervasyon niyetine giden içerik zincirinin sezon ve kampanya planıyla birlikte düşünülmesi gerekir."
           },
           {
             "type": "h3",
@@ -22498,7 +23037,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Funnel yaklaşımı, takvime “tek bir sütun” ekleyerek bile ciddi fark yaratır: her içeriği aşamaya etiketlersiniz ve ay sonunda hangi aşamada eksik kaldığınızı görürsünüz. Bu yaklaşım, “rastgele içerik” yerine dengeli bir yayın karması sağlar."
+            "text": "Funnel yaklaşımı, takvime “tek bir sütun” ekleyerek bile ciddi fark yaratır: her içeriği aşamaya etiketlersiniz ve ay sonunda hangi aşamada eksik kaldığınızı görürsünüz. Bu yaklaşım, “rastgele içerik” yerine dengeli bir yayın karması sağlar. Bunu [aylık takvimde funnel dağılımı](/tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur) kurarak daha görünür hale getirebilirsiniz."
           },
           {
             "type": "h3",
@@ -22633,7 +23172,7 @@
           },
           {
             "type": "p",
-            "text": "B2B’de form submit, otelde rezervasyon tıklaması gibi event’leri funnel etiketiyle bağlamak raporlamayı netleştirir. (Buraya: /tr/raporlama/satis-donusum)"
+            "text": "B2B’de form submit, otelde rezervasyon tıklaması gibi event’leri funnel etiketiyle bağlamak raporlamayı netleştirir. Böylece [satış ve dönüşüm odaklı sosyal medya içerikleri](/tr/raporlama/satis-donusum) gerçekten hangi aşamada lead, form veya rezervasyon etkisi üretiyor daha net okunabilir."
           },
           {
             "type": "callout",
@@ -22754,6 +23293,10 @@
             "text": "En kritik nokta, bu yapıyı takvim ve ölçüm sistemine aynı anda taşımaktır. Takvimde A/C/Cv/L etiketi, linklerde UTM standardı ve GA4 tarafında event naming net olduğunda “hangi içerik hangi aşamaya hizmet etti” sorusu çok daha okunabilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı markanıza göre kurmak isterseniz [funnel bazlı sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımını inceleyebilir, süreç ve kapsam detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Funnel Bazlı İçerik Planlama Analizi Talep Et",
@@ -22765,7 +23308,7 @@
             "variant": "secondary",
             "label": "Funnel Aşaması → İçerik Türü & CTA Eşleştirme Şablonunu İndir",
             "text": "Takviminize aşama etiketi ekler; her içerikte doğru CTA’yı seçip raporlamada karışıklığı azaltırsınız.",
-            "href": "/tr/smm/planlama-strateji"
+            "href": "/downloads/funnel-asamasi-icerik-turu-cta-eslestirme-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -22812,16 +23355,16 @@
           "table-funnel-stage-content-cta — Aşama → İçerik Türü & CTA Eşleştirme Tablosu"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya",
+          "Canonical: /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 6 soru-cevap alanı hazırlanacak",
-          "İç link hedefleri kontrol edilecek: /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/raporlama/satis-donusum",
+          "FAQPage schema için 6 soru-cevap alanı hazırlandı",
           "Primary CTA hedefi: /tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/funnel-asamasi-icerik-turu-cta-eslestirme-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi, /tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar, /tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama, /tr/pms-ota/online-satis, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: template",
           "UTM şablonunda funnel etiketi kullanılacak: A_, C_, CV_, L_",
           "GA4 event naming standardı raporlama tarafında kontrol edilecek",
-          "Media pack dosya adları blog slug ile birebir uyumlu olacak",
-          "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
+          "Media pack dosya adları blog slug ile birebir uyumlu olacak"
         ]
       }
     }
@@ -22876,7 +23419,7 @@
     },
     "h1": {
       "title": "Çekim Günü Optimizasyonu: 1 Çekimle 1 Aylık Sosyal Medya İçeriği",
-      "intro": "Sosyal medya üretimi tıkandığında genelde iki sebep vardır: ya içerik fikri yoktur ya da görsel/video hammaddesi yoktur. İkinci problem daha kritik çünkü çözümü “bir post daha yazmak” değildir; çözümü planlı bir çekim günü ile içerik bankası oluşturmaktır. Tek bir çekim gününü doğru kurgularsanız; sadece Instagram feed değil, story, reels, banner ve hatta blog/web görselleri için bile ham materyal üretebilirsiniz. Bu rehber; çekim günü planlamasını (amaç–konsept–moodboard–shot list), otel ve B2B senaryolarını, tek çekimden çoklu format üretmeyi, çekim sonrası arşiv/isimlendirmeyi ve içerik takvimi entegrasyonunu “playbook” gibi adım adım verir.",
+      "intro": "Sosyal medya üretimi tıkandığında genelde iki sebep vardır: ya içerik fikri yoktur ya da görsel/video hammaddesi yoktur. İkinci problem daha kritik çünkü çözümü “bir post daha yazmak” değildir; çözümü planlı bir çekim günü ile içerik bankası oluşturmaktır. Tek bir çekim gününü doğru kurgularsanız; sadece Instagram feed değil, story, reels, banner ve hatta blog/web görselleri için bile ham materyal üretebilirsiniz. Bu rehber; çekim günü planlamasını (amaç–konsept–moodboard–shot list), otel ve B2B senaryolarını, tek çekimden çoklu format üretmeyi, çekim sonrası arşiv/isimlendirmeyi ve içerik takvimi entegrasyonunu “playbook” gibi adım adım verir. Bu modeli [çekim günü 1 ay içerik](/tr/smm/icerik-uretimi) sistemi olarak kurguladığınızda üretim tıkanıklığı ciddi ölçüde azalır.",
       "quickSummary": [
         "1) Çekimin amacını, KPI’ını ve konseptini netleştir",
         "2) Moodboard ve 30+ sahnelik shot list hazırla",
@@ -22899,7 +23442,7 @@
       "secondary": {
         "label": "Çekim Günü Shot List & 1 Ay İçerik Planlama Şablonunu İndir",
         "text": "Çekimi sahne sahne planlar; 1 günde 30 içerik parçası çıkaracak düzeni kurarsınız.",
-        "href": "/tr/creative/video-produksiyon"
+        "href": "/downloads/cekim-gunu-shot-list-1-ay-icerik-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -22908,22 +23451,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+        "href": "/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
+      },
+      {
+        "label": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+        "href": "/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi"
+      },
+      {
+        "label": "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli"
+      },
+      {
         "label": "Video prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Grafik ve motion tasarım",
         "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Otel sosyal medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM içerik üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi Nedir?",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+        "href": "/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
       },
       {
-        "title": "Video Prodüksiyon ile Sosyal Medya İçeriği Nasıl Üretilir?",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Tasarım Şablonları ile Ölçeklenebilir Sosyal Medya İçerik Üretimi",
+        "href": "/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi"
+      },
+      {
+        "title": "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli"
       }
     ],
     "sections": [
@@ -22937,7 +23508,7 @@
           },
           {
             "type": "p",
-            "text": "Çekim gününün başarısı, kameradan önce brief ile başlar. Amaç net değilse “ne denk gelirse” çekilir; sonra da “bunu nereye koyacağız?” kaosu yaşanır. Planlamada hedef: çekim gününü bir “kreatif etkinlik” değil, üretim hattı gibi yönetmek."
+            "text": "Çekim gününün başarısı, kameradan önce brief ile başlar. Amaç net değilse “ne denk gelirse” çekilir; sonra da “bunu nereye koyacağız?” kaosu yaşanır. Planlamada hedef: çekim gününü bir “kreatif etkinlik” değil, üretim hattı gibi yönetmek. Bu yüzden [sosyal medya yönetimi içinde çekim günü planı](/tr/sosyal-medya-yonetimi), yayın takvimi ve format çoğaltma sistemiyle birlikte düşünülmelidir."
           },
           {
             "type": "p",
@@ -23009,7 +23580,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Shot list herkes için aynı değildir. Otelde “deneyim ve kanıt” ön plandadır; B2B’de “insan, süreç ve güven” ön plandadır. İyi çekim günü; sektörün satın alma itirazlarını bilir ve o itirazları görselleştirir."
+            "text": "Shot list herkes için aynı değildir. Otelde “deneyim ve kanıt” ön plandadır; B2B’de “insan, süreç ve güven” ön plandadır. İyi çekim günü; sektörün satın alma itirazlarını bilir ve o itirazları görselleştirir. Özellikle turizm tarafında [1 çekimden otel için 20 içerik modeli](/tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli) çıkarmayı hedeflemek, çekim gününü fikir listesine değil gerçek içerik paketine dönüştürür."
           },
           {
             "type": "h3",
@@ -23017,7 +23588,7 @@
           },
           {
             "type": "p",
-            "text": "Otel çekiminde oda tipleri, deneyim alanları (yemek/spa/havuz), destinasyon bağlamı ve ekip hizmet anları mutlaka çekilmelidir. Amaç; kullanıcıya “gerçek deneyim” kanıtı vermek ve SSS/itirazları görsel olarak desteklemektir."
+            "text": "Otel çekiminde oda tipleri, deneyim alanları (yemek/spa/havuz), destinasyon bağlamı ve ekip hizmet anları mutlaka çekilmelidir. Amaç; kullanıcıya “gerçek deneyim” kanıtı vermek ve SSS/itirazları görsel olarak desteklemektir. Bunu sistematik kurmak için iyi bir [otel foto video shot list](/tr/otel/sosyal-medya), oda, restoran, spa, havuz ve misafir deneyimi sahnelerini önceden netleştirir."
           },
           {
             "type": "h3",
@@ -23089,7 +23660,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tek çekimden 1 aylık içerik çıkarmanın sırrı; aynı sahneyi farklı formatlara bölmektir. Bir sahne;"
+            "text": "Tek çekimden 1 aylık içerik çıkarmanın sırrı; aynı sahneyi farklı formatlara bölmektir. Bir sahne; [reels için kısa video çekim planı](/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi) düşünülmeden çekildiğinde, özellikle dikey videoda ilk 3 saniyede zayıf kalabilir."
           },
           {
             "type": "list",
@@ -23103,7 +23674,7 @@
           },
           {
             "type": "p",
-            "text": "olabilir. Bu yüzden shot list’i yazarken “hangi sahne hangi format” notu şarttır."
+            "text": "olabilir. Bu yüzden shot list’i yazarken “hangi sahne hangi format” notu şarttır. Çekim sonrasında bu materyali hızlıca yayına çevirmek için [çekim materyallerini tasarım şablonlarıyla çoğaltmak](/tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi), post, story, carousel ve reels kapağı üretimini ciddi biçimde hızlandırır."
           },
           {
             "type": "h3",
@@ -23399,7 +23970,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "TR’de çoğu kaynak çekimi kreatif açıdan anlatıyor; ancak tek çekimden çoklu sosyal format üretme ve arşiv yönetimi daha az işlenmiş (sheet). Buradaki yaklaşım, çekim gününü “kreatif” değil üretim olarak tasarlamak: shot list format etiketi, post-prod sprint, arşiv standardı ve takvim entegrasyonu."
+            "text": "TR’de çoğu kaynak çekimi kreatif açıdan anlatıyor; ancak tek çekimden çoklu sosyal format üretme ve arşiv yönetimi daha az işlenmiş (sheet). Buradaki yaklaşım, çekim gününü “kreatif” değil üretim olarak tasarlamak: shot list format etiketi, post-prod sprint, arşiv standardı ve takvim entegrasyonu. Büyük set, ışık, ses ve akış yönetimi gerektiğinde [profesyonel video prodüksiyon desteği](/tr/creative/video-produksiyon) süreci güçlendirir; çekimden çıkan materyali kampanya postu, reels kapağı ve hareketli story formatlarına yaymak için de [grafik ve motion tasarımla içerik çoğaltma](/tr/creative/grafik-motion-tasarim) kritik rol oynar."
           },
           {
             "type": "media",
@@ -23435,6 +24006,10 @@
             "text": "En kritik fark, çekimin sadece çekim anıyla sınırlı düşünülmemesidir. Format etiketi, çoklu kadraj, arşiv/isimlendirme standardı ve içerik takvimi entegrasyonu birlikte kurulursa tek çekimden 1 aylık sürdürülebilir sosyal medya akışı çıkarılabilir."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi markanıza göre kurmak isterseniz [planlı sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımını inceleyebilir, süreç ve teslimat detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Çekim Günü & İçerik Batching Analizi Talep Et",
@@ -23446,7 +24021,7 @@
             "variant": "secondary",
             "label": "Çekim Günü Shot List & 1 Ay İçerik Planlama Şablonunu İndir",
             "text": "Çekimi sahne sahne planlar; 1 günde 30 içerik parçası çıkaracak düzeni kurarsınız.",
-            "href": "/tr/creative/video-produksiyon"
+            "href": "/downloads/cekim-gunu-shot-list-1-ay-icerik-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -23493,19 +24068,18 @@
           "table-shot-list — Çekim Günü Shot List Tablosu"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi",
+          "Canonical: /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 6 soru-cevap alanı hazırlanacak",
-          "İç link hedefleri kontrol edilecek: /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon, /tr/creative/grafik-motion-tasarim",
+          "FAQPage schema için 6 soru-cevap alanı hazırlandı",
           "Primary CTA hedefi: /tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi: /tr/creative/video-produksiyon",
-          "Destek link hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/cekim-gunu-shot-list-1-ay-icerik-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi, /tr/smm/blog/tasarim-sablonlari-ile-olceklenebilir-sosyal-medya-icerik-uretimi, /tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli, /tr/creative/video-produksiyon, /tr/creative/grafik-motion-tasarim, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: template",
           "Shot list format etiketleri kullanılacak: P/S/R/W",
           "Dosya isimlendirme standardı kontrol edilecek: YYYYMMDD_mekan_tema_format_001",
           "Dikey/yatay format ihtiyaçları çekim öncesi shot list’e eklenecek",
           "Web/blog kullanılacak kareler ayrı klasörde planlanacak",
-          "Media pack dosya adları blog slug ile birebir uyumlu olacak",
-          "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
+          "Media pack dosya adları blog slug ile birebir uyumlu olacak"
         ]
       }
     }
@@ -23560,7 +24134,7 @@
     },
     "h1": {
       "title": "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçerik Üretiminin Görünmeyen Yüzü",
-      "intro": "Sosyal medyada görünür olan içerikler post’lar, reels’ler ve story’lerdir; ama görünmeyen tarafta asıl “marka deneyimi” DM ve yorumlarda yaşanır. Aynı içerik kalitesiyle iki marka arasında fark yaratan şey çoğu zaman şudur: biri mesajlara 10 dakikada net ve tutarlı yanıt verir; diğeri geç, dağınık ve farklı tonlarda yanıt verir. Kullanıcı için bu, “hizmet kalitesi” sinyalidir. Bu rehberde DM ve yorum yanıtlarını bir içerik türü olarak ele alacağız: yanıt tiplerini sınıflandıracağız (soru, şikâyet, teşekkür, fiyat, rezervasyon, demo/teklif), marka tonu ve dilini standardize edeceğiz, şablon–kişiselleştirme dengesini kuracağız ve call center/CRM/KVKK güvenli akışı ile ölçeklenebilir bir “yanıt kütüphanesi” çıkaracağız.",
+      "intro": "Sosyal medyada görünür olan içerikler post’lar, reels’ler ve story’lerdir; ama görünmeyen tarafta asıl “marka deneyimi” DM ve yorumlarda yaşanır. Aynı içerik kalitesiyle iki marka arasında fark yaratan şey çoğu zaman şudur: biri mesajlara 10 dakikada net ve tutarlı yanıt verir; diğeri geç, dağınık ve farklı tonlarda yanıt verir. Kullanıcı için bu, “hizmet kalitesi” sinyalidir. Bu rehberde DM ve yorum yanıtlarını bir içerik türü olarak ele alacağız: yanıt tiplerini sınıflandıracağız (soru, şikâyet, teşekkür, fiyat, rezervasyon, demo/teklif), marka tonu ve dilini standardize edeceğiz, şablon–kişiselleştirme dengesini kuracağız ve call center/CRM/KVKK güvenli akışı ile ölçeklenebilir bir “yanıt kütüphanesi” çıkaracağız. Bu yapıyı [DM yanıt şablonları](/tr/smm/icerik-uretimi) yaklaşımıyla kurgulamak, içerik sonrası konuşma kalitesini de standardize eder.",
       "quickSummary": [
         "1) DM ve yorum yanıtlarını da içerik türü olarak ele al",
         "2) Mesaj tiplerini soru, şikâyet, teşekkür, fiyat, rezervasyon ve demo olarak sınıflandır",
@@ -23583,7 +24157,7 @@
       "secondary": {
         "label": "DM/Yorum Yanıt Şablon & Ton Rehberi Şablonunu İndir",
         "text": "Kütüphane mantığında 30+ yanıt şablonu çıkarır; ekibinize tutarlı iletişim standardı kazandırırsınız.",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "href": "/downloads/dm-yorum-yanit-sablon-ton-rehberi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -23592,22 +24166,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      },
+      {
+        "label": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      },
+      {
+        "label": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      },
+      {
         "label": "Çağrı merkezi mesaj yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
         "label": "Çağrı merkezi rezervasyon desteği",
         "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Satış ve dönüşüm raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "SMM içerik üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi Nedir?",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
       },
       {
-        "title": "Mesaj Yönetimi ile DM Süreçleri Nasıl Standartlaştırılır?",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "Sosyal Kanıt İçerikleri: Review, Testimonial ve Case Post’ları Nasıl Kurgulanır?",
+        "href": "/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar"
+      },
+      {
+        "title": "Sosyal Medya Caption Yazımı: Hook, Ton ve CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
       }
     ],
     "sections": [
@@ -23621,11 +24223,11 @@
           },
           {
             "type": "p",
-            "text": "Yanıt içeriği, sosyal medyada “satışın ve itibarın” birleştiği noktadır. Bir kullanıcı fiyat sorar, siz cevap verirsiniz; bu bir satış konuşmasıdır. Bir kullanıcı şikâyet yazar, siz yönetirsiniz; bu itibar yönetimidir. Bir kullanıcı teşekkür eder, siz karşılık verirsiniz; bu sadakat yaratır. Yani yanıtlar; içerik üretiminin bir parçası değil, içerik üretiminin devamıdır."
+            "text": "Yanıt içeriği, sosyal medyada “satışın ve itibarın” birleştiği noktadır. Bir kullanıcı fiyat sorar, siz cevap verirsiniz; bu bir satış konuşmasıdır. Bir kullanıcı şikâyet yazar, siz yönetirsiniz; bu itibar yönetimidir. Bir kullanıcı teşekkür eder, siz karşılık verirsiniz; bu sadakat yaratır. Yani yanıtlar; içerik üretiminin bir parçası değil, içerik üretiminin devamıdır. Bu yüzden [sosyal medya yönetimi içinde DM ve yorum akışı](/tr/sosyal-medya-yonetimi), yalnızca içerik yayınlamayı değil; gelen soruları, fiyat taleplerini ve lead akışını doğru dille yönetmeyi de kapsar."
           },
           {
             "type": "p",
-            "text": "Özellikle otel ve yüksek hacimli işletmelerde (rezervasyon, transfer, iptal, çocuk politikası gibi) aynı sorular tekrar eder. B2B’de de demo/teklif, kapsam, süre, fiyat gibi tekrar eden sorular vardır. Kütüphane mantığı burada devreye girer: “tek sefer yaz, doğru kullan”."
+            "text": "Özellikle otel ve yüksek hacimli işletmelerde (rezervasyon, transfer, iptal, çocuk politikası gibi) aynı sorular tekrar eder. B2B’de de demo/teklif, kapsam, süre, fiyat gibi tekrar eden sorular vardır. Kütüphane mantığı burada devreye girer: “tek sefer yaz, doğru kullan”. Üstelik bu konuşmaların büyük bölümü içerikteki CTA diliyle başlar; [CTA ile yorum ve DM oluşturmak](/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi) doğru kurgulanmadığında ekip yanlış beklentili mesajlarla uğraşır."
           },
           {
             "type": "h3",
@@ -23633,7 +24235,7 @@
           },
           {
             "type": "p",
-            "text": "En iyi yaklaşım: hızlı, net ve tek aksiyonlu yanıt vermektir. Önce soruyu anladığınızı gösterin, kısa cevap verin, gerekiyorsa 1 net soru sorun ve bir sonraki adımı (DM/telefon/link) belirtin. Şikâyette empati→çözüm→kapanış akışı kullanın; hassas veriyi DM’de istemeyin."
+            "text": "En iyi yaklaşım: hızlı, net ve tek aksiyonlu yanıt vermektir. Önce soruyu anladığınızı gösterin, kısa cevap verin, gerekiyorsa 1 net soru sorun ve bir sonraki adımı (DM/telefon/link) belirtin. Şikâyette empati→çözüm→kapanış akışı kullanın; hassas veriyi DM’de istemeyin. Bu standardı ekip içinde bozmadan yürütmek için [CTA sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) yaklaşımı kritik hale gelir."
           },
           {
             "type": "callout",
@@ -23667,7 +24269,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Yanıtların ölçeklenmesi için önce “gelen mesajları” sınıflandırmak gerekir. Çünkü fiyat sorusuna verilen dil ile şikâyete verilen dil aynı olamaz. Ayrıca yorumlar “herkese açık” olduğu için DM’den farklı risk taşır: gereksiz detay veya hassas bilgi paylaşılmaz."
+            "text": "Yanıtların ölçeklenmesi için önce “gelen mesajları” sınıflandırmak gerekir. Çünkü fiyat sorusuna verilen dil ile şikâyete verilen dil aynı olamaz. Ayrıca yorumlar “herkese açık” olduğu için DM’den farklı risk taşır: gereksiz detay veya hassas bilgi paylaşılmaz. Özellikle anket, soru kutusu ve sticker akışlarından gelen konuşmaları düzenli yönetmek için [story sonrası DM akışı](/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement) mantığıyla çalışmak iş yükünü ciddi biçimde sadeleştirir."
           },
           {
             "type": "h3",
@@ -23691,7 +24293,7 @@
           },
           {
             "type": "p",
-            "text": "Fiyat/rezervasyon yanıtı; tek cümle netlik + 1 kısa soru + tek aksiyonla çalışır. “Fiyat tarih ve oda tipine göre değişiyor; tarihinizi ve kişi sayınızı yazın, en uygun seçenekleri hemen paylaşalım” gibi. Alternatif olarak güvenli bir link veya çağrı merkezi yönlendirmesi eklenir."
+            "text": "Fiyat/rezervasyon yanıtı; tek cümle netlik + 1 kısa soru + tek aksiyonla çalışır. “Fiyat tarih ve oda tipine göre değişiyor; tarihinizi ve kişi sayınızı yazın, en uygun seçenekleri hemen paylaşalım” gibi. Alternatif olarak güvenli bir link veya çağrı merkezi yönlendirmesi eklenir. Burada iyi bir [otel DM fiyat cevabı örneği](/tr/cagri-merkezi/rezervasyon-destegi), tarih, kişi sayısı ve müsaitlik bilgisini toplarken kullanıcıyı rezervasyon akışına doğal şekilde taşır."
           },
           {
             "type": "callout",
@@ -23725,7 +24327,7 @@
           },
           {
             "type": "p",
-            "text": "Şablonlar işe yarar ama “robot” gibi görünürse zarar verir. Burada çözüm: şablonun %80’i sabit kalsın, %20’si kişiselleşsin. Kişiselleştirme; ad, tarih, ihtiyacın tekrarı ve küçük bir sıcak cümle olabilir. Ton; otelde misafirperver ve pratik, B2B’de net ve profesyonel olmalıdır."
+            "text": "Şablonlar işe yarar ama “robot” gibi görünürse zarar verir. Burada çözüm: şablonun %80’i sabit kalsın, %20’si kişiselleşsin. Kişiselleştirme; ad, tarih, ihtiyacın tekrarı ve küçük bir sıcak cümle olabilir. Ton; otelde misafirperver ve pratik, B2B’de net ve profesyonel olmalıdır. Özellikle olumlu/olumsuz review akışlarında [sosyal kanıt yorumlarına cevap vermek](/tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar), markanın güven algısını doğrudan etkiler."
           },
           {
             "type": "p",
@@ -24054,7 +24656,7 @@
           },
           {
             "type": "p",
-            "text": "Varsayım: DM’de sadece minimum bilgi (tarih, kişi sayısı, genel ihtiyaç) alınır; kişisel/hassas veri güvenli kanala taşınır."
+            "text": "Varsayım: DM’de sadece minimum bilgi (tarih, kişi sayısı, genel ihtiyaç) alınır; kişisel/hassas veri güvenli kanala taşınır. Bu akışın gerçekten işe yarayıp yaramadığını görmek için [DM ve yorumların satışa etkisi](/tr/raporlama/satis-donusum) lead, rezervasyon ve form dönüşümü üzerinden ayrıca ölçülmelidir."
           },
           {
             "type": "callout",
@@ -24120,6 +24722,10 @@
             "text": "Doğru model, şablon ve kişiselleştirmeyi birlikte kullanmaktır. Şablonlar ekip hızını artırır, kişiselleştirme güven verir, KVKK güvenli kanal standardı ise riski azaltır. Böylece DM’den rezervasyon/lead akışı daha temiz, ölçülebilir ve marka diline uygun şekilde yönetilebilir."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi markanıza göre kurmak isterseniz [sosyal medya içerik üretimi ve yanıt şablonları](/tr/smm/icerik-uretimi) yaklaşımını inceleyebilir, süreç ve kapsam detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "DM & Yorum Yanıt İçerik Analizi Talep Et",
@@ -24131,7 +24737,7 @@
             "variant": "secondary",
             "label": "DM/Yorum Yanıt Şablon & Ton Rehberi Şablonunu İndir",
             "text": "Kütüphane mantığında 30+ yanıt şablonu çıkarır; ekibinize tutarlı iletişim standardı kazandırırsınız.",
-            "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+            "href": "/downloads/dm-yorum-yanit-sablon-ton-rehberi-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -24178,19 +24784,18 @@
           "table-dm-comment-response-template — DM/Yorum Tipi → Yanıt Şablonu Tablosu"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu",
+          "Canonical: /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 6 soru-cevap alanı hazırlanacak",
-          "İç link hedefleri kontrol edilecek: /tr/smm/icerik-uretimi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi",
+          "FAQPage schema için 6 soru-cevap alanı hazırlandı",
           "Primary CTA hedefi: /tr/smm/icerik-uretimi",
-          "Secondary CTA hedefi: /tr/cagri-merkezi/mesaj-yonetimi",
-          "Destek link hedefi: /tr/cagri-merkezi/rezervasyon-destegi",
+          "Secondary CTA hedefi: /downloads/dm-yorum-yanit-sablon-ton-rehberi-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/icerik-uretimi, /tr/sosyal-medya-yonetimi, /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement, /tr/smm/blog/sosyal-kanit-icerikleri-review-testimonial-ve-case-postlar, /tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi/rezervasyon-destegi, /tr/raporlama/satis-donusum, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: template",
           "DM/yorum şablonlarında değişken alanlar kullanılacak: {isim}, {tarih}, {kişi}, {oda_tipi}, {hedef}, {kanal_link}, {telefon}",
           "KVKK güvenli kanal standardı UI’da hassas veri uyarısı olarak ele alınacak",
           "Yanıt şablonları kısa/orta/uzun seviye yapısıyla kurgulanacak",
           "Şikâyet akışı empati→çözüm→kapanış olarak standardize edilecek",
-          "Media pack dosya adları blog slug ile birebir uyumlu olacak",
-          "Download asset template içeriği UI’da secondary CTA ile bağlanacak"
+          "Media pack dosya adları blog slug ile birebir uyumlu olacak"
         ]
       }
     }
@@ -24244,7 +24849,7 @@
     },
     "h1": {
       "title": "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak",
-      "intro": "Trend sesler, meme formatları ve “o an popüler olan” şakalar; doğru yapıldığında erişimi zıplatır. Ama marka tarafında kritik gerçek şudur: trend içerik yüksek kaldıraçlıdır — hem iyiye hem kötüye. Bir “uyumsuz” meme; bir yıl boyunca biriktirdiğiniz güveni bir günde zedeleyebilir. Bu yüzden trend içerik üretimi, kreatif bir oyun olduğu kadar risk yönetimi disiplinidir.\n\nBu rehberde; trend/meme içeriklerinin ne olduğunu, hangi trendin marka için uygun olup olmadığını nasıl filtreleyeceğinizi, otel ve B2B’de güvenli kullanım alanlarını, kırmızı çizgileri ve onay sürecini bir “guardrails” sistemiyle kuracağız.",
+      "intro": "Trend sesler, meme formatları ve “o an popüler olan” şakalar; doğru yapıldığında erişimi zıplatır. Ama marka tarafında kritik gerçek şudur: trend içerik yüksek kaldıraçlıdır — hem iyiye hem kötüye. Bir “uyumsuz” meme; bir yıl boyunca biriktirdiğiniz güveni bir günde zedeleyebilir. Bu yüzden trend içerik üretimi, kreatif bir oyun olduğu kadar risk yönetimi disiplinidir.\n\nBu rehberde; trend/meme içeriklerinin ne olduğunu, hangi trendin marka için uygun olup olmadığını nasıl filtreleyeceğinizi, otel ve B2B’de güvenli kullanım alanlarını, kırmızı çizgileri ve onay sürecini bir “guardrails” sistemiyle kuracağız. Bu çerçeveyi, [meme içerik marka sınırı](/tr/smm/icerik-uretimi) yaklaşımının pratik bir uzantısı olarak düşünebilirsiniz.",
       "quickSummary": [
         "1) Her trend kullanılmaz; önce marka tonu ve hedef kitle uyumu kontrol edilir.",
         "2) Uyum yüksek, risk düşük trendler yeşil; riskli veya uyumsuz trendler kırmızıdır.",
@@ -24267,7 +24872,7 @@
       "secondary": {
         "label": "Trend/Meme Karar Matrisi & Onay Checklist’ini İndir",
         "text": "Her trendi 60 saniyede filtreler; telif ve itibar riskini yayın öncesi yakalarsınız.",
-        "href": "/tr/smm/planlama-strateji"
+        "href": "/downloads/trend-meme-karar-matrisi-onay-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -24276,22 +24881,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Serileşmiş İçerikler",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
+      },
+      {
+        "label": "TikTok-first ve Instagram-first İçerik Stratejisi",
+        "href": "/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi"
+      },
+      {
+        "label": "Kriz Anlarında Sosyal Medya İçeriği",
+        "href": "/tr/smm/blog/kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi"
+      },
+      {
         "label": "SMM Planlama & Strateji",
         "href": "/tr/smm/planlama-strateji"
       },
       {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Serileşmiş İçerikler: Mini Seriler ve Haftalık Formatlarla Feed’i Nasıl Kurgularsınız?",
+        "href": "/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama"
       },
       {
-        "title": "SMM Planlama & Strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "title": "TikTok-first ve Instagram-first İçerik Stratejisi",
+        "href": "/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi"
+      },
+      {
+        "title": "Kriz Anlarında Sosyal Medya İçeriği: Mesaj, SSS ve Pinlenmiş Post Stratejisi",
+        "href": "/tr/smm/blog/kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi"
       }
     ],
     "sections": [
@@ -24309,7 +24942,7 @@
           },
           {
             "type": "p",
-            "text": "Ancak burada bir tuzak var: trendin kalıbı hızlı anlaşılır, ama marka “kendi kimliğini” kaybedebilir. Bu nedenle trend, markaya uydurulmalı; marka trende uydurulmamalıdır."
+            "text": "Ancak burada bir tuzak var: trendin kalıbı hızlı anlaşılır, ama marka “kendi kimliğini” kaybedebilir. Bu nedenle trend, markaya uydurulmalı; marka trende uydurulmamalıdır. Çünkü [sosyal medya yönetimi içinde trend ve meme içerikleri](/tr/sosyal-medya-yonetimi), yalnızca erişim fırsatı değil; ton, risk ve onay disiplini gerektiren bir alandır."
           },
           {
             "type": "h3",
@@ -24346,7 +24979,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Trend seçimi, “ne çok izleniyor?” değil, “bizim kitle bunu nasıl algılar?” sorusudur. Burada tek bir karar modeli işinizi görür: Uyum (brand fit) × Risk (brand safety). Uyum yüksek, risk düşük olan trendler “yeşil”; uyum düşük veya risk yüksek olanlar “kırmızı”dır."
+            "text": "Trend seçimi, “ne çok izleniyor?” değil, “bizim kitle bunu nasıl algılar?” sorusudur. Burada tek bir karar modeli işinizi görür: Uyum (brand fit) × Risk (brand safety). Uyum yüksek, risk düşük olan trendler “yeşil”; uyum düşük veya risk yüksek olanlar “kırmızı”dır. Bu çerçeve, [marka stratejisine uygun meme kullanımı](/tr/smm/planlama-strateji) kararını daha savunulabilir hale getirir."
           },
           {
             "type": "h3",
@@ -24354,7 +24987,7 @@
           },
           {
             "type": "p",
-            "text": "Uygunluk; üç soruyla anlaşılır: (1) Bu şaka/format hedef kitleye hitap ediyor mu? (2) Marka tonu ve değerleriyle çelişiyor mu? (3) İçerik yanlış anlaşılmaya açık mı? Üçünde de “temiz”seniz kullanın; şüphede kaldıysanız yayınlamayın veya daha güvenli bir varyanta çevirin."
+            "text": "Uygunluk; üç soruyla anlaşılır: (1) Bu şaka/format hedef kitleye hitap ediyor mu? (2) Marka tonu ve değerleriyle çelişiyor mu? (3) İçerik yanlış anlaşılmaya açık mı? Üçünde de “temiz”seniz kullanın; şüphede kaldıysanız yayınlamayın veya daha güvenli bir varyanta çevirin. Özellikle [trend ses kullanımı riskleri](/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi), TikTok ve Instagram’da aynı hız ve anlamla çalışmadığı için platform filtresi ayrıca gerekir."
           },
           {
             "type": "h3",
@@ -24408,7 +25041,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel ve B2B’nin mizah “dozu” aynı değildir. Otelde mizah daha duygusal ve deneyim odaklı olabilir; B2B’de daha “hafif” ve sektör içi (insider) şaka çalışır. İki alanda da ortak kural: kimseyi hedef almayan, aşağılamayan, hassas gündeme girmeyen mizah."
+            "text": "Otel ve B2B’nin mizah “dozu” aynı değildir. Otelde mizah daha duygusal ve deneyim odaklı olabilir; B2B’de daha “hafif” ve sektör içi (insider) şaka çalışır. İki alanda da ortak kural: kimseyi hedef almayan, aşağılamayan, hassas gündeme girmeyen mizah. Özellikle [otel markalarında mizah ve trend içerik kullanımı](/tr/otel/sosyal-medya), misafir deneyimi ve hizmet kalitesi algısını zedelemeyecek kadar kontrollü olmalıdır."
           },
           {
             "type": "h3",
@@ -24442,7 +25075,7 @@
           },
           {
             "type": "p",
-            "text": "Trend içerik hızlıdır; ama marka değeri yavaştır. Bu yüzden “hız” adına markayı riske atmayın. Trend’i bir gün geç yakalamak sorun değildir; yanlış yapmak büyük sorundur."
+            "text": "Trend içerik hızlıdır; ama marka değeri yavaştır. Bu yüzden “hız” adına markayı riske atmayın. Trend’i bir gün geç yakalamak sorun değildir; yanlış yapmak büyük sorundur. Bunu kontrollü [haftalık trend içerik formatları](/tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama) kurarak daha güvenli hale getirebilirsiniz."
           },
           {
             "type": "h3",
@@ -24475,7 +25108,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bazı alanlar trend olsa bile markalar için yüksek risklidir. Sheet notu da net: özellikle politik/din/siyaset gibi hassas alanlardan uzak durmak; hakaret, ayrımcılık, telif gibi kurumsal riskleri göz önüne almak gerekir. Burada amaç “korkmak” değil; riskli konuları kural olarak kapatmaktır. Ekipte kural yoksa “anlık karar”larla hata riski büyür."
+            "text": "Bazı alanlar trend olsa bile markalar için yüksek risklidir. Sheet notu da net: özellikle politik/din/siyaset gibi hassas alanlardan uzak durmak; hakaret, ayrımcılık, telif gibi kurumsal riskleri göz önüne almak gerekir. Burada amaç “korkmak” değil; riskli konuları kural olarak kapatmaktır. Ekipte kural yoksa “anlık karar”larla hata riski büyür. Özellikle [kriz dönemlerinde mizah kullanımı](/tr/smm/blog/kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi), ayrı bir durdurma ve yeniden değerlendirme eşiği gerektirir."
           },
           {
             "type": "h3",
@@ -24537,7 +25170,7 @@
           },
           {
             "type": "p",
-            "text": "Trend içerik hız ister; ama hız kontrolsüzlük demek değildir. Çözüm; iki aşamalı onay + hızlı karar matrisi. Trend takibi de “her şeyi takip etmek” değil, markaya uygun kaynakları izlemek ve içeriği günlük kısa bir değerlendirmeyle filtrelemektir."
+            "text": "Trend içerik hız ister; ama hız kontrolsüzlük demek değildir. Çözüm; iki aşamalı onay + hızlı karar matrisi. Trend takibi de “her şeyi takip etmek” değil, markaya uygun kaynakları izlemek ve içeriği günlük kısa bir değerlendirmeyle filtrelemektir. Burada [benchmark ile trend içerik analizi](/tr/raporlama/benchmark-analizi), rakiplerin neyi yaptığı kadar sizin neyi almamanız gerektiğini de gösterir."
           },
           {
             "type": "h3",
@@ -24772,6 +25405,10 @@
             "text": "Güvenli yaklaşım; trendi kopyalamak değil, markaya uyarlamaktır. Uyum–risk matrisi, kırmızı çizgiler, yayın öncesi checklist ve iki aşamalı onay süreciyle trend içerik üretimi hem yaratıcı hem kontrollü hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu dengeyi ekip içinde sistematik hale getirmek için [marka kimliğine uygun sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımını guardrail, onay ve format disipliniyle birlikte ele alabilir; karar aşamasında da [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasından kapsamı inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Trend & Meme İçerik Strateji Analizi Talep Et",
@@ -24783,7 +25420,7 @@
             "variant": "secondary",
             "label": "Trend/Meme Karar Matrisi & Onay Checklist’ini İndir",
             "text": "Her trendi 60 saniyede filtreler; telif ve itibar riskini yayın öncesi yakalarsınız.",
-            "href": "/tr/smm/planlama-strateji"
+            "href": "/downloads/trend-meme-karar-matrisi-onay-checklist-v1.0.pdf"
           }
         ]
       }
@@ -24830,14 +25467,15 @@
           "table-trend-meme-karar-matrisi — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/raporlama/benchmark-analizi",
-          "CTA hedefleri: Primary /tr/smm/icerik-uretimi, Secondary /tr/smm/planlama-strateji",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı checklist + sprint plan formatında işlenmeli"
+          "Canonical: /tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/trend-meme-karar-matrisi-onay-checklist-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/planlama-strateji, /tr/smm/blog/serilesmis-icerikler-mini-seriler-ve-haftalik-formatlar-ile-feed-kurgulama, /tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi, /tr/smm/blog/kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi, /tr/otel/sosyal-medya, /tr/raporlama/benchmark-analizi, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "URL slug canlı yapı ile korundu; \"kimlihini\" varyasyonu için canonical/redirect kontrol notu eklendi",
+          "Trend, meme ve mizah içeriklerinde telif, hassas gündem ve ayrımcılık guardrail kontrolü teyit edildi",
+          "Media slotları V2.3 media pack ile eşleşmeli"
         ]
       }
     }
