@@ -467,7 +467,10 @@ export const BLOG_MAP = {
     "jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler":"BlogJamstackVeEdgeRenderingKurumsalWebSiteleriIcinYeniMimariTrendler",
     "design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi":"BlogDesignTokenVeMultiBrandDijitalEkosistemlerIcinWebAltyapisi",
     "web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin":"BlogWebUygulamalarindaMikroFrontendMimarisiKurumsalVeB2BIcin",
-    "observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":"BlogObservabilityVeLoggingKurumsalWebSitelerindeIzlenebilirlikStratejisi"
+    "observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":"BlogObservabilityVeLoggingKurumsalWebSitelerindeIzlenebilirlikStratejisi",
+    "ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler":"BlogAiDestekliWebGelistirmeVeKodUretimiBestPracticeVeRiskler",
+    "cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu":"BlogCmsPmsOtaEntegrasyonuOdaFiyatVeIcerikSenkronizasyonu",
+    "cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna":"BlogCmsCrmVeMarketingAutomationEntegrasyonuFormdanMusteriYolculuguna"
   },
    
   creative: {

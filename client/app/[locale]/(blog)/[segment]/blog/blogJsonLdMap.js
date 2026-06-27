@@ -84020,7 +84020,1189 @@ export const BLOG_JSONLD_MAP = {
 
 },
 
-"observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":{}
+"observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi",
+
+      "name": "Observability ve Logging: Kurumsal Web Sitelerinde İzlenebilirlik Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Observability",
+
+        "Logging",
+
+        "RUM",
+
+        "Error Monitoring",
+
+        "Performance Monitoring",
+
+        "Metrics",
+
+        "Tracing",
+
+        "Alerts"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#article",
+
+      "headline": "Observability ve Logging: Kurumsal Web Sitelerinde İzlenebilirlik Stratejisi",
+
+      "description": "Log–metric–trace ve RUM’u birlikte kurgulayın. CWV, JS hataları, rezervasyon/lead drop ve performans alarmı kurun. Otel/B2B için dashboard + checklist.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#howto",
+
+      "name": "Kurumsal Web İçin Observability Kurulumu",
+
+      "description": "Log, metric, trace ve RUM katmanlarını birleştirerek incident teşhisini hızlandıran izlenebilirlik altyapısı kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kritik görevleri ve sinyalleri tanımla",
+
+          "text": "Rezervasyon/lead/dashboard gibi kritik görevleri seç; her görev için log, metric ve RUM sinyallerini belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dashboard ve alarm eşiklerini kur",
+
+          "text": "Golden signals + iş KPI panelleri oluştur; baseline’a göre alarm eşikleri belirle ve aksiyon sahiplerini ata."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Runbook ve bakım ritmini işlet",
+
+          "text": "İlk 10 dakika runbook yaz; release sonrası gözlem penceresi ve haftalık observability review rutini koy."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Observability ve Logging", "item": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Observability nedir, logging’den farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Logging olay kaydıdır; observability log+metric+trace ve RUM’u birleştirerek kök nedeni ve kullanıcı etkisini ortaya çıkarır. “Ne oldu?” yerine “neden oldu ve kimi etkiledi?” sorusuna odaklanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal web sitesinde hangi log ve metrikleri izlemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum set: error rate (4xx/5xx), latency (p95), throughput, dependency hataları ve RUM (CWV + JS errors). İş akışları için drop-off ayrıca izlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Gerçek kullanıcı verisini (RUM) nasıl toplar ve yorumlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CWV, JS errors ve kritik etkileşim event’lerini cihaz/ağ/sayfa tipi kırılımıyla toplar; release zamanı ve dependency hatalarıyla ilişkilendirerek yorumlarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek observability dashboard’ları neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde rezervasyon sağlık paneli (drop + ödeme hatası + CWV); B2B’de portal sağlık paneli (login + p95 + JS error) önerilir. Teknik sinyal + iş KPI aynı ekranda ilişkilendirilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler",
+
+      "name": "AI Destekli Web Geliştirme ve Kod Üretimi: Best Practice ve Riskler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "AI Code Assistants",
+
+        "Hybrid Dev Workflow",
+
+        "Code Review",
+
+        "Code Quality",
+
+        "Security",
+
+        "Licensing"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#article",
+
+      "headline": "AI Destekli Web Geliştirme ve Kod Üretimi: Best Practice ve Riskler",
+
+      "description": "AI kod asistanlarıyla hız kazanın; ama güvenlik, lisans ve bakım risklerini hibrit workflow ile yönetin. Otel/B2B projeleri için kod review checklist’i ve süreç şablonu.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#howto",
+
+      "name": "AI Destekli Hibrit Geliştirme Süreci Kurma",
+
+      "description": "AI taslak üretimi, insan karar ve code review gate ile güvenli kurumsal geliştirme akışı kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "AI kullanım sınırlarını tanımla",
+
+          "text": "Allowed/assisted/human-only alanlarını belirle; auth/PII/ödeme gibi kritik modülleri human-only olarak işaretle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Review ve güvenlik/lisans kapılarını kur",
+
+          "text": "AI ile üretilen kodu PR üzerinden yönet; test, güvenlik kontrolü ve lisans/dependency kontrolünü release gate yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Pilot uygula ve KPI ile ölç",
+
+          "text": "14 günlük pilotla PR çevrim süresi, bug oranı ve güvenlik bulgularını ölç; süreçte gerekli ayarları yapıp yaygınlaştır."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "AI Destekli Web Geliştirme", "item": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI ile web geliştirme güvenli mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Güvenli olabilir; şartı hibrit modeldir. AI taslak üretir, insan karar verir; review+test+güvenlik kapıları olmadan prod’a çıkılmaz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi işleri AI’ye devredebilirim, hangilerini devretmemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Boilerplate, tekrar eden UI pattern’leri, dokümantasyon ve test iskeleti devredilebilir. Auth/permission, ödeme/PII ve mimari kararlar devredilmemeli; AI burada yalnız yardımcı olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI ürettiği kodun güvenlik ve lisans riskleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Güvenlikte validation/permission hataları ve kötü örnekleri kopyalama riski vardır. Lisans tarafında kaynak belirsizliği ve bağımlılık lisans uyumsuzluğu riski bulunur; release gate gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde AI kod asistanları için best practice’ler neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel projelerinde rezervasyon/ödeme ve domain kuralları human-only tutulmalı; AI daha çok UI, test ve dokümantasyonda kullanılmalıdır. B2B’de portal UI hızlanabilir; yetki/rol ve veri erişimi insan kontrolünde olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu",
+
+      "name": "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu/#article",
+
+      "headline": "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu",
+
+      "name": "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu",
+
+      "description": "Otel projelerinde oda–fiyat–içerik çakışmasını önlemek için CMS ile PMS/OTA rol dağılımını kurun. Hangi alan nereden gelir? Akış, tablo ve checklist ile netleştirin.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Otel projelerinde CMS + PMS/OTA entegrasyonu, oda–fiyat–içerik alanlarının tek kaynak kurgusu, mapping tablosu ve senkronizasyon/test akışı ile kurumsal web altyapısı danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS + PMS/OTA Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS ve PMS/OTA entegrasyonu nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Alan bazında tek kaynak (single source of truth) belirleyerek kurgulanmalı: fiyat ve müsaitlik PMS/Channel Manager’dan, içerik CMS’ten gelir. Oda kod eşlemesi ve publish sonrası cache/revalidation akışıyla tutarsızlık azaltılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda ve fiyat bilgisini CMS’te mi PMS’te mi tutmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat ve müsaitlik PMS/Channel Manager’da tutulmalıdır; CMS’te fiyat tutmak çakışma üretir. Oda açıklaması, görseller ve destinasyon içerikleri CMS’te yönetilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitesinde hangi alan CMS’ten, hangisi PMS/OTA’dan gelmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS; oda açıklaması, galeri, destinasyon içerikleri, sayfa blokları ve SEO alanlarını sağlar. PMS/Channel Manager; fiyat, müsaitlik ve promosyonların tek kaynağıdır. OTA’lar dağıtım kanalı olarak konumlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda/fiyat/içerik çakışmalarını nasıl önlerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS’te fiyat alanlarını kapatın veya readonly yapın, oda tiplerini tekil room_code ile eşleyin ve publish sonrası cache/revalidation tetikleyin. Test senaryoları ve rollback prosedürüyle süreci güvenceye alın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu/#howto",
+
+      "name": "CMS + PMS/OTA entegrasyonunda oda, fiyat ve içerik senkronizasyonu",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Alan kaynağı dokümanını çıkar",
+
+          "text": "Oda–fiyat–içerik alanlarının hangisinin CMS’ten hangisinin PMS/Channel Manager’dan geleceğini tek kaynak prensibiyle belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Oda tiplerini eşle",
+
+          "text": "Room_code standardı ile PMS/CM/OTA ve CMS arasındaki mapping tablosunu oluştur ve tek sözleşme olarak kullan."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Senkron ve test akışını kur",
+
+          "text": "Uçtan uca test senaryoları (oda sayfası, kampanya, rollback) oluştur; prod’da deneme yapmadan staging’de doğrula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Cache ve revalidation politikasını uygula",
+
+          "text": "Publish sonrası revalidation/purge tetikle; kritik sayfalarda eski fiyat gösterimini önlemek için TTL ve cache kurallarını sayfa tipine göre ayarla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna",
+
+      "name": "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna/#article",
+
+      "headline": "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna",
+
+      "name": "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna",
+
+      "description": "CMS formlarını CRM alanları ve marketing automation ile entegre edin: UTM/source/campaign sözlüğü, alan eşleme ve nurturing akışlarıyla lead’leri takip edilebilir müşteri yolculuğuna dönüştürün.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS formlarını CRM ve marketing automation ile entegre ederek form-to-pipeline akışı, UTM/source/campaign standardı, nurturing workflow’ları ve satış bildirimi süreçleri dahil panel entegrasyon danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS–CRM & Automation Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Formdan CRM’e lead nasıl aktarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Form alanlarını CRM field’larıyla eşleyip email/telefon ile dedupe kuralı koyarak aktarın. UTM/source/medium/campaign alanlarını submit anında yakalayıp CRM lead/deal kayıtlarına yazın ve aktivite log’unda saklayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Source/campaign etiketlerini nerede nasıl tutmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UTM değerlerini CRM’de lead/deal alanlarında standart isimlerle tutun ve landing page URL’yi kaydedin. GA4 ile aynı naming convention kullanılırsa kampanya bazlı lead ve gelir raporu tutarlı olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel için rezervasyon isteği formu CRM’e nasıl bağlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon isteği formu CRM’de lead ve görev (çağrı merkezi) oluşturacak şekilde bağlanır; tarih aralığı, kişi sayısı gibi alanlar kaydedilir. Otomatik teşekkür e-postası ve hızlı dönüş SLA’sı süreçle birlikte kurgulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "B2B için demo/teklif formlarını marketing automation ile nasıl entegre ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Demo formu geldiğinde CRM’de deal oluşturup satışa bildirim tetikleyin; ardından 2–3 adımlı nurturing serisi (case/rehber/teklif) başlatın. Segment alanları doğruysa otomasyon daha etkili çalışır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna/#howto",
+
+      "name": "CMS form → CRM → marketing automation lead yolculuğu kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Form alanlarını tasarla ve eşle",
+
+          "text": "Minimum veri setini belirle; form alanlarını CRM lead/contact/deal field’larına eşle ve dedupe (email/telefon) kuralı tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "UTM sözlüğünü standartlaştır",
+
+          "text": "utm_source/medium/campaign alanlarını hidden olarak yakala; CRM ve GA4’te aynı naming convention ile sakla ve landing page URL’yi kaydet."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Automation akışlarını kur",
+
+          "text": "Form submit sonrası karşılama e-postası, satış bildirimi, SLA görev atama ve temel nurturing serilerini (2–3 adım) oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Raporlama ve iyileştirme döngüsü ekle",
+
+          "text": "Yanıt süresi, lead kayıp oranı ve kampanya bazlı pipeline metriklerini takip et; CRM/pipeline değiştikçe mapping ve workflow’ları güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
 
 },
 

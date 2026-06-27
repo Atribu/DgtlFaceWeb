@@ -27331,5 +27331,1964 @@
         ]
       }
     }
+  },
+
+    "BlogAiDestekliWebGelistirmeVeKodUretimiBestPracticeVeRiskler": {
+    "title": "AI Kod Asistanları: Best Practice ve Riskler",
+    "slug": "ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler",
+    "department": "software",
+    "subDepartment":"website",
+    "updatedAt": "27 Haziran 2026",
+    "publishedAt": "2026-06-27",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AI kod asistanlarıyla hız kazanın; ama güvenlik, lisans ve bakım risklerini hibrit workflow ile yönetin. Otel/B2B projeleri için kod review checklist’i ve süreç şablonu.",
+    "seo": {
+      "metaTitle": "AI Kod Asistanları: Best Practice ve Riskler | DGTLFACE",
+      "metaDescription": "AI kod asistanlarıyla hız kazanın; ama güvenlik, lisans ve bakım risklerini hibrit workflow ile yönetin. Otel/B2B projeleri için kod review checklist’i ve süreç şablonu."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “AI-assisted dev” trendini iş + teknik risk yönetimi çerçevesine oturtan otorite taşıyan trend child’dır: AI kod asistanlarını hızlandırıcı olarak konumlandırır ama mimari/güvenlik kararlarını insan sorumluluğunda tutar. Hedef persona ajans yöneticisi, otel/B2B projeleri yürüten teknik lider ve proje sahibidir; funnel’da consideration aşamasında “AI ile geliştirme güvenli mi, nasıl kurumsal süreçle yönetilir?” kararını kolaylaştırır. Ana iş sorusu: AI’yi hangi işlerde kullanmalı, hangi işlerde kullanmamalı; kod kalitesi, güvenlik ve lisans risklerini hibrit (human-in-the-loop) workflow ile nasıl kontrol ederim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-27",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AI kod asistanları kurumsal web geliştirmede hız ve verim kazandırabilir; ancak mimari, güvenlik ve iş mantığı kararlarını AI’ya bırakmak ciddi riskler taşır. En sağlıklı yaklaşım; boilerplate ve tekrar eden işleri AI’ya, kritik kararları deneyimli geliştiriciye bırakan hibrit modeldir. Bu model; kod review, test, güvenlik taraması ve lisans kontrolünü “release kapısı” yapar. Otel/B2B projelerinde domain bilgisi gerektiren alanlarda insan kontrolü şarttır.",
+      "sgeSummary": "AI ile web geliştirme güvenli olabilir; ama şartı hibrit süreçtir: AI → taslak, insan → karar, review → güvenlik/lisans/test. Kritik modüllerde AI önerilerini filtreleyin, canlıya manuel onaysız çıkarmayın.",
+      "voiceAnswer": "ChatGPT/Copilot ile site yapılır; ama güvenlik ve iş mantığı için insan review olmadan prod’a çıkmayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajanslar, otel/B2B yazılım ekipleri, tech lead, ürün/proje sahibi",
+        "KPI: PR çevrim süresi, bug oranı, güvenlik bulgu sayısı, review süresi, teknik borç trendi",
+        "Entity set: AI Code Assistants, Hybrid Dev Workflow, Code Review, Code Quality, Security, Licensing",
+        "GEO: Türkiye geneli; otel ve B2B kurumsal projeler",
+        "Funnel: Consideration (doğru kullanım sınırları) → Delivery (workflow ve gate’ler)",
+        "Risk alanları: Güvenlik açıkları, lisans/atıf belirsizliği, maintainability (okunabilirlik), domain hataları",
+        "Çıktı: AI+insan akış diyagramı, risk matrisi, code review checklist + şablon"
+      ]
+    },
+    "h1": {
+      "title": "AI Destekli Web Geliştirme ve Kod Üretimi: Best Practice ve Riskler",
+      "intro": "AI kod asistanları (Copilot vb.) ekiplerin hızını artırabiliyor; özellikle tekrar eden pattern’lerde, dokümantasyon ve test yazımında ciddi zaman kazandırıyor. Ancak “AI yazdı, çalıştı” demek “doğru ve güvenli” demek değildir. Kurumsal web projelerinde risk, genelde görünmez yerlerde büyür: yetkilendirme, veri işleme, ödeme/rezervasyon akışı, log/PII, bağımlılık yönetimi ve lisans uyumu. Bu yüzden doğru model, AI hız + insan kontrol hibritidir: AI taslak üretir, insan mimari ve güvenlik kararlarını verir; kod review ve test ise “yayın kapısı” olur. Otel/B2B projelerinde domain bilgisi gerektiren yerlerde AI’nin hatalı varsayım yapma riski ayrıca yüksektir.",
+      "quickSummary": [
+        "1) AI kodunu karar değil taslak olarak konumlandır",
+        "2) Kritik modüllerde human sign-off zorunlu yap",
+        "3) Code review, test, güvenlik ve lisans kontrolünü release gate’e bağla",
+        "4) Otel/B2B domain kurallarında AI önerilerini mutlaka filtrele",
+        "5) PR, checklist ve KPI setiyle hibrit workflow’u ölçülebilir hale getir"
+      ],
+      "ctaPrimary": {
+        "label": "AI Destekli Web Geliştirme & Kod Review Analizi Talep Et",
+        "text": "Ekibinizin AI kullanım sınırlarını, review kapılarını ve güvenlik/lisans risk kontrolünü birlikte tasarlayalım (ajans + otel/B2B ekipleri için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AI Destekli Web Geliştirme & Kod Review Analizi Talep Et",
+        "text": "AI kullanım sınırlarınızı, review kapılarınızı ve güvenlik/lisans kontrollerinizi kurumsal standarda bağlayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "AI + İnsan Dev Workflow & Kod Review Checklist Şablonunu İndir",
+        "text": "AI ile üretilen kodu review kapısından geçirir; güvenlik/lisans/kalite riskini sprint rutinine bağlarsınız.",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Sunucu Güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Sunucu Güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "title": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ai-kod-asistanlari-nedir",
+        "title": "AI Kod Asistanları (Copilot vb.) Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "AI kod asistanları; IDE içinde öneri üreten, snippet tamamlayan, test/dokümantasyon yazmayı kolaylaştıran araçlardır. Kurumsal bağlamda doğru kullanıldığında “daha az boilerplate, daha çok problem çözme” yaklaşımını destekler. Yanlış kullanıldığında ise tam tersi olur: hızlıca üretilmiş ama bakımı zor, güvenlik riski taşıyan bir kod tabanı oluşur."
+          },
+          {
+            "type": "h3",
+            "text": "AI ile web geliştirme güvenli mi?"
+          },
+          {
+            "type": "p",
+            "text": "Güvenli olabilir; ama şartı hibrit süreç ve kapılardır: AI’nin ürettiği kod, manuel review, test ve güvenlik taramasından geçmeden canlıya çıkmamalıdır. Kritik modüllerde (auth, ödeme, PII) AI yalnızca “taslak/yardımcı” rolünde kalmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "AI kodu “taslak” mı, “karar” mı üretiyor? (doğru cevap: taslak)",
+              "AI önerileri için zorunlu code review kapısı var mı?",
+              "Güvenlik/lisans kontrolü release sürecine bağlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI kullanım politikasını yazılı hale getir (nerede serbest, nerede yasak)",
+              "AI çıktısını PR üzerinden yönet (doğrudan main’e commit yok)",
+              "Kritik alanlarda “human sign-off” zorunlu yap"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "hangi-islerde-guclu-hangi-islerde-zayif",
+        "title": "Hangi İşlerde Güçlü, Hangi İşlerde Zayıf?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI’nin güçlü olduğu yerler genelde tekrar eden pattern ve “bilinen” çözümlerdir. Zayıf olduğu yerler ise bağlam gerektiren, edge-case’li ve güvenlik kritik alanlardır."
+          },
+          {
+            "type": "h3",
+            "text": "AI’nin güçlü olduğu işler (5–7)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Boilerplate (form bileşeni, basit CRUD, UI layout)",
+              "Tekrar eden refactor önerileri (isimlendirme, küçük iyileştirmeler)",
+              "Dokümantasyon taslağı (README, açıklama metinleri)",
+              "Test iskeleti (unit test taslağı)",
+              "Basit veri dönüşümleri (mapping)",
+              "Regex/parse gibi küçük yardımcılar"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AI’nin zayıf olduğu işler (5–7)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mimari kararlar (render stratejisi, cache, veri akışı)",
+              "Güvenlik kritik modüller (auth, yetki, input validation)",
+              "Lisans/uyumluluk sorumluluğu",
+              "Domain hatası riski yüksek işler (otel rezervasyon kuralı, B2B sözleşme/ürün kurgusu)",
+              "Performans bütçesi ve edge-case yönetimi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Üretilen kod “ekibin standartlarına” uyuyor mu?",
+              "Domain kuralları (otel/B2B) doğru uygulanıyor mu?",
+              "Bu kodun bakımını 6 ay sonra kim yapacak?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“AI allowed / AI assisted / Human only” sınıflandırması yap",
+              "Domain kuralı olan alanlarda AI’yi sadece yardımcı yap (taslak + açıklama)",
+              "Performans ve güvenlikte AI önerilerini “ikinci görüş” olarak kullan"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kod-kalitesi-guvenlik-lisans-riskleri",
+        "title": "Kod Kalitesi, Güvenlik ve Lisans Riskleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI kodu “çalışıyor” olabilir ama üç ayrı risk taşır: kalite (okunabilirlik/bakım), güvenlik (açık üretimi) ve lisans/atıf belirsizliği. Kurumsal ekiplerin hata yaptığı yer, bu üçünü “sonra bakarız” diye bırakmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Kod kalitesi (maintainability) riski"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tutarsız isimlendirme",
+              "Aşırı karmaşık fonksiyonlar",
+              "Tekrarlanan logic (DRY ihlali)",
+              "“Kısayol” çözümler (hacky fixes)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Güvenlik riski (human-in-the-loop şart)"
+          },
+          {
+            "type": "p",
+            "text": "AI, güvenlik best practice’lerini “bazen” hatırlar; ama sizin ürün bağlamınıza uygun şekilde uygulayacağı garanti değildir. Özellikle form işleme, dosya upload ve admin panel alanları risklidir."
+          },
+          {
+            "type": "h3",
+            "text": "Lisans/atıf riski (kurumsal süreç gerektirir)"
+          },
+          {
+            "type": "p",
+            "text": "Kurumsal kullanımda kodun lisans uyumu ve üçüncü parti bağımlılıkların lisansları önemlidir. AI çıktısı “benzer kod” üretebilir; bu yüzden “review + policy” gerekir. (Bu bir hukuk danışmanlığı değildir; risk yönetimi perspektifidir.)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: AI Kod Kullanımı Risk Matrisi (Özet)",
+            "headers": [
+              "Risk",
+              "Nerede çıkar?",
+              "Erken Sinyal",
+              "Kontrol / Gate"
+            ],
+            "rows": [
+              [
+                "Güvenlik açığı",
+                "auth/form/upload",
+                "yeni endpoint + validation yok",
+                "security review + SAST (Varsayım)"
+              ],
+              [
+                "Lisans belirsizliği",
+                "kopyalanmış snippet",
+                "kaynak belirsiz",
+                "dependency/lisans kontrolü"
+              ],
+              [
+                "Bakım borcu",
+                "karmaşık fonksiyon",
+                "okunabilirlik düşer",
+                "style guide + refactor"
+              ],
+              [
+                "Performans",
+                "gereksiz render/loop",
+                "CWV düşer",
+                "perf budget + profiling"
+              ],
+              [
+                "Domain hatası",
+                "rezervasyon/lead kuralları",
+                "edge-case fail",
+                "domain test senaryoları"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Güvenlik kritik alanlarda ikinci göz (human review) var mı?",
+              "Lisans/bağımlılık kontrolü release gate mi?",
+              "Kod standardı (lint/type) zorunlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AI kodu “review zorunlu” kategorisine al",
+              "Güvenlik taramasını CI/CD’nin parçası yap (Varsayım)",
+              "Lisans/bağımlılık politikasını yazılı hale getir (kurum standardı)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-otel-projelerinde-kullanim-rehberi",
+        "title": "Kurumsal/Otel Projelerinde Kullanım Rehberi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal projelerde “AI kullan” demek yetmez; nerede nasıl kullanılacağı netleşmeli. Otel projelerinde rezervasyon/ödeme ve kampanya kurgusu; B2B’de portal/raporlama ve lead akışı en kritik alanlardır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları (domain kritik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon adımları, fiyat/koşul kuralları (human-owned)",
+              "İçerik blokları, şablon bileşenler (AI-assisted)",
+              "Dokümantasyon: ölçüm planı, QA checklist (AI-assisted)",
+              "Güvenlik: ödeme/PII akışı (human-only + security review)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryoları (portal/dash)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard UI bileşenleri (AI-assisted)",
+              "Yetki/rol bazlı erişim (human-only)",
+              "Rapor export ve entegrasyonlar (human-owned + AI yardımcı)",
+              "Test yazımı ve dokümantasyon (AI-assisted)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): AI destekli geliştirme doğru kurgulandığında “daha az kod yaz, daha çok problem çöz” paradigmasına yaklaştırırken; yanlış kurgulandığında teknik borcu ve riskleri büyütebilir. (Bu veri noktası içerikte “denge” vurgusu için kullanıldı.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "AI’nin dokunduğu kodlar “kritik modül” mü?",
+              "Domain kuralı test senaryoları var mı?",
+              "AI çıktısı “taslak” olarak kalıp insan tarafından sadeleştiriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: rezervasyon/ödeme kodunu “human-only” olarak işaretle",
+              "B2B: auth/role alanını “human-only + security gate” yap",
+              "Her iki senaryo: test ve dokümantasyonu AI ile hızlandır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insan-gelistirici-ai-hibrit-modeli",
+        "title": "İnsan Geliştirici + AI Hibrit Modeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hibrit modelin amacı basit: AI hızlandırır, insan sorumluluk alır. Bunun çalışması için akış ve kapılar gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Hibrit akış (AI → PR → Review → Test → Release)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI: taslak üretir / alternatif önerir",
+              "İnsan: taslağı sadeleştirir, mimari uyumu sağlar",
+              "Review: güvenlik/lisans/kalite kontrolü",
+              "Test: otomasyon + domain senaryoları",
+              "Release: gözlem penceresi (post-deploy) (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi işleri AI’ye devredebilirim, hangilerini devretmemeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "AI’ye; tekrar eden boilerplate, basit UI pattern’leri, dokümantasyon ve test iskeletini devredebilirsiniz. Devretmemeniz gerekenler: kimlik doğrulama/yetkilendirme, ödeme/PII işleme, mimari kararlar ve güvenlik kritik kontrollerdir. Bu alanlarda AI yalnız “yardımcı” rolünde kalmalı, sorumluluk insanda olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Kod review’de AI önerilerinin filtrelenmesi"
+          },
+          {
+            "type": "p",
+            "text": "AI’nin önerdiği “kısa yol”lar bazen borç üretir. Review kriteri: okunabilirlik, test edilebilirlik, güvenlik, lisans ve performans etkisi."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "PR template’te “AI kullanıldı mı?” alanı var mı? (Varsayım)",
+              "Review checklist’te güvenlik ve lisans maddesi var mı?",
+              "Release sonrası “hata artışı” izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "PR’lara “AI-assisted” etiketi koy (izlenebilirlik)",
+              "Review checklist’ini zorunlu yap (aşağıdaki CTA asset)",
+              "Prod’a çıkmadan önce güvenlik review kapısını geç"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI + İnsan Dev Workflow & Kod Review Checklist Şablonunu İndir",
+            "text": "AI ile üretilen kodu review kapısından geçirir; güvenlik/lisans/kalite riskini sprint rutinine bağlarsınız.",
+            "href": "/tr/yazilim/sunucu-guvenlik"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "go-live-kurallari-asla-yapma-listesi",
+        "title": "Go-Live Kuralları ve “Asla Yapma” Listesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI hype’ı nedeniyle bazı ekipler review süreci olmadan kodu canlıya alıyor; bu uzun vadede bakım ve güvenlik problemlerine yol açabiliyor. Bu yüzden net bir “asla” listesi gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Asla yapma (5–7)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI çıktısını review olmadan prod’a alma",
+              "Auth/role/permission kodunu AI’ye “emanet” etme",
+              "PII (telefon/e-posta) log’layan kodu üretip bırakma",
+              "Bilinmeyen bağımlılık ekleyip lisans kontrolü yapmama",
+              "“Kopyala yapıştır” ile testsiz merge etme",
+              "Performans etkisini ölçmeden yeni middleware/edge logic ekleme (Varsayım)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Technical SEO Notu (kilitli): AI ile üretilen kodlar güvenlik, lisans ve maintainability açısından manuel review’den geçmeden canlıya alınmamalıdır. İç link önerisi: /tr/yazilim/sunucu-guvenlik ve bakım süreçleri için /tr/yazilim/bakim-ve-destek."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Prod’a giden her kod için “human sign-off” var mı?",
+              "Güvenlik taraması CI’da çalışıyor mu? (Varsayım)",
+              "Lisans/dependency kontrolü release gate mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“AI policy” dokümanını 1 sayfada yaz ve ekipte yayınla",
+              "Release checklist’e güvenlik + lisans + test kapısı ekle",
+              "Post-release gözlem penceresi koy (ilk 60 dk)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Web Geliştirme & Kod Review Analizi Talep Et",
+            "text": "AI kullanım politikanızı, PR/review gate’lerinizi ve güvenlik/lisans kontrollerinizi kurumsal standarda bağlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ai-insan-dev-workflow-kod-review-checklist-sablonu",
+        "title": "AI + İnsan Dev Workflow & Kod Review Checklist Şablonunu İndir — Yazılım / AI Dev",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "AI + İnsan Dev Workflow & Kod Review Checklist Şablonunu İndir — Yazılım / AI Dev (v1.0)",
+            "purpose": "Bu asset, AI kod asistanlarını kurumsal web geliştirmede güvenli kullanmak için hibrit workflow’u (AI taslak → insan karar → review gate → test → release) standardize eder. Güvenlik, lisans ve bakım risklerini “manuel review olmadan prod yok” prensibiyle kontrol altına alır. Otel/B2B projelerinde domain kritik modüllerde AI kullanım sınırlarını netleştirir.",
+            "whoFor": "Tech lead, code reviewer, QA, güvenlik sorumlusu, ajans PM.",
+            "steps": [
+              "PR’larda AI kullanımını işaretleyin (etiket/şablon) ve checklist’i zorunlu hale getirin.",
+              "Riskli modüller için “human-only” kuralını uygulayın ve security/lisans gate ekleyin.",
+              "14 günlük sprint planıyla policy + review gate + test rutinini devreye alın."
+            ],
+            "checklist": [
+              "Kodun hangi kısmı AI ile üretildi (kısa not)?",
+              "Kritik modül mü? (auth/permission/PII/ödeme) → Evetse human-only kontrol",
+              "Lint/type check geçti mi?",
+              "Test iskeleti eklendi mi (min)?",
+              "Güvenlik review yapıldı mı?",
+              "Lisans/dependency riski kontrol edildi mi?",
+              "Okunabilirlik/maintainability (kısa refactor) yapıldı mı?",
+              "Release notu ve rollback planı var mı? (Varsayım)"
+            ],
+            "sprintPlan": [
+              "Gün 1: AI kullanım politikası (allowed/assisted/human-only)",
+              "Gün 2: PR template + “AI used” işaretleme",
+              "Gün 3: Review checklist v1 + eğitim",
+              "Gün 4: Security gate tanımı (kritik modüller)",
+              "Gün 5: Lisans/dependency kontrol süreci (policy)",
+              "Gün 6: Test standardı (min unit)",
+              "Gün 7: Pilot repo’da uygulama",
+              "Gün 8: İlk ölçüm (bug, review süresi)",
+              "Gün 9: Refactor guideline",
+              "Gün 10: Release checklist’e entegrasyon",
+              "Gün 11: 2. hafta pilot: 5 PR üzerinde uygulama",
+              "Gün 12: Retrospective + iyileştirme",
+              "Gün 13: Rollout planı",
+              "Gün 14: v1.0 dokümantasyon + sahiplik"
+            ],
+            "deliverables": [
+              "AI kullanım policy dokümanı",
+              "PR template + checklist",
+              "Security/lisans gate tanımı",
+              "Pilot raporu (before/after)",
+              "Buraya: Hibrit workflow diyagramı",
+              "Buraya: Checklist kartı görseli"
+            ],
+            "href": "/downloads/ai-insan-dev-workflow-kod-review-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: AI hızlandırır, insan sorumluluk alır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI destekli web geliştirme, doğru kullanıldığında ekipleri “daha az kod yaz, daha çok problem çöz” yaklaşımına yaklaştırır. Ancak bu kazanım, yalnızca hibrit süreçle sürdürülebilir hale gelir: AI taslak üretir; insan mimari, güvenlik ve domain kararlarını verir."
+          },
+          {
+            "type": "p",
+            "text": "Kurumsal, otel ve B2B projelerinde asıl başarı; AI’yi tamamen serbest bırakmakta değil, hangi alanlarda kullanılacağını ve hangi alanlarda insan onayının zorunlu olduğunu netleştirmektedir. Code review, test, güvenlik taraması ve lisans/dependency kontrolü release sürecinin doğal kapıları olmalıdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AI Destekli Web Geliştirme & Kod Review Analizi Talep Et",
+            "text": "AI kullanım sınırlarınızı, review kapılarınızı ve güvenlik/lisans kontrollerinizi kurumsal standarda bağlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "AI + İnsan Dev Workflow & Kod Review Checklist Şablonunu İndir",
+            "text": "AI ile üretilen kodu review kapısından geçirir; güvenlik/lisans/kalite riskini sprint rutinine bağlarsınız.",
+            "href": "/tr/yazilim/sunucu-guvenlik"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AI ile web geliştirme güvenli mi?",
+        "a": "Evet, hibrit modelle güvenli olabilir: AI taslak üretir, insan karar verir, review+test+güvenlik kapıları olmadan prod’a çıkılmaz. Kritik modüllerde insan sorumluluğu şarttır."
+      },
+      {
+        "q": "Hangi işleri AI’ye devredebilirim, hangilerini devretmemeliyim?",
+        "a": "Boilerplate, tekrar eden UI pattern’leri, dokümantasyon ve test iskeletini devredebilirsiniz. Auth/permission, ödeme/PII ve mimari kararlar devredilmemeli; AI burada yalnız yardımcı olmalıdır."
+      },
+      {
+        "q": "AI ürettiği kodun güvenlik ve lisans riskleri neler?",
+        "a": "Güvenlikte validation/permission hataları ve kötü örnekleri kopyalama riski vardır. Lisans tarafında kaynak belirsizliği ve üçüncü parti bağımlılıkların lisans uyumsuzluğu riski bulunur; release gate gerekir."
+      },
+      {
+        "q": "Otel ve B2B projelerinde AI kod asistanları için best practice’ler neler?",
+        "a": "Otelde rezervasyon/ödeme ve domain kuralları “human-only” tutulmalı; AI daha çok UI ve dokümantasyonda kullanılmalıdır. B2B’de portal UI hızlandırılabilir; ama yetki/rol ve veri erişimi insan kontrolünde olmalıdır."
+      },
+      {
+        "q": "Copilot ile Next.js kurumsal site yapılır mı?",
+        "a": "Yapılır; ancak mimari seçimler (SSR/SSG, cache), güvenlik ve bakım disiplini insan ekibin sorumluluğunda olmalıdır. AI, hızlandırıcıdır; ürün sahipliği değildir."
+      },
+      {
+        "q": "AI ile yazılan kodu prod’a almak için minimum kapılar neler?",
+        "a": "Code review, test, güvenlik kontrolü ve lisans/dependency kontrolü minimum settir. Kritik modüllerde ek “human sign-off” zorunludur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-hero-01.webp — alt: AI destekli geliştirme stratejisi, otel ve B2B projelerinde güvenli hız",
+          "h1-context — 1920×1080 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-h1-context-02.webp — alt: AI taslak vs insan düzenleme bağlamı, kurumsal web kod kalitesi",
+          "divider-01 — 1600×1200 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-divider-03.webp — alt: AI kod asistanları tanımı, otel ve B2B ekiplerinde kontrollü kullanım",
+          "divider-02 — 1600×1200 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-divider-04.webp — alt: AI riskleri bölüm ayırıcı, kurumsal projelerde güvenlik ve lisans kontrolü",
+          "diagram-05 — 1920×1080 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-diagram-05.webp — alt: AI + insan geliştirme akış diyagramı, otel ve B2B’de güvenli hibrit model",
+          "checklist-06 — 1200×1200 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-checklist-06.webp — alt: AI kod üretimi checklist kartı, kurumsal web projelerinde güvenli review",
+          "kpi-07 — 1200×1200 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-kpi-07.webp — alt: AI destekli geliştirme KPI kartı, hız ve risk dengesini ölçme",
+          "proof-08 — 1200×1200 — ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler-proof-08.webp — alt: AI dev workflow deliverables kartı, policy ve review gate çıktıları",
+          "table-risk-control-matrix — AI Kod Kullanımı Risk Matrisi (Özet)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "AI ile üretilen kodlar güvenlik, lisans ve maintainability açısından manuel review’den geçmeden canlıya alınmamalıdır",
+          "Code review, test, güvenlik kontrolü ve lisans/dependency kontrolü minimum release gate olarak uygulanmalı",
+          "Kritik modüllerde (auth, permission, PII, ödeme/rezervasyon) human sign-off zorunlu olmalı",
+          "PR template’te “AI kullanıldı mı?” alanı eklenmeli (Varsayım)",
+          "Güvenlik taraması CI/CD’nin parçası yapılmalı (Varsayım)",
+          "Lisans/bağımlılık politikası kurum standardı olarak yazılı hale getirilmeli",
+          "İç link hedefleri: /tr/yazilim/web-sitesi-gelistirme, /tr/yazilim/sunucu-guvenlik, /tr/yazilim/bakim-ve-destek",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü: /tr/yazilim/blog/ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler"
+        ]
+      }
+    }
+  },
+
+  "BlogCmsPmsOtaEntegrasyonuOdaFiyatVeIcerikSenkronizasyonu": {
+    "title": "CMS + PMS/OTA Oda ve Fiyat Senkronu Rehberi",
+    "slug": "cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "27 Haziran 2026",
+    "publishedAt": "2026-06-27",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel sitenizde oda–fiyat–içerik çakışmasın: CMS + PMS/OTA entegrasyonunda “hangi alan nereden gelir” rol dağılımını belirleyin. Akış diyagramı + checklist.",
+    "seo": {
+      "metaTitle": "CMS + PMS/OTA Oda ve Fiyat Senkronu Rehberi | DGTLFACE",
+      "metaDescription": "Otel sitenizde oda–fiyat–içerik çakışmasın: CMS + PMS/OTA entegrasyonunda “hangi alan nereden gelir” rol dağılımını belirleyin. Akış diyagramı + checklist. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: /tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu"
+      ],
+      "strategySummary": "Bu blog, “CMS & Panel Entegrasyonu” sayfasını besleyen core entegrasyon + governance rehberidir ve Türkiye’de sık görülen “PMS/OTA anlatılıyor ama CMS rolü belirsiz kalıyor” boşluğunu kapatır. Hedef persona; otel sahibi/GM ve satış–pazarlama lideri kadar, IT/ürün lideri ve operasyon (rezervasyon, revenue) ekipleridir. Funnel’da consideration (MoFu) ağırlıklıdır: “hangi alan nereden gelsin?” kararını netleştirerek hem fiyat doğruluğu hem misafir deneyimi riskini azaltır. Ana iş sorusu: “Oda–fiyat–içerik tek bir kaynaktan beslensin; CMS ile PMS/OTA arasında rol dağılımını nasıl kurgularım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-27",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel projelerinde aynı bilgiyi hem PMS/OTA hem CMS’te tutmak; oda, fiyat ve içerik çakışmalarına yol açar. Doğru kurgu, her alan için tek kaynak (single source of truth) belirlemektir: fiyat–müsaitlik–promosyon çoğunlukla PMS/Channel Manager’dan; içerik (oda açıklaması, görsel, destinasyon anlatısı) CMS’ten gelir. CMS + PMS/OTA entegrasyonunda rol dağılımını, senkronizasyon adımlarını ve test/rollback sürecini baştan tanımlarsanız misafir deneyimi ve fiyat doğruluğu belirgin şekilde iyileşir.",
+      "sgeSummary": "CMS + PMS/OTA entegrasyonunda oda–fiyat–içerik için tek kaynak belirle. Rate/availability PMS’ten, içerik CMS’ten gelsin; çakışma kuralları + test akışıyla tutarsızlığı azalt.",
+      "voiceAnswer": "Oda açıklamasını CMS’te, fiyat ve müsaitliği PMS/Channel Manager’da tutun; senkron ve test akışıyla çakışmayı önleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM/owner, revenue/rezervasyon ekipleri, IT/ajans teknik ekip",
+        "Ana KPI: “site–PMS fiyat farkı” şikâyeti, manuel düzeltme ihtiyacı, publish→doğru veri süresi, dönüşüm",
+        "Entity’ler: CMS, PMS, OTA, Channel Manager, room types, rates, availability, content sync",
+        "Funnel: MoFu (Informational + Strategic) → entegrasyon analizi talebi",
+        "Risk odağı: çift kaynak, eski fiyat gösterimi (cache), mapping hataları, farklı oda kodları",
+        "Model: Hotel data architecture + field-level single source",
+        "Fark yaratan açı: CMS rolünü netleştiren “alan kaynağı dokümanı” + çakışma önleme kuralları"
+      ]
+    },
+    "h1": {
+      "title": "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu",
+      "intro": "Otel web sitelerinde en pahalı sorunlardan biri “tutarsız bilgi”dir: sitede görünen fiyat PMS/OTA’dan farklıysa, misafir güveni düşer ve çağrı merkezi yükü artar. Bunun ana nedeni çoğu zaman teknolojiden çok kurgudur: aynı alan hem CMS’te hem PMS/OTA tarafında tutulur; sonra hangi veri doğru, kim sorumlu belli olmaz. Sağlam bir entegrasyon mimarisinde her alanın tek bir kaynağı vardır; diğer sistemler o alanı ya sadece okur ya da sadece gösterir. Bu rehberde; oda–fiyat–içerik rol dağılımını, örnek veri akışlarını ve çakışmaları önlemek için gereken kuralları otel operasyonu perspektifiyle anlatıyoruz.",
+      "quickSummary": [
+        "1) Oda–fiyat–içerik için tek kaynak belirle",
+        "2) Fiyat ve müsaitliği PMS/Channel Manager’da tut",
+        "3) Oda açıklaması, galeri ve destinasyon içeriklerini CMS’te yönet",
+        "4) Room mapping ve cache/revalidation kurallarını baştan netleştir",
+        "5) Test ve rollback akışı olmadan entegrasyonu canlıya alma"
+      ],
+      "ctaPrimary": {
+        "label": "CMS + PMS/OTA Entegrasyon Analizi Talep Et",
+        "text": "PMS/OTA kullanan otellerde oda–fiyat–içerik alanlarının kaynağını netleştirip tutarsızlık şikâyetlerini azaltmak isteyen ekipler için.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS + PMS/OTA Entegrasyon Analizi Talep Et",
+        "text": "Oda–fiyat–içerik alanlarında tek kaynak kurgusu ile tutarsızlık şikâyetlerini ve manuel düzeltmeyi azaltın.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Otel İçin CMS–PMS–OTA Veri Akışı & Alan Kaynağı Planlama Şablonunu İndir",
+        "text": "Hangi alanın CMS’ten, hangisinin PMS/OTA’dan geldiğini netleştirip çakışma kurallarıyla senkronu planlamanızı sağlar.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "PMS OTA Yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "label": "Otel OTA Yönetimi",
+        "href": "/tr/otel/ota-yonetimi"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "PMS OTA Yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cms-pms-ota-rol-dagilimi",
+        "title": "CMS ve PMS/OTA Arasındaki Rol Dağılımı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı “fiyat” alanı iki sistemde de düzenleniyorsa, kaçınılmaz olarak çakışma yaşarsınız."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Entegrasyonun ilk prensibi basittir: operasyon verisi ile içerik verisi aynı şey değildir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Operasyon verisi: fiyat, müsaitlik, minimum konaklama, promosyon, stop-sale gibi dinamik alanlar",
+              "İçerik verisi: oda açıklaması, galeri, konum/destinasyon anlatıları, USP’ler, sayfa metinleri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "PMS/Channel Manager tarafı operasyonu, CMS tarafı anlatıyı yönetir. OTA’lar ise çoğu zaman dağıtım kanalıdır; bazı içerikleri barındırır ama “web sitesinin içerik hakikati” olmak zorunda değildir. Rol dağılımını net kurduğunuzda, ekibin şu soruya net cevabı olur: “Bu alanın sahibi kim?”"
+          },
+          {
+            "type": "h3",
+            "text": "CMS ve PMS/OTA entegrasyonu nasıl kurgulanmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Oda–fiyat–içerik için alan bazında tek kaynak belirle; mapping’i (oda kodları) sabitle; senkronizasyon + test + cache/revalidation kuralı ile yayına al."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Single source of truth” dokümanı olmadan entegrasyonlar büyüdükçe bozulur.",
+              "En kritik teknik konu: oda tipleri ve kod eşlemesi (room type mapping) ve cache."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda tipleri her sistemde aynı kodla mı temsil ediliyor?",
+              "Fiyat/müsaitlik hangi sistemden çekiliyor, hangi sistemden asla girilmiyor?",
+              "Güncelleme sonrası sitede “eski fiyat” görme riskine karşı kural var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Alan bazında “sahip sistem” tablosu çıkar (CMS mi PMS mi?).",
+              "Oda tipleri için tekil ID/kod standardı belirle.",
+              "“Asla CMS’te fiyat girilmez” gibi kırmızı çizgileri yaz.",
+              "Publish→cache purge/revalidation akışı ekle (özellikle kampanya/fiyat).",
+              "Entegrasyon test senaryolarını (happy path + edge case) dokümante et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-veriler-nereden-gelir",
+        "title": "Hangi Veriler Nereden Gelir? (Oda, Fiyat, İçerik)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümün amacı; “her şeyi entegre edelim” yaklaşımını bırakıp, hangi alanın nereden besleneceğini pratik şekilde netleştirmektir. Otel sitelerinde en sık hata; oda açıklamasını PMS’e gömmek veya fiyat bilgisini CMS’te manuel tutmaktır. Sonuç: güncelleme kaçırılır, misafir farklı rakam görür, çağrı merkezi “özür diliyoruz” moduna girer."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Oda ve fiyat bilgisini CMS’te mi PMS’te mi tutmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Fiyat ve müsaitlik PMS/Channel Manager’da; oda anlatısı ve görsel içerikleri CMS’te tutulmalıdır. CMS’te fiyat tutmak, kısa vadede “kolay” görünür ama uzun vadede çakışma üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Alan bazında pratik yaklaşım"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Oda, fiyat ve içerik alanları için kaynak sistemi",
+            "headers": [
+              "Alan",
+              "Kaynak Sistem",
+              "Not / Kural"
+            ],
+            "rows": [
+              [
+                "Oda tipleri (kimlik)",
+                "Ortak ID/kod",
+                "Mapping şart"
+              ],
+              [
+                "Oda açıklaması & USP",
+                "CMS",
+                "İçerik ve deneyim katmanı CMS’te yönetilir"
+              ],
+              [
+                "Oda foto/video galerisi",
+                "CMS",
+                "Gerekirse OTA’da ayrı dağıtım seti bulunabilir"
+              ],
+              [
+                "Fiyat & müsaitlik",
+                "PMS/Channel Manager",
+                "Tek kaynak olmalıdır"
+              ],
+              [
+                "Promosyon/indirim mantığı",
+                "PMS/Channel Manager",
+                "Kural seti operasyon tarafında yönetilir"
+              ],
+              [
+                "Destinasyon içerikleri",
+                "CMS",
+                "SEO ve sayfa deneyimi CMS’ten gelir"
+              ],
+              [
+                "Politikalar (iptal/ödemeler)",
+                "PMS/Policy engine + CMS sunum",
+                "Tek kaynağı belirleyin"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CMS’te “rate” alanı var mı? (varsa neden var?)",
+              "PMS’te pazarlama metni tutuluyor mu? (genelde sürdürülemez)",
+              "Oda kodu farklıysa mapping tablosu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Fiyat/müsaitlik” alanlarını CMS’ten kaldır veya readonly yap.",
+              "CMS’i içerik ve sayfa deneyimi için güçlendir (galeri, bloklar, destinasyon).",
+              "Mapping tablosu oluştur (room_code, room_id, external_id).",
+              "OTA içeriklerini “dağıtım” diye ele al; web içeriğini CMS’te yönet.",
+              "Test: 3 oda tipi + 2 kampanya senaryosu ile uçtan uca doğrula."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel İçin CMS–PMS–OTA Veri Akışı & Alan Kaynağı Planlama Şablonunu İndir",
+            "text": "Hangi alanın CMS’ten, hangisinin PMS/OTA’dan geldiğini netleştirip çakışma kurallarıyla senkronu planlamanızı sağlar.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "icerik-yonetimi-vs-operasyon-verisi",
+        "title": "İçerik Yönetimi vs Operasyon Verisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok ekip “PMS zaten her şeyi biliyor” diyerek içerik yönetimini PMS’e iter; sonra içerik üretmek zorlaşır. PMS operasyon içindir; içerik ekibinin günlük üretim ihtiyacı için panel deneyimi sunmaz. Tersine, CMS bir içerik ürünüdür; ama operasyon verisini yönetmek için tasarlanmamıştır. Bu ayrımı netleştirmek; hem yazılımı doğru kullanmak hem ekibi doğru yönetmek anlamına gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Tek bir “otel veri akışı modeli”"
+          },
+          {
+            "type": "p",
+            "text": "CMS, PMS ve OTA; oda, fiyat ve içerik entity’lerini farklı amaçlarla yönetir. “Oda kimliği” bir ortak anahtar (mapping) üzerinden bağlanır; operasyon verisi (rate/availability/promo) PMS/Channel Manager’dan akarken, anlatı ve deneyim katmanı (room content, destination content, media, UI blocks) CMS’ten gelir. Web sitesi bu iki akışı birleştirir; doğru cache/revalidation kurgusu ile hem price consistency hem content freshness korunur. Bu yaklaşım, “her alan için single source” kuralıyla tutarsızlık riskini düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "Çakışma nerede çıkar?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CMS’te manuel fiyat alanı → PMS fiyatıyla çelişir",
+              "Oda adı/kapasite gibi alanlar iki yerde farklı güncellenir",
+              "OTA’da farklı foto seti, sitede farklı foto seti → misafir beklentisi bozulur",
+              "Cache yanlış kurgulanır → PMS’te güncel, sitede eski fiyat görünür"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Fiyat “tek sistem”de mi?",
+              "Oda içeriği “tek sistem”de mi?",
+              "Güncelleme sonrası cache politikanız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Operasyon verisini PMS/CM’de tut; CMS’te sadece gösterim mantığını kur.",
+              "İçeriği CMS’te standardize et; PMS’e pazarlama metni gömmeyi bırak.",
+              "Çakışma kuralları yaz: hangi alan hangi sistemde “readonly”.",
+              "Cache/revalidation politikasını kritik sayfalar için netleştir.",
+              "Şikâyetleri KPI yap: “site–PMS fiyat farkı” sayısını aylık izle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-icin-ornek-akislar",
+        "title": "Otel İçin Örnek Akışlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, ekiplerin kafasında akışın canlanması için örnek senaryolar verir. Amaç; “entegrasyon var” demek değil, “hangi olayda hangi sistem konuşur” demektir."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Akış 1 — Oda sayfası (içerik + fiyat)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "CMS: oda açıklaması, USP, görseller, SEO alanları",
+              "PMS/Channel Manager: rate/availability (oda kodu ile)",
+              "Web: oda sayfasını render eder; fiyat widget’ı PMS’den çeker",
+              "Cache: oda sayfası içerik kısmı cache’lenebilir; fiyat widget kısa TTL veya server-side güncel çekim"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Akış 2 — Kampanya yayını (sezonluk)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pazarlama CMS’te kampanya landing içeriğini hazırlar (draft→review)",
+              "Revenue PMS/CM tarafında promosyon kuralını tanımlar",
+              "Publish zamanı: landing yayınlanır; PMS kuralı aktif olur",
+              "Cache: landing ve fiyat bileşeni için purge/revalidation tetiklenir (eski fiyat riski yok edilir)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Antalya/Belek’te “erken rezervasyon” kampanyasında; landing metni CMS’ten, promosyon PMS/CM’den gelir. Böylece “metin doğru ama fiyat yanlış” gibi çakışmalar azalır."
+          },
+          {
+            "type": "h3",
+            "text": "Akış 3 — Destinasyon sayfaları (SEO + içerik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CMS destinasyon içeriklerini yönetir (Side, Kemer vb. içerikler)",
+              "PMS/OTA burada kaynak değildir (operasyon verisi yok)",
+              "Web sayfaları daha statik kurgulanabilir (performans avantajı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Oda sayfasında fiyat bileşeni ayrı bir “dinamik katman” mı?",
+              "Kampanya güncellemesinde cache purge/revalidate çalışıyor mu?",
+              "Destinasyon sayfalarında içerik tek kaynaktan mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Oda sayfasını “content + rate widget” olarak iki katmanlı düşün.",
+              "Kampanya akışında hem CMS publish hem PMS promo aktivasyonunu senkronla.",
+              "Cache politikasını “sayfa türü” bazında belirle (oda/kampanya/destinasyon).",
+              "Mapping’i değişmez bir sözleşme yap (room_code).",
+              "Uçtan uca test: 1 oda + 1 kampanya + 1 destinasyon senaryosu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hata-ve-cakismalari-onleme",
+        "title": "Hata ve Çakışmaları Önleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Türkiye’de PMS/OTA entegrasyonu çok anlatılıyor; ama CMS rolü ve “hangi alan nereden gelsin?” kararı çoğu zaman belirsiz bırakılıyor. Bu belirsizlik, günlük operasyonu manuel düzeltmeye iter. Buradaki hedef; çakışmayı “insan dikkati”ne bırakmadan, kural setiyle engellemektir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Çakışmayı engelleyen 7 kural (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Her alanın sahibi tek: fiyat/müsaitlik PMS/CM; içerik CMS",
+              "CMS’te fiyat alanı readonly veya hiç yok",
+              "Oda tiplerinde tekil “room_code” sözleşmesi (mapping)",
+              "Entegrasyon değişikliği için staging/test ortamı (prod’da deneme yok)",
+              "Publish sonrası cache/revalidation (eski fiyat gösterimi riskini azalt)",
+              "Log ve alarm: “site fiyatı ≠ PMS fiyatı” eşik uyarısı (Varsayım: basit kontrol)",
+              "Rollback planı: kampanya yanlışsa hızlı geri alma (CMS sürümü + PMS kuralı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Oda/fiyat/içerik çakışmalarını nasıl önlerim?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Alan bazında tek kaynak belirleyin, mapping’i sabitleyin, CMS’te fiyatı kapatın ve publish sonrası cache/revalidation + test akışı kurun."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CMS’te fiyat edit edilebiliyor mu? (kapat)",
+              "Room mapping dokümanı var mı?",
+              "Eski fiyat gösterimi için cache kontrolünüz var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Alan kaynağı dokümanı”nı ekipçe imzala ve değişiklik prosedürü ekle.",
+              "CMS’te fiyat alanlarını kaldır/readonly yap.",
+              "Mapping tablosunu kod tarafında tek yerden kullan (tek truth).",
+              "Cache/config hatalarının SEO ve kullanıcı tarafında eski fiyat gösterebileceğini unutma; revalidation/purge ekle.",
+              "İç link uyumu: /tr/pms-ota-yonetimi ve /tr/otel/ota-yonetimi ile süreçleri hizala."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "otel-cms-pms-ota-veri-akisi-alan-kaynagi-planlama-sablonu",
+        "title": "Otel İçin CMS–PMS–OTA Veri Akışı & Alan Kaynağı Planlama Şablonunu İndir — Yazılım / Entegrasyon",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel İçin CMS–PMS–OTA Veri Akışı & Alan Kaynağı Planlama Şablonunu İndir — Yazılım / Entegrasyon (v1.0)",
+            "purpose": "Bu şablon, CMS + PMS/OTA entegrasyonunda oda–fiyat–içerik alanlarının kaynağını netleştirerek “çift kaynak” sorununu ortadan kaldırmayı hedefler. Oda kod eşlemesi, senkronizasyon adımları ve test/rollback kurallarıyla; misafir tarafındaki tutarsız bilgi riskini azaltır.",
+            "whoFor": "GM/owner, revenue/rezervasyon lideri, IT/ajans teknik lideri.",
+            "steps": [
+              "Oda tipleri ve sistemleri listeleyin (PMS/CM/OTA/CMS).",
+              "Alan bazında “tek kaynak”ı işaretleyin (room/rate/content).",
+              "Senkronizasyon, test, cache/revalidation ve rollback adımlarını doldurun."
+            ],
+            "systemInventory": [
+              "PMS: __________",
+              "Channel Manager: __________",
+              "OTA(lar): __________",
+              "CMS: __________",
+              "Web/Booking Engine: __________"
+            ],
+            "roomTypeMapping": [
+              "room_code (tekil): ________",
+              "PMS room_id: ________",
+              "CM external_id: ________",
+              "CMS content_id: ________",
+              "OTA mapping notu: ________"
+            ],
+            "singleSourceOfTruth": [
+              "Oda anlatısı (başlık, açıklama, USP): [ ] CMS  [ ] PMS",
+              "Oda görselleri: [ ] CMS  [ ] OTA  [ ] Her ikisi (kural: ________)",
+              "Fiyat: [ ] PMS/CM  [ ] CMS (Varsayım: PMS/CM)",
+              "Müsaitlik: [ ] PMS/CM  [ ] CMS (Varsayım: PMS/CM)",
+              "Promosyon: [ ] PMS/CM  [ ] CMS (Varsayım: PMS/CM)",
+              "Destinasyon içerikleri: [ ] CMS",
+              "Politikalar (iptal/ödeme): [ ] PMS/Policy Engine  [ ] CMS (kural: ________)"
+            ],
+            "conflictRules": [
+              "CMS’te fiyat alanı yok/readonly",
+              "Mapping değişiklik prosedürü var",
+              "Prod’da deneme yok (staging test)",
+              "Publish sonrası cache purge/revalidate var",
+              "“site≠PMS” kontrol/uyarı kuralı var (Varsayım)"
+            ],
+            "syncAndTestFlow": [
+              "Test 1: 3 oda tipi fiyat/müsaitlik doğrulama",
+              "Test 2: kampanya promosyon + landing içerik senkronu",
+              "Test 3: rollback senaryosu (CMS sürümü + PMS promosyon kapatma)"
+            ],
+            "deliverables": [
+              "Alan kaynağı dokümanı",
+              "Mapping tablosu",
+              "Uçtan uca test senaryoları",
+              "Cache/revalidation notu + operasyon prosedürü",
+              "Buraya: Checklist / Framework Card",
+              "Buraya: Diagram / Flow"
+            ],
+            "href": "/downloads/otel-icin-cms-pms-ota-veri-akisi-alan-kaynagi-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Tek kaynak + doğru akış = daha az şikâyet, daha az manuel iş",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS/OTA + CMS veri sorumluluğu net olan yapılarda, “site ile PMS fiyat/oda farkı” şikâyetleri ve manuel düzeltme ihtiyacı genelde belirgin şekilde azalır. Bunun nedeni teknoloji değil; rol dağılımının ve akışın net olmasıdır. Oda anlatısını CMS’te güçlendirip, fiyat/müsaitliği PMS/Channel Manager’da tek kaynak yaparak; hem misafir deneyimini hem de ekip verimliliğini aynı anda iyileştirirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS + PMS/OTA Entegrasyon Analizi Talep Et",
+            "text": "Oda–fiyat–içerik kaynaklarını netleştirip entegrasyon çakışmalarını azaltmak isteyen oteller ve grup markalar için.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel İçin CMS–PMS–OTA Veri Akışı & Alan Kaynağı Planlama Şablonunu İndir",
+            "text": "Hangi alanın CMS’ten, hangisinin PMS/OTA’dan geldiğini netleştirip çakışma kurallarıyla senkronu planlamanızı sağlar.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "CMS ve PMS/OTA entegrasyonu nasıl kurgulanmalı?",
+        "a": "Oda–fiyat–içerik alanları için tek kaynak belirleyip (single source of truth), oda kod eşlemesini sabitleyerek kurgulanmalıdır. Fiyat/müsaitlik PMS/Channel Manager’dan; içerik CMS’ten gelir. Publish sonrası revalidation/purge ile eski veri riski azaltılır."
+      },
+      {
+        "q": "Oda ve fiyat bilgisini CMS’te mi PMS’te mi tutmalıyım?",
+        "a": "Fiyat ve müsaitlik PMS/Channel Manager’da tutulmalıdır; CMS’te fiyat tutmak çakışma ve yanlış bilgi üretir. Oda açıklaması, görseller ve destinasyon anlatıları CMS’te yönetilmelidir."
+      },
+      {
+        "q": "Otel web sitesinde hangi alan CMS’ten, hangisi PMS/OTA’dan gelmeli?",
+        "a": "CMS; oda açıklaması, galeri, destinasyon içerikleri, sayfa blokları ve SEO alanlarını sağlar. PMS/CM; fiyat, müsaitlik, promosyon ve operasyon kurallarının tek kaynağıdır. OTA’lar dağıtım kanalı olarak ele alınmalı; web içeriği için CMS merkez kalmalıdır."
+      },
+      {
+        "q": "Oda/fiyat/içerik çakışmalarını nasıl önlerim?",
+        "a": "CMS’te fiyat alanlarını kapatıp, mapping tablosunu tekil ID ile yöneterek ve publish sonrası cache/revalidation akışı kurarak önlersiniz. Ayrıca test senaryoları ve rollback prosedürü şarttır."
+      },
+      {
+        "q": "Cache/config hataları fiyat tutarsızlığına neden olur mu?",
+        "a": "Evet; PMS’te güncel fiyat varken web tarafında CDN/API cache nedeniyle eski fiyat görünebilir. Kritik sayfalarda kısa TTL veya revalidation/purge kurgusu gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-hero-01.webp — alt: CMS PMS OTA entegrasyon mimarisi görseli, otel veri akışı bağlamı",
+          "h1-context — 1920×1080 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-h1-context-02.webp — alt: Oda fiyat içerik kaynak dağılımı özeti, misafir deneyimi bağlamı",
+          "divider-01 — 1600×1200 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-divider-03.webp — alt: Hangi veri nereden gelir ayrımı görseli, otel teknoloji bağlamı",
+          "divider-02 — 1600×1200 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-divider-04.webp — alt: Çakışma önleme kuralları görseli, operasyon güvenliği bağlamı",
+          "diagram-05 — 1920×1080 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-diagram-05.webp — alt: PMS OTA CMS web veri akışı diyagramı, oda ve fiyat senkron bağlamı",
+          "checklist-06 — 1200×1200 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-checklist-06.webp — alt: CMS PMS OTA entegrasyon checklist kartı, otel ekipleri bağlamı",
+          "kpi-07 — 1200×1200 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-kpi-07.webp — alt: Site PMS fiyat farkı KPI kartı, gelir yönetimi bağlamı",
+          "proof-08 — 1200×1200 — cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu-proof-08.webp — alt: Alan kaynağı dokümanı ve entegrasyon çıktıları, güven unsuru bağlamı",
+          "table-field-source — Oda/fiyat/içerik alanlarının hangi sistemden beslendiği kaynak tablosu"
+        ],
+        "technicalChecklist": [
+          "Oda–fiyat–içerik alanları için single source of truth dokümanı hazırlanmalı",
+          "Fiyat ve müsaitlik PMS/Channel Manager’dan gelmeli; CMS’te fiyat alanı kaldırılmalı veya readonly olmalı",
+          "Oda tiplerinde tekil room_code / room_id / external_id mapping standardı belirlenmeli",
+          "Publish sonrası cache purge/revalidation akışı tanımlanmalı",
+          "Kampanya ve oda sayfaları için uçtan uca test senaryoları yazılmalı",
+          "Rollback prosedürü CMS sürümü + PMS promosyon kapatma senaryosunu kapsamalı",
+          "Site–PMS fiyat farkı şikâyetleri KPI olarak aylık izlenmeli",
+          "İç link hedefleri: /tr/yazilim/cms-entegrasyonu, /tr/pms-ota-yonetimi, /tr/otel/ota-yonetimi, /tr/yazilim/web-sitesi-gelistirme",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü: /tr/yazilim/blog/cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu"
+        ]
+      }
+    }
+  },
+
+   "BlogCmsCrmVeMarketingAutomationEntegrasyonuFormdanMusteriYolculuguna": {
+    "title": "CMS → CRM → Automation Lead Yolculuğu Rehberi",
+    "slug": "cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "27 Haziran 2026",
+    "publishedAt": "2026-06-27",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Formlar e-postada kaybolmasın: CMS form → CRM alan eşleme, UTM/source/campaign sözlüğü ve marketing automation ile lead’i takip edin, segmentleyin, nurture edin.",
+    "seo": {
+      "metaTitle": "CMS → CRM → Automation Lead Yolculuğu Rehberi | DGTLFACE",
+      "metaDescription": "Formlar e-postada kaybolmasın: CMS form → CRM alan eşleme, UTM/source/campaign sözlüğü ve marketing automation ile lead’i takip edin, segmentleyin, nurture edin. Otel & B2B akışları. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: /tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna"
+      ],
+      "strategySummary": "Bu blog, CMS & Panel Entegrasyonu sayfasını besleyen core “form→CRM→automation” rehberi rolündedir ve TR’de sık yapılan hatayı (formların sadece e-posta kutusuna düşüp kaybolması) doğrudan çözer. Hedef persona; otel ve B2B satış-pazarlama liderleri, ajans yöneticileri ve CRM/MarTech’ten sorumlu ekiplerdir. Funnel’da consideration (MoFu) ağırlıklıdır: lead’in kaynaktan pipeline’a taşınması, attribution ve nurturing süreçlerinin standardize edilmesi kararını kolaylaştırır. Ana iş sorusu: “Formdan gelen her lead’i kaybolmadan CRM’e aktararak, source/campaign etiketleriyle takip edilebilir ve nurture edilebilir bir yolculuğa nasıl dönüştürürüm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-27",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Birçok web projesinde formlar sadece e-posta kutusuna düşer ve orada kaybolur. CMS, CRM ve marketing automation entegrasyonu kurduğunuzda; form alanları CRM field’larıyla eşlenir, source/medium/campaign etiketleri standart sözlükle tutulur ve her lead pipeline’a izlenebilir şekilde aktarılır. Automation ile karşılama e-postaları, nurturing senaryoları ve satış bildirimleri devreye girer. Otelde rezervasyon isteği çağrı merkezine; B2B’de demo isteği satış pipeline’ına dönüşür.",
+      "sgeSummary": "CMS form alanlarını CRM field’larına eşle, UTM/source/campaign sözlüğünü standartlaştır. Formdan gelen lead CRM’e otomatik düşsün; automation ile karşılama, nurturing ve satış bildirimleri çalışsın.",
+      "voiceAnswer": "Formları CRM’e otomatik aktarmak için alan eşleme kurun, UTM etiketlerini saklayın ve automation workflow başlatın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel ve B2B satış/pazarlama ekipleri, CRM/MarTech yöneticileri, ajanslar",
+        "Ana KPI: Lead kayıp oranı, dönüşüm oranı, ilk temas süresi, pipeline hızlanması, kampanya bazlı gelir takibi",
+        "Entity’ler: CMS form, CRM, marketing automation, source/medium/campaign, UTM, nurturing, pipeline",
+        "Funnel: MoFu (Informational + Tactical) → süreç analizi talebi",
+        "Risk odağı: rastgele form alanları, tutarsız UTM sözlüğü, duplicate lead, yanlış atıf",
+        "Model: form-to-pipeline + nurture-ready leads + consistent attribution",
+        "Fark yaratan açı: “Form alan tasarımı + attribution sözlüğü”nü entegrasyonun merkezine koymak"
+      ]
+    },
+    "h1": {
+      "title": "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna",
+      "intro": "Birçok web projesinde formlar “lead üretir” ama süreç orada biter: form bir e-posta kutusuna düşer, sonra kaybolur; satış ekibi geç döner, pazarlama kampanyanın etkisini ölçemez. Oysa CMS, CRM ve marketing automation birlikte kurgulandığında; formdan gelen her lead/rezervasyon isteği takip edilebilir, etiketlenmiş ve nurture edilebilir bir müşteri yolculuğuna dönüşür. Bu dönüşümün anahtarı, yalnız “entegrasyon yapmak” değil; form alanlarını CRM alanlarıyla doğru eşlemek, source/campaign sözlüğünü standardize etmek ve automation workflow’larını satış süreçleriyle hizalamaktır. Bu rehberde, otel ve B2B için pratik akışlarla “form-to-pipeline” modelini kuruyoruz.",
+      "quickSummary": [
+        "1) Form alanlarını CRM field’larıyla eşle",
+        "2) UTM/source/campaign sözlüğünü standartlaştır",
+        "3) Dedupe ve update kurallarını baştan tanımla",
+        "4) Lead’i CRM pipeline’a otomatik aktar",
+        "5) Automation ile karşılama, nurturing ve satış bildirimlerini çalıştır"
+      ],
+      "ctaPrimary": {
+        "label": "CMS–CRM & Marketing Automation Akış Analizi Talep Et",
+        "text": "Formdan gelen lead’leri kaybetmeden CRM’e aktarıp UTM/etiketlerle ölçmek ve automation ile satış hızını artırmak isteyen otel ve B2B ekipleri için.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS–CRM & Marketing Automation Akış Analizi Talep Et",
+        "text": "Formdan gelen lead’leri kaybetmeden CRM’e aktarın, etiketleyin ve automation ile satış hızını artırın.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Form → CRM → Automation Lead Yolculuğu Planlama Şablonunu İndir",
+        "text": "Form alan mapping’ini, UTM sözlüğünü ve nurturing akışlarını tek dokümanda planlayıp tutarlı bir lead yolculuğu kurmanızı sağlar.",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Satış Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "form-alanlarini-crm-alanlariyla-eslemek",
+        "title": "Form Alanlarını CRM Alanlarıyla Eşlemek",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Formlar kayboluyor” diyorsanız problem entegrasyondan önce alan tasarımı + etiket standardıdır."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Entegrasyonun ilk adımı “API bağlamak” değil; veri sözleşmesi yazmaktır. CMS’teki form alanları, CRM’deki field’larla (Lead/Contact/Deal) birebir eşleşmiyorsa; veriler ya yanlış yere düşer, ya eksik kalır, ya da satış ekibinin işine yaramaz. Bu yüzden form tasarımını “toplayabildiğim kadar bilgi” değil, “satış sürecini hızlandıracak minimum doğru bilgi” olarak düşünmek gerekir."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Formdan CRM’e lead nasıl aktarılır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Form alanlarını CRM field’larına eşleyin, kimlik (email/telefon) ile dedupe kuralı koyun, source/campaign alanlarını zorunlu kaydedin ve CRM’de doğru objeye (Lead/Contact/Deal) yazın."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum veri seti (otel ve B2B için)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Form–CRM alan eşleştirme tablosu",
+            "headers": [
+              "Form / Senaryo",
+              "Minimum Form Alanı",
+              "CRM Alanı / Kural"
+            ],
+            "rows": [
+              [
+                "Otel rezervasyon isteği",
+                "Ad Soyad",
+                "contact.name"
+              ],
+              [
+                "Otel rezervasyon isteği",
+                "Telefon / E-posta",
+                "contact.phone / contact.email; dedupe key"
+              ],
+              [
+                "Otel rezervasyon isteği",
+                "Tarih aralığı / Misafir sayısı",
+                "lead.notes veya özel field"
+              ],
+              [
+                "Otel rezervasyon isteği",
+                "Oda tipi tercihi",
+                "lead.interest_category veya özel field"
+              ],
+              [
+                "B2B demo/teklif",
+                "Ad Soyad / İş e-postası / Telefon",
+                "contact.name / contact.email / contact.phone"
+              ],
+              [
+                "B2B demo/teklif",
+                "Şirket / Pozisyon",
+                "company.name / contact.job_title"
+              ],
+              [
+                "B2B demo/teklif",
+                "İhtiyaç konusu",
+                "lead.interest_category"
+              ],
+              [
+                "Tüm formlar",
+                "UTM/source/medium/campaign",
+                "lead.utm_* hidden fields"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel rezervasyon isteği formu: Ad Soyad / Telefon / E-posta",
+              "Otel rezervasyon isteği formu: Tarih aralığı / Misafir sayısı",
+              "Otel rezervasyon isteği formu: Oda tipi tercihi (opsiyonel)",
+              "Otel rezervasyon isteği formu: Mesaj/özel istek (opsiyonel)",
+              "Otel rezervasyon isteği formu: UTM/source/medium/campaign (gizli alan)",
+              "B2B demo/teklif formu: Ad Soyad / İş e-postası / Telefon",
+              "B2B demo/teklif formu: Şirket / Pozisyon",
+              "B2B demo/teklif formu: İhtiyaç konusu (dropdown)",
+              "B2B demo/teklif formu: UTM/source/medium/campaign (gizli alan)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Duplicate (çift kayıt) sorununu baştan çözmek"
+          },
+          {
+            "type": "p",
+            "text": "TR’de en sık problem: aynı kişi farklı formlarla defalarca kayıt olur; CRM “kirlenir”. Basit ama etkili kurallar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kimlik anahtarı: email + telefon (varsa)",
+              "Aynı kimlikle yeni form geldiyse: lead’i güncelle + yeni aktivite ekle",
+              "Aynı kişi farklı kampanyadan geldiyse: “first-touch” ve “last-touch” alanlarını ayrı tut"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CRM’de “Lead Source / Campaign / Medium” alanları standart mı?",
+              "Dedupe kuralı var mı (email/telefon)?",
+              "Form alanları satışın gerçekten kullandığı alanlar mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Form alanlarını CRM objelerine göre tasarla (Lead/Contact/Deal).",
+              "Zorunlu/opsiyonel alanları netleştir (minimum veri seti).",
+              "Dedupe ve güncelleme kuralını yaz.",
+              "UTM alanlarını formda hidden olarak standartlaştır.",
+              "CRM’e “activity timeline” düşecek şekilde log tasarla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kaynak-kampanya-etiketleri-source-campaign-medium",
+        "title": "Kaynak/Kampanya Etiketleri (Source, Campaign, Medium)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Lead geldi” demek yetmez; nereden geldi? sorusunun cevabı yoksa pazarlama körleşir. Source/medium/campaign (UTM) etiketleri; CRM, GA4 ve raporlama katmanında aynı sözlükle tutulmazsa, sonradan attribution düzeltmek çok pahalıdır. Bu yüzden entegrasyonun ikinci kritik adımı, naming convention (sözlük) standardıdır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Source/campaign etiketlerini nerede nasıl tutmalıyım?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: UTM’leri form submit anında yakalayıp hem CRM Lead/Deal alanlarına hem de event log’una yazın; GA4 ile aynı naming convention’ı kullanın."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen alan seti (CRM tarafı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "utm_source, utm_medium, utm_campaign (zorunlu)",
+              "utm_content, utm_term (opsiyonel)",
+              "landing_page_url (çok değerli)",
+              "first_touch_source / last_touch_source (ayrı alanlar)",
+              "attribution_notes (opsiyonel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sözlük örneği (rastgele bırakmayın)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "source: google, meta, linkedin, email, referral",
+              "medium: cpc, paid_social, organic, newsletter",
+              "campaign: brand_search_tr, earlybooking_2026, demo_q1"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "GA4 ve CRM aynı utm sözlüğünü kullanıyor mu?",
+              "Form submit anında landing page kaydediliyor mu?",
+              "First-touch ve last-touch ayrımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "UTM sözlüğünü yazılı hale getir (naming convention dokümanı).",
+              "CMS formunda hidden UTM alanları standartlaştır.",
+              "CRM’de aynı alan adlarıyla tut (mümkünse birebir).",
+              "GA4 event’leri ile CRM mapping’i eşleştir.",
+              "Raporlamayı /tr/raporlama/satis-donusum ile hizala."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "marketing-automation-e-posta-workflow-nurturing",
+        "title": "Marketing Automation (E-posta, Workflow, Nurturing)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CRM’e düşen lead, “takip edilmedikçe” değer üretmez. Marketing automation burada devreye girer: karşılama e-postası, satışa bildirim, nurturing serileri, segment bazlı içerik akışı… Ama automation’ın başarılı olması için iki şey şarttır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "CRM’de veri temiz ve etiketli olmalı (source/campaign),",
+              "Segmentleme alanları doğru tasarlanmalı (ihtiyaç, pazar, dil, tarih aralığı gibi)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Form→CRM→automation akışında hangi tetikler kullanılmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Form submit → anında “thank you + next step” e-postası",
+              "High-intent lead (demo/rezervasyon) → satışa anında bildirim",
+              "24 saat yanıt yoksa → otomatik hatırlatma + görev atama",
+              "Segment bazlı nurturing → içerik serisi (case, rehber, otel paket önerileri)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Lead yolculuğu modeli"
+          },
+          {
+            "type": "p",
+            "text": "CMS form verisi, CRM’de lead/contact/deal entity’lerine dönüşür; UTM/source/campaign alanlarıyla attribution katmanı oluşur; marketing automation bu etiketlere göre nurturing workflow’larını tetikler. Böylece form-to-pipeline akışı yalnız “veri aktarımı” değil, nurture-ready leads üretme sistemine dönüşür. Bu modelin başarısı, alan eşleme (mapping) ve naming convention standardıyla “consistent attribution” sağlamasına bağlıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Form submit sonrası otomatik karşılama e-postası var mı?",
+              "Satış bildirimleri SLA ile bağlı mı?",
+              "Segment alanları (otel/b2b, hizmet, pazar) CRM’de var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "High-intent formları (rezervasyon/demo) için hızlı bildirim kur.",
+              "Nurturing serilerini 2–3 basit akışla başlat (aşırı karmaşadan kaçın).",
+              "SLA ve görev atama kuralını belirle (kim, kaç saatte döner?).",
+              "Segmentleme alanlarını CRM’de standartlaştır.",
+              "Automation performansını metrikle (açılma, tıklama, toplantı oranı)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Form → CRM → Automation Lead Yolculuğu Planlama Şablonunu İndir",
+            "text": "Form alan mapping’ini, UTM sözlüğünü ve nurturing akışlarını tek dokümanda planlayıp tutarlı bir lead yolculuğu kurmanızı sağlar.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-akislar",
+        "title": "Otel ve B2B İçin Örnek Akışlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entegrasyonun gerçek değeri, örnek akışlarda ortaya çıkar. Otelde hedef çoğu zaman hızlı geri dönüş ve çağrı merkezi koordinasyonudur; B2B’de ise pipeline yönetimi ve doğru nurturing."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Otel akışı — rezervasyon isteği → çağrı/CRM süreci"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Misafir formu doldurur (tarih, kişi, iletişim)",
+              "CRM’de lead + ticket/deal açılır; source/campaign yazılır",
+              "Çağrı merkezine görev düşer (SLA: örn. 15–60 dk)",
+              "Misafire otomatik “talebinizi aldık” e-postası gider",
+              "Yanıt yoksa otomatik hatırlatma + ikinci görev"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B akışı — demo isteği → pipeline süreci"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Demo formu → CRM’de lead + deal oluşur",
+              "Lead scoring (basit): şirket büyüklüğü, sektör, kampanya",
+              "Satışa anında bildirim + toplantı linki e-postası",
+              "Nurturing: 3 içerik (case + rehber + ROI/teklif)",
+              "Deal aşamaları raporlanır (kaynak/kampanya bazlı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde çağrı merkezi görev ataması otomatik mi?",
+              "B2B’de demo sonrası toplantı linki otomatik mi?",
+              "Kampanya bazlı lead ve gelir raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel için “hızlı dönüş” SLA’sını sisteme bağla.",
+              "B2B’de form→meeting akışını kısalt (tek tık toplantı).",
+              "Pipeline aşamalarını standartlaştır (naming).",
+              "UTM sözlüğünü bozmadan kampanya üret (disiplin).",
+              "Aylık: lead kaybı, yanıt süresi, kampanya ROI raporu çıkar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hata-ve-cakismalari-onleme",
+        "title": "Hata ve Çakışmaları Önleme (TR’de sık görülen problem)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de CRM entegrasyonları sık yapılıyor; ama CMS form alan tasarımı ve source/campaign etiketlemesi çoğu zaman rastgele bırakılıyor. Sonuç: raporlar tutmaz, satış “lead kalitesi kötü” der, pazarlama “hangi kampanya işe yaradı bilmiyorum” der. Bu bölümün amacı, en sık hataları baştan engellemektir."
+          },
+          {
+            "type": "h3",
+            "text": "En sık 7 hata ve pratik çözüm"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Form alanları rastgele → minimum veri seti + mapping dokümanı",
+              "UTM sözlüğü yok → naming convention",
+              "Duplicate lead → dedupe + update rule",
+              "Yanıt gecikmesi → SLA + görev atama",
+              "Automation yok → welcome + 1 nurturing akışıyla başla",
+              "GA4–CRM kopuk → aynı sözlük + rapor linki",
+              "KVKK/rıza unutulur (Varsayım) → opt-in alanı + log"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "CRM’de aynı kişi 5 kez var mı? (dedupe)",
+              "UTM’ler “none/unknown” mı dolu? (yakalama problemi)",
+              "Satış ilk dönüş süresi ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Form–CRM mapping tablosunu “kutsal doküman” yap.",
+              "UTM yakalamayı standartlaştır (hidden fields + landing url).",
+              "Dedupe ve update politikasını CRM’de uygula.",
+              "SLA + bildirim + görev atama ile süreç kur.",
+              "Raporlama sayfanızla aynı sözlükte ilerleyin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "form-crm-automation-lead-yolculugu-planlama-sablonu",
+        "title": "Form → CRM → Automation Lead Yolculuğu Planlama Şablonunu İndir — Yazılım / Lead Journey",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Form → CRM → Automation Lead Yolculuğu Planlama Şablonunu İndir — Yazılım / Lead Journey (v1.0)",
+            "purpose": "Bu şablon; CMS formlarını CRM alanlarıyla eşleyip UTM/source/campaign sözlüğünü standardize ederek “formdan pipeline’a” izlenebilir bir yolculuk kurmayı hedefler. Otomatik karşılama e-postaları, nurturing ve satış bildirimleriyle lead kaybını azaltır; kampanya bazlı lead ve gelir raporlamasını netleştirir.",
+            "whoFor": "Satış lideri, pazarlama lideri, CRM yöneticisi, ajans proje yöneticisi.",
+            "steps": [
+              "Form tiplerini ve minimum alan setini belirleyin (otel/b2b).",
+              "CRM mapping ve UTM sözlüğünü doldurun (GA4 ile aynı).",
+              "Automation tetiklerini ve SLA/görev atama kurallarını yazın."
+            ],
+            "formInventory": [
+              "Otel: [ ] Rezervasyon isteği  [ ] Teklif/etkinlik  [ ] İletişim",
+              "B2B: [ ] Demo isteği  [ ] Teklif  [ ] İçerik indirme",
+              "Not: __________"
+            ],
+            "formCrmMapping": [
+              "Form: ad_soyad → CRM: contact.name",
+              "Form: email → CRM: contact.email (dedupe key)",
+              "Form: telefon → CRM: contact.phone",
+              "Form: mesaj → CRM: lead.notes",
+              "Form: ihtiyac → CRM: lead.interest_category",
+              "Form: landing_page_url → CRM: lead.landing_page",
+              "Form: utm_source/medium/campaign → CRM: lead.utm_*",
+              "Varsayım: CRM objeleri (Lead/Contact/Deal) projeye göre uyarlanır."
+            ],
+            "utmNamingConvention": [
+              "utm_source: google | meta | linkedin | email | referral",
+              "utm_medium: cpc | paid_social | organic | newsletter",
+              "utm_campaign formatı: {hedef}{kanal}{pazar}_{tarih} (örn. earlybooking_google_tr_2026q1)"
+            ],
+            "dedupeAndUpdateRule": [
+              "Primary key: email (+telefon)",
+              "Aynı kişi yeni form gönderirse: [ ] lead güncelle + aktivite ekle",
+              "First-touch / last-touch alanları: [ ] ayrı tutulur"
+            ],
+            "automationFlows": [
+              "Akış A: Form submit → teşekkür + next step e-postası",
+              "Akış B: High-intent → satışa bildirim + görev atama (SLA: ____ saat)",
+              "Akış C: 24 saat yanıt yok → hatırlatma + ikinci görev",
+              "Akış D: Nurturing (3 adım) → case + rehber + teklif/dönüşüm"
+            ],
+            "kpis": [
+              "İlk dönüş süresi",
+              "Lead kayıp oranı",
+              "Kampanya bazlı lead sayısı",
+              "Pipeline win rate",
+              "Gelir / kampanya (raporlama sayfası ile uyumlu)"
+            ],
+            "deliverables": [
+              "Mapping dokümanı",
+              "UTM sözlüğü ve naming convention",
+              "Automation workflow şeması",
+              "SLA + görev atama kuralları",
+              "Buraya: Checklist / Framework Card",
+              "Buraya: Diagram / Flow"
+            ],
+            "href": "/downloads/form-crm-automation-lead-yolculugu-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Formlar e-posta değil, pipeline üretmeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CMS–CRM entegrasyonu sağlam olan projelerde, satış ekiplerinin “formlar kayboluyor” şikâyeti azalır; kanal/kampanya bazlı lead ve gelir takibi netleşir. Başarı; CRM entegrasyonu yapmakla değil, form alan tasarımını, UTM sözlüğünü ve automation akışlarını birlikte standardize etmekle gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS–CRM & Marketing Automation Akış Analizi Talep Et",
+            "text": "Otel ve B2B’de form-to-pipeline akışını kurup attribution ve nurturing’i standardize etmek isteyen ekipler için.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Form → CRM → Automation Lead Yolculuğu Planlama Şablonunu İndir",
+            "text": "Form alan mapping’ini, UTM sözlüğünü ve nurturing akışlarını tek dokümanda planlayıp tutarlı bir lead yolculuğu kurmanızı sağlar.",
+            "href": "/tr/yazilim/cms-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Formdan CRM’e lead nasıl aktarılır?",
+        "a": "Form alanlarını CRM field’larıyla eşleyip, email/telefon ile dedupe kuralı koyarak aktarılır. UTM/source/medium/campaign alanları form submit anında yakalanıp CRM’e yazılmalı ve lead/deal objelerine bağlanmalıdır."
+      },
+      {
+        "q": "Source/campaign etiketlerini nerede nasıl tutmalıyım?",
+        "a": "UTM’leri hem CRM lead/deal alanlarında hem de aktivite log’unda saklayın; landing page URL’yi de kaydedin. GA4 ile aynı naming convention kullanılırsa kampanya bazlı lead ve gelir raporu tutarlı olur."
+      },
+      {
+        "q": "Otel için rezervasyon isteği formu CRM’e nasıl bağlanır?",
+        "a": "Formdan gelen talep CRM’de lead + görev (çağrı merkezi) olarak açılabilir; tarih aralığı, kişi sayısı gibi alanlar lead notlarına/özel field’lara yazılır. Otomatik teşekkür e-postası ve hızlı dönüş SLA’sı süreçle birlikte kurgulanmalıdır."
+      },
+      {
+        "q": "B2B için demo/teklif formlarını marketing automation ile nasıl entegre ederim?",
+        "a": "Demo formu geldiğinde CRM’de deal oluşturup satışa bildirim tetikleyin; ardından 2–3 adımlı nurturing serisi (case/rehber/teklif) başlatın. Segment alanları (sektör, ihtiyaç) doğru tasarlanırsa nurturing daha etkili olur."
+      },
+      {
+        "q": "CRM entegrasyonunda en sık hata nedir?",
+        "a": "Form alanlarının rastgele tasarlanması ve UTM/source/campaign sözlüğünün standart olmamasıdır. Bu durum duplicate lead, yanlış atıf ve ölçülemeyen kampanya performansı üretir."
+      },
+      {
+        "q": "Lead’ler neden “kayboluyor” gibi görünür?",
+        "a": "Çünkü CRM’de dedupe/update kuralı yoktur, satış bildirimleri ve görev ataması otomatik değildir veya SLA tanımlı değildir. Entegrasyon “veri yazma” ile bitmez; takip süreci de otomatikleşmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-hero-01.webp — alt: CMS CRM automation entegrasyonunu anlatan görsel, otel ve B2B lead bağlamı",
+          "h1-context — 1920×1080 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-h1-context-02.webp — alt: Formdan pipeline’a yolculuk özeti, satış operasyon bağlamı",
+          "divider-01 — 1600×1200 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-divider-03.webp — alt: Form alan eşleme mantığı görseli, CRM veri sözleşmesi bağlamı",
+          "divider-02 — 1600×1200 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-divider-04.webp — alt: UTM ve attribution standardı görseli, raporlama bağlamı",
+          "diagram-05 — 1920×1080 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-diagram-05.webp — alt: CMS form CRM automation funnel diyagramı, lead journey bağlamı",
+          "checklist-06 — 1200×1200 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-checklist-06.webp — alt: Form CRM automation checklist kartı, satış ve pazarlama ekipleri bağlamı",
+          "kpi-07 — 1200×1200 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-kpi-07.webp — alt: Lead yanıt süresi ve dönüşüm KPI kartı, pipeline bağlamı",
+          "proof-08 — 1200×1200 — cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna-proof-08.webp — alt: Mapping dokümanı ve automation çıktıları, güven unsuru bağlamı",
+          "table-form-crm-mapping — Form–CRM alan eşleştirme tablosu"
+        ],
+        "technicalChecklist": [
+          "Form alanları CRM objelerine göre tasarlanmalı (Lead/Contact/Deal)",
+          "UTM/source/medium/campaign alanları hidden field olarak standartlaştırılmalı",
+          "CRM’de Lead Source / Campaign / Medium alanları standart sözlükle tutulmalı",
+          "Dedupe kuralı email + telefon anahtarıyla tanımlanmalı",
+          "Aynı kişi yeni form gönderirse lead güncelleme + yeni activity log kuralı uygulanmalı",
+          "First-touch ve last-touch alanları ayrı tutulmalı",
+          "High-intent formlar için satış bildirimi ve görev atama otomatik çalışmalı",
+          "SLA, ilk dönüş süresi ve lead kayıp oranı KPI olarak izlenmeli",
+          "KVKK/rıza için opt-in alanı + log kurgusu eklenmeli (Varsayım)",
+          "İç link hedefleri: /tr/yazilim/cms-entegrasyonu, /tr/raporlama/satis-donusum, /tr/veri-analiz-ve-raporlama",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Canonical kontrolü: /tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna"
+        ]
+      }
+    }
   }
 }

@@ -44748,6 +44748,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "Dashboard ve alert deliverables kartı, teknik ve iş ekipleri için görünürlük",
       caption: "Dashboard ve alert deliverables kartı, teknik ve iş ekipleri için görünürlük"
     }
+  },
+
+  "ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler":{
+    banner: {
+      src: "/images/blog/software/Software1-25/Software1-25-1.webp",
+      alt: "AI Destekli Web Geliştirme ve Kod Üretimi: Best Practice ve Riskler",
+      caption: "AI Destekli Web Geliştirme ve Kod Üretimi: Best Practice ve Riskler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software1-25/Software1-25-2.webp",
+      alt: "AI taslak vs insan düzenleme bağlamı, kurumsal web kod kalitesi",
+      caption: "AI taslak vs insan düzenleme bağlamı, kurumsal web kod kalitesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-25/Software1-25-3.webp",
+    alt: "AI kod asistanları tanımı, otel ve B2B ekiplerinde kontrollü kullanım",
+      caption: "AI kod asistanları tanımı, otel ve B2B ekiplerinde kontrollü kullanım"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-25/Software1-25-4.webp",
+      alt: "AI riskleri bölüm ayırıcı, kurumsal projelerde güvenlik ve lisans kontrolü",
+      caption: "AI riskleri bölüm ayırıcı, kurumsal projelerde güvenlik ve lisans kontrolü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-25/Software1-25-5.webp",
+      alt: "AI + insan geliştirme akış diyagramı, otel ve B2B’de güvenli hibrit model",
+      caption: "AI + insan geliştirme akış diyagramı, otel ve B2B’de güvenli hibrit model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-25/Software1-25-6.webp",
+      alt: "AI kod üretimi checklist kartı, kurumsal web projelerinde güvenli review",
+      caption: "AI kod üretimi checklist kartı, kurumsal web projelerinde güvenli review"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-25/Software1-25-7.webp",
+      alt: "AI destekli geliştirme KPI kartı, hız ve risk dengesini ölçme",
+      caption: "AI destekli geliştirme KPI kartı, hız ve risk dengesini ölçme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-25/Software1-25-8.webp",
+      alt: "AI dev workflow deliverables kartı, policy ve review gate çıktıları",
+      caption: "AI dev workflow deliverables kartı, policy ve review gate çıktıları"
+    }
+  },
+
+  "cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu":{
+    banner: {
+      src: "/images/blog/software/Software2-6/Software2-6-1.webp",
+      alt: "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu",
+      caption: "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-6/Software2-6-2.webp",
+      alt: "Oda fiyat içerik kaynak dağılımı özeti, misafir deneyimi bağlamı",
+      caption: "Oda fiyat içerik kaynak dağılımı özeti, misafir deneyimi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-6/Software2-6-3.webp",
+    alt: "Hangi veri nereden gelir ayrımı görseli, otel teknoloji bağlamı",
+      caption: "Hangi veri nereden gelir ayrımı görseli, otel teknoloji bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-6/Software2-6-4.webp",
+      alt: "Çakışma önleme kuralları görseli, operasyon güvenliği bağlamı",
+      caption: "Çakışma önleme kuralları görseli, operasyon güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-6/Software2-6-5.webp",
+      alt: "PMS OTA CMS web veri akışı diyagramı, oda ve fiyat senkron bağlamı",
+      caption: "PMS OTA CMS web veri akışı diyagramı, oda ve fiyat senkron bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-6/Software2-6-6.webp",
+      alt: "CMS PMS OTA entegrasyon checklist kartı, otel ekipleri bağlamı",
+      caption: "CMS PMS OTA entegrasyon checklist kartı, otel ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-6/Software2-6-7.webp",
+      alt: "Site PMS fiyat farkı KPI kartı, gelir yönetimi bağlamı",
+      caption: "Site PMS fiyat farkı KPI kartı, gelir yönetimi bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-6/Software2-6-8.webp",
+      alt: "Alan kaynağı dokümanı ve entegrasyon çıktıları, güven unsuru bağlamı",
+      caption: "Alan kaynağı dokümanı ve entegrasyon çıktıları, güven unsuru bağlamı"
+    }
+  },
+
+  "cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna":{
+    banner: {
+      src: "/images/blog/software/Software2-7/Software2-7-1.webp",
+      alt: "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna",
+      caption: "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-7/Software2-7-2.webp",
+      alt: "Formdan pipeline’a yolculuk özeti, satış operasyon bağlamı",
+      caption: "Formdan pipeline’a yolculuk özeti, satış operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-7/Software2-7-3.webp",
+    alt: "Form alan eşleme mantığı görseli, CRM veri sözleşmesi bağlamı",
+      caption: "Form alan eşleme mantığı görseli, CRM veri sözleşmesi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-7/Software2-7-4.webp",
+      alt: "UTM ve attribution standardı görseli, raporlama bağlamı",
+      caption: "UTM ve attribution standardı görseli, raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-7/Software2-7-5.webp",
+      alt: "CMS form CRM automation funnel diyagramı, lead journey bağlamı",
+      caption: "CMS form CRM automation funnel diyagramı, lead journey bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-7/Software2-7-6.webp",
+      alt: "Form CRM automation checklist kartı, satış ve pazarlama ekipleri bağlamı",
+      caption: "Form CRM automation checklist kartı, satış ve pazarlama ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-7/Software2-7-7.webp",
+      alt: "Lead yanıt süresi ve dönüşüm KPI kartı, pipeline bağlamı",
+      caption: "Lead yanıt süresi ve dönüşüm KPI kartı, pipeline bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-7/Software2-7-8.webp",
+      alt: "Mapping dokümanı ve automation çıktıları, güven unsuru bağlamı",
+      caption: "Mapping dokümanı ve automation çıktıları, güven unsuru bağlamı"
+    }
   }
   
 };
