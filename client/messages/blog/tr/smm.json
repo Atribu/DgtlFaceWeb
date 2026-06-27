@@ -3269,7 +3269,7 @@
     },
     "h1": {
       "title": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
-      "intro": "İçerik üretimi kolay; sonuç üreten içerik sistemi kurmak zordur. Otel ve B2B/hizmet markalarının çoğu, sosyal medyayı “paylaşım takvimi” zanneder: birkaç içerik fikri, biraz tasarım, birkaç reklam… Oysa strateji dokümanı; hedefi, KPI’ı, kitleyi, mesajı, kanalı, bütçeyi ve ölçümü tek çatı altında bağlayan dokümante edilmiş plandır. Bu yazıda, markanız için stratejiyi “herkesin aynı sayfaya baktığı” bir sistem haline getirecek adım adım framework’ü bulacaksınız.",
+      "intro": "İçerik üretimi kolay; sonuç üreten içerik sistemi kurmak zordur. Otel ve B2B/hizmet markalarının çoğu, sosyal medyayı “paylaşım takvimi” zanneder: birkaç içerik fikri, biraz tasarım, birkaç reklam… Oysa strateji dokümanı; hedefi, KPI’ı, kitleyi, mesajı, kanalı, bütçeyi ve ölçümü tek çatı altında bağlayan dokümante edilmiş plandır. Bu yazıda, markanız için stratejiyi “herkesin aynı sayfaya baktığı” bir sistem haline getirecek adım adım framework’ü bulacaksınız. Bu çerçeveyi hizmet tarafına bağlamak isterseniz [sosyal medya stratejisi nasıl yazılır](/tr/smm/planlama-strateji) yaklaşımı iyi bir başlangıç noktası sunar.",
       "quickSummary": [
         "1) Audit: Mevcut durumu çıkar",
         "2) Hedef & KPI: Nereye gittiğini ve nasıl ölçeceğini yaz",
@@ -3293,13 +3293,29 @@
       "secondary": {
         "label": "Sosyal Medya Strateji Framework & Template’ini İndir",
         "text": "Audit’ten ölçüme kadar stratejiyi 1 günde yapılandırıp ekipçe aynı çerçevede ilerlemenizi sağlar.",
-        "href": "/tr/smm/planlama-strateji"
+        "href": "/downloads/sosyal-medya-strateji-framework-template-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Planlama & Strateji hizmet sayfası",
         "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Hedef Kitle ve Persona Araştırması",
+        "href": "/tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi"
+      },
+      {
+        "label": "Sosyal Medya KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur"
+      },
+      {
+        "label": "90 Günlük Sosyal Medya Roadmap",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
       },
       {
         "label": "SMM İçerik Üretimi",
@@ -3312,16 +3328,28 @@
       {
         "label": "İçerik SEO rehberi",
         "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM Planlama & Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi: Sistem ve Workflow Nasıl Kurulur?",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi Nasıl Kurulur?",
+        "href": "/tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi"
       },
       {
-        "title": "Sosyal Medya Analiz & Raporlama: KPI Panosu ve Öğrenim Döngüsü",
-        "href": "/tr/smm/analiz-raporlama"
+        "title": "Sosyal Medya KPI Çerçevesi: Hedef ve Başarım Nasıl Ölçülür?",
+        "href": "/tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur"
+      },
+      {
+        "title": "90 Günlük Sosyal Medya Roadmap + Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
       }
     ],
     "sections": [
@@ -3336,6 +3364,10 @@
           {
             "type": "p",
             "text": "Audit, “ne paylaştık?” listesinden ibaret değildir; kanal sağlığı + içerik performansı + kitle sinyali + rakip kıyası çıkarımıdır. Otel gruplarında (örn. Antalya–Belek–Side hattında sezonluk kampanya baskısı olan yapılarda) audit; sezon, pazar ve teklif değişimlerinin sosyal performansa etkisini de kapsar. B2B/hizmet markalarında ise audit, “hangi içerik türü hangi niyeti tetikliyor?” sorusuna cevap üretmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde strateji dokümanı](/tr/sosyal-medya-yonetimi), yalnızca içerik listesi değil; hedef, kitle, kanal, içerik ve ölçüm kararlarını aynı çerçevede toplayan başlangıç katmanıdır."
           },
           {
             "type": "h3",
@@ -3408,6 +3440,10 @@
             "text": "Strateji dokümanının kalbi, hedef ve KPI setidir. “Takipçi artsın” hedef değil, sonuç göstergesi bile olmayabilir. Otel için sosyal medya; rezervasyon, call center, teklif sayfaları ve marka güveniyle birlikte düşünülür. B2B/hizmet tarafında ise satış döngüsü uzun olduğu için KPI seti “mikro dönüşüm → lead → meeting → teklif” zincirinde kurulmalıdır."
           },
           {
+            "type": "p",
+            "text": "Burada [hedef ve KPI belirleme sosyal medya](/tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur) yaklaşımı stratejiyi ölçülebilir hale getirir; aksi halde doküman yalnızca iyi niyetli hedef başlıklarından oluşur."
+          },
+          {
             "type": "h3",
             "text": "KPI ve hedefleri nasıl belirlerim?"
           },
@@ -3478,6 +3514,10 @@
           {
             "type": "p",
             "text": "Persona, sadece demografi değildir; ihtiyaç, itiraz, karar kriteri ve içerik tüketim davranışıdır. Otel tarafında persona; yerli/yabancı pazar, aile/çift, sezon ve bütçe gibi parametrelerle değişir. B2B/hizmet tarafında ise persona çoğunlukla “rol temelli”dir: GM, satış-pazarlama müdürü, dijital pazarlama sorumlusu, ajans sahibi gibi."
+          },
+          {
+            "type": "p",
+            "text": "Sağlam bir strateji için [hedef kitle ve persona araştırması](/tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi) ayrı bir çalışma alanı gibi ele alınmalıdır; çünkü yanlış persona tanımı, doğru KPI ve içerik planını da doğrudan bozar."
           },
           {
             "type": "h3",
@@ -3563,6 +3603,10 @@
             "text": "“Content pillars”, markanın sosyal medyada tekrar edilebilir ve ölçülebilir tema sütunlarıdır. Otellerde tipik sütunlar: deneyim, oda/konsept, kampanya/teklif, destinasyon, sosyal kanıt (yorum/UGC), sürdürülebilirlik/kalite. B2B/hizmet markalarında: problem–çözüm, framework’ler, case/kanıt, kulis/süreç, eğitim/mini ders, teklif/CTA."
           },
           {
+            "type": "p",
+            "text": "Bu aşama aynı zamanda [stratejiden sosyal medya içerik üretimine geçiş](/tr/smm/icerik-uretimi) noktasıdır; çünkü pillar, format ve kanal kararları içerik takvimi, caption, görsel dil ve üretim ritmini doğrudan belirler."
+          },
+          {
             "type": "h3",
             "text": "Strateji dokümanında hangi başlıklar olmalı?"
           },
@@ -3597,6 +3641,10 @@
             "text": "“Sosyal medya stratejisi nasıl yazılır”, “sosyal medya strateji dokümanı örneği”, “sosyal medyada hedef ve KPI belirleme” gibi varyasyonlar; H2/H3’lere değil, paragraf akışına serpiştirilmelidir."
           },
           {
+            "type": "p",
+            "text": "Aynı mantıkla [SEO içerik stratejisiyle uyumlu sosyal medya planı](/tr/seo/icerik-seo) kurulduğunda sosyal medya temaları, blog başlıkları, landing page mesajları ve organik görünürlük hedefleri birbirini desteklemeye başlar."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check (Pillar sağlamlığı)"
           },
@@ -3618,7 +3666,7 @@
               "Pillar’ları “tema + vaad + KPI” üçlüsüyle tanımlayın.",
               "Kanal başına “rol” belirleyin ve KPI’ı buna bağlayın.",
               "Her pillar için 10 içerik fikri havuzu oluşturun (audit bulgularıyla).",
-              "İç link planını ekleyin: /tr/smm/icerik-uretimi ve /tr/seo/icerik-seo ile uyumlu."
+              "İç link planını içerik üretimi ve içerik SEO hattıyla uyumlu olacak şekilde ekleyin."
             ]
           },
           {
@@ -3634,6 +3682,14 @@
           {
             "type": "p",
             "text": "Strateji dokümanı, “iyi fikirler listesi” değil; uygulanabilir üretim sistemidir. Bu yüzden takvim ve kaynak planı şarttır. Otel tarafında sezonluk yoğunluk, çekim takvimi, kampanya dönemleri ve çok dilli içerik ihtiyacı (TR/EN/DE/RU) planı doğrudan etkiler. B2B/hizmet tarafında ise uzmanlık içeriği (framework, case, analiz) için “subject matter” katkısı gereklidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu planı operasyonel hale getirmenin en net yolu [90 günlük sosyal medya roadmap’i](/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi) oluşturmaktır; böylece strateji soyut bir niyet listesi değil, önceliklendirilmiş backlog ve aksiyon takvimi haline gelir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında sezon, hedef pazar ve teklif yapısı daha belirleyici olduğu için [otel sosyal medya stratejisi](/tr/otel/sosyal-medya) ayrıca ele alınmalı; aksi halde genel framework, otelin rezervasyon ve deneyim odaklı gerçeklerine fazla soyut kalabilir."
           },
           {
             "type": "h3",
@@ -3701,6 +3757,10 @@
           {
             "type": "p",
             "text": "Stratejinin “yaşayan doküman” olması, ölçüm ve revizyon döngüsüyle mümkündür. Çoğu ekipte, paylaşım yapılır ama öğrenim birikmez. Oysa yazılı stratejisi olan ekiplerde, kararların “kişiye bağlı inisiyatif” yerine “çerçeveye bağlı” ilerlediği ve ekip değişimlerinde daha az kopukluk yaşandığı görülür (genel gözlem)."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [sosyal medya analiz ve raporlama süreci](/tr/smm/analiz-raporlama) stratejinin doğal devamıdır; KPI takibi, aylık yorumlama ve optimizasyon kararı aynı çerçeve içinde ilerlemediğinde strateji belgesi hızla raf dokümanına dönüşür."
           },
           {
             "type": "h3",
@@ -3863,12 +3923,16 @@
             "text": "Otel sahibi/GM veya ajans yöneticisi, 20 sayfa doküman okumaz. Bu yüzden dokümanın sonunda “1 sayfa” özet üretin: hedefler + KPI seti, persona’lar + ana mesajlar, pillar’lar + kanal rolleri, takvim kapasitesi + kaynak planı, ölçüm ritmi + revizyon tarihi."
           },
           {
+            "type": "p",
+            "text": "Bu özeti ekip içinde standardize etmek isteyenler için [sosyal medya strateji dokümanı](/tr/smm/planlama-strateji) yaklaşımı ile [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası birlikte iyi bir karar başlangıcı sağlar."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
               "Yöneticiler için 1 sayfa özet ekleyin.",
-              "İç linkleri netleştirin: /tr/smm/planlama-strateji → /tr/smm/icerik-uretimi → /tr/smm/analiz-raporlama ve /tr/seo/icerik-seo.",
+              "İç linkleri netleştirin: planlama, içerik üretimi, analiz & raporlama ve içerik SEO hattı birlikte çalışsın.",
               "Dokümanı ekip onboarding dokümanı gibi kullanın."
             ]
           },
@@ -3884,7 +3948,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Strateji Framework & Template’ini İndir",
             "text": "Audit’ten ölçüme kadar stratejiyi 1 günde yapılandırıp ekipçe aynı çerçevede ilerlemenizi sağlar.",
-            "href": "/tr/smm/planlama-strateji"
+            "href": "/downloads/sosyal-medya-strateji-framework-template-v1.0.pdf"
           }
         ]
       }
@@ -3938,12 +4002,15 @@
           "proof-08 — 1200×1200 — sosyal-medya-stratejisi-nasil-yazilir-framework-proof-08.webp"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü (parametreli sayfalar dahil)",
-          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
-          "TR/EN/DE/RU hreflang (varsa) karşılıklılık kontrolü",
+          "Canonical: /tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde kırık link ve redirect zinciri yok",
-          "CWV izleme ve backlog oluşturuldu"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/sosyal-medya-strateji-framework-template-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi, /tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur, /tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi, /tr/smm/icerik-uretimi, /tr/smm/analiz-raporlama, /tr/seo/icerik-seo, /tr/otel/sosyal-medya, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Strateji, hedef, kitle, içerik, takvim ve ölçüm ilişkisi korundu",
+          "Otel ve B2B örnekleri strateji framework’ü içinde bırakıldı",
+          "Audit, KPI ve roadmap akışı yaşayan doküman mantığıyla korundu"
         ]
       }
     }
@@ -3997,7 +4064,7 @@
     },
     "h1": {
       "title": "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi Nasıl Kurulur?",
-      "intro": "Sosyal medyada “herkese hitap edelim” yaklaşımı, pratikte “kimseye tam hitap edememek”tir. Otel ve B2B hesaplarda aynı içerik tonu, aynı örnekler ve aynı CTA ile ilerlemek; doğru kişiyi yakalamayı zorlaştırır, etkileşim görünse bile dönüşüm kalitesini düşürür. Çözüm, veriye dayalı hedef kitle araştırması ile 2–4 ana persona çıkarmak ve içerik planını bu persona’lara bağlamaktır. Bu yazıda, veri kaynaklarından başlayıp persona kartlarına ve takvimde “persona sütunu”na kadar adım adım, uygulanabilir bir sistem kuracağız.",
+      "intro": "Sosyal medyada “herkese hitap edelim” yaklaşımı, pratikte “kimseye tam hitap edememek”tir. Otel ve B2B hesaplarda aynı içerik tonu, aynı örnekler ve aynı CTA ile ilerlemek; doğru kişiyi yakalamayı zorlaştırır, etkileşim görünse bile dönüşüm kalitesini düşürür. Çözüm, veriye dayalı hedef kitle araştırması ile 2–4 ana persona çıkarmak ve içerik planını bu persona’lara bağlamaktır. Bu yazıda, veri kaynaklarından başlayıp persona kartlarına ve takvimde “persona sütunu”na kadar adım adım, uygulanabilir bir sistem kuracağız. Bu yapıyı hizmet tarafına bağlamak için [hedef kitle ve persona analizi sosyal medya](/tr/smm/planlama-strateji) yaklaşımını ayrıca değerlendirebilirsiniz.",
       "quickSummary": [
         "1) Analytics/CRM/DM/anket verisini tek tabloda topla",
         "2) 2–4 persona kartı çıkar (karar sorusu + itiraz + kanıt + CTA)",
@@ -4029,22 +4096,50 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Stratejisi Framework",
+        "href": "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
+      },
+      {
+        "label": "Kanal Stratejisi",
+        "href": "/tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler"
+      },
+      {
+        "label": "Insight-Driven Strateji",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
       },
       {
         "label": "İçerik SEO",
         "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi: Sistemli Üretim Akışı",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+        "href": "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
       },
       {
-        "title": "İçerik SEO: İçeriklerin Arama Talebiyle Uyumlanması",
-        "href": "/tr/seo/icerik-seo"
+        "title": "Kanal Stratejisi: IG, TikTok, YouTube, LinkedIn",
+        "href": "/tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler"
+      },
+      {
+        "title": "Insight-Driven SMM: Analytics + DM + Sosyal Dinleme",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
       }
     ],
     "sections": [
@@ -4061,6 +4156,10 @@
           {
             "type": "p",
             "text": "Persona “tahmin” ile yazılırsa, içerik stratejisi de tahmine dönüşür. Oysa elinizde zaten veri vardır: web analitiği, platform insights, CRM/rezervasyon/lead kayıtları, DM’ler, yorumlar ve mini anketler. Ama bu veri dağınıktır; ilk adım onu tek çatıya toplamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde persona araştırması](/tr/sosyal-medya-yonetimi), yalnızca profil tanımı yapmak değil; içerik tonu, kanal rolü, KPI ve kampanya yönünü doğru kitle sinyalleriyle başlatmak anlamına gelir."
           },
           {
             "type": "h3",
@@ -4092,6 +4191,10 @@
           {
             "type": "p",
             "text": "Side/Belek hattında bir tesis, IG’de yüksek erişim alıyor ama DM’den gelen sorular hep “fiyat/transfer/çocuk konsepti” etrafında. Bu, içerik setinde “deneyim” çok, “karar kriteri” az olduğuna işaret eder. Çözüm: persona kartına “itirazlar ve karar kriterleri” ekleyip içerik pillars’ı güncellemek."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [insight-driven persona araştırması](/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama) yaklaşımı kritikleşir; çünkü analytics, DM, yorum ve sosyal dinleme verisi olmadan persona kartı çoğu zaman varsayımda kalır."
           },
           {
             "type": "callout",
@@ -4128,6 +4231,10 @@
           {
             "type": "p",
             "text": "Persona, “yaş/şehir” değil; karar sorusu + motivasyon + itiraz + içerik tetikleyici bileşimidir. Bu yüzden 10 persona değil, 2–4 güçlü persona daha değerlidir. Persona sayısı arttıkça takvim karmaşıklaşır; uygulanabilirlik düşer."
+          },
+          {
+            "type": "p",
+            "text": "Bu kartların gerçek değeri, [sosyal medya strateji dokümanında persona](/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework) olarak hedef, kanal, içerik ve KPI kararlarına bağlandığında ortaya çıkar."
           },
           {
             "type": "h3",
@@ -4203,6 +4310,10 @@
             "text": "Persona, hedef kitle, mesaj, format ve CTA birbirine bağlı bir sistemdir: persona karar sorusunu belirler, mesaj o soruya cevap verir, format mesajın en hızlı anlaşılmasını sağlar, CTA ise persona’nın doğal aksiyonuna uyumlanır. Bu nedenle persona kartı, takvimde “konu seçimi” kadar kritik bir planlama değişkenidir."
           },
           {
+            "type": "p",
+            "text": "Aynı persona bilgisi platform seçimini de değiştirir; [kanal stratejisi için persona kullanımı](/tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler) sayesinde Instagram, TikTok, YouTube ve LinkedIn için farklı beklenti ve içerik ritimleri daha net ayrıştırılabilir."
+          },
+          {
             "type": "h3",
             "text": "Mini örnek (aynı konu, farklı persona):"
           },
@@ -4256,6 +4367,10 @@
             "text": "Burada amaç “kopyala-yapıştır persona” değil; kart mantığını göstermek. Örnekleri kendi verinizle doldurduğunuzda gerçek değer oluşur."
           },
           {
+            "type": "p",
+            "text": "Özellikle B2B sosyal medya persona oluşturma sürecinde rol, KPI baskısı ve satın alma döngüsü daha belirleyici olur; ancak burada ayrıca yeni bir hedef URL üretmeden, yaklaşımı örnek kart mantığı üzerinden okumak yeterlidir."
+          },
+          {
             "type": "media",
             "slot": "kpi"
           },
@@ -4266,6 +4381,10 @@
           {
             "type": "p",
             "text": "Cevap : Oteller için tipik persona’lar; Aile tatilcisi, çift/romantik kaçamak, MICE/kurumsal etkinlik karar vericisi ve “fiyat odaklı karşılaştırıcı” segmentleridir; her biri farklı kanıt ve CTA ister."
+          },
+          {
+            "type": "p",
+            "text": "Bu segmentleri içerik planına çevirirken [otel için persona örneği](/tr/otel/sosyal-medya) yaklaşımı faydalıdır; çünkü sezon, destinasyon, misafir beklentisi ve rezervasyon niyeti aynı personada birleşir."
           },
           {
             "type": "h3",
@@ -4283,6 +4402,10 @@
           {
             "type": "h3",
             "text": "B2B persona örnekleri:"
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında hedef pazar, sezon ve kampanya kurgusu daha geniş bir pazarlama planına bağlı olduğundan [otel dijital pazarlamada persona kullanımı](/tr/otel-dijital-pazarlama) da ayrıca değerlendirilmelidir; sosyal medya personası çoğu zaman rezervasyon niyetiyle aynı anda çalışır."
           },
           {
             "type": "list",
@@ -4404,6 +4527,10 @@
             "text": "Key Statistics / Data Point (yumuşatılmış):\nBirçok projede persona çalışması takvime yansıdığında, içerik tonu ve örnekler hedef kitleyle daha iyi rezonans yakaladığı için engagement ve lead kalitesinde artış görülebiliyor (kesin rakam iddiası olmadan)."
           },
           {
+            "type": "p",
+            "text": "Bu etki, aynı zamanda [persona odaklı içerik stratejisi](/tr/seo/icerik-seo) ile sosyal medya mesajlarını arama niyeti, blog konuları ve içerik kümeleriyle hizaladığınızda daha da belirginleşir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check (Takvim bağlamı):",
@@ -4469,6 +4596,34 @@
             "slot": "checklist-06"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Persona araştırması içerik tonunu değil, strateji yönünü belirler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hedef kitle verisi olmadan yazılan içerik planı, çoğu zaman yüksek görünürlük üretse bile düşük kalite talep ve zayıf dönüşüm yaratır. Persona-first yaklaşım ise mesajı, formatı, CTA’yı ve kanal seçimini aynı karar mantığında toplar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sistemli hale getirmek isteyen ekipler için [persona temelli sosyal medya stratejisi](/tr/smm/planlama-strateji) yaklaşımı ile [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası birlikte güçlü bir başlangıç noktası sunar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Hedef Kitle & Persona Analizi Talep Et",
+            "text": "(otel ve B2B ekipleri için mevcut içerik tonunun “kime konuştuğunu” netleştirip takvime bağlamak için)",
+            "href": "/tr/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Persona Kartları & İçerik Eşleştirme Şablonunu İndir",
+            "text": "“persona’ları takvime bağlayıp her içerikte doğru mesaj ve CTA’yı sistematikleştirmenizi sağlar”",
+            "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -4513,11 +4668,15 @@
           "table-persona-card-examples — (tablo görseli)"
         ],
         "technicalChecklist": [
+          "Canonical: /tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework, /tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler, /tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama, /tr/seo/icerik-seo, /tr/otel/sosyal-medya, /tr/otel-dijital-pazarlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: pdf",
           "Persona sayısı 2–4 aralığında tutuldu",
           "Takvimde persona sütunu zorunlu alan olarak planlandı",
-          "Persona→mesaj/format/CTA eşleşmesi çıkarıldı",
-          "Aylık persona bazlı performans raporu kurgulandı",
-          "6 ay ara kontrol + yılda 1 tam revizyon planı tanımlandı"
+          "Persona, mesaj, kanal ve içerik planı ilişkisi korundu"
         ]
       }
     }
@@ -4571,7 +4730,7 @@
     },
     "h1": {
       "title": "Always-On ve Kampanya Bazlı İçerik Stratejisi: Farkları ve Nasıl Dengelenir?",
-      "intro": "“Sürekli paylaşım” ile “sadece kampanya döneminde görünme” iki uçtur ve ikisi de sürdürülebilir performans üretmez. Otel markalarında sezon, erken rezervasyon ve son dakika gibi dönemler kampanya ihtiyacını doğururken; kampanya dışı dönemde marka sesi (deneyim, güven, sosyal kanıt) taşınmazsa hesap “reklam panosu”na döner. B2B projelerde ise lansman dönemleri burst gerektirir; ama yıl boyunca always-on düşünce liderliği yoksa lead kalitesi dalgalanır. Bu rehber, always-on ve kampanya içeriklerini tek bir yıllık SMM planı içinde dengelemek için uygulanabilir bir model sunar.",
+      "intro": "“Sürekli paylaşım” ile “sadece kampanya döneminde görünme” iki uçtur ve ikisi de sürdürülebilir performans üretmez. Otel markalarında sezon, erken rezervasyon ve son dakika gibi dönemler kampanya ihtiyacını doğururken; kampanya dışı dönemde marka sesi (deneyim, güven, sosyal kanıt) taşınmazsa hesap “reklam panosu”na döner. B2B projelerde ise lansman dönemleri burst gerektirir; ama yıl boyunca always-on düşünce liderliği yoksa lead kalitesi dalgalanır. Bu rehber, always-on ve kampanya içeriklerini tek bir yıllık SMM planı içinde dengelemek için uygulanabilir bir model sunar. Bu dengeyi hizmet tarafında çerçevelemek için [always-on içerik nedir](/tr/smm/planlama-strateji) sorusunu ayrıca planlama perspektifinden okumak faydalı olur.",
       "quickSummary": [
         "1) Always-on’u taban ritim olarak kilitle",
         "2) Kampanya burst’larını 7–21 gün bloklar halinde planla",
@@ -4603,26 +4762,50 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Raporlama / Benchmark Analizi",
+        "label": "Sezonluk ve Lansman Kampanyaları",
+        "href": "/tr/smm/blog/sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani"
+      },
+      {
+        "label": "Yıllık Sosyal Medya Bütçesi",
+        "href": "/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi"
+      },
+      {
+        "label": "90 Günlük Sosyal Medya Roadmap",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEM Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM Planlama ve Strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "title": "Kampanya Strateji Dokümanı: Sezon & Lansman | DGTLFACE",
+        "href": "/tr/smm/blog/sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani"
       },
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Yıllık Sosyal Medya Bütçesi ve Kaynak Planı",
+        "href": "/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi"
       },
       {
-        "title": "Benchmark Analizi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "90 Günlük Sosyal Medya Roadmap + Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
       }
     ],
     "sections": [
@@ -4633,6 +4816,10 @@
           {
             "type": "p",
             "text": "Always-on içerik, markanın temel kimliğini, değer önerisini ve güven unsurlarını kampanya bağımsız şekilde taşıyan içerik sistemidir. Amaç “her gün bir şey atmak” değil; markayı yıl boyunca tanımlayan konuları tekrar edilebilir formatlarla sürdürmektir. Otelde always-on; deneyim, konsept, UGC/yorumlar, destinasyon ve hizmet standardı gibi güven oluşturan katmandır. B2B’de ise framework’ler, mini dersler, case yaklaşımı ve uzman görüşü always-on omurgayı oluşturur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde always-on ve kampanya dengesi](/tr/sosyal-medya-yonetimi), yalnızca içerik sıklığı değil; sürekli marka akışı, sezon iletişimi ve performans takibinin aynı plan içinde yönetilmesi anlamına gelir."
           },
           {
             "type": "h3",
@@ -4698,6 +4885,10 @@
             "text": "Kampanya bazlı içerik, belirli bir hedefe (satış, lansman, duyuru, etkinlik) yönelik kısa süreli yoğunlaştırılmış içerik ve dağıtım dönemidir. Otellerde erken rezervasyon, sezon açılışı, özel gün paketleri; B2B’de ürün lansmanı, webinar, yeni hizmet paketi gibi burst’lar tipiktir. Kampanya içerikleri hızlı karar aldırır; bu yüzden mesaj, teklif, kanıt ve CTA daha doğrudan olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı net yapmak için [sezonluk kampanya stratejisi](/tr/smm/blog/sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani) ayrıca planlanmalıdır; çünkü lansman, özel gün ve dönemsel satış hedefleri her zaman always-on akışın içine aynı yoğunlukla yerleşmez."
+          },
+          {
             "type": "h3",
             "text": "Kampanya bazlı içerik ile always-on arasındaki fark nedir?"
           },
@@ -4754,6 +4945,10 @@
           {
             "type": "p",
             "text": "Birçok ekipte hata şudur: kampanya baskısı artınca always-on tamamen kesilir; kampanya bitince de hesap sessizleşir. Oysa en iyi model, always-on’un “taban” olduğu ve kampanyanın onun üzerine “burst” olarak eklendiği düzendir."
+          },
+          {
+            "type": "p",
+            "text": "Bu karar, özellikle [yıllık sosyal medya planı](/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi) yapılırken netleşmelidir; çünkü ekip, üretim kapasitesi, tasarım/video zamanı ve reklam bütçesi always-on ile kampanya dönemleri arasında bilinçli bölünmelidir."
           },
           {
             "type": "h3",
@@ -4816,6 +5011,10 @@
           {
             "type": "p",
             "text": "Yıllık plan, kampanyaları “aklınıza geldikçe” değil, takvim blokları halinde yönetmenizi sağlar. Otellerde sezonlar belli; B2B’de lansmanlar ve etkinlikler çoğu zaman önceden planlanabilir. Yapılacak şey: kampanya bloklarını yerleştirip aradaki boşlukları always-on ile doldurmak ve her bloğun KPI setini önceden tanımlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel hale getirmenin en pratik yolu [90 günlük sosyal medya roadmap’i](/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi) oluşturmaktır; böylece yıllık niyet planı, çeyreklik backlog ve öncelik sırasına dönüşür."
           },
           {
             "type": "h3",
@@ -4884,6 +5083,18 @@
           {
             "type": "p",
             "text": "Otel örneklerinde sezonluk bloklar (erken rezervasyon, yaz sezonu, bayramlar) belirgindir. B2B’de ise ürün/hizmet lansmanı, webinar, event gibi burst dönemler vardır. Her iki senaryoda da öneri: always-on’un “taban ritmi” sabit, kampanyalar “planlı burst” olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel dijital pazarlamada sezonluk kampanya stratejisi](/tr/otel-dijital-pazarlama) özel önem taşır; çünkü erken rezervasyon, doluluk baskısı, destinasyon sezonu ve kampanya dili, always-on marka akışıyla aynı yıl içinde dengelenmek zorundadır."
+          },
+          {
+            "type": "p",
+            "text": "Bu burst dönemlerinin etkisini yalnız organik yorumla değil, [kampanya performansı reklam raporlaması](/tr/sem/reklam-raporlama) üzerinden harcama, tıklama, dönüşüm ve dönemsel verimlilik tarafında da okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca rakiplerin ritmini görmek için [benchmark ile içerik ritmi analizi](/tr/raporlama/benchmark-analizi) yapılması, sezon ve kampanya yoğunluğunu fazla ya da eksik kullanıp kullanmadığınızı anlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -5002,6 +5213,10 @@
             "text": "Sadece kampanya dönemlerinde paylaşan hesaplar da, hiç kampanya yapmadan sürekli paylaşan hesaplar da uzun vadede sürdürülebilir olmaz. Sağlıklı model; markanın temel kimliğini taşıyan always-on içeriklerle “marka sesini” sürekli görünür tutarken, sezon/lansman gibi dönemlerde kampanya burst içerikleriyle satış ve duyuruyu yoğunlaştırmaktır. Yıllık plan, kampanya bloklarını ve aradaki boşlukları always-on ile doldurur; KPI’lar da bu iki mod için ayrı izlenir."
           },
           {
+            "type": "p",
+            "text": "Bu modeli sistemli hale getirmek isteyen ekipler için [kampanya ve always-on dengesi](/tr/smm/planlama-strateji) yaklaşımı ile [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası birlikte iyi bir başlangıç noktası sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Always-On & Kampanya Dengesi Analiz Talebi",
@@ -5064,13 +5279,15 @@
           "table-example — (tablo: Always-on vs Kampanya İçerik Dağılımı)"
         ],
         "technicalChecklist": [
-          "Primary CTA: 2 kez (H1 giriş sonunda + son 1/3)",
-          "Secondary CTA: 1 kez (orta bölüm / yıllık plan kısmı)",
-          "CTA modülü: primary + secondary (download_asset) ayrımı yapıldı",
+          "Canonical: /tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani, /tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi, /tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi, /tr/otel-dijital-pazarlama, /tr/sem/reklam-raporlama, /tr/raporlama/benchmark-analizi, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
           "KPI’lar mod bazında ayrıldı (always-on vs kampanya) ve rapor kurgusu net",
           "Burst süresi: 7–21 gün blok yaklaşımı içerikte sabit",
-          "Üretim kapasitesi kontrolü: risk ve checklist alanlarına işlendi",
-          "İç link hedefleri: /smm/planlama-strateji, /smm/icerik-uretimi, /raporlama/benchmark-analizi"
+          "Always-on marka akışı ile dönemsel kampanya performansı dengesi korundu"
         ]
       }
     }
@@ -5121,7 +5338,7 @@
     },
     "h1": {
       "title": "Sosyal Medya KPI Çerçevesi: Hedef ve Başarım Nasıl Ölçülür?",
-      "intro": "“Sosyal medya işe yarıyor mu?” sorusu, çoğu ekipte raporlama toplantılarını kilitler. Çünkü cevap genelde “etkileşimler fena değil” seviyesinde kalır ve iş hedefiyle bağ kurulamaz. Oysa doğru yaklaşım basittir: Önce hedefi netleştir (marka/etkileşim/trafik/lead–rezervasyon), sonra o hedefin KPI setini seç, kanala göre standardize et ve GA4/tracking ile bağlayarak dashboard’ta raporla. Otel markalarında sezon ve kampanyalar, KPI’ları dönemsel olarak değiştirir; B2B’de ise satış döngüsü daha uzun olduğu için mikro KPI’lar kritikleşir. Bu rehber, hedef→KPI→kanal→format→rapor akışını uygulanabilir bir sistem olarak kurar.",
+      "intro": "“Sosyal medya işe yarıyor mu?” sorusu, çoğu ekipte raporlama toplantılarını kilitler. Çünkü cevap genelde “etkileşimler fena değil” seviyesinde kalır ve iş hedefiyle bağ kurulamaz. Oysa doğru yaklaşım basittir: Önce hedefi netleştir (marka/etkileşim/trafik/lead–rezervasyon), sonra o hedefin KPI setini seç, kanala göre standardize et ve GA4/tracking ile bağlayarak dashboard’ta raporla. Otel markalarında sezon ve kampanyalar, KPI’ları dönemsel olarak değiştirir; B2B’de ise satış döngüsü daha uzun olduğu için mikro KPI’lar kritikleşir. Bu rehber, hedef→KPI→kanal→format→rapor akışını uygulanabilir bir sistem olarak kurar. Bu ölçüm mantığını hizmet tarafına bağlamak için [sosyal medya KPI örnekleri](/tr/smm/planlama-strateji) yaklaşımını ayrıca inceleyebilirsiniz.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Sosyal Medya KPI & Hedef Analizi Talep Et",
@@ -5143,19 +5360,56 @@
     },
     "internalLinks": [
       {
+        "label": "SMM Planlama ve Strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Stratejisi Framework",
+        "href": "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
+      },
+      {
+        "label": "Test-Ölç-Öğren Döngüsü",
+        "href": "/tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi"
+      },
+      {
+        "label": "Insight-Driven Strateji",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
+      },
+      {
         "label": "SMM Analiz & Raporlama",
-        "href": "https://dgtlface.com/tr/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "SEO Raporlama",
-        "href": "https://dgtlface.com/tr/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Planlama ve Strateji",
-        "href": "https://dgtlface.com/tr/smm/planlama-strateji"
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+        "href": "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
+      },
+      {
+        "title": "Test–Ölç–Öğren Döngüsüyle Veri Odaklı SMM",
+        "href": "/tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi"
+      },
+      {
+        "title": "Insight-Driven SMM: Analytics + DM + Sosyal Dinleme",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
+      }
+    ],
     "sections": [
       {
         "id": "kpi-cercevesi-neden-sart",
@@ -5170,6 +5424,10 @@
           {
             "type": "p",
             "text": "KPI çerçevesi yoksa, sosyal medya raporu “beğeni–yorum” listesine dönüşür ve iş hedefiyle bağ kurulamaz. Bu durum, özellikle otel ve turizm markalarında “sezon baskısı” ile daha da büyür: kampanya dönemi gelir, içerikler artar ama ölçüm net değilse bütçe kararı rastgeleleşir. B2B’de ise KPI çerçevesi olmadan lead kalitesi tartışılamaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde KPI çerçevesi](/tr/sosyal-medya-yonetimi), yalnızca aylık rapora birkaç sayı eklemek değil; hedef, içerik, kanal ve karar alma akışını aynı sistemde toplamak anlamına gelir. Özellikle [strateji dokümanında KPI çerçevesi](/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework) net kurulmadığında, ekipler aynı veriye bakıp farklı sonuç çıkarma hatasına düşer."
           },
           {
             "type": "h3",
@@ -5213,6 +5471,10 @@
           {
             "type": "p",
             "text": "Sosyal medyada tek bir KPI setiyle her hedefi ölçemezsiniz. Marka hedefi başka, etkileşim başka, trafik başka, lead/rezervasyon bambaşkadır. Otel örneğinde “erken rezervasyon” kampanyası conversion odaklıyken, sezon dışı içerikler marka ve güveni taşır (always-on). Bu nedenle KPI seti “dönem”e göre de değişir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrımı rapora taşımak için [sosyal medya raporlama metrikleri](/tr/smm/analiz-raporlama) hedef bazında okunmalıdır; aksi halde marka KPI’ları ile satış KPI’ları birbirine karışır. Örneğin otel için sosyal medya KPI seti hazırlanırken, görünürlük ve rezervasyon sinyallerinin aynı tabloda ama ayrı amaçlarla yorumlanması gerekir."
           },
           {
             "type": "h3",
@@ -5264,6 +5526,10 @@
             "text": "Kanal KPI seti standardize edilmezse raporlar kıyaslanamaz. Her kanalın doğası farklıdır: IG hızlı etkileşim ve DM; YouTube izlenme süresi ve arama; LinkedIn B2B düşünce liderliği ve lead; TikTok keşif ve izlenme sürekliliği gibi. Bu yüzden “kanal başına temel set” tanımlamak gerekir."
           },
           {
+            "type": "p",
+            "text": "Burada [insight-driven KPI yorumlama](/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama) yaklaşımı kritikleşir; çünkü aynı izlenme ya da kaydetme oranı, DM tonu, yorum içeriği ve sosyal dinleme sinyalleriyle birlikte okunduğunda daha doğru karar üretir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -5307,6 +5573,10 @@
           {
             "type": "p",
             "text": "Bir KPI, yanlış formatla takip edilirse yanlış karar üretir. Örneğin “trafik” hedefinde, sadece reach’e bakmak yanıltır; “kaydetme” hedefinde tek başına link tıklama yetersizdir. Bu bölümde hedef–KPI–format eşleşmesini netleştiriyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [test-ölç-öğren döngüsünde KPI takibi](/tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi) sadece rapor sonuna not düşmek değildir; format, hook ve CTA değişikliklerini kontrollü biçimde deneyip hangi eşleşmenin gerçekten sonuç ürettiğini görmektir."
           },
           {
             "type": "list",
@@ -5364,6 +5634,10 @@
           {
             "type": "p",
             "text": "Teknik not (sheet): GA4 ve kampanya tracking yapısı, seçilen KPI’larla uyumlu kurulmalı. UTM standardı ve event’ler yoksa lead/rezervasyon KPI’ları “tahmin”e döner."
+          },
+          {
+            "type": "p",
+            "text": "Raporu üst yönetime taşırken [SEO raporlama ile sosyal medya KPI uyumu](/tr/seo/seo-raporlama) da görünür olmalıdır; çünkü bazı içerikler doğrudan satış getirmese bile arama görünürlüğünü ve içerik trafiğini destekler. Bu veriyi daha üst seviye karar akışına çevirmek için de [marka ve satış için KPI karar paneli](/tr/veri-analiz-ve-raporlama) mantığıyla dashboard, segment ve aksiyon önerilerini tek yerde toplamak gerekir."
           },
           {
             "type": "list",
@@ -5429,6 +5703,34 @@
             "buttonLabel": "PDF’i İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc-kpi-cercevesi",
+        "title": "Sonuç: KPI çerçevesi stratejiyi ölçülebilir hale getirir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya KPI sistemi kurulduğunda ekip içi tartışma “beğeni iyi mi?” seviyesinden çıkar; hangi hedefin ilerlediği, hangi formatın sonuç ürettiği ve hangi kanalın revizyona ihtiyaç duyduğu daha net görünür. Böylece strateji, raporlama ve optimizasyon aynı dilde çalışmaya başlar."
+          },
+          {
+            "type": "p",
+            "text": "Kendi ekibiniz için [marka ve satış için hangi KPI takip edilmeli](/tr/smm/planlama-strateji) sorusunu hedef bazında netleştirmek ve ölçüm modelini kurumsal seviyede yapılandırmak istiyorsanız buradan ilerleyebilirsiniz. Karar aşamasında süreç, kapsam ve teslim modelini görmek için [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası da doğru sonraki adımdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sosyal Medya KPI & Hedef Analizi Talep Et",
+            "text": "raporlamayı kurumsal seviyeye taşıyıp “hissiyat” tartışmasını bitirmek isteyen ekipler için",
+            "href": "/tr/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya KPI Matrisi & Dashboard Şablonunu İndir",
+            "text": "hedef→KPI→kanal eşleşmesini tek tabloda kurup raporu standardize etmenizi sağlar",
+            "href": "/downloads/sosyal-medya-kpi-matrisi-dashboard-sablonu-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -5469,11 +5771,15 @@
           "table-kpi-matrix — (tablo)"
         ],
         "technicalChecklist": [
-          "GA4 + UTM tracking standardı (naming convention) tanımlı",
-          "Event/konversiyonlar doğrulandı (lead/rezervasyon için)",
-          "Dashboard hedef bazlı sekmelerle kurgulandı (marka/etkileşim/trafik/lead)",
-          "Kanal KPI setleri minimum standarda göre sabitlendi",
-          "Kampanya rapor ritmi (haftalık) ve always-on ritmi (aylık) belirlendi"
+          "Canonical: /tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/sosyal-medya-kpi-matrisi-dashboard-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework, /tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi, /tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama, /tr/smm/analiz-raporlama, /tr/seo/seo-raporlama, /tr/veri-analiz-ve-raporlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: pdf",
+          "GA4 + UTM tracking standardı vurgusu korundu",
+          "KPI seti hedef, kanal ve format bazında ayrıştırıldı",
+          "Strateji, KPI, raporlama ve optimizasyon hattı sonuç bölümünde güçlendirildi"
         ]
       }
     }
@@ -5524,7 +5830,7 @@
     },
     "h1": {
       "title": "Sezonluk ve Lansman Kampanyaları İçin Sosyal Medya Strateji Dokümanı Nasıl Hazırlanır?",
-      "intro": "Kampanya dönemlerinde en sık görülen hata şudur: “Bir iki görsel çıkaralım, story atalım, biraz reklamla destekleriz.” Bu yaklaşım, özellikle otel sezonlarında (erken rezervasyon, bayram, yaz/kış) ve B2B lansmanlarında, ekipleri son dakika düzeltmelerine ve onay kaosuna sürükler. Oysa kampanyayı hızlandıran şey “daha çok içerik” değil; hedef, KPI, mesaj içgörüsü, kanal/format dağılımı ve timeline’ı tek bir dokümanda toplayan net bir planlama disiplinidir. Bu rehber, kampanya strateji dokümanını işlevsel bir çalışma aracı olarak nasıl kuracağınızı adım adım gösterir.",
+      "intro": "Kampanya dönemlerinde en sık görülen hata şudur: “Bir iki görsel çıkaralım, story atalım, biraz reklamla destekleriz.” Bu yaklaşım, özellikle otel sezonlarında (erken rezervasyon, bayram, yaz/kış) ve B2B lansmanlarında, ekipleri son dakika düzeltmelerine ve onay kaosuna sürükler. Oysa kampanyayı hızlandıran şey “daha çok içerik” değil; hedef, KPI, mesaj içgörüsü, kanal/format dağılımı ve timeline’ı tek bir dokümanda toplayan net bir planlama disiplinidir. Bu rehber, kampanya strateji dokümanını işlevsel bir çalışma aracı olarak nasıl kuracağınızı adım adım gösterir. Bu yapıyı hizmet tarafına bağlamak için [sosyal medya kampanya strateji dokümanı](/tr/smm/planlama-strateji) yaklaşımını ayrıca inceleyebilirsiniz.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Kampanya Strateji Dokümanı Analizi Talep Et",
@@ -5546,19 +5852,56 @@
     },
     "internalLinks": [
       {
-        "label": "Planlama ve Strateji",
+        "label": "SMM Planlama ve Strateji",
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "Reklam & Raporlama",
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Always-On ve Kampanya Bazlı İçerik Stratejisi",
+        "href": "/tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari"
+      },
+      {
+        "label": "Haftalık Sosyal Medya Operasyon Planı",
+        "href": "/tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama"
+      },
+      {
+        "label": "90 Günlük Sosyal Medya Roadmap + Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      },
+      {
+        "label": "SEM Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Always-On ve Kampanya Bazlı İçerik Stratejisi: Farkları ve Nasıl Dengelenir?",
+        "href": "/tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari"
+      },
+      {
+        "title": "Haftalık SMM Ops Planı: İçerik, Yanıt, Rapor",
+        "href": "/tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama"
+      },
+      {
+        "title": "90 Günlük Sosyal Medya Roadmap + Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      }
+    ],
     "sections": [
       {
         "id": "sezonluk-vs-lansman",
@@ -5573,6 +5916,10 @@
             "text": "İki kampanya tipi de aynı iskeleti kullanır ama vurgu değişir. Otelde sezonluk kampanya, talep dalgaları ve fiyat/koşul hassasiyeti taşır; güven ve net paket anlatımı kritiktir. B2B lansmanında ise yenilik değeri, problem–çözüm anlatısı ve karar verici itirazlarına cevap önem kazanır."
           },
           {
+            "type": "p",
+            "text": "Bu ayrım, [sosyal medya yönetimi içinde kampanya planlama](/tr/sosyal-medya-yonetimi) açısından kritik bir başlangıçtır; çünkü kampanya dönemi, günlük paylaşım ritminden çok daha fazla koordinasyon ister. Aynı noktada [always-on ve kampanya dengesi](/tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari) kurulmadığında, sezonluk yüklenme marka akışını bozabilir ya da tam tersi kampanya etkisi görünmez kalabilir."
+          },
+          {
             "type": "h3",
             "text": "Sezonluk kampanya için sosyal medya strateji dokümanı nasıl hazırlanır?"
           },
@@ -5583,6 +5930,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel): Erken rezervasyon: “fiyat avantajı” tek başına yetmez; iptal/koşul şeffaflığı, sosyal kanıt ve hızlı yanıt (DM/WhatsApp) planlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [otel sezonluk kampanya stratejisi](/tr/otel-dijital-pazarlama) planlanırken, sosyal medya mesajının doluluk hedefi, rezervasyon niyeti ve dönemsel teklif mantığıyla aynı çerçevede kurgulanması gerekir."
           },
           {
             "type": "list",
@@ -5619,6 +5970,10 @@
           {
             "type": "p",
             "text": "Kampanyaya “neye ulaşmak istiyoruz?” sorusuyla başlanır. Hedef net değilse, içerik üretimi ve reklam optimizasyonu birbirinden kopar. KPI seti hedefe göre seçilir ve az ama anlamlı olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu hedeflerin medya tarafında nasıl çalıştığını görmek için [kampanya reklam raporlaması](/tr/sem/reklam-raporlama) ile erişim, tıklama ve bütçe verisini ayrı okumak gerekir. İş sonucunu görmek için ise [satış ve dönüşüm odaklı kampanya ölçümü](/tr/raporlama/satis-donusum) yaklaşımıyla lead, form, rezervasyon ve satış katkısı aynı çerçevede değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -5788,6 +6143,10 @@
             "text": "Kampanya başarısı, “doğru zamanda doğru yoğunluk” ile gelir. Timeline; içerik üretimi, onay, yayın, reklam optimizasyonu ve CRM/call center hazırlığını tek çizgiye koyar. Strateji dokümanı yoksa en çok burada kaos çıkar."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden kampanya haftasına gelmeden önce [haftalık kampanya operasyon planı](/tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama) netleşmelidir; kim içerik yayımlayacak, kim DM ve yorum akışını yönetecek, kim mini raporu çıkaracak baştan yazılmalıdır. Aynı şekilde [lansman sosyal medya stratejisi](/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi) bakışıyla teaser üretimi, onay zinciri ve backlog hazırlığı son haftaya bırakılmamalıdır."
+          },
+          {
             "type": "h3",
             "text": "Otel kampanyalarında teaser–launch–reminder akışını nasıl kurarım?"
           },
@@ -5934,6 +6293,34 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc-kampanya-strateji",
+        "title": "Sonuç: kampanya dokümanı operasyonu ve ölçümü aynı hatta toplar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sezonluk veya lansman kampanyalarında iyi çalışan yapı, sadece kreatif fikir bolluğu değil; hedef, mesaj, timeline, ekip sorumluluğu ve ölçümü aynı dokümanda birleştiren planlama disiplinidir. Böylece kampanya haftası daha az kaotik, raporlama daha net ve sonraki dönem için öğrenim üretmek daha kolay hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Kendi ekibiniz için [sezonluk kampanya sosyal medya planı](/tr/smm/planlama-strateji) kurmak ve teaser–launch–reminder akışını daha kontrollü yönetmek istiyorsanız buradan ilerleyebilirsiniz. Süreç, kapsam ve teslim modeliyle ilgili karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası iyi bir sonraki adımdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kampanya Strateji Dokümanı Analizi Talep Et",
+            "text": "otel sezon kampanyaları ve B2B lansmanlarında hedef-KPI-mesaj uyumunu kurmak isteyen ekipler için",
+            "href": "/tr/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sezonluk/Lansman Sosyal Medya Strateji Dokümanı Şablonunu İndir",
+            "text": "hedef-KPI-mesaj-kanal-timeline’ı tek dosyada toplayıp ekipleri aynı plana hizalamanızı sağlar",
+            "href": "/downloads/sezonluk-lansman-sosyal-medya-strateji-dokumani-sablonu-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -5974,10 +6361,15 @@
           "table-outline — (tablo) — Kampanya Strateji Dokümanı Outline Tablosu"
         ],
         "technicalChecklist": [
-          "UTM ve event’leri kampanya başlamadan doğrulayın.",
-          "Teknik not (sheet): Kampanya URL ve UTM kurgusu SEO/Analytics/Ads ile uyumlu şekilde dokümana işlenmeli.",
-          "Ölçüm kaynağı belli mi? (platform + GA4 + CRM)",
-          "UTM standardı hazır mı?"
+          "Canonical: /tr/smm/blog/sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/sezonluk-lansman-sosyal-medya-strateji-dokumani-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari, /tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama, /tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi, /tr/sem/reklam-raporlama, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Teaser–launch–reminder akışı içerikte doğal bağlamla korundu",
+          "UTM, event ve post-mortem vurgusu korunarak kampanya ölçüm hattı güçlendirildi",
+          "Kampanya planı, haftalık operasyon ve satış-dönüşüm ilişkisi sonuç bölümünde netleştirildi"
         ]
       }
     }
@@ -25529,7 +25921,7 @@
     },
     "h1": {
       "title": "Kriz Anlarında Sosyal Medya İçeriği: Mesaj, SSS ve Pin’lenmiş Post Stratejisi",
-      "intro": "Kriz anında sosyal medya “paylaşım kanalı” değil, tek doğru bilgi kaynağı olmak zorundadır. Yanlış bilgi çok hızlı yayılır; kullanıcılar aynı soruyu farklı kanallardan sorar; ekip paniğe kapılırsa ton bozulur ve güven kaybı büyür. Bu yüzden kriz iletişimi; hız kadar yapı ister: ilk mesaj, SSS güncellemesi ve pin/highlight ile sabitlenmiş bir bilgi kartı.\n\nBu rehber, kriz tiplerine göre (operasyonel/itibar/güvenlik/afet) sosyal medyada nasıl iletişim kuracağınızı, ilk mesaj çerçevesini, SSS’yi nasıl güncelleyeceğinizi, pin’lenmiş post ve highlight ile “tek kaynak” yaratmayı ve otel/B2B için örnek kriz içeriklerini adım adım verir.",
+      "intro": "Kriz anında sosyal medya “paylaşım kanalı” değil, tek doğru bilgi kaynağı olmak zorundadır. Yanlış bilgi çok hızlı yayılır; kullanıcılar aynı soruyu farklı kanallardan sorar; ekip paniğe kapılırsa ton bozulur ve güven kaybı büyür. Bu yüzden kriz iletişimi; hız kadar yapı ister: ilk mesaj, SSS güncellemesi ve pin/highlight ile sabitlenmiş bir bilgi kartı.\n\nBu rehber, kriz tiplerine göre (operasyonel/itibar/güvenlik/afet) sosyal medyada nasıl iletişim kuracağınızı, ilk mesaj çerçevesini, SSS’yi nasıl güncelleyeceğinizi, pin’lenmiş post ve highlight ile “tek kaynak” yaratmayı ve otel/B2B için örnek kriz içeriklerini adım adım verir. Bu yapıyı hizmet tarafına bağlamak için [kriz anında sosyal medya içeriği](/tr/smm/icerik-uretimi) yaklaşımını operasyonel uzantı olarak ayrıca değerlendirebilirsiniz.",
       "quickSummary": [
         "1) Krizi önce sınıflandır: operasyonel, itibar, güvenlik veya afet.",
         "2) İlk mesajı “ne oluyor–kimi etkiliyor–ne yapıyoruz–ne bekleniyor” çerçevesiyle yaz.",
@@ -25552,7 +25944,7 @@
       "secondary": {
         "label": "Kriz Mesajı + SSS + Pin’lenmiş Post Planlama Şablonunu İndir",
         "text": "İlk mesaj, SSS ve pin kartını tek pakette toplar; ekip koordinasyonunu hızlandırırsınız.",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/downloads/kriz-mesaji-sss-pinlenmis-post-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -25561,22 +25953,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "DM ve Yorum Yanıt Şablonları",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      },
+      {
+        "label": "Story İçerikleri ve Engagement",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      },
+      {
+        "label": "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak",
+        "href": "/tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak"
+      },
+      {
         "label": "Satış Sonrası Destek",
         "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
         "label": "KVKK ve Veri Güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "DM ve Yorum Yanıt Şablonları: Sosyal Medya İçerik Üretiminin Görünmeyen Yüzü",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
       },
       {
-        "title": "Satış Sonrası Destek",
-        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Story İçerikleri: Anket, Soru Kutusu ve Etkileşim Sticker’ları ile Engagement Artırma",
+        "href": "/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement"
+      },
+      {
+        "title": "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak",
+        "href": "/tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak"
       }
     ],
     "sections": [
@@ -25591,6 +26011,10 @@
           {
             "type": "p",
             "text": "Her olumsuz yorum kriz değildir. Önce “çekişmeli yorum” ile “gerçek kriz”i ayırmak gerekir. Kriz; geniş kitleyi etkileyen, güveni zedeleme veya operasyonu aksatma potansiyeli olan olaydır. Dört ana tipe ayırmak, mesaj çerçevesini hızlandırır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde kriz iletişimi](/tr/sosyal-medya-yonetimi), yalnızca paylaşım yapmak değil; mesaj dili, yorum takibi, destek akışı ve veri güvenliğini aynı anda yönetmek anlamına gelir."
           },
           {
             "type": "list",
@@ -25656,6 +26080,14 @@
           {
             "type": "p",
             "text": "İlk paylaşım; kısa bir “bilgilendirme bildirimi” olmalıdır: olayın ne olduğu (bildiğiniz kadar), etkisi (kime/nerede), attığınız adımlar ve bir sonraki güncellemenin zamanı. Detayları ilk postta boğmayın; detay için SSS’ye yönlendirin ve postu pin’leyin."
+          },
+          {
+            "type": "p",
+            "text": "İlk açıklamadan hemen sonra gelen soru ve şikayet akışını yönetmek için [kriz döneminde DM yanıt şablonları](/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu) önceden hazır olmalıdır; aksi halde ekip aynı soruya farklı tonda cevap vermeye başlar."
+          },
+          {
+            "type": "p",
+            "text": "Aynı anda hafif tonlu, eğlenceli veya kampanya odaklı içerikleri durdurmak gerekir; çünkü [kriz dönemlerinde mizah kullanımı](/tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak) yanlış zamanda devam ettiğinde güven kaybını derinleştirebilir."
           },
           {
             "type": "h3",
@@ -25762,6 +26194,10 @@
             "text": "Krizde sabitlenmiş içerik, “tek kaynak”ın vitrini olur. Pin’lenmiş post; feed’de en üste taşır. Highlight ise story’lerde kalıcı erişim sağlar. Amaç: kullanıcı her seferinde aynı bilgiye ulaşsın, ekip farklı cümleler uydurmasın."
           },
           {
+            "type": "p",
+            "text": "Özellikle geçici güncellemeler, soru toplama ve yönlendirme için [story ile kriz bilgilendirme akışı](/tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement) kullanılabilir; böylece takipçi soruları tek tek dağılmak yerine kontrollü bir akışta toplanır."
+          },
+          {
             "type": "h3",
             "text": "Pin’lenmiş post yapısı"
           },
@@ -25823,6 +26259,10 @@
             "text": "GEO (Varsayım): Etki alanı açıklanırken destinasyon net yazılabilir (örn. “Belek bölgesindeki tesisimiz…”); spam değil, bilgi amaçlı."
           },
           {
+            "type": "p",
+            "text": "Özellikle rezervasyon etkisi, misafir bilgilendirmesi ve marka güveni tarafında bir [otel kriz iletişim örneği](/tr/otel-dijital-pazarlama) oluşturmak; krizi yalnız açıklama değil, toparlanma iletişimi olarak da ele almayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "B2B örnekleri (hizmet kesintisi, güvenlik)"
           },
@@ -25857,6 +26297,10 @@
               "Kriz bitince “öğrenimler” ve “iyileştirme” notu yayınla (güven).",
               "Raporlamada kriz içeriği etkisini işaretle (çağrı/DM azalması gibi)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "İlk bilgilendirme sonrasında kullanıcı tarafındaki çözüm beklentisi büyür; bu nedenle [kriz sonrası satış sonrası destek](/tr/cagri-merkezi/satis-sonrasi-destek), şikayet takibi ve memnuniyet geri kazanımı için sosyal medya akışının doğal devamı olmalıdır."
           }
         ]
       },
@@ -25871,6 +26315,10 @@
           {
             "type": "p",
             "text": "Varsayım: Kriz içeriklerinde “bildiğimiz kadarını” paylaş, spekülasyon yapma; güncelleme taahhüdü ver."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [KVKK uyumlu kriz iletişimi](/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla ekran görüntüsü, rezervasyon detayı, müşteri adı veya özel yazışmaların paylaşım riskini yayın öncesinde filtrelemek gerekir."
           },
           {
             "type": "h3",
@@ -26108,6 +26556,10 @@
             "text": "En güvenli yaklaşım; sakin ve net bir tonla doğrulanmış bilgiyi paylaşmak, bilmediğiniz konularda spekülasyon yapmamak ve hukuk/KVKK/kurumsal iletişim koordinasyonunu sürece dahil etmektir."
           },
           {
+            "type": "p",
+            "text": "Bu standardı markanızda sistematik hale getirmek için [pin’lenmiş post ile kriz bilgilendirme](/tr/smm/icerik-uretimi) yaklaşımını SSS, moderasyon ve onay akışıyla birlikte kurgulayabilir; kapsam detayları için [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasını inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kriz İçeriği & SSS Yapı Analizi Talep Et",
@@ -26119,7 +26571,7 @@
             "variant": "secondary",
             "label": "Kriz Mesajı + SSS + Pin’lenmiş Post Planlama Şablonunu İndir",
             "text": "İlk mesaj, SSS ve pin kartını tek pakette toplar; ekip koordinasyonunu hızlandırırsınız.",
-            "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
+            "href": "/downloads/kriz-mesaji-sss-pinlenmis-post-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -26166,16 +26618,15 @@
           "table-kriz-asamasi-icerik-parcasi-eslestirme — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/icerik-uretimi, /tr/cagri-merkezi/satis-sonrasi-destek, /tr/raporlama/kvkk-veri-guvenligi",
-          "CTA hedefleri: Primary /tr/smm/icerik-uretimi, Secondary /tr/cagri-merkezi/satis-sonrasi-destek",
-          "KVKK/koordinasyon linki: /tr/raporlama/kvkk-veri-guvenligi",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı planlama şablonu formatında işlenmeli",
-          "Kriz içerikleri için hukuk/KVKK/kurumsal iletişim onay notu korunmalı"
+          "Canonical: /tr/smm/blog/kriz-anlarinda-sosyal-medya-icerigi-mesaj-sss-ve-pinlenmis-post-stratejisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/kriz-mesaji-sss-pinlenmis-post-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu, /tr/smm/blog/story-icerikleri-anket-soru-kutusu-ve-etkilesim-stickerlari-ile-engagement, /tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak, /tr/cagri-merkezi/satis-sonrasi-destek, /tr/raporlama/kvkk-veri-guvenligi, /tr/otel-dijital-pazarlama, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "Kriz içerikleri için hukuk, KVKK ve kurumsal iletişim onay notu korundu",
+          "Story, DM ve pin’lenmiş post akışında tek kaynak mantığı teyit edildi",
+          "Media slotları V2.3 media pack ile eşleşmeli"
         ]
       }
     }
@@ -26229,7 +26680,7 @@
     },
     "h1": {
       "title": "TikTok-First vs Instagram-First: İçerik Stratejisi Nasıl Değişiyor?",
-      "intro": "Birçok ekip hâlâ “içeriği üretelim, sonra her yere atalım” refleksiyle çalışıyor. Bu refleks kısa vadede kolaydır ama uzun vadede performansı sınırlar çünkü TikTok ve Instagram aynı dili konuşmaz. TikTok’ta kullanıcı hızlı karar verir, trend kültürü güçlüdür; Instagram’da ise görsel tutarlılık, profil vitrini ve marka estetiği daha belirgindir. Bu yüzden doğru soru “hangisi daha iyi?” değil; hangi kanal benim ana sahnem olmalı ve diğerini nasıl uyarlamalıyım? sorusudur.\n\nBu rehberde; TikTok-first yaklaşımını, Instagram-first yapısını, format/tempo/uzunluk farklarını, otel ve B2B’de ana kanal seçimini ve cross-posting’in platform-native uyarlamasını KPI odaklı bir çerçeveyle anlatacağız.",
+      "intro": "Birçok ekip hâlâ “içeriği üretelim, sonra her yere atalım” refleksiyle çalışıyor. Bu refleks kısa vadede kolaydır ama uzun vadede performansı sınırlar çünkü TikTok ve Instagram aynı dili konuşmaz. TikTok’ta kullanıcı hızlı karar verir, trend kültürü güçlüdür; Instagram’da ise görsel tutarlılık, profil vitrini ve marka estetiği daha belirgindir. Bu yüzden doğru soru “hangisi daha iyi?” değil; hangi kanal benim ana sahnem olmalı ve diğerini nasıl uyarlamalıyım? sorusudur.\n\nBu rehberde; TikTok-first yaklaşımını, Instagram-first yapısını, format/tempo/uzunluk farklarını, otel ve B2B’de ana kanal seçimini ve cross-posting’in platform-native uyarlamasını KPI odaklı bir çerçeveyle anlatacağız. Bu ayrımı üretim sistemine çevirmek için [TikTok-first strateji](/tr/smm/icerik-uretimi) yaklaşımını ana içerik planınızın başlangıç katmanı gibi düşünebilirsiniz.",
       "quickSummary": [
         "1) TikTok-first yaklaşımı dikey video, hızlı tempo, hook ve trend kültürüyle çalışır.",
         "2) Instagram-first yapı grid tutarlılığı, marka estetiği, Reels/Story/Carousel bütünlüğüyle güçlenir.",
@@ -26252,7 +26703,7 @@
       "secondary": {
         "label": "TikTok-First / Instagram-First İçerik Planlama Şablonunu İndir",
         "text": "Hangi içerik hangi kanalda ‘ana sahne’ olacak netleşir; adaptasyon kurallarını 1 sayfada çıkarırsınız.",
-        "href": "/tr/smm/planlama-strateji"
+        "href": "/downloads/tiktok-first-instagram-first-icerik-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -26261,30 +26712,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
         "label": "Reels & Video İçerik",
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "SMM Planlama & Strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "label": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+        "href": "/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
+      },
+      {
+        "label": "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts, TikTok",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
+      },
+      {
+        "label": "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak",
+        "href": "/tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak"
       },
       {
         "label": "Otel Sosyal Medya",
         "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+        "href": "/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
       },
       {
-        "title": "Reels & Video İçerik",
-        "href": "/tr/smm/reels-video"
+        "title": "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts, TikTok",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
       },
       {
-        "title": "SMM Planlama & Strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "title": "Mizah, Trend ve Meme İçerikleri ile Marka Kimliğini Korumak",
+        "href": "/tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak"
       }
     ],
     "sections": [
@@ -26299,6 +26770,10 @@
           {
             "type": "p",
             "text": "TikTok-first; içerik üretim hattının başlangıç noktasını TikTok’a göre tasarlamak demektir. Yani en baştan dikey video dili, hızlı tempo, güçlü hook ve trend kültürüyle düşünürsünüz. Bu yaklaşım, “keşif” ve “izlenme süresi” odaklı KPI’lar için güçlüdür. Ancak TikTok-first yapmak, markanın tonunu ve mesajını bırakmak anlamına gelmez; sadece anlatım dili değişir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde platform seçimi](/tr/sosyal-medya-yonetimi), yalnızca hangi kanalda paylaşım yapılacağını değil; üretim ritmini, içerik temposunu ve [platforma göre kısa video üretimi](/tr/smm/reels-video) kararını da belirler."
           },
           {
             "type": "p",
@@ -26414,7 +26889,11 @@
           },
           {
             "type": "p",
-            "text": "Aynı sahneyi kullanabilirsiniz; ama (1) hook cümlesini, (2) altyazı ritmini, (3) kapak/başlık tasarımını ve (4) CTA’yı platforma göre yeniden yazın. TikTok’ta hook daha agresif ve hızlı; Instagram’da kapak + caption daha düzenli ve DM/Profil aksiyonuna daha net bağlanır."
+            "text": "Aynı sahneyi kullanabilirsiniz; ama (1) hook cümlesini, (2) altyazı ritmini, (3) kapak/başlık tasarımını ve (4) CTA’yı platforma göre yeniden yazın. TikTok’ta hook daha agresif ve hızlı; Instagram’da kapak + caption daha çok belirleyicidir. Bu farkı pratikte görmek için [platforma göre kısa video hook’u](/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi) yaklaşımıyla ilk sahneyi ayrı ayrı kurgulamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı master videonun farklı yüzeylere nasıl bölüneceğini planlarken [cross-platform kısa dikey video stratejisi](/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok) mantığı işinizi kolaylaştırır; özellikle [trend ses ve meme kullanımı](/tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak) tarafında platform kültürü ile marka güvenliği dengesini ayrı ayrı değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -26469,12 +26948,16 @@
             "text": "Ana kanal seçimi bir “zevk” kararı değil; hedef kitle + içerik tipi + KPI üçgenidir. Otellerde hedef kitle genç ve keşif odaklıysa TikTok-first mantıklı olabilir; ama marka güvenini ve premium algıyı korumak için Instagram-first omurgası da gerekebilir. B2B’de ise çoğu durumda Instagram, LinkedIn ve YouTube kısa video kombinasyonu daha anlamlı olabilir; TikTok ise “awareness” amaçlı ek sahne olabilir (Varsayım: sektöre göre)."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı sektörel olarak düşünürken [TikTok vs Instagram otel sosyal medya](/tr/otel/sosyal-medya) seçimi; deneyim içeriği, destinasyon anlatısı, premium algı ve genç kitle erişimi arasında doğru dengeyi kurmanıza yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Otel/B2B markası için ana kanal TikTok mu, Instagram mı olmalı?"
           },
           {
             "type": "p",
-            "text": "Ana kanal; en güçlü KPI’yı en düşük maliyetle aldığınız platformdur. Eğer hedefiniz keşif ve izlenme süresi ise TikTok; profil vitrini, kaydetme ve DM dönüşümü ise Instagram daha güçlü “ana sahne” olabilir. Kararı 30 günlük testle, KPI’ları ayrı ölçerek verin."
+            "text": "Ana kanal; en güçlü KPI’yı en düşük maliyetle aldığınız platformdur. Eğer hedefiniz keşif ve izlenme süresi ise TikTok; profil vitrini, kaydetme ve DM dönüşümü ise Instagram daha güçlü “ana sahne” olabilir. Kararı 30 günlük testle, KPI’ları ayrı ölçerek verin. Özellikle rezervasyon niyeti, sezon kampanyası ve kanal katkısı tarafında [otel dijital pazarlamada kısa video stratejisi](/tr/otel-dijital-pazarlama) yaklaşımı bu kararı daha ticari bir çerçevede okumayı sağlar."
           },
           {
             "type": "h3",
@@ -26783,6 +27266,10 @@
             "text": "En sağlıklı yaklaşım; hedef kitle, üretim kapasitesi ve KPI’lara göre ana sahneyi seçmek, diğer platformu ise platform-native adaptasyonla beslemektir. Kararı varsayımla değil, 30 günlük test ve ayrı KPI raporlarıyla vermek gerekir."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı operasyonel hale getirmek için [Instagram-first içerik ve TikTok-first içerik planlaması](/tr/smm/icerik-uretimi) yaklaşımını ana workflow’a bağlayabilir; uygulama detaylarını ise [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasından tamamlayabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "TikTok vs Instagram Kanal Stratejisi Analizi Talep Et",
@@ -26794,7 +27281,7 @@
             "variant": "secondary",
             "label": "TikTok-First / Instagram-First İçerik Planlama Şablonunu İndir",
             "text": "Hangi içerik hangi kanalda ‘ana sahne’ olacak netleşir; adaptasyon kurallarını 1 sayfada çıkarırsınız.",
-            "href": "/tr/smm/planlama-strateji"
+            "href": "/downloads/tiktok-first-instagram-first-icerik-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -26837,16 +27324,15 @@
           "table-tiktok-vs-instagram-karsilastirma-tablosu — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/icerik-uretimi, /tr/smm/reels-video, /tr/smm/planlama-strateji, /tr/otel/sosyal-medya",
-          "CTA hedefleri: Primary /tr/smm/icerik-uretimi, Secondary /tr/smm/planlama-strateji",
-          "Destek linkler: /tr/smm/reels-video ve /tr/otel/sosyal-medya",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı planlama şablonu formatında işlenmeli",
-          "Algoritma spekülasyonu yerine KPI ile yönetim teknik notu korunmalı"
+          "Canonical: /tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/tiktok-first-instagram-first-icerik-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/reels-video, /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi, /tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok, /tr/smm/blog/mizah-trend-ve-meme-icerikleri-ile-marka-kimlihini-korumak, /tr/otel/sosyal-medya, /tr/otel-dijital-pazarlama, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "Sibling URL canlı slug ile korundu; \"kimlihini\" varyasyonu için canonical/redirect kontrol notu düşüldü",
+          "Algoritma spekülasyonu yerine KPI ile yönetim teknik notu korundu",
+          "Media slotları V2.3 media pack ile eşleşmeli"
         ]
       }
     }
@@ -26900,7 +27386,7 @@
     },
     "h1": {
       "title": "Sosyal Arama ve Social SEO: Caption, Hashtag ve Metinde Anahtar Kelimeleri Nasıl Kullanırsınız?",
-      "intro": "Sosyal medya içerikleri artık sadece “izlenip geçilen” eğlence değil; birçok kullanıcı için arama yapılan bir keşif alanı. TikTok’ta arama kutusuna yazılan sorgular, Instagram’da arama ve keşif davranışı, YouTube’da Shorts tüketimi; hepsi aynı şeyi söylüyor: bulunabilirlik için sadece iyi içerik yetmiyor, doğru kelimelerle doğru yerde görünmek gerekiyor.\n\nBu rehberde Social SEO’yu üç katmanda ele alacağız:\n\n1. Caption (metin)\n2. Ekran üstü metin + altyazı (on-screen text)\n3. Hashtag (kategori/etiket mimarisi)\n\nOtel ve B2B için örnek sorgu kurguları, “spam’a düşmeden” kelime yerleşimi, ölçüm ve pratik bir kontrol listesiyle ilerleyeceğiz.",
+      "intro": "Sosyal medya içerikleri artık sadece “izlenip geçilen” eğlence değil; birçok kullanıcı için arama yapılan bir keşif alanı. TikTok’ta arama kutusuna yazılan sorgular, Instagram’da arama ve keşif davranışı, YouTube’da Shorts tüketimi; hepsi aynı şeyi söylüyor: bulunabilirlik için sadece iyi içerik yetmiyor, doğru kelimelerle doğru yerde görünmek gerekiyor.\n\nBu rehberde Social SEO’yu üç katmanda ele alacağız:\n\n1. Caption (metin)\n2. Ekran üstü metin + altyazı (on-screen text)\n3. Hashtag (kategori/etiket mimarisi)\n\nOtel ve B2B için örnek sorgu kurguları, “spam’a düşmeden” kelime yerleşimi, ölçüm ve pratik bir kontrol listesiyle ilerleyeceğiz. Bu yapıyı içerik sistemine bağlamak için [sosyal SEO nedir](/tr/smm/icerik-uretimi) sorusunu ayrıca üretim workflow’unun bir parçası olarak değerlendirmek gerekir.",
       "quickSummary": [
         "1) Social SEO, sosyal platformlarda arama niyetine uygun kelimeleri doğal kullanarak bulunabilirliği artırır.",
         "2) Her içerik için 1 ana sorgu seçilmeli; on-screen text, caption ve hashtag aynı konuyu taşımalıdır.",
@@ -26923,7 +27409,7 @@
       "secondary": {
         "label": "Sosyal Arama Odaklı Caption & Hashtag Şablonunu İndir",
         "text": "Her postta ana sorgu + caption + hashtag setini netleştirir; spam’a düşmeden bulunabilirliği artırırsınız.",
-        "href": "/tr/seo/icerik-seo"
+        "href": "/downloads/sosyal-arama-odakli-caption-hashtag-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -26932,26 +27418,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
+        "href": "/tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru"
+      },
+      {
+        "label": "AI Destekli Sosyal Medya İçerik Üretimi ve İnsan Kreatif Dengesi",
+        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi"
+      },
+      {
+        "label": "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts, TikTok",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
+      },
+      {
         "label": "İçerik SEO",
         "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Otel SEO",
         "href": "/tr/otel/seo"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
+        "href": "/tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru"
       },
       {
-        "title": "İçerik SEO",
-        "href": "/tr/seo/icerik-seo"
+        "title": "AI Destekli Sosyal Medya İçerik Üretimi ve İnsan Kreatif Dengesi",
+        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi"
       },
       {
-        "title": "Otel SEO",
-        "href": "/tr/otel/seo"
+        "title": "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts, TikTok",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
       }
     ],
     "sections": [
@@ -26966,6 +27476,10 @@
           {
             "type": "p",
             "text": "Sosyal arama; kullanıcıların TikTok/Instagram/YouTube içinde “ne yesem, nereye gitsem, hangi otel, hangi yöntem” gibi sorgularla içerik bulmasıdır. Bu davranış “Google’a alternatif” olmak zorunda değil; ama pazarlama açısından kritik: kullanıcı sizi sosyal platformda arıyorsa, sosyal platform içinde bulunabilir olmanız gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde Social SEO](/tr/sosyal-medya-yonetimi), yalnızca paylaşım takvimi değil; platform içi arama mantığı, caption dili, hashtag yapısı ve keşfedilebilirlik performansını birlikte yönetmek anlamına gelir."
           },
           {
             "type": "p",
@@ -27052,12 +27566,20 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Birden fazla pazara hitap ediyorsanız aynı mantığı dil bazında da kurmanız gerekir; TR, EN, DE ve RU akışlarında [çok dilli social SEO](/tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru) yaklaşımıyla caption, lokal kelime ve hashtag katmanını ayrı ayrı uyarlamak görünürlüğü güçlendirir."
+          },
+          {
             "type": "h3",
             "text": "TikTok/Instagram arama sonuçlarında nasıl öne çıkarım?"
           },
           {
             "type": "p",
             "text": "Kısa cevap: Tek bir ana sorgu seçin, bu sorguyu video üstü metinde açık yazın, caption’da doğal şekilde tekrar edin ve 3–8 arası hedefli hashtag ile kategoriye bağlayın. Ekstra: ilk 3 saniyede “arama niyeti”ni netleştirirseniz izlenme süresi artar; bu da bulunabilirliği destekler."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle Reels, Shorts ve TikTok yüzeylerinde [TikTok ve Instagram aramada çıkmak](/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok) için on-screen text, açıklama alanı ve hashtag yapısının platforma göre yeniden ayarlanması gerekir."
           },
           {
             "type": "h3",
@@ -27071,6 +27593,10 @@
               "B2B: problem + sonuç (“lead artırma”, “raporlama şablonu”)",
               "Tek içerikte 3 ana sorgu olmaz; olursa spam gibi görünür."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sorguları yalnız sosyal medya postu içinde bırakmayıp blog, landing page ve konu kümeleriyle hizalamak için [SEO içerik stratejisiyle uyumlu sosyal medya metinleri](/tr/seo/icerik-seo) mantığıyla çalışmak daha kalıcı görünürlük üretir."
           },
           {
             "type": "h3",
@@ -27153,6 +27679,10 @@
             "text": "On-screen text, Social SEO’nun “en görünür” katmanıdır. Kullanıcı arama niyetine göre video açtığında, ilk saniyede doğru yerde olduğunu anlamalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu katmanda AI araçları hız kazandırabilir; ancak [AI destekli caption ve hashtag üretimi](/tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi) mutlaka insan editör kontrolü, marka tonu ve arama niyeti filtresinden geçirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "On-screen text kural seti"
           },
@@ -27194,7 +27724,7 @@
             "variant": "secondary",
             "label": "Sosyal Arama Odaklı Caption & Hashtag Şablonunu İndir",
             "text": "Her post için ana sorgu + on-screen text + hashtag setini 10 dakikada kurarsınız.",
-            "href": "/tr/seo/icerik-seo"
+            "href": "/downloads/sosyal-arama-odakli-caption-hashtag-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -27296,6 +27826,10 @@
             "text": "Otel aramalarında kullanıcı “nerede + ne yaşayacağım?” arar. Bu yüzden ana sorgu genelde destinasyon + deneyim olur. (GEO: Türkiye geneli; örnek destinasyonlar doğal geçer.)"
           },
           {
+            "type": "p",
+            "text": "Bu yapı özellikle lokasyon, oda tipi, restoran ve spa gibi sorgularla birleştiğinde [otel SEO ve sosyal arama uyumu](/tr/otel/seo) açısından güçlü bir köprü kurar; çünkü sosyal içerikte kullanılan kelime seti organik görünürlüğün hangi konularda güçleneceğini de işaret eder."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -27324,6 +27858,10 @@
           {
             "type": "p",
             "text": "B2B’de kullanıcı aramayı genelde “sorun” üzerinden yapar: “DM gelmiyor”, “lead düşük”, “rapor yok”. Bu yüzden ana sorgu problem + sonuç/çözüm olur."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında ise bu sorguların rezervasyon niyeti, sezon mesajı ve hedef pazar görünürlüğüyle ilişkisini okumak için [otel dijital pazarlamada sosyal arama görünürlüğü](/tr/otel-dijital-pazarlama) yaklaşımı ayrıca önem kazanır."
           },
           {
             "type": "h3",
@@ -27631,6 +28169,10 @@
             "text": "En sağlıklı model; her içerikte tek ana sorgu seçmek, bu sorguyu doğal biçimde görünür kılmak, hashtag’i kategori etiketi gibi sınırlı kullanmak ve sonucu KPI ile ölçmektir. Otelde destinasyon + deneyim; B2B’de problem + çözüm mantığı bu sistemin temelini oluşturur."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi operasyonel hale getirmek için [caption, hashtag ve anahtar kelime kullanımı](/tr/smm/icerik-uretimi) yaklaşımını ana içerik workflow’una bağlayabilir; uygulama detayları için de [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sosyal SEO & Caption Analizi Talep Et",
@@ -27642,7 +28184,7 @@
             "variant": "secondary",
             "label": "Sosyal Arama Odaklı Caption & Hashtag Şablonunu İndir",
             "text": "Her postta ana sorgu + caption + hashtag setini netleştirir; spam’a düşmeden bulunabilirliği artırırsınız.",
-            "href": "/tr/seo/icerik-seo"
+            "href": "/downloads/sosyal-arama-odakli-caption-hashtag-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -27693,17 +28235,16 @@
           "table-social-search-alanlari-karsilastirma-yerlesim — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/icerik-uretimi, /tr/seo/icerik-seo, /tr/otel/seo",
-          "CTA hedefleri: Primary /tr/smm/icerik-uretimi, Secondary /tr/seo/icerik-seo",
-          "Destek link: /tr/otel/seo",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı template formatında işlenmeli",
-          "Aşırı hashtag/keyword doldurma spam uyarısı korunmalı",
-          "Social SEO KPI ölçüm notu korunmalı"
+          "Canonical: /tr/smm/blog/sosyal-arama-ve-social-seo-caption-hashtag-ve-metinde-anahtar-kelimeler",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/sosyal-arama-odakli-caption-hashtag-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru, /tr/smm/blog/ai-destekli-sosyal-medya-icerik-uretimi-ve-insan-kreatif-dengesi, /tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok, /tr/seo/icerik-seo, /tr/otel/seo, /tr/otel-dijital-pazarlama, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "SMM ile SEO arasındaki bridge mantığı korundu",
+          "Aşırı hashtag/keyword doldurma spam uyarısı korundu",
+          "Social SEO KPI ölçüm notu korundu",
+          "Media slotları V2.3 media pack ile eşleşmeli"
         ]
       }
     }
@@ -27757,7 +28298,7 @@
     },
     "h1": {
       "title": "Cross-Platform Kısa Dikey Video Stratejisi: Reels, Shorts ve TikTok’ta İçerik Dağıtımı",
-      "intro": "Kısa dikey video artık “tek platform oyunu” değil. Aynı içerik fikri; Reels’te keşif ve profil vitrini, TikTok’ta trend kültürü ve hız, YouTube Shorts’ta ise kanal ekosistemi içinde farklı şekilde çalışır. Bu yüzden doğru strateji “aynı videoyu her yere yükle” değil; tek bir master videoyu üretip platforma göre küçük ama kritik uyarlamalarla dağıtmaktır.\n\nBu rehberde; Reels–Shorts–TikTok ekosistemini, tek çekimden üç platform içeriği üretme hattını, platform-native adaptasyonları (süre/metin/ses/CTA), otel ve B2B için örnek dağıtım akışlarını ve KPI’ya göre önceliklendirmeyi anlatacağız. Ayrıca filigran (watermark) ve müzik/lisans kuralları gibi teknik riskleri de “guardrail” olarak ekleyeceğiz.",
+      "intro": "Kısa dikey video artık “tek platform oyunu” değil. Aynı içerik fikri; Reels’te keşif ve profil vitrini, TikTok’ta trend kültürü ve hız, YouTube Shorts’ta ise kanal ekosistemi içinde farklı şekilde çalışır. Bu yüzden doğru strateji “aynı videoyu her yere yükle” değil; tek bir master videoyu üretip platforma göre küçük ama kritik uyarlamalarla dağıtmaktır.\n\nBu rehberde; Reels–Shorts–TikTok ekosistemini, tek çekimden üç platform içeriği üretme hattını, platform-native adaptasyonları (süre/metin/ses/CTA), otel ve B2B için örnek dağıtım akışlarını ve KPI’ya göre önceliklendirmeyi anlatacağız. Ayrıca filigran (watermark) ve müzik/lisans kuralları gibi teknik riskleri de “guardrail” olarak ekleyeceğiz. Bu yapıyı sistemli hale getirmek için [Reels, Shorts ve TikTok aynı video](/tr/smm/icerik-uretimi) yaklaşımını baştan çok kanallı üretim planı kurmanın bir parçası olarak düşünebilirsiniz.",
       "quickSummary": [
         "1) Kısa dikey video artık Reels, Shorts ve TikTok arasında cross-platform düşünülmelidir.",
         "2) En verimli model: tek çekim → filigransız master video → üç platforma adaptasyon.",
@@ -27768,47 +28309,71 @@
       "ctaPrimary": {
         "label": "Cross-Platform Dikey Video Strateji Analizi Talep Et",
         "text": "Master video + üç kanal dağıtım sistemini kurmak isteyen ekipler için.",
-        "href": "/tr/smm/reels-video"
+        "href": "/tr/smm/icerik-uretimi"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Cross-Platform Dikey Video Strateji Analizi Talep Et",
         "text": "Reels/Shorts/TikTok’ta master video ile ölçeklenebilir dağıtım kurmak isteyen ekipler için.",
-        "href": "/tr/smm/reels-video"
+        "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "Reels/Shorts/TikTok İçin Master Video & Adaptasyon Şablonunu İndir",
         "text": "Her platform için hook–caption–CTA farkını netleştirir; aynı videoyu platform-native hale getirirsiniz.",
-        "href": "/tr/smm/icerik-uretimi"
+        "href": "/downloads/reels-shorts-tiktok-icin-master-video-adaptasyon-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
-      {
-        "label": "Reels & Video İçerik",
-        "href": "/tr/smm/reels-video"
-      },
       {
         "label": "İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels & Video İçerik",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+        "href": "/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
+      },
+      {
+        "label": "TikTok-First vs Instagram-First: İçerik Stratejisi Nasıl Değişiyor?",
+        "href": "/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi"
+      },
+      {
+        "label": "Çekim Günü Optimizasyonu: 1 Çekimle 1 Aylık Sosyal Medya İçeriği",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
+      },
+      {
         "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik",
-        "href": "/tr/smm/reels-video"
+        "title": "Reels ve Kısa Video İçin İlk 3 Saniye ve Hook Stratejisi",
+        "href": "/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi"
       },
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "TikTok-First vs Instagram-First: İçerik Stratejisi Nasıl Değişiyor?",
+        "href": "/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi"
       },
       {
-        "title": "Video Prodüksiyon",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Çekim Günü Optimizasyonu: 1 Çekimle 1 Aylık Sosyal Medya İçeriği",
+        "href": "/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi"
       }
     ],
     "sections": [
@@ -27823,6 +28388,10 @@
           {
             "type": "p",
             "text": "Üç platformun ortak dili dikey video olsa da, “kullanım bağlamı” farklıdır. Bu farklar; içerik üretim hattında küçük uyarlamalar gerektirir. Bu yazıda algoritma spekülasyonu değil, gözlemlenebilir KPI ve format mantığıyla konuşuyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde kısa dikey video dağıtımı](/tr/sosyal-medya-yonetimi), yalnızca tek bir kanala video yüklemek değil; hedef kitle, süre, caption, hook ve yayın ritmini platform bazında yönetmek anlamına gelir."
           },
           {
             "type": "list",
@@ -27869,6 +28438,10 @@
           {
             "type": "p",
             "text": "En verimli model: tek çekim → master video → üç platforma adaptasyon. Bu model, çekim maliyetini artırmadan video varlığını genişletir (sheet veri noktası). Buradaki kritik nokta: çekimi baştan “çoklu platform” düşünerek yapmak; kadraj, ışık, hook ve ses seçeneklerini buna göre almak."
+          },
+          {
+            "type": "p",
+            "text": "Bu üretim akışı [tek çekimden çoklu kanal içerik](/tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi) mantığıyla kurulduğunda shot list, varyasyon planı ve içerik batching çok daha kontrollü ilerler. Özellikle filigransız master export üretirken ışık, ses ve kurgu standardını korumak için [kısa dikey video prodüksiyonu](/tr/creative/video-produksiyon) desteği kritik olabilir."
           },
           {
             "type": "h3",
@@ -27924,6 +28497,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Evet; ama aynı dosyayı olduğu gibi değil. Caption, başlık, ses/müzik ve CTA’yı platforma göre uyarlayın; filigran ve lisans kurallarına dikkat edin."
+          },
+          {
+            "type": "p",
+            "text": "Tam da bu noktada [cross-platform dikey video stratejisi](/tr/smm/reels-video) ihtiyacı devreye girer; çünkü [platforma göre kısa video hook’u](/tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi) ve CTA yapısı Reels, Shorts ve TikTok için ayrı ayrı optimize edilmelidir."
           },
           {
             "type": "h3",
@@ -27991,6 +28568,10 @@
             "text": "GEO (Varsayım): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlar TikTok’ta “keşif”, IG’de “profil vitrini” bağlamında farklı vurgu alır."
           },
           {
+            "type": "p",
+            "text": "Turizm tarafında [otel sosyal medya için kısa video dağıtımı](/tr/otel/sosyal-medya) yaklaşımı; aynı oda turu, restoran deneyimi veya spa anlatısını her platform için farklı tempo, kapak ve CTA ile çoğaltmayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "B2B dağıtım akışı"
           },
@@ -28036,6 +28617,10 @@
           {
             "type": "p",
             "text": "Kanal önceliği KPI ile belirlenir. Eğer ana hedef watch time ve keşifse TikTok/Shorts öne çıkabilir; DM ve profil dönüşümü ise IG Reels daha güçlü olabilir. Burada kural: aynı KPI’yı üç platformda aynı şekilde beklemeyin; her platformun rolü farklı olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [TikTok-first ve Instagram-first içerik kararı](/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi) içerik üretiminden önce, hedef kitle ve ana KPI verisine göre netleştirilmelidir."
           },
           {
             "type": "h3",
@@ -28121,7 +28706,7 @@
             "variant": "primary",
             "label": "Cross-Platform Dikey Video Strateji Analizi Talep Et",
             "text": "Master video ve adaptasyon kurallarını markanıza göre netleştirelim.",
-            "href": "/tr/smm/reels-video"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "media",
@@ -28294,7 +28879,7 @@
               "KPI rapor şablonu",
               "Buraya: Dağıtım diyagramı + caption tablo görseli"
             ],
-            "href": "/downloads/reels-shorts-tiktok-icin-maste-video-adaptasyon- sablonu-v1.0.pdf",
+            "href": "/downloads/reels-shorts-tiktok-icin-master-video-adaptasyon-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
           }
         ]
@@ -28312,18 +28897,22 @@
             "text": "En sağlıklı model; filigransız master export, platform bazlı adaptasyon kartları, 48 saat + 7 gün KPI ölçümü ve 30 günlük test döngüsüdür. Böylece çekim maliyetini artırmadan video varlığını genişletebilir, hangi platformun ana sahne olacağını veriyle seçebilirsiniz."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi ekip içinde standardize etmek için [çoklu platform sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımını ana workflow’a bağlayabilir; uygulama detaylarını da [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfasından tamamlayabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Cross-Platform Dikey Video Strateji Analizi Talep Et",
             "text": "Reels/Shorts/TikTok’ta master video ile ölçeklenebilir dağıtım kurmak isteyen ekipler için.",
-            "href": "/tr/smm/reels-video"
+            "href": "/tr/smm/icerik-uretimi"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Reels/Shorts/TikTok İçin Master Video & Adaptasyon Şablonunu İndir",
             "text": "Her platform için hook–caption–CTA farkını netleştirir; aynı videoyu platform-native hale getirirsiniz.",
-            "href": "/tr/smm/icerik-uretimi"
+            "href": "/downloads/reels-shorts-tiktok-icin-master-video-adaptasyon-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -28366,17 +28955,16 @@
           "table-ayni-videonun-3-platform-baslik-caption-ornekleri — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/reels-video, /tr/smm/icerik-uretimi, /tr/creative/video-produksiyon",
-          "CTA hedefleri: Primary /tr/smm/reels-video, Secondary /tr/smm/icerik-uretimi",
-          "Destek link: /tr/creative/video-produksiyon",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı template formatında işlenmeli",
-          "Filigran/watermark ve müzik/lisans teknik notu korunmalı",
-          "KPI’lara göre platform önceliklendirme notu korunmalı"
+          "Canonical: /tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/reels-shorts-tiktok-icin-master-video-adaptasyon-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/reels-video, /tr/smm/blog/reels-ve-kisa-video-icin-ilk-3-saniye-ve-hook-stratejisi, /tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi, /tr/smm/blog/cekim-gunu-optimizasyonu-1-cekimde-1-aylik-sosyal-medya-icerigi, /tr/creative/video-produksiyon, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "Filigran/watermark ve müzik/lisans teknik notu korundu",
+          "KPI’lara göre platform önceliklendirme notu korundu",
+          "Üretim verimliliği ile platform uyarlaması köprüsü korundu",
+          "Media slotları V2.3 media pack ile eşleşmeli"
         ]
       }
     }
@@ -28430,7 +29018,7 @@
     },
     "h1": {
       "title": "Satın Alınabilir (Shoppable) İçerikler: Ürün ve Rezervasyon Etiketleri ile Sosyal Medya",
-      "intro": "Sosyal medya satışında en büyük kayıp, “sürtünme” yüzünden olur: kullanıcı ilgilenir, DM atar, cevap bekler, link ister, sonra vazgeçer. Shoppable içerikler bu sürtünmeyi azaltır: kullanıcı post/reels/story üzerinden tek tıkla ürün/oda/rezervasyon detayına gider. Otellerde oda, SPA paketi, deneyim/aktivite; B2B’de ise randevu/danışmanlık gibi akışlarda bu yaklaşım, “bilgi alma” süresini kısaltabilir.\n\nBu rehberde shoppable içeriğin ne olduğunu, Instagram Shop ve ürün/rezervasyon etiketlerini, otel ve hizmetlerde “rezervasyon odaklı” kullanım mantığını, carousel–reels–story kurgularını ve funnel/raporlama tarafını adım adım anlatacağız.",
+      "intro": "Sosyal medya satışında en büyük kayıp, “sürtünme” yüzünden olur: kullanıcı ilgilenir, DM atar, cevap bekler, link ister, sonra vazgeçer. Shoppable içerikler bu sürtünmeyi azaltır: kullanıcı post/reels/story üzerinden tek tıkla ürün/oda/rezervasyon detayına gider. Otellerde oda, SPA paketi, deneyim/aktivite; B2B’de ise randevu/danışmanlık gibi akışlarda bu yaklaşım, “bilgi alma” süresini kısaltabilir.\n\nBu rehberde shoppable içeriğin ne olduğunu, Instagram Shop ve ürün/rezervasyon etiketlerini, otel ve hizmetlerde “rezervasyon odaklı” kullanım mantığını, carousel–reels–story kurgularını ve funnel/raporlama tarafını adım adım anlatacağız. Bu yapıyı hizmet tarafına bağlamak için [shoppable içerik nedir](/tr/smm/icerik-uretimi) sorusunu ana içerik workflow’unun satış katmanı olarak da düşünebilirsiniz.",
       "quickSummary": [
         "1) Shoppable içerik, sosyal medyadan ürün/oda/rezervasyon detayına tek tıkla geçiş sağlar.",
         "2) Etiket tek başına yeterli değildir; landing sayfa, fiyat şeffaflığı ve CTA birlikte çalışmalıdır.",
@@ -28453,7 +29041,7 @@
       "secondary": {
         "label": "Shoppable Post/Reels & Rezervasyon Funnel Planlama Şablonunu İndir",
         "text": "Her format için etiket–CTA–KPI eşleştirir; shoppable funnel’ı 1 sayfada planlarsınız.",
-        "href": "/tr/pms-ota/online-satis"
+        "href": "/downloads/shoppable-post-reels-rezervasyon-funnel-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -28462,26 +29050,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Funnel Bazlı İçerik Üretimi",
+        "href": "/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
+      },
+      {
+        "label": "Cross-Platform Kısa Dikey Video",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
+      },
+      {
+        "label": "Sosyal Medya Caption Yazımı",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
+      },
+      {
         "label": "Online Satış",
         "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Otel Reklam Yönetimi",
         "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "Satış & Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Medyada Funnel Kurgusu: 4 Aşama İçerik Planı",
+        "href": "/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya"
       },
       {
-        "title": "Online Satış",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "Reels–Shorts–TikTok: Cross-Platform Dikey Video",
+        "href": "/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok"
       },
       {
-        "title": "Otel Reklam Yönetimi",
-        "href": "/tr/otel/reklam-yonetimi"
+        "title": "Sosyal Medya Caption Yazımı: Hook & CTA Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi"
       }
     ],
     "sections": [
@@ -28500,6 +29112,10 @@
           {
             "type": "p",
             "text": "Burada kritik nokta şudur: shoppable içerik bir “etiket” değil, bir funnel tasarımıdır. Etiket tek başına yetmez; fiyat/şeffaflık, landing sayfa, iade/iptal politikası ve ölçüm birlikte çalışmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde shoppable içerikler](/tr/sosyal-medya-yonetimi) sadece satış postu olarak değil; içerik, teklif, aksiyon ve ölçümün aynı akışta birleştiği bir sistem olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -28549,6 +29165,10 @@
           {
             "type": "p",
             "text": "Varsayım: Her marka tüm shoppable özelliklere aynı şekilde erişmeyebilir; bu yüzden strateji “etiket + link” hibritine dayanacak şekilde kurgulanır."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte en sağlıklı kurgu, etiketli postları ve story yönlendirmelerini [online satışa bağlanan sosyal medya içerikleri](/tr/pms-ota/online-satis) mantığıyla aynı satış akışına bağlamaktır; böylece kullanıcı her formatta benzer bir rezervasyon veya satın alma deneyimi yaşar."
           },
           {
             "type": "h3",
@@ -28610,6 +29230,10 @@
             "text": "GEO (Varsayım): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda “paket” etiketleri niyeti güçlendirir; ancak metinde gereksiz tekrar yapılmaz."
           },
           {
+            "type": "p",
+            "text": "Bu model, özellikle kampanya ve paket iletişiminde [otel için rezervasyon etiketi sosyal medya](/tr/otel/reklam-yonetimi) kurgusunu reklam tarafıyla uyumlu kurduğunuzda daha verimli çalışır; içerikte verilen teklif, reklamdaki teklif ve landing sayfa aynı dili konuşmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -28645,6 +29269,10 @@
           {
             "type": "p",
             "text": "Her format farklı bir davranış üretir:"
+          },
+          {
+            "type": "p",
+            "text": "Özellikle ürün ve oda odaklı akışlarda [shoppable kısa video içerikleri](/tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok) ile platform uyarlamasını düşünmek gerekir; çünkü Reels, Shorts ve TikTok aynı teklifi farklı ritim ve CTA beklentisiyle tüketir."
           },
           {
             "type": "list",
@@ -28696,6 +29324,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Buradaki metin dili de en az görsel kadar önemlidir; [satışa yönlendiren sosyal medya CTA’ları](/tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi) olmadan etiketli içerik, kullanıcıyı neden tıklaması gerektiği konusunda ikna etmekte zorlanır."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -28729,12 +29361,20 @@
             "text": "Shoppable içerikte “tıklama” tek başına başarı değildir. Önemli olan tıklamanın rezervasyon/lead’e dönüşmesidir. Bu yüzden funnel ölçümü gerekir: Gör → Tıkla → Detay → Rezervasyon başlat → Tamamla"
           },
           {
+            "type": "p",
+            "text": "Bu akışı planlarken [funnel bazlı shoppable içerik kurgusu](/tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya) yaklaşımı faydalıdır; çünkü her içerik aynı anda hem keşif hem de dönüşüm işi yapmaz, bazıları kullanıcıyı sadece bir sonraki adıma taşır."
+          },
+          {
             "type": "h3",
             "text": "Shoppable içeriklerin performansını nasıl ölçerim?"
           },
           {
             "type": "p",
             "text": "Kısa cevap: Etiket tıklaması, link tıklaması, detay sayfa görüntülenmesi ve rezervasyon/checkout başlatma gibi metrikleri birlikte izleyin. Her aşamada düşüş varsa, içerik değil bazen landing sayfa veya fiyat/iptal şeffaflığı sorundur."
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm tarafında [shoppable içeriklerin satış ve dönüşüm etkisi](/tr/raporlama/satis-donusum) sadece son satışla değil; etiket tıklaması, rezervasyon başlatma ve lead kalitesi gibi ara sinyallerle birlikte okunmalıdır."
           },
           {
             "type": "h3",
@@ -29014,6 +29654,10 @@
             "text": "Otel ve hizmet markaları için en güçlü başlangıç; 3–5 ana paket seçmek, her paket için reels/story/carousel kurguları üretmek ve etiket tıklamasından rezervasyon başlatmaya kadar tüm aşamaları ölçmektir. Böylece shoppable içerik, sosyal medya görünürlüğünü doğrudan rezervasyon veya lead akışına bağlayan bir sisteme dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sistemli kurmak isteyen ekipler için [satışa yönlendiren sosyal medya içerik üretimi](/tr/smm/icerik-uretimi) yaklaşımı ile [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası birlikte iyi bir başlangıç noktası sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Shoppable İçerik & Rezervasyon Etiketi Strateji Analizi Talep Et",
@@ -29025,7 +29669,7 @@
             "variant": "secondary",
             "label": "Shoppable Post/Reels & Rezervasyon Funnel Planlama Şablonunu İndir",
             "text": "Her format için etiket–CTA–KPI eşleştirir; shoppable funnel’ı 1 sayfada planlarsınız.",
-            "href": "/tr/pms-ota/online-satis"
+            "href": "/downloads/shoppable-post-reels-rezervasyon-funnel-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -29068,17 +29712,15 @@
           "table-shoppable-funnel-kpi-tablosu — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/shoppable-icerikler-urun-ve-rezervasyon-etiketleri-ile-sosyal-medya",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/icerik-uretimi, /tr/pms-ota/online-satis, /tr/otel/reklam-yonetimi",
-          "CTA hedefleri: Primary /tr/smm/icerik-uretimi, Secondary /tr/pms-ota/online-satis",
-          "Destek link: /tr/otel/reklam-yonetimi",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı template formatında işlenmeli",
-          "Fiyat/vergiler, stok/müsaitlik ve iade/iptal şeffaflığı teknik notu korunmalı",
-          "Funnel KPI ölçümü: etiket tıklaması → rezervasyon/lead başlatma → tamamlama"
+          "Canonical: /tr/smm/blog/shoppable-icerikler-urun-ve-rezervasyon-etiketleri-ile-sosyal-medya",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/shoppable-post-reels-rezervasyon-funnel-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/funnel-bazli-icerik-uretimi-farkli-asamalar-icin-sosyal-medya, /tr/smm/blog/cross-platform-kisa-dikey-video-stratejisi-reels-shorts-tiktok, /tr/smm/blog/sosyal-medya-caption-yazimi-hook-ton-ve-cta-rehberi, /tr/pms-ota/online-satis, /tr/otel/reklam-yonetimi, /tr/raporlama/satis-donusum, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "Fiyat/vergiler, stok/müsaitlik ve iade/iptal şeffaflığı teknik notu korundu",
+          "Funnel KPI ölçümü: etiket tıklaması → rezervasyon/lead başlatma → tamamlama",
+          "Sosyal içerikten satış/rezervasyon aksiyonuna geçiş köprüsü korundu"
         ]
       }
     }
@@ -29132,7 +29774,7 @@
     },
     "h1": {
       "title": "Broadcast Kanalları ve Topluluk Odaklı İçerik: Close Friends, Yayın Kanalları ve Topluluklar",
-      "intro": "Herkese açık feed, keşif ve görünürlük için harikadır; ama “samimiyet” ve “sadakat” üretmekte sınırlıdır. Çünkü feed herkese hitap eder, ton mecburen geneldir. Broadcast kanalları, close friends listeleri ve WhatsApp toplulukları ise tam tersine seçili kitle içindir: daha içeriden, daha kısa yoldan, daha “VIP” bir bağ kurar. Bu alanlar doğru yönetilirse tekrar rezervasyon/lead, bağlılık ve geri bildirim döngüsü güçlenir; yanlış yönetilirse hızla spam’e dönüşür.\n\nBu rehberde: broadcast/close friends/topluluk kavramlarını, feed’den farklarını, içerik tonu ve sıklığını, otel/B2B örneklerini, kanal büyütme stratejisini ve spam’den kaçınma guardrails’larını net bir playbook olarak kuracağız.",
+      "intro": "Herkese açık feed, keşif ve görünürlük için harikadır; ama “samimiyet” ve “sadakat” üretmekte sınırlıdır. Çünkü feed herkese hitap eder, ton mecburen geneldir. Broadcast kanalları, close friends listeleri ve WhatsApp toplulukları ise tam tersine seçili kitle içindir: daha içeriden, daha kısa yoldan, daha “VIP” bir bağ kurar. Bu alanlar doğru yönetilirse tekrar rezervasyon/lead, bağlılık ve geri bildirim döngüsü güçlenir; yanlış yönetilirse hızla spam’e dönüşür.\n\nBu rehberde: broadcast/close friends/topluluk kavramlarını, feed’den farklarını, içerik tonu ve sıklığını, otel/B2B örneklerini, kanal büyütme stratejisini ve spam’den kaçınma guardrails’larını net bir playbook olarak kuracağız. Bu yapıyı hizmet tarafına bağlamak için [Instagram yayın kanalı içerik örnekleri](/tr/smm/icerik-uretimi) yaklaşımını ayrıca değerlendirebilirsiniz.",
       "quickSummary": [
         "1) Feed keşif üretir; broadcast, close friends ve topluluk kanalları sadakat ve yakın ilişki üretir.",
         "2) Topluluk içerikleri feed’den kopyalanmamalı; erken erişim, backstage, özel teklif ve geri bildirim değeri sunmalıdır.",
@@ -29155,7 +29797,7 @@
       "secondary": {
         "label": "Broadcast/Close Friends İçerik Akışı & Format Planlama Şablonunu İndir",
         "text": "Hangi içerik feed’de, hangisi toplulukta netleşir; spam’e düşmeden ritim kurarsınız.",
-        "href": "/tr/otel-dijital-pazarlama"
+        "href": "/downloads/broadcast-close-friends-icerik-akisi-format-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -29164,26 +29806,50 @@
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Çok Dilli Sosyal Medya İçerik Üretimi",
+        "href": "/tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru"
+      },
+      {
+        "label": "DM ve Yorum Yanıt Şablonları",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
+      },
+      {
+        "label": "TikTok-First ve Instagram-First İçerik Stratejisi",
+        "href": "/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi"
+      },
+      {
         "label": "Mesaj Yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
         "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM İçerik Üretimi SSS",
+        "href": "/tr/smm/icerik-uretimi-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
+        "href": "/tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru"
       },
       {
-        "title": "Mesaj Yönetimi",
-        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+        "title": "DM ve Yorum Yanıt Şablonları: Hızlı ve Tutarlı İletişim",
+        "href": "/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu"
       },
       {
-        "title": "Otel Dijital Pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "title": "TikTok-First mi Instagram-First mi? Kanal Stratejisi",
+        "href": "/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi"
       }
     ],
     "sections": [
@@ -29202,6 +29868,10 @@
           {
             "type": "p",
             "text": "Bu kanalların ortak özelliği: kullanıcı “genel feed” yerine burada olmak için seçmiştir. Bu yüzden içerik “daha içeriden” olmalı; ama aynı zamanda “daha fazla promosyon” olmamalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde topluluk içerikleri](/tr/sosyal-medya-yonetimi), yalnızca yeni bir yayın yüzeyi değil; feed, DM, geri bildirim ve sadakat akışının birlikte planlandığı ayrı bir operasyon katmanı olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -29260,6 +29930,10 @@
           {
             "type": "p",
             "text": "Varsayım: B2B’de WhatsApp topluluk yerine e-posta/LinkedIn grup daha uygun olabilir; yine de model aynıdır: seçili kitle + değer."
+          },
+          {
+            "type": "p",
+            "text": "Birden fazla dil ve pazar hedefleniyorsa [çok dilli topluluk yayın akışı](/tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru) kurmak gerekir; çünkü TR, EN, DE ve RU kitlelerinin aynı duyuruya verdiği tepki, içerik tonu ve beklentisi aynı olmaz."
           },
           {
             "type": "h3",
@@ -29325,6 +29999,10 @@
             "text": "Kısa cevap: Close friends içerikleri “backstage + küçük avantaj” üzerine kurulmalıdır: hazırlık anı, perde arkası, mini anket/soru ve sınırlı teklif gibi. Feed dilini daha samimi hale getirir, ama marka tonunu bozmaz."
           },
           {
+            "type": "p",
+            "text": "Markalar “Close Friends ne paylaşmalı” sorusunu özellikle otel tarafında erken duyuru, VIP avantaj ve deneyim odaklı içeriklerle cevaplayabilir; bu mantık [otel sosyal medya için Close Friends içerikleri](/tr/otel/sosyal-medya) örneklerinde daha net görünür."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -29360,6 +30038,10 @@
           {
             "type": "p",
             "text": "Topluluk kanalları “az ama sıkı” ister. Çok paylaşım → spam algısı → çıkış. Az ama değerli paylaşım → bağlılık. Ton ise feed’den daha samimi olabilir ama yine de marka sınırları vardır (özellikle otel gibi premium markalarda)."
+          },
+          {
+            "type": "p",
+            "text": "Burada platform farkı da önemlidir; [TikTok ve Instagram topluluk içerikleri](/tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi) aynı içerik temposuna ve kullanıcı beklentisine sahip değildir. Instagram’da yayın kanalı ve Close Friends daha güçlü çalışırken, TikTok tarafında topluluk hissi çoğu zaman içerik dili ve yorum akışıyla kurulabilir."
           },
           {
             "type": "h3",
@@ -29422,6 +30104,10 @@
             "text": "GEO (Varsayım): Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda “rota/etkinlik” insider duyuruları ayrıcalık hissini güçlendirebilir."
           },
           {
+            "type": "p",
+            "text": "Sadakat, erken erişim ve özel kampanya tarafında [otel dijital pazarlamada topluluk içerikleri](/tr/otel-dijital-pazarlama) önemli bir köprü kurar; çünkü bu içerikler yalnız görünürlük değil, tekrar rezervasyon niyeti ve sezon iletişimi de üretir."
+          },
+          {
             "type": "h3",
             "text": "B2B örnekleri (iş ortakları/power users)"
           },
@@ -29475,6 +30161,14 @@
           {
             "type": "p",
             "text": "Kısa cevap: Net bir yayın ritmi, yüksek “değer oranı” ve açık çıkış seçeneği ile. Promosyonu sınırlayın, kişisel veriyi zorlamayın, kullanıcıyı rahatsız etmeyen sıklıkta paylaşın ve geri bildirim döngüsü kurun."
+          },
+          {
+            "type": "p",
+            "text": "Topluluk büyüdükçe yayın sonrası soru ve geri bildirim trafiği de artar; bu yüzden [broadcast sonrası DM yanıt akışı](/tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu) önceden tanımlanmalı ve özellikle sık gelen sorular için hazır cevap mantığı kurulmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu trafik operasyonel tarafa taşındığında [topluluk mesajları için mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) yaklaşımı devreye girer; DM, WhatsApp ve yorumların kim tarafından, ne hızla ve hangi tonla cevaplanacağı netleşmeden topluluk kalitesi korunamaz."
           },
           {
             "type": "h3",
@@ -29755,6 +30449,10 @@
             "text": "En sağlıklı model; feed’de keşif yaratmak, topluluğa net bir vaatle davet etmek, içeride ölçülü ve değer odaklı bir yayın ritmi kurmak ve çıkış/spam sinyallerini düzenli izlemektir. KVKK, rıza ve platform kuralları ise bu yapının temel güvenlik katmanıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kalıcı bir sisteme çevirmek isteyen ekipler için [topluluk odaklı sosyal medya içeriği](/tr/smm/icerik-uretimi) yaklaşımı ile [SMM içerik üretimi hakkında sık sorulan sorular](/tr/smm/icerik-uretimi-sss) sayfası birlikte iyi bir başlangıç noktası sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Broadcast Kanal & Topluluk İçerik Strateji Analizi Talep Et",
@@ -29766,7 +30464,7 @@
             "variant": "secondary",
             "label": "Broadcast/Close Friends İçerik Akışı & Format Planlama Şablonunu İndir",
             "text": "Hangi içerik feed’de, hangisi toplulukta netleşir; spam’e düşmeden ritim kurarsınız.",
-            "href": "/tr/otel-dijital-pazarlama"
+            "href": "/downloads/broadcast-close-friends-icerik-akisi-format-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -29809,17 +30507,15 @@
           "table-feed-vs-broadcast-close-friends-karsilastirma-tablosu — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi",
-          "Meta title 55–60 karakter hedefi kontrol edildi",
-          "Meta description 150–170 karakter hedefi kontrol edildi",
-          "Article + BreadcrumbList + FAQPage schema planlanmalı",
-          "İç link hedefleri: /tr/smm/icerik-uretimi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/otel-dijital-pazarlama",
-          "CTA hedefleri: Primary /tr/smm/icerik-uretimi, Secondary /tr/otel-dijital-pazarlama",
-          "Destek link: /tr/cagri-merkezi/mesaj-yonetimi",
-          "Media slotları V2.3 media pack ile eşleşmeli",
-          "Download asset alanı template formatında işlenmeli",
-          "KVKK, rıza, çıkış hakkı ve platform kuralları teknik notu korunmalı",
-          "Spam guardrails: zorla ekleme/çıkarma yok, aşırı promosyon yok, çıkış/unsubscribe takibi"
+          "Canonical: /tr/smm/blog/broadcast-kanallari-ve-topluluk-odakli-icerik-yayin-akisi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/icerik-uretimi",
+          "Secondary CTA hedefi: /downloads/broadcast-close-friends-icerik-akisi-format-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru, /tr/smm/blog/dm-ve-yorum-yanit-sablonlari-sosyal-medya-iceriginin-gorunmeyen-yuzu, /tr/smm/blog/tiktok-first-ve-instagram-first-icerik-stratejisi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/otel-dijital-pazarlama, /tr/otel/sosyal-medya, /tr/smm/icerik-uretimi-sss",
+          "Download asset tipi: pdf",
+          "KVKK, rıza, çıkış hakkı ve platform kuralları teknik notu korundu",
+          "Spam guardrails: zorla ekleme/çıkarma yok, aşırı promosyon yok, çıkış/unsubscribe takibi",
+          "Feed dışı topluluk katmanı ile mesaj operasyonu köprüsü korundu"
         ]
       }
     }
@@ -29873,7 +30569,7 @@
     },
     "h1": {
       "title": "İç Ekip ve Ajans İş Birliği: Brief ve Toplantı Ritmi Nasıl Kurulur?",
-      "intro": "Ajansla çalışmak “işi devretmek” değildir; işi yönetilebilir bir sisteme çevirmektir. Rol dağılımı net değilse, brief eksikse, onay adımları belirsizse ve toplantı ritmi oturmamışsa; sosyal medya stratejisi ne kadar iyi olursa olsun operasyon günlük revizyonlarla tıkanır. Otel/turizm markalarında sezonsallık ve kampanya baskısı, bu tıkanmayı daha da hızlandırır. B2B/hizmet tarafında ise mesaj doğruluğu ve onay süreçleri kritik olduğu için gecikmeler maliyetli olur. Bu rehber, governance odaklı SMM iş birliği modelini kurmak için rol–brief–onay–toplantı çerçevesini pratik şablonlarla anlatır.",
+      "intro": "Ajansla çalışmak “işi devretmek” değildir; işi yönetilebilir bir sisteme çevirmektir. Rol dağılımı net değilse, brief eksikse, onay adımları belirsizse ve toplantı ritmi oturmamışsa; sosyal medya stratejisi ne kadar iyi olursa olsun operasyon günlük revizyonlarla tıkanır. Otel/turizm markalarında sezonsallık ve kampanya baskısı, bu tıkanmayı daha da hızlandırır. B2B/hizmet tarafında ise mesaj doğruluğu ve onay süreçleri kritik olduğu için gecikmeler maliyetli olur. Bu rehber, governance odaklı SMM iş birliği modelini kurmak için rol–brief–onay–toplantı çerçevesini pratik şablonlarla anlatır. Bu sistemi hizmet tarafına bağlamak için [sosyal medya brief örneği](/tr/smm/planlama-strateji) yaklaşımını ayrıca inceleyebilirsiniz.",
       "quickSummary": [
         "1) İç ekip ve ajans arasında rol dağılımını yazılı hale getirin.",
         "2) Brief’i tek kaynak gerçek yapın ve zorunlu alanlarla standartlaştırın.",
@@ -29884,14 +30580,14 @@
       "ctaPrimary": {
         "label": "İç Ekip & Ajans İş Birliği Analizi Talep Et",
         "text": "Otel ve B2B markalarda revizyon döngüsünü azaltıp daha hızlı, daha net sosyal medya operasyonu kurmak isteyenler için.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "İç Ekip & Ajans İş Birliği Analizi Talep Et",
         "text": "Otel ve B2B markalarda süreçleri netleştirip revizyon döngüsünü azaltmak isteyen ekipler için.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Sosyal Medya Brief & Toplantı Ritmi Şablonunu İndir",
@@ -29901,26 +30597,50 @@
     },
     "internalLinks": [
       {
-        "label": "Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "label": "SMM Planlama ve Strateji",
+        "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "SMM analiz ve raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "SEO raporlama",
-        "href": "/seo/seo-raporlama"
+        "label": "Haftalık Sosyal Medya Operasyon Planı",
+        "href": "/tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Playbook & Onboarding Dokümanı",
+        "href": "/tr/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir"
+      },
+      {
+        "label": "Sosyal Medya Governance: Risk ve Onay Süreci",
+        "href": "/tr/smm/blog/sosyal-medya-governance-risk-ve-onay-sureci"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "title": "Haftalık SMM Ops Planı: İçerik, Yanıt, Rapor",
+        "href": "/tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama"
       },
       {
-        "title": "Sosyal Medya Analiz ve Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "title": "Sosyal Medya Playbook & Onboarding Dokümanı",
+        "href": "/tr/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir"
+      },
+      {
+        "title": "Sosyal Medya Governance: Risk ve Onay Süreci",
+        "href": "/tr/smm/blog/sosyal-medya-governance-risk-ve-onay-sureci"
       }
     ],
     "sections": [
@@ -29935,6 +30655,10 @@
           {
             "type": "p",
             "text": "Birçok projede sorun “ajans kötü” değil, rol tanımının bulanık olmasıdır. Ajans; strateji, kreatif üretim, yayın, community, raporlama gibi alanlarda destek verebilir; ama karar yetkisi ve sorumluluk net değilse herkes aynı işi yapar, kritik işler de sahipsiz kalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde ajans iş birliği](/tr/sosyal-medya-yonetimi), yalnızca görev paylaşımı değil; brief, toplantı, onay ve geri bildirim akışının aynı operasyon sistemi içinde tanımlanması anlamına gelir. Burada sosyal medya SLA mantığı da cevap süresi, revizyon süresi ve onay bekleme süresi gibi operasyon standartlarını netleştiren temel katmandır."
           },
           {
             "type": "h3",
@@ -30008,6 +30732,10 @@
             "text": "Brief; ajansın yaratıcı iş üretmesi için “kısıt” değil, hızlandırıcıdır. En yaygın problem, brief’in sözlü veya parçalı gelmesidir (WhatsApp, mail, toplantı notu). Bu, aynı işin 3 kez yapılmasına yol açar."
           },
           {
+            "type": "p",
+            "text": "Bu standardı kalıcı hale getirmenin en iyi yolu, brief alanlarını tek tek tekrar yazmak yerine [sosyal medya playbook ve onboarding dokümanı](/tr/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir) içinde marka tonu, dosya düzeni, erişimler ve çalışma kurallarıyla birlikte belgelemektir."
+          },
+          {
             "type": "h3",
             "text": "İyi bir sosyal medya brief dokümanında neler olmalı?"
           },
@@ -30077,6 +30805,10 @@
             "text": "Onay mekanizması, işin yavaşladığı değil; hızlandığı yerdir—eğer doğru tasarlanırsa. En büyük kayıp, “kim onaylayacak?” ve “kaç tur revizyon normal?” sorularının belirsiz kalmasıdır. Özellikle otel kampanyalarında son dakika fiyat/koşul değişimleri, onayı kilitleyebilir."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [sosyal medya governance ve onay süreci](/tr/smm/blog/sosyal-medya-governance-risk-ve-onay-sureci) yaklaşımı kritikleşir; çünkü hangi içeriğin normal akışta ilerleyeceği, hangisinin risk nedeniyle eskale edileceği ve sosyal medya SLA kurallarının ne zaman devreye gireceği ancak yazılı governance ile netleşir."
+          },
+          {
             "type": "h3",
             "text": "Onay süreçleri ve SLA’lar nasıl tanımlanır?"
           },
@@ -30140,6 +30872,10 @@
             "text": "Toplantılar “durum konuşmak” için değil, karar almak için vardır. Ajans toplantıları plansız olursa, herkes aynı şeyleri tekrar eder; karar çıkmaz. Bu yüzden haftalık ve aylık toplantının amacı ve ajandası farklı olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Ajans ile sosyal medya toplantısı nasıl olmalı sorusunun en pratik cevabı, bunu [haftalık sosyal medya operasyon ritmi](/tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama) ile birlikte tasarlamaktır. Böylece toplantı sadece konuşma alanı değil; içerik, yanıt, onay ve aksiyon takibini besleyen karar noktası haline gelir."
+          },
+          {
             "type": "h3",
             "text": "Haftalık/aylık ajans toplantılarında ne konuşulmalı?"
           },
@@ -30179,6 +30915,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu toplantıları veriyle beslemek için [sosyal medya analiz ve raporlama takibi](/tr/smm/analiz-raporlama) düzenli çalışmalıdır; aksi halde konuşmalar yine hissiyata döner. İçeriklerin organik katkısını görmek için [SEO raporlama ile performans toplantısı](/tr/seo/seo-raporlama) çıktıları da aynı masada okunmalıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check (Toplantı ritmi)",
@@ -30197,7 +30937,7 @@
               "Haftalık toplantıyı “plan/engeller/aksiyon” formatına kilitleyin.",
               "Aylık toplantıyı “KPI okuma + öğrenim” formatına kilitleyin.",
               "Toplantı sonunda 3 aksiyon çıkarıp sorumlu atayın.",
-              "Raporlama sayfasına bağlayın: /tr/smm/analiz-raporlama."
+              "Aksiyon takibini rapor, brief ve yayın planıyla aynı yerde görünür tutun."
             ]
           }
         ]
@@ -30405,11 +31145,15 @@
             "text": "Bu yapı özellikle otel/turizm markalarında kampanya ve sezon baskısını yönetmeyi kolaylaştırır. B2B/hizmet tarafında ise mesaj doğruluğu, karar akışı ve rapor kalitesi üzerinden performansı güçlendirir."
           },
           {
+            "type": "p",
+            "text": "Markanız için daha net bir [iç ekip ve ajans iş birliği sosyal medya](/tr/smm/planlama-strateji) modelini kurmak ve brief, toplantı, onay akışını tek sistemde toplamak istiyorsanız buradan ilerleyebilirsiniz. Kapsam, süreç ve çalışma modeliyle ilgili karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası da iyi bir sonraki adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "İç Ekip & Ajans İş Birliği Analizi Talep Et",
             "text": "Otel ve B2B markalarda süreçleri netleştirip revizyon döngüsünü azaltmak isteyen ekipler için.",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "cta",
@@ -30461,14 +31205,15 @@
           "asset-checklist-card — Ajansla çalışma checklist kartı"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi",
+          "Canonical: /tr/smm/blog/ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/smm/analiz-raporlama, /tr/seo/seo-raporlama",
-          "Download asset linki kontrol edildi",
-          "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1+ kez",
-          "Tablo başlıkları ve rows alanları JSON uyumlu",
-          "Media slot isimleri mediaPack ile eşleşiyor",
-          "URL/UTM ve format alanları brief asset içinde yer alıyor"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/sosyal-medya-brief-toplanti-ritmi-governance-pack-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama, /tr/smm/blog/sosyal-medya-playbook-ve-onboarding-dokumani-nasil-hazirlanir, /tr/smm/blog/sosyal-medya-governance-risk-ve-onay-sureci, /tr/smm/analiz-raporlama, /tr/seo/seo-raporlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Brief, onay ve toplantı ritmi mevcut metin korunarak güçlendirildi",
+          "Sosyal medya SLA kavramı linksiz operasyon standardı olarak korundu",
+          "SMM ve SEO raporlarının toplantı ritmine bağlandığı performans hattı netleştirildi"
         ]
       }
     }
@@ -30522,7 +31267,7 @@
     },
     "h1": {
       "title": "Haftalık Sosyal Medya Operasyon Planı: İçerik, Yanıt ve Raporlama Akışı",
-      "intro": "Birçok ekip “strateji var ama işler yürümüyor” noktasında tıkanır. Çünkü strateji, haftalık operasyon planına dönüşmediğinde günlük iş; içerik yetiştirme, son dakika revizyonu, kaçan DM’ler ve “rapor sonra bakarız” döngüsüne kayar. Otel/turizm tarafında sezonsallık ve kampanya baskısı bu döngüyü hızlandırır; B2B’de ise mesaj doğruluğu ve lead kalitesi için düzenli yanıt ve raporlama daha kritik hale gelir. Bu rehberde; Pazartesi–Pazar yayın akışı, DM/yorum yanıt operasyonu, haftalık mini rapor ve 30–60 dakikalık ops toplantısı ile sosyal medyayı planlı rutinlere oturtan uygulanabilir bir model kuracağız.",
+      "intro": "Birçok ekip “strateji var ama işler yürümüyor” noktasında tıkanır. Çünkü strateji, haftalık operasyon planına dönüşmediğinde günlük iş; içerik yetiştirme, son dakika revizyonu, kaçan DM’ler ve “rapor sonra bakarız” döngüsüne kayar. Otel/turizm tarafında sezonsallık ve kampanya baskısı bu döngüyü hızlandırır; B2B’de ise mesaj doğruluğu ve lead kalitesi için düzenli yanıt ve raporlama daha kritik hale gelir. Bu rehberde; Pazartesi–Pazar yayın akışı, DM/yorum yanıt operasyonu, haftalık mini rapor ve 30–60 dakikalık ops toplantısı ile sosyal medyayı planlı rutinlere oturtan uygulanabilir bir model kuracağız. Bu operasyon modelini hizmet tarafına bağlamak için [haftalık sosyal medya operasyon planı](/tr/smm/planlama-strateji) yaklaşımını ayrıca değerlendirebilirsiniz.",
       "quickSummary": [
         "1) Haftayı yayın, yanıt ve rapor olarak 3 ana rutine bölün.",
         "2) Pazartesi–Pazar içerik akışını kapasiteye göre planlayın.",
@@ -30533,14 +31278,14 @@
       "ctaPrimary": {
         "label": "Haftalık Sosyal Medya Ops Analizi Talep Et",
         "text": "Otel ve B2B ekipleri için içerik, yanıt ve rapor akışını sahada çalışır bir rutine çevirmek isteyenler için.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Haftalık Sosyal Medya Ops Analizi Talep Et",
         "text": "Otel ve B2B ekipleri için içerik, yanıt ve rapor akışını sahada çalışır bir rutine çevirmek için.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Haftalık İçerik + Yanıt + Raporlama Plan Şablonunu İndir",
@@ -30551,25 +31296,53 @@
     "internalLinks": [
       {
         "label": "Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "SMM analiz ve raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "İç Ekip ve Ajans İş Birliği",
+        "href": "/tr/smm/blog/ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi"
+      },
+      {
+        "label": "90 Günlük Sosyal Medya Roadmap ve Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+        "href": "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Çağrı Merkezi Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "İç Ekip–Ajans İş Birliği: Brief & Toplantı Ritmi",
+        "href": "/tr/smm/blog/ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi"
       },
       {
-        "title": "Sosyal Medya Analiz ve Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "title": "90 Günlük Sosyal Medya Roadmap + Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      },
+      {
+        "title": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+        "href": "/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
       }
     ],
     "sections": [
@@ -30595,7 +31368,7 @@
           },
           {
             "type": "p",
-            "text": "Haftalık ritim yoksa ekipler “ne zaman üretmeli, ne zaman yanıtlamalı, ne zaman raporlamalı?” sorularını her gün yeniden tartışır. Plan, bu tartışmayı azaltır ve kararları rutine bağlar."
+            "text": "Haftalık ritim yoksa ekipler “ne zaman üretmeli, ne zaman yanıtlamalı, ne zaman raporlamalı?” sorularını her gün yeniden tartışır. Plan, bu tartışmayı azaltır ve kararları rutine bağlar. Bu ritmi daha geniş çerçevede okumak için [sosyal medya yönetimi içinde haftalık operasyon](/tr/sosyal-medya-yonetimi) yaklaşımı faydalıdır."
           },
           {
             "type": "h3",
@@ -30639,7 +31412,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Haftalık içerik akışı, stratejinin günlük hayata tercümesidir. Amaç “her gün post” zorunluluğu değil; kanal rolüne ve üretim kapasitesine göre sürdürülebilir ritim kurmaktır. Otelde kampanya dönemlerinde story ve reel yoğunluğu artabilir; B2B’de LinkedIn post + carousel ritmi daha baskın olabilir."
+            "text": "Haftalık içerik akışı, stratejinin günlük hayata tercümesidir. Amaç “her gün post” zorunluluğu değil; kanal rolüne ve üretim kapasitesine göre sürdürülebilir ritim kurmaktır. Otelde kampanya dönemlerinde story ve reel yoğunluğu artabilir; B2B’de LinkedIn post + carousel ritmi daha baskın olabilir. Bu geçişi sistematik kurmak için [sosyal medya stratejisinden haftalık operasyon çıkarmak](/tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework) yaklaşımını ayrıca kullanabilirsiniz."
           },
           {
             "type": "h3",
@@ -30709,7 +31482,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap : DM/yorum yönetimini günlük slotlara bölün (sabah–öğlen–akşam), SLA belirleyin (örn. 2–4 saat), yanıt şablonları oluşturun ve kritik konular için eskalasyon hattı (kime sorulacak?) tanımlayın."
+            "text": "Cevap : DM/yorum yönetimini günlük slotlara bölün (sabah–öğlen–akşam), SLA belirleyin (örn. 2–4 saat), yanıt şablonları oluşturun ve kritik konular için eskalasyon hattı (kime sorulacak?) tanımlayın. Özellikle yoğun dönemlerde bu akışı [DM yorum yönetimi rutini](/tr/cagri-merkezi/mesaj-yonetimi) olarak yazılı hale getirmek, kaçan talepleri ve dağınık yanıt tonunu azaltır."
           },
           {
             "type": "h3",
@@ -30786,6 +31559,10 @@
             "text": "Cevap : Haftada 1 kez 30–60 dakikalık ops toplantısı yeterlidir. Toplantı; KPI trendi, en iyi 3 içerik, en zayıf 3 içerik, DM içgörüleri ve 3 aksiyonla kapatılmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu toplantıyı sadece veri okumak için değil, görev sahipliğini ve karar hızını korumak için de kullanın. Özellikle ajanslı yapılarda [ajans ve iç ekip haftalık toplantı ritmi](/tr/smm/blog/ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi) net değilse mini raporlar aksiyona dönüşmez."
+          },
+          {
             "type": "h3",
             "text": "Haftalık mini rapor formatı (1 sayfa)"
           },
@@ -30815,6 +31592,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Operasyonun günlük yangınlara dönmemesi için backlog ve önceliklerin [90 günlük roadmap’e bağlı haftalık plan](/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi) mantığıyla güncellenmesi gerekir. Böylece bu haftanın işleri daha büyük hedeflerden kopmaz."
+          },
+          {
+            "type": "p",
+            "text": "Mini dashboard tarafında [haftalık sosyal medya mini raporu](/tr/smm/analiz-raporlama) ile performansı düzenli okumak ve [SEO raporlama ile sosyal medya performans takibi](/tr/seo/seo-raporlama) yaklaşımını aynı toplantıda değerlendirmek, içeriklerin kanal katkısını daha net görmenizi sağlar."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check (Rapor disiplini)",
@@ -30833,7 +31618,7 @@
               "Haftalık raporu pazartesi sabahı değil, pazar/ptesi arası hazırlayın (Varsayım).",
               "Toplantıda “ne öğrendik?” bölümünü zorunlu tutun.",
               "Aksiyonları takvime işleyin, takip edin.",
-              "Raporlamayı /tr/smm/analiz-raporlama ile hizalayın."
+              "Raporlamayı haftalık mini rapor standardıyla hizalayın."
             ]
           }
         ]
@@ -31066,11 +31851,15 @@
             "text": "Otel/turizm markalarında bu ritim kampanya ve rezervasyon baskısını yönetmeyi kolaylaştırır. B2B’de ise mesaj doğruluğu, lead takibi ve performans öğrenimlerini daha sistemli hale getirir."
           },
           {
+            "type": "p",
+            "text": "Markanız için daha net bir [içerik yanıt rapor akışı](/tr/smm/planlama-strateji) kurmak ve haftalık toplantı, mini rapor, görev sahipliği yapısını tek sistemde toplamak istiyorsanız buradan ilerleyebilirsiniz. Kapsam, çalışma modeli ve süreç detayları için [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası da iyi bir sonraki adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Haftalık Sosyal Medya Ops Analizi Talep Et",
             "text": "Otel ve B2B ekipleri için içerik, yanıt ve rapor akışını sahada çalışır bir rutine çevirmek için.",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "cta",
@@ -31122,14 +31911,15 @@
           "asset-checklist-card — Günlük/haftalık rutin checklist kartı"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama",
+          "Canonical: /tr/smm/blog/haftalik-sosyal-medya-operasyon-plani-icerik-yanit-ve-raporlama",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/smm/icerik-uretimi, /tr/smm/analiz-raporlama",
-          "Download asset linki kontrol edildi",
-          "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1+ kez",
-          "Tablo başlıkları ve rows alanları JSON uyumlu",
-          "Media slot isimleri mediaPack ile eşleşiyor",
-          "Yayın takvimi UTM/GA4 ve kampanya tarihleriyle uyumlu olacak şekilde işaretlendi"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/haftalik-icerik-yanit-raporlama-plan-sablonu-weekly-ops-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/ic-ekip-ve-ajans-is-birligi-brief-ve-toplanti-ritmi, /tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi, /tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework, /tr/smm/analiz-raporlama, /tr/cagri-merkezi/mesaj-yonetimi, /tr/seo/seo-raporlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Ham link text kalan raporlama satırı doğal anchor yapısına çevrildi",
+          "Haftalık toplantı, DM/yorum ve mini rapor hattı mevcut metin korunarak güçlendirildi",
+          "Otel için haftalık sosyal medya planı ifadesi için yeni URL üretilmedi; örnek bağlam korunabilir bırakıldı"
         ]
       }
     }
@@ -31183,7 +31973,7 @@
     },
     "h1": {
       "title": "Kanal Stratejisi: Instagram, TikTok, YouTube ve LinkedIn İçin Ayrı Hedefler Nasıl Belirlenir?",
-      "intro": "Kanalların hepsi “sosyal medya” ama hepsi aynı işi yapmaz. Kullanıcı niyeti, içerik tüketim biçimi, algoritma davranışı ve dönüşüm yolu platformdan platforma değişir. Otel markalarında Instagram topluluk ve güveni taşırken TikTok keşif ve trend ile yeni kitleyi getirir; YouTube “derin bilgi” ve arama trafiğiyle uzun vadeli otorite sağlar. B2B’de LinkedIn network ve otoriteyi kurar, YouTube eğitim içeriğiyle güven üretir. Bu yüzden doğru kanal stratejisi, “tek tip içerik” yerine farklılaştırılmış hedef ve KPI seti ile kanalları birbirini tamamlayan bir sisteme dönüştürür.",
+      "intro": "Kanalların hepsi “sosyal medya” ama hepsi aynı işi yapmaz. Kullanıcı niyeti, içerik tüketim biçimi, algoritma davranışı ve dönüşüm yolu platformdan platforma değişir. Otel markalarında Instagram topluluk ve güveni taşırken TikTok keşif ve trend ile yeni kitleyi getirir; YouTube “derin bilgi” ve arama trafiğiyle uzun vadeli otorite sağlar. B2B’de LinkedIn network ve otoriteyi kurar, YouTube eğitim içeriğiyle güven üretir. Bu yüzden doğru kanal stratejisi, “tek tip içerik” yerine farklılaştırılmış hedef ve KPI seti ile kanalları birbirini tamamlayan bir sisteme dönüştürür. Bu çerçeveyi hizmet tarafına bağlamak için [kanal stratejisi sosyal medya](/tr/smm/planlama-strateji) yaklaşımını ayrıca değerlendirebilirsiniz.",
       "quickSummary": [
         "1) Her kanal için 1 cümlelik rol tanımı yazın.",
         "2) Rolü funnel aşamasıyla eşleştirin: keşif, topluluk, arama, network.",
@@ -31194,14 +31984,14 @@
       "ctaPrimary": {
         "label": "Kanal Stratejisi & Hedef Analizi Talep Et",
         "text": "Otel ve B2B projelerde kanalları rol-hedef-KPI bazında konumlandırıp kaynak kullanımını netleştirmek isteyen ekipler için.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kanal Stratejisi & Hedef Analizi Talep Et",
         "text": "Otel ve B2B ekipleri için kanalları rol-hedef-KPI bazında konumlandırıp kaynak dağılımını netleştirmek için.",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       "secondary": {
         "label": "Instagram/TikTok/YouTube/LinkedIn Kanal Haritası Şablonunu İndir",
@@ -31212,25 +32002,53 @@
     "internalLinks": [
       {
         "label": "Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Reklam raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "Hedef Kitle ve Persona Araştırması",
+        "href": "/tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi"
+      },
+      {
+        "label": "Organik ve Reklamlı Sosyal Medya Stratejisini Birlikte Planlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak"
+      },
+      {
+        "label": "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi",
+        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi"
+      },
+      {
+        "label": "SMM Reels ve Video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "SEM Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM Planlama ve Strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi",
+        "href": "/tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi"
       },
       {
-        "title": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "title": "Organik ve Reklamlı Sosyal Medya Stratejisini Birlikte Planlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak"
+      },
+      {
+        "title": "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi",
+        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi"
       }
     ],
     "sections": [
@@ -31244,7 +32062,7 @@
           },
           {
             "type": "p",
-            "text": "Kanal stratejisinin ilk adımı “rol tanımı”dır. Rol tanımı yoksa her kanal aynı içeriği taşır, ekip yorulur, ölçüm karışır. Rol tanımı, kanalın funnel’daki yerini de netleştirir: keşif mi, topluluk mu, arama mı, network mü?"
+            "text": "Kanal stratejisinin ilk adımı “rol tanımı”dır. Rol tanımı yoksa her kanal aynı içeriği taşır, ekip yorulur, ölçüm karışır. Rol tanımı, kanalın funnel’daki yerini de netleştirir: keşif mi, topluluk mu, arama mı, network mü? Bu ayrımı daha geniş planda okumak için [sosyal medya yönetimi içinde kanal hedefleri](/tr/sosyal-medya-yonetimi) yaklaşımı faydalıdır."
           },
           {
             "type": "h3",
@@ -31253,6 +32071,10 @@
           {
             "type": "p",
             "text": "Cevap : Kanal stratejisi; her platformun rolünü, hedefini ve KPI setini belirleyerek hangi içeriğin nerede, hangi tonda ve ne sıklıkla paylaşılacağını netleştirir. Böylece kopyala-yapıştır içerik azalır, performans ölçümü ve optimizasyon kolaylaşır."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki kritik nokta, Instagram, TikTok, LinkedIn ve YouTube hedefleri aynı KPI setine bağlanmadan önce kimin hangi kanalda daha doğal davrandığını anlamaktır. Bu yüzden [persona bazlı kanal seçimi](/tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi) olmadan rol tanımı eksik kalır."
           },
           {
             "type": "h3",
@@ -31302,7 +32124,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Strateji, platform kültürünü hesaba katmadan çalışmaz. Instagram “vitrin + ilişki”, TikTok “keşif + trend”, YouTube “niyet + arama + derinlik”, LinkedIn “iş bağlamı + otorite” gibi farklı davranışlar üretir. Bu fark, hedef ve içerik formatını doğrudan etkiler."
+            "text": "Strateji, platform kültürünü hesaba katmadan çalışmaz. Instagram “vitrin + ilişki”, TikTok “keşif + trend”, YouTube “niyet + arama + derinlik”, LinkedIn “iş bağlamı + otorite” gibi farklı davranışlar üretir. Bu fark, hedef ve içerik formatını doğrudan etkiler. Özellikle TikTok ve Instagram tarafında [kısa video odaklı kanal stratejisi](/tr/smm/reels-video) kararı izlenme süresi, hook ve dağıtım mantığını ayrı düşünmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -31356,7 +32178,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Hedef, rolün ölçülebilir hâlidir. Bu nedenle hedefleri kanala göre ayırmak gerekir. Örneğin TikTok’ta keşif hedefinde “lead” beklemek gerçekçi olmayabilir; YouTube’da “izlenme süresi” otoriteyi taşır; LinkedIn’de “meeting talebi” KPI olabilir."
+            "text": "Hedef, rolün ölçülebilir hâlidir. Bu nedenle hedefleri kanala göre ayırmak gerekir. Örneğin TikTok’ta keşif hedefinde “lead” beklemek gerçekçi olmayabilir; YouTube’da “izlenme süresi” otoriteyi taşır; LinkedIn’de “meeting talebi” KPI olabilir. Bu ayrım organik görünürlük ile ücretli büyümeyi birlikte düşündüğünüz [organik ve reklamlı kanal planlaması](/tr/smm/blog/organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak) içinde daha net hale gelir."
           },
           {
             "type": "h3",
@@ -31382,7 +32204,7 @@
           },
           {
             "type": "p",
-            "text": "Teknik not (sheet): Kanal stratejisi belirlenirken pixel, tag ve GA4 kanal eşleştirmelerinin doğru yapılması gerekir; aksi halde KPI raporlarında kanal katkısı karışır."
+            "text": "Teknik not (sheet): Kanal stratejisi belirlenirken pixel, tag ve GA4 kanal eşleştirmelerinin doğru yapılması gerekir; aksi halde KPI raporlarında kanal katkısı karışır. Özellikle medya tarafında [kanal bazlı reklam raporlaması](/tr/sem/reklam-raporlama) kurulmadan Instagram, TikTok, YouTube veya LinkedIn harcamasının gerçek katkısını okumak zorlaşır."
           },
           {
             "type": "callout",
@@ -31422,7 +32244,7 @@
           },
           {
             "type": "p",
-            "text": "Kanal stratejisi, içerik tonunu da belirler. Otel markasında IG “deneyim ve güven” tonu; TikTok “samimi ve hızlı”; YouTube “rehber ve detay”; LinkedIn (B2B) “kanıt ve karar” tonuna yakındır. Aynı fikri “format/ton/CTA” değiştirerek taşımak en verimli yöntemdir."
+            "text": "Kanal stratejisi, içerik tonunu da belirler. Otel markasında IG “deneyim ve güven” tonu; TikTok “samimi ve hızlı”; YouTube “rehber ve detay”; LinkedIn (B2B) “kanıt ve karar” tonuna yakındır. Aynı fikri “format/ton/CTA” değiştirerek taşımak en verimli yöntemdir. Bu adaptasyon sürecini hızlandırmak için [AI destekli kanal bazlı içerik takvimi](/tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi) yaklaşımıyla platform bazlı varyasyon üretmek oldukça işe yarar."
           },
           {
             "type": "h3",
@@ -31472,7 +32294,7 @@
           },
           {
             "type": "p",
-            "text": "Her markanın “ana kanalı” farklı olabilir. Otellerde Instagram çoğu zaman ana kanal, TikTok keşif kanalı, YouTube otorite kanalı olur. B2B’de LinkedIn ana kanal, YouTube otorite, Instagram employer brand/topluluk gibi ikincil rol alabilir. Kanal haritası; bütçeyi ve üretim kapasitesini doğru dağıtmayı sağlar."
+            "text": "Her markanın “ana kanalı” farklı olabilir. Otellerde Instagram çoğu zaman ana kanal, TikTok keşif kanalı, YouTube otorite kanalı olur. B2B’de LinkedIn ana kanal, YouTube otorite, Instagram employer brand/topluluk gibi ikincil rol alabilir. Kanal haritası; bütçeyi ve üretim kapasitesini doğru dağıtmayı sağlar. Sektörel kararda [otel için hangi sosyal medya kanalı](/tr/otel/sosyal-medya) sorusu genellikle hedef pazar, misafir profili ve rezervasyon niyetine göre cevaplanmalıdır."
           },
           {
             "type": "p",
@@ -31632,11 +32454,15 @@
             "text": "Otel markalarında Instagram topluluk ve güveni taşırken TikTok keşif, YouTube otorite üretebilir. B2B’de LinkedIn ana network ve güven kanalı olurken YouTube eğitim ve derin içerik desteği sağlar. Doğru kanal haritası, hem kaynak kullanımını hem performans ölçümünü netleştirir."
           },
           {
+            "type": "p",
+            "text": "Markanız için daha net bir [multi-kanal SMM stratejisi](/tr/smm/planlama-strateji) kurmak ve platform rolleri, KPI ayrımı, üretim kapasitesi ile medya kararlarını tek çerçevede toplamak istiyorsanız buradan ilerleyebilirsiniz. Kapsam, yöntem ve çalışma modeliyle ilgili karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfası da iyi bir sonraki adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kanal Stratejisi & Hedef Analizi Talep Et",
             "text": "Otel ve B2B ekipleri için kanalları rol-hedef-KPI bazında konumlandırıp kaynak dağılımını netleştirmek için.",
-            "href": "/smm/planlama-strateji"
+            "href": "/tr/smm/planlama-strateji"
           },
           {
             "type": "cta",
@@ -31688,14 +32514,15 @@
           "asset-checklist-card — Kanal önceliği checklist kartı"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü: /tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler",
+          "Canonical: /tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/smm/icerik-uretimi, /tr/sem/reklam-raporlama",
-          "Download asset linki kontrol edildi",
-          "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1+ kez",
-          "Tablo başlıkları ve rows alanları JSON uyumlu",
-          "Media slot isimleri mediaPack ile eşleşiyor",
-          "Pixel/tag ve GA4 kanal eşleştirme notları asset içine eklendi"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/instagram-tiktok-youtube-linkedin-kanal-haritasi-channel-map-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi, /tr/smm/blog/organik-ve-reklamli-sosyal-medya-stratejisini-birlikte-planlamak, /tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi, /tr/smm/reels-video, /tr/sem/reklam-raporlama, /tr/otel/sosyal-medya, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Platform rolleri, KPI ayrımı ve içerik tonu mevcut metin korunarak güçlendirildi",
+          "Multi-kanal SMM stratejisi anchor'ı sonuç bölümünde doğal CTA geçişi olarak eklendi",
+          "Otel için hangi sosyal medya kanalı anchor'ı yalnızca sektörel bölümde kullanıldı"
         ]
       }
     }
@@ -31806,7 +32633,7 @@
         "blocks": [
           {
             "type": "media",
-            "slot": "h1-context"
+            "slot": "h1-context-02"
           },
           {
             "type": "p",

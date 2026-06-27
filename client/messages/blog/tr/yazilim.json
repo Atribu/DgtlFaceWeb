@@ -19807,7 +19807,7 @@
    "BlogGorselStratejisiVeMedyaYonetimiKurumsalVeOtelWebSiteleriIcin": {
     "title": "Görsel Stratejisi ve DAM: Otel Web Siteleri",
     "slug": "gorsel-stratejisi-ve-medya-yonetimi-kurumsal-ve-otel-web-siteleri-icin",
-    "department": "software",
+    "department": "yazilim",
     "subDepartment":"website",
     "updatedAt": "20 Haziran 2026",
     "publishedAt": "2026-06-20",
@@ -20456,7 +20456,7 @@
   "BlogWebSiteGovernanceStyleGuideVeDegisiklikYonetimi": {
     "title": "Web Site Governance ve Change Management",
     "slug": "web-site-governance-style-guide-ve-degisiklik-yonetimi",
-    "department": "software",
+    "department": "yazilim",
     "subDepartment":"website",
     "updatedAt": "20 Haziran 2026",
     "publishedAt": "2026-06-20",
@@ -21090,7 +21090,7 @@
   "BlogSecurityByDesignKurumsalWebSitelerindeGuvenlikOdakliGelistirme": {
     "title": "Security by Design: Kurumsal Web Güvenliği",
     "slug": "security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme",
-    "department": "software",
+    "department": "yazilim",
     "subDepartment":"website",
     "updatedAt": "20 Haziran 2026",
     "publishedAt": "2026-06-20",
@@ -21717,7 +21717,7 @@
     "BlogGelistiriciVeSeoIsBirligiWebProjelerindeTeknikSeoYuSureceDahilEtmek": {
     "title": "Dev–SEO İş Birliği ve Teknik SEO QA Rehberi",
     "slug": "gelistirici-ve-seo-is-birligi-web-projelerinde-teknik-seo-yu-surece-dahil-etmek",
-    "department": "software",
+    "department": "yazilim",
     "subDepartment":"website",
     "updatedAt": "20 Haziran 2026",
     "publishedAt": "2026-06-20",
@@ -25784,6 +25784,1550 @@
           "Token versioning ve changelog süreci oluşturuldu",
           "Brand bazlı görsel regression test planı eklendi",
           "Yeni marka ekleme süresi KPI olarak takip edilecek şekilde tanımlandı"
+        ]
+      }
+    }
+  },
+
+   "BlogWebUygulamalarindaMikroFrontendMimarisiKurumsalVeB2BIcin": {
+    "title": "Mikro-Frontend Mimarisi: Kurumsal Portal Rehberi",
+    "slug": "web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Mikro-frontend’i takım yapısı ve modül sayısına göre seçin. Module federation, bağımsız deploy, SSR/SEO ve performans risklerini yönetin. Karar checklist’i içerir.",
+    "seo": {
+      "metaTitle": "Mikro-Frontend Mimarisi: Kurumsal Portal Rehberi | DGTLFACE",
+      "metaDescription": "Mikro-frontend’i takım yapısı ve modül sayısına göre seçin. Module federation, bağımsız deploy, SSR/SEO ve performans risklerini yönetin. Karar checklist’i içerir."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin"
+      ],
+      "strategySummary": "Bu içerik, “Web Sitesi Geliştirme” silo’sunda büyüyen portal/uygulamalarda mimari kararları netleştiren otorite taşıyan trend child rolünde: mikro-frontend’i “trend olduğu için” değil, takım yapısı + modül sayısı + bağımsız release ihtiyacı ile gerekçelendiren bir karar çerçevesine oturtur. Hedef persona ajans teknik lideri, kurumsal IT/ürün yöneticisi ve B2B portal ekipleridir; funnel’da consideration aşamasında “mikro-frontend gerekli mi, hangi kapsamla?” kararını kolaylaştırır. Ana iş sorusu: Modüler ekip sahipliği ve bağımsız deploy için mikro-frontend ne zaman doğru; ne zaman monolitik frontend daha verimli; SEO/SSR ve performans risklerini nasıl yönetirim?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Mikro-frontend, büyüyen kurumsal/B2B web uygulamalarında farklı modüllerin farklı ekiplerce bağımsız geliştirilebilmesini sağlar. Ancak yanlış uygulandığında karmaşıklığı artırır, performans ve debugging maliyetini yükseltir. Doğru yaklaşım; modül sayısı, takım sahipliği, bağımsız release ihtiyacı, SSR/SEO etkileri ve cache stratejisini birlikte değerlendirerek karar vermektir. “Trend” diye değil, ürün vizyonu gerçekten gerektiriyorsa uygulanmalıdır.",
+      "sgeSummary": "Mikro-frontend kararı için üçgen: takım yapısı, modül sayısı, bağımsız deploy ihtiyacı. Module federation mümkündür ama SEO/SSR ve performans risklerini QA ve standartlarla yönetmek gerekir.",
+      "voiceAnswer": "Büyüyen portalda mikro-frontend, ekipler bağımsız release edemiyorsa anlamlıdır; aksi halde gereksiz karmaşıktır.",
+      "aiFactSheet": [
+        "Hedef kitle: Kurumsal/B2B portal ürün sahipleri, tech lead, ajans yöneticileri",
+        "KPI: Bağımsız release sıklığı, modül teslim süresi, bundle boyutu/TTI, hata oranı, MTTR, ekip bağımsızlığı",
+        "Entity set: Micro-frontends, module federation, team ownership, SSR/SEO, portal architectures",
+        "GEO: Türkiye geneli; büyük kurumsal ve B2B portal ekipleri",
+        "Funnel: Consideration (mimari seçimi) → uygulama planı (POC + rollout)",
+        "Risk alanları: Bundle şişmesi, runtime uyumsuzluğu, SEO/SSR kırılması, gözlenebilirlik eksikliği",
+        "Çıktı: Mimari diyagram + ekip/modül sahipliği tablosu + uygunluk checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Web Uygulamalarında Mikro-Frontend Mimarisi: Kurumsal ve B2B İçin",
+      "intro": "Mikro-frontend, özellikle büyüyen kurumsal/B2B portallerde “tek bir dev ekibin her şeye yetişmesi” problemini çözmek için ortaya çıktı: dashboard, raporlama, rezervasyon, yönetim paneli gibi modüller farklı ekiplerce bağımsız geliştirilebilsin ve bağımsız yayınlanabilsin. Ama mikro-frontend aynı zamanda bir maliyet: daha fazla build/deploy parçacığı, daha karmaşık runtime, daha zor debugging ve yanlış kurgulanırsa daha kötü performans. Bu yüzden doğru soru “mikro-frontend trend mi?” değil; bizim takım yapımız ve ürün vizyonumuz bunu gerçekten gerektiriyor mu?",
+      "quickSummary": [
+        "1) Mikro-frontend kararını trend değil, takım yapısı ve modül bağımsızlığı üzerinden ver",
+        "2) Önce modül haritasını ve ekip sahipliğini çıkar",
+        "3) Monolit içinde modülerleşme yeterli mi, mikro-frontend gerçekten gerekli mi analiz et",
+        "4) SSR/SEO, bundle duplication, observability ve güvenlik risklerini POC’ta ölç",
+        "5) Tam geçiş yerine tek modül POC + QA gate + kontrollü rollout yaklaşımıyla ilerle"
+      ],
+      "ctaPrimary": {
+        "label": "Mikro-Frontend Mimari & Uygunluk Analizi Talep Et",
+        "text": "Portalınızda modül sayısı, ekip sahipliği, SSR/SEO ve performans risklerini birlikte değerlendirip mikro-frontend uygunluğunu netleştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mikro-Frontend Mimari & Uygunluk Analizi Talep Et",
+        "text": "Modül/ekip yapınızı ve SSR/SEO-performans risklerini değerlendirip doğru mimari kararını netleştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Mikro-Frontend Karar & Mimari Planlama Şablonunu İndir",
+        "text": "Modül/ekip haritasını çıkarır, riskleri puanlar ve POC sprint planına dönüştürürsünüz.",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Sunucu Güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Bakım ve Destek Süreci Nasıl Planlanır?",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "title": "Teknik SEO Nedir? SSR, CWV ve Indexlenebilirlik Temeli",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mikro-frontend-nedir",
+        "title": "Mikro-Frontend Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mikro-frontend; tek bir büyük frontend uygulamasını, işlevsel modüllere ayırıp farklı ekiplerin bu modülleri bağımsız geliştirebilmesi ve yayınlayabilmesi yaklaşımıdır. Bu yaklaşım, “team-aligned architecture” mantığıyla çalışır: ekipler ürünün bir bölümünden sorumludur, release ritmi ve hata sorumluluğu netleşir."
+          },
+          {
+            "type": "h3",
+            "text": "Mikro-frontend nedir, ne zaman gerekir?"
+          },
+          {
+            "type": "p",
+            "text": "Mikro-frontend; büyük bir web uygulamasının UI katmanını bağımsız modüllere bölmektir. Genellikle 3+ ekip, 5+ büyük modül ve sık/bağımsız release ihtiyacı varsa anlam kazanır. Küçük/orta ölçekli kurumsal sitelerde ise çoğu zaman gereksiz karmaşıklık üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2’den fazla ekip aynı frontend repo’sunda birbirini blokluyor mu?",
+              "Modüller (dashboard/rapor/rezervasyon) birbirinden bağımsız mı?",
+              "“Bağımsız deploy” iş hedefi mi, yoksa teknik merak mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Modül haritası çıkar: hangi ekranlar “ürün modülü” sayılıyor?",
+              "Ekip sahipliğini yaz: hangi modül kimin sorumluluğu?",
+              "Önce monolit içinde modülerleşme dene; sonra mikro-frontend’e karar ver"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "monolitik-frontendin-sinirlari",
+        "title": "Monolitik Frontend’in Sınırları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Monolitik frontend, tek repo/tek build/tek deploy ile yönetilir ve birçok kurum için hâlâ en verimli çözümdür. Sınır, genelde “teknoloji” değil “organizasyon” tarafında oluşur:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bir modülün release’i tüm uygulamanın release’ini etkiler",
+              "Bir ekibin değişikliği diğer ekibi bloklar",
+              "Test ve QA süresi uzar",
+              "Ownership belirsizleşir (“bu hatanın sahibi kim?”)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ancak monolitik yaklaşımın büyük artısı da vardır: runtime basittir, performans optimizasyonu daha kolaydır, SEO/SSR yönetimi tek noktadadır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Release süresi uzadığı için “sık deploy” yapamıyor musunuz?",
+              "Codebase’de “kimse dokunmasın” alanlar mı oluştu?",
+              "QA maliyeti büyüdü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Monolit içinde “bounded contexts” oluştur (route bazlı modül ayrımı)",
+              "Design system + shared component’ler ile tutarlılığı artır",
+              "Build time ve bundle analizini düzenli ölç (Varsayım: CI raporu)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kurumsal-ve-b2b-portallerde-mikro-frontend-senaryolari",
+        "title": "Kurumsal ve B2B Portallerde Mikro-Frontend Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mikro-frontend en çok “portal” türü ürünlerde anlam kazanır: farklı iş alanları, farklı ekipler, farklı release ritimleri."
+          },
+          {
+            "type": "h3",
+            "text": "Modül örnekleri (kurumsal/B2B)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard (özet KPI)",
+              "Raporlama ekranları",
+              "Yönetim paneli (admin)",
+              "Rezervasyon/işlem modülü (otel gruplarında)",
+              "Kullanıcı yönetimi / yetki ekranları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kurumsal/B2B web uygulamasında mikro-frontend mimarisi nasıl kurulur?"
+          },
+          {
+            "type": "p",
+            "text": "Önce modülleri ve ekip sahipliğini netleştirirsiniz (team ownership). Sonra ortak standartları belirlersiniz: tasarım token’ları, shared component library, auth/role, logging/monitoring. Ardından entegrasyon modelini seçersiniz: route-level composition (sayfa bazlı), module federation (runtime), ya da build-time composition. Son aşama, release/QA kapılarıdır: her modül bağımsız yayınlanabilir ama ortak kalite standardı korunur."
+          },
+          {
+            "type": "h3",
+            "text": "Competitor Gap – fark yaratan mini bölüm"
+          },
+          {
+            "type": "p",
+            "text": "Mikro-frontend trendi popüler; birçok projede “trend” olduğu için seçiliyor. Oysa kararın ana kriteri “takım yapısı ve ürün vizyonu”dur. Doğru kurulan yapılarda bağımsız release hızı artar; yanlış kurulanlarda debugging ve performans maliyeti yükselir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Modüller arası bağımlılık düşük mü, yoksa sıkı bağlı mı?",
+              "Ortak UI ve auth standardı hazır mı?",
+              "Observability (log/trace) olmadan mikro-frontend’e geçiyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 modül ile POC yap (ör. raporlama)",
+              "Ortak standartları kilitle: tokens/components/auth/logging",
+              "Sadece POC başarılıysa kapsamı genişlet"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "takim-bazli-sahiplik-ve-deployment",
+        "title": "Takım Bazlı Sahiplik ve Deployment",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mikro-frontend’in “asıl kazanımı”, sahiplik ve deployment tarafında gelir: her modülün sahibi ve release ritmi netleşir. Ancak bu, governance gerektirir: kim neyi bozarsa, kim düzeltir; versiyon uyumu nasıl korunur?"
+          },
+          {
+            "type": "h3",
+            "text": "Team ownership modeli"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Modül owner (takım)",
+              "Teknik owner (platform ekip)",
+              "UI owner (design system)",
+              "Security/Compliance owner (policy)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Deployment stratejisi (bağımsız ama kontrollü)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bağımsız build/deploy pipeline",
+              "Ortak kalite kapıları (lint/test/seo/perf)",
+              "Versiyon uyumu (shared libs)",
+              "Rollback planı (modül bazlı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): Doğru kurulan mikro-frontend yapılarında yeni modül geliştirme ve bağımsız release hızının arttığı; yanlış kurulanlarda debugging ve performans maliyetlerinin yükseldiği raporlanıyor. (Bu veri noktası abartısız biçimde içerikte kullanıldı.)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo – Ekip/Modül Sahipliği (Örnek)",
+            "headers": [
+              "Modül",
+              "Owner Ekip",
+              "Deploy Bağımsız mı?",
+              "Kritik Risk",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Dashboard",
+                "Team A",
+                "Evet",
+                "data contract",
+                "ortak API sözleşmesi"
+              ],
+              [
+                "Raporlama",
+                "Team B",
+                "Evet",
+                "performans",
+                "bundle budget"
+              ],
+              [
+                "Yönetim Paneli",
+                "Team C",
+                "Evet",
+                "güvenlik",
+                "RBAC + audit log"
+              ],
+              [
+                "Auth/Platform",
+                "Platform Team",
+                "Hayır (çekirdek)",
+                "kırılma riski",
+                "ortak katman"
+              ],
+              [
+                "UI Kit",
+                "Design System Team",
+                "Hayır (çekirdek)",
+                "tutarlılık",
+                "token/variant"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her modülün CI/CD pipeline’ı var mı?",
+              "Shared dependency versiyonları kontrol altında mı?",
+              "Rollback “modül bazlı” yapılabiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Modül release’lerini “platform gate” ile güvenceye al",
+              "Shared package’lar için semver + changelog uygula (Varsayım)",
+              "Staging ortamında “entegre smoke test” koştur"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "seo-ve-performans-perspektifi",
+        "title": "SEO ve Performans Perspektifi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mikro-frontend portallerde genelde SEO “ikincil” görülür; ama kurum sitelerinde bazı modüller indexlenebilir sayfalar içerebilir. Ayrıca performans (bundle, runtime, cache) her zaman kritiktir."
+          },
+          {
+            "type": "h3",
+            "text": "SEO ve performans açısından mikro-frontend riskleri nelerdir?"
+          },
+          {
+            "type": "p",
+            "text": "Riskler üç başlıkta toplanır: (1) SSR/SEO kırılması (client-only render, yanlış canonical/head), (2) performans kaybı (bundle duplication, fazla runtime, geç yükleme), (3) gözlenebilirlik zayıflığı (hata kökenini bulamama). Bunlar, doğru composition modeli, shared dependency disiplini, SSR stratejisi ve QA kapılarıyla yönetilebilir."
+          },
+          {
+            "type": "h3",
+            "text": "SSR/SEO etkilerini yönetmek"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Indexlenmesi gereken sayfalar için SSR/SSG/edge planı (Varsayım)",
+              "Head/meta/schema yönetimini ortak katmanda standardize et",
+              "Route bazlı split ve cache stratejisi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Performans disiplini (bundle/duplication)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Shared libs tekilleştirme (module federation’da kritik)",
+              "Lazy-load ve route-level code splitting",
+              "CWV etkisini ölçme (LCP/INP/CLS)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Technical SEO Notu",
+            "items": [
+              "Mikro-frontend yapısının güvenlik, bakım ve SSR/SEO etkileri birlikte düşünülmelidir.",
+              "Bu nedenle /tr/seo/teknik-seo, /tr/yazilim/sunucu-guvenlik ve /tr/yazilim/bakim-ve-destek ile birlikte planlanması önerilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Indexlenebilir sayfalar SSR ile geliyor mu?",
+              "Bundle duplication ölçülüyor mu?",
+              "Modül bazlı performans budget var mı? (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "POC’ta ilk ölçüm: bundle boyutu + CWV",
+              "Head/schema yönetimini “platform layer”a al",
+              "Release öncesi “perf + SEO QA” gate koy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ne-zaman-mikro-frontend-kullanmali-ne-zaman-kullanmamali",
+        "title": "Ne Zaman Mikro-Frontend Kullanmalı, Ne Zaman Kullanmamalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Karar matrisini basitleştirelim: mikro-frontend bir organizasyon mimarisidir. Ekip sayısı, modül bağımsızlığı ve release ihtiyacı yoksa, çoğu zaman zarar verir."
+          },
+          {
+            "type": "h3",
+            "text": "Mikro-frontend mantıklıysa (işaretler)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "3+ bağımsız ekip",
+              "5+ büyük modül",
+              "Modüller arası bağımlılık düşük",
+              "Sık release ve bağımsız yayın ihtiyacı",
+              "Platform engineering / governance kapasitesi var"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mikro-frontend gereksizse (kırmızı bayraklar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek ekip veya küçük ekip",
+              "Modüller çok bağlı (aynı state, aynı domain)",
+              "Observability yok",
+              "“Hızlanalım” bahanesiyle karmaşıklık ekleniyor"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bu karar “organizasyon ihtiyacı” mı, “trend” mi?",
+              "Platform owner var mı?",
+              "POC ile ölçüm yapmadan tam geçiş mi planlanıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce “monolit modülerleşmesi”ni dene",
+              "Tek modül POC ile başla; 30 gün ölç",
+              "Kazanç netse roadmap ile yaygınlaştır"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mikro-Frontend Mimari & Uygunluk Analizi Talep Et",
+            "text": "Kurumunuzun ekip yapısı ve modül haritasına göre doğru mimariyi seçip uygulanabilir geçiş planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mikro-Frontend Karar & Mimari Planlama Şablonunu İndir",
+            "text": "Modül/ekip haritasını çıkarır, riskleri puanlar ve POC sprint planına dönüştürürsünüz.",
+            "href": "/tr/yazilim/bakim-ve-destek"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "mikro-frontend-karar-mimari-planlama-sablonu",
+        "title": "Mikro-Frontend Karar & Mimari Planlama Şablonunu İndir — Yazılım / Micro-Frontend",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Mikro-Frontend Karar & Mimari Planlama Şablonunu İndir — Yazılım / Micro-Frontend (v1.0)",
+            "purpose": "Bu şablon, mikro-frontend kararını “trend” yerine ölçülebilir kriterlerle (takım yapısı, modül sayısı, bağımsız deploy ihtiyacı, SSR/SEO riskleri, performans budget) vermenizi sağlar. Modül/ekip sahipliğini netleştirip bir POC kapsamı çıkarır ve release/QA kapılarını planlar. Yanlış kurulumda artan debugging ve performans maliyetini azaltmak için “platform standartları” bölümünü zorunlu tutar.",
+            "whoFor": "Tech lead, platform engineering, product owner, SEO/performance, DevOps/QA.",
+            "steps": [
+              "Modül ve ekip haritasını çıkarın; bağımlılıkları işaretleyin.",
+              "Karar kriterlerini puanlayın ve “monolit/modüler monolit/mikro-frontend” seçimini yapın.",
+              "POC sprint planını (14 gün) uygulayıp performans+SEO QA sonuçlarına göre ölçekleyin."
+            ],
+            "template": {
+              "emptyFields": [
+                {
+                  "title": "1) Ürün/Portal Haritası",
+                  "items": [
+                    "Modüller: __________________________",
+                    "Modüller arası bağımlılıklar: __________________________",
+                    "Kritik akışlar (login/rapor): __________________________"
+                  ]
+                },
+                {
+                  "title": "2) Takım Yapısı",
+                  "items": [
+                    "Ekip sayısı: ___",
+                    "Ekiplerin sahipliği: __________________________",
+                    "Release bağımsızlığı ihtiyacı: [ ] düşük [ ] orta [ ] yüksek"
+                  ]
+                },
+                {
+                  "title": "3) Karar Puanlama (1–5)",
+                  "items": [
+                    "Modül sayısı ve bağımsızlık: __",
+                    "Deploy sıklığı ihtiyacı: __",
+                    "Platform/observability olgunluğu: __",
+                    "SEO/SSR gereksinimi: __",
+                    "Performans budget disiplini: __",
+                    "Toplam: __ / 25 → Karar: [ ] Monolit [ ] Modüler monolit [ ] Mikro-frontend"
+                  ]
+                },
+                {
+                  "title": "4) Mimari Seçim",
+                  "items": [
+                    "Composition: [ ] route-level [ ] module federation [ ] build-time",
+                    "Shared libs: __________________________",
+                    "Auth/UI platform katmanı: __________________________"
+                  ]
+                },
+                {
+                  "title": "5) SEO & SSR Notları",
+                  "items": [
+                    "Indexlenebilir sayfalar: __________________________",
+                    "SSR stratejisi: __________________________",
+                    "Head/schema standardı: __________________________"
+                  ]
+                },
+                {
+                  "title": "6) QA Gate",
+                  "items": [
+                    "perf test (bundle/CWV)",
+                    "SEO QA (canonical/robots/schema)",
+                    "security gate (RBAC/secrets)",
+                    "rollback planı"
+                  ]
+                }
+              ],
+              "rules": [
+                "Mikro-frontend kararı önce “takım ve modül” ile verilir, teknoloji sonra gelir.",
+                "Shared katman (auth + UI kit) netleşmeden mikro-frontend’e geçmeyin.",
+                "POC olmadan “tam geçiş” yapmayın; ölçümle ilerleyin.",
+                "Performans budget olmadan modüller zamanla şişer; budget koyun.",
+                "SEO/SSR etkisini en baştan planlayın; sonradan düzeltmek pahalıdır."
+              ],
+              "filledExample": [
+                "Modüller: dashboard + raporlama + admin",
+                "Karar: modüler monolit → 1 modülle micro-frontend POC",
+                "Gate: bundle budget + SEO smoke test + RBAC"
+              ],
+              "checklist": [
+                "Modül/ekip haritası tamam",
+                "Karar puanlaması yapıldı",
+                "POC kapsamı seçildi",
+                "QA gate tanımlı",
+                "Rollback planı var"
+              ],
+              "deliverables": [
+                "Modül/ekip sahipliği tablosu",
+                "Mimari karar dokümanı",
+                "POC raporu (before/after)",
+                "QA gate checklist",
+                "Buraya: Mimari diyagram görseli",
+                "Buraya: Ekip sahipliği tablo görseli"
+              ]
+            },
+            "href": "/downloads/mikro-frontend-karar-mimari-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Mikro-frontend kararını teknoloji değil, organizasyon ihtiyacı belirler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mikro-frontend, büyüyen kurumsal/B2B portaller için güçlü bir ölçekleme yaklaşımı olabilir; ancak yalnızca modül sayısı, ekip sahipliği ve bağımsız release ihtiyacı gerçekten belirginse anlamlıdır. Aksi durumda monolitik ya da modüler monolit yapı daha az karmaşık ve daha verimli olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Sağlıklı karar için önce modül/ekip haritası çıkarılmalı, shared UI/auth/logging standartları belirlenmeli ve tek modül POC ile performans, SEO/SSR, güvenlik ve deployment etkileri ölçülmelidir. Kazanç netleşirse mikro-frontend roadmap ile kontrollü biçimde yaygınlaştırılmalı; her modül ortak QA gate ve platform standartlarıyla yönetilmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mikro-Frontend Mimari & Uygunluk Analizi Talep Et",
+            "text": "Modül/ekip yapınızı ve SSR/SEO-performans risklerini değerlendirip doğru mimari kararını netleştirelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Mikro-frontend nedir, ne zaman gerekir?",
+        "a": "UI’ı bağımsız modüllere bölüp farklı ekiplerin bağımsız geliştirme ve yayın yapabilmesini sağlayan yaklaşımdır. Genelde 3+ ekip ve bağımsız release ihtiyacı belirginse anlamlıdır."
+      },
+      {
+        "q": "Kurumsal/B2B web uygulamasında mikro-frontend mimarisi nasıl kurulur?",
+        "a": "Modül haritası ve ekip sahipliğini çıkarıp ortak standartları (UI kit, auth, logging) belirleyerek başlarsınız. Sonra composition modelini seçer, CI/CD ve QA gate ile kontrollü yayınlar yaparsınız."
+      },
+      {
+        "q": "SEO ve performans açısından mikro-frontend riskleri nelerdir?",
+        "a": "SSR/SEO kırılması, bundle duplication ve runtime karmaşıklığı başlıca risklerdir. Head/schema yönetimi, performans budget ve release QA gate ile yönetilebilir."
+      },
+      {
+        "q": "Takım bazlı sahiplik ve deployment nasıl yönetilir?",
+        "a": "Her modülün owner ekibi, CI/CD pipeline’ı ve rollback prosedürü olmalıdır. Platform ekip shared katmanı yönetir; kalite kapıları ortak tutulur."
+      },
+      {
+        "q": "Module federation şart mı?",
+        "a": "Hayır. Route-level composition veya build-time composition da seçeneklerdir. Seçim; bağımsız deploy ihtiyacı ve runtime maliyetine göre yapılır."
+      },
+      {
+        "q": "Mikro-frontend ne zaman kullanılmamalı?",
+        "a": "Tek ekipli veya düşük modül sayılı projelerde, modüller sıkı bağlıysa ve observability zayıfsa mikro-frontend gereksiz karmaşıklık yaratır."
+      },
+      {
+        "q": "Mikro-frontend ile güvenlik riskleri artar mı?",
+        "a": "Dağınık sahiplik ve farklı pipeline’lar risk yaratabilir; RBAC, secrets yönetimi, güvenlik gate ve merkezi logging ile kontrol altına alınmalıdır."
+      },
+      {
+        "q": "İlk adım ne olmalı?",
+        "a": "Tam geçiş yerine tek modül POC yapın; bağımsız release ve performans kazanımını ölçün, sonra ölçekleyin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-hero-01.webp — alt text: “Mikro-frontend mimarisi + karar desteği + B2B portal bağlamı, ekip ölçekleme”",
+          "h1-context — 1920×1080 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-h1-context-02.webp — alt text: “Kurumsal portal modülleri + bağımsız deploy + SEO/SSR dengesi, otel/B2B bağlamı”",
+          "divider-01 — 1600×1200 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-divider-03.webp — alt text: “Mikro-frontend tanımı + amaç + kurumsal portal bağlamı, ekip ölçekleme”",
+          "divider-02 — 1600×1200 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-divider-04.webp — alt text: “Takım sahipliği + deployment süreçleri + kurumsal portal bağlamı, kontrollü ölçekleme”",
+          "diagram-05 — 1920×1080 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-diagram-05.webp — alt text: “Mikro-frontend vs monolitik mimari diyagramı, portal modüllerinde ölçeklenebilir yapı”",
+          "checklist-06 — 1200×1200 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-checklist-06.webp — alt text: “Mikro-frontend uygunluk checklist’i + karar desteği + B2B portal bağlamı”",
+          "kpi-07 — 1200×1200 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-kpi-07.webp — alt text: “Bağımsız release hızı KPI kartı + portal geliştirme verimliliği + kurumsal bağlam”",
+          "proof-08 — 1200×1200 — web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin-proof-08.webp — alt text: “Mikro-frontend mimari deliverables kartı + POC planı + bakım süreci”",
+          "table-ekip-modul-sahipligi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Modül haritası çıkarıldı",
+          "Ekip sahipliği ve owner modeli belirlendi",
+          "Monolit / modüler monolit / mikro-frontend karar puanlaması yapıldı",
+          "Tek modül POC kapsamı seçildi",
+          "Composition modeli değerlendirildi: route-level, module federation veya build-time",
+          "Shared UI kit, auth, logging ve platform katmanı standartları belirlendi",
+          "SSR/SEO etkileri için head, canonical, schema ve indexlenebilirlik kontrolleri planlandı",
+          "Bundle duplication ve performans budget ölçüm süreci eklendi",
+          "CI/CD, rollback ve modül bazlı release gate tanımlandı",
+          "RBAC, secrets ve güvenlik gate gereksinimleri planlandı",
+          "Observability/log/trace altyapısı değerlendirme kapsamına alındı"
+        ]
+      }
+    }
+  },
+
+  "BlogObservabilityVeLoggingKurumsalWebSitelerindeIzlenebilirlikStratejisi": {
+    "title": "Web Observability ve RUM: İzlenebilirlik Rehberi",
+    "slug": "observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi",
+    "department": "yazilim",
+    "subDepartment":"website",
+    "updatedAt": "26 Haziran 2026",
+    "publishedAt": "2026-06-26",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Log–metric–trace ve RUM’u birlikte kurgulayın. CWV, JS hataları, rezervasyon/lead drop ve performans alarmı kurun. Otel/B2B için dashboard + checklist.",
+    "seo": {
+      "metaTitle": "Web Observability ve RUM: İzlenebilirlik Rehberi | DGTLFACE",
+      "metaDescription": "Log–metric–trace ve RUM’u birlikte kurgulayın. CWV, JS hataları, rezervasyon/lead drop ve performans alarmı kurun. Otel/B2B için dashboard + checklist."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi",
+        "Blog Tipi: Trend",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, “Web Sitesi Geliştirme” silo’sunda canlı operasyonu “tahmin” olmaktan çıkarıp ops-friendly analytics + experience-led monitoring yaklaşımına taşıyan otorite trend child’dır. Hedef persona; otel/B2B tarafında ürün/proje sahibi, ajans teknik lideri ve operasyon ekibidir; funnel’da consideration aşamasında “hangi izleme katmanlarını kurmalıyım, neyi nasıl alarm’lamalıyım?” kararını kolaylaştırır. Ana iş sorusu: “Bozuldu mu?”dan öte “neden bozuldu, kaç kişiyi etkiledi ve ne zaman başladı?” sorularını log+metric+trace+RUM ile nasıl cevaplarım ve bunu iş KPI’larıyla nasıl bağlarım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-26",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Observability, kurumsal web’de “bozuldu mu?” sorusuna ek olarak “neden bozuldu, kaç kişiyi etkiledi ve ne zaman başladı?” sorularını cevaplar. Bunun için log, metric ve trace katmanlarını; gerçek kullanıcı verisi (RUM: CWV, JS hataları, etkileşim) ile birleştirmek gerekir. Otel projelerinde rezervasyon hataları ve drop noktaları; B2B’de dashboard performansı ve alert eşikleri kritik izleme senaryolarıdır. Doğru kurgu, hızlı teşhis ve kontrollü müdahale sağlar.",
+      "sgeSummary": "Observability = log+metric+trace + RUM. Hata nerede başladı, kaç kullanıcı etkilendi? CWV/JS error ve funnel drop’ları izleyin; dashboard+alert eşikleriyle hızlı müdahale edin.",
+      "voiceAnswer": "Site ara ara çöküyorsa log+metric+RUM kurun; hatayı, etkilediği kullanıcıyı ve başlangıç anını görün.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans teknik lideri, dev/ops, otel e-commerce/revenue, B2B ürün/IT",
+        "KPI: Incident süresi (MTTR), error rate, CWV trendi, rezervasyon/lead drop-off, uptime/latency",
+        "Entity set: Observability, Logging, Metrics, Tracing, RUM, CWV, Alerts, Dashboarding",
+        "GEO: Türkiye geneli; uptime ve deneyim kritik otel/rezervasyon & B2B portal projeleri",
+        "Funnel: MoFu (kurulum planı) → BoFu (operasyonel hız ve güven)",
+        "Risk alanları: PII sızıntısı (log), alert fatigue, eksik korelasyon ID, ölçüm maliyeti, “sadece backend” izleme",
+        "Çıktı: İzlenebilirlik modeli + dashboard seti + eşik matrisi + planlama şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Observability ve Logging: Kurumsal Web Sitelerinde İzlenebilirlik Stratejisi",
+      "intro": "Kurumsal web sitelerinde problem genelde “hiç çalışmıyor” diye başlamaz; ara ara başlar: bazı kullanıcılarda sayfa geç açılır, bazı cihazlarda JS hatası çıkar, bazı rezervasyonlar ödeme adımında düşer, bazı B2B dashboard’lar akşam saatlerinde yavaşlar. Bu yüzden sadece sunucu log’una bakmak yetmez. Observability; log+metric+trace ile sistemin teknik sağlığını, RUM (Real User Monitoring) ile gerçek kullanıcı deneyimini birlikte izler; böylece “sorun var”ı değil, sorunun kök nedenini ve iş etkisini görürsünüz.",
+      "quickSummary": [
+        "1) Log, metric, trace ve RUM katmanlarını birlikte kurgula",
+        "2) Frontend ve backend sinyallerini tek izlenebilirlik modelinde birleştir",
+        "3) CWV, JS error, funnel drop ve latency metriklerini iş KPI’larına bağla",
+        "4) Alert eşiklerini kurum baseline’ına göre kalibre et",
+        "5) Go-live sonrası 60 dakika gözlem ve haftalık observability review rutini kur"
+      ],
+      "ctaPrimary": {
+        "label": "Web Observability & Logging Yapı Analizi Talep Et",
+        "text": "Log/metric/trace ve RUM katmanınızı otel/B2B senaryonuza göre tasarlayıp dashboard+alert eşiklerini birlikte kuralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Web Observability & Logging Yapı Analizi Talep Et",
+        "text": "Log/metric/trace+RUM mimarinizi kurup otel/B2B senaryolarına uygun dashboard ve alarm setini birlikte tasarlayalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Web Sitesi İzlenebilirlik (Log/Metric/RUM) Planlama Şablonunu İndir",
+        "text": "İzleme sinyallerini, alarm eşiklerini ve runbook’u tek dokümana döküp sprint planına çevirirsiniz.",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Sunucu Güvenlik",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sunucu Güvenlik: Log, Erişim ve Operasyonel Risk Yönetimi",
+        "href": "/tr/yazilim/sunucu-guvenlik"
+      },
+      {
+        "title": "Satış ve Dönüşüm Raporlama ile Rezervasyon/Lead Takibi",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "sections": [
+      {
+        "id": "observability-nedir-log-metric-trace",
+        "title": "Observability Nedir? (Log, Metric, Trace)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Observability, monitoring’in “ileri versiyonu” gibi düşünülür ama farkı şudur: monitoring size “ne oldu?”yu söyler; observability “neden oldu?”yu bulmanızı kolaylaştırır. Bunun için üç teknik sinyal + bir kullanıcı katmanı gerekir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Log: Olay kaydı (ne hata verdi, hangi parametreyle?)",
+              "Metric: Sayısal sinyal (error rate, latency, throughput, saturation)",
+              "Trace: İstek zinciri (frontend → API → servis → DB)",
+              "RUM: Gerçek kullanıcı deneyimi (CWV, JS errors, etkileşim, drop noktaları)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Observability nedir, logging’den farkı nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Logging, olayları kaydetmektir; observability ise log+metric+trace ve RUM’u birleştirip bir olayın kök nedenini ve kullanıcı etkisini ortaya çıkarmaktır. Tek başına log, “hata var” der; observability “bu hata şu release’ten sonra başladı, şu kullanıcı segmentini etkiliyor, şu endpoint’te yoğunlaşıyor” diyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Log, metric ve RUM ayrı ayrı var ama birbirine bağlanmıyor mu?",
+              "Bir hatayı “kullanıcı etkisi” ile görebiliyor musunuz?",
+              "Debugging süresi (MTTR) uzuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce “Altın sinyaller”i belirle: latency, traffic, errors, saturation",
+              "Her kritiğe RUM ekle: CWV + JS error + drop noktası",
+              "Log’lara correlation ID ekleyip tüm katmanlarda taşı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "frontend-ve-backend-tarafinda-neleri-izlemeliyiz",
+        "title": "Frontend ve Backend Tarafında Neleri İzlemeliyiz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal web’de “sorun” iki yerde görünür: kullanıcı ekranında ve backend’de. Bu yüzden izleme listesi iki taraflı olmalı."
+          },
+          {
+            "type": "h3",
+            "text": "Frontend izleme (RUM + client signals)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CWV: LCP/INP/CLS trendi (sayfa tipi bazında)",
+              "JS errors: hata türü + tarayıcı/cihaz + release versiyonu",
+              "Network errors: timeout, 5xx, DNS, CORS (Varsayım)",
+              "User actions: kritik CTA tıklamaları, form submit, rezervasyon adımı",
+              "Session context: sayfa tipi, ülke/dil, cihaz (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Backend izleme (API/servis sinyalleri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Error rate: 4xx/5xx ayrımı",
+              "Latency: p50/p95/p99",
+              "Throughput: istek sayısı",
+              "Saturation: CPU/mem, DB bağlantı havuzu (Varsayım)",
+              "Dependency health: üçüncü parti (ödeme, CRM, OTA) hataları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Frontend hata var ama backend temiz” senaryosunu görebiliyor musunuz?",
+              "p95 latency yükselince alarm var mı?",
+              "Üçüncü parti bağımlılıklar ayrı izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Frontend: JS error + CWV + kritik action event’lerini “tek panel”de topla",
+              "Backend: golden signals dashboard kur (p95, error rate, throughput)",
+              "Dependency’leri ayrı alarm’la (ödeme/CRM/OTA)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-deneyimi-rum-ve-teknik-saglik",
+        "title": "Kullanıcı Deneyimi (RUM) ve Teknik Sağlık",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir site “ayakta” olabilir ama kullanıcı için “işe yaramaz” olabilir. Bu yüzden RUM, teknik sağlığın üstüne “işe yararlılık” katmanı ekler. RUM’u doğru kurgulamazsanız, sadece sentetik testlere bakıp gerçek kullanıcıyı kaçırabilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "RUM metrikleri (CWV + davranış sinyalleri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CWV: sayfa tipi + cihaz + ağ kalitesi kırılımı",
+              "JS errors: error fingerprint + release etiketi",
+              "Interaction: tıklama gecikmesi, form completion",
+              "Drop noktaları: funnel step drop (otel: ödeme; B2B: form submit)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik sağlık metrikleri (ops-friendly)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Incident sayısı / MTTR",
+              "Release sonrası hata artışı",
+              "Alert doğruluğu: kaç “false positive”?",
+              "Log kalite: PII sızıntısı var mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet): İyi kurgulanmış observability yapısına sahip projelerde, ciddi hatalar çoğu zaman kullanıcı şikâyetine gerek kalmadan log/metric/alert kombinasyonuyla fark edilebiliyor. (Bu veri noktası abartısız şekilde kullanıldı.)"
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RUM verisi “iş etkisi” ile bağlanıyor mu (rezervasyon/lead)?",
+              "Release sonrası ilk 60 dakika “gözlem penceresi” var mı?",
+              "Alert fatigue (çok alarm, az değer) yaşanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "RUM’u “sayfa” değil “görev” bazında izle (rezervasyon/lead)",
+              "Release sonrası 60 dakika “war room lite” rutini koy",
+              "Alarm’ları azalt: kritik 5 metrik + kritik 5 senaryo"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-izlenebilirlik-senaryolari",
+        "title": "Otel ve B2B İçin İzlenebilirlik Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Observability’nin değeri, “genel dashboard” değil, senaryo bazlı alarmdır. Otel ve B2B’de en kritik senaryolar farklıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları (rezervasyon hataları + drop noktaları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon adım bazında drop (tarih → oda → fiyat → ödeme)",
+              "Ödeme sağlayıcı hataları (Varsayım: 3DS/timeout)",
+              "Call/WhatsApp tıklaması artıyor ama rezervasyon düşüyorsa: UX friksiyonu",
+              "Kampanya landing’lerinde CWV bozulması (LCP yükselişi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryoları (dashboard/performance alert’leri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard p95 latency artışı",
+              "Rapor export hataları (Varsayım)",
+              "Login hataları / session expiry artışı",
+              "Lead form submit düşüşü + JS error artışı (frontend kaynaklı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kurumsal web sitesinde hangi log ve metrikleri izlemeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Minimum set: error rate (4xx/5xx), latency (p95), request throughput, dependency error’ları ve RUM (CWV + JS error + kritik funnel event’leri). Otelde rezervasyon/ödeme adımları; B2B’de dashboard/login/lead event’leri “iş KPI” olarak izlenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelde rezervasyon adımları event bazında ölçülüyor mu?",
+              "B2B’de dashboard p95 ve error rate alarm’ı var mı?",
+              "Üçüncü parti bağımlılıklar ayrı panelde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: “Rezervasyon Sağlık Paneli” kur (drop + ödeme hatası + CWV)",
+              "B2B: “Portal Sağlık Paneli” kur (login + p95 + JS error)",
+              "Her iki paneli iş KPI’larıyla bağla (/tr/raporlama/satis-donusum)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "log-seviyeleri-korelasyon-ve-pii-guvenligi",
+        "title": "Log Seviyeleri, Korelasyon ve PII Güvenliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Logging, “ne kadar çok log o kadar iyi” değildir. Kaliteli log; doğru seviyede, doğru bağlamla ve PII sızdırmadan tutulur. Ayrıca log’un tek başına anlamlı olması için korelasyon gerekir: aynı isteğin frontend event’i, backend request’i ve third-party çağrısı aynı “trace/correlation ID” ile bağlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Log seviyeleri (error/warn/info) ve pratik kural"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "error: kullanıcıyı etkileyen arızalar (alarm tetikleyebilir)",
+              "warn: riskli ama servis devam ediyor (trend izlenir)",
+              "info: operasyonel iz (sınırlı, maliyet kontrollü)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "PII/KVKK ve log güvenliği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Form verilerini log’a yazma (Varsayım: maskeleme)",
+              "Token/şifre gibi secrets asla log’lanmaz",
+              "Log erişimi RBAC ile sınırlandırılır",
+              "Saklama süresi (retention) politika ile belirlenir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Technical SEO + Güvenlik Notu",
+            "items": [
+              "İzleme yapısı, log güvenliği ve erişim kontrolü nedeniyle /tr/yazilim/sunucu-guvenlik ile birlikte planlanmalıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Log’larda PII var mı (telefon/e-posta)?",
+              "Correlation ID her katmanda var mı?",
+              "Log retention ve erişim politikası yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Log şemasını standardize et (fields: release, env, user_segment, correlation_id)",
+              "PII maskeleme kuralı koy",
+              "“Log maliyet budget” belirle (gereksiz info log’u kes)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dashboard-ve-alert-tasarimi",
+        "title": "Dashboard ve Alert Tasarımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Observability’nin son adımı “dashboard çöplüğü” olmamalı. En iyi yaklaşım: 3 katman dashboard + 2 katman alarm."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Executive/Business: Rezervasyon/lead sağlık + drop + revenue proxy (Varsayım)",
+              "Ops/Technical: golden signals + dependency health",
+              "Debug: trace ve hata drill-down"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Alert Eşikleri ve Aksiyon Matrisi (Bu içerikteki tek tablo)",
+            "headers": [
+              "Alarm",
+              "Eşik",
+              "Kim Aksiyon Alır?",
+              "İlk 10 Dakika Aksiyonu"
+            ],
+            "rows": [
+              [
+                "Rezervasyon/Lead drop",
+                "%X düşüş (Varsayım: baseline’a göre)",
+                "Ürün+Ops",
+                "Release var mı? Event çalışıyor mu?"
+              ],
+              [
+                "5xx error rate",
+                "%1+ (Varsayım)",
+                "DevOps/Backend",
+                "Rollback/mitigation, dependency check"
+              ],
+              [
+                "p95 latency",
+                "%Y artış (Varsayım)",
+                "Backend/Platform",
+                "Cache/DB/dependency kontrol"
+              ],
+              [
+                "JS error spike",
+                "release sonrası artış",
+                "Frontend",
+                "Rollback/feature flag (Varsayım)"
+              ],
+              [
+                "CWV (LCP) bozulma",
+                "kritik sayfalarda trend",
+                "FE+Perf",
+                "Görsel/JS değişimi var mı?"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Varsayım",
+            "items": [
+              "Eşik değerleri kurumun baseline’ına göre kalibre edilmelidir; “tek sayı herkese uymaz”."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alarmlar aksiyon üretiyor mu, yoksa bildirim gürültüsü mü?",
+              "“Kim aksiyon alır?” satırı net mi?",
+              "Alarm sonrası runbook var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Alarm sayısını sınırlı tut: kritik 10 alarm ile başla",
+              "Her alarm için runbook yaz: triage → mitigation → verify",
+              "İş KPI panelini teknik panelle aynı sayfada ilişkilendir (/tr/raporlama/satis-donusum)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "go-live-ve-surekli-iyilestirme-rutini",
+        "title": "Go-Live ve Sürekli İyileştirme Rutini",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Observability kurulduktan sonra “bitti” değildir. Araçlar, CWV tanımları ve stack değiştikçe eşikler ve dashboard’lar güncellenmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Refresh notu (sheet): APM/RUM araçları, log altyapıları ve CWV tanımları geliştikçe diyagramlar ve eşikler güncellenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Release sonrası kontrol (60 dakika kuralı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 15 dk: error rate + login/rezervasyon smoke",
+              "15–30 dk: p95 latency + dependency health",
+              "30–60 dk: RUM (CWV, JS errors) trend"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Haftalık “observability review” (30 dk)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En çok hata üreten 5 endpoint",
+              "En çok drop olan 2 adım",
+              "En çok alarm üreten 3 kural (gerekirse kaldır)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Go-live sonrası “izleme penceresi” rutin mi?",
+              "Haftalık review var mı?",
+              "Dashboard’lar yaşayan doküman mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Roadmap’e observability bakım sprint’i ekle (ayda 1)",
+              "Alarm eşiklerini “baseline” ile güncelle",
+              "Observability çıktısını iş raporlamasına bağla (/tr/veri-analiz-ve-raporlama)"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Observability & Logging Yapı Analizi Talep Et",
+            "text": "Log/metric/trace+RUM mimarinizi kurup otel/B2B senaryolarına uygun dashboard ve alarm setini birlikte tasarlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Sitesi İzlenebilirlik (Log/Metric/RUM) Planlama Şablonunu İndir",
+            "text": "İzleme sinyallerini, alarm eşiklerini ve runbook’u tek dokümana döküp sprint planına çevirirsiniz.",
+            "href": "/tr/raporlama/satis-donusum"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "web-sitesi-izlenebilirlik-log-metric-rum-planlama-sablonu",
+        "title": "Web Sitesi İzlenebilirlik (Log/Metric/RUM) Planlama Şablonunu İndir — Yazılım / Observability",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Web Sitesi İzlenebilirlik (Log/Metric/RUM) Planlama Şablonunu İndir — Yazılım / Observability (v1.0)",
+            "purpose": "Bu şablon, kurumsal web sitelerinde log, metric, trace ve RUM katmanlarını iş KPI’larıyla birlikte planlamanızı sağlar. Otel ve B2B senaryolarında rezervasyon/lead drop, JS hata artışı, p95 latency ve CWV bozulması gibi kritik sinyaller için dashboard ve alert eşikleri oluşturur. Amaç; “bozuldu mu?” sorusundan “neden bozuldu, kaç kişiyi etkiledi, kim aksiyon alacak?” seviyesine geçmektir.",
+            "whoFor": "Ajans teknik lideri, DevOps/backend, frontend/performance ekibi, ürün/proje sahibi, otel revenue/e-commerce ve B2B ürün ekipleri.",
+            "steps": [
+              "Kritik kullanıcı görevlerini ve iş KPI’larını seçin: rezervasyon, lead, login, dashboard, ödeme.",
+              "Log/metric/trace/RUM sinyallerini bu görevlerle eşleştirip dashboard katmanlarını oluşturun.",
+              "Alert eşiklerini baseline’a göre kalibre edip runbook ve ilk 10 dakika aksiyonlarını yazın."
+            ],
+            "template": {
+              "emptyFields": [
+                {
+                  "title": "1) Kritik Görevler",
+                  "items": [
+                    "Otel: rezervasyon / ödeme / call / WhatsApp: ________",
+                    "B2B: login / dashboard / rapor / lead form: ________",
+                    "Kritik sayfa tipleri: ________"
+                  ]
+                },
+                {
+                  "title": "2) İzleme Sinyalleri",
+                  "items": [
+                    "Log: ________",
+                    "Metric: ________",
+                    "Trace/correlation ID: ________",
+                    "RUM: CWV / JS errors / interaction / drop: ________"
+                  ]
+                },
+                {
+                  "title": "3) Dashboard Katmanları",
+                  "items": [
+                    "Executive/Business panel: ________",
+                    "Ops/Technical panel: ________",
+                    "Debug/drill-down panel: ________"
+                  ]
+                },
+                {
+                  "title": "4) Alert Eşikleri",
+                  "items": [
+                    "Rezervasyon/Lead drop: ________",
+                    "5xx error rate: ________",
+                    "p95 latency: ________",
+                    "JS error spike: ________",
+                    "CWV/LCP trend: ________"
+                  ]
+                },
+                {
+                  "title": "5) Runbook",
+                  "items": [
+                    "Alarm sahibi: ________",
+                    "İlk 10 dakika aksiyonu: ________",
+                    "Rollback/mitigation planı: ________",
+                    "Verify adımı: ________"
+                  ]
+                },
+                {
+                  "title": "6) Güvenlik ve Log Kalitesi",
+                  "items": [
+                    "PII maskeleme: ________",
+                    "RBAC erişim: ________",
+                    "Retention süresi: ________",
+                    "Log maliyet budget: ________"
+                  ]
+                }
+              ],
+              "rules": [
+                "Önce iş etkisini seç; her sinyal bir kullanıcı görevi veya KPI ile ilişkili olsun.",
+                "RUM’u sadece sayfa bazında değil, rezervasyon/lead gibi görev bazında izle.",
+                "Alert eşiklerini kurum baseline’ına göre kalibre et; tek sayı herkese uymaz.",
+                "Her alarm için owner ve ilk 10 dakika aksiyonunu yazmadan go-live yapma.",
+                "Log’larda PII, token veya şifre tutma; güvenlik ve erişim politikasını baştan belirle."
+              ],
+              "filledExample": [
+                "Görev: rezervasyon ödeme adımı",
+                "Sinyal: payment 5xx + p95 latency + checkout drop",
+                "Alarm sahibi: Ürün+Ops / DevOps",
+                "İlk aksiyon: release kontrolü + ödeme dependency health + rollback değerlendirmesi"
+              ],
+              "checklist": [
+                "Kritik görevler belirlendi",
+                "Log/metric/trace/RUM sinyalleri eşleştirildi",
+                "Dashboard katmanları tanımlandı",
+                "Alert eşikleri baseline’a göre yazıldı",
+                "Runbook ve owner bilgisi eklendi",
+                "PII/log güvenliği kontrol edildi",
+                "Go-live sonrası 60 dakika izleme rutini tanımlandı"
+              ],
+              "deliverables": [
+                "İzlenebilirlik modeli",
+                "Dashboard seti",
+                "Alert eşik matrisi",
+                "Runbook dokümanı",
+                "Log şeması ve correlation ID planı",
+                "Buraya: Log/metric/trace/RUM diyagram görseli",
+                "Buraya: Alert eşikleri tablo görseli"
+              ]
+            },
+            "href": "/downloads/web-sitesi-izlenebilirlik-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: İzlenebilirlik, teknik sağlık ile iş etkisini aynı ekranda gösterir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal web sitelerinde iyi observability, yalnızca hata kaydı tutmak değildir. Log, metric, trace ve RUM birlikte kurgulandığında; bir problemin ne zaman başladığı, hangi release ile ilişkili olduğu, kaç kullanıcıyı etkilediği ve hangi iş KPI’ına zarar verdiği daha hızlı anlaşılır."
+          },
+          {
+            "type": "p",
+            "text": "Otel ve B2B projelerinde en değerli izleme modeli; rezervasyon/lead sağlığı, CWV, JS hataları, p95 latency, dependency health ve alert runbook’larını tek operasyon düzeninde birleştirir. Bu yaklaşım, ekiplerin “şikâyet gelince bakarız” yerine proaktif teşhis, hızlı aksiyon ve sürekli iyileştirme kültürü kurmasını sağlar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Observability & Logging Yapı Analizi Talep Et",
+            "text": "Log/metric/trace+RUM mimarinizi kurup otel/B2B senaryolarına uygun dashboard ve alarm setini birlikte tasarlayalım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Observability nedir, logging’den farkı nedir?",
+        "a": "Logging olayları kaydeder; observability log, metric, trace ve RUM verilerini birleştirerek hatanın kök nedenini, başlangıç zamanını ve kullanıcı etkisini anlamanızı sağlar."
+      },
+      {
+        "q": "Kurumsal web sitesinde hangi log ve metrikleri izlemeliyim?",
+        "a": "Minimum set; error rate, p95 latency, throughput, dependency error’ları, CWV, JS errors ve kritik funnel event’leridir. Otelde rezervasyon/ödeme, B2B’de login/dashboard/lead event’leri iş KPI olarak izlenmelidir."
+      },
+      {
+        "q": "RUM neden önemlidir?",
+        "a": "RUM, gerçek kullanıcı deneyimini gösterir. Site teknik olarak ayakta olsa bile kullanıcı tarafında yavaşlık, JS hatası veya funnel drop yaşanıyorsa bunu RUM ile görebilirsiniz."
+      },
+      {
+        "q": "Alert eşikleri nasıl belirlenmeli?",
+        "a": "Alert eşikleri kurumun baseline’ına göre kalibre edilmelidir. Tek bir sabit eşik herkese uymaz; rezervasyon/lead drop, 5xx error rate, p95 latency ve JS error spike gibi sinyaller kendi geçmiş verinize göre ayarlanmalıdır."
+      },
+      {
+        "q": "Log’larda PII/KVKK riski nasıl yönetilir?",
+        "a": "Telefon, e-posta, token, şifre ve form içeriği gibi hassas veriler log’lanmamalı veya maskelenmelidir. Log erişimi RBAC ile sınırlandırılmalı, retention politikası yazılı olmalıdır."
+      },
+      {
+        "q": "Otel sitelerinde observability en çok nerede değer üretir?",
+        "a": "Rezervasyon adımlarındaki drop, ödeme sağlayıcı hataları, kampanya landing CWV bozulmaları ve call/WhatsApp davranışı ile rezervasyon düşüşü arasındaki ilişkiyi izlemek için yüksek değer üretir."
+      },
+      {
+        "q": "B2B portallerde hangi izleme senaryoları kritiktir?",
+        "a": "Dashboard p95 latency, login/session hataları, rapor export problemleri, lead form submit düşüşü ve JS error artışı B2B portallerde kritik izleme senaryolarıdır."
+      },
+      {
+        "q": "Go-live sonrası izleme rutini nasıl olmalı?",
+        "a": "İlk 60 dakika boyunca error rate, login/rezervasyon smoke, p95 latency, dependency health, CWV ve JS error trendleri izlenmelidir. Sonrasında haftalık observability review ile eşikler ve dashboard’lar güncellenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-hero-01.webp — alt text: “Observability stratejisi kapağı, otel ve B2B’de hızlı arıza teşhisi”",
+          "h1-context — 1920×1080 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-h1-context-02.webp — alt text: “Log metric trace ve RUM bağlamı, kullanıcı deneyimiyle izleme modeli”",
+          "divider-01 — 1600×1200 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-divider-03.webp — alt text: “Observability tanımı bölüm ayırıcı, deneyim odaklı izleme kültürü kurma”",
+          "divider-02 — 1600×1200 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-divider-04.webp — alt text: “Otel ve B2B senaryoları bölüm ayırıcı, rezervasyon ve portal izleme kurgusu”",
+          "diagram-05 — 1920×1080 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-diagram-05.webp — alt text: “Log metric trace ve RUM katmanları diyagramı, hızlı incident teşhisi modeli”",
+          "checklist-06 — 1200×1200 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-checklist-06.webp — alt text: “Observability checklist kartı, otel ve B2B’de hızlı incident teşhisi”",
+          "kpi-07 — 1200×1200 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-kpi-07.webp — alt text: “MTTR ve hata oranı KPI kartı, deneyim odaklı monitoring hedefi”",
+          "proof-08 — 1200×1200 — observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi-proof-08.webp — alt text: “Dashboard ve alert deliverables kartı, teknik ve iş ekipleri için görünürlük”",
+          "table-alert-esikleri-ve-aksiyon-matrisi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Log, metric, trace ve RUM katmanları tanımlandı",
+          "Golden signals belirlendi: latency, traffic, errors, saturation",
+          "CWV, JS error ve kritik funnel event’leri RUM kapsamına alındı",
+          "Correlation ID tüm katmanlarda taşınacak şekilde planlandı",
+          "Frontend ve backend dashboard ayrımı yapıldı",
+          "Dependency health alarmları belirlendi",
+          "Alert eşikleri kurum baseline’ına göre kalibre edilecek şekilde tanımlandı",
+          "Her alarm için owner ve ilk 10 dakika aksiyonu yazıldı",
+          "PII maskeleme, RBAC ve log retention politikası kontrol edildi",
+          "Go-live sonrası 60 dakika izleme rutini oluşturuldu",
+          "Haftalık observability review ritmi planlandı",
+          "Observability çıktıları iş raporlamasıyla ilişkilendirildi"
         ]
       }
     }

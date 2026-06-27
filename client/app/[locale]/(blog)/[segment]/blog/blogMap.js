@@ -465,7 +465,9 @@ export const BLOG_MAP = {
     "cerez-yonetimi-ve-consent-ux-kvkk-uyumlu-web-deneyimi-tasarlamak":"BlogCerezYonetimiVeConsentUxKvkkUyumluWebDeneyimiTasarlamak",
     "web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye":"BlogWebSitesiYasamDongusuVeYolHaritasiV1DenSurekliIyilestirmeye",
     "jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler":"BlogJamstackVeEdgeRenderingKurumsalWebSiteleriIcinYeniMimariTrendler",
-    "design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi":"BlogDesignTokenVeMultiBrandDijitalEkosistemlerIcinWebAltyapisi"
+    "design-token-ve-multi-brand-dijital-ekosistemler-icin-web-altyapisi":"BlogDesignTokenVeMultiBrandDijitalEkosistemlerIcinWebAltyapisi",
+    "web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin":"BlogWebUygulamalarindaMikroFrontendMimarisiKurumsalVeB2BIcin",
+    "observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":"BlogObservabilityVeLoggingKurumsalWebSitelerindeIzlenebilirlikStratejisi"
   },
    
   creative: {

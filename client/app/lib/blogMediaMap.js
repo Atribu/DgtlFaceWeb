@@ -44648,6 +44648,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Token seti ve tema varyantları deliverables kartı, holding ekosistemi yönetimi",
       caption: "Token seti ve tema varyantları deliverables kartı, holding ekosistemi yönetimi"
     }
+  },
+
+  "web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin":{
+    banner: {
+      src: "/images/blog/software/Software1-23/Software1-23-1.webp",
+      alt: "Web Uygulamalarında Mikro-Frontend Mimarisi: Kurumsal ve B2B İçin",
+      caption: "Web Uygulamalarında Mikro-Frontend Mimarisi: Kurumsal ve B2B İçin"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software1-23/Software1-23-2.webp",
+      alt: "Kurumsal portal modülleri + bağımsız deploy + SEO/SSR dengesi, otel/B2B bağlamı",
+      caption: "Kurumsal portal modülleri + bağımsız deploy + SEO/SSR dengesi, otel/B2B bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-23/Software1-23-3.webp",
+    alt: "Mikro-frontend tanımı + amaç + kurumsal portal bağlamı, ekip ölçekleme",
+      caption: "Mikro-frontend tanımı + amaç + kurumsal portal bağlamı, ekip ölçekleme"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-23/Software1-23-4.webp",
+      alt: "Takım sahipliği + deployment süreçleri + kurumsal portal bağlamı, kontrollü ölçekleme",
+      caption: "Takım sahipliği + deployment süreçleri + kurumsal portal bağlamı, kontrollü ölçekleme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-23/Software1-23-5.webp",
+      alt: "Mikro-frontend vs monolitik mimari diyagramı, portal modüllerinde ölçeklenebilir yapı",
+      caption: "Mikro-frontend vs monolitik mimari diyagramı, portal modüllerinde ölçeklenebilir yapı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-23/Software1-23-6.webp",
+      alt: "Mikro-frontend uygunluk checklist’i + karar desteği + B2B portal bağlamı",
+      caption: "Mikro-frontend uygunluk checklist’i + karar desteği + B2B portal bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-23/Software1-23-7.webp",
+      alt: "Bağımsız release hızı KPI kartı + portal geliştirme verimliliği + kurumsal bağlam",
+      caption: "Bağımsız release hızı KPI kartı + portal geliştirme verimliliği + kurumsal bağlam"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-23/Software1-23-8.webp",
+      alt: "Mikro-frontend mimari deliverables kartı + POC planı + bakım süreci",
+      caption: "Mikro-frontend mimari deliverables kartı + POC planı + bakım süreci"
+    }
+  },
+
+  "observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software1-24/Software1-24-1.webp",
+      alt: "Observability ve Logging: Kurumsal Web Sitelerinde İzlenebilirlik Stratejisi",
+      caption: "Observability ve Logging: Kurumsal Web Sitelerinde İzlenebilirlik Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software1-24/Software1-24-2.webp",
+      alt: "Log metric trace ve RUM bağlamı, kullanıcı deneyimiyle izleme modeli",
+      caption: "Log metric trace ve RUM bağlamı, kullanıcı deneyimiyle izleme modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software1-24/Software1-24-3.webp",
+    alt: "Observability tanımı bölüm ayırıcı, deneyim odaklı izleme kültürü kurma",
+      caption: "Observability tanımı bölüm ayırıcı, deneyim odaklı izleme kültürü kurma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software1-24/Software1-24-4.webp",
+      alt: "Otel ve B2B senaryoları bölüm ayırıcı, rezervasyon ve portal izleme kurgusu",
+      caption: "Otel ve B2B senaryoları bölüm ayırıcı, rezervasyon ve portal izleme kurgusu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software1-24/Software1-24-5.webp",
+      alt: "Log metric trace ve RUM katmanları diyagramı, hızlı incident teşhisi modeli",
+      caption: "Log metric trace ve RUM katmanları diyagramı, hızlı incident teşhisi modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software1-24/Software1-24-6.webp",
+      alt: "Observability checklist kartı, otel ve B2B’de hızlı incident teşhisi",
+      caption: "Observability checklist kartı, otel ve B2B’de hızlı incident teşhisi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software1-24/Software1-24-7.webp",
+      alt: "MTTR ve hata oranı KPI kartı, deneyim odaklı monitoring hedefi",
+      caption: "MTTR ve hata oranı KPI kartı, deneyim odaklı monitoring hedefi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software1-24/Software1-24-8.webp",
+      alt: "Dashboard ve alert deliverables kartı, teknik ve iş ekipleri için görünürlük",
+      caption: "Dashboard ve alert deliverables kartı, teknik ve iş ekipleri için görünürlük"
+    }
   }
   
 };

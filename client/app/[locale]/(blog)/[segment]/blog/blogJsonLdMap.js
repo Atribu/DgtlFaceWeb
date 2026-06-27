@@ -83752,8 +83752,275 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
 
+"web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin",
+
+      "name": "Web Uygulamalarında Mikro-Frontend Mimarisi: Kurumsal ve B2B İçin",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Micro-Frontends",
+
+        "Module Federation",
+
+        "Team Ownership",
+
+        "Portal Architectures",
+
+        "SSR",
+
+        "Technical SEO",
+
+        "Deployment"
+
+      ],
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#article",
+
+      "headline": "Web Uygulamalarında Mikro-Frontend Mimarisi: Kurumsal ve B2B İçin",
+
+      "description": "Mikro-frontend’i takım yapısı ve modül sayısına göre seçin. Module federation, bağımsız deploy, SSR/SEO ve performans risklerini yönetin. Karar checklist’i içerir.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#webpage" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme/#service",
+
+      "name": "Web Sitesi Geliştirme",
+
+      "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "serviceType": "Web Sitesi Geliştirme"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#howto",
+
+      "name": "Mikro-Frontend Uygunluk ve Kurulum Kararı",
+
+      "description": "Takım yapısı, modül sayısı ve SSR/SEO-performans risklerine göre mikro-frontend kararını verme ve POC planlama adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Modül ve ekip sahipliğini çıkar",
+
+          "text": "Portal modüllerini listele; her modüle owner ekip ata ve bağımlılıkları işaretle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Mimari kararını puanla ve POC seç",
+
+          "text": "Bağımsız deploy ihtiyacı, ekip sayısı ve riskleri puanla; tek modülle POC kapsamı belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "QA gate ve standartları kur",
+
+          "text": "Shared katman (auth/UI kit), performans budget ve SEO/SSR kontrollerini release sürecine gate olarak ekle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Web Sitesi Geliştirme", "item": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/yazilim/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Mikro-Frontend Mimarisi", "item": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mikro-frontend nedir, ne zaman gerekir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mikro-frontend; UI’ı bağımsız modüllere bölüp farklı ekiplerin bağımsız geliştirme ve yayın yapabilmesini sağlayan yaklaşımdır. 3+ ekip ve bağımsız release ihtiyacı belirginse anlamlıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurumsal/B2B web uygulamasında mikro-frontend mimarisi nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Modül haritası ve ekip sahipliğini çıkarıp ortak standartları (UI kit, auth, logging) belirlersiniz. Sonra composition modelini seçer, CI/CD ve QA gate ile kontrollü yayın yaparsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SEO ve performans açısından mikro-frontend riskleri nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SSR/SEO kırılması, bundle duplication ve runtime karmaşıklığı başlıca risklerdir. Head/schema standardı, performans budget ve release QA gate ile yönetilebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Takım bazlı sahiplik ve deployment nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her modülün owner ekibi, CI/CD pipeline’ı ve rollback prosedürü olmalıdır. Platform ekip shared katmanı yönetir; kalite kapıları ortak tutulur."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-uygulamalarinda-mikro-frontend-mimarisi-kurumsal-ve-b2b-icin/#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        ".answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":{}
 
 },
 
