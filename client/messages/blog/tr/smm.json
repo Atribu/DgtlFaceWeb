@@ -45518,7 +45518,7 @@
     },
     "h1": {
       "title": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
-      "intro": "Reels’in yüksek erişim üretmesi, otomatik olarak web site trafiği ve rezervasyon anlamına gelmez. Birçok hesap “izleniyoruz” der ama analytics tarafında reels kaynaklı oturum, form ve rezervasyon artışı beklenen seviyede olmaz. Bunun nedeni genellikle üçlü kopuştur: (1) CTA net değildir, (2) link yolu gereksiz karmaşıktır, (3) landing page reels mesajıyla uyumlu değildir. Bu rehberde reels’i “reels→site→rezervasyon/lead” köprüsüne bağlayan conversion-minded video yaklaşımını; otel (oda/SPA/paket) ve B2B (demo/form/teklif) senaryolarıyla anlatıyoruz.",
+      "intro": "Reels’in yüksek erişim üretmesi, otomatik olarak web site trafiği ve rezervasyon anlamına gelmez. Birçok hesap “izleniyoruz” der ama analytics tarafında reels kaynaklı oturum, form ve rezervasyon artışı beklenen seviyede olmaz. Bunun nedeni genellikle üçlü kopuştur: (1) CTA net değildir, (2) link yolu gereksiz karmaşıktır, (3) landing page reels mesajıyla uyumlu değildir. Bu rehberde reels’i “reels→site→rezervasyon/lead” köprüsüne bağlayan conversion-minded video yaklaşımını; otel (oda/SPA/paket) ve B2B (demo/form/teklif) senaryolarıyla anlatıyoruz. Bu yapıyı daha sistemli kurmak isteyen ekipler için [Reels ile siteye trafik çekmek](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Reels hedefini netleştir: trafik, rezervasyon, lead veya demo",
         "2) Her conversion reels için tek aksiyon CTA kullan",
@@ -45529,14 +45529,14 @@
       "ctaPrimary": {
         "label": "Reels → Site & Rezervasyon Funnel Analizi Talep Et",
         "text": "Mevcut reels’lerinizi ve landing’lerinizi birlikte değerlendirip en hızlı trafik ve dönüşüm planını çıkaralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels → Site & Rezervasyon Funnel Analizi Talep Et",
         "text": "Reels→site→rezervasyon/lead akışınızı inceler; CTA, link yolu ve landing uyumuyla dönüşüm planını netleştiririz (otel/B2B için).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels CTA & Link Stratejisi Planlama Şablonunu İndir",
@@ -45547,25 +45547,53 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels On-Screen Text ve Altyazı Stratejisi",
+        "href": "/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik"
+      },
+      {
+        "label": "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
+        "href": "/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak"
+      },
+      {
+        "label": "Reels Ads ve Ödeme Kampanyalarında Kısa Video Kreatifleri",
+        "href": "/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri"
       },
       {
         "label": "Online Satış ve Rezervasyon",
-        "href": "/pms-ota/online-satis"
+        "href": "/tr/pms-ota/online-satis"
       },
       {
         "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "SMM Reels & Video Hakkında SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Reels On-Screen Text ve Altyazı Stratejisi: Sessiz İzleme ve Erişilebilirlik",
+        "href": "/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik"
       },
       {
-        "title": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "title": "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
+        "href": "/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak"
+      },
+      {
+        "title": "Reels Ads ve Ödeme Kampanyalarında Kısa Video Kreatifleri",
+        "href": "/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri"
       }
     ],
     "sections": [
@@ -45580,6 +45608,10 @@
           {
             "type": "p",
             "text": "Reels, çoğu markada awareness kanalıdır; ancak doğru kurgulanırsa consideration ve conversion’a da bağlanır. Buradaki kritik nokta, reels’i “satış sayfası” gibi konuşmak değil; izleyiciyi bir sonraki mantıklı adıma taşımaktır. Reels’in rolünü üçe ayırın:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde Reels trafik stratejisi](/tr/sosyal-medya-yonetimi) olarak ele alındığında profil ziyareti, link tıklaması, rezervasyon sayfası ziyareti ve lead üretimi aynı operasyon çerçevesinde planlanabilir."
           },
           {
             "type": "h3",
@@ -45715,6 +45747,10 @@
             "text": "Link sticker, kullanıcıyı videodan çıkarmadan aksiyona çağırır. Ancak yine de CTA’nın netliği şarttır: “Detay linkte” yerine “Şimdi fiyatları gör: link” gibi."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [Reels’te on-screen CTA kullanımı](/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik) sessiz izleme sırasında bile yönlendirmenin görünür kalmasını ve CTA mesajının ekranda net okunmasını sağlar."
+          },
+          {
             "type": "h3",
             "text": "Yorumda link / DM ile link (özellikle B2B’de)"
           },
@@ -45776,6 +45812,10 @@
                 "Kısa ve takip edilebilir link yolu"
               ]
             ]
+          },
+          {
+            "type": "p",
+            "text": "Sürekli kampanya, oda, hizmet ve teklif varyasyonu üretmek için [trafik odaklı B-roll kütüphanesi](/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak) tekrar kullanılabilir mekan, ürün ve CTA sahnelerini önceden toplamanızı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -45847,6 +45887,14 @@
             "text": "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda, reels’te “deneyim” gösterip landing’de “paket/oda”yı netleştirmek gerekir. Deneyim reels’i awareness’tir; ama CTA’yı “paket sayfası”na bağladığınızda köprü kurarsınız."
           },
           {
+            "type": "p",
+            "text": "Rezervasyon niyetini satış kanalına taşımak için [Reels’ten online satış akışına geçiş](/tr/pms-ota/online-satis) kampanya sayfası, paket seçimi ve OTA/rezervasyon yolunu daha ölçülebilir hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Sezon kampanyalarında bu kreatifleri büyütmek için [otel Reels reklam kampanyaları](/tr/otel/reklam-yonetimi) organikte ilgi toplayan kısa videoları performans reklam mantığıyla ölçeklemeyi destekler."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -45879,6 +45927,10 @@
           {
             "type": "p",
             "text": "B2B’de doğrudan “satın al” yerine çoğunlukla demo, form veya teklif talebi hedeflenir. Reels burada “kısa problem teşhisi + mini çözüm + tek aksiyon” şeklinde çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Birçok ekip için B2B Reels ile lead oluşturma süreci, doğru CTA ve düşük friksiyonlu form ya da DM akışı kurulduğunda çok daha tutarlı hale gelir."
           },
           {
             "type": "h3",
@@ -46016,6 +46068,10 @@
             "text": "Reels’ten gelen trafiği GA4’te doğru kanala atayabilmek için UTM parametreleri ve event tracking doğru kurgulanmalıdır. “Link tıklama var ama rezervasyon yok” gibi soruların cevabı ancak doğru ölçümle bulunur."
           },
           {
+            "type": "p",
+            "text": "Bu akışı iş sonucuna bağlamak için [Reels satış ve dönüşüm raporlaması](/tr/raporlama/satis-donusum) web site ziyareti, form, WhatsApp, rezervasyon ve satış katkısını aynı rapor mantığında okumayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "UTM pratik standardı (basit)"
           },
@@ -46042,7 +46098,7 @@
             "variant": "primary",
             "label": "Reels → Site & Rezervasyon Funnel Analizi Talep Et",
             "text": "UTM + GA4 event tracking ile reels kaynaklı trafik ve rezervasyon/lead’i görünür kılalım; kazanan kombinasyonları büyütelim.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "callout",
@@ -46073,6 +46129,10 @@
           {
             "type": "p",
             "text": "Reels’i funnel’e bağlamayan hesaplarda, yüksek erişime rağmen web trafik ve rezervasyon/lead tarafında beklenen sıçrama görülmez. Farkı yaratan; conversion-minded bir sistemdir: net CTA, sade link yolu, landing match ve ölçüm (UTM+GA4). Reels kaynaklı trafik ve rezervasyon performansı düzenli takip edildiğinde hangi içerik/CTA/landing kombinasyonlarının en iyi çalıştığı hızla ortaya çıkar; üretim “şansa” değil optimizasyona bağlanır."
+          },
+          {
+            "type": "p",
+            "text": "Organikte iyi çalışan setleri ücretli ölçeğe taşımak için [Reels Ads için kısa video kreatifleri](/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri) hook, CTA ve kreatif yapının reklam kampanyalarına nasıl taşınacağını netleştirir."
           },
           {
             "type": "callout",
@@ -46195,11 +46255,15 @@
             "text": "Bu nedenle her conversion reels için tek hedef, tek CTA, tek link yolu ve tek landing mantığıyla ilerlemek gerekir. UTM ve GA4 event tracking ile reels→site→rezervasyon/lead zinciri görünür hale geldiğinde, hangi hook, CTA, link ve landing kombinasyonunun çalıştığı netleşir; üretim şansa değil optimizasyona bağlanır."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi ekibinizde operasyonel hale getirmek isterseniz [Reels rezervasyon çağrı metinleri ve Reels CTA stratejisi](/tr/smm/reels-video) yaklaşımını hizmet yapısında inceleyebilir, karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels → Site & Rezervasyon Funnel Analizi Talep Et",
             "text": "Reels→site→rezervasyon/lead akışınızı inceler; CTA, link yolu ve landing uyumuyla dönüşüm planını netleştiririz (otel/B2B için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -46255,14 +46319,15 @@
           "asset-cta-mockup — CTA ve link yerleşim mockup görseli"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
+          "Canonical kontrolü: /tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage alanları PAA sorularıyla eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/reels-video, /pms-ota/online-satis, /raporlama/satis-donusum",
-          "Download asset linki kontrol edildi",
-          "Media slot adları frontend render yapısıyla uyumlu",
-          "CTA yoğunluğu Informational + Strategic / MoFu kuralına uygun",
-          "UTM parametreleri ve GA4 event tracking notları içerikte yer alıyor"
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-cta-link-stratejisi-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik, /tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak, /tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum, /tr/otel/reklam-yonetimi, /tr/smm/reels-video-sss",
+          "Download asset tipi: template",
+          "Reels trafik ve rezervasyon dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "On-screen CTA, B-roll, Reels Ads ve online satış köprüleri doğal bağlamla içerik akışına eklendi",
+          "Satış-dönüşüm ve otel reklam yönetimi bağlantıları dönüşüm ve ölçekleme mantığıyla hizalandı"
         ]
       }
     }
@@ -46318,7 +46383,7 @@
     },
     "h1": {
       "title": "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
-      "intro": "Reels’te sürdürülebilirlik, her hafta yeni çekim günü yapmakla değil; yeniden kullanılabilir video varlıkları (reusable clips) üretmekle gelir. Özellikle otel ve B2B markalarda aynı mekân/ürün/hizmet; farklı dönemlerde farklı mesajlarla tekrar anlatılır (sezon, kampanya, paket, demo). Eğer iyi planlanmış bir B-roll kütüphaneniz varsa; aynı görüntüleri farklı on-screen text, voice-over, trend ses ve CTA kombinasyonlarıyla aylarca kullanabilirsiniz. Bu rehberde batching mantığını, çekim günü planını, arşiv/isimlendirme standardını ve aynı B-roll’dan 3 farklı reels türetme yöntemini adım adım anlatıyoruz.",
+      "intro": "Reels’te sürdürülebilirlik, her hafta yeni çekim günü yapmakla değil; yeniden kullanılabilir video varlıkları (reusable clips) üretmekle gelir. Özellikle otel ve B2B markalarda aynı mekân/ürün/hizmet; farklı dönemlerde farklı mesajlarla tekrar anlatılır (sezon, kampanya, paket, demo). Eğer iyi planlanmış bir B-roll kütüphaneniz varsa; aynı görüntüleri farklı on-screen text, voice-over, trend ses ve CTA kombinasyonlarıyla aylarca kullanabilirsiniz. Bu rehberde batching mantığını, çekim günü planını, arşiv/isimlendirme standardını ve aynı B-roll’dan 3 farklı reels türetme yöntemini adım adım anlatıyoruz. Bu sistemi daha planlı kurmak isteyen ekipler için [Reels B-roll nedir](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Çekim günü hedefini reels değil, B-roll klip havuzu olarak tanımla",
         "2) Otel/B2B için paket bazlı shotlist hazırla",
@@ -46329,14 +46394,14 @@
       "ctaPrimary": {
         "label": "Reels Batching & B-Roll Kütüphane Analizi Talep Et",
         "text": "Mevcut çekimlerinizi ve üretim akışınızı inceleyip 30 günde “library-first” reels sistemini kuralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Batching & B-Roll Kütüphane Analizi Talep Et",
         "text": "Çekim günü planınızı, klasör/isimlendirme standardınızı ve reuse stratejinizi optimize ederek 30 gün reels üretim sistemini kurarız (otel/B2B ekipleri için).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "B-Roll Çekim Listesi & Arşiv Yapısı Şablonunu İndir",
@@ -46347,25 +46412,53 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
-        "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
         "label": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+        "href": "/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak"
+      },
+      {
+        "label": "Reels Ads ve Ödeme Kampanyalarında Kısa Video Kreatifleri",
+        "href": "/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri"
+      },
+      {
+        "label": "Reels Collab, UGC ve Influencer İçerikleri için Ortak Üretim Stratejisi",
+        "href": "/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM Reels & Video Hakkında SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+        "href": "/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Reels Ads ve Ödeme Kampanyalarında Kısa Video Kreatifleri",
+        "href": "/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri"
+      },
+      {
+        "title": "Reels Collab, UGC ve Influencer İçerikleri için Ortak Üretim Stratejisi",
+        "href": "/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi"
       }
     ],
     "sections": [
@@ -46380,6 +46473,10 @@
           {
             "type": "p",
             "text": "Batching, içerik üretimini tekil işlerden çıkarıp “blok” halinde yapmaktır: aynı gün planlama, çekim, hatta ilk montaj. Reels için batching’in gücü, her çekim gününü “yayın” değil “ham madde” üretimi olarak görmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [sosyal medya yönetimi içinde B-roll arşiv sistemi](/tr/sosyal-medya-yonetimi) kurulduğunda fikirden çekime, arşivden yayın takvimine kadar daha sürdürülebilir bir üretim hattı oluşturur."
           },
           {
             "type": "list",
@@ -46401,6 +46498,10 @@
               "Tutarlılık: Işık, kadraj, renk, ton stabil olur.",
               "Maliyet: Aynı lokasyonda çok sahne toplanır; ekip verimi artar."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Operasyonel tarafta [video batching ile içerik üretimi](/tr/smm/icerik-uretimi) Reels, story, post ve caption planını aynı takvim mantığında toplamayı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -46460,6 +46561,10 @@
             "text": "Aynı B-roll; farklı on-screen text ile farklı mesaj taşır. Aynı görüntüye voice-over ekleyerek B2B mini ders çıkarabilir veya otelde kampanya CTA’sı bağlayabilirsiniz. İşin sırrı: B-roll’u “tek amaçlı” değil “çok amaçlı” çekmektir."
           },
           {
+            "type": "p",
+            "text": "Dönüşüm odaklı setlerde [trafik odaklı B-roll kütüphanesi](/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak) CTA, web site yönlendirmesi ve rezervasyon çağrısı için hangi görüntülerin tekrar kullanılacağını daha net belirler."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -46516,6 +46621,10 @@
               "Havuz/SPA: su, şezlong, masaj odası detayı",
               "Şehir/destinasyon: kısa dış planlar (Antalya/Belek/Side/Kemer/Bodrum gibi)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel için B-roll fikirleri](/tr/otel/sosyal-medya) oda, restoran, spa, havuz, ekip ve misafir deneyimi görüntülerini sektörel örneklerle planlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -46611,6 +46720,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Ortak üretim tarafında [UGC ve influencer içeriklerini B-roll arşivine eklemek](/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi) collab, kullanıcı videosu ve creator çıktılarının tekrar kullanılabilir arşiv parçasına dönüşmesini sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Daha kontrollü ışık, ses ve kamera kalitesi gereken çekimlerde [profesyonel B-roll video prodüksiyonu](/tr/creative/video-produksiyon) arşivinizi uzun vadede daha yüksek üretim standardıyla besler."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -46657,6 +46774,10 @@
               "Sıralamayı değiştir: sahne dizilimini değiştir (tempo)",
               "CTA’yı değiştir: kaydet → DM → link gibi farklı aksiyonlar"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Aynı varyasyon mantığı reklam tarafında da işe yarar; bu yüzden [Reels Ads için B-roll kreatifleri](/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri) organik arşivi kısa video reklam setlerine çevirmede güçlü bir köprü görevi görür."
           },
           {
             "type": "callout",
@@ -46887,7 +47008,7 @@
             "variant": "primary",
             "label": "Reels Batching & B-Roll Kütüphane Analizi Talep Et",
             "text": "Klasör yapısı, isimlendirme ve reuse planınızı birlikte kurup ekibinize kilitleyelim.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -47104,11 +47225,15 @@
             "text": "Bu sistem özellikle otel, turizm ve B2B ekipleri için üretim hızını artırır, maliyeti düşürür ve kalite tutarlılığını korur. Shotlist, klasör yapısı, dosya isimlendirme ve reuse planı ekip standardı haline geldiğinde, yoğun dönemlerde bile yayın ritmi durmaz."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel bir standarda çevirmek isterseniz [Reels arşiv yapısı](/tr/smm/reels-video) yaklaşımını hizmet tarafında inceleyebilir, karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Batching & B-Roll Kütüphane Analizi Talep Et",
             "text": "Çekim günü planınızı, klasör/isimlendirme standardınızı ve reuse stratejinizi optimize ederek 30 gün reels üretim sistemini kurarız (otel/B2B ekipleri için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -47164,15 +47289,15 @@
           "asset-storyboard — Aynı B-roll’dan 3 reels varyasyon storyboard’u"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
+          "Canonical kontrolü: /tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage alanları PAA sorularıyla eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/reels-video, /creative/video-produksiyon, /smm/icerik-uretimi",
-          "Download asset linki kontrol edildi",
-          "Media slot adları frontend render yapısıyla uyumlu",
-          "CTA yoğunluğu Informational + Tactical / MoFu kuralına uygun",
-          "Shotlist tablosu içerikte ve download asset içinde tekrar kullanılabilir yapıdadır",
-          "365 gün refresh döngüsü ve 90 günlük arşiv temizlik notu içerikte yer alıyor"
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/b-roll-cekim-listesi-arsiv-yapisi-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/icerik-uretimi, /tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak, /tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri, /tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi, /tr/creative/video-produksiyon, /tr/otel/sosyal-medya, /tr/smm/reels-video-sss",
+          "Download asset tipi: template",
+          "B-roll ve batching dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Trafik, Reels Ads ve collab/UGC köprüleri doğal bağlamla içerik akışına eklendi",
+          "Video prodüksiyon, içerik üretimi ve otel sosyal medya bağlantıları arşiv sistemi ve ölçekleme mantığıyla hizalandı"
         ]
       }
     }
@@ -47227,7 +47352,7 @@
     },
     "h1": {
       "title": "Reels Ads: Reklam Kampanyalarında Kısa Video Kreatiflerini Nasıl Kullanırsınız?",
-      "intro": "Kısa video reklamları (Reels Ads) hızla büyürken, en yaygın hata hâlâ aynı: organikte iyi giden reels’i “aynı haliyle” reklama basmak. Organikte başarı; topluluk, algoritma ve etkileşim dinamikleriyle gelir. Reklamda ise oyunun kuralları farklıdır: hedef, kitle, placement ve ölçüm; kreatifin yapısını belirler. Otel ve B2B kampanyalarında Reels Ads, dikkat çekmek ve kısa sürede teklif/rezervasyon mesajını iletmek için çok güçlü olabilir; ama bunun için kreatifi funnel’a göre uyarlamak ve disiplinli test/optimizasyon yapmak gerekir.",
+      "intro": "Kısa video reklamları (Reels Ads) hızla büyürken, en yaygın hata hâlâ aynı: organikte iyi giden reels’i “aynı haliyle” reklama basmak. Organikte başarı; topluluk, algoritma ve etkileşim dinamikleriyle gelir. Reklamda ise oyunun kuralları farklıdır: hedef, kitle, placement ve ölçüm; kreatifin yapısını belirler. Otel ve B2B kampanyalarında Reels Ads, dikkat çekmek ve kısa sürede teklif/rezervasyon mesajını iletmek için çok güçlü olabilir; ama bunun için kreatifi funnel’a göre uyarlamak ve disiplinli test/optimizasyon yapmak gerekir. Bu geçişi daha sistemli kurmak isteyen ekipler için [Reels Ads kreatifleri](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Organik reels’i bire bir reklama taşıma; reklam cut üret",
         "2) Hedefi netleştir: erişim, trafik, lead veya rezervasyon",
@@ -47238,14 +47363,14 @@
       "ctaPrimary": {
         "label": "Reels Ads & Kısa Video Reklam Strateji Analizi Talep Et",
         "text": "Hedefinize (trafik/lead/rezervasyon) göre reels reklam kreatiflerinizi planlayalım, test seti çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Ads & Kısa Video Reklam Strateji Analizi Talep Et",
         "text": "Hedef (trafik/lead/rezervasyon), kitle (soğuk/sıcak) ve funnel’a göre reels reklam kreatiflerinizi uyarlayıp test/optimizasyon planını çıkarırız (otel/B2B için).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Ads Kreatif & Test Planlama Şablonunu İndir",
@@ -47255,26 +47380,54 @@
     },
     "internalLinks": [
       {
+        "label": "Reels & Video İçerik Üretimi",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels içerik batching ve B-roll kütüphanesi",
+        "href": "/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak"
+      },
+      {
+        "label": "Reels collab, UGC ve influencer içerikleri",
+        "href": "/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi"
+      },
+      {
+        "label": "Employer branding İK Reels stratejisi",
+        "href": "/tr/smm/blog/employer-branding-ik-reels-stratejisi"
+      },
+      {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "Remarketing ve Display",
-        "href": "/sem/remarketing-ve-display"
+        "href": "/tr/sem/remarketing-ve-display"
       },
       {
-        "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
+        "href": "/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak"
       },
       {
-        "title": "Remarketing ve Display Reklamları",
-        "href": "/sem/remarketing-ve-display"
+        "title": "Reels Collab, UGC ve Influencer İçerikleri İçin Ortak Üretim Stratejisi",
+        "href": "/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi"
+      },
+      {
+        "title": "Employer Branding: İK İçin Reels Stratejisi",
+        "href": "/tr/smm/blog/employer-branding-ik-reels-stratejisi"
       }
     ],
     "sections": [
@@ -47289,6 +47442,10 @@
           {
             "type": "p",
             "text": "Reels Ads, Meta ekosisteminde kısa dikey videolarla hedefe göre (erişim, trafik, lead/rezervasyon) sonuç üretmeye odaklanan reklam formatıdır. Organik reels’in amacı “izlenme/etkileşim” olabilir; Reels Ads’in amacı ise hedefe bağlı olarak tıklama, form, rezervasyon gibi iş aksiyonları üretmektir. Bu yüzden kreatif, “izlenebilir” olmasının yanında “aksiyona götürücü” olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu paid social katmanı, [sosyal medya yönetimi içinde kısa video reklam stratejisi](/tr/sosyal-medya-yonetimi) olarak ele alındığında organik video üretiminin aynı zamanda test edilebilir ve ölçeklenebilir bir kreatif havuzu olduğu daha net görünür."
           },
           {
             "type": "h3",
@@ -47336,6 +47493,10 @@
           {
             "type": "p",
             "text": "Organikte iyi çalışan bir reels, reklamda potansiyel taşır; ama “bire bir kopya” çoğu zaman iyi çalışmaz. Çünkü reklamda izleyicinin bağlamı farklıdır: sizi tanımıyor olabilir (soğuk kitle) ve dikkat eşiği daha düşüktür."
+          },
+          {
+            "type": "p",
+            "text": "Bu uyarlama mantığını [organik Reels’i reklamda kullanmak](/tr/smm/sosyal-medya-reklamlari) çerçevesinde kurmak; hedefleme, bütçe ve reklam seti yapısıyla kreatif kararlarını aynı sistemde toplar."
           },
           {
             "type": "h3",
@@ -47468,6 +47629,10 @@
             "text": "Landing match burada kritiktir."
           },
           {
+            "type": "p",
+            "text": "Özellikle videoyla etkileşime giren veya siteyi daha önce ziyaret eden kitlelerde [Reels izleyicileri için remarketing](/tr/sem/remarketing-ve-display) kurgusu, aynı kreatif iskeletini daha sıcak bir aksiyon akışına dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "Hedef-3: Lead/Rezervasyon (BoFu)"
           },
@@ -47569,6 +47734,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Turizm tarafında [otel için Reels reklam senaryosu](/tr/otel/reklam-yonetimi) erken rezervasyon, oda paketi ve sezon iletişimini performans kampanyasına taşırken; ekip ve kültür iletişimi tarafında [employer branding Reels reklamları](/tr/smm/blog/employer-branding-ik-reels-stratejisi) aday çekimi ve işveren markası hedefleri için benzer bir kısa video mantığı kurar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -47637,6 +47806,14 @@
           },
           {
             "type": "p",
+            "text": "Bu üretim disiplini için [B-roll arşivinden reklam kreatifi üretmek](/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak) aynı çekim gününden farklı hook ve teklif varyasyonları çıkarabilmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Daha sosyal kanıt ağırlıklı setlerde ise [UGC ve influencer Reels içeriklerini reklama taşımak](/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi) creator ve kullanıcı deneyimini performans reklamında daha doğal bir proof katmanına dönüştürür."
+          },
+          {
+            "type": "p",
             "text": "Varsayım (yumuşatılmış): Organik performansı iyi olan reels’lerin, doğru hedefleme ve CTA ile reklamda da güçlü sonuç üretme potansiyeli yüksektir; ancak her zaman bire bir kopya olarak çalışmayabilir."
           },
           {
@@ -47678,7 +47855,7 @@
             "variant": "primary",
             "label": "Reels Ads & Kısa Video Reklam Strateji Analizi Talep Et",
             "text": "Kreatif + hedefleme + ölçüm uyumunu birlikte kuralım; reklam setlerinizde tekrar eden kayıpları kapatalım.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -47832,11 +48009,15 @@
             "text": "Bu yüzden organik içerikleri “ham madde” gibi görüp reklam cut’ları üretmek gerekir. İlk 3 saniye, CTA, süre, proof ve soğuk/sıcak kitle intro’ları test edildiğinde Reels Ads yalnızca izlenme değil, ölçülebilir trafik, lead ve rezervasyon performansı üreten bir kanala dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi daha planlı kurmak isteyen ekipler için [kısa video reklam stratejisi](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Ads & Kısa Video Reklam Strateji Analizi Talep Et",
             "text": "Hedef (trafik/lead/rezervasyon), kitle (soğuk/sıcak) ve funnel’a göre reels reklam kreatiflerinizi uyarlayıp test/optimizasyon planını çıkarırız (otel/B2B için).",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -47888,15 +48069,15 @@
           "asset-comparison-table — Organik vs reklam performans karşılaştırma tablosu"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
+          "Canonical kontrolü: /tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage alanları PAA sorularıyla eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/sosyal-medya-reklamlari, /sem/remarketing-ve-display, /smm/reels-video",
-          "Download asset linki kontrol edildi",
-          "Media slot adları frontend render yapısıyla uyumlu",
-          "CTA yoğunluğu Informational + Strategic / MoFu kuralına uygun",
-          "Tracking, event ve CRM uyum notları içerikte yer alıyor",
-          "Organik vs reklam kreatifi karşılaştırma tablosu içerikte mevcut"
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-ads-kreatif-test-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/sosyal-medya-reklamlari, /tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak, /tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi, /tr/smm/blog/employer-branding-ik-reels-stratejisi, /tr/sem/remarketing-ve-display, /tr/otel/reklam-yonetimi, /tr/smm/reels-video-sss",
+          "Download asset tipi: pdf",
+          "Reels Ads dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Organik Reels, paid social, remarketing ve otel reklam yönetimi köprüleri doğal akışla eklendi",
+          "B-roll, UGC ve employer branding bağlantıları reklam kreatifi varyasyon mantığıyla hizalandı"
         ]
       }
     }
@@ -47952,7 +48133,7 @@
     },
     "h1": {
       "title": "Reels Collab, UGC ve Influencer İçerikleri İçin Ortak Üretim Stratejisi",
-      "intro": "Reels collab, UGC ve influencer içerikleri; markanın “ben anlatıyorum” çizgisinden çıkıp misafir, müşteri ve creator’larla birlikte konuşmasını sağlar. Doğru kurgulandığında bu ortak üretim, hem erişimi hem güveni artırır; çünkü izleyici “marka söyledi”den çok “gerçek kişi yaşadı/anlattı” sinyali görür. Ama bu alanın bir de görünmeyen kısmı var: izin, telif, sponsorlu iş birliği etiketleri, onay–revizyon akışı ve kriz senaryoları… Bu rehber; otel ve B2B markalar için ortak üretimi ölçeklenebilir, güvenli ve ölçülebilir hale getiren pratik bir sistem sunar.",
+      "intro": "Reels collab, UGC ve influencer içerikleri; markanın “ben anlatıyorum” çizgisinden çıkıp misafir, müşteri ve creator’larla birlikte konuşmasını sağlar. Doğru kurgulandığında bu ortak üretim, hem erişimi hem güveni artırır; çünkü izleyici “marka söyledi”den çok “gerçek kişi yaşadı/anlattı” sinyali görür. Ama bu alanın bir de görünmeyen kısmı var: izin, telif, sponsorlu iş birliği etiketleri, onay–revizyon akışı ve kriz senaryoları… Bu rehber; otel ve B2B markalar için ortak üretimi ölçeklenebilir, güvenli ve ölçülebilir hale getiren pratik bir sistem sunar. Bu yapıyı daha sistemli kurmak isteyen ekipler için [Reels collab nedir](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Collab, UGC ve influencer içeriklerini tek seferlik paylaşım değil süreç olarak tasarla",
         "2) Brief, izin, onay ve etiketleme adımlarını yazılı hale getir",
@@ -47963,14 +48144,14 @@
       "ctaPrimary": {
         "label": "Reels Collab & UGC/Influencer Ortak Üretim Analizi Talep Et",
         "text": "Otel/B2B markanız için brief–onay–etiketleme standardı çıkarıp güvenli bir co-creation sistemi kuralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels Collab & UGC/Influencer Ortak Üretim Analizi Talep Et",
         "text": "Ortak üretimi brief–onay–etiketleme standardıyla güvenli hale getirip otel/B2B için ölçekleriz.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Collab/UGC/Influencer Süreç & Etiketleme Şablonunu İndir",
@@ -47981,25 +48162,53 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
         "label": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Reels Ads",
+        "href": "/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri"
+      },
+      {
+        "label": "Employer branding İK Reels stratejisi",
+        "href": "/tr/smm/blog/employer-branding-ik-reels-stratejisi"
+      },
+      {
+        "label": "Destinasyon ve deneyim Reels hikaye anlatımı",
+        "href": "/tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi"
       },
       {
         "label": "Mesaj Yönetimi",
-        "href": "/cagri-merkezi/mesaj-yonetimi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Otel sosyal medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Reels Ads: Reklam Kampanyalarında Kısa Video Kreatiflerini Nasıl Kullanırsınız?",
+        "href": "/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Employer Branding: İK İçin Reels Stratejisi",
+        "href": "/tr/smm/blog/employer-branding-ik-reels-stratejisi"
+      },
+      {
+        "title": "Destinasyon ve Deneyim Reels Hikaye Anlatımı",
+        "href": "/tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi"
       }
     ],
     "sections": [
@@ -48014,6 +48223,10 @@
           {
             "type": "p",
             "text": "Reels Collab, içeriklerin “ortak yayın” mantığıyla iki hesap üzerinde birlikte görünmesini sağlayan bir dağıtım avantajı yaratabilir. Buradaki değer “sadece erişim” değildir: aynı içerik hem creator’ın takipçilerine hem markanın takipçilerine aynı anda görünür, ayrıca içerik “tek taraflı reklam” yerine “ortak anlatı” hissi verir."
+          },
+          {
+            "type": "p",
+            "text": "Bu güven ve erişim katmanı, [sosyal medya yönetimi içinde UGC ve influencer Reels](/tr/sosyal-medya-yonetimi) olarak ele alındığında ortak üretim videolarının yalnızca paylaşım değil topluluk, sosyal kanıt ve performans desteği de ürettiği daha net görünür."
           },
           {
             "type": "h3",
@@ -48074,6 +48287,10 @@
           {
             "type": "p",
             "text": "UGC (user-generated content), otellerde en güçlü sosyal kanıt kaynaklarından biridir: gerçek misafir, gerçek an, gerçek duygu. Ancak UGC’nin sürdürülebilir olması için “beklemek” yerine “tetiklemek” gerekir. UGC sistemi, üç bileşenden oluşur: tetikleyici anlar + izin akışı + yayın standardı."
+          },
+          {
+            "type": "p",
+            "text": "Bu ritmi planlı hale getirmek için [UGC Reels örnekleri](/tr/smm/icerik-uretimi) içerik takvimi, caption ve format dengesiyle birlikte düşünülmeli; böylece ortak üretim videoları genel sosyal medya akışının parçası olur."
           },
           {
             "type": "h3",
@@ -48155,6 +48372,10 @@
           {
             "type": "p",
             "text": "Influencer içeriklerinde en büyük risk, brief’in “istek listesi” olmasıdır. Brief; kreatifi öldürmemeli ama markayı da riske atmamalı. Burada doğru yaklaşım: serbestlik alanı + kırmızı çizgiler."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden influencer Reels etik kurallar, şeffaflık, iş birliği etiketi, izin kapsamı ve brief sınırları yayın öncesi kontrol maddesi olarak netleştirilmelidir."
           },
           {
             "type": "h3",
@@ -48428,6 +48649,26 @@
             "text": "Aynı video; farklı ses (voice-over vs ambiyans) ve farklı metin hiyerarşisiyle yeniden paketlenebilir. Bu, ortak üretimi “tek videoya” sıkıştırmaz; asset’e dönüştürür."
           },
           {
+            "type": "p",
+            "text": "Performans tarafında [UGC ve influencer Reels içeriklerini reklama taşımak](/tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri) doğal görünen sosyal kanıtı kısa video reklam kreatifine dönüştürmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Ekip ve kültür odaklı formatlarda [employer branding Reels içerikleri](/tr/smm/blog/employer-branding-ik-reels-stratejisi) çalışan deneyimini, saha anlatılarını ve aday iletişimini aynı ortak üretim mantığıyla ölçekleyebilir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm markaları için [destinasyon ve deneyim Reels hikâyesi](/tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi) misafir anları, rota önerileri ve deneyim içeriğini daha güçlü bir anlatı omurgasına taşır."
+          },
+          {
+            "type": "p",
+            "text": "Yayın sonrası gelen taleplerde [UGC sonrası DM ve yorum yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) fiyat soruları, rezervasyon isteği, şikayet ve kullanıcı sorularını operasyonel olarak takip etmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm ekipleri için [otel için UGC Reels planı](/tr/otel/sosyal-medya) oda, restoran, spa, destinasyon ve misafir deneyimini tek bir ortak üretim akışı içinde birleştirmeye yardımcı olur."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -48503,7 +48744,7 @@
             "variant": "primary",
             "label": "Reels Collab & UGC/Influencer Ortak Üretim Analizi Talep Et",
             "text": "İzin–etiketleme–onay süreçlerinizi güvenli hale getirip ortak üretimi ölçekleyelim.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -48661,11 +48902,15 @@
             "text": "Otel ve B2B ekipleri için en güçlü yaklaşım, UGC ve creator içeriklerini tekil paylaşımlar olarak değil, co-creation sistemi olarak yönetmektir. Süreç yazılı hale geldiğinde, riskler azalır; başarılı formatlar seri üretime dönüşür; marka tonu korunurken sosyal kanıt ölçeklenir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha planlı kurmak isteyen ekipler için [ortak üretim stratejisi](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Collab & UGC/Influencer Ortak Üretim Analizi Talep Et",
             "text": "Ortak üretimi brief–onay–etiketleme standardıyla güvenli hale getirip otel/B2B için ölçekleriz.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -48725,15 +48970,15 @@
           "asset-checklist-card — UGC/influencer süreç checklist kartı"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
+          "Canonical kontrolü: /tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage alanları PAA sorularıyla eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/reels-video, /smm/icerik-uretimi, /cagri-merkezi/mesaj-yonetimi",
-          "Download asset linki kontrol edildi",
-          "Media slot adları frontend render yapısıyla uyumlu",
-          "CTA yoğunluğu Informational + Strategic / MoFu kuralına uygun",
-          "UGC izin, sponsorlu etiketleme ve onay/revizyon süreçleri içerikte yer alıyor",
-          "Ortak üretim workflow tablosu içerikte mevcut"
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-collab-ugc-influencer-surec-etiketleme-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/icerik-uretimi, /tr/smm/blog/reels-ads-ve-odeme-kampanyalarinda-kisa-video-kreatifleri, /tr/smm/blog/employer-branding-ik-reels-stratejisi, /tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/otel/sosyal-medya, /tr/smm/reels-video-sss",
+          "Download asset tipi: pdf",
+          "Reels collab ve UGC dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Reklam kreatifi, employer branding, destinasyon ve mesaj yönetimi köprüleri doğal akışla eklendi",
+          "Influencer Reels etik kurallar konusu linksiz kontrol notu olarak korundu"
         ]
       }
     }
@@ -48789,7 +49034,7 @@
     },
     "h1": {
       "title": "Employer Branding ve İK İçin Reels Stratejisi",
-      "intro": "Employer branding uzun süre sadece LinkedIn post’larıyla ele alındı; ama aday davranışı değişti: adaylar artık “nasıl bir ekip, nasıl bir ortam, nasıl bir yönetim” sorularına hızlı cevap arıyor. Reels, bu sorulara kısa ve samimi şekilde yanıt vererek hem işveren markasını güçlendirir hem de işe alım hunisini (başvuru/CV/DM) besler. Otel gruplarında departman çeşitliliği ve operasyonel ritim; B2B’de ekip kültürü ve çalışma tarzı (uzaktan/hibrit, süreçler) reels’te anlatılabilir. Bu rehber, HR ve pazarlamanın birlikte yürüteceği “people-first short video” sistemini kurar.",
+      "intro": "Employer branding uzun süre sadece LinkedIn post’larıyla ele alındı; ama aday davranışı değişti: adaylar artık “nasıl bir ekip, nasıl bir ortam, nasıl bir yönetim” sorularına hızlı cevap arıyor. Reels, bu sorulara kısa ve samimi şekilde yanıt vererek hem işveren markasını güçlendirir hem de işe alım hunisini (başvuru/CV/DM) besler. Otel gruplarında departman çeşitliliği ve operasyonel ritim; B2B’de ekip kültürü ve çalışma tarzı (uzaktan/hibrit, süreçler) reels’te anlatılabilir. Bu rehber, HR ve pazarlamanın birlikte yürüteceği “people-first short video” sistemini kurar. Bu yapıyı daha sistemli kurmak isteyen ekipler için [employer branding Reels](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Employer branding’i sloganla değil insan, ortam ve süreç kanıtlarıyla göster",
         "2) HR reels’lerini awareness, consideration ve conversion aşamalarına ayır",
@@ -48800,14 +49045,14 @@
       "ctaPrimary": {
         "label": "Employer Branding & İK Reels Strateji Analizi Talep Et",
         "text": "İK + SMM birlikte çalışacak şekilde konu havuzu, format ve KPI setini çıkaralım; başvuru akışını netleştirelim.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Employer Branding & İK Reels Strateji Analizi Talep Et",
         "text": "İK + pazarlama için konu havuzu, format ve KPI seti çıkarır; başvuru/DM akışını netleştiririz.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Employer Branding Reels Konu & Storyboard Şablonunu İndir",
@@ -48818,25 +49063,53 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
         "label": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Reels collab, UGC ve influencer ortak üretimi",
+        "href": "/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi"
+      },
+      {
+        "label": "Destinasyon ve deneyim Reels hikaye anlatımı",
+        "href": "/tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi"
+      },
+      {
+        "label": "B2B Reels",
+        "href": "/tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Reels Collab, UGC ve Influencer İçerikleri İçin Ortak Üretim Stratejisi",
+        "href": "/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi"
       },
       {
-        "title": "Sosyal Medya Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "title": "Destinasyon ve Deneyim Reels Hikaye Anlatımı",
+        "href": "/tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi"
+      },
+      {
+        "title": "B2B Reels: Kompleks Hizmetleri 30 Saniyede Anlatmak",
+        "href": "/tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak"
       }
     ],
     "sections": [
@@ -48851,6 +49124,10 @@
           {
             "type": "p",
             "text": "Employer branding; şirketin “aday gözündeki itibarıdır.” Reels ise bu itibarı hızlı inşa eden bir vitrin: aday, 15–30 saniyede “burada çalışılır mı?” hissini alır. Bu yüzden reels’te hedef, slogan atmak değil; kanıt göstermek ve adayın sorularına net cevap vermektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu insan odaklı katman, [sosyal medya yönetimi içinde işveren markası videoları](/tr/sosyal-medya-yonetimi) olarak ele alındığında Reels’in yalnızca satış için değil ekip kültürü, aday iletişimi ve marka güveni için de kullanıldığı daha net görünür."
           },
           {
             "type": "h3",
@@ -48911,6 +49188,10 @@
           {
             "type": "p",
             "text": "İşe alım reels’leri, “ilan metni” yerine geçmez; ama ilanı okumaya ve başvuruya giden köprüyü kurar. Burada başarı; reels’in doğru adaya “kendini burada hayal ettirme” gücüne bağlıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın sürdürülebilir olması için [kariyer Reels stratejisi](/tr/smm/planlama-strateji) hedef aday kitlesi, yayın ritmi, kanal seçimi ve sosyal medya planıyla birlikte kurgulanmalıdır."
           },
           {
             "type": "h3",
@@ -48979,6 +49260,10 @@
           {
             "type": "p",
             "text": "Employer branding’in yakıtı “insan”dır. Ama insanların kamera karşısında rahat olması için formatlar basit olmalı; yapay “kurumsal” dil yerine gerçek anlar hedeflenmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [çalışan UGC’si ile Reels üretimi](/tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi) ekip katılımını daha doğal hale getirir ve çalışan deneyimini tek taraflı kurum mesajı yerine ortak üretim modeliyle güçlendirir."
           },
           {
             "type": "h3",
@@ -49077,6 +49362,14 @@
             "text": "Bu format, hem rolü hem kültürü aynı anda taşır. Otelde departman çeşitliliği bunu çok güçlü yapar; B2B’de ise “günlük ritim” ve “ekip çalışması” gösterilir."
           },
           {
+            "type": "p",
+            "text": "Hikâye tarafında [ekip deneyimini Reels ile anlatmak](/tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi) yalnızca pozisyonu değil çalışma atmosferini, gün içi akışı ve marka kültürünü daha insani bir anlatıya taşır."
+          },
+          {
+            "type": "p",
+            "text": "Uzmanlık ve rol anlatımı karmaşıklaştığında [B2B ekip ve hizmet rollerini kısa videoda anlatmak](/tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak) görev kapsamını ve ekip yapısını 30 saniyelik daha net bir çerçeveye dönüştürür."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -49107,6 +49400,10 @@
             "text": "Burada amaç, HR reels’i “tek tür içerik” olmaktan çıkarıp sistem kurmaktır."
           },
           {
+            "type": "p",
+            "text": "Daha güçlü röportaj, saha çekimi ve kurumsal anlatı gereken işlerde [profesyonel işveren markası videosu](/tr/creative/video-produksiyon) ses, ışık, kurgu ve çekim kalitesini bir üst seviyeye taşır."
+          },
+          {
             "type": "h3",
             "text": "Otel – 4’lü seri (1 ay)"
           },
@@ -49119,6 +49416,10 @@
               "Mutfak: servis öncesi",
               "Açık pozisyon: “Kime uygun?”"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel İK Reels örnekleri](/tr/otel-dijital-pazarlama) sezonluk işe alım, ekip kültürü, departman tanıtımı ve misafir deneyimi algısını aynı dijital pazarlama çerçevesi içinde ele almayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -49274,7 +49575,7 @@
             "variant": "primary",
             "label": "Employer Branding & İK Reels Strateji Analizi Talep Et",
             "text": "İzin süreçleri, konu havuzu ve pozisyon reels şablonlarını birlikte kuralım; güvenli bir HR video sistemi oluşturalım.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -49431,11 +49732,15 @@
             "text": "Otel ve B2B ekipleri için sürdürülebilir model; HR + SMM ortak takvimi, seri formatlar, tek CTA’lı başvuru akışı ve KPI review döngüsüdür. Bu sistem kurulduğunda reels, işveren markasını LinkedIn dışına taşır; başvuru, DM, CV ve aday kalitesi sinyallerini güçlendirir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha planlı kurmak isteyen ekipler için [İK ve işe alım kısa video stratejisi](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Employer Branding & İK Reels Strateji Analizi Talep Et",
             "text": "İK + pazarlama için konu havuzu, format ve KPI seti çıkarır; başvuru/DM akışını netleştiririz.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -49487,15 +49792,15 @@
           "asset-topic-table — İK reels konu ve sahne listesi özeti"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
+          "Canonical kontrolü: /tr/smm/blog/employer-branding-ik-reels-stratejisi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage alanları PAA sorularıyla eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/reels-video, /smm/planlama-strateji, /smm/icerik-uretimi",
-          "Download asset linki kontrol edildi",
-          "Media slot adları frontend render yapısıyla uyumlu",
-          "CTA yoğunluğu Informational + Strategic / MoFu kuralına uygun",
-          "KVKK/gizlilik ve yazılı izin notları içerikte yer alıyor",
-          "İK/işe alım konu ve sahne listesi tablosu içerikte mevcut"
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/employer-branding-reels-konu-storyboard-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/planlama-strateji, /tr/smm/blog/reels-collab-ugc-ve-influencer-icerikleri-icin-ortak-uretim-stratejisi, /tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi, /tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak, /tr/creative/video-produksiyon, /tr/otel-dijital-pazarlama, /tr/smm/reels-video-sss",
+          "Download asset tipi: pdf",
+          "Employer branding dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "UGC, deneyim, B2B, planlama ve prodüksiyon köprüleri doğal akışla eklendi",
+          "Kariyer Reels stratejisi ifadesi satırdaki uygun hedeflerle sınırlandırıldı"
         ]
       }
     }
@@ -49550,7 +49855,7 @@
     },
     "h1": {
       "title": "Destinasyon ve Deneyim Reels’leri ile Hikâye Anlatımı",
-      "intro": "Turizmde içerik çok; ama çoğu içerik “hikâye” değil “kolaj”. Oysa deneyim reels’inin gücü; izleyicinin 20–40 saniyede “burada ben olsam…” diye hayal kurmasını sağlamasıdır. Otel ve destinasyon markaları için bu, sadece erişim değil; kaydetme, paylaşma ve rezervasyon niyeti demektir. Bu rehber, destinasyon içeriklerini mikro hikâye formatına sokar: sabah–gün–akşam akışı, duygu tetikleyiciler, misafir tipi (aile/çift/arkadaş) ve sezon uyumu ile “1 günde X” storyboard’unu üretime hazır hale getirir.",
+      "intro": "Turizmde içerik çok; ama çoğu içerik “hikâye” değil “kolaj”. Oysa deneyim reels’inin gücü; izleyicinin 20–40 saniyede “burada ben olsam…” diye hayal kurmasını sağlamasıdır. Otel ve destinasyon markaları için bu, sadece erişim değil; kaydetme, paylaşma ve rezervasyon niyeti demektir. Bu rehber, destinasyon içeriklerini mikro hikâye formatına sokar: sabah–gün–akşam akışı, duygu tetikleyiciler, misafir tipi (aile/çift/arkadaş) ve sezon uyumu ile “1 günde X” storyboard’unu üretime hazır hale getirir. Bu yapıyı daha sistemli kurmak isteyen ekipler için [destinasyon Reels örnekleri](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) “1 günde X” formatıyla sabah–gün–akşam mikro hikâye kur",
         "2) Misafir tipini seç: aile, çift veya arkadaş",
@@ -49561,14 +49866,14 @@
       "ctaPrimary": {
         "label": "Destinasyon & Deneyim Reels Strateji Analizi Talep Et",
         "text": "Oteliniz için “1 gün sende” deneyim akışını, sezon kurgusunu ve rezervasyon CTA köprüsünü birlikte çıkaralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Destinasyon & Deneyim Reels Strateji Analizi Talep Et",
         "text": "Otel/destinasyon hikâye akışınızı, sezon ve persona kurgusunu çıkarıp rezervasyon CTA köprüsünü netleştiririz.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Destinasyon/Deneyim Reels Storyboard & Sahne Listesi Şablonunu İndir",
@@ -49579,25 +49884,53 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Employer branding İK Reels stratejisi",
+        "href": "/tr/smm/blog/employer-branding-ik-reels-stratejisi"
+      },
+      {
+        "label": "B2B Reels",
+        "href": "/tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak"
+      },
+      {
+        "label": "Reels içerik serileri ve episodik formatlar",
+        "href": "/tr/smm/blog/reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak"
       },
       {
         "label": "Otel sosyal medya pazarlaması",
-        "href": "/otel/sosyal-medya"
+        "href": "/tr/otel/sosyal-medya"
       },
       {
         "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Employer Branding ve İK İçin Reels Stratejisi",
+        "href": "/tr/smm/blog/employer-branding-ik-reels-stratejisi"
       },
       {
-        "title": "Otel Sosyal Medya Pazarlaması",
-        "href": "/otel/sosyal-medya"
+        "title": "B2B Reels: Kompleks Hizmetleri 30 Saniyede Anlatmak",
+        "href": "/tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak"
+      },
+      {
+        "title": "Reels İçerik Serileri ve Episodik Formatlarla Markayı Konumlamak",
+        "href": "/tr/smm/blog/reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak"
       }
     ],
     "sections": [
@@ -49612,6 +49945,10 @@
           {
             "type": "p",
             "text": "Deneyim içerikleri, oda fotoğrafından farklı bir iş yapar: “nasıl hissederim?” sorusunu cevaplar. Bu yüzden kaydetme/paylaşma oranları genelde daha yüksektir (kesin rakam iddiası değil; saha gözlemi). Özellikle aile, çift ve arkadaş grubu gibi farklı misafir tipleri; aynı oteli farklı duyguyla yaşar ve reels’te bu duygu katmanı çok güçlü çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaşam tarzı katmanı, [sosyal medya yönetimi içinde destinasyon Reels anlatımı](/tr/sosyal-medya-yonetimi) olarak ele alındığında güzel görüntülerin tek başına yetmediği; hikâye akışı, hedef kitle, duygu ve CTA ile birlikte planlanması gerektiği daha net görünür."
           },
           {
             "type": "h3",
@@ -49659,6 +49996,10 @@
           {
             "type": "p",
             "text": "Mikro hikâye, 20–40 saniyede “tam gün” hissi verir. En pratik omurga: Sabah → Gün → Akşam. Bu yapı, izleyicinin zihninde “akış” üretir; akış olan video daha çok izlenir, daha çok hatırlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu omurgayı tekil video yerine seri mantığıyla büyütmek isteyen ekipler için [episodik destinasyon Reels serisi](/tr/smm/blog/reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak) haftalık format, bölüm mantığı ve marka konumlandırmasını aynı çatı altında toplar."
           },
           {
             "type": "h3",
@@ -49764,6 +50105,10 @@
             "text": "Deneyim reels’lerinin “hammaddesi” otel içi sahneler kadar çevre sahneleridir. Ancak çevre görüntüsü kontrolsüz olursa risk doğar (yüzler, güvenlik, izin). Bu yüzden senaryoyu iki havuza ayırın: otel içi ve yakın çevre."
           },
           {
+            "type": "p",
+            "text": "Turizm ekipleri için [otel deneyim kısa video](/tr/otel/sosyal-medya) oda, restoran, spa, havuz ve misafir yolculuğu sahnelerini daha sistemli bir sosyal medya akışına bağlamayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Otel içi senaryo paketleri"
           },
@@ -49797,6 +50142,14 @@
           {
             "type": "p",
             "text": "Bu format, hem destinasyonu hem oteli birlikte taşır:"
+          },
+          {
+            "type": "p",
+            "text": "Deneyimin arkasındaki hizmet kalitesini görünür kılmak gerektiğinde [ekip deneyimini Reels ile anlatmak](/tr/smm/blog/employer-branding-ik-reels-stratejisi) misafir karşılaması, operasyon ritmi ve insan hikâyesini bu mikro anlatıya eklemeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Paket, rota veya hizmet akışı daha karmaşık hale geldiğinde [kompleks deneyimi 30 saniyede anlatmak](/tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak) teklif yapısını kısa videoda daha sade bir çerçeveye dönüştürür."
           },
           {
             "type": "list",
@@ -49976,6 +50329,10 @@
             "text": "Reels’te anlattığınız deneyim, landing’de karşılık bulmalı: aynı görsel dili, aynı vaat, aynı paket. Aksi halde tıklama olsa bile dönüşüm düşer."
           },
           {
+            "type": "p",
+            "text": "Rezervasyon niyetini daha güçlü okumak isteyen ekipler için [otel dijital pazarlamada travel Reels](/tr/otel-dijital-pazarlama) hedef pazar, sezon kampanyası ve marka algısını aynı dönüşüm çerçevesinde değerlendirmeye yardımcı olur."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Bu bölüm için)",
@@ -50010,11 +50367,15 @@
             "text": "Destinasyon içerikleri çekilirken çevre güvenliği, üçüncü kişilerin yüzleri ve ticari alanların telif/hak kullanımı konularında dikkatli olunmalıdır. Kalabalık alanlarda yüzleri kadraja almamak, izin gerektiren mekânlarda çekim kurallarına uymak ve marka güvenliği açısından riskli sahneleri elemek iyi pratiktir. Şüpheli durumlarda kurumsal iletişim/hukuk görüşü almak en güvenli yoldur."
           },
           {
+            "type": "p",
+            "text": "Daha yüksek kalite, daha güçlü renk dili ve daha sinematik akış gereken işlerde [profesyonel destinasyon video prodüksiyonu](/tr/creative/video-produksiyon) hikâyeyi çekim, ışık, ses ve kurgu tarafında bir üst seviyeye taşır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Destinasyon & Deneyim Reels Strateji Analizi Talep Et",
             "text": "“1 günde X” storyboard’larını, sezon varyasyonlarını ve rezervasyon CTA köprüsünü markanıza göre planlayalım.",
-            "href": "/otel/sosyal-medya"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -50142,11 +50503,15 @@
             "text": "Bu nedenle “1 günde X” formatı, turizm markaları için hem içerik üretimini sistemleştirir hem de destinasyon + otel + rezervasyon köprüsünü netleştirir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha planlı kurmak isteyen ekipler için [1 günde otel deneyimi formatı ve travel Reels hikâyesi](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Destinasyon & Deneyim Reels Strateji Analizi Talep Et",
             "text": "Otel/destinasyon hikâye akışınızı, sezon ve persona kurgusunu çıkarıp rezervasyon CTA köprüsünü netleştiririz.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -50198,11 +50563,12 @@
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/destinasyon-ve-deneyim-reels-hikaye-anlatimi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage soruları PAA hedeflerine göre işaretlendi",
-          "Internal link hedefleri kontrol edildi: /smm/reels-video, /otel/sosyal-medya, /otel-dijital-pazarlama",
-          "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1 kez",
-          "Download asset üretimi işaretlendi: Storyboard + sahne listesi şablonu v1.0",
-          "Media slot adları frontend bileşenleriyle uyumlu tutuldu",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/destinasyon-deneyim-reels-storyboard-sahne-listesi-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/employer-branding-ik-reels-stratejisi, /tr/smm/blog/b2b-reels-kompleks-hizmetleri-30-saniyede-anlatmak, /tr/smm/blog/reels-icerik-serileri-ve-episodik-formatlarla-markayi-konumlamak, /tr/otel/sosyal-medya, /tr/otel-dijital-pazarlama, /tr/creative/video-produksiyon, /tr/smm/reels-video-sss",
+          "Download asset tipi: pdf",
+          "Destinasyon ve deneyim dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Employer branding, B2B, episodik seri, otel pazarlama ve prodüksiyon köprüleri doğal akışla eklendi",
           "Risk notları: üçüncü kişi yüzleri, çevre güvenliği, ticari alan hak kullanımı"
         ]
       }
