@@ -6424,7 +6424,7 @@
     },
     "h1": {
       "title": "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu",
-      "intro": "Reels, çoğu markada “bugün ne çeksek?” refleksiyle yürüdüğü için ya trend ses döngüsünde kaybolur ya da tekil viral denemelerle ölçülemeyen bir efora dönüşür. Oysa otel ve B2B markalarda reels’in gerçek gücü; keşfi artırırken aynı anda güven sinyalleri üretmesi, doğru CTA ile de satış hunisini beslemesidir. Bu rehberde, reels’i funnel-first bir modele oturtup hangi aşama için hangi formatın üretileceğini, nasıl seri mantığı kurulacağını ve ölçümün nasıl netleştirileceğini adım adım ele alacağız.",
+      "intro": "Reels, çoğu markada “bugün ne çeksek?” refleksiyle yürüdüğü için ya trend ses döngüsünde kaybolur ya da tekil viral denemelerle ölçülemeyen bir efora dönüşür. Oysa otel ve B2B markalarda reels’in gerçek gücü; keşfi artırırken aynı anda güven sinyalleri üretmesi, doğru CTA ile de satış hunisini beslemesidir. Bu rehberde, reels’i funnel-first bir modele oturtup hangi aşama için hangi formatın üretileceğini, nasıl seri mantığı kurulacağını ve ölçümün nasıl netleştirileceğini adım adım ele alacağız. Bu sistemi daha planlı kurmak isteyen ekipler için [Reels içerik stratejisi](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Reels’in rolünü 3’e ayır: keşif–güven–dönüşüm",
         "2) Funnel aşamalarını yaz: awareness–consideration–conversion–loyalty",
@@ -6449,7 +6449,7 @@
       "secondary": {
         "label": "Reels Funnel & İçerik Planlama Şablonunu İndir",
         "text": "Funnel’a göre aylık reels planını hızla çıkarır, üretimi sistemleştirip ekip içi süreyi kısaltır.",
-        "href": "/tr/smm/planlama-strateji"
+        "href": "/downloads/reels-funnel-icerik-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -6458,26 +6458,42 @@
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "SMM planlama & strateji",
-        "href": "/tr/smm/planlama-strateji"
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
         "label": "SMM içerik üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
+        "label": "Reels storyboard ve montaj tempo rehberi",
+        "href": "/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi"
+      },
+      {
+        "label": "Reels ses ve müzik stratejisi",
+        "href": "/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
+      },
+      {
         "label": "Video prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Otel sosyal medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi (hizmet sayfası)",
-        "href": "/tr/smm/reels-video"
+        "title": "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
+        "href": "/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi"
       },
       {
-        "title": "Video prodüksiyon (creative)",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+        "href": "/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
       }
     ],
     "sections": [
@@ -6492,6 +6508,10 @@
           {
             "type": "p",
             "text": "Reels, çoğu markada “bugün ne çeksek?” refleksiyle yürüdüğü için ya trend ses döngüsünde kaybolur ya da tekil viral denemelerle ölçülemeyen bir efora dönüşür. Oysa otel ve B2B markalarda reels’in gerçek gücü; keşfi artırırken aynı anda güven sinyalleri üretmesi, doğru CTA ile de satış hunisini beslemesidir. Bu rehberde, reels’i funnel-first bir modele oturtup hangi aşama için hangi formatın üretileceğini, nasıl seri mantığı kurulacağını ve ölçümün nasıl netleştirileceğini adım adım ele alacağız."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde Reels stratejisi](/tr/sosyal-medya-yonetimi) olarak ele alındığında video içerik hedefi, format seçimi ve ölçüm hattı genel sosyal medya operasyonuyla aynı çerçevede ilerler."
           },
           {
             "type": "cta",
@@ -6572,6 +6592,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, AEO açısından en kritik yer: Reels stratejisinin özeti “funnel-first” kurgudur. Yani “herkese aynı reels” yerine, her funnel aşaması için hedef + format + CTA seti oluşturursunuz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımın genel içerik mimarisiyle uyumlu olması için [kısa video funnel kurgusu](/tr/smm/icerik-uretimi) content pillars, caption ve diğer formatlarla birlikte planlanmalıdır."
           },
           {
             "type": "h3",
@@ -6700,7 +6724,7 @@
             "variant": "secondary",
             "label": "Reels Funnel & İçerik Planlama Şablonunu İndir",
             "text": "Funnel’a göre aylık reels planını 30 dakikada çıkarır, ekip içi üretimi hızlandırırsınız.",
-            "href": "/tr/smm/planlama-strateji"
+            "href": "/downloads/reels-funnel-icerik-planlama-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -6737,6 +6761,10 @@
             "text": "İlham reels’leri, marka hissini taşır. Otellerde destinasyon/deneyim ve atmosfer; B2B’de vizyon ve dönüşüm hikâyesi öne çıkar."
           },
           {
+            "type": "p",
+            "text": "Sahne akışını üretilebilir hale getirmek için [Reels storyboard ve montaj temposu](/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi) hook, geçiş, kesme ritmi ve izlenme süresi kararlarını somutlaştırır."
+          },
+          {
             "type": "h3",
             "text": "Sosyal Kanıt (Proof) — “Benim gibi biri başardı”"
           },
@@ -6764,6 +6792,10 @@
               "Dikey oran (9:16), ilk 1–2 saniye kancası, kapak tasarımı, altyazı/okunabilirlik.",
               "Kapak/altyazı ve yayın standardı: planın sürdürülebilirliğini artırır."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Video atmosferini marka tonuyla uyumlu kurmak için [Reels ses ve müzik stratejisi](/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu) trend ses, lisans ve orijinal ses kararlarını funnel amacına göre netleştirir."
           },
           {
             "type": "callout",
@@ -6799,6 +6831,10 @@
           {
             "type": "p",
             "text": "Bu bölümde amaç “kopyala-yapıştır fikir listesi” vermek değil; örnekleri funnel + format mantığıyla göstermek. Türkiye genelinde çalışan ekipler için Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlar; keşif ve ilham içeriklerinde doğal bir zemin sağlar. B2B’de ise sektör bağımsız biçimde “mini ders + kanıt + teklif” üçlüsü çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel için Reels örnekleri](/tr/otel/sosyal-medya) oda, restoran, spa, destinasyon ve misafir deneyimi temalarını kısa video funnel mantığıyla eşleştirmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -6929,6 +6965,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Daha yüksek çekim kalitesi, ışık ve kurgu gereken kampanya ya da marka filmlerinde [profesyonel video prodüksiyon desteği](/tr/creative/video-produksiyon) Reels stratejisini sahne planı ve prodüksiyon standardıyla güçlendirir."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -6990,6 +7030,34 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Reels stratejisi hedef, funnel ve format aynı sistemde birleştiğinde güçlenir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reels içerik stratejisi, kısa videoları yalnızca trend yakalama alanı olmaktan çıkarıp keşif, güven ve dönüşüm için ölçülebilir bir sisteme dönüştürür. Hedef netleştiğinde format seçimi, storyboard, ses, tempo ve CTA kararları da daha tutarlı hale gelir; böylece ekip üretimi hızlanırken KPI okuması da sadeleşir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha sistemli kurmak isteyen ekipler için [awareness, consideration ve conversion Reels planlaması](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Strateji & Konsept Analizi Talep Et",
+            "text": "Otel/B2B markanız için funnel-first reels planını çıkarıp üretim ritmini netleştirelim.",
+            "href": "/tr/smm/reels-video"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels Funnel & İçerik Planlama Şablonunu İndir",
+            "text": "Funnel’a göre aylık reels planını hızla çıkarır, üretimi sistemleştirip ekip içi süreyi kısaltır.",
+            "href": "/downloads/reels-funnel-icerik-planlama-sablonu-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -7033,14 +7101,15 @@
           "proof-08 — 1200×1200 — reels-icerik-stratejisi-ve-hedef-kurgusu-proof-08.webp — “Reels üretim çıktıları ve güven unsurlarını gösteren kanıt kartı görseli”"
         ],
         "technicalChecklist": [
-          "Primary CTA (H1 giriş sonu + son 1/3) yerleşimi kontrolü",
-          "Secondary CTA (orta bölümde) yerleşimi kontrolü",
-          "Her reels brief’inde “aşama–hedef–CTA–KPI” satırı zorunlu",
-          "Kapak standardı (funnel etiketi: Keşif / SSS / Teklif) uygulandı",
-          "Altyazı zorunlu (sessiz izlenme) kuralı uygulandı",
-          "Haftalık ritim (3 veya 5) + rol dağılımı yazılı",
-          "KPI paneli: izlenme süresi/tamamlama + kaydetme/paylaşım + profil ziyareti + tıklama/lead ayrıştırıldı",
-          "SERP hedefi için AEO soru blokları (FAQ/PAA) içerikte net cevaplarla var"
+          "Canonical kontrolü: /tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-funnel-icerik-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/icerik-uretimi, /tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi, /tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu, /tr/creative/video-produksiyon, /tr/otel/sosyal-medya, /tr/smm/reels-video-sss",
+          "Download asset tipi: template",
+          "Reels stratejisi dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Storyboard, ses ve prodüksiyon köprüleri funnel bağlamında doğal akışla eklendi",
+          "Otel örnekleri ve içerik üretimi bağlantıları video cluster stratejisini destekleyecek şekilde hizalandı"
         ]
       }
     }
@@ -7092,7 +7161,7 @@
     },
     "h1": {
       "title": "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
-      "intro": "Reels’lerde “sıkıcı oluyor” şikâyetinin kaynağı çoğu zaman kamera veya ışık değildir; akış tasarımıdır. İzleyici 1–2 saniyede karar verir: “Devam mı, geç mi?” Bu yüzden kısa videoda kurgu; sadece klipleri birleştirmek değil, tempo (pacing), kesme (cut) ve sahne tasarımı (scene design) ile izleyiciyi son kareye taşımaktır. Bu rehber, storyboard’u çekimden önce çıkarıp montaj kararlarını planlayan bir sistem kurmanı sağlar.",
+      "intro": "Reels’lerde “sıkıcı oluyor” şikâyetinin kaynağı çoğu zaman kamera veya ışık değildir; akış tasarımıdır. İzleyici 1–2 saniyede karar verir: “Devam mı, geç mi?” Bu yüzden kısa videoda kurgu; sadece klipleri birleştirmek değil, tempo (pacing), kesme (cut) ve sahne tasarımı (scene design) ile izleyiciyi son kareye taşımaktır. Bu rehber, storyboard’u çekimden önce çıkarıp montaj kararlarını planlayan bir sistem kurmanı sağlar. Bu üretim mantığını sistemli kurmak isteyen ekipler için [Reels storyboard örneği](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Reels Storyboard & Montaj Analizi Talep Et",
@@ -7109,7 +7178,7 @@
       "secondary": {
         "label": "Reels Storyboard & Montaj Checklist Şablonunu İndir",
         "text": "Çekim–montaj öncesi 5 dakikada kontrol eder, sahne sürelerini ve tempo kararlarını standardize edersiniz.",
-        "href": "/tr/smm/icerik-uretimi"
+        "href": "/downloads/reels-storyboard-montaj-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -7118,15 +7187,52 @@
         "href": "/tr/smm/reels-video"
       },
       {
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels içerik stratejisi",
+        "href": "/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu"
+      },
+      {
+        "label": "Reels ses ve müzik stratejisi",
+        "href": "/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
+      },
+      {
+        "label": "Reels çekim tekniği",
+        "href": "/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+      },
+      {
         "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Otel sosyal medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu",
+        "href": "/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu"
+      },
+      {
+        "title": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+        "href": "/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
+      },
+      {
+        "title": "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
+        "href": "/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+      }
+    ],
     "sections": [
       {
         "id": "storyboard-nedir",
@@ -7141,6 +7247,10 @@
           {
             "type": "p",
             "text": "Storyboard, bir videonun “çekim listesi” gibi görünse de reels özelinde daha kritik bir şey yapar: hızlı karar üretir. Kısa videoda hatayı sonradan düzeltmek pahalıdır; çünkü yanlış çekilmiş bir sahneyi “keserek” kurtarmak çoğu zaman mümkün değildir. Storyboard; hangi sahnede hangi mesajı söyleyeceğini, izleyicinin hangi saniyede ne göreceğini ve hangi saniyede sıkılıp çıkabileceğini planlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu kalite katmanı, [sosyal medya yönetimi içinde Reels montaj akışı](/tr/sosyal-medya-yonetimi) olarak ele alındığında video başarısının yalnızca çekime değil akış, tempo ve kurgu kararlarına bağlı olduğu daha net görünür."
           },
           {
             "type": "p",
@@ -7195,6 +7305,10 @@
           {
             "type": "p",
             "text": "Storyboard hazırlamak için “çizim yeteneği” gerekmez. Reels storyboard’u çoğu zaman bir tablo, madde listesi veya basit bir shotlist’tir. Önemli olan, sahneleri giriş–gelişme–kapanış akışında kilitlemek ve tempo kararlarını daha çekim başlamadan vermektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın hedef ve format kararlarından kopmaması için [stratejiye bağlı Reels storyboard’u](/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu) her sahneyi funnel aşaması ve video amacıyla birlikte düşünmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -7318,11 +7432,15 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Storyboard’un yayın takvimi ve diğer formatlarla uyumlu ilerlemesi için [Reels akış planı](/tr/smm/icerik-uretimi) genel içerik üretimi sistemine bağlanmalıdır."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Reels Storyboard & Montaj Checklist Şablonunu İndir",
             "text": "Çekim–montaj öncesi 5 dakikada kontrol eder, tempo ve sahne sürelerini standardize edersin.",
-            "href": "/tr/smm/icerik-uretimi"
+            "href": "/downloads/reels-storyboard-montaj-checklist-v1.0.pdf"
           },
           {
             "type": "media",
@@ -7395,6 +7513,10 @@
           {
             "type": "p",
             "text": "Tempo, videonun kalp atışıdır; cut ise ritmi belirleyen darbeler. “Kısa video montaj tempo” yönetilmediğinde reels, iyi çekilmiş olsa bile ağır akar. Bu bölümde amaç; teknikleri saymak değil, ne zaman hangisini kullanacağını netleştirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Kısa video montaj temposu güçlü olduğunda ses vuruşları, kesme noktaları ve geçişler daha anlamlı hale gelir; bu yüzden [Reels ses ve müzikle montaj uyumu](/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu) kurgu kararlarının önemli bir tamamlayıcısıdır."
           },
           {
             "type": "h3",
@@ -7499,6 +7621,10 @@
           },
           {
             "type": "p",
+            "text": "Kurgu masasında işinizi kolaylaştıran ham görüntüyü toplamak için [telefonla Reels çekim tekniği](/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar) kadraj, ışık, hareket ve B-roll planını montaj mantığıyla birlikte düşünmenizi sağlar."
+          },
+          {
+            "type": "p",
             "text": "Media önerisi (mockup): Aynı reels’in “ham” ve “kurgulanmış” hâlini yan yana gösteren bir görsel; hangi cut’larla tempo arttı anlaşılır."
           },
           {
@@ -7542,6 +7668,10 @@
           {
             "type": "p",
             "text": "Bu bölüm “reels storyboard örneği” arayan kullanıcı için somut şablon sunar. Buradaki hedef; kopyala-yapıştır değil, formatın mantığını öğretmektir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel için Reels akış planı](/tr/otel/sosyal-medya) oda, restoran, spa, destinasyon ve misafir deneyimi videolarını storyboard mantığıyla planlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -7697,6 +7827,10 @@
             "text": "Aynı reels’in “ham” ve “kurgulu” versiyonunu kıyaslamak; ekibin öğrenmesini hızlandırır. Ham versiyonda nerede düşüyor, kurgulu versiyonda hangi cut bunu düzeltiyor? Bu, teoriden hızlıdır."
           },
           {
+            "type": "p",
+            "text": "Daha yoğun ışık, ses, kamera ve sahne yönetimi gereken çekimlerde [profesyonel video prodüksiyon desteği](/tr/creative/video-produksiyon) storyboard’unuzu daha yüksek kaliteyle hayata geçirmeye yardımcı olur."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -7785,6 +7919,34 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Akıcı Reels için storyboard, tempo ve kesme aynı sistemde düşünülmeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reels storyboard ve montaj kalitesi, videonun yalnızca güzel görünmesini değil son kareye kadar akmasını sağlar. Hook, sahne sırası, jump cut, B-roll, metin ve CTA birlikte planlandığında kısa video üretimi daha öngörülebilir hale gelir; böylece hem otel hem B2B ekiplerinde üretim süresi kısalır ve kalite standardı yükselir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha sistemli kurmak isteyen ekipler için [jump cut Reels rehberi ve kısa video montaj temposu](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Storyboard & Montaj Analizi Talep Et",
+            "text": "Mevcut reels arşivinden 10 video seçelim; storyboard/tempo teşhisiyle hızlı iyileştirme planı çıkaralım.",
+            "href": "/tr/smm/reels-video"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels Storyboard & Montaj Checklist Şablonunu İndir",
+            "text": "Çekim–montaj öncesi 5 dakikada kontrol eder, sahne sürelerini ve tempo kararlarını standardize edersiniz.",
+            "href": "/downloads/reels-storyboard-montaj-checklist-v1.0.pdf"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -7837,11 +7999,15 @@
           "table-storyboard-shotlist — (tablo görseli)"
         ],
         "technicalChecklist": [
-          "Featured Snippet + PAA hedefi için net cevap blokları  eklendi",
-          "Storyboard şablonu tablo olarak tanımlandı (shotlist + süre + metin + cut)",
-          "Secondary CTA Download Asset (checklist/şablon) olarak kurgulandı",
-          "CTA yoğunluğu: Primary 2, Secondary 1 kuralına uyuldu",
-          "Refresh cycle: 365 gün; KPI ve iterasyon bölümü eklendi"
+          "Canonical kontrolü: /tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-storyboard-montaj-checklist-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu, /tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu, /tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar, /tr/creative/video-produksiyon, /tr/smm/icerik-uretimi, /tr/otel/sosyal-medya, /tr/smm/reels-video-sss",
+          "Download asset tipi: template",
+          "Storyboard ve montaj dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Strateji, ses ve çekim tekniği köprüleri doğal bağlamla üretim akışına eklendi",
+          "Video prodüksiyon, içerik üretimi ve otel sosyal medya bağlantıları uygulama katmanını destekleyecek şekilde hizalandı"
         ]
       }
     }
@@ -7896,7 +8062,7 @@
     },
     "h1": {
       "title": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
-      "intro": "Reels üretiminde ses, çoğu ekipte “son dakika seçimi” olarak kalır: “şu an trend neyse onu basalım.” Bu yaklaşım bazen hızlı erişim getirir; ama uzun vadede iki büyük problem yaratır: (1) marka tonu dağılır (her video başka bir ruh hâli), (2) telif/lisans riski ortaya çıkar (özellikle işletme hesaplarında kütüphane kısıtları ve içerik sessize alma senaryoları). Oysa audio stratejisi oturan hesaplarda, sessiz izleme alışkanlığı yüksek olsa bile izlenme süresi ve mesajın anlaşılma oranının daha yüksek olduğu sık raporlanır (kesin rakam iddiası değil; genel gözlem). Bu rehberde, trend sesleri doğru kullanmayı, orijinal ses/voice-over ile sürdürülebilir set kurmayı ve telif riskini yöneterek otel/B2B için “marka tonu tutarlı” bir reels sistemini nasıl kuracağını anlatıyoruz.",
+      "intro": "Reels üretiminde ses, çoğu ekipte “son dakika seçimi” olarak kalır: “şu an trend neyse onu basalım.” Bu yaklaşım bazen hızlı erişim getirir; ama uzun vadede iki büyük problem yaratır: (1) marka tonu dağılır (her video başka bir ruh hâli), (2) telif/lisans riski ortaya çıkar (özellikle işletme hesaplarında kütüphane kısıtları ve içerik sessize alma senaryoları). Oysa audio stratejisi oturan hesaplarda, sessiz izleme alışkanlığı yüksek olsa bile izlenme süresi ve mesajın anlaşılma oranının daha yüksek olduğu sık raporlanır (kesin rakam iddiası değil; genel gözlem). Bu rehberde, trend sesleri doğru kullanmayı, orijinal ses/voice-over ile sürdürülebilir set kurmayı ve telif riskini yöneterek otel/B2B için “marka tonu tutarlı” bir reels sistemini nasıl kuracağını anlatıyoruz. Bu yapıyı daha planlı kurmak isteyen ekipler için [Reels müzik seçimi](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Sesin rolünü tanımla: dikkat mi, atmosfer mi, anlatım mı?",
         "2) Trend sesi “araç” yap: gerekiyorsa voice-over + ambiyansla destekle",
@@ -7928,22 +8094,50 @@
         "href": "/tr/smm/reels-video"
       },
       {
+        "label": "Sosyal medya yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels storyboard ve montaj tempo rehberi",
+        "href": "/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi"
+      },
+      {
+        "label": "Reels çekim tekniği",
+        "href": "/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+      },
+      {
+        "label": "Reels performans analizi",
+        "href": "/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
+      },
+      {
         "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "KVKK & Veri Güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi: Sistem Kurma Rehberi",
-        "href": "/tr/smm/reels-video"
+        "title": "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
+        "href": "/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi"
       },
       {
-        "title": "Video Prodüksiyon: Marka İçin Üretim Standardı",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
+        "href": "/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+      },
+      {
+        "title": "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
+        "href": "/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
       }
     ],
     "sections": [
@@ -7958,6 +8152,10 @@
           {
             "type": "p",
             "text": "Bu içerikte yaklaşım “trend sesi bul → bas” değil; hedefe göre ses katmanlarını planlayıp (trend/orijinal/voice-over/ambiyans) altyazı standardıyla birlikte yürütmektir. Böylece hem marka tonu korunur hem de işletme hesabı kısıtları ve telif riskleri nedeniyle yaşanan “sessize alma/kaldırma” gibi sorunlar minimize edilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kalite katmanı, [sosyal medya yönetimi içinde Reels ses stratejisi](/tr/sosyal-medya-yonetimi) olarak ele alındığında görüntü, altyazı ve audio kararlarının tek bir video sistemi içinde planlanmasını kolaylaştırır."
           }
         ]
       },
@@ -7984,6 +8182,14 @@
           {
             "type": "p",
             "text": "Trend sesler bazen “keşif”e katkı sağlayabilir. Ama asıl fark; izleyicinin videoyu sonuna kadar taşıması ve “kaydetme/paylaşım” davranışı üretmesidir. Bu davranışlar, özellikle otel ve B2B’de “niyet” sinyali oluşturur."
+          },
+          {
+            "type": "p",
+            "text": "Bu ritmin kurgu tarafındaki karşılığını görmek için [müzik ritmine göre montaj temposu](/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi) kesme noktaları, geçişler ve sahne akışıyla ses kararlarını birlikte okumanızı sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [ses seçiminin Reels performansına etkisi](/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama) izlenme, kaydetme ve tıklama sinyallerini yalnızca görsel değil audio tercihi açısından da yorumlamayı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -8089,6 +8295,10 @@
             "text": "Voice-over, mesaj karmaşıksa ve güven inşa etmek gerekiyorsa güçlüdür. B2B’de “mini ders” ve “case” formatlarında trend sesten daha tutarlı bir “brand voice” üretir. Otelde ise oda/konsept anlatımı, SSS (erken rezervasyon, transfer, çocuk konsepti) ve “neden biz?” mesajlarında etkilidir. Pratik kural: 15–25 saniyelik reels’te 2–3 ana cümleyi geçmeyin."
           },
           {
+            "type": "p",
+            "text": "Çekim aşamasında temiz kayıt almak için [voice-over için çekim tekniği](/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar) ortam gürültüsü, mikrofon, telefon yerleşimi ve konuşma netliğini prodüksiyon öncesinde kontrol etmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Orijinal ses ve ambiyans (otel/restaurant/etkinlik için altın değer)"
           },
@@ -8169,6 +8379,10 @@
           {
             "type": "p",
             "text": "Düzenli üretim yapan markalar için “tek tek trend” yerine telif riski düşük bir müzik havuzu daha güvenlidir. Böylece “sessize alma/kaldırma” sürprizleri azalır ve ajans–müşteri ilişkisinde sorumluluk daha netleşir."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [işletme hesabında telifli müzik ve güvenli kullanım kontrolü](/tr/raporlama/kvkk-veri-guvenligi) yalnızca müzik seçimini değil, kişisel ses, görüntü izni ve kullanım onayı gibi riskli alanları da hatırlatır."
           },
           {
             "type": "callout",
@@ -8351,6 +8565,14 @@
             "text": "Aşırı efektli ses geçişleri, yüksek sesli müzik, boğulan voice-over… Bunlar “daha profesyonel” değil, çoğu zaman daha yorucudur. Metin/altyazı okunabilirliğini koruyun; export ve dosya boyutunu makul tutun. Kısacası: anlaşılır ses + okunur metin + telif uyumu = sürdürülebilir performans."
           },
           {
+            "type": "p",
+            "text": "Daha rafine miksaj, temiz voice-over ve marka filmi hissi gereken işlerde [profesyonel ses ve video prodüksiyon](/tr/creative/video-produksiyon) audio kararlarını çekim ve kurgu kalitesiyle birlikte yükseltir."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardın içerik takvimi boyunca korunması için [içerik üretiminde ses ve marka tonu](/tr/smm/icerik-uretimi) caption, format dengesi ve seri planıyla birlikte düşünülmelidir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Ses & Müzik Strateji Analizi Talep Et",
@@ -8419,6 +8641,10 @@
           {
             "type": "p",
             "text": "Birçok marka trend seslerle erişim yakalasa da, marka tonu ve telif konusunda net strateji olmadığı için zaman zaman sessize alınan veya kaldırılan içeriklerle karşılaşır. Bu boşluğu kapatmanın yolu “daha çok trend” değil; audio-first, rights-aware bir sistem kurmaktır: trend sesi araç, marka tonu ve uygunluk kuralları çerçeve olur. Böylece hem erişim hem güven hem de sürdürülebilir arşiv oluşur; ajans/ekip üretimi de hızlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı daha sistemli kurmak isteyen ekipler için [Reels ses stratejisi](/tr/smm/reels-video) desteğiyle ilerlemek ve karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasını incelemek sonraki doğal adımdır."
           },
           {
             "type": "callout",
@@ -8496,12 +8722,15 @@
           "proof-08 — 1200×1200 — reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu-proof-08.webp"
         ],
         "technicalChecklist": [
-          "Canonical: /tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu",
-          "Refresh Cycle: 365 gün (audio platform kuralları güncellenebilir notu içerikte var)",
-          "CTA yoğunluğu: Primary 2 kez (H1 + son 1/3), Secondary 1 kez (orta bölüm)",
-          "İç link hedefleri: /smm/reels-video, /creative/video-produksiyon, /raporlama/kvkk-veri-guvenligi",
-          "Tablo standardı: Audio Seçim Matrisi + Problem/Kök Neden/Çözüm + Öncesi/Sonrası KPI (yumuşak ifade)",
-          "Altyazı standardı notu içerikte: 6–10 kelime/satır, 1–2 satır, okunur kontrast"
+          "Canonical kontrolü: /tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-audio-checklist-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi, /tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar, /tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama, /tr/creative/video-produksiyon, /tr/raporlama/kvkk-veri-guvenligi, /tr/smm/icerik-uretimi, /tr/smm/reels-video-sss",
+          "Download asset tipi: template",
+          "Ses ve müzik dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Montaj, çekim tekniği ve performans analizi köprüleri doğal bağlamla içerik akışına eklendi",
+          "KVKK ve içerik üretimi bağlantıları güvenli kullanım ve marka tonu standardı bağlamında hizalandı"
         ]
       }
     }
@@ -8556,7 +8785,7 @@
     },
     "h1": {
       "title": "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
-      "intro": "Telefonla reels çekmek kolay; “pro” görünüm almak ise bir standart meselesi. TR’de çok kişi telefonla çekiyor ama içeriklerin büyük kısmı temel ışık/kadraj/kompozisyon hataları yüzünden “amatör” algısı yaratıyor. İyi haber: Kamera modeliniz aynı kalsa bile, doğru çekim prensipleriyle çok daha güven veren bir görsel hijyen yakalayabilirsiniz. Bu rehber; otel (oda–lobi–restoran–dış mekân) ve B2B (ofis–ekip–ekran) çekimleri için “sahada uygulanabilir” bir telefon-first üretim modeli sunar.",
+      "intro": "Telefonla reels çekmek kolay; “pro” görünüm almak ise bir standart meselesi. TR’de çok kişi telefonla çekiyor ama içeriklerin büyük kısmı temel ışık/kadraj/kompozisyon hataları yüzünden “amatör” algısı yaratıyor. İyi haber: Kamera modeliniz aynı kalsa bile, doğru çekim prensipleriyle çok daha güven veren bir görsel hijyen yakalayabilirsiniz. Bu rehber; otel (oda–lobi–restoran–dış mekân) ve B2B (ofis–ekip–ekran) çekimleri için “sahada uygulanabilir” bir telefon-first üretim modeli sunar. Bu standardı daha sistemli kurmak isteyen ekipler için [telefonla Reels çekim teknikleri](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Işığı planla: loş/patlamış görüntüyü çekimde çöz",
         "2) Dikey kadrajı “güvenli alan” mantığıyla kur",
@@ -8579,7 +8808,7 @@
       "secondary": {
         "label": "Reels Çekim Öncesi & Sahada Uygulama Checklist’ini İndir",
         "text": "Çekimden önce 5 dakikada kontrol ederek loş/patlamış görüntü, titreme ve dağınık kadraj hatalarını azaltırsınız.",
-        "href": "/tr/smm/reels-video"
+        "href": "/downloads/reels-cekimi-checklist-mobile-shooting-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -8588,22 +8817,50 @@
         "href": "/tr/smm/reels-video"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels Ses ve Müzik Stratejisi",
+        "href": "/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
+      },
+      {
+        "label": "Reels Performans Analizi",
+        "href": "/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
+      },
+      {
+        "label": "Reels On-Screen Text ve Altyazı Stratejisi",
+        "href": "/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik"
+      },
+      {
         "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "SMM Reels & Video Hakkında SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi: Format, Planlama ve Üretim Sistemi",
-        "href": "/tr/smm/reels-video"
+        "title": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+        "href": "/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
       },
       {
-        "title": "Video Prodüksiyon: Marka için Çekim & Kurgu Süreci",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
+        "href": "/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
+      },
+      {
+        "title": "Reels On-Screen Text ve Altyazı Stratejisi: Sessiz İzleme ve Erişilebilirlik",
+        "href": "/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik"
       }
     ],
     "sections": [
@@ -8624,6 +8881,10 @@
           {
             "type": "p",
             "text": "Telefon kamerası güçlüdür; ama hata toleransı düşüktür. Yanlış ışıkta çekilen video; hangi edit’i yaparsanız yapın “pro” görünmez. Aynı şekilde kötü kadraj; mekânı daraltır, ürün/hizmet değerini gizler. Bu yüzden önce üç temel: ışık → kadraj → kompozisyon."
+          },
+          {
+            "type": "p",
+            "text": "Bu üretim disiplini, [sosyal medya yönetimi içinde mobil video çekimi](/tr/sosyal-medya-yonetimi) yaklaşımının pratikteki en görünür kalite katmanıdır."
           },
           {
             "type": "h3",
@@ -8698,6 +8959,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Çekim sırasında [on-screen text için çekim alanı bırakmak](/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik) sessiz izleme ve erişilebilirlik açısından videonun mesajını daha net taşır."
+          },
+          {
             "type": "h3",
             "text": "Stabilite: “titreme = amatör algı”"
           },
@@ -8747,6 +9012,10 @@
           {
             "type": "p",
             "text": "Telefonla çekimde “mekân” ana karakter olabilir; özellikle otellerde. B2B’de ise mekân, güven ve profesyonellik sinyali üretir. İki tarafta da ana kural aynı: mekânı dikey kadraja göre kurgula."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otel hesaplarında [otel için dikey video çekimi](/tr/otel/sosyal-medya) örneklerini sektör bağlamında görmek çekim akışını daha hızlı netleştirir."
           },
           {
             "type": "h3",
@@ -8851,6 +9120,10 @@
             "text": "Bu bölüm, “telefonla reels çekerken nelere dikkat etmeliyim?” sorusunun en pratik cevabıdır. Çekim kalitesini en hızlı artıran şey, her çekimde tekrarlanan basit bir kontrol rutini kurmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu rutini [içerik üretimine bağlı Reels çekim planı](/tr/smm/icerik-uretimi) olarak düşünmek, çekimi takvim ve format sistemiyle aynı standarda bağlar."
+          },
+          {
             "type": "h3",
             "text": "Çekim öncesi 60 saniye kontrol"
           },
@@ -8886,6 +9159,10 @@
           {
             "type": "p",
             "text": "Platform önerileriyle uyumlu bir çıktı standardı seçmek, görüntünün “çamurlaşmasını” önler. Çok loş görüntüyü yükseltmek veya patlamış görüntüyü geri almak zordur; bu yüzden teknik kaliteyi çekimde kilitlemek daha ucuzdur."
+          },
+          {
+            "type": "p",
+            "text": "Ses tarafında da [telefonla Reels’te ses kontrolü](/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu) ortam gürültüsü, voice-over ve müzik kararlarını çekim öncesinde netleştirmeyi kolaylaştırır."
           },
           {
             "type": "table",
@@ -8946,7 +9223,7 @@
             "variant": "secondary",
             "label": "Reels Çekim Öncesi & Sahada Uygulama Checklist’ini İndir",
             "text": "Çekimden önce 5 dakikada kontrol ederek loş/patlamış görüntü, titreme ve dağınık kadraj hatalarını azaltırsınız.",
-            "href": "/tr/smm/reels-video"
+            "href": "/downloads/reels-cekimi-checklist-mobile-shooting-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -8964,6 +9241,14 @@
           {
             "type": "p",
             "text": "TR’de çok kişi telefonla çekim yapıyor; ama temel ışık/kadraj hataları nedeniyle “amatör” algı yaygın. Bu boşluğu doldurmanın yolu; pahalı ekipman değil, phone-first production standardı kurmak: ışık planı, dikey kompozisyon, görsel hijyen ve stabilite. Aynı telefonla bile profesyonel algı belirgin biçimde yükselir; markanın güveni artar ve B2B’de “ciddiyet” sinyali güçlenir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [Reels performansı için çekim kalitesi](/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama) izlenme, kaydetme ve tıklama sinyallerini ışık, netlik ve kadraj disiplini üzerinden okumayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Telefonla üretimin sınırına geldiğiniz noktalarda [profesyonel video prodüksiyon desteği](/tr/creative/video-produksiyon) kampanya kalitesi, gelişmiş ışık ve kurgu ihtiyacı için doğru eşik olur."
           },
           {
             "type": "callout",
@@ -9020,6 +9305,10 @@
             "text": "Telefonla reels çekiminde “pro” görünüm; ışık + kadraj + kompozisyon + stabilite standardının her içerikte tekrar edilmesiyle oluşur. Loş/patlamış görüntü, titreme ve kirli arka plan gibi hatalar pahalı ekipmanla bile algıyı aşağı çeker; bu yüzden çözüm çekimde ve rutinde olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu standardı ekibinize operasyonel bir sistem olarak taşımak isterseniz [Reels çekim rehberi](/tr/smm/reels-video) üzerinden hizmet yapısını inceleyebilir, karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels Çekim Tekniği Analiz Talebi",
@@ -9070,13 +9359,15 @@
           "proof-08 — 1200×1200 — reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar-proof-08.webp"
         ],
         "technicalChecklist": [
-          "OG/Twitter meta: metaTitle/metaDescription + og:image uyum kontrolü",
-          "Blog canonical: /tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar",
+          "Canonical kontrolü: /tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-cekimi-checklist-mobile-shooting-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu, /tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama, /tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik, /tr/creative/video-produksiyon, /tr/smm/icerik-uretimi, /tr/otel/sosyal-medya, /tr/smm/reels-video-sss",
           "Media slot mapping: hero-01, h1-context-02, divider-03, divider-04, diagram-05, checklist-06, kpi-07, proof-08",
-          "CTA yoğunluğu: Primary 2 kez (H1 + son 1/3), Secondary 1 kez (orta bölüm)",
-          "İç link hedefleri: /smm/reels-video + /creative/video-produksiyon + /smm/icerik-uretimi",
-          "Schema @graph planı: WebPage/Article/BreadcrumbList/FAQPage tek blok",
-          "İndirme asset yolu: /downloads/reels-cekimi-checklist-mobile-shooting-v1.0.pdf"
+          "Download asset tipi: checklist",
+          "Mobil cekim rehberinde ses, performans, altyazi ve otel baglantilari dogal baglamda eklendi",
+          "B2B ofis kisa video ornegi linksiz baglam olarak korundu"
         ]
       }
     }
@@ -9128,11 +9419,11 @@
     },
     "h1": {
       "title": "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
-      "intro": "Reels performansını “kaç izlenme aldı?” diye okumak, aslında sadece vitrine bakmaktır. Sonuç üreten hesaplar; izlenmenin arkasındaki davranışı ölçer: izleyici ilk 3 saniyede kaldı mı, sona taşındı mı, içeriği değerli bulup kaydetti mi, paylaşıp yaydı mı, CTA’ya tıklayıp aksiyona geçti mi? Bu metrikler birlikte okunduğunda; hangi hook, tema ve süre kombinasyonlarının otel/B2B hesabınız için gerçekten işe yaradığını gösterir. Bu rehber, Instagram Reels Insights ekranını “teşhis → çözüm → A/B test” döngüsüne bağlayarak sürekli optimizasyon standardı kurar.",
+      "intro": "Reels performansını “kaç izlenme aldı?” diye okumak, aslında sadece vitrine bakmaktır. Sonuç üreten hesaplar; izlenmenin arkasındaki davranışı ölçer: izleyici ilk 3 saniyede kaldı mı, sona taşındı mı, içeriği değerli bulup kaydetti mi, paylaşıp yaydı mı, CTA’ya tıklayıp aksiyona geçti mi? Bu metrikler birlikte okunduğunda; hangi hook, tema ve süre kombinasyonlarının otel/B2B hesabınız için gerçekten işe yaradığını gösterir. Bu rehber, Instagram Reels Insights ekranını “teşhis → çözüm → A/B test” döngüsüne bağlayarak sürekli optimizasyon standardı kurar. Bu yapıyı daha sistemli kurmak isteyen ekipler için [Reels performans analizi](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Reels Performans & Optimizasyon Analizi Talep Et",
-        "text": "30 dakikada KPI setinizi ve içerik türlerinizi çıkarıp “neyi değiştirince tıklama artar?” yol haritasını netleştirelim (ilgili sayfalar: https://dgtlface.com/tr/smm/reels-video ve https://dgtlface.com/tr/smm/analiz-raporlama).",
+        "text": "30 dakikada KPI setinizi ve içerik türlerinizi çıkarıp “neyi değiştirince tıklama artar?” yol haritasını netleştirelim (ilgili sayfalar: Reels & Video ve SMM Analiz & Raporlama).",
         "href": "/tr/smm/reels-video"
       }
     },
@@ -9140,12 +9431,12 @@
       "primary": {
         "label": "Reels Performans & Optimizasyon Analizi Talep Et",
         "text": "Reels metriklerinizi (retention–kaydetme–tıklama) teşhis eder, içerik türüne göre KPI seti ve optimizasyon planı çıkarırız (otel/B2B için).",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels Analytics & A/B Test Planlama Şablonunu İndir",
         "text": "Haftalık metrik okumasını ve A/B testleri tek sayfada planlar, “ne değişti–ne düzeldi” kararını netleştirirsiniz.",
-        "href": ""
+        "href": "/downloads/reels-analtics-ab-test-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -9154,15 +9445,52 @@
         "href": "/tr/smm/reels-video"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels İçin Çekim Tekniği",
+        "href": "/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+      },
+      {
+        "label": "Reels On-Screen Text ve Altyazı Stratejisi",
+        "href": "/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik"
+      },
+      {
+        "label": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+        "href": "/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak"
+      },
+      {
         "label": "SMM Analiz & Raporlama",
         "href": "/tr/smm/analiz-raporlama"
       },
       {
-        "label": "Satış ve Dönüşüm Raporları",
+        "label": "Satış ve Dönüşüm Raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "SMM Reels & Video Hakkında SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
+        "href": "/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+      },
+      {
+        "title": "Reels On-Screen Text ve Altyazı Stratejisi: Sessiz İzleme ve Erişilebilirlik",
+        "href": "/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik"
+      },
+      {
+        "title": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+        "href": "/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak"
+      }
+    ],
     "sections": [
       {
         "id": "hangi-metriklere-bakmaliyiz",
@@ -9177,8 +9505,16 @@
             "text": "Reels metrikleri tek tek bakıldığında “iyi görünebilir”; ama birlikte okunduğunda gerçek ortaya çıkar. En pratik yaklaşım, metrikleri 4 davranış kümesine ayırmaktır:"
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde Reels optimizasyonu](/tr/sosyal-medya-yonetimi) yalnız yaratıcı üretim değil, ölçüm ve iyileştirme ritmi olarak ele alınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "1) Akış & İlgi: İzlenme süresi + Retention"
+          },
+          {
+            "type": "p",
+            "text": "Pratikte Reels retention nedir? İzleyicinin videonun hangi noktasına kadar kaldığını ve en çok nerede düştüğünü gösteren temel davranış sinyalidir."
           },
           {
             "type": "list",
@@ -9201,6 +9537,10 @@
               "Paylaşma: içerik “sosyal değer” taşıyor mu? (komik, şaşırtıcı, çok net fayda)",
               "Otel ve B2B’de kaydetme, çoğu zaman “satın alma/rezervasyon öncesi niyet” sinyalidir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu davranışları sürdürülebilir biçimde görmek için [Reels kaydetme ve paylaşma artışını düzenli raporlamak](/tr/smm/analiz-raporlama) haftalık optimizasyon kararlarını daha net hale getirir."
           },
           {
             "type": "h3",
@@ -9263,12 +9603,20 @@
             "text": "İlk 3 saniye retention düşüyorsa, genelde sorun hook’tadır:\n• Açılış çok yavaş\n• “Merhaba ben…” ile başlıyor\n• İlk kare fayda göstermiyor\nÇözüm: Hook’u soru/vaat/kontrast ile güçlendir; ilk 1 saniyede “ne alacağım” net olsun."
           },
           {
+            "type": "p",
+            "text": "Aynı zamanda [çekim kalitesiyle Reels retention artırma](/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar) ilk kare netliği, ışık, kadraj ve ses tarafındaki sorunları daha erken teşhis etmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Soru-2: Video sonuna taşındı mı?"
           },
           {
             "type": "p",
             "text": "Sona taşınmıyorsa, sorun çoğu zaman tempo ve gereksiz sahnedir.\nÇözüm: Sahne sürelerini kısalt (1–2.5 sn bilgi sahnesi), jump cut ile boşlukları temizle, finali “tek CTA” ile bitir."
+          },
+          {
+            "type": "p",
+            "text": "Sessiz izleme oranı yüksek setlerde [altyazı ve on-screen text ile izlenme süresi artırma](/tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik) videonun ana mesajını daha uzun süre taşımaya yardımcı olur."
           },
           {
             "type": "h3",
@@ -9352,6 +9700,14 @@
               "İkincil: yorum / soru",
               "Burada izlenme değil aksiyon önceliklidir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [Reels’ten web site trafiği yaratmak](/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak) CTA, profil akışı ve rezervasyon sayfası uyumunu aynı çerçevede düşünmeyi sağlar."
+          },
+          {
+            "type": "p",
+            "text": "İş sonucunu okumak için [Reels satış ve dönüşüm etkisi](/tr/raporlama/satis-donusum) lead, form, rezervasyon ve WhatsApp sinyalleriyle birlikte değerlendirilmelidir."
           },
           {
             "type": "p",
@@ -9476,6 +9832,10 @@
             "text": "Teşhis: içerik atmosfer veriyor ama “referans değeri” yok.\nÇözüm: aynı temayı mini rehbere çevir (ör. “oda seçimi için 3 ipucu”), checklist ekle, kaydetme CTA’sı koy."
           },
           {
+            "type": "p",
+            "text": "Organikte çalışan bu tür setlerde [yüksek performanslı Reels kreatiflerini reklama taşımak](/tr/otel/reklam-yonetimi) sezon kampanyalarında ölçekleme için güçlü bir sonraki adım olabilir."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu – Kaydetme yüksek, tıklama düşük"
           },
@@ -9550,8 +9910,8 @@
             "type": "cta",
             "variant": "primary",
             "label": "Reels Performans & Optimizasyon Analizi Talep Et",
-            "text": "KPI okuma, A/B test planı ve içerik türü bazlı optimizasyon döngüsünü birlikte kuralım (ilgili sayfalar: https://dgtlface.com/tr/smm/analiz-raporlama ve https://dgtlface.com/tr/raporlama/satis-donusum).",
-            "href": "/tr/smm/analiz-raporlama"
+            "text": "KPI okuma, A/B test planı ve içerik türü bazlı optimizasyon döngüsünü birlikte kuralım (ilgili sayfalar: SMM Analiz & Raporlama ve Satış & Dönüşüm Raporlama).",
+            "href": "/tr/smm/reels-video"
           }
         ]
       },
@@ -9612,6 +9972,27 @@
             "buttonLabel": "Şablonu İndir"
           }
         ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Reels optimizasyonu yaratıcı karar kadar ölçüm disiplini ister",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reels performansı yalnız izlenme sayısıyla değil; retention, kaydetme, paylaşma, tıklama ve dönüşüm sinyalleri birlikte okunduğunda anlam kazanır. Doğru KPI seti, net A/B test rutini ve içerik türüne göre beklenti kurulduğunda optimizasyon süreci çok daha öngörülebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı ekibinizde operasyonel bir standarda çevirmek isterseniz [Reels optimizasyonu](/tr/smm/reels-video) üzerinden hizmet yapısını inceleyebilir, karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) bölümüne geçebilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Performans & Optimizasyon Analizi Talep Et",
+            "text": "Reels metriklerinizi ve video setinizi birlikte değerlendirip en hızlı optimizasyon planını çıkaralım.",
+            "href": "/tr/smm/reels-video"
+          }
+        ]
       }
     ],
     "faqTitle": "Sık Sorulan Sorular",
@@ -9664,7 +10045,17 @@
           "Buraya: [Reels Insight Mockup] — 16:9 — reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama-diagram-05.webp — “Insights ekranı ve metrik alanları vurgulu görsel”",
           "Buraya: [Comparison Table] — 4:3 — reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama-divider-04.webp — “Reels set A vs set B metrik karşılaştırma tablosu”"
         ],
-        "technicalChecklist": []
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-analtics-ab-test-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar, /tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik, /tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak, /tr/smm/analiz-raporlama, /tr/raporlama/satis-donusum, /tr/otel/reklam-yonetimi, /tr/smm/reels-video-sss",
+          "Media slot mapping: hero-01, h1-context-02, divider-03, divider-04, diagram-05, checklist-06, kpi-07, proof-08",
+          "Download asset tipi: template",
+          "Performans bridge yazisinda retention, altyazi, trafik, satis ve reklam olcekleme baglantilari dogal baglamda eklendi",
+          "CTA metinlerindeki ham URL gorunumleri temizlendi"
+        ]
       }
     }
   },
@@ -40197,7 +40588,7 @@
     },
     "h1": {
       "title": "OKR ve Hedef Hiyerarşisi ile Sosyal Medya Stratejisini Şirket Hedefleriyle Hizalamak",
-      "intro": "Yönetimin en sık sorduğu soru şudur: “Bu sosyal medya işi neye hizmet ediyor?” Eğer hedefler takipçi/like gibi vanity metriklerde kalırsa cevap zayıf olur; bütçe ve kaynak tartışmaları “hissiyat”a döner. OKR ve hedef hiyerarşisi yaklaşımı, sosyal medyayı şirketin büyük resmine bağlar: şirket hedefleri (gelir, doluluk, lead) pazarlama hedeflerine, oradan sosyal medya hedeflerine iner. Böylece her içerik serisi ve kampanya, bir Objective’e hizmet eder; Key Result’lar ölçülebilir ve raporlanabilir olur. Bu rehber, otel ve B2B markalar için OKR’yi sosyal medya stratejisine uygulayan pratik bir model, örnek OKR tabloları ve çeyrek sonu review rutinini sunar.",
+      "intro": "Yönetimin en sık sorduğu soru şudur: “Bu sosyal medya işi neye hizmet ediyor?” Eğer hedefler takipçi/like gibi vanity metriklerde kalırsa cevap zayıf olur; bütçe ve kaynak tartışmaları “hissiyat”a döner. OKR ve hedef hiyerarşisi yaklaşımı, sosyal medyayı şirketin büyük resmine bağlar: şirket hedefleri (gelir, doluluk, lead) pazarlama hedeflerine, oradan sosyal medya hedeflerine iner. Böylece her içerik serisi ve kampanya, bir Objective’e hizmet eder; Key Result’lar ölçülebilir ve raporlanabilir olur. Bu rehber, otel ve B2B markalar için OKR’yi sosyal medya stratejisine uygulayan pratik bir model, örnek OKR tabloları ve çeyrek sonu review rutinini sunar. Bu yapıyı kurmak isteyen ekipler için [OKR sosyal medya hedefleri](/tr/smm/planlama-strateji) yaklaşımı, hedef zincirini tek bir planlama sistemine toplar.",
       "quickSummary": [
         "1) Şirket OKR’lerini pazarlama hedeflerine çevir",
         "2) Pazarlama hedeflerinden SMM Objective’i çıkar",
@@ -40229,22 +40620,50 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal medya KPI çerçevesi blogu",
+        "href": "/tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur"
+      },
+      {
+        "label": "Yıllık sosyal medya bütçesi blogu",
+        "href": "/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi"
+      },
+      {
+        "label": "90 günlük roadmap blogu",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      },
+      {
         "label": "SEO raporlama rehberi",
         "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Satış ve dönüşüm raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SMM planlama ve strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "90 Günlük Sosyal Medya Roadmap ve Backlog Yönetimi",
-        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+        "title": "Sosyal Medya KPI Çerçevesi: Hedef ve Başarım Nasıl Ölçülür?",
+        "href": "/tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur"
       },
       {
-        "title": "SEO Raporlama: Yönetim İçin Anlamlı KPI Seti Nasıl Kurulur?",
-        "href": "/tr/seo/seo-raporlama"
+        "title": "Yıllık Sosyal Medya Bütçesi ve Kaynak Planlaması Nasıl Yapılır?",
+        "href": "/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi"
+      },
+      {
+        "title": "90 Günlük Sosyal Medya Roadmap ve Backlog Yönetimi",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
       }
     ],
     "sections": [
@@ -40271,6 +40690,10 @@
           {
             "type": "p",
             "text": "Sosyal medyada OKR’nin farkı; içerik ve kampanya kararlarını “sonuç” üzerinden yönetmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde OKR ve hedef hiyerarşisi](/tr/sosyal-medya-yonetimi) kurulduğunda içerik, kampanya ve raporlama kararlarını aynı yönetim diliyle toplar."
           },
           {
             "type": "h3",
@@ -40319,6 +40742,10 @@
           {
             "type": "p",
             "text": "Şirket OKR’leri genellikle gelir, doluluk, lead ve büyüme gibi üst seviyededir. Sosyal medya bunları doğrudan “satış” gibi taşıyamayabilir; ama ölçülebilir ara sonuçlara (brand search, nitelikli lead, meeting) çevirebilir. Kritik nokta; çeviriyi ortak KPI diliyle yapmak."
+          },
+          {
+            "type": "p",
+            "text": "Bu çeviriyi sayısal zemine oturtmak için [sosyal medya KPI setiyle OKR takibi](/tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur) baştan tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -40487,6 +40914,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu örneklerin iş sonucuna bağlanması için [satış ve dönüşüm hedeflerine sosyal medya katkısı](/tr/raporlama/satis-donusum) ayrı bir raporlama katmanı olarak görünür olmalıdır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (OKR kalitesi)",
@@ -40546,6 +40977,10 @@
             "text": "TR’de OKR konuşuluyor ama sosyal medya hedeflerine indirgeme ve günlük planla bağ kurma zayıf. Alignment’ın pratik yolu: OKR’yi takvim ve backlog’a “etiket” olarak gömmektir."
           },
           {
+            "type": "p",
+            "text": "Kaynak tarafında da [OKR hedeflerine göre sosyal medya bütçesi](/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi) planlanmadığında içerik, medya ve ekip yatırımı önceliklerle hizalanmaz."
+          },
+          {
             "type": "h3",
             "text": "OKR → içerik/kampanya/bütçe bağlantısı"
           },
@@ -40557,6 +40992,10 @@
               "Kampanya brief’inde Objective ve ilgili KR",
               "Bütçe tablosunda KR bazlı medya/üretim kalemi"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu etiketlerin gerçekten işlemesi için [90 günlük roadmap’e OKR aktarmak](/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi) gerekir; aksi halde hedefler çeyreklik aksiyonlara inmez."
           },
           {
             "type": "callout",
@@ -40611,6 +41050,14 @@
                 "..."
               ]
             ]
+          },
+          {
+            "type": "p",
+            "text": "Yönetim seviyesinde kanal katkısını görmek için [SEO raporlama ile hedef takibi](/tr/seo/seo-raporlama) sosyal medya review’leriyle birlikte okunmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kalıcı izlemek için [hedef hiyerarşisi ve OKR dashboard’u](/tr/veri-analiz-ve-raporlama) kurulması; Objective, KR ve sahiplik takibini tek ekranda toplar."
           },
           {
             "type": "callout",
@@ -40701,6 +41148,10 @@
             "text": "Bu yaklaşım özellikle otel, B2B ve kurumsal yapılarda yönetim iletişimini güçlendirir. Çünkü sosyal medya artık “paylaşım takvimi” değil; gelir, doluluk, lead, brand search ve pipeline gibi üst hedeflere katkısı ölçülen stratejik bir kanal olarak raporlanır."
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha sistemli kurmak isteyen ekipler için [şirket hedefleri ile sosyal medya hizalama](/tr/smm/planlama-strateji) desteğiyle ilerlemek ve karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sosyal Medya OKR & Hedef Hiyerarşisi Analizi Talep Et",
@@ -40759,12 +41210,13 @@
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/okr-ve-hedef-hiyerarsisi-ile-sosyal-medya-stratejisini-sirket-hedefleri-ile-hizalamak",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 5 soru-cevap doğrulandı",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/seo/seo-raporlama, /tr/raporlama/satis-donusum",
-          "Download Asset CTA href kontrolü yapılmalı",
-          "Tablo component’i için headers/rows alanları template ile uyumlu",
-          "Media slot isimleri frontend component mapping ile eşleştirilmeli",
-          "Refresh Cycle: 365 gün"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/sosyal-medya-okr-hedef-hiyerarsisi-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur, /tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi, /tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi, /tr/seo/seo-raporlama, /tr/raporlama/satis-donusum, /tr/veri-analiz-ve-raporlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "OKR ve hedef hiyerarşisi dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "KPI, bütçe ve roadmap köprüleri doğal bağlamla içerik akışına eklendi",
+          "SEO, satış-dönüşüm ve veri analiz bağlantıları yönetim raporlaması bağlamına taşındı"
         ]
       }
     }
@@ -40819,7 +41271,7 @@
     },
     "h1": {
       "title": "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi Nasıl Kurulur?",
-      "intro": "AI ile sosyal medya planlamak kulağa “takvimi sihirli şekilde dolduran otomasyon” gibi gelebilir. Pratikte ise asıl değer, hız ve seçenek üretiminde ortaya çıkar: AI size konu kümeleri, taslak caption’lar, brief/outline iskeletleri ve takvim boşluklarına alternatifler verir. Ama bu önerilerin hangisinin gerçekten marka stratejisine uyduğunu, hangisinin hedeflere hizmet ettiğini ve hangisinin riskli olduğunu insan stratejist belirler. Otel ve B2B markalarda en sık hata şudur: AI’dan gelen listeyi “direkt takvime koymak.” Sonuç olarak marka tonu kayar, gereksiz sıklık artar, KPI beklentileri şişer. Sağlıklı modelde “AI öneri üretir; insan seçer, düzeltir ve sorumluluk alır.”",
+      "intro": "AI ile sosyal medya planlamak kulağa “takvimi sihirli şekilde dolduran otomasyon” gibi gelebilir. Pratikte ise asıl değer, hız ve seçenek üretiminde ortaya çıkar: AI size konu kümeleri, taslak caption’lar, brief/outline iskeletleri ve takvim boşluklarına alternatifler verir. Ama bu önerilerin hangisinin gerçekten marka stratejisine uyduğunu, hangisinin hedeflere hizmet ettiğini ve hangisinin riskli olduğunu insan stratejist belirler. Otel ve B2B markalarda en sık hata şudur: AI’dan gelen listeyi “direkt takvime koymak.” Sonuç olarak marka tonu kayar, gereksiz sıklık artar, KPI beklentileri şişer. Sağlıklı modelde “AI öneri üretir; insan seçer, düzeltir ve sorumluluk alır.” Bu yapıyı kurmak isteyen ekipler için [AI destekli sosyal medya planlama](/tr/smm/planlama-strateji) yaklaşımı, hız ile stratejik kontrolü aynı sistemde toplar.",
       "quickSummary": [
         "1) AI’ya hedef, persona, kanal rolü ve pillar girdilerini ver",
         "2) AI’dan konu havuzu, takvim taslağı ve brief iskeleti al",
@@ -40851,6 +41303,22 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Test-ölç-öğren blogu",
+        "href": "/tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi"
+      },
+      {
+        "label": "Insight-driven strateji blogu",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
+      },
+      {
+        "label": "90 günlük roadmap blogu",
+        "href": "/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi"
+      },
+      {
         "label": "SMM içerik üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
@@ -40859,14 +41327,22 @@
         "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "SMM analiz ve raporlama",
-        "href": "/tr/smm/analiz-raporlama"
+        "label": "KVKK ve veri güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "SMM planlama ve strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "OKR ve Hedef Hiyerarşisi ile Sosyal Medya Stratejisini Şirket Hedefleriyle Hizalamak",
-        "href": "/tr/smm/blog/okr-ve-hedef-hiyerarsisi-ile-sosyal-medya-stratejisini-sirket-hedefleri-ile-hizalamak"
+        "title": "Test–Ölç–Öğren Döngüsü ile Veri Odaklı Sosyal Medya Stratejisi",
+        "href": "/tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi"
+      },
+      {
+        "title": "Insight-Driven Strateji: Analytics, DM, Yorum ve Sosyal Dinleme ile İçerik Planlamak",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
       },
       {
         "title": "90 Günlük Sosyal Medya Roadmap ve Backlog Yönetimi",
@@ -40885,6 +41361,10 @@
           {
             "type": "p",
             "text": "AI’nin en güçlü olduğu yer, “boş sayfayı doldurmak” ve hızlıca alternatif üretmektir. Burada amaç, AI’nın tek başına plan yapması değil; stratejistin eline kümelenmiş fikir havuzu ve takvim taslağı vermesidir. Özellikle içerik hacmi yüksek markalarda (otel zinciri, B2B içerik motoru, ajans portföyü) AI, fikri hızlandırır; insan ekip seçer ve filtreler."
+          },
+          {
+            "type": "p",
+            "text": "Bu model, [sosyal medya yönetimi içinde AI destekli planlama](/tr/sosyal-medya-yonetimi) kurulduğunda yalnızca fikir üretimini değil; öncelik, ton ve yayın kararlarını da daha tutarlı hale getirir."
           },
           {
             "type": "h3",
@@ -40920,6 +41400,10 @@
           {
             "type": "p",
             "text": "“Erken rezervasyon” tek başına içerik planı değildir. AI’dan “erken rezervasyon”u; koşul şeffaflığı, aile konsepti, UGC kanıt, destinasyon, fiyat/ödeme kolaylığı gibi kümelere ayırmasını istersiniz. Sonra insan stratejist, hangi kümenin hangi hafta öne çıkacağını sezon takvimiyle belirler."
+          },
+          {
+            "type": "p",
+            "text": "Takvimin yalnızca prompt akışıyla değil veriyle güçlenmesi için [insight-driven AI içerik takvimi](/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama) yaklaşımıyla analytics, DM, yorum ve sosyal dinleme sinyalleri birlikte okunmalıdır."
           },
           {
             "type": "callout",
@@ -40958,6 +41442,10 @@
             "text": "Takvimi yapmak tek başına yetmez; içerik üretim süreci brief ve görev dağılımıyla çalışır. AI burada iki kritik yükü alır: (1) brief’in “iskeletini” hızlı üretmek, (2) görevleri (yazan/tasarlayan/yükleyen/yanıtlayan) netleştiren operasyon kartları önermek. Ancak final brief’in doğruluk, ton ve yasal risk kontrolü insanda kalmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu taslakların yayınlanabilir çıktıya dönüşmesi için [AI planlamadan sosyal medya içerik üretimine geçiş](/tr/smm/icerik-uretimi) akışının caption, görsel, reels ve story üretim standardıyla birlikte kurulması gerekir."
+          },
+          {
             "type": "h3",
             "text": "AI hangi aşamalarda kullanılmalı, hangilerinde insan karar vermeli?"
           },
@@ -40994,6 +41482,10 @@
             "text": "AI, “case post” için outline çıkarır: problem → çözüm → kanıt → CTA. İnsan stratejist, “kanıt” kısmında kullanılacak metriklerin doğru ve paylaşılabilir olup olmadığını kontrol eder; gereksiz iddiaları ayıklar."
           },
           {
+            "type": "p",
+            "text": "Aynı aşamada [AI kullanımında KVKK ve veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla müşteri verisi, özel kampanya bilgisi ve gizli marka dokümanlarının prompt içine taşınmaması gerekir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Brief doğrulama)",
@@ -41024,6 +41516,10 @@
           {
             "type": "p",
             "text": "AI, “hangi saat daha iyi?” veya “hangi format daha iyi performans verir?” gibi sorularda yardımcı olabilir; ama bu tahminler kesin değildir. Bu yüzden AI’nın KPI tahminini “öneri” olarak almak, mutlaka manuel sanity-check yapmak gerekir. Özellikle küçük hesaplarda örneklem az olduğu için tahminler yanıltıcı olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [AI fikirlerini test–ölç–öğren döngüsüne almak](/tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi) ve iyi çalışan önerileri veriyle ayıklamak planın güvenilirliğini artırır."
           },
           {
             "type": "h3",
@@ -41091,9 +41587,13 @@
             "items": [
               "AI’dan KPI tahmini alın; “test hipotezi” olarak yazın.",
               "Her ay 2 içerik için mini test planlayın (hook/CTA).",
-              "KPI’ları /tr/seo/seo-raporlama ve /tr/smm/analiz-raporlama ile hizalayın.",
+              "KPI’ları SEO raporları ve sosyal medya analiz verileriyle hizalayın.",
               "“En iyi saat” önerilerini ayda bir gözden geçirip güncelleyin."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Yükselen konu başlıklarını takvime taşımak için [SEO raporlarından sosyal medya içerik fikri çıkarmak](/tr/seo/seo-raporlama) yaklaşımı, organik görünürlük verisini sosyal medya planlamasına bağlar."
           },
           {
             "type": "media",
@@ -41218,6 +41718,10 @@
           {
             "type": "p",
             "text": "AI araçları, content calendar, brief üretimi ve KPI tahmini gibi alanlarda “co-pilot” rolü oynar; insan stratejist ise hedef, persona, öncelik ve risk yönetimi kararlarıyla yön verir. Editör, tone of voice ve doğruluk kontrolüyle çıktıyı yayın standardına getirir. Bu zincir, “AI hız” ile “insan sorumluluk” dengesini kurarak ölçeklenebilir ve güvenli bir planlama sistemi üretir."
+          },
+          {
+            "type": "p",
+            "text": "Seçilen önerilerin havuzda kaybolmaması için [90 günlük roadmap’e AI fikirlerini aktarmak](/tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi) ve backlog içinde öncelik sırasına göre işletmek gerekir."
           },
           {
             "type": "callout",
@@ -41356,6 +41860,10 @@
             "text": "Sağlıklı modelde AI önerir, insan seçer; AI taslak üretir, insan doğrular; AI performans bandı önerir, insan sanity-check yapar. Böylece sosyal medya takvimi hem daha hızlı hazırlanır hem de marka tonu, stratejik öncelik ve KPI gerçekçiliği korunur."
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha sistemli kurmak isteyen ekipler için [ChatGPT ile SMM takvimi ve insan kontrollü planlama](/tr/smm/planlama-strateji) desteğiyle ilerlemek ve karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI Destekli Planlama & Takvim Analizi Talep Et",
@@ -41417,14 +41925,14 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi",
-          "Refresh Cycle: 180 gün",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 6 soru-cevap doğrulandı",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/smm/icerik-uretimi, /tr/seo/seo-raporlama, /tr/smm/analiz-raporlama",
-          "Download Asset CTA href kontrolü yapılmalı",
-          "Tablo component’i için headers/rows alanları template ile uyumlu",
-          "Media slot isimleri frontend component mapping ile eşleştirilmeli",
-          "AI araçları/politikaları için 180 günlük güncelleme backlog’u açılmalı"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/ai-smm-planlama-akisi-takvim-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/test-olc-ogren-dongusu-ile-veri-odakli-sosyal-medya-stratejisi, /tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama, /tr/smm/blog/90-gunluk-sosyal-medya-roadmap-ve-backlog-yonetimi, /tr/seo/seo-raporlama, /tr/smm/icerik-uretimi, /tr/raporlama/kvkk-veri-guvenligi, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "AI planlama dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Test-ölç-öğren, insight-driven strateji ve roadmap köprüleri doğal bağlamla içerik akışına eklendi",
+          "SEO raporlama, içerik üretimi ve KVKK bağlantıları insan kontrolü ve güvenli kullanım bağlamına taşındı"
         ]
       }
     }
@@ -41479,7 +41987,7 @@
     },
     "h1": {
       "title": "Dark Social ve Kapalı Kanallar: DM, WhatsApp ve Toplulukları Stratejiye Nasıl Dahil Edersiniz?",
-      "intro": "Sosyal medya analizleri çoğu zaman “herkese açık” etkileşim ve link tıklamalarına dayanır. Oysa kullanıcıların önemli bir bölümü içerikleri DM’den veya WhatsApp gruplarında “arkadaşa atarak” paylaşır. Bu paylaşım, özellikle otel ve referans ağı güçlü B2B sektörlerinde satın alma kararını hızlandırır; ama ölçümde görünmez. Dark social stratejisi tam da burada devreye girer: paylaşıma uygun içerikler üretmek, DM/WhatsApp akışlarını planlamak ve doğrudan ölçemediğiniz etkiyi proxy KPI’larla izlemek. Bu rehber, kapalı kanalları stratejiye dahil etmek için içerik tasarımı, operasyon ve ölçüm yaklaşımını somutlaştırır.",
+      "intro": "Sosyal medya analizleri çoğu zaman “herkese açık” etkileşim ve link tıklamalarına dayanır. Oysa kullanıcıların önemli bir bölümü içerikleri DM’den veya WhatsApp gruplarında “arkadaşa atarak” paylaşır. Bu paylaşım, özellikle otel ve referans ağı güçlü B2B sektörlerinde satın alma kararını hızlandırır; ama ölçümde görünmez. Dark social stratejisi tam da burada devreye girer: paylaşıma uygun içerikler üretmek, DM/WhatsApp akışlarını planlamak ve doğrudan ölçemediğiniz etkiyi proxy KPI’larla izlemek. Bu rehber, kapalı kanalları stratejiye dahil etmek için içerik tasarımı, operasyon ve ölçüm yaklaşımını somutlaştırır. Bu görünmeyen alanı sistemli yönetmek isteyen ekipler için [dark social nedir](/tr/smm/planlama-strateji) sorusunu planlama ve strateji çerçevesinde ele almak gerekir.",
       "quickSummary": [
         "1) Dark social’ı görünmeyen paylaşım davranışı olarak kabul et",
         "2) DM/WhatsApp/topluluk rollerini kanal stratejisine ekle",
@@ -41511,22 +42019,50 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal medya CRM entegrasyonu blogu",
+        "href": "/tr/smm/blog/satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu"
+      },
+      {
+        "label": "Insight-driven strateji blogu",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
+      },
+      {
+        "label": "Community-led strateji blogu",
+        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
+      },
+      {
         "label": "Mesaj yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
         "label": "Satış ve dönüşüm raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM planlama ve strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi Nasıl Kurulur?",
-        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi"
+        "title": "Satış, Rezervasyon ve CRM Ekipleri ile Sosyal Medya Entegrasyonu Nasıl Kurulur?",
+        "href": "/tr/smm/blog/satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu"
       },
       {
-        "title": "OKR ve Hedef Hiyerarşisi ile Sosyal Medya Stratejisini Şirket Hedefleriyle Hizalamak",
-        "href": "/tr/smm/blog/okr-ve-hedef-hiyerarsisi-ile-sosyal-medya-stratejisini-sirket-hedefleri-ile-hizalamak"
+        "title": "Insight-Driven Strateji: Analytics, DM, Yorum ve Sosyal Dinleme ile İçerik Planlamak",
+        "href": "/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama"
+      },
+      {
+        "title": "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama",
+        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
       }
     ],
     "sections": [
@@ -41541,6 +42077,10 @@
           {
             "type": "p",
             "text": "Dark social, kullanıcıların içerikleri kapalı kanallarda paylaşması nedeniyle analitik araçların kaynakları tam yakalayamaması durumudur. Bu; DM, WhatsApp, Telegram grupları, yayın kanalları ve topluluklar gibi ortamlarda olur. Sonuç: içerik bir sürü kişiye ulaşır, hatta satışa etkiler; ama raporda “direct” veya belirsiz kaynak gibi görünür."
+          },
+          {
+            "type": "p",
+            "text": "Bu görünmeyen katman, [sosyal medya yönetimi içinde dark social](/tr/sosyal-medya-yonetimi) olarak ele alındığında yalnızca public feed verileriyle sınırlı kalmayan daha gerçekçi bir planlama zemini kurulur."
           },
           {
             "type": "h3",
@@ -41613,6 +42153,14 @@
             "text": "WhatsApp’ta en çok paylaşılan içerikler genelde “paket ne içeriyor?”, “çocuk konsepti var mı?”, “transfer nasıl?” gibi karar kolaylaştıran formatlardır."
           },
           {
+            "type": "p",
+            "text": "Bu akışın sürdürülebilir olması için [DM ve WhatsApp mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) yapısının yanıt standardı, yönlendirme ve takip notlarıyla birlikte kurulması gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Sadakat, insider duyurular ve özel grup etkileşimleri tarafında [kapalı kanallar için içerik stratejisi](/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama) yaklaşımı community-led planlamayı dark social davranışıyla birleştirir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Rol net mi?)",
@@ -41643,6 +42191,10 @@
           {
             "type": "p",
             "text": "Paylaşılabilirlik, “viral olmak” demek değildir. Bir içeriğin DM/WhatsApp’ta paylaşılabilir olması; net, kısa, pratik ve “başkasına gönderilmeye değer” olmasıdır. Burada içerik türleri ve tasarım şablonları çok önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Takvimde hangi konuların tekrar paylaşıldığını anlamak için [kapalı kanallardan içerik insight’ı çıkarmak](/tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama) DM, WhatsApp ve topluluk konuşmalarını düzenli olarak kategori bazında okumayı gerektirir."
           },
           {
             "type": "h3",
@@ -41713,6 +42265,10 @@
             "text": "Dark social’ın en güçlü yanı “tavsiye”dir. İnsanlar bir oteli arkadaşına önerirken ya da bir B2B çözümü paylaşırken, “kanıt” ve “net bilgi” arar. Bu yüzden referral akışı; içerik → paylaşım → özel landing/kupon → talep/lead adımlarına bağlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu talep hattının satışa veya rezervasyona kopmadan ilerlemesi için [sosyal medya CRM entegrasyonu](/tr/smm/blog/satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu) DM, lead ve rezervasyon sorularını doğru ekiplere aktaran operasyon yapısını netleştirir."
+          },
+          {
             "type": "h3",
             "text": "Otel referral akışı (örnek)"
           },
@@ -41725,6 +42281,10 @@
               "Özel landing: /family-pack (Varsayım)",
               "DM/WhatsApp talebi → rezervasyon ekibine devir"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle rezervasyon niyeti taşıyan soruların yoğunlaştığı dönemlerde [otel dijital pazarlamada dark social](/tr/otel-dijital-pazarlama) davranışı özel kampanya paylaşımının ve misafir iletişiminin önemini daha görünür hale getirir."
           },
           {
             "type": "h3",
@@ -41771,6 +42331,10 @@
           {
             "type": "p",
             "text": "Dark social’ı doğrudan ölçemeyiz; çünkü paylaşım kapalıdır. Ama bunu “ölçemiyoruz, boşver” diye bırakmak da yanlış olur. Yapılacak şey; özel linkler, kupon kodları, anket soruları ve DM etiketleriyle tahmini ölçü kurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu tahmini yapının iş sonucuna bağlanması için [dark social satış ve dönüşüm etkisi](/tr/raporlama/satis-donusum) ayrı bir raporlama katmanı olarak izlenmelidir."
           },
           {
             "type": "h3",
@@ -41958,6 +42522,10 @@
             "text": "Bu etkiyi doğrudan ölçmek mümkün değildir; bu yüzden strateji “paylaşılabilir içerik tasarımı + kapalı kanal operasyonu + proxy KPI seti” üzerine kurulmalıdır. Özel landing, UTM, kupon/ref kodu, DM etiketleri ve “nereden duydun?” soruları birlikte kullanıldığında dark social etkisi daha yönetilebilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu modeli daha sistemli kurmak isteyen ekipler için [private sharing social davranışını stratejiye dahil etmek](/tr/smm/planlama-strateji) ve karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Dark Social & Kapalı Kanal Stratejisi Analizi Talep Et",
@@ -42015,14 +42583,14 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek",
-          "Refresh Cycle: 180 gün",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 5 soru-cevap doğrulandı",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/cagri-merkezi/mesaj-yonetimi, /tr/raporlama/satis-donusum",
-          "Download Asset CTA href kontrolü yapılmalı",
-          "Tablo component’i için headers/rows alanları template ile uyumlu",
-          "Media slot isimleri frontend component mapping ile eşleştirilmeli",
-          "DM/topluluk/link paylaşım dinamikleri için 180 günlük güncelleme backlog’u açılmalı"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/dark-social-uyumlu-icerik-proxy-kpi-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/satis-rezervasyon-ve-crm-ekipleri-ile-sosyal-medya-entegrasyonu, /tr/smm/blog/insight-driven-strateji-analytics-dm-yorum-ve-sosyal-dinleme-ile-icerik-planlama, /tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama, /tr/cagri-merkezi/mesaj-yonetimi, /tr/raporlama/satis-donusum, /tr/otel-dijital-pazarlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Dark social dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "CRM, insight-driven ve community-led köprüleri doğal bağlamla içerik akışına eklendi",
+          "Mesaj yönetimi, satış-dönüşüm ve otel dijital pazarlama bağlantıları proxy ölçüm ve kapalı kanal davranışı bağlamına taşındı"
         ]
       }
     }
@@ -42077,7 +42645,7 @@
     },
     "h1": {
       "title": "Creator Ekonomisi ve Co-Creation: Yaratıcılarla Ortak İçerik Nasıl Planlanır?",
-      "intro": "TR’de influencer marketing uzun zamandır konuşuluyor; ancak creator economy ve co-creation yaklaşımı yeni yeni netleşiyor. Aradaki fark önemli: influencer iş birlikleri çoğu zaman “tek post” ve kısa vadeli görünürlük üzerine kurulurken, co-creation gerçek bir ortak üretim ve hikâye kurma işidir. Bu modelde creator’un anlatımı ve formatı “native” kalmalı; marka ise hedef, KPI, doğruluk ve etik sınırları belirlemelidir. Aksi halde iki risk ortaya çıkar: marka her şeyi kontrol ederse içerik reklam gibi görünür; creator tamamen serbest kalırsa marka tonu ve hassasiyetleri zarar görür. Bu rehber, otel ve B2B markalar için rol dağılımı, brief tasarımı, takvim entegrasyonu ve etik/hukuki gerekliliklerle sürdürülebilir co-creation planını kurar.",
+      "intro": "TR’de influencer marketing uzun zamandır konuşuluyor; ancak creator economy ve co-creation yaklaşımı yeni yeni netleşiyor. Aradaki fark önemli: influencer iş birlikleri çoğu zaman “tek post” ve kısa vadeli görünürlük üzerine kurulurken, co-creation gerçek bir ortak üretim ve hikâye kurma işidir. Bu modelde creator’un anlatımı ve formatı “native” kalmalı; marka ise hedef, KPI, doğruluk ve etik sınırları belirlemelidir. Aksi halde iki risk ortaya çıkar: marka her şeyi kontrol ederse içerik reklam gibi görünür; creator tamamen serbest kalırsa marka tonu ve hassasiyetleri zarar görür. Bu rehber, otel ve B2B markalar için rol dağılımı, brief tasarımı, takvim entegrasyonu ve etik/hukuki gerekliliklerle sürdürülebilir co-creation planını kurar. Bu sistemi kurmak isteyen ekipler için [creator ekonomisi nedir](/tr/smm/planlama-strateji) sorusunu planlama ve strateji çerçevesinde ele almak gerekir.",
       "quickSummary": [
         "1) Influencer post satın alma ile creator co-creation farkını ayır",
         "2) Marka hedef/KPI ve non-negotiables alanlarını netleştir",
@@ -42109,22 +42677,50 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "SMM içerik üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Kanal stratejisi blogu",
+        "href": "/tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler"
+      },
+      {
+        "label": "Marka rehberi ve style guide blogu",
+        "href": "/tr/smm/blog/marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu"
+      },
+      {
+        "label": "Community-led strateji blogu",
+        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
       },
       {
         "label": "Backlink yönetimi",
         "href": "/tr/seo/backlink-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM Reels ve Video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "SMM planlama ve strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "AI Destekli Sosyal Medya Planlama ve İçerik Takvimi Nasıl Kurulur?",
-        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-planlama-ve-icerik-takvimi"
+        "title": "Kanal Stratejisi: Instagram, TikTok, YouTube ve LinkedIn İçin Ayrı Hedefler Nasıl Belirlenir?",
+        "href": "/tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler"
       },
       {
-        "title": "Dark Social ve Kapalı Kanallar: DM, WhatsApp ve Toplulukları Stratejiye Nasıl Dahil Edersiniz?",
-        "href": "/tr/smm/blog/dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek"
+        "title": "Marka Rehberi, Ton ve Sosyal Medya Style Guide Entegrasyonu",
+        "href": "/tr/smm/blog/marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu"
+      },
+      {
+        "title": "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama",
+        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
       }
     ],
     "sections": [
@@ -42139,6 +42735,10 @@
           {
             "type": "p",
             "text": "Creator ekonomisi, içerik üretiminin profesyonel ekiplerden bağımsız yaratıcılarla ölçeklenmesini ifade eder. Burada marka için fırsat, creator’un güven ve topluluk bağını kendi hikâyenize doğru şekilde entegre etmektir. Bu bir “medya satın alma” işi değil; strateji ve ilişki yönetimidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde creator iş birlikleri](/tr/sosyal-medya-yonetimi) olarak ele alındığında tek seferlik paylaşım yerine kanal, brief ve dağıtım planıyla yönetilen bir sisteme dönüşür."
           },
           {
             "type": "h3",
@@ -42187,6 +42787,10 @@
           {
             "type": "p",
             "text": "Influencer işlerinde marka kontrolü ve mesaj bazen ağır basar. Creator işlerinde ise format ve anlatım creator’a aittir; marka “çerçeve” verir. Bu ayrım, brief tasarımını ve onay sürecini doğrudan etkiler."
+          },
+          {
+            "type": "p",
+            "text": "Hangi içeriğin Instagram, TikTok, YouTube veya LinkedIn’de nasıl değerlendirileceğini netleştirmek için [creator içerikleri için kanal stratejisi](/tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler) baştan kurulmalıdır."
           },
           {
             "type": "h3",
@@ -42251,6 +42855,10 @@
             "text": "Co-creation; marka ve creator’un birlikte hikâye kurduğu modeldir. Marka hedefi, doğruluk ve sınırları belirler; creator ise anlatım ve formatı sahiplenir. Bu yüzden rol paylaşımı net değilse ya içerik “reklam gibi” olur ya da marka risk alır."
           },
           {
+            "type": "p",
+            "text": "Erişimin ötesinde güven ve sadakat üretmek için [community-led creator iş birlikleri](/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama) yaklaşımı creator topluluğunu aktif bir strateji katmanına dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "Co-creation içerik nasıl planlanır?"
           },
@@ -42308,6 +42916,10 @@
           {
             "type": "p",
             "text": "En kritik tasarım: brief. Brief çok detaylıysa creator’ın dili ölür; çok boşsa marka riske girer. Bu yüzden brief’i ikiye ayırmak gerekir:"
+          },
+          {
+            "type": "p",
+            "text": "Bu dengeyi kalıcı hale getirmek için [marka tonuna uygun creator brief’i](/tr/smm/blog/marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu) marka tonu, görsel dil ve içerik sınırlarını yaratıcı özgürlükle birlikte çerçeveler."
           },
           {
             "type": "list",
@@ -42406,6 +43018,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Sezon kampanyaları, deneyim anlatımı ve rezervasyon niyeti tarafında [otel için creator işbirliği](/tr/otel-dijital-pazarlama) planı creator içeriğini otel dijital pazarlama hedefleriyle aynı çizgide tutar."
+          },
+          {
             "type": "h3",
             "text": "B2B için formatlar"
           },
@@ -42420,6 +43036,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu içeriklerden doğan yayın, referans ve mention fırsatlarını daha görünür kılmak için [creator içerikleriyle dijital otorite kazanımı](/tr/seo/backlink-yonetimi) yaklaşımı creator iş birliklerini SEO sinyalleriyle birlikte okumayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Funnel yerleşimi (kısa)"
           },
@@ -42431,6 +43051,10 @@
               "Consideration: rehber/case",
               "Conversion: teklif/demo/rezervasyon CTA + remarketing (Varsayım)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Uzun creator kayıtlarını daha yüksek dağıtım potansiyeline taşımak için [Reels ve kısa video için creator içerikleri](/tr/smm/reels-video) yaklaşımı hook, dikey video ve kısa kesit kurgusunu netleştirir."
           },
           {
             "type": "callout",
@@ -42560,6 +43184,10 @@
             "text": "Otel ve B2B markalar için başarılı model; marka çerçeveyi belirler, creator anlatımı sahiplenir, içerik seri ve repurpose planıyla takvime bağlanır. Ölçümde izlenme süresi, yorum kalitesi, DM/lead sinyalleri ve referral etkisi birlikte okunmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha sistemli kurmak isteyen ekipler için [co-creation içerik planlama](/tr/smm/planlama-strateji) desteğiyle ilerlemek ve karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Creator & Co-Creation Strateji Analizi Talep Et",
@@ -42617,14 +43245,14 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama",
-          "Refresh Cycle: 180 gün",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 5 soru-cevap doğrulandı",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/smm/icerik-uretimi, /tr/seo/backlink-yonetimi",
-          "Download Asset CTA href kontrolü yapılmalı",
-          "Tablo component’i için headers/rows alanları template ile uyumlu",
-          "Media slot isimleri frontend component mapping ile eşleştirilmeli",
-          "Platformların paid partnership / sponsored etiketleme kuralları için 180 günlük güncelleme backlog’u açılmalı"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/creator-isbirligi-brief-co-creation-takvim-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/kanal-stratejisi-instagram-tiktok-youtube-linkedin-icin-ayri-hedefler, /tr/smm/blog/marka-rehberi-ton-ve-sosyal-medya-style-guide-entegrasyonu, /tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama, /tr/seo/backlink-yonetimi, /tr/otel-dijital-pazarlama, /tr/smm/reels-video, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Creator economy dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Kanal stratejisi, style guide ve community-led köprüleri doğal bağlamla içerik akışına eklendi",
+          "Backlink, otel dijital pazarlama ve Reels & Video bağlantıları dağıtım ve otorite bağlamına taşındı"
         ]
       }
     }
@@ -42679,7 +43307,7 @@
     },
     "h1": {
       "title": "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama",
-      "intro": "Birçok marka sosyal medyayı “yayın akışı” olarak görür: içerik üret, paylaş, reklamla büyüt. Community-led yaklaşım ise farklı bir yerden başlar: topluluk. Topluluk; kullanıcıların soru sorduğu, birbirine yardım ettiği, deneyim paylaştığı ve markayla birlikte hikâye yazdığı alandır. Otellerde bu; sadakat programı, VIP misafir grubu, deneyim topluluğu, hatta IG yayın kanalı üzerinden Q&A ritmi olabilir. B2B’de ise kullanıcı toplulukları, power user’lar ve ambassador’lar üzerinden bilgi paylaşımı ve ortak içerik üretimi şeklinde ilerler. Bu rehberde “önce topluluk, sonra yayın” prensibiyle ritim kurmayı, içerik planını topluluk içgörüleriyle beslemeyi ve başarıyı topluluk KPI’larıyla ölçmeyi adım adım ele alıyoruz.",
+      "intro": "Birçok marka sosyal medyayı “yayın akışı” olarak görür: içerik üret, paylaş, reklamla büyüt. Community-led yaklaşım ise farklı bir yerden başlar: topluluk. Topluluk; kullanıcıların soru sorduğu, birbirine yardım ettiği, deneyim paylaştığı ve markayla birlikte hikâye yazdığı alandır. Otellerde bu; sadakat programı, VIP misafir grubu, deneyim topluluğu, hatta IG yayın kanalı üzerinden Q&A ritmi olabilir. B2B’de ise kullanıcı toplulukları, power user’lar ve ambassador’lar üzerinden bilgi paylaşımı ve ortak içerik üretimi şeklinde ilerler. Bu rehberde “önce topluluk, sonra yayın” prensibiyle ritim kurmayı, içerik planını topluluk içgörüleriyle beslemeyi ve başarıyı topluluk KPI’larıyla ölçmeyi adım adım ele alıyoruz. Bu modeli sistemli kurmak isteyen ekipler için [community-led sosyal medya](/tr/smm/planlama-strateji) yaklaşımı planlama ve strateji katmanında ele alınmalıdır.",
       "quickSummary": [
         "1) Sosyal medyayı sadece yayın değil topluluk zemini olarak konumlandır",
         "2) Topluluk amacını, kurallarını ve moderasyon hattını yazılı hale getir",
@@ -42711,12 +43339,36 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "SMM içerik üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Dark social stratejisi blogu",
+        "href": "/tr/smm/blog/dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek"
+      },
+      {
+        "label": "Creator co-creation blogu",
+        "href": "/tr/smm/blog/creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama"
+      },
+      {
+        "label": "Değer bazlı içerik ve ESG blogu",
+        "href": "/tr/smm/blog/deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek"
       },
       {
         "label": "Mesaj yönetimi",
         "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM analiz ve raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "SMM planlama ve strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
@@ -42727,6 +43379,10 @@
       {
         "title": "Creator Ekonomisi ve Co-Creation: Yaratıcılarla Ortak İçerik Nasıl Planlanır?",
         "href": "/tr/smm/blog/creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama"
+      },
+      {
+        "title": "ESG ve Değer Bazlı İçerik: Amaç Odaklı SMM",
+        "href": "/tr/smm/blog/deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek"
       }
     ],
     "sections": [
@@ -42741,6 +43397,10 @@
           {
             "type": "p",
             "text": "Community-led, sosyal medya stratejisinde önceliği “yayın planı”na değil, topluluğun ihtiyaç ve davranışına verir. Markanın rolü; sadece içerik üretmek değil, topluluğu harekete geçirecek ritim, format ve güvenli alan kurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde topluluk-first yaklaşım](/tr/sosyal-medya-yonetimi) kurulduğunda içerik takvimi, geri bildirim ritmi ve sadakat akışı tek bir yönetim modeli içinde birleşir."
           },
           {
             "type": "h3",
@@ -42804,6 +43464,10 @@
             "text": "Kitle odaklı yaklaşım “daha çok kişiye ulaşma”yı, topluluk odaklı yaklaşım ise “aynı kişilerin tekrar tekrar gelmesi”ni hedefler. Bu, KPI setini ve içerik tonunu değiştirir. Toplulukta “soru yanıtlamak” ve “yardım etmek” daha değerlidir."
           },
           {
+            "type": "p",
+            "text": "Kapalı grup, DM ve WhatsApp davranışlarını anlamak için [kapalı topluluklar ve dark social](/tr/smm/blog/dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek) yaklaşımı topluluk içindeki görünmeyen paylaşım katmanını daha net okumayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Kitle vs topluluk farkı (özet)"
           },
@@ -42846,6 +43510,10 @@
           {
             "type": "p",
             "text": "Topluluk içgörüsü, en değerli içerik kaynağıdır: gerçek sorular, gerçek itirazlar, gerçek ihtiyaçlar. Community-led planlamada takvim, “marka anlatısı” kadar “topluluk soruları”yla da dolar."
+          },
+          {
+            "type": "p",
+            "text": "Bu community-first planning yaklaşımında soruların ve geri bildirimlerin dağılmaması için [topluluk mesajları için mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) yanıt standardı, konu etiketleri ve takip akışını görünür hale getirir."
           },
           {
             "type": "h3",
@@ -42934,6 +43602,10 @@
             "text": "Topluluk büyüdükçe roller netleşmezse moderasyon yükü patlar. Community-led model, tek kişinin her şeye yetişmesini beklemez; power user ve ambassador gibi rolleri tanımlar."
           },
           {
+            "type": "p",
+            "text": "Aktif üyeleri birlikte üretim hattına taşımak için [power user ve ambassador rol tanımı](/tr/smm/blog/creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama) creator, co-creation ve topluluk temsilciliği arasındaki sınırları netleştirir."
+          },
+          {
             "type": "h3",
             "text": "Power user ve ambassador’lar stratejiye nasıl dahil edilir?"
           },
@@ -42995,6 +43667,14 @@
             "text": "Topluluk KPI’ları, “kaç takipçi?” değil “kaç kişi geri geldi?” sorusunu cevaplar. Otelde sadakat kulübü ve VIP gruplar, B2B’de kullanıcı topluluğu ve partner toplulukları sık görülür."
           },
           {
+            "type": "p",
+            "text": "Ortak amaç ve güven duygusunu derinleştirmek için [değer bazlı topluluk içerikleri](/tr/smm/blog/deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek) marka değerleri ve ESG anlatısını topluluk ritmiyle ilişkilendirir."
+          },
+          {
+            "type": "p",
+            "text": "Misafir sadakati, deneyim paylaşımı ve sezon iletişimi tarafında [otel dijital pazarlamada community-led strateji](/tr/otel-dijital-pazarlama) topluluk yaklaşımını rezervasyon niyetiyle birlikte planlamayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "KPI seti (topluluk sağlığı)"
           },
@@ -43046,6 +43726,10 @@
               "DM/yayın kanalı/WhatsApp rollerini netleştirin.",
               "180 günde bir KPI setini ve ritmi güncelleyin."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu etkiyi düzenli okumak için [community-led performans ölçümü](/tr/smm/analiz-raporlama) yorum kalitesi, DM yoğunluğu, tekrar katılım ve ambassador katkısını raporlama sistemine taşır."
           },
           {
             "type": "table",
@@ -43154,6 +43838,10 @@
             "text": "Başarı takipçi sayısıyla değil; aktif üye, katkı, retention, yanıt süresi ve referral sinyaliyle okunur. Ancak topluluk büyümeden önce moderasyon, KVKK, rol sistemi ve kriz eskalasyonu netleştirilmelidir. Önce güvenli çerçeve, sonra büyüme."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha sistemli kurmak isteyen ekipler için [topluluk odaklı içerik stratejisi](/tr/smm/planlama-strateji) desteğiyle ilerlemek ve karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Community-Led SMM Strateji Analizi Talep Et",
@@ -43209,14 +43897,14 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama",
-          "Refresh Cycle: 180 gün",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 5 soru-cevap doğrulandı",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/smm/icerik-uretimi, /tr/cagri-merkezi/mesaj-yonetimi",
-          "Download Asset CTA href kontrolü yapılmalı",
-          "Tablo component’i için headers/rows alanları template ile uyumlu",
-          "Media slot isimleri frontend component mapping ile eşleştirilmeli",
-          "Topluluk platformları ve ölçüm metrikleri için 180 günlük güncelleme backlog’u açılmalı"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/topluluk-oncelikli-icerik-kampanya-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/dark-social-ve-kapali-kanallar-dm-whatsapp-ve-topluluklari-stratejiye-dahil-etmek, /tr/smm/blog/creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama, /tr/smm/blog/deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek, /tr/cagri-merkezi/mesaj-yonetimi, /tr/otel-dijital-pazarlama, /tr/smm/analiz-raporlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "Community-led dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Dark social, creator co-creation ve değer bazlı içerik köprüleri doğal bağlamla içerik akışına eklendi",
+          "Mesaj yönetimi, otel dijital pazarlama ve analiz bağlantıları topluluk ritmi ve performans ölçümü bağlamına taşındı"
         ]
       }
     }
@@ -43271,7 +43959,7 @@
     },
     "h1": {
       "title": "Değer Bazlı İçerik ve ESG Anlatı: Sürdürülebilirlik ve Markanın Amacını Stratejiye Eklemek",
-      "intro": "Sosyal medyada sürdürülebilirlik konuşmak artık “nice to have” değil; birçok kullanıcı için marka seçimi ve güvenin parçası. Ancak ESG’yi sadece güzel görseller ve genel sloganlarla anlatmak, ters etki yaratabilir: “purpose washing” algısı doğar ve güven kaybı yaşanır. Sağlam ESG anlatısı; ne yapıyoruz, neden yapıyoruz, sonuç ne sorularına net cevap verir. Üstelik bunu tek seferlik PR duyurusu gibi değil; düzenli bir içerik ritmiyle, veriye dayalı ve şeffaf bir şekilde yapar. Bu rehberde ESG’nin (Environmental, Social, Governance) sosyal medyada nasıl stratejiye entegre edileceğini, hangi içerik formatlarının daha güvenilir olduğunu ve otel/B2B için örnek bir mini takvim yaklaşımını bulacaksınız.",
+      "intro": "Sosyal medyada sürdürülebilirlik konuşmak artık “nice to have” değil; birçok kullanıcı için marka seçimi ve güvenin parçası. Ancak ESG’yi sadece güzel görseller ve genel sloganlarla anlatmak, ters etki yaratabilir: “purpose washing” algısı doğar ve güven kaybı yaşanır. Sağlam ESG anlatısı; ne yapıyoruz, neden yapıyoruz, sonuç ne sorularına net cevap verir. Üstelik bunu tek seferlik PR duyurusu gibi değil; düzenli bir içerik ritmiyle, veriye dayalı ve şeffaf bir şekilde yapar. Bu rehberde ESG’nin (Environmental, Social, Governance) sosyal medyada nasıl stratejiye entegre edileceğini, hangi içerik formatlarının daha güvenilir olduğunu ve otel/B2B için örnek bir mini takvim yaklaşımını bulacaksınız. Bu yaklaşımı planlı bir yapıya taşımak isteyen ekipler için [ESG içerik stratejisi](/tr/smm/planlama-strateji) çerçevesi ana planlama katmanında ele alınmalıdır.",
       "quickSummary": [
         "1) Değer bazlı içerik temasını iddia değil kanıt üzerinden kur",
         "2) ESG’yi E/S/G başlıklarıyla ama tek amaç zinciri içinde anlat",
@@ -43303,22 +43991,50 @@
         "href": "/tr/smm/planlama-strateji"
       },
       {
-        "label": "KVKK ve veri güvenliği raporlama",
+        "label": "Sosyal medya yönetimi sayfası",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Always-on ve kampanya bazlı içerik stratejisi blogu",
+        "href": "/tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari"
+      },
+      {
+        "label": "Yıllık sosyal medya bütçesi ve kaynak planlaması blogu",
+        "href": "/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi"
+      },
+      {
+        "label": "Community-led sosyal medya blogu",
+        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
+      },
+      {
+        "label": "KVKK ve veri güvenliği",
         "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "İçerik SEO",
+        "label": "SEO içerik",
         "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM planlama ve strateji SSS",
+        "href": "/tr/smm/planlama-strateji-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama",
-        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
+        "title": "Always-On ve Kampanya Bazlı İçerik Stratejisi: Farkları ve Nasıl Dengelenir?",
+        "href": "/tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari"
       },
       {
-        "title": "Creator Ekonomisi ve Co-Creation: Yaratıcılarla Ortak İçerik Nasıl Planlanır?",
-        "href": "/tr/smm/blog/creator-ekonomisi-ve-co-creation-yaraticilarla-ortak-icerik-planlama"
+        "title": "Yıllık Sosyal Medya Bütçesi ve Kaynak Planlaması Nasıl Yapılır?",
+        "href": "/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi"
+      },
+      {
+        "title": "Community-Led Sosyal Medya: Topluluk Öncelikli Strateji ve Planlama",
+        "href": "/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama"
       }
     ],
     "sections": [
@@ -43333,6 +44049,14 @@
           {
             "type": "p",
             "text": "Değer bazlı içerik, markanın amacını (purpose) ve davranışını görünür kılar. Bu “duygu satmak” değil; değerlerin somut davranışlara ve kararlara nasıl dönüştüğünü göstermektir. Burada kritik kural: iddia değil kanıt."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, [sosyal medya yönetimi içinde değer bazlı içerik](/tr/sosyal-medya-yonetimi) kurgulandığında içerik planı, güven dili ve anlatı ritmini aynı sistemde toplar."
+          },
+          {
+            "type": "p",
+            "text": "Birçok ekip için purpose-led content nedir sorusunun pratik cevabı, markanın neye inandığını günlük kararlar ve kanıtlarla görünür hale getirmektir."
           },
           {
             "type": "h3",
@@ -43395,6 +44119,10 @@
           {
             "type": "p",
             "text": "ESG, sürdürülebilirliğin sistematik çerçevesidir. Sosyal medyada ESG anlatısı; E, S ve G’yi ayrı ayrı duyurular gibi değil, markanın iş yapış biçiminin parçası olarak anlatmalıdır. Örneğin “enerji tasarrufu” tek başına yeterli değil; “neden, nasıl, sonuç ve doğrulama” gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Güven veren bir sürdürülebilirlik sosyal medya anlatımı, yalnızca sonuçları değil hedefleri, sınırlamaları ve ilerleme notlarını da paylaşır."
           },
           {
             "type": "h3",
@@ -43481,6 +44209,14 @@
             "text": "ESG içeriği “biz sürdürülebiliriz” demekle olmaz. Kullanıcılar süreç görmek ister: proje, hedef, ilerleme, zorluklar, öğrenimler… Bu yüzden en iyi model; ESG’yi seri ve ritim olarak planlamaktır."
           },
           {
+            "type": "p",
+            "text": "Bu ritmi kurarken [always-on değer bazlı içerik akışı](/tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari) ESG anlatısını yalnızca özel günlere değil, yıl içine yayılan sürekli iletişime taşır."
+          },
+          {
+            "type": "p",
+            "text": "Takvimi tek yönlü değil ortak değerlerle büyütmek için [community-led değer anlatısı](/tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama) kullanıcı sorularını, geri bildirimi ve sadakati anlatının parçası haline getirir."
+          },
+          {
             "type": "h3",
             "text": "Güvenilir ESG içerik formatları"
           },
@@ -43514,7 +44250,7 @@
               "Takvimde ayda 2 ESG slotu açın (Varsayım: içerik yoğunluğuna göre).",
               "Aynı projeyi 3 parçada anlatın: neden → uygulama → sonuç/öğrenim.",
               "SSS içerikleri ile itirazları önceden yanıtlayın.",
-              "İçeriği /tr/seo/icerik-seo ile tutarlı kaynak sayfalarına bağlayın."
+              "İçeriği [SEO içerik stratejisinde sürdürülebilirlik anlatısı](/tr/seo/icerik-seo) ile tutarlı kaynak sayfalarına bağlayın."
             ]
           }
         ]
@@ -43526,6 +44262,10 @@
           {
             "type": "p",
             "text": "Purpose washing, sürdürülebilirliği sadece vitrin olarak kullanmaktır: çok büyük iddia, az kanıt; çok görsel, az veri; tek seferlik paylaşım, sıfır devam. Sosyal medyada bu risk hızlı büyür; çünkü kullanıcılar soru sorar ve tutarsızlık hemen görünür."
+          },
+          {
+            "type": "p",
+            "text": "Çalışan, misafir veya gönüllü hikâyeleri kullanılıyorsa [KVKK uyumlu ESG içerikleri](/tr/raporlama/kvkk-veri-guvenligi) izin, kişisel veri ve görsel kullanım sınırlarını netleştirmeyi zorunlu kılar."
           },
           {
             "type": "h3",
@@ -43600,6 +44340,14 @@
           {
             "type": "p",
             "text": "Otel ve turizmde ESG anlatısı en çok “görünür uygulama” üzerinden güven kazanır: su/enerji tasarrufu, atık ayrıştırma, yerel tedarik, erişilebilirlik. B2B’de ise süreç ve governance (şeffaflık, etik, veri güvenliği) daha belirleyici olabilir. Ortak prensip: ölçülebilir adım + şeffaf dil."
+          },
+          {
+            "type": "p",
+            "text": "Bu anlatının sürdürülebilir olması için [ESG içerikleri için yıllık kaynak planlaması](/tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi) veri toplama, çekim, raporlama ve onay süreçlerinin yıl geneline yayılmasını sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel dijital pazarlamada sürdürülebilirlik anlatısı](/tr/otel-dijital-pazarlama) misafir deneyimi, yerel değerler ve çevre duyarlılığını rezervasyon güveniyle birleştirir."
           },
           {
             "type": "h3",
@@ -43773,6 +44521,10 @@
             "text": "Otel ve B2B markalar için güçlü model; E/S/G temalarını takvime düzenli slotlarla yerleştirmek, her içerikte kanıt bloğu kullanmak ve purpose washing riskini ölçülü dille azaltmaktır. Böylece sürdürülebilirlik anlatısı vitrin değil; marka tercihini, güveni ve itibarı besleyen stratejik bir içerik sistemine dönüşür."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha sistemli kurmak isteyen ekipler için [değer bazlı sosyal medya stratejisi](/tr/smm/planlama-strateji) desteğiyle ilerlemek ve karar aşamasında [SMM planlama ve strateji hakkında sık sorulan sorular](/tr/smm/planlama-strateji-sss) sayfasını incelemek sonraki doğal adımdır."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Değer Bazlı & ESG İçerik Strateji Analizi Talep Et",
@@ -43830,14 +44582,14 @@
         ],
         "technicalChecklist": [
           "Canonical kontrolü: /tr/smm/blog/deger-bazli-icerik-ve-esg-anlati-surdurulebilirlik-ve-markanin-amacini-stratejiye-eklemek",
-          "Refresh Cycle: 180 gün",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage schema için 5 soru-cevap doğrulandı",
-          "İç link hedefleri kontrol edildi: /tr/smm/planlama-strateji, /tr/raporlama/kvkk-veri-guvenligi, /tr/seo/icerik-seo",
-          "Download Asset CTA href kontrolü yapılmalı",
-          "Tablo component’i için headers/rows alanları template ile uyumlu",
-          "Media slot isimleri frontend component mapping ile eşleştirilmeli",
-          "ESG standartları, sertifikasyonlar ve hassasiyetler için 180 günlük güncelleme backlog’u açılmalı"
+          "Primary CTA hedefi: /tr/smm/planlama-strateji",
+          "Secondary CTA hedefi: /downloads/esg-deger-bazli-icerik-takvimi-planlama-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari, /tr/smm/blog/yillik-sosyal-medya-butcesi-ve-kaynak-planlamasi, /tr/smm/blog/community-led-sosyal-medya-topluluk-oncelikli-strateji-ve-planlama, /tr/raporlama/kvkk-veri-guvenligi, /tr/seo/icerik-seo, /tr/otel-dijital-pazarlama, /tr/smm/planlama-strateji-sss",
+          "Download asset tipi: template",
+          "ESG dili mevcut metin korunarak ek cümlelerle güçlendirildi",
+          "Always-on, bütçe ve community-led köprüleri doğal bağlamla içerik akışına eklendi",
+          "KVKK, SEO içerik ve otel dijital pazarlama bağlantıları veri güvenliği ve kanıtlı anlatı bağlamına taşındı"
         ]
       }
     }
@@ -43892,7 +44644,7 @@
     },
     "h1": {
       "title": "Reels On-Screen Text ve Altyazı Stratejisi: Sessiz İzleme ve Erişilebilirlik",
-      "intro": "Sosyal medyada kullanıcıların önemli bir kısmı videoları sessiz izliyor; bu yüzden reels’te on-screen text ve altyazı kullanımı artık “ekstra” değil, çekirdeğin parçası. Ses açıkken voice-over ve müzik izlemeyi zenginleştirir; ses kapalıyken ise mesajı taşıyan şey metindir. Otel ve B2B hesaplarında doğru metin hiyerarşisi; hook’u güçlendirir, mesajın anlaşılmasını hızlandırır, retention’ı artırır ve CTA’yı netleştirerek tıklamaya yol açar. Bu rehber, metni “tasarım” olarak değil, sessiz izleme odaklı reels UX olarak ele alır.",
+      "intro": "Sosyal medyada kullanıcıların önemli bir kısmı videoları sessiz izliyor; bu yüzden reels’te on-screen text ve altyazı kullanımı artık “ekstra” değil, çekirdeğin parçası. Ses açıkken voice-over ve müzik izlemeyi zenginleştirir; ses kapalıyken ise mesajı taşıyan şey metindir. Otel ve B2B hesaplarında doğru metin hiyerarşisi; hook’u güçlendirir, mesajın anlaşılmasını hızlandırır, retention’ı artırır ve CTA’yı netleştirerek tıklamaya yol açar. Bu rehber, metni “tasarım” olarak değil, sessiz izleme odaklı reels UX olarak ele alır. Bu standardı daha sistemli kurmak isteyen ekipler için [Reels altyazı on-screen text](/tr/smm/reels-video) yaklaşımı ana video hizmet yapısında değerlendirilmelidir.",
       "quickSummary": [
         "1) Sessiz izleme testini her reels için zorunlu hale getir",
         "2) İlk karede kısa ve büyük hook metni kullan",
@@ -43903,14 +44655,14 @@
       "ctaPrimary": {
         "label": "Reels On-Screen Text & Altyazı Analizi Talep Et",
         "text": "Mevcut reels’lerinize bakıp metin hiyerarşisi, safe zone ve okunabilirlik hatalarını düzeltelim; retention ve tıklama için hızlı plan çıkaralım.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reels On-Screen Text & Altyazı Analizi Talep Et",
         "text": "Metin hiyerarşisi, safe zone ve okunabilirlik hatalarını teşhis eder; sessiz izleme için retention ve tıklama odaklı plan çıkarırız (otel/B2B için).",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "Reels On-Screen Text & Altyazı Tasarım Checklist’ini İndir",
@@ -43921,25 +44673,53 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       {
-        "label": "SMM İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reels Performans Analizi ve Optimizasyon",
+        "href": "/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
+      },
+      {
+        "label": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+        "href": "/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak"
+      },
+      {
+        "label": "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
+        "href": "/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak"
+      },
+      {
+        "label": "SEO İçerik",
+        "href": "/tr/seo/icerik-seo"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM Reels & Video Hakkında SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
+        "href": "/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Reels ile Web Site ve Rezervasyon Sayfasına Trafik Yaratmak",
+        "href": "/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak"
+      },
+      {
+        "title": "Reels İçerik Batching ve B-Roll Kütüphanesi Kurmak",
+        "href": "/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak"
       }
     ],
     "sections": [
@@ -43968,12 +44748,20 @@
             "text": "Bu ikisi birlikte kullanıldığında; videonun mesajı sadece izlenmez, anlaşılır. Özellikle otel ve B2B’de “anlaşılma” güveni artırır: oda/konsept anlatımı, SSS, mini rehber, case, teklif gibi içerikler metinle güçlenir."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde sessiz izleme stratejisi](/tr/sosyal-medya-yonetimi) video üretim kararlarının doğrudan parçası haline gelmelidir."
+          },
+          {
             "type": "h3",
             "text": "Erişilebilirlik (accessibility) perspektifi"
           },
           {
             "type": "p",
             "text": "Erişilebilirlik sadece “iyi niyet” değil performans aracıdır: daha okunur metin, daha çok kullanıcıya mesajı geçirir. Bu da retention ve aksiyonu destekler."
+          },
+          {
+            "type": "p",
+            "text": "Bu etkiyi ölçmek için [altyazı ve on-screen text ile izlenme süresi artırma](/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama) retention, kaydetme ve dikkat süresi sinyallerini daha görünür hale getirir."
           },
           {
             "type": "callout",
@@ -44010,6 +44798,10 @@
             "text": "Silent viewing gerçeği, reels metnini “video sonrası caption”dan “video içi mesaj taşıyıcıya” taşır. Bunun üç sonucu var:"
           },
           {
+            "type": "p",
+            "text": "Kısacası sessiz izleme için video metni, görsel kadar güçlü bir anlam taşıyıcısına dönüşür."
+          },
+          {
             "type": "h3",
             "text": "1) Hook artık sadece görsel değil, metinle de çalışmalı"
           },
@@ -44032,6 +44824,10 @@
           {
             "type": "p",
             "text": "CTA’yı sadece “caption”a bırakırsanız sessizde izleyen kişi aksiyonu kaçırabilir. CTA’yı final karede tek aksiyon olarak yazmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [Reels’te on-screen CTA kullanımı](/tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak) profil ziyareti, web site trafiği ve rezervasyon aksiyonunu aynı akışta düşünmenizi sağlar."
           },
           {
             "type": "callout",
@@ -44133,6 +44929,10 @@
             "text": "CTA tek aksiyon olmalı: “Kaydet”, “DM at”, “Linke tıkla”, “Rezervasyon için profildeki link”. Burada amaç, karar yorgunluğunu azaltmaktır."
           },
           {
+            "type": "p",
+            "text": "Aynı zamanda [SEO içerik diliyle uyumlu video metni](/tr/seo/icerik-seo) kullanıcı soruları, konu dili ve arama niyetiyle daha tutarlı bir mesaj yapısı kurmanıza yardım eder."
+          },
+          {
             "type": "table",
             "caption": "Tablo: Metin Hiyerarşisi Şablonu (Hook → Ana Mesaj → CTA)",
             "headers": [
@@ -44216,6 +45016,10 @@
               "Sağ/sol kenarlarda aşırı yaklaşmayın; küçük ekranda kırpılır.",
               "Metni “orta-üst” güvenli bölgeye yerleştirmek daha emniyetlidir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Çekim aşamasında [B-roll çekimlerinde metin alanı bırakmak](/tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak) mobile safe zone ve CTA boşluğunu set üzerinde planlamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -44381,11 +45185,19 @@
             "text": "Metin katmanları eklerken dosya boyutu ve export ayarları gereksiz şişebilir. Ayrıca çok yoğun efekt/overlay; mobilde yükleme ve izleme deneyimini zayıflatabilir. En iyi pratik: sade metin katmanları, yüksek okunurluk ve makul export ayarlarıyla ilerlemek; yayın sonrası 2 cihazda performans/okunurluk test etmektir. Auto-caption araçları geliştikçe (Instagram/TikTok), manuel/otomatik altyazı kombinasyonları da düzenli güncellenmelidir."
           },
           {
+            "type": "p",
+            "text": "Daha gelişmiş motion text ve grafik katmanlarında [profesyonel altyazı ve motion text tasarımı](/tr/creative/video-produksiyon) okunabilirlik ve görsel hiyerarşiyi post-prodüksiyon standardına taşır."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardın caption, story ve carousel ile birlikte işlemesi için [içerik üretiminde video metin stratejisi](/tr/smm/icerik-uretimi) farklı formatlar arasında mesaj tutarlılığı kurar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels On-Screen Text & Altyazı Analizi Talep Et",
             "text": "Metin hiyerarşisi ve safe zone standardını ekibinize kilitleyelim; retention ve CTA etkisini ölçelim.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "callout",
@@ -44580,11 +45392,15 @@
             "text": "Bu yüzden metni “sonradan eklenen tasarım öğesi” olarak değil, üretim öncesi storyboard’un parçası olarak planlamak gerekir. Safe zone, kontrast, satır uzunluğu, altyazı ilişkisi ve final CTA standardı ekip içinde kilitlendiğinde her reels daha anlaşılır, daha erişilebilir ve daha aksiyon odaklı hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel bir standarda çevirmek isterseniz [Reels erişilebilirlik ve mobil dikey video okunabilirlik kuralları](/tr/smm/reels-video) yaklaşımını hizmet yapısında inceleyebilir, karar aşamasında [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) bölümüne geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reels On-Screen Text & Altyazı Analizi Talep Et",
             "text": "Metin hiyerarşisi, safe zone ve okunabilirlik hatalarını teşhis eder; sessiz izleme için retention ve tıklama odaklı plan çıkarırız (otel/B2B için).",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           },
           {
             "type": "cta",
@@ -44640,14 +45456,14 @@
           "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
         ],
         "technicalChecklist": [
-          "Canonical kontrolü",
+          "Canonical kontrolü: /tr/smm/blog/reels-on-screen-text-ve-altyazi-stratejisi-sessiz-izleme-ve-erisilebilirlik",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "FAQPage alanları PAA sorularıyla eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/reels-video, /smm/icerik-uretimi, /creative/video-produksiyon",
-          "Download asset linki kontrol edildi",
-          "Media slot adları frontend render yapısıyla uyumlu",
-          "CTA yoğunluğu Informational + Tactical / MoFu kuralına uygun",
-          "365 gün döngüsünde auto-caption ve örnekleri güncelle"
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/reels-on-screen-text-ve-altyazi-checklist-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/sosyal-medya-yonetimi, /tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama, /tr/smm/blog/reels-ile-web-site-ve-rezervasyon-sayfasina-trafik-yaratmak, /tr/smm/blog/reels-icerik-batching-ve-b-roll-kutuphanesi-kurmak, /tr/seo/icerik-seo, /tr/creative/video-produksiyon, /tr/smm/icerik-uretimi, /tr/smm/reels-video-sss",
+          "Download asset tipi: checklist",
+          "Sessiz izleme, retention, CTA ve B-roll baglantilari mevcut akis korunarak dogal cumlelerle eklendi",
+          "SEO icerik, video produksiyon ve genel icerik uretimi kopruleri metin stratejisi baglamina tasindi"
         ]
       }
     }
