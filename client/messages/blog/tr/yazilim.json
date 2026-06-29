@@ -29290,5 +29290,2574 @@
         ]
       }
     }
+  },
+
+  "BlogCMSWebhookVeOtomasyonSenaryolariYayinlaTetikle": {
+    "title": "CMS Webhook ile Next.js Revalidation Otomasyonu",
+    "slug": "cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "29 Haziran 2026",
+    "publishedAt": "2026-06-29",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CMS’te publish/update/delete olaylarını webhook’la dinleyin; Next.js ISR revalidation, CRM tetikleri ve Slack bildirimlerini otomatikleştirin. Güvenlik, loglama ve örnek akışlarla manuel işleri azaltın.",
+    "seo": {
+      "metaTitle": "CMS Webhook ile Next.js Revalidation Otomasyonu | DGTLFACE",
+      "metaDescription": "CMS’te publish/update/delete olaylarını webhook’la dinleyin; Next.js ISR revalidation, CRM tetikleri ve Slack bildirimlerini otomatikleştirin. Güvenlik (secret, rate limit, log) + örnek akışlar. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog No / URL: Blog #8 — /tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle"
+      ],
+      "strategySummary": "Bu blog, CMS entegrasyonlarını “çek veriyi göster” seviyesinden çıkarıp event-driven otomasyon seviyesine taşıyan core teknik rehberdir; TR’de az bulunan webhook odaklı pratikleri standartlaştırır. Hedef persona; otel/B2B projelerinde IT/ürün lideri, ajans teknik ekipleri ve içerik operasyonundan sorumlu yöneticilerdir. Funnel’da consideration (MoFu) ağırlıklıdır: publish/update/delete olaylarını doğru kurgulayarak Next.js revalidation, CRM tetikleri ve ekip bildirimlerini otomatikleştirme kararını kolaylaştırır. Ana iş sorusu: “İçerik yayınlandığında veya güncellendiğinde; build/revalidation, bildirim ve entegrasyonları güvenli şekilde nasıl otomatik tetiklerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-29",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Webhook’lar, CMS’i sadece içerik paneli olmaktan çıkarıp tüm dijital ekosistemin tetikleyicisi hâline getirir. Publish/update/delete olaylarını dinleyerek Next.js’te ISR revalidation veya static rebuild’i otomatik başlatabilir, CRM’e lead/kampanya sinyali gönderebilir ya da Slack/Teams’e bildirim düşebilirsiniz. Kritik nokta; doğru event seçimi (publish vs update), payload standardı ve güvenliktir: secret doğrulama, rate limit, IP allowlist ve loglama ile webhook endpoint’inizi korursunuz.",
+      "sgeSummary": "CMS webhook ile publish/update/delete event’lerini yakala; Next.js revalidation, CRM entegrasyonu ve Slack bildirimlerini tetikle. Endpoint’i secret doğrulama + rate limit + log ile güvenli hale getir; manuel işleri azalt.",
+      "voiceAnswer": "Publish sonrası otomatik revalidation için CMS webhook’u Next.js endpoint’ine bağlayın, secret doğrulayın ve revalidate çağırın.",
+      "aiFactSheet": [
+        "Hedef kitle: Headless CMS kullanan otel/B2B teknik ekipleri ve ajanslar",
+        "Ana KPI: Publish→live süresi, manuel build işi, entegrasyon hatası, içerik tutarlılığı",
+        "Entity’ler: CMS webhooks, event, payload, Next.js ISR revalidation, CRM trigger, Slack notification",
+        "Funnel: MoFu (Informational + Technical) → webhook/otomasyon analizi talebi",
+        "Risk odağı: doğrulanmamış endpoint, spam/rate limit, yanlış event (draft tetik), eksik log",
+        "Model: event-driven architecture + content-driven automation",
+        "Fark yaratan açı: güvenlik + gözlemlenebilirlik (logs/alerts) ile üretim kalitesi"
+      ]
+    },
+    "h1": {
+      "title": "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et",
+      "intro": "CMS’i yalnız “içerik girilen panel” olarak kullanmak, modern projelerde gereksiz manuel iş üretir: içerik yayınlanır ama Next.js revalidation elle tetiklenir, Slack’e manuel haber verilir, CRM’e sinyal gitmez, arama indeksleri güncellenmez. Webhook yaklaşımı burada oyunu değiştirir: CMS’teki publish/update/delete olayları, tüm ekosistemi tetikleyen bir “olay akışı”na dönüşür. Bu sayede içerik değişiklikleri neredeyse gerçek zamanlı olarak siteye, CRM’e ve ekiplere otomatik yansır. Bu rehberde; webhook mantığını, Next.js ISR revalidation tetiklerini, Slack/CRM bildirimlerini ve güvenlik–loglama gibi kritik üretim detaylarını otel ve B2B senaryolarıyla anlatıyoruz.",
+      "quickSummary": [
+        "1) Publish/update/delete event’lerini doğru ayır",
+        "2) Payload standardını netleştir",
+        "3) Next.js ISR revalidation için güvenli endpoint tasarla",
+        "4) Slack/CRM/Search index tetiklerini aksiyon odaklı planla",
+        "5) Secret doğrulama, rate limit, idempotency ve loglama ile üretim kalitesini koru"
+      ],
+      "ctaPrimary": {
+        "label": "CMS Webhook & Otomasyon Akış Analizi Talep Et",
+        "text": "Headless CMS kullanan otel ve B2B projelerinde publish sonrası revalidation, bildirim ve entegrasyonları güvenli şekilde otomatikleştirmek isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS Webhook & Otomasyon Akış Analizi Talep Et",
+        "text": "Publish/update/delete tetiklerini güvenli endpoint’lerle standardize edip revalidation ve bildirim süreçlerini otomatikleştirin.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "CMS Publish Webhook & ISR/CRM/Slack Otomasyon Planlama Şablonunu İndir",
+        "text": "Event türlerini, payload sözleşmesini, revalidation path’lerini ve Slack/CRM tetiklerini tek dokümanda planlayıp uygulanabilir akış kurmanızı sağlar.",
+        "href": "/downloads/cms-publish-webhook-isr-crm-slack-otomasyon-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Dönüşüm Takibi & Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Dönüşüm Takibi & Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "title": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "sections": [
+      {
+        "id": "webhook-nedir",
+        "title": "Webhook Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Webhook, bir sistemde bir olay gerçekleştiğinde (ör. “publish”) başka bir sisteme HTTP üzerinden “haber vermek”tir. Klasik entegrasyonlar “polling” yapar: site gidip CMS’i sürekli sorar. Webhook ise tersine çalışır: CMS olayı olduğunda sizi çağırır. Sonuç; daha düşük gecikme, daha az manuel iş ve daha net operasyon."
+          },
+          {
+            "type": "h3",
+            "text": "CMS webhook nedir, ne işe yarar? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: CMS’te publish/update/delete gibi olaylar olduğunda, belirlediğiniz endpoint’e otomatik istek atarak revalidation, bildirim veya entegrasyon tetikleyen mekanizmadır."
+          },
+          {
+            "type": "p",
+            "text": "Webhook’ların en doğru kullanımı, “tek bir devasa akış” değil; küçük ve güvenli tetiklerdir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yayınlandı → revalidate + Slack mesajı",
+              "Silindi → ilgili sayfayı kaldır + indeks güncelle",
+              "Kritik içerik güncellendi → partner sisteme uyarı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Polling ile mi çalışıyorsunuz (gecikme ve maliyet)?",
+              "Publish olayı tüm ekosisteme otomatik yansıyor mu?",
+              "Webhook endpoint’iniz doğrulamalı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Olayları listele: publish/update/delete (draft dahil mi?)",
+              "Her olay için hedef aksiyon tanımla (revalidate/bildirim/CRM).",
+              "Endpoint güvenliğini baştan planla (secret + rate limit).",
+              "Log/izleme ekle (başarılı/başarısız).",
+              "Önce küçük bir akışla başla (publish→revalidate)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "cms-publish-update-delete-olaylarini-dinlemek",
+        "title": "CMS’te Publish/Update/Delete Olaylarını Dinlemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En büyük hata, “update” ile “publish”i karıştırmaktır. Birçok CMS’te draft kaydı da update sayılır; o yüzden “update” event’ini doğrudan prod tetiklemek risklidir. Bu bölümde hangi olayın ne anlama geldiğini netleştiriyoruz."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Event seçiminde 3 kritik kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Publish: Prod’a yansıyacak aksiyonlar (revalidation, Slack)",
+              "Update: Sadece “published entry updated” filtreli kullan (Varsayım: CMS destekliyorsa)",
+              "Delete/Unpublish: 404/redirect, indeks güncelleme ve cache purge"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Payload standardı (minimum)"
+          },
+          {
+            "type": "p",
+            "text": "Webhook payload’ında şu bilgiler yoksa sonradan acı çekersiniz:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "event_type (publish/update/delete)",
+              "content_type (blog, room, campaign, document)",
+              "entity_id",
+              "slug/path",
+              "locale (çok dilli ise)",
+              "timestamp",
+              "signature/secret doğrulama bilgisi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Draft update’ler prod’u tetikliyor mu? (tehlike)",
+              "Event payload’ında path/slug var mı?",
+              "Locale bazlı revalidate yapabiliyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Draft olaylarını prod tetiklerinden ayır (preview/staging’e yönlendir).",
+              "“Published update” filtreleri ile risk azalt.",
+              "Delete/unpublish için redirect/404 planı yaz.",
+              "Payload standardını dokümante et.",
+              "Hatalı payload’ı “reject” eden validasyon ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "static-rebuild-isr-revalidation-tetiklemek",
+        "title": "Static Rebuild/ISR Revalidation Tetiklemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js tarafında en sık hedef: içerik yayınlanınca sayfanın hızlı güncellenmesi. ISR revalidation; “tüm siteyi build et” yerine ilgili sayfaları yenilemeyi sağlar. Bu da hem hız hem maliyet avantajı demektir."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Yeni içerik yayınlandığında Next.js’i nasıl tetiklerim? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: CMS’ten webhook ile güvenli bir endpoint’e istek gönderin; endpoint doğrulama sonrası ilgili path’ler için revalidate çağrısı yapar."
+          },
+          {
+            "type": "h3",
+            "text": "SSG vs ISR vs full rebuild (kısa karar çerçevesi)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Full rebuild: büyük değişiklikler veya geniş etki (nadir)",
+              "ISR revalidation: içerik sayfası güncellemeleri (çoğu senaryo)",
+              "Parçalı güncelleme: fiyat/widget gibi dinamik bileşenler (ayrı katman)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Revalidation path bazlı mı (hedefli) yoksa tüm site mi?",
+              "Publish→live süresi loglanıyor mu?",
+              "Hatalı revalidate denemesi alarm üretiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Revalidate endpoint tasarla (tek iş: doğrula + revalidate).",
+              "Path üretimini payload’dan yap (blog slug / oda slug / kampanya).",
+              "Full rebuild’i sadece istisnaya bırak.",
+              "Publish→live SLA belirle ve ölç.",
+              "Hata tekrarında retry/backoff kuralı koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dis-sistemlere-bildirim-crm-slack-search-index",
+        "title": "Dış Sistemlere Bildirim (CRM, Slack, Search Index vb.)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Webhook’ların gücü, yalnız revalidation değil; ekip ve sistem senkronudur. Yayınlanan içeriğin CRM kampanyasına bağlanması, Slack’te ekip bilgilendirmesi, indeksin güncellenmesi gibi adımlar; “yayın sonrası unutulan işleri” otomatikleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "Slack/Teams bildirimleri (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blog yayınlandı → #content kanalına link + etiket + owner",
+              "Kritik sayfa güncellendi (oda/kampanya) → #ops kanalına uyarı",
+              "Delete/unpublish → #seo kanalına 404/redirect hatırlatması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CRM tetikleri (B2B whitepaper örneği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Whitepaper yayınlandı → CRM’de kampanya aktif et, nurture başlat",
+              "Form sayfası güncellendi → dönüşüm takibi notu / Tag Manager kontrol checklist’i (Internal Link Targets ile uyum)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Arama indeksi / site haritası güncellemesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni içerik yayınlandı → sitemap ping / index update tetiklenir (Varsayım: kullandığınız altyapıya göre)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Yayın olayı → ISR revalidation + Slack bildirimi örnek akışı",
+            "headers": [
+              "Olay",
+              "Tetiklenen aksiyon",
+              "Hedef sistem",
+              "Operasyon notu"
+            ],
+            "rows": [
+              [
+                "publish",
+                "İlgili path için ISR revalidation",
+                "Next.js",
+                "Payload içindeki slug/path ve locale ile hedefli çalışır"
+              ],
+              [
+                "publish",
+                "İçerik yayına alındı bildirimi",
+                "Slack/Teams",
+                "#content kanalına link + owner + içerik tipi gönderilir"
+              ],
+              [
+                "update",
+                "Kritik sayfa güncellendi uyarısı",
+                "Slack/Teams",
+                "Sadece published update filtreli kullanılmalıdır"
+              ],
+              [
+                "delete/unpublish",
+                "404/redirect kontrol hatırlatması",
+                "SEO/ops kanalı",
+                "İndeks ve yönlendirme aksiyonu unutulmaz"
+              ],
+              [
+                "publish",
+                "Kampanya veya nurturing tetik sinyali",
+                "CRM",
+                "Whitepaper/demo gibi yüksek niyet içeriklerde kullanılır"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Slack bildirimi “gürültü” mü yoksa aksiyon odaklı mı?",
+              "CRM tetikleri UTM/naming sözlüğü ile uyumlu mu?",
+              "Delete/unpublish sonrası SEO aksiyonu tetikleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Bildirimleri kanala göre segmentle (content/ops/seo).",
+              "CRM tetiklerini “yüksek niyet” içeriklere bağla (whitepaper/demo).",
+              "Search index/sitemap güncellemelerini otomatikleştir.",
+              "Bildirim payload’ını standartlaştır (title, url, type, owner).",
+              "Gürültüyü azalt: sadece publish ve kritik update’ler."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-otomasyon-ornekleri",
+        "title": "Otel ve B2B İçin Otomasyon Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “neden yapalım?” sorusunu sahaya indirir: otelde hız ve tutarlılık; B2B’de pipeline ve içerik lansmanı."
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu 1 — kampanya yayını"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CMS kampanya publish → Next.js revalidate (landing)",
+              "Ops Slack → “kampanya canlı” bildirimi",
+              "(Varsayım) fiyat bileşeninde cache purge/revalidate → eski fiyat riski azalır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu 2 — oda içeriği güncellemesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda açıklaması/görsel update → oda sayfası revalidate",
+              "SEO ekibine bildirim → snippet/metadata kontrol",
+              "(Partner) PMS/Channel Manager’a içerik değil, sadece uyarı/etiket akışı (çakışma yaratmadan)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu — doküman/whitepaper yayını"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Whitepaper publish → CRM kampanya tetik + nurturing",
+              "Slack → satış ekibine “yeni asset” bildirimi",
+              "Landing revalidate + dönüşüm takibi kontrol notu (Tag Manager süreçleriyle uyum)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde kampanya yayınında revalidation otomatik mi?",
+              "B2B’de asset yayınında CRM automation başlıyor mu?",
+              "Update/delete senaryoları düşünülmüş mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde kampanya/oda sayfalarını “kritik” ilan et; hedefli revalidate kur.",
+              "B2B’de asset yayınlarını CRM automation’a bağla.",
+              "Delete/unpublish için redirect/SEO aksiyonunu otomatikleştir.",
+              "Her senaryoyu staging’de test et; prod’da deneme yapma.",
+              "Otomasyonları yılda en az 1 kez (365) gözden geçir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "guvenlik-ve-operasyonel-dayaniklilik",
+        "title": "Güvenlik ve Operasyonel Dayanıklılık (Teknik Not)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Webhook endpoint’leri, dış dünyaya açık “tetik kapısı”dır; korunmazsa spam, brute-force veya yanlış tetiklerle sisteminizi bozabilir. Bu yüzden kimlik doğrulama, rate limit ve loglama şarttır. Bu yaklaşımın /tr/yazilim/sunucu-guvenlik içeriğiyle uyumlu şekilde ele alınması gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Webhook endpoint’ini koruyan minimum paket"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Secret signature doğrulama (HMAC vb.)",
+              "IP allowlist (mümkünse)",
+              "Rate limit (burst kontrolü)",
+              "Idempotency (aynı event iki kez gelirse güvenli)",
+              "Log + alert (başarısız tetikler, 401/403/500)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Webhook güvenliği hakkında neler sorulmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Secret doğrulama, rate limit, IP kısıtı, loglama ve tekrar denemelere karşı idempotency uygulanmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Endpoint secret doğruluyor mu?",
+              "Rate limit ve retry/backoff var mı?",
+              "Her tetik loglanıyor mu (kim, ne, ne zaman)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Secret doğrulamayı zorunlu yap; geçmeyeni reddet.",
+              "Rate limit + idempotency ile spam’i engelle.",
+              "Logları merkezi topla; hata alarmı kur.",
+              "Endpoint’i staging/prod ayrı yönet.",
+              "Güvenlik notlarını /tr/yazilim/sunucu-guvenlik ile hizala."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "event-driven-uretim-kalitesi",
+        "title": "Rakip Açığını Kapat: “Event-Driven”i Üretim Kalitesine Taşı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de CMS entegrasyonları çoğu zaman “çek veriyi göster” seviyesinde; webhook tabanlı event-driven otomasyon rehberleri az. Fark yaratan yaklaşım; webhook’u sadece “tetik” değil, gözlemlenebilir ve güvenli bir release mekanizması olarak ele almaktır: doğru event seçimi, doğrulama, log, retry ve idempotency. Bu kalite katmanı eklendiğinde; manuel build/bildirim/eşitleme işleri büyük oranda azalır ve ekip içerik/stratejiye daha fazla odaklanır."
+          }
+        ]
+      },
+      {
+        "id": "cms-publish-webhook-isr-crm-slack-otomasyon-planlama-sablonu",
+        "title": "CMS Publish Webhook & ISR/CRM/Slack Otomasyon Planlama Şablonunu İndir — Yazılım / Webhooks",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS Publish Webhook & ISR/CRM/Slack Otomasyon Planlama Şablonunu İndir — Yazılım / Webhooks (v1.0)",
+            "purpose": "Bu şablon; CMS’teki publish/update/delete event’lerini webhook ile dinleyip Next.js revalidation, Slack bildirimleri ve CRM tetiklerini güvenli biçimde planlamayı amaçlar. Event seçimi, payload sözleşmesi, endpoint güvenliği ve log/alert katmanını tek dokümanda toplayarak manuel işleri azaltır.",
+            "whoFor": "Teknik lider, ajans teknik ekibi, içerik operasyon yöneticisi.",
+            "steps": [
+              "Event türlerini ve hangi içerik tiplerini tetikleyeceğini seçin.",
+              "Payload ve güvenlik (secret/rate limit/ip) sözleşmesini doldurun.",
+              "Revalidation path’leri, Slack/CRM aksiyonları ve log/alert kurallarını planlayın."
+            ],
+            "checklist": [
+              "Event Envanteri",
+              "İçerik tipleri: blog / room / campaign / document / service (seç: ____)",
+              "Payload Sözleşmesi: ",
+              "Hedef Aksiyonlar: ",
+              "Revalidation Planı:",
+              "Güvenlik Katmanı: ",
+              "Loglama ve Operasyon: Log alanları: "
+            ],
+            "deliverables": [
+              "Webhook event sözleşmesi",
+              "Revalidation ve bildirim akış planı",
+              "Güvenlik ve loglama kontrol listesi"
+            ],
+            "href": "/downloads/cms-publish-webhook-isr-crm-slack-otomasyon-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: CMS, ekosistemin tetikleyicisi olduğunda hız ve tutarlılık artar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Webhook’lar; içerik değişikliğini tek bir panel olayından çıkarıp, Next.js revalidation, CRM tetikleri ve ekip bildirimleri gibi çoklu sistem aksiyonlarına dönüştürür. Doğru kurulduğunda publish→live süresi kısalır, manuel iş azalır ve içerik tutarlılığı artar. Güvenlik ve loglama ile desteklendiğinde ise bu otomasyonlar üretim kalitesini yükseltir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS Webhook & Otomasyon Akış Analizi Talep Et",
+            "text": "Publish tetiklerini güvenli endpoint’lerle standartlaştırıp revalidation, CRM ve Slack akışlarını otomatikleştirmek isteyen ekipler için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CMS Publish Webhook & ISR/CRM/Slack Otomasyon Planlama Şablonunu İndir",
+            "text": "Event türlerini, payload sözleşmesini, revalidation path’lerini ve Slack/CRM tetiklerini tek dokümanda planlayıp uygulanabilir akış kurmanızı sağlar.",
+            "href": "/downloads/cms-publish-webhook-isr-crm-slack-otomasyon-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "CMS webhook nedir, ne işe yarar?",
+        "a": "Webhook, CMS’te publish/update/delete gibi bir olay olduğunda belirlediğiniz endpoint’e otomatik istek atarak başka sistemleri tetikler. Böylece revalidation, bildirim ve entegrasyonlar manuel olmadan çalışır."
+      },
+      {
+        "q": "Yeni içerik yayınlandığında Next.js’i nasıl tetiklerim?",
+        "a": "CMS publish webhook’unu güvenli bir Next.js endpoint’ine bağlayın. Endpoint secret doğruladıktan sonra ilgili sayfa path’leri için ISR revalidation çağrısı yapar; publish→live süresi kısalır."
+      },
+      {
+        "q": "CMS’te yapılan değişiklikleri CRM/Slack gibi sistemlere nasıl iletirim?",
+        "a": "Publish/update event’lerini webhook ile yakalayıp Slack/Teams API’lerine bildirim, CRM API’lerine kampanya/lead tetik sinyali gönderirsiniz. Gürültüyü azaltmak için sadece kritik event’leri bildirimleştirin."
+      },
+      {
+        "q": "Otel ve B2B için webhook tabanlı otomasyon örnekleri neler?",
+        "a": "Otelde kampanya yayınında revalidation + ops bildirimi, oda içeriği güncellemesinde hedefli revalidate; B2B’de whitepaper yayınında CRM nurturing tetikleme ve satış bildirimleri yaygın örneklerdir."
+      },
+      {
+        "q": "Webhook endpoint’ini nasıl güvenli hale getiririm?",
+        "a": "Secret doğrulama, rate limit, IP allowlist (mümkünse), idempotency ve merkezi log/alert ile koruyun. Doğrulanmayan istekleri reddedin ve hata tekrarında alarm üretin."
+      },
+      {
+        "q": "Update event’i neden riskli olabilir?",
+        "a": "Bazı CMS’lerde draft değişiklikleri de “update” sayılır; bu da prod’u gereksiz tetikler. “Published update” filtresi kullanmak ve preview/staging ayrımı yapmak gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-hero-01.webp — CMS webhook otomasyon mimarisi, otel ve B2B entegrasyon bağlamı",
+          "h1-context — 1920×1080 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-h1-context-02.webp — Publish event sonrası revalidation ve bildirim akışı, teknik ekip bağlamı",
+          "divider-01 — 1600×1200 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-divider-03.webp — Publish update delete event ayrımı görseli, release operasyon bağlamı",
+          "divider-02 — 1600×1200 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-divider-04.webp — Otel ve B2B otomasyon senaryoları görseli, operasyon bağlamı",
+          "diagram-05 — 1920×1080 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-diagram-05.webp — Webhook tetikleyici ve hedef sistemler akış diyagramı, event-driven mimari",
+          "checklist-06 — 1200×1200 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-checklist-06.webp — Publish tetikleyici checklist kartı, güvenlik ve operasyon bağlamı",
+          "kpi-table-07 — 1200×1200 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-kpi-07.webp — Publish live süresi ve manuel iş azalımı KPI kartı, ekip verimliliği",
+          "proof-08 — 1200×1200 — cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle-proof-08.webp — Webhook sözleşmesi ve otomasyon çıktıları, güven unsuru bağlamı",
+          "table-publish-isr-slack — Yayın olayı → ISR revalidation + Slack bildirimi örnek tablosu"
+        ],
+        "technicalChecklist": [
+          "Webhook endpoint secret signature doğrulaması zorunlu",
+          "Rate limit ve IP allowlist kontrolü",
+          "Idempotency kuralı tanımlı",
+          "Publish/update/delete event ayrımı dokümante edildi",
+          "Draft update prod tetiklerinden ayrıldı",
+          "Payload validasyonu event_type/content_type/entity_id/slug/locale/timestamp/signature alanlarını kontrol ediyor",
+          "Next.js ISR revalidation path bazlı çalışıyor",
+          "Retry/backoff ve hata alarmı tanımlı",
+          "Log alanları: event_id, event_type, path, status, duration_ms",
+          "Staging/prod webhook endpoint’leri ayrı yönetiliyor",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogCMSMigrasyonuBirCMSTenDigerineGuvenliGecisStratejisi": {
+    "title": "CMS Migrasyonu: SEO Güvenli Geçiş Stratejisi",
+    "slug": "cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "29 Haziran 2026",
+    "publishedAt": "2026-06-29",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CMS migrasyonu sadece export/import değildir. İçerik envanteri, model mapping, medya taşıma ve 301 redirect planı ile SEO kaybını azaltın. Otel ve B2B ekipleri için güvenli geçiş modeli kurun.",
+    "seo": {
+      "metaTitle": "CMS Migrasyonu: SEO Güvenli Geçiş Stratejisi | DGTLFACE",
+      "metaDescription": "CMS migrasyonu sadece export/import değil: içerik envanteri, model mapping, medya taşıma ve 301 redirect planı ile SEO kaybını azaltın. Otel & B2B geçiş checklist’i + eğitim planı. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog No / URL: Blog #9 — /tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi"
+      ],
+      "strategySummary": "Bu blog, TR’de “temayı değiştirdik” seviyesine indirgenen CMS değişimini; gerçek migration (replatforming) disipliniyle ele alan core rehberdir. Hedef persona; otel ve B2B sitelerinde büyüyen ihtiyaçlar nedeniyle CMS değiştiren karar vericiler (owner/GM, pazarlama lideri) kadar, teknik lider ve içerik operasyon ekibidir. Funnel’da consideration (MoFu) ağırlıklıdır: envanter, model eşleme, taşıma, redirect ve eğitim adımlarını planlayarak SEO kaybını ve içerik ekibi kaosunu minimize etmeye yarar. Ana iş sorusu: “Eski CMS’ten yeni CMS’e geçerken içerik modeli, URL/slug ve medyayı nasıl taşır; 301 ve ekip eğitimleriyle geçiş şokunu nasıl azaltırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-29",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "CMS migrasyonu, yalnızca içerikleri export/import etmek değildir; içerik modeli, URL/slug, medya, redirect ve editoryal alışkanlıkları birlikte taşımayı gerektiren bir dönüşümdür. Güvenli geçiş için önce mevcut content type/field envanterini çıkarır, eski–yeni modeli eşler, taşıma script’leriyle veri ve medyayı taşır, ardından 301 redirect planı ve teknik SEO kontrolleriyle yayına alırsınız. Panel eğitimleri ve staged geçiş, otel/B2B ekiplerinde kaosu azaltır.",
+      "sgeSummary": "CMS değişiminde envanter + model mapping + 301 redirect üçlüsünü planla. Medyayı yeniden linkle, staging’de test et, yayında log ve SEO kontrolü yap; ekip eğitimleriyle geçiş şokunu azalt.",
+      "voiceAnswer": "WordPress’ten headless CMS’e geçerken önce envanter çıkarın, modeli eşleyin, 301 planlayın ve staging’de test edin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B web yöneticileri, ajans PM’leri, teknik liderler, içerik ekipleri",
+        "Ana KPI: Organik trafik değişimi, 404 oranı, indeksleme hızı, içerik yayın hızı, editoryal adaptasyon süresi",
+        "Entity’ler: CMS migration, content mapping, URL redirects, media migration, replatforming, training",
+        "Funnel: MoFu (Informational + Tactical) → migration analizi talebi",
+        "Risk odağı: URL değişimi, redirect eksikliği, medya kırıkları, schema/metadata kaybı, yetki/workflow bozulması",
+        "Model: seo-safe replatforming + versioned plan",
+        "Fark yaratan açı: “redirect + eğitim + operasyon”u migration’ın parçası yapmak"
+      ]
+    },
+    "h1": {
+      "title": "CMS Migrasyonu: Bir CMS’ten Diğerine Güvenli Geçiş Stratejisi",
+      "intro": "CMS migrasyonu çoğu zaman “içeriği taşıdık, bitti” sanılır; oysa asıl riskler burada başlar: URL değişir, medya linkleri kırılır, meta ve schema kaybolur, içerik ekibi yeni panelde yavaşlar ve SEO’da geçici değil kalıcı kayıplar oluşabilir. Planlı yürütülen migration; otel ve B2B sitelerinde hem SEO kaybını hem de ekip tarafındaki kaosu minimize eder. Bu rehberde, neden CMS değiştirildiğinden başlayıp; envanter çıkarma, içerik modeli eşleme, taşıma araçları/scrip’leri, 301 redirect stratejisi, staging testleri ve panel eğitimine kadar uçtan uca güvenli geçiş modelini anlatıyorum.",
+      "quickSummary": [
+        "1) CMS değişiminin nedenini ve hedef kazanımları netleştir",
+        "2) Mevcut içerik, field, medya ve URL envanterini çıkar",
+        "3) Eski ve yeni CMS içerik modellerini mapping tablosuyla eşleştir",
+        "4) URL/slug değişiklikleri için 301 redirect planı oluştur",
+        "5) Staging testleri, panel eğitimi ve 7/30/90 gün takip planı ile geçişi güvenceye al"
+      ],
+      "ctaPrimary": {
+        "label": "CMS Migration & Geçiş Analizi Talep Et",
+        "text": "Mevcut CMS’ini büyüyen ihtiyaçlar için değiştiren otel ve B2B sitelerinde SEO kaybını ve operasyon kaosunu azaltmak isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS Migration & Geçiş Analizi Talep Et",
+        "text": "İçerik modeli, URL/slug, medya ve 301 redirect planıyla SEO kaybını azaltıp güvenli CMS geçişi yapın.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "CMS’ten CMS’e Geçiş İçin Envanter & Redirect Planlama Şablonunu İndir",
+        "text": "Envanter, mapping ve 301 redirect planını tek dokümanda çıkararak geçişi kontrollü ve izlenebilir hale getirmenizi sağlar.",
+        "href": "/downloads/cmsten-cmse-gecis-icin-envanter-redirect-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-cms-degistirilir",
+        "title": "Neden CMS Değiştirilir? (Performans, Güvenlik, Kullanılabilirlik, Lisans)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CMS değiştirme kararı genelde dört sebepten birine dayanır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Performans: sayfa hızları, build süreleri, API yanıtları",
+              "Güvenlik: güncelleme riski, eklenti ekosistemi, erişim kontrolü",
+              "Kullanılabilirlik: içerik ekibinin panelde üretim hızı, workflow ihtiyacı",
+              "Lisans/maliyet: vendor lock-in, lisans artışı, ölçek maliyeti"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde sezon yoğunluğu ve kampanya ritmi; B2B’de içerik çeşitliliği (case, whitepaper, landing) ve uzun yaşam döngüsü; CMS’in “büyüyen ihtiyaçlara” cevap verip vermediğini daha görünür hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Bir CMS’ten diğerine geçerken nelere dikkat etmeliyim? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Önce neden değiştiğinizi netleştirin, sonra envanter+mapping+redirect planlayın; staging’de test edip eğitim ve rollback ile yayına alın."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Neyi düzeltmek için” değiştiriyoruz net mi?",
+              "Yeni CMS’in sınırları ve lisans modeli biliniyor mu?",
+              "Migration sonrası editoryal workflow planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Hedef kazanımlar”ı yaz (performans, güvenlik, üretim hızı).",
+              "Kapsamı belirle: hangi içerikler taşınacak, hangileri emekli?",
+              "SEO kaybı riskini baştan kabul etme; redirect ve test planı yap.",
+              "Yeni CMS’te yetki/workflow tasarla (RBAC, review).",
+              "Yayın sonrası ölçüm KPI’larını belirle (404, trafik, indeks)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "mevcut-icerik-ve-alan-envanteri",
+        "title": "Mevcut İçerik ve Alan Envanteri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migrasyonun ilk gerçek işi envanterdir. Envanter olmadan mapping olmaz; mapping olmadan sağlıklı taşıma olmaz; sağlıklı taşıma olmadan SEO güvenliği olmaz. Envanter iki katmanlı düşünülmelidir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik envanteri: sayfa/blog/oda/paket/destinasyon/SSS/case vs kaç adet?",
+              "Model envanteri: content type, field, relation, locale, SEO/meta alanları"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Envanter çıkarırken neleri listelemeliyim?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Content type listesi + adetler",
+              "Field listesi (zorunlu/opsiyonel)",
+              "Relation’lar (blog→service, oda→paket)",
+              "SEO alanları (meta, canonical, schema tetikleri)",
+              "Medya türleri (hero, galeri, doküman)",
+              "Çok dil var mı? (TR/EN/DE/RU)",
+              "URL pattern’leri (slug kuralları)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“WordPress’ten headless CMS’e geçeceğim, neye dikkat etmeliyim?” "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Önce içerik ve field envanteri çıkarın (özellikle custom fields), sonra headless modelle eşleyin; URL yapısını koruyun veya 301 planlayın; medya linklerini yeniden bağlayın."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "WordPress’te ACF / özel alanlar var mı?",
+              "URL pattern’leri çıkarıldı mı?",
+              "Medya URL’leri taşınırken kırılacak mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Mevcut CMS’te content type/field export al.",
+              "URL listesi çıkar (top pages + tüm indexlenen URL’ler).",
+              "Medya envanteri çıkar (dosya sayısı, boyut, klasör düzeni).",
+              "Envanteri “taşınacak / birleşecek / emekli” diye etiketle.",
+              "Envanteri migration backlog’una çevir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eski-ve-yeni-icerik-modellerini-eslestirmek",
+        "title": "Eski ve Yeni İçerik Modellerini Eşleştirmek (Content Mapping)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mapping, “eski alan = yeni alan” eşleştirmesidir; ama sadece alan isimleri değil, tipler ve kurallar da eşlenir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "text → rich text",
+              "image → asset",
+              "category → relation",
+              "locale → i18n model",
+              "SEO/meta → standard field group"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "Eski ve yeni içerik modellerini nasıl eşleştiririm? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Önce eski modeldeki content type/field setini çıkarın; sonra yeni CMS’te hedef type’ları tasarlayın; her alan için dönüşüm kuralı yazın (tip, zorunluluk, default değer) ve örnek içeriklerle doğrulayın."
+          },
+          {
+            "type": "h3",
+            "text": "Eşleştirme tablosu (1 tablo – Media Pack ile uyumlu)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Eski CMS → Yeni CMS İçerik/Field Eşleştirme Tablosu",
+            "headers": [
+              "Eski CMS (Type/Field)",
+              "Yeni CMS (Type/Field)",
+              "Dönüşüm kuralı",
+              "Zorunlu mu?",
+              "Not"
+            ],
+            "rows": [
+              [
+                "post.title",
+                "blog.title",
+                "string → string",
+                "✅",
+                "trim/normalize"
+              ],
+              [
+                "post.slug",
+                "blog.slug",
+                "slugify + unique",
+                "✅",
+                "eski slug korunur"
+              ],
+              [
+                "post.content",
+                "blog.body",
+                "html → portable text",
+                "✅",
+                "HTML sanitize"
+              ],
+              [
+                "featured_image",
+                "blog.heroImage",
+                "url → asset",
+                "✅",
+                "alt text ekle"
+              ],
+              [
+                "category",
+                "blog.category",
+                "taxonomy → relation",
+                "⚠️",
+                "mapping listesi"
+              ],
+              [
+                "meta_desc",
+                "seo.metaDescription",
+                "string",
+                "✅",
+                "max length kontrol"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "HTML→rich text dönüşümü planlı mı?",
+              "SEO alanları kaybolmadan taşınıyor mu?",
+              "Relation mapping listeleri hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yeni CMS modelini migration’a uygun kur (önce model, sonra içerik).",
+              "Her alan için dönüşüm kuralı yaz (tip + default).",
+              "10 örnek içerikle dry-run yap.",
+              "Edge case’leri (boş alan, kırık medya) tespit et.",
+              "Mapping tablosunu version’la (v1.0/v1.1)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "redirect-ve-url-stratejisi",
+        "title": "Redirect ve URL Stratejisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CMS migrasyonunda SEO’yu koruyan en önemli katman URL’dir. İçerik aynı kalsa bile URL değişirse Google bunu “yeni sayfa” olarak görebilir ve sıralamalarınız dalgalanabilir. Bu yüzden hedef çoğu zaman:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "URL’leri mümkün olduğunca korumak",
+              "Değişenlerde 301 redirect ile eşlemek",
+              "404’leri yönetmek (silinen içerik → en yakın kategori/hub)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "URL ve redirect planını nasıl hazırlamalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Mevcut indexlenen URL listesini çıkarın, yeni URL pattern’lerini tanımlayın, 1:1 eşleme yapın ve 301’leri staging’de test ederek yayına alın."
+          },
+          {
+            "type": "h3",
+            "text": "301 planında pratik kurallar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 eski URL → 1 yeni URL (mümkünse)",
+              "Toplu pattern redirect’ler (regex) dikkatli kullanılmalı",
+              "Silinen içerik → en yakın üst kategori veya eşdeğer içerik",
+              "Redirect chain yok (A→B→C değil, A→C)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Indexlenen URL listesi çıkarıldı mı?",
+              "Redirect chain oluşuyor mu?",
+              "Canonical ve sitemap yeni yapıya uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Search Console + site crawl ile URL listesi çıkar.",
+              "Yeni URL sözlüğünü yaz (blog/oda/destinasyon pattern).",
+              "301 mapping dosyasını hazırla ve staging’de test et.",
+              "Yayın sonrası 404 raporu izle ve hızlı düzelt.",
+              "SEO raporlamayı 30/60/90 gün takip planına bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-migrasyon-checklisti",
+        "title": "Otel ve B2B İçin Migrasyon Checklist’i (Operasyon + Eğitim)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migrasyonun gözden kaçan kısmı “insan”dır: içerik ekibi yeni paneli öğrenmezse üretim yavaşlar. Otelde kampanya dönemi yaklaşırken panel değişimi yapmak ekstra risklidir; B2B’de ise lead akışları ve landing sayfaları etkilenebilir. Bu yüzden eğitim ve geçiş planı migration’ın parçasıdır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "Otel geçiş planı (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon öncesi “kritik içerik dondurma” penceresi",
+              "Kampanya sayfaları için staging UAT zorunlu",
+              "Oda/destinasyon içerikleri için editoryal eğitim + örnek şablonlar",
+              "Yayın sonrası: fiyat/OTA widget doğrulama (Varsayım: mevcut entegrasyonlar)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B geçiş planı (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Formlar ve CRM entegrasyonları için dönüşüm testleri",
+              "Case/whitepaper içerikleri için asset ve redirect doğrulaması",
+              "Satış ekibi için “linkler değişti mi?” kontrolü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO paragrafı (CMS geçiş modeli)"
+          },
+          {
+            "type": "p",
+            "text": "Eski CMS, yeni CMS, content model mapping, media migration ve URL redirects; tek bir “CMS geçiş modeli”nin parçalarıdır. Geçiş; envanter çıkarma, mapping yazma, taşıma script’leriyle veri aktarma, staging’de test ve 301 redirect planıyla yayına alma adımlarını içerir. Otel/B2B ekipleri için panel eğitimleri ve workflow uyumu eklenmeden yapılan migrasyonlar, teknik olarak bitse bile operasyonel olarak uzar; bu yüzden geçiş, versioned bir plan olarak yönetilmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Eğitim planı ve içerik şablonları hazır mı?",
+              "Form/CRM ve kritik entegrasyonlar test edildi mi?",
+              "Yayın sonrası 30/60/90 gün izleme planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Geçiş tarihini kampanya/yoğun dönemden uzak seç.",
+              "Eğitim + onboarding dokümanı hazırla (1 saatlik mini eğitim + video).",
+              "“Editoryal QA” checklist’i oluştur (meta, görsel, link).",
+              "Yayın sonrası takip planı: 404, trafik, sıralama, CWV.",
+              "Migration dokümanlarını version’la (365 döngüde güncelle)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tema-degisimi-degil-replatforming",
+        "title": "Rakip Açığını Kapat: “Tema Değişimi” Değil, Replatforming",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de CMS değişimi çoğunlukla “temayı değiştirdik” düzeyinde ele alınıyor; gerçek migration sürecini anlatan detaylı rehber az. Bu rehberin farkı; mapping, redirect, medya ve eğitim adımlarını tek modelde birleştirmesi ve SEO güvenli geçişi operasyonel checklist’e dönüştürmesidir. Böyle yaklaşılan projelerde organik trafikteki geçici düşüşler genelde daha sınırlı kalır ve ekip yeni panele daha hızlı adapte olur."
+          }
+        ]
+      },
+      {
+        "id": "cmsten-cmse-gecis-envanter-redirect-planlama-sablonu",
+        "title": "CMS’ten CMS’e Geçiş İçin Envanter & Redirect Planlama Şablonunu İndir — Yazılım / Migration",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS’ten CMS’e Geçiş İçin Envanter & Redirect Planlama Şablonunu İndir — Yazılım / Migration (v1.0)",
+            "purpose": "Bu şablon, CMS migrasyonunu “export/import” seviyesinden çıkarıp envanter, mapping ve 301 redirect planı üzerinden yönetmenizi sağlar. Medya taşıma, staging testleri ve eğitim adımlarıyla; SEO ve operasyon risklerini azaltarak güvenli replatforming yürütmeyi hedefler.",
+            "whoFor": "Ajans proje yöneticisi, teknik lider, SEO uzmanı, içerik lideri.",
+            "steps": [
+              "Mevcut CMS içerik ve URL envanterini çıkarın.",
+              "Eski–yeni model mapping ve dönüşüm kurallarını doldurun.",
+              "Redirect planını test edip yayına alın; eğitim ve izleme planını ekleyin."
+            ],
+            "checklist": [
+              "İçerik Envanteri: İçerik tipleri: ",
+              "Model Envanteri (Eski CMS): ",
+              "Yeni CMS Modeli (Hedef): ",
+              "Mapping: eski.post.content → yeni.blog.body (html→richtext)",
+              "Mapping: eski.featured_image → yeni.heroImage (url→asset)",
+              "Mapping: eski.category → yeni.categoryRelation",
+              "Medya Taşıma: ",
+              "URL & Redirect Planı: ",
+              "Test & Yayın: Staging UAT checklist: "
+            ],
+            "deliverables": [
+              "Envanter dokümanı",
+              "Mapping tablosu",
+              "301 redirect planı",
+              "Medya taşıma planı",
+              "Eğitim + izleme planı"
+            ],
+            "href": "/downloads/cmsten-cmse-gecis-icin-envanter-redirect-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Planlı migrasyon = daha az SEO kaybı + daha hızlı adaptasyon",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "CMS migrasyonu, teknik bir proje olduğu kadar operasyonel bir dönüşümdür. Envanter, mapping, medya taşıma ve 301 redirect planı birlikte yürütülür; staging testleri ve eğitimle desteklenirse geçiş şoku azalır. Yayın sonrası takip ve düzeltme döngüsü de planın parçası olduğunda, SEO kaybı minimize edilir ve ekip yeni CMS’te sürdürülebilir üretime geçer."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS Migration & Geçiş Analizi Talep Et",
+            "text": "SEO güvenli replatforming planı, mapping ve redirect stratejisiyle riskleri azaltmak isteyen otel ve B2B ekipleri için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CMS’ten CMS’e Geçiş İçin Envanter & Redirect Planlama Şablonunu İndir",
+            "text": "Envanter, mapping ve 301 redirect planını tek dokümanda çıkararak geçişi kontrollü ve izlenebilir hale getirmenizi sağlar.",
+            "href": "/downloads/cmsten-cmse-gecis-icin-envanter-redirect-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Bir CMS’ten diğerine geçerken nelere dikkat etmeliyim?",
+        "a": "Envanter çıkarma, içerik modeli mapping’i, medya taşıma ve 301 redirect planı birlikte ele alınmalıdır. Staging testleri ve eğitim planı olmadan yapılan geçişlerde SEO kaybı ve ekip kaosu artar."
+      },
+      {
+        "q": "Eski ve yeni CMS içerik modellerini nasıl eşleştiririm?",
+        "a": "Eski CMS’teki content type/field setini çıkarıp yeni CMS’te hedef modeli tanımlayın. Her alan için dönüşüm kuralı (tip, zorunluluk, default) yazın ve örnek içeriklerle dry-run test edin."
+      },
+      {
+        "q": "URL ve redirect planını nasıl hazırlamalıyım?",
+        "a": "Mevcut indexlenen URL listesini çıkarın, yeni URL pattern’lerini tanımlayın ve 1:1 301 mapping yapın. Redirect chain’leri engelleyip staging’de test ederek yayına alın; 404 raporunu yakından izleyin."
+      },
+      {
+        "q": "Otel ve B2B için CMS geçişinde içerik ekibini nasıl hazırlamalıyım?",
+        "a": "Panel eğitimleri, içerik şablonları ve publish gate/checklist ile hazırlamalısınız. Kampanya/yoğun dönemde geçişten kaçınıp staged rollout ile ekibin adaptasyonunu hızlandırın."
+      },
+      {
+        "q": "Medya dosyalarını taşırken en sık hata nedir?",
+        "a": "Medya linklerini yeniden bağlamamak ve alt text/OG görselleri kaybetmektir. Asset migration planı ve re-link script’i ile kırık görsel riskini azaltın."
+      },
+      {
+        "q": "Migrasyon sonrası SEO’da neyi takip etmeliyim?",
+        "a": "404 oranı, indeksleme, organik trafik ve sıralama trendi; ayrıca canonical/sitemap ve schema hatalarını izlemelisiniz. 7/30/90 gün takip planı en sağlıklısıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-hero-01.webp — CMS migrasyonu ve güvenli geçiş stratejisi, otel ve B2B bağlamı",
+          "h1-context — 1920×1080 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-h1-context-02.webp — Envanter mapping redirect akışı özeti, SEO güvenliği bağlamı",
+          "divider-01 — 1600×1200 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-divider-03.webp — İçerik ve alan envanteri çıkarma görseli, içerik operasyon bağlamı",
+          "divider-02 — 1600×1200 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-divider-04.webp — Eğitim ve geçiş planı görseli, ekip adaptasyon bağlamı",
+          "diagram-05 — 1920×1080 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-diagram-05.webp — URL ve 301 redirect plan şeması, SEO güvenli replatforming bağlamı",
+          "checklist-06 — 1200×1200 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-checklist-06.webp — CMS migration checklist kartı, teknik ve içerik ekipleri bağlamı",
+          "kpi-table-07 — 1200×1200 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-kpi-07.webp — 404 oranı ve trafik değişimi KPI kartı, geçiş performansı bağlamı",
+          "proof-08 — 1200×1200 — cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi-proof-08.webp — Mapping tablosu ve redirect dokümanı çıktıları, güven unsuru bağlamı",
+          "table-content-field-mapping — Eski CMS → yeni CMS içerik/field eşleştirme tablosu"
+        ],
+        "technicalChecklist": [
+          "Mevcut CMS içerik ve field envanteri çıkarıldı",
+          "Indexlenen URL listesi Search Console + crawl ile doğrulandı",
+          "Eski CMS → yeni CMS mapping tablosu version’landı",
+          "HTML→rich text / portable text dönüşüm kuralı test edildi",
+          "Medya asset migration ve re-link kuralı tanımlandı",
+          "Alt text, OG image ve hero image alanları korunuyor",
+          "301 redirect mapping dosyası hazırlandı",
+          "Redirect chain kontrolü yapıldı",
+          "Canonical ve sitemap yeni URL yapısıyla uyumlu",
+          "Schema/metadata kaybı için staging QA yapıldı",
+          "Form/CRM ve kritik entegrasyonlar test edildi",
+          "Panel eğitim dokümanı ve editoryal QA checklist’i hazırlandı",
+          "Yayın sonrası 7/30/90 gün SEO takip planı tanımlandı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogKisisellestirmeVeSegmentBazliIcerikCMSIleDinamikWebDeneyimi": {
+    "title": "CMS ile Segment Bazlı Kişiselleştirme Rehberi",
+    "slug": "kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "29 Haziran 2026",
+    "publishedAt": "2026-06-29",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kişiselleştirme “herkese ayrı site” değildir. Segment bazlı mesaj, CTA ve teklif varyasyonlarını CMS’te yönetin; ülke, dil ve kanal örnekleriyle KPI ölçümü ve KVKK sınırlarını netleştirin.",
+    "seo": {
+      "metaTitle": "CMS ile Segment Bazlı Kişiselleştirme Rehberi | DGTLFACE",
+      "metaDescription": "Kişiselleştirme “herkese ayrı site” değil: segment bazlı mesaj/CTA/teklif varyasyonlarını CMS’te yönetin. Ülke–dil–kanal örnekleri + KPI ölçümü + KVKK sınırları. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog No / URL: Blog #10 — /tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi"
+      ],
+      "strategySummary": "Bu blog, TR’de “herkese özel site” gibi uç tartışmalara sıkışan kişiselleştirme konusunu segment bazlı, yönetilebilir ve ölçülebilir bir modele indirger; CMS tarafında uygulanabilir bir çerçeve sunar. Hedef persona; otel ve B2B markalarda pazarlama/satış liderleri ile ajans yöneticileri; teknik tarafta CMS/Next.js ekibidir. Funnel’da consideration (MoFu) ağırlıklıdır: hangi segmentlerde hangi varyasyonların anlamlı olduğu, bakım yükü ve KVKK riskleriyle birlikte karar verilmesini sağlar. Ana iş sorusu: “Segment bazlı mesaj/teklif varyasyonlarını CMS’te nasıl kurgular, nasıl ölçer ve nasıl sürdürülebilir tutarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-29",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Kişiselleştirme; her kullanıcıya bambaşka site göstermek değil, doğru segmentler için doğru mesaj ve teklif varyasyonlarını yönetmektir. CMS’te segment bazlı alanlar (hero, CTA, teklif bloğu, görsel) kurgulayarak ülke/dil/kanal gibi sinyallerle kontrollü varyasyonlar sunabilirsiniz. Otellerde ülke/dil/kanal bazlı teklif blokları; B2B’de sektör/rol bazlı mesajlar öne çıkar. GA4/CRM ile ölçüm yapıp aşırı granular yapıdan kaçınmak sürdürülebilirliği korur.",
+      "sgeSummary": "CMS’te segment alanlarıyla hero/CTA/teklif varyasyonları oluştur; ülke–dil–kanal ve davranış sinyalleriyle kontrollü kişiselleştirme yap. GA4/CRM ile KPI ölç; KVKK ve bakım yükü sınırlarını çiz.",
+      "voiceAnswer": "Herkese özel site yerine, 3–5 segment seçip CMS’te hero/CTA/teklif varyasyonlarını ölçerek yönet.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel ve B2B pazarlama/satış liderleri, ajanslar, teknik ekip",
+        "Ana KPI: CTR, form dönüşümü, rezervasyon isteği, gelir/pipeline, segment bazlı CVR",
+        "Entity’ler: personalisation, segmented content, variants, hero/CTA/offer, GA4/CRM attribution",
+        "Funnel: MoFu (Informational + Strategic) → kişiselleştirme strateji analizi",
+        "Risk odağı: aşırı granular segmentler, bakım yükü, veri gizliliği (KVKK), performans maliyeti",
+        "Model: controlled personalisation + measurable variants",
+        "Fark yaratan açı: CMS seviyesinde “segment→varyasyon→KPI” standardı"
+      ]
+    },
+    "h1": {
+      "title": "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi",
+      "intro": "Kişiselleştirme çoğu zaman “herkese özel site” gibi hayalî bir hedefle başlatılıp, bakım yükü ve veri riski yüzünden yarıda kalır. Oysa doğru yaklaşım; sınırlı sayıda segment için sınırlı sayıda varyasyon tanımlamak ve bunu CMS’te yönetilebilir bir yapıya oturtmaktır. Böylece hem otel hem B2B sitelerinde mesaj/teklif uyumu artar; A/B test ve ölçüm için sağlam bir temel oluşur. Bu rehber, segment bazlı içerik alanlarını nasıl tasarlayacağınızı, hangi segmentlerin işe yaradığını ve performansı nasıl ölçeceğinizi “kontrollü kişiselleştirme” çerçevesiyle anlatır.",
+      "quickSummary": [
+        "1) Kişiselleştirmeyi “herkese ayrı site” değil, segment bazlı varyasyon olarak konumlandır",
+        "2) 3–5 güçlü segment seç: ülke, dil, kanal veya cihaz",
+        "3) CMS’te hero, CTA ve teklif alanlarını segmentli varyasyon mantığıyla tasarla",
+        "4) Her varyasyona measurement_key ekleyip GA4/CRM ile ölç",
+        "5) KVKK, bakım yükü ve performans sınırlarını baştan belirle"
+      ],
+      "ctaPrimary": {
+        "label": "Kişiselleştirme & Segment Bazlı İçerik Strateji Analizi Talep Et",
+        "text": "Otel ve B2B sitelerinde segment bazlı mesaj/teklif varyasyonlarını ölçülebilir ve sürdürülebilir kurgulamak isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kişiselleştirme & Segment Bazlı İçerik Strateji Analizi Talep Et",
+        "text": "Segment setini, CMS alan modelini ve ölçüm planını KVKK sınırlarıyla birlikte netleştirip yönetilebilir kişiselleştirme kurun.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "CMS Üzerinden Segment Bazlı İçerik & Kişiselleştirme Planlama Şablonunu İndir",
+        "text": "Segmentleri, varyasyon alanlarını ve KPI ölçüm planını tek dokümanda çıkararak sürdürülebilir dinamik deneyim tasarlamanızı sağlar.",
+        "href": "/downloads/cms-uzerinden-segment-bazli-icerik-kisisellestirme-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "SMM Planlama & Strateji",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Satış & Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "title": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kisisellestirme-nedir-ne-degildir",
+        "title": "Kişiselleştirme Nedir, Ne Değildir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kişiselleştirme nedir? Doğru segmentin, doğru bağlamda (ülke/dil/kanal/davranış) doğru mesajı görmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Kişiselleştirme ne değildir? Her kullanıcıya ayrı bir site tasarlamak, her sayfayı sonsuz varyasyonla çoğaltmak veya “veri varsa kullanalım” diyerek gizlilik sınırlarını aşmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki hedef: kontrollü kişiselleştirme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Segment sayısı sınırlı (3–7)",
+              "Varyasyon sayısı sınırlı (her segmentte 1–2)",
+              "Ölçüm net (hangi KPI, hangi süre)",
+              "Geri dönüş planı var (çalışmayan varyasyon kapatılır)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kişiselleştirme nedir, CMS ile nasıl yapılır? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: CMS’te hero/CTA/teklif gibi alanları “segmentli varyasyon” olarak tanımlayıp, front-end’de segment kuralına göre doğru varyasyonu render ederek yapılır; GA4/CRM ile KPI ölçülür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segmentleriniz iş hedefiyle bağlı mı (dönüşüm sorunu çözüyor mu)?",
+              "Her segment için “tek KPI” seçili mi?",
+              "Çalışmayan varyasyonu kapatma kuralınız var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Ne kazanacağız?” sorusunu yaz (örn. CTR↑, form CVR↑).",
+              "3–5 segment seç (ülke/dil/kanal gibi güçlü sinyallerle).",
+              "Sadece 2–3 alanı kişiselleştirerek başla (hero + CTA + teklif).",
+              "Ölçüm penceresi belirle (örn. 2–4 hafta).",
+              "Kazanmayan varyasyonu kapat; kazananı standarda çevir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "cms-te-segment-bazli-icerik-alanlari",
+        "title": "CMS’te Segment Bazlı İçerik Alanları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kişiselleştirmenin sürdürülebilir olması için CMS modeli net olmalı: “hero alanı tek metin” değil, “segmentli varyasyon listesi” olmalı. En pratik yapı; her kişiselleştirilen bileşen için şu alanları tutmaktır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "segment kuralı (kim görür?)",
+              "varyasyon içeriği (metin/görsel/CTA)",
+              "öncelik (conflict çözümü)",
+              "aktif/pasif (toggle)",
+              "ölçüm etiketi (GA4 event parametresi gibi)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "CMS alan modeli (önerilen)"
+          },
+          {
+            "type": "p",
+            "text": "HeroBlock (örnek):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "default_title, default_subtitle, default_visual, default_cta",
+              "variants[]",
+              "segment_id",
+              "title, subtitle, visual, cta_text, cta_url",
+              "priority",
+              "is_active",
+              "measurement_key"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı; hem içerik ekibinin panelde yönetimini kolaylaştırır, hem de teknik ekibin “tek sözleşmeyle” render etmesini sağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Default (herkese gösterilen) içerik var mı?",
+              "Varyasyonlar priority ile çakışma çözebiliyor mu?",
+              "Her varyasyonun ölçüm anahtarı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CMS’te segmentli alanları component bazında tasarla (hero/cta/offer).",
+              "Default içerik zorunlu kıl (fallback).",
+              "Varyasyonlara “aktif/pasif” anahtarı ekle.",
+              "Çakışma çözümü için priority kuralı yaz.",
+              "Ölçüm anahtarı olmadan varyasyon yayınlama (publish gate)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-segmentleri-ulke-dil-cihaz-kaynak-davranis",
+        "title": "Kullanıcı Segmentleri (Ülke, Dil, Cihaz, Kaynak, Davranış)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Segment seçimi, kişiselleştirmenin kaderidir. “Cihaz” gibi sinyaller bazen daha çok UX optimizasyonudur; “ülke/dil” otellerde teklif uyumu için güçlüdür; “kaynak/kanal” kampanya mesajını eşleştirmek için etkilidir; “davranış” ise veri/izin sınırları nedeniyle dikkat ister."
+          },
+          {
+            "type": "h3",
+            "text": "Hangi segmentler için farklı içerik göstermeliyim? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: En güçlü ve en az riskli sinyallerle başlayın: ülke/dil ve kampanya kaynağı (UTM). Davranış segmentini ancak veri kalitesi, KVKK ve ölçüm altyapısı hazırsa ekleyin."
+          },
+          {
+            "type": "p",
+            "text": "Önerilen “başlangıç segment seti” (3–5):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dil: TR / EN / DE / RU (varsa)",
+              "Ülke: TR / DACH / RU-CIS gibi makro kümeler (Varsayım: veri uygunsa)",
+              "Kanal: brand / non-brand / paid social / email",
+              "Cihaz: mobile vs desktop (daha çok UX)",
+              "Yeni vs geri dönen (cookie/consent gerektirir)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Segment sinyali güvenilir mi (GA4/UTM tutarlı mı)?",
+              "Segmentler birbirine çok mu benziyor (granularlık riski)?",
+              "KVKK/consent olmadan davranış segmenti planlıyor musunuz?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk fazda “ülke/dil/kanal” ile başla.",
+              "Davranış segmentini ikinci faza bırak (izin + veri kalitesi).",
+              "Segmentleri “iş sorusu”na bağla (örn. DACH için mesaj/CTA).",
+              "Segment sayısını sınırla (3–7).",
+              "Her segment için 1–2 varyasyonla test et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-kisisellestirme-ornekleri",
+        "title": "Otel ve B2B İçin Kişiselleştirme Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde “uygulanabilir” örnekler önemli: kişiselleştirme, çoğu zaman hero ve CTA’da en hızlı kazanımı verir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnekleri (ülke/dil/kanal)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ülke/Dil bazlı teklif bloğu: DE ziyaretçiye “erken rezervasyon + iptal esnekliği” vurgusu",
+              "Kanal bazlı mesaj: Paid social’dan gelen kullanıcıya “paket avantajı” yerine “hızlı fiyat gör” CTA’sı",
+              "Mobil varyasyonu: daha kısa hero, daha belirgin “Ara / WhatsApp” CTA (Varsayım: kanal stratejisine göre)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnekleri (sektör/rol)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sektör bazlı hero: “Otel grupları için…” vs “B2B SaaS için…” mesaj ayrımı",
+              "Rol bazlı CTA: CEO/Owner için “strateji görüşmesi”; operasyon için “checklist indir”",
+              "Kaynak bazlı landing: webinar’dan gelen kullanıcıya “kayıt + deck” odaklı blok"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Veri noktası (yumuşatılmış): Segment bazlı kişiselleştirme yapan projelerde, özellikle ülke/dil/kanal seviyesinde teklif uyarlamasıyla tıklama ve dönüşüm oranlarında anlamlı artışlar görülebilir (sonuçlar trafik ve teklif kalitesine bağlıdır)."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde “ülke/dil” sinyaliyle teklif farkı gerçekten var mı?",
+              "B2B’de rol bazlı CTA satış süreciyle uyumlu mu?",
+              "Varyasyonlar ölçüm anahtarıyla tag’leniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde önce hero + teklif bloğunu ülke/dil bazında ayrıştır.",
+              "B2B’de sektör/rol için mesaj + CTA varyasyonu tasarla.",
+              "Varyasyonları 1–2 kritik sayfada başlat (home + hizmet/landing).",
+              "GA4 event parametreleriyle varyasyon id’sini kaydet.",
+              "Kazanan varyasyonu kalıcılaştır; diğerlerini kapat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "performans-ve-olcum",
+        "title": "Performans ve Ölçüm",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kişiselleştirmede iki performans vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "UX performansı: sayfa hızına etkisi (çok fazla koşul/render maliyeti)",
+              "İş performansı: CTR/CVR/pipeline etkisi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ölçüm olmadan kişiselleştirme “inanç” olur. Bu yüzden segment→varyasyon→KPI tablosu ve net raporlama şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Kişiselleştirmenin performansını nasıl ölçerim ve sınırlarını nasıl çizerim? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Her varyasyona ölçüm anahtarı verin, GA4’te event/parametre ile takip edin; CRM’de source/campaign ile ilişkilendirip KPI hedefi koyun. Bakım yükü ve KVKK riskine göre segment sayısını sınırlayın."
+          },
+          {
+            "type": "h3",
+            "text": "Segment → Varyasyon → KPI tablosu (1 tablo – Media Pack ile uyumlu)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Segment → Varyasyon → KPI Tablosu",
+            "headers": [
+              "Segment",
+              "Varyasyon (ör.)",
+              "KPI",
+              "Ölçüm penceresi",
+              "Not"
+            ],
+            "rows": [
+              [
+                "DE dili",
+                "Hero mesaj + “Esnek iptal” CTA",
+                "CTR, CVR",
+                "2–4 hafta",
+                "Otel örneği"
+              ],
+              [
+                "Paid Social",
+                "Teklif yerine “Hızlı fiyat gör” CTA",
+                "CTA tıklama",
+                "1–2 hafta",
+                "Kanal uyumu"
+              ],
+              [
+                "B2B SaaS",
+                "“Demo iste” yerine “Use-case rehberi indir”",
+                "Lead quality",
+                "4 hafta",
+                "Pipeline etkisi"
+              ],
+              [
+                "Mobile",
+                "Kısa hero + iletişim CTA",
+                "Form başlama",
+                "2 hafta",
+                "UX etkisi"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "AIO paragrafı (segment bazlı web deneyimi modeli)"
+          },
+          {
+            "type": "p",
+            "text": "Segment, persona, varyasyon, hero/CTA/teklif ve GA4/CRM ölçümü; tek bir “segment bazlı web deneyimi modeli” içinde çalışır. CMS; segmentli alanları yönetir, front-end segment kuralına göre doğru varyasyonu seçer; GA4 event/parametre ile varyasyonu ölçer; CRM ise source/campaign ile pipeline ve gelir etkisini bağlar. Bu modelin başarısı, controlled personalisation yaklaşımıyla (az segment, net KPI, hızlı kapatma) sürdürülebilir kalmasına bağlıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not: KVKK ve aşırı granular risk"
+          },
+          {
+            "type": "p",
+            "text": "Aşırı granular kişiselleştirme, hem bakım yükü hem de veri gizliliği riski doğurabilir. KVKK ve /tr/raporlama/kvkk-veri-guvenligi ile uyumlu olacak şekilde; segment sayısı ve kullanılan veri türleri sınırlı tutulmalı, consent gerektiren davranış sinyalleri kontrollü yönetilmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Varyasyon id’si GA4’e event parametresi olarak gidiyor mu?",
+              "CRM’de source/campaign sözlüğü tutarlı mı?",
+              "KVKK/consent gerektiren veri kullanımı net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Varyasyonlara ölçüm anahtarı zorunlu kıl.",
+              "GA4 raporunu segment bazlı kur (CTR/CVR).",
+              "CRM’de pipeline etkisini kaynak/kampanya ile bağla.",
+              "Segment sayısını sınırlı tut; bakım yükünü hesapla.",
+              "KVKK uyum kontrolü ekle; riskli segmentleri kapat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cms-uzerinden-segment-bazli-icerik-kisisellestirme-planlama-sablonu",
+        "title": "CMS Üzerinden Segment Bazlı İçerik & Kişiselleştirme Planlama Şablonunu İndir — Yazılım / Personalisation",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS Üzerinden Segment Bazlı İçerik & Kişiselleştirme Planlama Şablonunu İndir — Yazılım / Personalisation (v1.0)",
+            "purpose": "Bu şablon, kişiselleştirmeyi “herkese ayrı site” yerine segment bazlı, ölçülebilir varyasyonlar olarak planlamanızı sağlar. CMS’te hangi alanların segmentleneceğini, hangi segmentlerin seçileceğini, KPI ölçümünü ve KVKK sınırlarını tek dokümanda netleştirerek bakım yükünü kontrol altında tutar.",
+            "whoFor": "Pazarlama lideri, ajans stratejisti, ürün/teknik lider, analitik/raporlama sorumlusu.",
+            "steps": [
+              "Başlangıç segment setini (3–5) seçin ve iş hedefini yazın.",
+              "CMS’te segmentlenecek alanları (hero/CTA/teklif) ve varyasyon kurallarını doldurun.",
+              "GA4/CRM ölçüm planını ve KVKK sınırlarını ekleyip test takvimini belirleyin."
+            ],
+            "checklist": [
+              "Hedef ve Kapsam: Hedef KPI: ",
+              "Segment Seti: Dil (TR/EN/DE/RU)",
+              "Segmentlenecek CMS Alanları: ",
+              "Varyasyon Kuralları: Default içerik zorunlu: [ ] Evet",
+              "Varyasyon Kuralları: Çakışma çözümü: priority (1 en yüksek)",
+              "Varyasyon Kuralları: Aktif/pasif toggle: [ ] Var",
+              "Varyasyon Kuralları: Ölçüm anahtarı: measurement_key: __________",
+              "Ölçüm Planı (GA4 + CRM):",
+              "KVKK / Veri Güvenliği Notu: "
+            ],
+            "deliverables": [
+              "Segment seti dokümanı",
+              "CMS alan modeli + varyasyon listesi",
+              "KPI ölçüm planı + rapor şablonu",
+              "KVKK sınır notu + bakım planı"
+            ],
+            "href": "/downloads/cms-uzerinden-segment-bazli-icerik-kisisellestirme-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Kontrollü kişiselleştirme, ölçülebilir dinamik deneyim üretir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Kişiselleştirme, sürdürülebilir olması için sınırlı segment, net varyasyon ve ölçülebilir KPI mantığıyla kurulmalıdır. CMS bu yapının merkezi olur: segmentli alanları yönetir, front-end doğru varyasyonu gösterir, GA4/CRM performansı ölçer. Böyle kurgulandığında otel ve B2B siteleri, bakım yükünü büyütmeden daha alakalı mesajlar ve daha net dönüşüm deneyimleri üretebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kişiselleştirme & Segment Bazlı İçerik Strateji Analizi Talep Et",
+            "text": "Segment seti, CMS alan modeli, ölçüm planı ve KVKK sınırlarıyla yönetilebilir kişiselleştirme kurmak isteyen ekipler için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CMS Üzerinden Segment Bazlı İçerik & Kişiselleştirme Planlama Şablonunu İndir",
+            "text": "Segmentleri, varyasyon alanlarını ve KPI ölçüm planını tek dokümanda çıkararak sürdürülebilir dinamik deneyim tasarlamanızı sağlar.",
+            "href": "/downloads/cms-uzerinden-segment-bazli-icerik-kisisellestirme-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kişiselleştirme nedir, CMS ile nasıl yapılır?",
+        "a": "Kişiselleştirme, belirli segmentlere belirli mesaj/teklif varyasyonlarını göstermektir. CMS’te segmentli alanlar ve varyasyonlar tanımlanır; front-end segment kuralına göre doğru varyasyonu gösterir ve GA4/CRM ile ölçülür."
+      },
+      {
+        "q": "Hangi segmentler için farklı içerik göstermeliyim?",
+        "a": "En güvenilir sinyallerle başlayın: ülke/dil ve kampanya kaynağı (UTM). Davranış segmentleri daha riskli ve bakım maliyetli olduğu için consent ve veri kalitesi hazırsa eklenmelidir."
+      },
+      {
+        "q": "Otel için kişiselleştirme örnekleri neler?",
+        "a": "Ülke/dil bazlı teklif bloğu, kanal bazlı CTA (hızlı fiyat gör/rezervasyon iste), mobilde daha kısa hero ve iletişim CTA gibi örnekler hızlı kazanım sağlar."
+      },
+      {
+        "q": "B2B için kişiselleştirme örnekleri neler?",
+        "a": "Sektör/rol bazlı hero mesajları, demo yerine rehber indirme gibi CTA varyasyonları, webinar kaynaklı landing blokları gibi örnekler pipeline kalitesini artırabilir."
+      },
+      {
+        "q": "Kişiselleştirmenin performansını nasıl ölçerim?",
+        "a": "Her varyasyona ölçüm anahtarı verip GA4’te event/parametre ile takip edin; CRM’de source/campaign ile pipeline ve gelir etkisini ilişkilendirin. Ölçüm penceresi ve hedef KPI net olmalıdır."
+      },
+      {
+        "q": "Çok fazla segment açmak neden kötü?",
+        "a": "Bakım yükü ve tutarsızlık artar; ayrıca veri gizliliği riski büyür. Az segment–az varyasyon yaklaşımıyla başlayıp kazananları standarda dönüştürmek daha sürdürülebilirdir."
+      },
+      {
+        "q": "Kişiselleştirme KVKK açısından risk yaratır mı?",
+        "a": "Evet, özellikle davranış ve tanımlayıcı sinyaller kullanılıyorsa risk artar. Segment seçiminde veri minimizasyonu ve consent yönetimi önemlidir; /tr/raporlama/kvkk-veri-guvenligi ile uyumlu ilerlenmelidir."
+      },
+      {
+        "q": "A/B test mi, kişiselleştirme mi?",
+        "a": "Segment bazlı kişiselleştirme, test edilebilir varyasyonlar üretmek için iyi bir zemindir. Önce sınırlı segmentte varyasyon üretip ölçebilir, sonra A/B test ile doğrulayabilirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-hero-01.webp — Segment bazlı kişiselleştirme görseli, otel ve B2B web deneyimi bağlamı",
+          "h1-context — 1920×1080 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-h1-context-02.webp — Segment ve varyasyon mantığı özeti, dönüşüm odaklı web bağlamı",
+          "divider-01 — 1600×1200 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-divider-03.webp — CMS segment alanları bölümü ayırıcı görseli, editoryal operasyon bağlamı",
+          "divider-02 — 1600×1200 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-divider-04.webp — Ölçüm ve KVKK sınırları bölümü görseli, veri güvenliği bağlamı",
+          "diagram-05 — 1920×1080 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-diagram-05.webp — Segment kuralı ve varyasyon seçimi diyagramı, ölçülebilir kişiselleştirme bağlamı",
+          "checklist-06 — 1200×1200 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-checklist-06.webp — Kişiselleştirme checklist kartı, strateji ve teknik ekip bağlamı",
+          "kpi-table-07 — 1200×1200 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-kpi-07.webp — Segment bazlı CTR ve dönüşüm KPI kartı, performans ölçüm bağlamı",
+          "proof-08 — 1200×1200 — kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi-proof-08.webp — Segment planı ve varyasyon deliverables kartı, güven unsuru bağlamı",
+          "table-segment-variation-kpi — Segment → varyasyon → performans (KPI) tablosu"
+        ],
+        "technicalChecklist": [
+          "CMS alan modeli default içerik + variants[] yapısını destekliyor",
+          "Her varyasyonda segment_id, priority, is_active ve measurement_key alanları var",
+          "Default içerik fallback olarak zorunlu",
+          "Çakışma çözümü priority kuralıyla tanımlandı",
+          "Varyasyon yayınlamak için measurement_key publish gate olarak zorunlu",
+          "GA4 event parametreleri segment_id, variant_id ve page_type içeriyor",
+          "CRM source/medium/campaign naming convention ile uyumlu",
+          "Segment sayısı 3–7 aralığında sınırlandı",
+          "Davranış segmentleri consent ve KVKK kontrolüne bağlı",
+          "KVKK/veri güvenliği kontrolü /tr/raporlama/kvkk-veri-guvenligi ile hizalı",
+          "Performans etkisi için render koşulları ve cache stratejisi kontrol edildi",
+          "Kazanmayan varyasyonları kapatma kuralı tanımlandı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogCMSBlockEditorVePageBuilderYapilariEsneklikVeKontrolDengesi": {
+    "title": "CMS Block Editor & Page Builder Hibrit Model Rehberi",
+    "slug": "cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "29 Haziran 2026",
+    "publishedAt": "2026-06-29",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Block editor/page builder’ı hibrit kurgulayın: iskelet şablon sabit, bloklar kontrollü esnek olsun. Otel ve B2B için blok seti, performans bütçesi, rol dağılımı ve checklist ile marka tutarlılığını koruyun.",
+    "seo": {
+      "metaTitle": "CMS Block Editor & Page Builder Hibrit Model Rehberi | DGTLFACE",
+      "metaDescription": "Block editor/page builder’ı hibrit kurgulayın: iskelet şablon sabit, bloklar kontrollü esnek olsun. Otel & B2B için blok seti, performans bütçesi, rol dağılımı ve checklist. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog No / URL: Blog #11 — /tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi"
+      ],
+      "strategySummary": "Bu blog, block editor/page builder konusunu “tasarım özgürlüğü” romantizminden çıkarıp marka tutarlılığı + performans + editoryal hız dengesine oturtan core rehber rolündedir. Hedef persona; otel/B2B markalarda pazarlama ve içerik liderleri ile ajans yöneticileri; teknik tarafta CMS/Front-end ekipleridir. Funnel’da consideration (MoFu) aşamasında; “tam serbest builder mı, kısıtlı şablon mu?” kararını ve hibrit modelin nasıl kurulacağını netleştirir. Ana iş sorusu: “Editörlere esneklik verirken siteyi dağıtmadan, performans ve SEO’yu bozmadan nasıl blok bazlı yapı kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-06-29",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Block editor ve page builder’lar içerik ekibine hız kazandırır; ancak “tam serbestlik” kurumsal sitelerde tasarım kaosu ve performans sorunlarına yol açabilir. En iyi yaklaşım çoğu projede hibrit modeldir: sayfanın iskeleti (grid, tipografi, spacing, kritik bileşenler) sabit kalır; belirli alanlar (banner, SSS, kartlar, içerik blokları) kontrollü şekilde esnektir. Blok seti, rol dağılımı, HTML hiyerarşisi ve schema kontrolüyle yönetilirse marka tutarlılığı korunur.",
+      "sgeSummary": "Tam serbest page builder yerine hibrit model kur: sabit şablon + kontrollü blok alanları. Blok kütüphanesi, onay süreci ve performans bütçesiyle tasarım tutarlılığını koru, üretim hızını artır.",
+      "voiceAnswer": "Editöre özgürlük ver ama site dağılmasın istiyorsan hibrit şablon + kontrollü blok seti kullan.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B içerik ekipleri, ajanslar, ürün/teknik liderler",
+        "KPI: içerik yayın hızı, tasarım tutarlılığı, CWV/Lighthouse, editoryal hata oranı",
+        "Entity: CMS Block Editor, Page Builder, Structured Content, Fixed Templates, Performance Budget",
+        "GEO: Türkiye geneli; otel örneklerinde Antalya/Belek gibi sezon/kampanya bağlamı geçebilir",
+        "Funnel: Consideration (MoFu)",
+        "Risk: “her şeyi bloktan yapalım” → UI kaosu + ağır sayfalar + SEO yapısının bozulması",
+        "Model: hibrit blok tabanlı CMS modeli (controlled flexibility + layout governance)"
+      ]
+    },
+    "h1": {
+      "title": "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi",
+      "intro": "Blok tabanlı editörler ve page builder’lar, içerik ekibine “developer beklemeden sayfa çıkarma” gücü verir. Fakat yanlış kurgulandığında kurumsal web sitelerinde iki tip sorun çıkar: (1) Tasarım kaosu (her sayfa başka bir site gibi görünür), (2) Performans çöküşü (ağır bloklar, kontrolsüz görseller, kötü HTML). Bu yüzden hedef “editör özgürlüğü” değil; kontrollü esneklik olmalıdır: iskelet şablonlar sabit, belirli alanlar blok bazlı esnek. Bu yaklaşım otel ve B2B sitelerinde hem içerik üretim hızını hem de marka tutarlılığını birlikte korur.",
+      "quickSummary": [
+        "1) Block editor ile page builder farkını netleştir",
+        "2) Tam serbestlik yerine hibrit model kur",
+        "3) Kilitli şablon alanları ve izinli blok bölgelerini ayır",
+        "4) Blok bütçesi, medya standardı ve publish gate ile performansı koru",
+        "5) SEO/HTML hiyerarşisini sistem seviyesinde kontrol et"
+      ],
+      "ctaPrimary": {
+        "label": "Block Editor & Page Builder Kurgu Analizi Talep Et",
+        "text": "Editörlere esneklik verip siteyi dağıtmadan, performans ve SEO kontrolünü korumak isteyen otel ve B2B ekipleri için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Block Editor & Page Builder Kurgu Analizi Talep Et",
+        "text": "Hibrit blok modelini tasarlayıp editör hızını artırırken marka tutarlılığı ve performansı koruyun.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Block Editor Alan Tasarımı & Hibrit Şablon Checklist Şablonunu İndir",
+        "text": "Kilitli alanları, izinli blok setini ve performans/SEO kontrollerini netleştirip kontrollü esneklik kurgusu kurmanızı sağlar.",
+        "href": "/downloads/block-editor-alan-tasarimi-hibrit-sablon-checklist-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "block-editor-nedir",
+        "title": "Block Editor Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Block editor; içerik alanını “tek bir dev metin kutusu” yerine, anlamlı yapı taşlarına böler: hero, paragraf, görsel, grid, banner, SSS, kartlar gibi. Bu yapı, içerik ekibinin düzenli ve tekrar kullanılabilir bileşenlerle üretim yapmasını sağlar. Page builder ise genellikle daha “layout” odaklıdır; sürükle-bırak ile sayfa düzenini kurdurur. İkisi benzer görünse de, kurumsal web için kritik fark şudur: block editor daha yapılandırılmış ve yönetilebilir, page builder ise yanlış kurgulanırsa “sonsuz özgürlük” nedeniyle standardı kırabilir."
+          },
+          {
+            "type": "h3",
+            "text": "CMS block editor nedir, page builder’dan farkı nedir? (AEO – Soru formatı)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Block editor içerik ve bileşenleri yapılandırılmış bloklarla yönetir; page builder sayfa düzenini daha serbest kurdurur. Kurumsal projelerde block editor genelde daha iyi “kontrol” ve “tutarlılık” sağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bloklarınız “bileşen” mi yoksa “her seferinde farklı layout” mu üretiyor?",
+              "Editör, aynı bileşenle tutarlı sayfa çıkarabiliyor mu?",
+              "“Sürükle-bırak her şey” yaklaşımı tasarım standardını zorluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "items": [
+              "Blokları “tasarım sistemi bileşeni” olarak tanımla (tekil kurallar).",
+              "Page builder varsa “izinli layout bölgeleri” ile sınırla.",
+              "Her blok için kısa kullanım açıklaması ve örnek ekle (panel UX).",
+              "Blok sayısını kontrol et (kütüphane şişmesin).",
+              "Her blok için performans/SEO kuralı koy (görsel boyutu, başlık hiyerarşisi)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "page-builder-vs-structured-content",
+        "title": "Page Builder vs Structured Content",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal web’te en kritik karar: sayfa düzeni mi (layout) içerik mi (content) yönetilecek? Structured content yaklaşımı; içerikleri anlamlı alanlara böler (başlık, özet, galeri, USP listesi) ve front-end bu veriyi tasarım sistemine göre render eder. Page builder yaklaşımı ise editöre “layout” yaptırır. Otel ve B2B gibi marka tutarlılığı önemli yapılarda, çoğu zaman “tam serbest layout” yerine structured + blok hibriti daha iyi çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "Tamamen serbest page builder mı, kısıtlı şablon mu kullanmalıyım? (AEO – Soru formatı)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Kurumsal sitelerde genellikle kısıtlı şablon + kontrollü blok alanları daha doğru bir dengedir. Tam serbestlik hız kazandırır gibi görünür ama tasarım/SEO/performans borcu üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Kritik değerlendirme kriterleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka standardı: her sayfa aynı dilde mi konuşmalı?",
+              "Ekip yetkinliği: editörler layout kararını taşıyabilir mi?",
+              "Performans hedefi: CWV/TTFB/LCP kritik mi?",
+              "SEO kontrolü: başlık hiyerarşisi ve schema tetikleri yönetilecek mi?",
+              "Ölçek: 50 sayfa mı 1000 sayfa mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Tasarım ekibi “governance” ister mi? (çoğu projede evet)",
+              "Editör ekibi “hızlı yayın” ister mi? (evet)",
+              "İki ihtiyacı aynı anda karşılayan kural setiniz var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "items": [
+              "Layout’u “bölge” bazında kısıtla (header/hero/body/footer).",
+              "Structured alanları zorunlu kıl (H1, meta, görsel, CTA).",
+              "Serbestlik vereceğin alanları seç (SSS, banner, içerik blokları).",
+              "Blokların nerede kullanılacağını kural ile belirle.",
+              "“Aşırı serbest sayfa” için onay (review) şartı koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "esneklik-kontrol-performans-dengesi",
+        "title": "Esneklik – Kontrol – Performans Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Blok tabanlı bir model; doğru kurgulanırsa hız ve çeşitlilik getirir. Ancak blok sayısı, görsel yönetimi ve script yükleri kontrol edilmezse sayfa şişer. Bu yüzden “performans bütçesi” yaklaşımı işe yarar: her sayfa türü için maksimum blok sayısı, maksimum medya, maksimum ağır bileşen sınırı."
+          },
+          {
+            "type": "p",
+            "text": "Sheet veri noktası (yumuşatılmış): Block tabanlı modelin iyi kurgulandığı projelerde, sayfa çeşitliliği artarken marka dili ve tasarım tutarlılığı korunabiliyor."
+          },
+          {
+            "type": "h3",
+            "text": "Blok yapısı performans ve tasarım tutarlılığını nasıl etkiler? (AEO – Soru formatı)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Bloklar “kontrollü” ise hem tutarlılık hem performans korunur; kontrol yoksa her blok yeni CSS/JS yükü ve farklı layout üretip sayfayı ağırlaştırır ve görsel dili bozar."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik performans bütçesi örneği (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Landing: max 8–12 blok",
+              "Blog: max 6–10 blok",
+              "Otel oda sayfası: max 10–14 blok (galeri + USP + oda kartları)",
+              "Ağır blok (video/slider): sayfa başına max 1"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı sayfada 3 slider/3 video var mı? (genelde hayır)",
+              "Görseller yüklenmeden layout zıplıyor mu? (CLS riski)",
+              "Her blok kendi CSS’ini mi getiriyor? (bileşen şişmesi)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "items": [
+              "Sayfa türüne göre blok bütçesi tanımla (max blok).",
+              "Ağır blokları sınırlı tut (video/slider).",
+              "Görsel kuralları koy (boyut, format, lazy-load).",
+              "Blokların CSS/JS’ini “shared” yap (tek design system).",
+              "Yayın öncesi performans kontrol checklist’i ekle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-blok-bazli-sablonlar",
+        "title": "Otel ve B2B İçin Blok Bazlı Şablonlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Blok yaklaşımı en iyi; tekrar eden sayfa türlerinde değer üretir. Otelde kampanya landing’leri, destinasyon sayfaları, oda sayfaları; B2B’de hizmet sayfaları, case sayfaları, webinar/whitepaper landing’leri. Burada kritik olan; blok setinin “her şey” olmaması; birkaç güçlü blokla yönetilebilir kalmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için örnek blok seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero (kilitli): başlık, alt metin, 1 görsel, 1 CTA",
+              "USP Grid: 3–6 madde (ikon+metin)",
+              "Oda Kartları: oda tipi, öne çıkan özellikler, CTA",
+              "Kampanya Banner: tarih/koşul + CTA",
+              "SSS: belirli kategoriyle",
+              "Gallery (kontrollü): max 8–12 görsel"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Antalya/Belek’te sezon kampanyasında; “Hero mesaj + teklif bloğu + oda kartları + SSS” aynı şablonla hızlı üretilir, tasarım dağılmaz."
+          },
+          {
+            "type": "h3",
+            "text": "B2B için örnek blok seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero (kilitli): value prop + demo/teklif CTA",
+              "Problem/Solution: yapılandırılmış alanlar",
+              "Proof/Logo wall: referanslar",
+              "Case highlights: 2–3 kart",
+              "FAQ: satış itirazlarını çözen blok",
+              "Resource CTA: whitepaper/webinar"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bloklarınız “iş hedefi”ne bağlı mı (CTA, proof, FAQ)?",
+              "Aynı blok farklı sayfalarda aynı görünür mü?",
+              "“Yeni blok” isteği için süreç var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "items": [
+              "Otel ve B2B için ayrı “izinli blok seti” oluştur.",
+              "Hero ve CTA gibi kritik alanları kilitle (brand kontrol).",
+              "SSS, banner, kart gibi alanları esnek bırak (hız).",
+              "Blok varyantlarını sınırlı tut (v1.0/v1.1).",
+              "Yeni blok ekleme sürecini tasarım/teknik onaya bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tasarim-ekibi-ve-editor-ekibi-arasindaki-rol-dagilimi",
+        "title": "Tasarım Ekibi ve Editör Ekibi Arasındaki Rol Dağılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hibrit modelin çalışması için rol dağılımı net olmalı. Tasarım ekibi “sistem”i kurar: component kuralları, spacing, tipografi, token’lar, blok kütüphanesi. Editör ekibi “içeriği” üretir: blokları doğru sırada kullanır, metni ve görseli standarda uygun doldurur. Ajans yapılarında bu iki rol farklı ekiplerde olabilir; o yüzden governance şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Editörlere esneklik vermek istiyorum ama site dağılmasın, ne yapmalıyım? (AEO – Soru formatı)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Hibrit model kur: kilitli şablon iskeleti + izinli blok seti + publish gate + tasarım onayı gerektiren istisna akışı."
+          },
+          {
+            "type": "h3",
+            "text": "Kilitli şablon alanları + serbest blok alanları tablosu (1 tablo)"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Kilitli Şablon Alanları + Serbest Blok Alanları",
+            "headers": [
+              "Bölge",
+              "Durum",
+              "Neden",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "Header / nav",
+                "Kilitli",
+                "marka & IA tutarlılığı",
+                "menü, dil seçici"
+              ],
+              [
+                "Hero",
+                "Kilitli (varyantlı)",
+                "ilk izlenim, SEO H1",
+                "2–3 hero varyantı"
+              ],
+              [
+                "Body giriş",
+                "Kilitli alanlar + blok",
+                "yapı + esneklik",
+                "intro + 3 blok"
+              ],
+              [
+                "Orta alan",
+                "Serbest blok (izinli)",
+                "kampanya/iletişim çeşitliliği",
+                "banner, grid, FAQ"
+              ],
+              [
+                "Footer",
+                "Kilitli",
+                "güven, yasal, link",
+                "KVKK, iletişim"
+              ],
+              [
+                "SEO/meta/schema",
+                "Kilitli",
+                "teknik tutarlılık",
+                "meta, FAQ schema tetik"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Kilitli alanlar” gerçekten kilitli mi?",
+              "Editörün kullanabileceği bloklar izinli listede mi?",
+              "Review/publish gate tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "items": [
+              "Design system + blok kütüphanesini tek kaynak yap.",
+              "Editör izinlerini blok seviyesinde sınırla (RBAC ile uyumlu).",
+              "Publish gate: H1, görsel, CTA, meta, blok bütçesi kontrolü.",
+              "İstisna süreci: “özel landing” için tasarım onayı.",
+              "Blok setini yılda 1 kez (365) gözden geçir (revizyon)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "seo-html-hiyerarsisi-ve-schema-kontrolu",
+        "title": "SEO, HTML Hiyerarşisi ve Schema Kontrolü",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Block/page builder yaklaşımında SEO’nun bozulma sebebi çoğu zaman “kötü niyet” değil; editörün farkında olmadan H2/H3 düzenini kırması, aynı sayfada birden çok H1 üretmesi, görsel alt metinlerini boş bırakmasıdır. Bu yüzden block modelinde HTML hiyerarşisi ve schema tetikleri “tasarımın değil, sistemin” işi olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet ile uyum): Blok tabanlı içerik yapısı /tr/creative/ui-ux-tasarim ve /tr/yazilim/web-sitesi-gelistirme ile tutarlı olmalı; blokların HTML hiyerarşisi ve schema açısından kontrol edilmesi gerekir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sayfada tek H1 var mı?",
+              "FAQ bloğu varsa FAQ schema tetikleniyor mu?",
+              "Bloklar semantik HTML üretiyor mu (section, heading)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "items": [
+              "H1’i şablon seviyesinde kilitle; bloklardan H1 üretme.",
+              "Heading seviyelerini blok içinde otomatikleştir (H2/H3).",
+              "FAQ/HowTo gibi bloklara schema tetikleri ekle.",
+              "Görsel alt text ve media kurallarını zorunlu yap.",
+              "UI/UX ve front-end ekibiyle blokların semantik çıktısını denetle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "block-editor-alan-tasarimi-hibrit-sablon-checklist-sablonu",
+        "title": "Block Editor Alan Tasarımı & Hibrit Şablon Checklist Şablonunu İndir — Yazılım / CMS Block Editor",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Block Editor Alan Tasarımı & Hibrit Şablon Checklist Şablonunu İndir — Yazılım / CMS Block Editor (v1.0)",
+            "purpose": "Bu asset; block editor/page builder kurgusunu “kontrollü esneklik” prensibiyle tasarlamak için kilitli alanlar, izinli blok seti, performans bütçesi ve SEO/HTML hiyerarşisi kontrollerini tek yerde toplar. Ajans ve kurum ekiplerinin aynı standarda göre üretim yapmasını sağlar; tasarım kaosu ve ağır sayfa riskini azaltır.",
+            "whoFor": "UX/UI lideri, içerik lideri, teknik lider, ajans proje yöneticisi.",
+            "steps": [
+              "Mevcut sayfa tiplerini ve editoryal ihtiyaçları çıkarın.",
+              "Kilitli alanlar + izinli blok setini checklist ile netleştirin.",
+              "14 günlük sprint planıyla blok setini, publish gate’i ve ölçümü devreye alın."
+            ],
+            "checklist": [
+              "Sayfa türleri listelendi (home, hizmet, blog, kampanya, oda/ürün)",
+              "Kilitli alanlar tanımlandı (header, hero, footer, SEO/meta)",
+              "Serbest blok bölgeleri tanımlandı (body/section zones)",
+              "İzinli blok seti belirlendi (max 12–15 blok)",
+              "Blok performans bütçesi yazıldı (ağır blok limitleri)",
+              "Heading/HTML hiyerarşisi kuralları yazıldı (tek H1, H2/H3)",
+              "Schema tetikleri tanımlandı (FAQ/HowTo blokları)",
+              "Görsel standartları yazıldı (boyut, alt text, lazy load)",
+              "Onay akışı (review/publish gate) tanımlandı",
+              "Blok versiyonlama süreci yazıldı (v1.0/v1.1)",
+              "Problem → Kök Neden → Çözüm tablosu hazırlandı",
+              "14 günlük sprint planı oluşturuldu",
+              "Öncesi/Sonrası KPI tablosu hazırlandı"
+            ],
+            "deliverables": [
+              "Hibrit şablon kuralları (kilitli alanlar + blok bölgeleri)",
+              "İzinli blok kütüphanesi (v1.0)",
+              "Publish gate + review akışı",
+              "SEO/HTML hiyerarşisi + schema tetik dokümanı",
+              "Performans bütçesi + medya standardı",
+              "Eğitim dokümanı (editör hızlı başlangıç)"
+            ],
+            "href": "/downloads/block-editor-alan-tasarimi-hibrit-sablon-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Kontrollü esneklik, editör hızını ve marka tutarlılığını birlikte korur",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Block editor ve page builder yapıları, doğru kurgulandığında içerik üretimini hızlandırır; yanlış kurgulandığında ise tasarım kaosu, ağır sayfalar ve SEO kontrol kaybı üretir. Bu yüzden en sağlıklı yaklaşım çoğu otel ve B2B projesinde hibrit modeldir: kilitli şablon iskeleti, izinli blok seti, net rol dağılımı ve publish gate."
+          },
+          {
+            "type": "p",
+            "text": "Kilitli alanlar marka ve SEO tutarlılığını korurken; serbest blok alanları kampanya, içerik ve iletişim çeşitliliği sağlar. Performans bütçesi, HTML hiyerarşisi ve schema tetikleri sistem seviyesinde kontrol edildiğinde, editörler daha hızlı üretir ve site bütünlüğü bozulmaz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Block Editor & Page Builder Kurgu Analizi Talep Et",
+            "text": "Blok kütüphanesini, izinleri ve publish gate’i kurarak editör hızını artırırken marka ve performansı korumak isteyen ekipler için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Block Editor Alan Tasarımı & Hibrit Şablon Checklist Şablonunu İndir",
+            "text": "Blok setinizi, kilitli alanları ve performans/SEO kontrollerini tek dokümanda netleştirip “site dağılmadan” yayın standardı kurmanızı sağlar.",
+            "href": "/downloads/block-editor-alan-tasarimi-hibrit-sablon-checklist-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "CMS block editor nedir, page builder’dan farkı nedir?",
+        "a": "Block editor, içerik ve bileşenleri yapılandırılmış bloklarla yönetir; page builder ise düzeni daha serbest kurdurur. Kurumsal sitelerde block editor genelde daha iyi tutarlılık sağlar."
+      },
+      {
+        "q": "Tamamen serbest page builder mı, kısıtlı şablon mu kullanmalıyım?",
+        "a": "Çoğu kurumsal projede kısıtlı şablon + kontrollü blok alanları daha iyi dengedir. Tam serbestlik kısa vadede hız gibi görünür ama tasarım ve performans borcu üretir."
+      },
+      {
+        "q": "Otel ve B2B için blok bazlı sayfa şablonları nasıl kurgulanır?",
+        "a": "Hero/CTA gibi kritik alanları kilitli tutup, banner/SSS/kart gibi alanlarda izinli blok seti kullanın. Otelde kampanya/oda sayfaları; B2B’de hizmet/case/asset landing’leri için hazır blok şablonları oluşturun."
+      },
+      {
+        "q": "Blok yapısı performansı nasıl etkiler?",
+        "a": "Kontrolsüz bloklar CSS/JS ve medya yükünü artırıp CWV’yi düşürebilir. Blok bütçesi, ağır blok limiti ve görsel standartlarıyla performans korunur."
+      },
+      {
+        "q": "Editörlere esneklik verip siteyi dağıtmamak için ne yapmalıyım?",
+        "a": "Hibrit model kurun: kilitli iskelet + izinli blok seti + review/publish gate. Blokların nerede kullanılacağını kural ve rol yetkileriyle sınırlandırın."
+      },
+      {
+        "q": "SEO ve schema blok bazlı yapıda nasıl korunur?",
+        "a": "H1’i şablonda kilitleyin, heading seviyelerini blok içinde otomatikleştirin. FAQ/HowTo gibi bloklara schema tetikleri ekleyip semantik HTML çıktısını kontrol edin."
+      },
+      {
+        "q": "Blok sayısını ve karmaşayı nasıl yönetirim?",
+        "a": "Blok kütüphanesini küçük tutun, yeni blok eklemeyi governance sürecine bağlayın ve v1.0/v1.1 gibi versiyonlayın. Kullanılmayan blokları deprecate edin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-hero-01.webp — CMS blok tabanlı sayfa kurgusu özeti, otel ve B2B bağlamı",
+          "h1-context — 1920×1080 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-h1-context-02.webp — Kilitli şablon ve serbest blok alanları özeti, kurumsal site bağlamı",
+          "divider-01 — 1600×1200 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-divider-03.webp — Block editor ve page builder ayrımı görseli, içerik operasyon bağlamı",
+          "divider-02 — 1600×1200 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-divider-04.webp — SEO ve performans kontrol katmanı görseli, teknik ekip bağlamı",
+          "diagram-05 — 1920×1080 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-diagram-05.webp — Hibrit model akış diyagramı, tasarım ve editör ekipleri bağlamı",
+          "checklist-06 — 1200×1200 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-checklist-06.webp — Blok kurgusu checklist kartı, marka tutarlılığı bağlamı",
+          "kpi-table-07 — 1200×1200 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-kpi-07.webp — Yayın hızı ve tutarlılık KPI kartı, kurumsal web bağlamı",
+          "proof-08 — 1200×1200 — cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi-proof-08.webp — Blok seti ve governance çıktıları, ajans ve kurum bağlamı",
+          "table-locked-template-free-blocks — Kilitli şablon alanları + serbest blok alanları özeti"
+        ],
+        "technicalChecklist": [
+          "Header/nav, hero, footer ve SEO/meta/schema alanları kilitli olarak tanımlandı",
+          "Serbest blok bölgeleri izinli listeyle sınırlandı",
+          "Blok kütüphanesi max 12–15 blok ile yönetilebilir tutuldu",
+          "Hero ve CTA gibi kritik alanlar brand kontrolü için kilitlendi",
+          "Publish gate H1, görsel, CTA, meta ve blok bütçesini kontrol ediyor",
+          "Sayfa türüne göre blok bütçesi tanımlandı",
+          "Ağır bloklar (video/slider) sayfa başına sınırlı",
+          "Görsel boyutu, alt text, format ve lazy-load standartları yazıldı",
+          "Heading/HTML hiyerarşisi tek H1 + otomatik H2/H3 mantığıyla kontrol ediliyor",
+          "FAQ/HowTo blokları için schema tetikleri tanımlandı",
+          "Editör izinleri blok seviyesinde RBAC ile hizalı",
+          "İstisna akışı özel landing sayfaları için tasarım onayına bağlı",
+          "Blok versiyonlama süreci v1.0/v1.1 olarak tanımlandı",
+          "UI/UX ve front-end ekipleri blokların semantik çıktısını denetledi",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
   }
 }

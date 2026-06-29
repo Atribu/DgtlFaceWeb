@@ -85202,6 +85202,1311 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+
+"cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle",
+
+      "name": "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle/#article",
+
+      "headline": "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et",
+
+      "name": "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et",
+
+      "description": "CMS’te publish/update/delete olaylarını webhook ile dinleyip Next.js ISR revalidation, CRM tetikleri ve Slack bildirimlerini otomatikleştirin. Güvenli endpoint, rate limit ve loglama ile uygulanabilir rehber.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS webhook otomasyonları: publish/update/delete event’leri ile Next.js revalidation, CRM tetikleri, Slack/Teams bildirimleri ve güvenlik (secret, rate limit, loglama) dahil entegrasyon danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS Webhook ve Otomasyon",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS webhook nedir, ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Webhook, CMS’te publish/update/delete gibi bir olay olduğunda belirlediğiniz endpoint’e otomatik istek atarak revalidation, bildirim ve entegrasyonları tetikleyen mekanizmadır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yeni içerik yayınlandığında Next.js’i nasıl tetiklerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS publish webhook’unu güvenli bir Next.js endpoint’ine bağlayın. Endpoint secret doğruladıktan sonra ilgili sayfa path’leri için ISR revalidation çağrısı yapar ve publish→live süresini kısaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS’te yapılan değişiklikleri CRM/Slack gibi sistemlere nasıl iletirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Webhook event’lerini yakalayıp Slack/Teams API’lerine bildirim, CRM API’lerine kampanya/lead tetik sinyali gönderebilirsiniz. Gürültüyü azaltmak için kritik event’leri seçin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Webhook endpoint’ini nasıl güvenli hale getiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Secret doğrulama, rate limit, mümkünse IP allowlist, idempotency ve merkezi log/alert ile koruyun. Doğrulanmayan istekleri reddedin ve hata tekrarında alarm üretin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle/#howto",
+
+      "name": "CMS webhook ile revalidation ve bildirim otomasyonu kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Event ve payload sözleşmesini tanımla",
+
+          "text": "Publish/update/delete event’lerini seç; content_type, entity_id, slug/path, locale ve timestamp alanlarını standartlaştır."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Güvenli webhook endpoint oluştur",
+
+          "text": "Secret doğrulama, rate limit ve idempotency ekle; staging ve prod için ayrı endpoint kullan ve tüm çağrıları logla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Next.js revalidation tetiklerini kur",
+
+          "text": "Webhook geldiğinde ilgili path’ler için ISR revalidation çalıştır; istisna durumlar dışında full rebuild kullanma."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dış sistem aksiyonlarını ekle",
+
+          "text": "Slack/Teams bildirimlerini ve CRM tetiklerini event türüne göre bağla; delete/unpublish için SEO aksiyonlarını (redirect/indeks) planla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi",
+
+      "name": "CMS Migrasyonu: Bir CMS’ten Diğerine Güvenli Geçiş Stratejisi",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi/#article",
+
+      "headline": "CMS Migrasyonu: Bir CMS’ten Diğerine Güvenli Geçiş Stratejisi",
+
+      "name": "CMS Migrasyonu: Bir CMS’ten Diğerine Güvenli Geçiş Stratejisi",
+
+      "description": "CMS migrasyonu sadece export/import değildir. İçerik envanteri, content model mapping, medya taşıma ve 301 redirect planıyla SEO kaybını azaltın; otel ve B2B siteleri için güvenli geçiş rehberi.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS migrasyonu ve replatforming: içerik envanteri, model mapping, medya taşıma, 301 redirect stratejisi, staging testleri ve panel eğitimleriyle SEO güvenli geçiş danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS Migrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bir CMS’ten diğerine geçerken nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Envanter çıkarma, içerik modeli mapping’i, medya taşıma ve 301 redirect planı birlikte ele alınmalıdır. Staging testleri ve eğitim planı olmadan yapılan geçişlerde SEO kaybı ve operasyon kaosu artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eski ve yeni CMS içerik modellerini nasıl eşleştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Eski CMS’teki content type/field setini çıkarıp yeni CMS’te hedef modeli tanımlayın. Her alan için dönüşüm kuralı (tip, zorunluluk, default) yazın ve örnek içeriklerle dry-run test edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "URL ve redirect planını nasıl hazırlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mevcut indexlenen URL listesini çıkarın, yeni URL pattern’lerini tanımlayın ve 1:1 301 mapping yapın. Redirect chain’leri engelleyip staging’de test ederek yayına alın; 404 raporunu izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için CMS geçişinde içerik ekibini nasıl hazırlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Panel eğitimleri, içerik şablonları ve publish gate/checklist ile hazırlayın. Yoğun kampanya döneminden kaçınıp staged rollout ile ekibin adaptasyonunu hızlandırın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi/#howto",
+
+      "name": "CMS migrasyonunu SEO güvenli şekilde planlama",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Envanter çıkar",
+
+          "text": "Mevcut CMS’te content type/field, URL ve medya envanterini çıkar; taşınacak içerikleri önceliklendir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yeni modeli tasarla ve mapping yap",
+
+          "text": "Yeni CMS içerik modelini oluştur; eski alanları dönüşüm kurallarıyla yeni alanlara eşle ve dry-run test et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Medya ve URL/redirect planını uygula",
+
+          "text": "Medya dosyalarını taşıyıp yeniden linkle; 301 redirect mapping’i hazırla ve staging’de redirect/404 testleri yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yayın, eğitim ve izleme döngüsü",
+
+          "text": "Geçişi planlı yayına al; içerik ekibine panel eğitimi ver ve 7/30/90 gün 404, trafik ve sıralamaları izleyip düzelt."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi",
+
+      "name": "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi/#article",
+
+      "headline": "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi",
+
+      "name": "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi",
+
+      "description": "Kişiselleştirme “herkese ayrı site” değildir. CMS’te segment bazlı mesaj/CTA/teklif varyasyonları kurgulayın; GA4/CRM ile ölçün ve KVKK sınırlarıyla sürdürülebilir dinamik deneyim oluşturun.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS üzerinde segment bazlı içerik alanları, kişiselleştirme varyasyon yönetimi, GA4/CRM ölçüm planı ve KVKK uyum notlarıyla dinamik web deneyimi kurgulama danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Segment Bazlı Kişiselleştirme",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kişiselleştirme nedir, CMS ile nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kişiselleştirme, belirli segmentlere belirli mesaj/teklif varyasyonlarını göstermektir. CMS’te segmentli alanlar ve varyasyonlar tanımlanır; front-end segment kuralına göre doğru varyasyonu gösterir ve GA4/CRM ile ölçülür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi segmentler için farklı içerik göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En güvenilir sinyallerle başlayın: ülke/dil ve kampanya kaynağı (UTM). Davranış segmentlerini ancak veri kalitesi ve KVKK/consent süreçleri hazırsa ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kişiselleştirmenin performansını nasıl ölçerim ve sınırlarını nasıl çizerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her varyasyona ölçüm anahtarı verin, GA4’te event/parametre ile takip edin; CRM’de source/campaign ile pipeline etkisini ilişkilendirin. Bakım yükü ve KVKK riskine göre segment sayısını sınırlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için kişiselleştirme örnekleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde ülke/dil/kanal bazlı teklif ve CTA varyasyonları; B2B’de sektör/rol bazlı mesaj ve CTA varyasyonları yaygın ve ölçülebilir örneklerdir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi/#howto",
+
+      "name": "CMS ile segment bazlı kişiselleştirme kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Segment setini seç",
+
+          "text": "Ülke/dil/kanal gibi güçlü sinyallerle 3–5 segment belirle ve her segment için hedef KPI tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CMS alan modelini kur",
+
+          "text": "Hero/CTA/teklif gibi bileşenlerde default içerik + segmentli varyasyon alanlarını (priority, active, measurement_key) tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ölçüm ve raporu bağla",
+
+          "text": "GA4 event/parametre ile varyasyonları ölç; CRM’de source/campaign sözlüğü ile pipeline etkisini ilişkilendir ve raporla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KVKK ve bakım sınırlarını uygula",
+
+          "text": "Aşırı granular segmentlerden kaçın; consent gerektiren davranış verilerini kontrollü kullan ve çalışmayan varyasyonları kapat."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi",
+
+      "name": "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi/#article",
+
+      "headline": "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi",
+
+      "name": "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi",
+
+      "description": "Blok tabanlı editör ve page builder yapısını hibrit kurgulayın: iskelet şablonları sabit, içerik bloklarını kontrollü esnek tutun. Marka tutarlılığı ve performans dengesini bozmadan üretim hızını artırın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Block editor ve page builder yapıları için hibrit şablon kurgusu, izinli blok seti, publish gate, performans bütçesi ve SEO/HTML hiyerarşisi kontrolleriyle CMS entegrasyon danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Block Editor ve Page Builder",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS block editor nedir, page builder’dan farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Block editor içerik ve bileşenleri yapılandırılmış bloklarla yönetir; page builder sayfa düzenini daha serbest kurdurur. Kurumsal sitelerde block editor genelde daha iyi tutarlılık ve kontrol sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tamamen serbest page builder mı, kısıtlı şablon mu kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu kurumsal projede kısıtlı şablon + kontrollü blok alanları daha iyi dengedir. Tam serbestlik kısa vadede hız gibi görünür ama tasarım ve performans borcu üretir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Blok yapısı performans ve tasarım tutarlılığını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kontrolsüz bloklar CSS/JS ve medya yükünü artırıp sayfayı ağırlaştırır ve görsel dili bozar. Blok bütçesi, ağır blok limiti ve görsel standartlarıyla hem performans hem tutarlılık korunur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için blok bazlı sayfa şablonları nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hero/CTA gibi kritik alanları kilitli tutup banner/SSS/kart gibi alanlarda izinli blok seti kullanın. Otelde kampanya/oda, B2B’de hizmet/case/asset landing’leri için tekrar kullanılabilir şablonlar oluşturun."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi/#howto",
+
+      "name": "Hibrit block editor/page builder modeli kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kilitli alanları belirle",
+
+          "text": "Header, hero, footer ve SEO/meta gibi marka ve teknik tutarlılık isteyen alanları şablonda kilitle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İzinli blok setini tasarla",
+
+          "text": "Banner, grid, FAQ, kartlar gibi blokları tasarım sistemiyle uyumlu kütüphane olarak oluştur; nerede kullanılacağını kuralla sınırla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Publish gate ve performans bütçesi ekle",
+
+          "text": "Blok limiti, ağır blok kısıtı, görsel standartları ve heading hiyerarşisi kontrollerini yayın öncesi zorunlu hale getir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Eğitim ve governance ile sürdür",
+
+          "text": "Editör eğitimini ver, yeni blok ekleme sürecini onaya bağla ve blok setini periyodik olarak güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 },

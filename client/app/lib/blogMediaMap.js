@@ -44898,6 +44898,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "Mapping dokümanı ve automation çıktıları, güven unsuru bağlamı",
       caption: "Mapping dokümanı ve automation çıktıları, güven unsuru bağlamı"
     }
+  },
+
+
+  "cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle":{
+    banner: {
+      src: "/images/blog/software/Software2-8/Software2-8-1.webp",
+      alt: "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et",
+      caption: "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-8/Software2-8-2.webp",
+      alt: "Publish event sonrası revalidation ve bildirim akışı, teknik ekip bağlamı",
+      caption: "Publish event sonrası revalidation ve bildirim akışı, teknik ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-8/Software2-8-3.webp",
+    alt: "Publish update delete event ayrımı görseli, release operasyon bağlamı",
+      caption: "Publish update delete event ayrımı görseli, release operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-8/Software2-8-4.webp",
+      alt: "Otel ve B2B otomasyon senaryoları görseli, operasyon bağlamı",
+      caption: "Otel ve B2B otomasyon senaryoları görseli, operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-8/Software2-8-5.webp",
+      alt: "Webhook tetikleyici ve hedef sistemler akış diyagramı, event-driven mimari",
+      caption: "Webhook tetikleyici ve hedef sistemler akış diyagramı, event-driven mimari"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-8/Software2-8-6.webp",
+      alt: "Publish tetikleyici checklist kartı, güvenlik ve operasyon bağlamı",
+      caption: "Publish tetikleyici checklist kartı, güvenlik ve operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-8/Software2-8-7.webp",
+      alt: "Publish live süresi ve manuel iş azalımı KPI kartı, ekip verimliliği",
+      caption: "Publish live süresi ve manuel iş azalımı KPI kartı, ekip verimliliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-8/Software2-8-8.webp",
+      alt: "Webhook sözleşmesi ve otomasyon çıktıları, güven unsuru bağlamı",
+      caption: "Webhook sözleşmesi ve otomasyon çıktıları, güven unsuru bağlamı"
+    }
+  },
+
+  "cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software2-9/Software2-9-1.webp",
+      alt: "CMS migrasyonu ve güvenli geçiş stratejisi, otel ve B2B bağlamı",
+      caption: "CMS migrasyonu ve güvenli geçiş stratejisi, otel ve B2B bağlamı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-9/Software2-9-2.webp",
+      alt: "Envanter mapping redirect akışı özeti, SEO güvenliği bağlamı",
+      caption: "Envanter mapping redirect akışı özeti, SEO güvenliği bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-9/Software2-9-3.webp",
+    alt: "İçerik ve alan envanteri çıkarma görseli, içerik operasyon bağlamı",
+      caption: "İçerik ve alan envanteri çıkarma görseli, içerik operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-9/Software2-9-4.webp",
+      alt: "Eğitim ve geçiş planı görseli, ekip adaptasyon bağlamı",
+      caption: "Eğitim ve geçiş planı görseli, ekip adaptasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-9/Software2-9-5.webp",
+      alt: "URL ve 301 redirect plan şeması, SEO güvenli replatforming bağlamı",
+      caption: "URL ve 301 redirect plan şeması, SEO güvenli replatforming bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-9/Software2-9-6.webp",
+      alt: "CMS migration checklist kartı, teknik ve içerik ekipleri bağlamı",
+      caption: "CMS migration checklist kartı, teknik ve içerik ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-9/Software2-9-7.webp",
+      alt: "404 oranı ve trafik değişimi KPI kartı, geçiş performansı bağlamı",
+      caption: "404 oranı ve trafik değişimi KPI kartı, geçiş performansı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-9/Software2-9-8.webp",
+      alt: "Mapping tablosu ve redirect dokümanı çıktıları, güven unsuru bağlamı",
+      caption: "Mapping tablosu ve redirect dokümanı çıktıları, güven unsuru bağlamı"
+    }
+  },
+
+  "kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi":{
+    banner: {
+      src: "/images/blog/software/Software2-10/Software2-10-1.webp",
+      alt: "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi",
+      caption: "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-10/Software2-10-2.webp",
+      alt: "Segment ve varyasyon mantığı özeti, dönüşüm odaklı web bağlamı",
+      caption: "Segment ve varyasyon mantığı özeti, dönüşüm odaklı web bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-10/Software2-10-3.webp",
+    alt: "CMS segment alanları bölümü ayırıcı görseli, editoryal operasyon bağlamı",
+      caption: "CMS segment alanları bölümü ayırıcı görseli, editoryal operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-10/Software2-10-4.webp",
+      alt: "Ölçüm ve KVKK sınırları bölümü görseli, veri güvenliği bağlamı",
+      caption: "Ölçüm ve KVKK sınırları bölümü görseli, veri güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-10/Software2-10-5.webp",
+      alt: "Segment kuralı ve varyasyon seçimi diyagramı, ölçülebilir kişiselleştirme bağlamı",
+      caption: "Segment kuralı ve varyasyon seçimi diyagramı, ölçülebilir kişiselleştirme bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-10/Software2-10-6.webp",
+      alt: "Kişiselleştirme checklist kartı, strateji ve teknik ekip bağlamı",
+      caption: "Kişiselleştirme checklist kartı, strateji ve teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-10/Software2-10-7.webp",
+      alt: "Segment bazlı CTR ve dönüşüm KPI kartı, performans ölçüm bağlamı",
+      caption: "Segment bazlı CTR ve dönüşüm KPI kartı, performans ölçüm bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-10/Software2-10-8.webp",
+      alt: "Segment planı ve varyasyon deliverables kartı, güven unsuru bağlamı",
+      caption: "Segment planı ve varyasyon deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi":{
+    banner: {
+      src: "/images/blog/software/Software2-11/Software2-11-1.webp",
+      alt: "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi",
+      caption: "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-11/Software2-11-2.webp",
+      alt: "Kilitli şablon ve serbest blok alanları özeti, kurumsal site bağlamı",
+      caption: "Kilitli şablon ve serbest blok alanları özeti, kurumsal site bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-11/Software2-11-3.webp",
+    alt: "Block editor ve page builder ayrımı görseli, içerik operasyon bağlamı",
+      caption: "Block editor ve page builder ayrımı görseli, içerik operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-11/Software2-11-4.webp",
+      alt: "SEO ve performans kontrol katmanı görseli, teknik ekip bağlamı",
+      caption: "SEO ve performans kontrol katmanı görseli, teknik ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-11/Software2-11-5.webp",
+      alt: "Hibrit model akış diyagramı, tasarım ve editör ekipleri bağlamı",
+      caption: "Hibrit model akış diyagramı, tasarım ve editör ekipleri bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-11/Software2-11-6.webp",
+      alt: "Blok kurgusu checklist kartı, marka tutarlılığı bağlamı",
+      caption: "Blok kurgusu checklist kartı, marka tutarlılığı bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-11/Software2-11-7.webp",
+      alt: "Yayın hızı ve tutarlılık KPI kartı, kurumsal web bağlamı",
+      caption: "Yayın hızı ve tutarlılık KPI kartı, kurumsal web bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-11/Software2-11-8.webp",
+      alt: "Blok seti ve governance çıktıları, ajans ve kurum bağlamı",
+      caption: "Blok seti ve governance çıktıları, ajans ve kurum bağlamı"
+    }
   }
   
 };

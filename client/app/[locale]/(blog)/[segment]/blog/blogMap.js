@@ -470,7 +470,11 @@ export const BLOG_MAP = {
     "observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi":"BlogObservabilityVeLoggingKurumsalWebSitelerindeIzlenebilirlikStratejisi",
     "ai-destekli-web-gelistirme-ve-kod-uretimi-best-practice-ve-riskler":"BlogAiDestekliWebGelistirmeVeKodUretimiBestPracticeVeRiskler",
     "cms-pms-ota-entegrasyonu-oda-fiyat-ve-icerik-senkronizasyonu":"BlogCmsPmsOtaEntegrasyonuOdaFiyatVeIcerikSenkronizasyonu",
-    "cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna":"BlogCmsCrmVeMarketingAutomationEntegrasyonuFormdanMusteriYolculuguna"
+    "cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna":"BlogCmsCrmVeMarketingAutomationEntegrasyonuFormdanMusteriYolculuguna",
+    "cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle":"BlogCMSWebhookVeOtomasyonSenaryolariYayinlaTetikle",
+    "cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi":"BlogCMSMigrasyonuBirCMSTenDigerineGuvenliGecisStratejisi",
+    "kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi":"BlogKisisellestirmeVeSegmentBazliIcerikCMSIleDinamikWebDeneyimi",
+    "cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi":"BlogCMSBlockEditorVePageBuilderYapilariEsneklikVeKontrolDengesi"
   },
    
   creative: {
