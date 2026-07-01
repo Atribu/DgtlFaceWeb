@@ -27,6 +27,7 @@ const nextConfig = {
   },
 
   compress: true,
+  skipTrailingSlashRedirect: true,
 
   experimental: {
     optimizePackageImports: ["lucide-react", "date-fns"],
@@ -36,7 +37,7 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "/tr",
+        destination: "/tr/",
         permanent: true,
       },
       {
@@ -51,7 +52,7 @@ const nextConfig = {
       },
        {
         source: "/tr/anasayfa",
-        destination: "/tr",
+        destination: "/tr/",
         permanent: true, // 301
       },
 

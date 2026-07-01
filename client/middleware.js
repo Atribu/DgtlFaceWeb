@@ -21,11 +21,13 @@ const CANONICAL_HOST = getCanonicalHost();
 const CANONICAL_PROTOCOL = getCanonicalProtocol();
 
 const LEGACY_EXACT_REDIRECTS = new Map([
-  ["/", "/tr"],
-  ["/home", "/tr"],
-  ["/tiktok", "/tr"],
+  ["/", "/tr/"],
+  ["/tr", "/tr/"],
+  ["/en", "/en/"],
+  ["/home", "/tr/"],
+  ["/tiktok", "/tr/"],
   ["/de/kontakt", "/en/contact"],
-  ["/tr/anasayfa", "/tr"],
+  ["/tr/anasayfa", "/tr/"],
   ["/tr/seo-hizmetleri", "/tr/seo"],
   ["/tr/sosyal-medya-yonetimi", "/tr/smm"],
   ["/tr/web-ve-yazilim-hizmetleri", "/tr/yazilim"],
@@ -237,9 +239,9 @@ const LEGACY_EXACT_REDIRECTS = new Map([
 ]);
 
 const UNSUPPORTED_LOCALE_EXACT_REDIRECTS = new Map([
-  ["/", "/en"],
-  ["/home", "/en"],
-  ["/anasayfa", "/en"],
+  ["/", "/en/"],
+  ["/home", "/en/"],
+  ["/anasayfa", "/en/"],
   ["/o-nas", "/en/about-us"],
   ["/kontakty", "/en/contact"],
   ["/uslugi", "/en/services"],
@@ -438,7 +440,20 @@ function normalizePath(pathname) {
 
 function withLocalePrefix(locale, pathname) {
   const normalizedPath = normalizePath(pathname);
-  return normalizedPath === "/" ? `/${locale}` : `/${locale}${normalizedPath}`;
+  return normalizedPath === "/" ? `/${locale}/` : `/${locale}${normalizedPath}`;
+}
+
+function isLocaleRootPath(pathname) {
+  const normalizedPath = String(pathname || "").replace(/\/+$/, "");
+  const locale = normalizedPath.replace(/^\//, "");
+  return LOCALES.has(locale);
+}
+
+function getTrailingSlashCanonicalPath(rawPathname) {
+  if (!rawPathname || rawPathname === "/" || !rawPathname.endsWith("/")) return null;
+  if (isLocaleRootPath(rawPathname)) return null;
+
+  return normalizePath(rawPathname);
 }
 
 function buildLocalizedRouteMaps() {
@@ -790,11 +805,21 @@ export default function middleware(request) {
   const hostCanonicalResponse = getHostCanonicalResponse(request);
   if (hostCanonicalResponse) return hostCanonicalResponse;
 
-  const pathname = normalizePath(request.nextUrl.pathname);
+  const rawPathname = request.nextUrl.pathname;
+  const pathname = normalizePath(rawPathname);
   const canonicalPath = resolveCanonicalPath(pathname);
 
-  if (canonicalPath && canonicalPath !== pathname) {
+  if (canonicalPath && canonicalPath !== rawPathname) {
     return buildRedirectResponse(request, canonicalPath);
+  }
+
+  if (isLocaleRootPath(rawPathname) && rawPathname.endsWith("/")) {
+    return NextResponse.next();
+  }
+
+  const trailingSlashCanonicalPath = getTrailingSlashCanonicalPath(rawPathname);
+  if (trailingSlashCanonicalPath && trailingSlashCanonicalPath !== rawPathname) {
+    return buildRedirectResponse(request, trailingSlashCanonicalPath);
   }
 
   return intlMiddleware(request);

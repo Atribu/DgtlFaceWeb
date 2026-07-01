@@ -1,9 +1,9 @@
 // app/[locale]/components/seo/JsonLd.jsx
 import React from "react";
 
-// Türkçe yorum: </script> kırılmasını engelle (çok nadir ama güvenli)
+// Türkçe yorum: JSON-LD içindeki "<" karakterlerini HTML script bağlamında güvenli kaçır.
 function safeJsonLdStringify(data) {
-  return JSON.stringify(data).replace(/<\/script/gi, "<\\/script");
+  return JSON.stringify(data).replace(/</g, "\\u003c");
 }
 
 export default function JsonLd({ data, id = "jsonld" }) {

@@ -61,7 +61,7 @@ function normalizePath(path) {
 function buildLocalizedUrl(locale, localizedPath) {
   const normalizedPath = normalizePath(localizedPath);
   return normalizedPath === "/"
-    ? `${BASE_URL}/${locale}`
+    ? `${BASE_URL}/${locale}/`
     : `${BASE_URL}/${locale}${normalizedPath}`;
 }
 
@@ -292,7 +292,7 @@ export default async function sitemap() {
 
   // 7) Özel ayarlar
   return Array.from(uniq.values()).map((x) => {
-    if (x.url.endsWith("/tr")) {
+    if (x.url === `${BASE_URL}/tr/`) {
       return { ...x, changeFrequency: "daily", priority: 0.9 };
     }
     if (x.url.endsWith("/tr/bloglar")) {
