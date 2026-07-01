@@ -7684,7 +7684,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Meta Ads Hedefleme ve Segmentasyon Stratejisi"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/smm/SMM4-2/SMM4-2-2.webp",
       alt: "Cold–warm–hot funnel ile core/custom/lookalike eşleşmesi görseli",
       caption: "Cold–warm–hot funnel ile core/custom/lookalike eşleşmesi görseli"

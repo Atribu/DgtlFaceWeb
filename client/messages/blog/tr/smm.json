@@ -10131,7 +10131,7 @@
       "secondary": {
         "label": "Sosyal Medya Reklam Funnel & Kampanya Planlama Şablonunu İndir",
         "text": "“Funnel katmanlarına göre kampanya setinizi 30 dakikada planlayıp, KPI’ları standartlaştırırsınız.”",
-        "href": "/tr/smm/sosyal-medya-reklamlari"
+        "href": "/downloads/smm-funnel-kampanya-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -10140,22 +10140,42 @@
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "SMM (silo)",
-        "href": "/tr/smm"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+        "href": "/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi"
+      },
+      {
+        "label": "Sosyal Medya Reklam Kreatif Stratejisi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels"
+      },
+      {
+        "label": "SMM Planlama ve Strateji",
+        "href": "/tr/smm/planlama-strateji"
       },
       {
         "label": "Google Ads yönetimi",
         "href": "/tr/sem/google-ads-yonetimi"
       },
       {
-        "label": "Satış & dönüşüm raporları",
+        "label": "Satış & Dönüşüm Raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış ve Dönüşüm Raporları",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+        "href": "/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi"
+      },
+      {
+        "title": "Sosyal Medya Reklam Kreatif Stratejisi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels"
       },
       {
         "title": "Google Ads Yönetimi",
@@ -10170,6 +10190,10 @@
           {
             "type": "p",
             "text": "Sosyal medya reklamlarında en yaygın hata, her şeyi tek bir “satış kampanyası”na yüklemektir. Oysa özellikle otel ve turizm gibi sezonsal talebin dalgalandığı sektörlerde ve lead odaklı B2B’de, performansın sürdürülebilir olması için reklamları funnel mantığıyla kurmak gerekir: önce doğru kitleye doğru mesajı gösterirsiniz, sonra ilgiyi derinleştirir, en sonunda dönüşüme zorlarsınız. Bu yaklaşım “sadece daha fazla satış” değil; daha öngörülebilir bir talep akışı üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya reklam stratejisi](/tr/smm/sosyal-medya-reklamlari) yalnız kampanya paneli ayarı gibi değil; hedef, mesaj, kreatif ve ölçümü aynı akışta buluşturan bir büyüme sistemi olarak ele alınmalıdır."
           },
           {
             "type": "media",
@@ -10195,6 +10219,10 @@
           {
             "type": "p",
             "text": "Bu yüzden “brand + performance mix” yaklaşımı kritik: marka yatırımı performansı besler; performans kampanyaları markanın yarattığı güveni nakde çevirir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı bakışla paid social kampanyalarını [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde düşünmek gerekir; reklam kampanyaları organik içerik, topluluk, landing page ve ölçüm mimarisiyle birlikte çalıştığında daha istikrarlı sonuç üretir."
           },
           {
             "type": "h3",
@@ -10296,6 +10324,10 @@
             "text": "Burada amaç, “kampanya türlerini saymak” değil; kampanyaların birbiriyle konuştuğu bir akış kurmaktır. Her aşama, bir sonraki aşamanın yakıtını üretir."
           },
           {
+            "type": "p",
+            "text": "Bu akışın sahada çalışması için [Meta Ads hedefleme ve segmentasyon](/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi) yaklaşımı kritikleşir; cold, warm ve hot audience ayrımı yapılmadan funnel aşamalarını doğru beslemek zorlaşır."
+          },
+          {
             "type": "media",
             "slot": "divider-03"
           },
@@ -10337,6 +10369,10 @@
           {
             "type": "p",
             "text": "Consideration, “benim için uygun mu?” sorusunun yanıtlandığı aşamadır. Otelde oda/konsept/teklif sayfasına trafik; B2B’de hizmet sayfası + case + sonuç içerikleri bu aşamanın çekirdeğidir.\n\t•\tMesaj: “Neden bu seçenek mantıklı?”\n\t•\tKreatif: carousel (özellik–fayda), kısa case video, “nasıl çalışır” içerikleri\n\t•\tKitle: video izleyenler, profile bakanlar, site ziyaretçileri (soğuk–ılık)\n\t•\tKPI: CTR, LPV (Landing Page View), time on page, engagement rate"
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [sosyal medya reklam kreatif stratejisi](/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels) seçimi belirleyicidir; görsel, carousel, Reels ya da kısa video kurgusu funnel katmanına göre değiştiğinde tıklama ve ikna kalitesi birlikte yükselir."
           },
           {
             "type": "h3",
@@ -10493,7 +10529,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Reklam Funnel & Kampanya Planlama Şablonunu İndir",
             "text": "“Funnel katmanlarına göre kampanya setinizi 30 dakikada planlayıp, KPI’ları standartlaştırırsınız.”",
-            "href": "/tr/smm/sosyal-medya-reklamlari"
+            "href": "/downloads/smm-funnel-kampanya-planlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -10667,6 +10703,14 @@
             "text": "Organik içerik ve reklam birbirinin alternatifi değil, hızlandırıcısıdır. Organik içerik “kanıt” ve “bağlam” üretir; reklam bu içeriği doğru kişiye doğru anda taşır. SXO açısından bakarsak: kullanıcı reklama tıklar, sayfaya gelir, cevap bulur, ikna olur, aksiyona geçer. Reklamla getirdiğiniz trafiğin dönüşmesi, sayfanın “ikna mimarisi”ne bağlıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden reklam kampanyalarını [sosyal medya planlama ve stratejisi](/tr/smm/planlama-strateji) ile uyumlu kurmadan ilerlemek çoğu zaman kısa vadeli kalır; hedef kitle, içerik ritmi ve kampanya takvimi aynı strateji çerçevesinde ilerlemelidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle arama niyeti ile talep toplamanın birleştiği senaryolarda [Google Ads yönetimi](/tr/sem/google-ads-yonetimi) ile paid social birlikte daha güçlü bir tam-funnel yapı kurar; sosyal medya ilgiyi yaratır, arama tarafı ise yüksek niyeti yakalar."
+          },
+          {
             "type": "h3",
             "text": "Pratik çerçeve"
           },
@@ -10710,6 +10754,10 @@
           {
             "type": "p",
             "text": "Sheet’teki teknik not kritik: Kampanya isimlendirmesi, UTM yapısı ve GA4 event’leri funnel katmanlarıyla uyumlu olmazsa, raporlar “karışık trafik”e döner ve optimizasyon körleşir."
+          },
+          {
+            "type": "p",
+            "text": "Bu veriyi yalnız platform panelinde değil, [satış dönüşüm raporlaması](/tr/raporlama/satis-donusum) mantığıyla okumak gerekir; lead, rezervasyon, WhatsApp ve ROAS katkısı ayrışmadığında bütçe kararları kolayca yanıltıcı hale gelir."
           },
           {
             "type": "h3",
@@ -10826,6 +10874,10 @@
             "text": "Funnel bazlı sosyal medya reklam stratejisi; tek kampanyada mucize aramak yerine, her aşamaya doğru hedef ve KPI atayan sistemli bir yaklaşım sunar. Otel tarafında sezonsal talebi dengeler, B2B tarafında lead kalitesini artırır. En kritik başarı faktörü ise “plan” kadar “ölçüm”dür: UTM + GA4 standardı yoksa, en iyi kreatif bile verimsizleşir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı ekip içinde netleştirmek isteyenler için [paid social stratejisi](/tr/smm/sosyal-medya-reklamlari) iyi bir sonraki adımdır; sosyal medya reklam funnel yapısının kapsam, bütçe ve süreç detaylarını görmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -10834,7 +10886,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Reklam Funnel & Kampanya Seti Analizi Talep Et",
             "text": "Otel veya B2B için bütçenizi funnel’a göre yeniden kurgulayıp ölçülebilir bir plan çıkaralım.",
-            "href": "/tr/raporlama/satis-donusum"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       },
@@ -10917,14 +10969,16 @@
           "table-kpi-matrix — (tablo elemanı) — “Funnel Katmanı → Kampanya Türü → Kreatif → Ana KPI matrisi”"
         ],
         "technicalChecklist": [
-          "Primary CTA: /tr/smm/sosyal-medya-reklamlari hedefli (2 kez: H1 giriş + kapanış) kuralı uygulandı",
-          "Secondary CTA: Download Asset (Template) 1 kez orta bölümde konumlandı",
+          "Primary CTA hedefi: /tr/smm/sosyal-medya-reklamlari",
+          "Secondary CTA hedefi: /downloads/smm-funnel-kampanya-planlama-sablonu-v1.0.pdf",
           "Kampanya isimleri AW/CO/BO/LO katmanını açıkça taşıyor",
           "UTM standardı sabit: source/medium/campaign/content",
           "GA4 event’leri funnel katmanlarıyla eşlendi (view_item/generate_lead/purchase/contact vb.)",
           "Remarketing segmentleri ayrıldı (oda/teklif bakan, form yarım, %75 video izleyen)",
           "Looker Studio funnel dashboard planlandı (aw→co→bo)",
-          "İç link hedefleri normalize edildi: /tr/smm/sosyal-medya-reklamlari, /tr/smm, /tr/sem/google-ads-yonetimi, /tr/raporlama/satis-donusum"
+          "İç link hedefleri normalize edildi: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi, /tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels, /tr/smm/planlama-strateji, /tr/sem/google-ads-yonetimi, /tr/raporlama/satis-donusum, /tr/smm/sosyal-medya-reklamlari-sss",
+          "Mevcut funnel, KPI ve otel/B2B örnek metinleri korundu; yalnız doğal iç link cümleleri eklendi",
+          "“Otel için sosyal medya reklam funnel” konusu örnek bağlamda bırakıldı; satırda olmayan yeni otel URL’si üretilmedi"
         ]
       }
     }
@@ -11007,8 +11061,20 @@
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "SMM",
-        "href": "/tr/smm"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Reklam Funnel ve Kampanya Türleri",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri"
+      },
+      {
+        "label": "Reklam Kreatif Stratejisi: Carousel ve Reels",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels"
+      },
+      {
+        "label": "Sosyal Medya Reklam Bütçesi ve Ölçekleme",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme"
       },
       {
         "label": "Remarketing & Display Reklamlar",
@@ -11017,33 +11083,39 @@
       {
         "label": "Dönüşüm Takibi & Tag Manager",
         "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları hakkında sık sorulan sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları",
-        "href": "/tr/smm/sosyal-medya-reklamlari"
+        "title": "Sosyal Medya Reklam Funnel ve Kampanya Türleri",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri"
       },
       {
-        "title": "Remarketing & Display Reklamlar",
-        "href": "/tr/sem/remarketing-ve-display"
+        "title": "Reklam Kreatif Stratejisi: Carousel ve Reels",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels"
+      },
+      {
+        "title": "Sosyal Medya Reklam Bütçesi ve Ölçekleme",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme"
       }
     ],
     "sections": [
       {
-        "id": "hero",
-        "title": "Görsel Paket (Hero)",
-        "blocks": [
-          {
-            "type": "media",
-            "slot": "h1-context-02"
-          }
-        ]
-      },
-      {
         "id": "hedefleme-katmanlari",
         "title": "Hedefleme Katmanları (Core, Custom, Lookalike)",
         "blocks": [
+                    {
+            "type": "p",
+            "text": "Pratikte [Meta Ads hedefleme stratejisi](/tr/smm/sosyal-medya-reklamlari), hedef kitle mimarisi ile kampanya hedeflerini aynı akışta kurmayı gerektirir."
+          },
           {
             "type": "p",
             "text": "Meta hedefleme, doğru kullanıldığında üç katmanlı bir mimari gibidir:\n\t•\tCore (Soğuk kitle): Demografi, ilgi alanı, davranış, lokasyon, dil\n\t•\tCustom (Sıcak/Hot kitle): Web/piksel, video izleyenler, IG etkileşimi, CRM listeleri\n\t•\tLookalike (Ölçekleme): En değerli custom kitlelere benzeyen yeni kitleler"
@@ -11051,6 +11123,10 @@
           {
             "type": "p",
             "text": "Buradaki kritik kural: Core “tanışma”, Custom “ısıtma/kapama”, Lookalike “ölçek” içindir. Hepsini aynı kampanyada karıştırmak, öğrenmeyi ve bütçe verimliliğini bozar."
+          },
+          {
+            "type": "p",
+            "text": "Bu mimariyi yalnız reklam paneli ayarı gibi değil, [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde hedef kitle, içerik ve mesaj planıyla birlikte değerlendirmek gerekir."
           },
           {
             "type": "callout",
@@ -11209,6 +11285,14 @@
             "text": "Hot mesaj kuralı: Net teklif + risk azaltma + kısa CTA (form/WhatsApp/telefon)"
           },
           {
+            "type": "p",
+            "text": "Bu ayrım netleştiğinde [sosyal medya reklam kreatif stratejisi](/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels) de değişmelidir; aynı görsel ve teklifin her segmente gösterilmesi ikna kalitesini düşürür."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle geri dönen ziyaretçi ve etkileşim havuzlarında [remarketing ve display reklamları](/tr/sem/remarketing-ve-display) ile sıcak kitleyi farklı yüzeylerde yeniden yakalamak mümkün olur."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check (Custom):",
@@ -11261,6 +11345,10 @@
           {
             "type": "p",
             "text": "Pratik ölçekleme yaklaşımı:\n\t•\t%1 LAL (kalite) → %2–%3 (ölçek)\n\t•\tAyrı kampanya setleri\n\t•\tKreatif aynı kalabilir ama teklif netliği korunur"
+          },
+          {
+            "type": "p",
+            "text": "Kaynak kitlenin kalitesi ve pencere büyüklüğü, [reklam bütçesi, teklif stratejisi ve ölçekleme](/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme) kararlarını doğrudan etkiler."
           },
           {
             "type": "callout",
@@ -11363,6 +11451,10 @@
             "text": "Segmentasyonun en pratik çerçevesi şudur:\n\t•\tCold: Tanışma (core + LAL)\n\t•\tWarm: Isıtma (video/IG/site etkileşim)\n\t•\tHot: Kapatma (form/sepete yaklaşan davranış)\n\nBu yapı, kampanya bütçesini “en pahalı aksiyon”a değil, “en doğru sıraya” dağıtır."
           },
           {
+            "type": "p",
+            "text": "Bu akışı [sosyal medya reklam funnel ve kampanya türleri](/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri) içinde okumak, her segmenti doğru kampanya amacına bağlamayı kolaylaştırır."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -11397,6 +11489,10 @@
             "text": "Teknik notu stratejiden ayrı düşünmeyin: piksel/CAPI düzgün çalışmıyorsa custom ve lookalike kitlelerin kalitesi düşer; Meta “kim değerli?” sinyalini doğru öğrenemez. Ayrıca Meta’nın privacy politikaları ve conversion modelling değiştikçe, segmentasyon örnekleri güncellenmelidir: ilgi hedefleme kısıtları, sinyal kaybı, modelleme vb. bu mimariyi etkiler."
           },
           {
+            "type": "p",
+            "text": "Sağlıklı event akışı olmadan custom listeler zayıflar; bu yüzden [dönüşüm takibi ve Tag Manager](/tr/sem/donusum-takibi-tag-manager) kurulumu segment kalitesinin teknik temelidir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check (Tracking):",
@@ -11428,8 +11524,16 @@
             "text": "Meta Ads’te hedefleme stratejisi; core/custom/lookalike katmanlarını cold–warm–hot mantığıyla eşleştirip her segmente farklı mesaj ve teklif vermekle güçlenir. Otelde pazar bazlı segmentler ve davranış sinyalleri; B2B’de içerik tüketimi ve nitelikli lead sinyali belirleyicidir. Performansı büyüten şey “daha fazla bütçe” değil; daha iyi kitle mimarisi + daha iyi ölçümdür."
           },
           {
+            "type": "p",
+            "text": "Segment bazında CPA, frekans ve ROAS farklarını düzenli [veri analiz ve raporlama](/tr/veri-analiz-ve-raporlama) akışında izlemek, hangi kitlenin gerçekten değer ürettiğini görünür kılar."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı ekip içinde standardize etmek isterseniz [paid social reklam yönetimi](/tr/smm/sosyal-medya-reklamlari) desteği alabilir, kapsam ve süreç detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına geçebilirsiniz."
           },
           {
             "type": "cta",
@@ -11594,26 +11698,50 @@
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+        "href": "/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi"
+      },
+      {
+        "label": "Sosyal Medya Reklam Bütçesi ve Ölçekleme",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme"
+      },
+      {
+        "label": "Pixel ve Conversion API ile Ölçüm Rehberi",
+        "href": "/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
+      },
+      {
         "label": "İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
-        "label": "Reels & Video İçerik Üretimi",
-        "href": "/tr/smm/reels-video"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/tr/sem/reklam-raporlama"
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Reklamları hakkında sık sorulan sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/tr/smm/reels-video"
+        "title": "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+        "href": "/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi"
       },
       {
-        "title": "Reklam Raporlama",
-        "href": "/tr/sem/reklam-raporlama"
+        "title": "Sosyal Medya Reklam Bütçesi ve Ölçekleme",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme"
+      },
+      {
+        "title": "Pixel ve Conversion API ile Ölçüm Rehberi",
+        "href": "/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
       }
     ],
     "sections": [
@@ -11623,7 +11751,15 @@
         "blocks": [
           {
             "type": "p",
+            "text": "Pratikte [sosyal medya reklam kreatif stratejisi](/tr/smm/sosyal-medya-reklamlari), format seçimi ile teklif yapısını aynı performans sistemi içinde kurmayı gerektirir."
+          },
+          {
+            "type": "p",
             "text": "Kreatif formatı, kampanyanın “hangi aşamada” olduğunu belirler. Aynı mesajı her formatta kullanamazsınız; formatın doğası kullanıcı davranışını değiştirir.\n\t•\tTek görsel: Tek vaat, tek kanıt, tek CTA (hızlı karar)\n\t•\tCarousel: Çoklu fayda/özellik, karşılaştırma, adım adım hikâye (ikna)\n\t•\tReels/Video: Dikkat + duygu + bağlam (tanışma/ısınma)\n\t•\tCollection: Ürün/odalar gibi katalog hissi (otel/ürün odaklı senaryolar)\n\n☑ Mini Check (Format uygun mu?):\n\t•\tTek görselde “tek cümle vaat” var mı?\n\t•\tCarousel “sırayla ikna” ediyor mu, yoksa aynı şeyi tekrar mı ediyor?\n\t•\tReels ilk 2 saniyede vaadi söylüyor mu?\n\t•\tCollection’da seçim kolay mı?\n\nNe yapmalıyım?\n\t1.\tHer kampanya hedefi için “en güçlü 1 format” seçin.\n\t2.\tAynı mesajı tüm formatlara kopyalamayın; formatın dilini kullanın.\n\t3.\tHer formatta “hook–kanıt–teklif–CTA” sırasını yeniden kurun."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle kreatifi yalnız tasarım işi gibi değil, [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde hedef kitle, mesaj ve kampanya amacıyla birlikte düşünmek gerekir."
           }
         ]
       },
@@ -11634,6 +11770,10 @@
           {
             "type": "p",
             "text": "Cevap bloğu (net):\n\t•\tAwareness (tanışma): Reels/Video (dikkat + bağlam)\n\t•\tConsideration (ikna): Carousel (fayda + kanıt + karşılaştırma)\n\t•\tConversion (kapatma): Tek görsel (net teklif + güçlü kanıt + kısa CTA)\n\t•\tRemarketing: Carousel veya tek görsel (segmente göre) + “risk azaltma” mesajı\n\n☑ Mini Check:\n\t•\tAwareness’te “satın al” baskısı yapıyor muyum?\n\t•\tConsideration’da kanıt (yorum/puan/case) görünür mü?\n\t•\tConversion’da teklif net mi ve CTA tek mi?"
+          },
+          {
+            "type": "p",
+            "text": "Aynı formatın her kitlede aynı sonucu vermemesinin nedeni, [Meta Ads hedefleme ve segmentasyon stratejisi](/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi) tarafında cold, warm ve hot segmentlerin farklı beklentiyle hareket etmesidir."
           }
         ]
       },
@@ -11745,6 +11885,14 @@
           {
             "type": "p",
             "text": "\t•\t0–2 sn: “Herkese reklam açıyorsun = bütçe yanıyor”\n\t•\t2–8 sn: “Segment-first yaklaşım” (3 katman)\n\t•\t8–15 sn: mini case/çıktı\n\t•\t15–20 sn: “Analiz talep et”\n\n☑ Mini Check (Örnekler):\n\t•\tHer formatın “tek hedefi” var mı?\n\t•\tCarousel “hikâye” gibi ilerliyor mu?\n\t•\tReels’te ilk 2 saniye vaat net mi?\n\nNe yapmalıyım?\n\t1.\tOtelde carousel’i “kanıt ve fayda” için kullan; teklif slaytını sona koy.\n\t2.\tB2B’de reels’i “problem → çözüm → kanıt” hızında kur.\n\t3.\tRemarketing’de engel kaldır (iptal, fiyat, süre, demo)."
+          },
+          {
+            "type": "p",
+            "text": "Organikte çalışan video ve carousel setlerini reklama taşırken [içerik üretimi](/tr/smm/icerik-uretimi) akışında oluşan format, caption ve varyasyon havuzu güçlü bir kreatif kaynağına dönüşür."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında sezon, oda, spa ve erken rezervasyon temalarını [otel reklam yönetimi](/tr/otel/reklam-yonetimi) bakışıyla kurgulamak, kreatif seçimini kampanya hedefiyle daha net eşleştirir."
           }
         ]
       },
@@ -11771,6 +11919,14 @@
           {
             "type": "p",
             "text": "☑ Mini Check (Test):\n\t•\tTest hipotezi tek cümle mi?\n\t•\tTek değişken mi değişiyor?\n\t•\tKPI hedefi doğru mu? (formatla uyumlu)\n\t•\tSonuçları bir “kreatif kütüphanesi”ne yazıyor muyum?\n\nNe yapmalıyım?\n\t1.\t2 haftalık test planı çıkar (format + hook + kanıt).\n\t2.\tKazanan kreatifi “varyasyonlayarak” ölçekle.\n\t3.\tKaybeden kreatiften “öğrenim notu” çıkar (neden kaybetti)."
+          },
+          {
+            "type": "p",
+            "text": "Kazanan varyasyonları büyütmeden önce [reklam bütçesi ve ölçekleme](/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme) kararlarını frekans, CPA ve öğrenme fazıyla birlikte okumak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu testlerin gerçek etkisini görebilmek için [Pixel ve Conversion API ile ölçüm](/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu) altyapısında form, rezervasyon ve satın alma sinyallerini kreatif bazında takip etmek gerekir."
           }
         ]
       },
@@ -11781,6 +11937,10 @@
           {
             "type": "p",
             "text": "Metin ve görsellere aşırı metin yüklemek, düşük kontrast kullanmak ve mobilde okunamayan fontlar; reklam kalitesi ve performansını olumsuz etkiler. Özellikle otel kreatiflerinde “manzara fotoğrafı güzel” ama mesaj yoksa CTR düşer; B2B’de “çok metin” okunmazsa hook kaybolur.\n\n☑ Mini Check (Teknik):\n\t•\tMobilde 1 saniyede okunuyor mu?\n\t•\tKontrast yeterli mi?\n\t•\tFont kalınlığı küçük ekranlarda okunuyor mu?\n\t•\tGörsel kalitesi (blur/pixel) var mı?"
+          },
+          {
+            "type": "p",
+            "text": "Şablon, tipografi ve hareket standardı tarafında [grafik ve motion tasarım](/tr/creative/grafik-motion-tasarim) desteği reklam kreatifinin okunurluğunu ve marka tutarlılığını güçlendirir."
           }
         ]
       },
@@ -11820,6 +11980,10 @@
           {
             "type": "p",
             "text": "Sosyal medya reklam kreatifi; format seçimi + hook + teklif + sosyal kanıt + test kültürü birleştiğinde büyür. Otelde deneyim/kanıt/teklif; B2B’de problem/çözüm/mini case kombinasyonu öne çıkar. Hedef, “daha güzel tasarım” değil; format–hedef uyumu ve ölçülebilir iterasyondur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı ekip içinde netleştirmek isterseniz [paid social kreatif stratejisi](/tr/smm/sosyal-medya-reklamlari) desteği alabilir, kapsam ve süreç detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına geçebilirsiniz."
           },
           {
             "type": "media",
@@ -11881,7 +12045,7 @@
           "CTA yoğunluğu: Primary 2 kez (H1 sonrası + son 1/3), Secondary 1 kez (orta bölüm)",
           "Mobil okunabilirlik kontrolü (kontrast/font/over-text)",
           "Her testte tek değişken kuralı (3–7 gün) içerikte net",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /smm/icerik-uretimi, /smm/reels-video, /sem/reklam-raporlama"
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi, /tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme, /tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu, /tr/smm/icerik-uretimi, /tr/creative/grafik-motion-tasarim, /tr/otel/reklam-yonetimi, /tr/smm/sosyal-medya-reklamlari-sss"
         ]
       }
     }
@@ -11966,20 +12130,61 @@
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reklam Kreatif Stratejisi: Carousel ve Reels",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels"
+      },
+      {
+        "label": "Pixel ve Conversion API ile Ölçüm Rehberi",
+        "href": "/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
+      },
+      {
+        "label": "Remarketing: Sıcak Kitle ile Rezervasyon Artırma",
+        "href": "/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
+      },
+      {
         "label": "Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/tr/raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal Medya Reklamları hakkında sık sorulan sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Reklam Kreatif Stratejisi: Carousel ve Reels",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels"
+      },
+      {
+        "title": "Pixel ve Conversion API ile Ölçüm Rehberi",
+        "href": "/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
+      },
+      {
+        "title": "Remarketing: Sıcak Kitle ile Rezervasyon Artırma",
+        "href": "/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
+      }
+    ],
     "sections": [
       {
         "id": "butce-planlama-aeo",
         "title": "Sosyal medya reklam bütçesi nasıl planlanır? ",
         "blocks": [
+          {
+            "type": "p",
+            "text": "Pratikte [Meta Ads bütçe planlama](/tr/smm/sosyal-medya-reklamlari), harcamayı yalnız artırmak değil; test, teklif ve ölçek hızını aynı performans çerçevesinde yönetmektir."
+          },
           {
             "type": "media",
             "slot": "h1-context-02"
@@ -11987,6 +12192,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Bütçeyi tek kampanyaya yığmak yerine, funnel katmanlarına göre dağıtın; önce küçük testlerle kazanan kombinasyonları doğrulayın, sonra kademeli ölçekleyin. Başarıyı “harcama” ile değil, CPA/ROAS stabilitesi ve öğrenme kalitesi ile ölçün."
+          },
+          {
+            "type": "p",
+            "text": "Bu disiplini [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde düşünmek gerekir; reklam bütçesi içerik ritmi, hedef kitle ve kampanya takvimiyle birlikte planlandığında daha sağlıklı çalışır."
           },
           {
             "type": "h3",
@@ -12056,6 +12265,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki dağılım “genel çerçeve”dir; teklif gücü, sezon ve pazar rekabetiyle değişir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle sıcak segmentlerde [remarketing kampanyaları](/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma) için ayrı bütçe ayırmak, rezervasyon veya lead niyeti yüksek kitleyi soğuk trafikle aynı havuzda eritmemeyi sağlar."
           },
           {
             "type": "table",
@@ -12203,6 +12416,10 @@
             "text": "Teklif stratejisi, bütçenizin “hangi kaliteyi” satın aldığını belirler. En yaygın Meta teklif yaklaşımları: • Lowest Cost (En düşük maliyet): Hızlı öğrenme; hacim odaklı. • Cost Cap (Maliyet tavanı): Belirli CPA hedefi etrafında disiplin. • Bid Cap / Manuel tavan mantığı: Daha ileri kontrol; her hesapta gerekli değil."
           },
           {
+            "type": "p",
+            "text": "Bu kararları sezgiyle değil, [Pixel ve Conversion API ile ölçüm](/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu) altyapısında doğrulanmış event ve attribution verisiyle almak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Otomatik teklif (lowest cost) ne zaman?"
           },
@@ -12285,6 +12502,10 @@
             "text": "Kural: %10–20 kademeli artış (24–72 saat aralığıyla) çoğu durumda daha sağlıklıdır. Çok hızlı artış, learning’i resetleyebilir veya dalgalanmayı büyütebilir. • Başlangıç: 3–7 gün stabil CPA/ROAS • Artış: %10–20 • Kontrol: CPA, CVR, frekans, teslimat kalitesi"
           },
           {
+            "type": "p",
+            "text": "Bütçe artışı kararı verirken [kazanan kreatifleri bütçe ile ölçeklemek](/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels) yaklaşımı kritikleşir; zayıf kreatife daha fazla harcama eklemek çoğu zaman sadece frekansı şişirir."
+          },
+          {
             "type": "h3",
             "text": "Yatay ölçekleme (Audience/Creative expansion)"
           },
@@ -12301,6 +12522,10 @@
           {
             "type": "p",
             "text": "Önemli: Yatay ölçeklemede “yeni” olan her şey test bütçesiyle açılmalıdır; ölçek bütçesini riske atmayın."
+          },
+          {
+            "type": "p",
+            "text": "Artış zamanlamasını ve eşiklerini [veri analiz ve raporlama](/tr/veri-analiz-ve-raporlama) ekranında CPA, frekans ve ROAS trendiyle birlikte okumak daha güvenli karar vermeyi sağlar."
           },
           {
             "type": "callout",
@@ -12384,6 +12609,14 @@
             "text": "Test + kazanan kombinasyonları ölçekle yaklaşımıyla yönetilen hesaplarda, aynı toplam harcamayla daha yüksek dönüşüm sayısı ve ROAS raporlanabiliyor; bu, teklif gücü ve ölçüm kalitesine bağlıdır."
           },
           {
+            "type": "p",
+            "text": "Bu tabloyu günlük ve haftalık [reklam raporlaması](/tr/sem/reklam-raporlama) içinde izlemek, harcama artışının hangi kampanya katmanında gerçekten verim ürettiğini daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Nihai kararı yalnız panel metriğine göre değil, [satış dönüşüm raporlaması](/tr/raporlama/satis-donusum) tarafında lead, rezervasyon, WhatsApp ve gelir katkısıyla birlikte değerlendirmek gerekir."
+          },
+          {
             "type": "media",
             "slot": "kpi-07",
             "note": "[KPI / Score Card] — 1:1 (1200×1200) — sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme-kpi-07.webp — “CPA ve ROAS trend paneli, ölçekleme kararı için skor kartı”"
@@ -12454,11 +12687,15 @@
             "text": "Meta Ads bütçesi, sadece “ne kadar harcadığın” değil; nerede, nasıl ve ne hızla harcadığındır. Funnel dağılımı ile havuzu büyütür, teklif stratejisiyle maliyeti kontrol eder, ölçekleme disipliniyle büyümeyi sürdürülebilir hâle getirirsiniz. Otel ve B2B’de ortak gerçek: Kazananı bul, stabilize et, sonra büyüt—kısa yol arama."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı ekip içinde standardize etmek isterseniz [Facebook Instagram reklam ölçekleme ve teklif stratejisi](/tr/smm/sosyal-medya-reklamlari) desteği alabilir, kapsam ve süreç detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sosyal Medya Reklam Bütçe & Ölçekleme Analizi Talep Et",
             "text": "Bütçenizi ve teklif modelinizi “test → stabilizasyon → ölçek” planına göre kuralım.",
-            "href": "/tr/sem/reklam-raporlama"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       },
@@ -12557,7 +12794,8 @@
           "Learning phase koruma: tek değişken kuralı + değişiklik penceresi",
           "Ölçekleme kuralı: %10–20 artış + test/ölçek bütçesi ayrımı",
           "Remarketing segmentasyonu ayrı yönetiliyor (otel/B2B)",
-          "Dashboard’da CPA/ROAS trendleri ve bütçe kararları ilişkilendirildi"
+          "Dashboard’da CPA/ROAS trendleri ve bütçe kararları ilişkilendirildi",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels, /tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu, /tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma, /tr/sem/reklam-raporlama, /tr/veri-analiz-ve-raporlama, /tr/raporlama/satis-donusum, /tr/smm/sosyal-medya-reklamlari-sss"
         ]
       }
     }
@@ -12643,22 +12881,50 @@
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Reklam Bütçesi ve Ölçekleme",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme"
+      },
+      {
+        "label": "Remarketing Kampanyaları",
+        "href": "/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
+      },
+      {
+        "label": "Kreatif ve Metin A/B Testleri",
+        "href": "/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+      },
+      {
         "label": "Dönüşüm Takibi & Tag Manager",
         "href": "/tr/sem/donusum-takibi-tag-manager"
       },
       {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
         "label": "Satış & Dönüşüm Raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Dönüşüm Takibi: Tag Manager ile Event Kurulumu",
-        "href": "/tr/sem/donusum-takibi-tag-manager"
+        "title": "Sosyal Medya Reklam Bütçesi ve Ölçekleme",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme"
       },
       {
-        "title": "Satış & Dönüşüm Raporlama: Funnel ve KPI Kurulumu",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Remarketing: Sıcak Kitle ile Rezervasyon Artırma",
+        "href": "/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
+      },
+      {
+        "title": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
+        "href": "/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
       }
     ],
     "sections": [
@@ -12669,6 +12935,10 @@
           {
             "type": "media",
             "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberdeki Pixel ve Conversion API farkı, [sosyal medya reklam ölçümü](/tr/smm/sosyal-medya-reklamlari) kadar [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde bütçe, hedefleme ve optimizasyon kararlarını da doğrudan etkiler."
           },
           {
             "type": "p",
@@ -12725,6 +12995,10 @@
           {
             "type": "p",
             "text": "CAPI, event verisini tarayıcı yerine sunucudan Meta’ya gönderir. Bu, browser tarafındaki sinyal kaybını azaltır ve özellikle lead/rezervasyon gibi kritik event’lerde veri doğruluğunu artırır. En büyük avantajı; daha “tam” bir sinyal ile Meta’nın optimizasyon algoritmasının daha sağlıklı öğrenmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu daha temiz sinyal, [Pixel ve CAPI ile bütçe kararları](/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme) alırken learning ve ölçekleme eşiklerini daha güvenilir okumayı sağlar."
           },
           {
             "type": "h3",
@@ -12841,6 +13115,10 @@
             "text": "Event tasarımı, funnel’ı ölçülebilir hâle getirir. En yaygın hata, ya çok az event tanımlamak (sinyal yetersizliği) ya da çok fazla “gürültü event” üretmek (optimizasyonun şaşması)dır. Burada amaç: anlamlı mikro + makro event seti."
           },
           {
+            "type": "p",
+            "text": "Özellikle lead odaklı yapılarda [lead ve rezervasyon event tasarımı](/tr/raporlama/satis-donusum) net değilse reklam verisini gerçek satış sonucuyla eşlemek zorlaşır."
+          },
+          {
             "type": "h3",
             "text": "Funnel bazlı event seti (öneri)"
           },
@@ -12947,6 +13225,10 @@
             "text": "Pratik not: Otellerde call center/WhatsApp akışı varsa, “online rezervasyon” ile “assist dönüşüm” ayrı raporlanmalıdır (Varsayım: raporlama altyapısı)."
           },
           {
+            "type": "p",
+            "text": "Bu akışlar aynı zamanda [remarketing için event verisi](/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma) kalitesini de belirler; eksik event, sıcak kitle gücünü hızla düşürür."
+          },
+          {
             "type": "h3",
             "text": "B2B (lead odaklı) örnek akış"
           },
@@ -12995,6 +13277,10 @@
           {
             "type": "p",
             "text": "Bu entegrasyonun amacı “her şeyi her yere” göndermek değil; aynı dönüşümü farklı platformlarda tutarlı görmek ve optimizasyonu güvenilir sinyale bağlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Teknik tarafta [Tag Manager ile dönüşüm takibi](/tr/sem/donusum-takibi-tag-manager) event mapping ve test akışını daha kontrollü kurmanızı sağlar."
           },
           {
             "type": "h3",
@@ -13048,6 +13334,10 @@
           {
             "type": "p",
             "text": "Cevap bloğu (net):\nPixel dönüşümü tarayıcıdan, CAPI aynı dönüşümü sunucudan gönderir. Hibrit modelde aynı dönüşüm için event_id kullanılır; Meta bu id ile event’leri deduplicate eder ve çift sayımı önler. Kurulumun başarı kriteri; Events Manager’da event’lerin “received” ve “deduplicated” durumlarının doğru görünmesi ve Lead/Purchase sayılarının mantıklı tutarlılık göstermesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [A/B testlerinde dönüşüm eventleri](/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek) yalnız CTR ile değil, gerçek sonuç sinyalleriyle okunmalıdır."
           }
         ]
       },
@@ -13058,6 +13348,10 @@
           {
             "type": "p",
             "text": "Pixel + CAPI kurulumunda en büyük risk duplicate event’tir: aynı dönüşüm iki kez sayılırsa CPA/ROAS raporları bozulur ve optimizasyon yanlış sinyale gider. Bu nedenle hibrit kurulumda test planı zorunludur."
+          },
+          {
+            "type": "p",
+            "text": "Hibrit kurulum çıktılarını [veri analiziyle reklam ölçümü](/tr/veri-analiz-ve-raporlama) perspektifiyle okumak, kaynaklar arası tutarsızlığı daha erken fark ettirir."
           },
           {
             "type": "h3",
@@ -13114,6 +13408,14 @@
             "text": "Pixel + CAPI hibrit modeli; sinyal kalitesini artırıp Meta’nın optimizasyon algoritmasını daha sağlam veriye dayandırır. Otel ve B2B’de dönüşüm verisi doğru toplanırsa CPA ve ROAS daha stabil hâle gelir; ama bunun bedeli disiplinli event tasarımı ve testtir. “Kur ve unut” değil; periyodik kontrolle yaşayan bir ölçüm sistemi kurmalısınız."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı Pixel CAPI hibrit ölçüm kadar [sosyal medya reklam optimizasyonu](/tr/smm/sosyal-medya-reklamlari) çerçevesinde ele almak, teknik kurulumla medya kararını aynı zeminde toplar."
+          },
+          {
+            "type": "p",
+            "text": "Uygulama kapsamı için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasını da inceleyebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -13122,7 +13424,7 @@
             "variant": "primary",
             "label": "Pixel + CAPI Kurulum & Ölçüm Analizi Talep Et",
             "text": "Event haritanızı çıkarıp hibrit ölçümle optimizasyonu güçlendirelim.",
-            "href": "/tr/raporlama/satis-donusum"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           }
         ]
       },
@@ -57504,7 +57806,7 @@
           },
           {
             "type": "p",
-            "text": "Bu bakış, [sosyal medya yönetimi içinde Reels aranabilirliği](/tr/sosyal-medya-yonetimi) çerçevesinde içerik planı, arama niyeti ve keşif performansını aynı stratejik akışta ele almayı gerektirir."
+            "text": "Bu bakışla Reels aranabilirliğini [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde ele almak gerekir; içerik planı, arama niyeti ve keşif performansı aynı stratejik akışta düşünülmelidir."
           },
           {
             "type": "h3",
@@ -57642,7 +57944,7 @@
           },
           {
             "type": "p",
-            "text": "Bu akışta [AI destekli altyazıyla Reels aranabilirliği](/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari) önemli bir rol oynar; otomatik caption ve hızlı edit araçları, doğru insan kontrolüyle arama niyetine uygun metin üretimini hızlandırabilir."
+            "text": "Bu akışta [AI destekli Reels kurgusu](/tr/smm/blog/ai-destekli-reels-kurgu-ve-otomatik-edit-araclari) önemli bir rol oynar; otomatik caption ve hızlı edit araçları, doğru insan kontrolüyle arama niyetine uygun metin üretimini hızlandırabilir."
           },
           {
             "type": "list",
@@ -57857,11 +58159,11 @@
           },
           {
             "type": "p",
-            "text": "Aranabilirliği korurken trend kalmak da mümkündür; [trend formatlarda video arama sinyalleri](/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri) yaklaşımı, ASMR, POV ve sinematik akışlarda bile konu netliğini kaybetmeden keşif ve arama yüzeylerine oynamayı gösterir."
+            "text": "Aranabilirliği korurken trend kalmak da mümkündür; [ASMR, POV ve sinematik Reels trendleri](/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri) içinde bile konu netliğini kaybetmeden keşif ve arama yüzeylerine oynamak mümkündür."
           },
           {
             "type": "p",
-            "text": "Benzer biçimde [edutainment Reels ile arama tetikleyicileri](/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari) soru-cevap, mini rehber ve ipucu formatlarını doğal olarak aranabilir hale getirir; çünkü kullanıcı niyetiyle içerik yapısı aynı hatta buluşur."
+            "text": "Benzer biçimde [edutainment Reels](/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari) soru-cevap, mini rehber ve ipucu formatlarını doğal olarak aranabilir hale getirir; çünkü kullanıcı niyetiyle içerik yapısı aynı hatta buluşur."
           },
           {
             "type": "callout",
@@ -57908,7 +58210,7 @@
           },
           {
             "type": "p",
-            "text": "Bu eşleşmeyi kalıcı hale getirmek için [SEO içerik stratejisine bağlı Reels konuları](/tr/seo/icerik-seo) mantığıyla kullanıcı soruları, konu kümeleri ve video başlıkları aynı içerik sisteminde planlanmalıdır."
+            "text": "Bu eşleşmeyi kalıcı hale getirmek için [SEO içerik stratejisi](/tr/seo/icerik-seo) mantığıyla kullanıcı soruları, konu kümeleri ve video başlıkları aynı içerik sisteminde planlanmalıdır."
           },
           {
             "type": "h3",
@@ -57925,11 +58227,11 @@
           },
           {
             "type": "p",
-            "text": "Turizm tarafında [otel Reels içeriklerinde sosyal arama](/tr/otel/seo) yaklaşımı, destinasyon, oda tipi, restoran, spa ve deneyim temalarını yalnızca içerik fikri değil, arama niyeti taşıyan konu kümeleri olarak ele almayı kolaylaştırır."
+            "text": "Turizm tarafında [otel SEO](/tr/otel/seo) yaklaşımı, destinasyon, oda tipi, restoran, spa ve deneyim temalarını yalnızca içerik fikri değil, arama niyeti taşıyan konu kümeleri olarak ele almayı kolaylaştırır."
           },
           {
             "type": "p",
-            "text": "Ayrıca bu yapının günlük operasyona girebilmesi için [video arama tetikleyicilerini içerik üretim sürecine eklemek](/tr/smm/icerik-uretimi) gerekir; böylece caption hazırlığı, içerik takvimi ve content pillar sistemi daha aranabilir bir yayın akışına dönüşür."
+            "text": "Ayrıca bu yapının günlük operasyona girebilmesi için bunu [içerik üretim süreci](/tr/smm/icerik-uretimi) içinde ele almak gerekir; böylece caption hazırlığı, içerik takvimi ve content pillar sistemi daha aranabilir bir yayın akışına dönüşür."
           },
           {
             "type": "callout",
@@ -58297,7 +58599,7 @@
           },
           {
             "type": "p",
-            "text": "Bu bakış, [sosyal medya yönetimi içinde yeni Reels trendleri](/tr/sosyal-medya-yonetimi) değerlendirilirken hedef kitle, marka tonu, içerik ritmi ve ölçülebilir hedeflerin birlikte okunmasını gerektirir."
+            "text": "Bu bakışla yeni Reels trendlerini [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde değerlendirmek; hedef kitle, marka tonu, içerik ritmi ve ölçülebilir hedeflerin birlikte okunmasını gerektirir."
           },
           {
             "type": "h3",
@@ -58425,7 +58727,7 @@
           },
           {
             "type": "p",
-            "text": "Burada ihtiyaç duyulan şey sezgisel değil, [trend format değerlendirme süreci](/tr/smm/planlama-strateji)dir; hedef kitle, KPI, yayın ritmi ve üretim kapasitesi aynı tabloda okunmadan trend seçimi yapılmamalıdır."
+            "text": "Burada ihtiyaç duyulan şey sezgisel kararlar değil, [sosyal medya planlama ve stratejisi](/tr/smm/planlama-strateji) disiplinidir; hedef kitle, KPI, yayın ritmi ve üretim kapasitesi aynı tabloda okunmadan trend seçimi yapılmamalıdır."
           },
           {
             "type": "h3",
@@ -58518,11 +58820,11 @@
           },
           {
             "type": "p",
-            "text": "Trend estetiği ne kadar güçlü olursa olsun konu netliği kaybolmamalıdır; [sosyal arama için trend Reels optimizasyonu](/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri) yaklaşımı başlık, caption ve ekran metnini aranabilirliği koruyacak şekilde düzenlemeye yardımcı olur."
+            "text": "Trend estetiği ne kadar güçlü olursa olsun konu netliği kaybolmamalıdır; [Reels Social SEO](/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri) yaklaşımı başlık, caption ve ekran metnini aranabilirliği koruyacak şekilde düzenlemeye yardımcı olur."
           },
           {
             "type": "p",
-            "text": "Ayrıca [edutainment ile trend Reels formatları](/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari) sayesinde POV, ASMR veya sinematik akışlar mini rehber, ipucu ve açıklayıcı kısa videolara dönüşebilir."
+            "text": "Ayrıca [edutainment Reels formatları](/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari) sayesinde POV, ASMR veya sinematik akışlar mini rehber, ipucu ve açıklayıcı kısa videolara dönüşebilir."
           },
           {
             "type": "media",
@@ -58613,7 +58915,7 @@
           },
           {
             "type": "p",
-            "text": "Yüz göstermeden ya da ekip yükünü büyütmeden test yapmak isteyen markalar için [AI avatar ve sanal sunucu ile trend Reels üretimi](/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi), trend dilini kontrollü biçimde denemek adına alternatif bir üretim modeli sunabilir."
+            "text": "Yüz göstermeden ya da ekip yükünü büyütmeden test yapmak isteyen markalar için [AI avatar ve sanal sunucu ile Reels üretimi](/tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi), trend dilini kontrollü biçimde denemek adına alternatif bir üretim modeli sunabilir."
           },
           {
             "type": "table",
@@ -59016,7 +59318,7 @@
           },
           {
             "type": "p",
-            "text": "Aynı bakış, [sosyal medya yönetimi içinde eğitici eğlenceli kısa video](/tr/sosyal-medya-yonetimi) formatlarını da yalnız bilgi verme aracı değil; güven üretimi, paylaşılabilirlik ve içerik ritmi açısından stratejik bir katmana dönüştürür."
+            "text": "Aynı bakışla eğitici-eğlenceli kısa video üretimini [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde ele almak gerekir; bu format yalnız bilgi verme aracı değil, güven üretimi, paylaşılabilirlik ve içerik ritmi açısından da stratejik bir katmana dönüşür."
           },
           {
             "type": "h3",
@@ -59089,7 +59391,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yapının aranabilir kalması için [Social SEO uyumlu edutainment Reels](/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri) yaklaşımı; hook, başlık, caption ve ekrandaki metni aynı öğrenim niyeti etrafında hizalamayı kolaylaştırır."
+            "text": "Bu yapının aranabilir kalması için [Reels Social SEO](/tr/smm/blog/reels-icin-social-seo-ve-video-arama-tetikleyicileri) yaklaşımı; hook, başlık, caption ve ekrandaki metni aynı öğrenim niyeti etrafında hizalamayı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -59123,7 +59425,7 @@
           },
           {
             "type": "p",
-            "text": "Konu seçiminde [SEO içerik stratejisine bağlı eğitim Reels konuları](/tr/seo/icerik-seo) mantığıyla ilerlemek; kullanıcı soruları, arama niyeti ve blog içerikleriyle kısa video serilerini aynı sistemde buluşturur."
+            "text": "Konu seçiminde [SEO içerik stratejisi](/tr/seo/icerik-seo) mantığıyla ilerlemek; kullanıcı soruları, arama niyeti ve blog içerikleriyle kısa video serilerini aynı sistemde buluşturur."
           },
           {
             "type": "h3",
@@ -59231,7 +59533,7 @@
           },
           {
             "type": "p",
-            "text": "Daha dikkat çekici ama yine öğretici bir akış kurmak isteyen ekipler için [trend formatlarla edutainment Reels](/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri) yaklaşımı, ASMR, POV ve sinematik anlatımı bilgi veren kısa videolarla birleştirmenin daha kontrollü yollarını gösterir."
+            "text": "Daha dikkat çekici ama yine öğretici bir akış kurmak isteyen ekipler için [ASMR, POV ve sinematik Reels trendleri](/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri), bilgi veren kısa videoları daha güçlü bir görsel ritimle birleştirmenin kontrollü yollarını gösterir."
           },
           {
             "type": "h3",
@@ -59426,7 +59728,7 @@
           },
           {
             "type": "p",
-            "text": "Bu formatların sürdürülebilir olması için [içerik takviminde eğitici kısa video formatları](/tr/smm/icerik-uretimi) planlamak gerekir; böylece mini ders, ipucu ve seri mantığı caption, content pillar ve yayın ritmiyle birlikte ilerler."
+            "text": "Bu formatların sürdürülebilir olması için bunu bir [içerik üretimi](/tr/smm/icerik-uretimi) rutini haline getirmek gerekir; böylece mini ders, ipucu ve seri mantığı caption, content pillar ve yayın ritmiyle birlikte ilerler."
           },
           {
             "type": "h3",
@@ -59664,14 +59966,14 @@
       "ctaPrimary": {
         "label": "Yapay Zekâ Avatar & Voice Clone Strateji Analizi Talep Et",
         "text": "AI avatar/voice kullanımını markanız için güvenli, şeffaf ve ölçülebilir bir workflow’a bağlamak isteyen otel/B2B ekipleri için.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yapay Zekâ Avatar & Voice Clone Strateji Analizi Talep Et",
         "text": "AI avatar/voice kullanımını şeffaflık ve KVKK uyumuyla tasarlayıp hız kazanırken güveni korumak isteyen otel/B2B ekipleri için.",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       },
       "secondary": {
         "label": "AI Avatar/Voice Clone Kullanım & Etik Checklist Şablonunu İndir",
@@ -59682,29 +59984,49 @@
     "internalLinks": [
       {
         "label": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Edutainment: Eğitim ve Eğlenceyi Birleştiren Reels Formatları",
+        "href": "/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari"
+      },
+      {
+        "label": "ASMR, POV ve Sinematik Reels: Yeni Video Trendleri",
+        "href": "/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri"
       },
       {
         "label": "KVKK ve Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "SMM Reels & Video SSS",
+        "href": "/tr/smm/reels-video-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "title": "Edutainment: Eğitim ve Eğlenceyi Birleştiren Reels Formatları",
+        "href": "/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari"
       },
       {
-        "title": "KVKK ve Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "title": "ASMR, POV ve Sinematik Reels: Yeni Video Trendleri",
+        "href": "/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri"
       },
       {
-        "title": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "title": "Reels İçin Güvenlik, KVKK ve Etik Rehberi: Yüzler, Çocuklar ve Mekân İzinleri",
+        "href": "/tr/smm/blog/reels-icin-guvenlik-kvkk-ve-etik-rehberi-yuzler-cocuklar-ve-mekan-izinleri"
       }
     ],
     "sections": [
@@ -59721,6 +60043,10 @@
             "text": "AI avatar/sanal sunucu, metin veya ses girişinden “sunucu anlatımı” üreten sentetik bir anlatım katmanıdır. Bunu iki farklı amaçla düşünebilirsiniz:"
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [AI avatar Reels kullanımı](/tr/smm/reels-video) yalnızca üretim hızını artıran bir teknik seçim gibi değil; açıklama, onay ve insan denetimi katmanlarıyla birlikte tasarlanan bir kısa video sistemi olarak düşünülmelidir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -59731,6 +60057,14 @@
           {
             "type": "p",
             "text": "Ancak şunu net koymak gerekir: AI avatar, stratejinin yerine geçmez. Strateji; mesajın hedef kitleye uygunluğu, içerik doğruluğu, etik sınırlar, marka tonu ve CTA köprüsüdür. Avatar sadece sunum katmanıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı çerçevede sanal sunucu kullanımını [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde düşünmek gerekir; AI destekli üretim ancak yayın ritmi, güven sinyalleri ve kanal mantığıyla birlikte ele alındığında sürdürülebilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden asıl soru çoğu zaman sanal sunucuyu [sosyal medya planlama ve stratejisi](/tr/smm/planlama-strateji) içinde hangi hedef kitleye, hangi KPI’a ve hangi risk seviyesine göre konumlandırmak gerektiğidir; rastgele trend takibi bu araçları kolayca güvensizleştirebilir."
           },
           {
             "type": "h3",
@@ -59800,6 +60134,10 @@
               "Güvenli yaklaşım: kurumun onaylı sesi (ör. şirketin kendi sunucusu) için yazılı izin + şeffaf kullanım",
               "Riskli yaklaşım: gerçek kişiyi izinsiz taklit etmek (etik ve yasal risk)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden voice clone kullanımını [KVKK ve veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi) açısından değerlendirmek gerekir; açık rıza, kişisel veri, şeffaflık ve yanıltıcı temsil riskleri birlikte ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -59917,7 +60255,7 @@
           },
           {
             "type": "h3",
-            "text": "“Gerçek kişiyi taklit etmek etik mi?” (PAA)"
+            "text": "“Gerçek kişiyi taklit etmek etik mi?”"
           },
           {
             "type": "p",
@@ -60041,6 +60379,10 @@
             "text": "Bu bölümde amaç “trend konuşmak” değil, sahada uygulanabilir örnekler vermek: neyi nasıl yaparsanız hem hız kazanır hem güveni korursunuz."
           },
           {
+            "type": "p",
+            "text": "Özellikle açıklayıcı mini derslerde [AI avatar ile edutainment Reels](/tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari) yaklaşımı; ipucu, mikro rehber ve soru-cevap formatlarını daha ölçeklenebilir hale getirebilir."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryosu 1 — Çok dilli SSS (TR/EN)"
           },
@@ -60071,6 +60413,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Tam da bu noktada [AI video ile gerçek prodüksiyon farkı](/tr/creative/video-produksiyon) görünür hale gelir; premium his, insan performansı ve güçlü atmosfer gerektiğinde sentetik anlatım tek başına yeterli olmaz."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu — Virtual presenter ile mini ders"
           },
@@ -60084,6 +60430,10 @@
               "CTA: “Demo: link” / “DM: PLAN”",
               "B2B’de “insan gibi” taklitten kaçınıp “sentetik sunum + net mesaj” yaklaşımı daha güvenlidir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Daha deneysel kurgularda sanal sunucuyu [ASMR, POV ve sinematik Reels trendleri](/tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri) içinde değerlendirmek; sentetik sunumla marka uyumu filtresini birlikte düşünmenin önemini hatırlatır."
           },
           {
             "type": "h3",
@@ -60141,11 +60491,15 @@
             "text": "AI video araçları hızla yayılıyor; ancak etik, şeffaflık ve marka güveni çerçevesi çizilmeden kullanıldığında, kısa vadeli dikkat kazandırsa bile uzun vadede güven kaybı riski yüksek. Farkı yaratan şey “avatar kullanmak” değil; etik AI video politikası ve hibrit üretim sistemi kurmaktır: disclosure standardı, KVKK kontrol adımı, insan QA ve içerik karmasında denge."
           },
           {
+            "type": "p",
+            "text": "Bu modeli ekip içinde güvenle ölçeklemek isteyenler için [etik AI video ve insan denetimli Reels üretimi](/tr/smm/reels-video) iyi bir sonraki adımdır; kapsam ve süreç detaylarını görmek için [SMM Reels & Video hakkında sık sorulan sorular](/tr/smm/reels-video-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Yapay Zekâ Avatar & Voice Clone Strateji Analizi Talep Et",
             "text": "Etik çerçeve + disclosure standardı + workflow ile AI video trendlerini güven kaybetmeden kullanmak isteyen ekipler için.",
-            "href": "/smm/reels-video"
+            "href": "/tr/smm/reels-video"
           }
         ]
       },
@@ -60292,12 +60646,16 @@
           "Canonical kontrolü: /tr/smm/blog/yapay-zeka-avatar-voice-clone-ve-sanal-sunucu-ile-reels-uretim-stratejisi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema soruları PAA hedefleriyle eşleşiyor",
-          "İç link hedefleri kontrol edildi: /smm/reels-video, /raporlama/kvkk-veri-guvenligi, /smm/planlama-strateji",
+          "Primary CTA hedefi: /tr/smm/reels-video",
+          "Secondary CTA hedefi: /downloads/ai-avatar-voice-clone-kullanim-etik-checklist-sablonu-v1.0.pdf",
+          "İç link hedefleri kontrol edildi: /tr/smm/reels-video, /tr/sosyal-medya-yonetimi, /tr/smm/blog/edutainment-egitim-ve-eglenceyi-birlestiren-reels-formatlari, /tr/smm/blog/asmr-pov-ve-sinematik-reels-yeni-video-trendleri, /tr/raporlama/kvkk-veri-guvenligi, /tr/smm/planlama-strateji, /tr/creative/video-produksiyon, /tr/smm/reels-video-sss",
           "Primary CTA H1 sonunda ve son 1/3’te konumlandı",
           "Secondary CTA Download Asset olarak eklendi",
           "Media pack slot adları section içi media bloklarıyla eşleşiyor",
           "Yeşil-sarı-kırmızı etik kullanım tablosu ilgili bölüme eklendi",
           "Disclosure, KVKK kontrolü ve insan QA adımları içerik içinde işlendi",
+          "Mevcut AI avatar, güven, disclosure ve pilot kullanım metinleri korundu; yalnız doğal iç link cümleleri eklendi",
+          "Gerçek kişi taklidi, rızasız ses klonlama ve yanıltıcı temsil önerilmedi; etik AI video çerçevesi korundu",
           "Trend içerik olduğu için 180 gün refresh döngüsü teknik kontrol listesine dahil edildi",
           "AI + insan içerik dengesi ve güven sinyali ölçümü güvenli kullanım bölümünde işlendi"
         ]
@@ -60365,14 +60723,14 @@
       "ctaPrimary": {
         "label": "Remarketing Strateji & Kitle Analizi Talep Et",
         "text": "Warm/hot kitlelerinizi ve senaryo setlerinizi çıkarıp, CPA’yı düşüren bir remarketing planı kuralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Remarketing Strateji & Kitle Analizi Talep Et",
         "text": "Sıcak kitle segmentlerinizi çıkarıp, teklif ve frekans ayarıyla CPA’yı düşürür.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Remarketing Funnel & Senaryo Planlama Şablonunu İndir",
@@ -60383,33 +60741,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Pixel ve Conversion API ile Ölçüm Rehberi",
+        "href": "/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
+      },
+      {
+        "label": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
+        "href": "/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+      },
+      {
+        "label": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
+        "href": "/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
       },
       {
         "label": "Remarketing ve Display",
-        "href": "/sem/remarketing-ve-display"
+        "href": "/tr/sem/remarketing-ve-display"
       },
       {
-        "label": "Dönüşüm Takibi ve Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "label": "PMS / OTA Online Satış",
+        "href": "/tr/pms-ota/online-satis"
       },
       {
-        "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Rezervasyon Desteği",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Pixel ve Conversion API ile Ölçüm Rehberi",
+        "href": "/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
       },
       {
-        "title": "Remarketing ve Display",
-        "href": "/sem/remarketing-ve-display"
+        "title": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
+        "href": "/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
       },
       {
-        "title": "Dönüşüm Takibi ve Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "title": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
+        "href": "/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
       }
     ],
     "sections": [
@@ -60420,6 +60798,10 @@
           {
             "type": "media",
             "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "İyi kurgulanmış bir [sosyal medya remarketing kampanyası](/tr/smm/sosyal-medya-reklamlari), [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde daha önce temas etmiş kullanıcıya doğru mesajı doğru anda yeniden göstermeyi hedefler."
           },
           {
             "type": "p",
@@ -60573,6 +60955,10 @@
             "text": "Remarketing’de en sık hata, “aynı kreatifi her segmente” göstermektir. Oysa warm ve hot kitle farklı psikolojidedir: warm “ikna” ister, hot “engel kaldırma” ister."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [A/B testleriyle remarketing mesajı](/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek) yürütmek, teklif ve CTA farklarının sıcak kitlede gerçekten neyi çalıştırdığını görmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Warm için kreatif ve teklif"
           },
@@ -60597,6 +60983,10 @@
               "Teklif: risk azaltma + net avantaj (fiyat/bonus/esnek iptal)",
               "CTA: “Rezervasyon”, “Formu tamamla”, “WhatsApp’tan yaz”"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaki kullanıcı için [sosyal kanıt içerikleriyle remarketing reklamı](/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak) yorumu, misafir deneyimi veya müşteri sonucu üzerinden güveni hızla artırabilir."
           },
           {
             "type": "callout",
@@ -60627,6 +61017,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki senaryolar, ekiplerin “neye ne göstereceğim?” sorusunu hızla cevaplar."
+          },
+          {
+            "type": "p",
+            "text": "Çok kanallı kurgularda [SEM remarketing ve display kampanyaları](/tr/sem/remarketing-ve-display), sosyal taraftaki sıcak sinyali arama ve görüntülü ağda tamamlayabilir."
           },
           {
             "type": "table",
@@ -60702,6 +61096,14 @@
             "text": "Not: Tabloyu B2B için uygularken “rezervasyon” yerine “qualified lead / meeting” hedefi kullanılmalıdır (Varsayım)."
           },
           {
+            "type": "p",
+            "text": "Otel tarafında [online satış akışında otel remarketing](/tr/pms-ota/online-satis), rezervasyon motoruna kadar gelen kullanıcıları teklif ve tarih niyetine göre yeniden yakalamayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Telefon, form ve WhatsApp dönüşlerinde [rezervasyon desteğiyle sıcak lead yönetimi](/tr/cagri-merkezi/rezervasyon-destegi) satışa yakın talebin kaçmasını engeller."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -60741,6 +61143,10 @@
           {
             "type": "p",
             "text": "Remarketing’in en büyük düşmanı reklam yorgunluğudur: aynı kullanıcıya çok sık gösterim, CTR düşüşü ve maliyet artışı üretir. Özellikle otellerde aynı teklifin 10 kez görünmesi “itici” bir deneyim yaratabilir; B2B’de ise aynı demo reklamı “spam” hissi verir."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte remarketing frequency yönetimi, yalnız gösterim sayısını değil kreatif rotasyonu ve pencere süresini de birlikte düşünmeyi gerektirir."
           },
           {
             "type": "h3",
@@ -60804,6 +61210,10 @@
             "text": "Remarketing kitleleri kaliteli değilse (yanlış event, eksik sinyal, bozuk tracking), warm/hot segmentler şişer veya daralır; performans bozulur. Bu nedenle remarketing stratejisi, pixel/CAPI doğruluğu ve GA4/GTM event tasarımıyla birlikte ele alınmalıdır."
           },
           {
+            "type": "p",
+            "text": "Buradaki segmentleri kurarken [Pixel ve CAPI ile remarketing kitleleri](/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu) yaklaşımı, event kalitesini kitle mantığının merkezine koyar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Tracking bağımlılığı)",
@@ -60834,6 +61244,10 @@
             "text": "Remarketing, doğru kurulduğunda cold kampanyalara kıyasla daha düşük CPA ve daha yüksek ROAS getirebilir; çünkü niyetli kullanıcıyı hedeflersiniz. Başarı formülü nettir: segmentasyon (warm/hot) + doğru teklif + frekans disiplini + sağlam tracking. Bu dört parça birlikte çalıştığında otel ve B2B’de rezervasyon/lead akışı daha öngörülebilir hâle gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı [sıcak kitle reklam stratejisi ve sosyal medya remarketing yönetimi](/tr/smm/sosyal-medya-reklamlari) olarak ele alıp kapsamı [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) üzerinden netleştirebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -60842,7 +61256,7 @@
             "variant": "primary",
             "label": "Remarketing Strateji & Kitle Analizi Talep Et",
             "text": "Warm/hot kitlelerinizi ve senaryo setlerinizi çıkarıp, frekans yönetimiyle stabilize edelim.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "media",
@@ -61061,14 +61475,14 @@
       "ctaPrimary": {
         "label": "Kreatif & Metin A/B Test Analizi Talep Et",
         "text": "Hangi kreatifin neden kazandığını veriye dayalı çıkarıp, test planınızı birlikte kuralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kreatif & Metin A/B Test Analizi Talep Et",
         "text": "Test hipotezlerinizi ve kreatif varyasyonlarınızı veriyle doğrulayarak performansı artırır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Medya A/B Test Planlama & Sonuç Şablonunu İndir",
@@ -61079,25 +61493,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Remarketing: Sıcak Kitle ile Rezervasyon Artırma",
+        "href": "/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
+      },
+      {
+        "label": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
+        "href": "/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
+      },
+      {
+        "label": "Yerel ve GEO Targeting Reklam Rehberi",
+        "href": "/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
       },
       {
         "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reklam Raporlama: KPI, ROAS ve Performans Panosu Nasıl Kurulur?",
-        "href": "/sem/reklam-raporlama"
+        "title": "Remarketing: Sıcak Kitle ile Rezervasyon Artırma",
+        "href": "/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma"
       },
       {
-        "title": "SEO Raporlama: KPI ve Öğrenim Odaklı Raporlama Sistemi",
-        "href": "/seo/seo-raporlama"
+        "title": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
+        "href": "/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
+      },
+      {
+        "title": "Yerel ve GEO Targeting Reklam Rehberi",
+        "href": "/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
       }
     ],
     "sections": [
@@ -61108,6 +61550,10 @@
           {
             "type": "media",
             "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "İyi planlanmış bir [sosyal medya A/B testi](/tr/smm/sosyal-medya-reklamlari), [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde reklam optimizasyonunu tahminden çıkarıp öğrenen bir sisteme dönüştürür."
           },
           {
             "type": "p",
@@ -61168,6 +61614,10 @@
           {
             "type": "p",
             "text": "Test edilebilir öğeleri “kaldıraç gücüne” göre sıralamak verimlidir. Çoğu hesapta en büyük etki sırası genelde: format/görsel > hook/başlık > teklif/kanıt > CTA > metin uzunluğu (sektöre göre değişebilir)."
+          },
+          {
+            "type": "p",
+            "text": "Burada amaç, reklam görsel, başlık ve CTA test etme işini aynı anda her şeyi değiştirerek değil; tek ana değişken üzerinden ilerleyen kontrollü deneylere dönüştürmektir."
           },
           {
             "type": "media",
@@ -61289,6 +61739,10 @@
             "text": "Bu bölüm, “iki görsel” seviyesinden çıkıp hipotezli test tasarımına geçmenizi sağlar."
           },
           {
+            "type": "p",
+            "text": "Özellikle dönüşüme yakın kampanyalarda [remarketing mesajlarını A/B test etmek](/tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma) teklif, aciliyet ve CTA farklarının etkisini daha net gösterir."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryoları (teklif/oda/CTA)"
           },
@@ -61305,6 +61759,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu tür senaryolarda [otel Facebook reklam A/B test örnekleri](/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin) lokasyon, teklif ve bölgesel niyet farklarını okumayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryoları (problem–çözüm metin varyasyonları)"
           },
@@ -61316,6 +61774,10 @@
               "Senaryo-2 (Kanıt): “Mini case” vurgusu vs “deliverables” vurgusu",
               "Senaryo-3 (CTA): “Demo iste” vs “Ücretsiz analiz talep et”"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Güven odaklı varyasyonlarda [UGC ve sosyal kanıt kreatiflerini test etmek](/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak) yorum, testimonial ve kullanıcı deneyimi temalarının gerçekten ne kadar ikna ürettiğini ölçmeye yardım eder."
           },
           {
             "type": "callout",
@@ -61346,6 +61808,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki tabloyu “öğrenim havuzu” için kullanın: sadece kazananı değil, neden kazandığını da yazın."
+          },
+          {
+            "type": "p",
+            "text": "Karar toplantılarında [A/B test sonuçlarını reklam raporunda okumak](/tr/sem/reklam-raporlama) CTR, CPC, CPA ve ROAS farklarını tek bir öğrenim çerçevesinde toplamanızı sağlar."
           },
           {
             "type": "media",
@@ -61414,6 +61880,10 @@
             "text": "Test yapıp sonuçları kullanmayan ekip, sadece zaman harcar. Test kültürü; öğrenimi “standart”a bağladığında değer üretir."
           },
           {
+            "type": "p",
+            "text": "Başlık, teklif ve CTA tarafındaki öğrenimleri [reklam metni testlerinden SEO içgörüsü çıkarmak](/tr/seo/seo-raporlama) için de kullanmak, ücretli ve organik mesaj dilini birbirine yaklaştırır."
+          },
+          {
             "type": "h3",
             "text": "Öğrenimi operasyonlaştırma adımları"
           },
@@ -61460,6 +61930,10 @@
           {
             "type": "p",
             "text": "A/B testin düşmanı; çok değişken, kısa süre ve yanlış KPI’dır. “Tek kampanyada çok fazla değişken” ile test yaparsanız sonuçlar size yalan söyler."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [veriyle kreatif test optimizasyonu](/tr/veri-analiz-ve-raporlama) yaparken örneklem, segment farkı ve test süresi birlikte değerlendirilmelidir."
           },
           {
             "type": "list",
@@ -61552,11 +62026,15 @@
             "text": "A/B test, sosyal medya reklamlarını “tasarım tartışması” olmaktan çıkarıp performans sistemine dönüştürür. Otelde teklif/oda/CTA kararları; B2B’de hook/kanıt/metin varyasyonları, tek değişkenli testlerle güvenilir hale gelir. Kazananı ölçeklemek kadar önemli olan, öğrenimi standartlaştırmaktır: böylece her çeyrek kreatif performansı kademeli iyileşir ve aynı bütçeden daha fazla dönüşüm alınır."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımı [kreatif test optimizasyonu ve sosyal medya reklam yönetimi](/tr/smm/sosyal-medya-reklamlari) çerçevesinde sürdürüp kapsamı [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) üzerinden netleştirebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kreatif & Metin A/B Test Analizi Talep Et",
             "text": "Test planınızı kurup, sonuçları stratejiye aktaran bir öğrenim sistemi oluşturalım.",
-            "href": "/sem/reklam-raporlama"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -61616,7 +62094,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /sem/reklam-raporlama, /seo/seo-raporlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/remarketing-kampanyalari-sicak-kitle-ile-satis-ve-rezervasyon-artirma, /tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak, /tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin, /tr/sem/reklam-raporlama, /tr/seo/seo-raporlama, /tr/veri-analiz-ve-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu öğrenim havuzu ve skor kartı mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -61686,14 +62164,14 @@
       "ctaPrimary": {
         "label": "UGC & Sosyal Kanıt Reklam Kreatif Analizi Talep Et",
         "text": "Mevcut yorum/UGC havuzunuzu tarayıp, izinli ve performans odaklı kreatif setine dönüştürelim.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "UGC & Sosyal Kanıt Reklam Kreatif Analizi Talep Et",
         "text": "UGC/review havuzunuzu güvenli izin süreciyle kreatif sete çevirip performansı artırır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "UGC → Reklam Kreatifi Dönüştürme & İzin Şablonunu İndir",
@@ -61704,29 +62182,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
+        "href": "/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+      },
+      {
+        "label": "Yerel ve GEO Targeting Reklam Rehberi",
+        "href": "/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
+      },
+      {
+        "label": "Multi-Channel Attribution ile SMM Etkisini Ölç",
+        "href": "/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Yerel SEO",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
+        "href": "/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
       },
       {
-        "title": "İçerik Üretimi: Reels, UGC ve Sosyal Kanıt İçerikleri",
-        "href": "/smm/icerik-uretimi"
+        "title": "Yerel ve GEO Targeting Reklam Rehberi",
+        "href": "/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
       },
       {
-        "title": "Yerel SEO: Yorum, Güven ve Yerel Görünürlük Sinyalleri",
-        "href": "/seo/yerel-seo"
+        "title": "Multi-Channel Attribution ile SMM Etkisini Ölç",
+        "href": "/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
       }
     ],
     "sections": [
@@ -61737,6 +62239,10 @@
           {
             "type": "media",
             "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Doğru kurgulanmış bir [UGC reklam kreatifi](/tr/smm/sosyal-medya-reklamlari), [sosyal medya yönetimi](/tr/sosyal-medya-yonetimi) içinde yorum, deneyim ve topluluk güvenini performans odaklı reklama dönüştürür."
           },
           {
             "type": "p",
@@ -61776,6 +62282,10 @@
           {
             "type": "p",
             "text": "UGC ve sosyal kanıtı reklamda kullanmanın en güvenli ve verimli yolu: (1) doğru içeriği seçmek (kanıt + bağlam), (2) izin/KVKK kontrolü yapmak (gerekirse maskeleme), (3) içeriği reklam formatına dönüştürmek (mockup, altyazı, kısa metin), (4) net CTA ile tamamlamak ve (5) A/B test ile ölçeklemektir. Warm kitlede kanıtı öne çıkarın; hot kitlede kanıt + teklif + risk azaltmayı birlikte verin."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [UGC ve sosyal kanıt kreatiflerini test etmek](/tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek), farklı testimonial metni, CTA ve format kombinasyonlarının hangisinin daha iyi çalıştığını görmeyi sağlar."
           }
         ]
       },
@@ -61828,7 +62338,15 @@
           },
           {
             "type": "p",
+            "text": "Özellikle yorum ve testimonial Facebook Instagram reklamı kurgularında ilk görülen şey marka değil, kullanıcının somut deneyimi olduğunda güven eşiği daha hızlı aşılır."
+          },
+          {
+            "type": "p",
             "text": "Otel örneği: İlk kare “Misafir yorumu: ‘Temizlik 10/10, kahvaltı müthiş’” → sonra otel adı/logo küçük. B2B örneği: İlk kare “Müşteri: ‘Lead maliyetimiz 6 haftada düştü’” → sonra hizmet/çözüm."
+          },
+          {
+            "type": "p",
+            "text": "Bu yorum kümeleri çoğu zaman [yerel SEO için review ve sosyal kanıt](/tr/seo/yerel-seo) açısından da değer taşır; çünkü kullanıcı güvenini aynı anda hem reklamda hem yerel görünürlükte besler."
           },
           {
             "type": "callout",
@@ -61860,6 +62378,10 @@
           {
             "type": "p",
             "text": "UGC tek başına “ham” kalabilir. Reklamda çalışması için onu kreatif pakete dönüştürmek gerekir: kısa metin, okunabilir tipografi, doğru kontrast, gerekiyorsa maskeleme."
+          },
+          {
+            "type": "p",
+            "text": "Burada amaç [organik içerikten UGC reklam kreatifi üretmek](/tr/smm/icerik-uretimi) ve kullanıcı deneyimini reklam formatına çevrilmiş, okunabilir bir proof-card yapısına dönüştürmektir."
           },
           {
             "type": "h3",
@@ -61923,6 +62445,10 @@
           {
             "type": "p",
             "text": "UGC’yi “her yerde aynı şekilde” kullanmak verimsiz olur. En iyi sonuç, senaryo bazlı kurgudan gelir."
+          },
+          {
+            "type": "p",
+            "text": "Lokal güven unsurlarını öne çıkarırken [otel sosyal kanıt reklam örnekleri](/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin), yorum ve deneyim mesajını lokasyon niyetiyle eşleştirmek için iyi bir referans sunar."
           },
           {
             "type": "h3",
@@ -61998,6 +62524,14 @@
             "variant": "stat",
             "title": "Key Statistics / Data Point",
             "text": "Pek çok testte, uygun şekilde kullanılan UGC kreatiflerinin klasik stok görsellere göre tıklama ve dönüşüm oranlarını artırabildiği görülür; sonuçlar sektör ve teklif gücüne göre değişir."
+          },
+          {
+            "type": "p",
+            "text": "Bu artışları yalnız son tıklamayla değil, [sosyal medya reklamlarının attribution etkisi](/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi) üzerinden değerlendirmek daha sağlıklı bir toplam performans resmi verir."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [satış dönüşüm etkisi yaratan sosyal kanıt reklamları](/tr/raporlama/satis-donusum), lead, rezervasyon ve WhatsApp gibi sonuç metrikleriyle birlikte okunmalıdır."
           },
           {
             "type": "media",
@@ -62202,6 +62736,10 @@
             "text": "UGC ve sosyal kanıt, kullanıcıların karar vermek için ihtiyaç duyduğu “benzerlerinin deneyimi”ni reklamın içine taşır. Otelde yorumlar ve deneyim videoları; B2B’de testimonial ve case snippet’leri, doğru paketlendiğinde hem CTR’yi hem dönüşümü güçlendirebilir. Başarının anahtarı: doğru seçim + izin/KVKK disiplini + iyi paketleme + test/ölçek."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımı trust-led ads mantığıyla [sosyal kanıt odaklı reklam kreatifleri](/tr/smm/sosyal-medya-reklamlari) olarak kurgulayıp kapsamı [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) üzerinden netleştirebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -62210,7 +62748,7 @@
             "variant": "primary",
             "label": "UGC & Sosyal Kanıt Reklam Kreatif Analizi Talep Et",
             "text": "UGC/review havuzunuzu tarayıp, izinli kreatif seti ve test planını birlikte çıkaralım.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -62270,7 +62808,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /smm/icerik-uretimi, /seo/yerel-seo",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek, /tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin, /tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi, /tr/smm/icerik-uretimi, /tr/seo/yerel-seo, /tr/raporlama/satis-donusum, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu UGC senaryo seti mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -62330,7 +62868,7 @@
     },
     "h1": {
       "title": "Yerel ve GEO Targeting Kampanyaları: Otel ve Lokal İşletmeler İçin Rehber",
-      "intro": "Otel ve lokal işletmelerin en büyük bütçe kaybı, “herkese aynı reklam” yaklaşımıdır. Çünkü bir otelin rezervasyon ihtiyacı, genellikle belirli kaynak pazarlardan (ülke/şehir) gelir; bir restoran, klinik veya mağaza gibi lokal işletmelerin dönüşümü ise yakın çevredeki kullanıcılarla sınırlıdır. Geo-targeting bu yüzden sadece “haritada şehir seçmek” değildir; lokasyonu hedeflerken aynı anda niyeti hedeflersiniz: bu şehirde yaşayan mı, bu şehre seyahat eden mi? Ayrıca kreatif ve dil uyumu (ör. İstanbul’da yaşayan yerliye “hafta sonu kaçamağı”, Bodrum’a seyahat edene “transfer + esnek iptal”) performansı belirgin etkiler.",
+      "intro": "Otel ve lokal işletmelerin en büyük bütçe kaybı, “herkese aynı reklam” yaklaşımıdır. Çünkü bir otelin rezervasyon ihtiyacı, genellikle belirli kaynak pazarlardan (ülke/şehir) gelir; bir restoran, klinik veya mağaza gibi lokal işletmelerin dönüşümü ise yakın çevredeki kullanıcılarla sınırlıdır. Geo-targeting bu yüzden sadece “haritada şehir seçmek” değildir; lokasyonu hedeflerken aynı anda niyeti hedeflersiniz: bu şehirde yaşayan mı, bu şehre seyahat eden mi? Ayrıca kreatif ve dil uyumu (ör. İstanbul’da yaşayan yerliye “hafta sonu kaçamağı”, Bodrum’a seyahat edene “transfer + esnek iptal”) performansı belirgin etkiler. Bu nedenle [geo targeting otel kampanyası](/tr/smm/sosyal-medya-reklamlari) yaklaşımını yalnız panel ayarı değil, stratejik reklam kurgusunun parçası olarak ele almak gerekir.",
       "quickSummary": [
         "1) Kaynak pazar ve varış lokasyonunu ayır",
         "2) Turist ve yerel kitleyi ayrı kampanya setlerinde yönet",
@@ -62341,14 +62879,14 @@
       "ctaPrimary": {
         "label": "Geo-Targeting & Yerel Kampanya Analizi Talep Et",
         "text": "Hangi şehir/ülke/çemberin size en iyi dönüşümü getirdiğini netleştirip kampanya setini kuralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Geo-Targeting & Yerel Kampanya Analizi Talep Et",
         "text": "Lokasyon hedeflemesini turist/yerel ayrımıyla kurgulayıp bütçe israfını azaltır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Yerel & Turist Odaklı Sosyal Medya Reklam Planlama Şablonunu İndir",
@@ -62359,33 +62897,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
+        "href": "/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
+      },
+      {
+        "label": "Multi-Channel Attribution ile SMM Etkisini Ölç",
+        "href": "/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
+      },
+      {
+        "label": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
+        "href": "/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
       },
       {
         "label": "Yerel SEO",
-        "href": "/seo/yerel-seo"
+        "href": "/tr/seo/yerel-seo"
       },
       {
         "label": "Otel SEO",
-        "href": "/otel/seo"
+        "href": "/tr/otel/seo"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
+        "href": "/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
       },
       {
-        "title": "Yerel SEO: Hotel Pack, Harita ve Yakın Çevre Görünürlüğü",
-        "href": "/seo/yerel-seo"
+        "title": "Multi-Channel Attribution ile SMM Etkisini Ölç",
+        "href": "/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
       },
       {
-        "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
-        "href": "/otel/seo"
+        "title": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
+        "href": "/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
       }
     ],
     "sections": [
@@ -62395,11 +62953,15 @@
         "blocks": [
           {
             "type": "media",
-            "slot": "h1-context"
+            "slot": "h1-context-02"
           },
           {
             "type": "p",
             "text": "Geo-targeting, reklamların belirli lokasyonlara (ülke, şehir, bölge, ilçe) veya belirli bir nokta çevresinde (çember) gösterilmesini sağlayan hedefleme yaklaşımıdır. Ama turizm ve lokal işletmelerde asıl kritik kısım, lokasyon hedeflemesini davranış/niyet ile birleştirmektir: “Burada yaşayan” ile “buraya seyahat eden” aynı kişi değildir ve aynı mesajı görmemelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [sosyal medya yönetimi içinde local geo ads](/tr/sosyal-medya-yonetimi) planlamasının hedefleme, içerik ritmi ve dönüşüm hedefleriyle birlikte okunmasını gerektirir."
           },
           {
             "type": "p",
@@ -62451,6 +63013,10 @@
             "text": "Geo hedeflemede dört ana yöntem vardır ve her birinin doğru kullanım senaryosu farklıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle yakın çevre çalışan markalarda [yerel SEO ile lokasyon bazlı reklam hedefleme](/tr/seo/yerel-seo), harita görünürlüğü, yorum sinyalleri ve lokasyon niyetiyle birlikte düşünülmelidir."
+          },
+          {
             "type": "media",
             "slot": "divider-01"
           },
@@ -62469,6 +63035,10 @@
           {
             "type": "p",
             "text": "Özellikle metropol hedeflemelerinde (İstanbul, İzmir) veya turizm bölgelerinde (Antalya, Bodrum) şehir bazlı segmentler; teklif ve sezon mesajını farklılaştırmak için kullanılır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm bölgelerinde bu segmentleri [otel SEO ile destinasyon kampanyası](/tr/otel/seo) mantığıyla okumak, reklam mesajını organik arama niyetiyle hizalamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -62592,6 +63162,10 @@
             "text": "Rakip içeriklerin genelde atladığı bölüm burasıdır: Turist ve yerel aynı lokasyonda olabilir ama niyetleri farklıdır."
           },
           {
+            "type": "p",
+            "text": "Bu ayrım, [otel dijital pazarlamada turist ve yerel kitle ayrımı](/tr/otel-dijital-pazarlama) doğru kurulmadığında aynı bütçenin iki farklı niyete aynı mesajla harcanmasına yol açabilir."
+          },
+          {
             "type": "h3",
             "text": "Turist kitle (varış odaklı)"
           },
@@ -62650,6 +63224,10 @@
             "text": "Geo-targeting’in “performans farkı” kreatifte çıkar. Lokasyon hedeflediniz ama kreatif genel kaldıysa bütçeyi yine boşa harcarsınız."
           },
           {
+            "type": "p",
+            "text": "Özellikle otel, restoran ve yakın çevre odaklı markalarda [sosyal kanıtla lokal reklam kreatifi](/tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak), review ve misafir deneyimini lokasyon mesajıyla birleştirerek güveni hızlandırır."
+          },
+          {
             "type": "h3",
             "text": "Lokasyona göre kreatif uyarlama (pratik)"
           },
@@ -62697,6 +63275,14 @@
           {
             "type": "p",
             "text": "Geo kampanyaların başarısı bazen web dönüşümüyle ölçülemez: özellikle lokal işletmelerde telefon araması, rota açma, mağaza ziyareti gibi offline aksiyonlar kritik olabilir. Bu durumda konum bazlı ölçüm, call tracking ve offline event import gibi yöntemlerin de düşünülmesi gerekir (Varsayım: altyapı ve izin süreçleri uygunsa)."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [geo-targeting kampanyalarının attribution etkisi](/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi), yalnız tıklama değil telefon, rezervasyon ve organik arama desteğiyle birlikte değerlendirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Kitle fazla daraltıldığında [dar lokasyonda frequency capping yönetimi](/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi), aynı kişilere gereğinden sık reklam gösterip creative fatigue ve bütçe israfı üretmemek için kritik hale gelir."
           },
           {
             "type": "media",
@@ -62784,11 +63370,19 @@
             "text": "Geo-targeting, otel ve lokal işletmelerde reklamı gerçekten doğru kişiye göstermek için en hızlı kaldıraçtır. Ülke/şehir/bölge/çember hedeflemesi, turist–yerel ayrımı ve lokasyona göre dil/kreatif/teklif uyarlaması birleştiğinde bütçe israfı azalır, rezervasyon/arama/mağaza ziyareti gibi aksiyonlar artabilir. Kural basit: lokasyonu hedefle, niyeti ayır, mesajı lokasyona göre yaz."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi operasyonel hale getirmek isteyen markalar için [turist ve yerel kitleye ayrı reklam stratejisi](/tr/smm/sosyal-medya-reklamlari), geo-targeting kurgusunu kampanya, kreatif ve hedefleme seviyesinde sistemleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, hedefleme ve süreç detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfası karar aşamasında ek çerçeve sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Geo-Targeting & Yerel Kampanya Analizi Talep Et",
             "text": "Şehir/ülke/çember stratejinizi ve kreatif uyarlamalarınızı birlikte kurgulayalım.",
-            "href": "/seo/yerel-seo"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -62848,7 +63442,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /seo/yerel-seo, /otel/seo, /otel-dijital-pazarlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak, /tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi, /tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi, /tr/seo/yerel-seo, /tr/otel/seo, /tr/otel-dijital-pazarlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu geo kampanya seti mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
