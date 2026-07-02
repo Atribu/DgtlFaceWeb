@@ -63502,7 +63502,7 @@
     },
     "h1": {
       "title": "Multi-Channel Attribution ve Sosyal Medya Reklamlarının Toplam Performansa Etkisi",
-      "intro": "“Sosyal medyadan satış gelmiyor” cümlesini çok sık duyarsınız. Çoğu zaman problem sosyal medyanın işe yaramaması değil, nasıl ölçtüğünüzdür. Çünkü sosyal medya reklamları birçok hesapta ilk temas (awareness) veya asist (consideration) rolü oynar; kullanıcı sosyalde görür, sonra Google’da arar, OTA’da karşılaştırır, en son webden veya OTA’dan satın alır. Bu yolculukta last click raporuna bakarsanız, sosyal medya “0” gibi görünür. Multi-channel attribution yaklaşımı, dokunuşların katkısını birlikte okuyup, sosyal medyanın toplam performanstaki rolünü daha doğru görmenizi sağlar.",
+      "intro": "“Sosyal medyadan satış gelmiyor” cümlesini çok sık duyarsınız. Çoğu zaman problem sosyal medyanın işe yaramaması değil, nasıl ölçtüğünüzdür. Çünkü sosyal medya reklamları birçok hesapta ilk temas (awareness) veya asist (consideration) rolü oynar; kullanıcı sosyalde görür, sonra Google’da arar, OTA’da karşılaştırır, en son webden veya OTA’dan satın alır. Bu yolculukta last click raporuna bakarsanız, sosyal medya “0” gibi görünür. Multi-channel attribution yaklaşımı, dokunuşların katkısını birlikte okuyup, sosyal medyanın toplam performanstaki rolünü daha doğru görmenizi sağlar. Bu yüzden [multi-channel attribution nedir](/tr/smm/sosyal-medya-reklamlari) sorusu, yalnız raporlama değil paid social stratejisinin çekirdek konularından biridir.",
       "quickSummary": [
         "1) Last click’i tek gerçek olarak okuma",
         "2) First click, assist ve last click rollerini ayrı değerlendir",
@@ -63513,14 +63513,14 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Attribution & Kanal Katkı Analizi Talep Et",
         "text": "GA4 ve reklam panellerini aynı modelde okuyup sosyal medyanın gerçek katkısını netleştirelim.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Attribution & Kanal Katkı Analizi Talep Et",
         "text": "Sosyal medyanın first/assist katkısını görünür kılıp bütçe kararlarını dengeler.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Medya + GA4 Multi-Channel Attribution Rapor Şablonunu İndir",
@@ -63531,29 +63531,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Yerel ve GEO Targeting Reklam Rehberi",
+        "href": "/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
+      },
+      {
+        "label": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
+        "href": "/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
+      },
+      {
+        "label": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
+        "href": "/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Yerel ve GEO Targeting Reklam Rehberi",
+        "href": "/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
       },
       {
-        "title": "Satış Dönüşüm Raporlama: Kanal, Funnel ve Gelir Etkisi",
-        "href": "/raporlama/satis-donusum"
+        "title": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
+        "href": "/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
       },
       {
-        "title": "Veri Analiz ve Raporlama: Pazarlama Performansını Doğru Okumak",
-        "href": "/veri-analiz-ve-raporlama"
+        "title": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
+        "href": "/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
       }
     ],
     "sections": [
@@ -63571,11 +63595,19 @@
           },
           {
             "type": "p",
+            "text": "Bu okuma, [sosyal medya yönetimi içinde reklam katkısı](/tr/sosyal-medya-yonetimi) yaklaşımıyla birlikte ele alındığında organik temas, içerik etkileşimi ve marka hatırlanırlığı gibi destekleyici sinyaller daha doğru konumlanır."
+          },
+          {
+            "type": "p",
             "text": "Otel bağlamı: Kullanıcı sosyalde “otel konsepti” görür → Google’da marka arar → OTA’da fiyat karşılaştırır → web/OTA’dan satın alır."
           },
           {
             "type": "p",
             "text": "B2B bağlamı: Kullanıcı sosyalde “problem farkındalığı” içeriği görür → organik içerik okur → remarketing ile tekrar görür → form doldurur."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [veri analiziyle kanal katkısı ölçümü](/tr/veri-analiz-ve-raporlama), first touch, assist ve last touch verilerini tek ekranda karşılaştırarak yorumlamayı gerektirir."
           },
           {
             "type": "callout",
@@ -63621,6 +63653,10 @@
           {
             "type": "p",
             "text": "Last click, dönüşümü son temas eden kanala yazar. Bu, “kapanış” kanallarını (brand search, direct, OTA) güçlü; “başlatan” kanalları (sosyal, display, video) zayıf gösterir. Sonuç: üst huni kanalları gereksiz sanılıp kesilir, pipeline zayıflar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [reklam raporlamasında multi-channel attribution](/tr/sem/reklam-raporlama), last click verisini tamamen reddetmeden; assisted conversions, view-through ve kanal katkısı sinyalleriyle birlikte okumayı mümkün kılar."
           },
           {
             "type": "h3",
@@ -63714,6 +63750,10 @@
             "text": "Birçok ekipte sorun şudur: GA4 “başka” söyler, Meta Ads “başka” söyler, Google Ads “başka” söyler. Bu fark her zaman hata değildir; model, pencere ve ölçüm farklarından kaynaklanır. Kritik olan, kıyas yaparken aynı temel varsayımlarda buluşmaktır."
           },
           {
+            "type": "p",
+            "text": "Aynı zamanda [creative fatigue ve frequency etkisi](/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi), dar kitlelerde CTR düşüşünü ve katkı yorumunu bozabildiği için attribution okumasında ayrı not edilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Tutarlılık kuralı (tek cümle)"
           },
@@ -63734,6 +63774,10 @@
               "Google Ads: search kapanış etkisi + brand/non-brand ayrımı",
               "OTA/Web: kanal payı ve rezervasyon yolu (otel) (Varsayım: veri erişimi)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu karşılaştırmada [lead form ads ve landing page attribution farkı](/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali), platform içi form verisiyle web oturumu ve satış kalitesinin aynı mantıkla okunmaması gerektiğini gösterir."
           },
           {
             "type": "media",
@@ -63785,6 +63829,10 @@
             "text": "Bu yolculukta last click, genellikle “brand search / direct / OTA”ya yazar. Multi-channel bakış, sosyalin “ilk temas” veya “assist” rolünü görünür kılar."
           },
           {
+            "type": "p",
+            "text": "Özellikle [geo-targeting kampanyalarının attribution etkisi](/tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin), telefon araması, direkt trafik ve rezervasyon niyeti gibi destekleyici temasları son tıklamanın ötesinde okumayı gerektirir."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu — uzun satış döngüsü"
           },
@@ -63802,6 +63850,10 @@
           {
             "type": "p",
             "text": "Bu modelde sosyal, çoğu zaman “pipeline başlatan” etkidir; last click’e sıkışırsa değer kaybeder."
+          },
+          {
+            "type": "p",
+            "text": "Bu katkıyı [satış dönüşüm raporlarında assisted conversions](/tr/raporlama/satis-donusum) olarak izlemek, lead, rezervasyon, form ve gelir etkisini tek kapanış metriğine sıkıştırmadan değerlendirmeyi sağlar."
           },
           {
             "type": "table",
@@ -63992,11 +64044,19 @@
             "text": "Sosyal medya reklamları çoğu zaman talep yaratır ve dönüşüme asist eder; bu yüzden last click’e bakarak kanalın değerini sıfırlamak yaygın bir hatadır. Multi-channel attribution yaklaşımı, sosyalin first/assist rolünü görünür kılarak bütçeyi daha dengeli dağıtmanıza yardımcı olur. Otelde sosyal → search → OTA/web yolu; B2B’de sosyal → organik → remarketing → lead yolu, doğru okunduğunda toplam performans daha net anlaşılır."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi kampanya kararlarına taşımak isteyen ekipler için [sosyal medya reklam katkısı nasıl ölçülür](/tr/smm/sosyal-medya-reklamlari) sorusunun cevabı, attribution, kreatif, hedefleme ve raporlama katmanlarını birlikte kurmaktan geçer."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, ölçüm ve süreç detaylarını değerlendirmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfası da karar aşamasında tamamlayıcı bir katman sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sosyal Medya Attribution & Kanal Katkı Analizi Talep Et",
             "text": "GA4 ve reklam panelleriyle sosyal medyanın gerçek katkısını raporlayalım.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -64056,7 +64116,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /raporlama/satis-donusum, /veri-analiz-ve-raporlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin, /tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi, /tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali, /tr/veri-analiz-ve-raporlama, /tr/raporlama/satis-donusum, /tr/sem/reklam-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu attribution modeline göre kanal okuması mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -64116,7 +64176,7 @@
     },
     "h1": {
       "title": "Reklam Yorgunluğu (Creative Fatigue) ve Frequency Capping Stratejisi",
-      "intro": "Performans hesaplarında en pahalı sorunlar genelde “yüksek sesle” gelmez; sessizce büyür. Creative fatigue tam olarak budur: kampanya yayında kalır, harcama akar, ama bir noktadan sonra aynı kitle aynı kreatifi gördükçe dikkat kaybolur, tıklama düşer, dönüşüm pahalanır. Otellerde özellikle remarketing kitleleri daraldığında veya sezon içinde aynı teklif döndüğünde; B2B’de uzun satış döngülerinde aynı mesaj tekrarlandığında daha hızlı görülür. Bu rehber, yorgunluğu tespit edip “kampanyayı yakmadan” yenilemek için frequency capping ve döngüsel kreatif stratejisini adım adım anlatır.",
+      "intro": "Performans hesaplarında en pahalı sorunlar genelde “yüksek sesle” gelmez; sessizce büyür. Creative fatigue tam olarak budur: kampanya yayında kalır, harcama akar, ama bir noktadan sonra aynı kitle aynı kreatifi gördükçe dikkat kaybolur, tıklama düşer, dönüşüm pahalanır. Otellerde özellikle remarketing kitleleri daraldığında veya sezon içinde aynı teklif döndüğünde; B2B’de uzun satış döngülerinde aynı mesaj tekrarlandığında daha hızlı görülür. Bu rehber, yorgunluğu tespit edip “kampanyayı yakmadan” yenilemek için frequency capping ve döngüsel kreatif stratejisini adım adım anlatır. Bu yüzden [reklam yorgunluğu nedir](/tr/smm/sosyal-medya-reklamlari) sorusu, yalnız metrik değil kampanya sürdürülebilirliği açısından da ana optimizasyon başlıklarından biridir.",
       "quickSummary": [
         "1) Yorgunluğu hisle değil CPM/CTR/CVR/CPA trendiyle takip et",
         "2) Frequency’yi kampanya, ad set ve kreatif seviyesinde ayrı incele",
@@ -64127,14 +64187,14 @@
       "ctaPrimary": {
         "label": "Reklam Yorgunluğu & Frequency Analizi Talep Et",
         "text": "Hangi setlerde yorgunluk başladığını çıkarıp, kreatif refresh planını birlikte kuralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reklam Yorgunluğu & Frequency Analizi Talep Et",
         "text": "Fatigue sinyallerini tespit edip frequency ve kreatif rotasyonla CPA’yı stabilize eder.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Reklam Yorgunluğu & Creative Refresh Planlama Şablonunu İndir",
@@ -64145,29 +64205,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Multi-Channel Attribution ile SMM Etkisini Ölç",
+        "href": "/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
+      },
+      {
+        "label": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
+        "href": "/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
+      },
+      {
+        "label": "Reklam Redleri ve Politika Uyum Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
       },
       {
         "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
-        "label": "SMM Analiz Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Sosyal Medya Analiz & Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Multi-Channel Attribution ile SMM Etkisini Ölç",
+        "href": "/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
       },
       {
-        "title": "Reklam Raporlama: KPI, ROAS ve Performans Panosu Nasıl Kurulur?",
-        "href": "/sem/reklam-raporlama"
+        "title": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
+        "href": "/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
       },
       {
-        "title": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
-        "href": "/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+        "title": "Reklam Redleri ve Politika Uyum Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
       }
     ],
     "sections": [
@@ -64182,6 +64266,10 @@
           {
             "type": "p",
             "text": "Reklam yorgunluğu (creative fatigue), aynı hedef kitleye aynı kreatif(ler)i uzun süre ve yüksek sıklıkla gösterdiğinizde kullanıcıların reklamı görmezden gelmeye başlamasıdır. Bu, algoritmanın “yanlış çalışması” değil; insanların tekrar eden mesaja karşı doğal tepkisidir. Performans tarafında bu tepki, metriklere yansır: CPM artar, CTR düşer, CVR düşer ve CPA yükselir."
+          },
+          {
+            "type": "p",
+            "text": "Bu sorun, [sosyal medya yönetimi içinde reklam yorgunluğu](/tr/sosyal-medya-yonetimi) olarak ele alındığında yalnız medya satın alma değil; kreatif üretim ritmi, kullanıcı deneyimi ve kampanya yenileme disipliniyle birlikte değerlendirilir."
           },
           {
             "type": "p",
@@ -64231,6 +64319,10 @@
           {
             "type": "p",
             "text": "Creative fatigue’i tespit ederken tek bir metriğe bakmak risklidir. En sağlıklı yaklaşım, trend kombinasyonu okumaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [reklam raporunda creative fatigue sinyalleri](/tr/sem/reklam-raporlama), CPM, CTR, CPC, CPA ve frequency değişimini aynı zaman aralığında birlikte okumayı gerektirir."
           },
           {
             "type": "media",
@@ -64325,12 +64417,20 @@
             "text": "Frequency, aynı kişinin belirli bir dönemde reklamı kaç kez gördüğünü gösterir. Frequency capping ise bu tekrarın kontrol edilmesidir. Meta tarafında bu her kampanya tipinde aynı şekilde “sert limit” gibi çalışmayabilir; ama hedef, tekrarın “kızartma” seviyesine gelmesini önlemektir (Varsayım: kampanya türüne göre kontrol opsiyonları değişir)."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [SMM analiz raporunda frequency takibi](/tr/smm/analiz-raporlama), tek bir eşik aramak yerine kampanya amacı, kitle büyüklüğü, kreatif sayısı ve dönüşüm maliyeti trendiyle birlikte yapılmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Frequency’yi nerede okumalı?"
           },
           {
             "type": "p",
             "text": "Teknik notun özü: frequency raporları kampanya, reklam seti (ad set) ve kreatif (ad) seviyesinde ayrı ayrı incelenmelidir. Çünkü yorgunluk bazen kampanya genelinde değil, tek bir set veya tek bir kreatifte patlar. Ayrıca Auto-Placement kullanıldığında placement bazlı sonuçları görmek, yorgunluğun “sadece bir placement’ta” oluştuğunu yakalamaya yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [lead form ve landing page kampanyalarında frequency](/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali), platform içi form yorgunluğu ile landing page sürtünmesini aynı metrikle yorumlamamayı gerektirir."
           },
           {
             "type": "callout",
@@ -64361,6 +64461,10 @@
           {
             "type": "p",
             "text": "Kesin evrensel eşikler yoktur; sektör, kitle büyüklüğü ve kreatif çeşitliliğine göre değişir. Ama karar vermeyi kolaylaştıran “başlangıç çerçevesi” gerekir (Varsayım: aşağıdaki aralıklar başlangıç referansıdır)."
+          },
+          {
+            "type": "p",
+            "text": "Bu başlangıç çerçevesini [veriyle creative fatigue doğrulama](/tr/veri-analiz-ve-raporlama) yaklaşımıyla desteklemek, tek bir frequency sayısına gereğinden fazla anlam yüklemeyi önler."
           },
           {
             "type": "h3",
@@ -64423,6 +64527,10 @@
             "text": "Yorgunluğu çözmenin “tek yolu” reklamı kapatmak değildir. Amaç; kampanyayı bozmadan “yenileyerek” aynı stratejiyi devam ettirmektir."
           },
           {
+            "type": "p",
+            "text": "Ayrıca [creative fatigue attribution etkisi](/tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi), düşen etkileşim ve artan frekansın toplam kanal katkısı yorumunu nasıl bozabileceğini anlamak için önemlidir."
+          },
+          {
             "type": "h3",
             "text": "3 seviyeli refresh yaklaşımı"
           },
@@ -64442,6 +64550,10 @@
           {
             "type": "p",
             "text": "Kural: “1 kreatif” ile aylarca gitmek yerine, aynı tema için 6–10 kreatiflik havuz oluşturun:"
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [kreatif refresh sırasında reklam politikaları](/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek), yeni görsel ve mesaj varyasyonlarının reklam reddi ya da politika ihlali üretmemesi için mutlaka kontrol edilmelidir."
           },
           {
             "type": "list",
@@ -64595,6 +64707,14 @@
             "text": "Creative fatigue, özellikle dar kitle ve remarketing’te “sessiz katil”dir: CPM yükselir, CTR ve dönüşüm düşer, CPA artar. Çözüm; frequency’yi kampanya–set–kreatif seviyesinde izlemek, kreatif havuzu kurmak ve refresh takvimini işletmektir. Otel ve B2B’de bu disiplin hem maliyeti düşürür hem de marka algısını korur."
           },
           {
+            "type": "p",
+            "text": "Bu süreci operasyonel hale getirmek isteyen ekipler için [creative fatigue nasıl çözülür ve kreatif refresh nasıl planlanır](/tr/smm/sosyal-medya-reklamlari), performans sinyallerini kampanya aksiyonuna çeviren ana çerçeveyi sunar."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, optimizasyon ve süreç detaylarını görmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfası da karar aşamasında tamamlayıcı olur."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -64603,7 +64723,7 @@
             "variant": "primary",
             "label": "Reklam Yorgunluğu & Frequency Analizi Talep Et",
             "text": "Hangi segmentte hangi kreatifin yorgunlaştığını bulup, refresh planını uygulayalım.",
-            "href": "/sem/reklam-raporlama"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -64664,7 +64784,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /sem/reklam-raporlama, /smm/analiz-raporlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi, /tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali, /tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek, /tr/sem/reklam-raporlama, /tr/smm/analiz-raporlama, /tr/veri-analiz-ve-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo blokları fatigue sinyali ve refresh takvimi mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -64724,7 +64844,7 @@
     },
     "h1": {
       "title": "Lead Form Ads vs Landing Page: Hangisi Ne Zaman Kullanılmalı?",
-      "intro": "Meta Ads’te lead toplamak iki ana yolla yapılır: platform içi lead form (Instant Form) veya kullanıcıyı web sitenizdeki landing page’e göndererek form toplamak. İlk bakışta soru basittir: “Hangisi daha iyi?” Ama gerçek soru şudur: Ne için? Çünkü lead form genelde hacim getirir; landing page ise niyeti filtreleyip kaliteyi yükseltir. Otel ve B2B’de yanlış seçim, iki farklı probleme yol açar: (1) Hacim var ama satış ekibi “çöp lead” der, (2) Lead çok az gelir ve pipeline kuruyabilir. Bu rehber, kararınızı “kanıt + test” temelli vermeniz için bir çerçeve sunar.",
+      "intro": "Meta Ads’te lead toplamak iki ana yolla yapılır: platform içi lead form (Instant Form) veya kullanıcıyı web sitenizdeki landing page’e göndererek form toplamak. İlk bakışta soru basittir: “Hangisi daha iyi?” Ama gerçek soru şudur: Ne için? Çünkü lead form genelde hacim getirir; landing page ise niyeti filtreleyip kaliteyi yükseltir. Otel ve B2B’de yanlış seçim, iki farklı probleme yol açar: (1) Hacim var ama satış ekibi “çöp lead” der, (2) Lead çok az gelir ve pipeline kuruyabilir. Bu rehber, kararınızı “kanıt + test” temelli vermeniz için bir çerçeve sunar. Kararı hizmet perspektifinde değerlendirmek isteyen ekipler için [lead form ads mi landing page mi](/tr/smm/sosyal-medya-reklamlari) sorusu, kampanya hedefi ve satış takibiyle birlikte ele alınmalıdır.",
       "quickSummary": [
         "1) Lead form hızlı hacim sağlar; landing page niyeti daha iyi filtreler",
         "2) Kararı “hangisi daha iyi?” değil “hangi durumda daha uygun?” sorusuyla ver",
@@ -64735,14 +64855,14 @@
       "ctaPrimary": {
         "label": "Lead Form vs Landing Strateji Analizi Talep Et",
         "text": "Kampanyanız için doğru akışı seçip kalite–hacim dengesini test planına bağlayalım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Lead Form vs Landing Strateji Analizi Talep Et",
         "text": "Kampanyanız için kalite–hacim dengesini kurup en doğru akışı seçmenizi sağlar.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Lead Form Ads & Landing A/B Test Planlama Şablonunu İndir",
@@ -64753,29 +64873,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
+        "href": "/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
+      },
+      {
+        "label": "Reklam Redleri ve Politika Uyum Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
+      },
+      {
+        "label": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
       },
       {
         "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Online Satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
+        "href": "/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
       },
       {
-        "title": "Satış Dönüşüm Raporlama: Lead, Funnel ve Gelir Etkisi",
-        "href": "/raporlama/satis-donusum"
+        "title": "Reklam Redleri ve Politika Uyum Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
       },
       {
-        "title": "A/B Test ile Sosyal Medya Reklamlarını Optimize Et",
-        "href": "/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+        "title": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
       }
     ],
     "sections": [
@@ -64793,11 +64937,19 @@
           },
           {
             "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde lead toplama kampanyaları](/tr/sosyal-medya-yonetimi) planlanırken reklam akışı, içerik dili, mesaj takibi ve satış operasyonuyla birlikte değerlendirilmelidir."
+          },
+          {
+            "type": "p",
             "text": "Mini örnek (otel): “Fiyat teklifi al” lead formu → yüksek hacim; ama tarih/bütçe netleşmemiş talepler artabilir."
           },
           {
             "type": "p",
             "text": "Mini örnek (B2B): “Demo iste” lead formu → hacim artar; ama karar verici olmayan başvurular gelebilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı kitleye aynı form reklamı uzun süre gösterildiğinde [lead form kampanyalarında frequency](/tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi) artabilir ve bu durum hem form yorgunluğunu hem de düşük niyetli başvuruları tetikleyebilir."
           },
           {
             "type": "callout",
@@ -64988,6 +65140,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle [otel ve turizm reklamlarında lead form kullanımı](/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi) değerlendirilirken rezervasyon hedefi, teklif talebi ve WhatsApp akışı birlikte düşünülmelidir; B2B lead toplama sosyal medya senaryolarında ise form sorularının karar vericiyi filtrelemesi önem kazanır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Senaryo)",
@@ -65016,6 +65172,10 @@
           {
             "type": "p",
             "text": "Bu kararın kalbi şudur: “Kalite”yi ölçmeden “kalite düştü” demek, “hacim az” demek kadar hatalıdır. Bu yüzden kalite–hacim dengesini bir ölçüm sistemiyle kurmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [satış dönüşüm raporlarında lead kalitesi](/tr/raporlama/satis-donusum) yalnızca form sayısıyla değil, satışa dönüşme oranı, rezervasyon, teklif talebi ve gelir etkisiyle birlikte okunmalıdır."
           },
           {
             "type": "h3",
@@ -65071,6 +65231,10 @@
             "text": "Hibrit modelin mantığı: lead form ile sürtünmeyi azaltıp hacmi toplarken, landing ile niyeti derinleştirmek ve kaliteyi yükseltmek."
           },
           {
+            "type": "p",
+            "text": "Bu akışın verimli çalışması için [lead sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) hızlı dönüş, segmentleme ve takip disipliniyle desteklenmelidir."
+          },
+          {
             "type": "h3",
             "text": "Hibrit akış örnekleri"
           },
@@ -65081,6 +65245,10 @@
               "B2B: Lead form → otomatik e-posta → landing’de case + randevu",
               "Otel: Lead form (tarih/kişi) → WhatsApp/call center → landing’de paket/iptal koşulu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında [landing page ve online satış akışı](/tr/pms-ota/online-satis) rezervasyon motoru, oda detay sayfası ve tekliften satışa uzanan booking journey ile kopmadan bağlanmalıdır."
           },
           {
             "type": "media",
@@ -65116,6 +65284,10 @@
           {
             "type": "p",
             "text": "Lead form kullanan kampanyalarda teknik taraf genellikle atlanır; sonra satış ekibi “kim bu?” der."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [lead form reklam politikaları](/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek) açısından form soruları, vaat dili, kişisel veri kullanımı ve landing page içeriği birlikte kontrol edilmelidir."
           },
           {
             "type": "list",
@@ -65213,11 +65385,15 @@
             "text": "Lead form ve landing arasında “mutlak doğru” yoktur. Lead form size hız ve hacim verir; landing sayfa size niyet ve kalite verir. Otel ve B2B’de en sağlıklı yaklaşım; iki yöntemi segment bazlı test etmek, kaliteyi CRM metrikleriyle ölçmek ve hibrit modelle hem hacmi hem kaliteyi yönetmektir. Kararı “ucuz lead”e değil, “satışa giden lead”e göre verin."
           },
           {
+            "type": "p",
+            "text": "Bu kararı uygulamaya dökmek isteyen ekipler için [lead quality vs volume dengesine göre sosyal medya reklam yönetimi](/tr/smm/sosyal-medya-reklamlari) yaklaşımı en doğru test ve operasyon çerçevesini kurmaya yardımcı olur. Hizmet kapsamını görmek isterseniz [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Lead Form vs Landing Strateji Analizi Talep Et",
             "text": "Akışınızı test planına bağlayıp satış ekibinin “kalite” şikayetini veriye dönüştürelim.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -65277,7 +65453,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /raporlama/satis-donusum, /veri-analiz-ve-raporlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi, /tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek, /tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/mesaj-yonetimi, /tr/pms-ota/online-satis, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu lead form vs landing karar matrisi mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -65337,7 +65513,7 @@
     },
     "h1": {
       "title": "Sosyal Medya Reklam Politikaları ve Reklam Redlerini Çözmek",
-      "intro": "Sosyal medya reklam panellerinde “Rejected / Disapproved” görmek çoğu ekibin hızını keser. Oysa redlerin büyük kısmı; metindeki iddialar, görseldeki hassas unsurlar, hedeflemede yapılan yanlışlar veya landing sayfasındaki uyumsuzluk gibi tekrar eden kalıplardan gelir. Bu yazının amacı, redleri “tek tek şans eseri çözmek” yerine, sınıflandırılmış bir süreç ile çözmektir: nedeni doğru teşhis et → doğru düzeltmeyi yap → yeniden gönder → gerekiyorsa itiraz et → aynı hatayı tekrar etmemek için checklist’i uygula.",
+      "intro": "Sosyal medya reklam panellerinde “Rejected / Disapproved” görmek çoğu ekibin hızını keser. Oysa redlerin büyük kısmı; metindeki iddialar, görseldeki hassas unsurlar, hedeflemede yapılan yanlışlar veya landing sayfasındaki uyumsuzluk gibi tekrar eden kalıplardan gelir. Bu yazının amacı, redleri “tek tek şans eseri çözmek” yerine, sınıflandırılmış bir süreç ile çözmektir: nedeni doğru teşhis et → doğru düzeltmeyi yap → yeniden gönder → gerekiyorsa itiraz et → aynı hatayı tekrar etmemek için checklist’i uygula. Süreci hizmet perspektifinde ele almak isteyen ekipler için [Facebook Instagram reklam reddedildi](/tr/smm/sosyal-medya-reklamlari) sorusu, kreatiften landing page’e kadar bütün kampanya akışıyla birlikte değerlendirilmelidir.",
       "quickSummary": [
         "1) Red gerekçesini panelden oku ve kategoriye ayır",
         "2) Sorunun metin, görsel, targeting, landing veya hesap sağlığı kaynaklı olduğunu belirle",
@@ -65348,14 +65524,14 @@
       "ctaPrimary": {
         "label": "Reklam Red & Politika Uyum Analizi Talep Et",
         "text": "Kampanyaları reddedilmeden yayına çıkaracak kontrol listesini otel/B2B hesabınıza göre uyarlayalım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Reklam Red & Politika Uyum Analizi Talep Et",
         "text": "Otel, sağlık, eğitim ve B2B hesaplarında reddi azaltacak uyum planını çıkarır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Medya Reklam Politikası Checklist & Red Çözüm Şablonunu İndir",
@@ -65366,29 +65542,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
+        "href": "/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
+      },
+      {
+        "label": "Otel Sosyal Medya Reklam Stratejisi ve Funnel",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
+      },
+      {
+        "label": "B2B’de LinkedIn + Meta Ads Funnel Planı",
+        "href": "/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
       },
       {
         "label": "KVKK ve Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Remarketing ve Display",
-        "href": "/sem/remarketing-ve-display"
+        "href": "/tr/sem/remarketing-ve-display"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
+        "href": "/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
       },
       {
-        "title": "UGC ve Sosyal Kanıtla Reklam Kreatifi Üretmek",
-        "href": "/smm/blog/ugc-ve-sosyal-kanit-iceriklerini-reklam-kreatifi-olarak-kullanmak"
+        "title": "Otel Sosyal Medya Reklam Stratejisi ve Funnel",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
       },
       {
-        "title": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
-        "href": "/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
+        "title": "B2B’de LinkedIn + Meta Ads Funnel Planı",
+        "href": "/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
       }
     ],
     "sections": [
@@ -65403,6 +65603,10 @@
           {
             "type": "p",
             "text": "Platformlar farklı arayüzlere ve inceleme sistemlerine sahip olsa da “red” mantığı benzer: kullanıcıyı yanıltan iddia, hassas içerik/hedefleme, telif, kötü kullanıcı deneyimi (landing), güvenlik/hesap sağlığı gibi başlıklar altında denetim yapılır. Meta tarafında reklamların Advertising Standards’a uyması beklenir; uymuyorsa reklam düzenleme/yeniden gönderme veya yeniden inceleme isteme seçenekleri bulunur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde reklam politika kontrolü](/tr/sosyal-medya-yonetimi) yalnızca panel içi onay adımı değil; kreatif üretim, landing page kalitesi, veri kullanımı ve hesap sağlığıyla birlikte düşünülmelidir."
           },
           {
             "type": "p",
@@ -65569,6 +65773,10 @@
               "KVKK/iletişim/güven unsurları görünür mü?",
               "Form “gereksiz veri” istiyor mu?"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle lead toplama akışlarında [lead form reklam reddi nedenleri](/tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali) çoğu zaman form soruları, vaat dili, gizlilik metni ve landing page deneyiminin birlikte kontrol edilmemesinden kaynaklanır."
           }
         ]
       },
@@ -65702,6 +65910,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Sektöre göre riskleri azaltmak için [otel ve turizm reklamlarında politika kontrolü](/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi) ile kampanya dili daha dikkatli çerçevelenmeli; profesyonel kitlelere giden akışlarda ise [B2B reklam platformlarında uyum kontrolü](/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak) platform beklentilerine göre ayrı ele alınmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu sinyaller düzenli raporlanmadığında tekrar eden redler görünmez hale gelir; bu nedenle [reklam redlerini veriyle takip etmek](/tr/veri-analiz-ve-raporlama) hesap sağlığını koruyan temel çalışma disiplinlerinden biridir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Hesap sağlığı)",
@@ -65763,6 +65979,10 @@
               "KVKK ve kişisel veri: UGC/testimonial gibi içeriklerde isim/yüz gibi kişisel veriler maskeleme/izin süreçlerinden geçmeli; özellikle sağlık/eğitim gibi alanlarda daha dikkatli olunmalı.",
               "Bu içerik hukuki danışmanlık değildir: Platform yönergelerine dayalı operasyonel rehberdir; kritik durumlarda resmî politika sayfalarını ve gerektiğinde hukuk danışmanını referans alın."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Customer list, lead form ve özel hedef kitle kullanılan yapılarda [KVKK uyumlu lead form ve remarketing](/tr/raporlama/kvkk-veri-guvenligi) çerçevesi net olmalı; yeniden hedefleme tarafında da [remarketing kampanyalarında politika sınırları](/tr/sem/remarketing-ve-display) ayrıca kontrol edilmelidir."
           }
         ]
       },
@@ -65829,11 +66049,15 @@
             "text": "Reklam reddi çoğu zaman “tamamen engel” değil, “düzeltilebilir bir sinyal”dir. En iyi ekipler; redleri kategorize eder, şablon düzeltme setleri hazırlar, yeniden yayın/itiraz akışını standardize eder ve hesap sağlığını korur. Böylece kampanya hızınız düşmez, ölçekleme daha güvenli ilerler."
           },
           {
+            "type": "p",
+            "text": "Bu süreci uçtan uca kurmak isteyen ekipler için [sosyal medya reklam red nedenleri ve politika uyumu](/tr/smm/sosyal-medya-reklamlari) hizmet yaklaşımı daha kontrollü bir yayın akışı sağlar. Kapsam ve operasyon detaylarını görmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Reklam Red & Politika Uyum Analizi Talep Et",
             "text": "Otel/B2B hesabınız için red risklerini azaltan kreatif ve metin şablonları çıkaralım.",
-            "href": "/sem/remarketing-ve-display"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -65893,7 +66117,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /raporlama/kvkk-veri-guvenligi, /sem/remarketing-ve-display",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali, /tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi, /tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak, /tr/raporlama/kvkk-veri-guvenligi, /tr/sem/remarketing-ve-display, /tr/veri-analiz-ve-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu red sınıflandırma ve müdahale mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -65953,7 +66177,7 @@
     },
     "h1": {
       "title": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
-      "intro": "Otel reklamlarında en sık yapılan hata, tüm yılı tek bir “rezervasyon kampanyası” gibi yönetmektir. Halbuki turizmde talep; sezon, destinasyon, uçuş/ulaşım dinamikleri ve kaynak pazar davranışına göre dalgalanır. Bir de üstüne OTA’lar (fiyat şeffaflığı) ve direkt kanal (marj) dengesi eklenir. Bu yüzden turizm paid social, klasik “brand/performance” ayrımından daha fazlasıdır: doluluk hedefi + gelir hedefi + kanal karması aynı anda yönetilir.",
+      "intro": "Otel reklamlarında en sık yapılan hata, tüm yılı tek bir “rezervasyon kampanyası” gibi yönetmektir. Halbuki turizmde talep; sezon, destinasyon, uçuş/ulaşım dinamikleri ve kaynak pazar davranışına göre dalgalanır. Bir de üstüne OTA’lar (fiyat şeffaflığı) ve direkt kanal (marj) dengesi eklenir. Bu yüzden turizm paid social, klasik “brand/performance” ayrımından daha fazlasıdır: doluluk hedefi + gelir hedefi + kanal karması aynı anda yönetilir. Bu yapıyı hizmet bakışıyla değerlendirmek isteyen markalar için [otel sosyal medya reklam stratejisi](/tr/smm/sosyal-medya-reklamlari) sezon, pazar ve rezervasyon operasyonuyla birlikte ele alınmalıdır.",
       "quickSummary": [
         "1) Yılı erken rezervasyon, yüksek sezon, son dakika ve sezon sonu olarak böl",
         "2) Kaynak pazarları ülke/şehir bazında ayır ve dil/kreatif uyumunu kur",
@@ -65964,14 +66188,14 @@
       "ctaPrimary": {
         "label": "Otel & Turizm Sosyal Medya Reklam Strateji Analizi Talep Et",
         "text": "Sezon, pazar ve kanal dengesine göre kampanya setinizi çıkaralım (kim için: otel ve grup markalar).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel & Turizm Sosyal Medya Reklam Strateji Analizi Talep Et",
         "text": "Sezon, pazar ve OTA/direkt dengesine göre otel reklam planını netleştirir.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Otel İçin Sezon & Pazar Bazlı Sosyal Medya Reklam Planlama Şablonunu İndir",
@@ -65982,33 +66206,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Reklam Redleri ve Politika Uyum Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
+      },
+      {
+        "label": "B2B’de LinkedIn + Meta Ads Funnel Planı",
+        "href": "/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
+      },
+      {
+        "label": "Meta Ads Naming Convention ve Hesap Yapısı",
+        "href": "/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "PMS & OTA Yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
         "label": "Çağrı Merkezi Hizmetleri",
-        "href": "/cagri-merkezi-hizmetleri"
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Reklam Redleri ve Politika Uyum Rehberi",
+        "href": "/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek"
       },
       {
-        "title": "Yerel ve GEO Targeting Reklam Rehberi",
-        "href": "/smm/blog/yerel-ve-geo-targeting-kampanyalari-otel-ve-lokal-isletmeler-icin"
+        "title": "B2B’de LinkedIn + Meta Ads Funnel Planı",
+        "href": "/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
       },
       {
-        "title": "Multi-Channel Attribution ile SMM Etkisini Ölç",
-        "href": "/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
+        "title": "Meta Ads Naming Convention ve Hesap Yapısı",
+        "href": "/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
       }
     ],
     "sections": [
@@ -66062,6 +66306,14 @@
           {
             "type": "p",
             "text": "Otel reklam stratejisi; sezon (erken/son dakika), destinasyon (Antalya/Bodrum vb.), kaynak pazar (ülke/şehir) ve kanal hedefi (OTA vs direkt) birlikte planlanarak kurulmalıdır. Üst hunide deneyim/destinasyon kreatifleriyle talep yaratılır; orta hunide paket/oda kanıtlarıyla ikna edilir; alt hunide direkt rezervasyon + call center + remarketing ile kapatılır. Başarı, pazar bazlı kreatif/dil uyumu ve ölçüm disiplinine bağlıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, [sosyal medya yönetimi içinde otel reklamları](/tr/sosyal-medya-yonetimi) planlanırken organik içerik, destinasyon anlatımı, marka algısı ve rezervasyon hedefleriyle birlikte düşünülmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [otel dijital pazarlamada paid social](/tr/otel-dijital-pazarlama) rolü, sezon planı ve genel talep yaratma stratejisi içinde netleştirildiğinde reklam yatırımı daha kontrollü büyür."
           }
         ]
       },
@@ -66072,6 +66324,10 @@
           {
             "type": "p",
             "text": "Sezon yönetimi, “bütçeyi artır–azalt”tan ibaret değildir; doğru zamanda doğru mesajla doğru kitleyi yakalamaktır. Örneğin erken rezervasyon döneminde talep üretmek için daha geniş kitle ve daha fazla ilham kreatifi gerekir; son dakika döneminde ise niyetli kitle ve hızlı aksiyon daha kritik hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle erken rezervasyon Facebook Instagram kampanyaları ile son dakika setleri aynı mesaj, aynı bütçe ve aynı hız beklentisiyle yönetilmemelidir."
           },
           {
             "type": "h3",
@@ -66121,6 +66377,10 @@
           {
             "type": "p",
             "text": "Turizmde “tek dil, tek kreatif” yaklaşımı bütçe yakar. Kaynak pazarlar farklı motivasyonlarla rezervasyon yapar: İstanbul/İzmir’den gelen yerli kitle için hafta sonu kaçamağı; Almanya/UK gibi pazarlarda daha erken plan ve daha fazla kanıt/detay; bazı pazarlarda aile/çocuk altyapısı kritik olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Leisure odaklı rezervasyon kampanyalarından ayrı olarak toplantı, grup konaklama ve etkinlik tarafında [MICE ve B2B turizm reklam stratejisi](/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak) kurgulamak; kurumsal hedef kitleyi daha doğru mesaj ve platform dağılımıyla yönetmeyi sağlar."
           },
           {
             "type": "h3",
@@ -66219,6 +66479,10 @@
             "text": "OTA’lar keşif ve fiyat şeffaflığında güçlüdür; direkt rezervasyon ise marj ve CRM açısından kritiktir. Sosyal reklam stratejisinin amacı OTA’yı “yok saymak” değil; OTA’dan gelen talebi doğru noktada direkt kanala taşımak veya direkt kanalı güçlendirecek kanıt/deneyim üretmektir."
           },
           {
+            "type": "p",
+            "text": "Burada [PMS ve OTA yönetimiyle reklam dengesi](/tr/pms-ota-yonetimi) kurulmadan reklam performansını tek başına okumak eksik kalır; oda müsaitliği, kanal payı ve online satış akışı birlikte izlenmelidir."
+          },
+          {
             "type": "h3",
             "text": "Dengeli model (pratik)"
           },
@@ -66235,6 +66499,10 @@
           {
             "type": "p",
             "text": "Teknik not (sözleşme/politika): Kampanyalarda OTA markalarını veya fiyat gösterimini kullanırken marka politikaları ve sözleşme koşullarına dikkat edilmeli; remarketing ve fiyat iletişiminde kanal politikaları ihlal edilmemelidir. (Varsayım: sözleşme koşullarınız bu alanı kısıtlayabilir.)"
+          },
+          {
+            "type": "p",
+            "text": "Fiyat, kampanya vaadi, indirim söylemi ve landing page tutarlılığı tarafında [otel reklamlarında politika kontrolü](/tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek) ayrıca yapılmalıdır."
           },
           {
             "type": "callout",
@@ -66399,6 +66667,10 @@
             "text": "Turizmde “kararsız misafir” segmenti büyüktür; özellikle yüksek fiyatlı paketlerde ve aile tatillerinde sorular artar. Call center, bu kararsızlığı kapatan kanaldır. Remarketing ise doğru zamanda doğru mesajla “geri çağırma” yapar."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [çağrı merkeziyle reklam taleplerini karşılama](/tr/cagri-merkezi-hizmetleri) operasyonu; telefon, WhatsApp, DM ve rezervasyon sorularının sıcak kaldığı ilk temas anında devreye girmelidir."
+          },
+          {
             "type": "h3",
             "text": "Entegrasyon mantığı"
           },
@@ -66441,6 +66713,10 @@
           {
             "type": "media",
             "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Sezon, hedef pazar, ülke, destinasyon ve kampanya amacı çoğaldıkça [otel reklam hesap yapısı ve naming convention](/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama) standardı kurmak; raporlamayı ve optimizasyon hızını ciddi biçimde iyileştirir."
           },
           {
             "type": "callout",
@@ -66523,11 +66799,15 @@
             "text": "Turizm paid social, “tek kampanya” değil; sezon, destinasyon, pazar ve kanal dengesini aynı anda yöneten bir sistemdir. Antalya/Belek/Side/Kemer gibi yüksek sezon destinasyonlarında rekabet artarken kanıt ve fark yaratma; Bodrum’da kısa kaçamak; Kapadokya’da deneyim; İstanbul/İzmir gibi kaynak pazarlarda şehir hedefleme ve dil/kreatif uyumu belirleyici olur. Doğru kurgulanmış funnel, pazar bazlı hedefleme ve call center/remarketing entegrasyonu ile sadece doluluğu değil, direkt rezervasyon payını da büyütebilirsiniz."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi uygulamaya taşımak isteyen ekipler için [OTA ve direkt rezervasyon reklam dengesiyle tourism paid social stratejisi](/tr/smm/sosyal-medya-reklamlari) yaklaşımı daha net bir sezon ve kanal planı kurar. Hizmet kapsamı ve süreç detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Otel & Turizm Sosyal Medya Reklam Strateji Analizi Talep Et",
             "text": "Sezon+pazar+kanaI planınızı çıkarıp direkt rezervasyon hedefini büyütelim (kim için: otel ve grup markalar).",
-            "href": "/otel-dijital-pazarlama"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -66588,7 +66868,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /otel-dijital-pazarlama, /pms-ota-yonetimi, /cagri-merkezi-hizmetleri",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/sosyal-medya-reklam-politikalari-ve-reklam-redlerini-cozmek, /tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak, /tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama, /tr/otel-dijital-pazarlama, /tr/pms-ota-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo blokları sezon bütçe dağılımı ve kaynak pazar kırılımı mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -66648,7 +66928,7 @@
     },
     "h1": {
       "title": "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak",
-      "intro": "B2B reklamlarında klasik tartışma şudur: “LinkedIn pahalı ama kaliteli, Meta ucuz ama kalitesiz.” Bu cümle bazen doğru bir gözleme dayanır ama yanlış bir strateji kararına da yol açar: ya sadece LinkedIn’e abanıp hacmi kaybedersiniz, ya da sadece Meta’ya yüklenip karar vericiye ulaşmadan “kolay lead” toplarsınız. Sağlıklı model, iki platformu birbiriyle yarışan kanallar değil; aynı funnel’ın farklı görevlerini yapan iki motor gibi planlamaktır.",
+      "intro": "B2B reklamlarında klasik tartışma şudur: “LinkedIn pahalı ama kaliteli, Meta ucuz ama kalitesiz.” Bu cümle bazen doğru bir gözleme dayanır ama yanlış bir strateji kararına da yol açar: ya sadece LinkedIn’e abanıp hacmi kaybedersiniz, ya da sadece Meta’ya yüklenip karar vericiye ulaşmadan “kolay lead” toplarsınız. Sağlıklı model, iki platformu birbiriyle yarışan kanallar değil; aynı funnel’ın farklı görevlerini yapan iki motor gibi planlamaktır. Bu modeli hizmet bakışıyla kurmak isteyen ekipler için [B2B LinkedIn mi Meta Ads mi](/tr/smm/sosyal-medya-reklamlari) sorusu platform rolü, lead kalitesi ve pipeline takibiyle birlikte ele alınmalıdır.",
       "quickSummary": [
         "1) LinkedIn ve Meta’yı aynı KPI ile yarıştırma",
         "2) LinkedIn’i üst huni + karar verici erişimi için konumlandır",
@@ -66659,14 +66939,14 @@
       "ctaPrimary": {
         "label": "B2B LinkedIn + Meta Ads Strateji Analizi Talep Et",
         "text": "B2B pazarlama ve satış ekipleri için iki platformlu funnel ve bütçe planını netleştirir.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "B2B LinkedIn + Meta Ads Strateji Analizi Talep Et",
         "text": "İki platformu aynı funnel’da konumlandırıp lead kalitesi ve hacmini dengeler (B2B ekipleri için).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "B2B İçin LinkedIn + Meta Funnel & Bütçe Planlama Şablonunu İndir",
@@ -66677,29 +66957,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
+      },
+      {
+        "label": "Kampanya Yapısı ve Naming Convention",
+        "href": "/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
+      },
+      {
+        "label": "Boost mu Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+        "href": "/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
       },
       {
         "label": "Google Ads Yönetimi",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/sem/google-ads-yonetimi"
       },
       {
         "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Otel ve Turizm Markaları İçin Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi"
       },
       {
-        "title": "Lead Form mu Landing mi? Doğru Seçim Rehberi",
-        "href": "/smm/blog/lead-form-ads-vs-landing-page-hangisi-ne-zaman-kullanilmali"
+        "title": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
+        "href": "/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
       },
       {
-        "title": "Multi-Channel Attribution ile SMM Etkisini Ölç",
-        "href": "/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
+        "title": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+        "href": "/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
       }
     ],
     "sections": [
@@ -66718,6 +67022,10 @@
           {
             "type": "p",
             "text": "Meta’nın doğal gücü: ölçek ve maliyet verimliliği. Meta’da kullanıcı iş modunda olmayabilir ama tekrar temas (remarketing) ve içerik tüketimi üzerinden “ısınma” yaratmak, B2B’de özellikle çok etkilidir. Bu yüzden Meta, çoğunlukla orta/alt huni ve “hatırlatma + dönüşüm” için güçlüdür."
+          },
+          {
+            "type": "p",
+            "text": "Bu rol ayrımı, [sosyal medya yönetimi içinde B2B paid social](/tr/sosyal-medya-yonetimi) planı kurulurken içerik, remarketing ve satış operasyonuyla birlikte düşünülmelidir."
           },
           {
             "type": "callout",
@@ -66749,6 +67057,10 @@
           {
             "type": "p",
             "text": "Tek başına “daha iyi” yok; hedefe göre daha uygun var. Karar verici erişimi ve üst huni güven için LinkedIn güçlüdür. Remarketing, maliyet verimliliği ve daha geniş test için Meta güçlüdür. En iyi pratik, LinkedIn ile nitelikli ilgiyi üretip Meta ile bu ilgiyi tekrar temas ve dönüşüm akışına taşımaktır; başarıyı sadece CPL değil, SQL/toplantı/satış üzerinden ölçmektir."
+          },
+          {
+            "type": "p",
+            "text": "B2B lead üretimi ile rezervasyon odaklı yapılarda karar döngüsü farklı çalışır; [B2B ve turizm paid social stratejisi farkları](/tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi) hedef kitle, sezon baskısı ve lead yerine rezervasyon metriğinin nasıl ayrıştığını daha net gösterir."
           }
         ]
       },
@@ -66822,6 +67134,10 @@
               "LinkedIn’de “mesajı” ağırlaştır, Meta’da “sürtünmeyi” azalt.",
               "Lead kalitesini CRM’de ölçmeden karar verme."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Arama niyeti taşıyan kullanıcıları da hesaba katıyorsanız, [B2B paid social ve Google Ads birlikte kullanımı](/tr/sem/google-ads-yonetimi) kapanış ve talep yakalama tarafında önemli bir tamamlayıcı rol üstlenebilir."
           }
         ]
       },
@@ -66840,6 +67156,10 @@
           {
             "type": "h3",
             "text": "Örnek 2 platformlu funnel (LinkedIn üst, Meta orta/alt)"
+          },
+          {
+            "type": "p",
+            "text": "B2B funnel’da LinkedIn üst, Meta alt huni yaklaşımı sık görülen bir senaryodur; ancak bunu kesin kural gibi okumamak gerekir. Hedef kitle, bütçe, kreatif, satış döngüsü ve remarketing verisi değiştikçe iki platformun rolü de yeniden dağıtılabilir."
           },
           {
             "type": "h3",
@@ -66920,6 +67240,10 @@
           {
             "type": "p",
             "text": "İki platform aynı teklifi taşıyabilir ama aynı dilde konuşamaz. “Platform role clarity” burada başlar: LinkedIn’de daha kurumsal ve kanıtlı anlatım; Meta’da daha kısa, daha hızlı, daha sık tekrar temas."
+          },
+          {
+            "type": "p",
+            "text": "Kurucu görüşü, uzman yorumu ve thought leadership içeriklerinde [boost ve dark post ile B2B içerik reklamı](/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak) kararı; hangi içeriğin organik etkileşimden güç alacağını, hangisinin ayrı reklam kreatifi olarak kurgulanacağını netleştirir."
           },
           {
             "type": "h3",
@@ -67053,6 +67377,10 @@
             "text": "B2B’de en yaygın üç format şunlardır: webinar kayıt, demo/teklif talep, içerik indirme. Burada “kalite–hacim” dengesi platforma göre farklı çalışır."
           },
           {
+            "type": "p",
+            "text": "Özellikle demo ve teklif odaklı akışlarda lead form mu landing page mi kararı; hem lead kalitesini hem de satış ekibinin takip verimini doğrudan etkiler."
+          },
+          {
             "type": "h3",
             "text": "Webinar (LinkedIn + Meta)"
           },
@@ -67126,6 +67454,10 @@
             "text": "En büyük hata: LinkedIn paneli “X lead” diyor, Meta paneli “Y lead” diyor, GA4 başka söylüyor — ve ekip bu farkı “kim yalan söylüyor?” diye tartışıyor. Doğru yaklaşım: tek rapor, tek tarih aralığı, tek stage mantığı."
           },
           {
+            "type": "p",
+            "text": "Bu farkları yorumlarken [veriyle LinkedIn ve Meta performans karşılaştırması](/tr/veri-analiz-ve-raporlama), CPL, lead kalitesi, assisted conversions ve platform katkısını daha görünür hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Ortak raporun iskeleti"
           },
@@ -67148,6 +67480,10 @@
             "text": "Platform bazlı KPI setleri raporlanırken, lead sonrası pipeline aşamaları (SQL, toplantı, satış) dikkate alınmalıdır; yoksa “ucuz lead” kazanıp “pahalı satış” kaybedersiniz."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [B2B lead kalitesi ve satış dönüşümü](/tr/raporlama/satis-donusum) CPL kıyasından daha kritik bir karar katmanı haline gelir; aynı anda [LinkedIn ve Meta kampanya yapısı](/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama) standardı kurmak da UTM ve CRM eşleşmesini daha okunur hale getirir."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -67156,7 +67492,7 @@
             "variant": "secondary",
             "label": "B2B İçin LinkedIn + Meta Funnel & Bütçe Planlama Şablonunu İndir",
             "text": "İki platformun rolünü, bütçesini ve KPI setini tek sayfada planlayıp raporu pipeline’a bağlarsınız.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           },
           {
             "type": "callout",
@@ -67293,11 +67629,15 @@
             "text": "LinkedIn, karar verici erişimi ve güven için; Meta ise remarketing ve maliyet verimliliği için güçlüdür. İkisini birlikte planladığınızda hem lead kalitesini hem hacmini aynı anda yönetebilirsiniz. Başarı; platforma göre mesaj/kreatif uyarlaması, KPI’ların ayrıştırılması ve lead sonrası pipeline metriklerinin rapora bağlanmasıyla gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımı uygulamak isteyen ekipler için [B2B LinkedIn ve Facebook reklamlarını birlikte kullanmak](/tr/smm/sosyal-medya-reklamlari), platform rolü ile satış sürecini aynı çerçevede planlamayı kolaylaştırır. Süreç ve kapsam detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "B2B LinkedIn + Meta Ads Strateji Analizi Talep Et",
             "text": "B2B ekipleri için iki platformlu funnel, bütçe ve KPI setini netleştirir; SQL/toplantı odaklı büyüme sağlar.",
-            "href": "/sem/google-ads-yonetimi"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -67357,7 +67697,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /sem/google-ads-yonetimi, /raporlama/satis-donusum",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/otel-ve-turizm-markalari-icin-sosyal-medya-reklam-stratejisi, /tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama, /tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak, /tr/sem/google-ads-yonetimi, /tr/raporlama/satis-donusum, /tr/veri-analiz-ve-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu LinkedIn vs Meta karşılaştırma mantığıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -67417,7 +67757,7 @@
     },
     "h1": {
       "title": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
-      "intro": "Reklam hesabınız büyüdükçe, en büyük maliyet “harcama” değil zaman olur: Hangi kampanya kazandı? Hangi kitle çalıştı? Hangi kreatif yorgun? Hangi pazar kârlı? Eğer isimlendirme ve yapı yoksa, bu sorulara cevap vermek günler sürer ve ekip “hissettiği” yere optimize etmeye başlar. Bu yazı, Meta Ads kampanya yapısı naming convention disiplinini; otel ve B2B hesaplarında ölçeklenebilir bir “ops standardı”na dönüştürmek için hazırlanmıştır.",
+      "intro": "Reklam hesabınız büyüdükçe, en büyük maliyet “harcama” değil zaman olur: Hangi kampanya kazandı? Hangi kitle çalıştı? Hangi kreatif yorgun? Hangi pazar kârlı? Eğer isimlendirme ve yapı yoksa, bu sorulara cevap vermek günler sürer ve ekip “hissettiği” yere optimize etmeye başlar. Bu yazı, Meta Ads kampanya yapısı naming convention disiplinini; otel ve B2B hesaplarında ölçeklenebilir bir “ops standardı”na dönüştürmek için hazırlanmıştır. Bu çerçeveyi hizmet düzeyinde kurmak isteyen ekipler için [Meta Ads kampanya yapısı naming convention](/tr/smm/sosyal-medya-reklamlari) yaklaşımı kampanya okunurluğu, UTM disiplini ve raporlama hızını birlikte ele almalıdır.",
       "quickSummary": [
         "1) Kampanya, ad set ve ad seviyesinde karar alanlarını ayır",
         "2) Naming standardını hedef–pazar–kitle–kreatif bilgisi taşıyacak şekilde kur",
@@ -67428,14 +67768,14 @@
       "ctaPrimary": {
         "label": "Kampanya Yapısı & Naming Convention Analizi Talep Et",
         "text": "Ajanslar, otel grupları ve B2B ekipleri için hesabı okunur hale getirip raporlamayı hızlandırır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kampanya Yapısı & Naming Convention Analizi Talep Et",
         "text": "Hesabınızı okunur hale getirip optimizasyon ve raporlamayı hızlandırır (ajans, otel grupları, B2B ekipleri için).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Kampanya / Ad Set / Ad Naming Convention & UTM Şablonunu İndir",
@@ -67446,29 +67786,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "B2B LinkedIn + Meta Ads Stratejisi",
+        "href": "/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
+      },
+      {
+        "label": "Boost mu Dark Post mu?",
+        "href": "/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
+      },
+      {
+        "label": "Etkinlik ve Webinar Kayıt Kampanyaları",
+        "href": "/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları: Kreatif, Hedefleme ve Funnel Kurgusu",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "B2B Markalar İçin LinkedIn ve Meta Ads Stratejilerini Birlikte Planlamak",
+        "href": "/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak"
       },
       {
-        "title": "Multi-Channel Attribution ile SMM Etkisini Ölç",
-        "href": "/smm/blog/multi-channel-attribution-ve-sosyal-medya-reklamlarinin-toplam-performansa-etkisi"
+        "title": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+        "href": "/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
       },
       {
-        "title": "Reklam Raporlama: KPI, ROAS ve Performans Panosu Nasıl Kurulur?",
-        "href": "/sem/reklam-raporlama"
+        "title": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
+        "href": "/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
       }
     ],
     "sections": [
@@ -67483,6 +67847,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Çünkü iyi bir naming ve yapı; optimizasyonu “tahminden” çıkarır, raporlamayı “elle toplanan tablo” olmaktan kurtarır ve ölçeklemeyi güvenli hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu düzen, [sosyal medya yönetimi içinde reklam hesabı hijyeni](/tr/sosyal-medya-yonetimi) mantığıyla ele alındığında yalnız ekip içi düzen değil; bütçe takibi, öğrenim çıkarma ve ölçekleme kararları için de gerçek bir account hygiene çerçevesi sunar."
           },
           {
             "type": "list",
@@ -67663,6 +68031,14 @@
             "text": "Kampanya adında minimum şu 4 bilgi olmalı: Funnel + Objective + Pazar + Tarih/Batch. Ad set’te kitle türü (core/custom/LAL) ve segment (cold/warm/hot) kodlanır. Ad’de format ve kreatif teması (hook/offer/proof) kodlanır. Bu ayrım; raporda kırılım almayı ve optimizasyonu hızlandırır."
           },
           {
+            "type": "h3",
+            "text": "Facebook reklam isimlendirme örneği"
+          },
+          {
+            "type": "p",
+            "text": "Basit bir Facebook reklam isimlendirme örneği; funnel, objective, pazar ve batch bilgisini tek satırda tutarken, aynı zamanda [reklam raporlamasında kampanya isim standardı](/tr/sem/reklam-raporlama) kurmayı da kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -67722,6 +68098,10 @@
           {
             "type": "p",
             "text": "Predictive keyword doğal kullanım: meta ads kampanya yapısı naming convention kurmak, özellikle ajans ve çok otelli yapılarda “hesap düzenleme” işini ciddi hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Organik içerik reklamlarında [boost ve dark post kampanya ayrımı](/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak) naming standardına erken dahil edilirse, boost edilen gönderiler ile ayrı yaratılan dark post setleri raporda birbirine karışmaz."
           },
           {
             "type": "h3",
@@ -67805,6 +68185,10 @@
             "text": "UTM kuralı: Kampanya isimlerindeki kodlar, UTM’de aynı mantıkla taşınmalı. Aksi halde GA4’te kampanya kırılımları bozulur."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [UTM standardı ve veri analizi](/tr/veri-analiz-ve-raporlama) aynı akışta düşünülmelidir; kaynak, medium, campaign ve content alanları temiz kurulmadığında kampanya karşılaştırmaları hızla yanıltıcı hale gelir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -67818,6 +68202,10 @@
           {
             "type": "p",
             "text": "Teknik not (kritik): UTM şeması ve kampanya isimlerindeki kodlar, GA4/Looker Studio rapor filtrasyon yapısıyla bire bir uyumlu olmalı; yoksa filtreleriniz “yarım çalışır”, kıyaslar yanıltır."
+          },
+          {
+            "type": "p",
+            "text": "Kampanya dönemlerinde landing page görünürlüğü ve organik arama etkisini aynı tabloda görmek istiyorsanız, [SEO raporlarıyla kampanya dönemini birlikte okumak](/tr/seo/seo-raporlama) paid social çıktılarının organik tarafta neyi tetiklediğini anlamayı kolaylaştırır."
           },
           {
             "type": "media",
@@ -67875,6 +68263,10 @@
             "text": "Destinasyon örnekleri (GEO doğal): Antalya/Belek/Side/Kemer ve Bodrum gibi lokasyonlarda pazar bazlı kreatif/dil ayrımı (TR/EN/DE) rapor okumasını ciddi hızlandırır."
           },
           {
+            "type": "p",
+            "text": "Otel için reklam hesabı düzenleme örneğinde sezon, hedef pazar, oda tipi, erken rezervasyon ve remarketing ayrımını isim seviyesinde görmek; aynı hesabın farklı dönemlerde neden farklı sonuç verdiğini daha hızlı açıklamanızı sağlar."
+          },
+          {
             "type": "h3",
             "text": "B2B örneği (persona + offer + funnel)"
           },
@@ -67893,6 +68285,18 @@
           {
             "type": "p",
             "text": "B2B’de “lead sonrası pipeline” kritik olduğu için, naming’de en azından offer (DEMO/WBNR/AUDIT) kodunu sabitlemek işinizi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Çok platformlu yapılarda [LinkedIn ve Meta kampanya isimlendirme standardı](/tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak) kullanmak; funnel aşaması, platform farkı ve lead tipini aynı rapor mantığında okumayı kolaylaştırır."
+          },
+          {
+            "type": "h3",
+            "text": "Etkinlik ve webinar akışında isimlendirme"
+          },
+          {
+            "type": "p",
+            "text": "Kayıt, reminder, no-show, replay ve remarketing katmanlarını ayrı izlemek istiyorsanız [webinar kampanyalarında naming convention](/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari) standardı; etkinlik öncesi ve sonrası bütçe kararlarını daha okunur hale getirir."
           },
           {
             "type": "table",
@@ -68060,11 +68464,15 @@
             "text": "Hesap hijyeni, performansın görünmeyen kaldıraçıdır: doğru kampanya yapısı ve naming convention, optimizasyonu hızlandırır, raporları okunur kılar ve ölçeklemeyi güvenli hale getirir. UTM ve label sistemiyle GA4/Looker okumasını bağladığınızda, “hangi şey işe yarıyor?” sorusu artık tahmin değil, hızlı bir filtredir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel düzeyde kurmak isteyen ekipler için [account hygiene ve Facebook reklam isimlendirme örneğiyle düzenli kampanya yönetimi](/tr/smm/sosyal-medya-reklamlari) hizmet akışını netleştirir. Süreç ve kapsam detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kampanya Yapısı & Naming Convention Analizi Talep Et",
             "text": "Ajans ve otel/B2B ekipleri için naming + UTM standardını kurup raporlamayı hızlandırır.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "media",
@@ -68136,7 +68544,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /raporlama/satis-donusum, /veri-analiz-ve-raporlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/b2b-markalar-icin-linkedin-ve-meta-ads-stratejilerini-birlikte-planlamak, /tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak, /tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari, /tr/sem/reklam-raporlama, /tr/veri-analiz-ve-raporlama, /tr/seo/seo-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu iyi naming vs kaotik yapı karşılaştırmasıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -68196,7 +68604,7 @@
     },
     "h1": {
       "title": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
-      "intro": "Birçok hesap “Gönderiyi Öne Çıkar” butonuyla ilerler: hızlıdır, pratiktir ve anlık sonuç hissi verir. Ama ölçek büyüdükçe aynı ekip şu sorulara takılır: Hangi post gerçekten işe yaradı? Hangi kitle çalıştı? Hangi hedefe hizmet etti? GA4’te neden kampanyalar parçalandı? Bu noktada Boost ile dark post arasındaki fark “buton farkı” değil; kontrol ve öğrenme farkıdır. Boost, hızlı amplifikasyon sağlar; dark post ise creative testing ve hedefleme kontrolüyle büyümeyi daha öngörülebilir hale getirir. En iyi yaklaşım, bu ikisini rakip değil, aynı sistemin iki modu gibi kullanmaktır: organik performans → seçme → boost ile büyütme ve hipotez → dark post ile test → kazanını ölçekleme.",
+      "intro": "Birçok hesap “Gönderiyi Öne Çıkar” butonuyla ilerler: hızlıdır, pratiktir ve anlık sonuç hissi verir. Ama ölçek büyüdükçe aynı ekip şu sorulara takılır: Hangi post gerçekten işe yaradı? Hangi kitle çalıştı? Hangi hedefe hizmet etti? GA4’te neden kampanyalar parçalandı? Bu noktada Boost ile dark post arasındaki fark “buton farkı” değil; kontrol ve öğrenme farkıdır. Boost, hızlı amplifikasyon sağlar; dark post ise creative testing ve hedefleme kontrolüyle büyümeyi daha öngörülebilir hale getirir. En iyi yaklaşım, bu ikisini rakip değil, aynı sistemin iki modu gibi kullanmaktır: organik performans → seçme → boost ile büyütme ve hipotez → dark post ile test → kazanını ölçekleme. Bu ayrımı hizmet düzeyinde kurmak isteyen ekipler için [boost mu Business Manager mı](/tr/smm/sosyal-medya-reklamlari) sorusu hedefleme, ölçüm ve kreatif kontrolüyle birlikte değerlendirilmelidir.",
       "quickSummary": [
         "1) Boost’u hızlı amplifikasyon, dark post’u kontrollü test için konumlandır",
         "2) Organik top performer’ları save/share/yorum/CTR sinyallerine göre seç",
@@ -68207,14 +68615,14 @@
       "ctaPrimary": {
         "label": "Boost vs Dark Post Strateji Analizi Talep Et",
         "text": "Organik top performer’ları reklama taşıyıp, dark post test planıyla bütçeyi daha verimli kullanalım (otel ve B2B ekipleri için).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Boost vs Dark Post Strateji Analizi Talep Et",
         "text": "Organik+reklam kreatif modelini kurup test ve raporlamayı okunur hale getirir (otel ve B2B ekipleri için).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Organik → Reklam Kreatifi & Boost/Dark Post Karar Şablonunu İndir",
@@ -68225,33 +68633,53 @@
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "SMM",
-        "href": "/smm"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Kampanya Yapısı ve Naming Convention",
+        "href": "/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
       },
       {
-        "label": "SMM Analiz Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Etkinlik ve Webinar Kayıt Kampanyaları",
+        "href": "/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Teklif ve Fiyatlandırma Psikolojisi",
+        "href": "/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Kreatif ve Metin A/B Testleri ile Sosyal Medya Reklamlarını Optimize Etmek",
-        "href": "/smm/blog/kreatif-ve-metin-a-b-testleri-ile-sosyal-medya-reklamlarini-optimize-etmek"
+        "title": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlamayı Kolaylaştırmak",
+        "href": "/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
       },
       {
-        "title": "Kampanya Yapısı ve Naming Convention: Hesap Hijyeni ve Raporlama",
-        "href": "/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama"
+        "title": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
+        "href": "/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
       },
       {
-        "title": "Reklam Yorgunluğu ve Frequency Capping Rehberi",
-        "href": "/smm/blog/reklam-yorgunlugu-creative-fatigue-ve-frequency-capping-stratejisi"
+        "title": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
+        "href": "/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
       }
     ],
     "sections": [
@@ -68270,6 +68698,10 @@
           {
             "type": "p",
             "text": "Dark post ise (yayında görünmeyen/sayfada yayınlanmayan reklam kreatifi), Business Manager üzerinden reklam olarak kurgulanan içeriktir. Burada amaç “postu büyütmek” değil; kontrollü test ve performans hedefi ile kitle/mesaj/format kombinasyonlarını yönetmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrım, [sosyal medya yönetimi içinde organik ve reklam içeriği](/tr/sosyal-medya-yonetimi) birlikte planlandığında daha sağlıklı çalışır; boost organik başarıyı büyütürken dark post görünmeyen test ve özel hedefleme için daha kontrollü bir alan açar."
           },
           {
             "type": "p",
@@ -68308,6 +68740,10 @@
           {
             "type": "p",
             "text": "Boost, mevcut organik içeriğin erişimini hızlıca artırır; kısa vadede pratik ama hedefleme/raporlama kontrolü sınırlı olabilir. Dark post, Business Manager’dan oluşturulan reklam kreatifidir; farklı kitle/mesaj/CTA kombinasyonlarını kontrollü test etmeyi ve performans hedeflerini daha net yönetmeyi sağlar. Stratejik model: organikte iyi çalışan içerikleri boost ile büyüt, yeni hipotezleri dark post ile test et."
+          },
+          {
+            "type": "p",
+            "text": "Sık sorulan soru şudur: dark post nedir Facebook? En pratik yanıtla; sayfada organik akışta görünmeden yalnız seçilen hedef kitlelere reklam hesabı üzerinden gösterilen içeriktir. Bu nedenle Business Manager ayrı bir hizmet değil, kontrollü reklam kurgusunun operasyon alanı olarak düşünülmelidir."
           },
           {
             "type": "callout",
@@ -68424,6 +68860,10 @@
             "text": "Organic→paid bridge’in kritik adımı “top performer” seçmektir. Burada yalnız beğeni sayısına değil, niyet sinyallerine bakın."
           },
           {
+            "type": "p",
+            "text": "Bu seçim sürecinde [boost edilecek içeriği analizle seçmek](/tr/smm/analiz-raporlama) erişim, kaydetme, paylaşma, yorum ve tıklama gibi sinyallerin gerçekten reklam yakıtı olup olmadığını ayırt etmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Top performer seçme kriterleri (otel + B2B)"
           },
@@ -68476,6 +68916,10 @@
           {
             "type": "p",
             "text": "Dark post’un gerçek gücü, organikte yayınlamayacağınız “test kreatifleri” üretmenize izin vermesidir. Çünkü organik feed’in estetiği ve marka tonu ile performans kreatifi her zaman bire bir aynı olmaz."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle farklı paket, indirim, fiyat veya CTA varyasyonlarını görünür akışı bozmadan sınamak istiyorsanız [dark post ile teklif mesajı test etmek](/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama) daha güvenli ve ölçülebilir bir yaklaşım sunar."
           },
           {
             "type": "h3",
@@ -68560,6 +69004,10 @@
             "text": "Not: Destinasyon örneği olarak Antalya ve Bodrum’da “kaçamak/son dakika” mesajı; Belek’te “aile konsepti/çocuk kulübü” mesajı ayrı test edilebilir (spam yapmadan)."
           },
           {
+            "type": "p",
+            "text": "Etkinlik ve kayıt akışlarında da benzer mantık geçerlidir; [webinar kayıt kampanyalarında boost ve dark post](/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari) kullanımı duyuru, reminder, replay ve remarketing mesajlarını birbirinden ayırmayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "B2B — case/whitepaper promosyonu"
           },
@@ -68620,6 +69068,10 @@
             "text": "Bu işin ölçeklenebilir hali, 4 adımlı bir döngüdür:"
           },
           {
+            "type": "p",
+            "text": "Bu döngünün ilk şartı, [organik içeriği reklama çevirmek](/tr/smm/icerik-uretimi) için post, Reels, carousel ve story üretimini baştan reklam kreatifine dönüşebilecek bir sistem mantığıyla hazırlamaktır."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -68663,6 +69115,14 @@
           {
             "type": "p",
             "text": "Boost ile açılan kampanyalar pratik olsa da, raporlama standardını bozabilir. Bu yüzden mümkün olduğunca Business Manager yapısıyla entegre çalışmak, naming ve UTM disiplinini korumak önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [dark post kampanya isimlendirme standardı](/tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama) boost edilen içerikler ile dark post setlerini kampanya amacı, hedef kitle ve kreatif varyasyonu bazında ayrı izlenebilir hale getirmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı şekilde [reklam raporunda boost ve dark post ayrımı](/tr/sem/reklam-raporlama) korunmazsa harcama, CTR, CPC ve CPA verileri aynı torbaya düşer; bu da hangi modelin gerçekten daha verimli olduğunu okumayı zorlaştırır."
           },
           {
             "type": "list",
@@ -68820,6 +69280,10 @@
             "text": "Boost ve dark post “hangisi daha iyi?” değil; hangi durumda hangisi doğru? sorusudur. Boost hızlı amplifikasyon ve kısa vadeli erişim için pratik; dark post kontrollü test ve performans için vazgeçilmezdir. En iyi büyüme modeli, organikte iyi çalışan içerikleri boost ile büyütüp, dark post ile kitle/mesaj/CTA kombinasyonlarını test ederek kazananları ölçeklemektir. Bunu yaparken UTM ve raporlama hijyenini korursanız, kreatif geliştirme maliyeti düşer ve kampanya sonuçları daha öngörülebilir hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu kararı operasyonel olarak netleştirmek isteyen ekipler için [boosted vs dark post kararına göre sosyal medya reklam yönetimi](/tr/smm/sosyal-medya-reklamlari) organik başarıyı reklama taşıma ve dark post testlerini aynı çerçevede kurar. Süreç ve kapsam detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -68832,7 +69296,7 @@
             "variant": "primary",
             "label": "Boost vs Dark Post Strateji Analizi Talep Et",
             "text": "Organik+paid kreatif modelini otel ve B2B hesabınıza göre kurgulayıp raporlamayı standartlaştıralım.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
@@ -68892,7 +69356,7 @@
           "Meta description 150–170 karakter hedefiyle kontrol edildi",
           "Schema @graph tek blok planı (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage soruları PAA niyetiyle eşleşiyor",
-          "İç link hedefleri: /smm/sosyal-medya-reklamlari, /smm, /smm/icerik-uretimi, /smm/analiz-raporlama",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/kampanya-yapisi-ve-naming-convention-hesap-hijyeni-ve-raporlama, /tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari, /tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama, /tr/smm/icerik-uretimi, /tr/smm/analiz-raporlama, /tr/sem/reklam-raporlama, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset CTA’sı MoFu yoğunluğa uygun yerleştirildi",
           "Tablo bloğu Boost vs Dark Post farkları karşılaştırmasıyla işlendi",
           "Media slot adları internal mediaPack ile eşleşiyor",
@@ -68953,7 +69417,7 @@
     },
     "h1": {
       "title": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
-      "intro": "Etkinlik ve webinar kampanyaları, klasik “always-on” reklamlardan farklıdır: zamanla yarışır. Sonuç, sadece “kaç kayıt aldım?” değil; “kaç kişi gerçekten katıldı/gelip check-in yaptı?” sorusuyla ölçülür. Bu yüzden hedefleme ve kreatif kadar, zamanlama ve takip (nurturing) de performansı belirler. Otel tarafında konser/gala gibi etkinliklerde lokasyon ve yakın çevre; B2B tarafında webinarlarda persona + remarketing + e-posta koordinasyonu kritik hale gelir. Bu rehber, tek dalga duyuru yerine 4 aşamalı kampanya akışı ile kayıt ve katılımı yükseltmek için pratik bir playbook sunar.",
+      "intro": "Etkinlik ve webinar kampanyaları, klasik “always-on” reklamlardan farklıdır: zamanla yarışır. Sonuç, sadece “kaç kayıt aldım?” değil; “kaç kişi gerçekten katıldı/gelip check-in yaptı?” sorusuyla ölçülür. Bu yüzden hedefleme ve kreatif kadar, zamanlama ve takip (nurturing) de performansı belirler. Otel tarafında konser/gala gibi etkinliklerde lokasyon ve yakın çevre; B2B tarafında webinarlarda persona + remarketing + e-posta koordinasyonu kritik hale gelir. Bu rehber, tek dalga duyuru yerine 4 aşamalı kampanya akışı ile kayıt ve katılımı yükseltmek için pratik bir playbook sunar. Bu yapıyı hizmet düzeyinde kurmak isteyen ekipler için [webinar kayıt Facebook Instagram reklam](/tr/smm/sosyal-medya-reklamlari) planı teaser, launch, reminder ve last call akışıyla birlikte düşünülmelidir.",
       "quickSummary": [
         "1) Etkinlik/webinar kampanyasını tek duyuru değil 4 dalga olarak planla",
         "2) Teaser, launch, reminder ve last call için ayrı mesaj kullan",
@@ -68964,51 +69428,71 @@
       "ctaPrimary": {
         "label": "Etkinlik & Webinar Reklam Strateji Analizi Talep Et",
         "text": "Etkinlik/webinar kayıt kampanyanızı 4 dalga plana çevirip kayıt + katılım KPI’larını birlikte optimize edelim.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Etkinlik & Webinar Reklam Strateji Analizi Talep Et",
         "text": "Kayıt + katılım hedefiyle 4 dalgalı kampanya planını kurup bütçeyi daha verimli yönetmenizi sağlar.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Etkinlik/Webinar Zaman Çizelgesi & Kayıt Kampanyası Planlama Şablonunu İndir",
         "text": "Zamanlama, kitle ve mesajı tek sayfada planlayarak kayıt ve katılım oranlarını yükseltirsiniz.",
-        "href": "/creative/etkinlik-produksiyonu"
+        "href": "/tr/creative/etkinlik-produksiyonu"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal medya reklamları hizmet sayfası",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Etkinlik prodüksiyonu",
-        "href": "/creative/etkinlik-produksiyonu"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Satış ve dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Boost mu, Dark Post mu?",
+        "href": "/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
       },
       {
-        "label": "SMM hizmetleri",
-        "href": "/smm"
+        "label": "Teklif ve Fiyatlandırma Psikolojisi",
+        "href": "/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
       },
       {
-        "label": "Dijital pazarlama stratejisi",
-        "href": "/dijital-pazarlama"
+        "label": "Dinamik Reklamlar ve Katalog Ads",
+        "href": "/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
+      },
+      {
+        "label": "Etkinlik Prodüksiyonu",
+        "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Mesaj Yönetimi",
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları Nedir? Performans Odaklı Kampanya Rehberi",
-        "href": "/smm/blog/sosyal-medya-reklamlari-nedir"
+        "title": "Boost mu, Dark Post mu? Organik ve Reklam İçeriğini Birlikte Planlamak",
+        "href": "/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak"
       },
       {
-        "title": "Lead Generation Kampanyaları Nasıl Kurulur?",
-        "href": "/smm/blog/lead-generation-kampanyalari-nasil-kurulur"
+        "title": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
+        "href": "/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
+      },
+      {
+        "title": "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
+        "href": "/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
       }
     ],
     "sections": [
@@ -69042,6 +69526,10 @@
             "text": "Otel etkinliklerinde hedef bazen “bilet satışı”, bazen “masa rezervasyonu”, bazen de “otelde konaklama + etkinlik paketi” olabilir. B2B webinar’larda ise hedef çoğu zaman yalnızca kayıt değil; demo talebi, toplantı, nitelikli lead veya satış pipeline’ıdır."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde etkinlik reklamları](/tr/sosyal-medya-yonetimi) yalnızca kayıt toplama işi değil; organik duyuru, topluluk iletişimi, reminder akışı ve kayıt sonrası destekle birlikte ele alınması gereken daha geniş bir event ads strategy konusudur."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (Dinamikler)",
@@ -69071,6 +69559,10 @@
           {
             "type": "p",
             "text": "Kayıt kampanyasını 4 dalgada kurgulayın: Teaser (ilgi), Launch (kayıt), Reminder (kararsızları yakala), Last Call (son 24–48 saat FOMO). Her dalgada kitleyi segmentleyin ve mesajı değiştirin. Mevcut takipçi/warm kitle, lookalike/cold kitle ve hot remarketing havuzu aynı kreatifle yönetilmemelidir."
+          },
+          {
+            "type": "p",
+            "text": "Burada [webinar kampanyalarında boost ve dark post](/tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak) ayrımı kritik hale gelir; organik duyuru postlarını boost etmek hızlı erişim yaratırken, reminder ve last call mesajlarını dark post olarak test etmek daha kontrollü sonuç verebilir."
           },
           {
             "type": "h3",
@@ -69397,6 +69889,10 @@
             "text": "Etkinlik kampanyasında mesaj iki şeye dayanır: değer ve zaman. Kullanıcı önce “ne öğreneceğim/yaşayacağım?” sorusuna cevap arar; etkinlik yaklaştıkça “kaçırırsam ne olur?” sorusu daha güçlü hale gelir."
           },
           {
+            "type": "p",
+            "text": "Özellikle [last call ve erken kayıt teklif mesajları](/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama) sınırlı kontenjan, fiyat artışı ve son gün vurgusunun güveni bozmadan nasıl kurulacağını belirler; last call FOMO etkinlik reklamı kurgusu bu yüzden ölçülü ama net olmalıdır."
+          },
+          {
             "type": "h3",
             "text": "VIP ve erken kayıt teklifleri"
           },
@@ -69458,6 +69954,10 @@
             "text": "Etkinlik reklamlarında aynı 4 dalgalı iskelet farklı sektörlerde farklı mesajlarla çalışır. Otel tarafında deneyim, lokasyon, atmosfer ve hızlı iletişim öne çıkarken; B2B webinar tarafında problem, agenda, konuşmacı ve kayıt sonrası follow-up daha belirleyicidir."
           },
           {
+            "type": "p",
+            "text": "Teaser video, konuşmacı duyurusu, sahne görüntüsü ve aftermovie gibi materyaller için [etkinlik prodüksiyonu ile reklam kreatifi](/tr/creative/etkinlik-produksiyonu) baştan planlanırsa, teaser’dan last call kreatifine kadar kampanya dili daha tutarlı ilerler."
+          },
+          {
             "type": "h3",
             "text": "Otel etkinliği (konser/gala) örnek akış"
           },
@@ -69474,6 +69974,10 @@
           {
             "type": "p",
             "text": "Otel özel notu: Konaklama paketi varsa, “etkinlik + oda” paketini ayrı kampanya seti olarak yönetmek daha temizdir. Çünkü bilet alan kullanıcı ile konaklama paketi satın alabilecek kullanıcı aynı karar yolculuğunda olmayabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bir konser etkinlik bilet sosyal medya kampanyası gibi çoklu tarih, oturum veya paket içeren yapılarda [dinamik etkinlik reklamları](/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji) farklı bilet tiplerini ve son dakika seçeneklerini daha ölçeklenebilir biçimde yönetmeyi sağlar."
           },
           {
             "type": "h3",
@@ -69556,6 +70060,10 @@
             "text": "Kayıt kampanyalarının en büyük kaybı, kayıt aldıktan sonra yaşanır. İnsanlar etkinliği unutabilir, takvime eklemeyebilir, linki kaybedebilir veya son anda önceliğini değiştirebilir. Bu yüzden nurturing, ekstra iş değil kampanyanın doğrudan parçasıdır."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [etkinlik sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) DM, WhatsApp ve form üzerinden gelen soru akışını kaçırmadan yönetmeye yardımcı olur; özellikle kayıt bilgisi, bilet detayları ve katılım soruları için operasyon yükünü azaltır."
+          },
+          {
             "type": "h3",
             "text": "Kayıt sonrası temel akış"
           },
@@ -69611,6 +70119,10 @@
             "text": "Etkinlik kampanyalarında “hangi dalga en çok kayıt getirdi?” sorusunu cevaplamak için UTM ve naming disiplini şarttır. Teaser, launch, reminder ve last call dalgalarını ayrı kampanya veya label ile ayırın; GA4 ve CRM tarafında net okuyun."
           },
           {
+            "type": "p",
+            "text": "Bu ölçüm katmanında [kayıt ve bilet dönüşüm raporlaması](/tr/raporlama/satis-donusum) yalnız form submit sayısını değil; katılım, no-show, gelir ve satış etkisini birlikte değerlendirmenizi sağlar."
+          },
+          {
             "type": "h3",
             "text": "UTM ve naming standardı"
           },
@@ -69658,18 +70170,22 @@
             "text": "Farkı yaratan detaylar; segment bazlı kitle yönetimi, sürtünmesi düşük kayıt UX’i, kayıt sonrası nurturing ve CRM/KVKK disiplinidir. Kampanya yalnızca reklam yayına almakla bitmez; kayıt sonrası hatırlatma, katılım ve follow-up süreciyle gerçek iş sonucuna bağlanır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı sahada kurmak isteyen ekipler için [event ads strategy ve last call FOMO etkinlik reklamı kurgusu](/tr/smm/sosyal-medya-reklamlari) teaser’dan kayıt sonrası akışa kadar tüm süreci tek çerçevede toplar. Süreç ve kapsam detayları için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Etkinlik & Webinar Reklam Strateji Analizi Talep Et",
             "text": "4 dalgalı zaman çizelgesi, kitle planı ve nurturing akışını marka hedefinize göre kurgulayalım.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Satış ve Dönüşüm Raporlama Yapısını İncele",
             "text": "Kayıt, katılım, CPL ve pipeline metriklerini tek raporlama düzeninde takip edin.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       }
@@ -69730,7 +70246,8 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek FAQ sorularıyla eşleşiyor",
           "Hero ve tüm media slot dosya adları slug ile uyumlu",
-          "CTA linkleri: /smm/sosyal-medya-reklamlari, /creative/etkinlik-produksiyonu, /raporlama/satis-donusum",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /tr/creative/etkinlik-produksiyonu, /tr/raporlama/satis-donusum",
+          "İç link hedefleri: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/smm/blog/boost-mu-dark-post-mu-organik-ve-reklam-icerigini-birlikte-planlamak, /tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama, /tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji, /tr/creative/etkinlik-produksiyonu, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/mesaj-yonetimi, /tr/smm/sosyal-medya-reklamlari-sss",
           "Download asset href kontrolü: /downloads/etkinlik-webinar-zaman-cizelgesi-kayit-kampanyasi-planlama-sablonu-v1.0.pdf",
           "UTM örnekleri içerikte varsayım olarak işaretlendi",
           "KVKK ve CRM entegrasyonu notları içerikte operasyonel uyarı olarak yer aldı",
@@ -69790,7 +70307,7 @@
     },
     "h1": {
       "title": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
-      "intro": "Birçok kampanya “%X indirim”e sıkışır. Bu kısa vadede tıklama getirebilir; ama uzun vadede iki risk doğurur: marjı yakarsınız ve marka algısı “hep indirim”e döner. Özellikle otellerde sezon ve doluluk dalgalandıkça, her problemi indirimle çözmek sürdürülebilir değildir. B2B’de ise “fiyat kırmak” çoğu zaman kalite algısını zedeler. Bu nedenle teklif kurgusunu bir “kampanya sloganı” değil, psikoloji + marj + kanal uyumu olan bir sistem gibi düşünmek gerekir: ne zaman indirim, ne zaman value-add, ne zaman paket, ne zaman ankraj ve ne kadar FOMO?",
+      "intro": "Birçok kampanya “%X indirim”e sıkışır. Bu kısa vadede tıklama getirebilir; ama uzun vadede iki risk doğurur: marjı yakarsınız ve marka algısı “hep indirim”e döner. Özellikle otellerde sezon ve doluluk dalgalandıkça, her problemi indirimle çözmek sürdürülebilir değildir. B2B’de ise “fiyat kırmak” çoğu zaman kalite algısını zedeler. Bu nedenle teklif kurgusunu bir “kampanya sloganı” değil, psikoloji + marj + kanal uyumu olan bir sistem gibi düşünmek gerekir: ne zaman indirim, ne zaman value-add, ne zaman paket, ne zaman ankraj ve ne kadar FOMO? Bu çerçeveyi daha sistemli kurmak isteyen markalar için [sosyal medya reklamı teklif nasıl yazılır](/tr/smm/sosyal-medya-reklamlari) sorusu ana hizmet yapısı içinde değerlendirilmelidir.",
       "quickSummary": [
         "1) İndirimi tek teklif modeli olarak görme",
         "2) Value-add ve paket teklifleriyle algılanan değeri artır",
@@ -69801,51 +70318,71 @@
       "ctaPrimary": {
         "label": "Teklif & Fiyatlandırma Strateji Analizi Talep Et",
         "text": "Otel veya B2B için teklif kurgunuzu marjı yakmadan güçlendirip dönüşümü artıracak test planı çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Teklif & Fiyatlandırma Strateji Analizi Talep Et",
         "text": "İndirim yerine value-add/paket testleriyle dönüşümü artırırken kârlılığı korumanızı sağlar.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Teklif Türleri & Fiyatlandırma Psikolojisi Planlama Şablonunu İndir",
         "text": "Teklif tiplerini (indirim/value-add/paket/FOMO) tek sayfada planlayıp landing uyumunu garanti altına alırsınız.",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/downloads/teklif-turleri-fiyatlandirma-psikolojisi-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Sosyal medya reklamları hizmet sayfası",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "label": "Sosyal Medya Reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Satış ve dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Etkinlik & Webinar Kayıt Reklamları: Zamanlama Rehberi",
+        "href": "/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
       },
       {
-        "label": "SMM hizmetleri",
-        "href": "/smm"
+        "label": "Dinamik Reklamlar (DPA) ve Katalog Ads Rehberi",
+        "href": "/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
       },
       {
-        "label": "Dijital pazarlama stratejisi",
-        "href": "/dijital-pazarlama"
+        "label": "Meta Advantage+ ile AI Otomasyonlu Kampanya Stratejisi",
+        "href": "/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları Nedir? Performans Odaklı Kampanya Rehberi",
-        "href": "/smm/blog/sosyal-medya-reklamlari-nedir"
+        "title": "Etkinlik & Webinar Kayıt Reklamları: Zamanlama Rehberi",
+        "href": "/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
       },
       {
-        "title": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
-        "href": "/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
+        "title": "Dinamik Reklamlar (DPA) ve Katalog Ads Rehberi",
+        "href": "/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
+      },
+      {
+        "title": "Meta Advantage+ ile AI Otomasyonlu Kampanya Stratejisi",
+        "href": "/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
       }
     ],
     "sections": [
@@ -69864,6 +70401,14 @@
           {
             "type": "p",
             "text": "Value-add yani ekstra değer ise aynı fiyatı daha iyi anlaşılır hâle getirir. Kullanıcı indirim yerine fazladan bir şey aldığını hisseder. Otellerde +1 gece, ücretsiz upgrade, transfer veya spa kredisi; B2B’de onboarding desteği, eğitim seansı, ek rapor veya ek modül value-add örnekleridir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [otel dijital pazarlamada value-add kampanyalar](/tr/otel-dijital-pazarlama), fiyat kırmadan direkt rezervasyon avantajı, spa paketi, kahvaltı dahil veya geç çıkış gibi tekliflerle kârlılığı korumaya yardımcı olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi içinde teklif kurgusu](/tr/sosyal-medya-yonetimi) yalnız reklam cümlesi seçimi değil; kampanya takvimi, marka dili ve güven unsurlarıyla birlikte planlanmalıdır."
           },
           {
             "type": "h3",
@@ -69931,6 +70476,14 @@
           {
             "type": "p",
             "text": "İndirim ve value-add aynı psikolojik bariyere cevap vermez. İndirim, fiyat bariyerini kırar. Value-add ise algılanan değeri büyütür. Bu yüzden test kurgusunda tek değişken teklif tipi olmalı; aynı görsel dili, aynı hedef kitle ve aynı landing koşullarıyla karşılaştırma yapılmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Kararı yalnız tıklamaya göre değil, [satış dönüşüm etkisine göre teklif optimizasyonu](/tr/raporlama/satis-donusum) yaklaşımıyla vermek; hangi mesajın daha fazla lead, rezervasyon veya kârlı satış getirdiğini daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Otomasyon kullanılan hesaplarda [Meta Advantage+ ile teklif testi](/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi) yapılırken indirim, value-add ve paket varyasyonlarını aynı marj çerçevesiyle okumak özellikle önemlidir."
           },
           {
             "type": "callout",
@@ -70019,6 +70572,10 @@
           {
             "type": "p",
             "text": "Bundling, tek tek satmak yerine “paket” ile algılanan değeri artırır. Otelde “konaklama + spa + transfer”; B2B’de “abonelik + eğitim + onboarding” gibi paketler, kullanıcıya sadece fiyat değil toplam fayda üzerinden karar verme alanı açar."
+          },
+          {
+            "type": "p",
+            "text": "Birden fazla oda tipi, hizmet paketi veya ürün varyasyonu sunuyorsanız [dinamik reklamlarda paket teklifleri](/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji) yaklaşımı bu çeşitliliği daha ölçeklenebilir biçimde yönetmenizi sağlar."
           },
           {
             "type": "h3",
@@ -70132,6 +70689,14 @@
             "text": "FOMO karar hızlandırır; fakat “sürekli last call” dili güveni zedeler. Kıtlık mesajı gerçekçi ve ölçülü olmalıdır. Kullanıcı her hafta “son fırsat” görüyorsa, mesajın inandırıcılığı azalır."
           },
           {
+            "type": "p",
+            "text": "Özellikle [last call ve erken kayıt teklif mesajları](/tr/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari), webinar ve etkinlik kayıt kampanyalarında kontrollü kullanıldığında kararı hızlandırabilir; ancak her aşamada aynı aciliyet tonuna çıkmak güveni zayıflatır."
+          },
+          {
+            "type": "p",
+            "text": "Gerçek olmayan stok, kontenjan, süre veya fiyat baskısı kullanılmamalıdır; FOMO ve sınırlı süre fiyatlandırma dili yalnız gerçekten doğrulanabilen koşullar varsa devreye girmelidir."
+          },
+          {
             "type": "h3",
             "text": "Sağlıklı FOMO örnekleri"
           },
@@ -70194,6 +70759,10 @@
           {
             "type": "p",
             "text": "Otel kampanyalarında vergi/harç ve ek ücretler, B2B kampanyalarda ise sözleşme koşulları ve taahhüt süresi açık olmalıdır. Yanıltıcı fiyat gösterimi kısa vadede tıklama getirse bile güven kaybı ve dönüşüm düşüşü yaratabilir."
+          },
+          {
+            "type": "p",
+            "text": "Landing tarafında [SEO içerik diliyle uyumlu reklam teklifi](/tr/seo/icerik-seo) kullanmak; reklamda verilen söz ile kampanya sayfası, blog içeriği ve ilk ekran mesajı arasında tutarlılık kurmanıza yardımcı olur."
           },
           {
             "type": "h3",
@@ -70557,18 +71126,26 @@
             "text": "FOMO ve ankraj, doğru kullanıldığında karar hızlandırır; yanlış kullanıldığında güven eritir. En iyi yaklaşım: teklif tiplerini sistematik A/B test etmek, landing uyumunu QA ile kilitlemek ve KPI’ları marj notuyla birlikte okumaktır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı [offer pricing psychology yaklaşımıyla kârlı sosyal medya reklam teklifleri](/tr/smm/sosyal-medya-reklamlari) çerçevesine dönüştürmek; teklif dilini sadece tıklama için değil, sürdürülebilir dönüşüm ve marka güveni için de yönetmenizi sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasındaysanız kapsam, bütçe ve süreç detaylarını [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasında netleştirebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Teklif & Fiyatlandırma Strateji Analizi Talep Et",
             "text": "Otel/B2B teklif setinizi marjı koruyarak optimize edelim; value-add/paket test planını çıkaralım.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Satış ve Dönüşüm Raporlama Yapısını İncele",
             "text": "CPA, ROAS, CVR ve marj etkisini aynı raporlama düzeninde takip edin.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       }
@@ -70621,7 +71198,7 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek FAQ sorularıyla eşleşiyor",
           "Hero ve tüm media slot dosya adları slug ile uyumlu",
-          "CTA linkleri: /smm/sosyal-medya-reklamlari, /otel-dijital-pazarlama, /raporlama/satis-donusum",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/teklif-turleri-fiyatlandirma-psikolojisi-planlama-sablonu-v1.0.pdf, /tr/raporlama/satis-donusum",
           "Download asset href kontrolü: /downloads/teklif-turleri-fiyatlandirma-psikolojisi-planlama-sablonu-v1.0.pdf",
           "Teklif türleri tablosu tek resmi tablo olarak kullanıldı",
           "Yanıltıcı fiyat, vergi/harç, sözleşme ve FOMO uyum notları içerikte operasyonel uyarı olarak yer aldı",
@@ -70681,7 +71258,7 @@
     },
     "h1": {
       "title": "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
-      "intro": "Dinamik reklamlar, “tek tek kreatif üret” yaklaşımını ölçeklenebilir bir sisteme çevirir: kullanıcı neye baktıysa (oda/ürün/paket), reklam otomatik olarak onu gösterir. E-ticarette bu model yıllardır kullanılıyor; fakat otel odaları (farklı tarih/konsept) ve B2B ürün/hizmet paketleri için de aynı mantıkla çalışır. Özellikle remarketing’te “doğru ürünü doğru kişiye” göstermek, statik reklamlara kıyasla daha yüksek dönüşüm ve daha stabil ROAS getirebilir. Fakat DPA’nın başarısı iki şeye bağlıdır: feed kalitesi ve event sinyali doğruluğu. Bu rehber, otel ve B2B için feed-first DPA modelini uçtan uca anlatır.",
+      "intro": "Dinamik reklamlar, “tek tek kreatif üret” yaklaşımını ölçeklenebilir bir sisteme çevirir: kullanıcı neye baktıysa (oda/ürün/paket), reklam otomatik olarak onu gösterir. E-ticarette bu model yıllardır kullanılıyor; fakat otel odaları (farklı tarih/konsept) ve B2B ürün/hizmet paketleri için de aynı mantıkla çalışır. Özellikle remarketing’te “doğru ürünü doğru kişiye” göstermek, statik reklamlara kıyasla daha yüksek dönüşüm ve daha stabil ROAS getirebilir. Fakat DPA’nın başarısı iki şeye bağlıdır: feed kalitesi ve event sinyali doğruluğu. Bu rehber, otel ve B2B için feed-first DPA modelini uçtan uca anlatır. Bu yapıyı daha geniş paid social çerçevesine oturtmak için [dinamik reklam DPA nedir](/tr/smm/sosyal-medya-reklamlari) sorusunu ana hizmet kurgusu içinde değerlendirmek gerekir.",
       "quickSummary": [
         "1) Dinamik reklamı kampanya değil feed-first altyapı olarak düşün",
         "2) Otelde oda/paket, B2B’de plan/paket öğelerini kataloglaştır",
@@ -70692,51 +71269,71 @@
       "ctaPrimary": {
         "label": "Dinamik Reklam & Feed Strateji Analizi Talep Et",
         "text": "Otel/B2B feed yapınızı ve event sinyallerinizi denetleyip DPA için doğru kurulum planını çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Dinamik Reklam & Feed Strateji Analizi Talep Et",
         "text": "Feed ve event sinyal kalitesini iyileştirip kişiselleştirilmiş remarketing ile ROAS’ı yükseltmenizi sağlar.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Otel/B2B Feed Tasarım & DPA Kurulum Planlama Şablonunu İndir",
         "text": "Feed alanlarını, template mesajını ve QA kontrolünü tek sayfada planlayarak dinamik reklamları güvenle devreye alırsınız.",
-        "href": "/pms-ota-yonetimi"
+        "href": "/downloads/otel-b2b-feed-tasarim-dpa-kurulum-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Sosyal medya reklamları hizmet sayfası",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "label": "Sosyal Medya Reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "PMS & OTA yönetimi",
-        "href": "/pms-ota-yonetimi"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Satış ve dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Teklif ve Fiyatlandırma Psikolojisi",
+        "href": "/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
+      },
+      {
+        "label": "Meta Advantage+ ile AI Otomasyonlu Kampanya Stratejisi",
+        "href": "/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
+      },
+      {
+        "label": "Click-to-WhatsApp Reklam Stratejisi ve DM Funnel",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
+      },
+      {
+        "label": "PMS / OTA Online Satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
       },
       {
-        "label": "SMM hizmetleri",
-        "href": "/smm"
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
-        "href": "/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
+        "title": "Teklif ve Fiyat Psikolojisiyle Reklam Dönüşümü",
+        "href": "/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
       },
       {
-        "title": "Sosyal Medya Reklamları Nedir? Performans Odaklı Kampanya Rehberi",
-        "href": "/smm/blog/sosyal-medya-reklamlari-nedir"
+        "title": "Meta Advantage+ ile AI Otomasyonlu Kampanya Stratejisi",
+        "href": "/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
+      },
+      {
+        "title": "Click-to-WhatsApp Reklam Stratejisi ve DM Funnel",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
       }
     ],
     "sections": [
@@ -70755,6 +71352,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel): Kullanıcı “Deluxe Sea View” oda sayfasına baktıysa, DPA bu oda kartını fotoğraf, başlık ve fiyat bilgisiyle otomatik gösterebilir. Mini örnek (B2B): Kullanıcı “Paket Pro / Plan X” sayfasını incelediyse, DPA ilgili paket kartını otomatik olarak remarketing reklamında kullanabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde catalog ads strategy](/tr/sosyal-medya-yonetimi) yalnız ürünleri otomatik göstermek değil; doğru feed yapısı, doğru mesaj ve doğru ölçümle kişiselleştirilmiş reklam deneyimi kurmak anlamına gelir."
           },
           {
             "type": "callout",
@@ -70792,6 +71393,10 @@
             "text": "Başarı için feed kalitesi ve event sinyali tutarlı olmalıdır. Feed’deki fiyat, müsaitlik, görsel, kategori ve URL bilgileri doğru değilse reklam kişiselleşmiş görünse bile kullanıcı landing’e geldiğinde güven problemi yaşar. Event sinyalinde ViewContent, Lead veya Purchase gibi aksiyonlar item_id ile doğru eşleşmelidir."
           },
           {
+            "type": "p",
+            "text": "Katalog hacmi büyüdükçe [Meta Advantage+ ile katalog otomasyonu](/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi), sinyal kalitesi ve kreatif varyasyonları yeterliyse hangi ürün, paket veya oda kartının daha agresif ölçekleneceğini daha verimli yönetebilir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           }
@@ -70818,6 +71423,10 @@
             "text": "Otel feed’inde “ürün” tek bir oda tipi olabilir; ancak tarih, kişi sayısı, konsept ve müsaitlik gibi değişkenler işin içine girer. Basit modelde oda tipi/paket bazlı katalog kullanılır ve fiyat “başlangıç” veya “from” olarak gösterilebilir. Gelişmiş modelde ise tarih aralığına göre güncellenen fiyat/müsaitlik PMS veya OTA entegrasyonuna bağlı olarak feed’e yansır."
           },
           {
+            "type": "p",
+            "text": "Pratikte otel oda katalog ads kurulumu, [online satış için otel oda feed’i](/tr/pms-ota/online-satis) mantığıyla rezervasyon motoru, oda detay sayfası, müsaitlik ve OTA akışıyla birlikte düşünülmelidir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -70838,6 +71447,10 @@
           {
             "type": "p",
             "text": "B2B’de ürün/hizmet “plan” veya “paket” olarak kataloglanabilir. Basic / Pro / Enterprise gibi planlar, modül bazlı ürünler veya “Audit”, “Setup”, “Retainer” gibi tarifeli hizmet paketleri feed’e dönüştürülebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden B2B ürün feed tabanlı reklam modeli, ayrı bir hizmet sayfası gerektirmeden plan, use-case veya teklif paketi düzeyinde kişiselleştirilmiş remarketing senaryoları üretmek için örnek bir çerçeve sunar."
           },
           {
             "type": "list",
@@ -70952,6 +71565,10 @@
             "text": "B2B’de net fiyat yerine “starting at” veya “teklif al” modeli kullanılıyorsa, feed price alanını doğru yorumlamak gerekir. Yanıltıcı fiyat algısı yaratmamak için landing’de net çerçeve sunulmalı; fiyatın başlangıç mı, paket mi, teklif bazlı mı olduğu açıklanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [katalog ürünlerinde teklif ve fiyat mesajı](/tr/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama) yalnız indirimden ibaret olmamalı; value-add, paket ve sınırlı süre dili feed içindeki varyasyonla tutarlı ilerlemelidir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (B2B)",
@@ -71001,6 +71618,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Sıcak kullanıcılarda [katalog reklamlarından WhatsApp akışı](/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji) kurmak; kullanıcıyı ürün veya oda ilgisinden birebir konuşmaya ve rezervasyon ya da teklif görüşmesine taşıyabilir."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -71034,6 +71655,10 @@
           {
             "type": "p",
             "text": "DPA’da kreatif tamamen otomatik değildir; siz şablon diliyle performansı belirleyebilirsiniz. Template’deki sabit metin, otomatik gelen ürün/oda kartıyla birleşir. Bu nedenle template metni, kartta zaten görünen bilgiyi tekrar etmek yerine “neden şimdi?” sorusuna cevap vermelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [SEO içerik diliyle uyumlu feed başlıkları](/tr/seo/icerik-seo) kullanmak; ürün adı, oda tipi, paket açıklaması ve değer önerisinin reklam kartı ile landing sayfası arasında daha tutarlı görünmesini sağlar."
           },
           {
             "type": "h3",
@@ -71226,6 +71851,10 @@
             "text": "Key data point: Feed tabanlı dinamik reklam kurulan hesaplarda, klasik statik remarketing’e göre daha yüksek geri dönüş oranı ve ROAS raporlandığı görülebilir; sonuç feed kalitesi ve sinyal doğruluğuna bağlıdır."
           },
           {
+            "type": "p",
+            "text": "Bu katkıyı [katalog reklamlarının satış dönüşüm etkisi](/tr/raporlama/satis-donusum) yaklaşımıyla okumak; ROAS, rezervasyon, lead, form ve WhatsApp sonuçlarını aynı rapor mantığında karşılaştırmayı kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım?",
@@ -71283,18 +71912,26 @@
             "text": "Ama sistemin kalbi feed’dir. Fiyat, müsaitlik, kategori ve URL doğruluğu bozulursa hem kullanıcı deneyimi hem performans hem hesap sağlığı risk altına girer. Bu yüzden DPA’yı yalnızca kampanya değil, feed-first bir altyapı projesi gibi yönetin."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı [catalog ads strategy ve feed tabanlı sosyal medya reklamları](/tr/smm/sosyal-medya-reklamlari) çerçevesinde ele almak; kişiselleştirme, otomasyon ve satış akışını tek paid social sistemine bağlamanıza yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, bütçe ve operasyon detaylarını netleştirmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfası karar aşamasında tamamlayıcı bir katman sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Dinamik Reklam & Feed Strateji Analizi Talep Et",
             "text": "Feed kalitenizi, event sinyallerinizi ve template kurgunuzu denetleyip DPA’yı güvenli şekilde ölçekleyelim.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Satış ve Dönüşüm Raporlama Yapısını İncele",
             "text": "DPA performansını ROAS, CVR, CPA ve feed hata oranıyla birlikte raporlayın.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       }
@@ -71347,7 +71984,7 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek FAQ sorularıyla eşleşiyor",
           "Hero ve tüm media slot dosya adları slug ile uyumlu",
-          "CTA linkleri: /smm/sosyal-medya-reklamlari, /pms-ota-yonetimi, /raporlama/satis-donusum, /seo/icerik-seo",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/otel-b2b-feed-tasarim-dpa-kurulum-planlama-sablonu-v1.0.pdf, /tr/raporlama/satis-donusum",
           "Download asset href kontrolü: /downloads/otel-b2b-feed-tasarim-dpa-kurulum-planlama-sablonu-v1.0.pdf",
           "Feed tablosu tek resmi tablo olarak kullanıldı",
           "Event eşleşme notları ViewContent/Lead/Purchase ve item_id tutarlılığıyla içerikte işlendi",
@@ -71408,7 +72045,7 @@
     },
     "h1": {
       "title": "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi",
-      "intro": "Meta Ads ekosistemi daha fazla otomasyon yönünde ilerliyor: hedefleme, placement, bütçe dağılımı ve kreatif kombinasyonları giderek daha fazla AI tarafından optimize ediliyor. Meta Advantage+ da bu yaklaşımın en görünür parçalarından biri: kurulum süresini azaltmayı ve performansı gerçek zamanlı optimize etmeyi hedefleyen bir ürün ailesi. Ama burada kritik bir gerçek var: otomasyon iyi sinyali büyütür, kötü sinyali de büyütebilir. Pixel/CAPI zayıfsa, event hacmi yetersizse veya kreatif havuzunuz dar ise AI yanlış şeyi optimize etmeye başlayabilir. Bu yüzden bu rehberin odağı “Advantage+ açayım mı?” sorusunu tek cümleyle cevaplamak değil; hangi koşulda, hangi rol ile, hangi kontrol noktalarıyla açmanız gerektiğini netleştirmektir.",
+      "intro": "Meta Ads ekosistemi daha fazla otomasyon yönünde ilerliyor: hedefleme, placement, bütçe dağılımı ve kreatif kombinasyonları giderek daha fazla AI tarafından optimize ediliyor. Meta Advantage+ da bu yaklaşımın en görünür parçalarından biri: kurulum süresini azaltmayı ve performansı gerçek zamanlı optimize etmeyi hedefleyen bir ürün ailesi. Ama burada kritik bir gerçek var: otomasyon iyi sinyali büyütür, kötü sinyali de büyütebilir. Pixel/CAPI zayıfsa, event hacmi yetersizse veya kreatif havuzunuz dar ise AI yanlış şeyi optimize etmeye başlayabilir. Bu yüzden bu rehberin odağı “Advantage+ açayım mı?” sorusunu tek cümleyle cevaplamak değil; hangi koşulda, hangi rol ile, hangi kontrol noktalarıyla açmanız gerektiğini netleştirmektir. Bu çerçeveyi daha geniş paid social yapısına bağlamak için [Meta Advantage+ nedir](/tr/smm/sosyal-medya-reklamlari) sorusunu ana hizmet mimarisi içinde değerlendirmek gerekir.",
       "quickSummary": [
         "1) Advantage+’ı mucize değil, AI destekli operasyon modu olarak ele al",
         "2) Önce sinyal altyapısını doğrula: pixel + CAPI + dedupe",
@@ -71419,51 +72056,71 @@
       "ctaPrimary": {
         "label": "Meta Advantage+ & Otomasyon Strateji Analizi Talep Et",
         "text": "Pixel+CAPI, kreatif havuzu ve bütçe sınırlarınıza göre Advantage+’ı test + ölçek motoru olarak kurgulayalım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Meta Advantage+ & Otomasyon Strateji Analizi Talep Et",
         "text": "Sinyal altyapınızı ve kreatif havuzunuzu doğrulayıp Advantage+’ı test+ölçek motoru olarak konumlandırır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Advantage+ Ön Koşul & Test Planlama Şablonunu İndir",
         "text": "Otomasyon devreye almadan önce sinyal, kreatif ve event hacmi kontrolünü yapıp riskleri azaltırsınız.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/advantage-plus-on-kosul-test-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Sosyal medya reklamları hizmet sayfası",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "label": "Sosyal Medya Reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Dönüşüm takibi ve Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "SMM analiz ve raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Dinamik Reklamlar (DPA) ve Katalog Ads Rehberi",
+        "href": "/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
       },
       {
-        "label": "Satış ve dönüşüm raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Click-to-WhatsApp Reklam Stratejisi ve DM Funnel",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
       },
       {
-        "label": "SMM hizmetleri",
-        "href": "/smm"
+        "label": "Social Commerce ve In-App Checkout Rehberi (2026)",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+      },
+      {
+        "label": "Dönüşüm Takibi ve Tag Manager",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "SMM Analiz & Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları Hakkında Sık Sorulan Sorular",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Dinamik Reklamlar ve Katalog Ads: Otel ve B2B Ürünleri İçin Feed Tabanlı Strateji",
-        "href": "/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
+        "title": "Dinamik Reklamlar (DPA) ve Katalog Ads Rehberi",
+        "href": "/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji"
       },
       {
-        "title": "Teklif ve Fiyatlandırma Psikolojisi: Sosyal Medya Reklamlarında Teklif Kurgulama",
-        "href": "/smm/blog/teklif-ve-fiyatlandirma-psikolojisi-sosyal-medya-reklamlarinda-teklif-kurgulama"
+        "title": "Click-to-WhatsApp Reklam Stratejisi ve DM Funnel",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
+      },
+      {
+        "title": "Social Commerce ve In-App Checkout Rehberi (2026)",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
       }
     ],
     "sections": [
@@ -71482,6 +72139,10 @@
           {
             "type": "p",
             "text": "Bu nedenle Advantage+’ı “tek düğme mucize” gibi görmek yanıltıcıdır. AI’nin beslendiği ana kaynaklar sinyal, kreatif ve bütçe disiplinidir. Sinyal doğruysa otomasyon hız ve ölçek sağlayabilir; sinyal dağınıksa yanlış optimizasyonu büyütebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetimi içinde AI destekli reklam otomasyonu](/tr/sosyal-medya-yonetimi), tek tuşla bırakılan bir süreç değil; kreatif üretim, ölçüm altyapısı ve raporlama ritmiyle birlikte yürüyen kontrollü bir automation strategy olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -71532,6 +72193,10 @@
             "text": "Bu yüzden soru “Advantage+ iyi mi kötü mü?” değildir. Doğru soru şudur: Hesapta yeterli event sinyali var mı, kreatif çeşitliliği var mı, bütçe kademeli yönetiliyor mu ve performans yalnızca CPA/ROAS ile değil sağlık KPI’larıyla da takip ediliyor mu?"
           },
           {
+            "type": "p",
+            "text": "Bu noktada [dönüşüm takibiyle otomasyon sinyali](/tr/sem/donusum-takibi-tag-manager), pixel, CAPI, Tag Manager ve ana event’lerin temiz çalışmasıyla AI’nin neyi optimize edeceğini belirleyen kritik katmandır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -71551,6 +72216,10 @@
           {
             "type": "p",
             "text": "Bu kararın özü şudur: AI’ye devredeceğiniz alanlar, öğrenme için yeterli sinyal üretmeli. Aksi halde otomasyon kötü sinyali optimize eder. Otomasyonun güçlü olduğu yerde ölçek ve hız vardır; manuelin güçlü olduğu yerde ise kontrol, niş segment yönetimi ve hassas mesaj yönetimi vardır."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte Advantage+ kampanya ne zaman kullanılır sorusunun cevabı; yeterli event hacmi, güvenilir sinyal kalitesi, geniş kreatif havuzu ve kontrollü bütçe artışı bir araya geldiğinde daha netleşir."
           },
           {
             "type": "h3",
@@ -71631,6 +72300,10 @@
             "text": "E-ticarette katalog ve purchase event’leri ile çalışır; otelde bunu oda/paket mantığına benzetmek mümkündür. Mantık şudur: AI, doğru ürün/oda kombinasyonunu doğru kullanıcıya gösterip satış optimizasyonu yapar."
           },
           {
+            "type": "p",
+            "text": "Bu yapı, [Advantage+ ve katalog reklam otomasyonu](/tr/smm/blog/dinamik-reklamlar-ve-katalog-ads-otel-ve-b2b-urunleri-icin-feed-tabanli-strateji) yaklaşımıyla birleştiğinde ürün, oda veya paket feed’lerinin otomatik keşif ve remarketing kapasitesi daha verimli test edilebilir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -71649,12 +72322,20 @@
             "text": "App kampanyalarında hedefleme opsiyonları daha sınırlı olabilir; bu da sinyal ve kreatifin önemini artırır. Otel zincirlerinin app’i veya B2B SaaS app’i varsa, burada yüksek hacim + doğru event şartı daha da kritik hale gelir."
           },
           {
+            "type": "p",
+            "text": "Ürün keşfi ve platform içi satın alma akışı ağırlıklı setlerde [social commerce reklam otomasyonu](/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi), checkout yolculuğunu uygulama veya sosyal ağ içinde daha akışkan test etmeyi kolaylaştırabilir."
+          },
+          {
             "type": "h3",
             "text": "Advantage+ Leads mantığı"
           },
           {
             "type": "p",
             "text": "Lead odaklı otomasyonda risk şudur: hacim artar ama kalite dalgalanabilir. Bu yüzden B2B’de lead sonrası pipeline ölçümü, yani SQL/toplantı gibi kalite metrikleri zorunludur. Meta tarafındaki lead otomasyonu hacmi büyütebilir; ancak satış kalitesini CRM doğrulamalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Sıcak kullanıcıyı web formunda bırakmak yerine konuşmaya taşımak istiyorsanız, [Click-to-WhatsApp kampanyalarında otomasyon](/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji) modeli hızlı yanıt ve mesajlaşma odaklı dönüşüm akışları için güçlü bir tamamlayıcı olabilir."
           },
           {
             "type": "callout",
@@ -71744,6 +72425,10 @@
             "text": "Otomasyonun riski kontrol kaybıdır; çözümü ise kontrol noktalarıdır. Advantage+ ile çalışırken iki tip KPI birlikte izlenmelidir: performans KPI’ları ve sağlık KPI’ları. Performans KPI’ları CPA, ROAS ve CVR gibi sonuç metrikleridir. Sağlık KPI’ları ise sinyal kalitesi, creative diversity, fatigue/frequency ve lead kalite göstergeleridir."
           },
           {
+            "type": "p",
+            "text": "Bu verileri [SMM analiz raporlarında Advantage+ performansı](/tr/smm/analiz-raporlama) yaklaşımıyla düzenli takip etmek; kreatif sinyali, frekans artışı, öğrenme dönemi ve kalite değişimini haftalık karar akışına taşır."
+          },
+          {
             "type": "table",
             "caption": "Tablo: Advantage+ KPI ve kontrol noktaları tablosu",
             "headers": [
@@ -71788,6 +72473,10 @@
           {
             "type": "p",
             "text": "Key data point: Automation kullanan hesaplarda, sinyal ve kreatif altyapısı güçlü ise CPA/ROAS tarafında anlamlı iyileşmeler raporlanırken; altyapı zayıf hesaplarda tersi sonuçlar görülebiliyor. Sonuçlar sektör, hacim, kreatif kalitesi ve ölçüm olgunluğuna göre değişir."
+          },
+          {
+            "type": "p",
+            "text": "Yönetim ve medya karşılaştırması tarafında [reklam raporlamasında AI destekli kampanyalar](/tr/sem/reklam-raporlama) ayrı işaretlenmeli; bütçe, CPA, ROAS ve öğrenim çıktıları manuel kampanyalarla karışmadan okunmalıdır."
           },
           {
             "type": "media",
@@ -71985,18 +72674,26 @@
             "text": "Bu yüzden otel ve B2B’de en sağlıklı yaklaşım, önce altyapıyı güçlendirip sonra Advantage+’ı kontrollü, KPI ve checklist destekli şekilde devreye almaktır. Manuel kampanyalar tamamen bırakılmamalı; kontrol ve ince ayar katmanı olarak hibrit model içinde korunmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımı [AI destekli Meta reklam otomasyonu ve kontrollü Advantage+ testleri](/tr/smm/sosyal-medya-reklamlari) çerçevesinde kurmak; otomasyonu kör teslimiyet yerine sinyal kalitesi, kreatif havuzu ve bütçe limitiyle yönetilen bir test sistemi hâline getirir."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, bütçe ve operasyon detaylarını değerlendirmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfası karar aşamasında tamamlayıcı bir katman sunar."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Meta Advantage+ & Otomasyon Strateji Analizi Talep Et",
             "text": "Hesabınıza uygun otomasyon–manuel hibrit modelini kurup KPI kontrol noktalarını birlikte tanımlayalım.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Dönüşüm Takibi ve Tag Manager Yapısını İncele",
             "text": "Advantage+ öncesinde pixel, CAPI, event ve dönüşüm takip altyapısını sağlamlaştırın.",
-            "href": "/sem/donusum-takibi-tag-manager"
+            "href": "/tr/sem/donusum-takibi-tag-manager"
           }
         ]
       }
@@ -72053,7 +72750,7 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek FAQ sorularıyla eşleşiyor",
           "Hero ve tüm media slot dosya adları slug ile uyumlu",
-          "CTA linkleri: /smm/sosyal-medya-reklamlari, /sem/donusum-takibi-tag-manager, /smm/analiz-raporlama",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/advantage-plus-on-kosul-test-planlama-sablonu-v1.0.pdf, /tr/sem/donusum-takibi-tag-manager",
           "Download asset href kontrolü: /downloads/advantage-plus-on-kosul-test-planlama-sablonu-v1.0.pdf",
           "Advantage+ KPI ve kontrol noktaları tablosu tek resmi tablo olarak kullanıldı",
           "Pixel+CAPI, dedupe, event hacmi, kreatif havuzu ve learning koruma notları içerikte operasyonel çerçeve olarak işlendi",
@@ -72114,7 +72811,7 @@
     },
     "h1": {
       "title": "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
-      "intro": "Click-to-WhatsApp (ve DM/Messenger) reklamları Türkiye’de çok kullanılıyor; çünkü kullanıcı alışkanlığı net: “Arayayım mı?” yerine “WhatsApp’tan yazayım.” Otelde misafir, tarih–fiyat–konsept sorar; B2B’de karar verici, demo/teklif ister ama önce 2–3 soru sorar. Bu formatın gücü, sürtünmeyi azaltmasıdır. Zayıf yanı ise şudur: reklam iyi çalışsa bile yanıt hızı ve script iyi değilse DM’ler boşa düşer; bütçe yanar ve ekip “WhatsApp lead’leri kalitesiz” der. Bu yazı, mesajlaşmayı bir kanal değil, funnel olarak kurmanızı sağlar: kreatif → mesaj açılışı → soru seti → etiket → teklif/rezervasyon → rapor.",
+      "intro": "Click-to-WhatsApp (ve DM/Messenger) reklamları Türkiye’de çok kullanılıyor; çünkü kullanıcı alışkanlığı net: “Arayayım mı?” yerine “WhatsApp’tan yazayım.” Otelde misafir, tarih–fiyat–konsept sorar; B2B’de karar verici, demo/teklif ister ama önce 2–3 soru sorar. Bu formatın gücü, sürtünmeyi azaltmasıdır. Zayıf yanı ise şudur: reklam iyi çalışsa bile yanıt hızı ve script iyi değilse DM’ler boşa düşer; bütçe yanar ve ekip “WhatsApp lead’leri kalitesiz” der. Bu yazı, mesajlaşmayı bir kanal değil, funnel olarak kurmanızı sağlar: kreatif → mesaj açılışı → soru seti → etiket → teklif/rezervasyon → rapor. Bu çerçeveyi ana hizmet katmanında görmek isterseniz, [Click-to-WhatsApp reklam nedir](/tr/smm/sosyal-medya-reklamlari) sorusunu sosyal medya reklam yönetiminin bütünü içinde değerlendirmek faydalı olur.",
       "quickSummary": [
         "1) WhatsApp/DM reklamlarını iletişim kanalı değil, funnel olarak tasarla",
         "2) Reklam kreatifi, ilk mesaj script’i ve yanıt SLA’sı birlikte çalışmalı",
@@ -72125,51 +72822,71 @@
       "ctaPrimary": {
         "label": "Click-to-WhatsApp & Messaging Ads Strateji Analizi Talep Et",
         "text": "Mesajlaşma reklamlarını DM’den gerçek lead/rezervasyona çeviren script+SLA+CRM planını birlikte çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
     "primary": {
       "label": "Click-to-WhatsApp & Messaging Ads Strateji Analizi Talep Et",
       "text": "Kreatif + script + hızlı yanıt + CRM etiketleme ile DM’leri gerçek lead/rezervasyona çevirir.",
-      "href": "/smm/sosyal-medya-reklamlari"
+      "href": "/tr/smm/sosyal-medya-reklamlari"
     },
     "secondary": {
       "label": "Mesajlaşma Reklam Funnel & Script Planlama Şablonunu İndir",
       "text": "SLA, script ve etiketleme adımlarını tek sayfada planlayarak boşa düşen talepleri azaltırsınız.",
-      "href": "/cagri-merkezi/mesaj-yonetimi"
+      "href": "/downloads/mesajlasma-reklam-funnel-script-planlama-sablonu-v1.0.pdf"
     }
   },
     "internalLinks": [
     {
       "label": "Sosyal medya reklamları hizmet sayfası",
-      "href": "/smm/sosyal-medya-reklamlari"
+      "href": "/tr/smm/sosyal-medya-reklamlari"
+    },
+    {
+      "label": "Sosyal medya yönetimi",
+      "href": "/tr/sosyal-medya-yonetimi"
+    },
+    {
+      "label": "Meta Advantage+ ve otomasyon",
+      "href": "/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
+    },
+    {
+      "label": "Social commerce ve in-app checkout",
+      "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+    },
+    {
+      "label": "Cookieless ve privacy dönüşümü",
+      "href": "/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi"
     },
     {
       "label": "Mesaj yönetimi",
-      "href": "/cagri-merkezi/mesaj-yonetimi"
+      "href": "/tr/cagri-merkezi/mesaj-yonetimi"
     },
     {
       "label": "Satış ve dönüşüm raporlama",
-      "href": "/raporlama/satis-donusum"
+      "href": "/tr/raporlama/satis-donusum"
     },
     {
-      "label": "Dönüşüm takibi ve Tag Manager",
-      "href": "/sem/donusum-takibi-tag-manager"
+      "label": "Veri analiz ve raporlama",
+      "href": "/tr/veri-analiz-ve-raporlama"
     },
     {
-      "label": "Otel dijital pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Sosyal medya reklamları SSS",
+      "href": "/tr/smm/sosyal-medya-reklamlari-sss"
     }
   ],
     "relatedPosts": [
       {
         "title": "Meta Advantage+ ve Otomasyon: AI Destekli Kampanya Stratejisi",
-        "href": "/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
+        "href": "/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi"
       },
       {
-        "title": "Etkinlik ve Webinar Kayıt Kampanyaları İçin Sosyal Medya Reklamları",
-        "href": "/smm/blog/etkinlik-ve-webinar-kayit-kampanyalari-icin-sosyal-medya-reklamlari"
+        "title": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+      },
+      {
+        "title": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi"
       }
     ],
     "sections": [
@@ -72184,6 +72901,10 @@
           {
             "type": "p",
             "text": "Messaging ads, kullanıcıyı web’e göndermek yerine bir mesajlaşma kanalına yönlendiren reklamlardır. Click-to-WhatsApp en yaygın örnektir; benzer mantık Instagram DM ve Messenger için de geçerlidir. Bu formatın psikolojisi basittir: kullanıcı “form doldurma” yerine “soru sorma” rahatlığını seçer."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli [sosyal medya yönetimi içinde messaging ads funnel](/tr/sosyal-medya-yonetimi) olarak düşünmek gerekir; çünkü reklam metni, topluluk yönetimi, yanıt akışı ve satış takibi aynı operasyonun parçalarıdır."
           },
           {
             "type": "h3",
@@ -72373,6 +73094,10 @@
             "text": "Bu kanalın kaderi SLA’dır. Birçok hesapta şu gerçek görülür: yanıt geciktikçe dönüşüm düşer. Saha gözlemlerinde, yanıt süresi 5–10 dakikanın altına indiğinde dönüşüm oranlarında anlamlı artış raporlanabiliyor; sonuçlar sektör, ekip kapasitesi ve teklif gücüne göre değişir. Bu yüzden hedef “mesaj gelsin” değil, “mesajı hızlı yönetelim” olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Operasyon tarafında [reklamdan gelen WhatsApp konuşmalarını yönetmek](/tr/cagri-merkezi/mesaj-yonetimi) için script, sahiplik, vardiya ve SLA kuralları net değilse iyi kampanyalar bile kısa sürede verimsizleşir."
+          },
+          {
             "type": "h3",
             "text": "Otel için örnek script"
           },
@@ -72507,6 +73232,10 @@
             "text": "Click-to-WhatsApp ve DM reklamlarında senaryo, kullanıcının niyet seviyesine göre değişmelidir. Cold kullanıcıya destinasyon/deneyim anlatılırken, hot kullanıcıya hızlı link, teklif veya meeting yönlendirmesi yapılmalıdır."
           },
           {
+            "type": "p",
+            "text": "Warm ve hot kitlelerde [Meta otomasyonla messaging ads testleri](/tr/smm/blog/meta-advantage-plus-ve-otomasyon-ai-destekli-kampanya-stratejisi) yapmak; farklı kreatif, açılış mesajı ve hedefleme kombinasyonlarının konuşma kalitesine etkisini daha kontrollü biçimde görmeyi sağlar."
+          },
+          {
             "type": "h3",
             "text": "Otel (destinasyon + hızlı kapanış)"
           },
@@ -72581,6 +73310,10 @@
                 "Kayıp sebebi etiketle"
               ]
             ]
+          },
+          {
+            "type": "p",
+            "text": "Her ürün veya hizmeti mutlaka konuşmayla kapatmak gerekmez; [social commerce ve mesajlaşma akışı](/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi) karşılaştırması, düşük sürtünmeli satın alma ile danışmanlık gerektiren konuşma bazlı satışın hangi senaryolarda ayrıştığını netleştirir."
           }
         ]
       },
@@ -72643,6 +73376,10 @@
           {
             "type": "p",
             "text": "Mesajlaşma reklamlarında kullanıcı doğrudan işletmeyle konuşur; bu nedenle KVKK, izin ve kayıt politikaları net olmalıdır. Bu içerik hukuki danışmanlık değildir; ancak operasyonel açıdan mesaj verisinin nasıl saklandığı, kimin eriştiği, CRM’e nasıl aktarıldığı ve kullanıcının hangi amaçla bilgilendirildiği açık olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "[Cookieless dönemde mesajlaşma reklamları](/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi) daha da değerli hale gelebilir; çünkü first-party konuşma sinyalleri, form doldurmadan gelen niyet bilgisini görünür kılar ve privacy kısıtları arttığında operasyonel bir avantaj yaratır."
           },
           {
             "type": "list",
@@ -72716,6 +73453,14 @@
             "text": "Click-to-WhatsApp kampanyalarında yalnızca mesaj sayısını ölçmek yanıltıcıdır. Çok mesaj almak iyi görünebilir; ancak yanıt gecikiyor, lead niteliği düşük kalıyor veya follow-up yapılmıyorsa gerçek dönüşüm gelmez. Bu yüzden KPI seti conversation-to-conversion mantığıyla kurulmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [mesajlaşma reklamlarının satış dönüşüm etkisi](/tr/raporlama/satis-donusum) yalnızca açılan sohbet sayısıyla değil; teklif, rezervasyon, toplantı ve kazanılan gelir adımlarıyla birlikte okunmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Kampanya kalitesini daha net görmek için [messaging ads funnel verisi](/tr/veri-analiz-ve-raporlama) içinde mesaj başlatma, ilk yanıt süresi, nitelikli konuşma oranı ve kayıp sebebi kırılımlarını birlikte izlemek gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -72757,18 +73502,26 @@
             "text": "Otel tarafında WhatsApp, call center’ın yazılı uzantısı gibi çalışmalıdır. B2B tarafında ise DM, mini qualification ve meeting köprüsü olarak tasarlanmalıdır. En iyi sonuç, kreatif + script + SLA + CRM düzeni birlikte kurulduğunda gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kalıcı bir sisteme çevirmek istiyorsanız, [WhatsApp odaklı reklam stratejisi ve konuşma odaklı dönüşüm yönetimi](/tr/smm/sosyal-medya-reklamlari) yaklaşımını kampanya kurulumundan satış takibine kadar birlikte planlamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasında bütçe, hedefleme, konuşma akışı ve operasyon detaylarını görmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Click-to-WhatsApp & Messaging Ads Strateji Analizi Talep Et",
             "text": "Mesajlaşma kampanyalarınızı script, SLA ve CRM etiketleme düzeniyle gerçek lead/rezervasyon kanalına çevirelim.",
-            "href": "/smm/sosyal-medya-reklamlari"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Satış ve Dönüşüm Raporlama Yapısını İncele",
             "text": "DM’den rezervasyon veya lead’e giden akışı raporlamak için dönüşüm ölçüm yapısını güçlendirin.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/tr/raporlama/satis-donusum"
           }
         ]
       }
@@ -72825,8 +73578,8 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek FAQ sorularıyla eşleşiyor",
           "Hero ve tüm media slot dosya adları slug ile uyumlu",
-          "CTA linkleri: /smm/sosyal-medya-reklamlari, /raporlama/satis-donusum, /sem/donusum-takibi-tag-manager",
-          "Download asset href kontrolü: /downloads/whatsapp-dm-script-sla-planlama-sablonu-v1.0.pdf",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/mesajlasma-reklam-funnel-script-planlama-sablonu-v1.0.pdf, /tr/raporlama/satis-donusum",
+          "Download asset href kontrolü: /downloads/mesajlasma-reklam-funnel-script-planlama-sablonu-v1.0.pdf",
           "DM funnel tablosu tek resmi tablo olarak kullanıldı",
           "Script, SLA, CRM etiketleme, KVKK ve çalışma saatleri notları operasyonel çerçeve olarak işlendi",
           "KPI seti mesaj sayısı yerine nitelikli DM ve won rate üzerinden kurgulandı",
