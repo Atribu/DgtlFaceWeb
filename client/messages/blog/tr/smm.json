@@ -7503,6 +7503,10 @@
           {
             "type": "media",
             "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
           }
         ]
       },
@@ -8343,6 +8347,10 @@
           {
             "type": "media",
             "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
           }
         ]
       },
@@ -13462,10 +13470,6 @@
           {
             "type": "media",
             "slot": "diagram-05"
-          },
-          {
-            "type": "media",
-            "slot": "proof-08"
           }
         ]
       }
@@ -13574,7 +13578,7 @@
     },
     "h1": {
       "title": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
-      "intro": "Sosyal medya raporu, doğru kurgulanırsa yönetimin “bütçeyi nereye kaydıralım?”, “hangi formatı büyütelim?”, “hangi kanalda hangi kitleyi hedefleyelim?” gibi kararlarını hızlandıran bir kontrol paneli olur. Yanlış kurgulanırsa, aylık bir “ekran görüntüsü albümü”ne dönüşür ve ekip sadece geçmişi anlatır, geleceği şekillendiremez. Bu rehberde, sosyal medya performans raporunu 4 hedef tipi üzerinden kuracak; KPI’ları kanal ve format kırılımında okuyacak; en önemlisi raporu aksiyon planıyla kapatacaksınız.",
+      "intro": "Sosyal medya raporu, doğru kurgulanırsa yönetimin “bütçeyi nereye kaydıralım?”, “hangi formatı büyütelim?”, “hangi kanalda hangi kitleyi hedefleyelim?” gibi kararlarını hızlandıran bir kontrol paneli olur. Yanlış kurgulanırsa, aylık bir “ekran görüntüsü albümü”ne dönüşür ve ekip sadece geçmişi anlatır, geleceği şekillendiremez. Bu rehberde, sosyal medya performans raporunu 4 hedef tipi üzerinden kuracak; KPI’ları kanal ve format kırılımında okuyacak; en önemlisi raporu aksiyon planıyla kapatacaksınız. Bu yapıyı daha sistemli kurmak isteyen ekipler için [sosyal medya performans raporu](/tr/smm/analiz-raporlama) yaklaşımı, hedef ile karar arasında ortak bir raporlama dili kurar.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Sosyal Medya KPI & Performans Raporu Analizi Talep Et",
@@ -13591,7 +13595,7 @@
       "secondary": {
         "label": "Sosyal Medya Performans Raporu & KPI Haritası Şablonunu İndir",
         "text": "“Aylık raporunuzu tek sayfalık KPI haritası ve aksiyon planına dönüştürür, ekibin aynı hedefte hizalanmasını sağlar.”",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/downloads/sosyal-medya-performans-raporu-kpi-haritasi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -13600,15 +13604,52 @@
         "href": "/tr/smm/analiz-raporlama"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "GA4 ve Sosyal Medya Insights",
+        "href": "/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "İçerik Bazlı Performans Analizi",
+        "href": "/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+      },
+      {
+        "label": "Organik ve Reklamlı Sosyal Medya Performansı",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      },
+      {
         "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Looker Studio",
         "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SMM Analiz & Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
+      },
+      {
+        "title": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+        "href": "/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+      },
+      {
+        "title": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      }
+    ],
     "sections": [
       {
         "id": "sosyal-medya-performans-raporu-nedir",
@@ -13668,6 +13709,10 @@
             "text": "Bu bölüm, raporun üretim sürecini pratik hale getirir. Çünkü çoğu ekipte sorun KPI bilmemek değil, raporu üretilebilir bir sisteme bağlayamamaktır."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetimi sürecinde raporlama](/tr/sosyal-medya-yonetimi), yalnızca ay sonu çıktısı değil; içerik planı, kampanya optimizasyonu ve bütçe kararları için çalışan bir karar mekanizması olarak ele alınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "7 adımlık raporlama akışı (goal→metric mapping)"
           },
@@ -13683,6 +13728,14 @@
               "Yorumla: “neden” kısmını 3–5 hipotezle yaz.",
               "Aksiyona çevir: 30 gün planı + sahip + beklenen etki."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Platform paneli ile site davranışını aynı rapor satırında görmek isteyen ekipler için [GA4 ve sosyal medya verilerini birlikte okumak](/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak) yaklaşımı, ölçüm farklarını daha erken teşhis etmeyi kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Bu akış düzenli bir [Looker Studio raporlama yapısı](/tr/raporlama/looker-studio) ile standartlaştırıldığında, yönetim tarafında aynı KPI setini aylar arasında daha hızlı kıyaslamak mümkün olur."
           },
           {
             "type": "callout",
@@ -13749,6 +13802,10 @@
           {
             "type": "p",
             "text": "Türkiye genelinde bir resort otel, sezon öncesi marka kampanyası yapıyor: hedef “rezervasyon” değil, destinasyon ve konsept algısı. Raporda “video tamamlanma” ve “frekans” yükselirken yorum kalitesi düşüyorsa mesaj yanlış kitleye gidiyor olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Marka görünürlüğünü yalnızca reach ile değil, marka araması ve organik görünürlükle birlikte okumak için [SEO raporlama](/tr/seo/seo-raporlama) tarafındaki sinyalleri de aynı yorum katmanına dahil etmek gerekir."
           },
           {
             "type": "callout",
@@ -13913,6 +13970,14 @@
                 "Funnel kopuşunu düzelt, teklif/CTA yeniden yaz"
               ]
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu matrisi tek taraftan okumak yerine [organik ve reklamlı sosyal medya performansı](/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak) yaklaşımıyla birleştirmek, kreatif öğrenim ile medya bütçesi kararlarını aynı çerçevede toplamayı kolaylaştırır."
+          },
+          {
+            "type": "p",
+            "text": "Tabloda görülen farkları sadece “iyi/kötü” diye etiketlemek yerine [performans verilerini doğru yorumlamak](/tr/veri-analiz-ve-raporlama) gerekir; trend, kalite ve kanal katkısı birlikte değerlendirildiğinde KPI kararı daha sağlam hale gelir."
           },
           {
             "type": "callout",
@@ -14135,6 +14200,10 @@
             "text": "Format bazlı okuma, “hangi içerik türü büyüyecek?” kararını verir. Aynı kanalda bile post ve Reels KPI’ları farklı davranır. Bu yüzden raporda format panelleri kurmak SXO açısından da okunabilirliği artırır."
           },
           {
+            "type": "p",
+            "text": "Format panelini daha detaylı kurmak isteyen ekipler için [post, story ve reels raporu](/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu) yaklaşımı, her içerik türü için KPI setlerini standartlaştırmayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Post (Feed)"
           },
@@ -14289,6 +14358,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu modeli kendi ekibinize uyarlamak ve düzenli [sosyal medya analiz ve raporlama desteği](/tr/smm/analiz-raporlama) almak istiyorsanız, hedef → KPI → aksiyon çerçevesini mevcut veri yapınıza göre birlikte kurabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, raporlama periyodu ve teslim yapısı gibi başlıklar için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sosyal Medya KPI & Performans Raporu Analizi Talep Et",
@@ -14334,6 +14411,10 @@
             ],
             "href": "/downloads/sosyal-medya-performans-raporu-kpi-haritasi-sablonu-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
           }
         ]
       }
@@ -14438,7 +14519,7 @@
     },
     "h1": {
       "title": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
-      "intro": "Sosyal medya raporlarının en yaygın problemi şudur: platform paneli “harika gidiyoruz” derken GA4 tarafında “trafik var ama dönüşüm yok” görülebilir—ve ekip hangisine inanacağını bilemez. Buradaki kritik gerçek şu: GA4 ve platform insights aynı soruyu ölçmez. Platform, kullanıcı platform içindeyken gerçekleşen davranışları (erişim, etkileşim, izlenme) daha iyi ölçer; GA4 ise siteye gelen trafiğin niteliğini ve iş sonucunu (lead/rezervasyon) daha iyi açıklar. Bu rehber, iki kaynağı tek bir “data fusion” (çok kaynaklı okuma) modeliyle birleştirip “ne oldu?” kadar “şimdi ne yapmalıyız?” sorusunu da netleştirmenizi sağlar.",
+      "intro": "Sosyal medya raporlarının en yaygın problemi şudur: platform paneli “harika gidiyoruz” derken GA4 tarafında “trafik var ama dönüşüm yok” görülebilir—ve ekip hangisine inanacağını bilemez. Buradaki kritik gerçek şu: GA4 ve platform insights aynı soruyu ölçmez. Platform, kullanıcı platform içindeyken gerçekleşen davranışları (erişim, etkileşim, izlenme) daha iyi ölçer; GA4 ise siteye gelen trafiğin niteliğini ve iş sonucunu (lead/rezervasyon) daha iyi açıklar. Bu rehber, iki kaynağı tek bir “data fusion” (çok kaynaklı okuma) modeliyle birleştirip “ne oldu?” kadar “şimdi ne yapmalıyız?” sorusunu da netleştirmenizi sağlar. Bu yaklaşımı düzenli bir [sosyal medya insights ve GA4 verilerini birlikte okuma](/tr/smm/analiz-raporlama) disiplini olarak kurmak, raporu yalnız ekran takibi olmaktan çıkarıp karar mekanizmasına dönüştürür.",
       "quickSummary": [
         "1) Platform insights = platform içi performans (Reach/Engagement)",
         "2) GA4 = site içi performans (Traffic/Conversion)",
@@ -14461,7 +14542,7 @@
       "secondary": {
         "label": "GA4 + Platform Insights Birleşik Raporlama & UTM Planlama Şablonunu İndir",
         "text": "UTM standardı ve birleşik rapor sayfasıyla metrikleri aksiyona çevirip kampanyayı doğru optimize etmenizi sağlar.",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/downloads/ga4-platform-insights-birlesik-raporlama-utm-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -14470,15 +14551,52 @@
         "href": "/tr/smm/analiz-raporlama"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "label": "İçerik Bazlı Performans Analizi",
+        "href": "/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+      },
+      {
         "label": "Satış & Dönüşüm Raporlama",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Dönüşüm Takibi (Tag Manager)",
         "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SMM Analiz & Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "title": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+        "href": "/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+      },
+      {
+        "title": "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?",
+        "href": "/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+      }
+    ],
     "sections": [
       {
         "id": "ga4-vs-insights",
@@ -14487,6 +14605,10 @@
           {
             "type": "p",
             "text": "Bir kampanyayı “başarılı” yapan şey, yalnızca görünürlük değildir; aynı zamanda sitenin doğru kullanıcıyı çekmesi ve dönüşüm üretmesidir. Bu yüzden okuma sırası şöyledir:\nPlatform insights = platform içi performans (Reach/Engagement)\nGA4 = site içi performans (Traffic/Conversion)"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetiminde veri okuma](/tr/sosyal-medya-yonetimi), içerik paylaşımından ayrı bir rapor işi değil; kanal rolü, kreatif etkisi, trafik kalitesi ve dönüşüm sinyallerini aynı yönetim döngüsünde yorumlama disiplinidir."
           },
           {
             "type": "h3",
@@ -14521,6 +14643,10 @@
           {
             "type": "p",
             "text": "Mini örnek (otel):\nInstagram’da Reels izlenmesi yükseliyor ama GA4’te “engaged session” düşüyorsa, içerik “izleniyor” ama site mesajı/landing uyumu zayıf olabilir. Bu, kampanya başarısız demek değil; teşhisin iki kaynağı birlikte okumayı gerektirdiği anlamına gelir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle format kırılımında, [post, story ve reels performansını ayrı okumak](/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu) GA4 tarafındaki oturum kalitesi ve dönüşüm sinyallerini hangi içerik tipinin beslediğini daha görünür hale getirir."
           },
           {
             "type": "callout",
@@ -14566,6 +14692,10 @@
           {
             "type": "p",
             "text": "Aynı kampanya için doğru okuma zinciri örneği:\nReach → Video Consumption → Profile/Link Actions → Sessions → Engaged Sessions → Conversion"
+          },
+          {
+            "type": "p",
+            "text": "Bu zinciri sağlıklı yorumlamak için önce [sosyal medya performans raporu için KPI çerçevesi](/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi) net olmalıdır; aksi halde panel metrikleri ile dönüşüm metrikleri aynı tabloda birbirine karışır."
           },
           {
             "type": "p",
@@ -14665,6 +14795,10 @@
             "text": "Bu, en sık sorulan sorudur ve çoğu ekipte “ölçüm tartışması”nı uzatır. Gerçek neden: metrik tanımı ve attribution mantığı farklıdır. Aşağıdaki liste, pratik teşhis sırasıdır (Competitor Gap’i kapatan “fark yaratan” bölüm)."
           },
           {
+            "type": "p",
+            "text": "Pratikte yaşanan tipik GA4 Instagram verisi farkı tartışmalarının önemli kısmı, doğrudan [veri kalitesi ve izleme hijyeni](/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi) sorunlarından kaynaklanır; yani önce ölçüm zinciri, sonra performans yorumu kontrol edilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Panel–GA4 farkının 7 yaygın nedeni"
           },
@@ -14732,6 +14866,10 @@
             "text": "UTM, GA4 ile platform verisini ortak anahtara bağlayan “dil”dir. UTM yoksa, GA4 tarafında “social” trafikten dönüşüm gelse bile hangi kampanyadan geldiğini net söyleyemezsiniz. Bu yüzden UTM, raporlamada “nice to have” değil, zorunlu altyapıdır."
           },
           {
+            "type": "p",
+            "text": "Sağlam bir [UTM ile sosyal medya kampanya takibi](/tr/sem/donusum-takibi-tag-manager) kurulmadığında, panel ile GA4 karşılaştırması güvenilir bir karar üretmez; çünkü event, kampanya ve kaynak eşleşmesi daha baştan dağılmış olur."
+          },
+          {
             "type": "h3",
             "text": "UTM’nin minimum standardı (önerilen)"
           },
@@ -14786,7 +14924,7 @@
             "variant": "secondary",
             "label": "GA4 + Platform Insights Birleşik Raporlama & UTM Planlama Şablonunu İndir",
             "text": "UTM standardı ve birleşik rapor sayfasıyla metrikleri aksiyona çevirip kampanyayı doğru optimize etmenizi sağlar.",
-            "href": "/tr/smm/analiz-raporlama"
+            "href": "/downloads/ga4-platform-insights-birlesik-raporlama-utm-planlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -14797,6 +14935,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, analistlerin hızla karar vermesini sağlar: “Bu sorunun cevabını nerede arıyorum?” AEO açısından da güçlü bir Q&A bloktur."
+          },
+          {
+            "type": "p",
+            "text": "Bu GA4 social fusion mantığını yalnız tablo seviyesinde bırakmamak için [verileri birlikte yorumlamak](/tr/veri-analiz-ve-raporlama) gerekir; kanal katkısı, trend ve dönüşüm kalitesi aynı yorum katmanında buluşmadığında ekipler farklı sonuçlara varır."
           },
           {
             "type": "h3",
@@ -14894,6 +15036,10 @@
             "text": "Durum: LinkedIn CTR iyi, form doldurma düşük.\nBirleşik okuma:\n• Panel: CTR iyi → teklif merak uyandırıyor\n• GA4: Engaged iyi ama conversion düşük → form sürtünmesi / güven unsuru eksik\nAksiyon:\n• Formu kısalt, “kanıt” bloğu ekle (referans/case)\n• Lead kalitesi için 1 soru ekle (seçmeli)\n• Kampanya içeriğini “doküman post → landing” uyumlu kıl"
           },
           {
+            "type": "p",
+            "text": "Bu iki senaryoda da [sosyal medya kampanyalarının dönüşüm etkisi](/tr/raporlama/satis-donusum) ayrıca izlenmelidir; çünkü CTR veya oturum artışı, lead kalitesi ya da rezervasyon değeriyle aynı şey değildir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check (örnekten öğren)",
@@ -14959,6 +15105,14 @@
               "Her ay 1 UTM denetimi ve 1 landing optimizasyon testi koy",
               "GA4 dönüşüm ölçümü net değilse, önce Tag Manager/GA4 kurulumunu düzelt"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı ekibinize uyarlamak ve düzenli [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) almak istiyorsanız, panel verisi ile GA4 tarafını aynı karar çerçevesinde birlikte kurgulayabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, veri farkları, analiz periyodu ve teslim yapısı gibi başlıklar için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -15198,7 +15352,7 @@
     },
     "h1": {
       "title": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
-      "intro": "Toplam takipçi artışı veya aylık erişim grafiği, çoğu zaman “iyi gidiyoruz” hissi verir; ama içerik üretim bütçesini doğru yere koyup koymadığınızı söylemez. Asıl soru şudur: Hangi format (post/story/reels) ve hangi tema (content pillar) gerçekten iş yapıyor? İçerik bazlı analiz, sosyal medya performansını içerik portföyü gibi yönetmenizi sağlar: işe yarayan içerikleri ölçeklersiniz, boşa gidenleri kesersiniz, orta performanslıları iyileştirirsiniz. Bu rehberde format KPI’larını doğru okuyup, tema/pillar kırılımında karşılaştırmayı ve raporu aksiyonla kapatmayı adım adım kuracağız.",
+      "intro": "Toplam takipçi artışı veya aylık erişim grafiği, çoğu zaman “iyi gidiyoruz” hissi verir; ama içerik üretim bütçesini doğru yere koyup koymadığınızı söylemez. Asıl soru şudur: Hangi format (post/story/reels) ve hangi tema (content pillar) gerçekten iş yapıyor? İçerik bazlı analiz, sosyal medya performansını içerik portföyü gibi yönetmenizi sağlar: işe yarayan içerikleri ölçeklersiniz, boşa gidenleri kesersiniz, orta performanslıları iyileştirirsiniz. Bu rehberde format KPI’larını doğru okuyup, tema/pillar kırılımında karşılaştırmayı ve raporu aksiyonla kapatmayı adım adım kuracağız. Bu yaklaşımı düzenli bir [içerik bazlı sosyal medya raporu](/tr/smm/analiz-raporlama) modeli olarak kurduğunuzda, üretim planı yalnız hisle değil kanıtla yönlenmeye başlar.",
       "quickSummary": [
         "1) Toplam metriklerden çık: format + pillar kırılımına geç",
         "2) Her format için doğru çekirdek KPI’yı seç (post/story/reels farklıdır)",
@@ -15221,13 +15375,29 @@
       "secondary": {
         "label": "Post/Story/Reels Performans & Content Pillar Raporlama Şablonunu İndir",
         "text": "Top 10/zayıf 10 listesi ve ısı haritasıyla üretim odağınızı kanıtla doğru yere kaydırır.",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/downloads/post-story-reels-performans-content-pillar-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "SMM Analiz & Raporlama",
         "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "label": "Organik ve Reklamlı Sosyal Medya Performansı",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      },
+      {
+        "label": "Creative Clustering",
+        "href": "/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak"
       },
       {
         "label": "SMM İçerik Üretimi",
@@ -15240,16 +15410,24 @@
       {
         "label": "İçerik SEO",
         "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "SMM Analiz & Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "SMM İçerik Üretimi: Format ve Takvim Tasarımı",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
       },
       {
-        "title": "Reels & Video Stratejisi: İzlenme ve Retention",
-        "href": "/tr/smm/reels-video"
+        "title": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      },
+      {
+        "title": "Yaratıcı Küme Analizi (Creative Clustering) ile Sosyal Medya İçeriklerini Gruplamak",
+        "href": "/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak"
       }
     ],
     "sections": [
@@ -15260,6 +15438,10 @@
           {
             "type": "p",
             "text": "Toplam metrikler (toplam erişim, toplam etkileşim) “ne oldu?”yu anlatır; ama “neden oldu”yu ve “ne yapmalıyız”ı çoğu zaman söylemez. İçerik bazlı analiz, her formatın ve her temanın performansını ayrı okuyarak “hangi üretim hattı para kazandırıyor?” sorusuna cevap verir. Otellerde bu genellikle oda/konsept/destinasyon/SSS gibi pillar’ların; B2B’de ise case/rehber/ürün/kanıt pillar’larının farklı çalışmasıyla ortaya çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetiminde içerik performansı](/tr/sosyal-medya-yonetimi), yalnızca geçmiş veriyi okumak değil; bir sonraki içerik sprint’inin hangi format ve tema ile kurulacağını belirleyen operasyonel bir karar alanıdır."
           },
           {
             "type": "p",
@@ -15298,6 +15480,10 @@
           {
             "type": "p",
             "text": "Bu bölüm AEO için net bir cevap bloğu içerir: Her formatın “başarı sinyali” farklıdır. Aynı KPI setini her formatta kullanmak raporu yanıltır."
+          },
+          {
+            "type": "p",
+            "text": "Format bazlı metrikleri daha üst seviyede konumlamak için [sosyal medya performans raporu için KPI çerçevesi](/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi) ile çalışmak gerekir; çünkü post, story ve reels KPI’ları ancak doğru hedef sınıfına bağlandığında karar üretir."
           },
           {
             "type": "h3",
@@ -15398,6 +15584,10 @@
             "text": "Reels’te kritik olan “izlenme kalitesi”dir: view sayısı tek başına yeterli değil; watch time + retention + saves/shares sinyali belirleyicidir."
           },
           {
+            "type": "p",
+            "text": "Özellikle kısa videoda [reels video performansı](/tr/smm/reels-video) ayrı takip edilmelidir; çünkü izlenme süresi, retention ve CTA aksiyonu çoğu zaman klasik post metriklerinden farklı optimizasyon ister."
+          },
+          {
             "type": "h3",
             "text": "Temel KPI’lar:"
           },
@@ -15447,6 +15637,10 @@
           {
             "type": "p",
             "text": "İçerik bazlı analiz, tek tek postlara bakmak değildir; bir “portföy” okumasıdır. Bu yüzden iki kırılımı birlikte kurun:\n\t1.\tFormat kırılımı: post/story/reels\n\t2.\tTema/pillar kırılımı: oda, destinasyon, SSS, case vb."
+          },
+          {
+            "type": "p",
+            "text": "Boost edilen veya paid destek alan formatlarda [organik ve reklamlı sosyal medya performansını birlikte okumak](/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak) gerekir; aksi halde içerik gerçekten iyi mi çalıştı, yoksa görünürlük bütçeyle mi arttı sorusu yanıtsız kalır."
           },
           {
             "type": "h3",
@@ -15503,6 +15697,10 @@
             "text": "Pillar raporu, “hangi temaya daha çok yatırım yapmalıyım?” sorusunu cevaplar. Bunu en iyi, formatlarla birlikte bir ısı haritasıyla görselleştirirsiniz."
           },
           {
+            "type": "p",
+            "text": "Bu okuma mantığını tekil postlardan çıkarıp [content pillar bazlı performans](/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak) yaklaşımına taşıdığınızda, tema, hook ve yaratıcı kümeler üzerinden daha tutarlı optimizasyon kararları alabilirsiniz."
+          },
+          {
             "type": "h3",
             "text": "Pillar seti nasıl tanımlanır? (Varsayım)"
           },
@@ -15525,6 +15723,10 @@
           {
             "type": "p",
             "text": "Mini örnek:\nDestinasyon + reels yüksek retention üretiyor; oda + post yüksek save üretiyor; kampanya + story yüksek link tap üretiyor. Bu, üretim odağını “her şeye biraz” yerine “en iyi eşleşmelere” kaydırır."
+          },
+          {
+            "type": "p",
+            "text": "Buradan çıkan güçlü tema kümeleri aynı zamanda [sosyal medya içeriklerinden SEO fırsatı üretmek](/tr/seo/icerik-seo) için de kullanılabilir; çünkü yüksek ilgi toplayan sorular ve başlıklar çoğu zaman blog, landing page ve arama niyeti tarafında da içerik sinyali üretir."
           },
           {
             "type": "callout",
@@ -15607,6 +15809,18 @@
               "Scale edilen içerikleri seri haline getir (takvimle)",
               "Fix’te 1 değişken test et (hook veya CTA gibi)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kararların sahaya inebilmesi için [rapor sonuçlarını içerik üretim planına aktarmak](/tr/smm/icerik-uretimi) gerekir; yani scale kararları yeni seri üretimine, fix kararları revizyon brief’ine, stop kararları ise takvimden çıkarmaya dönüşmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu süreci ekibinize uyarlamak ve düzenli [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) almak istiyorsanız, format kırılımı, pillar ısı haritası ve optimizasyon karar setini mevcut içerik yapınıza göre birlikte kurabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, raporlama periyodu ve içerik metriklerinin nasıl yorumlandığı gibi detaylar için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -15791,7 +16005,7 @@
     },
     "h1": {
       "title": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
-      "intro": "Birçok ekipte organik rapor “içerik ekibinde”, reklam raporu “performans ekibinde” kalır. Sonuç: yönetici “ne işe yaradı?” diye sorduğunda parçalı cevaplar gelir; organik ekip “erişim arttı” der, performans ekip “CPL iyi” der, ama ikisi aynı hikâyede birleşmez. Özellikle otel ve B2B markalarda, organik içeriklerin reklama taşınması ve reklamın organik görünürlüğe katkısı, kreatif ve bütçe kararlarını doğrudan etkiler. Bu rehberde organik + paid performansı tek raporda nasıl birleştirileceğini, hangi metriklerin ayrı/hangilerinin birlikte okunacağını ve yönetici için “storytelling” kapanışını nasıl kuracağınızı adım adım anlatıyorum.",
+      "intro": "Birçok ekipte organik rapor “içerik ekibinde”, reklam raporu “performans ekibinde” kalır. Sonuç: yönetici “ne işe yaradı?” diye sorduğunda parçalı cevaplar gelir; organik ekip “erişim arttı” der, performans ekip “CPL iyi” der, ama ikisi aynı hikâyede birleşmez. Özellikle otel ve B2B markalarda, organik içeriklerin reklama taşınması ve reklamın organik görünürlüğe katkısı, kreatif ve bütçe kararlarını doğrudan etkiler. Bu rehberde organik + paid performansı tek raporda nasıl birleştirileceğini, hangi metriklerin ayrı/hangilerinin birlikte okunacağını ve yönetici için “storytelling” kapanışını nasıl kuracağınızı adım adım anlatıyorum. Bu yapıyı daha sistematik kurmak isteyen ekipler için [organik ve reklamlı sosyal medya raporu](/tr/smm/analiz-raporlama) yaklaşımı, içerik ve bütçe kararlarını aynı rapor disiplininde toplar.",
       "quickSummary": [
         "1) Organik ve paid’i tek dashboard’da ayrı paneller + tek hikâye ile birleştir",
         "2) Organik→Paid kreatif geçişlerini işaretle ve raporla",
@@ -15814,7 +16028,7 @@
       "secondary": {
         "label": "Organik+Paid SMM Dashboard & Yönetici Özeti Şablonunu İndir",
         "text": "Tek dashboard ve 1 sayfalık yönetici özetiyle raporu okunur, karar üretir hale getirir.",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/downloads/organik-paid-smm-dashboard-yonetici-ozeti-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -15829,9 +16043,46 @@
       {
         "label": "Looker Studio Raporlama",
         "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "label": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+        "href": "/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+      },
+      {
+        "label": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+        "href": "/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "title": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+        "href": "/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+      },
+      {
+        "title": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+        "href": "/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+      }
+    ],
     "sections": [
       {
         "id": "neden-birlikte-okunmali",
@@ -15840,6 +16091,10 @@
           {
             "type": "p",
             "text": "Organik içerik, markanın “dağıtım motoru” ve öğrenme alanıdır; reklam ise ölçek ve kontrol sağlar. Birini diğerinden bağımsız raporlamak, şu üç kritik soruyu cevapsız bırakır:\n\t1.\tOrganik içerik hangi noktada reklama taşındı?\n\t2.\tReklam hangi kreatif/mesajla organiği güçlendirdi veya zayıflattı?\n\t3.\tBütçe kararları içerik stratejisiyle hizalı mı?"
+          },
+          {
+            "type": "p",
+            "text": "Bu resmi [sosyal medya yönetiminde organik ve paid performans](/tr/sosyal-medya-yonetimi) bakışıyla okumak, içerik planı, bütçe ve kampanya kararlarını ayrı toplantılara bölmek yerine tek yönetim akışında birleştirmeyi sağlar."
           },
           {
             "type": "h3",
@@ -15888,6 +16143,10 @@
           {
             "type": "p",
             "text": "Yanlış olan, organik ve reklam KPI’larını tamamen karıştırmaktır. Doğru olan:\n\t•\tayrı panellerde ölçmek,\n\t•\tortak bir “hikâye”de birlikte yorumlamak."
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrımı kurarken [sosyal medya performans raporu için KPI çerçevesi](/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi) yaklaşımı kullanıldığında, organik ve paid veriler aynı dilde raporlanır ama yanlış şekilde birbirinin yerine geçirilmez."
           },
           {
             "type": "h3",
@@ -15980,6 +16239,10 @@
             "text": "Bu, birleşik raporun en “para kazandıran” kısmıdır. Organik içerik, düşük maliyetle çok sayıda kreatif denemenizi sağlar; başarılı olanları reklama taşıyarak ölçeklersiniz."
           },
           {
+            "type": "p",
+            "text": "Burada ilk adım, [post, story ve reels performansını ayrı okumak](/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu) ve en güçlü formatı doğru sinyalle seçmektir; ikinci adım ise bu içgörüyü [organik içeriği reklama taşımak ve raporlamak](/tr/smm/sosyal-medya-reklamlari) disiplinine çevirerek bütçeyi sezgiyle değil kanıtla dağıtmaktır."
+          },
+          {
             "type": "h3",
             "text": "5 adımda organik → paid kreatif hattı"
           },
@@ -16041,6 +16304,14 @@
           {
             "type": "p",
             "text": "Birleşik rapor, iki katmanda okunur:\n\t1.\tYönetici özeti: 1 sayfa hikâye\n\t2.\tAnalist panelleri: organik + paid ayrıntı"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı yalnız metrik tablosu olarak değil, [sosyal medya funnel raporu](/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e) mantığıyla görünürlük, trafik, lead ve rezervasyon aşamalarına böldüğünüzde organik ve paid katkısı daha net görünür."
+          },
+          {
+            "type": "p",
+            "text": "Yöneticinin tek ekranda okuyabileceği bir yapı kurmak için [organik ve paid performansı aynı dashboard’da izlemek](/tr/raporlama/looker-studio) yaklaşımı faydalıdır; özet panel üstte, detay paneller altta konumlanabilir."
           },
           {
             "type": "h3",
@@ -16130,6 +16401,10 @@
             "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış):\nOrganik + reklam raporlarını birleştiren ekiplerde, kreatif ve bütçe kararlarının daha koordineli, test ve optimizasyon süreçlerinin daha sistematik ilerlediği gözlenir; çünkü “öğrenim” ve “ölçek” aynı raporda buluşur."
           },
           {
+            "type": "p",
+            "text": "Paid bölümünü daha şeffaf hale getirmek için bütçe, CPA ve ROAS katmanını [reklamlı sosyal medya performansını raporlamak](/tr/sem/reklam-raporlama) mantığıyla ayrı açıklamak, yönetici özetinde organik öğrenim ile medya verimliliğini aynı hikâyede birleştirmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check (storytelling):"
           },
@@ -16154,6 +16429,10 @@
               "“Organik→Paid kreatif hattı” öğrenimlerini kaydet",
               "Bütçeyi, içerik pillar sonuçlarına göre kaydır"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi düzenli kurmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile organik ve paid veriyi aynı yönetici hikâyesinde toplamak mümkündür; kapsam, periyot ve dashboard yapısı için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -16307,7 +16586,7 @@
     },
     "h1": {
       "title": "Yönetici Özeti İçin Sosyal Medya Analizini Hikâyeye Dönüştürmek",
-      "intro": "Sosyal medya raporu çoğu şirkette “gürültü”ye dönüşür: çok sayfa, çok grafik, az karar. Yönetici ise kanala değil iş sonucuna bakar—gelir, lead, rezervasyon ve risk. Bu yüzden en güçlü rapor; veriyi sadeleştirip tek sayfada “ne oldu, neden oldu, ne yapıyoruz?” anlatısına oturtan rapordur. Bu rehberde, sosyal medya verisini hikâyeye çeviren bir yönetici özeti kurgusunu; 3 başarı + 3 risk + 3 aksiyon modeliyle; otel ve B2B örnekleriyle birlikte kuracağız.",
+      "intro": "Sosyal medya raporu çoğu şirkette “gürültü”ye dönüşür: çok sayfa, çok grafik, az karar. Yönetici ise kanala değil iş sonucuna bakar—gelir, lead, rezervasyon ve risk. Bu yüzden en güçlü rapor; veriyi sadeleştirip tek sayfada “ne oldu, neden oldu, ne yapıyoruz?” anlatısına oturtan rapordur. Bu rehberde, sosyal medya verisini hikâyeye çeviren bir yönetici özeti kurgusunu; 3 başarı + 3 risk + 3 aksiyon modeliyle; otel ve B2B örnekleriyle birlikte kuracağız. Bu disiplini yapılandırmak isteyen ekipler için [yönetici için sosyal medya raporu](/tr/smm/analiz-raporlama) yaklaşımı, veriyi karar alınabilir bir özet formatına dönüştürmeyi kolaylaştırır.",
       "quickSummary": [
         "1) Yönetici odağı: gelir/lead/rezervasyon/risk",
         "2) 1 sayfa kuralı: en fazla 3 KPI",
@@ -16330,7 +16609,7 @@
       "secondary": {
         "label": "Sosyal Medya Yönetici Özeti (3 Başarı + 3 Risk + 3 Aksiyon) Şablonunu İndir",
         "text": "3–3–3 formatıyla raporu standartlaştırır, toplantıda hızlı karar alınmasını sağlar.",
-        "href": "/tr/smm/analiz-raporlama"
+        "href": "/downloads/sosyal-medya-yonetici-ozeti-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -16339,15 +16618,52 @@
         "href": "/tr/smm/analiz-raporlama"
       },
       {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "label": "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard",
+        "href": "/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard"
+      },
+      {
+        "label": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
         "label": "SEO Raporlama & Performans Analizi",
         "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Satış & Dönüşüm Raporlama",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+      },
+      {
+        "title": "SEO, SEM ve SMM Performansını Birlikte Raporlamak: Omnichannel Dashboard",
+        "href": "/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard"
+      },
+      {
+        "title": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      }
+    ],
     "sections": [
       {
         "id": "yonetici-odagi",
@@ -16360,6 +16676,14 @@
           {
             "type": "p",
             "text": "Yönetici rapor okurken “hangi post kaç beğeni aldı?” sorusunu sormaz; bunun yerine şu dört başlığa odaklanır: iş etkisi, verim, risk ve öncelik. Bu nedenle yönetici özetinde “sosyal medya metrikleri” mutlaka “iş metrikleri”yle bağlanmalıdır. Ölçüm olgunluğunuz değişebilir; yine de iş diline çevrilebilir: trafik kalitesi, lead sayısı, çağrı/WhatsApp tıklaması, teklif sayfası etkileşimi gibi ara KPI’lar üzerinden köprü kurulur."
+          },
+          {
+            "type": "p",
+            "text": "Bu bakışı [sosyal medya yönetiminde raporlama kararları](/tr/sosyal-medya-yonetimi) çerçevesine oturtmak önemlidir; çünkü yönetici özeti yalnız geçmiş performansı anlatmaz, sonraki içerik, bütçe ve kampanya kararlarını da yönlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Yönetici özetinin güvenilir kalması için temel metrik seçimini [yönetici özetinde doğru KPI seçimi](/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi) mantığıyla yapmak gerekir; aksi halde özet kısa olur ama yanlış şeyi özetler."
           },
           {
             "type": "h3",
@@ -16406,6 +16730,10 @@
           {
             "type": "p",
             "text": "Veriyi hikâyeleştirmek, “süslemek” değil; doğru sıraya koyup karar üretecek kadar sadeleştirmek demektir. Yönetici hikâyesi üç cümleyle akar: Ne oldu? (3 KPI ile durum), Neden oldu? (2–3 sebep/hipotez), Ne yapıyoruz? (3 aksiyon)."
+          },
+          {
+            "type": "p",
+            "text": "Yönetici seviyesi özet sadece SMM sonuçlarını değil, gerektiğinde SEO ve SEM’i de yan yana göstermelidir; bu nedenle [omnichannel performans özeti](/tr/smm/blog/seo-sem-ve-smm-performansini-birlikte-raporlamak-omnichannel-dashboard) mantığıyla kanal katkılarını tek hikâyede birleştirmek daha anlamlı olur."
           },
           {
             "type": "h3",
@@ -16473,6 +16801,10 @@
           {
             "type": "p",
             "text": "“3–3–3” modeli, yönetici özetini standartlaştıran bir şablondur. Yöneticinin dikkatini dağıtmadan hem “savunma” (başarı) hem “gerçekçilik” (risk) hem “yol haritası” (aksiyon) sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, sosyal medya verisini yalnız açıklamak için değil, [3 başarı 3 risk 3 aksiyon modeli](/tr/veri-analiz-ve-raporlama) ile aksiyona dönüştürmek için de değerlidir; çünkü iyi özet, yorum değil karar üretir."
           },
           {
             "type": "h3",
@@ -16574,6 +16906,10 @@
             "text": "Yönetici özetinde amaç “gösteriş” değil, hızlı kavrayıştır. En iyi düzen: 3 KPI kartı (büyük ve sade) + 30/90 gün mini trend çizgisi + 1 tablo (3–3–3) + 1 not kutusu (2–3 hipotez). Detay paneller ayrı ek raporda kalmalıdır."
           },
           {
+            "type": "p",
+            "text": "Eğer yönetici tek sayfada yalnız sosyal medya değil daha geniş kanal resmini görmek istiyorsa, KPI kartlarını ve mini grafikleri [exec summary SMM] perspektifinden başlayıp daha sonra omnichannel karta genişletmek gerekir; bu noktada [SEO raporlarıyla organik görünürlüğü birlikte okumak](/tr/seo/seo-raporlama) yaklaşımı marka araması ve organik trafik etkisini görünür kılar."
+          },
+          {
             "type": "h3",
             "text": "KPI kartı tasarım prensipleri (iş dili)"
           },
@@ -16638,6 +16974,10 @@
             "text": "Bir resort otel (ör. Antalya–Belek hattında) sezon öncesi sosyal medya kampanyası yapıyor. Yönetici özetinde “doluluk” doğrudan ölçülemese bile rezervasyon niyeti proxiesiyle raporlanabilir: nitelikli trafik (GA4 engaged sessions), WhatsApp/telefon tıklaması (event) ve kampanya içeriği paylaşım/kaydetme (organik sinyal). Risk: mesaj dağınıklığı ve landing sürtünmesi. Aksiyon: tek teklif + tek CTA + remarketing + landing hız."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle otel örneklerinde sosyal medya çıktısını yalnız görünürlük olarak değil, [satış ve dönüşüm etkisini raporlamak](/tr/raporlama/satis-donusum) mantığıyla rezervasyon niyeti, talep kalitesi ve iş sonucuna giden ara sinyaller üzerinden anlatmak daha ikna edicidir."
+          },
+          {
             "type": "h3",
             "text": "B2B örneği (lead ve toplantı etkisi)"
           },
@@ -16674,7 +17014,7 @@
             "variant": "secondary",
             "label": "Sosyal Medya Yönetici Özeti (3 Başarı + 3 Risk + 3 Aksiyon) Şablonunu İndir",
             "text": "1 sayfalık raporu standartlaştırır, toplantıda hızlı karar alınmasını sağlar.",
-            "href": "/tr/smm/analiz-raporlama"
+            "href": "/downloads/sosyal-medya-yonetici-ozeti-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -16689,6 +17029,10 @@
           {
             "type": "p",
             "text": "Yönetici özeti bir defalık değil, bir “ritüel” olmalı: her ay aynı formatla, aynı dilde, aynı karar disiplininde üretilmeli. Böylece rapor bir PDF değil; toplantıda açılan “tek sayfa” olur ve sosyal medya yatırımı savunulabilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ritmi kalıcı hale getirmek için [raporlama ritmi ve analiz operasyon kültürü](/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu) yaklaşımıyla haftalık, aylık ve kampanya bazlı toplantı akışını standardize etmek faydalıdır. Süreci kurmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile yönetici özetini operasyonel raporlama sistemine bağlamak mümkündür; kapsam ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -73640,7 +73984,7 @@
     },
     "h1": {
       "title": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
-      "intro": "Sosyal medya reklamlarında klasik akış şudur: kullanıcı reklama tıklar, web sitesi açılır, sayfa yüklenir, ürün bulunur, sepete eklenir, ödeme adımında bir şey olur ve kullanıcı çıkar. Bu zincirde her ekstra adım, özellikle mobilde dönüşümü düşürür. Social commerce ve in-app checkout yaklaşımı, bu sürtünmeyi azaltmayı hedefler: kullanıcı Instagram/Facebook içinde ürün/paket görür, etiketli içerikten ürüne gider, uygun senaryolarda uygulama içinde satın almayı tamamlar.\n\nAma kritik nokta şu: her şey in-app satılamaz ve satılmamalıdır. Otel oda satışı gibi “tarih/konsept/müsaitlik” değişkeni yüksek ve çoğu zaman rezervasyon motoruna bağlı ürünlerde; in-app akış sınırlı kalabilir. Buna karşın otellerde SPA, beach club günübirlik, transfer, hediye kartı, “yan ürün” ve düşük bariyerli paketlerde social commerce güçlü bir test alanı yaratır. B2B’de de büyük sözleşmeler in-app satılmaz; fakat düşük biletli eğitim, mini ürünler, template/rehber, giriş paketi gibi tekliflerde akış kısaltma etkisi görülebilir.",
+      "intro": "Sosyal medya reklamlarında klasik akış şudur: kullanıcı reklama tıklar, web sitesi açılır, sayfa yüklenir, ürün bulunur, sepete eklenir, ödeme adımında bir şey olur ve kullanıcı çıkar. Bu zincirde her ekstra adım, özellikle mobilde dönüşümü düşürür. Social commerce ve in-app checkout yaklaşımı, bu sürtünmeyi azaltmayı hedefler: kullanıcı Instagram/Facebook içinde ürün/paket görür, etiketli içerikten ürüne gider, uygun senaryolarda uygulama içinde satın almayı tamamlar.\n\nAma kritik nokta şu: her şey in-app satılamaz ve satılmamalıdır. Otel oda satışı gibi “tarih/konsept/müsaitlik” değişkeni yüksek ve çoğu zaman rezervasyon motoruna bağlı ürünlerde; in-app akış sınırlı kalabilir. Buna karşın otellerde SPA, beach club günübirlik, transfer, hediye kartı, “yan ürün” ve düşük bariyerli paketlerde social commerce güçlü bir test alanı yaratır. B2B’de de büyük sözleşmeler in-app satılmaz; fakat düşük biletli eğitim, mini ürünler, template/rehber, giriş paketi gibi tekliflerde akış kısaltma etkisi görülebilir. Bu çerçeveyi paid social bütününde okumak için, [social commerce nedir Instagram](/tr/smm/sosyal-medya-reklamlari) sorusunu ana sosyal medya reklam stratejisi içinde konumlandırmak faydalıdır.",
       "quickSummary": [
         "1) Social commerce’i tüm ürünler için değil, uygun ürün/paketler için başlat",
         "2) Shop + ürün etiketleri + in-app checkout akışını birlikte düşün",
@@ -73651,43 +73995,71 @@
       "ctaPrimary": {
         "label": "Social Commerce & In-App Checkout Strateji Analizi Talep Et",
         "text": "Otel/B2B için hangi ürün/paketin in-app akışa uygun olduğunu belirleyip pilot plan çıkaralım.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Social Commerce & In-App Checkout Strateji Analizi Talep Et",
         "text": "Hangi ürün/paketin in-app akışa uygun olduğunu belirleyip ölçüm ve senkronu kurar.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Sosyal Commerce Funnel & Ürün/Paket Planlama Şablonunu İndir",
         "text": "Shop ve checkout akışını sprint planına çevirip ürün seçimini netleştirirsiniz.",
-        "href": "/seo/icerik-seo"
+        "href": "/downloads/sosyal-commerce-funnel-urun-paket-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Online Satış",
-        "href": "/pms-ota/online-satis"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Click-to-WhatsApp ve Mesajlaşma Reklamları",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
+      },
+      {
+        "label": "Cookieless ve Privacy Dönüşümü",
+        "href": "/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi"
+      },
+      {
+        "label": "AI Destekli Bid ve Budget Optimisation",
+        "href": "/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi"
+      },
+      {
+        "label": "PMS / OTA Online Satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları ile Performans Funnel’ı Nasıl Kurulur?",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
       },
       {
-        "title": "Online Satış Akışı ve Rezervasyon Dönüşümü",
-        "href": "/pms-ota/online-satis"
+        "title": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi"
+      },
+      {
+        "title": "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zeka Kullanımı",
+        "href": "/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi"
       }
     ],
     "sections": [
@@ -73702,6 +74074,10 @@
           {
             "type": "p",
             "text": "Social commerce, sosyal platformların “keşif ve etkileşim” katmanını, satın alma sürecine daha yakın hale getiren yaklaşımdır. Bu bazen “Shop” ve ürün etiketleriyle olur (ürün içerikte görünür), bazen de in-app checkout ile satın alma platform içinde tamamlanır. Aslında iki temel değişim yaratır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı [sosyal medya yönetimi içinde social commerce funnel](/tr/sosyal-medya-yonetimi) olarak ele almak gerekir; çünkü shop kurgusu, ürün keşfi, reklam kreatifi, güven unsurları ve satın alma sonrası takip aynı sistem içinde çalışır."
           },
           {
             "type": "list",
@@ -73777,6 +74153,10 @@
           {
             "type": "p",
             "text": "In-app checkout, kullanıcıyı web’e göndermeden ödeme adımını tamamlamayı hedefler. Bu, özellikle mobilde hız ve kolaylık sağlar; ancak operasyonel ve raporlama açısından yeni sorumluluklar getirir."
+          },
+          {
+            "type": "p",
+            "text": "Burada kritik nokta şudur: in-app checkout Facebook Instagram akışı her ülke, hesap, sektör veya ürün tipi için aynı şekilde çalışmayabilir; bu yüzden kesin özellik vaadi yerine, satın alma niyeti yüksek ürünlerde checkout ve danışma ihtiyacı yüksek ürünlerde [mesajlaşma ve checkout akışı karşılaştırması](/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji) mantığıyla karar vermek daha sağlıklıdır."
           },
           {
             "type": "h3",
@@ -73863,6 +74243,10 @@
           {
             "type": "p",
             "text": "Varsayım: Otelin altyapısı (POS/PMS) ve ürünleşme seviyesi bu senaryoları belirler."
+          },
+          {
+            "type": "p",
+            "text": "Katalog başlığı, paket adı ve açıklama dili tarafında [SEO içerik diliyle uyumlu ürün ve paket mesajları](/tr/seo/icerik-seo) kullanmak; shop içindeki vaat ile landing page veya paket detay sayfasındaki mesajın çelişmesini önler."
           },
           {
             "type": "h3",
@@ -74017,6 +74401,10 @@
             "text": "Otel — yan ürün ve ek hizmet satış senaryoları"
           },
           {
+            "type": "p",
+            "text": "Sektör özelinde bakıldığında, [otel reklam yönetiminde social commerce](/tr/otel/reklam-yonetimi) yaklaşımı; oda dışı yan ürünler, deneyim paketleri ve düşük bariyerli teklifleri ayrı kampanya mantığıyla ele almayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Senaryo 1: SPA paketi (in-app checkout testi)"
           },
@@ -74131,6 +74519,14 @@
             "text": "Social commerce’de raporlama iki farklı “gerçek” üretir: platform içi (in-app) satın alma ve web satın alma. Bu ikisini karıştırırsanız yanlış karar verirsiniz. Ayrıca “Shop görüntüleme” gibi yeni ara metrikler devreye girer."
           },
           {
+            "type": "p",
+            "text": "Bu rapor yapısında [cookieless dönemde social commerce sinyalleri](/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi) ayrıca önem kazanır; çünkü platform içi ürün ilgisi, checkout başlatma ve first-party etkileşim sinyalleri privacy baskısı arttığında daha kıymetli hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bütçe tarafında ise [AI destekli social commerce bütçe optimizasyonu](/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi) yaklaşımı; hangi ürün veya paketin daha fazla görüntüleme, checkout ve satın alma ürettiğini sprint bazlı okumayı kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Basit funnel modeli"
           },
@@ -74195,6 +74591,10 @@
           {
             "type": "p",
             "text": "Bu konu, performans kadar güven konusudur. Yanlış stok/müsaitlik, yanlış fiyat veya belirsiz iade/iptal; kullanıcı deneyimini ve marka güvenini zedeler."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında [online satış için oda ve paket akışı](/tr/pms-ota/online-satis) doğru kurulmadığında, shop veya oda etiketi kullanıcıyı güvenli bir rezervasyon deneyimine değil; kopuk bir fiyat ve müsaitlik akışına taşıyabilir."
           },
           {
             "type": "h3",
@@ -74322,6 +74722,14 @@
             "text": "Social commerce ve in-app checkout, satın alma sürtünmesini azaltarak özellikle düşük biletli ürün/paketlerde dönüşüm artışı sağlayabilir; otelde yan ürün/SPA/gift card, B2B’de mini eğitim/ürünleşmiş paketler güçlü bir test alanıdır. Ancak bu model “teknik senkron” olmadan büyütülmemelidir: stok/oda, fiyat, iade ve vergi bilgisi in-app akışla uyumlu değilse güven kaybı doğar. Doğru yaklaşım; ürün seçimi matrisi + shop entegrasyonu + QA rutini + iki akışlı raporlama ile kontrollü test ve ölçeklemedir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı daha geniş paid social planına bağlamak için, [social commerce funnel ve in-app checkout reklam stratejisi](/tr/smm/sosyal-medya-reklamlari) yaklaşımını ürün seçimi, kreatif, checkout ve raporlama kararlarıyla birlikte ele almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasında bütçe, kampanya yapısı ve hizmet kapsamı detaylarını görmek isterseniz, [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfası iyi bir sonraki adımdır."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -74330,14 +74738,14 @@
             "variant": "primary",
             "label": "Social Commerce & In-App Checkout Strateji Analizi Talep Et",
             "text": "Hangi ürün/paketin in-app akışta kârlı olduğunu belirleyip feed+rapor kurulumunu birlikte planlayalım.",
-            "href": "/pms-ota/online-satis"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Sosyal Commerce Funnel & Ürün/Paket Planlama Şablonunu İndir",
             "text": "Uygun ürün seçimi, shop entegrasyonu ve KPI setini tek sayfada planlayarak testleri hızlandırırsınız.",
-            "href": "/seo/icerik-seo"
+            "href": "/downloads/sosyal-commerce-funnel-urun-paket-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -74392,10 +74800,11 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/sosyal-medya-reklamlari, /pms-ota/online-satis, /seo/icerik-seo",
+          "İç link hedefleri normalize edildi: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/pms-ota/online-satis, /tr/otel/reklam-yonetimi, /tr/seo/icerik-seo",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07",
           "Download asset href kontrolü: /downloads/sosyal-commerce-funnel-urun-paket-planlama-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: ürün seçimi matrisi",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/sosyal-commerce-funnel-urun-paket-planlama-sablonu-v1.0.pdf",
           "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1 kez"
         ]
       }
@@ -74452,7 +74861,7 @@
     },
     "h1": {
       "title": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
-      "intro": "“Cookieless” dendiğinde çoğu ekip bunu Google Ads bağlamında konuşuyor; oysa sosyal medya reklamları da aynı rüzgârın içinde: tarayıcı kısıtları, cihaz bazlı izleme izinleri ve consent oranları; pixel’in gördüğü sinyali azaltıyor. Bu azalma, iki tür soruna yol açıyor:\n\n1. Ölçüm: “kaç kişi dönüşüm yaptı?” sorusuna daha az net cevap.\n2. Optimizasyon: platformun öğrenme motoru daha az doğru sinyalle optimize ediyor.\n\nBu yazıda amaç korkutmak değil: cookieless dünyada sosyal medya reklamlarını “ölümsüz” yapmak değil; daha dayanıklı (signal-resilient) hale getirmek. Bunun yolu tek bir hack değil; browser + server hibrit ölçüm (CAPI), event önceliklendirme, consent yönetimi ve 1st party veri/CRM birleşimidir.",
+      "intro": "“Cookieless” dendiğinde çoğu ekip bunu Google Ads bağlamında konuşuyor; oysa sosyal medya reklamları da aynı rüzgârın içinde: tarayıcı kısıtları, cihaz bazlı izleme izinleri ve consent oranları; pixel’in gördüğü sinyali azaltıyor. Bu azalma, iki tür soruna yol açıyor:\n\n1. Ölçüm: “kaç kişi dönüşüm yaptı?” sorusuna daha az net cevap.\n2. Optimizasyon: platformun öğrenme motoru daha az doğru sinyalle optimize ediyor.\n\nBu yazıda amaç korkutmak değil: cookieless dünyada sosyal medya reklamlarını “ölümsüz” yapmak değil; daha dayanıklı (signal-resilient) hale getirmek. Bunun yolu tek bir hack değil; browser + server hibrit ölçüm (CAPI), event önceliklendirme, consent yönetimi ve 1st party veri/CRM birleşimidir. Bu çerçeveyi ana paid social yapısı içinde okumak için, [cookieless sosyal medya reklam stratejisi](/tr/smm/sosyal-medya-reklamlari) yaklaşımını hizmet seviyesinde de değerlendirmek gerekir.",
       "quickSummary": [
         "1) Pixel sinyal kaybını tek başına platform sorunu gibi okuma",
         "2) Pixel + CAPI hibrit ölçüm ve dedupe disiplinini kur",
@@ -74463,43 +74872,71 @@
       "ctaPrimary": {
         "label": "Cookieless & Privacy Dönemi Sosyal Reklam Strateji Analizi Talep Et",
         "text": "Pixel+CAPI, consent ve 1st party veri setinizi denetleyip dayanıklı bir sinyal planı kuralım (otel ve B2B ekipleri için).",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Cookieless & Privacy Dönemi Sosyal Reklam Strateji Analizi Talep Et",
         "text": "Pixel sinyal kayıplarına karşı CAPI, event ve 1st party veri planıyla optimizasyonu stabilize eder.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "Cookieless Sinyal & 1st Party Veri Planlama Şablonunu İndir",
         "text": "Sinyal kaybına karşı event seti ve CRM listelerini standardize edersiniz.",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/downloads/cookieless-sinyal-1st-party-veri-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Click-to-WhatsApp ve Mesajlaşma Reklamları",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
+      },
+      {
+        "label": "Social Commerce ve In-App Checkout",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+      },
+      {
+        "label": "AI Destekli Bid ve Budget Optimisation",
+        "href": "/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi"
       },
       {
         "label": "KVKK ve Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
         "label": "Dönüşüm Takibi ve Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları ile Performans Funnel’ı Nasıl Kurulur?",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Click-to-WhatsApp ve Mesajlaşma Odaklı Reklamlar İçin Strateji",
+        "href": "/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji"
       },
       {
-        "title": "Dönüşüm Takibi ve Tag Manager Kurulumu",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "title": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+      },
+      {
+        "title": "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zeka Kullanımı",
+        "href": "/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi"
       }
     ],
     "sections": [
@@ -74514,6 +74951,10 @@
           {
             "type": "p",
             "text": "Cookieless ve privacy dönüşümü, tarayıcı/cihaz kısıtları ve consent tercihleri nedeniyle pixel’in topladığı dönüşüm sinyalini azaltabilir; bunun sonucu raporlarda eksik dönüşüm, daha dalgalı CPA/ROAS ve daha zor optimizasyon olabilir. Çözüm; CAPI ile server-side sinyal eklemek, event’leri önceliklendirmek, consent yönetimiyle modelleme sinyallerini korumak ve 1st party veri/CRM listeleriyle hedefleme–remarketing’i güçlendirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu konuyu [sosyal medya yönetimi içinde privacy-aware paid social](/tr/sosyal-medya-yonetimi) olarak ele almak gerekir; çünkü cookie kaybı yalnızca teknik ölçümü değil, hedefleme mantığını, konuşma akışlarını, veri toplama süreçlerini ve rapor okuma disiplinini de etkiler."
           },
           {
             "type": "callout",
@@ -74600,6 +75041,10 @@
           {
             "type": "p",
             "text": "Bu iki kısıt, platformların “ölçüm protokolleri” üretmesine neden oldu. Meta tarafında Aggregated Event Measurement (AEM) gibi protokoller, özellikle iOS tarafındaki kısıtlarla uyumlu ölçüm yaklaşımıdır."
+          },
+          {
+            "type": "p",
+            "text": "Burada “aggregated events Meta nedir” sorusunu tek başına bir özellik gibi değil; [CAPI ve event önceliklendirme](/tr/sem/donusum-takibi-tag-manager) çerçevesi içinde değerlendirmek gerekir. Çünkü sinyal kalitesi, event mapping ve Tag Manager disiplini olmadan AEM tek başına yeterli çözüm sunmaz."
           },
           {
             "type": "callout",
@@ -74738,6 +75183,14 @@
             "text": "Neden önemli? Çünkü cookieless ortamda “dış sinyal” azalırken, 1st party veri daha değerli hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bu noktada 1st-party veri ile hedefleme yaklaşımı, yalnızca müşteri listesi yüklemekten ibaret değildir; [KVKK uyumlu first-party veri kullanımı](/tr/raporlama/kvkk-veri-guvenligi) ile açık rıza, veri minimizasyonu ve izinli segment mantığını birlikte kurmak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Veri sinyali zayıfladığında [AI destekli bid ve budget optimisation](/tr/smm/blog/ai-destekli-bid-ve-budget-optimisation-sosyal-medya-reklamlarinda-yapay-zeka-kullanimi) kararları da doğrudan etkilenir; bu yüzden otomasyonun doğru öğrenebilmesi için event kalitesi, dedupe ve CRM kalite metrikleri birlikte izlenmelidir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (sinyal stratejisi)",
@@ -74772,6 +75225,10 @@
             "text": "Bu bölüm, “privacy-aware sosyal reklam modeli”ni sahaya indirir."
           },
           {
+            "type": "p",
+            "text": "Konuşma bazlı akışlarda [cookieless dönemde mesajlaşma reklamları](/tr/smm/blog/click-to-whatsapp-ve-mesajlasma-odakli-reklamlar-icin-strateji) daha da önem kazanır; çünkü WhatsApp ve DM üzerinden gelen first-party konuşma sinyalleri, pixel’in eksik gördüğü niyet verisini operasyonel olarak tamamlayabilir."
+          },
+          {
             "type": "h3",
             "text": "Otel örneği: destinasyon + kanal + 1st party"
           },
@@ -74799,6 +75256,10 @@
               "Kalite kontrol: SQL/toplantı metriği ile platform CPL’yi doğrula (cookieless’te “ucuz lead” tuzağı büyür)",
               "1st party: CRM segmentleriyle (SQL benzeri) lookalike denemeleri (Varsayım)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Benzer şekilde [social commerce sinyalleriyle reklam optimizasyonu](/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi) yaklaşımı; shop etkileşimi, checkout başlatma ve platform içi ürün ilgisi gibi sinyalleri cookieless dönemde daha görünür hale getirebilir."
           },
           {
             "type": "callout",
@@ -74881,6 +75342,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşatılmış): Cookieless dünyaya uyum sağlayan hesaplarda, sinyal kayıplarına rağmen optimizasyon ve ROAS’ın göreceli olarak daha stabil kaldığı raporlanıyor; bu, sinyal ve süreç disiplinine bağlı."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [cookieless reklam verisi analizi](/tr/veri-analiz-ve-raporlama) yaparken eksik veri, modelleme, kanal katkısı ve event kalitesi farklarını aynı rapor çerçevesinde birlikte değerlendirmek gerekir."
           }
         ]
       },
@@ -75048,6 +75513,14 @@
             "text": "Cookieless dönemde sosyal medya reklamları “bitmiyor”; ama sinyal stratejisi olmadan daha dalgalı hale geliyor. Pixel sinyal kaybını CAPI ile telafi etmek, event setini önceliklendirmek, consent/modelleme etkisini doğru okumak ve 1st party veri/CRM ile hedefleme–kalite kontrolü kurmak; otel ve B2B için geleceğe dayanıklı bir yapı oluşturur. Başarı, tek bir araçtan değil; teknik + operasyon + raporlama disiplininden gelir."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı uygulamaya taşımak için, [privacy-aware paid social ve first-party veriyle reklam stratejisi](/tr/smm/sosyal-medya-reklamlari) yaklaşımını teknik ölçüm, hedefleme, mesajlaşma ve raporlama katmanlarıyla birlikte planlamak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasında ölçüm, CAPI, veri kullanımı ve kampanya kapsamı detaylarını görmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -75056,14 +75529,14 @@
             "variant": "primary",
             "label": "Cookieless & Privacy Dönemi Sosyal Reklam Strateji Analizi Talep Et",
             "text": "Sinyal kayıplarına karşı CAPI+event+CRM planınızı kurup ölçümü stabilize edelim.",
-            "href": "/raporlama/kvkk-veri-guvenligi"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Cookieless Sinyal & 1st Party Veri Planlama Şablonunu İndir",
             "text": "Event önceliği, consent ve CRM listelerini tek sayfada planlayıp cookieless’e dayanıklı yapı kurarsınız.",
-            "href": "/sem/donusum-takibi-tag-manager"
+            "href": "/downloads/cookieless-sinyal-1st-party-veri-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -75122,10 +75595,11 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/sosyal-medya-reklamlari, /raporlama/kvkk-veri-guvenligi, /sem/donusum-takibi-tag-manager",
+          "İç link hedefleri normalize edildi: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/raporlama/kvkk-veri-guvenligi, /tr/sem/donusum-takibi-tag-manager, /tr/veri-analiz-ve-raporlama",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/cookieless-sinyal-1st-party-veri-planlama-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: Öncesi/Sonrası — Sinyal görünürlüğü ve event disiplini",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/cookieless-sinyal-1st-party-veri-planlama-sablonu-v1.0.pdf",
           "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1 kez",
           "Pixel + CAPI event_id dedupe notu içerikte yer aldı",
           "Consent/KVKK uyum notları teknik ve operasyonel checklist’e bağlandı"
@@ -75184,7 +75658,7 @@
     },
     "h1": {
       "title": "AI Destekli Bid ve Budget Optimisation: Sosyal Medya Reklamlarında Yapay Zekâ Kullanımı",
-      "intro": "Platformlar artık sadece “reklam göster” değil; bütçeyi nereye dağıtayım, hangi teklif stratejisi daha iyi, hangi kitleye kaydırayım gibi kararları da AI ile öneriyor. Bu iyi bir şey olabilir: doğru sinyal ve doğru kreatif havuzuyla, insanın manuel takip edemeyeceği kadar çok kombinasyonu test edip verimi artırabilir. Meta tarafında Advantage+ gibi otomasyon ürünleri; hedefleme, bütçe dağılımı ve optimizasyonu daha fazla AI’ye devrederek “daha hızlı ve daha ilgili reklam” hedefler.\n\nAma aynı gerçek geçerlidir: AI “iyi sinyali büyütür”, kötü sinyali de büyütür. Bu yüzden bu rehberin odağı “AI mucize mi?” değil; AI’yi hangi kararlarda direksiyona alıp, hangi kararlarda insanın direksiyonda kalacağını netleştirmektir.",
+      "intro": "Platformlar artık sadece “reklam göster” değil; bütçeyi nereye dağıtayım, hangi teklif stratejisi daha iyi, hangi kitleye kaydırayım gibi kararları da AI ile öneriyor. Bu iyi bir şey olabilir: doğru sinyal ve doğru kreatif havuzuyla, insanın manuel takip edemeyeceği kadar çok kombinasyonu test edip verimi artırabilir. Meta tarafında Advantage+ gibi otomasyon ürünleri; hedefleme, bütçe dağılımı ve optimizasyonu daha fazla AI’ye devrederek “daha hızlı ve daha ilgili reklam” hedefler.\n\nAma aynı gerçek geçerlidir: AI “iyi sinyali büyütür”, kötü sinyali de büyütür. Bu yüzden bu rehberin odağı “AI mucize mi?” değil; AI’yi hangi kararlarda direksiyona alıp, hangi kararlarda insanın direksiyonda kalacağını netleştirmektir. Bu dengeyi ana paid social çerçevesinde görmek için, [AI destekli bid budget optimisation](/tr/smm/sosyal-medya-reklamlari) yaklaşımını genel sosyal medya reklam yönetimi içinde de okumak gerekir.",
       "quickSummary": [
         "1) AI’yi kurtarıcı değil, hızlandırıcı optimizasyon motoru olarak konumlandır",
         "2) Önce sinyal altyapısını güçlendir: pixel + CAPI + dedupe",
@@ -75195,43 +75669,63 @@
       "ctaPrimary": {
         "label": "AI Destekli Bid/Bütçe Optimizasyon Strateji Analizi Talep Et",
         "text": "Yüksek bütçeli otel/B2B hesaplarınızda AI önerilerini hedeflerle hizalayıp guardrail’li optimizasyon modeli kurar.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AI Destekli Bid/Bütçe Optimizasyon Strateji Analizi Talep Et",
         "text": "AI önerilerini hedef ve guardrail’lerle hizalayıp bütçe israfı riskini azaltır.",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       "secondary": {
         "label": "AI + İnsan Kontrollü Bid & Budget Planlama Şablonunu İndir",
         "text": "Kısa dönem sapmaları ve learning etkisini dikkate alarak karar disiplinini korursunuz.",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/downloads/ai-insan-kontrollu-bid-budget-planlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Social Commerce ve In-App Checkout",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
+      },
+      {
+        "label": "Cookieless ve Privacy Dönüşümü",
+        "href": "/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Reklamları SSS",
+        "href": "/tr/smm/sosyal-medya-reklamlari-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamları ile Performans Funnel’ı Nasıl Kurulur?",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "title": "Social Commerce ve In-App Checkout: Sosyal Medya Reklamlarında Satın Alma Akışı",
+        "href": "/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi"
       },
       {
-        "title": "Reklam Raporlama ve KPI Okuma Disiplini",
-        "href": "/sem/reklam-raporlama"
+        "title": "Cookieless ve Privacy Dönüşümünde Sosyal Medya Reklam Stratejisi",
+        "href": "/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi"
       }
     ],
     "sections": [
@@ -75246,6 +75740,10 @@
           {
             "type": "p",
             "text": "AI optimizasyonu, temelde şu girdilerle çalışır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı [sosyal medya yönetimi içinde yapay zekâ ile reklam bütçesi yönetmek](/tr/sosyal-medya-yonetimi) olarak düşünmek gerekir; çünkü AI önerileri ancak kampanya hedefi, kreatif planı, bütçe disiplini ve raporlama rutinleriyle birlikte anlam kazanır."
           },
           {
             "type": "list",
@@ -75301,6 +75799,10 @@
           {
             "type": "p",
             "text": "Buradaki en pratik yaklaşım “karar katmanı” ayrımıdır:"
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada “Meta reklam bütçe önerisi dinlenmeli mi?” sorusuna tek kelimelik bir cevap vermek doğru değildir; öneri ancak hedef KPI, guardrail, learning etkisi, frekans ve satış kalitesiyle birlikte değerlendirildiğinde uygulanmalıdır."
           },
           {
             "type": "h3",
@@ -75406,6 +75908,10 @@
             "text": "Otel senaryosu 1: Sezon ölçekleme ve bütçe koridoru"
           },
           {
+            "type": "p",
+            "text": "Ürün veya paket bazlı kampanyalarda [social commerce kampanyalarında AI bütçe optimizasyonu](/tr/smm/blog/social-commerce-ve-in-app-checkout-sosyal-medya-reklamlarinda-satin-alma-akisi) mantığı; hangi shop, checkout veya paket akışının daha verimli sonuç ürettiğini daha net okumayı sağlar."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -75479,6 +75985,10 @@
             "text": "AI optimizasyonu yanlış kurulduğunda 3 tip risk doğurur:"
           },
           {
+            "type": "p",
+            "text": "Özellikle sinyal kalitesi düştüğünde [cookieless dönemde AI bütçe önerileri](/tr/smm/blog/cookieless-ve-privacy-donusumunde-sosyal-medya-reklam-stratejisi) daha dikkatli okunmalıdır; çünkü eksik event, zayıf first-party veri veya sorunlu attribution ortamında otomasyon yanlış şeyi büyütebilir."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -75536,6 +76046,18 @@
           {
             "type": "p",
             "text": "Aşağıdaki tablo, kararları tek ekranda okumak için tasarlandı (Media Pack’teki tek tablo)."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki ana amaç, [AI bütçe önerilerini veriyle doğrulamak](/tr/veri-analiz-ve-raporlama) ve platform önerisini bağımsız trend, dönüşüm kalitesi ve kanal katkısı verileriyle çapraz kontrol etmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [reklam raporunda AI media buying](/tr/sem/reklam-raporlama) kararlarını; bütçe değişimi, learning dönemi, CPA/ROAS farkı ve risk notlarıyla birlikte şeffaf şekilde göstermek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bazı dönemlerde [SEO raporlarıyla bütçe etkisini birlikte okumak](/tr/seo/seo-raporlama) da faydalıdır; çünkü paid social bütçe değişimleri marka araması, organik trafik ve landing page performansı üzerinde dolaylı etkiler yaratabilir."
           },
           {
             "type": "table",
@@ -75708,18 +76230,26 @@
             "text": "AI bid ve bütçe optimizasyonu, doğru kurulduğunda zaman kazandırır ve ölçeklemeyi kolaylaştırır; yanlış kurulduğunda ise bütçeyi yanlış önceliklere taşıyabilir. En sağlıklı yaklaşım: AI önerilerini guardrail ve insan kontrolüyle birlikte kullanmak, kararları birkaç haftalık trendle okumak ve learning dönemini sürekli resetleyecek “aşırı müdahaleden” kaçınmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu dengeyi kalıcı bir sisteme çevirmek için, [AI media buying ve insan kontrollü sosyal medya reklam optimizasyonu](/tr/smm/sosyal-medya-reklamlari) yaklaşımını kampanya kurulumu, veri doğrulama ve raporlama disipliniyle birlikte ele almak gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Karar aşamasında bütçe yönetimi, teklif stratejisi ve hizmet kapsamını daha net görmek için [Sosyal Medya Reklamları hakkında sık sorulan sorular](/tr/smm/sosyal-medya-reklamlari-sss) sayfasına da geçebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "AI Destekli Bid/Bütçe Optimizasyon Strateji Analizi Talep Et",
             "text": "AI önerilerini hedeflerinizle hizalayıp, otel/B2B hesabınız için guardrail’li optimizasyon modeli kurar.",
-            "href": "/sem/reklam-raporlama"
+            "href": "/tr/smm/sosyal-medya-reklamlari"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "AI + İnsan Kontrollü Bid & Budget Planlama Şablonunu İndir",
             "text": "AI önerilerini hangi koşulda uygulayacağınızı ve kontrol noktalarını tek sayfada standardize edersiniz.",
-            "href": "/veri-analiz-ve-raporlama"
+            "href": "/downloads/ai-insan-kontrollu-bid-budget-planlama-sablonu-v1.0.pdf"
           }
         ]
       }
@@ -75774,10 +76304,11 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/sosyal-medya-reklamlari, /sem/reklam-raporlama, /veri-analiz-ve-raporlama",
+          "İç link hedefleri normalize edildi: /tr/smm/sosyal-medya-reklamlari, /tr/sosyal-medya-yonetimi, /tr/veri-analiz-ve-raporlama, /tr/sem/reklam-raporlama, /tr/seo/seo-raporlama",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/ai-insan-kontrollu-bid-budget-planlama-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: AI önerisi ve insan kontrolü sonuç okuması",
+          "CTA linkleri: /tr/smm/sosyal-medya-reklamlari, /downloads/ai-insan-kontrollu-bid-budget-planlama-sablonu-v1.0.pdf",
           "CTA yoğunluğu kontrol edildi: Primary 2 kez, Secondary 1 kez",
           "Learning phase, guardrail ve insan kontrolü notları içerikte yer aldı",
           "Pixel + CAPI + dedupe teknik bağımlılığı AI optimizasyon riskleriyle ilişkilendirildi"
@@ -75836,7 +76367,7 @@
     },
     "h1": {
       "title": "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
-      "intro": "Sosyal medya raporunu toplamda okumak, “ortalama” bir hikâye anlatır; ama gerçek sorunlar çoğu zaman ortalamanın içinde kaybolur. Mobil kullanıcılar çıkıyor, masaüstü iyi gidiyor olabilir; belirli bir ülkede etkileşim yüksek ama dönüşüm yoktur; yeni kullanıcı kazanımı iyiyken geri dönenlerde sadakat düşebilir. Segment bazlı analiz, bu gizli kırılmaları görünür kılar ve otel/B2B markalarda bütçe ile içerik odağını netleştirir. Bu rehberde cihaz, ülke/pazar ve yeni/geri dönen kullanıcı segmentleriyle “teşhis → öncelik → aksiyon” sistemini kuracağız.",
+      "intro": "Sosyal medya raporunu toplamda okumak, “ortalama” bir hikâye anlatır; ama gerçek sorunlar çoğu zaman ortalamanın içinde kaybolur. Mobil kullanıcılar çıkıyor, masaüstü iyi gidiyor olabilir; belirli bir ülkede etkileşim yüksek ama dönüşüm yoktur; yeni kullanıcı kazanımı iyiyken geri dönenlerde sadakat düşebilir. Segment bazlı analiz, bu gizli kırılmaları görünür kılar ve otel/B2B markalarda bütçe ile içerik odağını netleştirir. Bu rehberde cihaz, ülke/pazar ve yeni/geri dönen kullanıcı segmentleriyle “teşhis → öncelik → aksiyon” sistemini kuracağız. Bu yaklaşımı operasyonel hale getirmek isteyen ekipler için [segment bazlı sosyal medya analizi](/tr/smm/analiz-raporlama) disiplini, toplam ortalamanın sakladığı fırsat ve riskleri daha görünür hale getirir.",
       "quickSummary": [
         "1) Toplam raporu değil, segment-first raporu ana okuma modeli yap",
         "2) Cihaz, ülke/pazar ve yeni/geri dönen kullanıcı kırılımlarını birlikte değerlendir",
@@ -75847,43 +76378,71 @@
       "ctaPrimary": {
         "label": "Segment Bazlı Sosyal Medya Analizi Talep Et",
         "text": "Cihaz/ülke/yeni-geri dönen segment raporunu kurup zayıf segmentlere aksiyon planı çıkarır; çok pazarlı otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Segment Bazlı Sosyal Medya Analizi Talep Et",
         "text": "Cihaz/ülke/yeni-geri dönen kırılımıyla sorun ve fırsatları netleştirir; çok pazarlı otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Segment Bazlı SMM Raporlama & Aksiyon Şablonunu İndir",
         "text": "Segment bulgularını tek sayfada toplar, zayıf segmentleri aksiyon planına çevirerek optimizasyon hızını artırır.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/segment-bazli-smm-raporlama-aksiyon-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Okumak",
+        "href": "/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+        "href": "/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+      },
+      {
+        "label": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
+        "href": "/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       },
       {
         "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Reklamlarında KPI ve Raporlama Disiplini",
-        "href": "/smm/analiz-raporlama"
+        "title": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
       },
       {
-        "title": "Looker Studio ile Pazarlama Raporu Nasıl Kurulur?",
-        "href": "/raporlama/looker-studio"
+        "title": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
+        "href": "/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+      },
+      {
+        "title": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
+        "href": "/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
       }
     ],
     "sections": [
@@ -75894,6 +76453,10 @@
           {
             "type": "p",
             "text": "Toplam rapor, “ne oldu”yu gösterir; segment rapor ise “nerede oldu ve kime oldu”yu gösterir. Bu fark, özellikle otellerde (çok ülke/pazar) ve B2B’de (yeni hesap vs mevcut müşteri) kritiktir."
+          },
+          {
+            "type": "p",
+            "text": "Bu bakışı [sosyal medya yönetiminde segment analizi](/tr/sosyal-medya-yonetimi) çerçevesine oturtmak gerekir; çünkü genel ortalamalar tek başına yetmez, cihaz, ülke ve kullanıcı tipi kırılımları içerik, bütçe ve kampanya kararlarını doğrudan etkiler."
           },
           {
             "type": "p",
@@ -75949,6 +76512,14 @@
           {
             "type": "p",
             "text": "Bu bölüm AEO için net cevap ister: Segment analizi; aynı filtrelerle platform insights ve GA4’ü senkronlayarak yapılır, sonra her segment bulgusu aksiyona bağlanır."
+          },
+          {
+            "type": "p",
+            "text": "Burada [GA4 ve sosyal medya insights verilerini birlikte okumak](/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak) yaklaşımı kritik rol oynar; cihaz, ülke ve kullanıcı tipi kırılımlarını yalnız platform ekranında değil, site davranışı ve kalite sinyalleriyle birlikte değerlendirmek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Segmentleri düzenli takip etmek için filtre senkronunu ve kırılımları bir [segment bazlı dashboard yapısı](/tr/raporlama/looker-studio) içinde toplamak, ekiplerin aynı ekran üzerinden karar almasını kolaylaştırır."
           },
           {
             "type": "h3",
@@ -76088,6 +76659,14 @@
             "text": "Çok pazarlı otellerde ve uluslararası B2B’de ülke segmenti, bütçe ve içerik planını belirler. Aynı kreatif, farklı pazarda farklı niyetle çalışabilir."
           },
           {
+            "type": "p",
+            "text": "Ülke ve cihaz farklarını tek dönemlik okumak yerine [trend bazlı sosyal medya performans analizi](/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak) mantığıyla zaman ve sezon etkisiyle birlikte değerlendirmek, geçici dalgalanma ile yapısal sorunu ayırmanıza yardımcı olur."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca sosyal medyadan gelen ülke ve pazar segmentlerini [SEO raporlarıyla kullanıcı segmentlerini birlikte okumak](/tr/seo/seo-raporlama) da önemlidir; marka araması, organik trafik ve pazar bazlı görünürlük değişimi, sosyal taraftaki ilginin kalitesini daha iyi yorumlamayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Otel ve B2B için ülke/pazar bazlı sosyal rapor nasıl hazırlanır?"
           },
@@ -76157,6 +76736,10 @@
           {
             "type": "p",
             "text": "Yeni kullanıcı, büyümenin; geri dönen kullanıcı, güvenin ve sadakatin göstergesidir. Segment analizi; “kitle büyüyor mu?” ve “kitle geri geliyor mu?” sorusunu aynı raporda cevaplar."
+          },
+          {
+            "type": "p",
+            "text": "Bu farkları yalnız acquisition seviyesinde bırakmayıp [segment bazlı sosyal medya funnel raporu](/tr/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e) mantığıyla görünürlükten lead, rezervasyon veya dönüşüme kadar izlemek, hangi kullanıcı tipinin funnel içinde nerede koptuğunu daha net gösterir."
           },
           {
             "type": "h3",
@@ -76233,6 +76816,10 @@
             "text": "Segment analizi, aksiyon üretmiyorsa sadece “parçalı tablo” olur. Bu bölüm, bulguyu aksiyona bağlayan pratik çerçevedir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden yalnız mobil vs masaüstü sosyal performans ya da yeni vs geri dönen kullanıcılar kırılımını görmek yetmez; [cihaz ve ülke kırılımlarını raporlamak](/tr/veri-analiz-ve-raporlama) ve bu farkları önceliklendirilmiş test planına çevirmek gerekir."
+          },
+          {
             "type": "h3",
             "text": "Segment → aksiyon eşleştirme (tablo)"
           },
@@ -76296,14 +76883,18 @@
             "variant": "primary",
             "label": "Segment Bazlı Sosyal Medya Analizi Talep Et",
             "text": "Cihaz/ülke/new-returning segment raporu + aksiyon planı ile optimizasyon hızını artırır; çok pazarlı otel ve B2B ekipleri için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Segment Bazlı SMM Raporlama & Aksiyon Şablonunu İndir",
             "text": "Segment bulgularını tek sayfada toplar, zayıf segmentleri aksiyon planına çevirerek optimizasyon hızını artırır.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/segment-bazli-smm-raporlama-aksiyon-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu kırılımları düzenli takip etmek isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile cihaz, ülke ve kullanıcı tipi bazlı rapor yapısı kurulabilir; kapsam ve süreç detayları için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -76499,7 +77090,7 @@
     },
     "h1": {
       "title": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
-      "intro": "Sosyal medya raporlarında en yorucu cümle şudur: “Erişim çok ama satış yok.” Bu cümle genellikle yanlış teşhis doğurur—ekip kreatifi veya “algoritmayı” suçlar, oysa kayıp bazen landing sayfasında veya form/rezervasyon akışındadır. Funnel raporu, bu tartışmayı bitirir: sosyal medya performansını görünürlükten başlayıp iş sonucuna kadar adım adım ölçer ve kaybın hangi halkada olduğunu sayısallaştırır. Bu rehberde hem otel hem B2B için funnel’ı nasıl kuracağınızı, her adımda hangi KPI’lara bakacağınızı ve darboğazları aksiyona nasıl çevireceğinizi anlatıyorum.",
+      "intro": "Sosyal medya raporlarında en yorucu cümle şudur: “Erişim çok ama satış yok.” Bu cümle genellikle yanlış teşhis doğurur—ekip kreatifi veya “algoritmayı” suçlar, oysa kayıp bazen landing sayfasında veya form/rezervasyon akışındadır. Funnel raporu, bu tartışmayı bitirir: sosyal medya performansını görünürlükten başlayıp iş sonucuna kadar adım adım ölçer ve kaybın hangi halkada olduğunu sayısallaştırır. Bu rehberde hem otel hem B2B için funnel’ı nasıl kuracağınızı, her adımda hangi KPI’lara bakacağınızı ve darboğazları aksiyona nasıl çevireceğinizi anlatıyorum. Bu yapıyı sistematik hale getirmek isteyen ekipler için [sosyal medya funnel raporu](/tr/smm/analiz-raporlama) yaklaşımı, görünürlükten dönüşüme kadar tüm akışı tek çerçevede toplamayı kolaylaştırır.",
       "quickSummary": [
         "1) Funnel adımlarını sabitle: impression → engagement → click → site → lead/rezervasyon",
         "2) Her adım için 2–4 çekirdek KPI belirle",
@@ -76510,43 +77101,71 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Funnel Analizi Talep Et",
         "text": "Organik+reklam+GA4 verisini eşleyip funnel darboğazını bulur; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Funnel Analizi Talep Et",
         "text": "Funnel’da dar boğazın kreatif, hedefleme veya landing’de olduğunu netleştirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Sosyal Medya Funnel Raporlama & Darboğaz Tespit Şablonunu İndir",
         "text": "Adım adım KPI’ları tek sayfada toplar, kaybın nerede olduğunu gösterip doğru aksiyonla kapatmanızı sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/sosyal-medya-funnel-raporlama-darbogaz-tespit-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Okumak",
+        "href": "/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
+      },
+      {
+        "label": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      },
+      {
+        "label": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+        "href": "/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
       },
       {
         "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "Sosyal Medya Reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "PMS & OTA Online Satış",
+        "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
-        "href": "/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar"
+        "title": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
+        "href": "/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
       },
       {
-        "title": "Reklam Raporlama ve KPI Okuma Disiplini",
-        "href": "/sem/reklam-raporlama"
+        "title": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      },
+      {
+        "title": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+        "href": "/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
       }
     ],
     "sections": [
@@ -76557,6 +77176,10 @@
           {
             "type": "p",
             "text": "Funnel kurmak, “her şeyin KPI’ını” takip etmek değil; her adımın bir sonraki adıma geçişini ölçmektir. Basit ama güçlü bir sosyal funnel şu 5 katmandan oluşur:"
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi [sosyal medya yönetiminde funnel analizi](/tr/sosyal-medya-yonetimi) mantığıyla ele almak gerekir; çünkü yalnız erişim ve etkileşim değil, trafik, lead, rezervasyon ve satış akışı da aynı yönetim döngüsünün parçasıdır."
           },
           {
             "type": "list",
@@ -76589,6 +77212,14 @@
           {
             "type": "p",
             "text": "Funnel analizi yapılırken reklam + organik + GA4 verilerinin tarih ve kampanya bazında tutarlı eşleştirildiğinden emin olun. Filtre senkronu yoksa yanlış yorum riski artar."
+          },
+          {
+            "type": "p",
+            "text": "Bu eşleştirmeyi sağlıklı yapmak için [GA4 ve sosyal medya insights verilerini birlikte okumak](/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak) yaklaşımı kritik rol oynar; görünürlük, tıklama, oturum ve dönüşüm sinyalleri aynı zaman ve kampanya bağlamında değerlendirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı raporda organik içeriğin ve paid kampanyaların katkısını ayırmak için de [organik ve reklamlı sosyal medya performansını birlikte raporlamak](/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak) faydalıdır; böylece funnel’daki katkının hangi kaynaktan geldiği daha net görünür."
           },
           {
             "type": "callout",
@@ -76695,6 +77326,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu son adımı yalnız bir platform sonucu olarak değil, [görünürlükten lead ve rezervasyona giden akış](/tr/raporlama/satis-donusum) olarak okumak gerekir; çünkü funnel ancak iş sonucuna bağlandığında karar üretir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (KPI disiplini)",
@@ -76785,6 +77420,10 @@
             "text": "Otellerde sosyal medya funnel’ı genellikle “ilham → niyet → teklif → rezervasyon” akışında çalışır. İçeriğin rolü; önce destinasyon/konsept ile ilgiyi artırmak, sonra oda/teklif sayfasına niyetli trafik taşımaktır."
           },
           {
+            "type": "p",
+            "text": "Bu akış, özellikle [otel sosyal medya funneli](/tr/pms-ota/online-satis) bakışıyla rezervasyon motoru, oda sayfaları ve online satış adımlarıyla birlikte okunduğunda daha anlamlı hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Otel funnel akışı (örnek)"
           },
@@ -76840,6 +77479,10 @@
           {
             "type": "p",
             "text": "B2B’de sosyal medya funnel’ı “eğitim/kanıt → site → form/demo” şeklinde ilerler. Başarı, genellikle içerik pillar’larının (case, edutainment, rehber) doğru kombinasyonuna bağlıdır."
+          },
+          {
+            "type": "p",
+            "text": "Lead’in site üzerinde kalmayıp satış sürecine taşınabilmesi için [sosyal medya gelir raporlama ve CRM entegrasyonu](/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu) yaklaşımıyla form, CRM ve gelir verisinin aynı akışta izlenmesi gerekir."
           },
           {
             "type": "h3",
@@ -76917,6 +77560,10 @@
             "text": "Competitor Gap’i kapatan pratik: “Algoritma” demeden önce, aşağıdaki checklist’i çalıştırın."
           },
           {
+            "type": "p",
+            "text": "Özellikle “trafik var satış yoksa sorun nerede” sorusuna yanıt ararken, darboğazın hedefleme, kreatif, bütçe ya da landing tarafında olup olmadığını [sosyal medya kampanyalarının dönüşüm etkisi](/tr/smm/sosyal-medya-reklamlari) üzerinden okumak daha doğru aksiyon üretir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (darboğaz tespit)",
@@ -76946,7 +77593,7 @@
             "variant": "primary",
             "label": "Sosyal Medya Funnel Analizi Talep Et",
             "text": "Funnel darboğazını kampanya bazında çıkarır, aksiyon planını sahiplendirir; otel ve B2B ekipleri için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "media",
@@ -76957,7 +77604,11 @@
             "variant": "secondary",
             "label": "Sosyal Medya Funnel Raporlama & Darboğaz Tespit Şablonunu İndir",
             "text": "Adım adım KPI’ları tek sayfada toplar, kaybın nerede olduğunu gösterip doğru aksiyonla kapatmanızı sağlar.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/sosyal-medya-funnel-raporlama-darbogaz-tespit-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı düzenli kurmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile funnel bazlı rapor yapısı ve darboğaz takibi kurulabilir; kapsam ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -77108,7 +77759,7 @@
     },
     "h1": {
       "title": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
-      "intro": "Aylık raporlar hızlıdır ama özellikle otel ve sezonluk sektörlerde yanıltıcı olabilir: “Bu ay düşüş var” dediğiniz şey, aslında normal bir sezon dalgalanmasıdır. Ya da tam tersi; “Bu ay iyi” dediğiniz şey tek seferlik kampanya etkisidir ve sürdürülebilir büyüme değildir. Bu nedenle sosyal medya performansını time-series (zaman serisi) bakışla okumak gerekir: yıl/yıl (YoY) kıyası, sezon paternleri, haftalık-günlük ritimler ve önemli olayların grafiğe notlanması. Bu rehber, raporu “panik”ten çıkarıp “strateji”ye bağlayan trend okuma sistemini kurar.",
+      "intro": "Aylık raporlar hızlıdır ama özellikle otel ve sezonluk sektörlerde yanıltıcı olabilir: “Bu ay düşüş var” dediğiniz şey, aslında normal bir sezon dalgalanmasıdır. Ya da tam tersi; “Bu ay iyi” dediğiniz şey tek seferlik kampanya etkisidir ve sürdürülebilir büyüme değildir. Bu nedenle sosyal medya performansını time-series (zaman serisi) bakışla okumak gerekir: yıl/yıl (YoY) kıyası, sezon paternleri, haftalık-günlük ritimler ve önemli olayların grafiğe notlanması. Bu rehber, raporu “panik”ten çıkarıp “strateji”ye bağlayan trend okuma sistemini kurar. Bu yaklaşımı kurumsal rapor akışına taşımak için [sezonluk sosyal medya performansı](/tr/smm/analiz-raporlama) odağını ana analiz yapısıyla birlikte ele almak gerekir.",
       "quickSummary": [
         "1) Aylık dalgalanmayı tek başına karar sinyali yapma",
         "2) Aynı dönemi YoY kıyasla ve sezon fazını notla",
@@ -77119,43 +77770,71 @@
       "ctaPrimary": {
         "label": "Zaman Bazlı & Sezonluk Sosyal Medya Analizi Talep Et",
         "text": "YoY ve sezon trendlerini çıkarır, olay notlarıyla doğru teşhis ve aksiyon planı üretir; turizm ve sezon etkisi güçlü markalar için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Zaman Bazlı & Sezonluk Sosyal Medya Analizi Talep Et",
         "text": "YoY ve sezon trendleriyle dalgalanmayı normalize eder, gerçek yönü netleştirir; sezon etkisi güçlü markalar için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "YoY & Sezonluk SMM Trend Grafiği Şablonunu İndir",
         "text": "YoY grafik ve timeline notlarıyla raporu standartlaştırır, yanlış alarmı azaltıp stratejik okuma sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/yoy-sezonluk-smm-trend-grafigi-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Segment Bazlı Sosyal Medya Analizi",
+        "href": "/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar"
+      },
+      {
+        "label": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
+        "href": "/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak"
+      },
+      {
+        "label": "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
+        "href": "/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
-        "href": "/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+        "title": "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
+        "href": "/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar"
       },
       {
-        "title": "Segment Bazlı Sosyal Medya Analizi: Cihaz, Ülke ve Yeni vs Geri Dönen Kullanıcılar",
-        "href": "/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar"
+        "title": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
+        "href": "/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak"
+      },
+      {
+        "title": "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
+        "href": "/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri"
       }
     ],
     "sections": [
@@ -77166,6 +77845,10 @@
           {
             "type": "p",
             "text": "Aylık (MoM) karşılaştırma, “son dalgayı” gösterir; YoY ise aynı dönemdeki sezon etkisini kontrol ederek gerçek yönü daha net anlatır. Örneğin turizmde Ocak ve Temmuz’u MoM kıyaslamak, çoğu zaman anlamsızdır; çünkü talep dinamiği ve içerik tüketimi farklıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, [sosyal medya yönetiminde trend bazlı performans okuma](/tr/sosyal-medya-yonetimi) disiplininin yalnızca rapor üretmek değil; içerik, bütçe ve kampanya takvimini aynı veri diliyle yönetmek anlamına geldiğini gösterir."
           },
           {
             "type": "h3",
@@ -77256,6 +77939,10 @@
               "Yüksek sezon: dönüşüm/rezervasyon niyeti KPI’ları daha kritik olur",
               "Sezon sonu: sadakat/geri dönüş ve remarketing sinyalleri önem kazanır"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu farkların hangi kırılımda büyüdüğünü görmek için [segment bazlı sosyal medya analizi](/tr/smm/blog/segment-bazli-sosyal-medya-analizi-cihaz-ulke-ve-yeni-geri-donen-kullanicilar) yaklaşımıyla cihaz, ülke ve yeni/geri dönen kullanıcı ayrımına bakmak gerekir; özellikle turizm markalarında bu tabloyu [otel dijital pazarlamada sezonluk performans](/tr/otel-dijital-pazarlama) planıyla birlikte okumak daha sağlıklı karar üretir."
           },
           {
             "type": "callout",
@@ -77369,6 +78056,10 @@
           {
             "type": "p",
             "text": "Grafiğin altına küçük etiketler ekleyin: “Kampanya başladı”, “Yeni seri”, “Bütçe +%30”, “Site revizyonu”. Bu etiketler, “neden oldu” sorusunu hızlandırır."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [kampanya ve always-on performansını ayrı okumak](/tr/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak) yaklaşımı planlı sıçramaları baz performanstan ayırır; beklenmeyen hareketlerde ise [anomali ve spike tespiti](/tr/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri) ile normal sezon etkisiyle gerçek alarmı birbirinden ayırmak gerekir."
           },
           {
             "type": "callout",
@@ -77485,6 +78176,10 @@
             "text": "Sadece sosyal metrik değil; web trafiği ve rezervasyon/lead gibi alt KPI’ları da YoY/seasonal analize dahil edin. Aksi halde “görünürlük artıyor” ama “iş etkisi” görünmez kalır."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [sezonluk performansı benchmark ile karşılaştırmak](/tr/raporlama/benchmark-analizi) sadece geçen aya değil, geçen yılın aynı dönemine ve sektörel referanslara bakmayı sağlar; ardından [trend verilerini doğru yorumlamak](/tr/veri-analiz-ve-raporlama) için sosyal, web ve dönüşüm katmanlarını birlikte değerlendirmek gerekir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (trend+benchmark)",
@@ -77513,7 +78208,7 @@
             "variant": "primary",
             "label": "Zaman Bazlı & Sezonluk Sosyal Medya Analizi Talep Et",
             "text": "YoY & sezon trendlerini çıkarır, benchmark ve olay notlarıyla “gerçek yön”ü netleştirir; turizm ve sezon etkisi güçlü markalar için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "media",
@@ -77532,7 +78227,11 @@
             "variant": "secondary",
             "label": "YoY & Sezonluk SMM Trend Grafiği Şablonunu İndir",
             "text": "YoY grafik ve timeline notlarıyla raporu standartlaştırır, yanlış alarmı azaltıp stratejik okuma sağlar.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/yoy-sezonluk-smm-trend-grafigi-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kalıcı hale getirmek isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile YoY, sezon ve benchmark temelli rapor akışı kurulabilir; kapsam ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -77618,7 +78317,7 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/analiz-raporlama, /raporlama/benchmark-analizi, /veri-analiz-ve-raporlama",
+          "İç link hedefleri normalize edildi: /tr/smm/analiz-raporlama, /tr/raporlama/benchmark-analizi, /tr/veri-analiz-ve-raporlama",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/yoy-sezonluk-smm-trend-grafigi-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: Olay türü → beklenen KPI etkisi",
@@ -77680,7 +78379,7 @@
     },
     "h1": {
       "title": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
-      "intro": "Sosyal medya raporlarında en sık yapılan hata, kampanya dönemindeki “ani yükselişleri” tüm yılın performansı gibi okumaktır. Bu hata, özellikle otel ve B2B hesaplarda bütçe ve içerik stratejisini bozar: kampanya çok iyi gidince always-on ihmal edilir; kampanya bitince performans “çöktü” sanılır. Oysa doğru yaklaşım iki katmanlıdır: Always-on = baseline (marka sesi, istikrar, sürdürülebilir trafik) ve Campaign = burst (kısa dönem sıçrama, lead/rezervasyon veya satış artışı). Bu rehberde, kampanya ve always-on’ı nasıl ayıracağınızı, KPI beklentilerini nasıl kuracağınızı ve yıllık plan-timeline ile nasıl bağlayacağınızı anlatıyorum.",
+      "intro": "Sosyal medya raporlarında en sık yapılan hata, kampanya dönemindeki “ani yükselişleri” tüm yılın performansı gibi okumaktır. Bu hata, özellikle otel ve B2B hesaplarda bütçe ve içerik stratejisini bozar: kampanya çok iyi gidince always-on ihmal edilir; kampanya bitince performans “çöktü” sanılır. Oysa doğru yaklaşım iki katmanlıdır: Always-on = baseline (marka sesi, istikrar, sürdürülebilir trafik) ve Campaign = burst (kısa dönem sıçrama, lead/rezervasyon veya satış artışı). Bu rehberde, kampanya ve always-on’ı nasıl ayıracağınızı, KPI beklentilerini nasıl kuracağınızı ve yıllık plan-timeline ile nasıl bağlayacağınızı anlatıyorum. Bu çerçeveyi operasyonel olarak kurmak isteyen ekipler için [kampanya ve always-on rapor ayrımı](/tr/smm/analiz-raporlama) ana analiz yapısının önemli bir parçasıdır.",
       "quickSummary": [
         "1) Kampanya dönemindeki spike’ları tüm yılın performansı gibi okuma",
         "2) Always-on’u baseline, kampanyayı burst olarak ayrı raporla",
@@ -77691,43 +78390,71 @@
       "ctaPrimary": {
         "label": "Kampanya vs Always-On SMM Rapor Analizi Talep Et",
         "text": "Kampanya bloklarını ayrıştırır, baseline’ı ölçer, yıllık plan ve bütçeyle bağlar; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kampanya vs Always-On SMM Rapor Analizi Talep Et",
         "text": "Kampanya spike’larını baseline’dan ayırır, ROI ve marka varlığını doğru değerlendirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Kampanya & Always-On Ayrıştırılmış SMM Dashboard Şablonunu İndir",
         "text": "Baseline ve burst performansını tek dashboard’da ayırır, yıllık plan ve bütçeyi doğru okumanızı sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/kampanya-always-on-ayristirilmis-smm-dashboard-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Zaman Bazlı ve Sezonluk Analiz",
+        "href": "/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
+      },
+      {
+        "label": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
+        "label": "Sosyal Medya Performans Raporu KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
       },
       {
         "label": "SMM Planlama ve Strateji",
-        "href": "/smm/planlama-strateji"
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "Sosyal Medya Reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
         "title": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
-        "href": "/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
+        "href": "/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
       },
       {
-        "title": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
-        "href": "/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+        "title": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
+      },
+      {
+        "title": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+        "href": "/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
       }
     ],
     "sections": [
@@ -77754,6 +78481,10 @@
           {
             "type": "p",
             "text": "Çünkü kampanya dönemleri metrikleri şişirebilir: erişim, tıklama, lead/rezervasyon kısa dönemde sıçrar. Bu sıçramayı always-on performansı sanarsanız yılın geri kalanını yanlış değerlendirirsiniz. Ayrı raporlama; kampanyanın ek katkısını (incremental) ve always-on’un sürdürülebilirliğini (baseline) netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu ayrım, [sosyal medya yönetiminde kampanya ve always-on performansı](/tr/sosyal-medya-yonetimi) bakışının önemli bir parçasıdır; çünkü sürekli marka akışı ile kısa dönemli burst performansı aynı tabloda okumak çoğu zaman yanlış bütçe ve içerik kararları üretir."
           },
           {
             "type": "h3",
@@ -77855,6 +78586,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya kampanya performansı nasıl raporlanır](/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi) sorusunu tek KPI listesiyle değil, kampanya ve baseline için farklı beklentiler tanımlayan ayrı bir çerçeveyle ele almak gerekir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım?",
@@ -77899,6 +78634,10 @@
           {
             "type": "p",
             "text": "Kampanya tarih aralıklarının raporda net işaretlenmemesi, özellikle YoY ve kanal bazlı analizi bozar. Raporun en üstünde “kampanya tarihleri” mutlaka görünür olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Burada [sezonluk sosyal medya performansını trend bazlı okumak](/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak) yaklaşımı kampanya etkisini doğal sezon hareketlerinden ayırmaya yardım eder; ayrıca kapanış raporu ile aylık baseline akışını ayırmak için [raporlama ritmi ve sosyal medya analiz operasyon kültürü](/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu) mantığına ihtiyaç vardır."
           },
           {
             "type": "callout",
@@ -77985,6 +78724,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Burst sonuçlarının paid taraftaki etkisini görmek için kampanya verisini [kampanya performansını reklam bütçesiyle birlikte okumak](/tr/smm/sosyal-medya-reklamlari) yaklaşımıyla hedefleme, kreatif ve bütçe kararlarına bağlamak gerekir."
+          },
+          {
             "type": "table",
             "caption": "Tablo: Kampanya vs Always-On KPI Karşılaştırma",
             "headers": [
@@ -78044,6 +78787,10 @@
             "text": "“Q1 erken rezervasyon burst’leri: lead/rezervasyon sıçraması; Q2–Q3 baseline: marka sesi ve destinasyon içerikleri; Q4: sadakat/geri dönüş.”"
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı yıllık plan tarafında görünür kılmak için [yıllık sosyal medya timeline raporu](/tr/smm/planlama-strateji) yaklaşımıyla kampanya bloklarını, always-on akışı ve içerik planını aynı strateji takviminde toplamak daha sağlıklı olur."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (bütçe bağlama)",
@@ -78068,11 +78815,19 @@
             "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Kampanya/always-on ayrımını raporda net yapan markalarda, hem kampanya ROI değerlendirmesi hem de “marka sesi/varlığı” analizi çok daha sağlıklı ilerler; kısa dönem sıçramalar tüm yıl sanılmaz."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [kampanya performansını benchmark ile karşılaştırmak](/tr/raporlama/benchmark-analizi), sonuçları sadece tek dönem içinde değil geçmiş kampanyalar, yıllık baseline ve benzer dönemler üzerinden okumayı kolaylaştırır."
+          },
+          {
             "type": "cta",
             "variant": "secondary",
             "label": "Kampanya & Always-On Ayrıştırılmış SMM Dashboard Şablonunu İndir",
             "text": "Dual-layer dashboard ile baseline ve spike’ları ayırır, yıllık timeline’da strateji ve bütçeyi doğru okumanızı sağlar.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/kampanya-always-on-ayristirilmis-smm-dashboard-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kurumsal düzeyde standartlaştırmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile kampanya ve baseline ayrıştırılmış rapor akışı kurulabilir; kapsam ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -78213,7 +78968,7 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/analiz-raporlama, /smm/planlama-strateji, /raporlama/benchmark-analizi",
+          "İç link hedefleri normalize edildi: /tr/smm/analiz-raporlama, /tr/smm/planlama-strateji, /tr/raporlama/benchmark-analizi",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/kampanya-always-on-ayristirilmis-smm-dashboard-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: Kampanya vs Always-On KPI Karşılaştırma",
@@ -78275,7 +79030,7 @@
     },
     "h1": {
       "title": "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
-      "intro": "Sosyal medya performansında “bir şey oldu” hissi çoğu zaman geç gelir: hesap erişimi düşer, trafik aniden kesilir, CTR çöker veya negatif yorumlar artar; ama ekip bunu haftalık/aylık raporda fark eder. İşte bu noktada hem gelir hem itibar kaybı yaşanır. Otomatik rapor ve alert sistemleri, bu kaybı azaltmak için vardır: KPI’larda anomali/spike olduğunda ekibe anında sinyal verir, “panik” yerine “triage (önceliklendirilmiş inceleme)” başlatır. Bu rehberde; hangi KPI’lar için alarm kuracağınızı, eşikleri nasıl seçeceğinizi ve Slack/e-posta akışını nasıl kurgulayacağınızı otel ve B2B örnekleriyle anlatıyorum.",
+      "intro": "Sosyal medya performansında “bir şey oldu” hissi çoğu zaman geç gelir: hesap erişimi düşer, trafik aniden kesilir, CTR çöker veya negatif yorumlar artar; ama ekip bunu haftalık/aylık raporda fark eder. İşte bu noktada hem gelir hem itibar kaybı yaşanır. Otomatik rapor ve alert sistemleri, bu kaybı azaltmak için vardır: KPI’larda anomali/spike olduğunda ekibe anında sinyal verir, “panik” yerine “triage (önceliklendirilmiş inceleme)” başlatır. Bu rehberde; hangi KPI’lar için alarm kuracağınızı, eşikleri nasıl seçeceğinizi ve Slack/e-posta akışını nasıl kurgulayacağınızı otel ve B2B örnekleriyle anlatıyorum. Bu izleme katmanını kurumsal raporlama akışına bağlamak için [sosyal medya otomatik alert sistemi](/tr/smm/analiz-raporlama) yaklaşımını ana analiz yapısıyla birlikte ele almak gerekir.",
       "quickSummary": [
         "1) Alert sistemini haftalık raporu beklemeden erken uyarı almak için kur",
         "2) Başlangıçta trafik, erişim, CTR, dönüşüm ve negatif geri bildirim gibi 5–8 kritik KPI seç",
@@ -78286,43 +79041,71 @@
       "ctaPrimary": {
         "label": "Sosyal Medya Alert & Monitoring Strateji Analizi Talep Et",
         "text": "KPI seti + eşikler + Slack/e-posta akışı + müdahale playbook’u ile izlemeyi kurar; ajans ve in-house ekipler için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sosyal Medya Alert & Monitoring Strateji Analizi Talep Et",
         "text": "Anomali/spike’ları saatler içinde yakalayacak KPI seti, eşikler ve triage akışı kurar; ajans ve in-house ekipler için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "SMM KPI Alert Eşik & Otomatik Raporlama Akış Şablonunu İndir",
         "text": "Trend bazlı eşikler ve Slack/e-posta akışıyla alarm sistemini hızlıca kurup yanlış pozitifleri azaltmanızı sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/smm-kpi-alert-esik-otomatik-raporlama-akis-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Zaman Bazlı ve Sezonluk Analiz",
+        "href": "/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler",
+        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler"
       },
       {
         "label": "Looker Studio Raporlama",
-        "href": "/raporlama/looker-studio"
+        "href": "/tr/raporlama/looker-studio"
       },
       {
         "label": "Dönüşüm Takibi ve Tag Manager",
-        "href": "/sem/donusum-takibi-tag-manager"
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
         "title": "Zaman Bazlı ve Sezonluk Analiz: Sosyal Medya Performansını Aylık Değil Trend Bazlı Okumak",
-        "href": "/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
+        "href": "/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak"
       },
       {
-        "title": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
-        "href": "/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak"
+        "title": "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Güvenilir mi?",
+        "href": "/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+      },
+      {
+        "title": "AI Destekli Sosyal Medya Analizi ve Otomatik İçgörüler",
+        "href": "/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler"
       }
     ],
     "sections": [
@@ -78345,6 +79128,10 @@
           {
             "type": "p",
             "text": "Özellikle otellerde kampanya dönemlerinde veya B2B’de lead akışının kritik olduğu günlerde, birkaç saatlik gecikme bile maliyetlidir. Alert sistemi, “erken uyarı” mekanizmasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetiminde performans izleme](/tr/sosyal-medya-yonetimi) yaklaşımı artık yalnızca aylık rapor üretmek değil; kritik KPI sapmalarını gerçek zamana yakın izleyip hızlı optimizasyon başlatmak anlamına gelir."
           },
           {
             "type": "h3",
@@ -78411,6 +79198,10 @@
           {
             "type": "p",
             "text": "Alert’ler GA4, platform insights ve mümkünse veri ambarına bağlı çalışmalıdır. Yanlış pozitifleri azaltmak için mutlak değer yerine yüzde değişim ve trend bazlı eşikler tercih edilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Kurulumun ilk kontrol noktası [veri kalitesi ve izleme hijyeni](/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi) disiplinidir; ardından [otomatik dashboard ve alert sistemi](/tr/raporlama/looker-studio) ile görünür bir panel kurup alarmın dayandığı olay zincirini [dönüşüm takibi ve Tag Manager kurulumu](/tr/sem/donusum-takibi-tag-manager) üzerinden doğrulamak gerekir."
           },
           {
             "type": "callout",
@@ -78569,6 +79360,10 @@
             "text": "Mutlak eşik, yüksek sezonda çok alarm üretir; düşük sezonda hiçbir şey yakalamayabilir. Trend eşik, daha dayanıklıdır."
           },
           {
+            "type": "p",
+            "text": "Burada [sezonluk sosyal medya performansını trend bazlı okumak](/tr/smm/blog/zaman-bazli-ve-sezonluk-analiz-sosyal-medya-performansini-aylik-degil-trend-bazli-okumak) yaklaşımı kritikleşir; çünkü gerçek spike ile yalnızca döneme özgü normal hareketi ayırmadan kurulan eşikler çok sayıda yanlış alarm üretir."
+          },
+          {
             "type": "h3",
             "text": "Eşik seçimi için 3 pratik kural"
           },
@@ -78648,6 +79443,10 @@
               "Müdahale: düzeltme veya geçici önlem",
               "Not düş: timeline’a olay olarak ekle (sonradan analiz için)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "İlk sınıflandırmadan sonra anomaly monitoring SMM tarafını hızlandırmak için [AI destekli sosyal medya analizi ve otomatik içgörüler](/tr/smm/blog/ai-destekli-sosyal-medya-analizi-ve-otomatik-icgoruler) yaklaşımı, benzer sapmaları kümelendirip hangi alarmın gerçekten öncelikli olduğunu daha hızlı okumaya yardımcı olabilir."
           },
           {
             "type": "callout",
@@ -78734,18 +79533,26 @@
             "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Otomatik rapor ve alert kullanan ekiplerde, büyük sorunların önemli bir kısmı haftalık/aylık raporu beklemeden aynı gün veya birkaç saat içinde fark edilip müdahale edilebilir; bu da gelir ve itibar kaybını azaltır."
           },
           {
+            "type": "p",
+            "text": "Ancak asıl değer alarmı görmekte değil, [ani performans düşüşünü analiz etmek](/tr/veri-analiz-ve-raporlama) ve kök nedeni veriyle doğrulayıp aksiyona çevirmektedir; aksi halde uyarı yalnızca gürültü üretir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sosyal Medya Alert & Monitoring Strateji Analizi Talep Et",
             "text": "Anomali/spike’ları saatler içinde yakalayacak KPI seti, eşikler ve triage akışı kurar; ajans ve in-house ekipler için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "SMM KPI Alert Eşik & Otomatik Raporlama Akış Şablonunu İndir",
             "text": "KPI seçimi, trend bazlı eşik ve Slack/e-posta akışını tek sayfada standartlaştırır, yanlış pozitifleri azaltır.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/smm-kpi-alert-esik-otomatik-raporlama-akis-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu sistemi düzenli hale getirmek isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile KPI alarmı, otomatik panel ve triage akışı kurulabilir; kapsam ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -78869,7 +79676,7 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/analiz-raporlama, /raporlama/looker-studio, /sem/donusum-takibi-tag-manager",
+          "İç link hedefleri normalize edildi: /tr/smm/analiz-raporlama, /tr/raporlama/looker-studio, /tr/sem/donusum-takibi-tag-manager",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/smm-kpi-alert-esik-otomatik-raporlama-akis-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: KPI eşik örnekleri",
@@ -78931,7 +79738,7 @@
     },
     "h1": {
       "title": "Influencer ve Creator Kampanyalarını Raporlamak: KPI ve ROAS Çerçevesi",
-      "intro": "Influencer ve creator işbirliklerinde en büyük hata, raporu “kaç kişiye ulaştık, kaç beğeni aldık?” seviyesinde bırakmaktır. Bu metrikler önemli olabilir ama tek başına iş sonucunu söylemez: bir creator çok izlenir ama rezervasyon getirmez; bir diğeri daha az izlenir ama yüksek niyetli trafik taşır. Bu yüzden influencer raporu iki katmanlı olmalı: (1) içerik/etkileşim performansı, (2) iş etkisi (lead/rezervasyon/satış) + maliyet. Bu rehber, kupon ve UTM ile takip kurmayı, funnel KPI’larıyla ölçmeyi ve ROAS/CPA üzerinden “hangi işbirliği gerçekten iş üretti?” sorusuna net cevap vermeyi sağlar.",
+      "intro": "Influencer ve creator işbirliklerinde en büyük hata, raporu “kaç kişiye ulaştık, kaç beğeni aldık?” seviyesinde bırakmaktır. Bu metrikler önemli olabilir ama tek başına iş sonucunu söylemez: bir creator çok izlenir ama rezervasyon getirmez; bir diğeri daha az izlenir ama yüksek niyetli trafik taşır. Bu yüzden influencer raporu iki katmanlı olmalı: (1) içerik/etkileşim performansı, (2) iş etkisi (lead/rezervasyon/satış) + maliyet. Bu rehber, kupon ve UTM ile takip kurmayı, funnel KPI’larıyla ölçmeyi ve ROAS/CPA üzerinden “hangi işbirliği gerçekten iş üretti?” sorusuna net cevap vermeyi sağlar. Bu ölçümleme modelini standartlaştırmak isteyen ekipler için [influencer kampanya raporu](/tr/smm/analiz-raporlama) odağı ana analiz yapısının önemli bir parçasıdır.",
       "quickSummary": [
         "1) Influencer raporunu sadece reach/like seviyesinde bırakma",
         "2) Her creator için UTM link ve/veya kupon kodu tanımla",
@@ -78942,47 +79749,71 @@
       "ctaPrimary": {
         "label": "Influencer & Creator Kampanya Rapor Analizi Talep Et",
         "text": "Kupon/UTM + funnel KPI seti ile işbirliği ROI’sini çıkarır; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Influencer & Creator Kampanya Rapor Analizi Talep Et",
         "text": "UTM+kupon ve funnel KPI’larıyla hangi işbirliğinin gerçekten iş ürettiğini netleştirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Influencer/Creator Kampanya KPI & Raporlama Şablonunu İndir",
         "text": "Creator bazlı UTM/kupon takibini ve ROAS/CPA hesaplarını tek tabloda standartlaştırır, yatırım kararını kolaylaştırır.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/influencer-creator-kampanya-kpi-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       {
         "label": "Sosyal Medya Yönetimi",
-        "href": "/smm/"
+        "href": "/tr/sosyal-medya-yonetimi"
       },
       {
-        "label": "Sosyal Medya Reklamları",
-        "href": "/smm/sosyal-medya-reklamlari"
+        "label": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+      },
+      {
+        "label": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+        "href": "/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
+      },
+      {
+        "label": "Yaratıcı Küme Analizi",
+        "href": "/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak"
       },
       {
         "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sosyal Medya Reklamları",
+        "href": "/tr/smm/sosyal-medya-reklamlari"
+      },
+      {
+        "label": "SMM İçerikleri",
+        "href": "/tr/smm"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Funnel Raporu: Görünürlükten Rezervasyon ve Lead’e",
-        "href": "/smm/blog/sosyal-medya-funnel-raporu-gorunurlukten-rezervasyon-ve-lead-e"
+        "title": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+        "href": "/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
       },
       {
-        "title": "Kampanya Bazlı ve Always-On Sosyal Medya Performansını Ayrı Raporlamak",
-        "href": "/smm/blog/kampanya-bazli-ve-always-on-sosyal-medya-performansini-ayri-raporlamak"
+        "title": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+        "href": "/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
+      },
+      {
+        "title": "Yaratıcı Küme Analizi: Creative Clustering ile Sosyal Medya İçeriklerini Gruplamak",
+        "href": "/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak"
       }
     ],
     "sections": [
@@ -79005,6 +79836,10 @@
           {
             "type": "p",
             "text": "Ölçüm çerçevesi yine aynıdır: içerik performansı → trafik → iş sonucu. Ama beklenti değişebilir: bazı işbirlikleri “brand” içindir, bazıları “satış/lead” içindir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetiminde creator kampanyaları](/tr/sosyal-medya-yonetimi) yaklaşımı, creator işbirliklerini yalnızca görünürlük projesi olarak değil; içerik, reklam, satış ve raporlama sürecinin ortak parçası olarak ele almalıdır."
           },
           {
             "type": "h3",
@@ -79084,6 +79919,14 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Burada [creator içeriğinin organik ve reklamlı performansı](/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak) birlikte okunmalıdır; çünkü aynı içerik hem doğal erişim hem de paid dağıtım altında farklı kalite sinyalleri üretebilir."
+          },
+          {
+            "type": "p",
+            "text": "Tekil postlara bakmak yerine [creator içeriklerini kreatif kümelere ayırmak](/tr/smm/blog/yaratici-kume-analizi-creative-clustering-ile-sosyal-medya-iceriklerini-gruplamak), hangi tema, format veya mesaj tipinin düzenli olarak daha güçlü sonuç ürettiğini daha net gösterir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (KPI disiplini)",
@@ -79150,6 +79993,10 @@
           {
             "type": "p",
             "text": "Kupon ve link takibinde CRM/rezervasyon sistemleriyle veri eşleşmesi doğru yapılmazsa kampanya katkısı yanlış attribüe edilebilir. Kupon, UTM ve CRM kayıtlarının aynı “creator anahtarı”nda birleştiğinden emin olun."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [kupon kodu ve UTM ile satış takibi](/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu) yaklaşımı, creator performansını sadece tıklama değil lead, rezervasyon ve satış kayıtlarıyla eşleştiren daha sağlam bir gelir raporlama modeli sunar."
           },
           {
             "type": "h3",
@@ -79246,6 +80093,10 @@
             "text": "Darboğaz teşhisi: reach yüksek ama kupon düşük → teklif uyumu/landing/CTA sorunu."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [creator kampanyasının satış etkisi](/tr/raporlama/satis-donusum) görünürlükten gerçek iş sonucuna geçişi ölçmek için kritikleşir; iyi performans veren kreatifleri ölçeklemek gerektiğinde ise [creator içeriğini reklamla desteklemek](/tr/smm/sosyal-medya-reklamlari) mantığı devreye girer."
+          },
+          {
             "type": "h3",
             "text": "Mini örnek aksiyon"
           },
@@ -79336,6 +80187,10 @@
             "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış): Kupon & UTM temelli raporlama kullanan işbirliklerinde, “takipçi sayısı yüksek ama satış getirmeyen” influencer’lar veriye dayalı şekilde ayıklanabilir; bütçe daha doğru ortaklıklara kayar."
           },
           {
+            "type": "p",
+            "text": "Creator analytics bakışını daha geniş çerçevede okumak isteyen kullanıcılar için diğer [SMM içerikleri](/tr/smm) üzerinden sosyal medya kaynaklarına da geçiş yapılabilir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (öğrenim)",
@@ -79360,14 +80215,18 @@
             "variant": "primary",
             "label": "Influencer & Creator Kampanya Rapor Analizi Talep Et",
             "text": "Hangi işbirliği iş üretiyor netleştirir, ROAS/CPA ile karar verir; otel ve B2B ekipleri için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Influencer/Creator Kampanya KPI & Raporlama Şablonunu İndir",
             "text": "UTM+kupon tablosu ve funnel KPI’larıyla raporu standartlaştırır, işbirliği ROI’sini netleştirir.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/influencer-creator-kampanya-kpi-raporlama-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı standartlaştırmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile creator KPI, UTM/kupon ve ROAS temelli rapor akışı kurulabilir; kapsam ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -79514,7 +80373,7 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/analiz-raporlama, /smm/, /smm/sosyal-medya-reklamlari, /raporlama/satis-donusum",
+          "İç link hedefleri normalize edildi: /tr/smm/analiz-raporlama, /tr/smm, /tr/smm/sosyal-medya-reklamlari, /tr/raporlama/satis-donusum",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/influencer-creator-kampanya-kpi-raporlama-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: Kupon/UTM bazlı takip tablosu",
@@ -79575,7 +80434,7 @@
     },
     "h1": {
       "title": "Yorum, DM ve UGC İçin Duygu (Sentiment) Analizi Nasıl Yapılır?",
-      "intro": "Sosyal medya metrikleri “iyi” görünürken (erişim, izlenme, beğeni), yorum ve DM tarafında ciddi memnuniyetsizlik sinyalleri saklı olabilir. Özellikle otellerde misafir deneyimi; B2B’de hizmet kalitesi ve iletişim, çoğu zaman sayılardan önce duyguda görünür. Sentiment analizi, bu görünmeyen kısmı ölçer: yorum/DM/UGC’yi pozitif–nötr–negatif olarak sınıflandırır ve hangi temalarda yoğunlaştığını çıkarır. Sonuç, sadece “rapor” değildir; hizmet, içerik ve CRM tarafında uygulanabilir aksiyonlara dönüşen bir geri bildirim döngüsüdür.",
+      "intro": "Sosyal medya metrikleri “iyi” görünürken (erişim, izlenme, beğeni), yorum ve DM tarafında ciddi memnuniyetsizlik sinyalleri saklı olabilir. Özellikle otellerde misafir deneyimi; B2B’de hizmet kalitesi ve iletişim, çoğu zaman sayılardan önce duyguda görünür. Sentiment analizi, bu görünmeyen kısmı ölçer: yorum/DM/UGC’yi pozitif–nötr–negatif olarak sınıflandırır ve hangi temalarda yoğunlaştığını çıkarır. Sonuç, sadece “rapor” değildir; hizmet, içerik ve CRM tarafında uygulanabilir aksiyonlara dönüşen bir geri bildirim döngüsüdür. Bu çerçeveyi daha geniş bir [sosyal medya sentiment analizi](/tr/smm/analiz-raporlama) yaklaşımı içinde kurmak, nicel ve nitel sinyalleri aynı rapor diliyle birleştirmeyi kolaylaştırır.",
       "quickSummary": [
         "1) Yorum/DM/UGC verisini sadece hacimle değil duygu ve tema ile oku",
         "2) Pozitif/nötr/negatif sınıflandırma yap, ardından tema etiketi ekle",
@@ -79586,43 +80445,71 @@
       "ctaPrimary": {
         "label": "Sentiment & Yorum/DM Analizi Talep Et",
         "text": "Yorum/DM/UGC duygu+tema haritasını çıkarır, operasyon ve içerik aksiyonlarını netleştirir; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Sentiment & Yorum/DM Analizi Talep Et",
         "text": "Yorum/DM/UGC’de duygu ve tema haritasını çıkarır, hizmet+CRM+içerik aksiyonlarını netleştirir; yoğun geri bildirim alan markalar için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Sosyal Medya Yorum/DM Sentiment & Tema Raporlama Şablonunu İndir",
         "text": "Duygu sınıflandırma tablosu ve tema ısı haritasıyla raporu standartlaştırır, aksiyon takibini kolaylaştırır.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/sosyal-medya-yorum-dm-sentiment-tema-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Kriz Sonrası Sosyal Medya Analizi",
+        "href": "/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi"
+      },
+      {
+        "label": "Sosyal Medya Gelir Raporlama ve CRM Entegrasyonu",
+        "href": "/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
+      },
+      {
+        "label": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
       },
       {
         "label": "Mesaj Yönetimi",
-        "href": "/cagri-merkezi/mesaj-yonetimi"
+        "href": "/tr/cagri-merkezi/mesaj-yonetimi"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM Analiz ve Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Anomali ve Spike Tespiti İçin Otomatik Rapor ve Alert Sistemleri",
-        "href": "/smm/blog/anomali-ve-spike-tespiti-icin-otomatik-rapor-ve-alert-sistemleri"
+        "title": "Kriz Sonrası Sosyal Medya Analizi: İtibar ve Recovery",
+        "href": "/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi"
       },
       {
-        "title": "Influencer ve Creator Kampanyalarını Raporlamak: KPI ve ROAS Çerçevesi",
-        "href": "/smm/blog/influencer-ve-creator-kampanyalarini-raporlamak-kpi-ve-roas"
+        "title": "Sosyal Medya Gelir Raporu: CRM Entegrasyonu ve LTV",
+        "href": "/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu"
+      },
+      {
+        "title": "Sosyal Medya Raporlama Ritmi ve Analiz Takvimi",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
       }
     ],
     "sections": [
@@ -79633,6 +80520,10 @@
           {
             "type": "p",
             "text": "Sentiment analizi; metin ve geri bildirimleri (yorum, DM, UGC açıklamaları, review) “duygu” açısından sınıflandırma yöntemidir. En basit seviyede üç kategori yeterlidir: pozitif / nötr / negatif. Asıl güç, bunun üstüne “tema” eklediğinizde ortaya çıkar: negatifler hangi konuda? Oda mı, hizmet mi, iletişim mi?"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [sosyal medya yönetiminde yorum ve DM analizi](/tr/sosyal-medya-yonetimi) yaklaşımı, yalnızca içerik yayınlamayı değil; geri bildirimi okuyup operasyon, iletişim ve optimizasyon kararlarına çevirmeyi de kapsamalıdır."
           },
           {
             "type": "h3",
@@ -79713,6 +80604,10 @@
           {
             "type": "p",
             "text": "Yorumlarda “harika” yazarken DM’de “havaalanı transferi” sorunları birikiyor olabilir. Yorum metriği iyi görünür; operasyon riski DM’de saklıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [yorum ve DM verisini CRM tarafına aktarmak](/tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu), şikâyet ve talep kayıtlarını satış sonrası takipten lead kalitesine kadar daha tutarlı bir müşteri ilişkileri akışına bağlar; günlük aksiyon tarafında ise [DM ve mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi) süreci yanıt, SLA ve takip disiplinini netleştirir."
           },
           {
             "type": "callout",
@@ -79803,6 +80698,10 @@
           {
             "type": "p",
             "text": "“Karma” yorumlar genelde en değerli içgörüdür: övgü + şikâyet aynı mesajda gelir. Bunları “nötr” diye çöpe atmak yerine iki etiketi birlikte taşıyın (Varsayım: raporlama modeliniz buna izin veriyorsa)."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle ani negatif yoğunlaşmalarda [kriz sonrası sentiment değişimi](/tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi) ayrı izlenmelidir; çünkü aynı tema dağılımı kriz öncesi ve sonrası farklı anlam taşır. Ayrıca [sentiment sonuçlarını benchmark ile karşılaştırmak](/tr/raporlama/benchmark-analizi), tek bir dönemin skoru yerine geçmiş dönem, kampanya dönemi veya sektör bağlamında daha gerçekçi yorum üretir."
           },
           {
             "type": "callout",
@@ -79971,6 +80870,10 @@
             "text": "AI araçlarıyla sentiment okurken dil, ironi ve bağlam hatalarına dikkat edin. Kritik kararlar (kriz, operasyonel suçlama, müşteri şikâyeti) mutlaka insan gözünden geçmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu analizin sürdürülebilir olması için [sentiment analizini düzenli raporlamak](/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu) gerekir; çünkü duygu dağılımı tek seferlik snapshot yerine haftalık, aylık ve kriz dönemlerinde daha sık izlenen bir operasyon ritmi ister. İçgörü tarafında ise [yorum verisini içerik aksiyonuna çevirmek](/tr/smm/icerik-uretimi), tekrar eden soruları FAQ, açıklayıcı post ve UGC odaklı içerik serilerine dönüştürmeyi kolaylaştırır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (aksiyon köprüsü)",
@@ -79995,18 +80898,22 @@
             "text": "Key Statistics / Data Point (sheet’ten, zamana dayanıklı): Regülasyon ve platform değişikliklerinden bağımsız olarak, yorum/DM sentiment analizi değerli kalır; periyodik analiz ve karşılaştırmalar kültür hâline getirildiğinde içerik kadar hizmet tarafında da iyileştirme sağlar."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi standartlaştırmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile yorum, DM ve UGC verisini karar odaklı bir modele bağlamak mümkündür; süreç kapsamı ve çalışma modeli için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Sentiment & Yorum/DM Analizi Talep Et",
             "text": "Duygu+tema haritasını çıkarır, operasyon/CRM/içerik aksiyonlarını sahiplendirir; yoğun yorum alan markalar için.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Sosyal Medya Yorum/DM Sentiment & Tema Raporlama Şablonunu İndir",
             "text": "Duygu sınıflandırma tablosu ve tema ısı haritasıyla raporu standardize eder, aksiyon takibini kolaylaştırır.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/sosyal-medya-yorum-dm-sentiment-tema-raporlama-sablonu-v1.0.pdf"
           },
           {
             "type": "media",
@@ -80144,7 +81051,7 @@
           "Indexlenebilirlik kontrolü (robots/sitemap/noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage schema gerçek PAA sorularıyla beslendi",
-          "İç link hedefleri normalize edildi: /smm/analiz-raporlama, /cagri-merkezi/mesaj-yonetimi, /raporlama/benchmark-analizi",
+          "İç link hedefleri normalize edildi: /tr/smm/analiz-raporlama, /tr/sosyal-medya-yonetimi, /tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi, /tr/smm/blog/sosyal-medya-gelir-raporlama-ve-crm-entegrasyonu, /tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu, /tr/cagri-merkezi/mesaj-yonetimi, /tr/raporlama/benchmark-analizi, /tr/smm/icerik-uretimi",
           "Media slot eşleşmeleri kontrol edildi: h1-context, divider-01, divider-02, diagram-05, heatmap, checklist-06, kpi-07, proof-08",
           "Download asset href kontrolü: /downloads/sosyal-medya-yorum-dm-sentiment-tema-raporlama-sablonu-v1.0.pdf",
           "Tablo tek tablo olarak kullanıldı: sentiment sınıflandırma tablosu",
@@ -80205,7 +81112,7 @@
     },
     "h1": {
       "title": "Marka İtibarı ve Kriz Sonrası Sosyal Medya Performans Analizi",
-      "intro": "Bir kriz yaşandığında ekipler çoğu zaman “kaç yorum geldi, kaç kişi sordu?” diye bakar. Oysa yöneticinin gerçek sorusu farklıdır: İtibarımız ne kadar hasar aldı, güven ne kadar sürede toparlanıyor ve bu süreçte neyi doğru/yanlış yaptık? Kriz analizi; kriz öncesi baz çizgi (normal durum), kriz penceresi (olayın etkisi) ve kriz sonrası recovery trendi (toparlanma) olarak üç dönemi ayrı raporlamalıdır. Üstelik sadece sosyal metriklerle değil; web trafiği, inbound çağrı, lead/rezervasyon gibi iş KPI’larıyla da birlikte okunmalıdır. Bu rehber, yüksek stres dönemlerinde bile uygulanabilir bir kriz analizi şablonu sunar.",
+      "intro": "Bir kriz yaşandığında ekipler çoğu zaman “kaç yorum geldi, kaç kişi sordu?” diye bakar. Oysa yöneticinin gerçek sorusu farklıdır: İtibarımız ne kadar hasar aldı, güven ne kadar sürede toparlanıyor ve bu süreçte neyi doğru/yanlış yaptık? Kriz analizi; kriz öncesi baz çizgi (normal durum), kriz penceresi (olayın etkisi) ve kriz sonrası recovery trendi (toparlanma) olarak üç dönemi ayrı raporlamalıdır. Üstelik sadece sosyal metriklerle değil; web trafiği, inbound çağrı, lead/rezervasyon gibi iş KPI’larıyla da birlikte okunmalıdır. Bu rehber, yüksek stres dönemlerinde bile uygulanabilir bir kriz analizi şablonu sunar. Bu yapıyı daha sistemli bir [kriz sonrası sosyal medya analizi](/tr/smm/analiz-raporlama) çerçevesinde kurmak, baz çizgi ile toparlanma dönemini aynı rapor dilinde izlemeyi kolaylaştırır.",
       "quickSummary": [
         "1) Kriz öncesi baz çizgiyi oluştur",
         "2) Kriz penceresinde risk ve kontrol KPI’larını izle",
@@ -80216,47 +81123,71 @@
       "ctaPrimary": {
         "label": "Kriz & Marka İtibarı Sosyal Medya Analizi Talep Et",
         "text": "Kriz öncesi/anı/sonrası metrikleri çıkarır, recovery sürecini ölçer ve aksiyon planını sahiplendirir; otel ve B2B markalar için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Kriz & Marka İtibarı Sosyal Medya Analizi Talep Et",
         "text": "Kriz öncesi baz çizgi, kriz KPI’ları ve recovery trendleriyle itibar hasarını ölçer; otel ve B2B ekipleri için.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
       },
       "secondary": {
         "label": "Kriz Öncesi/Anı/Sonrası Sosyal Medya Performans Raporlama Şablonunu İndir",
         "text": "Pre/post baseline ve recovery grafikleriyle krizi veriyle okumanızı, toparlanma planını hızla kurmanızı sağlar.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/kriz-oncesi-ani-sonrasi-sosyal-medya-performans-raporlama-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Analiz & Raporlama hizmet sayfası",
-        "href": "/smm/analiz-raporlama"
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/tr/sosyal-medya-yonetimi"
+      },
+      {
+        "label": "Sentiment Analizi",
+        "href": "/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir"
+      },
+      {
+        "label": "Veri Kalitesi ve İzleme Hijyeni",
+        "href": "/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
+      },
+      {
+        "label": "Raporlama Ritmi",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
       },
       {
         "label": "Satış sonrası destek",
-        "href": "/cagri-merkezi/satis-sonrasi-destek"
+        "href": "/tr/cagri-merkezi/satis-sonrasi-destek"
       },
       {
         "label": "KVKK ve veri güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "SMM Analiz & Raporlama SSS",
+        "href": "/tr/smm/analiz-raporlama-sss"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Sosyal Medya Analiz & Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "title": "Yorum, DM ve UGC İçin Duygu (Sentiment) Analizi Nasıl Yapılır?",
+        "href": "/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir"
       },
       {
-        "title": "Satış Sonrası Destek ve Çağrı Merkezi",
-        "href": "/cagri-merkezi/satis-sonrasi-destek"
+        "title": "Veri Kalitesi ve İzleme Hijyeni: Sosyal Medya Raporlarınız Gerçekten Güvenilir mi?",
+        "href": "/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi"
       },
       {
-        "title": "KVKK ve Veri Güvenliği Raporlama",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "title": "Raporlama Ritmi ve Sosyal Medya Analiz Operasyon Kültürü",
+        "href": "/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu"
       }
     ],
     "sections": [
@@ -80271,6 +81202,10 @@
           {
             "type": "p",
             "text": "Baz çizgi, “normal koşulda” sosyal medya davranışının fotoğrafıdır. Baz çizgi olmadan kriz yorumunu doğru yapmak zordur; çünkü hangi sapmanın “normal dalga”, hangisinin “kriz etkisi” olduğunu ayırt edemezsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [sosyal medya yönetiminde kriz sonrası performans takibi](/tr/sosyal-medya-yonetimi) yaklaşımı, kriz anını yalnızca iletişim çıktısı olarak değil; yorumlar, güven sinyalleri ve toparlanma metrikleriyle birlikte yönetilen daha geniş bir süreç olarak ele almalıdır."
           },
           {
             "type": "h3",
@@ -80324,6 +81259,14 @@
           {
             "type": "p",
             "text": "Kriz penceresinde KPI’lar “başarı” değil “risk ve kontrol” için izlenir. Amaç; krizin büyüyüp büyümediğini görmek, yanlış anlaşılmayı azaltmak ve operasyon/CRM aksiyonunu hızlandırmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [kriz döneminde veri kalitesi ve izleme hijyeni](/tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi) kontrolü önemlidir; çünkü eksik event, hatalı kanal ataması veya moderasyon kaynaklı veri kaymaları krizin gerçek etkisini olduğundan büyük ya da küçük gösterebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden marka itibarı sosyal medya KPI’ları yalnızca erişim ve mention hacmiyle sınırlı kalmamalı; negatif yorum hızı, sentiment oranı, takipçi net değişimi ve yanıt süresi gibi kontrol sinyalleriyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -80401,6 +81344,10 @@
             "text": "Mini örnek (B2B): Negatif temanın çoğu “iletişim gecikmesi” ise, asıl çözüm içerik değil süreç/SLA olabilir. Sentiment analizi bunu ayırır."
           },
           {
+            "type": "p",
+            "text": "Burada [kriz sonrası sentiment değişimi](/tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir) yaklaşımı, yorum, DM ve UGC verisindeki pozitif/negatif kaymayı tema bazında ayırarak hangi güven sinyalinin zayıfladığını daha net gösterir. Kullanıcıdan gelen şikâyet ve destek ihtiyacını aksiyona çevirmek için de [kriz sonrası satış sonrası destek süreci](/tr/cagri-merkezi/satis-sonrasi-destek) devreye alınmalıdır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check (tematik okuma)",
@@ -80475,6 +81422,14 @@
           {
             "type": "p",
             "text": "Kriz bitti sanmak kolaydır; ama itibar “gecikmeli” toparlanır. Recovery analizi, duygunun ve topluluk davranışının baz çizgiye ne kadar sürede döndüğünü ölçer."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [kriz sonrası raporlama ritmi](/tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu), ilk günlerde kısa aralıklı kontrol raporlarıyla başlayıp sonraki haftalarda toparlanma trendini daha sakin ama düzenli biçimde izleyen bir operasyon kurgusu oluşturmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu recovery katmanı, reputation recovery sürecinin gerçekten hızlanıp hızlanmadığını yalnız hissiyata göre değil; baz çizgiye yaklaşan veri sinyalleriyle görmeyi sağlar."
           },
           {
             "type": "h3",
@@ -80579,6 +81534,10 @@
             "text": "Kriz raporlamasında sadece sosyal metriklere değil; rezervasyon/lead, inbound çağrı ve web trafiği gibi iş KPI’larına da bakılmalıdır. Aksi halde toparlanma gerçekçi okunamaz."
           },
           {
+            "type": "p",
+            "text": "Aynı zamanda ekran görüntüsü, DM kayıtları ve kullanıcı geri bildirimleriyle çalışırken [KVKK ve veri güvenliği hassasiyeti](/tr/raporlama/kvkk-veri-guvenligi) korunmalı; raporlar gereksiz kişisel veri çoğaltmadan, yalnızca karar almak için gerekli sinyalleri taşımalıdır."
+          },
+          {
             "type": "h3",
             "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış)"
           },
@@ -80587,18 +81546,26 @@
             "text": "Kriz dönemlerinde anlık panik yerine veriye dayalı okuma yapan ekipler, toparlanma stratejilerini ve içerik planını daha hızlı ve hedefe dönük güncelleyebilir; çünkü recovery trendleri “ne işe yaradı?”yı gösterir."
           },
           {
+            "type": "p",
+            "text": "Toparlanma döneminde güveni yeniden inşa etmek için [güven geri kazanımı için içerik planı](/tr/smm/icerik-uretimi) oluşturmak, açıklama dili, kanıt içerikleri ve tekrar eden sorulara verilen yanıtları daha tutarlı bir yayın akışına dönüştürür."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli kurum içinde standartlaştırmak isteyen ekipler için [SMM analiz ve raporlama desteği](/tr/smm/analiz-raporlama) ile baz çizgi, kriz penceresi ve recovery takibi tek akışta kurulabilir; kapsam ve çalışma biçimi için [SMM analiz ve raporlama hakkında sık sorulan sorular](/tr/smm/analiz-raporlama-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Kriz & Marka İtibarı Sosyal Medya Analizi Talep Et",
             "text": "Pre/post baseline + kriz KPI + recovery trend raporu çıkarır; süreç iyileştirmelerini sahiplendirir.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/tr/smm/analiz-raporlama"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Kriz Öncesi/Anı/Sonrası Sosyal Medya Performans Raporlama Şablonunu İndir",
             "text": "Baz çizgi, kriz KPI’ları ve recovery grafikleriyle raporu standartlaştırır, stres anında rehberlik sağlar.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/kriz-oncesi-ani-sonrasi-sosyal-medya-performans-raporlama-sablonu-v1.0.pdf"
           },
            {
             "type": "media",
@@ -80698,7 +81665,7 @@
           "Canonical kontrolü: /tr/smm/blog/marka-itibari-ve-kriz-sonrasi-sosyal-medya-performans-analizi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage gerçek PAA sorularıyla beslendi",
-          "Internal link targets: /smm/analiz-raporlama, /cagri-merkezi/satis-sonrasi-destek, /raporlama/kvkk-veri-guvenligi",
+          "Internal link targets: /tr/smm/analiz-raporlama, /tr/sosyal-medya-yonetimi, /tr/smm/blog/yorum-dm-ve-ugc-icin-duygu-sentiment-analizi-nasil-yapilir, /tr/smm/blog/veri-kalitesi-ve-izleme-hijyeni-sosyal-medya-raporlariniz-guvenilir-mi, /tr/smm/blog/raporlama-ritmi-ve-sosyal-medya-analiz-operasyon-kulturu, /tr/cagri-merkezi/satis-sonrasi-destek, /tr/raporlama/kvkk-veri-guvenligi, /tr/smm/icerik-uretimi",
           "Primary CTA 2 kez, Secondary CTA 1 kez yerleştirildi",
           "Download Asset türü: raporlama şablonu",
           "Tablo: sentiment + takipçi değişimi özet tablosu eklendi",
