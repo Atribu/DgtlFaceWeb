@@ -38,7 +38,7 @@
     },
     "h1": {
       "title": "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde",
-      "intro": "Bir web sitesi “geliştirildi” diye yayına hazır olmaz; yayına çıkış (go-live), yazılım kalitesini, içerik disiplinini ve hukuki uyumu aynı anda test eden kritik bir aşamadır. Otel sitelerinde (Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon odaklı sayfalar dahil) form/rezervasyon akışı ve hız problemleri doğrudan gelir kaybına döner; B2B sitelerde ise lead form + CRM akışı bozulursa pazarlama bütçesi boşa yanar. Bu rehber, teknik + içerik/SEO + entegrasyon + KVKK adımlarını tek çatı altında checklist’e dönüştürür: ekipler arası “top bende mi sende mi?” tartışmasını bitirir, yayın sonrası sürprizleri azaltır.",
+      "intro": "Bir web sitesi “geliştirildi” diye yayına hazır olmaz; yayına çıkış (go-live), yazılım kalitesini, içerik disiplinini ve hukuki uyumu aynı anda test eden kritik bir aşamadır. Otel sitelerinde (Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon odaklı sayfalar dahil) form/rezervasyon akışı ve hız problemleri doğrudan gelir kaybına döner; B2B sitelerde ise lead form + CRM akışı bozulursa pazarlama bütçesi boşa yanar. Bu rehber, teknik + içerik/SEO + entegrasyon + KVKK adımlarını tek çatı altında checklist’e dönüştürür: ekipler arası “top bende mi sende mi?” tartışmasını bitirir, yayın sonrası sürprizleri azaltır. Bu [kurumsal web sitesi checklist](/tr/yazilim/web-sitesi-gelistirme) yaklaşımı, go-live öncesi kalite kontrolü yalnız tasarım onayı olmaktan çıkarıp teknik, içerik ve entegrasyon doğrulamasına dönüştürür.",
       "quickSummary": [
         "Teknik (HTTPS, hız, redirect, hata yönetimi)",
         "İçerik-SEO (title/meta, H yapısı, iç link, index)",
@@ -69,6 +69,10 @@
           {
             "type": "p",
             "text": "Go-live hygiene yaklaşımı: “Her madde geçti mi?” değil, “kanıt var mı?” (ekran görüntüsü, test linki, rapor, log, e-posta) sorusudur. Bu, özellikle ajans-müşteri ilişkilerinde netlik sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetleri kapsamında go-live süreci](/tr/web-ve-yazilim-hizmetleri), sadece tasarım ve geliştirme teslimi değil; performans, SEO, form, veri güvenliği ve entegrasyon başlıklarının birlikte kontrol edildiği operasyonel bir geçiş olarak ele alınmalıdır."
           },
           {
             "type": "h4",
@@ -149,6 +153,10 @@
             "text": "Core Web Vitals yalnızca SEO değil, satın alma/lead performansını da etkiler. En azından ana şablon sayfalarda hedef koyun: LCP, INP, CLS izlenmeli."
           },
           {
+            "type": "p",
+            "text": "Bu alanı daha detaylı ele almak için [Core Web Vitals ve hız optimizasyonu](/tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu) rehberi, hero görselinden JS yüküne kadar go-live öncesi hangi performans kontrollerinin önceliklendirilmesi gerektiğini netleştirir."
+          },
+          {
             "type": "h4",
             "text": "☑ Mini Check"
           },
@@ -179,6 +187,10 @@
           {
             "type": "p",
             "text": "İlgili iç link: /tr/seo/teknik-seo (teknik kontrol detayları)"
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [teknik SEO go-live kontrolleri](/tr/seo/teknik-seo), canonical, robots, sitemap, redirect ve indexleme ayarlarının yayına çıkmadan önce doğrulanmasını sağlayarak arama motorlarına yanlış sinyal gitmesi riskini azaltır."
           },
           {
             "type": "h4",
@@ -229,6 +241,10 @@
           {
             "type": "p",
             "text": "İç link yalnız SEO için değil, kullanıcı için “sonraki adım”dır. Kullanıcı nereden geldi, nereye gidecek? Go-live sonrası özellikle otel sitelerinde “oda/teklif/rezervasyon” yolları, B2B’de “hizmet/teklif al” yolları net olmalı."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca içerik tarafında [eski web sitesinden yeni Next.js siteye geçiş](/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis) planı, URL yapısının, yönlendirmelerin ve mevcut içerik değerinin yeni siteye kayıpsız taşınması için go-live öncesi mutlaka dokümante edilmelidir."
           },
           {
             "type": "h4",
@@ -285,6 +301,10 @@
             "text": "Form/rezervasyon testini “tek tık” değil, uçtan uca senaryo olarak kurgulayın: test formu → doğrulama → e-posta/CRM kaydı → bildirim → raporlama. En az 3 senaryo çalışın: normal, eksik alan, hata üret (captcha/timeout). Sonuçları kanıtla (mail screenshot, CRM kaydı, analytics event)."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [iletişim formu optimizasyonu](/tr/yazilim/blog/form-ux-ve-iletisim-formu-optimizasyonu) rehberi, validasyon, hata mesajları ve form akışında kullanıcıyı bırakmadan lead toplamayı destekleyen UX kontrollerini ayrıntılı biçimde tamamlar."
+          },
+          {
             "type": "h4",
             "text": "Test E-postaları, SMTP ve Bildirimler"
           },
@@ -315,6 +335,10 @@
           {
             "type": "p",
             "text": "Otel projelerinde kritik nokta: rezervasyon motoru, PMS bağlantısı, OTA yönlendirmeleri ve kampanya kodları. Özellikle Antalya-Belek gibi yoğun rekabetli destinasyonlarda, bir gün “rezervasyon akışı bozuk” kalmak bile pahalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [otel web sitesi go-live testleri](/tr/otel/pms-entegrasyonu), PMS, rezervasyon motoru ve operasyonel veri akışlarının canlıya çıkmadan önce uçtan uca doğrulanmasını sağlayan kritik bir kontrol katmanı olarak düşünülmelidir."
           },
           {
             "type": "h4",
@@ -387,6 +411,10 @@
             "text": "Varsayım: Kurumsal projelerde minimum güvenlik standardı istenir."
           },
           {
+            "type": "p",
+            "text": "Formlar, çerez banner’ı ve veri işleme süreçlerinde [KVKK ve veri güvenliği kontrolleri](/tr/raporlama/kvkk-veri-guvenligi), yalnız hukuki uyumu değil aynı zamanda kullanıcı güvenini ve doğru tag davranışını korumak için go-live öncesi tamamlanmalıdır."
+          },
+          {
             "type": "ul",
             "items": [
               "Admin panelleri korunuyor mu (2FA, güçlü parola politikası)?",
@@ -453,6 +481,10 @@
           {
             "type": "p",
             "text": "Özet olarak 4 blok: Teknik (HTTPS, hız, redirect, hata yönetimi), İçerik-SEO (title/meta, H yapısı, iç link, index), Form-Entegrasyon (test akışı, mail/CRM, rezervasyon), KVKK-Güvenlik (çerez banner, politikalar, veri işleme, yedekleme). Bu blokların her biri için “kanıt” üretirseniz go-live sonrası sürprizler ciddi biçimde azalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu süreci dış destekle yönetmek isteyen ekipler için [web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) ile teknik kontrol, içerik geçişi, form ve entegrasyon akışları birlikte değerlendirilebilir; süreç, bakım ve yayına alma detayları için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -601,16 +633,50 @@
         "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
+      },
+      {
+        "label": "Web sitesi performans rehberi",
+        "href": "/tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu"
+      },
+      {
+        "label": "Form UX ve iletişim formu optimizasyonu",
+        "href": "/tr/yazilim/blog/form-ux-ve-iletisim-formu-optimizasyonu"
+      },
+      {
+        "label": "İçerik taşıma stratejisi",
+        "href": "/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis"
+      },
+      {
         "label": "Teknik SEO",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "KVKK uyum hizmeti",
-        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+        "label": "KVKK ve veri güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
       },
       {
-        "label": "CMS entegrasyonu",
-        "href": "/tr/yazilim/cms-entegrasyonu"
+        "label": "PMS entegrasyonu",
+        "href": "/tr/otel/pms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme SSS",
+        "href": "/tr/yazilim/web-sitesi-gelistirme-sss"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu",
+        "href": "/tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu"
+      },
+      {
+        "title": "Form UX ve İletişim Formu Optimizasyonu",
+        "href": "/tr/yazilim/blog/form-ux-ve-iletisim-formu-optimizasyonu"
+      },
+      {
+        "title": "İçerik Taşıma Stratejisi: Eski Web Siteden Yeni Next.js Siteye Geçiş",
+        "href": "/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis"
       }
     ]
   },
@@ -663,7 +729,7 @@
     },
     "h1": {
       "title": "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?",
-      "intro": "Next.js, kurumsal web sitelerinde “hız + SEO + modern geliştirme deneyimi” üçlüsünü aynı potada toplar. Ancak Next.js’i sadece proje başlatıp birkaç sayfa yazmak olarak görmek, en büyük hatadır: asıl değer, mimari kararların doğru verilmesinde ortaya çıkar. SSR/SSG/ISR seçimleri, URL/route hiyerarşisi, locale stratejisi ve PMS/CRM/CMS gibi entegrasyonların baştan modellenmesi; otel ve B2B projelerinde hem performansı hem de ölçeklenebilirliği belirler. Bu rehber, karar noktalarını netleştirip “kurumsal ölçekte” uygulanabilir bir mimari şablon sunar.",
+      "intro": "Next.js, kurumsal web sitelerinde “hız + SEO + modern geliştirme deneyimi” üçlüsünü aynı potada toplar. Ancak Next.js’i sadece proje başlatıp birkaç sayfa yazmak olarak görmek, en büyük hatadır: asıl değer, mimari kararların doğru verilmesinde ortaya çıkar. SSR/SSG/ISR seçimleri, URL/route hiyerarşisi, locale stratejisi ve PMS/CRM/CMS gibi entegrasyonların baştan modellenmesi; otel ve B2B projelerinde hem performansı hem de ölçeklenebilirliği belirler. Bu rehber, karar noktalarını netleştirip “kurumsal ölçekte” uygulanabilir bir mimari şablon sunar. Bu [Next.js ile kurumsal web sitesi mimarisi](/tr/yazilim/web-sitesi-gelistirme) yaklaşımı, framework seçimini tek başına teknik bir tercih olmaktan çıkarıp SEO, performans ve entegrasyon kararlarını aynı geliştirme planında toplar.",
       "quickSummary": [
         "1) Sayfaları tipe göre sınıflandır (blog/hizmet/landing/dinamik akış)",
         "2) Sayfa tipine göre SSR/SSG/ISR kararını ver",
@@ -745,6 +811,10 @@
             "text": "Kurumsal sitede ihtiyaçlar nettir: hızlı açılan sayfalar, iyi indexlenen içerik, esnek içerik yönetimi, ölçülebilir dönüşüm ve entegrasyonlara hazır altyapı. Next.js; server-side rendering, static generation, incremental static regeneration, modern routing ve component mimarisiyle bunu mümkün kılar. Ayrıca ekip ölçeği büyüdükçe, iyi tasarlanmış bir Next.js mimarisi “geliştirme hızını” da korur."
           },
           {
+            "type": "p",
+            "text": "Bu çerçevede [web ve yazılım hizmetleri içinde Next.js mimarisi](/tr/web-ve-yazilim-hizmetleri), yalnızca framework seçimi değil; performans, içerik yönetimi, kullanıcı deneyimi ve entegrasyon planlamasının birlikte ele alındığı daha geniş bir kurumsal yapı olarak düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Kurumsal ölçek için avantajlar"
           },
@@ -785,6 +855,10 @@
           {
             "type": "p",
             "text": "SSG (Static) sayfayı derleme anında üretir; içerik sık değişmiyorsa en hızlı ve stabil çözümdür. SSR her istekte üretir; veri anlık değişiyorsa (ör. fiyat, oda müsaitliği) uygundur ama caching şarttır. ISR ise static hızını korurken belirli aralıklarla sayfayı yeniler; kurumsal içerik + dönemsel güncellenen sayfalar için idealdir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kararların hız ve kullanıcı deneyimi tarafındaki etkisini daha derin görmek için [Core Web Vitals ve hız optimizasyonu](/tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu) rehberi, LCP, INP, görsel yükü ve cache yaklaşımının sayfa tipine göre nasıl değiştiğini somutlaştırır."
           },
           {
             "type": "h3",
@@ -842,6 +916,10 @@
             "text": "Çok dilli (Varsayım) yapılarda /tr/, /en/ gibi net locale segmentleri; hreflang ve içerik yönetimini kolaylaştırır. URL’ler; kategori–alt kategori–detay mantığıyla “okunabilir” olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yapının içerik tarafındaki karşılığını görmek için [kurumsal web sitesi için bilgi mimarisi](/tr/yazilim/blog/bilgi-mimarisi-ve-site-haritasi-kurumsal-web-sitesi-icin-ia-stratejisi) rehberi, menü, kategori, sayfa hiyerarşisi ve URL kararlarının teknik route mimarisiyle nasıl hizalanacağını planlamaya yardımcı olur."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -869,6 +947,10 @@
             "text": "Kurumsal projede “her sayfa kendi başına” yaklaşımı sürdürülemez. Çözüm: layout hiyerarşisi + shared component kütüphanesi + tasarım sistemi."
           },
           {
+            "type": "p",
+            "text": "İçerik tarafında [Headless CMS ile Next.js mimarisi](/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim), editör deneyimi, içerik modeli ve ölçeklenebilir blok yapısının framework kararıyla birlikte düşünülmesi gerektiğini gösterir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -881,6 +963,10 @@
           {
             "type": "media",
             "slot": "folder-structure"
+          },
+          {
+            "type": "p",
+            "text": "Bu sistemin kullanıcı tarafında tutarlı hissedilmesi için [UI/UX tasarım ve component sistemi](/tr/creative/ui-ux-tasarim), tasarım dili ile teknik bileşen mimarisinin aynı standartta ilerlemesini kolaylaştırır."
           },
           {
             "type": "h3",
@@ -913,6 +999,10 @@
           {
             "type": "p",
             "text": "Kurumsal Next.js sitesinde SEO “meta tag” değil; render, URL, içerik, performans ve schema toplamıdır. Teknik SEO ile tutarlı bir mimari kurmak, ileride maliyeti düşürür."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [teknik SEO için Next.js yapılandırması](/tr/seo/teknik-seo), SSR ve SSG kararlarının indexlenebilirlik, canonical, structured data, sitemap ve redirect yapısıyla birlikte nasıl ele alınacağını netleştirir."
           },
           {
             "type": "h3",
@@ -981,6 +1071,10 @@
             "text": "Otel için: içerik sayfaları (SSG/ISR) + rezervasyon akışı (SSR) ayrıştırılır; PMS/rezervasyon motoru entegrasyonu ve ölçümleme (event tracking) en baştan kurgulanır. B2B için: hizmet/case içerikleri (SSG/ISR) ölçeklenir; lead form ve CRM akışı “kanıtlı test” ile yayınlanır; içerik yönetimi (CMS) modüler bloklar üzerinden yürür."
           },
           {
+            "type": "p",
+            "text": "Otel projelerinde [otel web sitesi Next.js yapısı](/tr/otel/pms-entegrasyonu), PMS, rezervasyon motoru ve operasyonel veri akışlarının hangi katmanda çözüleceğini baştan netleştirerek mimari borcun büyümesini önler."
+          },
+          {
             "type": "media",
             "slot": "critical-layers"
           },
@@ -1043,6 +1137,10 @@
           {
             "type": "p",
             "text": "Next.js ile kurumsal site mimarisinde başarı; framework bilgisi kadar, kararların yazılı standarda dönüşmesine bağlıdır: render stratejisi, URL/locale hiyerarşisi, component sistemi ve entegrasyon modeli. Bu 4’lü doğru kurulduğunda hem SEO hem CWV hem de geliştirme hızı birlikte yükselir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kararları proje kapsamınıza göre netleştirmek için [Next.js tabanlı web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) alabilir, süreç ve teknik detaylar için de [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "cta",
