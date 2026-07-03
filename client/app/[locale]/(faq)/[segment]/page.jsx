@@ -21,6 +21,8 @@ import { getSiteUrl } from "@/app/lib/site-url";
 import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage";
 import FaqMainServer from "../../sss/components/FaqMainServer";
+import JsonLd from "../../components/seo/JsonLd";
+import { getFaqNamespace } from "@/app/lib/get-faq-namespace";
 
 // -----------------------------
 // Meta helper
@@ -137,12 +139,117 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
   };
 }
 
+function cleanSchemaText(value) {
+  return String(value || "")
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/<\/?(services|seo|smm|software|reporting|a|b|strong|ul|ol|li)(?:\s+[^>]*)?>/gi, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getVisibleFaqQuestionSet(namespace, limit = 11) {
+  const visibleItems = namespace?.sections?.generalQuestions?.items || [];
+
+  return visibleItems
+    .filter((item) => item?.q && item?.a)
+    .slice(0, limit)
+    .map((item) => ({
+      question: cleanSchemaText(item.q),
+      answer: cleanSchemaText(item.a),
+    }));
+}
+
+function buildFrameworkFaqJsonLd({
+  baseJsonLd,
+  locale,
+  faqItems,
+  pageLabel,
+  siteUrl,
+}) {
+  if (!baseJsonLd || !faqItems.length) return null;
+
+  const pageUrl = baseJsonLd.url || `${siteUrl}${getFaqIndexHref(locale)}`;
+  const pageOrigin = (() => {
+    try {
+      return new URL(pageUrl).origin;
+    } catch {
+      return siteUrl;
+    }
+  })();
+  const language = locale === "en" ? "en-US" : "tr-TR";
+  const organizationId = `${pageOrigin}/#organization`;
+  const websiteId = `${pageOrigin}/#website`;
+  const webpageId = `${pageUrl}#webpage`;
+  const faqpageId = `${pageUrl}#faqpage`;
+  const breadcrumbId = `${pageUrl}#breadcrumb`;
+  const homeUrl = `${pageOrigin}/${locale}/`;
+  const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "FAQPage",
+        "@id": faqpageId,
+        url: pageUrl,
+        name: baseJsonLd.name,
+        description: baseJsonLd.description,
+        inLanguage: language,
+        mainEntity: faqItems.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.answer,
+          },
+        })),
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: pageUrl,
+        name: baseJsonLd.name,
+        description: baseJsonLd.description,
+        inLanguage: language,
+        isPartOf: { "@id": websiteId },
+        about: { "@id": faqpageId },
+        mainEntity: { "@id": faqpageId },
+        publisher: { "@id": organizationId },
+        breadcrumb: { "@id": breadcrumbId },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: homeLabel,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: pageLabel,
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
 // -----------------------------
 // Metadata
 // -----------------------------
 export async function generateMetadata({ params }) {
-  const slug = params?.segment;
-  const locale = params?.locale || "tr";
+  const resolvedParams = await params;
+  const slug = resolvedParams?.segment;
+  const locale = resolvedParams?.locale || "tr";
   const localizedSlug = getFaqLocaleSlug(slug, locale);
 
   const baseJsonLd = FAQ_JSONLD_MAP?.[localizedSlug] || FAQ_JSONLD_MAP?.[slug];
@@ -189,9 +296,10 @@ export async function generateMetadata({ params }) {
 // -----------------------------
 // Page
 // -----------------------------
-export default function Page({ params }) {
-  const slug = params?.segment;
-  const locale = params?.locale || "tr";
+export default async function Page({ params }) {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.segment;
+  const locale = resolvedParams?.locale || "tr";
 
   if (
     (locale === "en" && /-sss$/.test(slug)) ||
@@ -217,7 +325,7 @@ export default function Page({ params }) {
     return findFaqSlugByNamespace(pageNs, "tr") || "sss";
   })();
 
-  const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
+  const namespace = await getFaqNamespace(locale, pageNs);
 
   // Breadcrumb label'lar
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
@@ -271,6 +379,17 @@ export default function Page({ params }) {
   })();
   
   const currentHref = buildFaqHrefBySlug(slug, locale);
+  const faqQuestionSet = getVisibleFaqQuestionSet(namespace, 11);
+  const siteUrl = getSiteUrl();
+  const jsonLdData = isFaqRoot
+    ? buildFrameworkFaqJsonLd({
+        baseJsonLd: fixedJsonLd,
+        locale,
+        faqItems: faqQuestionSet,
+        pageLabel: faqLabel,
+        siteUrl,
+      })
+    : buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
 
   const crumbItems = [
     { label: homeLabel, href: homeHref },
@@ -293,13 +412,7 @@ export default function Page({ params }) {
 
   return (
     <div className="flex flex-col max-w-full">
-      {jsonLdNodes ? (
-        <script
-          id={`jsonld-faq-${slug}`}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdNodes) }}
-        />
-      ) : null}
+      {jsonLdData ? <JsonLd id={`jsonld-faq-${slug}`} data={jsonLdData} /> : null}
 
       <SearchBanner faqSlug={slug} />
       <Breadcrumbs items={crumbItems} />

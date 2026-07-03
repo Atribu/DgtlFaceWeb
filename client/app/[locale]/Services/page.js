@@ -12,6 +12,7 @@ import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
 import FaqPrompt from '../components/common/FaqPrompt.jsx'
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
+import JsonLd from "../components/seo/JsonLd";
 import {
   AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
   ContactMainDeferred as ContactMain,
@@ -77,86 +78,42 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// Services hub JSON-LD (standart: Organization + WebSite + CollectionPage + Service + ItemList + Breadcrumb + FAQPage)
+// Services hub JSON-LD: CollectionPage + BreadcrumbList + visible service ItemList.
 function buildServicesHubJsonLd({
   locale,
   baseUrl,
   pageUrl,
   pageName,
   pageDescription,
-  serviceName,
-  serviceDescription,
-  keywords = [],
   breadcrumbName,
-  faqItems = [],
   serviceItems = [],
-  aiQuestion,
-  aiAnswer,
-  aiSource,
 }) {
   const lang = locale === "tr" ? "tr-TR" : "en-US";
-  const siteUrl = `${baseUrl}/${locale}`;
-  const siteId = `${siteUrl}#website`;
+  const organizationId = `${baseUrl}/#organization`;
+  const websiteId = `${baseUrl}/#website`;
+  const collectionId = `${pageUrl}#collection`;
+  const breadcrumbId = `${pageUrl}#breadcrumb`;
+  const homeUrl = `${baseUrl}/${locale}/`;
 
   return {
     "@context": "https://schema.org",
     "@graph": [
-      // 1) Organization
-      {
-        "@type": "Organization",
-        "@id": `${baseUrl}/#organization`,
-        name: "DGTLFACE",
-        url: `${baseUrl}/`,
-        logo: `${baseUrl}/logo.png`,
-      },
-
-      // 2) WebSite
-      {
-        "@type": "WebSite",
-        "@id": siteId,
-        url: siteUrl,
-        name: pageName,
-        alternateName: ["DGTLFACE", "DGTLFACE Technology Partner", "dgtlface.com"],
-        inLanguage: lang,
-        publisher: { "@id": `${baseUrl}/#organization` },
-      },
-
-      // 3) WebPage (CollectionPage)
       {
         "@type": ["WebPage", "CollectionPage"],
         "@id": `${pageUrl}#webpage`,
         url: pageUrl,
         name: pageName,
         description: pageDescription,
-        isPartOf: { "@id": siteId },
+        isPartOf: { "@id": websiteId },
+        about: { "@id": collectionId },
+        mainEntity: { "@id": collectionId },
+        publisher: { "@id": organizationId },
         inLanguage: lang,
-        breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
-
-        // Hub sayfada alt servisleri bağlamak faydalı:
-        hasPart: serviceItems.map((s) => ({
-          "@type": "WebPage",
-          "@id": `${s.url}#webpage`,
-          url: s.url,
-          name: s.name,
-        })),
+        breadcrumb: { "@id": breadcrumbId },
       },
-
-      // 4) Service (sayfanın sunduğu üst servis kümesi)
-      {
-        "@type": "Service",
-        "@id": `${pageUrl}#service`,
-        name: serviceName,
-        url: pageUrl,
-        description: serviceDescription,
-        provider: { "@id": `${baseUrl}/#organization` },
-        inLanguage: lang,
-        keywords,
-      },
-
-      // 5) ItemList (ana hizmet listesi)
       {
         "@type": "ItemList",
-        "@id": `${pageUrl}#services-list`,
+        "@id": collectionId,
         name: locale === "tr" ? "DGTLFACE Hizmet Kümeleri" : "DGTLFACE Service Clusters",
         itemListElement: serviceItems.map((s, i) => ({
           "@type": "ListItem",
@@ -165,17 +122,15 @@ function buildServicesHubJsonLd({
           url: s.url,
         })),
       },
-
-      // 6) BreadcrumbList
       {
         "@type": "BreadcrumbList",
-        "@id": `${pageUrl}#breadcrumb`,
+        "@id": breadcrumbId,
         itemListElement: [
           {
             "@type": "ListItem",
             position: 1,
             name: locale === "tr" ? "Ana Sayfa" : "Home",
-            item: siteUrl,
+            item: homeUrl,
           },
           {
             "@type": "ListItem",
@@ -185,194 +140,9 @@ function buildServicesHubJsonLd({
           },
         ],
       },
-
-      // 7) FAQPage
-      {
-        "@type": "FAQPage",
-        "@id": `${pageUrl}#faq`,
-        mainEntity: faqItems.map((f) => ({
-          "@type": "Question",
-          name: f.question,
-          acceptedAnswer: { "@type": "Answer", text: f.answer },
-        })),
-      },
-
-      // 8) (Opsiyonel) AI Answer block - senin standartta kullanıyorsan:
-      ...(aiAnswer
-        ? [
-            {
-              "@type": "CreativeWork",
-              "@id": `${pageUrl}#ai`,
-              name: aiQuestion || (locale === "tr" ? "Yapay Zeka Özeti" : "AI Summary"),
-              text: aiAnswer,
-              isBasedOn: aiSource ? [aiSource] : undefined,
-              inLanguage: lang,
-            },
-          ]
-        : []),
     ],
   };
 }
-
-
-
-// ServicesPage JSON-LD (Hub / Collection Page)
-// const servicesPageJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     // 1) Organization
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com/",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "description":
-//         "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital çözümler sunan bir teknoloji partneridir.",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya", "Türkiye", "Europe", "Belek", "Kemer", "Side", "Alanya", "Bodrum"]
-//     },
-
-//     // 2) WebSite
-//     {
-//       "@type": "WebSite",
-//       "@id": "https://dgtlface.com/#website",
-//       "url": "https://dgtlface.com/",
-//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-//       "inLanguage": "tr-TR",
-//       "publisher": { "@id": "https://dgtlface.com/#organization" }
-//     },
-
-//     // 3) WebPage (CollectionPage olarak güçlendiriyoruz)
-//     {
-//       "@type": ["WebPage", "CollectionPage"],
-//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#webpage",
-//       "url": "https://dgtlface.com/tr/hizmetlerimiz",
-//       "name": "DGTLFACE Hizmetlerimiz: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Çözümleri",
-//       "description":
-//         "DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimini tek çatı altında sunar; markalar ve oteller için uçtan uca dijital çözümler sağlar.",
-//       "isPartOf": { "@id": "https://dgtlface.com/#website" },
-//       "about": [
-//         "dijital pazarlama hizmetleri",
-//         "seo sem smm entegrasyonu",
-//         "web ve yazılım geliştirme",
-//         "otel dijital dönüşüm çözümleri",
-//         "pms ota yönetimi",
-//         "çok dilli çağrı merkezi",
-//         "veri analizi ve raporlama"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "publisher": { "@id": "https://dgtlface.com/#organization" },
-//       "breadcrumb": { "@id": "https://dgtlface.com/tr/hizmetlerimiz/#breadcrumb" },
-//       // Hub sayfa olduğu için alt kümeleri “hasPart” ile ilişkilendirmek iyi olur:
-//       "hasPart": [
-//         { "@id": "https://dgtlface.com/tr/creative/#service" },
-//         { "@id": "https://dgtlface.com/tr/callcenter/#service" },
-//         { "@id": "https://dgtlface.com/tr/pms-ota/#service" },
-//         { "@id": "https://dgtlface.com/tr/seo/#service" },
-//         { "@id": "https://dgtlface.com/tr/sem/#service" },
-//         { "@id": "https://dgtlface.com/tr/smm/#service" },
-//         { "@id": "https://dgtlface.com/tr/software/#service" },
-//         { "@id": "https://dgtlface.com/tr/raporlama/#service" },
-//         { "@id": "https://dgtlface.com/tr/otel/#service" }
-//       ]
-//     },
-
-//     // 4) “Hizmetler” üst servisi (Service)
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#service",
-//       "name": "DGTLFACE Hizmet Kümeleri – Entegre Dijital Pazarlama ve Teknoloji",
-//       "url": "https://dgtlface.com/tr/hizmetlerimiz",
-//       "provider": { "@id": "https://dgtlface.com/#organization" },
-//       "serviceType":
-//         "dijital pazarlama hizmetleri, SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, çağrı merkezi, PMS & OTA yönetimi, veri analizi & raporlama",
-//       "areaServed": ["Antalya", "Türkiye", "Europe"],
-//       "inLanguage": "tr-TR"
-//     },
-
-//     // 5) Ana hizmet kümeleri listesi (ItemList)
-//     {
-//       "@type": "ItemList",
-//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#services-list",
-//       "name": "DGTLFACE Ana Hizmet Kümeleri",
-//       "itemListElement": [
-//         { "@type": "ListItem", "position": 1, "name": "Yaratıcı & Marka Stratejisi", "url": "https://dgtlface.com/tr/creative" },
-//         { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi & Destek", "url": "https://dgtlface.com/tr/callcenter" },
-//         { "@type": "ListItem", "position": 3, "name": "PMS & OTA Yönetimi (Turizm)", "url": "https://dgtlface.com/tr/pms-ota" },
-//         { "@type": "ListItem", "position": 4, "name": "SEO (Arama Motoru Optimizasyonu)", "url": "https://dgtlface.com/tr/seo" },
-//         { "@type": "ListItem", "position": 5, "name": "SEM (Performans Reklamcılığı)", "url": "https://dgtlface.com/tr/sem" },
-//         { "@type": "ListItem", "position": 6, "name": "SMM (Sosyal Medya Pazarlaması)", "url": "https://dgtlface.com/tr/smm" },
-//         { "@type": "ListItem", "position": 7, "name": "BT Çözümleri & Yazılım Geliştirme", "url": "https://dgtlface.com/tr/software" },
-//         { "@type": "ListItem", "position": 8, "name": "Dijital Analiz & Raporlama", "url": "https://dgtlface.com/tr/raporlama" },
-//         { "@type": "ListItem", "position": 9, "name": "Otel Dijital Pazarlama & Dönüşüm", "url": "https://dgtlface.com/tr/otel" }
-//       ]
-//     },
-
-//     // 6) BreadcrumbList
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#breadcrumb",
-//       "itemListElement": [
-//         { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
-//         { "@type": "ListItem", "position": 2, "name": "Hizmetlerimiz", "item": "https://dgtlface.com/tr/hizmetlerimiz" }
-//       ]
-//     },
-
-//     // 7) FAQPage (senin ServicesPage.faq alanından)
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE hangi alanlarda dijital pazarlama hizmetleri sunuyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE; SEO, SEM (Google Ads & performans reklamcılığı), sosyal medya yönetimi, web & yazılım geliştirme, creative tasarım & prodüksiyon, çok dilli çağrı merkezi, PMS & OTA yönetimi ve veri analizi & raporlama alanlarında hizmet sunar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Dijital pazarlama hizmetleriniz sadece otellere mi yönelik?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Odak noktamız otel ve turizm sektörü olsa da; hizmet, sağlık, gayrimenkul ve B2B gibi farklı sektörlerde de projeler yürütüyoruz. Temel yaklaşımımız entegre, veri odaklı ve uzun vadeli büyüme modelidir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Entegre dijital pazarlama mimarisi ne demek?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "SEO, SEM, sosyal medya, web, çağrı merkezi, PMS–OTA ve raporlama gibi bileşenlerin tek bir strateji ve veri katmanı altında birlikte çalışmasıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Sadece tek bir hizmet alabilir miyim? (örneğin sadece SEO veya sadece Google Ads)",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet, sadece belirli bir hizmet için de çalışabiliriz. Ancak en verimli sonuçları, birden fazla hizmetin koordineli yürütüldüğü entegre yapılarda elde ederiz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Antalya dışında da hizmet veriyor musunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Antalya merkezliyiz; Türkiye ve yurtdışında birçok marka ile tamamen online olarak toplantı, raporlama ve optimizasyon süreçlerini yürütüyoruz."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// };
-
 
 const Page = async ({ params }) => {
    const { locale } = await params;
@@ -383,23 +153,16 @@ const base = getBaseUrl();
 const pathnameKey = "/Services";
 const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
-const pageUrl = canonicalUrl;
-
-const faqItems = Array.from({ length: 5 }, (_, i) => {
-  const idx = i + 1;
-  return { question: t(`faq.question${idx}`), answer: t.raw(`faq.answer${idx}`) };
-});
-
 const serviceItems = [
-  { name: "SEO", url: `${base}/${locale}${locale === "tr" ? "/seo" : "/search-engine-optimization"}` },
-  { name: "SEM", url: `${base}/${locale}${locale === "tr" ? "/sem" : "/search-engine-marketing"}` },
-  { name: "SMM", url: `${base}/${locale}${locale === "tr" ? "/smm" : "/social-media-management"}` },
-  { name: "Software", url: `${base}/${locale}${locale === "tr" ? "/yazilim" : "/software-development"}` },
-  { name: "Creative", url: `${base}/${locale}${locale === "tr" ? "/creative" : "/creative-design"}` },
-  { name: "Call Center", url: `${base}/${locale}${locale === "tr" ? "/cagri-merkezi" : "/call-center"}` },
-  { name: "PMS & OTA", url: `${base}/${locale}/pms-ota` },
-  { name: "Hotel", url: `${base}/${locale}${locale === "tr" ? "/otel" : "/hotel"}` },
-  { name: "Digital Analysis", url: `${base}/${locale}${locale === "tr" ? "/raporlama" : "/digital-analysis"}` },
+  { name: stripHtml(t("servicesData.title1")), url: getCanonicalUrl("/Services/sem", locale) },
+  { name: stripHtml(t("servicesData.title2")), url: getCanonicalUrl("/Services/seo", locale) },
+  { name: stripHtml(t("servicesData.title3")), url: getCanonicalUrl("/Services/smm", locale) },
+  { name: stripHtml(t("servicesData.title4")), url: getCanonicalUrl("/Services/software", locale) },
+  { name: stripHtml(t("servicesData.title5")), url: getCanonicalUrl("/Services/creative", locale) },
+  { name: stripHtml(t("servicesData.title6")), url: getCanonicalUrl("/Services/callcenter", locale) },
+  { name: stripHtml(t("servicesData.title7")), url: getCanonicalUrl("/Services/pms", locale) },
+  { name: stripHtml(t("servicesData.title8")), url: getCanonicalUrl("/Services/hotel", locale) },
+  { name: stripHtml(t("servicesData.title9")), url: getCanonicalUrl("/Services/digitalAnalysis", locale) },
 ];
 
 const jsonLd = buildServicesHubJsonLd({
@@ -408,17 +171,8 @@ const jsonLd = buildServicesHubJsonLd({
   pageUrl: canonicalUrl,
   pageName: t("jsonld.pageName"),
   pageDescription: stripHtml(t("jsonld.pageDescription")).slice(0, 300),
-  serviceName: t("jsonld.serviceName"),
-  serviceDescription: stripHtml(t("aiAnswerBlock")),
-  keywords: t.raw("jsonld.keywords"),
   breadcrumbName: t("jsonld.breadcrumbName"),
-  faqItems,
   serviceItems,
-  aiQuestion: locale === "tr"
-    ? "DGTLFACE bu sayfada ne sunuyor?"
-    : "What does DGTLFACE offer on this page?",
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
 });
 
 
@@ -539,12 +293,7 @@ const cards = [
 
   return (
    <>
-    {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <JsonLd id="services-hub-jsonld" data={jsonLd} />
       
     <div className='flex flex-col overflow-hidden gap-[30px] md:gap-[35px] lg:gap-[50px] items-center justify-center max-w-screen '>
       {/* <Section1 /> */}

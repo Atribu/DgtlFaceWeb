@@ -6,9 +6,11 @@ import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import JsonLd from '../../components/seo/JsonLd'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import {
   AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
   ContactMainDeferred as Contact,
@@ -30,19 +32,13 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, çağrı merkezi ve veri analiziyle 360° dijital pazarlama ve dönüşüm çözümleri sunar.";
 
-  // ✅ ortam bazlı base URL
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+  const base = getBaseUrl();
 
   // ✅ og map'ten çek + fallback ver (çok kritik)
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
   const ogImageAbs = new URL(ogPath, base).toString(); 
 
-  const url =
-    locale === "tr"
-      ? `${base}/tr/otel`
-      : `${base}/en/hotel`;
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
     // ✅ en kritik satır
@@ -54,8 +50,8 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: url,
       languages: {
-        tr: `${base}/tr/otel`,
-        en: `${base}/en/hotel`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -284,68 +280,121 @@ export async function generateMetadata({ params }) {
 //   ]
 // }
 
+function buildHotelServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+  const organizationId = `${baseUrl}/#organization`;
+  const websiteId = `${baseUrl}/#website`;
+  const webpageId = `${pageUrl}#webpage`;
+  const serviceId = `${pageUrl}#service`;
+  const breadcrumbId = `${pageUrl}#breadcrumb`;
+  const homeUrl = getCanonicalUrl("/", locale);
+  const breadcrumbLabels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          current: "Otel Dijital Dönüşüm",
+          serviceType: "Otel Dijital Pazarlama",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "Hotel Digital Transformation",
+          serviceType: "Hotel Digital Marketing",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: pageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: { "@id": websiteId },
+        about: { "@id": serviceId },
+        mainEntity: { "@id": serviceId },
+        publisher: { "@id": organizationId },
+        breadcrumb: { "@id": breadcrumbId },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: breadcrumbLabels.serviceType,
+        url: pageUrl,
+        provider: { "@id": organizationId },
+        areaServed: [
+          { "@type": "Country", name: locale === "tr" ? "Türkiye" : "Turkey" },
+          { "@type": "AdministrativeArea", name: "Antalya" },
+          { "@type": "Place", name: "Belek" },
+          { "@type": "Place", name: "Kemer" },
+          { "@type": "Place", name: "Side" },
+          { "@type": "Place", name: "Alanya" },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: breadcrumbLabels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: breadcrumbLabels.services,
+            item: servicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: breadcrumbLabels.current,
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
 
 const Page = () => {
   const locale = useLocale();
 const base = getBaseUrl();
+const pathnameKey = "/Services/hotel";
 
   const t = useTranslations("Hotel");
      const t2 = useTranslations("Hotel.h4Section");
       
-     // ✅ generateMetadata ile birebir canonical
-const pageUrl =
-  locale === "tr"
-    ? `${base}/tr/otel`
-    : `${base}/en/hotel`;
+const pageUrl = getCanonicalUrl(pathnameKey, locale);
+const servicesUrl = getCanonicalUrl("/Services", locale);
 
-// ✅ UI’de render edilen FAQ ile birebir
-const faqsLd = [1, 2, 3, 4, 5].map((i) => ({
-  question: t(`faqs.question${i}`),
-  answer: t(`faqs.answer${i}`),
-}));
-
-// ✅ StepSection buttonLink’leri ile birebir (absolute)
-const serviceItems =
-  locale === "tr"
-    ? [
-        { name: stripHtml(t("hotel_services_title1")), url: `${base}/tr/otel/seo` },
-        { name: stripHtml(t("hotel_services_title2")), url: `${base}/tr/otel/sosyal-medya` },
-        { name: stripHtml(t("hotel_services_title3")), url: `${base}/tr/otel/reklam-yonetimi` },
-        { name: stripHtml(t("hotel_services_title4")), url: `${base}/tr/otel/ota-yonetimi` },
-        { name: stripHtml(t("hotel_services_title5")), url: `${base}/tr/otel/pms-entegrasyonu` },
-        { name: stripHtml(t("hotel_services_title6")), url: `${base}/tr/otel/cagri-merkezi` }
-      ]
-    : [
-        { name: stripHtml(t("hotel_services_title1")), url: `${base}/en/hotel/seo` },
-        { name: stripHtml(t("hotel_services_title2")), url: `${base}/en/hotel/social-media` },
-        { name: stripHtml(t("hotel_services_title3")), url: `${base}/en/hotel/ads-management` },
-        { name: stripHtml(t("hotel_services_title4")), url: `${base}/en/hotel/ota-management` },
-        { name: stripHtml(t("hotel_services_title5")), url: `${base}/en/hotel/pms-integration` },
-        { name: stripHtml(t("hotel_services_title6")), url: `${base}/en/hotel/callcenter` }
-      ];
-
-
-const jsonLd = buildDepartmentJsonLd({
+const jsonLd = buildHotelServiceJsonLd({
   locale,
+  baseUrl: base,
   pageUrl,
-
   pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
-
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
   serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-
-  breadcrumbName: t("jsonld.breadcrumbName"),
-
-  keywords: t.raw("jsonld.keywords"),
-
-  faqItems: faqsLd,
-  serviceItems,
-
-  // 🤖 AI uyumlu alanlar
-  aiQuestion: t("jsonld.pageName"),
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
+  servicesUrl,
 });
 
 
@@ -477,12 +526,7 @@ const jsonLd = buildDepartmentJsonLd({
   
   return (
   <>
-  {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd id="hotel-service-jsonld" data={jsonLd} />
 
 
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>

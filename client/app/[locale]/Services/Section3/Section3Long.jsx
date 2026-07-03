@@ -466,7 +466,7 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
                 {/* Explore Butonu */}
                 <Link
                   href={service.link}
-                  className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white  w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+                  className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white  w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[26px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
                 >
                   {t2("services_button")}
                 </Link>

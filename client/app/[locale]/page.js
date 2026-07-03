@@ -81,9 +81,11 @@ export default async function HomePage({ params }) {
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
   const organizationId = `${baseUrl}/#organization`;
   const websiteId = `${baseUrl}/#website`;
+  const breadcrumbId = `${canonicalUrl}#breadcrumb`;
   const { schemaName, description } = getHomeSeo(locale);
+  const homeLabel = locale === "tr" ? "Ana Sayfa" : "Home";
 
-  // Home JSON-LD: homepage sadece WebPage node'u üretir; site-wide entity'ler @id ile referanslanır.
+  // Home JSON-LD: site-wide entity'ler @id ile referanslanır.
   const homeJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -98,6 +100,19 @@ export default async function HomePage({ params }) {
         mainEntity: { "@id": organizationId },
         publisher: { "@id": organizationId },
         inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+        breadcrumb: { "@id": breadcrumbId },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: homeLabel,
+            item: canonicalUrl,
+          },
+        ],
       },
     ],
   };
