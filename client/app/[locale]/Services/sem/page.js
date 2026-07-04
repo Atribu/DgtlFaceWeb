@@ -16,20 +16,16 @@ import {
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+
+import JsonLd from "../../components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: Bu sayfanın "seo / og map" key'i (standartlaştırıyoruz)
   const pathnameKey = "/Services/sem";
 
-  // Türkçe yorum: ortam bazlı base URL (local + prod uyumlu)
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  // Türkçe yorum: SEO verisini config'ten al
   const seoData = getSeoData(pathnameKey, locale);
 
   const title =
@@ -40,20 +36,14 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Google Ads ve YouTube reklamlarında dönüşüm odaklı yönetim sunar. Profesyonel SEM stratejileriyle görünürlüğünüzü ve satışlarınızı artırın.";
 
-  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const base = getBaseUrl();
+
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-  const ogImageAbs = new URL(ogPath, base).toString(); 
+  const ogImageAbs = new URL(ogPath, base).toString();
 
-
-  // Türkçe yorum: canonical URL (local + prod)
-  // senin route yapına göre EN slug'ı değiştirmen gerekebilir
-  const url =
-    locale === "tr"
-      ? `${base}/tr/sem`
-      : `${base}/en/search-engine-marketing`; 
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
-    // ✅ kritik: relative og image'ı absolute'a çevirir
     metadataBase: new URL(base),
 
     title,
@@ -62,8 +52,8 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: url,
       languages: {
-        tr: `${base}/tr/sem`,
-        en: `${base}/en/search-engine-marketing`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -75,7 +65,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImageAbs, // "/og/og-sem.png" -> metadataBase ile absolute olur
+          url: ogImageAbs,
           width: 1200,
           height: 630,
           alt: title,
@@ -94,6 +84,149 @@ export async function generateMetadata({ params }) {
 }
 
 
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
+
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSemServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const homeUrl = getCanonicalUrl("/", locale);
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          current: "SEM – Dijital Reklam Yönetimi",
+          serviceType: "SEM – Dijital Reklam Yönetimi",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "SEM – Digital Advertising Management",
+          serviceType: "SEM – Digital Advertising Management",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+
 
 const Page = async ({ params }) => {
   const { locale } = await params;
@@ -101,48 +234,20 @@ const Page = async ({ params }) => {
   const t2 = await getTranslations({ locale, namespace: "Sem.h4Section" });
    const base = getBaseUrl();
 
-  const pageUrl =
-    locale === "tr"
-      ? `${base}/tr/sem`
-      : `${base}/en/search-engine-marketing`; 
+const pathnameKey = "/Services/sem";
 
-  // ✅ SEM: 6 FAQ
-  const faqItems = Array.from({ length: 6 }, (_, i) => {
-    const idx = i + 1;
-    return {
-      question: t(`faqs.question${idx}`),
-      answer: t(`faqs.answer${idx}`),
-    };
-  });
+const pageUrl = getCanonicalUrl(pathnameKey, locale);
+const servicesUrl = getCanonicalUrl("/Services", locale);
 
-  // ✅ SEM alt servis linkleri (routing’teki path’lere göre)
-    const serviceItems = [
-    { name: "Google Ads Campaign Management", url: `${base}/${locale}${locale === "tr" ? "/sem/google-ads-yonetimi" : "/sem/google-ads-advertising"}` },
-    { name: "YouTube Ads Management",   url: `${base}/${locale}${locale === "tr" ? "/sem/youtube-reklam-yonetimi" : "/sem/youtube-advertising-management"}` },
-    { name: "Remarketing & Display",     url: `${base}/${locale}${locale === "tr" ? "/sem/remarketing-ve-display" : "/sem/remarketing-and-display"}` },
-    { name: "Conversion Tracking & GTM",  url: `${base}/${locale}${locale === "tr" ? "/sem/donusum-takibi-tag-manager" : "/sem/tag-manager"}` },
-    { name: "Ads Reporting", url: `${base}/${locale}${locale === "tr" ? "/sem/reklam-raporlama" : "/sem/performance-analysis"}` },
-  ];
-
-const jsonLd = buildDepartmentJsonLd({
+const jsonLd = buildSemServiceJsonLd({
   locale,
+  baseUrl: base,
   pageUrl,
+  servicesUrl,
   pageName: t("jsonld.pageName"),
-  pageDescription: stripHtml(t("jsonld.pageDescription")).slice(0, 300),
-
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
   serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-
-  keywords: t.raw("jsonld.keywords"),
-
-  breadcrumbName: t("jsonld.breadcrumbName"),
-  faqItems,
-  serviceItems,
-  aiQuestion: locale === "tr"
-    ? "DGTLFACE bu hizmette ne yapar?"
-    : "What does DGTLFACE do in this service?",
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
 });
 
   const servicesData = [1,2,3,4,5].map(i => ({
@@ -260,11 +365,7 @@ const cards = [
   return (
     <>
      {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="sem-service-jsonld" data={jsonLd} />
       
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
    <div className='hidden lg:flex'>
