@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import FaqPrompt from '../../components/common/FaqPrompt'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
@@ -7,7 +7,9 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import JsonLd from "../../components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import {
   AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
   ContactMainDeferred as Contact,
@@ -21,36 +23,26 @@ import {
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: bu sayfanın standart key'i
   const pathnameKey = "/Services/smm";
 
-  // Türkçe yorum: ortam bazlı base URL (local + prod)
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  // Türkçe yorum: seoConfig'ten title/description çek
   const seoData = getSeoData(pathnameKey, locale);
 
   const title =
-    seoData?.title || "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE";
+    seoData?.title ||
+    "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE";
 
   const description =
     seoData?.description ||
     "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar.";
 
-  // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-  const ogImageAbs = new URL(ogPath, base).toString(); 
+  const base = getBaseUrl();
 
-  // Türkçe yorum: canonical URL (local + prod)
-  const url =
-    locale === "tr"
-      ? `${base}/tr/smm`
-      : `${base}/en/social-media-management`; 
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
+
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
-    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
     metadataBase: new URL(base),
 
     title,
@@ -59,8 +51,8 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: url,
       languages: {
-        tr: `${base}/tr/smm`,
-        en: `${base}/en/social-media-management`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -91,232 +83,179 @@ export async function generateMetadata({ params }) {
 }
 
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com/",
-//       "description": "DGTLFACE, markalar ve oteller için sosyal medya stratejisi, içerik üretimi, Reels & video, reklam yönetimi ve analiz sunan profesyonel bir sosyal medya ajansıdır.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya","Bodrum"]
-//     },
-//     {
-//       "@type": "WebSite",
-//       "@id": "https://dgtlface.com/#website",
-//       "url": "https://dgtlface.com/",
-//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-//       "inLanguage": "tr-TR",
-//       "publisher": {
-//         "@id": "https://dgtlface.com/#organization"
-//       }
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/smm/#webpage",
-//       "url": "https://dgtlface.com/tr/smm",
-//       "name": "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE",
-//       "description": "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar. Instagram, Facebook ve YouTube için profesyonel sosyal medya yönetimi hizmeti alın.",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#website"
-//       },
-//       "inLanguage": "tr-TR",
-//       "about": [
-//         "sosyal medya yönetimi",
-//         "sosyal medya ajansı",
-//         "instagram yönetimi",
-//         "sosyal medya danışmanlığı",
-//         "otel sosyal medya yönetimi"
-//       ],
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/smm/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/smm/#service",
-//       "name": "Sosyal Medya Yönetimi – Profesyonel SMM Stratejileri",
-//       "url": "https://dgtlface.com/tr/smm",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "sosyal medya yönetimi, sosyal medya reklamları, içerik üretimi, SMM stratejisi",
-//       "description": "DGTLFACE, sosyal medya stratejisi, içerik üretimi, planlama, Reels & video prodüksiyon, reklam yönetimi ve performans analizi ile markalar ve oteller için profesyonel sosyal medya yönetimi sunar.",
-//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya","Bodrum"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "sosyal medya yönetimi",
-//         "sosyal medya ajansı",
-//         "instagram yönetimi",
-//         "sosyal medya danışmanlığı",
-//         "içerik üretimi hizmeti",
-//         "sosyal medya reklam yönetimi",
-//         "sosyal medya yönetimi nasıl yapılır",
-//         "instagram içerik planı nasıl hazırlanır",
-//         "sosyal medya etkileşimi artırma yolları",
-//         "işletmeler için sosyal medya stratejisi",
-//         "oteller için sosyal medya pazarlaması",
-//         "turizm sektöründe sosyal medya",
-//         "reel video nasıl viral olur",
-//         "içerik takvimi oluşturma",
-//         "sosyal medya raporu nasıl hazırlanır",
-//         "otel sosyal medya yönetimi",
-//         "resort instagram yönetimi",
-//         "otel reels video üretimi",
-//         "sosyal medya yönetimi antalya",
-//         "antalya sosyal medya ajansı",
-//         "instagram yönetimi türkiye",
-//         "sosyal medya danışmanı antalya"
-//       ]
-//     },
-//     {
-//       "@type": "ItemList",
-//       "@id": "https://dgtlface.com/tr/smm/#services-list",
-//       "name": "DGTLFACE SMM Hizmetleri",
-//       "itemListElement": [
-//         {
-//           "@type": "Service",
-//           "name": "Sosyal Medya İçerik Üretimi",
-//           "url": "https://dgtlface.com/tr/smm/icerik-uretimi"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Planlama ve Strateji",
-//           "url": "https://dgtlface.com/tr/smm/planlama-strateji"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Reels & Video İçerik Üretimi",
-//           "url": "https://dgtlface.com/tr/smm/reels-video"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Sosyal Medya Reklamları",
-//           "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Analiz & Raporlama",
-//           "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/smm/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Sosyal Medya Yönetimi",
-//           "item": "https://dgtlface.com/tr/smm"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/smm/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Sosyal medya yönetimi sadece post paylaşmak mıdır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hayır. Profesyonel sosyal medya yönetimi; strateji, içerik üretimi, tasarım, video, planlama, reklam, topluluk yönetimi ve raporlama gibi birçok sürecin birlikte çalıştığı bir yapıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için sosyal medya gerçekten rezervasyon getirir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Doğru strateji, doğru içerik ve reklam kurgusuyla evet. Özellikle Reels, kısa video ve kampanya iletişimi, misafirin otel tercihinde ciddi rol oynar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Sadece içerik üretimi veya sadece reklam yönetimi hizmeti alabilir miyim?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet, sadece içerik üretimi, sadece planlama veya sadece sosyal medya reklam yönetimi hizmeti alabilirsiniz. Ancak en güçlü sonuçlar bu alanların entegre çalıştığı modellerde elde edilir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-const Page = () => {
-  const locale = useLocale();
-  const t = useTranslations("Smm");
-  const t2 = useTranslations("Smm.h4Section");
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSmmServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const homeUrl = getCanonicalUrl("/", locale);
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetlerimiz",
+          current: "Sosyal Medya Pazarlaması",
+          serviceType: "SMM – Sosyal Medya Yönetimi",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "Social Media Management",
+          serviceType: "SMM – Social Media Management",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
   const base = getBaseUrl();
 
+  const t = await getTranslations({ locale, namespace: "Smm" });
+  const t2 = await getTranslations({ locale, namespace: "Smm.h4Section" });
+
   // ✅ senin metadata ile birebir: TR /tr/smm, EN /en/social-media-management
-  const pageUrl =
-    locale === "tr"
-      ? `${base}/tr/smm`
-      : `${base}/en/social-media-management`;
+const pathnameKey = "/Services/smm";
 
-  // ✅ sayfada render ettiğin FAQ listesi (5 adet) -> JSON-LD de 5 olacak
-  const faqs = [
-    { question: t("faqs.question1"), answer: t("faqs.answer1") },
-    { question: t("faqs.question2"), answer: t("faqs.answer2") },
-    { question: t("faqs.question3"), answer: t("faqs.answer3") },
-    { question: t("faqs.question4"), answer: t("faqs.answer4") },
-    { question: t("faqs.question5"), answer: t("faqs.answer5") },
-  ];
+const pageUrl = getCanonicalUrl(pathnameKey, locale);
+const servicesUrl = getCanonicalUrl("/Services", locale);
 
-  // ✅ StepSection buttonLink’lerinle birebir aynı (absolute yapıyoruz)
-    const serviceItems = [
-    { name: stripHtml(t("smm_services_title1")), url: `${base}/${locale}${locale === "tr" ? "/smm/icerik-uretimi" : "/smm/social-media-content"}` },
-    { name: stripHtml(t("smm_services_title2")), url: `${base}/${locale}${locale === "tr" ? "/smm/planlama-strateji" : "/smm/social-media-planning"}` },
-    { name: stripHtml(t("smm_services_title3")), url: `${base}/${locale}${locale === "tr" ? "/smm/reels-video" : "/smm/reels-video"}` },
-    { name: stripHtml(t("smm_services_title4")), url: `${base}/${locale}${locale === "tr" ? "/smm/sosyal-medya-reklamlari" : "/smm/social-media-ads"}` },
-    { name: stripHtml(t("smm_services_title5")), url: `${base}/${locale}${locale === "tr" ? "/smm/analiz-raporlama" : "/smm/social-media-reporting"}` },
-  ];
-
-  const jsonLd = buildDepartmentJsonLd({
+const jsonLd = buildSmmServiceJsonLd({
   locale,
+  baseUrl: base,
   pageUrl,
-
+  servicesUrl,
   pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
-
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
   serviceName: t("jsonld.serviceName"),
-  serviceType: t("jsonld.serviceType"),
-  keywords: t.raw("jsonld.keywords"), 
-
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-  breadcrumbName: t("jsonld.breadcrumbName"),
-
-  faqItems: faqs,
-  serviceItems,
-
-  aiAnswerText: t("aiAnswerBlock"),
-  aiSourceText: t("aiSourceMention"),
 });
 
-
+const faqs = [1, 2, 3, 4, 5].map((i) => ({
+  question: t(`faqs.question${i}`),
+  answer: t(`faqs.answer${i}`),
+}));
     
        const items = [
            {
@@ -415,11 +354,8 @@ const Page = () => {
   return (
    <>
    {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="smm-service-jsonld" data={jsonLd} />
+
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
        <div className='hidden lg:flex'>
         <MainBanner  header={t("smm_banner_header")} span={t("smm_banner_span")} text={t("smm_banner_text")} buttonText={t("buttonText")}/>

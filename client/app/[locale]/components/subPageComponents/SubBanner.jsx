@@ -26,13 +26,17 @@ const SubBanner = ({header,header2,text,buttonLink, buttonText, header3,text2}) 
       [&_li]:mb-1 [&_a]:underline"
           />
 
-            <h2 className='text-[22px] lg:text-[24px] font-semibold leading-[120%] -tracking-[0.96px] mt-2'>{header3}</h2>
-            <PlainRichText
-            html={text2}
-            className="text-[12px] md:text-[14px] xl:text-[16px] font-normal leading-[120%] lg:leading-[130%] lg:mb-[16px] space-y-1 [&_ul]:list-disc
-      [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1 [&_a]:underline"
-          />
+            {header3 ? (
+  <h2 className="text-[22px] lg:text-[24px] font-semibold leading-[120%] -tracking-[0.96px] mt-2">
+    {header3}
+  </h2>
+) : null}
+            {text2 ? (
+  <PlainRichText
+    html={text2}
+    className="text-[12px] md:text-[14px] xl:text-[16px] font-normal leading-[120%] lg:leading-[130%] lg:mb-[16px] space-y-1 [&_p]:mb-2 [&_ul]:list-disc [&_ul]:pl-[5%] [&_ul]:text-start [&_li]:mb-1 [&_a]:underline"
+  />
+) : null}
              
         </div>
         <Image

@@ -132,7 +132,7 @@ function buildSeoServiceJsonLd({
     locale === "tr"
       ? {
           home: "Anasayfa",
-          services: "Hizmetler",
+          services: "Hizmetlerimiz",
           current: "SEO - Arama Motoru Optimizasyonu",
           serviceType: "SEO - Arama Motoru Optimizasyonu",
           country: "Türkiye",

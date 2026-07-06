@@ -1,4 +1,3 @@
-// components/common/PlainRichText.jsx
 "use client";
 
 import React from "react";
@@ -13,6 +12,9 @@ const HTML_ENTITY_MAP = {
   nbsp: "\u00A0",
   quot: '"',
 };
+
+const BLOCK_TAG_RE =
+  /<\/?(address|article|aside|blockquote|div|dl|fieldset|figcaption|figure|footer|form|h[1-6]|header|hr|li|main|nav|ol|p|pre|section|table|tbody|td|tfoot|th|thead|tr|ul)\b/i;
 
 function decodeHtmlEntitiesInText(text) {
   return String(text).replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (match, entity) => {
@@ -50,7 +52,7 @@ function convertMarkdownLinksToHtml(text) {
 
 export default function PlainRichText({
   html,
-  as: Tag = "p",
+  as = "auto",
   className = "",
 }) {
   const locale = useLocale();
@@ -61,6 +63,10 @@ export default function PlainRichText({
     convertMarkdownLinksToHtml(decodeHtmlEntitiesInTextNodes(html)),
     locale
   );
+
+  const hasBlockTag = BLOCK_TAG_RE.test(normalizedHtml);
+
+  const Tag = as === "auto" ? (hasBlockTag ? "div" : "p") : as;
 
   return (
     <Tag

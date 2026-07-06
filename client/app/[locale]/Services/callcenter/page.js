@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import FaqPrompt from '../../components/common/FaqPrompt'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
@@ -16,20 +16,15 @@ import {
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import JsonLd from "../../components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: bu sayfanın standart key'i (og-map + seoConfig'te aynı key kullanılacak)
   const pathnameKey = "/Services/callcenter";
 
-  // Türkçe yorum: ortam bazlı base URL (local + prod)
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  // Türkçe yorum: seoConfig'ten title/description çek
   const seoData = getSeoData(pathnameKey, locale);
 
   const title =
@@ -40,28 +35,24 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunar. 4 dilde profesyonel müşteri hizmetleri sağlar.";
 
-  // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-const ogImageAbs = new URL(ogPath, base).toString(); 
+  const base = getBaseUrl();
 
-  // Türkçe yorum: canonical URL (local + prod)
-  const url =
-    locale === "tr"
-    ? `${base}/tr/cagri-merkezi`
-    : `${base}/en/call-center`;
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
+
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
-    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
     metadataBase: new URL(base),
 
     title,
     description,
 
     alternates: {
-      canonical: url, 
+      canonical: url,
       languages: {
-        tr: `${base}/tr/cagri-merkezi`,
-        en: `${base}/en/call-center`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -91,68 +82,178 @@ const ogImageAbs = new URL(ogPath, base).toString();
   };
 }
 
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-const Page = () => {
-   const locale = useLocale();
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildCallCenterServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const homeUrl = getCanonicalUrl("/", locale);
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetlerimiz",
+          current: "Çağrı Merkezi",
+          serviceType: "Çağrı Merkezi Hizmetleri",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "Call Center",
+          serviceType: "Call Center Services",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
   const base = getBaseUrl();
 
-   const t = useTranslations("Callcenter");
-         const t2 = useTranslations("Callcenter.h4Section");
+  const t = await getTranslations({ locale, namespace: "Callcenter" });
+  const t2 = await getTranslations({ locale, namespace: "Callcenter.h4Section" });
      
              // ✅ generateMetadata ile birebir aynı canonical
-  const pageUrl =
-    locale === "tr"
-      ? `${base}/tr/cagri-merkezi`
-      : `${base}/en/call-center`;
+const pathnameKey = "/Services/callcenter";
 
-  // ✅ Sayfada render edilen FAQ sayısı ile JSON-LD birebir
-  const faqs = [1, 2, 3, 4, 5].map((i) => ({
-    question: t(`faqs.question${i}`),
-    answer: t(`faqs.answer${i}`),
-  }));
+const pageUrl = getCanonicalUrl(pathnameKey, locale);
+const servicesUrl = getCanonicalUrl("/Services", locale);
 
-  // ✅ StepSection linkleri ile birebir aynı URL’ler (absolute)
-const serviceItems =
-  locale === "tr"
-    ? [
-        { name: stripHtml(t("callcenter_services_title1")), url: `${base}/tr/cagri-merkezi/4-dilli-cagri-merkezi` },
-        { name: stripHtml(t("callcenter_services_title2")), url: `${base}/tr/cagri-merkezi/rezervasyon-destegi` },
-        { name: stripHtml(t("callcenter_services_title3")), url: `${base}/tr/cagri-merkezi/mesaj-yonetimi` },
-        { name: stripHtml(t("callcenter_services_title4")), url: `${base}/tr/cagri-merkezi/satis-sonrasi-destek` },
-        { name: stripHtml(t("callcenter_services_title5")), url: `${base}/tr/cagri-merkezi/performans-analizi` },
-      ]
-    : [
-        // EN child route'lar sende neyse ona göre update edersin:
-        { name: stripHtml(t("callcenter_services_title1")), url: `${base}/en/call-center/multilingual-call-center` },
-        { name: stripHtml(t("callcenter_services_title2")), url: `${base}/en/call-center/reservation-support` },
-        { name: stripHtml(t("callcenter_services_title3")), url: `${base}/en/call-center/message-management` },
-        { name: stripHtml(t("callcenter_services_title4")), url: `${base}/en/call-center/after-sales-support` },
-        { name: stripHtml(t("callcenter_services_title5")), url: `${base}/en/call-center/performance-analysis` },
-      ];
-
-
-  const jsonLd = buildDepartmentJsonLd({
+const jsonLd = buildCallCenterServiceJsonLd({
   locale,
+  baseUrl: base,
   pageUrl,
-
+  servicesUrl,
   pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
-
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
   serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-
-  breadcrumbName: t("jsonld.breadcrumbName"),
-
-  keywords: t.raw("jsonld.keywords"),
-
-  faqItems: faqs,
-  serviceItems,
-
-  // ✅ AI parçaları: JSON-LD içine de girsin
-  aiQuestion: t("jsonld.pageName"),
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
 });
+
+const faqs = [1, 2, 3, 4, 5].map((i) => ({
+  question: t(`faqs.question${i}`),
+  answer: t(`faqs.answer${i}`),
+}));
 
          
             const items = [
@@ -251,11 +352,7 @@ const serviceItems =
   return (
   <>
    {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="callcenter-service-jsonld" data={jsonLd} />
       
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
 <div className='hidden lg:flex'>

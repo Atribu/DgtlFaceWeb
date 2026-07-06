@@ -7,7 +7,7 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
 import image5 from "./images/tagmanager.webp"
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -17,8 +17,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -35,7 +35,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Google Ads kampanyalarını satış ve rezervasyon odaklı yönetir; dönüşüm takibi, optimizasyon ve Looker Studio raporlama ile şeffaf büyüme sağlar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
 
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
@@ -61,7 +62,7 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [{ url: ogImageAbs, width: 1200, height: 630, alt: title }],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -69,180 +70,184 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com/",
-//       "description": "DGTLFACE, Google Ads kampanyalarını bütçe, hedefleme ve reklam optimizasyonuyla yöneten; oteller ve markalar için dönüşüm odaklı Google Ads yönetimi sunan dijital reklam ajansıdır.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe"]
-//     },
-//     {
-//       "@type": "WebSite",
-//       "@id": "https://dgtlface.com/#website",
-//       "url": "https://dgtlface.com/",
-//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-//       "inLanguage": "tr-TR",
-//       "publisher": {
-//         "@id": "https://dgtlface.com/#organization"
-//       }
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/sem/google-ads-yonetimi/#webpage",
-//       "url": "https://dgtlface.com/tr/sem/google-ads-yonetimi",
-//       "name": "Google Ads Yönetimi – Uzman Kampanya Optimizasyonu | DGTLFACE",
-//       "description": "DGTLFACE, Google Ads’te bütçe, hedefleme ve reklam optimizasyonu ile dönüşümlerinizi artırır. Oteller ve markalar için profesyonel Google Ads yönetimi sunar.",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#website"
-//       },
-//       "inLanguage": "tr-TR",
-//       "about": [
-//         "google ads yönetimi",
-//         "google reklam ajansı",
-//         "google ads profesyonel yönetim",
-//         "google ads optimizasyon hizmeti",
-//         "turizm google ads kampanyası",
-//         "otel google ads yönetimi"
-//       ],
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/sem/google-ads-yonetimi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/sem/google-ads-yonetimi/#service",
-//       "name": "Google Ads Yönetimi – Uzman Kampanya Optimizasyonu",
-//       "url": "https://dgtlface.com/tr/sem/google-ads-yonetimi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "google ads yönetimi, google reklam ajansı, google ads profesyonel yönetim, google ads optimizasyon hizmeti, turizm google ads kampanyası",
-//       "description": "DGTLFACE, Google Ads kampanyalarınızı sadece tıklama değil; satış ve rezervasyon odaklı bir yapıda yönetir. Anahtar kelime stratejisi, hedef kitle segmentasyonu, teklif optimizasyonu, reklam metni testleri ve dönüşüm takibi gibi süreçleri bütüncül bir performans modeli içinde yürütür.",
-//       "areaServed": ["Antalya","Türkiye","Europe"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "google ads yönetimi",
-//         "google reklam ajansı",
-//         "google ads profesyonel yönetim",
-//         "google advertising expert",
-//         "google ads optimizasyon hizmeti",
-//         "google reklam kampanyası",
-//         "google ads reklam maliyetini nasıl düşürürüm",
-//         "google ads dönüşüm oranı artırma teknikleri",
-//         "satış odaklı google reklam ayarları",
-//         "oteller için google ads",
-//         "turizm google ads kampanyası",
-//         "google ads anahtar kelime stratejileri",
-//         "google reklamlarında kalite puanı artırma",
-//         "google ads arama ağı optimizasyonu",
-//         "google reklam metni nasıl yazılır",
-//         "google ads hedef kitle optimizasyonu",
-//         "otel google ads yönetimi",
-//         "turizm sektöründe google reklamları",
-//         "otel satış artırma google ads",
-//         "booking entegrasyonlu google ads",
-//         "google ads antalya",
-//         "antalya google reklam ajansı",
-//         "google ads yönetimi türkiye",
-//         "antalya dijital pazarlama"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/sem/google-ads-yonetimi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "SEM – Dijital Reklam Yönetimi",
-//           "item": "https://dgtlface.com/tr/sem"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Google Ads Yönetimi",
-//           "item": "https://dgtlface.com/tr/sem/google-ads-yonetimi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/sem/google-ads-yonetimi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE’in Google Ads yönetim hizmeti neleri kapsar?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE; anahtar kelime stratejisi, kampanya ve reklam kurulumu, hedef kitle optimizasyonu, dönüşüm takibi, bütçe ve teklif (bid) optimizasyonu, reklam metni testleri ve performans raporlamasını kapsayan uçtan uca Google Ads yönetimi sunar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Google Ads kampanya optimizasyonu nasıl yapılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Kampanya yapısı, anahtar kelime ve arama terimi analizleri, negatif kelime temizliği, teklif stratejileri, reklam metin testleri, cihaz/bölge/saat optimizasyonu ve açılış sayfası performansı birlikte değerlendirilerek yapılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için Google Ads stratejisi nasıl kurgulanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Marka aramaları, destinasyon aramaları, konsept aramaları (family, adults-only vb.), kampanya ve sezon aramaları için ayrı kampanya setleri oluşturulur; her segment için farklı mesaj, teklif ve açılış sayfası kullanılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Google Ads bütçesi nasıl planlanmalı ve optimize edilmeli?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Bütçe, hedef pazar, sezon, oda fiyatları ve beklenen doluluk hedeflerine göre planlanır; performansı yüksek kampanyalara bütçe kaydırılır, düşük performanslı kombinasyonlar azaltılır veya kapatılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE ile Google Ads yönetimi klasik ajanslardan nasıl farklıdır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE, Google Ads’i tek başına değil; SEO, SMM, web & rezervasyon, PMS–OTA ve çağrı merkezi süreçleriyle birlikte ele alır. Böylece sadece tıklama değil, gerçek satış ve rezervasyon verileri üzerinden optimizasyon yapılır."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
 
-const Page = () => {
-    const locale = useLocale();
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
+
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildGoogleAdsServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Ana Sayfa",
+          parent: "SEM",
+          current: "Google Ads Yönetimi",
+          serviceType: "Google Ads Yönetimi",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          parent: "SEM",
+          current: "Google Ads Management",
+          serviceType: "Google Ads Management",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
   const baseUrl = getBaseUrl();
   const pathnameKey = "/Services/sem/googleAdsAdvertising";
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
-   const t = useTranslations("GoogleAdsAdvertising");
-   const t2 = useTranslations("GoogleAdsAdvertising.h4Section");
+  const t = await getTranslations({
+    locale,
+    namespace: "GoogleAdsAdvertising",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "GoogleAdsAdvertising.h4Section",
+  });
+
+  const parentSemUrl =
+    locale === "tr"
+      ? `${baseUrl}/tr/sem`
+      : `${baseUrl}/en/search-engine-marketing`;
+
+  const jsonLd = buildGoogleAdsServiceJsonLd({
+    locale,
+    baseUrl,
+    pageUrl: canonicalUrl,
+    parentUrl: parentSemUrl,
+    pageName: t("jsonld.pageName"),
+    pageDescription: t("jsonld.pageDescription"),
+    serviceName: t("jsonld.serviceName"),
+    serviceDescription: t("aiAnswerBlock"),
+  });
 
    const stepData = [1,2,3,4,5].map(i => ({
      id: i,
@@ -252,55 +257,6 @@ const Page = () => {
       textHtml:   t.raw(`h3Section.text${i}`)
    }));
 
- const jsonLd = buildServiceJsonLd({
-    baseUrl,
-    locale,
-    canonicalUrl,
-pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
-  serviceName: t("jsonld.serviceName"),
-  serviceType: t("jsonld.serviceType"),
-  keywords: t.raw("jsonld.keywords"),
-
- breadcrumbItems: [
-    { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-    { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/search-engine-marketing"}` },
-    { name: t("jsonld.breadcrumbName"), url: canonicalUrl }
-  ],
-    faqs: [
-     {
-      question: t("faq.question1"),
-      answer:
-       t.raw("faq.answer1"),
-    },
-    {
-      question: t("faq.question2"),
-      answer:
-       t.raw("faq.answer2"),
-    },
-    {
-       question: t("faq.question3"),
-      answer:
-       t.raw("faq.answer3"),
-    },
-
-    {
-    question: t("faq.question4"),
-      answer:
-       t.raw("faq.answer4"),
-    },
-
-    {
-    question: t("faq.question5"),
-      answer:
-       t.raw("faq.answer5"),
-    },
-    ],
-      // 🤖 AI uyumlu alanlar (NEW)
-  aiQuestion: t("jsonld.pageName"),
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
-  });
 
    const cards = [
     {
@@ -362,11 +318,7 @@ pageName: t("jsonld.pageName"),
    
   return (
     <>
-     <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+     <JsonLd id="google-ads-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[12px] lg:gap-[80px] bg-[#080612] overflow-x-hidden items-center justify-center pb-10'>
 <div className='flex flex-col items-center justify-center gap-5'>
@@ -397,10 +349,10 @@ pageName: t("jsonld.pageName"),
       <VerticalSlider page="GoogleAdsAdvertising" itemCount={3}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-          <FaqPrompt
-            namespace="GoogleAdsAdvertising.faqPrompt"
-            faqSlug="google-ads-yonetimi-sss"
-          />
+        <FaqPrompt
+  namespace="GoogleAdsAdvertising.faqPrompt"
+  faqSlug="sem/google-ads-yonetimi-sss"
+/>
      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>

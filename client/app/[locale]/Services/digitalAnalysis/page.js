@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import FaqPrompt from '../../components/common/FaqPrompt'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
@@ -16,20 +16,15 @@ import {
 } from '@/app/[locale]/components/subPageComponents/DeferredServiceSections'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import JsonLd from "../../components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: bu sayfanın standart key'i (og-map + seoConfig'te aynı key olmalı)
   const pathnameKey = "/Services/digitalAnalysis";
 
-  // Türkçe yorum: ortam bazlı base URL (local + prod)
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  // Türkçe yorum: seoConfig'ten title/description çek
   const seoData = getSeoData(pathnameKey, locale);
 
   const title =
@@ -40,18 +35,14 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.";
 
-  // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-  const ogImageAbs = new URL(ogPath, base).toString(); 
+  const base = getBaseUrl();
 
-  // Türkçe yorum: canonical URL (local + prod)
-  const url =
-    locale === "tr"
-      ? `${base}/tr/raporlama`
-      : `${base}/en/digital-analysis`; // EN path sende neyse ona göre düzelt
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
+
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
-    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
     metadataBase: new URL(base),
 
     title,
@@ -60,8 +51,8 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: url,
       languages: {
-        tr: `${base}/tr/raporlama`,
-        en: `${base}/en/digital-analysis`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -91,398 +82,332 @@ export async function generateMetadata({ params }) {
   };
 }
 
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
+  try {
+    const parsed = new URL(url);
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com/",
-//       "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunan veri odaklı dijital pazarlama partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe"]
-//     },
-//     {
-//       "@type": "WebSite",
-//       "@id": "https://dgtlface.com/#website",
-//       "url": "https://dgtlface.com/",
-//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-//       "inLanguage": "tr-TR",
-//       "publisher": {
-//         "@id": "https://dgtlface.com/#organization"
-//       }
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/#webpage",
-//       "url": "https://dgtlface.com/tr/raporlama",
-//       "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
-//       "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#website"
-//       },
-//       "inLanguage": "tr-TR",
-//       "about": [
-//         "veri analizi hizmeti",
-//         "dijital performans raporlama",
-//         "looker studio rapor",
-//         "satış analiz hizmeti",
-//         "dönüşüm analizi",
-//         "benchmark raporu",
-//         "otel satış raporlama",
-//         "turizm veri analizi"
-//       ],
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/raporlama/#service",
-//       "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı",
-//       "url": "https://dgtlface.com/tr/raporlama",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "veri analizi hizmeti, dijital performans raporlama, Looker Studio raporlama, benchmark analizi, satış ve dönüşüm raporlama, KVKK veri güvenliği raporlama",
-//       "description": "DGTLFACE, SEO, SEM, SMM, web, PMS–OTA, çağrı merkezi ve satış verilerini Looker Studio dashboard’larında birleştirerek oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunar.",
-//       "areaServed": ["Antalya","Türkiye","Europe"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "veri analizi hizmeti",
-//         "dijital performans raporlama",
-//         "looker studio rapor",
-//         "satış analiz hizmeti",
-//         "dönüşüm analizi",
-//         "benchmark raporu",
-//         "dijital performans nasıl ölçülür",
-//         "looker studio dashboard hazırlanması",
-//         "oteller için günlük satış raporu",
-//         "sosyal medya performans analizi",
-//         "seo performans analizi nasıl yapılır",
-//         "google analytics verileri nasıl yorumlanır",
-//         "meta ads rapor optimizasyonu",
-//         "reklam performans ölçümü",
-//         "oteller için benchmark analizi",
-//         "gelir artırma veri analizi",
-//         "turizm sektörü raporlama teknikleri",
-//         "kpi analizi nasıl yapılır",
-//         "looker studio otomatik rapor",
-//         "otel satış raporlama",
-//         "turizm veri analizi",
-//         "resort benchmark raporu",
-//         "pms veri analizi",
-//         "veri analizi antalya",
-//         "antalya dijital raporlama",
-//         "performans analizi türkiye",
-//         "looker studio antalya"
-//       ]
-//     },
-//     {
-//       "@type": "ItemList",
-//       "@id": "https://dgtlface.com/tr/raporlama/#services-list",
-//       "name": "DGTLFACE Raporlama Hizmetleri",
-//       "itemListElement": [
-//         {
-//           "@type": "Service",
-//           "name": "Looker Studio Raporlama",
-//           "url": "https://dgtlface.com/tr/raporlama/looker-studio"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Benchmark Analizi",
-//           "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Satış ve Dönüşüm Raporları",
-//           "url": "https://dgtlface.com/tr/raporlama/satis-donusum"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "KVKK & Veri Güvenliği Raporlama",
-//           "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Veri Analizi & Raporlama",
-//           "item": "https://dgtlface.com/tr/raporlama"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Raporlama için ekstra yeni bir yazılım mı almam gerekiyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Genellikle hayır. Mevcut kullandığınız sistemler (Google Analytics, Search Console, Google Ads, Meta Ads, PMS, OTA, çağrı merkezi vb.) üzerinden veri çekip Looker Studio gibi araçlarla dashboard’lar kuruyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Tüm raporları kendim mi takip edeceğim, yoksa özet sunuyor musunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Panellere 7/24 erişiminiz olur; buna ek olarak periyodik özet raporlar ve toplantılarla veriyi yorumlar, bir sonraki adım için aksiyon önerileri sunarız."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Veri analizi ve raporlama sadece büyük oteller için mi anlamlı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hayır. Küçük ve orta ölçekli otellerde de doğru raporlama sayesinde bütçenin nereye harcandığını ve ne getirdiğini erken görmek son derece kritiktir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Sadece raporlama hizmeti alabilir miyim?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet, sadece raporlama ve veri analizi hizmeti alabilirsiniz; ancak en sağlıklı sonuçları raporlama ile SEO, SEM, SMM ve PMS & OTA süreçlerinin entegre yürütüldüğü projelerde alıyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE ile raporlama projesine nasıl başlıyoruz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Önce hangi sistemleri kullandığınızı ve hangi soruları cevaplamak istediğinizi analiz ediyoruz. Ardından veri kaynakları, KPI seti ve dashboard yapısına göre bir raporlama yol haritası çıkarıyor, onay sonrası entegrasyon ve panel kurulumlarını gerçekleştiriyoruz."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
 
-const Page = () => {
-  const locale = useLocale();
-const base = getBaseUrl();
-
-  const t = useTranslations("DigitalAnalysis");
-     const t2 = useTranslations("DigitalAnalysis.h4Section");
-      
-               // ✅ generateMetadata ile birebir aynı canonical
-const pageUrl =
-  locale === "tr"
-    ? `${base}/tr/raporlama`
-    : `${base}/en/digital-analysis`;
-
-// ✅ Sayfada render edilen FAQ ile birebir
-const faqs = [1, 2, 3, 4, 5].map((i) => ({
-  question: t(`faqs.question${i}`),
-  answer: t(`faqs.answer${i}`),
-}));
-
-// ✅ StepSection buttonLink’leri ile birebir (absolute)
-const serviceItems =
-  locale === "tr"
-    ? [
-        { name: stripHtml(t("analysis_services_title1")), url: `${base}/tr/raporlama/looker-studio` },
-        { name: stripHtml(t("analysis_services_title2")), url: `${base}/tr/raporlama/benchmark-analizi` },
-        { name: stripHtml(t("analysis_services_title3")), url: `${base}/tr/raporlama/satis-donusum` },
-        { name: stripHtml(t("analysis_services_title4")), url: `${base}/tr/raporlama/kvkk-veri-guvenligi` },
-      ]
-    : [
-        { name: stripHtml(t("analysis_services_title1")), url: `${base}/en/digital-analysis/looker-studio` },
-        { name: stripHtml(t("analysis_services_title2")), url: `${base}/en/digital-analysis/benchmark-analysis` },
-        { name: stripHtml(t("analysis_services_title3")), url: `${base}/en/digital-analysis/digital-sales-analysis` },
-        { name: stripHtml(t("analysis_services_title4")), url: `${base}/en/digital-analysis/kvkk-data-security` },
-      ];
-
-
-const jsonLd = buildDepartmentJsonLd({
-  locale,
-  pageUrl,
-
-  pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
-
-  serviceName: t("jsonld.serviceName"),
-  serviceDescription: stripHtml(t("aiAnswerBlock")),
-
-  breadcrumbName: t("jsonld.breadcrumbName"),
-
-  keywords: t.raw("jsonld.keywords"),
-
-  faqItems: faqs,
-  serviceItems,
-
-  // ✅ AI alanları (yeni Google / AI Overview uyumu)
-  aiQuestion: t("jsonld.pageName"),
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
-});
-
-          
-             const items = [
-                 {
-                   title: t("h2Section.title1"),
-                   text: (
-                     <RichTextSpan
-                       ns="DigitalAnalysis"
-                       id="h2Section.text1"
-                       className=""
-                     />
-                   ),
-                 },
-                 {
-                   title: t("h2Section.title2"),
-                   text: (
-                     <RichTextSpan
-                       ns="DigitalAnalysis"
-                       id="h2Section.text2"
-                       className=""
-                     />
-                   ),
-                 },
-                 {
-                   title: t("h2Section.title3"),
-                   text: (
-                     <RichTextSpan
-                       ns="DigitalAnalysis"
-                       id="h2Section.text3"
-                       className=""
-                     />
-                   ),
-                 },
-                   {
-                   title: t("h2Section.title4"),
-                   text: (
-                     <RichTextSpan
-                       ns="DigitalAnalysis"
-                       id="h2Section.text4"
-                       className=""
-                     />
-                   ),
-                 },
-                 
-               ];
-          
-               const cards = [
-            {
-              widthClass: "w-[90%] lg:w-[80%]",
-              title: t2("card1title"),
-              description: (
-                <RichTextSpan
-                  ns="DigitalAnalysis"
-                  id="h4Section.card1description"
-                />
-              ),
-            },
-            {
-              widthClass: "w-[90%] lg:w-[75%]",
-              title: t2("card2title"),
-              description: (
-                <RichTextSpan
-                  ns="DigitalAnalysis"
-                  id="h4Section.card2description"
-                />
-              ),
-            },
-            {
-              widthClass: "w-[90%] lg:w-[70%]",
-              title: t2("card3title"),
-              description: (
-                <RichTextSpan
-                  ns="DigitalAnalysis"
-                  id="h4Section.card3description"
-                />
-              ),
-            },
-          
-          ];
-
-  const servicesData = [1,2,3,4].map(i => ({
-  id: i,
-  title: t(`analysis_services_title${i}`),
-  subTitle: t(`analysis_services_subtitle${i}`),
-     text: t(`analysis_services_text${i}`),
-  features: [1,2,3,4].map(j => t(`analysis_services_feature${i}_${j}`)),
-  buttonLink: [
-    "/Services/digitalAnalysis/lookerStudio",
-    "/Services/digitalAnalysis/onlineMarketResearchService",
-    "/Services/digitalAnalysis/digitalSalesAnalysis",
-    "/Services/digitalAnalysis/kvkkDataSecurity",
-  ][i-1]
-}));
-  
-  return (
-  <>
-  {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-
-    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
-   <div className='hidden lg:flex'>
-     <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
-   </div>
-
-     <div className='flex lg:hidden'>
-     <MobileMainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
-   </div>
-<div className='flex flex-col gap-4 items-center justify-center'>
-  <AutoBreadcrumbsWhite/>
-    <AiAnswerBlock text={t("aiAnswerBlock")}/>
-</div>
-       <DualHighlightSection items={items}/>
-<StepSection
-  header={t("analysis_section_header1")}
-  header2={t("analysis_section_header2")}
-  text={t("analysis_section_text")}
-  servicesData={servicesData}
-  buttonText={t("buttonText")}
-/>
-
-<LogoListSection
-      introTitle={t2("header")}
-      introSubtitlePrefix="DGTLFACE"
-      introSubtitle={""}
-      introDescription={""}
-      cards={cards}
-      bgColor="#ffffff"
-      textColor="#140f25"
-    />
-        <VerticalSlider2 page="DigitalAnalysis" itemCount={4}/>
-      <QuestionsSection2 color="#140F25" faqs={faqs}/>
-      <FaqPrompt
-        namespace="DigitalAnalysis.faqPrompt"
-        faqSlug="veri-analiz-ve-raporlama-sss"
-      />
-      <Contact/>
-      <AiSourceMention text={t("aiSourceMention")}/>
-    </div>
-  </>
-  )
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
 }
 
-export default Page
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildReportingServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          current: "Dijital Analiz ve Raporlama",
+          serviceType: "Veri Analizi & Raporlama",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "Digital Analysis and Reporting",
+          serviceType: "Data Analysis & Reporting",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
+  const base = getBaseUrl();
+
+  const t = await getTranslations({
+    locale,
+    namespace: "DigitalAnalysis",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "DigitalAnalysis.h4Section",
+  });
+
+  const pathnameKey = "/Services/digitalAnalysis";
+
+  const pageUrl = getCanonicalUrl(pathnameKey, locale);
+  const servicesUrl = getCanonicalUrl("/Services", locale);
+
+  const jsonLd = buildReportingServiceJsonLd({
+    locale,
+    baseUrl: base,
+    pageUrl,
+    servicesUrl,
+    pageName: t("jsonld.pageName"),
+    pageDescription: stripHtml(t("jsonld.pageDescription")),
+    serviceName: t("jsonld.serviceName"),
+    serviceDescription: stripHtml(t("aiAnswerBlock")),
+  });
+
+  const faqs = [1, 2, 3, 4, 5].map((i) => ({
+    question: t(`faqs.question${i}`),
+    answer: t(`faqs.answer${i}`),
+  }));
+
+  const items = [
+    {
+      title: t("h2Section.title1"),
+      text: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h2Section.text1"
+          className=""
+        />
+      ),
+    },
+    {
+      title: t("h2Section.title2"),
+      text: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h2Section.text2"
+          className=""
+        />
+      ),
+    },
+    {
+      title: t("h2Section.title3"),
+      text: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h2Section.text3"
+          className=""
+        />
+      ),
+    },
+    {
+      title: t("h2Section.title4"),
+      text: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h2Section.text4"
+          className=""
+        />
+      ),
+    },
+  ];
+
+  const cards = [
+    {
+      widthClass: "w-[90%] lg:w-[80%]",
+      title: t2("card1title"),
+      description: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h4Section.card1description"
+        />
+      ),
+    },
+    {
+      widthClass: "w-[90%] lg:w-[75%]",
+      title: t2("card2title"),
+      description: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h4Section.card2description"
+        />
+      ),
+    },
+    {
+      widthClass: "w-[90%] lg:w-[70%]",
+      title: t2("card3title"),
+      description: (
+        <RichTextSpan
+          ns="DigitalAnalysis"
+          id="h4Section.card3description"
+        />
+      ),
+    },
+  ];
+
+  const servicesData = [1, 2, 3, 4].map((i) => ({
+    id: i,
+    title: t(`analysis_services_title${i}`),
+    subTitle: t(`analysis_services_subtitle${i}`),
+    text: t(`analysis_services_text${i}`),
+    features: [1, 2, 3, 4].map((j) =>
+      t(`analysis_services_feature${i}_${j}`)
+    ),
+    buttonLink: [
+      "/Services/digitalAnalysis/lookerStudio",
+      "/Services/digitalAnalysis/onlineMarketResearchService",
+      "/Services/digitalAnalysis/digitalSalesAnalysis",
+      "/Services/digitalAnalysis/kvkkDataSecurity",
+    ][i - 1],
+  }));
+
+  return (
+    <>
+      <JsonLd id="reporting-service-jsonld" data={jsonLd} />
+
+      <div className="flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden">
+        <div className="hidden lg:flex">
+          <MainBanner
+            header={t("analysis_banner_header")}
+            text={t("analysis_banner_text")}
+            span={t("analysis_banner_span")}
+            buttonText={t("buttonText")}
+          />
+        </div>
+
+        <div className="flex lg:hidden">
+          <MobileMainBanner
+            header={t("analysis_banner_header")}
+            text={t("analysis_banner_text")}
+            span={t("analysis_banner_span")}
+            buttonText={t("buttonText")}
+          />
+        </div>
+
+        <div className="flex flex-col gap-4 items-center justify-center">
+          <AutoBreadcrumbsWhite />
+          <AiAnswerBlock text={t("aiAnswerBlock")} />
+        </div>
+
+        <DualHighlightSection items={items} />
+
+        <StepSection
+          header={t("analysis_section_header1")}
+          header2={t("analysis_section_header2")}
+          text={t("analysis_section_text")}
+          servicesData={servicesData}
+          buttonText={t("buttonText")}
+        />
+
+        <LogoListSection
+          introTitle={t2("header")}
+          introSubtitlePrefix="DGTLFACE"
+          introSubtitle=""
+          introDescription=""
+          cards={cards}
+          bgColor="#ffffff"
+          textColor="#140f25"
+        />
+
+        <VerticalSlider2 page="DigitalAnalysis" itemCount={4} />
+
+        <QuestionsSection2 color="#140F25" faqs={faqs} />
+
+        <FaqPrompt
+          namespace="DigitalAnalysis.faqPrompt"
+          faqSlug="raporlama-sss"
+        />
+
+        <Contact />
+
+        <AiSourceMention text={t("aiSourceMention")} />
+      </div>
+    </>
+  );
+};
+
+export default Page;

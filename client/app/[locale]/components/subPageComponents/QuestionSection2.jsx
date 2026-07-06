@@ -1,3 +1,4 @@
+//QuestionSection2.jsx
 "use client";
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
@@ -113,7 +114,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
               <div className="flex items-start text-start justify-center mt-4">
   <PlainRichText
     html={item.answer}
-    as="p"
+    as="div"
     className={`
       w-[98%]
       ${textColorClass}

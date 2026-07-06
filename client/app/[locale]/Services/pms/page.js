@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import FaqPrompt from '../../components/common/FaqPrompt'
 import RichTextSpan from '../../components/common/RichTextSpan'
@@ -7,7 +7,9 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import JsonLd from "../../components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import {
   AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
   ContactMainDeferred as Contact,
@@ -21,15 +23,8 @@ import {
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: bu sayfanın key'i (og-map + seo-utils ile aynı olmalı)
   const pathnameKey = "/Services/pms-ota";
 
-  // Türkçe yorum: local + prod ortamı için base URL
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  // Türkçe yorum: seo config'ten title/description çek
   const seoData = getSeoData(pathnameKey, locale);
 
   const title =
@@ -40,18 +35,14 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.";
 
-  // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-const ogImageAbs = new URL(ogPath, base).toString(); 
+  const base = getBaseUrl();
 
-  // Türkçe yorum: canonical URL
-  const url =
-    locale === "tr"
-      ? `${base}/tr/pms-ota`
-      : `${base}/en/pms-ota`; 
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
+
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
-    // ✅ /og/... gibi relative path'leri absolute'a çevirir (localde kritik)
     metadataBase: new URL(base),
 
     title,
@@ -60,8 +51,8 @@ const ogImageAbs = new URL(ogPath, base).toString();
     alternates: {
       canonical: url,
       languages: {
-        tr: `${base}/tr/pms-ota`,
-        en: `${base}/en/pms-ota`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -92,262 +83,178 @@ const ogImageAbs = new URL(ogPath, base).toString();
 }
 
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com/",
-//       "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, online satış optimizasyonu ve rezervasyon yönetimi sunan dijital pazarlama ve otel teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya","Bodrum"]
-//     },
-//     {
-//       "@type": "WebSite",
-//       "@id": "https://dgtlface.com/#website",
-//       "url": "https://dgtlface.com/",
-//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-//       "inLanguage": "tr-TR",
-//       "publisher": {
-//         "@id": "https://dgtlface.com/#organization"
-//       }
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/pms-ota/#webpage",
-//       "url": "https://dgtlface.com/tr/pms-ota",
-//       "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE",
-//       "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#website"
-//       },
-//       "inLanguage": "tr-TR",
-//       "about": [
-//         "pms ve ota yönetimi",
-//         "ota yönetimi",
-//         "pms kurulumu",
-//         "kanal yönetimi",
-//         "online satış optimizasyonu",
-//         "otel satış sistemi",
-//         "turizm pms ve ota çözümleri"
-//       ],
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/pms-ota/#service",
-//       "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu",
-//       "url": "https://dgtlface.com/tr/pms-ota",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "ota yönetimi, pms kurulumu, kanal yönetimi, online satış optimizasyonu, rezervasyon yönetimi",
-//       "description": "DGTLFACE, oteller için PMS kurulumu ve eğitimi, Booking–Expedia gibi OTA entegrasyonları, kanal yönetimi, fiyat–envanter senkronu, online satış optimizasyonu ve rezervasyon yönetimini tek merkezden yöneten PMS & OTA yönetim hizmetleri sunar.",
-//     "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya","Bodrum"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "ota yönetimi",
-//         "pms kurulumu",
-//         "kanal yönetimi",
-//         "online satış optimizasyonu",
-//         "otel satış sistemi",
-//         "ota yönetimi nasıl yapılır",
-//         "oteller için pms kurulumu",
-//         "booking expedia entegrasyon rehberi",
-//         "ota fiyat senkronizasyonu",
-//         "pms entegrasyonu nedir",
-//         "otel rezervasyon sistemi optimizasyonu",
-//         "turizm online satış teknikleri",
-//         "oda envanteri nasıl yönetilir",
-//         "fiyat yönetimi oteller için",
-//         "google hotel ads uyumluluk",
-//         "ota performans raporlama",
-//         "pms ile otomatik fiyat güncelleme",
-//         "kanal yönetimi yazılımı",
-//         "otel web sitesi rezervasyon artırma",
-//         "otel ota yönetimi",
-//         "resort ota optimizasyon",
-//         "turizm pms desteği",
-//         "butik otel dijital satış sistemi",
-//         "ota yönetimi antalya",
-//         "antalya pms kurulumu",
-//         "turizm pms türkiye",
-//         "antalya otel satış optimizasyonu"
-//       ]
-//     },
-//     {
-//       "@type": "ItemList",
-//       "@id": "https://dgtlface.com/tr/pms-ota/#services-list",
-//       "name": "DGTLFACE PMS & OTA Hizmetleri",
-//       "itemListElement": [
-//         {
-//           "@type": "Service",
-//           "name": "PMS Kurulum & Destek",
-//           "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "OTA Entegrasyonu",
-//           "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Kanal Yönetimi (Channel Management)",
-//           "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Online Satış Optimizasyonu",
-//           "url": "https://dgtlface.com/tr/pms-ota/online-satis"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Rezervasyon Yönetimi",
-//           "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "PMS & OTA Yönetimi",
-//           "item": "https://dgtlface.com/tr/pms-ota"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/pms-ota/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "PMS & OTA yönetimi nedir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "PMS & OTA yönetimi, otelin oda, fiyat, envanter, rezervasyon ve misafir bilgilerinin PMS, OTA ve kanal yöneticisi üzerinden tüm kanallarda tutarlı ve senkronize şekilde yönetilmesini sağlar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için PMS kurulumu nasıl yapılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Öncelikle oda ve operasyon yapınız analiz edilir, ardından PMS konfigürasyonu, kullanıcı rolleri, eğitim ve test süreçleri tamamlanarak sistem canlıya alınır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Booking–Expedia entegrasyonu nasıl çalışır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "PMS veya kanal yöneticisi üzerinden oda tipleri ve fiyat planları OTA ile eşleştirilir; fiyat ve envanter güncellemeleri bu yapı üzerinden otomatik olarak Booking ve Expedia’ya iletilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Fiyat ve envanter senkronu şart mı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Fiyat ve envanter senkronu yapılmadığında overbooking ve fiyat hataları kaçınılmaz hale gelir; bu nedenle PMS, kanal yöneticisi ve OTA entegrasyonu kritik önemdedir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE’in PMS & OTA yönetim modeli otellere nasıl katkı sağlar?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE; PMS kurulumu, OTA entegrasyonu, kanal yönetimi, online satış optimizasyonu ve raporlama süreçlerini tek merkezden yöneterek oda doluluğunu, gelir performansını ve operasyon verimliliğini artıran bütünsel bir model sunar."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-const Page = () => {
-  const locale = useLocale(); // ✅ client tarafında locale
-  const base = getBaseUrl();  // ✅ local/prod
-  const t = useTranslations("Pms");
-     const t2 = useTranslations("Pms.h4Section");
-      
-              const pageUrl =
-    locale === "tr"
-      ? `${base}/tr/pms-ota`
-      : `${base}/en/pms-ota`;
+  try {
+    const parsed = new URL(url);
 
-  // ✅ Sayfada kaç FAQ render ediyorsan JSON-LD de o kadar olmalı
-  const faqs = [1, 2, 3, 4, 5].map((i) => ({
-    question: t(`faqs.question${i}`),
-    answer: t(`faqs.answer${i}`),
-  }));
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
 
-  // ✅ StepSection içindeki linklerle aynı (absolute)
-const serviceItems =
-  locale === "tr"
-    ? [
-        { name: stripHtml(t("pms_services_title1")), url: `${base}/tr/pms-ota/pms-kurulum` },
-        { name: stripHtml(t("pms_services_title2")), url: `${base}/tr/pms-ota/ota-entegrasyonu` },
-        { name: stripHtml(t("pms_services_title3")), url: `${base}/tr/pms-ota/kanal-yonetimi` },
-        { name: stripHtml(t("pms_services_title4")), url: `${base}/tr/pms-ota/online-satis` },
-        { name: stripHtml(t("pms_services_title5")), url: `${base}/tr/pms-ota/rezervasyon-yonetimi` },
-      ]
-    : [
-        { name: stripHtml(t("pms_services_title1")), url: `${base}/en/pms-ota/pms-integration` },
-        { name: stripHtml(t("pms_services_title2")), url: `${base}/en/pms-ota/ota-contract` },
-        { name: stripHtml(t("pms_services_title3")), url: `${base}/en/pms-ota/channel-management` },
-        { name: stripHtml(t("pms_services_title4")), url: `${base}/en/pms-ota/web-payment` },
-        { name: stripHtml(t("pms_services_title5")), url: `${base}/en/pms-ota/reservation-management` },
-      ];
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
 
+function normalizeBaseUrl(url) {
+  if (!url) return url;
 
-  const jsonLd = buildDepartmentJsonLd({
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildPmsOtaServiceJsonLd({
   locale,
+  baseUrl,
   pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
 
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const homeUrl = getCanonicalUrl("/", locale);
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetlerimiz",
+          current: "PMS & OTA Yönetimi",
+          serviceType: "PMS & OTA Yönetimi",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "PMS & OTA Management",
+          serviceType: "PMS & OTA Management",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
+  const base = getBaseUrl();
+
+  const t = await getTranslations({ locale, namespace: "Pms" });
+  const t2 = await getTranslations({ locale, namespace: "Pms.h4Section" });
+      
+const pathnameKey = "/Services/pms-ota";
+
+const pageUrl = getCanonicalUrl(pathnameKey, locale);
+const servicesUrl = getCanonicalUrl("/Services", locale);
+
+const jsonLd = buildPmsOtaServiceJsonLd({
+  locale,
+  baseUrl: base,
+  pageUrl,
+  servicesUrl,
   pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
-
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
   serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-
-  breadcrumbName: t("jsonld.breadcrumbName"),
-
-  keywords: t.raw("jsonld.keywords"),
-
-  faqItems: faqs,
-  serviceItems,
-
-  // ✅ AI alanları
-  aiQuestion: t("jsonld.pageName"),
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
 });
 
+const faqs = [1, 2, 3, 4, 5].map((i) => ({
+  question: t(`faqs.question${i}`),
+  answer: t(`faqs.answer${i}`),
+}));
 
           
              const items = [
@@ -446,11 +353,7 @@ const serviceItems =
   return (
     <>
      {/* ✅ JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="pms-ota-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
    <div className='hidden lg:flex'>

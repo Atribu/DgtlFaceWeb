@@ -1,4 +1,4 @@
-import { useTranslations, useLocale } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import FaqPrompt from '../../components/common/FaqPrompt'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
@@ -7,7 +7,9 @@ import DualHighlightSection from '../../components/subPageComponents/DualHighlig
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
-import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import JsonLd from "../../components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import {
   AutoBreadcrumbsWhiteDeferred as AutoBreadcrumbsWhite,
   ContactMainDeferred as Contact,
@@ -24,33 +26,32 @@ export async function generateMetadata({ params }) {
   const pathnameKey = "/Services/software";
 
   const seoData = getSeoData(pathnameKey, locale);
-  const title = seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
+
+  const title =
+    seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
+
   const description =
     seoData?.description ||
     "DGTLFACE, Next.js ve React ile yüksek performanslı web siteleri ve özel yazılım geliştirir. CMS, KVKK, sunucu güvenliği ve bakım destek sunar.";
 
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  const url =
-    locale === "tr"
-      ? `${base}/tr/yazilim`
-      : `${base}/en/software-development`;
+  const base = getBaseUrl();
 
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-  const ogImageAbs = new URL(ogPath, base).toString(); 
+  const ogImageAbs = new URL(ogPath, base).toString();
+
+  const url = getCanonicalUrl(pathnameKey, locale);
 
   return {
     metadataBase: new URL(base),
+
     title,
     description,
 
     alternates: {
       canonical: url,
       languages: {
-        tr: `${base}/tr/yazilim`,
-        en: `${base}/en/software-development`,
+        tr: getCanonicalUrl(pathnameKey, "tr"),
+        en: getCanonicalUrl(pathnameKey, "en"),
       },
     },
 
@@ -75,266 +76,183 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImageAbs], // ✅ absolute
+      images: [ogImageAbs],
     },
   };
 }
 
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com/",
-//       "description": "DGTLFACE; Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştiren, oteller ve markalar için özel yazılım, CMS, sunucu yönetimi ve KVKK uyum hizmetleri sunan bir dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya","Bodrum"]
-//     },
-//     {
-//       "@type": "WebSite",
-//       "@id": "https://dgtlface.com/#website",
-//       "url": "https://dgtlface.com/",
-//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-//       "inLanguage": "tr-TR",
-//       "publisher": {
-//         "@id": "https://dgtlface.com/#organization"
-//       }
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/yazilim/#webpage",
-//       "url": "https://dgtlface.com/tr/yazilim",
-//       "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React | DGTLFACE",
-//       "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Özel yazılım, CMS, sunucu güvenliği, KVKK uyumu ve bakım & destek hizmetleri sunar.",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#website"
-//       },
-//       "inLanguage": "tr-TR",
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb"
-//       },
-//       "about": [
-//         "web yazılım ajansı",
-//         "Next.js geliştirme",
-//         "React web geliştirme",
-//         "kurumsal web tasarımı",
-//         "otel web sitesi geliştirme",
-//         "PMS uyumlu web geliştirme",
-//         "çok dilli web sitesi geliştirme",
-//         "web performans optimizasyonu"
-//       ]
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/yazilim/#service",
-//       "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React",
-//       "url": "https://dgtlface.com/tr/yazilim",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "web yazılım ajansı, web sitesi geliştirme, Next.js geliştirme, React web geliştirme, kurumsal web tasarımı, otel web sitesi geliştirme",
-//       "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Oteller ve kurumsal markalar için çok dilli web siteleri, rezervasyon modülleri, CMS panelleri, KVKK uyumlu altyapılar, sunucu güvenliği ve bakım & destek hizmetleri sunar.",
-//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya","Bodrum"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "web yazılım ajansı",
-//         "web sitesi geliştirme",
-//         "yazılım ajansı",
-//         "next.js geliştirme",
-//         "react web geliştirme",
-//         "kurumsal web tasarımı",
-//         "next.js seo uyumlu web sitesi",
-//         "react ile web sitesi nasıl yapılır",
-//         "hızlı web sitesi geliştirme",
-//         "seo uyumlu web tasarımı nasıl olmalı",
-//         "otel web sitesi tasarımı",
-//         "pms uyumlu web geliştirme",
-//         "turizm web yazılımı",
-//         "rezervasyon modülü web geliştirme",
-//         "cms paneli nasıl kurulur",
-//         "çok dilli web sitesi geliştirme",
-//         "web sitesi mobil uyumluluk testi",
-//         "web performans optimizasyonu",
-//         "web yazılım antalya",
-//         "antalya web tasarım ajansı",
-//         "yazılım geliştirme türkiye",
-//         "antalya react developer"
-//       ]
-//     },
-//     {
-//       "@type": "ItemList",
-//       "@id": "https://dgtlface.com/tr/yazilim/#services-list",
-//       "name": "DGTLFACE Web & Yazılım Hizmetleri",
-//       "itemListElement": [
-//         {
-//           "@type": "Service",
-//           "name": "Web Sitesi Geliştirme",
-//           "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "CMS & Panel Entegrasyonu",
-//           "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "KVKK Uyumlu Web Çözümleri",
-//           "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Sunucu Yönetimi & Web Güvenliği",
-//           "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
-//         },
-//         {
-//           "@type": "Service",
-//           "name": "Web Sitesi Bakım & Teknik Destek",
-//           "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Web & Yazılım Hizmetleri",
-//           "item": "https://dgtlface.com/tr/yazilim"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/yazilim/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Yeni bir web sitesi projesine başlarken süreç nasıl işliyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Öncelikle mevcut durum ve hedeflerinizi anlamak için analiz ve keşif toplantısı yapıyoruz. Ardından bilgi mimarisi, tasarım dili, teknoloji seçimi, çok dilli yapı, SEO ve entegrasyon ihtiyaçlarını içeren bir yol haritası hazırlıyoruz. Onay sonrası tasarım, geliştirme, test, yayın ve bakım aşamalarını yönetiyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Sadece tasarım mı yapıyorsunuz, yoksa yazılım ve sunucu tarafını da siz mi yönetiyorsunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE, tasarım, frontend, backend, sunucu, güvenlik ve bakım süreçlerini uçtan uca yönetebilen bir ekip olarak çalışır. İsterseniz sadece belirli katmanlarda da destek olabiliriz; ancak en sağlıklı sonuçlar tüm katmanları aynı ekibin yönettiği projelerde elde edilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Web sitem SEO uyumlu olacak mı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Web ve yazılım projelerimizde teknik SEO uyumu temel şarttır. Site mimarisi, URL yapısı, meta alanları, schema, çok dilli yapı ve performans optimizasyonu SEO ekibiyle birlikte planlanır ve uygulanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Mevcut web sitemi tamamen yenilemek zorunda mıyım?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Her zaman değil. Önce mevcut sitenizi teknik, tasarım ve kullanıcı deneyimi açısından analiz ediyoruz. Kimi projelerde kısmi revizyonlar yeterli olurken, bazılarında Next.js tabanlı yeni bir yapı daha mantıklı olabilir. Kararı veriye ve hedeflerinize göre birlikte alıyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Bakım ve destek sürecinde neler yapıyorsunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Bakım ve destek kapsamında düzenli güvenlik güncellemeleri, performans iyileştirmeleri, içerik ve görsel güncellemeleri, hata tespiti ve çözümü, uptime takibi ve küçük geliştirmeler gibi süreçleri sürekli olarak yönetiyoruz."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+  try {
+    const parsed = new URL(url);
 
-const Page = () => {
-  const locale = useLocale();
-  const t = useTranslations("Software");
-  const t2 = useTranslations("Software.h4Section");
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSoftwareServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetlerimiz",
+          current: "Bilgi Teknolojileri ve Yazılım",
+          serviceType: "Web & Yazılım Hizmetleri",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          current: "Web & Software Services",
+          serviceType: "Web & Software Services",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
   const base = getBaseUrl();
 
+  const t = await getTranslations({ locale, namespace: "Software" });
+  const t2 = await getTranslations({ locale, namespace: "Software.h4Section" });
+
   // ✅ canonical ile birebir
-  const pageUrl =
-    locale === "tr"
-      ? `${base}/tr/yazilim`
-      : `${base}/en/software-development`;
+const pathnameKey = "/Services/software";
 
-  // ✅ Sayfada render ettiğin 5 FAQ -> JSON-LD de 5 olmalı
-  const faqs = [
-    { question: t("faqs.question1"), answer: t("faqs.answer1") },
-    { question: t("faqs.question2"), answer: t("faqs.answer2") },
-    { question: t("faqs.question3"), answer: t("faqs.answer3") },
-    { question: t("faqs.question4"), answer: t("faqs.answer4") },
-    { question: t("faqs.question5"), answer: t("faqs.answer5") },
-  ];
+const pageUrl = getCanonicalUrl(pathnameKey, locale);
+const servicesUrl = getCanonicalUrl("/Services", locale);
 
-  // ✅ Alt servis URL’leri: senin buttonLink’lerle aynı mantık
-  // ÖNEMLİ: EN’de alt sayfalar farklı path kullanıyorsa burayı ona göre değiştir.
-  const serviceItems =
-    locale === "tr"
-      ? [
-          { name: stripHtml(t("software_services_title1")), url: `${base}/tr/yazilim/web-sitesi-gelistirme` },
-          { name: stripHtml(t("software_services_title2")), url: `${base}/tr/yazilim/cms-entegrasyonu` },
-          { name: stripHtml(t("software_services_title3")), url: `${base}/tr/yazilim/kvkk-uyum-hizmeti` },
-          { name: stripHtml(t("software_services_title4")), url: `${base}/tr/yazilim/sunucu-guvenlik` },
-          { name: stripHtml(t("software_services_title5")), url: `${base}/tr/yazilim/bakim-ve-destek` },
-        ]
-      : [
-          { name: stripHtml(t("software_services_title1")), url: `${base}/en/software/website-and-software` },
-          { name: stripHtml(t("software_services_title2")), url: `${base}/en/software/cms-installation` },
-          { name: stripHtml(t("software_services_title3")), url: `${base}/en/software/kvkk-compliance-service` },
-          { name: stripHtml(t("software_services_title4")), url: `${base}/en/software/server-management` },
-          { name: stripHtml(t("software_services_title5")), url: `${base}/en/software/website-maintenance` },
-        ];
-
-  const jsonLd = buildDepartmentJsonLd({
+const jsonLd = buildSoftwareServiceJsonLd({
   locale,
+  baseUrl: base,
   pageUrl,
-
+  servicesUrl,
   pageName: t("jsonld.pageName"),
-  pageDescription: t("jsonld.pageDescription"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
   serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-  breadcrumbName: t("jsonld.breadcrumbName"),
-
-  keywords: t.raw("jsonld.keywords"),
-
-  faqItems: faqs,
-  serviceItems,
-
-  aiQuestion: t("jsonld.pageName"),
-  aiAnswer: t("aiAnswerBlock"),
-  aiSource: t("aiSourceMention"),
 });
 
-
+const faqs = [1, 2, 3, 4, 5].map((i) => ({
+  question: t(`faqs.question${i}`),
+  answer: t(`faqs.answer${i}`),
+}));
 
          const items = [
              {
@@ -432,11 +350,7 @@ const Page = () => {
   return (
    <>
     {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="software-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
 <div className='hidden lg:flex'>
