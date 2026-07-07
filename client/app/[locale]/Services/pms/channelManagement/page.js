@@ -13,12 +13,12 @@ import LogoListSectionBlack from "@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from "@/app/[locale]/components/subPageComponents/QuestionSection2";
 import { AiSourceMention } from "@/app/[locale]/components/common/AiSourceMention";
 import AutoBreadcrumbs from "@/app/[locale]/components/common/AutoBreadcrumbs";
-
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from "@/app/[locale]/components/common/FaqPrompt";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -36,8 +36,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, kanal yönetimiyle otelinizde fiyat ve envanteri tüm OTA platformlarında senkronize eder. Satış etkisini artırın, overbooking riskini azaltın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -62,7 +62,14 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [
+        {
+          url: ogImageAbs,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -70,168 +77,224 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller için PMS + Channel Manager + OTA altyapılarını entegre ederek fiyat ve envanteri tüm online satış kanallarında senkronize eden, turizm odaklı gelir ve dağıtım stratejileri sunan bir teknoloji ve dijital pazarlama partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#webpage",
-//       "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
-//       "name": "Kanal Yönetimi – Envanter & Fiyat Senkronizasyonu | DGTLFACE",
-//       "description": "DGTLFACE, kanal yönetimiyle otelinizde fiyat ve envanteri tüm OTA platformlarında senkronize eder. Satış etkisini artırın, overbooking riskini azaltın.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#service",
-//       "name": "Kanal Yönetimi – Envanter & Fiyat Senkronizasyonu",
-//       "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "kanal yönetimi, channel manager hizmeti, fiyat yönetimi, envanter senkronizasyonu, PMS–OTA uyumu, satış optimizasyonu",
-//       "description": "DGTLFACE, kanal yönetimi hizmetiyle PMS + Channel Manager + OTA üçlüsünü entegre ederek otellerde fiyat ve envanteri tüm satış kanallarında senkronize eder. Booking, Expedia, Agoda, web rezervasyon sistemi ve çağrı merkezi tek panelden yönetilir; pazar bazlı fiyatlandırma, rate & inventory sync, overbooking riskini azaltan envanter stratejileri ve gelir odaklı kanal planlaması ile doluluk ve RevPAR performansı optimize edilir.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "kanal yönetimi",
-//         "channel manager hizmeti",
-//         "fiyat yönetimi",
-//         "envanter senkronizasyonu",
-//         "pms–ota uyumu",
-//         "satış optimizasyonu",
-//         "channel manager nasıl çalışır",
-//         "oteller için fiyat optimizasyonu",
-//         "envanter kontrol yöntemleri",
-//         "ota fiyat stratejileri",
-//         "turizm fiyat yönetimi",
-//         "oda doluluk artırma teknikleri",
-//         "pms ile kanal senkronizasyonu",
-//         "rezervasyon yönetim sistemi",
-//         "pazar bazlı fiyatlandırma",
-//         "resort channel manager",
-//         "butik otel kanal yönetimi",
-//         "turizm fiyat optimizasyonu",
-//         "otel doluluk artırma stratejisi",
-//         "kanal yönetimi antalya",
-//         "antalya channel manager",
-//         "turizm fiyat yönetimi türkiye",
-//         "antalya otel fiyat sistemi"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "PMS & OTA Yönetimi",
-//           "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Kanal Yönetimi",
-//           "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Kanal yönetimi (channel manager) nedir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Kanal yönetimi, PMS’ten gelen oda ve fiyat bilgilerinin channel manager aracılığıyla Booking, Expedia, Agoda ve diğer OTA’lara ve satış kanallarına otomatik olarak dağıtılmasını ve bu kanallardan gelen rezervasyonların tekrar PMS’e işlenmesini sağlayan sistemdir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "PMS + Channel Manager + OTA nasıl birlikte çalışır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "PMS, oda ve fiyatların ana kaynağıdır; channel manager bu verileri tüm OTA ve dijital satış kanallarına iletir. OTA’lardan gelen rezervasyonlar channel manager üzerinden PMS’e geri düşerek tek bir rezervasyon gerçekliği oluşturur."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Envanter (oda sayısı) tüm kanallarda nasıl yönetilir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oda envanteri PMS’te yönetilir; PMS’ten channel manager’a aktarılan stok bilgisi tüm OTA ve dijital kanallara dağıtılır. Kritik dönemlerde kanal ve pazar bazlı limitler, buffer ve stop-sell ayarlarıyla overbooking riski azaltılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Overbooking riski nasıl azaltılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Overbooking riskini azaltmak için PMS’in tek veri kaynağı olması, manuel OTA müdahalelerinin kısıtlanması, kanal bazlı stok limitleri ve yoğun dönemler için buffer stratejileri uygulanması ve düzenli senkronizasyon kontrolleri yapılması gerekir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Kanal yönetimi gelir ve doluluk oranını nasıl etkiler?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Doğru kanal yönetimi sayesinde pazar bazlı fiyatlandırma stratejileri uygulanır, yüksek komisyonlu kanallara aşırı bağımlılık azaltılır, doğru kanallarda doğru fiyat ve stokla yer alınarak hem doluluk hem RevPAR artırılabilir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
-  const t = await getTranslations({locale,namespace: "ChannelManagementPage",});
-  const t2 = await getTranslations({locale,namespace: "ChannelManagementPage.h4Section",});
+  try {
+    const parsed = new URL(url);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildChannelManagementServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentPmsOtaUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentPmsOtaUrl = normalizeCanonicalUrl(parentPmsOtaUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "PMS & OTA Yönetimi",
+          current: "Kanal Yönetimi",
+          serviceType: "Kanal Yönetimi",
+          country: "Türkiye",
+          area: "Antalya",
+          belek: "Belek",
+          kemer: "Kemer",
+          side: "Side",
+          alanya: "Alanya",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "PMS & OTA Management",
+          current: "Channel Management",
+          serviceType: "Channel Management",
+          country: "Turkey",
+          area: "Antalya",
+          belek: "Belek",
+          kemer: "Kemer",
+          side: "Side",
+          alanya: "Alanya",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: labels.area,
+          },
+          {
+            "@type": "City",
+            name: labels.belek,
+          },
+          {
+            "@type": "City",
+            name: labels.kemer,
+          },
+          {
+            "@type": "City",
+            name: labels.side,
+          },
+          {
+            "@type": "City",
+            name: labels.alanya,
+          },
+        ],
+        inLanguage,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentPmsOtaUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
 
   const baseUrl = getBaseUrl();
+
   const pathnameKey = "/Services/pms/channelManagement";
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+  const servicesUrl = getCanonicalUrl("/Services", locale);
+
+  // Kritik: PMS & OTA parent canlı mimaride /tr/pms-ota olmalı.
+  // Eski /tr/pms-ota-yonetimi JSON-LD içinde kullanılmamalı.
+  const parentPmsOtaUrl =
+    locale === "tr"
+      ? `${baseUrl}/tr/pms-ota`
+      : `${baseUrl}/en/pms-ota`;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "ChannelManagementPage",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "ChannelManagementPage.h4Section",
+  });
+
+  const jsonLd = buildChannelManagementServiceJsonLd({
+    locale,
+    baseUrl,
+    pageUrl: canonicalUrl,
+    servicesUrl,
+    parentPmsOtaUrl,
+    pageName: stripHtml(t("jsonld.pageName")),
+    pageDescription: stripHtml(t("jsonld.pageDescription")),
+    serviceName: stripHtml(t("jsonld.serviceName")),
+    serviceDescription: stripHtml(t("ai_answer_text")),
+  });
 
   const stepData = [1, 2, 3, 4].map((i) => ({
     id: i,
@@ -272,12 +335,10 @@ export default async function Page({ params: { locale } }) {
       question: t("faq.question3"),
       answer: t.raw("faq.answer3"),
     },
-
     {
       question: t("faq.question4"),
       answer: t.raw("faq.answer4"),
     },
-
     {
       question: t("faq.question5"),
       answer: t.raw("faq.answer5"),
@@ -291,46 +352,9 @@ export default async function Page({ params: { locale } }) {
     { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
   ];
 
-  const jsonLd = buildServiceJsonLd({
-    baseUrl,
-    locale,
-    canonicalUrl,
-
-    pageName: t("jsonld.pageName"),
-    pageDescription: t("jsonld.pageDescription"),
-    serviceName: t("jsonld.serviceName"),
-    serviceType: t("jsonld.serviceType"),
-    keywords: t.raw("jsonld.keywords"),
-
-    breadcrumbItems: [
-      {
-        name: locale === "tr" ? "Ana Sayfa" : "Home",
-        url: `${baseUrl}/${locale}`,
-      },
-
-      {
-        name: locale === "tr" ? "PMS & OTA" : "PMS & OTA",
-        url: `${baseUrl}${locale === "tr" ? "/tr/pms-ota" : "/en/pms-ota"}`,
-      },
-
-      { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-    ],
-
-    faqs,
-
-    // 🤖 AI alanları (yeni standart)
-    aiQuestion: t("jsonld.pageName"),
-    aiAnswer: t("ai_answer_text"),
-    aiSource: t("aiSourceMention"),
-  });
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd id="channel-management-service-jsonld" data={jsonLd} />
 
       <div className="flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center">
         <div className="flex flex-col items-center justify-center gap-5">
@@ -343,27 +367,39 @@ export default async function Page({ params: { locale } }) {
             buttonLink="/"
             buttonText={t("cta_talk_to_us")}
           />
+
           <AutoBreadcrumbs />
+
           <AiAnswerBlock text={t("ai_answer_text")} />
         </div>
+
         <H2LogoSection items={h2items} />
 
         <StepSection2New data={stepData} header={t("h3Section.header")} />
+
         <div>
           <LogoListSectionBlack
             introTitle={t2("header")}
             introSubtitlePrefix="DGTLFACE"
-            introSubtitle={""}
-            introDescription={""}
+            introSubtitle=""
+            introDescription=""
             cards={cards}
           />
+
           <VerticalSlider page="ChannelManagementPage" itemCount={4} />
         </div>
+
         <QuestionsSection2 variant="light" faqs={faqs} />
-         <FaqPrompt
-                                                   namespace="ChannelManagementPage.faqPrompt"
-                                                   faqSlug="kanal-yonetimi-sss"
-                                                 />
+
+        <FaqPrompt
+          namespace="ChannelManagementPage.faqPrompt"
+          faqSlug={
+            locale === "tr"
+              ? "pms-ota/kanal-yonetimi-sss"
+              : "pms-ota/channel-management-faq"
+          }
+        />
+
         <AiSourceMention text={t("aiSourceMention")} />
       </div>
     </>

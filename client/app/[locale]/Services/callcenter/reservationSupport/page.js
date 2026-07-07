@@ -18,13 +18,13 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
   const pathnameKey = "/Services/callcenter/reservationSupport";
 
   const base = getBaseUrl();
@@ -38,8 +38,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi hizmeti sunar. Satış artıran, müşteri memnuniyetini yükselten profesyonel destek sağlar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -64,7 +64,14 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [
+        {
+          url: ogImageAbs,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -72,315 +79,308 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve turizm tesisleri için çok dilli rezervasyon çağrı merkezi ve satış destek hizmetleri sunan, PMS ve OTA entegrasyonlu çalışan bir dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi/#webpage",
-//       "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
-//       "name": "Otel Rezervasyon Çağrı Merkezi – Satış Odaklı Rezervasyon Yönetimi | DGTLFACE",
-//       "description": "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi hizmeti sunar. Satış artıran, müşteri memnuniyetini yükselten profesyonel destek sağlar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi/#service",
-//       "name": "Otel Rezervasyon Çağrı Merkezi – Satış Odaklı Rezervasyon Yönetimi",
-//       "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "otel rezervasyon çağrı merkezi, otel satış destek hattı, telefonla rezervasyon hizmeti, çok dilli rezervasyon süreci, resort rezervasyon merkezi",
-//       "description": "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi hizmeti sunar. Telefon, WhatsApp, OTA ve web kanallarından gelen talepleri TR–EN–DE–RU dillerinde yönetir; PMS entegrasyonlu oda ve fiyat kontrolü, satış odaklı script’ler, inbound ve outbound rezervasyon aramaları, Booking ve Expedia rezervasyon desteği ile doğrudan rezervasyon ve gelir artışı sağlar.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "otel rezervasyon çağrı merkezi",
-//         "otel satış destek hattı",
-//         "otel müşteri temsilcisi",
-//         "rezervasyon yönetimi",
-//         "telefonla rezervasyon hizmeti",
-//         "resort rezervasyon merkezi",
-//         "oteller için rezervasyon destek hizmeti",
-//         "rezervasyon telefon hattı yönetimi",
-//         "otel müşteri taleplerinin yönetimi",
-//         "yabancı misafir rezervasyon desteği",
-//         "booking rezervasyon destek hattı",
-//         "expedia müşteri destek yönetimi",
-//         "oda satış oranlarını artırma yöntemleri",
-//         "turizm rezervasyon yönetimi",
-//         "çok dilli rezervasyon süreci",
-//         "resort rezervasyon hattı",
-//         "villa & butik otel rezervasyon destek",
-//         "agency-to-hotel call center",
-//         "turist rezervasyon destek hattı",
-//         "rezervasyon merkezi antalya",
-//         "antalya otel destek hattı",
-//         "turizm çağrı merkezi türkiye",
-//         "antalya resort call center"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Çağrı Merkezi Hizmetleri",
-//           "item": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Otel Rezervasyon Çağrı Merkezi",
-//           "item": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Otel rezervasyon çağrı merkezi tam olarak ne yapıyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Otel rezervasyon çağrı merkezi; oda müsaitliği, fiyat ve kampanya bilgisi sunar, rezervasyonu tamamlar, iptal ve değişiklik taleplerini yönetir ve misafirlerin rezervasyonla ilgili sorularını çok dilli olarak yanıtlar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Hangi dillerde rezervasyon desteği sağlıyorsunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE, Türkçe, İngilizce, Almanca ve Rusça dillerinde profesyonel rezervasyon ve misafir destek hizmeti sağlar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Telefonla rezervasyon dönüşümünü nasıl artırıyorsunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Satış odaklı script’ler, alternatif tarih ve oda önerileri, kampanya bilgileri, cross-sell ve upsell akışları ile her çağrıyı bir satış fırsatı olarak ele alıyor ve dönüşüm oranlarını artırıyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "PMS entegrasyonlu rezervasyon yönetimi mümkün mü?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. PMS ile entegrasyon sayesinde oda müsaitliği ve fiyatlar anlık kontrol edilir, rezervasyonlar mümkün olduğunca doğrudan PMS’e işlenir ve overbooking riskleri azaltılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Booking ve Expedia rezervasyon destek çağrılarını da yönetiyor musunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Booking, Expedia ve diğer OTA kanallarından gelen rezervasyon sorularını ve değişiklik taleplerini çağrı merkezi ekranlarımızdan takip ederek, misafir taleplerine hızlı ve çok dilli yanıt veriyoruz."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
-  const t = await getTranslations({ locale, namespace: "HotelReservationCallCenterPage" });
-        const t2 = await getTranslations({ locale, namespace: "HotelReservationCallCenterPage.h4Section" });
+  try {
+    const parsed = new URL(url);
 
-           const baseUrl = getBaseUrl();
-                       const pathnameKey = "/Services/callcenter/reservationSupport";
-                       const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
 
-
-              const stepData = [1,2,3,4,5].map(i => ({
-                id: i,
-                image: [image1,image2,image3,image4,image5][i-1],
-                header: t(`h3Section.header${i}`),
-                text:   t.raw(`h3Section.text${i}`),
-                   textHtml:   t.raw(`h3Section.text${i}`)
-              }));
-           
-           
-           
-              const cards = [
-               {
-                 widthClass: "w-[95%] lg:w-[80%]",
-                 title: t2("card1title"),
-                 description: t2.raw("card1description"),
-               },
-               {
-                 widthClass: "w-[95%] lg:w-[75%]",
-                 title: t2("card2title"),
-                 description: t2.raw("card2description"),
-               },
-               {
-                 widthClass: "w-[95%] lg:w-[70%]",
-                 title: t2("card3title"),
-                 description: t2.raw("card3description"),
-               },
-           
-             ];
-           
-               const faqs = [
-               {
-                 question: t("faq.question1"),
-                 answer:
-                  t.raw("faq.answer1"),
-               },
-               {
-                 question: t("faq.question2"),
-                 answer:
-                  t.raw("faq.answer2"),
-               },
-               {
-                  question: t("faq.question3"),
-                 answer:
-                  t.raw("faq.answer3"),
-               },
-           
-               {
-               question: t("faq.question4"),
-                 answer:
-                  t.raw("faq.answer4"),
-               },
-           
-               {
-               question: t("faq.question5"),
-                 answer:
-                  t.raw("faq.answer5"),
-               },
-             ];
-           
-               const h2items = [
-               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
-               { title: t("h2Section.header4"), text: t.raw("h2Section.text4") }
-             ];
-
-              const jsonLd = buildServiceJsonLd({
-                                           baseUrl,
-                                           locale,
-                                           canonicalUrl,
-                                       
-                                           pageName: t("jsonld.pageName"),
-                                           pageDescription: t("jsonld.pageDescription"),
-                                           serviceName: t("jsonld.serviceName"),
-                                           serviceType: t("jsonld.serviceType"),
-                                           keywords: t.raw("jsonld.keywords"),
-                                       
-                                           breadcrumbItems: [
-                                             {
-                                               name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                               url: `${baseUrl}/${locale}`,
-                                             },
-                                       
-                                             {
-                                               name:
-                                                 locale === "tr"
-                                                   ? "Çağrı Merkezi Hizmetleri"
-                                                   : "Call Center Services",
-                                               url: `${baseUrl}${locale === "tr" ? "/tr/cagri-merkezi" : "/en/call-center"}`,
-                                             },
-                                       
-                                             { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                                           ],
-                                       
-                                           faqs,
-                                       
-                                           // 🤖 AI alanları (yeni standart)
-                                           aiQuestion: t("jsonld.pageName"),
-                                           aiAnswer: t("ai_answer_text"),
-                                           aiSource: t("aiSourceMention"),
-                                         });
-
-  return (
-  <>
-  <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
-      <div className='flex flex-col items-center justify-center gap-5'>
-        <SubBanner
-  header={t("subbanner_header")}
-  header2={t("subbanner_header2")}
-  text={t.raw("subbanner_text")}
-    header3={t("subbanner_header3")}
-  text2={t.raw("subbanner_text2")}
-  buttonLink="/"
-  buttonText={t("cta_talk_to_us")}
-/>
-<AutoBreadcrumbs/> 
-     <AiAnswerBlock text={t("ai_answer_text")}/>
-      </div>
-       <H2LogoSection items={h2items} />
-
- <StepSection2New data={stepData} header={t("h3Section.header")}/>
-    <div>
-         <LogoListSectionBlack
-      introTitle={t2("header")}
-      introSubtitlePrefix="DGTLFACE"
-      introSubtitle={""}
-      introDescription={""}
-      cards={cards}
-    />
-      <VerticalSlider page="HotelReservationCallCenterPage" itemCount={4}/>
-    </div>
-     <QuestionsSection2 variant="light" faqs={faqs} />
-        <FaqPrompt
-                  namespace="HotelReservationCallCenterPage.faqPrompt"
-                 faqSlug="rezervasyon-destegi-sss"
-                />
-     <AiSourceMention text={t("aiSourceMention")}/>
-    </div>
-  </>
-  )
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
 }
 
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildReservationSupportServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Çağrı Merkezi",
+          current: "Rezervasyon Desteği",
+          serviceType: "Rezervasyon Desteği / Otel Rezervasyon Çağrı Merkezi",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Call Center",
+          current: "Reservation Support",
+          serviceType: "Reservation Support / Hotel Reservation Call Center",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+          {
+            "@type": "Place",
+            name: "Belek",
+          },
+          {
+            "@type": "Place",
+            name: "Kemer",
+          },
+          {
+            "@type": "Place",
+            name: "Side",
+          },
+          {
+            "@type": "Place",
+            name: "Alanya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
+  const baseUrl = getBaseUrl();
+  const pathnameKey = "/Services/callcenter/reservationSupport";
+  const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+
+  const t = await getTranslations({
+    locale,
+    namespace: "HotelReservationCallCenterPage",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "HotelReservationCallCenterPage.h4Section",
+  });
+
+  const servicesUrl = getCanonicalUrl("/Services", locale);
+
+  const parentCallCenterUrl =
+    locale === "tr"
+      ? `${baseUrl}/tr/cagri-merkezi`
+      : `${baseUrl}/en/call-center`;
+
+  const jsonLd = buildReservationSupportServiceJsonLd({
+    locale,
+    baseUrl,
+    pageUrl: canonicalUrl,
+    servicesUrl,
+    parentUrl: parentCallCenterUrl,
+    pageName: t("jsonld.pageName"),
+    pageDescription: stripHtml(t("jsonld.pageDescription")),
+    serviceName: t("jsonld.serviceName"),
+    serviceDescription: stripHtml(t("ai_answer_text")),
+  });
+
+  const stepData = [1, 2, 3, 4, 5].map((i) => ({
+    id: i,
+    image: [image1, image2, image3, image4, image5][i - 1],
+    header: t(`h3Section.header${i}`),
+    text: t.raw(`h3Section.text${i}`),
+    textHtml: t.raw(`h3Section.text${i}`),
+  }));
+
+  const cards = [
+    {
+      widthClass: "w-[95%] lg:w-[80%]",
+      title: t2("card1title"),
+      description: t2.raw("card1description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[75%]",
+      title: t2("card2title"),
+      description: t2.raw("card2description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[70%]",
+      title: t2("card3title"),
+      description: t2.raw("card3description"),
+    },
+  ];
+
+  const faqs = [1, 2, 3, 4, 5].map((i) => ({
+    question: t(`faq.question${i}`),
+    answer: t.raw(`faq.answer${i}`),
+  }));
+
+  const h2items = [
+    { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+    { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
+  ];
+
+  return (
+    <>
+      <JsonLd id="reservation-support-service-jsonld" data={jsonLd} />
+
+      <div className="flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center">
+        <div className="flex flex-col items-center justify-center gap-5">
+          <SubBanner
+            header={t("subbanner_header")}
+            header2={t("subbanner_header2")}
+            text={t.raw("subbanner_text")}
+            header3={t("subbanner_header3")}
+            text2={t.raw("subbanner_text2")}
+            buttonLink="/"
+            buttonText={t("cta_talk_to_us")}
+          />
+
+          <AutoBreadcrumbs />
+
+          <AiAnswerBlock text={t("ai_answer_text")} />
+        </div>
+
+        <H2LogoSection items={h2items} />
+
+        <StepSection2New
+          data={stepData}
+          header={t("h3Section.header")}
+        />
+
+        <div>
+          <LogoListSectionBlack
+            introTitle={t2("header")}
+            introSubtitlePrefix="DGTLFACE"
+            introSubtitle=""
+            introDescription=""
+            cards={cards}
+          />
+
+          <VerticalSlider
+            page="HotelReservationCallCenterPage"
+            itemCount={4}
+          />
+        </div>
+
+        <QuestionsSection2
+          variant="light"
+          faqs={faqs}
+        />
+
+        <FaqPrompt
+          namespace="HotelReservationCallCenterPage.faqPrompt"
+          faqSlug="rezervasyon-destegi-sss"
+        />
+
+        <AiSourceMention text={t("aiSourceMention")} />
+      </div>
+    </>
+  );
+};
+
+export default Page;

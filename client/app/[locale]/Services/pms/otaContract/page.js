@@ -14,12 +14,12 @@ import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
-
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -37,8 +37,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Booking, Expedia, Agoda ve diğer OTA kanallarını otelinizle entegre eder. Fiyat, envanter ve rezervasyon yönetiminde hata riskini azaltır, satışları artırır.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -63,7 +63,14 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [
+        {
+          url: ogImageAbs,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -71,163 +78,330 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
 
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
+  try {
+    const parsed = new URL(url);
 
-export default async function Page({ params: { locale } }) {
-    const t = await getTranslations({ locale, namespace: "OtaIntegrationPage" });
-            const t2 = await getTranslations({ locale, namespace: "OtaIntegrationPage.h4Section" });
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
 
-              const baseUrl = getBaseUrl();
-                                             const pathnameKey = "/Services/pms/otaContract";
-                                             const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
-           
-              const stepData = [1,2,3,4,5].map(i => ({
-                id: i,
-                image: [image1,image2,image3,image4,image5][i-1],
-                header: t(`h3Section.header${i}`),
-                text:   t.raw(`h3Section.text${i}`),
-                  textHtml:   t.raw(`h3Section.text${i}`)
-              }));
-           
-           
-           
-              const cards = [
-               {
-                 widthClass: "w-[95%] lg:w-[80%]",
-                 title: t2("card1title"),
-                 description: t2.raw("card1description"),
-               },
-               {
-                 widthClass: "w-[95%] lg:w-[75%]",
-                 title: t2("card2title"),
-                 description: t2.raw("card2description"),
-               },
-               {
-                 widthClass: "w-[95%] lg:w-[70%]",
-                 title: t2("card3title"),
-                 description: t2.raw("card3description"),
-               },
-           
-             ];
-           
-               const faqs = [
-               {
-                 question: t("faq.question1"),
-                 answer:
-                  t.raw("faq.answer1"),
-               },
-               {
-                 question: t("faq.question2"),
-                 answer:
-                  t.raw("faq.answer2"),
-               },
-               {
-                  question: t("faq.question3"),
-                 answer:
-                  t.raw("faq.answer3"),
-               },
-           
-               {
-               question: t("faq.question4"),
-                 answer:
-                  t.raw("faq.answer4"),
-               },
-           
-               {
-               question: t("faq.question5"),
-                 answer:
-                  t.raw("faq.answer5"),
-               },
-             ];
-           
-               const h2items = [
-               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
-             ];
-
-             const jsonLd = buildServiceJsonLd({
-                 baseUrl,
-                 locale,
-                 canonicalUrl,
-             
-                 pageName: t("jsonld.pageName"),
-                 pageDescription: t("jsonld.pageDescription"),
-                 serviceName: t("jsonld.serviceName"),
-                 serviceType: t("jsonld.serviceType"),
-                 keywords: t.raw("jsonld.keywords"),
-             
-                 breadcrumbItems: [
-                   {
-                     name: locale === "tr" ? "Ana Sayfa" : "Home",
-                     url: `${baseUrl}/${locale}`,
-                   },
-             
-                   {
-                     name: locale === "tr" ? "PMS & OTA" : "PMS & OTA",
-                     url: `${baseUrl}${locale === "tr" ? "/tr/pms-ota" : "/en/pms-ota"}`,
-                   },
-             
-                   { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                 ],
-             
-                 faqs,
-             
-                 // 🤖 AI alanları (yeni standart)
-                 aiQuestion: t("jsonld.pageName"),
-                 aiAnswer: t("ai_answer_text"),
-                 aiSource: t("aiSourceMention"),
-               });
-             
-  
-  return (
-   <>
-   <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      
-    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden'>
-<div className='flex flex-col items-center justify-center gap-5'>
-        <SubBanner
-  header={t("subbanner_header")}
-  header2={t("subbanner_header2")}
-  text={t.raw("subbanner_text")}
-    header3={t("subbanner_header3")}
-  text2={t.raw("subbanner_text2")}
-  buttonLink="/"
-  buttonText={t("cta_talk_to_us")}
-/>
-<AutoBreadcrumbs/>
-<AiAnswerBlock text={t("ai_answer_text")}/>
-</div>
-       <H2LogoSection items={h2items} />
-
- <StepSection2New data={stepData} header={t("h3Section.header")}/>
-    <div>
-         <LogoListSectionBlack
-      introTitle={t2("header")}
-      introSubtitlePrefix="DGTLFACE"
-      introSubtitle={""}
-      introDescription={""}
-      cards={cards}
-    />
-      <VerticalSlider page="OtafaqPropmt" itemCount={4}/>
-    </div>
-     <QuestionsSection2 variant="light" faqs={faqs} />
-     <FaqPrompt
-                                           namespace="OtafaqPropmt.faqPrompt"
-                                           faqSlug="ota-entegrasyonu-sss"
-                                         />
-     <AiSourceMention text={t("aiSourceMention")}/>
-    </div>
-   </>
-  )
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
 }
 
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildOtaIntegrationServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentPmsOtaUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentPmsOtaUrl = normalizeCanonicalUrl(parentPmsOtaUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "PMS & OTA Yönetimi",
+          current: "OTA Entegrasyonu",
+          serviceType: "OTA Entegrasyonu",
+          country: "Türkiye",
+          area: "Antalya",
+          belek: "Belek",
+          kemer: "Kemer",
+          side: "Side",
+          alanya: "Alanya",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "PMS & OTA Management",
+          current: "OTA Integration",
+          serviceType: "OTA Integration",
+          country: "Turkey",
+          area: "Antalya",
+          belek: "Belek",
+          kemer: "Kemer",
+          side: "Side",
+          alanya: "Alanya",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: labels.area,
+          },
+          {
+            "@type": "City",
+            name: labels.belek,
+          },
+          {
+            "@type": "City",
+            name: labels.kemer,
+          },
+          {
+            "@type": "City",
+            name: labels.side,
+          },
+          {
+            "@type": "City",
+            name: labels.alanya,
+          },
+        ],
+        inLanguage,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentPmsOtaUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
+
+  const baseUrl = getBaseUrl();
+
+  const pathnameKey = "/Services/pms/otaContract";
+  const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+  const servicesUrl = getCanonicalUrl("/Services", locale);
+
+  // Kritik: PMS & OTA parent canlı mimaride /tr/pms-ota olmalı.
+  // Eski /tr/pms-ota-yonetimi JSON-LD içinde kullanılmamalı.
+  const parentPmsOtaUrl =
+    locale === "tr"
+      ? `${baseUrl}/tr/pms-ota`
+      : `${baseUrl}/en/pms-ota`;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "OtaIntegrationPage",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "OtaIntegrationPage.h4Section",
+  });
+
+  const jsonLd = buildOtaIntegrationServiceJsonLd({
+    locale,
+    baseUrl,
+    pageUrl: canonicalUrl,
+    servicesUrl,
+    parentPmsOtaUrl,
+    pageName: stripHtml(t("jsonld.pageName")),
+    pageDescription: stripHtml(t("jsonld.pageDescription")),
+    serviceName: stripHtml(t("jsonld.serviceName")),
+    serviceDescription: stripHtml(t("ai_answer_text")),
+  });
+
+  const stepData = [1, 2, 3, 4, 5].map((i) => ({
+    id: i,
+    image: [image1, image2, image3, image4, image5][i - 1],
+    header: t(`h3Section.header${i}`),
+    text: t.raw(`h3Section.text${i}`),
+    textHtml: t.raw(`h3Section.text${i}`),
+  }));
+
+  const cards = [
+    {
+      widthClass: "w-[95%] lg:w-[80%]",
+      title: t2("card1title"),
+      description: t2.raw("card1description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[75%]",
+      title: t2("card2title"),
+      description: t2.raw("card2description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[70%]",
+      title: t2("card3title"),
+      description: t2.raw("card3description"),
+    },
+  ];
+
+  const faqs = [
+    {
+      question: t("faq.question1"),
+      answer: t.raw("faq.answer1"),
+    },
+    {
+      question: t("faq.question2"),
+      answer: t.raw("faq.answer2"),
+    },
+    {
+      question: t("faq.question3"),
+      answer: t.raw("faq.answer3"),
+    },
+    {
+      question: t("faq.question4"),
+      answer: t.raw("faq.answer4"),
+    },
+    {
+      question: t("faq.question5"),
+      answer: t.raw("faq.answer5"),
+    },
+  ];
+
+  const h2items = [
+    { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+  ];
+
+  return (
+    <>
+      <JsonLd id="ota-integration-service-jsonld" data={jsonLd} />
+
+      <div className="flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden">
+        <div className="flex flex-col items-center justify-center gap-5">
+          <SubBanner
+            header={t("subbanner_header")}
+            header2={t("subbanner_header2")}
+            text={t.raw("subbanner_text")}
+            header3={t("subbanner_header3")}
+            text2={t.raw("subbanner_text2")}
+            buttonLink="/"
+            buttonText={t("cta_talk_to_us")}
+          />
+
+          <AutoBreadcrumbs />
+
+          <AiAnswerBlock text={t("ai_answer_text")} />
+        </div>
+
+        <H2LogoSection items={h2items} />
+
+        <StepSection2New data={stepData} header={t("h3Section.header")} />
+
+        <div>
+          <LogoListSectionBlack
+            introTitle={t2("header")}
+            introSubtitlePrefix="DGTLFACE"
+            introSubtitle=""
+            introDescription=""
+            cards={cards}
+          />
+
+          <VerticalSlider page="OtafaqPropmt" itemCount={4} />
+        </div>
+
+        <QuestionsSection2 variant="light" faqs={faqs} />
+
+        <FaqPrompt
+          namespace="OtafaqPropmt.faqPrompt"
+          faqSlug={
+            locale === "tr"
+              ? "pms-ota/ota-entegrasyonu-sss"
+              : "pms-ota/ota-integration-faq"
+          }
+        />
+
+        <AiSourceMention text={t("aiSourceMention")} />
+      </div>
+    </>
+  );
+}
