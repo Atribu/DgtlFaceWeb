@@ -20,7 +20,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -78,159 +79,188 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller için PMS entegrasyonu, OTA yönetimi, kanal yönetimi, web rezervasyon sistemleri, çağrı merkezi ve dijital pazarlama süreçlerini entegre eden, rezervasyon ve operasyon odaklı bir turizm teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu/#webpage",
-//       "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
-//       "name": "Otel PMS Entegrasyonu – Rezervasyon & Operasyon Sistemleri | DGTLFACE",
-//       "description": "DGTLFACE, otel PMS entegrasyonu ile operasyon, rezervasyon, satış ve oda yönetimi süreçlerini hızlandırır. Elektraweb PMS, PMS hotel system, otel operasyon sistemi, PMS eğitim, PMS teknik destek, PMS entegrasyonu nasıl yapılır, otel PMS modülleri ve PMS rezervasyon yürütme sistemi gibi alanlarda profesyonel entegrasyon ve destek sunar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu/#service",
-//       "name": "Otel PMS Entegrasyonu – Rezervasyon & Operasyon Sistemleri",
-//       "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "otel pms entegrasyonu, elektraweb pms, pms hotel system, otel operasyon sistemi, pms eğitim, pms teknik destek",
-//       "description": "DGTLFACE, otel PMS entegrasyonu ile operasyon, rezervasyon, satış ve oda yönetimi süreçlerini hızlandırır. Elektraweb PMS ve diğer sistemlerde; PMS kurulumu, kanal yönetimi + PMS uyumu, OTA entegrasyonu, PMS rezervasyon yürütme sistemi, resort PMS yönetimi, butik otel PMS destek ve operasyon yükünü azaltan PMS özellikleriyle oteller için entegre çözümler sunar.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "otel pms entegrasyonu",
-//         "elektraweb pms",
-//         "pms hotel system",
-//         "otel operasyon sistemi",
-//         "pms eğitim",
-//         "pms teknik destek",
-//         "pms entegrasyonu nasıl yapılır",
-//         "otel pms modülleri",
-//         "elektraweb pms eğitim rehberi",
-//         "resort pms yönetimi",
-//         "butik otel pms destek",
-//         "operasyon yükünü azaltan pms özellikleri",
-//         "kanal yönetimi + pms uyumu",
-//         "pms rezervasyon yürütme sistemi",
-//         "resort pms",
-//         "turizm pms entegrasyonu",
-//         "luxury hotel pms",
-//         "villa pms entegrasyonu",
-//         "elektraweb antalya",
-//         "pms entegrasyon türkiye",
-//         "antalya pms uzmanı",
-//         "turizm pms destek antalya"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Otel Dijital Pazarlama",
-//           "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "PMS Entegrasyonu",
-//           "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "PMS entegrasyonu nedir, otel için neden kritiktir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "PMS entegrasyonu; otel PMS sisteminin OTA, kanal yöneticisi, web rezervasyon motoru, çağrı merkezi, muhasebe ve raporlama araçlarıyla otomatik veri alışverişi yapacak şekilde bağlanmasıdır. Böylece rezervasyon, oda, fiyat ve gelir verileri tek merkezde toplanır, overbooking ve fiyat hataları azalır, operasyon ve raporlama verimli hâle gelir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "PMS, OTA ve kanal yönetimi ile nasıl entegre çalışır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "PMS fiyat ve envanterin ana kaynağıdır. Channel Manager, PMS’ten aldığı oda ve fiyat bilgilerini tüm OTA kanallarına dağıtır; OTA’lardan gelen rezervasyonları tekrar PMS’e aktarır. Doğru kurgulanmış bir PMS + Channel Manager + OTA akışı, hem fiyat hem stok yönetimini tek kaynaktan kontrol etmenizi sağlar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Web sitesi rezervasyon sistemi PMS’e nasıl bağlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Web rezervasyon motoru, PMS veya aradaki entegrasyon katmanı üzerinden bağlanır. Böylece web sitesinden gelen tüm rezervasyonlar otomatik olarak PMS’e düşer, müsaitlik ve fiyat güncellemeleri PMS tarafındaki verilere göre yönetilir. DGTLFACE, bu akışı rezervasyon hunisi ve raporlama ile uyumlu kurar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çağrı merkezi rezervasyonları PMS’e otomatik işlenebilir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Çağrı merkezi ve rezervasyon hattı için PMS tabanlı veya PMS ile entegre çalışan arayüzler tasarlanabilir. Böylece telefon, WhatsApp veya OTA mesajları üzerinden alınan rezervasyonlar da standart şekilde PMS’e kaydedilir ve tüm raporlama aynı veri seti üzerinden yapılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Elektraweb PMS ile hangi entegrasyonlar yapılabiliyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Elektraweb PMS; OTA ve channel manager entegrasyonları, web rezervasyon sistemleri, çağrı merkezi, muhasebe ve raporlama araçlarıyla entegre çalışabilir. DGTLFACE, Elektraweb için kurulum, mapping, test ve eğitim süreçlerini uçtan uca yöneterek otelinizin dijital omurgasını bu sistem üzerine inşa eder."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
+
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildHotelPmsIntegrationServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Otel Dijital Dönüşüm",
+          current: "PMS Entegrasyonu",
+          serviceType: "Otel PMS Entegrasyonu / Hotel PMS Integration",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Hotel Digital Transformation",
+          current: "PMS Integration",
+          serviceType: "Hotel PMS Integration / Hotel PMS",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+          {
+            "@type": "Place",
+            name: "Belek",
+          },
+          {
+            "@type": "Place",
+            name: "Kemer",
+          },
+          {
+            "@type": "Place",
+            name: "Side",
+          },
+          {
+            "@type": "Place",
+            name: "Alanya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
 
 
-export default async function Page({ params: { locale } }) {
-     const t = await getTranslations({locale,namespace: "PmsIntegrationPage",});
-      const t2 = await getTranslations({locale,namespace: "PmsIntegrationPage.h4Section",});
+export default async function Page({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "PmsIntegrationPage",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "PmsIntegrationPage.h4Section",
+  });
+
 
        const baseUrl = getBaseUrl();
             const pathnameKey = "/Services/hotel/pmsIntegration";
@@ -302,46 +332,24 @@ export default async function Page({ params: { locale } }) {
                
              ];
 
-             const jsonLd = buildServiceJsonLd({
-                              baseUrl,
-                              locale,
-                              canonicalUrl,
-                          
-                              pageName: t("jsonld.pageName"),
-                              pageDescription: t("jsonld.pageDescription"),
-                              serviceName: t("jsonld.serviceName"),
-                              serviceType: t("jsonld.serviceType"),
-                              keywords: t.raw("jsonld.keywords"),
-                          
-                              breadcrumbItems: [
-                                {
-                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                  url: `${baseUrl}/${locale}`,
-                                },
-                          
-                                {
-                                  name: locale === "tr" ? "Otel Dijital Dönüşüm" : "Hotel Digital Marketing",
-                                  url: `${baseUrl}${locale === "tr" ? "/tr/otel" : "/en/hotel"}`,
-                                },
-                          
-                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                              ],
-                          
-                              faqs,
-                          
-                              // 🤖 AI alanları (yeni standart)
-                              aiQuestion: t("jsonld.pageName"),
-                              aiAnswer: t("ai_answer_text"),
-                              aiSource: t("aiSourceMention"),
-                            });
+        const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentHotelUrl = getCanonicalUrl("/Services/hotel", locale);
+
+const jsonLd = buildHotelPmsIntegrationServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentHotelUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
 
   return (
   <>
-  <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="hotel-pms-integration-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

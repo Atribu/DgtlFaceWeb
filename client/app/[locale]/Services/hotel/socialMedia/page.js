@@ -20,7 +20,8 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -77,166 +78,175 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve turizm markaları için sosyal medya, SEO, reklam, web geliştirme, OTA ve call center entegrasyonlarını yöneten, rezervasyon ve gelir odaklı çalışan bir dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#webpage",
-//       "url": "https://dgtlface.com/tr/otel/sosyal-medya",
-//       "name": "Otel Sosyal Medya Yönetimi – Turizm İçin Profesyonel Instagram & Reels | DGTLFACE",
-//       "description": "DGTLFACE, oteller için Instagram, Reels, TikTok ve Facebook sosyal medya yönetimi sunar. Turizm sektörüne özel içerik üretimi, planlama, influencer iş birlikleri ve rezervasyon odaklı sosyal medya stratejileri geliştirir.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#service",
-//       "name": "Otel Sosyal Medya Yönetimi – Turizm İçin Profesyonel Instagram & Reels",
-//       "url": "https://dgtlface.com/tr/otel/sosyal-medya",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "otel sosyal medya, otel instagram yönetimi, resort social media, turizm sosyal medya, hotel content production",
-//       "description": "DGTLFACE, oteller için Instagram, Reels, TikTok ve Facebook sosyal medya yönetimi sunar. Otel sosyal medya stratejisi, resort social media, turizm sosyal medya, otel Instagram yönetimi, hotel content production, otel Reels fikirleri, oteller için Instagram stratejisi, Reels ile oda satış artırma, otel sosyal medya içerik üretimi, resort için video çekimi, all inclusive oteller için sosyal medya, hotel influencer marketing ve sosyal medya ile rezervasyon artırma odaklı çözümler geliştirir.",
-//       "areaServed": [
-//         "Antalya",
-//         "Belek",
-//         "Kemer",
-//         "Side",
-//         "Alanya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "otel sosyal medya",
-//         "resort social media",
-//         "turizm sosyal medya",
-//         "otel instagram yönetimi",
-//         "hotel content production",
-//         "otel reels fikirleri",
-//         "oteller için instagram stratejisi",
-//         "reels ile oda satış artırma",
-//         "otel sosyal medya içerik üretimi",
-//         "resort için video çekimi",
-//         "all inclusive oteller için sosyal medya",
-//         "hotel influencer marketing",
-//         "otel fotoğraf çekimi",
-//         "sosyal medya ile rezervasyon artırma",
-//         "turizm sosyal medya taktikleri",
-//         "luxury hotel instagram",
-//         "resort sosyal medya paketleri",
-//         "butik otel sosyal medya",
-//         "aquapark otel sosyal medya yönetimi",
-//         "antalya resort sosyal medya",
-//         "belek hotel instagram",
-//         "kemer otel sosyal medya",
-//         "alanya hotel reels"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Otel Dijital Pazarlama",
-//           "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Otel Sosyal Medya Yönetimi",
-//           "item": "https://dgtlface.com/tr/otel/sosyal-medya"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için sosyal medya yönetimi neyi kapsar?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oteller için sosyal medya yönetimi; strateji oluşturma, içerik ve Reels üretimi, paylaşım takvimi, yorum ve DM yönetimi, reklam entegrasyonu ve performans raporlamasını kapsar. Amaç, sosyal medyayı sadece beğeni alanı değil, marka algısı ve rezervasyon üreten bir kanal haline getirmektir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Reels ile oda satışı gerçekten artar mı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Doğru kurgulanmış Reels içerikleri; oda, tesis ve deneyimi kısa ve etkileyici şekilde anlattığında, doğru hedefleme ve net bir yönlendirme (web rezervasyon linki, WhatsApp veya call center) ile birleştiğinde rezervasyon talebini ciddi şekilde artırabilir. Reels, özellikle keşif ve karar öncesi ilham aşamasında çok güçlü bir araçtır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Otel sosyal medyası ile rezervasyon nasıl tetiklenir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Rezervasyon tetiklemek için; deneyim odaklı görseller, paket ve konsept anlatımları, kampanyalar ve güçlü call-to-action’lar birlikte kullanılmalıdır. Sosyal medya içerikleri, web rezervasyon motoru, OTA sayfaları veya çağrı merkezi gibi satış noktalarına net linkler ve mesaj akışlarıyla bağlanmalıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE otel sosyal medya sürecini nasıl yönetir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE, otel sosyal medya sürecinde önce mevcut hesapları ve hedef pazarları analiz eder, ardından içerik ve Reels stratejisi, aylık içerik takvimi ve reklam planını oluşturur. Üretim, paylaşım, DM/yorum yönetimi ve performans raporlaması tek çatı altında yönetilir; sosyal medya verileri rezervasyon ve gelir verileriyle birlikte analiz edilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Sadece içerik üretiyorsunuz, yoksa çekim ve prodüksiyon da var mı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "İhtiyaca göre hem dijital içerik ve Reels fikri üretebiliyor hem de sahada fotoğraf ve video çekimi yapabiliyoruz. Creative ve video prodüksiyon ekibiyle birlikte; oda, tesis, destinasyon ve deneyim odaklı görsel arşiv oluşturup bunu sosyal medya, web ve OTA kanallarında kullanıma hazır hale getiriyoruz."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
+  try {
+    const parsed = new URL(url);
 
-export default async function Page({ params: { locale } }) {
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildHotelSocialMediaServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Otel Dijital Dönüşüm",
+          current: "Otel Sosyal Medya Yönetimi",
+          serviceType: "Otel Sosyal Medya Yönetimi / Hotel Social Media",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Hotel Digital Marketing",
+          current: "Hotel Social Media Management",
+          serviceType: "Hotel Social Media Management / Hotel Social Media",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+          {
+            "@type": "Place",
+            name: "Belek",
+          },
+          {
+            "@type": "Place",
+            name: "Kemer",
+          },
+          {
+            "@type": "Place",
+            name: "Side",
+          },
+          {
+            "@type": "Place",
+            name: "Alanya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+   const { locale } = await params;
    const t = await getTranslations({locale,namespace: "OtelSocialMediaPage",});
     const t2 = await getTranslations({locale,namespace: "OtelSocialMediaPage.h4Section",});
 
@@ -311,46 +321,24 @@ export default async function Page({ params: { locale } }) {
                
              ];
 
-               const jsonLd = buildServiceJsonLd({
-                              baseUrl,
-                              locale,
-                              canonicalUrl,
-                          
-                              pageName: t("jsonld.pageName"),
-                              pageDescription: t("jsonld.pageDescription"),
-                              serviceName: t("jsonld.serviceName"),
-                              serviceType: t("jsonld.serviceType"),
-                              keywords: t.raw("jsonld.keywords"),
-                          
-                              breadcrumbItems: [
-                                {
-                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                  url: `${baseUrl}/${locale}`,
-                                },
-                          
-                                {
-                                  name: locale === "tr" ? "Otel Dijital Dönüşüm" : "Hotel Digital Marketing",
-                                  url: `${baseUrl}${locale === "tr" ? "/tr/otel" : "/en/hotel"}`,
-                                },
-                          
-                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                              ],
-                          
-                              faqs,
-                          
-                              // 🤖 AI alanları (yeni standart)
-                              aiQuestion: t("jsonld.pageName"),
-                              aiAnswer: t("ai_answer_text"),
-                              aiSource: t("aiSourceMention"),
-                            });
+              const servicesUrl = getCanonicalUrl("/Services", locale);
+              const parentHotelUrl = getCanonicalUrl("/Services/hotel", locale);
+
+              const jsonLd = buildHotelSocialMediaServiceJsonLd({
+                locale,
+                baseUrl,
+                pageUrl: canonicalUrl,
+                servicesUrl,
+                parentUrl: parentHotelUrl,
+                pageName: t("jsonld.pageName"),
+                pageDescription: stripHtml(t("jsonld.pageDescription")),
+                serviceName: t("jsonld.serviceName"),
+                serviceDescription: stripHtml(t("jsonld.pageDescription")),
+              });
 
   return (
   <>
-  <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+  <JsonLd id="hotel-social-media-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

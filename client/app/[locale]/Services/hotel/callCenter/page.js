@@ -21,7 +21,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -80,13 +81,191 @@ export async function generateMetadata({ params }) {
 }
 
 
-export default async function Page({ params: { locale } }) {
-     const t = await getTranslations({locale,namespace: "HotelCallCenter",});
-      const t2 = await getTranslations({locale,namespace: "HotelCallCenter.h4Section",});
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-          const baseUrl = getBaseUrl();
-            const pathnameKey = "/Services/hotel/callCenter";
-            const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildHotelCallCenterServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Otel Dijital Dönüşüm",
+          current: "Otel Rezervasyon Çağrı Merkezi",
+          serviceType: "Otel Rezervasyon Çağrı Merkezi / Hotel Call Center",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Hotel Digital Transformation",
+          current: "Hotel Reservation Call Center",
+          serviceType: "Hotel Reservation Call Center / Hotel Call Center",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+          {
+            "@type": "Place",
+            name: "Belek",
+          },
+          {
+            "@type": "Place",
+            name: "Kemer",
+          },
+          {
+            "@type": "Place",
+            name: "Side",
+          },
+          {
+            "@type": "Place",
+            name: "Alanya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "HotelCallCenter",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "HotelCallCenter.h4Section",
+  });
+
+  const baseUrl = getBaseUrl();
+  const pathnameKey = "/Services/hotel/callCenter";
+  const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
            
               const stepData = [1,2,3,4,5,6,7,8].map(i => ({
                 id: i,
@@ -155,47 +334,25 @@ export default async function Page({ params: { locale } }) {
              ];
 
 
-             const jsonLd = buildServiceJsonLd({
-                              baseUrl,
-                              locale,
-                              canonicalUrl,
-                          
-                              pageName: t("jsonld.pageName"),
-                              pageDescription: t("jsonld.pageDescription"),
-                              serviceName: t("jsonld.serviceName"),
-                              serviceType: t("jsonld.serviceType"),
-                              keywords: t.raw("jsonld.keywords"),
-                          
-                              breadcrumbItems: [
-                                {
-                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                  url: `${baseUrl}/${locale}`,
-                                },
-                          
-                                {
-                                  name: locale === "tr" ? "Otel Dijital Dönüşüm" : "Hotel Digital Marketing",
-                                  url: `${baseUrl}${locale === "tr" ? "/tr/otel" : "/en/hotel"}`,
-                                },
-                          
-                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                              ],
-                          
-                              faqs,
-                          
-                              // 🤖 AI alanları (yeni standart)
-                              aiQuestion: t("jsonld.pageName"),
-                              aiAnswer: t("ai_answer_text"),
-                              aiSource: t("aiSourceMention"),
-                            });
+      const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentHotelUrl = getCanonicalUrl("/Services/hotel", locale);
+
+const jsonLd = buildHotelCallCenterServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentHotelUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
              
 
   return (
   <>
-  <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+ <JsonLd id="hotel-call-center-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
       <div className='flex flex-col items-center justify-center gap-5'>
