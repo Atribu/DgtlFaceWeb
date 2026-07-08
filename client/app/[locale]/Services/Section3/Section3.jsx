@@ -50,7 +50,7 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     seoservice: (chunks) => (
-      <Link href="/seo-hizmetleri" className={linkClass}>
+      <Link href="/seo" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -67,7 +67,7 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     ads: (chunks) => (
-      <Link href="/sosyal-medya-yonetimi" className={linkClass}>
+      <Link href="/smm" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -84,7 +84,7 @@ const Section3 = ({ page }) => {
 
     // --- Web & Yazılım ---
     webdev: (chunks) => (
-      <Link href="/web-ve-yazilim-hizmetleri" className={linkClass}>
+      <Link href="/yazilim" className={linkClass}>
         {chunks}
       </Link>
     ),

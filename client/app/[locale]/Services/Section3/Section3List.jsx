@@ -51,7 +51,7 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     seoservice: (chunks) => (
-      <Link prefetch={false} href="/seo-hizmetleri" className={linkClass}>
+      <Link prefetch={false} href="/seo" className={linkClass}>
         {chunks}
       </Link>
     ),

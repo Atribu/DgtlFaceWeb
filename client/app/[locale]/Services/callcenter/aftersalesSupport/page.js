@@ -18,13 +18,13 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
   const pathnameKey = "/Services/callcenter/aftersalesSupport";
 
   const base = getBaseUrl();
@@ -38,8 +38,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString();
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -64,7 +64,14 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [
+        {
+          url: ogImageAbs,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -72,312 +79,307 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve markalar için satış sonrası müşteri destek, şikayet yönetimi, çok kanallı iletişim ve CRM/PMS entegrasyonlu çağrı merkezi çözümleri sunan dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#webpage",
-//       "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
-//       "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri | DGTLFACE",
-//       "description": "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#service",
-//       "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri",
-//       "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "müşteri destek merkezi, satış sonrası hizmet, müşteri hizmetleri, destek hattı, çağrı sonrası takip, müşteri iletişim yönetimi",
-//       "description": "DGTLFACE, satış sonrası müşteri destek süreçlerini profesyonel ekiplerle yönetir. Telefon, WhatsApp, e-posta, DM, OTA mesajları ve web chat üzerinden gelen soru, şikayet ve talepleri çok kanallı iletişim modeliyle karşılar; şikayet yönetimi, çağrı sonrası CRM entegrasyonu, memnuniyet ölçümü ve otel/turizm projelerinde PMS destek süreçleriyle marka sadakati ve müşteri memnuniyetini artırır.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "müşteri destek merkezi",
-//         "satış sonrası hizmet",
-//         "müşteri hizmetleri",
-//         "destek hattı",
-//         "çağrı sonrası takip",
-//         "müşteri iletişim yönetimi",
-//         "müşteri şikayet yönetimi nasıl yapılır",
-//         "satış sonrası destek örnekleri",
-//         "müşteri sorun çözme teknikleri",
-//         "oteller için satış sonrası süreç",
-//         "turizm müşteri yönetimi",
-//         "çağrı sonrası crm entegrasyonu",
-//         "müşteri memnuniyeti artırma yöntemleri",
-//         "satış sonrası destek kanalları",
-//         "otel satış sonrası destek",
-//         "turizm müşteri memnuniyeti",
-//         "resort customer care",
-//         "booking sonrası misafir iletişimi",
-//         "müşteri destek antalya",
-//         "antalya çağrı merkezi",
-//         "satış sonrası destek türkiye",
-//         "antalya müşteri hizmetleri"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Çağrı Merkezi Hizmetleri",
-//           "item": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Satış Sonrası Destek",
-//           "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Satış sonrası destek nedir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Satış sonrası destek; misafir veya müşterilerin satın alma veya konaklama sonrasında ilettiği soru, şikayet, talep ve önerilerin telefon, WhatsApp, e-posta, DM, web chat ve OTA mesajları üzerinden profesyonel şekilde yönetilmesi, çözümlenmesi ve takip edilmesi sürecidir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Otellerde satış sonrası süreç nasıl çalışır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Otellerde satış sonrası süreç; konaklama öncesi ve sonrası iletişim, şikayet ve talep yönetimi, memnuniyet aramaları, yorum davetleri ve tekrar rezervasyon önerileri gibi adımları içerir ve marka sadakatini doğrudan etkiler."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çok kanallı müşteri desteği nasıl kurgulanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Çok kanallı müşteri desteğinde telefon, WhatsApp, e-posta, sosyal medya mesajları, yorumlar, web chat ve OTA mesajları tek bir iletişim mimarisinde birleşir; tüm kanallar için ortak ton, SLA ve çözüm prosedürleri tanımlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "CRM entegrasyonu nasıl yapılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Satış sonrası çağrı ve mesaj kayıtları, konu, sonuç ve aksiyon bilgileriyle birlikte CRM veya PMS sistemine işlenir; böylece misafir geçmişi, tekrarlayan şikayetler ve VIP/riskli profiller tek ekrandan takip edilebilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Misafir geri dönüş toplama yöntemleri nelerdir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Misafir geri bildirimleri; konaklama sonrası aramalar, kısa anketler, e-posta/WhatsApp linkleri, OTA ve Google yorum davetleri ile toplanabilir ve bu veriler memnuniyet ve hizmet iyileştirme süreçlerinde kullanılabilir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
-   const t = await getTranslations({ locale, namespace: "AfterSalesSupportPage" });
-      const t2 = await getTranslations({ locale, namespace: "AfterSalesSupportPage.h4Section" });
+  try {
+    const parsed = new URL(url);
 
-      const baseUrl = getBaseUrl();
-            const pathnameKey = "/Services/callcenter/aftersalesSupport";
-            const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
-           
-              const stepData = [1,2,3,4,5].map(i => ({
-                id: i,
-                image: [image1,image2,image3,image4,image5][i-1],
-                header: t(`h3Section.header${i}`),
-                text:   t.raw(`h3Section.text${i}`),
-                textHtml:   t.raw(`h3Section.text${i}`)
-              }));
-           
-           
-           
-              const cards = [
-               {
-                 widthClass: "w-[95%] lg:w-[80%]",
-                 title: t2("card1title"),
-                 description: t2.raw("card1description"),
-               },
-               {
-                 widthClass: "w-[95%] lg:w-[75%]",
-                 title: t2("card2title"),
-                 description: t2.raw("card2description"),
-               },
-               {
-                 widthClass: "w-[95%] lg:w-[70%]",
-                 title: t2("card3title"),
-                 description: t2.raw("card3description"),
-               },
-           
-             ];
-           
-               const faqs = [
-               {
-                 question: t("faq.question1"),
-                 answer:
-                  t.raw("faq.answer1"),
-               },
-               {
-                 question: t("faq.question2"),
-                 answer:
-                  t.raw("faq.answer2"),
-               },
-               {
-                  question: t("faq.question3"),
-                 answer:
-                  t.raw("faq.answer3"),
-               },
-           
-               {
-               question: t("faq.question4"),
-                 answer:
-                  t.raw("faq.answer4"),
-               },
-           
-               {
-               question: t("faq.question5"),
-                 answer:
-                  t.raw("faq.answer5"),
-               },
-             ];
-           
-               const h2items = [
-               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
-             ];
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/")) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
 
-               const jsonLd = buildServiceJsonLd({
-                              baseUrl,
-                              locale,
-                              canonicalUrl,
-                          
-                              pageName: t("jsonld.pageName"),
-                              pageDescription: t("jsonld.pageDescription"),
-                              serviceName: t("jsonld.serviceName"),
-                              serviceType: t("jsonld.serviceType"),
-                              keywords: t.raw("jsonld.keywords"),
-                          
-                              breadcrumbItems: [
-                                {
-                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                  url: `${baseUrl}/${locale}`,
-                                },
-                          
-                                {
-                                  name:
-                                    locale === "tr"
-                                      ? "Çağrı Merkezi Hizmetleri"
-                                      : "Call Center Services",
-                                  url: `${baseUrl}${locale === "tr" ? "/tr/cagri-merkezi" : "/en/call-center"}`,
-                                },
-                          
-                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                              ],
-                          
-                              faqs,
-                          
-                              // 🤖 AI alanları (yeni standart)
-                              aiQuestion: t("jsonld.pageName"),
-                              aiAnswer: t("ai_answer_text"),
-                              aiSource: t("aiSourceMention"),
-                            });
-  
-  return (
-    <>
-     <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      
-    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
-   <div className='flex flex-col items-center justify-center gap-5'>
-      <SubBanner
-  header={t("subbanner_header")}
-  header2={t("subbanner_header2")}
-  text={t.raw("subbanner_text")}
-    header3={t("subbanner_header3")}
-  text2={t.raw("subbanner_text2")}
-  buttonLink="/"
-  buttonText={t("cta_talk_to_us")}
-/>
-<AutoBreadcrumbs/>
-<AiAnswerBlock text={t("ai_answer_text")}/>
-   </div>
-       <H2LogoSection items={h2items} />
-
- <StepSection2New data={stepData} header={t("h3Section.header")}/>
-    <div>
-         <LogoListSectionBlack
-      introTitle={t2("header")}
-      introSubtitlePrefix="DGTLFACE"
-      introSubtitle={""}
-      introDescription={""}
-      cards={cards}
-    />
-      <VerticalSlider page="AfterSalesSupportPage" itemCount={4}/>
-    </div>
-     <QuestionsSection2 variant="light" faqs={faqs} />
-             <FaqPrompt
-                       namespace="AfterSalesSupportPage.faqPrompt"
-                      faqSlug="satis-sonrasi-destek-sss"
-                     />
-     <AiSourceMention text={t("aiSourceMention")}/>
-    </div>
-    </>
-  )
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
 }
 
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildAfterSalesSupportServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Çağrı Merkezi",
+          current: "Satış Sonrası Destek",
+          serviceType: "Satış Sonrası Destek / Müşteri Destek Merkezi",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Call Center",
+          current: "After-Sales Support",
+          serviceType: "After-Sales Support / Customer Support Center",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+          {
+            "@type": "Place",
+            name: "Belek",
+          },
+          {
+            "@type": "Place",
+            name: "Kemer",
+          },
+          {
+            "@type": "Place",
+            name: "Side",
+          },
+          {
+            "@type": "Place",
+            name: "Alanya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+const Page = async ({ params }) => {
+  const { locale } = await params;
+
+  const baseUrl = getBaseUrl();
+  const pathnameKey = "/Services/callcenter/aftersalesSupport";
+  const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+
+  const t = await getTranslations({
+    locale,
+    namespace: "AfterSalesSupportPage",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "AfterSalesSupportPage.h4Section",
+  });
+
+  const servicesUrl = getCanonicalUrl("/Services", locale);
+
+  const parentCallCenterUrl =
+    locale === "tr"
+      ? `${baseUrl}/tr/cagri-merkezi`
+      : `${baseUrl}/en/call-center`;
+
+  const jsonLd = buildAfterSalesSupportServiceJsonLd({
+    locale,
+    baseUrl,
+    pageUrl: canonicalUrl,
+    servicesUrl,
+    parentUrl: parentCallCenterUrl,
+    pageName: t("jsonld.pageName"),
+    pageDescription: stripHtml(t("jsonld.pageDescription")),
+    serviceName: t("jsonld.serviceName"),
+    serviceDescription: stripHtml(t("ai_answer_text")),
+  });
+
+  const stepData = [1, 2, 3, 4, 5].map((i) => ({
+    id: i,
+    image: [image1, image2, image3, image4, image5][i - 1],
+    header: t(`h3Section.header${i}`),
+    text: t.raw(`h3Section.text${i}`),
+    textHtml: t.raw(`h3Section.text${i}`),
+  }));
+
+  const cards = [
+    {
+      widthClass: "w-[95%] lg:w-[80%]",
+      title: t2("card1title"),
+      description: t2.raw("card1description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[75%]",
+      title: t2("card2title"),
+      description: t2.raw("card2description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[70%]",
+      title: t2("card3title"),
+      description: t2.raw("card3description"),
+    },
+  ];
+
+  const faqs = [1, 2, 3, 4, 5].map((i) => ({
+    question: t(`faq.question${i}`),
+    answer: t.raw(`faq.answer${i}`),
+  }));
+
+  const h2items = [
+    { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+  ];
+
+  return (
+    <>
+      <JsonLd id="after-sales-support-service-jsonld" data={jsonLd} />
+
+      <div className="flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center">
+        <div className="flex flex-col items-center justify-center gap-5">
+          <SubBanner
+            header={t("subbanner_header")}
+            header2={t("subbanner_header2")}
+            text={t.raw("subbanner_text")}
+            header3={t("subbanner_header3")}
+            text2={t.raw("subbanner_text2")}
+            buttonLink="/"
+            buttonText={t("cta_talk_to_us")}
+          />
+
+          <AutoBreadcrumbs />
+
+          <AiAnswerBlock text={t("ai_answer_text")} />
+        </div>
+
+        <H2LogoSection items={h2items} />
+
+        <StepSection2New
+          data={stepData}
+          header={t("h3Section.header")}
+        />
+
+        <div>
+          <LogoListSectionBlack
+            introTitle={t2("header")}
+            introSubtitlePrefix="DGTLFACE"
+            introSubtitle=""
+            introDescription=""
+            cards={cards}
+          />
+
+          <VerticalSlider
+            page="AfterSalesSupportPage"
+            itemCount={4}
+          />
+        </div>
+
+        <QuestionsSection2
+          variant="light"
+          faqs={faqs}
+        />
+
+        <FaqPrompt
+          namespace="AfterSalesSupportPage.faqPrompt"
+          faqSlug="satis-sonrasi-destek-sss"
+        />
+
+        <AiSourceMention text={t("aiSourceMention")} />
+      </div>
+    </>
+  );
+};
+
+export default Page;

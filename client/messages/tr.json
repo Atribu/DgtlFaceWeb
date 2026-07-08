@@ -3097,8 +3097,7 @@
     }
   },
   "BacklinkSeo": {
-    "BacklinkSeo": {
-      "jsonld": {
+    "jsonld": {
         "pageName": "Backlink Yönetimi – Dijital Otorite ve Güven Sinyali Artırma | DGTLFACE",
         "pageDescription": "DGTLFACE, güçlü backlink stratejileriyle sitenizin otoritesini artırır. Güvenilir ve etkili bağlantılarla Google sıralamalarınızı yükseltin.",
         "serviceName": "Backlink Yönetimi ve Dijital Otorite Geliştirme",
@@ -3130,7 +3129,6 @@
           "backlink çalışması türkiye",
           "antalya dijital otorite"
         ]
-      }
     },
     "faqPrompt": {
   "eyebrow": "Karar Öncesi",

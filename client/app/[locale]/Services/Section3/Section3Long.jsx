@@ -64,7 +64,7 @@ const richComponents = {
 
   // Creative
   creative: (chunks) => (
-    <Link href="/creative-ve-tasarim" className={linkClass}>
+    <Link href="/creative" className={linkClass}>
       {chunks}
     </Link>
   ),
@@ -76,28 +76,28 @@ const richComponents = {
 
   // Call Center
   callservice: (chunks) => (
-    <Link href="/cagri-merkezi-hizmetleri" className={linkClass}>
+    <Link href="/cagri-merkezi" className={linkClass}>
       {chunks}
     </Link>
   ),
 
   // PMS & OTA
   pmsota: (chunks) => (
-    <Link href="/pms-ota-yonetimi" className={linkClass}>
+    <Link href="/pms-ota" className={linkClass}>
       {chunks}
     </Link>
   ),
 
   // Hotel Digital
   hoteldigital: (chunks) => (
-    <Link href="/otel-dijital-pazarlama" className={linkClass}>
+    <Link href="/otel" className={linkClass}>
       {chunks}
     </Link>
   ),
 
   // Analytics genel başlık
   analysis: (chunks) => (
-    <Link href="/veri-analiz-ve-raporlama" className={linkClass}>
+    <Link href="/raporlama" className={linkClass}>
       {chunks}
     </Link>
   ),
@@ -114,7 +114,7 @@ const richComponents = {
     </Link>
   ),
   seoservice: (chunks) => (
-    <Link href="/seo-hizmetleri" className={linkClass}>
+    <Link href="/seo" className={linkClass}>
       {chunks}
     </Link>
   ),
@@ -131,7 +131,7 @@ const richComponents = {
     </Link>
   ),
   ads: (chunks) => (
-    <Link href="/sosyal-medya-yonetimi" className={linkClass}>
+    <Link href="/smm" className={linkClass}>
       {chunks}
     </Link>
   ),
@@ -148,7 +148,7 @@ const richComponents = {
 
   // --- Web & Yazılım ---
   webdev: (chunks) => (
-    <Link href="/web-ve-yazilim-hizmetleri" className={linkClass}>
+    <Link href="/yazilim" className={linkClass}>
       {chunks}
     </Link>
   ),

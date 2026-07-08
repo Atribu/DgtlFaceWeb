@@ -2,6 +2,7 @@
 // components/blog/BlockRenderer.jsx
 import Link from "next/link";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
+import { getLocalizedHref } from "@/app/lib/localized-route-hrefs";
 import Image from "next/image";
 import { useMemo, useState } from "react";
 
@@ -55,7 +56,8 @@ function isSpecialHref(rawHref) {
 function normalizeInlineHref(rawHref, locale) {
   const href = typeof rawHref === "string" ? rawHref.trim() : "";
   if (!href) return "#";
-  if (isSpecialHref(href) || href.startsWith("/")) return href;
+  if (isSpecialHref(href)) return href;
+  if (href.startsWith("/")) return getLocalizedHref(href, locale);
   return `/${locale}/${href}`.replace(`/${locale}/${locale}/`, `/${locale}/`);
 }
 

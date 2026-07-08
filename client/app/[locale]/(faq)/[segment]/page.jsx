@@ -18,7 +18,10 @@ import {
   isFaqDetailSlug,
 } from "@/app/lib/faq-url";
 import { getSiteUrl } from "@/app/lib/site-url";
-import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
+import {
+  fixFaqJsonLdLocale,
+  sanitizeFaqJsonLdForOutput,
+} from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage";
 import FaqMainServer from "../../sss/components/FaqMainServer";
 import JsonLd from "../../components/seo/JsonLd";
@@ -46,7 +49,7 @@ function buildEnhancedJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
   const inLanguage = baseJsonLd.inLanguage || locale;
 
   const nodes = [];
-  nodes.push(baseJsonLd);
+  nodes.push(sanitizeFaqJsonLdForOutput(baseJsonLd));
 
   const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR);
   if (breadcrumb) nodes.push(breadcrumb);
@@ -83,7 +86,7 @@ function buildEnhancedJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
     });
   }
 
-  return nodes;
+  return sanitizeFaqJsonLdForOutput(nodes);
 }
 
 function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
@@ -189,7 +192,7 @@ function buildFrameworkFaqJsonLd({
   const homeUrl = `${pageOrigin}/${locale}/`;
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
 
-  return {
+  return sanitizeFaqJsonLdForOutput({
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -240,7 +243,7 @@ function buildFrameworkFaqJsonLd({
         ],
       },
     ],
-  };
+  });
 }
 
 // -----------------------------

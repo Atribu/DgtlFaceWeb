@@ -4,19 +4,33 @@ import { routing } from "@/i18n/routing";
 
 const SITE_ORIGIN = "https://dgtlface.com";
 const ROOT_FAQ_SLUGS = new Set(["sss", "faq", "hizmetlerimiz-sss", "services-faq"]);
+const INTERNAL_JSONLD_KEYS = new Set([
+  "canonical",
+  "primaryEntity",
+  "faqReference",
+  "internalLinks",
+  "questionSet",
+  "relatedService",
+]);
 
-// Türkçe yorum: faqJsonLdMap içindeki eski root FAQ slug'ları yeni canonical slug'a taşı.
+// Move legacy root FAQ slugs from faqJsonLdMap to canonical service FAQ slugs.
 const FAQ_SLUG_ALIAS_TO_CANONICAL = {
   "seo-hizmetleri-sss": "seo-sss",
+  "sosyal-medya-yonetimi-sss": "smm-sss",
   "web-ve-yazilim-hizmetleri-sss": "yazilim-sss",
+  "creative-ve-tasarim-sss": "creative-sss",
   "cagri-merkezi-hizmetleri-sss": "cagri-merkezi-sss",
   "pms-ota-yonetimi-sss": "pms-ota-sss",
+  "veri-analiz-ve-raporlama-sss": "veri-analiz-ve-raporlama-sss",
+  "otel-dijital-pazarlama-sss": "otel-dijital-pazarlama-sss",
 };
 
-// Türkçe yorum: Eski servis hub alias'larını routing.js internal key'lerine eşleştir.
+// Map legacy service hub aliases to routing.js internal keys.
 const SERVICE_ALIAS_TO_INTERNAL = {
   "/seo-hizmetleri": "/Services/seo",
+  "/sosyal-medya-yonetimi": "/Services/smm",
   "/web-ve-yazilim-hizmetleri": "/Services/software",
+  "/creative-ve-tasarim": "/Services/creative",
   "/cagri-merkezi-hizmetleri": "/Services/callcenter",
   "/pms-ota-yonetimi": "/Services/pms",
   "/veri-analiz-ve-raporlama": "/Services/digitalAnalysis",
@@ -142,4 +156,23 @@ export function fixFaqJsonLdLocale(baseJsonLd, locale) {
   if (locale === "en") data.dgLanguage = "EN";
 
   return data;
+}
+
+export function sanitizeFaqJsonLdForOutput(value) {
+  if (Array.isArray(value)) {
+    return value.map((item) => sanitizeFaqJsonLdForOutput(item));
+  }
+
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value)
+        .filter(([key]) => !key.startsWith("dg") && !INTERNAL_JSONLD_KEYS.has(key))
+        .map(([key, nestedValue]) => [
+          key,
+          sanitizeFaqJsonLdForOutput(nestedValue),
+        ])
+    );
+  }
+
+  return value;
 }

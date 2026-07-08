@@ -42,6 +42,8 @@ const LOCALES = new Set(["tr", "en"]);
 const STATIC_PATH_PREFIXES = ["/downloads/", "/images/", "/og/", "/api/"];
 const LEGACY_LOCALIZED_PATH_TO_INTERNAL = {
   "/call-center-services": "/Services/callcenter",
+  "/cagri-merkezi-hizmetleri": "/Services/callcenter",
+  "/creative-ve-tasarim": "/Services/creative",
   "/data-analysis-and-reporting": "/Services/digitalAnalysis",
   "/hotel-digital-marketing": "/Services/hotel",
   "/hotel/advertising-management": "/Services/hotel/adsManagement",
@@ -57,11 +59,15 @@ const LEGACY_LOCALIZED_PATH_TO_INTERNAL = {
   "/reporting/sales-conversion": "/Services/digitalAnalysis/digitalSalesAnalysis",
   "/sem/advertising-reporting": "/Services/sem/performanceAnalysis",
   "/sem/google-ads-management": "/Services/sem/googleAdsAdvertising",
+  "/seo-hizmetleri": "/Services/seo",
+  "/sosyal-medya-yonetimi": "/Services/smm",
   "/smm/content-production": "/Services/smm/socialMediaContent",
   "/smm/planning-strategy": "/Services/smm/socialMediaPlanning",
   "/software/cms-integration": "/Services/software/cmsInstallationService",
   "/software/server-security": "/Services/software/serverManagementService",
   "/software/website-development": "/Services/software/websiteAndSoftware",
+  "/veri-analiz-ve-raporlama": "/Services/digitalAnalysis",
+  "/web-ve-yazilim-hizmetleri": "/Services/software",
   "/tr/cagri-merkezi/performance-analizi": "/Services/callcenter/callPerformance",
 };
 
@@ -488,47 +494,76 @@ function asFaqItems(v) {
     .filter(Boolean);
 }
 
-function normalizeJsonLdUrlString(value, siteUrl) {
-  if (typeof value !== "string") return value;
-
+function normalizeSiteUrl(rawUrl, siteUrl, locale) {
   let parsedUrl;
   let siteOrigin;
 
   try {
-    parsedUrl = new URL(value);
+    parsedUrl = new URL(rawUrl);
     siteOrigin = new URL(siteUrl).origin;
   } catch {
-    return value;
+    return rawUrl;
   }
 
-  if (
-    parsedUrl.origin !== siteOrigin ||
-    !parsedUrl.hash ||
-    parsedUrl.pathname.length <= 1 ||
-    !parsedUrl.pathname.endsWith("/")
-  ) {
-    return value;
+  const allowedOrigins = new Set([siteOrigin, "https://dgtlface.com"]);
+  if (!allowedOrigins.has(parsedUrl.origin)) {
+    return rawUrl;
   }
 
-  parsedUrl.pathname = parsedUrl.pathname.replace(/\/+$/, "");
-  return parsedUrl.toString();
+  const { pathname, search, hash } = parsedUrl;
+
+  if (STATIC_PATH_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
+    return rawUrl;
+  }
+
+  const withoutLocale = pathname.replace(/^\/(?:tr|en)(?=\/|$)/, "") || "/";
+  const internalPath =
+    routing.pathnames?.[pathname]
+      ? pathname
+      : LOCALIZED_PATH_TO_INTERNAL.get(withoutLocale) ||
+        LOCALIZED_PATH_TO_INTERNAL.get(pathname) ||
+        null;
+
+  if (internalPath) {
+    const localizedPath = getLocalizedRoutePath(internalPath, locale);
+    const localizedHref = withLocalePrefix(locale, localizedPath);
+    if (localizedHref) {
+      return `${siteOrigin}${localizedHref}${search}${hash}`;
+    }
+  }
+
+  if (hash && pathname.length > 1 && pathname.endsWith("/")) {
+    parsedUrl.pathname = pathname.replace(/\/+$/, "");
+    return parsedUrl.toString();
+  }
+
+  return rawUrl;
 }
 
-function normalizeBlogJsonLdData(data, siteUrl) {
+function normalizeJsonLdUrlString(value, siteUrl, locale) {
+  if (typeof value !== "string") return value;
+
+  return value.replace(
+    /https?:\/\/(?:dgtlface\.com|localhost:\d+)\/[^\s"'<>),]+/g,
+    (matchedUrl) => normalizeSiteUrl(matchedUrl, siteUrl, locale)
+  );
+}
+
+function normalizeBlogJsonLdData(data, siteUrl, locale) {
   if (Array.isArray(data)) {
-    return data.map((item) => normalizeBlogJsonLdData(item, siteUrl));
+    return data.map((item) => normalizeBlogJsonLdData(item, siteUrl, locale));
   }
 
   if (data && typeof data === "object") {
     return Object.fromEntries(
       Object.entries(data).map(([key, value]) => [
         key,
-        normalizeBlogJsonLdData(value, siteUrl),
+        normalizeBlogJsonLdData(value, siteUrl, locale),
       ])
     );
   }
 
-  return normalizeJsonLdUrlString(data, siteUrl);
+  return normalizeJsonLdUrlString(data, siteUrl, locale);
 }
 
 function alignBlogJsonLdWebPage(data, pageUrl, pageTitle) {
@@ -730,7 +765,7 @@ export default async function BlogDetailPage({ params }) {
   ).toString();
   const jsonLd = rawJsonLd
     ? alignBlogJsonLdWebPage(
-        normalizeBlogJsonLdData(rawJsonLd, siteUrl),
+        normalizeBlogJsonLdData(rawJsonLd, siteUrl, locale),
         blogPageUrl,
         post.title
       )

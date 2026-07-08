@@ -3078,8 +3078,7 @@
     }
   },
   "BacklinkSeo": {
-    "BacklinkSeo": {
-      "jsonld": {
+    "jsonld": {
         "pageName": "Backlink Management – Build Authority & Trust Signals | DGTLFACE",
         "pageDescription": "DGTLFACE strengthens your website authority with a structured backlink strategy. Improve rankings with reliable, relevant, and high-quality links.",
         "serviceName": "Backlink Management & Digital Authority Building",
@@ -3111,7 +3110,6 @@
           "link building turkey",
           "digital authority antalya"
         ]
-      }
     },
     "faqPrompt": {
   "eyebrow": "Before You Decide",

@@ -8,10 +8,14 @@ import {
   FAQ_DEPT_LABEL_MAP,
 } from "../../../faqRouteMap";
 import SearchBanner from "../../../sss/components/SearchBanner";
-import { fixFaqJsonLdLocale } from "../../../(faq)/utils/fixFaqJsonLd";
+import {
+  fixFaqJsonLdLocale,
+  sanitizeFaqJsonLdForOutput,
+} from "../../../(faq)/utils/fixFaqJsonLd";
 import Breadcrumbs from "@/app/[locale]/(faq)/[segment]/components/Breadcrumbs";
 import { getFaqOgImageUrl } from "../../../(faq)/utils/faqOgImage";
 import FaqMainServer from "@/app/[locale]/sss/components/FaqMainServer";
+import JsonLd from "../../../components/seo/JsonLd";
 import {
   buildFaqHrefBySlug,
   findFaqSlugByNamespace,
@@ -56,10 +60,60 @@ function buildDeptUrl(locale, deptSlug) {
   return buildFaqHrefBySlug(deptSlug, locale);
 }
 
+function toAbsoluteSiteUrl(href) {
+  if (!href) return "";
+
+  try {
+    return new URL(href, "https://dgtlface.com").toString();
+  } catch {
+    return href;
+  }
+}
+
+function buildFaqDeptJsonLd(baseJsonLd, crumbItems, locale) {
+  if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
+
+  const url = baseJsonLd.url || baseJsonLd["@id"]?.split("#")[0] || "";
+  if (!url) return baseJsonLd;
+
+  const inLanguage = baseJsonLd.inLanguage || locale;
+  const breadcrumbId = `${url}#breadcrumb`;
+  const faqId = baseJsonLd["@id"] || `${url}#faq`;
+
+  return sanitizeFaqJsonLdForOutput([
+    baseJsonLd,
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": breadcrumbId,
+      itemListElement: crumbItems.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.label,
+        item: toAbsoluteSiteUrl(item.href),
+      })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": `${url}#webpage`,
+      url,
+      inLanguage,
+      name: baseJsonLd.dgPageName || baseJsonLd.name,
+      description: baseJsonLd.description,
+      isPartOf: { "@id": "https://dgtlface.com/#website" },
+      publisher: { "@id": "https://dgtlface.com/#organization" },
+      breadcrumb: { "@id": breadcrumbId },
+      mainEntity: { "@id": faqId },
+    },
+  ]);
+}
+
 export async function generateMetadata({ params }) {
-  const locale = params?.locale || "tr";
-  const slug = params?.faq;      // ✅ doğru: [faq]
-  const segment = params?.segment; // ✅ doğru: [segment]
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || "tr";
+  const slug = resolvedParams?.faq;      // ✅ doğru: [faq]
+  const segment = resolvedParams?.segment; // ✅ doğru: [segment]
   const resolvedSlug = resolveFaqContentSlug(slug, locale, segment);
   const baseJsonLd = FAQ_JSONLD_MAP?.[resolvedSlug] || FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
@@ -76,7 +130,7 @@ export async function generateMetadata({ params }) {
   const trSlug = findFaqSlugByNamespace(pageNs, "tr") || resolvedSlug;
   const enSlug = findFaqSlugByNamespace(pageNs, "en") || resolvedSlug;
   const canonicalUrl =
-    canonical || `${siteUrl}${buildFaqHrefBySlug(resolvedSlug, locale, segment)}`;
+    canonical || `${siteUrl}${buildFaqHrefBySlug(resolvedSlug, locale)}`;
 
   return {
     title,
@@ -106,10 +160,11 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Page({ params }) {
-  const locale = params?.locale || "tr";
-  const segment = params?.segment; // ✅ doğru: [segment]
-  const slug = params?.faq;        // ✅ doğru: [faq]
+export default async function Page({ params }) {
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || "tr";
+  const segment = resolvedParams?.segment; // ✅ doğru: [segment]
+  const slug = resolvedParams?.faq;        // ✅ doğru: [faq]
   const resolvedSlug = resolveFaqContentSlug(slug, locale, segment);
 
   if (
@@ -124,7 +179,7 @@ export default function Page({ params }) {
   if (!pageNs) notFound();
 
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
-  const canonicalHref = buildFaqHrefBySlug(resolvedSlug, locale, segment);
+  const canonicalHref = buildFaqHrefBySlug(resolvedSlug, locale);
   const currentHref = `/${locale}/${segment}/${slug}`;
 
   // Public slug, legacy slug ve canonical path tek yerde normalize edilir.
@@ -176,9 +231,11 @@ export default function Page({ params }) {
     ...(deptSlugTR && deptSlugTR !== resolvedSlug ? [{ label: deptLabel, href: deptHref }] : []),
     { label: currentLabel, href: currentBreadcrumbHref },
   ];
+  const jsonLdData = buildFaqDeptJsonLd(fixedJsonLd, crumbItems, locale);
 
   return (
     <div className="flex flex-col max-w-full">
+      {jsonLdData ? <JsonLd id={`jsonld-faq-${segment}-${slug}`} data={jsonLdData} /> : null}
       <SearchBanner faqSlug={resolvedSlug} />
       <Breadcrumbs items={crumbItems} />
       <FaqMainServer locale={locale} pageNs={pageNs} />

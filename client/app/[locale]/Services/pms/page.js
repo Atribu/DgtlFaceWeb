@@ -23,7 +23,7 @@ import {
 export async function generateMetadata({ params }) {
   const { locale } = await params;
 
-  const pathnameKey = "/Services/pms-ota";
+  const pathnameKey = "/Services/pms";
 
   const seoData = getSeoData(pathnameKey, locale);
 
@@ -235,7 +235,7 @@ const Page = async ({ params }) => {
   const t = await getTranslations({ locale, namespace: "Pms" });
   const t2 = await getTranslations({ locale, namespace: "Pms.h4Section" });
       
-const pathnameKey = "/Services/pms-ota";
+const pathnameKey = "/Services/pms";
 
 const pageUrl = getCanonicalUrl(pathnameKey, locale);
 const servicesUrl = getCanonicalUrl("/Services", locale);

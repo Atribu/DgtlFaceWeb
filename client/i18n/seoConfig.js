@@ -154,7 +154,7 @@ export const seoConfig = {
     },
   
   },
-  "/Services/pms-ota": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+  "/Services/pms": { // TR Slug: /pms-ota
     tr: {
       title: "Antalya Pazarlama Yönetim Sistemleri (PMS) Kurulumu ve Entegrasyonu",
       description: "Otel yönetim sistemleri (PMS), OTA entegrasyonu, rezervasyon modülü ve web ödeme sistemleri kurulum hizmetleri.",
