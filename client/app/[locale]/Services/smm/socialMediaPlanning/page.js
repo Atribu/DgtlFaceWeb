@@ -16,7 +16,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -75,155 +76,174 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, markalar ve oteller için sosyal medya stratejisi, içerik takvimi, hedef kitle analizi ve KPI planlaması sunan, Antalya merkezli bir sosyal medya ve dijital pazarlama partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe"]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/smm/planlama-strateji/#webpage",
-//       "url": "https://dgtlface.com/tr/smm/planlama-strateji",
-//       "name": "Sosyal Medya Strateji ve İçerik Planlama – Profesyonel SMM Yönetimi | DGTLFACE",
-//       "description": "DGTLFACE, markanız için sosyal medya stratejisi oluşturur; içerik takvimi, hedefleme ve KPI planlamasıyla etkileşim ve görünürlük sağlar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/smm/planlama-strateji/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/smm/planlama-strateji/#service",
-//       "name": "Sosyal Medya Strateji ve İçerik Planlama – Etkili SMM Yönetimi",
-//       "url": "https://dgtlface.com/tr/smm/planlama-strateji",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "sosyal medya stratejisi, sosyal medya planlama, içerik takvimi, sosyal medya yönetimi stratejileri, kpi planlama, sosyal medya analiz",
-//       "description": "DGTLFACE, sosyal medya stratejisini marka analizi, hedef kitle segmentasyonu, içerik kategorileri, aylık planlama ve KPI belirleme süreçleriyle oluşturur. Aylık içerik takvimi; Reels, post, story, kampanya ve sezonluk temaları kapsar, özellikle otel ve turizm markaları için sezon ve destinasyon odaklı sosyal medya planları sunar.",
-//       "areaServed": ["Antalya","Türkiye","Europe"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "sosyal medya stratejisi",
-//         "sosyal medya planlama",
-//         "içerik takvimi",
-//         "sosyal medya yönetimi stratejileri",
-//         "kpi planlama",
-//         "sosyal medya analiz",
-//         "sosyal medya stratejisi nasıl hazırlanır",
-//         "içerik planlama araçları",
-//         "30 günlük içerik takvimi örneği",
-//         "reels planlama yöntemleri",
-//         "oteller için sosyal medya stratejisi",
-//         "turizm markaları için kampanya planı",
-//         "sosyal medya kriz yönetimi",
-//         "sosyal medya kpi belirleme rehberi",
-//         "hedef kitle analiz yöntemleri",
-//         "içerik planlama excel şablonu",
-//         "otel sosyal medya stratejisi",
-//         "resort içerik planlama",
-//         "turizm içerik takvimi",
-//         "otel aylık planlama paketi",
-//         "sosyal medya strateji antalya",
-//         "antalya sosyal medya planlama",
-//         "sosyal medya danışmanlığı türkiye",
-//         "antalya içerik takvimi"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/smm/planlama-strateji/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Sosyal Medya Yönetimi",
-//           "item": "https://dgtlface.com/tr/sosyal-medya-yonetimi"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Planlama ve Strateji",
-//           "item": "https://dgtlface.com/tr/smm/planlama-strateji"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/smm/planlama-strateji/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Sosyal medya stratejisi nasıl oluşturulur?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Sosyal medya stratejisi; marka analizi, hedef kitle tanımı, platform seçimi, içerik temaları, KPI planlaması ve aylık içerik takvimi adımlarıyla oluşturulur."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "İçerik takvimi nasıl planlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Aylık temalar ve kampanyalar belirlenir, sonrasında haftalık bazda hangi gün hangi formatta (post, story, Reels vb.) içerik çıkılacağı bir takvim üzerinde planlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Hedef kitle analizi neden önemlidir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hedef kitle analizi; içerik tonunu, formatları, yayın saatlerini ve reklam hedeflemesini belirleyerek sosyal medya stratejisinin isabet oranını yükseltir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için sosyal medya stratejisi nasıl olmalıdır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oteller için strateji; sezon, hedef ülke pazarları, otel konsepti ve satış hedeflerine göre içerik kategorileri, kampanyalar ve rezervasyon odaklı funnel’lar etrafında kurgulanmalıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "30 günlük sosyal medya planı nasıl hazırlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Önce aylık hedef ve temalar belirlenir, ardından 30 gün için içerik kategorileri ve formatlar dağıtılır; iyi bir plan feed post, story, Reels ve kampanya içeriklerinin dengeli bir karışımını içerir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
+
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSmmPlanningStrategyServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Sosyal Medya Pazarlaması",
+          current: "Planlama & Strateji",
+          serviceType: "Sosyal Medya Stratejisi / Social Strategy",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Social Media Marketing",
+          current: "Planning & Strategy",
+          serviceType: "Social Media Strategy / Social Strategy",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
 
 
-export default async function Page({ params: { locale } }) {
-         const t = await getTranslations({ locale, namespace: "SocialMediaStrategy" });
-  const t2 = await getTranslations({ locale, namespace: "SocialMediaStrategy.h4Section" });
+export default async function Page({ params }) {
+  const { locale } = await params;
 
-   const baseUrl = getBaseUrl();
+  const t = await getTranslations({
+    locale,
+    namespace: "SocialMediaStrategy",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "SocialMediaStrategy.h4Section",
+  });
+
+  const baseUrl = getBaseUrl();
   const pathnameKey = "/Services/smm/socialMediaPlanning";
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
         
@@ -293,42 +313,25 @@ export default async function Page({ params: { locale } }) {
             { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
           ];
 
-const jsonLd = buildServiceJsonLd({
-    baseUrl,
-    locale,
-    canonicalUrl,
 
-    pageName: t("jsonld.pageName"),
-    pageDescription: t("jsonld.pageDescription"),
-    serviceName: t("jsonld.serviceName"),
-    serviceType: t("jsonld.serviceType"),
-    keywords: t.raw("jsonld.keywords"),
+const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentSmmUrl = getCanonicalUrl("/Services/smm", locale);
 
-    breadcrumbItems: [
-      { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-      {
-        name: locale === "tr" ? "Sosyal Medya" : "Social Media",
-        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}`,
-      },
-      { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-    ],
-
-    faqs,
-
-    // 🤖 AI alanları
-    aiQuestion: t("jsonld.pageName"),
-    aiAnswer: t("smstrategy_ai_answer_text"),
-    aiSource: t("aiSourceMention"),
-  });
-
+const jsonLd = buildSmmPlanningStrategyServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentSmmUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
             
   return (
    <>
-     <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <JsonLd id="smm-planning-strategy-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

@@ -16,7 +16,8 @@ import LogoListSectionBlack from "@/app/[locale]/components/subPageComponents/Lo
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from "@/app/[locale]/components/common/FaqPrompt";
 
 export async function generateMetadata({ params }) {
@@ -75,153 +76,176 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, markalar ve oteller için Instagram, Facebook, YouTube gibi platformlarda profesyonel sosyal medya içerik üretimi, grafik tasarım, Reels & kısa video ve içerik takvimi yönetimi sunan dijital pazarlama ve kreatif partnerdir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe"]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/smm/icerik-uretimi/#webpage",
-//       "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
-//       "name": "Sosyal Medya İçerik Üretimi – Kreatif ve Çekici İçerikler | DGTLFACE",
-//       "description": "DGTLFACE, markanıza uygun sosyal medya içerikleri üretir. Kreatif tasarımlar, video içerikler ve Reels formatlarıyla etkileşiminizi artırın.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/smm/icerik-uretimi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/smm/icerik-uretimi/#service",
-//       "name": "Sosyal Medya İçerik Üretimi – Markanıza Özel Profesyonel Tasarımlar",
-//       "url": "https://dgtlface.com/tr/smm/icerik-uretimi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "sosyal medya içerik üretimi, içerik tasarımı, instagram içerik üretimi, reels içerik hizmeti, grafik içerik tasarımı, sosyal medya kreatifleri",
-//       "description": "DGTLFACE, marka analizi, moodboard/stil belirleme, içerik takvimi, post & story tasarımı, Reels & kısa video üretimi ve caption yazarlığı adımlarıyla sosyal medya içerik üretimini uçtan uca yönetir. Otel ve turizm markaları için turizm içerik paketleri ve çok dilli sosyal medya içerikleri hazırlar.",
-//       "areaServed": ["Antalya","Türkiye","Europe"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "sosyal medya içerik üretimi",
-//         "içerik tasarımı",
-//         "instagram içerik üretimi",
-//         "reels içerik hizmeti",
-//         "grafik içerik tasarımı",
-//         "sosyal medya kreatifleri",
-//         "instagram için içerik üretme rehberi",
-//         "oteller için sosyal medya içerikleri",
-//         "sosyal medya tasarım trendleri 2025",
-//         "reels içerik fikirleri",
-//         "içerik takvimi nasıl hazırlanır",
-//         "sosyal medya içeriği nasıl yazılır",
-//         "profesyonel post tasarımı",
-//         "otel içerik üretimi",
-//         "turizm sektörüne özel sosyal medya içerikleri",
-//         "grafik tasarım sosyal medya örnekleri",
-//         "sosyal medya içerik antalya",
-//         "antalya içerik üretimi",
-//         "instagram tasarım hizmeti türkiye",
-//         "antalya grafik tasarım"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/smm/icerik-uretimi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Sosyal Medya Yönetimi",
-//           "item": "https://dgtlface.com/tr/sosyal-medya-yonetimi"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Sosyal Medya İçerik Üretimi",
-//           "item": "https://dgtlface.com/tr/smm/icerik-uretimi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/smm/icerik-uretimi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Sosyal medya içerik üretimi neleri kapsar?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Post ve story tasarımı, Reels & kısa video üretimi, görsel düzenleme, metin/caption yazarlığı ve içerik takvimi planlaması sosyal medya içerik üretiminin temel bileşenleridir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için sosyal medya içerikleri nasıl planlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oda, tesis, deneyim, destinasyon ve sezonluk kampanyalar etrafında içerik kategorileri belirlenir; bu kategoriler için fotoğraf, video ve Reels içerikleri içeren aylık bir akış planı oluşturulur."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Reels için içerik üretim süreci nasıl işler?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Önce konsept ve fikirler belirlenir, ardından çekim veya mevcut görüntülerin seçimi yapılır. Daha sonra hook, müzik, altyazı ve montaj aşamaları tamamlanarak performans odaklı Reels içerikleri üretilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Aylık içerik paketi nasıl yapılandırılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Markanın hedefi ve bütçesine göre aylık post, story ve Reels adetleri belirlenir; içerik takvimi hazırlanır ve tasarım/metin/video üretimi bu takvime göre planlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çok dilli sosyal medya içerikleri nasıl hazırlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "TR–EN–DE–RU gibi diller için doğrudan çeviri yerine, her dilin kültürel tonu ve beklentilerini gözeten metinler yazılır; görsellerdeki metinler de dil bazlı olarak uyarlanır."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
+
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSmmContentProductionServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Sosyal Medya Pazarlaması",
+          current: "İçerik Üretimi",
+          serviceType: "Sosyal Medya İçerik Üretimi / Content Production",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Social Media Marketing",
+          current: "Content Production",
+          serviceType: "Social Media Content Production / Content Production",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
 
 
-export default async function Page({ params: { locale } }) {
-   const t = await getTranslations({ locale, namespace: "SocialMediaContent" });
-  const t2 = await getTranslations({ locale, namespace: "SocialMediaContent.h4Section" });
+export default async function Page({ params }) {
+  const { locale } = await params;
 
-   const baseUrl = getBaseUrl();
-    const pathnameKey = "/Services/smm/socialMediaContent";
-    const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+  const t = await getTranslations({
+    locale,
+    namespace: "SocialMediaContent",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "SocialMediaContent.h4Section",
+  });
+
+  const baseUrl = getBaseUrl();
+  const pathnameKey = "/Services/smm/socialMediaContent";
+  const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
         
            const stepData = [1,2,3,4].map(i => ({
              id: i,
@@ -288,41 +312,24 @@ export default async function Page({ params: { locale } }) {
             { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
           ];
            
-const jsonLd = buildServiceJsonLd({
-    baseUrl,
-    locale,
-    canonicalUrl,
+const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentSmmUrl = getCanonicalUrl("/Services/smm", locale);
 
-    pageName: t("jsonld.pageName"),
-    pageDescription: t("jsonld.pageDescription"),
-    serviceName: t("jsonld.serviceName"),
-    serviceType: t("jsonld.serviceType"),
-    keywords: t.raw("jsonld.keywords"),
-
-    breadcrumbItems: [
-      { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-      {
-        name: locale === "tr" ? "Sosyal Medya" : "Social Media",
-        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}`,
-      },
-      { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-    ],
-
-    faqs,
-
-    // 🤖 AI alanları
-    aiQuestion: t("jsonld.pageName"),
-    aiAnswer: t("socialmedia_ai_answer_text"),
-    aiSource: t("aiSourceMention"),
-  });
+const jsonLd = buildSmmContentProductionServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentSmmUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
 
   return (
     <>
-     <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <JsonLd id="smm-content-production-service-jsonld" data={jsonLd} />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

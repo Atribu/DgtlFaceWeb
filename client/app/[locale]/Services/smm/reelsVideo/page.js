@@ -17,7 +17,8 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -75,156 +76,175 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, markalar ve oteller için Instagram Reels, TikTok, Facebook Reels ve YouTube Shorts formatlarında kısa video içerikleri üreten, strateji, prodüksiyon ve performans odaklı bir dijital pazarlama ve kreatif partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe"]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/smm/reels-video/#webpage",
-//       "url": "https://dgtlface.com/tr/smm/reels-video",
-//       "name": "Reels & Kısa Video İçerik Üretimi – Viral Video Stratejileri | DGTLFACE",
-//       "description": "DGTLFACE, Instagram Reels ve kısa video içerikleri üretir. Viral stratejiler, kreatif fikirler ve profesyonel prodüksiyonla görünürlüğünüzü artırın.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/smm/reels-video/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/smm/reels-video/#service",
-//       "name": "Reels ve Kısa Video İçerik Üretimi – Viral İçeriklerle Etkileşimi Artırın",
-//       "url": "https://dgtlface.com/tr/smm/reels-video",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "reels video içerik, reel video üretimi, kısa video çekimi, sosyal medya video tasarımı, instagram reels ajansı, reels montaj hizmeti",
-//       "description": "DGTLFACE, Reels ve kısa video içeriklerini strateji, senaryo, çekim, montaj ve yayın adımlarını kapsayan tam bir prodüksiyon süreciyle üretir. Dikey format, güçlü hook, doğru müzik, altyazı ve kapak tasarımıyla hem organik hem reklam kampanyalarında yüksek performans hedefler; özellikle otel ve turizm markaları için deneyim ve destinasyon odaklı kısa videolar kurgular.",
-//       "areaServed": ["Antalya","Türkiye","Europe"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "reels video içerik",
-//         "reel video üretimi",
-//         "kısa video çekimi",
-//         "sosyal medya video tasarımı",
-//         "instagram reels ajansı",
-//         "reels montaj hizmeti",
-//         "viral reels nasıl yapılır",
-//         "instagram reels trendleri 2025",
-//         "reels içerik takvimi",
-//         "oteller için reels video çekimi",
-//         "turizm reels kampanyaları",
-//         "hızlı video içerik üretimi",
-//         "instagram algoritması reels",
-//         "reels kapak tasarımı",
-//         "sosyal medya için kısa video",
-//         "story & reel paketleri",
-//         "otel reels çekimi",
-//         "turizm video içeriği",
-//         "resort sosyal medya video",
-//         "otel tanıtım video paketleri",
-//         "reels çekimi antalya",
-//         "antalya video çekimi",
-//         "kısa video hizmeti türkiye",
-//         "antalya sosyal medya video"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/smm/reels-video/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Sosyal Medya Yönetimi",
-//           "item": "https://dgtlface.com/tr/sosyal-medya-yonetimi"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Reels & Video İçerik Üretimi",
-//           "item": "https://dgtlface.com/tr/smm/reels-video"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/smm/reels-video/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Reels içerik üretimi nasıl yapılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Reels içerik üretimi; strateji, içerik fikri, senaryo, çekim veya mevcut görüntü seçimi, montaj, caption ve hashtag kurgusu ile yayın ve performans analizinden oluşan çok adımlı bir süreçtir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için Reels stratejisi nasıl olmalı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oteller için Reels stratejisi; oda ve tesis turları, deneyim odaklı videolar, destinasyon görüntüleri ve kampanya Reels’lerinden oluşan dengeli bir karışıma dayanmalı ve rezervasyon funnel’ı ile bağlanmalıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Viral Reels için nelere dikkat edilmeli?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Güçlü bir hook, kısa ve akıcı kurgu, doğru müzik veya trend ses, net mesaj, kaydetme ve paylaşmayı teşvik eden içerik ve doğru yayın zamanı viral potansiyeli artıran başlıca unsurlardır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Reels performansı nasıl ölçülür?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Reels performansı; erişim, izlenme, izlenme oranı, etkileşim, kaydetme, paylaşma, tıklama ve rezervasyon/satış katkısı gibi metrikler üzerinden ölçülür ve dashboard’larda raporlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Reels’i reklamda da kullanabilir miyim?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Organikte iyi performans gösteren Reels’ler Meta Ads kampanyalarında yaratıcı olarak kullanılabilir ve trafik, etkileşim veya dönüşüm amaçlı reklam setlerinde yüksek performans sağlayabilir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSmmReelsVideoServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Sosyal Medya Pazarlaması",
+          current: "Reels & Video İçerik Üretimi",
+          serviceType: "Reels & Video İçerik Üretimi / Short-Form Video",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Social Media Marketing",
+          current: "Reels & Video Content Production",
+          serviceType: "Reels & Video Content Production / Short-Form Video",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
+
   const baseUrl = getBaseUrl();
   const pathnameKey = "/Services/smm/reelsVideo";
   const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
-     const t = await getTranslations({ locale, namespace: "ReelsVideo" });
-  const t2 = await getTranslations({ locale, namespace: "ReelsVideo.h4Section" });
+  const t = await getTranslations({
+    locale,
+    namespace: "ReelsVideo",
+  });
+
+  const t2 = await getTranslations({
+    locale,
+    namespace: "ReelsVideo.h4Section",
+  });
 
      
         const stepData = [1,2,3,4].map(i => ({
@@ -292,41 +312,24 @@ export default async function Page({ params: { locale } }) {
          { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
        ];
 
-       const jsonLd = buildServiceJsonLd({
-    baseUrl,
-    locale,
-    canonicalUrl,
+const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentSmmUrl = getCanonicalUrl("/Services/smm", locale);
 
-    pageName: t("jsonld.pageName"),
-    pageDescription: t("jsonld.pageDescription"),
-    serviceName: t("jsonld.serviceName"),
-    serviceType: t("jsonld.serviceType"),
-    keywords: t.raw("jsonld.keywords"),
-
-    breadcrumbItems: [
-      { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-
-      // Türkçe yorum: SMM breadcrumb (senin site yapına göre /tr/smm veya /tr/sosyal-medya-yonetimi seçebilirsin)
-      { name: locale === "tr" ? "Sosyal Medya" : "Social Media", url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}` },
-
-      { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-    ],
-
-    faqs,
-
-    // 🤖 AI alanları (yeni standart)
-    aiQuestion: t("jsonld.pageName"),
-    aiAnswer: t("reels_ai_answer_text"),
-    aiSource: t("aiSourceMention"),
-  });
+const jsonLd = buildSmmReelsVideoServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentSmmUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
 
   return (
   <>
-    <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="smm-reels-video-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

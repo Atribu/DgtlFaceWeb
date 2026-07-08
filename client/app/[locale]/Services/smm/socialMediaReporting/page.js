@@ -16,7 +16,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -75,150 +76,161 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, markalar ve oteller için Instagram, Facebook, TikTok ve YouTube gibi platformlarda sosyal medya performansını erişim, etkileşim, tıklama ve dönüşüm odaklı olarak analiz eden, veri ve raporlama uzmanlığı sunan dijital pazarlama partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": ["Antalya","Türkiye","Europe"]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/smm/analiz-raporlama/#webpage",
-//       "url": "https://dgtlface.com/tr/smm/analiz-raporlama",
-//       "name": "Sosyal Medya Analiz & Raporlama – Etkileşim ve Performans Ölçümü | DGTLFACE",
-//       "description": "DGTLFACE, sosyal medya performansınızı ölçerek detaylı raporlama sunar. Etkileşim, erişim ve kampanya verilerini analiz ederek stratejinizi güçlendirir.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/smm/analiz-raporlama/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/smm/analiz-raporlama/#service",
-//       "name": "Sosyal Medya Analiz ve Raporlama – Performansınızı Doğru Ölçün",
-//       "url": "https://dgtlface.com/tr/smm/analiz-raporlama",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "sosyal medya analiz, sosyal medya raporlama, etkileşim analizi, erişim raporu, instagram analiz aracı, kpi raporlama",
-//       "description": "DGTLFACE, sosyal medya analiz ve raporlama hizmetinde erişim, etkileşim oranı, kaydetme, paylaşma, tıklama, profil ziyareti, DM, WhatsApp, form ve rezervasyon gibi tüm KPI’ları izler. Instagram, Facebook, TikTok ve YouTube verilerini Looker Studio dashboard’larında birleştirerek özellikle otel ve turizm markaları için sezon, destinasyon ve oda/servis bazlı sosyal medya performansını analiz eder ve aksiyon planları oluşturur.",
-//       "areaServed": ["Antalya","Türkiye","Europe"],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "sosyal medya analiz",
-//         "sosyal medya raporlama",
-//         "etkileşim analizi",
-//         "erişim raporu",
-//         "instagram analiz aracı",
-//         "kpi raporlama",
-//         "sosyal medya performans raporu nasıl hazırlanır",
-//         "instagram etkileşim düşüşü neden olur",
-//         "aylık sosyal medya raporu örneği",
-//         "otel sosyal medya raporu",
-//         "turizm sosyal medya performansı",
-//         "sosyal medya kpi belirleme",
-//         "reel performans analizi",
-//         "sosyal medya veri ölçümü",
-//         "erişim artırma yöntemleri",
-//         "sosyal medya analizi nedir",
-//         "otel sosyal medya raporlaması",
-//         "turizm sosyal medya analizi",
-//         "resort sosyal medya kpi",
-//         "otel dashboard raporu",
-//         "sosyal medya analizi antalya",
-//         "antalya sosyal medya raporlama",
-//         "sosyal medya analizi türkiye",
-//         "antalya instagram analiz"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/smm/analiz-raporlama/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Sosyal Medya Yönetimi",
-//           "item": "https://dgtlface.com/tr/sosyal-medya-yonetimi"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Analiz & Raporlama",
-//           "item": "https://dgtlface.com/tr/smm/analiz-raporlama"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/smm/analiz-raporlama/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Sosyal medya performansı nasıl ölçülür?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Sosyal medya performansı; erişim, etkileşim oranı, kaydetme, paylaşma, link tıklama, profil ziyareti, DM, WhatsApp tıklamaları ve dönüşüm gibi KPI’lar üzerinden ölçülür ve dönemsel olarak raporlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Hangi sosyal medya KPI’larına bakmalıyım?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Marka hedefine göre değişmekle birlikte temel KPI’lar; erişim, etkileşim oranı, kaydetme, paylaşma, tıklama, profil ziyareti, takipçi kalitesi ve satış/rezervasyon gibi dönüşüm metrikleridir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Instagram etkileşim düşüşünü nasıl analiz ederim?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "İçerik formatı, yayın sıklığı, hedef kitle değişimi, reklam etkileri ve olası algoritma güncellemeleri birlikte incelenerek etkileşim düşüşünün temel sebepleri analiz edilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için sosyal medya raporu nasıl olmalı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Otel raporlarında; pazar bazlı performans, içerik tipine göre etkileşim, kampanya sonuçları, sosyal medya kaynaklı site trafiği ve rezervasyon/gelir katkısı gibi turizm odaklı KPI’lar yer almalıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Looker Studio ile sosyal medya dashboard’ı nasıl çalışır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Instagram, Facebook, Meta Ads, GA4 ve gerekirse PMS/çağrı merkezi verileri Looker Studio’ya entegre edilir; böylece tüm sosyal medya KPI’ları tek bir canlı dashboard üzerinden anlık olarak takip edilir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSmmAnalyticsReportingServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Sosyal Medya Pazarlaması",
+          current: "Analiz & Raporlama",
+          serviceType: "Sosyal Medya Analiz & Raporlama / Social Analytics",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Social Media Marketing",
+          current: "Analytics & Reporting",
+          serviceType: "Social Media Analytics & Reporting / Social Analytics",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
        const t = await getTranslations({ locale, namespace: "SmmAnalyticsReporting" });
   const t2 = await getTranslations({ locale, namespace: "SmmAnalyticsReporting.h4Section" });
 
@@ -294,43 +306,26 @@ export default async function Page({ params: { locale } }) {
             { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
           ];
 
-const jsonLd = buildServiceJsonLd({
-    baseUrl,
-    locale,
-    canonicalUrl,
 
-    pageName: t("jsonld.pageName"),
-    pageDescription: t("jsonld.pageDescription"),
-    serviceName: t("jsonld.serviceName"),
-    serviceType: t("jsonld.serviceType"),
-    keywords: t.raw("jsonld.keywords"),
+const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentSmmUrl = getCanonicalUrl("/Services/smm", locale);
 
-    breadcrumbItems: [
-      { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-      {
-        name: locale === "tr" ? "Sosyal Medya" : "Social Media",
-        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}`,
-      },
-      { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-    ],
-
-    faqs,
-
-    // 🤖 AI alanları
-    aiQuestion: t("jsonld.pageName"),
-    aiAnswer: t("smmanalytics_ai_answer_text"),
-    aiSource: t("aiSourceMention"),
-  });
-
+const jsonLd = buildSmmAnalyticsReportingServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentSmmUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
            
 
   return (
    <>
-     <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <JsonLd id="smm-analytics-reporting-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>
