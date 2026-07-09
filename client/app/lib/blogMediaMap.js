@@ -3871,6 +3871,12 @@ export const BLOG_MEDIA_MAP = {
       caption: "All Inclusive Oteller İçin 30 Günlük Sosyal Medya İçerik Takvimi Örneği"
     },
 
+     og: {
+      src: "/og/blog/all-inclusive-otel-30-gunluk-icerik-takvimi.jpg",
+      alt: "All Inclusive Oteller İçin 30 Günlük Sosyal Medya İçerik Takvimi Örneği",
+      caption: ""
+    },
+
           "h1-context-02": {
       src: "/images/blog/hotel/Hotel2-3/Hotel2-3-2.webp",
       alt: "All inclusive içerik kategorilerini özetleyen hızlı bakış görseli",
