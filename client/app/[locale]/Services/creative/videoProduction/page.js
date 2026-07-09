@@ -19,7 +19,8 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -77,158 +78,161 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve markalar için tanıtım videosu, reklam filmi, 360° tur, drone çekimi ve sosyal medya video içerikleri üreten profesyonel video prodüksiyon ve creative tasarım partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/creative/video-produksiyon/#webpage",
-//       "url": "https://dgtlface.com/tr/creative/video-produksiyon",
-//       "name": "Video & Prodüksiyon Hizmetleri – Tanıtım, Reklam ve 360° Çekimler | DGTLFACE",
-//       "description": "DGTLFACE, marka hikâyenizi etkili şekilde anlatan profesyonel tanıtım videoları, reklam filmleri ve 360° çekimler üretir. Oteller ve markalar için kreatif video prodüksiyon sunar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/creative/video-produksiyon/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/creative/video-produksiyon/#service",
-//       "name": "Video & Prodüksiyon Hizmetleri – Tanıtım, Reklam ve 360° Çekimler",
-//       "url": "https://dgtlface.com/tr/creative/video-produksiyon",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "video prodüksiyon, reklam filmi çekimi, tanıtım videosu, 360 derece çekim, drone çekimi, video kurgu montaj",
-//       "description": "DGTLFACE, profesyonel video prodüksiyon hizmetleri sunar. Oteller ve markalar için tanıtım filmi, reklam videosu, 360° tur ve drone çekimleri; senaryo ve storyboard geliştirme, çekim planı, lokasyon ve ekip organizasyonu, kurgu, color grading, ses tasarımı ve web, sosyal medya, reklam, OTA gibi farklı platformlara uygun formatlarda teslim süreçlerini kapsar.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "video prodüksiyon",
-//         "reklam filmi çekimi",
-//         "tanıtım videosu",
-//         "360 derece çekim",
-//         "drone çekimi",
-//         "video kurgu montaj",
-//         "oteller için tanıtım videosu",
-//         "video prodüksiyon nasıl yapılır",
-//         "drone çekim hizmeti",
-//         "turizm video çekimi",
-//         "otel tanıtım filmi örnekleri",
-//         "kısa reklam videosu",
-//         "360 sanal tur çekim teknikleri",
-//         "video storyboard hazırlama",
-//         "video senaryo yazımı",
-//         "prodüksiyon ekipmanları",
-//         "otel video prodüksiyon",
-//         "resort video çekimi",
-//         "turizm reklam filmi",
-//         "otel drone çekimi",
-//         "video prodüksiyon antalya",
-//         "antalya drone çekim",
-//         "reklam filmi türkiye",
-//         "antalya video ajansı"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/creative/video-produksiyon/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Creative Tasarım & Prodüksiyon",
-//           "item": "https://dgtlface.com/tr/creative-ve-tasarim"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Video & Prodüksiyon",
-//           "item": "https://dgtlface.com/tr/creative/video-produksiyon"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/creative/video-produksiyon/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Video prodüksiyon hizmetleriniz neleri kapsıyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Video prodüksiyon; senaryo ve storyboard geliştirme, çekim planı, lokasyon ve ekip organizasyonu, profesyonel çekim, kurgu ve montaj, renk düzenleme, müzik–ses tasarımı ve farklı platformlara uygun formatlarda teslim süreçlerini kapsar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için tanıtım filmi nasıl planlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oteller için tanıtım filmi planlanırken oda, havuz, restoran, spa, etkinlik ve destinasyon sahneleri dengeli bir hikaye içinde kurgulanır; hedef pazara göre tempo ve müzik seçilir, genellikle 1,5–3 dakikalık ana film ve sosyal medya için kısa versiyonlar hazırlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Drone ve 360° çekim otellerde nasıl kullanılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Drone çekimleri tesisin konumunu ve çevreyi havadan gösterirken, 360° çekimler oda, lobi, restoran gibi alanlar için interaktif sanal turlar üretmekte kullanılır. Bu görüntüler web sitesi, OTA sayfaları ve sunumlarda immersive bir deneyim sunar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Kısa reklam videoları sosyal medya için nasıl hazırlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Sosyal medya reklam videoları 6–30 saniye aralığında, ilk 3 saniyede marka ve ana mesajı veren, dikey veya kare formatta, net CTA içeren ve platform guideline’larına uygun şekilde hazırlanır. Farklı açılış ve kapanışlarla A/B test için alternatifler üretilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çekim sonrasında hangi formatlarda teslim alırım?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hazırlanan videolar web siteniz, sosyal medya kanallarınız, reklam platformları ve OTA sayfaları için uygun çözünürlük ve oranlarda; yatay, dikey veya kare formatta teslim edilir. Gerekirse uzun tanıtım, kısa reklam ve Reels/Shorts gibi versiyonlar ayrı ayrı sağlanır."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildCreativeVideoProductionServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const serviceId = `${canonicalPageUrl}#service`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Creative",
+          current: "Video & Prodüksiyon",
+          serviceType: "Video & Prodüksiyon / Video Production",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Creative",
+          current: "Video & Production",
+          serviceType: "Video Production",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "VideoPage" });
       const t2 = await getTranslations({ locale, namespace: "VideoPage.h4Section" });
 
@@ -303,49 +307,28 @@ export default async function Page({ params: { locale } }) {
                    { title: t("h2Section.header5"), text: t.raw("h2Section.text5") },
                 ];
 
-                 const jsonLd = buildServiceJsonLd({
-                                 baseUrl,
-                                 locale,
-                                 canonicalUrl,
-                             
-                                 pageName: t("jsonld.pageName"),
-                                 pageDescription: t("jsonld.pageDescription"),
-                                 serviceName: t("jsonld.serviceName"),
-                                 serviceType: t("jsonld.serviceType"),
-                                 keywords: t.raw("jsonld.keywords"),
-                             
-                                 breadcrumbItems: [
-                                   {
-                                     name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                     url: `${baseUrl}/${locale}`,
-                                   },
-                             
-                                   {
-                                     name:
-                                       locale === "tr"
-                                         ? "Creative Tasarım & Prodüksiyon Hizmetleri"
-                                         : "Creative Design & Production Services",
-                                     url: `${baseUrl}${locale === "tr" ? "/tr/creative" : "/en/creative-design"}`,
-                                   },
-                             
-                                   { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                                 ],
-                             
-                                 faqs,
-                             
-                                 // 🤖 AI alanları (yeni standart)
-                                 aiQuestion: t("jsonld.pageName"),
-                                 aiAnswer: t("ai_answer_text"),
-                                 aiSource: t("aiSourceMention"),
-                               });
+               const servicesUrl = getCanonicalUrl("/Services", locale);
+
+const parentCreativeUrl =
+  locale === "tr"
+    ? `${normalizeBaseUrl(baseUrl)}/tr/creative`
+    : `${normalizeBaseUrl(baseUrl)}/en/creative-design`;
+
+const jsonLd = buildCreativeVideoProductionServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentCreativeUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+     <JsonLd id="creative-video-production-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden'>
 <div className='flex flex-col items-center justify-center gap-5'>

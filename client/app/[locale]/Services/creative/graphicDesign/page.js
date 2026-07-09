@@ -17,7 +17,8 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -76,157 +77,161 @@ export async function generateMetadata({ params }) {
 }
 
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, markalar ve özellikle oteller için grafik tasarım, sosyal medya tasarımı, kampanya kreatifleri ve turizm odaklı motion graphic çözümleri sunan creative tasarım ve prodüksiyon partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/creative/grafik-motion-tasarim/#webpage",
-//       "url": "https://dgtlface.com/tr/creative/grafik-motion-tasarim",
-//       "name": "Grafik & Motion Tasarım – Markanızı Güçlendiren Kreatif Çözümler | DGTLFACE",
-//       "description": "DGTLFACE, grafik tasarım ve motion design hizmetleriyle markanız için etkileyici görsel içerikler üretir. Sosyal medya, web ve reklam için profesyonel tasarımlar sunar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/creative/grafik-motion-tasarim/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/creative/grafik-motion-tasarim/#service",
-//       "name": "Grafik & Motion Tasarım – Markanızı Güçlendiren Kreatif Çözümler",
-//       "url": "https://dgtlface.com/tr/creative/grafik-motion-tasarim",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "grafik tasarım, motion graphic, sosyal medya tasarımı, profesyonel grafik tasarım, creative design, marka tasarım hizmeti",
-//       "description": "DGTLFACE, grafik tasarım ve motion design hizmetleriyle markalar için etkileyici görsel içerikler üretir. Sosyal medya post ve story tasarımları, kampanya kreatifleri, web banner’ları, otel ve turizm odaklı görsel paketler ile animasyonlu motion içerikler sunar; renk paleti, tipografi ve layout seçimlerini marka kimliği ve dijital pazarlama stratejisiyle entegre olarak kurgular.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "grafik tasarım",
-//         "motion graphic",
-//         "sosyal medya tasarımı",
-//         "profesyonel grafik tasarım",
-//         "creative design",
-//         "motion graphic nedir",
-//         "sosyal medya için grafik tasarım",
-//         "grafik tasarım trendleri 2025",
-//         "oteller için grafik tasarım",
-//         "turizm reklam tasarımları",
-//         "marka için görsel iletişim",
-//         "kampanya tasarımı nasıl yapılır",
-//         "grafik tasarım örnekleri",
-//         "renk paleti seçimi",
-//         "tipografi tasarım rehberi",
-//         "otel grafik tasarımı",
-//         "resort sosyal medya tasarımları",
-//         "turizm grafik paketleri",
-//         "otel motion graphic",
-//         "grafik tasarım antalya",
-//         "antalya creative tasarım",
-//         "motion graphic türkiye",
-//         "antalya tasarım ajansı"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/creative/grafik-motion-tasarim/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Creative Tasarım & Prodüksiyon",
-//           "item": "https://dgtlface.com/tr/creative-ve-tasarim"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Grafik & Motion Tasarım",
-//           "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/creative/grafik-motion-tasarim/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Grafik & motion tasarım tam olarak neyi kapsıyor?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Grafik & motion tasarım; statik görseller, kampanya kreatifleri, sosyal medya post ve story tasarımları, web banner’ları, kurumsal dokümanlar ve animasyonlu (motion) içeriklerin marka kimliğine uygun şekilde üretilmesini kapsar."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Sosyal medya için sadece post mu tasarlıyorsunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hayır. Postların yanında story, reels cover, highlight kapakları, kampanya görselleri ve kısa motion videolar için de tasarım ve şablon setleri hazırlıyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için özel tasarımlar yapıyor musunuz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Otel ve turizm markaları için oda, restoran, spa, etkinlik, destinasyon ve kampanya odaklı grafik tasarım paketleri ve sosyal medya görsel setleri üretiyoruz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Mevcut logoma ve kurumsal kimliğime uyum sağlayabilir misiniz?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Mevcut marka rehberinize göre tasarım yapabilir veya ihtiyaç halinde kurumsal kimliğinizi güncelleyecek yeni renk, tipografi ve kompozisyon önerileri sunabiliriz."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Animasyonlu (motion) içerikler nerelerde kullanılabilir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Animasyonlu motion içerikler sosyal medya Reels ve story’lerde, YouTube ve reklam videolarında intro/outro olarak, web sitelerinde açıklayıcı animasyonlar şeklinde ve otel tanıtım videolarında ara geçiş veya kampanya duyurusu olarak kullanılabilir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildCreativeGraphicMotionServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const serviceId = `${canonicalPageUrl}#service`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Creative",
+          current: "Grafik Motion Tasarım",
+          serviceType: "Grafik & Motion Tasarım / Graphic & Motion",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Creative",
+          current: "Graphic & Motion Design",
+          serviceType: "Graphic & Motion Design",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
       const t = await getTranslations({ locale, namespace: "GraphicMotion" });
       const t2 = await getTranslations({ locale, namespace: "GraphicMotion.h4Section" });
 
@@ -298,57 +303,28 @@ export default async function Page({ params: { locale } }) {
                { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
 
-             // Türkçe yorum: JSON-LD için HTML etiketlerini temizle
-const stripHtml = (s = "") => s.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+             const servicesUrl = getCanonicalUrl("/Services", locale);
 
-const faqsForJsonLd = faqs.map(f => ({
-  question: stripHtml(f.question),
-  answer: stripHtml(f.answer),
-}));
+const parentCreativeUrl =
+  locale === "tr"
+    ? `${normalizeBaseUrl(baseUrl)}/tr/creative`
+    : `${normalizeBaseUrl(baseUrl)}/en/creative-design`;
 
-              const jsonLd = buildServiceJsonLd({
-                              baseUrl,
-                              locale,
-                              canonicalUrl,
-                          
-                              pageName: t("jsonld.pageName"),
-                              pageDescription: t("jsonld.pageDescription"),
-                              serviceName: t("jsonld.serviceName"),
-                              serviceType: t("jsonld.serviceType"),
-                              keywords: t.raw("jsonld.keywords"),
-                          
-                              breadcrumbItems: [
-                                {
-                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                  url: `${baseUrl}/${locale}`,
-                                },
-                          
-                                {
-                                  name:
-                                    locale === "tr"
-                                      ? "Creative Tasarım & Prodüksiyon Hizmetleri"
-                                      : "Creative Design & Production Services",
-                                  url: `${baseUrl}${locale === "tr" ? "/tr/creative" : "/en/creative-design"}`,
-                                },
-                          
-                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                              ],
-                          
-                              faqs:faqsForJsonLd,
-                          
-                              
-                              aiQuestion: t("jsonld.pageName"),
-                              aiAnswer: t("creative_ai_answer_text"),
-                              aiSource: t("aiSourceMention"),
-                            });
+const jsonLd = buildCreativeGraphicMotionServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentCreativeUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd id="creative-graphic-motion-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden justify-center items-center'>
 <div className='flex flex-col items-center justify-center gap-5'>
