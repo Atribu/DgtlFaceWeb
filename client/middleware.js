@@ -39,6 +39,8 @@ const LEGACY_EXACT_REDIRECTS = new Map([
   ["/tr/seo-hizmetleri-sss", "/tr/seo-sss"],
   ["/tr/sosyal-medya-yonetimi-sss", "/tr/smm-sss"],
   ["/tr/web-ve-yazilim-hizmetleri-sss", "/tr/yazilim-sss"],
+  ["/tr/bakim-destek-sss", "/tr/yazilim/bakim-ve-destek-sss"],
+  ["/tr/yazilim/bakim-destek-sss", "/tr/yazilim/bakim-ve-destek-sss"],
   ["/tr/creative-ve-tasarim-sss", "/tr/creative-sss"],
   ["/tr/cagri-merkezi-hizmetleri-sss", "/tr/cagri-merkezi-sss"],
   ["/tr/pms-ota-yonetimi-sss", "/tr/pms-ota-sss"],

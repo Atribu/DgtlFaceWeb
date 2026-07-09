@@ -172,7 +172,7 @@ const Software_CHIPS = [
   { label: "CMS Entegrasyonu", slug: "cms-entegrasyonu-sss", labelKey: "faqChips.software.cmsIntegration" },
   { label: "KVKK Uyum Hizmeti", slug: "kvkk-uyum-hizmeti-sss", labelKey: "faqChips.software.kvkkCompliance" },
   { label: "Sunucu Güvenlik", slug: "sunucu-guvenlik-sss", labelKey: "faqChips.software.serverSecurity" },
-  { label: "Bakım ve Güvenlik", slug: "bakim-destek-sss", labelKey: "faqChips.software.maintenanceSecurity" },
+  { label: "Bakım ve Güvenlik", slug: "bakim-ve-destek-sss", labelKey: "faqChips.software.maintenanceSecurity" },
 ];
 
 const Creative_CHIPS = [
@@ -269,7 +269,7 @@ const GROUPS = {
       "cms-entegrasyonu-sss",
       "kvkk-uyum-hizmeti-sss",
       "sunucu-guvenlik-sss",
-      "bakim-destek-sss",
+      "bakim-ve-destek-sss",
     ],
   },
 
@@ -400,7 +400,7 @@ export const FAQ_BANNER_ASSET_MAP = {
   // SOFTWARE / YAZILIM
   // ---------------------------------------------------------
   "yazilim-sss": imgSoftware1,
-  "bakim-destek-sss": imgSoftware2,
+  "bakim-ve-destek-sss": imgSoftware2,
   "cms-entegrasyonu-sss": imgSoftware3,
   "kvkk-uyum-hizmeti-sss": imgSoftware4,
   "sunucu-guvenlik-sss": imgSoftware5,
@@ -498,7 +498,7 @@ export const FAQ_BANNER_ASSET_MAP_EN = {
   // SOFTWARE / YAZILIM
   // ---------------------------------------------------------
   "yazilim-sss": imgSoftware1En,
-  "bakim-destek-sss": imgSoftware2En,
+  "bakim-ve-destek-sss": imgSoftware2En,
   "cms-entegrasyonu-sss": imgSoftware3En,
   "kvkk-uyum-hizmeti-sss": imgSoftware4En,
   "sunucu-guvenlik-sss": imgSoftware5En,
@@ -559,4 +559,3 @@ export function getFaqBannerAsset(locale, slug) {
   const map = locale === "en" ? FAQ_BANNER_ASSET_MAP_EN : FAQ_BANNER_ASSET_MAP;
   return map?.[slug] || map?.["sss"];
 }
-

@@ -14,7 +14,7 @@ export const FAQ_SLUG_I18N = {
   "web-sitesi-gelistirme-sss": { tr: "web-sitesi-gelistirme-sss", en: "website-development-faq" },
   "kvkk-uyum-hizmeti-sss": { tr: "kvkk-uyum-hizmeti-sss", en: "kvkk-compliance-faq" },
   "sunucu-guvenlik-sss": { tr: "sunucu-guvenlik-sss", en: "server-management-faq" },
-  "bakim-destek-sss": { tr: "bakim-destek-sss", en: "maintenance-support-faq" },
+  "bakim-ve-destek-sss": { tr: "bakim-ve-destek-sss", en: "website-maintenance-faq" },
 
   // rootlar
   "sss": { tr: "sss", en: "faq" },

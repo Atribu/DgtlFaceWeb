@@ -19,7 +19,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -78,149 +79,161 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, kurumsal web siteleri için Next.js uyumlu CMS entegrasyonları, headless CMS, özel admin panelleri ve çok dilli içerik yönetimi çözümleri sunan dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#webpage",
-//       "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
-//       "name": "CMS Entegrasyonu – Kolay İçerik Yönetimi & Esnek Web Mimarisi | DGTLFACE",
-//       "description": "DGTLFACE, kullanıcı dostu CMS ve yönetim paneli entegrasyonlarıyla çok dilli, hızlı ve SEO uyumlu içerik yönetimi sunar. Web sitenizi kolayca yönetin.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
-//       "name": "CMS Entegrasyonu – Kolay İçerik Yönetimi & Esnek Web Mimarisi",
-//       "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "cms entegrasyonu, içerik yönetim sistemi, headless cms, admin panel geliştirme, react cms, next.js cms",
-//       "description": "DGTLFACE, çok dilli, SEO uyumlu ve hızlı içerik yönetimi için Next.js uyumlu CMS entegrasyonları sunar. Admin panel geliştirme, headless CMS, özel içerik modülleri, rol bazlı yetkilendirme, SEO alanları ve PMS–CRM–rezervasyon gibi sistem entegrasyonlarıyla kurumsal web sitelerinizi esnek ve kolay yönetilebilir hâle getirir.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "cms entegrasyonu",
-//         "içerik yönetim sistemi",
-//         "react cms",
-//         "admin panel geliştirme",
-//         "headless cms",
-//         "çok dilli cms",
-//         "seo uyumlu cms",
-//         "kurumsal web sitesi içerik paneli",
-//         "nextjs cms",
-//         "kurumsal web sitesi geliştirme",
-//         "çok dilli web sitesi tasarımı",
-//         "cms paneli geliştirme",
-//         "responsive web sitesi",
-//         "web geliştirme ajansı",
-//         "cms güvenlik ayarları"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Web & Yazılım Hizmetleri",
-//           "item": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "CMS & Yönetim Paneli Entegrasyonu",
-//           "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Mevcut web siteme CMS sonradan eklenebilir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Altyapı uygunsa mevcut web sitenize CMS sonradan entegre edilebilir; uygun değilse Next.js uyumlu headless CMS ile sıfırdan modüler ve ölçeklenebilir bir yapı kurulabilir. DGTLFACE, önce teknik analiz yaparak en doğru yolu önerir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "CMS kullanmak için teknik bilgi gerekir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hayır. DGTLFACE’in kurduğu yönetim panelleri teknik bilgisi sınırlı kullanıcıların da rahatça kullanabileceği şekilde tasarlanır ve kısa bir eğitim ile içerik, blog, kampanya ve oda/kampanya modülleri kolayca yönetilebilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "CMS ile SEO yönetilebilir mi?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Title, meta description, URL yapısı, başlık hiyerarşisi, görsel ALT metni ve gerekirse schema alanları CMS paneline entegre edilerek SEO’nun günlük yönetimi içerik ekibine devredilebilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çok dilli CMS sistemi kurmak zor mu?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE, dil bazlı içerik modülleri, hreflang entegrasyonu ve SEO uyumlu URL yapıları ile TR–EN–DE–RU gibi çok dilli CMS mimarisini otomatikleştirilmiş şekilde kurar; içerik ekipleri diller arasında kolayca içerik oluşturabilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Özel yönetim paneli yaptırmak maliyetli midir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Maliyet; sayfa yapısı, modül sayısı, entegrasyon ihtiyaçları (PMS, CRM, rezervasyon, API vb.) ve çok dillilik gereksinimlerine göre değişir. DGTLFACE, teklif aşamasında tüm kalemleri şeffaf şekilde listeler ve orta–uzun vadede operasyon maliyetini azaltan bir CMS mimarisi tasarlar."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSoftwareCmsIntegrationServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Bilgi Teknolojileri ve Yazılım",
+          current: "CMS & Panel Entegrasyonu",
+          serviceType: "CMS Entegrasyonu / CMS & Admin Panel",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Information Technologies and Software",
+          current: "CMS & Admin Panel Integration",
+          serviceType: "CMS Integration / CMS & Admin Panel",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
 
       const t = await getTranslations({ locale, namespace: "CMS" });
    const t2 = await getTranslations({ locale, namespace: "CMS.h4Section" });
@@ -296,46 +309,25 @@ export default async function Page({ params: { locale } }) {
              { title: t("h2Section.header4"), text: t.raw("h2Section.text4") }
            ];
 
-           const jsonLd = buildServiceJsonLd({
-               baseUrl,
-               locale,
-               canonicalUrl,
-           
-               pageName: t("jsonld.pageName"),
-               pageDescription: t("jsonld.pageDescription"),
-               serviceName: t("jsonld.serviceName"),
-               serviceType: t("jsonld.serviceType"),
-               keywords: t.raw("jsonld.keywords"),
-           
-               breadcrumbItems: [
-                 { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-           
-                 // Türkçe yorum: Bu link sende "Sosyal Medya Yönetimi" sayfası.
-                 // Eğer sizde /tr/smm ise burayı ona göre değiştir.
-                 {
-                     name: locale === "tr" ? "Web & Yazılım Hizmetleri" : "Web & Software Services",
-                   url: `${baseUrl}${locale === "tr" ? "/tr/yazilim" : "/en/software-development"}`,
-                 },
-           
-                 { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-               ],
-           
-               faqs,
-           
-               // 🤖 AI alanları (yeni standart)
-               aiQuestion: t("jsonld.pageName"),
-               aiAnswer: t("cms_ai_answer_text"),
-               aiSource: t("aiSourceMention"),
-             });
+            const servicesUrl = getCanonicalUrl("/Services", locale);
+  const parentSoftwareUrl = getCanonicalUrl("/Services/software", locale);
+
+  const jsonLd = buildSoftwareCmsIntegrationServiceJsonLd({
+    locale,
+    baseUrl,
+    pageUrl: canonicalUrl,
+    servicesUrl,
+    parentUrl: parentSoftwareUrl,
+    pageName: t("jsonld.pageName"),
+    pageDescription: stripHtml(t("jsonld.pageDescription")),
+    serviceName: t("jsonld.serviceName"),
+    serviceDescription: stripHtml(t("jsonld.pageDescription")),
+  });
            
 
   return (
    <>
-       <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+       <JsonLd id="software-cms-integration-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden justify-center items-center'>
     <div className='flex flex-col items-center justify-center gap-5'>

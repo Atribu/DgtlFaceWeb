@@ -120,7 +120,7 @@ const FAQ_SLUG_ALIAS_MAP = {
     "cms-entegrasyonu-sss": "cms-installation-faq",
     "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-faq",
     "sunucu-guvenlik-sss": "server-management-faq",
-    "bakim-destek-sss": "website-maintenance-faq",
+    "bakim-ve-destek-sss": "website-maintenance-faq",
   },
 };
 

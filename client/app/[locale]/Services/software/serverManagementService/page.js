@@ -20,7 +20,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -79,159 +80,162 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve markalar için güvenli sunucu yönetimi, web güvenliği, SSL, firewall, DDoS koruması, uptime ve performans optimizasyonu sunan dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#webpage",
-//       "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-//       "name": "Sunucu Yönetimi & Web Güvenliği – Performans ve Koruma | DGTLFACE",
-//       "description": "DGTLFACE, güvenli sunucu yönetimi ve web güvenliği hizmetleri sunar. SSL, firewall, DDoS koruması ve performans optimizasyonuyla altyapınızı korur ve hızlandırır.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#service",
-//       "name": "Sunucu Yönetimi & Web Güvenliği – Performans ve Koruma",
-//       "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "web güvenliği, sunucu yönetimi, ssl kurulumu, firewall yapılandırma, ddos koruması, hosting güvenliği",
-//       "description": "DGTLFACE, güvenli sunucu yönetimi ve web güvenliği hizmetleri sunar. SSL kurulumu, firewall yapılandırma, DDoS koruması, hosting ve database güvenliği, uptime ve performans optimizasyonu ile oteller ve markalar için kesintisiz ve güvenli dijital altyapılar kurar. PMS–OTA–rezervasyon sistemleri ve KVKK uyumlu veri saklama politikalarıyla entegre çalışır.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "web güvenliği",
-//         "sunucu yönetimi",
-//         "ssl kurulumu",
-//         "firewall yapılandırma",
-//         "ddos koruması",
-//         "hosting güvenliği",
-//         "sunucu güvenliği nasıl sağlanır",
-//         "ssl sertifikası nasıl kurulur",
-//         "ddos saldırıları nasıl engellenir",
-//         "web güvenlik duvarı nedir",
-//         "oteller için sunucu güvenliği",
-//         "turizm sitelerine güvenlik",
-//         "uptime optimizasyonu",
-//         "hosting performansı artırma",
-//         "database güvenliği",
-//         "next.js güvenlik optimizasyonu",
-//         "otel web güvenliği",
-//         "pms sunucu güvenliği",
-//         "ota sistem güvenliği",
-//         "rezervasyon güvenlik yapısı",
-//         "sunucu hizmeti antalya",
-//         "antalya web güvenliği",
-//         "sunucu yönetimi türkiye",
-//         "antalya hosting hizmeti"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Web & Yazılım Hizmetleri",
-//           "item": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Sunucu Yönetimi ve Web Güvenliği",
-//           "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Sunucu güvenliği nasıl sağlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Sunucu güvenliği; güçlü şifre ve erişim politikaları, güncel yazılım ve güvenlik yamaları, firewall ve WAF kullanımı, gereksiz servis ve portların kapatılması, loglama ve izleme sistemlerinin aktif olması ve düzenli yedekleme gibi birden fazla güvenlik katmanının birlikte uygulanmasıyla sağlanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "SSL sertifikası neden önemlidir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "SSL sertifikası, kullanıcı ile sunucu arasındaki trafiği şifreleyerek veri güvenliğini sağlar, tarayıcılarda güvenli ibaresi gösterir ve Google için bir sıralama sinyali olduğu için SEO açısından da kritik öneme sahiptir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DDOS saldırıları nasıl engellenir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DDOS saldırıları tamamen sıfırlanamayabilir ancak firewall, CDN tabanlı koruma, rate limiting, IP bazlı kurallar ve sürekli izleme kullanılarak etkisi minimize edilebilir ve sistemin ayakta kalma oranı artırılabilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için rezervasyon sistemi güvenliği nasıl olmalı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Otellerin rezervasyon sistemlerinde form verileri şifrelenmeli, PMS–OTA–web arasındaki trafik güvenli bağlantılarla yönetilmeli, erişim yetkileri sınırlandırılmalı ve hassas verilere erişen kullanıcılar loglanmalıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "DGTLFACE sunucu yönetimi süreçlerini nasıl işletir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "DGTLFACE, önce mevcut altyapı analizi yapar, ardından konfigürasyon, güvenlik katmanları, izleme ve yedekleme standartlarını uygular. Sonrasında bakım ve destek modeliyle uptime, performans, loglar ve güvenlik uyarılarını düzenli olarak izleyerek gerektiğinde kapasite ve güvenlik ayarlarını günceller."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
+
+  try {
+    const parsed = new URL(url);
+
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildSoftwareServerSecurityServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const serviceId = `${canonicalPageUrl}#service`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Bilgi Teknolojileri ve Yazılım",
+          current: "Sunucu ve Güvenlik",
+          serviceType: "Web Güvenliği / Server & Security",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Information Technologies and Software",
+          current: "Server and Security",
+          serviceType: "Web Security / Server & Security",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
 
 
-export default async function Page({ params: { locale } }) {
+export default async function Page({ params }) {
+  const { locale } = await params;
   const baseUrl = getBaseUrl();
     const pathnameKey = "/Services/software/serverManagementService";
     const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
@@ -306,43 +310,24 @@ export default async function Page({ params: { locale } }) {
               { title: t("h2Section.header5"), text: t.raw("h2Section.text5") }
            ];
 
-            const jsonLd = buildServiceJsonLd({
-               baseUrl,
-               locale,
-               canonicalUrl,
-           
-               pageName: t("jsonld.pageName"),
-               pageDescription: t("jsonld.pageDescription"),
-               serviceName: t("jsonld.serviceName"),
-               serviceType: t("jsonld.serviceType"),
-               keywords: t.raw("jsonld.keywords"),
-           
-               breadcrumbItems: [
-                 { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-           
-                
-                    {name: locale === "tr" ? "Web & Yazılım Hizmetleri" : "Web & Software Services",
-                                 url: `${baseUrl}${locale === "tr" ? "/tr/yazilim" : "/en/software-development"}`,
-                               },
-           
-                 { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-               ],
-           
-               faqs,
-           
-               // 🤖 AI alanları (yeni standart)
-               aiQuestion: t("jsonld.pageName"),
-               aiAnswer: t("server_ai_answer_text"),
-               aiSource: t("aiSourceMention"),
-             });
+         const servicesUrl = getCanonicalUrl("/Services", locale);
+const parentSoftwareUrl = getCanonicalUrl("/Services/software", locale);
+
+const jsonLd = buildSoftwareServerSecurityServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentSoftwareUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+});
                    
   return (
     <>
-    <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+  <JsonLd id="software-server-security-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

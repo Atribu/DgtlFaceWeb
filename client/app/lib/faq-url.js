@@ -9,6 +9,7 @@ const ROOT_FAQ_SLUG_MAP = {
 };
 
 const TR_FAQ_SLUG_ALIAS_TO_INTERNAL = {
+  "bakim-destek-sss": "bakim-ve-destek-sss",
   "otel-sosyalmedya-sss": "sosyal-medya-sss",
   "yerel-seo-sss": "local-seo-sss",
 };

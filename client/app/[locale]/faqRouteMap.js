@@ -137,7 +137,7 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/yazilim\/kvkk-uyum-hizmeti(\/.*)?$/, slug: "kvkk-uyum-hizmeti-sss" },
   { match: /^\/yazilim\/sunucu-guvenlik(\/.*)?$/, slug: "sunucu-guvenlik-sss" },
   { match: /^\/yazilim\/web-sitesi-gelistirme(\/.*)?$/, slug: "web-sitesi-gelistirme-sss" },
-  { match: /^\/yazilim\/bakim-ve-destek(\/.*)?$/, slug: "bakim-destek-sss" },
+  { match: /^\/yazilim\/bakim-ve-destek(\/.*)?$/, slug: "bakim-ve-destek-sss" },
   { match: /^\/yazilim(\/.*)?$/, slug: "yazilim-sss" },
 
 
@@ -210,7 +210,7 @@ export const FAQ_DEPT_CRUMB_MAP = {
   "cms-entegrasyonu-sss": "yazilim-sss",
   "kvkk-uyum-hizmeti-sss": "yazilim-sss",
   "sunucu-guvenlik-sss": "yazilim-sss",
-  "bakim-destek-sss": "yazilim-sss",
+  "bakim-ve-destek-sss": "yazilim-sss",
 
   // Creative alt sayfaları
   "kurumsal-hediye-tasarimi-sss": "creative-sss",
@@ -308,7 +308,7 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
     "cms-entegrasyonu-sss": "yazilim",
     "kvkk-uyum-hizmeti-sss": "yazilim",
     "sunucu-guvenlik-sss": "yazilim",
-    "bakim-destek-sss": "yazilim",
+    "bakim-ve-destek-sss": "yazilim",
 
     // Creative
     "kurumsal-hediye-tasarimi-sss": "creative",

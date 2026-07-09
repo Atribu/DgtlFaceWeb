@@ -9254,7 +9254,7 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
-"bakim-destek-sss":{
+"bakim-ve-destek-sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss#faq",

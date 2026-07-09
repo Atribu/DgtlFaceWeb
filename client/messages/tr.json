@@ -16503,7 +16503,7 @@
           },
           {
             "q": "Site yayınlandıktan sonra bakım/destek almak şart mı?",
-            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir. SLA, güncelleme modeli ve yayın sonrası destek akışı için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
+            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir. SLA, güncelleme modeli ve yayın sonrası destek akışı için <a href=\"bakim-ve-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Web sitesi geliştirme maliyetini sadece tasarım ve kod olarak düşünmek doğru mu?",
@@ -16548,7 +16548,7 @@
           },
           {
             "q": "Site yayınlandıktan sonra bakım/destek almak şart mı?",
-            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir. SLA, güncelleme modeli ve yayın sonrası destek akışı için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
+            "a": "Evet. Güvenlik güncellemeleri, küçük geliştirmeler ve entegrasyon değişiklikleri için bakım modeli gereklidir. SLA, güncelleme modeli ve yayın sonrası destek akışı için <a href=\"bakim-ve-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Web sitesi geliştirme maliyetini sadece tasarım ve kod olarak düşünmek doğru mu?",
@@ -16582,7 +16582,7 @@
         },
         {
           "label": "Bakım ve Destek SSS",
-          "href": "bakim-destek-sss"
+          "href": "bakim-ve-destek-sss"
         }
       ]
     },
@@ -16837,7 +16837,7 @@
           },
           {
             "q": "CMS güncellemelerini atlamak tehlikeli mi?",
-            "a": "Evet. Güvenlik ve performans yamaları kaçırılırsa saldırı ve uyumsuzluk riski artar. Güncelleme ritmi, sürdürülebilir bakım modeli ve yayın sonrası destek akışı için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
+            "a": "Evet. Güvenlik ve performans yamaları kaçırılırsa saldırı ve uyumsuzluk riski artar. Güncelleme ritmi, sürdürülebilir bakım modeli ve yayın sonrası destek akışı için <a href=\"bakim-ve-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Tüm ekip üyelerine admin yetkisi vermek mantıklı mı?",
@@ -16896,7 +16896,7 @@
         },
         {
           "label": "Bakım ve Destek SSS",
-          "href": "bakim-destek-sss"
+          "href": "bakim-ve-destek-sss"
         }
       ]
     },
@@ -17147,7 +17147,7 @@
           },
           {
             "q": "KVKK uyumu tek seferlik mi, yoksa sürekli bir süreç mi?",
-            "a": "Sürekli bir süreçtir; yeni sistemler, entegrasyonlar, kampanyalar ve platform değişikliklerinde yeniden değerlendirme gerekir. Mevzuat güncellemesi, teknik revizyon ve sürdürülebilir destek modeli için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
+            "a": "Sürekli bir süreçtir; yeni sistemler, entegrasyonlar, kampanyalar ve platform değişikliklerinde yeniden değerlendirme gerekir. Mevzuat güncellemesi, teknik revizyon ve sürdürülebilir destek modeli için <a href=\"bakim-ve-destek-sss\">Bakım ve Destek SSS</a> sayfasına da bakabilirsiniz."
           },
           {
             "q": "Her çerez için tek tek rıza almak zorunda mıyım?",
@@ -17210,7 +17210,7 @@
         },
         {
           "label": "Bakım ve Destek SSS",
-          "href": "bakim-destek-sss"
+          "href": "bakim-ve-destek-sss"
         }
       ]
     },
@@ -17415,7 +17415,7 @@
           },
           {
             "q": "“Sunucuyu hiç güncellemezsem, bozulmaz” yaklaşımı neden tehlikelidir?",
-            "a": "Güncellenmeyen sistemler:<ul><li>bilinen güvenlik açıklarına sahip kalır,</li><li>yeni saldırı setlerine karşı savunmasız olur,</li><li>bazı API ve entegrasyonları zamanla desteklememeye başlar.</li></ul>Güncelleme sürecini kontrollü yapmamak riskli; hiç güncellememek daha risklidir. Patch yönetimi, uptime takibi ve sürdürülebilir teknik destek modeli için <a href=\"bakim-destek-sss\">Bakım ve Destek SSS</a> sayfasına da geçebilirsiniz."
+            "a": "Güncellenmeyen sistemler:<ul><li>bilinen güvenlik açıklarına sahip kalır,</li><li>yeni saldırı setlerine karşı savunmasız olur,</li><li>bazı API ve entegrasyonları zamanla desteklememeye başlar.</li></ul>Güncelleme sürecini kontrollü yapmamak riskli; hiç güncellememek daha risklidir. Patch yönetimi, uptime takibi ve sürdürülebilir teknik destek modeli için <a href=\"bakim-ve-destek-sss\">Bakım ve Destek SSS</a> sayfasına da geçebilirsiniz."
           }
         ]
       },
@@ -17524,7 +17524,7 @@
         },
         {
           "label": "Bakım ve Destek SSS",
-          "href": "bakim-destek-sss"
+          "href": "bakim-ve-destek-sss"
         }
       ]
     },
