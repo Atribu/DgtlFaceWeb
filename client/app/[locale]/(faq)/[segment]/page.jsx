@@ -18,10 +18,7 @@ import {
   isFaqDetailSlug,
 } from "@/app/lib/faq-url";
 import { getSiteUrl } from "@/app/lib/site-url";
-import {
-  fixFaqJsonLdLocale,
-  sanitizeFaqJsonLdForOutput,
-} from "../utils/fixFaqJsonLd";
+import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage";
 import FaqMainServer from "../../sss/components/FaqMainServer";
 import JsonLd from "../../components/seo/JsonLd";
@@ -35,112 +32,12 @@ function metaFromJsonLd(jsonLd) {
   return {
     title: jsonLd.dgTitle || jsonLd.name || "",
     description: jsonLd.dgMetaDescription || jsonLd.description || "",
-    canonical: jsonLd.url || "",
   };
 }
 
 // -----------------------------
-// JSON-LD builder'ları
+// JSON-LD helpers
 // -----------------------------
-function buildEnhancedJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
-  if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
-
-  const url = baseJsonLd.url || baseJsonLd["@id"]?.split("#")[0] || "";
-  const inLanguage = baseJsonLd.inLanguage || locale;
-
-  const nodes = [];
-  nodes.push(sanitizeFaqJsonLdForOutput(baseJsonLd));
-
-  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR);
-  if (breadcrumb) nodes.push(breadcrumb);
-
-  nodes.push({
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": `${url}#webpage`,
-    url,
-    inLanguage,
-    name: baseJsonLd.name,
-    description: baseJsonLd.description,
-    speakable: {
-      "@type": "SpeakableSpecification",
-      cssSelector: [".dg-ai-capsule", ".dg-voice-summary", ".dg-voice-queries"],
-    },
-  });
-
-  const voiceQueries = Array.isArray(baseJsonLd.dgVoiceQueryExamples)
-    ? baseJsonLd.dgVoiceQueryExamples
-    : [];
-
-  if (voiceQueries.length) {
-    nodes.push({
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "@id": `${url}#voice-queries`,
-      name: "Voice query examples",
-      itemListElement: voiceQueries.map((q, idx) => ({
-        "@type": "ListItem",
-        position: idx + 1,
-        name: q,
-      })),
-    });
-  }
-
-  return sanitizeFaqJsonLdForOutput(nodes);
-}
-
-function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
-  if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
-
-  const pageUrl = baseJsonLd.url || "";
-  const inLanguage = baseJsonLd.inLanguage || locale;
-  if (!pageUrl) return null;
-
-  // FAQ index URL
-  const faqIndexUrl = `https://dgtlface.com${getFaqIndexHref(locale)}`;
-
-  // Dept bilgisi (map TR slug ile çalışıyor)
-  const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[resolvedConfigSlugTR] || null;
-  const deptLabel = deptSlugTR
-    ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR] || "Category")
-    : null;
-
-  // Dept URL (EN'de dept slug'ı -faq'a çevir)
-  let deptUrl = "";
-  if (deptSlugTR && deptSlugTR !== resolvedConfigSlugTR) {
-    const deptNs = FAQ_MAP?.[deptSlugTR];
-    const deptSlugLocale = findFaqSlugByNamespace(deptNs, locale) || deptSlugTR;
-    deptUrl = `https://dgtlface.com${buildFaqHrefBySlug(deptSlugLocale, locale)}`;
-  }
-
-  const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
-  const faqIndexLabel = locale === "en" ? "FAQ" : "SSS";
-
-  const items = [
-    { name: homeLabel, item: `https://dgtlface.com/${locale}` },
-    { name: faqIndexLabel, item: faqIndexUrl },
-  ];
-
-  if (deptUrl && deptLabel) items.push({ name: deptLabel, item: deptUrl });
-
-  items.push({
-    name: baseJsonLd.dgH1 || baseJsonLd.dgPageName || baseJsonLd.name || faqIndexLabel,
-    item: pageUrl,
-  });
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "@id": `${pageUrl}#breadcrumb`,
-    inLanguage,
-    itemListElement: items.map((it, idx) => ({
-      "@type": "ListItem",
-      position: idx + 1,
-      name: it.name,
-      item: it.item,
-    })),
-  };
-}
 
 function cleanSchemaText(value) {
   return String(value || "")
@@ -177,6 +74,8 @@ function buildFrameworkFaqJsonLd({
   if (!baseJsonLd || !faqItems.length) return null;
 
   const pageUrl = baseJsonLd.url || `${siteUrl}${getFaqIndexHref(locale)}`;
+  const pageName = cleanSchemaText(baseJsonLd.name || pageLabel);
+  const pageDescription = cleanSchemaText(baseJsonLd.description || "");
   const pageOrigin = (() => {
     try {
       return new URL(pageUrl).origin;
@@ -225,16 +124,18 @@ function buildFrameworkFaqJsonLd({
           },
         ];
 
-  return sanitizeFaqJsonLdForOutput({
+  return {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "FAQPage",
         "@id": faqpageId,
         url: pageUrl,
-        name: baseJsonLd.name,
-        description: baseJsonLd.description,
+        name: pageName,
+        description: pageDescription,
         inLanguage: language,
+        isPartOf: { "@id": websiteId },
+        publisher: { "@id": organizationId },
         mainEntity: faqItems.map((item) => ({
           "@type": "Question",
           name: item.question,
@@ -248,8 +149,8 @@ function buildFrameworkFaqJsonLd({
         "@type": "WebPage",
         "@id": webpageId,
         url: pageUrl,
-        name: baseJsonLd.name,
-        description: baseJsonLd.description,
+        name: pageName,
+        description: pageDescription,
         inLanguage: language,
         isPartOf: { "@id": websiteId },
         about: { "@id": faqpageId },
@@ -263,7 +164,7 @@ function buildFrameworkFaqJsonLd({
         itemListElement: breadcrumbListItems,
       },
     ],
-  });
+  };
 }
 
 // -----------------------------
@@ -286,7 +187,7 @@ export async function generateMetadata({ params }) {
   const pageNs = FAQ_MAP?.[localizedSlug] || FAQ_MAP?.[slug];
   const trSlug = findFaqSlugByNamespace(pageNs, "tr") || slug;
   const enSlug = findFaqSlugByNamespace(pageNs, "en") || slug;
-  const canonicalUrl = meta.canonical || `${siteUrl}${buildFaqHrefBySlug(slug, locale)}`;
+  const canonicalUrl = `${siteUrl}${buildFaqHrefBySlug(slug, locale)}`;
 
   return {
     title: meta.title,
@@ -422,17 +323,22 @@ export default async function Page({ params }) {
   ];
   const faqQuestionSet = getVisibleFaqQuestionSet(namespace, 11);
   const siteUrl = getSiteUrl();
-  const shouldUseFrameworkFaqJsonLd = isFaqRoot || isServicesRoot;
-  const jsonLdData = shouldUseFrameworkFaqJsonLd
-    ? buildFrameworkFaqJsonLd({
-        baseJsonLd: fixedJsonLd,
-        locale,
-        faqItems: faqQuestionSet,
-        pageLabel: currentLabel,
-        siteUrl,
-        breadcrumbItems: crumbItems,
-      })
-    : buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
+  const currentUrl = `${siteUrl}${currentHref}`;
+  const frameworkBaseJsonLd = {
+    ...(fixedJsonLd || {}),
+    url: currentUrl,
+    name: fixedJsonLd?.name || fixedJsonLd?.dgPageName || currentLabel,
+    description:
+      fixedJsonLd?.description || fixedJsonLd?.dgMetaDescription || "",
+  };
+  const jsonLdData = buildFrameworkFaqJsonLd({
+    baseJsonLd: frameworkBaseJsonLd,
+    locale,
+    faqItems: faqQuestionSet,
+    pageLabel: currentLabel,
+    siteUrl,
+    breadcrumbItems: crumbItems,
+  });
 
   return (
     <div className="flex flex-col max-w-full">
