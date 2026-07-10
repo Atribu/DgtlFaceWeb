@@ -19,7 +19,8 @@ import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -77,156 +78,162 @@ export async function generateMetadata({ params }) {
 }
 
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, KVKK uyumlu veri işleme, veri güvenliği, çerez yönetimi ve teknik raporlama süreçleriyle oteller ve markalar için tam bir veri koruma ve denetlenebilirlik sağlayan dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#webpage",
-//       "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
-//       "name": "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri | DGTLFACE",
-//       "description": "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma sağlar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#service",
-//       "name": "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri",
-//       "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "kvkk veri güvenliği, veri koruma sistemi, kişisel veri işleme, kvkk uyum raporu, data privacy, güvenli veri yönetimi",
-//       "description": "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma ve denetlenebilirlik sağlar. Veri koruma sistemi, kişisel veri işleme, KVKK uyum raporu, data privacy, güvenli veri yönetimi, oteller için KVKK raporu, turizm veri güvenliği, PMS data protection ve OTA veri güvenliği alanlarında veri akış haritaları, erişim logları ve KVKK teknik tedbir raporları sunar.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "kvkk veri güvenliği",
-//         "veri koruma sistemi",
-//         "kişisel veri işleme",
-//         "kvkk uyum raporu",
-//         "data privacy",
-//         "güvenli veri yönetimi",
-//         "kvkk uyumlu veri nasıl işlenir",
-//         "oteller için veri güvenliği",
-//         "turizm kvkk gereksinimleri",
-//         "rezervasyon veri güvenliği",
-//         "çerez yönetimi kvkk uyumu",
-//         "müşteri verisi koruma yöntemleri",
-//         "kvkk teknik tedbirler",
-//         "veri raporlama sistemi",
-//         "otel kvkk raporu",
-//         "turizm veri güvenliği",
-//         "pms data protection",
-//         "ota veri güvenliği",
-//         "kvkk antalya",
-//         "veri güvenliği türkiye",
-//         "antalya data privacy",
-//         "kvkk raporlama antalya"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Veri Analizi & Raporlama",
-//           "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "KVKK & Veri Güvenliği Raporlama",
-//           "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "KVKK & veri güvenliği raporlaması nedir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "KVKK ve veri güvenliği raporlaması; web, PMS, OTA, çağrı merkezi, CRM ve sunucu gibi sistemlerde işlenen kişisel verilerin akışını, saklama sürelerini, erişim yetkilerini, log kayıtlarını ve teknik tedbirleri analiz edip raporlayan, böylece hem yasal uyumu hem de veri güvenliği seviyesini görünür kılan bir denetim ve raporlama sürecidir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Otellerde misafir verisi nasıl korunmalı?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Otellerde misafir verileri; PMS ve OTA sistemlerinde rol bazlı yetkilendirme, şifreleme, erişim logları, sınırlı saklama süreleri, güvenli sunucu altyapısı ve KVKK’ya uygun veri işleme politikaları ile korunmalı, rezervasyon ve kimlik bilgileri hem dijital hem fiziksel ortamda yetkisiz erişime karşı güvence altına alınmalıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "PMS & OTA entegrasyonunda veri güvenliği nasıl sağlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "PMS ve OTA entegrasyonunda veri güvenliği; güvenli bağlantılar, IP veya VPN kısıtlamaları, erişim token’larının doğru yönetilmesi, sadece gerekli alanların paylaşılması, veri akışının loglanması ve entegrasyon hatalarının düzenli izlenmesiyle sağlanır. Böylece rezervasyon verisi üçüncü taraflarla kontrollü ve denetlenebilir şekilde paylaşılır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çerez yönetimi ve izin kayıtları nasıl raporlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Çerez yönetimi ve izin kayıtları; kullanılan çerezlerin kategorileri, kullanıcı tercihleri, rıza verme ve değiştirme zamanları ile birlikte loglanır ve KVKK & veri güvenliği dashboard’larında özetlenir. Böylece hangi kullanıcıların hangi çerez kategorilerine izin verdiği ve bu izinlerin ne kadar süre saklandığı denetlenebilir hâle gelir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Call Center & DM verileri KVKK’ya uygun şekilde nasıl saklanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Call center ve DM verilerinin KVKK’ya uygun saklanması için; kayıtların ne amaçla tutulduğu ve ne kadar süre saklanacağı tanımlanmalı, erişim rol bazlı sınırlandırılmalı, loglama aktif olmalı ve saklama süresi sonunda kayıtlar silinmeli veya anonimleştirilmelidir. DGTLFACE, bu süreçleri veri akış haritaları ve uyum raporları ile görünür kılar."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildKvkkDataSecurityServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+  currentBreadcrumbName,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const serviceId = `${canonicalPageUrl}#service`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Dijital Analiz ve Raporlama",
+          current: currentBreadcrumbName || "Çağrı & KVKK Veri Raporlama",
+          serviceType: "KVKK ve Veri Güvenliği Raporlama Hizmeti",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Digital Analytics and Reporting",
+          current: currentBreadcrumbName || "KVKK and Data Security Reporting",
+          serviceType: "KVKK and Data Security Reporting Service",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+
+export default async function Page({ params }) {
+  const { locale } = await params;
    const t = await getTranslations({locale,namespace: "KvkkSecurityPage",});
     const t2 = await getTranslations({locale,namespace: "KvkkSecurityPage.h4Section",});
 
@@ -298,46 +305,39 @@ export default async function Page({ params: { locale } }) {
                { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
 
-              const jsonLd = buildServiceJsonLd({
-                              baseUrl,
-                              locale,
-                              canonicalUrl,
-                          
-                              pageName: t("jsonld.pageName"),
-                              pageDescription: t("jsonld.pageDescription"),
-                              serviceName: t("jsonld.serviceName"),
-                              serviceType: t("jsonld.serviceType"),
-                              keywords: t.raw("jsonld.keywords"),
-                          
-                              breadcrumbItems: [
-                                {
-                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                  url: `${baseUrl}/${locale}`,
-                                },
-                          
-                                 {
-                                  name: locale === "tr" ? "Veri Analizi & Raporlama" : "Data Analytics & Performance Reporting",
-                                  url: `${baseUrl}${locale === "tr" ? "/tr/raporlama" : "/en/digital-analysis"}`,
-                                },
-                          
-                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                              ],
-                          
-                              faqs,
-                          
-                              // 🤖 AI alanları (yeni standart)
-                              aiQuestion: t("jsonld.pageName"),
-                              aiAnswer: t("ai_answer_text"),
-                              aiSource: t("aiSourceMention"),
-                            });
+              const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+
+const servicesUrl =
+  locale === "tr"
+    ? `${cleanBaseUrl}/tr/hizmetlerimiz`
+    : `${cleanBaseUrl}/en/services`;
+
+const parentReportingUrl =
+  locale === "tr"
+    ? `${cleanBaseUrl}/tr/raporlama`
+    : `${cleanBaseUrl}/en/digital-analysis`;
+
+const jsonLd = buildKvkkDataSecurityServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentReportingUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+
+  // Canlı breadcrumb ile uyumlu tercih
+  currentBreadcrumbName:
+    locale === "tr"
+      ? "Çağrı & KVKK Veri Raporlama"
+      : t("jsonld.breadcrumbName"),
+});
 
   return (
     <>
-     <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+     <JsonLd id="kvkk-data-security-service-jsonld" data={jsonLd} />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>

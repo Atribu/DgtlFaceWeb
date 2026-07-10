@@ -172,6 +172,7 @@ function buildFrameworkFaqJsonLd({
   faqItems,
   pageLabel,
   siteUrl,
+  breadcrumbItems,
 }) {
   if (!baseJsonLd || !faqItems.length) return null;
 
@@ -191,6 +192,38 @@ function buildFrameworkFaqJsonLd({
   const breadcrumbId = `${pageUrl}#breadcrumb`;
   const homeUrl = `${pageOrigin}/${locale}/`;
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
+  const toAbsoluteBreadcrumbUrl = (href) => {
+    if (!href) return pageUrl;
+    if (href === `/${locale}` || href === `/${locale}/`) return homeUrl;
+
+    try {
+      return new URL(href, pageOrigin).toString();
+    } catch {
+      return pageUrl;
+    }
+  };
+  const breadcrumbListItems =
+    Array.isArray(breadcrumbItems) && breadcrumbItems.length
+      ? breadcrumbItems.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.label || pageLabel,
+          item: toAbsoluteBreadcrumbUrl(item.href),
+        }))
+      : [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: homeLabel,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: pageLabel,
+            item: pageUrl,
+          },
+        ];
 
   return sanitizeFaqJsonLdForOutput({
     "@context": "https://schema.org",
@@ -227,20 +260,7 @@ function buildFrameworkFaqJsonLd({
       {
         "@type": "BreadcrumbList",
         "@id": breadcrumbId,
-        itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: homeLabel,
-            item: homeUrl,
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: pageLabel,
-            item: pageUrl,
-          },
-        ],
+        itemListElement: breadcrumbListItems,
       },
     ],
   });
@@ -382,18 +402,6 @@ export default async function Page({ params }) {
   })();
   
   const currentHref = buildFaqHrefBySlug(slug, locale);
-  const faqQuestionSet = getVisibleFaqQuestionSet(namespace, 11);
-  const siteUrl = getSiteUrl();
-  const jsonLdData = isFaqRoot
-    ? buildFrameworkFaqJsonLd({
-        baseJsonLd: fixedJsonLd,
-        locale,
-        faqItems: faqQuestionSet,
-        pageLabel: faqLabel,
-        siteUrl,
-      })
-    : buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
-
   const crumbItems = [
     { label: homeLabel, href: homeHref },
 
@@ -412,6 +420,19 @@ export default async function Page({ params }) {
             { label: currentLabel, href: currentHref },
           ]),
   ];
+  const faqQuestionSet = getVisibleFaqQuestionSet(namespace, 11);
+  const siteUrl = getSiteUrl();
+  const shouldUseFrameworkFaqJsonLd = isFaqRoot || isServicesRoot;
+  const jsonLdData = shouldUseFrameworkFaqJsonLd
+    ? buildFrameworkFaqJsonLd({
+        baseJsonLd: fixedJsonLd,
+        locale,
+        faqItems: faqQuestionSet,
+        pageLabel: currentLabel,
+        siteUrl,
+        breadcrumbItems: crumbItems,
+      })
+    : buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
 
   return (
     <div className="flex flex-col max-w-full">

@@ -16,7 +16,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -74,158 +75,161 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve markalar için benchmark analizi, rakip ve sektör performans karşılaştırması, OTA fiyat analizi, turizm fiyat karşılaştırması ve çok kanallı performans benchmark çözümleri sunan dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/benchmark-analizi/#webpage",
-//       "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi",
-//       "name": "Benchmark Analizi – Rakip & Sektör Performans Karşılaştırması | DGTLFACE",
-//       "description": "DGTLFACE, haftalık ve aylık benchmark analizleriyle rakiplerinizi, fiyat stratejinizi ve sektör performansınızı karşılaştırır. Oteller için özel benchmark sistemi kurar.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/raporlama/benchmark-analizi/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/raporlama/benchmark-analizi/#service",
-//       "name": "Benchmark Analizi – Rakip & Sektör Performans Karşılaştırması",
-//       "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "benchmark analizi, rakip analizi, fiyat karşılaştırma, performans benchmark, KPI benchmark, sektör analizi",
-//       "description": "DGTLFACE, haftalık ve aylık benchmark analizleriyle otel ve markaların performansını rakip ve sektör verileriyle kıyaslar. OTA fiyat karşılaştırmaları, doluluk ve talep trendleri, dijital reklam benchmark, pazar payı analizi ve fiyat optimizasyon raporlarıyla fiyatlandırma, kampanya, kanal ve satış stratejilerine veri odaklı yön verir.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "benchmark analizi",
-//         "rakip analizi",
-//         "fiyat karşılaştırma",
-//         "performans benchmark",
-//         "kpi benchmark",
-//         "sektör analizi",
-//         "benchmark analizi nasıl yapılır",
-//         "rakip performans raporu hazırlama",
-//         "oteller için benchmark sistemi",
-//         "turizm fiyat karşılaştırması",
-//         "satış performansı benchmark",
-//         "dijital reklam benchmark",
-//         "pazar payı analizi",
-//         "rakip veri takibi",
-//         "benchmark dashboard nasıl kurulur",
-//         "fiyat optimizasyon raporu",
-//         "otel benchmark raporu",
-//         "turizm sektörü benchmark",
-//         "resort fiyat analizi",
-//         "ota benchmark",
-//         "benchmark analizi antalya",
-//         "fiyat analizi antalya",
-//         "rakip raporlama türkiye",
-//         "benchmark hizmeti antalya"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/raporlama/benchmark-analizi/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Veri Analizi & Raporlama",
-//           "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Benchmark Analizi",
-//           "item": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/benchmark-analizi/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Benchmark analizi nedir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Benchmark analizi; doluluk, gelir, fiyat, dönüşüm, ROAS ve etkileşim gibi KPI’larınızı rakip ve sektör ortalamalarıyla kıyaslayarak güçlü ve zayıf yönlerinizi ortaya çıkaran, fiyatlandırma ve pazarlama stratejilerinize yön veren çok katmanlı performans karşılaştırma modelidir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Rakip performansı nasıl ölçülür?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Rakip performansı; seçilen rakip seti için OTA fiyatları, doluluk ve talep trendleri, dijital görünürlük (SEO, Ads, sosyal medya), yorum sayısı ve puanlar, kanal dağılımı ve kampanya davranışları gibi metrikler üzerinden ölçülür ve sizin KPI’larınızla kıyaslanır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Oteller için benchmark raporu nasıl hazırlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Oteller için benchmark raporu hazırlanırken; benzer segment ve lokasyondaki otellerden oluşan bir rakip seti tanımlanır, OTA ve PMS verileri, pazar raporları ve dijital performans verileri toplanır, Looker Studio benchmark dashboard’larında doluluk, ADR, RevPAR, fiyat ve kanal performansı birlikte görselleştirilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "OTA fiyat karşılaştırması nasıl yapılır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "OTA fiyat karşılaştırması; belirli tarihler, oda tipleri ve pazarlar için sizin ve rakiplerinizin OTA fiyatlarının periyodik olarak takip edilmesi ve fiyat eğrilerinin doluluk ve talep verileriyle birlikte analiz edilmesiyle yapılır. Böylece fiyatınızın pazarın neresinde konumlandığı netleşir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Benchmark analizi satış stratejisine nasıl yön verir?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Benchmark analizi; hangi pazarda ve kanalda geri kaldığınızı, nerede güçlü olduğunuzu ve hangi fiyat aralığında daha verimli satış yaptığınızı göstererek satış stratejinize yön verir. Fiyat, kampanya, kanal seçimi ve pazarlama bütçesi kararları veriyle desteklenmiş hâle gelir."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
-export default async function Page({ params: { locale } }) {
+  try {
+    const parsed = new URL(url);
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildBenchmarkAnalysisServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+  currentBreadcrumbName,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const serviceId = `${canonicalPageUrl}#service`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Dijital Analiz ve Raporlama",
+          current: currentBreadcrumbName || "Benchmark & Pazar Analizi",
+          serviceType: "Benchmark Analizi / Rakip ve Pazar Performansı Karşılaştırma Hizmeti",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Digital Analytics and Reporting",
+          current: currentBreadcrumbName || "Benchmark and Market Analysis",
+          serviceType: "Benchmark Analysis / Competitor and Market Performance Comparison Service",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
    const t = await getTranslations({locale,namespace: "BenchmarkAnalysisPage",});
     const t2 = await getTranslations({locale,namespace: "BenchmarkAnalysisPage.h4Section",});
 
@@ -299,46 +303,39 @@ export default async function Page({ params: { locale } }) {
              ];
 
 
-             const jsonLd = buildServiceJsonLd({
-                                           baseUrl,
-                                           locale,
-                                           canonicalUrl,
-                                       
-                                           pageName: t("jsonld.pageName"),
-                                           pageDescription: t("jsonld.pageDescription"),
-                                           serviceName: t("jsonld.serviceName"),
-                                           serviceType: t("jsonld.serviceType"),
-                                           keywords: t.raw("jsonld.keywords"),
-                                       
-                                           breadcrumbItems: [
-                                             {
-                                               name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                               url: `${baseUrl}/${locale}`,
-                                             },
-                                       
-                                             {
-                                               name: locale === "tr" ? "Veri Analizi & Raporlama" : "Data Analytics & Performance Reporting",
-                                               url: `${baseUrl}${locale === "tr" ? "/tr/raporlama" : "/en/digital-analysis"}`,
-                                             },
-                                       
-                                             { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                                           ],
-                                       
-                                           faqs,
-                                       
-                                           // 🤖 AI alanları (yeni standart)
-                                           aiQuestion: t("jsonld.pageName"),
-                                           aiAnswer: t("ai_answer_text"),
-                                           aiSource: t("aiSourceMention"),
-                                         });
+          const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+
+const servicesUrl =
+  locale === "tr"
+    ? `${cleanBaseUrl}/tr/hizmetlerimiz`
+    : `${cleanBaseUrl}/en/services`;
+
+const parentReportingUrl =
+  locale === "tr"
+    ? `${cleanBaseUrl}/tr/raporlama`
+    : `${cleanBaseUrl}/en/digital-analysis`;
+
+const jsonLd = buildBenchmarkAnalysisServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentReportingUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+
+  // Canlı breadcrumb ile uyumlu tercih
+  currentBreadcrumbName:
+    locale === "tr"
+      ? "Benchmark & Pazar Analizi"
+      : t("jsonld.breadcrumbName"),
+});
 
   return (
    <>
-    <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+    <JsonLd id="benchmark-analysis-service-jsonld" data={jsonLd} />
 
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>

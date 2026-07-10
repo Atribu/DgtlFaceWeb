@@ -18,7 +18,8 @@ import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
-import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 import FaqPrompt from '@/app/[locale]/components/common/FaqPrompt'
 
 export async function generateMetadata({ params }) {
@@ -76,159 +77,162 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const homeJsonLd = {
-//   "@context": "https://schema.org",
-//   "@graph": [
-//     {
-//       "@type": "Organization",
-//       "@id": "https://dgtlface.com/#organization",
-//       "name": "DGTLFACE",
-//       "url": "https://dgtlface.com",
-//       "description": "DGTLFACE, oteller ve markalar için Looker Studio tabanlı dijital performans panelleri, otomatik raporlama ve çok kanallı veri entegrasyonu sunan turizm odaklı dijital pazarlama ve teknoloji partneridir.",
-//       "logo": "https://dgtlface.com/logo.png",
-//       "address": {
-//         "@type": "PostalAddress",
-//         "addressLocality": "Antalya",
-//         "addressCountry": "TR"
-//       },
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ]
-//     },
-//     {
-//       "@type": "WebPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/looker-studio/#webpage",
-//       "url": "https://dgtlface.com/tr/raporlama/looker-studio",
-//       "name": "Looker Studio Raporlama – Google Veri Dashboard & Otomasyon | DGTLFACE",
-//       "description": "DGTLFACE, Looker Studio ile SEO, SEM, SMM ve web performans verilerinizi tek bir panelde toplar. Otel ve işletmeler için otomatik raporlama çözümleri.",
-//       "inLanguage": "tr-TR",
-//       "isPartOf": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "breadcrumb": {
-//         "@id": "https://dgtlface.com/tr/raporlama/looker-studio/#breadcrumb"
-//       }
-//     },
-//     {
-//       "@type": "Service",
-//       "@id": "https://dgtlface.com/tr/raporlama/looker-studio/#service",
-//       "name": "Looker Studio Raporlama – Google Veri Dashboard & Otomasyon",
-//       "url": "https://dgtlface.com/tr/raporlama/looker-studio",
-//       "provider": {
-//         "@id": "https://dgtlface.com/#organization"
-//       },
-//       "serviceType": "looker studio raporlama, google data studio, otomatik raporlama, veri dashboard, dijital performans paneli, veri analizi raporu",
-//       "description": "DGTLFACE, Looker Studio ile SEO, SEM, SMM, web, OTA, PMS ve çağrı merkezi verilerinizi tek bir dijital performans panelinde toplar. Google Data Studio altyapısıyla otomatik raporlama, çok kanallı veri dashboard’ları, oteller için performans raporları, reklam raporlama panelleri ve gelir & pazarlama içgörüleri sunarak veri odaklı karar almayı kolaylaştırır.",
-//       "areaServed": [
-//         "Antalya",
-//         "Türkiye",
-//         "Europe"
-//       ],
-//       "inLanguage": "tr-TR",
-//       "keywords": [
-//         "looker studio raporlama",
-//         "google data studio",
-//         "otomatik raporlama",
-//         "veri dashboard",
-//         "dijital performans paneli",
-//         "veri analizi raporu",
-//         "looker studio nasıl kullanılır",
-//         "looker studio dashboard örnekleri",
-//         "oteller için performans raporu",
-//         "reklam raporlama paneli oluşturma",
-//         "veri kaynaklarını bağlama",
-//         "seo performans paneli",
-//         "sosyal medya rapor şablonu",
-//         "looker excel entegrasyonu",
-//         "otomatik mail raporlama",
-//         "çok kanallı rapor paneli",
-//         "otel looker studio paneli",
-//         "turizm raporlama dashboard",
-//         "resort performans raporu",
-//         "pms + looker entegrasyonu",
-//         "looker studio antalya",
-//         "raporlama hizmeti antalya",
-//         "dijital dashboard türkiye",
-//         "performans paneli antalya"
-//       ]
-//     },
-//     {
-//       "@type": "BreadcrumbList",
-//       "@id": "https://dgtlface.com/tr/raporlama/looker-studio/#breadcrumb",
-//       "itemListElement": [
-//         {
-//           "@type": "ListItem",
-//           "position": 1,
-//           "name": "Ana Sayfa",
-//           "item": "https://dgtlface.com/tr/"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 2,
-//           "name": "Veri Analizi & Raporlama",
-//           "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
-//         },
-//         {
-//           "@type": "ListItem",
-//           "position": 3,
-//           "name": "Looker Studio Raporlama",
-//           "item": "https://dgtlface.com/tr/raporlama/looker-studio"
-//         }
-//       ]
-//     },
-//     {
-//       "@type": "FAQPage",
-//       "@id": "https://dgtlface.com/tr/raporlama/looker-studio/#faq",
-//       "mainEntity": [
-//         {
-//           "@type": "Question",
-//           "name": "Looker Studio nedir ve ne işe yarar?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Looker Studio, farklı veri kaynaklarını (GA4, Google Ads, Search Console, Meta Ads, Excel, PMS, OTA vb.) tek bir interaktif rapor ve dashboard üzerinde görmenizi, bu verilerden görselleştirilmiş performans panelleri ve otomatik raporlar oluşturmanızı sağlayan Google tabanlı raporlama aracıdır."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "SEO, SEM, SMM verilerini tek panelde nasıl toplayabilirim?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "SEO, SEM ve SMM verileri; GA4, Search Console, Google Ads ve Meta Ads gibi kaynaklar Looker Studio’ya bağlanarak tek panelde toplanır. DGTLFACE, bu kaynakları kanal bazlı sekmeler ve üst seviye KPI ekranlarıyla okunabilir tek bir dijital performans paneli hâline getirir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "GA4, Search Console, Ads, PMS ve OTA verileri Looker Studio’ya nasıl bağlanır?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "GA4, Search Console ve Google Ads doğrudan konektörlerle; PMS, OTA, CRM ve çağrı merkezi verileri ise genellikle Google Sheets, CSV, database veya özel konektörler aracılığıyla Looker Studio’ya bağlanır. Böylece tüm dijital ve operasyonel veriler tek dashboard’ta birleşir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Otomatik e-mail raporlama nasıl kurulur?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Hazırlanan Looker Studio raporu için paylaşım ayarları yapılarak belirli periyotlarda (haftalık, aylık, sezonluk) ilgili kişilere otomatik e-posta gönderimi planlanır. Yönetim için özet, pazarlama için detaylı dashboard linkleri ve PDF çıktıları bu otomasyona dâhil edilebilir."
-//           }
-//         },
-//         {
-//           "@type": "Question",
-//           "name": "Çok otelli yapılar için tek panelde raporlama mümkün mü?",
-//           "acceptedAnswer": {
-//             "@type": "Answer",
-//             "text": "Evet. Chain veya grup oteller için her otel ayrı sekme veya filtreyle temsil edilirken, üst seviye bir görünümde tüm otellerin doluluk, gelir, kanal performansı ve kampanya sonuçları konsolide şekilde gösterilebilir. Böylece hem genel resmi hem de otel bazlı detayları tek Looker Studio panelinden izleyebilirsiniz."
-//           }
-//         }
-//       ]
-//     }
-//   ]
-// }
+function normalizeCanonicalUrl(url) {
+  if (!url) return url;
 
+  try {
+    const parsed = new URL(url);
 
-export default async function Page({ params: { locale } }) {
+    const isLocaleRoot = /^\/[a-z]{2}\/$/i.test(parsed.pathname);
+
+    if (parsed.pathname !== "/" && parsed.pathname.endsWith("/") && !isLocaleRoot) {
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    }
+
+    return parsed.toString();
+  } catch {
+    return url.replace(/\/+$/, "");
+  }
+}
+
+function normalizeBaseUrl(url) {
+  if (!url) return url;
+  return normalizeCanonicalUrl(url).replace(/\/+$/, "");
+}
+
+function buildLookerStudioReportingServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  servicesUrl,
+  parentUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+  currentBreadcrumbName,
+}) {
+  const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+  const canonicalPageUrl = normalizeCanonicalUrl(pageUrl);
+  const canonicalServicesUrl = normalizeCanonicalUrl(servicesUrl);
+  const canonicalParentUrl = normalizeCanonicalUrl(parentUrl);
+  const homeUrl = normalizeCanonicalUrl(getCanonicalUrl("/", locale));
+
+  const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
+
+  const organizationId = `${cleanBaseUrl}/#organization`;
+  const websiteId = `${cleanBaseUrl}/#website`;
+
+  const serviceId = `${canonicalPageUrl}#service`;
+  const webpageId = `${canonicalPageUrl}#webpage`;
+  const breadcrumbId = `${canonicalPageUrl}#breadcrumb`;
+
+  const labels =
+    locale === "tr"
+      ? {
+          home: "Anasayfa",
+          services: "Hizmetler",
+          parent: "Dijital Analiz ve Raporlama",
+          current: currentBreadcrumbName || "Reklam Raporlama (Looker Studio)",
+          serviceType: "Looker Studio Raporlama / Dijital Performans Dashboard Hizmeti",
+          country: "Türkiye",
+        }
+      : {
+          home: "Home",
+          services: "Services",
+          parent: "Digital Analytics and Reporting",
+          current: currentBreadcrumbName || "Looker Studio Reporting",
+          serviceType: "Looker Studio Reporting / Digital Performance Dashboard Service",
+          country: "Turkey",
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": serviceId,
+        name: serviceName,
+        description: serviceDescription,
+        serviceType: labels.serviceType,
+        url: canonicalPageUrl,
+        mainEntityOfPage: {
+          "@id": webpageId,
+        },
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed: [
+          {
+            "@type": "Country",
+            name: labels.country,
+          },
+          {
+            "@type": "AdministrativeArea",
+            name: "Antalya",
+          },
+        ],
+        inLanguage,
+      },
+      {
+        "@type": "WebPage",
+        "@id": webpageId,
+        url: canonicalPageUrl,
+        name: pageName,
+        description: pageDescription,
+        inLanguage,
+        isPartOf: {
+          "@id": websiteId,
+        },
+        publisher: {
+          "@id": organizationId,
+        },
+        about: {
+          "@id": serviceId,
+        },
+        mainEntity: {
+          "@id": serviceId,
+        },
+        breadcrumb: {
+          "@id": breadcrumbId,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": breadcrumbId,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: labels.home,
+            item: homeUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: labels.services,
+            item: canonicalServicesUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: labels.parent,
+            item: canonicalParentUrl,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
+            name: labels.current,
+            item: canonicalPageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
+export default async function Page({ params }) {
+  const { locale } = await params;
    const t = await getTranslations({locale,namespace: "LookerStudioReportingPage",});
     const t2 = await getTranslations({locale,namespace: "LookerStudioReportingPage.h4Section",});
 
@@ -301,47 +305,41 @@ export default async function Page({ params: { locale } }) {
                { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
 
-              const jsonLd = buildServiceJsonLd({
-                                           baseUrl,
-                                           locale,
-                                           canonicalUrl,
-                                       
-                                           pageName: t("jsonld.pageName"),
-                                           pageDescription: t("jsonld.pageDescription"),
-                                           serviceName: t("jsonld.serviceName"),
-                                           serviceType: t("jsonld.serviceType"),
-                                           keywords: t.raw("jsonld.keywords"),
-                                       
-                                           breadcrumbItems: [
-                                             {
-                                               name: locale === "tr" ? "Ana Sayfa" : "Home",
-                                               url: `${baseUrl}/${locale}`,
-                                             },
-                                       
-                                             {
-                                               name: locale === "tr" ? "Veri Analizi & Raporlama" : "Data Analytics & Performance Reporting ",
-                                               url: `${baseUrl}${locale === "tr" ? "/tr/raporlama" : "/en/digital-analysis"}`,
-                                             },
-                                       
-                                             { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
-                                           ],
-                                       
-                                           faqs,
-                                       
-                                           // 🤖 AI alanları (yeni standart)
-                                           aiQuestion: t("jsonld.pageName"),
-                                           aiAnswer: t("ai_answer_text"),
-                                           aiSource: t("aiSourceMention"),
-                                         });
              
+             const cleanBaseUrl = normalizeBaseUrl(baseUrl);
+
+const servicesUrl =
+  locale === "tr"
+    ? `${cleanBaseUrl}/tr/hizmetlerimiz`
+    : `${cleanBaseUrl}/en/services`;
+
+const parentReportingUrl =
+  locale === "tr"
+    ? `${cleanBaseUrl}/tr/raporlama`
+    : `${cleanBaseUrl}/en/digital-analysis`;
+
+const jsonLd = buildLookerStudioReportingServiceJsonLd({
+  locale,
+  baseUrl,
+  pageUrl: canonicalUrl,
+  servicesUrl,
+  parentUrl: parentReportingUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("jsonld.pageDescription")),
+
+  // Canlı breadcrumb ile uyumlu olması için TR tarafında görünür breadcrumb adı tercih edildi.
+  currentBreadcrumbName:
+    locale === "tr"
+      ? "Reklam Raporlama (Looker Studio)"
+      : t("jsonld.breadcrumbName"),
+});
+
 
   return (
   <>
-  <script
-        type="application/ld+json"
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+<JsonLd id="looker-studio-reporting-service-jsonld" data={jsonLd} />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className="flex flex-col items-center justify-center gap-5">
