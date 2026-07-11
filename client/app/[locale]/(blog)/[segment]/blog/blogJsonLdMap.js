@@ -86507,6 +86507,1310 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model",
+
+      "name": "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model/#article",
+
+      "headline": "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model",
+
+      "name": "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model",
+
+      "description": "İçerik yaşam döngüsü ve content pruning ile eski kampanya ve güncel olmayan içerikleri yönetin. CMS’te revision history, arşiv statüleri ve redirect kararlarıyla kullanıcı deneyimi ve SEO’yu güçlendirin.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "İçerik yaşam döngüsü, versiyonlama, arşiv ve content pruning politikalarıyla CMS envanter sağlığını koruma; redirect planı ve SEO bakım koordinasyonuyla sürdürülebilir içerik yönetimi danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "İçerik Yaşam Döngüsü ve Arşiv",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "İçerik yaşam döngüsü nedir, CMS’te nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İçeriklerin draft→review→publish→update→archive statüleriyle yönetilmesi ve periyodik review takvimiyle kontrol edilmesidir. Böylece eski içerikler güncellenir, riskli olanlar arşivlenir veya redirect edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eski içerikleri silmek mi, güncellemek mi gerekir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Trafik ve konu geçerliliği varsa güncellemek daha doğrudur. İçerik riskli ve yanıltıcıysa arşivlemek veya 301 ile daha güncel sayfaya yönlendirmek gerekir; karar performans metrikleri ve iş riskiyle verilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Versiyonlama ve revision history ne işimize yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hatalı yayınları geri almak, değişiklikleri karşılaştırmak, sorumluluğu izlemek ve kritik sayfalarda güvenli güncelleme yapmak için kullanılır. Ayrıca kampanya/hizmet sayfalarında hızlı geri dönüş sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için içerik arşiv politikası nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde sezonluk kampanyalar için expiry ve sezon sonrası arşiv/redirect kuralı gerekir; destinasyon içerikleri evergreen güncellenir. B2B’de eski hizmet/ürün sayfaları konsolide edilip redirect edilebilir; tarihli kaynaklar arşivlenebilir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model/#howto",
+
+      "name": "CMS’te içerik yaşam döngüsü ve content pruning kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Lifecycle statülerini ve review takvimini tanımla",
+
+          "text": "Draft/review/published/updated/archived statülerini kur; içerik tipine göre review periyodu ve sezonluk expiry alanı ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Revision history ve compare süreçlerini standardize et",
+
+          "text": "Revision saklamayı aç; kritik içerikler için compare ve rollback prosedürünü QA sürecine bağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Güncelle/arsiv/redirect kararlarını ver",
+
+          "text": "Performans ve risk metriklerine göre içerikleri update/merge/redirect/archive olarak sınıflandır; redirect chain oluşturmadan uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Pruning döngüsü ve raporlama ile sürdür",
+
+          "text": "Çeyreklik küçük, yıllık büyük pruning turu planla; 404 ve organik performansı /tr/seo/seo-raporlama ile izleyip dokümante et."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi",
+
+      "name": "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi/#article",
+
+      "headline": "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı",
+
+      "name": "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı",
+
+      "description": "Görsel ve videoları CMS’e yüklemek yerine DAM’de merkezileştirin; CMS’ten yalnız seçip kullanın. Metadata/etiketleme ve CDN dönüşüm katmanıyla medya yönetimi, performans ve marka tutarlılığını güçlendirin.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS–DAM entegrasyonu: merkezi medya yönetimi, metadata/etiket sözlüğü, CMS içinden DAM picker, CDN-backed dönüşüm ve performans optimizasyonu ile ölçeklenebilir görsel/video altyapısı danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS ve DAM Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "DAM nedir, CMS ile nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DAM, görsel ve video gibi dijital varlıkların merkezi yönetim sistemidir. Entegrasyonda medya DAM’de tutulur; CMS’te asset referansı (asset_id) ve kullanım bağlamı saklanır. Editör CMS içinden arayıp seçer; web CDN üzerinden optimize varyantı kullanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Medya dosyalarını CMS yerine DAM’de tutmanın avantajı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bulunabilirlik ve yeniden kullanım artar, tekrar upload azalır, telif/metadata kontrolü tek merkezden yapılır. CDN dönüşüm katmanı ile doğru boyut ve formatla performans daha iyi yönetilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde DAM kullanım senaryoları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda/destinasyon/etkinlik koleksiyonları ve kampanya reuse; B2B’de ürün modülü, ekip görselleri ve whitepaper/doküman asset yönetimi yaygın senaryolardır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "DAM–CMS entegrasyonunda performans (CDN, thumbnail) nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CDN-backed asset URL’leriyle otomatik format ve boyut dönüşümü kullanılmalı; kullanım bağlamına göre doğru varyant çağrılmalı; thumbnail/placeholder ve lazy-load ile algılanan hız artırılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi/#howto",
+
+      "name": "CMS + DAM ile merkezi medya yönetimi kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "DAM’de metadata ve etiket sözlüğünü kur",
+
+          "text": "Tema, lokasyon, haklar ve kullanım amaçlarını kapsayan etiket sözlüğü ile zorunlu metadata alanlarını (telif, tarih, açıklama) tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CMS’te DAM picker entegrasyonunu uygula",
+
+          "text": "CMS’te upload alanlarını sınırlayıp DAM picker ile asset seçimini standartlaştır; CMS’te asset_id ve kullanım bağlamı gibi referans alanlarını sakla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CDN dönüşüm ve varyant kurallarını belirle",
+
+          "text": "Hero/kart/thumbnail gibi kullanım bağlamlarına göre format (webp/avif), boyut ve crop kurallarını standardize et; lazy-load ve placeholder uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Otel/B2B koleksiyonlarını ve bakım döngüsünü yönet",
+
+          "text": "Oda/destinasyon/etkinlik veya ürün/doküman koleksiyonlarını oluştur; kullanım raporu çıkar ve 365 gün döngüde metadata/CDN stratejisini güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi",
+
+      "name": "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi/#article",
+
+      "headline": "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi",
+
+      "name": "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi",
+
+      "description": "Headless CMS projelerinde RBAC, API token/secret yönetimi, yedekleme ve disaster recovery planını birlikte kurgulayın. SaaS vs self-hosted sorumlulukları, restore testleri ve runbook ile kesinti riskini azaltın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Headless CMS güvenliği ve iş sürekliliği: RBAC/2FA/IP, API token & secret yönetimi, içerik+schema+ayar yedekleri, restore testleri ve disaster recovery runbook’u ile risk azaltma danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Headless CMS Güvenlik ve DR",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Headless CMS güvenliğini nasıl sağlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RBAC, 2FA/IP kısıtı, token/secret yönetimi (least privilege, rotasyon) ve audit log ile sağlamalısınız. Ayrıca yedekleme ve restore testleriyle iş sürekliliğini garanti altına alın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SaaS headless ve self-hosted çözümlerde backup sorumluluğu kimde?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SaaS’ta sağlayıcı altyapı yedeklerini tutabilir; ancak içerik model export’u, token yönetimi ve restore senaryosu çoğu zaman sizdedir. Self-hosted’da yedekleme ve DR uçtan uca sizin sorumluluğunuzdadır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "API token ve secret yönetimi nasıl yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Prod/dev ayrımıyla, least privilege scope’larla, secret manager kullanarak ve düzenli rotasyon/iptal prosedürüyle yapılmalıdır. Repo’da secret tutmamak ve offboarding’de token iptali kritiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için headless CMS disaster recovery planı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Outage, token sızıntısı ve veri kaybı gibi 3–5 senaryo için runbook yazılmalı; RTO/RPO hedefleri belirlenmeli; restore tatbikatı düzenli yapılmalıdır. İletişim planı ve sorumlular net olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi/#howto",
+
+      "name": "Headless CMS güvenlik ve DR planı kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sorumluluk ve riskleri belirle",
+
+          "text": "SaaS vs self-hosted sorumluluk matrisini çıkar; kritik senaryolar için RTO/RPO hedeflerini iş birimleriyle belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişim ve token güvenliğini kur",
+
+          "text": "RBAC/2FA/IP kısıtlarını uygula; token scope’larını daralt, secret manager kullan ve rotasyon/iptal prosedürü yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Backup ve restore döngüsünü oluştur",
+
+          "text": "İçerik+schema+ayar yedeklerini otomatikleştir; retention belirle ve staging’de düzenli restore tatbikatı yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "DR runbook ve iletişim planını test et",
+
+          "text": "Outage/sızıntı/veri kaybı senaryoları için adım adım runbook yaz; alarm ve postmortem sürecini ekle; düzenli tatbikatla güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi",
+
+      "name": "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi/#article",
+
+      "headline": "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı",
+
+      "name": "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı",
+
+      "description": "CMS editörleri için ilk 30 günlük onboarding ve eğitim programı: rol bazlı öğrenme, test ortamı, panel içi style guide, guardrail’ler ve publish checklist ile hataları azaltıp üretkenliği artırın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS editör onboarding ve eğitim programı tasarımı: rol bazlı eğitim, panel içi help text/style guide entegrasyonu, guardrail’ler, publish checklist ve test ortamı ile panel benimsenmesini artırma danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS Editör Onboarding",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS editör onboarding’i nasıl planlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Role göre hedefler belirleyip 30 günlük kademeli planla planlanmalı: test ortamında pratik, panel içi help text, template sayfalar ve publish checklist ile desteklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yeni gelen içerik editörlerine paneli nasıl öğretmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce standartları (style guide, SEO temel, workflow) öğretip panelde karşılığını gösterin. Test ortamında görev verin ve ilk yayınları mentor review ile kontrol edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi hatalar en sık yapılıyor, nasıl önlerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Eksik meta, bozuk H hiyerarşisi, ağır/yanlış görsel ve kırık link en sık hatalardır. Publish gate, checklist, template ve preview/staging testi ile önlenir; kritik sayfalarda ikinci onay eklemek etkili olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için CMS eğitim dokümanı neler içermeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rol bazlı kullanım, draft-review-publish akışı, görsel/CTA kuralları, SEO alanları, sık hata listesi, “ne yapma” guardrail’leri ve otel kampanya/oda ile B2B hizmet/case/asset senaryolarını içermelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi/#howto",
+
+      "name": "CMS editörleri için 30 günlük onboarding programı kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rol bazlı hedefleri ve ortamı hazırla",
+
+          "text": "Yazar/editör/admin rollerini tanımla; test/staging ortamını eğitim standardı yap ve template sayfaları oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Panel içi kuralları entegre et",
+
+          "text": "Style guide özetini help text olarak panele ekle; publish gate ile meta/H/görsel/CTA kontrollerini zorunlu kıl."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "30 günlük görev planını uygula",
+
+          "text": "Haftalık görevler (draft, preview, SEO, senaryo) ver; ilk 10 yayın için mentor review uygula ve ölçüm KPI’larını takip et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Guardrail ve ölçümle ölçekle",
+
+          "text": "Sık hatalar için checklist ve “ne yapma” listesi oluştur; 30 gün sonunda geri bildirimle planı güncelle ve yetkileri başarıya bağla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 },

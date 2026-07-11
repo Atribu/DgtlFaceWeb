@@ -474,7 +474,12 @@ export const BLOG_MAP = {
     "cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle":"BlogCMSWebhookVeOtomasyonSenaryolariYayinlaTetikle",
     "cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi":"BlogCMSMigrasyonuBirCMSTenDigerineGuvenliGecisStratejisi",
     "kisisellestirme-ve-segment-bazli-icerik-cms-ile-dinamik-web-deneyimi":"BlogKisisellestirmeVeSegmentBazliIcerikCMSIleDinamikWebDeneyimi",
-    "cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi":"BlogCMSBlockEditorVePageBuilderYapilariEsneklikVeKontrolDengesi"
+    "cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi":"BlogCMSBlockEditorVePageBuilderYapilariEsneklikVeKontrolDengesi",
+
+    "icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model":"BlogIcerikYasamDongusuVersiyonlamaVeArsivYapisiCMSIcinModel",
+    "cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi":"BlogCMSVeDAMEntegrasyonuGorselVeVideoYonetimindeMerkeziYapi",
+    "headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi":"BlogHeadlessCMSGuvorluguYedeklemeVeDisasterRecoveryStratejisi",
+    "cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi":"BlogCMSEditorOnboardingVeEgitimPanelKullananEkiplerIcinOyunKitabi"
   },
    
   creative: {

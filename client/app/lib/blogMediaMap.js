@@ -45105,6 +45105,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "Blok seti ve governance çıktıları, ajans ve kurum bağlamı",
       caption: "Blok seti ve governance çıktıları, ajans ve kurum bağlamı"
     }
+  },
+
+
+  "icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model":{
+    banner: {
+      src: "/images/blog/software/Software2-12/Software2-12-1.webp",
+      alt: "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model",
+      caption: "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-12/Software2-12-2.webp",
+      alt: "Draft publish update archive akış özeti, içerik yönetimi bağlamı",
+      caption: "Draft publish update archive akış özeti, içerik yönetimi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-12/Software2-12-3.webp",
+    alt: "Envanter ve lifecycle kurgusu görseli, içerik operasyon bağlamı",
+      caption: "Envanter ve lifecycle kurgusu görseli, içerik operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-12/Software2-12-4.webp",
+      alt: "Content decay ve arşiv politikası görseli, SEO bakım bağlamı",
+      caption: "Content decay ve arşiv politikası görseli, SEO bakım bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-12/Software2-12-5.webp",
+      alt: "İçerik yaşam döngüsü ve versiyonlama akış diyagramı, governance bağlamı",
+      caption: "İçerik yaşam döngüsü ve versiyonlama akış diyagramı, governance bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-12/Software2-12-6.webp",
+      alt: "Content pruning checklist kartı, içerik ve SEO ekipleri bağlamı",
+      caption: "Content pruning checklist kartı, içerik ve SEO ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-12/Software2-12-7.webp",
+      alt: "Organik performans ve 404 KPI kartı, envanter sağlığı bağlamı",
+      caption: "Organik performans ve 404 KPI kartı, envanter sağlığı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-12/Software2-12-8.webp",
+      alt: "Arşiv politikası ve pruning çıktıları, güven unsuru bağlamı",
+      caption: "Arşiv politikası ve pruning çıktıları, güven unsuru bağlamı"
+    }
+  },
+
+  "cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi":{
+    banner: {
+      src: "/images/blog/software/Software2-13/Software2-13-1.webp",
+      alt: "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı",
+      caption: "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-13/Software2-13-2.webp",
+      alt: "CMS’ten DAM seçimi ve varyant kullanımı özeti, içerik üretim bağlamı",
+      caption: "CMS’ten DAM seçimi ve varyant kullanımı özeti, içerik üretim bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-13/Software2-13-3.webp",
+    alt: "CMS içinden DAM kullanımı görseli, editoryal UX bağlamı",
+      caption: "CMS içinden DAM kullanımı görseli, editoryal UX bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-13/Software2-13-4.webp",
+      alt: "Otel ve B2B DAM senaryoları görseli, üretim operasyon bağlamı",
+      caption: "Otel ve B2B DAM senaryoları görseli, üretim operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-13/Software2-13-5.webp",
+      alt: "CMS DAM entegrasyon akış diyagramı, merkezi medya mimarisi bağlamı",
+      caption: "CMS DAM entegrasyon akış diyagramı, merkezi medya mimarisi bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-13/Software2-13-6.webp",
+      alt: "DAM CMS checklist kartı, tasarım içerik teknik ekip bağlamı",
+      caption: "DAM CMS checklist kartı, tasarım içerik teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-13/Software2-13-7.webp",
+      alt: "Medya bulma süresi ve tekrar upload KPI kartı, operasyon verimliliği bağlamı",
+      caption: "Medya bulma süresi ve tekrar upload KPI kartı, operasyon verimliliği bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-13/Software2-13-8.webp",
+      alt: "Metadata şeması ve entegrasyon çıktıları, marka tutarlılığı bağlamı",
+      caption: "Metadata şeması ve entegrasyon çıktıları, marka tutarlılığı bağlamı"
+    }
+  },
+
+  "headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software2-14/Software2-14-1.webp",
+      alt: "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi",
+      caption: "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-14/Software2-14-2.webp",
+      alt: "RBAC token backup üçlüsü özeti, iş sürekliliği bağlamı",
+      caption: "RBAC token backup üçlüsü özeti, iş sürekliliği bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-14/Software2-14-3.webp",
+    alt: "Backup politikaları bölümü görseli, teknik operasyon bağlamı",
+      caption: "Backup politikaları bölümü görseli, teknik operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-14/Software2-14-4.webp",
+      alt: "Token ve secret yönetimi bölümü görseli, güvenlik bağlamı",
+      caption: "Token ve secret yönetimi bölümü görseli, güvenlik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-14/Software2-14-5.webp",
+      alt: "DR senaryosu akış şeması, restore ve failover bağlamı",
+      caption: "DR senaryosu akış şeması, restore ve failover bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-14/Software2-14-6.webp",
+      alt: "Headless güvenlik ve DR checklist kartı, kriz yönetimi bağlamı",
+      caption: "Headless güvenlik ve DR checklist kartı, kriz yönetimi bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-14/Software2-14-7.webp",
+      alt: "RTO RPO ve restore süresi KPI kartı, iş sürekliliği bağlamı",
+      caption: "RTO RPO ve restore süresi KPI kartı, iş sürekliliği bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-14/Software2-14-8.webp",
+      alt: "Runbook ve güvenlik çıktıları proof kartı, güven unsuru bağlamı",
+      caption: "Runbook ve güvenlik çıktıları proof kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi":{
+    banner: {
+      src: "/images/blog/software/Software2-15/Software2-15-1.webp",
+      alt: "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı",
+      caption: "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-15/Software2-15-2.webp",
+      alt: "İlk 30 gün eğitim akışı özeti, panel benimsenmesi bağlamı",
+      caption: "İlk 30 gün eğitim akışı özeti, panel benimsenmesi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-15/Software2-15-3.webp",
+    alt: "30 günlük plan bölümü görseli, eğitim operasyon bağlamı",
+      caption: "30 günlük plan bölümü görseli, eğitim operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-15/Software2-15-4.webp",
+      alt: "Guardrail ve sık hata önleme görseli, yayın güvenliği bağlamı",
+      caption: "Guardrail ve sık hata önleme görseli, yayın güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-15/Software2-15-5.webp",
+      alt: "CMS editör onboarding akış diyagramı, rol bazlı eğitim bağlamı",
+      caption: "CMS editör onboarding akış diyagramı, rol bazlı eğitim bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-15/Software2-15-6.webp",
+      alt: "İlk 30 gün checklist kartı, editör enablement bağlamı",
+      caption: "İlk 30 gün checklist kartı, editör enablement bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-15/Software2-15-7.webp",
+      alt: "Üretkenliğe ulaşma süresi ve hata oranı KPI kartı, ekip performansı bağlamı",
+      caption: "Üretkenliğe ulaşma süresi ve hata oranı KPI kartı, ekip performansı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-15/Software2-15-8.webp",
+      alt: "Eğitim kiti deliverables kartı, ajans ve kurum bağlamı",
+      caption: "Eğitim kiti deliverables kartı, ajans ve kurum bağlamı"
+    }
   }
   
 };

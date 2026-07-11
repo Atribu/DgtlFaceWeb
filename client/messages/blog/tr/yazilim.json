@@ -30330,10 +30330,6 @@
             ]
           },
           {
-            "type": "media",
-            "slot": "checklist-06"
-          },
-          {
             "type": "h3",
             "text": "Eski ve yeni içerik modellerini nasıl eşleştiririm? "
           },
@@ -30499,9 +30495,9 @@
             "type": "p",
             "text": "Migrasyonun gözden kaçan kısmı “insan”dır: içerik ekibi yeni paneli öğrenmezse üretim yavaşlar. Otelde kampanya dönemi yaklaşırken panel değişimi yapmak ekstra risklidir; B2B’de ise lead akışları ve landing sayfaları etkilenebilir. Bu yüzden eğitim ve geçiş planı migration’ın parçasıdır."
           },
-          {
+                    {
             "type": "media",
-            "slot": "divider-03"
+            "slot": "checklist-06"
           },
           {
             "type": "h3",
@@ -30611,11 +30607,7 @@
           },
           {
             "type": "media",
-            "slot": "checklist-06"
-          },
-          {
-            "type": "media",
-            "slot": "diagram-05"
+            "slot": "kpi-07"
           }
         ]
       },
@@ -31452,7 +31444,7 @@
           },
           {
             "type": "h3",
-            "text": "CMS block editor nedir, page builder’dan farkı nedir? (AEO – Soru formatı)"
+            "text": "CMS block editor nedir, page builder’dan farkı nedir? "
           },
           {
             "type": "p",
@@ -31471,7 +31463,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Blokları “tasarım sistemi bileşeni” olarak tanımla (tekil kurallar).",
               "Page builder varsa “izinli layout bölgeleri” ile sınırla.",
@@ -31496,7 +31488,7 @@
           },
           {
             "type": "h3",
-            "text": "Tamamen serbest page builder mı, kısıtlı şablon mu kullanmalıyım? (AEO – Soru formatı)"
+            "text": "Tamamen serbest page builder mı, kısıtlı şablon mu kullanmalıyım? "
           },
           {
             "type": "p",
@@ -31530,7 +31522,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Layout’u “bölge” bazında kısıtla (header/hero/body/footer).",
               "Structured alanları zorunlu kıl (H1, meta, görsel, CTA).",
@@ -31555,7 +31547,7 @@
           },
           {
             "type": "h3",
-            "text": "Blok yapısı performans ve tasarım tutarlılığını nasıl etkiler? (AEO – Soru formatı)"
+            "text": "Blok yapısı performans ve tasarım tutarlılığını nasıl etkiler? "
           },
           {
             "type": "p",
@@ -31588,7 +31580,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Sayfa türüne göre blok bütçesi tanımla (max blok).",
               "Ağır blokları sınırlı tut (video/slider).",
@@ -31660,7 +31652,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Otel ve B2B için ayrı “izinli blok seti” oluştur.",
               "Hero ve CTA gibi kritik alanları kilitle (brand kontrol).",
@@ -31681,7 +31673,7 @@
           },
           {
             "type": "h3",
-            "text": "Editörlere esneklik vermek istiyorum ama site dağılmasın, ne yapmalıyım? (AEO – Soru formatı)"
+            "text": "Editörlere esneklik vermek istiyorum ama site dağılmasın, ne yapmalıyım? "
           },
           {
             "type": "p",
@@ -31752,7 +31744,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Design system + blok kütüphanesini tek kaynak yap.",
               "Editör izinlerini blok seviyesinde sınırla (RBAC ile uyumlu).",
@@ -31796,7 +31788,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO – aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "H1’i şablon seviyesinde kilitle; bloklardan H1 üretme.",
               "Heading seviyelerini blok içinde otomatikleştir (H2/H3).",
@@ -31954,6 +31946,2433 @@
           "UI/UX ve front-end ekipleri blokların semantik çıktısını denetledi",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)"
+        ]
+      }
+    }
+  },
+
+  "BlogIcerikYasamDongusuVersiyonlamaVeArsivYapisiCMSIcinModel": {
+    "title": "CMS İçerik Yaşam Döngüsü ve Content Pruning Rehberi",
+    "slug": "icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "11 Temmuz 2026",
+    "publishedAt": "2026-07-11",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "İçerik yaşam döngüsü; içeriklerin draft→publish→update→archive adımlarıyla planlı yönetilmesidir. CMS’te revision history, arşiv statüleri ve content pruning kriterleriyle hangi içeriğin güncelleneceğini, arşivleneceğini veya redirect edileceğini netleştirin.",
+    "seo": {
+      "metaTitle": "CMS İçerik Yaşam Döngüsü ve Content Pruning Rehberi | DGTLFACE",
+      "metaDescription": "Eski kampanya ve güncel olmayan içerikleri yönetmek için lifecycle (draft→publish→archive), revision history, arşiv ve content pruning politikası kurun. Otel & B2B için sınıflandırma tablosu + checklist. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: Blog #12 — /tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model"
+      ],
+      "strategySummary": "Bu blog, TR’de üretimi konuşulup bakımı unutulan “content hygiene” boşluğunu kapatan core rehberdir: eski kampanyalar, kapanmış hizmetler ve güncel olmayan yazılar marka algısını ve SEO’yu zayıflatır. Hedef persona; otel/B2B marka sahipleri ve pazarlama/SEO liderleri kadar, içerik operasyon ve teknik ekiplerdir. Funnel’da consideration (MoFu) aşamasında; “ne zaman güncelle, ne zaman arşivle, ne zaman redirect?” kararını standardize eder. Ana iş sorusu: “İçerik envanterini yaşam döngüsü, versiyon ve arşiv politikasıyla nasıl düzenli tutarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-11",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İçerik yaşam döngüsü; içeriklerin draft→publish→update→archive adımlarıyla planlı yönetilmesidir. Bu modeli kurmayan sitelerde yıllar içinde eski sezona ait kampanyalar, kapanmış hizmetler ve güncel olmayan bloglar birikir; marka algısı ve SEO zayıflar. CMS’te revision history, compare ekranları, arşiv statüleri ve content pruning (temizleme) kriterleriyle; hangi içeriğin güncelleneceği, hangisinin arşivleneceği veya redirect edileceği netleşir. Otel/B2B’de sezonluk içerikler için arşiv politikası kritik fark yaratır.",
+      "sgeSummary": "CMS’te içerik yaşam döngüsü kur: publish sonrası düzenli review, revision history ve arşiv statüleri. Eski içerikleri güncelle/redirect/arşiv kararını performans metrikleriyle ver; content pruning checklist’iyle envanteri sağlıklı tut.",
+      "voiceAnswer": "Eski kampanyaları ve yazıları lifecycle ile sınıflandırın; güncelle, arşivle veya 301 ile yönlendir kararı verin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B içerik ve SEO ekipleri, ajanslar, web yöneticileri",
+        "Ana KPI: organik trafik trendi, CTR, engagement, 404 oranı, indeks kalitesi, bakım iş yükü",
+        "Entity’ler: content lifecycle, revision, archive, pruning, redirect, content decay",
+        "Funnel: MoFu (Informational + Strategic) → arşiv politikası analizi talebi",
+        "Risk odağı: eski sezon kampanyaları, kapanmış hizmetler, duplicate/çakışan içerik, yanlış redirect",
+        "Model: inventory health + evergreen vs seasonal yönetimi",
+        "Fark yaratan açı: üretim değil “bakım” sistemini standardize etmek"
+      ]
+    },
+    "h1": {
+      "title": "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model",
+      "intro": "İçerik üretimi kolaylaştıkça, içerik birikimi de hızlanır. CMS’te yaşam döngüsü yönetmeyen sitelerde birkaç yıl içinde “eski sezon kampanyaları”, “kapanmış hizmet sayfaları” ve güncellenmemiş bloglar çoğalır; kullanıcı “bu marka güncel mi?” diye şüphe eder, SEO tarafında da içerik kalitesi sinyali zayıflar. Bu yüzden içerikleri “her zaman açık” bırakmak yerine; lifecycle (draft→publish→update→archive), revision history ve content pruning politikalarıyla düzenli bakım yapmak gerekir. Bu rehber; otel ve B2B sitelerinde hangi içeriğin güncelleneceğini, hangisinin arşivleneceğini, hangisinin redirect edileceğini belirleyen uygulanabilir bir CMS modelini anlatır.",
+      "quickSummary": [
+        "1) CMS’te lifecycle statülerini standartlaştır.",
+        "2) Her içerik tipine “review periyodu” ekle (365 döngüyle uyumlu).",
+        "3) Sezonluk içeriklere otomatik “expiry/review” tarihi koy.",
+        "4) Her içerik için “güncelle/arsiv/redirect” etiketi koy.",
+        "5) Redirect kararlarını mapping listesiyle uygula; chain’i engelle."
+      ],
+      "ctaPrimary": {
+        "label": "İçerik Yaşam Döngüsü & Arşiv Politikası Analizi Talep Et",
+        "text": "Uzun süredir içerik üreten otel ve B2B sitelerinde content decay’i azaltıp SEO ve kullanıcı güvenini korumak isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "İçerik Yaşam Döngüsü & Arşiv Politikası Analizi Talep Et",
+        "text": "Eski kampanya ve güncel olmayan içerikleri lifecycle, arşiv ve pruning politikasıyla düzenleyip kullanıcı deneyimi ve SEO’yu güçlendirin.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "İçerik Envanteri, Versiyonlama & Pruning Planlama Şablonunu İndir",
+        "text": "İçeriklerinizi aktif/güncellenecek/arşivlenecek olarak sınıflandırıp update/redirect kararlarını tek dokümanda planlamanızı sağlar.",
+        "href": "/downloads/icerik-envanteri-versiyonlama-pruning-planlama-sablonu-v1.0.xlsx"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      },
+      {
+        "title": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "icerik-yasam-dongusu-nedir",
+        "title": "İçerik Yaşam Döngüsü Nedir? (Draft→Publish→Update→Archive)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "p",
+            "text": "İçerik yaşam döngüsü, bir içeriğin “yayına girdi” noktasıyla bitmediğini kabul eder. İçerik; yayınlandıktan sonra güncellenir, zamanla yaşlanır (content decay), bazıları evergreen kalır, bazıları sezonluk olduğu için arşivlenmelidir. CMS’te lifecycle’ı kurmak, “ne zaman ne yapacağımızı” süreçleştirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Temel lifecycle adımları:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Draft: hazırlanıyor",
+              "Review: kontrol/ onay",
+              "Published: canlı",
+              "Updated: güncellendi (sürüm arttı)",
+              "Archived: artık aktif değil (noindex/redirect kararıyla)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İçerik yaşam döngüsü nedir, CMS’te nasıl yönetilir? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: İçerikleri statülerle yönetip periyodik review takvimi koyarak; güncellenecek, arşivlenecek ve redirect edilecek içerikleri standardize ederek yönetilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "İçeriklerinizin “son güncelleme” tarihi görünür mü?",
+              "Sezonluk içeriklerin otomatik “review” zamanı var mı?",
+              "Arşiv statüsü, SEO aksiyonuyla (noindex/redirect) bağlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CMS’te lifecycle statülerini standartlaştır.",
+              "Her içerik tipine “review periyodu” ekle (365 döngüyle uyumlu).",
+              "Sezonluk içeriklere otomatik “expiry/review” tarihi koy.",
+              "Arşiv statüsünün SEO davranışını netleştir (noindex/redirect).",
+              "İçerik sahibini (owner) alan olarak ekle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "versiyonlama-ve-revision-history",
+        "title": "Versiyonlama ve Revision History",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Revision history, yalnız “geri al” değil; kalite kontrol ve sorumluluk için de kritiktir. Özellikle otellerde kampanya koşulları veya B2B’de hizmet vaatleri değiştiğinde; “kim neyi değiştirdi?” sorusu hem operasyon hem hukuk açısından önemlidir. Compare ekranları; önceki sürümle yeni sürümü kıyaslayarak hatayı yakalamanızı sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Versiyonlama ve revision history ne işimize yarar? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Yanlış yayını geri almak, değişiklikleri kıyaslamak, sorumluluğu izlemek ve içerik kararlarını daha güvenli vermek için kullanılır."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik öneriler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Major/minor mantığı: v1.0 → v1.1 (küçük) / v2.0 (büyük revizyon)",
+              "Compare: başlık, meta, CTA, kritik alanlar için hızlı kıyas",
+              "Rollback: kampanya dönemi “son iyi sürüm” etiketi (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Kritik sayfalarda (kampanya/hizmet) rollback süresi kaç dakika?",
+              "Revision saklama süresi tanımlı mı?",
+              "Compare ekranı kullanılıyor mu yoksa “göz kararı” mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Revision history’yi kapatma; standart hale getir.",
+              "Kritik içerikler için “release note” alanı ekle (ne değişti?).",
+              "Compare ekranını QA sürecine bağla.",
+              "Rollback prosedürü oluştur (content rollback vs redirect).",
+              "Versiyon etiketlemeyi (v1.0/v1.1) minimal ama tutarlı tut."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eski-icerikleri-guncellemek-vs-arsivlemek",
+        "title": "Eski İçerikleri Güncellemek vs Arşivlemek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En zor karar: eski içerik ne olacak? Üç temel seçenek vardır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Güncelle (evergreen yap): konu hâlâ değerli ve trafik potansiyeli var",
+              "Arşivle (noindex / arşiv sayfasına taşı): artık aktif değil ama kayıt amaçlı saklanacak",
+              "Redirect (301): içerik artık gereksiz; daha güncel/uygun sayfaya yönlendirilecek"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında “geçmiş sezon kampanyaları” genelde arşiv/redirect adayıdır; B2B’de “eski ürün/hizmet” sayfaları ise çoğu zaman redirect veya açıklamalı arşiv olarak yönetilir."
+          },
+          {
+            "type": "h3",
+            "text": "Eski içerikleri silmek mi, güncellemek mi gerekir? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Performansı ve iş riskini ölçün: trafik/niyet hâlâ varsa güncelleyin; artık yanlış beklenti yaratıyorsa arşivleyin veya 301 ile yönlendirin."
+          },
+          {
+            "type": "h3",
+            "text": "Karar kriterleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik trafik trendi (düşüş var mı?)",
+              "Güncellik riski (yanlış bilgi, kapanmış hizmet)",
+              "İç link ve backlink değeri (Varsayım: varsa)",
+              "Kullanıcı etkileşimi (bounce/scroll/engagement)",
+              "İş hedefiyle uyum (hala satılıyor mu?)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "İçerik yanlış beklenti yaratıyor mu? (yüksek risk)",
+              "URL’in değeri var mı? (link/marka)",
+              "Güncellemek için kaynak var mı, yoksa birleştirmek daha mı mantıklı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her içerik için “güncelle/arsiv/redirect” etiketi koy.",
+              "Yüksek riskli içerikleri (kapanmış hizmet/bitmiş kampanya) önce ele al.",
+              "Evergreen’e çevrilecek içeriklerde “son güncelleme” notu ekle.",
+              "Arşiv içerikleri noindex/robots kuralıyla yönet (Varsayım: stratejiye göre).",
+              "Redirect kararlarını mapping listesiyle uygula; chain’i engelle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "İçerik Envanteri, Versiyonlama & Pruning Planlama Şablonunu İndir",
+            "text": "İçeriklerinizi aktif/güncellenecek/arşivlenecek olarak sınıflandırıp update/redirect kararlarını tek dokümanda planlamanızı sağlar.",
+            "href": "/downloads/icerik-envanteri-versiyonlama-pruning-planlama-sablonu-v1.0.xlsx"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-icerik-yaslanma-yonetimi",
+        "title": "Otel ve B2B İçin İçerik Yaşlanma (Content Decay) Yönetimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Content decay, her içerikte olur; ama bazı dikeylerde daha hızlıdır. Otellerde sezonluk kampanyalar, etkinlik sayfaları, fiyat/koşul içeren içerikler hızlı eskir. B2B’de ürün/hizmet güncellemeleri, entegrasyon dokümanları ve “yıl/çeyrek” referanslı içerikler daha hızlı bayatlar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için pratik lifecycle politikası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon kampanyası: “expiry” tarihi + sezon sonrası arşiv/redirect kararı",
+              "Destinasyon içerikleri: evergreen (yıllık güncelleme)",
+              "Oda içerikleri: değişiklik oldukça revizyon + görsel güncelleme",
+              "Eski kampanya URL’leri: en yakın “kampanyalar” hub’ına redirect (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için pratik lifecycle politikası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eski hizmet sayfası: yeni hizmete redirect + açıklama notu",
+              "Case/whitepaper: tarih etiketli arşiv (noindex değilse bile net tarih)",
+              "Blog içerikleri: yılda 1 review; performans düşükse birleştir/prune"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO paragrafı (içerik yaşam döngüsü modeli)"
+          },
+          {
+            "type": "p",
+            "text": "Content lifecycle, revision, archive, pruning ve redirect; tek bir “içerik envanteri sağlığı” modelinin parçalarıdır. CMS’te lifecycle statüleri ve revision history; içeriğin ne zaman güncellendiğini ve hangi sürümün canlı olduğunu yönetir. Arşiv ve pruning politikası; content decay yaşayan sayfaları sınıflandırıp, kullanıcı ve SEO açısından doğru aksiyonu (güncelle/arsiv/redirect) seçmenizi sağlar. Bu model, evergreen ve seasonal içerikleri farklı kurallarla yöneterek hem marka güvenini hem organik performansı korur."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Sezonluk içeriklerde “review/expiry” alanı var mı?",
+              "B2B’de eski ürün/hizmet sayfaları hâlâ satış vaadi mi taşıyor?",
+              "İçerik sahipliği (owner) belli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel: kampanya sayfalarına expiry + sezon sonrası aksiyon ekle.",
+              "B2B: eski hizmetleri redirect ile konsolide et.",
+              "CMS dashboard’unda “review due” listesi oluştur.",
+              "İçerik sahipliğini netleştir (owner).",
+              "Her çeyrek küçük, yılda bir büyük pruning turu planla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "content-pruning-ve-redirect-kararlari",
+        "title": "Content Pruning ve Redirect Kararları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Content pruning; “sil gitsin” değil, envanteri sağlıklı tutmak için kontrollü temizliktir. Ama pruning’in doğru çalışması için SEO ve raporlama ile birlikte yürütülmesi gerekir: hangi içerik gerçekten değersiz, hangisi güncellenince toparlar?"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet ile uyum): Pruning ve arşiv kararları /tr/seo/icerik-seo ve /tr/seo/seo-raporlama ile birlikte, organik performans metriklerine bakarak verilmelidir."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "“Ne zaman güncelle, ne zaman redirect/arsivle?” hızlı kural seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trafik var + konu hâlâ geçerli → Güncelle",
+              "Trafik yok + içerik overlapped → Birleştir + redirect",
+              "Trafik var ama içerik riskli/eski → Güncelle veya arşiv (risk seviyesine göre)",
+              "Sezon bitti + kampanya sayfası → Arşiv/redirect (politikaya göre)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Redirect zinciri oluşturuyor musunuz? (kaçın)",
+              "Arşiv sayfaları kullanıcıya net “bu eski” sinyali veriyor mu?",
+              "Pruning sonrası sitemap/canonical kontrolleri yapılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Pruning adaylarını rapordan çıkar (top düşüş, düşük engagement).",
+              "Her adaya aksiyon ata: update/merge/redirect/archive.",
+              "Redirect mapping’i test et (chain yok).",
+              "Yayın sonrası 404 ve trafik trendini izle.",
+              "Pruning kararlarını dokümante et (neden, tarih, owner)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uretim-kadar-bakim-da-stratejidir",
+        "title": "Üretim Kadar Bakım da Stratejidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de içerik üretimi bolca konuşulurken, içerik temizliği ve arşiv politikası pek ele alınmıyor. Oysa içerik birikimi kontrol edilmezse, “çok içerik” avantaj değil dezavantaja dönüşür: eski kampanyalar, kapalı hizmetler ve güncel olmayan yazılar hem kullanıcı güvenini hem SEO sinyallerini zayıflatır. Bu rehberin farkı; lifecycle + revision + archive + pruning yaklaşımını tek bir governance modeli olarak sunmasıdır."
+          }
+        ]
+      },
+      {
+        "id": "icerik-envanteri-versiyonlama-pruning-planlama-sablonu",
+        "title": "İçerik Envanteri, Versiyonlama & Pruning Planlama Şablonunu İndir — Yazılım / Content Lifecycle",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "İçerik Envanteri, Versiyonlama & Pruning Planlama Şablonunu İndir — Yazılım / Content Lifecycle (v1.0)",
+            "purpose": "Bu audit sheet; içerik envanterinizi “aktif / güncellenecek / arşivlenecek / redirect” kararlarına göre skorlayıp önceliklendirmek için tasarlanmıştır. Revision history ve content decay sinyallerini bir araya getirerek; otel ve B2B sitelerinde düzenli bakım (content hygiene) rutini kurmanızı sağlar.",
+            "whoFor": "İçerik lideri, SEO lideri, ajans içerik/performans yöneticisi.",
+            "steps": [
+              "İçerik listesini (URL + tip) girin ve skorlayın.",
+              "Kırmızı/Sarı/Yeşil sonuçlara göre aksiyon seçin (update/merge/redirect/archive).",
+              "14 günlük sprintle en yüksek riski taşıyan içerikleri temizleyin ve raporlayın."
+            ],
+            "checklist": [
+              "Güncellik riski (0–5): ___",
+              "Trafik potansiyeli (0–5): ___",
+              "İş riski (yanlış bilgi) (0–5): ___",
+              "İç link/backlink değeri (0–5): ___ (Varsayım: biliniyorsa)",
+              "Güncelleme eforu (0–5): ___",
+              "Toplam skor: ___"
+            ],
+            "href": "/downloads/icerik-envanteri-versiyonlama-pruning-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pruning backlog + öncelik",
+              "Redirect mapping listesi",
+              "Arşiv politikası dokümanı (v1.0)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: “Az ama güncel” envanter, hem kullanıcı hem SEO için daha güçlü",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Düzenli content pruning yapılan sitelerde, “az ama kaliteli” içerik setlerinin daha iyi çalıştığı sıkça raporlanır (sonuçlar sektöre ve kaliteye bağlıdır). Lifecycle ve arşiv modelini CMS’te kurduğunuzda; içerik ekibi neyi güncelleyeceğini bilir, SEO ekibi riskli içerikleri kontrol eder, marka algısı güncel kalır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "İçerik Yaşam Döngüsü & Arşiv Politikası Analizi Talep Et",
+            "text": "İçerik envanterinizi düzenli tutup decay’i azaltmak ve SEO performansını güçlendirmek isteyen otel ve B2B ekipleri için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "İçerik yaşam döngüsü nedir, CMS’te nasıl yönetilir?",
+        "a": "İçeriklerin draft→review→publish→update→archive statüleriyle yönetilmesi ve periyodik review takvimiyle kontrol edilmesidir. Böylece eski içerikler güncellenir, riskli olanlar arşivlenir veya redirect edilir."
+      },
+      {
+        "q": "Eski içerikleri silmek mi, güncellemek mi gerekir?",
+        "a": "Trafik ve konu geçerliliği varsa güncellemek daha doğrudur. İçerik riskli ve yanıltıcıysa arşivlemek veya 301 ile daha güncel sayfaya yönlendirmek gerekir. Karar, performans metrikleri ve iş riskiyle verilmelidir."
+      },
+      {
+        "q": "Versiyonlama ve revision history ne işimize yarar?",
+        "a": "Hatalı yayınları geri almak, değişiklikleri karşılaştırmak, sorumluluğu izlemek ve kritik sayfalarda güvenli güncelleme yapmak için kullanılır. Ayrıca kampanya/hizmet sayfalarında “son iyi sürüm”e hızlı dönüş sağlar."
+      },
+      {
+        "q": "Otel ve B2B için içerik arşiv politikası nasıl olmalı?",
+        "a": "Otelde sezonluk kampanyalar için expiry ve sezon sonrası arşiv/redirect kuralı gerekir; destinasyon içerikleri ise evergreen güncellenir. B2B’de eski hizmet/ürün sayfaları konsolide edilip redirect edilebilir; tarihli kaynaklar arşivlenebilir."
+      },
+      {
+        "q": "Content pruning nedir?",
+        "a": "İçerik envanterini sağlıklı tutmak için düşük değerli, çakışan veya riskli içerikleri güncellemek, birleştirmek, arşivlemek ya da redirect etmek üzere planlı temizlik yapmaktır."
+      },
+      {
+        "q": "Arşivlemek mi yoksa redirect mi?",
+        "a": "İçerik hâlâ referans değeri taşıyorsa (geçmiş sezon gibi) arşivlemek uygun olabilir; içerik gereksizse ve eşdeğer güncel sayfa varsa redirect daha doğru olur. Chain oluşturmadan tek adım 301 hedeflenmelidir."
+      },
+      {
+        "q": "Pruning kararını hangi metriklerle vermeliyim?",
+        "a": "Organik trafik trendi, CTR, engagement, güncellik riski ve içerik çakışması temel metriklerdir. /tr/seo/seo-raporlama ile performansı izleyip /tr/seo/icerik-seo ile içerik stratejisine bağlamak en sağlıklısıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-hero-01.webp — Alt text: İçerik yaşam döngüsü ve pruning modeli, otel ve B2B bağlamı",
+          "h1-context — 1920×1080 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-h1-context-02.webp — Alt text: Draft publish update archive akış özeti, içerik yönetimi bağlamı",
+          "divider-01 — 1600×1200 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-divider-03.webp — Alt text: Envanter ve lifecycle kurgusu görseli, içerik operasyon bağlamı",
+          "divider-02 — 1600×1200 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-divider-04.webp — Alt text: Content decay ve arşiv politikası görseli, SEO bakım bağlamı",
+          "diagram-05 — 1920×1080 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-diagram-05.webp — Alt text: İçerik yaşam döngüsü ve versiyonlama akış diyagramı, governance bağlamı",
+          "checklist-06 — 1200×1200 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-checklist-06.webp — Alt text: Content pruning checklist kartı, içerik ve SEO ekipleri bağlamı",
+          "kpi-07 — 1200×1200 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-kpi-07.webp — Alt text: Organik performans ve 404 KPI kartı, envanter sağlığı bağlamı",
+          "proof-08 — 1200×1200 — icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model-proof-08.webp — Alt text: Arşiv politikası ve pruning çıktıları, güven unsuru bağlamı",
+          "table-before-after — Öncesi/Sonrası tablosu — URL / Önce (Durum) / Sonra (Aksiyon) / Not"
+        ],
+        "technicalChecklist": [
+          "CMS’te lifecycle statülerini standartlaştır.",
+          "Her içerik tipine “review periyodu” ekle (365 döngüyle uyumlu).",
+          "Sezonluk içeriklere otomatik “expiry/review” tarihi koy.",
+          "Arşiv statüsünün SEO davranışını netleştir (noindex/redirect).",
+          "Compare ekranını QA sürecine bağla.",
+          "Redirect mapping’i test et (chain yok).",
+          "Pruning sonrası sitemap/canonical kontrollerini yap.",
+          "Yayın sonrası 404 ve trafik trendini izle."
+        ]
+      }
+    }
+  },
+
+  "BlogCMSVeDAMEntegrasyonuGorselVeVideoYonetimindeMerkeziYapi": {
+    "title": "CMS + DAM Entegrasyonu ile Merkezi Medya Yönetimi",
+    "slug": "cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "11 Temmuz 2026",
+    "publishedAt": "2026-07-11",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "DAM (Digital Asset Management), görsel ve video varlıklarını tek merkezde saklayıp metadata/etiketlerle yönetmenizi sağlayan sistemdir. CMS–DAM entegrasyonunda medya dosyaları DAM’de kalır; CMS’te sadece referans ve varyant seçimi yapılır. Böylece otel ve B2B projelerinde arama/yeniden kullanım hızlanır, gereksiz tekrar upload azalır, CDN ve otomatik dönüştürme ile performans artar.",
+    "seo": {
+      "metaTitle": "CMS + DAM Entegrasyonu ile Merkezi Medya Yönetimi | DGTLFACE",
+      "metaDescription": "Görsel/video yükünü CMS’ten çıkarın: DAM ile merkezileştirin, CMS’ten yalnız referans verin. Metadata/etiketleme, CDN dönüşüm ve thumbnail kurgusuyla hız ve marka tutarlılığı sağlayın. Otel & B2B senaryoları. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: Blog #13 — /tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi"
+      ],
+      "strategySummary": "Bu blog, büyük medya kütüphanesi olan otel grupları ve B2B markalarda “binlerce görseli CMS’te yönetemiyorum” problemini DAM merkezli mimari ile çözen core rehberdir. Hedef persona; içerik ve kreatif ekip liderleri, ajans yöneticileri; teknik tarafta web/cms ekipleri ve performans/SEO sorumlularıdır. Funnel’da consideration (MoFu) aşamasında; medya yönetimini CMS’ten ayırıp “single source of truth” yaklaşımıyla yeniden kullanım, performans ve marka tutarlılığını artırma kararını kolaylaştırır. Ana iş sorusu: “Görsel/video varlıkları DAM’de merkezileştirip CMS’i sadece seçme/kullanma katmanına çekerek nasıl ölçeklenebilirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-11",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "DAM (Digital Asset Management), görsel ve video varlıklarını tek merkezde saklayıp metadata/etiketlerle yönetmenizi sağlayan sistemdir. CMS–DAM entegrasyonunda medya dosyaları DAM’de kalır; CMS’te sadece referans ve varyant seçimi yapılır. Böylece otel ve B2B projelerinde arama/yeniden kullanım hızlanır, gereksiz tekrar upload azalır, CDN ve otomatik dönüştürme (thumbnail, format, oran) ile performans artar. Merkezi yapı, web–sosyal–offline tüm kanallarda marka tutarlılığını güçlendirir.",
+      "sgeSummary": "Görselleri CMS’te tutmak yerine DAM’de merkezileştir; CMS’te yalnız seçip kullan. Etiket/metadata ile arama ve yeniden kullanım hızlanır; CDN dönüşüm ve thumbnail ile performans ve tutarlılık artar.",
+      "voiceAnswer": "Binlerce görseli CMS’te yönetmek yerine DAM kurun; CMS’ten etiketli asset seçip CDN ile optimize edin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel grupları, B2B markalar; içerik/kreatif ekipleri + teknik ekip",
+        "Ana KPI: görsel bulma süresi, tekrar upload oranı, sayfa yükleme hızı, CLS/LCP, marka tutarlılığı",
+        "Entity’ler: DAM, CMS, metadata, tags, CDN assets, transformations, media reuse",
+        "Funnel: MoFu (Informational + Strategic) → DAM entegrasyon analizi",
+        "Risk odağı: dağınık medya, yanlış boyut/format, alt text eksikliği, performans düşüşü",
+        "Model: media single source of truth + performance-ready assets",
+        "Fark yaratan açı: CMS’i “asset deposu” olmaktan çıkarıp tüketici katmanına indirmek"
+      ]
+    },
+    "h1": {
+      "title": "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı",
+      "intro": "Büyük medya kütüphanesi olan projelerde CMS, zamanla “asset çöplüğü”ne dönüşebilir: aynı görselin farklı boyutlarda tekrar tekrar yüklenmesi, doğru görseli bulamama, kampanya döneminde paniğe kapılıp yanlış görsel kullanma… Üstelik bu dağınıklık performansa da yansır: ağır görseller, yanlış oranlar, gereksiz video yükleri ve kötü CDN kurgusu sayfayı yavaşlatır. DAM entegrasyonu olan CMS kurulumlarında ise medya dosyaları tek merkezde yönetilir; web sitesi sadece bu varlıkların “tüketicisi” olur. Bu da otel ve B2B projelerinde hem medya bulma/yeniden kullanma hızını hem performansı hem de marka tutarlılığını ciddi biçimde artırır.",
+      "quickSummary": [
+        "1) CMS’te upload yerine DAM picker kullan.",
+        "2) DAM’de metadata şeması ve etiketleme standardı tanımla.",
+        "3) CMS’te asset_id, kullanım bağlamı, oran ve alt text sakla.",
+        "4) CDN dönüşüm parametrelerini standartlaştır.",
+        "5) Görsel bulma süresi, tekrar upload oranı ve LCP/CLS metriklerini izle."
+      ],
+      "ctaPrimary": {
+        "label": "CMS–DAM Entegrasyon & Medya Stratejisi Analizi Talep Et",
+        "text": "Büyük medya kütüphanesine sahip otel grupları ve B2B markalarda merkezi asset yönetimi kurup performansı iyileştirmek isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS–DAM Entegrasyon & Medya Stratejisi Analizi Talep Et",
+        "text": "Medyayı DAM’de merkezileştirip CMS’te sadece seçerek kullanın; performansı ve marka tutarlılığını birlikte güçlendirin.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "CMS + DAM Medya Yönetimi & Entegrasyon Planlama Şablonunu İndir",
+        "text": "Metadata/etiket sözlüğünü, asset setlerini ve CDN dönüşüm kurallarını tek dokümanda planlayıp ölçeklenebilir medya yapısı kurmanızı sağlar.",
+        "href": "/downloads/cms-dam-medya-yonetimi-entegrasyon-planlama-sablonu-v1.0.xlsx"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "title": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      }
+    ],
+    "sections": [
+      {
+        "id": "dam-digital-asset-management-nedir",
+        "title": "DAM (Digital Asset Management) Nedir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Aynı görseli farklı ekipler farklı adlarla yüklüyorsa, DAM ihtiyacı çoktan doğmuştur."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "DAM; görsel, video, doküman gibi dijital varlıkları merkezi şekilde saklayan, bunlara metadata (başlık, açıklama, telif, kullanım hakkı, tarih, lokasyon) ve etiket (keyword) ekleyerek arama/yeniden kullanım sağlayan sistemdir. CMS ise içerik sayfalarını yönetir; DAM ise varlıkların kendisini. İkisi birlikte çalıştığında “CMS’te upload karmaşası” azalır, kreatif ekipler aynı varlıkları tekrar tekrar üretmek yerine mevcut varlığı bulup kullanır."
+          },
+          {
+            "type": "h3",
+            "text": "DAM nedir, CMS ile nasıl entegre edilir? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Medyayı DAM’de tutup CMS’te sadece asset referansı (ID/URL) saklayarak entegre edilir; CMS editörü DAM arayüzünden arayıp seçer, web sitesi CDN üzerinden optimize edilmiş varyantı tüketir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Media “dosya” mı yoksa “yönetilen varlık” mı?",
+              "Lisans/telif bilgisi nerede tutuluyor?",
+              "Ekipler aynı varlığı tekrar tekrar mı yüklüyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CMS’te “upload” alanını minimuma indir; DAM seçimi standart olsun.",
+              "DAM’de metadata şeması tanımla (telif, kullanım, tarih, lokasyon).",
+              "Etiketleme standardı yaz (keyword sözlüğü).",
+              "Asset onay akışı kur (tasarım onayı).",
+              "Web tarafında CDN dönüşüm kurallarını belirle (format/ratio)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cms-icinden-dam-kullanimi",
+        "title": "CMS İçinden DAM Kullanımı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "İyi bir entegrasyonda editör, CMS’te içerik yazarken “dosya yüklemek” yerine DAM kütüphanesine bağlanır ve doğru varlığı seçer. Bu aşamada iki karar kritik:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CMS’te ne saklanacak? (referans + varyant seçimi)",
+              "DAM’de ne yönetilecek? (asıl dosya + metadata + türevler)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "CMS’te referans + varyant seçimi modeli"
+          },
+          {
+            "type": "p",
+            "text": "CMS alanlarında önerilen yapı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "asset_id (DAM referansı)",
+              "kullanım bağlamı (hero / gallery / card)",
+              "oran (16:9, 1:1, 4:3)",
+              "odak noktası (focal point) (Varsayım)",
+              "alt text (yerel dil) (SEO)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, DAM’in “tek kaynak” kalmasını sağlar; CMS ise “nerede nasıl kullanılıyor?” bilgisini yönetir."
+          },
+          {
+            "type": "table",
+            "caption": "DAM–CMS performans ve yeniden kullanım tablosu",
+            "headers": [
+              "Asset türü",
+              "Metadata / etiket",
+              "Kullanım",
+              "Varyant / dağıtım"
+            ],
+            "rows": [
+              [
+                "Görsel",
+                "Başlık, telif/kaynak, kullanım hakkı, tarih, lokasyon, kampanya, konsept",
+                "Hero / gallery / card",
+                "16:9, 1:1, 4:3; webp/avif"
+              ],
+              [
+                "Video",
+                "Başlık, telif/kaynak, kullanım hakkı, tarih, kampanya",
+                "Hero / gallery / preview",
+                "Poster + streaming (Varsayım)"
+              ],
+              [
+                "Doküman",
+                "Başlık, telif/kaynak, kullanım hakkı, tarih, ürün/servis etiketi",
+                "Docs / campaigns",
+                "asset_id + CDN-backed URL"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "CMS’te aynı görsel dosya olarak mı duruyor, referans mı?",
+              "Oran ve kırpma (crop) kuralları var mı?",
+              "Alt text zorunlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CMS’te upload yerine DAM picker kullan.",
+              "Asset kullanım bağlamı alanını ekle (hero/card/gallery).",
+              "Oran ve focal point standardı belirle.",
+              "Alt text’i CMS’te zorunlu tut (SEO).",
+              "Eski “upload” kütüphanesini migration planıyla temizle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "medya-metadata-ve-etiketleme",
+        "title": "Medya Metadata ve Etiketleme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DAM’in değerini belirleyen şey “dosyaları depolamak” değil, onları bulunabilir ve yeniden kullanılabilir yapmaktır. Bunun anahtarı metadata ve etiketleme standardıdır. Aksi halde DAM, sadece daha pahalı bir klasör olur."
+          },
+          {
+            "type": "h3",
+            "text": "Etiketleme standardı: az ama doğru"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tema: “spa”, “aile”, “balayı”, “toplantı salonu”",
+              "Lokasyon: “Antalya”, “Belek”, “Bodrum” (doğal, spam değil)",
+              "Format: “hero”, “vertical”, “reels” (kullanım amaçlı)",
+              "Haklar: “lisanslı”, “kendi çekimimiz”, “kullanım süresi” (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de metadata farkı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: oda tipi, destinasyon, sezon, etkinlik, konsept",
+              "B2B: ürün modülü, sektör, ekip fotoğrafı, doküman türü, versiyon"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Etiket sözlüğü var mı yoksa herkes kafasına göre mi?",
+              "Lisans ve kullanım hakkı alanları zorunlu mu?",
+              "“En çok kullanılan 20 etiket” raporu çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Etiket sözlüğünü yaz ve kilitle (free tag sınırlı).",
+              "Metadata zorunluluklarını belirle (telif, tarih, lokasyon).",
+              "Varlık onay süreci ekle (approved/unapproved).",
+              "Duplicate tespiti (hash) planla (Varsayım).",
+              "Düzenli temizlik: kullanılmayan veya süresi dolan asset’leri işaretle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cms-dam-medya-yonetimi-entegrasyon-planlama-sablonu",
+        "title": "CMS + DAM Medya Yönetimi & Entegrasyon Planlama Şablonunu İndir — Yazılım / DAM",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS + DAM Medya Yönetimi & Entegrasyon Planlama Şablonunu İndir — Yazılım / DAM (v1.0)",
+            "purpose": "Bu şablon; DAM’i merkezi medya kaynağı olarak kurup CMS’i “seç ve kullan” katmanına indirmek için metadata şeması, etiket sözlüğü, koleksiyon yapısı ve CDN dönüşüm kurallarını planlamanızı sağlar. Otel ve B2B ekiplerinde medya bulma süresini kısaltıp tekrar upload ve performans sorunlarını azaltmayı hedefler.",
+            "whoFor": "Creative lead, içerik lideri, teknik lider, ajans proje yöneticisi.",
+            "steps": [
+              "Mevcut medya envanterini ve kullanım senaryolarını çıkarın.",
+              "Metadata/etiket sözlüğünü ve koleksiyon yapısını doldurun.",
+              "CMS picker + CDN dönüşüm kurallarıyla entegrasyon akışını netleştirip test edin."
+            ],
+            "checklist": [
+              "Asset türleri: [ ] görsel  [ ] video  [ ] doküman",
+              "Toplam adet (tahmini): ______",
+              "En çok kullanılan 20 asset: ______ (Varsayım)",
+              "Tema etiketleri: ______",
+              "Lokasyon etiketleri: ______",
+              "Ürün/servis etiketleri (B2B): ______",
+              "Haklar/lisans: ______",
+              "Zorunlu metadata: başlık, telif/kaynak, kullanım hakkı, tarih",
+              "Opsiyonel metadata: lokasyon, kampanya, konsept, kişi/ekip",
+              "Otel koleksiyonları: room / destination / event / campaign",
+              "B2B koleksiyonları: product / team / docs / campaigns",
+              "CMS’te saklanacak: asset_id + kullanım bağlamı + oran + alt text",
+              "CMS’te upload: [ ] kapalı  [ ] sınırlı",
+              "Onay akışı: approved assets only: [ ] Evet",
+              "Format: webp/avif",
+              "Boyutlar: hero 1920, card 600, thumb 200 (Varsayım)",
+              "Video: poster + streaming (Varsayım)",
+              "Lazy-load: [ ] Evet",
+              "KPI: görsel bulma süresi, tekrar upload oranı, LCP/CLS",
+              "Review döngüsü: 365 gün"
+            ],
+            "href": "/downloads/cms-dam-medya-yonetimi-entegrasyon-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metadata + etiket sözlüğü",
+              "Koleksiyon yapısı",
+              "CMS picker entegrasyon notu",
+              "CDN dönüşüm standardı + performans kontrolü"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "performans-cdn-donusturme-thumbnail-katmani",
+        "title": "Performans (CDN, Dönüştürme, Thumbnail) Katmanı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DAM sadece “yönetim” değil, aynı zamanda “dağıtım” katmanıdır. Modern DAM’ler veya entegre medya katmanları; CDN üzerinden otomatik format dönüşümü (webp/avif), boyutlandırma, thumbnail üretimi ve bazen video streaming sağlayabilir. Burada amaç; web sitesinin doğru boyutu doğru formatla çekmesi ve CWV’yi korumasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "DAM–CMS entegrasyonunda performans nasıl kurgulanmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: CDN-backed asset URL’leriyle otomatik dönüştürme (format/size/crop) kullanın; sayfa bağlamına göre doğru varyantı çağırın ve thumbnail/placeholder ile algılanan hızı artırın."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik performans kuralları (Varsayım)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero görseller: modern format (webp/avif), responsive srcset",
+              "Kart görseller: 1:1 ve küçük boyut, lazy-load",
+              "Video: mümkünse streaming + poster + kısa preview"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Aynı görselin 4000px versiyonu kartta mı kullanılıyor?",
+              "Thumbnail ve placeholder var mı?",
+              "Görsel format dönüşümü otomatik mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CDN dönüşüm parametrelerini standartlaştır (size/format/quality).",
+              "CMS’te “kullanım bağlamı”na göre otomatik varyant seç.",
+              "Lazy-load ve responsive image kuralını front-end’de zorunlu yap.",
+              "Video için poster ve bitrate stratejisi belirle.",
+              "/tr/seo/teknik-seo ile görsel SEO standartlarını hizala (alt text, boyut, format)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-dam-senaryolari",
+        "title": "Otel ve B2B İçin DAM Senaryoları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "DAM en çok “çok varlık + çok kanal” olduğunda değer üretir. Otel gruplarında oda/destinasyon/etkinlik setleri; B2B’de ürün, ekip, doküman ve kampanya görselleri… Merkezi DAM yapısı, bu varlıkların web, sosyal ve offline’da aynı kaliteyle kullanılmasını sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu — oda/destinasyon/etkinlik setleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipi: “room_type=deluxe”, “season=summer”, “concept=family” etiketleri",
+              "Destinasyon: “location=Belek”, “theme=golf”",
+              "Etkinlik: “event=new_year” → kampanya landing’lerinde reuse"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu — ürün ve doküman görselleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün modülü: “module=analytics”, “industry=hotel”",
+              "Ekip: “team=product”, “role=leadership”",
+              "Whitepaper: “asset_type=pdf_cover”, “campaign=q2_launch”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sheet veri noktası (yumuşatılmış): DAM entegrasyonu olan projelerde, yeni sayfa ve kampanyalar için uygun görsel bulma süresi ve gereksiz tekrar upload oranı genelde belirgin şekilde düşer."
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "AIO paragrafı (merkezi medya yönetimi modeli)"
+          },
+          {
+            "type": "p",
+            "text": "DAM, CMS, metadata, CDN ve media reuse; tek bir “merkezi medya yönetimi modeli” olarak düşünülmelidir. DAM varlıkların tek kaynağıdır; metadata ve etiketlerle bulunabilirlik sağlar; CDN-backed dönüşüm katmanı performansı yönetir; CMS ise sayfa bağlamında hangi varlığın hangi varyantla kullanılacağını tanımlar. Bu model; otel ve B2B’de web–sosyal–offline kanallarında aynı asset’lerin kontrollü, tutarlı ve hızlı kullanılmasını mümkün kılar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Otelde kampanya döneminde doğru görseli bulmak hâlâ zor mu?",
+              "B2B’de ürün görselleri versiyonlandıkça eski dosyalar karışıyor mu?",
+              "Web ve sosyal ekipleri aynı asset’leri mi kullanıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel ve B2B için ayrı taxonomy/etiket seti oluştur.",
+              "Asset setlerini “koleksiyon” mantığında düzenle (room/destination/event).",
+              "CMS’te sadece referans + varyant seç; dosyayı taşımayı DAM’e bırak.",
+              "Kullanım raporu çıkar: en çok kullanılan asset’ler, duplicate’ler.",
+              "365 döngüde metadata şemasını ve CDN stratejisini güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-gorsel-stratejisi-seo-uyum",
+        "title": "Teknik Not: Görsel Stratejisi + SEO Uyum",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DAM entegrasyonunun /tr/yazilim/web-sitesi-gelistirme görsel stratejisiyle ve /tr/seo/teknik-seo (alt etiket, boyut, format, lazy-load) standartlarıyla uyumlu olması gerekir. Aksi halde merkezi DAM olsa bile, yanlış varyant kullanımı performansı düşürebilir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS–DAM Entegrasyon & Medya Stratejisi Analizi Talep Et",
+            "text": "Merkezi asset yönetimi, metadata standardı ve performans katmanını birlikte kurgulamak isteyen ekipler için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "DAM nedir, CMS ile nasıl entegre edilir?",
+        "a": "DAM, dijital varlıkların (görsel/video) merkezi yönetim sistemidir. Entegrasyonda medya DAM’de tutulur; CMS’te sadece referans (asset_id) ve kullanım bağlamı saklanır. Editör CMS içinden DAM arayıp seçer; web CDN üzerinden optimize varyantı çeker."
+      },
+      {
+        "q": "Medya dosyalarını CMS yerine DAM’de tutmanın avantajı nedir?",
+        "a": "Bulunabilirlik ve yeniden kullanım artar, tekrar upload azalır, telif/metadata kontrolü tek merkezden yapılır. CDN dönüşüm katmanı ile performans (boyut/format) daha iyi yönetilir."
+      },
+      {
+        "q": "Otel ve B2B projelerinde DAM kullanım senaryoları neler?",
+        "a": "Otelde oda/destinasyon/etkinlik koleksiyonları ve kampanya reuse; B2B’de ürün modülü, ekip görselleri ve whitepaper/doküman asset yönetimi yaygın senaryolardır."
+      },
+      {
+        "q": "DAM–CMS entegrasyonunda performans (CDN, thumbnail) nasıl kurgulanmalı?",
+        "a": "CDN-backed URL’lerle otomatik format ve boyut dönüşümü kullanılmalı; kullanım bağlamına göre doğru varyant çağrılmalı; thumbnail/placeholder ve lazy-load ile algılanan hız artırılmalıdır."
+      },
+      {
+        "q": "DAM’e geçerken en sık hata nedir?",
+        "a": "Etiket/metadata standardını yazmadan “her şeyi içeri atmak”tır. Bu, bulunabilirliği düşürür ve DAM’i pahalı bir klasöre çevirir. Taxonomy ve zorunlu metadata seti şarttır."
+      },
+      {
+        "q": "Alt text ve görsel SEO DAM’de mi CMS’te mi olmalı?",
+        "a": "Asset’in genel metadata’sı DAM’de tutulabilir; sayfa bağlamına göre değişen alt text çoğu zaman CMS’te yönetilmelidir. Böylece hem SEO hem bağlamsal doğruluk korunur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-hero-01.webp — Alt text: CMS DAM entegrasyonu ile merkezi medya yönetimi, otel ve B2B bağlamı",
+          "h1-context — 1920×1080 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-h1-context-02.webp — Alt text: CMS’ten DAM seçimi ve varyant kullanımı özeti, içerik üretim bağlamı",
+          "divider-01 — 1600×1200 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-divider-03.webp — Alt text: CMS içinden DAM kullanımı görseli, editoryal UX bağlamı",
+          "divider-02 — 1600×1200 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-divider-04.webp — Alt text: Otel ve B2B DAM senaryoları görseli, üretim operasyon bağlamı",
+          "diagram-05 — 1920×1080 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-diagram-05.webp — Alt text: CMS DAM entegrasyon akış diyagramı, merkezi medya mimarisi bağlamı",
+          "checklist-06 — 1200×1200 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-checklist-06.webp — Alt text: DAM CMS checklist kartı, tasarım içerik teknik ekip bağlamı",
+          "kpi-07 — 1200×1200 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-kpi-07.webp — Alt text: Medya bulma süresi ve tekrar upload KPI kartı, operasyon verimliliği bağlamı",
+          "proof-08 — 1200×1200 — cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi-proof-08.webp — Alt text: Metadata şeması ve entegrasyon çıktıları, marka tutarlılığı bağlamı",
+          "table-dam-cms-performance-reuse — DAM–CMS performans ve yeniden kullanım tablosu — asset türü / metadata / kullanım / varyant"
+        ],
+        "technicalChecklist": [
+          "CMS’te upload alanını minimuma indir; DAM seçimini standartlaştır.",
+          "DAM’de metadata şeması ve etiket sözlüğü tanımla.",
+          "Asset onay akışını approved/unapproved statüleriyle kur.",
+          "CMS’te asset_id, kullanım bağlamı, oran ve alt text alanlarını tanımla.",
+          "Oran, crop ve focal point standartlarını belirle.",
+          "CDN dönüşüm parametrelerini size/format/quality bazında standartlaştır.",
+          "Lazy-load ve responsive image kurallarını front-end’de zorunlu yap.",
+          "Video için poster, streaming ve bitrate stratejisi belirle.",
+          "Alt text’i sayfa bağlamına göre CMS’te yönet.",
+          "Görsel bulma süresi, tekrar upload oranı ve LCP/CLS metriklerini izle.",
+          "365 günlük döngüde metadata şeması ve CDN stratejisini güncelle."
+        ]
+      }
+    }
+  },
+
+  "BlogHeadlessCMSGuvorluguYedeklemeVeDisasterRecoveryStratejisi": {
+    "title": "Headless CMS Güvenlik ve Disaster Recovery Rehberi",
+    "slug": "headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "11 Temmuz 2026",
+    "publishedAt": "2026-07-11",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Headless CMS projelerinde güvenlik ve yedekleme sorumluluğu klasik “tek sunucu” modelinden farklıdır. RBAC, 2FA/IP kısıtı, API token ve secret yönetimi, içerik+şema+ayar yedekleri ve test edilmiş bir disaster recovery planıyla kesinti ve içerik kaybı riskini azaltın.",
+    "seo": {
+      "metaTitle": "Headless CMS Güvenlik ve Disaster Recovery Rehberi | DGTLFACE",
+      "metaDescription": "Headless CMS’te RBAC, 2FA/IP, API token/secret yönetimi, backup ve disaster recovery planını birlikte kurun. SaaS vs self-hosted sorumlulukları, mimari diyagram + DR checklist ile. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: Blog #14 — /tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, TR’de headless CMS anlatılırken sık atlanan güvenlik + backup + disaster recovery katmanını core seviyede ele alır; otel ve B2B gibi kritik trafik ve içerik taşıyan yapılarda iş sürekliliği riskini azaltmayı hedefler. Hedef persona; IT/ürün lideri, ajans teknik ekibi, operasyon/pazarlama lideri ve güvenlikten sorumlu yöneticilerdir. Funnel’da consideration (MoFu) aşamasında; “SaaS mı self-hosted mı, backup sorumluluğu kimde, token/secret nasıl yönetilir, DR planı nasıl kurulur?” kararlarını netleştirir. Ana iş sorusu: “Headless CMS çökerse veya yetkisiz erişim olursa; içerik kaybı ve kesintiyi minimumda tutacak güvenlik ve DR modelini nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-11",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Headless CMS projelerinde güvenlik ve yedekleme sorumluluğu klasik “tek sunucu” modelinden farklıdır: API token’lar, environment secret’lar ve rol/yetki yönetimi kritik hale gelir. SaaS headless çözümler altyapı güvenliğini kısmen üstlenirken; self-hosted kurulumlarda daha fazla sorumluluk sizdedir. Güvenli model; RBAC + 2FA/IP kısıtı, token rotasyonu, içerik+şema+ayar yedekleri ve bir DR planı (failover, restore, iletişim) içerir. Otel/B2B için “panel kapansa ne olur?” senaryosu önceden yazılmalıdır.",
+      "sgeSummary": "Headless CMS’te güvenlik: RBAC+2FA/IP, token/secret yönetimi. Süreklilik: içerik+schema+ayar backup, restore testleri ve DR planı. SaaS vs self-hosted sorumluluklarını netleştirerek kesinti riskini azalt.",
+      "voiceAnswer": "Headless CMS çökerse; düzenli backup, token güvenliği ve test edilmiş restore/DR planı yoksa içerik kaybedebilirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B headless CMS projeleri; IT, güvenlik, ajans teknik ekipleri",
+        "Ana KPI: RTO/RPO, içerik kurtarma süresi, yetkisiz erişim riski, kesinti süresi",
+        "Entity’ler: headless CMS security, backups, disaster recovery, API token management, secrets",
+        "Funnel: MoFu (Informational + Strategic) → güvenlik & DR analizi",
+        "Risk odağı: token sızıntısı, yanlış RBAC, yedeksiz schema/ayar kaybı, vendor outage",
+        "Model: platform resilience + business continuity",
+        "Fark yaratan açı: “geliştirme deneyimi” değil “iş sürekliliği” odağı"
+      ]
+    },
+    "h1": {
+      "title": "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi",
+      "intro": "Headless CMS projeleri; hız ve esneklik sağlar ama güvenlik ve iş sürekliliği katmanı ihmal edilirse büyük risk doğurur. Çünkü headless mimaride kritik yüzeyler değişir: panel erişimi kadar API token’lar, secret’lar, webhook endpoint’leri ve içerik modeliniz (schema) risk alanına girer. SaaS bir headless CMS kullanıyor olsanız bile; token yönetimi, erişim kontrolü ve içerik/şema yedekleri sizin sorumluluğunuz olabilir. Otel ve B2B sitelerinde bu risk; “yanlış kampanya yayını”ndan daha büyük bir şeye dönüşebilir: içerik kaybı, uzun kesinti, yetkisiz erişim veya KVKK ihlali. Bu rehber; SaaS vs self-hosted sorumluluklarını, backup stratejisini ve uygulanabilir bir DR planını adım adım kurgular.",
+      "quickSummary": [
+        "1) SaaS ve self-hosted sorumluluklarını netleştir",
+        "2) Content + schema + settings backup kapsamını yaz",
+        "3) RTO/RPO hedeflerini ve restore takvimini belirle",
+        "4) Token/secret yönetimini least privilege ve rotasyonla kur",
+        "5) DR runbook’u düzenli tatbikatlarla doğrula"
+      ],
+      "ctaPrimary": {
+        "label": "Headless CMS Güvenlik & Backup/DR Analizi Talep Et",
+        "text": "Kritik içerik ve trafik taşıyan otel/B2B projelerinde güvenlik, yedekleme ve DR planını birlikte tasarlamak isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Headless CMS Güvenlik & Backup/DR Analizi Talep Et",
+        "text": "RBAC, token yönetimi, yedekleme ve DR runbook’u birlikte tasarlayıp kesinti ve içerik kaybı riskini minimize edin.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Headless CMS Güvenlik, Backup & Disaster Recovery Planlama Şablonunu İndir",
+        "text": "Sorumluluk matrisi, backup kapsamı, RTO/RPO hedefleri ve senaryo bazlı runbook’u tek dokümanda planlayıp test edilebilir DR kurgusu kurmanızı sağlar.",
+        "href": "/downloads/headless-cms-guvenlik-backup-disaster-recovery-planlama-sablonu-v1.0.xlsx"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "title": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "saas-headless-cms-ve-self-hosted-guvenlik-farklari",
+        "title": "SaaS Headless CMS ve Self-Hosted Çözümler Arasında Güvenlik Farkları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Token’larınız kaç ayda bir değişiyor ve son restore testiniz ne zaman yapıldı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Headless CMS güvenliğini konuşurken ilk ayrım: SaaS mi self-hosted mı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SaaS: altyapı (sunucu, patch, bazı güvenlik kontrolleri) sağlayıcıdadır; ama erişim, token, entegrasyonlar ve veri kullanım politikası sizdedir.",
+              "Self-hosted: altyapıdan uygulama güvenliğine, patch’ten yedeklemeye kadar çok daha fazla sorumluluk sizdedir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SaaS headless ve self-hosted çözümlerde backup sorumluluğu kimde? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: SaaS’ta sağlayıcı altyapı yedeklerini tutabilir ama içerik modelinizin export’u, erişim/token yönetimi ve geri yükleme senaryosu çoğu zaman sizde kalır; self-hosted’da ise uçtan uca siz sorumlusunuz."
+          },
+          {
+            "type": "p",
+            "text": "Pratik sonuç: “Sağlayıcı zaten yedek alıyordur” varsayımıyla hareket etmek risklidir. Yedek kapsamı; içerik, medya, schema, ayarlar ve kullanıcı/rol yapılarını kapsıyor mu açıkça yazılmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "SaaS sağlayıcınızın backup kapsamı ve retention’ı yazılı mı?",
+              "Schema/ayar export’u alıyor musunuz?",
+              "Restore testini siz mi yapıyorsunuz, kim sorumlu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SaaS SLA + veri lokasyonu + backup kapsamını dokümante et.",
+              "Self-hosted ise patch, WAF, backup ve izlemeyi süreçleştir.",
+              "“Sorumluluk matrisi” oluştur (vendor vs sizin ekip).",
+              "Token/secret yönetimini platformdan bağımsız standardize et.",
+              "DR hedeflerini yaz: RTO/RPO."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yedekleme-backup-politikalari",
+        "title": "Yedekleme (Backup) Politikaları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Backup; sadece “veriyi kopyalamak” değildir; geri yükleyebilmektir. Headless CMS’te yedeklenecek şeyler sadece içerik değil, aynı zamanda “içeriğin şekli”dir: content model/schema, webhook ayarları, environment config, API token’lar (token’ı yedekleme değil, yönetim prosedürü), rol/yetki yapısı."
+          },
+          {
+            "type": "h3",
+            "text": "Headless CMS’te neyi yedeklemeliyim?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Content: entries, translations, status’lar",
+              "Schema/Model: content types, fields, validations, relations",
+              "Settings: webhooks, environments, locales, permissions (export edilebiliyorsa)",
+              "Assets: medya (DAM kullanılıyorsa ayrı)",
+              "Logs/Audit: kritik değişiklik kayıtları (Varsayım: erişilebilir ise)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Backup frekansı ve retention (pratik çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük: içerik export/snapshot",
+              "Haftalık: schema + ayar export",
+              "Aylık: tam snapshot + restore prova",
+              "Retention: iş riskine göre; en az 30–90 gün (Varsayım), kritik projede daha uzun."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "“İçerik” ve “schema” ayrı mı yedekleniyor?",
+              "Backup’lar şifreli mi ve erişimi sınırlı mı?",
+              "Restore testleri planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Backup kapsamını yaz: content + schema + settings + assets.",
+              "Otomatik export/snapshot akışı kur (job).",
+              "Retention ve erişim politikasını belirle.",
+              "Aylık restore tatbikatı planla (en az staging).",
+              "Backup başarısızlığında alarm/notification ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "disaster-recovery-senaryolari",
+        "title": "Disaster Recovery Senaryoları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "DR, “başımıza gelirse bakarız” değildir; senaryo yazıp prova etmektir. Headless CMS’te tipik DR senaryoları:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SaaS vendor outage (panel kapalı, API yavaş/kapalı)",
+              "Token sızıntısı / yetkisiz erişim",
+              "Yanlış migration / schema bozulması",
+              "Bölge/region problemi (self-hosted veya multi-region)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için headless CMS disaster recovery planı nasıl olmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Olay türlerine göre (outage, sızıntı, veri kaybı) RTO/RPO hedeflerini belirleyin; failover/restore adımlarını yazın; iletişim planı ve sorumluları tanımlayıp düzenli test edin."
+          },
+          {
+            "type": "h3",
+            "text": "RTO ve RPO’yu pratikte nasıl tanımlarsınız?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RTO (Recovery Time Objective): “kaç dakika/saat içinde geri döneceğiz?”",
+              "RPO (Recovery Point Objective): “en fazla kaç saatlik içerik kaybını tolere ederiz?”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel kampanyası gibi kritik dönemlerde RTO/RPO daha sıkı olmalıdır; B2B’de bazı içerikler daha toleranslı olabilir (ama form/CRM akışları kritikse yine sıkıdır)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "En kritik senaryo hangisi: outage mı token sızıntısı mı?",
+              "Failover yapabiliyor musunuz yoksa sadece restore mu?",
+              "DR iletişim planı var mı (kim kimi arar)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "DR senaryolarını yaz (3–5 temel olay).",
+              "Her senaryo için adım adım runbook oluştur.",
+              "RTO/RPO hedeflerini iş birimleriyle imzala.",
+              "Aylık/çeyreklik tatbikat planla.",
+              "Tatbikat sonrası aksiyon listesini kapat (postmortem)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Headless CMS Güvenlik, Backup & Disaster Recovery Planlama Şablonunu İndir",
+            "text": "Sorumluluk matrisi, backup kapsamı, RTO/RPO hedefleri ve senaryo bazlı runbook’u tek dokümanda planlayıp test edilebilir DR kurgusu kurmanızı sağlar.",
+            "href": "/downloads/headless-cms-guvenlik-backup-disaster-recovery-planlama-sablonu-v1.0.xlsx"
+          }
+        ]
+      },
+      {
+        "id": "headless-cms-guvenlik-backup-disaster-recovery-planlama-sablonu",
+        "title": "Headless CMS Güvenlik, Backup & Disaster Recovery Planlama Şablonunu İndir — Yazılım / Security & DR",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Headless CMS Güvenlik, Backup & Disaster Recovery Planlama Şablonunu İndir — Yazılım / Security & DR (v1.0)",
+            "purpose": "Bu audit sheet; headless CMS güvenlik yüzeylerini (RBAC, 2FA/IP, token/secret) ve iş sürekliliği katmanını (backup, restore, DR runbook) tek yerde değerlendirip skorlamanızı sağlar. SaaS vs self-hosted sorumluluk matrisiyle “kim neyi yapacak?” sorusunu netleştirir ve düzenli tatbikat döngüsü kurar.",
+            "whoFor": "Teknik lider, güvenlik sorumlusu, ajans teknik PM, operasyon lideri.",
+            "steps": [
+              "Mevcut durum skorlamasını yapın (0–5).",
+              "Kırmızı/sarı/yeşil alanlara göre aksiyon planı çıkarın.",
+              "İlk 14 günde minimum güvenlik + backup + runbook’u devreye alın; restore testini yapın."
+            ],
+            "checklist": [
+              "RBAC/2FA/IP olgunluğu: ___",
+              "Token/secret yönetimi: ___",
+              "Backup kapsamı (content+schema+settings): ___",
+              "Restore test olgunluğu: ___",
+              "DR runbook + iletişim planı: ___",
+              "Toplam skor: ___"
+            ],
+            "href": "/downloads/headless-cms-guvenlik-backup-disaster-recovery-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Kırmızı/Sarı/Yeşil yorum alanları"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables + “Buraya:” notları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sorumluluk matrisi (vendor vs ekip)",
+              "Backup kapsam dokümanı + retention",
+              "DR runbook + iletişim planı",
+              "Tatbikat takvimi + postmortem şablonu"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "erisim-anahtarlari-ve-api-token-yonetimi",
+        "title": "Erişim Anahtarları ve API Token Yönetimi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Headless CMS’te en kritik güvenlik yüzeyi genellikle panel değil, token ve secret’lardır. Çünkü token sızarsa API üzerinden içerik okunabilir/yazılabilir, webhook endpoint’leri kötüye kullanılabilir, hatta içerik silinebilir. Bu yüzden token yönetimi, işletme seviyesinde bir politika olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "API token ve secret yönetimi nasıl yapılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Least privilege token’lar, environment bazlı ayrım (dev/staging/prod), secret manager, düzenli rotasyon, iptal/yenileme prosedürü ve audit log ile yönetilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik token politikası"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prod token’ları sadece prod’da kullan",
+              "Token scope’larını dar tut (read-only vs write)",
+              "Rotasyon takvimi (örn. 90–180 gün) (Varsayım)",
+              "Token sızıntısında “kill switch” prosedürü",
+              "Secret’lar repo’da tutulmaz, secret manager’da tutulur"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Prod token’ınız read-only mi, yazma yetkisi var mı?",
+              "Token’lar ekipten ayrılan kişilerle birlikte iptal ediliyor mu?",
+              "Secret’lar kod deposunda görünüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Token scope’larını yeniden düzenle (least privilege).",
+              "Dev/staging/prod token ayrımını zorunlu kıl.",
+              "Rotasyon + iptal prosedürü yaz (offboarding).",
+              "Secret manager + audit log kullan.",
+              "Webhook endpoint güvenliğini token politikasına bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-guvenlik-checklist",
+        "title": "Otel ve B2B İçin Örnek Güvenlik Checklist’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, teoriyi uygulanabilir checklist’e dönüştürür. Otel tarafında kampanya/fiyat/oda içerikleri; B2B’de hizmet/lead akışları ve dokümanlar kritik olabilir. Her iki tarafta da “panel kapansa/sağlayıcı çökse ne olur?” sorusu net cevap ister."
+          },
+          {
+            "type": "table",
+            "caption": "DR checklist tablosu (1 tablo – Media Pack ile uyumlu)",
+            "headers": [
+              "Kontrol",
+              "Otel (kritik)",
+              "B2B (kritik)",
+              "Sıklık"
+            ],
+            "rows": [
+              [
+                "RBAC + 2FA",
+                "✅",
+                "✅",
+                "sürekli"
+              ],
+              [
+                "IP allowlist (admin/publisher)",
+                "✅",
+                "✅",
+                "sürekli"
+              ],
+              [
+                "Token rotasyonu",
+                "✅",
+                "✅",
+                "90–180 gün (Varsayım)"
+              ],
+              [
+                "İçerik backup",
+                "✅",
+                "✅",
+                "günlük"
+              ],
+              [
+                "Schema/ayar export",
+                "✅",
+                "✅",
+                "haftalık"
+              ],
+              [
+                "Restore tatbikatı",
+                "✅",
+                "✅",
+                "aylık/çeyreklik"
+              ],
+              [
+                "Outage runbook",
+                "✅",
+                "✅",
+                "yılda 1 güncelleme"
+              ],
+              [
+                "KVKK veri lokasyonu kontrolü",
+                "✅",
+                "✅",
+                "yılda 1"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "Headless güvenlik modeli (AIO paragrafı)"
+          },
+          {
+            "type": "p",
+            "text": "Headless CMS security, backup, API token management ve DR; tek bir “headless güvenlik modeli” içinde düşünülmelidir. RBAC/2FA/IP kısıtları yetkisiz erişimi azaltır; token/secret yönetimi API yüzeyini korur; içerik+schema+ayar yedekleri geri dönüşü mümkün kılar; DR runbook ise kesintide hangi adımın hangi sırayla yapılacağını belirler. Bu model, otel ve B2B projelerinde platform dayanıklılığı (platform resilience) ve iş sürekliliği (business continuity) sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik not: Sunucu güvenliği ve KVKK uyumu"
+          },
+          {
+            "type": "p",
+            "text": "Headless güvenlik ve backup kurgusu /tr/yazilim/sunucu-guvenlik ve /tr/raporlama/kvkk-veri-guvenligi ile uyumlu olmalıdır. Özellikle “içerik ve kullanıcı verisi nerede tutuluyor?” sorusu (veri lokasyonu, erişim yetkileri, loglar) netleşmeden DR planı tamam sayılmaz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "İçerik verisi ve kullanıcı verisinin lokasyonu net mi?",
+              "DR runbook ekipte herkesin erişebileceği yerde mi (ama güvenli)?",
+              "Son tatbikattan çıkan aksiyonlar kapandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Sunucu güvenliği ve KVKK gereksinimlerini DR planına bağla.",
+              "Runbook’u yaz, tatbikatla doğrula.",
+              "Token/secret yönetimini “süreç” haline getir.",
+              "Backup/restore testlerini takvime bağla.",
+              "365 döngüde SLA, veri lokasyonu ve API gereksinimlerini güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Headless’ta güvenlik “opsiyon” değil, mimarinin parçası",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Headless CMS esneklik getirir; ama güvenlik ve DR katmanı yoksa iş riski büyür. RBAC + token yönetimi + yedekleme + restore tatbikatı + runbook birleştiğinde; sağlayıcı/altyapı sorunlarında içerik ve operasyon sürekliliği daha rahat yönetilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Headless CMS Güvenlik & Backup/DR Analizi Talep Et",
+            "text": "Otel ve B2B projelerinde kesinti ve içerik kaybı riskini minimize etmek isteyen ekipler için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Headless CMS güvenliğini nasıl sağlamalıyım?",
+        "a": "RBAC, 2FA/IP kısıtı, token/secret yönetimi (least privilege, rotasyon) ve audit log ile sağlamalısınız. Ayrıca yedekleme ve restore testleriyle iş sürekliliğini garanti altına alın."
+      },
+      {
+        "q": "SaaS headless ve self-hosted çözümlerde backup sorumluluğu kimde?",
+        "a": "SaaS’ta sağlayıcı altyapı yedeklerini tutabilir; ancak içerik model export’u, token yönetimi ve restore senaryosu çoğu zaman sizdedir. Self-hosted’da yedekleme ve DR uçtan uca sizin sorumluluğunuzdadır."
+      },
+      {
+        "q": "API token ve secret yönetimi nasıl yapılmalı?",
+        "a": "Prod/dev ayrımıyla, least privilege scope’larla, secret manager kullanarak ve düzenli rotasyon/iptal prosedürüyle yapılmalıdır. Repo’da secret tutmamak ve offboarding’de token iptali kritik adımdır."
+      },
+      {
+        "q": "Otel ve B2B için headless CMS disaster recovery planı nasıl olmalı?",
+        "a": "Outage, token sızıntısı ve veri kaybı gibi 3–5 senaryo için runbook yazılmalı; RTO/RPO hedefleri belirlenmeli; restore tatbikatı düzenli yapılmalıdır. İletişim planı ve sorumlular net olmalıdır."
+      },
+      {
+        "q": "Headless CMS çökerse ne olur, nasıl önlem almalıyım?",
+        "a": "Backup ve test edilmiş restore yoksa içerik kaybı ve uzun kesinti yaşanabilir. Önlem için içerik+schema+ayar yedekleri, token güvenliği, runbook ve tatbikat döngüsü kurun."
+      },
+      {
+        "q": "Schema/ayar yedeği neden önemli?",
+        "a": "İçerik geri gelse bile schema/validasyonlar ve webhook ayarları kaybolursa sistem çalışmaz veya yanlış yayınlar oluşur. Bu yüzden model ve ayar export’u backup kapsamına dahil edilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-hero-01.webp — Alt text: Headless CMS güvenlik ve DR mimarisi, otel ve B2B bağlamı",
+          "h1-context — 1920×1080 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-h1-context-02.webp — Alt text: RBAC token backup üçlüsü özeti, iş sürekliliği bağlamı",
+          "divider-01 — 1600×1200 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-divider-03.webp — Alt text: Backup politikaları bölümü görseli, teknik operasyon bağlamı",
+          "divider-02 — 1600×1200 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-divider-04.webp — Alt text: Token ve secret yönetimi bölümü görseli, güvenlik bağlamı",
+          "diagram-05 — 1920×1080 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-diagram-05.webp — Alt text: DR senaryosu akış şeması, restore ve failover bağlamı",
+          "checklist-06 — 1200×1200 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-checklist-06.webp — Alt text: Headless güvenlik ve DR checklist kartı, kriz yönetimi bağlamı",
+          "kpi-07 — 1200×1200 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-kpi-07.webp — Alt text: RTO RPO ve restore süresi KPI kartı, iş sürekliliği bağlamı",
+          "proof-08 — 1200×1200 — headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi-proof-08.webp — Alt text: Runbook ve güvenlik çıktıları proof kartı, güven unsuru bağlamı",
+          "table-dr-checklist — DR checklist tablosu — Kontrol / Otel (kritik) / B2B (kritik) / Sıklık",
+          "table-before-after — Öncesi/Sonrası tablosu — Kontrol / Önce / Sonra / Kanıt/Not"
+        ],
+        "technicalChecklist": [
+          "SaaS SLA + veri lokasyonu + backup kapsamını dokümante et.",
+          "Self-hosted kurulumlarda patch, WAF, backup ve izlemeyi süreçleştir.",
+          "Vendor ve ekip sorumluluk matrisini oluştur.",
+          "DR hedeflerini RTO/RPO olarak yaz.",
+          "Backup kapsamına content + schema + settings + assets alanlarını dahil et.",
+          "Otomatik export/snapshot akışı ve başarısızlık alarmı kur.",
+          "Backup’ları şifrele ve erişimi sınırla.",
+          "Aylık restore tatbikatı planla.",
+          "DR senaryoları için adım adım runbook oluştur.",
+          "Token scope’larını least privilege prensibiyle sınırla.",
+          "Dev/staging/prod token ayrımını zorunlu kıl.",
+          "Token rotasyonu ve offboarding iptal prosedürünü yaz.",
+          "Secret manager ve audit log kullan.",
+          "Sunucu güvenliği ve KVKK gereksinimlerini DR planına bağla.",
+          "365 günlük döngüde SLA, veri lokasyonu ve API gereksinimlerini güncelle."
+        ]
+      }
+    }
+  },
+
+  "BlogCMSEditorOnboardingVeEgitimPanelKullananEkiplerIcinOyunKitabi": {
+    "title": "CMS Editör Onboarding: İlk 30 Gün Eğitim Planı",
+    "slug": "cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi",
+    "department": "software",
+    "subDepartment":"cms",
+    "updatedAt": "11 Temmuz 2026",
+    "publishedAt": "2026-07-11",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CMS yatırımının geri dönüşü; editörlerin paneli ne kadar doğru ve verimli kullandığıyla doğrudan ilişkilidir. Role göre eğitim, test ortamında pratik, panel içine gömülü style guide ve yayın guardrail’leriyle yeni editörleri 30 günde üretken hale getirin.",
+    "seo": {
+      "metaTitle": "CMS Editör Onboarding: İlk 30 Gün Eğitim Planı | DGTLFACE",
+      "metaDescription": "Yeni editörler için 30 günlük CMS onboarding: rol bazlı eğitim, panel içi help text, style guide, sık hata guardrail’leri ve test ortamı rutini. Otel & B2B senaryoları + checklist kiti. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: Blog #15 — /tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi"
+      ],
+      "strategySummary": "Bu blog, TR’de CMS eğitimlerinin “1 saatlik demo” ile sınırlı kaldığı boşluğu kapatan editor enablement rehberidir: CMS yatırımının geri dönüşü, editörlerin paneli doğru ve verimli kullanmasıyla doğrudan ilişkilidir. Hedef persona; otel/B2B pazarlama ve içerik liderleri, ajans yöneticileri ve CMS admin/ops sorumlularıdır. Funnel’da consideration (MoFu) ağırlıklıdır: onboarding planı, style guide entegrasyonu ve guardrail’lerle hatalı yayın riskini düşürme kararını kolaylaştırır. Ana iş sorusu: “Yeni editörleri 30 günde üretken hale getirirken; stil, SEO ve yayın güvenliğini nasıl standardize ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-11",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "CMS yatırımının geri dönüşü; editörlerin paneli ne kadar doğru ve verimli kullandığıyla doğrudan ilişkilidir. Yapılandırılmış onboarding olmadan hatalı içerik yayını, stil dağınıklığı ve “panel zor” algısı hızla artar. En iyi yaklaşım; role göre (yazar/editör/admin) eğitim, test ortamında pratik, panel içine gömülü style guide ve guardrail’lerdir. 30 günlük program; temel kurallar, sık hatalar, yayın öncesi checklist ve otel/B2B senaryolarıyla editörü hızlıca üretken hale getirir.",
+      "sgeSummary": "Editör onboarding’i rol bazlı kurgula: 30 günlük plan, test ortamında pratik, panel içi help text ve publish gate/checklist ile hataları azalt. Style guide ve SEO kurallarını CMS’e entegre ederek tutarlılığı koru.",
+      "voiceAnswer": "Yeni editör için 30 günlük plan yapın: test ortamında pratik, checklist, style guide ve yayın guardrail’leri.",
+      "aiFactSheet": [
+        "Hedef kitle: CMS editörleri, içerik liderleri, ajans PM’leri, CMS admin",
+        "Ana KPI: editörün üretkenliğe ulaşma süresi, yanlış yayın sayısı, stil bozulması, revizyon sayısı",
+        "Entity’ler: editor onboarding, training playbook, style guide, guardrails, publish checklist",
+        "Funnel: MoFu (Informational + Tactical) → onboarding analizi talebi",
+        "Risk odağı: canlıda deneme, yanlış H başlıkları, eksik meta, kırık link, yanlış kampanya/fiyat blokları",
+        "Model: editor enablement + error prevention",
+        "Fark yaratan açı: eğitim + panel içi ipucu + süreç (tek seferlik demo değil)"
+      ]
+    },
+    "h1": {
+      "title": "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı",
+      "intro": "CMS kurduk, panel hazır… ama ekip aynı hızla üretmiyor mu? Bu çok normal: CMS yatırımı, teknoloji kadar insan ve süreç yatırımıdır. Yapılandırılmış onboarding ve eğitim programı olmadan; otel ve B2B panellerinde hatalı içerik yayını, stil dağınıklığı ve “panel zor” algısı kaçınılmaz hale gelir. Üstelik bu hatalar yalnız içerik kalitesini değil; SEO, dönüşüm ve marka güvenini de etkiler. Bu rehberde; role göre onboarding, ilk 30 günlük eğitim planı, panel içine gömülü style guide ve sık yapılan hataları önleyen guardrail’lerle editörleri hızlıca üretken hale getiren bir oyun kitabı sunuyorum.",
+      "quickSummary": [
+        "1) Rol bazlı yetki ve eğitim planı çıkar",
+        "2) Test/staging ortamını eğitim standardı yap",
+        "3) İlk 30 günü haftalık görevlerle planla",
+        "4) Style guide ve help text’i panel içine taşı",
+        "5) Publish gate, checklist ve mentor review ile hataları azalt"
+      ],
+      "ctaPrimary": {
+        "label": "CMS Editör Onboarding & Eğitim Analizi Talep Et",
+        "text": "İçerik ekibi genişleyen otel, ajans ve B2B markalarda editörlerin hızlı ve hatasız üretime geçmesini isteyen ekipler için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS Editör Onboarding & Eğitim Analizi Talep Et",
+        "text": "Yeni editörleri 30 günde üretken hale getirip hatalı yayın ve stil bozulmasını azaltan eğitim + guardrail sistemi kurun.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "CMS Editör İlk 30 Gün Eğitim & Checklist Şablonunu İndir",
+        "text": "Rol bazlı eğitim planını, görevleri ve publish checklist’lerini tek dokümanda planlayıp editörün hızlı ve doğru öğrenmesini sağlar.",
+        "href": "/downloads/cms-editor-ilk-30-gun-egitim-checklist-sablonu-v1.0.xlsx"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CMS & Panel Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "neden-editor-onboarding-kritik",
+        "title": "Neden Editör Onboarding Kritik?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Yeni editör “ilk yayını” yaparken yanında biri olmadan ilerleyemiyorsa, eğitim materyali panelde yaşamıyor demektir."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "CMS’te hataların çoğu “bilinçli yanlış” değil, standart eksikliğidir: H başlık seviyeleri karışır, görsel boyutu yanlış seçilir, meta alanı boş kalır, kampanya sayfasında tarih/koşul güncellenmez, link kırılır. Eğitim yoksa editör kendi yöntemini üretir; bu da markanın dijital yüzünü “farklı kişilerin yaptığı farklı siteler”e dönüştürür. Onboarding; editöre yalnız paneli değil, markanın dilini, kurallarını ve yayın güvenliğini öğretir."
+          },
+          {
+            "type": "h3",
+            "text": "CMS editör onboarding’i nasıl planlanmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Role göre (yazar/editör/admin) hedefler koyup; test ortamında pratik, panel içi help text ve yayın öncesi checklist ile 30 günlük kademeli bir programla planlanmalı."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Editörler test ortamında mı öğreniyor, prod’da mı?",
+              "Style guide panelde görünür mü?",
+              "Yayın öncesi checklist zorunlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Rol bazlı yetki ve eğitim planı çıkar (yazar/editör/admin).",
+              "Onboarding’i “demo” değil “görev” bazlı kurgula.",
+              "Test/staging ortamını eğitim standardı yap.",
+              "Publish gate/checklist’i zorunlu kıl.",
+              "İlk 30 gün sonunda ölç: hız + hata + revizyon."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilk-30-gunluk-cms-egitim-plani",
+        "title": "İlk 30 Günlük CMS Eğitim Planı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "30 gün; editörü hem panelde rahatlatmak hem de kalite standardını oturtmak için ideal bir çerçevedir. Aşağıdaki plan “teori + pratik + guardrail” dengesine dayanır."
+          },
+          {
+            "type": "h3",
+            "text": "0–7. Gün: Temel panel okuryazarlığı + güvenli yayın"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Panel navigasyonu, içerik tipleri (sayfa/blog/SSS/kampanya)",
+              "Draft → review → publish akışı (preview/staging)",
+              "Zorunlu alanlar: title, slug, hero görsel, meta",
+              "Görsel yükleme/asset seçimi standardı",
+              "“Ne yapma” listesi (aşağıda)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "8–14. Gün: İçerik kalite standardı + SEO temel"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H1/H2/H3 hiyerarşisi ve içerik blokları",
+              "Meta title/description ve snippet mantığı",
+              "Internal link ve broken link kontrolü",
+              "Görsel alt text, boyut/oran kuralları",
+              "SSS/FAQ blokları ve schema tetik mantığı (Varsayım: sistemde varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "15–21. Gün: Rol bazlı uzmanlaşma (otel/B2B senaryoları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: kampanya, paket, oda içerikleri; kritik alanlar ve onay",
+              "B2B: hizmet, case, kaynak (whitepaper) sayfaları; proof blokları",
+              "Scheduled publish ve lansman senkronu (Varsayım: süreç varsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "22–30. Gün: Hız + kalite: guardrail’lerle ölçekleme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hata türleri analizi (en sık 5 hata)",
+              "Kişisel “editör checklist”i oluşturma",
+              "Review cycle ve content lifecycle (güncelle/arsivle) tanıtımı",
+              "Final görev: 1 içerik üret + 1 içerik güncelle + 1 içerik arşiv simülasyonu"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "“İlk 30 Gün” Checklist Tablosu (1 tablo – Media Pack ile uyumlu)",
+            "headers": [
+              "Hafta",
+              "Hedef",
+              "Görev",
+              "Başarı ölçütü"
+            ],
+            "rows": [
+              [
+                "1",
+                "Panel + güvenli yayın",
+                "1 draft + 1 preview + 1 review",
+                "Checklist %100"
+              ],
+              [
+                "2",
+                "SEO + kalite standardı",
+                "1 blog + meta + internal link",
+                "H hatası 0"
+              ],
+              [
+                "3",
+                "Senaryo pratiği",
+                "otel/b2b örnek sayfa",
+                "kritik alan hatası 0"
+              ],
+              [
+                "4",
+                "Ölçek + guardrail",
+                "3 içerik üretimi",
+                "revizyon azalır (Varsayım)"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "30 gün “görev” bazlı mı?",
+              "Her haftanın net çıktısı var mı?",
+              "Başarı ölçütü tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Planı role göre özelleştir (yazar vs editör vs admin).",
+              "Her hafta için bir “çıktı” belirle (1 yayın gibi).",
+              "Eğitim kayıtlarını (video/how-to) panel içine göm.",
+              "Haftalık 20 dakikalık review ritmi koy.",
+              "30 gün sonunda yetki artırmayı “başarı”ya bağla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "CMS Editör İlk 30 Gün Eğitim & Checklist Şablonunu İndir",
+            "text": "Rol bazlı eğitim planını, görevleri ve publish checklist’lerini tek dokümanda planlayıp editörün hızlı ve doğru öğrenmesini sağlar.",
+            "href": "/downloads/cms-editor-ilk-30-gun-egitim-checklist-sablonu-v1.0.xlsx"
+          }
+        ]
+      },
+      {
+        "id": "icerik-kurallari-ve-style-guide-panel-entegrasyonu",
+        "title": "İçerik Kuralları ve Style Guide’ın Panele Entegre Edilmesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitim dokümanı PDF’te kalırsa unutulur. En doğru yaklaşım; kuralları panelin içine taşımaktır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Field açıklamaları (help text)",
+              "Blok kullanım ipuçları",
+              "Örnek içerik şablonları",
+              "Zorunlu alan validasyonları (publish gate)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sayede editör “yanlış yapmadan önce” uyarı alır; eğitim “yaşayan sistem” olur."
+          },
+          {
+            "type": "h3",
+            "text": "Yeni gelen içerik editörlerine paneli nasıl öğretmeliyim? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Önce paneli değil, “standartları” öğretin: style guide + SEO temel + workflow. Ardından panelde bu standartların karşılığını gösterip test ortamında görev yaptırın."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "H1 ve meta alanlarının yanında help text var mı?",
+              "Görsel alanlarında boyut/oran standardı yazıyor mu?",
+              "Template sayfalar (örnek) editöre hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Style guide özetini panelde her kritik alana ekle.",
+              "Örnek sayfaları “clone” edilebilir template yap.",
+              "Publish gate ile meta/CTA/görsel zorunluluğu koy.",
+              "Hatalı örnekleri “neden yanlış” olarak göster (learning).",
+              "Yeni editöre ilk hafta sadece template üzerinden üretim yaptır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sik-yapilan-hatalar-ve-guardrailler",
+        "title": "Sık Yapılan Hatalar ve Guardrail’ler",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Guardrail; editörü kısıtlamak için değil, hatayı önceden durdurmak için vardır. TR’de en sık hatalar genelde şu kümelerde toplanır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "SEO alanları boş (meta, canonical, OG)",
+              "Başlık hiyerarşisi bozuk (birden fazla H1, atlanan H2)",
+              "Görsel kalitesi/formatı yanlış (ağır, yanlış oran, alt text yok)",
+              "Kırık link ve yanlış CTA",
+              "Kritik otel alanları (kampanya tarih/koşul, fiyat ifadesi) (Varsayım)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Hangi hatalar en sık yapılıyor, nasıl önlerim? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Validasyon (zorunlu alan), template, preview/staging testi ve yayın checklist’i ile önlersiniz; kritik sayfalarda ikinci onay eklemek de etkili olur."
+          },
+          {
+            "type": "h3",
+            "text": "Guardrail seti (minimum)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Publish öncesi zorunlu alanlar (title, slug, hero, meta)",
+              "Heading kuralı (H1 kilit, H2/H3 blokta)",
+              "Görsel limitleri (boyut, format, alt text zorunlu)",
+              "Link checker (preview’da otomatik kontrol) (Varsayım)",
+              "Kritik sayfa: reviewer/publisher onayı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Editör hatayı yaptıktan sonra mı fark ediyor, önce mi?",
+              "Kritik sayfalar için ikinci onay var mı?",
+              "Broken link kontrolü rutin mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Zorunlu alan validasyonlarını artır.",
+              "Template sayfaları ve örnek blok seti ver.",
+              "Preview/staging check rutinini zorunlu yap.",
+              "Kritik içeriklerde onay akışını sıkılaştır.",
+              "“Ne yapma” listesini panelde görünür kıl."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Ne yapma?” listesi (editör için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Canlıda deneme yapma (staging/preview kullan)",
+              "Aynı sayfada birden fazla H1 kullanma",
+              "Alt text’siz görsel yayınlama",
+              "Kampanya tarih/koşul kontrolü yapmadan yayınlama",
+              "“Copy-paste” ile formatı bozan HTML yapıştırma (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-egitim-senaryolari",
+        "title": "Otel ve B2B İçin Eğitim Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitim, gerçek senaryo üzerinden akarsa hızlı öğrenilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu: fiyat/kampanya blokları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya landing oluşturma (template)",
+              "Tarih/koşul alanları ve onay süreci",
+              "Görsel seti seçimi (sezon/destinasyon)",
+              "Publish sonrası hızlı kontrol (CTA, form, link)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu: ürün/hizmet içerikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hizmet sayfası: problem/çözüm + proof blokları",
+              "Case/whitepaper: download CTA + tracking notları",
+              "İç link: blog→hizmet bağlama",
+              "Meta + snippet kontrol"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Eğitim içerikleri rol bazlı mı?",
+              "Otel/B2B örnek sayfalar template olarak var mı?",
+              "Editörler ilk ay “mentor review” alıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel ve B2B için ayrı eğitim modülü çıkar.",
+              "3 örnek sayfayı template yap (kampanya, hizmet, blog).",
+              "İlk 10 yayında mentor review zorunlu kıl.",
+              "Kritik alanları (kampanya/ürün) ayrı checklist’e bağla.",
+              "365 döngüsünde eğitim materyalini güncelle (panel değiştikçe)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-egitim-icerikleri-standartlari",
+        "title": "Teknik Not: Eğitim içerikleri hangi standartlarla uyumlu olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitim dokümanlarının /tr/yazilim/web-sitesi-gelistirme (UX/SEO temel kurallar) ve /tr/seo/icerik-seo (başlık, meta, H yapısı) içerikleriyle uyumlu olması; editörlerin teknik hatalarını azaltır. Onboarding; yalnız “panel kullanımı” değil, “doğru web içeriği” standardını da öğretmelidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS Editör Onboarding & Eğitim Analizi Talep Et",
+            "text": "Panel benimsenmesini artırıp hataları azaltmak için eğitim + guardrail + template kurgusunu birlikte tasarlamak isteyen ekipler için.",
+            "href": "/yazilim/cms-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "cms-editor-ilk-30-gun-egitim-checklist-sablonu",
+        "title": "CMS Editör İlk 30 Gün Eğitim & Checklist Şablonunu İndir — Yazılım / Editor Training",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS Editör İlk 30 Gün Eğitim & Checklist Şablonunu İndir — Yazılım / Editor Training (v1.0)",
+            "purpose": "Bu asset; yeni CMS editörlerinin ilk 30 günde güvenli yayın, SEO temel, stil kuralları ve rol bazlı sorumlulukları öğrenmesini sağlayan yapılandırılmış bir eğitim planı sunar. Panel içi help text, template sayfalar ve publish gate/checklist yaklaşımıyla hatalı yayın ve stil bozulması riskini düşürür.",
+            "whoFor": "İçerik lideri, CMS admin, ajans proje yöneticisi, SEO lideri.",
+            "steps": [
+              "Rolü seçin (yazar/editör/admin) ve 30 günlük hedefleri netleştirin.",
+              "Haftalık görevleri test ortamında uygulatın ve mentor review ekleyin.",
+              "Publish checklist ve “ne yapma” guardrail’leriyle üretime geçişi güvenceye alın."
+            ],
+            "checklist": [
+              "Rol bazlı yetkiler atandı (yazar/editör/admin)",
+              "Test/staging ortamı hazırlandı",
+              "Template sayfalar oluşturuldu (blog/hizmet/kampanya)",
+              "Publish gate kuralları tanımlandı (meta, H, görsel, CTA)",
+              "Haftalık görev listesi yayınlandı",
+              "Mentor review süreci tanımlandı (ilk 10 yayın)",
+              "Sık hata listesi çıkarıldı",
+              "Panel içi help text eklendi",
+              "Ölçüm KPI’ları belirlendi (hız, hata, revizyon)",
+              "30 gün sonunda yetki artırma kriteri yazıldı"
+            ],
+            "href": "/downloads/cms-editor-ilk-30-gun-egitim-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "[ ] Ölçüm & Önceliklendirme checklist’i"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rol bazlı yetkiler atandı (yazar/editör/admin)",
+              "Test/staging ortamı hazırlandı",
+              "Template sayfalar oluşturuldu (blog/hizmet/kampanya)",
+              "Publish gate kuralları tanımlandı (meta, H, görsel, CTA)",
+              "Haftalık görev listesi yayınlandı",
+              "Mentor review süreci tanımlandı (ilk 10 yayın)",
+              "Sık hata listesi çıkarıldı",
+              "Panel içi help text eklendi",
+              "Ölçüm KPI’ları belirlendi (hız, hata, revizyon)",
+              "30 gün sonunda yetki artırma kriteri yazıldı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "CMS editör onboarding’i nasıl planlanmalı?",
+        "a": "Role göre hedefler belirleyip 30 günlük kademeli planla planlanmalı: test ortamında pratik, panel içi help text, template sayfalar ve publish checklist ile desteklenmelidir."
+      },
+      {
+        "q": "Yeni gelen içerik editörlerine paneli nasıl öğretmeliyim?",
+        "a": "Önce standartları (style guide, SEO temel, workflow) öğretip panelde bu standartların karşılığını gösterin. Test ortamında görev verin ve ilk yayınları mentor review ile kontrol edin."
+      },
+      {
+        "q": "Hangi hatalar en sık yapılıyor, nasıl önlerim?",
+        "a": "Eksik meta, bozuk H hiyerarşisi, ağır/yanlış görsel ve kırık link en sık hatalardır. Publish gate, checklist, template ve preview/staging testi ile önlenir; kritik sayfalarda ikinci onay eklemek etkili olur."
+      },
+      {
+        "q": "Otel ve B2B için CMS eğitim dokümanı neler içermeli?",
+        "a": "Rol bazlı kullanım, draft-review-publish akışı, görsel/CTA kuralları, SEO alanları, sık hata listesi, “ne yapma” guardrail’leri ve senaryo örnekleri içermelidir (otel kampanya/oda; B2B hizmet/case/asset)."
+      },
+      {
+        "q": "Editör eğitiminde test ortamı neden şart?",
+        "a": "Çünkü editör risk almadan pratik yapar, canlıda deneme refleksi azalır ve yayın kalitesi yükselir. Ayrıca publish gate ve checklist eğitimde doğal olarak öğrenilir."
+      },
+      {
+        "q": "Onboarding başarısını nasıl ölçerim?",
+        "a": "Üretkenliğe ulaşma süresi, revizyon sayısı, hatalı yayın sayısı ve checklist uyumu ile ölçebilirsiniz. 30 gün sonunda ölçüm raporu çıkarıp planı güncellemek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-hero-01.webp — Alt text: CMS editör onboarding ve eğitim modeli, otel ve B2B ekipleri bağlamı",
+          "h1-context — 1920×1080 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-h1-context-02.webp — Alt text: İlk 30 gün eğitim akışı özeti, panel benimsenmesi bağlamı",
+          "divider-01 — 1600×1200 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-divider-03.webp — Alt text: 30 günlük plan bölümü görseli, eğitim operasyon bağlamı",
+          "divider-02 — 1600×1200 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-divider-04.webp — Alt text: Guardrail ve sık hata önleme görseli, yayın güvenliği bağlamı",
+          "diagram-05 — 1920×1080 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-diagram-05.webp — Alt text: CMS editör onboarding akış diyagramı, rol bazlı eğitim bağlamı",
+          "checklist-06 — 1200×1200 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-checklist-06.webp — Alt text: İlk 30 gün checklist kartı, editör enablement bağlamı",
+          "kpi-07 — 1200×1200 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-kpi-07.webp — Alt text: Üretkenliğe ulaşma süresi ve hata oranı KPI kartı, ekip performansı bağlamı",
+          "proof-08 — 1200×1200 — cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi-proof-08.webp — Alt text: Eğitim kiti deliverables kartı, ajans ve kurum bağlamı",
+          "table-first-30-days — İlk 30 Gün Checklist Tablosu — Hafta / Hedef / Görev / Başarı ölçütü",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu — KPI / Önce / Sonra (hedef)"
+        ],
+        "technicalChecklist": [
+          "Rol bazlı yetki ve eğitim planını yazar/editör/admin ayrımıyla oluştur.",
+          "Test/staging ortamını editör eğitimi için hazırla.",
+          "Onboarding programını demo yerine görev bazlı kurgula.",
+          "İlk 30 gün için haftalık hedef, görev ve başarı ölçütlerini tanımla.",
+          "Style guide özetini kritik CMS alanlarına help text olarak ekle.",
+          "Blog, hizmet ve kampanya için clone edilebilir template sayfalar oluştur.",
+          "Title, slug, hero, meta, CTA ve görsel alanları için publish gate kur.",
+          "Heading hiyerarşisi ve alt text kurallarını validasyonlarla destekle.",
+          "Preview/staging ve broken link kontrolünü yayın rutininin parçası yap.",
+          "Kritik içeriklerde reviewer/publisher onayını zorunlu kıl.",
+          "İlk 10 yayında mentor review sürecini uygula.",
+          "Üretkenliğe ulaşma süresi, hata ve revizyon KPI’larını izle.",
+          "30 gün sonunda yetki artırma kriterlerini ölçülebilir hale getir.",
+          "365 günlük döngüde eğitim materyallerini ve panel içi ipuçlarını güncelle."
         ]
       }
     }

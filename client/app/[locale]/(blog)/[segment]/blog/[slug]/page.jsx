@@ -594,6 +594,224 @@ function alignBlogJsonLdWebPage(data, pageUrl, pageTitle) {
   };
 }
 
+const ORGANIZATION_SCHEMA_ID = "https://dgtlface.com/#organization";
+const WEBSITE_SCHEMA_ID = "https://dgtlface.com/#website";
+const OMIT_SCHEMA_VALUES = new Set(["", "N/A", "TBD", "Needs Review"]);
+
+function getSchemaTypes(node) {
+  const type = node?.["@type"];
+  if (Array.isArray(type)) {
+    return type;
+  }
+
+  return type ? [type] : [];
+}
+
+function schemaTypeIncludes(node, expectedType) {
+  return getSchemaTypes(node).includes(expectedType);
+}
+
+function hasAnySchemaType(node, expectedTypes) {
+  return getSchemaTypes(node).some((type) => expectedTypes.includes(type));
+}
+
+function cleanSchemaText(value) {
+  if (typeof value !== "string") {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed || OMIT_SCHEMA_VALUES.has(trimmed) || trimmed.includes("{{")) {
+    return null;
+  }
+
+  return trimmed;
+}
+
+function cleanSchemaDate(value) {
+  const text = cleanSchemaText(value);
+  if (!text || !/^\d{4}-\d{2}-\d{2}/.test(text)) {
+    return null;
+  }
+
+  return text;
+}
+
+function cleanAbsoluteUrl(value) {
+  const text = cleanSchemaText(value);
+  if (!text) {
+    return null;
+  }
+
+  try {
+    const url = new URL(text);
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+      return null;
+    }
+
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
+function schemaRef(id) {
+  return { "@id": id };
+}
+
+function cleanSchemaImages(value) {
+  const rawImages = Array.isArray(value) ? value : [value];
+  const images = rawImages
+    .map((item) => {
+      if (typeof item === "string") {
+        return cleanAbsoluteUrl(item);
+      }
+
+      if (item && typeof item === "object") {
+        return cleanAbsoluteUrl(item.url || item.contentUrl);
+      }
+
+      return null;
+    })
+    .filter(Boolean);
+
+  return images.length ? images : null;
+}
+
+function findGraphNodes(data) {
+  if (!data || typeof data !== "object") {
+    return [];
+  }
+
+  const graph = Array.isArray(data["@graph"])
+    ? data["@graph"]
+    : Array.isArray(data)
+      ? data
+      : [data];
+
+  return graph.filter((node) => node && typeof node === "object");
+}
+
+function cleanBreadcrumbListNode(node, pageUrl) {
+  const elements = Array.isArray(node?.itemListElement)
+    ? node.itemListElement
+    : [];
+  const itemListElement = elements
+    .map((item, index) => {
+      const name = cleanSchemaText(item?.name);
+      if (!name) {
+        return null;
+      }
+
+      const positionNumber = Number(item?.position);
+      const position =
+        Number.isFinite(positionNumber) && positionNumber > 0
+          ? positionNumber
+          : index + 1;
+      const itemUrl = cleanAbsoluteUrl(item?.item);
+
+      return {
+        "@type": "ListItem",
+        position,
+        name,
+        ...(itemUrl ? { item: itemUrl } : {}),
+      };
+    })
+    .filter(Boolean);
+
+  if (!itemListElement.length) {
+    return null;
+  }
+
+  return {
+    "@type": "BreadcrumbList",
+    "@id": `${pageUrl}#breadcrumb`,
+    itemListElement,
+  };
+}
+
+function cleanBlogPostingNode(node, pageUrl, pageTitle, locale) {
+  const headline =
+    cleanSchemaText(node?.headline) || cleanSchemaText(node?.name) || pageTitle;
+  if (!headline) {
+    return null;
+  }
+
+  const description = cleanSchemaText(node?.description);
+  const datePublished = cleanSchemaDate(
+    node?.datePublished || node?.dateCreated
+  );
+  const dateModified = cleanSchemaDate(node?.dateModified);
+  const images = cleanSchemaImages(node?.image);
+  const articleSection = cleanSchemaText(node?.articleSection);
+
+  return {
+    "@type": "BlogPosting",
+    "@id": `${pageUrl}#article`,
+    url: pageUrl,
+    mainEntityOfPage: schemaRef(`${pageUrl}#webpage`),
+    headline,
+    name: cleanSchemaText(node?.name) || headline,
+    ...(description ? { description } : {}),
+    inLanguage:
+      cleanSchemaText(node?.inLanguage) || (locale === "tr" ? "tr-TR" : locale),
+    ...(datePublished ? { datePublished } : {}),
+    ...(dateModified ? { dateModified } : {}),
+    author: schemaRef(ORGANIZATION_SCHEMA_ID),
+    publisher: schemaRef(ORGANIZATION_SCHEMA_ID),
+    ...(images ? { image: images } : {}),
+    ...(articleSection ? { articleSection } : {}),
+  };
+}
+
+function cleanBlogWebPageNode(node, pageUrl, pageTitle, locale, hasBreadcrumb) {
+  const name = cleanSchemaText(node?.name) || pageTitle;
+  const description = cleanSchemaText(node?.description);
+
+  return {
+    "@type": "WebPage",
+    "@id": `${pageUrl}#webpage`,
+    url: pageUrl,
+    ...(name ? { name } : {}),
+    ...(description ? { description } : {}),
+    inLanguage:
+      cleanSchemaText(node?.inLanguage) || (locale === "tr" ? "tr-TR" : locale),
+    isPartOf: schemaRef(WEBSITE_SCHEMA_ID),
+    mainEntity: schemaRef(`${pageUrl}#article`),
+    ...(hasBreadcrumb ? { breadcrumb: schemaRef(`${pageUrl}#breadcrumb`) } : {}),
+  };
+}
+
+function sanitizeBlogJsonLdData(data, pageUrl, pageTitle, locale) {
+  const nodes = findGraphNodes(data);
+  const articleNode = nodes.find((node) =>
+    hasAnySchemaType(node, ["BlogPosting", "Article", "NewsArticle"])
+  );
+  const webPageNode = nodes.find((node) => schemaTypeIncludes(node, "WebPage"));
+  const breadcrumbNode = nodes.find((node) =>
+    schemaTypeIncludes(node, "BreadcrumbList")
+  );
+  const breadcrumb = cleanBreadcrumbListNode(breadcrumbNode, pageUrl);
+  const webPage = cleanBlogWebPageNode(
+    webPageNode,
+    pageUrl,
+    pageTitle,
+    locale,
+    Boolean(breadcrumb)
+  );
+  const article = cleanBlogPostingNode(articleNode, pageUrl, pageTitle, locale);
+  const graph = [webPage, article, breadcrumb].filter(Boolean);
+
+  if (!graph.length) {
+    return null;
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": graph,
+  };
+}
+
 // Türkçe yorum: Department label
 function deptLabel(dept) {
   const map = {
