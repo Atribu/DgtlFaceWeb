@@ -655,6 +655,24 @@ function cleanAbsoluteUrl(value) {
   }
 }
 
+function cleanSchemaUrl(value, siteUrl) {
+  const text = cleanSchemaText(value);
+  if (!text) {
+    return null;
+  }
+
+  try {
+    const url = new URL(text, siteUrl);
+    if (url.protocol !== "http:" && url.protocol !== "https:") {
+      return null;
+    }
+
+    return url.toString();
+  } catch {
+    return null;
+  }
+}
+
 function schemaRef(id) {
   return { "@id": id };
 }
@@ -732,7 +750,9 @@ function cleanBreadcrumbListNode(node, pageUrl) {
 
 function cleanBlogPostingNode(node, pageUrl, pageTitle, locale) {
   const headline =
-    cleanSchemaText(node?.headline) || cleanSchemaText(node?.name) || pageTitle;
+    cleanSchemaText(pageTitle) ||
+    cleanSchemaText(node?.headline) ||
+    cleanSchemaText(node?.name);
   if (!headline) {
     return null;
   }
@@ -741,7 +761,6 @@ function cleanBlogPostingNode(node, pageUrl, pageTitle, locale) {
   const datePublished = cleanSchemaDate(
     node?.datePublished || node?.dateCreated
   );
-  const dateModified = cleanSchemaDate(node?.dateModified);
   const images = cleanSchemaImages(node?.image);
   const articleSection = cleanSchemaText(node?.articleSection);
 
@@ -751,12 +770,11 @@ function cleanBlogPostingNode(node, pageUrl, pageTitle, locale) {
     url: pageUrl,
     mainEntityOfPage: schemaRef(`${pageUrl}#webpage`),
     headline,
-    name: cleanSchemaText(node?.name) || headline,
+    name: headline,
     ...(description ? { description } : {}),
     inLanguage:
       cleanSchemaText(node?.inLanguage) || (locale === "tr" ? "tr-TR" : locale),
     ...(datePublished ? { datePublished } : {}),
-    ...(dateModified ? { dateModified } : {}),
     author: schemaRef(ORGANIZATION_SCHEMA_ID),
     publisher: schemaRef(ORGANIZATION_SCHEMA_ID),
     ...(images ? { image: images } : {}),
@@ -765,7 +783,7 @@ function cleanBlogPostingNode(node, pageUrl, pageTitle, locale) {
 }
 
 function cleanBlogWebPageNode(node, pageUrl, pageTitle, locale, hasBreadcrumb) {
-  const name = cleanSchemaText(node?.name) || pageTitle;
+  const name = cleanSchemaText(pageTitle) || cleanSchemaText(node?.name);
   const description = cleanSchemaText(node?.description);
 
   return {
@@ -809,6 +827,155 @@ function sanitizeBlogJsonLdData(data, pageUrl, pageTitle, locale) {
   return {
     "@context": "https://schema.org",
     "@graph": graph,
+  };
+}
+
+function getBlogSchemaDescription(post) {
+  const candidates = [
+    post?.meta?.description,
+    post?.metaDescription,
+    post?.seo?.description,
+    post?.description,
+    post?.excerpt,
+    post?.summary,
+    post?.modules?.sgeSummary,
+    post?.modules?.answerBlock,
+    post?.h1?.intro,
+  ];
+
+  for (const candidate of candidates) {
+    const description = cleanSchemaText(asText(candidate));
+    if (description) {
+      return description;
+    }
+  }
+
+  return null;
+}
+
+function buildBlogBreadcrumbListNode({
+  pageUrl,
+  pageTitle,
+  siteUrl,
+  locale,
+  department,
+  departmentHubHref,
+  deptName,
+  blogIndexHref,
+}) {
+  const homeName = locale === "tr" ? "Ana Sayfa" : "Home";
+  const items = [
+    { name: homeName, item: cleanSchemaUrl(`/${locale}/`, siteUrl) },
+    {
+      name: cleanSchemaText(deptName) || department,
+      item: cleanSchemaUrl(
+        departmentHubHref || `/${locale}/${department}`,
+        siteUrl
+      ),
+    },
+    {
+      name: "Blog",
+      item: cleanSchemaUrl(
+        blogIndexHref || `/${locale}/${department}/blog`,
+        siteUrl
+      ),
+    },
+    { name: pageTitle, item: pageUrl },
+  ]
+    .map((item) => ({
+      name: cleanSchemaText(item.name),
+      item: cleanAbsoluteUrl(item.item),
+    }))
+    .filter((item) => item.name && item.item);
+
+  if (!items.length) {
+    return null;
+  }
+
+  return {
+    "@type": "BreadcrumbList",
+    "@id": `${pageUrl}#breadcrumb`,
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.item,
+    })),
+  };
+}
+
+function buildFallbackBlogJsonLdData({
+  post,
+  pageUrl,
+  pageTitle,
+  siteUrl,
+  locale,
+  department,
+  departmentHubHref,
+  deptName,
+  blogIndexHref,
+  bannerMedia,
+}) {
+  const name = cleanSchemaText(pageTitle) || cleanSchemaText(asText(post?.title));
+  if (!name) {
+    return null;
+  }
+
+  const description = getBlogSchemaDescription(post);
+  const imageUrl = cleanSchemaUrl(bannerMedia?.src, siteUrl);
+  const datePublished = cleanSchemaDate(
+    post?.datePublished ||
+      post?.publishedAt ||
+      post?.publishedDate ||
+      post?.date ||
+      post?.updatedAt
+  );
+  const articleSection = cleanSchemaText(deptName) || cleanSchemaText(department);
+  const inLanguage = locale === "tr" ? "tr-TR" : locale;
+  const breadcrumb = buildBlogBreadcrumbListNode({
+    pageUrl,
+    pageTitle: name,
+    siteUrl,
+    locale,
+    department,
+    departmentHubHref,
+    deptName,
+    blogIndexHref,
+  });
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name,
+        ...(description ? { description } : {}),
+        inLanguage,
+        isPartOf: schemaRef(WEBSITE_SCHEMA_ID),
+        mainEntity: schemaRef(`${pageUrl}#article`),
+        ...(breadcrumb
+          ? { breadcrumb: schemaRef(`${pageUrl}#breadcrumb`) }
+          : {}),
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": `${pageUrl}#article`,
+        url: pageUrl,
+        mainEntityOfPage: schemaRef(`${pageUrl}#webpage`),
+        headline: name,
+        name,
+        ...(description ? { description } : {}),
+        inLanguage,
+        ...(datePublished ? { datePublished } : {}),
+        author: schemaRef(ORGANIZATION_SCHEMA_ID),
+        publisher: schemaRef(ORGANIZATION_SCHEMA_ID),
+        ...(imageUrl ? { image: [imageUrl] } : {}),
+        ...(articleSection ? { articleSection } : {}),
+      },
+      breadcrumb,
+    ].filter(Boolean),
   };
 }
 
@@ -969,25 +1136,41 @@ export default async function BlogDetailPage({ params }) {
   // Türkçe yorum: Hero overlay'de başlık gösterilsin mi? (wireframe: opsiyonel)
   const SHOW_HERO_TITLE_OVERLAY = false;
 
-  const rawJsonLd =
-    BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
-    BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
-    null;
   const canonicalSlug =
     localizedSlugs?.[locale] ||
     getLocalizedBlogSlug({ locale, post, postKey, fallbackSlug: slug }) ||
     slug;
+  const rawJsonLd =
+    BLOG_JSONLD_MAP?.[locale]?.[department]?.[canonicalSlug] ||
+    BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
+    BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
+    null;
   const blogPageUrl = new URL(
     buildBlogHref(locale, department, canonicalSlug) ||
       `/${locale}/${department}/blog/${canonicalSlug}`,
     siteUrl
   ).toString();
-  const jsonLd = rawJsonLd
+  const fallbackJsonLd = buildFallbackBlogJsonLdData({
+    post,
+    pageUrl: blogPageUrl,
+    pageTitle: post.title,
+    siteUrl,
+    locale,
+    department,
+    departmentHubHref,
+    deptName,
+    blogIndexHref,
+    bannerMedia,
+  });
+  const normalizedJsonLd = rawJsonLd
     ? alignBlogJsonLdWebPage(
         normalizeBlogJsonLdData(rawJsonLd, siteUrl, locale),
         blogPageUrl,
         post.title
       )
+    : fallbackJsonLd;
+  const jsonLd = normalizedJsonLd
+    ? sanitizeBlogJsonLdData(normalizedJsonLd, blogPageUrl, post.title, locale)
     : null;
 
   return (
