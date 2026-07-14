@@ -9,7 +9,6 @@ import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 import JsonLd from "@/app/[locale]/components/seo/JsonLd";
 import PlainRichText from "@/app/[locale]/components/common/PlainRichText";
-import { BLOG_JSONLD_MAP } from "../blogJsonLdMap";
 import {
   getBlogPostByKey,
   getBlogPostByRoute,
@@ -495,105 +494,6 @@ function asFaqItems(v) {
     .filter(Boolean);
 }
 
-function normalizeSiteUrl(rawUrl, siteUrl, locale) {
-  let parsedUrl;
-  let siteOrigin;
-
-  try {
-    parsedUrl = new URL(rawUrl);
-    siteOrigin = new URL(siteUrl).origin;
-  } catch {
-    return rawUrl;
-  }
-
-  const allowedOrigins = new Set([siteOrigin, "https://dgtlface.com"]);
-  if (!allowedOrigins.has(parsedUrl.origin)) {
-    return rawUrl;
-  }
-
-  const { pathname, search, hash } = parsedUrl;
-
-  if (STATIC_PATH_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
-    return rawUrl;
-  }
-
-  const withoutLocale = pathname.replace(/^\/(?:tr|en)(?=\/|$)/, "") || "/";
-  const internalPath =
-    routing.pathnames?.[pathname]
-      ? pathname
-      : LOCALIZED_PATH_TO_INTERNAL.get(withoutLocale) ||
-        LOCALIZED_PATH_TO_INTERNAL.get(pathname) ||
-        null;
-
-  if (internalPath) {
-    const localizedPath = getLocalizedRoutePath(internalPath, locale);
-    const localizedHref = withLocalePrefix(locale, localizedPath);
-    if (localizedHref) {
-      return `${siteOrigin}${localizedHref}${search}${hash}`;
-    }
-  }
-
-  if (hash && pathname.length > 1 && pathname.endsWith("/")) {
-    parsedUrl.pathname = pathname.replace(/\/+$/, "");
-    return parsedUrl.toString();
-  }
-
-  return rawUrl;
-}
-
-function normalizeJsonLdUrlString(value, siteUrl, locale) {
-  if (typeof value !== "string") return value;
-
-  return value.replace(
-    /https?:\/\/(?:dgtlface\.com|localhost:\d+)\/[^\s"'<>),]+/g,
-    (matchedUrl) => normalizeSiteUrl(matchedUrl, siteUrl, locale)
-  );
-}
-
-function normalizeBlogJsonLdData(data, siteUrl, locale) {
-  if (Array.isArray(data)) {
-    return data.map((item) => normalizeBlogJsonLdData(item, siteUrl, locale));
-  }
-
-  if (data && typeof data === "object") {
-    return Object.fromEntries(
-      Object.entries(data).map(([key, value]) => [
-        key,
-        normalizeBlogJsonLdData(value, siteUrl, locale),
-      ])
-    );
-  }
-
-  return normalizeJsonLdUrlString(data, siteUrl, locale);
-}
-
-function alignBlogJsonLdWebPage(data, pageUrl, pageTitle) {
-  if (Array.isArray(data)) {
-    return data.map((item) => alignBlogJsonLdWebPage(item, pageUrl, pageTitle));
-  }
-
-  if (!data || typeof data !== "object") {
-    return data;
-  }
-
-  const normalizedEntries = Object.entries(data).map(([key, value]) => [
-    key,
-    alignBlogJsonLdWebPage(value, pageUrl, pageTitle),
-  ]);
-  const normalizedData = Object.fromEntries(normalizedEntries);
-
-  if (normalizedData["@type"] !== "WebPage") {
-    return normalizedData;
-  }
-
-  return {
-    ...normalizedData,
-    "@id": `${pageUrl}#webpage`,
-    url: pageUrl,
-    ...(pageTitle ? { name: pageTitle } : {}),
-  };
-}
-
 const ORGANIZATION_SCHEMA_ID = "https://dgtlface.com/#organization";
 const WEBSITE_SCHEMA_ID = "https://dgtlface.com/#website";
 const OMIT_SCHEMA_VALUES = new Set(["", "N/A", "TBD", "Needs Review"]);
@@ -904,7 +804,7 @@ function buildBlogBreadcrumbListNode({
   };
 }
 
-function buildFallbackBlogJsonLdData({
+function buildBlogJsonLdData({
   post,
   pageUrl,
   pageTitle,
@@ -1140,17 +1040,12 @@ export default async function BlogDetailPage({ params }) {
     localizedSlugs?.[locale] ||
     getLocalizedBlogSlug({ locale, post, postKey, fallbackSlug: slug }) ||
     slug;
-  const rawJsonLd =
-    BLOG_JSONLD_MAP?.[locale]?.[department]?.[canonicalSlug] ||
-    BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
-    BLOG_JSONLD_MAP?.tr?.[department]?.[TR_SLUG_BY_POST_KEY[postKey]] ||
-    null;
   const blogPageUrl = new URL(
     buildBlogHref(locale, department, canonicalSlug) ||
       `/${locale}/${department}/blog/${canonicalSlug}`,
     siteUrl
   ).toString();
-  const fallbackJsonLd = buildFallbackBlogJsonLdData({
+  const blogJsonLd = buildBlogJsonLdData({
     post,
     pageUrl: blogPageUrl,
     pageTitle: post.title,
@@ -1162,15 +1057,8 @@ export default async function BlogDetailPage({ params }) {
     blogIndexHref,
     bannerMedia,
   });
-  const normalizedJsonLd = rawJsonLd
-    ? alignBlogJsonLdWebPage(
-        normalizeBlogJsonLdData(rawJsonLd, siteUrl, locale),
-        blogPageUrl,
-        post.title
-      )
-    : fallbackJsonLd;
-  const jsonLd = normalizedJsonLd
-    ? sanitizeBlogJsonLdData(normalizedJsonLd, blogPageUrl, post.title, locale)
+  const jsonLd = blogJsonLd
+    ? sanitizeBlogJsonLdData(blogJsonLd, blogPageUrl, post.title, locale)
     : null;
 
   return (
