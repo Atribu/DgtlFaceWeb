@@ -90509,20 +90509,7 @@ export const BLOG_JSONLD_MAP = {
             description:
               "Resort otellerde konser ve show etkinlikleri için sahne–ses–ışık ve multi-camera prodüksiyon planı şablonu.",
           },
-          {
-            "@type": "VideoObject",
-            "@id":
-              "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#video",
-            name: "Konser Highlight Video (Örnek Çıktı)",
-            description:
-              "Konser sonrası highlight video ve kısa Reel seti üretimi için örnek video çıktısı.",
-            uploadDate: "2026-01-11",
-            inLanguage: "tr-TR",
-            isPartOf: {
-              "@id":
-                "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#article",
-            },
-          },
+
           {
             "@type": "HowTo",
             "@id":
@@ -147829,21 +147816,7 @@ export const BLOG_JSONLD_MAP = {
               { "@type": "Thing", name: "Sea View" },
             ],
           },
-          {
-            "@type": "VideoObject",
-            "@id":
-              "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#video1",
-            name: "Varsayım: Aquapark deneyimi kısa tur",
-            description: "Otel aquapark alanı ve aile deneyimi kısa video turu",
-            thumbnailUrl:
-              "https://dgtlface.com/assets/varsayim/aquapark-thumb.jpg",
-            uploadDate: "2026-01-21",
-            embedUrl: "https://www.youtube.com/embed/varsayim",
-            about: [
-              { "@type": "Thing", name: "Amenity" },
-              { "@type": "Thing", name: "Aquapark" },
-            ],
-          },
+
           {
             "@type": "BreadcrumbList",
             "@id":
@@ -148098,22 +148071,6 @@ export const BLOG_JSONLD_MAP = {
             "@id": "https://dgtlface.com/tr/#hotel",
             name: "Varsayım: Örnek Otel Adı",
             containedInPlace: { "@type": "Place", name: "Antalya" },
-          },
-          {
-            "@type": "VideoObject",
-            "@id":
-              "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#video1",
-            name: "Varsayım: Aqua park odaklı Reels",
-            description:
-              "Aqua park deneyimini gösteren kısa Reels; ilgili aquapark landing sayfasına trafik taşır.",
-            thumbnailUrl:
-              "https://dgtlface.com/assets/varsayim/aquapark-reels-thumb.jpg",
-            uploadDate: "2026-01-21",
-            embedUrl: "https://www.youtube.com/embed/varsayim",
-            about: [
-              { "@type": "Thing", name: "TopicCluster" },
-              { "@type": "Thing", name: "Aquapark" },
-            ],
           },
           {
             "@type": "BreadcrumbList",
@@ -149142,22 +149099,7 @@ export const BLOG_JSONLD_MAP = {
               { "@type": "Thing", name: "Swim-up" },
             ],
           },
-          {
-            "@type": "VideoObject",
-            "@id":
-              "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#video-aquapark",
-            name: "Varsayım: Aquapark deneyimi kısa video",
-            description:
-              "Aqua park alanını ve aile deneyimini gösteren kısa video; ilgili landing'e yönlendirir.",
-            thumbnailUrl:
-              "https://dgtlface.com/assets/varsayim/aquapark-thumb.jpg",
-            uploadDate: "2026-02-17",
-            embedUrl: "https://www.youtube.com/embed/varsayim",
-            about: [
-              { "@type": "Thing", name: "Amenity" },
-              { "@type": "Thing", name: "Aquapark" },
-            ],
-          },
+
           {
             "@type": "BreadcrumbList",
             "@id":
@@ -149287,22 +149229,7 @@ export const BLOG_JSONLD_MAP = {
               name: "Varsayım: Örnek Otel",
               containedInPlace: { "@type": "Place", name: "Antalya" },
             },
-            {
-              "@type": "VideoObject",
-              "@id":
-                "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#video1",
-              name: "Varsayım: Antalya aquaparklı aile tatili kısa tur",
-              description:
-                "Aqua park konseptini gösteren kısa video; ilgili landing sayfasına yönlendirir.",
-              thumbnailUrl:
-                "https://dgtlface.com/assets/varsayim/tiktok-aquapark-thumb.jpg",
-              uploadDate: "2026-02-17",
-              embedUrl: "https://www.youtube.com/embed/varsayim",
-              about: [
-                { "@type": "Thing", name: "Aquapark" },
-                { "@type": "Thing", name: "Family Hotel" },
-              ],
-            },
+           
             {
               "@type": "BreadcrumbList",
               "@id":
