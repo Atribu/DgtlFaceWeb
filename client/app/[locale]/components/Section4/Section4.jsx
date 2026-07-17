@@ -1,5 +1,5 @@
 import React from "react";
-import Partner from "./SliderImage/Partner";
+import Partner from "./SliderImage/DeferredPartner";
 import { useTranslations } from 'next-intl';
 
 const Section4 = () => {

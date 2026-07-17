@@ -4,20 +4,22 @@ import { AiSourceMention } from "../common/AiSourceMention";
 import FaqPrompt from "../common/FaqPrompt";
 import { useTranslations } from "next-intl";
 import ViewportLazyMount from "./ViewportLazyMount";
+import HomeBlogShowcase from "./DeferredHomeBlogShowcase";
+import {
+  PartnersDeferred as Partners,
+  StatsDeferred as Section2,
+  WhyUsDeferred as WhyUsSection,
+} from "./DeferredEmblaSections";
 
 const Section4 = dynamic(() => import("../../components/Section4/Section4"));
-const Partners = dynamic(() => import("../../components/Partners/Partners"));
 const Section1 = dynamic(() => import("../Section1/Section"));
-const Section2 = dynamic(() => import("../../components/Section2/Section2"));
 const BlocksYatay = dynamic(() => import("../../components/Section3/BlocksYatay"));
-const WhyUsSection = dynamic(() => import("../../components/Section5/WhyUsSection"));
 const Contact = dynamic(() => import("../../components/Section6/ContactMain.jsx"));
 const QuestionsSection2 = dynamic(() =>
   import("../../components/subPageComponents/QuestionSection2")
 );
 const Section3List = dynamic(() => import("../../Services/Section3/Section3List"));
 const H2Section = dynamic(() => import("./H2Section"));
-const HomeBlogShowcase = dynamic(() => import("./HomeBlogShowcase"));
 
 export default function HomePage() {
     const t = useTranslations("Homepage");
