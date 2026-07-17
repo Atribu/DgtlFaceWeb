@@ -2717,7 +2717,7 @@
     },
     "h1": {
       "title": "CMS İçerik Modeli: Kurumsal Web Siteleri İçin Content Type ve Field Tasarımı",
-      "intro": "Kurumsal bir web sitesi “sayfa eklemek”ten ibaret değildir; içerik üretimi, SEO, çok dil, kampanya dönemleri ve ürün/hizmet büyüdükçe content architecture bir anda teknik bir probleme dönüşür. Doğru kurgulanmış bir CMS içerik modeli, içerik ekibinin işini kolaylaştırırken Next.js tarafında tutarlı ve ölçeklenebilir sayfa üretimini mümkün kılar. Bu rehberde, “şimdiki ihtiyaç + 6/12 aylık roadmap” perspektifiyle schema-aware modelling yaklaşımını da ekleyerek, otel ve B2B sitelerinde sürdürülebilir bir model kurmayı adım adım anlatıyorum.",
+      "intro": "Kurumsal bir web sitesi “sayfa eklemek”ten ibaret değildir; içerik üretimi, SEO, çok dil, kampanya dönemleri ve ürün/hizmet büyüdükçe content architecture bir anda teknik bir probleme dönüşür. Doğru kurgulanmış bir CMS içerik modeli, içerik ekibinin işini kolaylaştırırken Next.js tarafında tutarlı ve ölçeklenebilir sayfa üretimini mümkün kılar. Bu rehberde, “şimdiki ihtiyaç + 6/12 aylık roadmap” perspektifiyle schema-aware modelling yaklaşımını da ekleyerek, otel ve B2B sitelerinde sürdürülebilir bir model kurmayı adım adım anlatıyorum. Bu [CMS içerik modeli](/tr/yazilim/cms-entegrasyonu) yaklaşımı, panel alanlarını tek tek çoğaltmaktan çok; içerik, SEO ve entegrasyon ihtiyaçlarını ortak bir veri sözleşmesinde toplama disiplinine dayanır.",
       "quickSummary": [
         "CMS içerik modelini “panel” değil, veri sözleşmesi (content contract) olarak düşün",
         "Content type’ları şablon/SEO/ilişki/workflow farkına göre ayır",
@@ -2784,6 +2784,10 @@
           {
             "type": "p",
             "text": "Bu noktada kritik fikir şu: CMS’i “panel” değil, ürünün veri sözleşmesi (content contract) olarak düşünmek. Çünkü Next.js gibi modern framework’lerde sayfa üretimi; verinin şekline, zorunluluklarına, lokalizasyonuna ve cache mantığına bağlıdır. Yanlış model, performansı ve sürdürülebilirliği doğrudan etkiler."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetlerinde CMS modelleme](/tr/web-ve-yazilim-hizmetleri), yalnız editör ekranı kararı değil; çok dillilik, arama, SEO ve entegrasyon akışlarını belirleyen temel içerik altyapısı olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -2982,12 +2986,20 @@
             "text": "Kurumsal projelerde en sık hata: SEO alanlarını içerik alanına karıştırmak. SEO alanları her içerikte standart olmalı ve şunları kapsamalı: Meta Title/Meta Description, Canonical URL (özellikle benzer içerikler), OG Image ve sosyal paylaşım alanları, Index/noindex, follow/nofollow, Structured data tetikleyicileri (ör. FAQ var mı?). Teknik SEO Notu ile uyum: URL/slug standardı, schema kurgusu ve çok dilde hreflang yaklaşımı içerik modelinin parçası olmalı."
           },
           {
+            "type": "p",
+            "text": "Editoryal tarafta [CMS modeli ve içerik SEO](/tr/seo/icerik-seo), başlık, özet, kategori, etiket ve içerik bloklarının arama niyetiyle nasıl uyumlanacağını daha net planlamayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Media ve relation alanları: Ne zaman şart?"
           },
           {
             "type": "p",
             "text": "Media alanlarını “görsel yükledik bitti” diye düşünmeyin. Hero, OG, kart görselleri ve galeri farklı ihtiyaçlardır. Relation alanları ise içerikleri birbirine bağlayarak hem kullanıcı deneyimini hem internal linking’i güçlendirir: Blog → Service ilişkilendirme (iç link hedefleri), Room → Package, Destination ilişkisi (otel bağlamı), Case Study → Service, Sector ilişkisi (B2B bağlamı)."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [CMS ile arama deneyimi kurmak](/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak), field ve relation seçimlerinin filtreleme, indexleme ve içerik keşfi üzerindeki etkisini daha görünür hale getirir."
           },
           {
             "type": "callout",
@@ -3022,6 +3034,10 @@
             "text": "Bu bölüm, rakiplerin çoğunun atladığı “ileri tasarım” katmanını kapatır: yalnız içerik tipi saymak yerine, modeli büyüten ilişkileri ve SEO sözleşmesini netleştirir. Otel projelerinde oda/paket/destinasyon ilişkileri; B2B projelerinde service/case/reference ilişkileri kritik fark yaratır."
           },
           {
+            "type": "p",
+            "text": "Bu ilişki mantığını derinleştirmek için [içerik grafi ve schema-driven CMS](/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme), entity ve relation yapılarının yalnız paneli değil, front-end ve otomasyon kararlarını da nasıl etkilediğini açıklar."
+          },
+          {
             "type": "media",
             "slot": "hotel-b2b"
           },
@@ -3032,6 +3048,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki model, Türkiye’de özellikle Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon odaklı aramalarda “yerel sayfa + deneyim + teklif” mimarisini taşır:"
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde [otel oda paket içerik modeli](/tr/otel/pms-entegrasyonu), oda, paket, kampanya ve operasyon verilerinin CMS ile PMS tarafında hangi sınırlarla bağlanması gerektiğini netleştirerek model karmaşasını azaltır."
           },
           {
             "type": "list",
@@ -3174,6 +3194,14 @@
           },
           {
             "type": "p",
+            "text": "Bu noktada [çok dilli CMS içerik modeli](/tr/yazilim/blog/cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek), locale alanları, dil bazlı slug yapısı ve çeviri varyasyonlarının tek panel içinde nasıl standardize edileceğini daha detaylı açıklar."
+          },
+          {
+            "type": "p",
+            "text": "Benzer şekilde [CMS modeli ve teknik SEO](/tr/seo/teknik-seo), canonical, sitemap, structured data ve indexlenebilirlik kurallarının model seviyesinde nasıl kontrol altına alınacağını belirler."
+          },
+          {
+            "type": "p",
             "text": "İç link uyumu: Bu yaklaşımın altyapı mantığı /tr/yazilim/web-sitesi-gelistirme ve içerik stratejisi /tr/seo/icerik-seo ile birlikte ele alınmalıdır."
           },
           {
@@ -3262,6 +3290,10 @@
           {
             "type": "p",
             "text": "CMS içerik modelini doğru kurduğunuzda, içerik ekibi daha hızlı ve hatasız üretim yapar; Next.js tarafında sayfa üretimi daha öngörülebilir hale gelir; SEO/meta ve schema çıktıları tutarlı olur. En büyük kazanım ise şudur: 6/12 aylık roadmap büyüdüğünde bile “yeniden mimari” ihtiyacı azalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı proje kapsamınıza göre doğru kurmak için [kurumsal CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) almak ve uygulama detaylarını [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) sayfasından incelemek sonraki adımı netleştirir."
           },
           {
             "type": "cta",
@@ -3394,7 +3426,7 @@
     },
     "h1": {
       "title": "Rol Tabanlı Yetkilendirme ve Kullanıcı Yönetimi: CMS Panelinde Güvenlik Mimarisi",
-      "intro": "Bir CMS paneli, yayınlanan içerik kadar içerik üzerinde kimlerin ne yapabildiğiyle tanımlanır. Otel sitelerinde fiyat/kampanya gibi alanlar, B2B projelerde hizmet/ürün sayfaları ve case içerikleri; yanlış bir tıklamayla gelir kaybına, itibar zedelenmesine veya KVKK risklerine dönüşebilir. Bu yüzden “tek admin şifresi” veya “herkes editor” yaklaşımı, büyüyen ekiplerde kaçınılmaz olarak kaos üretir. Çözüm; RBAC (roles & permissions), onay akışı (controlled publishing) ve aktivite logları (activity logging) ile kurulmuş, izlenebilir bir panel güvenlik mimarisidir.",
+      "intro": "Bir CMS paneli, yayınlanan içerik kadar içerik üzerinde kimlerin ne yapabildiğiyle tanımlanır. Otel sitelerinde fiyat/kampanya gibi alanlar, B2B projelerde hizmet/ürün sayfaları ve case içerikleri; yanlış bir tıklamayla gelir kaybına, itibar zedelenmesine veya KVKK risklerine dönüşebilir. Bu yüzden “tek admin şifresi” veya “herkes editor” yaklaşımı, büyüyen ekiplerde kaçınılmaz olarak kaos üretir. Çözüm; RBAC (roles & permissions), onay akışı (controlled publishing) ve aktivite logları (activity logging) ile kurulmuş, izlenebilir bir panel güvenlik mimarisidir. Güvenli ve ölçeklenebilir bir [CMS rol tabanlı yetkilendirme](/tr/yazilim/cms-entegrasyonu) yapısı, paneli yalnız içerik girişi aracı olmaktan çıkarıp kontrollü operasyon katmanına dönüştürür.",
       "quickSummary": [
         "RBAC ile rol–yetki matrisini çıkar ve aksiyonları ayır (view/edit/publish/delete/user management)",
         "Kritik alanları (fiyat/kampanya/KVKK) field-level permission ile koru",
@@ -3473,6 +3505,10 @@
             "text": "RBAC’in pratikte iyi çalışması için iki şart kritiktir:\n1. Rollerin iş tanımına göre belirlenmesi (organizasyon haritası),\n2. Yetkilerin içerik tipi + alan seviyesi + aksiyon seviyesi (görüntüle/düzenle/yayınla/sil) olarak tasarlanması."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetlerinde panel güvenliği](/tr/web-ve-yazilim-hizmetleri), yalnız login ekranını korumak değil; rol tasarımı, field-level izinler, yayın akışı ve denetim kayıtlarını birlikte planlayan bir altyapı kararıdır."
+          },
+          {
             "type": "h3",
             "text": "RBAC nedir, CMS panelinde nasıl kurulur? "
           },
@@ -3523,6 +3559,10 @@
           {
             "type": "p",
             "text": "Aşağıdaki set, Türkiye geneli otel ve B2B projelerinde çoğu ekibi kapsar:"
+          },
+          {
+            "type": "p",
+            "text": "Roller dokümanda doğru görünse bile ekip bunları nasıl kullanacağını bilmiyorsa yapı hızla bozulur; bu noktada [editör rolleri ve panel eğitimi](/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi) operasyonel standardı korumak için kritik hale gelir."
           },
           {
             "type": "list",
@@ -3695,6 +3735,10 @@
             "text": "Kısa cevap: Publish yetkisini sınırlayın, taslak→review→publish adımlarını zorunlu kılın ve fiyat/kampanya gibi kritik değişikliklerde ikinci onay ekleyin.\n• “Acil değişiklik” için ayrı prosedür tanımlayın: kim, hangi koşulda, hangi süreyle publish yapabilir?\n• Her onay adımı bir log kaydı üretmelidir (kim onayladı, hangi sürüm)."
           },
           {
+            "type": "p",
+            "text": "Özellikle çok kullanıcılı yapılarda [CMS yayın onay akışı](/tr/yazilim/blog/cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow) ile draft, staging ve prod adımlarını rol bazlı yetkilerle eşleştirmek; yanlış yayını azaltırken geri alma sürecini de netleştirir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check:",
@@ -3758,6 +3802,10 @@
             "text": "“Panel güvenliği” çoğu zaman login tarafında başlar:\n• 2FA zorunluluğu (en az publisher/admin)\n• IP allowlist (IT/VPN üzerinden erişim)\n• SSO (kurumsal)\n• Oturum yönetimi (timeout, cihaz tanıma)\n\nBu kontrol katmanı ile loglar birleştiğinde, şüpheli davranışları daha hızlı yakalarsınız: örneğin gece saatinde farklı IP’den seri publish işlemleri, anomali alarmı üretebilir."
           },
           {
+            "type": "p",
+            "text": "Ancak loglama tek başına yeterli değildir; erişim kontrolü, yedekleme disiplini ve kurtarma planı da aynı [panel güvenlik mimarisi](/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi) içinde birlikte düşünülmelidir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check:",
@@ -3812,6 +3860,10 @@
             "text": "Mini örnek: Side’de bir erken rezervasyon kampanyasında “%15 indirim” metni yanlışlıkla “%51” olursa, loglar ve onay akışı hatayı hızla geri almanızı sağlar; ayrıca sorumluluğu netleştirir."
           },
           {
+            "type": "p",
+            "text": "Otel operasyonlarında oda, paket ve kampanya alanlarını yalnız ilgili ekiplerin yönetebilmesi için [otel fiyat kampanya yetki yapısı](/tr/otel/pms-entegrasyonu) PMS veri akışıyla uyumlu kurgulanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu: hizmet sayfaları ve case içerikleri"
           },
@@ -3831,6 +3883,14 @@
           {
             "type": "p",
             "text": "Panelde kişisel veriye temas eden alanlar (form kayıtları, CRM senkronları, müşteri notları) varsa erişim kısıtları doğru tanımlanmalıdır. RBAC kurgusunun /tr/yazilim/kvkk-uyum-hizmeti ve veri güvenliği yaklaşımının /tr/raporlama/kvkk-veri-guvenligi ile uyumlu ilerlemesi önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle aktivite logları, maskeleme kuralları ve görüntüleme izinleri; [panel erişimi ve KVKK veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla birlikte tasarlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Benzer şekilde çağrı merkezi ya da satış destek ekipleri için [rezervasyon destek ekibi panel yetkileri](/tr/cagri-merkezi/rezervasyon-destegi) ayrı tanımlanmalı; müşteri talebini görmek ile fiyat ya da yayın değiştirmek aynı yetki setine bırakılmamalıdır."
           },
           {
             "type": "list",
@@ -3904,6 +3964,10 @@
           {
             "type": "p",
             "text": "RBAC, onay akışı ve loglama; yalnız güvenlik değil, aynı zamanda operasyonel hız sağlar. Çünkü doğru sınırlar konduğunda içerik ekibi korkmadan üretir, IT ekipleri kriz yerine iyileştirmeye odaklanır ve yönetim “kim yaptı?” sorusuna net yanıt alır. Türkiye genelinde çok kullanıcılı otel ve B2B projelerinde bu üçlü; paneli kaostan çıkarıp kontrollü büyümeye taşır."
+          },
+          {
+            "type": "p",
+            "text": "Eğer ekip yapınıza uygun, kontrollü yayın akışıyla çalışan bir panel kurmak istiyorsanız [güvenli CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) ile rol matrisi ve onay sürecini netleştirebilir, ek sorular için de [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) sayfasından detaylara ulaşabilirsiniz."
           },
           {
             "type": "cta",
@@ -4108,7 +4172,7 @@
     },
     "h1": {
       "title": "Çok Dilli CMS Tasarımı: TR–EN–DE–RU İçerikleri Tek Panelden Yönetmek",
-      "intro": "Çok dilli yapı, sadece front-end’te dil switcher koymak değildir; asıl iş CMS tarafında başlar. TR–EN–DE–RU içerikleri Excel + e-posta ile yönetmek; geciken çeviriler, yanlış slug’lar, unutulan meta alanları ve “eksik dilde yayın” gibi hataları büyütür. Doğru kurgulanmış bir multilingual CMS; içerik ekibinin hızını artırır, ajans operasyonunu netleştirir ve SEO/lokalizasyon hatalarını düşürür. Bu rehberde, locale alanları vs ayrı entry yaklaşımını, preview ve çeviri workflow’unu; otel ve B2B senaryolarıyla birlikte ele alıyoruz.",
+      "intro": "Çok dilli yapı, sadece front-end’te dil switcher koymak değildir; asıl iş CMS tarafında başlar. TR–EN–DE–RU içerikleri Excel + e-posta ile yönetmek; geciken çeviriler, yanlış slug’lar, unutulan meta alanları ve “eksik dilde yayın” gibi hataları büyütür. Doğru kurgulanmış bir multilingual CMS; içerik ekibinin hızını artırır, ajans operasyonunu netleştirir ve SEO/lokalizasyon hatalarını düşürür. Bu rehberde, locale alanları vs ayrı entry yaklaşımını, preview ve çeviri workflow’unu; otel ve B2B senaryolarıyla birlikte ele alıyoruz. Sağlam bir [çok dilli CMS tasarımı](/tr/yazilim/cms-entegrasyonu), tek panelden içerik yönetimini yalnız çeviri kolaylığına değil; SEO, yayın hızı ve operasyon tutarlılığına da bağlar.",
       "quickSummary": [
         "1) URL/locale stratejisini netleştir",
         "2) Locale fields mi ayrı entry mi karar ver",
@@ -4172,6 +4236,10 @@
             "text": "Multilingual CMS mimarisinde hedef; içerikleri farklı dillere bölmekten çok, tek bir içerik gerçeği (single source of truth) etrafında çoklu dil varyasyonlarını yönetmektir. Bunun için iki ana model kullanılır:\n\t1.\tContent type bazlı locale alanları (locale fields)\n\t2.\tHer dil için ayrı entry yaklaşımı (separate entries per locale)\n\nHangisini seçeceğiniz; içerik tipi sayısı, ilişki (relation) yoğunluğu, editoryal ekip kapasitesi ve SEO/URL stratejinizle doğrudan ilgilidir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetlerinde multilingual CMS stratejisi](/tr/web-ve-yazilim-hizmetleri), yalnız dil seçici tasarımı değil; içerik modeli, çeviri kuyruğu, cache davranışı ve pazarlama operasyonunu birlikte ele alan bir altyapı kararıdır."
+          },
+          {
             "type": "h3",
             "text": "Çok dilli CMS tasarımı nasıl olmalı? "
           },
@@ -4212,6 +4280,10 @@
             "text": "Bu karar, panelinizin “yaşanabilirliği”ni belirler. Yanlış seçim; içerik ekibini yorar, geliştirici ekibe koşul yazdırır ve SEO hatalarını artırır."
           },
           {
+            "type": "p",
+            "text": "Kararın sağlıklı çıkması için [locale field workflow](/tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi) mantığını content type, relation ve zorunlu alan tasarımıyla birlikte düşünmek gerekir."
+          },
+          {
             "type": "media",
             "slot": "divider-03"
           },
@@ -4230,6 +4302,10 @@
           {
             "type": "p",
             "text": "Artıları\n\t•\tHer dil bağımsız gelişir (pazar bazlı içerik).\n\t•\tWorkflow, yayın ve kalite kontrol dil bazında daha net ayrılır.\n\t•\t“DE içerik farklı CTA kullanacak” gibi durumlar kolaydır.\n\nEksileri\n\t•\tRelation’lar çoğalır (eşleme ihtiyacı).\n\t•\t“Asıl içerik hangisi?” karmaşası doğabilir.\n\t•\tSenkronizasyon (TR değişti, EN/RU ne oldu?) iyi yönetilmezse dağılır."
+          },
+          {
+            "type": "p",
+            "text": "Dil bazlı güncellemeler sıklaştığında önbellek temizleme, preview yenileme ve yayın sonrası görünürlük süreleri kritikleşir; bu nedenle [çok dilli CMS performans ve cache stratejisi](/tr/yazilim/blog/cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz) panel kararının ayrılmaz parçasıdır."
           },
           {
             "type": "h3",
@@ -4383,6 +4459,10 @@
             "text": "Panelde şu görünümler operasyonu dramatik şekilde rahatlatır:\n\t•\t“EN missing fields” (title/body/meta/CTA eksikleri)\n\t•\t“DE ready for QA”\n\t•\t“RU published but outdated” (TR güncellendi, RU geride)\n\t•\t“Needs legal/compliance review” (KVKK hassas içerik)"
           },
           {
+            "type": "p",
+            "text": "İçerik panel içinde olgunlaştıktan sonra sıradaki ihtiyaç, [çok dilli içerikleri farklı kanallara yayınlamak](/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina) ve web, sosyal medya ile e-posta akışlarında aynı dil varyasyonlarını kontrollü şekilde dağıtmaktır."
+          },
+          {
             "type": "h3",
             "text": "Hangi alanlar için ayrı dil alanı açmalıyım? "
           },
@@ -4503,6 +4583,10 @@
             "text": "Otel projelerinde relation yoğunluğu (oda/paket/destinasyon) ve sezon baskısı; B2B projelerde ise hizmet/case/lead funnel içeriği ön plandadır. Her ikisinde de ortak risk: SEO uyumsuzluğu (hreflang, canonical, slug) ve operasyonel dağınıklık."
           },
           {
+            "type": "p",
+            "text": "Özellikle uluslararası talep hedefleyen tesislerde [otel siteleri için çok dilli SEO](/tr/otel/seo), oda, destinasyon ve kampanya sayfalarının dil bazında doğru arama niyetine bağlanması için kritik bir çerçeve sunar."
+          },
+          {
             "type": "media",
             "slot": "kpi-07"
           },
@@ -4524,6 +4608,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Ayrıca şehir, bölge ve pazar kırılımı olan yapılarda [dil ve lokasyon bazlı yerel SEO](/tr/seo/yerel-seo), yalnız dili değil aramanın gerçekleştiği lokasyonu da içerik workflow’una dahil etmenizi sağlar."
+          },
+          {
             "type": "h3",
             "text": "B2B için pratik öneriler"
           },
@@ -4535,6 +4623,10 @@
               "Case içeriklerinde KPI ve kanıt metinleri “çeviri + uyarlama” gerektirir (lokalizasyon).",
               "Blog içeriklerinde “outdated” flag’i en çok değer üreten kontrol mekanizmasıdır."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Sezonluk kampanyalar, pazar bazlı teklifler ve rezervasyon hedefleri büyüdükçe [otel dijital pazarlamada çok dilli içerik yönetimi](/tr/otel-dijital-pazarlama), paneldeki dil varyasyonlarını gerçek pazarlama performansına bağlayan operasyon katmanı haline gelir."
           },
           {
             "type": "callout",
@@ -4640,6 +4732,10 @@
           {
             "type": "p",
             "text": "TR–EN–DE–RU içerikleri tek panelden yönetmek; hem operasyonel hızı artırır hem de SEO/lokalizasyon hatalarını azaltır. Doğru model seçimi (locale fields vs ayrı entry), sağlam workflow ve preview/QA katmanı ile; çok dilli büyüme sürdürülebilir bir sisteme dönüşür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı sürdürülebilir hale getirmek için [çok dilli CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) alabilir, uygulama detaylarını ve süreç sorularını da [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) sayfasından inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -4758,7 +4854,7 @@
     },
     "h1": {
       "title": "CMS Performans ve Cache Stratejisi: Headless ve Next.js Entegrasyonlarında Hız",
-      "intro": "Headless CMS + Next.js projelerinde hız, “tek bir ayar”la değil; veri alma stratejisi, cache katmanları ve publish sonrası güncelleme akışı ile belirlenir. Bir tarafta kullanıcı deneyimi (Core Web Vitals ve algılanan hız), diğer tarafta içerik güncelliği (kampanya/fiyat/ürün dokümanı) vardır. Yanlış kurguda iki klasik problem çıkar: 1) Site hızlıdır ama içerik “bayat” kalır, 2) İçerik günceldir ama her istek API’ye gittiği için TTFB şişer. Bu rehber; SSG/ISR/SSR kararlarını, API cache + CDN yaklaşımını ve “publish → revalidation/purge” akışını otel ve B2B senaryolarıyla birlikte netleştirir.\n\nCTA (Primary): CMS Performans & Cache Stratejisi Analizi Talep Et — (1 cümle fayda + kim için)\nCTA (Primary): CMS Performans & Cache Stratejisi Analizi Talep Et — Headless CMS + Next.js kullanan otel ve B2B sitelerinde hız–güncellik dengesini bozmadan cache/revalidation politikasını netleştirmek isteyen ekipler için.\n\nBağlantı (Internal Link Targets): https://dgtlface.com/tr/yazilim/cms-entegrasyonu\n\n☑ Mini Check (H1 seviyesi): “CMS’te güncelledim, sitede geç görünüyor” diyorsanız sorun çoğu zaman cache + revalidation zincirindedir.",
+      "intro": "Headless CMS + Next.js projelerinde hız, “tek bir ayar”la değil; veri alma stratejisi, cache katmanları ve publish sonrası güncelleme akışı ile belirlenir. Bir tarafta kullanıcı deneyimi (Core Web Vitals ve algılanan hız), diğer tarafta içerik güncelliği (kampanya/fiyat/ürün dokümanı) vardır. Yanlış kurguda iki klasik problem çıkar: 1) Site hızlıdır ama içerik “bayat” kalır, 2) İçerik günceldir ama her istek API’ye gittiği için TTFB şişer. Bu rehber; SSG/ISR/SSR kararlarını, API cache + CDN yaklaşımını ve “publish → revalidation/purge” akışını otel ve B2B senaryolarıyla birlikte netleştirir.\n\nCTA (Primary): CMS Performans & Cache Stratejisi Analizi Talep Et — (1 cümle fayda + kim için)\nCTA (Primary): CMS Performans & Cache Stratejisi Analizi Talep Et — Headless CMS + Next.js kullanan otel ve B2B sitelerinde hız–güncellik dengesini bozmadan cache/revalidation politikasını netleştirmek isteyen ekipler için.\n\nBağlantı (Internal Link Targets): https://dgtlface.com/tr/yazilim/cms-entegrasyonu\n\n☑ Mini Check (H1 seviyesi): “CMS’te güncelledim, sitede geç görünüyor” diyorsanız sorun çoğu zaman cache + revalidation zincirindedir. Bu [Headless CMS performans cache](/tr/yazilim/cms-entegrasyonu) yaklaşımı, panel kararını doğrudan front-end hızına ve içerik güncelliğine bağlayan teknik omurgayı tanımlar.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "CMS Performans & Cache Stratejisi Analizi Talep Et",
@@ -4815,6 +4911,10 @@
             "text": "Burada kritik olan şu: performans bir “tek seferlik optimizasyon” değil, politikadır. Hangi sayfa türü ne kadar sık değişir, hangi içerik “kritik”tir, güncelleme sitede ne kadar hızlı görünmelidir? Bu soruların cevabı, SSG/ISR/SSR seçimleri ve cache stratejisini belirler."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetlerinde CMS cache mimarisi](/tr/web-ve-yazilim-hizmetleri), yalnız backend yanıt süresini değil; yayın akışı, veri alma stratejisi ve kullanıcıya görünen içerik tazeliğini birlikte yöneten bir altyapı kararıdır."
+          },
+          {
             "type": "h3",
             "text": "“Hız” ile “güncellik” neden çatışır?"
           },
@@ -4838,6 +4938,10 @@
               "“Publish → canlı” sürenizi ölçüyor musunuz?",
               "API yanıt süresi (p95) ve cache hit rate takip ediliyor mu?"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Gerçek etkiyi görmek için [CMS hız optimizasyonunun performans etkisi](/tr/veri-analiz-ve-raporlama), cache hit oranı, publish→live süresi, kullanıcı davranışı ve dönüşüm verileriyle birlikte okunmalıdır."
           },
           {
             "type": "callout",
@@ -4872,6 +4976,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Seyrek değişen içerikler SSG, orta sıklıkta değişen içerikler ISR, gerçek zamanlı güncelleme gereken kritik içerikler kontrollü SSR veya event-driven ISR ile yönetilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kararların canlıya geçişte tutarlı davranması için [draft staging prod ve cache davranışı](/tr/yazilim/blog/cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow), yayın önizleme ve prod cache politikasıyla birlikte ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -5001,6 +5109,10 @@
             "text": "CDN’de iki temel varlık vardır:\n\t•\tStatik asset (görsel, font, js/css) → uzun TTL uygundur\n\t•\tHTML / sayfa içeriği → stratejiye göre TTL + purge/revalidate gerekir\n\nOtel kampanya sayfalarında (özellikle sezon yoğunluğu) CDN doğru kurgulanırsa hem hız hem dayanıklılık artar. Ancak kampanya koşulu değiştiğinde CDN’de bayat içerik kalmaması için purge veya revalidation tetiklenmelidir."
           },
           {
+            "type": "p",
+            "text": "Ancak purge, backup ve rollback izinleri iyi tanımlanmazsa performans kazancı operasyonel riske dönüşebilir; bu nedenle [Headless CMS güvenliği ve backup stratejisi](/tr/yazilim/blog/headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi) cache tasarımından ayrı düşünülmemelidir."
+          },
+          {
             "type": "h3",
             "text": "AIO paragrafı (entity’leri tek modelde bağlama)"
           },
@@ -5060,6 +5172,10 @@
             "text": "En pratik yaklaşım: CMS publish event’i bir webhook üretir. Bu webhook;\n\t•\tİlgili sayfa path’lerini belirler (blog/oda/kampanya)\n\t•\tNext.js revalidate endpoint’ini çağırır\n\t•\tCDN purge gerekiyorsa purge tetikler\n\t•\tLog/izleme kaydı düşer (hangi içerik, ne zaman, kaç saniyede canlı)\n\nBu akış doğru kurulduğunda “publish→live” süresi öngörülebilir olur; ekip içi tartışma azalır."
           },
           {
+            "type": "p",
+            "text": "İyi kurgulanmış bir [webhook ile revalidation tetikleme](/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle) akışı, paneldeki yayın olayını otomatik olarak ilgili path’lerin yenilenmesi ve cache temizleme zincirine dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "Revalidation aralıkları nasıl seçilmeli?"
           },
@@ -5115,6 +5231,10 @@
             "text": "•\tKampanya landing: ISR + event-driven revalidation\n•\tOda sayfaları: ISR (daha uzun aralık)\n•\tFiyat/availability kritik alan: kontrollü SSR veya API cache + kısa TTL\n•\tCDN: kampanya sayfalarında purge tetikleyici şart\n\nMini örnek: Side veya Kemer’de “son dakika” kampanyası koşulu güncellendiğinde, publish sonrası 1–2 dakika içinde canlıya yansıması hedeflenir; aksi halde “yanlış teklif” riski doğar."
           },
           {
+            "type": "p",
+            "text": "Pazarlama tarafında [otel kampanyalarında hızlı içerik güncelleme](/tr/otel-dijital-pazarlama), landing page ve teklif güncellemelerinin rezervasyon performansına gecikmeden yansımasını sağlayan kritik operasyon katmanıdır."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu — ürün/doküman güncellemeleri"
           },
@@ -5129,6 +5249,10 @@
           {
             "type": "p",
             "text": "SEO tarafında “taze içerik” (özellikle blog, oda, kampanya) ve CWV optimizasyonu birlikte planlanmalıdır. Revalidation aralıkları ve kritik sayfalar, /tr/seo/teknik-seo yaklaşımıyla uyumlu olmalı; aksi halde ya indekslenen içerik bayatlar ya da performans skorları düşer.\n\nİç link (Internal Link Targets):\n\n\t•\thttps://dgtlface.com/tr/seo/teknik-seo\n\t•\thttps://dgtlface.com/tr/yazilim/web-sitesi-gelistirme\n\t•\thttps://dgtlface.com/tr/yazilim/sunucu-guvenlik\n\t•\thttps://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [cache stratejisinin teknik SEO etkisi](/tr/seo/teknik-seo), stale HTML, ISR aralıkları, sitemap güncelliği ve canonical tutarlılığının crawl ile indexlenebilirlik üzerinde nasıl yönetileceğini netleştirir."
           },
           {
             "type": "h3",
@@ -5168,6 +5292,10 @@
           {
             "type": "p",
             "text": "Headless CMS + Next.js projelerinde performans, “sayfayı bir kez hızlandır” işi değildir. SSG/ISR/SSR kararlarıyla üretim stratejisini belirler; API cache + CDN ile dağıtım hızını artırır; publish sonrası revalidation/purge akışıyla güncelliği korursunuz. Bu üç katman birlikte çalıştığında, hem Lighthouse/CWV tarafında hem de gerçek kullanıcı hız algısında genelde belirgin iyileşme görülür."
+          },
+          {
+            "type": "p",
+            "text": "Bu dengeyi proje ihtiyaçlarınıza göre kurmak için [performans odaklı CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) alabilir, uygulama detayları ve teknik kurulum soruları için de [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -23046,7 +23174,7 @@
     },
     "h1": {
       "title": "PWA ve Offline Deneyim: Kurumsal ve Otel Web Siteleri İçin Progressive Web App Stratejisi",
-      "intro": "PWA (Progressive Web App), web sitesini “uygulama gibi” hissettiren; offline/low-connectivity koşullarında bile temel deneyimi sürdürebilen bir yaklaşımdır. Ama her siteyi PWA’ya çevirmek doğru hedef değildir: yanlış kurgulanmış cache stratejisi içerikleri bayatlatır, bakım yükünü artırır ve performansı (CWV) bozabilir. Doğru yaklaşım; hangi sayfalar ve hangi varlıklar offline/az bağlantıda çalışmalı, service worker nasıl davranmalı, push bildirimleri ne zaman değer üretir sorularını iş hedefiyle birlikte cevaplamaktır. Özellikle seyahat halindeki kullanıcı profiline sahip otel siteleri ve sık kullanılan B2B portal/dashboard’larda PWA doğru kurgulandığında güçlü bir UX kaldıracı olabilir.",
+      "intro": "PWA (Progressive Web App), web sitesini “uygulama gibi” hissettiren; offline/low-connectivity koşullarında bile temel deneyimi sürdürebilen bir yaklaşımdır. Ama her siteyi PWA’ya çevirmek doğru hedef değildir: yanlış kurgulanmış cache stratejisi içerikleri bayatlatır, bakım yükünü artırır ve performansı (CWV) bozabilir. Doğru yaklaşım; hangi sayfalar ve hangi varlıklar offline/az bağlantıda çalışmalı, service worker nasıl davranmalı, push bildirimleri ne zaman değer üretir sorularını iş hedefiyle birlikte cevaplamaktır. Özellikle seyahat halindeki kullanıcı profiline sahip otel siteleri ve sık kullanılan B2B portal/dashboard’larda PWA doğru kurgulandığında güçlü bir UX kaldıracı olabilir. Bu [PWA nedir kurumsal site](/tr/yazilim/web-sitesi-gelistirme) yaklaşımı, modern web geliştirmede PWA’yı zorunlu özellik değil; doğru kullanım senaryosunda seçici uygulanan bir deneyim kararı olarak ele alır.",
       "quickSummary": [
         "1) PWA’yı her site için zorunlu değil, uygun senaryo için seçici değerlendir",
         "2) Kritik sayfaları ve statik varlıkları cache kapsamına al",
@@ -23106,6 +23234,10 @@
             "text": "PWA, web teknolojileriyle (HTTPS, manifest, service worker) “install edilebilir”, hızlı açılan ve gerektiğinde offline/az bağlantıda da temel içeriği gösterebilen deneyimler sunar. Kullanıcı açısından en görünür parçalar: “Add to Home Screen” (Ana ekrana ekle), ikon/launcher hissi ve offline ekranıdır. Teknik açıdan ise esas güç, service worker’ın cache ve ağ stratejisini yönetmesidir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetlerinde PWA stratejisi](/tr/web-ve-yazilim-hizmetleri), yalnız teknik kurulum değil; performans, bakım ve kullanıcı görevi sürekliliğini birlikte planlayan bir mimari tercih olarak düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "PWA nedir, klasik web sitesinden farkı nedir?"
           },
@@ -23157,6 +23289,14 @@
           {
             "type": "p",
             "text": "PWA; kullanıcıların sık ziyaret ettiği, düşük bağlantı koşullarında bile “temel görevi” tamamlamak istediği sitelerde mantıklıdır. Otel sitelerinde konum/iletişim/rezervasyon başlatma ve tesis bilgileri; B2B’de dashboard/portal ekranları ve tekrar eden rapor görüntüleme senaryoları PWA’dan net fayda görebilir. Buna karşılık, çok nadir ziyaret edilen “broşür” sitelerde PWA bakım yükü çoğu zaman gereksizdir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [otel web sitesi PWA mantıklı mı](/tr/otel-dijital-pazarlama) sorusu, mobil kullanıcı davranışı, düşük bağlantı koşulları ve direkt rezervasyon hedefi birlikte değerlendirilerek cevaplanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Çoğu ekip için [PWA’yı web sitesi yaşam döngüsünde konumlandırmak](/tr/yazilim/blog/web-sitesi-yasam-dongusu-ve-yol-haritasi-v1-den-surekli-iyilestirmeye), ilk lansmanda mı yoksa sonraki geliştirme fazında mı yatırım yapılacağını daha sağlıklı planlamayı sağlar."
           },
           {
             "type": "h3",
@@ -23242,6 +23382,10 @@
             "text": "PWA’nın kalbi service worker’dır. Manifest “install” deneyimini sağlar; service worker ise cache stratejisini ve offline davranışı belirler. Buradaki kritik tasarım, “neyi cache’leyeceğiz” sorusu değil; hangi içerik hangi stratejiyle cache’lenecek sorusudur."
           },
           {
+            "type": "p",
+            "text": "Modern tarafta [Jamstack ve edge rendering ile PWA mimarisi](/tr/yazilim/blog/jamstack-ve-edge-rendering-kurumsal-web-siteleri-icin-yeni-mimari-trendler), statik içerik sunumu, hızlı tekrar erişim ve edge katmanında daha kontrollü cache davranışı gibi başlıklarla birlikte değerlendirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Manifest (Add to Home Screen) ve ikon tasarımı"
           },
@@ -23313,6 +23457,10 @@
           {
             "type": "p",
             "text": "Offline deneyim, “site açılmıyor” yerine “kontrollü bir ekran” sunmaktır. En iyi offline deneyim, kullanıcıyı boş sayfaya düşürmez; ona bir sonraki adımı verir."
+          },
+          {
+            "type": "p",
+            "text": "Bu senaryoda [PWA ile online satış deneyimi](/tr/pms-ota/online-satis), kullanıcının zayıf bağlantıda bile rezervasyon veya satış akışına geri dönebilmesini destekleyen daha akıcı bir tekrar ziyaret modeli kurmaya yardımcı olur."
           },
           {
             "type": "h3",
@@ -23429,6 +23577,14 @@
           {
             "type": "p",
             "text": "PWA kurmak “bir kere yap bitti” değildir. Service worker ve cache, doğru yönetilmezse CWV’yi bozabilir veya stale içerik yaratabilir. Bu yüzden teknik nottaki gibi Lighthouse ve CWV etkisi düzenli izlenmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [PWA performansı ve Core Web Vitals](/tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu), cache, tekrar ziyaret hızı ve mobil deneyimin performans bütçesiyle birlikte nasıl yönetileceğini daha net gösterir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [PWA ve teknik SEO uyumu](/tr/seo/teknik-seo), service worker, rendering, cache ve indexlenebilirlik etkilerinin crawl ve görünürlük açısından kontrollü ilerlemesini sağlar."
           },
           {
             "type": "h3",
@@ -23621,6 +23777,10 @@
             "text": "Bu nedenle en sağlıklı yaklaşım; önce uygunluk matrisini çıkarmak, ardından manifest, service worker, cache kapsamı, offline ekran, Lighthouse/CWV testleri ve bakım sürecini birlikte planlamaktır. Doğru kapsamla PWA; otel ve B2B projelerinde app-like UX, daha güçlü mobil süreklilik ve daha kontrollü kullanıcı deneyimi sağlayabilir."
           },
           {
+            "type": "p",
+            "text": "Bu kararı proje ihtiyaçlarınıza göre netleştirmek için [modern web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) alabilir, uygulama ve bakım detayları için de [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasını inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "PWA & Offline Deneyim Analizi Talep Et",
@@ -23736,7 +23896,7 @@
     },
     "h1": {
       "title": "Çerez Yönetimi ve Consent UX: KVKK Uyumlu Web Deneyimi Tasarlamak",
-      "intro": "Çerez banner’ı çoğu projede “yayına çıkarken eklenen bir pop-up” gibi ele alınıyor. Oysa consent UX; hem kullanıcı güvenini hem de ölçüm mimarisini belirleyen kritik bir katman. Kullanıcıya şeffaf kontrol sunmayan bir banner, hukuki riski artırdığı gibi marka algısını da zedeler; aşırı agresif bir banner ise bounce’u yükseltebilir. Doğru model, privacy-first UX yaklaşımıyla ilerler: kategori netliği, “Kabul/Reddet/Ayarlar” seçenekleri, iyi bir preference center ve consent-aware analytics (izinle tetiklenen tag’ler). Otel tarafında remarketing/OTA/analytics; B2B tarafında lead tracking ve remarketing akışları bu disiplinle yönetilmelidir.",
+      "intro": "Çerez banner’ı çoğu projede “yayına çıkarken eklenen bir pop-up” gibi ele alınıyor. Oysa consent UX; hem kullanıcı güvenini hem de ölçüm mimarisini belirleyen kritik bir katman. Kullanıcıya şeffaf kontrol sunmayan bir banner, hukuki riski artırdığı gibi marka algısını da zedeler; aşırı agresif bir banner ise bounce’u yükseltebilir. Doğru model, privacy-first UX yaklaşımıyla ilerler: kategori netliği, “Kabul/Reddet/Ayarlar” seçenekleri, iyi bir preference center ve consent-aware analytics (izinle tetiklenen tag’ler). Otel tarafında remarketing/OTA/analytics; B2B tarafında lead tracking ve remarketing akışları bu disiplinle yönetilmelidir. Bu yüzden [KVKK çerez yönetimi consent UX](/tr/yazilim/web-sitesi-gelistirme) konusu, proje sonunda eklenen bir katman değil, geliştirme kararlarının başında ele alınması gereken bir yapı taşıdır.",
       "quickSummary": [
         "1) Çerez kategorilerini gerçek işlevlerine göre ayır",
         "2) Banner’da Kabul / Reddet / Ayarlar seçeneklerini net sun",
@@ -23804,6 +23964,10 @@
             "text": "Çoğu ekip “analytics” ve “marketing” ayrımını bilir; ancak pratikte kategori setini basit tutmak gerekir. Çok fazla kategori, tercih merkezini karmaşıklaştırır; çok az kategori ise gerçek kontrol hissini azaltır. İyi pratik: Zorunlu (essential) + İstatistik (analytics) + Pazarlama (ads/remarketing) + Tercih/Fonksiyonel gibi bir çatı."
           },
           {
+            "type": "p",
+            "text": "Bu sınıflandırma yaklaşımı, [web ve yazılım hizmetlerinde consent UX](/tr/web-ve-yazilim-hizmetleri) konusunun neden yalnızca hukuk metni değil; tag yapısı, performans ve kullanıcı güveniyle birlikte düşünülmesi gereken bir geliştirme kararı olduğunu da gösterir."
+          },
+          {
             "type": "h3",
             "text": "Hangi çerezler zorunlu, hangileri için izin gerekir?"
           },
@@ -23850,6 +24014,10 @@
           },
           {
             "type": "p",
+            "text": "Bu çerçeveyi daha sağlam kurmak için [privacy ve güvenlik odaklı geliştirme](/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme) yaklaşımıyla ilerlemek; izin akışını, veri toplama mantığını ve üçüncü taraf script davranışını aynı güvenlik modelinde toplar."
+          },
+          {
+            "type": "p",
             "text": "Burada iki denge vardır:"
           },
           {
@@ -23867,6 +24035,10 @@
           {
             "type": "p",
             "text": "Minimum doğru set; kullanıcıya net seçenekler sunan bir banner, detaylı tercih yönetimi (preference center), kategori bazlı kontrol ve izinle tetiklenen tag mimarisidir. Buna ek olarak kullanıcı tercihlerini değiştirebileceği kalıcı bir erişim (footer linki gibi) bulunmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Açık rıza, bilgilendirme ve veri işleme tarafını teknik uygulamayla birlikte düşünmek için [KVKK ve veri güvenliği kontrolleri](/tr/raporlama/kvkk-veri-guvenligi) çerçevesi; banner metni ile gerçek veri akışının birbiriyle uyumlu kalmasına yardımcı olur."
           },
           {
             "type": "h3",
@@ -23975,6 +24147,10 @@
             "text": "Bu bölüm, consent UX’in “ölçüm mimarisi” tarafıdır. Kategori var ama tag’ler izin olmadan çalışıyorsa, tüm kurgu boşa gider. Hedef: Tag Manager üzerinden consent-aware firing kurgulamak; analytics/ads tag’lerini sadece ilgili izinler verildiyse tetiklemek."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [consent sonrası event ölçümleme](/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi) planı, GA4 event isimleri ve funnel adımlarıyla birlikte düşünülmeli; “izin geldiğinde hangi veri toplanır?” sorusu mimari seviyede netleştirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Tag Manager ile consent mode entegrasyonu (AIO odak)"
           },
@@ -23989,6 +24165,14 @@
           {
             "type": "p",
             "text": "Önce çerez kategorilerini consent state’e map edersiniz (analytics/ads/functional). Sonra GTM’de tag tetikleyicilerini bu state’e bağlarsınız; izin verilmediyse tag çalışmaz, izin verildiyse tetiklenir. En kritik adım, go-live öncesi “tag firing QA” yapmaktır: her buton senaryosunda hangi tag’lerin çalıştığını doğrulamak."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki teknik kurgu, [Google Tag Manager consent mode nedir](/tr/sem/donusum-takibi-tag-manager) sorusunu sadece reklam etiketi düzeyinde değil; analytics, remarketing ve conversion tag’lerinin izin durumuna göre davranışı olarak ele almayı gerektirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu QA senaryolarını yayına alma disiplinine bağlamak için [yayına çıkmadan önce çerez ve consent kontrolleri](/tr/yazilim/blog/kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde) yaklaşımı, banner davranışı ile GTM tetikleyicilerinin prod öncesi doğrulanmasını kolaylaştırır."
           },
           {
             "type": "table",
@@ -24109,6 +24293,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (sheet): Consent UX’i doğru kurgulayan sitelerde, opt-in oranları ile kullanıcı şikâyetleri/bounce oranı daha dengeli seviyelerde raporlanıyor. (Bu veri noktası “denge” vurgusu için abartısız kullanıldı.)"
+          },
+          {
+            "type": "p",
+            "text": "Burada asıl mesele yalnız opt-in oranı değil; eksik veya modellenmiş veriyi nasıl okuyacağınızdır. Bu yüzden [consent sonrası veri kalitesini yorumlamak](/tr/veri-analiz-ve-raporlama) tarafı, raporlarda görülen düşüşlerin gerçekten performans mı yoksa izin davranışı mı kaynaklı olduğunu ayırmak için kritiktir."
           },
           {
             "type": "h3",
@@ -24283,6 +24471,10 @@
             "text": "Otel ve B2B projelerinde doğru consent UX; kullanıcıyı manipüle etmeden kontrol verir, analytics/ads tag’lerini izinle çalıştırır ve ekiplerin lawful tracking yaklaşımıyla daha güvenilir ölçüm yapmasını sağlar. Bu nedenle consent tasarımı, web sitesi geliştirme sürecinin sonradan eklenen küçük bir parçası değil; UX, teknik, analytics ve uyum ekiplerinin birlikte planladığı temel bir katmandır."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı proje başında doğru kurmak için [KVKK uyumlu web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) ile ilerlemek ve ek teknik sorular için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasını incelemek, sonraki adımı netleştirir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Çerez Yönetimi & Consent UX Analizi Talep Et",
@@ -24407,7 +24599,7 @@
     },
     "h1": {
       "title": "Web Sitesi Yaşam Döngüsü ve Yol Haritası: V1’den Sürekli İyileştirmeye",
-      "intro": "Bir web sitesi “yayında” olduğu gün en iyi halinde değildir; tam tersine, gerçek ürün yönetimi o gün başlar. Lansmandan sonra kullanıcı davranışı, kanal performansı, CWV, güvenlik ve içerik ihtiyaçları netleşir; bir şeyler kırılır, yeni talepler gelir, kampanyalar değişir. Otel sitelerinde rezervasyon akışı ve sezon kampanyaları; B2B’de lead funnel, case/doküman içerikleri ve portal deneyimi sitenin canlılığını belirler. Bu rehber, web sitesini product-thinking ile yönetmek için lifecycle adımlarını ve 6/12 aylık roadmap planlamasını uygulanabilir bir modele çevirir: V1 hedef seti → 3 ay stabilizasyon → 6/12 ay büyüme → bakım/refactoring döngüleri.",
+      "intro": "Bir web sitesi “yayında” olduğu gün en iyi halinde değildir; tam tersine, gerçek ürün yönetimi o gün başlar. Lansmandan sonra kullanıcı davranışı, kanal performansı, CWV, güvenlik ve içerik ihtiyaçları netleşir; bir şeyler kırılır, yeni talepler gelir, kampanyalar değişir. Otel sitelerinde rezervasyon akışı ve sezon kampanyaları; B2B’de lead funnel, case/doküman içerikleri ve portal deneyimi sitenin canlılığını belirler. Bu rehber, web sitesini product-thinking ile yönetmek için lifecycle adımlarını ve 6/12 aylık roadmap planlamasını uygulanabilir bir modele çevirir: V1 hedef seti → 3 ay stabilizasyon → 6/12 ay büyüme → bakım/refactoring döngüleri. Bu nedenle [web sitesi yaşam döngüsü](/tr/yazilim/web-sitesi-gelistirme) yaklaşımı, lansman sonrasını “destek işi” değil, ürünün gerçek büyüme evresi olarak ele alır.",
       "quickSummary": [
         "1) Web sitesini lansmanla biten proje değil, canlı ürün gibi yönet",
         "2) V1 hedef setini kritik kullanıcı görevleriyle sınırla",
@@ -24480,6 +24672,10 @@
           },
           {
             "type": "p",
+            "text": "Bu bakış açısı, [web ve yazılım hizmetlerinde sürekli iyileştirme](/tr/web-ve-yazilim-hizmetleri) yaklaşımının neden yalnız geliştirme anına değil; bakım, ölçümleme ve önceliklendirme disiplinine de yayıldığını açıkça gösterir."
+          },
+          {
+            "type": "p",
             "text": "Mini örnek (otel): V1’de rezervasyon akışını sağlam kurarsınız; lansman sonrası drop-off verisiyle ödeme adımını iyileştirirsiniz."
           },
           {
@@ -24548,6 +24744,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yapı kurulurken [roadmap kararlarını veriyle önceliklendirmek](/tr/veri-analiz-ve-raporlama) kritik hale gelir; çünkü backlog’daki her iş maddesi aynı derecede değer üretmez ve öncelik, gerçek kullanıcı davranışıyla netleşir."
+          },
+          {
             "type": "h3",
             "text": "Competitor Gap – fark yaratan mini bölüm"
           },
@@ -24597,6 +24797,10 @@
             "text": "V1’in amacı “her şey olsun” değil; kritik kullanıcı görevlerini sorunsuz çalıştırmaktır."
           },
           {
+            "type": "p",
+            "text": "Özellikle yeni siteye geçiş yapan projelerde bu aşama, [site yenilemede içerik taşıma stratejisi](/tr/yazilim/blog/icerik-tasima-stratejisi-eski-web-siteden-yeni-nextjs-siteye-gecis) ile birlikte ele alınmalıdır; çünkü içerik envanteri, URL mapping ve redirect planı daha V1 yayına çıkmadan yaşam döngüsünün başlangıç kalitesini belirler."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -24617,6 +24821,10 @@
               "Form akışı ve ölçüm doğrulaması",
               "Güvenlik temel hardening (Varsayım)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu iyileştirmelerin düzenli ve güvenli biçimde yayına alınması için [CI/CD ve deployment stratejisi](/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops) yaklaşımı, dev-staging-prod akışını yaşam döngüsünün doğal bir parçası haline getirir."
           },
           {
             "type": "h3",
@@ -24700,6 +24908,10 @@
             "text": "Key Statistics / Data Point (sheet): Roadmap yaklaşımı benimseyen ekiplerde “site eskidi, komple yenileyelim” döngüsü yerine daha sürdürülebilir, parçalı ve veriye dayalı iyileştirme kültürü oluşuyor. (Gözlemsel veri noktası olarak kullanıldı.)"
           },
           {
+            "type": "p",
+            "text": "Bu roadmap’in dış kampanya takvimiyle kopmaması için [web roadmap’i kampanya planıyla uyumlandırmak](/tr/smm/planlama-strateji) gerekir; aksi halde landing page, içerik ve promosyon ihtiyaçları teknik backlog’dan ayrı ilerleyerek verimsizlik yaratır."
+          },
+          {
             "type": "table",
             "caption": "Tablo – 12 Aylık Roadmap Backlog Örneği (Özet)",
             "headers": [
@@ -24779,12 +24991,20 @@
             "text": "Her sprintte küçük bir bakım/refactor payı ayırarak denge kurabilirsiniz (ör. her sprintte 1–2 görev). Yeni özellikler KPI etkisiyle seçilir; bakım işleri ise risk ve maliyet önleme odaklıdır. Aylık review’de “tech debt” ve “growth” lane’leri birlikte değerlendirilmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu dengeyi sürdürülebilir kılmak için [web sitesi değişiklik yönetimi](/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi) disiplini gerekir; çünkü rol, onay ve changelog akışı kurulmadığında roadmap işleri zamanla dağınık revizyonlara dönüşür."
+          },
+          {
             "type": "h3",
             "text": "Lansman sonrası hangi sıklıkla iyileştirme yapmalıyım?"
           },
           {
             "type": "p",
             "text": "Genel pratik: 2 haftalık sprint ritmi + aylık ölçüm/roadmap review. Otel sitelerinde sezon yoğunluğuna göre sprint planı esnetilebilir; B2B’de kampanya ve içerik planlarıyla senkron tutulur."
+          },
+          {
+            "type": "p",
+            "text": "Bu sprintlerin iş sonucunu görmek için [web sitesi iyileştirmelerinin dönüşüm etkisi](/tr/raporlama/satis-donusum) tarafında form, lead, rezervasyon ve satış çıktılarının önce/sonra mantığıyla izlenmesi gerekir."
           },
           {
             "type": "h3",
@@ -24958,6 +25178,10 @@
             "text": "Otel ve B2B projelerinde sürdürülebilir başarı; tek seferlik büyük yenilemelerden değil, düzenli ölçüm, bakım/refactoring ve veriye dayalı sprint kültüründen gelir. Bu yaklaşım, teknik borcu görünür kılar, büyüme fırsatlarını önceliklendirir ve web sitesini iş hedeflerine daha yakın çalışan canlı bir sisteme dönüştürür."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi kalıcı hale getirmek için [sürdürülebilir web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) ile ilerlemek ve ek operasyon soruları için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasına bakmak sonraki adımı netleştirir."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Web Sitesi Roadmap & Yaşam Döngüsü Analizi Talp Et",
@@ -25073,7 +25297,7 @@
     },
     "h1": {
       "title": "Jamstack ve Edge Rendering: Kurumsal Web Siteleri İçin Yeni Mimari Trendler",
-      "intro": "Kurumsal web siteleri uzun süre “tek sunucu + klasik SSR” mantığıyla büyüdü. Bugün ise iki baskı aynı anda arttı: (1) kullanıcı beklentisi (her ülkede hızlı açılan sayfa) ve (2) güvenlik/operasyon ihtiyacı (daha küçük saldırı yüzeyi, daha öngörülebilir yayın). Jamstack ve edge rendering bu noktada güçlü bir alternatif sunar: içeriği build-time’da üretip CDN/edge katmanına dağıtarak hız ve güvenlik kazanımı sağlayabilir. Ancak bu yaklaşım her site için “default doğru” değildir; içerik güncelleme sıklığı, dinamik fonksiyon ihtiyacı ve ekip/operasyon olgunluğu hesaba katılmadan yapılan tam geçişler, “bayat içerik” ve yayın karmaşası yaratabilir. Bu rehber, otel ve B2B karar kriterlerini iş tarafıyla birlikte netleştirir.",
+      "intro": "Kurumsal web siteleri uzun süre “tek sunucu + klasik SSR” mantığıyla büyüdü. Bugün ise iki baskı aynı anda arttı: (1) kullanıcı beklentisi (her ülkede hızlı açılan sayfa) ve (2) güvenlik/operasyon ihtiyacı (daha küçük saldırı yüzeyi, daha öngörülebilir yayın). Jamstack ve edge rendering bu noktada güçlü bir alternatif sunar: içeriği build-time’da üretip CDN/edge katmanına dağıtarak hız ve güvenlik kazanımı sağlayabilir. Ancak bu yaklaşım her site için “default doğru” değildir; içerik güncelleme sıklığı, dinamik fonksiyon ihtiyacı ve ekip/operasyon olgunluğu hesaba katılmadan yapılan tam geçişler, “bayat içerik” ve yayın karmaşası yaratabilir. Bu rehber, otel ve B2B karar kriterlerini iş tarafıyla birlikte netleştirir. Bu yüzden [Jamstack nedir kurumsal site](/tr/yazilim/web-sitesi-gelistirme) sorusu, tek başına teknoloji tercihi değil, iş hedefiyle uyumlu mimari kararı olarak ele alınmalıdır.",
       "quickSummary": [
         "1) Jamstack’i statik sayfa değil, CDN-first teslimat disiplini olarak değerlendir",
         "2) Sayfaları statik / yarı-dinamik / tam dinamik olarak sınıflandır",
@@ -25158,6 +25382,10 @@
             "text": "Jamstack’te sayfalar çoğunlukla build-time’da üretilir ve CDN/edge katmanından servis edilir; klasik mimaride ise sayfalar çoğu zaman sunucuda her istekte üretilir (SSR) veya tek sunucudan yayınlanır. Jamstack yaklaşımı hız ve güvenlik avantajı sağlayabilir; ancak içerik güncelleme sıklığı ve dinamik işlev ihtiyacı yükseldikçe doğru cache/yenileme (rebuild/ISR/edge) tasarımı şarttır."
           },
           {
+            "type": "p",
+            "text": "Bu karar çerçevesi, [web ve yazılım hizmetlerinde Jamstack edge architecture](/tr/web-ve-yazilim-hizmetleri) yaklaşımının neden yalnız geliştirici perspektifiyle değil; içerik güncelleme hızı, bakım yükü ve yayın operasyonu ile birlikte değerlendirilmesi gerektiğini gösterir."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -25193,6 +25421,10 @@
           {
             "type": "p",
             "text": "Jamstack’in asıl gücü “statik sayfa” kelimesinden değil, CDN-first delivery disiplininden gelir. Statik üretim, CDN’in cache mantığıyla birleşince TTFB ve yüklenme süreleri düşebilir. Burada kritik olan, hangi içeriğin statik kalacağı, hangisinin API’dan geleceği ve CDN cache’in nasıl yönetileceğidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [CDN tabanlı kurumsal web mimarisi](/tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu) yaklaşımı, edge veya Jamstack kararını yalnız hız söylemiyle değil; LCP, INP, cache ve gerçek kullanıcı deneyimi metrikleriyle birlikte okumayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -25272,6 +25504,10 @@
           {
             "type": "p",
             "text": "Edge rendering, global kullanıcılar için gecikmeyi (latency) azaltabilir ve TTFB’yi iyileştirebilir; bu da özellikle uluslararası trafiği olan otel/B2B sitelerinde hız hissini artırır. Ayrıca edge functions ile coğrafya/language yönlendirmesi, kişiselleştirme veya güvenlik kontrolleri gibi işlemler “kullanıcıya yakın” yürütülebilir. Ancak yanlış cache stratejisi ve aşırı edge logic, bakım maliyetini yükseltebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı uygulamada netleştirmek için [edge rendering Next.js otel web sitesi](/tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur) kararları; SSR, SSG, ISR ve edge katmanının hangi sayfa tipinde nasıl birlikte çalışacağını daha görünür hale getirir."
           },
           {
             "type": "h3",
@@ -25392,7 +25628,15 @@
           },
           {
             "type": "p",
+            "text": "Mobil tekrar ziyaret ve uygulama benzeri akış beklentisi varsa, [PWA ve offline deneyimle edge mimari ilişkisi](/tr/yazilim/blog/pwa-ve-offline-deneyim-kurumsal-ve-otel-web-siteleri-icin-progressive-web-app-stratejisi) ayrıca değerlendirilmelidir; ancak bu karar da her projeye otomatik eklenmesi gereken bir katman gibi düşünülmemelidir."
+          },
+          {
+            "type": "p",
             "text": "Key Statistics / Data Point (sheet): CDN/edge’e taşınan projelerde, özellikle yurt dışı kullanıcılar için TTFB ve toplam yükleme süresinde anlamlı düşüşler raporlanıyor. (Kesin rakam vaadi vermeden veri noktası olarak kullanıldı.)"
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel web sitesi için edge rendering kararı](/tr/otel-dijital-pazarlama), yalnız performans değil; uluslararası kullanıcıya hızlı ilk temas, mobil rezervasyon deneyimi ve kampanya landing kalitesi açısından da değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -25432,6 +25676,10 @@
             "text": "Jamstack/edge doğru kurgulanırsa performans ve güvenlikte avantaj sunabilir; yanlış kurgulanırsa SEO sinyalleri karışabilir (yanlış canonical, yanlış hreflang, cache yüzünden bayat meta vb.). Bu nedenle “teknik SEO ile birlikte mimari” yaklaşımı şarttır."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [edge rendering ve teknik SEO](/tr/seo/teknik-seo) ilişkisi, canonical, sitemap, cache davranışı ve indexlenebilirlik kontrolleriyle birlikte ele alınmalı; yayın sonrası sorunlar “framework suçu” gibi değil, QA eksikliği olarak okunmalıdır."
+          },
+          {
             "type": "h3",
             "text": "SEO etkisi: indexlenebilirlik ve şeffaf sinyaller"
           },
@@ -25451,6 +25699,10 @@
           {
             "type": "p",
             "text": "Jamstack tek başına CWV garantisi vermez; görsel optimizasyonu, JS yükü ve cache stratejisi birlikte çalışmalıdır. Edge’i yanlış kullanmak (ağır edge logic) TTFB’yi artırabilir."
+          },
+          {
+            "type": "p",
+            "text": "Mimari değişimin gerçekten fayda sağlayıp sağlamadığını anlamak için [Jamstack performans etkisini ölçmek](/tr/veri-analiz-ve-raporlama) gerekir; çünkü TTFB, davranış, dönüşüm ve hata verisi birlikte okunmadan “daha modern olduk” demek yanıltıcı olabilir."
           },
           {
             "type": "h3",
@@ -25587,6 +25839,10 @@
             "text": "Otel ve B2B projelerinde en güvenli yaklaşım çoğu zaman hibrittir: blog, rehber, destinasyon ve kaynak sayfaları CDN-first hızlandırılır; rezervasyon, ödeme, portal ve kişisel veri içeren akışlar daha kontrollü dinamik katmanda tutulur. Doğru POC, SEO QA gate, cache planı ve güvenlik tasarımıyla Jamstack/edge kararı sürdürülebilir bir mimari avantaja dönüşebilir."
           },
           {
+            "type": "p",
+            "text": "Bu mimariyi proje ihtiyaçlarına göre netleştirmek için [modern mimarili web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) alabilir, uygulama ve bakım tarafındaki ek sorular için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Jamstack/Edge Mimari Analizi Talep Et",
@@ -25710,7 +25966,7 @@
     },
     "h1": {
       "title": "Design Token ve Multi-Brand Dijital Ekosistemler İçin Web Altyapısı",
-      "intro": "Birden fazla marka/otel yöneten yapılarda en büyük maliyet, “yeni site yapmak” değil; her markada tutarlılığı ve hızını koruyarak sürekli güncelleme yapmaktır. Türkiye’de yaygın çözüm, aynı temayı kopyalayıp çoğaltmak; zamanla UI parçalanır, farklı ajanslar farklı stiller ekler ve “tek merkezden yönetim” hayal olur. Design token yaklaşımı ise tam bu sorunu çözer: renk, tipografi, spacing ve bileşen seviyesindeki stil kararları token’lara taşınır; tek component kütüphanesi üzerinden çok markalı theme variants üretilir. Otel grupları ve holdinglerde bu model, yeni marka ekleme süresini kısaltır ve UI tutarsızlığını azaltır.",
+      "intro": "Birden fazla marka/otel yöneten yapılarda en büyük maliyet, “yeni site yapmak” değil; her markada tutarlılığı ve hızını koruyarak sürekli güncelleme yapmaktır. Türkiye’de yaygın çözüm, aynı temayı kopyalayıp çoğaltmak; zamanla UI parçalanır, farklı ajanslar farklı stiller ekler ve “tek merkezden yönetim” hayal olur. Design token yaklaşımı ise tam bu sorunu çözer: renk, tipografi, spacing ve bileşen seviyesindeki stil kararları token’lara taşınır; tek component kütüphanesi üzerinden çok markalı theme variants üretilir. Otel grupları ve holdinglerde bu model, yeni marka ekleme süresini kısaltır ve UI tutarsızlığını azaltır. Bu yüzden [design token nedir](/tr/yazilim/web-sitesi-gelistirme) sorusu, yalnız tasarım dili değil; çok markalı yapılarda ölçeklenebilir web altyapısının nasıl kurulacağıyla birlikte değerlendirilmelidir.",
       "quickSummary": [
         "1) Renk, tipografi ve spacing kararlarını token sistemine taşı",
         "2) Token’ları core → semantic → component katmanlarıyla düzenle",
@@ -25776,6 +26032,10 @@
           {
             "type": "p",
             "text": "Design token; renk, tipografi, spacing gibi stil kararlarını platform bağımsız biçimde tanımlayan, Figma ve kodda aynı isimlerle yaşayan değişkenlerdir. Multi-brand yapılarda token’lar “tema varyantı” olarak çoğalır: aynı component kütüphanesi, farklı token setleriyle farklı markalara uyarlanır. Böylece kopya tema/kod yerine tek sistemden yönetim sağlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [web ve yazılım hizmetlerinde multi-brand altyapı](/tr/web-ve-yazilim-hizmetleri) kararının neden yalnız yeni site açma hızı değil; bakım, tutarlılık ve release kalitesi açısından da önemli bir mimari tercih olduğunu gösterir."
           },
           {
             "type": "h3",
@@ -25856,6 +26116,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu çerçeve, [design token system ve component library ilişkisi](/tr/yazilim/blog/design-system-ve-bilesen-kutuphanesi-ile-web-gelistirme) doğru kurulduğunda; tasarım kararlarının bileşen kütüphanesine daha kontrollü, tekrar kullanılabilir ve sürdürülebilir biçimde taşınmasını sağlar."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -25908,6 +26172,10 @@
           {
             "type": "p",
             "text": "Bu varyantlar “theme config” olarak yönetilir; sayfalar aynı komponentleri kullanır, sadece token seti değişir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı aynı zamanda [token tabanlı UI/UX standardı](/tr/creative/ui-ux-tasarim) oluşturur; yani marka farkları korunurken form, buton, spacing ve okunabilirlik gibi temel deneyim kararları dağılmadan ilerler."
           },
           {
             "type": "h3",
@@ -26031,6 +26299,10 @@
             "text": "Key Statistics / Data Point (sheet): Token tabanlı yaklaşıma geçen ekiplerde, yeni marka/otel ekleme süresi ve UI tutarsızlıkları anlamlı şekilde azalıyor. (Gözlemsel veri noktası olarak kullanıldı.)"
           },
           {
+            "type": "p",
+            "text": "Turizm tarafında [otel grubu için ortak component library](/tr/otel-dijital-pazarlama) yaklaşımı, farklı tesis veya marka sitelerinde direkt rezervasyon hedeflerini destekleyen ama operasyonu tek merkezden hızlandıran daha sürdürülebilir bir dijital yapı kurmaya yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -26078,6 +26350,10 @@
           {
             "type": "p",
             "text": "CMS’te içerik, “brand” alanıyla etiketlenebilir; front-end bu etikete göre doğru token setini (theme) uygular. Böylece aynı içerik modeli, doğru markanın UI’ı ile sunulur. Bu yapı, multi-brand ekosistemde içerik operasyonunu hızlandırır ve tutarlılık sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [çok markalı web altyapısında CMS seçimi](/tr/yazilim/blog/cms-mi-headless-cms-mi-kurumsal-web-sitesi-icin-dogru-secim) kritik hale gelir; çünkü klasik CMS ile headless CMS tercihleri, brand alanı, içerik modeli ve editör deneyimini doğrudan etkiler."
           },
           {
             "type": "h3",
@@ -26132,6 +26408,14 @@
           {
             "type": "p",
             "text": "Token sistemi, style guide ve governance dokümanlarıyla birlikte yürümelidir. Bu yüzden UI/UX tasarım ve CMS entegrasyon içerikleriyle bağ önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [multi-brand yapılarda style guide yönetimi](/tr/yazilim/blog/web-site-governance-style-guide-ve-degisiklik-yonetimi), token değişikliklerinin kontrolsüz yayılmasını önler; hangi değişikliğin hangi markayı etkilediği daha net takip edilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı standartların yalnız web’de kalmaması için [web ve sosyal medya marka tutarlılığı](/tr/sosyal-medya-yonetimi) yaklaşımı da önemlidir; çünkü çok markalı yapılarda görsel dil ve içerik tonu farklı kanallarda hızla dağılabilir."
           },
           {
             "type": "callout",
@@ -26302,6 +26586,10 @@
             "text": "Otel grupları ve holding ekosistemlerinde design token sistemi yalnızca tasarım düzeni değil; Figma, kod, CMS, release ve governance süreçlerini birbirine bağlayan bir operasyon modelidir. Token’lar doğru seviyelendirilip versioning ile yönetildiğinde, tek kod tabanında farklı marka deneyimleri üretmek çok daha kontrollü ve ölçeklenebilir olur."
           },
           {
+            "type": "p",
+            "text": "Bu sistemi proje kapsamınıza göre netleştirmek için [multi-brand web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) alabilir, uygulama ve bakım süreçleriyle ilgili ek sorular için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Design Token & Multi-Brand Web Sistem Analizi Talep Et",
@@ -26418,7 +26706,7 @@
     },
     "h1": {
       "title": "Web Uygulamalarında Mikro-Frontend Mimarisi: Kurumsal ve B2B İçin",
-      "intro": "Mikro-frontend, özellikle büyüyen kurumsal/B2B portallerde “tek bir dev ekibin her şeye yetişmesi” problemini çözmek için ortaya çıktı: dashboard, raporlama, rezervasyon, yönetim paneli gibi modüller farklı ekiplerce bağımsız geliştirilebilsin ve bağımsız yayınlanabilsin. Ama mikro-frontend aynı zamanda bir maliyet: daha fazla build/deploy parçacığı, daha karmaşık runtime, daha zor debugging ve yanlış kurgulanırsa daha kötü performans. Bu yüzden doğru soru “mikro-frontend trend mi?” değil; bizim takım yapımız ve ürün vizyonumuz bunu gerçekten gerektiriyor mu?",
+      "intro": "Mikro-frontend, özellikle büyüyen kurumsal/B2B portallerde “tek bir dev ekibin her şeye yetişmesi” problemini çözmek için ortaya çıktı: dashboard, raporlama, rezervasyon, yönetim paneli gibi modüller farklı ekiplerce bağımsız geliştirilebilsin ve bağımsız yayınlanabilsin. Ama mikro-frontend aynı zamanda bir maliyet: daha fazla build/deploy parçacığı, daha karmaşık runtime, daha zor debugging ve yanlış kurgulanırsa daha kötü performans. Bu yüzden doğru soru “mikro-frontend trend mi?” değil; bizim takım yapımız ve ürün vizyonumuz bunu gerçekten gerektiriyor mu? Bu noktada [mikro frontend nedir](/tr/yazilim/web-sitesi-gelistirme) sorusu, tek başına teknoloji seçimi değil; modül sayısı, ekip yapısı ve operasyon olgunluğu üzerinden verilmesi gereken bir mimari karar haline gelir.",
       "quickSummary": [
         "1) Mikro-frontend kararını trend değil, takım yapısı ve modül bağımsızlığı üzerinden ver",
         "2) Önce modül haritasını ve ekip sahipliğini çıkar",
@@ -26488,6 +26776,10 @@
           {
             "type": "p",
             "text": "Mikro-frontend; büyük bir web uygulamasının UI katmanını bağımsız modüllere bölmektir. Genellikle 3+ ekip, 5+ büyük modül ve sık/bağımsız release ihtiyacı varsa anlam kazanır. Küçük/orta ölçekli kurumsal sitelerde ise çoğu zaman gereksiz karmaşıklık üretir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım hizmetlerinde micro frontend architecture](/tr/web-ve-yazilim-hizmetleri) yaklaşımı, basit kurumsal sitelerden çok; portal, panel ve çok ekipli ürünlerde değerlendirilen ileri seviye mimari seçenek olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -26597,6 +26889,10 @@
             "text": "Önce modülleri ve ekip sahipliğini netleştirirsiniz (team ownership). Sonra ortak standartları belirlersiniz: tasarım token’ları, shared component library, auth/role, logging/monitoring. Ardından entegrasyon modelini seçersiniz: route-level composition (sayfa bazlı), module federation (runtime), ya da build-time composition. Son aşama, release/QA kapılarıdır: her modül bağımsız yayınlanabilir ama ortak kalite standardı korunur."
           },
           {
+            "type": "p",
+            "text": "Bu kurgu, [kurumsal web mikro frontend mimarisi](/tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur) ile birlikte düşünülmelidir; çünkü route yapısı, rendering stratejisi ve shared layout kararları Next.js tarafında nasıl modülerleşeceğinizi doğrudan etkiler."
+          },
+          {
             "type": "h3",
             "text": "Competitor Gap – fark yaratan mini bölüm"
           },
@@ -26638,6 +26934,10 @@
             "text": "Mikro-frontend’in “asıl kazanımı”, sahiplik ve deployment tarafında gelir: her modülün sahibi ve release ritmi netleşir. Ancak bu, governance gerektirir: kim neyi bozarsa, kim düzeltir; versiyon uyumu nasıl korunur?"
           },
           {
+            "type": "p",
+            "text": "Bağımsız modüllerin gerçekten güvenli yönetilebilmesi için [mikro-frontend yapıda deployment](/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops) disiplini gerekir; aksi halde modüller ayrı deploy edilse bile staging, rollback ve kalite kapıları dağınık hale gelebilir."
+          },
+          {
             "type": "h3",
             "text": "Team ownership modeli"
           },
@@ -26668,6 +26968,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (sheet): Doğru kurulan mikro-frontend yapılarında yeni modül geliştirme ve bağımsız release hızının arttığı; yanlış kurulanlarda debugging ve performans maliyetlerinin yükseldiği raporlanıyor. (Bu veri noktası abartısız biçimde içerikte kullanıldı.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden dağıtık modüllerde [dağıtık frontend modüllerinde izlenebilirlik](/tr/yazilim/blog/observability-ve-logging-kurumsal-web-sitelerinde-izlenebilirlik-stratejisi) kurmak kritik hale gelir; hangi hatanın hangi modülden çıktığını anlamadan bağımsız release avantajı hızla kaybolur."
           },
           {
             "type": "table",
@@ -26763,6 +27067,10 @@
             "text": "Riskler üç başlıkta toplanır: (1) SSR/SEO kırılması (client-only render, yanlış canonical/head), (2) performans kaybı (bundle duplication, fazla runtime, geç yükleme), (3) gözlenebilirlik zayıflığı (hata kökenini bulamama). Bunlar, doğru composition modeli, shared dependency disiplini, SSR stratejisi ve QA kapılarıyla yönetilebilir."
           },
           {
+            "type": "p",
+            "text": "Özellikle indexlenebilir modüller varsa [mikro-frontend mimarisinde teknik SEO](/tr/seo/teknik-seo) yaklaşımı, metadata, canonical, route yönetimi ve crawl davranışının shell app ile alt modüller arasında tutarlı kalmasını sağlar."
+          },
+          {
             "type": "h3",
             "text": "SSR/SEO etkilerini yönetmek"
           },
@@ -26787,6 +27095,14 @@
               "Lazy-load ve route-level code splitting",
               "CWV etkisini ölçme (LCP/INP/CLS)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu etkinin gerçekten neye dönüştüğünü görmek için [modül bazlı performans analizi](/tr/veri-analiz-ve-raporlama) gerekir; çünkü bundle büyüklüğü, kullanıcı davranışı ve dönüşüm etkisi birlikte okunmadan mimari kararın değeri netleşmez."
+          },
+          {
+            "type": "p",
+            "text": "Otel operasyon tarafında ise [PMS bağlantılı operasyon modülleri](/tr/pms-ota/pms-kurulum) gibi entegrasyon yoğun ekranlar, mikro-frontend kararının gerçekten faydalı olup olmadığını test eden kritik örneklerdir; her modülün bağımsızlığı kadar veri akışı da düşünülmelidir."
           },
           {
             "type": "callout",
@@ -27027,6 +27343,10 @@
             "text": "Sağlıklı karar için önce modül/ekip haritası çıkarılmalı, shared UI/auth/logging standartları belirlenmeli ve tek modül POC ile performans, SEO/SSR, güvenlik ve deployment etkileri ölçülmelidir. Kazanç netleşirse mikro-frontend roadmap ile kontrollü biçimde yaygınlaştırılmalı; her modül ortak QA gate ve platform standartlarıyla yönetilmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu kararı proje gerçekliğinize göre netleştirmek için [modüler web uygulaması geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) alabilir, mimari seçim ve operasyon süreçleriyle ilgili ek sorular için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Mikro-Frontend Mimari & Uygunluk Analizi Talep Et",
@@ -27151,7 +27471,7 @@
     },
     "h1": {
       "title": "Observability ve Logging: Kurumsal Web Sitelerinde İzlenebilirlik Stratejisi",
-      "intro": "Kurumsal web sitelerinde problem genelde “hiç çalışmıyor” diye başlamaz; ara ara başlar: bazı kullanıcılarda sayfa geç açılır, bazı cihazlarda JS hatası çıkar, bazı rezervasyonlar ödeme adımında düşer, bazı B2B dashboard’lar akşam saatlerinde yavaşlar. Bu yüzden sadece sunucu log’una bakmak yetmez. Observability; log+metric+trace ile sistemin teknik sağlığını, RUM (Real User Monitoring) ile gerçek kullanıcı deneyimini birlikte izler; böylece “sorun var”ı değil, sorunun kök nedenini ve iş etkisini görürsünüz.",
+      "intro": "Kurumsal web sitelerinde problem genelde “hiç çalışmıyor” diye başlamaz; ara ara başlar: bazı kullanıcılarda sayfa geç açılır, bazı cihazlarda JS hatası çıkar, bazı rezervasyonlar ödeme adımında düşer, bazı B2B dashboard’lar akşam saatlerinde yavaşlar. Bu yüzden sadece sunucu log’una bakmak yetmez. Observability; log+metric+trace ile sistemin teknik sağlığını, RUM (Real User Monitoring) ile gerçek kullanıcı deneyimini birlikte izler; böylece “sorun var”ı değil, sorunun kök nedenini ve iş etkisini görürsünüz. Bu nedenle [observability nedir web](/tr/yazilim/web-sitesi-gelistirme) yaklaşımı, kurumsal projelerde loglama ve RUM katmanını sonradan eklenen araç seti değil, geliştirme standardının doğal parçası olarak ele almayı gerektirir.",
       "quickSummary": [
         "1) Log, metric, trace ve RUM katmanlarını birlikte kurgula",
         "2) Frontend ve backend sinyallerini tek izlenebilirlik modelinde birleştir",
@@ -27231,6 +27551,10 @@
           {
             "type": "p",
             "text": "Logging, olayları kaydetmektir; observability ise log+metric+trace ve RUM’u birleştirip bir olayın kök nedenini ve kullanıcı etkisini ortaya çıkarmaktır. Tek başına log, “hata var” der; observability “bu hata şu release’ten sonra başladı, şu kullanıcı segmentini etkiliyor, şu endpoint’te yoğunlaşıyor” diyebilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle trafik, entegrasyon ve işlem hacmi büyüdüğünde [web ve yazılım hizmetlerinde web observability](/tr/web-ve-yazilim-hizmetleri) yaklaşımı, performans, hata ve kullanıcı deneyimi sinyallerini aynı mimaride toplamanın neden önemli olduğunu netleştirir."
           },
           {
             "type": "h3",
@@ -27363,6 +27687,10 @@
           {
             "type": "p",
             "text": "Key Statistics / Data Point (sheet): İyi kurgulanmış observability yapısına sahip projelerde, ciddi hatalar çoğu zaman kullanıcı şikâyetine gerek kalmadan log/metric/alert kombinasyonuyla fark edilebiliyor. (Bu veri noktası abartısız şekilde kullanıldı.)"
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [kurumsal site logging ve RUM](/tr/yazilim/blog/analytics-ve-event-tasarimi-web-projelerinde-olcumleme-mimarisi) yaklaşımı, teknik hata sinyallerini event ve funnel verileriyle birlikte değerlendirerek gerçek kullanıcı etkisini daha doğru okumayı sağlar."
           },
           {
             "type": "h3",
@@ -27502,6 +27830,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Privacy ve erişim kontrolü tarafında [güvenlik olayları için log takibi](/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme), şüpheli davranışların, veri erişimlerinin ve log güvenliği politikalarının geliştirme sürecine baştan dahil edilmesini destekler."
+          },
+          {
             "type": "callout",
             "variant": "note",
             "title": "Technical SEO + Güvenlik Notu",
@@ -27541,6 +27873,10 @@
           {
             "type": "p",
             "text": "Observability’nin son adımı “dashboard çöplüğü” olmamalı. En iyi yaklaşım: 3 katman dashboard + 2 katman alarm."
+          },
+          {
+            "type": "p",
+            "text": "Raporlama katmanında [teknik izleme dashboard’u](/tr/raporlama/looker-studio), ürün, pazarlama ve teknik ekiplerin aynı sinyallere farklı kırılımlarla bakabilmesi için observability çıktısını daha görünür hale getirir."
           },
           {
             "type": "list",
@@ -27602,6 +27938,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Benzer şekilde [observability verisini yorumlamak](/tr/veri-analiz-ve-raporlama), log ve RUM sinyallerinin yalnız teknik hata listesi olarak değil, dönüşüm ve kullanıcı deneyimi etkisiyle birlikte değerlendirilmesine yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Mini Check"
           },
@@ -27652,6 +27992,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle [release sonrası hata takibi](/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops), yeni versiyonların staging-prod geçişinden sonra rollback veya hotfix kararını daha veriye dayalı hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Haftalık “observability review” (30 dk)"
           },
@@ -27663,6 +28007,10 @@
               "En çok drop olan 2 adım",
               "En çok alarm üreten 3 kural (gerekirse kaldır)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [SEO performansına teknik sorun etkisi](/tr/seo/seo-raporlama), yavaşlık, hata artışı veya render problemlerinin organik görünürlük tarafında nasıl yankılandığını düzenli izlemenizi sağlar."
           },
           {
             "type": "h3",
@@ -27837,6 +28185,10 @@
             "text": "Otel ve B2B projelerinde en değerli izleme modeli; rezervasyon/lead sağlığı, CWV, JS hataları, p95 latency, dependency health ve alert runbook’larını tek operasyon düzeninde birleştirir. Bu yaklaşım, ekiplerin “şikâyet gelince bakarız” yerine proaktif teşhis, hızlı aksiyon ve sürekli iyileştirme kültürü kurmasını sağlar."
           },
           {
+            "type": "p",
+            "text": "İzleme, hata takibi ve dashboard katmanını doğru kurgulamak isteyen ekipler için [izlenebilir web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme) süreci; mimari, deployment ve raporlama tarafını birlikte ele alır. Uygulama detaylarını ayrıca [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfasında da inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Web Observability & Logging Yapı Analizi Talep Et",
@@ -27962,7 +28314,7 @@
     },
     "h1": {
       "title": "AI Destekli Web Geliştirme ve Kod Üretimi: Best Practice ve Riskler",
-      "intro": "AI kod asistanları (Copilot vb.) ekiplerin hızını artırabiliyor; özellikle tekrar eden pattern’lerde, dokümantasyon ve test yazımında ciddi zaman kazandırıyor. Ancak “AI yazdı, çalıştı” demek “doğru ve güvenli” demek değildir. Kurumsal web projelerinde risk, genelde görünmez yerlerde büyür: yetkilendirme, veri işleme, ödeme/rezervasyon akışı, log/PII, bağımlılık yönetimi ve lisans uyumu. Bu yüzden doğru model, AI hız + insan kontrol hibritidir: AI taslak üretir, insan mimari ve güvenlik kararlarını verir; kod review ve test ise “yayın kapısı” olur. Otel/B2B projelerinde domain bilgisi gerektiren yerlerde AI’nin hatalı varsayım yapma riski ayrıca yüksektir.",
+      "intro": "AI kod asistanları (Copilot vb.) ekiplerin hızını artırabiliyor; özellikle tekrar eden pattern’lerde, dokümantasyon ve test yazımında ciddi zaman kazandırıyor. Ancak “AI yazdı, çalıştı” demek “doğru ve güvenli” demek değildir. Kurumsal web projelerinde risk, genelde görünmez yerlerde büyür: yetkilendirme, veri işleme, ödeme/rezervasyon akışı, log/PII, bağımlılık yönetimi ve lisans uyumu. Bu yüzden doğru model, AI hız + insan kontrol hibritidir: AI taslak üretir, insan mimari ve güvenlik kararlarını verir; kod review ve test ise “yayın kapısı” olur. Otel/B2B projelerinde domain bilgisi gerektiren yerlerde AI’nin hatalı varsayım yapma riski ayrıca yüksektir. Bu yüzden [AI ile web geliştirme güvenli mi](/tr/yazilim/web-sitesi-gelistirme) sorusu, araç seçiminden çok süreç, denetim ve kalite standardı sorusu olarak ele alınmalıdır.",
       "quickSummary": [
         "1) AI kodunu karar değil taslak olarak konumlandır",
         "2) Kritik modüllerde human sign-off zorunlu yap",
@@ -28038,6 +28390,10 @@
             "text": "Güvenli olabilir; ama şartı hibrit süreç ve kapılardır: AI’nin ürettiği kod, manuel review, test ve güvenlik taramasından geçmeden canlıya çıkmamalıdır. Kritik modüllerde (auth, ödeme, PII) AI yalnızca “taslak/yardımcı” rolünde kalmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu çerçevede [web ve yazılım hizmetlerinde AI web development](/tr/web-ve-yazilim-hizmetleri), geliştiricinin yerini alan kontrolsüz otomasyon değil; review, test ve mimari standartlarla çalışan destekleyici üretkenlik katmanı olarak değerlendirilmelidir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -28103,6 +28459,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle [Copilot ile Next.js kurumsal site](/tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur) üretirken route yapısı, component sınırları, render stratejisi ve kurumsal kod standardı gibi kararların hâlâ ekip tarafından verilmesi gerekir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -28155,12 +28515,20 @@
             "text": "AI, güvenlik best practice’lerini “bazen” hatırlar; ama sizin ürün bağlamınıza uygun şekilde uygulayacağı garanti değildir. Özellikle form işleme, dosya upload ve admin panel alanları risklidir."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [AI kod asistan riskleri](/tr/yazilim/blog/security-by-design-kurumsal-web-sitelerinde-guvenlik-odakli-gelistirme), secure coding, dependency kontrolü, yetki sınırları ve veri koruma prensipleriyle birlikte ele alınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Lisans/atıf riski (kurumsal süreç gerektirir)"
           },
           {
             "type": "p",
             "text": "Kurumsal kullanımda kodun lisans uyumu ve üçüncü parti bağımlılıkların lisansları önemlidir. AI çıktısı “benzer kod” üretebilir; bu yüzden “review + policy” gerekir. (Bu bir hukuk danışmanlığı değildir; risk yönetimi perspektifidir.)"
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca prompt içine müşteri verisi, erişim bilgisi veya gerçek üretim kodu taşınırken [AI araçlarında KVKK ve veri güvenliği](/tr/raporlama/kvkk-veri-guvenligi) çerçevesiyle hangi verinin paylaşılabileceği açık biçimde sınırlandırılmalıdır."
           },
           {
             "type": "table",
@@ -28271,6 +28639,10 @@
             "text": "Key Statistics / Data Point (sheet): AI destekli geliştirme doğru kurgulandığında “daha az kod yaz, daha çok problem çöz” paradigmasına yaklaştırırken; yanlış kurgulandığında teknik borcu ve riskleri büyütebilir. (Bu veri noktası içerikte “denge” vurgusu için kullanıldı.)"
           },
           {
+            "type": "p",
+            "text": "Arayüz tarafında [AI destekli arayüzlerin UX kontrolü](/tr/creative/ui-ux-tasarim), üretilen bileşenlerin yalnız çalışır durumda olmasını değil; erişilebilir, tutarlı ve marka standardına uygun olmasını da güvenceye alır."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -28314,6 +28686,10 @@
               "Test: otomasyon + domain senaryoları",
               "Release: gözlem penceresi (post-deploy) (Varsayım)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [AI ile yazılan kodun test ve deployment süreci](/tr/yazilim/blog/ci-cd-ve-deployment-stratejisi-nextjs-kurumsal-siteler-icin-devops), staging, otomatik test, kontrollü release ve rollback adımları olmadan hibrit modelin sürdürülebilir kalamayacağını gösterir."
           },
           {
             "type": "h3",
@@ -28391,6 +28767,10 @@
           {
             "type": "p",
             "text": "Technical SEO Notu (kilitli): AI ile üretilen kodlar güvenlik, lisans ve maintainability açısından manuel review’den geçmeden canlıya alınmamalıdır. İç link önerisi: /tr/yazilim/sunucu-guvenlik ve bakım süreçleri için /tr/yazilim/bakim-ve-destek."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda [AI ile üretilen kodun teknik SEO kontrolü](/tr/seo/teknik-seo), metadata, heading yapısı, canonical, routing ve render kararlarının arama görünürlüğünü bozmayacak şekilde doğrulanmasını sağlar."
           },
           {
             "type": "callout",
@@ -28499,6 +28879,10 @@
           {
             "type": "p",
             "text": "Kurumsal, otel ve B2B projelerinde asıl başarı; AI’yi tamamen serbest bırakmakta değil, hangi alanlarda kullanılacağını ve hangi alanlarda insan onayının zorunlu olduğunu netleştirmektedir. Code review, test, güvenlik taraması ve lisans/dependency kontrolü release sürecinin doğal kapıları olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı üretim kalitesiyle birlikte uygulamak isteyen ekipler için [AI destekli web sitesi geliştirme desteği](/tr/yazilim/web-sitesi-gelistirme), mimari, güvenlik ve kalite kapılarını aynı süreçte ele alır. Süreçle ilgili ek detaylar için [Web sitesi geliştirme hakkında sık sorulan sorular](/tr/yazilim/web-sitesi-gelistirme-sss) sayfası da yardımcı olur."
           },
           {
             "type": "cta",
