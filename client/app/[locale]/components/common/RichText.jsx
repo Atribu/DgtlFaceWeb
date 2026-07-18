@@ -1,7 +1,3 @@
-"use client";
-
-import React from "react";
-
 /**
  * Re-usable rich text renderer for next-intl.
  *

@@ -1,39 +1,93 @@
-// /Users/ece/Documents/GitHub/DgtlFaceWeb/client/app/[locale]/components/analytics/GtmDeferred.jsx
 "use client";
 
-import { useEffect, useState } from "react";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { useEffect } from "react";
 
 const GTM_ID = "GTM-TM2KPGV9";
+const COOKIE_PREFERENCES_EVENT = "cookiePreferencesChanged";
+
+function getCookiePreferences() {
+  try {
+    const cookie = document.cookie
+      .split(";")
+      .map((item) => item.trim())
+      .find((item) => item.startsWith("cookiePreferences="));
+
+    if (!cookie) return null;
+
+    const value = cookie.slice("cookiePreferences=".length);
+    return JSON.parse(decodeURIComponent(value));
+  } catch {
+    return null;
+  }
+}
+
+function hasAnalyticsConsent(preferences) {
+  return Boolean(preferences?.performance || preferences?.targeting);
+}
 
 export default function GtmDeferred() {
-  const [enabled, setEnabled] = useState(false);
-
   useEffect(() => {
-    // Consent kontrolü (senin cookiePreferences yapına göre)
-    let allowed = false;
-    try {
-      const raw = localStorage.getItem("cookiePreferences");
-      const prefs = raw ? JSON.parse(raw) : null;
-      allowed = !!prefs?.performance || !!prefs?.targeting;
-    } catch {}
+    let idleId = null;
+    let timeoutId = null;
 
-    if (!allowed) return;
+    const cancelScheduledLoad = () => {
+      if (idleId !== null && "cancelIdleCallback" in window) {
+        window.cancelIdleCallback(idleId);
+        idleId = null;
+      }
 
-    // Önce sayfa etkileşimi bitsin, sonra yükle
-    let timerId;
-    if ("requestIdleCallback" in window) {
-      timerId = window.requestIdleCallback(() => setEnabled(true), { timeout: 3000 });
-    } else {
-      timerId = window.setTimeout(() => setEnabled(true), 2500);
-    }
+      if (timeoutId !== null) {
+        window.clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+    };
+
+    const injectGtm = () => {
+      idleId = null;
+      timeoutId = null;
+
+      if (window.__gtmLoaded) return;
+
+      window.__gtmLoaded = true;
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        "gtm.start": Date.now(),
+        event: "gtm.js",
+      });
+
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
+      document.head.appendChild(script);
+    };
+
+    const scheduleGtm = (preferences) => {
+      if (!hasAnalyticsConsent(preferences)) {
+        cancelScheduledLoad();
+        return;
+      }
+
+      if (window.__gtmLoaded || idleId !== null || timeoutId !== null) return;
+
+      if ("requestIdleCallback" in window) {
+        idleId = window.requestIdleCallback(injectGtm, { timeout: 4000 });
+      } else {
+        timeoutId = window.setTimeout(injectGtm, 1200);
+      }
+    };
+
+    const handlePreferencesChanged = (event) => {
+      scheduleGtm(event.detail);
+    };
+
+    scheduleGtm(getCookiePreferences());
+    window.addEventListener(COOKIE_PREFERENCES_EVENT, handlePreferencesChanged);
 
     return () => {
-      if (typeof timerId === "number") clearTimeout(timerId);
-      else if ("cancelIdleCallback" in window) window.cancelIdleCallback(timerId);
+      cancelScheduledLoad();
+      window.removeEventListener(COOKIE_PREFERENCES_EVENT, handlePreferencesChanged);
     };
   }, []);
 
-  if (!enabled) return null;
-  return <GoogleTagManager gtmId={GTM_ID} />;
+  return null;
 }

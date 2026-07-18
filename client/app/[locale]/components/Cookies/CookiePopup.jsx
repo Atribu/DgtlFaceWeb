@@ -175,6 +175,10 @@ const savePreferences = (preferences) => {
     deleteCookie("targetingCookie");
     console.log("Targeting Çerezi Silindi.");
   }
+
+  window.dispatchEvent(
+    new CustomEvent("cookiePreferencesChanged", { detail: preferences })
+  );
 };
 
 // --------

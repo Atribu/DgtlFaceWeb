@@ -6,9 +6,9 @@ import { routing } from '@/i18n/routing';
 import HeaderWrapper from "./components/HeaderWrapper";
 import { getSeoData } from '../lib/seo-utils'; 
 import { getSiteUrl } from "@/app/lib/site-url";
-import Script from "next/script";
 import localFont from "next/font/local";
 import dynamic from 'next/dynamic';
+import GtmDeferred from "./components/analytics/GtmDeferred";
 import {
   CookiePopupDeferred,
   FloatingActionsDeferred,
@@ -150,34 +150,7 @@ export default async function RootLayout({ children,  params }) {
 
   return (
     <>
-      <Script
-        id="gtm-idle-loader"
-        strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(w,d,s,l,i){
-              function injectGtm() {
-                if (w.__gtmLoaded) return;
-                w.__gtmLoaded = true;
-                w[l] = w[l] || [];
-                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-                var f = d.getElementsByTagName(s)[0];
-                var j = d.createElement(s);
-                var dl = l !== 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-              }
-
-              if ('requestIdleCallback' in w) {
-                w.requestIdleCallback(injectGtm, {timeout: 4000});
-              } else {
-                w.setTimeout(injectGtm, 1200);
-              }
-            })(window, document, 'script', 'dataLayer', 'GTM-TM2KPGV9');
-          `,
-        }}
-      />
+      <GtmDeferred />
    
       <div className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>

@@ -1,19 +1,7 @@
-"use client";
-import React from "react";
-import dynamic from "next/dynamic";
 import { useTranslations } from "next-intl";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 import RichText from "../common/RichText";
-
-const FireballExplosion = dynamic(
-  () => import("./Animation/FireballExplosion"),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="h-[380px] w-[380px] max-w-full" aria-hidden="true" />
-    ),
-  }
-);
+import SectionFireballExplosion from "./Animation/SectionFireballExplosion";
 
 const Section = () => {
   const t = useTranslations("Homepage.partners");
@@ -52,7 +40,7 @@ const Section = () => {
         {/* Sağ Kısım */}
         <div className="flex relative lg:p-6 items-center justify-center h-auto my-3">
           <div className="w-full max-w-[500px] h-auto relative overflow-hidden mt-4 ">
-            <FireballExplosion />
+            <SectionFireballExplosion />
           </div>
         </div>
       </div>
