@@ -5438,7 +5438,7 @@
     },
     "h1": {
       "title": "CMS Ortamları ve Yayın Süreçleri: Draft–Staging–Prod Workflow",
-      "intro": "Birçok projede en büyük problem teknik eksiklik değil, süreç eksikliğidir: içerik ya da tasarım değişikliği “hemen canlıya” alınır, sonra bozulma fark edilince panikle geri dönülür. İyi kurgulanmış CMS workflow’u; içerik ve tasarım değişikliklerinin canlıda denendiği kaotik yapıyı ortadan kaldırır. Draft→Review→Publish akışı, preview/staging/prod ortam ayrımı ve version history + rollback imkânı; otel ve B2B projelerinde hem içerik ekibinin özgüvenini hem de web sitesinin stabilitesini artırır. Bu rehber, “ne zaman hangi ortam, kim onaylar, nasıl yayınlanır ve nasıl geri alınır?” sorularını uygulanabilir şekilde netleştirir.",
+      "intro": "Birçok projede en büyük problem teknik eksiklik değil, süreç eksikliğidir: içerik ya da tasarım değişikliği “hemen canlıya” alınır, sonra bozulma fark edilince panikle geri dönülür. İyi kurgulanmış CMS workflow’u; içerik ve tasarım değişikliklerinin canlıda denendiği kaotik yapıyı ortadan kaldırır. Draft→Review→Publish akışı, preview/staging/prod ortam ayrımı ve version history + rollback imkânı; otel ve B2B projelerinde hem içerik ekibinin özgüvenini hem de web sitesinin stabilitesini artırır. Bu rehber, “ne zaman hangi ortam, kim onaylar, nasıl yayınlanır ve nasıl geri alınır?” sorularını uygulanabilir şekilde netleştirir. Sağlam bir [CMS draft staging prod workflow](/tr/yazilim/cms-entegrasyonu) kurgusu, yayın disiplinini teknik kurulumdan ayrı değil onun doğal parçası olarak ele alır.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "CMS Yayın Workflow & Ortam Analizi Talep Et",
@@ -5499,6 +5499,10 @@
           {
             "type": "p",
             "text": "Birden fazla ortam (environment) kullanmanın amacı “fazla iş çıkarmak” değil, risk izolasyonu sağlamaktır. Canlı ortam (prod) müşterinin gördüğü gerçek dünyadır; burada yapılan her hata doğrudan gelir, itibar ve ekip stresine yansır. Staging; prod’a en yakın test ortamıdır, “prod’da olacak şeyin provası” burada yapılır. Preview ise içerik ekibinin draft içerikleri “site üzerinde” görebilmesi için kritik bir köprüdür."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [web ve yazılım hizmetlerinde CMS yayın ortamları](/tr/web-ve-yazilim-hizmetleri), yalnız teknik deployment alanları değil; içerik, tasarım, onay ve kalite kontrolün birlikte işlendiği operasyonel güvenlik katmanı olarak düşünülmelidir."
           },
           {
             "type": "list",
@@ -5591,6 +5595,10 @@
             "text": "Workflow’un kalbi; içerik üretimini ve yayınlamayı ayırmaktır. “Edit yetkisi olan herkes publish yapabiliyor” yaklaşımı, büyüyen ekiplerde kaos üretir. Draft→Review→Publish; hem kaliteyi hem sorumluluğu netleştirir: kim yazdı, kim onayladı, kim yayınladı."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımın sahada işlemesi için [CMS yayın onay akışı](/tr/yazilim/blog/rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi) tarafında rol, yetki ve yayın sorumluluğu net tanımlanmalıdır."
+          },
+          {
             "type": "media",
             "slot": "divider-03"
           },
@@ -5601,6 +5609,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Taslak (draft) hazırlanır, preview’da kontrol edilir, reviewer onaylar, publisher planlı yayınlar; kritik değişikliklerde ikinci onay eklenir."
+          },
+          {
+            "type": "p",
+            "text": "Sürecin ekip içinde aynı şekilde uygulanabilmesi için [editörler için preview review publish süreci](/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi) standartlarının onboarding aşamasında verilmesi büyük fark yaratır."
           },
           {
             "type": "list",
@@ -5622,6 +5634,10 @@
           {
             "type": "p",
             "text": "Yayın, belirli koşullar sağlanmadan gerçekleşmemelidir. Örnek publish gate:"
+          },
+          {
+            "type": "p",
+            "text": "Bu kapının en kritik parçalarından biri de [publish öncesi teknik SEO kontrolü](/tr/seo/teknik-seo) olup meta, canonical, URL, sitemap ve structured data gibi alanların yayından önce doğrulanmasını sağlar."
           },
           {
             "type": "list",
@@ -5673,6 +5689,10 @@
             "text": "İçerik değişikliği ile tasarım/geliştirme değişikliği aynı süreçten yönetilmezse, staging ve preview karmakarışık hale gelir. Sağlam yaklaşım: içerik değişiklikleri CMS workflow ile, tasarım/geliştirme değişiklikleri ise dev→staging→prod release süreci ile yönetilir; kritik nokta ikisini lansman takviminde senkronize etmektir."
           },
           {
+            "type": "p",
+            "text": "Özellikle preview aşamasında [preview aşamasında UI/UX kontrolü](/tr/creative/ui-ux-tasarim), mobil görünüm, CTA yerleşimi, form davranışı ve kullanıcı akışındaki kırılmaları yayından önce görünür hale getirir."
+          },
+          {
             "type": "media",
             "slot": "diagram-05"
           },
@@ -5699,6 +5719,10 @@
               "Yeni bileşen: dev’de geliştirilir → staging’de UAT → prod’a deploy",
               "Deploy sonrası: CMS içerikleri zaten hazırsa scheduled publish ile aynı saate senkronlanır"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu senkronizasyonun otomatik ilerlemesi için [publish sonrası webhook otomasyonu](/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle), yayın sonrası build, bildirim, cache temizleme veya revalidation adımlarını tetikleyebilir."
           },
           {
             "type": "h3",
@@ -5795,6 +5819,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu nedenle lansman tarihleri, scheduled publish kurgusu ve reklam yayını aynı ritimde ilerlemeli; [kampanya içerikleri için içerik yayın akışı](/tr/smm/planlama-strateji) CMS takvimiyle birlikte yönetilmelidir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -5847,6 +5875,10 @@
           {
             "type": "p",
             "text": "Düzenli workflow ve ortam yapısı olan projelerde, canlıda görülen “tasarım bozulması” ve “yanlış içerik yayını” vakalarının sayısı genelde ciddi ölçüde düşer. Draft–review–publish akışı ve staging/preview standardı; ekibin hızını düşürmez, hatayı ve paniği azaltır. Rollback ve versiyon geçmişi ise “kaza olursa ne yapacağız?” sorusunu önceden çözer."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kalıcı hale getirmek için [yayın akışı güçlü CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) alabilir, süreç ve kurulum tarafındaki detay sorular için de [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -29008,7 +29040,7 @@
     },
     "h1": {
       "title": "CMS + PMS & OTA Entegrasyonu: Oda, Fiyat ve İçerik Senkronizasyonu",
-      "intro": "Otel web sitelerinde en pahalı sorunlardan biri “tutarsız bilgi”dir: sitede görünen fiyat PMS/OTA’dan farklıysa, misafir güveni düşer ve çağrı merkezi yükü artar. Bunun ana nedeni çoğu zaman teknolojiden çok kurgudur: aynı alan hem CMS’te hem PMS/OTA tarafında tutulur; sonra hangi veri doğru, kim sorumlu belli olmaz. Sağlam bir entegrasyon mimarisinde her alanın tek bir kaynağı vardır; diğer sistemler o alanı ya sadece okur ya da sadece gösterir. Bu rehberde; oda–fiyat–içerik rol dağılımını, örnek veri akışlarını ve çakışmaları önlemek için gereken kuralları otel operasyonu perspektifiyle anlatıyoruz.",
+      "intro": "Otel web sitelerinde en pahalı sorunlardan biri “tutarsız bilgi”dir: sitede görünen fiyat PMS/OTA’dan farklıysa, misafir güveni düşer ve çağrı merkezi yükü artar. Bunun ana nedeni çoğu zaman teknolojiden çok kurgudur: aynı alan hem CMS’te hem PMS/OTA tarafında tutulur; sonra hangi veri doğru, kim sorumlu belli olmaz. Sağlam bir entegrasyon mimarisinde her alanın tek bir kaynağı vardır; diğer sistemler o alanı ya sadece okur ya da sadece gösterir. Bu rehberde; oda–fiyat–içerik rol dağılımını, örnek veri akışlarını ve çakışmaları önlemek için gereken kuralları otel operasyonu perspektifiyle anlatıyoruz. Özellikle [CMS PMS OTA entegrasyonu](/tr/yazilim/cms-entegrasyonu) planlanırken, hangi verinin hangi sistemde sahip olacağı daha mimari aşamada yazılı hale getirilmelidir.",
       "quickSummary": [
         "1) Oda–fiyat–içerik için tek kaynak belirle",
         "2) Fiyat ve müsaitliği PMS/Channel Manager’da tut",
@@ -29100,12 +29132,20 @@
             "text": "PMS/Channel Manager tarafı operasyonu, CMS tarafı anlatıyı yönetir. OTA’lar ise çoğu zaman dağıtım kanalıdır; bazı içerikleri barındırır ama “web sitesinin içerik hakikati” olmak zorunda değildir. Rol dağılımını net kurduğunuzda, ekibin şu soruya net cevabı olur: “Bu alanın sahibi kim?”"
           },
           {
+            "type": "p",
+            "text": "Bu ayrım, [web ve yazılım hizmetlerinde otel veri akışı](/tr/web-ve-yazilim-hizmetleri) planlanırken CMS’i içerik katmanı, PMS/OTA tarafını ise operasyonun hakikat kaynağı olarak konumlandırır."
+          },
+          {
             "type": "h3",
             "text": "CMS ve PMS/OTA entegrasyonu nasıl kurgulanmalı?"
           },
           {
             "type": "p",
             "text": "Kısa cevap: Oda–fiyat–içerik için alan bazında tek kaynak belirle; mapping’i (oda kodları) sabitle; senkronizasyon + test + cache/revalidation kuralı ile yayına al."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [oda fiyat içerik senkronizasyonu](/tr/pms-ota-yonetimi) kurgusu da tam burada başlar."
           },
           {
             "type": "list",
@@ -29158,6 +29198,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Fiyat ve müsaitlik PMS/Channel Manager’da; oda anlatısı ve görsel içerikleri CMS’te tutulmalıdır. CMS’te fiyat tutmak, kısa vadede “kolay” görünür ama uzun vadede çakışma üretir."
+          },
+          {
+            "type": "p",
+            "text": "Burada [CMS içerik modeli ve oda alanları](/tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi) yaklaşımı kritik hale gelir; çünkü oda başlığı, açıklama, galeri, amenity ve paket alanları net modellenmezse web tarafındaki anlatı ile [OTA kanallarında içerik ve fiyat tutarlılığı](/tr/otel/ota-yonetimi) da bozulur."
           },
           {
             "type": "h3",
@@ -29257,6 +29301,10 @@
             "text": "CMS, PMS ve OTA; oda, fiyat ve içerik entity’lerini farklı amaçlarla yönetir. “Oda kimliği” bir ortak anahtar (mapping) üzerinden bağlanır; operasyon verisi (rate/availability/promo) PMS/Channel Manager’dan akarken, anlatı ve deneyim katmanı (room content, destination content, media, UI blocks) CMS’ten gelir. Web sitesi bu iki akışı birleştirir; doğru cache/revalidation kurgusu ile hem price consistency hem content freshness korunur. Bu yaklaşım, “her alan için single source” kuralıyla tutarsızlık riskini düşürür."
           },
           {
+            "type": "p",
+            "text": "Özellikle kampanya ve rezervasyon odaklı sayfalarda [fiyat ve müsaitlik için CMS cache stratejisi](/tr/yazilim/blog/cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz) yanlış fiyat riskini azaltır; bu doğruluk da [otel veri akışı ve dijital pazarlama performansı](/tr/otel-dijital-pazarlama) açısından reklam ve landing deneyimini daha güvenilir hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Çakışma nerede çıkar?"
           },
@@ -29337,6 +29385,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Antalya/Belek’te “erken rezervasyon” kampanyasında; landing metni CMS’ten, promosyon PMS/CM’den gelir. Böylece “metin doğru ama fiyat yanlış” gibi çakışmalar azalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu akış rezervasyon lead’i ile birleştiğinde, [rezervasyon sonrası müşteri yolculuğu](/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna) tarafında form, teklif ve segment bilgisi aynı bağlamda ilerler; böylece [senkronizasyonun satış dönüşüm etkisi](/tr/raporlama/satis-donusum) yalnızca trafik değil gerçek rezervasyon kalitesi üzerinden okunabilir."
           },
           {
             "type": "h3",
@@ -29521,6 +29573,10 @@
             "text": "PMS/OTA + CMS veri sorumluluğu net olan yapılarda, “site ile PMS fiyat/oda farkı” şikâyetleri ve manuel düzeltme ihtiyacı genelde belirgin şekilde azalır. Bunun nedeni teknoloji değil; rol dağılımının ve akışın net olmasıdır. Oda anlatısını CMS’te güçlendirip, fiyat/müsaitliği PMS/Channel Manager’da tek kaynak yaparak; hem misafir deneyimini hem de ekip verimliliğini aynı anda iyileştirirsiniz."
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kurarken [otel entegrasyonlarına uygun CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) ile ilerleyebilir, teknik detayları da [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) üzerinden gözden geçirebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "CMS + PMS/OTA Entegrasyon Analizi Talep Et",
@@ -29639,7 +29695,7 @@
     },
     "h1": {
       "title": "CMS, CRM ve Marketing Automation Entegrasyonu: Formdan Müşteri Yolculuğuna",
-      "intro": "Birçok web projesinde formlar “lead üretir” ama süreç orada biter: form bir e-posta kutusuna düşer, sonra kaybolur; satış ekibi geç döner, pazarlama kampanyanın etkisini ölçemez. Oysa CMS, CRM ve marketing automation birlikte kurgulandığında; formdan gelen her lead/rezervasyon isteği takip edilebilir, etiketlenmiş ve nurture edilebilir bir müşteri yolculuğuna dönüşür. Bu dönüşümün anahtarı, yalnız “entegrasyon yapmak” değil; form alanlarını CRM alanlarıyla doğru eşlemek, source/campaign sözlüğünü standardize etmek ve automation workflow’larını satış süreçleriyle hizalamaktır. Bu rehberde, otel ve B2B için pratik akışlarla “form-to-pipeline” modelini kuruyoruz.",
+      "intro": "Birçok web projesinde formlar “lead üretir” ama süreç orada biter: form bir e-posta kutusuna düşer, sonra kaybolur; satış ekibi geç döner, pazarlama kampanyanın etkisini ölçemez. Oysa CMS, CRM ve marketing automation birlikte kurgulandığında; formdan gelen her lead/rezervasyon isteği takip edilebilir, etiketlenmiş ve nurture edilebilir bir müşteri yolculuğuna dönüşür. Bu dönüşümün anahtarı, yalnız “entegrasyon yapmak” değil; form alanlarını CRM alanlarıyla doğru eşlemek, source/campaign sözlüğünü standardize etmek ve automation workflow’larını satış süreçleriyle hizalamaktır. Bu rehberde, otel ve B2B için pratik akışlarla “form-to-pipeline” modelini kuruyoruz. Sağlam bir [CMS CRM entegrasyonu](/tr/yazilim/cms-entegrasyonu), form verisini sadece toplamakla kalmaz; satış, nurturing ve raporlama için kullanılabilir hale getirir.",
       "quickSummary": [
         "1) Form alanlarını CRM field’larıyla eşle",
         "2) UTM/source/campaign sözlüğünü standartlaştır",
@@ -29712,7 +29768,7 @@
           },
           {
             "type": "p",
-            "text": "Entegrasyonun ilk adımı “API bağlamak” değil; veri sözleşmesi yazmaktır. CMS’teki form alanları, CRM’deki field’larla (Lead/Contact/Deal) birebir eşleşmiyorsa; veriler ya yanlış yere düşer, ya eksik kalır, ya da satış ekibinin işine yaramaz. Bu yüzden form tasarımını “toplayabildiğim kadar bilgi” değil, “satış sürecini hızlandıracak minimum doğru bilgi” olarak düşünmek gerekir."
+            "text": "Entegrasyonun ilk adımı “API bağlamak” değil; veri sözleşmesi yazmaktır. CMS’teki form alanları, CRM’deki field’larla (Lead/Contact/Deal) birebir eşleşmiyorsa; veriler ya yanlış yere düşer, ya eksik kalır, ya da satış ekibinin işine yaramaz. Bu yüzden form tasarımını “toplayabildiğim kadar bilgi” değil, “satış sürecini hızlandıracak minimum doğru bilgi” olarak düşünmek gerekir. Bu yaklaşım, [web ve yazılım hizmetlerinde lead yolculuğu tasarımı](/tr/web-ve-yazilim-hizmetleri) planlanırken CMS panelini doğrudan satış ve otomasyon mimarisinin bir parçası haline getirir."
           },
           {
             "type": "media",
@@ -29724,7 +29780,7 @@
           },
           {
             "type": "p",
-            "text": "Kısa cevap: Form alanlarını CRM field’larına eşleyin, kimlik (email/telefon) ile dedupe kuralı koyun, source/campaign alanlarını zorunlu kaydedin ve CRM’de doğru objeye (Lead/Contact/Deal) yazın."
+            "text": "Kısa cevap: Form alanlarını CRM field’larına eşleyin, kimlik (email/telefon) ile dedupe kuralı koyun, source/campaign alanlarını zorunlu kaydedin ve CRM’de doğru objeye (Lead/Contact/Deal) yazın. Bu akış yayına alınmadan önce [form ve kampanya sayfalarında preview review publish süreci](/tr/yazilim/blog/cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow) ile form doğrulama, teşekkür sayfası ve CRM bağlantı testi staging ortamında kontrol edilmelidir."
           },
           {
             "type": "h3",
@@ -29858,6 +29914,10 @@
             "text": "Kısa cevap: UTM’leri form submit anında yakalayıp hem CRM Lead/Deal alanlarına hem de event log’una yazın; GA4 ile aynı naming convention’ı kullanın."
           },
           {
+            "type": "p",
+            "text": "Bu sözlük sayesinde [formdan satış dönüşüm ölçümü](/tr/raporlama/satis-donusum) daha temiz yapılır; aynı veri yapısı ile [lead yolculuğu verisini analiz etmek](/tr/veri-analiz-ve-raporlama) de mümkün hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Önerilen alan seti (CRM tarafı)"
           },
@@ -29948,6 +30008,10 @@
             "text": "CMS form verisi, CRM’de lead/contact/deal entity’lerine dönüşür; UTM/source/campaign alanlarıyla attribution katmanı oluşur; marketing automation bu etiketlere göre nurturing workflow’larını tetikler. Böylece form-to-pipeline akışı yalnız “veri aktarımı” değil, nurture-ready leads üretme sistemine dönüşür. Bu modelin başarısı, alan eşleme (mapping) ve naming convention standardıyla “consistent attribution” sağlamasına bağlıdır."
           },
           {
+            "type": "p",
+            "text": "Teknik tarafta [form submit sonrası otomasyon](/tr/yazilim/blog/cms-webhook-ve-otomasyon-senaryolari-yayinla-tetikle) kurgusu, CMS formu ile CRM kaydı arasındaki tetikleyicileri güvenilir hale getirir. Operasyon tarafında ise [CMS KPI ve içerik operasyon analitiği](/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek) yaklaşımı; lead hacmi, panel kullanımı ve yanıt süresi gibi göstergeleri birlikte izlemenizi sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -30004,6 +30068,10 @@
               "Misafire otomatik “talebinizi aldık” e-postası gider",
               "Yanıt yoksa otomatik hatırlatma + ikinci görev"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otel senaryosunda [form sonrası mesaj yönetimi](/tr/cagri-merkezi/mesaj-yonetimi), çağrı merkezi geri dönüşlerini, WhatsApp/e-posta temaslarını ve talep takibini aynı müşteri kaydı etrafında toplar."
           },
           {
             "type": "h3",
@@ -30178,7 +30246,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "CMS–CRM entegrasyonu sağlam olan projelerde, satış ekiplerinin “formlar kayboluyor” şikâyeti azalır; kanal/kampanya bazlı lead ve gelir takibi netleşir. Başarı; CRM entegrasyonu yapmakla değil, form alan tasarımını, UTM sözlüğünü ve automation akışlarını birlikte standardize etmekle gelir."
+            "text": "CMS–CRM entegrasyonu sağlam olan projelerde, satış ekiplerinin “formlar kayboluyor” şikâyeti azalır; kanal/kampanya bazlı lead ve gelir takibi netleşir. Başarı; CRM entegrasyonu yapmakla değil, form alan tasarımını, UTM sözlüğünü ve automation akışlarını birlikte standardize etmekle gelir. Bu yapıyı kurarken [CRM ve otomasyon uyumlu CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) alabilir, uygulama detaylarını da [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) üzerinden değerlendirebilirsiniz."
           },
           {
             "type": "cta",
@@ -30305,7 +30373,7 @@
     },
     "h1": {
       "title": "CMS Webhook ve Otomasyon Senaryoları: Yayınla, Tetikle, Entegre Et",
-      "intro": "CMS’i yalnız “içerik girilen panel” olarak kullanmak, modern projelerde gereksiz manuel iş üretir: içerik yayınlanır ama Next.js revalidation elle tetiklenir, Slack’e manuel haber verilir, CRM’e sinyal gitmez, arama indeksleri güncellenmez. Webhook yaklaşımı burada oyunu değiştirir: CMS’teki publish/update/delete olayları, tüm ekosistemi tetikleyen bir “olay akışı”na dönüşür. Bu sayede içerik değişiklikleri neredeyse gerçek zamanlı olarak siteye, CRM’e ve ekiplere otomatik yansır. Bu rehberde; webhook mantığını, Next.js ISR revalidation tetiklerini, Slack/CRM bildirimlerini ve güvenlik–loglama gibi kritik üretim detaylarını otel ve B2B senaryolarıyla anlatıyoruz.",
+      "intro": "CMS’i yalnız “içerik girilen panel” olarak kullanmak, modern projelerde gereksiz manuel iş üretir: içerik yayınlanır ama Next.js revalidation elle tetiklenir, Slack’e manuel haber verilir, CRM’e sinyal gitmez, arama indeksleri güncellenmez. Webhook yaklaşımı burada oyunu değiştirir: CMS’teki publish/update/delete olayları, tüm ekosistemi tetikleyen bir “olay akışı”na dönüşür. Bu sayede içerik değişiklikleri neredeyse gerçek zamanlı olarak siteye, CRM’e ve ekiplere otomatik yansır. Bu rehberde; webhook mantığını, Next.js ISR revalidation tetiklerini, Slack/CRM bildirimlerini ve güvenlik–loglama gibi kritik üretim detaylarını otel ve B2B senaryolarıyla anlatıyoruz. Özellikle [CMS webhook nedir](/tr/yazilim/cms-entegrasyonu) sorusunu, paneli event-driven operasyon merkezi olarak düşünmeden doğru cevaplamak zordur.",
       "quickSummary": [
         "1) Publish/update/delete event’lerini doğru ayır",
         "2) Payload standardını netleştir",
@@ -30374,7 +30442,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Webhook, bir sistemde bir olay gerçekleştiğinde (ör. “publish”) başka bir sisteme HTTP üzerinden “haber vermek”tir. Klasik entegrasyonlar “polling” yapar: site gidip CMS’i sürekli sorar. Webhook ise tersine çalışır: CMS olayı olduğunda sizi çağırır. Sonuç; daha düşük gecikme, daha az manuel iş ve daha net operasyon."
+            "text": "Webhook, bir sistemde bir olay gerçekleştiğinde (ör. “publish”) başka bir sisteme HTTP üzerinden “haber vermek”tir. Klasik entegrasyonlar “polling” yapar: site gidip CMS’i sürekli sorar. Webhook ise tersine çalışır: CMS olayı olduğunda sizi çağırır. Sonuç; daha düşük gecikme, daha az manuel iş ve daha net operasyon. Bu yaklaşım, [web ve yazılım hizmetlerinde CMS event driven akış](/tr/web-ve-yazilim-hizmetleri) kurarken CMS’i pasif panelden aktif tetikleyiciye dönüştürür."
           },
           {
             "type": "h3",
@@ -30432,6 +30500,10 @@
           {
             "type": "p",
             "text": "En büyük hata, “update” ile “publish”i karıştırmaktır. Birçok CMS’te draft kaydı da update sayılır; o yüzden “update” event’ini doğrudan prod tetiklemek risklidir. Bu bölümde hangi olayın ne anlama geldiğini netleştiriyoruz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [publish trigger otomasyonu](/tr/yazilim/blog/cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow) mantığı, draft, preview, staging ve prod ayrımını webhook seviyesinde netleştirmeden sağlıklı çalışmaz."
           },
           {
             "type": "media",
@@ -30513,7 +30585,7 @@
           },
           {
             "type": "p",
-            "text": "Kısa cevap: CMS’ten webhook ile güvenli bir endpoint’e istek gönderin; endpoint doğrulama sonrası ilgili path’ler için revalidate çağrısı yapar."
+            "text": "Kısa cevap: CMS’ten webhook ile güvenli bir endpoint’e istek gönderin; endpoint doğrulama sonrası ilgili path’ler için revalidate çağrısı yapar. Burada [ISR revalidation webhook](/tr/yazilim/blog/cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz) yaklaşımı, cache temizleme ve frontend güncelliğini aynı performans stratejisinin parçası olarak ele alır."
           },
           {
             "type": "h3",
@@ -30578,12 +30650,20 @@
             "text": "CRM tetikleri (B2B whitepaper örneği)"
           },
           {
+            "type": "p",
+            "text": "İçerik yayını yalnız görünürlük değil, lead akışı da başlatıyorsa [webhook ile CRM otomasyonu](/tr/yazilim/blog/cms-crm-ve-marketing-automation-entegrasyonu-formdan-musteri-yolculuguna) tarafında kampanya, nurturing ve form yolculuğu sinyallerinin birlikte tasarlanması gerekir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
               "Whitepaper yayınlandı → CRM’de kampanya aktif et, nurture başlat",
               "Form sayfası güncellendi → dönüşüm takibi notu / Tag Manager kontrol checklist’i (Internal Link Targets ile uyum)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [CMS event ve dönüşüm takibi](/tr/sem/donusum-takibi-tag-manager) yapısı; publish sonrası GTM, conversion tag ve event tracking kontrollerini operasyonel otomasyon zincirine dahil eder."
           },
           {
             "type": "h3",
@@ -30668,7 +30748,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, “neden yapalım?” sorusunu sahaya indirir: otelde hız ve tutarlılık; B2B’de pipeline ve içerik lansmanı."
+            "text": "Bu bölüm, “neden yapalım?” sorusunu sahaya indirir: otelde hız ve tutarlılık; B2B’de pipeline ve içerik lansmanı. Aynı zamanda [CMS yayını sonrası içerik dağıtım planı](/tr/smm/planlama-strateji) ile sosyal medya ve kampanya takviminin de içerik yayınını takip edecek şekilde kurgulanabileceğini gösterir."
           },
           {
             "type": "media",
@@ -30859,7 +30939,7 @@
           },
           {
             "type": "p",
-            "text": "Webhook’lar; içerik değişikliğini tek bir panel olayından çıkarıp, Next.js revalidation, CRM tetikleri ve ekip bildirimleri gibi çoklu sistem aksiyonlarına dönüştürür. Doğru kurulduğunda publish→live süresi kısalır, manuel iş azalır ve içerik tutarlılığı artar. Güvenlik ve loglama ile desteklendiğinde ise bu otomasyonlar üretim kalitesini yükseltir."
+            "text": "Webhook’lar; içerik değişikliğini tek bir panel olayından çıkarıp, Next.js revalidation, CRM tetikleri ve ekip bildirimleri gibi çoklu sistem aksiyonlarına dönüştürür. Doğru kurulduğunda publish→live süresi kısalır, manuel iş azalır ve içerik tutarlılığı artar. Güvenlik ve loglama ile desteklendiğinde ise bu otomasyonlar üretim kalitesini yükseltir. Bu etkinin operasyonel sonucunu [webhook otomasyonlarının performans etkisi](/tr/veri-analiz-ve-raporlama) ile izleyebilir; uygulama tarafında da [otomasyon uyumlu CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) ve [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) üzerinden karar sürecini netleştirebilirsiniz."
           },
           {
             "type": "cta",
@@ -30986,7 +31066,7 @@
     },
     "h1": {
       "title": "CMS Migrasyonu: Bir CMS’ten Diğerine Güvenli Geçiş Stratejisi",
-      "intro": "CMS migrasyonu çoğu zaman “içeriği taşıdık, bitti” sanılır; oysa asıl riskler burada başlar: URL değişir, medya linkleri kırılır, meta ve schema kaybolur, içerik ekibi yeni panelde yavaşlar ve SEO’da geçici değil kalıcı kayıplar oluşabilir. Planlı yürütülen migration; otel ve B2B sitelerinde hem SEO kaybını hem de ekip tarafındaki kaosu minimize eder. Bu rehberde, neden CMS değiştirildiğinden başlayıp; envanter çıkarma, içerik modeli eşleme, taşıma araçları/scrip’leri, 301 redirect stratejisi, staging testleri ve panel eğitimine kadar uçtan uca güvenli geçiş modelini anlatıyorum.",
+      "intro": "CMS migrasyonu çoğu zaman “içeriği taşıdık, bitti” sanılır; oysa asıl riskler burada başlar: URL değişir, medya linkleri kırılır, meta ve schema kaybolur, içerik ekibi yeni panelde yavaşlar ve SEO’da geçici değil kalıcı kayıplar oluşabilir. Planlı yürütülen migration; otel ve B2B sitelerinde hem SEO kaybını hem de ekip tarafındaki kaosu minimize eder. Bu rehberde, neden CMS değiştirildiğinden başlayıp; envanter çıkarma, içerik modeli eşleme, taşıma araçları/scrip’leri, 301 redirect stratejisi, staging testleri ve panel eğitimine kadar uçtan uca güvenli geçiş modelini anlatıyorum. Sağlam bir [CMS migrasyonu nasıl yapılır](/tr/yazilim/cms-entegrasyonu) planı, sadece veri taşımasını değil içerik, SEO ve operasyon sürekliliğini birlikte ele alır.",
       "quickSummary": [
         "1) CMS değişiminin nedenini ve hedef kazanımları netleştir",
         "2) Mevcut içerik, field, medya ve URL envanterini çıkar",
@@ -31080,6 +31160,10 @@
             "text": "Kısa cevap: Önce neden değiştiğinizi netleştirin, sonra envanter+mapping+redirect planlayın; staging’de test edip eğitim ve rollback ile yayına alın."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşım, [web ve yazılım hizmetlerinde CMS geçiş stratejisi](/tr/web-ve-yazilim-hizmetleri) olarak düşünülmeli; yeni platform seçilirken de [CMS vendor lock-in riskini azaltmak](/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar) için veri sahipliği, export kabiliyeti ve sözleşme şartları birlikte değerlendirilmelidir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -31153,6 +31237,10 @@
             "text": "Kısa cevap: Önce içerik ve field envanteri çıkarın (özellikle custom fields), sonra headless modelle eşleyin; URL yapısını koruyun veya 301 planlayın; medya linklerini yeniden bağlayın."
           },
           {
+            "type": "p",
+            "text": "Yapıda birden fazla dil varsa, [çok dilli CMS migration süreci](/tr/yazilim/blog/cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek) locale field, slug ve hreflang kurgusunu envanter aşamasından itibaren migration planına dahil etmelidir."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "Mini Check",
@@ -31202,6 +31290,10 @@
           {
             "type": "p",
             "text": "Kısa cevap: Önce eski modeldeki content type/field setini çıkarın; sonra yeni CMS’te hedef type’ları tasarlayın; her alan için dönüşüm kuralı yazın (tip, zorunluluk, default değer) ve örnek içeriklerle doğrulayın."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [content type ve field eşleştirme](/tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi) migration tablosunun omurgasını oluşturur; relation, asset ve SEO field grupları bu aşamada eksiksiz düşünülmelidir."
           },
           {
             "type": "h3",
@@ -31316,6 +31408,10 @@
             "text": "Kısa cevap: Mevcut indexlenen URL listesini çıkarın, yeni URL pattern’lerini tanımlayın, 1:1 eşleme yapın ve 301’leri staging’de test ederek yayına alın."
           },
           {
+            "type": "p",
+            "text": "Burada [URL redirect ve mapping](/tr/seo/teknik-seo) yaklaşımı; 301, canonical, sitemap, robots ve indexlenebilirlik kontrollerini migration planının teknik omurgasına dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "301 planında pratik kurallar"
           },
@@ -31351,6 +31447,11 @@
               "SEO raporlamayı 30/60/90 gün takip planına bağla."
             ]
           }
+          ,
+          {
+            "type": "p",
+            "text": "Geçiş tamamlandıktan sonra görünürlük değişimini [migration sonrası SEO raporlama](/tr/seo/seo-raporlama) ile izlemek; trafik, index durumu ve sıralama kayıplarını erken fark etmek için kritik hale gelir."
+          }
         ]
       },
       {
@@ -31360,6 +31461,10 @@
           {
             "type": "p",
             "text": "Migrasyonun gözden kaçan kısmı “insan”dır: içerik ekibi yeni paneli öğrenmezse üretim yavaşlar. Otelde kampanya dönemi yaklaşırken panel değişimi yapmak ekstra risklidir; B2B’de ise lead akışları ve landing sayfaları etkilenebilir. Bu yüzden eğitim ve geçiş planı migration’ın parçasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel içeriklerinde CMS geçiş sürekliliği](/tr/otel-dijital-pazarlama), kampanya landing’leri, oda ve paket içerikleri ile direkt rezervasyon hedeflerinin geçişten minimum etkilenmesini sağlamak için ayrı bir operasyon disiplini gerektirir."
           },
                     {
             "type": "media",
@@ -31487,7 +31592,7 @@
           },
           {
             "type": "p",
-            "text": "CMS migrasyonu, teknik bir proje olduğu kadar operasyonel bir dönüşümdür. Envanter, mapping, medya taşıma ve 301 redirect planı birlikte yürütülür; staging testleri ve eğitimle desteklenirse geçiş şoku azalır. Yayın sonrası takip ve düzeltme döngüsü de planın parçası olduğunda, SEO kaybı minimize edilir ve ekip yeni CMS’te sürdürülebilir üretime geçer."
+            "text": "CMS migrasyonu, teknik bir proje olduğu kadar operasyonel bir dönüşümdür. Envanter, mapping, medya taşıma ve 301 redirect planı birlikte yürütülür; staging testleri ve eğitimle desteklenirse geçiş şoku azalır. Yayın sonrası takip ve düzeltme döngüsü de planın parçası olduğunda, SEO kaybı minimize edilir ve ekip yeni CMS’te sürdürülebilir üretime geçer. Bu geçişi planlamak için [güvenli CMS entegrasyonu ve migration desteği](/tr/yazilim/cms-entegrasyonu) alabilir, süreç detaylarını da [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) üzerinden değerlendirebilirsiniz."
           },
           {
             "type": "cta",
@@ -31617,7 +31722,7 @@
     },
     "h1": {
       "title": "Kişiselleştirme ve Segment Bazlı İçerik: CMS ile Dinamik Web Deneyimi",
-      "intro": "Kişiselleştirme çoğu zaman “herkese özel site” gibi hayalî bir hedefle başlatılıp, bakım yükü ve veri riski yüzünden yarıda kalır. Oysa doğru yaklaşım; sınırlı sayıda segment için sınırlı sayıda varyasyon tanımlamak ve bunu CMS’te yönetilebilir bir yapıya oturtmaktır. Böylece hem otel hem B2B sitelerinde mesaj/teklif uyumu artar; A/B test ve ölçüm için sağlam bir temel oluşur. Bu rehber, segment bazlı içerik alanlarını nasıl tasarlayacağınızı, hangi segmentlerin işe yaradığını ve performansı nasıl ölçeceğinizi “kontrollü kişiselleştirme” çerçevesiyle anlatır.",
+      "intro": "Kişiselleştirme çoğu zaman “herkese özel site” gibi hayalî bir hedefle başlatılıp, bakım yükü ve veri riski yüzünden yarıda kalır. Oysa doğru yaklaşım; sınırlı sayıda segment için sınırlı sayıda varyasyon tanımlamak ve bunu CMS’te yönetilebilir bir yapıya oturtmaktır. Böylece hem otel hem B2B sitelerinde mesaj/teklif uyumu artar; A/B test ve ölçüm için sağlam bir temel oluşur. Bu rehber, segment bazlı içerik alanlarını nasıl tasarlayacağınızı, hangi segmentlerin işe yaradığını ve performansı nasıl ölçeceğinizi “kontrollü kişiselleştirme” çerçevesiyle anlatır. Sağlam bir [CMS ile kişiselleştirme](/tr/yazilim/cms-entegrasyonu) kurgusu, panel modelini yalnız içerik girişi değil dönüşüm ve deneyim yönetimi katmanı haline getirir.",
       "quickSummary": [
         "1) Kişiselleştirmeyi “herkese ayrı site” değil, segment bazlı varyasyon olarak konumlandır",
         "2) 3–5 güçlü segment seç: ülke, dil, kanal veya cihaz",
@@ -31698,7 +31803,7 @@
           },
           {
             "type": "p",
-            "text": "Buradaki hedef: kontrollü kişiselleştirme"
+            "text": "Buradaki hedef: kontrollü kişiselleştirme. Bu yaklaşım, [web ve yazılım hizmetlerinde dinamik web deneyimi](/tr/web-ve-yazilim-hizmetleri) planlanırken içerik modeli, ölçüm ve kanal stratejisinin birlikte tasarlanmasını gerektirir."
           },
           {
             "type": "list",
@@ -31752,7 +31857,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kişiselleştirmenin sürdürülebilir olması için CMS modeli net olmalı: “hero alanı tek metin” değil, “segmentli varyasyon listesi” olmalı. En pratik yapı; her kişiselleştirilen bileşen için şu alanları tutmaktır:"
+            "text": "Kişiselleştirmenin sürdürülebilir olması için CMS modeli net olmalı: “hero alanı tek metin” değil, “segmentli varyasyon listesi” olmalı. En pratik yapı; her kişiselleştirilen bileşen için şu alanları tutmaktır: Bu noktada [personalization CMS alanları](/tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi) yaklaşımı, segment, audience, varyasyon ve ölçüm alanlarının component seviyesinde nasıl tanımlanacağını netleştirir."
           },
           {
             "type": "list",
@@ -31796,7 +31901,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yapı; hem içerik ekibinin panelde yönetimini kolaylaştırır, hem de teknik ekibin “tek sözleşmeyle” render etmesini sağlar."
+            "text": "Bu yapı; hem içerik ekibinin panelde yönetimini kolaylaştırır, hem de teknik ekibin “tek sözleşmeyle” render etmesini sağlar. Daha ilişkisel senaryolarda [segment bazlı içerik modeli](/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme), segment, kampanya, hizmet ve teklif bağlarını içerik grafiği mantığında kurarak varyasyonların dağılmasını önler."
           },
           {
             "type": "callout",
@@ -31852,6 +31957,10 @@
               "Cihaz: mobile vs desktop (daha çok UX)",
               "Yeni vs geri dönen (cookie/consent gerektirir)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu segmentlerin kampanya tarafında tutarlı işlemesi için [segment bazlı kampanya ve içerik planlama](/tr/smm/planlama-strateji) yaklaşımı, kanal mesajını CMS varyasyon mantığıyla aynı takvim ve hedef kitle çerçevesine bağlamayı kolaylaştırır."
           },
           {
             "type": "callout",
@@ -31913,7 +32022,7 @@
           },
           {
             "type": "p",
-            "text": "Veri noktası (yumuşatılmış): Segment bazlı kişiselleştirme yapan projelerde, özellikle ülke/dil/kanal seviyesinde teklif uyarlamasıyla tıklama ve dönüşüm oranlarında anlamlı artışlar görülebilir (sonuçlar trafik ve teklif kalitesine bağlıdır)."
+            "text": "Veri noktası (yumuşatılmış): Segment bazlı kişiselleştirme yapan projelerde, özellikle ülke/dil/kanal seviyesinde teklif uyarlamasıyla tıklama ve dönüşüm oranlarında anlamlı artışlar görülebilir (sonuçlar trafik ve teklif kalitesine bağlıdır). Bu varyasyonların site dışı temas noktalarına da tutarlı taşınması için [segment bazlı içeriği farklı kanallara yayınlamak](/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina) yaklaşımı önemlidir; turizm tarafında ise [otel pazarlamasında segment bazlı içerik](/tr/otel-dijital-pazarlama) pazar, misafir tipi ve rezervasyon niyetine göre mesaj uyumunu güçlendirir."
           },
           {
             "type": "media",
@@ -31969,7 +32078,7 @@
           },
           {
             "type": "p",
-            "text": "Kısa cevap: Her varyasyona ölçüm anahtarı verin, GA4’te event/parametre ile takip edin; CRM’de source/campaign ile ilişkilendirip KPI hedefi koyun. Bakım yükü ve KVKK riskine göre segment sayısını sınırlayın."
+            "text": "Kısa cevap: Her varyasyona ölçüm anahtarı verin, GA4’te event/parametre ile takip edin; CRM’de source/campaign ile ilişkilendirip KPI hedefi koyun. Bakım yükü ve KVKK riskine göre segment sayısını sınırlayın. Böylece [kişiselleştirmenin satış dönüşüm etkisi](/tr/raporlama/satis-donusum) yalnız tıklama değil lead, rezervasyon ve gelir kalitesi üzerinden de okunabilir."
           },
           {
             "type": "h3",
@@ -32108,7 +32217,7 @@
           },
           {
             "type": "p",
-            "text": "Kişiselleştirme, sürdürülebilir olması için sınırlı segment, net varyasyon ve ölçülebilir KPI mantığıyla kurulmalıdır. CMS bu yapının merkezi olur: segmentli alanları yönetir, front-end doğru varyasyonu gösterir, GA4/CRM performansı ölçer. Böyle kurgulandığında otel ve B2B siteleri, bakım yükünü büyütmeden daha alakalı mesajlar ve daha net dönüşüm deneyimleri üretebilir."
+            "text": "Kişiselleştirme, sürdürülebilir olması için sınırlı segment, net varyasyon ve ölçülebilir KPI mantığıyla kurulmalıdır. CMS bu yapının merkezi olur: segmentli alanları yönetir, front-end doğru varyasyonu gösterir, GA4/CRM performansı ölçer. Böyle kurgulandığında otel ve B2B siteleri, bakım yükünü büyütmeden daha alakalı mesajlar ve daha net dönüşüm deneyimleri üretebilir. Bu yapıyı kurmak için [kişiselleştirme uyumlu CMS entegrasyonu desteği](/tr/yazilim/cms-entegrasyonu) alabilir, uygulama detaylarını da [CMS entegrasyonu hakkında sık sorulan sorular](/tr/yazilim/cms-entegrasyonu-sss) üzerinden değerlendirebilirsiniz."
           },
           {
             "type": "cta",
@@ -32245,7 +32354,7 @@
     },
     "h1": {
       "title": "CMS Block Editor ve Page Builder Yapıları: Esneklik ve Kontrol Dengesi",
-      "intro": "Blok tabanlı editörler ve page builder’lar, içerik ekibine “developer beklemeden sayfa çıkarma” gücü verir. Fakat yanlış kurgulandığında kurumsal web sitelerinde iki tip sorun çıkar: (1) Tasarım kaosu (her sayfa başka bir site gibi görünür), (2) Performans çöküşü (ağır bloklar, kontrolsüz görseller, kötü HTML). Bu yüzden hedef “editör özgürlüğü” değil; kontrollü esneklik olmalıdır: iskelet şablonlar sabit, belirli alanlar blok bazlı esnek. Bu yaklaşım otel ve B2B sitelerinde hem içerik üretim hızını hem de marka tutarlılığını birlikte korur.",
+      "intro": "Blok tabanlı editörler ve page builder’lar, içerik ekibine “developer beklemeden sayfa çıkarma” gücü verir. Fakat yanlış kurgulandığında kurumsal web sitelerinde iki tip sorun çıkar: (1) Tasarım kaosu (her sayfa başka bir site gibi görünür), (2) Performans çöküşü (ağır bloklar, kontrolsüz görseller, kötü HTML). Bu yüzden hedef “editör özgürlüğü” değil; kontrollü esneklik olmalıdır: iskelet şablonlar sabit, belirli alanlar blok bazlı esnek. Bu yaklaşım otel ve B2B sitelerinde hem içerik üretim hızını hem de marka tutarlılığını birlikte korur. Bu yapıyı daha geniş bir uygulama çerçevesinde değerlendirmek isterseniz [CMS block editor nedir](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) perspektifini CMS entegrasyonu mimarisiyle birlikte ele almak faydalıdır.",
       "quickSummary": [
         "1) Block editor ile page builder farkını netleştir",
         "2) Tam serbestlik yerine hibrit model kur",
@@ -32309,6 +32418,10 @@
             "text": "Block editor; içerik alanını “tek bir dev metin kutusu” yerine, anlamlı yapı taşlarına böler: hero, paragraf, görsel, grid, banner, SSS, kartlar gibi. Bu yapı, içerik ekibinin düzenli ve tekrar kullanılabilir bileşenlerle üretim yapmasını sağlar. Page builder ise genellikle daha “layout” odaklıdır; sürükle-bırak ile sayfa düzenini kurdurur. İkisi benzer görünse de, kurumsal web için kritik fark şudur: block editor daha yapılandırılmış ve yönetilebilir, page builder ise yanlış kurgulanırsa “sonsuz özgürlük” nedeniyle standardı kırabilir."
           },
           {
+            "type": "p",
+            "text": "Bu dengeyi yalnızca panel rahatlığı olarak değil, [web ve yazılım hizmetlerinde editör esnekliği ve kontrol](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımının bir parçası olarak düşünmek gerekir; çünkü blok yapısı içerik üretimi kadar yönetişim ve teknik kaliteyi de etkiler."
+          },
+          {
             "type": "h3",
             "text": "CMS block editor nedir, page builder’dan farkı nedir? "
           },
@@ -32351,6 +32464,10 @@
           {
             "type": "p",
             "text": "Kurumsal web’te en kritik karar: sayfa düzeni mi (layout) içerik mi (content) yönetilecek? Structured content yaklaşımı; içerikleri anlamlı alanlara böler (başlık, özet, galeri, USP listesi) ve front-end bu veriyi tasarım sistemine göre render eder. Page builder yaklaşımı ise editöre “layout” yaptırır. Otel ve B2B gibi marka tutarlılığı önemli yapılarda, çoğu zaman “tam serbest layout” yerine structured + blok hibriti daha iyi çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Buradaki karar çerçevesini daha somutlaştırmak için [page builder vs structured content](https://dgtlface.com/tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi) ayrımını içerik modeli, field yapısı ve editör deneyimi üzerinden birlikte değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -32470,6 +32587,10 @@
             "text": "Blok yaklaşımı en iyi; tekrar eden sayfa türlerinde değer üretir. Otelde kampanya landing’leri, destinasyon sayfaları, oda sayfaları; B2B’de hizmet sayfaları, case sayfaları, webinar/whitepaper landing’leri. Burada kritik olan; blok setinin “her şey” olmaması; birkaç güçlü blokla yönetilebilir kalmasıdır."
           },
           {
+            "type": "p",
+            "text": "Pazarlama ekiplerinin hız ihtiyacı arttığında, [hibrit blok şablonu ile kampanya sayfası üretimi](https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek) yaklaşımı block editor esnekliğini kontrollü landing üretimiyle birleştirir ve şablon disiplinini korur."
+          },
+          {
             "type": "h3",
             "text": "Otel için örnek blok seti"
           },
@@ -32488,6 +32609,10 @@
           {
             "type": "p",
             "text": "Mini örnek: Antalya/Belek’te sezon kampanyasında; “Hero mesaj + teklif bloğu + oda kartları + SSS” aynı şablonla hızlı üretilir, tasarım dağılmaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu tip şablonlarda görsel zenginlik de sınırlandırılmalıdır; özellikle kampanya sayfalarında [blok tabanlı görsel ve motion kullanımı](https://dgtlface.com/tr/creative/grafik-motion-tasarim) için ortak kurallar tanımlanmazsa hareketli alanlar marka standardını ve sayfa hızını kolayca bozabilir."
           },
           {
             "type": "h3",
@@ -32536,6 +32661,14 @@
           {
             "type": "p",
             "text": "Hibrit modelin çalışması için rol dağılımı net olmalı. Tasarım ekibi “sistem”i kurar: component kuralları, spacing, tipografi, token’lar, blok kütüphanesi. Editör ekibi “içeriği” üretir: blokları doğru sırada kullanır, metni ve görseli standarda uygun doldurur. Ajans yapılarında bu iki rol farklı ekiplerde olabilir; o yüzden governance şarttır."
+          },
+          {
+            "type": "p",
+            "text": "Bu işleyişin sahada sorunsuz çalışması için editörün değişikliği yayınlamadan önce [in-context preview ile blok kontrolü](https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin) yapabilmesi önemlidir; aksi halde blok bazlı hatalar ancak canlıda fark edilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı zamanda blok setinin, CTA yerleşimi, form akışı ve okunabilirlik kararları açısından [block editor için UI/UX standardı](https://dgtlface.com/tr/creative/ui-ux-tasarim) ile hizalanması gerekir; yoksa panel esnekliği kullanıcı deneyimi dağınıklığına dönüşür."
           },
           {
             "type": "h3",
@@ -32639,6 +32772,10 @@
           },
           {
             "type": "p",
+            "text": "Bu yüzden [page builder teknik SEO kontrolü](https://dgtlface.com/tr/seo/teknik-seo) yalnızca meta alanlarıyla sınırlı görülmemeli; heading yapısı, semantik HTML, lazy loading ve indexlenebilirlik kuralları blok düzeyinde tanımlanmalıdır."
+          },
+          {
+            "type": "p",
             "text": "Teknik not (sheet ile uyum): Blok tabanlı içerik yapısı /tr/creative/ui-ux-tasarim ve /tr/yazilim/web-sitesi-gelistirme ile tutarlı olmalı; blokların HTML hiyerarşisi ve schema açısından kontrol edilmesi gerekir."
           },
           {
@@ -32732,6 +32869,10 @@
           {
             "type": "p",
             "text": "Kilitli alanlar marka ve SEO tutarlılığını korurken; serbest blok alanları kampanya, içerik ve iletişim çeşitliliği sağlar. Performans bütçesi, HTML hiyerarşisi ve schema tetikleri sistem seviyesinde kontrol edildiğinde, editörler daha hızlı üretir ve site bütünlüğü bozulmaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu dengeyi kurmak için [kontrollü page builder yapısına sahip CMS entegrasyonu](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) yaklaşımını değerlendirebilir; uygulama detayları için [CMS entegrasyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/cms-entegrasyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -32866,7 +33007,7 @@
     },
     "h1": {
       "title": "İçerik Yaşam Döngüsü, Versiyonlama ve Arşiv Yapısı: CMS İçin Model",
-      "intro": "İçerik üretimi kolaylaştıkça, içerik birikimi de hızlanır. CMS’te yaşam döngüsü yönetmeyen sitelerde birkaç yıl içinde “eski sezon kampanyaları”, “kapanmış hizmet sayfaları” ve güncellenmemiş bloglar çoğalır; kullanıcı “bu marka güncel mi?” diye şüphe eder, SEO tarafında da içerik kalitesi sinyali zayıflar. Bu yüzden içerikleri “her zaman açık” bırakmak yerine; lifecycle (draft→publish→update→archive), revision history ve content pruning politikalarıyla düzenli bakım yapmak gerekir. Bu rehber; otel ve B2B sitelerinde hangi içeriğin güncelleneceğini, hangisinin arşivleneceğini, hangisinin redirect edileceğini belirleyen uygulanabilir bir CMS modelini anlatır.",
+      "intro": "İçerik üretimi kolaylaştıkça, içerik birikimi de hızlanır. CMS’te yaşam döngüsü yönetmeyen sitelerde birkaç yıl içinde “eski sezon kampanyaları”, “kapanmış hizmet sayfaları” ve güncellenmemiş bloglar çoğalır; kullanıcı “bu marka güncel mi?” diye şüphe eder, SEO tarafında da içerik kalitesi sinyali zayıflar. Bu yüzden içerikleri “her zaman açık” bırakmak yerine; lifecycle (draft→publish→update→archive), revision history ve content pruning politikalarıyla düzenli bakım yapmak gerekir. Bu rehber; otel ve B2B sitelerinde hangi içeriğin güncelleneceğini, hangisinin arşivleneceğini, hangisinin redirect edileceğini belirleyen uygulanabilir bir CMS modelini anlatır. Bu çerçeveyi panel mimarisiyle birlikte düşünmek isterseniz [içerik yaşam döngüsü CMS](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) yaklaşımını CMS entegrasyonu operasyonlarıyla birlikte değerlendirmek faydalıdır.",
       "quickSummary": [
         "1) CMS’te lifecycle statülerini standartlaştır.",
         "2) Her içerik tipine “review periyodu” ekle (365 döngüyle uyumlu).",
@@ -32932,6 +33073,10 @@
           {
             "type": "p",
             "text": "İçerik yaşam döngüsü, bir içeriğin “yayına girdi” noktasıyla bitmediğini kabul eder. İçerik; yayınlandıktan sonra güncellenir, zamanla yaşlanır (content decay), bazıları evergreen kalır, bazıları sezonluk olduğu için arşivlenmelidir. CMS’te lifecycle’ı kurmak, “ne zaman ne yapacağımızı” süreçleştirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu disiplin yalnızca editoryal bakım konusu değildir; [web ve yazılım hizmetlerinde içerik yaşam döngüsü](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı içinde panel, SEO ve operasyon kararlarının aynı modelde yönetilmesini gerektirir."
           },
           {
             "type": "h3",
@@ -33059,6 +33204,10 @@
             "text": "Otel tarafında “geçmiş sezon kampanyaları” genelde arşiv/redirect adayıdır; B2B’de “eski ürün/hizmet” sayfaları ise çoğu zaman redirect veya açıklamalı arşiv olarak yönetilir."
           },
           {
+            "type": "p",
+            "text": "Bu ayrımı özellikle replatforming dönemlerinde iyi kurmak gerekir; çünkü [eski kampanya içerik yönetimi](https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi) yanlış ele alınırsa yeni CMS’e eski riskleri aynen taşımış olursunuz."
+          },
+          {
             "type": "h3",
             "text": "Eski içerikleri silmek mi, güncellemek mi gerekir? "
           },
@@ -33160,6 +33309,10 @@
             "text": "Content lifecycle, revision, archive, pruning ve redirect; tek bir “içerik envanteri sağlığı” modelinin parçalarıdır. CMS’te lifecycle statüleri ve revision history; içeriğin ne zaman güncellendiğini ve hangi sürümün canlı olduğunu yönetir. Arşiv ve pruning politikası; content decay yaşayan sayfaları sınıflandırıp, kullanıcı ve SEO açısından doğru aksiyonu (güncelle/arsiv/redirect) seçmenizi sağlar. Bu model, evergreen ve seasonal içerikleri farklı kurallarla yöneterek hem marka güvenini hem organik performansı korur."
           },
           {
+            "type": "p",
+            "text": "Bu kuralların ekip içinde aynı şekilde uygulanabilmesi için [editörler için versiyonlama ve arşiv yapısı](https://dgtlface.com/tr/yazilim/blog/cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi) standartlarının onboarding sürecinde net biçimde öğretilmesi gerekir; aksi halde statüler tanımlı olsa bile kullanım alışkanlığı oluşmaz."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -33193,7 +33346,15 @@
           },
           {
             "type": "p",
+            "text": "Bu nedenle [content pruning stratejisi](https://dgtlface.com/tr/seo/icerik-seo) yalnızca düşük trafikli URL’leri kapatmak değildir; kanibalizasyon, güncellik riski, içerik birleşimi ve arama niyeti uyumu birlikte değerlendirilmelidir."
+          },
+          {
+            "type": "p",
             "text": "Teknik not (sheet ile uyum): Pruning ve arşiv kararları /tr/seo/icerik-seo ve /tr/seo/seo-raporlama ile birlikte, organik performans metriklerine bakarak verilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Kararların etkisini görmek için de [arşivleme sonrası SEO raporlama](https://dgtlface.com/tr/seo/seo-raporlama) yaklaşımıyla index durumu, organik trafik ve görünürlük değişimini düzenli izlemek gerekir."
           },
           {
             "type": "media",
@@ -33244,6 +33405,14 @@
           {
             "type": "p",
             "text": "TR’de içerik üretimi bolca konuşulurken, içerik temizliği ve arşiv politikası pek ele alınmıyor. Oysa içerik birikimi kontrol edilmezse, “çok içerik” avantaj değil dezavantaja dönüşür: eski kampanyalar, kapalı hizmetler ve güncel olmayan yazılar hem kullanıcı güvenini hem SEO sinyallerini zayıflatır. Bu rehberin farkı; lifecycle + revision + archive + pruning yaklaşımını tek bir governance modeli olarak sunmasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu modelin düzenli çalışıp çalışmadığını anlamak için [CMS içerik operasyon analitiği](https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek) perspektifiyle aktif, bekleyen, güncellenmeyen ve arşivlenen içerik hacmini operasyonel KPI olarak izlemek gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Önceliklendirme aşamasında ise [içerik performansını benchmark ile karşılaştırmak](https://dgtlface.com/tr/raporlama/benchmark-analizi) hangi URL’lerin gerçekten güncelleme yatırımı hak ettiğini daha net gösterir; böylece bakım kararı yalnız içgüdüyle değil veriyle verilir."
           }
         ]
       },
@@ -33308,6 +33477,10 @@
           {
             "type": "p",
             "text": "Düzenli content pruning yapılan sitelerde, “az ama kaliteli” içerik setlerinin daha iyi çalıştığı sıkça raporlanır (sonuçlar sektöre ve kaliteye bağlıdır). Lifecycle ve arşiv modelini CMS’te kurduğunuzda; içerik ekibi neyi güncelleyeceğini bilir, SEO ekibi riskli içerikleri kontrol eder, marka algısı güncel kalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı operasyonel olarak kurmak için [içerik yaşam döngüsü güçlü CMS entegrasyonu desteği](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) alabilir; uygulama detayları için [CMS entegrasyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/cms-entegrasyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -33427,7 +33600,7 @@
     },
     "h1": {
       "title": "CMS ve DAM Entegrasyonu: Görsel ve Video Yönetiminde Merkezi Yapı",
-      "intro": "Büyük medya kütüphanesi olan projelerde CMS, zamanla “asset çöplüğü”ne dönüşebilir: aynı görselin farklı boyutlarda tekrar tekrar yüklenmesi, doğru görseli bulamama, kampanya döneminde paniğe kapılıp yanlış görsel kullanma… Üstelik bu dağınıklık performansa da yansır: ağır görseller, yanlış oranlar, gereksiz video yükleri ve kötü CDN kurgusu sayfayı yavaşlatır. DAM entegrasyonu olan CMS kurulumlarında ise medya dosyaları tek merkezde yönetilir; web sitesi sadece bu varlıkların “tüketicisi” olur. Bu da otel ve B2B projelerinde hem medya bulma/yeniden kullanma hızını hem performansı hem de marka tutarlılığını ciddi biçimde artırır.",
+      "intro": "Büyük medya kütüphanesi olan projelerde CMS, zamanla “asset çöplüğü”ne dönüşebilir: aynı görselin farklı boyutlarda tekrar tekrar yüklenmesi, doğru görseli bulamama, kampanya döneminde paniğe kapılıp yanlış görsel kullanma… Üstelik bu dağınıklık performansa da yansır: ağır görseller, yanlış oranlar, gereksiz video yükleri ve kötü CDN kurgusu sayfayı yavaşlatır. DAM entegrasyonu olan CMS kurulumlarında ise medya dosyaları tek merkezde yönetilir; web sitesi sadece bu varlıkların “tüketicisi” olur. Bu da otel ve B2B projelerinde hem medya bulma/yeniden kullanma hızını hem performansı hem de marka tutarlılığını ciddi biçimde artırır. Bu yapıyı daha geniş panel mimarisiyle birlikte düşünmek isterseniz [CMS DAM entegrasyonu](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) yaklaşımını CMS operasyon standardıyla beraber değerlendirmek faydalıdır.",
       "quickSummary": [
         "1) CMS’te upload yerine DAM picker kullan.",
         "2) DAM’de metadata şeması ve etiketleme standardı tanımla.",
@@ -33511,6 +33684,10 @@
             "text": "DAM; görsel, video, doküman gibi dijital varlıkları merkezi şekilde saklayan, bunlara metadata (başlık, açıklama, telif, kullanım hakkı, tarih, lokasyon) ve etiket (keyword) ekleyerek arama/yeniden kullanım sağlayan sistemdir. CMS ise içerik sayfalarını yönetir; DAM ise varlıkların kendisini. İkisi birlikte çalıştığında “CMS’te upload karmaşası” azalır, kreatif ekipler aynı varlıkları tekrar tekrar üretmek yerine mevcut varlığı bulup kullanır."
           },
           {
+            "type": "p",
+            "text": "Bu model yalnızca depolama mantığı değil, [web ve yazılım hizmetlerinde merkezi medya yönetimi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımının da bir parçasıdır; çünkü doğru asset’in doğru bağlamda, doğru formatta ve sürdürülebilir kurallarla kullanılması gerekir."
+          },
+          {
             "type": "h3",
             "text": "DAM nedir, CMS ile nasıl entegre edilir? "
           },
@@ -33590,6 +33767,14 @@
             "text": "Bu yaklaşım, DAM’in “tek kaynak” kalmasını sağlar; CMS ise “nerede nasıl kullanılıyor?” bilgisini yönetir."
           },
           {
+            "type": "p",
+            "text": "Bu alanların doğru kurulması için [medya field ve asset ilişkileri](https://dgtlface.com/tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi) mantığını baştan netleştirmek gerekir; aksi halde asset seçimi büyüdükçe içerik modeli dağılır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle kampanya ve landing üretiminde [DAM varlıklarını block editor içinde kullanmak](https://dgtlface.com/tr/yazilim/blog/cms-block-editor-ve-page-builder-yapilari-esneklik-ve-kontrol-dengesi) kontrollü şablonlarla birleştiğinde editör esnekliği korunur, ama medya standardı bozulmaz."
+          },
+          {
             "type": "table",
             "caption": "DAM–CMS performans ve yeniden kullanım tablosu",
             "headers": [
@@ -33650,6 +33835,10 @@
           {
             "type": "p",
             "text": "DAM’in değerini belirleyen şey “dosyaları depolamak” değil, onları bulunabilir ve yeniden kullanılabilir yapmaktır. Bunun anahtarı metadata ve etiketleme standardıdır. Aksi halde DAM, sadece daha pahalı bir klasör olur."
+          },
+          {
+            "type": "p",
+            "text": "Bulunabilirliği gerçekten ölçeklemek için [medya arama ve asset indexleme](https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak) mantığını dosya adı, etiket, kategori ve filtre yapısıyla birlikte tasarlamak gerekir."
           },
           {
             "type": "h3",
@@ -33832,6 +34021,10 @@
             "text": "DAM en çok “çok varlık + çok kanal” olduğunda değer üretir. Otel gruplarında oda/destinasyon/etkinlik setleri; B2B’de ürün, ekip, doküman ve kampanya görselleri… Merkezi DAM yapısı, bu varlıkların web, sosyal ve offline’da aynı kaliteyle kullanılmasını sağlar."
           },
           {
+            "type": "p",
+            "text": "Marka kreatifleri tarafında [görsel video varlık yönetimi](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımı; ikon setleri, motion öğeleri ve kampanya görsellerinin tek medya kaynağından kontrollü kullanılmasına yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryosu — oda/destinasyon/etkinlik setleri"
           },
@@ -33860,6 +34053,10 @@
           {
             "type": "p",
             "text": "Sheet veri noktası (yumuşatılmış): DAM entegrasyonu olan projelerde, yeni sayfa ve kampanyalar için uygun görsel bulma süresi ve gereksiz tekrar upload oranı genelde belirgin şekilde düşer."
+          },
+          {
+            "type": "p",
+            "text": "Aynı şekilde [video içeriklerin merkezi yönetimi](https://dgtlface.com/tr/creative/video-produksiyon) tanıtım filmleri, kampanya videoları ve kısa preview içeriklerinin CMS içinde tekrar yüklenmeden, aynı kalite standardıyla farklı sayfalarda kullanılmasını kolaylaştırır."
           },
           {
             "type": "media",
@@ -33904,6 +34101,14 @@
           {
             "type": "p",
             "text": "DAM entegrasyonunun /tr/yazilim/web-sitesi-gelistirme görsel stratejisiyle ve /tr/seo/teknik-seo (alt etiket, boyut, format, lazy-load) standartlarıyla uyumlu olması gerekir. Aksi halde merkezi DAM olsa bile, yanlış varyant kullanımı performansı düşürebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [medya performansı ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) tarafında alt text, responsive image, lazy loading, dosya adı ve indexlenebilirlik kurallarının DAM akışıyla birlikte ele alınması gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli uygulamaya geçirmek için [DAM uyumlu CMS entegrasyonu desteği](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) alabilir; süreç ve kurulum detayları için [CMS entegrasyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/cms-entegrasyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -34026,7 +34231,7 @@
     },
     "h1": {
       "title": "Headless CMS Güvenliği, Yedekleme ve Disaster Recovery Stratejisi",
-      "intro": "Headless CMS projeleri; hız ve esneklik sağlar ama güvenlik ve iş sürekliliği katmanı ihmal edilirse büyük risk doğurur. Çünkü headless mimaride kritik yüzeyler değişir: panel erişimi kadar API token’lar, secret’lar, webhook endpoint’leri ve içerik modeliniz (schema) risk alanına girer. SaaS bir headless CMS kullanıyor olsanız bile; token yönetimi, erişim kontrolü ve içerik/şema yedekleri sizin sorumluluğunuz olabilir. Otel ve B2B sitelerinde bu risk; “yanlış kampanya yayını”ndan daha büyük bir şeye dönüşebilir: içerik kaybı, uzun kesinti, yetkisiz erişim veya KVKK ihlali. Bu rehber; SaaS vs self-hosted sorumluluklarını, backup stratejisini ve uygulanabilir bir DR planını adım adım kurgular.",
+      "intro": "Headless CMS projeleri; hız ve esneklik sağlar ama güvenlik ve iş sürekliliği katmanı ihmal edilirse büyük risk doğurur. Çünkü headless mimaride kritik yüzeyler değişir: panel erişimi kadar API token’lar, secret’lar, webhook endpoint’leri ve içerik modeliniz (schema) risk alanına girer. SaaS bir headless CMS kullanıyor olsanız bile; token yönetimi, erişim kontrolü ve içerik/şema yedekleri sizin sorumluluğunuz olabilir. Otel ve B2B sitelerinde bu risk; “yanlış kampanya yayını”ndan daha büyük bir şeye dönüşebilir: içerik kaybı, uzun kesinti, yetkisiz erişim veya KVKK ihlali. Bu rehber; SaaS vs self-hosted sorumluluklarını, backup stratejisini ve uygulanabilir bir DR planını adım adım kurgular. Bu yapıyı daha geniş panel mimarisi içinde değerlendirmek isterseniz [Headless CMS güvenliği](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) yaklaşımını CMS entegrasyonu standardıyla birlikte düşünmek faydalıdır.",
       "quickSummary": [
         "1) SaaS ve self-hosted sorumluluklarını netleştir",
         "2) Content + schema + settings backup kapsamını yaz",
@@ -34102,6 +34307,10 @@
             "text": "Headless CMS güvenliğini konuşurken ilk ayrım: SaaS mi self-hosted mı?"
           },
           {
+            "type": "p",
+            "text": "Bu ayrım yalnız teknik tercih değil, [web ve yazılım hizmetlerinde CMS DR stratejisi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) açısından da kritik bir karardır; çünkü sorumluluk paylaşımı, kurtarma süresi ve erişim modeli buna göre şekillenir."
+          },
+          {
             "type": "list",
             "style": "ul",
             "items": [
@@ -34120,6 +34329,10 @@
           {
             "type": "p",
             "text": "Pratik sonuç: “Sağlayıcı zaten yedek alıyordur” varsayımıyla hareket etmek risklidir. Yedek kapsamı; içerik, medya, schema, ayarlar ve kullanıcı/rol yapılarını kapsıyor mu açıkça yazılmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca kullanıcı, yayıncı ve admin katmanlarının nasıl ayrılacağını [panel güvenlik mimarisi](https://dgtlface.com/tr/yazilim/blog/rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi) perspektifiyle netleştirmeden headless güvenlik modelini tamamlamak mümkün değildir."
           },
           {
             "type": "callout",
@@ -34156,6 +34369,10 @@
           {
             "type": "p",
             "text": "Backup; sadece “veriyi kopyalamak” değildir; geri yükleyebilmektir. Headless CMS’te yedeklenecek şeyler sadece içerik değil, aynı zamanda “içeriğin şekli”dir: content model/schema, webhook ayarları, environment config, API token’lar (token’ı yedekleme değil, yönetim prosedürü), rol/yetki yapısı."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle frontend tarafı ISR, cache ve revalidation ile çalışıyorsa [CMS kesintisinde cache ve frontend sürekliliği](https://dgtlface.com/tr/yazilim/blog/cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz) konusu backup planından ayrı düşünülemez; çünkü içerik paneli kapansa bile kullanıcıya neyin gösterileceği önceden tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -34257,6 +34474,10 @@
             "text": "Otel kampanyası gibi kritik dönemlerde RTO/RPO daha sıkı olmalıdır; B2B’de bazı içerikler daha toleranslı olabilir (ama form/CRM akışları kritikse yine sıkıdır)."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [backup restore ve CMS migration senaryosu](https://dgtlface.com/tr/yazilim/blog/cms-migrasyonu-bir-cms-ten-digerine-guvenli-gecis-stratejisi) yaklaşımı, export/import, rollback ve alternatif ortama geçiş planlarını disaster recovery akışının parçası haline getirir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -34353,6 +34574,10 @@
           {
             "type": "p",
             "text": "Headless CMS’te en kritik güvenlik yüzeyi genellikle panel değil, token ve secret’lardır. Çünkü token sızarsa API üzerinden içerik okunabilir/yazılabilir, webhook endpoint’leri kötüye kullanılabilir, hatta içerik silinebilir. Bu yüzden token yönetimi, işletme seviyesinde bir politika olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Burada [API token yönetimi ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) birlikte ele alınmalıdır; çünkü erişim anahtarları, kullanıcı verisi ve form içeriği aynı güvenlik çerçevesinde korunmadığında KVKK riski de büyür."
           },
           {
             "type": "h3",
@@ -34498,6 +34723,14 @@
             "text": "Headless güvenlik ve backup kurgusu /tr/yazilim/sunucu-guvenlik ve /tr/raporlama/kvkk-veri-guvenligi ile uyumlu olmalıdır. Özellikle “içerik ve kullanıcı verisi nerede tutuluyor?” sorusu (veri lokasyonu, erişim yetkileri, loglar) netleşmeden DR planı tamam sayılmaz."
           },
           {
+            "type": "p",
+            "text": "Aynı zamanda [CMS kesintisinin teknik SEO etkisi](https://dgtlface.com/tr/seo/teknik-seo) göz ardı edilmemelidir; yanlış cache, bozuk sitemap, noindex hatası veya render sorunları kesinti sonrası organik görünürlüğe doğrudan zarar verebilir."
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde ise [otel sistemlerinde CMS sürekliliği](https://dgtlface.com/tr/pms-ota-yonetimi) PMS ve OTA operasyonlarından bağımsız değildir; kampanya, oda ve kanal verisinin görünür kalması için içerik tarafındaki kurtarma planı rezervasyon ekosistemiyle uyumlu çalışmalıdır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "☑ Mini Check",
@@ -34528,6 +34761,10 @@
           {
             "type": "p",
             "text": "Headless CMS esneklik getirir; ama güvenlik ve DR katmanı yoksa iş riski büyür. RBAC + token yönetimi + yedekleme + restore tatbikatı + runbook birleştiğinde; sağlayıcı/altyapı sorunlarında içerik ve operasyon sürekliliği daha rahat yönetilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli uygulamaya geçirmek için [güvenli Headless CMS entegrasyonu desteği](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) alabilir; süreç detayları için [CMS entegrasyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/cms-entegrasyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -34651,7 +34888,7 @@
     },
     "h1": {
       "title": "CMS Editör Onboarding ve Eğitim: Panel Kullanan Ekipler İçin Oyun Kitabı",
-      "intro": "CMS kurduk, panel hazır… ama ekip aynı hızla üretmiyor mu? Bu çok normal: CMS yatırımı, teknoloji kadar insan ve süreç yatırımıdır. Yapılandırılmış onboarding ve eğitim programı olmadan; otel ve B2B panellerinde hatalı içerik yayını, stil dağınıklığı ve “panel zor” algısı kaçınılmaz hale gelir. Üstelik bu hatalar yalnız içerik kalitesini değil; SEO, dönüşüm ve marka güvenini de etkiler. Bu rehberde; role göre onboarding, ilk 30 günlük eğitim planı, panel içine gömülü style guide ve sık yapılan hataları önleyen guardrail’lerle editörleri hızlıca üretken hale getiren bir oyun kitabı sunuyorum.",
+      "intro": "CMS kurduk, panel hazır… ama ekip aynı hızla üretmiyor mu? Bu çok normal: CMS yatırımı, teknoloji kadar insan ve süreç yatırımıdır. Yapılandırılmış onboarding ve eğitim programı olmadan; otel ve B2B panellerinde hatalı içerik yayını, stil dağınıklığı ve “panel zor” algısı kaçınılmaz hale gelir. Üstelik bu hatalar yalnız içerik kalitesini değil; SEO, dönüşüm ve marka güvenini de etkiler. Bu rehberde; role göre onboarding, ilk 30 günlük eğitim planı, panel içine gömülü style guide ve sık yapılan hataları önleyen guardrail’lerle editörleri hızlıca üretken hale getiren bir oyun kitabı sunuyorum. Bu yaklaşımı daha geniş operasyon çerçevesinde ele almak isterseniz [CMS editör eğitimi](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) tarafını CMS entegrasyonu standardıyla birlikte düşünmek faydalıdır.",
       "quickSummary": [
         "1) Rol bazlı yetki ve eğitim planı çıkar",
         "2) Test/staging ortamını eğitim standardı yap",
@@ -34727,6 +34964,14 @@
             "text": "CMS’te hataların çoğu “bilinçli yanlış” değil, standart eksikliğidir: H başlık seviyeleri karışır, görsel boyutu yanlış seçilir, meta alanı boş kalır, kampanya sayfasında tarih/koşul güncellenmez, link kırılır. Eğitim yoksa editör kendi yöntemini üretir; bu da markanın dijital yüzünü “farklı kişilerin yaptığı farklı siteler”e dönüştürür. Onboarding; editöre yalnız paneli değil, markanın dilini, kurallarını ve yayın güvenliğini öğretir."
           },
           {
+            "type": "p",
+            "text": "Başarılı bir geçişin yalnız kurulumla tamamlanmadığını görmek için [web ve yazılım hizmetlerinde panel onboarding planı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı önemlidir; çünkü paneli kullanan ekibin standardı teknik mimarinin gerçek hayattaki karşılığıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardın ilk adımı da [editör rolleri ve panel yetkileri](https://dgtlface.com/tr/yazilim/blog/rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi) sınırlarını netleştirmektir; kim yalnız draft açar, kim review yapar, kim yayına alır soruları onboarding içinde açık olmalıdır."
+          },
+          {
             "type": "h3",
             "text": "CMS editör onboarding’i nasıl planlanmalı? "
           },
@@ -34769,6 +35014,10 @@
           {
             "type": "p",
             "text": "30 gün; editörü hem panelde rahatlatmak hem de kalite standardını oturtmak için ideal bir çerçevedir. Aşağıdaki plan “teori + pratik + guardrail” dengesine dayanır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle ilk haftadan itibaren [editörler için preview review publish süreci](https://dgtlface.com/tr/yazilim/blog/cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow) net öğretilirse, canlıda deneme yapma alışkanlığı ciddi ölçüde azalır."
           },
           {
             "type": "h3",
@@ -34826,6 +35075,10 @@
               "Review cycle ve content lifecycle (güncelle/arsivle) tanıtımı",
               "Final görev: 1 içerik üret + 1 içerik güncelle + 1 içerik arşiv simülasyonu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [editörler için versiyonlama ve arşiv kuralları](https://dgtlface.com/tr/yazilim/blog/icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model) eğitimi devreye girmelidir; çünkü editörün yalnız içerik üretmesi değil, eski içeriği güvenli şekilde güncellemesi ve arşivlemesi de beklenir."
           },
           {
             "type": "table",
@@ -34915,6 +35168,10 @@
           {
             "type": "p",
             "text": "Bu sayede editör “yanlış yapmadan önce” uyarı alır; eğitim “yaşayan sistem” olur."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaşayan sistemin içerik kalitesi tarafında [SEO uyumlu içerik girişi](https://dgtlface.com/tr/seo/icerik-seo) mantığı da panel içine taşınmalıdır; başlık, meta, kategori ve içerik hiyerarşisi editörün her gün gördüğü alanlarda standartlaşmalıdır."
           },
           {
             "type": "h3",
@@ -35042,6 +35299,10 @@
             "text": "Eğitim, gerçek senaryo üzerinden akarsa hızlı öğrenilir."
           },
           {
+            "type": "p",
+            "text": "Pazarlama tarafında [kampanya takvimiyle uyumlu CMS kullanımı](https://dgtlface.com/tr/smm/planlama-strateji) öğretilmediğinde, panel kullanımı içerik takviminden kopar ve kampanya yayınları son dakika hatalarına açık hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryosu: fiyat/kampanya blokları"
           },
@@ -35054,6 +35315,10 @@
               "Görsel seti seçimi (sezon/destinasyon)",
               "Publish sonrası hızlı kontrol (CTA, form, link)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında [otel ekipleri için CMS içerik yönetimi](https://dgtlface.com/tr/otel-dijital-pazarlama) yaklaşımı; pazar bazlı landing page, kampanya ve rezervasyon niyetli içeriklerin panel içinde nasıl daha dikkatli yönetilmesi gerektiğini netleştirir."
           },
           {
             "type": "h3",
@@ -35100,6 +35365,10 @@
           {
             "type": "p",
             "text": "Eğitim dokümanlarının /tr/yazilim/web-sitesi-gelistirme (UX/SEO temel kurallar) ve /tr/seo/icerik-seo (başlık, meta, H yapısı) içerikleriyle uyumlu olması; editörlerin teknik hatalarını azaltır. Onboarding; yalnız “panel kullanımı” değil, “doğru web içeriği” standardını da öğretmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı sahada kurmak için [editör eğitimi destekli CMS entegrasyonu](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) yaklaşımını değerlendirebilir; uygulama detayları için [CMS entegrasyonu hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/cms-entegrasyonu-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
