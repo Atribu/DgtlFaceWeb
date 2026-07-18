@@ -1,8 +1,29 @@
-import React from "react";
-import Image from "next/image";
+import { getImageProps } from "next/image";
 // import imgBanner from "@/public/images/homepage/herobanner2.webp";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+
+const HERO_ALT = "DGTLFACE - Dijital Pazarlama ve Web Tasarım";
+
+const { props: mobileHeroProps } = getImageProps({
+  src: "/images/homepage/herobanner2-mobile.webp",
+  alt: HERO_ALT,
+  fill: true,
+  sizes: "100vw",
+  quality: 65,
+  loading: "eager",
+  fetchPriority: "high",
+});
+
+const { props: desktopHeroProps } = getImageProps({
+  src: "/images/homepage/herobanner2.webp",
+  alt: HERO_ALT,
+  fill: true,
+  sizes: "100vw",
+  quality: 75,
+  loading: "eager",
+  fetchPriority: "high",
+});
 
 export default function ThreeMainBanner() {
   const t = useTranslations("Homepage.Hero");
@@ -18,17 +39,23 @@ export default function ThreeMainBanner() {
     >
  
       <div className="absolute inset-0" style={{ zIndex: 0 }}>
-        <Image
-          src="/images/homepage/herobanner2.webp"
-          alt="DGTLFACE - Dijital Pazarlama ve Web Tasarım"
-          fill
-          priority
-          fetchPriority="high"
-          loading="eager"
-          quality={75}
-          className="object-cover"
-          sizes="100vw"
-        />
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcSet={mobileHeroProps.srcSet}
+            sizes={mobileHeroProps.sizes}
+          />
+          <source
+            media="(min-width: 768px)"
+            srcSet={desktopHeroProps.srcSet}
+            sizes={desktopHeroProps.sizes}
+          />
+          <img
+            {...desktopHeroProps}
+            srcSet={undefined}
+            className="object-cover"
+          />
+        </picture>
       </div>
 
       {/* Okunurluk için overlay (layout bozmaz) */}
