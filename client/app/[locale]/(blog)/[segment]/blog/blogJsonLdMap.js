@@ -164009,6 +164009,3266 @@ export const BLOG_JSONLD_MAP = {
           },
         ],
       },
+
+      "cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek",
+
+      "name": "CMS KPI ve İçerik Operasyon Analitiği: Panel Kullanımını Nasıl Ölçeriz?",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek/#article",
+
+      "headline": "CMS KPI ve İçerik Operasyon Analitiği: Panel Kullanımını Nasıl Ölçeriz?",
+
+      "name": "CMS KPI ve İçerik Operasyon Analitiği: Panel Kullanımını Nasıl Ölçeriz?",
+
+      "description": "CMS operasyon KPI’ları ile panel kullanımını ölçün: editör aktivitesi, publish süresi, rollback oranı, içerik güncellik/kalite metrikleri. Bu KPI’ları GA4/CRM satış ve dönüşüm raporlarıyla bağlayarak panel yatırımının iş etkisini görünür kılın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS kullanım KPI’ları ve içerik operasyon analitiği: editör aktivitesi, publish süresi, kalite/güncellik metrikleri ve GA4/CRM iş KPI eşleşmesiyle dashboard ve süreç iyileştirme danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "CMS KPI ve Ops Analitiği",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS için hangi KPI’ları takip etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Editör aktivitesi, içerik üretim hızı, draft→publish süresi, rollback oranı, güncellik ve kalite (eksik meta/broken link) temel seti oluşturur. Bu KPI’ları GA4/CRM iş sonuçlarıyla bağlamak en yüksek değeri üretir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Editör ve içerik ekibi performansını panelden nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Editör başına üretim (yeni/updated), publish süresi, review bekleme zamanı ve rollback oranıyla ölçebilirsiniz. İçerik tipine göre kırılım almak tıkanıklıkları netleştirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için CMS kullanım dashboard’ı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde kampanya/oda/destinasyon odaklı hız ve doğruluk KPI’ları; B2B’de blog/case ritmi ve pipeline etkisi KPI’ları öne çıkmalı. Ops (hız/kalite) ve iş etkisi (GA4/CRM) sekmeleri birlikte olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS KPI’larını satış, lead ve SEO sonuçlarıyla nasıl bağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS content_id/slug bilgisini GA4 event’lerine parametre olarak ekleyip CRM’de source/campaign sözlüğüyle eşleştirerek içerik→trafik→lead→gelir zincirini kurarsınız. Böylece panel yatırımının iş etkisi ölçülür."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek/#howto",
+
+      "name": "CMS KPI ve içerik operasyon analitiği kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KPI sözlüğünü oluştur",
+
+          "text": "Editör aktivitesi, publish süresi, rollback, güncellik ve kalite KPI’larını tanımla; içerik tiplerine göre kırılım ve hedef aralık belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dashboard’ı kur ve tıkanıklıkları izle",
+
+          "text": "Ops (velocity, time-to-publish, review kuyruğu) ve kalite sekmelerini oluştur; otel ve B2B senaryoları için ayrı görünüm ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "GA4 ve CRM ile eşleştir",
+
+          "text": "Content_id/slug bilgisini GA4 event’lerine taşı; CRM’de source/campaign sözlüğü ile pipeline ve gelir metriklerini bağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Aylık review ve iyileştirme döngüsü yürüt",
+
+          "text": "Aylık KPI review yap; eğitim, guardrail ve workflow değişiklikleriyle süreci optimize et ve KPI setini düzenli güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek",
+
+      "name": "Landing Factory: CMS ile Pazarlama Ekipleri İçin Kampanya Sayfası Üretmek",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek/#article",
+
+      "headline": "Landing Factory: CMS ile Pazarlama Ekipleri İçin Kampanya Sayfası Üretmek",
+
+      "name": "Landing Factory: CMS ile Pazarlama Ekipleri İçin Kampanya Sayfası Üretmek",
+
+      "description": "CMS’te landing factory kurarak şablon + blok yaklaşımıyla pazarlama ekiplerinin kod yazmadan kampanya sayfaları üretmesini sağlayın. Form/UTM tracking, canonical/URL standardı ve ölçülebilir kampanya deneyimi için uygulanabilir rehber.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Landing factory kurgusu: kampanya sayfası template’leri, izinli blok seti, pazarlama self-service alanları, form/UTM tracking standardı ve ölçülebilir landing üretimi için CMS entegrasyon danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Landing Factory",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Landing factory nedir, CMS ile nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Landing factory, CMS’te ön tanımlı şablonlar ve izinli bloklarla pazarlama ekibinin kod yazmadan kampanya sayfaları üretmesidir. Form/UTM/tracking alanları template’e gömülür; ölçüm ve UX tutarlılığı korunur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kampanya sayfası şablonlarını nasıl tasarlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hero, faydalar, proof, FAQ ve form/CTA gibi çekirdek blokları zorunlu kılın. Opsiyonel blokları izinli listeyle yönetin ve ağır bloklar için limit koyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Pazarlama ekibi kod bilmeden landing oluşturabilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Layout kilitli, içerik alanları kontrollü esnek olduğunda pazarlama ekipleri panelden mesaj, görsel ve blok kombinasyonlarını yöneterek landing üretebilir. Review/publish gate ile risk azaltılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için landing template’lerinde hangi bloklar olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde hero + teklif/paket + oda kartları + SSS + form/CTA; B2B’de hero + problem/çözüm + proof/case + FAQ + demo/teklif formu temel blok setidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek/#howto",
+
+      "name": "CMS ile landing factory kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Landing türlerini ve template setini belirle",
+
+          "text": "Otel ve B2B için landing türlerini sınıflandır; her tür için çekirdek template ve opsiyonel blok seti tanımla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Esneklik alanlarını kilitle ve izinli blokları tanımla",
+
+          "text": "Layout ve kritik alanları kilitle; mesaj, görsel, proof ve FAQ gibi alanlarda kontrollü esneklik ver; yeni blok eklemeyi governance’a bağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Form/UTM/tracking standardını göm",
+
+          "text": "Form_id ve UTM hidden alanlarını template’e ekle; GA4 event/parametre standardı ve CRM naming convention ile ölçümü garanti altına al."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "URL/canonical ve yayın checklist’i ile üretime al",
+
+          "text": "URL pattern ve canonical kurallarını teknik SEO ile hizala; yayın öncesi tracking ve UX checklist’i uygulayarak landing’leri güvenle yayına al."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak",
+
+      "name": "Site İçi Arama ve Index Stratejisi: CMS ile Arama Deneyimi Kurmak",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak/#article",
+
+      "headline": "Site İçi Arama ve Index Stratejisi: CMS ile Arama Deneyimi Kurmak",
+
+      "name": "Site İçi Arama ve Index Stratejisi: CMS ile Arama Deneyimi Kurmak",
+
+      "description": "Site içi aramayı güçlendirmek için CMS’te aranabilir content type’ları ve alanları index’e uygun modelleyin. Field mapping, filtre/facet kurgusu ve Algolia/Elasticsearch entegrasyonu ile bulunabilirlik ve dönüşümü artırın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Site içi arama ve index stratejisi danışmanlığı: CMS field mapping, filtre/facet tasarımı, arama servisi entegrasyonu ve arama log’larıyla içerik stratejisine geri besleme kurgusu."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Site İçi Arama ve Index",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Site içi arama nasıl tasarlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Arama tasarımı; index stratejisi (hangi içerikler), CMS field mapping (hangi alanlar) ve facet filtreleri (nasıl daraltır) üçlüsüyle yapılmalıdır. UI, bu stratejinin üst katmanıdır; loglar içerik stratejisine geri beslenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS alanlarını arama index’i için nasıl modellemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Title/özet gibi alanları aranabilir; kategori/tag/destinasyon gibi alanları facet olacak şekilde ayrı modelleyin. Field mapping’i dokümante edip normalize edin; sort alanlarını (güncellik) ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B sitelerinde hangi içerikler aranabilir olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde oda, paket, destinasyon, blog ve SSS; B2B’de hizmet, case, doküman, blog ve SSS aranabilir olmalıdır. Yüksek niyetli içerikler için boost uygulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Algolia/Elasticsearch gibi arama servisleri CMS ile nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS publish/update event’leriyle field mapping’e göre index’e veri push edilir (webhook/worker). Arama arayüzü index’ten sorgular; facet ve relevance tuning arama kalitesini belirler."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak/#howto",
+
+      "name": "CMS ile site içi arama ve index stratejisi kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Index kapsamını belirle",
+
+          "text": "Aranabilir content type’ları (oda, paket, blog, case, SSS) seç; düşük değerli içerikleri index dışında bırak."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Field mapping ve facet setini tasarla",
+
+          "text": "Title/summary gibi aranabilir alanları ve tag/kategori/destinasyon gibi filtrelenebilir facet alanlarını tanımla; sort alanlarını ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Arama servisine entegre et",
+
+          "text": "Publish/update event’leriyle index’e veri push et; UI’da filtre/facet ve sonuç kartlarını kur; relevance tuning için boost stratejisi ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Log geri besleme döngüsü kur",
+
+          "text": "Top queries ve zero-results raporlarını topla; synonym/etiket düzeltmeleri ve yeni içerik üretimini /tr/seo/icerik-seo ve dönüşüm raporlarıyla bağla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar",
+
+      "name": "CMS Vendor Lock-in ve Sözleşme Stratejisi: Geleceğe Dönük Doğru Karar",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar/#article",
+
+      "headline": "CMS Vendor Lock-in ve Sözleşme Stratejisi: Geleceğe Dönük Doğru Karar",
+
+      "name": "CMS Vendor Lock-in ve Sözleşme Stratejisi: Geleceğe Dönük Doğru Karar",
+
+      "description": "CMS seçimi sadece teknik değil, ticari bir karardır. Vendor lock-in riskini azaltmak için veri taşınabilirliği (export/backup), lisans modeli, SLA ve exit planını baştan değerlendirin; otel ve B2B projelerinde sürpriz migration maliyetlerini düşürün.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS vendor stratejisi danışmanlığı: lock-in risk analizi, lisans/TCO değerlendirmesi, veri taşınabilirliği (export/backup), SLA ve exit plan maddeleriyle sözleşme odaklı doğru CMS seçimi."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Vendor Lock-in ve Sözleşme Stratejisi",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Vendor lock-in nedir, CMS seçiminde neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Vendor lock-in, CMS sağlayıcısından çıkmanın zor ve pahalı hale gelmesidir. 3–5 yıl içinde ihtiyaçlar değişebileceği için export/backup, lisans maliyeti ve sözleşmedeki exit maddeleri kritik olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SaaS headless, self-hosted ve open source CMS’ler arasında nasıl karar veririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ekip kapasitesi, güvenlik sorumluluğu, veri lokasyonu, entegrasyon ihtiyacı ve 3 yıllık TCO kriterleriyle karar verin. Risk matrisiyle kıyaslamak en sağlıklı yöntemdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri taşınabilirliği ve export seçeneklerine nasıl bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Export’un içerik+schema+relation+locale kapsamını doğrulayın ve formatını test edin. Düzenli export alıp dry-run restore/migration yapabilmek taşınabilirliği gerçek kılar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için CMS sözleşmesinde hangi maddelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SLA, destek süreleri, veri lokasyonu/KVKK, export/backup hakkı, API limitleri, fiyat artışı ve exit (veri iadesi süresi/formatı) maddeleri kritik başlıklardır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar/#howto",
+
+      "name": "CMS vendor lock-in riskini azaltma ve exit planı kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Risk ve kapsamı tanımla",
+
+          "text": "Lock-in risklerini (export, API limitleri, maliyet artışı) listele ve 3–5 yıllık hedef kullanım senaryosunu yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Veri taşınabilirliğini doğrula",
+
+          "text": "Content+schema export kapsamını test et; düzenli backup ve dry-run migration planı oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Lisans ve TCO’yu simüle et",
+
+          "text": "Seat/usage/add-on maliyetlerini 3 yıllık TCO senaryolarıyla hesapla; API limit ve overage şartlarını netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "SLA ve exit maddelerini sözleşmeye bağla",
+
+          "text": "Uptime/destek SLA, veri lokasyonu/KVKK, export hakkı ve exit (veri iadesi formatı/süresi) maddelerini sözleşmeye ekle ve sorumluluk matrisi oluştur."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+"low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak",
+
+      "name": "Low-Code / No-Code Modüller ve CMS Üzerinden İş Kuralları Tanımlamak",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak/#article",
+
+      "headline": "Low-Code / No-Code Modüller ve CMS Üzerinden İş Kuralları Tanımlamak",
+
+      "name": "Low-Code / No-Code Modüller ve CMS Üzerinden İş Kuralları Tanımlamak",
+
+      "description": "Low-code/no-code yaklaşımıyla düşük riskli iş kurallarını CMS’te konfigürasyon alanlarıyla yönetin; kritik ve kompleks mantığı kodda tutun. Karar matrisi, RBAC, loglama ve versiyonlama ile güvenli panel konfigürasyonu kurun.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS üzerinden low-code/no-code konfigürasyon alanları, panel ayarı vs kod karar matrisi, RBAC/audit log/versiyonlama ve güvenli iş kuralı yönetimiyle controlled configurability danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Low-Code / No-Code İş Kuralları",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Low-code/no-code nedir, CMS içinde nasıl uygulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS’te konfigürasyon alanları (toggle, banner ayarı, basit parametreler) tanımlayıp front-end’in bu ayarları okuyarak davranışı değiştirmesiyle uygulanır. Amaç küçük değişikliklerde geliştirici beklememektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi kuralları panelde ayar, hangilerini kod olarak tutmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sık değişen ve düşük riskli kurallar panelde; finansal, güvenlik kritik veya çok adımlı karmaşık kurallar kodda tutulmalıdır. Risk×sıklık matrisiyle karar vermek en güvenli yöntemdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek low-code senaryoları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde sezon kampanyası toggle’ı, paket banner’ları ve içerik blokları; B2B’de webinar landing ayarları, CTA varyasyonları ve duyuru banner’ları tipik örneklerdir. Fiyat/ödeme gibi kritik mantık panelde olmamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Low-code konfigurasyon güvenliğini nasıl sağlarsınız?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RBAC ile yetkiyi sınırlandırıp her değişikliği audit log’a yazın, versiyonlayın ve kritik ayarlarda onay + staging testi zorunlu tutun. Rollback prosedürü olmadan prod’da konfig değişikliği yapılmamalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak/#howto",
+
+      "name": "CMS üzerinden güvenli low-code iş kuralı yönetimi kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kural envanterini çıkar ve sınıflandır",
+
+          "text": "İş kurallarını listele; risk ve değişim sıklığına göre panel konfigürasyonu mu kod mu kararını matrise göre ver."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Konfig alanlarını tasarla ve doğrula",
+
+          "text": "Toggle, tarih aralığı, CTA ve limit gibi alanları oluştur; validasyon ve default/fallback kurallarını ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "RBAC, log ve versiyonlamayı kur",
+
+          "text": "Yetkileri rol bazında sınırla; audit log ve versiyonlama ile her değişikliği izlenebilir ve geri alınabilir yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Test ve yayın prosedürü uygula",
+
+          "text": "Staging/preview testini zorunlu kıl; kritik konfiglerde onay workflow’u ekle ve 365 döngüde kapsamı güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"composable-dxp-ve-cms-merkezli-dijital-ekosistemler":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler",
+
+      "name": "Composable DXP ve CMS Merkezli Dijital Ekosistemler",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler/#article",
+
+      "headline": "Composable DXP ve CMS Merkezli Dijital Ekosistemler",
+
+      "name": "Composable DXP ve CMS Merkezli Dijital Ekosistemler",
+
+      "description": "Composable DXP yaklaşımı, CMS’i içerik omurgası yapıp search, CRM, CDP ve rezervasyon gibi servisleri modüler olarak bağlamayı hedefler. Monolitten kademeli geçiş stratejisiyle esneklik ve vendor bağımsızlığını artırın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "CMS merkezli composable DXP danışmanlığı: modüler servis haritası (search, CRM, CDP, rezervasyon), entegrasyon sözleşmeleri, kademeli geçiş planı ve URL/cache/auth/SEO risk yönetimi."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Composable DXP",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Composable DXP nedir, klasik DXP’den farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Klasik DXP tek vendor içinde bütünleşik paket sunar; composable DXP ise CMS’i hub yapıp search/CRM/CDP gibi servisleri modüler seçer ve değiştirilebilir kılar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CMS composable mimaride hangi rolü oynar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS içerik omurgasıdır: içerik modeli, sayfa blokları, kampanyalar ve workflow CMS’te yönetilir. Diğer servisler CMS içeriğini tüketir ve event’lerle senkron olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için composable DXP örnekleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde CMS + PMS/OTA + call center/CRM + search + analytics; B2B’de CMS + PIM + CRM + search + raporlama gibi modüler kombinasyonlar tipiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Monolit bir yapıdan composable DXP’ye nasıl geçiş yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kademeli geçiş yapılır: önce CMS content contract ve event standardı oturtulur, sonra düşük riskli modüller (search, landing) ayrıştırılır; auth/URL/cache/SEO gibi kritik katmanlar kontrollü migrate edilir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/composable-dxp-ve-cms-merkezli-dijital-ekosistemler/#howto",
+
+      "name": "CMS merkezli composable DXP kurma ve monolitten geçiş",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Modül haritasını ve veri sahipliğini çıkar",
+
+          "text": "CMS, search, CRM, CDP, rezervasyon/e-com ve analytics modüllerini listele; her veri alanı için single source of truth belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CMS hub sözleşmesini standardize et",
+
+          "text": "Content_id, field mapping, publish event ve webhook sözleşmesini tanımla; modüllerin entegrasyon payload’larını dokümante et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kademeli geçiş fazlarını uygula",
+
+          "text": "Önce düşük riskli modülleri ayrıştır (search, landing factory); ardından CRM/CDP gibi modülleri bağla; her faz sonrası ölç ve stabilize et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "URL, cache, auth ve SEO risklerini yönet",
+
+          "text": "Canonical/URL yapısını, cache-revalidation ve SSO stratejisini /tr/yazilim/web-sitesi-gelistirme ve /tr/seo/teknik-seo ile uyumlu şekilde planla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin",
+
+      "name": "Visual Editing ve In-Context Preview: Next.js ve Headless CMS İçin",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin/#article",
+
+      "headline": "Visual Editing ve In-Context Preview: Next.js ve Headless CMS İçin",
+
+      "name": "Visual Editing ve In-Context Preview: Next.js ve Headless CMS İçin",
+
+      "description": "Headless CMS + Next.js’te visual editing ve in-context preview ile editörlere sayfa üstünde düzenleme deneyimi sunun. Preview URL, şablon kilitleri, noindex preview ve cache/revalidation ayrımıyla güvenli ve hızlı içerik operasyonu kurun.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Next.js + headless CMS visual editing ve preview mimarisi: preview URL sözleşmesi, click-to-edit akışı, template-safe düzenleme sınırları ve noindex/cache-revalidation kontrolleriyle editör deneyimi danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Visual Editing ve Preview",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Visual editing ve in-context preview nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "In-context preview, CMS’teki draft içeriği Next.js sayfasında canlıya çok yakın şekilde görmektir. Visual editing ise bu preview üzerinde click-to-edit bağlantılarıyla ilgili alanı hızlıca düzenleme deneyimidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Headless CMS + Next.js projelerinde sayfa üstünden düzenleme nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS preview token ile draft içeriği sunar; Next.js preview modunda sayfayı render eder. Sayfadaki edit bağlantıları ilgili CMS alanına yönlendirir; publish olduğunda revalidation tetiklenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Visual editing kurgusunda hangi sınırlar ve riskler vardır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Layout’u serbest bırakmak tasarım kaosu yaratabilir; preview alanı noindex değilse SEO riski doğar; token/secret yönetimi zayıfsa güvenlik riski oluşur. Template-safe edit sınırları ve noindex preview şarttır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Editör sayfayı görerek düzenlemek istiyor, nasıl sağlayabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Preview URL sözleşmesi kurup Next.js’te preview render’ı açın; sayfaya click-to-edit bağlantıları ekleyin ve sadece izinli alanları düzenletecek şablon kısıtları uygulayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin/#howto",
+
+      "name": "Next.js + headless CMS için visual editing ve preview kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Preview URL ve token sözleşmesini tanımla",
+
+          "text": "İçerik tiplerine göre preview URL formatını belirle; preview token/secret doğrulaması ile erişimi güvenli hale getir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Template-safe düzenleme sınırlarını belirle",
+
+          "text": "Layout’u kilitle; sadece headline, görsel, CTA gibi izinli alanları editöre aç ve click-to-edit bağlantılarını bu alanlara ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Cache/revalidation ve noindex preview uygula",
+
+          "text": "Preview’da minimum cache kullan; prod’da ISR/SSG/SSR stratejisini uygula ve publish sonrası revalidation tetikle. Preview domain’i noindex/nofollow ile koru."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Test ve eğitim döngüsünü oluştur",
+
+          "text": "Staging/preview test checklist’i hazırla; editör eğitimini ver ve time-to-publish/rollback gibi KPI’larla süreci izle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme",
+
+      "name": "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme/#article",
+
+      "headline": "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme",
+
+      "name": "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme",
+
+      "description": "İçerik grafı yaklaşımıyla içerikleri entity ve relation olarak modelleyin; CMS şemasını schema-driven kurarak internal linking, JSON-LD uyumlu SEO ve kişiselleştirme/öneri senaryolarını güçlendirin. Otel ve B2B için örnek entity grafı yapılarıyla trend rehber.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Schema-driven CMS ve içerik grafı danışmanlığı: entity-first içerik modeli, relation alanları, internal linking kuralları ve JSON-LD uyumlu structured editorial model ile uzun vadeli SEO ve kişiselleştirme altyapısı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "İçerik Grafı ve Schema-Driven CMS",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "İçerik grafı nedir, CMS’te nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İçerikleri entity’ler (oda, paket, ürün, case) ve relation alanlarıyla birbirine bağlayarak kurulur. CMS şemasında bu ilişkiler tanımlanır; internal linking ve öneri blokları relation’lardan üretilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Entity ve relation tabanlı içerik modeli nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Entity listesini çıkarıp çekirdek alanları standardize edin; relation tiplerini (1:n, n:n) ve kurallarını (limit, zorunluluk) belirleyin. Editör UI’sında relation seçimi kolay olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek içerik grafı yapıları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde hotel–room–package–destination–review ilişkileri; B2B’de product–use case–case study–industry grafı tipiktir. Hub sayfalar bu grafın merkezinde yer alır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Schema-driven CMS yaklaşımı SEO ve kişiselleştirmeyi nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Entity ilişkileri netleşince internal linking otomatikleşir, JSON-LD üretimi tutarlı olur ve arama/öneri/kişiselleştirme senaryoları veriyle beslenir. Bu da SEO ve UX tutarlılığını artırır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme/#howto",
+
+      "name": "CMS’te içerik grafı ve schema-driven entity ilişkileri kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Entity setini ve çekirdek alanları tanımla",
+
+          "text": "Otel ve B2B için entity listesini çıkar; her entity için id, title, slug, summary, media ve SEO alanlarını standardize et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Relation haritasını oluştur ve doğrula",
+
+          "text": "Entity’ler arası relation tiplerini (1:n, n:n) belirle; limit ve zorunluluk kurallarını yaz; editör UI’da seçim akışını basitleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Internal linking ve hub sayfaları kurgula",
+
+          "text": "Destinasyon/sektör gibi hub sayfaları oluştur; ilgili içerikler bloklarını relation’dan otomatik üret ve ölç."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Schema (JSON-LD) paralelliğini kur ve raporla",
+
+          "text": "FAQ/Article gibi schema tetiklerini CMS modeline bağla; JSON-LD üretimini entity-first yap; /tr/seo/seo-raporlama ile performansı izle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol",
+
+      "name": "AI Destekli CMS Operasyonları: İçerik Suggestion, QA ve Otomatik Kontrol",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol/#article",
+
+      "headline": "AI Destekli CMS Operasyonları: İçerik Suggestion, QA ve Otomatik Kontrol",
+
+      "name": "AI Destekli CMS Operasyonları: İçerik Suggestion, QA ve Otomatik Kontrol",
+
+      "description": "AI’yi CMS’te taslak ve kalite kontrol yardımcısı olarak kullanın: başlık/meta/özet/SSS önerileri, stil kontrolü, boş alan-kırık link-alt metin QA. Human-in-the-loop modelinde son karar editörde kalsın; KVKK ve marka tonu risklerini guardrail’lerle yönetin.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "AI destekli CMS operasyonları: içerik suggestion (title/meta/FAQ), QA otomasyonu (kırık link/alt metin/boş alan), publish gate ve human-in-the-loop onay modeliyle hız + güvenlik dengesini kurma danışmanlığı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "AI Destekli CMS Operasyonları",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI CMS içinde nerede kullanılmalı, nerede kullanılmamalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI title/meta/özet/SSS taslağı ve QA kontrollerinde kullanılmalı; yasal, finansal (fiyat), KVKK hassas ve kesin doğruluk gerektiren iddialarda tek otorite olmamalıdır. Son onay insanda kalmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Başlık/meta/özet için AI önerisi güvenli mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Taslak üretimi olarak genelde güvenlidir; ancak marka tonu, gerçeklik ve vaat kontrolü için editör onayı şarttır. Aşırı iddialı dil ve keyword stuffing için uyarı mekanizması eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI ile içerik QA (boş alan, kırık link, alt metin) nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Publish öncesi otomatik kontrol çalıştırıp eksik alan/kırık link/alt metin hatalarını raporlarsınız. Kritik hatalarda publish gate ile yayını engelleyip düzeltme zorunlu kılarsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Panelde AI ile içerik yazdırmak istiyoruz, nereye kadar güvenmeliyiz?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI’yi taslak ve QA asistanı olarak kullanın; yayın kararını ve kritik doğrulamayı mutlaka insan editöre bırakın. Riskli alanlarda AI kullanımını sınırlandırın ve tüm değişiklikleri loglayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol/#howto",
+
+      "name": "CMS’te güvenli AI suggestion ve QA otomasyonu kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "AI kullanım alanlarını ve sınırlarını tanımla",
+
+          "text": "Title/meta/özet/SSS gibi alanlarda AI suggestion kullan; fiyat/yasal/KVKK hassas alanlarda autopilot ve otomatik yazımı kapat."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "QA kontrollerini publish gate’e bağla",
+
+          "text": "Boş alan, kırık link ve alt metin kontrollerini otomatik çalıştır; kritik hatalarda yayınlamayı engelle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Human-in-the-loop onay ve loglama kur",
+
+          "text": "AI önerilerini editör onayı olmadan uygulatma; audit log ve versiyonlama ile kabul edilen değişiklikleri izlenebilir yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KVKK ve marka tonu kontrolleriyle sürdür",
+
+          "text": "KVKK ve marka tonu kurallarını /tr/raporlama/kvkk-veri-guvenligi ve /tr/creative/ui-ux-tasarim ile hizala; KPI’larla hız ve hata trendini izle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+
+"multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina",
+
+      "name": "Multi-Channel Yayın Stratejisi: CMS’ten Web, App, Sosyal ve Mail Kanallarına",
+
+      "isPartOf": {
+
+        "@id": "https://dgtlface.com/#website"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "about": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina/#article",
+
+      "headline": "Multi-Channel Yayın Stratejisi: CMS’ten Web, App, Sosyal ve Mail Kanallarına",
+
+      "name": "Multi-Channel Yayın Stratejisi: CMS’ten Web, App, Sosyal ve Mail Kanallarına",
+
+      "description": "CMS’i web, app, sosyal ve e-posta için içerik üreten bir content hub’a dönüştürün. Kanal-aware alanlarla tek içerikten çoklu format üretin; UTM/subject/limit kurallarıyla ölçümü standartlaştırıp omni-channel mesaj tutarlılığını artırın.",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina/#webpage"
+
+      },
+
+      "inLanguage": "tr-TR",
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": [
+
+          "h1",
+
+          ".answer-block",
+
+          ".sge-summary"
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu/#service",
+
+      "name": "CMS & Panel Entegrasyonu",
+
+      "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "description": "Multi-channel content hub danışmanlığı: kanal-aware alan tasarımı (web/app/sosyal/mail), yayın akışı, UTM/naming standardı ve GA4/CRM ölçüm eşleşmesiyle omni-channel tutarlılık ve operasyon verimliliği."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina/#breadcrumb",
+
+      "itemListElement": [
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 1,
+
+          "name": "Ana Sayfa",
+
+          "item": "https://dgtlface.com/tr/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 2,
+
+          "name": "Yazılım",
+
+          "item": "https://dgtlface.com/tr/yazilim/"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 3,
+
+          "name": "CMS & Panel Entegrasyonu",
+
+          "item": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+
+        },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Multi-Channel Yayın Stratejisi",
+
+          "item": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Multi-channel içerik yayını CMS ile nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMS’te kanal-aware alanlar açarak tek entry’den web/app/sosyal/mail çıktısı üretirsiniz. Core içerik tek kaynak olur, kanal türevleri kısa alanlarla yönetilir ve aynı content_id ile ölçüm yapılır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web, app, sosyal ve mail metinlerini tek panelden yönetebilir miyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Web body core kalır; app kısa metin, sosyal snippet ve mail subject/summary alanları aynı CMS kaydında tutulur. Böylece mesaj tutarlılığı artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için kanal-aware alan tasarımı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Core mesaj tek alanda tutulmalı; kanallar için kısa varyasyon alanları (social snippet, email subject/summary, app summary) tanımlanmalı ve UTM/naming convention standart olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Multi-channel içerik performansını nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek content_id ile web/app/sosyal/mail KPI’larını birleştirin; UTM ve event sözlüğünü standardize edin. Aylık kanal performans review’u ile geri besleme döngüsü kurun."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina/#howto",
+
+      "name": "CMS ile multi-channel yayın akışı kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kanal-aware alan setini tanımla",
+
+          "text": "Web core içeriğini belirle; app summary, social snippet ve email subject/summary gibi kanal türev alanlarını aynı entry’ye ekle ve limit kuralları koy."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "UTM ve naming convention’ı standardize et",
+
+          "text": "Kanal bazlı UTM’leri ve campaign_id/content_id sözlüğünü tek standarda bağla; ölçümü bozan rastgele isimlendirmeleri engelle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yayın akışını ve QA’yı kurgula",
+
+          "text": "Draft→review→channel QA→publish akışı kur; mail ve sosyal için ayrı kontrol adımı ekle ve publish gate kullan."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ölç ve geri besleme döngüsü kur",
+
+          "text": "Web/app/sosyal/mail KPI’larını tek raporda topla; top içerikler ve zero-performance türevleriyle alan setini 180 gün döngüde güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
     },
   },
   en: {},

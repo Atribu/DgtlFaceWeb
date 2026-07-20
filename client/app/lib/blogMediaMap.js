@@ -45306,6 +45306,506 @@ export const BLOG_MEDIA_MAP = {
       alt: "Eğitim kiti deliverables kartı, ajans ve kurum bağlamı",
       caption: "Eğitim kiti deliverables kartı, ajans ve kurum bağlamı"
     }
+  },
+
+  "cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek":{
+    banner: {
+      src: "/images/blog/software/Software2-16/Software2-16-1.webp",
+      alt: "CMS KPI ve İçerik Operasyon Analitiği: Panel Kullanımını Nasıl Ölçeriz?",
+      caption: "CMS KPI ve İçerik Operasyon Analitiği: Panel Kullanımını Nasıl Ölçeriz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-16/Software2-16-2.webp",
+      alt: "Editör aktivitesi ve publish süreleri özeti, panel kullanım bağlamı",
+      caption: "Editör aktivitesi ve publish süreleri özeti, panel kullanım bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-16/Software2-16-3.webp",
+    alt: "Dashboard tasarımı bölümü görseli, ops analitik bağlamı",
+      caption: "Dashboard tasarımı bölümü görseli, ops analitik bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-16/Software2-16-4.webp",
+      alt: "KPI’ları iş hedeflerine bağlama görseli, gelir raporlama bağlamı",
+      caption: "KPI’ları iş hedeflerine bağlama görseli, gelir raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-16/Software2-16-5.webp",
+      alt: "CMS→GA4→CRM KPI bağlama akış diyagramı, ölçüm mimarisi bağlamı",
+      caption: "CMS→GA4→CRM KPI bağlama akış diyagramı, ölçüm mimarisi bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-16/Software2-16-6.webp",
+      alt: "CMS operasyon checklist kartı, içerik ve ürün ekipleri bağlamı",
+      caption: "CMS operasyon checklist kartı, içerik ve ürün ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-16/Software2-16-7.webp",
+      alt: "Publish süresi ve rollback KPI kartı, süreç sağlığı bağlamı",
+      caption: "Publish süresi ve rollback KPI kartı, süreç sağlığı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-16/Software2-16-8.webp",
+      alt: "KPI haritası ve dashboard deliverables kartı, güven unsuru bağlamı",
+      caption: "KPI haritası ve dashboard deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek":{
+    banner: {
+      src: "/images/blog/software/Software2-17/Software2-17-1.webp",
+      alt: "Landing Factory: CMS ile Pazarlama Ekipleri İçin Kampanya Sayfası Üretmek",
+      caption: "Landing Factory: CMS ile Pazarlama Ekipleri İçin Kampanya Sayfası Üretmek"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-17/Software2-17-2.webp",
+      alt: "Template ve bloklarla landing üretimi özeti, pazarlama self-service bağlamı",
+      caption: "Template ve bloklarla landing üretimi özeti, pazarlama self-service bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-17/Software2-17-3.webp",
+    alt: "Kampanya template ve blok yapısı görseli, UX tutarlılığı bağlamı",
+      caption: "Kampanya template ve blok yapısı görseli, UX tutarlılığı bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-17/Software2-17-4.webp",
+      alt: "Form UTM tracking standardı görseli, ölçüm ve raporlama bağlamı",
+      caption: "Form UTM tracking standardı görseli, ölçüm ve raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-17/Software2-17-5.webp",
+      alt: "Landing UTM GA4 CRM akış diyagramı, ölçülebilir kampanya bağlamı",
+      caption: "Landing UTM GA4 CRM akış diyagramı, ölçülebilir kampanya bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-17/Software2-17-6.webp",
+      alt: "Landing factory checklist kartı, pazarlama ve geliştirme ekipleri bağlamı",
+      caption: "Landing factory checklist kartı, pazarlama ve geliştirme ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-17/Software2-17-7.webp",
+      alt: "Landing üretim süresi ve dönüşüm KPI kartı, performans bağlamı",
+      caption: "Landing üretim süresi ve dönüşüm KPI kartı, performans bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-17/Software2-17-8.webp",
+      alt: "Template seti ve tracking deliverables kartı, güven unsuru bağlamı",
+      caption: "Template seti ve tracking deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak":{
+    banner: {
+      src: "/images/blog/software/Software2-18/Software2-18-1.webp",
+      alt: "Site İçi Arama ve Index Stratejisi: CMS ile Arama Deneyimi Kurmak",
+      caption: "Site İçi Arama ve Index Stratejisi: CMS ile Arama Deneyimi Kurmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-18/Software2-18-2.webp",
+      alt: "Index alanları ve facet mantığı özeti, içerik bulunabilirliği bağlamı",
+      caption: "Index alanları ve facet mantığı özeti, içerik bulunabilirliği bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-18/Software2-18-3.webp",
+    alt: "CMS field mapping ve index modelleme görseli, teknik ekip bağlamı",
+      caption: "CMS field mapping ve index modelleme görseli, teknik ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-18/Software2-18-4.webp",
+      alt: "Arama UX ve 0 sonuç yönlendirme görseli, kullanıcı deneyimi bağlamı",
+      caption: "Arama UX ve 0 sonuç yönlendirme görseli, kullanıcı deneyimi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-18/Software2-18-5.webp",
+      alt: "CMS index search UI akış diyagramı, search driven UX bağlamı",
+      caption: "CMS index search UI akış diyagramı, search driven UX bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-18/Software2-18-6.webp",
+      alt: "Site içi arama checklist kartı, UX ve teknik ekip bağlamı",
+      caption: "Site içi arama checklist kartı, UX ve teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-18/Software2-18-7.webp",
+      alt: "Zero results ve arama sonrası dönüşüm KPI kartı, performans bağlamı",
+      caption: "Zero results ve arama sonrası dönüşüm KPI kartı, performans bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-18/Software2-18-8.webp",
+      alt: "Field mapping ve facet tasarım çıktıları, güven unsuru bağlamı",
+      caption: "Field mapping ve facet tasarım çıktıları, güven unsuru bağlamı"
+    }
+  },
+
+  "cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar":{
+    banner: {
+      src: "/images/blog/software/Software2-19/Software2-19-1.webp",
+      alt: "CMS Vendor Lock-in ve Sözleşme Stratejisi: Geleceğe Dönük Doğru Karar",
+      caption: "CMS Vendor Lock-in ve Sözleşme Stratejisi: Geleceğe Dönük Doğru Karar"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-19/Software2-19-2.webp",
+      alt: "Export SLA exit plan özeti, sözleşme stratejisi bağlamı",
+      caption: "Export SLA exit plan özeti, sözleşme stratejisi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-19/Software2-19-3.webp",
+    alt: "Veri taşınabilirliği ve export kontrolü görseli, risk yönetimi bağlamı",
+      caption: "Veri taşınabilirliği ve export kontrolü görseli, risk yönetimi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-19/Software2-19-4.webp",
+      alt: "SLA ve sözleşme maddeleri görseli, ticari karar bağlamı",
+      caption: "SLA ve sözleşme maddeleri görseli, ticari karar bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-19/Software2-19-5.webp",
+      alt: "Vendor seçimi risk ve exit akışı diyagramı, uzun vadeli plan bağlamı",
+      caption: "Vendor seçimi risk ve exit akışı diyagramı, uzun vadeli plan bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-19/Software2-19-6.webp",
+      alt: "CMS seçim ve sözleşme checklist kartı, iş ve IT ekipleri bağlamı",
+      caption: "CMS seçim ve sözleşme checklist kartı, iş ve IT ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-19/Software2-19-7.webp",
+      alt: "TCO ve lock-in risk KPI kartı, yönetim raporu bağlamı",
+      caption: "TCO ve lock-in risk KPI kartı, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-19/Software2-19-8.webp",
+      alt: "SLA exit plan deliverables kartı, güven unsuru bağlamı",
+      caption: "SLA exit plan deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak":{
+    banner: {
+      src: "/images/blog/software/Software2-20/Software2-20-1.webp",
+      alt: "Low-Code / No-Code Modüller ve CMS Üzerinden İş Kuralları Tanımlamak",
+      caption: "Low-Code / No-Code Modüller ve CMS Üzerinden İş Kuralları Tanımlamak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-20/Software2-20-2.webp",
+      alt: "Panel ayarı ve kod sınırı özeti, ürün operasyon bağlamı",
+      caption: "Panel ayarı ve kod sınırı özeti, ürün operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-20/Software2-20-3.webp",
+    alt: "CMS konfig alanları bölümü görseli, governance bağlamı",
+      caption: "CMS konfig alanları bölümü görseli, governance bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-20/Software2-20-4.webp",
+      alt: "BAC log versiyonlama güvenlik katmanı görseli, risk yönetimi bağlamı",
+      caption: "BAC log versiyonlama güvenlik katmanı görseli, risk yönetimi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-20/Software2-20-5.webp",
+      alt: "Panel ayarı site davranışı akış diyagramı, controlled configurability bağlamı",
+      caption: "Panel ayarı site davranışı akış diyagramı, controlled configurability bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-20/Software2-20-6.webp",
+      alt: "Panel ayarı vs kod checklist kartı, teknik ve ürün ekipleri bağlamı",
+      caption: "Panel ayarı vs kod checklist kartı, teknik ve ürün ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-20/Software2-20-7.webp",
+      alt: "Hata oranı ve rollback KPI kartı, operasyon sağlığı bağlamı",
+      caption: "Hata oranı ve rollback KPI kartı, operasyon sağlığı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-20/Software2-20-8.webp",
+      alt: "Konfig sözlüğü ve governance deliverables kartı, güven unsuru bağlamı",
+      caption: "Konfig sözlüğü ve governance deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "composable-dxp-ve-cms-merkezli-dijital-ekosistemler":{
+    banner: {
+      src: "/images/blog/software/Software2-21/Software2-21-1.webp",
+      alt: "Composable DXP ve CMS Merkezli Dijital Ekosistemler",
+      caption: "Composable DXP ve CMS Merkezli Dijital Ekosistemler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-21/Software2-21-2.webp",
+      alt: "CMS hub ve modüler servisler özeti, vendor bağımsızlığı bağlamı",
+      caption: "CMS hub ve modüler servisler özeti, vendor bağımsızlığı bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-21/Software2-21-3.webp",
+    alt: "Modüler servisler haritası görseli, composable stack bağlamı",
+      caption: "Modüler servisler haritası görseli, composable stack bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-21/Software2-21-4.webp",
+      alt: "Monolitten composable’a geçiş adımları görseli, risk azaltma bağlamı",
+      caption: "Monolitten composable’a geçiş adımları görseli, risk azaltma bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-21/Software2-21-5.webp",
+      alt: "CMS merkezli composable DXP diyagramı, modüler entegrasyon bağlamı",
+      caption: "CMS merkezli composable DXP diyagramı, modüler entegrasyon bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-21/Software2-21-6.webp",
+      alt: "Monolitten composable’a geçiş checklist kartı, ürün ve teknik ekip bağlamı",
+      caption: "Monolitten composable’a geçiş checklist kartı, ürün ve teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-21/Software2-21-7.webp",
+      alt: "Vendor bağımlılığı ve time-to-market KPI kartı, strateji bağlamı",
+      caption: "Vendor bağımlılığı ve time-to-market KPI kartı, strateji bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-21/Software2-21-8.webp",
+      alt: "Composable mimari deliverables kartı, güven unsuru bağlamı",
+      caption: "Composable mimari deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin":{
+    banner: {
+      src: "/images/blog/software/Software2-22/Software2-22-1.webp",
+      alt: "Visual Editing ve In-Context Preview: Next.js ve Headless CMS İçin",
+      caption: "Visual Editing ve In-Context Preview: Next.js ve Headless CMS İçin"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-22/Software2-22-2.webp",
+      alt: "Preview URL ve sayfada düzenle özeti, template-safe editing bağlamı",
+      caption: "Preview URL ve sayfada düzenle özeti, template-safe editing bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-22/Software2-22-3.webp",
+    alt: "In-context preview deneyimi görseli, içerik ekibi bağlamı",
+      caption: "In-context preview deneyimi görseli, içerik ekibi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-22/Software2-22-4.webp",
+      alt: "Sınırlar ve riskler bölümü görseli, yayın güvenliği bağlamı",
+      caption: "Sınırlar ve riskler bölümü görseli, yayın güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-22/Software2-22-5.webp",
+      alt: "CMS preview publish akış diyagramı, Next.js headless bağlamı",
+      caption: "CMS preview publish akış diyagramı, Next.js headless bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-22/Software2-22-6.webp",
+      alt: "Visual editing checklist kartı, tasarım içerik geliştirme bağlamı",
+      caption: "Visual editing checklist kartı, tasarım içerik geliştirme bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-22/Software2-22-7.webp",
+      alt: "Time-to-publish ve revizyon KPI kartı, editör verimliliği bağlamı",
+      caption: "Time-to-publish ve revizyon KPI kartı, editör verimliliği bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-22/Software2-22-8.webp",
+      alt: "Preview mimarisi deliverables kartı, güven unsuru bağlamı",
+      caption: "Preview mimarisi deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme":{
+    banner: {
+      src: "/images/blog/software/Software2-23/Software2-23-1.webp",
+      alt: "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme",
+      caption: "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-23/Software2-23-2.webp",
+      alt: "Entity relation model özeti, schema-driven CMS bağlamı",
+      caption: "Entity relation model özeti, schema-driven CMS bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-23/Software2-23-3.webp",
+    alt: "Relation tabanlı modelleme görseli, içerik mimarisi bağlamı",
+      caption: "Relation tabanlı modelleme görseli, içerik mimarisi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-23/Software2-23-4.webp",
+      alt: "SEO ve kişiselleştirme etkisi görseli, internal linking bağlamı",
+      caption: "SEO ve kişiselleştirme etkisi görseli, internal linking bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-23/Software2-23-5.webp",
+      alt: "Otel ve B2B içerik grafı diyagramı, entity-first SEO bağlamı",
+      caption: "Otel ve B2B içerik grafı diyagramı, entity-first SEO bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-23/Software2-23-6.webp",
+      alt: "Schema-driven CMS checklist kartı, strateji ve teknik ekip bağlamı",
+      caption: "Schema-driven CMS checklist kartı, strateji ve teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-23/Software2-23-7.webp",
+      alt: "Internal link ve keşif KPI kartı, içerik graf performansı bağlamı",
+      caption: "Internal link ve keşif KPI kartı, içerik graf performansı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-23/Software2-23-8.webp",
+      alt: "Entity relation schema deliverables kartı, güven unsuru bağlamı",
+      caption: "Entity relation schema deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol":{
+    banner: {
+      src: "/images/blog/software/Software2-24/Software2-24-1.webp",
+      alt: "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme",
+      caption: "İçerik Grafı ve Schema-Driven CMS: Entity İlişkileri ile Modelleme"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-24/Software2-24-2.webp",
+      alt: "AI önerir editör onaylar modeli özeti, human in loop bağlamı",
+      caption: "AI önerir editör onaylar modeli özeti, human in loop bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-24/Software2-24-3.webp",
+    alt: "AI suggestion alanları görseli, editoryal hız bağlamı",
+      caption: "AI suggestion alanları görseli, editoryal hız bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-24/Software2-24-4.webp",
+      alt: "QA ve otomatik kontrol katmanı görseli, yayın güvenliği bağlamı",
+      caption: "QA ve otomatik kontrol katmanı görseli, yayın güvenliği bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-24/Software2-24-5.webp",
+      alt: "AI suggestion preview publish akış diyagramı, CMS ops bağlamı",
+      caption: "AI suggestion preview publish akış diyagramı, CMS ops bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-24/Software2-24-6.webp",
+      alt: "AI QA checklist kartı, boş alan kırık link alt metin bağlamı",
+      caption: "AI QA checklist kartı, boş alan kırık link alt metin bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-24/Software2-24-7.webp",
+      alt: "Yayın hızı ve QA hata KPI kartı, ops analitik bağlamı",
+      caption: "Yayın hızı ve QA hata KPI kartı, ops analitik bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-24/Software2-24-8.webp",
+      alt: "AI kullanım ilkeleri deliverables kartı, güven unsuru bağlamı",
+      caption: "AI kullanım ilkeleri deliverables kartı, güven unsuru bağlamı"
+    }
+  },
+
+  "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarin":{
+    banner: {
+      src: "/images/blog/software/Software2-25/Software2-25-1.webp",
+      alt: "Multi-Channel Yayın Stratejisi: CMS’ten Web, App, Sosyal ve Mail Kanallarına",
+      caption: "Multi-Channel Yayın Stratejisi: CMS’ten Web, App, Sosyal ve Mail Kanallarına"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-25/Software2-25-2.webp",
+      alt: "Kanal-aware alan seti özeti, tek içerikten çoklu format bağlamı",
+      caption: "Kanal-aware alan seti özeti, tek içerikten çoklu format bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-25/Software2-25-3.webp",
+    alt: "CMS kanal bazlı alanlar görseli, editoryal operasyon bağlamı",
+      caption: "CMS kanal bazlı alanlar görseli, editoryal operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-25/Software2-25-4.webp",
+      alt: "Ölçüm ve geri besleme görseli, omni-channel performans bağlamı",
+      caption: "Ölçüm ve geri besleme görseli, omni-channel performans bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-25/Software2-25-5.webp",
+      alt: "CMS’ten web app sosyal mail akış diyagramı, hub and spoke bağlamı",
+      caption: "CMS’ten web app sosyal mail akış diyagramı, hub and spoke bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-25/Software2-25-6.webp",
+      alt: "Multi-channel içerik checklist kartı, içerik ve pazarlama ekipleri bağlamı",
+      caption: "Multi-channel içerik checklist kartı, içerik ve pazarlama ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-25/Software2-25-7.webp",
+      alt: "Kanal bazlı CTR ve dönüşüm KPI kartı, ölçüm bağlamı",
+      caption: "Kanal bazlı CTR ve dönüşüm KPI kartı, ölçüm bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-25/Software2-25-8.webp",
+      alt: "Channel-aware alan şeması deliverables kartı, güven unsuru bağlamı",
+      caption: "Channel-aware alan şeması deliverables kartı, güven unsuru bağlamı"
+    }
   }
   
 };

@@ -479,7 +479,17 @@ export const BLOG_MAP = {
     "icerik-yasam-dongusu-versiyonlama-ve-arsiv-yapisi-cms-icin-model":"BlogIcerikYasamDongusuVersiyonlamaVeArsivYapisiCMSIcinModel",
     "cms-ve-dam-entegrasyonu-gorsel-ve-video-yonetiminde-merkezi-yapi":"BlogCMSVeDAMEntegrasyonuGorselVeVideoYonetimindeMerkeziYapi",
     "headless-cms-guvenligi-yedekleme-ve-disaster-recovery-stratejisi":"BlogHeadlessCMSGuvorluguYedeklemeVeDisasterRecoveryStratejisi",
-    "cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi":"BlogCMSEditorOnboardingVeEgitimPanelKullananEkiplerIcinOyunKitabi"
+    "cms-editor-onboarding-ve-egitim-panel-kullanan-ekipler-icin-oyun-kitabi":"BlogCMSEditorOnboardingVeEgitimPanelKullananEkiplerIcinOyunKitabi",
+    "cms-kpi-ve-icerik-operasyon-analitigi-panel-kullanimini-olcmek":"BlogCmsKpiVeIcerikOperasyonAnalitigiPanelKullaniminiOlcmek",
+    "landing-factory-cms-ile-pazarlama-ekipleri-icin-kampanya-sayfasi-uretmek":"BlogLandingFactoryCmsIlePazarlamaEkipleriIcinKampanyaSayfasiUretmek",
+    "site-ici-arama-ve-index-stratejisi-cms-ile-arama-deneyimi-kurmak":"BlogSiteIciAramaVeIndexStratejisiCmsIleAramaDeneyimiKurmak",
+    "cms-vendor-lock-in-ve-sozlesme-stratejisi-gelecege-donuk-dogru-karar":"BlogCmsVendorLockInVeSozlesmeStratejisiGelecegeDonukDogruKarar",
+    "low-code-no-code-moduller-ve-cms-uzerinden-is-kurallari-tanimlamak":"BlogLowCodeNoCodeModullerVeCmsUzerindenIsKurallariTanimlamak",
+    "composable-dxp-ve-cms-merkezli-dijital-ekosistemler":"BlogComposableDxpVeCmsMerkezliDijitalEkosistemler",
+    "visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin":"BlogVisualEditingVeInContextPreviewNextjsVeHeadlessCmsIcin",
+    "icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme":"BlogIcerikGrafiVeSchemaDrivenCmsEntityIliskileriIleModelleme",
+    "ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol":"BlogAiDestekliCmsOperasyonlariIcerikSuggestionQaVeOtomatikKontrol",
+    "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarin":"BlogMultiChannelYayinStratejisiCmsTenWebAppSosyalVeMailKanallarina"
   },
    
   creative: {
