@@ -166944,7 +166944,7 @@ export const BLOG_JSONLD_MAP = {
 },
 
 
-"multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarin":{
+"multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina":{
 
   "@context": "https://schema.org",
 

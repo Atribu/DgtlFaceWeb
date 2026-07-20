@@ -197,7 +197,7 @@ export default function MobileSidebarContent({
             className="flex flex-col items-center justify-center text-center"
           >
             <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-              <Image src="/gifs/phone.gif" alt="Phone GIF" width={29} height={29} />
+              <Image src="/gifs/phone.webp" alt="Phone GIF" width={29} height={29} unoptimized />
             </div>
             <p className="text-[12px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
               {t("phone")}
@@ -210,7 +210,7 @@ export default function MobileSidebarContent({
             className="flex flex-col items-center justify-center text-center"
           >
             <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-              <Image src="/gifs/email.gif" alt="Phone GIF" width={29} height={29} />
+              <Image src="/gifs/email.webp" alt="Phone GIF" width={29} height={29} unoptimized />
             </div>
             <p className="text-[12px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
               {t("mail")}

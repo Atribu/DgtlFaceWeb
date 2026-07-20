@@ -45758,7 +45758,7 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
-  "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarin":{
+  "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina":{
     banner: {
       src: "/images/blog/software/Software2-25/Software2-25-1.webp",
       alt: "Multi-Channel Yayın Stratejisi: CMS’ten Web, App, Sosyal ve Mail Kanallarına",

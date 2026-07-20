@@ -17,10 +17,11 @@ async function ContactMain() {
             className="flex flex-col lg:flex-row items-center gap-4"
           >
             <Image
-              src="/gifs/phone.gif"
+              src="/gifs/phone.webp"
               alt="Phone GIF"
               width={36}
               height={36}
+              unoptimized
             />
             <p className="flex text-darkBlue lg:hidden">Phone</p>
             <div className="hidden lg:flex flex-col">
@@ -38,10 +39,11 @@ async function ContactMain() {
             className="flex flex-col lg:flex-row items-center gap-4"
           >
             <Image
-              src="/gifs/email.gif"
+              src="/gifs/email.webp"
               alt="email GIF"
               width={36}
               height={36}
+              unoptimized
             />
             <p className="flex lg:hidden text-darkBlue">Mail</p>
             <div className="hidden lg:flex flex-col">
@@ -61,10 +63,11 @@ async function ContactMain() {
             className="flex flex-col lg:flex-row items-center gap-4"
           >
             <Image
-              src="/gifs/location.gif"
+              src="/gifs/location.webp"
               alt="location GIF"
               width={36}
               height={36}
+              unoptimized
             />
             <p className="flex lg:hidden text-darkBlue">Address</p>
             <div className="hidden lg:flex flex-col">

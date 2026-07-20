@@ -489,7 +489,7 @@ export const BLOG_MAP = {
     "visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin":"BlogVisualEditingVeInContextPreviewNextjsVeHeadlessCmsIcin",
     "icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme":"BlogIcerikGrafiVeSchemaDrivenCmsEntityIliskileriIleModelleme",
     "ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol":"BlogAiDestekliCmsOperasyonlariIcerikSuggestionQaVeOtomatikKontrol",
-    "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarin":"BlogMultiChannelYayinStratejisiCmsTenWebAppSosyalVeMailKanallarina"
+    "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina":"BlogMultiChannelYayinStratejisiCmsTenWebAppSosyalVeMailKanallarina"
   },
    
   creative: {
