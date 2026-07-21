@@ -52,7 +52,7 @@ export default function EmblaCarousel({ slides }) {
   }, [emblaApi, isInView]);
 
   // Geçişin kesintisiz olması için slide'ları iki kere kopyalıyoruz.
-  const extendedSlides = [...slides, ...slides, ...slides, ...slides, ...slides, ...slides];
+  const extendedSlides = [...slides, ...slides];
 
   return (
     <section className="embla w-full overflow-hidden">

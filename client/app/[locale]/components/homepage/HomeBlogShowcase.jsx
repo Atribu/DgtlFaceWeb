@@ -21,6 +21,7 @@ function BlogCard({ p, locale }) {
   return (
     <Link
       href={postHref}
+      prefetch={false}
       className="group relative w-[260px] sm:w-[280px] lg:w-[320px] xl:w-[420px] flex-none
                  border border-white/10 bg-white/5 transition hover:bg-[#547CCF]/30 snap-start overflow-hidden "
     >
@@ -184,6 +185,7 @@ export default function HomeBlogShowcase({
 
           <Link
             href={`/${locale}/blogs`}
+            prefetch={false}
             className="!text-black hidden md:inline-flex text-sm font-medium items-center gap-2 ml-3"
           >
             {t("allBlogs")} <span>→</span>
@@ -205,6 +207,7 @@ export default function HomeBlogShowcase({
       </div>
        <Link
             href={`/${locale}/blogs`}
+            prefetch={false}
             className="!text-black flex md:hidden text-xs font-semibold items-end justify-end gap-2 mt-3 justify-items-end"
           >
             {t("allBlogs")} <span>→</span>
