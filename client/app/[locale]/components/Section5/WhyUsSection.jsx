@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Dgtlface from "./Images/dgtlfaceoffice.png";
+import Dgtlface from "./Images/dgtlfaceoffice.webp";
 import DgtlfaceImg2 from "./Images/ofis1.webp";
 import DgtlfaceImg3 from "./Images/ofis2.webp";
 import Image from 'next/image';
@@ -243,7 +243,8 @@ const renderRichDescription = (key) => {
               width={Dgtlface.width}
               height={Dgtlface.height}
               className="absolute inset-0 w-full h-full object-cover"
-               loading="lazy"
+              loading="lazy"
+              unoptimized
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>

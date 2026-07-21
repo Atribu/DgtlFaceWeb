@@ -37,6 +37,16 @@ const Section3 = () => {
   ]);
   const sectionRef = useRef(null);
   const [isInView, setIsInView] = useState(true);
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 1024px)");
+    const updateIsDesktop = () => setIsDesktop(mediaQuery.matches);
+
+    updateIsDesktop();
+    mediaQuery.addEventListener("change", updateIsDesktop);
+    return () => mediaQuery.removeEventListener("change", updateIsDesktop);
+  }, []);
 
   useEffect(() => {
     const node = sectionRef.current;
@@ -57,7 +67,7 @@ const Section3 = () => {
   }, []);
 
   useEffect(() => {
-    if (!isInView) return;
+    if (!isInView || !isDesktop) return;
 
     const interval = setInterval(() => {
       // setGradientIndex((prev) => (prev === 7 ? 0 : prev + 1));
@@ -75,7 +85,7 @@ const Section3 = () => {
       });
     }, 1500);
     return () => clearInterval(interval);
-  }, [isInView]);
+  }, [isDesktop, isInView]);
 
   const blockPositions = {
     0: "-translate-y-1/2 z-[5] translate-x-[43px]",

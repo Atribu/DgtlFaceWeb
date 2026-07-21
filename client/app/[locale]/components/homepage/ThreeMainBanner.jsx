@@ -70,7 +70,7 @@ export default function ThreeMainBanner() {
 
       {/* İçerik */}
       <div
-        className="absolute w-full md:w-[63%] lg:w-[64%] xl:w-[55%] left-[2%] lg:left-[6%] xl:left-[8%] 2xl:left-[10%] top-[15%] sm:top-[20%] md:top-[21%] lg:top-[24%] 2xl:top-[26%] 3xl:top-[28%] flex flex-col gap-4 text-start p-4 lg:p-0 will-change-transform"
+        className="absolute w-full md:w-[63%] lg:w-[64%] xl:w-[55%] left-[2%] lg:left-[6%] xl:left-[8%] 2xl:left-[10%] top-[15%] sm:top-[20%] md:top-[21%] lg:top-[24%] 2xl:top-[26%] 3xl:top-[28%] flex flex-col gap-4 text-start p-4 lg:p-0"
         style={{
           zIndex: 50,
           color: "#fff",

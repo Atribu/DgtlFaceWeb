@@ -303,11 +303,28 @@ function FireballExplosion() {
     _primitive.add(mesh);
     scene.add(_primitive);
 
+    const desktopMediaQuery = window.matchMedia("(min-width: 1024px)");
+    let frameInterval = desktopMediaQuery.matches ? 0 : 1000 / 30;
+    let lastFrameTime = 0;
+
+    const updateFrameInterval = ({ matches }) => {
+      frameInterval = matches ? 0 : 1000 / 30;
+      lastFrameTime = 0;
+    };
+
+    desktopMediaQuery.addEventListener("change", updateFrameInterval);
+
     const start = Date.now();
-    const animate = () => {
+    const animate = (timestamp) => {
       animationId = requestAnimationFrame(animate);
-      
-      _primitive.rotation.y += 0.002;
+
+      if (frameInterval > 0) {
+        const elapsed = timestamp - lastFrameTime;
+        if (elapsed < frameInterval) return;
+        lastFrameTime = timestamp - (elapsed % frameInterval);
+      }
+
+      _primitive.rotation.y += frameInterval > 0 ? 0.004 : 0.002;
       mat.uniforms["time"].value = 0.0005 * (Date.now() - start);
 
       renderer.render(scene, camera);
@@ -317,6 +334,7 @@ function FireballExplosion() {
     // TEMİZLİK (Cleanup) - Çok önemli!
     return () => {
       window.removeEventListener("resize", updateSize);
+      desktopMediaQuery.removeEventListener("change", updateFrameInterval);
       cancelAnimationFrame(animationId);
       if (containerRef.current && renderer.domElement) {
         containerRef.current.removeChild(renderer.domElement);
