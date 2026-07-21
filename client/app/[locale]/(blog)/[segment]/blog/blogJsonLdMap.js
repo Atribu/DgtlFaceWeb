@@ -87811,6 +87811,308 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi",
+
+      "headline": "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi",
+
+      "name": "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi",
+
+      "description": "Web sunucuları için DR rehberi: RPO/RTO hedefleri, full/incremental/snapshot yedekler, offsite senaryolar, failover-rollback testleri ve otel/B2B felaket planı checklist’i.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Backups",
+
+        "Disaster Recovery",
+
+        "RPO",
+
+        "RTO",
+
+        "Snapshots",
+
+        "Offsite Backup",
+
+        "Restore Tests",
+
+        "Failover",
+
+        "Rollback"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Yedekleme ve Felaket Kurtarma (DR) Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yedekleme ile disaster recovery arasındaki fark nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yedekleme verinin kopyasını tutar; disaster recovery ise bu kopyalarla sistemi belirlenen RPO/RTO hedeflerinde tekrar çalışır hale getirme planı ve testidir. DR; failover/rollback ve tatbikatları içerir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RPO ve RTO ne demek, nasıl belirlenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "RPO kabul edilebilir veri kaybı miktarıdır; RTO ise ayağa kalkma süresidir. Kritik iş akışlarının (rezervasyon/portal) kesinti maliyetine göre hedef konur ve testlerle doğrulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web sunucusu için yedekleme stratejisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DB, dosya sistemi ve config’i kapsayan; full + incremental/snapshot dengesi kuran ve offsite kopya içeren bir plan olmalıdır. Düzenli restore testleriyle geri dönüş süresi ölçülmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel/B2B için felaket kurtarma planı nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tier-1 sistemleri belirleyip RPO/RTO hedefi koyun, offsite topolojiyi kurun. Runbook (failover+rollback) yazıp tatbikat takvimiyle planı test edin ve sonuçlara göre iyileştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Offsite yedek neden şart?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı lokasyondaki yedekler felaket senaryosunda birlikte zarar görebilir. Offsite, fiziksel/hesap olarak ayrık bir kopya sunarak gerçek DR sağlar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi#howto",
+
+      "name": "Web Sunucuları için DR Planı Kurulumu",
+
+      "description": "RPO/RTO hedefleri, offsite yedekleme ve düzenli restore/failover testleriyle web sunucularında felaket kurtarma planı oluşturma.",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tier ve RPO/RTO hedeflerini belirle",
+
+          "text": "Rezervasyon/portal gibi Tier-1 sistemleri çıkar; kabul edilebilir veri kaybı (RPO) ve ayağa kalkma süresi (RTO) hedeflerini yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yedek türlerini ve offsite topolojiyi tasarla",
+
+          "text": "Full/incremental/snapshot kombinasyonunu hedeflerle uyumlu seç; yedekleri fiziksel/hesap olarak ayrık bir offsite lokasyonda tut."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Restore, failover ve rollback testlerini planla",
+
+          "text": "Düzenli restore testleri yap; failover ve geri dönüş (rollback) adımlarını runbook’ta yaz ve tatbikatla doğrula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Raporla ve iyileştir",
+
+          "text": "Tatbikatlarda ölçülen RPO/RTO sonuçlarını raporla; darboğazları kapatıp planı periyodik güncelle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 },

@@ -46208,6 +46208,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "Alan kataloğu ve privacy view deliverables kartı, BI KVKK uyumu",
       caption: "Alan kataloğu ve privacy view deliverables kartı, BI KVKK uyumu"
     }
+  },
+
+
+  "yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software4-6/Software4-6-1.webp",
+      alt: "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi",
+      caption: "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-6/Software4-6-2.webp",
+      alt: "RPO ve RTO hedefleriyle yedekleme planı, web altyapısında restore testleri ve hazırlık",
+      caption: "RPO ve RTO hedefleriyle yedekleme planı, web altyapısında restore testleri ve hazırlık"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-6/Software4-6-3.webp",
+    alt: "DR neden sadece yedekleme değildir, otel ve kurumsal projeler için bölüm ayırıc",
+      caption: "DR neden sadece yedekleme değildir, otel ve kurumsal projeler için bölüm ayırıc"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-6/Software4-6-4.webp",
+      alt: "Offsite yedek ve tatbikatlarla felaket kurtarma, web sunucuları için bölüm ayırıcı",
+      caption: "Offsite yedek ve tatbikatlarla felaket kurtarma, web sunucuları için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-6/Software4-6-5.webp",
+      alt: "Prod→backup→offsite→DR ortamı akış diyagramı, otel ve B2B için felaket kurtarma modeli",
+      caption: "Prod→backup→offsite→DR ortamı akış diyagramı, otel ve B2B için felaket kurtarma modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-6/Software4-6-6.webp",
+      alt: "Yedekleme ve disaster recovery checklist’i, RPO/RTO ve restore testleriyle uygulanabilir plan",
+      caption: "Yedekleme ve disaster recovery checklist’i, RPO/RTO ve restore testleriyle uygulanabilir plan"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-6/Software4-6-7.webp",
+      alt: "RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı”",
+      caption: "RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-6/Software4-6-8.webp",
+      alt: "DR deliverable seti, runbook ve tatbikat raporlarıyla incident-ready süreklilik",
+      caption: "DR deliverable seti, runbook ve tatbikat raporlarıyla incident-ready süreklilik"
+    }
   }
   
 };

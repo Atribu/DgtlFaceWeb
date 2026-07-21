@@ -497,7 +497,10 @@ export const BLOG_MAP = {
     "misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber":"BlogMisafirWifiVeKamusalAlanlardaKvkkUyumuOtelIcinTeknikRehber",
     "kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi":"BlogKvkkDijitalFarkindalikVeCalisanEgitimiIcinTeknikOyunKitabi",
     "veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama":"BlogVeriSahibiBasvuruSureciIcinTeknikAkisVeRaporlama",
-    "analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi":"BlogAnalitikVeBiOrtamlarindaKvkkUyumuAnonimizasyonVePseudonimizasyonTeknikBakisi"
+    "analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi":"BlogAnalitikVeBiOrtamlarindaKvkkUyumuAnonimizasyonVePseudonimizasyonTeknikBakisi",
+
+
+    "yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi":"BlogYedeklemeVeDisasterRecoveryWebSunuculariIcinFelaketKurtarmaStratejisi"
   },
    
   creative: {

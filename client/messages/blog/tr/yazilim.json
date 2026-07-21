@@ -47892,5 +47892,718 @@
         ]
       }
     }
+  },
+
+  "BlogYedeklemeVeDisasterRecoveryWebSunuculariIcinFelaketKurtarmaStratejisi": {
+    "title": "Yedekleme ve Disaster Recovery (RPO/RTO)",
+    "slug": "yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi",
+    "department": "yazilim",
+    "subDepartment":"server",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Web sunucuları için DR rehberi: RPO/RTO hedefleri, full/incremental/snapshot yedekler, offsite senaryolar, failover-rollback testleri ve otel/B2B felaket planı checklist’i.",
+    "seo": {
+      "metaTitle": "Yedekleme ve Disaster Recovery (RPO/RTO) | DGTLFACE",
+      "metaDescription": "Web sunucuları için DR rehberi: RPO/RTO hedefleri, full/incremental/snapshot yedekler, offsite senaryolar, failover-rollback testleri ve otel/B2B felaket planı checklist’i."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Sunucu ve Güvenlik — Varsayım: https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+        "Blog / URL: Blog #6 — Varsayım: https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, “Sunucu ve Güvenlik” kümesinde iş sürekliliği (business continuity) ve felaket kurtarma (DR) ayağını taşıyan core rehberdir; “yedek var” söylemini “RPO/RTO + testli plan” standardına dönüştürür. Hedef persona; otel rezervasyon akışını (web–PMS–call center) ve B2B portal/CRM süreçlerini yöneten BT/IT liderleri ile ajans teknik yöneticileridir. Funnel’da consideration (MoFu): RPO/RTO hedefi koydurur, backup türlerini doğru seçtirir, offsite ve restore testlerini operasyonel plana bağlar; BoFu’da analize yönlendirir. SERP + SGE + Voice için “yedekleme ≠ DR” farkını net cevaplar ve örnek felaket senaryolarıyla karar aldırır. Ana iş sorusu: “Sunucu çökerse ne kadar veri kaybıyla, ne kadar sürede ayağa kalkarım ve bunu nasıl garanti ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sadece “yedek almak” felaket kurtarma için yeterli değildir. Gerçek DR; RPO/RTO hedeflerini netleştirmek, yedekleri farklı lokasyonda tutmak, doğru yedek türlerini (full/incremental/snapshot) seçmek ve düzenli restore/failover tatbikatlarıyla planı test etmektir. Otel ve B2B projelerinde rezervasyon/portal kesintileri ciddi gelir ve itibar kaybına yol açar; bu yüzden “ne kadar sürede ayağa kalkarım, ne kadar veri kaybederim?” sorusunun cevabı ölçülü ve testli olmalıdır.",
+      "sgeSummary": "DR, yedekten fazlasıdır: RPO/RTO belirle, offsite yedek tut, full/incremental/snapshot stratejisi kur ve düzenli restore/failover testleriyle kesintiye hazır ol.",
+      "voiceAnswer": "RPO/RTO hedefi koy; offsite yedek ve düzenli restore testiyle çöküşte ne kadar sürede döneceğini garanti et.",
+      "aiFactSheet": [
+        "Hedef kitle: BT/IT lideri, ajans teknik lideri, otel operasyon yöneticisi (kritik sistem sahibi), B2B portal/CRM sorumlusu",
+        "KPI: RPO (veri kaybı), RTO (ayağa kalkma süresi), restore başarı oranı, failover süresi, incident sayısı",
+        "Entity: Disaster Recovery, Backups, RPO/RTO, Snapshot, Offsite Backup, Restore Tests, Failover/Rollback",
+        "Geo: Türkiye geneli; kesinti riski kritik otel rezervasyon ve B2B portal projeleri",
+        "Funnel: MoFu (plan+checklist) → BoFu (DR analizi)",
+        "SERP hedefi: Featured snippet + PAA (RPO/RTO, backup vs DR, strateji)",
+        "Refresh: 365 gün (altyapı ve iş kritikliği değiştikçe güncellenir)"
+      ]
+    },
+    "h1": {
+      "title": "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi",
+      "intro": "Birçok kurum “yedek alıyoruz” dediğinde kendini güvende hisseder; fakat gerçek kesinti anında en acı sürpriz şudur: yedek var ama geri dönmüyor ya da “geri dönüyor ama 2 gün sürüyor.” Otel tarafında rezervasyon akışının durması, sezon/pik dönemde doğrudan gelir kaybına döner; B2B’de portal/CRM kesintisi operasyonu kilitler. Bu rehber, yedeklemeyi DR planına bağlayıp “RPO/RTO + offsite + tatbikat” standardını kurar: ne kadar veri kaybıyla, ne kadar sürede ayağa kalkacağınızı ölçülebilir hale getirirsiniz.",
+      "quickSummary": [
+        "1) Sistemleri Tier-1/2/3 olarak sınıflandırın.",
+        "2) RPO ve RTO hedeflerini iş kritikliğiyle belirleyin.",
+        "3) Full/incremental/snapshot yedek kombinasyonunu kurun.",
+        "4) Offsite kopyayı ayrık lokasyon veya hesapta tutun.",
+        "5) Restore, failover ve rollback testlerini takvime bağlayın."
+      ],
+      "ctaPrimary": {
+        "label": "Web Sunucusu Yedekleme & DR Strateji Analizi Talep Et",
+        "text": "RPO/RTO hedeflerini netleştirip, offsite yedek ve tatbikatlarla gerçek kesintide hızlı dönüş planı kurmak isteyen otel ve B2B ekipleri için.",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Web Sunucusu Yedekleme & DR Strateji Analizi Talep Et",
+        "text": "RPO/RTO hedeflerini netleştirip, offsite yedek ve tatbikatlarla gerçek kesintide hızlı dönüş planı kurmak isteyen otel ve B2B ekipleri için.",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      "secondary": {
+        "label": "Felaket Kurtarma Planı & Yedekleme Checklist Şablonunu İndir",
+        "text": "Ekibinizin tier bazlı RPO/RTO, yedek türleri ve restore/failover testlerini tek planla yazıp uygulanabilir hale getirmesini sağlar.",
+        "href": "/downloads/felaket-kurtarma-plani-yedekleme-checklist-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Sunucu ve Güvenlik",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "KVKK Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sunucu ve Güvenlik",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "title": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "KVKK Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "felaket-kurtarma-yedekleme-farki",
+        "title": "Felaket Kurtarma Neden Sadece Yedekleme Değildir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "p",
+            "text": "Yedekleme, veriyi bir kopya olarak saklamaktır; DR ise kopyayı kullanarak sistemi belirli hedeflerde ayağa kaldırma kabiliyetidir. Aradaki fark; süreç, sorumluluk, otomasyon, test ve karar mekanizmasında ortaya çıkar. Yedek “var” olabilir; ama kurtarma planı ve tatbikat yoksa kesintide gerçek sonuç belirsizdir."
+          },
+          {
+            "type": "h3",
+            "text": "Yedekleme ile disaster recovery arasındaki fark nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Yedekleme; verinin kopyasını tutar. Disaster recovery ise bu yedeklerle sistemi belirlenmiş RPO/RTO hedeflerinde tekrar çalışır hale getirme planı, altyapısı ve testidir. DR; failover/rollback adımlarını, sorumluları, tatbikatları ve ölçümü içerir."
+          },
+          {
+            "type": "h3",
+            "text": "DR’yi “iş sürekliliği” olarak düşünmek"
+          },
+          {
+            "type": "p",
+            "text": "Otel/B2B bağlamında kritik soru şudur: “Kesinti olduğunda iş devam edebiliyor mu?”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: rezervasyon, ödeme, müsaitlik görüntüleme, call center satış",
+              "B2B: portal erişimi, CRM iş akışları, teklif/servis süreçleri",
+              "DR hedefleri, bu iş akışlarının kritikliğiyle belirlenmelidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check : DR hazır mıyım? (hızlı test)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RPO ve RTO hedefi yazılı mı?",
+              "Offsite yedek var mı (farklı lokasyon)?",
+              "Son 90 günde restore testi yapıldı mı?",
+              "Failover/rollback adımları dokümante mi?",
+              "Kim hangi durumda karar alır (eskalasyon) net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Yedek var mı?” yerine “RPO/RTO ne?” diye sor ve hedef koy.",
+              "Offsite zorunlu: aynı lokasyonda yedek DR değildir.",
+              "Restore testini takvime bağla (aylık/çeyreklik).",
+              "Runbook ve sorumlulukları yaz; tatbikatla doğrula."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "rpo-rto-kavramlari",
+        "title": "RPO/RTO Kavramları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "RPO ve RTO, DR’nin “ölçülebilir hedefleri”dir. Yönetimle aynı dili konuşmanızı sağlar; teknik ekip için de tasarım kararlarını netleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "RPO ve RTO ne demek, nasıl belirlenir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RPO (Recovery Point Objective): “Ne kadar veri kaybı kabul edilebilir?” Örn. 15 dakika, 1 saat, 24 saat.",
+              "RTO (Recovery Time Objective): “Ne kadar sürede ayağa kalkmalıyım?” Örn. 30 dakika, 4 saat, 1 gün."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Belirleme yöntemi; kritik iş akışlarını listelemek (rezervasyon/portal), kesintinin maliyetini ve operasyonel etkisini değerlendirmek ve buna göre hedef koymaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için pratik hedefleme yaklaşımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon/ödeme: daha sıkı RPO/RTO",
+              "İçerik sayfaları: daha esnek olabilir",
+              "B2B portal/CRM: iş saatleri ve SLA’lara göre değişir",
+              "Önemli nokta: hedefler “hayal” değil, test edilebilir olmalıdır."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check : RPO/RTO netliği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi sistemler Tier-1 (en kritik) tanımlandı mı?",
+              "Tier-1 için RPO/RTO yönetimle onaylı mı?",
+              "Hedefler yedekleme sıklığı ve restore süresiyle uyumlu mu?",
+              "Ölçüm metriği tanımlı mı (restore süresi, veri kaybı)?",
+              "Tatbikat sonucu hedefler revize ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Sistemleri Tier-1/2/3 olarak sınıflandır.",
+              "Tier-1’e RPO/RTO hedefi koy; backup planını buna bağla.",
+              "Hedefleri test et; tutmuyorsa ya hedefi ya mimariyi güncelle.",
+              "DR planını bakım-destek süreçlerine entegre et: https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yedekleme-turleri",
+        "title": "Yedekleme Türleri (Full, Incremental, Snapshot)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DR planının kalbi, doğru yedek türlerini doğru kombinasyonla kullanmaktır. Tek bir yöntem her şey için ideal değildir; veri türü, değişim hızı ve RPO hedefi belirleyicidir."
+          },
+          {
+            "type": "h3",
+            "text": "Full backup"
+          },
+          {
+            "type": "p",
+            "text": "Tüm verinin komple kopyasıdır. Geri dönüş için sağlamdır; ancak süre ve depolama maliyeti yüksektir. Genelde haftalık/aylık temel taş olarak kullanılır."
+          },
+          {
+            "type": "h3",
+            "text": "Incremental / differential yaklaşımlar (prensip)"
+          },
+          {
+            "type": "p",
+            "text": "Artımlı yedekler, değişen veriyi daha sık almayı sağlar. RPO’yu iyileştirir; ancak restore süreci zincire bağlı olabilir. Bu nedenle “restore süresi” RTO hedefiyle birlikte düşünülmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Snapshot ve imaj yedekleri"
+          },
+          {
+            "type": "p",
+            "text": "Snapshot’lar hızlı geri dönüş sağlar; imaj yedekleri ise komple sistemin belirli bir anını taşır. Bu yöntemler, hızlı ayağa kalkma isteyen senaryolarda (düşük RTO) avantaj sunar; ancak offsite ve test şarttır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check : Yedek türü seçimi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DB ve dosya sistemi ayrı stratejiyle ele alındı mı?",
+              "Full + incremental/snapshot dengesi kuruldu mu?",
+              "Restore zinciri RTO hedefini bozuyor mu?",
+              "Snapshot’lar offsite’a taşınıyor mu?",
+              "Yedeklerin bütünlük doğrulaması yapılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Veriyi sınıflandır: DB, dosya, config, secrets (secrets ayrı yönetim).",
+              "RPO sıkıysa incremental/snapshot’ı artır; RTO sıkıysa imaj/snapshot’ı güçlendir.",
+              "Restore süresini ölç; zincir uzunsa sadeleştir.",
+              "Yedek bütünlüğü ve geri dönüş doğrulamasını otomatikleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "on-prem-bulut-yedekleme-senaryolari",
+        "title": "On-Prem ve Bulut Yedekleme Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DR’nin en kritik prensibi: farklı lokasyon (offsite). Aynı veri merkezinde veya aynı hesapta tutulan yedekler, felaket senaryosunda “birlikte yanabilir.”"
+          },
+          {
+            "type": "h3",
+            "text": "On-prem senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ayrı lokasyonda replikasyon veya offsite kaset/depoya çıkış",
+              "Ağ erişimi ve güvenliği (kopya güvenliği)",
+              "Failover için ikinci lokasyon planı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Bulut senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çoklu bölge (region) veya ayrı hesap yaklaşımı",
+              "Depolama sınıfları ve maliyet/erişim dengesi",
+              "IAM ve erişim güvenliği (yedekler de korunmalı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Offsite sadece “kopya” değil, “erişilebilir kopya”"
+          },
+          {
+            "type": "p",
+            "text": "Offsite kopya var ama erişim yoksa (yetki yok, şifre yok, prosedür yok) yine işe yaramaz. Bu nedenle erişim politikası ve runbook DR’nin parçasıdır. Ayrıca KVKK açısından yedeklerin saklama/erişim yönetimi önemlidir: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check : Offsite doğrulama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Offsite lokasyon fiziksel/hesap olarak ayrık mı?",
+              "Erişim politikası ve yetkiler net mi?",
+              "Offsite restore testi yapıldı mı?",
+              "Yedekler şifreli ve yetki kontrollü mü?",
+              "Saklama süresi ve KVKK politikası tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Offsite’ı “ayrık” yap (lokasyon/hesap).",
+              "Erişim ve şifre yönetimini runbook’a yaz.",
+              "Offsite restore testini tatbik et; sadece kopya yetmez.",
+              "KVKK saklama ve erişimi DR planına entegre et."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "dr-plani-tatbikatlari",
+        "title": "DR Planı ve Tatbikatları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DR planı, kağıt üzerinde değil; tatbikatla yaşayan bir süreçtir. Tatbikatlar, en çok “insan ve süreç” zayıflıklarını ortaya çıkarır: kim karar veriyor, hangi sırayla geri dönüyoruz, neyi önce açıyoruz?"
+          },
+          {
+            "type": "h3",
+            "text": "Failover ve geri dönme (rollback) testleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Failover: DR ortamına geçiş (kurtarma)",
+              "Rollback: ana ortama güvenli dönüş",
+              "Her ikisi de test edilmelidir; çünkü kriz sonrası “geri dönüş” en az “geçiş” kadar risklidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Tatbikat türleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tabletop (masa başı): senaryoyu konuşarak yürütme",
+              "Partial (kısmi): belirli bileşenleri test etme (DB restore, web restore)",
+              "Full (tam): DR ortamını gerçekten ayağa kaldırma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check : Tatbikat standardı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tatbikat takvimi var (aylık/çeyreklik)",
+              "Runbook güncel ve erişilebilir",
+              "Failover + rollback adımları test edildi",
+              "RPO/RTO ölçüldü ve raporlandı",
+              "Tatbikat sonrası aksiyon listesi kapatıldı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Tatbikat takvimi koy; “test edilmediyse yok say.”",
+              "Failover kadar rollback’i de test et.",
+              "RPO/RTO’yu ölç ve yönetimle paylaş (rapor).",
+              "Planı bakım-destek ve web geliştirme süreçleriyle birlikte ele al: https://dgtlface.com/tr/yazilim/bakim-ve-destek — https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-felaket-senaryolari",
+        "title": "Otel ve B2B İçin Örnek FELAKET Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DR planı senaryosuz olmaz. Senaryolar, önceliklendirmeyi ve test kapsamını belirler."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu — rezervasyon sisteminin çökmesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etki: rezervasyon akışı durur, çağrı merkezi yükü artar, gelir kaybı",
+              "Öncelik: rezervasyon/ödeme/availability uçları önce",
+              "Hedef: düşük RTO, yönetilebilir RPO",
+              "Aksiyon: DR ortamına geçiş + minimum işlev setiyle hizmeti sürdürme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu — portal/CRM kesintisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etki: müşteri hizmetleri ve satış süreçleri aksar",
+              "Öncelik: login, kritik kayıt akışları, entegrasyonlar",
+              "Hedef: iş saatleri SLA’sına uygun RTO",
+              "Aksiyon: kısmi restore veya failover + entegrasyon kuyruğu yönetimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Fark yaratan mini bölüm (Competitor Gap): “Yedek alın” seviyesini aşan 4 teslimat"
+          },
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğu zaman “yedek alın” der; gerçek DR için şu teslimatlar gerekir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "RPO/RTO hedef dokümanı (tier bazlı)",
+              "Offsite/topoloji ve erişim politikası",
+              "Restore/failover/rollback tatbikat raporları",
+              "Runbook + eskalasyon + iletişim planı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check : Felaket senaryosu hazırlığı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Senaryo bazlı öncelik listesi var (hangi servis önce?)",
+              "Minimum işlev seti tanımlı (MVP servis listesi)",
+              "İletişim planı ve sorumlular net",
+              "Tatbikat raporu ve iyileştirme backlog’u var",
+              "KVKK ve veri güvenliği kapsamı gözden geçirildi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "2 senaryoyu zorunlu test yap: rezervasyon çöküşü + portal kesintisi.",
+              "Minimum işlev setini belirle; her şeyi aynı anda kurtarmaya çalışma.",
+              "RPO/RTO’yu ölç; hedefle karşılaştır ve revize et.",
+              "DR’ı “süreç” olarak sahiplen: bakım-destek + release yönetimiyle bağla."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Sunucusu Yedekleme & DR Strateji Analizi Talep Et",
+            "text": "Yedeklerin saklama/erişim politikasını KVKK kapsamında doğru kurgulayıp veri güvenliği ve uptime riskini birlikte yönetmek isteyen yöneticiler için.",
+            "href": "/yazilim/sunucu-guvenlik"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "rpo-rto-yedek-turleri-ozeti",
+        "title": "İçerik İçi Tablo: RPO/RTO Hedefleri ve Yedek Türleri Özeti",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Tablo: Tier → RPO/RTO → Yedek Türü → Test Sıklığı",
+            "headers": [
+              "Sistem/Tier",
+              "RPO hedefi",
+              "RTO hedefi",
+              "Yedek türü kombinasyonu",
+              "Restore/Test sıklığı"
+            ],
+            "rows": [
+              [
+                "Tier-1 (Rezervasyon/Portal)",
+                "Dakika–saat bandı",
+                "Saat bandı",
+                "Snapshot + sık yedek + offsite",
+                "Aylık/çeyreklik"
+              ],
+              [
+                "Tier-2 (Entegrasyon/Backoffice)",
+                "Saat bandı",
+                "Saat–gün bandı",
+                "Full + incremental + offsite",
+                "Çeyreklik"
+              ],
+              [
+                "Tier-3 (İçerik/Statik)",
+                "Gün bandı",
+                "Gün bandı",
+                "Full + offsite",
+                "6 ayda bir"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "felaket-kurtarma-plani-yedekleme-checklist-sablonu",
+        "title": "Felaket Kurtarma Planı & Yedekleme Checklist Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Checklist + Sprint Plan İçeriği"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Felaket Kurtarma Planı & Yedekleme Checklist Şablonunu İndir — Yazılım / Sunucu ve Güvenlik (v1.0)",
+            "purpose": "Bu asset, DR’ı “yedek var” seviyesinden çıkarıp RPO/RTO hedefleriyle ölçülen, offsite’la ayrıştırılmış ve tatbikatla doğrulanmış bir modele dönüştürür. Tier bazlı önceliklendirme yaparak kritik sistemlerde hızlı geri dönüş sağlar. Restore/failover/rollback testlerini 14 günlük sprint planına bağlar.",
+            "whoFor": "BT/DevOps, sistem yöneticisi, otel operasyonu (kritik sistem sahibi) ve B2B portal/CRM ekipleri.",
+            "steps": [
+              "Tier-1/2/3 sistemleri çıkarıp RPO/RTO hedeflerini yaz.",
+              "Yedek türlerini ve offsite topolojisini seç; erişim politikasını ekle.",
+              "Restore/failover/rollback testlerini planla, sprintte uygula ve raporla."
+            ],
+            "checklist": [
+              "Tier sınıflandırma (rezervasyon/portal = Tier-1) yapıldı",
+              "Tier bazlı RPO/RTO hedefi onaylandı",
+              "DB + dosya + config kapsamı net",
+              "Full/incremental/snapshot kombinasyonu seçildi",
+              "Offsite (ayrık lokasyon/hesap) kuruldu",
+              "Erişim/şifre/yetki politikası yazıldı",
+              "Restore testi takvime bağlandı",
+              "Failover + rollback adımları runbook’ta",
+              "Tatbikat raporu ve iyileştirme backlog’u var",
+              "KVKK saklama/erişim kontrolü eklendi"
+            ],
+            "href": "/downloads/felaket-kurtarma-plani-yedekleme-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tier bazlı RPO/RTO dokümanı",
+              "Offsite topoloji + erişim politikası",
+              "Runbook (failover + rollback)",
+              "Tatbikat raporu + backlog"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Felaket Kurtarma Planı & Yedekleme Checklist Şablonunu İndir",
+            "text": "Ekibinizin tier bazlı RPO/RTO, yedek türleri ve restore/failover testlerini tek planla yazıp uygulanabilir hale getirmesini sağlar.",
+            "href": "/downloads/felaket-kurtarma-plani-yedekleme-checklist-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Yedekleme ile disaster recovery arasındaki fark nedir?",
+        "a": "Yedekleme verinin kopyasını tutar; disaster recovery ise bu kopyalarla sistemi belirlenen RPO/RTO hedeflerinde tekrar çalışır hale getirme planı ve testidir. DR; failover/rollback ve tatbikatları içerir."
+      },
+      {
+        "q": "RPO ve RTO ne demek, nasıl belirlenir?",
+        "a": "RPO kabul edilebilir veri kaybı miktarıdır; RTO ise ayağa kalkma süresidir. Kritik iş akışlarının (rezervasyon/portal) kesinti maliyetine göre hedef konur ve testlerle doğrulanır."
+      },
+      {
+        "q": "Web sunucusu için yedekleme stratejisi nasıl olmalı?",
+        "a": "DB, dosya sistemi ve config’i kapsayan; full + incremental/snapshot dengesi kuran ve offsite kopya içeren bir plan olmalıdır. En kritik kural: düzenli restore testleriyle geri dönüş süresini ölçmek."
+      },
+      {
+        "q": "Otel/B2B için felaket kurtarma planı nasıl hazırlanır?",
+        "a": "Önce Tier-1 sistemleri belirleyip RPO/RTO hedefi koyun, sonra offsite topolojiyi kurun. Runbook (failover+rollback) yazıp tatbikat takvimiyle planı test edin; sonuçlara göre iyileştirin."
+      },
+      {
+        "q": "Offsite yedek neden şart?",
+        "a": "Aynı lokasyondaki yedekler, felaket senaryosunda birlikte zarar görebilir. Offsite, fiziksel/hesap olarak ayrık bir kopya sunarak gerçek DR sağlar."
+      },
+      {
+        "q": "Restore testi ne sıklıkla yapılmalı?",
+        "a": "Kritik sistemlerde en az çeyreklik, yoğun risk dönemlerinde daha sık yapılması idealdir. Önemli olan takvime bağlamak ve her testten sonra rapor üretmektir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-hero-01.webp — Felaket kurtarma ve yedekleme stratejisi, otel ve B2B web sunucularında süreklilik modeli",
+          "h1-context — 1920×1080 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-h1-context-02.webp — RPO ve RTO hedefleriyle yedekleme planı, web altyapısında restore testleri ve hazırlık",
+          "divider-01 — 1600×1200 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-divider-03.webp — DR neden sadece yedekleme değildir, otel ve kurumsal projeler için bölüm ayırıcı",
+          "divider-02 — 1600×1200 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-divider-04.webp — Offsite yedek ve tatbikatlarla felaket kurtarma, web sunucuları için bölüm ayırıcı",
+          "diagram-05 — 1920×1080 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-diagram-05.webp — Prod→backup→offsite→DR ortamı akış diyagramı, otel ve B2B için felaket kurtarma modeli",
+          "checklist-06 — 1200×1200 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-checklist-06.webp — Yedekleme ve disaster recovery checklist’i, RPO/RTO ve restore testleriyle uygulanabilir plan",
+          "kpi-07 — 1200×1200 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-kpi-07.webp — RPO/RTO ve restore başarı KPI paneli, web sunucularında felaket kurtarma performansı",
+          "proof-08 — 1200×1200 — yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi-proof-08.webp — DR deliverable seti, runbook ve tatbikat raporlarıyla incident-ready süreklilik",
+          "table-tier-rpo-rto-backup-test — Tier → RPO/RTO → yedek türü → test sıklığı tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Tier-1/2/3 sistem sınıflandırması tamamlandı",
+          "Tier bazlı RPO/RTO hedefleri yönetim tarafından onaylandı",
+          "DB, dosya, config ve secrets kapsamı ayrı tanımlandı",
+          "Full/incremental/snapshot kombinasyonu RPO/RTO hedeflerine bağlı",
+          "Offsite yedek fiziksel lokasyon veya hesap olarak ayrık",
+          "Yedekler şifreli ve erişim yetkileri kısıtlı",
+          "Erişim, şifre ve yetki yönetimi runbook’ta yazılı",
+          "Restore testi aylık/çeyreklik takvime bağlı",
+          "Son 90 günde kritik sistem restore testi yapıldı",
+          "Failover ve rollback adımları test edildi",
+          "RPO/RTO sonuçları ölçüldü ve raporlandı",
+          "Tatbikat sonrası iyileştirme backlog’u kapatılıyor",
+          "Minimum işlev seti ve servis öncelikleri tanımlı",
+          "Eskalasyon ve iletişim planı güncel",
+          "KVKK saklama ve erişim politikası yedeklere uygulandı",
+          "Bakım-destek ve release süreçleri DR planına entegre",
+          "365 gün gözden geçirme planı tanımlı"
+        ]
+      }
+    }
   }
 }
