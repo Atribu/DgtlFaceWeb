@@ -168412,6 +168412,682 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi",
+
+      "name": "KVKK Dijital Farkındalık ve Çalışan Eğitimi İçin Teknik Oyun Kitabı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#article",
+
+      "headline": "KVKK Dijital Farkındalık ve Çalışan Eğitimi İçin Teknik Oyun Kitabı",
+
+      "description": "KVKK uyumu günlük dijital alışkanlıkla sağlanır. IT, pazarlama, satış ve çağrı merkezi için rol bazlı modüller ve senaryo eğitimleri kurun; yıllık takvimle hataları azaltın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "KVKK Employee Awareness",
+
+        "Role-Based Training",
+
+        "Digital Habits"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK dijital farkındalık ve rol bazlı çalışan eğitim programı danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#howto",
+
+      "name": "KVKK dijital farkındalık eğitimi nasıl planlanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Riskli iş akışlarını çıkar ve rolleri eşleştir",
+
+          "text": "Web/PMS/CRM/call center üzerinde riskli işlemleri (export, paylaşım, yetki) belirle; ekipleri rol bazında sınıflandır."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rol bazlı modülleri ve senaryo kartlarını hazırla",
+
+          "text": "Her rol için kısa modüller oluştur; gerçek ekran örnekleriyle hata→doğru→sonuç formatında senaryolar yaz ve mini quiz ile ölç."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yıllık takvim ve mikro hatırlatmalarla kalıcılaştır",
+
+          "text": "Onboarding + çeyrek tekrar + aylık mikro hatırlatma kurgusu kur; yılda en az bir tatbikat yap ve sonuçlara göre içerikleri güncelle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "KVKK Dijital Farkındalık ve Çalışan Eğitimi İçin Teknik Oyun Kitabı", "item": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK dijital farkındalık eğitimi nasıl planlanmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Riskli iş akışları çıkarılır, eğitim rol bazlı modüllere bölünür, gerçek senaryolar ve ekran örnekleriyle desteklenir; yıl içine yayılan tekrar ve mikro hatırlatmalarla kalıcılaştırılır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi ekipler için ayrı KVKK modülleri gerekir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "IT/BT, pazarlama, rezervasyon/ön büro, satış ve çağrı merkezi gibi ekipler ayrı modüller ister; çünkü dokundukları sistemler ve riskli işlemler farklıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B’de KVKK eğitim takvimi nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Onboarding + çeyrek tekrar + aylık mikro hatırlatma + yılda 1 tatbikat şeklinde planlanmalı; quiz ve vaka metrikleriyle ölçülmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Gerçek ekranlar ve senaryolarla KVKK eğitimi nasıl tasarlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Her modül için 3 senaryo kartı hazırlanır (hata→doğru→sonuç). Ekran örnekleriyle hangi ekranda ne yapmamalıyım netleştirilir ve mini quiz ile ölçülür." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama",
+
+      "name": "Veri Sahibi Başvuru Süreci İçin Teknik Akış ve Raporlama",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#article",
+
+      "headline": "Veri Sahibi Başvuru Süreci İçin Teknik Akış ve Raporlama",
+
+      "description": "Veri sahibi başvurularında kimlik doğrulamayı kurgulayın. Web, PMS, CRM, call center ve OTA’dan veriyi güvenli çekin; export formatı ve loglama ile KVKK DSR sürecini hızlandırın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Data Subject Requests",
+
+        "DSR Tech Flow",
+
+        "Identity Verification",
+
+        "System Exports"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Veri sahibi başvuru (DSR) süreçleri için teknik akış ve raporlama danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#howto",
+
+      "name": "KVKK veri sahibi başvurusu teknik olarak nasıl yönetilir?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Talebi topla ve kimliği doğrula",
+
+          "text": "DSR talebini tek kanalda kaydet; kayıtlı iletişim kanalı ve ek doğrulama adımlarıyla kimlik doğrulamasını tamamla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sistemlerden kişi bazlı veri çek",
+
+          "text": "Veri haritasına göre web, PMS, CRM, call center ve OTA gibi sistemlerde lookup yap; gerekli alanları minimum kapsamla export et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Güvenli export paketi hazırla ve logla",
+
+          "text": "PDF özet + CSV eklerden oluşan standard paket üret; güvenli paylaşım kanalını kullan; kim, ne zaman, hangi veriyi çekti ve paylaştı adımlarını logla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Veri Sahibi Başvuru Süreci İçin Teknik Akış ve Raporlama", "item": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri sahibi başvuru (KVKK DSR) süreci teknik olarak nasıl işler?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Talep alınır, kimlik doğrulanır, veri haritasına göre ilgili kişi verileri sistemlerden toplanır, güvenli export hazırlanır, adımlar loglanır ve kontrollü yanıt verilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi sistemlerden hangi verileri çekmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Web (form/consent), PMS (rezervasyon/misafir), CRM (lead/müşteri), call center (meta + notlar), OTA (varsa) ve e-posta izin kayıtları gibi kaynaklar veri haritasına göre seçilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kimlik doğrulama ve loglama adımlarını nasıl kurgularım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Doğrulamayı minimum veriyle ve kayıtlı kanallardan yapar; her doğrulama kararı ve veri çekme/export adımını ticket üzerinde loglarsınız." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "DSR’de en kritik teknik risk nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Yanlış kişiye veri vermektir. Bu yüzden kimlik doğrulama ve lookup eşleştirmesi iki aşamalı kontrolle yapılmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi",
+
+      "name": "Analitik ve BI Ortamlarında KVKK Uyumu: Anonimizasyon ve Pseudonimizasyon Teknik Bakışı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#article",
+
+      "headline": "Analitik ve BI Ortamlarında KVKK Uyumu: Anonimizasyon ve Pseudonimizasyon Teknik Bakışı",
+
+      "description": "GA4, Looker Studio ve data warehouse’ta kişisel veri riskini azaltın. İsim/iletişim alanlarını ID ile değiştirin; anonimleştirme, pseudonimizasyon ve maskeleme katmanıyla KVKK uyumlu raporlama kurun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Analytics & BI",
+
+        "Anonymisation",
+
+        "Pseudonymisation",
+
+        "Data Masking"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Analitik ve BI katmanında KVKK uyumu, anonim/pseudo model ve maskeleme danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#howto",
+
+      "name": "BI ortamında KVKK uyumu teknik olarak nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "PII alan kataloğunu çıkar ve sınıflandır",
+
+          "text": "GA4/Looker/warehouse ve export’larda kişisel veri alanlarını envantere al; risk türünü (kimlik/iletişim/adres/tanımlayıcı) belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Anon/pseudo ve masking katmanını tasarla",
+
+          "text": "Yönetim KPI raporlarında kişi alanlarını kaldır; operasyon raporlarında pseudo-ID kullan; masked privacy view katmanı oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişim ve export governance’ı uygula",
+
+          "text": "Rol bazlı erişim ve export yetkisi tanımla; export işlemlerini audit/log ile izle; kuralları yılda en az bir kez gözden geçir."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Analitik ve BI Ortamlarında KVKK Uyumu: Anonimizasyon ve Pseudonimizasyon Teknik Bakışı", "item": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Anonimizasyon ve pseudonimizasyon nedir, farkları nelerdir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Anonimizasyon kişiyi geri döndürülemez şekilde kimliksizleştirir; pseudonimizasyon ise kişiyi doğrudan göstermeden bir ID üzerinden tutarlı analiz yapmayı sağlar." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "BI ve raporlama ortamlarında hangi alanları maskelemeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "İsim, e-posta, telefon, açık adres, kimlik numarası (varsa) ve serbest metin not alanları ilk sıradadır; cihaz/cookie gibi tanımlayıcılar da kullanım amacına göre kontrol edilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Looker/BI raporlarımızda isim vs görünüyor, risk mi?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet olabilir. İsim/iletişim alanlarını kaldırmak veya maskelemek, raporlamayı pseudo-ID üzerinden kurgulamak ve export erişimini kısıtlamak riski düşürür." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Data warehouse’da KVKK uyumu teknik olarak nasıl sağlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "PII alan kataloğu çıkarılır, privacy view (masked) katmanı oluşturulur, dashboard’lar bu katmandan beslenir; erişim ve export’lar audit/log ile yönetilir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
 }
     },
   },

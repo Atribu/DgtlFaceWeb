@@ -45528,5 +45528,2049 @@
         ]
       }
     }
+  },
+
+  "BlogKvkkDijitalFarkindalikVeCalisanEgitimiIcinTeknikOyunKitabi": {
+    "title": "KVKK Çalışan Eğitimi ve Dijital Farkındalık",
+    "slug": "kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KVKK uyumu günlük dijital alışkanlıkla sağlanır. IT, pazarlama, satış ve çağrı merkezi için rol bazlı modüller ve senaryo eğitimleri kurun; yıllık takvimle hataları azaltın.",
+    "seo": {
+      "metaTitle": "KVKK Çalışan Eğitimi ve Dijital Farkındalık | DGTLFACE",
+      "metaDescription": "KVKK uyumu günlük dijital alışkanlıkla sağlanır. IT, pazarlama, satış ve çağrı merkezi için rol bazlı modüller ve senaryo eğitimleri kurun; yıllık takvimle hataları azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #11 — https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi"
+      ],
+      "strategySummary": "Bu blog, KVKK uyumunun “politika dokümanı” değil, her gün sistemlere giren insanların dijital alışkanlıkları ile sağlandığını anlatan Core içeriktir. Hedef persona; otel sahibi/GM, operasyon lideri, ajans yöneticisi ve IT/BT yöneticisidir; “ekip KVKK’yı biliyor ama uygulamıyor” sorununu çözmek ister. Funnel’da MoFu ve stratejik kültür inşası seviyesindedir: rol bazlı modüller, senaryo simülasyonları ve yıllık eğitim takvimiyle kurumsal hijyen sağlar. Ana iş sorusu: web/PMS/CRM/call center gibi sistemlere dokunan herkes için “kim, neyi, ne sıklıkta” öğrenecek şekilde teknik bir KVKK oyun kitabını nasıl kurarız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "KVKK uyumu yalnızca politika dokümanlarıyla değil, web/PMS/CRM ve çağrı merkezi ekranlarına her gün giren kişilerin dijital alışkanlıklarıyla sağlanır. Bu yüzden KVKK farkındalık eğitimi teknik bir konudur: rol bazlı modüller (IT, pazarlama, rezervasyon, satış, call center), gerçek ekran örnekleri, “ne yapmamalıyım” senaryoları ve yıl içine yayılan tekrarlar gerekir. Bu oyun kitabı, insan hatasından doğan yanlış paylaşım ve veri sızıntısı riskini düşürür.",
+      "sgeSummary": "Rol bazlı KVKK eğitim modülleri oluştur; gerçek ekran/senaryo kullan; “ne yapmamalıyım” örneklerini öğret; yıllık takvim ve mikro hatırlatmalarla davranışı kalıcılaştır.",
+      "voiceAnswer": "Eğitimi role göre bölün; gerçek senaryolarla öğretin ve yıl boyunca kısa tekrarlarla alışkanlığa çevirin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B yönetimi, IT/BT, pazarlama, satış, rezervasyon, çağrı merkezi, İK",
+        "KPI: Eğitim tamamlama, yanlış paylaşım vakaları, erişim ihlali riskleri, incident sayısı, “ne yapmamalıyım” hata oranı",
+        "Entity: rol, sistem (web/PMS/CRM), riskli işlem türleri, eğitim modülü, tekrar frekansı",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Awareness → Operational hygiene → Risk reduction",
+        "Çıktı: Rol–modül tablosu + yıllık eğitim takvimi diyagramı + KVKK eğitim checklist",
+        "Not: Bu hukuki eğitim değil; teknik/dijital davranış odaklı farkındalık programıdır."
+      ]
+    },
+    "h1": {
+      "title": "KVKK Dijital Farkındalık ve Çalışan Eğitimi İçin Teknik Oyun Kitabı",
+      "intro": "KVKK uyumu çoğu kurumda “doküman var” seviyesinde kalır; asıl problem ise günlük iş akışında yaşanır: ekran görüntüsü WhatsApp’tan paylaşılır, yanlış e-posta zincirine misafir listesi eklenir, CRM export’u masaüstünde açık kalır, çağrı merkezi notlarına gereksiz hassas bilgi yazılır. Bu yüzden KVKK dijital farkındalık, hukuki bir seminerden çok operasyonel hijyen ve teknik davranış konusudur.\n\nOtel ve B2B kurumlarda veri, web/PMS/CRM/call center gibi sistemler arasında dolaşır; bu sistemlere dokunan herkesin “minimum veri, doğru paylaşım, doğru erişim” prensiplerini günlük pratikte uygulaması gerekir. Bu rehber; rol bazlı eğitim modülleri, gerçek senaryolar, “ne yapmamalıyım” örnekleri ve yıllık eğitim takvimiyle KVKK’yı teoriden pratiğe taşımak için bir oyun kitabı sunar.",
+      "quickSummary": [
+        "1) Son 6 ayda yaşanan “yakın kaza”ları toplayın (yanlış e-posta, export vb.).",
+        "2) Bunları modüllere senaryo olarak dağıtın.",
+        "3) Rol bazlı eğitim matrisini çıkarın (kim hangi modülü alır).",
+        "4) Yıllık takvim koyun (çeyrek tekrarlar + aylık mikro).",
+        "5) KVKK veri güvenliği yönetimiyle hizalayın."
+      ],
+      "ctaPrimary": {
+        "label": "KVKK Eğitim & Farkındalık Programı Analizi Talep Et",
+        "text": "Rollerinize ve sistemlerinize göre modülleri ve yıllık takvimi çıkarıp, senaryo bazlı eğitim oyun kitabını birlikte kurgulayalım. (Kim için: İK + BT + operasyon)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "KVKK Eğitim & Farkındalık Programı Analizi Talep Et",
+        "text": "Rollere göre eğitim modülleri ve senaryo bazlı oyun kitabı kurar; insan hatasına bağlı riskleri azaltır.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "KVKK Dijital Farkındalık Eğitim Planı & Rol Bazlı Modül Şablonunu İndir",
+        "text": "Rol–modül matrisini ve yıllık takvimi standardize eder; İK ve BT’nin aynı program üzerinden ilerlemesini sağlar.",
+        "href": "/downloads/kvkk-dijital-farkindalik-egitim-plani-rol-bazli-modul-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK veri güvenliği yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "PMS ve OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK Veri Güvenliği Yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "Çağrı Merkezi Hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      },
+      {
+        "title": "PMS ve OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kvkk-dijital-farkindalik-teknik-konu",
+        "title": "KVKK Dijital Farkındalık Neden Teknik Bir Konudur? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "KVKK dijital farkındalık eğitimi nasıl planlanmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: önce riskli iş akışlarını (web/PMS/CRM/call center) çıkarın, sonra eğitimleri rol bazlı modüllere bölün, her modülü gerçek senaryolarla (ekran/örnek) destekleyin ve yıl içine yayılan tekrarlarla davranışı kalıcılaştırın. KVKK’da “en çok hata” noktaları çoğu zaman teknik ekranlarda olur: export, paylaşım, yetkilendirme, log/kanıt, form verisi."
+          },
+          {
+            "type": "h3",
+            "text": "Dijital farkındalık = “doğru davranış + doğru süreç”"
+          },
+          {
+            "type": "p",
+            "text": "Bu programın amacı çalışanı hukuk metniyle boğmak değil; “hangi ekranda hangi davranış doğru”yu öğretmektir. Örneğin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CRM’de export yaparken kapsamı daralt",
+              "Ekran görüntüsünde kişisel veriyi maskele",
+              "Yetkisiz erişim görürsen kime escalete edeceğini bil",
+              "Misafir listesi paylaşırken güvenli kanal kullan"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik farkındalık ile güvenlik kültürü aynı çizgide"
+          },
+          {
+            "type": "p",
+            "text": "Basit insan hatasından kaynaklanan veri sızıntısı ve yanlış paylaşım vakaları, kurum kültürü oturdukça azalır. Bu nedenle eğitim tek seferlik seminer değil; yıl boyunca “mikro hatırlatmalarla” desteklenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Riskli iş akışları listelendi mi? (export, paylaşım, erişim)",
+              "Eğitim modülleri rol bazlı mı?",
+              "Gerçek senaryolar ve ekran örnekleri var mı?",
+              "“Ne yapmamalıyım” örnekleri net mi?",
+              "Yıllık tekrar planı ve mikro hatırlatma kurgusu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Son 6 ayda yaşanan “yakın kaza”ları toplayın (yanlış e-posta, export vb.).",
+              "Bunları modüllere senaryo olarak dağıtın.",
+              "Rol bazlı eğitim matrisini çıkarın (kim hangi modülü alır).",
+              "Yıllık takvim koyun (çeyrek tekrarlar + aylık mikro).",
+              "KVKK veri güvenliği yönetimiyle hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rol-bazli-kvkk-egitim-matrisi",
+        "title": "Hangi Rollerin Hangi Eğitimlere İhtiyacı Var? (Rol Bazlı Matris) ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hangi ekipler için ayrı KVKK modülleri gerekir?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: IT/BT, pazarlama, rezervasyon/ön büro, satış, çağrı merkezi ve yönetim; çünkü riskli ekranlar ve işlem türleri farklıdır. Aynı eğitimi herkese vermek verimsizdir; “role göre kısa ve net” eğitim daha kalıcıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Rol bazlı modül seti (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "M0 – Temel dijital hijyen (tüm ekip): minimum veri, güvenli paylaşım, şifre/MFA, ekran görüntüsü kuralları",
+              "M1 – Web & form verisi (pazarlama + web): form alanları, consent, GTM/script riskleri",
+              "M2 – PMS & rezervasyon (ön büro + rezervasyon + yönetim): misafir verisi, notlar, export, yetki",
+              "M3 – CRM & satış (satış + yönetim): lead, pipeline, teklif/sözleşme dosyaları, paylaşım",
+              "M4 – Call center (çağrı merkezi): konuşma notları, kimlik doğrulama, kayıt paylaşımı",
+              "M5 – IT/BT (IT): erişim kontrolü, loglama, incident response, audit prep"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Rol–modül eşlemesinde “gerekli minimum” yaklaşımı"
+          },
+          {
+            "type": "p",
+            "text": "Herkese her şeyi öğretmek yerine; herkesin “kendi ekranında” doğru davranışı öğrenmesi hedeflenmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Eğitim modülleri ve hedef rolleri tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Eğitim modülleri ve hedef rolleri",
+            "headers": [
+              "Rol",
+              "Dokunduğu sistem",
+              "Modül",
+              "Senaryolar",
+              "Frekans",
+              "Owner"
+            ],
+            "rows": [
+              [
+                "Tüm ekip",
+                "Web/PMS/CRM/Call Center/BI",
+                "M0 – Temel dijital hijyen",
+                "Minimum veri, güvenli paylaşım, şifre/MFA, ekran görüntüsü kuralları",
+                "Onboarding + çeyrek tekrar + aylık mikro",
+                "İK + BT"
+              ],
+              [
+                "Pazarlama + web",
+                "Web",
+                "M1 – Web & form verisi",
+                "Form alanları, consent, GTM/script riskleri",
+                "Onboarding + çeyrek tekrar + aylık mikro",
+                "Pazarlama + web + BT"
+              ],
+              [
+                "Ön büro + rezervasyon + yönetim",
+                "PMS",
+                "M2 – PMS & rezervasyon",
+                "Misafir verisi, notlar, export, yetki",
+                "Onboarding + çeyrek tekrar + aylık mikro",
+                "Operasyon + BT"
+              ],
+              [
+                "Satış + yönetim",
+                "CRM",
+                "M3 – CRM & satış",
+                "Lead, pipeline, teklif/sözleşme dosyaları, paylaşım",
+                "Onboarding + çeyrek tekrar + aylık mikro",
+                "Satış + BT"
+              ],
+              [
+                "Çağrı merkezi",
+                "Call Center",
+                "M4 – Call center",
+                "Konuşma notları, kimlik doğrulama, kayıt paylaşımı",
+                "Onboarding + çeyrek tekrar + aylık mikro",
+                "Çağrı merkezi + BT"
+              ],
+              [
+                "IT/BT",
+                "Web/PMS/CRM/Call Center/BI",
+                "M5 – IT/BT",
+                "Erişim kontrolü, loglama, incident response, audit prep",
+                "Onboarding + çeyrek tekrar + yıllık tatbikat",
+                "IT/BT"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Modüller rol bazlı ayrıldı mı?",
+              "Her rol için zorunlu modül listesi var mı?",
+              "Modül süreleri kısa ve uygulanabilir mi?",
+              "Yetki/exportriskleri rol bazında anlatılıyor mu?",
+              "Yeni başlayanlar için onboarding akışı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol–modül matrisini tabloya dökün (İK + BT ortak sahiplik).",
+              "Her modülü 20–40 dk mikro derslere bölün.",
+              "Yeni çalışan onboarding’ine M0 + ilgili rol modülünü ekleyin.",
+              "Ölçüm koyun (quiz + senaryo testi).",
+              "PMS/OTA süreçleriyle bağlayın: https://dgtlface.com/tr/pms-ota-yonetimi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "senaryo-bazli-kvkk-egitimi",
+        "title": "Web, PMS, CRM ve Çağrı Merkezi İçin Senaryo Bazlı Eğitim (Gerçek Hayat)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Eğitimlerin kalıcı olması için “senaryo” gerekir. Senaryo; bir ekran, bir hata, bir doğru davranış ve bir sonuçtan oluşur. Otel ve B2B’de en sık senaryolar; export/paylaşım, yanlış yetki, hassas not, yanlış kanal kullanımı ve şüpheli erişimdir."
+          },
+          {
+            "type": "h3",
+            "text": "Web senaryoları (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Formdan gelen lead verisini e-posta ile ekip içinde paylaşmak yerine CRM linkiyle paylaşmak",
+              "Consent yokken reklam tag’lerini devreye almamak",
+              "Ekran görüntüsünde kişisel veriyi blur/maskeleme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "PMS senaryoları (otel)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir kartında “not” alanına gereksiz hassas veri girmemek",
+              "Rezervasyon listesi export’unda kapsamı daraltmak",
+              "Yetkisiz erişim görünce kime bildireceğini bilmek"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "CRM senaryoları (B2B)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teklif dosyalarını herkese açık linkle paylaşmamak",
+              "Lead listesinde gereksiz kişisel alanları doldurmamak",
+              "Export’u audit’li ve minimum kapsamla yapmak"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Call center senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Telefonla kimlik doğrulamada minimum veri kullanmak",
+              "Görüşme notlarını “gereksiz hassas bilgi” içermeyecek şekilde yazmak",
+              "Kayıt paylaşımında güvenli kanal kullanmak"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her sistem için en az 3 senaryo hazır mı?",
+              "“Yanlış davranış → doğru davranış” karşılaştırması var mı?",
+              "Ekran görüntüsü/mokap ile gösteriliyor mu?",
+              "Şüpheli olay escalation adımı var mı?",
+              "Senaryo sonunda mini quiz var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her rol için 3 senaryo seçin (toplam 15–20 senaryo).",
+              "Senaryoları “1 ekran + 1 hata + 1 doğru” formatında yazın.",
+              "“Ne yapmamalıyım” listesini senaryolardan türetin.",
+              "Çağrı merkezi özelinde eğitim modülünü bağlayın: https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+              "KVKK veri güvenliği raporlama ile hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yillik-egitim-takvimi-mikro-hatirlatmalar",
+        "title": "Yıllık Eğitim Takvimi ve Mikro Hatırlatmalar: Davranışı Kalıcılaştırmak ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de KVKK eğitim takvimi nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: onboarding + çeyrek tekrar + aylık mikro hatırlatma + yılda 1 tatbikat (incident/audit provası) şeklinde kurgulanmalı. Bu, “unutma eğrisi”ni kırar ve davranışı kültüre çevirir."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen takvim (pratik model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Onboarding: ilk 2 hafta içinde M0 + rol modülü",
+              "Çeyrek tekrar: 30 dakikalık “top 5 hata” oturumu",
+              "Aylık mikro: 3–5 dakikalık kısa hatırlatma (e-posta/Slack/poster)",
+              "Yıllık tatbikat: incident response veya audit prep provası"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ölçüm: eğitim var mı değil, davranış değişti mi?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mini quiz skorları",
+              "Yanlış paylaşım vakaları",
+              "Export/audit log uygunsuzlukları",
+              "Şüpheli olay bildirim sayısı (artması bazen iyidir)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Data Point (yumuşatılmış): Dijital KVKK eğitim programı olan kurumlarda, basit insan hatasından kaynaklanan veri sızıntısı ve yanlış paylaşım vakaları anlamlı şekilde azalır; çünkü “doğru davranış” standartlaşır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "KVKK Eğitim & Farkındalık Programı Analizi Talep Et",
+            "text": "Takvimi, modülleri ve senaryoları kurumunuza göre tasarlayıp, ölçülebilir bir program kuralım. (Kim için: İK + BT + operasyon)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Onboarding akışı yazılı",
+              "Çeyrek tekrar oturumları planlı",
+              "Aylık mikro hatırlatma formatı belli",
+              "Yılda 1 tatbikat takvime eklendi",
+              "Ölçüm metrikleri (quiz + vaka) tanımlı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yıllık takvimi 4 çeyreğe bölüp modülleri dağıtın.",
+              "Her ay tek bir “mikro mesaj” seçin (export, ekran görüntüsü, MFA…).",
+              "Yılda 1 “audit prep” veya “incident response” provası yapın.",
+              "Sonuçları raporlayın ve güncelleyin (365 gün refresh).",
+              "Veri analiz/raporlama disiplinleriyle bağlayın: https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-egitim-oyun-kitabi-playbook",
+        "title": "KVKK Eğitim Oyun Kitabı: İçerik Yapısı, “Ne Yapmamalıyım” Listesi ve Playbook",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, modülleri “paket” haline getirir: eğitim materyali şablonu, senaryo kartları, ekran örnekleri ve “ne yapmamalıyım” listesini tek çatı altında toplar. Rakip içerikler çoğunlukla genel seminer düzeyinde kalır; bu oyun kitabı ise sistem bazlı teknik pratik üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Her modülün standardı (1 sayfa)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Amaç (2 cümle)",
+              "Riskli işlemler (3–5 madde)",
+              "3 senaryo kartı (hata → doğru)",
+              "“Ne yapmamalıyım” listesi",
+              "Mini quiz (5 soru)",
+              "Eskalasyon/iletişim (kime bildireceğim?)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Ne yapmamalıyım?” örnek listesi (seçme)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir/lead listesini WhatsApp’tan paylaşma",
+              "Export’u tüm veriyle alma (kapsam daralt)",
+              "Ekran görüntüsünde kişisel veriyi maskelemeden paylaşma",
+              "Yetkisiz kişiye panel hesabı açma",
+              "Şüpheli erişimi “görmezden gelme”"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO: tek “eğitim modeli” paragrafı"
+          },
+          {
+            "type": "p",
+            "text": "Rol, sistem (web/PMS/CRM), riskli işlem türleri ve eğitim modülü; tek bir eğitim modeli içinde bağlanmalıdır: rol → temas ettiği sistem → yaptığı riskli işlemler → modül/senaryo → tekrar. Bu model kurulduğunda, yeni bir sistem (yeni CRM, yeni call center yazılımı) eklendiğinde sadece ilgili modül güncellenir."
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Bu içerik hukuki eğitim değil; teknik/dijital davranış odaklı farkındalık programıdır. Hukuki yorumlar ve mevzuat detayları hukuk danışmanı tarafından verilmelidir."
+          }
+        ]
+      },
+      {
+        "id": "kvkk-dijital-farkindalik-egitim-plani-sablonu",
+        "title": "KVKK Dijital Farkındalık Eğitim Planı & Rol Bazlı Modül Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Template İçeriği"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "KVKK Dijital Farkındalık Eğitim Planı & Rol Bazlı Modül Şablonunu İndir — Yazılım / Awareness (v1.0)",
+            "purpose": "Bu şablon, KVKK farkındalık eğitimini genel seminer olmaktan çıkarıp rol ve sistem bazında uygulanabilir hale getirir. IT, pazarlama, satış, rezervasyon ve çağrı merkezi için modül içerik iskeleti, senaryo kartları ve yıllık tekrar takvimini standardize eder. Amaç; KVKK’yı günlük dijital alışkanlığa dönüştürmektir.",
+            "whoFor": "İK + BT/IT + operasyon liderleri (otel ve B2B).",
+            "steps": [
+              "Roller ve dokundukları sistemleri eşleştir (web/PMS/CRM/call center).",
+              "Modül şablonunu doldur (riskli işlemler + senaryo + “ne yapmamalıyım”).",
+              "Yıllık takvimi oluştur (onboarding + çeyrek tekrar + aylık mikro + yılda 1 tatbikat)."
+            ],
+            "checklist": [
+              "Onboarding akışı yazılı",
+              "Rol–modül matrisi tamam",
+              "Her rol için 3 senaryo hazır",
+              "Aylık mikro hatırlatmalar planlı",
+              "Yıllık tatbikat takvimde",
+              "Ölçüm KPI’ları tanımlı (quiz + vaka)"
+            ],
+            "href": "/downloads/kvkk-dijital-farkindalik-egitim-plani-rol-bazli-modul-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "KVKK Dijital Farkındalık Eğitim Planı & Rol Bazlı Modül Şablonunu İndir",
+            "text": "Rol–modül matrisini ve yıllık takvimi standardize eder; İK ve BT’nin aynı program üzerinden ilerlemesini sağlar.",
+            "href": "/downloads/kvkk-dijital-farkindalik-egitim-plani-rol-bazli-modul-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK dijital farkındalık eğitimi nasıl planlanmalı?",
+        "a": "Riskli iş akışları çıkarılır, eğitim rol bazlı modüllere bölünür, gerçek senaryolar ve ekran örnekleriyle desteklenir; yıl içine yayılan tekrar ve mikro hatırlatmalarla kalıcılaştırılır."
+      },
+      {
+        "q": "Hangi ekipler için ayrı KVKK modülleri gerekir?",
+        "a": "IT/BT, pazarlama, rezervasyon/ön büro, satış ve çağrı merkezi gibi ekipler ayrı modüller ister; çünkü dokundukları sistemler ve riskli işlemler farklıdır."
+      },
+      {
+        "q": "Otel ve B2B’de KVKK eğitim takvimi nasıl olmalı?",
+        "a": "Onboarding + çeyrek tekrar + aylık mikro hatırlatma + yılda 1 tatbikat şeklinde planlanmalı; ölçüm KPI’larıyla takip edilmelidir."
+      },
+      {
+        "q": "Gerçek ekranlar ve senaryolarla KVKK eğitimi nasıl tasarlanır?",
+        "a": "Her modül için 3 senaryo kartı hazırlanır (hata→doğru→sonuç). Ekran örnekleriyle “hangi ekranda ne yapmamalıyım” netleştirilir ve mini quiz ile ölçülür."
+      },
+      {
+        "q": "“Ne yapmamalıyım” listesi neden kritik?",
+        "a": "Çünkü en yaygın veri sızıntıları basit alışkanlıklardan doğar (yanlış paylaşım, geniş export, ekran görüntüsü). Liste, pratikte net sınır koyar."
+      },
+      {
+        "q": "Eğitimde başarıyı nasıl ölçerim?",
+        "a": "Quiz skorları, yanlış paylaşım vakaları, export/audit uygunsuzlukları ve şüpheli olay bildirimlerinin trendi ile ölçülebilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-hero-01.webp — KVKK dijital farkındalık eğitim oyun kitabı, otel ve B2B ekipleri",
+          "h1-context — 1920×1080 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-h1-context-02.webp — Günlük KVKK dijital davranışları, web PMS CRM senaryoları bağlamı",
+          "divider-01 — 1600×1200 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-divider-03.webp — Senaryo bazlı eğitim bölümü ayırıcı, otel ve B2B süreçleri",
+          "divider-02 — 1600×1200 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-divider-04.webp — Yıllık eğitim takvimi bölümü ayırıcı, KVKK kültür programı",
+          "diagram-05 — 1920×1080 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-diagram-05.webp — Yıllık KVKK eğitim takvimi diyagramı, rol bazlı tekrarlar",
+          "checklist-06 — 1200×1200 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-checklist-06.webp — KVKK eğitim checklist kartı, rol bazlı modül ve mikro hatırlatma",
+          "kpi-07 — 1200×1200 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-kpi-07.webp — Eğitim tamamlama ve hata azalımı KPI paneli, KVKK farkındalık ölçümü",
+          "proof-08 — 1200×1200 — kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi-proof-08.webp — Eğitim materyali ve senaryo kartları deliverables, otel ve B2B",
+          "table-training-modules-roles — Eğitim modülleri ve hedef rolleri tablosu (Rol | Dokunduğu sistem | Modül | Senaryolar | Frekans | Owner)"
+        ],
+        "technicalChecklist": [
+          "Riskli iş akışları listelendi (export, paylaşım, erişim)",
+          "Eğitim modülleri rol bazlı ayrıldı",
+          "Gerçek senaryolar ve ekran örnekleri hazır",
+          "“Ne yapmamalıyım” örnekleri net",
+          "Yıllık tekrar planı ve mikro hatırlatma kurgusu var",
+          "Yeni çalışanlar için onboarding akışı yazılı",
+          "Her rol için zorunlu modül listesi var",
+          "Her sistem için en az 3 senaryo hazır",
+          "Senaryo sonunda mini quiz var",
+          "Çeyrek tekrar oturumları planlı",
+          "Yılda 1 tatbikat takvime eklendi",
+          "Ölçüm KPI’ları tanımlı (quiz + vaka)",
+          "Rol–modül matrisi tamam",
+          "Aylık mikro hatırlatmalar planlı",
+          "Hukuki yorumlar ve mevzuat detayları hukuk danışmanıyla netleştirildi",
+          "365 gün refresh planı tanımlı"
+        ]
+      }
+    }
+  },
+
+   "BlogVeriSahibiBasvuruSureciIcinTeknikAkisVeRaporlama": {
+    "title": "KVKK DSR Teknik Akış ve Raporlama Rehberi",
+    "slug": "veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Veri sahibi başvurularında kimlik doğrulamayı kurgulayın. Web, PMS, CRM, call center ve OTA’dan veriyi güvenli çekin; export formatı ve loglama ile KVKK DSR sürecini hızlandırın.",
+    "seo": {
+      "metaTitle": "KVKK DSR Teknik Akış ve Raporlama Rehberi | DGTLFACE",
+      "metaDescription": "Veri sahibi başvurularında kimlik doğrulamayı kurgulayın. Web, PMS, CRM, call center ve OTA’dan veriyi güvenli çekin; export formatı ve loglama ile KVKK DSR sürecini hızlandırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #12 — https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama"
+      ],
+      "strategySummary": "Bu blog, TR’de DSR (veri sahibi başvurusu) içeriklerinin çoğunlukla “haklar/süre” seviyesinde kaldığı yerde, çok sistemli otel/B2B yapılarda teknik akışı netleştiren Core rehberdir. Hedef persona; otel sahibi/GM, KVKK/uyum sorumlusu ve IT/yazılım lideridir; “talep geldiğinde ilgili veriyi hızlı bulup doğru cevaplamak” ister. Funnel’da MoFu ve operasyonel uygulama aşamasındadır: kimlik doğrulama, sistem tarama, export ve loglamayı standardize eder. Ana iş sorusu: DSR geldiğinde web/PMS/CRM/call center/OTA gibi sistemlerden veriyi güvenli şekilde nasıl toplayıp, iz bırakarak nasıl cevaplarız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Veri sahibi başvurularında (erişim, düzeltme, silme vb.) en büyük risk; ilgili kişinin verisinin hangi sistemlerde olduğunu hızlı bulamamaktır. KVKK DSR için teknik akış; talebin toplanması (web/e-posta/call center), kimlik doğrulama, web–PMS–CRM–call center–OTA gibi sistemlerden kişi bazlı veri çekme, güvenli export (CSV/PDF) ve tüm adımların loglanmasıdır. İyi haritalanmış DSR akışı, yanıt süresini kısaltır ve eksik/yanlış cevap riskini azaltır.",
+      "sgeSummary": "DSR’de: talebi topla → kimliği doğrula → sistemlerden kişi bazlı veri çek → güvenli export hazırla → tüm adımları logla → kontrollü yanıtla.",
+      "voiceAnswer": "Kimliği doğrulayın, ilgili veriyi tüm sistemlerden toplayın, export edin ve her adımı loglayarak yanıtlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: KVKK/uyum, IT/BT, operasyon, çağrı merkezi, otel/B2B yönetimi",
+        "KPI: Veri bulma süresi, yanıt süresi, eksik veri oranı, yanlış kişi riski, log bütünlüğü",
+        "Entity: DSR request, identity verification, system exports, web/PMS/CRM/call center/OTA, audit logs",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Operational readiness → Response execution → Auditability",
+        "Çıktı: Swimlane DSR akışı + sistem–alan tablosu + DSR teknik checklist",
+        "Not: Hangi verinin hangi hukuki kategoride olduğu ve ne kadarının paylaşılacağı hukuk danışmanıyla netleştirilmelidir; bu yazı teknik akış odaklıdır."
+      ]
+    },
+    "h1": {
+      "title": "Veri Sahibi Başvuru Süreci İçin Teknik Akış ve Raporlama",
+      "intro": "Veri sahibi başvuruları (DSR) geldiğinde, kurumun gerçek olgunluğu ortaya çıkar: “İlgili kişinin verisi nerede?” sorusuna hızlı cevap veremeyen kurumlar, süreyi kaçırma ve eksik/yanlış cevap verme riski taşır. Özellikle otel ve B2B yapılarda veri tek sistemde değildir; web formları, PMS/rezervasyon motoru, CRM, çağrı merkezi, OTA ve e-posta kanalları arasında dağılır. Bu da DSR’yi “tek tuşla export” işinden çıkarıp, çok sistemli arama + kimlik doğrulama + kontrollü paylaşım sürecine dönüştürür.\n\nBu rehber; hukuk metinleri yerine teknik-operasyonel akışı anlatır: talep toplama, kimlik doğrulama, sistem bazlı veri çekme, export formatı, loglama ve raporlama. Amaç; BT ve KVKK ekibinin birlikte çalışacağı, panik yerine prosedürle ilerleyen bir DSR playbook’u kurmaktır.",
+      "quickSummary": [
+        "1) DSR talepleri için tek “ticket” sistemi belirleyin.",
+        "2) Kimlik doğrulama checklist’i yazın (minimum veri + güvenli).",
+        "3) Sistem lookup listesini çıkarın (web/PMS/CRM/call center/OTA).",
+        "4) Export paketini standardize edin (CSV/PDF).",
+        "5) KVKK veri güvenliği çerçevesiyle bağlayın."
+      ],
+      "ctaPrimary": {
+        "label": "Veri Sahibi Başvuru Süreci & Teknik Akış Analizi Talep Et",
+        "text": "DSR geldiğinde hangi sistemden hangi veriyi nasıl çekeceğinizi ve nasıl loglayacağınızı birlikte standartlaştıralım. (Kim için: KVKK + BT)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Veri Sahibi Başvuru Süreci & Teknik Akış Analizi Talep Et",
+        "text": "DSR kimlik doğrulama, çoklu sistem veri çekme ve export paketini standardize eder; süre ve hata riskini azaltır.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "Veri Sahibi Başvuru (DSR) Sistem & Veri Alanları Planlama Şablonunu İndir",
+        "text": "Hangi sistemden hangi veri alanlarının çekileceğini netleştirir; lookup anahtarları ve export formatını standardize eder.",
+        "href": "/downloads/veri-sahibi-basvuru-dsr-sistem-veri-alanlari-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK veri güvenliği yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "PMS ve OTA yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "label": "Çağrı merkezi hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK Veri Güvenliği Yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "PMS ve OTA Yönetimi",
+        "href": "/pms-ota-yonetimi"
+      },
+      {
+        "title": "Çağrı Merkezi Hizmetleri",
+        "href": "/cagri-merkezi-hizmetleri"
+      }
+    ],
+    "sections": [
+      {
+        "id": "veri-sahibi-basvurusu-dsr-teknik-akis",
+        "title": "Veri Sahibi Başvurusu (DSR) Nedir? Teknik Olarak Nasıl İşler? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "Veri sahibi başvuru (KVKK DSR) süreci teknik olarak nasıl işler?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: talep alınır, kimlik doğrulanır, veri haritasına göre ilgili kişi verileri sistemlerden toplanır, güvenli export hazırlanır, tüm adımlar loglanır ve kontrollü yanıt verilir. Teknik tarafta en kritik iki risk vardır: (1) yanlış kişiye veri vermek (kimlik doğrulama zayıf), (2) eksik veri vermek (sistem taraması eksik)."
+          },
+          {
+            "type": "h3",
+            "text": "DSR’nin “teknik kontrol noktaları”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep kanalı (web form, e-posta, call center)",
+              "Kimlik doğrulama yöntemi",
+              "Sistem arama/lookup (çoklu sistem)",
+              "Export formatı ve kapsam",
+              "Yanıt kanalı ve güvenliği",
+              "Süreç logları ve kanıt"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de DSR neden daha zor?"
+          },
+          {
+            "type": "p",
+            "text": "Çünkü “tek müşteri kaydı” yoktur: misafir rezervasyonu PMS’de, web form kaydı ayrı yerde, çağrı merkezi notları başka sistemde olabilir. B2B’de ise lead CRM’de, sözleşme doküman yönetiminde, e-posta kayıtları farklı araçta durabilir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DSR talepleri tek bir kanalda toplanıyor mu?",
+              "Kimlik doğrulama adımları yazılı mı?",
+              "Veri haritası DSR için işaretlendi mi? (hangi sistem?)",
+              "Export formatları ve güvenli paylaşım yöntemi var mı?",
+              "Süreç boyunca log tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "DSR talepleri için tek “ticket” sistemi belirleyin.",
+              "Kimlik doğrulama checklist’i yazın (minimum veri + güvenli).",
+              "Sistem lookup listesini çıkarın (web/PMS/CRM/call center/OTA).",
+              "Export paketini standardize edin (CSV/PDF).",
+              "KVKK veri güvenliği çerçevesiyle bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sistemlerden-veri-cekme",
+        "title": "Başvuruyu Karşılarken Teknik Olarak Hangi Sistemlerden Veri Çekilir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm “sistem haritası”dır: DSR yanıtı için hangi sistemlere bakacağız? Buradaki hedef; her sistemde “hangi veri alanları var”ı bilmek ve arama anahtarlarını (e-posta, telefon, rezervasyon no) standardize etmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Sistem seti: otel ve B2B için tipik liste"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web: form kayıtları, consent kayıtları, chat talepleri",
+              "PMS/Rezervasyon: misafir kartı, rezervasyon geçmişi, notlar",
+              "CRM: lead/müşteri kayıtları, iletişim geçmişi",
+              "Call Center: görüşme meta verisi, notlar (kapsam kontrollü)",
+              "OTA/Channel: rezervasyon/mesajlaşma (varsa erişim)",
+              "E-posta/Marketing: abonelik ve iletişim tercihleri",
+              "BI/Raporlama: türetilmiş metrikler (genelde kişisel veri minimize)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Lookup anahtarı” standardı"
+          },
+          {
+            "type": "p",
+            "text": "Kişi bulma anahtarları net olmalı: e-posta/telefon, rezervasyon numarası, müşteri ID. Farklı sistemlerde farklı formatlar varsa eşleştirme sözlüğü gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Sistem–veri alanları tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sistem–veri alanları",
+            "headers": [
+              "Sistem",
+              "Lookup anahtarı",
+              "Veri alanları",
+              "Export formatı",
+              "Owner",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Web",
+                "E-posta / telefon",
+                "Form kayıtları, consent kayıtları, chat talepleri",
+                "CSV / PDF",
+                "Web / pazarlama",
+                "Talep kanalına ve veri haritasına göre"
+              ],
+              [
+                "PMS/Rezervasyon",
+                "Rezervasyon no / e-posta / telefon",
+                "Misafir kartı, rezervasyon geçmişi, notlar",
+                "CSV / PDF",
+                "Rezervasyon / operasyon",
+                "Yanlış kişi riskine karşı eşleştirme doğrulanır"
+              ],
+              [
+                "CRM",
+                "Müşteri ID / e-posta / telefon",
+                "Lead/müşteri kayıtları, iletişim geçmişi",
+                "CSV / PDF",
+                "Satış / CRM owner",
+                "ID mapping sözlüğü kullanılır"
+              ],
+              [
+                "Call Center",
+                "Telefon / müşteri ID",
+                "Görüşme meta verisi, kapsam kontrollü notlar",
+                "CSV / PDF",
+                "Çağrı merkezi",
+                "Notların kapsamı gerekli kadar tutulur"
+              ],
+              [
+                "OTA/Channel",
+                "Rezervasyon no / e-posta",
+                "Rezervasyon ve mesajlaşma kayıtları",
+                "CSV / PDF",
+                "PMS / OTA owner",
+                "Varsa erişim ve veri haritasına göre"
+              ],
+              [
+                "E-posta/Marketing",
+                "E-posta",
+                "Abonelik ve iletişim tercihleri",
+                "CSV / PDF",
+                "Pazarlama",
+                "İzin kayıtlarıyla birlikte değerlendirilir"
+              ],
+              [
+                "BI/Raporlama",
+                "Müşteri ID / eşleştirme anahtarı",
+                "Türetilmiş metrikler",
+                "CSV / PDF",
+                "Veri / BI",
+                "Kişisel veri genelde minimize edilir"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sistem listesi kurumunuza göre güncel mi?",
+              "Her sistem için lookup anahtarı belli mi?",
+              "Arama sonuçları “yanlış kişi” riskine karşı doğrulanıyor mu?",
+              "Sistem owner’ları ve erişim izinleri tanımlı mı?",
+              "Yeni sistem eklenince DSR listesi güncelleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "DSR için “sistem–lookup anahtarı” tablosu çıkarın.",
+              "CRM/PMS eşleştirme sözlüğü yazın (ID mapping).",
+              "Call center notlarının kapsamını kısıtlayın (gerekli kadar).",
+              "PMS/OTA süreçleriyle bağlayın: https://dgtlface.com/tr/pms-ota-yonetimi",
+              "Çağrı merkezi süreçleriyle bağlayın: https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kimlik-dogrulama-ve-guvenlik",
+        "title": "Kimlik Doğrulama ve Güvenlik: Yanlış Kişiye Veri Vermemek ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Kimlik doğrulama ve loglama adımlarını nasıl kurgularım?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: kimlik doğrulama “minimum veri + yüksek güven” prensibiyle tasarlanır; her doğrulama adımı ve karar, DSR kaydında loglanır. Buradaki hedef; sosyal mühendislik ve yanlış eşleştirme riskini düşürmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Kimlik doğrulama yaklaşımları (teknik perspektif)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep, kayıtlı kanaldan mı geldi? (kayıtlı e-posta/telefon)",
+              "Ek doğrulama: rezervasyon no / müşteri no gibi işlem bilgisi",
+              "Çok faktör: gerektiğinde güvenli doğrulama adımı (kurum politikası)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Güvenlik: DSR çıktısı güvenli bir şekilde iletilmeli"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Paylaşım kanalı kontrollü olmalı (şifreli dosya / süreli link)",
+              "Yanıta erişim loglanmalı",
+              "Çıktı dosyası retention’a tabi olmalı (sonsuz tutulmaz)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DSR doğrulama adımları yazılı mı?",
+              "Doğrulama “minimum veri” ile mi yapılıyor?",
+              "Yanlış kişi riski için ikinci kontrol var mı?",
+              "Yanıt kanalı güvenli mi?",
+              "DSR süreç kayıtları (audit) tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "DSR doğrulama checklist’i çıkarın (adım adım).",
+              "Yanıt kanalını standardize edin (şifreli + süreli).",
+              "Erişim loglarını saklayın (kim gördü?).",
+              "Retention politikası koyun (çıktı dosyası).",
+              "KVKK veri güvenliği yönetimiyle hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "export-formatlari-ve-raporlama",
+        "title": "Export Formatları (CSV/PDF) ve Raporlama: DSR Paketini Standardize Etmek",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "DSR yanıtı, “veriyi toplayıp yollamak” değil; anlaşılabilir bir paket üretmektir. Bu yüzden export formatı, dosya isimlendirme ve içerik düzeni standardize edilmelidir. Kurumun amacı; her başvuruda yeniden tasarlamak yerine hazır şablonla ilerlemektir."
+          },
+          {
+            "type": "h3",
+            "text": "DSR paket yapısı (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapak/özet (hangi sistemlerden çekildi, tarih aralığı)",
+              "Sistem bazlı veri bölümleri",
+              "Kısaltmalar sözlüğü (ID mapping)",
+              "Ekler (CSV) + okunabilir özet (PDF)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Raporlama: süreç metrikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başvuru sayısı",
+              "Ortalama yanıt süresi",
+              "En çok zaman alan sistem",
+              "Eksik veri sebepleri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu metrikler, DSR sürecini iyileştirmek için kullanılır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DSR paket şablonu var mı?",
+              "CSV/PDF çıktıları standardize mi?",
+              "Dosya isimlendirme ve versiyon var mı?",
+              "Çıktıların erişim ve retention politikası var mı?",
+              "Süreç metrikleri raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "DSR paket formatını belirleyin (PDF özet + CSV ekler).",
+              "Sistem bazlı bölümleri standart sıraya koyun (web→PMS→CRM→call center→OTA).",
+              "ID eşleştirme sözlüğünü ekleyin (kafa karışmasın).",
+              "Süreç metriklerini Looker/raporlama ile takip edin: https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+              "DSR çıktılarının saklama süresini belirleyin (politikaya göre)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-dsr-akislari-swimlane-checklist",
+        "title": "Otel ve B2B İçin Örnek DSR Akışları: Swimlane + Checklist ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için veri sahibi başvuru akışı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: swimlane akışta “talep kanalı → KVKK/uyum → IT/BT → sistem owner’ları → cevap” zinciri kurulur. Her aşamada kimlik doğrulama ve loglama adımları netleşir; export paketleri standarttır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel DSR örneği (misafir odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep: web form veya resepsiyon/call center",
+              "Doğrulama: rezervasyon no + kayıtlı iletişim kanalı",
+              "Veri çekme: PMS + web form + call center meta",
+              "Export: PDF özet + CSV ekler",
+              "Log: tüm adımlar ticket üzerinde"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B DSR örneği (müşteri/lead odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Talep: e-posta veya web form",
+              "Doğrulama: kayıtlı e-posta + müşteri ID",
+              "Veri çekme: CRM + doküman kayıtları + e-posta izinleri",
+              "Export: paket şablonu",
+              "Log: audit + erişim kayıtları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO: “veri sahibi başvuru akış modeli” (tek model)"
+          },
+          {
+            "type": "p",
+            "text": "Web/PMS/CRM/call center/OTA ve DSR request; tek bir veri sahibi başvuru akış modelinde birleşir: talep → doğrulama → sistem tarama → export → güvenli yanıt → log/rapor. Bu model kurulduğunda, yeni sistem eklense bile süreç bozulmaz; sadece “yeni düğüm” eklenir."
+          },
+          {
+            "type": "p",
+            "text": "Key Data Point (yumuşatılmış): DSR akışı haritalanmış kurumlarda, başvuru geldiğinde ilgili veriyi bulma ve cevaplama süreleri ciddi ölçüde kısalır; hata riski azalır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Veri Sahibi Başvuru Süreci & Teknik Akış Analizi Talep Et",
+            "text": "Çok sistemli yapınıza uygun DSR akışını ve export paketini kurup, süreyi kısaltalım. (Kim için: KVKK + BT)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Swimlane akış çizildi (rol ve sorumlular net)",
+              "Kimlik doğrulama adımları yazılı ve uygulanabilir",
+              "Sistem–lookup anahtar tablosu hazır",
+              "Export paket şablonu var (PDF+CSV)",
+              "Süreç logları ve erişim kayıtları tutuluyor",
+              "Yıllık güncelleme (365 gün) planı var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Swimlane akışı çıkarın ve rolleri imzalatın (sahiplik).",
+              "DSR “sistem–alan” tablosunu doldurun (hangi veriyi nereden çekeriz).",
+              "Export paket şablonunu v1.0 olarak yayınlayın.",
+              "DSR süreç metriklerini raporlayın.",
+              "İç linklerle ekipleri hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi — https://dgtlface.com/tr/pms-ota-yonetimi — https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Yanıtta hangi verilerin hangi hukuki kategoriye girdiği ve ne kadarının paylaşılması gerektiği hukuk danışmanıyla belirlenmelidir; bu içerik teknik akış ve loglama perspektifinde kalır."
+          }
+        ]
+      },
+      {
+        "id": "veri-sahibi-basvuru-dsr-planlama-sablonu",
+        "title": "Veri Sahibi Başvuru (DSR) Sistem & Veri Alanları Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Veri Sahibi Başvuru (DSR) Sistem & Veri Alanları Planlama Şablonunu İndir — Yazılım / DSR (v1.0)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Veri Sahibi Başvuru (DSR) Sistem & Veri Alanları Planlama Şablonunu İndir — Yazılım / DSR (v1.0)",
+            "purpose": "Bu şablon, veri sahibi başvurularında hangi kişinin verisinin hangi sistemlerde olduğunu hızlı tespit etmeyi sağlar. Web, PMS, CRM, call center ve OTA gibi kaynaklar için lookup anahtarlarını, çekilecek veri alanlarını ve export formatlarını standardize eder. DSR yanıt süresini kısaltır ve eksik/yanlış cevap riskini düşürür.",
+            "whoFor": "KVKK/uyum ekibi + IT/BT + sistem owner’ları (otel ve B2B).",
+            "steps": [
+              "Sistemleri ve lookup anahtarlarını yaz (e-posta/telefon/rezervasyon no).",
+              "Her sistem için veri alanlarını ve export formatını belirle (CSV/PDF).",
+              "Kimlik doğrulama ve loglama adımlarını süreç şemasına ekle; yılda 1 güncelle."
+            ],
+            "checklist": [
+              "Kimlik doğrulama adımları yazılı",
+              "Sistem listesi güncel",
+              "Lookup anahtarları net",
+              "Export formatı ve paket yapısı standard",
+              "Log/audit kaydı var",
+              "Güvenli paylaşım prosedürü var",
+              "Yıllık güncelleme planı var"
+            ],
+            "href": "/downloads/veri-sahibi-basvuru-dsr-sistem-veri-alanlari-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "5) Kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kimlik doğrulama adımları yazılı",
+              "Sistem listesi güncel",
+              "Lookup anahtarları net",
+              "Export formatı ve paket yapısı standard",
+              "Log/audit kaydı var",
+              "Güvenli paylaşım prosedürü var",
+              "Yıllık güncelleme planı var"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Veri Sahibi Başvuru (DSR) Sistem & Veri Alanları Planlama Şablonunu İndir",
+            "text": "Hangi sistemden hangi veri alanlarının çekileceğini netleştirir; lookup anahtarları ve export formatını standardize eder.",
+            "href": "/downloads/veri-sahibi-basvuru-dsr-sistem-veri-alanlari-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Veri sahibi başvuru (KVKK DSR) süreci teknik olarak nasıl işler?",
+        "a": "Talep alınır, kimlik doğrulanır, veri haritasına göre ilgili kişi verileri sistemlerden toplanır, güvenli export hazırlanır, adımlar loglanır ve kontrollü yanıt verilir."
+      },
+      {
+        "q": "Hangi sistemlerden hangi verileri çekmeliyim?",
+        "a": "Web (form/consent), PMS (rezervasyon/misafir), CRM (lead/müşteri), call center (meta + notlar), OTA (varsa), e-posta izin kayıtları gibi kaynaklar veri haritasına göre seçilir."
+      },
+      {
+        "q": "Kimlik doğrulama ve loglama adımlarını nasıl kurgularım?",
+        "a": "Doğrulamayı minimum veriyle, kayıtlı kanallardan ve gerekirse ek işlem bilgisiyle yaparsınız; her doğrulama kararı ve veri çekme/export adımını ticket üzerinde loglarsınız."
+      },
+      {
+        "q": "Otel ve B2B için veri sahibi başvuru akışı nasıl olmalı?",
+        "a": "Swimlane akışta talep kanalı→uyum→IT→sistem owner’ları→yanıt zinciri kurulur. Lookup anahtarları ve export paket şablonu önceden standartlaştırılır."
+      },
+      {
+        "q": "DSR’de en kritik teknik risk nedir?",
+        "a": "Yanlış kişiye veri vermektir. Bu yüzden kimlik doğrulama ve lookup eşleştirmesi iki aşamalı kontrolle yapılmalıdır."
+      },
+      {
+        "q": "Export’u nasıl daha güvenli hale getiririm?",
+        "a": "Kapsamı daraltın, gereksiz alanları çıkartın, şifreli dosya veya süreli link kullanın ve erişim loglarını saklayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-hero-01.webp — KVKK veri sahibi başvuru süreci, otel ve B2B çok sistemli akış",
+          "h1-context — 1920×1080 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-h1-context-02.webp — DSR talep kimlik doğrulama ve sistem tarama bağlamı, KVKK uyumu",
+          "divider-01 — 1600×1200 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-divider-03.webp — Sistem bazlı veri çekme bölümü ayırıcı, otel ve B2B DSR",
+          "divider-02 — 1600×1200 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-divider-04.webp — Export ve raporlama bölümü ayırıcı, DSR paket standardı",
+          "diagram-05 — 1920×1080 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-diagram-05.webp — Veri sahibi başvuru swimlane akış diyagramı, KVKK teknik süreç",
+          "checklist-06 — 1200×1200 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-checklist-06.webp — DSR teknik checklist kartı, kimlik doğrulama ve çoklu sistem export",
+          "kpi-07 — 1200×1200 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-kpi-07.webp — DSR yanıt süresi ve doğruluk KPI paneli, otel ve B2B",
+          "proof-08 — 1200×1200 — veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama-proof-08.webp — DSR paket şablonu ve süreç deliverables kartı, KVKK uyumu",
+          "table-system-data-fields — Sistem–veri alanları tablosu (Sistem | Lookup anahtarı | Veri alanları | Export formatı | Owner | Not)"
+        ],
+        "technicalChecklist": [
+          "DSR talepleri tek bir kanalda toplanıyor",
+          "Kimlik doğrulama adımları yazılı ve minimum veriyle uygulanıyor",
+          "Veri haritası DSR için sistem bazında işaretlendi",
+          "Sistem–lookup anahtar tablosu güncel",
+          "Yanlış kişi riski için ikinci kontrol var",
+          "Sistem owner’ları ve erişim izinleri tanımlı",
+          "Export paket şablonu standardize (PDF özet + CSV ekler)",
+          "Dosya isimlendirme ve versiyon standardı var",
+          "Yanıt kanalı şifreli ve erişim süreli",
+          "DSR süreç kayıtları ve erişim logları tutuluyor",
+          "Çıktı dosyaları retention politikasına tabi",
+          "Swimlane akışta rol ve sorumlular net",
+          "DSR süreç metrikleri raporlanıyor",
+          "Yeni sistem eklendiğinde DSR listesi güncelleniyor",
+          "Hukuki kategori ve paylaşım kapsamı hukuk danışmanıyla netleştirildi",
+          "365 gün güncelleme planı tanımlı"
+        ]
+      }
+    }
+  },
+
+  "BlogAnalitikVeBiOrtamlarindaKvkkUyumuAnonimizasyonVePseudonimizasyonTeknikBakisi": {
+    "title": "BI’da KVKK Uyumu: Anonim ve Pseudo Model",
+    "slug": "analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "GA4, Looker Studio ve data warehouse’ta kişisel veri riskini azaltın. İsim/iletişim alanlarını ID ile değiştirin; anonimleştirme, pseudonimizasyon ve maskeleme katmanıyla KVKK uyumlu raporlama kurun.",
+    "seo": {
+      "metaTitle": "BI’da KVKK Uyumu: Anonim ve Pseudo Model | DGTLFACE",
+      "metaDescription": "GA4, Looker Studio ve data warehouse’ta kişisel veri riskini azaltın. İsim/iletişim alanlarını ID ile değiştirin; anonimleştirme, pseudonimizasyon ve maskeleme katmanıyla KVKK uyumlu raporlama kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #13 — https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi"
+      ],
+      "strategySummary": "Bu blog, KVKK ile analitik/BI dünyasının çoğu kurumda ayrı ele alındığı noktada, raporlama katmanındaki kişisel veri riskini teknik olarak çerçeveleyen Core rehberdir. Hedef persona; otel sahibi/GM, veri/raporlama lideri ve IT/yazılım yöneticisidir; “BI raporlarında isim/iletişim görünüyor, risk mi?” sorusuna net yanıt ister. Funnel’da MoFu ve teknik karar aşamasındadır: anonimleştirme/pseudonimizasyon ve maskeleme kurallarını warehouse ve dashboard’a taşır. Ana iş sorusu: raporlama ihtiyacını bozmadan, BI katmanında kişisel veriyi nasıl koruruz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Analitik ve BI ortamları “üretim değil” diye KVKK radarından kaçabilir; ama isim, iletişim bilgisi veya kimlik gibi alanlar raporlara sızdığında risk büyür. Çözüm; raporlama katmanında anonimleştirme veya pseudonimizasyon uygulamak ve dashboard/warehouse seviyesinde maskeleme kuralları tanımlamaktır. Pratikte ad/soyad yerine pseudo-ID, e-posta/telefon için maskeleme, tarih/lokasyon/tutar gibi alanlarda toplulaştırma kullanılır. Böylece otel ve B2B raporları KVKK’ya daha dayanıklı hale gelir.",
+      "sgeSummary": "BI katmanında isim/iletişim alanlarını kaldır veya maskele; ad/soyad yerine ID kullan; anon/pseudo katmanı kur; export’ları denetle ve rol bazlı erişimle kontrol et.",
+      "voiceAnswer": "Evet risk olabilir; BI’da isim/iletişimi maskeleyin ve raporlamayı pseudo-ID üzerinden kurgulayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Veri/BI ekipleri, IT/BT, otel ve B2B yönetimi, ajans analistleri",
+        "KPI: PII alan sayısı, maskeleme kapsama oranı, export kontrol oranı, erişim ihlali riski, rapor doğruluğu",
+        "Entity: data warehouse, BI, anonymisation, pseudonymisation, masking, GA4/Looker/Excel exports",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Consideration → Implementation → Governance",
+        "Çıktı: Alan maskeleme tablosu + BI mimarisi diyagramı + analitik KVKK checklist",
+        "Not: Anon/pseudo yöntemlerinin hukuki standardı hukukla netleştirilmeli; burada teknik yaklaşım anlatılır."
+      ]
+    },
+    "h1": {
+      "title": "Analitik ve BI Ortamlarında KVKK Uyumu: Anonimizasyon ve Pseudonimizasyon Teknik Bakışı",
+      "intro": "Birçok kurum KVKK’yı “üretim sistemleri” üzerinden konuşur: web, PMS, CRM… Oysa veri sızıntısı riskinin önemli bir kısmı raporlama katmanında oluşur: Looker Studio dashboard’ları, GA4 raporları, data warehouse tabloları ve “Excel export” dosyaları. “Sadece iç kullanım” denilen raporlarda isim, e-posta, telefon veya kimlik gibi alanlar görünüyorsa; erişim genişledikçe risk büyür ve kontrol kaybolur.\n\nBu noktada çözüm; raporlamayı durdurmak değil, raporlamayı kimliksizleştirilmiş (anonim/pseudo) bir katman üzerinden yürütmektir. Böylece yönetimin ihtiyaç duyduğu KPI’lar, otelin misafir davranış raporları veya B2B’nin pipeline analizleri devam eder; ama kişisel veri görünür yüzeyden çekilir. Bu rehber hukuki yorum yapmaz; teknik katmanlama ve uygulanabilir kontrol seti sunar.",
+      "quickSummary": [
+        "1) BI envanteri çıkarın: dashboard + dataset + export noktaları.",
+        "2) PII alanları işaretleyin ve “kaldır/maskele” kararı verin.",
+        "3) ID bazlı analiz yaklaşımına geçin (ad/soyad yerine ID).",
+        "4) Export yetkilerini kısıtlayın ve audit’e alın.",
+        "5) KVKK veri güvenliği modeliyle bağlayın."
+      ],
+      "ctaPrimary": {
+        "label": "Analitik & BI KVKK Uyum Analizi Talep Et",
+        "text": "BI/warehouse raporlarınızda kişisel veri riskini tarayıp, anon/pseudo model ve maskeleme kurallarını birlikte kuralım. (Kim için: veri + IT)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Analitik & BI KVKK Uyum Analizi Talep Et",
+        "text": "BI/warehouse katmanında PII riskini tarar; anonim/pseudo model ve maskeleme kurallarıyla raporlamayı KVKK’ya daha dayanıklı hale getirir.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "BI Alan Maskeleme & Anonim/Pseudo Model Planlama Şablonunu İndir",
+        "text": "Hangi alanın nasıl maskeleneceğini standardize eder; privacy view ve export kontrol planını hızlıca kurmanı sağlar.",
+        "href": "/downloads/bi-alan-maskeleme-anonim-pseudo-model-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK veri güvenliği yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK Veri Güvenliği Yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "title": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    ],
+    "sections": [
+      {
+        "id": "raporlama-bi-kisisel-veri-riski",
+        "title": "Raporlama ve BI’da Kişisel Veri Riski: Neden “Görünmez” Tehdit? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "Data warehouse ve dashboard’larda KVKK uyumu teknik olarak nasıl sağlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: (1) PII alanlarını envantere al, (2) anon/pseudo katmanı tasarla, (3) maskeleme ve rol bazlı erişim uygula, (4) export ve paylaşım süreçlerini denetle, (5) düzenli audit ile güncelle. BI katmanında risk “sessiz” büyür; çünkü raporlar çok kişiye yayılır ve kopyalanır."
+          },
+          {
+            "type": "h3",
+            "text": "BI riskinin 3 kaynağı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "PII’nin rapora sızması: isim/telefon/e-posta gibi alanlar",
+              "Geniş erişim: dashboard’ların “herkes görsün” mantığıyla paylaşılması",
+              "Export/indir: Excel/CSV dosyaları kontrolsüz dağıtılır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de tipik riskli rapor örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: “misafir listesi”, “pazar bazlı rezervasyon” raporuna isim eklemek",
+              "B2B: “müşteri listesi” dashboard’unda e-posta/telefonun görünmesi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard’larda isim/e-posta/telefon görünen alan var mı?",
+              "BI erişimleri rol bazlı mı?",
+              "Excel export’lar takip ediliyor mu?",
+              "Warehouse katmanında PII alanlar işaretli mi?",
+              "Masking/ID yaklaşımı standard mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "BI envanteri çıkarın: dashboard + dataset + export noktaları.",
+              "PII alanları işaretleyin ve “kaldır/maskele” kararı verin.",
+              "ID bazlı analiz yaklaşımına geçin (ad/soyad yerine ID).",
+              "Export yetkilerini kısıtlayın ve audit’e alın.",
+              "KVKK veri güvenliği modeliyle bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "anonimizasyon-pseudonimizasyon-teknik-cerceve",
+        "title": "Anonimizasyon vs Pseudonimizasyon: Teknik Çerçeve ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Anonimizasyon ve pseudonimizasyon nedir, farkları nelerdir?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: anonimleştirme, veriyi kişiyle ilişkilendirilemeyecek hale getirir; pseudonimizasyon ise kişiyi doğrudan göstermez ama bir pseudo-ID ile tutarlı analiz yapmanı sağlar. BI ve raporlama katmanında en pratik yaklaşım; günlük raporlama için pseudonimizasyon (ID), dışa açık paylaşımlar için daha güçlü anonimleştirme/toplulaştırma kullanmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik pratikler (örnek set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pseudonimizasyon: ad/soyad → customer_id, e-posta → hash/ID (politikaya göre)",
+              "Anonimizasyon: lokasyon → bölge/ülke, tarih → hafta/ay, yaş → aralık, tutar → band"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Neden ikisi birlikte kullanılır?"
+          },
+          {
+            "type": "p",
+            "text": "Çünkü BI’da çoğu analiz “trend ve segment” ister; kişi adının görünmesine gerek yoktur. Fakat kişi bazlı takibi gerektiren durumlarda (sadece yetkili ekip) pseudo-ID ile kontrollü izleme yapılabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Anon/pseudo örnekleri tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Anon/pseudo örnekleri",
+            "headers": [
+              "Alan",
+              "Risk",
+              "Yaklaşım",
+              "Örnek dönüşüm",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Ad/soyad",
+                "Doğrudan kimlik",
+                "Pseudo-ID / Kaldır",
+                "customer_id",
+                "Yönetim KPI raporlarında kaldır; operasyonel raporlarda pseudo-ID kullan"
+              ],
+              [
+                "E-posta",
+                "İletişim",
+                "Maskele / Pseudo-ID",
+                "e***@domain.com veya customer_id",
+                "Export yetkisini rol bazlı kısıtla"
+              ],
+              [
+                "Telefon",
+                "İletişim",
+                "Maskele / Pseudo-ID",
+                "+90 5** *** ** ** veya customer_id",
+                "Dashboard görünürlüğünü minimumda tut"
+              ],
+              [
+                "TCKN / pasaport",
+                "Doğrudan kimlik",
+                "Kaldır / Maskele",
+                "***********",
+                "Varsa raporlarda görünür yüzeyden çıkar"
+              ],
+              [
+                "Açık adres",
+                "Adres",
+                "Toplulaştır / Maskele",
+                "İl / bölge / ülke",
+                "KPI ihtiyacına göre genelleştir"
+              ],
+              [
+                "Cihaz ID / cookie ID",
+                "Tanımlayıcı",
+                "Pseudo-ID / Hash",
+                "hashed_device_id",
+                "Kullanım amacına göre kontrol et"
+              ],
+              [
+                "Serbest metin notu",
+                "Serbest metin",
+                "Kaldır / Çok sınırla",
+                "Rapor dışı",
+                "En riskli alanlardan biridir"
+              ],
+              [
+                "Tarih / lokasyon / yaş / tutar",
+                "Dolaylı tanımlama",
+                "Toplulaştır",
+                "Hafta/ay, bölge, yaş aralığı, tutar bandı",
+                "Dışa açık ve yönetim raporlarında tercih et"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi raporlar kişi bazlı, hangileri toplu? ayrıldı mı?",
+              "Kişi bazlı raporlar pseudo-ID üzerinden mi?",
+              "Toplu raporlarda anonimleştirme/toplulaştırma var mı?",
+              "PII alanlar için masking kuralı var mı?",
+              "Yetkisiz kullanıcılar ad/iletişim göremiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporları “operasyonel kişi bazlı” ve “yönetim KPI” diye ayırın.",
+              "KPI raporlarında kişi alanlarını tamamen kaldırın.",
+              "Operasyonel raporlarda pseudo-ID kullanın (ad yerine).",
+              "Erişim rollerini netleştirin (who sees what).",
+              "Veri analiz/raporlama süreçleriyle bağlayın: https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "dashboard-data-warehouse-maskeleme",
+        "title": "Dashboard ve Data Warehouse’ta Hangi Alanlar Maskeleme Gerektirir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "BI katmanında maskeleme, iki katmanda ele alınmalıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Warehouse katmanı: PII’nin “kaynağa yakın” kontrolü",
+              "Dashboard katmanı: görsel erişim ve export kontrolü"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Maskeleme gerektiren alan tipleri (pratik sınıflar)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doğrudan kimlik: ad/soyad, TCKN (varsa), pasaport (varsa)",
+              "İletişim: e-posta, telefon",
+              "Adres: açık adres",
+              "Tanımlayıcılar: cihaz ID, cookie ID (analitik bağlamında)",
+              "Serbest metin: not alanları (en riskli)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Excel/CSV export riskini “tasarımla” azaltın"
+          },
+          {
+            "type": "p",
+            "text": "En iyi pratik: dashboard’da export opsiyonu herkes için açık olmamalı; ayrıca export edilen dataset zaten maskeleme katmanından beslenmeli. Böylece export olsa bile içerik kontrollü kalır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PII alanlar warehouse’da etiketli mi?",
+              "Dashboard dataset’leri masking katmanından mı geliyor?",
+              "Serbest metin alanları raporlarda kapalı mı?",
+              "Export yetkileri rol bazlı mı?",
+              "Export olayları loglanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Warehouse’da PII alan sözlüğü çıkarın (field catalog).",
+              "“Masked view” katmanı üretin ve dashboard’ları buna bağlayın.",
+              "Serbest metin alanlarını raporlardan kaldırın veya çok sınırlayın.",
+              "Export yetkisini kısıtlayın ve audit’e alın.",
+              "KVKK veri güvenliğiyle hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-id-bazli-analiz",
+        "title": "Otel ve B2B İçin Örnek Uygulamalar: “ID Bazlı Analiz” Şablonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, teoriyi somutlaştırır: hangi raporda neyi nasıl değiştiriyoruz?"
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği: misafir raporları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetim dashboard: doluluk, ADR, kanal payı → kişi alanı yok",
+              "Operasyon raporu: misafir segmentleri → guest_id ile",
+              "Kampanya raporu: e-posta/telefon yerine segment ve ID"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği: müşteri ve sözleşme raporları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetim dashboard: pipeline, win rate → müşteri adı yerine account_id (veya kısaltma)",
+              "Satış operasyon: müşteri detay → sadece yetkili rolde, minimum alanla",
+              "Sözleşme raporu: doküman linkleri kontrollü, export kısıtlı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Warehouse hygiene” fark yaratan mini bölüm (Competitor gap)"
+          },
+          {
+            "type": "p",
+            "text": "TR’de KVKK ve analitik ayrı dünyalar gibi anlatılır. Oysa raporlama katmanında bir “hijyen” standardı koymak (PII sözlüğü, masked view, export governance) hem güvenliği hem analitik kalitesini artırır: gereksiz alanlar temizlenir, veri modeli sadeleşir."
+          },
+          {
+            "type": "p",
+            "text": "Key Data Point (yumuşatılmış): Sadece üretim sistemini değil BI katmanını da KVKK’ya göre gözden geçirmek, veri sızıntısı riskini anlamlı şekilde azaltabilir; çünkü raporlar en çok kopyalanan yüzeydir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetim raporlarında kişi alanı tamamen kaldırıldı mı?",
+              "Operasyon raporları pseudo-ID ile mi?",
+              "Masked view dashboard’larda default mu?",
+              "Export governance var mı?",
+              "Raporlar/alanlar değişince kurallar güncelleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Yönetim KPI” raporlarından kişi alanlarını kaldırın.",
+              "Operasyon raporlarını ID bazına taşıyın.",
+              "Masked view’ı default yapın, ham tablo erişimini kısıtlayın.",
+              "Export’ları role bağlayın ve loglayın.",
+              "Veri analiz ekipleriyle süreçleştirin: https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "bi-mimarisi-anon-pseudo-governance",
+        "title": "BI Mimarisinde Anon/Pseudo Katmanı: Uygulama Planı ve Governance ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "BI uyumu “tek seferlik” değil; alanlar değiştikçe güncellenen bir yönetim işidir. Bu yüzden mimaride anon/pseudo katmanı bir standarda bağlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen katmanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Raw (ham): kaynaktan gelen veri (kısıtlı erişim)",
+              "Curated: temizlenmiş ve standardize edilmiş veri",
+              "Masked/Privacy View: anon/pseudo + masking uygulanmış görünüm (dashboard default)",
+              "Exports: kontrollü ve loglanan çıktı katmanı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO: “raporlama KVKK modeli” (tek model)"
+          },
+          {
+            "type": "p",
+            "text": "Data warehouse, BI, anonymisation/pseudonymisation ve masking; tek bir raporlama KVKK modeli içinde birleşir: alan sözlüğü → privacy view → rol bazlı erişim → export governance → düzenli audit. Bu model, hem otel hem B2B’de aynı çalışır; sadece veri alanları değişir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Analitik & BI KVKK Uyum Analizi Talep Et",
+            "text": "Warehouse ve dashboard’larınız için privacy view + maskeleme kuralları ve export governance planını çıkaralım. (Kim için: veri + IT)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Raw/curated/masked katmanları tanımlı",
+              "Masked view dashboard’ların default kaynağı",
+              "Rol bazlı erişim ve export yetkisi kurgulu",
+              "Export işlemleri audit log’a giriyor",
+              "Yıllık (365 gün) alan ve kural gözden geçirme var"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "PII alan kataloğunu çıkarın (field catalog).",
+              "Privacy view (masked) katmanı oluşturun ve dashboard’ları buna taşıyın.",
+              "Export yetkisini role bağlayın ve loglayın.",
+              "“Rapor isteyen → dataset owner → onay → export” akışı tanımlayın.",
+              "İç linklerle ekipleri hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi — https://dgtlface.com/tr/veri-analiz-ve-raporlama — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Anonim ve pseudo yöntemlerinin hangi hukuki standarda tam uyduğu kısmı hukukla netleştirilmeli; bu yazı teknik mimari önerileri sunduğunu, hukuki yorum olmadığını vurgular."
+          }
+        ]
+      },
+      {
+        "id": "bi-alan-maskeleme-anonim-pseudo-planlama-sablonu",
+        "title": "BI Alan Maskeleme & Anonim/Pseudo Model Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Template İçeriği"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "BI Alan Maskeleme & Anonim/Pseudo Model Planlama Şablonunu İndir — Yazılım / BI Privacy (v1.0)",
+            "purpose": "Bu şablon, BI ve data warehouse katmanında hangi alanların maskeleme gerektirdiğini ve anonim/pseudonimizasyon yaklaşımını tek tabloda tanımlar. Dashboard’ların default olarak privacy view üzerinden çalışmasını ve export governance kurgusunu standardize eder. Otel ve B2B raporlarında analiz ihtiyacını bozmadan kişisel veri riskini azaltmayı hedefler.",
+            "whoFor": "Veri/BI ekibi + IT/BT + dashboard owner’ları (otel ve B2B).",
+            "steps": [
+              "PII alan kataloğunu çıkar (field catalog) ve risk sınıfı ata.",
+              "Her alan için yaklaşım seç (kaldır/maskele/pseudo-ID/toplulaştır).",
+              "Privacy view katmanını oluştur, dashboard’ları buna taşı ve export’ları audit ile yönet."
+            ],
+            "checklist": [
+              "PII alan kataloğu çıkarıldı",
+              "Maskeleme/anon/pseudo yaklaşımı alan bazında belirlendi",
+              "Privacy view oluşturuldu ve dashboard’lar taşındı",
+              "Export yetkileri kısıtlı ve audit’li",
+              "Yıllık gözden geçirme planı var"
+            ],
+            "href": "/downloads/bi-alan-maskeleme-anonim-pseudo-model-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "5) Kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PII alan kataloğu çıkarıldı",
+              "Maskeleme/anon/pseudo yaklaşımı alan bazında belirlendi",
+              "Privacy view oluşturuldu ve dashboard’lar taşındı",
+              "Export yetkileri kısıtlı ve audit’li",
+              "Yıllık gözden geçirme planı var"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables + “Buraya:” notları"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "BI Alan Maskeleme & Anonim/Pseudo Model Planlama Şablonunu İndir",
+            "text": "Hangi alanın nasıl maskeleneceğini standardize eder; privacy view ve export kontrol planını hızlıca kurmanı sağlar.",
+            "href": "/downloads/bi-alan-maskeleme-anonim-pseudo-model-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Anonimizasyon ve pseudonimizasyon nedir, farkları nelerdir?",
+        "a": "Anonimizasyon kişiyi geri döndürülemez şekilde kimliksizleştirir; pseudonimizasyon ise kişiyi doğrudan göstermeden bir ID üzerinden tutarlı analiz yapmayı sağlar. BI’da çoğu zaman pseudo-ID yaklaşımı pratik olur."
+      },
+      {
+        "q": "BI ve raporlama ortamlarında hangi alanları maskelemeliyim?",
+        "a": "İsim, e-posta, telefon, açık adres, kimlik numarası (varsa) ve serbest metin not alanları ilk sıradadır. Ayrıca cihaz/cookie gibi tanımlayıcılar da kullanım amacına göre kontrol edilmelidir."
+      },
+      {
+        "q": "Otel ve B2B raporlarında kişisel veriyi nasıl korurum?",
+        "a": "Yönetim raporlarında kişi alanlarını kaldırın; operasyon raporlarını pseudo-ID’ye taşıyın; masked view katmanını default yapın ve export yetkilerini rol bazlı kısıtlayın."
+      },
+      {
+        "q": "Looker/BI raporlarımızda isim vs görünüyor, risk mi?",
+        "a": "Evet olabilir. İsim/iletişim alanlarını kaldırmak veya maskelemek, raporlamayı pseudo-ID üzerinden kurgulamak ve export erişimini kısıtlamak riski düşürür."
+      },
+      {
+        "q": "Data warehouse’da KVKK uyumu teknik olarak nasıl sağlanır?",
+        "a": "PII alan kataloğu çıkarılır, privacy view (masked) katmanı oluşturulur, dashboard’lar bu katmandan beslenir; erişim ve export’lar audit/log ile yönetilir."
+      },
+      {
+        "q": "Excel export neden kritik bir risk noktasıdır?",
+        "a": "Çünkü dosyalar kolay kopyalanır ve kontrol dışına çıkar. Bu yüzden export kapsamı minimum tutulmalı, izinler kısıtlanmalı ve export olayları loglanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-hero-01.webp — Analitik ve BI katmanında KVKK uyumu, anonim ve pseudo yaklaşımı",
+          "h1-context — 1920×1080 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-h1-context-02.webp — BI dashboardlarında kişisel veri risk noktaları, otel ve B2B raporlama",
+          "divider-01 — 1600×1200 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-divider-03.webp — Anonimizasyon ve pseudonimizasyon çerçevesi bölüm ayırıcı, BI hijyeni",
+          "divider-02 — 1600×1200 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-divider-04.webp — Otel ve B2B rapor örnekleri bölüm ayırıcı, ID bazlı analiz",
+          "diagram-05 — 1920×1080 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-diagram-05.webp — BI mimarisinde anonim pseudo katmanı diyagramı, privacy view modeli",
+          "checklist-06 — 1200×1200 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-checklist-06.webp — Analitik KVKK checklist kartı, maskeleme ve export governance adımları",
+          "kpi-07 — 1200×1200 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-kpi-07.webp — PII alan sayısı ve maskeleme kapsama KPI paneli, BI uyum takibi",
+          "proof-08 — 1200×1200 — analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi-proof-08.webp — Alan kataloğu ve privacy view deliverables kartı, BI KVKK uyumu",
+          "table-anon-pseudo-examples — Anon/pseudo örnekleri tablosu (Alan | Risk | Yaklaşım | Örnek dönüşüm | Not)"
+        ],
+        "technicalChecklist": [
+          "BI envanteri dashboard, dataset ve export noktalarıyla çıkarıldı",
+          "Warehouse PII alan kataloğu oluşturuldu",
+          "PII alanları kimlik, iletişim, adres, tanımlayıcı ve serbest metin olarak sınıflandırıldı",
+          "Yönetim KPI raporlarından kişi alanları kaldırıldı",
+          "Operasyonel kişi bazlı raporlar pseudo-ID üzerinden çalışıyor",
+          "Anonimleştirme ve toplulaştırma kuralları rapor türüne göre tanımlı",
+          "Masked/Privacy View katmanı oluşturuldu",
+          "Dashboard’lar varsayılan olarak privacy view üzerinden besleniyor",
+          "Raw tablo erişimi kısıtlı",
+          "Serbest metin alanları raporlardan kaldırıldı veya çok sınırlandı",
+          "Rol bazlı dashboard erişimi tanımlı",
+          "Export yetkileri role bağlı ve onay akışıyla yönetiliyor",
+          "Export olayları audit log’a giriyor",
+          "Export edilen dataset maskeleme katmanından besleniyor",
+          "Çıktı dosyaları retention politikasına tabi",
+          "Rapor isteyen → dataset owner → onay → export akışı tanımlı",
+          "Alan ve maskeleme kuralları değişikliklerde güncelleniyor",
+          "Hukuki anonim/pseudo standardı hukuk danışmanıyla netleştirildi",
+          "365 gün gözden geçirme planı tanımlı"
+        ]
+      }
+    }
   }
 }

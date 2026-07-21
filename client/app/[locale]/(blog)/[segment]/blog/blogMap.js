@@ -494,7 +494,10 @@ export const BLOG_MAP = {
     "ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi":"BlogUcuncuTarafScriptVeTaglerIcinKvkkRiskAnaliziVeTagManagerStratejisi",
     "mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis":"BlogMobilUygulamaVeWebviewSenaryolarindaKvkkUyumuTeknikBakis",
     "kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi":"BlogKvkkDenetimineTeknikHazirlikVeriRaporlariLogBundleVeExportStratejisi",
-    "misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber":"BlogMisafirWifiVeKamusalAlanlardaKvkkUyumuOtelIcinTeknikRehber"
+    "misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber":"BlogMisafirWifiVeKamusalAlanlardaKvkkUyumuOtelIcinTeknikRehber",
+    "kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi":"BlogKvkkDijitalFarkindalikVeCalisanEgitimiIcinTeknikOyunKitabi",
+    "veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama":"BlogVeriSahibiBasvuruSureciIcinTeknikAkisVeRaporlama",
+    "analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi":"BlogAnalitikVeBiOrtamlarindaKvkkUyumuAnonimizasyonVePseudonimizasyonTeknikBakisi"
   },
    
   creative: {

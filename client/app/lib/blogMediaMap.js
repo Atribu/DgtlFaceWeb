@@ -46056,6 +46056,158 @@ export const BLOG_MEDIA_MAP = {
       alt: "Captive portal mockup ve ağ politikası deliverables, otel BT ekibi",
       caption: "Captive portal mockup ve ağ politikası deliverables, otel BT ekibi"
     }
+  },
+
+
+  "kvkk-dijital-farkindalik-ve-calisan-egitimi-icin-teknik-oyun-kitabi":{
+     banner: {
+      src: "/images/blog/software/Software3-11/Software3-11-1.webp",
+      alt: "KVKK Dijital Farkındalık ve Çalışan Eğitimi İçin Teknik Oyun Kitabı",
+      caption: "KVKK Dijital Farkındalık ve Çalışan Eğitimi İçin Teknik Oyun Kitabı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-11/Software3-11-2.webp",
+      alt: "Günlük KVKK dijital davranışları, web PMS CRM senaryoları bağlamı",
+      caption: "Günlük KVKK dijital davranışları, web PMS CRM senaryoları bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-11/Software3-11-3.webp",
+    alt: "Senaryo bazlı eğitim bölümü ayırıcı, otel ve B2B süreçleri",
+      caption: "Senaryo bazlı eğitim bölümü ayırıcı, otel ve B2B süreçleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-11/Software3-11-4.webp",
+      alt: "Yıllık eğitim takvimi bölümü ayırıcı, KVKK kültür programı",
+      caption: "Yıllık eğitim takvimi bölümü ayırıcı, KVKK kültür programı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-11/Software3-11-5.webp",
+      alt: "Yıllık KVKK eğitim takvimi diyagramı, rol bazlı tekrarlar",
+      caption: "Yıllık KVKK eğitim takvimi diyagramı, rol bazlı tekrarlar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-11/Software3-11-6.webp",
+      alt: "KVKK eğitim checklist kartı, rol bazlı modül ve mikro hatırlatma",
+      caption: "KVKK eğitim checklist kartı, rol bazlı modül ve mikro hatırlatma"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-11/Software3-11-7.webp",
+      alt: "Eğitim tamamlama ve hata azalımı KPI paneli, KVKK farkındalık ölçümü",
+      caption: "Eğitim tamamlama ve hata azalımı KPI paneli, KVKK farkındalık ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-11/Software3-11-8.webp",
+      alt: "Eğitim materyali ve senaryo kartları deliverables, otel ve B2B",
+      caption: "Eğitim materyali ve senaryo kartları deliverables, otel ve B2B"
+    }
+  },
+
+
+  "veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama":{
+     banner: {
+      src: "/images/blog/software/Software3-12/Software3-12-1.webp",
+      alt: "Veri Sahibi Başvuru Süreci İçin Teknik Akış ve Raporlama",
+      caption: "Veri Sahibi Başvuru Süreci İçin Teknik Akış ve Raporlama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-12/Software3-12-2.webp",
+      alt: "DSR talep kimlik doğrulama ve sistem tarama bağlamı, KVKK uyumu",
+      caption: "DSR talep kimlik doğrulama ve sistem tarama bağlamı, KVKK uyumu"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-12/Software3-12-3.webp",
+    alt: "Sistem bazlı veri çekme bölümü ayırıcı, otel ve B2B DSR",
+      caption: "Sistem bazlı veri çekme bölümü ayırıcı, otel ve B2B DSR"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-12/Software3-12-4.webp",
+      alt: "Export ve raporlama bölümü ayırıcı, DSR paket standardı",
+      caption: "Export ve raporlama bölümü ayırıcı, DSR paket standardı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-12/Software3-12-5.webp",
+      alt: "Veri sahibi başvuru swimlane akış diyagramı, KVKK teknik süreç",
+      caption: "Veri sahibi başvuru swimlane akış diyagramı, KVKK teknik süreç"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-12/Software3-12-6.webp",
+      alt: "DSR teknik checklist kartı, kimlik doğrulama ve çoklu sistem export",
+      caption: "DSR teknik checklist kartı, kimlik doğrulama ve çoklu sistem export"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-12/Software3-12-7.webp",
+      alt: "DSR yanıt süresi ve doğruluk KPI paneli, otel ve B2B",
+      caption: "DSR yanıt süresi ve doğruluk KPI paneli, otel ve B2B"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-12/Software3-12-8.webp",
+      alt: "DSR paket şablonu ve süreç deliverables kartı, KVKK uyumu",
+      caption: "DSR paket şablonu ve süreç deliverables kartı, KVKK uyumu"
+    }
+  },
+
+  "analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi":{
+    banner: {
+      src: "/images/blog/software/Software3-13/Software3-13-1.webp",
+      alt: "Analitik ve BI Ortamlarında KVKK Uyumu: Anonimizasyon ve Pseudonimizasyon Teknik Bakışı",
+      caption: "Analitik ve BI Ortamlarında KVKK Uyumu: Anonimizasyon ve Pseudonimizasyon Teknik Bakışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-13/Software3-13-2.webp",
+      alt: "BI dashboardlarında kişisel veri risk noktaları, otel ve B2B raporlama",
+      caption: "BI dashboardlarında kişisel veri risk noktaları, otel ve B2B raporlama"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-13/Software3-13-3.webp",
+    alt: "Anonimizasyon ve pseudonimizasyon çerçevesi bölüm ayırıcı, BI hijyeni",
+      caption: "Anonimizasyon ve pseudonimizasyon çerçevesi bölüm ayırıcı, BI hijyeni"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-13/Software3-13-4.webp",
+      alt: "Otel ve B2B rapor örnekleri bölüm ayırıcı, ID bazlı analiz",
+      caption: "Otel ve B2B rapor örnekleri bölüm ayırıcı, ID bazlı analiz"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-13/Software3-13-5.webp",
+      alt: "BI mimarisinde anonim pseudo katmanı diyagramı, privacy view modeli",
+      caption: "BI mimarisinde anonim pseudo katmanı diyagramı, privacy view modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-13/Software3-13-6.webp",
+      alt: "Analitik KVKK checklist kartı, maskeleme ve export governance adımları",
+      caption: "Analitik KVKK checklist kartı, maskeleme ve export governance adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-13/Software3-13-7.webp",
+      alt: "PII alan sayısı ve maskeleme kapsama KPI paneli, BI uyum takibi",
+      caption: "PII alan sayısı ve maskeleme kapsama KPI paneli, BI uyum takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-13/Software3-13-8.webp",
+      alt: "Alan kataloğu ve privacy view deliverables kartı, BI KVKK uyumu",
+      caption: "Alan kataloğu ve privacy view deliverables kartı, BI KVKK uyumu"
+    }
   }
   
 };
