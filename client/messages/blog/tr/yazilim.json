@@ -6018,7 +6018,7 @@
     },
     "h1": {
       "title": "KVKK Uyumlu Web Altyapısı: Teknik ve Operasyonel Checklist",
-      "intro": "KVKK uyumu, pratikte “banner koyduk bitti” yaklaşımıyla değil; veri toplama noktalarının haritalanması, izin/aydınlatma katmanının doğru kurgulanması, erişim-yetki ve kayıt izlerinin tutulması, saklama/yedekleme güvenliğinin sağlanması ile gerçek olur. Özellikle otel ve turizm projelerinde web sitesi, PMS/rezervasyon motoru, CRM, çağrı merkezi ve e-posta otomasyonlarıyla birlikte çalışır; yani kişisel veri tek bir ekranda değil, bir akışın içinde oluşur. Bu rehber; hukuki yorum yapmadan, web altyapısında KVKK’ya temas eden teknik-ops başlıkları checklist mantığıyla somutlaştırır.",
+      "intro": "KVKK uyumu, pratikte “banner koyduk bitti” yaklaşımıyla değil; veri toplama noktalarının haritalanması, izin/aydınlatma katmanının doğru kurgulanması, erişim-yetki ve kayıt izlerinin tutulması, saklama/yedekleme güvenliğinin sağlanması ile gerçek olur. Özellikle otel ve turizm projelerinde web sitesi, PMS/rezervasyon motoru, CRM, çağrı merkezi ve e-posta otomasyonlarıyla birlikte çalışır; yani kişisel veri tek bir ekranda değil, bir akışın içinde oluşur. Bu rehber; hukuki yorum yapmadan, web altyapısında KVKK’ya temas eden teknik-ops başlıkları checklist mantığıyla somutlaştırır. Bu yüzden [KVKK uyumlu web altyapısı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı; form, çerez, log ve entegrasyon katmanlarını birlikte ele alan teknik bir çerçeve olarak düşünülmelidir.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Web Altyapısı KVKK Teknik Uyum Analizi Talep Et",
@@ -6071,12 +6071,20 @@
             "text": "KVKK’yı web tarafında “metin” olarak düşünmek yerine sistem davranışı olarak ele almak gerekir: hangi veriyi alıyorsunuz, nerede saklıyorsunuz, kim erişiyor, ne kadar süre tutuyorsunuz ve bir ihlalde ne yapıyorsunuz? Web altyapısı; formlar, çerezler, sunucu logları, CDN/WAF kayıtları, analitik tag’leri ve üçüncü taraf widget’larla veri üretir. Bu yüzden uyum; ürün, yazılım, pazarlama ve operasyonun ortak kontrol alanıdır."
           },
           {
+            "type": "p",
+            "text": "Bu resmi, [web ve yazılım hizmetlerinde KVKK teknik checklist](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) mantığıyla okumak; uyumu yalnız hukuk metinleriyle değil, altyapı ve süreç kararlarıyla birlikte değerlendirmeyi sağlar."
+          },
+          {
             "type": "h3",
             "text": "KVKK teknik uyum modeli nedir?"
           },
           {
             "type": "p",
             "text": "KVKK teknik uyum modeli; form + cookie + log + erişim + yedekleme + entegrasyon katmanlarının tek bir çerçevede değerlendirilmesidir. “Hangi veri nereden nereye akıyor?” sorusuna cevap veren basit bir veri akışı diyagramı olmadan, hangi kontrolün hangi riski azalttığını görmek zorlaşır. Bu model; hem otel rezervasyon akışında hem de B2B teklif/lead toplama akışında aynı mantıkla çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [veri haritası ve data flow mapping](https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri) çalışması; formdan CRM’e, PMS’e veya çağrı merkezi ekranlarına giden her akışın görünür hale gelmesi için checklist’in ilk adımlarından biridir."
           },
           {
             "type": "h3",
@@ -6123,6 +6131,10 @@
           {
             "type": "p",
             "text": "Web tarafında KVKK riskini büyüten ana hata; veri toplama noktalarının “parça parça” görülmesidir. Oysa form alanları, çerezler ve loglar aynı hikâyenin farklı kayıtlarıdır: kullanıcı davranışı ve kimlik bilgisi. Otel ve B2B projelerinde özellikle “teklif al”, “broşür indir”, “rezervasyon sor” gibi formlar; pazarlama ekiplerinin en değerli varlığıdır ama en sık unutulan uyum noktasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [form çerez log kontrolü](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) tekil bir banner denetiminden ibaret değildir; veri güvenliği, saklama, erişim ve raporlama disiplinleriyle birlikte yönetilmelidir."
           },
           {
             "type": "h3",
@@ -6280,6 +6292,10 @@
             "text": "KVKK’da teknik olarak en kritik başlıklardan biri “kim neye erişebiliyor?” sorusudur. Web sitesi sadece “public” bir yüz değildir; CMS, admin panel, rezervasyon/lead paneli ve entegrasyon panelleri (CRM, e-posta) içerir. Bu katmanlarda rol bazlı yetkilendirme (RBAC), audit log, MFA ve hesap yaşam döngüsü yönetimi yoksa; veri sızıntısı ihtimali ciddi yükselir."
           },
           {
+            "type": "p",
+            "text": "Bu alanı daha sistematik ele almak için [erişim kontrolü ve loglama](https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi) rehberi; panel erişimleri, sunucu kayıtları ve audit trail mantığını checklist’in teknik tedbir katmanıyla birleştirir."
+          },
+          {
             "type": "h3",
             "text": "Rol bazlı yetkilendirme (RBAC) ve hesap hijyeni"
           },
@@ -6366,6 +6382,10 @@
             "text": "Yedekleme; çoğu ekipte “var” kabul edilir ama KVKK teknik uyumu açısından üç soru önemlidir: (1) yedeklerde kişisel veri var mı, (2) yedekler şifreli mi ve kim erişiyor, (3) geri yükleme test ediliyor mu? Ayrıca loglama ile yedekleme birlikte düşünülmelidir; çünkü “iz” ve “veri” aynı güvenlik çemberinde korunur."
           },
           {
+            "type": "p",
+            "text": "Bu kontrolleri tek seferlik bırakmamak için [periyodik KVKK teknik sağlık kontrolü](https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri) yaklaşımıyla erişim, log, yedekleme ve entegrasyon maddelerini düzenli internal audit ritmine bağlamak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Yedekleme ve şifreleme temelleri"
           },
@@ -6430,12 +6450,24 @@
             "text": "Otel projelerinde web sitesi; rezervasyon motoruna yönlendirir, kampanya formları lead üretir, çağrı merkeziyle satış kapanır. Bu akışta veri; bazen farklı sağlayıcılara gider. Bu nedenle “veri işleyen taraflar” ve “entegrasyon noktaları” hem teknik hem operasyonel olarak dokümante edilmelidir."
           },
           {
+            "type": "p",
+            "text": "Özellikle [otel B2B veri akışı](https://dgtlface.com/tr/pms-ota/pms-kurulum) PMS kurulumu aşamasında ele alındığında; kullanıcı yetkileri, veri geçiş noktaları ve operasyonel ekranlar baştan daha kontrollü tasarlanabilir."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu: Web → CRM → Doküman yönetimi → E-posta otomasyonu"
           },
           {
             "type": "p",
             "text": "B2B’de; teklif dosyaları, fiyat listeleri, sözleşmeler ve müşteri listeleri ayrı sistemlerde yaşar. Web’den CRM’e giden veri; e-posta otomasyonuna, doküman paylaşımına veya satış ekiplerinin cihazlarına taşınır. Bu da erişim kontrolünü daha kritik hale getirir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm tarafında ise [otel PMS entegrasyonunda KVKK veri akışı](https://dgtlface.com/tr/otel/pms-entegrasyonu) rezervasyon formları, oda-fiyat bilgisi ve misafir verisinin hangi sistemler arasında dolaştığını görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Checklist’i form, çerez, log ve entegrasyon seviyesinde birlikte ele almak istiyorsanız [KVKK uyum hizmetiyle teknik altyapı kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) alarak sprint bazlı bir yol haritası çıkarabilir; uygulama detayları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "h3",
@@ -6688,7 +6720,7 @@
     },
     "h1": {
       "title": "Veri Haritası ve Data Flow Mapping: KVKK İçin Dijital Sistem Envanteri",
-      "intro": "KVKK uyumunda en çok zaman kaybettiren şey, “veri nerede?” sorusuna net yanıt verememektir. Bir yanda web formları, çerezler, analitik tag’ler; diğer yanda PMS, CRM, çağrı merkezi kayıtları, OTA ekstranetleri, e-posta otomasyonları ve raporlama araçları… Kişisel veri bu sistemler arasında dolaşırken, ekipler çoğu zaman aynı olayı farklı yerden anlatır. Çözüm: önce dijital sistem envanteri (sistem listesi + veri alanları), sonra data flow mapping (akış diyagramı), en sonunda da retention ve silme/anonimleştirme planı.\n\nBu rehber; KVKK’yı hukuken yorumlamak yerine, teknik/operasyonel tarafta “tek resim” üretmenizi sağlar. Türkiye’de özellikle otel gruplarında (Antalya ve Belek gibi yoğun sezon bölgelerinde) birden fazla kanal ve tedarikçiyle çalışıldığı için, veri akışını “parça parça” yönetmek daha da riskli hale gelir; haritalama bunu toparlar.",
+      "intro": "KVKK uyumunda en çok zaman kaybettiren şey, “veri nerede?” sorusuna net yanıt verememektir. Bir yanda web formları, çerezler, analitik tag’ler; diğer yanda PMS, CRM, çağrı merkezi kayıtları, OTA ekstranetleri, e-posta otomasyonları ve raporlama araçları… Kişisel veri bu sistemler arasında dolaşırken, ekipler çoğu zaman aynı olayı farklı yerden anlatır. Çözüm: önce dijital sistem envanteri (sistem listesi + veri alanları), sonra data flow mapping (akış diyagramı), en sonunda da retention ve silme/anonimleştirme planı.\n\nBu rehber; KVKK’yı hukuken yorumlamak yerine, teknik/operasyonel tarafta “tek resim” üretmenizi sağlar. Türkiye’de özellikle otel gruplarında (Antalya ve Belek gibi yoğun sezon bölgelerinde) birden fazla kanal ve tedarikçiyle çalışıldığı için, veri akışını “parça parça” yönetmek daha da riskli hale gelir; haritalama bunu toparlar. Bu yüzden [veri haritası](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı, KVKK uyum sürecinin en başında ele alınması gereken temel çalışma alanlarından biridir.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "KVKK Veri Haritası & Sistem Envanteri Analizi Talep Et",
@@ -6737,12 +6769,20 @@
             "text": "Veri haritası (data map), kurumun dijital temas noktalarında hangi verilerin üretildiğini ve bu verilerin hangi sistemlerde yaşadığını gösteren “envanter + bağlam” dokümanıdır. Data flow mapping ise bir adım ileri gider: verinin sistemler arasında nasıl aktığını (kaynak → hedef), hangi işlem adımlarından geçtiğini ve nerelerde çoğaldığını (kopya, export, entegrasyon) görselleştirir. KVKK açısından kritik olmasının nedeni basit: Eğer verinin nerede olduğunu bilmiyorsanız; erişimi kısıtlayamaz, saklama süresini yönetemez, silme/anonimleştirmeyi planlayamazsınız.\n\nBu noktada önemli bir gerçek var: Veri haritası çıkarılan kurumlarda, KVKK projelerinin süresi ve teknik/hukuki ekipler arasındaki yanlış anlama sayısı belirgin şekilde azalır. Çünkü herkes aynı tablo ve diyagram üzerinden konuşur; “ben öyle sanıyordum” dönemi biter."
           },
           {
+            "type": "p",
+            "text": "Bu çalışma, [web ve yazılım hizmetlerinde dijital sistem envanteri](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) mantığıyla ele alındığında; yalnız hukuki belge üretmek yerine sistem, veri ve süreç katmanlarını aynı mimari içinde görmeyi kolaylaştırır."
+          },
+          {
             "type": "h3",
             "text": "Veri haritası (data flow mapping) KVKK için nasıl hazırlanır? "
           },
           {
             "type": "p",
             "text": "Kısa yanıt: 3 çıktı üretirsiniz—(1) sistem envanteri tablosu, (2) data flow diyagramı, (3) retention/silme-anonimleştirme planı. Önce sistemleri listeler, sonra veri alanlarını toplar, sonra akışı çizersiniz. En sonunda da her veri alanı için “ne kadar tutuluyor, ne zaman siliniyor/anonimleşiyor?” sorusunu kapatırsınız."
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktılar, uygulama tarafında [KVKK veri akışı şeması](https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist) ile birleştiğinde; form, çerez, log ve erişim kontrollerinin hangi veri akışını koruduğu daha görünür hale gelir."
           },
           {
             "type": "h3",
@@ -6789,6 +6829,10 @@
           {
             "type": "p",
             "text": "En büyük hata, envanteri “sadece web” ya da “sadece CRM” sanmaktır. KVKK açısından dijital sistem envanteri; veri üreten, veri saklayan veya veriye erişen her şeyi kapsar. Otel ve B2B dünyasında sistem seti geniştir: PMS, channel manager, CRM, call center, e-posta otomasyonu, kampanya yönetimi, analitik, raporlama, ödeme/rezervasyon motorları, doküman yönetimi…"
+          },
+          {
+            "type": "p",
+            "text": "Bu tabloya üçüncü taraf araçları da dahil etmek gerekir; [vendor ve veri işleyen envanteri](https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi) çıkarılmadan hangi sağlayıcının hangi veriye temas ettiği netleşmez."
           },
           {
             "type": "h3",
@@ -6858,6 +6902,10 @@
           {
             "type": "p",
             "text": "Veriyi haritalamak, sadece “nereye gidiyor?” demek değildir; verinin hayat döngüsünü de tanımlamaktır. Çünkü KVKK açısından asıl kontrol; saklama süresi ve silme/anonimleştirme adımında görünür. Birçok kurum veriyi iyi toplar ve işler; ama “ne zaman silinecek?” sorusu boş kalır. Data flow mapping’i hayat döngüsüyle birleştirince, sistemlerin her aşamadaki rolü netleşir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı görünürlük, [veri sahibi başvuru teknik akışı](https://dgtlface.com/tr/yazilim/blog/veri-sahibi-basvuru-sureci-icin-teknik-akis-ve-raporlama) açısından da kritiktir; bir başvuru geldiğinde hangi sistemde hangi kaydın aranacağını bu harita belirler."
           },
           {
             "type": "h3",
@@ -6930,12 +6978,20 @@
             "text": "Bu bölümde amaç; “otel pms crm kvkk veri akisi” gibi aranan senaryoyu somutlaştırmak. Çoğu içerik teoride kalır; burada otel ve B2B için örnek akış şablonlarını netleştiriyoruz."
           },
           {
+            "type": "p",
+            "text": "Özellikle [PMS ve OTA veri akışı](https://dgtlface.com/tr/pms-ota/pms-kurulum) tanımlanmadığında; rezervasyon, müsaitlik ve müşteri iletişimi farklı araçlar arasında dağılır ve KVKK envanteri eksik kalır."
+          },
+          {
             "type": "h3",
             "text": "Otel örneği: Web → Rezervasyon motoru → PMS → CRM → Call Center → Raporlama"
           },
           {
             "type": "p",
             "text": "Akış özeti:\n\t•\tWeb’de “rezervasyon/teklif” isteği oluşur\n\t•\tRezervasyon motoru/PMS’e aktarılır\n\t•\tCRM’de satış/upsell takibi yapılır\n\t•\tCall center görüşme kaydı oluşur\n\t•\tBI/raporlama aracı KPI üretir\n\nMini örnek: Misafir web’den fiyat baktı → form bıraktı → CRM’e düştü → call center aradı → PMS’e rezervasyon notu işlendi → kampanya e-postası gönderildi."
+          },
+          {
+            "type": "p",
+            "text": "Bu yolculukta [çağrı merkezi veri akışı](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) görünür hale getirilmezse; görüşme kayıtları, mesaj notları ve talep geçmişi çoğu zaman veri haritasının dışında kalır."
           },
           {
             "type": "h3",
@@ -6990,6 +7046,10 @@
           {
             "type": "p",
             "text": "Veri haritasının “işe yaradığı” yer burasıdır. Çünkü denetim anında veya bir iç değerlendirmede sorulan temel soru şudur: “Bu veri neden hâlâ burada?” Retention planı; veri alanı bazında saklama sürelerini tanımlar. Anonimleştirme planı ise raporlama/analitik gibi amaçlar için kimliksizleştirmenin nasıl yapılacağını netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [KVKK veri güvenliği ve raporlama kontrolleri](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) saklama, erişim, raporlama ve denetim adımlarının veri haritasıyla birlikte okunmasını gerektirir."
           },
           {
             "type": "h3",
@@ -7052,6 +7112,10 @@
           {
             "type": "p",
             "text": "Bu blogun “fark yaratan” kısmı; çıktıyı aksiyona bağlamasıdır. Veri haritasını bir “doküman” olarak bırakmak yerine, kısa bir sprint planıyla hayata geçirirseniz; hem hız kazanır hem de sürdürülebilirlik sağlarsınız."
+          },
+          {
+            "type": "p",
+            "text": "Bu çalışmayı sprint planına dönüştürmek için [KVKK uyum hizmetiyle veri akışı envanteri](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) desteği alabilir; uygulama detayları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "h3",
@@ -7350,7 +7414,7 @@
     },
     "h1": {
       "title": "Erişim Kontrolü ve Loglama: KVKK Teknik Tedbirleri İçin Panel ve Sunucu Mimarisi",
-      "intro": "KVKK uyumunda “teknik tedbirler” tarafı genellikle yanlış anlaşılır: birçok kurum loglamayı sadece “hata logu” olarak görür, panel erişimini de “admin şifresi var” sanır. Oysa gerçek ihtiyaç çok daha nettir: kim hangi veriyi gördü, hangi değişikliği yaptı, hangi kaydı sildi, hangi veriyi export etti ve bunu ne zaman yaptı sorularına hızlı ve kanıtlanabilir cevap verebilmek. Bu yapı, denetim hazırlığında güven verir; olası bir ihlalde ise kök neden analizini ve etkilenen kayıtların tespitini dramatik şekilde hızlandırır.\n\nBu rehber; otel projelerinde rezervasyon/misafir ekranları, B2B’de sözleşme/teklif ekranları gibi kritik panel alanları için RBAC + audit trail mantığını ve sunucu log mimarisini uçtan uca anlatır. Türkiye’de (KVKK kapsamında) bu mimariyi kurarken, gereğinden fazla hassas veriyi loglamamak ve logların kendisini korumak özellikle önemlidir.",
+      "intro": "KVKK uyumunda “teknik tedbirler” tarafı genellikle yanlış anlaşılır: birçok kurum loglamayı sadece “hata logu” olarak görür, panel erişimini de “admin şifresi var” sanır. Oysa gerçek ihtiyaç çok daha nettir: kim hangi veriyi gördü, hangi değişikliği yaptı, hangi kaydı sildi, hangi veriyi export etti ve bunu ne zaman yaptı sorularına hızlı ve kanıtlanabilir cevap verebilmek. Bu yapı, denetim hazırlığında güven verir; olası bir ihlalde ise kök neden analizini ve etkilenen kayıtların tespitini dramatik şekilde hızlandırır.\n\nBu rehber; otel projelerinde rezervasyon/misafir ekranları, B2B’de sözleşme/teklif ekranları gibi kritik panel alanları için RBAC + audit trail mantığını ve sunucu log mimarisini uçtan uca anlatır. Türkiye’de (KVKK kapsamında) bu mimariyi kurarken, gereğinden fazla hassas veriyi loglamamak ve logların kendisini korumak özellikle önemlidir. Bu nedenle [erişim kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı; panel yetkileri, log saklama ve denetlenebilir işlem izlerini birlikte tasarlayan teknik bir çerçeve olarak ele alınmalıdır.",
       "quickSummary": [
         "1) RBAC’ı “ekran + aksiyon” mantığıyla tasarla (view/edit/delete/export ayrı)",
         "2) Rol + kapsam (scope) yaklaşımıyla departman/portföy bazlı sınır koy",
@@ -7418,6 +7482,10 @@
             "text": "KVKK uyumunda teknik tedbirlerin amacı “log var” demek değil; kanıt üretmektir. Denetimde ve ihlal analizinde aranan şey şudur: kim, hangi kayda, hangi aksiyonla temas etti (görüntüleme/değişiklik/silme/export) ve bu olayın zaman çizelgesi nedir? RBAC (erişim kontrolü) bu aksiyonların kimler tarafından yapılabileceğini sınırlar; audit trail ise olan biteni kanıtlanabilir şekilde kaydeder."
           },
           {
+            "type": "p",
+            "text": "Bu yapı, [web ve yazılım hizmetlerinde KVKK teknik tedbirleri](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle düşünüldüğünde; yalnız politika dokümanına değil, uygulama ve altyapı davranışına dayanan bir kontrol katmanı haline gelir."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Ne yapmalıyım? (başlangıç çerçevesi)",
@@ -7437,6 +7505,10 @@
           {
             "type": "p",
             "text": "RBAC (Role Based Access Control), panelde “herkes her şeyi görmesin” yaklaşımını sistematik hale getirir. KVKK perspektifinde RBAC’ın amacı sadece güvenlik değil; aynı zamanda izlenebilirlik (audit) ve sorumluluk üretmektir. Çünkü erişim sınırı olmayan bir panelde, loglar da anlamını kaybeder: herkes her şeyi yapabiliyorsa, “kim yaptı?” sorusu kaosa döner."
+          },
+          {
+            "type": "p",
+            "text": "Aynı mantık, [üçüncü taraf script erişim kontrolü](https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi) için de geçerlidir; GTM, piksel ve dış servis erişimleri denetlenmeden bırakıldığında panel dışındaki veri temas noktaları kör alan yaratır."
           },
           {
             "type": "h3",
@@ -7667,6 +7739,18 @@
             "text": "Bu içerik hukuki süre yorumu vermez; teknik kabiliyete odaklanır: retention, logların saklama süresini ve erişimini yönetebilme becerisidir. KVKK bağlamında kritik olan; süreyi yönetmek ve logların güvenliğini sağlamaktır. Teknik olarak loglar “sınırsız” bırakılmamalı, dönemsel döndürülmeli ve gerektiğinde silinebilir/anonimleştirilebilir olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu katmanda [sunucu logları ve veri lokasyonu](https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi) birlikte düşünülmelidir; logların hangi bölgede tutulduğu, hangi hosting katmanında işlendiği ve kimlerin eriştiği KVKK teknik tedbirlerinin parçasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [erişim kontrolü ve anahtar yönetimi](https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri) birlikte kurgulanmadığında; loglar veya hassas kayıtlar yetkisiz erişime karşı yeterince korunamaz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [panel ve sunucu audit trail](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımı; erişim kayıtlarını veri güvenliği, denetim ve saklama raporlamasıyla aynı çerçevede ele almayı gerektirir."
+          },
+          {
             "type": "h3",
             "text": "Log saklama ve güvenlik: 5 temel kural"
           },
@@ -7732,6 +7816,10 @@
             "text": "Bu bölüm, teoriyi mimariye bağlar. Amaç; panelde üretilen audit log’un sunucuda güvenli şekilde toplanması, saklanması ve sorgulanmasıdır. “Uygulama logu” ve “altyapı logu” birlikte tasarlanmalıdır; aksi halde kör nokta kalır."
           },
           {
+            "type": "p",
+            "text": "Turizm projelerinde [PMS entegrasyonunda erişim logları](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrıca önemlidir; rezervasyon, oda ve müşteri verisine hangi kullanıcı ya da servis hesabının dokunduğu iz bırakmadan yönetilemez."
+          },
+          {
             "type": "h3",
             "text": "Panel katmanı: uygulama audit trail"
           },
@@ -7766,6 +7854,10 @@
           {
             "type": "p",
             "text": "TR’de yaygın yaklaşım “hata logu topladık” seviyesinde kalır. Oysa KVKK teknik tedbir perspektifinde erişim/değişiklik logları ile sunucu loglarını aynı correlation ID üzerinden ilişkilendirmek fark yaratır: “kullanıcı X panelde export yaptı → IP şundan geldi → şu endpoint’e gitti” gibi."
+          },
+          {
+            "type": "p",
+            "text": "Benzer biçimde [çağrı merkezi kullanıcı erişimleri](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) haritalanmadığında; temsilci ekranlarında görüntülenen müşteri verisi, not alanları ve talep kayıtları audit zincirinin dışında kalabilir."
           },
           {
             "type": "media",
@@ -7914,6 +8006,10 @@
             "text": "KVKK teknik tedbirlerde erişim kontrolü ve loglama; güvenlik, izlenebilirlik ve operasyon hızını aynı anda çözen bir mimari karar setidir. RBAC ile erişimi sınırlayıp sorumluluğu netleştirir; audit trail ile “kim ne yaptı?” sorusuna kanıt üretirsiniz; sunucu tarafında log güvenliği/retention ve korelasyon ile ihlal anında kök neden ve etkilenen kayıt tespitini dramatik şekilde hızlandırırsınız."
           },
           {
+            "type": "p",
+            "text": "RBAC, audit trail ve log güvenliğini kurumsal ölçekte birlikte ele almak istiyorsanız [KVKK uyum hizmetiyle erişim ve log kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) alarak teknik tedbir mimarinizi netleştirebilir; uygulama detayları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Erişim Kontrolü & Loglama Mimari Analizi Talep Et",
@@ -8038,7 +8134,7 @@
     },
     "h1": {
       "title": "Veri Minimizasyonu ve Retention Politikaları: Dijital Sistemlerde Veri Azaltma",
-      "intro": "Birçok kurum dijitalde aynı hatayı tekrarlar: “Lazım olur” diye her alanı formda ister, sonra da bu veriyi yıllarca sistemlerde tutar. Bu yaklaşım hem KVKK riskini büyütür hem de operasyon maliyetini artırır (daha fazla erişim noktası, daha fazla kopya, daha fazla ihlal yüzeyi). Veri minimizasyonu; gereksiz veri toplamamayı, retention politikası ise gereksiz veri saklamamayı hedefler. Bu ikisini birlikte ele aldığınızda, hem uyum hem güvenlik hem de verimlilik artar.\n\nOtel senaryosunda rezervasyon/ziyaretçi kayıtları; B2B’de lead, teklif ve sözleşme verileri en sık “şişen” alanlardır. Bu rehber; hukuki yorum vermeden, teknik olarak nasıl sadeleştireceğinizi ve silme/anonimleştirme akışını nasıl kuracağınızı adım adım anlatır.",
+      "intro": "Birçok kurum dijitalde aynı hatayı tekrarlar: “Lazım olur” diye her alanı formda ister, sonra da bu veriyi yıllarca sistemlerde tutar. Bu yaklaşım hem KVKK riskini büyütür hem de operasyon maliyetini artırır (daha fazla erişim noktası, daha fazla kopya, daha fazla ihlal yüzeyi). Veri minimizasyonu; gereksiz veri toplamamayı, retention politikası ise gereksiz veri saklamamayı hedefler. Bu ikisini birlikte ele aldığınızda, hem uyum hem güvenlik hem de verimlilik artar.\n\nOtel senaryosunda rezervasyon/ziyaretçi kayıtları; B2B’de lead, teklif ve sözleşme verileri en sık “şişen” alanlardır. Bu rehber; hukuki yorum vermeden, teknik olarak nasıl sadeleştireceğinizi ve silme/anonimleştirme akışını nasıl kuracağınızı adım adım anlatır. Bu nedenle [veri minimizasyonu](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı, yalnızca saklama süresini değil hangi verinin en başta toplanacağını da teknik olarak tanımlamayı gerektirir.",
       "quickSummary": [
         "1) Formlarda “iş amacı” olmayan alanları kaldır",
         "2) Zorunlu/opsiyonel/gereksiz alanları sınıflandır",
@@ -8102,12 +8198,20 @@
             "text": "Veri minimizasyonu nedir, KVKK’da ne anlama gelir? Kısa yanıt: sadece iş hedefi için gerçekten gerekli olan veriyi toplamak ve gereksiz alanları kaldırmaktır. “Gerektiği kadar” ilkesi, form tasarımından CRM alanlarına kadar her yerde uygulanır. Bu yaklaşımın pratik getirisi şudur: daha az veri → daha az erişim riski → ihlalde daha az etkilenen kayıt."
           },
           {
+            "type": "p",
+            "text": "Bu bakış açısı, [web ve yazılım hizmetlerinde retention politikası](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) kurgulanırken form, CRM, çağrı merkezi ve raporlama katmanlarının birlikte ele alınmasını gerektirir."
+          },
+          {
             "type": "h3",
             "text": "Veri minimizasyonu bir “tasarım kararıdır”"
           },
           {
             "type": "p",
             "text": "Minimizasyon sadece güvenlik değil, aynı zamanda UX ve dönüşüm kararıdır. Formlarda her ekstra alan, dönüşümü düşürür; aynı zamanda KVKK risk yüzeyini büyütür. Bu yüzden pazarlama, tasarım ve yazılım ekipleri aynı masada olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Ürün ve panel akışları daha baştan [privacy by default ile gereksiz veri toplamama](https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek) mantığıyla kurgulandığında, sonradan alan temizliği yapmak yerine risk doğmadan azaltılmış olur."
           },
           {
             "type": "h3",
@@ -8142,6 +8246,10 @@
           {
             "type": "p",
             "text": "Form alanlarını KVKK’ya göre nasıl sadeleştirmeliyim? Kısa yanıt: zorunlu alanları minimuma indir, opsiyonelleri kaldır veya ikinci aşamaya taşı, “iş amacı” olmayan veriyi toplama. Form sadeleştirme; hem minimizasyon hem de SXO kazanımıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle lead ve iletişim akışlarında [formlarda gereksiz veri toplamama](https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari) yaklaşımı; açık rıza, onay kutuları ve alan sayısının iş amacıyla uyumlu olmasını sağlar."
           },
           {
             "type": "h3",
@@ -8217,6 +8325,14 @@
             "text": "Form verisi, lead verisi, sözleşme verisi, rezervasyon verisi, çağrı kaydı, loglar… Hepsi aynı süreyle tutulmaz. Bu yüzden en iyi pratik: retention politikası “sistem” değil “veri türü” tabanlıdır; sonra sistemlere dağıtılır."
           },
           {
+            "type": "p",
+            "text": "Bu matriste [silme ve anonimleştirme](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) kararlarının audit, saklama ve kontrol süreçleriyle birlikte ele alınması gerekir; aksi halde retention politikası yazılı kalır ama sistemde uygulanamaz."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle ses kayıtları ve operasyon mesajlarında [çağrı merkezi kayıtlarında retention](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) kuralı net değilse, veri en hızlı büyüyen ve en zor temizlenen alanlardan biri haline gelir."
+          },
+          {
             "type": "h3",
             "text": "Silme vs anonimleştirme: karar mantığı"
           },
@@ -8254,6 +8370,10 @@
           {
             "type": "p",
             "text": "Bu bölüm “somut tablo” ihtiyacını kapatır. Retention konusu TR’de çoğu zaman “en az X yıl” tartışmasına sıkışır; ama teknik tarafta asıl değer, hangi verinin hangi sistemde nasıl kapanacağını planlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı mantık abonelik listeleri ve kampanya segmentlerinde de geçerlidir; [pazarlama iletişimlerinde retention politikası](https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model) olmadan e-bülten ve sadakat verileri sistemlerde gereksiz yere birikir."
           },
           {
             "type": "h3",
@@ -8353,6 +8473,10 @@
             "text": "Minimizasyon ve retention, “doküman yazıp bırakma” işi değildir; sprint ile ilerler. Pratikte iki hızlı adım büyük etki sağlar: (1) form alanlarını sadeleştirme, (2) kapanış otomasyonlarını başlatma."
           },
           {
+            "type": "p",
+            "text": "Bu sprint sırasında [veri azaltmanın raporlama etkisi](https://dgtlface.com/tr/veri-analiz-ve-raporlama) da ayrıca planlanmalıdır; hangi alanların anonim bırakılacağı ve hangi metriklerin dashboard’da korunacağı baştan netleşirse analiz kalitesi düşmeden veri yüzeyi küçültülebilir."
+          },
+          {
             "type": "h3",
             "text": "1 günlük “Form Field Clean-up”"
           },
@@ -8441,6 +8565,10 @@
           {
             "type": "p",
             "text": "Teknik not: Saklama süreleri belirlenirken hukuki zorunluluklar hukuk danışmanıyla netleştirilmelidir; teknik tarafta bu sürelere uygun silme/anonimleştirme görevlerinin tanımlanması kritik önemdedir."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [KVKK uyum hizmetiyle veri azaltma kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) planlayabilir, uygulama öncesi temel sorular için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -8553,7 +8681,7 @@
     },
     "h1": {
       "title": "Olay Yönetimi ve Veri İhlali Incident Response Planı: KVKK Teknik Perspektif",
-      "intro": "Veri ihlali yaşandığında en pahalı hata, “o an çözmeye çalışırken kanıtı yok etmek” veya “yanlış sistemi kapatıp kesintiyi büyütmek”tir. Bu yüzden incident response, olay anında improvize edilmez: plan, roller, iletişim zinciri ve kanıt yönetimi önceden tanımlanır. Otel ve B2B kurumlarda web, PMS, CRM, çağrı merkezi, e-posta ve raporlama sistemleri birlikte çalıştığı için ihlalin kapsamını anlamak daha karmaşık olabilir; doğru plan bu karmaşıklığı yönetilebilir adımlara böler.\n\nBu rehber; KVKK uyumunun teknik tarafında incident response planını kurmak için “tespit–izolasyon–analiz–bildirim” hattını ekip ve araçlarla bağlar. Hukuki yorum yerine, teknik süreç ve koordinasyonu anlatır; bildirim süreçleri için ilgili sayfaya bağlanır.",
+      "intro": "Veri ihlali yaşandığında en pahalı hata, “o an çözmeye çalışırken kanıtı yok etmek” veya “yanlış sistemi kapatıp kesintiyi büyütmek”tir. Bu yüzden incident response, olay anında improvize edilmez: plan, roller, iletişim zinciri ve kanıt yönetimi önceden tanımlanır. Otel ve B2B kurumlarda web, PMS, CRM, çağrı merkezi, e-posta ve raporlama sistemleri birlikte çalıştığı için ihlalin kapsamını anlamak daha karmaşık olabilir; doğru plan bu karmaşıklığı yönetilebilir adımlara böler.\n\nBu rehber; KVKK uyumunun teknik tarafında incident response planını kurmak için “tespit–izolasyon–analiz–bildirim” hattını ekip ve araçlarla bağlar. Hukuki yorum yerine, teknik süreç ve koordinasyonu anlatır; bildirim süreçleri için ilgili sayfaya bağlanır. Bu nedenle iyi tanımlanmış bir [veri ihlali planı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti), kriz anında hangi ekibin hangi veriyi hangi sırayla işleyeceğini önceden netleştirir.",
       "quickSummary": [
         "1) Olayı doğrula ve triage yap (P1/P2/P3)",
         "2) Yayılımı hedefli izolasyonla durdur",
@@ -8616,6 +8744,10 @@
           {
             "type": "p",
             "text": "Veri ihlali (data breach) nedir, KVKK’da nasıl ele alınır?\nKısa yanıt: kişisel verinin yetkisiz erişim, ifşa, kayıp veya bozulma gibi bir olayla güvenliğinin zedelenmesidir. Teknik tarafta amaç; olayın “ne olduğunu” hızla anlamak, yayılımı durdurmak, kanıtı korumak ve kapsamı doğru belirlemektir. KVKK bağlamında ise bu teknik çalışma; hukuk ve iletişim ekipleriyle birlikte bildirim ve iletişim akışına bağlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [web ve yazılım hizmetlerinde incident response](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) kurgulanırken loglama, erişim kontrolü, izolasyon ve iş sürekliliği kararlarının aynı güvenlik çerçevesinde ele alınmasını gerektirir."
           },
           {
             "type": "h3",
@@ -8748,6 +8880,10 @@
             "text": "Veri ihlali tespit edildiğinde teknik ekip ne yapmalı?\nKısa yanıt: önce olayın gerçekliğini doğrula, ardından hızlı triage yap ve kanıtı koru. Tespit kaynakları üçlüdür: (1) log/alert, (2) kullanıcı/çalışan şikâyeti, (3) anomali (trafik artışı, export patlaması)."
           },
           {
+            "type": "p",
+            "text": "Bu aşamada [erişim loglarıyla olay tespiti](https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi) kritik hale gelir; panel kayıtları, audit trail ve sunucu logları olmadan olayın gerçekten nerede başladığını daraltmak çok zorlaşır."
+          },
+          {
             "type": "h3",
             "text": "Tespit sinyalleri (örnek)"
           },
@@ -8875,6 +9011,10 @@
             "text": "Analizin hedefi üç soruya cevap vermektir:\n1. Ne oldu? (vektör)\n2. Ne etkilendi? (sistem/veri/kayıt)\n3. Ne zaman başladı/bitti? (timeline)"
           },
           {
+            "type": "p",
+            "text": "Timeline, export kaydı ve sistem çıktıları bir araya getirilirken [ihlal sonrası teknik raporlama](https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi) mantığıyla ilerlemek, sonradan istenecek delil ve log paketlerini daha düzenli üretmeyi sağlar."
+          },
+          {
             "type": "h3",
             "text": "Kanıt yönetimi: “düzeltmeden önce kopyala”"
           },
@@ -8895,6 +9035,10 @@
           {
             "type": "p",
             "text": "Erişim/değişiklik logları ve correlation ID kullanıyorsanız, “hangi kullanıcı hangi kayıtları görüntüledi/export etti?” sorusu dakikalara iner. Bu yüzden incident response planı, RBAC + log mimarisiyle birlikte düşünülmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı veriler doğru sınıflandırıldığında [olay verisi ve etki analizi](https://dgtlface.com/tr/veri-analiz-ve-raporlama) yapmak kolaylaşır; etkilenen kayıt aralığı, davranış örüntüsü ve sistem bazlı etki daha hızlı karar desteğine dönüşür."
           },
           {
             "type": "callout",
@@ -8935,6 +9079,10 @@
             "text": "Incident response planı neleri içermelidir?\nKısa yanıt: roller, iletişim zinciri, tespit–izolasyon–analiz akışı, kanıt yönetimi, karar kriterleri ve post-incident iyileştirme adımları. Bildirim süreleri gibi hukuki detaylar değişken olabilir; bu rehber teknik ekiplerin “doğru veriyle” hukuk ve iletişim ekiplerini beslemesini hedefler."
           },
           {
+            "type": "p",
+            "text": "Teknik ekiplerin hazırladığı kayıt seti, [KVKK breach akışı](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) içinde veri güvenliği, raporlama ve denetim tarafını beslemelidir; böylece olayın kapsamı yalnızca varsayımla değil izlenebilir verilerle açıklanır."
+          },
+          {
             "type": "h3",
             "text": "Teknik ekibin bildirim sürecine katkısı: “net veri”"
           },
@@ -8967,6 +9115,14 @@
           {
             "type": "p",
             "text": "Key Data Point (yumuşatılmış): Önceden incident response planı olan kurumlarda, gerçek olay yaşandığında ilk saatlerde yapılan hatalar ve koordinasyon sorunları belirgin şekilde daha az raporlanır; çünkü rol ve iletişim zinciri bellidir."
+          },
+          {
+            "type": "p",
+            "text": "Olay kapandıktan sonra [incident sonrası internal audit](https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri) devreye alınmalı; aynı açıklığın tekrar etmemesi için log, yetki, alarm ve süreç tarafı yeniden gözden geçirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Müşteri tarafındaki soru ve talepler arttığında [ihlalde müşteri iletişimi ve çağrı merkezi akışı](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) ayrıca planlanmalıdır; çünkü kriz anında teknik bulgu kadar doğru temas yönetimi de etkili olur."
           },
           {
             "type": "callout",
@@ -9040,6 +9196,10 @@
           {
             "type": "p",
             "text": "Veri ihlalinde başarı; “en hızlı düzeltme” değil, en hızlı doğru koordinasyondur: yayılımı durdurmak, kanıtı korumak, kapsamı doğru çıkarmak ve hukuk/iletişim ekiplerine net veri sunmaktır. Otel ve B2B kurumlarda bu plan önceden yazılı olursa, kriz anındaki hata ve koordinasyon sorunları belirgin şekilde azalır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kurumunuza göre uyarlamak isterseniz [KVKK uyum hizmetiyle incident response planı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) kurgulayabilir, temel süreç soruları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -42245,7 +42405,7 @@
     },
     "h1": {
       "title": "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları",
-      "intro": "Formlar KVKK açısından en görünür veri toplama noktasıdır; çünkü kullanıcı veriyi “bilerek” size bırakır ve ardından “neye onay verdim?” sorusunu sorar. Bu yüzden KVKK uyumlu form tasarımı, yalnızca bir checkbox eklemek değildir: hangi alan gerçekten gerekli, aydınlatma metni nerede ve nasıl görünür, açık rıza hangi durumda ayrı alınır, onay nasıl kanıtlanır gibi başlıkları aynı anda yönetmek gerekir. Otel rezervasyon/iletişim formlarında ve B2B teklif/demo formlarında iyi kurgulanmış bir onay mekanizması; hem dönüşümü korur hem de şikâyet ve denetim riskini düşürür.\n\nBu rehber, hukuki metinleri tartışmak yerine, teknik ve UX perspektiften “form modelini” kurar: alan minimizasyonu, onay kutularının doğru ayrıştırılması ve onayın timestamp/IP ile kaydedilmesi.",
+      "intro": "Formlar KVKK açısından en görünür veri toplama noktasıdır; çünkü kullanıcı veriyi “bilerek” size bırakır ve ardından “neye onay verdim?” sorusunu sorar. Bu yüzden KVKK uyumlu form tasarımı, yalnızca bir checkbox eklemek değildir: hangi alan gerçekten gerekli, aydınlatma metni nerede ve nasıl görünür, açık rıza hangi durumda ayrı alınır, onay nasıl kanıtlanır gibi başlıkları aynı anda yönetmek gerekir. Otel rezervasyon/iletişim formlarında ve B2B teklif/demo formlarında iyi kurgulanmış bir onay mekanizması; hem dönüşümü korur hem de şikâyet ve denetim riskini düşürür.\n\nBu rehber, hukuki metinleri tartışmak yerine, teknik ve UX perspektiften “form modelini” kurar: alan minimizasyonu, onay kutularının doğru ayrıştırılması ve onayın timestamp/IP ile kaydedilmesi. Bu nedenle [KVKK uyumlu form tasarımı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı, yalnızca arayüz değil veri akışı ve kayıt modelinin tamamını birlikte ele almalıdır.",
       "quickSummary": [
         "1) Yalnız gerekli alanları isteyin",
         "2) Aydınlatma metnini görünür konumlandırın",
@@ -42315,6 +42475,10 @@
           {
             "type": "p",
             "text": "Kısa yanıt: (1) yalnız gerekli alanları isteyin, (2) aydınlatma metnini görünür konumlandırın, (3) açık rıza gerekiyorsa ayrı checkbox’larla alın, (4) her onayı kanıtlanabilir şekilde kaydedin (timestamp/IP/versiyon). Bu dört adım, “checkbox var ama kanıt yok” ve “çok alan var, risk büyük” problemlerini birlikte çözer."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçevede [web ve yazılım hizmetlerinde açık rıza kutuları](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) konusu, sadece bir UX tercihi değil formdan CRM, çağrı merkezi ve rezervasyon sistemlerine uzanan teknik veri toplama mimarisinin parçasıdır."
           },
           {
             "type": "h3",
@@ -42401,6 +42565,10 @@
             "text": "Kısa yanıt: işlemi başlatmak için gereken minimum alanlar zorunlu, segmentleme ve pazarlama kolaylığı sağlayanlar opsiyonel olmalıdır. “Lazım olur” alanlarını zorunlu yapmak hem dönüşümü düşürür hem de KVKK riskini büyütür."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [formlarda gereksiz veri toplamama](https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma) yaklaşımı, yalnızca form sadeleştirme değil aynı zamanda retention, silme ve anonimleştirme yükünü azaltan temel bir kontrol olarak düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Zorunlu alanları daraltma yöntemi (3 adım)"
           },
@@ -42482,6 +42650,10 @@
             "text": "Kısa yanıt: aydınlatma metni linki kullanıcıya görünür ve erişilebilir olmalı; açık rıza gerekiyorsa ayrı bir checkbox ile ve ön işaretli olmadan alınmalı; her checkbox’ın metni/versiyonu kaydedilmelidir. Bu rehber hukuki yorum yapmaz; sadece teknik-UX kurguyu tarif eder."
           },
           {
+            "type": "p",
+            "text": "Aynı sayfada çalışan piksel, dönüşüm etiketi ve izleme araçları için [form sayfalarında üçüncü taraf tag kontrolü](https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi) yapılmadan, kullanıcının hangi verisinin submit öncesi veya sonrası dış servislere aktarıldığı netleşmez."
+          },
+          {
             "type": "h3",
             "text": "Checkbox tipleri: “işlem” ve “pazarlama” ayrımı"
           },
@@ -42504,6 +42676,10 @@
           {
             "type": "p",
             "text": "Pre-checked rıza kutuları UX’te “kandırma” algısı yaratır ve şikâyet riskini artırır. Teknik olarak: checkbox default unchecked olmalı; kullanıcı aksiyonu ile true olur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle e-bülten ve segment yönetiminde [pazarlama iletişimi onay modeli](https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model) ile formdaki opsiyonel rızanın CRM ve iletişim listelerine nasıl aktarıldığı ayrı kurgulanmalıdır."
           },
           {
             "type": "callout",
@@ -42542,6 +42718,10 @@
           {
             "type": "p",
             "text": "Form uyumunun “kanıt” kısmı burada başlar. Sadece checkbox almak yetmez; hangi kullanıcı hangi metne hangi tarihte onay verdi sorusunu kanıtlayabilmeniz gerekir. Bu; hem şikâyet yönetiminde hem de denetimde savunma zorluğunu azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [onay timestamp IP kaydı](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımı; aydınlatma metni versiyonu, consent event’leri ve saklama kayıtlarıyla birlikte düşünülmeli, sadece checkbox sonucu saklamakla sınırlı kalmamalıdır."
           },
           {
             "type": "h3",
@@ -42618,6 +42798,14 @@
           {
             "type": "p",
             "text": "Kısa yanıt: minimum alan seti, görünür aydınlatma linki, ayrı açık rıza kutuları, onay kayıt şeması ve CRM/PMS mapping kontrolü."
+          },
+          {
+            "type": "p",
+            "text": "Formdan sonra kullanıcı talebi satış veya operasyon ekibine taşınıyorsa, [form sonrası müşteri iletişimi](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) tarafında arama izni, mesaj takibi ve talep kaydının hangi onaya dayanarak işlendiği de görünür olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Otel projelerinde ise [otel formlarında PMS veri akışı](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrıca kritik hale gelir; rezervasyon talebi, tarih aralığı ve misafir notları PMS’e aktarılırken gereksiz alanların taşınmaması ve consent bilgisinin ayrıştırılması gerekir."
           },
           {
             "type": "h3",
@@ -42794,6 +42982,10 @@
             "buttonLabel": "Şablonu İndir"
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı mevcut formlarınıza uygulamak isterseniz [KVKK uyum hizmetiyle form ve onay kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) planlayabilir, temel sorular için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -42914,7 +43106,7 @@
     },
     "h1": {
       "title": "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi",
-      "intro": "Web sitelerinde KVKK riskinin en sık gözden kaçtığı yer, “acil eklenen kodlar”dır: kampanya pikseli, heatmap, chat widget, A/B test aracı… Bu script’ler çoğu zaman birkaç satırla siteye girer, sonra kimse “ne topluyor, ne zaman çalışıyor, hangi sayfada aktif” sorusunu sormaz. Sonuç: denetlenebilirlik kaybolur, veri minimizasyonu bozulur ve consent mekanizması “kağıt üstünde” kalır.\n\nÇözüm yaklaşımı nettir: önce script envanteri, sonra kategori/amaç sınıflandırması, ardından GTM altında merkezi yönetim ve consent’e bağlı tetikleme. Böylece otel sitelerinde OTA/analytics/pixel senaryolarını; B2B’de reklam ve lead tracking araçlarını kontrollü, ölçülebilir ve KVKK perspektifinde yönetilebilir hale getirirsiniz.",
+      "intro": "Web sitelerinde KVKK riskinin en sık gözden kaçtığı yer, “acil eklenen kodlar”dır: kampanya pikseli, heatmap, chat widget, A/B test aracı… Bu script’ler çoğu zaman birkaç satırla siteye girer, sonra kimse “ne topluyor, ne zaman çalışıyor, hangi sayfada aktif” sorusunu sormaz. Sonuç: denetlenebilirlik kaybolur, veri minimizasyonu bozulur ve consent mekanizması “kağıt üstünde” kalır.\n\nÇözüm yaklaşımı nettir: önce script envanteri, sonra kategori/amaç sınıflandırması, ardından GTM altında merkezi yönetim ve consent’e bağlı tetikleme. Böylece otel sitelerinde OTA/analytics/pixel senaryolarını; B2B’de reklam ve lead tracking araçlarını kontrollü, ölçülebilir ve KVKK perspektifinde yönetilebilir hale getirirsiniz. Bu nedenle [üçüncü taraf script riski](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yalnızca pazarlama performansı değil, veri akışı ve izin yönetimi açısından da teknik olarak ele alınmalıdır.",
       "quickSummary": [
         "1) Tüm üçüncü taraf script ve tag’leri envantere alın",
         "2) Script’leri zorunlu, analitik, reklam ve UX olarak kategorize edin",
@@ -42990,6 +43182,10 @@
             "text": "Kısa yanıt: çünkü kullanıcı fark etmeden çalışabilir, farklı vendor’lara veri aktarabilir ve consent öncesi tetiklenirse “izin” katmanını boşa düşürür. Ayrıca script’ler çoğaldıkça hangi aracın gerçekten gerekli olduğu belirsizleşir; gereksiz veri toplama ve performans kaybı artar."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [web ve yazılım hizmetlerinde KVKK script envanteri](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı; analitik, reklam, heatmap ve chat araçlarının aynı yönetişim modeli içinde değerlendirilmesini gerektirir."
+          },
+          {
             "type": "h3",
             "text": "En yaygın script kategorileri (örnek)"
           },
@@ -43050,6 +43246,14 @@
           {
             "type": "p",
             "text": "En iyi kontrol, “kontrol edebildiğin kadar”dır. Bu yüzden ikinci adım; envanterdeki her script için “değer vs risk” değerlendirmesi yapmaktır. Birçok projede aynı işi yapan 2–3 araç bulunur (çifte analitik, çifte pixel, hem chat hem lead form aracı). Bu kalabalık, risk/katkı oranını düşürür."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı genel altyapı kontrollerine bağlamak için [script ve tag teknik checklist kontrolü](https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist) mantığıyla form, çerez, log ve üçüncü taraf servis başlıkları aynı envanter içinde izlenmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca bu tabloyu [script envanteri ve veri güvenliği raporlaması](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) ile ilişkilendirmek; hangi vendor’un hangi consent durumunda hangi veriye temas ettiğini daha görünür hale getirir."
           },
           {
             "type": "h3",
@@ -43193,6 +43397,10 @@
             "text": "Kısa yanıt: tüm üçüncü taraf script’leri doğrudan site koduna eklemek yerine GTM container altında toplayın; kategori/amaç etiketleri, klasörler ve naming convention ile yönetin. Böylece kim ne ekledi, ne kaldırdı sorusuna cevap verebilir; test/rollback yapabilir ve consent’e göre tetikleyebilirsiniz."
           },
           {
+            "type": "p",
+            "text": "Özellikle reklam ölçümlemesinde [Tag Manager consent](https://dgtlface.com/tr/sem/donusum-takibi-tag-manager) kurgusu; GTM tetikleyicilerinin ilgili izin sinyali geldiğinde çalışmasını sağlar ve ölçüm kalitesini kontrolsüz veri toplama olmadan sürdürmeye yardımcı olur."
+          },
+          {
             "type": "h3",
             "text": "GTM container yapısı (önerilen düzen)"
           },
@@ -43255,6 +43463,10 @@
           {
             "type": "p",
             "text": "Kısa yanıt: CMP’den gelen consent durumunu GTM’e bir sinyal olarak taşıyın; analitik/reklam/UX kategorilerine göre tetikleyiciler oluşturun ve yalnız ilgili kategori “granted” olduğunda tag’leri çalıştırın. Bu yaklaşım; consent mode veya tetikleyici bazlı kurgu ile uygulanabilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle lead ve rezervasyon ekranlarında [form sayfalarında consent ve tag kontrolü](https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari) yapılmadan, submit öncesi ve sonrası çalışan tag’lerin açık rıza ve aydınlatma akışıyla uyumu doğrulanamaz."
           },
           {
             "type": "h3",
@@ -43325,6 +43537,10 @@
             "text": "Kısa yanıt: otelde rezervasyon funnel ve OTA kampanyalarını; B2B’de lead tracking ve reklam ölçümünü kategorize ederek kurun. “Her sayfaya her tag” yaklaşımından kaçının; tag’leri sayfa türüne ve funnel aşamasına göre sınırlayın."
           },
           {
+            "type": "p",
+            "text": "Remarketing ve audience kurgularında [sosyal medya reklam pikselleri](https://dgtlface.com/tr/smm/sosyal-medya-reklamlari) yalnız performans aracı olarak değil, hangi consent koşulunda hangi sayfada çalıştıkları açısından da ayrıca değerlendirilmelidir."
+          },
+          {
             "type": "h3",
             "text": "Otel örneği: OTA/analytics/pixel senaryosu"
           },
@@ -43358,6 +43574,10 @@
             "items": [
               "Üçüncü taraf script envanteri çıkarılıp GTM altında toplandığında, hangi aracın gerçekten gerekli olduğu ve hangilerinin risk/katkı oranının düşük olduğu daha net görülebilir; bu da düzenli “temizlik” kararlarını hızlandırır."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Yeni vendor eklemeleri, masking ayarları ve container değişiklikleri için [periyodik tag ve script audit’i](https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri) tanımlanmadığında, bugün kontrollü görünen kurgu birkaç kampanya sonra tekrar dağılabilir."
           },
           {
             "type": "cta",
@@ -43447,6 +43667,10 @@
               "GTM mimari diyagramı",
               "Script KVKK checklist kartı"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kurumunuza göre uygulamak isterseniz [KVKK uyum hizmetiyle Tag Manager ve script kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) planlayabilir, temel süreç soruları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -43574,7 +43798,7 @@
     },
     "h1": {
       "title": "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış",
-      "intro": "Hibrit yapılarda (mobil app + WebView) KVKK uyumu “daha zor” değil; daha görünmez olduğu için risklidir. Çünkü aynı kullanıcıyla ilgili veriler üç katmanda birikir: (1) uygulama katmanı (izinler, device ID, push token), (2) WebView katmanı (çerezler, analytics/pixel/tag’ler), (3) backend katmanı (sunucu logları, uygulama logları, erişim kayıtları). Bu katmanlar birbiriyle konuştuğunda, “hangi veri nerede işleniyor?” sorusunun cevabı net değilse aydınlatma metinleri ve teknik kurgular birbirinden kopar.\n\nBu rehberin amacı; mobil ve web ekiplerinin aynı haritaya bakmasını sağlamak ve otel uygulamalarında rezervasyon/hesap yönetimi, B2B’de portal+app entegrasyonları gibi senaryolarda teknik kontrol noktalarını netleştirmektir.",
+      "intro": "Hibrit yapılarda (mobil app + WebView) KVKK uyumu “daha zor” değil; daha görünmez olduğu için risklidir. Çünkü aynı kullanıcıyla ilgili veriler üç katmanda birikir: (1) uygulama katmanı (izinler, device ID, push token), (2) WebView katmanı (çerezler, analytics/pixel/tag’ler), (3) backend katmanı (sunucu logları, uygulama logları, erişim kayıtları). Bu katmanlar birbiriyle konuştuğunda, “hangi veri nerede işleniyor?” sorusunun cevabı net değilse aydınlatma metinleri ve teknik kurgular birbirinden kopar.\n\nBu rehberin amacı; mobil ve web ekiplerinin aynı haritaya bakmasını sağlamak ve otel uygulamalarında rezervasyon/hesap yönetimi, B2B’de portal+app entegrasyonları gibi senaryolarda teknik kontrol noktalarını netleştirmektir. Bu nedenle [mobil uygulama KVKK](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı, yalnız ekranları değil uygulama, WebView ve backend katmanlarının birlikte okunmasını gerektirir.",
       "quickSummary": [
         "1) Hibrit veri akış diyagramı çıkarın (app ↔ WebView ↔ backend).",
         "2) İzin/consent olaylarını tek sözlükte standardize edin.",
@@ -43642,6 +43866,10 @@
             "text": "Kısa yanıt: WebView, uygulama içinde web sayfası gösteren gömülü tarayıcı katmanıdır; bu katman web’in çerez ve tag ekosistemini uygulama deneyiminin içine taşır. KVKK açısından kritik olmasının nedeni; kullanıcı app içindeyken web tarafındaki çerezler/izleme tag’leri çalışabilir ve bu durum app izinleriyle birlikte “çift katmanlı” bir veri toplama alanı yaratır."
           },
           {
+            "type": "p",
+            "text": "Bu yapı, [web ve yazılım hizmetlerinde hibrit veri yönetimi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle ele alınmadığında; aynı kullanıcı için app, WebView ve backend tarafında birbirinden kopuk izin ve kayıt katmanları oluşabilir."
+          },
+          {
             "type": "h3",
             "text": "WebView’nin iki riski: “görünmez web” ve “paylaşılan kimlik”"
           },
@@ -43707,6 +43935,10 @@
             "text": "Hibrit projelerde ilk yapılması gereken şey, “app verisi” ve “web verisi” ayrımını yapmaktır. Çünkü aynı kullanıcı deneyiminde iki farklı veri toplama mekanizması çalışır: native SDK’lar ve web tag’leri. Bu ayrım yapılmazsa, aydınlatma metinleri ve teknik kontroller birbirini tutmaz."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [WebView veri akışı](https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri) app, API, backend, CRM, PMS ve destek kanallarıyla birlikte tek veri haritası üzerinde gösterilmelidir."
+          },
+          {
             "type": "h3",
             "text": "App katmanı: izinler ve SDK’lar"
           },
@@ -43770,6 +44002,14 @@
           {
             "type": "p",
             "text": "Kısa yanıt: app tarafında device ID, push token, izin durumları ve app event’leri; WebView tarafında çerezler ve web event’leri; backend tarafında ise erişim, işlem ve hata logları toplanır. KVKK riskini yöneten şey; bu tanımlayıcıların nasıl ilişkilendirildiği ve ne kadar süre tutulduğudur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle API yanıtları, uygulama logları ve saklama katmanı konuşulurken [mobil backend veri lokasyonu](https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi) kararı; hangi verinin hangi bulut servisinde tutulduğunu görünür kılar."
+          },
+          {
+            "type": "p",
+            "text": "Bu katmanda [app izinleri ve loglar](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) birlikte değerlendirilmelidir; çünkü izin durumu, tanımlayıcılar ve backend kayıtları aynı güvenlik ve raporlama mantığı içinde yönetilmezse denetlenebilirlik zayıflar."
           },
           {
             "type": "h3",
@@ -43956,6 +44196,10 @@
             "text": "Bu bölüm “uygulanabilir” kontrol setini verir: mobil, web ve backend ekiplerinin ortaklaşa kontrol edeceği noktalar."
           },
           {
+            "type": "p",
+            "text": "Destek, arama ve mesajlaşma modülleri uygulama içinde yer alıyorsa [app içi chatbot veri akışı](https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim) da bu hibrit modele dahil edilmelidir; çünkü sohbet verisi çoğu zaman ayrı vendor ve ayrı log katmanında akar."
+          },
+          {
             "type": "h3",
             "text": "Otel uygulamalarında misafir hesabı ve rezervasyon verisi"
           },
@@ -43970,6 +44214,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu zincirde [otel mobil uygulamasında PMS veri akışı](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrıca kritik hale gelir; rezervasyon, oda, fiyat ve misafir verisinin WebView ve backend üzerinden PMS’e hangi kuralla aktarıldığı net olmalıdır."
+          },
+          {
             "type": "h3",
             "text": "B2B’de portal + mobil app entegrasyonu"
           },
@@ -43980,6 +44228,10 @@
               "Portal WebView ile açılıyorsa, web consent ve tag yönetimi app içinde de geçerlidir.",
               "Doküman erişimleri ve export işlemleri audit trail’e girmelidir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Kullanıcı destek veya geri arama talebi bırakıyorsa [mobil uygulama destek talepleri](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) çağrı merkezi ve operasyon tarafına hangi kayıtlarla aktarıldığı da aynı hibrit veri modelinde görünmelidir."
           },
           {
             "type": "h3",
@@ -44096,6 +44348,10 @@
               "Consent tetikleme test checklist’i",
               "Log/retention notu + sprint planı"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kurumunuza göre uygulamak isterseniz [KVKK uyum hizmetiyle mobil ve WebView veri kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) planlayabilir, temel süreç soruları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -44225,7 +44481,7 @@
     },
     "h1": {
       "title": "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi",
-      "intro": "KVKK denetiminde en çok zorlayan şey “veri var ama çıkarma süreci yok” problemidir. Bir denetim geldiğinde ekibin aklındaki ilk sorular hep aynı olur: Hangi sistemden ne istenecek? İlgili kişi bazlı veri setini (export) nasıl çıkaracağız? Erişim kayıtlarını ve logları nasıl hazırlayacağız? Bu sorulara olay anında improvize cevap vermek; panik, yanlış çıktı ve gereksiz veri paylaşımı riskini artırır.\n\nDoğru yaklaşım; veri haritasına dayalı teknik rapor seti kurmak ve bunu denetimden önce prova etmektir. Otel tarafında misafir/rezervasyon verileri; B2B’de müşteri/lead ve sözleşme verileri gibi kritik alanlar sistemlere dağılmıştır. Bu rehber, teknik olarak hangi rapor paketlerinin hazırlanabileceğini, log bundle’ın nasıl sınırlandırılıp maskeleme ile korunacağını ve “denetim provası” akışını anlatır.",
+      "intro": "KVKK denetiminde en çok zorlayan şey “veri var ama çıkarma süreci yok” problemidir. Bir denetim geldiğinde ekibin aklındaki ilk sorular hep aynı olur: Hangi sistemden ne istenecek? İlgili kişi bazlı veri setini (export) nasıl çıkaracağız? Erişim kayıtlarını ve logları nasıl hazırlayacağız? Bu sorulara olay anında improvize cevap vermek; panik, yanlış çıktı ve gereksiz veri paylaşımı riskini artırır.\n\nDoğru yaklaşım; veri haritasına dayalı teknik rapor seti kurmak ve bunu denetimden önce prova etmektir. Otel tarafında misafir/rezervasyon verileri; B2B’de müşteri/lead ve sözleşme verileri gibi kritik alanlar sistemlere dağılmıştır. Bu rehber, teknik olarak hangi rapor paketlerinin hazırlanabileceğini, log bundle’ın nasıl sınırlandırılıp maskeleme ile korunacağını ve “denetim provası” akışını anlatır. Bu nedenle iyi tanımlanmış bir [KVKK denetimi hazırlığı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı, veriyi yalnız tutmayı değil gerektiğinde kontrollü şekilde çıkarabilmeyi de kapsamalıdır.",
       "quickSummary": [
         "1) “Denetim rapor seti” menüsü oluşturun (standart paketler).",
         "2) Export senaryolarını 2–3 tipte standardize edin (kişi/kategori/sistem).",
@@ -44297,6 +44553,14 @@
             "text": "Kısa yanıt: veri haritasına göre “hangi veri hangi sistemde”yi netleştir, standart rapor seti oluştur, ilgili kişi/kategori bazlı export’ları hazırlamayı öğren ve maskeleme’li log bundle’ı paketle. Son adım olarak denetim provası yap: süreyi ölç, eksikleri kapat."
           },
           {
+            "type": "p",
+            "text": "Bu çalışma, [web ve yazılım hizmetlerinde veri export stratejisi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle ilerlediğinde; sistemlerden alınan çıktılar, log setleri ve prova akışları tek operasyonel uyum modeli içinde toparlanır."
+          },
+          {
+            "type": "p",
+            "text": "Başlangıçta [denetim öncesi teknik checklist](https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist) ile form, çerez, log, erişim ve veri akışı başlıklarını aynı çerçevede toplamak, denetim anındaki dağınıklığı ciddi şekilde azaltır."
+          },
+          {
             "type": "h3",
             "text": "Tipik teknik istek kategorileri (genel çerçeve)"
           },
@@ -44359,6 +44623,14 @@
           {
             "type": "p",
             "text": "Teknik hazırlığın omurgası, sistem bazlı raporlardır. Çünkü kişi bazlı export bile aslında sistemlerden birleşir. Otel ve B2B’de tipik sistem seti: web (form/çerez/analytics), PMS/rezervasyon, CRM, call center, e-posta otomasyonu, BI/raporlama."
+          },
+          {
+            "type": "p",
+            "text": "Bu raporların analiz edilebilir ve karşılaştırılabilir olması için [veri export stratejisi](https://dgtlface.com/tr/veri-analiz-ve-raporlama) tarafında filtre, kolon standardı ve rapor formatı önceden tanımlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle temsilci temas geçmişi ve destek kayıtlarında [çağrı merkezi kayıtlarının export edilmesi](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) ayrı bir çalışma ister; çünkü görüşme meta verisi, işlem kayıtları ve erişim izleri çoğu zaman farklı sistemlerde tutulur."
           },
           {
             "type": "h3",
@@ -44484,6 +44756,10 @@
             "text": "Kısa yanıt: web (form kayıtları, consent kayıtları), PMS (rezervasyon/misafir), CRM (lead/müşteri), call center (görüşme kayıt meta verisi), e-posta (abonelik/izin durumu) gibi sistemlerden “ilgili kişi/kategori” bazlı export’lar gündeme gelebilir. Teknik olarak kritik nokta: export’un kapsamı ve maskeleme kurallarıdır."
           },
           {
+            "type": "p",
+            "text": "Bu çıktıların güvenlik ve denetim tarafına bağlanabilmesi için [denetim için veri raporlama](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) mantığıyla hangi alanların maskeleneceği, hangi kayıtların paylaşılacağı ve erişim izlerinin nasıl tutulacağı net olmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Export stratejisi: 3 seviye paket"
           },
@@ -44554,6 +44830,10 @@
             "text": "Kısa yanıt: sınırlı kapsamlı, maskelenmiş ve bütünlüğü korunmuş bir log paketi (log bundle) hazırlanır. Amaç; denetimde “her şeyi açmak” değil, belirli soruları cevaplayacak kanıt setini sunmaktır: kim erişti, kim export etti, hangi değişiklikler oldu."
           },
           {
+            "type": "p",
+            "text": "Bu noktada [log bundle hazırlama](https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi) yaklaşımı; panel logları, sunucu kayıtları, RBAC değişimleri ve audit trail verilerini tek bir kanıt setine dönüştürmek için temel referans olur."
+          },
+          {
             "type": "h3",
             "text": "Log bundle içeriği (pratik set)"
           },
@@ -44612,6 +44892,10 @@
           {
             "type": "p",
             "text": "Denetim provası, gerçek denetim gelmeden “çıktı üretim hızınızı” test eder. Kurumlar bu provayı yaptığında, gerçek denetimde rapor çıkarma daha kısa sürer ve hata payı azalır. Prova aynı zamanda otomasyon fırsatlarını da ortaya çıkarır: tekrar eden export’lar script’lenebilir, log bundle hazırlığı standardize edilebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [teknik denetim provası](https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri) yalnız denetim günü için değil, periyodik sağlık kontrolü ve otomatik kontrol listeleriyle birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -44766,6 +45050,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yapıyı kurumunuza göre kurmak isterseniz [KVKK uyum hizmetiyle denetim hazırlığı](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) planlayabilir, temel süreç soruları için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasını inceleyebilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -44894,7 +45182,7 @@
     },
     "h1": {
       "title": "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber",
-      "intro": "Misafir Wi-Fi, oteller için “olmazsa olmaz” bir hizmet; ama aynı zamanda KVKK açısından en kolay gözden kaçan veri toplama alanlarından biridir. Çünkü ağ düzeyinde görünmeyen tanımlayıcılar (IP, MAC), captive portal’daki giriş akışları, kimlik doğrulama yöntemleri (oda numarası, SMS) ve yönetim paneli erişimleri bir araya geldiğinde, misafirle ilgili önemli izler oluşabilir. Bu izleri kontrolsüz toplamak da, hiç dokümante etmemek de risk üretir.\n\nDoğru yaklaşım; misafire net aydınlatma sunmak, loglamayı amaçla uyumlu ve sınırlı yapmak, misafir ve çalışan ağlarını kesin şekilde ayırmak ve admin panel erişimini sıkı kontrol etmektir. Bu rehber hukuki yorum yapmaz; teknik kontrollerle sahada uygulanabilir bir model sunar.",
+      "intro": "Misafir Wi-Fi, oteller için “olmazsa olmaz” bir hizmet; ama aynı zamanda KVKK açısından en kolay gözden kaçan veri toplama alanlarından biridir. Çünkü ağ düzeyinde görünmeyen tanımlayıcılar (IP, MAC), captive portal’daki giriş akışları, kimlik doğrulama yöntemleri (oda numarası, SMS) ve yönetim paneli erişimleri bir araya geldiğinde, misafirle ilgili önemli izler oluşabilir. Bu izleri kontrolsüz toplamak da, hiç dokümante etmemek de risk üretir.\n\nDoğru yaklaşım; misafire net aydınlatma sunmak, loglamayı amaçla uyumlu ve sınırlı yapmak, misafir ve çalışan ağlarını kesin şekilde ayırmak ve admin panel erişimini sıkı kontrol etmektir. Bu rehber hukuki yorum yapmaz; teknik kontrollerle sahada uygulanabilir bir model sunar. Bu nedenle [misafir Wi-Fi KVKK](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) yaklaşımı, sadece internet erişimini değil captive portal, log ve ağ segmentasyonu katmanlarını birlikte ele almalıdır.",
       "quickSummary": [
         "1) Misafir Wi-Fi akışını dokümante edin (portal → doğrulama → erişim).",
         "2) Log setinizi yazılı hale getirin (ne var, ne yok).",
@@ -44966,6 +45254,10 @@
             "text": "Kısa yanıt: misafire captive portal üzerinden aydınlatma gösterin, kimlik doğrulamayı amaçla sınırlayın, loglamayı minimum veri prensibiyle yapın, misafir/çalışan ağlarını segmentleyin ve admin erişimlerini RBAC+MFA ile yönetin. KVKK açısından kritik nokta, ağ hizmetinin “izlenebilir” ama “gereksiz veri toplayan” hale gelmemesidir."
           },
           {
+            "type": "p",
+            "text": "Bu yapı, [web ve yazılım hizmetlerinde captive portal aydınlatma](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) mantığıyla ele alındığında; portal ekranı, erişim akışı ve kayıt modeli aynı teknik uyum çerçevesinde yönetilebilir."
+          },
+          {
             "type": "h3",
             "text": "Misafir Wi-Fi veri temas noktaları"
           },
@@ -44987,6 +45279,10 @@
           {
             "type": "p",
             "text": "Kamusal alanlarda kullanıcı yoğunluğu ve cihaz çeşitliliği artar; bu yüzden segmentasyon, rate limit ve log erişim kontrolü daha da önem kazanır."
+          },
+          {
+            "type": "p",
+            "text": "Lobi, restoran ve toplantı alanları gibi ortak kullanım noktalarında [kamusal alanlarda KVKK veri kontrolü](https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi) ayrıca önemlidir; çünkü Wi-Fi erişim verisi ile fiziksel alan kayıtları birlikte değerlendirildiğinde risk yüzeyi büyüyebilir."
           },
           {
             "type": "h3",
@@ -45107,6 +45403,10 @@
             "text": "Kısa yanıt: hizmeti işletmek ve güvenliği sağlamak için gerekli minimum log setini tutmak; gereksiz trafik detaylarını (özellikle içerik seviyesinde) toplamaktan kaçınmaktır. Teknik olarak “amaçla uyumlu ve sınırlı” loglama esastır."
           },
           {
+            "type": "p",
+            "text": "Bu [Wi-Fi loglama politikası](https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi) ile desteklenmediğinde, misafir ağı erişimleri, admin aksiyonları ve segment ayrımı denetlenebilir bir audit trail’e dönüşmez."
+          },
+          {
             "type": "h3",
             "text": "Minimum log seti (örnek)"
           },
@@ -45189,6 +45489,14 @@
             "text": "Port/URL bazlı ayrıntılı trafik logları, gereksiz veri biriktirme ve risk büyütme potansiyeline sahiptir. Bu rehber, “toplamayın” demek yerine şunu vurgular: böyle bir log gerekiyorsa, kapsam ve süre çok net tanımlanmalı; erişim çok sıkı olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu kayıtların hangi ülkede, hangi servis sağlayıcıda ve hangi saklama mantığıyla tutulacağı için [Wi-Fi logları için veri lokasyonu](https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi) kararı da en az log içeriği kadar önemlidir."
+          },
+          {
+            "type": "p",
+            "text": "Saklama, yetki ve rapor çıktıları bir araya geldiğinde [captive portal ve log güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) çerçevesi; hangi logun ne amaçla tutulduğunu ve kimin erişebildiğini görünür kılar."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check "
           },
@@ -45245,6 +45553,10 @@
               "Hatalı oda girişi ve brute force denemeleri için rate limit gerekir",
               "Oda numarasıyla kullanıcı kimliğini “aşırı ilişkilendirmemek” önemlidir"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada [PMS ve Wi-Fi veri akışı](https://dgtlface.com/tr/otel/pms-entegrasyonu) dikkatle kurgulanmalıdır; oda numarası, rezervasyon bilgisi ve erişim zamanının gereğinden fazla ilişkilendirilmesi misafir profili üzerinde gereksiz veri birikimine yol açabilir."
           },
           {
             "type": "h3",
@@ -45332,6 +45644,10 @@
           {
             "type": "p",
             "text": "Key Data Point (yumuşatılmış): Misafir Wi-Fi süreçleri KVKK’ya göre yapılandırıldığında, hem misafir güveni artar hem de olası denetim/olay durumlarında teknik savunma daha güçlü olur."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [Wi-Fi verisiyle otel pazarlama sınırları](https://dgtlface.com/tr/otel-dijital-pazarlama) net çizilmediğinde, erişim ve segment bilgileri operasyonel amaçların dışına taşabilir; bu nedenle pazarlama ve ağ yönetimi aynı veri sınırları üzerinde uzlaşmalıdır."
           },
           {
             "type": "cta",
@@ -45447,6 +45763,10 @@
               "Admin panel erişim politikası",
               "Prova raporu + refresh planı"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı kurumunuzda uygulamak isterseniz [KVKK uyum hizmetiyle misafir Wi-Fi kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) planlayabilir, temel sorular için de [KVKK uyum hizmeti hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "media",
