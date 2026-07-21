@@ -167268,6 +167268,1150 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari",
+
+      "name": "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#article",
+
+      "headline": "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları",
+
+      "description": "Form alanlarını minimize edin, aydınlatma linkini görünür yerleştirin. Açık rızaları ayrı kutularla alın, onayları timestamp/IP ile kaydedin; otel ve B2B formlarında riski azaltın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "KVKK Forms",
+
+        "Consent Checkboxes",
+
+        "Aydınlatma Metni",
+
+        "Timestamp/IP Logs"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK uyumlu form tasarımı ve onay kayıt mekanizması danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#howto",
+
+      "name": "KVKK uyumlu form ve onay mekanizması nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Form alanlarını minimize et",
+
+          "text": "Alanları kimlik/iletişim/işlemsel/tercih diye sınıflandır; zorunlu alanları minimuma indir ve serbest metin alanlarını limit/uyarı ile kontrol et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Aydınlatma ve açık rıza kutularını ayır",
+
+          "text": "Aydınlatma linkini görünür konumlandır; pazarlama gibi açık rıza gerektiren durumlar için ayrı ve pre-checked olmayan checkbox kullan."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Onay kayıt mekanizmasını kur",
+
+          "text": "Her checkbox için consent event log tut: timestamp, IP, formID, checkboxKey ve metin versiyonu; log erişimini RBAC ile sınırla ve retention uygula."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları", "item": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK uyumlu form tasarımı nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Gereksiz alanlar kaldırılmalı, aydınlatma metni görünür olmalı, açık rızalar ayrı checkbox’larla alınmalı ve onaylar timestamp/IP/versiyon ile kayıt altına alınmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi alanlar zorunlu, hangileri isteğe bağlı bırakılmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "İşlemi başlatmak için gerekli minimum alanlar zorunlu olmalı; segmentleme/pazarlama kolaylığı sağlayanlar opsiyonel kalmalıdır. İş amacı net olmayan alanlar kaldırılmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aydınlatma metni ve açık rıza kutuları teknik olarak nasıl kurgulanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Aydınlatma linki checkbox yanında görünür olmalı; pazarlama gibi açık rıza gerektiren durumlar ayrı ve pre-checked olmayan checkbox ile alınmalıdır. Metin versiyonu loglanmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Onay kaydında minimum hangi bilgiler tutulmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Form ID, checkbox anahtarı, onay değeri, timestamp, IP (politikaya göre), consent metin versiyonu ve mümkünse oturum/sessiyon ID tutulmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi",
+
+      "name": "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#article",
+
+      "headline": "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi",
+
+      "description": "Üçüncü taraf script/tag’leri envantere alın, GTM’de kategorize edin. Consent sonrası tetikleyin; otel ve B2B sitelerinde denetlenebilir, KVKK uyumlu ölçüm mimarisi kurun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "3rd Party Scripts",
+
+        "Tag Manager",
+
+        "Consent-Based Firing",
+
+        "Script Categorisation"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Üçüncü taraf script envanteri, GTM yönetimi ve consent tabanlı tetikleme danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#howto",
+
+      "name": "KVKK için GTM ile üçüncü taraf script yönetimi nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Script envanterini çıkar ve kategorize et",
+
+          "text": "Analytics, reklam, UX ve chat gibi tüm script/tag’leri listele; amaç, sayfa kapsamı, owner ve consent kategorisini belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "GTM’de merkezi yönetim ve governance kur",
+
+          "text": "Folder/naming standardı, versiyonlama ve publish yetkisi kurgusunu oluştur; hardcode script’leri GTM’e taşı ve değişiklikleri logla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Consent’e bağlı tetikleme ve test uygula",
+
+          "text": "CMP sinyalini GTM’e bağla; analitik/reklam/UX tag’lerini yalnız ilgili consent granted olduğunda çalıştır ve reddet senaryosunu network test ile doğrula."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Üçüncü taraf script ve tag’ler KVKK açısından neden risklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kontrolsüz şekilde veri toplayabilir, vendor’lara aktarabilir ve consent öncesi çalışarak izin katmanını boşa düşürebilir. Envanter ve tetik kontrolü olmadan denetlenebilirlik kaybolur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tag Manager ile script’leri nasıl merkezileştirebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hardcode script’leri GTM’e taşıyıp kategori bazlı folder/naming kullanın; versiyonlama ve publish yetkilerini sınırlayın. Böylece değişiklikler izlenebilir ve geri alınabilir olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Consent’e bağlı script tetikleme nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CMP’den gelen consent durumunu GTM’e değişken olarak aktarın; analitik/reklam/UX tag’lerini yalnız ilgili consent granted olduğunda tetikleyin ve reddet senaryosunu network test ile doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Script envanteri ne sıklıkla güncellenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yeni araç eklendikçe güncellenmeli ve en az yılda bir (365 gün) script audit/temizlik rutini uygulanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis",
+
+      "name": "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#article",
+
+      "headline": "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış",
+
+      "description": "Mobil app + WebView’de çerez, device ID, push token ve log akışını tek veri haritasında birleştirin. Otel ve B2B hibrit projelerde izinleri ve aydınlatmayı tutarlı yönetin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Mobile Apps",
+
+        "WebView",
+
+        "App Permissions",
+
+        "Hybrid Data Flows"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Mobil uygulama ve WebView hibrit KVKK uyum teknik danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#howto",
+
+      "name": "Mobil uygulama + WebView senaryosunda KVKK uyumu nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hibrit veri haritasını çıkar",
+
+          "text": "App izinleri, WebView çerez/tag’leri ve backend loglarını tek akışta dokümante et; WebView’de açılan sayfaları envantere al."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İzin ve consent mantığını tutarlı kurgula",
+
+          "text": "App izinleri (push/konum) ile WebView consent mekanizmasını hizala; WebView’de tag’leri yalnız consent sonrası tetikle ve test et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tanımlayıcılar ve log yönetimini standardize et",
+
+          "text": "Device ID, push token, cookie ID ve session ID için ID sözlüğü oluştur; loglarda minimizasyon/masking ve retention uygula; store gizlilik beyanıyla uyum kontrolü yap."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış", "item": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "WebView nedir, KVKK açısından neden kritik?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "WebView uygulama içinde web sayfası gösteren katmandır; web çerezleri ve tag’leri app deneyimine taşır. Consent/izin yönetimi koparsa görünmez veri toplama riski oluşur." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobil uygulama ve WebView’de hangi veriler toplanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "App’te izin durumları, device ID, push token ve app event’leri; WebView’de çerezler ve web tag event’leri; backend’de erişim/işlem/hata logları toplanır. Hibrit harita bu katmanları birleştirir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Push bildirimlerinde en kritik KVKK riski nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Push token’ın tanımlayıcı olması ve bildirim içeriğinin kilit ekranda hassas veri gösterebilmesidir. İzin durumu değişimleri kaydedilmelidir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi",
+
+      "name": "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#article",
+
+      "headline": "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi",
+
+      "description": "KVKK denetimi öncesi web/PMS/CRM/call center raporlarını prova edin. Veri export, log bundle ve checklist setiyle panik yerine hızlı, denetlenebilir teknik çıktı üretin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "KVKK Audit Prep",
+
+        "Data Exports",
+
+        "Log Bundles",
+
+        "System Reports"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK denetimi öncesi teknik hazırlık, export ve log bundle danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#howto",
+
+      "name": "KVKK denetimine teknik olarak nasıl hazırlanılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sistem bazlı rapor setini oluştur",
+
+          "text": "Veri haritasına göre web, PMS, CRM ve call center için 1 sayfalık sistem raporları hazırla; owner, export ve log kabiliyetini yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Export paketlerini standardize et",
+
+          "text": "Kişi/kategori/sistem bazlı 3 export paket tipi belirle; filtre ve maskeleme kurallarını yaz; export işlemlerini audit log’a al."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Log bundle ve denetim provası yap",
+
+          "text": "Maskelenmiş ve kapsamı sınırlı log bundle hazırla; denetim provasında süre ve hata payını ölç, iyileştirme backlog’u çıkar."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK denetimine teknik olarak nasıl hazırlanılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Veri haritasına dayanarak sistem bazlı rapor seti oluşturulur, kişi/kategori bazlı export paketleri standardize edilir, maskeleme’li log bundle hazırlanır ve denetim provasıyla süre/hata payı ölçülür." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi sistemlerden hangi veri raporları istenebilir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Web (form/consent), PMS (rezervasyon/misafir), CRM (lead/müşteri), call center (görüşme kayıt meta verisi), e-posta izin kayıtları ve BI raporları gibi kaynaklar gündeme gelebilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Log ve erişim kayıtları denetim için nasıl hazırlanmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kapsamı sınırlı, maskeleme uygulanmış ve bütünlüğü korunmuş bir log bundle hazırlanır; login, erişim, export ve yetki değişikliği kayıtları önceliklendirilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Denetim provası neden gerekli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Prova, rapor çıkarma hızını ve eksikleri önceden görmenizi sağlar; gerçek denetimde süre baskısı altında hata payını azaltır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber",
+
+      "name": "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#article",
+
+      "headline": "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber",
+
+      "description": "Misafir Wi-Fi için captive portal’da aydınlatma gösterin, logları amaca uygun ve sınırlı tutun. Misafir–çalışan ağlarını ayırın, yönetici erişimlerini sıkı yönetin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Guest Wi-Fi",
+
+        "Captive Portal",
+
+        "Network Logs",
+
+        "Guest vs Staff Network"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Otel misafir Wi-Fi süreçleri için KVKK teknik uyum danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#howto",
+
+      "name": "Misafir Wi-Fi KVKK açısından nasıl yönetilir?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Captive portal aydınlatmasını kurgula",
+
+          "text": "Wi-Fi giriş ekranında aydınlatma özetini göster, detay metne link ver ve minimum veriyle doğrulama yöntemi seç."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Minimum log setini ve erişim yetkilerini belirle",
+
+          "text": "Zaman, IP/MAC ve giriş olayları gibi gerekli logları sınırlı tut; maskeleme, retention ve RBAC erişim kurgusunu yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ağ segmentasyonu ve admin güvenliğini uygula",
+
+          "text": "Misafir ve çalışan ağlarını ayrı SSID/VLAN’da ayır; misafir ağından iç sistemlere erişimi kapat; admin panelini MFA+IP allowlist ile koru."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber", "item": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafir Wi-Fi KVKK açısından nasıl yönetilmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Captive portal’da aydınlatma gösterilmeli, loglama minimum veri prensibiyle yapılmalı, misafir/çalışan ağları ayrılmalı ve admin erişimleri sıkı kontrol edilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Captive portal’da neler gösterilmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hizmet amacı, hangi verilerin genel olarak toplandığı, loglama yaklaşımı (sınırlı), detay metin linki ve destek/iletişim kanalı gibi temel bilgilendirme öğeleri yer almalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi Wi-Fi loglarını tutmak gerekir, hangilerini tutmamak daha doğrudur?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Zaman damgası, IP/MAC, SSID/VLAN ve giriş olayları gibi minimum işletim/güvenlik logları tutulur; gereksiz trafik detay logları mümkünse kapatılır veya çok sınırlanır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çalışan ve misafir ağları nasıl ayrılmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Ayrı SSID/VLAN ve firewall kurallarıyla ayrılmalı; misafir ağı iç sistemlere erişmemeli, yönetim paneli ayrı yönetim ağında ve IP allowlist ile korunmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
 }
     },
   },

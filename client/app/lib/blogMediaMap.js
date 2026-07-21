@@ -45806,6 +45806,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Channel-aware alan şeması deliverables kartı, güven unsuru bağlamı",
       caption: "Channel-aware alan şeması deliverables kartı, güven unsuru bağlamı"
     }
+  },
+
+   "kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari":{
+    banner: {
+      src: "/images/blog/software/Software3-6/Software3-6-1.webp",
+      alt: "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları",
+      caption: "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-6/Software3-6-2.webp",
+      alt: "Form alan türleri ve onay kutuları konumu, otel rezervasyon senaryosu",
+      caption: "Form alan türleri ve onay kutuları konumu, otel rezervasyon senaryosu"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-6/Software3-6-3.webp",
+    alt: "Zorunlu alan minimizasyonu bölümü ayırıcı, KVKK form UX",
+      caption: "Zorunlu alan minimizasyonu bölümü ayırıcı, KVKK form UX"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-6/Software3-6-4.webp",
+      alt: "Otel ve B2B örnek form kurguları bölümü ayırıcı, KVKK uyumu",
+      caption: "Otel ve B2B örnek form kurguları bölümü ayırıcı, KVKK uyumu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-6/Software3-6-5.webp",
+      alt: "Onay toplama ve timestamp IP kayıt akışı diyagramı, KVKK uyumu",
+      caption: "Onay toplama ve timestamp IP kayıt akışı diyagramı, KVKK uyumu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-6/Software3-6-6.webp",
+      alt: "KVKK form onay checklist kartı, alan minimizasyonu ve kayıt modeli",
+      caption: "KVKK form onay checklist kartı, alan minimizasyonu ve kayıt modeli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-6/Software3-6-7.webp",
+      alt: "Form completion ve consent kayıt KPI paneli, otel ve B2B",
+      caption: "Form completion ve consent kayıt KPI paneli, otel ve B2B"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-6/Software3-6-8.webp",
+      alt: "KVKK uyumlu form mockup ve deliverables kartı, otel ve B2B",
+      caption: "KVKK uyumlu form mockup ve deliverables kartı, otel ve B2B"
+    }
+  },
+
+  "ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software3-7/Software3-7-1.webp",
+      alt: "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi",
+      caption: "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-7/Software3-7-2.webp",
+      alt: "Script kategorileri ve KVKK risk noktaları, otel web bağlamı",
+      caption: "Script kategorileri ve KVKK risk noktaları, otel web bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-7/Software3-7-3.webp",
+    alt: "Script envanteri ve risk analizi bölümü ayırıcı, KVKK uyumu",
+      caption: "Script envanteri ve risk analizi bölümü ayırıcı, KVKK uyumu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-7/Software3-7-4.webp",
+      alt: "Consent tetikleme kurgusu bölümü ayırıcı, GTM stratejisi",
+      caption: "Consent tetikleme kurgusu bölümü ayırıcı, GTM stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-7/Software3-7-5.webp",
+      alt: "GTM katmanı ve script kategori diyagramı, otel ve B2B",
+      caption: "GTM katmanı ve script kategori diyagramı, otel ve B2B"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-7/Software3-7-6.webp",
+      alt: "Üçüncü taraf script KVKK checklist kartı, consent bazlı tetikleme",
+      caption: "Üçüncü taraf script KVKK checklist kartı, consent bazlı tetikleme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-7/Software3-7-7.webp",
+      alt: "Script sayısı ve consent uyumu KPI paneli, privacy-aware tracking",
+      caption: "Script sayısı ve consent uyumu KPI paneli, privacy-aware tracking"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-7/Software3-7-8.webp",
+      alt: "Script envanteri ve GTM consent planı teslimleri, otel bağlamı",
+      caption: "Script envanteri ve GTM consent planı teslimleri, otel bağlamı"
+    }
+  },
+
+  "mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis":{
+    banner: {
+      src: "/images/blog/software/Software3-8/Software3-8-1.webp",
+      alt: "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış",
+      caption: "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-8/Software3-8-2.webp",
+      alt: "Script kategorileri ve KVKK risk noktaları, otel web bağlamı",
+      caption: "Script kategorileri ve KVKK risk noktaları, otel web bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-8/Software3-8-3.webp",
+    alt: "Script envanteri ve risk analizi bölümü ayırıcı, KVKK uyumu",
+      caption: "Script envanteri ve risk analizi bölümü ayırıcı, KVKK uyumu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-8/Software3-8-4.webp",
+      alt: "Consent tetikleme kurgusu bölümü ayırıcı, GTM stratejisi",
+      caption: "Consent tetikleme kurgusu bölümü ayırıcı, GTM stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-8/Software3-8-5.webp",
+      alt: "GTM katmanı ve script kategori diyagramı, otel ve B2B",
+      caption: "GTM katmanı ve script kategori diyagramı, otel ve B2B"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-8/Software3-8-6.webp",
+      alt: "Üçüncü taraf script KVKK checklist kartı, consent bazlı tetikleme",
+      caption: "Üçüncü taraf script KVKK checklist kartı, consent bazlı tetikleme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-8/Software3-8-7.webp",
+      alt: "Script sayısı ve consent uyumu KPI paneli, privacy-aware tracking",
+      caption: "Script sayısı ve consent uyumu KPI paneli, privacy-aware tracking"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-8/Software3-8-8.webp",
+      alt: "Script envanteri ve GTM consent planı teslimleri, otel bağlamı",
+      caption: "Script envanteri ve GTM consent planı teslimleri, otel bağlamı"
+    }
+  },
+
+  "kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software3-9/Software3-9-1.webp",
+      alt: "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi",
+      caption: "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-9/Software3-9-2.webp",
+      alt: "Denetimde istenebilecek export ve log çıktıları, otel bağlamı",
+      caption: "Denetimde istenebilecek export ve log çıktıları, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-9/Software3-9-3.webp",
+    alt: "Sistem bazlı raporlar bölümü ayırıcı, KVKK teknik hazırlık",
+      caption: "Sistem bazlı raporlar bölümü ayırıcı, KVKK teknik hazırlık"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-9/Software3-9-4.webp",
+      alt: "Denetim provası akışı bölümü ayırıcı, düşük panik denetim",
+      caption: "Denetim provası akışı bölümü ayırıcı, düşük panik denetim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-9/Software3-9-5.webp",
+      alt: "KVKK denetimi teknik rapor seti şeması, otel ve B2B",
+      caption: "KVKK denetimi teknik rapor seti şeması, otel ve B2B"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-9/Software3-9-6.webp",
+      alt: "Export ve log bundle checklist kartı, denetim hazırlığı",
+      caption: "Export ve log bundle checklist kartı, denetim hazırlığı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-9/Software3-9-7.webp",
+      alt: "Rapor çıkarma süresi ve doğruluk KPI paneli, KVKK denetimi",
+      caption: "Rapor çıkarma süresi ve doğruluk KPI paneli, KVKK denetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-9/Software3-9-8.webp",
+      alt: "Denetim provası ve rapor seti deliverables kartı, otel ve B2B",
+      caption: "Denetim provası ve rapor seti deliverables kartı, otel ve B2B"
+    }
+  },
+
+  "misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber":{
+     banner: {
+      src: "/images/blog/software/Software3-10/Software3-10-1.webp",
+      alt: "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber",
+      caption: "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-10/Software3-10-2.webp",
+      alt: "Misafir Wi-Fi portal akışı ve ağ ayrımı, otel ortak alan senaryosu",
+      caption: "Misafir Wi-Fi portal akışı ve ağ ayrımı, otel ortak alan senaryosu"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-10/Software3-10-3.webp",
+    alt: "Captive portal ve aydınlatma bölümü ayırıcı, otel Wi-Fi uyumu",
+      caption: "Captive portal ve aydınlatma bölümü ayırıcı, otel Wi-Fi uyumu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-10/Software3-10-4.webp",
+      alt: "Kimlik doğrulama ve admin erişimi bölümü ayırıcı, otel ağı",
+      caption: "Kimlik doğrulama ve admin erişimi bölümü ayırıcı, otel ağı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-10/Software3-10-5.webp",
+      alt: "Misafir Wi-Fi captive portal ve log akışı diyagramı, otel",
+      caption: "Misafir Wi-Fi captive portal ve log akışı diyagramı, otel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-10/Software3-10-6.webp",
+      alt: "Misafir Wi-Fi KVKK checklist kartı, portal log ve ağ ayrımı",
+      caption: "Misafir Wi-Fi KVKK checklist kartı, portal log ve ağ ayrımı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-10/Software3-10-7.webp",
+      alt: "Wi-Fi login başarı ve log denetlenebilirlik KPI paneli, otel",
+      caption: "Wi-Fi login başarı ve log denetlenebilirlik KPI paneli, otel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-10/Software3-10-8.webp",
+      alt: "Captive portal mockup ve ağ politikası deliverables, otel BT ekibi",
+      caption: "Captive portal mockup ve ağ politikası deliverables, otel BT ekibi"
+    }
   }
   
 };

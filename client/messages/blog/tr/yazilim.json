@@ -42194,5 +42194,3339 @@
         ]
       }
     }
+  },
+
+  "BlogKvkkUyumluFormTasarimiVeOnayMekanizmalari": {
+    "title": "KVKK Uyumlu Form Tasarımı ve Onay Kutuları",
+    "slug": "kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Form alanlarını minimize edin, aydınlatma linkini görünür yerleştirin. Açık rızaları ayrı kutularla alın, onayları timestamp/IP ile kaydedin; otel ve B2B formlarında riski azaltın.",
+    "seo": {
+      "metaTitle": "KVKK Uyumlu Form Tasarımı ve Onay Kutuları | DGTLFACE",
+      "metaDescription": "Form alanlarını minimize edin, aydınlatma linkini görünür yerleştirin. Açık rızaları ayrı kutularla alın, onayları timestamp/IP ile kaydedin; otel ve B2B formlarında riski azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — /tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #6 — /tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari"
+      ],
+      "strategySummary": "Bu blog, KVKK uyumunda “formlara checkbox ekleyin” seviyesinde kalan içeriklerin ötesine geçip, alan minimizasyonu + onayın nasıl kaydedileceği (timestamp/IP) + UX yerleşimi konularını birleştiren Core rehberdir. Hedef persona; otel sahibi/GM, satış-pazarlama lideri ve ajans/yazılım yöneticisidir; “formdan veri topluyoruz ama şikâyet ve risk istemiyoruz” ihtiyacını çözer. Funnel’da consideration (MoFu) ama uygulama odaklıdır: rezervasyon/teklif/demo formlarında hızlı kazanımlar üretir. Ana iş sorusu: KVKK’ya uygun form tasarımını ve onay mekanizmasını teknik olarak nasıl kurgular, nasıl kanıtlayabiliriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "KVKK uyumlu form tasarımı; gereksiz alanları kaldırmak, aydınlatma metnini görünür kılmak ve açık rıza gerektiren işlemler için ayrı onay kutuları kullanmaktır. Teknik olarak kritik nokta, onayların “görünür ve isteğe bağlı” şekilde alınması ve timestamp + IP + consent versiyonu ile kayıt altına alınmasıdır. Otel rezervasyon ve B2B teklif/demo formlarında bu yaklaşım, hem kullanıcı şikâyetlerini hem de denetimde savunma zorluğunu belirgin şekilde azaltır.",
+      "sgeSummary": "Alanları minimuma indir, aydınlatma linkini görünür yap, açık rızaları ayrı checkbox’larla topla; her onayı timestamp/IP ve metin versiyonuyla kaydet.",
+      "voiceAnswer": "Zorunlu alanları azaltın, rızaları ayrı kutularla alın ve onayı timestamp/IP ile kaydedin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B pazarlama ve satış ekipleri, ajans, yazılım/IT",
+        "KPI: Form completion rate, şikâyet oranı, consent kayıt kapsama oranı, veri alan sayısı, denetim hazırlık süresi",
+        "Entity: form alan türleri, zorunluluk, aydınlatma linki, rıza checkbox’ları, timestamp/IP logs",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Consideration → Conversion (form üzerinden lead/rezervasyon)",
+        "Çıktı: Form mockup + alan tablosu + KVKK form checklist + kayıt şeması",
+        "Not: Hukuki yorum değil; teknik UX ve kayıt süreçleri anlatılır."
+      ]
+    },
+    "h1": {
+      "title": "KVKK Uyumlu Form Tasarımı ve Onay Mekanizmaları",
+      "intro": "Formlar KVKK açısından en görünür veri toplama noktasıdır; çünkü kullanıcı veriyi “bilerek” size bırakır ve ardından “neye onay verdim?” sorusunu sorar. Bu yüzden KVKK uyumlu form tasarımı, yalnızca bir checkbox eklemek değildir: hangi alan gerçekten gerekli, aydınlatma metni nerede ve nasıl görünür, açık rıza hangi durumda ayrı alınır, onay nasıl kanıtlanır gibi başlıkları aynı anda yönetmek gerekir. Otel rezervasyon/iletişim formlarında ve B2B teklif/demo formlarında iyi kurgulanmış bir onay mekanizması; hem dönüşümü korur hem de şikâyet ve denetim riskini düşürür.\n\nBu rehber, hukuki metinleri tartışmak yerine, teknik ve UX perspektiften “form modelini” kurar: alan minimizasyonu, onay kutularının doğru ayrıştırılması ve onayın timestamp/IP ile kaydedilmesi.",
+      "quickSummary": [
+        "1) Yalnız gerekli alanları isteyin",
+        "2) Aydınlatma metnini görünür konumlandırın",
+        "3) Açık rıza gerekiyorsa ayrı checkbox’larla alın",
+        "4) Her onayı timestamp/IP/versiyon ile kaydedin",
+        "5) CRM/PMS mapping ve consent loglarını birlikte kontrol edin"
+      ],
+      "ctaPrimary": {
+        "label": "Form KVKK Uyum Analizi Talep Et",
+        "text": "Mevcut formlarınızı (rezervasyon/teklif/demo) teknik ve UX açıdan tarayıp, KVKK uyumlu alan+onay modelini çıkaralım. (Kim için: otel & B2B)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Form KVKK Uyum Analizi Talep Et",
+        "text": "Otel ve B2B formlarında alan minimizasyonu ve onay kayıt modelini kurar, şikâyet ve denetim riskini azaltır.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "KVKK Uyumlu Form Tasarımı & Onay Checklist Şablonunu İndir",
+        "text": "Form alanlarını sınıflandırır, checkbox yerleşimi ve timestamp/IP kayıt adımlarını standardize eder; hızlı uygulama sağlar.",
+        "href": "/downloads/kvkk-uyumlu-form-tasarimi-ve-onay-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kvkk-form-alanlari-onay-kutulari",
+        "title": "KVKK Açısından Form Alanları ve Onay Kutuları: Temel Mantık",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "KVKK uyumlu form tasarımı nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: (1) yalnız gerekli alanları isteyin, (2) aydınlatma metnini görünür konumlandırın, (3) açık rıza gerekiyorsa ayrı checkbox’larla alın, (4) her onayı kanıtlanabilir şekilde kaydedin (timestamp/IP/versiyon). Bu dört adım, “checkbox var ama kanıt yok” ve “çok alan var, risk büyük” problemlerini birlikte çözer."
+          },
+          {
+            "type": "h3",
+            "text": "Formu “veri türü” bazında düşünün"
+          },
+          {
+            "type": "p",
+            "text": "Form alanlarını şu sınıflarla tasarlayın:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kimlik: ad/soyad gibi temel tanımlayıcılar",
+              "İletişim: e-posta/telefon (mümkünse tek ana kanal)",
+              "İşlemsel: tarih aralığı, oda tipi, teklif ihtiyacı",
+              "Tercih: kampanya/iletişim tercihleri (opsiyonel)",
+              "Serbest metin: not alanı (kontrol edilmezse riskli)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "“Checkbox” değil “consent kayıt modeli” önemlidir (Competitor gap)"
+          },
+          {
+            "type": "p",
+            "text": "Çoğu içerik “checkbox ekleyin” der, ama asıl kritik soru şudur: Bu onayı nasıl kaydettin?"
+          },
+          {
+            "type": "p",
+            "text": "KVKK teknik perspektiften minimum kayıt seti:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "consent verildi mi? (true/false)",
+              "timestamp (ne zaman)",
+              "IP (nereden) (gerektiğinde maskeleme politikasıyla)",
+              "consent metni versiyonu (hangi metne onay)",
+              "form adı/ID (hangi form)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Form alanları veri türüne göre sınıflandı mı?",
+              "Serbest metin alanı kısıtlandı mı? (limit/uyarı)",
+              "Aydınlatma linki görünür mü?",
+              "Açık rıza checkbox’ları ayrı mı?",
+              "Consent kaydı timestamp/IP/versiyon ile tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Form alanlarını “kimlik/iletişim/işlemsel/tercih” diye etiketleyin.",
+              "İletişim kanalını tekilleştirin (gerekmiyorsa hem telefon hem e-posta istemeyin).",
+              "Aydınlatma linkini checkbox’ın hemen yakınına alın.",
+              "Consent kayıt şemasını çıkarın (timestamp/IP/versiyon).",
+              "Web sitesi geliştirme süreçleriyle uyumlayın: /yazilim/web-sitesi-gelistirme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zorunlu-ihtiyari-alan-ayrimi",
+        "title": "Zorunlu/İhtiyari Alan Ayrımı: Veri Minimizasyonu ile Dönüşümü Birleştirmek",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "h3",
+            "text": "Hangi alanlar zorunlu, hangileri isteğe bağlı bırakılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: işlemi başlatmak için gereken minimum alanlar zorunlu, segmentleme ve pazarlama kolaylığı sağlayanlar opsiyonel olmalıdır. “Lazım olur” alanlarını zorunlu yapmak hem dönüşümü düşürür hem de KVKK riskini büyütür."
+          },
+          {
+            "type": "h3",
+            "text": "Zorunlu alanları daraltma yöntemi (3 adım)"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İş hedefi testi: Bu alan olmadan işlem yürür mü?",
+              "Alternatif test: Aynı hedef daha az veriyle olur mu?",
+              "Sonradan toplama: İlk adımda değil, süreçte daha sonra alınabilir mi?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği: rezervasyon/iletişim formu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu (örnek): ad, iletişim (tek kanal), tarih aralığı",
+              "Opsiyonel: ülke, özel istek",
+              "Dikkat: “Özel istek” serbest metin ise kullanıcı hassas veri yazabilir; uyarı ve limit eklemek gerekir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği: teklif/demo formu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu: şirket adı, iş e-postası, talep türü",
+              "Opsiyonel: telefon, bütçe bandı, sektör seçimi",
+              "Dikkat: kişisel kimlik bilgisi istemeyin (iş amacı yoksa)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Zorunlu alan sayısı minimumda mı?",
+              "Opsiyonel alanlar açıkça opsiyonel mi?",
+              "Serbest metin alanı uyarılı mı?",
+              "CRM mapping gereksiz alanlara yazmıyor mu?",
+              "Alan azaltma sonrası dönüşüm ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Zorunlu alan sayısını KPI olarak takip edin.",
+              "Serbest metin alanına “hassas veri yazmayın” uyarısı ekleyin.",
+              "Kullanılmayan CRM alanlarını kaldırın/gizleyin.",
+              "Alan azaltmayı A/B test edin (dönüşüm etkisi).",
+              "Veri yönetimi tarafıyla bağlayın: /raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aydinlatma-acik-riza-sozlesme-iliskisi",
+        "title": "Aydınlatma Metni, Açık Rıza ve Sözleşme Metni İlişkisi (Teknik Perspektif)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "h3",
+            "text": "Aydınlatma metni ve açık rıza kutuları teknik olarak nasıl kurgulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: aydınlatma metni linki kullanıcıya görünür ve erişilebilir olmalı; açık rıza gerekiyorsa ayrı bir checkbox ile ve ön işaretli olmadan alınmalı; her checkbox’ın metni/versiyonu kaydedilmelidir. Bu rehber hukuki yorum yapmaz; sadece teknik-UX kurguyu tarif eder."
+          },
+          {
+            "type": "h3",
+            "text": "Checkbox tipleri: “işlem” ve “pazarlama” ayrımı"
+          },
+          {
+            "type": "p",
+            "text": "Pratikte iki checkbox çoğu projede yeterlidir (ihtiyaca göre artabilir):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İşlemsel onay/okudum onayı (aydınlatma linki ile birlikte)",
+              "Pazarlama iletişimi açık rızası (opsiyonel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ön işaretli checkbox (pre-checked) problemi"
+          },
+          {
+            "type": "p",
+            "text": "Pre-checked rıza kutuları UX’te “kandırma” algısı yaratır ve şikâyet riskini artırır. Teknik olarak: checkbox default unchecked olmalı; kullanıcı aksiyonu ile true olur."
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Aydınlatma linki checkbox yanında mı?",
+              "Açık rıza checkbox’ı ayrı mı?",
+              "Rıza checkbox’ları pre-checked değil mi?",
+              "Checkbox metinleri versiyonlanıyor mu?",
+              "Consent kaydı her checkbox için ayrı tutuluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aydınlatma linkini formun altına gömmeyin; checkbox yanında olsun.",
+              "Pazarlama rızasını opsiyonel tutun (zorunlu yapmayın).",
+              "Checkbox metinlerini sürümlendirin (v1.0/v1.1).",
+              "Consent kayıtlarını checkbox bazında kaydedin.",
+              "Web geliştirme sürecinizde governance’a bağlayın: /yazilim/web-sitesi-gelistirme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "onay-kayit-mekanizmasi",
+        "title": "Onay Kayıt Mekanizması: Timestamp/IP Log + Consent Versiyonu",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Form uyumunun “kanıt” kısmı burada başlar. Sadece checkbox almak yetmez; hangi kullanıcı hangi metne hangi tarihte onay verdi sorusunu kanıtlayabilmeniz gerekir. Bu; hem şikâyet yönetiminde hem de denetimde savunma zorluğunu azaltır."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum consent kayıt şeması"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "user/session ID (anonim olabilir)",
+              "form ID + sayfa URL",
+              "checkbox key (örn. consent_marketing)",
+              "value (true/false)",
+              "timestamp",
+              "IP (politikaya göre maskeleme)",
+              "consent text version",
+              "user agent (opsiyonel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Loglama prensibi: “gereğinden fazla veri loglama” tuzağı"
+          },
+          {
+            "type": "p",
+            "text": "Onay logları tutarken, form payload’ını (tam form içeriğini) loglara basmak riskli olabilir. İyi pratik: consent olayını ayrı event olarak tutun; logların erişimini ve retention’ını yönetin."
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Data Point (yumuşatılmış)",
+            "items": [
+              "Form alanlarını sadeleştiren ve onayları timestamp/IP ile kaydeden yapılarda, hem kullanıcı şikâyeti hem de KVKK denetiminde savunma zorluğu genelde belirgin şekilde azalır; çünkü hem daha az veri vardır hem de kanıt üretmek kolaylaşır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Consent event’leri ayrı loglanıyor mu?",
+              "Timestamp ve consent versiyonu tutuluyor mu?",
+              "IP kayıt politikası net mi?",
+              "Loglara erişim RBAC ile sınırlı mı?",
+              "Log retention/rotate kurgusu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Consent event şemasını standardize edin.",
+              "Metin versiyonlamasını ekleyin (değişince yeni versiyon).",
+              "Log erişimini kısıtlayın ve audit altına alın.",
+              "Retention/rotate ile “sonsuz log” probleminden kaçının.",
+              "KVKK veri güvenliği çerçevesiyle bağlayın: /raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-form-kurgulari",
+        "title": "Otel ve B2B İçin Örnek Form Kurguları: Rezervasyon ve Teklif/Demo",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "h3",
+            "text": "Rezervasyon/teklif formunda KVKK uyumu için hangi adımlar şart?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: minimum alan seti, görünür aydınlatma linki, ayrı açık rıza kutuları, onay kayıt şeması ve CRM/PMS mapping kontrolü."
+          },
+          {
+            "type": "h3",
+            "text": "Otel: “Fiyat Teklifi / Rezervasyon Talebi” formu (örnek kurgu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alanlar: ad, iletişim (tek kanal), tarih aralığı, kişi sayısı",
+              "Opsiyonel: oda tercihi, notlar (limit + uyarı)",
+              "Onaylar: aydınlatma okudum + (varsa) pazarlama rızası",
+              "Kayıt: consent event’leri + form submit event’i ayrıştırılmış"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B: “Demo / Teklif Al” formu (örnek kurgu)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alanlar: şirket adı, iş e-postası, talep türü",
+              "Opsiyonel: telefon, sektör",
+              "Onaylar: aydınlatma + pazarlama rızası (opsiyonel)",
+              "Kayıt: CRM’de consent alanları ayrı tutulur, metin versiyonu saklanır"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SXO: mockup + tablo ile “tek bakışta doğrulama”"
+          },
+          {
+            "type": "p",
+            "text": "Bu içerikte kullanıcıya uygulanabilirlik için iki sabit çıktı şart:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Form mockup’ı (alanlar + checkbox konumu)",
+              "Alan türleri ve zorunluluk tablosu"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Form alan türleri ve zorunluluk tablosu",
+            "headers": [
+              "Alan",
+              "Tür",
+              "Zorunlu mu",
+              "Amaç",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Ad / Soyad",
+                "Kimlik",
+                "Evet",
+                "Kullanıcıyı tanımlamak",
+                "İşlem için gerekiyorsa zorunlu"
+              ],
+              [
+                "E-posta veya Telefon",
+                "İletişim",
+                "Evet — tek ana kanal",
+                "Talebe dönüş yapmak",
+                "Gerekmiyorsa ikisini birden istemeyin"
+              ],
+              [
+                "Tarih Aralığı",
+                "İşlemsel",
+                "Otel formunda evet",
+                "Rezervasyon talebini değerlendirmek",
+                "B2B formunda gerekli olmayabilir"
+              ],
+              [
+                "Şirket Adı",
+                "İşlemsel",
+                "B2B formunda evet",
+                "Teklif/demo talebini ilişkilendirmek",
+                "Otel formunda gerekli değildir"
+              ],
+              [
+                "Ülke / Sektör / Bütçe Bandı",
+                "Tercih",
+                "Hayır",
+                "Segmentleme ve ön değerlendirme",
+                "Opsiyonel olduğu açıkça belirtilmeli"
+              ],
+              [
+                "Özel İstek / Not",
+                "Serbest metin",
+                "Hayır",
+                "Ek bilgi toplamak",
+                "Limit ve “hassas veri yazmayın” uyarısı eklenmeli"
+              ]
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Form KVKK Uyum Analizi Talep Et",
+            "text": "Rezervasyon/teklif/demo formlarınız için alan minimizasyonu + onay kayıt şeması + UI önerilerini birlikte çıkaralım. (Kim için: otel & B2B)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Otel formunda zorunlu alanlar minimumda mı?",
+              "B2B formunda iş amacı olmayan alan yok mu?",
+              "Onay kutuları ayrı ve pre-checked değil mi?",
+              "Consent kayıtları metin versiyonuyla tutuluyor mu?",
+              "CRM/PMS mapping gereksiz alanlara yazmıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 mockup üretin ve ekiplerle onaylayın (tasarım + yazılım + pazarlama).",
+              "Alan tablosunu doldurun: tür, zorunlu mu, amaç.",
+              "Consent event log’unu devreye alın (timestamp/IP/versiyon).",
+              "CRM/PMS mapping’i sadeleştirin.",
+              "Web geliştirme ve KVKK veri yönetimi sayfalarına bağlayın: /yazilim/web-sitesi-gelistirme ve /raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "kvkk-form-checklist-sablonu",
+        "title": "KVKK Uyumlu Form Tasarımı & Onay Checklist Şablonunu İndir — Yazılım / KVKK Forms",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "KVKK Uyumlu Form Tasarımı & Onay Checklist Şablonunu İndir — Yazılım / KVKK Forms (v1.0)",
+            "purpose": "Bu asset, form alanlarını veri minimizasyonuna göre sadeleştirmek ve onay kutularını doğru ayrıştırmak için tek sayfalık kontrol listesi sağlar. Consent kayıt mekanizmasını (timestamp/IP/versiyon) standartlaştırır ve CRM/PMS mapping kontrollerini ekler. Otel ve B2B projelerinde hızlı uygulanabilir bir UX + teknik ortak zemini kurar.",
+            "whoFor": "UX/tasarım + yazılım + pazarlama + operasyon ekipleri (otel ve B2B).",
+            "steps": [
+              "Form alanlarını sınıflandır (kimlik/iletişim/işlemsel/tercih).",
+              "Checkbox’ları ayrıştır (aydınlatma + pazarlama rızası) ve pre-checked kapat.",
+              "Consent event log’u kur (timestamp/IP/versiyon) ve CRM/PMS mapping’i sadeleştir."
+            ],
+            "checklist": [
+              "Form adı/amacı net (rezervasyon/teklif/demo)",
+              "Alanlar veri türüne göre sınıflandı (kimlik/iletişim/işlemsel/tercih)",
+              "Zorunlu alanlar minimuma indirildi",
+              "Opsiyonel alanlar açıkça opsiyonel",
+              "Serbest metin alanı limitli + uyarılı",
+              "Aydınlatma linki görünür (checkbox yanında)",
+              "Açık rıza kutuları ayrı (pazarlama vb.)",
+              "Checkbox’lar pre-checked değil",
+              "Consent event log’u var (timestamp/IP/versiyon/formID)",
+              "Consent kayıtları checkbox bazında tutuluyor",
+              "Log erişimi RBAC ile sınırlı + retention var",
+              "CRM/PMS mapping gereksiz alanlara yazmıyor",
+              "Dönüşüm KPI’ı takip ediliyor (completion rate)"
+            ],
+            "href": "/downloads/kvkk-uyumlu-form-tasarimi-ve-onay-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK uyumlu form tasarımı nasıl olmalı?",
+        "a": "Gereksiz alanlar kaldırılmalı, aydınlatma metni görünür olmalı, açık rızalar ayrı checkbox’larla alınmalı ve onaylar timestamp/IP/versiyon ile kayıt altına alınmalıdır."
+      },
+      {
+        "q": "Hangi alanlar zorunlu, hangileri isteğe bağlı bırakılmalı?",
+        "a": "İşlemi başlatmak için gerekli minimum alanlar zorunlu olmalı; segmentleme/pazarlama kolaylığı sağlayanlar opsiyonel kalmalıdır. İş amacı net olmayan alanlar kaldırılmalıdır."
+      },
+      {
+        "q": "Aydınlatma metni ve açık rıza kutuları teknik olarak nasıl kurgulanır?",
+        "a": "Aydınlatma linki checkbox yanında görünür olmalı; pazarlama gibi açık rıza gerektiren durumlar ayrı ve pre-checked olmayan checkbox ile alınmalıdır. Metin versiyonu loglanmalıdır."
+      },
+      {
+        "q": "Rezervasyon/teklif formunda KVKK uyumu için hangi adımlar şart?",
+        "a": "Minimum alan seti, ayrı rıza kutuları, consent event log (timestamp/IP/versiyon) ve CRM/PMS mapping kontrolü şarttır."
+      },
+      {
+        "q": "Onay kaydında minimum hangi bilgiler tutulmalı?",
+        "a": "Form ID, checkbox anahtarı, onay değeri, timestamp, IP (politikaya göre), consent metin versiyonu ve mümkünse oturum/sessiyon ID tutulmalıdır."
+      },
+      {
+        "q": "Pre-checked rıza kutuları neden sorun yaratır?",
+        "a": "Kullanıcı aksiyonu olmadan onay vermiş görünmesine neden olabilir ve şikâyet riskini artırır. Teknik olarak varsayılan unchecked olmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-hero-01.webp — Alt text: KVKK uyumlu form tasarımı yaklaşımı, otel ve B2B veri toplama",
+          "h1-context — 1920×1080 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-h1-context-02.webp — Alt text: Form alan türleri ve onay kutuları konumu, otel rezervasyon senaryosu",
+          "divider-01 — 1600×1200 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-divider-03.webp — Alt text: Zorunlu alan minimizasyonu bölümü ayırıcı, KVKK form UX",
+          "divider-02 — 1600×1200 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-divider-04.webp — Alt text: Otel ve B2B örnek form kurguları bölümü ayırıcı, KVKK uyumu",
+          "diagram-05 — 1920×1080 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-diagram-05.webp — Alt text: Onay toplama ve timestamp IP kayıt akışı diyagramı, KVKK uyumu",
+          "checklist-06 — 1200×1200 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-checklist-06.webp — Alt text: KVKK form onay checklist kartı, alan minimizasyonu ve kayıt modeli",
+          "kpi-07 — 1200×1200 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-kpi-07.webp — Alt text: Form completion ve consent kayıt KPI paneli, otel ve B2B",
+          "proof-08 — 1200×1200 — kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari-proof-08.webp — Alt text: KVKK uyumlu form mockup ve deliverables kartı, otel ve B2B",
+          "table-form-alan-turleri-zorunluluk — Form alan türleri ve zorunluluk tablosu (Alan | Tür | Zorunlu mu | Amaç | Not)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "TR/EN hreflang karşılıklılık kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Aydınlatma ve açık rıza checkbox’ları ayrı ve pre-checked değil",
+          "Consent event log’u timestamp/IP/versiyon/formID ile tutuluyor",
+          "Consent kayıtları checkbox bazında ayrıştırılıyor",
+          "Log erişimi RBAC ile sınırlı ve retention/rotate politikası tanımlı",
+          "CRM/PMS mapping gereksiz alanlara yazmıyor",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Form completion rate ve consent kayıt kapsama oranı izleniyor",
+          "365 günlük refresh döngüsü tanımlı"
+        ]
+      }
+    }
+  },
+
+   "BlogUcuncuTarafScriptVeTaglerIcinKvkkRiskAnaliziVeTagManagerStratejisi": {
+    "title": "KVKK İçin GTM ve Üçüncü Taraf Script Yönetimi",
+    "slug": "ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Üçüncü taraf script/tag’leri envantere alın, GTM’de kategorize edin. Consent sonrası tetikleyin; otel ve B2B sitelerinde denetlenebilir, KVKK uyumlu ölçüm mimarisi kurun.",
+    "seo": {
+      "metaTitle": "KVKK İçin GTM ve Üçüncü Taraf Script Yönetimi | DGTLFACE",
+      "metaDescription": "Üçüncü taraf script/tag’leri envantere alın, GTM’de kategorize edin. Consent sonrası tetikleyin; otel ve B2B sitelerinde denetlenebilir, KVKK uyumlu ölçüm mimarisi kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — /tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #7 — /tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi"
+      ],
+      "strategySummary": "Bu blog, KVKK riskinin en sık “sessizce” büyüdüğü alan olan üçüncü taraf script/tag konusunu; GTM altında merkezileştirme ve consent’e bağlı çalıştırma mantığıyla çözen Core rehberdir. Hedef persona; otel sahibi/GM, pazarlama lideri ve ajans/yazılım yöneticisidir; “piksel/heatmap/chat ekledik ama kontrol kayboldu” problemine yanıt verir. Funnel’da MoFu ve teknik karar aşamasındadır: denetlenebilirlik, veri minimizasyonu ve ölçüm kalitesi dengesini kurar. Ana iş sorusu: tüm script’leri envantere alıp kategorize ederek, yalnız uygun consent alındığında çalışacak şekilde GTM’de nasıl tasarlarız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Üçüncü taraf script ve tag’ler (analytics, reklam pikseli, heatmap, chat) KVKK açısından risklidir; çünkü çoğu kontrolsüz şekilde veri toplar ve görünmezce çalışır. Çözüm; tüm script’leri envantere alıp Tag Manager altında merkezileştirmek, kategori/amaç bazında etiketlemek ve yalnız ilgili consent alındığında tetiklemektir. Böylece otel ve B2B sitelerinde hem veri minimizasyonu sağlanır hem de “hangi araç ne yapıyor” denetlenebilir hale gelir.",
+      "sgeSummary": "Script’leri envantere al; GTM’de zorunlu/analitik/reklam/UX diye kategorize et; consent sonrası çalıştır; ekleme-silme süreçlerini logla ve düzenli script temizliği yap.",
+      "voiceAnswer": "Script’leri GTM’de merkezileştir, kategorize et ve yalnız consent alındığında çalıştır; kontrol ve uyum artar.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B pazarlama, ajans performans ekibi, IT/yazılım",
+        "KPI: Çalışan script sayısı, consent sonrası tetikleme uyumu, ölçüm doğruluğu, riskli vendor sayısı, sayfa yük performansı",
+        "Entity: 3rd party scripts, GTM container, kategori, consent trigger, audit/log, CMP",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Consideration → Implementation (GTM mimarisi + governance)",
+        "Çıktı: GTM mimari diyagramı + script/amaç/consent tablosu + checklist + envanter şablonu",
+        "Not: Hukuki yorum değil; teknik kontrol ve süreç anlatılır."
+      ]
+    },
+    "h1": {
+      "title": "Üçüncü Taraf Script ve Tag’ler İçin KVKK Risk Analizi ve Tag Manager Stratejisi",
+      "intro": "Web sitelerinde KVKK riskinin en sık gözden kaçtığı yer, “acil eklenen kodlar”dır: kampanya pikseli, heatmap, chat widget, A/B test aracı… Bu script’ler çoğu zaman birkaç satırla siteye girer, sonra kimse “ne topluyor, ne zaman çalışıyor, hangi sayfada aktif” sorusunu sormaz. Sonuç: denetlenebilirlik kaybolur, veri minimizasyonu bozulur ve consent mekanizması “kağıt üstünde” kalır.\n\nÇözüm yaklaşımı nettir: önce script envanteri, sonra kategori/amaç sınıflandırması, ardından GTM altında merkezi yönetim ve consent’e bağlı tetikleme. Böylece otel sitelerinde OTA/analytics/pixel senaryolarını; B2B’de reklam ve lead tracking araçlarını kontrollü, ölçülebilir ve KVKK perspektifinde yönetilebilir hale getirirsiniz.",
+      "quickSummary": [
+        "1) Tüm üçüncü taraf script ve tag’leri envantere alın",
+        "2) Script’leri zorunlu, analitik, reklam ve UX olarak kategorize edin",
+        "3) Hardcode script’leri GTM altında merkezileştirin",
+        "4) Tag’leri yalnız ilgili consent alındığında çalıştırın",
+        "5) Değişiklikleri loglayın ve düzenli script temizliği yapın"
+      ],
+      "ctaPrimary": {
+        "label": "Üçüncü Taraf Script & GTM KVKK Analizi Talep Et",
+        "text": "Sitenizdeki tüm script’leri envantere alıp, GTM+consent mimarisini ve temizlik planını birlikte çıkaralım. (Kim için: otel & B2B)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Üçüncü Taraf Script & GTM KVKK Analizi Talep Et",
+        "text": "Otel ve B2B sitelerinde tüm script’leri envantere alır, GTM+consent kurgusuyla risk ve karmaşayı azaltır.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "3rd Party Script Envanteri & GTM/Consent Planlama Şablonunu İndir",
+        "text": "Script’leri kategori/amaç/consent bazında tek tabloda toplar; tetikleme kurallarını standardize edip temizlik planını hızlandırır.",
+        "href": "/downloads/3rd-party-script-envanteri-gtm-consent-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Dönüşüm Takibi ve Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Dönüşüm Takibi ve Tag Manager",
+        "href": "/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "title": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ucuncu-taraf-script-nedir-kvkk-riski",
+        "title": "Üçüncü Taraf Script Nedir? Neden KVKK Açısından Risklidir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "Üçüncü taraf script ve tag’ler KVKK açısından neden risklidir?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: çünkü kullanıcı fark etmeden çalışabilir, farklı vendor’lara veri aktarabilir ve consent öncesi tetiklenirse “izin” katmanını boşa düşürür. Ayrıca script’ler çoğaldıkça hangi aracın gerçekten gerekli olduğu belirsizleşir; gereksiz veri toplama ve performans kaybı artar."
+          },
+          {
+            "type": "h3",
+            "text": "En yaygın script kategorileri (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Analitik: trafik ve davranış ölçümü",
+              "Reklam/remarketing: piksel, dönüşüm takibi",
+              "UX/heatmap: tıklama, scroll, session replay",
+              "Chat/CRM widget: canlı destek, lead toplama",
+              "A/B test/personalization: varyasyon ve segment",
+              "Video/embed: medya oyuncuları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Riskli noktalar: “ne zaman ve ne kadar çalışıyor?”"
+          },
+          {
+            "type": "p",
+            "text": "Risk, yalnızca “hangi vendor” değil; tetik zamanı ve toplanan veri kapsamı ile büyür. Örneğin heatmap aracı, form alanlarını maskelemeden session replay yapıyorsa risk artar. Chat widget’ı kullanıcı yazışmalarını dış sisteme taşıyorsa veri türü genişler."
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Sitedeki tüm script/tag’lerin listesi var mı?",
+              "Her script için amaç ve kategori belli mi?",
+              "Consent öncesi çalışan reklam/UX script’i var mı?",
+              "Form alanları heatmap/session replay’de maskeleniyor mu?",
+              "Vendor bazında “gerekli mi?” değerlendirmesi yapıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Script envanterini çıkarın (kaynak dosya, vendor, sayfa, tetik).",
+              "Script’leri kategori/amaç bazında etiketleyin.",
+              "Consent öncesi çalışanları tespit edin ve kapatın.",
+              "Heatmap/chat gibi araçlarda maskeleme ayarlarını kontrol edin.",
+              "Web geliştirme süreçleriyle bağlayın: /yazilim/web-sitesi-gelistirme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kvkk-riskli-noktalar-script-envanteri",
+        "title": "KVKK Açısından Riskli Noktalar: Envanter ve “Gerekli mi?” Sorusu",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-03"
+          },
+          {
+            "type": "p",
+            "text": "En iyi kontrol, “kontrol edebildiğin kadar”dır. Bu yüzden ikinci adım; envanterdeki her script için “değer vs risk” değerlendirmesi yapmaktır. Birçok projede aynı işi yapan 2–3 araç bulunur (çifte analitik, çifte pixel, hem chat hem lead form aracı). Bu kalabalık, risk/katkı oranını düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "Script envanteri hangi alanları içermeli?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Script adı/vendor",
+              "Kategori (zorunlu/analitik/reklam/UX)",
+              "Amaç (ölçüm, remarketing, destek)",
+              "Tetikleme kuralı (hangi sayfada, hangi event’te)",
+              "Consent bağı (hangi kategori onayı gerekir)",
+              "Toplanan veri türü (genel seviye)",
+              "Owner (kim sorumlu)",
+              "Son gözden geçirme tarihi (365 gün refresh)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de “gerekli” tanımı farklı olabilir"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: OTA kampanyaları, sezonluk remarketing, rezervasyon funnel ölçümü",
+              "B2B: lead kalitesi, demo dönüşümü, ABM/LinkedIn ölçümü"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Script / Amaç / Consent Eşlemesi Tablosu",
+            "headers": [
+              "Vendor",
+              "Kategori",
+              "Amaç",
+              "Consent",
+              "Tetik",
+              "Owner",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Analytics aracı",
+                "Analitik",
+                "Trafik ve davranış ölçümü",
+                "Analitik",
+                "Consent sonrası pageview/event",
+                "Pazarlama / Analytics",
+                "Sayfa ve event kapsamı sınırlandırılmalı"
+              ],
+              [
+                "Reklam pikseli",
+                "Reklam",
+                "Remarketing ve dönüşüm takibi",
+                "Reklam",
+                "Consent sonrası dönüşüm veya sayfa tetikleyicisi",
+                "Performans pazarlama",
+                "Redundant pikseller kontrol edilmeli"
+              ],
+              [
+                "Heatmap / session replay",
+                "UX",
+                "Tıklama, scroll ve oturum davranışı",
+                "UX",
+                "Consent sonrası ve belirli sayfalarda",
+                "UX / CRO",
+                "Form alanları maskelenmeli"
+              ],
+              [
+                "Chat / CRM widget",
+                "UX",
+                "Canlı destek ve lead toplama",
+                "UX",
+                "Consent sonrası veya kullanıcı etkileşimiyle",
+                "Satış / Operasyon",
+                "Yazışmaların aktarıldığı sistem kontrol edilmeli"
+              ],
+              [
+                "A/B test aracı",
+                "UX",
+                "Varyasyon ve segment testi",
+                "UX",
+                "Consent sonrası ve test kapsamındaki sayfalarda",
+                "CRO / Pazarlama",
+                "Test bitince script kaldırılmalı"
+              ],
+              [
+                "Video / embed",
+                "UX",
+                "Medya içeriği oynatma",
+                "UX",
+                "Kullanıcı etkileşimi veya consent sonrası",
+                "İçerik / Yazılım",
+                "Dış vendor network çağrıları kontrol edilmeli"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Her script’in bir owner’ı var mı?",
+              "Aynı işi yapan redundant araçlar belirlendi mi?",
+              "Her script’in bir consent kategorisi var mı?",
+              "“Son gözden geçirme tarihi” tutuluyor mu?",
+              "Script kaldırma süreci tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her script’e owner atayın (pazarlama/ajans/IT).",
+              "“Redundant script” temizliği planlayın.",
+              "Envantere “consent kategorisi” alanını zorunlu yapın.",
+              "Yılda 1 kez audit/temizlik rutini belirleyin (365 gün).",
+              "KVKK veri güvenliği çerçevesiyle bağlayın: /raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tag-manager-merkezi-yonetim",
+        "title": "Tag Manager ile Merkezi Yönetim: Container Mimarisi ve Governance",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Tag Manager ile script’leri nasıl merkezileştirebilirim?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: tüm üçüncü taraf script’leri doğrudan site koduna eklemek yerine GTM container altında toplayın; kategori/amaç etiketleri, klasörler ve naming convention ile yönetin. Böylece kim ne ekledi, ne kaldırdı sorusuna cevap verebilir; test/rollback yapabilir ve consent’e göre tetikleyebilirsiniz."
+          },
+          {
+            "type": "h3",
+            "text": "GTM container yapısı (önerilen düzen)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Folders: Zorunlu / Analitik / Reklam / UX-Tools / Vendor-Helpers",
+              "Naming: [CAT] Vendor - Trigger - Purpose (örn. [ADS] Meta Pixel - ConsentGranted - Remarketing)",
+              "Versioning: Her değişiklikte container versiyonu + change note",
+              "Access: GTM kullanıcıları rol bazlı (publish yetkisi sınırlı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Değişiklik yönetimi: “script ekleme/silme loglanmalı”"
+          },
+          {
+            "type": "p",
+            "text": "Sadece script’lerin kendisi değil, değişiklik süreci de denetlenebilir olmalı. Kim yayınladı, ne değişti, hangi versiyonla çıktı; bu bilgiler kriz anında (yanlış tetik, consent ihlali) hayat kurtarır."
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Tüm script’ler GTM altında mı (hardcode temiz mi)?",
+              "Kategori bazlı folder ve naming standardı var mı?",
+              "Publish yetkisi sınırlı mı?",
+              "Versiyonlama ve change note kullanılıyor mu?",
+              "Test ortamı ve rollback planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hardcode script’leri tespit edin ve GTM’e taşıyın.",
+              "Naming/folder standardını yazılı hale getirin.",
+              "Publish yetkisini minimuma indirin.",
+              "Her değişiklik için change note zorunlu yapın.",
+              "Dönüşüm takibi altyapısıyla uyumlayın: /sem/donusum-takibi-tag-manager"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "consente-bagli-script-calistirma",
+        "title": "Consent’e Bağlı Script Çalıştırma: Tetikleyici Mantığı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-04"
+          },
+          {
+            "type": "h3",
+            "text": "Consent’e bağlı script tetikleme nasıl yapılır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: CMP’den gelen consent durumunu GTM’e bir sinyal olarak taşıyın; analitik/reklam/UX kategorilerine göre tetikleyiciler oluşturun ve yalnız ilgili kategori “granted” olduğunda tag’leri çalıştırın. Bu yaklaşım; consent mode veya tetikleyici bazlı kurgu ile uygulanabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Consent kategorileri (pratik set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu: site çalışması için gerekli",
+              "Analitik: ölçüm",
+              "Reklam: remarketing/dönüşüm",
+              "UX: heatmap/session replay/chat (genelde opsiyonel)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "En sık hata: consent var ama tag her durumda çalışıyor"
+          },
+          {
+            "type": "p",
+            "text": "Banner görünür olabilir; ancak GTM tetikleri consent’e bağlanmadıysa, tag yine “pageview” ile ateşlenir. Bu yüzden test şarttır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Consent reddedildiğinde tag gerçekten duruyor mu?",
+              "Consent değiştiğinde tag doğru zamanda başlıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "CMP → GTM consent sinyali var mı?",
+              "Analitik ve reklam tag’leri consent’e bağlı mı?",
+              "UX araçları (heatmap/chat) opsiyonel kategoride mi?",
+              "Consent reddinde network çağrıları duruyor mu?",
+              "Consent değişiminde doğru tetikleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CMP sinyalini dataLayer değişkeni olarak standardize edin.",
+              "Kategori bazlı trigger seti oluşturun.",
+              "Reddedilen consent senaryosunu network tab’ında test edin.",
+              "Consent değişimi için yeniden tetikleme mantığını kontrol edin.",
+              "KVKK veri güvenliği bağlamıyla ilişkilendirin: /raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-tag-mimarisi",
+        "title": "Otel ve B2B İçin Örnek Tag Mimarisi: Ölçüm + KVKK Dengesi",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için örnek GTM/KVKK mimarisi nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: otelde rezervasyon funnel ve OTA kampanyalarını; B2B’de lead tracking ve reklam ölçümünü kategorize ederek kurun. “Her sayfaya her tag” yaklaşımından kaçının; tag’leri sayfa türüne ve funnel aşamasına göre sınırlayın."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği: OTA/analytics/pixel senaryosu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zorunlu: temel site işlevleri",
+              "Analitik: rezervasyon funnel event’leri (consent sonrası)",
+              "Reklam: remarketing pixel (consent sonrası)",
+              "UX: session replay yalnız belirli sayfalarda ve maskeli"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örneği: reklam + lead tracking araçları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Analitik: form submit ve dönüşüm event’leri",
+              "Reklam: LinkedIn/Meta/Google dönüşüm tag’leri (consent sonrası)",
+              "UX: chat + heatmap, opsiyonel ve sayfa bazlı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "data",
+            "title": "Key Data Point (yumuşatılmış)",
+            "items": [
+              "Üçüncü taraf script envanteri çıkarılıp GTM altında toplandığında, hangi aracın gerçekten gerekli olduğu ve hangilerinin risk/katkı oranının düşük olduğu daha net görülebilir; bu da düzenli “temizlik” kararlarını hızlandırır."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Üçüncü Taraf Script & GTM KVKK Analizi Talep Et",
+            "text": "Script envanterinizi çıkarıp, GTM+consent tetikleme mimarisini otel/B2B funnel’ınıza göre tasarlayalım. (Kim için: pazarlama + IT + ajans)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "callout",
+            "variant": "checklist",
+            "title": "Mini Check ",
+            "items": [
+              "Tag’ler sayfa türüne göre sınırlı mı?",
+              "Funnel event’leri consent sonrası mı tetikleniyor?",
+              "Redundant pixel/analytics temizlendi mi?",
+              "Heatmap/session replay masking aktif mi?",
+              "Yıllık script audit planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Script’leri “sayfa türü” bazında sınırlayın (home/blog/form/checkout).",
+              "Consent sonrası tetiklemeyi doğrulayan test listesi çıkarın.",
+              "Redundant vendor’ları temizleyin.",
+              "Değişiklik yönetimini (versiyon + log) zorunlu yapın.",
+              "İç linklerle süreçleri bağlayın: /sem/donusum-takibi-tag-manager, /raporlama/kvkk-veri-guvenligi ve /yazilim/web-sitesi-gelistirme"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "script-envanteri-gtm-consent-planlama-sablonu",
+        "title": "3rd Party Script Envanteri & GTM/Consent Planlama Şablonunu İndir — Yazılım / GTM",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "3rd Party Script Envanteri & GTM/Consent Planlama Şablonunu İndir — Yazılım / GTM (v1.0)",
+            "purpose": "Bu şablon, sitedeki tüm üçüncü taraf script’leri tek envanterde toplar ve GTM altında kategori/amaç/consent eşlemesini standardize eder. Consent’e bağlı tetikleme kurallarını görünür kılar ve redundant script’leri temizlemek için karar zemini sağlar. Otel ve B2B projelerinde denetlenebilirlik ve veri minimizasyonu açısından netlik üretir.",
+            "whoFor": "Pazarlama + ajans performans ekibi + IT/yazılım (otel ve B2B).",
+            "steps": [
+              "Mevcut script’leri topla (hardcode + GTM) ve envantere yaz.",
+              "Her script’i kategori/amaç/consent’e bağla, tetik kuralını belirle.",
+              "Redundant/riskli script’ler için aksiyon planı çıkar: kaldır–sınırla–mask–consent’e bağla."
+            ],
+            "checklist": [
+              "Tüm script’ler envanterde",
+              "Kategori ve consent eşlemesi tamam",
+              "Consent reddinde network çağrıları duruyor",
+              "GTM versiyonlama + change note kullanılıyor",
+              "Redundant script’ler için temizlik planı var",
+              "Heatmap/session replay masking aktif",
+              "Publish yetkisi sınırlı"
+            ],
+            "href": "/downloads/3rd-party-script-envanteri-gtm-consent-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Script envanteri tablosu",
+              "Kategori/amaç/consent eşleme planı",
+              "Consent tetikleme kural şablonu",
+              "Redundant ve riskli script temizlik planı",
+              "GTM mimari diyagramı",
+              "Script KVKK checklist kartı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Üçüncü taraf script ve tag’ler KVKK açısından neden risklidir?",
+        "a": "Çünkü kontrolsüz şekilde veri toplayabilir, vendor’lara aktarabilir ve consent öncesi çalışarak izin katmanını boşa düşürebilir. Envanter ve tetik kontrolü olmadan denetlenebilirlik kaybolur."
+      },
+      {
+        "q": "Tag Manager ile script’leri nasıl merkezileştirebilirim?",
+        "a": "Hardcode script’leri GTM’e taşıyıp kategori bazlı folder/naming kullanın; versiyonlama ve publish yetkilerini sınırlayın. Böylece değişiklikler izlenebilir ve geri alınabilir olur."
+      },
+      {
+        "q": "Consent’e bağlı script tetikleme nasıl yapılır?",
+        "a": "CMP’den gelen consent durumunu GTM’e değişken olarak aktarın; analitik/reklam/UX tag’lerini yalnız ilgili consent “granted” olduğunda tetikleyin ve reddet senaryosunu network test ile doğrulayın."
+      },
+      {
+        "q": "Otel ve B2B için örnek GTM/KVKK mimarisi nasıl olmalı?",
+        "a": "Tag’leri sayfa türü ve funnel aşamasına göre sınırlayın; otelde rezervasyon funnel + OTA kampanyaları, B2B’de lead/dönüşüm ölçümü için kategori bazlı ve consent sonrası tetiklenen mimari kurun."
+      },
+      {
+        "q": "Heatmap ve session replay araçlarında en kritik kontrol nedir?",
+        "a": "Form alanlarının maskelenmesi ve aracın yalnız ilgili consent sonrasında çalışmasıdır. Aksi halde hassas veri toplanma riski artar."
+      },
+      {
+        "q": "Script envanteri ne sıklıkla güncellenmeli?",
+        "a": "Yeni araç eklendikçe güncellenmeli ve en az yılda bir (365 gün) script audit/temizlik rutini uygulanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-hero-01.webp — Alt text: GTM ile üçüncü taraf script kontrolü, otel ve B2B ölçüm mimarisi",
+          "h1-context — 1920×1080 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-h1-context-02.webp — Alt text: Script kategorileri ve KVKK risk noktaları, otel web bağlamı",
+          "divider-01 — 1600×1200 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-divider-03.webp — Alt text: Script envanteri ve risk analizi bölümü ayırıcı, KVKK uyumu",
+          "divider-02 — 1600×1200 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-divider-04.webp — Alt text: Consent tetikleme kurgusu bölümü ayırıcı, GTM stratejisi",
+          "diagram-05 — 1920×1080 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-diagram-05.webp — Alt text: GTM katmanı ve script kategori diyagramı, otel ve B2B",
+          "checklist-06 — 1200×1200 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-checklist-06.webp — Alt text: Üçüncü taraf script KVKK checklist kartı, consent bazlı tetikleme",
+          "kpi-07 — 1200×1200 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-kpi-07.webp — Alt text: Script sayısı ve consent uyumu KPI paneli, privacy-aware tracking",
+          "proof-08 — 1200×1200 — ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi-proof-08.webp — Alt text: Script envanteri ve GTM consent planı teslimleri, otel bağlamı",
+          "table-script-purpose-consent — Script / Amaç / Consent Eşlemesi Tablosu (Vendor | Kategori | Amaç | Consent | Tetik | Owner | Not)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "TR/EN hreflang karşılıklılık kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Hardcode ve GTM altındaki tüm script’ler envantere alındı",
+          "Her script için kategori, amaç, consent, tetikleyici ve owner tanımlı",
+          "Zorunlu/analitik/reklam/UX kategori ayrımı tamamlandı",
+          "CMP → GTM consent sinyali standardize edildi",
+          "Analitik, reklam ve UX tag’leri yalnız ilgili consent granted olduğunda çalışıyor",
+          "Consent reddinde network çağrılarının durduğu test edildi",
+          "Heatmap ve session replay alan maskelemesi aktif",
+          "GTM folder ve naming convention standardı uygulanıyor",
+          "Publish yetkisi rol bazlı ve sınırlı",
+          "GTM versiyonlama, change note ve rollback süreci tanımlı",
+          "Redundant pixel ve analytics araçları için temizlik planı oluşturuldu",
+          "Tag’ler sayfa türü ve funnel aşamasına göre sınırlandırıldı",
+          "Script audit ve temizlik rutini 365 gün olarak tanımlı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Çalışan script sayısı, consent uyumu, ölçüm doğruluğu ve sayfa yük performansı izleniyor"
+        ]
+      }
+    }
+  },
+
+   "BlogMobilUygulamaVeWebviewSenaryolarindaKvkkUyumuTeknikBakis": {
+    "title": "Mobil App ve WebView KVKK Uyumu",
+    "slug": "mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Mobil app + WebView’de çerez, device ID, push token ve log akışını tek veri haritasında birleştirin. Otel ve B2B hibrit projelerde izinleri ve aydınlatmayı tutarlı yönetin.",
+    "seo": {
+      "metaTitle": "Mobil App ve WebView KVKK Uyumu | DGTLFACE",
+      "metaDescription": "Mobil app + WebView’de çerez, device ID, push token ve log akışını tek veri haritasında birleştirin. Otel ve B2B hibrit projelerde izinleri ve aydınlatmayı tutarlı yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #8 — https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis"
+      ],
+      "strategySummary": "Bu blog, KVKK içeriklerinin çoğunlukla “klasik web”e odaklandığı yerde, mobil uygulama + WebView hibrit akışların teknik detayını netleştiren Core içeriktir. Hedef persona; otel sahibi/GM, ajans yöneticisi ve IT/yazılım lideridir; “app içinde web sayfası açıyoruz, veri nerede toplanıyor?” sorusunu cevaplar. Funnel’da MoFu ve stratejik karar aşamasındadır: veri haritası, izinler, çerezler ve backend loglarını tek modelde birleştirir. Ana iş sorusu: hibrit yapılarda (app+WebView) aydınlatma ve teknik veri akışını tutarlı tasarlayarak KVKK riskini nasıl yönetiriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Mobil uygulama + WebView hibrit yapılarda KVKK uyumu, “veri nerede toplanıyor?” sorusunu doğru yanıtlamakla başlar. Uygulama tarafında izinler (push, konum), device ID/push token gibi tanımlayıcılar; WebView içinde çerezler ve takip tag’leri; backend’de ise loglar birlikte düşünülmelidir. Çözüm; app+web katmanlarını tek veri haritasında birleştirmek, consent/izin mantığını tutarlı kurgulamak ve aydınlatma metinlerini app–web–store beyanlarıyla hizalamaktır.",
+      "sgeSummary": "App izinleri + WebView çerezleri + backend loglarını tek haritada topla; WebView’de consent sonrası tag çalıştır; aydınlatmayı app, web ve store gizlilik beyanıyla tutarlı yap.",
+      "voiceAnswer": "WebView’de çerezler ve app’te izinler birlikte çalışır; hepsini tek veri haritasında yönetmelisiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B yönetimi, mobil ekip, web ekip, ajans, IT/BT",
+        "KPI: Veri haritası kapsama, izin kabul oranı, WebView consent uyumu, log denetlenebilirlik, şikâyet oranı",
+        "Entity: WebView, app izinleri, çerez, device ID, push token, backend logları, hybrid data flow",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Consideration → Implementation (hibrit uyum modeli)",
+        "Çıktı: Hibrit veri akış diyagramı + izin/veri tablosu + mobil WebView KVKK checklist",
+        "Not: Hukuki yorum değil; teknik veri haritalama ve süreç uyumu anlatılır."
+      ]
+    },
+    "h1": {
+      "title": "Mobil Uygulama ve WebView Senaryolarında KVKK Uyumu: Teknik Bakış",
+      "intro": "Hibrit yapılarda (mobil app + WebView) KVKK uyumu “daha zor” değil; daha görünmez olduğu için risklidir. Çünkü aynı kullanıcıyla ilgili veriler üç katmanda birikir: (1) uygulama katmanı (izinler, device ID, push token), (2) WebView katmanı (çerezler, analytics/pixel/tag’ler), (3) backend katmanı (sunucu logları, uygulama logları, erişim kayıtları). Bu katmanlar birbiriyle konuştuğunda, “hangi veri nerede işleniyor?” sorusunun cevabı net değilse aydınlatma metinleri ve teknik kurgular birbirinden kopar.\n\nBu rehberin amacı; mobil ve web ekiplerinin aynı haritaya bakmasını sağlamak ve otel uygulamalarında rezervasyon/hesap yönetimi, B2B’de portal+app entegrasyonları gibi senaryolarda teknik kontrol noktalarını netleştirmektir.",
+      "quickSummary": [
+        "1) Hibrit veri akış diyagramı çıkarın (app ↔ WebView ↔ backend).",
+        "2) İzin/consent olaylarını tek sözlükte standardize edin.",
+        "3) WebView’de consent sonrası tag çalıştırmayı doğrulayın.",
+        "4) Push token ve device ID ilişkilerini minimumda tutun.",
+        "5) İç linklerle süreçleri bağlayın."
+      ],
+      "ctaPrimary": {
+        "label": "Mobil & WebView KVKK Teknik Analizi Talep Et",
+        "text": "App+WebView veri akışınızı çıkarıp, izin/consent ve loglama kurgusunu KVKK’ya uygun şekilde netleştirelim. (Kim için: mobil + web + IT ekipleri)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mobil & WebView KVKK Teknik Analizi Talep Et",
+        "text": "Mobil uygulama, WebView ve backend katmanlarını tek veri haritasında birleştirir; izin/consent ve log kurgusunu tutarlı hale getirir.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "Mobil Uygulama + WebView Veri Haritası & KVKK Checklist Şablonunu İndir",
+        "text": "App izinleri, WebView çerezleri ve backend loglarını tek tabloda standardize eder; hibrit projelerde kontrol noktalarını netleştirir.",
+        "href": "/downloads/mobil-uygulama-webview-veri-haritasi-kvkk-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK veri güvenliği yaklaşımı",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sunucu güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK veri güvenliği yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "Sunucu güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mobil-uygulama-webview-kvkk-kritik",
+        "title": "Mobil Uygulama ve WebView Nedir? KVKK Açısından Neden Kritik? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "WebView nedir, KVKK açısından neden kritik?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: WebView, uygulama içinde web sayfası gösteren gömülü tarayıcı katmanıdır; bu katman web’in çerez ve tag ekosistemini uygulama deneyiminin içine taşır. KVKK açısından kritik olmasının nedeni; kullanıcı app içindeyken web tarafındaki çerezler/izleme tag’leri çalışabilir ve bu durum app izinleriyle birlikte “çift katmanlı” bir veri toplama alanı yaratır."
+          },
+          {
+            "type": "h3",
+            "text": "WebView’nin iki riski: “görünmez web” ve “paylaşılan kimlik”"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kullanıcı app içindeyken web içeriğinin çerez/tag davranışı “görünmez” kalabilir.",
+              "App’teki device ID veya oturum bilgileri, WebView oturumlarıyla ilişkilendirildiğinde profil birikimi artar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B’de WebView nerede kullanılıyor?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: WebView’de rezervasyon/ödeme sayfası, kampanya landing’i, üyelik ekranı",
+              "B2B: Portal ekranları, doküman görüntüleme, teklif/başvuru akışları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WebView içinde hangi sayfalar açılıyor listelendi mi?",
+              "WebView sayfaları çerez/tag kullanıyor mu?",
+              "App oturumu ile WebView oturumu ilişkilendiriliyor mu?",
+              "WebView için ayrı consent mantığı var mı?",
+              "Backend logları bu akışa bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "WebView’de açılan sayfaları envantere alın (rezervasyon/ödeme/portal).",
+              "Bu sayfalardaki çerez/tag setini çıkarın.",
+              "App–WebView oturum ilişkilendirmesini dokümante edin.",
+              "Consent/izin mantığını “tek model”de tanımlayın.",
+              "KVKK veri güvenliği yaklaşımıyla bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "webview-veri-ayrimi-sinirlar",
+        "title": "Uygulama İçinde WebView ile Web İçeriği Gösterme: Veri Ayrımı ve Sınırlar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Hibrit projelerde ilk yapılması gereken şey, “app verisi” ve “web verisi” ayrımını yapmaktır. Çünkü aynı kullanıcı deneyiminde iki farklı veri toplama mekanizması çalışır: native SDK’lar ve web tag’leri. Bu ayrım yapılmazsa, aydınlatma metinleri ve teknik kontroller birbirini tutmaz."
+          },
+          {
+            "type": "h3",
+            "text": "App katmanı: izinler ve SDK’lar"
+          },
+          {
+            "type": "p",
+            "text": "App katmanı; izinler (push, konum), cihaz tanımlayıcıları (device ID), push token ve uygulama içi event’lerle çalışır. Bu katmanda “izin” yönetimi, OS seviyesinde farklı ekranlarla yapılır; kullanıcı algısı “app beni izliyor mu?” üzerinden şekillenir."
+          },
+          {
+            "type": "h3",
+            "text": "WebView katmanı: çerez ve tag ekosistemi"
+          },
+          {
+            "type": "p",
+            "text": "WebView, web sayfasının çerezlerini ve üçüncü taraf script’lerini çalıştırabilir. Eğer web tarafında consent banner ve tetik kontrolü yoksa, kullanıcı app içindeyken bile reklam/analitik tag’leri devreye girebilir."
+          },
+          {
+            "type": "h3",
+            "text": "En sık hata: WebView’de “consent yokmuş gibi” davranmak"
+          },
+          {
+            "type": "p",
+            "text": "WebView’de web içeriği açılıyorsa, web tarafındaki consent mekanizması ve tag tetikleme kuralları geçerli olmalıdır. Aksi halde app’in “izin” yönetimi ile web’in “consent” yönetimi kopar."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "App SDK’ları listelendi mi? (analytics, crash, push)",
+              "WebView sayfalarında consent banner çalışıyor mu?",
+              "Tag’ler consent sonrası mı tetikleniyor?",
+              "App ve web verisi tek veri haritasında birleşiyor mu?",
+              "Oturum/token paylaşımı riskleri belirlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "App SDK envanteri çıkarın (vendor, amaç, veri davranışı).",
+              "WebView sayfalarında tag’leri consent sonrası tetikleyin.",
+              "App–web oturum paylaşımını minimuma indirin (gerekmiyorsa).",
+              "Veri haritasında app/web kaynaklarını ayrı sütunlarla gösterin.",
+              "Sunucu güvenliği tarafıyla bağlayın: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cerez-device-id-log-yonetimi",
+        "title": "Çerez, Device ID ve Log Yönetimi: Hibrit Katmanda Tanımlayıcılar",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Mobil uygulama ve WebView’de hangi veriler toplanır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: app tarafında device ID, push token, izin durumları ve app event’leri; WebView tarafında çerezler ve web event’leri; backend tarafında ise erişim, işlem ve hata logları toplanır. KVKK riskini yöneten şey; bu tanımlayıcıların nasıl ilişkilendirildiği ve ne kadar süre tutulduğudur."
+          },
+          {
+            "type": "h3",
+            "text": "Tanımlayıcıları “tek isimle” konuşun: ID sözlüğü"
+          },
+          {
+            "type": "p",
+            "text": "Hibrit yapılarda en büyük karmaşa; aynı kullanıcıyı farklı katmanlarda farklı ID’lerle takip etmektir. Bu yüzden pratik çözüm: bir ID sözlüğü oluşturmak. Örnek:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "app_user_id (uyelik)",
+              "device_id (cihaz)",
+              "push_token (bildirim)",
+              "web_cookie_id (WebView çerezi)",
+              "session_id (backend)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Loglar: hangi katmanda ne loglanmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "App: kritik event’ler (login, consent değişimi)",
+              "WebView: consent state, form submit, kritik sayfa erişimi",
+              "Backend: erişim logları, işlem logları, hata logları (PII minimizasyonu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İzin türleri ve veri türleri tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: İzin türleri ve veri türleri",
+            "headers": [
+              "İzin",
+              "Veri",
+              "Katman (App/WebView)",
+              "Amaç",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Push",
+                "push token",
+                "App",
+                "bildirim",
+                "İzin durumu değiştiğinde (kapatma/açma) sistemlerde güncelleyin."
+              ],
+              [
+                "Konum",
+                "izin durumları",
+                "App",
+                "konum",
+                "Bu katmanda “izin” yönetimi, OS seviyesinde farklı ekranlarla yapılır."
+              ],
+              [
+                "Consent",
+                "çerezler ve web event’leri",
+                "WebView",
+                "analytics/pixel/tag’ler",
+                "Tag’ler consent sonrası mı tetikleniyor?"
+              ],
+              [
+                "Oturum",
+                "session_id",
+                "Backend",
+                "erişim, işlem ve hata logları",
+                "Log retention ve erişim kontrolleri tanımlı mı?"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ID sözlüğü var mı (app/web/backend)?",
+              "Device ID ve web cookie ilişkisi dokümante mi?",
+              "Consent değişimi hem app hem web’de kayıtlı mı?",
+              "Loglarda gereğinden fazla veri tutulmuyor mu?",
+              "Log retention ve erişim kontrolleri tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "ID sözlüğünü çıkarın ve ekiplerle standardize edin.",
+              "Katmanlar arası ID eşlemesini “gerekliyse” yapın; gereksiz birleştirmeyin.",
+              "Consent değişimi olaylarını ayrı event olarak loglayın.",
+              "Loglarda PII minimizasyonu ve masking uygulayın.",
+              "KVKK veri güvenliği raporlama ile hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "push-bildirimleri-izinler",
+        "title": "Push Bildirimleri ve İzinler: KVKK Perspektifinde Teknik Dikkat Noktaları ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Push bildirimleri, kullanıcıyla doğrudan temas noktasıdır ve izin yönetimi OS seviyesinde gerçekleşir. Teknik olarak iki şey kritiktir: (1) push token’ın bir tanımlayıcı olduğu gerçeği, (2) izin durumunun sistemlerde doğru saklanması ve değiştiğinde güncellenmesi."
+          },
+          {
+            "type": "h3",
+            "text": "Push token ve izin durumu nasıl ele alınmalı?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Push token’ı “kimlikle” otomatik eşleştirmek yerine iş ihtiyacına göre ilişkilendirin.",
+              "İzin durumu değiştiğinde (kapatma/açma) sistemlerde güncelleyin.",
+              "Bildirim içerikleri hassas veri taşımamalı (özellikle kilit ekranı)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği: rezervasyon güncellemesi bildirimi"
+          },
+          {
+            "type": "p",
+            "text": "Bildirimin içeriğinde kişisel veya hassas bilgiler yerine “uygulamaya yönlendiren” genel mesaj tercih edilir; detay içerik uygulama içinde gösterilir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Push token saklama ve eşleme mantığı net mi?",
+              "İzin durumu değişiklikleri loglanıyor mu?",
+              "Bildirim içerikleri hassas veri içermiyor mu?",
+              "Kullanıcı push kapatınca otomasyonlar duruyor mu?",
+              "Push vendor’ları envantere dahil mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Push token’ı veri haritasında ayrı veri türü olarak tanımlayın.",
+              "İzin değişim event’lerini kaydedin (timestamp).",
+              "Bildirim metinlerinde hassas veri kullanmayın.",
+              "Push vendor’larını SDK envanterine ekleyin.",
+              "Sunucu güvenliğiyle birlikte değerlendirin: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-hibrit-kvkk",
+        "title": "Otel ve B2B İçin Hibrit Yapılarda KVKK Teknik Dikkat Noktaları",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Bu bölüm “uygulanabilir” kontrol setini verir: mobil, web ve backend ekiplerinin ortaklaşa kontrol edeceği noktalar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel uygulamalarında misafir hesabı ve rezervasyon verisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "App’te hesap (app_user_id)",
+              "WebView’de rezervasyon/ödeme sayfaları",
+              "Backend’de PMS/rezervasyon sistemi ve loglar",
+              "Kritik: kimlik eşlemesi, consent/izin tutarlılığı, log minimizasyonu."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B’de portal + mobil app entegrasyonu"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Portal WebView ile açılıyorsa, web consent ve tag yönetimi app içinde de geçerlidir.",
+              "Doküman erişimleri ve export işlemleri audit trail’e girmelidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO: “hibrit KVKK modeli” paragrafı (tek model)"
+          },
+          {
+            "type": "p",
+            "text": "WebView, app izinleri, çerez, device ID, push token ve backend logları; tek bir hibrit KVKK modeli içinde yönetilmelidir: izin/consent → veri toplama → kimlik eşlemesi → log/audit → retention. Modeli kurduğunuzda, yeni bir SDK veya yeni bir WebView sayfası eklendiğinde sadece modele yeni düğüm eklersiniz."
+          },
+          {
+            "type": "p",
+            "text": "Key Data Point (yumuşatılmış): İyi haritalanmış mobil + WebView projelerinde, aynı kullanıcının app, web ve push katmanlarında biriken verileri daha tutarlı ve kontrollü yönetmek kolaylaşır; sürpriz “gizli veri akışları” azalır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobil & WebView KVKK Teknik Analizi Talep Et",
+            "text": "Hibrit veri akışınızı çıkarıp, izin/consent ve log kurgusunu tek modelde standardize edelim. (Kim için: mobil + web + IT)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WebView sayfaları için consent/tetik kontrolü var",
+              "App SDK envanteri güncel",
+              "ID sözlüğü ve eşleme kuralları dokümante",
+              "Push izinleri ve token yönetimi tutarlı",
+              "Backend logları minimizasyon + retention ile yönetiliyor",
+              "App Store/Play Store gizlilik beyanlarıyla uyum kontrolü yapıldı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Hibrit veri akış diyagramı çıkarın (app ↔ WebView ↔ backend).",
+              "İzin/consent olaylarını tek sözlükte standardize edin.",
+              "WebView’de consent sonrası tag çalıştırmayı doğrulayın.",
+              "Push token ve device ID ilişkilerini minimumda tutun.",
+              "İç linklerle süreçleri bağlayın:\nhttps://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi\nhttps://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Mobil/app KVKK kurgusu; KVKK veri güvenliği yönetimi ve sunucu güvenliğiyle uyumlu olmalı; ayrıca App Store/Play Store gizlilik beyanlarıyla paralel ilerlemelidir. Bu yazı hukuki tavsiye değil, teknik veri haritalama rehberidir."
+          }
+        ]
+      },
+      {
+        "id": "mobil-webview-veri-haritasi-kvkk-checklist",
+        "title": "Mobil Uygulama + WebView Veri Haritası & KVKK Checklist Şablonunu İndir — Yazılım / Mobile Hybrid",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "A) Checklist / Sprint Plan"
+          },
+          {
+            "type": "h3",
+            "text": "[ ] Ölçüm & Önceliklendirme Checklist’i"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Mobil Uygulama + WebView Veri Haritası & KVKK Checklist Şablonunu İndir — Yazılım / Mobile Hybrid (v1.0)",
+            "purpose": "Bu asset, mobil uygulama ve WebView hibrit yapılarda toplanan verileri tek veri haritasında birleştirmenizi sağlar. İzin türleri, çerez/device ID/push token gibi tanımlayıcılar ve backend logları için kontrol noktalarını standardize eder. Mobil ve web ekipleri için ortak bir çalışma zemini sunar.",
+            "whoFor": "Mobil ekip + web ekip + backend/IT + ürün/operasyon (otel ve B2B).",
+            "steps": [
+              "WebView’de açılan sayfaları ve app SDK’larını envantere yazın.",
+              "İzin/consent olaylarını ve tanımlayıcıları (device ID, push token, cookie) haritaya bağlayın.",
+              "Log/audit ve retention kurallarını ekleyin; sprint planıyla uygulayın."
+            ],
+            "checklist": [
+              "WebView’de açılan sayfalar listelendi (rezervasyon/ödeme/portal)",
+              "App SDK envanteri çıkarıldı (analytics, crash, push vb.)",
+              "WebView sayfalarında çerez/tag seti çıkarıldı",
+              "CMP/consent mekanizması WebView’de çalışıyor",
+              "WebView tag’leri consent sonrası tetikleniyor",
+              "ID sözlüğü hazır (app_user_id/device_id/push_token/web_cookie_id/session_id)",
+              "App–WebView ID eşleme kuralları “gerekliyse” tanımlandı",
+              "Push token saklama ve izin değişimi event’leri loglanıyor",
+              "Backend logları (erişim/işlem/hata) minimizasyon + masking ile yönetiliyor",
+              "Log erişimi RBAC ile sınırlı, retention tanımlı",
+              "App Store/Play Store gizlilik beyanı ile uyum kontrolü yapıldı"
+            ],
+            "href": "/downloads/mobil-uygulama-webview-veri-haritasi-kvkk-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hibrit veri akış diyagramı (app ↔ WebView ↔ backend)",
+              "İzin/veri türleri tablosu",
+              "ID sözlüğü dokümanı",
+              "Consent tetikleme test checklist’i",
+              "Log/retention notu + sprint planı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Mobil Uygulama + WebView Veri Haritası & KVKK Checklist Şablonunu İndir",
+            "text": "App izinleri, WebView çerezleri ve backend loglarını tek tabloda standardize eder; hibrit projelerde kontrol noktalarını netleştirir.",
+            "href": "/downloads/mobil-uygulama-webview-veri-haritasi-kvkk-checklist-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "WebView nedir, KVKK açısından neden kritik?",
+        "a": "WebView uygulama içinde web sayfası gösteren katmandır; web çerezleri ve tag’leri app deneyimine taşır. Consent/izin yönetimi koparsa görünmez veri toplama riski oluşur."
+      },
+      {
+        "q": "Mobil uygulama ve WebView’de hangi veriler toplanır?",
+        "a": "App’te izin durumları, device ID, push token ve app event’leri; WebView’de çerezler ve web tag event’leri; backend’de erişim/işlem/hata logları toplanır. Hibrit harita bu katmanları birleştirir."
+      },
+      {
+        "q": "Otel uygulamalarında rezervasyon ve hesap verisi KVKK’ya göre nasıl yönetilmeli?",
+        "a": "App hesabı, WebView rezervasyon/ödeme sayfaları ve backend/PMS kayıtları tek akışta haritalanmalı; ID eşlemesi kontrollü yapılmalı, consent/izin tutarlı olmalı ve loglar minimizasyonla yönetilmelidir."
+      },
+      {
+        "q": "B2B’de portal + mobil app entegrasyonunda KVKK teknik açıdan nelere dikkat edilmeli?",
+        "a": "Portal WebView’de açılıyorsa web consent ve tag tetikleri app içinde de geçerlidir. Doküman erişimleri ve export işlemleri audit’e alınmalı; ID eşlemesi ve retention net olmalıdır."
+      },
+      {
+        "q": "Push bildirimlerinde en kritik KVKK riski nedir?",
+        "a": "Push token’ın tanımlayıcı olması ve bildirim içeriğinin kilit ekranda hassas veri gösterebilmesidir. İzin durumu değişimleri kaydedilmelidir."
+      },
+      {
+        "q": "Hibrit projelerde aydınlatma metinleri nasıl tutarlı olur?",
+        "a": "App içi metinler, WebView sayfaları ve App Store/Play Store gizlilik beyanları aynı veri haritasına dayanmalı; değişiklikler periyodik gözden geçirilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-hero-01.webp — Mobil ve WebView hibrit KVKK modeli, otel ve B2B veri akışı",
+          "h1-context — 1920×1080 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-h1-context-02.webp — App izinleri ve WebView çerezleri birlikte, otel uygulama bağlamı",
+          "divider-01 — 1600×1200 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-divider-03.webp — WebView veri ayrımı bölümü ayırıcı, hibrit KVKK yaklaşımı",
+          "divider-02 — 1600×1200 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-divider-04.webp — Push izinleri ve tanımlayıcılar bölümü ayırıcı, otel bağlamı",
+          "diagram-05 — 1920×1080 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-diagram-05.webp — Mobil app WebView backend veri akış diyagramı, KVKK uyumu",
+          "checklist-06 — 1200×1200 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-checklist-06.webp — Mobil WebView KVKK checklist kartı, izin consent ve log yönetimi",
+          "kpi-07 — 1200×1200 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-kpi-07.webp — İzin kabul ve consent uyumu KPI paneli, hibrit veri yönetimi",
+          "proof-08 — 1200×1200 — mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis-proof-08.webp — Hibrit veri haritası ve uyum deliverables kartı, otel ve B2B",
+          "table-permission-data-types — İzin türleri ve veri türleri tablosu (İzin | Veri | Katman (App/WebView) | Amaç | Not)"
+        ],
+        "technicalChecklist": [
+          "WebView’de açılan sayfalar listelendi (rezervasyon/ödeme/portal)",
+          "App SDK envanteri çıkarıldı (analytics, crash, push vb.)",
+          "WebView sayfalarında çerez/tag seti çıkarıldı",
+          "CMP/consent mekanizması WebView’de çalışıyor",
+          "WebView tag’leri consent sonrası tetikleniyor",
+          "ID sözlüğü hazır (app_user_id/device_id/push_token/web_cookie_id/session_id)",
+          "App–WebView ID eşleme kuralları “gerekliyse” tanımlandı",
+          "Push token saklama ve izin değişimi event’leri loglanıyor",
+          "Backend logları (erişim/işlem/hata) minimizasyon + masking ile yönetiliyor",
+          "Log erişimi RBAC ile sınırlı, retention tanımlı",
+          "App Store/Play Store gizlilik beyanı ile uyum kontrolü yapıldı",
+          "Mobil/app KVKK kurgusu; KVKK veri güvenliği yönetimi ve sunucu güvenliğiyle uyumlu",
+          "App Store/Play Store gizlilik beyanlarıyla paralel ilerliyor",
+          "365 gün refresh planı tanımlı"
+        ]
+      }
+    }
+  },
+
+  "BlogKvkkDenetimineTeknikHazirlikVeriRaporlariLogBundleVeExportStratejisi": {
+    "title": "KVKK Denetimine Teknik Hazırlık Rehberi",
+    "slug": "kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "KVKK denetimi öncesi web/PMS/CRM/call center raporlarını prova edin. Veri export, log bundle ve checklist setiyle panik yerine hızlı, denetlenebilir teknik çıktı üretin.",
+    "seo": {
+      "metaTitle": "KVKK Denetimine Teknik Hazırlık Rehberi | DGTLFACE",
+      "metaDescription": "KVKK denetimi öncesi web/PMS/CRM/call center raporlarını prova edin. Veri export, log bundle ve checklist setiyle panik yerine hızlı, denetlenebilir teknik çıktı üretin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #9 — https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi"
+      ],
+      "strategySummary": "Bu blog, KVKK denetimini “geldiklerinde ne isteyebilirler?” sorusundan çıkarıp, önceden prova edilebilir teknik rapor seti mantığına çeviren Core içeriktir. Hedef persona; otel sahibi/GM, ajans yöneticisi ve IT/yazılım lideridir; denetimde panik ve hata riskini azaltmak ister. Funnel’da MoFu ama stratejik hazırlık niteliği taşır: veri haritasına bağlı export’lar, log bundle ve sistem bazlı raporları standardize eder. Ana iş sorusu: denetimden önce hangi raporları hangi sistemden, hangi kapsamla, nasıl hızlı çıkarırız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "KVKK denetimine teknik hazırlık, “denetimde ne istenebilir ve bunu biz nasıl çıkarırız?” sorusuna önceden cevap üretmektir. Veri haritasına göre web, PMS, CRM ve call center gibi sistemlerden sistem bazlı raporlar ve ilgili kişi/kategori bazlı veri export’ları hazırlanır. Bunun yanında maskeleme uygulanmış, kapsamı sınırlı bir log bundle seti oluşturulur ve denetim öncesi “teknik prova” ile süre/hata payı düşürülür.",
+      "sgeSummary": "Denetim için veri haritasına dayalı rapor seti çıkar: sistem raporları + kişi/kategori export + maskeleme’li log bundle. Önceden prova ederek süreyi kısalt, hatayı azalt.",
+      "voiceAnswer": "Denetimden önce export ve log bundle’ı prova edin; hangi sistemi nasıl raporlayacağınız hazır olsun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B yönetimi, IT/BT, KVKK/uyum ekibi, ajans",
+        "KPI: Rapor çıkarma süresi, export doğruluk oranı, log bundle bütünlüğü, maskelenen alan oranı, prova tekrar sayısı",
+        "Entity: system reports, data export, log bundle, access logs, checklist, audit prep",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Preparedness → Audit readiness → Operational control",
+        "Çıktı: Rapor seti şeması + export/log checklist + denetim provası akışı",
+        "Not: Hukuki yeterlilik/kapsam yorumları hukuk danışmanıyla netleştirilmelidir; burada teknik hazırlık anlatılır."
+      ]
+    },
+    "h1": {
+      "title": "KVKK Denetimine Teknik Hazırlık: Veri Raporları, Log Bundle ve Export Stratejisi",
+      "intro": "KVKK denetiminde en çok zorlayan şey “veri var ama çıkarma süreci yok” problemidir. Bir denetim geldiğinde ekibin aklındaki ilk sorular hep aynı olur: Hangi sistemden ne istenecek? İlgili kişi bazlı veri setini (export) nasıl çıkaracağız? Erişim kayıtlarını ve logları nasıl hazırlayacağız? Bu sorulara olay anında improvize cevap vermek; panik, yanlış çıktı ve gereksiz veri paylaşımı riskini artırır.\n\nDoğru yaklaşım; veri haritasına dayalı teknik rapor seti kurmak ve bunu denetimden önce prova etmektir. Otel tarafında misafir/rezervasyon verileri; B2B’de müşteri/lead ve sözleşme verileri gibi kritik alanlar sistemlere dağılmıştır. Bu rehber, teknik olarak hangi rapor paketlerinin hazırlanabileceğini, log bundle’ın nasıl sınırlandırılıp maskeleme ile korunacağını ve “denetim provası” akışını anlatır.",
+      "quickSummary": [
+        "1) “Denetim rapor seti” menüsü oluşturun (standart paketler).",
+        "2) Export senaryolarını 2–3 tipte standardize edin (kişi/kategori/sistem).",
+        "3) Log bundle için kapsam + masking kurallarını yazın.",
+        "4) Prova günü belirleyin ve süre ölçün.",
+        "5) KVKK veri güvenliği çerçevesiyle bağlayın."
+      ],
+      "ctaPrimary": {
+        "label": "KVKK Denetimi Öncesi Teknik Hazırlık Analizi Talep Et",
+        "text": "Sistemlerinize göre rapor/export ve log bundle setini çıkarıp, denetim provası planını birlikte oluşturalım. (Kim için: otel & B2B)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "KVKK Denetimi Öncesi Teknik Hazırlık Analizi Talep Et",
+        "text": "Sistem bazlı rapor seti, export paketleri ve log bundle kurgusunu çıkarır; denetim provasıyla panik ve hata riskini azaltır.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "KVKK Denetimi Teknik Export & Log Checklist Şablonunu İndir",
+        "text": "Hangi sistemden hangi export ve log seti hazırlanacağını standardize eder; prova akışını hızlandırır.",
+        "href": "/downloads/kvkk-denetimi-teknik-export-log-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK veri güvenliği yaklaşımı",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Sunucu güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK veri güvenliği yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "title": "Veri analiz ve raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kvkk-denetimi-teknik-hazirlik",
+        "title": "KVKK Denetimi Sırasında Teknik Olarak Neler İstenebilir? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "KVKK denetimine teknik olarak nasıl hazırlanılır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: veri haritasına göre “hangi veri hangi sistemde”yi netleştir, standart rapor seti oluştur, ilgili kişi/kategori bazlı export’ları hazırlamayı öğren ve maskeleme’li log bundle’ı paketle. Son adım olarak denetim provası yap: süreyi ölç, eksikleri kapat."
+          },
+          {
+            "type": "h3",
+            "text": "Tipik teknik istek kategorileri (genel çerçeve)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sistem bazlı veri raporları (hangi veri nerede)",
+              "İlgili kişi bazlı veri seti export’u (kullanıcı/müşteri/misafir)",
+              "Erişim ve işlem kayıtları (kim erişti, kim export etti)",
+              "Log örnekleri (sınırlı ve maskeleme’li)",
+              "Saklama/retention ve silme akışı kanıtları (teknik taraf)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Ne istenir?” değil “ne çıkarabiliriz?” yaklaşımı"
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberin amacı, olası istekleri “teknik olarak çıkarılabilir paketlere” çevirmektir. Böylece denetimde “şu anda çıkaramıyoruz” yerine “şu set hazır” dersiniz."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri haritası güncel mi (web/PMS/CRM/call center)?",
+              "Standart rapor seti listesi var mı?",
+              "İlgili kişi bazlı export prosedürü var mı?",
+              "Log bundle kapsamı ve maskeleme kuralı yazılı mı?",
+              "Denetim provası (dry run) planlandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Denetim rapor seti” menüsü oluşturun (standart paketler).",
+              "Export senaryolarını 2–3 tipte standardize edin (kişi/kategori/sistem).",
+              "Log bundle için kapsam + masking kurallarını yazın.",
+              "Prova günü belirleyin ve süre ölçün.",
+              "KVKK veri güvenliği çerçevesiyle bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sistem-bazli-veri-raporlari",
+        "title": "Sistem Bazlı Veri Raporları: Web, PMS, CRM, Call Center",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Teknik hazırlığın omurgası, sistem bazlı raporlardır. Çünkü kişi bazlı export bile aslında sistemlerden birleşir. Otel ve B2B’de tipik sistem seti: web (form/çerez/analytics), PMS/rezervasyon, CRM, call center, e-posta otomasyonu, BI/raporlama."
+          },
+          {
+            "type": "h3",
+            "text": "Sistem raporu şablonu (her sistem için ortak)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sistem adı ve owner",
+              "Tutulan veri türleri (genel seviye)",
+              "Kritik ekranlar/tablolar",
+              "Export kabiliyeti (var/yok/nasıl)",
+              "Log/audit kabiliyeti (erişim, değişiklik, export)",
+              "Retention/silme mekanizması (teknik)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryosu: misafir ve rezervasyon raporları"
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında raporların en kritik kısmı: misafir profil alanları, rezervasyon detayları, iletişim bilgileri ve işlem geçmişidir. Bu verilerin PMS/rezervasyon motoru ve web form sistemleri arasındaki akışı veri haritasında net olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryosu: müşteri ve lead raporları"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de lead kaynağı (web form/LinkedIn), müşteri hesabı, teklif ve sözleşme dokümanlarının yaşadığı sistemler rapor setine dahil edilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Sistem bazlı export & log bundle checklist tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Sistem bazlı export & log bundle checklist",
+            "headers": [
+              "Sistem",
+              "Export tipi",
+              "Log seti",
+              "Maskeleme",
+              "Owner",
+              "Prova sonucu"
+            ],
+            "rows": [
+              [
+                "Web",
+                "Form kayıtları, consent kayıtları",
+                "Erişim, değişiklik, export",
+                "Minimum veri",
+                "Web",
+                "Export kabiliyeti test edildi mi?"
+              ],
+              [
+                "PMS",
+                "Rezervasyon/misafir",
+                "Erişim ve işlem kayıtları",
+                "Gereksiz alanlar",
+                "PMS/rezervasyon",
+                "Prova süresi ölçülüyor mu?"
+              ],
+              [
+                "CRM",
+                "Lead/müşteri",
+                "Erişim, değişiklik, export",
+                "Maskeleme",
+                "CRM",
+                "Export doğruluk oranı"
+              ],
+              [
+                "Call Center",
+                "Görüşme kayıt meta verisi",
+                "Erişim ve işlem kayıtları",
+                "PII minimizasyonu",
+                "Call center",
+                "Log bundle bütünlüğü"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web/PMS/CRM/call center için rapor şablonu hazır mı?",
+              "Her sistemde veri türleri listeli mi?",
+              "Export kabiliyeti test edildi mi?",
+              "Audit log’lar (export/view) var mı?",
+              "Raporlar tek “denetim klasörü”nde paketleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her sistem için 1 sayfalık “system report sheet” çıkarın.",
+              "Owner ve export yöntemi alanlarını zorunlu yapın.",
+              "Raporların versiyonunu ve tarihini ekleyin.",
+              "Eksik log/audit alanlarını iyileştirme backlog’una alın.",
+              "Veri analiz ve raporlama ile bağlayın: https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kisisel-veri-export-stratejisi",
+        "title": "Kişisel Veri Setlerini Çıkarma (Export): Kapsam, Filtre, Maskeleme ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hangi sistemlerden hangi veri raporları istenebilir?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: web (form kayıtları, consent kayıtları), PMS (rezervasyon/misafir), CRM (lead/müşteri), call center (görüşme kayıt meta verisi), e-posta (abonelik/izin durumu) gibi sistemlerden “ilgili kişi/kategori” bazlı export’lar gündeme gelebilir. Teknik olarak kritik nokta: export’un kapsamı ve maskeleme kurallarıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Export stratejisi: 3 seviye paket"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kişi bazlı paket: belirli bir kullanıcı/misafir/müşteri için tüm ilgili kayıtlar",
+              "Kategori bazlı paket: belirli veri kategorisi (örn. iletişim verisi)",
+              "Sistem bazlı paket: tek sistemden belirli aralık (örn. son 30 gün)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Export’ta en sık hata: “gereğinden fazlasını vermek”"
+          },
+          {
+            "type": "p",
+            "text": "Denetimde en büyük teknik risklerden biri, “istenenden daha geniş” veri seti çıkarmaktır. Bu yüzden export, filtrelenebilir olmalı; maskeleme uygulanmalı; paylaşım kanalı kontrollü olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Export paket tipleri tanımlı mı (kişi/kategori/sistem)?",
+              "Filtre ve kapsam kuralları yazılı mı?",
+              "Maskeleme uygulanıyor mu (örn. gereksiz alanlar)?",
+              "Export işlemleri audit log’a giriyor mu?",
+              "Export dosyası güvenli paylaşım kanalında mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Export menüsünü standardize edin: 3 paket tipi.",
+              "“Minimum veri” prensibini export’a uygula (gereksiz kolonları çıkar).",
+              "Export’u audit’e alın (kim, ne zaman, hangi kapsam).",
+              "Şifreli paylaşım ve erişim süreli link kullanın (politika).",
+              "Sunucu güvenliğiyle bağlayın: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "log-bundle-yaklasimi",
+        "title": "Log ve Erişim Kayıtlarının Hazırlanması: “Log Bundle” Yaklaşımı ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Log ve erişim kayıtları denetim için nasıl hazırlanmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: sınırlı kapsamlı, maskelenmiş ve bütünlüğü korunmuş bir log paketi (log bundle) hazırlanır. Amaç; denetimde “her şeyi açmak” değil, belirli soruları cevaplayacak kanıt setini sunmaktır: kim erişti, kim export etti, hangi değişiklikler oldu."
+          },
+          {
+            "type": "h3",
+            "text": "Log bundle içeriği (pratik set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erişim logları (login, kritik ekran erişimi)",
+              "Export/download event’leri",
+              "Yetki değişiklikleri (RBAC)",
+              "İlgili zaman aralığı (denetim/prova ile belirlenen)",
+              "Maskelenmiş alanlar (PII minimizasyonu)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Log güvenliği: logun kendisi de korunmalı"
+          },
+          {
+            "type": "p",
+            "text": "Loglar denetimde kanıttır; ama aynı zamanda hassas olabilir. Bu nedenle log bundle hazırlanırken erişim kısıtı, maskeleme ve “gerektiği kadar” prensibi uygulanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Log bundle kapsamı (zaman/sistem) tanımlı mı?",
+              "Maskeleme kuralları uygulanıyor mu?",
+              "Export ve yetki değişimi loglanıyor mu?",
+              "Log bundle bütünlüğü korunuyor mu? (hash/versiyon notu)",
+              "Log erişimi sınırlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Log bundle” için standart şablon belirleyin.",
+              "Sadece gerekli zaman aralığını alın (geniş tutmayın).",
+              "Masking uygulayın ve erişimi kısıtlayın.",
+              "Export/yetki değişimi loglarını zorunlu kapsama alın.",
+              "KVKK veri güvenliği raporlama ile hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-denetim-provasi",
+        "title": "Otel ve B2B İçin Denetim Senaryoları: “Denetim Provası” Akışı ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Denetim provası, gerçek denetim gelmeden “çıktı üretim hızınızı” test eder. Kurumlar bu provayı yaptığında, gerçek denetimde rapor çıkarma daha kısa sürer ve hata payı azalır. Prova aynı zamanda otomasyon fırsatlarını da ortaya çıkarır: tekrar eden export’lar script’lenebilir, log bundle hazırlığı standardize edilebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel denetim provası (örnek senaryo)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir X için kişi bazlı export (PMS + web form)",
+              "Son 30 gün export event logları",
+              "Rezervasyon ekranı erişim logları",
+              "Maskelenmiş log bundle paketi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B denetim provası (örnek senaryo)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Müşteri Y için kişi/kategori bazlı export (CRM + doküman kayıtları)",
+              "Lead kaynağı ve consent kayıtları",
+              "Teklif/sözleşme ekranı erişim ve export logları",
+              "Log bundle paketi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO: “KVKK teknik audit modeli” (tek model)"
+          },
+          {
+            "type": "p",
+            "text": "Web/PMS/CRM/call center export’ları, log bundle ve checklist; tek bir KVKK teknik audit modeli içinde çalışır: veri haritası → sistem raporları → export paketleri → log bundle → prova. Modeli kurduğunuzda, denetim “stres” değil “süreç” olur."
+          },
+          {
+            "type": "p",
+            "text": "Key Data Point (yumuşatılmış): Veri export/log hazırlığı sadece denetim için değil, iç denetim ve güvenlik amaçlı da fayda sağlar; süreçler otomatize edilirse kurum kültürüne yerleşir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "KVKK Denetimi Öncesi Teknik Hazırlık Analizi Talep Et",
+            "text": "Denetim rapor setinizi ve prova akışınızı kurup, export/log bundle’ı standardize edelim. (Kim için: otel & B2B)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Denetim provası senaryoları yazıldı",
+              "Prova süresi ölçülüyor ve raporlanıyor",
+              "Export paketleri standart (3 tip)",
+              "Log bundle şablonu var ve maskeleme uygulanıyor",
+              "Çıktı seti güvenli paylaşım prosedürüne bağlı",
+              "Otomasyon fırsatları backlog’a alındı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ayda/çeyrekte 1 “denetim provası” rutini koyun.",
+              "Prova sonuçlarından otomasyon backlog’u çıkarın (export script, log bundle).",
+              "Rapor setini versiyonlayın (v1.0 → v1.1).",
+              "İç linklerle ekipleri hizalayın:",
+              "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+              "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Bu içerik, hangi raporların teknik olarak hazırlanabileceğini gösterir; hangi formatın ve kapsamın hukuken yeterli olduğuna dair yorumlar hukuk danışmanıyla netleştirilmelidir."
+          }
+        ]
+      },
+      {
+        "id": "kvkk-denetimi-teknik-export-log-checklist",
+        "title": "KVKK Denetimi Teknik Export & Log Checklist Şablonunu İndir — Yazılım / Audit Prep",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "A) Checklist / Sprint Plan"
+          },
+          {
+            "type": "h3",
+            "text": "[ ] Ölçüm & Önceliklendirme Checklist’i"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "KVKK Denetimi Teknik Export & Log Checklist Şablonunu İndir — Yazılım / Audit Prep (v1.0)",
+            "purpose": "Bu asset, KVKK denetimi öncesi teknik rapor setini standartlaştırır: sistem bazlı raporlar, kişi/kategori bazlı export paketleri ve maskeleme’li log bundle yaklaşımı. Denetim provası ile rapor çıkarma süresini ölçüp iyileştirme backlog’u üretmenizi sağlar. Otel ve B2B kurumlarda panik yerine tekrarlanabilir bir süreç kurar.",
+            "whoFor": "IT/BT + veri/raporlama + KVKK/uyum ekibi + ajans (otel ve B2B).",
+            "steps": [
+              "Sistemleri listele (web/PMS/CRM/call center) ve owner ata.",
+              "Export paket tiplerini seç (kişi/kategori/sistem) ve maskeleme kurallarını yaz.",
+              "Log bundle’ı hazırla ve denetim provasında süre/kaliteyi ölç."
+            ],
+            "checklist": [
+              "Veri haritası güncel (sistemler ve veri türleri)",
+              "Sistem bazlı rapor şablonu hazır (her sistem için 1 sayfa)",
+              "Export paketleri standardize (kişi/kategori/sistem)",
+              "Export kapsam/filtre kuralları yazılı",
+              "Maskeleme uygulanacak alanlar listeli",
+              "Export işlemleri audit log’a giriyor (kim/ne zaman/ne)",
+              "Log bundle kapsamı (zaman aralığı + sistem) net",
+              "Log bundle maskeleme ve erişim kuralı var",
+              "Log bundle bütünlüğü notu var (hash/versiyon)",
+              "Güvenli paylaşım prosedürü var (şifreli dosya/erişim süreli)",
+              "Denetim provası senaryoları yazıldı",
+              "Prova süresi ölçülüyor ve raporlanıyor",
+              "Otomasyon fırsatları backlog’a alındı (export script/log bundle)"
+            ],
+            "href": "/downloads/kvkk-denetimi-teknik-export-log-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Denetim rapor seti şeması",
+              "Sistem raporları (web/PMS/CRM/call center)",
+              "Export paket şablonları + filtre seti",
+              "Log bundle şablonu + masking kuralı",
+              "Denetim provası raporu + iyileştirme backlog’u"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "KVKK Denetimi Teknik Export & Log Checklist Şablonunu İndir",
+            "text": "Hangi sistemden hangi export ve log seti hazırlanacağını standardize eder; prova akışını hızlandırır.",
+            "href": "/downloads/kvkk-denetimi-teknik-export-log-checklist-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK denetimine teknik olarak nasıl hazırlanılır?",
+        "a": "Veri haritasına dayanarak sistem bazlı rapor seti oluşturulur, kişi/kategori bazlı export paketleri standardize edilir, maskeleme’li log bundle hazırlanır ve denetim provasıyla süre/hata payı ölçülür."
+      },
+      {
+        "q": "Hangi sistemlerden hangi veri raporları istenebilir?",
+        "a": "Web (form/consent), PMS (rezervasyon/misafir), CRM (lead/müşteri), call center (görüşme kayıt meta verisi), e-posta abonelik/izin kayıtları ve BI raporları gibi kaynaklar gündeme gelebilir."
+      },
+      {
+        "q": "Log ve erişim kayıtları denetim için nasıl hazırlanmalı?",
+        "a": "Kapsamı sınırlı, maskeleme uygulanmış ve bütünlüğü korunmuş bir log bundle hazırlanır. Login, erişim, export ve yetki değişikliği kayıtları önceliklendirilir."
+      },
+      {
+        "q": "Otel ve B2B için örnek KVKK denetim rapor seti nasıl görünür?",
+        "a": "Sistem raporları + kişi/kategori export paketleri + log bundle + prova raporu şeklinde tek bir klasör yapısı altında versiyonlanmış bir set olarak tasarlanır."
+      },
+      {
+        "q": "Export’larda en sık yapılan teknik hata nedir?",
+        "a": "İstenenden geniş kapsamda veri çıkarmak ve maskeleme/filtre uygulamamaktır. Minimum veri prensibi export’a da uygulanmalıdır."
+      },
+      {
+        "q": "Denetim provası neden gerekli?",
+        "a": "Çünkü gerçek denetimde süre baskısı olur. Prova, rapor çıkarma hızını ve eksikleri önceden görmenizi sağlar; hata payını azaltır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-hero-01.webp — KVKK denetimi teknik hazırlık rapor seti, otel ve B2B",
+          "h1-context — 1920×1080 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-h1-context-02.webp — Denetimde istenebilecek export ve log çıktıları, otel bağlamı",
+          "divider-01 — 1600×1200 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-divider-03.webp — Sistem bazlı raporlar bölümü ayırıcı, KVKK teknik hazırlık",
+          "divider-02 — 1600×1200 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-divider-04.webp — Denetim provası akışı bölümü ayırıcı, düşük panik denetim",
+          "diagram-05 — 1920×1080 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-diagram-05.webp — KVKK denetimi teknik rapor seti şeması, otel ve B2B",
+          "checklist-06 — 1200×1200 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-checklist-06.webp — Export ve log bundle checklist kartı, denetim hazırlığı",
+          "kpi-07 — 1200×1200 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-kpi-07.webp — Rapor çıkarma süresi ve doğruluk KPI paneli, KVKK denetimi",
+          "proof-08 — 1200×1200 — kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi-proof-08.webp — Denetim provası ve rapor seti deliverables kartı, otel ve B2B",
+          "table-system-export-log-bundle — Sistem bazlı export & log bundle checklist tablosu (Sistem | Export tipi | Log seti | Maskeleme | Owner | Prova sonucu)"
+        ],
+        "technicalChecklist": [
+          "Veri haritası güncel (sistemler ve veri türleri)",
+          "Sistem bazlı rapor şablonu hazır (her sistem için 1 sayfa)",
+          "Export paketleri standardize (kişi/kategori/sistem)",
+          "Export kapsam/filtre kuralları yazılı",
+          "Maskeleme uygulanacak alanlar listeli",
+          "Export işlemleri audit log’a giriyor (kim/ne zaman/ne)",
+          "Log bundle kapsamı (zaman aralığı + sistem) net",
+          "Log bundle maskeleme ve erişim kuralı var",
+          "Log bundle bütünlüğü notu var (hash/versiyon)",
+          "Güvenli paylaşım prosedürü var (şifreli dosya/erişim süreli)",
+          "Denetim provası senaryoları yazıldı",
+          "Prova süresi ölçülüyor ve raporlanıyor",
+          "Otomasyon fırsatları backlog’a alındı (export script/log bundle)",
+          "Hukuki yeterlilik/kapsam yorumları hukuk danışmanıyla netleştirildi",
+          "365 gün refresh planı tanımlı"
+        ]
+      }
+    }
+  },
+
+  "BlogMisafirWifiVeKamusalAlanlardaKvkkUyumuOtelIcinTeknikRehber": {
+    "title": "Otel Misafir Wi-Fi KVKK Uyumu Teknik Rehber",
+    "slug": "misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber",
+    "department": "yazilim",
+    "subDepartment":"kvkk",
+    "updatedAt": "21 Temmuz 2026",
+    "publishedAt": "2026-07-21",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Misafir Wi-Fi için captive portal’da aydınlatma gösterin, logları amaca uygun ve sınırlı tutun. Misafir–çalışan ağlarını ayırın, yönetici erişimlerini sıkı yönetin.",
+    "seo": {
+      "metaTitle": "Otel Misafir Wi-Fi KVKK Uyumu Teknik Rehber | DGTLFACE",
+      "metaDescription": "Misafir Wi-Fi için captive portal’da aydınlatma gösterin, logları amaca uygun ve sınırlı tutun. Misafir–çalışan ağlarını ayırın, yönetici erişimlerini sıkı yönetin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog / URL: Blog #10 — https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/yazilim/blog/misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber"
+      ],
+      "strategySummary": "Bu blog, TR’de birçok otelde “çalışıyor” ama KVKK perspektifiyle tasarlanmamış olan misafir Wi-Fi süreçlerini; captive portal + sınırlı loglama + ağ ayrımı + admin erişimi ekseninde standardize eden Core rehberdir. Hedef persona; otel sahibi/GM, IT/BT yöneticisi ve ajans/yazılım yöneticisidir; hem misafir memnuniyetini hem de denetim/olay anındaki teknik savunmayı güçlendirmek ister. Funnel’da MoFu ve uygulama odaklıdır: hızlı kontrol listesiyle sahada uygulanır. Ana iş sorusu: misafir Wi-Fi’yi KVKK’ya uygun şekilde nasıl kurgular, hangi veriyi hangi amaçla ve ne kadar tutar, erişimleri nasıl yönetiriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-21",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Misafir Wi-Fi ağları oteller için hem hizmet hem de KVKK açısından hassas bir alandır. KVKK uyumlu yaklaşım; captive portal’da aydınlatma metni göstermek, loglamayı amaçla uyumlu ve sınırlı tutmak (zaman, IP/MAC gibi temel kayıtlar; gereksiz detay yok), misafir ve çalışan ağlarını segmentlerle ayırmak ve yönetici panel erişimini RBAC/MFA ile sıkı kontrol etmektir. Bu kurgu, misafir güvenini artırır ve denetim/olay anında teknik savunmayı güçlendirir.",
+      "sgeSummary": "Captive portal’da aydınlatma göster; misafir/çalışan ağlarını ayır; IP/MAC gibi temel logları sınırlı tut; admin erişimini RBAC+MFA ile sıkılaştır ve retention politikasını işlet.",
+      "voiceAnswer": "Captive portal aydınlatması, sınırlı loglama, ağ ayrımı ve sıkı admin erişimiyle misafir Wi-Fi’yi KVKK’ya uygun yönetirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM, IT/BT yöneticisi, operasyon, güvenlik ve yazılım ekibi",
+        "KPI: Portal dönüşümü (login success), log bütünlüğü, erişim yetkisi kapsamı, incident analiz süresi, şikâyet oranı",
+        "Entity: captive portal, guest Wi-Fi, IP/MAC logs, kimlik doğrulama, network segmentation, admin panel access",
+        "Geo: Türkiye (KVKK kapsamı, otel odaklı)",
+        "Funnel: Operational readiness → Risk reduction → Audit preparedness",
+        "Çıktı: Portal mockup + log/yetki matrisi tablosu + Wi-Fi KVKK checklist",
+        "Not: Saklama süresi ve kapsamın hukuki yeterliliği hukuk danışmanıyla netleşmeli; teknik olarak gereğinden fazla veri loglanmamalıdır."
+      ]
+    },
+    "h1": {
+      "title": "Misafir Wi-Fi ve Kamusal Alanlarda KVKK Uyumu: Otel İçin Teknik Rehber",
+      "intro": "Misafir Wi-Fi, oteller için “olmazsa olmaz” bir hizmet; ama aynı zamanda KVKK açısından en kolay gözden kaçan veri toplama alanlarından biridir. Çünkü ağ düzeyinde görünmeyen tanımlayıcılar (IP, MAC), captive portal’daki giriş akışları, kimlik doğrulama yöntemleri (oda numarası, SMS) ve yönetim paneli erişimleri bir araya geldiğinde, misafirle ilgili önemli izler oluşabilir. Bu izleri kontrolsüz toplamak da, hiç dokümante etmemek de risk üretir.\n\nDoğru yaklaşım; misafire net aydınlatma sunmak, loglamayı amaçla uyumlu ve sınırlı yapmak, misafir ve çalışan ağlarını kesin şekilde ayırmak ve admin panel erişimini sıkı kontrol etmektir. Bu rehber hukuki yorum yapmaz; teknik kontrollerle sahada uygulanabilir bir model sunar.",
+      "quickSummary": [
+        "1) Misafir Wi-Fi akışını dokümante edin (portal → doğrulama → erişim).",
+        "2) Log setinizi yazılı hale getirin (ne var, ne yok).",
+        "3) Misafir/çalışan ağlarını VLAN/SSID ile ayırın.",
+        "4) Admin panel erişimini kısıtlayın (MFA + IP kısıtı).",
+        "5) Sunucu güvenliğiyle birlikte ele alın."
+      ],
+      "ctaPrimary": {
+        "label": "Misafir Wi-Fi & Ağ KVKK Teknik Analizi Talep Et",
+        "text": "Captive portal, loglama ve ağ ayrımı kurgunuzu birlikte inceleyip, uygulanabilir aksiyon planı çıkaralım. (Kim için: otel BT ekipleri)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Misafir Wi-Fi & Ağ KVKK Teknik Analizi Talep Et",
+        "text": "Captive portal, loglama ve misafir/çalışan ağ ayrımı kurgusunu netleştirir; denetim ve olay anında teknik savunmayı güçlendirir.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "Misafir Wi-Fi Captive Portal & Loglama KVKK Checklist Şablonunu İndir",
+        "text": "Portal ekranı, log seti, retention ve yetki matrisini standardize eder; otel BT ekiplerinin sahada hızlı uygulamasını sağlar.",
+        "href": "/downloads/misafir-wifi-captive-portal-loglama-kvkk-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Sunucu güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "KVKK veri güvenliği yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "title": "KVKK Veri Güvenliği Yönetimi",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "misafir-wifi-kvkk-yonetimi",
+        "title": "Misafir Wi-Fi Nedir? KVKK Açısından Nasıl Yönetilmeli? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "h1-context-02"
+          },
+          {
+            "type": "h3",
+            "text": "Misafir Wi-Fi KVKK açısından nasıl yönetilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: misafire captive portal üzerinden aydınlatma gösterin, kimlik doğrulamayı amaçla sınırlayın, loglamayı minimum veri prensibiyle yapın, misafir/çalışan ağlarını segmentleyin ve admin erişimlerini RBAC+MFA ile yönetin. KVKK açısından kritik nokta, ağ hizmetinin “izlenebilir” ama “gereksiz veri toplayan” hale gelmemesidir."
+          },
+          {
+            "type": "h3",
+            "text": "Misafir Wi-Fi veri temas noktaları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Captive portal giriş ekranı (aydınlatma + onay)",
+              "Kimlik doğrulama yöntemi (oda no/SMS)",
+              "Ağ tanımlayıcıları (IP/MAC)",
+              "Trafik/erişim logları (kapsam sınırı kritik)",
+              "Admin paneli (kim erişti, ne değiştirdi)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kamusal alan senaryosu: lobi, restoran, havuz"
+          },
+          {
+            "type": "p",
+            "text": "Kamusal alanlarda kullanıcı yoğunluğu ve cihaz çeşitliliği artar; bu yüzden segmentasyon, rate limit ve log erişim kontrolü daha da önem kazanır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Captive portal var ve aydınlatma gösteriyor mu?",
+              "Kimlik doğrulama “minimum veri” ile mi?",
+              "Loglar minimum set mi (zaman + IP/MAC + olay)?",
+              "Misafir ve çalışan ağları ayrı mı?",
+              "Admin panel erişimi kısıtlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Misafir Wi-Fi akışını dokümante edin (portal → doğrulama → erişim).",
+              "Log setinizi yazılı hale getirin (ne var, ne yok).",
+              "Misafir/çalışan ağlarını VLAN/SSID ile ayırın.",
+              "Admin panel erişimini kısıtlayın (MFA + IP kısıtı).",
+              "Sunucu güvenliğiyle birlikte ele alın: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "captive-portal-aydinlatma-metni",
+        "title": "Captive Portal ve Aydınlatma Metni: Ekranda Neler Olmalı? ",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Captive portal’da neler gösterilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: hizmetin amacı, hangi verilerin toplandığı (genel seviye), loglama yaklaşımı (sınırlı), saklama politikasına referans ve iletişim/başvuru kanalı gibi temel bilgilendirme öğeleri. Kullanıcı, Wi-Fi’ye bağlanmadan önce “neye dahil olduğunu” anlamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Captive portal UX bileşenleri (pratik set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlık: “Misafir Wi-Fi Ağı”",
+              "Kısa aydınlatma özeti (2–3 cümle)",
+              "Detay metne link (aydınlatma)",
+              "Giriş yöntemi seçimi (oda no / SMS)",
+              "Destek kanalı (resepsiyon / IT)",
+              "“Bağlan” aksiyonu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel için giriş yöntemi seçimi: oda no vs SMS"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda numarası: operasyonel kolay, ama doğrulama hataları yönetilmeli",
+              "SMS: doğrulama güçlü olabilir, ancak gereksiz veri toplamamaya dikkat edilmeli (minimum alan)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aydınlatma özeti okunabilir mi (mobilde de)?",
+              "Detay metne link var mı?",
+              "Giriş yöntemi minimum veri ile mi?",
+              "Portal ekranı dil/ülke uyumlu mu? (turizm bağlamı)",
+              "Portal değişiklikleri kayıt altına alınıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Portal metnini 2–3 cümle “kısa özet” formatına indirin.",
+              "Detay aydınlatma linkini görünür konumlandırın.",
+              "Giriş yöntemini basitleştirin ve veri minimizasyonu uygulayın.",
+              "Portal değişikliklerini versiyonlayın (ne değişti?).",
+              "Otel dijital operasyon bağlamıyla ilişkilendirin: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "ip-mac-trafik-loglari",
+        "title": "IP/MAC ve Trafik Logları: Ne Tutmalı, Ne Tutmamalı? ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hangi Wi-Fi loglarını tutmak gerekir, hangilerini tutmamak daha doğrudur?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: hizmeti işletmek ve güvenliği sağlamak için gerekli minimum log setini tutmak; gereksiz trafik detaylarını (özellikle içerik seviyesinde) toplamaktan kaçınmaktır. Teknik olarak “amaçla uyumlu ve sınırlı” loglama esastır."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum log seti (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Zaman damgası (login/logout)",
+              "Cihaza atanan IP",
+              "MAC adresi (politikaya göre maskeleme değerlendirmesi)",
+              "SSID/VLAN (misafir mi çalışan mı)",
+              "Kimlik doğrulama sonucu (başarılı/başarısız)",
+              "Admin aksiyon logları (konfig değişikliği)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Log türleri, saklama ve yetki matrisi tablosu"
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Log türleri, saklama ve yetki matrisi",
+            "headers": [
+              "Log türü",
+              "Veri",
+              "Amaç",
+              "Retention",
+              "Erişim rolü",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Oturum logu",
+                "Login/logout zamanı",
+                "Hizmeti işletmek ve olay analizi",
+                "Politikaya göre",
+                "Yetkili IT/BT",
+                "Minimum veri"
+              ],
+              [
+                "Ağ atama logu",
+                "IP ve MAC",
+                "Cihaz/oturum eşlemesi",
+                "Politikaya göre",
+                "Yetkili IT/BT",
+                "MAC için maskeleme değerlendirmesi"
+              ],
+              [
+                "Ağ segmenti logu",
+                "SSID/VLAN",
+                "Misafir–çalışan ağı ayrımını doğrulamak",
+                "Politikaya göre",
+                "Network yöneticisi",
+                "Misafir mi çalışan mı"
+              ],
+              [
+                "Kimlik doğrulama logu",
+                "Başarılı/başarısız sonucu",
+                "Güvenlik ve brute force analizi",
+                "Politikaya göre",
+                "Yetkili IT/BT",
+                "Gereksiz kimlik detayı yok"
+              ],
+              [
+                "Admin aksiyon logu",
+                "Konfigürasyon değişikliği",
+                "Audit ve yetki kontrolü",
+                "Politikaya göre",
+                "Sınırlı yönetici rolü",
+                "RBAC + MFA"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Trafik logları ve port/site bazlı detay"
+          },
+          {
+            "type": "p",
+            "text": "Port/URL bazlı ayrıntılı trafik logları, gereksiz veri biriktirme ve risk büyütme potansiyeline sahiptir. Bu rehber, “toplamayın” demek yerine şunu vurgular: böyle bir log gerekiyorsa, kapsam ve süre çok net tanımlanmalı; erişim çok sıkı olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Log seti minimum ve amaç odaklı mı?",
+              "Trafik detay logları gereksiz yere açık mı?",
+              "Log erişimi kimlerde, RBAC var mı?",
+              "Log retention/rotate politikası var mı?",
+              "Loglar bütünlük ve güvenlik açısından korunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Log setinizi “minimum” olarak standardize edin.",
+              "Trafik detay loglarını kapatın veya çok sınırlı hale getirin.",
+              "Log erişimini role göre kısıtlayın (need-to-know).",
+              "Retention/rotate planını uygulayın (365 gün gözden geçirme).",
+              "Sunucu ve log güvenliğiyle birlikte ele alın: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kimlik-dogrulama-teknik-dikkat",
+        "title": "Kimlik Doğrulama: Oda Numarası, SMS, Kimlik vb. (Teknik Dikkat)",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Kimlik doğrulama, Wi-Fi hizmetinin güvenliğini artırır; ancak veri toplama iştahını da büyütebilir. Buradaki denge: doğrulamayı iş ihtiyacı kadar yapmak ve doğrulama verisini sınırlı süre ve erişim ile saklamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Oda numarası ile login (otel için pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcı deneyimi hızlıdır",
+              "Hatalı oda girişi ve brute force denemeleri için rate limit gerekir",
+              "Oda numarasıyla kullanıcı kimliğini “aşırı ilişkilendirmemek” önemlidir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SMS ile login"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doğrulama güçlü olabilir",
+              "Telefon numarası ek bir kişisel veri alanıdır: minimum veri + güvenli saklama gerekir",
+              "SMS vendor’ı envantere dahil edilmelidir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Yönetici paneli: en kritik risk yüzeyi"
+          },
+          {
+            "type": "p",
+            "text": "Wi-Fi yönetim paneli; ağ konfigürasyonlarını, kullanıcı oturumlarını ve loglara erişimi barındırabilir. Bu yüzden panel erişimi RBAC + MFA + IP kısıtı ile korunmalı; panel aksiyonları audit’e alınmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kimlik doğrulama yöntemi minimum veri ile mi?",
+              "SMS vendor ve süreçleri dokümante mi?",
+              "Rate limit ve brute force koruması var mı?",
+              "Yönetici panelinde MFA aktif mi?",
+              "Panel aksiyonları loglanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Doğrulamayı “en az veri” ile tasarlayın.",
+              "SMS kullanıyorsanız vendor envanteri + erişim kısıtını ekleyin.",
+              "Brute force için rate limit kurun.",
+              "Admin panelinde MFA ve IP allowlist uygulayın.",
+              "KVKK veri güvenliği yönetimiyle bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "calisan-misafir-agi-segmentasyon",
+        "title": "Çalışan Ağı vs Misafir Ağı Ayrımı: Segmentasyon ve Yetkiler ",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Çalışan ve misafir ağları nasıl ayrılmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: ayrı SSID/VLAN, ayrı firewall kuralları ve ayrı yönetim politikaları ile ayrılmalıdır. Misafir ağı, iç sistemlere (PMS/ERP/office) erişememeli; çalışan ağı da misafir trafiğiyle karışmamalıdır. Bu ayrım, hem güvenlik hem KVKK riskini azaltan temel tekniktir."
+          },
+          {
+            "type": "h3",
+            "text": "Segmentasyonun pratik çıktıları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir ağı: internet erişimi + sınırlı servisler",
+              "Çalışan ağı: iç sistem erişimi + daha sıkı kullanıcı yönetimi",
+              "Yönetim ağı: admin panel erişimi (en kısıtlı)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO: “misafir Wi-Fi KVKK modeli” paragrafı"
+          },
+          {
+            "type": "p",
+            "text": "Wi-Fi ağı, captive portal, IP/MAC logları, kimlik doğrulama ve admin erişimi; tek bir misafir Wi-Fi KVKK modeli içinde yönetilmelidir: portal aydınlatma → doğrulama → minimum log → segmentasyon → erişim yetkisi → retention. Bu model kurulduğunda, yeni bir access point veya yeni bir portal değişikliği “sürpriz risk” yaratmaz; kontrol noktaları hazırdır."
+          },
+          {
+            "type": "p",
+            "text": "Key Data Point (yumuşatılmış): Misafir Wi-Fi süreçleri KVKK’ya göre yapılandırıldığında, hem misafir güveni artar hem de olası denetim/olay durumlarında teknik savunma daha güçlü olur."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Misafir Wi-Fi & Ağ KVKK Teknik Analizi Talep Et",
+            "text": "Misafir/çalışan ağ ayrımı ve loglama politikanızı sahaya uygun şekilde netleştirelim. (Kim için: otel BT ekipleri)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir ve çalışan ağı ayrı SSID/VLAN’da",
+              "Misafir ağı iç sistemlere erişemiyor",
+              "Yönetim ağı ayrı ve IP allowlist’li",
+              "Admin panel erişimi RBAC+MFA",
+              "Log retention ve erişim politikası yazılı",
+              "Portal metni ve süreçleri periyodik gözden geçiriliyor (365 gün)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ağ segmentasyonunu (misafir/çalışan/yönetim) netleştirin.",
+              "Misafir ağından iç sistemlere erişimi kapatın.",
+              "Yönetim panelini ayrı yönetim ağında tutun.",
+              "Loglama politikasını minimum veri prensibiyle yazın.",
+              "İç linklerle süreçleri bağlayın:",
+              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+              "https://dgtlface.com/tr/otel-dijital-pazarlama",
+              "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Loglama ve saklama tarafında hangi veri türünün ne kadar süre tutulacağı, hukuk danışmanının önerileri doğrultusunda belirlenmeli; teknik olarak gereğinden fazla veri loglanmamalıdır. Bu yazı hukuki tavsiye değil, teknik rehberdir."
+          }
+        ]
+      },
+      {
+        "id": "misafir-wifi-captive-portal-loglama-kvkk-checklist",
+        "title": "Misafir Wi-Fi Captive Portal & Loglama KVKK Checklist Şablonunu İndir — Yazılım / Guest Wi-Fi",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "A) Checklist / Sprint Plan"
+          },
+          {
+            "type": "h3",
+            "text": "[ ] Ölçüm & Önceliklendirme Checklist’i"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Misafir Wi-Fi Captive Portal & Loglama KVKK Checklist Şablonunu İndir — Yazılım / Guest Wi-Fi (v1.0)",
+            "purpose": "Bu asset, otel misafir Wi-Fi süreçlerini KVKK perspektifiyle standardize eder: captive portal aydınlatması, kimlik doğrulama yöntemi, minimum log seti, misafir/çalışan ağ ayrımı ve admin panel erişim güvenliği. Logların kapsamını ve erişim yetkilerini netleştirerek denetim ve incident anında savunmayı güçlendirir. Sahada uygulanabilir, düşük-panik bir kontrol listesi sunar.",
+            "whoFor": "Otel BT/Network ekibi + operasyon + güvenlik sorumluları.",
+            "steps": [
+              "Captive portal ekranını ve giriş yöntemini checklist’e göre gözden geçir.",
+              "Log setini minimum veri prensibiyle seç; retention ve erişim rollerini tanımla.",
+              "Ağ segmentasyonunu (misafir/çalışan/yönetim) uygula; admin panelini sıkılaştır ve provayı yap."
+            ],
+            "checklist": [
+              "Captive portal aktif ve aydınlatma gösteriyor",
+              "Aydınlatma özeti kısa ve okunabilir (mobil uyumlu)",
+              "Detay metin linki görünür",
+              "Login yöntemi minimum veri ile (oda no/SMS)",
+              "Brute force için rate limit var",
+              "Minimum log seti tanımlı (login/logout zamanı, IP, MAC, SSID)",
+              "Trafik detay logları kapalı veya çok sınırlı",
+              "Log maskeleme/PII minimizasyonu uygulanıyor",
+              "Log retention/rotate politikası var",
+              "Log erişimi RBAC ile kısıtlı",
+              "Misafir ve çalışan ağı ayrı SSID/VLAN",
+              "Misafir ağından iç sistemlere erişim kapalı",
+              "Yönetim ağı ayrı ve IP allowlist’li",
+              "Admin panel MFA aktif + audit log açık",
+              "Portal/politika değişiklikleri versiyonlanıyor"
+            ],
+            "href": "/downloads/misafir-wifi-captive-portal-loglama-kvkk-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Captive portal mockup + metin versiyonu",
+              "Minimum log seti dokümanı + yetki matrisi",
+              "Ağ segmentasyon şeması (misafir/çalışan/yönetim)",
+              "Admin panel erişim politikası",
+              "Prova raporu + refresh planı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Misafir Wi-Fi Captive Portal & Loglama KVKK Checklist Şablonunu İndir",
+            "text": "Portal ekranı, log seti, retention ve yetki matrisini standardize eder; otel BT ekiplerinin sahada hızlı uygulamasını sağlar.",
+            "href": "/downloads/misafir-wifi-captive-portal-loglama-kvkk-checklist-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Misafir Wi-Fi KVKK açısından nasıl yönetilmeli?",
+        "a": "Captive portal’da aydınlatma gösterilmeli, loglama minimum veri prensibiyle yapılmalı, misafir/çalışan ağları ayrılmalı ve admin erişimleri sıkı kontrol edilmelidir."
+      },
+      {
+        "q": "Captive portal’da neler gösterilmeli?",
+        "a": "Hizmet amacı, hangi verilerin genel olarak toplandığı, loglama yaklaşımı (sınırlı), detay metin linki ve destek/iletişim kanalı gibi temel bilgilendirme öğeleri yer almalıdır."
+      },
+      {
+        "q": "Hangi Wi-Fi loglarını tutmak gerekir, hangilerini tutmamak daha doğrudur?",
+        "a": "Zaman damgası, IP/MAC, SSID/VLAN ve giriş olayları gibi minimum işletim/güvenlik logları tutulur; gereksiz trafik detay logları mümkünse kapatılır veya çok sınırlanır."
+      },
+      {
+        "q": "Çalışan ve misafir ağları nasıl ayrılmalı?",
+        "a": "Ayrı SSID/VLAN ve firewall kurallarıyla ayrılmalı; misafir ağı iç sistemlere erişmemeli, yönetim paneli ayrı yönetim ağında ve IP allowlist ile korunmalıdır."
+      },
+      {
+        "q": "SMS ile Wi-Fi doğrulamada dikkat edilmesi gereken teknik konu nedir?",
+        "a": "Telefon numarası ek bir kişisel veri alanıdır; minimum veriyle toplanmalı, erişim/retention politikası net olmalı ve vendor süreçleri dokümante edilmelidir."
+      },
+      {
+        "q": "Admin paneli neden kritik risk yüzeyidir?",
+        "a": "Çünkü loglara ve ağ ayarlarına erişim sağlar. RBAC+MFA+IP kısıtı ve audit log ile korunmadığında yetkisiz erişim riski artar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-hero-01.webp — Otel misafir Wi-Fi KVKK uyumu, captive portal ve ağ güvenliği",
+          "h1-context — 1920×1080 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-h1-context-02.webp — Misafir Wi-Fi portal akışı ve ağ ayrımı, otel ortak alan senaryosu",
+          "divider-01 — 1600×1200 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-divider-03.webp — Captive portal ve aydınlatma bölümü ayırıcı, otel Wi-Fi uyumu",
+          "divider-02 — 1600×1200 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-divider-04.webp — Kimlik doğrulama ve admin erişimi bölümü ayırıcı, otel ağı",
+          "diagram-05 — 1920×1080 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-diagram-05.webp — Misafir Wi-Fi captive portal ve log akışı diyagramı, otel",
+          "checklist-06 — 1200×1200 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-checklist-06.webp — Misafir Wi-Fi KVKK checklist kartı, portal log ve ağ ayrımı",
+          "kpi-07 — 1200×1200 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-kpi-07.webp — Wi-Fi login başarı ve log denetlenebilirlik KPI paneli, otel",
+          "proof-08 — 1200×1200 — misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber-proof-08.webp — Captive portal mockup ve ağ politikası deliverables, otel BT ekibi",
+          "table-log-retention-access — Log türleri, saklama ve yetki matrisi tablosu (Log türü | Veri | Amaç | Retention | Erişim rolü | Not)"
+        ],
+        "technicalChecklist": [
+          "Captive portal aktif ve aydınlatma gösteriyor",
+          "Aydınlatma özeti kısa ve okunabilir (mobil uyumlu)",
+          "Detay metin linki görünür",
+          "Login yöntemi minimum veri ile (oda no/SMS)",
+          "Brute force için rate limit var",
+          "Minimum log seti tanımlı (login/logout zamanı, IP, MAC, SSID)",
+          "Trafik detay logları kapalı veya çok sınırlı",
+          "Log maskeleme/PII minimizasyonu uygulanıyor",
+          "Log retention/rotate politikası var",
+          "Log erişimi RBAC ile kısıtlı",
+          "Misafir ve çalışan ağı ayrı SSID/VLAN",
+          "Misafir ağından iç sistemlere erişim kapalı",
+          "Yönetim ağı ayrı ve IP allowlist’li",
+          "Admin panel MFA aktif + audit log açık",
+          "Portal/politika değişiklikleri versiyonlanıyor",
+          "Saklama süresi ve kapsamın hukuki yeterliliği hukuk danışmanıyla netleştirildi",
+          "365 gün refresh planı tanımlı"
+        ]
+      }
+    }
   }
 }

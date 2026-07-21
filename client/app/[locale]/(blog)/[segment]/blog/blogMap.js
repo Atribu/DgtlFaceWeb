@@ -489,7 +489,12 @@ export const BLOG_MAP = {
     "visual-editing-ve-in-context-preview-nextjs-ve-headless-cms-icin":"BlogVisualEditingVeInContextPreviewNextjsVeHeadlessCmsIcin",
     "icerik-grafi-ve-schema-driven-cms-entity-iliskileri-ile-modelleme":"BlogIcerikGrafiVeSchemaDrivenCmsEntityIliskileriIleModelleme",
     "ai-destekli-cms-operasyonlari-icerik-suggestion-qa-ve-otomatik-kontrol":"BlogAiDestekliCmsOperasyonlariIcerikSuggestionQaVeOtomatikKontrol",
-    "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina":"BlogMultiChannelYayinStratejisiCmsTenWebAppSosyalVeMailKanallarina"
+    "multi-channel-yayin-stratejisi-cms-ten-web-app-sosyal-ve-mail-kanallarina":"BlogMultiChannelYayinStratejisiCmsTenWebAppSosyalVeMailKanallarina",
+    "kvkk-uyumlu-form-tasarimi-ve-onay-mekanizmalari":"BlogKvkkUyumluFormTasarimiVeOnayMekanizmalari",
+    "ucuncu-taraf-script-ve-tagler-icin-kvkk-risk-analizi-ve-tag-manager-stratejisi":"BlogUcuncuTarafScriptVeTaglerIcinKvkkRiskAnaliziVeTagManagerStratejisi",
+    "mobil-uygulama-ve-webview-senaryolarinda-kvkk-uyumu-teknik-bakis":"BlogMobilUygulamaVeWebviewSenaryolarindaKvkkUyumuTeknikBakis",
+    "kvkk-denetimine-teknik-hazirlik-veri-raporlari-log-bundle-ve-export-stratejisi":"BlogKvkkDenetimineTeknikHazirlikVeriRaporlariLogBundleVeExportStratejisi",
+    "misafir-wifi-ve-kamusal-alanlarda-kvkk-uyumu-otel-icin-teknik-rehber":"BlogMisafirWifiVeKamusalAlanlardaKvkkUyumuOtelIcinTeknikRehber"
   },
    
   creative: {
