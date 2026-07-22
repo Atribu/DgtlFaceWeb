@@ -9317,7 +9317,7 @@
     },
     "h1": {
       "title": "Web Sunucu Güvenlik Checklist’i: Linux ve Windows İçin Temel Rehber",
-      "intro": "Web sitesi, otel ve B2B gelirinin “dijital resepsiyonu” gibidir; sunucu tarafındaki küçük açıklar bile hem kesinti (uptime kaybı) hem de veri riski olarak geri döner. Bu rehber, komut ezberi yerine konsept düzeyinde ama uygulanabilir bir baseline güvenlik modeli sunar: önce işletim sistemi ve yamalar, sonra erişim, ardından firewall/port yönetimi, en son yedekleme-izleme ile işi kapatırsınız. Böylece ajans/BT ekibi, go-live öncesi veya sezon pikinde (özellikle turizmde) güvenlik kontrolünü hızlıca standardize eder.",
+      "intro": "Web sitesi, otel ve B2B gelirinin “dijital resepsiyonu” gibidir; sunucu tarafındaki küçük açıklar bile hem kesinti (uptime kaybı) hem de veri riski olarak geri döner. Bu rehber, komut ezberi yerine konsept düzeyinde ama uygulanabilir bir baseline güvenlik modeli sunar: önce işletim sistemi ve yamalar, sonra erişim, ardından firewall/port yönetimi, en son yedekleme-izleme ile işi kapatırsınız. Böylece ajans/BT ekibi, go-live öncesi veya sezon pikinde (özellikle turizmde) güvenlik kontrolünü hızlıca standardize eder. Bu [web sunucusu güvenlik yaklaşımı](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) hardening kararlarını tek seferlik kurulumdan çıkarıp sürdürülebilir operasyon standardına dönüştürür.",
       "quickSummary": [
         "1) OS Hardening (işletim sistemi + paketler)",
         "2) Erişim katmanı (SSH/RDP + kullanıcı/rol)",
@@ -9400,6 +9400,10 @@
           },
           {
             "type": "p",
+            "text": "Bu katmanları [web ve yazılım altyapısında sunucu güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle ele almak, uygulama kodu ile altyapı operasyonunun aynı güvenlik diliyle yönetilmesini sağlar."
+          },
+          {
+            "type": "p",
             "text": "Veri noktası (yumuşatılmış): Basit hardening önlemleri (güncelleme, erişim sınırı, port azaltma) uygulanmayan sunucuların, otomatik tarama/bot saldırılarına daha sık maruz kaldığı çoğu ortamda gözlenir. Yani “baseline” yoksa saldırı gürültüsü ve risk artar."
           },
           {
@@ -9472,6 +9476,10 @@
             "text": "Patch yönetimi pratikte 3 parçadır:\n• Sıklık: Kritik güvenlik yamaları için hızlı pencere (ör. 24–72 saat hedef), diğerleri için haftalık/aylık bakım penceresi\n• Kapsam: OS + web server + runtime (PHP/Node/Java) + bağımlılıklar\n• Doğrulama: Güncelleme sonrası servis health-check ve log kontrolü\n\nLinux tarafında paket yöneticisi (apt/yum/dnf) ve repo politikaları; Windows tarafında Windows Update, WSUS/Intune gibi mekanizmalar devreye girer. Otel/B2B tarafında kritik nokta: sezon/pik trafik dönemlerinde plansız restart riskini kontrol etmektir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden bakım pencerelerini sadece update listesi olarak değil, düzenli [sunucu zafiyet taraması](https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin) ve rollback planı ile birlikte çalıştırmak gerekir."
+          },
+          {
             "type": "h3",
             "text": "OS Hardening: Baseline Ayar Mantığı"
           },
@@ -9480,12 +9488,20 @@
             "text": "“Hardening”i tek bir ayar listesi olarak değil, şu hedeflerle düşünün:\n• Minimum yetki: Servisler sadece ihtiyaç duyduğu izinlerle çalışır\n• Gereksiz bileşeni çıkar: Kullanılmayan paket/servis/role kapatılır\n• Görünürlük: Güvenlik olayları loglanır ve izlenir"
           },
           {
+            "type": "p",
+            "text": "Pratikte bu baseline’ı yazılı hale getirmek için [sunucu hardening kontrol listesi](https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi) yaklaşımı, ekipler arası standart farkını azaltır."
+          },
+          {
             "type": "h3",
             "text": "Patch Sürecini İşe Uyumlu Hale Getirmek"
           },
           {
             "type": "p",
             "text": "Otel ve ajans tarafında en çok kaçırılan nokta şudur: Güncelleme işi, sadece BT’nin değil, iş sürekliliği sorunudur. Bu yüzden:\n• Bakım penceresini yönetimle netleştirin (ör. gece düşük trafik)\n• Rollback planı belirleyin (geri dönüş yolu)\n• “Önce staging, sonra prod” disiplinini mümkün oldukça kurun"
+          },
+          {
+            "type": "p",
+            "text": "Public yayında bu katmanın tamamlanması için [güvenli HTTPS yapılandırması](https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi) da checklist’in ayrılmaz parçasıdır; sertifika yenileme, TLS policy ve HSTS kararları server baseline’dan ayrı düşünülmemelidir."
           },
           {
             "type": "callout",
@@ -9615,7 +9631,7 @@
           },
           {
             "type": "p",
-            "text": "Sunucu güvenliği, performans ve süreklilik bir aradadır. Örneğin WAF/CDN doğru kurgulanırsa bot trafiği azalır, sunucu yükü düşer; bu da uptime ve dolaylı olarak kullanıcı deneyimine katkı verir. Bu noktada teknik SEO tarafındaki süreklilik beklentisiyle birlikte düşünmek gerekir (Internal Link Targets: /tr/seo/teknik-seo)."
+            "text": "Sunucu güvenliği, performans ve süreklilik bir aradadır. Örneğin WAF/CDN doğru kurgulanırsa bot trafiği azalır, sunucu yükü düşer; bu da uptime ve dolaylı olarak kullanıcı deneyimine katkı verir. Bu noktada [sunucu performansı ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) tarafındaki süreklilik beklentisiyle birlikte düşünmek gerekir."
           },
           {
             "type": "callout",
@@ -9655,6 +9671,10 @@
             "text": "Güvenlik; sadece “saldırıyı engelleme” değildir. Olay olduğunda toparlanma hızınız (RTO/RPO) ve görünürlüğünüz (log/alert) en az firewall kadar kritiktir. Otel ve B2B sitelerinde tipik risk: “yedek var sanıyoruz ama geri dönmüyor” senaryosudur."
           },
           {
+            "type": "p",
+            "text": "Özellikle [otel web sunucusu güvenliği](https://dgtlface.com/tr/otel/pms-entegrasyonu) söz konusuysa PMS API uçları, IP allowlist, webhook erişimleri ve rezervasyon akışlarının ayrı ayrı gözden geçirilmesi gerekir."
+          },
+          {
             "type": "h3",
             "text": "Yedekleme Senaryoları ve Testler"
           },
@@ -9668,7 +9688,7 @@
           },
           {
             "type": "p",
-            "text": "İzleme iki parçadır:\n• Servis sağlığı: CPU/RAM/Disk, web server health, response time, error oranları\n• Güvenlik sinyalleri: başarısız girişler, anormal trafik, WAF block’ları, beklenmeyen servis start/stop\n\nLoglama tarafında KVKK uyumu açısından; “gereksiz kişisel veri” toplamadan, güvenlik ve olay analizi için yeterli kayıt tutulmalıdır (Internal Link Targets: /tr/raporlama/kvkk-veri-guvenligi)."
+            "text": "İzleme iki parçadır:\n• Servis sağlığı: CPU/RAM/Disk, web server health, response time, error oranları\n• Güvenlik sinyalleri: başarısız girişler, anormal trafik, WAF block’ları, beklenmeyen servis start/stop\n\nLoglama tarafında KVKK uyumu açısından; “gereksiz kişisel veri” toplamadan, güvenlik ve olay analizi için yeterli kayıt tutulmalıdır; bu kayıtların çerçevesi [erişim kayıtları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) standardıyla netleşir."
           },
           {
             "type": "h3",
@@ -9809,6 +9829,10 @@
             "text": "Bu checklist ile Linux/Windows fark etmeksizin web sunucusunu prensip bazlı bir güvenlik modeline oturtursunuz. Böylece BT ekibi “nereden başlayacağını” netleştirir, yönetim tarafı ise risk azaltma planını somut deliverable’larla görür. Ayrıca teknik SEO ve süreklilik (uptime) beklentileriyle uyumlu bir altyapı standardı oluşur."
           },
           {
+            "type": "p",
+            "text": "Daha ileri bir hardening planı için [Sunucu ve Güvenlik hizmetiyle web altyapınızı güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) veya uygulama sorularını [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasında gözden geçirin."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Web Sunucu Güvenlik Analizi Talep Et",
@@ -9941,7 +9965,7 @@
     },
     "h1": {
       "title": "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması",
-      "intro": "HTTPS çoğu ekipte “sertifika takıldı, bitti” gibi görülür; oysa HTTPS’in gerçekten tamamlanması için tarayıcı güven modelinin tüm parçaları aynı çizgide olmalıdır. Otellerde rezervasyon ve ödeme akışları, B2B’de portal/panel girişleri ve form verileri; şifreli taşıma (encrypted transport) olmadan hem güven hem itibar hem de operasyonel süreklilik açısından risk üretir. Bu rehber, komut ezberi yerine HTTPS uyum modeli ile ilerler: sertifika yönetimi + yönlendirme ve canonical + HSTS + mixed content temizliği + governance.",
+      "intro": "HTTPS çoğu ekipte “sertifika takıldı, bitti” gibi görülür; oysa HTTPS’in gerçekten tamamlanması için tarayıcı güven modelinin tüm parçaları aynı çizgide olmalıdır. Otellerde rezervasyon ve ödeme akışları, B2B’de portal/panel girişleri ve form verileri; şifreli taşıma (encrypted transport) olmadan hem güven hem itibar hem de operasyonel süreklilik açısından risk üretir. Bu rehber, komut ezberi yerine HTTPS uyum modeli ile ilerler: sertifika yönetimi + yönlendirme ve canonical + HSTS + mixed content temizliği + governance. Bu [SSL TLS nedir HTTPS nasıl yapılandırılır](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, sertifika kurulumunu tek seferlik teknik iş olmaktan çıkarıp sürdürülebilir güvenlik standardına dönüştürür.",
       "quickSummary": [
         "1) SSL/TLS temelini netleştir ve sertifika kapsamını doğru seç",
         "2) Auto-renew + alarm ile yenilemeyi otomatikleştir",
@@ -10007,12 +10031,20 @@
             "text": "SSL/TLS, kullanıcı tarayıcısı ile sunucu arasındaki trafiği şifreleyerek “taşıma güvenliği” sağlar. Pratikte bu; giriş bilgileri, form verileri, rezervasyon/ödeme adımları ve oturum çerezlerinin yolda okunmasını zorlaştırır ve manipülasyon riskini azaltır. Daha önemlisi: modern tarayıcılar ve arama motorları HTTPS’i artık “iyi olur” olarak değil, standart olarak ele alır. HTTPS olmayan sayfalar “güvenli değil” algısı yaratır; bu algı özellikle yüksek niyetli sayfalarda (rezervasyon, teklif formu, portal login) dönüşümü doğrudan etkiler."
           },
           {
+            "type": "p",
+            "text": "Bu temel katmanı [web ve yazılım altyapısında HTTPS güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle ele almak, sertifika ayarını sunucu, yönlendirme, içerik ve veri akışı kararlarıyla aynı çerçevede yönetmenizi sağlar."
+          },
+          {
             "type": "h3",
             "text": "SSL/TLS nedir, neden zorunludur?"
           },
           {
             "type": "p",
             "text": "SSL/TLS; tarayıcı ile sunucu arasındaki veriyi şifreleyerek gizlilik ve bütünlük sağlar. Zorunludur çünkü kullanıcı güveni ve tarayıcı standartları HTTPS’i temel beklentiye dönüştürmüştür; ayrıca SEO ve dönüşüm tarafında “güven sinyali” olarak çalışır."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte bu katman, daha geniş [web sunucu güvenlik checklist’i](https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber) içinde erişim, patch ve loglama kontrolleriyle birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -10091,6 +10123,10 @@
             "text": "Büyük yapılarda sorun “sertifika yok” değil, kim yönetiyor, ne zaman bitiyor, nerede yenileniyor sorusudur. Bu yüzden sertifika yönetimini bir envantere bağlayın:\n\t•\tDomain/subdomain listesi\n\t•\tSertifika türü ve sağlayıcı (CA)\n\t•\tYenileme yöntemi (manuel/auto-renew)\n\t•\tSorumlu kişi ve uyarı mekanizması"
           },
           {
+            "type": "p",
+            "text": "Bu envanterin güvenli kalması için [sertifika ve private key yönetimi](https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir) tarafında private key, parola ve API secret saklama disiplininin ayrı ele alınması gerekir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check : Sertifika seçimi ve envanter"
           },
@@ -10136,6 +10172,10 @@
           {
             "type": "p",
             "text": "Let’s Encrypt gibi otomatik yenilemeye uygun çözümler; doğru otomasyonla çok verimlidir. Kurumsal CA’lar ise bazı şirketlerde compliance/satın alma süreçleri nedeniyle tercih edilir. Buradaki hedef: hangi CA olursa olsun yenilemenin otomatik ve izlenebilir olmasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Taşıma katmanında yalnız güvenlik değil verim de önemlidir; handshake, ALPN ve protokol seçimi tarafındaki dengeyi [TLS performansı ve HTTP/3](https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak) perspektifiyle değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -10218,7 +10258,7 @@
           },
           {
             "type": "p",
-            "text": "HTTPS yapılandırması “sadece güvenlik” değil; teknik SEO ile birlikte ele alınmalıdır. Canonical’lar, internal link’ler, sitemap ve hreflang (çok dilli sitelerde) hedef host ile uyumlu olmalıdır. (Internal Link Targets: /tr/seo/teknik-seo)"
+            "text": "HTTPS yapılandırması “sadece güvenlik” değil; teknik SEO ile birlikte ele alınmalıdır. Canonical’lar, internal link’ler, sitemap ve hreflang (çok dilli sitelerde) hedef host ile uyumlu olmalıdır. Özellikle [mixed content hatası çözüm](https://dgtlface.com/tr/seo/teknik-seo) akışında redirect zinciri, canonical uyumu ve crawl sağlığı birlikte kontrol edilmelidir."
           },
           {
             "type": "h3",
@@ -10272,12 +10312,16 @@
             "text": "Her sayfa aynı risk seviyesinde değildir. HTTPS governance, kritik yüzeyi belirleyerek başlar:\n\t•\tRezervasyon/ödeme adımları\n\t•\tLogin/portal/panel\n\t•\tFormlar (teklif, başvuru, iletişim)\n\t•\tÜçüncü taraf entegrasyon noktaları"
           },
           {
+            "type": "p",
+            "text": "Otel tarafında rezervasyon motoru, webhook ve API geçişleri için [PMS entegrasyonunda HTTPS güvenliği](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrıca ele alınmalıdır; sertifika hataları burada doğrudan rezervasyon ve veri aktarımı riskine döner."
+          },
+          {
             "type": "h3",
             "text": "KVKK ve veri aktarım güvenliği ile bağ (AIO)"
           },
           {
             "type": "p",
-            "text": "HTTPS; veri aktarım güvenliğinin temel katmanıdır ama tek başına KVKK uyumu değildir. Bu yüzden HTTPS kurgusunu loglama, veri minimizasyonu ve erişim kontrolleriyle birlikte düşünmek gerekir. (Internal Link Targets: /tr/raporlama/kvkk-veri-guvenligi)\nAIO perspektifiyle “HTTPS uyum modeli”ni şöyle ilişkilendirin: SSL/TLS (şifreli taşıma) + certificate management (süreklilik) + HSTS/redirect (zorunlu HTTPS davranışı) + mixed content temizliği (tam güven) + governance (operasyonel sürdürülebilirlik)."
+            "text": "HTTPS; veri aktarım güvenliğinin temel katmanıdır ama tek başına KVKK uyumu değildir. Bu yüzden HTTPS kurgusunu loglama, veri minimizasyonu ve erişim kontrolleriyle birlikte düşünmek gerekir. Bu çerçevede [HTTPS ile veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımı, taşıma güvenliğini erişim ve kayıt politikalarıyla tamamlar.\nAIO perspektifiyle “HTTPS uyum modeli”ni şöyle ilişkilendirin: SSL/TLS (şifreli taşıma) + certificate management (süreklilik) + HSTS/redirect (zorunlu HTTPS davranışı) + mixed content temizliği (tam güven) + governance (operasyonel sürdürülebilirlik)."
           },
           {
             "type": "h3",
@@ -10315,6 +10359,10 @@
               "Her release’te mixed content taramasını tekrar et (özellikle üçüncü taraf script’lerde).",
               "Redirect/canonical uyumunu teknik SEO ile birlikte kontrol et."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu governance modelini operasyonel desteğe dönüştürmek isterseniz [HTTPS güvenlik yönetişimi için Sunucu ve Güvenlik hizmeti](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sayfasına geçebilir veya uygulama detayları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) bölümünü inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -10542,7 +10590,7 @@
     },
     "h1": {
       "title": "DDoS Koruma ve WAF Stratejisi: Otel ve Kurumsal Siteler İçin",
-      "intro": "Yoğun sezonda “site yavaşladı/çöktü” şikâyeti geldiğinde refleks genelde sunucuyu büyütmektir. Ancak birçok senaryoda asıl problem; DDoS benzeri trafik patlaması, kötü niyetli botlar veya L7 (uygulama katmanı) saldırıları olabilir. Bu rehberin amacı; DDoS türlerini ayırmanızı, hangi katmanda hangi savunmanın işe yaradığını görmenizi ve otel/B2B bağlamında sürdürülebilir bir koruma mimarisi kurmanızı sağlamaktır. Tek ürün değil; doğru konumlanmış katmanlar ve iyi tasarlanmış kurallar kazanır.",
+      "intro": "Yoğun sezonda “site yavaşladı/çöktü” şikâyeti geldiğinde refleks genelde sunucuyu büyütmektir. Ancak birçok senaryoda asıl problem; DDoS benzeri trafik patlaması, kötü niyetli botlar veya L7 (uygulama katmanı) saldırıları olabilir. Bu rehberin amacı; DDoS türlerini ayırmanızı, hangi katmanda hangi savunmanın işe yaradığını görmenizi ve otel/B2B bağlamında sürdürülebilir bir koruma mimarisi kurmanızı sağlamaktır. Tek ürün değil; doğru konumlanmış katmanlar ve iyi tasarlanmış kurallar kazanır. Bu [DDoS koruma stratejisi](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, saldırı anı refleksini tek araç seçiminden çıkarıp sürdürülebilir güvenlik mimarisine taşır.",
       "quickSummary": [
         "1) Önce DDoS türünü ayır: network mi L7 mi bot mu?",
         "2) Edge mantığı kur: CDN/ISP koruması ile origin’e gelmeden absorbe et.",
@@ -10604,6 +10652,10 @@
           {
             "type": "p",
             "text": "DDoS (Distributed Denial of Service), hedefi “veri çalmak”tan çok “erişilemez kılmak” olan saldırı türüdür. Otellerde en kritik dönemlerde (kampanya/erken rezervasyon/peak sezon), B2B’de iş saatlerinde portal veya API kullanımının yoğunlaştığı anlarda etkisi büyür. DDoS’u doğru yönetmek için önce türünü anlamak gerekir; çünkü ağ katmanı saldırı ile uygulama katmanı saldırının savunması farklıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu katmanları [web ve yazılım altyapısında WAF savunması](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle ele almak, uptime, performans, rezervasyon akışı ve veri güvenliği tarafını tek operasyon modeli içinde görmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -10729,6 +10781,10 @@
             "text": "WAF, web trafiğini uygulamaya ulaşmadan analiz eder ve kötü niyetli istekleri engeller/filtreler. Kurgulama için önce kritik endpoint’leri belirleyip (login/rezervasyon/API), ardından rate limit, bot/ülke filtreleri ve saldırı imzalarını kademeli olarak devreye almak gerekir. En iyi yaklaşım; önce “log/monitor” modunda görüp sonra “block”a geçmektir."
           },
           {
+            "type": "p",
+            "text": "Bu savunma katmanının taşıma güvenliğiyle birlikte çalışması gerekir; özellikle TLS sonlandırma, sertifika zinciri ve bot challenge davranışları için [WAF ve HTTPS güvenliği](https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi) aynı mimaride düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Kritik endpoint’ler için ayrı kural mantığı"
           },
@@ -10742,7 +10798,7 @@
           },
           {
             "type": "p",
-            "text": "Yanlış WAF/ülke blokları; gerçek kullanıcıyı, Googlebot’u veya iş ortaklarını da engelleyebilir. Bu yüzden WAF/CDN ayarları yapılırken SEO uyumu (bot tespiti, IP/ülke bloklama) ve teknik SEO ile birlikte düşünülmelidir (Internal Link Targets: /tr/seo/teknik-seo). Ayrıca loglar ve olay kayıtları KVKK çerçevesinde saklanmalı/erişilmelidir (Internal Link Targets: /tr/raporlama/kvkk-veri-guvenligi)."
+            "text": "Yanlış WAF/ülke blokları; gerçek kullanıcıyı, Googlebot’u veya iş ortaklarını da engelleyebilir. Bu yüzden WAF/CDN ayarları yapılırken SEO uyumu (bot tespiti, IP/ülke bloklama) ve [uptime ve teknik SEO etkisi](https://dgtlface.com/tr/seo/teknik-seo) birlikte düşünülmelidir. Ayrıca loglar ve olay kayıtları [WAF logları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) çerçevesinde saklanmalı ve erişilmelidir."
           },
           {
             "type": "callout",
@@ -10790,12 +10846,20 @@
             "text": "Rate limit, belirli eşiklerde istekleri yavaşlatır veya 429/403 ile engeller. IP/ülke bazlı filtreler belirli bölgelerden gelen trafiği kısıtlayabilir; ancak yanlış kullanılırsa gerçek kullanıcıyı ve pazarı da etkileyebilir. Bu yüzden kural setleri; “kritik endpoint’ler” ve “iş saati/yoğun dönem” senaryolarına göre ayarlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu eşiklerin doğru belirlenmesi için [rate limit ve WAF savunması](https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi) yaklaşımında kaynak limitleri, throttling profilleri ve false-positive yönetimi birlikte tasarlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryosu — sezon yoğunluğu + rezervasyon endpoint koruması"
           },
           {
             "type": "p",
             "text": "\t•\tRezervasyon arama/availability uçları bot taramasına açıktır\n\t•\tKampanya dönemlerinde gerçek trafik de patlar\nBu yüzden:\n\t•\tCDN cache stratejisi (statik içerik edge’de)\n\t•\tRezervasyon arama uçlarında rate limit + davranış analizi\n\t•\tŞüpheli kaynaklara challenge/engelleme (ürüne göre)\n\t•\t“Peak dönem profili” ile eşikler ayarlanır"
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın rezervasyon tarafında kırılmaması için [otel web sitesi DDoS koruması](https://dgtlface.com/tr/otel/pms-entegrasyonu) mantığında PMS, rezervasyon motoru ve API uçları ayrı risk yüzeyleri olarak değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -10873,6 +10937,10 @@
           {
             "type": "p",
             "text": "Tek bir ürün her şeyi çözmez; çünkü saldırıların şekli değişir. Sürdürülebilir sonuç; kritik uçların netleşmesi, edge konumlandırma, doğru kural seti ve olay yönetimiyle gelir. (Sheet notu ile uyumlu: “katmanları doğru konumlandırmak tek çözüme göre daha sürdürülebilir.”)"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden olay anında yalnız bloklama değil, alarm ve müdahale akışı da önemlidir; [güvenlik logları ve incident takibi](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) olmadan hangi kuralın işe yaradığını ve nerede sıkılaştırma gerektiğini görmek zorlaşır."
           },
           {
             "type": "callout",
@@ -11002,6 +11070,10 @@
             "text": "DDoS ve bot kaynaklı kesintilerde en büyük farkı; trafiği edge’de absorbe etmek, kritik endpoint’leri ayrı kurallarla korumak ve olay yönetimini runbook + log/izleme ile standartlaştırmak yaratır. Otel ve B2B projelerinde sürdürülebilir sonuç; CDN + WAF + rate limit + izleme kombinasyonunun doğru konumlanmasıyla gelir."
           },
           {
+            "type": "p",
+            "text": "Bu koruma modelini operasyonel desteğe çevirmek isterseniz [Sunucu ve Güvenlik hizmetiyle WAF ve DDoS koruması](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sayfasına geçebilir veya uygulama detayları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) bölümünü inceleyebilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "DDoS & WAF Güvenlik Analizi Talep Et",
@@ -11124,7 +11196,7 @@
     },
     "h1": {
       "title": "PMS API ve Otel Entegrasyonlarında API Güvenliği",
-      "intro": "PMS/OTA entegrasyonları “arka planda” gibi görünse de çoğu otelde gelirin ve operasyonun kalbidir: müsaitlik, fiyat, rezervasyon, misafir verisi, kanal yönetimi ve çağrı merkezi akışları bu API’lerle yürür. Bu yüzden bir API anahtarının sızması, yalnız web sitesini değil PMS/rezervasyon süreçlerini de hedef haline getirebilir; zararın büyümesi bu noktada başlar. Bu rehber; güvenli entegrasyonu komut ezberinden çıkarıp secret management + least privilege + ağ kısıtları + rate limit + güvenli loglama ekseninde pratik bir “otel API güvenliği modeli” olarak sunar.",
+      "intro": "PMS/OTA entegrasyonları “arka planda” gibi görünse de çoğu otelde gelirin ve operasyonun kalbidir: müsaitlik, fiyat, rezervasyon, misafir verisi, kanal yönetimi ve çağrı merkezi akışları bu API’lerle yürür. Bu yüzden bir API anahtarının sızması, yalnız web sitesini değil PMS/rezervasyon süreçlerini de hedef haline getirebilir; zararın büyümesi bu noktada başlar. Bu rehber; güvenli entegrasyonu komut ezberinden çıkarıp secret management + least privilege + ağ kısıtları + rate limit + güvenli loglama ekseninde pratik bir “otel API güvenliği modeli” olarak sunar. Bu [PMS API güvenliği](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, entegrasyon erişimini yalnız bağlantı kurmak değil operasyonel güvenlik standardı olarak ele alır.",
       "quickSummary": [
         "1) Tehdit modelini netleştir (sızıntı, abuse, yetki fazlası)",
         "2) Secret’ı doğru yerde tut (secret manager/env; repo’da asla)",
@@ -11190,6 +11262,10 @@
           {
             "type": "p",
             "text": "API güvenliği; sadece “token koyduk” demek değildir. Amaç; kimlerin, hangi koşulda, hangi kaynağa, ne kadar ve ne sıklıkla erişebileceğini kontrol etmektir. Otel entegrasyonlarında bu kontrol; PMS/OTA sağlayıcıları, web sunucu, rezervasyon motoru, çağrı merkezi ekranları ve üçüncü servisler arasında oluşan “çoklu temas noktası” nedeniyle daha kritik hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli [web ve yazılım altyapısında API güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle kurmak, entegrasyon akışını uygulama, ağ ve veri güvenliği katmanlarıyla birlikte yönetmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -11335,12 +11411,20 @@
             "text": "API anahtarları secret manager veya en azından environment variable içinde tutulmalı; kod deposuna asla düz metin olarak yazılmamalıdır. CI/CD ve loglarda anahtar görünmemeli, uygulama hata çıktılarında maskelenmelidir. Ayrıca her ortam (dev/stage/prod) için ayrı anahtar kullanılmalı ve rotasyon planı bulunmalıdır."
           },
           {
+            "type": "p",
+            "text": "Pratikte en kritik soru [OTA entegrasyon API key nerede tutulmalı](https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir) sorusudur; doğru cevap kod deposu değil, secret manager ve kontrollü runtime ortamıdır."
+          },
+          {
             "type": "h3",
             "text": "IP allowlist / VPN ile erişimi daraltma"
           },
           {
             "type": "p",
             "text": "IP kısıtı, “kimlik doğru olsa bile” erişim yüzeyini daraltır. Uygulamada: API sağlayıcı allowlist destekliyorsa, sadece belirli çıkış IP’lerinden erişim; gerekirse VPN/jump host üzerinden kontrollü erişim; ortam bazlı (prod ayrı, stage ayrı) IP tanımları."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [secret yönetimi ve API erişimi](https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli) modeli VPN, bastion ve rol bazlı erişimle tamamlanmalı; ayrıca API katmanını web uygulaması ve veritabanından ayırmak için [API trafiğinde ağ segmentasyonu](https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak) uygulanmalıdır."
           },
           {
             "type": "callout",
@@ -11462,6 +11546,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu yapının en başta doğru kurulması için [PMS kurulumunda API erişim güvenliği](https://dgtlface.com/tr/pms-ota/pms-kurulum) konusu bağlantı izinleri, scope ve çıkış IP’leriyle birlikte planlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "B2B örneği — CRM/ERP entegrasyonu"
           },
@@ -11482,6 +11570,10 @@
           {
             "type": "p",
             "text": "Güvenli akış; secret’ların doğru saklandığı, scope’ların minimal olduğu, IP allowlist ile erişimin daraltıldığı ve rate limit ile kötüye kullanımın sınırlandığı bir düzendir. Buna ek olarak loglar maskelenmeli, audit tutulmalı ve anahtar rotasyonu/iptal prosedürü hazır olmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında bu yaklaşımın servis karşılığı [otel entegrasyonu için API scope ve rate limit](https://dgtlface.com/tr/otel/pms-entegrasyonu) tasarımıdır; log ve kişisel veri tarafında ise [API logları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) standardı ile tamamlanmalıdır."
           },
           {
             "type": "callout",
@@ -11580,6 +11672,10 @@
           {
             "type": "p",
             "text": "PMS/OTA entegrasyon güvenliği; secret yönetimi, scope/izin tasarımı, IP kısıtları, rate limit ve güvenli loglama/audit’in birlikte çalıştığı bir kontrol setidir. Bu set doğru kurulmadığında bir anahtar sızıntısı “yalnız web” etkisi yaratmaz; gelir ve operasyon akışlarını da riske atabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu mimariyi operasyonel desteğe çevirmek isterseniz [Sunucu ve Güvenlik hizmetiyle API erişimlerinizi güvenceye alın](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) veya uygulama detayları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) bölümünü inceleyebilirsiniz."
           },
           {
             "type": "cta",
@@ -11736,7 +11832,7 @@
     },
     "h1": {
       "title": "Loglama ve SIEM: Web Altyapısında Güvenlik İzleme Stratejisi",
-      "intro": "Birçok ekip güvenlik olayını “bir şey kırılınca” veya “müşteri şikâyeti gelince” öğrenir. Bu yaklaşım hem pahalıdır hem de itibar riskini büyütür. Oysa doğru tasarlanmış loglama ve SIEM, web altyapısında erken uyarı sistemi gibi çalışır: şüpheli girişler, rol değişimleri, anormal trafik artışları, WAF blok patlamaları ve entegrasyon hataları daha büyümeden görünür olur. Bu rehber; hangi katmanda ne loglanacağını, SIEM’de nasıl korelasyon ve alert tasarlanacağını ve otel/B2B için nasıl dashboard kurulacağını “uygulanabilir” biçimde anlatır.",
+      "intro": "Birçok ekip güvenlik olayını “bir şey kırılınca” veya “müşteri şikâyeti gelince” öğrenir. Bu yaklaşım hem pahalıdır hem de itibar riskini büyütür. Oysa doğru tasarlanmış loglama ve SIEM, web altyapısında erken uyarı sistemi gibi çalışır: şüpheli girişler, rol değişimleri, anormal trafik artışları, WAF blok patlamaları ve entegrasyon hataları daha büyümeden görünür olur. Bu rehber; hangi katmanda ne loglanacağını, SIEM’de nasıl korelasyon ve alert tasarlanacağını ve otel/B2B için nasıl dashboard kurulacağını “uygulanabilir” biçimde anlatır. Bu [web güvenlik loglama SIEM](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, güvenlik izlemeyi dağınık kayıt toplamadan operasyonel karar katmanına taşır.",
       "quickSummary": [
         "1) Katman bazlı minimum log setini çıkar (web/app/WAF/DB/entegrasyon)",
         "2) Login/rol değişimi/kritik işlemler için audit standardı kur",
@@ -11793,6 +11889,10 @@
           {
             "type": "p",
             "text": "Güvenlik odaklı loglama; “hata çıktılarını” değil, davranış izlerini yakalar. Login denemeleri, yetki değişiklikleri, kritik işlem çağrıları, anormal istek yoğunlukları ve entegrasyon başarısızlıkları; olayın erken sinyalleridir. Otel ve B2B projelerinde bu sinyaller özellikle önemlidir çünkü sistemler genelde çok katmanlıdır: web → uygulama → WAF → DB → PMS/CRM entegrasyonları. Bir katmandaki küçük sapma, diğerinde büyük hasara dönüşebilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu modeli [web ve yazılım altyapısında güvenlik izleme](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle kurmak, firewall ve sunucu ayarlarını log korelasyonu ve erken uyarı sistemiyle aynı güvenlik çerçevesinde toplar."
           },
           {
             "type": "h3",
@@ -11900,6 +12000,10 @@
             "text": "Her olay; zaman, actor (kullanıcı/servis), action, target (hangi hesap/rezervasyon), result (başarılı/başarısız) ve risk bağlamıyla loglanmalıdır. Örneğin rol değişimi logu; “kim, hangi kullanıcıyı, hangi rolden hangi role, hangi IP’den, hangi oturumla değiştirdi” bilgisini içerir. Bu yapı SIEM’de korelasyon için şarttır."
           },
           {
+            "type": "p",
+            "text": "Bu alan özellikle [erişim logları ve Zero Trust](https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis) yaklaşımıyla birlikte düşünülmelidir; kullanıcı, servis ve cihaz davranışları ancak bağlamsal loglarla anlam kazanır."
+          },
+          {
             "type": "h3",
             "text": "WAF & firewall logları"
           },
@@ -11912,6 +12016,10 @@
               "Bot yönetimi sinyalleri (şüpheli davranış)",
               "Yanlış blok (false positive) izleri (özellikle SEO etkisi için)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kayıtlar SIEM tarafında yalnız başına değil, [WAF logları ve DDoS izleme](https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin) mantığıyla saldırı trafiği, rate limit ihlali ve anomali yoğunluğu üzerinden yorumlanmalıdır."
           },
           {
             "type": "h3",
@@ -11942,6 +12050,10 @@
               "Rate limit, token süresi, izin (scope) hataları",
               "“Kimlik bilgisi sızıntısı” riskine karşı secret masking (anahtar/parola asla logda görünmez)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Otel sistemlerinde bu verilerin özellikle [PMS kurulumunda entegrasyon logları](https://dgtlface.com/tr/pms-ota/pms-kurulum) bağlamında toplanması gerekir; başarısız bağlantılar, auth hataları ve zaman aşımı kayıtları güvenli kurulumun temel kanıtıdır."
           },
           {
             "type": "h3",
@@ -11989,6 +12101,10 @@
           {
             "type": "p",
             "text": "SIEM, logları toplayıp normalize eder, farklı kaynaklar arasında korelasyon kurar ve belirli kurallara göre uyarı üretir. Örneğin aynı IP’den başarısız login denemeleri artarken WAF blokları da yükseliyorsa “account attack” uyarısı üretilebilir. Böylece olayları kullanıcı şikâyeti yerine otomatik sinyallerle erken yakalarsınız."
+          },
+          {
+            "type": "p",
+            "text": "Bu uyarıların gerçek değeri, aksiyona bağlanmalarıyla ortaya çıkar; bu yüzden [güvenlik logları ve incident takibi](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) modeli SIEM kurallarını runbook ve eskalasyon akışıyla tamamlamalıdır."
           },
           {
             "type": "h3",
@@ -12110,7 +12226,7 @@
           },
           {
             "type": "p",
-            "text": "Loglarda gereksiz kişisel veri (tam kart, tam TC vb.) tutulmamalı; logların kendisi de KVKK/KVYS açısından korunmalıdır. Erişim yetkileri, saklama süresi ve maskeleme kuralları netleştirilmelidir. (Internal Link Targets: /tr/raporlama/kvkk-veri-guvenligi)"
+            "text": "Loglarda gereksiz kişisel veri (tam kart, tam TC vb.) tutulmamalı; logların kendisi de KVKK/KVYS açısından korunmalıdır. Erişim yetkileri, saklama süresi ve maskeleme kuralları [güvenlik logları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) çerçevesiyle netleştirilmelidir."
           },
           {
             "type": "h3",
@@ -12140,6 +12256,10 @@
               "Entegrasyon hatalarını “sınıf” bazında raporla (auth/limit/timeout).",
               "KVKK politikasıyla logları koru ve minimize et."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu panellerin karar desteğine dönüşmesi için [otel için güvenlik dashboard örneği](https://dgtlface.com/tr/veri-analiz-ve-raporlama) yaklaşımıyla KPI, alarm ve entegrasyon sinyallerini ölçülebilir rapor modeline bağlamak gerekir."
           },
           {
             "type": "media",
@@ -12252,6 +12372,10 @@
             "label": "Web Altyapısı Güvenlik Loglama & SIEM Checklist Şablonunu İndir",
             "text": "Ekibinizin hangi logların SIEM’e gideceğini, hangi kuralların alert üreteceğini ve dashboard kurgusunu hızlıca planlayıp uygulamasını sağlar.",
             "href": "/downloads/web-altyapisi-guvenlik-loglama-siem-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "Bu yapıyı operasyonel desteğe çevirmek isterseniz [Sunucu ve Güvenlik hizmetiyle güvenlik loglama stratejisi oluşturun](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) veya uygulama detayları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) bölümünü inceleyebilirsiniz."
           }
         ]
       }
@@ -47943,7 +48067,7 @@
     },
     "h1": {
       "title": "Yedekleme ve Disaster Recovery: Web Sunucuları İçin Felaket Kurtarma Stratejisi",
-      "intro": "Birçok kurum “yedek alıyoruz” dediğinde kendini güvende hisseder; fakat gerçek kesinti anında en acı sürpriz şudur: yedek var ama geri dönmüyor ya da “geri dönüyor ama 2 gün sürüyor.” Otel tarafında rezervasyon akışının durması, sezon/pik dönemde doğrudan gelir kaybına döner; B2B’de portal/CRM kesintisi operasyonu kilitler. Bu rehber, yedeklemeyi DR planına bağlayıp “RPO/RTO + offsite + tatbikat” standardını kurar: ne kadar veri kaybıyla, ne kadar sürede ayağa kalkacağınızı ölçülebilir hale getirirsiniz.",
+      "intro": "Birçok kurum “yedek alıyoruz” dediğinde kendini güvende hisseder; fakat gerçek kesinti anında en acı sürpriz şudur: yedek var ama geri dönmüyor ya da “geri dönüyor ama 2 gün sürüyor.” Otel tarafında rezervasyon akışının durması, sezon/pik dönemde doğrudan gelir kaybına döner; B2B’de portal/CRM kesintisi operasyonu kilitler. Bu rehber, yedeklemeyi DR planına bağlayıp “RPO/RTO + offsite + tatbikat” standardını kurar: ne kadar veri kaybıyla, ne kadar sürede ayağa kalkacağınızı ölçülebilir hale getirirsiniz. Bu yüzden [web sunucusu yedekleme stratejisi](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, yalnız kopya almakla değil hangi servislerin hangi sırayla geri döneceğini baştan tanımlamakla ilgilidir.",
       "quickSummary": [
         "1) Sistemleri Tier-1/2/3 olarak sınıflandırın.",
         "2) RPO ve RTO hedeflerini iş kritikliğiyle belirleyin.",
@@ -48017,6 +48141,10 @@
           {
             "type": "p",
             "text": "Yedekleme, veriyi bir kopya olarak saklamaktır; DR ise kopyayı kullanarak sistemi belirli hedeflerde ayağa kaldırma kabiliyetidir. Aradaki fark; süreç, sorumluluk, otomasyon, test ve karar mekanizmasında ortaya çıkar. Yedek “var” olabilir; ama kurtarma planı ve tatbikat yoksa kesintide gerçek sonuç belirsizdir."
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi [web ve yazılım altyapısında felaket kurtarma planı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) olarak okumak; yedeklemeyi tek başına bir operasyon değil, web, uygulama ve entegrasyon sürekliliğinin parçası haline getirir."
           },
           {
             "type": "h3",
@@ -48150,6 +48278,10 @@
             "text": "DR planının kalbi, doğru yedek türlerini doğru kombinasyonla kullanmaktır. Tek bir yöntem her şey için ideal değildir; veri türü, değişim hızı ve RPO hedefi belirleyicidir."
           },
           {
+            "type": "p",
+            "text": "Ayrıca [yedekleme öncesi patch ve zafiyet kontrolü](https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin) yapılmadan alınan imajlar, eski açıkları aynen yeni ortama taşıyabilir; bu yüzden backup zinciri güncel ve temiz baseline ile başlamalıdır."
+          },
+          {
             "type": "h3",
             "text": "Full backup"
           },
@@ -48241,7 +48373,11 @@
           },
           {
             "type": "p",
-            "text": "Offsite kopya var ama erişim yoksa (yetki yok, şifre yok, prosedür yok) yine işe yaramaz. Bu nedenle erişim politikası ve runbook DR’nin parçasıdır. Ayrıca KVKK açısından yedeklerin saklama/erişim yönetimi önemlidir: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            "text": "Offsite kopya var ama erişim yoksa (yetki yok, şifre yok, prosedür yok) yine işe yaramaz. Bu nedenle erişim politikası ve runbook DR’nin parçasıdır. Ayrıca KVKK açısından [yedeklerde veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) saklama süresi, erişim modeli ve geri yükleme yetkileriyle birlikte tanımlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [ransomware’a karşı güvenli yedekleme](https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi) yaklaşımı; ayrık hesap, izole kopya ve temiz restore senaryosunu DR planının ayrılmaz parçası haline getirir."
           },
           {
             "type": "h3",
@@ -48282,6 +48418,10 @@
           {
             "type": "p",
             "text": "DR planı, kağıt üzerinde değil; tatbikatla yaşayan bir süreçtir. Tatbikatlar, en çok “insan ve süreç” zayıflıklarını ortaya çıkarır: kim karar veriyor, hangi sırayla geri dönüyoruz, neyi önce açıyoruz?"
+          },
+          {
+            "type": "p",
+            "text": "Kesinti anında [kesinti sonrası incident yönetimi](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) ile restore, failover ve iletişim adımlarının aynı runbook üzerinde buluşması; yanlış sırayla müdahale etme riskini ciddi biçimde azaltır."
           },
           {
             "type": "h3",
@@ -48358,6 +48498,10 @@
               "Hedef: düşük RTO, yönetilebilir RPO",
               "Aksiyon: DR ortamına geçiş + minimum işlev setiyle hizmeti sürdürme"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde [otel için disaster recovery planı](https://dgtlface.com/tr/otel/pms-entegrasyonu) yalnız web sunucusunu değil, PMS bağlantıları, rezervasyon motoru ve availability akışının hangi sırayla ayağa kaldırılacağını da tanımlamalıdır."
           },
           {
             "type": "h3",
@@ -48528,6 +48672,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Tier bazlı takipte [backup durumunun raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) restore başarı oranı, RPO/RTO sapmaları ve tatbikat sonuçlarının tek dashboard üzerinde görünmesini sağlar. Bu planı canlı altyapınıza uyarlamak için [Sunucu ve Güvenlik hizmetiyle yedekleme ve geri yükleme testlerinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama öncesi temel sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -48656,7 +48804,7 @@
     },
     "h1": {
       "title": "Konfigürasyon Yönetimi ve IaC: Terraform/Ansible ile Güvenlik Odaklı Altyapı",
-      "intro": "Sunucu güvenliğinde en pahalı sorunlar çoğu zaman “hack” değil, kontrolsüz değişikliktir: birisi geçici diye port açar, sonra unutulur; bir paket güncellemesi farklı sunucularda farklı sonuç verir; staging ile prod aynı değildir. Otel tarafında çok sunuculu cluster’larda bu sapma (drift) hızla büyür; B2B’de staging/prod ayrımı yoksa sürprizler artar. Bu rehber; güvenlik ayarlarını kod haline getirip (Security-as-Code), Terraform/Ansible ile tekrarlanabilir ve denetlenebilir bir altyapı standardı kurmayı hedefler.",
+      "intro": "Sunucu güvenliğinde en pahalı sorunlar çoğu zaman “hack” değil, kontrolsüz değişikliktir: birisi geçici diye port açar, sonra unutulur; bir paket güncellemesi farklı sunucularda farklı sonuç verir; staging ile prod aynı değildir. Otel tarafında çok sunuculu cluster’larda bu sapma (drift) hızla büyür; B2B’de staging/prod ayrımı yoksa sürprizler artar. Bu rehber; güvenlik ayarlarını kod haline getirip (Security-as-Code), Terraform/Ansible ile tekrarlanabilir ve denetlenebilir bir altyapı standardı kurmayı hedefler. Bu nedenle [Terraform Ansible güvenlik örnekleri](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, manuel sunucu ayarlarını kişilere bağlı bir alışkanlık olmaktan çıkarıp sürdürülebilir güvenlik standardına taşır.",
       "quickSummary": [
         "1) Güvenlik ayarları için desired state tanımlayın.",
         "2) Terraform ile altyapı kaynaklarını, Ansible ile sunucu konfigürasyonunu yönetin.",
@@ -48724,6 +48872,10 @@
             "text": "Konfigürasyon yönetimi; bir sunucunun/altyapının “nasıl olması gerektiğini” tanımlayıp bunu sürdürülebilir şekilde korumaktır. Amaç; ortamları (prod/stage) tutarlı yapmak ve değişiklikleri izlenebilir kılmaktır. Güvenlik perspektifinde bu; açık portlar, kullanıcı yetkileri, paket sürümleri, firewall kuralları, security group’lar ve sertifika/anahtar politikaları gibi ayarların kontrolüdür."
           },
           {
+            "type": "p",
+            "text": "Bu resimde [Infrastructure as Code neden önemli](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) sorusunun cevabı nettir: güvenli altyapı yalnız tek seferlik kurulum değil, tekrarlanabilir değişiklik ve denetlenebilir operasyon modeli ister."
+          },
+          {
             "type": "h3",
             "text": "Konfigürasyon yönetimi ve IaC nedir, neden önemlidir?"
           },
@@ -48744,6 +48896,10 @@
               "Acil durumlarda prosedür dışı ayar yapılır",
               "Staging/prod ayrımı ya yoktur ya da sürdürülemez"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu farkları görünür kılmak için [konfigürasyon drift tespiti](https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu) yaklaşımı; staging ve production ortamlarında hangi güvenlik ayarının ne zaman koptuğunu kanıt üretir."
           },
           {
             "type": "h3",
@@ -48807,6 +48963,10 @@
             "text": "IaC’de değişiklikler; PR açılır, plan alınır, review edilir, sonra uygulanır. Bu akış; güvenlik değişikliklerini “gözden geçirilmiş” hale getirir. Otel/B2B projelerinde özellikle “sezonda acil değişiklik” baskısı varsa, bu pipeline kontrol mekanizmasıdır."
           },
           {
+            "type": "p",
+            "text": "Bu kontrol hattını [güvenliği kodla yönetme](https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek) mantığıyla CI/CD içine yerleştirmek; Terraform planı, policy check ve apply onayını deployment kalitesinin parçası haline getirir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check: IaC temeli"
           },
@@ -48868,6 +49028,10 @@
               "SSH/RDP politikaları (key/MFA yaklaşımı, erişim daraltma)",
               "Loglama/izleme ajanları kurulumu (SIEM entegrasyonu gibi)"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu kategorilerin gerçekten standartlaşması için [standart bazlı hardening baseline](https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi) kullanmak; Terraform modülleri ve Ansible rollerinin hangi güvenlik seviyesini hedeflediğini somutlaştırır."
           },
           {
             "type": "h3",
@@ -49002,6 +49166,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle [PMS kurulumunda güvenli altyapı standardı](https://dgtlface.com/tr/pms-ota/pms-kurulum) baştan tanımlandığında; entegrasyon sunucuları, erişim kuralları ve ortam ayrımı sezon ortasında acele değişikliklere bırakılmadan kurulabilir."
+          },
+          {
             "type": "h3",
             "text": "B2B örneği — staging/prod ayrımı ve kontrollü değişiklik"
           },
@@ -49021,6 +49189,10 @@
           {
             "type": "p",
             "text": "IaC; tekrarlanabilir kurulum, izlenebilir değişiklik geçmişi, drift azaltma ve güvenlik regresyonlarını erken yakalama avantajı sağlar. Elle ayarlarda bilgi kişilere bağımlı kalır; IaC’de bilgi repo’da yaşar ve review ile kalite kontrol edilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu standardizasyonun çıktıları yalnız güvenlikte kalmaz; [sunucu konfigürasyonu ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) tarafında uptime, yönlendirme, cache ve performans davranışlarının ortamlar arasında daha tutarlı ilerlemesine de yardım eder."
           },
           {
             "type": "h3",
@@ -49045,7 +49217,7 @@
               "“Golden baseline”ı çıkar ve yeni node’larda zorunlu kıl.",
               "Staging/prod ayrımını IaC’de netleştir.",
               "Değişiklik yönetimini bakım-destek süreciyle birleştir.",
-              "Sunucu güvenliği sayfası ile entegre bir standart oluştur: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+              "Sunucu güvenliği standardıyla entegre bir yapı kur."
             ]
           },
           {
@@ -49157,6 +49329,10 @@
               "PR + review zorunlu",
               "Drift raporu ve geri alma süreci var"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Operasyonel takipte [IaC değişikliklerinin raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) drift trendi, plan/apply geçmişi ve ortam uyumunun tek dashboard üzerinde izlenmesini sağlar. Bu standardı kurumunuza uyarlamak için [Sunucu ve Güvenlik hizmetiyle güvenliği kodla yönetme yaklaşımını uygulayın](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); temel süreç soruları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -49290,7 +49466,7 @@
     },
     "h1": {
       "title": "Kimlik ve Erişim Yönetimi: VPN, Bastion, SSM ve SSO ile Güvenli Erişim Modeli",
-      "intro": "Birçok kurumda sunucu erişimi “şifre paylaşımı” veya “herkesin ayrı ayrı bilmesi gereken” dağınık bir düzendir. Sonuç: eski çalışan erişimi kapanmaz, ajans erişimi kontrolsüz büyür, kim ne zaman bağlandı sorusu cevapsız kalır. Otel tarafında dış ofislerden rezervasyon sistemine erişim, B2B’de remote ekiplerin ve ajansların prod’a dokunması gibi senaryolarda risk daha da artar. Bu rehber; doğrudan SSH/RDP modelinden çıkıp VPN + bastion/SSM + SSO/RBAC kombinasyonuyla merkezileştirilmiş, kayıt altına alınmış ve geri alınabilir erişim tasarımını anlatır.",
+      "intro": "Birçok kurumda sunucu erişimi “şifre paylaşımı” veya “herkesin ayrı ayrı bilmesi gereken” dağınık bir düzendir. Sonuç: eski çalışan erişimi kapanmaz, ajans erişimi kontrolsüz büyür, kim ne zaman bağlandı sorusu cevapsız kalır. Otel tarafında dış ofislerden rezervasyon sistemine erişim, B2B’de remote ekiplerin ve ajansların prod’a dokunması gibi senaryolarda risk daha da artar. Bu rehber; doğrudan SSH/RDP modelinden çıkıp VPN + bastion/SSM + SSO/RBAC kombinasyonuyla merkezileştirilmiş, kayıt altına alınmış ve geri alınabilir erişim tasarımını anlatır. Bu nedenle [VPN bastion SSM SSO erişim modeli](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, erişimi bireysel şifre alışkanlıklarından çıkarıp merkezi güvenlik standardına dönüştürür.",
       "quickSummary": [
         "1) Doğrudan SSH/RDP erişimini kaldırın.",
         "2) VPN ile yönetim ağını internetten ayırın.",
@@ -49356,6 +49532,10 @@
           {
             "type": "p",
             "text": "IAM (Identity & Access Management), “kim”in “neye” “hangi koşulda” erişebileceğini tanımlar. Web altyapısında IAM sadece cloud konsolu değildir; sunucu erişim yolu, oturumların nasıl açıldığı, yetkinin nasıl verilip geri alındığı ve tüm bunların nasıl loglandığıdır. Güvenli modelin hedefi: erişim yüzeyini küçültmek, yetkiyi en aza indirmek ve oturumu denetlenebilir hale getirmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu bakış açısını [IAM ile web altyapısı erişim güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) olarak okumak; VPN, bastion, SSM ve SSO kararlarını yalnız sistem yönetimi değil, tüm dijital altyapının güvenlik katmanı haline getirir."
           },
           {
             "type": "h3",
@@ -49428,6 +49608,10 @@
             "text": "Çözer: yönetim portlarının public görünürlüğünü azaltır, erişimi daraltır. Çözmez: kim hangi yetkiyle bağlanıyor, oturum kayıtları, rol bazlı kontrol. Bu yüzden VPN’i IAM mimarisinin bir parçası olarak düşünmek gerekir."
           },
           {
+            "type": "p",
+            "text": "Özellikle yönetim katmanını web, uygulama ve veritabanı erişiminden ayırmak için [yönetim erişimi için ağ segmentasyonu](https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak) yaklaşımı; staging/prod ve yönetim ağı sınırlarını daha net hale getirir."
+          },
+          {
             "type": "h3",
             "text": "Ağ modeli seçenekleri (prensip)"
           },
@@ -49483,6 +49667,10 @@
           {
             "type": "p",
             "text": "VPN, erişimi kontrollü ağa taşır. Bastion, sunucu erişiminin tek giriş noktasıdır ve bağlantıları merkezi yönetir. SSM gibi session manager çözümleri ise oturum açmayı merkezi kontrol eder ve kayıt altına alır; böylece doğrudan SSH/RDP erişimi ve anahtar dağıtım ihtiyacı azalır. Mimari olarak kullanıcı → SSO/VPN → bastion/SSM → hedef sunucu akışı hedeflenir."
+          },
+          {
+            "type": "p",
+            "text": "Bu zincirin güvenli işlemesi için [erişim sırları ve secret yönetimi](https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir) tarafında parola, private key, sertifika ve API erişim bilgilerinin merkezi ve denetlenebilir tutulması gerekir."
           },
           {
             "type": "h3",
@@ -49560,6 +49748,10 @@
             "text": "SSO ile kimlikleri tek merkezde yönetip MFA gibi kontrolleri standartlaştırırsınız. Sunucu erişimini kullanıcı bazında değil rol bazında tanımlayıp, rollerin hangi ortama/hangi sunucu grubuna erişebileceğini belirlersiniz. Offboarding’de erişimi tek noktadan kapatır, oturum kayıtlarını audit için kullanırsınız."
           },
           {
+            "type": "p",
+            "text": "Bu yapı, [rol bazlı erişim ve Zero Trust modeli](https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis) ile desteklendiğinde; her oturumun ayrı doğrulandığı, minimum yetkinin varsayılan olduğu daha sıkı bir erişim mimarisi kurulabilir."
+          },
+          {
             "type": "h3",
             "text": "Yetki devri / geri alma süreçleri (operasyonel güvenlik)"
           },
@@ -49627,6 +49819,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Turizm tarafında [PMS entegrasyonunda güvenli erişim](https://dgtlface.com/tr/otel/pms-entegrasyonu) ile yönetim paneli, entegrasyon sunucusu ve API uçları ayrıştırılmalı; [rezervasyon destek ekipleri için rol bazlı erişim](https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi) sayesinde çağrı merkezi kullanıcıları yalnız ihtiyaç duyduğu ekranlara ulaşmalıdır."
+          },
+          {
             "type": "h3",
             "text": "B2B senaryosu — remote ekip ve ajansın prod erişimi"
           },
@@ -49653,7 +49849,7 @@
           },
           {
             "type": "p",
-            "text": "Erişim log’ları, KVKK teknik tedbirlerinde “kim erişti?” sorusunun kanıtıdır. Bu nedenle erişim modeli; /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama/kvkk-veri-guvenligi ile uyumlu kurgulanmalıdır: logların saklama süresi, erişim yetkisi ve veri minimizasyonu net olmalıdır."
+            "text": "Erişim log’ları, KVKK teknik tedbirlerinde “kim erişti?” sorusunun kanıtıdır. Bu nedenle [erişim logları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) çerçevesi; logların saklama süresi, erişim yetkisi, oturum kayıt kapsamı ve veri minimizasyonu kurallarının birlikte tanımlanmasını gerektirir."
           },
           {
             "type": "h3",
@@ -49801,6 +49997,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu mimariyi kurumsal standarda dönüştürmek için [Sunucu ve Güvenlik hizmetiyle güvenli uzaktan erişim modeli kurun](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama öncesi temel sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -49931,7 +50131,7 @@
     },
     "h1": {
       "title": "Container ve Docker Güvenliği: Host, Image ve Runtime İçin En İyi Uygulamalar",
-      "intro": "Docker/container mimarisi; doğru kullanıldığında dağıtımı hızlandırır ve tekrarlanabilirlik sağlar. Ama güvenlik tarafı “default” bırakılırsa, container’lar yeni bir saldırı ve operasyonel risk katmanı yaratabilir: yanlış base image, image içine gömülen secret’lar, root ile çalışan container’lar, limitsiz kaynak tüketimi ve kontrolsüz network erişimi gibi. Otel tarafında rezervasyon/back-office microservice’leri; B2B’de API gateway ve worker container’ları genellikle kritik iş akışlarını taşır. Bu rehber; güvenliği host→image→runtime katmanlarıyla yönetip DevOps/SRE ekiplerinin doğrudan uygulayacağı bir standart kurar.",
+      "intro": "Docker/container mimarisi; doğru kullanıldığında dağıtımı hızlandırır ve tekrarlanabilirlik sağlar. Ama güvenlik tarafı “default” bırakılırsa, container’lar yeni bir saldırı ve operasyonel risk katmanı yaratabilir: yanlış base image, image içine gömülen secret’lar, root ile çalışan container’lar, limitsiz kaynak tüketimi ve kontrolsüz network erişimi gibi. Otel tarafında rezervasyon/back-office microservice’leri; B2B’de API gateway ve worker container’ları genellikle kritik iş akışlarını taşır. Bu rehber; güvenliği host→image→runtime katmanlarıyla yönetip DevOps/SRE ekiplerinin doğrudan uygulayacağı bir standart kurar. Bu nedenle [Docker container güvenliği](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, modern deployment hızını sürdürülebilir güvenlik katmanıyla birlikte ele alır.",
       "quickSummary": [
         "1) Host OS ve Docker daemon katmanını harden edin.",
         "2) Resmî/minimal base image ve düzenli vulnerability scan standardı kurun.",
@@ -49999,6 +50199,10 @@
             "text": "Container güvenliği, “tek ayar” değildir; üç katmanın birlikte doğru çalışmasıdır:"
           },
           {
+            "type": "p",
+            "text": "Bu katmanları [web ve yazılım altyapısında container güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle okumak; Dockerfile seviyesindeki kararları host, deployment ve operasyon kontrolleriyle aynı çerçeveye taşır."
+          },
+          {
             "type": "list",
             "style": "ol",
             "items": [
@@ -50028,6 +50232,10 @@
             "text": "Container güvenliği sadece saldırı değil; kaynak tüketimi ve izolasyon hatalarıyla da ilgilidir. Limitsiz çalışan bir container, CPU/memory tüketip sistemi düşürebilir; bu da DDoS etkisine benzer kesintiler üretir. Bu nedenle “security + reliability” birlikte ele alınmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [container kaynak limitleri ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) ilişkisi de önemlidir; dengesiz resource kullanımı response time, uptime ve crawl istikrarını doğrudan etkileyebilir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check: 10 dakikalık container sağlık kontrolü"
           },
@@ -50051,7 +50259,7 @@
               "Host→image→runtime sırası ile ilerle; tek alana takılı kalma.",
               "Rootless/least-privilege’i standart yap.",
               "Scan + policy kontrollerini CI/CD’ye bağla.",
-              "Logging/izlenebilirliği raporlama altyapısına entegre et (Internal link: /tr/veri-analiz-ve-raporlama)."
+              "Logging/izlenebilirliği raporlama altyapısına entegre et."
             ]
           },
           {
@@ -50126,7 +50334,7 @@
               "Host’u “prod standardı”na harden et; drift’i azalt.",
               "Rootless/non-root default yap; exception’ları gerekçeli yönet.",
               "Privileged ve host mount’ları için approval süreci koy.",
-              "Host loglarını SIEM/loglama stratejisiyle bağla (Internal link: /tr/veri-analiz-ve-raporlama)."
+              "Host loglarını SIEM/loglama stratejisiyle bağla."
             ]
           }
         ]
@@ -50138,6 +50346,10 @@
           {
             "type": "p",
             "text": "Image güvenliği, çalıştırdığınız kodun ve bağımlılıkların güvenliği demektir. Güvenlik açığının önemli kısmı “uygulama kodu” değil, image içindeki paketlerden gelir. Bu nedenle base image seçimi ve tarama rutini çok kritiktir."
+          },
+          {
+            "type": "p",
+            "text": "Burada [container image ve dependency güvenliği](https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek) yalnız base image seçimini değil, registry kaynağı, dependency zinciri ve imaj provenance kararlarını da kapsar."
           },
           {
             "type": "h3",
@@ -50168,6 +50380,10 @@
               "Registry’de periyodik tarama",
               "Kritik CVE’lerde otomatik uyarı ve rebuild"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu akışın release kalitesine dönüşmesi için [image vulnerability scanning nasıl yapılır](https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek) yaklaşımı; scan sonucunu CI/CD güvenlik gate’leriyle eşleştirip riskli image’lerin deploy edilmesini engeller."
           },
           {
             "type": "h3",
@@ -50208,7 +50424,7 @@
               "Base image standardı belirle (approved list).",
               "Scan’i CI gate yap; kritik CVE’de release blokla.",
               "Secret’ları runtime secret manager’a taşı.",
-              "Rebuild/rollout takvimi oluştur (bakım-destek ile entegre) (Internal link: /tr/yazilim/bakim-ve-destek)."
+              "Rebuild/rollout takvimi oluştur ve bakım pencereleriyle hizala."
             ]
           },
           {
@@ -50232,6 +50448,10 @@
           {
             "type": "p",
             "text": "Resource limitler CPU/memory tüketimini sınırlar ve OOM/CPU spike kaynaklı kesintileri azaltır. Network policy ise servislerin sadece gerekli hedeflere erişmesini sağlayarak lateral movement ve veri sızıntısı riskini düşürür. Bu iki kontrol birlikte, hem güvenliği hem stabiliteyi güçlendirir."
+          },
+          {
+            "type": "p",
+            "text": "Orchestrator tarafında [resource limit network policy container](https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy) yaklaşımı; node, namespace ve policy sınırlarını cluster seviyesinde zorunlu hale getirerek runtime izolasyonunu genişletir."
           },
           {
             "type": "h3",
@@ -50265,7 +50485,7 @@
           },
           {
             "type": "p",
-            "text": "Runtime güvenliği için “kural” yetmez; görünürlük de gerekir. Rate limit tetiklenmeleri, OOM olayları, beklenmeyen outbound bağlantılar gibi sinyaller izlenebilir olmalı. (Internal link hedefi: /tr/veri-analiz-ve-raporlama)"
+            "text": "Runtime güvenliği için “kural” yetmez; görünürlük de gerekir. Rate limit tetiklenmeleri, OOM olayları, beklenmeyen outbound bağlantılar gibi sinyaller izlenebilir olmalı. Bu görünürlük [container güvenlik taramalarının raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) ile dashboard’a taşındığında hem teknik ekip hem operasyon tarafı aynı risk fotoğrafını görebilir."
           },
           {
             "type": "h3",
@@ -50317,6 +50537,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Turizm projelerinde [PMS entegrasyon servislerinde container güvenliği](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrıca önemlidir; rezervasyon motoru, API servisleri ve arka ofis entegrasyonları aynı runtime standardı altında korunmadığında yatay risk büyür."
+          },
+          {
             "type": "h3",
             "text": "B2B — API gateway ve worker container’ları"
           },
@@ -50360,7 +50584,7 @@
               "Kritik servisleri etiketle (Tier-1) ve sıkı policy uygula.",
               "Image scan + redeploy rutini kur.",
               "Runtime limitleri standartlaştır; exception’ları kayıt altına al.",
-              "Sunucu güvenliği ve bakım-destek süreçleriyle entegre et (Internal link: /tr/yazilim/sunucu-guvenlik, /tr/yazilim/bakim-ve-destek)."
+              "Sunucu güvenliği ve bakım-destek süreçleriyle entegre et."
             ]
           },
           {
@@ -50491,6 +50715,10 @@
               "Network policy seti",
               "KPI dashboard + alert runbook"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı operasyonel desteğe dönüştürmek isterseniz [Sunucu ve Güvenlik hizmetiyle container hardening sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama öncesi temel sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -50626,7 +50854,7 @@
     },
     "h1": {
       "title": "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi",
-      "intro": "“Sunucu bazen çöküyor” şikâyetinin arkasında çoğu zaman iki senaryo vardır: (1) kötü niyetli veya hatalı istekler kaynakları tüketiyordur, (2) sistem ani yoğunlukta “sınırları” olmadığı için kendini koruyamıyordur. Otel tarafında booking/search akışları; B2B’de rapor/export gibi ağır işlemler, hem performans hem güvenlik açısından riskli endpoint’lerdir. Bu rehber, kesintiyi azaltmak için “daha büyük sunucu” refleksi yerine; limit → throttling → kuyruk → graceful degradation yaklaşımıyla kontrollü kalite (QoS) tasarlamayı hedefler.",
+      "intro": "“Sunucu bazen çöküyor” şikâyetinin arkasında çoğu zaman iki senaryo vardır: (1) kötü niyetli veya hatalı istekler kaynakları tüketiyordur, (2) sistem ani yoğunlukta “sınırları” olmadığı için kendini koruyamıyordur. Otel tarafında booking/search akışları; B2B’de rapor/export gibi ağır işlemler, hem performans hem güvenlik açısından riskli endpoint’lerdir. Bu rehber, kesintiyi azaltmak için “daha büyük sunucu” refleksi yerine; limit → throttling → kuyruk → graceful degradation yaklaşımıyla kontrollü kalite (QoS) tasarlamayı hedefler. Bu yüzden [rate limit throttling stratejisi](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, kapasite planını yalnız performans değil saldırı yüzeyi yönetimi olarak da ele alır.",
       "quickSummary": [
         "1) Resource exhaustion sinyallerini endpoint ve altyapı katmanlarında ölçün.",
         "2) OS→web server→uygulama→API boyunca kaynak limitleri tanımlayın.",
@@ -50694,6 +50922,10 @@
             "text": "Resource exhaustion; sistemi “hacklemekten” çok, kaynaklarını tüketerek erişilemez hale getirmeyi hedefler. Bazen saldırı değildir; kötü yazılmış bir sorgu, rapor/export gibi ağır işlem veya yanlış konfigürasyon da aynı etkiyi doğurur. Ortak payda: CPU/RAM/connection/worker gibi kaynakların kontrolsüz tüketilmesi."
           },
           {
+            "type": "p",
+            "text": "Bu modeli [web ve yazılım altyapısında kaynak limitleme güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) olarak okumak; endpoint korumasını kapasite, kullanıcı deneyimi ve güvenlik gereksinimleriyle birlikte tasarlamayı sağlar."
+          },
+          {
             "type": "h3",
             "text": "Kaynak sömürme saldırıları (resource exhaustion) nedir, nasıl önlenir?"
           },
@@ -50708,6 +50940,10 @@
           {
             "type": "p",
             "text": "Limitler; saldırganın “sonsuz deneme” ve “sonsuz kaynak tüketimi” imkânını kısar. Aynı zamanda gerçek kullanıcıların trafik dalgalanmasında tamamen kaybolmasını engeller. Sheet’teki veri noktasıyla uyumlu olarak; limit stratejisi oturan projelerde ani artışlar kesintiye dönüşmeden kontrollü yavaşlama ile yönetilebilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [resource exhaustion saldırısı nedir](https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin) sorusu WAF, bot filtreleri ve edge korumayla birlikte ele alındığında; hangi isteğin bloklanacağı ve hangi akışın korunacağı daha net tanımlanır."
           },
           {
             "type": "h3",
@@ -50756,6 +50992,10 @@
           {
             "type": "p",
             "text": "Önce kritik iş akışları için (login/booking/search, rapor/export) normal kullanım desenini ölçün; p95/p99 ve peak değerleri çıkarın. Sonra OS ve uygulama seviyesinde makul sınırlar koyup, aşımlarda 429/503 gibi kontrollü yanıt ve backoff stratejisi uygulayın. Hedef; “tam çöküş” yerine “kısa süreli kontrollü yavaşlama”dır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kapasite fotoğrafı çıkarılmadan [açık endpoint ve zafiyet kontrolü](https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin) yapılmazsa, güncel olmayan servisler veya verimsiz uçlar kaynak baskısını gereksiz büyütebilir."
           },
           {
             "type": "h3",
@@ -50957,6 +51197,10 @@
             "text": "Örnek yaklaşım; login’de sıkı IP/kullanıcı limitleri, search’te kısa pencereli hız sınırı ve cache, booking’de daha toleranslı ama abuse’ı yakalayan kurallar, export’ta ise asenkron kuyruk + token bazlı limit ve maksimum eşzamanlı job sınırıdır. Değerler, gerçek kullanım loglarından türetilip iteratif ayarlanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Turizm projelerinde [otel rezervasyon arama endpoint limitleri](https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi) özellikle müsaitlik, fiyat sorgusu ve rezervasyon akışında kritiktir; yanlış eşikler gerçek talebi de bot trafiği gibi bastırabilir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check: Profil bazlı limit"
           },
@@ -51007,6 +51251,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu alarm seti, [kaynak tüketimi alarmı ve incident yönetimi](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) ile birleştiğinde kapasite sorunu, saldırı dalgası ve yanlış eşik kaynaklı olaylar daha hızlı ayrıştırılabilir."
+          },
+          {
             "type": "h3",
             "text": "Alarm stratejisi (az ama etkili)"
           },
@@ -51021,7 +51269,7 @@
           },
           {
             "type": "p",
-            "text": "Bu sinyaller, raporlama panellerine bağlanmalı. Sheet’teki bağlantı notuyla uyumlu olarak; özellikle rapor/export akışlarının izlenmesi için /tr/raporlama/satis-donusum ve /tr/veri-analiz-ve-raporlama ile birlikte düşünülmelidir."
+            "text": "Bu sinyaller, raporlama panellerine bağlanmalı. Özellikle [limitlerin satış ve dönüşüm akışına etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) rezervasyon, ödeme ve form uçlarında yanlış eşiklerin gelir kaybı üretip üretmediğini gösterir; [throttle edilen isteklerin raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) ise endpoint yükü, 429/503 trendleri ve queue davranışını operasyon dashboard’una taşır."
           },
           {
             "type": "h3",
@@ -51164,6 +51412,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu modeli canlı altyapınıza uyarlamak için [Sunucu ve Güvenlik hizmetiyle kaynak limitleme güvenliği kurun](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama öncesi temel sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           },
@@ -51292,7 +51544,7 @@
     },
     "h1": {
       "title": "Patch Yönetimi ve Zafiyet Taraması: Web Sunucuları İçin Güncelleme Stratejisi",
-      "intro": "Bir web sunucusunu güvenli tutmanın en “sıkıcı ama en kritik” işi patch yönetimidir. Sıkıcıdır çünkü sürekli tekrar ister; kritiktir çünkü saldırganların büyük kısmı yeni bir şey keşfetmek yerine bilinen açıkları tarayıp istismar eder. Otel tarafında PMS/rezervasyon sistemleri; B2B’de portal/API sunucuları genellikle 7/24 çalışır ve kesinti maliyeti yüksektir. Bu rehber; “yama yapalım mı, bozulur mu?” sorusunu scan + test + rollback üçlüsüyle yönetilebilir hale getirir ve patch’i rastgele değil pipeline olarak kurar.",
+      "intro": "Bir web sunucusunu güvenli tutmanın en “sıkıcı ama en kritik” işi patch yönetimidir. Sıkıcıdır çünkü sürekli tekrar ister; kritiktir çünkü saldırganların büyük kısmı yeni bir şey keşfetmek yerine bilinen açıkları tarayıp istismar eder. Otel tarafında PMS/rezervasyon sistemleri; B2B’de portal/API sunucuları genellikle 7/24 çalışır ve kesinti maliyeti yüksektir. Bu rehber; “yama yapalım mı, bozulur mu?” sorusunu scan + test + rollback üçlüsüyle yönetilebilir hale getirir ve patch’i rastgele değil pipeline olarak kurar. Bu çerçevede [patch yönetimi nedir](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusunu tek seferlik iş değil, sürdürülebilir bir operasyon modeli olarak ele almak gerekir.",
       "quickSummary": [
         "1) Vulnerability scan periyodunu ve kapsamını tanımlayın.",
         "2) Bulguları risk, internet maruziyeti ve iş kritikliğiyle önceliklendirin.",
@@ -51364,12 +51616,20 @@
             "text": "Patch yönetimi; işletim sistemi, paketler, runtime ve servislerdeki güvenlik güncellemelerini planlı biçimde uygulama disiplinidir. Kritik olmasının nedeni basit: güncellenmeyen sistem, bilinen zafiyetleri taşır. Bu zafiyetler “teorik” değildir; otomatik tarama/bot trafiği tarafından sürekli yoklanır."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [web ve yazılım altyapısında güvenli güncelleme stratejisi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yalnızca ilk kurulum aşamasında değil, sunucunun tüm yaşam döngüsünde korunması gereken bir disiplin olarak düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Patch yönetimi nedir, web sunucuları için neden önemlidir?"
           },
           {
             "type": "p",
             "text": "Patch yönetimi; güvenlik ve stabilite güncellemelerini belirli bir süreçle uygulamaktır. Web sunucuları için önemlidir çünkü internete açık bileşenler bilinen açıklar üzerinden hızlıca istismar edilebilir; düzenli patch döngüsü hem saldırı riskini hem de acil kriz yamaları ihtiyacını azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Risk seviyelerini kapatma sırasına dökmek için [hardening baseline ile patch önceliklendirme](https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi) yaklaşımı, hangi açığın önce ele alınacağını daha net hale getirir."
           },
           {
             "type": "h3",
@@ -51416,7 +51676,7 @@
               "Patch’i “iş” değil “süreç” yap: politika + takvim + ölçüm.",
               "Staging olmadan prod patch yapma; zorunluysa kontrollü yap.",
               "Rollback’ı prosedürleştir; tatbik et.",
-              "Patch sonrası uptime ve performans etkisini izle (Internal link: /tr/seo/teknik-seo)."
+              "Patch sonrası uptime ve performans etkisini mutlaka izle."
             ]
           },
           {
@@ -51440,6 +51700,10 @@
           {
             "type": "p",
             "text": "Genel yaklaşım; düzenli periyodik tarama (haftalık/aylık) ve büyük değişikliklerden sonra (release/upgrade) ek tarama yapmaktır. Kritik sistemlerde tarama daha sık, düşük riskli ortamlarda daha seyrek olabilir; önemli olan taramanın “aksiyona” bağlanmasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Tarama sıklığını tek başına değil, [vulnerability scan workflow](https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model) ile doğrulama ve sürekli güvenlik testleri akışıyla birlikte kurmak daha sağlıklı bir model sağlar."
           },
           {
             "type": "h3",
@@ -51496,7 +51760,7 @@
               "Tarama → aksiyon bağlantısını kur: her bulgu bir owner ve tarih alsın.",
               "Risk önceliklendirmede “internet exposure + iş kritikliği”ni ekle.",
               "Fix sonrası doğrulama taramasını standart yap.",
-              "Log ve kayıtları KVKK kapsamında sakla (Internal link: /tr/raporlama/kvkk-veri-guvenligi)."
+              "Log ve kayıtları [zafiyet kayıtları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla sakla."
             ]
           }
         ]
@@ -51516,6 +51780,10 @@
           {
             "type": "p",
             "text": "Evet, staging/test olmadan doğrudan canlıya almak risklidir; çünkü bağımlılıklar ve konfigürasyon farklılıkları sürpriz çıkarabilir. En sağlıklı plan; önce tarama sonuçlarına göre önceliklendirmek, staging’de test etmek, planlı bakım penceresinde deploy etmek ve bozulursa hızla geri dönecek rollback adımını hazır tutmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Bu aşamada [güncelleme ve rollback planı](https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi) yalnızca yedek alma kararı değil, restore testi ve geri dönüş süresini de tanımlayan operasyonel bir güvence olarak yazılmalıdır."
           },
           {
             "type": "h3",
@@ -51548,6 +51816,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Özellikle büyük sürüm geçişlerinden sonra [güncelleme sonrası teknik SEO kontrolü](https://dgtlface.com/tr/seo/teknik-seo) yapmak; hız, uptime, yönlendirme ve crawl tarafında sessiz bozulmaları erken fark etmeyi sağlar."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check: Bakım penceresi + rollback"
           },
@@ -51570,7 +51842,7 @@
               "Bakım penceresini iş takvimine bağla (otel sezonu/B2B SLA).",
               "Rollback’ı “sadece doküman” değil “tatbikat” yap.",
               "Patch sonrası ölçüm (uptime/perf) raporu çıkar.",
-              "Büyük upgrade’lerde CWV ve uptime etkisini izle (Internal link: /tr/seo/teknik-seo)."
+              "Büyük upgrade’lerde CWV ve uptime etkisini ayrı bir kontrol adımı olarak izle."
             ]
           },
           {
@@ -51599,6 +51871,10 @@
               "Daha sıkı SLA ve daha dikkatli bakım penceresi",
               "Entegrasyon bağımlılıkları (PMS/OTA) nedeniyle staging testleri daha kritik"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bakım penceresi planlanırken [PMS entegrasyonlarında güvenli güncelleme planı](https://dgtlface.com/tr/otel/pms-entegrasyonu) rezervasyon motoru, API bağımlılıkları ve operasyon kesintisi riskiyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -51640,7 +51916,7 @@
               "Risk bazlı SLA tanımlı",
               "Staging testleri kapsamlı",
               "Rollback yöntemi seçili ve tatbik edilmiş",
-              "Bakım-destek süreciyle senkron (Internal link: /tr/yazilim/bakim-ve-destek)"
+              "Bakım-destek süreciyle senkron"
             ]
           },
           {
@@ -51650,7 +51926,7 @@
             "items": [
               "Otel/B2B kritik sistemleri tier’le; patch önceliğini buna göre belirle.",
               "Risk bazlı SLA koy; kritik bulgu = hızlı kapanış.",
-              "Bakım-destek ile patch takvimini birleştir (Internal link: /tr/yazilim/bakim-ve-destek).",
+              "Bakım-destek ile patch takvimini birleştir.",
               "Büyük patch’lerde teknik SEO etkisini gözlemle (redirect/caching/CWV)."
             ]
           },
@@ -51764,6 +52040,10 @@
               "Rollback runbook",
               "Post-deploy rapor şablonu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu operasyonu sürdürülebilir hale getirmek için [Sunucu ve Güvenlik hizmetiyle patch yönetimi sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Teknik detaylara hızlıca dönmek isterseniz [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfası da yardımcı olur."
           },
           {
             "type": "media",
@@ -51898,7 +52178,7 @@
     },
     "h1": {
       "title": "Ağ Segmentasyonu ve DMZ: Web, Uygulama ve Veritabanı Katmanlarını Ayırmak",
-      "intro": "Birçok altyapı “başta küçükken” tek ağda başlar; sonra servisler ve entegrasyonlar eklenir, geçici portlar açılır, nihayetinde herkes her yere erişir hale gelir. Bu düz ağ modeli, ihlal anında saldırganın yatay yayılımını (lateral movement) kolaylaştırır: web sunucusuna giren, DB’ye ve PMS entegrasyonlarına kadar yürüyebilir. Otel tarafında PMS/rezervasyon sistemleri ve B2B’de portal/API/DB bileşenleri işin kalbi olduğu için bu riskin maliyeti yüksektir. Bu rehber; DMZ + tier’lı mimari + SG/VLAN kural setiyle “savunma derinliği” kurmayı ve gereksiz cross-segment erişimleri kapatmayı hedefler.",
+      "intro": "Birçok altyapı “başta küçükken” tek ağda başlar; sonra servisler ve entegrasyonlar eklenir, geçici portlar açılır, nihayetinde herkes her yere erişir hale gelir. Bu düz ağ modeli, ihlal anında saldırganın yatay yayılımını (lateral movement) kolaylaştırır: web sunucusuna giren, DB’ye ve PMS entegrasyonlarına kadar yürüyebilir. Otel tarafında PMS/rezervasyon sistemleri ve B2B’de portal/API/DB bileşenleri işin kalbi olduğu için bu riskin maliyeti yüksektir. Bu rehber; DMZ + tier’lı mimari + SG/VLAN kural setiyle “savunma derinliği” kurmayı ve gereksiz cross-segment erişimleri kapatmayı hedefler. Bu çerçevede [ağ segmentasyonu DMZ nedir](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusu, yalnızca ağ tasarımı değil doğrudan sunucu güvenliği mimarisinin parçası olarak ele alınmalıdır.",
       "quickSummary": [
         "1) DMZ, web, app, DB, yönetim, monitoring ve backup segmentlerini tanımlayın.",
         "2) Default-deny yaklaşımıyla sadece gerekli portları açın.",
@@ -51974,6 +52254,10 @@
             "text": "Ağ segmentasyonu; altyapıyı “mantıksal bölgelere” ayırıp her bölge arasında kontrollü ve minimum erişim kurmaktır. Bu sayede bir servis ele geçirilse bile saldırganın diğer servislere geçmesi zorlaşır. Segmentasyon, hem on-prem VLAN’larla hem bulutta security group/network ACL gibi kontrollerle uygulanabilir; mantık aynıdır: default deny, ihtiyaç kadar izin."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [web app DB katmanlı mimari örneği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yalnızca performans veya ölçekleme kararı değil, saldırının yayılım alanını küçülten temel bir güvenlik mimarisi olarak düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Ağ segmentasyonu ve DMZ nedir, neden önemlidir?"
           },
@@ -52018,7 +52302,7 @@
               "Önce katmanları tanımla: DMZ(web) → app → DB → yönetim → yedek/monitor.",
               "Default deny ile başla; sadece gerekli portları aç.",
               "“Geçici kural” için kapanış tarihi zorunlu kıl.",
-              "Log/izleme trafiğini ayrı segmentte tasarla (Internal link: /tr/veri-analiz-ve-raporlama)."
+              "Log/izleme trafiğini ayrı segmentte tasarla ve erişim kurallarını yazılı hale getir."
             ]
           },
           {
@@ -52059,6 +52343,10 @@
           {
             "type": "p",
             "text": "DMZ’deki sunucuya yönetim erişimi; mümkünse bastion/SSM gibi tek noktadan ve kayıtlı olmalıdır (bu konu IAM yazınızla uyumludur). Bu, SSH/RDP yüzeyini küçültür."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [yönetim ağı için güvenli erişim modeli](https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli) kurulduğunda, DMZ ve iç segmentlere erişim VPN, bastion, SSM ve rol bazlı oturum kayıtlarıyla daha kontrollü hale gelir."
           },
           {
             "type": "h3",
@@ -52113,12 +52401,20 @@
             "text": "Bu, lateral movement’i azaltan temel kuraldır. App katmanı; auth, rate limit, input doğrulama ve audit gibi kontrollerin merkezi olabilir. DB’ye giden trafik; daha az noktadan geçer ve daha iyi izlenir."
           },
           {
+            "type": "p",
+            "text": "Bu tasarım, [lateral movement riskini azaltan Zero Trust yaklaşımı](https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis) ile birlikte kullanıldığında segmentler arası geçişleri minimum yetki ve sürekli doğrulama mantığıyla daha da sıkılaştırır."
+          },
+          {
             "type": "h3",
             "text": "Otel özel notu — PMS/rezervasyon sistemi nerede durmalı?"
           },
           {
             "type": "p",
             "text": "PMS/rezervasyon çekirdeği, DMZ dışında güvenli iç segmentte olmalıdır. Web DMZ, app katmanı üzerinden PMS ile konuşur; doğrudan erişim kapatılır. Bu hem erişim yüzeyini hem de KVKK riskini azaltır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [PMS API trafiğinde segmentasyon](https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi) ayrıca planlanmalı; otel tarafında [otel PMS hangi network segmentinde olmalı](https://dgtlface.com/tr/otel/pms-entegrasyonu) sorusu doğrudan API erişimi, entegrasyon sunucuları ve veri akışı mimarisiyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -52180,7 +52476,11 @@
           },
           {
             "type": "p",
-            "text": "Sadece web/app/DB değil; yönetim (admin), yedekleme (backup) ve monitoring (observability) ağları da ayrılmalıdır. Böylece gereksiz cross-segment erişimler azalır. Sheet’teki teknik notla uyumlu olarak; izleme ve loglama trafiği /tr/veri-analiz-ve-raporlama ve /tr/raporlama/kvkk-veri-guvenligi ile uyumlu kurgulanmalı; log erişimleri ve saklama politikaları net olmalıdır."
+            "text": "Sadece web/app/DB değil; yönetim (admin), yedekleme (backup) ve monitoring (observability) ağları da ayrılmalıdır. Böylece gereksiz cross-segment erişimler azalır. İzleme ve loglama trafiği için de segmentler arası erişim sınırları net olmalı; log erişimleri ve saklama politikaları yazılı şekilde yönetilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle kişisel verinin geçtiği veritabanı katmanında, erişim kayıtları ve saklama kuralları [veritabanı segmentinde veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla netleştirildiğinde segmentasyon yalnızca ağ değil denetlenebilirlik kontrolü de üretir."
           },
           {
             "type": "h3",
@@ -52256,6 +52556,10 @@
             "text": "PMS ve rezervasyon çekirdeği DMZ’de olmamalı; iç segmentte, yalnız uygulama katmanından kontrollü erişimle çalışmalıdır. Web katmanı sadece app katmanına konuşmalı, PMS/DB’ye doğrudan erişmemelidir. Bu model, ihlal anında yayılımı ve KVKK riskini azaltır."
           },
           {
+            "type": "p",
+            "text": "Kurulum aşamasında [PMS kurulumunda network segmentasyonu](https://dgtlface.com/tr/pms-ota/pms-kurulum) baştan tanımlanırsa web, uygulama, veritabanı, entegrasyon ve yönetim ağları ileride “geçici kural” baskısıyla daha az bozulur."
+          },
+          {
             "type": "h3",
             "text": "Fark yaratan mini bölüm (Competitor Gap): “Geçici portlar kalıcılaşmasın”"
           },
@@ -52286,7 +52590,7 @@
               "“Altın topoloji” diyagramı çıkar ve değişiklikte güncelle.",
               "Kural değişikliklerini PR/review benzeri süreçle yönet (IaC uyumlu).",
               "Geçici kuralları otomatik takip et ve kapat.",
-              "KVKK uyum hizmetiyle erişim loglarını teknik tedbir olarak konumlandır (Internal link: /tr/yazilim/kvkk-uyum-hizmeti)."
+              "Erişim loglarını teknik tedbir ve denetlenebilirlik boyutuyla ayrıca ele al."
             ]
           },
           {
@@ -52419,6 +52723,10 @@
               "Kurallarda owner + gerekçe + kapanış tarihi",
               "Periyodik kural temizlik planı var"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu mimariyi operasyonel olarak oturtmak için [Sunucu ve Güvenlik hizmetiyle ağ segmentasyonu yapınızı güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Uygulama detayları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -52559,7 +52867,7 @@
     },
     "h1": {
       "title": "Secrets Management: Parola, API Key ve Sertifika Yönetimi Güvenli Nasıl Yapılır?",
-      "intro": "Bir sistem “güvenli” görünse bile, bir API key’in yanlış yerde durması tüm güvenliği tek hamlede boşa çıkarabilir. Otel projelerinde PMS/OTA API key’leri; B2B’de CRM ve ödeme entegrasyon anahtarları doğrudan gelir ve operasyon akışlarına bağlıdır. Bu yüzden secrets management, teknik ekipler için “opsiyonel iyileştirme” değil, temel güvenlik standardıdır. Bu rehber; secret’ları koddan uzak tutmayı, vault/KMS ile rol bazlı erişimi, rotation/revocation ve audit logging ile denetlenebilir bir politika kurmayı adım adım ele alır.",
+      "intro": "Bir sistem “güvenli” görünse bile, bir API key’in yanlış yerde durması tüm güvenliği tek hamlede boşa çıkarabilir. Otel projelerinde PMS/OTA API key’leri; B2B’de CRM ve ödeme entegrasyon anahtarları doğrudan gelir ve operasyon akışlarına bağlıdır. Bu yüzden secrets management, teknik ekipler için “opsiyonel iyileştirme” değil, temel güvenlik standardıdır. Bu rehber; secret’ları koddan uzak tutmayı, vault/KMS ile rol bazlı erişimi, rotation/revocation ve audit logging ile denetlenebilir bir politika kurmayı adım adım ele alır. Bu yüzden [secrets management nedir](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusu, güncel bir sunucu güvenliği mimarisinin doğrudan parçası olarak ele alınmalıdır.",
       "quickSummary": [
         "1) Secret’ların envanterini çıkar (API key, token, sertifika, SSH key).",
         "2) Git/.env/not defteri kullanımını hedef olarak bitir.",
@@ -52628,6 +52936,10 @@
           {
             "type": "p",
             "text": "Secrets management; şifreler, API key’ler, token’lar, sertifikalar, SSH key’ler gibi hassas bilgileri güvenli saklama, güvenli paylaşma ve yaşam döngüsünü yönetme disiplinidir. “Güvenli saklamak” tek başına yetmez; kim erişebilir, ne kadar süre erişebilir, sızarsa nasıl iptal edilir ve erişimler nasıl kayıt altına alınır soruları birlikte yönetilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [web ve yazılım altyapısında parola ve anahtar yönetimi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) tarafında secret’ların merkezi, rotate edilebilir ve loglanabilir şekilde ele alınmasını zorunlu kılar."
           },
           {
             "type": "h3",
@@ -52775,6 +53087,10 @@
             "text": "Secret’lar vault/KMS’e kaydedilir, erişim politikaları (RBAC) ile hangi rolün hangi secret’ı okuyabileceği tanımlanır. Uygulamalar runtime’da token/kimlik ile doğrulanıp sadece gerekli secret’ları çeker. Erişimler audit log’a yazılır; rotation zamanı geldiğinde secret yenilenir, gerekirse eski secret revoke edilir ve uygulamalar yeni secret’a geçirilir."
           },
           {
+            "type": "p",
+            "text": "Bu model, [parola ve anahtar yönetimi](https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli) tarafında VPN, bastion, SSM, SSO ve rol bazlı erişim ilkeleriyle desteklendiğinde secret erişimi çok daha denetlenebilir hale gelir."
+          },
+          {
             "type": "h3",
             "text": "RBAC — “kim hangi secreti görebilir?”"
           },
@@ -52791,6 +53107,10 @@
               "Prod ve staging secret’ları ayrıdır",
               "Ajans/partner erişimi süreli ve logludur"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [secret yönetimi için hardening baseline](https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi) tanımlandığında prod/stage ayrımı, servis hesabı sınırları ve erişim politikaları sunucu güvenlik standardının kalıcı parçası olur."
           },
           {
             "type": "h3",
@@ -52881,7 +53201,15 @@
           },
           {
             "type": "p",
-            "text": "Kişisel veri erişimi olan sistemlerde “kim erişti?” sorusunu yanıtlamak önemlidir. Bu nedenle key/sertifika kullanım izleri ve erişim logları KVKK teknik tedbirleriyle uyumlu şekilde saklanmalıdır (Internal link: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti)."
+            "text": "Kişisel veri erişimi olan sistemlerde “kim erişti?” sorusunu yanıtlamak önemlidir. Bu nedenle key/sertifika kullanım izleri ve erişim logları KVKK teknik tedbirleriyle uyumlu şekilde saklanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu kayıt yapısı [secret audit logları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla birlikte ele alındığında, kimlik materyallerinin kullanımı hem denetlenebilir hem de veri güvenliği politikalarıyla uyumlu hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle sertifika yenileme ve hata takibi tarafında [sertifika yönetimi ve HTTPS sürekliliği](https://dgtlface.com/tr/seo/teknik-seo) kritik hale gelir; süresi dolan veya yanlış dağıtılan sertifikalar doğrudan erişilebilirlik ve SEO sorununa dönüşebilir."
           },
           {
             "type": "h3",
@@ -52957,6 +53285,10 @@
             "text": "Politika; secret’ların repo/.env’de tutulmasını yasaklamalı, vault/KMS kullanımını zorunlu kılmalı, erişimi rol bazlı sınırlandırmalı, rotation periyodu ve revocation prosedürü tanımlamalı ve tüm erişimleri audit log’la kayıt altına almalıdır. Prod secret’ları için daha sıkı yetki ve daha güçlü izleme uygulanmalıdır."
           },
           {
+            "type": "p",
+            "text": "Otel tarafında [API key nerede saklanmalı](https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi) sorusunun cevabı repo veya paylaşılan notlar değil; vault/KMS, dar scope, IP kısıtı ve kontrollü runtime erişimidir. Uygulama katmanında bu yapı [PMS API key güvenliği](https://dgtlface.com/tr/otel/pms-entegrasyonu) olarak planlandığında entegrasyon kırılmadan güvenlik standardı korunur."
+          },
+          {
             "type": "h3",
             "text": "Fark yaratan mini bölüm (Competitor Gap): “Eski çalışan erişimi” ve paylaşılmış secret riski"
           },
@@ -52987,7 +53319,7 @@
               "Secrets policy yaz: saklama, paylaşma, rotation, revocation.",
               "Denetimi otomatikleştir: repo secret scan + pipeline gate.",
               "Prod secret’ları için ayrı sıkı policy uygula.",
-              "KVKK uyum hizmetiyle erişim izlerini teknik tedbire bağla (Internal link: /tr/yazilim/kvkk-uyum-hizmeti)."
+              "Erişim izlerini audit ve offboarding süreçleriyle birlikte düzenli gözden geçir."
             ]
           },
           {
@@ -53125,6 +53457,10 @@
               "Revocation incident runbook’u",
               "Audit logging ve KVKK erişim politikası"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı canlı altyapınıza uyarlamak için [Sunucu ve Güvenlik hizmetiyle secret yönetimi sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Uygulama detayları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -53288,7 +53624,7 @@
     },
     "h1": {
       "title": "CIS Benchmark ve Hardening Baseline: Standart Bazlı Sunucu Güvenliği",
-      "intro": "Yeni sunucu kurulumlarında en sık iki sorun görülür: (1) herkes farklı “best practice” uygular, (2) küçük ama kritik ayarlar unutulur. Özellikle otel DMZ/web katmanında ve B2B portal/API sunucularında bu tutarsızlık; görünmeyen risk birikimine dönüşür. CIS gibi oturmuş benchmark’ları temel almak, “hangi ayar doğru?” tartışmasını azaltır ve minimum güvenlik barını standartlaştırır. Bu rehber; benchmark→baseline→otomatik compliance kontrol akışıyla hardening’i yaşayan bir sisteme dönüştürmeyi anlatır.",
+      "intro": "Yeni sunucu kurulumlarında en sık iki sorun görülür: (1) herkes farklı “best practice” uygular, (2) küçük ama kritik ayarlar unutulur. Özellikle otel DMZ/web katmanında ve B2B portal/API sunucularında bu tutarsızlık; görünmeyen risk birikimine dönüşür. CIS gibi oturmuş benchmark’ları temel almak, “hangi ayar doğru?” tartışmasını azaltır ve minimum güvenlik barını standartlaştırır. Bu rehber; benchmark→baseline→otomatik compliance kontrol akışıyla hardening’i yaşayan bir sisteme dönüştürmeyi anlatır. Bu nedenle [CIS Benchmark yaklaşımı](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yalnız belge seviyesi değil, operasyonel sunucu güvenliği standardı olarak ele alınmalıdır.",
       "quickSummary": [
         "1) OS ve web server envanterini çıkarıp uygun benchmark’ı seç.",
         "2) DMZ/web ve API/portal için ayrı kurum baseline profilleri oluştur.",
@@ -53353,6 +53689,10 @@
           {
             "type": "p",
             "text": "CIS Benchmark, işletim sistemleri ve yaygın bileşenler için “güvenli konfigürasyon” önerileri sunan, sektörde yaygın kabul görmüş bir referans setidir. Ama benchmark’ı olduğu gibi uygulamak her kurum için uygun olmayabilir; çünkü iş ihtiyaçları (remote erişim, log saklama, entegrasyonlar) farklıdır. Bu nedenle hedef; benchmark’ı “kaynak” olarak kullanıp kurum baseline’ına dönüştürmektir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, [standart bazlı sunucu güvenliği](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) tarafında kurulum, bakım ve ölçüm süreçlerini ortak bir referans etrafında topladığı için özellikle çok sunuculu yapılarda önemli bir avantaj sağlar."
           },
           {
             "type": "h3",
@@ -53428,6 +53768,10 @@
             "text": "Önce hedef sistemleri sınıflandırın (DMZ web, app, DB, API/portal). Sonra CIS benchmark’tan seçilmiş kontrolleri “kurum standardı”na çevirin ve uygulanabilir maddeleri netleştirin. Son adımda baseline’ı otomasyonla uygulayın (IaC/konfig yönetimi) ve compliance taramasıyla uyumu sürekli ölçün."
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi günlük operasyona çevirmek için [Linux ve Windows hardening checklist’i](https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber) yaklaşımı, benchmark maddelerini ekiplerin takip edebileceği uygulanabilir kontrol listelerine dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "Baseline içeriği (pratik bölümler)"
           },
@@ -53481,7 +53825,7 @@
               "Baseline’ı pass/fail kontrol listesine çevir.",
               "İstisna yönetimi ekle (süre, gerekçe, kapanış tarihi).",
               "Profil bazlı baseline tasarla (DMZ vs iç katman).",
-              "IaC/konfig yönetimi ile uygulamayı standardize et (Internal link: /tr/yazilim/bakim-ve-destek)."
+              "IaC/konfig yönetimi ile uygulamayı standardize et ve versiyon takibini koru."
             ]
           }
         ]
@@ -53501,6 +53845,10 @@
           {
             "type": "p",
             "text": "Compliance scan, sunucuya agent veya script yaklaşımıyla kurulur; baseline kontrollerini otomatik ölçer ve rapor üretir. Rapor; hangi maddelerin uyumlu/uyumsuz olduğunu gösterir ve düzeltme aksiyonlarına dönüşür. Patch sonrası veya değişiklik sonrası tarama çalıştırılarak drift erken yakalanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktılar operasyon tarafında [baseline eksikleri için patch yönetimi](https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin) akışına bağlanmalı; manuel ayar değişiklikleri ve ortam farkları için de [baseline’dan sapma kontrolü](https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu) düzenli olarak izlenmelidir."
           },
           {
             "type": "h3",
@@ -53525,7 +53873,15 @@
           },
           {
             "type": "p",
-            "text": "Hardening baseline, KVKK teknik tedbirlerinin “uygulandığını gösteren” kanıt üretir. Bu nedenle raporların saklanması, erişim kontrolü ve log/audit (kim erişti?) süreci /tr/raporlama/kvkk-veri-guvenligi ile uyumlu olmalıdır."
+            "text": "Hardening baseline, KVKK teknik tedbirlerinin “uygulandığını gösteren” kanıt üretir. Bu nedenle raporların saklanması, erişim kontrolü ve log/audit (kim erişti?) süreci veri güvenliği politikalarıyla uyumlu şekilde kurgulanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [hardening kontrolleri ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) birlikte ele alınmalı; erişim kayıtları, istisna kararları ve uyum raporları denetlenebilir bir kanıt seti üretmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı çıktılar karar desteğine dönüştürüldüğünde [Linux Windows uyum taraması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) sonuçları baseline skoru, açık kontrol listesi ve ekip bazlı dashboard’lar üzerinden daha rahat yönetilebilir."
           },
           {
             "type": "h3",
@@ -53604,6 +53960,10 @@
             "text": "Politika; hangi OS/web server benchmark’ının temel alındığını, DMZ/web ve API/portal için ayrı profilleri, zorunlu kontrolleri (erişim, port/servis, log/audit, secrets, patch sonrası tarama) ve istisna yönetimini içerir. Her kontrolün ölçüm yöntemi ve kanıt formatı tanımlı olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle web katmanında yapılan sıkılaştırmalar sonrasında [hardening sonrası teknik SEO kontrolü](https://dgtlface.com/tr/seo/teknik-seo) ile hız, uptime, yönlendirme ve crawl davranışının etkilenmediği doğrulanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Fark yaratan mini bölüm (Competitor Gap): “Baseline yaşayan dokümandır”"
           },
@@ -53632,8 +53992,8 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "Baseline’ı profil bazlı yaz ve versiyonla (v1.0, v1.1).",
-              "Patch/bakım süreçleriyle senkronla (Internal link: /tr/yazilim/bakim-ve-destek).",
-              "Uyum raporlarını KVKK kanıt setine bağla (Internal link: /tr/raporlama/kvkk-veri-guvenligi).",
+              "Patch ve bakım süreçleriyle baseline revizyonlarını senkronla.",
+              "Uyum raporlarını veri güvenliği kanıt setine bağla.",
               "365 günde bir baseline revizyon takvimi koy."
             ]
           },
@@ -53769,6 +54129,10 @@
               "Rapor→ticket→fix→re-scan akışı",
               "İstisna kaydı ve 365 günlük revizyon takvimi"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu standardı canlı altyapınıza uyarlamak için [Sunucu ve Güvenlik hizmetiyle hardening baseline sürecinizi oluşturun](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Uygulama detayları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -53958,7 +54322,7 @@
     },
     "h1": {
       "title": "Konfigürasyon Drift Tespiti: Staging ve Prod Ortamlarının Güvenlik Uyumu",
-      "intro": "İlk kurulumda staging ve prod “aynı” görünür; sonra gerçek hayat başlar: acil bir port açılır, bir node’a hızlı fix yapılır, bir paket güncellenir, bir kullanıcı eklenir… ve zamanla ortamlar ayrışır. Sonuç: staging’de çalışan prod’da bozulur, ya da sadece bir node’da garip bir hata görülür. Üstelik drift sadece performans değil; güvenlikte de kritik sapmalar üretir (unutulmuş firewall kuralı, fazla yetki, eski paket). Bu rehber; “beklenen durum” (IaC/baseline) ile “gerçek durum”u karşılaştırarak drift’i düzenli yakalayan ve sürdürülebilir şekilde azaltan bir model kurar.",
+      "intro": "İlk kurulumda staging ve prod “aynı” görünür; sonra gerçek hayat başlar: acil bir port açılır, bir node’a hızlı fix yapılır, bir paket güncellenir, bir kullanıcı eklenir… ve zamanla ortamlar ayrışır. Sonuç: staging’de çalışan prod’da bozulur, ya da sadece bir node’da garip bir hata görülür. Üstelik drift sadece performans değil; güvenlikte de kritik sapmalar üretir (unutulmuş firewall kuralı, fazla yetki, eski paket). Bu rehber; “beklenen durum” (IaC/baseline) ile “gerçek durum”u karşılaştırarak drift’i düzenli yakalayan ve sürdürülebilir şekilde azaltan bir model kurar. Bu yüzden [konfigürasyon drift nedir](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusu, yalnız operasyonel değil doğrudan güvenlik standardı açısından da kritik hale gelir.",
       "quickSummary": [
         "1) IaC veya hardening baseline’ı beklenen durumun tek referansı yap.",
         "2) Staging, prod ve her node’dan gerçek konfigürasyon verisini topla.",
@@ -54023,6 +54387,10 @@
           {
             "type": "p",
             "text": "Konfigürasyon drift; beklenen konfigürasyon ile gerçek sistem konfigürasyonunun zamanla farklılaşmasıdır. Drift, bazen “küçük bir ayar” gibi görünür ama etkisi büyüktür: güvenlik açıkları, stabilite problemleri ve debug maliyeti."
+          },
+          {
+            "type": "p",
+            "text": "Bu farklar özellikle çok ortamlı yapılarda [staging prod güvenlik farkları](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) olarak görünür hale gelir; ilk kurulumdan sonra sürdürülen kontrol eksikse küçük ayrışmalar zamanla büyük risk üretir."
           },
           {
             "type": "h3",
@@ -54096,12 +54464,20 @@
             "text": "Önce bir “beklenen konfigürasyon” referansı belirleyin (IaC veya hardening baseline). Sonra staging ve prod’dan konfig çıktıları alıp aynı kontrol setiyle karşılaştırın (portlar, kullanıcı/rol, paket sürümleri, policy’ler). Son adımda farkları kritik seviyeye göre sınıflandırıp, düzeltmeyi planlı şekilde uygulayın ve yeniden taramayla doğrulayın."
           },
           {
+            "type": "p",
+            "text": "Bu beklenen durumun net olması için [hardening baseline’dan sapma](https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi) ayrı bir kontrol başlığı olarak tanımlanmalı; bilinçli farklılık ile gerçek drift aynı sepete atılmamalıdır."
+          },
+          {
             "type": "h3",
             "text": "“Parite” hedefi: aynı olmak zorunda mı?"
           },
           {
             "type": "p",
             "text": "Her şey aynı olmak zorunda değil; ama farklar bilinçli ve dokümante olmalı. Örneğin staging’de debug açık olabilir; prod’da kapalı olmalıdır. Buradaki ana kural: “bilinen fark” ≠ “drift”."
+          },
+          {
+            "type": "p",
+            "text": "Aynı ayrışma performans ve erişilebilirlik tarafında da sorun çıkarabilir; özellikle [prod konfigürasyon farklarının teknik SEO etkisi](https://dgtlface.com/tr/seo/teknik-seo) hız, cache, yönlendirme ve crawl davranışında sessiz bozulmalar üretip üretmediğini görünür kılar."
           },
           {
             "type": "h3",
@@ -54126,7 +54502,7 @@
               "“İzinli farklar” listesini çıkar (allowed differences).",
               "Prod acil değişiklikleri için geri toplama SLA’sı koy.",
               "Staging’i güvenlik açısından “zayıf kopya” yapma.",
-              "Patch ve release sürecine drift taramasını ekle (Internal link: /tr/yazilim/bakim-ve-destek)."
+              "Patch ve release sürecine drift taramasını ekle."
             ]
           }
         ]
@@ -54160,6 +54536,10 @@
           {
             "type": "p",
             "text": "Sadece tespit yetmez; düzeltme döngüsü kurulmalıdır. IaC veya konfig yönetimiyle baseline “yeniden uygulanabilir” olursa drift hızla toparlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu noktada tespit edilen sapmaların [drift sonrası patch yönetimi](https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin) akışına girmesi önemlidir; eski paket, açık port veya agent eksikliği gibi bulgular sadece raporda kalmamalı, düzeltme workflow’una bağlanmalıdır."
           },
           {
             "type": "h3",
@@ -54208,6 +54588,10 @@
           {
             "type": "p",
             "text": "IaC (Terraform) ile plan/state üzerinden “beklenen vs gerçek” farkını görebilir, konfig yönetimi (Ansible) ile idempotent rolleri yeniden uygulayabilir ve compliance scan araçları/script’leriyle (agent→rapor) drift ölçümü yapabilirsiniz. En iyi sonuç; bu kontrolleri CI/CD ve bakım döngülerine entegre etmektir."
+          },
+          {
+            "type": "p",
+            "text": "Pratikte [IaC ile drift tespiti](https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi) yaklaşımı; Terraform, Ansible ve benzeri araçlarla beklenen durumun kodda tutulmasını ve farkların daha erken görünmesini sağlar."
           },
           {
             "type": "h3",
@@ -54268,7 +54652,7 @@
               "Drift taramasını bakım döngüsüne ekle (patch sonrası).",
               "Cluster node’larında per-node rapor üret.",
               "Düzeltmeyi otomatikleştir; manuel fix’i geri topla.",
-              "Release süreciyle entegre et (Internal link: /tr/yazilim/web-sitesi-gelistirme)."
+              "Release süreciyle entegre et ve yeniden doğrulamayı zorunlu kıl."
             ]
           }
         ]
@@ -54316,6 +54700,10 @@
             "text": "Manuel değişiklikleri sınırlayıp IaC/baseline’ı tek kaynak gerçek yapın. Drift taramasını periyodik ve tetikleyici (patch/release sonrası) çalıştırın; kritik sapmaları hızlıca geri toplayın. Node/cluster seviyesinde rapor üretip “tek node sorunu”nu erken yakalayın."
           },
           {
+            "type": "p",
+            "text": "Otel tarafında [PMS entegrasyonlarında ortam uyumu](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrıca izlenmelidir; staging ve prod arasındaki API bağlantısı, rezervasyon motoru davranışı ve entegrasyon ayarları farklılaştığında sorun yalnız güvenlikte değil gelir akışında da görünür hale gelir."
+          },
+          {
             "type": "h3",
             "text": "Fark yaratan mini bölüm (Competitor Gap): “Drift, kaçınılmaz ama yönetilebilir”"
           },
@@ -54346,7 +54734,7 @@
               "Drift taramasını “rutin” yap: patch + release sonrası.",
               "Allowed differences listesini yaz ve versiyonla.",
               "En kritik drift’lere otomatik alarm koy.",
-              "Bakım ve release süreçlerini tek takvimde yönet (Internal link: /tr/yazilim/bakim-ve-destek, /tr/yazilim/web-sitesi-gelistirme)."
+              "Bakım ve release süreçlerini tek takvimde yönet."
             ]
           },
           {
@@ -54459,6 +54847,10 @@
               "Kritik drift için alarm var",
               "Düzeltme sonrası re-scan yapılıyor"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu görünürlüğü operasyonel hale getirmek için [drift raporları ve uyum dashboard’u](https://dgtlface.com/tr/veri-analiz-ve-raporlama) üzerinde node bazlı farkları, allowed differences listesini ve tekrar eden sapmaları tek yerde izlemek büyük kolaylık sağlar. Süreci canlı altyapınıza uyarlamak için [Sunucu ve Güvenlik hizmetiyle ortam uyumu sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama detayları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -54691,7 +55083,7 @@
     },
     "h1": {
       "title": "Zero Trust Erişim Modeli: Otel ve Kurumsal Altyapılarda Zero Trust’a Geçiş",
-      "intro": "Klasik erişim modeli çoğu kurumda şuna dayanır: “VPN’e girdiysen içerisi güvenli.” Fakat otel ve B2B dünyasında gerçeklik farklıdır; call center, dış ofisler, ajanslar, üçüncü taraf vendor’lar ve remote ekipler arttıkça “içerisi” giderek büyür ve düz ağda bir sızıntı kolayca yayılır. Zero Trust; bu varsayımı terk ederek her isteği kullanıcı+cihaz+bağlam üzerinden doğrular ve erişimi uygulama/kaynak bazında sınırlar. Bu rehber, teorik tanımı “otel ve B2B topolojisine” oturtup kademeli geçiş yol haritası sunar.",
+      "intro": "Klasik erişim modeli çoğu kurumda şuna dayanır: “VPN’e girdiysen içerisi güvenli.” Fakat otel ve B2B dünyasında gerçeklik farklıdır; call center, dış ofisler, ajanslar, üçüncü taraf vendor’lar ve remote ekipler arttıkça “içerisi” giderek büyür ve düz ağda bir sızıntı kolayca yayılır. Zero Trust; bu varsayımı terk ederek her isteği kullanıcı+cihaz+bağlam üzerinden doğrular ve erişimi uygulama/kaynak bazında sınırlar. Bu rehber, teorik tanımı “otel ve B2B topolojisine” oturtup kademeli geçiş yol haritası sunar. Bu çerçevede [Zero Trust nedir VPN farkı](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusu, klasik çevre güvenliğinin ötesine geçen yeni erişim standardını anlamak için temel başlangıç noktasıdır.",
       "quickSummary": [
         "1) SSO + MFA ile kimliği merkezileştir ve rol matrisini oluştur.",
         "2) Kullanıcıyı ağa değil, yalnız gerekli uygulama ve kaynağa yetkilendir.",
@@ -54758,6 +55150,10 @@
             "text": "Perimetre güvenliği; ağı “iç/dış” diye böler ve içerideki trafiğe daha çok güvenme eğilimindedir. Zero Trust ise “trust-nothing, verify-always” yaklaşımıyla; içeride bile her isteği doğrulayıp yetkiyi minimize eder. Bu fark özellikle düz ağ ve geniş VPN erişimi olan yapılarda kritiktir."
           },
           {
+            "type": "p",
+            "text": "Bu yüzden [kurumsal altyapıda Zero Trust’a geçiş adımları](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yalnızca erişim politikasını değil, modern web ve yazılım altyapısının tamamında güvenli bağlantı yaklaşımını yeniden tanımlar."
+          },
+          {
             "type": "h3",
             "text": "Zero Trust nedir, klasik VPN/perimetre modelinden farkı nedir?"
           },
@@ -54819,6 +55215,10 @@
             "text": "Zero Trust’ın omurgası kimliktir: kullanıcı kimliği doğrulanmadan ve rol/politika belirlenmeden erişim verilmez. Burada hedef; dağınık hesapları tek merkezden yönetmek ve “erişim geri alma”yı hızlandırmaktır."
           },
           {
+            "type": "p",
+            "text": "Pratikte [kimlik ve cihaz temelli erişim](https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli) modeli; VPN, bastion, SSM, SSO ve rol bazlı yetki mantığını Zero Trust yaklaşımının uygulanabilir katmanına dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "SSO + MFA ile merkezi kimlik"
           },
@@ -54839,6 +55239,10 @@
           {
             "type": "p",
             "text": "Kullanıcı “ağa” değil “uygulamaya/kaynağa” yetkilendirilir. Örneğin call center ekibi sadece rezervasyon uygulamasına erişir; DB segmentine erişmez."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım özellikle [çağrı merkezi ekipleri için kontrollü erişim](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) tasarlanırken önemlidir; müşteri ve rezervasyon ekranlarına minimum yetkiyle bağlanmak, operasyonu yavaşlatmadan veri yüzeyini küçültür."
           },
           {
             "type": "h3",
@@ -54863,7 +55267,7 @@
               "Kimlik sağlayıcıyı tekleştir (SSO).",
               "Prod erişimde MFA ve süreli yetkiyi standart yap.",
               "Rol matrisini “iş akışlarına” göre yaz (rezervasyon/portal/CRM).",
-              "Audit log ile erişimi kanıtla (Internal link: /tr/raporlama/kvkk-veri-guvenligi)."
+              "Audit log ile erişimi kanıtla ve düzenli gözden geçir."
             ]
           }
         ]
@@ -54875,6 +55279,10 @@
           {
             "type": "p",
             "text": "Zero Trust’ta “kim” kadar “hangi cihazdan ve hangi bağlamdan” sorusu da önemlidir. Managed cihaz mı, güncel mi, güvenlik ajanı var mı, konum anomali mi? Bu bağlam sinyalleri, erişim kararını etkiler."
+          },
+          {
+            "type": "p",
+            "text": "Bu sinyallerin [Zero Trust erişim logları](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) ile izlenmesi; şüpheli oturum, bağlam değişimi ve anormal erişim denemelerinin incident sürecine hızlıca taşınmasını sağlar."
           },
           {
             "type": "h3",
@@ -54938,6 +55346,10 @@
           {
             "type": "p",
             "text": "Mikro segmentasyon, Zero Trust’ın ağ tarafındaki karşılığıdır: “ağa girdin” yerine “sadece gereken mikro kaynağa girebilirsin.” Bu; segmentasyon (DMZ/web–app–DB) yaklaşımını daha ince politika katmanına taşır."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [Zero Trust ve ağ segmentasyonu](https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak) birlikte düşünülmelidir; kimlik odaklı kararlar ağ ayrımıyla birleştiğinde lateral movement riski belirgin biçimde azalır."
           },
           {
             "type": "h3",
@@ -55058,7 +55470,15 @@
           },
           {
             "type": "p",
-            "text": "Zero Trust geçişi planlanırken erişim logları ve audit izleri KVKK teknik tedbirlerinde güçlü kanıt üretir. Bu nedenle /tr/yazilim/kvkk-uyum-hizmeti ve /tr/raporlama/kvkk-veri-guvenligi ile korelasyon kurulmalı; erişim kayıtlarının saklama ve erişim yetkileri netleştirilmelidir."
+            "text": "Zero Trust geçişi planlanırken erişim logları ve audit izleri KVKK teknik tedbirlerinde güçlü kanıt üretir. Bu nedenle erişim kayıtlarının saklama süresi, erişim yetkileri ve denetlenebilirlik kuralları baştan netleştirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu kayıt yapısı [yetki kayıtları ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) açısından kritik bir katmandır; kimlerin hangi sisteme, hangi bağlamda ve hangi süreyle eriştiğini kanıtlayabilmek hem operasyon hem denetim tarafında ciddi avantaj sağlar."
+          },
+          {
+            "type": "p",
+            "text": "Otel altyapılarında [otel için Zero Trust erişim modeli](https://dgtlface.com/tr/otel/pms-entegrasyonu) özellikle PMS, rezervasyon motoru ve API servislerine erişimde önem kazanır; aynı kullanıcıya her sisteme geniş ağ erişimi vermek yerine kaynak bazlı yetkilendirme daha güvenli bir yapı kurar."
           },
           {
             "type": "h3",
@@ -55183,6 +55603,10 @@
           {
             "type": "media",
             "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Bu dönüşümü kurumunuza uyarlamak için [Sunucu ve Güvenlik hizmetiyle bağlam temelli erişim modeli kurun](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Uygulama detayları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -55497,7 +55921,7 @@
     },
     "h1": {
       "title": "HTTP/2, HTTP/3 ve TLS Tuning: Güvenlik ile Performans Dengesini Kurmak",
-      "intro": "HTTPS performansı, çoğu zaman “güvenlik ayarları ağırlaştırır” önyargısıyla ele alınır. Oysa modern taşıma katmanında doğru seçimler, hem güvenliği hem hızı aynı anda iyileştirebilir: zayıf TLS sürümlerini kapatırken HTTP/2 ve HTTP/3’ün verimlilik kazanımlarını kullanabilirsiniz. Otel sitelerinde yüksek görsellik ve mobil kullanıcı oranı, B2B’de dashboard ve API trafiğinin sürekliliği; bu dengeyi daha da kritik kılar. Bu rehber; protokol modernizasyonunu (HTTP/1.1→2→3) TLS policy ve CDN/ALB ayarlarıyla birlikte ele alır.",
+      "intro": "HTTPS performansı, çoğu zaman “güvenlik ayarları ağırlaştırır” önyargısıyla ele alınır. Oysa modern taşıma katmanında doğru seçimler, hem güvenliği hem hızı aynı anda iyileştirebilir: zayıf TLS sürümlerini kapatırken HTTP/2 ve HTTP/3’ün verimlilik kazanımlarını kullanabilirsiniz. Otel sitelerinde yüksek görsellik ve mobil kullanıcı oranı, B2B’de dashboard ve API trafiğinin sürekliliği; bu dengeyi daha da kritik kılar. Bu rehber; protokol modernizasyonunu (HTTP/1.1→2→3) TLS policy ve CDN/ALB ayarlarıyla birlikte ele alır. Bu çerçevede [HTTP/2, HTTP/3 ve TLS ayarları](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) performans ve güvenliği birlikte düşünerek değerlendirilmelidir.",
       "quickSummary": [
         "1) HTTP/2’yi varsayılan protokol olarak doğrula; HTTP/3’ü uygun trafik segmentinde pilotla.",
         "2) TLS 1.2/1.3 policy kur; zayıf protokol ve cipher’ları ölçümlü biçimde kapat.",
@@ -55564,6 +55988,10 @@
             "text": "HTTP/1.1, yıllarca web’in standardıydı; ancak paralel istek yönetimi ve gecikme maliyetleri nedeniyle modern ihtiyaçlarda sınırlı kalır. HTTP/2; tek bağlantı üzerinde çoklu istek (multiplexing) ile verimliliği artırır. HTTP/3 ise QUIC (UDP tabanlı) üzerinde çalışır ve özellikle mobil ağlarda bağlantı değişimleri ve paket kayıplarında daha iyi deneyim sunabilir."
           },
           {
+            "type": "p",
+            "text": "Bu taşıma katmanı kararları, yalnızca protokol tercihi değil; [taşıma katmanı güvenlik optimizasyonu](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı içinde web altyapısının performans, erişilebilirlik ve güvenlik standardını birlikte tanımlayan bir parçadır."
+          },
+          {
             "type": "h3",
             "text": "HTTP/2 ve HTTP/3 nedir, HTTP/1.1’den farkları nelerdir?"
           },
@@ -55625,6 +56053,10 @@
             "text": "TLS policy, hem güvenliği hem performansı etkiler; çünkü handshake süresi, session reuse ve modern şifre kümeleri burada belirlenir. En temel hedef; zayıf protokolleri kapatıp modern sürümleri (TLS 1.2/1.3) etkin tutmaktır. Ancak güvenlik ile uyumluluk arasında planlı bir denge gerekir."
           },
           {
+            "type": "p",
+            "text": "Burada yapılacak [güvenli cipher suite seçimi](https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi), doğru HTTPS, HSTS ve sertifika temeli üzerine kurulduğunda hem güvenlik seviyesi hem de taşıma katmanı tutarlılığı daha sağlıklı yönetilir."
+          },
+          {
             "type": "h3",
             "text": "TLS sürüm ve cipher seçimi güvenliği ve hızı nasıl etkiler?"
           },
@@ -55681,7 +56113,7 @@
               "TLS policy’yi yazılı hale getir (min sürüm + cipher yaklaşımı).",
               "Legacy sürümleri kapatmayı kademeli uygula ve ölç.",
               "Session reuse + keep-alive ile handshake maliyetini düşür.",
-              "TLS değişikliklerini performans testleriyle birlikte doğrula (Internal link: /tr/seo/teknik-seo)."
+              "TLS değişikliklerini performans testleriyle birlikte doğrula."
             ]
           }
         ]
@@ -55693,6 +56125,10 @@
           {
             "type": "p",
             "text": "Bu bölümde amaç; “aynı ayar herkese uyar” yaklaşımından kaçınmaktır. Otel sitesinde görsel yoğunluk ve CDN önemi; B2B’de dashboard/API ve oturum yönetimi öne çıkar."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle ani trafik artışlarında veya yoğun API kullanımında [performans ve güvenlik dengesi](https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi) rate limit, throttling ve kaynak tüketimi kontrolüyle birlikte ele alındığında HTTP/TLS tuning daha sürdürülebilir hale gelir."
           },
           {
             "type": "h3",
@@ -55731,6 +56167,10 @@
           {
             "type": "p",
             "text": "HTTP/2/3 çoğu içerikte yalnız hız başlığıyla anlatılır. Buradaki fark; TLS policy değişikliklerini CWV/TTFB testleriyle birlikte ele almak ve güvenlik ayarlarının performans regresyonu üretmesini engellemektir."
+          },
+          {
+            "type": "p",
+            "text": "Turizm projelerinde bu denge, rezervasyon akışı ve entegrasyon yanıt süreleri açısından daha da görünür hale gelir; bu yüzden [otel siteleri için HTTP/2, HTTP/3 ve TLS optimizasyonu](https://dgtlface.com/tr/otel/pms-entegrasyonu) PMS, rezervasyon motoru ve API trafiğiyle birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -55779,6 +56219,18 @@
           {
             "type": "p",
             "text": "CDN/ALB’de HTTP/2 ve mümkünse HTTP/3’ü etkinleştirip TLS policy’yi TLS 1.2/1.3 ve güçlü cipher’larla standardize edin. Keep-alive ve session resumption ile handshake maliyetini azaltın, HSTS/redirect uyumunu doğrulayın ve değişiklikleri TTFB/CWV ölçümleriyle kontrol edin. Edge loglarını da izlenebilirlik için raporlama ve dashboard’lara bağlayın."
+          },
+          {
+            "type": "p",
+            "text": "Bu kontrolleri daha geniş bir operasyon listesine oturtmak için [TLS ve protokol güvenlik kontrolleri](https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber) bakışı faydalıdır; böylece HTTP/2, HTTP/3, HSTS ve cipher policy aynı sunucu güvenlik çerçevesinde takip edilir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca [HTTPS performansı ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) birlikte izlendiğinde response time, Core Web Vitals, crawl davranışı ve yönlendirme sağlığı üzerindeki etkiler daha erken fark edilir."
+          },
+          {
+            "type": "p",
+            "text": "Operasyonel tarafta ise [TLS performans metriklerinin raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) latency, handshake süresi, hata oranı ve uptime ilişkisini görünür hale getirerek tuning kararlarını veriyle destekler."
           },
           {
             "type": "h3",
@@ -55830,8 +56282,8 @@
             "items": [
               "Edge’de TLS policy ve HTTP/2’yi “default güvenli” standarda çek.",
               "HTTP/3’ü pilotla, ölç, sonra genişlet.",
-              "TTFB/CWV ölçümlerini release sürecine bağla (Internal link: /tr/yazilim/web-sitesi-gelistirme).",
-              "Teknik SEO ile birlikte değerlendirme yap (Internal link: /tr/seo/teknik-seo)."
+              "TTFB/CWV ölçümlerini release sürecine bağla.",
+              "Teknik SEO ve hata oranlarıyla birlikte değerlendirme yap."
             ]
           },
           {
@@ -55955,6 +56407,10 @@
               "Kademeli rollout ve rollback prosedürü",
               "365 günlük policy gözden geçirme takvimi"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktıları operasyonel olarak uygulamak isteyen ekipler için [Sunucu ve Güvenlik hizmetiyle taşıma katmanı güvenlik optimizasyonu sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) çağrısı; ölçüm, rollout ve güvenlik standardını tek çerçevede toplar. Ek karar noktaları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına geçebilirsiniz."
           },
           {
             "type": "media",
@@ -56325,7 +56781,7 @@
     },
     "h1": {
       "title": "Altyapı İzleme ve Incident Management: Güvenlik Odaklı Monitoring Modeli",
-      "intro": "Birçok ekip altyapıyı “çalışıyor mu?” diye izler; ama gerçek ihtiyaç üç parçalıdır: sağlık (health), performans (perf) ve güvenlik (security). Sadece log/SIEM kurmak, çoğu zaman olayları “olduktan sonra” görmenizi sağlar; oysa monitoring doğru kurgulanırsa sorunları büyümeden yakalarsınız: SSL sertifikası bitmeden, disk dolmadan, export/rapor yükü sunucuyu çökertmeden. Otel projelerinde sezon öncesi kapasite; B2B’de raporlama/export yükleri; incident yönetimi olmadan sürprize dönüşür. Bu rehber, monitoring’i incident management (on-call + postmortem) ile birleştirip sürdürülebilir bir operasyon standardı sunar.",
+      "intro": "Birçok ekip altyapıyı “çalışıyor mu?” diye izler; ama gerçek ihtiyaç üç parçalıdır: sağlık (health), performans (perf) ve güvenlik (security). Sadece log/SIEM kurmak, çoğu zaman olayları “olduktan sonra” görmenizi sağlar; oysa monitoring doğru kurgulanırsa sorunları büyümeden yakalarsınız: SSL sertifikası bitmeden, disk dolmadan, export/rapor yükü sunucuyu çökertmeden. Otel projelerinde sezon öncesi kapasite; B2B’de raporlama/export yükleri; incident yönetimi olmadan sürprize dönüşür. Bu rehber, monitoring’i incident management (on-call + postmortem) ile birleştirip sürdürülebilir bir operasyon standardı sunar. Bu nedenle [monitoring ile SIEM farkı](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yalnız araç seçimi değil operasyonel güvenlik standardı açısından da önemlidir.",
       "quickSummary": [
         "1) Monitoring’i health, performance ve security olmak üzere üç katmanda tasarla.",
         "2) Uptime, p95/5xx, SSL/domain expiry, capacity ve queue sinyallerini çekirdek alarm seti yap.",
@@ -56396,6 +56852,10 @@
             "text": "Monitoring, sistemin “şu an sağlıklı mı?” sorusuna cevap verir: uptime, latency, hata oranı, kaynak kullanımı gibi metriklerle erken uyarı üretir. SIEM ise daha çok güvenlik olaylarını log korelasyonu ile tespit etmeye odaklanır. İkisi birlikte kullanılır; ancak monitoring olmadan sertifika bitişi, disk doluluğu veya TTFB artışı gibi operasyonel sorunlar kullanıcı şikâyetine kadar görünmeyebilir."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşım, yalnız teknik alarm kurmaktan ibaret değildir; [güvenilirlik odaklı izleme](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) ile uptime, performans, sertifika ve güvenlik sinyallerini tek bir web altyapısı standardı içinde ele almak gerekir."
+          },
+          {
             "type": "h3",
             "text": "Monitoring nedir, SIEM’den farkı nedir?"
           },
@@ -56404,12 +56864,20 @@
             "text": "Monitoring; sağlık ve performans metrikleriyle erken uyarı verir. SIEM ise güvenlik loglarını toplayıp korele ederek şüpheli davranışları tespit eder. Monitoring genelde önleyici/erken, SIEM ise tespit/korelasyon odaklıdır; birlikte en iyi sonucu verir."
           },
           {
+            "type": "p",
+            "text": "Pratikte [monitoring ile SIEM farkı](https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi) doğru kurulduğunda; operasyonel alarmlar ile güvenlik log korelasyonu birbirini tamamlar ve olayın hem erken sinyalini hem de bağlamını daha hızlı görürsünüz."
+          },
+          {
             "type": "h3",
             "text": "Monitoring’i iş etkisi ile birlikte okumak"
           },
           {
             "type": "p",
             "text": "Teknik alarmın değeri iş etkisini gösterdiğinde artar. Otelde booking/search akışı yavaşladıysa gelir etkisi olabilir; B2B’de export kuyruğu tıkanırsa operasyon etkisi büyür. Bu yüzden monitoring KPI’ları satış/dönüşüm raporlarıyla ilişkilendirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [uptime sorunlarının satış dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) görünür hale geldiğinde; rezervasyon, form ve ödeme akışındaki kayıplar teknik ekip ile iş ekipleri arasında daha net konuşulabilir."
           },
           {
             "type": "h3",
@@ -56434,7 +56902,7 @@
               "Monitoring’i health+perf+security olarak tasarla.",
               "Uptime/SSL/latency üçlüsünü çekirdek yap.",
               "Alarmı dashboard + runbook ile anlamlı hale getir.",
-              "İş etkisini raporlamaya bağla (Internal link: /tr/raporlama/satis-donusum)."
+              "İş etkisini raporlamaya bağla."
             ]
           },
           {
@@ -56450,6 +56918,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, “neyi izleyeceğim?” sorusunu üç katmanda netleştirir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle güvenlik sinyallerinde [WAF ve DDoS alarm takibi](https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin) ile ani trafik artışı, blok patlaması ve saldırı kaynaklı performans bozulmalarını aynı model içinde değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -56593,6 +57065,10 @@
             "text": "İyi monitoring yalnız şu an kırıldı mı sorusunu değil, yakında kırılacak mı sorusunu da cevaplar. CPU/RAM/disk kapasitesi ve trafik/queue anomalileri bu nedenle birlikte izlenmelidir."
           },
           {
+            "type": "p",
+            "text": "Bu görünürlük, [monitoring dashboard’u ve performans raporlaması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) ile desteklendiğinde latency, hata oranı, alarm sayısı ve kapasite headroom gibi metrikler yönetim seviyesinde de takip edilebilir."
+          },
+          {
             "type": "h3",
             "text": "Capacity metrikleri"
           },
@@ -56665,6 +57141,10 @@
             "text": "Monitoring alarmla biterse gürültü olur; incident management ile birleşince operasyon standardına dönüşür. Amaç doğru kişiyi uyarmak, hızlı triage yapmak, çözmek ve öğrenmeyi kalıcılaştırmaktır."
           },
           {
+            "type": "p",
+            "text": "Turizm tarafında bu akış, PMS ve rezervasyon servislerine doğrudan dokunduğu için [incident management süreci otel B2B](https://dgtlface.com/tr/otel/pms-entegrasyonu) bağlamında API, rezervasyon motoru ve operasyon panellerinin birlikte izlenmesi gerekir."
+          },
+          {
             "type": "h3",
             "text": "Incident akışı (alert→triage→resolve→postmortem)"
           },
@@ -56698,6 +57178,10 @@
           {
             "type": "p",
             "text": "Önce kritik akışları tanımlayın ve bu akışların KPI’larına göre alarmları kurun. Sonra on-call sorumluluğu, triage şablonu ve çözüm runbook’larını oluşturun. Her ciddi olaydan sonra postmortem yapıp aksiyonları bakım döngüsüne bağlayın."
+          },
+          {
+            "type": "p",
+            "text": "Bazı olaylarda çözüm yalnız alarmı susturmak değildir; restore, rollback ve süreklilik kararları da devreye girer. Bu yüzden [incident sonrası disaster recovery](https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi) planı, kritik incident runbook’larının parçası olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -56848,6 +57332,10 @@
               "İş etkisi raporlama bağlantısı",
               "Yıllık alarm kalibrasyonu takvimi"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeveyi ekip içinde standarda dönüştürmek isterseniz [Sunucu ve Güvenlik hizmetiyle güvenilirlik odaklı izleme sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Temel karar başlıkları ve ek operasyon soruları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına geçebilirsiniz."
           },
           {
             "type": "media",
