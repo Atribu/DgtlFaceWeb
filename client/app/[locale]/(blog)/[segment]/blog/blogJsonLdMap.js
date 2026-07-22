@@ -88113,6 +88113,2254 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi",
+
+      "headline": "Konfigürasyon Yönetimi ve IaC: Terraform/Ansible ile Güvenlik Odaklı Altyapı",
+
+      "name": "Konfigürasyon Yönetimi ve IaC: Terraform/Ansible ile Güvenlik Odaklı Altyapı",
+
+      "description": "Terraform/Ansible ile Security-as-Code: firewall/security group, kullanıcı-yetki, paket politikaları; version control + code review; drift azaltma ve otel/B2B için IaC pipeline rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Configuration Management",
+
+        "Infrastructure as Code",
+
+        "Terraform",
+
+        "Ansible",
+
+        "Security as Code",
+
+        "Drift Reduction",
+
+        "Code Review",
+
+        "Firewall Rules",
+
+        "User Management"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Konfigürasyon Yönetimi ve IaC Güvenlik Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Konfigürasyon Yönetimi ve IaC: Terraform/Ansible ile Güvenlik Odaklı Altyapı", "item": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Konfigürasyon yönetimi ve IaC nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Konfigürasyon yönetimi sistem ayarlarını standartlaştırıp sürdürülebilir kılar; IaC ise altyapıyı kodla tanımlayıp repo üzerinden yönetir. Bu sayede drift azalır, değişiklikler denetlenebilir olur ve tekrarlanabilir güvenlik standardı oluşur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Terraform/Ansible ile güvenlik ayarlarını nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Terraform ile security group ve ağ erişim kurallarını kodla yönetirsiniz; Ansible ile kullanıcı/yetki, paket baseline ve hardening adımlarını idempotent rollere çevirirsiniz. PR ve plan-review ile değişiklikler kontrollü uygulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Elle sunucu ayarı yerine IaC kullanmanın avantajları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "IaC, tekrarlanabilir kurulum, değişiklik geçmişi, code review ile denetim ve drift azaltma sağlar. Elle ayarlarda bilgi kişilere bağlı kalır; IaC’de bilgi repo’da yaşar ve izlenebilir olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projeleri için IaC pipeline’ı nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Repo→PR→plan→review→apply akışı kurulmalı, staging/prod ortamları ayrılmalı ve apply yetkisi sınırlanmalıdır. Drift kontrolü periyodik çalıştırılıp sapmalar geri alınmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Terraform state neden güvenlik konusu?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "State, altyapı gerçeğini tutar ve yanlış yönetilirse hassas bilgi veya kontrol riski doğurabilir. State erişimi sınırlandırılmalı, şifrelenmeli ve ortamlar arası ayrıştırılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli",
+
+      "headline": "Kimlik ve Erişim Yönetimi: VPN, Bastion, SSM ve SSO ile Güvenli Erişim Modeli",
+
+      "name": "Kimlik ve Erişim Yönetimi: VPN, Bastion, SSM ve SSO ile Güvenli Erişim Modeli",
+
+      "description": "IAM rehberi: VPN, bastion host/SSM ile doğrudan SSH-RDP’yi kaldırma, SSO+RBAC ile rol bazlı yetki, oturum logları ve otel/B2B uzaktan erişim senaryoları.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Identity & Access Management",
+
+        "VPN",
+
+        "Bastion Host",
+
+        "Session Manager",
+
+        "Single Sign-On",
+
+        "RBAC",
+
+        "Secure Remote Access",
+
+        "Session Logging"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Kimlik ve Erişim Yönetimi (VPN, Bastion/SSM, SSO)",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kimlik ve Erişim Yönetimi: VPN, Bastion, SSM ve SSO ile Güvenli Erişim Modeli", "item": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kimlik ve erişim yönetimi (IAM) web altyapısında nasıl uygulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "IAM; SSO ile merkezi kimlik, RBAC ile rol bazlı yetki, VPN/allowlist ile ağ kısıtı ve bastion/SSM üzerinden kayıtlı oturumlar ile uygulanır. Böylece erişimler geri alınabilir ve denetlenebilir olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "VPN, bastion ve SSM ne işe yarar, nasıl konumlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "VPN erişimi kontrollü ağa taşır; bastion tek giriş noktası sağlar; SSM benzeri session manager oturumları merkezileştirip kayıt altına alır. Akış genelde SSO/VPN → bastion/SSM → hedef sunucu şeklindedir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SSO ile sunucu erişimini nasıl güvenli hâle getiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SSO ile kimliği tek merkezden yönetip MFA gibi kontrolleri standartlaştırırsınız. Sunucu erişimini rol bazında tanımlar, süreli/onaylı prod erişimi kurar ve offboarding’de tek noktadan kapatırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için uzaktan erişim senaryoları nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ajans/remote erişim rol bazlı ve süreli olmalı, erişim yolu VPN + bastion/SSM üzerinden geçmelidir. Oturum kayıtları SIEM’e akmalı ve gerektiğinde hızlı geri alınabilir olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Doğrudan SSH/RDP’yi kaldırmak neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Public yönetim portları saldırı yüzeyini büyütür ve paylaşılan şifre/anahtar riskini artırır. Bastion/SSM ile erişimi tek kanala indirip oturumları kayıt altına alarak denetlenebilir hale getirirsiniz."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar",
+
+      "headline": "Container ve Docker Güvenliği: Host, Image ve Runtime İçin En İyi Uygulamalar",
+
+      "name": "Container ve Docker Güvenliği: Host, Image ve Runtime İçin En İyi Uygulamalar",
+
+      "description": "Container güvenliği rehberi: host OS hardening, güvenilir base image, image vulnerability scanning, secret yönetimi, runtime resource limit ve network policy; otel/B2B senaryoları.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Container Security",
+
+        "Docker Hardening",
+
+        "Base Image",
+
+        "Vulnerability Scanning",
+
+        "Secrets Management",
+
+        "Runtime Limits",
+
+        "Network Policy",
+
+        "Secure Container Stack"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Container ve Docker Güvenliği (Host, Image, Runtime)",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Container ve Docker Güvenliği: Host, Image ve Runtime İçin En İyi Uygulamalar", "item": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Container ve Docker güvenliği nasıl sağlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Host’u harden etmek, güvenilir/minimal base image kullanmak, image’leri düzenli taramak ve runtime’da least-privilege + resource/network limitleri uygulamakla sağlanır. Secret’lar image içine gömülmemelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Host ve image güvenliği için hangi adımları atmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Host tarafında OS hardening ve Docker daemon erişim kısıtı kurun, root/privileged kullanımını azaltın. Image tarafında resmî/minimal base seçin, CI’da vulnerability scan zorunlu yapın ve scan sonuçlarını redeploy döngüsüne bağlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Runtime güvenliğinde resource ve network limitleri neden önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Resource limitler CPU/memory taşmalarını sınırlayarak kesintileri azaltır; network policy ise servislerin sadece gerekli hedeflere erişmesini sağlayarak lateral movement ve sızıntı riskini düşürür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Docker kullanıyoruz ama güvenliği tam bilmiyoruz, nereden başlamalıyız?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Host→image→runtime sırasıyla başlayın: önce host hardening, sonra base image standardı ve tarama, en son runtime limit ve network policy. En hızlı kazanım, secret’ları image’dan çıkarmaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Secret’ları image içine koymak neden riskli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Image katmanları cache’lenir ve paylaşılabilir; sızıntı yüzeyi büyür. Secret’lar runtime’da secret manager üzerinden verilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi",
+
+      "headline": "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi",
+
+      "name": "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi",
+
+      "description": "Resource exhaustion’a karşı rehber: CPU/RAM/connection limitleri, endpoint bazlı rate limit-throttling, kuyruklama ve graceful degradation; otel booking/search ve B2B rapor/export örnekleri.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Resource Limits",
+
+        "Rate Limiting",
+
+        "Throttling",
+
+        "Queues",
+
+        "Critical Endpoints",
+
+        "Graceful Degradation",
+
+        "Overload Protection"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Kaynak Limitleri, Rate Limit ve Throttling Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kaynak sömürme saldırıları (resource exhaustion) nedir, nasıl önlenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Resource exhaustion, CPU/RAM/connection gibi kaynakları tüketerek hizmeti yavaşlatma veya çökertme durumudur. Önlemek için katmanlı kaynak limitleri, endpoint bazlı rate limit/throttling, kuyruklama ve graceful degradation birlikte uygulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CPU/RAM ve connection limitlerini nasıl ayarlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce normal ve peak kullanım desenini ölçüp p95/p99 değerlerini çıkarın. Sonra OS/web/app seviyesinde sınırlar koyup aşımlarda kontrollü yanıt ve backoff stratejisi uygulayın; hedef tam çöküş yerine kontrollü yavaşlamadır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rate limit ve throttling stratejisi nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Endpoint’leri kritik/ağır/normal diye sınıflandırın ve IP/kullanıcı/token bazlarını seçin. Kritik uçlarda sıkı rate limit, ağır uçlarda kuyruk + throttling; aşımlarda net mesaj ve retry-after ile kullanıcı deneyimini yönetin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel/B2B için login/booking/search ve rapor/export istekleri için örnek limitler neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Login’de sıkı IP/kullanıcı limitleri; search’te kısa pencere limit + cache; booking’de daha toleranslı ama korumalı profil; export’ta asenkron job + token/tenant limit + maksimum eşzamanlı job yaklaşımı önerilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Limit aşımında kullanıcıya ne göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "429/503 gibi kontrollü durum kodlarıyla net mesaj, retry-after ve alternatif yol (job ID, daha dar aralık) sunmak en sağlıklısıdır. Amaç kullanıcıyı kaybetmeden sistemi korumaktır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin",
+
+      "headline": "Patch Yönetimi ve Zafiyet Taraması: Web Sunucuları İçin Güncelleme Stratejisi",
+
+      "name": "Patch Yönetimi ve Zafiyet Taraması: Web Sunucuları İçin Güncelleme Stratejisi",
+
+      "description": "Web sunucuları için patch rehberi: vulnerability scan, risk bazlı önceliklendirme, bakım penceresi, staging testi, deploy ve rollback planı; otel/B2B örnek süreçler.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Patch Management",
+
+        "Vulnerability Scanning",
+
+        "Risk-Based Updates",
+
+        "Maintenance Windows",
+
+        "Staging Testing",
+
+        "Rollback Planning",
+
+        "Secure Maintenance"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Patch Yönetimi ve Zafiyet Taraması Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Patch Yönetimi ve Zafiyet Taraması: Web Sunucuları İçin Güncelleme Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Patch yönetimi nedir, web sunucuları için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Patch yönetimi, güvenlik ve stabilite güncellemelerini planlı bir süreçle uygulamaktır. Web sunucuları internete açık olduğu için bilinen açıklar hızla istismar edilebilir; düzenli patch döngüsü riskleri azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zafiyet taraması ne sıklıkla yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Periyodik tarama (haftalık/aylık) ve büyük değişikliklerden sonra ek tarama iyi bir çerçevedir. Kritik sistemlerde daha sık tarama yapılabilir; önemli olan taramayı aksiyona bağlamaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Patch’leri doğrudan canlıya almak riskli mi, nasıl planlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Staging/test olmadan doğrudan canlıya almak risklidir. Tarama sonuçlarına göre öncelik verip staging’de test etmek, planlı bakım penceresinde deploy etmek ve rollback planını hazır tutmak en güvenli yaklaşımdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B sistemleri için patch ve tarama checklist’i nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Risk bazlı SLA, tarama periyodu, staging testi, bakım penceresi, rollback runbook ve post-deploy health-check maddelerini içermelidir. Kritik sistemler (rezervasyon/portal) için daha sıkı hedefler tanımlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sunucu güncellemesi yapsak mı, bozulur mu kaygısını nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce tarama ile neyi kapattığınızı görün, staging’de test edin ve rollback yolunu hazır tutun. Bu üçlü, güncellemeyi kontrollü hale getirir ve kesinti riskini yönetilebilir kılar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin#howto",
+
+      "name": "Web Sunucularında Patch Pipeline Kurulumu",
+
+      "description": "Zafiyet taraması, risk bazlı önceliklendirme, staging testi, kontrollü deploy ve rollback ile web sunucularında güvenli güncelleme süreci kurma.",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Zafiyet taramasını çalıştır ve sınıflandır",
+
+          "text": "Tarama periyodunu belirle; bulguları kritik/önemli/düşük olarak sınıflandırıp owner ataması yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Planla ve staging’de test et",
+
+          "text": "Bakım penceresini planla; patch’leri staging’de uygulayıp smoke test ve performans kontrolü yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Üretime kontrollü al ve gözlemle",
+
+          "text": "Planlı pencerede deploy et; health-check ve izleme ile post-deploy gözlem yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Gerekirse rollback uygula",
+
+          "text": "Rollback runbook’u hazır tut; bozulma sinyali varsa hızlı geri dön ve raporla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak",
+
+      "headline": "Ağ Segmentasyonu ve DMZ: Web, Uygulama ve Veritabanı Katmanlarını Ayırmak",
+
+      "name": "Ağ Segmentasyonu ve DMZ: Web, Uygulama ve Veritabanı Katmanlarını Ayırmak",
+
+      "description": "Web–app–DB katmanlarını DMZ ve segmentasyonla ayırın: güvenlik grubu/VLAN kuralları, yönetim-yedekleme-izleme ağları, otel PMS ve B2B portal örnekleri.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Network Segmentation",
+
+        "DMZ",
+
+        "Web/Application/Database Tiers",
+
+        "Security Groups",
+
+        "VLAN",
+
+        "Defense in Depth",
+
+        "Lateral Movement Prevention"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Ağ Segmentasyonu ve DMZ Mimari Tasarımı",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Ağ Segmentasyonu ve DMZ: Web, Uygulama ve Veritabanı Katmanlarını Ayırmak", "item": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ağ segmentasyonu ve DMZ nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ağ segmentasyonu, sistemleri web/app/DB gibi katmanlara ayırıp aralarındaki erişimi sınırlandırmaktır; DMZ ise internete açık web katmanının tampon bölgesidir. Bu yaklaşım, ihlal anında saldırının tüm altyapıya yayılmasını zorlaştırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web, uygulama ve veritabanı katmanlarını nasıl ayırmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Web katmanını DMZ’ye koyup sadece app katmanına gerekli portlardan eriştirin. App katmanı DB’ye minimal portlarla erişsin; DB en iç segmentte kalsın ve web’den doğrudan erişim kapalı olsun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel PMS ve rezervasyon sistemi hangi segmentte olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PMS/rezervasyon çekirdeği DMZ’de olmamalı; iç segmentte, yalnız uygulama katmanından kontrollü erişimle çalışmalıdır. Bu model yayılımı ve veri riskini azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "B2B portaller için örnek ağ segmentasyonu nasıl görünür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DMZ’de portal/edge, iç segmentte API ve servisler, en içte DB; ayrıca yönetim, monitoring ve yedekleme için ayrı ağlar olacak şekilde katmanlı bir topoloji önerilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Segmentler arası kurallar neden zamanla bozulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yeni servis ve entegrasyonlarda ‘geçici’ portlar açılır ve kapanmayabilir. Owner, gerekçe, kapanış tarihi ve periyodik kural gözden geçirme bu riski azaltır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir",
+
+      "headline": "Secrets Management: Parola, API Key ve Sertifika Yönetimi Güvenli Nasıl Yapılır?",
+
+      "name": "Secrets Management: Parola, API Key ve Sertifika Yönetimi Güvenli Nasıl Yapılır?",
+
+      "description": "Parola/API key/token yönetimi: .env ve git’ten çıkar, Vault/KMS’de sakla, RBAC ile sınırla, rotation+revocation uygula ve audit log ile “kim erişti?”yi kanıtla.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Secrets Management",
+
+        "Vault",
+
+        "KMS",
+
+        "API Keys",
+
+        "Passwords",
+
+        "Tokens",
+
+        "Certificates",
+
+        "SSH Keys",
+
+        "Rotation Policies",
+
+        "Audit Logging"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Secrets Management ve Vault/KMS Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Secrets Management: Parola, API Key ve Sertifika Yönetimi Güvenli Nasıl Yapılır?", "item": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Secrets management nedir, neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Secrets management; parola, API key, token ve sertifikaları merkezi saklayıp RBAC ile sınırlandırmak, rotation/revocation yapmak ve audit log tutmaktır. Repo/.env sızıntıları ve eski çalışan erişimleri en yaygın risklerdir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Parola ve API key’leri kod deposunda tutmak neden risklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Repo geniş erişime açılır, yanlışlıkla paylaşılabilir ve CI loglarına sızabilir. Bir secret sızdığında saldırganlar otomatik kullanabilir; PMS/ödeme anahtarlarında etki çok büyür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Vault/KMS çözümleriyle secrets nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Secret’lar vault/KMS’te saklanır, RBAC ile erişim politikası tanımlanır ve uygulamalar runtime’da gerekli secret’ı çeker. Erişimler audit log’a yazılır; rotation zamanı gelince yenilenir, gerekirse revoke edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B entegrasyonları için secrets politikası nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Repo/.env yasağı, vault/KMS zorunluluğu, rol bazlı erişim, prod/stage ayrımı, rotation periyotları, incident revocation runbook’u ve audit log şartlarını içermelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "API key’leri nerede tutmalıyım, nasıl paylaşmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "API key’leri vault/KMS’te tutmalı, rol bazlı ve süreli erişim vermeli, paylaşımı audit log ile izlemelisiniz. Paylaşılan dosya/mesajlaşma yerine merkezi secret erişimi kullanın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi",
+
+      "headline": "CIS Benchmark ve Hardening Baseline: Standart Bazlı Sunucu Güvenliği",
+
+      "name": "CIS Benchmark ve Hardening Baseline: Standart Bazlı Sunucu Güvenliği",
+
+      "description": "Standart bazlı sunucu güvenliği: CIS benchmark seçimi, kurum hardening baseline’ı, compliance scan (agent→rapor), patch sonrası kontrol ve otel/B2B örnek politikalar.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "CIS Benchmark",
+
+        "Hardening Baseline",
+
+        "Compliance Scanning",
+
+        "Standardised Security",
+
+        "Agent-based Auditing",
+
+        "Drift Detection",
+
+        "Minimum Security Baseline"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "CIS Benchmark ve Hardening Baseline Uyum Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "CIS Benchmark ve Hardening Baseline: Standart Bazlı Sunucu Güvenliği", "item": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CIS Benchmark nedir, sunucu güvenliğinde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CIS Benchmark, OS ve yaygın bileşenler için güvenli konfigürasyon önerileri sunan standart rehberdir. Kurum baseline’ı bu benchmark’tan türetilir ve otomatik uyum taramalarıyla sürekli doğrulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hardening baseline nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sistemleri profil bazında sınıflandırın (DMZ web, API/portal vb.), CIS kontrollerinden kurumunuza uygun minimum seti seçin ve pass/fail ölçülebilir hale getirin. Uygulamayı otomasyona bağlayıp compliance scan ile doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otomatik uyum taraması (compliance scan) nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Agent veya script, baseline kontrollerini ölçer ve rapor üretir. Rapor uyumsuz maddeleri gösterir; aksiyonlara dönüşür ve düzeltme sonrası yeniden tarama ile doğrulanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek hardening politikası nasıl görünür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DMZ/web ve API/portal gibi profiller için ayrı baseline, erişim/port/servis/log/patch sonrası kontrol maddeleri, istisna yönetimi ve audit kanıt formatlarını içeren bir politika olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Baseline neden yaşayan doküman olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "OS sürümleri, tehdit modelleri ve güvenlik araçları değiştikçe kontrollerin güncellenmesi gerekir. Düzenli revizyon yapılmazsa baseline eskir ve uyum değeri düşer."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu",
+
+      "headline": "Konfigürasyon Drift Tespiti: Staging ve Prod Ortamlarının Güvenlik Uyumu",
+
+      "name": "Konfigürasyon Drift Tespiti: Staging ve Prod Ortamlarının Güvenlik Uyumu",
+
+      "description": "Config drift rehberi: IaC/baseline ile actual karşılaştırma, staging–prod parity, firewall/kullanıcı/paket drift’i, tarama araçları ve node/cluster tutarlılığı kontrol listesi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Config Drift Detection",
+
+        "Staging vs Production",
+
+        "Baseline vs Actual",
+
+        "IaC",
+
+        "Multi-Node Consistency",
+
+        "Compliance",
+
+        "Environment Parity"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Konfigürasyon Drift Tespiti ve Uyum İzleme Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Konfigürasyon Drift Tespiti: Staging ve Prod Ortamlarının Güvenlik Uyumu", "item": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Konfigürasyon drift nedir, neden tehlikelidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Konfigürasyon drift, staging/prod veya node’lar arasında ayarların zamanla sapmasıdır. Tehlikelidir çünkü güvenliği zayıflatır, stabilite sorunları üretir ve hataların sadece bir ortamda veya tek node’da ortaya çıkmasına yol açabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Staging ve prod ortamlarının güvenlik uyumunu nasıl kontrol ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "IaC veya hardening baseline’ı referans alıp staging ve prod’dan konfig çıktıları toplayın. Portlar, kullanıcı/rol, paket sürümü ve log/agent kapsamasını karşılaştırıp farkları risk seviyesine göre düzeltin ve yeniden taramayla doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Drift tespiti için hangi araç ve teknikleri kullanabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "IaC plan/state farkları, compliance scan (agent→rapor) ve idempotent konfig yönetimi (Ansible) drift tespitinde kullanılır. En iyi sonuç, bu kontrolleri patch ve release döngülerine entegre etmekle alınır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B ortamlarında drift riskini nasıl azaltırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Baseline’ı tek kaynak gerçek yapın, manuel değişiklikleri süreli ve kayıtlı yönetin, patch/release sonrası drift taraması çalıştırın ve kritik sapmaları hızlıca geri hizalayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Staging’de çalışan prod’da bozuluyorsa neye bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Allowed differences dışında kalan konfig farklarını çıkarın: açık portlar, paket sürümleri, policy’ler, env/secrets ve log/agent. Sonra kritik farkları baseline’a geri hizalayın ve yeniden test edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
 },
@@ -169390,7 +171638,742 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis",
+
+      "headline": "Zero Trust Erişim Modeli: Otel ve Kurumsal Altyapılarda Zero Trust’a Geçiş",
+
+      "name": "Zero Trust Erişim Modeli: Otel ve Kurumsal Altyapılarda Zero Trust’a Geçiş",
+
+      "description": "Otel ve B2B’de Zero Trust: kimlik temelli erişim, cihaz durumu, politika motoru ve mikro segmentasyonla “içerisi güvenli” varsayımını bırakın. Kademeli geçiş rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Zero Trust",
+
+        "Identity-Centric Security",
+
+        "Context-Aware Access",
+
+        "Device Posture",
+
+        "Policy Engine",
+
+        "Micro-Segmentation",
+
+        "Access Re-Architecture"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Zero Trust Erişim Mimarisi ve Geçiş Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Zero Trust Erişim Modeli: Otel ve Kurumsal Altyapılarda Zero Trust’a Geçiş", "item": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zero Trust nedir, klasik VPN/perimetre modelinden farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Zero Trust, ağ içinde olmayı güven saymaz; her isteği kullanıcı, cihaz ve bağlam ile doğrular ve erişimi kaynak bazında sınırlar. Klasik VPN modelinde iç ağa girince erişim genişleyebilir; Zero Trust’ta daralır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve kurumsal altyapılarda Zero Trust’a nasıl kademeli geçilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce SSO/MFA ile kimliği merkezileştirip rol bazlı erişim kurun. Sonra uygulama bazlı erişim ve segmentasyonu güçlendirin; en son cihaz durumu (posture) ve mikro segmentasyonla olgunlaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zero Trust için kimlik, cihaz ve ağ tarafında neler kurmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kimlikte SSO/MFA ve RBAC; cihazda posture/uyum kontrolleri; ağda tier segmentasyon ve mikro segmentasyon/policy katmanları gerekir. Audit log ve alarm seti tüm katmanlarda olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zero Trust ile VPN tamamen kaldırılır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her zaman tamamen kaldırılmaz; çoğu yapıda VPN bir süre geçiş katmanı olarak kalır. Zero Trust, VPN’i tek güven katmanı olmaktan çıkarır ve uygulama bazlı erişimle bağımlılığı kademeli azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zero Trust’ın en hızlı kazanımı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Prod erişimde SSO+MFA zorunluluğu ve ajans/vendor erişimini süreli ve loglu hale getirmektir. Bu iki adım risk ve denetim sorunlarını hızlı azaltır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak",
+
+      "headline": "HTTP/2, HTTP/3 ve TLS Tuning: Güvenlik ile Performans Dengesini Kurmak",
+
+      "name": "HTTP/2, HTTP/3 ve TLS Tuning: Güvenlik ile Performans Dengesini Kurmak",
+
+      "description": "HTTP/2/3 ve TLS tuning rehberi: TLS 1.2/1.3 + güçlü cipher seçimi, HTTP/3 (QUIC) avantajları, keep-alive/session reuse ve CDN/ALB ayarlarıyla CWV/TTFB dengesini kurun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "HTTP/2",
+
+        "HTTP/3",
+
+        "HTTP/1.1",
+
+        "TLS 1.2",
+
+        "TLS 1.3",
+
+        "Cipher Suites",
+
+        "QUIC",
+
+        "CDN",
+
+        "ALB Tuning",
+
+        "Core Web Vitals"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "HTTP/2–HTTP/3 ve TLS Tuning Stratejisi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "HTTP/2, HTTP/3 ve TLS Tuning: Güvenlik ile Performans Dengesini Kurmak", "item": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "HTTP/2 ve HTTP/3 nedir, HTTP/1.1’den farkları nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "HTTP/2 multiplexing ve header compression ile bağlantı başına verimliliği artırır. HTTP/3 (QUIC) özellikle mobil ağlarda kayıp ve bağlantı değişimlerinde daha iyi gecikme davranışı sağlayabilir; HTTP/1.1 daha sınırlıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "TLS sürüm ve cipher seçimi güvenliği ve hızı nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Zayıf sürüm/cipher’lar güvenlik riskini artırır; TLS 1.2/1.3 ve güçlü cipher’lar riski azaltır. Session reuse ve keep-alive ile handshake maliyeti düşürülerek performans korunabilir veya iyileştirilebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B siteleri için HTTP/TLS tuning’inde nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde mobil ve görsel yoğunluk nedeniyle HTTP/2/3 ve CDN caching önemlidir; B2B’de dashboard/API için TTFB ve session reuse kritik olur. Her değişiklik pilot+ölçüm+rollback ile yönetilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CDN/ALB katmanında hangi ayarları yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "HTTP/2’yi etkinleştirip HTTP/3’ü pilotlayın; TLS 1.2/1.3 policy uygulayın; session reuse/keep-alive ve cache ayarlarıyla handshake ve TTFB maliyetini düşürün."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "HTTP/2/3’e geçsem hızlanır mıyım, güvenlik için ne yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu senaryoda hızlanma mümkün; özellikle HTTP/2 multiplexing ve HTTP/3’ün mobil avantajı etkili olabilir. Güvenlik için zayıf TLS/cipher’ları kapatıp TLS 1.2/1.3 policy ile ilerleyin ve ölçümle doğrulayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli",
+
+      "headline": "Altyapı İzleme ve Incident Management: Güvenlik Odaklı Monitoring Modeli",
+
+      "name": "Altyapı İzleme ve Incident Management: Güvenlik Odaklı Monitoring Modeli",
+
+      "description": "Uptime, performans ve temel güvenlik metrikleriyle uçtan uca izleme: SSL/domain expiry, trafik anomali, kapasite; on-call, triage ve postmortem ile incident yönetimini standartlaştırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Infrastructure Monitoring",
+
+        "Uptime & Health Checks",
+
+        "Performance Monitoring",
+
+        "SSL Expiry",
+
+        "Alerting",
+
+        "Incident Management",
+
+        "On-call",
+
+        "Postmortem"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Altyapı Monitoring ve Incident Management Modeli",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Altyapı İzleme ve Incident Management: Güvenlik Odaklı Monitoring Modeli", "item": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Monitoring nedir, SIEM’den farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Monitoring sağlık ve performans metrikleriyle erken uyarı üretir; SIEM ise güvenlik loglarını korele ederek şüpheli davranışları tespit eder. İkisi birlikte en iyi sonucu verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi metrikleri ve alarmları kurmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uptime (HTTP/DNS/SSL), p95 latency ve 5xx, CPU/RAM/disk, SSL/domain expiry, trafik anomali ve export/rapor queue metrikleri temel seti oluşturur. Eşikler gerçek kullanım desenine göre kalibre edilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için incident management süreci nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik akışları tanımlayıp bu akışlara özel alarmlar kurun. On-call, triage şablonu, runbook ve postmortem döngüsüyle süreci standardize edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Uptime, sertifika ve kapasite problemlerini önceden nasıl yakalarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SSL expiry için 30/14/7 gün alarmları, disk/CPU headroom eşikleri ve anomali/queue alarmları kurarak risk büyümeden uyarı alırsınız. Bu alarmlar on-call akışına bağlı olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Alarm gürültüsü neden tehlikeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çok alarm, ekibin alarmları görmezden gelmesine yol açar. Az ama yüksek sinyal alarm seti, MTTR’ı düşürür ve incident performansını iyileştirir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
+
     },
   },
   en: {},

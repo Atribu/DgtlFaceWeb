@@ -46259,6 +46259,614 @@ export const BLOG_MEDIA_MAP = {
       alt: "DR deliverable seti, runbook ve tatbikat raporlarıyla incident-ready süreklilik",
       caption: "DR deliverable seti, runbook ve tatbikat raporlarıyla incident-ready süreklilik"
     }
+  },
+
+   "konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi":{
+    banner: {
+      src: "/images/blog/software/Software4-7/Software4-7-1.webp",
+      alt: "Konfigürasyon Yönetimi ve IaC: Terraform/Ansible ile Güvenlik Odaklı Altyapı",
+      caption: "Konfigürasyon Yönetimi ve IaC: Terraform/Ansible ile Güvenlik Odaklı Altyapı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-7/Software4-7-2.webp",
+      alt: "Repo ve code review ile güvenlik değişikliklerini yönetme, sunucu drift azaltma stratejisi",
+      caption: "Repo ve code review ile güvenlik değişikliklerini yönetme, sunucu drift azaltma stratejisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-7/Software4-7-3.webp",
+    alt: "Konfigürasyon yönetimi ve drift problemi, otel ve kurumsal altyapılar için bölüm ayırıcı",
+      caption: "Konfigürasyon yönetimi ve drift problemi, otel ve kurumsal altyapılar için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-7/Software4-7-4.webp",
+      alt: "Security-as-Code yaklaşımı, Terraform/Ansible ile denetlenebilir güvenlik değişiklikleri bölümü",
+      caption: "Security-as-Code yaklaşımı, Terraform/Ansible ile denetlenebilir güvenlik değişiklikleri bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-7/Software4-7-5.webp",
+      alt: "IaC pipeline repo→plan→apply akışı, güvenlik kaynaklarıyla tekrarlanabilir altyapı modeli",
+      caption: "IaC pipeline repo→plan→apply akışı, güvenlik kaynaklarıyla tekrarlanabilir altyapı modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-7/Software4-7-6.webp",
+      alt: "IaC ve güvenlik checklist’i, drift azaltma ve code review ile güvenlik standardı",
+      caption: "IaC ve güvenlik checklist’i, drift azaltma ve code review ile güvenlik standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-7/Software4-7-7.webp",
+      alt: "Drift ve güvenlik değişiklik KPI paneli, otel ve B2B altyapılarında izlenebilir konfigürasyon",
+      caption: "Drift ve güvenlik değişiklik KPI paneli, otel ve B2B altyapılarında izlenebilir konfigürasyon"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-7/Software4-7-8.webp",
+      alt: "IaC deliverable seti, modüller, pipeline ve denetim izleriyle sürdürülebilir güvenlik",
+      caption: "IaC deliverable seti, modüller, pipeline ve denetim izleriyle sürdürülebilir güvenlik"
+    }
+  },
+
+
+  "kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli":{
+    banner: {
+      src: "/images/blog/software/Software4-8/Software4-8-1.webp",
+      alt: "Kimlik ve Erişim Yönetimi: VPN, Bastion, SSM ve SSO ile Güvenli Erişim Modeli",
+      caption: "Kimlik ve Erişim Yönetimi: VPN, Bastion, SSM ve SSO ile Güvenli Erişim Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-8/Software4-8-2.webp",
+      alt: "Doğrudan SSH/RDP kaldırma yaklaşımı, bastion/SSM ile kayıtlı oturum ve rol bazlı erişim",
+      caption: "Doğrudan SSH/RDP kaldırma yaklaşımı, bastion/SSM ile kayıtlı oturum ve rol bazlı erişim"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-8/Software4-8-3.webp",
+    alt: "IAM ve erişim riskleri bölümü, otel ve kurumsal altyapı için görsel ayırıcı",
+      caption: "IAM ve erişim riskleri bölümü, otel ve kurumsal altyapı için görsel ayırıcı”"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-8/Software4-8-4.webp",
+      alt: "Bastion ve session manager ile merkezi oturum yönetimi, saldırı yüzeyi azaltma bölümü",
+      caption: "Bastion ve session manager ile merkezi oturum yönetimi, saldırı yüzeyi azaltma bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-8/Software4-8-5.webp",
+      alt: "VPN→bastion/SSM→sunucu akışı, SSO ve RBAC ile güvenli erişim mimarisi",
+      caption: "VPN→bastion/SSM→sunucu akışı, SSO ve RBAC ile güvenli erişim mimarisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-8/Software4-8-6.webp",
+      alt: "Erişim modeli checklist’i, SSH/RDP kaldırma ve oturum kayıtlarıyla IAM standardı",
+      caption: "Erişim modeli checklist’i, SSH/RDP kaldırma ve oturum kayıtlarıyla IAM standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-8/Software4-8-7.webp",
+      alt: "IAM KPI paneli, paylaşılan hesap azalması ve erişim geri alma süresi ile güvenli oturum yönetimi",
+      caption: "IAM KPI paneli, paylaşılan hesap azalması ve erişim geri alma süresi ile güvenli oturum yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-8/Software4-8-8.webp",
+      alt: "IAM deliverable seti, rol matrisi ve oturum log politikasıyla denetlenebilir erişim modeli",
+      caption: "IAM deliverable seti, rol matrisi ve oturum log politikasıyla denetlenebilir erişim modeli"
+    }
+  },
+
+
+  "container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar":{
+    banner: {
+      src: "/images/blog/software/Software4-9/Software4-9-1.webp",
+      alt: "Container ve Docker Güvenliği: Host, Image ve Runtime İçin En İyi Uygulamalar",
+      caption: "Container ve Docker Güvenliği: Host, Image ve Runtime İçin En İyi Uygulamalar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-9/Software4-9-2.webp",
+      alt: "Container güvenliği ve stabiliteyi birlikte artırma, image tarama ve runtime limit yaklaşımı",
+      caption: "Container güvenliği ve stabiliteyi birlikte artırma, image tarama ve runtime limit yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-9/Software4-9-3.webp",
+    alt: "Container güvenliğinin temelleri bölümü, host image runtime katmanlarıyla güvenlik yaklaşımı",
+      caption: "Container güvenliğinin temelleri bölümü, host image runtime katmanlarıyla güvenlik yaklaşımı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-9/Software4-9-4.webp",
+      alt: "Image güvenliği ve vulnerability taraması bölümü, otel ve B2B container projeleri için ayırıcı",
+      caption: "Image güvenliği ve vulnerability taraması bölümü, otel ve B2B container projeleri için ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-9/Software4-9-5.webp",
+      alt: "Hostten runtimea container güvenlik akışı, otel ve B2B için katmanlı güvenlik diyagramı",
+      caption: "Hostten runtimea container güvenlik akışı, otel ve B2B için katmanlı güvenlik diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-9/Software4-9-6.webp",
+      alt: "Docker container güvenlik checklist’i, host hardening ve runtime policy ile uygulanabilir rehber",
+      caption: "Docker container güvenlik checklist’i, host hardening ve runtime policy ile uygulanabilir rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-9/Software4-9-7.webp",
+      alt: "Image tarama ve runtime stabilite KPI paneli, OOM ve CPU spike ile container güvenliği takibi",
+      caption: "Image tarama ve runtime stabilite KPI paneli, OOM ve CPU spike ile container güvenliği takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-9/Software4-9-8.webp",
+      alt: "Container güvenlik deliverable seti, policy ve scan raporlarıyla sürdürülebilir güvenlik standardı",
+      caption: "Container güvenlik deliverable seti, policy ve scan raporlarıyla sürdürülebilir güvenlik standardı"
+    }
+  },
+
+  "performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software4-10/Software4-10-1.webp",
+      alt: "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi",
+      caption: "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-10/Software4-10-2.webp",
+      alt: "OS web server uygulama API katmanlarında limit stratejisi, kontrollü yavaşlama ve QoS modeli",
+      caption: "OS web server uygulama API katmanlarında limit stratejisi, kontrollü yavaşlama ve QoS modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-10/Software4-10-3.webp",
+    alt: "Resource exhaustion saldırıları ve limit yaklaşımı, performans ve güvenlik için bölüm ayırıcı",
+      caption: "Resource exhaustion saldırıları ve limit yaklaşımı, performans ve güvenlik için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-10/Software4-10-4.webp",
+      alt: "Rate limit ve throttling stratejisi bölümü, kritik endpoint koruması için görsel ayırıcı",
+      caption: "Rate limit ve throttling stratejisi bölümü, kritik endpoint koruması için görsel ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-10/Software4-10-5.webp",
+      alt: "OSten APIye kaynak ve rate limit katmanları, otel ve B2B için overload protection diyagramı",
+      caption: "OSten APIye kaynak ve rate limit katmanları, otel ve B2B için overload protection diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-10/Software4-10-6.webp",
+      alt: "Rate limit throttling checklist’i, kuyruk ve graceful degradation ile uygulanabilir strateji",
+      caption: "Rate limit throttling checklist’i, kuyruk ve graceful degradation ile uygulanabilir strateji"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-10/Software4-10-7.webp",
+      alt: "429 p95 ve queue depth KPI paneli, kaynak limitleriyle kontrollü performans yönetimi",
+      caption: "429 p95 ve queue depth KPI paneli, kaynak limitleriyle kontrollü performans yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-10/Software4-10-8.webp",
+      alt: "Limit stratejisi deliverable seti, endpoint profilleri ve izleme planıyla sürdürülebilir koruma",
+      caption: "Limit stratejisi deliverable seti, endpoint profilleri ve izleme planıyla sürdürülebilir koruma"
+    }
+  },
+
+
+  "patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin":{
+    banner: {
+      src: "/images/blog/software/Software4-11/Software4-11-1.webp",
+      alt: "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi",
+      caption: "Performans ve Güvenlik Orantısı: Kaynak Limitleri, Rate Limit ve Throttling Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-11/Software4-11-2.webp",
+      alt: "Scan plan test deploy rollback akışı, kontrollü güncelleme ve kesinti azaltma stratejisi",
+      caption: "Scan plan test deploy rollback akışı, kontrollü güncelleme ve kesinti azaltma stratejisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-11/Software4-11-3.webp",
+    alt: "Patch yönetimi neden kritik, risk bazlı bakım yaklaşımı için bölüm ayırıcı",
+      caption: "Patch yönetimi neden kritik, risk bazlı bakım yaklaşımı için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-11/Software4-11-4.webp",
+      alt: "Bakım penceresi ve rollback planı, üretime kontrollü patch uygulama bölümü ayırıcı",
+      caption: "Bakım penceresi ve rollback planı, üretime kontrollü patch uygulama bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-11/Software4-11-5.webp",
+      alt: "Scan to fix patch pipeline diyagramı, web sunucularında planlı güncelleme ve geri alma model",
+      caption: "Scan to fix patch pipeline diyagramı, web sunucularında planlı güncelleme ve geri alma model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-11/Software4-11-6.webp",
+      alt: "Patch ve zafiyet tarama checklist’i, staging testleri ve rollback ile uygulanabilir süreç",
+      caption: "Patch ve zafiyet tarama checklist’i, staging testleri ve rollback ile uygulanabilir süreç"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-11/Software4-11-7.webp",
+      alt: "Kritik zafiyet kapanma süresi KPI paneli, patch olgunluğu ve rollback izleme",
+      caption: "Kritik zafiyet kapanma süresi KPI paneli, patch olgunluğu ve rollback izleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-11/Software4-11-8.webp",
+      alt: "Patch deliverable seti, politika ve runbook ile kontrollü bakım penceresi yönetimi",
+      caption: "Patch deliverable seti, politika ve runbook ile kontrollü bakım penceresi yönetimi"
+    }
+  },
+
+
+  "ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak":{
+    banner: {
+      src: "/images/blog/software/Software4-12/Software4-12-1.webp",
+      alt: "Ağ Segmentasyonu ve DMZ: Web, Uygulama ve Veritabanı Katmanlarını Ayırmak",
+      caption: "Ağ Segmentasyonu ve DMZ: Web, Uygulama ve Veritabanı Katmanlarını Ayırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-12/Software4-12-2.webp",
+      alt: "Düz ağdan segmentli mimariye geçiş, güvenlik gruplarıyla erişimi daraltma ve yayılımı azaltma",
+      caption: "Düz ağdan segmentli mimariye geçiş, güvenlik gruplarıyla erişimi daraltma ve yayılımı azaltma"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-12/Software4-12-3.webp",
+    alt: "Ağ segmentasyonu ve DMZ kavramları, web altyapısı güvenliği için bölüm ayırıcı",
+      caption: "Ağ segmentasyonu ve DMZ kavramları, web altyapısı güvenliği için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-12/Software4-12-4.webp",
+      alt: "Web app DB katmanlı mimari ve tier’lı segmentasyon, otel ve B2B için bölüm ayırıcı",
+      caption: "Web app DB katmanlı mimari ve tier’lı segmentasyon, otel ve B2B için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-12/Software4-12-5.webp",
+      alt: "Web DMZ app DB segmentasyonu ağ diyagramı, yönetim ve yedekleme ağlarıyla katmanlı mimari",
+      caption: "Web DMZ app DB segmentasyonu ağ diyagramı, yönetim ve yedekleme ağlarıyla katmanlı mimari"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-12/Software4-12-6.webp",
+      alt: "Segmentasyon checklist’i, DMZ ve güvenlik gruplarıyla lateral movement önleme adımları",
+      caption: "Segmentasyon checklist’i, DMZ ve güvenlik gruplarıyla lateral movement önleme adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-12/Software4-12-7.webp",
+      alt: "Cross segment izin sayısı KPI paneli, ağ segmentasyonu olgunluğu ve audit bulguları takibi",
+      caption: "Cross segment izin sayısı KPI paneli, ağ segmentasyonu olgunluğu ve audit bulguları takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-12/Software4-12-8.webp",
+      alt: "Segmentasyon deliverable seti, ağ diyagramı ve kural setiyle sürdürülebilir güvenlik standardı",
+      caption: "Segmentasyon deliverable seti, ağ diyagramı ve kural setiyle sürdürülebilir güvenlik standardı"
+    }
+  },
+
+  "secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir":{
+    banner: {
+      src: "/images/blog/software/Software4-13/Software4-13-1.webp",
+      alt: "Secrets Management: Parola, API Key ve Sertifika Yönetimi Güvenli Nasıl Yapılır?",
+      caption: "Secrets Management: Parola, API Key ve Sertifika Yönetimi Güvenli Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-13/Software4-13-2.webp",
+      alt: "Uygulamadan vault KMS’e secret akışı, rol bazlı erişim ve rotation politikasıyla güvenli paylaşım",
+      caption: "Uygulamadan vault KMS’e secret akışı, rol bazlı erişim ve rotation politikasıyla güvenli paylaşım"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-13/Software4-13-3.webp",
+    alt: "Secrets management temelleri ve anti pattern’ler, otel ve B2B ekipleri için bölüm ayırıcı",
+      caption: "Secrets management temelleri ve anti pattern’ler, otel ve B2B ekipleri için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-13/Software4-13-4.webp",
+      alt: "Vault KMS ile RBAC ve audit log, güvenli secret saklama bölümü ayırıcı",
+      caption: "Vault KMS ile RBAC ve audit log, güvenli secret saklama bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-13/Software4-13-5.webp",
+      alt: "Uygulama vault KMS secrets yönetimi akışı, audit log ve rotation ile güvenli erişim diyagramı",
+      caption: "Uygulama vault KMS secrets yönetimi akışı, audit log ve rotation ile güvenli erişim diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-13/Software4-13-6.webp",
+      alt: "Secrets management checklist’i, repo dışı saklama ve rotation politikasıyla uygulanabilir güvenlik rehberi",
+      caption: "Secrets management checklist’i, repo dışı saklama ve rotation politikasıyla uygulanabilir güvenlik rehberi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-13/Software4-13-7.webp",
+      alt: "Rotation uyumu ve revocation süresi KPI paneli, otel ve B2B projelerinde secret hijyeni takibi",
+      caption: "Rotation uyumu ve revocation süresi KPI paneli, otel ve B2B projelerinde secret hijyeni takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-13/Software4-13-8.webp",
+      alt: "Secrets deliverable seti, policy ve RBAC matrisiyle denetlenebilir secret yönetimi standardı",
+      caption: "Secrets deliverable seti, policy ve RBAC matrisiyle denetlenebilir secret yönetimi standardı"
+    }
+  },
+
+
+
+  "cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi":{
+    banner: {
+      src: "/images/blog/software/Software4-14/Software4-14-1.webp",
+      alt: "CIS Benchmark ve Hardening Baseline: Standart Bazlı Sunucu Güvenliği",
+      caption: "CIS Benchmark ve Hardening Baseline: Standart Bazlı Sunucu Güvenliği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-14/Software4-14-2.webp",
+      alt: "Benchmark baseline compliance scan akışı, yeni sunucu açılışında standart bazlı hardening modeli",
+      caption: "Benchmark baseline compliance scan akışı, yeni sunucu açılışında standart bazlı hardening modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-14/Software4-14-3.webp",
+    alt: "CIS benchmark nedir ve nasıl kullanılır, sunucu güvenliği için bölüm ayırıcı",
+      caption: "CIS benchmark nedir ve nasıl kullanılır, sunucu güvenliği için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-14/Software4-14-4.webp",
+      alt: "Compliance scan ve otomatik raporlama, drift yakalama için bölüm ayırıcı",
+      caption: "Compliance scan ve otomatik raporlama, drift yakalama için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-14/Software4-14-5.webp",
+      alt: "Agent ile uyum taraması ve rapor akışı, hardening baseline doğrulama diyagramı",
+      caption: "Agent ile uyum taraması ve rapor akışı, hardening baseline doğrulama diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-14/Software4-14-6.webp",
+      alt: "Hardening baseline checklist’i, CIS benchmark’tan kurum standardına geçiş ve kontrol adımları",
+      caption: "Hardening baseline checklist’i, CIS benchmark’tan kurum standardına geçiş ve kontrol adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-14/Software4-14-7.webp",
+      alt: "Baseline uyum oranı ve drift bulgusu KPI paneli, standart bazlı sunucu güvenliği takibi",
+      caption: "Baseline uyum oranı ve drift bulgusu KPI paneli, standart bazlı sunucu güvenliği takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-14/Software4-14-8.webp",
+      alt: "Hardening deliverable seti, baseline dokümanı ve compliance raporlarıyla sürdürülebilir güvenlik standardı",
+      caption: "Hardening deliverable seti, baseline dokümanı ve compliance raporlarıyla sürdürülebilir güvenlik standardı"
+    }
+  },
+
+   "konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu":{
+    banner: {
+      src: "/images/blog/software/Software4-15/Software4-15-1.webp",
+      alt: "Konfigürasyon Drift Tespiti: Staging ve Prod Ortamlarının Güvenlik Uyumu",
+      caption: "Konfigürasyon Drift Tespiti: Staging ve Prod Ortamlarının Güvenlik Uyumu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-15/Software4-15-2.webp",
+      alt: "IaC baseline ile actual konfig karşılaştırma, drift raporu ve düzeltme döngüsüyle ortam paritesi",
+      caption: "IaC baseline ile actual konfig karşılaştırma, drift raporu ve düzeltme döngüsüyle ortam paritesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-15/Software4-15-3.webp",
+    alt: "Konfigürasyon drift nedir ve neden tehlikeli, staging prod paritesi için bölüm ayırıcı",
+      caption: "Konfigürasyon drift nedir ve neden tehlikeli, staging prod paritesi için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-15/Software4-15-4.webp",
+      alt: "Hardening drift ve enforcement yaklaşımı, multi node tutarlılık için bölüm ayırıcı",
+      caption: "Hardening drift ve enforcement yaklaşımı, multi node tutarlılık için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-15/Software4-15-5.webp",
+      alt: "Beklenen ve gerçek konfig karşılaştırma drift diyagramı, staging prod ve node uyumu modeli",
+      caption: "Beklenen ve gerçek konfig karşılaştırma drift diyagramı, staging prod ve node uyumu modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-15/Software4-15-6.webp",
+      alt: "Drift tespiti checklist’i, firewall user paket ve log drift’lerini yakalama ve düzeltme adımları",
+      caption: "Drift tespiti checklist’i, firewall user paket ve log drift’lerini yakalama ve düzeltme adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-15/Software4-15-7.webp",
+      alt: "Drift bulgusu ve parity uyum KPI paneli, tek node sorunlarını azaltan izleme göstergeleri",
+      caption: "Drift bulgusu ve parity uyum KPI paneli, tek node sorunlarını azaltan izleme göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-15/Software4-15-8.webp",
+      alt: "Drift deliverable seti, rapor ve düzeltme planı ile sürdürülebilir environment parity standardı",
+      caption: "Drift deliverable seti, rapor ve düzeltme planı ile sürdürülebilir environment parity standardı"
+    }
+  },
+
+
+  "zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis":{
+    banner: {
+      src: "/images/blog/software/Software4-16/Software4-16-1.webp",
+      alt: "Zero Trust Erişim Modeli: Otel ve Kurumsal Altyapılarda Zero Trust’a Geçiş",
+      caption: "Zero Trust Erişim Modeli: Otel ve Kurumsal Altyapılarda Zero Trust’a Geçiş"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-16/Software4-16-2.webp",
+      alt: "Identity policy segment resource akışı, Zero Trust mimarisi ve erişim kayıtlarıyla güvenli erişim",
+      caption: "Identity policy segment resource akışı, Zero Trust mimarisi ve erişim kayıtlarıyla güvenli erişim"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-16/Software4-16-3.webp",
+    alt: "Zero Trust ve klasik VPN modeli farkları, otel ve kurumsal erişim güvenliği için bölüm ayırıcı",
+      caption: "Zero Trust ve klasik VPN modeli farkları, otel ve kurumsal erişim güvenliği için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-16/Software4-16-4.webp",
+      alt: "    Mikro segmentasyon ve politika katmanları, Zero Trust geçiş planı için bölüm ayırıcı",
+      caption: "    Mikro segmentasyon ve politika katmanları, Zero Trust geçiş planı için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-16/Software4-16-5.webp",
+      alt: "Zero Trust katman diyagramı identity policy segment resource, otel ve B2B erişim topolojisi",
+      caption: "Zero Trust katman diyagramı identity policy segment resource, otel ve B2B erişim topolojisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-16/Software4-16-6.webp",
+      alt: "Zero Trust geçiş checklist’i, SSO MFA cihaz posture ve segmentasyon ile uygulanabilir yol haritası",
+      caption: "Zero Trust geçiş checklist’i, SSO MFA cihaz posture ve segmentasyon ile uygulanabilir yol haritası"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-16/Software4-16-7.webp",
+      alt: "MFA kapsaması ve yetkisiz erişim KPI paneli, Zero Trust olgunluk göstergeleri",
+      caption: "MFA kapsaması ve yetkisiz erişim KPI paneli, Zero Trust olgunluk göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-16/Software4-16-8.webp",
+      alt: "Zero Trust deliverable seti, rol matrisi ve policy planıyla denetlenebilir erişim dönüşümü",
+      caption: "Zero Trust deliverable seti, rol matrisi ve policy planıyla denetlenebilir erişim dönüşümü"
+    }
+  },
+
+
+  "http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak":{
+    banner: {
+      src: "/images/blog/software/Software4-17/Software4-17-1.webp",
+      alt: "HTTP/2, HTTP/3 ve TLS Tuning: Güvenlik ile Performans Dengesini Kurmak",
+      caption: "HTTP/2, HTTP/3 ve TLS Tuning: Güvenlik ile Performans Dengesini Kurmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-17/Software4-17-2.webp",
+      alt: "TLS 1.2/1.3 ve modern HTTP protokolleriyle CWV ve TTFB dengesini kurma, edge optimizasyon",
+      caption: "TLS 1.2/1.3 ve modern HTTP protokolleriyle CWV ve TTFB dengesini kurma, edge optimizasyon"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-17/Software4-17-3.webp",
+    alt: "HTTP/1.1–2–3 karşılaştırması, otel ve kurumsal siteler için protokol modernizasyonu bölümü",
+      caption: "HTTP/1.1–2–3 karşılaştırması, otel ve kurumsal siteler için protokol modernizasyonu bölümü"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-17/Software4-17-4.webp",
+      alt: "TLS tuning ve CWV uyumu, güvenlik performans dengesini kurma bölümü ayırıcı",
+      caption: "TLS tuning ve CWV uyumu, güvenlik performans dengesini kurma bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-17/Software4-17-5.webp",
+      alt: "HTTP protokolleri ve TLS katmanları, CDN ALB terminasyonu ile transport tuning diyagramı",
+      caption: "HTTP protokolleri ve TLS katmanları, CDN ALB terminasyonu ile transport tuning diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-17/Software4-17-6.webp",
+      alt: "HTTP TLS tuning checklist’i, zayıf protokol kapatma ve edge ayarlarıyla güvenli hız optimizasyonu",
+      caption: "HTTP TLS tuning checklist’i, zayıf protokol kapatma ve edge ayarlarıyla güvenli hız optimizasyonu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-17/Software4-17-7.webp",
+      alt: "TTFB handshake ve CWV KPI paneli, HTTP/2/3 ve TLS tuning etkisini izleme",
+      caption: "TTFB handshake ve CWV KPI paneli, HTTP/2/3 ve TLS tuning etkisini izleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-17/Software4-17-8.webp",
+      alt: "Transport tuning deliverable seti, TLS policy ve protokol geçiş planı ile ölçüm raporu",
+      caption: "Transport tuning deliverable seti, TLS policy ve protokol geçiş planı ile ölçüm raporu"
+    }
+  },
+
+   "altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli":{
+    banner: {
+      src: "/images/blog/software/Software4-18/Software4-18-1.webp",
+      alt: "Altyapı İzleme ve Incident Management: Güvenlik Odaklı Monitoring Modeli",
+      caption: "Altyapı İzleme ve Incident Management: Güvenlik Odaklı Monitoring Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-18/Software4-18-2.webp",
+      alt: "Health perf security izleme katmanları, alert triage resolve akışı ile uptime ve güvenlik dengesi",
+      caption: "Health perf security izleme katmanları, alert triage resolve akışı ile uptime ve güvenlik dengesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-18/Software4-18-3.webp",
+    alt: "Monitoring nedir SIEM farkı, otel ve B2B altyapıları için erken uyarı bölümü ayırıcı",
+      caption: "Monitoring nedir SIEM farkı, otel ve B2B altyapıları için erken uyarı bölümü ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-18/Software4-18-4.webp",
+      alt: "Uptime ve sertifika izleme, incident önleme için bölüm ayırıcı",
+      caption: "Uptime ve sertifika izleme, incident önleme için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-18/Software4-18-5.webp",
+      alt: "Monitoring katmanları ve incident akışı, alert triage resolve postmortem diyagramı",
+      caption: "Monitoring katmanları ve incident akışı, alert triage resolve postmortem diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-18/Software4-18-6.webp",
+      alt: "Monitoring ve incident checklist’i, on call ve postmortem ile uygulanabilir ops standardı",
+      caption: "Monitoring ve incident checklist’i, on call ve postmortem ile uygulanabilir ops standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-18/Software4-18-7.webp",
+      alt: "Uptime ve MTTR KPI paneli, SSL expiry ve anomali alarmlarıyla erken uyarı performansı",
+      caption: "Uptime ve MTTR KPI paneli, SSL expiry ve anomali alarmlarıyla erken uyarı performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-18/Software4-18-8.webp",
+      alt: "Ops deliverable seti, alarm kuralı on call runbook ve postmortem şablonuyla sürdürülebilir monitoring",
+      caption: "Ops deliverable seti, alarm kuralı on call runbook ve postmortem şablonuyla sürdürülebilir monitoring"
+    }
   }
   
 };

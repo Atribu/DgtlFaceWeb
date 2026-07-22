@@ -36,7 +36,7 @@ export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center ">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
-        <ViewportLazyMount rootMargin="0px 0px" threshold={0.18} minHeight={260} className="w-full">
+        <ViewportLazyMount rootMargin="0px 0px" threshold={0.5} minHeight={260} className="w-full">
           <Section4 />
         </ViewportLazyMount>
         <ViewportLazyMount rootMargin="120px 0px" threshold={0.01} minHeight={340} className="w-full">

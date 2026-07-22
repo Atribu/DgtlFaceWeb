@@ -500,7 +500,19 @@ export const BLOG_MAP = {
     "analitik-ve-bi-ortamlarinda-kvkk-uyumu-anonimizasyon-ve-pseudonimizasyon-teknik-bakisi":"BlogAnalitikVeBiOrtamlarindaKvkkUyumuAnonimizasyonVePseudonimizasyonTeknikBakisi",
 
 
-    "yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi":"BlogYedeklemeVeDisasterRecoveryWebSunuculariIcinFelaketKurtarmaStratejisi"
+    "yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi":"BlogYedeklemeVeDisasterRecoveryWebSunuculariIcinFelaketKurtarmaStratejisi",
+    "konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi":"BlogKonfigurasyonYonetimiVeIacTerraformAnsibleIleGuvenlikOdakliAltyapi",
+    "kimlik-ve-erisim-yonetimi-vpn-bastion-ssm-ve-sso-ile-guvenli-erisim-modeli":"BlogKimlikVeErisimYonetimiVpnBastionSsmVeSsoIleGuvenliErisimModeli",
+    "container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar":"BlogContainerVeDockerGuvenligiHostImageVeRuntimeIcinEnIyiUygulamalar",
+    "performans-ve-guvenlik-orantisi-kaynak-limitleri-rate-limit-ve-throttling-stratejisi":"BlogPerformansVeGuvenlikOrantisiKaynakLimitleriRateLimitVeThrottlingStratejisi",
+    "patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin":"BlogPatchYonetimiVeZafiyetTaramasiWebSunuculariIcin",
+    "ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak":"BlogAgSegmentasyonuVeDmzWebUygulamaVeVeritabaniKatmanlariniAyirmak",
+    "secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir":"BlogSecretsManagementParolaApiKeyVeSertifikaYonetimiGuvenliNasilYapilir",
+    "cis-benchmark-ve-hardening-baseline-standart-bazli-sunucu-guvenligi":"BlogCisBenchmarkVeHardeningBaselineStandartBazliSunucuGuvenligi",
+    "konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu":"BlogKonfigurasyonDriftTespitiStagingVeProdOrtamlarininGuvenlikUyumu",
+    "zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis":"BlogZeroTrustErisimModeliOtelVeKurumsalAltyapilardaZeroTrustaGecis",
+    "http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak":"BlogHttp2Http3VeTlsTuningGuvenlikIlePerformansDengesiniKurmak",
+    "altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli":"BlogAltyapiIzlemeVeIncidentManagementGuvenlikOdakliMonitoringModeli"
   },
    
   creative: {
