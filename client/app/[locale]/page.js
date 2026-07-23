@@ -5,6 +5,11 @@ import JsonLd from "./components/seo/JsonLd";
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 
+// The localized homepage is public and does not depend on request-specific data.
+// Keep it in Next.js' full-route cache and refresh it periodically as a safety net.
+export const dynamic = "force-static";
+export const revalidate = 3600;
+
 const HOME_SEO = {
   tr: {
     title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
