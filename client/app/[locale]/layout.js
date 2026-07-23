@@ -1,6 +1,6 @@
 import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import HeaderWrapper from "./components/HeaderWrapper";
@@ -14,6 +14,7 @@ import {
   FloatingActionsDeferred,
   FloatingFaqButtonDeferred,
 } from "./components/common/DeferredWidgets";
+import { loadCommonClientMessages } from "./components/common/RouteIntlProvider";
 
 const Footer = dynamic(() => import("./components/footer/Footer"));
 
@@ -27,30 +28,6 @@ const inter = localFont({
   display: "swap",
   variable: "--font-inter",
 });
-
-function buildClientMessages(allMessages) {
-  if (!allMessages || typeof allMessages !== "object") return allMessages;
-
-  // Client tarafında kullanılmayan, server-only namespace'leri eleyerek
-  // hydration payload'unu küçültüyoruz (düşük riskli kademeli optimizasyon).
-  const SERVER_ONLY_NAMESPACES = new Set([
-    "BlogSeoTeknik",
-    "ContactPage",
-    "OtaIntegrationPage",
-    "UiUxPage",
-    "VerticalSlider",
-    "WebPayment",
-  ]);
-
-  return Object.fromEntries(
-    Object.entries(allMessages).filter(
-      ([key]) =>
-        !key.startsWith("Faq") &&
-        key !== "BlogPosts" &&
-        !SERVER_ONLY_NAMESPACES.has(key)
-    )
-  );
-}
 
 const ogLocaleMap = {
   tr: "tr_TR",
@@ -144,8 +121,7 @@ export default async function RootLayout({ children,  params }) {
     notFound();
   }
       setRequestLocale(locale)
-       const allMessages = await getMessages();
-       const messages = buildClientMessages(allMessages);
+       const messages = await loadCommonClientMessages(locale);
 
 
   return (

@@ -1,6 +1,9 @@
 import HomepageClient from "./components/homepage/HomepageClient";
 import ThreeMainBanner from "./components/homepage/ThreeMainBanner";
 import JsonLd from "./components/seo/JsonLd";
+import RouteIntlProvider, {
+  loadHomeClientMessages,
+} from "./components/common/RouteIntlProvider";
 
 import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
@@ -80,6 +83,7 @@ export async function generateMetadata({ params }) {
 }
 export default async function HomePage({ params }) {
   const { locale } = await params;
+  const messages = await loadHomeClientMessages(locale);
 
   const baseUrl = getBaseUrl();
   const pathnameKey = "/";
@@ -126,10 +130,12 @@ export default async function HomePage({ params }) {
     <>
       <JsonLd id="homepage-jsonld" data={homeJsonLd} />
 
-      <main className="flex flex-col gap-[10px] lg:gap-[20px] max-w-screen overflow-x-hidden">
-        <ThreeMainBanner />
-        <HomepageClient />
-      </main>
+      <RouteIntlProvider locale={locale} messages={messages}>
+        <main className="flex flex-col gap-[10px] lg:gap-[20px] max-w-screen overflow-x-hidden">
+          <ThreeMainBanner />
+          <HomepageClient />
+        </main>
+      </RouteIntlProvider>
     </>
   );
 }

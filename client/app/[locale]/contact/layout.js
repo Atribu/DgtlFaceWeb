@@ -1,10 +1,10 @@
 import RouteIntlProvider, {
-  loadBlogClientMessages,
+  loadContactClientMessages,
 } from "../components/common/RouteIntlProvider";
 
-export default async function BlogGroupLayout({ children, params }) {
+export default async function ContactLayout({ children, params }) {
   const { locale } = await params;
-  const messages = await loadBlogClientMessages(locale);
+  const messages = await loadContactClientMessages(locale);
 
   return (
     <RouteIntlProvider locale={locale} messages={messages}>

@@ -63,12 +63,26 @@ export async function loadCommonClientMessages(locale) {
 }
 
 export async function loadHomeClientMessages(locale) {
-  try {
-    return (await import(`../../../../messages/home/${locale}.json`)).default;
-  } catch {
-    const messages = await loadLocaleMessages(locale);
-    return filterMessagesByKeys(messages, HOME_CLIENT_MESSAGE_KEYS);
-  }
+  const messages = await loadLocaleMessages(locale);
+  return filterMessagesByKeys(messages, HOME_CLIENT_MESSAGE_KEYS);
+}
+
+export async function loadBlogClientMessages(locale) {
+  return loadClientMessagesByKeys(locale, BLOG_CLIENT_MESSAGE_KEYS);
+}
+
+export async function loadContactClientMessages(locale) {
+  const keys = new Set([...CONTACT_CLIENT_MESSAGE_KEYS, "Homepage"]);
+  return loadClientMessagesByKeys(locale, keys);
+}
+
+export async function loadAboutClientMessages(locale) {
+  const keys = new Set([...ABOUT_CLIENT_MESSAGE_KEYS, "Homepage"]);
+  return loadClientMessagesByKeys(locale, keys);
+}
+
+export async function loadVideoClientMessages(locale) {
+  return loadClientMessagesByKeys(locale, VIDEO_CLIENT_MESSAGE_KEYS);
 }
 
 export async function loadClientMessagesByKeys(locale, keys) {
