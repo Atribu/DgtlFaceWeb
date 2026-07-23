@@ -172372,6 +172372,1556 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "Organization",
+
+      "@id": "https://dgtlface.com/#organization",
+
+      "name": "DGTLFACE",
+
+      "url": "https://dgtlface.com/",
+
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+
+    },
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek",
+
+      "headline": "Supply Chain Güvenliği: Kütüphaneler, Dependency ve İmaj Kaynaklarını Yönetmek",
+
+      "name": "Supply Chain Güvenliği: Kütüphaneler, Dependency ve İmaj Kaynaklarını Yönetmek",
+
+      "description": "Supply chain riskini azaltın: güvenilir registry, lockfile, internal registry, typo-squatting önlemleri, image provenance ve CI’de tarama/policy ile otel/B2B projelerini koruyun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Supply Chain Security",
+
+        "Dependencies",
+
+        "Registries",
+
+        "Lockfiles",
+
+        "Image Sources",
+
+        "Build Pipeline",
+
+        "Dependency Hygiene",
+
+        "Attack Surface Reduction"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+
+      "serviceType": "Supply Chain Güvenliği ve Dependency/Registry Yönetimi",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Supply Chain Güvenliği: Kütüphaneler, Dependency ve İmaj Kaynaklarını Yönetmek", "item": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Supply chain saldırıları nedir, web projelerini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Supply chain saldırıları, paket/dependency veya container imaj kaynaklarına sızarak arka kapıyı sizin uygulamanıza taşımayı hedefler. Etki veri sızıntısı, ödeme/rezervasyon akışına müdahale veya API key ifşası olabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kütüphane/dependency güvenliğini nasıl sağlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Lockfile ile sürümleri sabitleyin, yeni bağımlılık eklemeyi review’e bağlayın ve tarama/policy gate ile riskli sürümleri engelleyin. Mümkünse internal registry kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Internal registry ve lockfile kullanmak ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Lockfile sürpriz güncellemeleri azaltır; internal registry ise bağımlılıkların kaynağını kontrol ederek dependency confusion ve kaynak sapması riskini düşürür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde supply chain riskini azaltmak için hangi adımları atmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Onaylı registry ve base image listesi oluşturun, lockfile ve CI gate’i zorunlu kılın, internal registry ile kaynakları yönetin ve imaj taramasını deploy öncesi koşul yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "npm/paket güncellerken güvenlikten nasıl emin olurum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Güncellemeleri PR+review ile yapın, lockfile’ı kontrol edin ve CI’da tarama/policy gate ile riskli sürümleri bloklayın. Kritik modüllerde bağımlılık minimizasyonu uygulayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model",
+
+      "headline": "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model",
+
+      "name": "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model",
+
+      "description": "Otel ve B2B için güvenlik test modeli: periyodik pentest + CI/CD’de DAST/SAST/SCA, risk önceliği, fix ve re-test döngüsüyle zafiyetleri hızlı kapatın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Penetration Testing",
+
+        "DAST",
+
+        "SAST",
+
+        "SCA",
+
+        "Continuous Security Testing",
+
+        "CI/CD",
+
+        "Remediation",
+
+        "OWASP Top 10"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model#article" }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "serviceType": "Pentest ve Sürekli Güvenlik Testleri Modeli",
+
+      "areaServed": "TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model", "item": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Penetrasyon testi nedir, ne zaman yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pentest; web/API/mobil/altyapı yüzeylerini gerçek saldırı senaryolarıyla test eder. Yılda en az bir kez ve büyük değişikliklerden sonra yapılması iyi bir çerçevedir; ancak sürekli testlerle desteklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Pentest ile DAST/SAST/SCA arasındaki farklar nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pentest uzman odaklı derin senaryoları yakalar; DAST çalışan uygulamayı tarar; SAST kodu analiz eder; SCA bağımlılıkları tarar. Olgun modelde pentest periyodik, diğerleri sürekli çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B siteleri için güvenlik test kapsamı nasıl belirlenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik akışları (otel: booking/ödeme/PMS; B2B: portal/API/export) listeleyip web/API/entegrasyon yüzeylerini buna göre kapsayın. Sürekli testlerde DAST/SAST/SCA’yı, pentest’te business logic ve rol hatalarını hedefleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Pentest bulgularını nasıl önceliklendirip kapatmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İnternete açık ve kritik akışları etkileyen bulgular önce kapanmalı; ardından dependency ve misconfig bulguları ele alınmalıdır. Her bulgu owner+SLA almalı ve kapanış re-test ile doğrulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yılda bir pentest yaptırıyoruz, yeterli mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek başına çoğu zaman yeterli değildir; çünkü sistem sürekli değişir. Yılda bir pentest’i DAST/SAST/SCA gibi sürekli kontrollerle tamamlamak, yeni zafiyetleri daha erken yakalamanızı sağlar."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model#howto",
+
+      "name": "Pentest ve Sürekli Güvenlik Testi Programı Kurulumu",
+
+      "description": "Pentest’i periyodik planlayıp DAST/SAST/SCA’yı CI/CD’ye bağlayarak bulgu→fix→re-test döngüsüyle zafiyetleri hızlı kapatma.",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kapsam ve kritik akışları belirle",
+
+          "text": "Web/API/entegrasyon yüzeylerini ve otel booking–ödeme / B2B portal–API–export gibi kritik akışları listele."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "SAST ve SCA’yı CI/CD gate yap",
+
+          "text": "PR aşamasında kod ve dependency taraması çalıştır; kritik bulguda merge/release için kademeli gate uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "DAST’ı staging’de düzenli çalıştır",
+
+          "text": "OWASP Top 10 odaklı DAST taramalarını periyodik koş; kritik bulguları release öncesi yakala."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Bulguları riskle önceliklendir, düzelt ve re-test et",
+
+          "text": "Owner+SLA ata; fix sonrası re-test ile doğrula ve kapanışı kanıtla."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu_guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar",
+
+      "headline": "Serverless (FaaS) Güvenliği: Otel ve B2B İçin Riskler ve En İyi Uygulamalar",
+
+      "name": "Serverless (FaaS) Güvenliği: Otel ve B2B İçin Riskler ve En İyi Uygulamalar",
+
+      "description": "Serverless/FaaS’ta güvenlik cloud’a bırakılmaz: fonksiyon bazlı IAM, secrets yönetimi, event kaynak kontrolü, loglama/izlenebilirlik ve otel/B2B senaryolarıyla pratik rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Serverless Security",
+
+        "FaaS",
+
+        "IAM for Functions",
+
+        "Event-Driven Risks",
+
+        "Secrets Management",
+
+        "Observability",
+
+        "Shared Responsibility"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Serverless (FaaS) Güvenliği: Otel ve B2B İçin Riskler ve En İyi Uygulamalar", "item": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Serverless (FaaS) güvenliği nedir, klasik sunucudan farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Serverless’ta OS ve bazı altyapı kontrolleri cloud tarafındadır; ancak IAM yetkileri, secrets, event kaynakları ve loglama sizin sorumluluğunuzdadır. Güvenlik sorumluluğu kaybolmaz, şekil değiştirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AWS Lambda/Azure Functions gibi servislerde IAM ve secrets nasıl yönetilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "IAM policy’leri fonksiyon bazında least privilege ile daraltılmalı ve gereksiz izinler kaldırılmalıdır. Secrets env var’da açık metin yerine vault/KMS benzeri güvenli sistemden runtime’da alınmalı ve rotation uygulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Event tabanlı saldırılar serverless fonksiyonlarını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Event flood fonksiyonları aşırı tetikleyerek maliyet ve kesinti riskini artırır; doğrulama eksikse kötü niyetli payload ile iş mantığı istismar edilebilir. Rate limit, doğrulama, idempotency ve concurrency limitleriyle yönetilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için serverless nerede mantıklı, nerede riskli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Webhook, batch job ve raporlama gibi event tabanlı işlerde mantıklıdır; çok kritik ve yüksek yetkili işlemlerde IAM/secrets/event kontrolleri olgun değilse risk büyür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lambda’ya attık, güvenlik cloud’un işi mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tamamen değil; cloud altyapıyı yönetir ama IAM policy, secrets yönetimi, event doğrulama ve audit log sizin sorumluluğunuzdadır. Paylaşılan sorumluluk modelini doğru kurmak gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy",
+
+      "headline": "Kubernetes Cluster Güvenliği: Nodes, Namespace ve Network Policy",
+
+      "name": "Kubernetes Cluster Güvenliği: Nodes, Namespace ve Network Policy",
+
+      "description": "Kubernetes; ölçeklenebilirlik sağlarken default hâlleriyle bırakıldığında ‘her pod her yere konuşabilir, herkes cluster’a bağlanabilir’ riskleri taşır. RBAC, namespace ve network policy ile izolasyon kurarak güvenliği artırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Kubernetes Security",
+
+        "RBAC",
+
+        "Namespaces",
+
+        "Network Policies",
+
+        "Kubeconfig",
+
+        "Node Hardening",
+
+        "Pod Security"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kubernetes Cluster Güvenliği: Nodes, Namespace ve Network Policy", "item": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kubernetes cluster güvenliği nasıl sağlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cluster API erişimini kısıtlayın, RBAC ile least privilege uygulayın, namespace ile izolasyon kurun ve NetworkPolicy ile default-deny trafiğe geçip allowlist ile açın. Node hardening ve pod security ile tamamlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RBAC ve namespace ile neyi izole etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ekip ve projeleri namespace bazında ayırın; prod/staging ayrı olsun. RBAC ile her rolün sadece kendi namespace’inde gerekli işlemleri yapmasına izin verin; cluster-admin minimumda kalsın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "NetworkPolicy neden önemli, nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Policy yoksa pod’lar sınırsız konuşabilir ve lateral movement riski büyür. Prod’da default-deny ile başlayıp sadece gerekli servis akışlarını allowlist ile açmak en pratik yaklaşımdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için K8s cluster güvenlik checklist’i nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kubeconfig hijyeni, RBAC rol matrisi, namespace ayrımı, default-deny NetworkPolicy, ingress minimizasyonu, pod security standardı, node hardening ve upgrade/observability planını içermelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kubernetes kullanıyoruz ama güvenlik ayarlarını hiç ellemiyoruz, risk büyük mü?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet büyüyebilir; default ayarlarda erişim ve trafik çok geniş kalır. RBAC+namespace+NetworkPolicy ile hızlıca risk azaltmak mümkündür."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi",
+
+      "headline": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+
+      "name": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+
+      "description": "Ransomware’e karşı çok katmanlı savunma: offline/immutable yedek, ağ segmentasyonu ve kullanıcı phishing eğitimi. Otel ve B2B senaryolarıyla yayılımı sınırlayın, hızlı kurtarın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Ransomware Defence",
+
+        "Offline Backups",
+
+        "Immutable Backups",
+
+        "Network Segmentation",
+
+        "Phishing Awareness",
+
+        "User Training",
+
+        "Incident Response"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi", "item": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ransomware nedir, web/sunucu altyapısını nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ransomware dosya ve veritabanlarını şifreleyerek erişimi engeller ve fidye talep eder. Web sunucuları, dosya paylaşımları, DB’ler ve yedek hedefleri etkilenebilir; kesinti ve veri kaybı riski büyür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yedeklerimi ransomware’e karşı nasıl korurum?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Offline/air-gapped veya immutable yedek kullanın, erişimleri minimuma indirin ve düzenli restore testleri yapın. Backup hesabını ayrı rol/hesapla yönetmek yedeklerin şifrelenme riskini azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ağ segmentasyonu ransomware yayılmasını nasıl sınırlar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Segmentasyon SMB/RDP gibi yayılım yollarını daraltır ve web/app/DB/yönetim ağlarını ayırarak saldırganın yatay yayılımını zorlaştırır. Böylece etki alanı küçülür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için kullanıcı eğitimi ransomware riskini gerçekten azaltır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet, phishing kaynaklı ilk bulaşmayı azaltır; ancak düzenli tekrar ve simülasyonla ölçüm gerekir. Eğitim teknik kontrollerin yanında etkilidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ransomware’den korkuyoruz, teknik olarak ne yapmalıyız?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Offline/immutable yedek + segmentasyon + eğitim üçlüsüyle başlayın. Restore testleriyle geri dönüşü doğrulayın ve incident runbook ile ilk 1 saatte yapılacakları netleştirin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek",
+
+      "headline": "DevSecOps ve Güvenlik Gate’leri: CI/CD Sürecine Güvenliği Gömmek",
+
+      "name": "DevSecOps ve Güvenlik Gate’leri: CI/CD Sürecine Güvenliği Gömmek",
+
+      "description": "CI/CD’de güvenliği gömün: SAST, SCA, secret scan ve policy check gate’leriyle zafiyetleri prod’a gitmeden yakalayın. Otel/B2B için örnek pipeline ve eşik stratejisi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "DevSecOps",
+
+        "CI/CD Security Gates",
+
+        "SAST",
+
+        "SCA",
+
+        "Secret Scan",
+
+        "Policy Check",
+
+        "Security Backlog",
+
+        "Shift-left Security"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "DevSecOps ve Güvenlik Gate’leri: CI/CD Sürecine Güvenliği Gömmek", "item": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "DevSecOps nedir, klasik DevOps’tan farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DevSecOps, güvenliği CI/CD sürecine gate’ler olarak ekleyip otomasyonla ölçekler. DevOps hız odaklıyken, DevSecOps hızın içine güvenlik kontrol ve kapanış döngüsünü yerleştirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CI/CD pipeline’ına hangi güvenlik gate’lerini eklemeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Commit/MR’da secret scan; build’de SCA ve temel SAST; deploy öncesinde policy check iyi bir başlangıçtır. Kritik projelerde gate’ler block modunda, diğerlerinde warn→block kademesiyle işletilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SAST, SCA ve secret scan arasında ne fark var?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Secret scan repo’daki anahtar/parola sızıntısını yakalar; SCA dependency risklerini tarar; SAST kod içi güvenlik hatalarını analiz eder. Birlikte prod’a risk taşıma azalır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde DevSecOps uygulaması nasıl görünmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon/ödeme ve portal/API gibi kritik akışlarda stricter gate (block), diğer modüllerde kademeli eşik uygulanır. Bulgular sprint backlog’a girer, fix sonrası re-test ile kapanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Güvenlik ekibini sonradan değil, pipeline’a nasıl dahil ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Güvenlik ekibi policy ve eşikleri tanımlar; DevOps entegrasyonu yapar; geliştirme ekibi bulguları kapatır. Ortak ritim: backlog, SLA ve re-test döngüsüdür."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+
+      "name": "Sunucu ve Güvenlik",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek",
+
+      "headline": "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek",
+
+      "name": "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek",
+
+      "description": "Security chaos engineering; küçük, kontrollü ve iyi dokümante edilmiş deneylerle güvenlik kontrollerini ve incident süreçlerini stres test edip öğrenimleri süreçlere geri besleme yaklaşımıdır.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Security Chaos Engineering",
+
+        "Resilience Testing",
+
+        "Controlled Attack Simulations",
+
+        "Incident Response",
+
+        "Security Controls",
+
+        "Continuous Improvement"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      },
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+
+        { "@type": "ListItem", "position": 4, "name": "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek", "item": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Security chaos engineering nedir, klasik penetrasyon testinden farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pentest açık bulmaya odaklanır; security chaos kontrollerin ve incident sürecinin gerçekten çalışıp çalışmadığını kontrollü inject’lerle test eder. İkisi birlikte güvenliği daha olgun hale getirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi güvenlik bileşenlerinde chaos deneyleri yapabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DNS, WAF kuralları, IAM policy’leri, secrets rotation, network policy, backup/restore ve SIEM/monitoring alarm zinciri iyi adaylardır. Deneyler küçük ve kontrollü yapılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek security chaos senaryoları neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel için sezon öncesi WAF/DNS ve backup restore tatbikatı; B2B için rate limit, secrets rotation ve network policy regressions senaryoları uygulanabilir. Her biri MTTD/MTTR ile ölçülmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Chaos deneylerinden çıkan sonuçları nasıl süreçlere geri beslerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Deney raporu ve ölçümlerden aksiyon listesi çıkarıp backlog’a koyun; policy/runbook güncelleyip re-test ile doğrulayın. Böylece öğrenim kalıcı olur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ransomware simülasyonu chaos kapsamında yapılır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yalnızca lab veya üretim-benzeri ama kontrollü ortamda, veri ve uptime riskleri yönetilerek yapılmalıdır. Üretimde yapılmaz; kapsam ve risk onayı şarttır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

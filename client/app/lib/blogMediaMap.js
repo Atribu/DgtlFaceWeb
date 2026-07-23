@@ -46867,6 +46867,356 @@ export const BLOG_MEDIA_MAP = {
       alt: "Ops deliverable seti, alarm kuralı on call runbook ve postmortem şablonuyla sürdürülebilir monitoring",
       caption: "Ops deliverable seti, alarm kuralı on call runbook ve postmortem şablonuyla sürdürülebilir monitoring"
     }
+  },
+
+  "supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek":{
+    banner: {
+      src: "/images/blog/software/Software4-19/Software4-19-1.webp",
+      alt: "Supply Chain Güvenliği: Kütüphaneler, Dependency ve İmaj Kaynaklarını Yönetmek",
+      caption: "Supply Chain Güvenliği: Kütüphaneler, Dependency ve İmaj Kaynaklarını Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-19/Software4-19-2.webp",
+      alt: "Kütüphane build image deployment zincirinde kaynak kontrolü, lockfile ve registry stratejisi",
+      caption: "Kütüphane build image deployment zincirinde kaynak kontrolü, lockfile ve registry stratejisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-19/Software4-19-3.webp",
+    alt: "Supply chain saldırıları ve risk yüzeyi, dependency ve imaj yönetimi için bölüm ayırıcı",
+      caption: "Supply chain saldırıları ve risk yüzeyi, dependency ve imaj yönetimi için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-19/Software4-19-4.webp",
+      alt: "Lockfile ve internal registry ile dependency kontrolü, kaynak aware build için bölüm ayırıcı",
+      caption: "Lockfile ve internal registry ile dependency kontrolü, kaynak aware build için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-19/Software4-19-5.webp",
+      alt: "Supply chain katman diyagramı kütüphane build image deployment, güvenli kaynak seçimi modeli",
+      caption: "Supply chain katman diyagramı kütüphane build image deployment, güvenli kaynak seçimi modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-19/Software4-19-6.webp",
+      alt: "Dependency supply chain checklist’i, lockfile ve internal registry ile uygulanabilir güvenlik adımları",
+      caption: "Dependency supply chain checklist’i, lockfile ve internal registry ile uygulanabilir güvenlik adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-19/Software4-19-7.webp",
+      alt: "Lockfile uyumu ve kritik zafiyet KPI paneli, supply chain güvenlik kontrol göstergeleri",
+      caption: "Lockfile uyumu ve kritik zafiyet KPI paneli, supply chain güvenlik kontrol göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-19/Software4-19-8.webp",
+      alt: "Supply chain deliverable seti, policy gate ve approved list ile sürdürülebilir paket ve imaj yönetimi",
+      caption: "Supply chain deliverable seti, policy gate ve approved list ile sürdürülebilir paket ve imaj yönetimi"
+    }
+  },
+
+  "penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model":{
+    banner: {
+      src: "/images/blog/software/Software4-20/Software4-20-1.webp",
+      alt: "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model",
+      caption: "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-20/Software4-20-2.webp",
+      alt: "DAST SAST SCA ile CI/CD güvenlik döngüsü, otel ve B2B uygulama güvenliği",
+      caption: "DAST SAST SCA ile CI/CD güvenlik döngüsü, otel ve B2B uygulama güvenliği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-20/Software4-20-3.webp",
+    alt: "Pentest kapsamı ve yöntemleri, otel ve B2B güvenlik test yaklaşımı bölüm ayırıcı",
+      caption: "Pentest kapsamı ve yöntemleri, otel ve B2B güvenlik test yaklaşımı bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-20/Software4-20-4.webp",
+      alt: "Sürekli güvenlik testleri ve CI/CD entegrasyonu, otel ve B2B için bölüm ayırıcı",
+      caption: "Sürekli güvenlik testleri ve CI/CD entegrasyonu, otel ve B2B için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-20/Software4-20-5.webp",
+      alt: "Plan test rapor fix retest akışı, otel ve B2B güvenlik test pipeline diyagramı",
+      caption: "Plan test rapor fix retest akışı, otel ve B2B güvenlik test pipeline diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-20/Software4-20-6.webp",
+      alt: "Pentest ve sürekli test checklist’i, CI/CD güvenlik kontrolleriyle uygulanabilir rehber",
+      caption: "Pentest ve sürekli test checklist’i, CI/CD güvenlik kontrolleriyle uygulanabilir rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-20/Software4-20-7.webp",
+      alt: "Kritik bulgu kapanma süresi KPI kartı, otel ve B2B zafiyet yönetimi performansı",
+      caption: "Kritik bulgu kapanma süresi KPI kartı, otel ve B2B zafiyet yönetimi performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-20/Software4-20-8.webp",
+      alt: "Güvenlik test deliverables kartı, kapsam takvim ve remediation döngüsü çıktıları",
+      caption: "Güvenlik test deliverables kartı, kapsam takvim ve remediation döngüsü çıktıları"
+    }
+  },
+
+  "serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar":{
+    banner: {
+      src: "/images/blog/software/Software4-21/Software4-21-1.webp",
+      alt: "Serverless (FaaS) Güvenliği: Otel ve B2B İçin Riskler ve En İyi Uygulamalar",
+      caption: "Serverless (FaaS) Güvenliği: Otel ve B2B İçin Riskler ve En İyi Uygulamalar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-21/Software4-21-2.webp",
+      alt: "API Gateway function DB akışı, secrets ve loglama ile güvenli serverless mimari yaklaşımı",
+      caption: "API Gateway function DB akışı, secrets ve loglama ile güvenli serverless mimari yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-21/Software4-21-3.webp",
+    alt: "Serverless temelleri ve paylaşılan sorumluluk, otel ve B2B için bölüm ayırıcı",
+      caption: "Serverless temelleri ve paylaşılan sorumluluk, otel ve B2B için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-21/Software4-21-4.webp",
+      alt: "IAM secrets ve event tabanlı riskler, serverless güvenliği için bölüm ayırıcı",
+      caption: "IAM secrets ve event tabanlı riskler, serverless güvenliği için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-21/Software4-21-5.webp",
+      alt: "Serverless akış diyagramı API gateway function DB, IAM ve event kaynaklarıyla güvenlik modeli",
+      caption: "Serverless akış diyagramı API gateway function DB, IAM ve event kaynaklarıyla güvenlik modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-21/Software4-21-6.webp",
+      alt: "Serverless güvenlik checklist’i, least privilege IAM ve secrets yönetimiyle uygulanabilir rehber",
+      caption: "Serverless güvenlik checklist’i, least privilege IAM ve secrets yönetimiyle uygulanabilir rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-21/Software4-21-7.webp",
+      alt: "Concurrency timeout ve güvenlik uyarı KPI paneli, serverless stabilite ve risk takibi",
+      caption: "Concurrency timeout ve güvenlik uyarı KPI paneli, serverless stabilite ve risk takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-21/Software4-21-8.webp",
+      alt: "Serverless güvenlik deliverable seti, IAM policy ve event kontrol planıyla sürdürülebilir güvenlik",
+      caption: "Serverless güvenlik deliverable seti, IAM policy ve event kontrol planıyla sürdürülebilir güvenlik"
+    }
+  },
+
+  "kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy":{
+    banner: {
+      src: "/images/blog/software/Software4-22/Software4-22-1.webp",
+      alt: "Kubernetes Cluster Güvenliği: Nodes, Namespace ve Network Policy",
+      caption: "Kubernetes Cluster Güvenliği: Nodes, Namespace ve Network Policy"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-22/Software4-22-2.webp",
+      alt: "K8s API server RBAC namespace network policy node akışı, cluster izolasyon modeli",
+      caption: "K8s API server RBAC namespace network policy node akışı, cluster izolasyon modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-22/Software4-22-3.webp",
+    alt: "Kubernetes güvenlik temelleri, RBAC ve namespace izolasyonu için bölüm ayırıcı",
+      caption: "Kubernetes güvenlik temelleri, RBAC ve namespace izolasyonu için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-22/Software4-22-4.webp",
+      alt: "NetworkPolicy ve ingress kuralları, herkes her yere riskini kapatma bölümü ayırıcı",
+      caption: "NetworkPolicy ve ingress kuralları, herkes her yere riskini kapatma bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-22/Software4-22-5.webp",
+      alt: "Kubernetes güvenlik katmanları diyagramı API server RBAC namespace network policy node",
+      caption: "Kubernetes güvenlik katmanları diyagramı API server RBAC namespace network policy node"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-22/Software4-22-6.webp",
+      alt: "Kubernetes güvenlik checklist’i, RBAC namespace ve network policy ile uygulanabilir kontrol seti",
+      caption: "Kubernetes güvenlik checklist’i, RBAC namespace ve network policy ile uygulanabilir kontrol seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-22/Software4-22-7.webp",
+      alt: "RBAC uyumu ve policy kapsaması KPI paneli, K8s cluster güvenlik olgunluğu takibi",
+      caption: "RBAC uyumu ve policy kapsaması KPI paneli, K8s cluster güvenlik olgunluğu takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-22/Software4-22-8.webp",
+      alt: "K8s güvenlik deliverable seti, RBAC matrisi policy seti upgrade planı ve observability çıktıları",
+      caption: "K8s güvenlik deliverable seti, RBAC matrisi policy seti upgrade planı ve observability çıktıları"
+    }
+  },
+
+  "ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi":{
+    banner: {
+      src: "/images/blog/software/Software4-23/Software4-23-1.webp",
+      alt: "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+      caption: "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-23/Software4-23-2.webp",
+      alt: "Ransomware akışı ve üç ayaklı savunma modeli, otel ve B2B için erken müdahale yaklaşımı",
+      caption: "Ransomware akışı ve üç ayaklı savunma modeli, otel ve B2B için erken müdahale yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-23/Software4-23-3.webp",
+    alt: "Ransomware nasıl çalışır ve ilk bulaşma riskleri, otel ve B2B için bölüm ayırıcı",
+      caption: "Ransomware nasıl çalışır ve ilk bulaşma riskleri, otel ve B2B için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-23/Software4-23-4.webp",
+      alt: "Offline immutable yedek ve restore testleri, ransomware savunması için bölüm ayırıcı",
+      caption: "Offline immutable yedek ve restore testleri, ransomware savunması için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-23/Software4-23-5.webp",
+      alt: "Ransomware saldırı akışı phishing bulaşma yayılma şifreleme, savunma noktalarıyla diyagram",
+      caption: "Ransomware saldırı akışı phishing bulaşma yayılma şifreleme, savunma noktalarıyla diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-23/Software4-23-6.webp",
+      alt: "Ransomware savunma checklist’i, backup segmentasyon eğitim üçlüsüyle uygulanabilir rehber",
+      caption: "Ransomware savunma checklist’i, backup segmentasyon eğitim üçlüsüyle uygulanabilir rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-23/Software4-23-7.webp",
+      alt: "Restore başarı ve phishing tıklama KPI paneli, ransomware risk azaltma performansı",
+      caption: "Restore başarı ve phishing tıklama KPI paneli, ransomware risk azaltma performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-23/Software4-23-8.webp",
+      alt: "Ransomware deliverable seti, backup politikası segmentasyon planı eğitim takvimi ve runbook",
+      caption: "Ransomware deliverable seti, backup politikası segmentasyon planı eğitim takvimi ve runbook"
+    }
+  },
+
+   "devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek":{
+    banner: {
+      src: "/images/blog/software/Software4-24/Software4-24-1.webp",
+      alt: "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+      caption: "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-24/Software4-24-2.webp",
+      alt: "Ransomware akışı ve üç ayaklı savunma modeli, otel ve B2B için erken müdahale yaklaşımı",
+      caption: "Ransomware akışı ve üç ayaklı savunma modeli, otel ve B2B için erken müdahale yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-24/Software4-24-3.webp",
+    alt: "Ransomware nasıl çalışır ve ilk bulaşma riskleri, otel ve B2B için bölüm ayırıcı",
+      caption: "Ransomware nasıl çalışır ve ilk bulaşma riskleri, otel ve B2B için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-24/Software4-24-4.webp",
+      alt: "Offline immutable yedek ve restore testleri, ransomware savunması için bölüm ayırıcı",
+      caption: "Offline immutable yedek ve restore testleri, ransomware savunması için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-24/Software4-24-5.webp",
+      alt: "Ransomware saldırı akışı phishing bulaşma yayılma şifreleme, savunma noktalarıyla diyagram",
+      caption: "Ransomware saldırı akışı phishing bulaşma yayılma şifreleme, savunma noktalarıyla diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-24/Software4-24-6.webp",
+      alt: "Ransomware savunma checklist’i, backup segmentasyon eğitim üçlüsüyle uygulanabilir rehber",
+      caption: "Ransomware savunma checklist’i, backup segmentasyon eğitim üçlüsüyle uygulanabilir rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-24/Software4-24-7.webp",
+      alt: "Restore başarı ve phishing tıklama KPI paneli, ransomware risk azaltma performansı",
+      caption: "Restore başarı ve phishing tıklama KPI paneli, ransomware risk azaltma performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-24/Software4-24-8.webp",
+      alt: "Ransomware deliverable seti, backup politikası segmentasyon planı eğitim takvimi ve runbook",
+      caption: "Ransomware deliverable seti, backup politikası segmentasyon planı eğitim takvimi ve runbook"
+    }
+  },
+
+  "security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek":{
+    banner: {
+      src: "/images/blog/software/Software4-25/Software4-25-1.webp",
+      alt: "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek",
+      caption: "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-25/Software4-25-2.webp",
+      alt: "Plan inject observe learn döngüsü, kontrollü deneylerle güvenlik kontrolü ve incident testi",
+      caption: "Plan inject observe learn döngüsü, kontrollü deneylerle güvenlik kontrolü ve incident testi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-25/Software4-25-3.webp",
+    alt: "Security chaos nedir ve pentest farkı, güvenlik dayanıklılığı için bölüm ayırıcı",
+      caption: "Security chaos nedir ve pentest farkı, güvenlik dayanıklılığı için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-25/Software4-25-4.webp",
+      alt: "Kontrollü inject senaryoları ve güvenlik sınırları, otel ve B2B için bölüm ayırıcı",
+      caption: "Kontrollü inject senaryoları ve güvenlik sınırları, otel ve B2B için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-25/Software4-25-5.webp",
+      alt: "Security chaos deney döngüsü plan inject observe learn, ölçüm ve geri besleme diyagramı",
+      caption: "Security chaos deney döngüsü plan inject observe learn, ölçüm ve geri besleme diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-25/Software4-25-6.webp",
+      alt: "Security chaos checklist’i, deney güvenliği ve süreç geri besleme adımlarıyla uygulanabilir rehber",
+      caption: "Security chaos checklist’i, deney güvenliği ve süreç geri besleme adımlarıyla uygulanabilir rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-25/Software4-25-7.webp",
+      alt: "MTTD MTTR ve runbook başarı KPI paneli, güvenlik dayanıklılığı ölçümü",
+      caption: "MTTD MTTR ve runbook başarı KPI paneli, güvenlik dayanıklılığı ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-25/Software4-25-8.webp",
+      alt: "Chaos deliverable seti, deney raporu ve backlog çıktılarıyla pratik güvenlik iyileştirme",
+      caption: "Chaos deliverable seti, deney raporu ve backlog çıktılarıyla pratik güvenlik iyileştirme"
+    }
   }
   
 };

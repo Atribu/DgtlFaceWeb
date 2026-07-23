@@ -512,7 +512,15 @@ export const BLOG_MAP = {
     "konfigurasyon-drift-tespiti-staging-ve-prod-ortamlarinin-guvenlik-uyumu":"BlogKonfigurasyonDriftTespitiStagingVeProdOrtamlarininGuvenlikUyumu",
     "zero-trust-erisim-modeli-otel-ve-kurumsal-altyapilarda-zero-trust-a-gecis":"BlogZeroTrustErisimModeliOtelVeKurumsalAltyapilardaZeroTrustaGecis",
     "http2-http3-ve-tls-tuning-guvenlik-ile-performans-dengesini-kurmak":"BlogHttp2Http3VeTlsTuningGuvenlikIlePerformansDengesiniKurmak",
-    "altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli":"BlogAltyapiIzlemeVeIncidentManagementGuvenlikOdakliMonitoringModeli"
+    "altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli":"BlogAltyapiIzlemeVeIncidentManagementGuvenlikOdakliMonitoringModeli",
+
+    "supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek":"BlogSupplyChainGuvenligiKutuphanlerDependencyVeImajKaynaklariniYonetmek",
+    "penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model":"BlogPenetrasyonTestiVeSurekliGuvenlikTestleriOtelVeB2BSiteleriIcinModel",
+    "serverless-faas-guvenligi-otel-ve-b2b-icin-riskler-ve-en-iyi-uygulamalar":"BlogServerlessFaasGuvenligiOtelVeB2BIcinRisklerVeEnIyiUygulamalar",
+    "kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy":"BlogKubernetesClusterGuvenligiNodesNamespaceVeNetworkPolicy",
+    "ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi":"BlogRansomwareAKarsiSavunmaYedeklemeSegmentasyonVeKullaniciEgitimi",
+    "devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek":"BlogDevSecOpsVeGuvenlikGateleriCiCdSurecineGuvenligiGommek",
+    "security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek":"BlogSecurityChaosEngineeringIleGuvenlikDayanikliliginiTestEtmek"
   },
    
   creative: {
