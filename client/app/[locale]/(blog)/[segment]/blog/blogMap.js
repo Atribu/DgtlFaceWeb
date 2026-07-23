@@ -520,7 +520,11 @@ export const BLOG_MAP = {
     "kubernetes-cluster-guvenligi-nodes-namespace-ve-network-policy":"BlogKubernetesClusterGuvenligiNodesNamespaceVeNetworkPolicy",
     "ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi":"BlogRansomwareAKarsiSavunmaYedeklemeSegmentasyonVeKullaniciEgitimi",
     "devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek":"BlogDevSecOpsVeGuvenlikGateleriCiCdSurecineGuvenligiGommek",
-    "security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek":"BlogSecurityChaosEngineeringIleGuvenlikDayanikliliginiTestEtmek"
+    "security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek":"BlogSecurityChaosEngineeringIleGuvenlikDayanikliliginiTestEtmek",
+    
+    "cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi":"BlogCctvKameraSistemleriVeGoruntuKayitlariIcinTeknikKvkkRehberi",
+    "sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model":"BlogSadakatProgramlariEBultenVePazarlamaIletisimleriIcinKvkkUyumluTeknikModel",
+    "bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi":"BlogBulutAltyapiVeVeriLokasyonuKvkkIcinHostingStratejisi"
   },
    
   creative: {

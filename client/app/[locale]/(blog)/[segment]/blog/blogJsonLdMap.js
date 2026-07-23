@@ -173922,6 +173922,684 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi",
+
+      "name": "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#article",
+
+      "headline": "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi",
+
+      "description": "CCTV kayıtlarını KVKK’ya uygun yönetin: depolama süresi, erişim rolleri ve izleme/export logları. Otel ve B2B’de NVR/DVR mimarisini denetlenebilir hale getirip riskli veri eşleştirmelerini kontrol edin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "CCTV Systems",
+
+        "Video Storage",
+
+        "Access Roles",
+
+        "Viewing & Export Logs"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "CCTV kamera kayıtları için KVKK teknik uyum ve denetlenebilir erişim danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#howto",
+
+      "name": "CCTV kayıtları KVKK açısından teknik olarak nasıl yönetilir?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kapsam haritası ve envanter oluştur",
+
+          "text": "Kamera lokasyonlarını ve kapsama alanlarını haritala; amaç ve owner tanımla; gereksiz kapsamı azalt."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "NVR/DVR erişim ve retention kurgusunu kur",
+
+          "text": "RBAC ile izleme/playback/export yetkilerini ayır; admin erişimini MFA ile sıkılaştır; retention/rotate politikasını uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İzleme ve export süreçlerini logla ve denetle",
+
+          "text": "Kim, ne zaman, hangi kamera ve zaman aralığını izledi/export etti kayıt altına al; export dosyalarını güvenli kanalda yönet ve düzenli audit yap."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi", "item": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "CCTV kamera kayıtları KVKK kapsamında nasıl ele alınır? (Teknik)",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kamera kayıtları bir veri setidir; depolama, erişim, izleme ve export süreçleri kontrol edilmeli, erişimler loglanmalı ve retention uygulanmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "NVR/DVR depolama ve erişim mimarisi nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "RBAC ile erişim ayrılmalı, admin erişimi minimum ve MFA’lı olmalı, paylaşılan hesaplar kaldırılmalı, retention/rotate ve log bütünlüğü kurgulanmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kamera görüntülerini PMS/CRM ile eşleştirmek neden riskli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Profil çıkarma ve veri birleştirme riskini artırır. Bu kararlar varsayılan kapalı olmalı ve hukuk/KVKK ekibiyle birlikte, gerekçe+onay+log ile yönetilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B ofisleri için kamera sistemi KVKK checklist’i nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kapsam haritası, retention, rol–yetki matrisi, izleme/export logları, güvenli export paylaşımı ve düzenli audit adımlarını içeren bir checklist’tir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model",
+
+      "name": "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#article",
+
+      "headline": "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model",
+
+      "description": "Sadakat ve e-bülten izinlerini türlerine göre ayrıştırın. Pazarlama rızasını timestamp/IP ile kaydedin; preference center ve unsubscribe/opt-out akışlarıyla KVKK uyumlu iletişim kurun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Loyalty Programs",
+
+        "Marketing Consents",
+
+        "Preference Center",
+
+        "Unsubscribe Flows"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Sadakat programı ve pazarlama iletişimleri için KVKK uyumlu izin yönetimi danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#howto",
+
+      "name": "Sadakat ve pazarlama iletişimlerinde KVKK uyumlu izin modeli nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İzin türlerini ve kanalları ayrıştır",
+
+          "text": "Üyelik/sözleşme, pazarlama ve e-bülten izinlerini ayrı alanlar olarak tanımla; e-posta/SMS/push gibi kanalları ayrı yönet."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kanıt kaydı ve CRM consent schema oluştur",
+
+          "text": "Her izin için timestamp, IP, metin versiyonu ve kaynak (web/mobil/call center) bilgisini kaydet; CRM’yi tek doğrulama noktası yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Preference center ve opt-out akışlarını devreye al",
+
+          "text": "Unsubscribe’u tek tık çalıştır; preference center ile detay tercih sun; sağlayıcı senkronizasyonunu ve opt-out event loglarını doğrula."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model", "item": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sadakat programları ve e-bülten izinleri KVKK’ya göre nasıl yönetilmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "İzin türleri ayrıştırılmalı, her izin timestamp/IP/versiyon ile kanıtlanabilir şekilde kaydedilmeli; preference center ve unsubscribe/opt-out akışları sorunsuz çalışmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi izin türleri ayrı ayrı kayıt altına alınmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Üyelik/sözleşme onayı, pazarlama iletişimi rızası (kanal bazlı) ve e-bülten izni ayrı tutulmalıdır; her biri için ayrı metin ve kayıt alanı bulunmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Unsubscribe ve tercih merkezi akışları nasıl tasarlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Unsubscribe tek tıkla temel opt-out sağlar; preference center kanal ve konu bazlı tercih sunar. Değişiklikler CRM’de güncellenir, sağlayıcılarla senkronlanır ve loglanır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Neden preference center şikâyeti azaltır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kullanıcı kontrol hisseder; tamamen çıkmak yerine iletişim türlerini yönetebilir. Bu, spam algısını ve şikâyet ihtimalini düşürür." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi",
+
+      "name": "Bulut Altyapı ve Veri Lokasyonu: KVKK İçin Hosting Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#article",
+
+      "headline": "Bulut Altyapı ve Veri Lokasyonu: KVKK İçin Hosting Stratejisi",
+
+      "description": "Prod-backup-log veriniz nerede? KVKK için veri lokasyonu, replikasyon ve yönetici erişimlerini netleştirin. Otel/B2B için on-prem, TR bulut ve global bulut karar matrisini uygulayın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Cloud Hosting",
+
+        "Data Location",
+
+        "Production/Backup/Logs",
+
+        "Access Controls"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK için hosting stratejisi, veri lokasyonu ve erişim kontrol danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#howto",
+
+      "name": "KVKK için hosting ve veri lokasyonu stratejisi nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Prod/backup/log lokasyon haritasını çıkar",
+
+          "text": "Production, backup ve log/monitoring verilerinin hangi ülke/bölgede tutulduğunu ve replikasyon hedeflerini sistem bazında dokümante et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hosting karar matrisiyle seçenekleri değerlendir",
+
+          "text": "On-prem, TR bulut ve global bulut seçeneklerini veri lokasyonu, erişim kontrolü, operasyon yükü ve denetim kolaylığı kriterleriyle puanla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Admin erişim ve audit kontrollerini uygula",
+
+          "text": "VPN/Zero-Trust, IP allowlist, MFA ve audit log ile yönetim erişimlerini sınırla; backup/log retention ve erişim politikalarını işlet."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Bulut Altyapı ve Veri Lokasyonu: KVKK İçin Hosting Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK açısından veri lokasyonu neden önemli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Verinin hangi ülke/bölgede tutulduğunu ve hangi sınırlar içinde işlendiğini belirler. Teknik olarak prod kadar backup ve log lokasyonu da bu kapsamın parçasıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "On-prem mi, Türkiye içi bulut mu, global bulut mu seçmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Tek doğru yok; veri lokasyonu, erişim kontrol kabiliyeti, operasyon yükü ve denetim hazırlığına göre karar matrisiyle değerlendirilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Backup ve loglar da veri lokasyonu kapsamına girer mi?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Evet. Backup ve loglar kişisel veri içerebilir ve uzun süre saklanabilir; lokasyon, retention ve erişim kontrolü birlikte tasarlanmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yönetici panellerine erişimde en kritik kontrol nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "VPN/Zero-Trust + MFA ve mümkünse IP allowlist ile yönetim yüzeyini daraltmak; audit log ile erişimleri izlemektir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
 }
 
     },

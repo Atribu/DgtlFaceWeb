@@ -57966,10 +57966,6 @@
           },
           {
             "type": "media",
-            "slot": "checklist-06"
-          },
-          {
-            "type": "media",
             "slot": "kpi-07"
           },
           {
@@ -58680,10 +58676,6 @@
             "slot": "kpi-07"
           },
           {
-            "type": "media",
-            "slot": "proof-08"
-          },
-          {
             "type": "cta",
             "variant": "primary",
             "label": "Pentest & Sürekli Güvenlik Testi Analizi Talep Et",
@@ -59209,10 +59201,6 @@
           {
             "type": "media",
             "slot": "diagram-05"
-          },
-          {
-            "type": "media",
-            "slot": "checklist-06"
           },
           {
             "type": "media",
@@ -60855,7 +60843,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Gate’leri kademeli ekle; önce görünürlük, sonra blok.",
               "Kritik bulguyu prod’a sokma; gate ile engelle.",
@@ -60916,7 +60904,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Security policy + gate kriterlerini yazılı hale getir.",
               "Exception’ları süreli yap; kapanış tarihi zorunlu olsun.",
@@ -61017,7 +61005,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İlk hafta: secret scan + SCA’yı hızlı kazanım olarak kur.",
               "İkinci adım: SAST’ı ekle; false-positive yönetimi yap.",
@@ -61093,7 +61081,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Kritik modüllerde gate’i “block” yap, diğerlerinde “warn→block” kademesi uygula.",
               "Security backlog’u sprint planning’e dahil et.",
@@ -61430,7 +61418,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "“Üretim-benzeri ama kontrollü” ortamı tanımla.",
               "Deneylerin kapsamını küçük tut ve ölçülebilir hedef koy.",
@@ -61492,7 +61480,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Chaos’u “kontrol testleri” olarak konumlandır.",
               "Alarm ve runbook kalitesini deneyle ölç.",
@@ -61559,7 +61547,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İlk deneyleri “konfig bozulması” gibi düşük riskli seç.",
               "Blast radius’u sınırla (tek servis/tek ortam).",
@@ -61635,7 +61623,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Otel: sezon öncesi 3–5 küçük deney seti planla.",
               "B2B: prod-benzeri ortamda rate limit + secrets rotation deneyleri yap.",
@@ -61702,7 +61690,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Deney raporunu standart şablona bağla.",
               "Aksiyonları sprint’e sok; “not” olarak bırakma.",
@@ -61886,6 +61874,1957 @@
         ]
       }
     }
+  },
+
+   "BlogCctvKameraSistemleriVeGoruntuKayitlariIcinTeknikKvkkRehberi": {
+    "title": "CCTV Kayıtları İçin KVKK Teknik Rehberi",
+    "slug": "cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi",
+    "department": "software",
+    "subDepartment":"kvkk",
+    "updatedAt": "23 Temmuz 2026",
+    "publishedAt": "2026-07-23",
+    "readingTime": "14 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CCTV kayıtlarını KVKK’ya uygun yönetin: depolama süresi, erişim rolleri ve izleme/export logları. Otel ve B2B’de NVR/DVR mimarisini denetlenebilir hale getirip riskli veri eşleştirmelerini kontrol edin.",
+    "seo": {
+      "metaTitle": "CCTV Kayıtları İçin KVKK Teknik Rehberi | DGTLFACE",
+      "metaDescription": "CCTV kayıtlarını KVKK’ya uygun yönetin: depolama süresi, erişim rolleri ve izleme/export logları. Otel ve B2B’de NVR/DVR mimarisini denetlenebilir hale getirip riskli veri eşleştirmelerini kontrol edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — /tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog No: 14",
+        "Blog / URL: /tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi"
+      ],
+      "strategySummary": "Bu blog, CCTV’nin çoğu kurumda “fiziksel güvenlik” başlığı altında kaldığı yerde, kayıt cihazı–depolama–erişim–export süreçlerini KVKK teknik çerçevesine taşıyan Core rehberdir. Hedef persona; otel sahibi/GM, güvenlik müdürü ve IT/BT yöneticisidir; “kamera kayıtlarına kim erişiyor, ne kadar tutuluyor, nasıl denetleniyor?” sorusunu netleştirmek ister. Funnel’da MoFu ve teknik karar aşamasındadır: NVR/DVR mimarisi, erişim rolleri ve loglama ile denetlenebilirlik sağlar. Ana iş sorusu: kamera kayıtlarını KVKK’ya uygun şekilde saklama/erişim/log ve export süreçleriyle nasıl yönetiriz?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-23",
+      "readingTime": "14 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "CCTV sistemleri sadece fiziksel güvenlik değil, KVKK kapsamında kişisel veri işleme altyapısıdır. KVKK uyumlu teknik kurgu; kamera kapsama alanını haritalamak, NVR/DVR depolama süresi ve erişim rollerini tanımlamak, izleme ve export işlemlerini loglamak ve kayıtların bütünlüğünü korumaktır. Otel ve B2B ofislerinde lobi/resepsiyon/giriş gibi alanlarda kayıtların kim tarafından, ne zaman ve hangi amaçla görülebildiği denetlenebilir olmalıdır. Ayrıca kamera görüntülerini PMS/CRM gibi sistemlerle eşleştirmek yüksek risk taşır.",
+      "sgeSummary": "Kamera kapsamasını haritala; NVR/DVR retention’ı belirle; erişimi RBAC+MFA ile kısıtla; izleme/export işlemlerini logla; PMS gibi sistemlerle görüntü eşleştirmeyi kontrol et.",
+      "voiceAnswer": "Kamera kayıtlarını süre, erişim rolü ve export loglarıyla yönetin; herkese açık izleme yerine denetlenebilir model kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel güvenlik/operasyon, IT/BT, B2B ofis yönetimi",
+        "KPI: Yetkili erişim sayısı, export olayları, retention uyumu, log bütünlüğü, denetim hazırlık süresi",
+        "Entity: CCTV, NVR/DVR, video storage, access roles, viewing/export logs, PMS eşleştirme riski",
+        "Geo: Türkiye (KVKK kapsamı; otel ve ofis odaklı)",
+        "Funnel: Consideration → Implementation → Audit readiness",
+        "Çıktı: Mimari diyagram + erişim/retention tablosu + CCTV KVKK checklist",
+        "Not: Eşleştirme (kamera + PMS/CRM) kararları hukuk/KVKK ekibiyle birlikte alınmalı; bu yazı teknik çerçevededir."
+      ]
+    },
+    "h1": {
+      "title": "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi",
+      "intro": "CCTV sistemleri çoğu kurumda “güvenlik ekibinin işi” gibi görülür. Oysa kamera kayıtları; depolama cihazları, izleme ekranları, yetkilendirme ve export süreçleriyle birlikte KVKK kapsamındaki kişisel veri işleme altyapısının önemli bir parçasıdır. Özellikle otellerde lobi, resepsiyon, restoran ve havuz gibi alanlarda; B2B ofislerinde giriş/turnike, koridor ve ortak alanlarda kamera kayıtları hem çalışanları hem misafirleri kapsayabilir. Bu nedenle “kayıt var mı?” sorusundan daha önemli olan şudur: kim erişir, ne kadar tutulur, nasıl izlenir, nasıl dışa aktarılır ve nasıl denetlenir? Bu rehber hukuki yorum yapmaz; teknik kontrolleri netleştirir: kapsama haritası, NVR/DVR depolama, erişim rolleri, izleme/export logları ve riskli veri eşleştirmeleri (PMS gibi). Amaç; güvenlik ve IT ekiplerinin aynı model üzerinden CCTV’yi yönetmesini sağlamaktır.",
+      "quickSummary": [
+        "1) Kamera envanteri ve kapsama haritasını çıkar",
+        "2) NVR/DVR erişimlerini rol bazlı ayır",
+        "3) Playback ve export işlemlerini logla",
+        "4) Retention/rotate politikasını teknik olarak uygula",
+        "5) PMS/CRM eşleştirmelerini varsayılan kapalı ve kontrollü tut"
+      ],
+      "ctaPrimary": {
+        "label": "CCTV & Görüntü Kayıtları KVKK Teknik Analizi Talep Et",
+        "text": "Kamera altyapınızı, erişim rollerini ve loglama modelini birlikte inceleyip, denetlenebilir KVKK uyum planı çıkaralım. (Kim için: güvenlik + IT)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CCTV & Görüntü Kayıtları KVKK Teknik Analizi Talep Et",
+        "text": "Kamera kayıtlarının depolama süresi, erişim rolleri ve export loglarını kurgular; CCTV’yi KVKK uyumlu ve denetlenebilir hale getirir.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "CCTV Depolama Süresi, Erişim Rolü & Loglama Checklist Şablonunu İndir",
+        "text": "NVR/DVR erişim matrisini ve export/log süreçlerini standardize eder; denetimde savunmayı güçlendirir.",
+        "href": "/downloads/cctv-depolama-suresi-erisim-rolu-loglama-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sunucu ve Güvenlik",
+        "href": "/yazilim/sunucu-guvenlik"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+        "href": "/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi"
+      },
+      {
+        "title": "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model",
+        "href": "/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model"
+      },
+      {
+        "title": "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek",
+        "href": "/yazilim/blog/security-chaos-engineering-ile-guvenlik-dayanikliligini-test-etmek"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kamera-sistemleri-kvkk-iliskisi",
+        "title": "Kamera Sistemleri ve KVKK İlişkisi (Teknik Bakış)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "CCTV kamera kayıtları KVKK kapsamında nasıl ele alınır? (Teknik)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: kamera kaydı bir veri setidir; bu verinin saklanması, erişimi, izlenmesi ve paylaşımı (export) kontrol altına alınmalıdır. Teknik açıdan KVKK uyumu; (1) kapsama alanını sınırlamak, (2) depolama süresini ve erişim rollerini belirlemek, (3) izleme/export işlemlerini loglamak, (4) kayıt bütünlüğünü korumak ve (5) yüksek riskli eşleştirmeleri yönetmektir."
+          },
+          {
+            "type": "h3",
+            "text": "“Fiziksel güvenlik” ile “dijital yönetişim” kesişimi"
+          },
+          {
+            "type": "p",
+            "text": "Kamera sistemi; kamera cihazı + NVR/DVR + izleme istemcisi + kullanıcı hesapları + export fonksiyonundan oluşur. Bu zincirin her halkası teknik kontroldür. Eğer NVR’de herkes aynı admin hesabını kullanıyorsa veya export dosyaları kontrolsüz paylaşılıyorsa, KVKK riski büyür."
+          },
+          {
+            "type": "h4",
+            "text": "Otel/B2B için kritik alan: kapsam haritası"
+          },
+          {
+            "type": "p",
+            "text": "Kamera açıları ve kapsama alanı haritalanmadığında, “gerektiği kadar” prensibi ihlal edilebilir. Teknik pratik: kamera listesi + lokasyon planı + kapsama notları."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-1)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kamera envanteri ve kapsama haritası var mı?",
+              "NVR/DVR erişimleri rol bazlı mı?",
+              "İzleme ve export işlemleri loglanıyor mu?",
+              "Retention (saklama) politikası uygulanıyor mu?",
+              "Export dosyaları güvenli kanalda mı yönetiliyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kamera envanteri çıkarın (lokasyon + amaç + kapsama).",
+              "NVR/DVR kullanıcılarını role göre ayırın, paylaşılan admin hesabını kaldırın.",
+              "Export’u kısıtlayın ve loglayın.",
+              "Retention/rotate planını uygulayın.",
+              "KVKK veri güvenliği yönetimiyle bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context"
+          }
+        ]
+      },
+      {
+        "id": "nvr-dvr-depolama-erisim-mimarisi",
+        "title": "Kayıt Cihazları, Depolama ve Erişim: NVR/DVR Mimari Kurgusu",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "NVR/DVR depolama ve erişim mimarisi nasıl olmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: merkezi depolama (NVR/DVR) üzerinde erişim RBAC ile ayrılır, admin erişimi kısıtlanır, depolama süreleri yönetilir ve kayıtlar güvenli şekilde saklanır. Burada amaç; kayıtların “her an herkesçe” izlenmesi değil, gerektiğinde yetkili kişilerce erişilmesi ve iz bırakmasıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Temel bileşenler: kamera → NVR/DVR → izleme istemcisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kamera: görüntü üretir",
+              "NVR/DVR: kaydı tutar ve kullanıcı yönetimini barındırır",
+              "İzleme istemcisi: canlı izleme ve playback",
+              "Export: dosya üretimi (kritik risk yüzeyi)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Erişim rolleri (örnek set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Security Viewer: canlı izleme (kısıtlı playback)",
+              "Security Supervisor: playback + sınırlı export onayı",
+              "IT Admin: altyapı ayarı (izleme değil)",
+              "Audit/Compliance: loglara erişim (video içeriğine değil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-2)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Paylaşılan admin hesabı kaldırıldı mı?",
+              "Rollere göre canlı izleme/playback/export ayrıldı mı?",
+              "MFA veya ikinci kontrol admin için var mı?",
+              "Erişim denemeleri ve başarısız login loglanıyor mu?",
+              "Depolama kapasitesi retention politikasına göre planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rol–yetki matrisini çıkarın (izleme/playback/export).",
+              "Admin erişimini minimuma indirin ve MFA uygulayın.",
+              "Login ve yetki değişikliklerini audit’e alın.",
+              "Depolama kapasitesini retention politikasına göre ölçekleyin.",
+              "Sunucu güvenliği ilkeleriyle hizalayın: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "izleme-export-surecleri",
+        "title": "İzleme ve Export Süreçleri: “Kim İzledi, Kim Dışa Aktardı?”",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Kamera kayıtlarını kim ne kadar süreyle görebilir?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: rol bazlı yetkilendirme ile yalnız yetkili kişiler görebilir; süre ve erişim kapsamı kurum politikasına göre tanımlanır; en kritik nokta izleme ve export işlemlerinin loglanmasıdır. Bu rehber, süreyi hukuken belirlemez; teknik olarak “süreyi uygulayabilme” mekanizmasını vurgular."
+          },
+          {
+            "type": "h3",
+            "text": "İzleme (playback) ve export için kontrol seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Playback sadece “gerekli” roller için açık",
+              "Export için iki adımlı onay (mümkünse)",
+              "Export dosyası şifreli/kontrollü saklanır",
+              "Export olayları audit log’a girer (kim, ne zaman, hangi kamera, hangi aralık)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Export dosyası en riskli yüzeydir"
+          },
+          {
+            "type": "p",
+            "text": "Export edilen video; mail, USB, WhatsApp gibi kontrolsüz kanallara çıkarsa geri çağırmak imkânsızdır. Bu yüzden export politikası ve güvenli paylaşım kanalı (kurum içi) kritik önemdedir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-3)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Playback erişimi rol bazlı mı?",
+              "Export yetkisi sınırlı mı?",
+              "Export işlemleri loglanıyor mu?",
+              "Export dosyası güvenli kanalda mı saklanıyor?",
+              "Yetki değişiklikleri audit’e giriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Export’u “varsayılan kapalı” yapın, sadece gerekli role açın.",
+              "Export’ta kamera + zaman aralığı + talep nedeni kaydı tutun.",
+              "Export dosyalarını kontrollü depolayın (erişim süreli).",
+              "İzleme/export loglarını düzenli gözden geçirin.",
+              "KVKK veri güvenliği raporlama ile bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-kapsam-haritasi-yetki-matrisi",
+        "title": "Otel ve B2B Ofisleri İçin Örnek Yapı: Kapsam Haritası + Yetki Matrisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, sahada uygulanabilir bir çerçeve sunar: otel ortak alanları ve B2B ofis giriş/koridor gibi alanlarda “kamera nerede, kim erişiyor, hangi log tutuluyor” netleşir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği: lobi, resepsiyon, restoran, havuz"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapsam haritası: kamera açısı ve kör nokta notları",
+              "Yetki matrisi: güvenlik–IT–yönetim ayrımı",
+              "Export prosedürü: olay bazlı, kayıtlı gerekçe ile"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B ofis örneği: giriş, turnike, koridor"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yetki matrisi daha dar olabilir (güvenlik + IT)",
+              "Export daha sıkı kısıtlanmalı (çalışan mahremiyeti)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "“Kamera veri yönetişimi” fark yaratan bölüm (Competitor gap)"
+          },
+          {
+            "type": "p",
+            "text": "Kamera sistemleri çoğu yerde IT’den bağımsız yaşar; bu da loglama, erişim ve retention’ın dağınık kalmasına yol açar. Kamera veri yönetişimi; güvenlik + IT + KVKK ekibinin ortak sahipliğiyle bu boşluğu kapatır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel/ofis kamera kapsama haritası hazır",
+              "Her kamera için amaç ve owner tanımlı",
+              "Yetki matrisi rol bazlı (izleme/export ayrılmış)",
+              "Export prosedürü yazılı ve loglanıyor",
+              "Retention ve kapasite uyumlu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kamera haritasını “amaç” ile birlikte dokümante edin (neden var?).",
+              "Yetki matrisini imzalatın (sahiplik).",
+              "Export prosedürünü ve güvenli paylaşımı yazın.",
+              "Aylık kısa audit rutini ekleyin (export logları).",
+              "Sunucu/altyapı güvenliği ile hizalayın: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "pms-crm-eslestirme-riskleri",
+        "title": "Diğer Sistemlerle Eşleştirme (PMS vb.) Riskleri: Neden Yüksek Riskli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kamera görüntülerini PMS, CRM veya kimlik kayıtlarıyla eşleştirmek; teknik olarak “profil çıkarma” riskini büyütebilir. Örneğin, kamera kaydı ile misafir check-in saati, oda numarası veya profil bilgilerini otomatik eşleştirmek; çok daha hassas bir veri işleme modeli oluşturur."
+          },
+          {
+            "type": "h3",
+            "text": "Eşleştirme riskini azaltma prensipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eşleştirme “varsayılan kapalı” olmalı",
+              "Olay bazlı ve gerekçeli yapılmalı (gerekirse)",
+              "Erişim, onay ve loglama çok daha sıkı olmalı",
+              "Bu kararlar KVKK ekibi + hukuk ile birlikte alınmalı"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Key Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Bazı denetim vakalarında en problemli alanlardan biri kamera kayıtlarıdır; iyi dokümante edilmiş erişim/log yapıları denetimi ciddi ölçüde kolaylaştırır ve “kim ne yaptı?” sorusuna hızlı yanıt verir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CCTV & Görüntü Kayıtları KVKK Teknik Analizi Talep Et",
+            "text": "CCTV mimarinizi, erişim rollerini ve export süreçlerini denetlenebilir hale getirelim. (Kim için: güvenlik + IT)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-5)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS/CRM ile otomatik eşleştirme yok veya kontrollü",
+              "Eşleştirme gerekiyorsa gerekçe ve onay adımı var",
+              "Export ve izleme logları düzenli gözden geçiriliyor",
+              "Admin erişimi RBAC+MFA",
+              "Retention ve erişim politikası güncel (365 gün)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Eşleştirme gereksinimini sorgulayın; default kapalı tutun.",
+              "Gerekliyse onay/gerekçe/log üçlüsünü zorunlu yapın.",
+              "CCTV politika dokümanını ve teknik konfig’i birlikte güncelleyin.",
+              "Yıllık gözden geçirme planı koyun (365 gün).",
+              "İç linklerle süreçleri bağlayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi, https://dgtlface.com/tr/yazilim/sunucu-guvenlik, https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Kamera görüntülerinin diğer sistemlerle (PMS, CRM vb.) eşleştirilmesi yüksek risklidir; bu tür veri birleştirme kararları mutlaka hukuk ve KVKK ekibiyle birlikte alınmalıdır. Bu yazı hukuki tavsiye değil, teknik çerçeve sunar."
+          }
+        ]
+      },
+      {
+        "id": "depolama-suresi-erisim-rolleri-tablosu",
+        "title": "Depolama Süresi ve Erişim Rolleri Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Depolama süresi ve erişim rolleri tablosu",
+            "headers": [
+              "Rol",
+              "Yetki (izleme/playback/export)",
+              "Retention erişimi",
+              "Log",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Security Viewer",
+                "Canlı izleme + kısıtlı playback",
+                "Hayır",
+                "İzleme/playback logu",
+                "Export yetkisi yok"
+              ],
+              [
+                "Security Supervisor",
+                "Playback + sınırlı export onayı",
+                "Hayır",
+                "İzleme + export logu",
+                "Export gerekçesi kayıtlı"
+              ],
+              [
+                "IT Admin",
+                "Altyapı ve kullanıcı yönetimi",
+                "Teknik ayar",
+                "Login + yetki değişikliği audit",
+                "Video izleme varsayılan kapalı"
+              ],
+              [
+                "Audit/Compliance",
+                "Video içeriğine değil loglara erişim",
+                "Politika doğrulama",
+                "Audit log erişimi",
+                "Denetim amacıyla sınırlı"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cctv-depolama-erisim-loglama-checklist",
+        "title": "CCTV Depolama Süresi, Erişim Rolü & Loglama Checklist Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "CCTV Depolama Süresi, Erişim Rolü & Loglama Checklist Şablonunu İndir — Yazılım / CCTV (v1.0)",
+            "purpose": "Bu asset, CCTV kayıtlarının KVKK teknik yönetimini standardize eder: kamera envanteri/kapsam haritası, NVR/DVR depolama ve retention politikası, rol bazlı erişim (izleme/playback/export) ve export/izleme logları. Güvenlik ve IT ekiplerinin ortak yürüttüğü denetlenebilir bir model kurmayı hedefler. Özellikle denetimlerde en problemli alanlardan biri olan kamera kayıtlarında, dokümantasyon ve log yapısını güçlendirir.",
+            "whoFor": "Güvenlik ekibi + IT/BT + KVKK/uyum ekibi (otel ve B2B).",
+            "steps": [
+              "Kamera envanteri ve kapsama haritasını çıkar; amaç ve owner ata.",
+              "NVR/DVR’de rol–yetki matrisini uygula; admin erişimini sıkılaştır.",
+              "İzleme/export loglarını ve retention politikasını devreye al; aylık kısa audit rutini koy."
+            ],
+            "checklist": [
+              "Kamera envanteri çıkarıldı (lokasyon + amaç)",
+              "Kapsama haritası hazır (açı + kör nokta notu)",
+              "NVR/DVR kullanıcıları rol bazlı (viewer/supervisor/admin)",
+              "Paylaşılan admin hesabı yok",
+              "Admin MFA / IP kısıtı uygulanıyor",
+              "Playback erişimi sınırlı",
+              "Export varsayılan kapalı, gerekçeyle açılıyor",
+              "İzleme ve export işlemleri loglanıyor",
+              "Yetki değişiklikleri audit’e giriyor",
+              "Retention/rotate politikası var ve uygulanıyor",
+              "Depolama kapasitesi retention’a uygun",
+              "Export dosyaları güvenli kanalda yönetiliyor",
+              "PMS/CRM ile otomatik eşleştirme yok veya kontrollü",
+              "Aylık audit rutini var (export log inceleme)"
+            ],
+            "href": "/downloads/cctv-depolama-suresi-erisim-rolu-loglama-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist Şablonunu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kamera envanteri + kapsama haritası",
+              "Rol–yetki matrisi",
+              "Export prosedürü + güvenli paylaşım akışı",
+              "İzleme/export log şeması",
+              "Retention/rotate dokümanı + audit planı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "CCTV kamera kayıtları KVKK kapsamında nasıl ele alınır? (Teknik)",
+        "a": "Kamera kayıtları bir veri setidir; depolama, erişim, izleme ve export süreçleri kontrol edilmeli, erişimler loglanmalı ve retention uygulanmalıdır."
+      },
+      {
+        "q": "Kamera kayıtlarını kim ne kadar süreyle görebilir?",
+        "a": "Rol bazlı yetkilendirme ile yalnız yetkili kişiler görebilir; süre ve kapsam kurum politikasına göre belirlenir. Teknik olarak izleme ve export işlemlerinin loglanması esastır."
+      },
+      {
+        "q": "NVR/DVR depolama ve erişim mimarisi nasıl olmalı?",
+        "a": "RBAC ile erişim ayrılmalı, admin erişimi minimum ve MFA’lı olmalı, paylaşılan hesaplar kaldırılmalı, retention/rotate ve log bütünlüğü kurgulanmalıdır."
+      },
+      {
+        "q": "Otel ve B2B ofisleri için kamera sistemi KVKK checklist’i nedir?",
+        "a": "Kapsam haritası, retention, rol–yetki matrisi, izleme/export logları, güvenli export paylaşımı ve düzenli audit adımlarını içeren bir checklist’tir."
+      },
+      {
+        "q": "Kamera görüntülerini PMS/CRM ile eşleştirmek neden riskli?",
+        "a": "Profil çıkarma ve veri birleştirme riskini artırır. Bu kararlar varsayılan kapalı olmalı ve hukuk/KVKK ekibiyle birlikte, gerekçe+onay+log ile yönetilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-hero-01.webp — Alt text: CCTV kamera kayıtları KVKK teknik yönetimi, otel ve ofis güvenliği",
+          "H1 sonrası Context — 1920×1080 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-h1-context-02.webp — Alt text: Kamera NVR izleme ve export akışı bağlamı, denetlenebilir erişim",
+          "Section Divider 01 — 1600×1200 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-divider-03.webp — Alt text: NVR DVR depolama ve erişim mimarisi bölümü ayırıcı, CCTV yönetimi",
+          "Section Divider 02 — 1600×1200 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-divider-04.webp — Alt text: Otel ve B2B kamera yapı örnekleri bölümü ayırıcı, kapsam haritası",
+          "Diagram / Flow — 1920×1080 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-diagram-05.webp — Alt text: Kamera sistem bileşenleri diyagramı, kamera NVR izleme export akışı",
+          "Checklist / Framework Card — 1200×1200 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-checklist-06.webp — Alt text: CCTV KVKK checklist kartı, depolama süresi erişim rolü loglama",
+          "KPI / Score Card — 1200×1200 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-kpi-07.webp — Alt text: CCTV erişim ve export KPI paneli, denetim hazırlığı ve kontrol",
+          "Deliverables / Proof Card — 1200×1200 — cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi-proof-08.webp — Alt text: CCTV kapsam haritası ve erişim prosedürü deliverables, otel ve B2B",
+          "table-retention-access-roles — Rol | Yetki (izleme/playback/export) | Retention erişimi | Log | Not",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm Tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI Tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları görünür FAQ içeriğiyle birebir eşleşmeli",
+          "İç linklerde kırık link ve redirect zinciri olmamalı",
+          "KVKK Uyum Hizmeti, KVKK & Veri Güvenliği ve Sunucu ve Güvenlik iç linkleri kontrol edilmeli",
+          "Secondary CTA download asset bağlantısı ve dosya erişimi kontrol edilmeli",
+          "NVR/DVR erişim rolleri izleme/playback/export ayrımını desteklemeli",
+          "Paylaşılan admin hesapları kaldırılmalı; admin MFA/IP kısıtı kontrol edilmeli",
+          "İzleme, export, login ve yetki değişiklikleri audit log’a alınmalı",
+          "Retention/rotate teknik ayarı kurum politikasıyla hizalı olmalı",
+          "Export dosyaları güvenli paylaşım ve süreli erişim modeliyle yönetilmeli",
+          "PMS/CRM otomatik eşleştirme varsayılan kapalı veya kontrollü olmalı",
+          "Kamera görüntülerinin PMS/CRM vb. sistemlerle eşleştirilmesi hukuk ve KVKK ekibiyle birlikte değerlendirilmelidir",
+          "Görsel dosya adları, ölçüleri ve alt text alanları kontrol edilmeli",
+          "Depolama süresi ve erişim rolleri tablosu içerikle uyumlu olmalı",
+          "CWV izleme ve performans backlog’u oluşturulmalı",
+          "365 günlük politika, erişim, retention ve içerik refresh döngüsü uygulanmalı"
+        ]
+      }
+    }
+  },
+
+  "BlogSadakatProgramlariEBultenVePazarlamaIletisimleriIcinKvkkUyumluTeknikModel": {
+    "title": "Sadakat ve E-Bülten KVKK İzin Modeli",
+    "slug": "sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model",
+    "department": "software",
+    "subDepartment":"kvkk",
+    "updatedAt": "23 Temmuz 2026",
+    "publishedAt": "2026-07-23",
+    "readingTime": "14 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Sadakat ve e-bülten izinlerini türlerine göre ayrıştırın. Pazarlama rızasını timestamp/IP ile kaydedin; preference center ve unsubscribe/opt-out akışlarıyla otel ve B2B’de KVKK uyumlu iletişim kurun.",
+    "seo": {
+      "metaTitle": "Sadakat ve E-Bülten KVKK İzin Modeli | DGTLFACE",
+      "metaDescription": "Sadakat ve e-bülten izinlerini türlerine göre ayrıştırın. Pazarlama rızasını timestamp/IP ile kaydedin; preference center ve unsubscribe/opt-out akışlarıyla otel ve B2B’de KVKK uyumlu iletişim kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — /tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog No: 15",
+        "Blog / URL: /tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model"
+      ],
+      "strategySummary": "Bu blog, sadakat ve e-bülten süreçlerinin çoğu kurumda “pazarlama işi” diye görülüp KVKK’nın teknik gereksinimlerinin (izin ayrıştırma, kayıt, opt-out) atlandığı noktayı kapatan Core rehberdir. Hedef persona; otel sahibi/GM, pazarlama lideri, CRM yöneticisi ve ajans/yazılım yöneticisidir; “kimden neye göre izin aldık karışık” problemine çözüm arar. Funnel’da MoFu ve stratejik sistem kurma aşamasındadır: izin yaşam döngüsü, preference center ve unsubscribe akışlarını denetlenebilir hale getirir. Ana iş sorusu: sadakat ve pazarlama iletişimlerini KVKK’ya uygun şekilde nasıl izinler, nasıl kaydeder, nasıl geri çekme/silme akışını kurarız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-23",
+      "readingTime": "14 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sadakat programları ve e-bülten listeleri KVKK açısından en sık hata yapılan alanlardandır; çünkü izinler tek checkbox’a sıkıştırılır, kayıt kanıtı tutulmaz ve unsubscribe/opt-out akışı zayıf kalır. KVKK uyumlu teknik model; izin türlerini ayrıştırmak (sözleşme/üyelik, pazarlama, e-bülten), her izni timestamp + IP + metin versiyonu ile kaydetmek, CRM’de tercih alanlarını standardize etmek ve kullanıcıya preference center üzerinden kolay opt-out imkânı vermektir.",
+      "sgeSummary": "İzinleri türlerine ayır; her izni timestamp/IP/versiyonla kaydet; CRM’de tercih alanlarını tutarlı yap; unsubscribe ve preference center ile kanıtlanabilir opt-out akışı kur.",
+      "voiceAnswer": "İzinleri ayrıştırın, her izni kanıtlayarak kaydedin ve preference center ile opt-out’u kolaylaştırın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B pazarlama, CRM, satış, çağrı merkezi, IT/ajans",
+        "KPI: Opt-in oranı, unsubscribe oranı, şikâyet oranı, consent kayıt kapsama, dönüşüm/gelir etkisi",
+        "Entity: loyalty membership, consent types, CRM, preference center, unsubscribe, timestamp/IP logs",
+        "Geo: Türkiye (KVKK kapsamı; otel ve B2B pazarlama)",
+        "Funnel: Consideration → Consent lifecycle → Conversion",
+        "Çıktı: Kayıt+preference center mockup + izin türleri tablosu + checklist + silme akışı",
+        "Not: Hukuki yorum değil; teknik izin yaşam döngüsü ve kayıt süreçleri anlatılır."
+      ]
+    },
+    "h1": {
+      "title": "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model",
+      "intro": "Sadakat programı üyeliği, e-bülten ve kampanya iletişimleri; pazarlamanın en değerli varlığıdır ama aynı zamanda KVKK ve itibar riskinin de en sık tetiklendiği alandır. “Liste büyüsün” motivasyonuyla izinler karışır: üyelik sözleşmesiyle pazarlama rızası aynı kutuda toplanır, call center’dan “tamam” denir ama kanıt kaydı yoktur, unsubscribe linki çalışmaz veya kullanıcı tercihini güncelleyemez. Sonuç: şikâyet artar, spam algısı büyür ve denetimde savunmak zorlaşır. Bu rehber; sadakat ve pazarlama iletişimlerini izin türleri, kanıt kayıtları (timestamp/IP/versiyon), preference center, unsubscribe/opt-out ve profil silme akışlarıyla teknik olarak sağlam bir modele oturtur. Otel için “misafir kulübü” ve B2B için “newsletter/event mailing list” senaryolarını birlikte ele alır.",
+      "quickSummary": [
+        "1) Üyelik ve pazarlama izinlerini birbirinden ayır",
+        "2) Consent kayıtlarını type+channel+source+timestamp+version yapısıyla standardize et",
+        "3) Preference center’ı tek doğrulama noktası yap",
+        "4) Unsubscribe ve opt-out değişikliklerini tüm sağlayıcılara anında yansıt",
+        "5) Consent, şikâyet, unsubscribe ve dönüşüm KPI’larını birlikte izle"
+      ],
+      "ctaPrimary": {
+        "label": "Sadakat & E-Bülten KVKK İzin Yapısı Analizi Talep Et",
+        "text": "CRM ve kayıt kanallarınızı tarayıp, izin türlerini ayrıştıran ve preference center’a bağlanan KVKK uyumlu iletişim modelini kuralım. (Kim için: pazarlama + CRM + IT)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Sadakat & E-Bülten KVKK İzin Yapısı Analizi Talep Et",
+        "text": "İzin türlerini ayrıştırır, consent kanıt kaydını standardize eder ve preference center/unsubscribe akışlarıyla KVKK uyumlu iletişim modeli kurar.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "Sadakat Programı & E-Bülten İzin/Preference Center Planlama Şablonunu İndir",
+        "text": "CRM’de izin alanlarını ve tercih merkezi ekranını standardize eder; opt-out ve profil silme akışlarını netleştirir.",
+        "href": "/downloads/sadakat-programi-e-bulten-izin-preference-center-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Sosyal Medya Yönetimi",
+        "href": "/smm"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi",
+        "href": "/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi"
+      },
+      {
+        "title": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+        "href": "/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi"
+      },
+      {
+        "title": "DevSecOps ve Güvenlik Gate’leri: CI/CD Sürecine Güvenliği Gömmek",
+        "href": "/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sadakat-programlari-kvkk-izin-yasam-dongusu",
+        "title": "Sadakat Programları ve KVKK (Teknik Gözle): İzin Yaşam Döngüsü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sadakat üyeliği, “hesap açma” ve “pazarlama iletişimi”nin birbirine karıştığı tipik bir alandır. Teknik modelin ana fikri: üyelik işlemi için gerekli olan veriyi, pazarlama için toplanan veriden ayırmak; iletişim iznini de kanal bazında yönetmektir."
+          },
+          {
+            "type": "h3",
+            "text": "İzin yaşam döngüsü: opt-in → yönetim → opt-out → (gerekirse) silme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Opt-in: kullanıcı açıkça onay verir",
+              "Yönetim: kullanıcı tercihini günceller (preference center)",
+              "Opt-out: kullanıcı iletişimi durdurur",
+              "Silme/anonimleştirme: gerekli ise süreç çalışır (politika)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "AIO: “sadakat & pazarlama KVKK modeli” paragrafı"
+          },
+          {
+            "type": "p",
+            "text": "Loyalty membership, consent types, CRM tercih alanları, preference center ve unsubscribe; tek bir modelde birleşir: kanal bazlı izin → kanıt kayıt → iletişim motoru → tercih güncelleme → opt-out/silme → log/audit. Bu model kurulduğunda, yeni kanal eklense bile (WhatsApp/push) yapı bozulmaz; sadece yeni izin alanı eklenir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-1)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üyelik ve pazarlama izni ayrılmış mı?",
+              "Kanal bazlı izin alanları var mı (e-posta/SMS/push)?",
+              "Opt-in ve opt-out olayları loglanıyor mu?",
+              "Preference center var mı ve erişilebilir mi?",
+              "CRM’de izin alanları standart mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İzinleri “üyelik” ve “pazarlama” diye ayırın (tek checkbox’ı bölün).",
+              "Kanal bazlı izin alanları tanımlayın.",
+              "Consent kanıt kaydını (timestamp/IP/versiyon) standardize edin.",
+              "Preference center’ı tek doğrulama noktası yapın.",
+              "KVKK veri güvenliği ile hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context"
+          }
+        ]
+      },
+      {
+        "id": "e-bulten-kampanya-izinleri-turleri",
+        "title": "E-Bülten ve Kampanya İzinleri: Türleri Ayrıştırmak",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Hangi izin türleri ayrı ayrı kayıt altına alınmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: üyelik/sözleşme (hesap açma), pazarlama iletişimi (e-posta/SMS/push gibi kanallar) ve e-bülten gibi periyodik iletişim izinleri birbirine karıştırılmadan ayrı tutulmalıdır. Teknik açıdan bunun anlamı; her izin için ayrı alan, ayrı metin ve ayrı kanıt kaydıdır."
+          },
+          {
+            "type": "h3",
+            "text": "İzin türleri (pratik sınıflandırma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üyelik/sözleşme onayı: hesap/loyalty üyeliği",
+              "Pazarlama rızası: kampanya iletişimi (kanal bazlı)",
+              "E-bülten izni: periyodik içerik (kanal bazlı veya e-posta özel)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Kanıt kaydı: “checkbox var mı?” değil, “kanıt var mı?”"
+          },
+          {
+            "type": "p",
+            "text": "İzinleri ayrıştırmak tek başına yetmez; kanıt kaydı olmazsa denetimde ve şikâyette zayıf kalırsınız. Minimum kanıt seti:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "consent_type (marketing/newsletter)",
+              "channel (email/sms/push)",
+              "value (true/false)",
+              "timestamp",
+              "IP (politika)",
+              "consent_text_version",
+              "source (web/mobil/call center)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-2)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzin türleri ayrı alanlar mı?",
+              "Kanal bazlı izin tutuluyor mu?",
+              "Consent metni versiyonlanıyor mu?",
+              "Onay kaydı timestamp/IP ile tutuluyor mu?",
+              "Call center kaynaklı onaylar da sisteme işleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "CRM’de “consent schema” oluşturun (type+channel+source+timestamp).",
+              "Web/mobil/call center kaynaklarını tek sözlükte standardize edin.",
+              "Metin versiyonlamasını zorunlu yapın (değişince yeni versiyon).",
+              "E-posta/SMS motorunu bu alanlara bağlayın (izin yoksa gönderme).",
+              "Satış dönüşüm raporlamasıyla etkisini izleyin: https://dgtlface.com/tr/raporlama/satis-donusum"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "preference-center-tasarimi",
+        "title": "Tercih Merkezi (Preference Center) Tasarımı: Tek Doğrulama Noktası",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Preference center; kullanıcının “ne almak istiyorum, ne istemiyorum?” sorusuna tek ekranda cevap vermesini sağlar. KVKK açısından iki faydası vardır: (1) opt-out’u kolaylaştırarak şikâyeti azaltır, (2) izin kayıtlarını düzenli ve kanıtlanabilir hale getirir."
+          },
+          {
+            "type": "h3",
+            "text": "Preference center’da olması gerekenler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal bazlı seçenekler (e-posta/SMS/push)",
+              "Konu bazlı seçenekler (kampanya, etkinlik, e-bülten)",
+              "“Tümü kapat” (global opt-out)",
+              "İzin geçmişi (en azından son güncelleme zamanı)",
+              "Güvenli erişim (token/kimlik)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Otel örneği: misafir kulübü ekranı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya: erken rezervasyon, özel indirim",
+              "İçerik: destinasyon/etkinlik bülteni",
+              "Servis: check-in/out bilgilendirme (pazarlama değil; ayrı)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "B2B örneği: newsletter + event mailing"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Newsletter (aylık içerik)",
+              "Webinar/etkinlik duyuruları",
+              "Ürün güncellemeleri"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-3)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Preference center linki her e-postada var mı?",
+              "Kanal + konu bazlı seçenekler var mı?",
+              "“Tümü kapat” seçeneği var mı?",
+              "Güncelleme timestamp’i kaydediliyor mu?",
+              "Güvenli token erişimi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Preference center’ı tek doğrulama noktası yapın (tek source of truth).",
+              "Kanal + konu seçeneklerini sade tutun (aşırı karmaşık yapmayın).",
+              "Her değişiklikte consent event log tutun.",
+              "CRM ve e-posta/SMS sağlayıcılarını senkronlayın.",
+              "Sosyal/iletişim stratejisi bağlamıyla ilişkilendirin: https://dgtlface.com/tr/smm"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "unsubscribe-opt-out-profil-silme-akislari",
+        "title": "Unsubscribe, Opt-Out ve Profil Silme Akışları: Teknik Tasarım",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Unsubscribe ve tercih merkezi akışları nasıl tasarlanır?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: unsubscribe linki tek tıkla temel opt-out’u yapmalı; preference center ise detay ayar sunmalıdır. Her iki durumda da olaylar CRM’de doğru alanlara yazılmalı, iletişim motorlarına anında yansıtılmalı ve loglanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Unsubscribe: “hızlı” ve “güvenli”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek tık opt-out (minimum sürtünme)",
+              "Token bazlı doğrulama (kötüye kullanım önlemi)",
+              "Anında CRM güncellemesi",
+              "Event log: kim, ne zaman, hangi kanalı kapattı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Profil silme / üyelik kapatma (loyalty)"
+          },
+          {
+            "type": "p",
+            "text": "Silme/üyelik kapatma akışı; pazarlama izninden farklıdır ve daha geniş etki yaratır. Teknik olarak: hangi sistemlerdeki kayıtların etkileneceği (CRM/PMS/loyalty DB) veri haritasıyla belirlenir ve süreç loglanır."
+          },
+          {
+            "type": "h4",
+            "text": "“Opt-out var ama gönderimler devam ediyor” hatası"
+          },
+          {
+            "type": "p",
+            "text": "Bu genelde sistem entegrasyonu eksik olduğunda olur: CRM güncellenir ama e-posta sağlayıcı listesi güncellenmez; ya da push token listesi temizlenmez. Çözüm: tek source of truth + senkronizasyon + test."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Unsubscribe tek tık çalışıyor mu?",
+              "Preference center ile senkron mu?",
+              "CRM değişiklikleri e-posta/SMS sağlayıcıya yansıyor mu?",
+              "Opt-out olayları loglanıyor mu?",
+              "Silme/üyelik kapatma süreci dokümante mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Unsubscribe akışını test edin (5 farklı senaryo).",
+              "CRM’yi “source of truth” yapın; sağlayıcılar buradan beslensin.",
+              "Opt-out event’lerini loglayın ve haftalık kontrol edin.",
+              "Yeni kanal eklenince izin alanlarını güncelleyin (365 gün).",
+              "KVKK veri güvenliğiyle hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-teknik-model",
+        "title": "Otel ve B2B İçin Örnek Teknik Model: Kanallar, Sistemler, KPI’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, tüm parçaları bir modelde birleştirir: kayıt ekranı, consent schema, CRM alanları, iletişim motoru ve preference center. Amaç; “kime neye dayanarak iletişim kurduk?” sorusuna tek bakışta cevap verebilmektir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel modeli: misafir kulübü + kampanya iletişimi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: web/mobil/call center kayıt",
+              "CRM: consent schema + segmentler",
+              "Kanallar: e-posta/SMS/push (kanal bazlı izin)",
+              "Preference center: konu + kanal yönetimi",
+              "KPI: opt-in, unsubscribe, şikâyet, dönüşüm"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B modeli: newsletter + event mailing list"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak: web form + etkinlik kayıtları",
+              "CRM: account + contact + consent schema",
+              "Kanallar: e-posta ağırlıklı, SMS opsiyonel",
+              "Preference center: newsletter/event ayrımı",
+              "KPI: open/click, unsubscribe, şikâyet, lead quality"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Key Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "İzin ve tercih merkezi modeli oturan kurumlarda, spam algısı ve şikâyet oranları düşerken; daha ilgili ve dönüşen bir pazarlama kitlesi elde etmek kolaylaşır. Çünkü “kime neden gönderiyoruz?” netleşir ve kullanıcı kontrol hisseder."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Sadakat & E-Bülten KVKK İzin Yapısı Analizi Talep Et",
+            "text": "İzin türleri, CRM alanları ve preference center’ı uçtan uca tasarlayıp otel/B2B iletişimini KVKK’ya uyumlu hale getirelim. (Kim için: pazarlama + CRM + IT)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-5)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Consent schema (type+channel+source+timestamp) tanımlı",
+              "Preference center tek doğrulama noktası",
+              "Unsubscribe tek tık ve senkron",
+              "Call center kayıtları sisteme işleniyor",
+              "Kanal bazlı izinler tüm araçlarda tutarlı",
+              "Yıllık gözden geçirme planı var (365 gün)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Consent schema’yı CRM’de standardize edin.",
+              "Preference center’ı devreye alın ve unsubscribe’ı basitleştirin.",
+              "Gönderim motorlarını “izin alanlarına” bağlayın (hard rule).",
+              "KPI’ları takip edin (şikâyet, unsubscribe, dönüşüm).",
+              "İç linklerle ekipleri hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi, https://dgtlface.com/tr/smm, https://dgtlface.com/tr/raporlama/satis-donusum"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Sadakat ve pazarlama izinlerinin KVKK veri güvenliği yönetimi ve sosyal stratejiyle bağlantılı olması, hangi kanalda hangi izne dayanarak iletişim kurulduğunu netleştirir. Bu yazı hukuki tavsiye değil, teknik model önerisidir."
+          }
+        ]
+      },
+      {
+        "id": "izin-turleri-kayit-alanlari-tablosu",
+        "title": "İzin Türleri ve Kayıt Alanları Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "İzin türleri ve kayıt alanları tablosu",
+            "headers": [
+              "İzin türü",
+              "Kanal",
+              "Alanlar",
+              "Kanıt (timestamp/IP/versiyon)",
+              "Kaynak",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Üyelik/sözleşme",
+                "Hesap / loyalty",
+                "membership_consent, value",
+                "timestamp + metin versiyonu",
+                "web / mobile / call center",
+                "Pazarlama izninden ayrı tutulmalı"
+              ],
+              [
+                "Pazarlama rızası",
+                "E-posta / SMS / push",
+                "consent_type + channel + value",
+                "timestamp + IP + consent_text_version",
+                "web / mobile / call center / event",
+                "Her kanal ayrı yönetilmeli"
+              ],
+              [
+                "E-bülten izni",
+                "E-posta",
+                "newsletter_consent + value",
+                "timestamp + IP + consent_text_version",
+                "web / event / preference center",
+                "Periyodik içerik izni ayrı tutulmalı"
+              ],
+              [
+                "Global opt-out",
+                "Tüm pazarlama kanalları",
+                "global_opt_out",
+                "timestamp + source + event log",
+                "unsubscribe / preference center",
+                "Gönderim motorlarına anında yansıtılmalı"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sadakat-e-bulten-preference-center-planlama-sablonu",
+        "title": "Sadakat Programı & E-Bülten İzin/Preference Center Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sadakat Programı & E-Bülten İzin/Preference Center Planlama Şablonunu İndir — Yazılım / Loyalty (v1.0)",
+            "purpose": "Bu şablon, sadakat ve e-bülten izinlerini türlerine göre ayrıştırıp CRM’de tek bir consent schema ile yönetmenizi sağlar. Preference center ve unsubscribe akışlarını teknik olarak standardize ederek, “opt-out var ama gönderim devam ediyor” problemini azaltır. Otel ve B2B pazarlama iletişimlerinde KVKK uyumu ve itibar yönetimi için uygulanabilir bir model sunar.",
+            "whoFor": "Pazarlama + CRM + IT + call center (otel ve B2B).",
+            "steps": [
+              "Consent schema’yı tanımla (type+channel+source+timestamp+version).",
+              "Preference center ekranını ve unsubscribe link akışını tasarla.",
+              "E-posta/SMS/push sağlayıcılarını CRM izin alanlarına bağla; log ve KPI’larla izle."
+            ],
+            "checklist": [
+              "İzin türleri ayrıştırıldı",
+              "Kanıt kaydı (timestamp/IP/versiyon) var",
+              "Preference center yayında",
+              "Unsubscribe tek tık çalışıyor",
+              "Sağlayıcı senkronizasyonu doğru",
+              "Opt-out olayları loglanıyor",
+              "KPI takibi var (şikâyet/unsubscribe/dönüşüm)",
+              "Yıllık güncelleme planı var (365 gün)"
+            ],
+            "href": "/downloads/sadakat-programi-e-bulten-izin-preference-center-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Planlama Şablonunu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "5) Kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İzin türleri ayrıştırıldı",
+              "Kanıt kaydı (timestamp/IP/versiyon) var",
+              "Preference center yayında",
+              "Unsubscribe tek tık çalışıyor",
+              "Sağlayıcı senkronizasyonu doğru",
+              "Opt-out olayları loglanıyor",
+              "KPI takibi var (şikâyet/unsubscribe/dönüşüm)",
+              "Yıllık güncelleme planı var (365 gün)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Sadakat programları ve e-bülten izinleri KVKK’ya göre nasıl yönetilmeli?",
+        "a": "İzin türleri ayrıştırılmalı, her izin timestamp/IP/versiyon ile kanıtlanabilir şekilde kaydedilmeli; preference center ve unsubscribe/opt-out akışları sorunsuz çalışmalıdır."
+      },
+      {
+        "q": "Hangi izin türleri ayrı ayrı kayıt altına alınmalı?",
+        "a": "Üyelik/sözleşme onayı, pazarlama iletişimi rızası (kanal bazlı) ve e-bülten izni ayrı tutulmalıdır. Her biri için ayrı metin ve kayıt alanı bulunmalıdır."
+      },
+      {
+        "q": "Unsubscribe ve tercih merkezi akışları nasıl tasarlanır?",
+        "a": "Unsubscribe tek tıkla temel opt-out sağlamalı; preference center kanal ve konu bazlı tercih sunmalıdır. Her değişiklik CRM’de güncellenmeli, sağlayıcılarla senkronlanmalı ve loglanmalıdır."
+      },
+      {
+        "q": "Otel ve B2B için sadakat & pazarlama sistemi teknik modeli nasıl olmalı?",
+        "a": "CRM’de consent schema, preference center, kanal bazlı izin yönetimi ve log/audit ile kurulur. Gönderim motorları bu izin alanlarına bağlanır; KPI’larla izlenir."
+      },
+      {
+        "q": "Call center’dan alınan izinler nasıl yönetilmeli?",
+        "a": "Kaynak “call center” olarak işaretlenmeli, timestamp kaydı tutulmalı ve CRM izin alanlarına işlenmelidir. Sonrasında tüm kanallar aynı izin kaydına göre çalışmalıdır."
+      },
+      {
+        "q": "Neden preference center şikâyeti azaltır?",
+        "a": "Kullanıcı kontrol hisseder; “tamamen çık” yerine “sadece şu tür iletişimi kapat” seçeneği sunulur. Bu, spam algısını ve şikâyet ihtimalini düşürür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-hero-01.webp — Alt text: Sadakat ve e-bülten KVKK izin modeli, otel ve B2B pazarlama iletişimi",
+          "H1 sonrası Context — 1920×1080 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-h1-context-02.webp — Alt text: İzin türleri ve kanal bazlı yönetim bağlamı, preference center yaklaşımı",
+          "Section Divider 01 — 1600×1200 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-divider-03.webp — Alt text: İzin türleri ve kayıt alanları bölümü ayırıcı, pazarlama consent yönetimi",
+          "Section Divider 02 — 1600×1200 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-divider-04.webp — Alt text: Unsubscribe ve opt-out akışları bölümü ayırıcı, KVKK uyumlu iletişim",
+          "Diagram / Flow — 1920×1080 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-diagram-05.webp — Alt text: İzin yaşam döngüsü ve preference center mimarisi diyagramı, KVKK modeli",
+          "Checklist / Framework Card — 1200×1200 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-checklist-06.webp — Alt text: Sadakat ve e-bülten KVKK checklist kartı, izin ve opt-out kontrolleri",
+          "KPI / Score Card — 1200×1200 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-kpi-07.webp — Alt text: Opt-in, unsubscribe ve şikâyet KPI paneli, izinli pazarlama yönetimi",
+          "Deliverables / Proof Card — 1200×1200 — sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model-proof-08.webp — Alt text: Sadakat kayıt ve preference center mockup deliverables, otel ve B2B",
+          "table-consent-types-fields — İzin türü | Kanal | Alanlar | Kanıt (timestamp/IP/versiyon) | Kaynak | Not"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları görünür FAQ içeriğiyle birebir eşleşmeli",
+          "İç linklerde kırık link ve redirect zinciri olmamalı",
+          "KVKK Uyum Hizmeti, KVKK & Veri Güvenliği, SMM ve Satış & Dönüşüm iç linkleri kontrol edilmeli",
+          "Secondary CTA download asset bağlantısı ve dosya erişimi kontrol edilmeli",
+          "Üyelik, pazarlama ve e-bülten izinleri ayrı consent alanlarında tutulmalı",
+          "Consent kayıtlarında type, channel, value, source, timestamp ve metin versiyonu bulunmalı",
+          "IP kaydı kurum politikası ve maskeleme yaklaşımıyla yönetilmeli",
+          "Call center kaynaklı izinler aynı consent schema içinde source=call center olarak işlenmeli",
+          "Preference center tek source of truth olacak şekilde CRM ile senkron çalışmalı",
+          "Unsubscribe tek tık çalışmalı ve CRM + e-posta/SMS/push sağlayıcılarına anında yansıtılmalı",
+          "Global opt-out tüm pazarlama kanallarına uygulanmalı",
+          "Opt-in, opt-out, preference değişiklikleri ve profil kapatma olayları audit log’a alınmalı",
+          "Profil silme/üyelik kapatma sürecinde etkilenen CRM, loyalty DB ve iletişim sağlayıcıları veri haritasıyla doğrulanmalı",
+          "Gönderim motorlarında izin yoksa gönderme hard rule uygulanmalı",
+          "Görsel dosya adları, ölçüleri ve alt text alanları kontrol edilmeli",
+          "İzin türleri ve kayıt alanları tablosu içerikle uyumlu olmalı",
+          "CWV izleme ve performans backlog’u oluşturulmalı",
+          "365 günlük consent schema, kanal, preference center ve içerik refresh döngüsü uygulanmalı"
+        ]
+      }
+    }
+  },
+
+  "BlogBulutAltyapiVeVeriLokasyonuKvkkIcinHostingStratejisi": {
+    "title": "KVKK İçin Bulut Hosting ve Veri Lokasyonu",
+    "slug": "bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi",
+    "department": "software",
+    "subDepartment":"kvkk",
+    "updatedAt": "23 Temmuz 2026",
+    "publishedAt": "2026-07-23",
+    "readingTime": "14 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Prod-backup-log veriniz nerede? KVKK için veri lokasyonu, replikasyon ve yönetici erişimlerini netleştirin. Otel/B2B için on-prem, TR bulut ve global bulut karar matrisini uygulayın.",
+    "seo": {
+      "metaTitle": "KVKK İçin Bulut Hosting ve Veri Lokasyonu | DGTLFACE",
+      "metaDescription": "Prod-backup-log veriniz nerede? KVKK için veri lokasyonu, replikasyon ve yönetici erişimlerini netleştirin. Otel/B2B için on-prem, TR bulut ve global bulut karar matrisini uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: KVKK Uyum Hizmeti — /tr/yazilim/kvkk-uyum-hizmeti",
+        "Blog No: 16",
+        "Blog / URL: /tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, KVKK’nın teknik çekirdeği olan “veri nerede tutuluyor ve kim erişiyor?” sorusunu cloud/hosting kararı üzerinden çözen Core rehberdir. Hedef persona; otel sahibi/GM, IT/BT yöneticisi ve ajans/yazılım lideridir; on-prem/TR bulut/global bulut kararını denetlenebilir bir matrise bağlamak ister. Funnel’da MoFu ve stratejik karar aşamasındadır: prod-backup-log lokasyonu ile yönetici erişimlerini aynı modelde ele alır. Ana iş sorusu: altyapı/hosting seçimini KVKK risklerini öngörecek şekilde nasıl tasarlarız?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-23",
+      "readingTime": "14 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Bulut altyapı kararı KVKK’da “veri nerede ve nasıl saklanıyor?” sorusunun teknik çekirdeğidir. Sadece production’ın değil; backup, replikasyon ve log verilerinin hangi ülke/bölgede tutulduğunu, hangi sağlayıcıların işlediğini ve kimlerin yönetici erişimi olduğunu netleştirmek gerekir. On-prem, Türkiye içi bulut ve global bulut seçeneklerini; veri lokasyonu, erişim kontrolleri (VPN/IP/MFA), operasyonel esneklik ve denetim hazırlığı kriterleriyle karar matrisi üzerinden değerlendirin.",
+      "sgeSummary": "KVKK için prod-backup-log lokasyonunu birlikte planla; replikasyon bölgelerini kontrol et; yönetici erişimlerini VPN/IP/MFA ile sınırla; on-prem/TR bulut/global bulut kararını matrise bağla.",
+      "voiceAnswer": "Sunucu yurt dışına çıkıyorsa prod kadar backup ve log lokasyonu ile admin erişimini de birlikte yönetmelisiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/B2B IT-BT, yönetim, ajans teknik liderleri",
+        "KPI: Veri lokasyonu uyumu, admin erişim kapsama/MFA oranı, log denetlenebilirlik, göçte sürpriz KVKK işi sayısı",
+        "Entity: cloud provider, region, prod/backup/log, replication, access controls, dev/stage/prod",
+        "Geo: Türkiye (KVKK kapsamı)",
+        "Funnel: Consideration → Architecture decision → Governance",
+        "Çıktı: Mimari diyagram + hosting karar matrisi + hosting & veri lokasyonu checklist",
+        "Not: Veri aktarımına dair hukuki değerlendirmeler hukuk/KVKK ekibiyle yapılmalıdır; içerik teknik model odaklıdır."
+      ]
+    },
+    "h1": {
+      "title": "Bulut Altyapı ve Veri Lokasyonu: KVKK İçin Hosting Stratejisi",
+      "intro": "KVKK bağlamında altyapı kararı “hangi sağlayıcı daha ucuz?” sorusundan çok daha fazlasıdır. Asıl soru şudur: kişisel veri hangi ülkede/bölgede, hangi ortamlarda (prod/backup/log) tutuluyor ve kimler erişebiliyor? Birçok kurum “TR lokasyonlu production” ile konuyu kapattığını sanır; oysa replikasyon, yedekler, log toplama servisleri ve yönetici panellerine dış erişimler veri lokasyonu riskinin önemli bölümünü oluşturur. Bu yüzden KVKK’ya uyumlu hosting stratejisi; veri lokasyonunu tek satır değil, katmanlı bir harita olarak ele alır. Otel senaryosunda PMS/rezervasyon altyapısı, ödeme/booking motoru, web ve CRM/analytics birlikte çalışır. B2B’de CRM, doküman yönetimi ve BI katmanı devreye girer. Her iki dünyada da “bulut” seçimi; operasyonel esneklik, güvenlik kontrolleri ve denetim hazırlığını aynı denklemde çözmeyi gerektirir.",
+      "quickSummary": [
+        "1) Her sistem için prod-backup-log lokasyonunu birlikte çıkar",
+        "2) Dev/stage/prod ortamlarını ve veri kopyalarını dokümante et",
+        "3) Replikasyon, snapshot ve log bölgelerini doğrula",
+        "4) Admin erişimini VPN/Zero-Trust + IP allowlist + MFA ile sınırla",
+        "5) On-prem/TR bulut/global bulut kararını puanlı matrise bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Hosting & Veri Lokasyonu KVKK Teknik Analizi Talep Et",
+        "text": "Prod-backup-log lokasyonunuzu ve admin erişimlerinizi birlikte çıkarıp, KVKK’ya uygun hosting karar matrisini netleştirelim. (Kim için: otel & B2B IT)",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Hosting & Veri Lokasyonu KVKK Teknik Analizi Talep Et",
+        "text": "Prod/backup/log lokasyonunu ve admin erişimlerini netleştirir; on-prem/TR bulut/global bulut kararını denetlenebilir matrise bağlar.",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      "secondary": {
+        "label": "Hosting/Cloud Veri Lokasyonu & Erişim Yapısı Planlama Şablonunu İndir",
+        "text": "Prod-backup-log lokasyonu ve admin erişim kontrol setini tek tabloda standardize eder; göç kararlarında sürpriz KVKK risklerini azaltır.",
+        "href": "/downloads/hosting-cloud-veri-lokasyonu-erisim-yapisi-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "Sunucu ve Güvenlik",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi",
+        "href": "/yazilim/blog/cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi"
+      },
+      {
+        "title": "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model",
+        "href": "/yazilim/blog/sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model"
+      },
+      {
+        "title": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
+        "href": "/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "bulut-altyapi-turleri",
+        "title": "Bulut Altyapı Türleri: On-Prem, IaaS, PaaS, SaaS (Ne Değişir?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bulut kararı tek bir seçenek değildir; farklı işletim modelleri KVKK riskini farklı yerlerde büyütür. On-prem’de kontrol sizdedir ama operasyon yükü artar. SaaS’ta hız yüksektir ama veri lokasyonu, erişim ve loglar büyük ölçüde sağlayıcıya bağlıdır. Bu yüzden ilk adım, hangi modelde hangi kontrolün kimde olduğunu netleştirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "KVKK açısından “kontrol yüzeyi” farkı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "On-Prem: veri lokasyonu ve erişim kontrolü daha doğrudan, bakım sizde",
+              "IaaS: altyapı sağlayıcıda, yapılandırma sizde (region, network, logs)",
+              "PaaS: yönetim kolay, ama bazı log/backup katmanları platform tarafından yönetilir",
+              "SaaS: en hızlı; veri lokasyonu/alt işlemciler/backup politikası çok kritik"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "“Ortam” kavramı: dev/stage/prod"
+          },
+          {
+            "type": "p",
+            "text": "KVKK riski yalnız production’da değil; dev ve stage ortamlarında da ortaya çıkar (test verisi, kopya DB’ler). Hosting stratejisi bu ortamları da kapsamalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-1)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullandığınız model net mi? (IaaS/PaaS/SaaS)",
+              "Dev/stage/prod ortamları ayrı mı ve dokümante mi?",
+              "Test ortamında gerçek veri kullanımı kontrol altında mı?",
+              "Platformun backup/log politikaları biliniyor mu?",
+              "Sağlayıcı tarafında admin erişim ve audit kabiliyeti var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her sistem için işletim modelini yazın (web, PMS, CRM, BI).",
+              "Dev/stage/prod ortamlarını ve veri kaynaklarını çıkarın.",
+              "Testte gerçek veri kullanımını sınırlandırın (mask/pseudo).",
+              "PaaS/SaaS için provider “backup/log/region” parametrelerini netleştirin.",
+              "Sunucu güvenliği ile birlikte değerlendirin: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "h1-context"
+          }
+        ]
+      },
+      {
+        "id": "veri-lokasyonu-bolge-secimi",
+        "title": "Veri Lokasyonu ve Bölge Seçimi: “Prod Nerede?” Yetmez",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "KVKK açısından veri lokasyonu neden önemli?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: çünkü veri lokasyonu; verinin hangi ülke/bölgede tutulduğunu ve hangi ülke hukuk/altyapı sınırları içinde işlendiğini belirler. Teknik açıdan sadece production değil; backup, replikasyon ve log lokasyonları da veri lokasyonu kapsamındadır. Bu nedenle “TR region seçtik” demeden önce tüm veri kopyalarının nerede olduğunu görmek gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Region seçimi: tek bölge mi, çoklu bölge mi?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek bölge: kontrol daha kolay, DR (felaket kurtarma) planı ayrı tasarlanır",
+              "Çoklu bölge: dayanıklılık artar; ama veri lokasyonu ve replikasyon kontrolü kritikleşir"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "“Hidden residency” riski: log ve monitoring servisleri"
+          },
+          {
+            "type": "p",
+            "text": "Bazı log/monitoring servisleri farklı bölgelerde saklama yapabilir. Bu yüzden hosting stratejisinde “prod/backup/log” üçlüsü birlikte yazılmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-2)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Production region net mi?",
+              "Backup region net mi? (ayrı mı, aynı mı?)",
+              "Replikasyon varsa hedef bölge(ler) net mi?",
+              "Log/monitoring verisi nerede tutuluyor?",
+              "Vendor/alt işlemciler listesi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Prod-backup-log için “lokasyon tablosu” çıkarın.",
+              "Replikasyon ve snapshot hedeflerini kontrol edin.",
+              "Log servisi lokasyon ayarlarını doğrulayın.",
+              "Vendor/alt işlemci envanteriyle eşleştirin.",
+              "KVKK veri güvenliğiyle hizalayın: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "yedekler-replikasyon-kvkk",
+        "title": "Yedekler ve Replikasyon: KVKK Açısından Nasıl Okunur?",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Backup ve loglar da veri lokasyonu kapsamına girer mi?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: teknik açıdan evet, çünkü backup ve loglar da kişisel veri içerebilir ve çoğu zaman production’dan daha uzun süre saklanır. Bu yüzden retention, erişim ve lokasyon kontrolü backup/log katmanında daha kritik hale gelir."
+          },
+          {
+            "type": "h3",
+            "text": "Backup stratejisi: 3 soru"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yedek nerede tutuluyor?",
+              "Ne kadar süre tutuluyor (retention)?",
+              "Kim erişebiliyor (RBAC/MFA/audit)?"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Replikasyon ve DR: “dayanıklılık” ile “lokasyon” dengesi"
+          },
+          {
+            "type": "p",
+            "text": "DR planı çoklu lokasyon gerektiriyorsa, veri lokasyonu ve erişim kontrolleri daha sıkı tasarlanmalıdır. Burada amaç, dayanıklılığı artırırken “kontrolsüz veri kopyası” üretmemektir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-3)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Backup lokasyonu ve retention yazılı mı?",
+              "Backup erişimi RBAC + MFA ile kısıtlı mı?",
+              "Backup restore testleri kontrollü mü?",
+              "Replikasyon hedefleri net mi?",
+              "Log retention ve erişim kurgusu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Backup politikası oluşturun (lokasyon + süre + erişim).",
+              "Backup erişimini minimum role indirin.",
+              "Restore testlerinde gerçek veriyi minimize edin (mask/pseudo).",
+              "Replikasyon hedeflerini “bilinçli” seçin ve dokümante edin.",
+              "Sunucu güvenliğiyle birlikte değerlendirin: https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-hosting-karar-matrisi",
+        "title": "Otel ve B2B İçin Hosting Karar Matrisi: On-Prem vs TR Bulut vs Global Bulut",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "On-prem mi, Türkiye içi bulut mu, global bulut mu seçmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa yanıt: tek doğru yok; karar, veri lokasyonu gereksinimi, operasyonel olgunluk, ölçek ihtiyacı ve erişim kontrol kabiliyetinizle verilir. En sağlıklı yaklaşım, kriterleri puanlayan bir karar matrisi kullanmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Karar matrisi kriterleri (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veri lokasyonu kontrolü (prod/backup/log)",
+              "Erişim kontrolleri (VPN, IP allowlist, MFA, audit)",
+              "Operasyon yükü (bakım/patch)",
+              "Ölçeklenebilirlik ve maliyet",
+              "Denetim hazırlığı (kanıt/rapor çıkarma kolaylığı)",
+              "Vendor bağımlılığı"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Otel örneği: PMS/rezervasyon sistemi barındırma"
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında PMS/rezervasyon “core” sistemdir; kesinti maliyeti yüksektir. Bu yüzden DR/backup kurgusu ve admin erişim modeli kararın kritik parçasıdır."
+          },
+          {
+            "type": "h4",
+            "text": "B2B örneği: CRM ve analitik sistemler"
+          },
+          {
+            "type": "p",
+            "text": "B2B’de CRM ve BI katmanı hızla büyür; data warehouse ve log servislerinin lokasyonu/erişimi çoğu zaman gözden kaçar. Matriste “log ve BI” kriteri özellikle görünür olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Karar matrisi kriterleri yazılı mı?",
+              "Prod-backup-log lokasyonları puanlamaya dahil mi?",
+              "Admin erişimi (VPN/IP/MFA) puanlanıyor mu?",
+              "Denetim çıktıları (log bundle/export) düşünülmüş mü?",
+              "Vendor lock-in riski değerlendirildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "On-prem / TR bulut / global bulut için kriter tablosu oluşturun.",
+              "Her sistem için ayrı puanlayın (web ≠ PMS ≠ CRM ≠ BI).",
+              "Admin erişimi ve audit kabiliyetini “kritik kriter” yapın.",
+              "Denetim provası gibi operasyonları modele ekleyin.",
+              "Web geliştirme süreçleriyle bağlayın: https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "log-yonetim-erisimleri",
+        "title": "Log ve Yönetim Erişimleri: VPN, IP Kısıtları, Break-Glass ve Audit",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hosting stratejisinin en kritik kısmı “kim erişebilir?” sorusudur. Region TR olsa bile, yönetici paneli herkese açıksa veya vendor erişimleri kontrolsüzse risk büyür. Bu yüzden erişim; VPN, IP allowlist, MFA ve audit ile tasarlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Admin erişim modeli (pratik set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "VPN veya Zero-Trust erişim",
+              "IP allowlist (özellikle yönetim panelleri)",
+              "MFA zorunluluğu",
+              "Break-glass (acil durum hesabı) — sıkı prosedürle",
+              "Audit log (kim, ne zaman, ne yaptı)"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Key Data Point (yumuşatılmış)"
+          },
+          {
+            "type": "p",
+            "text": "Hosting ve veri lokasyonu farkındalığı olan projelerde, ileride altyapı değişimi/göç kararlarında KVKK kaynaklı sürpriz ve “yeniden mimari” ihtiyacı daha az yaşanır; çünkü prod kadar backup/log ve admin erişimi de baştan düşünülmüştür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Hosting & Veri Lokasyonu KVKK Teknik Analizi Talep Et",
+            "text": "Admin erişim modelinizi ve prod-backup-log lokasyonunuzu tek dokümanda netleştirip, denetlenebilir hale getirelim. (Kim için: IT/BT)",
+            "href": "/yazilim/kvkk-uyum-hizmeti"
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check (H2-5)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yönetim panelleri VPN/Zero-Trust arkasında",
+              "IP allowlist uygulanıyor",
+              "MFA zorunlu",
+              "Break-glass hesabı prosedürlü",
+              "Audit log aktif ve düzenli inceleniyor",
+              "Prod/backup/log lokasyon dokümanı güncel (365 gün)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Admin erişimini VPN/Zero-Trust + MFA ile standardize edin.",
+              "Yönetim panellerine IP allowlist ekleyin.",
+              "Break-glass prosedürünü yazın ve test edin.",
+              "Audit log’ları aylık kısa kontrol rutinine bağlayın.",
+              "İç linklerle birlikte değerlendirin: https://dgtlface.com/tr/yazilim/sunucu-guvenlik, https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi, https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Hosting kararı; sunucu güvenliği ve KVKK veri güvenliği yönetimiyle birlikte değerlendirilmelidir. Veri aktarımına dair hukuki değerlendirmeler hukuk/KVKK ekibiyle yapılmalı; bu yazı teknik şema ve kontrol seti odaklıdır."
+          }
+        ]
+      },
+      {
+        "id": "hosting-karar-matrisi",
+        "title": "Hosting Karar Matrisi",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Hosting karar matrisi",
+            "headers": [
+              "Seçenek",
+              "Veri lokasyonu",
+              "Backup/log",
+              "Erişim kontrol",
+              "Operasyon yükü",
+              "Denetim kolaylığı",
+              "Not"
+            ],
+            "rows": [
+              [
+                "On-Prem",
+                "Doğrudan kurum kontrolünde",
+                "Kurumun tasarımına bağlı",
+                "VPN/IP/MFA/audit kurum tarafından yönetilir",
+                "Yüksek",
+                "Kontroller iyi dokümanteyse yüksek",
+                "Bakım, patch ve DR sorumluluğu kurumda"
+              ],
+              [
+                "TR Bulut",
+                "Türkiye bölgesi seçimiyle kontrol edilebilir",
+                "Backup/log bölgeleri ayrıca doğrulanmalı",
+                "Provider + kurum kontrolleri birlikte",
+                "Orta",
+                "Provider kabiliyetine göre yüksek",
+                "Region, replikasyon ve alt hizmetler ayrıca kontrol edilmeli"
+              ],
+              [
+                "Global Bulut",
+                "Region seçimine ve servis mimarisine bağlı",
+                "Backup/log/replikasyon farklı bölgelerde olabilir",
+                "VPN/Zero-Trust/IP/MFA/audit ile sıkılaştırılmalı",
+                "Düşük–Orta",
+                "Gelişmiş audit araçları olabilir",
+                "Veri aktarımı ve lokasyon kararları hukuk/KVKK ekibiyle değerlendirilmelidir"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hosting-cloud-veri-lokasyonu-erisim-planlama-sablonu",
+        "title": "Hosting/Cloud Veri Lokasyonu & Erişim Yapısı Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Hosting/Cloud Veri Lokasyonu & Erişim Yapısı Planlama Şablonunu İndir — Yazılım / Hosting (v1.0)",
+            "purpose": "Bu şablon, KVKK açısından kritik “prod-backup-log” lokasyon haritasını ve yönetici erişim modelini tek dokümana indirger. On-prem/TR bulut/global bulut seçeneklerini karar matrisiyle karşılaştırmanızı sağlar. Göç ve ölçek kararlarında KVKK kaynaklı sürprizleri azaltmak için operasyonel bir çerçeve sunar.",
+            "whoFor": "IT/BT + güvenlik + KVKK/uyum + proje yöneticileri (otel ve B2B).",
+            "steps": [
+              "Her sistem için prod/backup/log lokasyonunu ve sağlayıcı tipini doldur.",
+              "Admin erişim kontrollerini (VPN/IP/MFA/audit) işaretle ve boşlukları çıkar.",
+              "Karar matrisiyle on-prem/TR bulut/global bulut seçeneklerini puanla."
+            ],
+            "checklist": [
+              "Prod/backup/log lokasyonları belirlendi",
+              "Replikasyon hedefleri dokümante",
+              "Admin erişim kontrolleri uygulanmış",
+              "Karar matrisi puanlanmış",
+              "Yıllık gözden geçirme planı var"
+            ],
+            "href": "/downloads/hosting-cloud-veri-lokasyonu-erisim-yapisi-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Planlama Şablonunu İndir"
+          },
+          {
+            "type": "h3",
+            "text": "5) Kontrol listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prod/backup/log lokasyonları belirlendi",
+              "Replikasyon hedefleri dokümante",
+              "Admin erişim kontrolleri uygulanmış",
+              "Karar matrisi puanlanmış",
+              "Yıllık gözden geçirme planı var"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables + “Buraya:” notları"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "KVKK açısından veri lokasyonu neden önemli?",
+        "a": "Çünkü kişisel verinin hangi ülke/bölgede tutulduğunu ve hangi sınırlar içinde işlendiğini belirler. Teknik olarak prod kadar backup ve log lokasyonu da bu kapsamın parçasıdır."
+      },
+      {
+        "q": "On-prem mi, Türkiye içi bulut mu, global bulut mu seçmeliyim?",
+        "a": "Tek doğru yok; veri lokasyonu, erişim kontrol kabiliyeti, operasyon yükü ve denetim hazırlığına göre karar matrisiyle değerlendirilmelidir."
+      },
+      {
+        "q": "Backup ve loglar da veri lokasyonu kapsamına girer mi?",
+        "a": "Evet, çünkü backup ve loglar da kişisel veri içerebilir ve genellikle uzun süre saklanır. Lokasyon, retention ve erişim kontrolü birlikte tasarlanmalıdır."
+      },
+      {
+        "q": "Otel ve B2B için hosting kararı teknik olarak nasıl verilmeli?",
+        "a": "Sistem bazında (web/PMS/CRM/BI) prod-backup-log lokasyonları çıkarılır; admin erişimleri (VPN/IP/MFA) değerlendirilir; karar matrisiyle puanlanır."
+      },
+      {
+        "q": "Yönetici panellerine erişimde en kritik kontrol nedir?",
+        "a": "VPN/Zero-Trust + MFA ve mümkünse IP allowlist ile yönetim yüzeyini daraltmaktır; audit log ile erişimler izlenmelidir."
+      },
+      {
+        "q": "En sık yapılan hata nedir?",
+        "a": "“Prod TR’de” diyerek backup, replikasyon ve log lokasyonlarını; ayrıca vendor/admin erişimlerini gözden kaçırmaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-hero-01.webp — Alt text: Bulut hosting veri lokasyonu modeli, otel ve B2B KVKK altyapı kararı",
+          "H1 sonrası Context — 1920×1080 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-h1-context-02.webp — Alt text: On prem IaaS PaaS SaaS kontrol yüzeyi, KVKK teknik bakış",
+          "Section Divider 01 — 1600×1200 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-divider-03.webp — Alt text: Veri lokasyonu ve bölge seçimi bölümü ayırıcı, prod backup log haritası",
+          "Section Divider 02 — 1600×1200 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-divider-04.webp — Alt text: Hosting karar matrisi bölümü ayırıcı, otel ve B2B altyapı değerlendirmesi",
+          "Diagram / Flow — 1920×1080 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-diagram-05.webp — Alt text: Prod backup log veri lokasyonu mimari diyagramı, KVKK hosting stratejisi",
+          "Checklist / Framework Card — 1200×1200 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-checklist-06.webp — Alt text: Hosting ve veri lokasyonu checklist kartı, erişim kontrol ve replikasyon",
+          "KPI / Score Card — 1200×1200 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-kpi-07.webp — Alt text: Admin MFA ve veri lokasyonu uyumu KPI paneli, KVKK altyapı yönetimi",
+          "Deliverables / Proof Card — 1200×1200 — bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi-proof-08.webp — Alt text: Hosting karar matrisi ve lokasyon dokümanı deliverables, otel ve B2B",
+          "table-hosting-decision-matrix — Seçenek | Veri lokasyonu | Backup/log | Erişim kontrol | Operasyon yükü | Denetim kolaylığı | Not",
+          "table-prod-backup-log-location — Prod/Backup/Log Lokasyon Tablosu",
+          "table-hosting-score-matrix — Hosting Karar Matrisi Boş Şablonu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "FAQPage soruları görünür FAQ içeriğiyle birebir eşleşmeli",
+          "İç linklerde kırık link ve redirect zinciri olmamalı",
+          "KVKK Uyum Hizmeti, Sunucu ve Güvenlik, KVKK & Veri Güvenliği ve Web Sitesi Geliştirme iç linkleri kontrol edilmeli",
+          "Secondary CTA download asset bağlantısı ve dosya erişimi kontrol edilmeli",
+          "Web, PMS, CRM, BI ve log sistemleri için işletim modeli (On-Prem/IaaS/PaaS/SaaS) dokümante edilmeli",
+          "Dev/stage/prod ortamları ve kullanılan veri kaynakları ayrı ayrı envanterlenmeli",
+          "Test ortamlarında gerçek veri kullanımı mask/pseudo yaklaşımıyla sınırlandırılmalı",
+          "Production, backup ve log/monitoring lokasyonları ülke/bölge bazında dokümante edilmeli",
+          "Snapshot ve replikasyon hedef bölgeleri ayrıca kontrol edilmeli",
+          "PaaS/SaaS sağlayıcılarının varsayılan backup ve log bölgeleri doğrulanmalı",
+          "Vendor ve alt işlemci envanteri veri lokasyonu haritasıyla eşleştirilmeli",
+          "Backup retention, erişim ve lokasyon politikası birlikte tanımlanmalı",
+          "Backup erişimleri RBAC + MFA ile minimum role indirilmeli",
+          "Restore testlerinde gerçek veri kullanımı minimize edilmeli",
+          "Admin erişimi VPN/Zero-Trust + MFA ile standardize edilmeli",
+          "Yönetim panellerinde mümkünse IP allowlist uygulanmalı",
+          "Break-glass hesabı prosedürlü, kayıtlı ve test edilmiş olmalı",
+          "Login ve kritik yönetim aksiyonları audit log’a alınmalı",
+          "Audit log’lar aylık erişim gözden geçirme rutinine bağlanmalı",
+          "Hosting karar matrisi sistem bazında ayrı puanlanmalı (web ≠ PMS ≠ CRM ≠ BI)",
+          "Veri aktarımına ilişkin hukuki kararlar hukuk/KVKK ekibiyle birlikte değerlendirilmelidir",
+          "Görsel dosya adları, ölçüleri ve alt text alanları kontrol edilmeli",
+          "Hosting karar matrisi ve prod/backup/log lokasyon şablonu içerikle uyumlu olmalı",
+          "CWV izleme ve performans backlog’u oluşturulmalı",
+          "365 günlük veri lokasyonu, erişim modeli, provider ve içerik refresh döngüsü uygulanmalı"
+        ]
+      }
+    }
   }
+
 
 }

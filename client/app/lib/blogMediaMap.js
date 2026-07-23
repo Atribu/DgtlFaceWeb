@@ -47217,6 +47217,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "Chaos deliverable seti, deney raporu ve backlog çıktılarıyla pratik güvenlik iyileştirme",
       caption: "Chaos deliverable seti, deney raporu ve backlog çıktılarıyla pratik güvenlik iyileştirme"
     }
+  },
+
+  "cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi":{
+    banner: {
+      src: "/images/blog/software/Software3-14/Software3-14-1.webp",
+      alt: "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi",
+      caption: "CCTV Kamera Sistemleri ve Görüntü Kayıtları İçin Teknik KVKK Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-14/Software3-14-2.webp",
+      alt: "Kamera NVR izleme ve export akışı bağlamı, denetlenebilir erişim",
+      caption: "Kamera NVR izleme ve export akışı bağlamı, denetlenebilir erişim"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-14/Software3-14-3.webp",
+    alt: "NVR DVR depolama ve erişim mimarisi bölümü ayırıcı, CCTV yönetimi",
+      caption: "NVR DVR depolama ve erişim mimarisi bölümü ayırıcı, CCTV yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-14/Software3-14-4.webp",
+      alt: "Otel ve B2B kamera yapı örnekleri bölümü ayırıcı, kapsam haritası",
+      caption: "Otel ve B2B kamera yapı örnekleri bölümü ayırıcı, kapsam haritası"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-14/Software3-14-5.webp",
+      alt: "Kamera sistem bileşenleri diyagramı, kamera NVR izleme export akışı",
+      caption: "Kamera sistem bileşenleri diyagramı, kamera NVR izleme export akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-14/Software3-14-6.webp",
+      alt: "CCTV KVKK checklist kartı, depolama süresi erişim rolü loglama",
+      caption: "CCTV KVKK checklist kartı, depolama süresi erişim rolü loglama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-14/Software3-14-7.webp",
+      alt: "CCTV erişim ve export KPI paneli, denetim hazırlığı ve kontrol",
+      caption: "CCTV erişim ve export KPI paneli, denetim hazırlığı ve kontrol"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-14/Software3-14-8.webp",
+      alt: "CCTV kapsam haritası ve erişim prosedürü deliverables, otel ve B2B",
+      caption: "CCTV kapsam haritası ve erişim prosedürü deliverables, otel ve B2B"
+    }
+  },
+
+  "sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model":{
+    banner: {
+      src: "/images/blog/software/Software3-15/Software3-15-1.webp",
+      alt: "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model",
+      caption: "Sadakat Programları, E-Bülten ve Pazarlama İletişimleri İçin KVKK Uyumlu Teknik Model"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-15/Software3-15-2.webp",
+      alt: "İzin türleri ve kanal bazlı yönetim bağlamı, preference center yaklaşımı",
+      caption: "İzin türleri ve kanal bazlı yönetim bağlamı, preference center yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-15/Software3-15-3.webp",
+    alt: "İzin türleri ve kayıt alanları bölümü ayırıcı, pazarlama consent yönetimi",
+      caption: "İzin türleri ve kayıt alanları bölümü ayırıcı, pazarlama consent yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-15/Software3-15-4.webp",
+      alt: "Unsubscribe ve opt-out akışları bölümü ayırıcı, KVKK uyumlu iletişim",
+      caption: "Unsubscribe ve opt-out akışları bölümü ayırıcı, KVKK uyumlu iletişim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-15/Software3-15-5.webp",
+      alt: "İzin yaşam döngüsü ve preference center mimarisi diyagramı, KVKK modeli",
+      caption: "İzin yaşam döngüsü ve preference center mimarisi diyagramı, KVKK modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-15/Software3-15-6.webp",
+      alt: "Sadakat ve e-bülten KVKK checklist kartı, izin ve opt-out kontrolleri",
+      caption: "Sadakat ve e-bülten KVKK checklist kartı, izin ve opt-out kontrolleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-15/Software3-15-7.webp",
+      alt: "Opt-in, unsubscribe ve şikâyet KPI paneli, izinli pazarlama yönetimi",
+      caption: "Opt-in, unsubscribe ve şikâyet KPI paneli, izinli pazarlama yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-15/Software3-15-8.webp",
+      alt: "Sadakat kayıt ve preference center mockup deliverables, otel ve B2B",
+      caption: "Sadakat kayıt ve preference center mockup deliverables, otel ve B2B"
+    }
+  },
+
+  "bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software3-16/Software3-16-1.webp",
+      alt: "Bulut Altyapı ve Veri Lokasyonu: KVKK İçin Hosting Stratejisi",
+      caption: "Bulut Altyapı ve Veri Lokasyonu: KVKK İçin Hosting Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-16/Software3-16-2.webp",
+      alt: "On prem IaaS PaaS SaaS kontrol yüzeyi, KVKK teknik bakış",
+      caption: "On prem IaaS PaaS SaaS kontrol yüzeyi, KVKK teknik bakış"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-16/Software3-16-3.webp",
+    alt: "Veri lokasyonu ve bölge seçimi bölümü ayırıcı, prod backup log haritası",
+      caption: "Veri lokasyonu ve bölge seçimi bölümü ayırıcı, prod backup log haritası"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-16/Software3-16-4.webp",
+      alt: "Hosting karar matrisi bölümü ayırıcı, otel ve B2B altyapı değerlendirmesi",
+      caption: "Hosting karar matrisi bölümü ayırıcı, otel ve B2B altyapı değerlendirmesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-16/Software3-16-5.webp",
+      alt: "Prod backup log veri lokasyonu mimari diyagramı, KVKK hosting stratejisi",
+      caption: "Prod backup log veri lokasyonu mimari diyagramı, KVKK hosting stratejisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-16/Software3-16-6.webp",
+      alt: "Hosting ve veri lokasyonu checklist kartı, erişim kontrol ve replikasyon",
+      caption: "Hosting ve veri lokasyonu checklist kartı, erişim kontrol ve replikasyon"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-16/Software3-16-7.webp",
+      alt: "Admin MFA ve veri lokasyonu uyumu KPI paneli, KVKK altyapı yönetimi",
+      caption: "Admin MFA ve veri lokasyonu uyumu KPI paneli, KVKK altyapı yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-16/Software3-16-8.webp",
+      alt: "Hosting karar matrisi ve lokasyon dokümanı deliverables, otel ve B2B",
+      caption: "Hosting karar matrisi ve lokasyon dokümanı deliverables, otel ve B2B"
+    }
   }
   
 };
