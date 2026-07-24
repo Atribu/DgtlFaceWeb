@@ -174600,6 +174600,1984 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi",
+
+      "name": "Veri İşleyen Vendor Yönetimi: Teknik Due Diligence ve Entegrasyon Kontrol Listesi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#article",
+
+      "headline": "Veri İşleyen Vendor Yönetimi: Teknik Due Diligence ve Entegrasyon Kontrol Listesi",
+
+      "description": "CRM, bulut, chat ve call center vendor’larında KVKK riski entegrasyonda büyür. Vendor–sistem–veri haritası çıkarın; API token, panel erişimi ve log kontrolleriyle teknik due diligence yapın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Vendor Management",
+
+        "Data Processor Access",
+
+        "API Tokens",
+
+        "Integration Risk"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Veri işleyen vendor’lar için teknik due diligence ve entegrasyon risk yönetimi danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#howto",
+
+      "name": "Veri işleyen vendor’lar için teknik due diligence nasıl yapılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Vendor erişim haritasını çıkar",
+
+          "text": "Vendor–sistem–veri türü tablosu oluştur; erişim yolu (API/FTP/panel) ve yetki seviyesini (read/write/export) yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Token ve panel erişimlerini güvene al",
+
+          "text": "Token’ları minimum yetkili yap, rotasyon ve revoke prosedürü uygula; panelde RBAC+MFA+IP allowlist ve audit log kullan."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Log ve periyodik review/offboarding sürecini kur",
+
+          "text": "Entegrasyon loglarını tut; periyodik erişim gözden geçirme ve vendor offboarding (token revoke + hesap kapatma) adımlarını takvime bağla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Veri İşleyen Vendor Yönetimi: Teknik Due Diligence ve Entegrasyon Kontrol Listesi", "item": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri işleyen vendor’lar için teknik due diligence nasıl yapılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Vendor–sistem–veri haritası çıkarılır; erişim yolu (API/FTP/panel) ve yetki seviyesi yazılır. Token/panel erişimleri minimum yetkiyle kısıtlanır, loglanır ve periyodik review/offboarding ile sürdürülür." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi vendor hangi verilere erişiyor, nasıl haritalarım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Vendor–sistem–veri türü tablosu oluşturun; erişim yolu, yetki (read/write/export), token/hesap owner ve log/retention bilgisini ekleyin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "API ve panel erişimlerini KVKK açısından nasıl güvene alırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Token’ları minimum yetkili yapın, rotasyon ve revoke prosedürü uygulayın, secrets manager kullanın. Panelde RBAC+MFA+IP allowlist ve audit log zorunlu olmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık yapılan teknik hata nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Vendor token’larını geniş yetkili ve süresiz bırakmak; vendor panelde eski hesapları kapatmamak ve entegrasyon loglarını tutmamaktır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri",
+
+      "name": "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#article",
+
+      "headline": "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri",
+
+      "description": "KVKK’da “her şeyi şifrele” değil, kritik veriyi katmanlı koru. TLS + disk/DB + alan bazlı şifreleme ile riski azalt; anahtarları veriden ayrı, erişimi kısıtlı ve loglanan yapıda yönet.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Encryption",
+
+        "TLS/At-Rest Crypto",
+
+        "Key Management",
+
+        "Sensitive Data Protection"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK teknik tedbirleri kapsamında şifreleme ve anahtar yönetimi danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#howto",
+
+      "name": "KVKK için şifreleme ve anahtar yönetimi nasıl kurgulanır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kritik veri türlerini belirle ve sınıflandır",
+
+          "text": "Kimlik/iletişim, sözleşme/rezervasyon ve token gibi hassas veri setlerini çıkar; risk sınıfına göre şifreleme önceliğini belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Katmanlı şifreleme uygula",
+
+          "text": "HTTPS/TLS’i standart yap; disk/DB at-rest ve backup şifrelemeyi etkinleştir; sadece kritik alanlarda application-level şifrelemeyi değerlendir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Anahtarları ayrı yönet ve denetle",
+
+          "text": "Anahtarları KMS/secrets manager ile veriden ayrı tut; RBAC+MFA uygula; rotasyon ve revoke prosedürü oluştur; audit logları düzenli izle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri", "item": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK için her şeyi şifrelemem mi gerekiyor?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hayır. Kritik veri setlerini belirleyip katmanlı şifreleme (TLS + at-rest + gerekirse field-level) uygulamak ve anahtarları doğru yönetmek esastır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi verileri şifrelemeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kimlik/iletişim bilgileri, sözleşme/rezervasyon kayıtları, token/anahtarlar ve hassas not alanları önceliklidir; risk sınıflandırmasına göre katman seçilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aktarım güvenliği (TLS) ve disk şifrelemesi arasındaki fark nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "TLS veriyi taşınırken korur; at-rest şifreleme veriyi disk/DB’de saklanırken korur. İkisi birlikte temel güvenlik hijyenidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Anahtar yönetimi (key management) nasıl yapılmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Anahtarlar veriden ayrı tutulmalı (KMS/secrets manager), erişim RBAC+MFA ile kısıtlanmalı, rotasyon/revoke prosedürü olmalı ve audit logları izlenmelidir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli",
+
+      "name": "Veri Sınıflandırma ve Etiketleme: KVKK İçin Teknik Data Classification Modeli",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#article",
+
+      "headline": "Veri Sınıflandırma ve Etiketleme: KVKK İçin Teknik Data Classification Modeli",
+
+      "description": "Hangi veri ne kadar kritik? KVKK için veri türlerini sınıflandırın; DB, log, dosya ve raporlarda etiketleyin. Risk bazlı erişim/şifreleme/retention kontrolleriyle otel ve B2B’de uyumu görünür kılın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Data Classification",
+
+        "Data Labels",
+
+        "Critical vs General Data",
+
+        "Risk-Based Controls"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK için veri sınıflandırma ve etiketleme modeli, risk bazlı kontrol tasarımı danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#howto",
+
+      "name": "KVKK için veri sınıflandırma ve etiketleme modeli nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sınıfları ve veri türlerini belirle",
+
+          "text": "Genel/kısıtlı/kritik seviyelerini tanımla; web/PMS/CRM/BI gibi sistemlerde veri türlerini çıkar ve risk sınıfı ata."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Etiketleri sistem katmanlarına uygula",
+
+          "text": "DB kolon/tablolarını etiketle; loglarda kritik alanları maskele; dosya paylaşımını sınıfa göre kısıtla; raporları privacy view üzerinden yayınla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sınıf→kontrol seti ve audit döngüsünü kur",
+
+          "text": "RBAC, şifreleme, export ve retention kurallarını sınıfa bağla; export ve erişim olaylarını logla; matrisi yılda en az bir kez güncelle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Veri Sınıflandırma ve Etiketleme: KVKK İçin Teknik Data Classification Modeli", "item": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Veri sınıflandırma (data classification) nedir, KVKK ile nasıl ilişkilidir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Veri türlerini hassasiyet/risk seviyesine göre sınıflandırıp sistemlerde etiketlemektir. KVKK kapsamında hangi veriye hangi teknik tedbirin uygulanacağını sistematikleştirir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi veri türleri kritik/hassas olarak işaretlenmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kimlik/iletişim verileri, sözleşme/rezervasyon kayıtları, ödeme izleri, token/anahtarlar ve serbest metin not alanları çoğu senaryoda kritiktir; kurum özelinde matrisle netleştirilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "DB, log ve raporlarda sınıflandırma etiketleri nasıl uygulanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "DB’de kolon/tablolar metadata ile etiketlenir; loglarda kritik alanlar maskelenir ve erişim/retention sıkılaştırılır; raporlarda masked view üzerinden PII görünürlüğü azaltılır ve export kısıtlanır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Her veriye aynı güvenlik önlemini mi uygulamalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hayır. Sınıflandırma ile riskli veriye daha sıkı kontroller uygulanır; genel veride operasyon kolaylığı korunur." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri",
+
+      "name": "Periyodik KVKK Teknik Sağlık Kontrolü: Internal Audit ve Otomatik Kontrol Listeleri",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#article",
+
+      "headline": "Periyodik KVKK Teknik Sağlık Kontrolü: Internal Audit ve Otomatik Kontrol Listeleri",
+
+      "description": "KVKK’yı sürdürülebilir yapın: yılda 1 teknik sağlık kontrolü ve internal audit uygulayın. Script/rol/log/backup ve konfigürasyonları otomatik+manuel checklist ile tarayın, bulguları kapatın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Technical Health Check",
+
+        "Internal Audit",
+
+        "Vulnerability & Config Review",
+
+        "Annual KVKK Tech Cycle"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "KVKK teknik sağlık kontrolü ve internal audit süreç tasarımı danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#howto",
+
+      "name": "KVKK teknik sağlık kontrolü ve internal audit nasıl yapılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Audit döngüsünü ve kapsamı belirle",
+
+          "text": "Yıllık tam kapsam + 6 aylık ara audit + aylık mikro kontrolleri planla; her kontrol alanı için owner ata."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Otomatik taramalar ve manuel kontrolleri çalıştır",
+
+          "text": "Vulnerability/misconfig taramaları, rol review, log heartbeat testi, script envanteri ve backup/restore testlerini checklist ile uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Bulguları kapat ve kanıt üret",
+
+          "text": "Bulguları triage et, ticket’la takip et; owner/due date belirle; kapanış doğrulaması ve kanıtı (log/screenshot/change record) rapora ekle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Periyodik KVKK Teknik Sağlık Kontrolü: Internal Audit ve Otomatik Kontrol Listeleri", "item": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK teknik sağlık kontrolü (internal audit) nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "KVKK teknik tedbirlerinin gerçek sistemlerde çalıştığını periyodik olarak doğrulayan kontrol döngüsüdür; otomatik taramalar ve manuel kontrollerle bulgu üretir, aksiyon ve kanıtla kapatır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi başlıklar periyodik olarak kontrol edilmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Vulnerability/misconfig taramaları, rol review, log çalışırlık testi, script/tag envanteri, backup/restore testleri, export/audit log kontrolleri ve vendor erişimleri düzenli kontrol edilmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otomatik tarama ve manuel kontrolü nasıl dengelemeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otomatik taramalar sürekli sinyal sağlar; manuel kontroller bağlam ve doğrulama getirir. Bulgular triage edilir, kapanış kanıtı zorunlu tutulur." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için yıllık KVKK teknik internal audit planı nasıl hazırlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Yıllık tam kapsam + 6 aylık ara audit + aylık mikro kontroller şeklinde takvimlenir; her kontrol için owner atanır, bulgular ticket’lanır ve follow-up planıyla kapatılır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi",
+
+      "name": "Yapay Zekâ Modelleri ve KVKK: Eğitim Verisi, Logging ve Anonimizasyon Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#article",
+
+      "headline": "Yapay Zekâ Modelleri ve KVKK: Eğitim Verisi, Logging ve Anonimizasyon Stratejisi",
+
+      "description": "AI projelerinde eğitim verisi ve model loglarında kişisel veri riskini azaltın. Log/form/CRM kaynaklarını temizleyin; anonim/pseudo katmanı ve maskeleme ile KVKK uyumlu ML kurun.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "AI Training Data",
+
+        "Model Logs",
+
+        "Anonymisation & Pseudonymisation in ML",
+
+        "Data Minimisation for Models"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "AI/ML veri hazırlık, logging ve KVKK teknik uyum danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#howto",
+
+      "name": "AI eğitim verisi ve model loglarında KVKK riski nasıl azaltılır?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kaynakları envantere al ve PII alanlarını sınıflandır",
+
+          "text": "Loglar, formlar ve CRM’den gelen alanları listele; PII/serbest metin/tanımlayıcı risklerini işaretle ve gereksiz alanları çıkar."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Privacy transform katmanını kur",
+
+          "text": "Drop/mask/pseudo-ID/toplulaştırma kurallarını alan bazında uygula; pseudo-ID mapping’i kısıtlı yönet; kuralları sürümle ve test et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Model logging’i PII’siz ve denetlenebilir yap",
+
+          "text": "Redaction, sampling ve TTL uygula; log erişimini RBAC ile sınırla; audit log ile kimlerin eriştiğini izle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Yapay Zekâ Modelleri ve KVKK: Eğitim Verisi, Logging ve Anonimizasyon Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yapay zekâ modelleri için eğitim verisini KVKK açısından nasıl hazırlamalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kaynakları envantere alıp PII alanlarını sınıflandırın, gereksiz alanları çıkarın, pseudo-ID kullanın ve privacy transform katmanını pipeline’a zorunlu adım olarak ekleyin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Model logları ve hata kayıtları kişisel veriler içeriyorsa ne yapmalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Log şemasını minimuma indirin, PII redaction/maskeleme ekleyin, sampling+TTL uygulayın ve log erişimini RBAC+audit ile sınırlandırın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Anonimizasyon/pseudonimizasyon AI projelerinde teknik olarak nasıl uygulanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Eğitim pipeline’ına privacy transform katmanı eklenir; drop/mask/pseudo/toplulaştırma kuralları alan bazında tanımlanır, sürümlenir ve test edilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Logları modele beslemek neden riskli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Ham loglar sıklıkla e-posta/telefon/serbest metin gibi kimliklendirilebilir alanlar içerir; temizlik yapılmadan eğitim setine sızar ve kalıcı risk üretir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama",
+
+      "name": "GDPR ve KVKK Arasında Teknik Köprü: Otel ve B2B Siteleri İçin Haritalama",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#article",
+
+      "headline": "GDPR ve KVKK Arasında Teknik Köprü: Otel ve B2B Siteleri İçin Haritalama",
+
+      "description": "GDPR ve KVKK’yı teknik tarafta tek veri envanteri ve hak kullanımı akışı üzerinde haritalayarak yönetin; iki rejime de aynı pipeline içinden cevap verebilin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "GDPR↔KVKK Technical Mapping",
+
+        "Multi-Regime Data Flows",
+
+        "DSR & Logging",
+
+        "Single Technical Pipeline"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "GDPR↔KVKK teknik haritalama, veri envanteri ve DSR pipeline danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": ["TR", "EU"],
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "GDPR ve KVKK Arasında Teknik Köprü: Otel ve B2B Siteleri İçin Haritalama", "item": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "GDPR ve KVKK teknik olarak hangi başlıklarda kesişir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Veri envanteri, veri akışı, erişim kontrolleri, loglama/audit ve DSR (hak kullanımı) süreçlerinde kesişir; bu yüzden tek teknik pipeline mümkündür." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hak kullanımı (DSR) pipeline’ını GDPR+KVKK’ya uygun nasıl tasarlarım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Tek ticket sistemi, kimlik doğrulama checklist’i, çoklu sistem lookup, standard export paketi ve log/audit ile tek akış kurun; rejim farkını süreçte etiket olarak yönetin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için tek veri haritası ile iki hukuki rejimi nasıl yönetebilirim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Tek envanter tablosuna rejim etiketi ekleyin; log setinizi ortak kanıt formatında tutun; DSR çıktısını aynı pipeline’dan üretin ve operasyonu ikiye bölmeyin." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli",
+
+      "name": "Clean Room ve Hashlenmiş Kitleler ile Reklam Kampanyalarında Privacy Modeli",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#article",
+
+      "headline": "Clean Room ve Hashlenmiş Kitleler ile Reklam Kampanyalarında Privacy Modeli",
+
+      "description": "Müşteri verisini hashleyip erişimi sınırlandırarak reklam platformlarına aktar; clean room çözümlerini veri minimizasyonu prensibiyle kullan.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Clean Room",
+
+        "Hashed Audiences",
+
+        "1st Party Data",
+
+        "Privacy-Aware AdTech"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "AdTech privacy modeli, hashed audience ve clean room teknik KVKK danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#howto",
+
+      "name": "Hashed audience ve clean room ile privacy-aware reklam modeli nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Listeyi minimize et ve hashle",
+
+          "text": "CRM’den amaç bazlı minimum alan seti seç; veriyi normalize et; hashleme adımını otomatikleştir ve audit log ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişim ve panel kontrollerini uygula",
+
+          "text": "Liste üretim/yükleme rollerini ayır; platform panel erişimini RBAC+MFA+IP kısıtıyla sınırla; upload olaylarını logla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Clean room çıktı sınırları ve lifecycle’ı tanımla",
+
+          "text": "Çıktıları aggregate/segment düzeyinde tut; minimum segment eşiği uygula; liste retention/silme politikasını yaz ve 180 gün refresh ekle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Clean Room ve Hashlenmiş Kitleler ile Reklam Kampanyalarında Privacy Modeli", "item": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Clean room nedir, reklam teknolojilerinde nasıl çalışır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "İki tarafın verisini ham halde paylaşmadan, kural seti altında segment/aggregate düzeyde analiz etmeyi amaçlayan ortamdır; görünürlük ve çıktı sınırları kritik kontrol noktasıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hashlenmiş kitleler KVKK açısından avantaj sağlar mı? (Teknik bakış)",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Ham tanımlayıcıyı doğrudan paylaşmaktan daha kontrollü bir adım olabilir; ancak tek başına yeterli değildir. Minimizasyon, erişim kontrolü ve audit log ile anlam kazanır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hashing + clean room kullanımında hangi teknik sınırlar olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Minimum veri, minimum erişim, minimum çıktı (aggregate + segment eşiği) ve retention/silme politikası olmalı; audit log zorunlu tutulmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En sık yapılan hata nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hashlemeyi uyum garantisi sanmak, gereksiz alanlarla liste büyütmek ve platform panel erişimlerini geniş bırakmaktır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek",
+
+      "name": "Privacy by Design ve Privacy by Default İlkelerini Web ve Ürün Geliştirme Sürecine Gömmek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#article",
+
+      "headline": "Privacy by Design ve Privacy by Default İlkelerini Web ve Ürün Geliştirme Sürecine Gömmek",
+
+      "description": "KVKK’yı sonradan eklemeyin: discovery→design→dev→test→release aşamalarına privacy by design/default adımlarını gömün. Form, izin, logging ve erişim kararlarını baştan verin.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Privacy by Design",
+
+        "Privacy by Default",
+
+        "Product Lifecycle",
+
+        "KVKK in SDLC"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Privacy by design/default ve KVKK kontrol noktaları için ürün süreç danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#howto",
+
+      "name": "SDLC’ye privacy by design/default KVKK checklist’i nasıl gömülür?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Discovery’de veri whitelist ve amaç analizi yap",
+
+          "text": "Feature amacını yaz; gerekli veri alanlarını whitelist ile belirle; gereksiz alanları yasak listeye al ve retention notunu ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Design’da form/izin/log kararlarını sabitle",
+
+          "text": "Form alanlarını minimize et; consent kutularını ayrıştır; logging şemasını tasarım dokümanına koy ve default ayarları güvenli yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dev/Test’te kontrolleri uygula ve doğrula",
+
+          "text": "RBAC+MFA, şifreleme ve log redaction uygula; testte consent/log/export kontrollerini çalıştır; release sonrası periyodik privacy review planla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Privacy by Design ve Privacy by Default İlkelerini Web ve Ürün Geliştirme Sürecine Gömmek", "item": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Privacy by design ve privacy by default ne anlama gelir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Privacy by design gizliliği tasarıma en baştan entegre etmektir; privacy by default varsayılan ayarların minimum veri ve minimum paylaşım olacak şekilde güvenli gelmesidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web/ürün geliştirme sürecine KVKK’yı nasıl gömerim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Discovery→design→dev→test→release aşamalarına KVKK soruları ve çıktıları içeren checklist koyun; release öncesi smoke test, sonrası periyodik review çalıştırın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Form, log ve izin kararlarını hangi aşamada almalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Design aşamasında. UX (form/izin) ve teknik (logging) birlikte tasarlanmadığında dev’de gereksiz veri ve geniş loglar oluşur." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ürünü bitirdikten sonra değil, baştan KVKK’ya uygun tasarlamak istiyorum, nasıl yaparım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Her aşamaya privacy gate ekleyin ve Definition of Done içine KVKK maddeleri koyun; her sprintte küçük privacy görevleri planlayın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
+},
+
+"yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim",
+
+      "name": "Yapay Zekâ Botları: Chatbot ve Voicebot’lar İçin KVKK Uyumlu Tasarım",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#article",
+
+      "headline": "Yapay Zekâ Botları: Chatbot ve Voicebot’lar İçin KVKK Uyumlu Tasarım",
+
+      "description": "Chatbot ve voicebot diyaloglarında sadece gerekli kişisel verileri iste; hassas işlemleri güvenli kanala taşı ve konuşma loglarını anonim/pseudo hâle getir.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Chatbots & Voicebots",
+
+        "Conversation Logs",
+
+        "AI NLP Services",
+
+        "Data Minimisation in Dialogues"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+
+      "name": "KVKK Uyum Hizmeti",
+
+      "serviceType": "Chatbot/voicebot projeleri için KVKK uyumlu tasarım ve loglama danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+
+      "provider": { "@id": "https://dgtlface.com/#website" },
+
+      "areaServed": "TR",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#howto",
+
+      "name": "Chatbot ve voicebot için KVKK uyumlu tasarım nasıl kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Diyalog veri whitelist ve hassas işlem yönlendirmesi oluştur",
+
+          "text": "Botun isteyeceği minimum veri alanlarını belirle; kimlik doğrulama/ödeme/iptal gibi hassas işlemleri güvenli kanala yönlendir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Konuşma loglarını PII’siz ve süreli yönet",
+
+          "text": "Konuşma loglarında redaction uygula; TTL/retention tanımla; log erişimini RBAC+audit ile kısıtla ve eğitim verisini temizlenmiş/pseudo setten üret."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "3rd party NLP servislerinde veri minimizasyonu uygula",
+
+          "text": "NLP/AI sağlayıcıya giden payload’u minimum alanlarla sınırla; panel erişimlerini MFA ile koru; entegrasyon ve export olaylarını logla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+
+        { "@type": "ListItem", "position": 4, "name": "Yapay Zekâ Botları: Chatbot ve Voicebot’lar İçin KVKK Uyumlu Tasarım", "item": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Chatbot ve voicebot tasarlarken KVKK açısından nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Minimum veriyle diyalog tasarlayın, hassas işlemleri güvenli kanala taşıyın, konuşma loglarında maskeleme/TTL uygulayın ve 3rd party NLP servislerine giden veriyi sınırlandırın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bot konuşmalarında hangi kişisel veriler risklidir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "İsim, e-posta, telefon, rezervasyon/oda bilgileri ve serbest metinde geçen hassas bilgiler risklidir; voicebot’ta ses kaydı/transkript de riskli olabilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Konuşma loglarını nasıl saklamalı ve anonimleştirmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Minimal log şeması belirleyin, PII redaction ekleyin, TTL/retention uygulayın ve erişimi RBAC+audit ile kısıtlayın; eğitim verisi gerekiyorsa temizlenmiş/pseudo dataset kullanın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Üçüncü taraf NLP servisi kullanmak riski artırır mı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Veri paylaşım kapsamına göre artabilir; teknik olarak payload minimizasyonu, erişim kısıtı ve audit/log ile yönetilmelidir ve hukuk/KVKK ekibiyle değerlendirilmelidir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "WebPageElement",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#speakable",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim/#webpage" },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    }
+
+  ]
+
 }
 
     },

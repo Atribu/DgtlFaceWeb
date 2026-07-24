@@ -524,7 +524,16 @@ export const BLOG_MAP = {
     
     "cctv-kamera-sistemleri-ve-goruntu-kayitlari-icin-teknik-kvkk-rehberi":"BlogCctvKameraSistemleriVeGoruntuKayitlariIcinTeknikKvkkRehberi",
     "sadakat-programlari-e-bulten-ve-pazarlama-iletisimleri-icin-kvkk-uyumlu-teknik-model":"BlogSadakatProgramlariEBultenVePazarlamaIletisimleriIcinKvkkUyumluTeknikModel",
-    "bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi":"BlogBulutAltyapiVeVeriLokasyonuKvkkIcinHostingStratejisi"
+    "bulut-altyapi-ve-veri-lokasyonu-kvkk-icin-hosting-stratejisi":"BlogBulutAltyapiVeVeriLokasyonuKvkkIcinHostingStratejisi",
+    "veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi":"BlogVeriIsleyenVendorYonetimiTeknikDueDiligenceVeEntegrasyonKontrolListesi",
+    "sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri":"BlogSifrelemeVeAnahtarYonetimiKvkkIcinKriptografiTemelPrensipleri",
+    "veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli":"BlogVeriSiniflandirmaVeEtiketlemeKvkkIcinTeknikDataClassificationModeli",
+    "periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri":"BlogPeriyodikKvkkTeknikSaglikKontroluInternalAuditVeOtomatikKontrolListeleri",
+    "yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi":"BlogYapayZekaModelleriVeKvkkEgitimVerisiLoggingVeAnonimizasyonStratejisi",
+    "gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama":"BlogGdprVeKvkkArasindaTeknikKopruOtelVeB2bSiteleriIcinHaritalama",
+    "clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli":"BlogCleanRoomVeHashlenmisKitlelerIleReklamKampanyalarindaPrivacyModeli",
+    "privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek":"BlogPrivacyByDesignVePrivacyByDefaultIlkeleriniWebVeUrunGelistirmeSurecineGommek",
+    "yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim":"BlogYapayZekaBotlariChatbotVeVoicebotlarIcinKvkkUyumluTasarim"
   },
    
   creative: {

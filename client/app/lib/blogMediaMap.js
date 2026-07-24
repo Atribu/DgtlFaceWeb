@@ -47367,6 +47367,457 @@ export const BLOG_MEDIA_MAP = {
       alt: "Hosting karar matrisi ve lokasyon dokümanı deliverables, otel ve B2B",
       caption: "Hosting karar matrisi ve lokasyon dokümanı deliverables, otel ve B2B"
     }
+  },
+
+  "veri-isleyen-vendor-yonetimi-teknik-due-diligence-ve-entegrasyon-kontrol-listesi":{
+    banner: {
+      src: "/images/blog/software/Software3-17/Software3-17-1.webp",
+      alt: "Veri İşleyen Vendor Yönetimi: Teknik Due Diligence ve Entegrasyon Kontrol Listesi",
+      caption: "Veri İşleyen Vendor Yönetimi: Teknik Due Diligence ve Entegrasyon Kontrol Listesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-17/Software3-17-2.webp",
+      alt: "API token ve panel erişimi risk yüzeyi, vendor erişim haritası bağlamı",
+      caption: "API token ve panel erişimi risk yüzeyi, vendor erişim haritası bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-17/Software3-17-3.webp",
+    alt: "Teknik due diligence adımları bölümü ayırıcı, üçüncü taraf risk yönetimi",
+      caption: "Teknik due diligence adımları bölümü ayırıcı, üçüncü taraf risk yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-17/Software3-17-4.webp",
+      alt: "Vendor erişim haritası ve raporlama bölümü ayırıcı, BT ve satın alma",
+      caption: "Vendor erişim haritası ve raporlama bölümü ayırıcı, BT ve satın alma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-17/Software3-17-5.webp",
+      alt: "Vendor entegrasyon ve erişim akış diyagramı, token log ve panel kontrolleri",
+      caption: "Vendor entegrasyon ve erişim akış diyagramı, token log ve panel kontrolleri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-17/Software3-17-6.webp",
+      alt: "Vendor teknik due diligence checklist kartı, erişim ve entegrasyon kontrolleri",
+      caption: "Vendor teknik due diligence checklist kartı, erişim ve entegrasyon kontrolleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-17/Software3-17-7.webp",
+      alt: "Vendor erişim ve token rotasyon KPI paneli, KVKK uyum takibi",
+      caption: "Vendor erişim ve token rotasyon KPI paneli, KVKK uyum takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-17/Software3-17-8.webp",
+      alt: "Vendor erişim haritası ve due diligence deliverables, otel ve B2B",
+      caption: "Vendor erişim haritası ve due diligence deliverables, otel ve B2B"
+    }
+  },
+
+  "sifreleme-ve-anahtar-yonetimi-kvkk-icin-kriptografi-temel-prensipleri":{
+    banner: {
+      src: "/images/blog/software/Software3-18/Software3-18-1.webp",
+      alt: "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri",
+      caption: "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-18/Software3-18-2.webp",
+      alt: "Hangi veri ne kadar kritik, şifreleme önceliklendirme bağlamı",
+      caption: "Hangi veri ne kadar kritik, şifreleme önceliklendirme bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-18/Software3-18-3.webp",
+    alt: "TLS ve at-rest şifreleme katmanı bölümü ayırıcı, temel güvenlik hijyeni",
+      caption: "TLS ve at-rest şifreleme katmanı bölümü ayırıcı, temel güvenlik hijyeni"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-18/Software3-18-4.webp",
+      alt: "Anahtar yönetimi bölümü ayırıcı, KMS ve erişim kontrol modeli",
+      caption: "Anahtar yönetimi bölümü ayırıcı, KMS ve erişim kontrol modeli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-18/Software3-18-5.webp",
+      alt: "Client TLS disk DB ve uygulama katmanı şifreleme diyagramı, KVKK teknik tedbir",
+      caption: "Client TLS disk DB ve uygulama katmanı şifreleme diyagramı, KVKK teknik tedbir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-18/Software3-18-6.webp",
+      alt: "Şifreleme ve anahtar yönetimi checklist kartı, katmanlı koruma ve audit",
+      caption: "Şifreleme ve anahtar yönetimi checklist kartı, katmanlı koruma ve audit"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-18/Software3-18-7.webp",
+      alt: "TLS kapsama ve key rotasyon KPI paneli, KVKK şifreleme yönetimi",
+      caption: "TLS kapsama ve key rotasyon KPI paneli, KVKK şifreleme yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-18/Software3-18-8.webp",
+      alt: "Kripto tasarım planı ve key management deliverables kartı, otel ve B2B",
+      caption: "Kripto tasarım planı ve key management deliverables kartı, otel ve B2B"
+    }
+  },
+
+  "veri-siniflandirma-ve-etiketleme-kvkk-icin-teknik-data-classification-modeli":{
+    banner: {
+      src: "/images/blog/software/Software3-19/Software3-19-1.webp",
+      alt: "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri",
+      caption: "Şifreleme ve Anahtar Yönetimi: KVKK İçin Kriptografi Temel Prensipleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-19/Software3-19-2.webp",
+      alt: "Genel kısıtlı kritik veri sınıfları bağlamı, kontrol seti yaklaşımı",
+      caption: "Genel kısıtlı kritik veri sınıfları bağlamı, kontrol seti yaklaşımı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-19/Software3-19-3.webp",
+    alt: "Veri türü risk seviyesi matrisi bölümü ayırıcı, KVKK sınıflandırma",
+      caption: "Veri türü risk seviyesi matrisi bölümü ayırıcı, KVKK sınıflandırma"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-19/Software3-19-4.webp",
+      alt: "Otel ve B2B kritik veri örnekleri bölümü ayırıcı, sınıf uygulaması",
+      caption: "Otel ve B2B kritik veri örnekleri bölümü ayırıcı, sınıf uygulaması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-19/Software3-19-5.webp",
+      alt: "DB log dosya rapor etiketleme yerleşim diyagramı, KVKK veri görünürlüğü",
+      caption: "DB log dosya rapor etiketleme yerleşim diyagramı, KVKK veri görünürlüğü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-19/Software3-19-6.webp",
+      alt: "Data classification checklist kartı, sınıf kontrol ve audit adımları",
+      caption: "Data classification checklist kartı, sınıf kontrol ve audit adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-19/Software3-19-7.webp",
+      alt: "Etiket kapsama ve kritik veri erişim KPI paneli, KVKK uyum takibi",
+      caption: "Etiket kapsama ve kritik veri erişim KPI paneli, KVKK uyum takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-19/Software3-19-8.webp",
+      alt: "Veri sınıflandırma matrisi ve etiketleme deliverables, BT ve KVKK ekibi",
+      caption: "Veri sınıflandırma matrisi ve etiketleme deliverables, BT ve KVKK ekibi"
+    }
+  },
+
+  "periyodik-kvkk-teknik-saglik-kontrolu-internal-audit-ve-otomatik-kontrol-listeleri":{
+    banner: {
+      src: "/images/blog/software/Software3-20/Software3-20-1.webp",
+      alt: "Periyodik KVKK Teknik Sağlık Kontrolü: Internal Audit ve Otomatik Kontrol Listeleri",
+      caption: "Periyodik KVKK Teknik Sağlık Kontrolü: Internal Audit ve Otomatik Kontrol Listeleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-20/Software3-20-2.webp",
+      alt: "Bulgu aksiyon kapanış akışı, KVKK teknik internal audit bağlamı",
+      caption: "Bulgu aksiyon kapanış akışı, KVKK teknik internal audit bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-20/Software3-20-3.webp",
+    alt: "Otomatik kontroller bölümü ayırıcı, vulnerability ve config taramaları",
+      caption: "Otomatik kontroller bölümü ayırıcı, vulnerability ve config taramaları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-20/Software3-20-4.webp",
+      alt: "Manuel kontroller bölümü ayırıcı, rol log backup ve script envanteri",
+      caption: "Manuel kontroller bölümü ayırıcı, rol log backup ve script envanteri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-20/Software3-20-5.webp",
+      alt: "KVKK teknik sağlık kontrol timeline diyagramı, yıllık ve 6 aylık döngü",
+      caption: "KVKK teknik sağlık kontrol timeline diyagramı, yıllık ve 6 aylık döngü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-20/Software3-20-6.webp",
+      alt: "Internal audit checklist kartı, script rol log backup config kontrolleri",
+      caption: "Internal audit checklist kartı, script rol log backup config kontrolleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-20/Software3-20-7.webp",
+      alt: "Kritik bulgu ve kapanış süresi KPI paneli, KVKK audit performansı",
+      caption: "Kritik bulgu ve kapanış süresi KPI paneli, KVKK audit performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-20/Software3-20-8.webp",
+      alt: "Audit raporu ve follow-up plan deliverables kartı, otel ve B2B",
+      caption: "Audit raporu ve follow-up plan deliverables kartı, otel ve B2B"
+    }
+  },
+
+  "yapay-zeka-modelleri-ve-kvkk-egitim-verisi-logging-ve-anonimizasyon-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software3-21/Software3-21-1.webp",
+      alt: "Yapay Zekâ Modelleri ve KVKK: Eğitim Verisi, Logging ve Anonimizasyon Stratejisi",
+      caption: "Yapay Zekâ Modelleri ve KVKK: Eğitim Verisi, Logging ve Anonimizasyon Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-21/Software3-21-2.webp",
+      alt: "Log form CRM kaynaklarının AI pipeline’a akışı, otel ve B2B",
+      caption: "Log form CRM kaynaklarının AI pipeline’a akışı, otel ve B2B"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-21/Software3-21-3.webp",
+    alt: "Eğitim verisi kaynaklarını ayıran bölüm görseli, otel ve B2B",
+      caption: "Eğitim verisi kaynaklarını ayıran bölüm görseli, otel ve B2B"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-21/Software3-21-4.webp",
+      alt: "Model logging ve maskeleme adımlarını ayıran görsel, otel ve B2B",
+      caption: "Model logging ve maskeleme adımlarını ayıran görsel, otel ve B2B"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-21/Software3-21-5.webp",
+      alt: "Kaynak veriden temizlikten modele giden AI pipeline diyagramı, KVKK uyumu",
+      caption: "Kaynak veriden temizlikten modele giden AI pipeline diyagramı, KVKK uyumu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-21/Software3-21-6.webp",
+      alt: "AI veri hazırlık checklist özeti, anonim pseudo ve logging, otel bağlamı",
+      caption: "AI veri hazırlık checklist özeti, anonim pseudo ve logging, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-21/Software3-21-7.webp",
+      alt: "PII alan sayısı ve maskeleme kapsama KPI kartı, otel ve B2B",
+      caption: "PII alan sayısı ve maskeleme kapsama KPI kartı, otel ve B2B"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-21/Software3-21-8.webp",
+      alt: "Privacy transform ve log şeması deliverables kartı, otel ve B2B",
+      caption: "Privacy transform ve log şeması deliverables kartı, otel ve B2B"
+    }
+  },
+
+  "gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama":{
+    banner: {
+      src: "/images/blog/software/Software3-22/Software3-22-1.webp",
+      alt: "GDPR ve KVKK Arasında Teknik Köprü: Otel ve B2B Siteleri İçin Haritalama",
+      caption: "GDPR ve KVKK Arasında Teknik Köprü: Otel ve B2B Siteleri İçin Haritalama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-22/Software3-22-2.webp",
+      alt: "Tek veri envanteri ve rejim etiketleme yaklaşımı, otel ve B2B",
+      caption: "Tek veri envanteri ve rejim etiketleme yaklaşımı, otel ve B2B"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-22/Software3-22-3.webp",
+    alt: "Veri envanteri ve data flow mapping bölümü ayırıcı, iki rejim tek model",
+      caption: "Veri envanteri ve data flow mapping bölümü ayırıcı, iki rejim tek model"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-22/Software3-22-4.webp",
+      alt: "DSR pipeline ve logging bölümü ayırıcı, GDPR KVKK teknik köprü",
+      caption: "DSR pipeline ve logging bölümü ayırıcı, GDPR KVKK teknik köprü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-22/Software3-22-5.webp",
+      alt: "Otel ve B2B için tek pipeline iki hukuk çerçevesi diyagramı",
+      caption: "Otel ve B2B için tek pipeline iki hukuk çerçevesi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-22/Software3-22-6.webp",
+      alt: "GDPR KVKK teknik checklist kartı, envanter log DSR kontrolleri",
+      caption: "GDPR KVKK teknik checklist kartı, envanter log DSR kontrolleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-22/Software3-22-7.webp",
+      alt: "DSR yanıt süresi ve denetlenebilir log KPI kartı, uyum operasyonu",
+      caption: "DSR yanıt süresi ve denetlenebilir log KPI kartı, uyum operasyonu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-22/Software3-22-8.webp",
+      alt: "Tek envanter ve DSR pipeline deliverables kartı, otel ve B2B",
+      caption: "Tek envanter ve DSR pipeline deliverables kartı, otel ve B2B"
+    }
+  },
+
+  "clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli":{
+    banner: {
+      src: "/images/blog/software/Software3-23/Software3-23-1.webp",
+      alt: "Clean Room ve Hashlenmiş Kitleler ile Reklam Kampanyalarında Privacy Modeli",
+      caption: "Clean Room ve Hashlenmiş Kitleler ile Reklam Kampanyalarında Privacy Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-23/Software3-23-2.webp",
+      alt: "Kimin neyi gördüğü clean room bağlamı, segment bazlı analiz modeli",
+      caption: "Kimin neyi gördüğü clean room bağlamı, segment bazlı analiz modeli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-23/Software3-23-3.webp",
+    alt: "Hashlenmiş kitle yaklaşımı bölümü ayırıcı, veri minimizasyonu odağı",
+      caption: "Hashlenmiş kitle yaklaşımı bölümü ayırıcı, veri minimizasyonu odağı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-23/Software3-23-4.webp",
+      alt: "Risk ve sınırlar bölümü ayırıcı, privacy-safe hedefleme kontrolleri",
+      caption: "Risk ve sınırlar bölümü ayırıcı, privacy-safe hedefleme kontrolleri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-23/Software3-23-5.webp",
+      alt: "CRMden hashleme ile platforma aktarım akış diyagramı, KVKK uyumu",
+      caption: "CRMden hashleme ile platforma aktarım akış diyagramı, KVKK uyumu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-23/Software3-23-6.webp",
+      alt: "Hashed audience ve clean room checklist kartı, erişim ve log kontrolleri",
+      caption: "Hashed audience ve clean room checklist kartı, erişim ve log kontrolleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-23/Software3-23-7.webp",
+      alt: "Eşleşme ve şikâyet KPI kartı, privacy-aware remarketing performansı",
+      caption: "Eşleşme ve şikâyet KPI kartı, privacy-aware remarketing performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-23/Software3-23-8.webp",
+      alt: "Liste lifecycle ve audit deliverables kartı, otel ve B2B adtech modeli",
+      caption: "Liste lifecycle ve audit deliverables kartı, otel ve B2B adtech modeli"
+    }
+  },
+
+
+  "privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek":{
+    banner: {
+      src: "/images/blog/software/Software3-24/Software3-24-1.webp",
+      alt: "Privacy by Design ve Privacy by Default İlkelerini Web ve Ürün Geliştirme Sürecine Gömmek",
+      caption: "Privacy by Design ve Privacy by Default İlkelerini Web ve Ürün Geliştirme Sürecine Gömmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-24/Software3-24-2.webp",
+      alt: "Discovery design dev test aşamalarında KVKK kontrol noktaları, ürün süreci",
+      caption: "Discovery design dev test aşamalarında KVKK kontrol noktaları, ürün süreci"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-24/Software3-24-3.webp",
+    alt: "Discovery aşaması veri minimizasyonu bölümü ayırıcı, KVKK hedefleri",
+      caption: "Discovery aşaması veri minimizasyonu bölümü ayırıcı, KVKK hedefleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-24/Software3-24-4.webp",
+      alt: "Dev ve test KVKK checklist bölümü ayırıcı, release öncesi kontroller",
+      caption: "Dev ve test KVKK checklist bölümü ayırıcı, release öncesi kontroller"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-24/Software3-24-5.webp",
+      alt: "Ürün yaşam döngüsüne gömülü privacy timeline diyagramı, SDLC KVKK",
+      caption: "Ürün yaşam döngüsüne gömülü privacy timeline diyagramı, SDLC KVKK"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-24/Software3-24-6.webp",
+      alt: "Privacy by design checklist kartı, sprint ve release KVKK kontrolleri",
+      caption: "Privacy by design checklist kartı, sprint ve release KVKK kontrolleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-24/Software3-24-7.webp",
+      alt: "KVKK kaynaklı revizyon ve risk bulgusu KPI kartı, ürün geliştirme",
+      caption: "KVKK kaynaklı revizyon ve risk bulgusu KPI kartı, ürün geliştirme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-24/Software3-24-8.webp",
+      alt: "SDLC privacy deliverables kartı, otel ve B2B ürün ekipleri",
+      caption: "SDLC privacy deliverables kartı, otel ve B2B ürün ekipleri"
+    }
+  },
+
+  "yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim":{
+    banner: {
+      src: "/images/blog/software/Software3-25/Software3-25-1.webp",
+      alt: "Yapay Zekâ Botları: Chatbot ve Voicebot’lar İçin KVKK Uyumlu Tasarım",
+      caption: "Yapay Zekâ Botları: Chatbot ve Voicebot’lar İçin KVKK Uyumlu Tasarım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-25/Software3-25-2.webp",
+      alt: "Bot veri toplama noktaları ve güvenli kanal yaklaşımı, otel ve B2B",
+      caption: "Bot veri toplama noktaları ve güvenli kanal yaklaşımı, otel ve B2B"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-25/Software3-25-3.webp",
+    alt: "Riskli veri türleri bölümü ayırıcı, chatbot konuşma verisi yönetimi",
+      caption: "Riskli veri türleri bölümü ayırıcı, chatbot konuşma verisi yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-25/Software3-25-4.webp",
+      alt: "Loglama ve üçüncü taraf NLP riskleri ayırıcı, bot KVKK tasarımı",
+      caption: "Loglama ve üçüncü taraf NLP riskleri ayırıcı, bot KVKK tasarımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-25/Software3-25-5.webp",
+      alt: "Chatbot voicebot diyalog akışı ve veri toplama diyagramı, KVKK uyumu",
+      caption: "Chatbot voicebot diyalog akışı ve veri toplama diyagramı, KVKK uyumu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-25/Software3-25-6.webp",
+      alt: "Bot KVKK checklist kartı, veri minimizasyonu ve log hijyeni",
+      caption: "Bot KVKK checklist kartı, veri minimizasyonu ve log hijyeni"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-25/Software3-25-7.webp",
+      alt: "Şikâyet ve opt-out KPI kartı, bot güven ve KVKK performansı",
+      caption: "Şikâyet ve opt-out KPI kartı, bot güven ve KVKK performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-25/Software3-25-8.webp",
+      alt: "Diyalog dokümanı ve log şeması deliverables kartı, bot KVKK modeli",
+      caption: "Diyalog dokümanı ve log şeması deliverables kartı, bot KVKK modeli"
+    }
   }
   
 };
