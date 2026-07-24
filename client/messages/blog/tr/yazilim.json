@@ -57558,7 +57558,7 @@
     },
     "h1": {
       "title": "Supply Chain Güvenliği: Kütüphaneler, Dependency ve İmaj Kaynaklarını Yönetmek",
-      "intro": "Sunucuyu ne kadar iyi harden ederseniz edin, uygulamanızın içine kötü niyetli bir dependency veya güvenilmez bir imaj girdiyse risk “kapıdan” değil “paketten” gelir. Özellikle otel projelerinde rezervasyon/ödeme modülleri ve üçüncü taraf script’ler; B2B’de entegrasyon SDK’ları ve worker/gateway imajları supply chain yüzeyini büyütür. Bu yüzden amaç; paket ve imaj kaynaklarını sınırlamak, bağımlılıkları kilitlemek ve build pipeline’da doğrulama (policy) koymaktır. Burada kazanım, güvenliği “sonradan tarama” yerine “kaynak-aware build” mantığına taşımaktır.",
+      "intro": "Sunucuyu ne kadar iyi harden ederseniz edin, uygulamanızın içine kötü niyetli bir dependency veya güvenilmez bir imaj girdiyse risk “kapıdan” değil “paketten” gelir. Özellikle otel projelerinde rezervasyon/ödeme modülleri ve üçüncü taraf script’ler; B2B’de entegrasyon SDK’ları ve worker/gateway imajları supply chain yüzeyini büyütür. Bu yüzden amaç; paket ve imaj kaynaklarını sınırlamak, bağımlılıkları kilitlemek ve build pipeline’da doğrulama (policy) koymaktır. Burada kazanım, güvenliği “sonradan tarama” yerine “kaynak-aware build” mantığına taşımaktır. Bu nedenle [supply chain güvenliği ve paket yönetimi](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımı, yazılım bağımlılıklarını sunucu güvenliğinin ayrılmaz parçası olarak ele alır.",
       "quickSummary": [
         "1) Paket ve imaj kaynaklarını “izinli liste”ye indir.",
         "2) Lockfile’ı zorunlu kıl; drift’i azalt.",
@@ -57615,6 +57615,10 @@
           {
             "type": "p",
             "text": "Supply chain saldırıları; sizin sisteminize doğrudan saldırmak yerine, kullandığınız tedarik bileşenlerini hedef alır: paket depoları, dependency’ler, build araçları, container registry ve deployment süreçleri. Bu saldırıların en tehlikeli yanı; “normal güncelleme” gibi görünmesidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu risk yüzeyini [bağımlılık hijyeni](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) perspektifiyle değerlendirmek; güvenliğin yalnız sunucu ayarlarından değil paket kaynakları, build zinciri ve imaj geçmişi üzerinden de yönetildiğini görünür hale getirir."
           },
           {
             "type": "h3",
@@ -57731,7 +57735,7 @@
               "Registry politikasını yaz ve build pipeline’a uygula.",
               "Yeni dependency eklemeyi PR + review şartına bağla.",
               "Internal paket isimlendirmesiyle confusion riskini azalt.",
-              "Kritik modüllerde bağımlılık minimizasyonu yap (Internal link: /tr/yazilim/web-sitesi-gelistirme)."
+              "Kritik modüllerde bağımlılık minimizasyonu yap."
             ]
           }
         ]
@@ -57745,12 +57749,20 @@
             "text": "Lockfile, supply chain güvenliğinin “temel emniyet kemeri”dir: aynı bağımlılık ağacını tekrar üretmenizi sağlar, sürpriz güncellemeleri azaltır. Ayrıca patch/vulnerability yönetimini daha kontrollü hale getirir."
           },
           {
+            "type": "p",
+            "text": "Bu disiplinin build aşamasında gerçekten uygulanması için [internal registry ve lockfile disiplini](https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek) CI/CD güvenlik gate’leriyle birlikte çalışmalı; kaynak dışına çıkan veya review’sız güncellemeler daha prod’a ulaşmadan durdurulmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Kütüphane/dependency güvenliğini nasıl sağlarım?"
           },
           {
             "type": "p",
             "text": "Lockfile ile bağımlılık sürümlerini sabitleyin, güncellemeleri planlı PR’larla yönetin ve tarama sonuçlarını (CVE) risk bazlı önceliklendirin. Kritik paketlerde minimum bağımlılık ve güvenilir kaynak politikası uygulayın; güncelleme sonrası test ve rollback planı oluşturun."
+          },
+          {
+            "type": "p",
+            "text": "Tarama bulgularının gerçekten sömürülebilir olup olmadığını anlamak için [dependency zafiyetlerinin sürekli testi](https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model) yaklaşımı önemlidir; böylece her CVE aynı öncelikte ele alınmaz ve kritik akışlara etkisi daha doğru ölçülür."
           },
           {
             "type": "h3",
@@ -57820,6 +57832,10 @@
           {
             "type": "p",
             "text": "Container dünyasında supply chain, “hangi base image?” ve “hangi registry?” sorularında yoğunlaşır. Resmî ve minimal base image’ler, güvenilir registry’ler ve imajların “provenance” (kaynak geçmişi) kontrolü kritik hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Bu katmanda [container image kaynak güvenliği](https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar) yalnız base image seçimini değil, registry kaynağı, dependency zinciri ve image vulnerability scanning disiplinini de kapsar."
           },
           {
             "type": "h3",
@@ -57893,6 +57909,10 @@
             "text": "Teoriyi operasyonla bağlamak için tipik senaryoları ele alalım: otelde ödeme/rezervasyon; B2B’de entegrasyon SDK’ları ve worker’lar."
           },
           {
+            "type": "p",
+            "text": "Özellikle turizm tarafında [PMS entegrasyonlarında SDK ve API client güvenliği](https://dgtlface.com/tr/otel/pms-entegrasyonu) ayrı bir dikkat alanıdır; rezervasyon motoru, fiyat servisi ve üçüncü taraf client paketleri aynı dependency zincirine farklı riskler ekleyebilir."
+          },
+          {
             "type": "h3",
             "text": "Otel senaryosu — rezervasyon/ödeme modülünde 3rd party paket"
           },
@@ -57927,6 +57947,14 @@
             "text": "Güvenilir registry ve onaylı paket/imaj listesi kullanın, dependency’leri lockfile ile sabitleyin, internal registry ile kaynakları kontrol edin ve CI/CD’de tarama + policy gate ile riskli güncellemeleri prod’a sokmayın. Kritik modüllerde bağımlılık minimizasyonu ve düzenli rebuild/rollout rutini uygulayın."
           },
           {
+            "type": "p",
+            "text": "Frontend ve build tarafındaki eski paketler yalnız güvenlik açığı üretmez; bundle şişmesi, build hatası ve istemci tarafı bozulmalar üzerinden [eski frontend dependency’lerinin teknik SEO etkisi](https://dgtlface.com/tr/seo/teknik-seo) de görünür hale gelebilir."
+          },
+          {
+            "type": "p",
+            "text": "Benzer şekilde analytics SDK’ları, ödeme script’leri veya üçüncü taraf widget’lar veri akışına doğrudan dokunduğu için [üçüncü taraf paketlerde veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) konusu yalnız hukuk değil, teknik kontrol ve erişim yüzeyi açısından da değerlendirilmelidir."
+          },
+          {
             "type": "h4",
             "text": "Fark yaratan mini bölüm (Competitor Gap): “Haber” değil “günlük rutin”"
           },
@@ -57957,7 +57985,7 @@
               "“Onaylı kaynaklar” listesini yayınla (paket + imaj).",
               "Lockfile ve internal registry’yi standart yap.",
               "CI policy gate ile riskli update’leri blokla.",
-              "Web geliştirme ve sunucu güvenlik süreçleriyle entegre et (Internal link: /tr/yazilim/web-sitesi-gelistirme, /tr/yazilim/sunucu-guvenlik)."
+              "Web geliştirme ve sunucu güvenlik süreçleriyle entegre et."
             ]
           },
           {
@@ -58082,6 +58110,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi canlı altyapınıza uyarlamak için [Sunucu ve Güvenlik hizmetiyle bağımlılık güvenliği sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik). Uygulama detayları ve operasyonel karar başlıkları için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           }
@@ -58194,7 +58226,7 @@
     },
     "h1": {
       "title": "Penetrasyon Testi ve Sürekli Güvenlik Testleri: Otel ve B2B Siteleri İçin Model",
-      "intro": "Pentest raporu geldiğinde çoğu ekip iki uçtan birine düşer: “raporu aldık, tamam” ya da “bu kadar bulgu varken yetişemeyiz.” Gerçekte pentest, bir fotoğraf karesi gibidir; o anki durumu gösterir. Oysa otel ve B2B projelerinde kod ve bağımlılıklar sürekli değişir: kampanya sayfaları, rezervasyon akışları, portal güncellemeleri, yeni entegrasyon SDK’ları… Bu hızda sadece yılda bir fotoğraf karesi yeterli olmaz. Doğru yaklaşım; periyodik pentest’i DAST/SAST/SCA gibi sürekli çalışan kontrollerle tamamlayıp bulguları risk önceliğiyle sprint bazlı kapatmak ve re-test ile doğrulamaktır.",
+      "intro": "Pentest raporu geldiğinde çoğu ekip iki uçtan birine düşer: “raporu aldık, tamam” ya da “bu kadar bulgu varken yetişemeyiz.” Gerçekte pentest, bir fotoğraf karesi gibidir; o anki durumu gösterir. Oysa otel ve B2B projelerinde kod ve bağımlılıklar sürekli değişir: kampanya sayfaları, rezervasyon akışları, portal güncellemeleri, yeni entegrasyon SDK’ları… Bu hızda sadece yılda bir fotoğraf karesi yeterli olmaz. Doğru yaklaşım; periyodik pentest’i DAST/SAST/SCA gibi sürekli çalışan kontrollerle tamamlayıp bulguları risk önceliğiyle sprint bazlı kapatmak ve re-test ile doğrulamaktır. Bu nedenle [penetrasyon testi nedir, ne zaman yapılmalı](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusu, tek seferlik rapor mantığından daha geniş bir güvenlik programı çerçevesinde ele alınmalıdır.",
       "quickSummary": [
         "1) Scope’u iş kritikliğiyle belirle (otel rezervasyon, B2B portal/API).",
         "2) SAST/SCA’yı PR gate yap; küçükten başla, sonra sıkılaştır.",
@@ -58258,6 +58290,10 @@
             "text": "Pentest; belirli bir kapsam içinde, sistemin gerçek saldırı senaryolarına karşı dayanıklılığını test etmeyi amaçlar. Ancak pentest “her şeyi bulur” ya da “güvenliği garanti eder” değildir. Pentest’in değeri; kapsam ve yöntem doğru seçildiğinde ortaya çıkar."
           },
           {
+            "type": "p",
+            "text": "Bu bakış açısı, [sürekli güvenlik testleri yaklaşımı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) ile birleştiğinde yıllık pentest’i yaşayan bir kalite kontrol mekanizmasının parçasına dönüştürür."
+          },
+          {
             "type": "h3",
             "text": "Penetrasyon testi nedir, ne zaman yapılmalı?"
           },
@@ -58302,7 +58338,7 @@
               "Scope’u iş kritikliğiyle belirle (otel rezervasyon, B2B portal/API).",
               "Pentest’i “program”a bağla: fix ve re-test zorunlu olsun.",
               "Tek seferlik raporu sürekli testlerle tamamla.",
-              "Bulguları bakım-destek sprintlerine bağla (Internal link: /tr/yazilim/bakim-ve-destek)."
+              "Bulguları bakım ve destek sprintlerine bağla."
             ]
           },
           {
@@ -58355,7 +58391,7 @@
               "Yetki ve rol hataları için gray/white var mı?",
               "Kritik modüller için white box ayrıldı mı?",
               "Test hesapları ve data maskeleme hazır mı?",
-              "KVKK açısından test verisi kontrollü mü? (Internal link: /tr/raporlama/kvkk-veri-guvenligi)"
+              "KVKK açısından test verisi kontrollü mü?"
             ]
           },
           {
@@ -58378,6 +58414,10 @@
           {
             "type": "p",
             "text": "Burada amaç; pentest ve sürekli testleri rakip değil, tamamlayıcı görmek. Pentest, karmaşık saldırı senaryolarını ve business logic açıklarını yakalar. Sürekli testler ise “günlük değişikliklerde” güvenliği korur."
+          },
+          {
+            "type": "p",
+            "text": "Bu modelde [DAST, SAST ve SCA farkı](https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek) net kurulduğunda; hangi kontrolün PR aşamasında, hangisinin staging’de, hangisinin periyodik pentest içinde çalışacağı daha doğru planlanır."
           },
           {
             "type": "h3",
@@ -58417,6 +58457,10 @@
           {
             "type": "p",
             "text": "Düzenli pentest + sürekli test programı olan kurumlarda, kritik zafiyetlerin üretimde bulunma süresinin çoğu senaryoda belirgin biçimde kısaldığı gözlemlenir (yani “bulgu yaşlanmadan” kapanır)."
+          },
+          {
+            "type": "p",
+            "text": "Kritik bulguların yalnız bulunması değil, izlenmesi de önemlidir; bu nedenle [kritik bulguların incident takibi](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) ile alarm üretimi, triage ve eskalasyon süreci birlikte tasarlanmalıdır."
           },
           {
             "type": "h3",
@@ -58459,6 +58503,10 @@
             "text": "Kapsam, doğrudan iş akışlarına göre belirlenmeli. “Her şeyi test edelim” gerçekçi değildir; “kritik akışları” garanti altına almak hedef olmalıdır."
           },
           {
+            "type": "p",
+            "text": "Özellikle turizm tarafında [otel B2B için güvenlik test kapsamı](https://dgtlface.com/tr/otel/pms-entegrasyonu) PMS, rezervasyon motoru, ödeme entegrasyonu ve API servisleri aynı risk yüzeyinde çalıştığı için iş akışları üzerinden tanımlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Otel kapsam önerisi"
           },
@@ -58493,6 +58541,10 @@
           {
             "type": "p",
             "text": "Önce kritik iş akışlarını ve veri türlerini (rezervasyon/ödeme, portal/CRM) listeleyin. Sonra yüzeyleri ayırın: web, API, mobil, altyapı ve entegrasyonlar. Sürekli testlerde SAST/SCA’yı tüm repo’ya, DAST’ı staging’de kritik endpoint’lere odaklayın; pentest’te ise business logic ve rol/akış açıklarına derinleşin."
+          },
+          {
+            "type": "p",
+            "text": "Bu kapsam belirlenirken testlerde görülen kişisel veri, erişim ve loglama riskleri de [güvenlik testlerinde veri güvenliği kontrolleri](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) çerçevesinde ayrıca değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -58599,6 +58651,10 @@
             "text": "En olgun modelin bile başarısı, bulguların kapanma hızına bağlıdır. Burada hedef; “rapor okuma” değil “test→fix cycles” kurmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu döngü, [pentest sonrası patch yönetimi](https://dgtlface.com/tr/yazilim/blog/patch-yonetimi-ve-zafiyet-taramasi-web-sunuculari-icin) ile birleştiğinde açık kapatma, zafiyet taraması, tekrar test ve güvenli güncelleme adımları aynı workflow içinde yönetilebilir."
+          },
+          {
             "type": "h3",
             "text": "Risk önceliği matrisi"
           },
@@ -58649,7 +58705,7 @@
               "Risk SLA (kritik/önemli) var mı?",
               "Fix sonrası re-test zorunlu mu?",
               "Kapanış metrikleri raporlanıyor mu?",
-              "KVKK teknik tedbir kanıtı olarak kayıt tutuluyor mu? (Internal link: /tr/raporlama/kvkk-veri-guvenligi)"
+              "KVKK teknik tedbir kanıtı olarak kayıt tutuluyor mu?"
             ]
           },
           {
@@ -58659,7 +58715,7 @@
             "items": [
               "Bulgu SLA’larını yaz (kritik=çok hızlı, önemli=planlı).",
               "Her kritik bulgu için re-test zorunlu yap.",
-              "Bakım-destek sprint planına bağla (Internal link: /tr/yazilim/bakim-ve-destek).",
+              "Bakım ve destek sprint planına bağla.",
               "Programı 365 günde bir tehdit modeline göre kalibre et."
             ]
           },
@@ -58720,6 +58776,10 @@
               "SLA + owner + re-test net",
               "Takvim release/bakım döngüsüyle uyumlu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Programın yönetim tarafında görünür olması için [güvenlik test bulgularının raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) risk skoru, kapanan açık sayısı ve tekrar test sonuçlarını tek panelde toplamalıdır. Operasyonel uygulama desteği için [Sunucu ve Güvenlik hizmetiyle sürekli güvenlik testi sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) ve temel karar başlıkları için [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atın."
           },
           {
             "type": "media",
@@ -58835,7 +58895,7 @@
     },
     "h1": {
       "title": "Serverless (FaaS) Güvenliği: Otel ve B2B İçin Riskler ve En İyi Uygulamalar",
-      "intro": "“Sunucusuz” kelimesi, birçok ekipte güvenlik sorumluluğunun da devredildiği algısını doğurur. Oysa serverless’ta altyapı patch’leri ve fiziksel güvenlik cloud tarafında olsa da, fonksiyonların neye eriştiği, hangi event’lerle tetiklendiği, hangi secret’ları kullandığı ve nasıl loglandığı sizin sorumluluğunuzdadır. Otel tarafında rezervasyon/raporlama fonksiyonları; B2B’de webhook ve entegrasyon fonksiyonları genellikle kritik veri taşır. Bu rehber, paylaşılan sorumluluğu netleştirip IAM/secrets/event risklerini kontrol altına alan pratik bir model sunar.",
+      "intro": "“Sunucusuz” kelimesi, birçok ekipte güvenlik sorumluluğunun da devredildiği algısını doğurur. Oysa [serverless FaaS güvenliği](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) yaklaşımında altyapı patch’leri ve fiziksel güvenlik cloud tarafında olsa da, fonksiyonların neye eriştiği, hangi event’lerle tetiklendiği, hangi secret’ları kullandığı ve nasıl loglandığı sizin sorumluluğunuzdadır. Otel tarafında rezervasyon/raporlama fonksiyonları; B2B’de webhook ve entegrasyon fonksiyonları genellikle kritik veri taşır. Bu rehber, paylaşılan sorumluluğu netleştirip IAM/secrets/event risklerini kontrol altına alan pratik bir model sunar.",
       "quickSummary": [
         "1) Shared responsibility’i ekipte yazılı hale getir.",
         "2) IAM’i fonksiyon bazında daralt (least privilege).",
@@ -58888,6 +58948,10 @@
           {
             "type": "p",
             "text": "Serverless/FaaS, altyapı kapasitesini ve çalıştırma ortamını büyük ölçüde sağlayıcıya bırakarak “fonksiyon odaklı” geliştirmeyi mümkün kılar. Klasik sunucuda sizin yönettiğiniz birçok katman (OS patch, runtime scaling) cloud’a kayar. Ancak uygulama güvenliğinin büyük kısmı hâlâ sizdedir."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [cloud function güvenliği yaklaşımı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri), yalnız kodun çalışmasını değil; event kaynağı doğrulamasını, kimlik ve yetki sınırlarını, secret erişimini ve logların denetlenebilirliğini birlikte ele alır."
           },
           {
             "type": "h3",
@@ -59007,6 +59071,10 @@
             "text": "Serverless’ta üç ana risk kümesi öne çıkar: IAM yetki şişmesi, secrets sızıntısı ve event-driven saldırı yüzeyi."
           },
           {
+            "type": "p",
+            "text": "Özellikle fonksiyon içine eklenen paketler, SDK’lar ve yardımcı kütüphaneler için [serverless dependency güvenliği](https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek) yaklaşımı şarttır; aksi halde risk yalnız IAM’de değil, bağımlılık zincirinde de büyür."
+          },
+          {
             "type": "h3",
             "text": "Fonksiyon bazlı yetkilendirme (least privilege IAM)"
           },
@@ -59023,12 +59091,20 @@
             "text": "Env var pratik ama risklidir; yanlış loglanır, yanlış paylaşılır, yanlış yetkiyle okunur. Secrets, güvenli saklama/dağıtım modeline taşınmalıdır."
           },
           {
+            "type": "p",
+            "text": "Bu noktada fonksiyon başına izinleri daraltan, token ve anahtarları merkezi yöneten bir [lambda IAM ve secret yönetimi modeli](https://dgtlface.com/tr/yazilim/blog/secrets-management-parola-api-key-ve-sertifika-yonetimi-guvenli-nasil-yapilir) kurmak, hem sızıntı hem de yanlış yetki riskini ciddi biçimde azaltır."
+          },
+          {
             "type": "h3",
             "text": "Event tabanlı saldırılar serverless fonksiyonlarını nasıl etkiler?"
           },
           {
             "type": "p",
             "text": "Event-driven saldırılarda saldırgan, HTTP/cron/queue/bucket gibi event kaynaklarını flood ederek fonksiyonları aşırı tetikleyebilir. Bu hem maliyet hem kesinti riski doğurur; ayrıca doğrulama eksikse kötü niyetli payload ile iş mantığı istismar edilebilir. Çözüm; event doğrulama, rate limit, idempotency ve downstream korumasıdır."
+          },
+          {
+            "type": "p",
+            "text": "Fonksiyon kodu üretime çıkmadan önce bağımlılık taraması, IAM policy kontrolü ve otomatik testleri aynı hatta toplayan [serverless deployment güvenlik gate’leri](https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek) ise bu risklerin önemli bölümünü canlı öncesinde yakalamaya yardımcı olur."
           },
           {
             "type": "h4",
@@ -59098,7 +59174,11 @@
           },
           {
             "type": "p",
-            "text": "Rezervasyon/lead içeren fonksiyonlarda loglarda gereksiz kişisel veri tutulmamalı; erişim logları teknik tedbir kanıtı olarak saklanmalıdır. (Internal link: /tr/raporlama/kvkk-veri-guvenligi)"
+            "text": "Rezervasyon veya lead verisi işleyen fonksiyonlarda loglarda gereksiz kişisel veri tutulmamalı; [serverless event payload veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla erişim logları, maskeleme kuralları ve saklama politikası teknik tedbir kanıtı olacak şekilde tanımlanmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Operasyon tarafında ise timeout, retry, concurrency ve hata örüntülerini düzenli izleyebilmek için [cloud function loglarının raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) gerekir; böylece maliyet anomalileri ve güvenlik sinyalleri tek panelde takip edilebilir."
           },
           {
             "type": "h3",
@@ -59135,6 +59215,10 @@
           {
             "type": "p",
             "text": "Serverless her yerde “en iyi” değil; bazı yerlerde çok mantıklı, bazı yerlerde risklidir. Burada karar kriteri: kritik akış, latency hassasiyeti, entegrasyon güvenliği ve gözlemlenebilirlik olgunluğu."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle webhook ve rezervasyon tetikleyicileri kullanan yapılarda, [event tabanlı PMS ve OTA akışlarında serverless riski](https://dgtlface.com/tr/otel/pms-entegrasyonu) doğru sınırlandırılmazsa hem veri akışı hem de operasyonel süreklilik etkilenebilir."
           },
           {
             "type": "h3",
@@ -59195,7 +59279,7 @@
               "Serverless’ı “kritik olmayan/ölçekli” işlerde pilotla.",
               "Kritik işlerde önce IAM+secrets+event kontrol olgunluğunu tamamla.",
               "Rate limit/throttle ve idempotency’yi standart yap.",
-              "Loglama ve hata yönetimini sunucu güvenliği ve KVKK ile uyumlu kur (Internal link: /tr/yazilim/sunucu-guvenlik, /tr/raporlama/kvkk-veri-guvenligi)."
+              "Loglama ve hata yönetimini sunucu güvenliği, veri minimizasyonu ve erişim kayıtlarıyla uyumlu kur."
             ]
           },
           {
@@ -59314,6 +59398,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Bu çerçeveyi uygulamaya almak isteyen ekipler için [Sunucu ve Güvenlik hizmetiyle cloud function güvenliği sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); kapsam, uygulama adımları ve ek sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atın."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           }
@@ -59428,7 +59516,7 @@
     },
     "h1": {
       "title": "Kubernetes Cluster Güvenliği: Nodes, Namespace ve Network Policy",
-      "intro": "Kubernetes’e geçiş çoğu ekipte “manifest’ler çalışsın” önceliğiyle başlar; güvenlik ayarları ise “sonra bakarız” diye ertelenir. Ancak K8s’te default güvenlik varsayımları, klasik tek sunucu/monolit dünyasından farklı riskler üretir: cluster API erişimi, geniş yetkili servis hesapları, namespaceler arası kontrolsüz iletişim ve pod’ların birbirine sınırsız konuşması gibi. Otel microservice cluster’larında rezervasyon/raporlama; B2B’de API/worker cluster’ları genellikle kritik iş akışlarını taşır. Bu rehber, “ilk 3 katman” olarak RBAC + namespace + NetworkPolicy ile hızlı risk azaltma sağlar; node hardening ve Pod Security ile derinleştirir.",
+      "intro": "Kubernetes’e geçiş çoğu ekipte “manifest’ler çalışsın” önceliğiyle başlar; güvenlik ayarları ise “sonra bakarız” diye ertelenir. Ancak K8s’te default güvenlik varsayımları, klasik tek sunucu/monolit dünyasından farklı riskler üretir: cluster API erişimi, geniş yetkili servis hesapları, namespaceler arası kontrolsüz iletişim ve pod’ların birbirine sınırsız konuşması gibi. Otel microservice cluster’larında rezervasyon/raporlama; B2B’de API/worker cluster’ları genellikle kritik iş akışlarını taşır. Bu rehber, [Kubernetes cluster güvenliği](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) için “ilk 3 katman” olarak RBAC + namespace + NetworkPolicy ile hızlı risk azaltma sağlar; node hardening ve Pod Security ile derinleştirir.",
       "quickSummary": [
         "1) Cluster-admin erişimini daralt, audit et.",
         "2) Namespace’leri proje+env bazlı ayır.",
@@ -59489,6 +59577,10 @@
           {
             "type": "p",
             "text": "K8s güvenliği, tek bir ayar değil; katmanlar sistemidir. En pratik okuma sırası:"
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden [cluster hardening yaklaşımı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri), yalnız cluster kurulumu değil; node sıkılaştırma, RBAC, namespace ayrımı, ağ politikaları, secret yönetimi ve izlenebilirliği birlikte ele alan bir operasyon standardı olarak düşünülmelidir."
           },
           {
             "type": "list",
@@ -59564,6 +59656,10 @@
             "text": "K8s’te cluster güvenliği API server erişimi ve kubeconfig yönetimiyle başlar. Node güvenliği ise container’ların üzerinde koştuğu zemindir: OS hardening, patch ve runtime kısıtları olmazsa izolasyon zayıflar."
           },
           {
+            "type": "p",
+            "text": "Bu zeminin sağlam olması için image hijyeni, host ayarları ve [container runtime güvenliği](https://dgtlface.com/tr/yazilim/blog/container-ve-docker-guvenligi-host-image-ve-runtime-icin-en-iyi-uygulamalar) birlikte ele alınmalıdır; aksi halde cluster politikaları tek başına yeterli koruma sağlamaz."
+          },
+          {
             "type": "h3",
             "text": "Kubeconfig ve erişim hijyeni"
           },
@@ -59592,6 +59688,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Ayrıca manifest incelemeleri, image taramaları ve admission benzeri kontrollerin [Kubernetes deployment güvenlik gate’leri](https://dgtlface.com/tr/yazilim/blog/devsecops-ve-guvenlik-gate-leri-ci-cd-surecine-guvenligi-gommek) içinde otomatikleştirilmesi, hatalı konfigürasyonların canlı ortama taşınmasını önemli ölçüde azaltır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check : Cluster/node güvenliği"
           },
@@ -59603,8 +59703,12 @@
               "Cluster-admin erişimleri kayıtlı mı?",
               "Node OS patch rutini var mı?",
               "Node’larda gereksiz servisler kapalı mı?",
-              "Node log/metrics izleniyor mu? (Internal link: /tr/veri-analiz-ve-raporlama)"
+              "Node log ve metric akışı düzenli izleniyor mu?"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Node, pod ve namespace düzeyindeki görünürlüğü sürdürebilmek için [Kubernetes güvenlik metrikleri](https://dgtlface.com/tr/veri-analiz-ve-raporlama) tek panelde toplanmalı; policy ihlalleri, kaynak taşmaları ve deployment hataları operasyon ekibine görünür hale getirilmelidir."
           },
           {
             "type": "callout",
@@ -59613,7 +59717,7 @@
             "items": [
               "Kubeconfig ve servis hesabı erişimini envanterle.",
               "Node’ları “golden baseline” ile harden et.",
-              "Upgrade/patch sürecini bakım döngüsüyle senkronla (Internal link: /tr/yazilim/bakim-ve-destek).",
+              "Upgrade ve patch sürecini düzenli bakım döngüsüyle senkronla.",
               "Node gözlemlenebilirliğini (log/metrics) standartlaştır."
             ]
           }
@@ -59634,6 +59738,10 @@
           {
             "type": "p",
             "text": "Namespace ile proje ve ortamları ayırmalı; RBAC ile her ekibin/sistemin sadece kendi namespace’ine erişmesini sağlamalısınız. Prod namespace’inde daha sıkı erişim ve deploy kuralları, staging’de daha kontrollü esneklik uygulanabilir. Bu ayrım, hem güvenliği hem operasyonel netliği artırır."
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon, lead veya müşteri verisi işleyen servislerde [Kubernetes ortamında veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) için servis hesapları, secret erişimleri, audit kayıtları ve namespace bazlı yetki sınırları birlikte değerlendirilmelidir."
           },
           {
             "type": "h3",
@@ -59691,6 +59799,10 @@
           {
             "type": "p",
             "text": "NetworkPolicy, pod’lar arası trafiği kontrol ederek “default allow” durumunu “default deny” yaklaşımına çevirir. Önerilen kurgulama; önce namespace içinde ve namespace’ler arası iletişimi kapatmak, sonra sadece gerekli servis→servis akışlarına izin vermektir. Ingress kuralları da dış dünyadan iç servislere giriş noktalarını sınırlar ve WAF/rate limit ile tamamlanır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşım, klasik altyapıda uygulanan ağ ayrımının Kubernetes tarafındaki karşılığıdır; [K8s’te namespace ve NetworkPolicy ile segmentasyon](https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak) mantığı kurulmadan pod-to-pod iletişim gerçek anlamda sınırlandırılmış sayılmaz."
           },
           {
             "type": "h3",
@@ -59765,6 +59877,10 @@
             "text": "K8s güvenliği, iş akışlarıyla bağlanmadıkça soyut kalır. Otel ve B2B’de tipik cluster senaryoları ve risk noktaları:"
           },
           {
+            "type": "p",
+            "text": "Özellikle PMS, rezervasyon motoru ve API katmanlarının ayrı servisler halinde çalıştığı yapılarda [otel rezervasyon microservice mimarisinde Kubernetes kullanımı](https://dgtlface.com/tr/otel/pms-entegrasyonu) yalnız ölçeklenebilirlik değil, servisler arası erişim sınırları açısından da dikkatli tasarlanmalıdır."
+          },
+          {
             "type": "h3",
             "text": "Otel — rezervasyon/raporlama microservice cluster’ı"
           },
@@ -59830,8 +59946,8 @@
             "items": [
               "RBAC ve namespace’i “ilk sprint” işi yap.",
               "Prod default-deny policy’yi erken uygula; allowlist’i iteratif ekle.",
-              "Upgrade’leri bakım-destek planına bağla (Internal link: /tr/yazilim/bakim-ve-destek).",
-              "Log/metrics’i raporlama panellerine bağla (Internal link: /tr/veri-analiz-ve-raporlama)."
+              "Upgrade’leri düzenli bakım planına bağla.",
+              "Log ve metric akışını merkezi panellerde izle."
             ]
           },
           {
@@ -59960,6 +60076,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Kapsamlı bir uygulama planı oluşturmak için [Sunucu ve Güvenlik hizmetiyle cluster hardening sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); süreç, kontrol ve sık gelen sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına bakın."
+          },
+          {
             "type": "media",
             "slot": "checklist-06"
           }
@@ -60075,7 +60195,7 @@
     },
     "h1": {
       "title": "Ransomware’e Karşı Savunma: Yedekleme, Segmentasyon ve Kullanıcı Eğitimi",
-      "intro": "Ransomware olaylarında en sık duyulan cümle şudur: “Yedeğimiz var sanıyorduk.” Çünkü saldırı sadece dosyaları şifrelemez; çoğu zaman yedeklerin eriştiği ağlara da yayılır ve yedekleri de şifreleyebilir. Otellerde resepsiyon/muhasebe bilgisayarlarından başlayan bir phishing, dosya paylaşımları ve sunuculara sıçrayabilir; B2B’de satış/operasyon ekiplerinin e-posta alışkanlıkları, CRM ve dosya sunucularını risk altına sokabilir. Bu rehber, ransomware’i ilk bulaşma → yatay yayılma → şifreleme akışıyla ele alır ve savunmayı üç ayakta kurar: offline/immutable backup, ağ segmentasyonu, kullanıcı eğitimi.",
+      "intro": "Ransomware olaylarında en sık duyulan cümle şudur: “Yedeğimiz var sanıyorduk.” Çünkü saldırı sadece dosyaları şifrelemez; çoğu zaman yedeklerin eriştiği ağlara da yayılır ve yedekleri de şifreleyebilir. Otellerde resepsiyon/muhasebe bilgisayarlarından başlayan bir phishing, dosya paylaşımları ve sunuculara sıçrayabilir; B2B’de satış/operasyon ekiplerinin e-posta alışkanlıkları, CRM ve dosya sunucularını risk altına sokabilir. Bu rehber, [ransomware’e karşı yedekleme stratejisi](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) odağında ilk bulaşma → yatay yayılma → şifreleme akışını ele alır ve savunmayı üç ayakta kurar: offline/immutable backup, ağ segmentasyonu, kullanıcı eğitimi.",
       "quickSummary": [
         "1) İlk bulaşmayı azalt: eğitim + e-posta güvenliği + MFA.",
         "2) Yayılımı azalt: segmentasyon + erişim daraltma.",
@@ -60136,6 +60256,10 @@
           {
             "type": "p",
             "text": "Ransomware’in tipik akışı genelde aynı kalıptadır: phishing ile ilk bulaşma, ardından yetki yükseltme/credential toplama, yatay yayılma ve şifreleme. Bu zincirde “tek bir zayıf halka” yeterli olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle [ransomware savunma yaklaşımı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri), yalnız antivirüs veya firewall ile sınırlı değil; yedekleme, segmentasyon, kullanıcı farkındalığı, izleme ve olay yönetimini birlikte ele alan bir web altyapısı standardı olarak düşünülmelidir."
           },
           {
             "type": "h3",
@@ -60268,6 +60392,10 @@
             "text": "Yedekleri ağdan izole edin (offline/air-gapped yaklaşım) veya değiştirilemez (immutable) depolama kullanın; erişimleri minimuma indirin ve düzenli restore testleri yapın. Backup hesabını ayrı yetkiyle yönetip günlük iş hesaplarından ayırın; böylece ransomware’in yedekleri de şifrelemesini zorlaştırırsınız."
           },
           {
+            "type": "p",
+            "text": "Özellikle restore tatbikatı, RPO/RTO ve kurtarma öncelikleri söz konusu olduğunda [offline ve immutable backup yaklaşımı](https://dgtlface.com/tr/yazilim/blog/yedekleme-ve-disaster-recovery-web-sunuculari-icin-felaket-kurtarma-stratejisi) yalnız teknik bir yedekleme tercihi değil, doğrudan felaket kurtarma planının parçasıdır."
+          },
+          {
             "type": "h3",
             "text": "Offline vs immutable (prensip)"
           },
@@ -60340,6 +60468,10 @@
             "text": "Segmentasyon; web, uygulama, DB, yönetim ve dosya paylaşımları gibi katmanları ayrı ağlara ayırır ve aralarındaki erişimi minimuma indirir. Böylece ransomware bir uçtan bulaşsa bile diğer segmentlere geçiş zorlaşır; yayılım hızı ve etkilediği sistem sayısı azalır."
           },
           {
+            "type": "p",
+            "text": "Bu yaklaşımın pratik karşılığı, [ransomware’e karşı ağ segmentasyonu](https://dgtlface.com/tr/yazilim/blog/ag-segmentasyonu-ve-dmz-web-uygulama-ve-veritabani-katmanlarini-ayirmak) kurarak web, uygulama, veritabanı ve yönetim katmanları arasındaki gereksiz geçiş yollarını kapatmaktır."
+          },
+          {
             "type": "h3",
             "text": "SMB/RDP yayılımını azaltmak (konsept)"
           },
@@ -60395,6 +60527,10 @@
           {
             "type": "p",
             "text": "Evet, özellikle phishing kaynaklı ilk bulaşma riskini azaltır; ama etkili olması için düzenli tekrar, örnek senaryolar ve ölçüm (simülasyon) gerekir. Eğitim; teknik kontrollerin yerine geçmez, onları tamamlar. Hedef; “şüpheli link/ek” davranışını erken durdurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle müşteri verisine, rezervasyon kayıtlarına veya operasyon panellerine erişen ekiplerde [kullanıcı eğitimi ransomware riskini azaltır mı](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) sorusunun cevabı doğrudan evettir; çünkü sosyal mühendislik zinciri çoğu zaman teknik açıklardan önce insan davranışını hedefler."
           },
           {
             "type": "h3",
@@ -60494,6 +60630,18 @@
             "text": "Trend olarak en sık görülen hata; backup hedeflerinin de şifrelenmesi. Bu rehberin odağı; “backup var” değil “offline/immutable + testli restore” standardını oturtmaktır."
           },
           {
+            "type": "p",
+            "text": "Bir ransomware şüphesi oluştuğunda dosya değişim örüntüleri, erişim logları ve anormal servis davranışlarını hızla izleyebilmek için [ransomware sonrası incident management](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) sürecinin önceden tanımlı olması gerekir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında rezervasyon motoru, PMS bağlantıları ve entegrasyon servisleri de bu riskten etkilenir; bu yüzden [PMS entegrasyonlarında ransomware riski](https://dgtlface.com/tr/otel/pms-entegrasyonu) yalnız veri sürekliliği değil, aynı zamanda operasyonun kesintisiz devamı açısından da değerlendirilmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Eğer şifrelenen ya da sızdırılma riski taşıyan kayıtlar kişisel veri içeriyorsa, [ransomware senaryosunda veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) kapsamında erişim logları, ihlal etkisi ve teknik tedbir kanıtları ayrı bir denetim başlığı olarak ele alınmalıdır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check : Üç ayak tamam mı?"
           },
@@ -60516,7 +60664,7 @@
               "Üç ayağı birlikte kur: backup + segmentasyon + eğitim.",
               "Restore testini düzenli yap; RTO/RPO’yu gerçek ölç.",
               "Segment kurallarını ve geçici portları kontrol et.",
-              "KVKK riskini ve incident response planını uyum içerikleriyle bağla (Internal link: /tr/raporlama/kvkk-veri-guvenligi, /tr/yazilim/kvkk-uyum-hizmeti)."
+              "KVKK riskini ve incident response planını düzenli olarak birlikte gözden geçir."
             ]
           },
           {
@@ -60621,6 +60769,10 @@
               "Incident runbook + iletişim planı",
               "KPI dashboard"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Kurumsal savunma planını netleştirmek için [Sunucu ve Güvenlik hizmetiyle ransomware savunma sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama kapsamı ve ek sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına bakın."
           },
           {
             "type": "media",
@@ -60737,7 +60889,7 @@
     },
     "h1": {
       "title": "DevSecOps ve Güvenlik Gate’leri: CI/CD Sürecine Güvenliği Gömmek",
-      "intro": "Birçok ekipte güvenlik hâlâ “release sonrası yapılacak iş” olarak konumlanır: test biter, deploy edilir, sonra güvenlik kontrolü gelir. Bu modelin bedeli yüksektir; çünkü bulgu prod’a çıktıktan sonra düzeltmek hem pahalı hem risklidir. DevSecOps, güvenliği geliştirme akışının içine alır: doğru yerde doğru kontrol (gate), doğru eşik (threshold) ve doğru operasyon (backlog + re-test). Otel tarafında rezervasyon/ödeme modülleri; B2B’de portal/API release’leri hızlı değiştiği için bu yaklaşım özellikle kritiktir.",
+      "intro": "Birçok ekipte güvenlik hâlâ “release sonrası yapılacak iş” olarak konumlanır: test biter, deploy edilir, sonra güvenlik kontrolü gelir. Bu modelin bedeli yüksektir; çünkü bulgu prod’a çıktıktan sonra düzeltmek hem pahalı hem risklidir. DevSecOps, güvenliği geliştirme akışının içine alır: doğru yerde doğru kontrol (gate), doğru eşik (threshold) ve doğru operasyon (backlog + re-test). Otel tarafında rezervasyon/ödeme modülleri; B2B’de portal/API release’leri hızlı değiştiği için bu yaklaşım özellikle kritiktir. Bu rehber, [DevSecOps nedir](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusunu yalnız kavramsal değil, doğrudan release kalitesine bağlanan bir operasyon modeli olarak ele alır.",
       "quickSummary": [
         "1) Gate’leri kademeli ekle; önce görünürlük, sonra blok.",
         "2) Kritik bulguyu prod’a sokma; gate ile engelle.",
@@ -60805,6 +60957,10 @@
             "text": "DevSecOps, “güvenlik ekibi ayrı bir kapıda kontrol yapar” yaklaşımını bırakır; güvenliği pipeline’ın içine dağıtır ve otomasyonla ölçekler. Amaç, güvenliği yavaşlatmak değil; erken yakalayıp daha ucuz düzeltmektir."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [CI/CD pipeline içine güvenlik gate eklemek](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri), modern web ve yazılım altyapısında güvenli release yönetiminin temel parçası haline gelir; güvenlik kontrolü release sonrasına değil, doğrudan teslimat akışına taşınır."
+          },
+          {
             "type": "h3",
             "text": "DevSecOps nedir, klasik DevOps’tan farkı nedir?"
           },
@@ -60847,7 +61003,7 @@
             "items": [
               "Gate’leri kademeli ekle; önce görünürlük, sonra blok.",
               "Kritik bulguyu prod’a sokma; gate ile engelle.",
-              "Bulguları sprint planına bağla (Internal link: /tr/yazilim/bakim-ve-destek).",
+              "Bulguları sprint planına bağla.",
               "Policy setini yaşayan doküman yap (180 gün kalibrasyon)."
             ]
           },
@@ -60887,6 +61043,14 @@
             "text": "Bulgular “rapor” olarak kalırsa DevSecOps olmaz. Bulgu; ticket olur, owner atanır, SLA alır ve re-test ile kapanır."
           },
           {
+            "type": "p",
+            "text": "Özellikle altyapı manifest’leri, rol tanımları ve güvenlik eşiklerinin doğrudan kod üzerinden yönetildiği yapılarda [security as code yaklaşımı](https://dgtlface.com/tr/yazilim/blog/konfigurasyon-yonetimi-ve-iac-terraform-ansible-ile-guvenlik-odakli-altyapi) sayesinde manuel kontrol yükü azalır ve güvenlik kararları pipeline içinde tekrarlanabilir hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Ayrıca secret scan bulguları, erişim kayıtları ve hassas veri sızıntısı sinyallerinin [secret scan ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) perspektifiyle ele alınması; teknik tedbir kanıtı ve veri koruma disiplini açısından kritiktir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check : Operasyon modeli"
           },
@@ -60898,7 +61062,7 @@
               "Exception (süreli) yönetimi var mı?",
               "Bulgu→ticket→owner akışı var mı?",
               "SLA ve re-test kuralı var mı?",
-              "KVKK teknik tedbir kanıtı olarak kayıt tutuluyor mu? (Internal link: /tr/raporlama/kvkk-veri-guvenligi)"
+              "KVKK teknik tedbir kanıtı olarak kayıt tutuluyor mu?"
             ]
           },
           {
@@ -60958,6 +61122,14 @@
             "text": "Üçü birlikte, en sık üretime taşınan riskleri azaltır."
           },
           {
+            "type": "p",
+            "text": "Bu kontrollerin staging, tekrar test ve açık doğrulama tarafı ise [SAST, SCA ve sürekli güvenlik testleri](https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model) yaklaşımıyla tamamlanır; böylece pipeline bulguları sahadaki gerçek güvenlik davranışıyla eşleştirilmiş olur."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle üçüncü taraf paketler, lockfile disiplini ve registry kaynakları söz konusu olduğunda [dependency scanning ve supply chain güvenliği](https://dgtlface.com/tr/yazilim/blog/supply-chain-guvenligi-kutuphanler-dependency-ve-imaj-kaynaklarini-yonetmek) aynı build zincirinin vazgeçilmez parçası haline gelir."
+          },
+          {
             "type": "h3",
             "text": "Policy check (deploy gate)"
           },
@@ -60988,6 +61160,10 @@
             "text": "Bu yaklaşım, “pipeline’ı kilitlemeden” olgunlaşmayı sağlar."
           },
           {
+            "type": "p",
+            "text": "Gate sonuçlarının eğilim bazında izlenebilmesi için [pipeline güvenlik bulgularının raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) gerekir; fail/pass oranları, açık yoğunluğu ve tekrar eden ihlaller tek panelde görünür hale gelmeden sürekli iyileştirme zorlaşır."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check : Gate yerleşimi"
           },
@@ -61010,7 +61186,7 @@
               "İlk hafta: secret scan + SCA’yı hızlı kazanım olarak kur.",
               "İkinci adım: SAST’ı ekle; false-positive yönetimi yap.",
               "Deploy öncesi policy check ile misconfig’leri yakala.",
-              "Gate sonuçlarını sprint backlog’una akıt (Internal link: /tr/yazilim/bakim-ve-destek)."
+              "Gate sonuçlarını sprint backlog’una akıt."
             ]
           },
           {
@@ -61064,6 +61240,10 @@
             "text": "DevSecOps’un olgunlaştığı yer, bulguların backlog’a girip kapanmasıdır. Gate’ler tek başına “rapor üretir”; backlog + SLA + re-test ise “sonuç üretir”."
           },
           {
+            "type": "p",
+            "text": "Release sonrasında yönlendirme, build çıktısı, frontend varlıkları ve performans davranışı da izlenmelidir; çünkü hatalı bir deployment yalnız güvenlik açığı değil, aynı zamanda [release sonrası teknik SEO kontrolü](https://dgtlface.com/tr/seo/teknik-seo) gerektiren erişilebilirlik ve crawl problemleri de üretebilir."
+          },
+          {
             "type": "h3",
             "text": "☑ Mini Check : Uygulama örnekleri"
           },
@@ -61086,7 +61266,7 @@
               "Kritik modüllerde gate’i “block” yap, diğerlerinde “warn→block” kademesi uygula.",
               "Security backlog’u sprint planning’e dahil et.",
               "Kapanışı re-test ile doğrula.",
-              "Web geliştirme ve sunucu güvenlik süreçleriyle entegre et (Internal link: /tr/yazilim/web-sitesi-gelistirme, /tr/yazilim/sunucu-guvenlik)."
+              "Web geliştirme ve sunucu güvenlik süreçleriyle entegre et."
             ]
           },
           {
@@ -61202,6 +61382,10 @@
           {
             "type": "h3",
             "text": "Deliverables + “Buraya:” notları"
+          },
+          {
+            "type": "p",
+            "text": "Pipeline güvenlik modelini kurumsal ölçekte netleştirmek için [Sunucu ve Güvenlik hizmetiyle shift left security sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); uygulama kapsamı ve ek sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına bakın."
           },
           {
             "type": "media",
@@ -61321,7 +61505,7 @@
     },
     "h1": {
       "title": "Security Chaos Engineering ile Güvenlik Dayanıklılığını Test Etmek",
-      "intro": "Birçok kurum “güvenlik var” derken aslında şunu kasteder: firewall var, WAF var, SIEM var, pentest raporu var. Fakat gerçek olay anında soru değişir: Bu kontroller gerçekten çalışıyor mu? Ekip doğru kişiyi doğru zamanda haberdar edebiliyor mu? Runbook uygulanabiliyor mu? Security chaos engineering tam burada devreye girer: gerçek saldırgan gelmeden önce, küçük ve kontrollü deneylerle sistemi ve ekibi stres test eder. Otel tarafında sezon öncesi “tehdit simülasyonu”; B2B’de üretim-benzeri ortamda kontrollü chaos testleri; zayıf halkaları teoriden pratiğe taşır.",
+      "intro": "Birçok kurum “güvenlik var” derken aslında şunu kasteder: firewall var, WAF var, SIEM var, pentest raporu var. Fakat gerçek olay anında soru değişir: Bu kontroller gerçekten çalışıyor mu? Ekip doğru kişiyi doğru zamanda haberdar edebiliyor mu? Runbook uygulanabiliyor mu? [Security Chaos Engineering nedir](https://dgtlface.com/tr/yazilim/sunucu-guvenlik) sorusu tam burada önem kazanır; çünkü bu yaklaşım, gerçek saldırgan gelmeden önce küçük ve kontrollü deneylerle sistemi ve ekibi stres test eder. Otel tarafında sezon öncesi “tehdit simülasyonu”; B2B’de üretim-benzeri ortamda kontrollü chaos testleri; zayıf halkaları teoriden pratiğe taşır.",
       "quickSummary": [
         "1) “Üretim-benzeri ama kontrollü” ortamı tanımla.",
         "2) Deneylerin kapsamını küçük tut ve ölçülebilir hedef koy.",
@@ -61385,12 +61569,20 @@
             "text": "Security chaos engineering; güvenlik kontrolleri, izleme sistemleri ve incident süreçlerini “gerçek hayata yakın” ama kontrollü koşullarda test eden deney disiplinidir. Klasik yaklaşım “kontrolü kurduk” diye biter; chaos yaklaşımı “kontrol gerçekten çalışıyor mu?” diye sorar. Burada amaç, sistemi kırmak değil; kontrollü kırılma ile öğrenmek ve dayanıklılığı artırmaktır."
           },
           {
+            "type": "p",
+            "text": "Bu nedenle [güvenlik dayanıklılığı testi yaklaşımı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri), web ve yazılım altyapısında yalnız koruma önlemlerini değil; alarm üretimini, müdahale hızını, veri güvenliğini ve operasyon sürekliliğini birlikte sınayan ileri seviye bir kontrol katmanı olarak düşünülmelidir."
+          },
+          {
             "type": "h3",
             "text": "Security chaos engineering nedir, klasik penetrasyon testinden farkı nedir?"
           },
           {
             "type": "p",
             "text": "Pentest daha çok açık bulmaya (finding) odaklanır; security chaos ise kontrol ve süreçlerin “dayanıklılığını” ölçer. Pentest bir fotoğraf karesi gibiyken, chaos; kontrollü inject’lerle alarm, triage, müdahale ve geri dönüş kabiliyetini test eder. İkisi rakip değil tamamlayıcıdır: pentest açıkları bulur, chaos “olay anında gerçekten hazır mıyız?” sorusunu cevaplar."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle kontrollü senaryoların pentest, DAST/SAST/SCA ve tekrar test akışıyla nasıl ayrıştığını anlamak için [güvenlik dayanıklılık testi örnekleri](https://dgtlface.com/tr/yazilim/blog/penetrasyon-testi-ve-surekli-guvenlik-testleri-otel-ve-b2b-siteleri-icin-model) yaklaşımı faydalıdır; böylece chaos deneylerinin açık bulmaktan çok tepki ve toparlanma kapasitesini ölçtüğü netleşir."
           },
           {
             "type": "h3",
@@ -61522,12 +61714,20 @@
             "text": "DNS, WAF kuralları, IAM yetkileri, secrets yönetimi, rate limit, SIEM/monitoring alarmları, yedek/restore süreçleri ve segmentasyon kuralları; en verimli chaos alanlarıdır. Amaç “hack simülasyonu” değil; bu kontrollerin bozulduğunda hızlı yakalanıp yakalanmadığını test etmektir."
           },
           {
+            "type": "p",
+            "text": "Bu tip deneylerde alarmın ne kadar hızlı üretildiği, triage süresinin ne olduğu ve ekibin hangi sırayla aksiyon aldığı da en az teknik kontrol kadar önemlidir; bu yüzden [incident yönetimiyle chaos testi](https://dgtlface.com/tr/yazilim/blog/altyapi-izleme-ve-incident-management-guvenlik-odakli-monitoring-modeli) yaklaşımı deney tasarımının doğal uzantısıdır."
+          },
+          {
             "type": "h4",
             "text": "Çok kritik not: Ransomware simülasyonu"
           },
           {
             "type": "p",
             "text": "Row’da belirtildiği gibi: yalnızca lab/üretim-benzeri ama kontrollü ortamda. Üretimde ransomware simülasyonu yapılmaz; KVKK ve uptime riski kabul edilemez olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle yedekleme, segmentasyon ve kullanıcı davranışı gibi katmanların gerçekten işe yarayıp yaramadığını görmek istediğinizde [ransomware dayanıklılık senaryoları](https://dgtlface.com/tr/yazilim/blog/ransomware-a-karsi-savunma-yedekleme-segmentasyon-ve-kullanici-egitimi) kontrollü lab ortamında önemli bir öğrenim alanı oluşturur."
           },
           {
             "type": "h3",
@@ -61568,6 +61768,10 @@
           {
             "type": "p",
             "text": "Bu bölüm, “ne deneyeyim?” sorusuna hızlı bir set sunar. Otel ve B2B’de ortak payda: çok paydaşlı erişim, entegrasyonlar ve sezonsal/yoğun trafik dalgalanması."
+          },
+          {
+            "type": "p",
+            "text": "Rezervasyon akışı, kampanya dönemleri ve dijital gelir hedefleri düşünüldüğünde [otel ve B2B için chaos senaryoları](https://dgtlface.com/tr/otel-dijital-pazarlama) yalnız teknik ekiplerin değil, pazarlama ve operasyon tarafının da etkisini gördüğü test alanlarına dönüşür."
           },
           {
             "type": "h3",
@@ -61628,7 +61832,7 @@
               "Otel: sezon öncesi 3–5 küçük deney seti planla.",
               "B2B: prod-benzeri ortamda rate limit + secrets rotation deneyleri yap.",
               "Her deneyin çıktısını runbook ve policy’ye geri yaz.",
-              "Deneyleri bakım-destek takvimiyle koordine et (Internal link: /tr/yazilim/bakim-ve-destek)."
+              "Deneyleri bakım ve operasyon takvimiyle koordine et."
             ]
           }
         ]
@@ -61648,6 +61852,10 @@
           {
             "type": "p",
             "text": "Her deney için hipotez, sonuç, ölçüm ve aksiyon maddesi çıkarın. Aksiyonları sprint backlog’una girin; policy/runbook güncellemesini versiyonlayın ve bir sonraki deneyde doğrulayın (learn→re-test). Böylece deneyler “tek seferlik tatbikat” olmaktan çıkar, güvenlik programının motoru olur."
+          },
+          {
+            "type": "p",
+            "text": "Bu çıktıların sürdürülebilir hale gelmesi için [güvenlik test sonuçlarının raporlanması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) gerekir; alarm sayısı, MTTD/MTTR, runbook başarı oranı ve tekrarlayan zayıf halkalar aynı panelde izlenebilmelidir."
           },
           {
             "type": "h3",
@@ -61670,7 +61878,7 @@
           },
           {
             "type": "p",
-            "text": "Chaos deneyleri mutlaka üretim-benzeri ama kontrollü ortamlarda yapılmalı; KVKK ve uptime riskleri göz önünde bulundurularak /tr/raporlama/kvkk-veri-guvenligi ve /tr/yazilim/bakim-ve-destek süreçleriyle koordine edilmelidir."
+            "text": "Chaos deneyleri mutlaka üretim-benzeri ama kontrollü ortamlarda yapılmalı; [güvenlik dayanıklılığı ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) perspektifiyle erişim logları, maskeleme, kişisel veri etkisi ve denetlenebilirlik sınırları önceden tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -61809,6 +62017,10 @@
               "Re-test planlandı",
               "KVKK ve bakım-destek koordinasyonu yapıldı"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Kontrollü deneylerden gerçek iyileştirme planına geçmek için [Sunucu ve Güvenlik hizmetiyle güvenlik dayanıklılığı testi sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/sunucu-guvenlik); kapsam, yöntem ve ek sorular için de [Sunucu ve Güvenlik hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/sunucu-guvenlik-sss) sayfasına göz atın."
           },
           {
             "type": "media",
