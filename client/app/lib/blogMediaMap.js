@@ -47818,7 +47818,107 @@ export const BLOG_MEDIA_MAP = {
       alt: "Diyalog dokümanı ve log şeması deliverables kartı, bot KVKK modeli",
       caption: "Diyalog dokümanı ve log şeması deliverables kartı, bot KVKK modeli"
     }
-  }
+  },
+
+  "ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak":{
+    banner: {
+      src: "/images/blog/software/Software5-6/Software5-6-1.webp",
+      alt: "Ticketing ve Helpdesk Mimarisi: Bakım Sürecini Standardize Etmek",
+      caption: "Ticketing ve Helpdesk Mimarisi: Bakım Sürecini Standardize Etmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-6/Software5-6-2.webp",
+      alt: "Queue ve alan seti görünümü, amaç şeffaflık, destek operasyon bağlamı",
+      caption: "Queue ve alan seti görünümü, amaç şeffaflık, destek operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-6/Software5-6-3.webp",
+    alt: "Kategori ve queue bölümü, amaç yönlendirme, operasyon bağlamı",
+      caption: "Kategori ve queue bölümü, amaç yönlendirme, operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-6/Software5-6-4.webp",
+      alt: "SLA ve öncelik entegrasyonu, amaç beklenti yönetimi, ekip bağlamı",
+      caption: "SLA ve öncelik entegrasyonu, amaç beklenti yönetimi, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-6/Software5-6-5.webp",
+      alt: "Ticket lifecycle diyagramı, amaç süreç görünürlüğü, helpdesk bağlamı",
+      caption: "Ticket lifecycle diyagramı, amaç süreç görünürlüğü, helpdesk bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-6/Software5-6-6.webp",
+      alt: "Ticket açma alan checklist’i, amaç doğru ticket, müşteri ve ekip bağlamı",
+      caption: "Ticket açma alan checklist’i, amaç doğru ticket, müşteri ve ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-6/Software5-6-7.webp",
+      alt: "Ticketing KPI paneli, amaç ölçülebilir operasyon, raporlama bağlamı",
+      caption: "Ticketing KPI paneli, amaç ölçülebilir operasyon, raporlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-6/Software5-6-8.webp",
+      alt: "Süreç deliverables kartı, amaç güven, tedarikçi-müşteri bağlamı",
+      caption: "Süreç deliverables kartı, amaç güven, tedarikçi-müşteri bağlamı"
+    }
+  },
+  
+  "change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik":{
+    banner: {
+      src: "/images/blog/software/Software5-7/Software5-7-1.webp",
+      alt: "Change Management ve Release Takvimi: Küçük Düzeltme vs Büyük Değişiklik",
+      caption: "Change Management ve Release Takvimi: Küçük Düzeltme vs Büyük Değişiklik"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-7/Software5-7-2.webp",
+      alt: "Release takvimi görünümü, amaç planlama, dijital operasyon bağlamı",
+      caption: "Release takvimi görünümü, amaç planlama, dijital operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-7/Software5-7-3.webp",
+    alt: "Değişiklik sınıfları bölümü, amaç netlik, ekip bağlamı",
+      caption: "Değişiklik sınıfları bölümü, amaç netlik, ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-7/Software5-7-4.webp",
+      alt: "Freeze dönemleri bölümü, amaç risk azaltma, sezon bağlamı",
+      caption: "Freeze dönemleri bölümü, amaç risk azaltma, sezon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-7/Software5-7-5.webp",
+      alt: "Release takvimi timeline, amaç freeze planı, otel ve B2B bağlamı",
+      caption: "Release takvimi timeline, amaç freeze planı, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-7/Software5-7-6.webp",
+      alt: "Change request checklist kartı, amaç doğru değişiklik talebi, iş ve teknik bağlamı",
+      caption: "Change request checklist kartı, amaç doğru değişiklik talebi, iş ve teknik bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-7/Software5-7-7.webp",
+      alt: "Deploy risk KPI paneli, amaç izleme, yönetim raporu bağlamı",
+      caption: "Deploy risk KPI paneli, amaç izleme, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-7/Software5-7-8.webp",
+      alt: "Release yönetimi deliverables, amaç güven, tedarikçi-müşteri bağlamı",
+      caption: "Release yönetimi deliverables, amaç güven, tedarikçi-müşteri bağlamı"
+    }
+  }    
   
 };
 

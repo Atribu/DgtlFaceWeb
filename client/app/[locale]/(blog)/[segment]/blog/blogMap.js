@@ -533,7 +533,10 @@ export const BLOG_MAP = {
     "gdpr-ve-kvkk-arasinda-teknik-kopru-otel-ve-b2b-siteleri-icin-haritalama":"BlogGdprVeKvkkArasindaTeknikKopruOtelVeB2bSiteleriIcinHaritalama",
     "clean-room-ve-hashlenmis-kitleler-ile-reklam-kampanyalarinda-privacy-modeli":"BlogCleanRoomVeHashlenmisKitlelerIleReklamKampanyalarindaPrivacyModeli",
     "privacy-by-design-ve-privacy-by-default-ilkelerini-web-ve-urun-gelistirme-surecine-gommek":"BlogPrivacyByDesignVePrivacyByDefaultIlkeleriniWebVeUrunGelistirmeSurecineGommek",
-    "yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim":"BlogYapayZekaBotlariChatbotVeVoicebotlarIcinKvkkUyumluTasarim"
+    "yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim":"BlogYapayZekaBotlariChatbotVeVoicebotlarIcinKvkkUyumluTasarim",
+
+    "ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak":"BlogTicketingVeHelpdeskMimarisiBakimSureciniStandartlastirmak",
+    "change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik":"BlogChangeManagementVeReleaseTakvimiKucukDuzeltmeVsBuyukDegisiklik"
   },
    
   creative: {

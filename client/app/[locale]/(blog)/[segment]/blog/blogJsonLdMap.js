@@ -176578,6 +176578,502 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+
+      "name": "Ticketing & Helpdesk ile Bakım Süreci Standardizasyonu",
+
+      "serviceType": "Helpdesk Operations & Maintenance Support",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak",
+
+      "headline": "Ticketing ve Helpdesk Mimarisi: Bakım Sürecini Standardize Etmek",
+
+      "name": "Ticketing ve Helpdesk Mimarisi: Bakım Sürecini Standardize Etmek",
+
+      "description": "Ticketing sistemiyle bakım/destek taleplerini kategorize edin: queue yapısı, P1–P4 öncelik, SLA entegrasyonu, lifecycle akışı ve raporlarla süreç iyileştirme.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Ticketing System",
+
+        "Helpdesk",
+
+        "Categories & Priorities",
+
+        "SLA-Linked Support"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak#howto",
+
+      "name": "Bakım Sürecini Ticketing ile Nasıl Standardize Edersiniz?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Alan seti ve kategori/queue kur",
+
+          "text": "Type, category, queue ve etiket yapısını belirleyin; ticket alanlarını zorunlu hale getirerek standardı koruyun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "P1–P4 ve SLA entegrasyonunu yap",
+
+          "text": "Öncelikleri iş etkisine göre tanımlayın; response/resolution hedeflerini ve escalation kurallarını helpdesk’e entegre edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Lifecycle ve raporlama ritmi kur",
+
+          "text": "Open→In Progress→Resolved→Closed akışını doğrulama kapılarıyla tanımlayın; aylık SLA ve backlog raporlarıyla iyileştirme aksiyonları çıkarın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Ticketing ve Helpdesk Mimarisi: Bakım Sürecini Standardize Etmek", "item": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ticketing sistemi nedir, bakım süreçlerinde neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ticketing; talepleri tek kanalda toplar, kategori–öncelik–SLA alanlarıyla standardize eder ve lifecycle içinde izlenebilir kılar. Kaçan talebi azaltır ve süreleri ölçmeyi sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kategori ve öncelik yapısını nasıl kurmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kategoriyi konu, queue’yu ekip olarak ayırın; önceliği (P1–P4) iş etkisiyle tanımlayın. Type+category+priority+SLA alanlarını zorunlu kılın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde ticket lifecycle nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum Open→In Progress→Resolved→Closed olmalı. Resolved doğrulama kapısı içerir; Closed ise etiket/RCA notu ve gerekiyorsa preventive aksiyonla kapanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ticket raporlarını bakım iyileştirmesine nasıl dönüştürürüm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aylık raporda tekrarlayan kategori/etiketleri ve SLA ihlallerini çıkarın; her biri için preventive aksiyon backlog’u oluşturup bakım planına ekleyin ve trendi takip edin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+
+      "name": "Change Management ve Release Planlama",
+
+      "serviceType": "Change Management & Release Operations",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "areaServed": "TR",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik",
+
+      "headline": "Change Management ve Release Takvimi: Küçük Düzeltme vs Büyük Değişiklik",
+
+      "name": "Change Management ve Release Takvimi: Küçük Düzeltme vs Büyük Değişiklik",
+
+      "description": "Hotfix/minor/major değişiklikleri sınıflandırın; sezon ve kritik tarihlere göre release takvimi ve freeze dönemleri belirleyerek risk–hız dengesini koruyun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Change Management",
+
+        "Release Calendar",
+
+        "Hotfix/Minor/Major",
+
+        "Freeze Periods"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik#howto",
+
+      "name": "Release Takvimi ve Freeze Dönemi ile Change Yönetimi",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Değişikliği sınıflandır",
+
+          "text": "Hotfix/minor/major/proje sınıfını belirleyin; etkilenen kritik akışları ve risk seviyesini yazın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Release penceresini ve onayı seç",
+
+          "text": "Release takviminde uygun yayın penceresini seçin; freeze dönemini kontrol edin ve mini CAB ile onay kapısını tamamlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Test, yayınla, izle ve gerekirse geri al",
+
+          "text": "Staging/smoke/regresyon testlerini uygulayın; izleme penceresinde KPI’ları takip edin ve rollback planıyla güvenli geri dönüş sağlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Change Management ve Release Takvimi: Küçük Düzeltme vs Büyük Değişiklik", "item": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Change management nedir, neden önemlidir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Change management; değişiklikleri risk ve iş etkisine göre sınıflandırıp doğru onay, test ve yayınlama zamanını belirleyen süreçtir. Yanlış zamanda deploy kaynaklı krizleri ve rollback ihtiyacını azaltır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hotfix, minor ve major değişiklikler nasıl ayrılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hotfix acil ve dar kapsamlı incident çözümüdür; minor planlı küçük iyileştirmedir; major ise altyapıyı/akışı etkileyen yüksek riskli değişikliktir. Her sınıfın test ve onay kapısı farklı olmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Release takvimi ve freeze dönemi nasıl planlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kritik dönemleri belirleyip her değişiklik türü için yayın pencereleri tanımlayın; freeze sırasında major/proje değişikliklerini durdurup hotfix hattını kontrollü açık bırakın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde change süreci nasıl tasarlanmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde sezon/kampanya dönemlerinde freeze ağırlıklı, sezon sonrası major penceresi önerilir. B2B’de düzenli minor günleri, çeyreklik major release ve iş saatleri dışı deploy pencereleri iyi çalışır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
 }
 
     },
