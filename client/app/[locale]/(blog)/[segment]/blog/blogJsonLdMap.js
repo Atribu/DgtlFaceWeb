@@ -179244,6 +179244,636 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"bakim-kpi-lari-ve-site-saglik-dashboard-u":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u",
+
+      "headline": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+
+      "name": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+
+      "description": "Uptime, MTTR, hata oranı, ticket dengesi, CWV ve dönüşümü tek site sağlık dashboard’unda birleştirerek bakım kalitesini sayısallaştırın ve iş etkisini görünür kılın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Maintenance KPIs",
+
+        "Site Health Score",
+
+        "Uptime/Errors/CWV",
+
+        "Incident & Ticket Metrics"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u#howto",
+
+      "name": "Bakım KPI’ları ile Site Sağlık Dashboard’u Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KPI setini seç ve grupla",
+
+          "text": "Incident/MTTR, uptime/error rate, ticket backlog, CWV ve dönüşüm KPI’larını teknik ve iş grupları altında toplayın; veri kaynaklarını ve owner’ları belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Health score kurgusunu oluştur",
+
+          "text": "Uptime, hata oranı, CWV ve ticket/incident bileşenlerini normalize edip ağırlıklandırarak 0–100 sağlık skoru üretin; eşikleri tanımlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Dashboard’u tasarla ve raporlama ritmi kur",
+
+          "text": "Tek ekranda sağlık özetini ve drill-down detaylarını gösterin; aylık trend raporuyla bakımın iş etkisini görünür kılın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Bakım KPI’ları ve Site Sağlık Dashboard’u", "item": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım KPI’ları nelerdir, nasıl seçilir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Incident/MTTR, uptime/error rate, ticket backlog, CWV ve dönüşüm KPI’ları temel settir. Seçim kritik akışlara ve karar ihtiyaçlarına göre yapılır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Site sağlık skoru (health score) nasıl oluşturulur?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Uptime, hata oranı, CWV ve ticket/incident metriklerini normalize edip ağırlıklandırarak 0–100 arası tek skor üretin ve drill-down ile metriklere geri inin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım dashboard’u nasıl tasarlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Üstte health score ve kritik trendler; ortada KPI grupları; altta drill-down olacak şekilde tasarlayın. Kart sayısını 8–12’de tutup eşiklerle aksiyona bağlayın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakımın iyi gittiğini yöneticiye nasıl gösterebilirim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Health score trendini, MTTR/incident değişimini ve kritik akış dönüşümünü aynı ekranda gösterin; bakımın risk azalttığını KPI diliyle anlatın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi",
+
+      "headline": "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi",
+
+      "name": "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi",
+
+      "description": "On-call pencereleri, L1/L2/L3 destek seviyeleri, dönüşümlü rota ve eskalasyon kurallarıyla 7/24 desteği tek kişinin sırtından alıp sürdürülebilir bakım operasyonu kurun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "On-Call Model",
+
+        "L1/L2/L3 Support",
+
+        "Rotation & Escalation",
+
+        "Workload Balance"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi#howto",
+
+      "name": "On-Call Penceresi, Rota ve Eskalasyon ile Nöbet Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kapsam ve pencereleri tanımla",
+
+          "text": "On-call kapsamını (P1/P2), on-call pencerelerini (iş saatleri/extended/seasonal) ve destek kanallarını yazılı hale getirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "L1/L2/L3 ve eskalasyonu kurgula",
+
+          "text": "L1 triage, L2 teknik müdahale, L3 vendor/uzman ayrımını yapın; P1/P2 eskalasyon sürelerini ve otomasyonu tanımlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Rotayı yayınla ve KPI ile kalibre et",
+
+          "text": "Primary/secondary rota planını yayınlayın; MTTA/MTTR ve alarm gürültüsü KPI’larıyla on-call yükünü izleyip düzenli kalibrasyon yapın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi", "item": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "On-call nedir, bakım ekibi için nasıl kurgulanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "On-call; kritik incident’larda hızlı müdahale için pencere (saat), rota (dönüşüm) ve seviye (L1/L2/L3) modelidir. Amaç 7/24’ü tek kişiye yüklemeden yönetmektir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "L1, L2, L3 destek seviyeleri ne anlama gelir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "L1 triage ve ilk yanıtı verir, L2 teknik müdahale yapar, L3 vendor/uzman seviyesidir. Seviye ayrımı çağrıların doğru kişiye gitmesini sağlar." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Nöbet planını nasıl adil ve sürdürülebilir yaparım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "On-call penceresini iş ihtiyacına göre seçin, primary/secondary rota kurun ve nöbet yükünü metriklerle izleyin. Alarm gürültüsünü azaltın ve telafi/dinlenme kuralını çerçeve olarak tanımlayın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek on-call modeli nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde sezon/gece senaryoları için extended veya seasonal 24/7 pencereler; B2B’de release/kampanya dönemlerinde release on-call penceresi önerilir. Her ikisinde de L1–L3 ve eskalasyon kuralları şarttır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu",
+
+      "headline": "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu",
+
+      "name": "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu",
+
+      "description": "Multi-vendor projelerde lead vendor/ürün sahibi rolü, ortak ticketing ve düzenli sync ritmiyle bakım koordinasyonunu sahipli ve şeffaf hale getirerek incident çözüm sürelerini iyileştirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Multi-Vendor Maintenance",
+
+        "Lead Vendor/Product Owner",
+
+        "Shared Ticketing",
+
+        "Coordination Rhythm"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu#howto",
+
+      "name": "Multi-Vendor Bakım Koordinasyonu Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Lead vendor/owner rolünü tanımla",
+
+          "text": "Tek hesap veren rolü belirleyin; triage, öncelik ve cross-vendor incident koordinasyon sorumluluğunu bu role verin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ortak ticketing ve owner akışını kur",
+
+          "text": "Tek ticketing sistemi kullanın; intake→triage→assign→verify→close akışını tanımlayın ve her ticket’ta owner alanını zorunlu yapın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sync ritmi ve KPI raporlamasını işlet",
+
+          "text": "Haftalık triage, aylık ops sync ve çeyreklik roadmap sync ritmi kurun; MTTR, yanlış yönlendirme ve SLA ihlali KPI’larıyla kalibre edin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu", "item": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Birden fazla ajans/tedarikçi ile bakım nasıl koordine edilir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Tek ticketing sistemi kullanın, her ticket’a owner atayın ve lead vendor/ürün sahibi rolüyle hesap verebilirliği netleştirin. Haftalık triage ve aylık/çeyreklik sync ritmiyle yönetimi sürdürün." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lead vendor/ürün sahibi rolü ne işe yarar?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Triage, öncelik, cross-vendor incident koordinasyonu ve KPI/SLA raporlamasını yönetir; “kim sorumlu?” belirsizliğini azaltır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ortak ticketing ve toplantı ritmi nasıl kurulmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Intake→triage→assign→verify→close akışını tanımlayın. Haftalık triage, aylık ops sync ve çeyreklik roadmap sync ile ritmi sabitleyin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde multi-vendor bakım modeli nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde merkez/otel/ajans üçgeninde tek owner ve servis kataloğu şarttır. B2B’de ürün şirketi+entegratör+ajans modelinde ortak ticketing ve war-room protokolü kritik rol oynar." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
 }
     },
   },

@@ -76687,7 +76687,7 @@
           },
           {
             "type": "h3",
-            "text": "Soru (AEO): Dijital servis kataloğu nedir, neleri içermelidir?"
+            "text": "Soru : Dijital servis kataloğu nedir, neleri içermelidir?"
           },
           {
             "type": "p",
@@ -76706,7 +76706,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Kataloğu “liste” değil “operasyon sözleşmesi” gibi düşün.",
               "Kapsam dahil/hariç satırını eklemeden yayınlama.",
@@ -76790,7 +76790,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Servisleri “iş akışı” üzerinden grupla (otel: rezervasyon; B2B: ödeme/rapor).",
               "Servis başına “dahil/hariç” kuralı yaz.",
@@ -76827,7 +76827,7 @@
           },
           {
             "type": "h3",
-            "text": "Soru (AEO): RACI matrisi ile sorumlulukları nasıl netleştiririm?"
+            "text": "Soru : RACI matrisi ile sorumlulukları nasıl netleştiririm?"
           },
           {
             "type": "p",
@@ -76850,7 +76850,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Her servis için tek “A” kuralını uygula.",
               "R’leri “alan” bazlı ayır (web, entegrasyon, güvenlik).",
@@ -76971,7 +76971,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İlk sürümde 8–12 servisle başla; sonra genişlet.",
               "SLA’yi kataloğa eklemeden bırakma (tartışma geri gelir).",
@@ -77005,7 +77005,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Bağımlılık diyagramını “top 5 kritik akış” üzerinden çiz.",
               "Her bağımlılığa owner + eskalasyon ekle.",
@@ -77143,6 +77143,1778 @@
           "Bakım ve Destek, Web ve Yazılım Hizmetleri, servis bazlı SLA, ticketing, çok tedarikçili koordinasyon, PMS & OTA Yönetimi, Çağrı Merkezi Hizmetleri ve Veri Analiz ve Raporlama iç linkleri kontrol edilmeli",
           "CRM için ayrı hedef URL tanımlanmadığından CRM’e özel uydurma link eklenmemeli",
           "Servis kapsamı, RACI matrisi ve SLA ayrımı içerikte net korunmalı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Media dosya adları ve alt text’ler eşleşiyor"
+        ]
+      }
+    }
+  },
+
+   "BlogBakimKpilariVeSiteSaglikDashboardu": {
+    "title": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+    "slug": "bakim-kpi-lari-ve-site-saglik-dashboard-u",
+    "department": "software",
+    "subDepartment":"maintenance",
+    "updatedAt": "27 Temmuz 2026",
+    "publishedAt": "2026-07-27",
+    "readingTime": "12 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Uptime, MTTR, hata oranı, ticket dengesi, CWV ve dönüşümü tek “site sağlık dashboard”unda birleştirin. Health score ile bakım kalitesini sayısallaştırın ve iş etkisini görünür kılın.",
+    "seo": {
+      "metaTitle": "Bakım KPI’ları ve Site Sağlık Dashboard’u | DGTLFACE",
+      "metaDescription": "Uptime, MTTR, hata oranı, ticket dengesi, CWV ve dönüşümü tek “site sağlık dashboard”unda birleştirin. Health score ile bakım kalitesini sayısallaştırın ve iş etkisini görünür kılın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Bakım ve Destek — /tr/yazilim/bakim-ve-destek",
+        "Blog No: 18",
+        "Blog / URL: /tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u"
+      ],
+      "strategySummary": "Bu yazı, bakımın başarısını “içgüdü” yerine ölçülebilir metriklerle yönetmeyi hedefler ve bakım yatırımlarını iş değerine bağlar (authority-child). Hedef persona; otel/B2B yönetimi (owner/GM), operasyon/ürün lideri, ajans/IT yöneticisi ve teknik liderdir. Funnel’da consideration → conversion: hangi KPI’ları seçeceğini, bunları tek “site sağlık dashboard”unda nasıl birleştireceğini ve yöneticiye nasıl anlatacağını netleştirir. Ana iş sorusu: “Bakım kalitesini ve iş etkisini (rezervasyon/lead) tek bakışta nasıl gösterebilirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-27",
+      "readingTime": "12 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Bakımın ne kadar iyi yapıldığını “hissetmek” yerine KPI’larla izlemek gerekir. Site sağlık dashboard’u; uptime, hata oranı, incident sayısı, MTTR/MTTF, ticket dengesi, CWV ve dönüşüm (otel: rezervasyon, B2B: lead/rapor) metriklerini tek ekranda toplar. Bu sayede bakım yatırımlarının değeri somutlaşır: öncelikler netleşir, riskler erken görülür ve yönetimle konuşma “kimin fikri güçlü”den “hangi sayı ne diyor”a döner. Health score modeliyle tüm sinyaller tek puana bağlanabilir.",
+      "sgeSummary": "Bakım KPI seti kur: incident/MTTR, uptime/hata, ticket backlog, CWV ve dönüşüm. Bunları tek dashboard’da grupla; health score ile tek sayı üret, trendle yönet.",
+      "voiceAnswer": "Uptime, MTTR, hata ve dönüşümü tek health score’a bağla; dashboard’la yönetime net göster.",
+      "aiFactSheet": [
+        "Hedef kitle: Yönetim, ops/ürün lideri, tech lead, ajans/IT yöneticisi",
+        "KPI’lar: uptime, incident, MTTR/MTTF, error rate, CWV, ticket backlog, dönüşüm",
+        "Entity: site health score, maintenance KPIs, incident/ticket metrics, ops+business bridge",
+        "Geo: Türkiye geneli; otel ve B2B projeleri",
+        "Funnel: Consideration (ölçüm modeli) → conversion (dashboard şablonu)",
+        "Çıktı: KPI tablosu + dashboard mockup + health score formülü"
+      ]
+    },
+    "h1": {
+      "title": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+      "intro": "Bakım “görünmez iş” gibi kaldığında, bütçe ve öncelik tartışmaları verisiz ilerler: “Biz çok uğraşıyoruz” — “Ben sonuç görmüyorum.” Site sağlık dashboard’u bu kopuşu kapatır; teknik metrikleri (uptime, hata, CWV, incident) iş metrikleriyle (rezervasyon/lead) aynı ekranda gösterir. Üstelik bunu sadece raporlamak için değil, önceliklendirme için kullanırsınız: hangi risk büyüyor, hangi bakım işi en çok iş etkisi yaratacak? Bu rehber, KPI seçimi, health score kurgusu ve otel/B2B örnek dashboard setleriyle uygulanabilir bir model sunar.",
+      "quickSummary": [
+        "Bakım KPI seti kur: incident/MTTR, uptime/hata, ticket backlog, CWV ve dönüşüm.",
+        "KPI’ları tek dashboard’da grupla.",
+        "Health score ile tek sayı üret ve trendle yönet.",
+        "Tek dashboard, iki görünüm: yönetim (özet) + teknik (detay).",
+        "KPI’ları eşik ve alarm ile aksiyona bağla."
+      ],
+      "ctaPrimary": {
+        "label": "Bakım KPI & Site Sağlık Dashboard Analizi Talep Et",
+        "text": "Bakımı sayılarla yönetip iş etkisini görünür kılmak isteyen ekipler için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Bakım KPI & Site Sağlık Dashboard Analizi Talep Et",
+        "text": "Uptime, hata, ticket, CWV ve dönüşümü tek health score’da birleştirerek bakımın iş etkisini göstermek isteyen otel ve B2B ekipleri için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "Bakım KPI Seti & Site Sağlık Dashboard Şablonunu İndir",
+        "text": "KPI’ları tek formatta gruplayıp health score kurgusuyla bakım kalitesini sayısallaştırmanızı ve yönetimle ortak dil kurmanızı sağlar.",
+        "href": "/downloads/bakim-kpi-seti-site-saglik-dashboard-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış ve Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "SEO Raporlama",
+        "href": "/seo/seo-raporlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "hangi-kpilar-bakimin-basarisini-gosterir",
+        "title": "Hangi KPI’lar Bakımın Başarısını Gösterir?",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "“Her şeyi ölçelim” yaklaşımı dashboard’u çöp yapar. Doğru yaklaşım; az ama karar verdiren KPI setidir. Bakım başarısını gösteren metrikler dört gruba ayrılır: (1) olay/incident, (2) altyapı/uygunluk, (3) iş akışı, (4) ekip verimi."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum KPI seti (başlangıç)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Incident sayısı (hafta/ay)",
+              "MTTR (Mean Time To Repair)",
+              "Uptime (%)",
+              "Error rate (5xx, timeout, form error)",
+              "Ticket backlog (açık/kapalı dengesi, yaş)",
+              "CWV (LCP/INP)",
+              "Dönüşüm KPI’sı (otel: rezervasyon tıklama/funnel; B2B: lead/checkout)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Bakım KPI’ları nelerdir, nasıl seçilir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: KPI’lar; incident/MTTR, uptime/error rate, ticket backlog ve kalite (CWV) ile iş etkisini (rezervasyon/lead) birlikte kapsamalıdır. Seçim, kritik akışlara ve yönetimin karar ihtiyaçlarına göre yapılır; “çok KPI” yerine “karar verdiren az KPI” hedeflenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "KPI seti hem teknik hem iş etkisini içeriyor mu?",
+              "KPI’ların veri kaynağı ve sahipleri net mi?",
+              "KPI’lar aksiyona bağlanıyor mu (eşik/alert)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "8–12 KPI ile başla, 30 gün sonra gereksizleri çıkar.",
+              "Her KPI için “hangi kararı verdiriyor?” cümlesini yaz.",
+              "Eşik ve alarm koy; yoksa KPI “poster” olur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-ve-is-odakli-kpi-seti",
+        "title": "Teknik ve İş Odaklı KPI Seti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "KPI’lar iki dille konuşmalıdır: teknik ekip için teşhis, iş tarafı için etki. Aynı veriyi iki seviyede sunmak, stakeholder iletişimini güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik KPI grubu (ops)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Uptime, error rate, p95 response/TTFB (varsa)",
+              "Deploy başarısı (hatalı deploy oranı, rollback)",
+              "CWV trendi (özellikle mobil)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "İş KPI grubu (business)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: rezervasyon funnel sağlığı (tıklama→fiyat→rezervasyon)",
+              "B2B: lead oranı, rapor üretme başarısı, checkout başarı oranı",
+              "Gelir etkisi: downtime’ın satış/dönüşüm etkisi"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "KPI Envanteri (kopyalanabilir)",
+            "headers": [
+              "KPI",
+              "Grup",
+              "Tanım",
+              "Kaynak",
+              "Sıklık",
+              "Owner",
+              "Eşik"
+            ],
+            "rows": [
+              [
+                "Uptime",
+                "Altyapı",
+                "% erişilebilirlik",
+                "Monitoring",
+                "Günlük",
+                "Ops",
+                "TBD"
+              ],
+              [
+                "Error rate",
+                "Uygulama",
+                "5xx/timeout",
+                "Logs/APM",
+                "Günlük",
+                "DevOps",
+                "TBD"
+              ],
+              [
+                "Incident count",
+                "Ops",
+                "olay sayısı",
+                "Ticketing",
+                "Haftalık",
+                "Ops",
+                "TBD"
+              ],
+              [
+                "MTTR",
+                "Ops",
+                "ortalama çözüm",
+                "Ticketing",
+                "Haftalık",
+                "Ops",
+                "TBD"
+              ],
+              [
+                "Backlog age",
+                "Ops",
+                "açık ticket yaşı",
+                "Helpdesk",
+                "Haftalık",
+                "PM",
+                "TBD"
+              ],
+              [
+                "LCP/INP",
+                "Perf/SEO",
+                "CWV trend",
+                "RUM/GSC",
+                "Haftalık",
+                "SEO/Dev",
+                "TBD"
+              ],
+              [
+                "Rezervasyon/Lead",
+                "İş",
+                "dönüşüm",
+                "Analytics/CRM",
+                "Haftalık",
+                "Growth",
+                "TBD"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Dashboard kurgusunu güçlendiren iç linkler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+              "https://dgtlface.com/tr/raporlama/satis-donusum",
+              "https://dgtlface.com/tr/seo/seo-raporlama"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Sağlık dashboard’u kullanan ekiplerde, bakım bütçesi tartışmalarının daha veriye dayalı yürümesi ve önceliklerin daha hızlı netleşmesi sık görülür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Teknik KPI’lar root-cause’a götürüyor mu?",
+              "İş KPI’ları yönetime “neden önemli”yi anlatıyor mu?",
+              "KPI’lar aynı dashboard’da ama farklı “view”lerde mi sunuluyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Tek dashboard, iki görünüm: yönetim (özet) + teknik (detay).",
+              "İş KPI’larını “kritik akış” bazında seç.",
+              "SEO/CWV’yi “iş etkisi”yle bağla (özellikle otelde sezon)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "site-saglik-skoru-health-score-olusturmak",
+        "title": "Site Sağlık Skoru (Health Score) Oluşturmak",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Health score; farklı sinyalleri tek “okunabilir” sayıya çevirir. Ama yanlış kurgulanırsa yanıltır. Bu yüzden health score, “tek kaynak” değil; dashboard’un özet katmanıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Health score mantığı (basit model)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "4 bileşen: Süreklilik (uptime), Hata (error rate), Hız (CWV), Operasyon (ticket/incident)",
+              "Her bileşene 0–25 arası puan",
+              "Toplam: 0–100"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek ağırlıklandırma (varsayımsal)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Başlangıç için dengeli bir dağılım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Uptime: 30",
+              "Error rate: 25",
+              "CWV: 25",
+              "Ticket/Incident: 20"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Site sağlık skoru (health score) nasıl oluşturulur?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Uptime, hata oranı, CWV ve ticket/incident metriklerini normalize edip ağırlıklandırarak 0–100 arası tek skor üretin. Skoru trendle izleyin; skor düştüğünde hangi bileşenin düştüğünü dashboard’da drill-down ile görün."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Skorun her bileşeni ölçülebilir mi?",
+              "Ağırlıklar iş önceliğini yansıtıyor mu?",
+              "Skor “drill-down” ile metriklere geri iniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Skoru basit tut; 4 bileşenle başla.",
+              "Skoru aylık kalibre et (sezon/traffic değişir).",
+              "Skoru “alarm” gibi kullan: düşüş varsa aksiyon listesi çalışsın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bakim-kpi-seti-site-saglik-dashboard-sablonu",
+        "title": "Bakım KPI Seti & Site Sağlık Dashboard Şablonunu İndir — Yazılım / Health Score (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Bakım KPI Seti & Site Sağlık Dashboard Şablonunu İndir — Yazılım / Health Score (v1.0)",
+            "purpose": "Bu audit sheet; bakım KPI’larını altyapı–uygulama–iş etkisi olarak gruplayıp tek dashboard’a dönüştürmenizi sağlar. Health score için ağırlıklandırma ve eşik (yeşil/sarı/kırmızı) modelini standardize eder. Otel (rezervasyon funnel) ve B2B (lead/rapor) kritik akışlarını KPI setine dahil ederek bakımın değerini görünür kılar.",
+            "whoFor": "Ops/PM + tech lead + yönetim raporlaması yapan ekip.",
+            "steps": [
+              "KPI setini seç ve veri kaynaklarını/owner’ları doldur.",
+              "Health score ağırlıklarını belirle, eşikleri tanımla.",
+              "Dashboard kartlarını yerleştir; aylık raporda trendleri yorumla."
+            ],
+            "checklist": [
+              "KPI owner’larını ata",
+              "Eşik ve alarm kur",
+              "Kritik akış kartlarını üste taşı",
+              "RUM/analytics kaynaklarını bağla",
+              "Health score’u basit tut",
+              "Aylık trend yorumunu standartlaştır",
+              "SLA ihlallerini ayrı göster",
+              "Rollback/failed deploy metriklerini ekle",
+              "Dashboard’u tek ekran yap",
+              "90 günde bir KPI setini kalibre et"
+            ],
+            "href": "/downloads/bakim-kpi-seti-site-saglik-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Bakım KPI Seti & Site Sağlık Dashboard Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-dashboardlar",
+        "title": "Otel ve B2B İçin Örnek Dashboard’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı KPI seti her sektörde aynı görünmez. Otelde rezervasyon ve sezon; B2B’de lead/raporlama ve iş saatleri belirleyicidir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel dashboard paketi (kritik akış odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon funnel health (tıklama, hata, yönlendirme süresi)",
+              "CWV mobil trend (özellikle landing ve oda sayfaları)",
+              "Incident/MTTR + call center şikâyet trendi (varsa)",
+              "Kampanya dönemlerinde “freeze” ve release notları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B dashboard paketi (ürün + ops)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lead/checkout başarı oranı",
+              "API p95 latency + error rate",
+              "Dashboard/render performansı (INP sinyali)",
+              "Ticket backlog ve SLA ihlalleri"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Otelde rezervasyon akışı KPI’ı dashboard’da ayrı kart mı?",
+              "B2B’de lead/rapor KPI’ı ops metrikleriyle birlikte mi?",
+              "Yönetim görünümü 1 ekrana sığıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde “rezervasyon” kartını en üste koy.",
+              "B2B’de “lead/checkout” ve “API health” kartlarını birlikte göster.",
+              "Yönetim ekranını 8–10 kartla sınırlı tut."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dashboard-tasarimi-tek-ekranda-saglik-altinda-detay",
+        "title": "Dashboard Tasarımı: Tek Ekranda Sağlık, Altında Detay",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dashboard “kullanılabilir” değilse, kullanılmaz. Bu yüzden SXO yaklaşımıyla basit bir tasarım kural seti gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Tasarım ilkeleri (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üstte: health score + 3 kritik KPI trendi",
+              "Ortada: 4 KPI grubu (incident, uptime/error, CWV, backlog)",
+              "Altta: drill-down (hangi sayfa/akış bozuldu?)",
+              "Her kartta: “son 7 gün” ve “son 28 gün” kıyası"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Kart sayısı kontrol altında mı (8–12)?",
+              "Her kart “aksiyon” öneriyor mu?",
+              "Veri gecikmesi ve kaynaklar açık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Dashboard’u “bak ve karar ver” seviyesinde tasarla.",
+              "Kartlarda eşik koy: yeşil/sarı/kırmızı.",
+              "Aylık raporda dashboard trendini kullan; bakım değerini görünür kıl."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competitor-gap-bakim-kpi-saglik-modeli",
+        "title": "Competitor Gap’i Kapatan “Bakım KPI & Sağlık Modeli”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Türkiye’de bakım çoğu zaman “yapıldı” diye geçer; KPI ve health score ile görünür olmaz. Bu rehberin farkı; ops+business bridge kurarak (incident/uptime/CWV + dönüşüm) bakımın katma değerini sayılarla göstermesidir. Böylece bütçe ve öncelik tartışmaları daha somut hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Bakım KPI & Site Sağlık Dashboard Analizi Talep Et",
+            "text": "Projenize uygun KPI seti ve health score modelini birlikte kuralım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Bakım KPI’ları nelerdir, nasıl seçilir?",
+        "a": "Incident/MTTR, uptime/error rate, ticket backlog, CWV ve dönüşüm KPI’ları temel seti oluşturur. Seçim kritik akışlara ve yönetimin karar ihtiyaçlarına göre yapılır."
+      },
+      {
+        "q": "Site sağlık skoru (health score) nasıl oluşturulur?",
+        "a": "Uptime, hata oranı, CWV ve ticket/incident metriklerini normalize edip ağırlıklandırarak 0–100 arası tek skor üretin. Skor düştüğünde hangi bileşenin düştüğünü drill-down ile görün."
+      },
+      {
+        "q": "Otel ve B2B projelerinde hangi teknik/iş KPI’ları izlenmeli?",
+        "a": "Otelde rezervasyon funnel sağlığı, CWV ve uptime; B2B’de lead/checkout, API latency/error ve rapor/export başarısı öne çıkar. Her ikisinde ticket/incident metrikleri mutlaka olmalıdır."
+      },
+      {
+        "q": "Bakım dashboard’u nasıl tasarlanır?",
+        "a": "Üstte health score + 3 kritik trend, ortada KPI grupları, altta drill-down mantığıyla tasarlayın. Kart sayısını 8–12’de tutun ve eşiklerle aksiyona bağlayın."
+      },
+      {
+        "q": "Bakımın iyi gittiğini yöneticiye nasıl gösterebilirim?",
+        "a": "Health score trendini, MTTR/incident düşüşünü ve kritik akış dönüşümünü aynı ekranda gösterin. Bakımın risk azalttığını ve iş etkisi ürettiğini KPI diliyle anlatın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — bakim-kpi-lari-ve-site-saglik-dashboard-u-hero-01.webp — alt text: “Bakım KPI dashboard’u, amaç site sağlığını göstermek, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — bakim-kpi-lari-ve-site-saglik-dashboard-u-h1-context-02.webp — alt text: “Health score modeli, amaç tek bakışta sağlık, yönetim bağlamı”",
+          "divider-01 — 1600×1200 — bakim-kpi-lari-ve-site-saglik-dashboard-u-divider-03.webp — alt text: “KPI grupları bölümü, amaç metrik seti, teknik ekip bağlamı”",
+          "divider-02 — 1600×1200 — bakim-kpi-lari-ve-site-saglik-dashboard-u-divider-04.webp — alt text: “Health score kurgusu bölümü, amaç puanlama modeli, iş ve teknik bağlamı”",
+          "diagram-05 — 1920×1080 — bakim-kpi-lari-ve-site-saglik-dashboard-u-diagram-05.webp — alt text: “KPI→health score akışı, amaç ölçülebilir sağlık, otel ve B2B bağlamı”",
+          "checklist-06 — 1200×1200 — bakim-kpi-lari-ve-site-saglik-dashboard-u-checklist-06.webp — alt text: “Site sağlık dashboard checklist, amaç hızlı kurulum, ekip bağlamı”",
+          "kpi-07 — 1200×1200 — bakim-kpi-lari-ve-site-saglik-dashboard-u-kpi-07.webp — alt text: “Dashboard KPI kartları mockup, amaç bakım değerini göstermek, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — bakim-kpi-lari-ve-site-saglik-dashboard-u-proof-08.webp — alt text: “Dashboard deliverables seti, amaç ölçülebilir bakım, otel ve B2B bağlamı”",
+          "table-maintenance-kpi-groups — Bakım KPI gruplama tablosu (altyapı, uygulama, iş KPI’ları)",
+          "table-kpi-inventory — KPI Envanteri (kopyalanabilir)",
+          "table-before-after-kpi — Öncesi/Sonrası tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "KPI setinde ops + business metrikleri birlikte tanımlı",
+          "Her KPI için veri kaynağı, owner, sıklık ve eşik tanımlı",
+          "Uptime, error rate, CWV ve ticket/incident health score ağırlıkları tanımlı",
+          "Health score için yeşil/sarı/kırmızı eşikleri tanımlı",
+          "Dashboard yönetim ve teknik görünüm olarak ayrıştırıldı",
+          "Otel rezervasyon ve B2B lead/checkout kritik akış KPI’ları dashboard’a bağlandı",
+          "RUM/GSC, Analytics/CRM, Monitoring, Logs/APM ve Ticketing veri kaynakları doğrulandı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Media dosya adları ve alt text’ler eşleşiyor"
+        ]
+      }
+    }
+  },
+
+   "BlogOnCallModeliVeNobetPlanlamaBakimEkibiIcinCalismaSaatleriDengesi": {
+    "title": "On-Call Modeli: Nöbet Planı ve Eskalasyon",
+    "slug": "on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi",
+    "department": "software",
+    "subDepartment":"maintenance",
+    "updatedAt": "27 Temmuz 2026",
+    "publishedAt": "2026-07-27",
+    "readingTime": "12 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "On-call penceresi, rota ve L1–L3 destek seviyeleriyle 7/24’ü tek kişinin sırtından alın. Eskalasyon kuralları, telafi ritmi ve otel/B2B örnek modellerle sürdürülebilir nöbet kurun.",
+    "seo": {
+      "metaTitle": "On-Call Modeli: Nöbet Planı ve Eskalasyon | DGTLFACE",
+      "metaDescription": "On-call penceresi, rota ve L1–L3 destek seviyeleriyle 7/24’ü tek kişinin sırtından alın. Eskalasyon kuralları, telafi ritmi ve otel/B2B örnek modellerle sürdürülebilir nöbet kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Bakım ve Destek — /tr/yazilim/bakim-ve-destek",
+        "Blog No: 19",
+        "Blog / URL: /tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi"
+      ],
+      "strategySummary": "Bu yazı, bakım & destek operasyonunda en hızlı tükenmişlik (burnout) üreten boşluğu hedefler: on-call modeli tanımlanmadan “kim bakacak?” kaosu (authority-child). Hedef persona; otel/B2B tarafında yönetim ve operasyon liderleri, ajans/IT yöneticisi ve teknik liderdir. Funnel’da consideration → conversion: 7/24 beklentiyi ekip sağlığını yakmadan karşılayacak “pencere + seviye (L1/L2/L3) + eskalasyon + rota” modelini kurdurur. Ana iş sorusu: “Gece gelen sorunlara kim bakacak, ekip yanmadan nasıl sürdürülebilir on-call kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-27",
+      "readingTime": "12 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "On-call modeli tanımlanmadan bakım yapmak; ekipte tükenmişlik ve “kim bakacak?” kaosunu garanti eder. Sürdürülebilir yaklaşım; 24/7 “her an herkes” yerine iş ihtiyacına göre on-call pencereleri belirlemek, L1/L2/L3 destek seviyelerini netleştirmek, dönüşümlü rota kurmak ve otomatik eskalasyon/alarmlarla doğru kişiyi doğru zamanda devreye almaktır. Otelde yüksek sezon ve gece senaryoları; B2B’de release/kampanya dönemleri için farklı on-call kurgusu gerekir.",
+      "sgeSummary": "On-call’i pencere + rota + L1/L2/L3 olarak tasarla. Alarm/eskalasyon kur, P1/P2’de hızlan; nöbet yükünü adil paylaştır, nöbet sonrası telafi ritmi belirle. Otel/B2B’ye göre uyarlayın.",
+      "voiceAnswer": "On-call penceresi ve L1–L3 kurgusuyla nöbeti döndür; eskalasyonla hızlı, tükenmeden müdahale et.",
+      "aiFactSheet": [
+        "Hedef kitle: Yönetim, ops lideri, tech lead, ajans/IT yöneticisi",
+        "KPI’lar: MTTA/MTTR, P1/P2 response, alarm gürültüsü, rota adaleti, incident tekrar oranı",
+        "Entity: on-call, rota, L1/L2/L3, eskalasyon, incident, workload balance",
+        "Geo: Türkiye geneli; uptime beklentisi yüksek otel ve B2B projeleri",
+        "Funnel: Consideration (model) → conversion (analiz/şablon)",
+        "Çıktı: rota diyagramı + seviye tablosu + on-call checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi",
+      "intro": "“7/24 destek” beklentisi çoğu ekipte iki uçtan birine gider: ya herkesin telefonu sürekli çalar ve tükenmişlik başlar, ya da kimse net sorumlu olmadığı için P1 olaylar uzar. Sağlıklı model; on-call’i “sürekli nöbet” değil, tanımlı pencere + dönüşümlü rota + seviye (L1/L2/L3) + eskalasyon olarak kurmaktır. Böylece hem olaylara tepki hızı artar hem de ekip sürdürülebilir kalır. Otel projelerinde yüksek sezon/gece; B2B’de release ve kampanya dönemleri bu planlamayı daha kritik hale getirir.",
+      "quickSummary": [
+        "On-call’i pencere + rota + L1/L2/L3 olarak tasarla.",
+        "Alarm ve eskalasyon kur; P1/P2’de doğru kişiyi hızla devreye al.",
+        "Nöbet yükünü adil paylaştır ve Primary/Secondary rota kullan.",
+        "Nöbet sonrası telafi ve dinlenme ritmini tanımla.",
+        "Otel sezon/gece ve B2B release/kampanya dönemlerine göre modeli uyarlayın."
+      ],
+      "ctaPrimary": {
+        "label": "On-Call Model & Nöbet Planlama Analizi Talep Et",
+        "text": "Kritik uptime beklentisini ekip sağlığını koruyarak yönetmek isteyen otel ve B2B ekipleri için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "On-Call Model & Nöbet Planlama Analizi Talp Et",
+        "text": "Kritik olaylara hızlı yanıt verirken ekip tükenmişliğini önlemek isteyen otel, rezervasyon ve B2B ekipleri için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "On-Call Rota & L1/L2/L3 Destek Planlama Şablonunu İndir",
+        "text": "On-call penceresi, rota ve eskalasyon kurallarını tek formatta standardize ederek 7/24’ü tek kişinin sırtından almanızı sağlar.",
+        "href": "/downloads/on-call-rota-l1-l2-l3-destek-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Sunucu Güvenlik",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği",
+        "href": "/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "on-call-nedir-ne-degildir",
+        "title": "On-Call Nedir, Ne Değildir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "On-call; “her soruna anında koşmak” değildir. On-call’in amacı; kritik olaylarda doğru kişiyi doğru zamanda devreye alıp hizmet sürekliliğini korumaktır. Bu yüzden on-call; alarm kalitesi, triage disiplini ve seviye kurgusu olmadan çalışmaz."
+          },
+          {
+            "type": "h3",
+            "text": "On-call’in doğru tanımı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "P1/P2 incident’larda müdahale ve koordinasyon sorumluluğu",
+              "Öncelik: stabilizasyon, geçici çözüm, doğru eskalasyon",
+              "Sonra: postmortem ve önleyici aksiyonların backlog’a bağlanması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne değildir?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tüm feature isteklerinin mesai dışı çözümü",
+              "Her “küçük hata” için gece müdahalesi",
+              "Sürekli “tek kişi”ye yüklenen sorumluluk"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : On-call nedir, bakım ekibi için nasıl kurgulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: On-call; kritik incident’larda hızlı triage ve müdahaleyi sağlayan, pencere (saat), rota (dönüşümlü nöbet) ve seviye (L1/L2/L3) yapısıyla kurgulanan operasyon modelidir. Amaç 7/24’ü tek kişinin sırtına yüklemeden sürdürülebilir destek sağlamaktır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "On-call’in kapsamı P1/P2 ile sınırlı mı, yoksa her şeye mi yayılıyor?",
+              "Alarm gürültüsü (noise) yüksek mi?",
+              "On-call sonrası telafi (rest) kuralı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "On-call kapsamını yaz: hangi öncelikler, hangi kanallar.",
+              "Alarm gürültüsünü azaltmadan rota kurma (yanar).",
+              "On-call’i postmortem ve önleyici aksiyonlarla döngüye bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nobet-saatleri-ve-vardiya-planlama",
+        "title": "Nöbet Saatleri ve Vardiya Planlama",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "24/7 her projede şart değildir. Çoğu ekip için sürdürülebilir çözüm; iş ihtiyacına göre pencereler tanımlamaktır. Otelde yüksek sezonda gece penceresi gerekebilir; B2B’de ise kritik iş saatleri ve release dönemleri belirleyicidir."
+          },
+          {
+            "type": "h3",
+            "text": "On-call penceresi örnekleri (iş ihtiyacına göre)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Model A (Business hours + acil eskalasyon): 09:00–18:00 aktif, P1’de acil telefon zinciri",
+              "Model B (Extended hours): 09:00–24:00 (otel için yaygın)",
+              "Model C (Seasonal 24/7): sadece yüksek sezon/kampanya haftaları 24/7",
+              "Model D (Release-based): büyük release günlerinde “release on-call” penceresi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Voice (tek cümle): “Gece gelen sorunlara kim bakacak, ekip yanmamalı” → pencereli on-call + rota + L1/L2/L3 ile çöz."
+          },
+          {
+            "type": "h3",
+            "text": "Vardiya tasarımı: “tek kişi” yerine dönüşüm"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık rota: her hafta farklı kişi",
+              "Günlük rota: yoğun projelerde kısa vardiyalar",
+              "“Primary/Secondary” nöbet: birincil cevaplar, ikincil eskalasyon"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "On-call penceresi gerçek iş ihtiyacına göre mi tanımlı?",
+              "Primary/Secondary ayrımı var mı?",
+              "Nöbet yükü ekip içinde dengeli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“24/7” yerine önce iş ihtiyacını ölç (incident zamanı dağılımı).",
+              "Primary/Secondary kurgusunu kur; tek kişiyi yalnız bırakma.",
+              "Rotayı 4–8 haftalık döngüyle planla, şeffaf yayınla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ucretlendirme-ve-izin-dengesi",
+        "title": "Ücretlendirme ve İzin Dengesi (İK Perspektifine Girmeden Çerçeve)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İK/hukuk detayına girmeden operasyonel çerçeve: on-call sürdürülebilirliği için telafi ve dinlenme kuralı şarttır. Aksi halde kalite düşer, incident riski artar."
+          },
+          {
+            "type": "h3",
+            "text": "Pratik sürdürülebilirlik ilkeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Nöbet sonrası “dinlenme penceresi” (kritik gece müdahalesi olduysa)",
+              "Nöbet yükünün ölçülmesi: çağrı sayısı, uyanma sayısı, süre",
+              "Alarm gürültüsünün hedefi: “çağrı başına gerçek incident oranı” yükselmeli",
+              "Ekip içi adalet: aynı kişiye sürekli P1 gelmemeli"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Nöbet planını nasıl adil ve sürdürülebilir yaparım?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: On-call penceresini iş ihtiyacına göre belirleyin, primary/secondary rota kurun ve nöbet yükünü metriklerle izleyin (çağrı sayısı, gece müdahalesi). Kritik müdahaleler sonrası telafi/dinlenme kuralını yazılı hale getirin ve alarm gürültüsünü azaltarak çağrıların gerçek değerini artırın."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Adil ve net bir on-call modeli olan ekiplerde hem incident tepki sürelerinin düşmesi hem de ekip memnuniyetinin daha yüksek raporlanması sık görülür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Nöbet yükünü ölçen metrik var mı?",
+              "Telafi/dinlenme kuralı yazılı mı?",
+              "Alarm gürültüsü azaltma backlog’u var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "On-call yükünü görünür kıl: çağrı/uyandırma/süre.",
+              "Telafi kuralını modele ekle (sürdürülebilirlik).",
+              "Alarm gürültüsünü azaltacak “ops debt” backlog’u oluştur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-l2-l3-destek-seviyeleri-ve-eskalasyon",
+        "title": "L1/L2/L3 Destek Seviyeleri ve Eskalasyon",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Seviye kurgusu yoksa, her çağrı geliştiricinin telefonuna gider. Seviye kurgusu, doğru işi doğru role taşır."
+          },
+          {
+            "type": "h3",
+            "text": "L1 – Triage ve ilk yanıt"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Alarmı doğrular, “gerçek incident mı?” kararını verir",
+              "İlk stabilizasyon adımlarını uygular (runbook)",
+              "Gerekirse L2’ye eskale eder"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "L2 – Teknik müdahale ve düzeltme"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Root-cause’a iner, workaround/fix uygular",
+              "Deploy/rollback kararına katkı verir",
+              "Postmortem girdisi üretir"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "L3 – Uzmanlık ve vendor/derin sistem"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS/OTA, ödeme, altyapı gibi vendor/derin bileşenler",
+              "Karmaşık incident’larda devreye girer",
+              "Kalıcı önleyici aksiyonları yönlendirir"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Örnek L1–L3 Tablosu:",
+            "headers": [
+              "Seviye",
+              "Sorumluluk",
+              "Tipik araç",
+              "Örnek (otel)",
+              "Örnek (B2B)"
+            ],
+            "rows": [
+              [
+                "L1",
+                "triage + ilk yanıt",
+                "runbook, status check",
+                "rezervasyon sayfası down mı?",
+                "login hata mı, alarm gerçek mi?"
+              ],
+              [
+                "L2",
+                "teknik müdahale",
+                "logs/APM, rollback",
+                "fiyat API time-out fix",
+                "API latency fix, cache tweak"
+              ],
+              [
+                "L3",
+                "uzman/vendor",
+                "vendor panel, altyapı",
+                "PMS/OTA bağlantısı",
+                "ödeme sağlayıcı/SSO"
+              ]
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Eskalasyon kuralları (otomasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "P1: 5–10 dk içinde L2 eskalasyon",
+              "P2: 15–30 dk içinde eskalasyon",
+              "L3: vendor veya derin sistem gerekliyse"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "L1 runbook’ları mevcut mu?",
+              "P1/P2 eskalasyon süreleri yazılı mı?",
+              "Vendor (L3) iletişim bilgileri hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "L1’i güçlendir: runbook ve alarm kalitesi.",
+              "Eskalasyonu süre kuralına bağla (kişisel inisiyatif değil).",
+              "L3 vendor kontaklarını ve SLA’yi servis kataloğuna yaz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "on-call-rota-l1-l2-l3-destek-planlama-sablonu",
+        "title": "On-Call Rota & L1/L2/L3 Destek Planlama Şablonunu İndir — Yazılım / On-Call Ops (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "On-Call Rota & L1/L2/L3 Destek Planlama Şablonunu İndir — Yazılım / On-Call Ops (v1.0)",
+            "purpose": "Bu şablon; on-call pencerelerini iş ihtiyacına göre tanımlamanızı, L1/L2/L3 seviye ayrımını netleştirmenizi ve dönüşümlü rota ile eskalasyon kurallarını standardize etmenizi sağlar. Amaç 24/7 beklentiyi “tek kişinin sırtına” yüklemeden yönetmek ve MTTR’ı düşürmektir. Otel (sezon/gece) ve B2B (release/kampanya) senaryolarına uyarlanabilir.",
+            "whoFor": "Ops lideri + tech lead + PM (on-call owner).",
+            "steps": [
+              "On-call pencerelerini ve öncelik kapsamını (P1/P2) yaz.",
+              "L1/L2/L3 görevlerini ve eskalasyon sürelerini belirle.",
+              "Rota planını yayınla; aylık KPI ile gürültü ve yükü kalibre et."
+            ],
+            "checklist": [
+              "On-call kapsamı yazıldı (P1/P2, hangi kanallar)",
+              "On-call pencereleri belirlendi (business/extended/seasonal)",
+              "Primary/Secondary rota kurgusu seçildi",
+              "L1/L2/L3 görev tanımları yazıldı",
+              "Eskalasyon süreleri belirlendi (P1 5–10 dk, P2 15–30 dk)",
+              "Runbook listesi çıkarıldı (top 10 incident)",
+              "Alarm gürültüsü hedefi belirlendi (çağrı/hafta)",
+              "Nöbet sonrası telafi kuralı çerçevesi yazıldı (detay İK’ye bırakılmadan)"
+            ],
+            "href": "/downloads/on-call-rota-l1-l2-l3-destek-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "On-Call Rota & L1/L2/L3 Destek Planlama Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-ornek-on-call-modelleri",
+        "title": "Otel ve B2B İçin Örnek On-Call Modelleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "On-call modeli sektöre göre aynı iskeletle kurulur; pencereler ve öncelikler farklılaşır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel: yüksek sezon ve gece senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sezon ortasında “freeze” yaklaşımı: yalnız hotfix",
+              "Gece P1 önceliği: rezervasyon akışı, fiyat görünürlüğü, ödeme",
+              "L3: PMS/OTA vendor eskalasyonu önceden planlanmalı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B: büyük release ve kampanya dönemleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Release on-call penceresi: release gününde aktif izleme",
+              "Kritik iş saatleri: müşteri SLA’sına göre pencere",
+              "Rapor/export ve ödeme akışları “kritik” sınıf"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): On-call kültürü, bakımın 7/24 tek kişinin sırtında kalmasını engelleyerek daha sürdürülebilir bir operasyon yaratır; bu da uzun vadede kalite ve hız dengesini korumayı kolaylaştırır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Otelde sezon dönemi için pencere ayrı mı?",
+              "B2B’de release on-call var mı?",
+              "Kritik akışlar P1/P2 tanımında net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde sezon takvimine göre on-call penceresini artır/azalt.",
+              "B2B’de release günleri için “ekstra izleme” kuralı koy.",
+              "Kritik akışları P1/P2 tanımıyla servis kataloğuna bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-guvenlik-ve-kvkk-senaryolariyla-koordinasyon",
+        "title": "Teknik Not: Güvenlik ve KVKK Senaryolarıyla Koordinasyon",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "On-call yalnız “site down” değildir. Güvenlik incident’leri ve veri ihlali senaryoları farklı eskalasyon gerektirir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Güvenlik incident’leri için koordinasyon: https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+              "KVKK/veri güvenliği senaryoları: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Güvenlik olayları P1/P2 içinde tanımlı mı?",
+              "KVKK ihlal senaryosu için iletişim zinciri var mı?",
+              "“Kim bilgilendirilecek?” listesi hazır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Güvenlik/KVKK senaryolarını ayrı runbook yap.",
+              "Eskalasyon zincirini (RACI) yazılı hale getir.",
+              "Yılda en az 1 kez “tabletop” tatbikat yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competitor-gap-people-friendly-ops-yaklasimi",
+        "title": "Competitor Gap’i Kapatan “People-Friendly Ops” Yaklaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de on-call çoğu zaman “bir kişinin sırtında” kalır veya hiç tanımlanmaz. Bu rehberin farkı; 24/7’yi “burnout” olmadan sağlayacak pencere, seviye, rota ve eskalasyon modelini pratik hale getirmesidir. Böylece hem tepki süresi hem ekip sürdürülebilirliği güçlenir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "On-Call Model & Nöbet Planlama Analizi Talep Et",
+            "text": "Projenize özel pencere/rota/L1-L3 kurgusunu birlikte çıkaralım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "On-call nedir, bakım ekibi için nasıl kurgulanır?",
+        "a": "Kritik incident’larda hızlı müdahale için pencere (saat), rota (dönüşüm) ve seviye (L1/L2/L3) modelidir. Amaç 7/24’ü tek kişiye yüklemeden yönetmektir."
+      },
+      {
+        "q": "L1, L2, L3 destek seviyeleri ne anlama gelir?",
+        "a": "L1 triage ve ilk yanıtı verir, L2 teknik müdahale yapar, L3 vendor/uzman seviyesidir. Seviye ayrımı, çağrıların doğru kişiye gitmesini sağlar."
+      },
+      {
+        "q": "Nöbet planını nasıl adil ve sürdürülebilir yaparım?",
+        "a": "On-call penceresini iş ihtiyacına göre seçin, primary/secondary rota kurun ve nöbet yükünü metriklerle izleyin. Alarm gürültüsünü azaltın ve telafi/dinlenme kuralını çerçeve olarak tanımlayın."
+      },
+      {
+        "q": "Otel ve B2B için örnek on-call modeli nasıl olmalı?",
+        "a": "Otelde sezon/gece senaryoları için extended veya seasonal 24/7 pencereler; B2B’de release/kampanya dönemlerinde release on-call penceresi iyi çalışır. Her ikisinde de L1–L3 ve eskalasyon kuralları şarttır."
+      },
+      {
+        "q": "Alarm gürültüsü (noise) neden sorun yaratır?",
+        "a": "Çok alarm, on-call’i yorar ve gerçek incident’ları kaçırma riskini artırır. Runbook ve alarm tuning ile çağrıların “değerini” yükseltmek gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-hero-01.webp — alt text: “On-call modeli, amaç sürdürülebilir nöbet, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-h1-context-02.webp — alt text: “Pencere ve eskalasyon kurgusu, amaç tükenmeden ops, ekip bağlamı”",
+          "divider-01 — 1600×1200 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-divider-03.webp — alt text: “Nöbet planlama bölümü, amaç adil rota, ekip bağlamı”",
+          "divider-02 — 1600×1200 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-divider-04.webp — alt text: “L1-L3 seviye modeli, amaç doğru eskalasyon, teknik ekip bağlamı”",
+          "diagram-05 — 1920×1080 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-diagram-05.webp — alt text: “On-call rota diyagramı, amaç sürdürülebilir vardiya, otel ve B2B bağlamı”",
+          "checklist-06 — 1200×1200 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-checklist-06.webp — alt text: “On-call checklist kartı, amaç hızlı kurulum, ops ekibi bağlamı”",
+          "kpi-07 — 1200×1200 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-kpi-07.webp — alt text: “On-call KPI paneli, amaç MTTR ve alarm gürültüsü, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi-proof-08.webp — alt text: “On-call deliverables seti, amaç sürdürülebilir operasyon, otel ve B2B bağlamı”",
+          "table-l1-l3-support-levels — L1–L3 destek seviyeleri + örnek senaryolar tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "On-call kapsamı ve P1/P2 öncelik tanımları yazılı",
+          "Business/extended/seasonal/release on-call pencereleri tanımlı",
+          "Primary/Secondary rota planı oluşturuldu",
+          "L1/L2/L3 görev ve sorumlulukları tanımlı",
+          "P1/P2 eskalasyon süreleri ve L3 vendor iletişim zinciri tanımlı",
+          "Top 10 incident için runbook seti hazır",
+          "MTTA/MTTR, alarm çağrı sayısı ve eskalasyon doğruluğu KPI’ları izleniyor",
+          "Güvenlik ve KVKK incident senaryoları ayrı runbook ve eskalasyon zincirine bağlı",
+          "Nöbet sonrası telafi/dinlenme çerçevesi tanımlı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Media dosya adları ve alt text’ler eşleşiyor"
+        ]
+      }
+    }
+  },
+
+   "BlogCokAjansliVeCokTedarikciliOrtamlardaBakimKoordinasyonu": {
+    "title": "Çok Ajanslı Bakım Koordinasyonu: Lead Vendor Modeli",
+    "slug": "cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu",
+    "department": "software",
+    "subDepartment":"maintenance",
+    "updatedAt": "27 Temmuz 2026",
+    "publishedAt": "2026-07-27",
+    "readingTime": "12 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Multi-vendor projelerde bakım kaosunu bitirin: lead vendor/ürün sahibi rolü, ortak ticketing, net sorumluluk sınırları ve aylık/çeyreklik sync ritmiyle hızlı çözüm ve şeffaflık sağlayın.",
+    "seo": {
+      "metaTitle": "Çok Ajanslı Bakım Koordinasyonu: Lead Vendor Modeli | DGTLFACE",
+      "metaDescription": "Multi-vendor projelerde bakım kaosunu bitirin: lead vendor/ürün sahibi rolü, ortak ticketing, net sorumluluk sınırları ve aylık/çeyreklik sync ritmiyle hızlı çözüm ve şeffaflık sağlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Bakım ve Destek — /tr/yazilim/bakim-ve-destek",
+        "Blog No: 20",
+        "Blog / URL: /tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu"
+      ],
+      "strategySummary": "Bu yazı, multi-vendor yapılarda bakımın en büyük riskini hedefler: “kimse tam sorumlu değil” kaosu (authority-child). Hedef persona; otel gruplarında merkez ekip/GM/IT, ajans yöneticileri; B2B’de ürün şirketi + sistem entegratörü + ajans koordinasyonunu yöneten operasyon lideridir. Funnel’da consideration → conversion: lead vendor/ürün sahibi rolü, ortak ticketing ve sync toplantı ritmiyle hesap verebilir bir operasyon kurdurur. Ana iş sorusu: “Birden fazla ajans/tedarikçi varken bakım akışını nasıl sahipli, şeffaf ve hızlı hale getiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-27",
+      "readingTime": "12 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Birden fazla ajans ve tedarikçinin olduğu projelerde bakımın en büyük riski “kimse tam sorumlu değil” kaosudur. Çözüm; lead vendor veya iç ürün sahibi rolünü tanımlamak, tüm talepleri ortak ticketing sistemi üzerinden toplamak, her ticket’a owner atamak ve düzenli koordinasyon ritmi (haftalık triage, aylık/çeyreklik sync) kurmaktır. Böylece otel ve B2B projelerinde öncelik çatışmaları yönetilir, incident çözüm süreleri kısalır ve “başkası bozdu” söylemleri veri ve süreçle yer değiştirir.",
+      "sgeSummary": "Multi-vendor bakım: lead vendor/ürün sahibi + ortak ticketing + owner ataması + düzenli sync. Roller/sınırlar yazılır, çatışma çözümü kuralları belirlenir, KPI’larla şeffaf raporlanır.",
+      "voiceAnswer": "Lead vendor belirleyin, tek ticketing kullanın, owner atayın ve düzenli sync toplantısıyla bakımı yönetin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel grup merkezi ekip, ajans/vendo r yöneticileri; B2B ops/ürün lideri",
+        "KPI’lar: yanlış yönlendirilen ticket, MTTR, SLA ihlali, eskalasyon sayısı, tekrar oranı",
+        "Entity: lead vendor, product owner, shared ticketing, vendor list, sync cadence, ownership",
+        "Geo: Türkiye geneli; multi-vendor otel grupları ve B2B organizasyonlar",
+        "Funnel: Consideration (model) → conversion (analiz/şablon)",
+        "Çıktı: ilişki diyagramı + sorumluluk tablosu + koordinasyon checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu",
+      "intro": "Multi-vendor yapılarda teknik sorunların kendisi kadar, koordinasyon hataları da maliyet üretir: aynı ticket farklı ajanslara gider, kimse “owner” olmadığı için bekler, öncelik çatışmaları büyür ve olaylar uzar. Otel zincirlerinde merkez/otel/ajans üçgeni; B2B’de ürün şirketi + sistem entegratörü + ajans modeli bu riski artırır. Sağlam bir koordinasyon modeli; tek giriş kapısı (ticketing), net roller, lead vendor/ürün sahibi sahipliği ve düzenli ritimle (triage/sync) bu kaosu hesap verebilir bir yapıya çevirir.",
+      "quickSummary": [
+        "Tek ticketing ve tek backlog (single source of truth)",
+        "Her ticket’ta owner (sahip) zorunlu",
+        "Lead vendor veya iç product owner “A (Accountable)” rolünde",
+        "Düzenli ritim: haftalık triage + aylık/çeyreklik sync",
+        "Öncelik ve çatışma kararlarını iş etkisi + risk + SLA ile yönet"
+      ],
+      "ctaPrimary": {
+        "label": "Multi-Vendor Bakım & Koordinasyon Analizi Talep Et",
+        "text": "Çok ajanslı yapılarda bakım akışını sahipli ve hızlı hale getirmek isteyen ekipler için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Multi-Vendor Bakım & Koordinasyon Analizi Talep Et",
+        "text": "Birden fazla ajans/tedarikçiyle çalışan otel grupları ve B2B organizasyonlarda bakım koordinasyonunu hesap verebilir hale getirmek için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "Çok Ajanslı/Tedarikçili Projeler İçin Bakım Koordinasyon Şablonunu İndir",
+        "text": "Lead vendor, ortak ticketing akışı ve sync ritmini tek formatta standardize ederek ‘kim sorumlu?’ kaosunu azaltmanızı sağlar.",
+        "href": "/downloads/cok-ajansli-tedarikcili-bakim-koordinasyon-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/otel-dijital-pazarlama"
+      },
+      {
+        "label": "CMS Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "birden-fazla-ajans-ve-tedarikci-ile-bakim",
+        "title": "Birden Fazla Ajans ve Tedarikçi ile Çalışırken Bakım Nasıl Yönetilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-vendor yönetiminin temel problemi “çok el, tek gerçek” eksikliğidir. Herkes kendi aracını kullanırsa tek resim kaybolur. Bu yüzden ilk prensip: tek giriş kapısı ve tek sahiplik modeli."
+          },
+          {
+            "type": "h3",
+            "text": "4 temel prensip"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek ticketing ve tek backlog (single source of truth)",
+              "Her ticket’ta owner (sahip) zorunlu",
+              "Lead vendor veya iç product owner “A (Accountable)” rolünde",
+              "Düzenli ritim: haftalık triage + aylık/çeyreklik sync"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Birden fazla ajans/tedarikçi ile bakım nasıl koordine edilir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Tek ticketing sistemi kurup her talebe owner atayın; lead vendor veya iç ürün sahibi rolüyle hesap verebilirliği netleştirin. Haftalık triage ile öncelikleri, aylık/çeyreklik sync ile riskleri, roadmap’i ve SLA performansını birlikte yönetin."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Tek ticketing var mı, yoksa e-posta/WhatsApp karışık mı?",
+              "Her ticket’ta owner zorunlu mu?",
+              "“A” rolü kimde (lead vendor / iç owner)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Tek ticketing’e geçmeden koordinasyon bekleme.",
+              "Owner alanını zorunlu yap; ownersız ticket “açılmamış” say.",
+              "Lead vendor/owner rolünü sözleşmeye ve ritme bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "roller-ve-sinirlar",
+        "title": "Roller ve Sınırlar",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "p",
+            "text": "Multi-vendor projelerde başarı, “kim ne yapar?” sorusunun net olmasına bağlıdır. Roller ve sınırlar yazılı değilse, herkes “bana değil” der."
+          },
+          {
+            "type": "h3",
+            "text": "Lead vendor / İç ürün sahibi rolü ne yapar?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Triage: ticket doğru vendor’a gidiyor mu?",
+              "Öncelik: P1–P4, SLA hedefleri, iş etkisi",
+              "Koordinasyon: cross-vendor incident’larda war-room",
+              "Raporlama: KPI ve SLA performansı",
+              "Roadmap: bakım ve değişiklik takvimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Lead vendor/ürün sahibi rolü ne işe yarar?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Lead vendor/ürün sahibi, multi-vendor yapıda tek “hesap veren” rolüdür: triage yapar, öncelikleri belirler, cross-vendor incident’ları koordine eder ve SLA/KPI raporlamasını yürütür. Böylece “kim sorumlu?” belirsizliği azalır."
+          },
+          {
+            "type": "h3",
+            "text": "Vendor sınırlarını netleştiren pratikler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Servis kataloğu (web, PMS/OTA, CRM, analytics)",
+              "RACI: R (yapan), A (hesap veren), C/I",
+              "Kapsam dışı işler listesi (scope boundaries)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Stratejik bağ için iç linkler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "https://dgtlface.com/tr/yazilim/bakim-ve-destek (SLA & ops)",
+              "https://dgtlface.com/tr/yazilim/cms-entegrasyonu (çoklu kanal/entegrasyon)",
+              "https://dgtlface.com/tr/otel-dijital-pazarlama (çok markalı yapı)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Sorumluluk ve iletişim kanalları tablosu (vendor, rol, owner, kanal, SLA)",
+            "headers": [
+              "Vendor",
+              "Rol",
+              "Owner",
+              "Kanal",
+              "SLA"
+            ],
+            "rows": []
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Her vendor’ın kapsamı ve RACI’si yazılı mı?",
+              "Kapsam dışı işler tartışmasız mı?",
+              "Cross-vendor incident’ta tek komuta var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Servis kataloğu + RACI’yi multi-vendor modelin temeli yap.",
+              "“Single accountable owner” kuralını uygula.",
+              "Kapsam dışı işleri en baştan yaz; kriz anında tartışma çıkmasın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ortak-ticketing-ve-toplanti-ritmi",
+        "title": "Ortak Ticketing ve Toplantı Ritmi",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "p",
+            "text": "Ortak ticketing, “tek gerçek”i sağlar; toplantı ritmi ise “karar” üretir. Ritim olmadan ticketing, backlog çöplüğüne döner."
+          },
+          {
+            "type": "h3",
+            "text": "Ticket akışı (önerilen)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Intake (tek kanal) → Triage (lead vendor) → Assign (vendor) → Resolve → Verify → Close",
+              "Her aşamada: owner, SLA, etki, kanıt (log/screenshot)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Toplantı ritmi (minimal ama yeterli)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık 30 dk triage: P1/P2 review + top 10 backlog",
+              "Aylık 45–60 dk ops sync: SLA/KPI, tekrar eden sorunlar, riskler",
+              "Çeyreklik 60–90 dk roadmap sync: bakım blokları + büyük değişiklikler"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Koordinasyon modeli oturan multi-vendor projelerde, “kim sorumlu?” tartışmaları azalırken incident çözüm sürelerinin ve bakım kalitesinin iyileşmesi daha sık gözlenir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Triage toplantısında kararlar yazılıyor mu?",
+              "SLA/KPI raporu her ay masada mı?",
+              "Çeyreklik roadmap toplantısında bakım blokları var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Triage’ı kısa tut ama disiplinli yap (owner/priority/SLA).",
+              "Aylık sync’te “tekrar eden 3 kök neden”i çıkar.",
+              "Çeyreklik sync’te change freeze ve sezon/kampanya takvimini hizala."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cok-ajansli-tedarikcili-bakim-koordinasyon-sablonu",
+        "title": "Çok Ajanslı/Tedarikçili Projeler İçin Bakım Koordinasyon Şablonunu İndir — Yazılım / Multi-Vendor Ops (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Çok Ajanslı/Tedarikçili Projeler İçin Bakım Koordinasyon Şablonunu İndir — Yazılım / Multi-Vendor Ops (v1.0)",
+            "purpose": "Bu şablon; multi-vendor bakımda lead vendor/ürün sahibi rolünü, ortak ticketing akışını ve düzenli sync toplantı ritmini netleştirir. Amaç, yanlış yönlendirme ve “kimse tam sorumlu değil” kaosunu azaltıp MTTR’ı düşürmektir. Otel zinciri (merkez/otel/ajans) ve B2B (ürün şirketi/entegratör/ajans) senaryolarına uyarlanır.",
+            "whoFor": "Lead vendor veya iç owner + vendor yöneticileri + operasyon lideri.",
+            "steps": [
+              "Vendor listesini ve servis kapsamlarını çıkar; owner/RACI’yi yaz.",
+              "Ticket flow’u standardize et: intake→triage→assign→verify→close.",
+              "Haftalık triage, aylık ops sync, çeyreklik roadmap sync ritmini başlat."
+            ],
+            "checklist": [
+              "Vendor listesi (web/SEO/ads/PMS/CRM) çıkarıldı",
+              "Lead vendor / iç owner (A) belirlendi",
+              "Servis kataloğu + RACI taslağı yazıldı",
+              "Ortak ticketing seçildi ve owner alanı zorunlu yapıldı",
+              "P1–P4 öncelik tanımı ortaklaştırıldı",
+              "War-room protokolü (P1) ve iletişim kanalı belirlendi",
+              "Haftalık triage + aylık sync + çeyreklik roadmap takvimi kondu",
+              "KPI seti belirlendi (MTTR, yanlış yönlendirme, SLA ihlali)"
+            ],
+            "href": "/downloads/cok-ajansli-tedarikcili-bakim-koordinasyon-sablonu-v1.0.pdf",
+            "buttonLabel": "Çok Ajanslı/Tedarikçili Projeler İçin Bakım Koordinasyon Şablonunu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          }
+        ]
+      },
+      {
+        "id": "priorite-ve-catisma-cozumu",
+        "title": "Priorite ve Çatışma Çözümü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoklu vendor ortamında çatışma kaçınılmazdır: herkes kendi işini “acil” görür. Çözüm, önceliği kişisel inisiyatiften çıkarıp veri ve kurala bağlamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Öncelik standardı (P1–P4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "P1: tam kesinti / kritik gelir akışı",
+              "P2: kritik degrade",
+              "P3: workaround’lu hata",
+              "P4: istek/kozmetik"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Çatışma çözüm kuralları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Owner (A) karar verir; vendor’lar C rolünde",
+              "Karar kriteri: iş etkisi + risk + SLA",
+              "Anlaşmazlık escalates: yönetim/steering (aylık sync)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "P1–P4 tanımı tüm vendor’larda aynı mı?",
+              "“Owner karar verir” kuralı kabul edildi mi?",
+              "Çatışma escalates yolu yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Öncelik tanımlarını yazılı hale getir, herkese imzalatır gibi kilitle.",
+              "Owner/A rolünü güçlendir; yoksa kaos geri gelir.",
+              "Çatışmaları “toplantıda bağırma” değil “kriterle karar”a çevir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-multi-vendor-senaryolari",
+        "title": "Otel ve B2B İçin Multi-Vendor Senaryoları",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel zinciri: merkez/otel/ajans üçgeni"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Merkez: marka standartları, raporlama, roadmap",
+              "Otel: operasyon ve kampanya ihtiyaçları, call center",
+              "Ajans/vendor: web, SEO, reklam, PMS/OTA, CRM",
+              "Risk: otel “acil” der, merkez “standard” der, ajans “kapsam dışı” der."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: lead vendor/merkez owner + servis kataloğu + ortak ticketing."
+          },
+          {
+            "type": "h3",
+            "text": "B2B: ürün şirketi + sistem entegratörü + ajans"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün şirketi: roadmap, kalite kapıları, SLA",
+              "Entegratör: altyapı/entegrasyon işleri",
+              "Ajans: frontend/marketing site/analytics",
+              "Risk: entegrasyon sorunu “öteki tarafta” kalır."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çözüm: ortak incident war-room + net RACI + tek ticket."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Otelde merkez ve otel arasındaki onay süreci net mi?",
+              "B2B’de entegrasyon ve web işleri RACI ile ayrılmış mı?",
+              "War-room (P1) protokolü yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel zincirinde “tek owner” ve “tek backlog” kuralı koy.",
+              "B2B’de entegrasyon işlerini ayrı queue ama aynı ticketing içinde tut.",
+              "P1 war-room protokolünü ve iletişim kanalını önceden belirle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competitor-gap-many-partner-ops-modeli",
+        "title": "Competitor Gap’i Kapatan “Many-Partner Ops” Modeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu içerik araç seçimine odaklanır; asıl mesele süreç ve sahipliktir. Bu rehber; lead vendor/owner, ortak ticketing ve sync ritmini “uygulanabilir” şekilde bir araya getirerek çok ajanslı yapılarda hesap verebilir operasyon kurar. “Başkası bozdu” söylemi, yerini kanıt (ticket, log, timeline) ve süreçlere bırakır."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Multi-Vendor Bakım & Koordinasyon Analizi Talep Et",
+            "text": "Projenize uygun lead vendor, ticket akışı ve toplantı ritmini birlikte kuralım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Birden fazla ajans/tedarikçi ile bakım nasıl koordine edilir?",
+        "a": "Tek ticketing sistemi kullanın, her ticket’a owner atayın ve lead vendor/ürün sahibi rolüyle hesap verebilirliği netleştirin. Haftalık triage ve aylık/çeyreklik sync ritmiyle yönetimi sürdürün."
+      },
+      {
+        "q": "Lead vendor/ürün sahibi rolü ne işe yarar?",
+        "a": "Triage, öncelik, cross-vendor incident koordinasyonu ve KPI/SLA raporlamasını yönetir; “kim sorumlu?” belirsizliğini azaltır."
+      },
+      {
+        "q": "Ortak ticketing ve toplantı ritmi nasıl kurulmalı?",
+        "a": "Intake→triage→assign→verify→close akışını tanımlayın. Haftalık triage (30 dk), aylık ops sync (45–60 dk) ve çeyreklik roadmap sync (60–90 dk) ile ritmi sabitleyin."
+      },
+      {
+        "q": "Otel ve B2B projelerinde multi-vendor bakım modeli nasıl olmalı?",
+        "a": "Otelde merkez/otel/ajans üçgeninde tek owner ve servis kataloğu şarttır. B2B’de ürün şirketi+entegratör+ajans modelinde ortak ticketing ve war-room protokolü kritik rol oynar."
+      },
+      {
+        "q": "“Başkasının bozduğu” tartışmasını nasıl bitiririz?",
+        "a": "Ticket, log ve timeline kanıtını standardize edin; owner ve RACI ile sorumluluğu yazın. Postmortem ve KPI raporlarıyla süreçteki boşlukları kapatın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-hero-01.webp — alt text: “Multi-vendor bakım koordinasyonu, amaç net sahiplik, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-h1-context-02.webp — alt text: “Lead vendor modeli, amaç tek komuta, operasyon bağlamı”",
+          "divider-01 — 1600×1200 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-divider-03.webp — alt text: “Roller ve sınırlar bölümü, amaç kapsam netliği, ekip bağlamı”",
+          "divider-02 — 1600×1200 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-divider-04.webp — alt text: “Ticketing ve ritim bölümü, amaç düzenli koordinasyon, ops bağlamı”",
+          "diagram-05 — 1920×1080 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-diagram-05.webp — alt text: “Müşteri→lead vendor→vendor akışı, amaç koordinasyon, otel ve B2B bağlamı”",
+          "checklist-06 — 1200×1200 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-checklist-06.webp — alt text: “Multi-vendor bakım checklist kartı, amaç hızlı kurulum, ekip bağlamı”",
+          "kpi-07 — 1200×1200 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-kpi-07.webp — alt text: “Koordinasyon KPI paneli, amaç MTTR ve yanlış yönlendirme, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu-proof-08.webp — alt text: “Multi-vendor deliverables seti, amaç şeffaf bakım, otel ve B2B bağlamı”",
+          "table-vendor-responsibility-communication — Sorumluluk ve iletişim kanalları tablosu (vendor, rol, owner, kanal, SLA)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "Vendor listesi ve servis kapsamları çıkarıldı",
+          "Lead vendor / iç owner (A) net olarak tanımlandı",
+          "Servis kataloğu + RACI dokümanı oluşturuldu",
+          "Ortak ticketing ve tek backlog yapısı tanımlandı",
+          "Her ticket için owner alanı zorunlu",
+          "P1–P4 öncelik tanımları tüm vendor’larda ortaklaştırıldı",
+          "P1 war-room protokolü ve iletişim kanalı tanımlandı",
+          "Haftalık triage, aylık ops sync ve çeyreklik roadmap sync ritmi tanımlandı",
+          "MTTR, yanlış yönlendirilen ticket, SLA ihlali ve eskalasyon sayısı KPI’ları izleniyor",
+          "Cross-vendor incident ve çatışma eskalasyon yolu yazılı",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Media dosya adları ve alt text’ler eşleşiyor"
         ]

@@ -546,7 +546,10 @@ export const BLOG_MAP = {
     "musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek":"BlogMusteriGeriBildirimleriniBakimBacklogunaDonusturmek",
     "bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi":"BlogBakimModelleriOutsourcingVsIcEkipAvantajVeDezavantajAnalizi",
     "legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi":"BlogLegacyWebProjesiDevralmaRehberiIlk90GunBakimStratejisi",
-    "dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek":"BlogDijitalServisKataloguBakimVeDestekKapsaminiNetlestirmek"
+    "dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek":"BlogDijitalServisKataloguBakimVeDestekKapsaminiNetlestirmek",
+    "bakim-kpi-lari-ve-site-saglik-dashboard-u":"BlogBakimKpilariVeSiteSaglikDashboardu",
+    "on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi":"BlogOnCallModeliVeNobetPlanlamaBakimEkibiIcinCalismaSaatleriDengesi",
+    "cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu":"BlogCokAjansliVeCokTedarikciliOrtamlardaBakimKoordinasyonu"
   },
    
   creative: {

@@ -48420,6 +48420,157 @@ export const BLOG_MEDIA_MAP = {
       alt: "Servis kataloğu deliverables, amaç kapsam ve SLA netliği, otel ve B2B bağlamı",
       caption: "Servis kataloğu deliverables, amaç kapsam ve SLA netliği, otel ve B2B bağlamı"
     }
+  },
+
+  "bakim-kpi-lari-ve-site-saglik-dashboard-u":{
+     banner: {
+      src: "/images/blog/software/Software5-18/Software5-18-1.webp",
+      alt: "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+      caption: "Bakım KPI’ları ve Site Sağlık Dashboard’u"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-18/Software5-18-2.webp",
+      alt: "Health score modeli, amaç tek bakışta sağlık, yönetim bağlamı",
+      caption: "Health score modeli, amaç tek bakışta sağlık, yönetim bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-18/Software5-18-3.webp",
+    alt: "KPI grupları bölümü, amaç metrik seti, teknik ekip bağlamı",
+      caption: "KPI grupları bölümü, amaç metrik seti, teknik ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-18/Software5-18-4.webp",
+      alt: "Health score kurgusu bölümü, amaç puanlama modeli, iş ve teknik bağlamı",
+      caption: "Health score kurgusu bölümü, amaç puanlama modeli, iş ve teknik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-18/Software5-18-5.webp",
+      alt: "KPI→health score akışı, amaç ölçülebilir sağlık, otel ve B2B bağlamı",
+      caption: "KPI→health score akışı, amaç ölçülebilir sağlık, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-18/Software5-18-6.webp",
+      alt: "Site sağlık dashboard checklist, amaç hızlı kurulum, ekip bağlamı",
+      caption: "Site sağlık dashboard checklist, amaç hızlı kurulum, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-18/Software5-18-7.webp",
+      alt: "Dashboard KPI kartları mockup, amaç bakım değerini göstermek, yönetim bağlamı",
+      caption: "Dashboard KPI kartları mockup, amaç bakım değerini göstermek, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-18/Software5-18-8.webp",
+      alt: "Dashboard deliverables seti, amaç ölçülebilir bakım, otel ve B2B bağlamı",
+      caption: "Dashboard deliverables seti, amaç ölçülebilir bakım, otel ve B2B bağlamı"
+    }
+  },
+
+  "on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi":{
+      banner: {
+      src: "/images/blog/software/Software5-19/Software5-19-1.webp",
+      alt: "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi",
+      caption: "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-19/Software5-19-2.webp",
+      alt: "Pencere ve eskalasyon kurgusu, amaç tükenmeden ops, ekip bağlamı",
+      caption: "Pencere ve eskalasyon kurgusu, amaç tükenmeden ops, ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-19/Software5-19-3.webp",
+    alt: "Nöbet planlama bölümü, amaç adil rota, ekip bağlamı",
+      caption: "Nöbet planlama bölümü, amaç adil rota, ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-19/Software5-19-4.webp",
+      alt: "L1-L3 seviye modeli, amaç doğru eskalasyon, teknik ekip bağlamı",
+      caption: "L1-L3 seviye modeli, amaç doğru eskalasyon, teknik ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-19/Software5-19-5.webp",
+      alt: "On-call rota diyagramı, amaç sürdürülebilir vardiya, otel ve B2B bağlamı",
+      caption: "On-call rota diyagramı, amaç sürdürülebilir vardiya, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-19/Software5-19-6.webp",
+      alt: "On-call checklist kartı, amaç hızlı kurulum, ops ekibi bağlamı",
+      caption: "On-call checklist kartı, amaç hızlı kurulum, ops ekibi bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-19/Software5-19-7.webp",
+      alt: "On-call KPI paneli, amaç MTTR ve alarm gürültüsü, yönetim bağlamı",
+      caption: "On-call KPI paneli, amaç MTTR ve alarm gürültüsü, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-19/Software5-19-8.webp",
+      alt: "On-call deliverables seti, amaç sürdürülebilir operasyon, otel ve B2B bağlamı",
+      caption: "On-call deliverables seti, amaç sürdürülebilir operasyon, otel ve B2B bağlamı"
+    }
+  },
+
+
+  "cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu":{
+      banner: {
+      src: "/images/blog/software/Software5-20/Software5-20-1.webp",
+      alt: "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu",
+      caption: "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-20/Software5-20-2.webp",
+      alt: "Lead vendor modeli, amaç tek komuta, operasyon bağlamı",
+      caption: "Lead vendor modeli, amaç tek komuta, operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-20/Software5-20-3.webp",
+    alt: "Roller ve sınırlar bölümü, amaç kapsam netliği, ekip bağlamı",
+      caption: "Roller ve sınırlar bölümü, amaç kapsam netliği, ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-20/Software5-20-4.webp",
+      alt: "Ticketing ve ritim bölümü, amaç düzenli koordinasyon, ops bağlamı",
+      caption: "Ticketing ve ritim bölümü, amaç düzenli koordinasyon, ops bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-20/Software5-20-5.webp",
+      alt: "Müşteri→lead vendor→vendor akışı, amaç koordinasyon, otel ve B2B bağlamı",
+      caption: "Müşteri→lead vendor→vendor akışı, amaç koordinasyon, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-20/Software5-20-6.webp",
+      alt: "Multi-vendor bakım checklist kartı, amaç hızlı kurulum, ekip bağlamı",
+      caption: "Multi-vendor bakım checklist kartı, amaç hızlı kurulum, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-20/Software5-20-7.webp",
+      alt: "Koordinasyon KPI paneli, amaç MTTR ve yanlış yönlendirme, yönetim bağlamı",
+      caption: "Koordinasyon KPI paneli, amaç MTTR ve yanlış yönlendirme, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-20/Software5-20-8.webp",
+      alt: "Multi-vendor deliverables seti, amaç şeffaf bakım, otel ve B2B bağlamı",
+      caption: "Multi-vendor deliverables seti, amaç şeffaf bakım, otel ve B2B bağlamı"
+    }
   }
   
 };
