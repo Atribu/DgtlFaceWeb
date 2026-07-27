@@ -47918,7 +47918,509 @@ export const BLOG_MEDIA_MAP = {
       alt: "Release yönetimi deliverables, amaç güven, tedarikçi-müşteri bağlamı",
       caption: "Release yönetimi deliverables, amaç güven, tedarikçi-müşteri bağlamı"
     }
-  }    
+  },
+  
+   "dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek":{
+    banner: {
+      src: "/images/blog/software/Software5-8/Software5-8-1.webp",
+      alt: "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek",
+      caption: "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-8/Software5-8-2.webp",
+      alt: "Bus-factor azaltma modeli, amaç kişiden bağımsız bakım, operasyon bağlamı",
+      caption: "Bus-factor azaltma modeli, amaç kişiden bağımsız bakım, operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-8/Software5-8-3.webp",
+    alt: "Runbook yapısı şeması, amaç adım adım müdahale, on-call bağlamı",
+      caption: "Runbook yapısı şeması, amaç adım adım müdahale, on-call bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-8/Software5-8-4.webp",
+      alt: "Doküman sahipliği ve review süreci, amaç güncel kalma, ekip bağlamı",
+      caption: "Doküman sahipliği ve review süreci, amaç güncel kalma, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-8/Software5-8-5.webp",
+      alt: "Runbook sayfa akışı, amaç hızlı müdahale, incident bağlamı",
+      caption: "Runbook sayfa akışı, amaç hızlı müdahale, incident bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-8/Software5-8-6.webp",
+      alt: "Dokümantasyon checklist kartı, amaç hızlı başlangıç, otel ve B2B ekip bağlamı",
+      caption: "Dokümantasyon checklist kartı, amaç hızlı başlangıç, otel ve B2B ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-8/Software5-8-7.webp",
+      alt: "Runbook KPI paneli, amaç müdahale süresi takibi, operasyon bağlamı",
+      caption: "Runbook KPI paneli, amaç müdahale süresi takibi, operasyon bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-8/Software5-8-8.webp",
+      alt: "Doküman seti deliverables, amaç süreç hafızası, otel ve B2B bağlamı",
+      caption: "Doküman seti deliverables, amaç süreç hafızası, otel ve B2B bağlamı"
+    }
+  },
+  
+  
+  "stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi":{
+    banner: {
+      src: "/images/blog/software/Software5-9/Software5-9-1.webp",
+      alt: "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek",
+      caption: "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-9/Software5-9-2.webp",
+      alt: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı",
+      caption: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-9/Software5-9-3.webp",
+    alt: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı",
+      caption: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-9/Software5-9-4.webp",
+      alt: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı",
+      caption: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-9/Software5-9-5.webp",
+      alt: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı",
+      caption: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-9/Software5-9-6.webp",
+      alt: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı",
+      caption: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-9/Software5-9-7.webp",
+      alt: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı",
+      caption: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-9/Software5-9-8.webp",
+      alt: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı",
+      caption: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı"
+    }
+  },
+
+  "teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir":{
+    banner: {
+      src: "/images/blog/software/Software5-10/Software5-10-1.webp",
+      alt: "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?",
+      caption: "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-10/Software5-10-2.webp",
+      alt: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı",
+      caption: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-10/Software5-10-3.webp",
+    alt: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı",
+      caption: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-10/Software5-10-4.webp",
+      alt: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı",
+      caption: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-10/Software5-10-5.webp",
+      alt: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı",
+      caption: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-10/Software5-10-6.webp",
+      alt: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı",
+      caption: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-10/Software5-10-7.webp",
+      alt: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı",
+      caption: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-10/Software5-10-8.webp",
+      alt: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı",
+      caption: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı"
+    }
+  },
+
+  "bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak":{
+    banner: {
+      src: "/images/blog/software/Software5-11/Software5-11-1.webp",
+      alt: "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?",
+      caption: "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-11/Software5-11-2.webp",
+      alt: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı",
+      caption: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-11/Software5-11-3.webp",
+    alt: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı",
+      caption: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-11/Software5-11-4.webp",
+      alt: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı",
+      caption: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-11/Software5-11-5.webp",
+      alt: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı",
+      caption: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-11/Software5-11-6.webp",
+      alt: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı",
+      caption: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-11/Software5-11-7.webp",
+      alt: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı",
+      caption: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-11/Software5-11-8.webp",
+      alt: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı",
+      caption: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı"
+    }
+  },
+
+  "coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli":{
+    banner: {
+      src: "/images/blog/software/Software5-12/Software5-12-1.webp",
+      alt: "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?",
+      caption: "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-12/Software5-12-2.webp",
+      alt: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı",
+      caption: "Stakeholder iletişim modeli, amaç beklenti yönetimi, yönetim ve ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-12/Software5-12-3.webp",
+    alt: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı",
+      caption: "Release notes şablonu şeması, amaç hızlı okuma, iş tarafı bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-12/Software5-12-4.webp",
+      alt: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı",
+      caption: "Status page ve dashboard bölümü, amaç görünürlük, operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-12/Software5-12-5.webp",
+      alt: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı",
+      caption: "Stakeholder iletişim kanalları diyagramı, amaç doğru kanala mesaj, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-12/Software5-12-6.webp",
+      alt: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı",
+      caption: "Bakım raporlama checklist kartı, amaç hızlı uygulama, iş ve teknik bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-12/Software5-12-7.webp",
+      alt: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı",
+      caption: "Bakım KPI paneli, amaç etkiyi göstermek, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-12/Software5-12-8.webp",
+      alt: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı",
+      caption: "Release notes deliverables seti, amaç şeffaflık, otel ve B2B bağlamı"
+    }
+  },
+
+  "performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz":{
+    banner: {
+      src: "/images/blog/software/Software5-13/Software5-13-1.webp",
+      alt: "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?",
+      caption: "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-13/Software5-13-2.webp",
+      alt: "Eski-yeni sürüm kıyas modeli, amaç veriyle karar, ekip bağlamı",
+      caption: "Eski-yeni sürüm kıyas modeli, amaç veriyle karar, ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-13/Software5-13-3.webp",
+    alt: "Metrikler ve eşikler, amaç ölçüm standardı, teknik ekip bağlamı",
+      caption: "Metrikler ve eşikler, amaç ölçüm standardı, teknik ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-13/Software5-13-4.webp",
+      alt: "Load/stress test bölümü, amaç kapasite doğrulama, otel ve B2B bağlam",
+      caption: "Load/stress test bölümü, amaç kapasite doğrulama, otel ve B2B bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-13/Software5-13-5.webp",
+      alt: "Kritik akış performans kıyas akışı, amaç regresyon yakalama, ekip bağlamı",
+      caption: "Kritik akış performans kıyas akışı, amaç regresyon yakalama, ekip bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-13/Software5-13-6.webp",
+      alt: "Performans regresyon checklist kartı, amaç release gate, teknik ekip bağlamı”",
+      caption: "Performans regresyon checklist kartı, amaç release gate, teknik ekip bağlamı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-13/Software5-13-7.webp",
+      alt: "Regresyon KPI paneli, amaç trend takibi, yönetim bağlamı",
+      caption: "Regresyon KPI paneli, amaç trend takibi, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-13/Software5-13-8.webp",
+      alt: "Test planı deliverables, amaç perf-safe release, ekip bağlamı",
+      caption: "Test planı deliverables, amaç perf-safe release, ekip bağlamı"
+    }
+  },
+
+  "musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek":{
+    banner: {
+      src: "/images/blog/software/Software5-14/Software5-14-1.webp",
+      alt: "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?",
+      caption: "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-14/Software5-14-2.webp",
+      alt: "Sınıflandırma akışı, amaç karar standardı, ekip bağlamı",
+      caption: "Sınıflandırma akışı, amaç karar standardı, ekip bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-14/Software5-14-3.webp",
+    alt: "Feedback kaynakları bölümü, amaç kanal birleştirme, otel ve B2B bağlamı",
+      caption: "Feedback kaynakları bölümü, amaç kanal birleştirme, otel ve B2B bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-14/Software5-14-4.webp",
+      alt: "Önceliklendirme bölümü, amaç etki-sıklık, ürün ve teknik bağlamı",
+      caption: "Önceliklendirme bölümü, amaç etki-sıklık, ürün ve teknik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-14/Software5-14-5.webp",
+      alt: "Feedback→sınıflandırma→backlog akışı, amaç sistematik triage, ekip bağlamı",
+      caption: "Feedback→sınıflandırma→backlog akışı, amaç sistematik triage, ekip bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-14/Software5-14-6.webp",
+      alt: "Feedbackten bakıma checklist kartı, amaç hızlı uygulama, ekip bağlamı",
+      caption: "Feedbackten bakıma checklist kartı, amaç hızlı uygulama, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-14/Software5-14-7.webp",
+      alt: "Şikâyet trend KPI paneli, amaç iyileşmeyi görmek, yönetim bağlamı",
+      caption: "Şikâyet trend KPI paneli, amaç iyileşmeyi görmek, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-14/Software5-14-8.webp",
+      alt: "Feedback deliverables seti, amaç müşteri odaklı bakım, otel ve B2B bağlamı",
+      caption: "Feedback deliverables seti, amaç müşteri odaklı bakım, otel ve B2B bağlamı"
+    }
+  },
+
+  "bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi":{
+     banner: {
+      src: "/images/blog/software/Software5-15/Software5-15-1.webp",
+      alt: "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi",
+      caption: "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-15/Software5-15-2.webp",
+      alt: "Maliyet-hız-bilgi dengesi, amaç karar netliği, yönetim bağlamı",
+      caption: "Maliyet-hız-bilgi dengesi, amaç karar netliği, yönetim bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-15/Software5-15-3.webp",
+    alt: "Model seçenekleri bölümü, amaç organize bakım, ekip bağlamı",
+      caption: "Model seçenekleri bölümü, amaç organize bakım, ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-15/Software5-15-4.webp",
+      alt: "Geçiş planı bölümü, amaç outsource’tan iç ekibe geçiş, operasyon bağlamı",
+      caption: "Geçiş planı bölümü, amaç outsource’tan iç ekibe geçiş, operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-15/Software5-15-5.webp",
+      alt: "Karar ağacı diyagramı, amaç model seçimi, otel ve B2B bağlamı",
+      caption: "Karar ağacı diyagramı, amaç model seçimi, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-15/Software5-15-6.webp",
+      alt: "Bakım modeli checklist kartı, amaç hızlı değerlendirme, yönetici bağlamı",
+      caption: "Bakım modeli checklist kartı, amaç hızlı değerlendirme, yönetici bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-15/Software5-15-7.webp",
+      alt: "Sourcing KPI paneli, amaç hız ve çatışma azaltma, yönetim bağlamı",
+      caption: "Sourcing KPI paneli, amaç hız ve çatışma azaltma, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-15/Software5-15-8.webp",
+      alt: "Bakım modeli deliverables, amaç sürdürülebilir operasyon, otel ve B2B bağlamı",
+      caption: "Bakım modeli deliverables, amaç sürdürülebilir operasyon, otel ve B2B bağlamı"
+    }
+  },
+
+  "legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi":{
+    banner: {
+      src: "/images/blog/software/Software5-16/Software5-16-1.webp",
+      alt: "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi",
+      caption: "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-16/Software5-16-2.webp",
+      alt: "Envanter ve erişim bölümü, amaç hızlı başlangıç, ajans bağlamı",
+      caption: "Envanter ve erişim bölümü, amaç hızlı başlangıç, ajans bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-16/Software5-16-3.webp",
+    alt: "Model seçenekleri bölümü, amaç organize bakım, ekip bağlamı",
+      caption: "Model seçenekleri bölümü, amaç organize bakım, ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-16/Software5-16-4.webp",
+      alt: "Quick win ve big rock ayrımı, amaç doğru öncelik, bakım bağlamı",
+      caption: "Quick win ve big rock ayrımı, amaç doğru öncelik, bakım bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-16/Software5-16-5.webp",
+      alt: "90 gün faz planı diyagramı, amaç zaman çizelgesi, otel ve B2B bağlamı",
+      caption: "90 gün faz planı diyagramı, amaç zaman çizelgesi, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-16/Software5-16-6.webp",
+      alt: "Legacy devralma checklist kartı, amaç hızlı uygulama, ajans ve işletme bağlamı",
+      caption: "Legacy devralma checklist kartı, amaç hızlı uygulama, ajans ve işletme bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-16/Software5-16-7.webp",
+      alt: "Devralma KPI paneli, amaç risk ve hız takibi, yönetim bağlamı",
+      caption: "Devralma KPI paneli, amaç risk ve hız takibi, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-16/Software5-16-8.webp",
+      alt: "İlk 90 gün deliverables, amaç sürdürülebilir bakım, otel ve B2B bağlamı",
+      caption: "İlk 90 gün deliverables, amaç sürdürülebilir bakım, otel ve B2B bağlamı"
+    }
+  },
+
+
+  "dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek":{
+    banner: {
+      src: "/images/blog/software/Software5-17/Software5-17-1.webp",
+      alt: "Dijital Servis Kataloğu: Bakım ve Destek Kapsamını Netleştirmek",
+      caption: "Dijital Servis Kataloğu: Bakım ve Destek Kapsamını Netleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-17/Software5-17-2.webp",
+      alt: "Scope ve RACI modeli, amaç sahiplik netliği, iş ve teknik bağlamı",
+      caption: "Scope ve RACI modeli, amaç sahiplik netliği, iş ve teknik bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-17/Software5-17-3.webp",
+    alt: "Servis listesi bölümü, amaç kapsam haritalama, otel ve B2B bağlamı",
+      caption: "Servis listesi bölümü, amaç kapsam haritalama, otel ve B2B bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-17/Software5-17-4.webp",
+      alt: "RACI matrisi bölümü, amaç sorumluluk netliği, ekip bağlamı",
+      caption: "RACI matrisi bölümü, amaç sorumluluk netliği, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-17/Software5-17-5.webp",
+      alt: "Servis bağımlılık ağı, amaç incident triage, operasyon bağlamı",
+      caption: "Servis bağımlılık ağı, amaç incident triage, operasyon bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-17/Software5-17-6.webp",
+      alt: "Bakım kapsamı checklist kartı, amaç hızlı standardizasyon, yönetim bağlamı",
+      caption: "Bakım kapsamı checklist kartı, amaç hızlı standardizasyon, yönetim bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-17/Software5-17-7.webp",
+      alt: "Ticket yanlış yönlendirme KPI paneli, amaç çatışma azaltma, yönetim bağlamı",
+      caption: "Ticket yanlış yönlendirme KPI paneli, amaç çatışma azaltma, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-17/Software5-17-8.webp",
+      alt: "Servis kataloğu deliverables, amaç kapsam ve SLA netliği, otel ve B2B bağlamı",
+      caption: "Servis kataloğu deliverables, amaç kapsam ve SLA netliği, otel ve B2B bağlamı"
+    }
+  }
   
 };
 

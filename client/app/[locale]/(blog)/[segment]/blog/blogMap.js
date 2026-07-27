@@ -536,7 +536,17 @@ export const BLOG_MAP = {
     "yapay-zeka-botlari-chatbot-ve-voicebotlar-icin-kvkk-uyumlu-tasarim":"BlogYapayZekaBotlariChatbotVeVoicebotlarIcinKvkkUyumluTasarim",
 
     "ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak":"BlogTicketingVeHelpdeskMimarisiBakimSureciniStandartlastirmak",
-    "change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik":"BlogChangeManagementVeReleaseTakvimiKucukDuzeltmeVsBuyukDegisiklik"
+    "change-management-ve-release-takvimi-kucuk-duzeltme-vs-buyuk-degisiklik":"BlogChangeManagementVeReleaseTakvimiKucukDuzeltmeVsBuyukDegisiklik",
+    "dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek":"BlogDokumantasyonVeRunbookWebProjelerindeBilgiKaybiniOnlemek",
+    "stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi":"BlogStakeholderIletisimiVeReleaseNotesIsTarafiylaSaglikliBakimRaporlamasi",
+    "teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir":"BlogTeknikBorcKaydiTechnicalDebtRegisterBakimSprintlerineNasilEntegreEdilir",
+    "bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak":"BlogBakimRoadmapiVeUrunRoadmapiniHizalamak",
+    "coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli":"BlogCokluOrtamYonetimiDevTestStagingVeProdIcinBakimModeli",
+    "performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz":"BlogPerformansRegresyonTestleriYeniSurumdeYavaslamayiNasilYakalariz",
+    "musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek":"BlogMusteriGeriBildirimleriniBakimBacklogunaDonusturmek",
+    "bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi":"BlogBakimModelleriOutsourcingVsIcEkipAvantajVeDezavantajAnalizi",
+    "legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi":"BlogLegacyWebProjesiDevralmaRehberiIlk90GunBakimStratejisi",
+    "dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek":"BlogDijitalServisKataloguBakimVeDestekKapsaminiNetlestirmek"
   },
    
   creative: {

@@ -177074,8 +177074,2177 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
-}
+},
 
+"dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek",
+
+      "headline": "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek",
+
+      "name": "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek",
+
+      "description": "Web projelerinde bilgi kaybını önleyin: doküman envanteri, runbook şablonu, on-call/incident adımları, sahiplik ve periyodik review ile bakım süreçlerini kişiden bağımsızlaştırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Documentation",
+
+        "Runbooks",
+
+        "Knowledge Retention",
+
+        "On-Call Playbooks"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek#howto",
+
+      "name": "Dokümantasyon Envanteri ve Runbook ile Bilgi Kaybını Azaltma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Doküman envanteri oluştur",
+
+          "text": "Mimari, setup, deploy/rollback, runbook ve SSS dokümanlarını listeleyin; owner, last-updated ve review cycle alanlarını ekleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Runbook şablonunu standardize et",
+
+          "text": "Amaç→Adımlar→Doğrulama formatında runbook yazın; en sık 10 incident için sayfaları oluşturun ve on-call ekibe öğretin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Review ve versiyonlama döngüsünü işlet",
+
+          "text": "Periyodik review takvimi kurun; major değişiklik ve postmortem sonrası dokümanları güncelleyip bakım sürecine entegre edin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek", "item": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Runbook nedir, dokümantasyondan farkı nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Runbook, incident anında adım adım yapılacak işlemleri ve doğrulama kriterlerini içeren operasyon rehberidir. Dokümantasyon sistemi anlatır; runbook ise anlık müdahaleyi yönlendirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi doküman türlerine ihtiyacım var?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum set; mimari overview, setup, deploy/rollback, runbook ve SSS/operasyon notlarıdır. Risk arttıkça entegrasyon kataloğu ve güvenlik/KVKK runbook’ları eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dokümantasyonun güncel kalmasını nasıl sağlarız?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her dokümana owner, last-updated ve review cycle ekleyin. Major değişiklik ve postmortem sonrası doküman güncellemesini Done kriterine bağlayın ve periyodik review ritmi işletin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sistemi sadece bir kişi biliyor, bu riski nasıl azaltırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doküman envanteri çıkarın, en sık 10 incident için runbook yazın ve setup/deploy adımlarını standartlaştırın. Owner ve review takvimiyle bilgiyi sisteme bağlayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi",
+
+      "headline": "Stakeholder İletişimi ve Release Notes: İş Tarafıyla Sağlıklı Bakım Raporlaması",
+
+      "name": "Stakeholder İletişimi ve Release Notes: İş Tarafıyla Sağlıklı Bakım Raporlaması",
+
+      "description": "İş tarafına bakım ve değişiklikleri şeffaf anlatın: release notes şablonu, kitle bazlı özetler, status page & dashboard kurgusu ve düzenli durum raporlarıyla güveni artırın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Stakeholder Communication",
+
+        "Release Notes",
+
+        "Status Page",
+
+        "Maintenance Reporting"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi#howto",
+
+      "name": "Release Notes ve Bakım Raporlaması Nasıl Kurulur?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kitleyi ve mesaj seviyesini belirle",
+
+          "text": "GM/owner, pazarlama, rezervasyon ve IT gibi paydaşları ayırın; her rol için etki ve detay seviyesini tanımlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Release notes şablonunu standartlaştır",
+
+          "text": "Ne değişti, neden önemli, kim etkilenir, ne zaman, risk/rollback ve doğrulama KPI’ları başlıklarıyla kısa release notes yayınlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Durum raporu, status page ve dashboard’u bağla",
+
+          "text": "Haftalık özet ve aylık KPI raporu ritmi kurun; status page ve dashboard’u tek kaynak yapıp release notes’lara referans verin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Stakeholder İletişimi ve Release Notes: İş Tarafıyla Sağlıklı Bakım Raporlaması", "item": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Release notes nasıl yazılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Release notes; ne değişti, neden önemli, kim etkilenir, ne zaman yayınlandı, risk/rollback ve doğrulama KPI’ları başlıklarıyla kısa yazılmalıdır. Teknik detaylar ayrı bölümde verilebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım ve değişiklikleri iş tarafına nasıl raporlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Haftalık kısa durum özeti ve aylık KPI raporu ritmi kurun. Her raporda iş etkisini sade dille anlatın ve release notes’a referans verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde stakeholder iletişimi için hangi formatlar işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde sezon öncesi/sonrası özetler ve rezervasyon akışı odaklı notlar; B2B’de çeyreklik bülten ve değişiklik etkisi duyuruları işe yarar. Tümünde standart release notes şablonu kullanılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Status page ve dashboard’lar nasıl yapılandırılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Status page servis durumu, incident güncellemeleri ve planlı bakım duyurularını toplamalıdır. Dashboard ise 3–5 KPI ile trend gösterip release notes’a referans vermelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/stakeholder-iletisimi-ve-release-notes-is-tarafiyla-saglikli-bakim-raporlamasi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir",
+
+      "headline": "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?",
+
+      "name": "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?",
+
+      "description": "Technical debt register ile borcu görünür kılın: etki×efor önceliklendirin, her sprint’te kapasite ayırın, roadmap’e bağlayın. Otel ve B2B için örnek kalemler içerir.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Technical Debt",
+
+        "Debt Register",
+
+        "Impact/Effort Matrix",
+
+        "Maintenance Sprints"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir#howto",
+
+      "name": "Technical Debt Register ile Bakım Sprint’lerine Entegrasyon",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Borcu kayıt altına al",
+
+          "text": "Debt register oluşturun; her kalem için kategori, kanıt, impact/effort, owner ve hedef sprint alanlarını doldurun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Impact/effort ile önceliklendir",
+
+          "text": "Kalemleri etki ve efora göre puanlayın; quick win’leri önceleyin ve büyük borçları parçalara bölün."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sprint kapasitesi ve roadmap’e bağla",
+
+          "text": "Her sprint’te sabit kapasiteyi borç azaltmaya ayırın; kapanan kalemleri raporlayın ve büyük kalemleri roadmap’te planlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Teknik Borç Kaydı (Technical Debt Register): Bakım Sprint’lerine Nasıl Entegre Edilir?", "item": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teknik borç nedir, nasıl tespit edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Teknik borç, gelecekteki değişiklik maliyetini artıran ve riski yükselten birikimdir. Tekrar eden bug’lar, kırılgan modüller, eski bağımlılıklar ve performans/SEO regresyonları tespit sinyalleridir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Technical debt register nasıl tutulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her kalem için başlık, kategori, kanıt, impact/effort puanı, öncelik, durum, owner ve hedef sprint alanlarını tutun. Owner ve kapanış kriteri olmayan kalemleri kayıt altına almayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Borçları nasıl önceliklendirip bakım sprint’lerine dahil ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Impact/effort matrisiyle hızlı kazanımları seçin ve her sprint’te sabit bir kapasiteyi borca ayırın. Büyük kalemleri parçalara bölüp roadmap’te planlayın ve kapananları raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projeleri için örnek teknik borç kalemleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde rezervasyon/arama ve PMS/OTA entegrasyon borçları; B2B’de API, raporlama pipeline ve portal UI borçları öne çıkar. Güvenlik ve SEO/perf borçlarını ayrı etiketlemek etkilidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/teknik-borc-kaydi-technical-debt-register-bakim-sprintlerine-nasil-entegre-edilir#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak",
+
+      "headline": "Bakım Roadmap’i ve Ürün Roadmap’ini Hizalamak",
+
+      "name": "Bakım Roadmap’i ve Ürün Roadmap’ini Hizalamak",
+
+      "description": "Bakım işleri roadmap’te görünmezse teknik borç büyür. Feature vs maintenance kapasitesini yüzdeyle planlayın, sezon/çeyrek blokları ekleyin ve yönetimle beklentiyi raporlayın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Maintenance Roadmap",
+
+        "Product Roadmap",
+
+        "Capacity Planning",
+
+        "Feature vs Maintenance"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak#howto",
+
+      "name": "Bakım ve Ürün Roadmap’ini Nasıl Hizalarsınız?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tek backlog ve iki lane kur",
+
+          "text": "Feature ve maintenance işlerini aynı backlog’ta etiketleyin; iki lane olarak roadmap’te görünür hale getirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kapasite yüzdesini belirle ve blokları planla",
+
+          "text": "Feature vs maintenance kapasitesini yüzdeyle sabitleyin; otelde sezon blokları, B2B’de çeyreklik bakım paketlerini timeline’a ekleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "KPI ile raporla ve yönetimle kalibre et",
+
+          "text": "Incident, hız, CWV ve dönüşüm KPI’larıyla bakım değerini raporlayın; 90 günde bir kapasite yüzdelerini güncelleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Bakım Roadmap’i ve Ürün Roadmap’ini Hizalamak", "item": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım roadmap’i nedir, ürün roadmap’inden farkı nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Ürün roadmap’i yeni özellikleri; bakım roadmap’i sürdürülebilirlik ve risk azaltma işlerini planlar. Bakımın çıktısı stabilite ve hızdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Feature vs bakım kapasitesini nasıl dengelemeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kapasiteyi yüzdeyle sabitleyin (örn. %70 feature / %30 bakım) ve incident/hız KPI’larıyla 90 günde bir kalibre edin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde yıllık bakım yol haritası nasıl hazırlanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde sezon öncesi bakım bloğu, sezon ortası düşük risk bakım, sezon sonrası büyük iyileştirme penceresi planlanır. B2B’de çeyreklik bakım paketleri ve düzenli minor bakım ritmi önerilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yönetimle bakım işlerini nasıl konuşmalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Bakımı risk, gelir ve hız diliyle anlatın; KPI trendini gösterin ve kapasite yüzdesini kural olarak onaylatıp düzenli raporlayın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli",
+
+      "headline": "Çoklu Ortam Yönetimi: Dev, Test, Staging ve Prod İçin Bakım Modeli",
+
+      "name": "Çoklu Ortam Yönetimi: Dev, Test, Staging ve Prod İçin Bakım Modeli",
+
+      "description": "Yanlış ortamda yanlış işlem riskini azaltın: dev/test/staging/prod kuralları, change akışı, konfigürasyon–versiyon uyumu ve otel/B2B için örnek ortam mimarisi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Environment Management",
+
+        "Dev/Test/Staging/Prod",
+
+        "Config Consistency",
+
+        "Change Flow"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli#howto",
+
+      "name": "Dev/Test/Staging/Prod ile Güvenli Bakım ve Change Akışı",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ortam rollerini ve kuralları tanımla",
+
+          "text": "Dev/test/staging/prod rollerini yazılı hale getirin; yapılacaklar/kaçınılacaklar ve yetki matrisini belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Staging gate ve parite kontrollerini kur",
+
+          "text": "Prod’a çıkış için staging’de smoke ve kritik akış testlerini zorunlu kılın; konfigürasyon ve versiyon paritesini kontrol edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Prod’da kontrollü yayın ve doğrulama yap",
+
+          "text": "Prod’da yalnız onaylı change türlerini yayınlayın; post-release kontrol penceresinde KPI’ları izleyip gerekirse rollback uygulayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çoklu Ortam Yönetimi: Dev, Test, Staging ve Prod İçin Bakım Modeli", "item": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dev, test, staging ve prod ortamları arasındaki fark nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Dev deneme/geliştirme içindir, test doğrulama içindir, staging prod’a en yakın prova ortamıdır, prod ise kontrollü değişikliklerin yayımlandığı canlı ortamdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi değişiklik hangi ortamda test edilmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Deneysel işler dev’de, otomasyon/manual doğrulama test’te, prod’a yakın senaryolar staging’de yapılmalıdır. Prod’da yalnız onaylı değişiklikler yayınlanır ve post-release kontrol yapılır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde çoklu ortam mimarisi nasıl olmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "4 ortam kurgusu korunmalı; staging prod’a yakın olmalı ve kritik akışlar (otel: rezervasyon+PMS/OTA, B2B: API+portal+ödeme) staging’de uçtan uca doğrulanmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ortamlarda konfig ve versiyon uyumunu nasıl korurum?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Versiyon/parite kuralları, config diff kontrolleri ve IaC ile drift’i azaltın. Staging’de cache/CDN ve dış servis davranışlarını prod’a yaklaştırın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/coklu-ortam-yonetimi-dev-test-staging-ve-prod-icin-bakim-modeli#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz",
+
+      "headline": "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?",
+
+      "name": "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?",
+
+      "description": "Yeni sürümleri canlıya almadan önce kritik akışlarda TTFB, p95 response ve CWV ile eski/yeni kıyaslayın; load/stress ve RUM ile regresyonu erken yakalayın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Performance Regression",
+
+        "Load/Stress Tests",
+
+        "RUM vs Synthetic",
+
+        "Critical Flows"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz#howto",
+
+      "name": "Eski/Yeni Sürüm Performans Regresyon Testi",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Metrik seti ve baseline belirle",
+
+          "text": "Kritik akışları seçin; TTFB, p95 response ve CWV (LCP/INP) metriklerini tanımlayıp eski sürüm için baseline ölçümü alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yeni sürümle kıyasla ve eşikleri kontrol et",
+
+          "text": "Yeni sürümde aynı senaryoları çalıştırın; delta ve eşik aşımlarını raporlayın. Eşik aşılırsa optimize edin veya release’i durdurun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Load/stress ve RUM ile doğrula",
+
+          "text": "Yük/stres senaryolarıyla kapasiteyi doğrulayın; prod’da RUM panelleri ve release marker ile gerçek kullanıcı etkisini izleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Performans Regresyon Testleri: Yeni Sürümde Yavaşlamayı Nasıl Yakarız?", "item": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Performans regresyonu nedir, nasıl tespit edilir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Performans regresyonu, yeni sürümle birlikte TTFB/p95 response veya CWV (LCP/INP) metriklerinin anlamlı kötüleşmesidir. Eski-yeni kıyas testi ve prod’da RUM doğrulamasıyla tespit edilir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi metriklerle eski/yeni sürümleri kıyaslamalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Varsayılan metrik seti TTFB, p95 response, LCP ve INP’dir. Ayrıca kritik akış adım süreleri (rezervasyon/rapor) izlenmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Load test ve gerçek kullanıcı verisini (RUM) birlikte nasıl kullanırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Release öncesi synthetic + load/stress ile kıyas ve eşik kontrolü yapın; prod’da RUM ile p75 CWV ve akış sürelerini izleyerek gerçek etkiyi doğrulayın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Deploy’dan sonra site yavaşladı mı, yoksa bize mi öyle geliyor?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Eski-yeni sürüm kıyası ve RUM trendiyle anlaşılır. Eşik aşılıyorsa optimize/rollback planı devreye alınmalı; aşılmıyorsa algısal olabilir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek",
+
+      "headline": "Müşteri Geri Bildirimlerini Bakım Backlog’una Dönüştürmek",
+
+      "name": "Müşteri Geri Bildirimlerini Bakım Backlog’una Dönüştürmek",
+
+      "description": "Ticket, çağrı merkezi, sosyal medya ve yorumlardan gelen müşteri feedback’ini sınıflandırın; tekrar eden sorunları bakım backlog’una alıp etki×sıklıkla önceliklendirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Customer Feedback",
+
+        "Maintenance Backlog",
+
+        "Classification",
+
+        "Voice of Customer"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek#howto",
+
+      "name": "Müşteri Feedback’ini Bakım Backlog’una Dönüştürme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Feedback’i topla ve tek havuzda birleştir",
+
+          "text": "Ticket, çağrı merkezi, sosyal medya ve yorum kanallarından gelen feedback’leri haftalık olarak tek bir havuzda toplayın; kanıt linki ekleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sınıflandır ve bakım/feature ayrımını yap",
+
+          "text": "Feedback’i bug/usability/request olarak sınıflandırın; tekrar eden ve mevcut kapsamda düzeltilebilir olanları bakım backlog’una, yeni capability taleplerini feature roadmap’ine alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Önceliklendir ve sprint’e bağla",
+
+          "text": "Etki×sıklık×çaba ile skorlayın; en yüksek skorlu bakım kalemlerini sprint’e alın ve kapanışta şikâyet trendini raporlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Müşteri Geri Bildirimlerini Bakım Backlog’una Dönüştürmek", "item": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Müşteri geri bildirimlerini bakım ve ürün geliştirme olarak nasıl ayırırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Mevcut akışın içinde düzeltilebilir, tekrar eden ve kaliteyi düşüren şikâyetler bakım backlog’una gider. Yeni yetenek isteyen talepler feature roadmap’ine gider." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi şikâyetler bakım backlog’una girmeli?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Bug’lar, performans şikâyetleri, kullanılabilirlik friksiyonları ve tekrar eden operasyonel sorunlar bakım backlog’una girmelidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Feedback verisini bakım önceliklendirmesinde nasıl kullanırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Feedback’i bug/usability/request diye sınıflandırıp tekrar edenleri gruplayın; etki×sıklık×çaba ile skorlayıp en yüksek skorlu bakım kalemlerini sprint’e alın ve trendi raporlayın." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Müşteri sürekli benzer şikâyetler yazıyor, bunu teknik tarafa nasıl taşımalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Şikâyeti kanıtıyla kaydedin, sınıflandırın ve tekrar sayısını çıkarın. Etki skoru verip bakım backlog’una ekleyin; çözüm sonrası şikâyet trendini raporlayın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/musteri-geri-bildirimlerini-bakim-backlog-una-donusturmek#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi",
+
+      "headline": "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi",
+
+      "name": "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi",
+
+      "description": "Outsource, hibrit ve iç ekip bakım modellerini maliyet, hız ve bilgi birikimi açısından kıyaslayın; otel ve B2B için karar çerçevesi ve geçiş planı oluşturun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Maintenance Models",
+
+        "Outsource vs In-House",
+
+        "Hybrid Teams",
+
+        "Cost/Speed/Knowledge"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi#howto",
+
+      "name": "Bakım Sourcing Modeli Nasıl Seçilir?",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Aşamayı ve kriterleri belirle",
+
+          "text": "İş hacmi, risk ve değişiklik sıklığını netleştirip maliyet, hız ve bilgi birikimi kriterlerini ağırlıklandırın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Outsource/hibrit/iç ekip seçeneklerini kıyasla",
+
+          "text": "Her modeli kriterlere göre puanlayın; P1/P2 reaksiyon hızı, kontrol ve know-how birikimini birlikte değerlendirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Seçimi SLA ve süreçlerle kilitle",
+
+          "text": "Seçilen model için SLA, ticketing, dokümantasyon ve geçiş planını yazılı hale getirip KPI’larla düzenli kalibre edin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Bakım Modelleri: Outsourcing vs İç Ekip Avantaj ve Dezavantaj Analizi", "item": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım sürecini outsource etmek mi, iç ekip kurmak mı daha mantıklı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hacim düşük ve hızlı başlangıç gerekiyorsa outsource mantıklıdır; kritik akış ve risk arttıkça hibrit veya iç ekip daha iyi kontrol ve hız sağlar." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hibrit bakım modeli nedir, nasıl çalışır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Hibrit modelde önceliklendirme ve sahiplik içeride kalır; uygulama kapasitesi outsource ekipten gelir. Böylece kontrol ve esneklik dengelenir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Outsource’tan iç ekibe geçerken nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Dokümantasyon/runbook, erişim envanteri, SLA/ticketing ve release süreçlerini transfer edip kademeli geçiş planı uygulayın; KPI’larla kalibre edin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde hangi bakım modeli hangi aşamada uygundur?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Erken dönemde outsource, büyümede hibrit, olgunlukta iç ekip veya iç ağırlıklı hibrit daha uygundur; otelde sezon baskısı hibriti değerli kılar." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi",
+
+      "headline": "Legacy Web Projesi Devralma Rehberi: İlk 90 Gün Bakım Stratejisi",
+
+      "name": "Legacy Web Projesi Devralma Rehberi: İlk 90 Gün Bakım Stratejisi",
+
+      "description": "Legacy bir projeyi devralırken ilk 90 günde erişim ve teknik envanter, risk haritası, quick win’ler, monitoring ve yol haritasıyla kontrollü iyileştirme yapın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Legacy Project Takeover",
+
+        "Inventory & Risk Map",
+
+        "First 90 Days Plan"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi#howto",
+
+      "name": "Legacy Proje Devralmada İlk 90 Gün Bakım Planı",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişim ve envanteri toparla",
+
+          "text": "Domain/DNS, hosting, repo/CI-CD, secrets ve entegrasyon erişimlerini toplayın; teknik envanteri çıkarın ve kritik akışları belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Risk haritası ve monitoring kur",
+
+          "text": "En kritik riskleri kanıtlarıyla listeleyin; uptime/error rate alarmları ve log izlemeyi kurarak hızlı kazanımları uygulayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Quick win’lerle stabilize edip roadmap oluştur",
+
+          "text": "Düşük eforlu yüksek etki işlerle sistemi stabilize edin; büyük sorunları parçalayarak 6–12 aylık bakım roadmap’ine ve iletişim ritmine bağlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Legacy Web Projesi Devralma Rehberi: İlk 90 Gün Bakım Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Legacy web projesi devralırken ilk 90 günde ne yapmalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Erişim ve envanteri tamamlayın, risk haritası çıkarın, monitoring/log kurun, quick win’lerle kritik akışları stabilize edin ve 90 gün sonunda roadmap + süreç standardı oluşturun." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kod ve altyapı envanteri nasıl çıkarılır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Domain/DNS, hosting, repo/CI-CD, runtime/dependency sürümleri, DB/cache/CDN ve entegrasyonları listeleyin; her maddeye erişim sahibi ve kanıt/link ekleyin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hızlı kazanım ve büyük riskleri nasıl ayırırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Quick win düşük eforla yüksek risk azaltan iştir (monitoring, MFA, smoke test). Büyük riskler yüksek eforlu ve çok bileşenli işlerdir; parçalanıp roadmap’e alınmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel/B2B legacy projesi için nereden başlamalıyım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde rezervasyon ve entegrasyon (PMS/OTA) akışından; B2B’de login/permissions ve raporlama akışından başlayın. Önce smoke test ve izleme kurarak stabiliteyi görünür kılın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/legacy-web-projesi-devralma-rehberi-ilk-90-gun-bakim-stratejisi#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek",
+
+      "headline": "Dijital Servis Kataloğu: Bakım ve Destek Kapsamını Netleştirmek",
+
+      "name": "Dijital Servis Kataloğu: Bakım ve Destek Kapsamını Netleştirmek",
+
+      "description": "Web, PMS/OTA, CRM ve çağrı merkezi gibi servisler için kapsam, owner, çalışma saatleri, SLA ve RACI matrisiyle bakım sorumluluklarını netleştirerek “kimin işi?” tartışmasını azaltın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Service Catalogue",
+
+        "Scope Definition",
+
+        "RACI",
+
+        "Digital Services"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek#howto",
+
+      "name": "Dijital Servis Kataloğu ve RACI ile Bakım Kapsamı Netleştirme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Servis listesini ve kapsamı çıkar",
+
+          "text": "Web, rezervasyon, PMS/OTA, CRM, raporlama ve çağrı merkezi gibi servisleri listeleyin; her servis için dahil/hariç kapsamı yazın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Owner, saatler ve SLA hedeflerini tanımla",
+
+          "text": "Her servis için owner, çalışma saatleri ve P1/P2 SLA hedeflerini belirleyin; destek kanalı ve eskalasyonu ekleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "RACI ve bağımlılık haritasıyla sürece bağla",
+
+          "text": "RACI rollerini yazıp tek A kuralını uygulayın; servis bağımlılıklarını işaretleyin ve ticketing kategorilerini kataloğa bağlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Dijital Servis Kataloğu: Bakım ve Destek Kapsamını Netleştirmek", "item": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dijital servis kataloğu nedir, neleri içermelidir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Servis adı, kapsam (dahil/hariç), owner, çalışma saatleri, SLA hedefleri, destek kanalı, bağımlılıklar ve eskalasyon bilgisini içeren envanterdir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RACI matrisi ile sorumlulukları nasıl netleştiririm?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Her servis için R/A/C/I rollerini yazın ve A’yı tekilleştirin. Ticket triage, change onayı ve incident müdahalesinde bu rollere göre ilerleyin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bakım kapsamına hangi sistemler giriyor?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Tipik olarak web, rezervasyon akışı, PMS/OTA entegrasyonları, CRM, raporlama ve çağrı merkezi gibi servisler katalogda yer alır; dahil/hariç kapsam yazılmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için örnek servis kataloğu tablosu nasıl görünür?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Servis satırlarında owner, çalışma saatleri, SLA ve RACI birlikte görünür; bağımlılıklar ve vendor’lar ayrıca belirtilir." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+}
     },
   },
   en: {},
