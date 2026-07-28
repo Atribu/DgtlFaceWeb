@@ -549,7 +549,12 @@ export const BLOG_MAP = {
     "dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek":"BlogDijitalServisKataloguBakimVeDestekKapsaminiNetlestirmek",
     "bakim-kpi-lari-ve-site-saglik-dashboard-u":"BlogBakimKpilariVeSiteSaglikDashboardu",
     "on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi":"BlogOnCallModeliVeNobetPlanlamaBakimEkibiIcinCalismaSaatleriDengesi",
-    "cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu":"BlogCokAjansliVeCokTedarikciliOrtamlardaBakimKoordinasyonu"
+    "cok-ajansli-ve-cok-tedarikcili-ortamlarda-bakim-koordinasyonu":"BlogCokAjansliVeCokTedarikciliOrtamlardaBakimKoordinasyonu",
+    "aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak":"BlogAiopsVePrediktifBakimYapayZekaIleIncidentOncesiSinyalYakalamak",
+    "green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak":"BlogGreenItVeSurdurulebilirBakimWebAltyapisininKarbonAyakIziniAzaltmak",
+    "uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli":"BlogUzaktanBakimVeDagitikEkiplerIcinAsyncOpsModeli",
+    "self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki":"BlogSelfServiceBakimPaneliVeGuardraillerTeknikOlmayanKullanicilaraGuvenliYetki",
+    "sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak":"BlogSreKulturuVeErrorBudgetModeliBakimSurecineUyarlamak"
   },
    
   creative: {
@@ -593,7 +598,14 @@ export const BLOG_MAP = {
     "marka-kitabi-ile-uyumlu-dijital-tasarim":"BlogMarkaKitabiIleUyumluDijitalTasarim",
     "dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi":"BlogDikeyVideoTasarimiReelsTiktokVeShortsIcinSafeZoneRehberi",
 
-    "template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek":"BlogTemplateTabanliTasarimVeCanvaFigmaKitleriyleUretimiOlceklendirmek"
+    "template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek":"BlogTemplateTabanliTasarimVeCanvaFigmaKitleriyleUretimiOlceklendirmek",
+
+    "animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti":"BlogAnimasyonluLogoVeIntroOutroPackMarkalarIcinGirisCikisKiti",
+    "design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin":"BlogDesignOpsVeFigmaKutuphanesiYonetimiCreativeEkiplerIcin",
+    "sosyal-kanit-ve-testimonial-kart-tasarimi":"BlogSosyalKanitVeTestimonialKartTasarimi",
+    "instagram-story-ve-highlight-cover-tasarimi":"BlogInstagramStoryVeHighlightCoverTasarimi"
+
+    
   },
 
        "cagri-merkezi": {

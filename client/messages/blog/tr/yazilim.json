@@ -78920,6 +78920,2799 @@
         ]
       }
     }
-  }
+  },
 
+   "BlogAiopsVePrediktifBakimYapayZekaIleIncidentOncesiSinyalYakalamak": {
+    "title": "AIOps & Prediktif Bakım: Incident Öncesi Sinyal",
+    "slug": "aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak",
+    "department": "yazilim",
+    "subDepartment":"maintenance",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "AIOps ile log/metric/event’ten anomali yakalayın; noise’u filtreleyip ticket/alert üretin. Otel rezervasyon/ödeme ve B2B API senaryolarıyla prediktif bakım akışı kurun.",
+    "seo": {
+      "metaTitle": "AIOps & Prediktif Bakım: Incident Öncesi Sinyal | DGTLFACE",
+      "metaDescription": "AIOps ile log/metric/event’ten anomali yakalayın; noise’u filtreleyip ticket/alert üretin. Otel rezervasyon/ödeme ve B2B API senaryolarıyla prediktif bakım akışı kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Bakım ve Destek — https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+        "Blog No + Blog URL: 21 — https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Technical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Not: Sheet ile aynı (Varsayım gerekmiyor).",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak"
+      ],
+      "strategySummary": "Bu yazı, “monitoring seli” içinde ekiplerin asıl zorlandığı noktayı hedefler: gürültüyü (noise) azaltıp anlamlı sinyali erken yakalamak. Hedef persona; otel ve B2B tarafında teknik lider/ajans yöneticisi, operasyon sahibi ve incident yönetimini yapan ekiptir. Funnel’da consideration (MoFu): AIOps’i “hype” değil, AI-assisted ops olarak konumlayıp (önceliklendiren asistan) devreye alma planı çıkartır. Ana iş sorusu: “Log/metric/event verisini kullanarak incident’e dönüşmeden önce anomaliyi nasıl yakalar ve insan-onaylı bir aksiyon akışına bağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "AIOps, bakım ekibinin yerini almak için değil; log ve metric seli içinden “şimdi ilgilenmen gereken bu” sinyalini öne çıkarmak için vardır. Anomali tespitiyle CPU/memory, p95 latency, hata oranı, queue birikmesi gibi sapmaları erken yakalar; prediktif modeller, bu sapmaların incident’e dönüşme olasılığını işaretleyebilir. Otel rezervasyon/ödeme ve B2B API/raporlama akışlarında AIOps; noise’u azaltıp anlamlı alarmları ticketing sürecine bağlayarak reaksiyon hızını artırır.",
+      "sgeSummary": "AIOps: log/metric/event → anomali → öncelikli alert/ticket. Noise’u filtrele, insan onayıyla aksiyonlaştır. Otelde rezervasyon/ödeme; B2B’de API/rapor akışlarında erken uyarı üret.",
+      "voiceAnswer": "Evet; AIOps, log ve metrikleri analiz edip incident öncesi anomaliyi işaretleyerek önceliklendirme yapar.",
+      "aiFactSheet": [
+        "Hedef kitle: On-call/ops ekibi, tech lead, ajans/IT yöneticisi",
+        "KPI’lar: MTTA/MTTR, false positive oranı, alarm gürültüsü, P1/P2 kaçış oranı, ticket doğruluğu",
+        "Entity Theme: AIOps, anomaly detection, log, metric, incident, alert/ticket",
+        "Semantic Theme: early warning system, noise reduction in alerts, AI-assisted incident management",
+        "Geo: Türkiye geneli; özellikle yüksek sezonda (Antalya/Belek gibi) trafiği artan otel projeleri + yüksek log/metric hacimli B2B’ler",
+        "Funnel: Consideration → operasyon olgunluğu → Conversion (analiz/başlangıç checklist’i)",
+        "Çıktı: AIOps akış diyagramı + anomali tablosu + devreye alma checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak",
+      "intro": "Monitoring araçları çoğu ekipte yıllar içinde büyür; metrikler, loglar, event’ler ve alarmlar artar. Sorun “izlemiyoruz” değil; fazla izliyoruz ve anlamlı sinyali kaçırıyoruz. AIOps burada devreye girer: anomaly detection ile sapmaları tespit eder, benzer alarmları birleştirir, olayları özetler ve ops ekibine önceliklendirilmiş aksiyon listesi verir. Bu yazı; AIOps’i “tam otomasyon” değil, insan operasyon ekibiyle AI iş birliği olarak konumlandırır ve otel (rezervasyon/ödeme) ile B2B (API/raporlama) akışlarında uygulanabilir bir kurgu sunar.",
+      "quickSummary": [
+        "1) AIOps’i “asistan” rolüyle konumlandır",
+        "2) Metric + log + event’i aynı timeline’da birleştir",
+        "3) Anomali tiplerini sınıflandır ve P1–P4 öncelik kurallarını yaz",
+        "4) Alert → ticket → runbook akışını insan onayıyla bağla",
+        "5) Noise, MTTA ve true positive oranıyla sistemi kalibre et"
+      ],
+      "ctaPrimary": {
+        "label": "AIOps & Prediktif Bakım Analizi Talep Et",
+        "text": "Log/metric hacmi yüksek projelerde noise’u azaltıp erken uyarı sistemini kurmak isteyen ekipler için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "AIOps & Prediktif Bakım Analizi Talep Et",
+        "text": "Log/metric hacmi yüksek otel, rezervasyon ve B2B projelerinde noise’u azaltıp erken uyarı sistemi kurmak isteyen ekipler için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "AIOps Alarm & Anomali Tespit Başlangıç Checklist Şablonunu İndir",
+        "text": "AIOps sinyal kaynaklarını, anomali tiplerini ve alert→ticket akışını tek formatta kurarak yanlış pozitifleri azaltmanızı sağlar.",
+        "href": "/downloads/aiops-alarm-anomali-tespit-baslangic-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "aiops-nedir",
+        "title": "AIOps Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIOps, operasyon verilerini (log/metric/event) analiz ederek anomali ve ilişki örüntülerini bulmaya, alarmları gruplayıp özetlemeye ve müdahale için “en olası kök neden/etki” çerçevesi sunmaya çalışır. Klasik monitoring; “eşik aşıldı/alarm” üretir. AIOps ise aynı anda çok sinyali görüp noise reduction yapar ve incident’e dönüşme ihtimali yüksek durumları öne çıkarır."
+          },
+          {
+            "type": "h3",
+            "text": "Soru : AIOps nedir, klasik monitoring’den farkı nedir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Klasik monitoring genelde tek metrikte eşik aşımına alarm üretir; AIOps log/metric/event’i birlikte okuyup anomaliyi bağlama oturtur, benzer alarmları birleştirir ve “hangi sinyal önce ele alınmalı?” önceliğini çıkarır. Amaç tam otomasyon değil, ops ekibine karar desteğidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Alarmlarınızın büyük kısmı “false positive” mi?",
+              "Aynı olay için 5 farklı alarm mı geliyor?",
+              "Incident sonrası “aslında sinyal vardı ama kaçırdık” oluyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AIOps’i “asistan” rolüyle konumlandır: özetle, grupla, önceliklendir.",
+              "Klasik monitoring’i kapatma; AIOps’i üst katman olarak ekle.",
+              "Başarı ölçütünü baştan yaz: noise azalacak mı, MTTA düşecek mi?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "log-metric-event-anomali-tespiti",
+        "title": "Log, Metric ve Event’lerden Anomali Tespiti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIOps’in yakıtı üç sinyal sınıfıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metric: sayısal zaman serileri (CPU, latency, error rate, queue depth)",
+              "Log: olay metinleri (stack trace, time-out, auth hatası)",
+              "Event: değişiklik kayıtları (deploy, config change, DB migration, feature flag)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "En güçlü anomali tespiti; bu üç sinyali bir olay penceresinde birleştirir: “deploy oldu → p95 yükseldi → error rate arttı → belirli endpoint log’da time-out”."
+          },
+          {
+            "type": "h3",
+            "text": "Anomali tipleri (pratik sınıflandırma)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seviye kayması: baseline kalıcı yükseldi (p95 latency yükseldi)",
+              "Spikes: kısa süreli sıçrama (error burst)",
+              "Trend bozulması: kademeli kötüleşme (memory leak gibi)",
+              "Korelasyon anomali: iki metrik birlikte sapıyor (CPU + queue)",
+              "Mevsimsellik: sezon/hafta içi paterni bozuldu (otel sezonu, kampanya)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Baseline tanımı var mı (haftalık/aylık sezonluk)?",
+              "Deploy/config event’leri metriklerle ilişkilendiriliyor mu?",
+              "Bot/CDN davranışları ayrı bir sinyal olarak etiketleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Metric + log + event’i aynı timeline’da birleştir (release marker).",
+              "Anomali tiplerini sınıflandır; her tip için aksiyon playbook yaz.",
+              "Bot/CDN gürültüsünü ayırmak için güvenlik ve analitik sinyallerle çapraz kontrol et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "prediktif-incident-sinyalleri",
+        "title": "Prediktif Incident Sinyalleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Prediktif bakım, “incident olmadan önce” riskin yükseldiğini söyleyebilmektir. Bu her zaman “kesin tahmin” değildir; çoğu zaman olasılık ve uyarı üretmektir: “Bu gece CPU patlayabilir” gibi bir sinyalin değeri, doğru aksiyona bağlanmasıyla ölçülür."
+          },
+          {
+            "type": "h3",
+            "text": "Prediktif sinyal örnekleri (otel/B2B)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Queue birikmesi + latency trendi → yaklaşan time-out",
+              "Error rate küçük ama sürekli artıyor → yakında P1’e dönebilir",
+              "Memory leak paterni → gece trafik artınca crash",
+              "DB connection pool doluluk trendi → rezervasyon/ödeme akışında risk"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): AIOps kullanan ekiplerde, insan gözüyle fark edilmesi zor “küçük ama kritik” anomaliler daha erken yakalanıp incident’e dönüşmeden müdahale edilebildiği görülür; özellikle yüksek log/metric hacmi olan projelerde."
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Yapay zekâ log ve metric’lerden nasıl anomali tespit eder?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Model; geçmiş baseline’ı öğrenerek sapmayı (spike/trend/shift) tespit eder, log’larda tekrar eden hata paternlerini gruplar ve event (deploy/config) ile korelasyon kurar. Sonuç; “bu sapma anlamlı mı, hangi bileşene işaret ediyor, öncelik ne?” şeklinde bir özet/alert üretmektir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Anomali tipleri ve öncelikleri (P1–P4) + örnek metrikler/aksiyonlar",
+            "headers": [
+              "Öncelik",
+              "Anomali tipi",
+              "Örnek metric/log/event",
+              "Önerilen aksiyon"
+            ],
+            "rows": [
+              [
+                "P1",
+                "Incident’e dönüşme riski yüksek kritik sapma",
+                "Rezervasyon/ödeme akışında DB connection pool doluluk trendi + error rate artışı",
+                "İnsan onayıyla incident aç; fallback/rollback kararını ilgili owner’a yönlendir"
+              ],
+              [
+                "P2",
+                "Yaklaşan performans bozulması",
+                "Queue birikmesi + p95 latency trendi",
+                "Alert→ticket üret; runbook doğrulamasını başlat"
+              ],
+              [
+                "P3",
+                "Kademeli trend bozulması",
+                "Memory leak paterni veya rapor/export job sürelerinin uzaması",
+                "İnceleme ticket’ı aç; eşik/model kalibrasyonu planla"
+              ],
+              [
+                "P4",
+                "Düşük etkili veya tekil sapma",
+                "Kısa süreli spike, bot/CDN kaynaklı noise",
+                "Benzer alarmları grupla; güvenlik+analytics korelasyonu ile doğrula"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Prediktif uyarı için “aksiyon” var mı, yoksa sadece mesaj mı?",
+              "Uyarıdan sonra doğrulama adımı tanımlı mı (insan onayı)?",
+              "Eşikler ve model davranışı düzenli kalibre ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Prediktif uyarıları “doğrulama + aksiyon” iki adımlı yap.",
+              "İlk fazda otomatik müdahale değil, öneri (assist) üret.",
+              "Yanlış pozitifleri ölç; modelin başarısını “noise azalması”yla takip et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-kullanim-senaryolari",
+        "title": "Otel ve B2B İçin Kullanım Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIOps’in en hızlı değer ürettiği yer; kritik akışlar ve yüksek hacimli sinyal üreten katmanlardır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları (rezervasyon/ödeme odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon arama → fiyat → ödeme adımlarında latency/error artışı",
+              "Kampanya/season trafiğiyle bot/CDN davranış değişimi",
+              "PMS/OTA entegrasyon time-out anomali tespiti",
+              "“Ödeme sağlayıcı yavaşlıyor” sinyaliyle proaktif fallback/limit"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Antalya gibi sezonda trafik artan destinasyon odaklı otel sitelerinde, CDN cache hit oranı düşerken origin load artıyorsa; AIOps bunu “yaklaşan incident” sinyali olarak işaretleyebilir."
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryoları (API/raporlama odaklı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "API endpoint bazlı p95 latency sapması",
+              "Rapor/export job sürelerinin uzaması (pipeline anomali)",
+              "Login/permission hatalarında pattern artışı",
+              "Büyük release sonrası “sessiz yavaşlama” (CWV/INP artışı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kritik akışlar (otel: rezervasyon/ödeme; B2B: API/rapor) listelendi mi?",
+              "Her kritik akış için “sinyal seti” tanımlı mı?",
+              "AIOps çıktısı ticketing’e otomatik bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AIOps’i önce 2–3 kritik akışta pilotla.",
+              "Her akış için sinyal seti + aksiyon playbook oluştur.",
+              "Pilot başarı ölçütü: MTTA düşüşü + false positive azalması."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "insan-operasyon-ekibi-ai-is-birligi",
+        "title": "İnsan Operasyon Ekibi ile AI İş Birliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIOps’in başarısı, “insan rolünü” net tanımlamaya bağlıdır. Tam otomasyon, özellikle prod müdahalede risklidir. En sağlıklı model; AI’ın triage ve özetleme yaptığı, insanın onay ve müdahale verdiği hibrit modeldir."
+          },
+          {
+            "type": "h3",
+            "text": "İnsan-in-the-loop kural seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "AI: anomaliyi yakalar, gruplar, önceliklendirir, öneri üretir",
+              "İnsan (L1/L2): doğrular, incident açar, müdahale/rollback kararını verir",
+              "Model: sonuçtan öğrenir (false positive etiketi, feedback loop)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Hangi durumda insan onayı şart (deploy/rollback)?",
+              "Model çıktıları etiketleniyor mu (true/false positive)?",
+              "On-call süreçleriyle entegrasyon var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otomatik aksiyonu sadece düşük riskli alanlarla sınırla (örn. ticket açma).",
+              "İnsan onayını P1/P2 kritik kararlar için zorunlu tut.",
+              "Feedback loop kur: model kararlarını etikete bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aiops-akis-mimarisi-devreye-alma",
+        "title": "AIOps Akış Mimarisi ve Devreye Alma Prensipleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AIOps’i devreye almak, araç kurmaktan çok akış kurmaktır: veri → analiz → karar → aksiyon."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "AIOps temel akış (özet)"
+          },
+          {
+            "type": "p",
+            "text": "Log/metric/event → normalize & enrich → anomaly detect → correlate → score (P1–P4) → alert → ticket → runbook → postmortem feedback"
+          },
+          {
+            "type": "p",
+            "text": "Önemli teknik not: Bot trafiği ve CDN davranışları doğru etiketlenmezse yanlış pozitif artar. Bu yüzden güvenlik ve analitik katmanla birlikte yorumlanmalıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+              "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Veri kaynakları listesi hazır mı (log/metric/event)?",
+              "Alert → ticket entegrasyonu var mı?",
+              "Runbook bağlantısı yoksa uyarı “gürültü”ye döner mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk faz: alert/ticket üret, otomatik müdahale yapma.",
+              "İkinci faz: alarm gruplama ve özetleme ile noise azalt.",
+              "Üçüncü faz: prediktif sinyalleri “risk skoru” ile yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aiops-alarm-anomali-checklist",
+        "title": "AIOps Alarm & Anomali Tespit Başlangıç Checklist Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Checklist + Sprint Plan (Checklist / Sprint / Fix)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "AIOps Alarm & Anomali Tespit Başlangıç Checklist Şablonunu İndir — Yazılım / AIOps (v1.0)",
+            "purpose": "Bu şablon, AIOps’i “araç” olmaktan çıkarıp operasyon akışına oturtmak için tasarlanmıştır: sinyal kaynaklarını (log/metric/event) listeler, anomali tiplerini sınıflandırır, öncelik (P1–P4) ve alert→ticket entegrasyonunu standardize eder. Amaç; alarm gürültüsünü düşürmek, anlamlı erken uyarı üretmek ve insan-onaylı müdahaleyi kolaylaştırmaktır.",
+            "whoFor": "Ops/on-call owner + tech lead + observability sorumlusu.",
+            "steps": [
+              "Veri kaynaklarını ve kritik akışları seç (otel: rezervasyon/ödeme; B2B: API/rapor).",
+              "Anomali tipleri için eşik/model ve doğrulama adımlarını yaz; ticket akışını bağla.",
+              "14 günlük pilot sprint’le devreye al; false positive/noise KPI’larıyla kalibre et."
+            ],
+            "checklist": [
+              "Veri kaynakları listesi çıkarıldı (log/metric/event)",
+              "Kritik akışlar seçildi (otel: rezervasyon/ödeme; B2B: API/rapor)",
+              "Anomali tipleri sınıflandırıldı (spike/trend/shift/korelasyon)",
+              "Öncelik (P1–P4) kuralları yazıldı (iş etkisi + risk)",
+              "Alert → ticket entegrasyonu tasarlandı (owner + SLA alanları)",
+              "Runbook bağlantıları eklendi (her alert için “ne yapmalı?”)",
+              "False positive etiketleme (feedback loop) kuralı yazıldı",
+              "KPI seti belirlendi (noise, MTTA, true positive oranı)"
+            ],
+            "href": "/downloads/aiops-alarm-anomali-tespit-baslangic-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "aiops-aksiyon-akisi-competitor-gap",
+        "title": "Competitor Gap’i Kapatan “AIOps’i Aksiyon Akışına Oturtma” Yaklaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu içerik AIOps’u “hype” düzeyinde anlatır; bu rehberin farkı, otel/B2B bakım aksiyon akışına nasıl oturacağını somutlaştırmasıdır: ticketing entegrasyonu, insan-onayı, runbook bağlantısı, noise ölçümü ve pilot planı. Böylece AIOps, “demo” değil “operasyon sistemi” olur."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "AIOps & Prediktif Bakım Analizi Talep Et",
+            "text": "Projenize uygun sinyal seti, pilot senaryolar ve noise azaltma planını birlikte çıkaralım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "AIOps nedir, klasik monitoring’den farkı nedir?",
+        "a": "Klasik monitoring genelde tek metrik eşiklerine alarm üretir. AIOps ise log/metric/event’i birlikte okuyup anomaliyi bağlama oturtur, benzer alarmları gruplayıp öncelik çıkarır. Amaç insanı devre dışı bırakmak değil, karar yükünü azaltmaktır."
+      },
+      {
+        "q": "Yapay zekâ log ve metric’lerden nasıl anomali tespit eder?",
+        "a": "Geçmiş baseline’ı öğrenerek spike/trend/shift gibi sapmaları tespit eder. Log’larda tekrar eden hata paternlerini gruplayıp event (deploy/config) ile ilişkilendirebilir. Çıktı, önceliklendirilmiş uyarı ve olası kök neden ipucudur."
+      },
+      {
+        "q": "Otel ve B2B projelerinde AIOps hangi senaryolarda değer katar?",
+        "a": "Otelde rezervasyon/ödeme ve PMS/OTA entegrasyon anomali tespiti; B2B’de API latency/error, rapor/export job anomalileri ve login/permission pattern’lerinde değer katar. Yüksek hacimli sinyal üreten kritik akışlarda ROI daha hızlı gelir."
+      },
+      {
+        "q": "AIOps tamamen otomatik mi, insan ekipler hangi rolde kalmalı?",
+        "a": "Çoğu ekipte en güvenli yaklaşım insan-onaylı hibrit modeldir. AI triage/özetleme/önceliklendirme yapar; insan doğrular, müdahale/rollback kararını verir. Zamanla düşük riskli aksiyonlar otomatikleşebilir."
+      },
+      {
+        "q": "Prediktif bakım ne kadar güvenilir?",
+        "a": "Kesin tahmin değil, olasılık ve erken uyarıdır. Başarı; false positive oranı, MTTA düşüşü ve incident’e dönüşmeden yakalanan sinyal sayısıyla ölçülür. Eşikler ve modeller düzenli kalibre edilmelidir."
+      },
+      {
+        "q": "Yanlış pozitifleri (false positive) nasıl azaltırız?",
+        "a": "Bot/CDN davranışlarını etiketlemek, event korelasyonunu güçlendirmek ve insan feedback loop (true/false) kurmak etkili olur. Ayrıca alarm gruplama ve “benzer olay birleştirme” noise’u düşürür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-hero-01.webp — alt text: “AIOps prediktif bakım, amaç incident öncesi sinyal, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-h1-context-02.webp — alt text: “Sinyal seli içinden öncelik, amaç noise azaltma, ops bağlamı”",
+          "divider-01 — 1600×1200 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-divider-03.webp — alt text: “Anomali tespiti bölümü, amaç anlamlı alarm üretmek, teknik ops bağlamı”",
+          "divider-02 — 1600×1200 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-divider-04.webp — alt text: “İnsan-onaylı AIOps, amaç kontrollü müdahale, ekip bağlamı”",
+          "diagram-05 — 1920×1080 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-diagram-05.webp — alt text: “Log/metric/event→AI→alert/ticket akışı, amaç prediktif ops, otel ve B2B bağlamı”",
+          "checklist-06 — 1200×1200 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-checklist-06.webp — alt text: “AIOps devreye alma checklist’i, amaç hızlı başlangıç, teknik ekip bağlamı”",
+          "kpi-07 — 1200×1200 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-kpi-07.webp — alt text: “Noise ve MTTA KPI kartı, amaç alarm kalitesi, ops bağlamı”",
+          "proof-08 — 1200×1200 — aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak-proof-08.webp — alt text: “AIOps çıktı seti, amaç erken uyarı ve ticket akışı, otel ve B2B bağlamı”",
+          "table-anomaly-priority — Anomali tipleri ve öncelikleri (P1–P4) + örnek metrikler/aksiyonlar tablosu",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Bakım ve Destek, Sunucu Güvenliği ve Veri Analiz ve Raporlama iç linkleri kontrol edildi",
+          "Log/metric/event → anomaly detect → correlate → score → alert → ticket → runbook akışı doğrulandı",
+          "Bot/CDN davranışları güvenlik ve analitik sinyallerle çapraz kontrol edildi",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve içeriğin son 1/3’ünde",
+          "Secondary CTA: 1 kez — orta bölümde Download Asset",
+          "Secondary CTA türü: Download Asset",
+          "Refresh Cycle: 180 gün",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+   "BlogGreenItVeSurdurulebilirBakimWebAltyapisininKarbonAyakIziniAzaltmak": {
+    "title": "Green IT: Web Bakımında Karbon Ayak İzini Azaltma",
+    "slug": "green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak",
+    "department": "yazilim",
+    "subDepartment":"maintenance",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Green IT bakım modeliyle enerji verimliliğini artırın: doğru hosting, CDN/cache, medya ve kod optimizasyonu. Otel/B2B için “yeşil bakım” checklist’i ve raporlama çerçevesi.",
+    "seo": {
+      "metaTitle": "Green IT: Web Bakımında Karbon Ayak İzini Azaltma | DGTLFACE",
+      "metaDescription": "Green IT bakım modeliyle enerji verimliliğini artırın: doğru hosting, CDN/cache, medya ve kod optimizasyonu. Otel/B2B için “yeşil bakım” checklist’i ve raporlama çerçevesi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Bakım ve Destek — https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+        "Blog No + Blog URL: 22 — https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Not: Sheet ile aynı (Varsayım gerekmiyor).",
+        "Canonical: /tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak"
+      ],
+      "strategySummary": "Bu yazı, sürdürülebilirlik gündemini “rapor dili”nden çıkarıp web altyapısı bakımına indirger: performans ve kaynak optimizasyonunun aynı anda UX + enerji verimliliği getirdiğini gösterir. Hedef persona; otel ve B2B tarafında yönetim, pazarlama/ESG sorumlusu ve teknik liderdir. Funnel’da consideration → conversion: Green IT bakım checklist’i ve raporlama çerçevesiyle “ne yapacağız?” sorusunu netleştirir. Ana iş sorusu: “CDN/cache, kod ve medya optimizasyonu ile karbon etkisini ‘kabaca’ azaltmak için hangi bakım adımlarını standardize etmeliyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Green IT, web altyapısında sürdürülebilirliği sadece maliyet değil, enerji tüketimi ve çevresel etki açısından da yönetmektir. Performans odaklı bakım; CDN/cache, görsel-video optimizasyonu, istek sayısını azaltma ve doğru kapasite planlama gibi adımlarla hem kullanıcı deneyimini hem de kaynak tüketimini iyileştirebilir. Otel sitelerinde çok dilli ve yüksek görsellik; B2B’de dashboard/rapor sorguları enerji yükünü artırır. Amaç; kaynak kullanımını ölçmek, azaltmak ve bunu şeffaf raporlamaktır.",
+      "sgeSummary": "Green IT bakım: doğru hosting + kapasite, CDN/cache ile transfer azaltma, medya/kod optimizasyonu, CWV iyileştirme. Kaynak kullanımını ölç, trendle raporla; “hız + sürdürülebilirlik” birlikte kazanılır.",
+      "voiceAnswer": "Hosting ve kapasiteyi optimize edin, CDN/cache kullanın, medya ve istekleri azaltın; enerji etkisi düşer.",
+      "aiFactSheet": [
+        "Hedef kitle: ESG/pazarlama lideri, IT/ops lideri, ajans yöneticisi",
+        "KPI’lar: veri transferi, CPU/işlem süresi, cache hit oranı, CWV, sayfa ağırlığı, maliyet",
+        "Entity: Green IT, carbon footprint of web, CDN/cache, energy-aware optimisation, CWV",
+        "Semantic theme: performance-with-purpose, green hosting mindset, sürdürülebilir bakım",
+        "Geo: Türkiye geneli; otel ve B2B markalar",
+        "Funnel: Consideration (model) → conversion (analiz/şablon)",
+        "Çıktı: Green IT checklist + kaynak→enerji şeması + raporlama formatı"
+      ]
+    },
+    "h1": {
+      "title": "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak",
+      "intro": "Sürdürülebilirlik raporu hazırlayan birçok kurum, dijital operasyonun payını “teknik olarak” nasıl azaltacağını net bilmiyor. Oysa web altyapısında yapılan klasik performans iyileştirmeleri (cache, CDN, görsel optimizasyonu, istek sayısını azaltma) çoğu zaman aynı anda enerji verimliliği de sağlar. Bu rehber, Green IT’yi “tek seferlik proje” değil, bakım süreçlerine entegre edilen yeşil bakım modeli olarak ele alır: kaynak kullanımını ölç, gereksiz tüketimi azalt, trendle raporla ve iletişimini doğru yap.",
+      "quickSummary": [
+        "1) Green IT’yi “performans + kaynak” ikilisi olarak tanımla.",
+        "2) Ölçmeden optimize etme: veri transferi ve CPU sinyallerini yakala.",
+        "3) İlk hedef: gereksiz istek ve ağır medya yükünü azalt.",
+        "4) Checklist’i aylık/çeyreklik bakım döngüsüne ekle.",
+        "5) Önce-sonra trendini göster; CFO/ESG için ikna edici olur."
+      ],
+      "ctaPrimary": {
+        "label": "Green IT & Sürdürülebilir Bakım Analizi Talep Et",
+        "text": "Web altyapısında enerji verimliliği ve performansı birlikte iyileştirmek isteyen markalar için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Green IT & Sürdürülebilir Bakım Analizi Talep Et",
+        "text": "Kurumsal sosyal sorumluluk ve sürdürülebilirlik vurgusu güçlü otel ve B2B markalarda, web altyapısının kaynak tüketimini azaltmak için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "Green IT Web Bakım & Enerji Verimliliği Checklist Şablonunu İndir",
+        "text": "Hosting, cache, medya ve CWV adımlarını tek formatta standardize ederek hız ve enerji verimliliğini birlikte artırmanızı sağlar.",
+        "href": "/downloads/green-it-web-bakim-enerji-verimliligi-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "green-it-nedir",
+        "title": "Green IT Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Green IT; BT altyapısını enerji verimliliği, kaynak kullanımı ve çevresel etki açısından optimize etmeyi hedefler. Web dünyasında bunun pratik karşılığı: daha az veri transferi, daha az gereksiz işlem, daha verimli cache/CDN, daha doğru kapasite planlama ve daha az “boşa çalışan” sistemdir."
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Green IT nedir, web altyapısında ne anlama gelir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Green IT; web altyapısında enerji tüketimini azaltmak için hosting/kapasiteyi doğru seçmek, CDN/cache ile gereksiz veri transferini düşürmek ve kod/medya optimizasyonuyla işlem yükünü azaltmaktır. Sonuç, hem hız hem sürdürülebilirlik kazanımıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Daha hızlı site” hedefi ile “daha verimli kaynak” hedefi birlikte mi?",
+              "Veri transferi ve sayfa ağırlığı ölçülüyor mu?",
+              "Cache/CDN stratejisi planlı mı, tesadüfi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Green IT’yi “performans + kaynak” ikilisi olarak tanımla.",
+              "Ölçmeden optimize etme: veri transferi ve CPU sinyallerini yakala.",
+              "İlk hedef: gereksiz istek ve ağır medya yükünü azalt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sunucu-hosting-enerji-verimliligi",
+        "title": "Sunucu ve Hosting Seçiminde Enerji Verimliliği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Enerji verimliliği yalnız “yeşil hosting” etiketi değildir; kapasiteyi doğru boyutlandırma (right-sizing), konsolidasyon ve otomasyonla boşa çalışan kaynakları azaltmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "3 pratik yaklaşım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Right-sizing: ihtiyacın üzerinde CPU/RAM ayırmayı azaltmak",
+              "Konsolidasyon: dağınık servisleri gereksiz çoğaltmadan toparlamak",
+              "Otomatik ölçekleme: pik saatlere göre kaynak aç/kapa (uygunsa)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "“Boşta çalışan” maliyet"
+          },
+          {
+            "type": "p",
+            "text": "Legacy yapılarda en sık görülen durum: düşük trafikte bile yüksek kaynak tüketimi. Bu hem maliyet hem enerji yükü üretir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Trafik desenine göre kapasite planı var mı?",
+              "Ortam sayısı (dev/staging/prod) gereğinden fazla mı?",
+              "Gece düşük trafikte kaynak tüketimi düşüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Kapasiteyi “peak”e göre değil, “peak+esneklik”e göre tasarla.",
+              "Gereksiz ortam/servis çoğaltmasını azalt.",
+              "Hosting kararını performans KPI’larıyla birlikte değerlendir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cdn-cache-kod-optimizasyonu-enerji-etkisi",
+        "title": "CDN, Cache ve Kod Optimizasyonunun Enerji Etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Web’de enerji etkisinin büyük kısmı iki şeyden gelir: veri transferi ve işlem yükü. CDN/cache; transferi ve origin load’u düşürerek, kod optimizasyonu ise CPU işini azaltarak katkı sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "CDN/cache enerjiye neden etki eder?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Origin’e giden istek azalır → CPU/DB/IO yükü düşer",
+              "Daha kısa transfer → daha az “taşınan veri”",
+              "Kullanıcıya yakın sunum → daha hızlı ve verimli deneyim"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : CDN, cache ve optimizasyon karbon ayak izini gerçekten etkiler mi?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Evet, dolaylı olarak etkiler: CDN/cache ile origin’e giden istek sayısı ve veri transferi azalır; medya ve kod optimizasyonu cihaz ve sunucu tarafında işlem yükünü düşürür. Kesin “karbon rakamı” yerine kaynak tüketimi trendini ölçmek ve azaltmak daha güvenilir yaklaşımdır."
+          },
+          {
+            "type": "h3",
+            "text": "Kod ve istek optimizasyonu (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İstek sayısını azalt (bundle, lazy-load, third-party script envanteri)",
+              "Gereksiz render ve ağır JS’i azalt",
+              "Verimli sorgular (özellikle B2B dashboard/rapor)",
+              "Medya optimizasyonu: WebP/AVIF, doğru boyut, video stratejisi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: CWV iyileştirmeleri çoğu zaman enerji verimliliğiyle aynı yönde çalışır; SEO etkisi için: https://dgtlface.com/tr/seo/teknik-seo"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Cache hit oranı izleniyor mu?",
+              "Sayfa ağırlığı ve istek sayısı trendi var mı?",
+              "Third-party script’ler periyodik gözden geçiriliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CDN/cache stratejisini “kampanya güncelliği”yle birlikte tasarla.",
+              "Medyayı optimize etmeden sürdürülebilirlik iddiası zayıf kalır.",
+              "B2B’de ağır sorguları ve export işlerini verimli hale getir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-yesil-bakim-checklist",
+        "title": "Otel ve B2B İçin “Yeşil Bakım” Checklist’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Green IT bakım, bir defalık proje değil; periyodik checklist ile sürdürülebilir hale gelir. Otelde görsel yoğunluk ve çok dilli yapı; B2B’de dashboard/rapor sayfaları bu checklist’in merkezindedir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için öncelikli adımlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çok dilli sayfalarda medya optimizasyonu ve tekrar eden asset’ler",
+              "Kampanya landing’lerinde cache/CDN ve hızlı ilk ekran",
+              "Rezervasyon funnel’inde gereksiz JS ve üçüncü taraf azaltma"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B için öncelikli adımlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard render performansı (INP/long tasks)",
+              "Rapor ve export sorgularında verimli query ve cache",
+              "API p95 latency ve gereksiz çağrıların azaltılması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Green IT Checklist (kopyalanabilir):"
+          },
+          {
+            "type": "table",
+            "caption": "Green IT bakım checklist’i tablosu",
+            "headers": [
+              "Alan",
+              "Kontrol",
+              "Ölçüm",
+              "Sıklık",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Hosting",
+                "right-sizing / konsolidasyon",
+                "CPU/RAM trend",
+                "90–180g",
+                "kapasite"
+              ],
+              [
+                "CDN/Cache",
+                "hit ratio, purge kuralı",
+                "cache hit %",
+                "Aylık",
+                "kampanya"
+              ],
+              [
+                "Medya",
+                "WebP/AVIF, boyut",
+                "sayfa ağırlığı",
+                "Aylık",
+                "otel kritik"
+              ],
+              [
+                "JS/İstek",
+                "third-party envanter",
+                "request count",
+                "Aylık",
+                "gürültü"
+              ],
+              [
+                "CWV",
+                "LCP/INP trend",
+                "RUM/CWV",
+                "Aylık",
+                "SEO+UX"
+              ],
+              [
+                "B2B Sorgu",
+                "ağır query/export",
+                "p95 + job süresi",
+                "Aylık",
+                "rapor"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Green IT odaklı bakım yaklaşımı olan kurumlarda, altyapı maliyetleri ve gereksiz kaynak tüketiminin orta vadede daha kontrollü hale gelmesi daha olasıdır; çünkü ölçüm ve optimizasyon rutine bağlanır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Checklist’in sahibi var mı (owner)?",
+              "Ölçüm metrikleri net mi (veri transferi, CWV, CPU)?",
+              "Otel/B2B kritik akışları ayrı satır olarak izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Checklist’i aylık/çeyreklik bakım döngüsüne ekle.",
+              "Önce “en büyük yük”ü hedefle: medya + gereksiz istekler.",
+              "İyileştirmeyi raporla: hız + kaynak trendi birlikte."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "green-it-web-bakim-checklist-asset",
+        "title": "Green IT Web Bakım & Enerji Verimliliği Checklist Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Checklist + Sprint Plan (Checklist / Sprint / Fix)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Green IT Web Bakım & Enerji Verimliliği Checklist Şablonunu İndir — Yazılım / Green IT (v1.0)",
+            "purpose": "Bu şablon, web altyapısında enerji verimliliğini artırmak için bakım adımlarını standardize eder: hosting/kapasite, CDN/cache, medya ve istek optimizasyonu, CWV iyileştirmeleri ve raporlama. Amaç “kesin karbon iddiası” değil; kaynak tüketimini (proxy metriklerle) düşürüp trendle göstermektir. Otel (çok dilli, görsel yoğun) ve B2B (dashboard/rapor) senaryolarına göre uyarlanır.",
+            "whoFor": "Tech lead + ops + pazarlama/ESG sorumlusu (ortak çalışma).",
+            "steps": [
+              "Proxy metrikleri seç (veri transferi, CPU, sayfa ağırlığı, CWV).",
+              "Checklist’i aylık/çeyreklik bakım rutinine ekle ve owner ata.",
+              "Önce-sonra trendini raporla; iyileştirmeyi iletişim planına bağla."
+            ],
+            "checklist": [
+              "Sayfa ağırlığı ve istek sayısı baseline alındı",
+              "CDN/cache hit oranı ölçülüyor",
+              "Hosting right-sizing analizi yapıldı",
+              "Medya optimizasyon planı (WebP/AVIF, lazy-load) hazır",
+              "Third-party script envanteri çıkarıldı",
+              "B2B’de ağır sorgu/export listesi çıkarıldı",
+              "CWV (LCP/INP) trendi RUM ile izleniyor",
+              "Aylık rapor formatı belirlendi (proxy metrikler)"
+            ],
+            "href": "/downloads/green-it-web-bakim-enerji-verimliligi-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "raporlama-ve-iletisim",
+        "title": "Raporlama ve İletişim",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Green IT çalışmaları raporlanmazsa, “güzel niyet” olarak kalır. Ama rapor “kesin karbon rakamı” iddiasıyla yapılırsa güven kaybı yaratabilir. Daha doğru yaklaşım: kaynak tüketimi proxy metrikleri (veri transferi, CPU zamanı, sayfa ağırlığı) üzerinden trend raporu."
+          },
+          {
+            "type": "h3",
+            "text": "Yönetim dili: “hız + maliyet + sürdürülebilirlik”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hız: CWV ve kullanıcı deneyimi",
+              "Maliyet: kaynak kullanım trendi",
+              "Sürdürülebilirlik: gereksiz tüketimin azaltılması (proxy)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Veri panelleri ve raporlama için: https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Önce-sonra” karşılaştırması var mı?",
+              "İletişim dili abartılı karbon iddiası içeriyor mu?",
+              "Pazarlama ve teknik ekip aynı metriklere mi bakıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Proxy metriklerle ilerle; kesin karbon iddiası yapma.",
+              "Önce-sonra trendini göster; CFO/ESG için ikna edici olur.",
+              "SEO/CWV faydasını teknik not olarak ekle (aynı iş çift fayda)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "performance-with-purpose-yaklasimi",
+        "title": "Competitor Gap’i Kapatan “Performans-with-Purpose” Yaklaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çoğu içerik Green IT’yi “etiket” gibi anlatır; oysa gerçek değer, bakım rutinine girmesidir. Bu rehber; hosting/kapasite, CDN/cache, medya/kod ve CWV’yi tek “yeşil bakım modeli” altında birleştirir ve uygulanabilir checklist verir. Böylece sürdürülebilirlik, teknik ekibin günlük operasyonuna bağlanır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Green IT & Sürdürülebilir Bakım Analizi Talep Et",
+            "text": "Green IT checklist’inizi projenize göre birlikte kurgulayalım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Green IT nedir, web altyapısında ne anlama gelir?",
+        "a": "Enerji ve kaynak tüketimini azaltmak için hosting/kapasiteyi doğru seçmek, CDN/cache ile veri transferini düşürmek ve kod/medya optimizasyonu yapmak demektir. Sonuç hem hız hem verimlilik kazanımıdır."
+      },
+      {
+        "q": "CDN, cache ve optimizasyon karbon ayak izini gerçekten etkiler mi?",
+        "a": "Dolaylı olarak etkiler; origin yükünü ve veri transferini azaltır, işlem yükünü düşürür. Kesin karbon rakamı yerine kaynak tüketimi proxy metrikleriyle trend göstermek daha güvenilir yaklaşımdır."
+      },
+      {
+        "q": "Otel ve B2B siteleri için sürdürülebilir bakım adımları neler?",
+        "a": "Otelde medya optimizasyonu, cache/CDN, çok dilli içerik verimliliği; B2B’de dashboard/rapor sorgu optimizasyonu ve istek azaltma öne çıkar. CWV iyileştirmeleri her iki tarafta da kritiktir."
+      },
+      {
+        "q": "Bu çalışmaları raporlayıp marka iletişimine nasıl taşırım?",
+        "a": "Önce-sonra trendlerini (sayfa ağırlığı, cache hit, CWV) raporlayın; abartılı karbon iddiası yerine “kaynak tüketimi azaldı” dili kullanın. Pazarlama ve teknik ekibin aynı KPI’lara bakmasını sağlayın."
+      },
+      {
+        "q": "“Yeşil bakım” ile performans iyileştirmeleri aynı şey mi?",
+        "a": "Büyük ölçüde örtüşür; cache, medya ve istek optimizasyonu hem hız hem enerji verimliliği sağlar. Bu nedenle aynı işlerle çift fayda üretmek mümkündür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-hero-01.webp — alt text: “Green IT web bakım, amaç karbon etkisini azaltma, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-h1-context-02.webp — alt text: “Kaynak kullanımı zinciri, amaç enerji verimliliği, teknik ve pazarlama bağlamı”",
+          "divider-01 — 1600×1200 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-divider-03.webp — alt text: “Hosting ve kapasite planlama, amaç enerji verimliliği, ops bağlamı”",
+          "divider-02 — 1600×1200 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-divider-04.webp — alt text: “CDN-cache ve medya optimizasyonu, amaç veri transferini azaltma, otel ve B2B bağlamı”",
+          "diagram-05 — 1920×1080 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-diagram-05.webp — alt text: “Kaynak→enerji etkisi şeması, amaç sürdürülebilir bakım, ekip bağlamı”",
+          "checklist-06 — 1200×1200 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-checklist-06.webp — alt text: “Green IT checklist kartı, amaç hızlı uygulama, otel ve B2B ekip bağlamı”",
+          "kpi-07 — 1200×1200 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-kpi-07.webp — alt text: “Enerji proxy KPI kartı, amaç trend raporlama, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak-proof-08.webp — alt text: “Sürdürülebilir bakım deliverables, amaç raporlama ve iletişim, otel ve B2B bağlamı”",
+          "table-green-it-maintenance-checklist — Green IT bakım checklist’i tablosu (hosting, cache, medya, istek, CWV)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu (proxy)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
+          "Teknik SEO iç linki kontrol edildi: /seo/teknik-seo",
+          "Veri Analiz ve Raporlama iç linki kontrol edildi: /veri-analiz-ve-raporlama",
+          "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset",
+          "Green IT bakım checklist’i ana içerikte tek tablo olarak kullanıldı",
+          "Proxy metrikler: veri transferi, CPU zamanı, sayfa ağırlığı, cache hit oranı ve CWV",
+          "Kesin karbon rakamı yerine kaynak tüketimi trendi kullanıldı",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+  "BlogUzaktanBakimVeDagitikEkiplerIcinAsyncOpsModeli": {
+    "title": "Async Ops Modeli: Uzaktan Bakım ve Handover Şablonu",
+    "slug": "uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli",
+    "department": "yazilim",
+    "subDepartment":"maintenance",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Dağıtık ekiplerde bakımın akması için async ops kurun: ticket yorum standardı, handover notu şablonu, net kanallar ve zaman dilimi kurgusu. Otel/B2B örnekleriyle.",
+    "seo": {
+      "metaTitle": "Async Ops Modeli: Uzaktan Bakım ve Handover Şablonu | DGTLFACE",
+      "metaDescription": "Dağıtık ekiplerde bakımın akması için async ops kurun: ticket yorum standardı, handover notu şablonu, net kanallar ve zaman dilimi kurgusu. Otel/B2B örnekleriyle."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Bakım ve Destek — https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+        "Blog No + Blog URL: 23 — https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Canonical: /tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli"
+      ],
+      "strategySummary": "Bu yazı, remote/dağıtık ekiplerde bakımın “toplantı ve telefon” bağımlılığını kırıp meeting-light bir operasyon kurmayı hedefler (authority-child). Hedef persona; otel ve B2B projelerinde bakım & destekten sorumlu ops/PM/tech lead, ajans yöneticisi ve on-call sahipleridir. Funnel’da consideration → conversion: async iletişim, ticket not standardı ve handover şablonlarıyla 7/24 bakımın kişiden değil süreçten akmasını sağlar. Ana iş sorusu: “Ekip farklı saatlerde çalışırken bakımda nasıl senkron olur; bilgi kaybını nasıl önlerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Dağınık veya uzaktan çalışan ekiplerde bakım sürecini anlık toplantı ve telefonlara bağlamak sürdürülebilir değildir. Async ops modeli; iyi yazılmış ticket notları, standart handover şablonları ve tek kaynak (ticket + panel) üzerinden ilerleyen iletişimle bakımın kişilere değil sürece bağlı akmasını sağlar. Otel projelerinde gece/gündüz ekipleri; B2B’de farklı şehir/ülke ekipleri “follow-the-sun” kurgusuyla çalışabilir. Sonuç: daha az toplantı baskısı, daha izlenebilir bakım ve daha düşük bilgi kaybı.",
+      "sgeSummary": "Async ops: ticket→yorum standardı→handover→tamamlama. Tek kaynak ticket, net kanal kuralları, zaman dilimi planı ve günlük özet ritmiyle bakım toplantısız da akar.",
+      "voiceAnswer": "Ticket notlarını standardize edin, handover şablonu kullanın, net kanallar belirleyin; ekip farklı saatte de senkron olur.",
+      "aiFactSheet": [
+        "Hedef kitle: Ops/PM, tech lead, on-call owner, ajans/IT yöneticisi",
+        "KPI’lar: MTTR, kaçan bilgi/ticket sayısı, handover kalite skoru, toplantı sayısı, SLA ihlali",
+        "Entity: async ops, ticket, handover, remote ekip, time zone, follow-the-sun",
+        "Geo: Türkiye geneli; remote/hibrid çalışan otel ve B2B ekipleri",
+        "Funnel: Consideration → süreç standardı → Conversion (analiz/şablon)",
+        "Çıktı: async akış diyagramı + handover tablosu + uzaktan bakım checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli",
+      "intro": "Remote/hibrid ekiplerde bakımın en büyük düşmanı “bilginin anlık konuşmalarda kaybolmasıdır.” Her şeyi toplantıda çözmek; zaman dilimleri farklılaştıkça imkânsız hale gelir ve ekipte sürekli “yakalamaca” başlar. Async ops modeli; ticket’ı tek kaynak yapar, ticket yorumlarını standartlaştırır, handover notlarıyla vardiya/zaman dilimi geçişini güvenli hale getirir ve operasyonu meeting-light hale getirir. Böylece bakım, kişilere değil yazılı ve izlenebilir bir sürece bağlı akar.",
+      "quickSummary": [
+        "1. “Ticket güncellenmediyse yapılmamış sayılır” kuralı koy.",
+        "2. Ticket yorumlarını “formatlı” yazdır (template).",
+        "3. Handover’ı günlük 5 dakika ritim haline getir.",
+        "4. Follow-the-sun devri için ticket/handover zorunlu kıl.",
+        "5. Ticket template’i SLA alanlarıyla standardize et (priority, impact)."
+      ],
+      "ctaPrimary": {
+        "label": "Uzaktan Bakım & Async Ops Modeli Analiz Talep Et",
+        "text": "Dağıtık ekiplerde bakımın akmasını sağlayacak süreç, araç ve ritmi kurmak isteyen ekipler için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Uzaktan Bakım & Async Ops Modeli Analiz Talep Et",
+        "text": "Remote/hibrid çalışan otel ve B2B bakım ekiplerinde süreç akışını toplantısız ve izlenebilir hale getirmek için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "Uzaktan Bakım İçin Async Ops & Handover Şablonu İndir",
+        "text": "Ticket notlarını ve handover devrini tek formatta standardize ederek bakımın kişilere değil sürece bağlı akmasını sağlar.",
+        "href": "/downloads/uzaktan-bakim-async-ops-handover-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "uzaktan-hibrit-bakim-ekipleri",
+        "title": "Uzaktan ve Hibrit Çalışan Bakım Ekipleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Uzaktan çalışma bakım ekiplerinde iki yeni gerçeklik doğurur:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Herkes aynı anda çevrim içi değil (async kaçınılmaz)",
+              "“Bilen kişi”ye anlık ulaşmak zorlaşır (bus-factor riski)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu nedenle remote bakım; daha fazla dokümantasyon, daha iyi ticket notları ve net iletişim protokolleri ister."
+          },
+          {
+            "type": "h3",
+            "text": "Remote bakımın en sık arızası: bilgi akışı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ticket açılır ama detay yoktur",
+              "Slack/WhatsApp’te konuşulur ama ticket güncellenmez",
+              "Devir (handover) yapılır ama bir sonraki ekip nereden başlayacağını bilmez"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Tek “source of truth” var mı (ticketing)?",
+              "Ticket çözülürken her adım ticket’a yazılıyor mu?",
+              "Handover formatı standart mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Ticket güncellenmediyse yapılmamış sayılır” kuralı koy.",
+              "Remote ekip için “minimum ticket alan seti” tanımla.",
+              "Gün sonu özetlerini (handover) standartlaştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "async-iletisim-modeli",
+        "title": "Async (Eş Zamanlı Olmayan) İletişim Modeli",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Async iletişim; “geç cevap” değil, “iyi paketlenmiş bilgi” demektir. Amaç, karşı taraf uyanınca tek mesajla durumu anlayabilsin."
+          },
+          {
+            "type": "h3",
+            "text": "Async iletişimin 3 katmanı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Katman 1: Ticket yorumları (olayın tek kaydı)",
+              "Katman 2: Durum kanalı (Slack/Teams — sadece link + özet)",
+              "Katman 3: Dashboard (KPI/health: uptime, error rate)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Async ops modeli nedir, bakım ekiplerinde nasıl uygulanır?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Async ops; bakım iletişimini ticket ve yazılı handover notları üzerinden yürüten, net kanal kurallarıyla meeting-light çalışan modeldir. Uygulama için ticket yorum standardı, handover şablonu, “tek kaynak ticket” kuralı ve zaman dilimi planı gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "“İyi async mesaj” formatı (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ne oldu? (1 cümle)",
+              "Etki nedir? (P1/P2/P3)",
+              "Şu an durum? (stabil mi?)",
+              "Ne denendi? (link/komut/kanıt)",
+              "Sıradaki adım? (beklenen kişi/rol)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Mesaj “bir sonraki kişinin” işini kolaylaştırıyor mu?",
+              "Kanıt linki ve log referansı var mı?",
+              "Sıradaki adım net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ticket yorumlarını “formatlı” yazdır (template).",
+              "Slack/Teams’te sadece özet + ticket linki paylaş.",
+              "Async mesajı “kapanış kriteri” yap: bilgi paketsiz kapanış yok."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dokumantasyon-handover-pratikleri",
+        "title": "Dokümantasyon ve Handover Pratikleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Async ops’in omurgası handover’dır. Handover; gün sonu veya vardiya geçişinde “hangi işler açık, ne denendi, sırada ne var?” sorusuna net cevap verir."
+          },
+          {
+            "type": "h3",
+            "text": "Standart handover notları (gün sonu özet)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açık incident’lar (P1/P2) ve durumu",
+              "Açık ticket’lar (top 5) ve blokajlar",
+              "Yapılan değişiklikler (deploy/config)",
+              "Yarın/sonraki vardiya için öncelikler",
+              "Risk notları (kampanya, sezon, release)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Handover Şablonu (kopyalanabilir):"
+          },
+          {
+            "type": "table",
+            "caption": "Örnek Handover Şablonu (kopyalanabilir)",
+            "headers": [
+              "Alan",
+              "İçerik"
+            ],
+            "rows": [
+              [
+                "Tarih / Saat dilimi",
+                "TBD"
+              ],
+              [
+                "Açık incident’lar",
+                "P1/P2 listesi + link"
+              ],
+              [
+                "Durum özeti",
+                "Stabil / izleniyor / eskale"
+              ],
+              [
+                "Yapılanlar",
+                "denenen adımlar + kanıt"
+              ],
+              [
+                "Blokaj",
+                "vendor bekleniyor / erişim yok"
+              ],
+              [
+                "Sıradaki adım",
+                "kimin ne yapacağı"
+              ],
+              [
+                "Risk notu",
+                "kampanya/sezon/release"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Async ops pratiklerini oturtan ekiplerde “her şey toplantıda çözülmeli” baskısı azalır; bakım bileşenleri yazılı ve izlenebilir hale gelir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Handover her gün aynı formatta mı?",
+              "Ticket linkleri handover’a ekleniyor mu?",
+              "“Blokaj” ve “sıradaki adım” boş kalıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Handover’ı günlük 5 dakika ritim haline getir.",
+              "Handover olmadan vardiya kapanmasın.",
+              "Handover kalitesini ayda bir gözden geçir (örneklerle)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uzaktan-bakim-async-ops-handover-asset",
+        "title": "Uzaktan Bakım İçin Async Ops & Handover Şablonu İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Template (Handover şablonu)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Uzaktan Bakım İçin Async Ops & Handover Şablonu İndir — Yazılım / Async Ops (v1.0)",
+            "purpose": "Bu şablon; remote/dağıtık bakım ekiplerinde ticket yorumlarını standartlaştırır, vardiya/zaman dilimi geçişlerinde handover notlarını tek formatta toplar ve bakımın meeting-light akmasını sağlar. Amaç, bilgi kaybını azaltmak, MTTR’ı düşürmek ve “her şey toplantıda çözülmeli” baskısını kırmaktır. Otel (gece/gündüz) ve B2B (farklı ülke ekipleri) için uyarlanabilir.",
+            "whoFor": "Ops/on-call owner + PM + tech lead.",
+            "steps": [
+              "Ticket yorumlarında “durum paketi” formatını zorunlu kıl.",
+              "Gün sonu/handover notlarını tablo formatında paylaş ve ticket linklerini ekle.",
+              "Haftalık retro’da handover kalitesini ölç ve kuralları kalibre et."
+            ],
+            "checklist": [
+              "Ticket template kullanıldı",
+              "Handover tablo dolu ve linkli",
+              "Kritik akışlar (otel: rezervasyon / B2B: API/rapor) işaretli",
+              "SLA ve iş etkisi notlandı",
+              "Haftalık retro’da kalite gözden geçirildi"
+            ],
+            "href": "/downloads/uzaktan-bakim-async-ops-handover-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-zaman-dilimi-farkliliklari",
+        "title": "Otel ve B2B İçin Zaman Dilimi Farklılıklarıyla Çalışma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Zaman dilimi farkı “problem” değil, iyi kurgulanırsa avantajdır: follow-the-sun. Otelde gece/gündüz ekipleri; B2B’de farklı ülke/şehir ekipleri bu modeli kullanabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel: gece/gündüz ekipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gece penceresi: rezervasyon/ödeme P1 odaklı",
+              "Gündüz penceresi: iyileştirme + P3/P4 backlog",
+              "Handover: gece incident özetleri + sabah triage"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B: farklı ülke ekipleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bölgesel on-call: ilgili müşteri saatlerine yakın ekip",
+              "Release sonrası izleme: follow-the-sun devri",
+              "Handover: API/rapor job trendleri, error spikes"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Otel ve B2B projelerinde farklı zaman dilimlerindeki ekiplerle bakım nasıl yürütülür?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Ticket’i tek kaynak yapıp standart handover notlarıyla vardiya geçişini güvenli hale getirin. Kritik akışları (otel: rezervasyon/ödeme; B2B: API/rapor) zaman dilimi pencerelerine göre sahiplenin; “release sonrası izleme”yi follow-the-sun devriyle yönetin."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kritik akışlar zaman pencerelerine göre sahiplenildi mi?",
+              "Follow-the-sun devri için handover kuralı var mı?",
+              "Release sonrası izleme planı yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Zaman dilimi pencerelerini “kritik akış”a göre tasarla.",
+              "Follow-the-sun devri için ticket/handover zorunlu kıl.",
+              "Release sonrası 24 saat izlemeyi vardiya devriyle yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "async-ops-sla-incident-is-etkisi",
+        "title": "Async Ops’i SLA, Incident ve İş Etkisiyle Hizalamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Async ops, “yalnız süreç” değildir; SLA ve iş hedefleriyle hizalanmalıdır. Ticketing kalitesi SLA’yı doğrudan etkiler; downtime’ın iş etkisi de raporlamaya yansır."
+          },
+          {
+            "type": "h3",
+            "text": "İç link önerileri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "https://dgtlface.com/tr/yazilim/bakim-ve-destek (SLA)",
+              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik (incident/güvenlik)",
+              "https://dgtlface.com/tr/raporlama/satis-donusum (Varsayım: sayfa mevcutsa; değilse raporlama hub’a yönlendirilir.)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "SLA hedefleri async modelde ölçülebilir mi?",
+              "Incident runbook ve ticket template bağlı mı?",
+              "Downtime etkisi raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Ticket template’i SLA alanlarıyla standardize et (priority, impact).",
+              "Incident sonrası postmortem ve handover bağını kur.",
+              "İş etkisini (rezervasyon/lead) rapora ekle; ops değeri görünür olsun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "meeting-light-maintenance-yaklasimi",
+        "title": "Competitor Gap’i Kapatan “Meeting-Light Maintenance” Yaklaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de remote çalışma çok konuşuluyor; fakat bakım ve destek süreçlerinin async modeliyle nasıl yürütüleceği az anlatılıyor. Bu rehber; ticket yorum standardı, handover şablonu, kanal kuralları ve time-zone kurgusuyla uygulanabilir bir “meeting-light maintenance” modeli sunar. Sonuç: daha az toplantı baskısı, daha net sahiplik ve daha izlenebilir bakım."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Uzaktan Bakım & Async Ops Modeli Analiz Talep Et",
+            "text": "Projenize uygun ticket/handover standardını birlikte kuralım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Async ops modeli nedir, bakım ekiplerinde nasıl uygulanır?",
+        "a": "Ticket’i tek kaynak yapıp ticket yorumlarını standartlaştırarak, handover notlarıyla vardiya geçişini güvenli kılan meeting-light bakım modelidir. Net kanal kuralları ve ritim şarttır."
+      },
+      {
+        "q": "Uzaktan çalışan bakım ekibi için iletişim nasıl kurgulanmalı?",
+        "a": "Ticket yorumları ana kayıt olur; Slack/Teams sadece özet ve link için kullanılır; dashboard metrikleri karar desteği verir. Kritik kararlar ticket üzerinde yazılı kalmalıdır."
+      },
+      {
+        "q": "Handover notları ve ticket yorumları nasıl standardize edilir?",
+        "a": "Ticket template (özet/etki/durum/kanıt/yapılanlar/sıradaki) ve handover tablosu (açık incident, blokaj, next steps) kullanın. Link ve owner zorunlu olmalıdır."
+      },
+      {
+        "q": "Otel ve B2B projelerinde farklı zaman dilimlerindeki ekiplerle bakım nasıl yürütülür?",
+        "a": "Kritik akışları zaman pencerelerine göre sahiplenin; follow-the-sun devrinde handover zorunlu olsun. Release sonrası izlemeyi vardiya devriyle yönetin."
+      },
+      {
+        "q": "Async ops neden toplantı sayısını azaltır?",
+        "a": "Çünkü bilgi paketlenir ve izlenebilir olur; herkes “aynı anda” çevrim içi olmak zorunda kalmaz. Kararlar ticket üzerinde kayıtlı kalır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-hero-01.webp — alt text: “Async ops modeli, amaç remote bakım koordinasyonu, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-h1-context-02.webp — alt text: “Handover ve ticket akışı, amaç süreç sürekliliği, ops bağlamı”",
+          "divider-01 — 1600×1200 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-divider-03.webp — alt text: “Async iletişim standardı, amaç iyi ticket notu, remote ekip bağlamı”",
+          "divider-02 — 1600×1200 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-divider-04.webp — alt text: “Zaman dilimi kurgusu, amaç follow-the-sun ops, otel ve B2B bağlamı”",
+          "diagram-05 — 1920×1080 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-diagram-05.webp — alt text: “Ticket→yorum→handover akışı, amaç async bakım, ops bağlamı”",
+          "checklist-06 — 1200×1200 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-checklist-06.webp — alt text: “Uzaktan bakım checklist kartı, amaç hızlı adaptasyon, ekip bağlamı”",
+          "kpi-07 — 1200×1200 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-kpi-07.webp — alt text: “Async ops KPI paneli, amaç MTTR ve toplantı azaltma, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli-proof-08.webp — alt text: “Async ops deliverables seti, amaç meeting-light bakım, otel ve B2B bağlamı”",
+          "table-handover-note — Handover notu şablonu tablosu (tarih, açık incident, yapılanlar, blokaj, sıradaki)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
+          "Sunucu Güvenliği iç linki kontrol edildi: /yazilim/sunucu-guvenlik",
+          "Veri Analiz ve Raporlama iç linki kontrol edildi: /veri-analiz-ve-raporlama",
+          "Satış Dönüşüm Raporlama URL’si mevcutsa /raporlama/satis-donusum kullanılır; mevcut değilse raporlama hub’a yönlendirilir",
+          "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset",
+          "Ana içerikte seçilen tablo: Handover notu şablonu tablosu",
+          "Ticket yorum standardı alanları: özet, etki, durum, kanıt, yapılanlar, sıradaki ve risk",
+          "Follow-the-sun devrinde ticket ve handover zorunluluğu kontrol edildi",
+          "Handover alanlarında ticket linki, blokaj ve sıradaki adım boş bırakılmıyor",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+  "BlogSelfServiceBakimPaneliVeGuardraillerTeknikOlmayanKullanicilaraGuvenliYetki": {
+    "title": "Self-Service Bakım Paneli: Guardrail’li Güvenli Yetki",
+    "slug": "self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki",
+    "department": "yazilim",
+    "subDepartment":"maintenance",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Metin/görsel/kampanya gibi düşük riskli işlemler için guardrail’li self-service panel kurun. Onay akışı, rol bazlı yetki, loglama ve otel/B2B senaryolarıyla güvenli hız kazanın.",
+    "seo": {
+      "metaTitle": "Self-Service Bakım Paneli: Guardrail’li Güvenli Yetki | DGTLFACE",
+      "metaDescription": "Metin/görsel/kampanya gibi düşük riskli işlemler için guardrail’li self-service panel kurun. Onay akışı, rol bazlı yetki, loglama ve otel/B2B senaryolarıyla güvenli hız kazanın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Bakım ve Destek — https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+        "Blog No + Blog URL: 24 — https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Canonical: /tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki"
+      ],
+      "strategySummary": "Bu yazı, “küçük değişiklikler” yüzünden şişen teknik backlog’u azaltırken kontrolü kaybetmeme problemini çözer: self-service + guardrail modeli (authority-child). Hedef persona; otelde pazarlama/rezervasyon ekibi, ajans/IT yöneticisi ve teknik lider; B2B’de growth/marketing ops, ürün ops ve teknik liderdir. Funnel’da consideration → conversion: hangi işlemlerin teknik olmayan kullanıcıya açılacağını, hangi guardrail’lerle sınırlandırılacağını ve risk yönetimini nasıl kuracağını netleştirir. Ana iş sorusu: “Ekibimiz küçük değişiklikleri hızlı yapmak istiyor; siteyi bozmadan güvenli yetkiyi nasıl veririz?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Self-service bakım, teknik ekibin “en ufak metin değişikliğine” yetişme yükünü azaltır; ancak kontrolsüz bırakılırsa tasarım ve güvenlik kaosuna yol açabilir. Çözüm; guardrail (korkuluk) mantığıyla tasarlanmış sınırlı admin panelleridir: rol bazlı yetki, onay mekanizması, geri alma (rollback), değişiklik log’u ve alan sınırlarıyla düşük riskli işlemler (metin/görsel/kampanya switch) iş ekibine açılır; yüksek riskli teknik işlemler uzman ekipte kalır. Otel ve B2B’de hız + güven birlikte sağlanır.",
+      "sgeSummary": "Guardrail’li self-service: yalnız düşük risk alanları aç (metin/görsel/kampanya). Rol bazlı yetki, onay, audit log, rollback ve sınırlandırılmış alanlarla siteyi bozmadan hız kazan.",
+      "voiceAnswer": "Düşük riskli değişiklikleri self-service’e açın; onay, rol yetkisi, log ve geri alma guardrail’i koyun.",
+      "aiFactSheet": [
+        "Hedef kitle: Pazarlama/operasyon ekipleri, IT/tech lead, ajans yöneticisi",
+        "KPI’lar: küçük değişiklik ticket sayısı, lead time, hata/rollback sayısı, yetki ihlali, içerik tutarlılığı",
+        "Entity: self-service panel, guardrails, limited admin, approval flow, campaign switches, audit log",
+        "Geo: Türkiye geneli; otel ve B2B markalar",
+        "Funnel: Consideration (model seçimi) → conversion (analiz/şablon)",
+        "Çıktı: yetki matrisi + panel mockup + self-service checklist"
+      ]
+    },
+    "h1": {
+      "title": "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki",
+      "intro": "Birçok ekip iki uçta kalıyor: ya panel tamamen kilitli ve her küçük değişiklik teknik backlog’a düşüyor, ya da panel tamamen serbest ve tasarım/güvenlik kaosu başlıyor. Doğru çözüm “ortası”: risk-limited access yaklaşımı. Yani self-service panel var; ama guardrail’lerle sınırlı: rol bazlı yetki, onay akışı, audit log, geri alma ve alan sınırları. Bu rehber, otel ve B2B projelerinde self-service’in hangi işlere açılacağını, hangi işlerin teknik ekipte kalacağını ve risk yönetimini nasıl kuracağınızı anlatır.",
+      "quickSummary": [
+        "1. Self-service’i “küçük ve sık” değişikliklere odakla.",
+        "2. Yetki kapsamını “liste” olarak yazıp kilitle.",
+        "3. İlk gün: RBAC + log + rollback üçlüsünü zorunlu yap.",
+        "4. Güvenliği panelin parçası yap: yetki + log + onay.",
+        "5. Self-service değişikliklerini aylık raporla: hız kazancı + hata oranı."
+      ],
+      "ctaPrimary": {
+        "label": "Self-Service Bakım & Guardrail Tasarım Analizi Talep Et",
+        "text": "Teknik ekibin yükünü azaltıp iş ekibine güvenli yetki vermek isteyen markalar için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Self-Service Bakım & Guardrail Tasarım Analizi Talep Et",
+        "text": "Teknik olmayan ekiplerin güvenli biçimde küçük değişiklik yapabildiği, riskleri kontrol eden self-service modelini kurmak isteyen otel ve B2B markalar için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "Self-Service Panel Yetki & Guardrail Planlama Şablonunu İndir",
+        "text": "Hangi işlemin self-service olacağını, onay/log/rollback guardrail’lerini tek formatta belirleyerek siteyi bozmadan hız kazanmanızı sağlar.",
+        "href": "/downloads/self-service-panel-yetki-guardrail-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "CMS Entegrasyonu",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "/seo/icerik-seo"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "neden-self-service-bakim",
+        "title": "Neden Self-Service Bakım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Self-service bakımın hedefi “IT’yi devre dışı bırakmak” değil; IT’nin zamanını daha değerli işlere ayırmasını sağlamaktır. Özellikle otel ve B2B’de sık değişen kampanya metinleri, banner görselleri, promosyon alanları ve küçük içerik düzeltmeleri teknik ekibi sürekli bölüyorsa, bu işlerin kontrollü şekilde self-service’e taşınması toplam hız ve kaliteyi artırır."
+          },
+          {
+            "type": "h3",
+            "text": "Self-service’in sağladığı 3 fayda"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hız: küçük değişiklikler saatler/günler yerine dakikalar",
+              "Odak: teknik ekip stratejik bakım ve refactor’a odaklanır",
+              "Şeffaflık: değişiklik izi (log) ve onay akışı oluşur"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Self-service bakım modeli oturan ekiplerde, teknik backlog’a giren “çok küçük değişiklik” sayısının belirgin şekilde azalması daha olasıdır; ekip daha stratejik işlere odaklanır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Küçük değişiklikler için ticket sayısı yüksek mi?",
+              "Pazarlama/ops ekipleri aynı alanları sık güncelliyor mu?",
+              "Değişiklikler “izlenebilir” mi, yoksa kim ne yaptı belli değil mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Self-service’i “küçük ve sık” değişikliklere odakla.",
+              "İlk günden audit log ve rollback şartını koy.",
+              "Kapsamı büyütmeden önce 4–6 haftalık pilot yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-olmayan-kullanicilara-acilabilecek-islemler",
+        "title": "Hangi İşlemler Teknik Olmayan Kullanıcılara Açılabilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kural basit: düşük risk, kolay geri alma olan alanlar açılır; sistemik risk üreten alanlar teknik ekipte kalır. Burada “risk” hem güvenlik hem SEO hem de kullanıcı deneyimi riskidir."
+          },
+          {
+            "type": "h3",
+            "text": "Açılabilir (low-risk) örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Metin düzeltmeleri (başlık, açıklama, CTA)",
+              "Görsel güncellemeleri (banner, kampanya görseli)",
+              "Kampanya aç/kapa switch’leri (feature flag gibi)",
+              "B2B’de promo/banner alan yönetimi",
+              "FAQ içerik güncellemeleri (kontrollü şablonla)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Teknik ekipte kalmalı (high-risk) örnekleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Redirect, robots, canonical gibi teknik SEO ayarları",
+              "Ödeme, auth, rezervasyon akışı parametreleri",
+              "Script/tag ekleme (GTM/3rd-party)",
+              "DB migration, config değişikliği, yetki sistemi",
+              "Güvenlik ayarları ve erişim yönetimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Self-service bakım paneli nedir, hangi işlemler için uygundur?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Self-service bakım paneli; teknik olmayan kullanıcıların metin/görsel/kampanya gibi düşük riskli içerik alanlarını güvenli biçimde yönetmesini sağlayan sınırlı admin arayüzüdür. Uygun işlemler; kolay geri alınabilir ve sistemik risk üretmeyen değişikliklerdir; kritik teknik ayarlar uzman ekipte kalmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Yetki Matrisi (Self-service mi teknik mi?)"
+          },
+          {
+            "type": "table",
+            "caption": "Yetki Matrisi (Self-service mi teknik mi?)",
+            "headers": [
+              "İşlem",
+              "Risk",
+              "Self-service?",
+              "Guardrail",
+              "Not"
+            ],
+            "rows": [
+              [
+                "Metin güncelle",
+                "Düşük",
+                "Evet",
+                "RBAC + log + rollback",
+                "şablon"
+              ],
+              [
+                "Görsel güncelle",
+                "Düşük/Orta",
+                "Evet",
+                "ölçü/format validation",
+                "WebP"
+              ],
+              [
+                "Kampanya aç/kapa",
+                "Orta",
+                "Evet",
+                "onay + audit",
+                "switch"
+              ],
+              [
+                "Redirect/robots",
+                "Yüksek",
+                "Hayır",
+                "—",
+                "teknik"
+              ],
+              [
+                "Script ekleme",
+                "Yüksek",
+                "Hayır",
+                "—",
+                "güvenlik"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Açılacak alanlar “geri alınabilir” mi?",
+              "Alanlar şablon ve sınırlarla kısıtlı mı?",
+              "SEO/ güvenlik etkisi var mı (varsa teknik ekipte kalsın)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yetki kapsamını “liste” olarak yazıp kilitle.",
+              "High-risk alanlar için self-service kapalı kalsın.",
+              "Her değişiklik için otomatik preview ve doğrulama adımı koy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "guardrail-korkuluk-kavrami",
+        "title": "Guardrail (Korkuluk) Kavramı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Guardrail, self-service’in “güvenli” olmasını sağlayan kural ve mekanizmalardır. Amaç: hız verirken “siteyi bozma” riskini düşürmek."
+          },
+          {
+            "type": "h3",
+            "text": "Guardrail türleri (pratik set)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RBAC (rol bazlı yetki): kim hangi alanı düzenler",
+              "Approval flow: kritik alanlarda onay (4-eye principle)",
+              "Audit log: kim neyi ne zaman değiştirdi",
+              "Rollback / versioning: önceki sürüme dönüş",
+              "Validation: karakter sınırı, görsel ölçü, yasak kelime/format",
+              "Preview: staging/preview linkiyle doğrulama",
+              "Rate limiting: aynı anda çok değişiklik yapmayı sınırlama"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Teknik olmayan kullanıcılar için hangi guardrail’ler konulmalı?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: En temel guardrail seti; rol bazlı yetki, onay akışı, audit log, geri alma (rollback) ve içerik doğrulama (validation) olmalıdır. Böylece hem yanlış kullanım hem de tasarım/SEO tutarsızlığı riski azaltılır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Audit log olmadan self-service açılıyor mu? (risk)",
+              "Rollback olmadan değişiklik kalıcı mı? (risk)",
+              "Approval yalnız kritik alanlarda mı, her yerde mi? (denge)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk gün: RBAC + log + rollback üçlüsünü zorunlu yap.",
+              "Approval’ı riskli alanlara uygula; her şeye koyma (hızı öldürür).",
+              "Validation kurallarını alan bazlı yaz (metin/görsel/kampanya)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-self-service-senaryolari",
+        "title": "Otel ve B2B İçin Self-Service Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Self-service en hızlı değeri, sık güncellenen içerik/kampanya alanlarında üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya sayfası metinleri ve görselleri",
+              "Sezonluk paket switch’leri (aktif/pasif)",
+              "Çok dilli içerik güncellemeleri (şablonla)",
+              "Banner ve duyuru alanları (top bar, pop-up)",
+              "Dikkat: fiyat ve rezervasyon parametreleri teknik ekipte kalmalı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B senaryoları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dashboard banner/promo alan yönetimi",
+              "Duyuru/maintenance mesajları (status)",
+              "Yardım/SSS içerikleri",
+              "Dikkat: auth/permissions ve API ayarları teknik ekipte kalmalı."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde kampanya alanları self-service mi?",
+              "B2B’de duyuru/promo alanı kontrollü mü?",
+              "Multi-language güncellemeleri için validation var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otelde “kampanya switch” modelini pilotla.",
+              "B2B’de promo alanını onay + log ile aç.",
+              "Çok dilli içerikte şablon ve karakter sınırı uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "self-service-panel-yetki-guardrail-planlama-asset",
+        "title": "Self-Service Panel Yetki & Guardrail Planlama Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Audit Sheet (yetki + guardrail değerlendirme)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Self-Service Panel Yetki & Guardrail Planlama Şablonunu İndir — Yazılım / Guardrails (v1.0)",
+            "purpose": "Bu audit sheet; self-service panel kapsamını belirlemenizi (hangi alanlar açılabilir), guardrail setini seçmenizi (RBAC, onay, log, rollback, validation) ve riskleri ölçülebilir hale getirmenizi sağlar. Amaç, küçük değişiklikleri hızlandırırken yüksek riskli teknik işlemleri uzman ekipte tutmaktır. Otel kampanya switch’leri ve B2B promo alanları gibi senaryolara uyarlanabilir.",
+            "whoFor": "Ürün/ops sahibi + tech lead + pazarlama/operasyon (ortak karar).",
+            "steps": [
+              "Self-service’e açılacak alanları listele ve risk skorla.",
+              "Guardrail setini seç; approval ve validation kurallarını yaz.",
+              "Pilot uygula; rollback/hata oranı ve ticket azalmasıyla kalibre et."
+            ],
+            "checklist": [
+              "Yetki kapsam netliği: ___/5",
+              "Guardrail tamlığı (RBAC/log/rollback): ___/5",
+              "Onay akışı dengesi (hız vs kontrol): ___/5",
+              "Validation/preview kalitesi: ___/5",
+              "Risk yönetimi (izleme + rapor): ___/5"
+            ],
+            "href": "/downloads/self-service-panel-yetki-guardrail-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          }
+        ]
+      },
+      {
+        "id": "self-service-risk-yonetimi",
+        "title": "Risk Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Self-service açıldığında risk artmaz; doğru kurgulanırsa risk daha yönetilebilir olur, çünkü değişiklikler kayıt altına alınır. Risk yönetimi üç katmanda yapılır: erişim, doğrulama, izleme."
+          },
+          {
+            "type": "h3",
+            "text": "Riskleri azaltan pratikler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“En az yetki” (least privilege)",
+              "Üretim yerine preview zorunluluğu (riskli alanlarda)",
+              "Otomatik test/SEO kontrol listesi (basit)",
+              "Değişiklik sonrası izleme penceresi (30–60 dk)",
+              "Geri alma butonu + sürüm geçmişi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Self-service bakım paneli tasarlarken güvenlik ve UX açısından nelere dikkat etmeliyim?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Güvenlik için RBAC, audit log ve least privilege; UX için şablonlu alanlar, preview ve doğrulama kuralları kritiktir. Kullanıcıyı serbest bırakmak yerine “korkuluklarla hızlandırmak” gerekir; böylece hızlı değişiklik yapılır ama site bozulmaz."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Panelde “prod” etkisi yaratacak alanlar ayrı mı?",
+              "Değişiklik sonrası izleme kuralı var mı?",
+              "Loglar KVKK/uyum açısından uygun mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Güvenliği panelin parçası yap: yetki + log + onay.",
+              "UX’i basitleştir: şablon, preview, validation.",
+              "Self-service değişikliklerini aylık raporla: hız kazancı + hata oranı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kontrollu-yetkilendirme-yaklasimi",
+        "title": "Competitor Gap’i Kapatan “Kontrollü Yetkilendirme” Yaklaşımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de pek çok kurum paneli ya tamamen kilitli tutuyor ya da tamamen serbest bırakıyor. Bu rehberin farkı; guardrail’lerle “kontrollü empowerment” vermesidir: low-risk alanları aç, high-risk alanları kapalı tut, izlenebilirlik ve geri alma ile riski yönet. Böylece hem iş ekipleri hız kazanır hem teknik ekip stratejik bakım işlerine odaklanır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Self-Service Bakım & Guardrail Tasarım Analizi Talep Et",
+            "text": "Projenize uygun kapsam ve guardrail setini birlikte çıkaralım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Self-service bakım paneli nedir, hangi işlemler için uygundur?",
+        "a": "Teknik olmayan kullanıcıların düşük riskli metin/görsel/kampanya gibi alanları yönetebildiği sınırlı admin panelidir. Uygun işlemler kolay geri alınabilir ve sistemik risk üretmeyen değişikliklerdir."
+      },
+      {
+        "q": "Teknik olmayan kullanıcılar için hangi guardrail’ler konulmalı?",
+        "a": "Rol bazlı yetki (RBAC), onay akışı (riskli alanlarda), audit log, rollback/sürüm geçmişi ve validation (ölçü/format/karakter) temel guardrail setidir."
+      },
+      {
+        "q": "Otel ve B2B projelerinde self-service ile teknik ekip yükü nasıl dengelenir?",
+        "a": "Sık ve küçük içerik/kampanya değişiklikleri self-service’e taşınır; rezervasyon/ödeme/auth gibi kritik teknik işlemler teknik ekipte kalır. KPI olarak küçük ticket sayısı ve rollback izlenir."
+      },
+      {
+        "q": "Self-service bakım paneli tasarlarken güvenlik ve UX açısından nelere dikkat etmeliyim?",
+        "a": "Güvenlikte RBAC, log ve least privilege; UX’te şablonlu alan, preview ve validation önemlidir. Her değişiklikte geri alma imkânı olmalıdır."
+      },
+      {
+        "q": "Paneli tamamen serbest bırakmak neden riskli?",
+        "a": "Tasarım tutarsızlığı, yanlış içerik, SEO kırılması ve güvenlik riski doğurur. Guardrail’ler bu riskleri yönetilebilir seviyeye indirir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-hero-01.webp — alt text: “Self-service bakım paneli, amaç güvenli yetki, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-h1-context-02.webp — alt text: “Guardrail modeli, amaç kontrollü empowerment, iş ve teknik bağlamı”",
+          "divider-01 — 1600×1200 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-divider-03.webp — alt text: “Yetki kapsamı bölümü, amaç düşük risk alanları, otel ve B2B bağlamı”",
+          "divider-02 — 1600×1200 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-divider-04.webp — alt text: “Risk yönetimi bölümü, amaç audit log ve rollback, teknik ops bağlamı”",
+          "diagram-05 — 1920×1080 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-diagram-05.webp — alt text: “Yetki karar akışı, amaç self-service sınırları, ekip bağlamı”",
+          "checklist-06 — 1200×1200 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-checklist-06.webp — alt text: “Self-service bakım checklist kartı, amaç hızlı devreye alma, ekip bağlamı”",
+          "kpi-07 — 1200×1200 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-kpi-07.webp — alt text: “Self-service KPI kartı, amaç teknik yükü azaltma, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki-proof-08.webp — alt text: “Self-service deliverables, amaç güvenli hız, otel ve B2B bağlamı”",
+          "table-self-service-technical-matrix — Self-service vs teknik ekip matrisi (hangi işlem kimde) + risk seviyesi",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
+          "CMS Entegrasyonu iç linki kontrol edildi: /yazilim/cms-entegrasyonu",
+          "KVKK Uyum Hizmeti iç linki kontrol edildi: /yazilim/kvkk-uyum-hizmeti",
+          "İçerik SEO iç linki kontrol edildi: /seo/icerik-seo",
+          "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset",
+          "Ana içerikte seçilen tablo: Self-service vs teknik ekip matrisi + risk seviyesi",
+          "RBAC, audit log ve rollback temel guardrail setinde zorunlu",
+          "Approval yalnız riskli alanlarda uygulanır",
+          "High-risk teknik işlemler self-service kapsamı dışında tutulur",
+          "Preview ve validation kuralları alan bazında tanımlanır",
+          "Değişiklik sonrası 30–60 dakikalık izleme penceresi uygulanır",
+          "Pilot süresi: 4–6 hafta",
+          "Yetki kapsamı 90 günde bir güncellenir",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+  "BlogSreKulturuVeErrorBudgetModeliBakimSurecineUyarlamak": {
+    "title": "SRE & Error Budget: Bakım ve Özellik Dengesini Kur",
+    "slug": "sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
+    "department": "yazilim",
+    "subDepartment":"maintenance",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SLO hedeflerinden error budget hesaplayın; bütçe tükenince feature hızını düşürüp bakım ve stabilite işlerini artırın. Otel rezervasyon/ödeme ve B2B API/rapor SLO örnekleriyle.",
+    "seo": {
+      "metaTitle": "SRE & Error Budget: Bakım ve Özellik Dengesini Kur | DGTLFACE",
+      "metaDescription": "SLO hedeflerinden error budget hesaplayın; bütçe tükenince feature hızını düşürüp bakım/stabilite işlerini artırın. Otel rezervasyon/ödeme ve B2B API/rapor SLO örnekleriyle."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı + Sayfa URL: Bakım ve Destek — https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+        "Blog No + Blog URL: 25 — https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
+        "Blog Tipi (Core/Trend): Trend",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Canonical: /tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak"
+      ],
+      "strategySummary": "Bu yazı, “bakım mı özellik mi?” tartışmasını duygudan çıkarıp SRE-temelli karar çerçevesine bağlar: SLO/SLA ve error budget ile veriye dayalı trade-off (authority-child). Hedef persona; ürün/operasyon lideri, teknik lider, ajans/IT yöneticisi ve yönetimdir; otelde rezervasyon/gelir ekibi, B2B’de ürün/SaaS ekipleri öne çıkar. Funnel’da consideration → conversion: error budget’i bakım ve release kararlarına entegre edecek model, tablo ve checklist verir. Ana iş sorusu: “Hız (velocity) ve stabilite (reliability) dengesini, error budget tüketimine göre nasıl yönetirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "SRE ve error budget yaklaşımı, “bakım mı özellik mi?” tartışmasını veriye taşır. SLO hedeflerine göre hesaplanan error budget, belirli bir dönemde ne kadar kesinti/bozulma “tolere edilebilir” sorusuna net yanıt verir. Bütçe tüketildiyse, özellik geliştirme hızı yavaşlatılır ve bakım/stabilite işleri hızlandırılır; bütçe sağlamsa kontrollü risk alınabilir. Otelde rezervasyon/ödeme; B2B’de API/raporlama SLO’larıyla bu model ortak dil oluşturur.",
+      "sgeSummary": "SLO’dan error budget çıkar: (1−SLO)*zaman. Bütçe tükenince feature frenle, bakım hızlandır; tüketim düşükse kontrollü release. Tabloyla dönem/harcanan bütçe/aksiyon izle.",
+      "voiceAnswer": "SLO’ya göre error budget hesaplayın; bütçe erirse feature’ı yavaşlatıp stabilite ve bakım işlerine odaklanın.",
+      "aiFactSheet": [
+        "Hedef kitle: Ürün/ops lideri, tech lead, yönetim, ajans/IT",
+        "KPI’lar: uptime, incident sayısı, MTTR, SLO ihlali, error budget tüketimi, release başarısı",
+        "Entity: SLA, SLO, error budget, uptime, incident, stability vs velocity",
+        "Geo: Türkiye geneli; otel, SaaS ve B2B ekipleri",
+        "Funnel: Consideration (çerçeve) → conversion (şablon)",
+        "Çıktı: SLO/SLA diyagramı + error budget tablosu + checklist"
+      ]
+    },
+    "h1": {
+      "title": "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
+      "intro": "Birçok ekipte aynı tartışma tekrar eder: “Özellik yetiştirelim” diyenlerle “stabilite bozuluyor” diyenler karşı karşıya gelir. SRE kültürü, bu tartışmayı kişisel görüşlerden çıkarıp ölçülebilir hedeflere bağlar: SLO’lar, error budget ve net aksiyon kuralları. Error budget; aslında “ne kadar risk alabiliriz?” sorusunun sayısal yanıtıdır. Bu rehber; SLO/SLA kavramlarını sadeleştirir, error budget’ı nasıl hesaplayacağınızı ve otel/B2B projelerinde bakım–ürün kararlarına nasıl bağlayacağınızı adım adım anlatır.",
+      "quickSummary": [
+        "1. Kritik servisler için ölçülebilir SLO hedefleri belirle.",
+        "2. Error budget’ı SLO hedefi ve dönem süresine göre hesapla.",
+        "3. Green/Yellow/Red aksiyon kurallarını önceden yaz.",
+        "4. Budget tükendiğinde feature hızını düşürüp stabilite işlerini artır.",
+        "5. Budget tüketimini release takvimi ve iş etkisiyle birlikte raporla."
+      ],
+      "ctaPrimary": {
+        "label": "SRE & Error Budget Bakım Modeli Analiz Talep Et",
+        "text": "Feature hızını ve stabiliteyi aynı metrik diliyle yönetmek isteyen ekipler için.",
+        "href": "/yazilim/bakim-ve-destek"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SRE & Error Budget Bakım Modeli Analiz Talep Et",
+        "text": "Ürün hızını ve stabiliteyi ortak SLO/error budget diliyle yönetmek isteyen otel, SaaS ve B2B ekipleri için.",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      "secondary": {
+        "label": "SLO & Error Budget Tanım ve Takip Şablonunu İndir",
+        "text": "SLO hedeflerini, error budget hesaplarını ve budget durumuna göre aksiyon kurallarını tek formatta standardize ederek ekipler arası karar çatışmasını azaltmanızı sağlar.",
+        "href": "/downloads/slo-error-budget-tanim-ve-takip-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Bakım ve Destek",
+        "href": "/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "Sunucu Güvenliği",
+        "href": "/yazilim/sunucu-guvenlik"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/veri-analiz-ve-raporlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "sre-nedir",
+        "title": "SRE Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SRE (Site Reliability Engineering), yazılım ve operasyon disiplinlerini birleştirip hizmetin güvenilirliğini ölçülebilir hedeflerle yöneten yaklaşımdır. SRE’nin özü “daha az incident” demek değildir; kabul edilebilir risk seviyesini netleştirip buna göre hız–stabilite dengesini kurmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "SRE’nin bakım açısından 3 ana katkısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ortak metrik dili (SLO, error budget)",
+              "Stabilite işlerinin planlanması (bakım blokları)",
+              "Release riskinin yönetilmesi (bütçe tüketimine göre fren/gaz)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : SRE nedir, error budget ne anlama gelir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: SRE, güvenilirliği SLO’larla yöneten yaklaşımdır. Error budget ise hedef SLO’ya göre belirli bir dönemde “tolerans” olarak kabul edilen kesinti/bozulma payıdır; bu bütçe tüketilirse stabilite işleri öncelik kazanır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Stabil” tanımı var mı, yoksa hissiyat mı?",
+              "Kritik servisler için hedefler yazılı mı?",
+              "Release riskini ölçen bir mekanizma var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SRE’yi “ekip” değil “kültür” olarak ele al: hedef + ölçüm + aksiyon.",
+              "İlk adım: kritik servisler için SLO belirle.",
+              "Error budget’ı “fren/gaz” mekanizması gibi kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "error-budget-sla-slo-iliskisi",
+        "title": "Error Budget Kavramı (SLA/SLO ile İlişkisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde en sık karışan üç kavramı netleştiriyoruz: SLA, SLO, error budget."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SLA (Service Level Agreement): müşteriyle verilen söz (daha resmi, kontratsal)",
+              "SLO (Service Level Objective): iç hedef (operasyonun yönetim hedefi)",
+              "Error budget: SLO’nun “tolerans payı” (bütçe)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Basit formül (zaman bazlı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Error budget = (1 − hedef SLO) × dönem süresi",
+              "Örn. aylık 30 gün ≈ 43.200 dakika",
+              "SLO %99,9 ise bütçe ≈ 43,2 dakika “kabul edilebilir bozulma”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Bu bir çerçevedir; ölçüm yöntemine (availability/latency/error rate) göre yorumlanır."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "h3",
+            "text": "Soru : SLA, SLO ve error budget arasındaki farklar nelerdir?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: SLA dışa verilen taahhüttür; SLO iç hedefinizdir. Error budget, SLO’ya göre belirli dönemde tolerans edilen bozulma payıdır ve bakım/özellik kararlarında “risk bütçesi” olarak kullanılır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "SLA ve SLO karıştırılıyor mu?",
+              "SLO ölçümü hangi metrikten yapılıyor (uptime/latency)?",
+              "Budget tüketimi düzenli raporlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce SLO’ları netleştir, SLA’yı bunun üstüne yerleştir.",
+              "Error budget’ı “aylık rapor”un parçası yap.",
+              "Budget tüketimine göre release kurallarını yazılı hale getir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ozellik-hizi-stabilite-dengesi",
+        "title": "Yeni Özellik Hızı vs Stabilite Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Error budget’in gerçek değeri burada ortaya çıkar: bütçe “sağlıklı” ise kontrollü risk alabiliriz; bütçe “tükendiyse” stabiliteye dönmeliyiz. Bu, ekipler arası tartışmayı “kim haklı”dan “hangi sayı ne diyor”a çevirir."
+          },
+          {
+            "type": "h3",
+            "text": "Bütçe durumuna göre aksiyon kuralları (pratik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Green (bütçe bol): normal feature hızı + standart bakım",
+              "Yellow (bütçe azalıyor): riskli değişiklikleri azalt, bakım kapasitesini artır",
+              "Red (bütçe tükendi): feature freeze / sadece kritik hotfix + bakım/stabilite sprint’i"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış): Error budget yaklaşımını benimseyen ekiplerde, yeni özellik hızı ve stabilite arasındaki dengeyi daha bilinçli ve veri destekli kurmak daha kolay olur; çünkü kararlar bütçe sinyaline bağlanır."
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "“Budget bittiğinde ne yapacağız?” kuralı yazılı mı?",
+              "Riskli değişiklikler (major) budget durumuna göre kısıtlanıyor mu?",
+              "Bakım kapasitesi budget sinyaline göre artıp azalıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Green/Yellow/Red kurallarını sprint planına bağla.",
+              "Red’de feature’ı frenle; teknik borç ve stabiliteye yüklen.",
+              "Budget tüketimini yönetim diliyle raporla: risk ve iş etkisi."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-error-budget-ornekleri",
+        "title": "Otel ve B2B İçin Error Budget Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SLO’lar servis bazında tanımlanmalıdır. Otelde rezervasyon/ödeme; B2B’de API/raporlama kritik servislerdir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örnekleri (rezervasyon/ödeme SLO’ları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon akışı availability SLO",
+              "Ödeme adımı hata oranı SLO",
+              "Arama/fiyat sayfası latency SLO",
+              "Not: Sezonda SLO daha kritik hale gelir; budget daha hızlı tükenebilir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B örnekleri (API/raporlama SLO’ları)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "API error rate / latency SLO (p95)",
+              "Rapor/export job başarı oranı SLO",
+              "Login/auth akışı SLO"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek Error Budget Tablosu (kopyalanabilir):"
+          },
+          {
+            "type": "table",
+            "caption": "Örnek Error Budget Tablosu (kopyalanabilir)",
+            "headers": [
+              "Dönem",
+              "Servis",
+              "Hedef SLO",
+              "Budget (Zaman)",
+              "Kullanılan",
+              "Kalan",
+              "Durum",
+              "Aksiyon"
+            ],
+            "rows": [
+              [
+                "Ay-1",
+                "Rezervasyon",
+                "99,9%",
+                "TBD",
+                "TBD",
+                "TBD",
+                "Yellow",
+                "riskli release azalt"
+              ],
+              [
+                "Ay-1",
+                "Ödeme",
+                "99,95%",
+                "TBD",
+                "TBD",
+                "TBD",
+                "Green",
+                "normal plan"
+              ],
+              [
+                "Ay-1",
+                "API",
+                "99,9%",
+                "TBD",
+                "TBD",
+                "TBD",
+                "Red",
+                "feature freeze + stabilite"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde rezervasyon/ödeme ayrı servis olarak izleniyor mu?",
+              "B2B’de API ve rapor/export ayrı SLO’ya sahip mi?",
+              "Budget tablosu aylık düzenli güncelleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "En kritik 2–3 servisle başla, sonra genişlet.",
+              "SLO’ları “ölçülebilir” yap (availability, error rate, latency).",
+              "Budget raporunu release takvimiyle ilişkilendir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slo-error-budget-tanim-takip-asset",
+        "title": "SLO & Error Budget Tanım ve Takip Şablonunu İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Audit Sheet (SLO & budget tanımı + takip)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "SLO & Error Budget Tanım ve Takip Şablonunu İndir — Yazılım / SRE (v1.0)",
+            "purpose": "Bu şablon; servis bazında SLO hedeflerini tanımlamanızı, error budget’ı dönem bazlı hesaplamanızı ve budget tüketimine göre aksiyon kurallarını (feature yavaşlat, bakım hızlandır) standardize etmenizi sağlar. Otel (rezervasyon/ödeme) ve B2B (API/rapor) kritik servisleri için örnek alanlar içerir. Amaç; hız–stabilite kararlarını veriye bağlamaktır.",
+            "whoFor": "Ürün lideri + ops/tech lead + yönetim temsilcisi (ortak karar).",
+            "steps": [
+              "Kritik servisleri seç ve SLO metriklerini tanımla (availability/latency/error).",
+              "Error budget’ı hesapla ve aylık tüketimi raporla.",
+              "Green/Yellow/Red durumuna göre release ve bakım politikalarını uygula."
+            ],
+            "checklist": [
+              "SLO tanım netliği (servis bazlı): ___/5",
+              "Ölçüm altyapısı (dashboard/alert): ___/5",
+              "Budget aksiyon kuralları (Green/Yellow/Red): ___/5",
+              "Ürün-bakım hizası (policy uygulanıyor mu?): ___/5",
+              "İletişim (yönetim raporu): ___/5"
+            ],
+            "href": "/downloads/slo-error-budget-tanim-ve-takip-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "bakim-urun-ekipleri-ortak-dil",
+        "title": "Bakım ve Ürün Ekipleri Arasında Ortak Dil",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SRE yaklaşımı, ürün ve bakım ekiplerini aynı masaya oturtan ortak metrik dili sağlar. “Bakım istiyoruz” demek yerine “budget kırmızı, risk alamayız” demek daha net bir çerçevedir."
+          },
+          {
+            "type": "h3",
+            "text": "Ortak toplantı ritmi (öneri)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık SLO & error budget review",
+              "Red/Yellow durumda aksiyon planı (bakım sprint’i, freeze)",
+              "Postmortem → SLO güncelleme veya guardrail güçlendirme"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Bütünsel konumlandırma için iç linkler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "https://dgtlface.com/tr/yazilim/bakim-ve-destek (SLA)",
+              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik (incident sıklığı)",
+              "https://dgtlface.com/tr/raporlama/satis-donusum (downtime’ın gelir etkisi)",
+              "https://dgtlface.com/tr/veri-analiz-ve-raporlama (paneller)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Soru : Error budget’ı bakım ve özellik geliştirme kararlarında nasıl kullanırım?"
+          },
+          {
+            "type": "p",
+            "text": "Cevap: Error budget tüketimi “fren/gaz” sinyalidir. Budget sağlıklıysa planlı feature devam eder; budget düşüyorsa riskli değişiklikler azaltılır; budget tükendiyse feature yavaşlatılır/ dondurulur ve bakım/stabilite işleri hızlandırılır. Bu kurallar önceden yazılı olmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Ürün ve bakım ekibi aynı budget tablosuna mı bakıyor?",
+              "Karar kuralları önceden yazılı mı?",
+              "Downtime’ın iş etkisi rapora ekleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Budget raporunu yönetimle paylaş: risk ve gelir etkisi.",
+              "Red’de otomatik süreç: feature freeze + stabilite sprint.",
+              "Her incident sonrası SLO ve guardrail’leri gözden geçir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sre-temelli-bakim-modeli",
+        "title": "Competitor Gap’i Kapatan “SRE-Temelli Bakım Modeli”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SRE/error budget modeli, özellikle ürün ve bakım ekiplerinin ayrıştığı organizasyonlarda “kimin haklı olduğu” tartışmasını veriye bağlar. Bu rehberin farkı; formül, tablo, otel/B2B örnekleri ve aksiyon kurallarıyla modeli uygulanabilir hale getirmesidir: sadece teori değil, operasyon politikası."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SRE & Error Budget Bakım Modeli Analiz Talep Et",
+            "text": "SLO’ları ve budget kurallarını projenize göre birlikte kurgulayalım.",
+            "href": "/yazilim/bakim-ve-destek"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SRE nedir, error budget ne anlama gelir?",
+        "a": "SRE güvenilirliği SLO’larla yöneten yaklaşımdır. Error budget, hedef SLO’ya göre belirli dönemde tolerans edilen bozulma payıdır ve hız–stabilite kararlarında kullanılır."
+      },
+      {
+        "q": "SLA, SLO ve error budget arasındaki farklar nelerdir?",
+        "a": "SLA dışa verilen taahhüt; SLO iç operasyon hedefidir. Error budget, SLO hedefinden türetilen tolerans payıdır ve bütçe tüketimine göre aksiyon alınır."
+      },
+      {
+        "q": "Otel ve B2B projeleri için hangi SLO’ları belirlemeliyim?",
+        "a": "Otelde rezervasyon ve ödeme akışları; B2B’de API latency/error ve rapor/export başarı oranı kritik SLO’lardır. Her servis için ölçülebilir metrik seçin."
+      },
+      {
+        "q": "Error budget’ı bakım ve özellik geliştirme kararlarında nasıl kullanırım?",
+        "a": "Budget tüketimi fren/gaz sinyalidir. Green’de normal hız, Yellow’da risk azaltma, Red’de feature freeze + stabilite sprint’i uygulanır. Kurallar önceden yazılı olmalıdır."
+      },
+      {
+        "q": "Error budget bittiğinde ne yapmalıyız?",
+        "a": "Riskli değişiklikleri durdurup bakım/stabilite işlerine ağırlık verin; yalnız kritik hotfix’lerle ilerleyin. Postmortem ve önleyici aksiyonlarla budget tüketimini azaltmaya çalışın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-hero-01.webp — alt text: “SRE error budget modeli, amaç hız-stabilite dengesi, otel ve B2B bağlamı”",
+          "h1-context — 1920×1080 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-h1-context-02.webp — alt text: “SLA-SLO-budget ilişkisi, amaç ortak dil, ürün ve bakım bağlamı”",
+          "divider-01 — 1600×1200 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-divider-03.webp — alt text: “SLO tanımı bölümü, amaç ölçülebilir hedef, teknik ekip bağlamı”",
+          "divider-02 — 1600×1200 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-divider-04.webp — alt text: “Budget aksiyon kuralları, amaç feature vs stabilite kararı, yönetim bağlamı”",
+          "diagram-05 — 1920×1080 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-diagram-05.webp — alt text: “Error budget formülü diyagramı, amaç SLO/SLA ilişkisi, ekip bağlamı”",
+          "checklist-06 — 1200×1200 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-checklist-06.webp — alt text: “SLO ve error budget checklist kartı, amaç hızlı başlangıç, ekip bağlamı”",
+          "kpi-07 — 1200×1200 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-kpi-07.webp — alt text: “Budget KPI kartı, amaç tüketim takibi, yönetim bağlamı”",
+          "proof-08 — 1200×1200 — sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak-proof-08.webp — alt text: “SRE deliverables seti, amaç karar çerçevesi, otel ve B2B bağlamı”",
+          "table-error-budget-example — Örnek error budget tablosu (dönem, hedef, kullanılan, aksiyon)",
+          "table-slo-definition — SLO Tanım Tablosu",
+          "table-error-budget-tracking — Error Budget Takip Tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
+          "Satış Dönüşüm Raporlama iç linki kontrol edildi: /raporlama/satis-donusum",
+          "Sunucu Güvenliği iç linki kontrol edildi: /yazilim/sunucu-guvenlik",
+          "Veri Analiz ve Raporlama iç linki kontrol edildi: /veri-analiz-ve-raporlama",
+          "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset",
+          "Ana içerikte seçilen tablo: Örnek error budget tablosu",
+          "Error budget formülü: (1 − hedef SLO) × dönem süresi",
+          "Green durumunda normal feature hızı ve standart bakım uygulanır",
+          "Yellow durumunda riskli değişiklikler azaltılır ve bakım kapasitesi artırılır",
+          "Red durumunda feature freeze, kritik hotfix ve stabilite sprint’i uygulanır",
+          "SLO’lar servis bazında availability, latency, error rate veya success rate ile ölçülür",
+          "Budget tüketimi aylık raporlanır ve release takvimiyle ilişkilendirilir",
+          "Postmortem sonrasında SLO ve guardrail kuralları gözden geçirilir",
+          "Kalibrasyon döngüsü: 90–180 gün",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  }
 }

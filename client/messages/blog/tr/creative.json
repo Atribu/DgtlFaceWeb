@@ -20492,6 +20492,2471 @@
         ]
       }
     }
+  },
+
+  "BlogAnimasyonluLogoVeIntroOutroPackMarkalarIcinGirisCikisKiti": {
+    "title": "Logo Animasyonu ve Intro/Outro Pack Rehberi",
+    "slug": "animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Marka imzası için 1–2 sn logo reveal ve intro/outro pack kurun. Reels/YouTube/web kullanımına göre versiyonlayın, CTA alanını doğru yerleştirin; checklist’i indirin.",
+    "seo": {
+      "metaTitle": "Logo Animasyonu ve Intro/Outro Pack Rehberi | DGTLFACE",
+      "metaDescription": "Marka imzası için 1–2 sn logo reveal ve intro/outro pack kurun. Reels/YouTube/web kullanımına göre versiyonlayın, CTA alanını doğru yerleştirin; checklist’i indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "URL normalizasyonu: relative → https://dgtlface.com + path",
+        "Blog No + Blog URL: #14 — https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Blog-slug: animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti",
+        "Canonical: /tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda video içeriklerde “marka imzası” oluşturan logo animasyonu + intro/outro pack sistemini standartlaştıran core içeriktir ve /tr/creative/video-produksiyon ile /tr/smm/reels-video sayfalarına köprü kurar. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir: videoların “markasız içerik” gibi görünmesini istemez, hatırlanırlığı artırmak ister. Funnel’da awareness → consideration: marka imzası güçlenir, sonra CTA’lı outro ile dönüşüm adımı netleşir. Ana iş sorusu: “Logo animasyonu kaç saniye olmalı, hangi pack parçalarına ihtiyacım var ve her platformda nasıl kullanmalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Animasyonlu logo ve intro/outro pack, videolara tutarlı bir “marka imzası” ekler. En iyi sonuç için logo reveal süresi genelde 1–2 saniye bandında, sade ama karakterli olmalıdır; uzun intro izleyiciyi kaçırır. Pack içinde şeffaf/katmanlı versiyonlar, farklı arka planlara uyum ve outro’da net bir CTA alanı bulunmalıdır. Otel ve B2B’de bu sistem videoların profesyonel algısını ve markanın hatırlanma ihtimalini artırır.",
+      "sgeSummary": "1–2 saniyelik sade logo reveal üret; intro/outro pack’i platformlara göre versiyonla (Reels/YouTube/web). Şeffaf arka plan ve CTA’lı outro ekle; tek bir brand motion standardı oluştur.",
+      "voiceAnswer": "Logo animasyonunu 1–2 saniyede tut; intro/outro pack’te CTA’lı outro ve şeffaf versiyonlar üret.",
+      "aiFactSheet": [
+        "Hedef kitle: Video ağırlıklı iletişim yapan otel, ajans ve B2B ekipleri",
+        "KPI: Marka hatırlanırlığı, video tamamlama oranı (intro süresi), CTA tıklaması/DM, içerik tutarlılığı",
+        "Entity: Logo Animation, Intro/Outro Pack, Brand Motion, Reels/YouTube/Web, CTA End Card",
+        "Geo: Türkiye geneli; video iletişimi yoğun markalar",
+        "Funnel: Awareness (imza) → Consideration (güven) → Conversion (CTA’lı outro)",
+        "Kullanım: Reels, YouTube, web hero, reklam videoları",
+        "Risk: Uzun/efektli intro → izlenme düşer, mesaj gecikir"
+      ]
+    },
+    "h1": {
+      "title": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+      "intro": "Videoların profesyonel görünmesi, sadece çekim kalitesiyle değil “marka imzası”yla da ilgilidir. Animasyonlu logo ve intro/outro pack; her videoda tekrar tekrar aynı görsel imzayı bırakarak markanın hatırlanma ihtimalini artırır. Ama burada ince bir çizgi var: intro uzun olursa izleyici kaçar; outro net değilse CTA kaybolur. Bu rehber, 1–2 saniyelik logo reveal prensipleriyle; Reels/YouTube/web için doğru pack parçalarını, teknik formatları ve otel/B2B senaryolarında nasıl kurgulanacağını standartlaştırır.",
+      "quickSummary": [
+        "1. Logo animasyonunu “minimal + karakterli” tasarla.",
+        "2. Süreyi kısa tut (1–2 sn).",
+        "3. Pack’i “parçalar” olarak tasarla, tek video gibi değil.",
+        "4. Outro’yu dönüşüm için standardize et (CTA alanı).",
+        "5. Pack’i bir “kütüphane” gibi version’la (v1.0, v1.1)."
+      ],
+      "ctaPrimary": {
+        "label": "Logo Animasyonu & Intro/Outro Pack Analizi Talep Et",
+        "text": "Videolarında marka imzasını güçlendirmek isteyen otel, ajans ve B2B ekipleri için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Logo Animasyonu & Intro/Outro Pack Analizi Talep Et",
+        "text": "Video içeriklerde marka imzasını güçlendirmek isteyen otel, ajans ve B2B ekipleri için.",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir",
+        "text": "Pack parçalarını ve süre/formatlarını netleştirir; her videoda tutarlı marka imzası kullanırsınız.",
+        "href": "/smm/reels-video"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/smm/reels-video"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "neden-animasyonlu-logo",
+        "title": "Neden Animasyonlu Logo?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Logonuz statik bir işaret; animasyonlu logo ise videoda yaşayan bir imzadır. Video çağında izleyici aynı konseptte yüzlerce içerik görüyor; bu kalabalıkta markayı ayrıştıran şey, tutarlı bir görsel imza ve ritimdir. Animasyonlu logo; “bu video kimin?” sorusunu hızlı cevaplar ve marka algısını güçlendirir. Ancak amaç gösteriş değil, tanınabilirlik ve tutarlılık olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Animasyonlu logo neden önemlidir? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Animasyonlu logo, videoda markanın tanınmasını hızlandırır ve tutarlı bir “imza” etkisi yaratır. Doğru süre ve sade motion ile profesyonel algıyı yükseltir; yanlış (uzun/karmaşık) kullanım izlenmeyi düşürür."
+          },
+          {
+            "type": "h3",
+            "text": "En sık görülen 5 hata"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çok uzun intro (izleyici kaçıyor)",
+              "Aşırı efekt (marka karakteri yerine efekt konuşuyor)",
+              "Her videoda farklı logo animasyonu (tutarlılık kayboluyor)",
+              "Arka plan uyumsuzluğu (logo görünmüyor)",
+              "Outro’da CTA’nın kaybolması"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Logo animasyonu 2 saniyeyi geçiyor mu?",
+              "Motion, markanın karakterine uyuyor mu (premium/enerjik/kurumsal)?",
+              "Her videoda aynı imza var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Logo animasyonunu “minimal + karakterli” tasarla.",
+              "Süreyi kısa tut (1–2 sn).",
+              "Tek imza standardı belirle; varyantları aynı ailede tut."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "intro-outro-pack-nedir",
+        "title": "Intro/Outro Pack Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Intro/outro pack, tek bir animasyon değil; farklı senaryolarda tekrar tekrar kullanılacak bir kittir. İçerik üretimi hızlandıkça, her video için sıfırdan giriş/çıkış yapmak sürdürülemez. Pack; intro, outro (end card), stinger, lower-third gibi parçalardan oluşur. Hedef: her videonun başında/sonunda markanın “aynı şekilde” görünmesi."
+          },
+          {
+            "type": "h3",
+            "text": "Intro/outro pack nedir, hangi videolarda kullanılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Intro/outro pack; videolarda marka imzası oluşturmak için kullanılan giriş/çıkış animasyonları ve yardımcı grafik parçalarının setidir. YouTube içerikleri, Reels serileri, web hero videoları ve reklam videolarında tutarlılık için kullanılmalıdır; ama kısa formatta intro minimal olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Pack bileşenleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Logo reveal / stinger (1–2 sn)",
+              "Intro (opsiyonel) (kısa, seri açılışı gibi)",
+              "Outro / End Card (CTA alanı)",
+              "Lower-third (isim/başlık)",
+              "Transition (opsiyonel) (seri arası geçiş)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Pack’in parça listesi yazılı mı?",
+              "Outro’da CTA için “boş alan” var mı?",
+              "Şeffaf arka plan versiyonu var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pack’i “parçalar” olarak tasarla, tek video gibi değil.",
+              "Outro’yu dönüşüm için standardize et (CTA alanı).",
+              "Şeffaf/katmanlı versiyonları ekle (her arka plana uyum)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sosyal-medya-youtube-web-kullanim-senaryolari",
+        "title": "Sosyal Medya, YouTube ve Web İçin Kullanım Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Her platformun izleme davranışı farklıdır. Reels/TikTok’ta ilk saniyeler hayati olduğu için intro çok minimal olmalı; YouTube’da seri kimliği daha güçlü kurulabilir; web hero’da marka imzası daha “premium” bir hissiyatla verilebilir. Bu yüzden pack’in tek versiyon olması değil, platforma göre varyantlanması gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Logo animasyonu kaç saniye olmalı, nelerden kaçınmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Logo animasyonu genelde 1–2 saniye bandında kalmalı; uzun intro ve aşırı efektlerden kaçınmalısınız. Reels gibi kısa formatlarda intro çoğu zaman “stinger” kadar kısa olmalı; asıl mesajı geciktirmemelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Platform bazlı pratik kullanım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reels/TikTok: intro yok veya çok kısa stinger (0.5–1 sn), outro CTA (1–2 sn)",
+              "YouTube: intro (1–2 sn) + outro end card (2–4 sn)",
+              "Web hero: loop-friendly, sade, dikkat dağıtmayan (Varsayım: sessiz/altyazısız kullanım)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Platforma göre intro/outro kullanım tablosu",
+            "headers": [
+              "Platform",
+              "Intro / Logo Süresi",
+              "Format",
+              "CTA / Kullanım"
+            ],
+            "rows": [
+              [
+                "Reels/TikTok",
+                "Intro yok veya çok kısa stinger (0.5–1 sn)",
+                "9:16 (1080×1920)",
+                "Outro CTA (1–2 sn)"
+              ],
+              [
+                "YouTube",
+                "Intro (1–2 sn)",
+                "16:9 (1920×1080)",
+                "Outro end card (2–4 sn)"
+              ],
+              [
+                "Web hero",
+                "Loop-friendly, sade, dikkat dağıtmayan",
+                "16:9 (1920×1080)",
+                "Varsayım: sessiz/altyazısız kullanım"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel): Kemer’de bir resort otelin deneyim videosunda intro yerine hızlı stinger, outro’da “rezervasyon/teklif al” CTA’sı."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Ürün serisinde her videonun sonunda aynı end card + demo CTA."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Reels’te intro mesajı geciktiriyor mu?",
+              "Outro CTA net mi ve yeterli süre kalıyor mu?",
+              "Web hero’da motion dikkat dağıtıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Reels için stinger’ı ultra kısa tut.",
+              "YouTube için end card alanını tasarla (CTA + link alanı).",
+              "Web için loop versiyonu üret (minimal)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "teknik-ipuclari-sure-boyut-format",
+        "title": "Teknik İpuçları (Süre, Boyut, Format)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pack’in işe yaraması için “kullanılabilir” formatlarda teslim edilmesi gerekir. Tek bir MP4 dosyası çoğu zaman yetmez; farklı arka planlar için şeffaf/katmanlı versiyon gerekir. Ayrıca intro/outro’nun süreleri platforma göre optimize edilmeli; özellikle mobilde CTA alanı safe zone içinde kalmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Teknik paket standartları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Süre: logo reveal 1–2 sn; outro 2–4 sn (platforma göre)",
+              "Boyut: 9:16 (1080×1920), 16:9 (1920×1080), kare opsiyon (1:1)",
+              "Format: MP4 (H.264) + alpha gerekiyorsa alternatif (Varsayım: ProRes 4444 veya PNG sequence)",
+              "Versiyonlar: açık/koyu arka plan, şeffaf, kısa/uzun"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Intro/outro pack’i olan markalarda videoların “markasız içerik” gibi görünme riski azalıyor; izleyici markayı daha kolay hatırlıyor. (Kesin rakam iddiası yok; pratik gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Pack 9:16 ve 16:9 versiyon içeriyor mu?",
+              "Şeffaf/katmanlı teslim var mı?",
+              "Outro CTA safe zone içinde mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Teslim formatlarını brief’te netleştir (MP4 + alpha).",
+              "Her platform için kısa/uzun varyant üret.",
+              "Pack’i bir “kütüphane” gibi version’la (v1.0, v1.1)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-pack-yapilari",
+        "title": "Otel ve B2B İçin Örnek Pack Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B’de brand motion pack’in içeriği aynı sistemle kurulur; fakat anlatım dili farklıdır. Otelde “deneyim ve konsept” imzası; B2B’de “ürün serisi ve güven” imzası öne çıkar. Ayrıca GEO bağlamında oteller, destinasyon hissini (Antalya/Belek/Side/Kemer/Bodrum) intro yerine içeriğin görsel dilinde taşımalı; intro sadece imza olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel pack örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Stinger (0.5–1 sn): logo + konsept rengi",
+              "Outro (2 sn): “Tarih seç / teklif al” CTA alanı",
+              "Lower-third: oda/deneyim etiketi (Spa, Beach, Gastronomy)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B pack örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Intro (1–2 sn): ürün serisi adı + logo",
+              "Outro (3 sn): demo/meeting CTA + kısa vaat",
+              "Transition: seri videolar arası aynı geçiş"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde intro, deneyimi boğuyor mu?",
+              "B2B’de outro “next step” net mi?",
+              "Pack parçaları her videoda tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde stinger’ı kısa tut, imza olsun.",
+              "B2B’de seriyi isimlendir, outro’yu standardize et.",
+              "Video üretim sayfasıyla süreci bağla: https://dgtlface.com/tr/creative/video-produksiyon"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir",
+            "text": "Pack parçalarını, süreleri ve teslim formatlarını tek sayfada netleştirir; her videoda aynı marka imzasını korursunuz.",
+            "href": "/smm/reels-video"
+          }
+        ]
+      },
+      {
+        "id": "animasyonlu-logo-intro-outro-checklist-asset",
+        "title": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Checklist + Sprint Plan (metin “Checklist” içeriyor)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir — Creative / Brand Motion (v1.0)",
+            "purpose": "Bu checklist, logo animasyonu ve intro/outro pack’i “tek dosya” değil, platformlara göre varyantlanan bir marka motion sistemi olarak planlamanız için hazırlandı. Süre, format, şeffaf versiyonlar ve CTA end card kuralları netleşir; üretim ve kullanım hataları azalır. Otel ve B2B ekipleri için tekrar edilebilir bir pack standardı sağlar.",
+            "whoFor": "Motion designer, video editörü, sosyal medya yöneticisi, ajans proje yöneticisi.",
+            "steps": [
+              "Marka karakterini ve kullanım platformlarını netleştir (Reels/YouTube/Web).",
+              "Pack parçalarını checklist’e göre seç ve süreleri belirle.",
+              "14 günlük sprint ile v1.0 pack’i üret, arşivle ve ekipte yaygınlaştır."
+            ],
+            "checklist": [
+              "Süre — Logo reveal 1–2 sn bandında mı?",
+              "Süre — Reels’te intro minimal mi (0.5–1 sn stinger)?",
+              "Süre — Outro 2–4 sn ve CTA okunur mu?",
+              "Parçalar — Stinger (kısa) var mı?",
+              "Parçalar — Outro end card (CTA alanı) var mı?",
+              "Parçalar — Lower-third seti var mı?",
+              "Parçalar — Transition (ops.) gerekli mi?",
+              "Format & Boyut — 9:16 (1080×1920) var mı?",
+              "Format & Boyut — 16:9 (1920×1080) var mı?",
+              "Format & Boyut — Kare (1:1) gerekiyorsa var mı?",
+              "Arka Plan — Şeffaf/alpha versiyon var mı?",
+              "Arka Plan — Açık/koyu arka plan varyantı var mı?",
+              "CTA — CTA tek aksiyon mu?",
+              "CTA — CTA safe zone içinde mi (özellikle dikey)?",
+              "CTA — CTA metni kısa ve net mi?",
+              "Kütüphane — Dosya isimlendirme ve klasör yapısı var mı?",
+              "Kütüphane — v1.0/v1.1 versiyonlama var mı?",
+              "Kütüphane — Eski pack’ler arşivleniyor mu?"
+            ],
+            "href": "/downloads/animasyonlu-logo-intro-outro-pack-planlama-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Logo reveal (1–2 sn)",
+              "Reels stinger (0.5–1 sn)",
+              "Outro end card (CTA alanlı)",
+              "Lower-third seti",
+              "9:16 + 16:9 + (ops.) 1:1 versiyonları",
+              "Şeffaf + açık/koyu varyantlar",
+              "Kullanım kılavuzu + versiyonlama"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tek-logo-animasyonu-degil-pack-sistemi-kur",
+        "title": "Fark Yaratan Mini Bölüm: “Tek Logo Animasyonu Değil, Pack Sistemi Kur” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok sayıda logo animasyonu örneği var; ama çoğu marka bunu “tek dosya” gibi düşünüyor. Fark yaratan yaklaşım: intro/outro’yu bir paket sistemi olarak tasarlamak — platform varyantları, CTA end card, şeffaf versiyonlar, versiyonlama ve arşiv yönetimi. Böylece ekipler her seferinde “nerede dosya?” sorusunu sormaz; doğru parçayı doğru videoya takar."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Pack’in dosya organizasyonu ve isimlendirmesi var mı?",
+              "Eski versiyonlar arşivleniyor mu?",
+              "CTA end card her platformda çalışıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Pack’i “library” gibi klasörle (intro/outro/stinger/lower-third).",
+              "v1.0 yayınla, değiştikçe v1.1 çıkar, eskileri kaldır.",
+              "Reels’te safe zone’a göre CTA alanını sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kapanis-ve-uygulama-plani",
+        "title": "Kapanış ve Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Animasyonlu logo ve intro/outro pack, video içeriklerde marka imzasını standardize eder: izleyici markayı daha kolay tanır, içerikler daha profesyonel görünür. Başarının anahtarı; kısa süre (1–2 sn), sade motion ve platforma göre doğru kullanım. Pack’i sistemleştirip (parçalar, varyantlar, formatlar) üretim akışına bağladığınızda, video üretimi hızlanır ve marka tutarlılığı güçlenir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Logo Animasyonu & Intro/Outro Pack Analizi Talep Et",
+            "text": "Brand motion pack’i platformlara göre doğru kurmak isteyen ekipler için.",
+            "href": "/creative/grafik-motion-tasarim"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Animasyonlu logo neden önemlidir?",
+        "a": "Video içinde marka tanınmasını hızlandırır ve tutarlı bir imza etkisi yaratır. Doğru kullanıldığında profesyonel algıyı yükseltir. Yanlış kullanım (uzun/karmaşık intro) izlenmeyi düşürebilir."
+      },
+      {
+        "q": "Intro/outro pack nedir, hangi videolarda kullanılmalı?",
+        "a": "Giriş/çıkış animasyonları ve yardımcı parçaların (stinger, end card, lower-third) setidir. YouTube serileri, Reels içerikleri ve web hero videolarında tutarlılık için kullanılır. Kısa formatlarda intro minimal tutulmalıdır."
+      },
+      {
+        "q": "Logo animasyonu kaç saniye olmalı, nelerden kaçınmalıyım?",
+        "a": "Genelde 1–2 saniye bandı idealdir; Reels’te daha da kısa stinger tercih edilir. Uzun intro ve aşırı efektlerden kaçının. Asıl amaç mesajı geciktirmeden imza atmaktır."
+      },
+      {
+        "q": "Otel ve B2B markaları için örnek intro/outro kurguları neler?",
+        "a": "Otelde kısa stinger + CTA’lı outro; B2B’de seri adı + kısa intro + demo/meeting CTA’lı end card iyi çalışır. Her iki durumda da şeffaf ve açık/koyu arka plan varyantları önemli olur."
+      },
+      {
+        "q": "Outro’da CTA nasıl konumlanmalı?",
+        "a": "CTA tek aksiyon olmalı ve safe zone içinde kalmalıdır. 2–4 saniyelik end card alanında okunabilir hiyerarşiyle yerleştirilmelidir. Reels’te alt/sağ overlay riskine dikkat edin."
+      },
+      {
+        "q": "Logo animasyonu yaptırsak mı, çok mu uzun sürer?",
+        "a": "Süreyi kısa tuttuğunuzda (1–2 sn) ve pack’i parçalara böldüğünüzde süreç daha yönetilebilir olur. En kritik nokta, önce kullanım senaryolarını (Reels/YouTube/web) netleştirmektir. Böylece gereksiz varyant üretimi azalır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-hero-01.webp — alt text: “Logo animasyonu ve intro outro pack kapağı, otel ve B2B video marka imzası”",
+          "h1-context — 1920×1080 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-h1-context-02.webp — alt text: “Markasız video ve pack’li video karşılaştırması, marka hatırlanırlığı örneği”",
+          "divider-01 — 1600×1200 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-divider-03.webp — alt text: “Logo animasyonu önem ayırıcı görseli, tanınabilirlik ve marka imzası”",
+          "divider-02 — 1600×1200 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-divider-04.webp — alt text: “Platform senaryoları ayırıcı görseli, Reels YouTube web intro outro farkları”",
+          "diagram-05 — 1920×1080 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-diagram-05.webp — alt text: “Brand motion pack diyagramı, parçalar ve platform varyantları akışı”",
+          "checklist-06 — 1200×1200 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-checklist-06.webp — alt text: “Intro outro checklist kartı, süre format CTA ve teslim kontrolü”",
+          "kpi-07 — 1200×1200 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-kpi-07.webp — alt text: “Marka hatırlanırlığı ve tamamlama KPI kartı, intro süresi ve CTA etkisi”",
+          "proof-08 — 1200×1200 — animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti-proof-08.webp — alt text: “Brand motion pack deliverables kartı, stinger outro end card ve format seti”",
+          "table-platform-intro-outro-usage — Platforma göre intro/outro kullanım tablosu (Reels/YouTube/Web: süre, format, CTA)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu (yumuşak ifade)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
+          "Video Prodüksiyon iç linki kontrol edildi: /creative/video-produksiyon",
+          "Reels Video iç linki kontrol edildi: /smm/reels-video",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /smm/reels-video",
+          "Ana içerikte seçilen tablo: Platforma göre intro/outro kullanım tablosu",
+          "Logo reveal süresi: 1–2 saniye",
+          "Reels stinger süresi: 0.5–1 saniye",
+          "Outro end card süresi: 2–4 saniye",
+          "Teslim boyutları: 9:16 (1080×1920), 16:9 (1920×1080) ve gerekirse 1:1",
+          "Teslim formatı: MP4 (H.264) + alpha gerekiyorsa ProRes 4444 veya PNG sequence",
+          "Açık/koyu arka plan ve şeffaf versiyonlar hazırlandı",
+          "CTA alanı özellikle dikey videolarda safe zone içinde tutuldu",
+          "Pack klasörleri intro/outro/stinger/lower-third şeklinde ayrıldı",
+          "Pack versiyonlama standardı: v1.0, v1.1",
+          "Eski pack sürümleri arşivlendi veya kullanımdan kaldırıldı",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+   "BlogDesignOpsVeFigmaKutuphanesiYonetimiCreativeEkiplerIcin": {
+    "title": "Design Ops ve Figma Library Yönetimi Rehberi",
+    "slug": "design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Figma kütüphanelerini base UI + brand + social set olarak organize edin. Component publish/lock ve versiyonlama süreci kurun; ajans/otel/B2B ekiplerinde hız ve tutarlılık kazanın.",
+    "seo": {
+      "metaTitle": "Design Ops ve Figma Library Yönetimi Rehberi | DGTLFACE",
+      "metaDescription": "Figma kütüphanelerini base UI + brand + social set olarak organize edin. Component publish/lock ve versiyonlama süreci kurun; ajans/otel/B2B ekiplerinde hız ve tutarlılık kazanın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "URL normalizasyonu: relative → https://dgtlface.com + path",
+        "Blog No + Blog URL: #15 — https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Blog-slug: design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin",
+        "Canonical: /tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda “tasarım üretimini şansa bırakmamak” için DesignOps + Figma library yönetimini sistematikleştiren core içeriktir; UI/UX ve yazılım entegrasyonuyla (dev + SMM) ortak dil kurar. Hedef persona ajans yöneticisi, otel grubu pazarlama/creative lideri ve B2B ürün/pazarlama tasarım ekipleridir: Figma’nın “kopya ve varyant mezarlığı”na dönüşmesini istemezler. Funnel’da awareness → consideration: önce model anlaşılır, sonra base/brand/social kütüphane mimarisi ve publish/versiyon kurallarıyla süreçleşir. Ana iş sorusu: “Figma dosyalarını nasıl toparlarım ve component publish/lock + versiyonlamayı ekip standardına nasıl çeviririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "DesignOps, tasarım üretimini “kişiye bağlı” olmaktan çıkarıp kurallı bir sisteme bağlamaktır. İyi organize edilmiş Figma kütüphaneleri (base UI, brand, sosyal setler) ve publish/versiyonlama süreçleri; creative ekipte hız ve tutarlılık sağlar, dev ve SMM ekiplerine aynı dili konuşan çıktılar üretir. Özellikle çok otelli/çok dilli yapılarda ve B2B ürün + pazarlama tasarımında “hangi versiyon doğru?” tartışmasını azaltır, revizyon döngüsünü kısaltır.",
+      "sgeSummary": "Figma’yı 3 kütüphaneye ayır: base UI, brand, social set. Token’ları (renk/typography/ikon) standardize et; publish/lock + versiyon kurallarıyla “doğru dosya”yı tekleştir.",
+      "voiceAnswer": "Base UI + brand + social kütüphane kur; publish/lock ve versiyonlama ile “doğru komponent” karmaşasını bitir.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajanslar, otel grupları, B2B ürün/pazarlama tasarım ekipleri, dev ve SMM ekipleri",
+        "KPI: Üretim hızı, revizyon sayısı, “hangi versiyon doğru?” tartışması azalması, yeniden kullanım oranı, teslim tutarlılığı",
+        "Entity: Figma Libraries, Components, Tokens, Publish, Versioning, Team Workflow, Design Ops",
+        "Geo: Türkiye geneli; tasarım üretimi yüksek ekipler",
+        "Funnel: Awareness → Consideration (sistem kurma)",
+        "Kullanım: UI komponentleri, sosyal şablonlar, ikon/illustration setleri, dev handoff",
+        "Risk: Kopya dosyalar → tutarsız UI, yanlış versiyon, zaman kaybı"
+      ]
+    },
+    "h1": {
+      "title": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+      "intro": "“Figma dosyalarımız çok karıştı” problemi genelde kötü niyetten değil, sistem eksikliğinden çıkar: herkes kopyalar, küçük düzeltme yapar, farklı isimle kaydeder ve bir süre sonra kimse “doğru” dosyayı bilmez. DesignOps yaklaşımı; bu kaosu kütüphane mimarisi + token standardı + publish/versiyon kuralları + rol tanımları ile çözer. Bu rehber, Figma’yı base UI/brand/social set olarak organize etmeyi; component publish/lock sürecini kurmayı ve otel/B2B ekip yapılarında creative–dev–SMM uyumunu sağlamayı adım adım anlatır.",
+      "quickSummary": [
+        "1. “Tek kaynak” dosyaları belirle ve isimlendir.",
+        "2. Figma’yı Base UI, Brand ve Social Library olarak ayır.",
+        "3. Token’ları standardize et ve kontrollü şekilde yönet.",
+        "4. Publish, lock ve versiyon kurallarını yazılı hale getir.",
+        "5. Eski kopyaları read-only arşive taşı ve kullanımdan kaldır."
+      ],
+      "ctaPrimary": {
+        "label": "Design Ops & Figma Library Analizi Talep Et",
+        "text": "Figma kütüphanesini toparlayıp ekipte hız ve tutarlılık isteyen ajans, otel grubu ve B2B ekipleri için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Design Ops & Figma Library Analizi Talep Et",
+        "text": "Tasarım üretimi yüksek ekiplerde hız ve tutarlılık isteyenler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Figma Kütüphane Organizasyonu & Publish Süreci Checklist’ini İndir",
+        "text": "Kütüphaneyi toparlar; publish/lock ve versiyon kurallarını netleştirerek “doğru dosya” karmaşasını azaltırsınız.",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "design-ops-nedir",
+        "title": "Design Ops Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DesignOps, tasarım ekibinin “daha çok tasarım” yapması değil, aynı zamanda daha az tekrar yapması demektir. Birkaç kişinin bildiği gizli kurallar yerine; herkesin takip ettiği, versiyonu belli, onayı tanımlı bir üretim sistemi kurar. Ajanslarda bu sistem, müşteri sayısı arttıkça kaliteyi korur; otel gruplarında multi-otel/multi-dil yapısında dağılmayı engeller; B2B ürün ekiplerinde ise tasarım–geliştirme entegrasyonunu güçlendirir."
+          },
+          {
+            "type": "h3",
+            "text": "Design ops nedir, ne işe yarar? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: DesignOps; tasarım üretimini kütüphane, süreç, rol ve standartlarla yöneterek hız ve tutarlılık sağlayan operasyon yaklaşımıdır. Ne işe yarar? “Kopya ve varyant mezarlığı”nı önler, doğru versiyonu tekleştirir, dev ve SMM ekiplerine tutarlı çıktılar sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "DesignOps’un en görünür 5 çıktısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek kaynak kütüphane (source of truth)",
+              "Token standardı (renk/typography/ikon)",
+              "Publish/lock ve versiyon kuralları",
+              "Rol & onay akışı",
+              "Düzenli bakım (audit, temizlik)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Aynı butonun 3 farklı versiyonu var mı?",
+              "“Hangi dosya doğru?” sorusu sık soruluyor mu?",
+              "Dev’e giden tasarım çıktıları tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Tek kaynak” dosyaları belirle ve isimlendir.",
+              "Token’ları standardize et (renk/typography).",
+              "Publish ve versiyon kurallarını yazılı hale getir."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "figma-kutuphaneleri-component-yonetimi",
+        "title": "Figma Kütüphaneleri ve Component Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Figma’yı tek bir dev dosya gibi kullanmak kısa vadede pratik görünür; uzun vadede kırılır. Doğru yaklaşım: kütüphaneleri katmanlı yönetmek ve component’leri “ürün gibi” ele almak. Bu sayede button/card/section gibi temel parçalar her projede yeniden üretilmez; sosyal şablonlar da aynı brand dilini taşır."
+          },
+          {
+            "type": "h3",
+            "text": "Figma kütüphaneleri nasıl organize edilmeli? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: En pratik model 3 kütüphanedir: Base UI (genel komponentler), Brand (renk/typography/ikon token’ları) ve Social Sets (feed/story/reels şablonları). Her biri ayrı publish edilir; kullanım rolleri net olur."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen kütüphane mimarisi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Base UI Library: button, form, card, section, grid",
+              "Brand Library: logo, renk token’ları, typography token’ları, icon/illustration setleri",
+              "Social Library: kampanya setleri, reels cover, story seri şablonları"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Otel grubu): Multi-otel yapıda Brand Library ortak; Social Library otel bazlı varyant içerebilir (konsept)."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (B2B): Ürün UI Base UI + Brand; pazarlama setleri Social Library’de ayrı."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Base UI ile Brand aynı dosyada mı karışmış?",
+              "Sosyal şablonlar UI komponentlerini “kopyalayarak” mı kullanıyor?",
+              "Component isimleri ve kategori yapısı standart mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Base UI’yi “her projede aynı” olacak şekilde ayır.",
+              "Brand token’larını ayrı kütüphaneye taşı.",
+              "Social template’leri ayrı publish et; editörlere bu kütüphaneyi aç."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "versiyonlama-onay-surecleri",
+        "title": "Versiyonlama ve Onay Süreçleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kütüphane kurmak yetmez; “değişiklik” yönetilmezse sistem yine dağılır. Publish/lock ve versiyonlama, bu yüzden DesignOps’un kalbidir. “Küçük değişiklik” bile (ör. button radius) yüzlerce ekranı etkileyebilir; bu değişikliği kontrollü yapmak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Component’leri publish/lock süreci nasıl kurgulanır? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Değişiklikleri önce taslak (draft) ortamında test edin, sonra kütüphaneyi publish edin; kritik bileşenleri kilitleyin ve sürüm notu (release notes) yazın. Kullanıcıların hangi versiyonda olduğunu görünür kılmak, “hangi versiyon doğru?” tartışmasını bitirir."
+          },
+          {
+            "type": "h3",
+            "text": "Basit versiyonlama modeli"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "v1.0: ilk yayın (core component set)",
+              "v1.1: küçük iyileştirme (geriye uyumlu)",
+              "v2.0: kırılma yaratan değişiklik (migration notu)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Publish/Versiyonlama Süreci Tablosu",
+            "headers": [
+              "Değişiklik Tipi",
+              "Onay",
+              "Sürüm",
+              "Not"
+            ],
+            "rows": [
+              [
+                "İlk yayın",
+                "Library Owner + ilgili ekip onayı",
+                "v1.0",
+                "Core component set"
+              ],
+              [
+                "Küçük iyileştirme",
+                "Library Owner",
+                "v1.1",
+                "Geriye uyumlu değişiklik + release note"
+              ],
+              [
+                "Kırılma yaratan değişiklik",
+                "Library Owner + dev/SMM temsilcisi",
+                "v2.0",
+                "Migration planı + release note"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): DesignOps prensipleri oturan ekiplerde tasarım üretimi hızlanırken “hangi versiyon doğru?” tartışmaları belirgin biçimde azalıyor. (Kesin rakam iddiası yok; pratik gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Publish sonrası release note yazıyor musunuz?",
+              "Kritik değişiklikler için onay var mı?",
+              "Eski versiyonlar arşivleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her publish’e kısa sürüm notu ekle (3 madde yeter).",
+              "“Kırıcı değişiklik” kuralı koy: v2.0 ve migration planı şart.",
+              "Lock: logolar, token’lar ve kritik komponentler kilitli olsun."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-tasarim-ekip-yapilari",
+        "title": "Otel ve B2B İçin Tasarım Ekip Yapıları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DesignOps, ekip yapısına göre farklı uygulanır. Otel gruplarında multi-otel/multi-dil; ajanslarda çok müşteri; B2B’de ürün + pazarlama ikiliği belirleyicidir. Burada amaç; rol ve yetkiyi netleştirerek kütüphanenin “herkesin her şeyi değiştirdiği” bir yere dönüşmesini engellemektir."
+          },
+          {
+            "type": "h3",
+            "text": "Otel için multi-otel/multi-dil yapı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ortak Brand Library (logo/palet/typography token)",
+              "Otel bazlı Social Sets (konsept varyantları)",
+              "Dil varyantları için text style standardı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B ürün + pazarlama yapısı"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün UI: Base UI + Brand",
+              "Pazarlama: Social Sets + campaign templates",
+              "Dev handoff: component mapping + token uyumu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otel bazlı varyantlar “kopya dosya” mı yoksa varyant mantığı mı?",
+              "B2B’de pazarlama şablonları ürün UI diline uyuyor mu?",
+              "Yetki matrisi var mı (kim publish eder)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Library Owner” rolü ata (tek sorumlu).",
+              "Otel varyantlarını kontrollü set olarak yönet (kopya değil).",
+              "Ürün–pazarlama tasarım dilini token’larda birleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creative-dev-smm-uyumu",
+        "title": "Creative–Dev–SMM Üçgeninde Uyum",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kütüphane sadece tasarım ekibi için değil; dev ve sosyal ekipler için de “ortak sözlük”tür. Dev ekibi token’ları ve component isimlerini bildiğinde UI tutarlılığı artar. SMM ekibi social template’leri kullandığında marka dili bozulmaz. Uyum; aynı araçta olmak değil, aynı standardı paylaşmaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dev: button-primary / spacing-16 token",
+              "SMM: story-template-cta / cover-template",
+              "Creative: aynı grid ve typography standardı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Dev ile component isimleri aynı mı?",
+              "SMM ekipleri onaylı template kullanıyor mu?",
+              "Handoff süreci yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "UI/UX standardını bağla: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+              "Yazılım entegrasyonunu bağla: https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
+              "Social üretimi bağla: https://dgtlface.com/tr/smm/icerik-uretimi",
+              "Haftalık kısa “library sync” toplantısı yap (15 dk)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Figma Kütüphane Organizasyonu & Publish Süreci Checklist’ini İndir",
+            "text": "Kütüphaneyi base/brand/social olarak toparlar; publish ve versiyon kurallarını ekip standardına çevirirsiniz.",
+            "href": "/creative/ui-ux-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "figma-kutuphane-organizasyonu-publish-checklist-asset",
+        "title": "Figma Kütüphane Organizasyonu & Publish Süreci Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Checklist + Sprint Plan (checklist)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Figma Kütüphane Organizasyonu & Publish Süreci Checklist’ini İndir — Creative / DesignOps (v1.0)",
+            "purpose": "Bu checklist, Figma kütüphanenizi base UI + brand + social set mimarisinde düzenleyip publish/versiyonlama kurallarını standardize etmeniz için hazırlandı. Component ve token’ların tek kaynakta yönetilmesini sağlar; “hangi versiyon doğru?” tartışmasını azaltır. Ajans, otel grubu ve B2B ekiplerinde günlük kullanıma uygun bir kontrol rutini sunar.",
+            "whoFor": "Design lead, ürün/pazarlama tasarımcıları, ajans proje yöneticisi, dev handoff sorumlusu.",
+            "steps": [
+              "Mevcut Figma dosyalarını envanterle; kopyaları ve aktif projeleri ayır.",
+              "Checklist ile library mimarisini ve publish kurallarını işaretle; eksikleri çıkar.",
+              "14 günlük sprint ile kütüphaneyi konsolide et, v1.0 publish et ve versiyonlama rutini başlat."
+            ],
+            "checklist": [
+              "Mimari — Base UI, Brand, Social library olarak ayrım var mı?",
+              "Mimari — “Source of truth” dosyaları net mi?",
+              "Mimari — Social setler kopya mı, library mi?",
+              "Components — Button/card/section component’leri tek set mi?",
+              "Components — İsimlendirme standardı var mı?",
+              "Components — Variant kullanımı (size/state) doğru mu?",
+              "Tokens — Renk/typography token’ları Brand library’de mi?",
+              "Tokens — Icon/illustration set tek mi?",
+              "Tokens — Token değişiklikleri kontrollü mü?",
+              "Publish/Lock — Publish sonrası release note yazılıyor mu?",
+              "Publish/Lock — Kritik component’ler kilitli mi?",
+              "Publish/Lock — Kim publish eder (rol) net mi?",
+              "Versiyonlama — v1.0/v1.1/v2.0 mantığı var mı?",
+              "Versiyonlama — Kırıcı değişiklikte migration planı var mı?",
+              "Versiyonlama — Eski versiyonlar arşivleniyor mu?",
+              "Handoff — Dev ile component mapping var mı?",
+              "Handoff — SMM için social template erişimi var mı?",
+              "Handoff — Handoff süreci yazılı mı?"
+            ],
+            "href": "/downloads/figma-kutuphane-organizasyonu-publish-sureci-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "kopya-varyant-mezarligini-temizleme-plani",
+        "title": "Fark Yaratan Mini Bölüm: “Kopya ve Varyant Mezarlığını Temizleme Planı” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok ekip DesignOps’a “yeni sistem kuralım” diye başlar ama mevcut kaosu temizlemeden ilerleyemez. Fark yaratan yaklaşım: önce envanter çıkar, sonra standart bileşenleri tekleştir, en sonda publish/versiyon kurallarını devreye al. Böylece Figma “kopya mezarlığı” olmaktan çıkar."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Duplicate dosyalar listelendi mi?",
+              "Tek kaynak component seti belirlendi mi?",
+              "Eski dosyalar arşivlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 haftalık temizlik sprint’i yap (envanter → konsolidasyon → publish).",
+              "İsimlendirme standardı getir (dosya/kütüphane/komponent).",
+              "Eski kopyaları read-only arşive taşı; kullanımını durdur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kapanis-ve-uygulama-plani",
+        "title": "Kapanış ve Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "DesignOps; tasarım üretimini hızlandırırken kaliteyi koruyan sistemdir. Base UI + Brand + Social library yapısı, token standardı ve publish/versiyonlama kuralları oturduğunda; ajanslar, otel grupları ve B2B ekipleri aynı dili konuşur. Sonuç: daha az revizyon, daha hızlı teslim ve “hangi versiyon doğru?” tartışmasının azalması. Kütüphane yapısını yılda en az 1 kez gözden geçirmek, sistemin sağlıklı kalmasını sağlar."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Design Ops & Figma Library Analizi Talep Et",
+            "text": "Kütüphaneyi toparlayıp süreçleri standartlaştırmak isteyen ekipler için.",
+            "href": "/creative/grafik-motion-tasarim"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Design ops nedir, ne işe yarar?",
+        "a": "DesignOps, tasarım üretimini süreç ve standartlarla yönetme yaklaşımıdır. Kopya dosyaları azaltır, doğru versiyonu tekleştirir ve ekipler arası (dev/SMM) tutarlı çıktı sağlar. Hız ve kaliteyi birlikte korumayı hedefler."
+      },
+      {
+        "q": "Figma kütüphaneleri nasıl organize edilmeli?",
+        "a": "Base UI, Brand ve Social set olmak üzere üç kütüphane yapısı pratik çalışır. Base UI genel komponentleri, Brand token’ları ve ikon dilini; Social set ise şablonları içerir. Her biri ayrı publish edilip rol bazlı yönetilir."
+      },
+      {
+        "q": "Component’leri publish/lock süreci nasıl kurgulanır?",
+        "a": "Değişiklikleri draft ortamında test edip publish edin; kritik bileşenleri kilitleyin ve her yayına kısa release note ekleyin. Kırıcı değişikliklerde sürüm artırıp (v2.0) migration notu yazmak gerekir. Böylece yanlış komponent kullanımı azalır."
+      },
+      {
+        "q": "Otel ve B2B ekipleri için örnek design ops yapısı nasıl olmalı?",
+        "a": "Otel gruplarında ortak brand library + otel bazlı sosyal varyantlar; B2B’de ürün UI library + pazarlama social template setleri iyi çalışır. Yetki matrisiyle kim publish eder, kim düzenler netleşmelidir. Multi-dil/multi-brand senaryoları da bu mimariyle daha kontrollü yönetilir."
+      },
+      {
+        "q": "Figma dosyalarımız çok karıştı, nasıl toparlarız?",
+        "a": "Önce envanter çıkarın ve kopyaları ayırın; sonra base/brand/social mimarisine geçip tek kaynak library yayınlayın. Publish/lock ve versiyon kurallarını devreye alın. Eski dosyaları read-only arşive taşıyarak kullanımını durdurun."
+      },
+      {
+        "q": "Token’lar (renk/typography) neden önemli?",
+        "a": "Token’lar tasarım dilinin “ortak sözlüğüdür”. Renk ve tipografi değişiklikleri tek yerden yönetilir, UI tutarlılığı artar. Dev ve tasarım ekipleri aynı isimleri kullandığında entegrasyon hızlanır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-hero-01.webp — alt text: “Design ops ve Figma library kapağı, otel ve B2B ekiplerinde tutarlı component sistemi”",
+          "h1-context — 1920×1080 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-h1-context-02.webp — alt text: “Kopya dosya kaosu ve düzenli library karşılaştırması, Figma üretim akışı”",
+          "divider-01 — 1600×1200 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-divider-03.webp — alt text: “Design ops tanımı ayırıcı görseli, ekip standardı ve tutarlılık vurgusu”",
+          "divider-02 — 1600×1200 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-divider-04.webp — alt text: “Publish ve versiyonlama ayırıcı görseli, release notları ve lock süreci”",
+          "diagram-05 — 1920×1080 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-diagram-05.webp — alt text: “Figma kütüphane diyagramı, base UI brand social setler ve token akışı”",
+          "checklist-06 — 1200×1200 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-checklist-06.webp — alt text: “Figma library checklist kartı, component token publish ve versiyon kontrolü”",
+          "kpi-07 — 1200×1200 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-kpi-07.webp — alt text: “Design ops KPI kartı, üretim hızı ve versiyon karmaşası azalması paneli”",
+          "proof-08 — 1200×1200 — design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin-proof-08.webp — alt text: “Library deliverables kartı, base brand social set ve süreç dokümanı”",
+          "table-publish-versioning-process — Publish/Versiyonlama Süreci Tablosu (değişiklik tipi, onay, sürüm, not)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu (yumuşak ifade)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
+          "UI/UX Tasarım iç linki kontrol edildi: /creative/ui-ux-tasarim",
+          "Web Sitesi Geliştirme iç linki kontrol edildi: /yazilim/web-sitesi-gelistirme",
+          "İçerik Üretimi iç linki kontrol edildi: /smm/icerik-uretimi",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /creative/ui-ux-tasarim",
+          "Ana içerikte seçilen tablo: Publish/Versiyonlama Süreci Tablosu",
+          "Kütüphane mimarisi: Base UI Library + Brand Library + Social Library",
+          "Base UI genel component’leri içerir: button, form, card, section ve grid",
+          "Brand Library renk, typography, logo, icon ve illustration token’larını içerir",
+          "Social Library kampanya, reels cover ve story seri şablonlarını içerir",
+          "Component değişiklikleri draft ortamında test edilmeden publish edilmez",
+          "Kritik component’ler, logolar ve token’lar kilitlenir",
+          "Her publish sonrasında release note yazılır",
+          "Versiyonlama standardı: v1.0 ilk yayın, v1.1 geriye uyumlu iyileştirme, v2.0 kırıcı değişiklik",
+          "Kırıcı değişikliklerde migration planı zorunludur",
+          "Library Owner rolü atanır ve publish yetkisi sınırlandırılır",
+          "Eski dosyalar ve versiyonlar read-only arşive taşınır",
+          "Dev handoff için component mapping ve token isimleri standardize edilir",
+          "SMM ekiplerine yalnız onaylı Social Library template erişimi verilir",
+          "Kütüphane yapısı yılda en az 1 kez gözden geçirilir",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+   "BlogSosyalKanitVeTestimonialKartTasarimi": {
+    "title": "Testimonial Kart Tasarımı ve Sosyal Kanıt Rehberi",
+    "slug": "sosyal-kanit-ve-testimonial-kart-tasarimi",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve B2B için testimonial kartlarını doğru kurgulayın: fotoğraf, isim/unvan, rating ve kısa quote dengesi. Carousel akışıyla güveni artırın; checklist’i indirin.",
+    "seo": {
+      "metaTitle": "Testimonial Kart Tasarımı ve Sosyal Kanıt Rehberi | DGTLFACE",
+      "metaDescription": "Otel ve B2B için testimonial kartlarını doğru kurgulayın: fotoğraf, isim/unvan, rating ve kısa quote dengesi. Carousel akışıyla güveni artırın; checklist’i indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "URL normalizasyonu: relative → https://dgtlface.com + path",
+        "Blog No + Blog URL: #16 — https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Blog-slug: sosyal-kanit-ve-testimonial-kart-tasarimi",
+        "Canonical: /tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
+      ],
+      "strategySummary": "Bu blog, Creative silosunda “güven üretimi”ni görselleştiren testimonial/sosyal kanıt kart sistemi için otorite taşıyan core içeriktir; dönüşüm sayfaları ve kampanya landing’leri için doğrudan etki sağlar. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir: “biz çok iyiyiz” demek yerine misafir/müşteri sesiyle ikna etmek ister. Funnel’da ağırlıkla consideration → conversion: sosyal kanıt kartları, teklif/rezervasyon kararını hızlandırır. Ana iş sorusu: “Review’leri nasıl şık, okunur ve güven veren kartlara dönüştürür; web, sosyal ve sunumda aynı sistemle nasıl kullanırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Güçlü tasarlanmış testimonial kartları, “biz çok iyiyiz” demek yerine misafir ve müşterilerin sesiyle güven üretir. Fotoğraf, isim/unvan, rating ve kısa quote alanlarını dengeli kullanan sosyal kanıt kartları; otel ve B2B markaları için hem web dönüşüm sayfalarında hem sosyal medyada iknayı artırır. Doğru hiyerarşi (quote → kişi → kanıt) ve carousel kurgusu (problem → yorum → sonuç) ile kartlar görsel hikâyeye dönüşür.",
+      "sgeSummary": "Testimonial kartında quote’u öne çıkar, kişi bilgisi ve rating’i kanıt olarak destekle. Web/sosyal için ölçü uyarlaması yap; carousel ile problem–yorum–sonuç akışı kur.",
+      "voiceAnswer": "Quote’u büyük göster, isim/unvan ve rating’i kanıt olarak ekle; kartı web ve sosyal ölçülerine uyarlayıp carousel yap.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B hizmet markalarında pazarlama, satış, ajans ve tasarım ekipleri",
+        "KPI: Landing dönüşümü, CTA tıklaması, form/rezervasyon niyeti, kaydetme oranı, revizyon sayısı (tasarım)",
+        "Entity: Testimonial Design, Social Proof Cards, Rating Visuals, Review Carousels, Quote/Name/Title",
+        "Geo: Türkiye geneli; otel, turizm ve B2B hizmet markaları",
+        "Funnel: Consideration → Conversion",
+        "Kullanım: Web landing/social post/carousel/pitch deck",
+        "Risk: Sadece metin listesi → okunmaz, güven etkisi zayıf"
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
+      "intro": "Review’leri “metin listesi” olarak bırakmak, sosyal kanıtın gücünü boşa harcar. Çünkü karar verici (otel misafiri ya da B2B satın almacı) hızlıca şunu görmek ister: kim söylüyor, ne söylüyor, ne kadar güvenilir? Testimonial kartları; quote’u okunur hale getirir, kişi bilgisini bağlamlandırır ve rating/sonuç gibi kanıtla güçlendirir. Bu rehberde otel ve B2B için kart yapısını, carousel kurgusunu ve web–sosyal–sunum uyarlamalarını “şablon + checklist” yaklaşımıyla standardize edeceğiz.",
+      "quickSummary": [
+        "1. Sosyal kanıtı CTA, fiyat ve form gibi karar anlarına yerleştir.",
+        "2. Kartta 3 katman kuralını uygula: quote → kişi → kanıt.",
+        "3. Quote’u 1–2 cümleyle sınırla ve tek kanıt kullan.",
+        "4. Carousel’i problem → yorum → kanıt → sonuç → CTA akışıyla kur.",
+        "5. Web ve sosyal ölçüleri için aynı kart sistemini uyarlayarak kullan."
+      ],
+      "ctaPrimary": {
+        "label": "Testimonial & Sosyal Kanıt Tasarım Analizi Talep Et",
+        "text": "Web ve sosyal medyada güveni görselleştirip dönüşümü artırmak isteyen otel ve B2B ekipleri için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Testimonial & Sosyal Kanıt Tasarım Analizi Talep Et",
+        "text": "Otel ve B2B’de güveni görselleştirip dönüşümü artırmak isteyen ekipler için.",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Testimonial Kart Tasarımı & Carousel Checklist’ini İndir",
+        "text": "Kartları yayına almadan önce hızlı kontrol eder; okunabilir ve güven veren sosyal kanıt seti üretirsiniz.",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Satış Dönüşüm Raporlama",
+        "href": "/raporlama/satis-donusum"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "sosyal-kanit-neden-calisir",
+        "title": "Sosyal Kanıt Neden Çalışır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal kanıt, belirsizlik anında karar vericinin risk algısını düşürür. Otel tarafında “gerçekten fotoğraflardaki gibi mi?”; B2B’de “bu hizmet gerçekten işe yarıyor mu?” sorusunu yanıtlar. İyi tasarlanmış görsel sosyal kanıt; metni okunur kılar, kimliği bağlama oturtur ve kanıtla destekler."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal kanıt görselini hangi alanlarda kullanmalıyım? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: En etkili kullanım alanları: landing sayfası (CTA öncesi), teklif sayfası, pricing/plan sayfası, case study sayfası, sosyal medya carousel ve pitch deck’tir. “Kararın zorlaştığı” yerde sosyal kanıt en çok çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "En yüksek etki veren 5 yer"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Landing’de CTA’dan hemen önce",
+              "Form/rezervasyon adımı yanında",
+              "Case study içinde “sonuç” bölümünde",
+              "Sosyal medya carousel’in orta kısmında",
+              "Sunumda (proposal/pitch) kanıt slaytında"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Sosyal kanıtı “CTA öncesi” konumladın mı?",
+              "Aynı sayfada 10 yorumla boğuyor musun?",
+              "Kanıt (rating/logo) görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Karar anı” bloklarını belirle (CTA, fiyat, form).",
+              "Her karar bloğuna 1–2 güçlü testimonial yerleştir.",
+              "Metin yerine kart formatına geç; okunabilirlik artar."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "testimonial-kartlarinin-yapisi",
+        "title": "Testimonial Kartlarının Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kart tasarımında amaç “güzel görünmek” değil; kanıtı 3 saniyede okutmak. Bu yüzden alan önceliği nettir: 1) Quote (ne dedi), 2) Kişi/Şirket (kim dedi), 3) Kanıt (rating/sonuç/bağlam). Kartın içinde her şeyi koymaya çalışmak okunurluğu düşürür; özellikle mobilde."
+          },
+          {
+            "type": "h3",
+            "text": "Testimonial kart tasarımı nasıl olmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Quote’u en büyük öğe yapın; kişi bilgisini (isim/unvan/şirket) altında küçük ama net verin; rating veya logo gibi kanıtı üçüncü katman olarak ekleyin. Kart içinde metni kısa tutun ve tek mesaj verin."
+          },
+          {
+            "type": "h3",
+            "text": "Zorunlu alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Quote: 1–2 cümle (maks)",
+              "Kimlik: isim + unvan (B2B’de şirket logosu)",
+              "Bağlam: otelde tarih/konsept; B2B’de kullanım senaryosu (1 kısa ifade)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Opsiyonel alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fotoğraf (varsa güven artar)",
+              "Rating (otel için çok güçlü)",
+              "Skor/sonuç (B2B’de tek metrik)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Testimonial Kart Alanları Öncelik Tablosu",
+            "headers": [
+              "Alan",
+              "Öncelik",
+              "İçerik",
+              "Kullanım Kuralı"
+            ],
+            "rows": [
+              [
+                "Quote",
+                "Birinci katman",
+                "1–2 cümlelik kısa yorum",
+                "Kartın en büyük ve en görünür öğesi olmalı"
+              ],
+              [
+                "Kimlik",
+                "İkinci katman",
+                "İsim + unvan / şirket",
+                "Quote’un altında küçük ama net gösterilmeli"
+              ],
+              [
+                "Kanıt",
+                "Üçüncü katman",
+                "Rating, logo veya tek sonuç metriği",
+                "Kart başına yalnız bir ana kanıt kullanılmalı"
+              ],
+              [
+                "Bağlam",
+                "Destekleyici",
+                "Tarih, konsept veya kullanım senaryosu",
+                "Tek kısa ifadeyle sınırlandırılmalı"
+              ],
+              [
+                "Fotoğraf",
+                "Opsiyonel",
+                "Misafir veya müşteri görseli",
+                "Tutarlı kırpma, ışık ve görüntü standardıyla kullanılmalı"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Quote 2 cümleyi geçiyor mu?",
+              "“Kim söyledi?” 1 saniyede anlaşılıyor mu?",
+              "Kanıt tek mi (rating ya da logo ya da 1 metrik)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 katman kuralını uygula: quote → kişi → kanıt.",
+              "Mobil için font ölçeğini test et (1:1 ve 9:16).",
+              "Kartı 2 varyant üret: fotoğraflı ve fotosuz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fiyat-skor-rating-kullanimi",
+        "title": "Fiyat, Skor ve Rating Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rating ve skor, sosyal kanıtı “somut” hale getirir; ama abartılı kullanılırsa broşür hissi verir. Otellerde 4.8/5 gibi yıldızlar güçlü bir sinyaldir; B2B’de ise “%X iyileşme” gibi tek metrik, güçlü kanıt olabilir. Kritik kural: bir kartta birden fazla metrikle izleyiciyi yormamak."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için review kartlarında hangi bilgiler yer almalı? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Otelde: yıldız/rating + kısa quote + misafir adı/ilk harf + tarih/konsept. B2B’de: müşteri adı/ünvan + şirket logosu + kısa quote + tek sonuç metriği (varsa). Her kartta bilgi yükünü minimumda tutmak gerekir."
+          },
+          {
+            "type": "h3",
+            "text": "Rating gösteriminde pratik kurallar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rating’i “kanıt” alanına koy (quote’u geçmesin)",
+              "5 yıldız yerine “4.8/5” + 5 küçük yıldız kombinasyonu (varsayım)",
+              "“Kaynak” eklemek gerekiyorsa küçük dipnot (Google/OTA vs) (Varsayım: kaynak izinli olmalı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Sosyal kanıt blokları doğru tasarlandığında satış sayfaları ve kampanya landing’lerinde dönüşüm oranlarında hissedilir artışlar görülebiliyor. (Kesin rakam iddiası yok; gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Rating kartta “ikinci katman” mı?",
+              "Kaynak ve izin konusu net mi?",
+              "B2B’de tek metrik kullanıyor musun, yoksa metrik çöplüğü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde rating’i sabit ikon alanına koy.",
+              "B2B’de 1 metrik seç: “süre azaldı” gibi tek kanıt.",
+              "Kıyas iddialarını yumuşat; abartma."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "carousel-before-after-kurgusu",
+        "title": "Carousel ve Before/After Kurgusu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek testimonial kartı iyi çalışır; ama asıl güç carousel’de gelir: izleyiciyi bir mini hikâyede yürütürsünüz. En pratik carousel akışı: problem → yorum → kanıt → sonuç → CTA. Before/after ise özellikle B2B case’lerde veya otel web yenileme/kampanya dönüşümlerinde etkili olur."
+          },
+          {
+            "type": "h3",
+            "text": "Carousel testimonial setleri nasıl kurgulanır? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: 5 slaytlık bir akış kurun: (1) problem/vaat, (2) testimonial quote, (3) rating/kanıt, (4) kısa sonuç/önce-sonra, (5) CTA. Her slaytta tek mesaj ve aynı grid/typography standardı olmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek 5 slayt akışı"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Neyi çözüyoruz?” (hook)",
+              "Quote (ana testimonial)",
+              "Kim söyledi + rating/logo (kanıt)",
+              "Before/after veya tek metrik (sonuç)",
+              "CTA (rezervasyon / demo / teklif)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Carousel’de her slayt tek mesaj mı?",
+              "Quote slaytı “okunur” mu?",
+              "CTA slaytı net mi ve tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Carousel için 2 şablon üret: otel ve B2B varyantı.",
+              "Rating/kanıt slaydını sabit bir düzenle koy.",
+              "Before/after kullanıyorsan aynı kadraj kuralına uy."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-sablonlar",
+        "title": "Otel ve B2B İçin Örnek Şablonlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “kopyala-uygula” seviyesinde bir çerçeve verir. Otelde sosyal kanıt çoğunlukla rating ve deneyim diliyle; B2B’de logo + ünvan + sonuç metriğiyle güçlenir. Aynı tasarım sisteminde iki varyant üretmek (otel/B2B) hem hızlı hem tutarlı bir yaklaşım sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel şablon seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Review kart (foto + isim + rating + quote)",
+              "Rating grid (3 yorum + ortalama rating)",
+              "Carousel (problem → yorum → rating → sonuç → CTA)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B şablon seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Customer quote (logo + isim/unvan + quote)",
+              "Case snippet (1 metrik + kısa yorum)",
+              "Carousel (pain point → quote → proof → metric → CTA)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Otelde foto yoksa “baş harf avatar” var mı?",
+              "B2B’de logo kullanımı izinli mi?",
+              "Web ve sosyal ölçülerine uyarlama yapıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6 kartlık başlangıç kütüphanesi üret (3 otel + 3 B2B).",
+              "Web landing için yatay versiyonunu (16:9) da çıkar.",
+              "İç linklerle süreç bağla: https://dgtlface.com/tr/raporlama/satis-donusum",
+              "İç linklerle süreç bağla: https://dgtlface.com/tr/smm/icerik-uretimi",
+              "İç linklerle süreç bağla: https://dgtlface.com/tr/creative/grafik-motion-tasarim"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Testimonial & Sosyal Kanıt Tasarım Analizi Talep Et",
+            "text": "Landing ve sosyalde güveni sistemleştirmek isteyen ekipler için.",
+            "href": "/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "testimonial-kart-carousel-checklist-asset",
+        "title": "Testimonial Kart Tasarımı & Carousel Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Checklist + Sprint Plan (“Checklist” içeriyor)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Testimonial Kart Tasarımı & Carousel Checklist’ini İndir — Creative / Social Proof (v1.0)",
+            "purpose": "Bu checklist, misafir/müşteri yorumlarını okunur ve güven veren testimonial kartlarına dönüştürmek için hazırlandı. Quote–kimlik–kanıt hiyerarşisini standardize eder, rating/metric kullanımını sadeleştirir ve carousel akışını (problem→yorum→kanıt→sonuç→CTA) tekrar edilebilir hale getirir. Otel ve B2B için iki ayrı şablon varyantı önerir.",
+            "whoFor": "Tasarımcı, pazarlama ekibi, sosyal medya editörü, ajans yöneticisi.",
+            "steps": [
+              "Elinizdeki 10 yorumu seçin; kısa quote’lara indirin (1–2 cümle).",
+              "Kartları checklist’e göre tasarlayın; rating/logo/metric’i tek kanıt olarak ekleyin.",
+              "14 günlük sprint ile “testimonial kütüphanesi”ni (web + sosyal + sunum) çıkarıp yayınlayın."
+            ],
+            "checklist": [
+              "Kart Hiyerarşisi — Quote en büyük öğe mi?",
+              "Kart Hiyerarşisi — Kimlik (isim/unvan/şirket) net mi?",
+              "Kart Hiyerarşisi — Kanıt (rating/logo/1 metrik) tek mi?",
+              "İçerik — Quote 1–2 cümle mi?",
+              "İçerik — Abartılı iddia/çok metrik var mı?",
+              "İçerik — Kaynak/izin ihtiyacı kontrol edildi mi?",
+              "Görsel — Fotoğraf varsa kırpma ve ışık tutarlı mı?",
+              "Görsel — Foto yoksa avatar/baş harf çözümü var mı?",
+              "Görsel — Kontrast ve okunabilirlik mobilde test edildi mi?",
+              "Carousel Akışı — Problem/vaat slaytı var mı?",
+              "Carousel Akışı — Yorum slaytı net mi?",
+              "Carousel Akışı — Kanıt slaytı (rating/logo) var mı?",
+              "Carousel Akışı — Sonuç slaytı (before/after veya 1 metrik) var mı?",
+              "Carousel Akışı — CTA slaytı tek aksiyon mu?",
+              "Boyut Uyarlama — Web (16:9) uyarlaması var mı?",
+              "Boyut Uyarlama — Sosyal (1:1 / 4:5 / 9:16) uyarlaması var mı?",
+              "Boyut Uyarlama — Safe area korunuyor mu?"
+            ],
+            "href": "/downloads/testimonial-kart-tasarimi-carousel-checklisti-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          },
+          {
+            "type": "h3",
+            "text": "Deliverables listesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel testimonial kart seti (foto + rating)",
+              "B2B testimonial kart seti (logo + unvan)",
+              "5 slayt carousel şablonu",
+              "Web (16:9) + sosyal (1:1/4:5/9:16) uyarlamalar",
+              "Kullanım kılavuzu + izin/kaynak notları"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "testimonial-tasarim-sistemi-gibi-yonet",
+        "title": "Fark Yaratan Mini Bölüm: “Testimonial’ı Tasarım Sistemi Gibi Yönet” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok marka review’leri sadece text olarak listeliyor; bu da dikkat çekmiyor ve güven etkisini düşürüyor. Fark yaratan yaklaşım: testimonial’ı bir kart sistemi olarak ele almak (grid, alan önceliği, rating standardı, carousel akışı) ve bunu web + sosyal + sunumda aynı şekilde kullanmak. Böylece içerik üretimi hızlanır, marka dili tutarlı kalır ve satış ekibi aynı materyali tekrar tekrar kullanabilir."
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kart sistemi için 2–3 layout standardın var mı?",
+              "Rating/logo/metric gösterim kuralı tek mi?",
+              "Carousel akışı sabit mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kart sistemini “library” olarak yayınla (Figma/Canva).",
+              "Her ay 5 yeni testimonial’ı aynı şablona işle.",
+              "Web ve social ölçü uyarlamalarını otomatikleştir."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Testimonial kart tasarımı nasıl olmalı?",
+        "a": "Quote’u en büyük öğe yapın; altında isim/unvan (B2B’de logo) ile kimliği netleştirin. Rating veya tek metrik gibi kanıtı üçüncü katmanda gösterin. Metni 1–2 cümleyle sınırlamak okunabilirliği artırır."
+      },
+      {
+        "q": "Sosyal kanıt görselini hangi alanlarda kullanmalıyım?",
+        "a": "Landing sayfasında CTA öncesi, pricing/plan alanında ve form/rezervasyon adımı yanında çok etkilidir. Sosyal medyada carousel’in orta slaytlarında “kanıt” olarak çalışır. Sunumlarda teklif/pitch slaytında itirazları azaltır."
+      },
+      {
+        "q": "Otel ve B2B için review kartlarında hangi bilgiler yer almalı?",
+        "a": "Otelde rating ve kısa quote kritik; isim/ilk harf ve tarih/konsept bağlamı eklenebilir. B2B’de isim/unvan + şirket logosu + kısa quote öne çıkar; varsa tek metrik kanıt eklenir. Her kartta bilgi yükünü minimum tutmak gerekir."
+      },
+      {
+        "q": "Fotoğraf şart mı?",
+        "a": "Şart değil ama güveni artırır. Fotoğraf yoksa baş harf avatarı veya sade bir kimlik alanı kullanılabilir. Önemli olan kimlik ve kanıtın net olmasıdır."
+      },
+      {
+        "q": "Rating nasıl gösterilir?",
+        "a": "Rating’i quote’un önüne geçirmeden “kanıt” alanında küçük, net şekilde gösterin. Otelde yıldız + 4.8/5 gibi sade bir ifade yeterlidir. Kaynak bilgisi gerekiyorsa küçük dipnotla verilir."
+      },
+      {
+        "q": "Carousel testimonial setleri nasıl kurgulanır?",
+        "a": "Problem/vaat → testimonial quote → kimlik+kanıt → sonuç (before/after veya tek metrik) → CTA akışı iyi çalışır. Her slaytta tek mesaj ve aynı grid/typography standardı korunmalıdır."
+      },
+      {
+        "q": "Web ve sosyal medya ölçü uyarlaması nasıl yapılmalı?",
+        "a": "Aynı kart sistemini farklı oranlara uyarlayın: web için 16:9, sosyal için 1:1/4:5/9:16. Safe area, font ölçeği ve spacing sabit kuralla yönetildiğinde kalite korunur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — sosyal-kanit-ve-testimonial-kart-tasarimi-hero-01.webp — alt text: “Testimonial kart tasarımı kapağı, otel ve B2B’de sosyal kanıtla güven oluşturma”",
+          "h1-context — 1920×1080 — sosyal-kanit-ve-testimonial-kart-tasarimi-h1-context-02.webp — alt text: “Metin listesi ve testimonial kart karşılaştırması, web ve sosyal güven etkisi”",
+          "divider-01 — 1600×1200 — sosyal-kanit-ve-testimonial-kart-tasarimi-divider-03.webp — alt text: “Sosyal kanıt ayırıcı görseli, otel ve B2B’de risk azaltma ve güven”",
+          "divider-02 — 1600×1200 — sosyal-kanit-ve-testimonial-kart-tasarimi-divider-04.webp — alt text: “Rating ve skor ayırıcı, review kartlarında kanıt hiyerarşisi”",
+          "diagram-05 — 1920×1080 — sosyal-kanit-ve-testimonial-kart-tasarimi-diagram-05.webp — alt text: “Carousel testimonial akış diyagramı, problem yorum kanıt sonuç CTA”",
+          "checklist-06 — 1200×1200 — sosyal-kanit-ve-testimonial-kart-tasarimi-checklist-06.webp — alt text: “Testimonial checklist kartı, quote isim rating ve layout kontrolü”",
+          "kpi-07 — 1200×1200 — sosyal-kanit-ve-testimonial-kart-tasarimi-kpi-07.webp — alt text: “Sosyal kanıt KPI kartı, dönüşüm desteği ve okunabilirlik paneli”",
+          "proof-08 — 1200×1200 — sosyal-kanit-ve-testimonial-kart-tasarimi-proof-08.webp — alt text: “Testimonial şablon teslim kartı, web sosyal sunum uyarlama seti”",
+          "table-testimonial-card-field-priority — Testimonial Kart Alanları Öncelik Tablosu (quote/kimlik/kanıt/opsiyonel alanlar)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu (yumuşak ifade)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
+          "Satış Dönüşüm Raporlama iç linki kontrol edildi: /raporlama/satis-donusum",
+          "İçerik Üretimi iç linki kontrol edildi: /smm/icerik-uretimi",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /smm/icerik-uretimi",
+          "Ana içerikte seçilen tablo: Testimonial Kart Alanları Öncelik Tablosu",
+          "Testimonial kart hiyerarşisi: quote → kişi/şirket → kanıt",
+          "Quote uzunluğu en fazla 1–2 cümle olarak sınırlandırıldı",
+          "Kart başına tek ana kanıt kullanıldı: rating, logo veya bir sonuç metriği",
+          "Otel kartlarında rating, kısa quote, isim/ilk harf ve tarih/konsept bağlamı kullanıldı",
+          "B2B kartlarında isim/unvan, şirket logosu, kısa quote ve varsa tek sonuç metriği kullanıldı",
+          "Fotoğraf bulunmadığında baş harf avatarı veya sade kimlik alanı kullanıldı",
+          "Carousel akışı: problem/vaat → quote → kimlik/kanıt → sonuç → CTA",
+          "Her carousel slaydında tek mesaj ve ortak grid/typography standardı uygulandı",
+          "Web uyarlaması: 16:9",
+          "Sosyal uyarlamalar: 1:1, 4:5 ve 9:16",
+          "Mobil font ölçeği, kontrast ve safe area kontrolleri yapıldı",
+          "Review, fotoğraf, logo, rating kaynağı ve kullanım izinleri kontrol edildi",
+          "Otel ve B2B için iki ayrı şablon varyantı oluşturuldu",
+          "Testimonial kart sistemi Figma veya Canva kütüphanesi olarak yayınlandı",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
+  },
+
+   "BlogInstagramStoryVeHighlightCoverTasarimi": {
+    "title": "Instagram Story & Highlight Cover Tasarım Rehberi",
+    "slug": "instagram-story-ve-highlight-cover-tasarimi",
+    "department": "creative",
+    "subDepartment":"graphic",
+    "updatedAt": "28 Temmuz 2026",
+    "publishedAt": "2026-07-28",
+    "readingTime": "16 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Story şablonları ve highlight cover ikon setiyle profilinizi mikro vitrinlere bölün. Otel/B2B için kategori planı, CTA dengesi ve arşiv düzeni; checklist’i indirin.",
+    "seo": {
+      "metaTitle": "Instagram Story & Highlight Cover Tasarım Rehberi | DGTLFACE",
+      "metaDescription": "Story şablonları ve highlight cover ikon setiyle profilinizi mikro vitrinlere bölün. Otel/B2B için kategori planı, CTA dengesi ve arşiv düzeni; checklist’i indirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı + Sayfa URL: Grafik & Motion Tasarım — https://dgtlface.com/tr/creative/grafik-motion-tasarim",
+        "URL normalizasyonu: relative → https://dgtlface.com + path",
+        "Blog No + Blog URL: #17 — https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count: 3000–3500",
+        "Blog-slug: instagram-story-ve-highlight-cover-tasarimi",
+        "Canonical: /tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi"
+      ],
+      "strategySummary": "Bu blog, Instagram profilinin “hızlı tur” alanı olan story + highlight bölümünü bir mikro vitrin sistemine dönüştüren core içeriktir; otel ve B2B hesaplarda ilk izlenimi ve bilgi erişimini iyileştirir. Hedef persona otel sahibi / satış-pazarlama müdürü / ajans yöneticisidir: profilin dağınık görünmesini istemez, sık sorulan bilgilere hızlı erişim sağlamak ister. Funnel’da awareness → consideration: profil düzeni güven üretir, ardından CTA’lı story akışlarıyla dönüşüm yolu açılır. Ana iş sorusu: “Highlight kategorilerini nasıl planlarım ve kapak/şablon setini marka diliyle nasıl standardize ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-07-28",
+      "readingTime": "16 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Story ve highlight alanları, profilin “hızlı tur” kısmıdır. Tutarlı story şablonları (bilgi/duygu/CTA) ve sistemli highlight kapakları; otel ve B2B markaları için profilin ilk bakışta profesyonel, düzenli ve bilgi verici görünmesini sağlar. Doğru yaklaşım: önce highlight kategorilerini planla, sonra ikon/renk sistemini standardize et, ardından story şablonlarını safe zone ve CTA hiyerarşisiyle üret. Böylece sık sorulan bilgilere erişim hızlanır ve etkileşim artar.",
+      "sgeSummary": "Highlight’ları kategoriye böl; kapaklarda tek ikon + sabit renk sistemi kullan. Story şablonlarını bilgi/duygu/CTA olarak paketle; arşiv düzeni ve checklist ile tutarlılığı koru.",
+      "voiceAnswer": "Highlight’ları kategoriyle planla; kapaklarda tek ikon ve sabit renk kullan, story şablonlarını bilgi/CTA olarak paketle.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm ve B2B Instagram yöneten ekipler, ajanslar, sosyal medya tasarımcıları",
+        "KPI: Profil düzen algısı, highlight tıklaması, story etkileşimi (anket/quiz), DM/WhatsApp tıklaması, SSS erişim hızı",
+        "Entity: Instagram Stories, Highlight Covers, Story Templates, Profile Navigation, Icon System, Category Archive",
+        "Geo: Türkiye geneli; Instagram’a ağırlık veren otel ve B2B markaları",
+        "Funnel: Awareness (profil güveni) → Consideration (bilgi) → Conversion (CTA)",
+        "Kullanım: profil highlight’ları, story serileri, kampanya duyuruları, SSS akışı",
+        "Risk: Kategori plansız highlight → dağınık profil, düşük güven, kaçan fırsatlar"
+      ]
+    },
+    "h1": {
+      "title": "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
+      "intro": "Instagram’da profilin ilk 5 saniyesi kritiktir: kullanıcı “bu marka kim, ne sunuyor, bana uygun mu?” diye bakar ve çoğu zaman highlight’lardan hızlı tur atar. Story ve highlight alanları bu yüzden bir “mikro vitrin”dir; düzenli ve tutarlıysa güven üretir, dağınıksa kaybettirir. Bu rehberde; highlight kategorilerini nasıl planlayacağınızı, cover ikon/renk sistemini nasıl standardize edeceğinizi ve story şablonlarını bilgi–duygu–CTA seti olarak nasıl kuracağınızı otel ve B2B örnekleriyle anlatıyoruz.",
+      "quickSummary": [
+        "1. Highlight kategorilerini kullanıcı sorularına göre 6–10 başlıkta planla.",
+        "2. Kapaklarda tek ikon stili ve sabit renk sistemi kullan.",
+        "3. Story şablonlarını bilgi, duygu ve CTA olarak üç sete ayır.",
+        "4. CTA’yı tek aksiyonla ve safe area içinde konumlandır.",
+        "5. Highlight’ları aylık bakım rutiniyle güncel ve düzenli tut."
+      ],
+      "ctaPrimary": {
+        "label": "Story & Highlight Tasarım Analizi Talep Et",
+        "text": "Instagram profilini düzenleyip mikro vitrinlerle güven ve dönüşüm artırmak isteyen otel/B2B ekipleri için.",
+        "href": "/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Story & Highlight Tasarım Analizi Talep Et",
+        "text": "Instagram profilini mikro vitrinlerle düzenleyip güven artırmak isteyen otel ve B2B ekipleri için.",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Instagram Story & Highlight Paket Checklist’ini İndir",
+        "text": "Kategorileri ve şablonları hızlıca planlar; highlight düzenini ve kapak tutarlılığını oturtursunuz.",
+        "href": "/otel/sosyal-medya"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Grafik & Motion Tasarım",
+        "href": "/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "label": "Otel Sosyal Medya Yönetimi",
+        "href": "/otel/sosyal-medya"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "story-formatinin-rolu",
+        "title": "Story Formatının Rolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Story, feed’e göre daha hızlı ve daha “anlık” bir kanaldır; ama en iyi markalar story’yi rastgele değil, seri mantığıyla kullanır. Story’nin rolü üç parçalıdır: (1) bilgi verir (SSS, detay), (2) duygu ve bağ kurar (backstage, deneyim), (3) aksiyon aldırır (CTA). Highlight ise bu story’lerin “kalıcı arşiv”e dönüşmüş halidir."
+          },
+          {
+            "type": "h3",
+            "text": "Instagram story tasarımı nasıl olmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Story tasarımı mobil okunabilirliğe uygun olmalı; tek mesaj, güçlü görsel hiyerarşi ve net CTA içermelidir. Şablon yaklaşımıyla (bilgi/duygu/CTA) üretildiğinde hem hızlı çıkar hem tutarlı görünür."
+          },
+          {
+            "type": "h3",
+            "text": "Story’nin iyi çalıştığı 5 kullanım"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SSS ve hızlı bilgi",
+              "Kampanya/duyuru",
+              "Anket/quiz/Q&A etkileşimi",
+              "Oda/ürün “mini tur”",
+              "CTA (DM/WhatsApp/rezervasyon linki)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Story’de tek mesaj var mı, yoksa metin yığını mı?",
+              "Metin safe area’da mı (üst/alt boşluk korunuyor mu)?",
+              "CTA tek aksiyon mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Story’yi “seri” olarak planla: Hook → Değer → CTA.",
+              "Metni 2 satırla sınırla; geri kalanı görsele bırak.",
+              "Story şablonlarını kit olarak çıkar (tasarımcıdan bağımsız üretim)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "story-sablonlari-bilgi-duygu-cta",
+        "title": "Story Şablonları (Bilgi, Duygu, CTA)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şablonlar, story’de hız ve tutarlılık sağlar. Üç temel şablon türü yeterlidir: bilgi (SSS/duyuru), duygu (deneyim/backstage), CTA (tek aksiyon). Her şablonda değişmeyenler: grid, tipografi hiyerarşisi, safe area ve CTA konumu. Değişenler: fotoğraf/video, mesaj ve konu."
+          },
+          {
+            "type": "h3",
+            "text": "Story’de metin/fotoğraf/CTA dengesini nasıl kurarım? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Metni kısa tutup (1–2 satır), görseli ana kanıt olarak kullanın; CTA’yı tek aksiyonla ve sabit konumda verin. Bilgi story’sinde okunurluk, duygu story’sinde görsel alan, CTA story’sinde buton/etiket alanı önceliklidir."
+          },
+          {
+            "type": "h3",
+            "text": "3 şablonun pratik iskeleti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bilgi: başlık + 3 madde + küçük CTA",
+              "Duygu: büyük görsel + kısa cümle + küçük logo",
+              "CTA: tek teklif cümlesi + buton/DM yönlendirme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bilgi story’sinde 3 maddeden fazlası var mı?",
+              "Duygu story’sinde metin görseli boğuyor mu?",
+              "CTA story’sinde aksiyon net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 şablonu Figma/Canva kitine kilitle.",
+              "Quiz/anket/Q&A varyantlarını bu 3 şablondan türet.",
+              "Her story serisini highlight’a bağla (arşiv)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "highlight-cover-konseptleri",
+        "title": "Highlight Cover Konseptleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Highlight kapakları, profilin “menüsü” gibidir. Kapağın görevi açıklama yazmak değil; kullanıcıya hızlı navigasyon sağlamaktır. Bu yüzden kapaklarda en iyi yaklaşım: tek ikon + sabit renk sistemi + tutarlı stroke. Yazı (text) kapakta çoğu zaman küçük kalır ve karışıklık yaratır; icon sistemi daha hızlı anlaşılır."
+          },
+          {
+            "type": "h3",
+            "text": "Highlight cover ikonlarını nasıl seçmeliyim? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Her highlight için tek bir ikon seçin; ikon seti tek stile (stroke/solid) bağlı olsun ve renk sistemi sabit kalsın. Kategoriler arasında tutarlı bir görsel ritim oluşturmak, profilin profesyonel görünmesini sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Kapak tasarım kuralları"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek ikon (merkez)",
+              "Tek background rengi (palette’den)",
+              "Aynı stroke kalınlığı",
+              "Aynı boşluk (padding)",
+              "Kategori adı profilde yazdığı için kapağa metin koymak opsiyonel"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kapaklarda 2 farklı ikon stili var mı?",
+              "Renkler rastgele mi, palette’den mi?",
+              "İkonlar aynı boyutta mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "12 kapaklık bir “çekirdek set” çıkar (sonra genişlet).",
+              "İkon setini tekleştir; stroke kalınlığını sabitle.",
+              "Otel/B2B için kategori planını önce yap, sonra tasarla."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-story-highlight-paketleri",
+        "title": "Otel ve B2B İçin Story & Highlight Paketleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada işin stratejik kısmı başlıyor: kategori planı doğru değilse en güzel kapaklar bile işe yaramaz. Otelde kullanıcı hızlıca “oda, restoran, spa, etkinlik, konum, kampanya” gibi bilgi arar. B2B’de “ürün, case, SSS, webinar, fiyat/plan, iletişim” gibi alanlar öne çıkar. Ama her markanın 25 highlight’ı olması gerekmez; az ama doğru kategoriler daha iyi çalışır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel ve B2B için hangi highlight kategorileri mantıklı? "
+          },
+          {
+            "type": "p",
+            "text": "Net cevap: Otelde oda, restoran, spa, etkinlik/deneyim, konum/ulaşım ve kampanya; B2B’de ürün, case, SSS, kaynaklar (webinar/e-book) ve iletişim en mantıklı çekirdek kategorilerdir. Kategori sayısını 6–10 aralığında tutmak pratik bir denge sağlar."
+          },
+          {
+            "type": "h3",
+            "text": "Otel önerilen highlight çekirdeği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Odalar",
+              "Restoran",
+              "Spa",
+              "Deneyim/Etkinlik",
+              "Konum/İpuçları",
+              "Kampanya",
+              "GEO doğal kullanım: Antalya/Belek/Side/Kemer/Bodrum destinasyon otellerinde “Konum/İpuçları” highlight’ı özellikle işe yarar."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B önerilen highlight çekirdeği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün",
+              "Case",
+              "SSS",
+              "Webinar/Kaynak",
+              "Güncellemeler",
+              "İletişim/Demo"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Otel/B2B Highlight Kategori Önerileri Tablosu",
+            "headers": [
+              "Marka Tipi",
+              "Kategori",
+              "Amaç",
+              "Örnek Story Sayısı"
+            ],
+            "rows": [
+              [
+                "Otel",
+                "Odalar",
+                "Oda tiplerini, özelliklerini ve deneyimi hızlıca göstermek",
+                "5–10"
+              ],
+              [
+                "Otel",
+                "Restoran",
+                "Yeme-içme seçeneklerini ve konsepti tanıtmak",
+                "5–10"
+              ],
+              [
+                "Otel",
+                "Spa",
+                "Spa hizmetlerini ve rahatlama deneyimini göstermek",
+                "5–10"
+              ],
+              [
+                "Otel",
+                "Deneyim/Etkinlik",
+                "Aktiviteleri ve tesis içi deneyimleri anlatmak",
+                "5–10"
+              ],
+              [
+                "Otel",
+                "Konum/İpuçları",
+                "Ulaşım, destinasyon ve çevre bilgilerine hızlı erişim sağlamak",
+                "5–10"
+              ],
+              [
+                "Otel",
+                "Kampanya",
+                "Aktif teklifleri ve rezervasyon fırsatlarını göstermek",
+                "5–10"
+              ],
+              [
+                "B2B",
+                "Ürün",
+                "Ürün veya hizmet çözümünü hızlıca anlatmak",
+                "5–10"
+              ],
+              [
+                "B2B",
+                "Case",
+                "Müşteri örneklerini ve sonuçları göstermek",
+                "5–10"
+              ],
+              [
+                "B2B",
+                "SSS",
+                "Sık sorulan sorulara hızlı yanıt vermek",
+                "3–5"
+              ],
+              [
+                "B2B",
+                "Webinar/Kaynak",
+                "E-book, webinar ve bilgi içeriklerini arşivlemek",
+                "5–10"
+              ],
+              [
+                "B2B",
+                "Güncellemeler",
+                "Yeni özellik, yayın ve duyuruları paylaşmak",
+                "5–10"
+              ],
+              [
+                "B2B",
+                "İletişim/Demo",
+                "DM, demo veya iletişim aksiyonuna yönlendirmek",
+                "3–5"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (sheet dolu): Düzenli highlight ve story sistemi olan profillerde takipçilerin sık sorulan bilgilere ulaşma hızı ve etkileşim oranları artıyor. (Kesin rakam iddiası yok; gözlem.)"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kategori sayısı 10’u aşıyor mu? (genelde fazla)",
+              "Kategoriler kullanıcı sorusuna göre mi, içerik üreticisine göre mi?",
+              "Her highlight içinde “en iyi” 5–10 story var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6–10 kategoriyle başla; fazlasını sonra ekle.",
+              "Her kategori için 1 kapak + 3 story şablonu tanımla.",
+              "İçerik üretim süreciyle bağla: https://dgtlface.com/tr/smm/icerik-uretimi",
+              "Otel sosyal medya sayfasıyla bağla: https://dgtlface.com/tr/otel/sosyal-medya"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Instagram Story & Highlight Paket Checklist’ini İndir",
+            "text": "Highlight kategorilerini ve story şablonlarını tek sayfada planlar; profilinizi mikro vitrinlere bölerek düzenlersiniz.",
+            "href": "/otel/sosyal-medya"
+          }
+        ]
+      },
+      {
+        "id": "instagram-story-highlight-checklist-asset",
+        "title": "Instagram Story & Highlight Paket Checklist’ini İndir",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "Şablon seçimi: Checklist + Sprint Plan (checklist)"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Instagram Story & Highlight Paket Checklist’ini İndir — Creative / Story Design (v1.0)",
+            "purpose": "Bu checklist, Instagram profilinizi “mikro vitrinler” mantığıyla düzenlemek için hazırlanmıştır: doğru kategori planı, tutarlı kapak ikon seti ve story şablon paketleri. Otel ve B2B markalarında highlight’ların menü gibi çalışmasını sağlar; sık sorulan bilgilere erişimi hızlandırır ve etkileşimi artırır. Şablon + arşiv rutiniyle sürdürülebilir düzen kurar.",
+            "whoFor": "Sosyal medya yöneticisi, tasarımcı, pazarlama ekibi ve ajans.",
+            "steps": [
+              "6–10 highlight kategorisi belirleyin (otel/B2B çekirdek set).",
+              "Kapak ikon setini (tek stil + sabit renk) üretin; story şablonlarını 3 tipe ayırın (bilgi/duygu/CTA).",
+              "14 günlük sprint ile paketleri yayınlayın ve aylık arşiv bakım rutini ekleyin."
+            ],
+            "checklist": [
+              "Kategori Planı — 6–10 kategori seçildi mi?",
+              "Kategori Planı — Kategoriler kullanıcı sorusuna göre mi?",
+              "Kategori Planı — Her kategori için amaç yazıldı mı?",
+              "Highlight Cover Sistemi — Tek ikon stili (stroke/solid) seçildi mi?",
+              "Highlight Cover Sistemi — Renk sistemi palette’den mi?",
+              "Highlight Cover Sistemi — İkon boyutu/padding sabit mi?",
+              "Highlight Cover Sistemi — Kapakta text kullanılacaksa kural var mı?",
+              "Story Şablon Paketi — Bilgi şablonu (3 madde) hazır mı?",
+              "Story Şablon Paketi — Duygu şablonu (büyük görsel) hazır mı?",
+              "Story Şablon Paketi — CTA şablonu (tek aksiyon) hazır mı?",
+              "Story Şablon Paketi — Quiz/anket/Q&A varyantları türetildi mi?",
+              "Arşiv & Düzen — Her highlight 5–12 story bandında mı?",
+              "Arşiv & Düzen — Bitmiş kampanyalar arşivlendi mi?",
+              "Arşiv & Düzen — Aylık “highlight bakım” rutini var mı?",
+              "CTA & Navigasyon — CTA story’lerinde tek aksiyon var mı?",
+              "CTA & Navigasyon — Link/DM yönlendirmeleri safe area’da mı?",
+              "CTA & Navigasyon — Story serileri highlight’a bağlanıyor mu?"
+            ],
+            "href": "/downloads/instagram-story-highlight-paket-checklisti-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "duzen-ve-arsiv-yapisi",
+        "title": "Düzen ve Arşiv Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Highlight’lar “arşiv”dir; arşiv düzenlenmezse bir süre sonra çöpe döner. En iyi pratik: her highlight için bir “kürasyon kuralı” koymak: en güncel 5–10 story, tekrar edenler temizlenir, kampanya bitince arşivlenir. Böylece profil her zaman güncel görünür."
+          },
+          {
+            "type": "h3",
+            "text": "Arşiv pratikleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her highlight: 5–12 story bandı (Varsayım: fazla olunca kimse izlemez)",
+              "Kampanyalar: sezon bitince kaldır veya “Arşiv” kategorisine taşı",
+              "SSS: 3–5 soru ile güncel tut",
+              "Cover set: yılda 1 kez refresh"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Bitmiş kampanyalar hâlâ highlight’ta mı?",
+              "SSS highlight’ı güncel mi?",
+              "Aynı story 3 kez farklı highlight’ta mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık 30 dakikalık “highlight bakım” rutini koy.",
+              "Kampanya highlight’larını sezonluk yönet.",
+              "Kapak setini değiştireceksen tüm seti birlikte güncelle (parça parça değil)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kapagi-tasarlamak-yetmez-navigasyonu-tasarla",
+        "title": "Fark Yaratan Mini Bölüm: “Kapağı Tasarlamak Yetmez, Navigasyonu Tasarla” (Competitor Gap)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR’de highlight cover örnekleri çok; ama kategori planı + tasarım sistemi birlikte ele alınmıyor. Fark yaratan yaklaşım: önce kullanıcı sorularına göre kategori haritası çıkarıp, sonra ikon/renk sistemiyle bunu navigasyona dönüştürmek. Böylece kapaklar “dekor” değil, profilde gerçek bir menü olur."
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "items": [
+              "Kategori haritası (menü) çizildi mi?",
+              "İkon seti tek ve tutarlı mı?",
+              "Story şablonları kategoriye göre farklılaşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Profil menüsünü 6–10 kategoriyle tasarla.",
+              "Kapakları bu menüye göre üret; rastgele değil.",
+              "Story seri akışını highlight’a bağla: her seri kalıcı yere taşınsın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Story & Highlight Tasarım Analizi Talep Et",
+            "text": "Instagram profilini mikro vitrinlerle düzenleyip güven artırmak isteyen otel ve B2B ekipleri için.",
+            "href": "/creative/grafik-motion-tasarim"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Instagram story tasarımı nasıl olmalı?",
+        "a": "Tek mesaj, net hiyerarşi ve mobil okunabilirlik hedeflenmeli. Metni 1–2 satırda tutup görseli kanıt olarak kullanın. CTA varsa tek aksiyonla ve sabit konumda verin."
+      },
+      {
+        "q": "Highlight cover ikonlarını nasıl seçmeliyim?",
+        "a": "Tek ikon stili (stroke veya solid) seçin ve tüm kapaklarda aynı grid/padding’i koruyun. Renkleri palette’den seçip sabitleyin. Kapakta metin kullanacaksanız kural koyun; çoğu durumda ikon yeterlidir."
+      },
+      {
+        "q": "Otel ve B2B için hangi highlight kategorileri mantıklı?",
+        "a": "Otelde odalar, restoran, spa, deneyim/etkinlik, konum ve kampanya çekirdek kategorilerdir. B2B’de ürün, case, SSS, kaynaklar (webinar/e-book) ve iletişim/demodur. 6–10 kategori pratik bir dengedir."
+      },
+      {
+        "q": "Story’de metin/fotoğraf/CTA dengesini nasıl kurarım?",
+        "a": "Bilgi story’sinde kısa maddeler, duygu story’sinde büyük görsel, CTA story’sinde tek aksiyon önceliklidir. Metni azaltıp hiyerarşiyi netleştirerek izleyiciyi yormayın. CTA’yı alt/sağ riskli alanlara yapıştırmayın."
+      },
+      {
+        "q": "Kaç highlight olmalı?",
+        "a": "Çoğu marka için 6–10 highlight yeterlidir. Daha fazlası kullanıcıyı boğabilir ve profil menüsünü karıştırır. İhtiyaç oldukça kategori eklemek daha sağlıklıdır."
+      },
+      {
+        "q": "Her highlight’ta kaç story olmalı?",
+        "a": "5–12 story bandı pratik çalışır (Varsayım). Çok kalabalık highlight’lar izlenmez; en iyileri kürasyonla seçip arşivlemelisiniz."
+      },
+      {
+        "q": "Kapaklarda text mi ikon mu daha iyi?",
+        "a": "Çoğu durumda ikon daha temiz ve hızlı anlaşılır. Text küçük kalır ve karmaşa yaratabilir. Eğer text kullanılacaksa kısa ve sabit bir tipografi standardı şarttır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — instagram-story-ve-highlight-cover-tasarimi-hero-01.webp — alt text: “Instagram story ve highlight tasarımı kapağı, otel ve B2B profil mikro vitrin sistemi”",
+          "h1-context — 1920×1080 — instagram-story-ve-highlight-cover-tasarimi-h1-context-02.webp — alt text: “Dağınık highlight profili ve düzenli kategori sistemi karşılaştırması, profesyonel görünüm”",
+          "divider-01 — 1600×1200 — instagram-story-ve-highlight-cover-tasarimi-divider-03.webp — alt text: “Story formatının rolü ayırıcı görseli, hızlı tur ve etkileşim yapısı”",
+          "divider-02 — 1600×1200 — instagram-story-ve-highlight-cover-tasarimi-divider-04.webp — alt text: “Highlight cover konseptleri ayırıcı, ikon ve renk sistemiyle profil navigasyonu”",
+          "diagram-05 — 1920×1080 — instagram-story-ve-highlight-cover-tasarimi-diagram-05.webp — alt text: “Story ve highlight paket akış diyagramı, kategori şablon CTA ve arşiv modeli”",
+          "checklist-06 — 1200×1200 — instagram-story-ve-highlight-cover-tasarimi-checklist-06.webp — alt text: “Story highlight checklist kartı, kategori ikon set ve CTA yerleşim kontrolü”",
+          "kpi-07 — 1200×1200 — instagram-story-ve-highlight-cover-tasarimi-kpi-07.webp — alt text: “Profil navigasyon KPI kartı, highlight tıklaması ve story etkileşim paneli”",
+          "proof-08 — 1200×1200 — instagram-story-ve-highlight-cover-tasarimi-proof-08.webp — alt text: “Story ve highlight deliverables kartı, şablon seti ve kapak ikon paketi”",
+          "table-hotel-b2b-highlight-categories — Otel/B2B highlight kategori önerileri tablosu (kategori, amaç, örnek story sayısı)",
+          "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+          "table-before-after-kpi — Öncesi/Sonrası KPI tablosu (yumuşak ifade)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi",
+          "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
+          "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
+          "İçerik Üretimi iç linki kontrol edildi: /smm/icerik-uretimi",
+          "Otel Sosyal Medya Yönetimi iç linki kontrol edildi: /otel/sosyal-medya",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
+          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /otel/sosyal-medya",
+          "Ana içerikte seçilen tablo: Otel/B2B highlight kategori önerileri tablosu",
+          "Highlight kategori sayısı 6–10 aralığında planlandı",
+          "Her highlight kapağında tek ikon kullanıldı",
+          "İkon seti tek stile bağlandı: stroke veya solid",
+          "Kapaklarda sabit renk sistemi, ikon boyutu ve padding uygulandı",
+          "Story şablonları bilgi, duygu ve CTA olarak üç sete ayrıldı",
+          "Bilgi story’si başlık + en fazla 3 madde + küçük CTA içerir",
+          "Duygu story’si büyük görsel + kısa cümle + küçük logo içerir",
+          "CTA story’si tek teklif cümlesi + tek aksiyon içerir",
+          "Metinler 1–2 satırla sınırlandırıldı",
+          "CTA ve bağlantı alanları safe area içinde konumlandırıldı",
+          "Quiz, anket ve Q&A varyantları temel üç şablondan türetildi",
+          "Her highlight için 5–12 story bandı hedeflendi",
+          "Bitmiş kampanyalar sezon sonunda kaldırılır veya arşive taşınır",
+          "SSS highlight’ı 3–5 güncel soru ile sınırlandırılır",
+          "Aylık 30 dakikalık highlight bakım rutini tanımlandı",
+          "Kapak seti yılda 1 kez bütün olarak gözden geçirilir",
+          "Story serileri ilgili highlight kategorisine bağlandı",
+          "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
+        ]
+      }
+    }
   }
 
 

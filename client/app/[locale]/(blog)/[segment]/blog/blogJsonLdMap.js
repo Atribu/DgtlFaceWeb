@@ -90361,6 +90361,216 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
+
+      "headline": "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
+
+      "name": "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
+
+      "description": "SLO hedeflerine göre error budget hesaplayıp bütçe tüketimine göre feature hızını ve bakım/stabilite önceliklerini yönetin; otel ve B2B için pratik örneklerle ortak karar çerçevesi kurun.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "SRE Culture",
+
+        "Error Budgets",
+
+        "SLO/SLA",
+
+        "Stability vs Velocity"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak#howto",
+
+      "name": "SLO ve Error Budget ile Bakım-Ürün Kararı Verme",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "SLO’ları tanımla ve ölçümü kur",
+
+          "text": "Kritik servisleri seçip availability/latency/error rate gibi ölçülebilir SLO hedefleri belirleyin; dashboard ve alert kaynaklarını netleştirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Error budget’ı hesapla ve tüketimi izle",
+
+          "text": "Error budget = (1−SLO)*dönem süresi formülüyle budget’ı çıkarın; aylık tüketim tablosunda kullanılan/kalan budget’ı takip edin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Budget durumuna göre aksiyon uygula",
+
+          "text": "Green/Yellow/Red kurallarıyla release hızını ayarlayın: budget tükenince feature yavaşlatıp bakım ve stabilite işlerine ağırlık verin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak", "item": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "SRE nedir, error budget ne anlama gelir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "SRE güvenilirliği SLO’larla yöneten yaklaşımdır. Error budget, hedef SLO’ya göre belirli dönemde tolerans edilen bozulma payıdır ve hız–stabilite kararlarında kullanılır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "SLA, SLO ve error budget arasındaki farklar nelerdir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "SLA dışa verilen taahhüt; SLO iç operasyon hedefidir. Error budget, SLO hedefinden türetilen tolerans payıdır ve bütçe tüketimine göre aksiyon alınır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projeleri için hangi SLO’ları belirlemeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde rezervasyon ve ödeme akışları; B2B’de API latency/error ve rapor/export başarı oranı kritik SLO’lardır. Her servis için ölçülebilir metrik seçin." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Error budget’ı bakım ve özellik geliştirme kararlarında nasıl kullanırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Budget tüketimi fren/gaz sinyalidir: Green’de normal hız, Yellow’da risk azaltma, Red’de feature freeze + stabilite sprint’i uygulanır. Kurallar önceden yazılı olmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
 }
 
 },
@@ -96447,6 +96657,1017 @@ export const BLOG_JSONLD_MAP = {
       "@type": "SpeakableSpecification",
 
       "@id": "https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti",
+
+      "name": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+
+      "description": "Marka imzası için 1–2 sn logo reveal ve intro/outro pack kurun. Reels/YouTube/web kullanımına göre versiyonlayın, CTA alanını doğru yerleştirin; checklist’i indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#article",
+
+      "headline": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+
+      "name": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+
+      "description": "Logo animasyonu ve intro/outro pack’i platformlara göre varyantlayarak videolarda tutarlı marka imzası ve CTA end card standardı kurma rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Logo Animation",
+
+        "Intro/Outro Pack",
+
+        "Brand Motion",
+
+        "Video Branding",
+
+        "CTA End Card"
+
+      ],
+
+      "keywords": [
+
+        "logo animasyonu kac saniye olmali",
+
+        "intro outro pack nedir",
+
+        "otel icin video logo animasyon ornekleri"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#howto",
+
+      "name": "Intro/Outro Pack Nasıl Planlanır?",
+
+      "description": "Logo reveal süresi, platform varyantları ve CTA end card ile brand motion pack’i planlama adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Süre ve stil kararını ver",
+
+          "text": "Logo reveal’i 1–2 saniye bandında tut; markanın karakterine uygun sade motion dili seç."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Pack parçalarını ve platform varyantlarını belirle",
+
+          "text": "Stinger, outro end card, lower-third gibi parçaları seç; Reels/YouTube/Web için kısa-uzun varyant üret."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Format ve teslim setini hazırla",
+
+          "text": "9:16 ve 16:9 çıktıları, şeffaf/açık-koyu varyantları ve kullanım kılavuzunu paketle; versiyonla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Animasyonlu Logo ve Intro/Outro Pack", "item": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Animasyonlu logo neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Videoda marka tanınmasını hızlandırır ve tutarlı bir imza etkisi yaratır. Doğru kullanıldığında profesyonel algıyı yükseltir; uzun/karmaşık intro izlenmeyi düşürebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Intro/outro pack nedir, hangi videolarda kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Giriş/çıkış animasyonları ve yardımcı parçaların setidir. YouTube serileri, Reels içerikleri ve web videolarında tutarlılık için kullanılır; kısa formatlarda intro minimal olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Logo animasyonu kaç saniye olmalı, nelerden kaçınmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Genelde 1–2 saniye idealdir; Reels’te daha kısa stinger tercih edilir. Uzun intro ve aşırı efektlerden kaçının; amaç mesajı geciktirmeden imza atmaktır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Outro’da CTA nasıl konumlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CTA tek aksiyon olmalı ve safe zone içinde kalmalıdır. 2–4 saniyelik end card alanında okunabilir hiyerarşiyle yerleştirilmelidir; Reels’te overlay riskine dikkat edin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin",
+
+      "name": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+
+      "description": "Figma kütüphanelerini base UI + brand + social set olarak organize edin. Component publish/lock ve versiyonlama süreci kurun; ajans/otel/B2B ekiplerinde hız ve tutarlılık kazanın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#article",
+
+      "headline": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+
+      "name": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+
+      "description": "Base UI, brand ve social set kütüphaneleri; token, publish/lock ve versiyonlama kurallarıyla creative ekiplerde hız ve tutarlılık sağlayan DesignOps rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Design Ops",
+
+        "Figma Libraries",
+
+        "Components & Tokens",
+
+        "Team Workflow",
+
+        "Publish",
+
+        "Versioning"
+
+      ],
+
+      "keywords": [
+
+        "figma kutuphane yonetimi",
+
+        "design ops nedir",
+
+        "otel icin multi brand figma library yapisi"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#howto",
+
+      "name": "Figma Library Nasıl Toparlanır ve Publish Süreci Nasıl Kurulur?",
+
+      "description": "Base UI + brand + social set mimarisiyle Figma kütüphanesini düzenleyip publish/lock ve versiyonlama kurallarıyla yönetme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kütüphane mimarisini kur",
+
+          "text": "Figma’yı base UI, brand ve social set olarak ayır; source of truth dosyalarını belirle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Component ve token’ları standardize et",
+
+          "text": "Button/card/section component’lerini tekleştir; renk ve typography token’larını brand library’de yönet."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Publish/lock ve versiyonlama kurallarını uygula",
+
+          "text": "Yayın sonrası release note yaz; kritik bileşenleri kilitle; v1.0/v1.1/v2.0 sürüm mantığıyla değişiklikleri yönet."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Design Ops ve Figma Library Yönetimi", "item": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Design ops nedir, ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DesignOps, tasarım üretimini süreç ve standartlarla yönetme yaklaşımıdır. Kopya dosyaları azaltır, doğru versiyonu tekleştirir ve ekipler arası tutarlı çıktı sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Figma kütüphaneleri nasıl organize edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Base UI, Brand ve Social set olmak üzere üç kütüphane yapısı pratik çalışır. Base UI genel komponentleri, Brand token’ları ve ikon dilini; Social set ise şablonları içerir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Component’leri publish/lock süreci nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Değişiklikleri test edip publish edin; kritik bileşenleri kilitleyin ve her yayına kısa release note ekleyin. Kırıcı değişikliklerde sürüm artırıp migration notu yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Figma dosyalarımız çok karıştı, nasıl toparlarız?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce envanter çıkarın ve kopyaları ayırın; sonra base/brand/social mimarisine geçip tek kaynak library yayınlayın. Publish/lock ve versiyon kurallarıyla eski dosyaları arşive taşıyın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+
+"sosyal-kanit-ve-testimonial-kart-tasarimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi",
+
+      "name": "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
+
+      "description": "Otel ve B2B için testimonial kartlarını doğru kurgulayın: fotoğraf, isim/unvan, rating ve kısa quote dengesi. Carousel akışıyla güveni artırın; checklist’i indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#article",
+
+      "headline": "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
+
+      "name": "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
+
+      "description": "Fotoğraf, isim/unvan, rating ve kısa quote alanlarını dengeli kullanarak web, sosyal medya ve sunumlarda güven veren testimonial kart sistemi kurma rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Testimonial Design",
+
+        "Social Proof Cards",
+
+        "Review Carousels",
+
+        "Rating Visuals",
+
+        "Visual Storytelling"
+
+      ],
+
+      "keywords": [
+
+        "testimonial kart tasarimi",
+
+        "sosyal kanit gorsel ornekleri",
+
+        "otel review kart tasarimi"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#howto",
+
+      "name": "Testimonial Kartı Nasıl Tasarlanır?",
+
+      "description": "Quote–kimlik–kanıt hiyerarşisiyle testimonial kart tasarlayıp carousel akışıyla sosyal kanıtı görsel hikâyeye dönüştürme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Quote’u kısalt ve ana mesajı belirle",
+
+          "text": "Yorumu 1–2 cümleye indir; kartın ana mesajını tek cümlede netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kart hiyerarşisini kur",
+
+          "text": "Quote’u en büyük alan yap; isim/unvan/şirketi ikinci katman, rating veya tek metrik kanıtı üçüncü katman olarak yerleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Carousel akışını oluştur ve ölçü uyarlaması yap",
+
+          "text": "Problem→yorum→kanıt→sonuç→CTA akışını 5 slaytta kur; web ve sosyal medya oranlarına göre şablonları uyarlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Sosyal Kanıt ve Testimonial Kart Tasarımı", "item": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Testimonial kart tasarımı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Quote’u en büyük öğe yapın; altında isim/unvan ve gerekiyorsa şirket logosu ile kimliği netleştirin. Rating veya tek metrik gibi kanıtı üçüncü katmanda gösterin ve metni 1–2 cümleyle sınırlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sosyal kanıt görselini hangi alanlarda kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Landing sayfasında CTA öncesi, pricing/plan alanında ve form/rezervasyon adımı yanında etkilidir. Sosyal medyada carousel’in orta slaytlarında ve sunumlarda teklif/pitch slaytında güçlü çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B review kartlarında hangi bilgiler yer almalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde rating + kısa quote + isim/ilk harf ve bağlam; B2B’de isim/unvan + şirket logosu + kısa quote ve varsa tek metrik kanıt yeterlidir. Bilgi yükünü minimum tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Carousel testimonial setleri nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Problem/vaat → quote → kimlik+kanıt → sonuç (before/after veya tek metrik) → CTA akışı iyi çalışır. Her slaytta tek mesaj ve aynı görsel dil korunmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"instagram-story-ve-highlight-cover-tasarimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi",
+
+      "name": "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
+
+      "description": "Story şablonları ve highlight cover ikon setiyle profilinizi mikro vitrinlere bölün. Otel/B2B için kategori planı, CTA dengesi ve arşiv düzeni; checklist’i indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#article",
+
+      "headline": "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
+
+      "name": "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
+
+      "description": "Story şablonları ve highlight cover ikon setleriyle Instagram profilini kategori bazlı mikro vitrinlere dönüştürerek düzen, güven ve erişim hızı sağlayan pratik rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Instagram Stories",
+
+        "Highlight Covers",
+
+        "Story Templates",
+
+        "Profile Navigation",
+
+        "Icon System"
+
+      ],
+
+      "keywords": [
+
+        "instagram highlight cover tasarimi",
+
+        "otel icin story sablonlari",
+
+        "b2b marka instagram highlight kategorileri"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#howto",
+
+      "name": "Instagram Highlight ve Story Paketi Nasıl Kurulur?",
+
+      "description": "Kategori planı, ikon/renk sistemi ve bilgi-duygu-CTA story şablonlarıyla highlight paketini kurma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Highlight kategorilerini planla",
+
+          "text": "Otel/B2B için 6–10 çekirdek kategori seç; her kategori için amaç ve içerik listesini çıkar."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kapak ikon ve renk sistemini standardize et",
+
+          "text": "Tek ikon stili seç; palette’den sabit renklerle kapak setini üret ve grid/padding değerlerini kilitle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Story şablon paketini oluştur ve arşivle",
+
+          "text": "Bilgi/duygu/CTA şablonlarını üret; story serilerini highlight’lara bağla ve aylık bakım rutini tanımla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Instagram Story ve Highlight Cover Tasarımı", "item": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Instagram story tasarımı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek mesaj, net hiyerarşi ve mobil okunabilirlik hedeflenmeli. Metni kısa tutup görseli kanıt olarak kullanın; CTA varsa tek aksiyonla ve sabit konumda verin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Highlight cover ikonlarını nasıl seçmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek ikon stili seçin ve tüm kapaklarda aynı grid/padding’i koruyun. Renkleri palette’den seçip sabitleyin; metin kullanacaksanız tipografi kuralı belirleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için hangi highlight kategorileri mantıklı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde odalar, restoran, spa, deneyim/etkinlik, konum ve kampanya; B2B’de ürün, case, SSS, kaynaklar ve iletişim/demo çekirdek kategorilerdir. 6–10 kategori pratik bir dengedir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Story’de metin/fotoğraf/CTA dengesini nasıl kurarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bilgi story’sinde kısa maddeler, duygu story’sinde büyük görsel, CTA story’sinde tek aksiyon önceliklidir. Metni azaltıp hiyerarşiyi netleştirerek izleyiciyi yormayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi#speakable",
 
       "cssSelector": [
 
@@ -179874,8 +181095,850 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak",
+
+      "headline": "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak",
+
+      "name": "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak",
+
+      "description": "AIOps, log/metric/event sinyallerini analiz ederek anomaliyi erken yakalayıp alert/ticket üretir; otel rezervasyon/ödeme ve B2B API akışlarında noise’u azaltıp prediktif bakım sağlar.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "AIOps",
+
+        "Predictive Maintenance",
+
+        "Anomaly Detection",
+
+        "AI-Assisted Incident Management"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak#howto",
+
+      "name": "AIOps ile Prediktif Bakım Akışı Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sinyal kaynaklarını ve kritik akışları seç",
+
+          "text": "Log/metric/event kaynaklarını listeleyin; otelde rezervasyon/ödeme, B2B’de API/rapor gibi kritik akışları pilot kapsamına alın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Anomali tespiti ve öncelik kurallarını tanımla",
+
+          "text": "Spike/trend/shift gibi anomali tipleri için kural/model belirleyin; P1–P4 skoru ve insan-onayı gerektiren durumları yazın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Alert→ticket ve runbook entegrasyonunu işlet",
+
+          "text": "AIOps uyarılarını ticketing’e bağlayın; owner ve doğrulama adımı ekleyin. False positive etiketleme ile feedback loop kurup noise’u azaltın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak", "item": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AIOps nedir, klasik monitoring’den farkı nedir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "AIOps log/metric/event’i birlikte analiz ederek anomaliyi bağlama oturtur, benzer alarmları gruplar ve öncelik çıkarır. Klasik monitoring ise daha çok tek metrik eşiklerine dayanır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yapay zekâ log ve metric’lerden nasıl anomali tespit eder?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Geçmiş baseline’a göre sapmayı (spike/trend/shift) bulur, log paternlerini gruplayabilir ve deploy/config event’leriyle korelasyon kurarak öncelikli uyarı üretir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AIOps tamamen otomatik mi, insan ekipler hangi rolde kalmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "En güvenli yaklaşım insan-onaylı hibrit modeldir: AI triage/özetleme yapar, insan doğrular ve müdahale/rollback gibi kritik kararları verir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B projelerinde AIOps hangi senaryolarda değer katar?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otel tarafında rezervasyon/ödeme ve PMS/OTA entegrasyon anomalileri; B2B’de API latency/error ve rapor/export job anomali tespiti gibi yüksek hacimli kritik akışlarda değer katar." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak",
+
+      "headline": "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak",
+
+      "name": "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak",
+
+      "description": "Green IT bakım modeliyle hosting/kapasite, CDN/cache, medya ve kod optimizasyonu yaparak kaynak tüketimini azaltın; aynı adımlarla CWV ve kullanıcı deneyimini de iyileştirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Green IT",
+
+        "Sustainable Maintenance",
+
+        "Energy-Aware Optimisation",
+
+        "Carbon Footprint of Web"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak#howto",
+
+      "name": "Green IT ile Sürdürülebilir Web Bakımı",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kaynak kullanımını ölç ve baseline çıkar",
+
+          "text": "Sayfa ağırlığı, istek sayısı, cache hit oranı, CWV ve CPU proxy metrikleri için baseline ölçümü alın; owner ve ölçüm sıklığını belirleyin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CDN/cache ve medya-kod optimizasyonlarını uygula",
+
+          "text": "CDN/cache stratejisiyle gereksiz veri transferini azaltın; görsel/video ve JS isteklerini optimize ederek işlem yükünü düşürün."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Trendle raporla ve iletişime bağla",
+
+          "text": "Önce-sonra trendlerini proxy metriklerle raporlayın; CWV’nin SEO/UX etkisini ekleyerek sürdürülebilirliği performansla birlikte anlatın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak", "item": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Green IT nedir, web altyapısında ne anlama gelir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Green IT; hosting/kapasiteyi doğru seçmek, CDN/cache ile gereksiz veri transferini azaltmak ve kod/medya optimizasyonuyla işlem yükünü düşürmektir. Sonuç hem hız hem verimlilik kazanımıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "CDN, cache ve optimizasyon karbon ayak izini gerçekten etkiler mi?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Dolaylı olarak etkiler; origin yükünü ve veri transferini azaltır, işlem yükünü düşürür. Kesin karbon rakamı yerine kaynak tüketimi proxy metrikleriyle trend göstermek daha güvenilir yaklaşımdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B siteleri için sürdürülebilir bakım adımları neler?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde medya optimizasyonu, cache/CDN ve çok dilli verimlilik; B2B’de dashboard/rapor sorgu optimizasyonu ve istek azaltma öne çıkar. CWV iyileştirmeleri her ikisinde de kritiktir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bu çalışmaları raporlayıp marka iletişimine nasıl taşırım?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Önce-sonra trendlerini (sayfa ağırlığı, cache hit, CWV) raporlayın; abartılı karbon iddiası yerine kaynak tüketimi azaldı dili kullanın ve pazarlama-teknik ekipleri aynı KPI’lara bağlayın." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli",
+
+      "headline": "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli",
+
+      "name": "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli",
+
+      "description": "Dağıtık ekiplerde bakımın akması için async ops kurun: ticket not standardı, handover şablonları, net kanallar ve zaman dilimi kurgusuyla meeting-light, izlenebilir bakım yapın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Remote Maintenance",
+
+        "Async Ops",
+
+        "Handover Notes",
+
+        "Distributed Teams"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli#howto",
+
+      "name": "Async Ops ile Uzaktan Bakım Süreci Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ticket’i tek kaynak yap ve yorum standardını belirle",
+
+          "text": "Tüm bakım taleplerini ticketing sistemine toplayın; özet/etki/durum/kanıt/yapılanlar/sıradaki formatını zorunlu kılın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Handover şablonuyla vardiya ve zaman dilimi devrini yönet",
+
+          "text": "Gün sonu veya vardiya geçişlerinde standart handover notu paylaşın; açık incident’lar, blokajlar ve next step bilgilerini ticket linkleriyle birlikte yazın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kanalları ve ritmi SLA/iş etkisiyle hizala",
+
+          "text": "Slack/Teams’i özet+link kanalı olarak kullanın; dashboard’la metrikleri izleyin ve SLA/iş etkisi (downtime) raporlamasını sürece bağlayın."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli", "item": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Async ops modeli nedir, bakım ekiplerinde nasıl uygulanır?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Async ops; ticket’i tek kaynak yapıp yorum standardı ve handover şablonlarıyla vardiya devrini yöneten, meeting-light bakım modelidir. Net kanal kuralları ve ritim şarttır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Uzaktan çalışan bakım ekibi için iletişim nasıl kurgulanmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Ticket yorumları ana kayıt olur; Slack/Teams sadece özet ve link için kullanılır; dashboard metrikleri karar desteği verir. Kritik kararlar ticket üzerinde yazılı kalmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Handover notları ve ticket yorumları nasıl standardize edilir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Ticket template (özet/etki/durum/kanıt/yapılanlar/sıradaki) ve handover tablosu (açık incident, blokaj, next steps) kullanın; link ve owner zorunlu olmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Farklı zaman dilimlerindeki ekiplerle bakım nasıl yürütülür?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Kritik akışları zaman pencerelerine göre sahiplenin; follow-the-sun devrinde handover zorunlu olsun. Release sonrası izlemeyi vardiya devriyle yönetin." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
+},
+
+"self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+
+      "name": "Bakım ve Destek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki#article",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki",
+
+      "headline": "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki",
+
+      "name": "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki",
+
+      "description": "Düşük riskli metin/görsel/kampanya değişiklikleri için guardrail’li self-service panel tasarlayın; rol bazlı yetki, onay akışı, audit log ve rollback ile güvenli hız kazanın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Self-Service Maintenance",
+
+        "Guardrails",
+
+        "Limited Admin Panels",
+
+        "Non-Technical Editors"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": {
+
+        "@id": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki#article"
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki#howto",
+
+      "name": "Guardrail’li Self-Service Bakım Paneli Kurma",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yetki kapsamını belirle ve riskleri ayır",
+
+          "text": "Metin/görsel/kampanya gibi düşük riskli alanları self-service kapsamına alın; teknik SEO, script, ödeme/auth gibi yüksek riskli işlemleri uzman ekipte tutun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Guardrail setini uygula",
+
+          "text": "RBAC, audit log, rollback/sürüm geçmişi, validation ve riskli alanlarda approval akışını ekleyerek kontrolü kaybetmeden hız kazanın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Pilotla, izle ve kalibre et",
+
+          "text": "4–6 haftalık pilot uygulayın; küçük ticket sayısı, rollback oranı ve içerik tutarlılığı KPI’larıyla kapsamı ve guardrail’leri güncelleyin."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+
+        { "@type": "ListItem", "position": 4, "name": "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki", "item": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki#faq",
+
+      "url": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Self-service bakım paneli nedir, hangi işlemler için uygundur?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Self-service bakım paneli, teknik olmayan kullanıcıların metin/görsel/kampanya gibi düşük riskli alanları yönetebildiği sınırlı admin arayüzüdür; kritik teknik işlemler uzman ekipte kalmalıdır." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teknik olmayan kullanıcılar için hangi guardrail’ler konulmalı?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "RBAC, audit log, rollback/sürüm geçmişi, validation ve riskli alanlarda approval akışı temel guardrail setidir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Self-service ile teknik ekip yükü nasıl dengelenir?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Sık ve küçük içerik/kampanya değişiklikleri self-service’e taşınır; ödeme/auth/teknik SEO gibi yüksek riskli işlemler teknik ekipte kalır. KPI olarak küçük ticket sayısı ve rollback izlenir." }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Self-service panel tasarlarken güvenlik ve UX açısından nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": { "@type": "Answer", "text": "Güvenlikte RBAC, least privilege ve log; UX’te şablon, preview ve validation önemlidir. Her değişiklikte geri alma imkânı olmalıdır." }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki#speakable",
+
+      "cssSelector": ["h1", ".answer-block"]
+
+    }
+
+  ]
+
 }
     },
+
+
   },
   en: {},
 };

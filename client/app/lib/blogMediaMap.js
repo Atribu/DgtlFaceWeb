@@ -48571,6 +48571,457 @@ export const BLOG_MEDIA_MAP = {
       alt: "Multi-vendor deliverables seti, amaç şeffaf bakım, otel ve B2B bağlamı",
       caption: "Multi-vendor deliverables seti, amaç şeffaf bakım, otel ve B2B bağlamı"
     }
+  },
+
+  "aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak":{
+     banner: {
+      src: "/images/blog/software/Software5-21/Software5-21-1.webp",
+      alt: "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak",
+      caption: "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-21/Software5-21-2.webp",
+      alt: "Sinyal seli içinden öncelik, amaç noise azaltma, ops bağlamı",
+      caption: "Sinyal seli içinden öncelik, amaç noise azaltma, ops bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-21/Software5-21-3.webp",
+    alt: "Anomali tespiti bölümü, amaç anlamlı alarm üretmek, teknik ops bağlamı",
+      caption: "Anomali tespiti bölümü, amaç anlamlı alarm üretmek, teknik ops bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-21/Software5-21-4.webp",
+      alt: "İnsan-onaylı AIOps, amaç kontrollü müdahale, ekip bağlamı",
+      caption: "İnsan-onaylı AIOps, amaç kontrollü müdahale, ekip bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-21/Software5-21-5.webp",
+      alt: "Log/metric/event→AI→alert/ticket akışı, amaç prediktif ops, otel ve B2B bağlamı",
+      caption: "Log/metric/event→AI→alert/ticket akışı, amaç prediktif ops, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-21/Software5-21-6.webp",
+      alt: "AIOps devreye alma checklist’i, amaç hızlı başlangıç, teknik ekip bağlamı",
+      caption: "AIOps devreye alma checklist’i, amaç hızlı başlangıç, teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-21/Software5-21-7.webp",
+      alt: "Noise ve MTTA KPI kartı, amaç alarm kalitesi, ops bağlamı",
+      caption: "Noise ve MTTA KPI kartı, amaç alarm kalitesi, ops bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-21/Software5-21-8.webp",
+      alt: "AIOps çıktı seti, amaç erken uyarı ve ticket akışı, otel ve B2B bağlamı",
+      caption: "AIOps çıktı seti, amaç erken uyarı ve ticket akışı, otel ve B2B bağlamı"
+    }
+  },
+
+  "green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak":{
+     banner: {
+      src: "/images/blog/software/Software5-22/Software5-22-1.webp",
+      alt: "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak",
+      caption: "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-22/Software5-22-2.webp",
+      alt: "Kaynak kullanımı zinciri, amaç enerji verimliliği, teknik ve pazarlama bağlamı",
+      caption: "Kaynak kullanımı zinciri, amaç enerji verimliliği, teknik ve pazarlama bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-22/Software5-22-3.webp",
+    alt: "Hosting ve kapasite planlama, amaç enerji verimliliği, ops bağlamı",
+      caption: "Hosting ve kapasite planlama, amaç enerji verimliliği, ops bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-22/Software5-22-4.webp",
+      alt: "CDN-cache ve medya optimizasyonu, amaç veri transferini azaltma, otel ve B2B bağlamı",
+      caption: "CDN-cache ve medya optimizasyonu, amaç veri transferini azaltma, otel ve B2B bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-22/Software5-22-5.webp",
+      alt: "Kaynak→enerji etkisi şeması, amaç sürdürülebilir bakım, ekip bağlamı",
+      caption: "Kaynak→enerji etkisi şeması, amaç sürdürülebilir bakım, ekip bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-22/Software5-22-6.webp",
+      alt: "Green IT checklist kartı, amaç hızlı uygulama, otel ve B2B ekip bağlamı",
+      caption: "Green IT checklist kartı, amaç hızlı uygulama, otel ve B2B ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-22/Software5-22-7.webp",
+      alt: "Enerji proxy KPI kartı, amaç trend raporlama, yönetim bağlamı",
+      caption: "Enerji proxy KPI kartı, amaç trend raporlama, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-22/Software5-22-8.webp",
+      alt: "Sürdürülebilir bakım deliverables, amaç raporlama ve iletişim, otel ve B2B bağlamı",
+      caption: "Sürdürülebilir bakım deliverables, amaç raporlama ve iletişim, otel ve B2B bağlamı"
+    }
+  },
+
+  "uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli":{
+     banner: {
+      src: "/images/blog/software/Software5-23/Software5-23-1.webp",
+      alt: "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli",
+      caption: "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-23/Software5-23-2.webp",
+      alt: "Handover ve ticket akışı, amaç süreç sürekliliği, ops bağlamı",
+      caption: "Handover ve ticket akışı, amaç süreç sürekliliği, ops bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-23/Software5-23-3.webp",
+    alt: "Async iletişim standardı, amaç iyi ticket notu, remote ekip bağlamı",
+      caption: "Async iletişim standardı, amaç iyi ticket notu, remote ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-23/Software5-23-4.webp",
+      alt: "Zaman dilimi kurgusu, amaç follow-the-sun ops, otel ve B2B bağlamı",
+      caption: "Zaman dilimi kurgusu, amaç follow-the-sun ops, otel ve B2B bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-23/Software5-23-5.webp",
+      alt: "Ticket→yorum→handover akışı, amaç async bakım, ops bağlamı",
+      caption: "Ticket→yorum→handover akışı, amaç async bakım, ops bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-23/Software5-23-6.webp",
+      alt: "Uzaktan bakım checklist kartı, amaç hızlı adaptasyon, ekip bağlamı",
+      caption: "Uzaktan bakım checklist kartı, amaç hızlı adaptasyon, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-23/Software5-23-7.webp",
+      alt: "Async ops KPI paneli, amaç MTTR ve toplantı azaltma, yönetim bağlamı",
+      caption: "Async ops KPI paneli, amaç MTTR ve toplantı azaltma, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-23/Software5-23-8.webp",
+      alt: "Async ops deliverables seti, amaç meeting-light bakım, otel ve B2B bağlamı",
+      caption: "Async ops deliverables seti, amaç meeting-light bakım, otel ve B2B bağlamı"
+    }
+  },
+
+  "self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki":{
+    banner: {
+      src: "/images/blog/software/Software5-24/Software5-24-1.webp",
+      alt: "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki",
+      caption: "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-24/Software5-24-2.webp",
+      alt: "Guardrail modeli, amaç kontrollü empowerment, iş ve teknik bağlamı",
+      caption: "Guardrail modeli, amaç kontrollü empowerment, iş ve teknik bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-24/Software5-24-3.webp",
+    alt: "Yetki kapsamı bölümü, amaç düşük risk alanları, otel ve B2B bağlamı",
+      caption: "Yetki kapsamı bölümü, amaç düşük risk alanları, otel ve B2B bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-24/Software5-24-4.webp",
+      alt: "Risk yönetimi bölümü, amaç audit log ve rollback, teknik ops bağlamı",
+      caption: "Risk yönetimi bölümü, amaç audit log ve rollback, teknik ops bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-24/Software5-24-5.webp",
+      alt: "Yetki karar akışı, amaç self-service sınırları, ekip bağlamı",
+      caption: "Yetki karar akışı, amaç self-service sınırları, ekip bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-24/Software5-24-6.webp",
+      alt: "Self-service bakım checklist kartı, amaç hızlı devreye alma, ekip bağlamı",
+      caption: "Self-service bakım checklist kartı, amaç hızlı devreye alma, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-24/Software5-24-7.webp",
+      alt: "Self-service KPI kartı, amaç teknik yükü azaltma, yönetim bağlamı",
+      caption: "Self-service KPI kartı, amaç teknik yükü azaltma, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-24/Software5-24-8.webp",
+      alt: "Self-service deliverables, amaç güvenli hız, otel ve B2B bağlamı",
+      caption: "Self-service deliverables, amaç güvenli hız, otel ve B2B bağlamı"
+    }
+  },
+
+  "sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak":{
+     banner: {
+      src: "/images/blog/software/Software5-25/Software5-25-1.webp",
+      alt: "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
+      caption: "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-25/Software5-25-2.webp",
+      alt: "SLA-SLO-budget ilişkisi, amaç ortak dil, ürün ve bakım bağlamı",
+      caption: "SLA-SLO-budget ilişkisi, amaç ortak dil, ürün ve bakım bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-25/Software5-25-3.webp",
+    alt: "SLO tanımı bölümü, amaç ölçülebilir hedef, teknik ekip bağlamı",
+      caption: "SLO tanımı bölümü, amaç ölçülebilir hedef, teknik ekip bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-25/Software5-25-4.webp",
+      alt: "Budget aksiyon kuralları, amaç feature vs stabilite kararı, yönetim bağlamı",
+      caption: "Budget aksiyon kuralları, amaç feature vs stabilite kararı, yönetim bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-25/Software5-25-5.webp",
+      alt: "Error budget formülü diyagramı, amaç SLO/SLA ilişkisi, ekip bağlamı",
+      caption: "Error budget formülü diyagramı, amaç SLO/SLA ilişkisi, ekip bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-25/Software5-25-6.webp",
+      alt: "SLO ve error budget checklist kartı, amaç hızlı başlangıç, ekip bağlamı",
+      caption: "SLO ve error budget checklist kartı, amaç hızlı başlangıç, ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-25/Software5-25-7.webp",
+      alt: "Budget KPI kartı, amaç tüketim takibi, yönetim bağlamı",
+      caption: "Budget KPI kartı, amaç tüketim takibi, yönetim bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-25/Software5-25-8.webp",
+      alt: "SRE deliverables seti, amaç karar çerçevesi, otel ve B2B bağlamı",
+      caption: "SRE deliverables seti, amaç karar çerçevesi, otel ve B2B bağlamı"
+    }
+  },
+
+  "animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti":{
+     banner: {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-1.webp",
+      alt: "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+      caption: "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-2.webp",
+      alt: "Markasız video ve pack’li video karşılaştırması, marka hatırlanırlığı örneği",
+      caption: "Markasız video ve pack’li video karşılaştırması, marka hatırlanırlığı örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-3.webp",
+    alt: "Logo animasyonu önem ayırıcı görseli, tanınabilirlik ve marka imzası",
+      caption: "Logo animasyonu önem ayırıcı görseli, tanınabilirlik ve marka imzası"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-4.webp",
+      alt: "Platform senaryoları ayırıcı görseli, Reels YouTube web intro outro farkları",
+      caption: "Platform senaryoları ayırıcı görseli, Reels YouTube web intro outro farkları"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-5.webp",
+      alt: "Brand motion pack diyagramı, parçalar ve platform varyantları akışı",
+      caption: "Brand motion pack diyagramı, parçalar ve platform varyantları akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-6.webp",
+      alt: "Intro outro checklist kartı, süre format CTA ve teslim kontrolü",
+      caption: "Intro outro checklist kartı, süre format CTA ve teslim kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-7.webp",
+      alt: "Marka hatırlanırlığı ve tamamlama KPI kartı, intro süresi ve CTA etkisi",
+      caption: "Marka hatırlanırlığı ve tamamlama KPI kartı, intro süresi ve CTA etkisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-14/Creative1-14-8.webp",
+      alt: "Brand motion pack deliverables kartı, stinger outro end card ve format seti",
+      caption: "Brand motion pack deliverables kartı, stinger outro end card ve format seti"
+    }
+  },
+
+
+  "design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin":{
+     banner: {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-1.webp",
+      alt: "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+      caption: "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-2.webp",
+      alt: "Kopya dosya kaosu ve düzenli library karşılaştırması, Figma üretim akışı",
+      caption: "Kopya dosya kaosu ve düzenli library karşılaştırması, Figma üretim akışı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-3.webp",
+    alt: "Design ops tanımı ayırıcı görseli, ekip standardı ve tutarlılık vurgusu",
+      caption: "Design ops tanımı ayırıcı görseli, ekip standardı ve tutarlılık vurgusu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-4.webp",
+      alt: "Publish ve versiyonlama ayırıcı görseli, release notları ve lock süreci",
+      caption: "Publish ve versiyonlama ayırıcı görseli, release notları ve lock süreci"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-5.webp",
+      alt: "Figma kütüphane diyagramı, base UI brand social setler ve token akışı",
+      caption: "Figma kütüphane diyagramı, base UI brand social setler ve token akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-6.webp",
+      alt: "Figma library checklist kartı, component token publish ve versiyon kontrolü",
+      caption: "Figma library checklist kartı, component token publish ve versiyon kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-7.webp",
+      alt: "Design ops KPI kartı, üretim hızı ve versiyon karmaşası azalması paneli",
+      caption: "Design ops KPI kartı, üretim hızı ve versiyon karmaşası azalması paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-15/Creative1-15-8.webp",
+      alt: "Library deliverables kartı, base brand social set ve süreç dokümanı",
+      caption: "Library deliverables kartı, base brand social set ve süreç dokümanı"
+    }
+  },
+
+  "sosyal-kanit-ve-testimonial-kart-tasarimi":{
+     banner: {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-1.webp",
+      alt: "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
+      caption: "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-2.webp",
+      alt: "Metin listesi ve testimonial kart karşılaştırması, web ve sosyal güven etkisi",
+      caption: "Metin listesi ve testimonial kart karşılaştırması, web ve sosyal güven etkisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-3.webp",
+    alt: "Sosyal kanıt ayırıcı görseli, otel ve B2B’de risk azaltma ve güven",
+      caption: "Sosyal kanıt ayırıcı görseli, otel ve B2B’de risk azaltma ve güven"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-4.webp",
+      alt: "Rating ve skor ayırıcı, review kartlarında kanıt hiyerarşisi",
+      caption: "Rating ve skor ayırıcı, review kartlarında kanıt hiyerarşisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-5.webp",
+      alt: "Carousel testimonial akış diyagramı, problem yorum kanıt sonuç CTA",
+      caption: "Carousel testimonial akış diyagramı, problem yorum kanıt sonuç CTA"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-6.webp",
+      alt: "Testimonial checklist kartı, quote isim rating ve layout kontrolü",
+      caption: "Testimonial checklist kartı, quote isim rating ve layout kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-7.webp",
+      alt: "Sosyal kanıt KPI kartı, dönüşüm desteği ve okunabilirlik paneli",
+      caption: "Sosyal kanıt KPI kartı, dönüşüm desteği ve okunabilirlik paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-16/Creative1-16-8.webp",
+      alt: "Testimonial şablon teslim kartı, web sosyal sunum uyarlama seti",
+      caption: "Testimonial şablon teslim kartı, web sosyal sunum uyarlama seti"
+    }
+  },
+
+  "instagram-story-ve-highlight-cover-tasarimi":{
+    banner: {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-1.webp",
+      alt: "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
+      caption: "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-2.webp",
+      alt: "Dağınık highlight profili ve düzenli kategori sistemi karşılaştırması, profesyonel görünüm",
+      caption: "Dağınık highlight profili ve düzenli kategori sistemi karşılaştırması, profesyonel görünüm"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-3.webp",
+    alt: "Story formatının rolü ayırıcı görseli, hızlı tur ve etkileşim yapısı",
+      caption: "Story formatının rolü ayırıcı görseli, hızlı tur ve etkileşim yapısı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-4.webp",
+      alt: "Highlight cover konseptleri ayırıcı, ikon ve renk sistemiyle profil navigasyonu",
+      caption: "Highlight cover konseptleri ayırıcı, ikon ve renk sistemiyle profil navigasyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-5.webp",
+      alt: "Story ve highlight paket akış diyagramı, kategori şablon CTA ve arşiv modeli",
+      caption: "Story ve highlight paket akış diyagramı, kategori şablon CTA ve arşiv modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-6.webp",
+      alt: "Story highlight checklist kartı, kategori ikon set ve CTA yerleşim kontrolü",
+      caption: "Story highlight checklist kartı, kategori ikon set ve CTA yerleşim kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-7.webp",
+      alt: "Profil navigasyon KPI kartı, highlight tıklaması ve story etkileşim paneli",
+      caption: "Profil navigasyon KPI kartı, highlight tıklaması ve story etkileşim paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-17/Creative1-17-8.webp",
+      alt: "Story ve highlight deliverables kartı, şablon seti ve kapak ikon paketi",
+      caption: "Story ve highlight deliverables kartı, şablon seti ve kapak ikon paketi"
+    }
   }
   
 };
