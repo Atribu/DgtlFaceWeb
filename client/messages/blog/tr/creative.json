@@ -48,7 +48,7 @@
     },
     "h1": {
       "title": "Marka Sosyal Medya Görsel Dili Rehberi",
-      "intro": "Sosyal medyada “profesyonel görünmek” çoğu zaman pahalı prodüksiyon değil, tutarlı görsel dil meselesidir. Bugün feed’iniz iyi görünse bile, kural seti yoksa yarın yeni bir kampanyada parçalanır. Bu rehber; logo, renk, tipografi, fotoğraf dili ve grid üzerinden, otel ve B2B markalar için uygulanabilir bir stil rehberi modeli sunar.",
+      "intro": "Sosyal medyada “profesyonel görünmek” çoğu zaman pahalı prodüksiyon değil, tutarlı [görsel dil](https://dgtlface.com/tr/creative/grafik-motion-tasarim) meselesidir. Bugün feed’iniz iyi görünse bile, kural seti yoksa yarın yeni bir kampanyada parçalanır. Bu rehber; logo, renk, tipografi, fotoğraf dili ve grid üzerinden, otel ve B2B markalar için uygulanabilir bir stil rehberi modeli sunar.",
       "quickSummary": [
         "1) Son 30 post ile feed dağınıklığını teşhis et",
         "2) Logo–renk–tipografi–fotoğraf–grid kurallarını sabitle",
@@ -80,7 +80,11 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "İçerik üretimi",
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
@@ -90,12 +94,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım: Sosyal medya üretim sistemi",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+        "href": "/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber"
       },
       {
-        "title": "İçerik Üretimi: Süreç ve yayın planı",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Marka Kitabına Uyumlu Dijital Tasarım Rehberi",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
+      },
+      {
+        "title": "Figma/Canva Template Sistemiyle Üretimi Ölçeklendirmek",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
       }
     ],
     "sections": [
@@ -111,7 +119,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Görsel dil, markanın her temas noktasında “aynı kişi konuşuyormuş” hissi veren tasarım kurallarıdır. Sosyal medyada görsel dil; hızla akan içerik içinde tanınabilirlik, güven ve profesyonellik üretir. Burada amaç “her post aynı” yapmak değil; çeşitliliği sistem içinde üretmektir: kampanyalar değişir ama DNA değişmez."
+            "text": "Görsel dil, markanın her temas noktasında “aynı kişi konuşuyormuş” hissi veren tasarım kurallarıdır. Sosyal medyada görsel dil; hızla akan içerik içinde [marka algısı](https://dgtlface.com/tr/creative-ve-tasarim), güven ve profesyonellik üretir. Burada amaç “her post aynı” yapmak değil; çeşitliliği sistem içinde üretmektir: kampanyalar değişir ama DNA değişmez."
           },
           {
             "type": "h3",
@@ -195,7 +203,7 @@
           },
           {
             "type": "p",
-            "text": "Renk paleti iki katmandır: core palette (marka rengi ailesi) + support palette (kampanya/season tonları). Otel markalarında yaz/kış sezonu; B2B’de ürün lansmanı gibi dönemsel değişimler “support” katmanında yönetilir."
+            "text": "Renk paleti iki katmandır: core palette (marka rengi ailesi) + support palette (kampanya/season tonları). Bu yapı, [renk ve tipografi seçimi](https://dgtlface.com/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber) kararlarının sosyal medya üstünde rastgele değil rol bazlı işlemesini sağlar. Otel markalarında yaz/kış sezonu; B2B’de ürün lansmanı gibi dönemsel değişimler “support” katmanında yönetilir."
           },
           {
             "type": "h4",
@@ -348,7 +356,7 @@
           },
           {
             "type": "p",
-            "text": "Grid, görsel dilin görünmez omurgasıdır. Boşluk (whitespace) ise premium algının en hızlı yoludur. Grid kuralları; özellikle carousel ve story şablonlarında üretimi hızlandırır."
+            "text": "Grid, görsel dilin görünmez omurgasıdır. Boşluk (whitespace) ise premium algının en hızlı yoludur. Doğru [feed tutarlılığı](https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek) sistemi, özellikle carousel ve story şablonlarında üretimi hızlandırır ve ekipler arası tasarım farkını azaltır."
           },
           {
             "type": "callout",
@@ -369,7 +377,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "En sık hata: feed tasarlanır, story “günlük” gider, reels kapakları rastgele kalır. Oysa kullanıcı markayı kanallar arası birlikte görür. Tutarlılık; her formatı aynı yapmak değil, aynı sistem altında farklılaştırmaktır."
+            "text": "En sık hata: feed tasarlanır, story “günlük” gider, reels kapakları rastgele kalır. Oysa kullanıcı markayı kanallar arası birlikte görür. Tutarlılık; her formatı aynı yapmak değil, aynı sistem altında farklılaştırmaktır. Bu yüzden görsel kararların [sosyal medya içerik üretimi](https://dgtlface.com/tr/smm/icerik-uretimi) akışı, post tipleri ve kampanya takvimiyle birlikte ele alınması gerekir."
           },
           {
             "type": "h3",
@@ -431,7 +439,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Stil rehberi; 50 sayfalık brandbook olmak zorunda değil. Sosyal medya için en iyi form: 6–10 sayfalık uygulama rehberi + şablon dosyaları. Amaç: “nasıl karar verdik?” sorusunu kapatmak ve üretimi hızlandırmak."
+            "text": "Stil rehberi; 50 sayfalık brandbook olmak zorunda değil. Sosyal medya için en iyi form: 6–10 sayfalık uygulama rehberi + şablon dosyaları. Bu yapı [sosyal medya tasarım kuralları](https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim) ile hizalanırsa, logo, renk kodları ve tipografi kararı her kampanyada yeniden tartışılmak zorunda kalmaz. Amaç: “nasıl karar verdik?” sorusunu kapatmak ve üretimi hızlandırmak."
           },
           {
             "type": "media",
@@ -479,7 +487,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aynı görsel dil modeli; farklı sektörlerde farklı “vurgu alanları” ister. Otellerde duygu ve deneyim; B2B’de netlik ve güven baskındır. Buradaki kritik nokta: görsel dilinize sektörel varyant tanımlamak (ama ana DNA’yı bozmamak)."
+            "text": "Aynı görsel dil modeli; farklı sektörlerde farklı “vurgu alanları” ister. Otellerde duygu ve deneyim; B2B’de netlik ve güven baskındır. Buradaki kritik nokta: görsel dilinize sektörel varyant tanımlamak (ama ana DNA’yı bozmamak). Aynı yaklaşımın web, landing page ve ürün arayüzlerinde de sürmesi için [dijital temas noktalarında görsel tutarlılık](https://dgtlface.com/tr/creative/ui-ux-tasarim) ayrı bir tasarım standardı olarak ele alınmalıdır."
           },
           {
             "type": "h3",
@@ -533,7 +541,7 @@
           },
           {
             "type": "p",
-            "text": "İç link: /tr/creative/grafik-motion-tasarim"
+            "text": "Bu varyantları doğru yönetmenin yolu, sektöre göre farklılaşan kreatifleri aynı çekirdek tasarım omurgası altında toplamaktır; böylece kampanya dönemlerinde bile marka dili dağılmaz."
           }
         ]
       },
@@ -543,7 +551,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Görsel dil; “tasarım işi” değil, marka operasyonudur. İyi kurulan bir görsel dil; içerik üretimini hızlandırır, ekibin karar yorgunluğunu azaltır ve marka algısını tekleştirir. Bu rehberi bir kez kurup, yılda en az 1 kez (rebrand, sezon konsepti, yeni kanal eklemeleriyle) güncellediğinizde, sosyal medya üretiminiz “sürdürülebilir sistem”e dönüşür."
+            "text": "Görsel dil; “tasarım işi” değil, marka operasyonudur. İyi kurulan bir görsel dil; içerik üretimini hızlandırır, ekibin karar yorgunluğunu azaltır ve marka algısını tekleştirir. Bu rehberi bir kez kurup, yılda en az 1 kez (rebrand, sezon konsepti, yeni kanal eklemeleriyle) güncellediğinizde, sosyal medya üretiminiz “sürdürülebilir sistem”e dönüşür. [Grafik & Motion Tasarım hizmetiyle markanızın sosyal medya görsel dilini güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim)."
+          },
+          {
+            "type": "p",
+            "text": "Süreç, revizyon, teslim formatı ve kapsamla ilgili ek sorular için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "callout",
@@ -658,8 +670,9 @@
           "AEO soru blokları en az 2 adet ",
           "Primary CTA 2 kez, Secondary CTA 1 kez",
           "Download asset (PDF) sayfada sadece indirme modülü olarak gösterilir",
-          "Internal link targets: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
+          "Internal link targets: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber, /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim, /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
           "Schema planı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+          "Görsel dil, feed tutarlılığı ve dijital temas noktaları arasındaki omurga içerikte korunuyor",
           "Refresh cycle: 365 gün"
         ]
       }
@@ -715,7 +728,7 @@
     },
     "h1": {
       "title": "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
-      "intro": "Otel Instagram’ında “güzel fotoğraf” tek başına yetmez; hedef doluluk, güven ve rezervasyon niyeti üretmektir. Bunun için oda/tesis/deneyim içeriklerini rastgele paylaşmak yerine; post türleri + şablon setleri + grid planı ile sistem kurmak gerekir. Bu rehber; oda–havuz–restoran–deneyim görsellerini kompozisyon kurallarıyla ele alır, fiyat/CTA kullanımını premium algıyı bozmadan standardize eder ve 9/12 postluk set planı verir.",
+      "intro": "Otel Instagram’ında “güzel fotoğraf” tek başına yetmez; hedef doluluk, güven ve rezervasyon niyeti üretmektir. Bunun için [otel feed tasarımı](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımını oda/tesis/deneyim içeriklerini rastgele paylaşmak yerine; post türleri + şablon setleri + grid planı ile sistem kuracak şekilde ele almak gerekir. Bu rehber; oda–havuz–restoran–deneyim görsellerini kompozisyon kurallarıyla ele alır, fiyat/CTA kullanımını premium algıyı bozmadan standardize eder ve 9/12 postluk set planı verir.",
       "quickSummary": [
         "1) Hedefleri 3’e indir: algı / teklif / dönüşüm",
         "2) Post türlerini sabitle: oda, tesis, deneyim, kampanya, misafir yorumu, SSS",
@@ -747,22 +760,30 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Otel sosyal medya",
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Sosyal Medya",
         "href": "/tr/otel/sosyal-medya"
       },
       {
-        "label": "İçerik üretimi",
+        "label": "SMM İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım: Oteller için yaratıcı sistem",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "title": "Instagram Story & Highlight Cover Tasarım Rehberi",
+        "href": "/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi"
       },
       {
-        "title": "Otel sosyal medya: içerik ve dönüşüm yaklaşımı",
-        "href": "/tr/otel/sosyal-medya"
+        "title": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+        "href": "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim"
+      },
+      {
+        "title": "Marka Sosyal Medya Görsel Dili Rehberi (Otel & B2B)",
+        "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi"
       }
     ],
     "sections": [
@@ -782,7 +803,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel sosyal medya tasarımında tasarım kararları (renk, metin alanı, CTA, fotoğraf seçimi) “estetik” değil, hedefe bağlıdır. Genel hedefler: marka algısı (premium/güven), teklif görünürlüğü (kampanya), ve dönüşüm kanalları (web/DM/WhatsApp). Bu üçü dengelenmezse feed ya “dergi gibi” kalır (dönüşüm yok) ya da “broşür gibi” olur (premium algı düşer)."
+            "text": "Otel sosyal medya tasarımında tasarım kararları (renk, metin alanı, CTA, fotoğraf seçimi) “estetik” değil, hedefe bağlıdır. Genel hedefler: marka algısı (premium/güven), teklif görünürlüğü (kampanya), ve dönüşüm kanalları (web/DM/WhatsApp). Bu üçü dengelenmezse feed ya “dergi gibi” kalır (dönüşüm yok) ya da “broşür gibi” olur (premium algı düşer). Bu yüzden [otel sosyal medya post tasarımı](https://dgtlface.com/tr/creative-ve-tasarim), yayın planı ve [otel sosyal medya yönetimi](https://dgtlface.com/tr/otel/sosyal-medya) birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -821,7 +842,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Feed, otelinizin vitrini; içerik türleri ise vitrindeki ürün gruplarıdır. En iyi otel feed’leri “sürekli aynı fotoğraf” yerine, farklı post türlerini tutarlı bir tasarım sistemi içinde döndürür. Böylece hem algoritma hem kullanıcı gözünde “aktif ve planlı marka” görünümü oluşur."
+            "text": "Feed, otelinizin vitrini; içerik türleri ise vitrindeki ürün gruplarıdır. En iyi otel feed’leri “sürekli aynı fotoğraf” yerine, farklı post türlerini tutarlı bir tasarım sistemi içinde döndürür. Böylece hem algoritma hem kullanıcı gözünde “aktif ve planlı marka” görünümü oluşur. Bu sistemin çekirdeğinde [otel markası için görsel dil](https://dgtlface.com/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi) yer alır; feed yanında [story ve highlight cover tasarımı](https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi) standardı da aynı omurgaya bağlanmalıdır."
           },
           {
             "type": "h3",
@@ -947,7 +968,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel feed’lerinde en sık hata: görsele fazla metin ve fiyat yığmak. Bu, premium algıyı düşürür ve okunurluğu bozar. Doğru yaklaşım: metni görselde minimum, detayları caption’da net, CTA’yı ise tek kanala bağlı yönetmek."
+            "text": "Otel feed’lerinde en sık hata: görsele fazla metin ve fiyat yığmak. Bu, premium algıyı düşürür ve okunurluğu bozar. Doğru yaklaşım: metni görselde minimum, detayları caption’da net, CTA’yı ise tek kanala bağlı yönetmek. Bunu sürdürülebilir hale getirmek için tasarım kararlarını brief, caption ve yayın akışıyla birlikte ele alan bir [sosyal medya içerik üretimi](https://dgtlface.com/tr/smm/icerik-uretimi) modeli gerekir."
           },
           {
             "type": "h3",
@@ -1003,7 +1024,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel pazarlama ekipleri için en hızlı kazanç, “tek tek post tasarlamak” değil; set üretmektir. 9/12 postluk set; sezon, destinasyon ve konsept değişiminde hızlı adaptasyon sağlar. Set mantığı, kampanya dönemlerinde bile feed’in dağılmasını engeller."
+            "text": "Otel pazarlama ekipleri için en hızlı kazanç, “tek tek post tasarlamak” değil; set üretmektir. 9/12 postluk set; sezon, destinasyon ve konsept değişiminde hızlı adaptasyon sağlar. Set mantığı, kampanya dönemlerinde bile feed’in dağılmasını engeller. Özellikle erken rezervasyon, paket teklif ve fırsat iletişiminde [rezervasyon odaklı post’lar](https://dgtlface.com/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim) performans odaklı varyasyonlarla planlandığında kreatif kalite ve ticari hedef aynı çizgide kalır."
           },
           {
             "type": "h3",
@@ -1059,7 +1080,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel post tasarımı; fotoğraf seçimi + minimal metin + doğru CTA dengesi + set planlama ile sistemleştiğinde, kampanya dönemleri bile tutarlı ilerler. Bu rehberdeki modelin amacı; pazarlama ekibinin “her seferinde sıfırdan” başlamasını engelleyip, 2 haftada uygulanabilir bir şablon düzenine geçirmektir."
+            "text": "Otel post tasarımı; fotoğraf seçimi + minimal metin + doğru CTA dengesi + set planlama ile sistemleştiğinde, kampanya dönemleri bile tutarlı ilerler. Bu rehberdeki modelin amacı; pazarlama ekibinin “her seferinde sıfırdan” başlamasını engelleyip, 2 haftada uygulanabilir bir şablon düzenine geçirmektir. [Grafik & Motion Tasarım hizmetiyle otel sosyal medya görsellerinizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim)."
+          },
+          {
+            "type": "p",
+            "text": "Format teslimleri, revizyon süreci ve üretim kapsamıyla ilgili detaylar için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -1156,6 +1181,8 @@
           "Kampanya postlarında minimal headline + badge + detay caption standardı belirlendi",
           "CTA tek kanala indirildi (web veya DM veya WhatsApp) ve standardize edildi",
           "Şablon seti üretimi planlandı (oda/tesis/restoran/deneyim + misafir yorumu + SSS + kampanya)",
+          "Grafik & Motion Tasarım, Creative & Tasarım, story/highlight, kampanya görsel setleri, marka görsel dili, Otel Sosyal Medya ve SMM İçerik Üretimi linkleri kontrol edildi",
+          "Oda, tesis, deneyim ve kampanya postları tek tasarım mantığında içerikte korunuyor",
           "14 günlük sprint planı görev sahipleriyle operasyonel hale getirildi"
         ]
       }
@@ -1211,7 +1238,7 @@
     },
     "h1": {
       "title": "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
-      "intro": "Motion graphic üretiminde sorun çoğu zaman “animasyon yapamamak” değil, neyi anlatacağını netleştirememektir. 10–20 saniyede iyi bir motion video; tek mesaj, güçlü hook, basit sahne planı ve finalde net CTA ile çalışır. Bu rehber, After Effects butonlarından değil; hikâye yapısı + storyboard + sahne akışı üzerinden, otel ve B2B örnekleriyle uygulanabilir bir sistem kurar.",
+      "intro": "Motion graphic üretiminde sorun çoğu zaman “animasyon yapamamak” değil, neyi anlatacağını netleştirememektir. [Motion ile hikâye](https://dgtlface.com/tr/creative/grafik-motion-tasarim) kuran iyi bir video; 10–20 saniyede tek mesaj, güçlü hook, basit sahne planı ve finalde net CTA ile çalışır. Bu rehber, After Effects butonlarından değil; hikâye yapısı + storyboard + sahne akışı üzerinden, otel ve B2B örnekleriyle uygulanabilir bir sistem kurar.",
       "quickSummary": [
         "1) Tek mesajı 1 cümlede netleştir",
         "2) Hook’u ilk 3 saniyeye koy",
@@ -1243,6 +1270,10 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
         "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
@@ -1251,7 +1282,20 @@
         "href": "/tr/smm/reels-video"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Reels/TikTok Safe Zone Rehberi (9:16)",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "title": "Logo Animasyonu ve Intro/Outro Pack Rehberi",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
+      },
+      {
+        "title": "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında",
+        "href": "/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda"
+      }
+    ],
     "sections": [
       {
         "id": "motion-graphic-nedir",
@@ -1259,7 +1303,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Motion graphic, “görsel + metin + hareket”i birleştirerek algıyı hızlandırır. Özellikle sosyal platformlarda kullanıcı kararını saniyeler içinde verdiği için, motion; dikkat çekme ve mesajı hızlı iletme avantajı sağlar. Web tarafında ise hero video gibi alanlarda “marka vaadini” ilk ekranda hissettirir."
+            "text": "Motion graphic, “görsel + metin + hareket”i birleştirerek algıyı hızlandırır. Özellikle sosyal platformlarda kullanıcı kararını saniyeler içinde verdiği için, motion; dikkat çekme ve mesajı hızlı iletme avantajı sağlar. Web tarafında ise hero video gibi alanlarda “marka vaadini” ilk ekranda hissettirir. Bu yüzden [motion graphic ile hikâye anlatımı](https://dgtlface.com/tr/creative-ve-tasarim), yalnız hareketli tasarım değil; marka algısını hızla kuran daha geniş bir creative stratejinin parçasıdır."
           },
           {
             "type": "h3",
@@ -1305,7 +1349,7 @@
           },
           {
             "type": "p",
-            "text": "Motion’da hikâye, film senaryosu kadar uzun değildir; ama iskelet aynı çalışır. Kısa form videoda amaç: önce problemi/vaadi hissettir, sonra çözümü göster, sonra tek aksiyon iste."
+            "text": "Motion’da hikâye, film senaryosu kadar uzun değildir; ama iskelet aynı çalışır. Kısa form videoda amaç: önce problemi/vaadi hissettir, sonra çözümü göster, sonra tek aksiyon iste. Özellikle Reels, TikTok ve Shorts akışında bunu yaparken [dikey video safe zone](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) kuralları, altyazı yerleşimi ve mobil tempo birlikte düşünülmelidir."
           },
           {
             "type": "h3",
@@ -1356,7 +1400,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sosyal videoda ilk 3 saniye, videonun kaderidir. Hook “bağırmak” değil; izleyicinin beynine bir soru bırakmaktır. Hook üç tipte iyi çalışır: problem, vaat, kontrast."
+            "text": "Sosyal videoda ilk 3 saniye, videonun kaderidir. Hook “bağırmak” değil; izleyicinin beynine bir soru bırakmaktır. Hook üç tipte iyi çalışır: problem, vaat, kontrast. Özellikle kısa format akışta [ilk 3 saniye hook](https://dgtlface.com/tr/smm/reels-video) yapısı net değilse, motion kalitesi yüksek olsa bile mesaj kullanıcıya ulaşmadan kaybolur."
           },
           {
             "type": "h3",
@@ -1415,7 +1459,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Ending; videonun “hatırlanma” noktasıdır. Logo/stinger iyi kullanılırsa marka sinyali güçlenir; kötü kullanılırsa izleyici kopar. Kural: ending kısa, temiz ve CTA ile ilişkili olmalı."
+            "text": "Ending; videonun “hatırlanma” noktasıdır. [Animasyonlu logo ve intro outro](https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti) doğru kullanılırsa marka sinyali güçlenir; kötü kullanılırsa izleyici kopar. Kural: ending kısa, temiz ve CTA ile ilişkili olmalı."
           },
           {
             "type": "h3",
@@ -1456,7 +1500,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel ve B2B’de motion aynı sistemle kurulur, sadece “kanıt türü” değişir. Otelde kanıt: deneyim, atmosfer, sosyal kanıt. B2B’de kanıt: özellik, süreç, sayı ve sonuç."
+            "text": "Otel ve B2B’de motion aynı sistemle kurulur, sadece “kanıt türü” değişir. Otelde kanıt: deneyim, atmosfer, sosyal kanıt. B2B’de kanıt: özellik, süreç, sayı ve sonuç. Çekimli sahnelerle grafik anlatımı birlikte kullanan ekipler için [video prodüksiyonda motion kullanımı](https://dgtlface.com/tr/creative/video-produksiyon) mesajı daha katmanlı taşır; kampanya deneyimini genişletmek isteyen markalarda ise [etkileşimli motion deneyimleri](https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda) dikkat ve paylaşılabilirlik üretir."
           },
           {
             "type": "h3",
@@ -1568,7 +1612,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Motion graphic’te başarı; “efekt” değil, hikâye + sahne planı + hook + CTA ile gelir. Storyboard ve akış diyagramı olan ekiplerde revizyon azalır, mesaj netliği artar ve videolar daha iyi performans verir. Bu rehberi 10–20 saniyelik formatlara göre uygularsanız, hem sosyal platformlarda tutunma hem de web hero video etkisi yükselir."
+            "text": "Motion graphic’te başarı; “efekt” değil, hikâye + sahne planı + hook + CTA ile gelir. Storyboard ve akış diyagramı olan ekiplerde revizyon azalır, mesaj netliği artar ve videolar daha iyi performans verir. Bu rehberi 10–20 saniyelik formatlara göre uygularsanız, hem sosyal platformlarda tutunma hem de web hero video etkisi yükselir. [Grafik & Motion Tasarım hizmetiyle motion storytelling gücünüzü artırın](https://dgtlface.com/tr/creative/grafik-motion-tasarim)."
+          },
+          {
+            "type": "p",
+            "text": "Format teslimleri, revizyon yapısı ve animasyon üretim süreciyle ilgili detaylar için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -1665,8 +1713,9 @@
           "Primary CTA: 2 kez (H1 giriş sonunda, Sonuç bölümünde)",
           "Secondary CTA: 1 kez (orta bölümde)",
           "Secondary CTA türü: Download Asset (Checklist)",
-          "Internal Link Targets: /tr/creative/grafik-motion-tasarim, /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "Internal Link Targets: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi, /tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti, /tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda, /tr/creative/video-produksiyon, /tr/smm/reels-video",
           "Intent: Informational + Tactical",
+          "Motion storytelling mantigi creative, video ve Reels katmanina icerikte net baglaniyor",
           "GEO: Türkiye geneli; otel ve B2B markalar"
         ]
       }
@@ -1720,7 +1769,7 @@
     },
     "h1": {
       "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
-      "intro": "Bir markanın ilk “göz temasında” verdiği his, çoğu zaman metinden önce renk ve tipografi ile oluşur. Sorun şu: pek çok ekip bu seçimi “beğeni” ile yapar; sonra web, sosyal medya ve offline materyaller birbirinden kopar ve revizyonlar bitmez. Bu rehber; sektör, hedef kitle ve konumlandırmayı baz alarak 1 ana + 2 destek renk ve 1–2 font ile sade ama güçlü bir sistem kurmanı sağlar; otel ve B2B örnekleriyle uygulanabilir hale getirir.",
+      "intro": "Bir markanın ilk “göz temasında” verdiği his, çoğu zaman metinden önce [renk psikolojisi](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve tipografi ile oluşur. Sorun şu: pek çok ekip bu seçimi “beğeni” ile yapar; sonra web, sosyal medya ve offline materyaller birbirinden kopar ve revizyonlar bitmez. Bu rehber; sektör, hedef kitle ve konumlandırmayı baz alarak 1 ana + 2 destek renk ve 1–2 font ile sade ama güçlü bir sistem kurmanı sağlar; otel ve B2B örnekleriyle uygulanabilir hale getirir.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Renk & Tipografi Seçimi Analizi Talep Et",
@@ -1746,6 +1795,22 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Marka Sosyal Medya Görsel Dili",
+        "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi"
+      },
+      {
+        "label": "Grid Sistemi ve Kompozisyon Rehberi",
+        "href": "/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi"
+      },
+      {
+        "label": "Marka Kitabına Uyumlu Dijital Tasarım",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
+      },
+      {
         "label": "UI/UX Tasarım",
         "href": "/tr/creative/ui-ux-tasarim"
       },
@@ -1756,12 +1821,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "title": "Marka Sosyal Medya Görsel Dili Rehberi (Otel & B2B)",
+        "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi"
       },
       {
-        "title": "UI/UX Tasarım",
-        "href": "/tr/creative/ui-ux-tasarim"
+        "title": "Grid Sistemi ve Kompozisyon Rehberi",
+        "href": "/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi"
+      },
+      {
+        "title": "Marka Kitabına Uyumlu Dijital Tasarım Rehberi",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
       }
     ],
     "sections": [
@@ -1771,7 +1840,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bir markanın ilk “göz temasında” verdiği his, çoğu zaman metinden önce renk ve tipografi ile oluşur. Sorun şu: pek çok ekip bu seçimi “beğeni” ile yapar; sonra web, sosyal medya ve offline materyaller birbirinden kopar ve revizyonlar bitmez. Bu rehber; sektör, hedef kitle ve konumlandırmayı baz alarak 1 ana + 2 destek renk ve 1–2 font ile sade ama güçlü bir sistem kurmanı sağlar; otel ve B2B örnekleriyle uygulanabilir hale getirir."
+            "text": "Bir markanın ilk “göz temasında” verdiği his, çoğu zaman metinden önce renk ve tipografi ile oluşur. Sorun şu: pek çok ekip bu seçimi “beğeni” ile yapar; sonra web, sosyal medya ve offline materyaller birbirinden kopar ve revizyonlar bitmez. Bu yüzden [renk ve tipografi seçimi](https://dgtlface.com/tr/creative-ve-tasarim), yalnız estetik tercih değil; marka algısı, dikkat yönlendirme ve dijital yüzeylerde tutarlılık kuran temel creative karar setidir. Bu rehber; sektör, hedef kitle ve konumlandırmayı baz alarak 1 ana + 2 destek renk ve 1–2 font ile sade ama güçlü bir sistem kurmanı sağlar; otel ve B2B örnekleriyle uygulanabilir hale getirir."
           },
           {
             "type": "cta",
@@ -1792,7 +1861,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Renk psikolojisi “her renge tek anlam” yüklemek değildir; bağlam, kültür ve sektörle birlikte çalışır. Aynı mavi; otelde “sakinlik”, B2B’de “güven” çağrıştırabilir; ama yanlış ton ve kontrast seçiminde “ucuz” algısı da üretebilir. Bu yüzden renk kararını “trend” değil, konumlandırma ve persona ile kurmak gerekir."
+            "text": "Renk psikolojisi “her renge tek anlam” yüklemek değildir; bağlam, kültür ve sektörle birlikte çalışır. Aynı mavi; otelde “sakinlik”, B2B’de “güven” çağrıştırabilir; ama yanlış ton ve kontrast seçiminde “ucuz” algısı da üretebilir. Bu yüzden renk kararını “trend” değil, konumlandırma ve persona ile kurmak gerekir. Bu tercihler, özellikle [sosyal medya görsel dili](https://dgtlface.com/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi) içinde feed tutarlılığı ve marka hissini doğrudan etkiler."
           },
           {
             "type": "h3",
@@ -1877,7 +1946,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tipografi; “ne söylediğin” kadar “nasıl söylediğin”dir. Güçlü hiyerarşi; kullanıcıya nereden başlayacağını ve neyi önemli görmesi gerektiğini söyler. En büyük hata: çok font kullanmak veya her yerde aynı ağırlıkla yazmaktır."
+            "text": "Tipografi; “ne söylediğin” kadar “nasıl söylediğin”dir. Güçlü [font hiyerarşisi](https://dgtlface.com/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi), kullanıcıya nereden başlayacağını ve neyi önemli görmesi gerektiğini söyler. En büyük hata: çok font kullanmak veya her yerde aynı ağırlıkla yazmaktır."
           },
           {
             "type": "h3",
@@ -1931,7 +2000,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Ekranda tipografi; basılı işlerden farklı çalışır. İnce fontlar mobilde kaybolur, sıkı kerning okunurluğu düşürür. Burada amaç “şık” değil, okunur ve hızlı taranır metin üretmektir."
+            "text": "Ekranda tipografi; basılı işlerden farklı çalışır. İnce fontlar mobilde kaybolur, sıkı kerning okunurluğu düşürür. Burada amaç “şık” değil, okunur ve hızlı taranır metin üretmektir. İyi [ekran okunabilirliği](https://dgtlface.com/tr/creative/ui-ux-tasarim) yalnız görsel kaliteyi değil, buton, form ve mobil arayüz deneyimini de doğrudan etkiler."
           },
           {
             "type": "h3",
@@ -1969,7 +2038,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölümün amacı “tek doğru palet” vermek değil; karar modelini örneklendirmek. Otelde konsept (premium/rahat/aile) ve destinasyon hissi; B2B’de sektör (SaaS/kurumsal) ve persona (CEO/CMO/operasyon) tonu belirler."
+            "text": "Bu bölümün amacı “tek doğru palet” vermek değil; karar modelini örneklendirmek. Otelde konsept (premium/rahat/aile) ve destinasyon hissi; B2B’de sektör (SaaS/kurumsal) ve persona (CEO/CMO/operasyon) tonu belirler. Bu seçimlerin dijitalde dağılmaması için [marka kitabı ile uyumlu dijital tasarım](https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim) yaklaşımıyla renk kodları, font ailesi ve kullanım sınırları aynı sistem içinde tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -2021,7 +2090,7 @@
               "1. Konsept/persona’yı yazılı hale getir.",
               "2. Paleti rol bazlı tabloyla sabitle.",
               "3. Tipografi hiyerarşisini component’lere bağla (web + sosyal şablon).",
-              "4. UI/UX uygulaması için ilgili sayfaya bağlan. (İç link: /tr/creative/ui-ux-tasarim)"
+              "4. [ekran okunabilirliği](https://dgtlface.com/tr/creative/ui-ux-tasarim) tarafını UI/UX uygulamasıyla birlikte değerlendir."
             ]
           }
         ]
@@ -2032,7 +2101,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Renk ve tipografi; marka tutarlılığının “temel taşı”dır. Bu ikisi sistemleştiğinde, yeni sayfa ve kampanya üretiminde tasarım karar süresi kısalır, revizyon azalır ve tüm kanallarda aynı his korunur. Bu rehberdeki modelle önce karar çerçevesini kur, sonra paleti ve tipografiyi şablonlara göm; yılda en az 1 kez güncelleyerek (trendler/erişilebilirlik) sistemi canlı tut."
+            "text": "Renk ve tipografi; marka tutarlılığının “temel taşı”dır. Bu ikisi sistemleştiğinde, yeni sayfa ve kampanya üretiminde tasarım karar süresi kısalır, revizyon azalır ve tüm kanallarda aynı his korunur. Web font seçimlerinin performans boyutu da unutulmamalıdır; özellikle [font yükleme ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) etkisi düşünülmeden yapılan tercihler, hız ve Core Web Vitals tarafında maliyet çıkarabilir. Bu rehberdeki modelle önce karar çerçevesini kur, sonra paleti ve tipografiyi şablonlara göm; yılda en az 1 kez güncelleyerek (trendler/erişilebilirlik) sistemi canlı tut. [Grafik & Motion Tasarım hizmetiyle renk ve tipografi sisteminizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim)."
+          },
+          {
+            "type": "p",
+            "text": "Renk, font, marka uyumu ve tasarım teslim süreçleriyle ilgili ek sorular için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
@@ -2105,9 +2178,11 @@
         ],
         "technicalChecklist": [
           "CTA hedefleri: /tr/creative/grafik-motion-tasarim, /tr/creative/ui-ux-tasarim, /tr/seo/teknik-seo",
+          "Internal link targets: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi, /tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi, /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim, /tr/creative/ui-ux-tasarim, /tr/seo/teknik-seo",
           "Kontrast ve erişilebilirlik kontrol alanları içerikte işlendi",
           "Renk paleti rol tablosu (CTA/link/arka plan/badge) deliverable olarak listelendi",
           "Tipografi hiyerarşisi (H1/H2/H3/body) standardı deliverable olarak listelendi",
+          "Renk ve tipografi kararları sezgisel değil sistematik bir tasarım çerçevesine içerikte oturuyor",
           "Checklist + Sprint Plan asset (v1.0) üretildi (Download Asset zorunlu)"
         ]
       }
@@ -2163,7 +2238,7 @@
     },
     "h1": {
       "title": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
-      "intro": "Kampanya kreatiflerinde en büyük tuzak “bu güzel oldu” diyerek tek görsele takılı kalmaktır. Performans odaklı tasarım ise set hâlinde üretim + kontrollü varyasyon + ölçüm döngüsüdür: feed, story, reels ve banner birbirini besler; A/B testler mesaj, görsel ve CTA’nın hangi kombinasyonla çalıştığını veriyle gösterir. Bu rehber, otel ve B2B kampanyaları için set kurma mantığını, test değişkenlerini ve sonuçların tasarım diline nasıl geri besleneceğini pratik bir çerçeveyle anlatır.",
+      "intro": "Kampanya kreatiflerinde en büyük tuzak “bu güzel oldu” diyerek tek görsele takılı kalmaktır. [Performance design](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımı ise set hâlinde üretim + kontrollü varyasyon + ölçüm döngüsüdür: feed, story, reels ve banner birbirini besler; A/B testler mesaj, görsel ve CTA’nın hangi kombinasyonla çalıştığını veriyle gösterir. Bu rehber, otel ve B2B kampanyaları için set kurma mantığını, test değişkenlerini ve sonuçların tasarım diline nasıl geri besleneceğini pratik bir çerçeveyle anlatır.",
       "quickSummary": [
         "Set mantığı: tek mesaj, çok format (feed/story/reels/banner)",
         "A/B test kuralı: tek seferde tek değişken (headline/hero/CTA)",
@@ -2195,6 +2270,22 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
+        "href": "/tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi"
+      },
+      {
+        "label": "Sosyal Kanıt ve Testimonial Kart Tasarımı",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
+      },
+      {
+        "label": "Veriyle Beslenen Kreatif Reklam İçgörüleri",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
+      },
+      {
         "label": "Sosyal Medya Reklamları",
         "href": "/tr/smm/sosyal-medya-reklamlari"
       },
@@ -2205,16 +2296,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "title": "Oteller İçin Instagram Post Tasarım Rehberi | DGTLFACE",
+        "href": "/tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi"
       },
       {
-        "title": "Sosyal Medya Reklamları",
-        "href": "/tr/smm/sosyal-medya-reklamlari"
+        "title": "Testimonial Kart Tasarımı ve Sosyal Kanıt Rehberi",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
       },
       {
-        "title": "Remarketing ve Display",
-        "href": "/tr/sem/remarketing-ve-display"
+        "title": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
       }
     ],
     "sections": [
@@ -2224,7 +2315,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kampanya seti, tek bir görselin farklı ölçülere uyarlanması değil; her formatın davranışına uygun “aynı mesaj ailesi”dir. Feed daha çok vitrin ve kanıt; story daha çok hızlı aksiyon; reels daha çok dikkat/retention; banner daha çok hatırlatma/remarketing işlevi görür. Set kurgusu; mesajın tutarlılığını korurken formatın avantajını kullanır."
+            "text": "Kampanya seti, tek bir görselin farklı ölçülere uyarlanması değil; her formatın davranışına uygun “aynı mesaj ailesi”dir. Bu yüzden [kampanya görsel setleri](https://dgtlface.com/tr/creative-ve-tasarim) sadece üretim kolaylığı değil, creative stratejinin performans tarafına açılan sistem katmanıdır. Feed daha çok vitrin ve kanıt; story daha çok hızlı aksiyon; reels daha çok dikkat/retention; banner daha çok hatırlatma/remarketing işlevi görür. Set kurgusu; mesajın tutarlılığını korurken formatın avantajını kullanır."
           },
           {
             "type": "h3",
@@ -2336,7 +2427,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "A/B test, tasarım zevkini değil performansı ölçer; ama doğru kurgu olmadan “gürültü” üretir. İyi bir test; net hedef (CTR mi CVR mi?), yeterli süre, tek değişken ve doğru segmentasyon ister. Otellerde sezon ve destinasyon etkisi; B2B’de persona ve teklif tipi etkisi test sonuçlarını değiştirir."
+            "text": "A/B test, tasarım zevkini değil performansı ölçer; ama doğru kurgu olmadan “gürültü” üretir. İyi bir test; net hedef (CTR mi CVR mi?), yeterli süre, tek değişken ve doğru segmentasyon ister. Bu disiplin özellikle [sosyal medya reklam kreatifleri](https://dgtlface.com/tr/smm/sosyal-medya-reklamlari) üzerinde daha hızlı öğrenim üretir. Otellerde sezon ve destinasyon etkisi; B2B’de persona ve teklif tipi etkisi test sonuçlarını değiştirir."
           },
           {
             "type": "h3",
@@ -2384,7 +2475,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Aynı test mantığı otel ve B2B’de farklı kanıt türleriyle çalışır. Otelde kanıt: deneyim, konsept, sosyal kanıt; B2B’de kanıt: sonuç, metrik, süreç. Kampanya türü de senaryoyu belirler."
+            "text": "Aynı test mantığı otel ve B2B’de farklı kanıt türleriyle çalışır. Otelde bu yapı, [rezervasyon odaklı kampanya postları](https://dgtlface.com/tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi) ile daha hızlı somutlaşır; kanıt tarafında ise deneyim, konsept ve sosyal kanıt öne çıkar. B2B’de kanıt: sonuç, metrik, süreçtir. Kampanya türü de senaryoyu belirler."
           },
           {
             "type": "h3",
@@ -2401,7 +2492,7 @@
           },
           {
             "type": "p",
-            "text": "GEO notu (doğal kullanım): Antalya/Belek/Side/Kemer/Bodrum/Alanya gibi destinasyonlarda kampanya setlerinde “destinasyon hissi” support katmanda kullanılmalı; ana mesaj boğulmamalı."
+            "text": "GEO notu (doğal kullanım): Antalya/Belek/Side/Kemer/Bodrum/Alanya gibi destinasyonlarda kampanya setlerinde “destinasyon hissi” support katmanda kullanılmalı; [testimonial kart tasarımı](https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi) ve güven sinyalleri destek rolünde kalmalı; ana mesaj boğulmamalı."
           },
           {
             "type": "h3",
@@ -2413,7 +2504,7 @@
             "items": [
               "Ürün: 1 problem → 1 çözüm → 1 sonuç metriği",
               "Servis: 3 deliverable → 1 süreç → 1 garanti/kanıt",
-              "Retargeting banner: kısa hatırlatma + tek CTA"
+              "Retargeting banner: kısa hatırlatma + tek CTA; [multi-format campaign sets](https://dgtlface.com/tr/sem/remarketing-ve-display) mantığı burada fark yaratır"
             ]
           },
           {
@@ -2437,7 +2528,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "A/B testin amacı “kazananı bulmak” kadar, kazananın neden kazandığını anlamaktır. Eğer sonuçları tasarım diline geri beslemezseniz, her kampanya sıfırdan başlar. Burada yapılacak iş: kazanan mesaj kalıbını, görsel tipini ve CTA ifadesini “kampanya tasarım sistemi”ne yazmaktır."
+            "text": "A/B testin amacı “kazananı bulmak” kadar, kazananın neden kazandığını anlamaktır. Eğer sonuçları tasarım diline geri beslemezseniz, her kampanya sıfırdan başlar. Burada yapılacak iş: kazanan mesaj kalıbını, görsel tipini ve CTA ifadesini “kampanya tasarım sistemi”ne yazmak ve bunu [test-driven creatives](https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak) yaklaşımıyla yeni varyasyon brief’lerine taşımaktır."
           },
           {
             "type": "h3",
@@ -2479,7 +2570,7 @@
             "variant": "secondary",
             "label": "Kampanya Mesaj–Görsel–CTA A/B Test Planlama Şablonunu İndir",
             "text": "Her kampanyada test hipotezlerini ve sonuçları tek tabloda toplar; sonraki tasarımlara içgörü olarak hızlıca taşırsınız.",
-            "href": "/tr/smm/sosyal-medya-reklamlari"
+            "href": "/downloads/kampanya-mesaj-gorsel-cta-ab-test-planlama-sablonu-v1.0.pdf"
           }
         ]
       },
@@ -2501,6 +2592,10 @@
             "label": "Kampanya Görsel Set & A/B Test Analizi Talep Et",
             "text": "Mevcut kampanyalarınız için set + test yol haritası çıkaralım; 14 günde ilk içgörüyü üretelim.",
             "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "p",
+            "text": "Kampanya üretimini sistemleştirmek için [Grafik & Motion Tasarım hizmetiyle performans odaklı kampanya görsellerinizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Süreç, teslim ve revizyon akışı için de [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atabilirsiniz."
           }
         ]
       },
@@ -2577,7 +2672,8 @@
           "Kazanan içgörü 2 cümleyle yazıldı ve şablon standardına işlendi",
           "Kaybeden varyasyonlar öğrenim arşivine eklendi",
           "Remarketing/display setleri funnel rolüne göre kurgulandı",
-          "Creative ↔ performance köprü linkleri doğal şekilde yerleştirildi"
+          "Creative ↔ performance köprü linkleri doğal şekilde yerleştirildi",
+          "Otel post, testimonial, veriyle beslenen kreatif, sosyal medya reklamları ve remarketing köprüleri doğal bağlamda işlendi"
         ]
       }
     }
@@ -15715,7 +15811,7 @@
     },
     "h1": {
       "title": "Grid Sistemleri ve Kompozisyon: Tasarımda Denge ve Hiyerarşi",
-      "intro": "“Post’larım dağınık duruyor” problemi çoğu zaman kreatif eksikliği değil, grid ve hiyerarşi eksikliğidir. Grid; metin ve görseli aynı hizaya oturtur, whitespace ile nefes alanı yaratır ve izleyicinin gözüne net bir okuma yolu verir. Bu rehberde; kolon/modüler/baseline grid türlerini, kompozisyon ve görsel hiyerarşi kurallarını ve otel–B2B senaryolarında pratik uygulamayı birlikte ele alacağız.",
+      "intro": "“Post’larım dağınık duruyor” problemi çoğu zaman kreatif eksikliği değil, grid ve hiyerarşi eksikliğidir. İyi bir [grid bazlı layout](https://dgtlface.com/tr/creative/grafik-motion-tasarim); metin ve görseli aynı hizaya oturtur, whitespace ile nefes alanı yaratır ve izleyicinin gözüne net bir okuma yolu verir. Bu rehberde; kolon/modüler/baseline grid türlerini, kompozisyon ve görsel hiyerarşi kurallarını ve otel–B2B senaryolarında pratik uygulamayı birlikte ele alacağız.",
       "quickSummary": [
         "1) Grid ile göz kararı hizalamayı standartlaştır",
         "2) İçeriğe göre kolon / modüler / baseline grid seç",
@@ -15726,43 +15822,63 @@
       "ctaPrimary": {
         "label": "Grid & Kompozisyon Analizi Talep Et",
         "text": "Otel/B2B içeriklerinizde grid, hizalama ve hiyerarşi hatalarını çıkarıp uygulanabilir bir şablon seti oluşturalım.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Grid & Kompozisyon Analizi Talep Et",
         "text": "Otel/B2B içeriklerinizde hizalama ve hiyerarşiyi standartlaştırmak isteyen ekipler için",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Grid Sistemi & Kompozisyon Checklist’ini İndir",
         "text": "Grid hatalarını hızlıca yakalar; revizyonu azaltacak kontrol adımlarını ekip rutini haline getirirsiniz.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/downloads/grid-sistemi-kompozisyon-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "UI/UX Tasarım sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "İçerik Üretimi sayfası",
-        "href": "/smm/icerik-uretimi"
+        "label": "Renk ve Tipografi Seçimi",
+        "href": "/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber"
+      },
+      {
+        "label": "Icon ve Illustration Setleri",
+        "href": "/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
+      },
+      {
+        "label": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+        "href": "/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "UI/UX Tasarım",
-        "href": "/creative/ui-ux-tasarim"
+        "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+        "href": "/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber"
       },
       {
-        "title": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "title": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+        "href": "/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
+      },
+      {
+        "title": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+        "href": "/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi"
       }
     ],
     "sections": [
@@ -15776,7 +15892,7 @@
           },
           {
             "type": "p",
-            "text": "Grid, tasarımın görünmez iskeletidir: öğeleri bir “düzene” oturtur ve kararları kişiden kişiye değişen göz kararı olmaktan çıkarır. Sosyal medyada bu; postların aynı aileden görünmesi, web’de blokların daha okunur olması, sunumda sayfaların daha profesyonel durması demektir. Otel tarafında oda/deneyim görselleri farklı ışık ve kadrajla gelse bile grid onları aynı sistemde toplar; B2B’de dashboard ekran görüntüleri ve metin blokları “kurumsal düzen” hissi verir."
+            "text": "Grid, tasarımın görünmez iskeletidir: öğeleri bir “düzene” oturtur ve kararları kişiden kişiye değişen göz kararı olmaktan çıkarır. Bu yüzden [görsel hiyerarşi](https://dgtlface.com/tr/creative-ve-tasarim) sadece estetik karar değil, creative kalitenin temel standardıdır. Sosyal medyada bu; postların aynı aileden görünmesi, web’de blokların daha okunur olması, sunumda sayfaların daha profesyonel durması demektir. Otel tarafında oda/deneyim görselleri farklı ışık ve kadrajla gelse bile grid onları aynı sistemde toplar; B2B’de dashboard ekran görüntüleri ve metin blokları “kurumsal düzen” hissi verir."
           },
           {
             "type": "h3",
@@ -15829,7 +15945,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Grid tek tip değildir; kullanıma göre seçilir. Sosyal medya postları ve banner’larda çoğunlukla kolon grid, kompleks içerik kartlarında modüler grid, metin yoğun sayfalarda ise baseline grid en iyi sonucu verir. Buradaki amaç “mükemmel grid” değil; içerik türüne göre doğru grid seçip standartlaştırmaktır."
+            "text": "Grid tek tip değildir; kullanıma göre seçilir. Sosyal medya postları ve banner’larda çoğunlukla kolon grid, kompleks içerik kartlarında modüler grid, metin yoğun sayfalarda ise baseline grid en iyi sonucu verir. Buradaki amaç “mükemmel grid” değil; içerik türüne göre doğru grid seçip standartlaştırmaktır. Özellikle [grid ve tipografi ilişkisi](https://dgtlface.com/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber) doğru kurulmadığında layout düzenli görünse bile okunabilirlik düşer."
           },
           {
             "type": "h3",
@@ -15837,7 +15953,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Sosyal medya postlarında 2–3 kolon, web’de 12 kolon mantığı (tasarım aracı içinde) sık kullanılır; pratikte içerik yoğunluğuna göre 2–4 kolon şablonları yeterlidir. Önemli olan kolon sayısı kadar, boşluk ve hizalama kurallarının sabit olmasıdır."
+            "text": "Net cevap: Sosyal medya postlarında 2–3 kolon, web’de 12 kolon mantığı (tasarım aracı içinde) sık kullanılır; pratikte içerik yoğunluğuna göre 2–4 kolon şablonları yeterlidir. Önemli olan kolon sayısı kadar, boşluk ve hizalama kurallarının sabit olmasıdır. Bu mantık [web ve arayüz tasarımında grid kullanımı](https://dgtlface.com/tr/creative/ui-ux-tasarim) açısından responsive kararları da daha öngörülebilir kılar."
           },
           {
             "type": "h3",
@@ -15858,7 +15974,7 @@
           },
           {
             "type": "p",
-            "text": "Küçük kutucuklara bölünmüş sistemdir; SSS, özellik listesi, fiyat paketi gibi içeriklerde işe yarar."
+            "text": "Küçük kutucuklara bölünmüş sistemdir; SSS, özellik listesi, fiyat paketi gibi içeriklerde işe yarar. Özellikle yardımcı grafiklerde [icon ve illustration hizalaması](https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin) bu yapı sayesinde daha dengeli görünür."
           },
           {
             "type": "h3",
@@ -16083,7 +16199,7 @@
               "Otel için 2 şablon seç: oda + deneyim (tekrar eden seri).",
               "B2B için 2 şablon seç: dashboard + feature kartı.",
               "Şablonları Canva/Figma’da kilitle; ekip dışına çıkamasın.",
-              "İçerik üretim süreçleriyle bağla: /tr/smm/icerik-uretimi."
+              "Şablonları [sosyal medya içeriklerinde layout standardı](https://dgtlface.com/tr/smm/icerik-uretimi) yaklaşımıyla içerik üretim süreçlerine bağla."
             ]
           },
           {
@@ -16091,7 +16207,7 @@
             "variant": "primary",
             "label": "Grid & Kompozisyon Analizi Talep Et",
             "text": "Otel/B2B grid şablonlarınızı kurup revizyonu azaltacak “tasarım standardı” çıkaralım.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       },
@@ -16101,7 +16217,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip içeriklerin çoğu “grid iyidir” der ama operasyonel tarafa girmez. Asıl fark; grid’i tasarım sistemi gibi yönetmek: şablon adları, kullanım kuralları, onay akışı, versiyonlama. Bu sayede ajans değişse bile seri dili bozulmaz; kampanya döneminde “hızlı ama tutarlı” üretim yapılır."
+            "text": "Rakip içeriklerin çoğu “grid iyidir” der ama operasyonel tarafa girmez. Asıl fark; grid’i tasarım sistemi gibi yönetmek: şablon adları, kullanım kuralları, onay akışı, versiyonlama. Bu sayede ajans değişse bile seri dili bozulmaz; kampanya döneminde “hızlı ama tutarlı” üretim yapılır. Bu standardı yayın öncesinde [tasarım QA kontrol listesi](https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi) ile doğrulamak, hizalama ve spacing hatalarını yayına çıkmadan yakalar."
           },
           {
             "type": "list",
@@ -16130,7 +16246,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "6 şablonluk minimum kütüphane çıkar (2 otel + 2 B2B + 2 kampanya).",
-              "UI/UX sayfasıyla standardı genişlet: /tr/creative/ui-ux-tasarim.",
+              "UI/UX standardıyla genişlet; responsive düzen mantığını ayrı şablon kararına dönüştür.",
               "İçerik ekibine 1 sayfalık “grid kontrol rehberi” ver."
             ]
           }
@@ -16207,21 +16323,25 @@
           },
           {
             "type": "p",
-            "text": "Özellikle otel ve B2B senaryolarında grid; görsel kanıtı doğru alana taşıyarak başlık–kanıt–CTA akışını netleştirir. Şablonları kilitleyip ekip standardı kurduğunuzda “göz kararı” tasarım yerine sürdürülebilir bir üretim sistemi oluşur."
+            "text": "Özellikle otel ve B2B senaryolarında grid; görsel kanıtı doğru alana taşıyarak başlık–kanıt–CTA akışını netleştirir. Şablonları kilitleyip ekip standardı kurduğunuzda “göz kararı” tasarım yerine sürdürülebilir bir üretim sistemi oluşur. [Grafik & Motion Tasarım hizmetiyle grid ve kompozisyon standardınızı güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim)."
+          },
+          {
+            "type": "p",
+            "text": "Süreç, revizyon, teslim formatı ve yayın öncesi kalite kontrol detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Grid & Kompozisyon Analizi Talep Et",
             "text": "Otel/B2B içeriklerinizde hizalama ve hiyerarşiyi standartlaştırmak isteyen ekipler için",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Grid Sistemi & Kompozisyon Checklist’ini İndir",
             "text": "Grid hatalarını hızlıca yakalar; revizyonu azaltacak kontrol adımlarını ekip rutini haline getirirsiniz.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/downloads/grid-sistemi-kompozisyon-checklist-v1.0.pdf"
           }
         ]
       }
@@ -16276,10 +16396,11 @@
           "Canonical: /tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi",
           "Primary CTA 2 kez yerleştirildi",
           "Secondary CTA 1 kez yerleştirildi",
-          "Internal link target’lar eklendi: /creative/grafik-motion-tasarim, /creative/ui-ux-tasarim, /smm/icerik-uretimi",
+          "Internal link target’lar eklendi: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber, /tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin, /tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi, /tr/creative/ui-ux-tasarim, /tr/smm/icerik-uretimi",
           "Download asset bloğu üretildi",
           "Hata–Çözüm Matrisi tablosu eklendi",
-          "Media pack slotları şemaya uygun yerleştirildi"
+          "Media pack slotları şemaya uygun yerleştirildi",
+          "Grid, tipografi, icon/illustration, QA, UI/UX ve sosyal medya içerik üretimi köprüleri doğal bağlamda işlendi"
         ]
       }
     }
@@ -16333,7 +16454,7 @@
     },
     "h1": {
       "title": "Kurumsal Sunum ve Pitch Deck Tasarım Rehberi",
-      "intro": "Sunumların “yazı dolu” görünmesi çoğu zaman bilgi eksikliği değil, hikâye akışı ve görsel hiyerarşi eksikliğidir. Pitch deck; karar vericinin 5–10 dakikada “ne satıyorsun ve neden inanmalıyım?” sorusuna cevap aldığı ikna aracıdır. Bu rehberde pitch deck ile kurumsal sunum farkını netleştirip, problem–çözüm–kanıt–CTA akışıyla 10–12 slaytlık bir yapı kuracağız; layout, ikon/grafik/mockup kullanımını otel ve B2B senaryolarıyla pratikleştireceğiz.",
+      "intro": "Sunumların “yazı dolu” görünmesi çoğu zaman bilgi eksikliği değil, hikâye akışı ve görsel hiyerarşi eksikliğidir. İyi bir [sunum hikayesi](https://dgtlface.com/tr/creative/grafik-motion-tasarim), karar vericinin 5–10 dakikada “ne satıyorsun ve neden inanmalıyım?” sorusuna cevap aldığı ikna aracına dönüşür. Bu rehberde pitch deck ile kurumsal sunum farkını netleştirip, problem–çözüm–kanıt–CTA akışıyla 10–12 slaytlık bir yapı kuracağız; layout, ikon/grafik/mockup kullanımını otel ve B2B senaryolarıyla pratikleştireceğiz.",
       "quickSummary": [
         "1) Pitch deck ve kurumsal sunumu amaç bazlı ayır",
         "2) 10–12 slaytlık problem–çözüm–kanıt–CTA akışı kur",
@@ -16344,43 +16465,63 @@
       "ctaPrimary": {
         "label": "Pitch Deck & Kurumsal Sunum Analizi Talep Et",
         "text": "Satış/ikna sunumlarınızda hikâye akışını ve slayt hiyerarşisini iyileştirip daha net dönüşüm almak isteyen ekipler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Pitch Deck & Kurumsal Sunum Analizi Talep Et",
         "text": "Ajans, B2B satış ve otel ekiplerinde daha ikna edici sunum isteyenler için",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Pitch Deck Slide Akışı & Tasarım Checklist’ini İndir",
         "text": "10–12 slayt akışını netleştirir; slayt başına metni azaltıp daha hızlı ikna sunumu üretirsiniz.",
-        "href": "/raporlama/satis-donusum"
+        "href": "/downloads/pitch-deck-slide-akisi-ve-tasarim-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "UI/UX Tasarım hizmet sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Satış dönüşüm analizi sayfası",
-        "href": "/raporlama/satis-donusum"
+        "label": "Mockup ve Case Görselleştirme",
+        "href": "/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu"
+      },
+      {
+        "label": "Creative Brief Hazırlama",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "label": "Sosyal Kanıt ve Testimonial Kart Tasarımı",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+        "href": "/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu"
       },
       {
-        "title": "UI/UX Tasarım",
-        "href": "/creative/ui-ux-tasarim"
+        "title": "Creative Brief Hazırlama Rehberi (Grafik & Motion)",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "title": "Testimonial Kart Tasarımı ve Sosyal Kanıt Rehberi",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
       }
     ],
     "sections": [
@@ -16390,7 +16531,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kurumsal sunumlar genellikle “biz kimiz?” odağında, daha geniş kapsamlı ve kurumsal kimliği taşıyan içeriklerdir. Pitch deck ise daha agresif bir amaç taşır: belirli bir aksiyonu (toplantı, demo, teklif, yatırım görüşmesi) tetiklemek. Bu yüzden pitch deck’te içerik seçimi daha keskin olmalı; her slaytın bir işlevi olmalı."
+            "text": "Kurumsal sunumlar genellikle “biz kimiz?” odağında, daha geniş kapsamlı ve kurumsal kimliği taşıyan içeriklerdir. Pitch deck ise daha agresif bir amaç taşır: belirli bir aksiyonu (toplantı, demo, teklif, yatırım görüşmesi) tetiklemek. Bu yüzden pitch deck’te içerik seçimi daha keskin olmalı; her slaytın bir işlevi olmalı. İyi bir [slide hiyerarşisi](https://dgtlface.com/tr/creative-ve-tasarim), bu ayrımı yalnızca içerikte değil, tasarım kararlarında da görünür kılar."
           },
           {
             "type": "h3",
@@ -16447,7 +16588,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "En ikna edici sunumlar, tasarım harikası oldukları için değil; doğru sırayla doğru şeyi söyledikleri için kazanır. Problem–çözüm–kanıt–CTA akışı, özellikle B2B’de “risk azaltma” sağlar; otel tarafında ise yatırım/konsept veya iş birliği sunumlarında “neden bu proje?” sorusunu hızla netleştirir."
+            "text": "En ikna edici sunumlar, tasarım harikası oldukları için değil; doğru sırayla doğru şeyi söyledikleri için kazanır. Problem–çözüm–kanıt–CTA akışı, özellikle B2B’de “risk azaltma” sağlar; otel tarafında ise yatırım/konsept veya iş birliği sunumlarında “neden bu proje?” sorusunu hızla netleştirir. Bu akış başlamadan önce hedef kitle, teklif kapsamı ve mesaj önceliğini [creative brief hazırlama](https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin) disipliniyle netleştirmek, deck’in dağılmasını büyük ölçüde önler."
           },
           {
             "type": "h3",
@@ -16511,7 +16652,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sunumlarda “çok yazı” problemi, genelde layout’un metni yönetememesinden çıkar. Slayt; bir web sayfası değildir; 10 saniyede anlaşılmalı. Bu yüzden hiyerarşi: Başlık → Kanıt Görseli → 3 kısa madde → CTA şeklinde kurulmalıdır. Her slaytta gözün gideceği yer belliyse sunum profesyonel görünür."
+            "text": "Sunumlarda “çok yazı” problemi, genelde layout’un metni yönetememesinden çıkar. Slayt; bir web sayfası değildir; 10 saniyede anlaşılmalı. Bu yüzden hiyerarşi: Başlık → Kanıt Görseli → 3 kısa madde → CTA şeklinde kurulmalıdır. Her slaytta gözün gideceği yer belliyse sunum profesyonel görünür. Aynı yaklaşımın demo ekranı, teklif sayfası ve landing page tarafında da sürmesi için [sunumdan dijital deneyime görsel tutarlılık](https://dgtlface.com/tr/creative/ui-ux-tasarim) korunmalıdır."
           },
           {
             "type": "h3",
@@ -16593,7 +16734,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Grafik ve ikonlar “tasarım süsü” değil, anlam sıkıştırma aracıdır. Özellikle B2B sunumlarında bir grafiğin doğru kullanımı “kanıt” ihtiyacını karşılar; otel tarafında ise deneyimi soyutlamadan “konsept ve fark”ı gösterir. Mockup (ürün ekranı, uygulama, web sayfası) ise “anlatmak yerine göstermek” için idealdir."
+            "text": "Grafik ve ikonlar “tasarım süsü” değil, anlam sıkıştırma aracıdır. Özellikle B2B sunumlarında bir grafiğin doğru kullanımı “kanıt” ihtiyacını karşılar; otel tarafında ise deneyimi soyutlamadan “konsept ve fark”ı gösterir. Güçlü bir [case görselleştirme](https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu) yaklaşımı ve doğru mockup kullanımı, “anlatmak yerine göstermek” için idealdir."
           },
           {
             "type": "h3",
@@ -16611,7 +16752,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet dolu): Sunum tasarım rehberi uygulanan ekiplerde “slayt başına metin azaltma” ve hikâye akışı iyileştirmeleri satış dönüşümlerine olumlu yansıyabiliyor. (Kesin rakam iddiası yok; gözlem ve pratik sonuç beklentisi olarak kullanılmalı.)"
+            "text": "Key Statistics / Data Point (sheet dolu): Sunum tasarım rehberi uygulanan ekiplerde “slayt başına metin azaltma” ve hikâye akışı iyileştirmeleri satış dönüşümlerine olumlu yansıyabiliyor. (Kesin rakam iddiası yok; gözlem ve pratik sonuç beklentisi olarak kullanılmalı.) Deck içinde [testimonial kart tasarımı](https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi) ve referans kullanımı da bu güven etkisini güçlendiren önemli bir kanıt katmanıdır."
           },
           {
             "type": "callout",
@@ -16688,7 +16829,7 @@
             "items": [
               "10–12 slayt akışını bir şablon olarak kilitle.",
               "Otel/B2B için 6 temel slayt türü çıkar (problem, çözüm, kanıt, plan, fiyat, CTA).",
-              "Satış dönüşüm metriklerini bağlamak için ilgili sayfaya iç link ver: /tr/raporlama/satis-donusum."
+              "Sunum performansını [satış dönüşüm odaklı sunum](https://dgtlface.com/tr/raporlama/satis-donusum) mantığıyla lead ve teklif kabul etkisine bağla."
             ]
           },
           {
@@ -16696,7 +16837,7 @@
             "variant": "secondary",
             "label": "Pitch Deck Slide Akışı & Tasarım Checklist’ini İndir",
             "text": "10–12 slayt akışını ve her slaytın metin/görsel sınırını netleştirir; ekipte standart sunum üretimini hızlandırırsınız.",
-            "href": "/raporlama/satis-donusum"
+            "href": "/downloads/pitch-deck-slide-akisi-ve-tasarim-checklist-v1.0.pdf"
           }
         ]
       },
@@ -16740,7 +16881,7 @@
             "items": [
               "Deck’i iki katman yap: “Core” + “Appendix”.",
               "Core’u satış toplantısı için optimize et.",
-              "UI/UX prensipleriyle tasarım dilini güçlendir: /tr/creative/ui-ux-tasarim."
+              "UI/UX prensipleriyle tasarım dilini güçlendir; deck ve demo akışında aynı görsel ritmi koru."
             ]
           },
           {"type":"media","slot":"checklist-06"}
@@ -16877,14 +17018,18 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sunum tasarımında amaç “şık slayt” değil, hızlı anlaşılır hikâye + net kanıt + tek CTAdır. 10–12 slaytlık akışı sabitleyip layout ve görsel hiyerarşiyi standardize ettiğinizde, ekip içi revizyon azalır ve satış/iş geliştirme görüşmeleri daha net ilerler. Deck’inizi ürün/hizmet ve hedef pazar değiştikçe yılda en az 1 kez güncellemek, performansı korumanın en pratik yoludur."
+            "text": "Sunum tasarımında amaç “şık slayt” değil, hızlı anlaşılır hikâye + net kanıt + tek CTAdır. 10–12 slaytlık akışı sabitleyip layout ve görsel hiyerarşiyi standardize ettiğinizde, ekip içi revizyon azalır ve satış/iş geliştirme görüşmeleri daha net ilerler. Deck’inizi ürün/hizmet ve hedef pazar değiştikçe yılda en az 1 kez güncellemek, performansı korumanın en pratik yoludur. [Grafik & Motion Tasarım hizmetiyle kurumsal sunum ve pitch deck kalitenizi artırın](https://dgtlface.com/tr/creative/grafik-motion-tasarim)."
+          },
+          {
+            "type": "p",
+            "text": "Teslim formatları, revizyon süreci ve çalışma kapsamıyla ilgili detaylar için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atabilirsiniz."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Pitch Deck & Kurumsal Sunum Analizi Talep Et",
             "text": "Mevcut sunumunuzu “10–12 slayt core + appendix” modeline indirip ikna akışını güçlendirelim.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
            {"type":"media","slot":"kpi-07"}
         ]
@@ -16939,9 +17084,10 @@
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "FAQPage sadece sayfadaki gerçek SSS ile eşleşmeli",
           "CTA modülü primary 2 kez, secondary 1 kez yerleştirildi",
-          "Internal link hedefleri: /creative/grafik-motion-tasarim, /creative/ui-ux-tasarim, /raporlama/satis-donusum",
+          "Internal link hedefleri: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu, /tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin, /tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi, /tr/creative/ui-ux-tasarim, /tr/raporlama/satis-donusum",
           "Download asset alanı dolduruldu ve slug ile uyumlu",
-          "Media slot isimleri section akışıyla eşleştirildi"
+          "Media slot isimleri section akışıyla eşleştirildi",
+          "Pitch deck, case, brief, testimonial, UI/UX ve satış dönüşüm köprüleri doğal bağlamda işlendi"
         ]
       }
     }
@@ -16995,7 +17141,7 @@
     },
     "h1": {
       "title": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
-      "intro": "“Her yerde farklı ikon kullanıyoruz” cümlesi, aslında marka görsel dilinin parçalandığını söyler. UI’de bir ikon seti, sosyal medyada başka bir stil, sunumda üçüncü bir paket… Sonuç: profesyonel görünüm kaybı ve bitmeyen revizyonlar. Bu rehberde; tek bir icon/illustration sistemi kurmanın kararlarını (stroke vs solid, grid, stroke kalınlığı, renk), kullanım kurallarını ve Figma/export + dosya organizasyonunu otel ve B2B senaryolarıyla pratik hale getireceğiz.",
+      "intro": "“Her yerde farklı ikon kullanıyoruz” cümlesi, aslında marka görsel dilinin parçalandığını söyler. Güçlü bir [icon sistemi](https://dgtlface.com/tr/creative/grafik-motion-tasarim), UI’de bir ikon seti, sosyal medyada başka bir stil, sunumda üçüncü bir paket oluşmasını engeller. Bu rehberde; tek bir icon/illustration sistemi kurmanın kararlarını (stroke vs solid, grid, stroke kalınlığı, renk), kullanım kurallarını ve Figma/export + dosya organizasyonunu otel ve B2B senaryolarıyla pratik hale getireceğiz.",
       "quickSummary": [
         "1) Tek set seç ve stroke vs solid kararını ver",
         "2) Grid ve stroke kalınlığını sabitle",
@@ -17018,7 +17164,7 @@
       "secondary": {
         "label": "Icon/Illustration Sistem & Kullanım Checklist’ini İndir",
         "text": "“Seti 30 dakikada denetler; grid-stroke-renk kurallarını ekip standardı haline getirirsiniz.”",
-        "href": "/tr/creative/ui-ux-tasarim"
+        "href": "/downloads/icon-illustration-sistem-kullanım-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -17027,22 +17173,42 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Grid Sistemi ve Kompozisyon Rehberi",
+        "href": "/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi"
+      },
+      {
+        "label": "Design Ops ve Figma Library Yönetimi Rehberi",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
+      },
+      {
+        "label": "Marka Kitabına Uyumlu Dijital Tasarım",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
+      },
+      {
         "label": "UI/UX Tasarım",
         "href": "/tr/creative/ui-ux-tasarim"
       },
       {
-        "label": "İçerik Üretimi",
+        "label": "SMM İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "UI/UX Tasarım",
-        "href": "/tr/creative/ui-ux-tasarim"
+        "title": "Grid Sistemi ve Kompozisyon Rehberi",
+        "href": "/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi"
       },
       {
-        "title": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Design Ops ve Figma Library Yönetimi Rehberi",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
+      },
+      {
+        "title": "Marka Kitabına Uyumlu Dijital Tasarım Rehberi",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
       }
     ],
     "sections": [
@@ -17056,7 +17222,7 @@
           },
           {
             "type": "p",
-            "text": "Icon ve illustration, markanın “mikro dili”dir. Kullanıcı tek bir ikon gördüğünde bile kalite ve güven hissi alır ya da “kolaj” gibi algılar. Tutarlılık; sadece estetik değil, operasyonel bir kazançtır: ekipler aynı kurala göre üretir, ajans değişse bile sistem bozulmaz. Otellerde oda/konsept/paket ikonları; B2B’de ürün özellikleri ve avantajları bu mikro dilin temel taşıdır."
+            "text": "Icon ve [micro-illustration](https://dgtlface.com/tr/creative-ve-tasarim), markanın “mikro dili”dir. Kullanıcı tek bir ikon gördüğünde bile kalite ve güven hissi alır ya da “kolaj” gibi algılar. Tutarlılık; sadece estetik değil, operasyonel bir kazançtır: ekipler aynı kurala göre üretir, ajans değişse bile sistem bozulmaz. Otellerde oda/konsept/paket ikonları; B2B’de ürün özellikleri ve avantajları bu mikro dilin temel taşıdır."
           },
           {
             "type": "h3",
@@ -17110,7 +17276,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "UI’de ikonlar “yol gösterir”: menü, durum, özellik, aksiyon… Bu yüzden okunurluk ve tutarlılık şarttır. UI ikon seti kurarken amaç; her ekranın farklı ikon diliyle konuşmasını engellemek ve kullanıcıya güven vermektir. B2B ürünlerde ikonlar özellikleri sınıflandırır; otel web sitelerinde ikonlar oda özelliklerini ve konsepti hızlı anlatır."
+            "text": "UI’de ikonlar “yol gösterir”: menü, durum, özellik, aksiyon… Bu yüzden okunurluk ve tutarlılık şarttır. UI ikon seti kurarken amaç; her ekranın farklı ikon diliyle konuşmasını engellemek ve kullanıcıya güven vermektir. B2B ürünlerde ikonlar özellikleri sınıflandırır; otel web sitelerinde ikonlar oda özelliklerini ve konsepti hızlı anlatır. Bu disiplin [grid & stroke consistency](https://dgtlface.com/tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi) ile korunmadığında set hızla parçalanır."
           },
           {
             "type": "h3",
@@ -17162,7 +17328,7 @@
             "items": [
               "1. UI için “small/medium/large” ikon boyutlarını standardize et.",
               "2. Stroke kalınlığını tekleştir; özel durumları not düş.",
-              "3. Kullanım kurallarını UI/UX dokümanınıza bağla. (İç link: https://dgtlface.com/tr/creative/ui-ux-tasarim)"
+              "3. Kullanım kurallarını ürün ekranları, navigasyon ve boş durum akışları için [UI icon seti](https://dgtlface.com/tr/creative/ui-ux-tasarim) standardına bağla."
             ]
           },
           {
@@ -17177,7 +17343,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sosyal medyada mikro-illustration’lar; bir fikri hızlı ve eğlenceli biçimde anlatır. Ama burada en büyük hata “her kampanyada farklı bir çizim dili” kullanmaktır. Mikro-illustration’lar, ikonlarla aynı dil ailesinde olmalı: aynı stroke, benzer köşe dili, aynı renk sınırları. Böylece feed tutarlı görünür ve marka hafızası güçlenir."
+            "text": "Sosyal medyada [sosyal medya için micro-illustration](https://dgtlface.com/tr/smm/icerik-uretimi) kullanımı, bir fikri hızlı ve eğlenceli biçimde anlatır. Ama burada en büyük hata “her kampanyada farklı bir çizim dili” kullanmaktır. Mikro-illustration’lar, ikonlarla aynı dil ailesinde olmalı: aynı stroke, benzer köşe dili, aynı renk sınırları. Böylece [marka kitabına uyumlu illustration dili](https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim) korunur ve marka hafızası güçlenir."
           },
           {
             "type": "h3",
@@ -17288,8 +17454,8 @@
             "items": [
               "1. Otel/B2B için 30 ikonluk “core set” çıkar.",
               "2. 10 mikro-illustration ile sosyal medya setini başlat.",
-              "3. Kullanım kılavuzunu UI/UX standardına bağla: /tr/creative/ui-ux-tasarim.",
-              "4. İçerik üretimiyle bağla: /tr/smm/icerik-uretimi."
+              "3. Kullanım kılavuzunu arayüz navigasyonu ve empty state mantığıyla eşleştir.",
+              "4. İçerik üretimi akışında hangi ikon ve illustration setinin kullanılacağını önceden tanımla."
             ]
           },
           {
@@ -17327,7 +17493,7 @@
             "variant": "secondary",
             "label": "Icon/Illustration Sistem & Kullanım Checklist’ini İndir",
             "text": "Seti 30 dakikada denetler; grid-stroke-renk kurallarını ekip standardı haline getirirsiniz.",
-            "href": "/tr/creative/ui-ux-tasarim"
+            "href": "/downloads/icon-illustration-sistem-kullanım-checklist-v1.0.pdf"
           },
           {
             "type": "media",
@@ -17341,7 +17507,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sistem kurulduktan sonra asıl başarı; sürdürülebilir yönetimdir. Aynı ikon farklı isimlerle export edilirse veya dosyalar dağınık kalırsa set hızla bozulur. Bu bölüm; Figma’da komponent yapısı, export isimleri ve sürümleme için pratik bir “operasyon standardı” verir."
+            "text": "Sistem kurulduktan sonra asıl başarı; sürdürülebilir yönetimdir. Aynı ikon farklı isimlerle export edilirse veya dosyalar dağınık kalırsa set hızla bozulur. Bu bölüm; [Figma icon kütüphanesi](https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin) mantığıyla komponent yapısı, export isimleri ve sürümleme için pratik bir “operasyon standardı” verir."
           },
           {
             "type": "h3",
@@ -17365,11 +17531,11 @@
             "type": "list",
             "style": "ul",
             "items": [
-              "/icons/core/ (çekirdek)",
-              "/icons/otel/ (otel temaları)",
-              "/icons/b2b/ (B2B temaları)",
-              "/illustrations/micro/ (mikro set)",
-              "/guidelines/ (PDF style sheet)"
+              "`icons/core/` (çekirdek)",
+              "`icons/otel/` (otel temaları)",
+              "`icons/b2b/` (B2B temaları)",
+              "`illustrations/micro/` (mikro set)",
+              "`guidelines/` (PDF style sheet)"
             ]
           },
           {
@@ -17428,6 +17594,10 @@
             "label": "Icon & Illustration Set Analizi Talep Et",
             "text": "(UI, sosyal medya ve sunumlarında tutarlı görsel dil kurmak isteyen ekipler için)",
             "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle icon ve illustration sisteminizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Teslim süreci, revizyon kapsamı ve çalışma modeli için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -17535,7 +17705,9 @@
           "Renk ve state kullanım kuralları yazıldı",
           "UI / sosyal medya / sunum için export preset’leri hazır",
           "İsimlendirme ve klasör yapısı ekip tarafından biliniyor",
-          "v1.0 çekirdek set yayınlandı ve versioning planı tanımlandı"
+          "v1.0 çekirdek set yayınlandı ve versioning planı tanımlandı",
+          "Internal link hedefleri: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/grid-sistemleri-ve-kompozisyon-rehberi, /tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin, /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim, /tr/creative/ui-ux-tasarim, /tr/smm/icerik-uretimi",
+          "Icon sistemi, micro-illustration, design ops, UI/UX ve sosyal medya üretimi köprüleri doğal bağlamda işlendi"
         ]
       }
     }
@@ -17589,7 +17761,7 @@
     },
     "h1": {
       "title": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
-      "intro": "Bir portfolyonun amacı “ne yaptık?” listesini göstermek değil; karşı tarafa “bu ekip benim problemimi çözer” güvenini vermektir. Bu güven çoğu zaman metinden değil, mockup’ların kurduğu bağlam ve önce/sonra görsellerinin yarattığı dönüşüm etkisi ile oluşur. Bu rehberde; mockup türlerini, dijital ve baskı işlerini doğru sunmayı, before/after kurgusunu ve case study’lerde görsel storytelling’i adım adım şablonlaştıracağız — otel ve B2B senaryolarıyla.",
+      "intro": "Bir portfolyonun amacı “ne yaptık?” listesini göstermek değil; karşı tarafa “bu ekip benim problemimi çözer” güvenini vermektir. Güçlü bir [ajans portfolyo görselleştirme](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımı, bu güveni metinden değil mockup’ların kurduğu bağlam ve önce/sonra görsellerinin yarattığı dönüşüm etkisi ile üretir. Bu rehberde; mockup türlerini, dijital ve baskı işlerini doğru sunmayı, before/after kurgusunu ve case study’lerde görsel storytelling’i adım adım şablonlaştıracağız — otel ve B2B senaryolarıyla.",
       "quickSummary": [
         "1) Her case için 1 hero mockup belirle",
         "2) Before/after görselini aynı kadrajda kur",
@@ -17612,13 +17784,29 @@
       "secondary": {
         "label": "Case Görselleştirme & Mockup Kullanım Checklist’ini İndir",
         "text": "“Case’lerinizi 30 dakikada denetler; dönüşüm hikâyesi formatına hızlıca standardize edersiniz.”",
-        "href": "/tr/raporlama/satis-donusum"
+        "href": "/downloads/case-gorsellestirme-mockup-kullanim-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Grafik & Motion Tasarım",
         "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Pitch Deck ve Kurumsal Sunum Tasarım Rehberi",
+        "href": "/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi"
+      },
+      {
+        "label": "Testimonial Kart Tasarımı ve Sosyal Kanıt Rehberi",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
+      },
+      {
+        "label": "Veriyle Beslenen Kreatif Reklam İçgörüleri",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
       },
       {
         "label": "Video Prodüksiyon",
@@ -17631,12 +17819,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım",
-        "href": "/tr/creative/grafik-motion-tasarim"
+        "title": "Pitch Deck ve Kurumsal Sunum Tasarım Rehberi",
+        "href": "/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi"
       },
       {
-        "title": "Satış Dönüşüm",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Testimonial Kart Tasarımı ve Sosyal Kanıt Rehberi",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
+      },
+      {
+        "title": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
       }
     ],
     "sections": [
@@ -17650,7 +17842,7 @@
           },
           {
             "type": "p",
-            "text": "Mockup, “işin kendisini” değil işin doğru bağlamda nasıl göründüğünü gösterir. Bir web sitesi ekran görüntüsünü herkes koyabilir; fakat o ekranın gerçek bir cihazda, doğru ölçekte, doğru ışıkta ve doğru kullanım senaryosunda gösterilmesi, algıyı profesyonelleştirir. Ajans portfolyolarında mockup; “tasarım yaptım”dan “ürünleştirdim ve sahaya indirdim” mesajına geçiştir. B2B’de ise mockup’lar, ürün/servis çıktısının somut kanıtıdır (dashboard, landing, rapor, sunum)."
+            "text": "Mockup, “işin kendisini” değil işin doğru bağlamda nasıl göründüğünü gösterir. Bir web sitesi ekran görüntüsünü herkes koyabilir; fakat o ekranın gerçek bir cihazda, doğru ölçekte, doğru ışıkta ve doğru kullanım senaryosunda gösterilmesi, algıyı profesyonelleştirir. Ajans portfolyolarında mockup; “tasarım yaptım”dan “ürünleştirdim ve sahaya indirdim” mesajına geçiştir. B2B’de ise mockup’lar, ürün/servis çıktısının somut kanıtıdır (dashboard, landing, rapor, sunum). Bu yüzden iyi bir case anlatımı, yalnızca görsel sergilemek değil, [before / after etkisi](https://dgtlface.com/tr/creative-ve-tasarim) ile değişimi anlaşılır bir hikâyeye dönüştürmektir."
           },
           {
             "type": "h3",
@@ -17787,7 +17979,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Önce ve sonrayı aynı ölçekte ve aynı kadrajda göster; farklılıkları 2–3 işaret (callout) ile belirt ve tek cümleyle “ne iyileşti”yi yaz. Mümkünse bir performans metriği (CTR/CVR gibi) ya da süreç metriği (revizyon azalması) ile destekle."
+            "text": "Net cevap: Önce ve sonrayı aynı ölçekte ve aynı kadrajda göster; farklılıkları 2–3 işaret (callout) ile belirt ve tek cümleyle “ne iyileşti”yi yaz. Mümkünse bir performans metriği (CTR/CVR gibi) ya da süreç metriği (revizyon azalması) ile destekle. Böylece [veriyle desteklenen case anlatımı](https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak) yalnızca estetik değil, ölçülebilir bir sonuç sunar."
           },
           {
             "type": "h3",
@@ -17900,7 +18092,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bir case’i “görsel hikâye”ye çevirmek, tasarımcı için de ajans yöneticisi için de satış ekibi için de aynı soruya cevap verir: Neyi değiştirdik ve neden işe yaradı? Görsel storytelling; problemden çözüme, kanıttan next step’e akan bir mini film gibidir. Bu yüzden case sayfasında görseller, rastgele dizilmez; bir akışla ilerler."
+            "text": "Bir case’i “görsel hikâye”ye çevirmek, tasarımcı için de ajans yöneticisi için de satış ekibi için de aynı soruya cevap verir: Neyi değiştirdik ve neden işe yaradı? Görsel storytelling; problemden çözüme, kanıttan next step’e akan bir mini film gibidir. Bu yüzden case sayfasında görseller, rastgele dizilmez; bir akışla ilerler. Bu akış daha sonra [case sunumu](https://dgtlface.com/tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi) içinde teklif deck’ine, satış sunumuna ve iş geliştirme görüşmesine taşınabilir."
           },
           {
             "type": "h3",
@@ -17919,7 +18111,7 @@
           },
           {
             "type": "p",
-            "text": "Bu model, “Mockups; Case Visualisation; Before/After Grids; Portfolio Design” entitelerini tek bir case görselleştirme modeli içinde birleştirir ve her projede tekrar edilebilir hale getirir."
+            "text": "Bu model, “Mockups; Case Visualisation; Before/After Grids; Portfolio Design” entitelerini tek bir case görselleştirme modeli içinde birleştirir ve her projede tekrar edilebilir hale getirir. Güven katmanını artırmak için [testimonial destekli case sunumu](https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi) yaklaşımıyla müşteri yorumu, referans ve başarı metriği de aynı akışa eklenebilir."
           },
           {
             "type": "h3",
@@ -17954,7 +18146,7 @@
             "items": [
               "1. Case’i 5 blokta kur: hook, bağlam, dönüşüm, kanıt, next step.",
               "2. Her görsele 1 satır “etiket” ekle (fayda/amaç).",
-              "3. B2B performans case’leri için satış dönüşüm sayfasıyla bağ kur: https://dgtlface.com/tr/raporlama/satis-donusum"
+              "3. B2B performans case’lerini [satış dönüşüm odaklı portfolyo](https://dgtlface.com/tr/raporlama/satis-donusum) mantığıyla lead ve teklif kabul etkisine bağla."
             ]
           },
           {
@@ -17966,7 +18158,7 @@
             "variant": "secondary",
             "label": "Case Görselleştirme & Mockup Kullanım Checklist’ini İndir",
             "text": "Case’lerinizi 30 dakikada denetler; dönüşüm hikâyesi formatına hızlıca standardize edersiniz.",
-            "href": "/tr/raporlama/satis-donusum"
+            "href": "/downloads/case-gorsellestirme-mockup-kullanim-checklist-v1.0.pdf"
           }
         ]
       },
@@ -18042,8 +18234,8 @@
             "items": [
               "1. Otel için 2 case şablonu çıkar: web yenileme + kampanya.",
               "2. B2B için 1 case şablonu çıkar: landing + performans grafiği.",
-              "3. Şablonları Creative silo’da standardize et: https://dgtlface.com/tr/creative/grafik-motion-tasarim",
-              "4. Video mockup’lar gerekiyorsa video prodüksiyon sayfasına bağla: https://dgtlface.com/tr/creative/video-produksiyon"
+              "3. Şablonları creative ekip içinde sabit bir kütüphane halinde standardize et.",
+              "4. Hareketli anlatım gerekiyorsa [video case ve showreel](https://dgtlface.com/tr/creative/video-produksiyon) formatına geç."
             ]
           },
           {
@@ -18052,6 +18244,10 @@
             "label": "Case & Mockup Görselleştirme Analizi Talep Et",
             "text": "(Portfolyo sayfanızı “dönüşüm hikâyesi”ne çevirip teklif isteğini hızlandırmak isteyen ekipler için)",
             "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle case ve portfolyo anlatımınızı güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Teslim formatları, revizyon süreci ve çalışma kapsamı için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -18153,7 +18349,9 @@
           "NDA/maskeleme standardı yazıldı",
           "Portfolyo, deck ve sosyal post formatları için ayrı şablonlar hazır",
           "Case görsel seti 6–8 görsel sınırında net akışla kurgulandı",
-          "v1.0 Case Görsel Paketi kilitlendi ve versiyonlama planı tanımlandı"
+          "v1.0 Case Görsel Paketi kilitlendi ve versiyonlama planı tanımlandı",
+          "Internal link hedefleri: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/kurumsal-sunum-ve-pitch-deck-tasarim-rehberi, /tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi, /tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak, /tr/creative/video-produksiyon, /tr/raporlama/satis-donusum",
+          "Mockup, before/after, pitch deck, testimonial, veri içgörüsü, video case ve satış dönüşüm köprüleri doğal bağlamda işlendi"
         ]
       }
     }
@@ -18208,7 +18406,7 @@
     },
     "h1": {
       "title": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
-      "intro": "“Brief’te konuşuruz” cümlesi çoğu projede revizyon, gecikme ve memnuniyetsizlik olarak geri döner. Çünkü brief; sadece “istek listesi” değil, hedef–mesaj–format–başarı kriteri hizalamasıdır. Bu rehberde, grafik ve motion işlerinde brieften ajansın ne beklediğini, olmazsa olmaz alanları, referans ve beklenti yönetimini; otel kampanyaları ve B2B ürün lansmanları üzerinden pratikleştireceğiz. Amaç: aynı işi üç kere yaptırmadan, tek seferde doğru üretime yaklaşmak.",
+      "intro": "“Brief’te konuşuruz” cümlesi çoğu projede revizyon, gecikme ve memnuniyetsizlik olarak geri döner. Çünkü [iyi brief](https://dgtlface.com/tr/creative/grafik-motion-tasarim); sadece “istek listesi” değil, hedef–mesaj–format–başarı kriteri hizalamasıdır. Bu rehberde, grafik ve motion işlerinde brieften ajansın ne beklediğini, olmazsa olmaz alanları, referans ve beklenti yönetimini; otel kampanyaları ve B2B ürün lansmanları üzerinden pratikleştireceğiz. Amaç: aynı işi üç kere yaptırmadan, tek seferde doğru üretime yaklaşmak.",
       "quickSummary": [
         "1) Brief’i istek listesi değil hedef–mesaj–format hizalaması olarak ele al",
         "2) Amaç, hedef kitle, ana mesaj, formatlar ve deadline alanlarını netleştir",
@@ -18219,34 +18417,42 @@
       "ctaPrimary": {
         "label": "Creative Brief Analizi & İyileştirme Talebi Gönder",
         "text": "Ajans–müşteri ilişkisinde revizyonu azaltıp teslimi hızlandırmak isteyen ekipler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Creative Brief Analizi & İyileştirme Talebi Gönder",
         "text": "Ajansla çalışan otel ve B2B ekiplerinde revizyonu azaltmak isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Creative Brief Şablonu & Checklist’ini İndir",
         "text": "Brief’i 10 dakikada netleştirir; üretim sürecinde revizyon ve gecikme riskini azaltırsınız.",
-        "href": "/smm/planlama-strateji"
+        "href": "/downloads/creative-brief-sablonu-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
-      { "label": "Grafik & Motion Tasarım", "href": "/creative/grafik-motion-tasarim" },
-      { "label": "Planlama Stratejisi", "href": "/smm/planlama-strateji" },
-      { "label": "Video Prodüksiyon", "href": "/creative/video-produksiyon" }
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "Creative & Tasarım", "href": "/tr/creative-ve-tasarim" },
+      { "label": "Marka Sosyal Medya Görsel Dili Rehberi", "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi" },
+      { "label": "Template Tabanlı Tasarım ve Canva/Figma Kitleri", "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek" },
+      { "label": "Design Ops ve Figma Kütüphanesi Yönetimi", "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin" },
+      { "label": "SMM Planlama & Strateji", "href": "/tr/smm/planlama-strateji" },
+      { "label": "Video Prodüksiyon", "href": "/tr/creative/video-produksiyon" }
     ],
     "relatedPosts": [
       {
-        "title": "Planlama Stratejisi ile Sosyal Medya İçerik Sürecini Netleştirme",
-        "href": "/smm/planlama-strateji"
+        "title": "Marka Sosyal Medya Görsel Dili Rehberi",
+        "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi"
       },
       {
-        "title": "Video Prodüksiyon Sürecinde Brief, Format ve Teslim Planı",
-        "href": "/creative/video-produksiyon"
+        "title": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
+      },
+      {
+        "title": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
       }
     ],
     "sections": [
@@ -18257,7 +18463,7 @@
           { "type": "media", "slot": "h1-context-02" },
           {
             "type": "p",
-            "text": "Creative brief, projeyi “tasarımın zevki”nden çıkarıp iş hedefiyle hizalayan kısa dokümandır. Ajans tarafı için brief; üretimin girdisi, müşteri tarafı için ise beklentinin yazılı garantisidir. En kritik faydası: herkesin aynı şeye “evet” demesini sağlar — böylece üretim ilerledikçe “ben bunu başka türlü hayal etmiştim” sürprizi azalır."
+            "text": "Creative brief, projeyi “tasarımın zevki”nden çıkarıp iş hedefiyle hizalayan kısa dokümandır. Ajans tarafı için brief; üretimin girdisi, müşteri tarafı için ise [beklenti yönetimi](https://dgtlface.com/tr/creative-ve-tasarim) sağlayan yazılı garantidir. En kritik faydası: herkesin aynı şeye “evet” demesini sağlar — böylece üretim ilerledikçe “ben bunu başka türlü hayal etmiştim” sürprizi azalır."
           },
           { "type": "h3", "text": "Creative brief nedir, hangi başlıkları içermelidir?" },
           {
@@ -18386,7 +18592,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Referans paylaşmak, brief’in kalitesini ikiye katlar; ama yanlış referans “bunu aynen yapalım” tuzağına düşürür. Doğru yöntem: referansı parçalara ayırmak — “tipografi hoşuma gitti”, “ritim iyi”, “ikon dili böyle” gibi. Beklenti yönetimi ise özellikle ajans–müşteri ilişkisinde kritiktir: kaç revizyon, hangi kapsam, hangi teslimler?"
+            "text": "Referans paylaşmak, brief’in kalitesini ikiye katlar; ama yanlış referans “bunu aynen yapalım” tuzağına düşürür. Doğru yöntem: referansı parçalara ayırmak ve [brief içinde marka görsel dili](https://dgtlface.com/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi) beklentisini açıkça tarif etmektir; “tipografi hoşuma gitti”, “ritim iyi”, “ikon dili böyle” gibi. Beklenti yönetimi ise özellikle ajans–müşteri ilişkisinde kritiktir: kaç revizyon, hangi kapsam, hangi teslimler?"
           },
           { "type": "h3", "text": "Kötü brief’in tasarım sürecine etkileri nelerdir?" },
           {
@@ -18478,8 +18684,8 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Şablonu kurum içinde standart yap ve her projede aynı iskeletle başla.",
-              "Planlama stratejisiyle brief’i bağla: /tr/smm/planlama-strateji",
-              "Motion teslimleri için video prodüksiyonla hizala: /tr/creative/video-produksiyon"
+              "Kampanya hedefi, yayın takvimi ve kanal kararları için [sosyal medya brief’i](https://dgtlface.com/tr/smm/planlama-strateji) ile aynı çerçeveyi kullan.",
+              "Storyboard, süre ve teslim beklentilerini netleştirmek için [motion proje brief’i](https://dgtlface.com/tr/creative/video-produksiyon) mantığını baştan kur."
             ]
           },
           {
@@ -18487,7 +18693,7 @@
             "variant": "secondary",
             "label": "Creative Brief Şablonu & Checklist’ini İndir",
             "text": "Ajansla başlamadan önce brief’i 10 dakikada netleştirir; revizyon ve gecikme riskini belirgin şekilde düşürürsünüz.",
-            "href": "/smm/planlama-strateji"
+            "href": "/downloads/creative-brief-sablonu-checklist-v1.0.pdf"
           }
         ]
       },
@@ -18497,7 +18703,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çoğu ekip brief’i bir doküman olarak görür; oysa brief, bir üretim modelinin başlangıcıdır. Fark yaratan yaklaşım: brief’i doğrudan deliverable listesine, onay turuna ve kalite kontrol checklist’ine bağlamak. Böylece proje “konuşarak” değil, “standartla” yönetilir."
+            "text": "Çoğu ekip brief’i bir doküman olarak görür; oysa brief, bir üretim modelinin başlangıcıdır. Fark yaratan yaklaşım: brief’i doğrudan deliverable listesine, onay turuna ve kalite kontrol checklist’ine bağlamaktır. Tekrarlı işler için [brief’ten template sistemine geçiş](https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek) süreci hızlandırır; dosya düzeni ve [Figma üretim akışı](https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin) ise ekip içinde aynı standardı korur. Böylece proje “konuşarak” değil, “standartla” yönetilir."
           },
           { "type": "h3", "text": "Modeli kurmanın 5 adımı" },
           {
@@ -18642,14 +18848,18 @@
             "variant": "primary",
             "label": "Creative Brief Analizi & İyileştirme Talebi Gönder",
             "text": "Otel ve B2B projelerinde brief’i standartlaştırıp üretim hızını artırmak isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Creative Brief Şablonu & Checklist’ini İndir",
             "text": "Brief’i 10 dakikada netleştirir; üretim sürecinde revizyon ve gecikme riskini azaltırsınız.",
-            "href": "/smm/planlama-strateji"
+            "href": "/downloads/creative-brief-sablonu-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle revizyon azaltma ve brief standardınızı güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Süreç, teslim formatları ve çalışma kapsamı için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           { "type": "media", "slot": "kpi-07" },
           { "type": "media", "slot": "proof-08" }
@@ -18707,10 +18917,11 @@
           "Canonical kontrolü (/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin)",
           "URL/slug standardı ve blog slug uyumu kontrol edildi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde /tr/creative/grafik-motion-tasarim, /tr/smm/planlama-strateji ve /tr/creative/video-produksiyon hedefleri yerleştirildi",
+          "İç linklerde /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi, /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek, /tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin, /tr/smm/planlama-strateji ve /tr/creative/video-produksiyon hedefleri yerleştirildi",
           "Primary CTA hedefi /tr/creative/grafik-motion-tasarim olarak planlandı",
-          "Secondary CTA hedefi /tr/smm/planlama-strateji olarak planlandı",
+          "Secondary CTA hedefi /downloads/creative-brief-sablonu-checklist-v1.0.pdf olarak güncellendi",
           "Download asset alanı Creative Brief Şablonu & Checklist’i için üretildi",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "FAQ soruları PAA/AEO uyumlu şekilde yapılandırıldı",
           "Media pack slotları sections içine h1-context, divider-01, diagram-05, divider-02, checklist-06, kpi-07 ve proof-08 olarak dağıtıldı"
         ]
@@ -18767,7 +18978,7 @@
     },
     "h1": {
       "title": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
-      "intro": "Marka kitabı çoğu ekipte ya “dokunulmaz PDF” ya da “baskı işleri kılavuzu” gibi kalıyor. Oysa dijitalde asıl ihtiyaç, brandbook’un kurallarını web UI bileşenleri ve sosyal medya şablonları gibi üretilebilir parçalara çevirmek. Bu rehber, logo/renk/tipografi ve görsel stil kurallarını okuyup web ve sosyal medyada uygulanabilir hale getirmenin adım adım modelini sunuyor; otel konsept varyasyonları ve B2B’de kurumsal vs kampanya dili ayrımıyla.",
+      "intro": "Marka kitabı çoğu ekipte ya “dokunulmaz PDF” ya da “baskı işleri kılavuzu” gibi kalıyor. Oysa dijitalde asıl ihtiyaç, [brand governance](https://dgtlface.com/tr/creative/grafik-motion-tasarim) tarafında brandbook’un kurallarını web UI bileşenleri ve sosyal medya şablonları gibi üretilebilir parçalara çevirmek. Bu rehber, logo/renk/tipografi ve görsel stil kurallarını okuyup web ve sosyal medyada uygulanabilir hale getirmenin adım adım modelini sunuyor; otel konsept varyasyonları ve B2B’de kurumsal vs kampanya dili ayrımıyla.",
       "quickSummary": [
         "1) Brandbook’u PDF olarak bırakma; dijital üretim sistemine çevir",
         "2) Logo, renk, tipografi ve görsel stil kurallarını dijital component’lere aktar",
@@ -18778,34 +18989,42 @@
       "ctaPrimary": {
         "label": "Marka Kitabı → Dijital Tasarım Uyum Analizi Talep Et",
         "text": "Otel/B2B markalarda web ve sosyal medyayı tek görsel dilde hizalamak isteyen ekipler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Marka Kitabı → Dijital Tasarım Uyum Analizi Talep Et",
         "text": "Otel ve B2B’de web ile sosyal medyayı tek görsel dilde hizalamak isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir",
         "text": "Brandbook kurallarını web ve sosyalde hızlıca denetler; tutarsızlık kaynaklı revizyonları azaltırsınız.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/downloads/marka-kitabi-uyumlu-web-sosyal-medya-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
-      { "label": "Grafik & Motion Tasarım", "href": "/creative/grafik-motion-tasarim" },
-      { "label": "UI/UX Tasarım", "href": "/creative/ui-ux-tasarim" },
-      { "label": "İçerik Üretimi", "href": "/smm/icerik-uretimi" }
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "Creative & Tasarım", "href": "/tr/creative-ve-tasarim" },
+      { "label": "Marka Sosyal Medya Görsel Dili Rehberi", "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi" },
+      { "label": "Renk ve Tipografi Rehberi", "href": "/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber" },
+      { "label": "Template Tabanlı Tasarım ve Canva/Figma Kitleri", "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek" },
+      { "label": "UI/UX Tasarım", "href": "/tr/creative/ui-ux-tasarim" },
+      { "label": "SMM İçerik Üretimi", "href": "/tr/smm/icerik-uretimi" }
     ],
     "relatedPosts": [
       {
-        "title": "UI/UX Tasarım ile Web Component Standardı Oluşturma",
-        "href": "/creative/ui-ux-tasarim"
+        "title": "Marka Sosyal Medya Görsel Dili Rehberi",
+        "href": "/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi"
       },
       {
-        "title": "İçerik Üretimi Sürecinde Sosyal Medya Şablonları ve Marka Tutarlılığı",
-        "href": "/smm/icerik-uretimi"
+        "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+        "href": "/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber"
+      },
+      {
+        "title": "Template Tabanlı Tasarım ve Canva Figma Kitleriyle Üretimi Ölçeklendirmek",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
       }
     ],
     "sections": [
@@ -18821,7 +19040,7 @@
           { "type": "h3", "text": "Marka kitabı dijital tasarıma nasıl aktarılır?" },
           {
             "type": "p",
-            "text": "Net cevap: Önce brandbook kurallarını (logo/renk/tipografi/görsel stil) çıkar; sonra bunları dijital tasarım bileşenlerine (UI component library + sosyal şablonlar) çevir; en son web ve sosyalde checklist ile denetle. Aktarımın özü “kural → component → kontrol” zinciridir."
+            "text": "Net cevap: Önce brandbook kurallarını (logo/renk/tipografi/görsel stil) çıkar; sonra bunları dijital tasarım bileşenlerine (UI component library + sosyal şablonlar) çevir; en son web ve sosyalde checklist ile denetle. Aktarımın özü “kural → component → kontrol” zinciridir ve markanın farklı yüzeylerde [multi-channel identity](https://dgtlface.com/tr/creative-ve-tasarim) korumasını sağlar."
           },
           {
             "type": "callout",
@@ -18858,7 +19077,7 @@
           { "type": "h3", "text": "Neleri birebir, neleri adapte etmeliyim?" },
           {
             "type": "p",
-            "text": "Net cevap: Logo, temel renk paleti, tipografi karakteri ve görsel ton birebir korunmalı; ancak font boyutları, boşluk (spacing), grid ve component davranışları dijitale göre adapte edilmelidir. Amaç “aynı his”, yöntem “dijital standart”."
+            "text": "Net cevap: Logo, temel renk paleti, tipografi karakteri ve görsel ton birebir korunmalı; ancak font boyutları, boşluk (spacing), grid ve component davranışları dijitale göre adapte edilmelidir. Amaç “aynı his”, yöntem “dijital standart”. Bu noktada [renk ve tipografi sistemi](https://dgtlface.com/tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber) kararlarını ekran okunabilirliğiyle birlikte düşünmek gerekir."
           },
           { "type": "h3", "text": "3 adımlı süreç" },
           {
@@ -18903,7 +19122,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Web, brandbook’un en görünür test alanıdır çünkü uzun süre “aynı kimlik”le yaşar. Burada kritik olan; header/hero gibi üst seviye alanlar kadar, mikro bileşenlerin de (buton, kart, form) aynı dili konuşmasıdır. UI bileşen kütüphanesi (component library) kurulduğunda web sayfaları hızla üretilir ve tutarlılık korunur."
+            "text": "Web, brandbook’un en görünür test alanıdır çünkü uzun süre “aynı kimlik”le yaşar. Burada kritik olan; header/hero gibi üst seviye alanlar kadar, mikro bileşenlerin de (buton, kart, form) aynı dili konuşmasıdır. UI bileşen kütüphanesi (component library) kurulduğunda web sayfaları hızla üretilir ve [web ve sosyal medya arasında görsel tutarlılık](https://dgtlface.com/tr/creative/ui-ux-tasarim) korunur."
           },
           { "type": "h3", "text": "Web tasarım marka kitabına göre nasıl kontrol edilir?" },
           {
@@ -18937,7 +19156,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "UI/UX sayfasında bileşen standardını kilitle: /tr/creative/ui-ux-tasarim",
+              "Bileşen standardını tek bir UI kütüphanesinde kilitle.",
               "Web için “component checklist” çıkar.",
               "Yeni sayfa üretimini component’lerden yap, sıfırdan tasarım değil."
             ]
@@ -18951,7 +19170,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sosyal medya, brandbook’un en hızlı “bozulan” alanıdır çünkü üretim hızı yüksektir ve farklı kişiler içerik çıkarır. Çözüm: brandbook’tan türeyen sosyal medya şablon seti ve “kampanya varyasyon kuralları”. Otellerde sezon ve konsept değişimi, B2B’de kampanya dili, bu şablon setini daha da kritik hale getirir."
+            "text": "Sosyal medya, brandbook’un en hızlı “bozulan” alanıdır çünkü üretim hızı yüksektir ve farklı kişiler içerik çıkarır. Çözüm: brandbook’tan türeyen sosyal medya şablon seti ve “kampanya varyasyon kuralları”. Otellerde sezon ve konsept değişimi, B2B’de kampanya dili, bu şablon setini daha da kritik hale getirir; güçlü bir [visual consistency](https://dgtlface.com/tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi) olmadan feed bütünlüğü hızla dağılır."
           },
           { "type": "h3", "text": "Sosyal medya postları marka görsel diline nasıl uyarlanır?" },
           {
@@ -18986,7 +19205,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "5 şablonluk sosyal seti kilitle ve ekipte paylaş.",
-              "İçerik üretim süreciyle bağla: /tr/smm/icerik-uretimi",
+              "Plan, kreatif ve yayın akışını [sosyal medya içerik üretiminde marka tutarlılığı](https://dgtlface.com/tr/smm/icerik-uretimi) mantığıyla birlikte yönet.",
               "Kampanya varyantını “support palette” ile yönet, core’u koru."
             ]
           },
@@ -18995,7 +19214,7 @@
             "variant": "secondary",
             "label": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir",
             "text": "Brandbook kurallarını web ve sosyalde hızlıca denetler; tutarsızlık kaynaklı revizyonları azaltırsınız.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/downloads/marka-kitabi-uyumlu-web-sosyal-medya-checklist-v1.0.pdf"
           }
         ]
       },
@@ -19040,7 +19259,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Türkçe kaynakların çoğu brandbook’u basılı işler özelinde anlatır; dijitalde uygulanabilir “sistem” kısmı eksik kalır. Fark yaratan yaklaşım: brandbook’u component library + sosyal şablon seti + kontrol listesi üçlüsüne çevirip üretimi ölçeklemektir. Böylece dijitalde hız artar, tutarlılık korunur ve her kampanya “sıfırdan yorum” olmaz."
+            "text": "Türkçe kaynakların çoğu brandbook’u basılı işler özelinde anlatır; dijitalde uygulanabilir “sistem” kısmı eksik kalır. Fark yaratan yaklaşım: brandbook’u component library + sosyal şablon seti + kontrol listesi üçlüsüne çevirip üretimi ölçeklemektir. Özellikle [brandbook’tan template sistemine geçiş](https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek) aynı standardı ekip içinde yaymayı kolaylaştırır. Böylece dijitalde hız artar, tutarlılık korunur ve her kampanya “sıfırdan yorum” olmaz."
           },
           {
             "type": "table",
@@ -19155,14 +19374,18 @@
             "variant": "primary",
             "label": "Marka Kitabı → Dijital Tasarım Uyum Analizi Talep Et",
             "text": "Web ve sosyal medyada tek sesli marka görünümü isteyen otel/B2B ekipleri için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "cta",
             "variant": "secondary",
             "label": "Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’ini İndir",
             "text": "Brandbook kurallarını web ve sosyalde hızlıca denetler; tutarsızlık kaynaklı revizyonları azaltırsınız.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/downloads/marka-kitabi-uyumlu-web-sosyal-medya-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle markanızın dijital tasarım standardını güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Süreç, revizyon ve teslim kapsamı için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           },
           { "type": "media", "slot": "kpi-07" },
           { "type": "media", "slot": "proof-08" }
@@ -19216,10 +19439,11 @@
           "Canonical kontrolü (/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim)",
           "URL/slug standardı ve blog slug uyumu kontrol edildi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde /tr/creative/grafik-motion-tasarim, /tr/creative/ui-ux-tasarim ve /tr/smm/icerik-uretimi hedefleri yerleştirildi",
+          "İç linklerde /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi, /tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber, /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek, /tr/creative/ui-ux-tasarim ve /tr/smm/icerik-uretimi hedefleri yerleştirildi",
           "Primary CTA hedefi /tr/creative/grafik-motion-tasarim olarak planlandı",
-          "Secondary CTA hedefi /tr/creative/ui-ux-tasarim olarak planlandı",
+          "Secondary CTA hedefi /downloads/marka-kitabi-uyumlu-web-sosyal-medya-checklist-v1.0.pdf olarak güncellendi",
           "Download asset alanı Marka Kitabı Uyumlu Web & Sosyal Medya Checklist’i için üretildi",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "FAQ soruları PAA/AEO uyumlu şekilde yapılandırıldı",
           "Media pack slotları sections içine h1-context, divider-01, diagram-05, divider-02, checklist-06, kpi-07 ve proof-08 olarak dağıtıldı",
           "Brandbook → Dijital Uygulama Adımları tablosu içerik içinde konumlandırıldı"
@@ -19277,7 +19501,7 @@
     },
     "h1": {
       "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
-      "intro": "Dikey videoda “yazılarım kayıyor/örtülüyor” şikâyeti genelde montaj hatası değil, yerleşim (layout) hatasıdır. Reels/TikTok/Shorts arayüzleri; alt kısımda caption/CTA, sağda ikonlar ve üstte bazı bilgi alanlarıyla videonun bir bölümünü kapatır. Bu rehber; safe zone mantığını, metin–logo–CTA yerleşimini, otel ve B2B senaryolarını ve export/kalite ipuçlarını bir “template + checklist” yaklaşımıyla standardize eder.",
+      "intro": "Dikey videoda “yazılarım kayıyor/örtülüyor” şikâyeti genelde montaj hatası değil, yerleşim (layout) hatasıdır. Reels/TikTok/Shorts arayüzleri; alt kısımda caption/CTA, sağda ikonlar ve üstte bazı bilgi alanlarıyla videonun bir bölümünü kapatır. Bu rehber; [reels yerleşimi](https://dgtlface.com/tr/creative/grafik-motion-tasarim), safe zone mantığı, metin–logo–CTA yerleşimi, otel ve B2B senaryoları ve export/kalite ipuçlarını bir “template + checklist” yaklaşımıyla standardize eder.",
       "quickSummary": [
         "1) 9:16 videoda metin, logo ve CTA’yı platform UI overlay alanlarına göre yerleştir.",
         "2) Alt caption/CTA alanı ve sağ ikon bölgesini riskli alan olarak kabul et.",
@@ -19300,31 +19524,51 @@
       "secondary": {
         "label": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir",
         "text": "Yayına almadan önce safe zone kontrolü yapar; metin ve CTA’nın arayüz altında kalmasını önlersiniz.",
-        "href": "/tr/smm/reels-video"
+        "href": "/downloads/reels-tiktok-shorts-dikey-video-tasarim-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
+        "label": "Grafik & Motion Tasarım",
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Reels video içerikleri",
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Motion Graphic ile Hikâye Anlatımı",
+        "href": "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
+      },
+      {
+        "label": "Animasyonlu Logo ve Intro-Outro Pack",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
+      },
+      {
+        "label": "Instagram Story ve Highlight Cover Tasarımı",
+        "href": "/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi"
+      },
+      {
+        "label": "Reels Video",
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "Video prodüksiyon",
+        "label": "Video Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels Video İçerikleri: Kısa Form Videoda Hook, Senaryo ve CTA Nasıl Kurulur?",
-        "href": "/tr/smm/reels-video"
+        "title": "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
+        "href": "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
       },
       {
-        "title": "Video Prodüksiyon: Otel ve B2B İçin Kreatif Video Süreci Nasıl Planlanır?",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Animasyonlu Logo ve Intro-Outro Pack: Markalar İçin Giriş-Çıkış Kiti",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
+      },
+      {
+        "title": "Instagram Story ve Highlight Cover Tasarımı",
+        "href": "/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi"
       }
     ],
     "sections": [
@@ -19334,7 +19578,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "9:16 format, mobil ekranın doğal oranı olduğu için en hızlı tüketilen video biçimidir. Ancak bu formatta tasarım, “tam ekran” gibi görünse de platform arayüzüyle aslında tam ekran değildir. Bu yüzden videoyu sadece görsel kompozisyonla değil, arayüz katmanı ile birlikte düşünmek gerekir. Otel videolarında oda/deneyim görselleri geniş alan ister; B2B’de metin ve ikonlarla “netlik” gerekir — safe zone kuralı ikisinde de kritik."
+            "text": "9:16 format, mobil ekranın doğal oranı olduğu için en hızlı tüketilen video biçimidir. Ancak bu formatta tasarım, “tam ekran” gibi görünse de platform arayüzüyle aslında tam ekran değildir. Bu yüzden videoyu sadece görsel kompozisyonla değil, [mobil ekran kompozisyonu](https://dgtlface.com/tr/creative-ve-tasarim) mantığıyla birlikte düşünmek gerekir. Otel videolarında oda/deneyim görselleri geniş alan ister; B2B’de metin ve ikonlarla “netlik” gerekir — safe zone kuralı ikisinde de kritik."
           },
           {
             "type": "h3",
@@ -19462,7 +19706,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Metni ve CTA’yı orta güvenli alanda tutun; alt ve sağ overlay bölgelerinden kaçının. Logo’yu üst-sol veya üst-orta gibi daha güvenli bir alanda küçük ve sabit konumda kullanın; kapakta (thumbnail) da aynı sistemi koruyun."
+            "text": "Net cevap: Metni ve CTA’yı orta güvenli alanda tutun; alt ve sağ overlay bölgelerinden kaçının. Özellikle [Reels için CTA yerleşimi](https://dgtlface.com/tr/smm/reels-video) planlarken bu kural kritikleşir. Logo’yu üst-sol veya üst-orta gibi daha güvenli bir alanda küçük ve sabit konumda kullanın; branded opener ve [intro outro yerleşimi](https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti) için de aynı sistemi koruyun."
           },
           {
             "type": "h3",
@@ -19518,7 +19762,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Safe zone bilgisi tek başına yetmez; senaryo da bu yerleşime göre yazılmalı. Otelde “his” ve deneyim hızlı verilir; B2B’de “net problem + net çözüm” önemlidir. Her ikisinde de ilk 3 saniye hook, ortada kanıt, sonunda CTA düzeni performansı artırır."
+            "text": "Safe zone bilgisi tek başına yetmez; senaryo da bu yerleşime göre yazılmalı. Otelde “his” ve deneyim hızlı verilir; B2B’de “net problem + net çözüm” önemlidir. Her ikisinde de ilk 3 saniye hook, ortada kanıt, sonunda CTA düzeni performansı artırır; bu yüzden dikey kurguyu güçlü bir [motion storytelling akışı](https://dgtlface.com/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin) ile kurmak gerekir."
           },
           {
             "type": "h3",
@@ -19575,7 +19819,7 @@
             "variant": "secondary",
             "label": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir",
             "text": "Videoları yayına almadan önce 2 dakikada safe zone kontrolü yapar; metin/CTA’nın gizlenmesini engellersiniz.",
-            "href": "/tr/smm/reels-video"
+            "href": "/downloads/reels-tiktok-shorts-dikey-video-tasarim-checklisti-v1.0.pdf"
           }
         ]
       },
@@ -19585,7 +19829,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Dikey videoda kalite iki yerden bozulur: (1) yanlış export ayarı, (2) fazla sıkıştırma + okunmaz metin. Platformlar yeniden sıkıştırır; bu yüzden temiz bir çıkış almak şarttır. Ayrıca kapak görseli (thumbnail) ayrı bir tasarım katmanı gibi düşünülmeli; safe zone’a göre üretilmelidir."
+            "text": "Dikey videoda kalite iki yerden bozulur: (1) yanlış export ayarı, (2) fazla sıkıştırma + okunmaz metin. Platformlar yeniden sıkıştırır; bu yüzden temiz bir çıkış almak şarttır. Ayrıca kapak görseli (thumbnail) ayrı bir tasarım katmanı gibi düşünülmeli; story ve kapak farklarıyla [dikey video safe zone](https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi) mantığına göre üretilmelidir. Çekim kadrajı ve kurgu tarafında da [dikey video prodüksiyon planı](https://dgtlface.com/tr/creative/video-produksiyon) baştan buna göre kurulmalıdır."
           },
           {
             "type": "h3",
@@ -19833,7 +20077,11 @@
             "variant": "secondary",
             "label": "Reels/TikTok/Shorts İçin Dikey Video Tasarım Checklist’ini İndir",
             "text": "Yayına almadan önce safe zone kontrolü yapar; metin ve CTA’nın arayüz altında kalmasını önlersiniz.",
-            "href": "/tr/smm/reels-video"
+            "href": "/downloads/reels-tiktok-shorts-dikey-video-tasarim-checklisti-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle overlay-safe dikey video tasarımlarınızı güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Süreç, teslim formatları ve çalışma kapsamı için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       }
@@ -19885,9 +20133,10 @@
           "Canonical: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
-          "Secondary CTA hedefi: /tr/smm/reels-video",
-          "Destek iç linkleri: /tr/smm/reels-video ve /tr/creative/video-produksiyon",
+          "Secondary CTA hedefi: /downloads/reels-tiktok-shorts-dikey-video-tasarim-checklisti-v1.0.pdf",
+          "Destek iç linkleri: /tr/creative-ve-tasarim, /tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin, /tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti, /tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi, /tr/smm/reels-video ve /tr/creative/video-produksiyon",
           "Download asset tipi: checklist_sprint_plan",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "Safe zone standardı: alt 20–25%, sağ 15–20%, üst 10–15% riskli alan varsayımı",
           "Dikey video üretim standardı: 9:16 master template + overlay + thumbnail + export preset",
           "KPI seti: hook tutunma, okunabilirlik, CTA tıklaması/DM, revizyon sayısı, yayın sonrası metin kapandı hatası"
@@ -19944,7 +20193,7 @@
     },
     "h1": {
       "title": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
-      "intro": "Her post için tasarımcıya bağımlı kalmak; hem hızınızı hem de kampanya çevikliğinizi düşürür. Öte yandan “herkes Canva’da bir şeyler yapıyor” dönemi de kaliteyi hızla aşağı çeker. Çözüm, tasarımcıların sistemi kurduğu, içerik ekibinin güvenle doldurduğu bir template yaklaşımıdır: brand kit, onaylı şablon seti, rol ayrımı ve guardrail’ler. Bu rehber; otel ve B2B ekiplerinde Figma/Canva üzerinden ölçekli üretimi nasıl kuracağınızı, hangi şablonlara ihtiyacınız olduğunu ve kaliteyi nasıl koruyacağınızı adım adım anlatır.",
+      "intro": "Her post için tasarımcıya bağımlı kalmak; hem hızınızı hem de kampanya çevikliğinizi düşürür. Öte yandan “herkes Canva’da bir şeyler yapıyor” dönemi de kaliteyi hızla aşağı çeker. Çözüm, [design ops](https://dgtlface.com/tr/creative/grafik-motion-tasarim) bakışıyla tasarımcıların sistemi kurduğu, içerik ekibinin güvenle doldurduğu bir template yaklaşımıdır: brand kit, onaylı şablon seti, rol ayrımı ve guardrail’ler. Bu rehber; otel ve B2B ekiplerinde Figma/Canva üzerinden ölçekli üretimi nasıl kuracağınızı, hangi şablonlara ihtiyacınız olduğunu ve kaliteyi nasıl koruyacağınızı adım adım anlatır.",
       "quickSummary": [
         "1) En sık üretilen içerik türlerini belirle",
         "2) Figma’yı source of truth, Canva’yı üretim yüzeyi olarak konumla",
@@ -19967,7 +20216,7 @@
       "secondary": {
         "label": "Figma/Canva Marka Kiti & Template Checklist’ini İndir",
         "text": "Brand kit ve şablonları hızlıca denetler; kaliteyi düşürmeden üretimi ölçeklendirirsiniz.",
-        "href": "/tr/smm/icerik-uretimi"
+        "href": "/downloads/figma-canva-marka-kiti-template-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -19976,7 +20225,23 @@
         "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "İçerik Üretimi",
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Creative Brief Hazırlama Rehberi",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "label": "Marka Kitabı ile Uyumlu Dijital Tasarım",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
+      },
+      {
+        "label": "Design Ops ve Figma Kütüphanesi Yönetimi",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
         "href": "/tr/smm/icerik-uretimi"
       },
       {
@@ -19986,12 +20251,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "İçerik Üretimi",
-        "href": "/tr/smm/icerik-uretimi"
+        "title": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
       },
       {
-        "title": "UI/UX Tasarım",
-        "href": "/tr/creative/ui-ux-tasarim"
+        "title": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
+      },
+      {
+        "title": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
       }
     ],
     "sections": [
@@ -20001,7 +20270,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Template tabanlı tasarımın amacı “tasarımı ucuzlatmak” değil; tasarım kalitesini bir sistemin içine alıp tekrar edilebilir hâle getirmektir. Böylece tasarımcılar her postu tasarlamak yerine, daha yüksek değerli işe odaklanır: kampanya konsepti, görsel dil, şablon seti, A/B varyasyonlar. İçerik ekibi ise sınırları belli bir çerçevede üretir; bu da hem hız hem tutarlılık sağlar."
+            "text": "Template tabanlı tasarımın amacı “tasarımı ucuzlatmak” değil; tasarım kalitesini bir sistemin içine alıp tekrar edilebilir hâle getirmektir. Böylece tasarımcılar her postu tasarlamak yerine, daha yüksek değerli işe odaklanır: kampanya konsepti, görsel dil, şablon seti, A/B varyasyonlar. İçerik ekibi ise sınırları belli bir çerçevede üretir; bu da hem hız hem tutarlılık sağlar ve ekiplerin [scale with templates](https://dgtlface.com/tr/creative-ve-tasarim) mantığıyla ilerlemesini mümkün kılar."
           },
           {
             "type": "h3",
@@ -20009,7 +20278,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Template tabanlı tasarım, tasarım kurallarının şablon ve bileşenler hâlinde standardize edilmesidir. Neden kullanılır? Üretimi hızlandırır, tutarlılığı korur, tasarımcı bağımlılığını azaltır ve revizyonları düşürür."
+            "text": "Net cevap: Template tabanlı tasarım, tasarım kurallarının şablon ve bileşenler hâlinde standardize edilmesidir. Neden kullanılır? Üretimi hızlandırır, tutarlılığı korur, tasarımcı bağımlılığını azaltır ve revizyonları düşürür. Ancak sistemin doğru çalışması için en başta [template için creative brief](https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin) netleşmeli; hangi kanal, hangi format ve hangi kullanım senaryosu için üretim yapıldığı baştan tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -20058,7 +20327,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Figma ve Canva farklı güçlü yönlere sahiptir. Figma, component ve design system tarafında güçlüdür; Canva ise içerik ekibinin hızlı üretim yapabileceği “non-designer friendly” bir ortamdır. Doğru model, ikisini rekabet ettirmek değil, katmanlı bir sistem kurmaktır: Figma’da kaynak (source of truth) bileşenler, Canva’da onaylı şablonlar."
+            "text": "Figma ve Canva farklı güçlü yönlere sahiptir. Figma, component ve design system tarafında güçlüdür; Canva ise içerik ekibinin hızlı üretim yapabileceği non-designer friendly visuals ortamıdır. Doğru model, ikisini rekabet ettirmek değil, katmanlı bir sistem kurmaktır: Figma’da kaynak (source of truth) bileşenler, Canva’da onaylı şablonlar. Bu yapının sağlıklı işlemesi için güçlü bir [brand kit sistemi](https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim) kurulmalıdır."
           },
           {
             "type": "h3",
@@ -20066,7 +20335,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Figma’da component library (renk, tipografi, grid, buton, kart) oluşturup bunu “source of truth” yapın; Canva’da aynı kurallarla onaylı template seti üretin. Brand kit’i (logo, renk, font) kilitleyip kullanıcıların sadece içerik alanlarını değiştirmesine izin verin."
+            "text": "Net cevap: Figma’da component library (renk, tipografi, grid, buton, kart) oluşturup bunu “source of truth” yapın; Canva’da aynı kurallarla onaylı template seti üretin. Brand kit’i (logo, renk, font) kilitleyip kullanıcıların sadece içerik alanlarını değiştirmesine izin verin. Özellikle [Figma component kütüphanesi](https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin) tarafı güçlü kurulursa versiyonlama ve ekip içi kullanım çok daha sağlıklı ilerler."
           },
           {
             "type": "h3",
@@ -20114,7 +20383,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Şablon sistemi kurarken önce “en çok üretilen” ve “en çok hata yapılan” alanlardan başlamak gerekir: sosyal medya ve kampanya kreatifleri. Şablonlar sadece tekil post değil; kampanya seti mantığıyla düşünülmelidir (feed + story + reels cover + banner). Böylece aynı mesaj ailesi bütün kanallarda tutarlı görünür."
+            "text": "Şablon sistemi kurarken önce “en çok üretilen” ve “en çok hata yapılan” alanlardan başlamak gerekir: sosyal medya ve kampanya kreatifleri. Şablonlar sadece tekil post değil; kampanya seti mantığıyla düşünülmelidir (feed + story + reels cover + banner). Böylece aynı mesaj ailesi bütün kanallarda tutarlı görünür ve [sosyal medya template üretimi](https://dgtlface.com/tr/smm/icerik-uretimi) çok daha hızlı ilerler."
           },
           {
             "type": "h3",
@@ -20265,8 +20534,8 @@
             "items": [
               "Yetkilendirme yap: kim editler, kim kilidi açar.",
               "Haftalık “template health check” rutini koy.",
-              "İç linklerle DesignOps’ı güçlendir: https://dgtlface.com/tr/smm/icerik-uretimi",
-              "İç linklerle DesignOps’ı güçlendir: https://dgtlface.com/tr/creative/ui-ux-tasarim"
+              "Sosyal ekip akışını tek şablon mantığıyla standardize et.",
+              "[UI kit ve template sistemi](https://dgtlface.com/tr/creative/ui-ux-tasarim) tarafını da aynı rol ve yetki modeliyle yönet."
             ]
           }
         ]
@@ -20426,7 +20695,11 @@
             "variant": "secondary",
             "label": "Figma/Canva Marka Kiti & Template Checklist’ini İndir",
             "text": "Brand kit ve şablonları hızlıca denetler; kaliteyi düşürmeden üretimi ölçeklendirirsiniz.",
-            "href": "/tr/smm/icerik-uretimi"
+            "href": "/downloads/figma-canva-marka-kiti-template-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle Canva ve Figma kitlerinizi ölçeklenebilir hâle getirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Süreç, teslim formatları ve çalışma kapsamı için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       }
@@ -20481,11 +20754,12 @@
         "technicalChecklist": [
           "Canonical kontrolü: /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek",
           "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
-          "Secondary CTA hedefi: /tr/smm/icerik-uretimi",
-          "İç link hedefleri: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
+          "Secondary CTA hedefi: /downloads/figma-canva-marka-kiti-template-checklist-v1.0.pdf",
+          "İç link hedefleri: /tr/creative/grafik-motion-tasarim, /tr/creative-ve-tasarim, /tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin, /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim, /tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
           "Hero ve H1 sonrası context görselleri mediaPack’e işlendi",
           "Download asset checklist alanı eklendi",
           "Template türleri ve kullanım senaryoları tablosu eklendi",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "FAQPage schema için 7 soru-cevap hazır",
           "Schema @graph tek blok planlanmalı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
           "İç linklerde kırık link ve redirect zinciri kontrol edilmeli"
@@ -20544,7 +20818,7 @@
     },
     "h1": {
       "title": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
-      "intro": "Videoların profesyonel görünmesi, sadece çekim kalitesiyle değil “marka imzası”yla da ilgilidir. Animasyonlu logo ve intro/outro pack; her videoda tekrar tekrar aynı görsel imzayı bırakarak markanın hatırlanma ihtimalini artırır. Ama burada ince bir çizgi var: intro uzun olursa izleyici kaçar; outro net değilse CTA kaybolur. Bu rehber, 1–2 saniyelik logo reveal prensipleriyle; Reels/YouTube/web için doğru pack parçalarını, teknik formatları ve otel/B2B senaryolarında nasıl kurgulanacağını standartlaştırır.",
+      "intro": "Videoların profesyonel görünmesi, sadece çekim kalitesiyle değil [marka imzası](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ile de ilgilidir. Animasyonlu logo ve intro/outro pack; her videoda tekrar tekrar aynı görsel imzayı bırakarak markanın hatırlanma ihtimalini artırır. Ama burada ince bir çizgi var: intro uzun olursa izleyici kaçar; outro net değilse CTA kaybolur. Bu rehber, 1–2 saniyelik logo reveal prensipleriyle; Reels/YouTube/web için doğru pack parçalarını, teknik formatları ve otel/B2B senaryolarında nasıl kurgulanacağını standartlaştırır.",
       "quickSummary": [
         "1. Logo animasyonunu “minimal + karakterli” tasarla.",
         "2. Süreyi kısa tut (1–2 sn).",
@@ -20555,36 +20829,65 @@
       "ctaPrimary": {
         "label": "Logo Animasyonu & Intro/Outro Pack Analizi Talep Et",
         "text": "Videolarında marka imzasını güçlendirmek isteyen otel, ajans ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Logo Animasyonu & Intro/Outro Pack Analizi Talep Et",
         "text": "Video içeriklerde marka imzasını güçlendirmek isteyen otel, ajans ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir",
         "text": "Pack parçalarını ve süre/formatlarını netleştirir; her videoda tutarlı marka imzası kullanırsınız.",
-        "href": "/smm/reels-video"
+        "href": "/downloads/animasyonlu-logo-intro-outro-pack-planlama-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Motion Graphic ile Hikâye Anlatımı",
+        "href": "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
+      },
+      {
+        "label": "Dikey Video Tasarımı Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "label": "UGC ve Kreatör Ortak Tasarım Framework’ü",
+        "href": "/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Reels Video",
-        "href": "/smm/reels-video"
+        "href": "/tr/smm/reels-video"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
+        "href": "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
+      },
+      {
+        "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "title": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka-Kreatör İşbirliği",
+        "href": "/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi"
+      }
+    ],
     "sections": [
       {
         "id": "neden-animasyonlu-logo",
@@ -20592,7 +20895,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Logonuz statik bir işaret; animasyonlu logo ise videoda yaşayan bir imzadır. Video çağında izleyici aynı konseptte yüzlerce içerik görüyor; bu kalabalıkta markayı ayrıştıran şey, tutarlı bir görsel imza ve ritimdir. Animasyonlu logo; “bu video kimin?” sorusunu hızlı cevaplar ve marka algısını güçlendirir. Ancak amaç gösteriş değil, tanınabilirlik ve tutarlılık olmalıdır."
+            "text": "Logonuz statik bir işaret; animasyonlu logo ise videoda yaşayan bir imzadır. Video çağında izleyici aynı konseptte yüzlerce içerik görüyor; bu kalabalıkta markayı ayrıştıran şey, tutarlı bir görsel imza ve ritimdir. Animasyonlu logo; “bu video kimin?” sorusunu hızlı cevaplar ve marka algısını güçlendirir. Ancak amaç gösteriş değil, tanınabilirlik ve tutarlılık olmalıdır; güçlü bir [video giriş-çıkış](https://dgtlface.com/tr/creative-ve-tasarim) sistemi tam da bu yüzden önemlidir."
           },
           {
             "type": "h3",
@@ -20649,7 +20952,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Intro/outro pack, tek bir animasyon değil; farklı senaryolarda tekrar tekrar kullanılacak bir kittir. İçerik üretimi hızlandıkça, her video için sıfırdan giriş/çıkış yapmak sürdürülemez. Pack; intro, outro (end card), stinger, lower-third gibi parçalardan oluşur. Hedef: her videonun başında/sonunda markanın “aynı şekilde” görünmesi."
+            "text": "Intro/outro pack, tek bir animasyon değil; farklı senaryolarda tekrar tekrar kullanılacak bir kittir. İçerik üretimi hızlandıkça, her video için sıfırdan giriş/çıkış yapmak sürdürülemez. Pack; intro, outro (end card), stinger, lower-third gibi parçalardan oluşur. Hedef: her videonun başında/sonunda markanın “aynı şekilde” görünmesi ve bunu güçlü bir [logo reveal ve motion storytelling](https://dgtlface.com/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin) akışına bağlamaktır."
           },
           {
             "type": "h3",
@@ -20710,7 +21013,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Logo animasyonu genelde 1–2 saniye bandında kalmalı; uzun intro ve aşırı efektlerden kaçınmalısınız. Reels gibi kısa formatlarda intro çoğu zaman “stinger” kadar kısa olmalı; asıl mesajı geciktirmemelidir."
+            "text": "Net cevap: Logo animasyonu genelde 1–2 saniye bandında kalmalı; uzun intro ve aşırı efektlerden kaçınmalısınız. Reels gibi kısa formatlarda intro çoğu zaman “stinger” kadar kısa olmalı; asıl mesajı geciktirmemelidir. Özellikle [Reels videolarında marka imzası](https://dgtlface.com/tr/smm/reels-video) kurarken süre ve ritim, videonun ilk saniyelerini yememelidir."
           },
           {
             "type": "h3",
@@ -20795,7 +21098,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Pack’in işe yaraması için “kullanılabilir” formatlarda teslim edilmesi gerekir. Tek bir MP4 dosyası çoğu zaman yetmez; farklı arka planlar için şeffaf/katmanlı versiyon gerekir. Ayrıca intro/outro’nun süreleri platforma göre optimize edilmeli; özellikle mobilde CTA alanı safe zone içinde kalmalıdır."
+            "text": "Pack’in işe yaraması için “kullanılabilir” formatlarda teslim edilmesi gerekir. Tek bir MP4 dosyası çoğu zaman yetmez; farklı arka planlar için şeffaf/katmanlı versiyon gerekir. Ayrıca intro/outro’nun süreleri platforma göre optimize edilmeli; özellikle mobilde [dikey videoda logo yerleşimi](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) ve CTA alanı safe zone içinde kalmalıdır."
           },
           {
             "type": "h3",
@@ -20843,7 +21146,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel ve B2B’de brand motion pack’in içeriği aynı sistemle kurulur; fakat anlatım dili farklıdır. Otelde “deneyim ve konsept” imzası; B2B’de “ürün serisi ve güven” imzası öne çıkar. Ayrıca GEO bağlamında oteller, destinasyon hissini (Antalya/Belek/Side/Kemer/Bodrum) intro yerine içeriğin görsel dilinde taşımalı; intro sadece imza olmalıdır."
+            "text": "Otel ve B2B’de brand motion pack’in içeriği aynı sistemle kurulur; fakat anlatım dili farklıdır. Otelde “deneyim ve konsept” imzası; B2B’de “ürün serisi ve güven” imzası öne çıkar. Ayrıca GEO bağlamında oteller, destinasyon hissini (Antalya/Belek/Side/Kemer/Bodrum) intro yerine içeriğin görsel dilinde taşımalı; intro sadece imza olmalıdır. Benzer şekilde [UGC videolarında branded kapanış](https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi) kullanımı da markayı fazla müdahaleci göstermeden tutarlılığı korumalıdır."
           },
           {
             "type": "h3",
@@ -20888,7 +21191,7 @@
             "items": [
               "Otelde stinger’ı kısa tut, imza olsun.",
               "B2B’de seriyi isimlendir, outro’yu standardize et.",
-              "Video üretim sayfasıyla süreci bağla: https://dgtlface.com/tr/creative/video-produksiyon"
+              "Çekim, kurgu ve teslim akışını [video prodüksiyonda intro outro kullanımı](https://dgtlface.com/tr/creative/video-produksiyon) planıyla birlikte ele al."
             ]
           },
           {
@@ -20896,7 +21199,7 @@
             "variant": "secondary",
             "label": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir",
             "text": "Pack parçalarını, süreleri ve teslim formatlarını tek sayfada netleştirir; her videoda aynı marka imzasını korursunuz.",
-            "href": "/smm/reels-video"
+            "href": "/downloads/animasyonlu-logo-intro-outro-pack-planlama-checklist-v1.0.pdf"
           }
         ]
       },
@@ -21021,7 +21324,18 @@
             "variant": "primary",
             "label": "Logo Animasyonu & Intro/Outro Pack Analizi Talep Et",
             "text": "Brand motion pack’i platformlara göre doğru kurmak isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Animasyonlu Logo & Intro/Outro Pack Planlama Checklist’ini İndir",
+            "text": "Pack parçalarını ve süre/formatlarını netleştirir; her videoda tutarlı marka imzası kullanırsınız.",
+            "href": "/downloads/animasyonlu-logo-intro-outro-pack-planlama-checklist-v1.0.pdf"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle animasyonlu logo ve intro/outro pack sisteminizi kurun](https://dgtlface.com/tr/creative/grafik-motion-tasarim). Süreç, teslim formatları ve çalışma kapsamı için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       }
@@ -21073,14 +21387,19 @@
           "Canonical kontrolü: /tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
-          "Video Prodüksiyon iç linki kontrol edildi: /creative/video-produksiyon",
-          "Reels Video iç linki kontrol edildi: /smm/reels-video",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /tr/creative/grafik-motion-tasarim",
+          "Creative & Tasarım hub linki kontrol edildi: /tr/creative-ve-tasarim",
+          "Motion Graphic ile Hikâye Anlatımı linki kontrol edildi: /tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin",
+          "Dikey Video Safe Zone linki kontrol edildi: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+          "UGC ve Kreatör Framework linki kontrol edildi: /tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi",
+          "Video Prodüksiyon iç linki kontrol edildi: /tr/creative/video-produksiyon",
+          "Reels Video iç linki kontrol edildi: /tr/smm/reels-video",
           "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
-          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA: orta bölümde ve sonuç bölümünde download asset olarak kullanıldı",
           "Secondary CTA türü: Download Asset (checklist)",
-          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
-          "Secondary CTA hedefi: /smm/reels-video",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/animasyonlu-logo-intro-outro-pack-planlama-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "Ana içerikte seçilen tablo: Platforma göre intro/outro kullanım tablosu",
           "Logo reveal süresi: 1–2 saniye",
           "Reels stinger süresi: 0.5–1 saniye",
@@ -21148,7 +21467,7 @@
     },
     "h1": {
       "title": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
-      "intro": "“Figma dosyalarımız çok karıştı” problemi genelde kötü niyetten değil, sistem eksikliğinden çıkar: herkes kopyalar, küçük düzeltme yapar, farklı isimle kaydeder ve bir süre sonra kimse “doğru” dosyayı bilmez. DesignOps yaklaşımı; bu kaosu kütüphane mimarisi + token standardı + publish/versiyon kuralları + rol tanımları ile çözer. Bu rehber, Figma’yı base UI/brand/social set olarak organize etmeyi; component publish/lock sürecini kurmayı ve otel/B2B ekip yapılarında creative–dev–SMM uyumunu sağlamayı adım adım anlatır.",
+      "intro": "“Figma dosyalarımız çok karıştı” problemi genelde kötü niyetten değil, [design system pratiği](https://dgtlface.com/tr/creative/grafik-motion-tasarim) eksikliğinden çıkar: herkes kopyalar, küçük düzeltme yapar, farklı isimle kaydeder ve bir süre sonra kimse “doğru” dosyayı bilmez. DesignOps yaklaşımı; bu kaosu kütüphane mimarisi + token standardı + publish/versiyon kuralları + rol tanımları ile çözer. Bu rehber, Figma’yı base UI/brand/social set olarak organize etmeyi; component publish/lock sürecini kurmayı ve otel/B2B ekip yapılarında creative–dev–SMM uyumunu sağlamayı adım adım anlatır.",
       "quickSummary": [
         "1. “Tek kaynak” dosyaları belirle ve isimlendir.",
         "2. Figma’yı Base UI, Brand ve Social Library olarak ayır.",
@@ -21159,40 +21478,65 @@
       "ctaPrimary": {
         "label": "Design Ops & Figma Library Analizi Talep Et",
         "text": "Figma kütüphanesini toparlayıp ekipte hız ve tutarlılık isteyen ajans, otel grubu ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Design Ops & Figma Library Analizi Talep Et",
         "text": "Tasarım üretimi yüksek ekiplerde hız ve tutarlılık isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Figma Kütüphane Organizasyonu & Publish Süreci Checklist’ini İndir",
         "text": "Kütüphaneyi toparlar; publish/lock ve versiyon kurallarını netleştirerek “doğru dosya” karmaşasını azaltırsınız.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/downloads/figma-kutuphane-organizasyonu-publish-sureci-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Creative Brief Hazırlama Rehberi",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "label": "Template Tabanlı Tasarım ve Canva/Figma Kitleri",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
+      },
+      {
+        "label": "Icon ve Illustration Setleri",
+        "href": "/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
       },
       {
         "label": "UI/UX Tasarım",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
-      },
-      {
-        "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "title": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
+      },
+      {
+        "title": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+        "href": "/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
+      }
+    ],
     "sections": [
       {
         "id": "design-ops-nedir",
@@ -21200,7 +21544,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "DesignOps, tasarım ekibinin “daha çok tasarım” yapması değil, aynı zamanda daha az tekrar yapması demektir. Birkaç kişinin bildiği gizli kurallar yerine; herkesin takip ettiği, versiyonu belli, onayı tanımlı bir üretim sistemi kurar. Ajanslarda bu sistem, müşteri sayısı arttıkça kaliteyi korur; otel gruplarında multi-otel/multi-dil yapısında dağılmayı engeller; B2B ürün ekiplerinde ise tasarım–geliştirme entegrasyonunu güçlendirir."
+            "text": "DesignOps, tasarım ekibinin “daha çok tasarım” yapması değil, aynı zamanda daha az tekrar yapması demektir. Birkaç kişinin bildiği gizli kurallar yerine; herkesin takip ettiği, versiyonu belli, onayı tanımlı bir üretim sistemi kurar. Ajanslarda bu sistem, müşteri sayısı arttıkça kaliteyi korur; otel gruplarında multi-otel/multi-dil yapısında dağılmayı engeller; B2B ürün ekiplerinde ise tasarım–geliştirme entegrasyonunu güçlendirir. Sürdürülebilir bir [library yönetimi](https://dgtlface.com/tr/creative-ve-tasarim) kurulmadığında ise aynı kaos farklı dosya isimleriyle geri döner."
           },
           {
             "type": "h3",
@@ -21257,7 +21601,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Figma’yı tek bir dev dosya gibi kullanmak kısa vadede pratik görünür; uzun vadede kırılır. Doğru yaklaşım: kütüphaneleri katmanlı yönetmek ve component’leri “ürün gibi” ele almak. Bu sayede button/card/section gibi temel parçalar her projede yeniden üretilmez; sosyal şablonlar da aynı brand dilini taşır."
+            "text": "Figma’yı tek bir dev dosya gibi kullanmak kısa vadede pratik görünür; uzun vadede kırılır. Doğru yaklaşım: kütüphaneleri katmanlı yönetmek ve component’leri “ürün gibi” ele almak. Bu sayede button/card/section gibi temel parçalar her projede yeniden üretilmez; [template ve Figma kit yönetimi](https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek) de aynı brand dilini taşıyan tekrar kullanılabilir setlere dönüşür."
           },
           {
             "type": "h3",
@@ -21265,7 +21609,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: En pratik model 3 kütüphanedir: Base UI (genel komponentler), Brand (renk/typography/ikon token’ları) ve Social Sets (feed/story/reels şablonları). Her biri ayrı publish edilir; kullanım rolleri net olur."
+            "text": "Net cevap: En pratik model 3 kütüphanedir: Base UI (genel komponentler), Brand (renk/typography/ikon token’ları) ve Social Sets (feed/story/reels şablonları). Her biri ayrı publish edilir; kullanım rolleri net olur. Özellikle Brand katmanında iyi kurgulanmış bir [icon ve illustration library](https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin), isimlendirme ve stroke standardını tek yerde toplar."
           },
           {
             "type": "h3",
@@ -21409,7 +21753,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "DesignOps, ekip yapısına göre farklı uygulanır. Otel gruplarında multi-otel/multi-dil; ajanslarda çok müşteri; B2B’de ürün + pazarlama ikiliği belirleyicidir. Burada amaç; rol ve yetkiyi netleştirerek kütüphanenin “herkesin her şeyi değiştirdiği” bir yere dönüşmesini engellemektir."
+            "text": "DesignOps, ekip yapısına göre farklı uygulanır. Otel gruplarında multi-otel/multi-dil; ajanslarda çok müşteri; B2B’de ürün + pazarlama ikiliği belirleyicidir. Burada amaç; [creative brief standardı](https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin) ile başlayan rol ve yetki netliğini kurarak kütüphanenin “herkesin her şeyi değiştirdiği” bir yere dönüşmesini engellemektir."
           },
           {
             "type": "h3",
@@ -21465,7 +21809,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kütüphane sadece tasarım ekibi için değil; dev ve sosyal ekipler için de “ortak sözlük”tür. Dev ekibi token’ları ve component isimlerini bildiğinde UI tutarlılığı artar. SMM ekibi social template’leri kullandığında marka dili bozulmaz. Uyum; aynı araçta olmak değil, aynı standardı paylaşmaktır."
+            "text": "Kütüphane sadece tasarım ekibi için değil; dev ve sosyal ekipler için de “ortak sözlük”tür. Dev ekibi [UI component sistemi](https://dgtlface.com/tr/creative/ui-ux-tasarim) ile aynı token ve component isimlerini bildiğinde UI tutarlılığı artar. SMM ekibi social template’leri kullandığında marka dili bozulmaz. Uyum; aynı araçta olmak değil, aynı standardı paylaşmaktır."
           },
           {
             "type": "h3",
@@ -21495,9 +21839,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "UI/UX standardını bağla: https://dgtlface.com/tr/creative/ui-ux-tasarim",
-              "Yazılım entegrasyonunu bağla: https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme",
-              "Social üretimi bağla: https://dgtlface.com/tr/smm/icerik-uretimi",
+              "[tasarımdan development’a handoff](https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme) sürecini component mapping ve responsive kurallarla yazılı hale getir.",
               "Haftalık kısa “library sync” toplantısı yap (15 dk)."
             ]
           },
@@ -21506,7 +21848,7 @@
             "variant": "secondary",
             "label": "Figma Kütüphane Organizasyonu & Publish Süreci Checklist’ini İndir",
             "text": "Kütüphaneyi base/brand/social olarak toparlar; publish ve versiyon kurallarını ekip standardına çevirirsiniz.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/downloads/figma-kutuphane-organizasyonu-publish-sureci-checklist-v1.0.pdf"
           }
         ]
       },
@@ -21603,14 +21945,14 @@
         "blocks": [
           {
             "type": "p",
-            "text": "DesignOps; tasarım üretimini hızlandırırken kaliteyi koruyan sistemdir. Base UI + Brand + Social library yapısı, token standardı ve publish/versiyonlama kuralları oturduğunda; ajanslar, otel grupları ve B2B ekipleri aynı dili konuşur. Sonuç: daha az revizyon, daha hızlı teslim ve “hangi versiyon doğru?” tartışmasının azalması. Kütüphane yapısını yılda en az 1 kez gözden geçirmek, sistemin sağlıklı kalmasını sağlar."
+            "text": "DesignOps; tasarım üretimini hızlandırırken kaliteyi koruyan sistemdir. Base UI + Brand + Social library yapısı, token standardı ve publish/versiyonlama kuralları oturduğunda; ajanslar, otel grupları ve B2B ekipleri aynı dili konuşur. Sonuç: daha az revizyon, daha hızlı teslim ve “hangi versiyon doğru?” tartışmasının azalması. Kütüphane yapısını yılda en az 1 kez gözden geçirmek, sistemin sağlıklı kalmasını sağlar. [Grafik & Motion Tasarım hizmetiyle Design Ops ve Figma library düzeninizi kurun](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve kapsamı netleştirmek için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Design Ops & Figma Library Analizi Talep Et",
             "text": "Kütüphaneyi toparlayıp süreçleri standartlaştırmak isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       }
@@ -21662,15 +22004,19 @@
           "Canonical kontrolü: /tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
-          "UI/UX Tasarım iç linki kontrol edildi: /creative/ui-ux-tasarim",
-          "Web Sitesi Geliştirme iç linki kontrol edildi: /yazilim/web-sitesi-gelistirme",
-          "İçerik Üretimi iç linki kontrol edildi: /smm/icerik-uretimi",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /tr/creative/grafik-motion-tasarim",
+          "Creative & Tasarım hub linki kontrol edildi: /tr/creative-ve-tasarim",
+          "Creative Brief linki kontrol edildi: /tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin",
+          "Template Tabanlı Tasarım linki kontrol edildi: /tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek",
+          "Icon & Illustration linki kontrol edildi: /tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin",
+          "UI/UX Tasarım iç linki kontrol edildi: /tr/creative/ui-ux-tasarim",
+          "Web Sitesi Geliştirme iç linki kontrol edildi: /tr/yazilim/web-sitesi-gelistirme",
           "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
-          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA: orta bölümde download asset olarak kullanıldı",
           "Secondary CTA türü: Download Asset (checklist)",
-          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
-          "Secondary CTA hedefi: /creative/ui-ux-tasarim",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/figma-kutuphane-organizasyonu-publish-sureci-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "Ana içerikte seçilen tablo: Publish/Versiyonlama Süreci Tablosu",
           "Kütüphane mimarisi: Base UI Library + Brand Library + Social Library",
           "Base UI genel component’leri içerir: button, form, card, section ve grid",
@@ -21684,7 +22030,7 @@
           "Library Owner rolü atanır ve publish yetkisi sınırlandırılır",
           "Eski dosyalar ve versiyonlar read-only arşive taşınır",
           "Dev handoff için component mapping ve token isimleri standardize edilir",
-          "SMM ekiplerine yalnız onaylı Social Library template erişimi verilir",
+          "Creative, UI ve development ekipleri için ortak component isimleri korunur",
           "Kütüphane yapısı yılda en az 1 kez gözden geçirilir",
           "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
         ]
@@ -21742,7 +22088,7 @@
     },
     "h1": {
       "title": "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
-      "intro": "Review’leri “metin listesi” olarak bırakmak, sosyal kanıtın gücünü boşa harcar. Çünkü karar verici (otel misafiri ya da B2B satın almacı) hızlıca şunu görmek ister: kim söylüyor, ne söylüyor, ne kadar güvenilir? Testimonial kartları; quote’u okunur hale getirir, kişi bilgisini bağlamlandırır ve rating/sonuç gibi kanıtla güçlendirir. Bu rehberde otel ve B2B için kart yapısını, carousel kurgusunu ve web–sosyal–sunum uyarlamalarını “şablon + checklist” yaklaşımıyla standardize edeceğiz.",
+      "intro": "Review’leri “metin listesi” olarak bırakmak, [sosyal kanıt](https://dgtlface.com/tr/creative/grafik-motion-tasarim) gücünü boşa harcar. Çünkü karar verici (otel misafiri ya da B2B satın almacı) hızlıca şunu görmek ister: kim söylüyor, ne söylüyor, ne kadar güvenilir? Testimonial kartları; quote’u okunur hale getirir, kişi bilgisini bağlamlandırır ve rating/sonuç gibi kanıtla güçlendirir. Bu rehberde otel ve B2B için kart yapısını, carousel kurgusunu ve web–sosyal–sunum uyarlamalarını “şablon + checklist” yaklaşımıyla standardize edeceğiz.",
       "quickSummary": [
         "1. Sosyal kanıtı CTA, fiyat ve form gibi karar anlarına yerleştir.",
         "2. Kartta 3 katman kuralını uygula: quote → kişi → kanıt.",
@@ -21753,36 +22099,65 @@
       "ctaPrimary": {
         "label": "Testimonial & Sosyal Kanıt Tasarım Analizi Talep Et",
         "text": "Web ve sosyal medyada güveni görselleştirip dönüşümü artırmak isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Testimonial & Sosyal Kanıt Tasarım Analizi Talep Et",
         "text": "Otel ve B2B’de güveni görselleştirip dönüşümü artırmak isteyen ekipler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Testimonial Kart Tasarımı & Carousel Checklist’ini İndir",
         "text": "Kartları yayına almadan önce hızlı kontrol eder; okunabilir ve güven veren sosyal kanıt seti üretirsiniz.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/downloads/testimonial-kart-tasarimi-carousel-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Mockup ve Case Görselleştirme",
+        "href": "/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu"
+      },
+      {
+        "label": "Kampanya Görsel Setleri ve A/B Testleri",
+        "href": "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim"
+      },
+      {
+        "label": "Veriyle Beslenen Kreatif",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Mockup ve Case Görselleştirme: Ajans ve B2B İçin Portfolyo Gücü",
+        "href": "/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu"
+      },
+      {
+        "title": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+        "href": "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim"
+      },
+      {
+        "title": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
+      }
+    ],
     "sections": [
       {
         "id": "sosyal-kanit-neden-calisir",
@@ -21790,7 +22165,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sosyal kanıt, belirsizlik anında karar vericinin risk algısını düşürür. Otel tarafında “gerçekten fotoğraflardaki gibi mi?”; B2B’de “bu hizmet gerçekten işe yarıyor mu?” sorusunu yanıtlar. İyi tasarlanmış görsel sosyal kanıt; metni okunur kılar, kimliği bağlama oturtur ve kanıtla destekler."
+            "text": "Sosyal kanıt, belirsizlik anında karar vericinin risk algısını düşürür. Otel tarafında “gerçekten fotoğraflardaki gibi mi?”; B2B’de “bu hizmet gerçekten işe yarıyor mu?” sorusunu yanıtlar. İyi tasarlanmış görsel sosyal kanıt; metni okunur kılar, kimliği bağlama oturtur ve [rating görselleştirme](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımıyla kanıtı daha ikna edici hale getirir."
           },
           {
             "type": "h3",
@@ -21798,7 +22173,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: En etkili kullanım alanları: landing sayfası (CTA öncesi), teklif sayfası, pricing/plan sayfası, case study sayfası, sosyal medya carousel ve pitch deck’tir. “Kararın zorlaştığı” yerde sosyal kanıt en çok çalışır."
+            "text": "Net cevap: En etkili kullanım alanları: landing sayfası (CTA öncesi), teklif sayfası, pricing/plan sayfası, case study sayfası, sosyal medya carousel ve pitch deck’tir. “Kararın zorlaştığı” yerde sosyal kanıt en çok çalışır; özellikle [satış dönüşüm odaklı review kartları](https://dgtlface.com/tr/raporlama/satis-donusum) karar anındaki tereddüdü azaltmada güçlü bir rol oynar."
           },
           {
             "type": "h3",
@@ -21982,7 +22357,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet dolu): Sosyal kanıt blokları doğru tasarlandığında satış sayfaları ve kampanya landing’lerinde dönüşüm oranlarında hissedilir artışlar görülebiliyor. (Kesin rakam iddiası yok; gözlem.)"
+            "text": "Key Statistics / Data Point (sheet dolu): Sosyal kanıt blokları doğru tasarlandığında satış sayfaları ve kampanya landing’lerinde dönüşüm oranlarında hissedilir artışlar görülebiliyor. Hangi formatın daha çok çalıştığını anlamak için [veriyle iyileştirilen testimonial tasarımları](https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak) yaklaşımıyla CTR, etkileşim ve dönüşüm verisini birlikte okumak gerekir. (Kesin rakam iddiası yok; gözlem.)"
           },
           {
             "type": "callout",
@@ -22016,7 +22391,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tek testimonial kartı iyi çalışır; ama asıl güç carousel’de gelir: izleyiciyi bir mini hikâyede yürütürsünüz. En pratik carousel akışı: problem → yorum → kanıt → sonuç → CTA. Before/after ise özellikle B2B case’lerde veya otel web yenileme/kampanya dönüşümlerinde etkili olur."
+            "text": "Tek testimonial kartı iyi çalışır; ama asıl güç carousel’de gelir: izleyiciyi bir mini hikâyede yürütürsünüz. En pratik carousel akışı: problem → yorum → kanıt → sonuç → CTA. Before/after ise özellikle B2B case’lerde veya otel web yenileme/kampanya dönüşümlerinde etkili olur; iyi kurgulanmış bir [testimonial destekli case anlatımı](https://dgtlface.com/tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu) bu etkiyi daha görünür kılar."
           },
           {
             "type": "h3",
@@ -22069,7 +22444,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, “kopyala-uygula” seviyesinde bir çerçeve verir. Otelde sosyal kanıt çoğunlukla rating ve deneyim diliyle; B2B’de logo + ünvan + sonuç metriğiyle güçlenir. Aynı tasarım sisteminde iki varyant üretmek (otel/B2B) hem hızlı hem tutarlı bir yaklaşım sağlar."
+            "text": "Bu bölüm, “kopyala-uygula” seviyesinde bir çerçeve verir. Otelde sosyal kanıt çoğunlukla rating ve deneyim diliyle; B2B’de logo + ünvan + sonuç metriğiyle güçlenir. Aynı tasarım sisteminde iki varyant üretmek (otel/B2B) hem hızlı hem tutarlı bir yaklaşım sağlar; ayrıca A/B testlenebilir [sosyal kanıt kreatifleri](https://dgtlface.com/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim) üretmeyi kolaylaştırır."
           },
           {
             "type": "h3",
@@ -22114,9 +22489,8 @@
             "items": [
               "6 kartlık başlangıç kütüphanesi üret (3 otel + 3 B2B).",
               "Web landing için yatay versiyonunu (16:9) da çıkar.",
-              "İç linklerle süreç bağla: https://dgtlface.com/tr/raporlama/satis-donusum",
-              "İç linklerle süreç bağla: https://dgtlface.com/tr/smm/icerik-uretimi",
-              "İç linklerle süreç bağla: https://dgtlface.com/tr/creative/grafik-motion-tasarim"
+              "Quote, rating ve sonuç blokları için tek bir görsel kural seti belirle.",
+              "Aynı kartları web, carousel ve story uyarlamasında tekrar kullan."
             ]
           },
           {
@@ -22124,7 +22498,7 @@
             "variant": "primary",
             "label": "Testimonial & Sosyal Kanıt Tasarım Analizi Talep Et",
             "text": "Landing ve sosyalde güveni sistemleştirmek isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       },
@@ -22201,7 +22575,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Pek çok marka review’leri sadece text olarak listeliyor; bu da dikkat çekmiyor ve güven etkisini düşürüyor. Fark yaratan yaklaşım: testimonial’ı bir kart sistemi olarak ele almak (grid, alan önceliği, rating standardı, carousel akışı) ve bunu web + sosyal + sunumda aynı şekilde kullanmak. Böylece içerik üretimi hızlanır, marka dili tutarlı kalır ve satış ekibi aynı materyali tekrar tekrar kullanabilir."
+            "text": "Pek çok marka review’leri sadece text olarak listeliyor; bu da dikkat çekmiyor ve güven etkisini düşürüyor. Fark yaratan yaklaşım: testimonial’ı bir kart sistemi olarak ele almak (grid, alan önceliği, rating standardı, carousel akışı) ve bunu web + sosyal + sunumda aynı şekilde kullanmak. Böylece [review kartları](https://dgtlface.com/tr/smm/icerik-uretimi) içerik üretiminde daha hızlı ölçeklenir, marka dili tutarlı kalır ve satış ekibi aynı materyali tekrar tekrar kullanabilir."
           },
           {
             "type": "media",
@@ -22226,6 +22600,10 @@
               "Her ay 5 yeni testimonial’ı aynı şablona işle.",
               "Web ve social ölçü uyarlamalarını otomatikleştir."
             ]
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle testimonial ve sosyal kanıt kartlarınızı güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve kapsam detaylarını görmek için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -22281,14 +22659,19 @@
           "Canonical kontrolü: /tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
-          "Satış Dönüşüm Raporlama iç linki kontrol edildi: /raporlama/satis-donusum",
-          "İçerik Üretimi iç linki kontrol edildi: /smm/icerik-uretimi",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /tr/creative/grafik-motion-tasarim",
+          "Creative & Tasarım hub linki kontrol edildi: /tr/creative-ve-tasarim",
+          "Mockup ve Case Görselleştirme linki kontrol edildi: /tr/creative/blog/mockup-ve-case-gorsellestirme-ajans-ve-b2b-icin-portfolio-gucu",
+          "Kampanya Görsel Setleri linki kontrol edildi: /tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim",
+          "Veriyle Beslenen Kreatif linki kontrol edildi: /tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak",
+          "Satış Dönüşüm iç linki kontrol edildi: /tr/raporlama/satis-donusum",
+          "İçerik Üretimi iç linki kontrol edildi: /tr/smm/icerik-uretimi",
           "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
-          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA: modülde download asset olarak kullanıldı",
           "Secondary CTA türü: Download Asset (checklist)",
-          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
-          "Secondary CTA hedefi: /smm/icerik-uretimi",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/testimonial-kart-tasarimi-carousel-checklisti-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "Ana içerikte seçilen tablo: Testimonial Kart Alanları Öncelik Tablosu",
           "Testimonial kart hiyerarşisi: quote → kişi/şirket → kanıt",
           "Quote uzunluğu en fazla 1–2 cümle olarak sınırlandırıldı",
@@ -22360,7 +22743,7 @@
     },
     "h1": {
       "title": "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
-      "intro": "Instagram’da profilin ilk 5 saniyesi kritiktir: kullanıcı “bu marka kim, ne sunuyor, bana uygun mu?” diye bakar ve çoğu zaman highlight’lardan hızlı tur atar. Story ve highlight alanları bu yüzden bir “mikro vitrin”dir; düzenli ve tutarlıysa güven üretir, dağınıksa kaybettirir. Bu rehberde; highlight kategorilerini nasıl planlayacağınızı, cover ikon/renk sistemini nasıl standardize edeceğinizi ve story şablonlarını bilgi–duygu–CTA seti olarak nasıl kuracağınızı otel ve B2B örnekleriyle anlatıyoruz.",
+      "intro": "Instagram’da profilin ilk 5 saniyesi kritiktir: kullanıcı “bu marka kim, ne sunuyor, bana uygun mu?” diye bakar ve çoğu zaman highlight’lardan hızlı tur atar. Story ve highlight alanları bu yüzden bir [story vitrinleri](https://dgtlface.com/tr/creative/grafik-motion-tasarim) sistemidir; düzenli ve tutarlıysa güven üretir, dağınıksa kaybettirir. Bu rehberde; highlight kategorilerini nasıl planlayacağınızı, cover ikon/renk sistemini nasıl standardize edeceğinizi ve story şablonlarını bilgi–duygu–CTA seti olarak nasıl kuracağınızı otel ve B2B örnekleriyle anlatıyoruz.",
       "quickSummary": [
         "1. Highlight kategorilerini kullanıcı sorularına göre 6–10 başlıkta planla.",
         "2. Kapaklarda tek ikon stili ve sabit renk sistemi kullan.",
@@ -22371,36 +22754,65 @@
       "ctaPrimary": {
         "label": "Story & Highlight Tasarım Analizi Talep Et",
         "text": "Instagram profilini düzenleyip mikro vitrinlerle güven ve dönüşüm artırmak isteyen otel/B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Story & Highlight Tasarım Analizi Talep Et",
         "text": "Instagram profilini mikro vitrinlerle düzenleyip güven artırmak isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Instagram Story & Highlight Paket Checklist’ini İndir",
         "text": "Kategorileri ve şablonları hızlıca planlar; highlight düzenini ve kapak tutarlılığını oturtursunuz.",
-        "href": "/otel/sosyal-medya"
+        "href": "/downloads/instagram-story-highlight-paket-checklisti-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
+        "href": "/tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi"
+      },
+      {
+        "label": "Dikey Video Tasarımı Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "label": "UGC ve Kreatör Ortak Tasarım Framework’ü",
+        "href": "/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi"
       },
       {
         "label": "İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       },
       {
         "label": "Otel Sosyal Medya Yönetimi",
-        "href": "/otel/sosyal-medya"
+        "href": "/tr/otel/sosyal-medya"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
+        "href": "/tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi"
+      },
+      {
+        "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "title": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka-Kreatör İşbirliği",
+        "href": "/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi"
+      }
+    ],
     "sections": [
       {
         "id": "story-formatinin-rolu",
@@ -22408,7 +22820,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Story, feed’e göre daha hızlı ve daha “anlık” bir kanaldır; ama en iyi markalar story’yi rastgele değil, seri mantığıyla kullanır. Story’nin rolü üç parçalıdır: (1) bilgi verir (SSS, detay), (2) duygu ve bağ kurar (backstage, deneyim), (3) aksiyon aldırır (CTA). Highlight ise bu story’lerin “kalıcı arşiv”e dönüşmüş halidir."
+            "text": "Story, feed’e göre daha hızlı ve daha “anlık” bir kanaldır; ama en iyi markalar story’yi rastgele değil, seri mantığıyla kullanır. Story’nin rolü üç parçalıdır: (1) bilgi verir (SSS, detay), (2) duygu ve bağ kurar (backstage, deneyim), (3) aksiyon aldırır (CTA). Highlight ise bu story’lerin “kalıcı arşiv”e dönüşmüş halidir. Profil menüsü gibi çalışan bir [highlight ikon sistemi](https://dgtlface.com/tr/creative-ve-tasarim), ilk temas kalitesini tekil post’lardan daha hızlı etkileyebilir."
           },
           {
             "type": "h3",
@@ -22465,7 +22877,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Şablonlar, story’de hız ve tutarlılık sağlar. Üç temel şablon türü yeterlidir: bilgi (SSS/duyuru), duygu (deneyim/backstage), CTA (tek aksiyon). Her şablonda değişmeyenler: grid, tipografi hiyerarşisi, safe area ve CTA konumu. Değişenler: fotoğraf/video, mesaj ve konu."
+            "text": "Şablonlar, story’de hız ve tutarlılık sağlar. Üç temel şablon türü yeterlidir: bilgi (SSS/duyuru), duygu (deneyim/backstage), CTA (tek aksiyon). Her şablonda değişmeyenler: grid, tipografi hiyerarşisi, safe area ve CTA konumu. Değişenler: fotoğraf/video, mesaj ve konu. Özellikle mobilde okunabilirliği korumak için [story safe zone](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) mantığıyla üst ve alt overlay alanlarını tasarımın başında hesaba katmak gerekir."
           },
           {
             "type": "h3",
@@ -22573,7 +22985,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Burada işin stratejik kısmı başlıyor: kategori planı doğru değilse en güzel kapaklar bile işe yaramaz. Otelde kullanıcı hızlıca “oda, restoran, spa, etkinlik, konum, kampanya” gibi bilgi arar. B2B’de “ürün, case, SSS, webinar, fiyat/plan, iletişim” gibi alanlar öne çıkar. Ama her markanın 25 highlight’ı olması gerekmez; az ama doğru kategoriler daha iyi çalışır."
+            "text": "Burada işin stratejik kısmı başlıyor: kategori planı doğru değilse en güzel kapaklar bile işe yaramaz. Otelde kullanıcı hızlıca “oda, restoran, spa, etkinlik, konum, kampanya” gibi bilgi arar. B2B’de “ürün, case, SSS, webinar, fiyat/plan, iletişim” gibi alanlar öne çıkar. Ama her markanın 25 highlight’ı olması gerekmez; az ama doğru kategoriler daha iyi çalışır. Özellikle konaklama markalarında [otel profili için highlight düzeni](https://dgtlface.com/tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi), feed ile story arşivini aynı görsel dil altında toplar."
           },
           {
             "type": "h3",
@@ -22702,7 +23114,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet dolu): Düzenli highlight ve story sistemi olan profillerde takipçilerin sık sorulan bilgilere ulaşma hızı ve etkileşim oranları artıyor. (Kesin rakam iddiası yok; gözlem.)"
+            "text": "Key Statistics / Data Point (sheet dolu): Düzenli highlight ve story sistemi olan profillerde takipçilerin sık sorulan bilgilere ulaşma hızı ve etkileşim oranları artıyor. Story, anket ve soru-cevap akışını [sosyal medya story içerikleri](https://dgtlface.com/tr/smm/icerik-uretimi) planıyla birlikte yürütmek bu etkiyi daha sürdürülebilir hale getirir. (Kesin rakam iddiası yok; gözlem.)"
           },
           {
             "type": "callout",
@@ -22721,8 +23133,7 @@
             "items": [
               "6–10 kategoriyle başla; fazlasını sonra ekle.",
               "Her kategori için 1 kapak + 3 story şablonu tanımla.",
-              "İçerik üretim süreciyle bağla: https://dgtlface.com/tr/smm/icerik-uretimi",
-              "Otel sosyal medya sayfasıyla bağla: https://dgtlface.com/tr/otel/sosyal-medya"
+              "Instagram profilini [kategori bazlı arşiv](https://dgtlface.com/tr/otel/sosyal-medya) mantığıyla yönet; sezonluk içerikleri buna göre sırala."
             ]
           },
           {
@@ -22730,7 +23141,7 @@
             "variant": "secondary",
             "label": "Instagram Story & Highlight Paket Checklist’ini İndir",
             "text": "Highlight kategorilerini ve story şablonlarını tek sayfada planlar; profilinizi mikro vitrinlere bölerek düzenlersiniz.",
-            "href": "/otel/sosyal-medya"
+            "href": "/downloads/instagram-story-highlight-paket-checklisti-v1.0.pdf"
           }
         ]
       },
@@ -22792,7 +23203,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Highlight’lar “arşiv”dir; arşiv düzenlenmezse bir süre sonra çöpe döner. En iyi pratik: her highlight için bir “kürasyon kuralı” koymak: en güncel 5–10 story, tekrar edenler temizlenir, kampanya bitince arşivlenir. Böylece profil her zaman güncel görünür."
+            "text": "Highlight’lar “arşiv”dir; arşiv düzenlenmezse bir süre sonra çöpe döner. En iyi pratik: her highlight için bir “kürasyon kuralı” koymak: en güncel 5–10 story, tekrar edenler temizlenir, kampanya bitince arşivlenir. Böylece profil her zaman güncel görünür. Misafir deneyimi, kreatör iş birliği ve backstage story’lerini aynı yapıda saklamak için [kreatör içeriklerini highlight arşivine almak](https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi) da baştan tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -22867,11 +23278,15 @@
             ]
           },
           {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle Instagram story ve highlight cover sisteminizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve detayları görmek için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Story & Highlight Tasarım Analizi Talep Et",
             "text": "Instagram profilini mikro vitrinlerle düzenleyip güven artırmak isteyen otel ve B2B ekipleri için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       }
@@ -22927,14 +23342,19 @@
           "Canonical kontrolü: /tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Grafik & Motion Tasarım iç linki kontrol edildi: /creative/grafik-motion-tasarim",
-          "İçerik Üretimi iç linki kontrol edildi: /smm/icerik-uretimi",
-          "Otel Sosyal Medya Yönetimi iç linki kontrol edildi: /otel/sosyal-medya",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /tr/creative/grafik-motion-tasarim",
+          "Creative & Tasarım hub linki kontrol edildi: /tr/creative-ve-tasarim",
+          "Oteller İçin Sosyal Medya Post Tasarım linki kontrol edildi: /tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi",
+          "Dikey Video Safe Zone linki kontrol edildi: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+          "UGC & Kreatör Framework linki kontrol edildi: /tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi",
+          "İçerik Üretimi iç linki kontrol edildi: /tr/smm/icerik-uretimi",
+          "Otel Sosyal Medya Yönetimi iç linki kontrol edildi: /tr/otel/sosyal-medya",
           "Primary CTA: 2 kez — H1 giriş sonunda ve son 1/3 bölümünde",
-          "Secondary CTA: 1 kez — orta bölümde",
+          "Secondary CTA: orta bölümde download asset olarak kullanıldı",
           "Secondary CTA türü: Download Asset (checklist)",
-          "Primary CTA hedefi: /creative/grafik-motion-tasarim",
-          "Secondary CTA hedefi: /otel/sosyal-medya",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/instagram-story-highlight-paket-checklisti-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "Ana içerikte seçilen tablo: Otel/B2B highlight kategori önerileri tablosu",
           "Highlight kategori sayısı 6–10 aralığında planlandı",
           "Her highlight kapağında tek ikon kullanıldı",

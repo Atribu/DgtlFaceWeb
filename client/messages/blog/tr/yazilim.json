@@ -77198,7 +77198,7 @@
     },
     "h1": {
       "title": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
-      "intro": "Bakım “görünmez iş” gibi kaldığında, bütçe ve öncelik tartışmaları verisiz ilerler: “Biz çok uğraşıyoruz” — “Ben sonuç görmüyorum.” Site sağlık dashboard’u bu kopuşu kapatır; teknik metrikleri (uptime, hata, CWV, incident) iş metrikleriyle (rezervasyon/lead) aynı ekranda gösterir. Üstelik bunu sadece raporlamak için değil, önceliklendirme için kullanırsınız: hangi risk büyüyor, hangi bakım işi en çok iş etkisi yaratacak? Bu rehber, KPI seçimi, health score kurgusu ve otel/B2B örnek dashboard setleriyle uygulanabilir bir model sunar.",
+      "intro": "[bakım KPI’ları](https://dgtlface.com/tr/yazilim/bakim-ve-destek) görünmez iş gibi kaldığında, bütçe ve öncelik tartışmaları verisiz ilerler: “Biz çok uğraşıyoruz” — “Ben sonuç görmüyorum.” Site sağlık dashboard’u bu kopuşu kapatır; teknik metrikleri (uptime, hata, CWV, incident) iş metrikleriyle (rezervasyon/lead) aynı ekranda gösterir. Üstelik bunu sadece raporlamak için değil, önceliklendirme için kullanırsınız: hangi risk büyüyor, hangi bakım işi en çok iş etkisi yaratacak? Bu rehber, KPI seçimi, health score kurgusu ve otel/B2B örnek dashboard setleriyle uygulanabilir bir model sunar.",
       "quickSummary": [
         "Bakım KPI seti kur: incident/MTTR, uptime/hata, ticket backlog, CWV ve dönüşüm.",
         "KPI’ları tek dashboard’da grupla.",
@@ -77209,14 +77209,14 @@
       "ctaPrimary": {
         "label": "Bakım KPI & Site Sağlık Dashboard Analizi Talep Et",
         "text": "Bakımı sayılarla yönetip iş etkisini görünür kılmak isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Bakım KPI & Site Sağlık Dashboard Analizi Talep Et",
         "text": "Uptime, hata, ticket, CWV ve dönüşümü tek health score’da birleştirerek bakımın iş etkisini göstermek isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Bakım KPI Seti & Site Sağlık Dashboard Şablonunu İndir",
@@ -77227,22 +77227,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "SEO Raporlama",
-        "href": "/seo/seo-raporlama"
+        "href": "/tr/seo/seo-raporlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Bakım Planı: Aylık & Çeyreklik | DGTLFACE",
+        "href": "/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi"
+      },
+      {
+        "title": "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model",
+        "href": "/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model"
+      },
+      {
+        "title": "Bakım ve Ürün Roadmap Hizalama: Kapasite Modeli",
+        "href": "/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak"
+      }
+    ],
     "sections": [
       {
         "id": "hangi-kpilar-bakimin-basarisini-gosterir",
@@ -77254,7 +77271,7 @@
           },
           {
             "type": "p",
-            "text": "“Her şeyi ölçelim” yaklaşımı dashboard’u çöp yapar. Doğru yaklaşım; az ama karar verdiren KPI setidir. Bakım başarısını gösteren metrikler dört gruba ayrılır: (1) olay/incident, (2) altyapı/uygunluk, (3) iş akışı, (4) ekip verimi."
+            "text": "“Her şeyi ölçelim” yaklaşımı dashboard’u çöp yapar. Doğru yaklaşım; [site sağlık skoru](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) üretecek az ama karar verdiren KPI setidir. Bakım başarısını gösteren metrikler dört gruba ayrılır: (1) olay/incident, (2) altyapı/uygunluk, (3) iş akışı, (4) ekip verimi."
           },
           {
             "type": "h3",
@@ -77279,7 +77296,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: KPI’lar; incident/MTTR, uptime/error rate, ticket backlog ve kalite (CWV) ile iş etkisini (rezervasyon/lead) birlikte kapsamalıdır. Seçim, kritik akışlara ve yönetimin karar ihtiyaçlarına göre yapılır; “çok KPI” yerine “karar verdiren az KPI” hedeflenir."
+            "text": "Cevap: KPI’lar; incident/MTTR, [uptime ve incident KPI’ları](https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model), ticket backlog ve kalite (CWV) ile iş etkisini (rezervasyon/lead) birlikte kapsamalıdır. Seçim, kritik akışlara ve yönetimin karar ihtiyaçlarına göre yapılır; “çok KPI” yerine “karar verdiren az KPI” hedeflenir ve bu metrikler [aylık ve çeyreklik bakım KPI kontrolü](https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi) döngüsüne bağlanmalıdır."
           },
           {
             "type": "callout",
@@ -77417,15 +77434,15 @@
           },
           {
             "type": "p",
-            "text": "Dashboard kurgusunu güçlendiren iç linkler:"
+            "text": "İyi bir [maintenance dashboard](https://dgtlface.com/tr/veri-analiz-ve-raporlama) yalnız teknik trendleri değil, [site sağlığının satış dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) ile [CWV ve SEO performans raporlaması](https://dgtlface.com/tr/seo/seo-raporlama) çıktısını da aynı karar çerçevesinde okumayı sağlar."
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
-              "https://dgtlface.com/tr/raporlama/satis-donusum",
-              "https://dgtlface.com/tr/seo/seo-raporlama"
+              "Teknik ve iş KPI’ları tek veri modelinde gruplanmalı",
+              "Trend, eşik ve alarm mantığı aynı dashboard üzerinde görünmeli",
+              "Karar toplantılarında özet ve drill-down görünümü birlikte kullanılmalı"
             ]
           },
           {
@@ -77503,7 +77520,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Uptime, hata oranı, CWV ve ticket/incident metriklerini normalize edip ağırlıklandırarak 0–100 arası tek skor üretin. Skoru trendle izleyin; skor düştüğünde hangi bileşenin düştüğünü dashboard’da drill-down ile görün."
+            "text": "Cevap: Uptime, hata oranı, CWV ve ticket/incident metriklerini normalize edip ağırlıklandırarak 0–100 arası tek skor üretin. Skoru trendle izleyin; skor düştüğünde hangi bileşenin düştüğünü dashboard’da drill-down ile görün. Tekrar eden düşüşleri ise [dashboard çıktılarından bakım roadmap’ine geçiş](https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak) mantığıyla backlog ve bakım bloklarına taşıyın."
           },
           {
             "type": "callout",
@@ -77691,11 +77708,15 @@
             "text": "Türkiye’de bakım çoğu zaman “yapıldı” diye geçer; KPI ve health score ile görünür olmaz. Bu rehberin farkı; ops+business bridge kurarak (incident/uptime/CWV + dönüşüm) bakımın katma değerini sayılarla göstermesidir. Böylece bütçe ve öncelik tartışmaları daha somut hale gelir."
           },
           {
+            "type": "p",
+            "text": "Bakımı yalnız kapatılan ticket sayısıyla değil, sağlık görünümü ve iş etkisiyle izlemek için [Bakım ve Destek hizmetiyle site sağlık dashboard’unuzu düzenli takip edin](https://dgtlface.com/tr/yazilim/bakim-ve-destek). Çalışma modeli, KPI kapsamı ve raporlama sıklığıyla ilgili detaylar için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da bakabilirsiniz."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Bakım KPI & Site Sağlık Dashboard Analizi Talep Et",
             "text": "Projenize uygun KPI seti ve health score modelini birlikte kuralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -77750,6 +77771,9 @@
           "Dashboard yönetim ve teknik görünüm olarak ayrıştırıldı",
           "Otel rezervasyon ve B2B lead/checkout kritik akış KPI’ları dashboard’a bağlandı",
           "RUM/GSC, Analytics/CRM, Monitoring, Logs/APM ve Ticketing veri kaynakları doğrulandı",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, bakım planı, bakım SLA’leri, bakım roadmap’i, Veri Analiz ve Raporlama, Satış Dönüşüm ve SEO Raporlama iç linkleri kontrol edilmeli",
+          "Uptime, incident, CWV ve dönüşüm verileri tek sağlık görünümünde birlikte korunmalı",
+          "Health score çıktılarının bakım backlog’u ve roadmap kararlarıyla bağı görünür olmalı",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Media dosya adları ve alt text’ler eşleşiyor"
         ]
@@ -77805,7 +77829,7 @@
     },
     "h1": {
       "title": "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi",
-      "intro": "“7/24 destek” beklentisi çoğu ekipte iki uçtan birine gider: ya herkesin telefonu sürekli çalar ve tükenmişlik başlar, ya da kimse net sorumlu olmadığı için P1 olaylar uzar. Sağlıklı model; on-call’i “sürekli nöbet” değil, tanımlı pencere + dönüşümlü rota + seviye (L1/L2/L3) + eskalasyon olarak kurmaktır. Böylece hem olaylara tepki hızı artar hem de ekip sürdürülebilir kalır. Otel projelerinde yüksek sezon/gece; B2B’de release ve kampanya dönemleri bu planlamayı daha kritik hale getirir.",
+      "intro": "[on call modeli](https://dgtlface.com/tr/yazilim/bakim-ve-destek) olmadan “7/24 destek” beklentisi çoğu ekipte iki uçtan birine gider: ya herkesin telefonu sürekli çalar ve tükenmişlik başlar, ya da kimse net sorumlu olmadığı için P1 olaylar uzar. Sağlıklı model; on-call’i “sürekli nöbet” değil, tanımlı pencere + dönüşümlü rota + seviye (L1/L2/L3) + eskalasyon olarak kurmaktır. Böylece hem olaylara tepki hızı artar hem de ekip sürdürülebilir kalır. Otel projelerinde yüksek sezon/gece; B2B’de release ve kampanya dönemleri bu planlamayı daha kritik hale getirir.",
       "quickSummary": [
         "On-call’i pencere + rota + L1/L2/L3 olarak tasarla.",
         "Alarm ve eskalasyon kur; P1/P2’de doğru kişiyi hızla devreye al.",
@@ -77816,14 +77840,14 @@
       "ctaPrimary": {
         "label": "On-Call Model & Nöbet Planlama Analizi Talep Et",
         "text": "Kritik uptime beklentisini ekip sağlığını koruyarak yönetmek isteyen otel ve B2B ekipleri için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "On-Call Model & Nöbet Planlama Analizi Talp Et",
         "text": "Kritik olaylara hızlı yanıt verirken ekip tükenmişliğini önlemek isteyen otel, rezervasyon ve B2B ekipleri için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "On-Call Rota & L1/L2/L3 Destek Planlama Şablonunu İndir",
@@ -77834,18 +77858,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
-        "label": "Sunucu Güvenlik",
-        "href": "/yazilim/sunucu-guvenlik"
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "KVKK & Veri Güvenliği",
-        "href": "/raporlama/kvkk-veri-guvenligi"
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Incident Sonrası Postmortem ve Root-Cause Analizi Nasıl Yapılır?",
+        "href": "/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir"
+      },
+      {
+        "title": "Dokümantasyon & Runbook: Bilgi Kaybını Önle",
+        "href": "/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek"
+      },
+      {
+        "title": "Async Ops Modeli: Uzaktan Bakım ve Handover Şablonu",
+        "href": "/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli"
+      }
+    ],
     "sections": [
       {
         "id": "on-call-nedir-ne-degildir",
@@ -77853,7 +77898,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "On-call; “her soruna anında koşmak” değildir. On-call’in amacı; kritik olaylarda doğru kişiyi doğru zamanda devreye alıp hizmet sürekliliğini korumaktır. Bu yüzden on-call; alarm kalitesi, triage disiplini ve seviye kurgusu olmadan çalışmaz."
+            "text": "On-call; “her soruna anında koşmak” değildir. On-call’in amacı; kritik olaylarda doğru kişiyi doğru zamanda devreye alıp hizmet sürekliliğini korumaktır. Bu yüzden [nöbet planlama bakım ekibi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı; alarm kalitesi, triage disiplini ve seviye kurgusu olmadan çalışmaz."
           },
           {
             "type": "h3",
@@ -77887,7 +77932,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: On-call; kritik incident’larda hızlı triage ve müdahaleyi sağlayan, pencere (saat), rota (dönüşümlü nöbet) ve seviye (L1/L2/L3) yapısıyla kurgulanan operasyon modelidir. Amaç 7/24’ü tek kişinin sırtına yüklemeden sürdürülebilir destek sağlamaktır."
+            "text": "Cevap: On-call; kritik incident’larda hızlı triage ve müdahaleyi sağlayan, pencere (saat), rota (dönüşümlü nöbet) ve seviye (L1/L2/L3) yapısıyla kurgulanan operasyon modelidir. Amaç 7/24’ü tek kişinin sırtına yüklemeden sürdürülebilir destek sağlamak ve yaşanan olayları [on-call sonrası incident değerlendirmesi](https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir) ile kalıcı iyileştirmeye taşımaktır."
           },
           {
             "type": "callout",
@@ -77955,6 +78000,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Farklı lokasyonlara yayılan ekiplerde vardiya notları, karar geçmişi ve handover akışı [dağıtık ekiplerde nöbet devri](https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli) mantığıyla yazılı tutulmadığında asıl yük sabah devrinde ortaya çıkar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "☑ Mini Check",
@@ -78004,7 +78053,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: On-call penceresini iş ihtiyacına göre belirleyin, primary/secondary rota kurun ve nöbet yükünü metriklerle izleyin (çağrı sayısı, gece müdahalesi). Kritik müdahaleler sonrası telafi/dinlenme kuralını yazılı hale getirin ve alarm gürültüsünü azaltarak çağrıların gerçek değerini artırın."
+            "text": "Cevap: On-call penceresini iş ihtiyacına göre belirleyin, primary/secondary rota kurun ve [nöbet performans raporlaması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) ile nöbet yükünü metriklerle izleyin (çağrı sayısı, gece müdahalesi). Kritik müdahaleler sonrası telafi/dinlenme kuralını yazılı hale getirin ve alarm gürültüsünü azaltarak çağrıların gerçek değerini artırın."
           },
           {
             "type": "p",
@@ -78042,7 +78091,7 @@
           },
           {
             "type": "p",
-            "text": "Seviye kurgusu yoksa, her çağrı geliştiricinin telefonuna gider. Seviye kurgusu, doğru işi doğru role taşır."
+            "text": "Seviye kurgusu yoksa, her çağrı geliştiricinin telefonuna gider. Özellikle [L1 L2 L3 destek seviyeleri](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) çağrı merkezi ve teknik ekip arasında net tanımlanmadığında seviye kurgusu doğru işi doğru role taşıyamaz."
           },
           {
             "type": "h3",
@@ -78053,7 +78102,7 @@
             "style": "ul",
             "items": [
               "Alarmı doğrular, “gerçek incident mı?” kararını verir",
-              "İlk stabilizasyon adımlarını uygular (runbook)",
+              "İlk stabilizasyon adımlarını [on-call playbook](https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek) ile uygular",
               "Gerekirse L2’ye eskale eder"
             ]
           },
@@ -78261,14 +78310,14 @@
         "blocks": [
           {
             "type": "p",
-            "text": "On-call yalnız “site down” değildir. Güvenlik incident’leri ve veri ihlali senaryoları farklı eskalasyon gerektirir."
+            "text": "On-call yalnız “site down” değildir. Güvenlik incident’leri ve [on-call erişimleri ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) senaryoları farklı eskalasyon gerektirir."
           },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "Güvenlik incident’leri için koordinasyon: https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-              "KVKK/veri güvenliği senaryoları: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+              "Güvenlik incident’leri için erişim, log inceleme ve izolasyon adımları ayrı runbook’ta tutulmalı",
+              "KVKK ve veri güvenliği senaryolarında kanıt toplama, bildirim ve erişim zinciri önceden yazılmalı"
             ]
           },
           {
@@ -78302,6 +78351,10 @@
             "text": "TR’de on-call çoğu zaman “bir kişinin sırtında” kalır veya hiç tanımlanmaz. Bu rehberin farkı; 24/7’yi “burnout” olmadan sağlayacak pencere, seviye, rota ve eskalasyon modelini pratik hale getirmesidir. Böylece hem tepki süresi hem ekip sürdürülebilirliği güçlenir."
           },
           {
+            "type": "p",
+            "text": "On-call rota, seviye ve eskalasyon yapısını sürdürülebilir hale getirmek için [Bakım ve Destek hizmetiyle escalation rota yapınızı netleştirin](https://dgtlface.com/tr/yazilim/bakim-ve-destek). Destek kapsamı, acil müdahale modeli ve süreç detayları için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da bakabilirsiniz."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -78310,7 +78363,7 @@
             "variant": "primary",
             "label": "On-Call Model & Nöbet Planlama Analizi Talep Et",
             "text": "Projenize özel pencere/rota/L1-L3 kurgusunu birlikte çıkaralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -78367,6 +78420,9 @@
           "MTTA/MTTR, alarm çağrı sayısı ve eskalasyon doğruluğu KPI’ları izleniyor",
           "Güvenlik ve KVKK incident senaryoları ayrı runbook ve eskalasyon zincirine bağlı",
           "Nöbet sonrası telafi/dinlenme çerçevesi tanımlı",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, postmortem, runbook, async ops, KVKK & Veri Güvenliği, Çağrı Merkezi Hizmetleri ve Veri Analiz ve Raporlama iç linkleri kontrol edilmeli",
+          "On-call rota, L1/L2/L3 desteği ve eskalasyon ayrımı içerikte net korunmalı",
+          "Nöbet yükü, erişim güvenliği ve raporlama bağlantısı aynı operasyon modeli içinde görünür olmalı",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Media dosya adları ve alt text’ler eşleşiyor"
         ]
@@ -78422,7 +78478,7 @@
     },
     "h1": {
       "title": "Çok Ajanslı ve Çok Tedarikçili Ortamlarda Bakım Koordinasyonu",
-      "intro": "Multi-vendor yapılarda teknik sorunların kendisi kadar, koordinasyon hataları da maliyet üretir: aynı ticket farklı ajanslara gider, kimse “owner” olmadığı için bekler, öncelik çatışmaları büyür ve olaylar uzar. Otel zincirlerinde merkez/otel/ajans üçgeni; B2B’de ürün şirketi + sistem entegratörü + ajans modeli bu riski artırır. Sağlam bir koordinasyon modeli; tek giriş kapısı (ticketing), net roller, lead vendor/ürün sahibi sahipliği ve düzenli ritimle (triage/sync) bu kaosu hesap verebilir bir yapıya çevirir.",
+      "intro": "Projelerde [çok ajanslı bakım koordinasyonu](https://dgtlface.com/tr/yazilim/bakim-ve-destek) doğru kurulmadığında, teknik sorunların kendisi kadar koordinasyon hataları da maliyet üretir: aynı ticket farklı ajanslara gider, kimse “owner” olmadığı için bekler, öncelik çatışmaları büyür ve olaylar uzar. Otel zincirlerinde merkez/otel/ajans üçgeni; B2B’de ürün şirketi + sistem entegratörü + ajans modeli bu riski artırır. Sağlam bir koordinasyon modeli; tek giriş kapısı (ticketing), net roller, lead vendor/ürün sahibi sahipliği ve düzenli ritimle (triage/sync) bu kaosu hesap verebilir bir yapıya çevirir.",
       "quickSummary": [
         "Tek ticketing ve tek backlog (single source of truth)",
         "Her ticket’ta owner (sahip) zorunlu",
@@ -78433,14 +78489,14 @@
       "ctaPrimary": {
         "label": "Multi-Vendor Bakım & Koordinasyon Analizi Talep Et",
         "text": "Çok ajanslı yapılarda bakım akışını sahipli ve hızlı hale getirmek isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Multi-Vendor Bakım & Koordinasyon Analizi Talep Et",
         "text": "Birden fazla ajans/tedarikçiyle çalışan otel grupları ve B2B organizasyonlarda bakım koordinasyonunu hesap verebilir hale getirmek için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Çok Ajanslı/Tedarikçili Projeler İçin Bakım Koordinasyon Şablonunu İndir",
@@ -78451,22 +78507,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "CMS Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
+        "label": "PMS & OTA Yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
       },
       {
         "label": "Benchmark Analizi",
-        "href": "/raporlama/benchmark-analizi"
+        "href": "/tr/raporlama/benchmark-analizi"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Ticketing & Helpdesk Mimarisi: Bakım Süreci",
+        "href": "/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak"
+      },
+      {
+        "title": "Dijital Servis Kataloğu: Bakım Kapsamı ve RACI",
+        "href": "/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek"
+      },
+      {
+        "title": "Bakım Modelleri: Outsource mı İç Ekip mi?",
+        "href": "/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi"
+      }
+    ],
     "sections": [
       {
         "id": "birden-fazla-ajans-ve-tedarikci-ile-bakim",
@@ -78474,7 +78547,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Multi-vendor yönetiminin temel problemi “çok el, tek gerçek” eksikliğidir. Herkes kendi aracını kullanırsa tek resim kaybolur. Bu yüzden ilk prensip: tek giriş kapısı ve tek sahiplik modeli."
+            "text": "Multi-vendor yönetiminin temel problemi “çok el, tek gerçek” eksikliğidir. Herkes kendi aracını kullanırsa tek resim kaybolur. Bu yüzden [lead vendor rolü nedir](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) sorusunu da netleştiren tek giriş kapısı ve tek sahiplik modeli şarttır."
           },
           {
             "type": "h3",
@@ -78496,7 +78569,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Tek ticketing sistemi kurup her talebe owner atayın; lead vendor veya iç ürün sahibi rolüyle hesap verebilirliği netleştirin. Haftalık triage ile öncelikleri, aylık/çeyreklik sync ile riskleri, roadmap’i ve SLA performansını birlikte yönetin."
+            "text": "Cevap: [multi vendor ticketing](https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak) mantığıyla tek ticketing sistemi kurup her talebe owner atayın; lead vendor veya iç ürün sahibi rolüyle hesap verebilirliği netleştirin. Haftalık triage ile öncelikleri, aylık/çeyreklik sync ile riskleri, roadmap’i ve SLA performansını birlikte yönetin."
           },
           {
             "type": "callout",
@@ -78530,7 +78603,7 @@
           },
           {
             "type": "p",
-            "text": "Multi-vendor projelerde başarı, “kim ne yapar?” sorusunun net olmasına bağlıdır. Roller ve sınırlar yazılı değilse, herkes “bana değil” der."
+            "text": "Multi-vendor projelerde başarı, “kim ne yapar?” sorusunun net olmasına bağlıdır. [Servis kapsamı ve sahiplik netliği](https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek) yazılı değilse, herkes “bana değil” der."
           },
           {
             "type": "h3",
@@ -78570,16 +78643,7 @@
           },
           {
             "type": "p",
-            "text": "Stratejik bağ için iç linkler:"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "https://dgtlface.com/tr/yazilim/bakim-ve-destek (SLA & ops)",
-              "https://dgtlface.com/tr/yazilim/cms-entegrasyonu (çoklu kanal/entegrasyon)",
-              "https://dgtlface.com/tr/otel-dijital-pazarlama (çok markalı yapı)"
-            ]
+            "text": "Bu yapı, seçilen [tedarikçi bakım modeli](https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi) ile uyumlu kurulmadığında iyi yazılmış roller bile pratikte çift başlılığa dönüşebilir."
           },
           {
             "type": "table",
@@ -78753,6 +78817,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Kararları yalnız hissiyatla değil, [tedarikçi performans benchmark’ı](https://dgtlface.com/tr/raporlama/benchmark-analizi) ile desteklemek; çözüm süresi, kalite ve koordinasyon başarısını daha nesnel görmeyi sağlar."
+          },
+          {
             "type": "callout",
             "variant": "check",
             "title": "☑ Mini Check",
@@ -78794,7 +78862,11 @@
           },
           {
             "type": "p",
-            "text": "Çözüm: lead vendor/merkez owner + servis kataloğu + ortak ticketing."
+            "text": "Çözüm: [otel projelerinde ajans koordinasyonu](https://dgtlface.com/tr/otel-dijital-pazarlama) için lead vendor/merkez owner + servis kataloğu + ortak ticketing kurmaktır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle [PMS OTA tedarikçi koordinasyonu](https://dgtlface.com/tr/pms-ota-yonetimi) netleşmediğinde rezervasyon, fiyat ve müsaitlik akışlarında sorun kaynağı hızla belirsizleşir."
           },
           {
             "type": "h3",
@@ -78846,7 +78918,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çoğu içerik araç seçimine odaklanır; asıl mesele süreç ve sahipliktir. Bu rehber; lead vendor/owner, ortak ticketing ve sync ritmini “uygulanabilir” şekilde bir araya getirerek çok ajanslı yapılarda hesap verebilir operasyon kurar. “Başkası bozdu” söylemi, yerini kanıt (ticket, log, timeline) ve süreçlere bırakır."
+            "text": "Çoğu içerik araç seçimine odaklanır; asıl mesele süreç ve sahipliktir. Bu rehber; lead vendor/owner, ortak ticketing ve sync ritmini “uygulanabilir” şekilde bir araya getirerek çok ajanslı yapılarda hesap verebilir operasyon kurar. “Başkası bozdu” söylemi, yerini kanıt (ticket, log, timeline) ve süreçlere bırakır. [Bakım ve Destek hizmetiyle çok tedarikçili bakım koordinasyonunu netleştirin](https://dgtlface.com/tr/yazilim/bakim-ve-destek)."
+          },
+          {
+            "type": "p",
+            "text": "Süreç, kapsam ve destek modeli ayrıntılarını görmek isterseniz [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -78857,7 +78933,7 @@
             "variant": "primary",
             "label": "Multi-Vendor Bakım & Koordinasyon Analizi Talep Et",
             "text": "Projenize uygun lead vendor, ticket akışı ve toplantı ritmini birlikte kuralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -78915,6 +78991,8 @@
           "Haftalık triage, aylık ops sync ve çeyreklik roadmap sync ritmi tanımlandı",
           "MTTR, yanlış yönlendirilen ticket, SLA ihlali ve eskalasyon sayısı KPI’ları izleniyor",
           "Cross-vendor incident ve çatışma eskalasyon yolu yazılı",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, ticketing, servis kataloğu, bakım modeli, Otel Dijital Pazarlama, PMS & OTA Yönetimi ve Benchmark Analizi iç linkleri kontrol edildi",
+          "Lead vendor, ortak ticketing ve servis sahipliği ayrımı içerikte net korunuyor",
           "İç linklerde kırık link ve redirect zinciri yok",
           "Media dosya adları ve alt text’ler eşleşiyor"
         ]
@@ -78972,7 +79050,7 @@
     },
     "h1": {
       "title": "AIOps ve Prediktif Bakım: Yapay Zekâ ile Incident Öncesi Sinyal Yakalamak",
-      "intro": "Monitoring araçları çoğu ekipte yıllar içinde büyür; metrikler, loglar, event’ler ve alarmlar artar. Sorun “izlemiyoruz” değil; fazla izliyoruz ve anlamlı sinyali kaçırıyoruz. AIOps burada devreye girer: anomaly detection ile sapmaları tespit eder, benzer alarmları birleştirir, olayları özetler ve ops ekibine önceliklendirilmiş aksiyon listesi verir. Bu yazı; AIOps’i “tam otomasyon” değil, insan operasyon ekibiyle AI iş birliği olarak konumlandırır ve otel (rezervasyon/ödeme) ile B2B (API/raporlama) akışlarında uygulanabilir bir kurgu sunar.",
+      "intro": "[AIOps nedir](https://dgtlface.com/tr/yazilim/bakim-ve-destek) sorusu, modern bakım ekipleri için artık yalnızca monitoring araçlarını değil operasyonel karar hızını da ilgilendiriyor. Monitoring araçları çoğu ekipte yıllar içinde büyür; metrikler, loglar, event’ler ve alarmlar artar. Sorun “izlemiyoruz” değil; fazla izliyoruz ve anlamlı sinyali kaçırıyoruz. AIOps burada devreye girer: anomaly detection ile sapmaları tespit eder, benzer alarmları birleştirir, olayları özetler ve ops ekibine önceliklendirilmiş aksiyon listesi verir. Bu yazı; AIOps’i “tam otomasyon” değil, insan operasyon ekibiyle AI iş birliği olarak konumlandırır ve otel (rezervasyon/ödeme) ile B2B (API/raporlama) akışlarında uygulanabilir bir kurgu sunar.",
       "quickSummary": [
         "1) AIOps’i “asistan” rolüyle konumlandır",
         "2) Metric + log + event’i aynı timeline’da birleştir",
@@ -78983,14 +79061,14 @@
       "ctaPrimary": {
         "label": "AIOps & Prediktif Bakım Analizi Talep Et",
         "text": "Log/metric hacmi yüksek projelerde noise’u azaltıp erken uyarı sistemini kurmak isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AIOps & Prediktif Bakım Analizi Talep Et",
         "text": "Log/metric hacmi yüksek otel, rezervasyon ve B2B projelerinde noise’u azaltıp erken uyarı sistemi kurmak isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "AIOps Alarm & Anomali Tespit Başlangıç Checklist Şablonunu İndir",
@@ -79001,18 +79079,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
-        "label": "Sunucu Güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+        "href": "/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u"
+      },
+      {
+        "title": "Uzaktan Bakım ve Dağıtık Ekipler İçin Async Ops Modeli",
+        "href": "/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli"
+      },
+      {
+        "title": "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
+        "href": "/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak"
+      }
+    ],
     "sections": [
       {
         "id": "aiops-nedir",
@@ -79020,7 +79119,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AIOps, operasyon verilerini (log/metric/event) analiz ederek anomali ve ilişki örüntülerini bulmaya, alarmları gruplayıp özetlemeye ve müdahale için “en olası kök neden/etki” çerçevesi sunmaya çalışır. Klasik monitoring; “eşik aşıldı/alarm” üretir. AIOps ise aynı anda çok sinyali görüp noise reduction yapar ve incident’e dönüşme ihtimali yüksek durumları öne çıkarır."
+            "text": "AIOps, operasyon verilerini (log/metric/event) analiz ederek anomali ve ilişki örüntülerini bulmaya, alarmları gruplayıp özetlemeye ve müdahale için “en olası kök neden/etki” çerçevesi sunmaya çalışır. Klasik monitoring; “eşik aşıldı/alarm” üretir. AIOps ise aynı anda çok sinyali görüp noise reduction yapar ve incident’e dönüşme ihtimali yüksek durumları öne çıkarır. Bu [prediktif bakım](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı, bakım ekiplerinin yalnızca olay sonrası değil olay öncesi riskleri de görmesini sağlar."
           },
           {
             "type": "h3",
@@ -79028,7 +79127,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Klasik monitoring genelde tek metrikte eşik aşımına alarm üretir; AIOps log/metric/event’i birlikte okuyup anomaliyi bağlama oturtur, benzer alarmları birleştirir ve “hangi sinyal önce ele alınmalı?” önceliğini çıkarır. Amaç tam otomasyon değil, ops ekibine karar desteğidir."
+            "text": "Cevap: Klasik monitoring genelde tek metrikte eşik aşımına alarm üretir; AIOps log/metric/event’i birlikte okuyup anomaliyi bağlama oturtur, benzer alarmları birleştirir ve “hangi sinyal önce ele alınmalı?” önceliğini çıkarır. Amaç tam otomasyon değil, ops ekibine karar desteğidir. Bu sinyallerin gerçekten işe yarayıp yaramadığını görmek için [AIOps için bakım KPI’ları](https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u) ile ölçüm katmanını da net kurmak gerekir."
           },
           {
             "type": "callout",
@@ -79146,7 +79245,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Model; geçmiş baseline’ı öğrenerek sapmayı (spike/trend/shift) tespit eder, log’larda tekrar eden hata paternlerini gruplar ve event (deploy/config) ile korelasyon kurar. Sonuç; “bu sapma anlamlı mı, hangi bileşene işaret ediyor, öncelik ne?” şeklinde bir özet/alert üretmektir."
+            "text": "Cevap: Model; geçmiş baseline’ı öğrenerek sapmayı (spike/trend/shift) tespit eder, log’larda tekrar eden hata paternlerini gruplar ve event (deploy/config) ile korelasyon kurar. Sonuç; “bu sapma anlamlı mı, hangi bileşene işaret ediyor, öncelik ne?” şeklinde bir özet/alert üretmektir. Bu yaklaşım, reliability hedeflerini yalnız incident sonrası değil incident öncesi sinyallerle yönetmek isteyen ekiplerde [AIOps ve error budget ilişkisi](https://dgtlface.com/tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak) açısından da güçlü bir temel oluşturur."
           },
           {
             "type": "table",
@@ -79230,7 +79329,7 @@
           },
           {
             "type": "p",
-            "text": "Mini örnek: Antalya gibi sezonda trafik artan destinasyon odaklı otel sitelerinde, CDN cache hit oranı düşerken origin load artıyorsa; AIOps bunu “yaklaşan incident” sinyali olarak işaretleyebilir."
+            "text": "Mini örnek: Antalya gibi sezonda trafik artan destinasyon odaklı otel sitelerinde, CDN cache hit oranı düşerken origin load artıyorsa; AIOps bunu “yaklaşan incident” sinyali olarak işaretleyebilir. Aynı anda rezervasyon veya ödeme funnel’ında anormal bir düşüş görülüyorsa, bu sinyali [incident öncesi dönüşüm sinyalleri](https://dgtlface.com/tr/raporlama/satis-donusum) olarak okumak mümkün hale gelir."
           },
           {
             "type": "h3",
@@ -79274,7 +79373,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AIOps’in başarısı, “insan rolünü” net tanımlamaya bağlıdır. Tam otomasyon, özellikle prod müdahalede risklidir. En sağlıklı model; AI’ın triage ve özetleme yaptığı, insanın onay ve müdahale verdiği hibrit modeldir."
+            "text": "AIOps’in başarısı, “insan rolünü” net tanımlamaya bağlıdır. Tam otomasyon, özellikle prod müdahalede risklidir. En sağlıklı model; AI’ın triage ve özetleme yaptığı, insanın onay ve müdahale verdiği hibrit modeldir. Dağıtık ekiplerde bu uyarıların vardiyalar arasında kaybolmaması için [AI assisted ops uyarılarının async takibi](https://dgtlface.com/tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli) de operasyon tasarımının parçası olmalıdır."
           },
           {
             "type": "h3",
@@ -79340,12 +79439,12 @@
             "text": "Önemli teknik not: Bot trafiği ve CDN davranışları doğru etiketlenmezse yanlış pozitif artar. Bu yüzden güvenlik ve analitik katmanla birlikte yorumlanmalıdır:"
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
-              "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
-            ]
+            "type": "p",
+            "text": "Bu sinyallerin karar verebilir hale gelmesi için [log metric anomali tespiti](https://dgtlface.com/tr/veri-analiz-ve-raporlama) disipliniyle düzenli dashboard ve trend analizi kurulmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Aynı çerçeve, crawl hataları, CWV düşüşleri ve indexleme sapmaları gibi [teknik SEO sinyallerinde anomali tespiti](https://dgtlface.com/tr/seo/teknik-seo) yapmak için de kullanılabilir."
           },
           {
             "type": "callout",
@@ -79418,7 +79517,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çoğu içerik AIOps’u “hype” düzeyinde anlatır; bu rehberin farkı, otel/B2B bakım aksiyon akışına nasıl oturacağını somutlaştırmasıdır: ticketing entegrasyonu, insan-onayı, runbook bağlantısı, noise ölçümü ve pilot planı. Böylece AIOps, “demo” değil “operasyon sistemi” olur."
+            "text": "Çoğu içerik AIOps’u “hype” düzeyinde anlatır; bu rehberin farkı, otel/B2B bakım aksiyon akışına nasıl oturacağını somutlaştırmasıdır: ticketing entegrasyonu, insan-onayı, runbook bağlantısı, noise ölçümü ve pilot planı. Böylece AIOps, “demo” değil “operasyon sistemi” olur. [Bakım ve Destek hizmetiyle AI assisted ops sürecinizi güçlendirin](https://dgtlface.com/tr/yazilim/bakim-ve-destek)."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, destek modeli ve operasyonel beklentiler için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasını da inceleyebilirsiniz."
           },
           {
             "type": "media",
@@ -79429,7 +79532,7 @@
             "variant": "primary",
             "label": "AIOps & Prediktif Bakım Analizi Talep Et",
             "text": "Projenize uygun sinyal seti, pilot senaryolar ve noise azaltma planını birlikte çıkaralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -79482,8 +79585,9 @@
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
           "İç linklerde kırık link ve redirect zinciri yok",
-          "Bakım ve Destek, Sunucu Güvenliği ve Veri Analiz ve Raporlama iç linkleri kontrol edildi",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, bakım KPI’ları, async ops, SRE, Veri Analiz ve Raporlama, Teknik SEO ve Satış Dönüşüm iç linkleri kontrol edildi",
           "Log/metric/event → anomaly detect → correlate → score → alert → ticket → runbook akışı doğrulandı",
+          "AIOps katmanının incident öncesi sinyal yakalama mantığı ve AI-assisted ops konumu korundu",
           "Bot/CDN davranışları güvenlik ve analitik sinyallerle çapraz kontrol edildi",
           "Primary CTA: 2 kez — H1 giriş sonunda ve içeriğin son 1/3’ünde",
           "Secondary CTA: 1 kez — orta bölümde Download Asset",
@@ -79544,7 +79648,7 @@
     },
     "h1": {
       "title": "Green IT ve Sürdürülebilir Bakım: Web Altyapısının Karbon Ayak İzini Azaltmak",
-      "intro": "Sürdürülebilirlik raporu hazırlayan birçok kurum, dijital operasyonun payını “teknik olarak” nasıl azaltacağını net bilmiyor. Oysa web altyapısında yapılan klasik performans iyileştirmeleri (cache, CDN, görsel optimizasyonu, istek sayısını azaltma) çoğu zaman aynı anda enerji verimliliği de sağlar. Bu rehber, Green IT’yi “tek seferlik proje” değil, bakım süreçlerine entegre edilen yeşil bakım modeli olarak ele alır: kaynak kullanımını ölç, gereksiz tüketimi azalt, trendle raporla ve iletişimini doğru yap.",
+      "intro": "Kurumsal ekipler için [green IT web sitesi bakımı](https://dgtlface.com/tr/yazilim/bakim-ve-destek), yalnızca çevresel bir hassasiyet değil; hız, kaynak verimliliği ve operasyon kalitesi konusu haline geldi. Sürdürülebilirlik raporu hazırlayan birçok kurum, dijital operasyonun payını “teknik olarak” nasıl azaltacağını net bilmiyor. Oysa web altyapısında yapılan klasik performans iyileştirmeleri (cache, CDN, görsel optimizasyonu, istek sayısını azaltma) çoğu zaman aynı anda enerji verimliliği de sağlar. Bu rehber, Green IT’yi “tek seferlik proje” değil, bakım süreçlerine entegre edilen yeşil bakım modeli olarak ele alır: kaynak kullanımını ölç, gereksiz tüketimi azalt, trendle raporla ve iletişimini doğru yap.",
       "quickSummary": [
         "1) Green IT’yi “performans + kaynak” ikilisi olarak tanımla.",
         "2) Ölçmeden optimize etme: veri transferi ve CPU sinyallerini yakala.",
@@ -79555,14 +79659,14 @@
       "ctaPrimary": {
         "label": "Green IT & Sürdürülebilir Bakım Analizi Talep Et",
         "text": "Web altyapısında enerji verimliliği ve performansı birlikte iyileştirmek isteyen markalar için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Green IT & Sürdürülebilir Bakım Analizi Talep Et",
         "text": "Kurumsal sosyal sorumluluk ve sürdürülebilirlik vurgusu güçlü otel ve B2B markalarda, web altyapısının kaynak tüketimini azaltmak için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Green IT Web Bakım & Enerji Verimliliği Checklist Şablonunu İndir",
@@ -79573,18 +79677,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
-        "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Bakım Planı: Aylık & Çeyreklik | DGTLFACE",
+        "href": "/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi"
+      },
+      {
+        "title": "Performans Regresyon Testleri: Yeni Sürüm Yavaşladı mı?",
+        "href": "/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz"
+      },
+      {
+        "title": "Bakım KPI’ları ve Site Sağlık Dashboard’u",
+        "href": "/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u"
+      }
+    ],
     "sections": [
       {
         "id": "green-it-nedir",
@@ -79592,7 +79717,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Green IT; BT altyapısını enerji verimliliği, kaynak kullanımı ve çevresel etki açısından optimize etmeyi hedefler. Web dünyasında bunun pratik karşılığı: daha az veri transferi, daha az gereksiz işlem, daha verimli cache/CDN, daha doğru kapasite planlama ve daha az “boşa çalışan” sistemdir."
+            "text": "Green IT; BT altyapısını enerji verimliliği, kaynak kullanımı ve çevresel etki açısından optimize etmeyi hedefler. Web dünyasında bunun pratik karşılığı; daha az veri transferi, daha az gereksiz işlem, daha verimli cache/CDN, daha doğru kapasite planlama ve daha az “boşa çalışan” sistemdir. Bu [enerji verimli bakım](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı, sürdürülebilirliği doğrudan performans ve kullanıcı deneyimiyle bağlar."
           },
           {
             "type": "h3",
@@ -79702,7 +79827,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Evet, dolaylı olarak etkiler: CDN/cache ile origin’e giden istek sayısı ve veri transferi azalır; medya ve kod optimizasyonu cihaz ve sunucu tarafında işlem yükünü düşürür. Kesin “karbon rakamı” yerine kaynak tüketimi trendini ölçmek ve azaltmak daha güvenilir yaklaşımdır."
+            "text": "Cevap: Evet, dolaylı olarak etkiler: CDN/cache ile origin’e giden istek sayısı ve veri transferi azalır; medya ve kod optimizasyonu cihaz ve sunucu tarafında işlem yükünü düşürür. Kesin “karbon rakamı” yerine kaynak tüketimi trendini ölçmek ve azaltmak daha güvenilir yaklaşımdır. Özellikle yeni sürüm sonrası yavaşlama ve fazla işlem yükünü [performans regresyonu ve kaynak tüketimi](https://dgtlface.com/tr/yazilim/blog/performans-regresyon-testleri-yeni-surumde-yavaslamayi-nasil-yakalariz) mantığıyla birlikte değerlendirmek gerekir."
           },
           {
             "type": "h3",
@@ -79720,7 +79845,7 @@
           },
           {
             "type": "p",
-            "text": "Teknik not: CWV iyileştirmeleri çoğu zaman enerji verimliliğiyle aynı yönde çalışır; SEO etkisi için: https://dgtlface.com/tr/seo/teknik-seo"
+            "text": "Teknik not: CWV iyileştirmeleri çoğu zaman enerji verimliliğiyle aynı yönde çalışır; bu nedenle [teknik SEO ile kaynak optimizasyonu](https://dgtlface.com/tr/seo/teknik-seo) birlikte ele alındığında aynı işten çift fayda üretmek mümkün olur."
           },
           {
             "type": "media",
@@ -79754,7 +79879,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Green IT bakım, bir defalık proje değil; periyodik checklist ile sürdürülebilir hale gelir. Otelde görsel yoğunluk ve çok dilli yapı; B2B’de dashboard/rapor sayfaları bu checklist’in merkezindedir."
+            "text": "Green IT bakım, bir defalık proje değil; [Green IT bakım checklist’i](https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi) mantığıyla periyodik hale geldiğinde sürdürülebilir olur. Otelde görsel yoğunluk ve çok dilli yapı; B2B’de dashboard/rapor sayfaları bu checklist’in merkezindedir."
           },
           {
             "type": "h3",
@@ -79768,6 +79893,10 @@
               "Kampanya landing’lerinde cache/CDN ve hızlı ilk ekran",
               "Rezervasyon funnel’inde gereksiz JS ve üçüncü taraf azaltma"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu başlıklar, özellikle [otel web sitelerinde sürdürülebilir dijital performans](https://dgtlface.com/tr/otel-dijital-pazarlama) kurmak isteyen ekipler için pazarlama kalitesiyle operasyonel verimliliği aynı zeminde toplar."
           },
           {
             "type": "h3",
@@ -79916,7 +80045,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Green IT çalışmaları raporlanmazsa, “güzel niyet” olarak kalır. Ama rapor “kesin karbon rakamı” iddiasıyla yapılırsa güven kaybı yaratabilir. Daha doğru yaklaşım: kaynak tüketimi proxy metrikleri (veri transferi, CPU zamanı, sayfa ağırlığı) üzerinden trend raporu."
+            "text": "Green IT çalışmaları raporlanmazsa, “güzel niyet” olarak kalır. Ama rapor “kesin karbon rakamı” iddiasıyla yapılırsa güven kaybı yaratabilir. Daha doğru yaklaşım; [sürdürülebilir bakım KPI’ları](https://dgtlface.com/tr/yazilim/blog/bakim-kpi-lari-ve-site-saglik-dashboard-u) ile kaynak tüketimi proxy metriklerini (veri transferi, CPU zamanı, sayfa ağırlığı) aynı görünümde izlemektir."
           },
           {
             "type": "h3",
@@ -79933,7 +80062,7 @@
           },
           {
             "type": "p",
-            "text": "Veri panelleri ve raporlama için: https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+            "text": "Düzenli dashboard ve trend analizi için [karbon ayak izi optimizasyonu](https://dgtlface.com/tr/veri-analiz-ve-raporlama) yaklaşımını veri modeli, performans raporu ve bakım çıktılarıyla birlikte ele almak gerekir."
           },
           {
             "type": "callout",
@@ -79963,7 +80092,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çoğu içerik Green IT’yi “etiket” gibi anlatır; oysa gerçek değer, bakım rutinine girmesidir. Bu rehber; hosting/kapasite, CDN/cache, medya/kod ve CWV’yi tek “yeşil bakım modeli” altında birleştirir ve uygulanabilir checklist verir. Böylece sürdürülebilirlik, teknik ekibin günlük operasyonuna bağlanır."
+            "text": "Çoğu içerik Green IT’yi “etiket” gibi anlatır; oysa gerçek değer, bakım rutinine girmesidir. Bu rehber; hosting/kapasite, CDN/cache, medya/kod ve CWV’yi tek “yeşil bakım modeli” altında birleştirir ve uygulanabilir checklist verir. Böylece sürdürülebilirlik, teknik ekibin günlük operasyonuna bağlanır. [Bakım ve Destek hizmetiyle sustainable maintenance yaklaşımını uygulayın](https://dgtlface.com/tr/yazilim/bakim-ve-destek)."
+          },
+          {
+            "type": "p",
+            "text": "Bakım kapsamı, optimizasyon sınırları ve destek modeli detayları için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -79978,7 +80111,7 @@
             "variant": "primary",
             "label": "Green IT & Sürdürülebilir Bakım Analizi Talep Et",
             "text": "Green IT checklist’inizi projenize göre birlikte kurgulayalım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -80026,15 +80159,14 @@
           "Canonical kontrolü: /tr/yazilim/blog/green-it-ve-surdurulebilir-bakim-web-altyapisinin-karbon-ayak-izini-azaltmak",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
-          "Teknik SEO iç linki kontrol edildi: /seo/teknik-seo",
-          "Veri Analiz ve Raporlama iç linki kontrol edildi: /veri-analiz-ve-raporlama",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, bakım planı, performans regresyonu, bakım KPI’ları, Teknik SEO, Veri Analiz ve Raporlama ve Otel Dijital Pazarlama iç linkleri kontrol edildi",
           "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
           "Secondary CTA: 1 kez — orta bölümde",
           "Secondary CTA türü: Download Asset",
           "Green IT bakım checklist’i ana içerikte tek tablo olarak kullanıldı",
           "Proxy metrikler: veri transferi, CPU zamanı, sayfa ağırlığı, cache hit oranı ve CWV",
           "Kesin karbon rakamı yerine kaynak tüketimi trendi kullanıldı",
+          "Bakımın hız, kaynak optimizasyonu ve sürdürülebilirlik değeri aynı anlatı içinde korunuyor",
           "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
         ]
       }
@@ -80088,7 +80220,7 @@
     },
     "h1": {
       "title": "Uzaktan Bakım ve Dağınık Ekipler İçin Async Ops Modeli",
-      "intro": "Remote/hibrid ekiplerde bakımın en büyük düşmanı “bilginin anlık konuşmalarda kaybolmasıdır.” Her şeyi toplantıda çözmek; zaman dilimleri farklılaştıkça imkânsız hale gelir ve ekipte sürekli “yakalamaca” başlar. Async ops modeli; ticket’ı tek kaynak yapar, ticket yorumlarını standartlaştırır, handover notlarıyla vardiya/zaman dilimi geçişini güvenli hale getirir ve operasyonu meeting-light hale getirir. Böylece bakım, kişilere değil yazılı ve izlenebilir bir sürece bağlı akar.",
+      "intro": "Dağıtık operasyonlarda [async ops modeli](https://dgtlface.com/tr/yazilim/bakim-ve-destek), bakım bilgisini kişilere değil yazılı sürece bağlamak için kritik hale gelir. Remote/hibrid ekiplerde bakımın en büyük düşmanı “bilginin anlık konuşmalarda kaybolmasıdır.” Her şeyi toplantıda çözmek; zaman dilimleri farklılaştıkça imkânsız hale gelir ve ekipte sürekli “yakalamaca” başlar. Async ops modeli; ticket’ı tek kaynak yapar, ticket yorumlarını standartlaştırır, handover notlarıyla vardiya/zaman dilimi geçişini güvenli hale getirir ve operasyonu meeting-light hale getirir. Böylece bakım, kişilere değil yazılı ve izlenebilir bir sürece bağlı akar.",
       "quickSummary": [
         "1. “Ticket güncellenmediyse yapılmamış sayılır” kuralı koy.",
         "2. Ticket yorumlarını “formatlı” yazdır (template).",
@@ -80099,14 +80231,14 @@
       "ctaPrimary": {
         "label": "Uzaktan Bakım & Async Ops Modeli Analiz Talep Et",
         "text": "Dağıtık ekiplerde bakımın akmasını sağlayacak süreç, araç ve ritmi kurmak isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Uzaktan Bakım & Async Ops Modeli Analiz Talep Et",
         "text": "Remote/hibrid çalışan otel ve B2B bakım ekiplerinde süreç akışını toplantısız ve izlenebilir hale getirmek için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Uzaktan Bakım İçin Async Ops & Handover Şablonu İndir",
@@ -80117,22 +80249,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
-        "label": "Sunucu Güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Çağrı Merkezi Hizmetleri",
+        "href": "/tr/cagri-merkezi-hizmetleri"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Dokümantasyon ve Runbook: Web Projelerinde Bilgi Kaybını Önlemek",
+        "href": "/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek"
+      },
+      {
+        "title": "On-Call Modeli ve Nöbet Planlama: Bakım Ekibi İçin Çalışma Saatleri Dengesi",
+        "href": "/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi"
+      },
+      {
+        "title": "AIOps & Prediktif Bakım: Incident Öncesi Sinyal",
+        "href": "/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak"
+      }
+    ],
     "sections": [
       {
         "id": "uzaktan-hibrit-bakim-ekipleri",
@@ -80140,7 +80289,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Uzaktan çalışma bakım ekiplerinde iki yeni gerçeklik doğurur:"
+            "text": "Uzaktan çalışan [uzaktan bakım ekibi](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yapılarında iki yeni gerçeklik ortaya çıkar:"
           },
           {
             "type": "list",
@@ -80152,7 +80301,7 @@
           },
           {
             "type": "p",
-            "text": "Bu nedenle remote bakım; daha fazla dokümantasyon, daha iyi ticket notları ve net iletişim protokolleri ister."
+            "text": "Bu nedenle remote bakım; daha fazla dokümantasyon, daha iyi ticket notları ve [async operasyon için runbook](https://dgtlface.com/tr/yazilim/blog/dokumantasyon-ve-runbook-web-projelerinde-bilgi-kaybini-onlemek) gibi net iletişim protokolleri ister."
           },
           {
             "type": "h3",
@@ -80216,7 +80365,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Async ops; bakım iletişimini ticket ve yazılı handover notları üzerinden yürüten, net kanal kurallarıyla meeting-light çalışan modeldir. Uygulama için ticket yorum standardı, handover şablonu, “tek kaynak ticket” kuralı ve zaman dilimi planı gerekir."
+            "text": "Cevap: Async ops; bakım iletişimini ticket ve yazılı handover notları üzerinden yürüten, net kanal kurallarıyla meeting-light çalışan modeldir. Uygulama için ticket yorum standardı, handover şablonu, “tek kaynak ticket” kuralı ve zaman dilimi planı gerekir. Özellikle rezervasyon ve müşteri destek akışlarında [çağrı merkezi taleplerinde async eskalasyon](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) kurgusu bu modelin kopmadan işlemesini sağlar."
           },
           {
             "type": "h3",
@@ -80265,7 +80414,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Async ops’in omurgası handover’dır. Handover; gün sonu veya vardiya geçişinde “hangi işler açık, ne denendi, sırada ne var?” sorusuna net cevap verir."
+            "text": "Async ops’in omurgası [handover notu](https://dgtlface.com/tr/yazilim/blog/on-call-modeli-ve-nobet-planlama-bakim-ekibi-icin-calisma-saatleri-dengesi) ve yazılı devir disiplinidir. Handover; gün sonu veya vardiya geçişinde “hangi işler açık, ne denendi, sırada ne var?” sorusuna net cevap verir."
           },
           {
             "type": "h3",
@@ -80426,7 +80575,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Ticket’i tek kaynak yapıp standart handover notlarıyla vardiya geçişini güvenli hale getirin. Kritik akışları (otel: rezervasyon/ödeme; B2B: API/rapor) zaman dilimi pencerelerine göre sahiplenin; “release sonrası izleme”yi follow-the-sun devriyle yönetin."
+            "text": "Cevap: Ticket’i tek kaynak yapıp standart handover notlarıyla vardiya geçişini güvenli hale getirin. Kritik akışları (otel: rezervasyon/ödeme; B2B: API/rapor) zaman dilimi pencerelerine göre sahiplenin; “release sonrası izleme”yi follow-the-sun devriyle yönetin. Özellikle anomali ve erken uyarı akışlarında [AIOps uyarılarının async takibi](https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak) ekipler arası devir kalitesini ciddi biçimde artırır."
           },
           {
             "type": "media",
@@ -80464,20 +80613,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Async ops, “yalnız süreç” değildir; SLA ve iş hedefleriyle hizalanmalıdır. Ticketing kalitesi SLA’yı doğrudan etkiler; downtime’ın iş etkisi de raporlamaya yansır."
+            "text": "Async ops, “yalnız süreç” değildir; SLA ve iş hedefleriyle hizalanmalıdır. Ticketing kalitesi SLA’yı doğrudan etkiler; downtime’ın iş etkisi de [async bakım raporlaması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) ile görünür hale gelmelidir."
           },
           {
-            "type": "h3",
-            "text": "İç link önerileri"
-          },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "https://dgtlface.com/tr/yazilim/bakim-ve-destek (SLA)",
-              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik (incident/güvenlik)",
-              "https://dgtlface.com/tr/raporlama/satis-donusum (Varsayım: sayfa mevcutsa; değilse raporlama hub’a yönlendirilir.)"
-            ]
+            "type": "p",
+            "text": "İş tarafı açısından en kritik görünüm ise [bakım gecikmelerinin satış dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) üzerinden lead, form ve rezervasyon kaybını görünür kılmaktır."
           },
           {
             "type": "callout",
@@ -80507,7 +80647,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "TR’de remote çalışma çok konuşuluyor; fakat bakım ve destek süreçlerinin async modeliyle nasıl yürütüleceği az anlatılıyor. Bu rehber; ticket yorum standardı, handover şablonu, kanal kuralları ve time-zone kurgusuyla uygulanabilir bir “meeting-light maintenance” modeli sunar. Sonuç: daha az toplantı baskısı, daha net sahiplik ve daha izlenebilir bakım."
+            "text": "TR’de remote çalışma çok konuşuluyor; fakat bakım ve destek süreçlerinin async modeliyle nasıl yürütüleceği az anlatılıyor. Bu rehber; ticket yorum standardı, handover şablonu, kanal kuralları ve time-zone kurgusuyla uygulanabilir bir “meeting-light maintenance” modeli sunar. Sonuç: daha az toplantı baskısı, daha net sahiplik ve daha izlenebilir bakım. [Bakım ve Destek hizmetiyle remote maintenance sürecinizi sistemleştirin](https://dgtlface.com/tr/yazilim/bakim-ve-destek)."
+          },
+          {
+            "type": "p",
+            "text": "Destek kapsamı, uzaktan çalışma modeli ve bakım akışlarıyla ilgili detaylar için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -80518,7 +80662,7 @@
             "variant": "primary",
             "label": "Uzaktan Bakım & Async Ops Modeli Analiz Talep Et",
             "text": "Projenize uygun ticket/handover standardını birlikte kuralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -80564,10 +80708,7 @@
           "Canonical kontrolü: /tr/yazilim/blog/uzaktan-bakim-ve-dagitik-ekipler-icin-async-ops-modeli",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
-          "Sunucu Güvenliği iç linki kontrol edildi: /yazilim/sunucu-guvenlik",
-          "Veri Analiz ve Raporlama iç linki kontrol edildi: /veri-analiz-ve-raporlama",
-          "Satış Dönüşüm Raporlama URL’si mevcutsa /raporlama/satis-donusum kullanılır; mevcut değilse raporlama hub’a yönlendirilir",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, runbook, on-call, AIOps, Veri Analiz ve Raporlama, Çağrı Merkezi Hizmetleri ve Satış Dönüşüm iç linkleri kontrol edildi",
           "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
           "Secondary CTA: 1 kez — orta bölümde",
           "Secondary CTA türü: Download Asset",
@@ -80575,6 +80716,7 @@
           "Ticket yorum standardı alanları: özet, etki, durum, kanıt, yapılanlar, sıradaki ve risk",
           "Follow-the-sun devrinde ticket ve handover zorunluluğu kontrol edildi",
           "Handover alanlarında ticket linki, blokaj ve sıradaki adım boş bırakılmıyor",
+          "Async iletişim, handover ve yazılı süreçlerle toplantı bağımlılığını azaltan anlatı korunuyor",
           "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
         ]
       }
@@ -80628,7 +80770,7 @@
     },
     "h1": {
       "title": "Self-Service Bakım Paneli ve Guardrail’ler: Teknik Olmayan Kullanıcılara Güvenli Yetki",
-      "intro": "Birçok ekip iki uçta kalıyor: ya panel tamamen kilitli ve her küçük değişiklik teknik backlog’a düşüyor, ya da panel tamamen serbest ve tasarım/güvenlik kaosu başlıyor. Doğru çözüm “ortası”: risk-limited access yaklaşımı. Yani self-service panel var; ama guardrail’lerle sınırlı: rol bazlı yetki, onay akışı, audit log, geri alma ve alan sınırları. Bu rehber, otel ve B2B projelerinde self-service’in hangi işlere açılacağını, hangi işlerin teknik ekipte kalacağını ve risk yönetimini nasıl kuracağınızı anlatır.",
+      "intro": "Kurumsal ekipler için [self-service bakım paneli](https://dgtlface.com/tr/yazilim/bakim-ve-destek), teknik backlog’u büyüten küçük ama sık talepleri kontrollü biçimde azaltmanın pratik yollarından biridir. Birçok ekip iki uçta kalıyor: ya panel tamamen kilitli ve her küçük değişiklik teknik backlog’a düşüyor, ya da panel tamamen serbest ve tasarım/güvenlik kaosu başlıyor. Doğru çözüm “ortası”: risk-limited access yaklaşımı. Yani self-service panel var; ama guardrail’lerle sınırlı: rol bazlı yetki, onay akışı, audit log, geri alma ve alan sınırları. Bu rehber, otel ve B2B projelerinde self-service’in hangi işlere açılacağını, hangi işlerin teknik ekipte kalacağını ve risk yönetimini nasıl kuracağınızı anlatır.",
       "quickSummary": [
         "1. Self-service’i “küçük ve sık” değişikliklere odakla.",
         "2. Yetki kapsamını “liste” olarak yazıp kilitle.",
@@ -80639,14 +80781,14 @@
       "ctaPrimary": {
         "label": "Self-Service Bakım & Guardrail Tasarım Analizi Talep Et",
         "text": "Teknik ekibin yükünü azaltıp iş ekibine güvenli yetki vermek isteyen markalar için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Self-Service Bakım & Guardrail Tasarım Analizi Talep Et",
         "text": "Teknik olmayan ekiplerin güvenli biçimde küçük değişiklik yapabildiği, riskleri kontrol eden self-service modelini kurmak isteyen otel ve B2B markalar için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "Self-Service Panel Yetki & Guardrail Planlama Şablonunu İndir",
@@ -80657,22 +80799,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
-        "label": "CMS Entegrasyonu",
-        "href": "/yazilim/cms-entegrasyonu"
-      },
-      {
-        "label": "KVKK Uyum Hizmeti",
-        "href": "/yazilim/kvkk-uyum-hizmeti"
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
         "label": "İçerik SEO",
-        "href": "/seo/icerik-seo"
+        "href": "/tr/seo/icerik-seo"
+      },
+      {
+        "label": "KVKK / Veri Güvenliği",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Ticketing & Helpdesk Mimarisi: Bakım Süreci",
+        "href": "/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak"
+      },
+      {
+        "title": "Bakım Modelleri: Outsource mı İç Ekip mi?",
+        "href": "/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi"
+      },
+      {
+        "title": "Dijital Servis Kataloğu: Bakım Kapsamı ve RACI",
+        "href": "/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek"
+      }
+    ],
     "sections": [
       {
         "id": "neden-self-service-bakim",
@@ -80680,7 +80839,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Self-service bakımın hedefi “IT’yi devre dışı bırakmak” değil; IT’nin zamanını daha değerli işlere ayırmasını sağlamaktır. Özellikle otel ve B2B’de sık değişen kampanya metinleri, banner görselleri, promosyon alanları ve küçük içerik düzeltmeleri teknik ekibi sürekli bölüyorsa, bu işlerin kontrollü şekilde self-service’e taşınması toplam hız ve kaliteyi artırır."
+            "text": "Self-service bakımın hedefi “IT’yi devre dışı bırakmak” değil; IT’nin zamanını daha değerli işlere ayırmasını sağlamaktır. Özellikle otel ve B2B’de sık değişen kampanya metinleri, banner görselleri, promosyon alanları ve küçük içerik düzeltmeleri teknik ekibi sürekli bölüyorsa, bu işlerin kontrollü şekilde self-service’e taşınması toplam hız ve kaliteyi artırır. Bu [guardrail admin panel](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) yaklaşımı, teknik ekiple iş ekipleri arasında kontrollü bir hız alanı yaratır."
+          },
+          {
+            "type": "p",
+            "text": "Burada asıl denge, [iş ekibi ve bakım ekibi arasında yetki paylaşımı](https://dgtlface.com/tr/yazilim/blog/bakim-modelleri-outsourcing-vs-ic-ekip-avantaj-ve-dezavantaj-analizi) doğru kurulursa ortaya çıkar; aksi halde küçük talepler yine yanlış ekibe düşer."
           },
           {
             "type": "h3",
@@ -80727,7 +80890,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kural basit: düşük risk, kolay geri alma olan alanlar açılır; sistemik risk üreten alanlar teknik ekipte kalır. Burada “risk” hem güvenlik hem SEO hem de kullanıcı deneyimi riskidir."
+            "text": "Kural basit: düşük risk, kolay geri alma olan alanlar açılır; sistemik risk üreten alanlar teknik ekipte kalır. Burada “risk” hem güvenlik hem SEO hem de kullanıcı deneyimi riskidir. Bu sınırları [self-service kapsamı servis kataloğu](https://dgtlface.com/tr/yazilim/blog/dijital-servis-katalogu-bakim-ve-destek-kapsamini-netlestirmek) içinde netleştirmek, iş ekiplerinin hangi alanlara dokunabileceğini belirsizlikten çıkarır."
           },
           {
             "type": "h3",
@@ -80765,7 +80928,7 @@
           },
           {
             "type": "p",
-            "text": "Cevap: Self-service bakım paneli; teknik olmayan kullanıcıların metin/görsel/kampanya gibi düşük riskli içerik alanlarını güvenli biçimde yönetmesini sağlayan sınırlı admin arayüzüdür. Uygun işlemler; kolay geri alınabilir ve sistemik risk üretmeyen değişikliklerdir; kritik teknik ayarlar uzman ekipte kalmalıdır."
+            "text": "Cevap: Self-service bakım paneli; teknik olmayan kullanıcıların metin/görsel/kampanya gibi düşük riskli içerik alanlarını güvenli biçimde yönetmesini sağlayan sınırlı admin arayüzüdür. Uygun işlemler; kolay geri alınabilir ve sistemik risk üretmeyen değişikliklerdir; kritik teknik ayarlar uzman ekipte kalmalıdır. Bu içerik alanları açılırken [SEO uyumlu içerik güncellemeleri](https://dgtlface.com/tr/seo/icerik-seo) mantığı da korunmalıdır."
           },
           {
             "type": "h3",
@@ -80847,7 +81010,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Guardrail, self-service’in “güvenli” olmasını sağlayan kural ve mekanizmalardır. Amaç: hız verirken “siteyi bozma” riskini düşürmek."
+            "text": "Guardrail, self-service’in “güvenli” olmasını sağlayan kural ve mekanizmalardır. Amaç: hız verirken “siteyi bozma” riskini düşürmek. Guardrail dışına çıkan işlerin ise [self-service dışı taleplerin ticket’a dönüşmesi](https://dgtlface.com/tr/yazilim/blog/ticketing-ve-helpdesk-mimarisi-bakim-surecini-standartlastirmak) gerekir; böylece teknik müdahale gerektiren işler görünür backlog’a taşınır."
           },
           {
             "type": "h3",
@@ -80906,7 +81069,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Self-service en hızlı değeri, sık güncellenen içerik/kampanya alanlarında üretir."
+            "text": "Self-service en hızlı değeri, sık güncellenen içerik/kampanya alanlarında üretir. Özellikle [otel pazarlama ekipleri için self-service güncelleme](https://dgtlface.com/tr/otel-dijital-pazarlama) modeli; sezon sayfaları, kampanya alanları ve duyuru bloklarında teknik backlog baskısını azaltabilir."
           },
           {
             "type": "h3",
@@ -81009,7 +81172,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Self-service açıldığında risk artmaz; doğru kurgulanırsa risk daha yönetilebilir olur, çünkü değişiklikler kayıt altına alınır. Risk yönetimi üç katmanda yapılır: erişim, doğrulama, izleme."
+            "text": "Self-service açıldığında risk artmaz; doğru kurgulanırsa risk daha yönetilebilir olur, çünkü değişiklikler kayıt altına alınır. Risk yönetimi üç katmanda yapılır: erişim, doğrulama, izleme. Özellikle [admin panel yetkileri ve veri güvenliği](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) birlikte ele alınmadığında audit log ve rol modeli eksik kalır."
           },
           {
             "type": "h3",
@@ -81066,7 +81229,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "TR’de pek çok kurum paneli ya tamamen kilitli tutuyor ya da tamamen serbest bırakıyor. Bu rehberin farkı; guardrail’lerle “kontrollü empowerment” vermesidir: low-risk alanları aç, high-risk alanları kapalı tut, izlenebilirlik ve geri alma ile riski yönet. Böylece hem iş ekipleri hız kazanır hem teknik ekip stratejik bakım işlerine odaklanır."
+            "text": "TR’de pek çok kurum paneli ya tamamen kilitli tutuyor ya da tamamen serbest bırakıyor. Bu rehberin farkı; guardrail’lerle “kontrollü empowerment” vermesidir: low-risk alanları aç, high-risk alanları kapalı tut, izlenebilirlik ve geri alma ile riski yönet. Böylece hem iş ekipleri hız kazanır hem teknik ekip stratejik bakım işlerine odaklanır. [Bakım ve Destek hizmetiyle limited admin bakım modelinizi güvenli kurun](https://dgtlface.com/tr/yazilim/bakim-ve-destek)."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, erişim sınırları ve destek modeli detayları için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -81081,7 +81248,7 @@
             "variant": "primary",
             "label": "Self-Service Bakım & Guardrail Tasarım Analizi Talep Et",
             "text": "Projenize uygun kapsam ve guardrail setini birlikte çıkaralım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -81128,10 +81295,7 @@
           "Canonical kontrolü: /tr/yazilim/blog/self-service-bakim-paneli-ve-guardrail-ler-teknik-olmayan-kullanicilara-guvenli-yetki",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
-          "CMS Entegrasyonu iç linki kontrol edildi: /yazilim/cms-entegrasyonu",
-          "KVKK Uyum Hizmeti iç linki kontrol edildi: /yazilim/kvkk-uyum-hizmeti",
-          "İçerik SEO iç linki kontrol edildi: /seo/icerik-seo",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, ticketing, bakım modeli, servis kataloğu, İçerik SEO, KVKK / Veri Güvenliği ve Otel Dijital Pazarlama iç linkleri kontrol edildi",
           "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
           "Secondary CTA: 1 kez — orta bölümde",
           "Secondary CTA türü: Download Asset",
@@ -81143,6 +81307,7 @@
           "Değişiklik sonrası 30–60 dakikalık izleme penceresi uygulanır",
           "Pilot süresi: 4–6 hafta",
           "Yetki kapsamı 90 günde bir güncellenir",
+          "Düşük riskli değişikliklerin iş ekiplerine açılması ve teknik backlog azaltma anlatısı korunuyor",
           "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
         ]
       }
@@ -81196,7 +81361,7 @@
     },
     "h1": {
       "title": "SRE Kültürü ve Error Budget Modeli: Bakım Sürecine Uyarlamak",
-      "intro": "Birçok ekipte aynı tartışma tekrar eder: “Özellik yetiştirelim” diyenlerle “stabilite bozuluyor” diyenler karşı karşıya gelir. SRE kültürü, bu tartışmayı kişisel görüşlerden çıkarıp ölçülebilir hedeflere bağlar: SLO’lar, error budget ve net aksiyon kuralları. Error budget; aslında “ne kadar risk alabiliriz?” sorusunun sayısal yanıtıdır. Bu rehber; SLO/SLA kavramlarını sadeleştirir, error budget’ı nasıl hesaplayacağınızı ve otel/B2B projelerinde bakım–ürün kararlarına nasıl bağlayacağınızı adım adım anlatır.",
+      "intro": "Birçok ekipte aynı tartışma tekrar eder: “Özellik yetiştirelim” diyenlerle “stabilite bozuluyor” diyenler karşı karşıya gelir. [SRE nedir error budget ne demek](https://dgtlface.com/tr/yazilim/bakim-ve-destek) sorusuna verilen net yanıt, bu tartışmayı kişisel görüşlerden çıkarıp ölçülebilir hedeflere bağlar: SLO’lar, error budget ve net aksiyon kuralları. Error budget; aslında “ne kadar risk alabiliriz?” sorusunun sayısal yanıtıdır. Bu rehber; SLO/SLA kavramlarını sadeleştirir, error budget’ı nasıl hesaplayacağınızı ve otel/B2B projelerinde bakım–ürün kararlarına nasıl bağlayacağınızı adım adım anlatır.",
       "quickSummary": [
         "1. Kritik servisler için ölçülebilir SLO hedefleri belirle.",
         "2. Error budget’ı SLO hedefi ve dönem süresine göre hesapla.",
@@ -81207,14 +81372,14 @@
       "ctaPrimary": {
         "label": "SRE & Error Budget Bakım Modeli Analiz Talep Et",
         "text": "Feature hızını ve stabiliteyi aynı metrik diliyle yönetmek isteyen ekipler için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "SRE & Error Budget Bakım Modeli Analiz Talep Et",
         "text": "Ürün hızını ve stabiliteyi ortak SLO/error budget diliyle yönetmek isteyen otel, SaaS ve B2B ekipleri için.",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       "secondary": {
         "label": "SLO & Error Budget Tanım ve Takip Şablonunu İndir",
@@ -81225,22 +81390,39 @@
     "internalLinks": [
       {
         "label": "Bakım ve Destek",
-        "href": "/yazilim/bakim-ve-destek"
+        "href": "/tr/yazilim/bakim-ve-destek"
       },
       {
-        "label": "Satış Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
       },
       {
-        "label": "Sunucu Güvenliği",
-        "href": "/yazilim/sunucu-guvenlik"
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       },
       {
         "label": "Veri Analiz ve Raporlama",
-        "href": "/veri-analiz-ve-raporlama"
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model",
+        "href": "/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model"
+      },
+      {
+        "title": "Bakım Roadmap’i ve Ürün Roadmap’ini Hizalamak",
+        "href": "/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak"
+      },
+      {
+        "title": "AIOps & Prediktif Bakım: Incident Öncesi Sinyal",
+        "href": "/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak"
+      }
+    ],
     "sections": [
       {
         "id": "sre-nedir",
@@ -81248,7 +81430,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "SRE (Site Reliability Engineering), yazılım ve operasyon disiplinlerini birleştirip hizmetin güvenilirliğini ölçülebilir hedeflerle yöneten yaklaşımdır. SRE’nin özü “daha az incident” demek değildir; kabul edilebilir risk seviyesini netleştirip buna göre hız–stabilite dengesini kurmaktır."
+            "text": "SRE (Site Reliability Engineering), yazılım ve operasyon disiplinlerini birleştirip hizmetin güvenilirliğini [bakım sürecinde SLO](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) ve reliability hedefleriyle yöneten yaklaşımdır. SRE’nin özü “daha az incident” demek değildir; kabul edilebilir risk seviyesini netleştirip buna göre hız–stabilite dengesini kurmaktır."
           },
           {
             "type": "h3",
@@ -81303,7 +81485,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölümde en sık karışan üç kavramı netleştiriyoruz: SLA, SLO, error budget."
+            "text": "Bu bölümde en sık karışan üç kavramı netleştiriyoruz: [SLA SLO error budget farkı](https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model) bakım kararlarında neden kritik, bunu sade bir çerçevede ele alıyoruz."
           },
           {
             "type": "list",
@@ -81371,7 +81553,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Error budget’in gerçek değeri burada ortaya çıkar: bütçe “sağlıklı” ise kontrollü risk alabiliriz; bütçe “tükendiyse” stabiliteye dönmeliyiz. Bu, ekipler arası tartışmayı “kim haklı”dan “hangi sayı ne diyor”a çevirir."
+            "text": "Error budget’in gerçek değeri burada ortaya çıkar: bütçe “sağlıklı” ise kontrollü risk alabiliriz; bütçe “tükendiyse” stabiliteye dönmeliyiz. Bu, ekipler arası tartışmayı “kim haklı”dan “hangi sayı ne diyor”a çevirir ve [stability vs velocity](https://dgtlface.com/tr/yazilim/blog/bakim-roadmap-i-ve-urun-roadmap-ini-hizalamak) dengesini roadmap üstünde daha net kurmayı sağlar."
           },
           {
             "type": "h3",
@@ -81422,7 +81604,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "SLO’lar servis bazında tanımlanmalıdır. Otelde rezervasyon/ödeme; B2B’de API/raporlama kritik servislerdir."
+            "text": "SLO’lar servis bazında tanımlanmalıdır. Otelde rezervasyon/ödeme; B2B’de API/raporlama kritik servislerdir. Özellikle kritik akışlarda [error budget ve AIOps sinyalleri](https://dgtlface.com/tr/yazilim/blog/aiops-ve-prediktif-bakim-yapay-zeka-ile-incident-oncesi-sinyal-yakalamak) birlikte takip edildiğinde incident oluşmadan önce riskleri görmek kolaylaşır."
           },
           {
             "type": "h3",
@@ -81589,14 +81771,12 @@
             "text": "Bütünsel konumlandırma için iç linkler"
           },
           {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "https://dgtlface.com/tr/yazilim/bakim-ve-destek (SLA)",
-              "https://dgtlface.com/tr/yazilim/sunucu-guvenlik (incident sıklığı)",
-              "https://dgtlface.com/tr/raporlama/satis-donusum (downtime’ın gelir etkisi)",
-              "https://dgtlface.com/tr/veri-analiz-ve-raporlama (paneller)"
-            ]
+            "type": "p",
+            "text": "Bu ortak dili yalnızca teknik ekip içinde bırakmamak gerekir. Özellikle [reliability’nin satış dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) görünür hale geldiğinde, bakım ve ürün ekipleri aynı veriye bakarak öncelik kararı verebilir."
+          },
+          {
+            "type": "p",
+            "text": "Aynı çerçeveyi operasyon tarafında [SLO ve error budget raporlaması](https://dgtlface.com/tr/veri-analiz-ve-raporlama) ile desteklemek ve [teknik SEO ve reliability sinyalleri](https://dgtlface.com/tr/seo/teknik-seo) üzerinden hız, crawl ve görünürlük etkisini izlemek karar kalitesini artırır."
           },
           {
             "type": "h3",
@@ -81634,7 +81814,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "SRE/error budget modeli, özellikle ürün ve bakım ekiplerinin ayrıştığı organizasyonlarda “kimin haklı olduğu” tartışmasını veriye bağlar. Bu rehberin farkı; formül, tablo, otel/B2B örnekleri ve aksiyon kurallarıyla modeli uygulanabilir hale getirmesidir: sadece teori değil, operasyon politikası."
+            "text": "SRE/error budget modeli, özellikle ürün ve bakım ekiplerinin ayrıştığı organizasyonlarda “kimin haklı olduğu” tartışmasını veriye bağlar. Bu rehberin farkı; formül, tablo, otel/B2B örnekleri ve aksiyon kurallarıyla modeli uygulanabilir hale getirmesidir: sadece teori değil, operasyon politikası. [Bakım ve Destek hizmetiyle SRE ve error budget modelinizi bakım sürecine uyarlayın](https://dgtlface.com/tr/yazilim/bakim-ve-destek)."
+          },
+          {
+            "type": "p",
+            "text": "Kapsam, destek modeli ve operasyon akışıyla ilgili ek sorular için [Bakım ve Destek hakkında sık sorulan sorular](https://dgtlface.com/tr/yazilim/bakim-ve-destek-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -81645,7 +81829,7 @@
             "variant": "primary",
             "label": "SRE & Error Budget Bakım Modeli Analiz Talep Et",
             "text": "SLO’ları ve budget kurallarını projenize göre birlikte kurgulayalım.",
-            "href": "/yazilim/bakim-ve-destek"
+            "href": "/tr/yazilim/bakim-ve-destek"
           }
         ]
       }
@@ -81694,10 +81878,7 @@
           "Canonical kontrolü: /tr/yazilim/blog/sre-kulturu-ve-error-budget-modeli-bakim-surecine-uyarlamak",
           "Indexlenebilirlik kontrolü (robots, sitemap ve noindex)",
           "Schema @graph tek blok: WebSite, WebPage, Article, BreadcrumbList ve FAQPage",
-          "Bakım ve Destek iç linki kontrol edildi: /yazilim/bakim-ve-destek",
-          "Satış Dönüşüm Raporlama iç linki kontrol edildi: /raporlama/satis-donusum",
-          "Sunucu Güvenliği iç linki kontrol edildi: /yazilim/sunucu-guvenlik",
-          "Veri Analiz ve Raporlama iç linki kontrol edildi: /veri-analiz-ve-raporlama",
+          "Bakım ve Destek, Web ve Yazılım Hizmetleri, bakım SLA’leri, bakım roadmap’i, AIOps, Satış Dönüşüm, Veri Analiz ve Raporlama ve Teknik SEO iç linkleri kontrol edildi",
           "Primary CTA: 2 kez — H1 giriş sonu ve içeriğin son 1/3’ünde",
           "Secondary CTA: 1 kez — orta bölümde",
           "Secondary CTA türü: Download Asset",
@@ -81709,6 +81890,7 @@
           "SLO’lar servis bazında availability, latency, error rate veya success rate ile ölçülür",
           "Budget tüketimi aylık raporlanır ve release takvimiyle ilişkilendirilir",
           "Postmortem sonrasında SLO ve guardrail kuralları gözden geçirilir",
+          "SLO ve error budget mantığıyla bakım ile feature hızı arasındaki denge içerikte korunuyor",
           "Kalibrasyon döngüsü: 90–180 gün",
           "Media Pack dosya adları, ölçüleri ve alt text alanları kontrol edildi"
         ]
