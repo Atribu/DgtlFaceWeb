@@ -2728,7 +2728,7 @@
     },
     "h1": {
       "title": "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
-      "intro": "Otel web sitelerinde rezervasyon akışı, çoğu zaman “tasarım” değil, gelir üretim hattı gibi çalışır: misafir doğru odayı bulur, güven duyar, fiyatı anlar ve ödeme adımına gider. Bu zincirin herhangi bir halkasında gereksiz sürtünme (fazla adım, belirsiz fiyat, güvensiz ödeme algısı, karmaşık form) oluştuğunda, rezervasyon funnel’ı kırılır ve Conversion Rate düşer. Bu rehber; resort, city ve butik otel senaryolarını dikkate alarak, misafir yolculuğunu keşiften ödeme adımına kadar “az adım + net bilgi + yüksek güven” prensibiyle kurmanız için bir çerçeve sunar.",
+      "intro": "İyi kurgulanmış bir [hotel reservation UX](https://dgtlface.com/tr/creative/ui-ux-tasarim), otel web sitelerinde rezervasyon akışını sadece bir tasarım kararı olmaktan çıkarıp doğrudan gelir üretim hattına dönüştürür: misafir doğru odayı bulur, güven duyar, fiyatı anlar ve ödeme adımına gider. Bu zincirin herhangi bir halkasında gereksiz sürtünme (fazla adım, belirsiz fiyat, güvensiz ödeme algısı, karmaşık form) oluştuğunda, rezervasyon funnel’ı kırılır ve Conversion Rate düşer. Bu rehber; resort, city ve butik otel senaryolarını dikkate alarak, misafir yolculuğunu keşiften ödeme adımına kadar az adım, net bilgi ve yüksek güven prensibiyle kurmanız için bir çerçeve sunar.",
       "quickSummary": [
         "1. Rezervasyon sürecini “güven ve netlik” etrafında 3–4 ekranda tamamlatın.",
         "2. Her adımda tek ana karar verdirin: tarih/kişi → oda seçimi → bilgi → ödeme.",
@@ -2749,7 +2749,7 @@
       "secondary": {
         "label": "Rezervasyon Funnel Checklist’ini İndir",
         "text": "Rezervasyon akışınızı 10 dakikada kontrol edip ilk 5 düzeltmeyi önceliklendirmenizi sağlar.",
-        "href": "/tr/creative/ui-ux-tasarim#rezervasyon-funnel-checklist"
+        "href": "/downloads/rezervasyon-funnel-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -2758,30 +2758,46 @@
         "href": "/tr/creative/ui-ux-tasarim"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Rezervasyon yönetimi (PMS/OTA)",
-        "href": "/tr/pms-ota/rezervasyon-yonetimi"
+        "label": "Otel Mobile-First UX",
+        "href": "/tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
       },
       {
-        "label": "Web sitesi geliştirme",
+        "label": "Otel UI Bileşenleri",
+        "href": "/tr/creative/blog/otel-ui-bilesenleri-donusum-odakli"
+      },
+      {
+        "label": "OTA vs Direkt Rezervasyon UX",
+        "href": "/tr/creative/blog/ota-vs-direkt-rezervasyon-ux"
+      },
+      {
+        "label": "Web ve Yazılım Hizmetleri",
+        "href": "/tr/web-ve-yazilim-hizmetleri"
+      },
+      {
+        "label": "Web Sitesi Geliştirme",
         "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
-        "label": "Web & yazılım hizmetleri",
-        "href": "/tr/yazilim"
+        "label": "PMS / OTA Rezervasyon Yönetimi",
+        "href": "/tr/pms-ota/rezervasyon-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "UI & UX Tasarımı",
-        "href": "/tr/creative/ui-ux-tasarim"
+        "title": "Otel Mobile-First UX: Rezervasyon ve CWV Rehberi",
+        "href": "/tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
       },
       {
-        "title": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "title": "Otel Web UX’inde Dönüşüm Odaklı UI Bileşenleri: CTA, Form, Header, Footer",
+        "href": "/tr/creative/blog/otel-ui-bilesenleri-donusum-odakli"
+      },
+      {
+        "title": "OTA vs Direkt Rezervasyon UX’i",
+        "href": "/tr/creative/blog/ota-vs-direkt-rezervasyon-ux"
       }
     ],
     "sections": [
@@ -2791,7 +2807,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rezervasyon UX’i, otel web sitesinin “görünüşünden” daha fazlasıdır; misafirin zihnindeki üç soruyu aynı anda cevaplar: “Bana uygun mu?”, “Fiyat ve koşullar net mi?”, “Buradan güvenle ödeyebilir miyim?” Resort otellerde (ör. Belek’te aile odaklı resort) misafir genellikle paket/konsept arar; city otellerde hız ve işlev önceliklidir; butik otellerde ise hikâye ve güven sinyali daha belirleyicidir. Bu nedenle tek bir “genel checkout” yaklaşımı, otel özelinde çoğu zaman yeterli olmaz."
+            "text": "Rezervasyon UX’i, otel web sitesinin görünüşünden daha fazlasıdır; misafirin zihnindeki üç soruyu aynı anda cevaplar: bana uygun mu, fiyat ve koşullar net mi, buradan güvenle ödeyebilir miyim? Resort otellerde örneğin Belek’te aile odaklı resort misafiri genellikle paket ve konsept arar; city otellerde hız ve işlev önceliklidir; butik otellerde ise hikâye ve güven sinyali daha belirleyicidir. Bu nedenle [guest journey design for resorts and city hotels](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı olmadan tek bir genel checkout mantığı, otel özelinde çoğu zaman yeterli olmaz."
           },
           {
             "type": "list",
@@ -2967,7 +2983,7 @@
           },
           {
             "type": "p",
-            "text": "Mobilde kullanıcı daha sabırsızdır; tek elle doldurma, otomatik klavye türleri, kısa alanlar ve hızlı doğrulama kritiktir. Desktop’ta karşılaştırma ve detay daha toleranslıdır. Bu yüzden mobilde “minimum alan” yaklaşımı, desktop’ta “karar destek” yaklaşımı daha iyi çalışır."
+            "text": "Mobilde kullanıcı daha sabırsızdır; tek elle doldurma, otomatik klavye türleri, kısa alanlar ve hızlı doğrulama kritiktir. Desktop’ta karşılaştırma ve detay daha toleranslıdır. Bu yüzden mobilde [mobil rezervasyon UX’i](https://dgtlface.com/tr/creative/blog/otel-mobile-first-ui-ux-rehberi) yaklaşımı, desktop’ta ise karar destek yapısıyla birlikte düşünülmelidir."
           },
           {
             "type": "callout",
@@ -2999,7 +3015,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, “booking funnel optimisation” için uygulanabilir ilkeleri otel bağlamına indirger. Hedef, her ekranda netlik + güven + hız üçlüsünü sağlamak."
+            "text": "Bu bölüm, booking funnel optimisation için uygulanabilir ilkeleri otel bağlamına indirger. Hedef, her ekranda netlik, güven ve hız üçlüsünü sağlarken [dönüşüm odaklı otel UI bileşenleri](https://dgtlface.com/tr/creative/blog/otel-ui-bilesenleri-donusum-odakli) ile rezervasyon kararını desteklemektir."
           },
           {
             "type": "h3",
@@ -3211,7 +3227,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Birçok kaynak otel rezervasyon UX’ini “genel e-ticaret checkout” gibi anlatır; fakat otelde kritik iki katman çoğu zaman eksik kalır:\n\t1.\tPMS/OTA gerçekliği: Uygunluk, fiyat, iptal koşulları ve paketler sistemlerden beslenir; arayüzde net görünmezse misafir güven kaybeder.\n\t2.\tÇok dilli akış: Aynı UX kurgusu, her pazarda aynı algıyı yaratmaz; özellikle iptal, vergi ve ödeme metinleri lokal beklentiye göre düzenlenmelidir."
+            "text": "Birçok kaynak otel rezervasyon UX’ini genel e-ticaret checkout gibi anlatır; fakat otelde kritik iki katman çoğu zaman eksik kalır. Birincisi PMS/OTA gerçekliğidir: uygunluk, fiyat, iptal koşulları ve paketler sistemlerden beslenir; arayüzde net görünmezse misafir güven kaybeder. İkincisi çok dilli akıştır: aynı UX kurgusu, her pazarda aynı algıyı yaratmaz; özellikle iptal, vergi ve ödeme metinleri lokal beklentiye göre düzenlenmelidir. Bu yüzden akışın sadece ekranlarla değil, [rezervasyon UX’inin teknik altyapısı](https://dgtlface.com/tr/web-ve-yazilim-hizmetleri) ile birlikte ele alınması gerekir."
           },
           {
             "type": "h3",
@@ -3246,8 +3262,8 @@
             "items": [
               "Sistemden gelen fiyat/koşul verisini “tek satır özet” olarak standartlaştırın.",
               "Çok dilli metinleri birebir çeviri değil, lokalizasyonla düzeltin.",
-              "OTA rakibine karşı “web avantajı” (esnek iptal, özel teklif, call support) bloğu ekleyin.",
-              "İç linklerle entity graph’i güçlendirin:\n\t•\t“otel dijital pazarlama” → https://dgtlface.com/tr/otel-dijital-pazarlama\n\t•\t“rezervasyon yönetimi (PMS/OTA)” → https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi\n\t•\t“web sitesi geliştirme” → https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme\n\t•\t“web & yazılım hizmetleri” → https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
+              "OTA rakibine karşı [direkt rezervasyon UX’i](https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux) avantajlarını görünür kılın: esnek iptal, özel teklif ve destek erişimi.",
+              "Operasyonu bağlayın: [PMS / OTA rezervasyon yönetimi](https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi), [rezervasyon akışının web geliştirme tarafı](https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme) ve rezervasyon motoru uygulamasını aynı plan içinde yürütün."
             ]
           }
         ]
@@ -3350,6 +3366,10 @@
             ],
             "href": "/downloads/rezervasyon-funnel-checklist-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle otel rezervasyon akışınızı sadeleştirin](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -3397,12 +3417,25 @@
           "Checklist / Framework Card — 1200×1200 — otel-rezervasyon-ux-temelleri-checklist-07.webp — Alt: “Otel rezervasyon UX’i için hızlı uygulanabilir kontrol listesi kartı”"
         ],
         "technicalChecklist": [
-          "GA4 event planı (adım bazlı) kuruldu",
+          "Canonical kontrolü: /tr/creative/blog/otel-rezervasyon-ux-temelleri",
+          "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Mobile-first UX, UI bileşenleri ve OTA vs direkt rezervasyon sibling linkleri doğru bölümlerde yerleştirildi",
+          "Web ve Yazılım Hizmetleri, Web Sitesi Geliştirme ve PMS / OTA Rezervasyon Yönetimi cross-silo linkleri doğru bağlamda doğrulandı",
+          "GA4 event planı adım bazlı kuruldu",
           "Mobil/desktop funnel raporu ayrıldı",
           "Form validation error dağılımı izleniyor",
-          "İptal/vergiler metinleri tüm dillerde (TR–EN–DE–RU) lokalize edildi",
-          "PMS/booking engine’den gelen fiyat/koşul verisi tek satır özet formatında",
-          "Ödeme ekranında 2 satır güven + iptal özeti yerleşimi"
+          "İptal ve vergiler metinleri tüm dillerde TR EN DE RU lokalizasyonuyla kontrol edildi",
+          "PMS/booking engine’den gelen fiyat ve koşul verisi tek satır özet formatında doğrulandı",
+          "Ödeme ekranında 2 satır güven + iptal özeti yerleşimi kontrol edildi",
+          "Rezervasyon checklist download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+          "Secondary CTA hedefi: /downloads/rezervasyon-funnel-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
+          "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
     }
@@ -3458,7 +3491,7 @@
     },
     "h1": {
       "title": "Otel Web Siteleri İçin Mobile-First UI/UX Rehberi",
-      "intro": "Mobil kullanıcı, otel web sitesinde “gezinmek” istemez; hızla karar vermek ister: uygunluk var mı, oda benim ihtiyacıma uyuyor mu, fiyat/koşul net mi, güvenle ödeyebilir miyim? Mobile-first UI/UX, bu soruları en az sürtünmeyle yanıtlayacak şekilde tasarım ve içerik mimarisini mobil öncelikli kurar. Özellikle Antalya/Belek gibi resort destinasyonlarında kullanıcı, çoğu zaman sosyal medya–arama–harita gibi kaynaklardan mobilde gelir; hızlıca “tarih seç–oda seç–öde” hattına girmek ister. Bu yazıda; mobile UX, Reservation Funnel, Core Web Vitals ve dönüşüm ilişkisini otel özelinde bir çerçeveye oturtacağız.",
+      "intro": "Mobil kullanıcı, otel web sitesinde “gezinmek” istemez; hızla karar vermek ister: uygunluk var mı, oda benim ihtiyacıma uyuyor mu, fiyat/koşul net mi, güvenle ödeyebilir miyim? [mobile-first hotel website design](https://dgtlface.com/tr/creative/ui-ux-tasarim), bu soruları en az sürtünmeyle yanıtlayacak şekilde tasarım ve içerik mimarisini mobil öncelikli kurar. Özellikle Antalya/Belek gibi resort destinasyonlarında kullanıcı, çoğu zaman sosyal medya–arama–harita gibi kaynaklardan mobilde gelir; hızlıca “tarih seç–oda seç–öde” hattına girmek ister. Bu yazıda; mobile UX, Reservation Funnel, Core Web Vitals ve dönüşüm ilişkisini otel özelinde bir çerçeveye oturtacağız.",
       "quickSummary": [
         "1) Mobil ana hedefi netleştir: “Tarih seç → uygunluk → oda seç → öde”",
         "2) CTA’yı thumb-zone’a taşı ve sticky rezervasyon barı ile erişilebilir kıl",
@@ -3481,7 +3514,7 @@
       "secondary": {
         "label": "Core Web Vitals & UX Mini Raporunu İndir",
         "text": "Mobilde hangi CWV metriğinin hangi ekranda sorun yarattığını görüp ilk 10 aksiyonu önceliklendirmenizi sağlar.",
-        "href": "/tr/seo/teknik-seo"
+        "href": "/downloads/core-web-vitals-ux-mini-raporu-mobile-first-otel-ux-v1.0.pdf"
       }
     },
     "internalLinks": [
@@ -3490,30 +3523,46 @@
         "href": "/tr/creative/ui-ux-tasarim"
       },
       {
-        "label": "Web sitesi geliştirme",
-        "href": "/tr/yazilim/web-sitesi-gelistirme"
+        "label": "Creative ve Tasarım hub",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel rezervasyon UX temelleri",
+        "href": "/tr/creative/blog/otel-rezervasyon-ux-temelleri"
+      },
+      {
+        "label": "Otel homepage UX",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
+      },
+      {
+        "label": "Next.js otel UX ve Core Web Vitals",
+        "href": "/tr/creative/blog/nextjs-otel-ux-core-web-vitals"
       },
       {
         "label": "Teknik SEO rehberi",
         "href": "/tr/seo/teknik-seo"
       },
       {
-        "label": "Reklam & raporlama yaklaşımı",
-        "href": "/tr/sem/reklam-raporlama"
+        "label": "Web sitesi geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
-        "label": "Otel dijital pazarlama çatı yaklaşımı",
-        "href": "/tr/otel"
+        "label": "Otel dijital pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Teknik SEO: Core Web Vitals ve performans temeli",
-        "href": "/tr/seo/teknik-seo"
+        "title": "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
+        "href": "/tr/creative/blog/otel-rezervasyon-ux-temelleri"
       },
       {
-        "title": "Otel web sitesi geliştirme: performans ve dönüşüm altyapısı",
-        "href": "/tr/yazilim/web-sitesi-gelistirme"
+        "title": "Otel Homepage UX: İlk İzlenim, Hero ve Hızlı Karar Alanları",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
+      },
+      {
+        "title": "Next.js ile Otel UX ve Core Web Vitals İlişkisi",
+        "href": "/tr/creative/blog/nextjs-otel-ux-core-web-vitals"
       }
     ],
     "sections": [
@@ -3523,7 +3572,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Mobilde rezervasyon deneyimi; hız, netlik ve tek elle kullanım üzerinden kazanılır. Bu rehber, otel sitelerinde mobile-first UI/UX’in nasıl kurgulanacağını; thumb-zone CTA, sticky rezervasyon barı, kısa form/ödeme tasarımı ve Core Web Vitals (LCP/CLS/INP) üzerinden ölçüm–iyileştirme döngüsüyle birlikte ele alır."
+            "text": "Mobilde rezervasyon deneyimi; hız, netlik ve tek elle kullanım üzerinden kazanılır. Bu rehber, otel sitelerinde mobile-first UI/UX’in nasıl kurgulanacağını; [mobil homepage hero deneyimi](https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero), thumb-zone CTA, sticky rezervasyon barı, kısa form/ödeme tasarımı ve Core Web Vitals (LCP/CLS/INP) üzerinden ölçüm–iyileştirme döngüsüyle birlikte ele alır."
           },
           {
             "type": "list",
@@ -3557,7 +3606,7 @@
           },
           {
             "type": "p",
-            "text": "Mobile-first otel UX; “desktop’u küçültmek” değil, mobildeki gerçek kullanım davranışına göre öncelikleri yeniden sıralamak demektir. Kullanıcı mobilde genellikle kısa oturumlarla, dikkat bölünerek ve tek elle ilerler; bu yüzden arayüz “daha az seçenek, daha net yönlendirme” prensibiyle çalışmalıdır. İdeal yaklaşım: (1) en kritik aksiyonu (rezervasyon) thumb-zone’a koymak, (2) navigasyonu minimumda tutmak, (3) form ve ödeme adımını kısaltmak, (4) performansı CWV ile sürekli izleyip iyileştirmek."
+            "text": "Mobile-first otel UX; “desktop’u küçültmek” değil, mobildeki gerçek kullanım davranışına göre öncelikleri yeniden sıralamak demektir. Kullanıcı mobilde genellikle kısa oturumlarla, dikkat bölünerek ve tek elle ilerler; bu yüzden arayüz [tourism mobile booking behaviour](https://dgtlface.com/tr/creative-ve-tasarim) mantığıyla “daha az seçenek, daha net yönlendirme” prensibine göre çalışmalıdır. İdeal yaklaşım: (1) en kritik aksiyonu (rezervasyon) thumb-zone’a koymak, (2) navigasyonu minimumda tutmak, (3) form ve ödeme adımını kısaltmak, (4) performansı CWV ile sürekli izleyip iyileştirmek."
           },
           {
             "type": "h3",
@@ -3565,7 +3614,7 @@
           },
           {
             "type": "p",
-            "text": "Responsive tasarım ekranı uydurur; mobile-first ise “mobilde en kritik işi” merkeze alır. Örneğin mobilde oda listesi ekranında; filtre, fiyat netliği, iptal koşulu ve CTA önceliklidir. Desktop’ta detay toleransı artar, fakat mobilde “karar bilgisi” ilk ekranda görünmezse kullanıcı kayar."
+            "text": "Responsive tasarım ekranı uydurur; mobile-first ise [responsive reservation experience](https://dgtlface.com/tr/creative/blog/otel-rezervasyon-ux-temelleri) kurgusuyla “mobilde en kritik işi” merkeze alır. Örneğin mobilde oda listesi ekranında; filtre, fiyat netliği, iptal koşulu ve CTA önceliklidir. Desktop’ta detay toleransı artar, fakat mobilde “karar bilgisi” ilk ekranda görünmezse kullanıcı kayar."
           },
           {
             "type": "h3",
@@ -3723,7 +3772,7 @@
               "Mobil menüyü 5 ana yola indir; geri kalanları ikincil alana taşı.",
               "Sticky rezervasyon barı kurgula: tek CTA + durum bazlı davranış (tarih seçili/ değil).",
               "Oda listesinde “karar bilgisi”ni standardize et: toplam fiyat + iptal + 3 fark.",
-              "Teknik altyapı için iç link ver: /yazilim/web-sitesi-gelistirme"
+              "Teknik uygulama aşamasında [responsive web sitesi geliştirme](https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme) yaklaşımını tasarım kararlarıyla birlikte planla."
             ]
           }
         ]
@@ -3806,7 +3855,7 @@
           },
           {
             "type": "p",
-            "text": "Mobile-first UX’in “gizli motoru” performanstır. Mobilde sayfa yavaşsa, kullanıcı sadece beklemez; güveni de düşer: “Ödeme güvenli mi, site sağlıklı mı?” Bu yüzden Core Web Vitals (LCP/CLS/INP) metrikleri, UX ve Conversion Rate ile aynı cümlede konuşulmalıdır. Burada amaç “tek seferlik hız” değil; sürekli iyileştirme döngüsüdür."
+            "text": "Mobile-first UX’in “gizli motoru” performanstır. Mobilde sayfa yavaşsa, kullanıcı sadece beklemez; güveni de düşer: “Ödeme güvenli mi, site sağlıklı mı?” Bu yüzden [Core Web Vitals odaklı otel UX’i](https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals) ile [mobil hız ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) aynı cümlede konuşulmalıdır. Burada amaç “tek seferlik hız” değil; sürekli iyileştirme döngüsüdür."
           },
           {
             "type": "h3",
@@ -3875,7 +3924,7 @@
             "variant": "secondary",
             "label": "Core Web Vitals & UX Mini Raporunu İndir",
             "text": "Mobilde hangi metrik, hangi ekranda sorun çıkarıyor? sorusuna tek sayfalık ölçüm + aksiyon özetiyle net cevap alın.",
-            "href": "/tr/seo/teknik-seo"
+            "href": "/downloads/core-web-vitals-ux-mini-raporu-mobile-first-otel-ux-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -3885,7 +3934,7 @@
               "Mobil CWV ölçümünü rutinleştir: LCP/CLS/INP haftalık kontrol + aylık sprint.",
               "Oda listesi ve galeri sayfalarını performans önceliği yap (görsel ağırlık).",
               "Üçüncü taraf tag’leri sadeleştir; rezervasyon adımında gereksiz script çalıştırma.",
-              "Teknik SEO içeriğine iç link ver: /seo/teknik-seo"
+              "Performans backlog’unu CWV, görsel yükü ve etkileşim gecikmelerini birlikte izleyerek yönet."
             ]
           }
         ]
@@ -3923,7 +3972,7 @@
           },
           {
             "type": "p",
-            "text": "Internal link (zorunlu): Bu içerikten “mobil rezervasyon deneyimi” anchor’ı ile /otel-dijital-pazarlama sayfasına link verin."
+            "text": "Mobil kullanıcı niyeti, kampanya kurgusu ve rezervasyon davranışı birlikte ele alındığında [otel dijital pazarlamada mobil deneyim](https://dgtlface.com/tr/otel-dijital-pazarlama) çok daha net okunur."
           },
           {
             "type": "media",
@@ -3957,6 +4006,10 @@
             ],
             "href": "/downloads/core-web-vitals-ux-mini-raporu-mobile-first-otel-ux-v1.0.pdf",
             "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle mobile-first otel rezervasyon deneyiminizi güçlendirin](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -4006,13 +4059,24 @@
           "Deliverables / Proof Card — 1200×1200 — otel-mobile-first-ui-ux-rehberi-proof-09.webp — Alt: “Mobile-first UX analizi çıktıları ve aksiyon planını anlatan kanıt kartı”"
         ],
         "technicalChecklist": [
-          "Sticky rezervasyon barı (tek CTA) davranış kontrolü (tarih seçili/ değil)",
+          "Canonical kontrolü: /tr/creative/blog/otel-mobile-first-ui-ux-rehberi",
+          "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Primary sibling linkleri rezervasyon UX temelleri, homepage hero UX ve Next.js/CWV bağlamında yerleştirildi",
+          "Cross-silo linkleri Teknik SEO, Web Sitesi Geliştirme ve Otel Dijital Pazarlama bağlamında doğal anchor ile eklendi",
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Sticky rezervasyon barı (tek CTA) davranış kontrolü (tarih seçili/değil)",
           "Oda listesi kartlarında karar bilgisi standardı (toplam fiyat + iptal + 3 fark)",
           "Form alanları: zorunlu/opsiyonel ayrımı ve hata mesajı standardı",
           "Mobil CWV ölçümü: LCP/CLS/INP sayfa bazlı takip (Ana sayfa / Oda listesi / Oda detayı / Ödeme)",
           "Görsel optimizasyonu: doğru boyutlandırma + sıkıştırma + kritik görsel önceliklendirme",
           "Üçüncü taraf script/tag sadeleştirme (özellikle rezervasyon/ödeme adımı)",
           "GA4 event’leri: tarih seçimi → oda seçimi → form → ödeme (drop-off analizi)",
+          "Meta title, title ve H1 korunarak yalnızca içerik içi internal linkler güncellendi",
           "Refresh Cycle: 365 gün (best-practice ve metrik eşikleri yıllık gözden geçirme)"
         ]
       }
@@ -4068,7 +4132,7 @@
     },
     "h1": {
       "title": "Figma ile Otel Web Sitesi Tasarımı: Wireframe’den Prototip’e",
-      "intro": "“Adım adım nasıl yaparım?”, “Hangi sırayla ilerlemeliyim?”, “Wireframe mi önce, UI kit mi önce?” gibi sorular otel projelerinde çok sık gelir; çünkü otel web siteleri SaaS ya da e-ticaret gibi düz bir checkout’tan farklıdır. Oda tipleri, sezonluk fiyatlama, konsept (AI/HB/BB), iptal kuralları, çok dilli akış (TR–EN–DE–RU) ve rezervasyon motoru entegrasyonu aynı anda yönetilir. Bu rehberde Figma’da wireframe → UI kit/design system → prototip test → Next.js handoff zincirini otel özel ihtiyaçlarıyla birlikte kuracağız.",
+      "intro": "“Adım adım nasıl yaparım?”, “Hangi sırayla ilerlemeliyim?”, “Wireframe mi önce, UI kit mi önce?” gibi sorular otel projelerinde çok sık gelir; çünkü [design workflow for hotel websites](https://dgtlface.com/tr/creative/ui-ux-tasarim) yalnızca ekran çizmekten ibaret değildir. Oda tipleri, sezonluk fiyatlama, konsept (AI/HB/BB), iptal kuralları, çok dilli akış (TR–EN–DE–RU) ve rezervasyon motoru entegrasyonu aynı anda yönetilir. Bu rehberde Figma’da wireframe → UI kit/design system → prototip test → Next.js handoff zincirini otel özel ihtiyaçlarıyla birlikte kuracağız.",
       "quickSummary": [
         "1. Önce persona + senaryo: misafir ne arıyor, hangi ekranda karar veriyor?",
         "2. Sonra rezervasyon wireframe: akışı (tarih → oda → form → ödeme) “en kısa karar yolu” ile çizin.",
@@ -4089,13 +4153,29 @@
       "secondary": {
         "label": "Figma Otel Wireframe Şablonunu İndir",
         "text": "“Rezervasyon akışını ve kritik ekranları 30 dakikada taslaklayıp ekip içinde aynı dili yakalamanızı sağlar.”",
-        "href": "/tr/creative/ui-ux-tasarim#figma-wireframe-sablon"
+        "href": "/downloads/figma-otel-wireframe-sablon-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı (hub)",
         "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Creative ve Tasarım hub",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Design System / UI Kit",
+        "href": "/tr/creative/blog/otel-design-system-ui-kit"
+      },
+      {
+        "label": "Next.js Otel UX & Core Web Vitals",
+        "href": "/tr/creative/blog/nextjs-otel-ux-core-web-vitals"
+      },
+      {
+        "label": "Otel Homepage UX",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
       },
       {
         "label": "Grafik & Motion Tasarım",
@@ -4112,12 +4192,16 @@
     ],
     "relatedPosts": [
       {
-        "title": "Web Sitesi Geliştirme Süreci: Next.js uygulamasına geçiş",
-        "href": "/tr/yazilim/web-sitesi-gelistirme"
+        "title": "Otel Design System / UI Kit: Rezervasyon Bileşenlerini Standardize Etmek",
+        "href": "/tr/creative/blog/otel-design-system-ui-kit"
       },
       {
-        "title": "Teknik SEO: Core Web Vitals (LCP/INP) ve riskler",
-        "href": "/tr/seo/teknik-seo"
+        "title": "Next.js ile Otel UX ve Core Web Vitals İlişkisi",
+        "href": "/tr/creative/blog/nextjs-otel-ux-core-web-vitals"
+      },
+      {
+        "title": "Otel Homepage UX: İlk İzlenim, Hero ve Hızlı Karar Alanları",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
       }
     ],
     "sections": [
@@ -4161,7 +4245,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel projesinde Figma dosyanız “tasarım yapılan yer” değil; ekiplerin ortak çalışma alanıdır. Hazırlık doğru yapılırsa, UI/UX Design süreci hızlanır; yanlış yapılırsa revizyonlar büyür ve handoff karmaşası artar. Buradaki hedef; daha ilk günden “Hotel Website” tasarımını ölçeklenebilir kurmaktır."
+            "text": "Otel projesinde Figma dosyanız “tasarım yapılan yer” değil; ekiplerin ortak çalışma alanıdır. Hazırlık doğru yapılırsa, UI/UX Design süreci hızlanır; yanlış yapılırsa revizyonlar büyür ve handoff karmaşası artar. Buradaki hedef; [otel web sitesi wireframe süreci](https://dgtlface.com/tr/creative-ve-tasarim) içinde daha ilk günden “Hotel Website” tasarımını ölçeklenebilir kurmaktır."
           },
           {
             "type": "h3",
@@ -4216,7 +4300,7 @@
           },
           {
             "type": "p",
-            "text": "Teknik SEO notunu unutmayın: Görsel ağırlıklı otel sitelerinde performans ve UX birlikte yürür. Tasarımda “çok büyük hero” ve “aşırı animasyon” planı, geliştirmede LCP/INP riskini büyütür. Bu yüzden tasarım aşamasında bile “Core Web Vitals dostu” kararlar almanız, sonraki sprintleri rahatlatır. (Detay için: https://dgtlface.com/tr/seo/teknik-seo)"
+            "text": "Teknik SEO notunu unutmayın: Görsel ağırlıklı otel sitelerinde performans ve UX birlikte yürür. Tasarımda “çok büyük hero” ve “aşırı animasyon” planı, geliştirmede LCP/INP riskini büyütür. Bu yüzden tasarım aşamasında bile [teknik SEO uyumlu UX tasarımı](https://dgtlface.com/tr/seo/teknik-seo) ve Core Web Vitals dostu kararlar almanız, sonraki sprintleri rahatlatır."
           },
           {
             "type": "callout",
@@ -4240,7 +4324,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kısa cevap: önce ekranları “görev” olarak tanımlayın, sonra akışı en az adımla bağlayın ve her ekranda tek karar verdirin. Önerilen hızlı yöntem: (1) tarih/kişi seçimi, (2) oda listesi–karşılaştırma, (3) oda detayı–koşul netliği, (4) kısa form, (5) ödeme. Her adımda “toplam fiyat + iptal özeti + ana CTA” sabit kalır; böylece prototip testinde sürtünme hızlı yakalanır."
+            "text": "Kısa cevap: önce ekranları “görev” olarak tanımlayın, sonra akışı en az adımla bağlayın ve her ekranda tek karar verdirin. Önerilen hızlı yöntem: (1) tarih/kişi seçimi, (2) oda listesi–karşılaştırma, (3) oda detayı–koşul netliği, (4) kısa form, (5) ödeme. Her adımda “toplam fiyat + iptal özeti + ana CTA” sabit kalır; böylece reservation flow prototyping aşamasında sürtünme hızlı yakalanır."
           },
           {
             "type": "h3",
@@ -4248,7 +4332,7 @@
           },
           {
             "type": "p",
-            "text": "Aşağıdaki sıra, otel rezervasyon wireframe’i için pratik bir “design workflow for hotel websites” iskeletidir:"
+            "text": "Aşağıdaki sıra, otel rezervasyon wireframe’i için pratik bir iskelettir; özellikle [otel homepage wireframe](https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero) kararlarını akışın giriş ekranıyla birlikte düşünmek işleri hızlandırır:"
           },
           {
             "type": "list",
@@ -4331,7 +4415,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Wireframe’i hızlandıran şey çizim yeteneği değil; UI kit + design system disiplinidir. UI kit, tekil ekranları; design system ise tekrar eden parçaları yönetir. Özellikle Next.js’e geçişte, bileşen mantığı kurulu değilse geliştirme süresinin uzaması ve revizyon maliyetinin artması çok sık görülür (rakam vermeden yönlü ifade)."
+            "text": "Wireframe’i hızlandıran şey çizim yeteneği değil; [Figma UI kit](https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit) ve design system disiplinidir. UI kit, tekil ekranları; design system ise tekrar eden parçaları yönetir. Özellikle Next.js’e geçişte, bileşen mantığı kurulu değilse geliştirme süresinin uzaması ve revizyon maliyetinin artması çok sık görülür (rakam vermeden yönlü ifade)."
           },
           {
             "type": "h3",
@@ -4410,7 +4494,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Figma prototipi, “sunum” değil; sürtünme avı aracıdır. Özellikle rezervasyon funnel’da prototip testleri, geliştirme başlamadan hataları yakalamayı sağlar. Prototip; Wireframe → UI kit sonrası kurulmalı ki test “tasarım dili” ile birlikte değerlendirilsin."
+            "text": "Figma prototipi, “sunum” değil; sürtünme avı aracıdır. Özellikle rezervasyon funnel’da prototip testleri, geliştirme başlamadan hataları yakalamayı sağlar. Prototip; Wireframe → UI kit sonrası kurulmalı ki test “tasarım dili” ile birlikte değerlendirilsin. Buradan [Core Web Vitals odaklı UX tasarımı](https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals) yaklaşımına geçmek, tasarımın sadece güzel değil aynı zamanda hızlı uygulanabilir olmasını sağlar."
           },
           {
             "type": "h3",
@@ -4435,7 +4519,7 @@
           },
           {
             "type": "p",
-            "text": "Mikro animasyonlar kullanıcıya durum bildirir (loading, seçim, geçiş). Ancak otel sitelerinde ağır animasyonlar performans riskini artırabilir. Kural: animasyon “gösteriş” değil “anlam” için olmalı."
+            "text": "Mikro animasyonlar kullanıcıya durum bildirir (loading, seçim, geçiş). Ancak otel sitelerinde ağır animasyonlar performans riskini artırabilir. Kural: animasyon “gösteriş” değil “anlam” için olmalı; arayüzdeki [görsel dil ve motion uyumu](https://dgtlface.com/tr/creative/grafik-motion-tasarim) da bu aşamada kontrollü planlanmalıdır."
           },
           {
             "type": "h3",
@@ -4504,7 +4588,7 @@
           },
           {
             "type": "p",
-            "text": "İç link (geliştirme tarafı): Next.js uygulamasına geçiş ve web geliştirme süreci için:\nhttps://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+            "text": "Next.js uygulamasına geçişte [Figma’dan development handoff](https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme) mantığıyla component aktarımı, responsive davranış ve canlıya alma notları aynı teslim paketinde toplanmalıdır."
           },
           {
             "type": "h3",
@@ -4670,6 +4754,10 @@
             },
             "href": "/downloads/figma-otel-wireframe-sablon-v1.0.pdf",
             "buttonLabel": "Şablonu İndir"
+          },
+          {
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle Figma’dan prototip ve handoff sürecinizi güçlendirin](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -4720,12 +4808,23 @@
           "table-figma-to-nextjs — (1 adet tablo) — Figma deliverable → Next.js karşılığı"
         ],
         "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/figma-otel-web-tasarimi-wireframe-prototip",
+          "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Primary sibling linkleri UI kit, Next.js/CWV ve homepage wireframe bağlamında yerleştirildi",
+          "Cross-silo linkleri Grafik & Motion Tasarım, Web Sitesi Geliştirme ve Teknik SEO bağlamında doğal anchor ile eklendi",
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
           "Component listesi + isimlendirme standardı yazılı",
           "Variant/state açıklamaları mevcut (default/selected/loading)",
           "Token mantığı (typography/spacing) tanımlı",
           "Responsive davranış notları mevcut (breakpoints/grid)",
           "Erişilebilirlik notları mevcut (focus/contrast)",
-          "Görsel export kuralları: optimize + lazy-load + alt text planı"
+          "Görsel export kuralları: optimize + lazy-load + alt text planı",
+          "Meta title, title ve H1 korunarak yalnızca içerik içi internal linkler güncellendi"
         ]
       }
     }
@@ -4780,7 +4879,7 @@
     },
     "h1": {
       "title": "Çok Dilli Otel Web Sitelerinde UX: TR–EN–DE–RU Kullanıcı Deneyimi",
-      "intro": "TR–EN–DE–RU gibi çok dilli otel web sitelerinde “çeviri yaptık, bitti” yaklaşımı genelde pahalıya patlar: misafir dili seçer ama fiyat/koşul net değildir, tarih formatı yabancı gelir, microcopy güven vermez, rezervasyon akışı farklı dillerde tutarsız çalışır. Sonuç; hem Reservation Funnel içinde terk artar, hem de çağrı merkezi “açıklama yapmak zorunda kaldığı” için kapanış verimi düşer. Özellikle Türkiye/Antalya merkezli ama Almanya ve Rusya pazarını hedefleyen otellerde, Almanca ve Rusça gelir payı yüksek olabildiği halde, dil ve UX uyumsuzluğu rezervasyon sürecinde güven kırılması yaratabilir (nicel değil, yönlü bir risk).\n\nBu rehberde 4 şeyi aynı anda standardize edeceğiz:\n\t1.\tLanguage Switcher (dil seçimi ve giriş deneyimi)\n\t2.\tİçerik + fiyat + koşul tutarlılığı (tarih/para formatı dahil)\n\t3.\tRezervasyon akışında çok dilli UX (microcopy ve hata mesajları)\n\t4.\tÇağrı merkezi + PMS entegrasyonu (uçtan uca deneyim)",
+      "intro": "[multilingual hotel website experience](https://dgtlface.com/tr/creative/ui-ux-tasarim) kurgulanmadan TR–EN–DE–RU gibi çok dilli otel web sitelerinde “çeviri yaptık, bitti” yaklaşımı genelde pahalıya patlar: misafir dili seçer ama fiyat/koşul net değildir, tarih formatı yabancı gelir, microcopy güven vermez, rezervasyon akışı farklı dillerde tutarsız çalışır. Sonuç; hem Reservation Funnel içinde terk artar, hem de çağrı merkezi “açıklama yapmak zorunda kaldığı” için kapanış verimi düşer. Özellikle Türkiye/Antalya merkezli ama Almanya ve Rusya pazarını hedefleyen otellerde, Almanca ve Rusça gelir payı yüksek olabildiği halde, dil ve UX uyumsuzluğu rezervasyon sürecinde güven kırılması yaratabilir (nicel değil, yönlü bir risk).\n\nBu rehberde 4 şeyi aynı anda standardize edeceğiz:\n\t1.\tLanguage Switcher (dil seçimi ve giriş deneyimi)\n\t2.\tİçerik + fiyat + koşul tutarlılığı (tarih/para formatı dahil)\n\t3.\tRezervasyon akışında çok dilli UX (microcopy ve hata mesajları)\n\t4.\tÇağrı merkezi + PMS entegrasyonu (uçtan uca deneyim)",
       "quickSummary": [
         "1) Language Switcher (dil seçimi ve giriş deneyimi)",
         "2) İçerik + fiyat + koşul tutarlılığı (tarih/para formatı dahil)",
@@ -4811,30 +4910,46 @@
         "href": "/tr/creative/ui-ux-tasarim"
       },
       {
-        "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/tr/otel"
+        "label": "Creative ve Tasarım hub",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "4 dilli çağrı merkezi",
+        "label": "Otel Rezervasyon UX Temelleri",
+        "href": "/tr/creative/blog/otel-rezervasyon-ux-temelleri"
+      },
+      {
+        "label": "Otel Öncesi / Sonrası İletişim UX",
+        "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+      },
+      {
+        "label": "Erişilebilir Otel UX",
+        "href": "/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "4 Dilli Çağrı Merkezi",
         "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
       },
       {
-        "label": "PMS–OTA yönetimi",
-        "href": "/tr/pms-ota"
-      },
-      {
-        "label": "Yerel SEO",
-        "href": "/tr/seo/yerel-seo"
+        "label": "PMS / OTA Yönetimi",
+        "href": "/tr/pms-ota-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "UI & UX Tasarımı (Hizmet) — Otel web sitelerinde deneyim standardı",
-        "href": "/tr/creative/ui-ux-tasarim"
+        "title": "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
+        "href": "/tr/creative/blog/otel-rezervasyon-ux-temelleri"
       },
       {
-        "title": "Yerel SEO rehberi — dil + bölge sayfalarında tutarlılık",
-        "href": "/tr/seo/yerel-seo"
+        "title": "Otel Öncesi / Sonrası İletişim UX: Mesaj, Hatırlatma ve Güven Akışı",
+        "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+      },
+      {
+        "title": "Erişilebilir Otel UX’i: Engelli Kullanıcılar için Deneyim Rehberi",
+        "href": "/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici"
       }
     ],
     "sections": [
@@ -4844,7 +4959,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çok dilli UX, otel için sadece “daha fazla kullanıcı” değil, daha yüksek güven ve daha düşük destek maliyeti demektir. Misafir diliyle konuştuğunuzda; oda özelliklerini doğru anlar, iptal koşulunu doğru yorumlar, ödeme adımında tedirgin olmaz. Ayrıca dil tutarlılığı, pazarlama tarafında da çarpan etkisi yaratır: kampanya mesajı (SEM/SMM), landing sayfası ve rezervasyon motoru aynı dili konuştuğunda dönüşüm artışını destekler."
+            "text": "Çok dilli UX, otel için sadece “daha fazla kullanıcı” değil, daha yüksek güven ve daha düşük destek maliyeti demektir. Misafir diliyle konuştuğunuzda; oda özelliklerini doğru anlar, iptal koşulunu doğru yorumlar, ödeme adımında tedirgin olmaz. Ayrıca [tourism localisation UX](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımıyla dil tutarlılığı, pazarlama tarafında da çarpan etkisi yaratır: kampanya mesajı, landing sayfası ve rezervasyon motoru aynı dili konuştuğunda dönüşüm artışını destekler."
           },
           {
             "type": "p",
@@ -4884,7 +4999,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Dil seçimi, çok dilli otel deneyiminin “kapısıdır”. Kötü kurgulanırsa misafir daha girişte güvensizlik yaşar (“Sitem doğru dilde mi?”, “Fiyat hangi para biriminde?”). İyi kurgulanırsa misafir hemen rahatlar (“Beni anlıyorlar ve koşullar net”)."
+            "text": "Dil seçimi, çok dilli otel deneyiminin “kapısıdır”. Kötü kurgulanırsa misafir daha girişte güvensizlik yaşar (“Sitem doğru dilde mi?”, “Fiyat hangi para biriminde?”). İyi kurgulanırsa misafir hemen rahatlar (“Beni anlıyorlar ve koşullar net”). Bu yüzden language switcher best practices; bulunabilirlik, doğru etiketleme ve akıştan koparmayan yönlendirme üçlüsünü birlikte çözmelidir."
           },
           {
             "type": "h3",
@@ -4955,6 +5070,10 @@
             "text": "“Siteyi Almanca’ya nasıl geçirebilirim?”\nHeader’daki DE/Deutsch seçeneğine dokunun; dil seçimi kaydedilir ve rezervasyon adımları Almanca devam eder.\n\n“Rus misafire nasıl daha iyi anlatırım?”\nRusça microcopy’de net, kısa cümleler kullanın; iptal ve ödeme güvenini “tek satır özet” olarak görünür kılın, uzun paragraflardan kaçının."
           },
           {
+            "type": "p",
+            "text": "Rezervasyon öncesinde soru sorma, rezervasyon sonrasında onay ve check-in öncesi bilgilendirme gibi temas noktaları da çok dilli deneyimin parçasıdır; bu akışı [çok dilli misafir yolculuğu](https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux) mantığıyla düşünmek, web ile destek kanalları arasındaki kopukluğu azaltır."
+          },
+          {
             "type": "callout",
             "variant": "action",
             "title": "Mini Check ",
@@ -4987,6 +5106,10 @@
           {
             "type": "p",
             "text": "Çok dilli otel sitelerinde en büyük güven kırıcılar “küçük” gibi görünen tutarsızlıklardır: bir dilde “vergiler dahil”, diğer dilde yok; bir dilde “ücretsiz iptal”, diğerinde muğlak; bir dilde tarih formatı 12/08, diğerinde 08/12 gibi algılanır. Bu yüzden tutarlılık, UX’in çekirdeğidir."
+          },
+          {
+            "type": "p",
+            "text": "Bu tutarlılık yalnız çeviri kalitesiyle değil; okunabilirlik, kontrast, yardımcı metinler ve form açıklamalarıyla da korunur. Özellikle farklı alfabeler ve uzun metinler devreye girdiğinde [erişilebilir çok dilli otel UX’i](https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici) yaklaşımı kritik hale gelir."
           },
           {
             "type": "h3",
@@ -5045,7 +5168,7 @@
               "“Karar metinleri” için 20–30 satırlık microcopy kütüphanesi oluşturun (4 dil).",
               "Tarih/para birimi formatını ürün kararı olarak sabitleyin; rastgele bırakmayın.",
               "Oda kartı ve ödeme özetindeki metinleri aynı şablondan üretin (PMS/engine uyumu).",
-              "Bu standardı pazarlama sayfanızla bağlayın: https://dgtlface.com/tr/otel-dijital-pazarlama"
+              "Bu standardı [pazar bazlı otel deneyimi](https://dgtlface.com/tr/otel-dijital-pazarlama) kurgusuyla kampanya ve landing page tarafına taşıyın."
             ]
           }
         ]
@@ -5056,7 +5179,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rezervasyon, çok dilli deneyimde “en kırılgan” yerdir; çünkü kullanıcı bu aşamada hassas kararlar verir ve ödeme adımına yaklaşır. Dil bazlı UX’in amacı, misafiri “sorunsuz” şekilde form ve ödemeden geçirmek değil; güvenle geçirmek."
+            "text": "Rezervasyon, çok dilli deneyimde “en kırılgan” yerdir; çünkü kullanıcı bu aşamada hassas kararlar verir ve ödeme adımına yaklaşır. Dil bazlı UX’in amacı, misafiri “sorunsuz” şekilde form ve ödemeden geçirmek değil; güvenle geçirmek. Bu yüzden [çok dilli rezervasyon akışı](https://dgtlface.com/tr/creative/blog/otel-rezervasyon-ux-temelleri) tarih, oda, fiyat, ödeme ve onay adımlarında aynı netlikle çalışmalıdır."
           },
           {
             "type": "h3",
@@ -5105,7 +5228,7 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU UX Microcopy Örneklerini İndir",
             "text": "4 dilde rezervasyon, iptal, fiyat ve ödeme metinlerini tek pakette standardize ederek hızlıca yayına almanızı sağlar.",
-            "href": "/tr/creative/ui-ux-tasarim#multilingual-microcopy"
+            "href": "/downloads/tr-en-de-ru-ux-microcopy-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -5138,7 +5261,7 @@
           },
           {
             "type": "p",
-            "text": "İç link: https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+            "text": "Kullanıcı web akışında yanıt bulamadığında, [4 dilli çağrı merkezi desteği](https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi) ile aynı dilde yardıma geçebilmelidir."
           },
           {
             "type": "h3",
@@ -5150,7 +5273,7 @@
           },
           {
             "type": "p",
-            "text": "İç link: https://dgtlface.com/tr/pms-ota-yonetimi"
+            "text": "Fiyat, müsaitlik ve koşul bilgilerinin arayüzde güven vermesi için [PMS OTA ile çok dilli rezervasyon yönetimi](https://dgtlface.com/tr/pms-ota-yonetimi) tarafında da aynı gerçekliğin korunması gerekir."
           },
           {
             "type": "h3",
@@ -5158,7 +5281,7 @@
           },
           {
             "type": "p",
-            "text": "Kısaca teknik kontrol (detay boğmadan):\n\t•\tDil bazlı URL yapısı net olmalı (örn: /tr/, /en/, /de/, /ru/)\n\t•\threflang doğru set edilmeli\n\t•\tcanonical dili bozmayacak şekilde kurgulanmalı\n\t•\tSwitcher, kullanıcıyı yanlış dile atıp “soft 404” hissi yaratmamalı\n\t•\tYerel SEO hedeflerinde dil + bölge sayfaları (Antalya/Belek/Side) tutarlı olmalı\n\nİç link: https://dgtlface.com/tr/seo/yerel-seo"
+            "text": "Kısaca teknik kontrol (detay boğmadan):\n\t•\tDil bazlı URL yapısı net olmalı (örn: /tr/, /en/, /de/, /ru/)\n\t•\threflang doğru set edilmeli\n\t•\tcanonical dili bozmayacak şekilde kurgulanmalı\n\t•\tSwitcher, kullanıcıyı yanlış dile atıp “soft 404” hissi yaratmamalı\n\t•\tDil ve bölge bazlı sayfalar aynı marka ve rezervasyon mantığını korumalı"
           },
           {
             "type": "callout",
@@ -5308,6 +5431,10 @@
             ],
             "href": "/downloads/tr-en-de-ru-ux-microcopy-v1.0.pdf",
             "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle TR–EN–DE–RU otel deneyiminizi sadeleştirin](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       },
@@ -5371,11 +5498,22 @@
           "table-tr-en-de-ru-ux — (tablo: TR–EN–DE–RU temel UX farkları)"
         ],
         "technicalChecklist": [
+          "Canonical kontrolü: /tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru",
+          "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Primary sibling linkleri rezervasyon UX, öncesi/sonrası iletişim ve erişilebilir UX bağlamında yerleştirildi",
+          "Cross-silo linkleri Otel Dijital Pazarlama, 4 Dilli Çağrı Merkezi ve PMS / OTA Yönetimi bağlamında doğal anchor ile eklendi",
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
           "Dil bazlı URL yapısı net olmalı (örn: /tr/, /en/, /de/, /ru/)",
           "hreflang doğru set edilmeli",
           "canonical dili bozmayacak şekilde kurgulanmalı",
           "Switcher, kullanıcıyı yanlış dile atıp “soft 404” hissi yaratmamalı",
-          "Yerel SEO hedeflerinde dil + bölge sayfaları (Antalya/Belek/Side) tutarlı olmalı"
+          "Çok dilli fiyat, tarih ve destek akışları aynı rezervasyon gerçekliğiyle korunmalı",
+          "Meta title, title ve H1 korunarak yalnızca içerik içi internal linkler güncellendi"
         ]
       }
     }
@@ -5429,7 +5567,7 @@
     },
     "h1": {
       "title": "Otel Web UX’inde Dönüşüm Odaklı UI Bileşenleri: CTA, Form, Header, Footer",
-      "intro": "Otel web sitesinde dönüşüm, çoğu zaman “tek büyük fikir”den değil; bir araya gelen küçük ama kritik bileşen kararlarından doğar: CTA doğru yerde mi, form fazla mı uzun, header kullanıcıyı menüde kaybettiriyor mu, footer ikinci bir dönüşüm yolu sunuyor mu? Misafir Antalya’da bir şehir oteli arıyor da olabilir, Belek’te resort için aile odası bakıyor da… Her durumda niyet yükseldikçe kullanıcı “hız + netlik + güven” ister. Dönüşüm odaklı UI, bu üçlüye hizmet eden bileşenleri doğru sıraya dizer.\n\nBu rehberin farkı: Genel “landing page conversion” tavsiyesi yerine, otel bağlamında rezervasyon formu + oda tipleri + iptal koşulları + güven öğeleri kombinasyonunu tek bir UI sisteminde ele alır.",
+      "intro": "Otel web sitesinde dönüşüm, çoğu zaman “tek büyük fikir”den değil; [conversion focused hotel UI](https://dgtlface.com/tr/creative/ui-ux-tasarim) yaklaşımıyla bir araya gelen küçük ama kritik bileşen kararlarından doğar: CTA doğru yerde mi, form fazla mı uzun, header kullanıcıyı menüde kaybettiriyor mu, footer ikinci bir dönüşüm yolu sunuyor mu? Misafir Antalya’da bir şehir oteli arıyor da olabilir, Belek’te resort için aile odası bakıyor da… Her durumda niyet yükseldikçe kullanıcı “hız + netlik + güven” ister. Dönüşüm odaklı UI, bu üçlüye hizmet eden bileşenleri doğru sıraya dizer.\n\nBu rehberin farkı: Genel “landing page conversion” tavsiyesi yerine, otel bağlamında rezervasyon formu + oda tipleri + iptal koşulları + güven öğeleri kombinasyonunu tek bir UI sisteminde ele alır.",
       "quickSummary": [
         "1) İlk ekranda tek ana CTA ile “tarih seç → uygunluk” akışını başlat",
         "2) Header’ı sadeleştir: menü + iletişim + rezervasyon CTA çekirdeğini koru",
@@ -5452,13 +5590,29 @@
       "secondary": {
         "label": "Dönüşüm Odaklı Otel UI Checklist’ini İndir",
         "text": "CTA, form, header, footer ve güven öğelerini 15 dakikada kontrol edip ilk düzeltmeleri önceliklendirmenizi sağlar.",
-        "href": "/tr/creative/ui-ux-tasarim#donusum-ui-checklist"
+        "href": "/downloads/donusum-odakli-otel-ui-checklist-ui-ux-bilesenleri-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı (Hizmet/Hub)",
         "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Ana Sayfa UX’i",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
+      },
+      {
+        "label": "Otel Fiyat / Oda Karşılaştırma UX",
+        "href": "/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux"
+      },
+      {
+        "label": "Otel UX Writing & Microcopy",
+        "href": "/tr/creative/blog/otel-ux-writing-microcopy"
       },
       {
         "label": "Google Ads Yönetimi",
@@ -5469,22 +5623,22 @@
         "href": "/tr/otel/reklam-yonetimi"
       },
       {
-        "label": "Satış & Dönüşüm Raporlama",
+        "label": "Satış Dönüşüm",
         "href": "/tr/raporlama/satis-donusum"
-      },
-      {
-        "label": "SEO Raporlama",
-        "href": "/tr/seo/seo-raporlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Google Ads Yönetimi: Otel Talebini Rezervasyona Taşıma",
-        "href": "/tr/sem/google-ads-yonetimi"
+        "title": "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
       },
       {
-        "title": "Satış & Dönüşüm Raporlama: Funnel, Drop-off ve KPI Okuma",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "Otel Web UX’inde Fiyat ve Oda Karşılaştırma Deneyimi",
+        "href": "/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux"
+      },
+      {
+        "title": "Otel UX Writing & Microcopy: Rezervasyonu Kolaylaştıran Metinler",
+        "href": "/tr/creative/blog/otel-ux-writing-microcopy"
       }
     ],
     "sections": [
@@ -5498,7 +5652,11 @@
           },
           {
             "type": "p",
-            "text": "Ana sayfa, kullanıcıyı “her şeyi göstermek” için değil; en hızlı şekilde rezervasyon aksiyonuna götürmek için vardır. Özellikle mobilde kullanıcı, iki şey görmek ister: (1) bu otel bana uygun mu, (2) fiyat/uygunluk yoluna nasıl girerim?"
+            "text": "Ana sayfa, kullanıcıyı “her şeyi göstermek” için değil; en hızlı şekilde rezervasyon aksiyonuna götürmek için vardır. Özellikle mobilde kullanıcı, iki şey görmek ister: (1) bu otel bana uygun mu, (2) fiyat/uygunluk yoluna nasıl girerim? Bu yüzden [otel homepage CTA yerleşimi](https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero) ilk karar anını doğrudan etkiler."
+          },
+          {
+            "type": "p",
+            "text": "İlk ekran kurgusu, yalnızca estetik değil; [trust signals in hospitality UX](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımında olduğu gibi güven sinyali, CTA ve kısa karar bilgisini aynı blokta toplayabildiğinde rezervasyon niyetini daha hızlı besler."
           },
           {
             "type": "h3",
@@ -5611,7 +5769,7 @@
               "Menü başlıklarını azaltın; “odalar/teklifler/konsept/konum/iletişim” çekirdeğiyle başlayın.",
               "Rezervasyon CTA’yı header’a sabitleyin veya sticky ile destekleyin.",
               "Mobilde tap alanlarını genişletin, ikonları “yanlış dokunuş” üretmeyecek şekilde ayarlayın.",
-              "UI kararlarını performansla bağlamak için reklam sayfanıza iç link verin: /otel/reklam-yonetimi"
+              "[otel reklam kampanyalarında rezervasyon UI etkisi](https://dgtlface.com/tr/otel/reklam-yonetimi) tarafını izleyin; kampanyadan gelen kullanıcının hangi header/CTA kombinasyonunda daha hızlı ilerlediğini görün."
             ]
           },
           {
@@ -5654,6 +5812,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Oda kartı ve fiyat kutusunda kullanıcıyı kararsız bırakmamak için [oda ve fiyat karşılaştırma UX’i](https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux) prensipleriyle toplam fiyat, iptal koşulu ve paket farklarını aynı karar bloğunda göstermelisiniz."
+          },
+          {
             "type": "h3",
             "text": "Formu nasıl kısaltırım? (progressive disclosure)"
           },
@@ -5665,6 +5827,10 @@
               "Özel istekler, transfer, fatura bilgisi gibi alanları opsiyonel yap",
               "Otomatik doldurma (autocomplete) ve doğru klavye türleri (email/phone) kullan"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Form sürtünmesini gerçekten düşürmek için [CTA ve form microcopy](https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy) yaklaşımını kullanın; label, hata mesajı ve güven cümleleri kullanıcının bir sonraki adımı tereddütsüz anlamasını sağlamalı."
           },
           {
             "type": "h3",
@@ -5729,7 +5895,7 @@
               "Zorunlu alanları 3–4 çekirdek alana indirin; diğerlerini opsiyonel yapın.",
               "Hata mesajlarını standartlaştırın: “ne yanlış + nasıl düzeltilir”.",
               "CTA’yı tekleştirin: her ekranda tek ana CTA, tek ikincil yol.",
-              "Dönüşümü ölçmek için raporlama sayfanıza bağlayın: /raporlama/satis-donusum"
+              "[UI bileşenlerinin satış dönüşüm etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) için CTA tıklama, form tamamlama ve rezervasyon başlatma event’lerini birlikte izleyin."
             ]
           },
           {
@@ -5789,7 +5955,7 @@
             "items": [
               "Güven öğelerini sayfa sayfa değil, akış akış yerleştirin (funnel mantığı).",
               "“İptal + toplam fiyat + güvenli ödeme” üçlüsünü standartlaştırın.",
-              "Reklam trafiği geliyorsa (SEM), güven öğelerini landing’de erken gösterin: /sem/google-ads-yonetimi"
+              "[reklam trafiği için landing UI bileşenleri](https://dgtlface.com/tr/sem/google-ads-yonetimi) yaklaşımını uygulayın; özellikle SEM’den gelen kullanıcıda güven öğelerini landing’de erken gösterin."
             ]
           }
         ]
@@ -5850,7 +6016,7 @@
             "title": "Ne yapmalıyım? ",
             "items": [
               "Footer’ı “kararsız kullanıcı” için tasarlayın: iletişim + güven + ikincil CTA.",
-              "İkincil dönüşümleri raporlama ile bağlayın (event + KPI): /seo/seo-raporlama",
+              "İkincil dönüşümleri event + KPI mantığıyla ölçümleyin; özellikle geri arama ve teklif isteme aksiyonlarını ana rezervasyon yolundan ayrı raporlayın.",
               "CTA metinlerini kısa tutun; footer’da agresif satış yerine “yardım” tonu kullanın."
             ]
           },
@@ -5900,11 +6066,8 @@
             "buttonLabel": "PDF’i İndir"
           },
           {
-            "type": "cta",
-            "variant": "secondary",
-            "label": "Dönüşüm Odaklı Otel UI Checklist’ini İndir",
-            "text": "CTA, form, header, footer ve güven öğelerini 15 dakikada kontrol edip ilk düzeltmeleri önceliklendirmenizi sağlar.",
-            "href": "/tr/creative/ui-ux-tasarim#donusum-ui-checklist"
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle otel rezervasyon formu optimizasyonunu güçlendirin](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       },
@@ -5976,14 +6139,19 @@
           "table-form-before-after — (tablo görseli / referans)"
         ],
         "technicalChecklist": [
-          "Primary CTA 3 kez: H1 giriş sonrası + form/CTA bölümünde + final bölümünde",
-          "Secondary CTA: 0–1 kez (asset/download olarak)",
-          "Her ekranda tek ana CTA prensibi (primary/secondary ayrımı)",
-          "CTA, form ve ödeme adımları event ölçümü (CTA CTR, form completion, step drop-off)",
-          "Mobil tap alanları (header ikonları/CTA butonları) erişilebilirlik kontrolü",
-          "Form error mesajları “ne yanlış + nasıl düzeltilir” standardı",
-          "Güven öğeleri 2–3 çekirdek sinyal ile sınırlı (rozet spam yok)",
-          "SEM ve raporlama sayfalarına iç link ile ölçüm bağlantısı kuruldu"
+          "Canonical kontrolü: /tr/creative/blog/otel-ui-bilesenleri-donusum-odakli",
+          "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Primary sibling linkleri homepage UX, fiyat/oda karşılaştırma ve UX writing bağlamında yerleştirildi",
+          "Cross-silo linkleri Google Ads Yönetimi, Otel Reklam Yönetimi ve Satış Dönüşüm bağlamında doğal anchor ile eklendi",
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Düz path/URL notları kullanıcıya görünen metinden temizlendi",
+          "CTA, form ve güven bileşenleri karar anına göre yeniden bağlandı",
+          "Meta title, title ve H1 korunarak yalnızca içerik içi internal linkler güncellendi"
         ]
       }
     }
@@ -23429,7 +23597,7 @@
     },
     "h1": {
       "title": "Çok Dilli Görsel ve Video Tasarımı: TR–EN–DE–RU İçin Çalışmak",
-      "intro": "Tek dilde tasarlanmış bir kreatifi sonradan çevirdiğinizde en sık iki şey olur: (1) metin taşar ve kompozisyon bozulur, (2) font desteklemediği için RU karakterleri “farklı bir dilde” gibi durur. Otel ve B2B markalar için bu, sadece estetik değil; hız ve güven problemidir: kampanya yetişmez, revizyon artar, profesyonel görünüm zarar görür. Bu rehber; text expansion’ı baştan planlamayı, Latin+Cyrillic font uyumunu, subtitle/caption şablonlarını ve export/isimlendirme düzenini tek bir “çok dilli kreatif modeli” olarak standardize eder.",
+      "intro": "Tek dilde tasarlanmış bir kreatifi sonradan çevirdiğinizde en sık iki şey olur: (1) metin taşar ve kompozisyon bozulur, (2) font desteklemediği için RU karakterleri “farklı bir dilde” gibi durur. Otel ve B2B markalar için bu, sadece estetik değil; hız ve güven problemidir: kampanya yetişmez, revizyon artar, profesyonel görünüm zarar görür. Bu rehber; [çok dilli tasarım](https://dgtlface.com/tr/creative/grafik-motion-tasarim) sürecinde text expansion’ı baştan planlamayı, Latin+Cyrillic font uyumunu, subtitle/caption şablonlarını ve export/isimlendirme düzenini tek bir “çok dilli kreatif modeli” olarak standardize eder.",
       "quickSummary": [
         "1) Metin alanlarına en uzun dil için uzama payı bırak",
         "2) Latin + Cyrillic destekli font ailesini baştan kilitle",
@@ -23440,51 +23608,67 @@
       "ctaPrimary": {
         "label": "Çok Dilli Tasarım & Kampanya Analizi Talep Et",
         "text": "TR–EN–DE–RU pazarlarda bozulmayan kreatif setleri isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Çok Dilli Tasarım & Kampanya Analizi Talep Et",
         "text": "TR–EN–DE–RU pazarlarda bozulmayan kreatif setleri isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "TR–EN–DE–RU Çok Dilli Görsel & Video Checklist’ini İndir",
         "text": "Text expansion, font ve subtitle/caption kontrollerini tek listede toplar; çok dilli üretimi hatasız hızlandırırsınız.",
-        "href": "/yazilim/cms-entegrasyonu"
+        "href": "/downloads/tr-en-de-ru-cok-dilli-gorsel-video-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "CMS Entegrasyonu ve çok dilli content ops",
-        "href": "/yazilim/cms-entegrasyonu"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Yerel SEO rehberi",
-        "href": "/seo/yerel-seo"
+        "label": "Marka Kitabı ile Uyumlu Dijital Tasarım",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
       },
       {
-        "label": "Otel SEO hizmet sayfası",
-        "href": "/otel/seo"
+        "label": "Dikey Video Tasarımı Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "label": "Export ve Dosya Teslim Standartları",
+        "href": "/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk"
+      },
+      {
+        "label": "CMS Entegrasyonu",
+        "href": "/tr/yazilim/cms-entegrasyonu"
+      },
+      {
+        "label": "Yerel SEO",
+        "href": "/tr/seo/yerel-seo"
+      },
+      {
+        "label": "Otel SEO",
+        "href": "/tr/otel/seo"
       }
     ],
     "relatedPosts": [
       {
-        "title": "CMS Entegrasyonu ile Çok Dilli İçerik Yönetimi",
-        "href": "/yazilim/cms-entegrasyonu"
+        "title": "Marka Kitabı ile Uyumlu Dijital Tasarım: Web ve Sosyal Medyayı Aynı Hizada Tutmak",
+        "href": "/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim"
       },
       {
-        "title": "Yerel SEO ile Çok Dilli Pazar Görünürlüğü",
-        "href": "/seo/yerel-seo"
+        "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
       },
       {
-        "title": "Otel SEO ile Uluslararası Pazar Stratejisi",
-        "href": "/otel/seo"
+        "title": "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
+        "href": "/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk"
       }
     ],
     "sections": [
@@ -23498,7 +23682,7 @@
           },
           {
             "type": "p",
-            "text": "Çok dilli tasarım, “çeviri ekleyelim” değil; tasarımın kendisini çok dilli düşünmektir. Çünkü her dilin kelime uzunluğu, satır kırılma davranışı ve karakter yapısı farklıdır. TR bazen uzar, EN daha kısa olabilir, DE çoğu zaman uzar ve birleşik kelimeler taşma yaratır, RU ise Cyrillic nedeniyle font ve harf genişliği farklılaşır. Video tarafında da altyazı/caption bar’ları safe zone’a oturmazsa CTA ve mesaj bozulur."
+            "text": "Çok dilli tasarım, “çeviri ekleyelim” değil; tasarımın kendisini çok dilli düşünmektir. Çünkü her dilin kelime uzunluğu, satır kırılma davranışı ve karakter yapısı farklıdır. Bu yüzden [text expansion](https://dgtlface.com/tr/creative-ve-tasarim) toleransını şablonun en başında planlamak gerekir. TR bazen uzar, EN daha kısa olabilir, DE çoğu zaman uzar ve birleşik kelimeler taşma yaratır, RU ise Cyrillic nedeniyle font ve harf genişliği farklılaşır. Video tarafında da altyazı/caption bar’ları safe zone’a oturmazsa CTA ve mesaj bozulur."
           },
           {
             "type": "h3",
@@ -23661,7 +23845,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çok dilli tasarımın en kritik teknik kararı font ailesidir. TR/EN/DE Latin alfabesi ile gider; RU Cyrillic ister. RU’da destek olmayan font, “farklı bir marka” hissi yaratır. Bu nedenle tek fontla her şeyi çözmeye çalışmak yerine, aynı karakteri taşıyan bir font ailesi veya uyumlu bir font çifti seçmek gerekir."
+            "text": "Çok dilli tasarımın en kritik teknik kararı font ailesidir. TR/EN/DE Latin alfabesi ile gider; RU Cyrillic ister. RU’da destek olmayan font, “farklı bir marka” hissi yaratır. Bu nedenle tek fontla her şeyi çözmeye çalışmak yerine, [Latin + Cyrillic font seçimi](https://dgtlface.com/tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim) kararını marka kitabı uyumuyla birlikte ele almak ve aynı karakteri taşıyan bir font ailesi veya uyumlu bir font çifti seçmek gerekir."
           },
           {
             "type": "h3",
@@ -23709,7 +23893,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Video tarafında çok dillilik iki yerde kırılır: (1) altyazı çubuğu (subtitle bar) safe zone dışına taşar, (2) caption metni uzar ve overlay altında kalır. Bu yüzden subtitle/caption şablonları, tıpkı UI component gibi standardize edilmelidir. Dikey video üretiyorsanız safe zone şemasıyla birlikte çalışmanız şarttır."
+            "text": "Video tarafında çok dillilik iki yerde kırılır: (1) altyazı çubuğu (subtitle bar) safe zone dışına taşar, (2) caption metni uzar ve overlay altında kalır. Bu yüzden subtitle/caption şablonları, tıpkı UI component gibi standardize edilmelidir. Dikey video üretiyorsanız [çok dilli video safe zone](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) mantığıyla birlikte çalışmanız şarttır."
           },
           {
             "type": "h3",
@@ -23773,7 +23957,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çok dilli üretimde en iyi pratik “set” yaklaşımıdır: aynı kampanya için 4 dil seti, aynı görsel dil, farklı metin varyantları. Otelde pazarlar genelde TR/EN/DE/RU kırılımıyla ilerler; B2B’de ise global case ve ürün videoları aynı set mantığıyla çalışır. Kritik olan; metni sonradan çevirmek yerine, brief’i baştan çok dilli düşünmektir."
+            "text": "Çok dilli üretimde en iyi pratik “set” yaklaşımıdır: aynı kampanya için 4 dil seti, aynı görsel dil, farklı metin varyantları. Otelde pazarlar genelde TR/EN/DE/RU kırılımıyla ilerler; B2B’de ise global case ve ürün videoları aynı set mantığıyla çalışır. Kritik olan; metni sonradan çevirmek yerine, brief’i baştan çok dilli düşünmektir. Bu setlerin panel tarafında karışmaması için [CMS içinde çok dilli medya yönetimi](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) de tasarım kadar önemlidir."
           },
           {
             "type": "h3",
@@ -23804,7 +23988,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet dolu): Çok dilli şablon kuran ekiplerde yeni dil ekleme veya metin değişimi süreçleri çok daha hızlı ve hatasız ilerliyor. (Kesin rakam iddiası yok; gözlem.)"
+            "text": "Key Statistics / Data Point (sheet dolu): Çok dilli şablon kuran ekiplerde yeni dil ekleme veya metin değişimi süreçleri çok daha hızlı ve hatasız ilerliyor. Dil ve lokasyon mesajını [yerel SEO için çok dilli kreatifler](https://dgtlface.com/tr/seo/yerel-seo) mantığıyla kurgulamak, özellikle bölgesel kampanyalarda bu hızı daha anlamlı hale getirir. (Kesin rakam iddiası yok; gözlem.)"
           },
           {
             "type": "callout",
@@ -23823,7 +24007,7 @@
             "items": [
               "Kampanya brief’ini çok dilli başlat (metin varyantları listeli).",
               "TR/EN/DE/RU “kısa CTA sözlüğü” oluştur.",
-              "İç linklerle uluslararası stratejiye bağla: /yazilim/cms-entegrasyonu, /seo/yerel-seo ve /otel/seo."
+              "Uluslararası otel kampanyalarında [otel markaları için çok dilli görsel tasarım](https://dgtlface.com/tr/otel/seo) yaklaşımını arama davranışı ve pazar segmentiyle birlikte düşün."
             ]
           },
           {
@@ -23831,7 +24015,7 @@
             "variant": "secondary",
             "label": "TR–EN–DE–RU Çok Dilli Görsel & Video Checklist’ini İndir",
             "text": "Text expansion ve font uyumunu tek listede kontrol eder; dört dilde bozulmayan şablon seti kurarsınız.",
-            "href": "/yazilim/cms-entegrasyonu"
+            "href": "/downloads/tr-en-de-ru-cok-dilli-gorsel-video-checklist-v1.0.pdf"
           }
         ]
       },
@@ -23841,7 +24025,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çok dilli üretimde bir diğer büyük risk “yanlış dili yayınlama”dır. Tasarım doğru olsa bile dosya düzeni yoksa ekip yanlış export’u yükler. Bu yüzden isimlendirme ve klasör yapısı, çok dilli üretimin ayrılmaz parçasıdır."
+            "text": "Çok dilli üretimde bir diğer büyük risk “yanlış dili yayınlama”dır. Tasarım doğru olsa bile dosya düzeni yoksa ekip yanlış export’u yükler. Bu yüzden [dil bazlı export standardı](https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk) ve klasör yapısı, çok dilli üretimin ayrılmaz parçasıdır."
           },
           {
             "type": "h3",
@@ -23911,11 +24095,15 @@
             ]
           },
           {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle TR–EN–DE–RU kreatif üretiminizi standardize edin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
+          },
+          {
             "type": "cta",
             "variant": "primary",
             "label": "Çok Dilli Tasarım & Kampanya Analizi Talep Et",
             "text": "4 dilde bozulmayan kreatif setleri kurmak isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       },
@@ -24014,7 +24202,20 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde kırık link ve redirect zinciri yok",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /tr/creative/grafik-motion-tasarim",
+          "Creative & Tasarım hub linki kontrol edildi: /tr/creative-ve-tasarim",
+          "Marka Kitabı linki kontrol edildi: /tr/creative/blog/marka-kitabi-ile-uyumlu-dijital-tasarim",
+          "Dikey Video Safe Zone linki kontrol edildi: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+          "Export ve Dosya Teslim linki kontrol edildi: /tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk",
+          "CMS Entegrasyonu linki kontrol edildi: /tr/yazilim/cms-entegrasyonu",
+          "Yerel SEO linki kontrol edildi: /tr/seo/yerel-seo",
+          "Otel SEO linki kontrol edildi: /tr/otel/seo",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve sonuç bölümünde",
+          "Secondary CTA: orta bölümde download asset olarak kullanıldı",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/tr-en-de-ru-cok-dilli-gorsel-video-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
@@ -24073,7 +24274,7 @@
     },
     "h1": {
       "title": "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
-      "intro": "Ajansla çalışırken en fazla zaman kaybettiren şey çoğu zaman “tasarım” değil, teslimdir: yanlış boyut, yanlış format, eksik kaynak dosya, karışık klasör… Özellikle otel ve B2B’de aynı kreatifin sosyal, web, sunum ve bazen baskı versiyonları gerektiği için bu kaos büyür. Bu rehber; hangi iş için hangi formatın doğru olduğunu (PNG/JPG/SVG/MP4), temel kanal ölçülerini, RGB/CMYK renk profilini ve dosya isimlendirme + klasör yapısını tek bir standarda bağlayarak “her seferinde yeniden sorma” döngüsünü bitirmeyi hedefler.",
+      "intro": "Ajansla çalışırken en fazla zaman kaybettiren şey çoğu zaman “tasarım” değil, teslimdir: yanlış boyut, yanlış format, eksik kaynak dosya, karışık klasör… Özellikle otel ve B2B’de aynı kreatifin sosyal, web, sunum ve bazen baskı versiyonları gerektiği için bu kaos büyür. Bu rehber; [export standartları](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımıyla hangi iş için hangi formatın doğru olduğunu (PNG/JPG/SVG/MP4), temel kanal ölçülerini, RGB / CMYK uyumunu ve dosya isimlendirme + klasör yapısını tek bir standarda bağlayarak “her seferinde yeniden sorma” döngüsünü bitirmeyi hedefler.",
       "quickSummary": [
         "1) İş türüne göre doğru formatı seç",
         "2) Sosyal, web, sunum, baskı ve video ölçülerini standardize et",
@@ -24084,47 +24285,63 @@
       "ctaPrimary": {
         "label": "Export & Dosya Teslim Standart Analizi Talep Et",
         "text": "Ajans–müşteri teslimlerinde format/ölçek/renk standartlarını oturtmak isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Export & Dosya Teslim Standart Analizi Talep Et",
         "text": "Ajans–müşteri teslimlerinde format/ölçek/renk standartlarını oturtmak isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Format/Ölçek/Renk İçin Dosya Teslim Checklist’ini İndir",
         "text": "Teslim paketini standardize eder; yanlış dosya ve tekrar isteme kaynaklı gecikmeleri azaltırsınız.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/downloads/format-olcek-renk-dosya-teslim-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Video Prodüksiyon hizmet sayfası",
-        "href": "/creative/video-produksiyon"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Creative Brief Hazırlama Rehberi",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "label": "Dikey Video Tasarımı Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "label": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+        "href": "/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Sosyal medya içerik üretimi",
-        "href": "/smm/icerik-uretimi"
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım ile Kanal Bazlı Kreatif Üretimi",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
       },
       {
-        "title": "Video Prodüksiyon ve Platforma Uygun Export Süreci",
-        "href": "/creative/video-produksiyon"
+        "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi ve Yayın Operasyonu",
-        "href": "/smm/icerik-uretimi"
+        "title": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+        "href": "/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi"
       }
     ],
     "sections": [
@@ -24138,7 +24355,7 @@
           },
           {
             "type": "p",
-            "text": "Format seçimi, kalite ve hızın temelidir. Yanlış format; bulanıklık, büyük dosya, renk sapması veya “şeffaflık kaybı” gibi sorunlar üretir. Pratikte şu ayrımı yapmak gerekir: foto ağırlıklı içerik (JPG), şeffaf/katmanlı ihtiyaç (PNG), ölçeklenebilir vektör (SVG), hareketli içerik (MP4). Otel ve B2B’de en sık ihtiyaç: kampanya postu, banner, logo/ikon seti ve kısa video export’tur."
+            "text": "Format seçimi, kalite ve hızın temelidir. Yanlış format; bulanıklık, büyük dosya, renk sapması veya “şeffaflık kaybı” gibi sorunlar üretir. İyi bir [dosya teslim standardı](https://dgtlface.com/tr/creative-ve-tasarim), format kararını tesadüfe bırakmaz. Pratikte şu ayrımı yapmak gerekir: foto ağırlıklı içerik (JPG), şeffaf/katmanlı ihtiyaç (PNG), ölçeklenebilir vektör (SVG), hareketli içerik (MP4). Otel ve B2B’de en sık ihtiyaç: kampanya postu, banner, logo/ikon seti ve kısa video export’tur."
           },
           {
             "type": "h3",
@@ -24177,7 +24394,7 @@
             "variant": "action",
             "title": "Ne yapmalıyım?",
             "items": [
-              "Her iş türü için “format standardı” yaz (brief’e ekle).",
+              "Her iş türü için [brief içinde teslim formatları](https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin) alanını netleştir.",
               "Logo/ikonları mutlaka SVG olarak iste.",
               "Sosyal postlarda metin keskinliği için PNG’yi gerektiğinde kullan, ama dosya boyutunu kontrol et."
             ]
@@ -24194,7 +24411,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Ölçek, iki sebeple kritiktir: (1) platformlar görseli yeniden boyutlandırır ve sıkıştırır, (2) yanlış ölçüde çalışmak metinleri bulanıklaştırır veya kırpar. Bu nedenle “tek ölçü her yere” yaklaşımı yerine kanal bazlı temel ölçü seti gerekir. IG feed/story/reels, LinkedIn post, web banner ve sunum için minimum bir ölçü kütüphanesi oluşturmak pratik bir standardın başlangıcıdır."
+            "text": "Ölçek, iki sebeple kritiktir: (1) platformlar görseli yeniden boyutlandırır ve sıkıştırır, (2) yanlış ölçüde çalışmak metinleri bulanıklaştırır veya kırpar. Bu nedenle “tek ölçü her yere” yaklaşımı yerine [kanal bazlı boyutlar](https://dgtlface.com/tr/smm/icerik-uretimi) mantığıyla temel ölçü seti gerekir. IG feed/story/reels, LinkedIn post, web banner ve sunum için minimum bir ölçü kütüphanesi oluşturmak pratik bir standardın başlangıcıdır."
           },
           {
             "type": "h3",
@@ -24304,7 +24521,7 @@
             "items": [
               "6–8 ölçülük bir “master template seti” çıkar.",
               "Her kampanyada bu template’lerle üret; sıfırdan ölçü arama.",
-              "Dikey video safe zone standardını ayrıca ekle (reels/story)."
+              "[dikey video export ölçüleri](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) standardını ayrıca ekle (reels/story)."
             ]
           },
           {
@@ -24376,7 +24593,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Teslim standardı, ajans–müşteri ilişkisini rahatlatır: “kaynak dosya nerede?”, “hangi versiyon final?”, “video alt yazısı var mı?” soruları azalır. Otellerde sezon kampanyaları ve çoklu format ihtiyacı; B2B’de ürün güncellemeleri ve farklı kanallar için çoklu export, teslim düzenini daha da kritik yapar."
+            "text": "Teslim standardı, ajans–müşteri ilişkisini rahatlatır: “kaynak dosya nerede?”, “hangi versiyon final?”, “video alt yazısı var mı?” soruları azalır. Otellerde sezon kampanyaları ve çoklu format ihtiyacı; B2B’de ürün güncellemeleri ve farklı kanallar için çoklu export, teslim düzenini daha da kritik yapar. Bu akışı [export öncesi tasarım QA](https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi) kontrolüyle desteklemek, yanlış ölçü ve eksik varyant riskini yayından önce yakalar."
           },
           {
             "type": "p",
@@ -24407,7 +24624,7 @@
             "variant": "secondary",
             "label": "Format/Ölçek/Renk İçin Dosya Teslim Checklist’ini İndir",
             "text": "Teslim standardını tek sayfada netleştirir; yanlış dosya ve tekrar isteme döngüsünü azaltırsınız.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/downloads/format-olcek-renk-dosya-teslim-checklist-v1.0.pdf"
           }
         ]
       },
@@ -24440,15 +24657,19 @@
             "items": [
               "Her projede aynı teslim paket yapısını kullan.",
               "Readme’ye “nerede kullanılır?” notunu ekle.",
-              "Video prodüksiyon süreçleriyle bağla: /creative/video-produksiyon"
+              "[video export standartları](https://dgtlface.com/tr/creative/video-produksiyon) tarafını kurgu teslimleriyle birlikte tanımla."
             ]
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle format, ölçü ve renk teslim standardınızı güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           },
           {
             "type": "cta",
             "variant": "primary",
             "label": "Export & Dosya Teslim Standart Analizi Talep Et",
             "text": "Teslim paketini oturtup ekip içi/ajans kaynaklı gecikmeleri azaltmak isteyenler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       },
@@ -24553,7 +24774,19 @@
           "Canonical kontrolü: /tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk",
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
-          "İç linklerde kırık link ve redirect zinciri yok",
+          "Grafik & Motion Tasarım iç linki kontrol edildi: /tr/creative/grafik-motion-tasarim",
+          "Creative & Tasarım hub linki kontrol edildi: /tr/creative-ve-tasarim",
+          "Creative Brief linki kontrol edildi: /tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin",
+          "Dikey Video Safe Zone linki kontrol edildi: /tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi",
+          "Tasarım QA linki kontrol edildi: /tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi",
+          "Video Prodüksiyon linki kontrol edildi: /tr/creative/video-produksiyon",
+          "SMM İçerik Üretimi linki kontrol edildi: /tr/smm/icerik-uretimi",
+          "Primary CTA: 2 kez — H1 giriş sonunda ve sonuç bölümünde",
+          "Secondary CTA: orta bölümde download asset olarak kullanıldı",
+          "Secondary CTA türü: Download Asset (checklist)",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/format-olcek-renk-dosya-teslim-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "PNG/JPG/SVG/MP4/PDF format örnekleri ve MIME türleri doğrulandı",
           "RGB/CMYK açıklamaları ile baskı varsayımları teknik kontrolden geçirildi",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
@@ -24614,7 +24847,7 @@
     },
     "h1": {
       "title": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
-      "intro": "“Post’u attıktan sonra yazım hatası gördük”, “Landing’de link yanlışmış”, “Baskıda renk kaydı” gibi problemler, çoğu zaman yetenek eksikliği değil kontrol eksikliğidir. Design QA (preflight), tasarımın yayına çıkmadan önce metin–grid–renk–link–format açısından sistematik kontrol edilmesidir. Bu rehber, web/sosyal/baskı için kanal bazlı QA adımlarını ve otel/B2B örnek süreçlerini tek bir rutine bağlar: hızlı ama disiplinli bir “son kontrol” kültürü.",
+      "intro": "“Post’u attıktan sonra yazım hatası gördük”, “Landing’de link yanlışmış”, “Baskıda renk kaydı” gibi problemler, çoğu zaman yetenek eksikliği değil kontrol eksikliğidir. Design QA (preflight), tasarımın yayına çıkmadan önce metin–grid–renk–link–format açısından sistematik kontrol edilmesidir. Bu rehber, [yayın öncesi kontrol](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımını web/sosyal/baskı için kanal bazlı QA adımları ve otel/B2B örnek süreçleriyle tek bir rutine bağlar: hızlı ama disiplinli bir “son kontrol” kültürü.",
       "quickSummary": [
         "1) QA’yı son dakika kontrolü değil, zorunlu süreç adımı yap",
         "2) Metin, grid, renk, link/CTA ve format çekirdeğini standardize et",
@@ -24625,51 +24858,63 @@
       "ctaPrimary": {
         "label": "Tasarım QA & Yayın Öncesi Kontrol Analizi Talep Et",
         "text": "Yayın frekansı yüksek otel, ajans ve B2B ekiplerinde hatalı içeriği azaltmak isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Tasarım QA & Yayın Öncesi Kontrol Analizi Talep Et",
         "text": "Yayın frekansı yüksek otel, ajans ve B2B ekiplerinde hatalı içeriği azaltmak isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Tasarım QA & Yayın Öncesi Kontrol Checklist’ini İndir",
         "text": "Yayın öncesi 10 dakikalık preflight rutini kurar; metin, link ve format hatalarını yakalarsınız.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/tasarim-qa-yayin-oncesi-kontrol-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Bakım ve Destek hizmet sayfası",
-        "href": "/yazilim/bakim-ve-destek"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Sosyal Medya Analiz ve Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Export ve Dosya Teslim Standartları",
+        "href": "/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "Creative Brief Hazırlama Rehberi",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
+      },
+      {
+        "label": "Template Tabanlı Tasarım",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
+      },
+      {
+        "label": "Bakım ve Destek",
+        "href": "/tr/yazilim/bakim-ve-destek"
+      },
+      {
+        "label": "SMM Analiz Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım ile Tutarlı Kreatif Üretimi",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
+        "href": "/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk"
       },
       {
-        "title": "Sosyal Medya Analiz ve Raporlama ile Performans Geri Beslemesi",
-        "href": "/smm/analiz-raporlama"
+        "title": "Creative Brief Hazırlama Rehberi: Grafik ve Motion Projeleri İçin",
+        "href": "/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin"
       },
       {
-        "title": "Bakım ve Destek ile Sürekli Kalite Kontrolü",
-        "href": "/yazilim/bakim-ve-destek"
+        "title": "Template Tabanlı Tasarım ve Canva/Figma Kitleriyle Üretimi Ölçeklendirmek",
+        "href": "/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek"
       }
     ],
     "sections": [
@@ -24683,7 +24928,7 @@
           },
           {
             "type": "p",
-            "text": "Tasarım QA’nın amacı “mükemmeliyetçilik” değil, risk yönetimidir. Çünkü küçük hatalar (yanlış tarih, yanlış fiyat, bozuk link, kesilmiş CTA) doğrudan güven kaybı yaratır ve performansı düşürür. Özellikle otel kampanyalarında sezon/erken rezervasyon gibi zaman hassasiyeti; B2B’de webinar tarihi, fiyat/plan ve yönlendirme linkleri hata kaldırmaz. QA, tasarımın “güvenilirlik katmanı”dır."
+            "text": "Tasarım QA’nın amacı “mükemmeliyetçilik” değil, risk yönetimidir. Çünkü küçük hatalar (yanlış tarih, yanlış fiyat, bozuk link, kesilmiş CTA) doğrudan güven kaybı yaratır ve performansı düşürür. İyi bir [preflight checklist](https://dgtlface.com/tr/creative-ve-tasarim), bu riskleri tasarım sürecinin doğal parçası haline getirir. Özellikle otel kampanyalarında sezon/erken rezervasyon gibi zaman hassasiyeti; B2B’de webinar tarihi, fiyat/plan ve yönlendirme linkleri hata kaldırmaz. QA, tasarımın “güvenilirlik katmanı”dır."
           },
           {
             "type": "h3",
@@ -24742,7 +24987,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Her kanalın riskleri farklıdır: web’de link ve responsive kırılır; sosyalde safe area/crop ve metin okunurluğu kritiktir; baskıda renk profili ve taşma payları (bleed) öne çıkar. Bu yüzden tek checklist yerine “çekirdek + kanal eklentileri” yaklaşımı daha doğrudur: önce ortak maddeler, sonra kanal özel maddeler."
+            "text": "Her kanalın riskleri farklıdır: web’de link ve responsive kırılır; sosyalde safe area/crop ve metin okunurluğu kritiktir; baskıda renk profili ve taşma payları (bleed) öne çıkar. Bu yüzden [export öncesi tasarım QA](https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk) kontrolünü de içeren “çekirdek + kanal eklentileri” yaklaşımı daha doğrudur: önce ortak maddeler, sonra kanal özel maddeler."
           },
           {
             "type": "h3",
@@ -24848,7 +25093,7 @@
             "variant": "secondary",
             "label": "Tasarım QA & Yayın Öncesi Kontrol Checklist’ini İndir",
             "text": "Yayın öncesi 10 dakikalık preflight rutini kurar; metin, link ve format hatalarını yakalarsınız.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/tasarim-qa-yayin-oncesi-kontrol-checklist-v1.0.pdf"
           }
         ]
       },
@@ -24913,7 +25158,7 @@
             "title": "Ne yapmalıyım?",
             "items": [
               "Metinleri “tek kaynak doküman”dan çek (kopyala-yapıştır hatasını azalt).",
-              "Grid ve padding’i template’e kilitle.",
+              "Grid ve padding’i [template QA standardı](https://dgtlface.com/tr/creative/blog/template-tabanli-tasarim-ve-canva-figma-kitleriyle-uretimi-olceklendirmek) olan kitlere kilitle.",
               "Renkleri token’dan kullan; elle seçme alışkanlığını bırak.",
               "En kritik alanlar için 2 göz kuralı uygula (tarih/fiyat/plan)."
             ]
@@ -24984,7 +25229,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "QA süreci “kimsenin yapmak istemediği ek iş” gibi görülürse işlemez. En iyi QA; kısa, net, rolü belli ve tekrar edilebilir olandır. Otelde kampanya landing + görsel seti birlikte kontrol edilir (tarih, fiyat, koşul, CTA). B2B’de e-book/sunum/banner seti bir paket olarak kontrol edilir (başlık, logo, link, sayfa numarası, CTA)."
+            "text": "QA süreci “kimsenin yapmak istemediği ek iş” gibi görülürse işlemez. En iyi QA; kısa, net, rolü belli ve tekrar edilebilir olandır. Otelde kampanya landing + görsel seti birlikte kontrol edilir (tarih, fiyat, koşul, CTA). B2B’de e-book/sunum/banner seti bir paket olarak kontrol edilir (başlık, logo, link, sayfa numarası, CTA) ve bu paketler [brief’e göre son kontrol](https://dgtlface.com/tr/creative/blog/creative-brief-hazirlama-rehberi-grafik-ve-motion-projeleri-icin) mantığıyla onaylanır."
           },
           {
             "type": "h3",
@@ -25029,8 +25274,8 @@
             "items": [
               "QA’yı paket bazlı yap: tek tek değil set olarak.",
               "10 dakikalık preflight + 2 dakikalık link testi rutini koy.",
-              "Analiz/raporlama sayfalarıyla kalite–performans bağını kur: /smm/analiz-raporlama ve /sem/reklam-raporlama.",
-              "Bakım kültürüyle bağla: /yazilim/bakim-ve-destek."
+              "Yayında tespit edilen sorunları [yayın sonrası bakım süreci](https://dgtlface.com/tr/yazilim/bakim-ve-destek) içine devret.",
+              "Paket bazlı onayda tarih, fiyat, link ve varyant eşleşmesini son kez birlikte kontrol et."
             ]
           },
           {
@@ -25038,7 +25283,7 @@
             "variant": "primary",
             "label": "Tasarım QA & Yayın Öncesi Kontrol Analizi Talep Et",
             "text": "QA akışını ekibinize uygun hale getirip yayın hatalarını azaltmak isteyenler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       },
@@ -25048,7 +25293,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Birçok ekip QA’yı “estetik kontrol” sanır; oysa QA, doğrudan performans kontrolüdür. Yanlış link, kesilmiş CTA, okunmayan metin; reklam raporlarında CTR/CVR düşüşü olarak görünür. Fark yaratan yaklaşım: QA checklist maddelerini performans metrikleriyle eşlemek (link hatası → tıklama kaybı, okunabilirlik → etkileşim, renk tutarlılığı → güven). Bu eşleştirme, QA’nın ekip içinde “vazgeçilmez” olmasını sağlar."
+            "text": "Birçok ekip QA’yı “estetik kontrol” sanır; oysa QA, doğrudan performans kontrolüdür. Yanlış link, kesilmiş CTA, okunmayan metin; reklam raporlarında CTR/CVR düşüşü olarak görünür. Bu etkiyi [sosyal medya kreatif performans raporlaması](https://dgtlface.com/tr/smm/analiz-raporlama) ile görünür kılmak, QA checklist maddelerini performans metrikleriyle eşlemeyi kolaylaştırır (link hatası → tıklama kaybı, okunabilirlik → etkileşim, renk tutarlılığı → güven). Bu eşleştirme, QA’nın ekip içinde “vazgeçilmez” olmasını sağlar."
           },
           {
             "type": "callout",
@@ -25110,6 +25355,10 @@
           {
             "type": "media",
             "slot": "proof-08"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle tasarım hatası yakalama sürecinizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -25166,11 +25415,18 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/grafik-motion-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Export, Creative Brief ve Template sibling linkleri doğru bölümlerde yerleştirildi",
+          "Bakım ve Destek ile SMM Analiz Raporlama linkleri yayın sonrası bağlamında doğrulandı",
           "Web, sosyal ve baskı QA maddeleri kanal bazında doğrulandı",
           "Link, UTM, QR ve CTA hedefleri yayın öncesi test edildi",
           "Responsive, crop, safe area, bleed ve renk profili kontrolleri tamamlandı",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/tasarim-qa-yayin-oncesi-kontrol-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
@@ -25227,7 +25483,7 @@
     },
     "h1": {
       "title": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
-      "intro": "AI ile görsel üretmek kolaylaştı; zor olan, çıkan işleri marka dili içinde tutmak ve “final kaliteyi” garantilemek. Bugün birçok ekip iki uçtan birine kayıyor: ya AI’ı “tasarımcının yerine” koyup kaliteyi düşürüyor ya da risk korkusuyla hiç kullanmayıp hız avantajını kaçırıyor. Bu rehber, AI’ı taslak/varyasyon motoru, insan art director’ü ise karar verici ve marka filtresi olarak konumlandıran hibrit modeli anlatır: prompt yazımı, referans yönetimi, Figma/After Effects pipeline, otel ve B2B senaryoları, telif/etik risk azaltma ve yayın öncesi QA kapıları.",
+      "intro": "AI ile görsel üretmek kolaylaştı; zor olan, çıkan işleri marka dili içinde tutmak ve “final kaliteyi” garantilemek. Bugün birçok ekip iki uçtan birine kayıyor: ya AI’ı “tasarımcının yerine” koyup kaliteyi düşürüyor ya da risk korkusuyla hiç kullanmayıp hız avantajını kaçırıyor. Bu rehber, [AI destekli tasarım](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımını taslak/varyasyon motoru olarak; insan art director’ü ise karar verici ve marka filtresi olarak konumlandıran hibrit model üzerinden anlatır: prompt yazımı, referans yönetimi, Figma/After Effects pipeline, otel ve B2B senaryoları, telif/etik risk azaltma ve yayın öncesi QA kapıları.",
       "quickSummary": [
         "1) AI’ı taslak ve varyasyon üretiminde asistan olarak kullan",
         "2) Marka, doğruluk ve kalite kararlarını insan art director’de tut",
@@ -25238,47 +25494,63 @@
       "ctaPrimary": {
         "label": "Yapay Zekâ Destekli Tasarım Workflow Analizi Talep Et",
         "text": "AI ile hız kazanırken marka kontrolünü kaybetmek istemeyen otel, ajans ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Yapay Zekâ Destekli Tasarım Workflow Analizi Talep Et",
         "text": "AI ile hız kazanırken marka kontrolünü kaybetmek istemeyen otel, ajans ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "AI + İnsan Art Direction Süreci Checklist’ini İndir",
         "text": "AI çıktısını marka filtresi ve QA kapılarıyla güvenle yönetir; hibrit üretim modelini ekip standardına çevirirsiniz.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/downloads/ai-insan-art-direction-sureci-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Video Prodüksiyon hizmet sayfası",
-        "href": "/creative/video-produksiyon"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Veriyle Beslenen Kreatif",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
+      },
+      {
+        "label": "UGC & Kreatör Framework",
+        "href": "/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi"
+      },
+      {
+        "label": "Design Ops ve Figma Kütüphanesi Yönetimi",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım ile Marka Kontrollü Kreatif Üretim",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+        "href": "/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak"
       },
       {
-        "title": "Video Prodüksiyon ve Motion Tasarım Süreçleri",
-        "href": "/creative/video-produksiyon"
+        "title": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka–Kreatör İşbirliği",
+        "href": "/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi ve Kreatif Operasyon",
-        "href": "/smm/icerik-uretimi"
+        "title": "Design Ops ve Figma Kütüphanesi Yönetimi: Creative Ekipler İçin",
+        "href": "/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin"
       }
     ],
     "sections": [
@@ -25292,7 +25564,7 @@
           },
           {
             "type": "p",
-            "text": "AI destekli tasarım araçları bugün iki alanda çok güçlü: (1) fikir/taslak üretimi, (2) varyasyon üretimi. Yani “ilk 20 taslağı” hızla çıkarır; farklı kompozisyon, renk tonu, görsel tema ve headline varyantlarını üretir. Ancak aynı araçlar üç noktada risklidir: marka tutarlılığı, telif/etik, ürün gerçeği/yanıltıcılık. Bu yüzden “AI kullanmak” değil, AI’ı nerede ve nasıl kullanmak sorusu kritiktir."
+            "text": "AI destekli tasarım araçları bugün iki alanda çok güçlü: (1) fikir/taslak üretimi, (2) varyasyon üretimi. Yani “ilk 20 taslağı” hızla çıkarır; farklı kompozisyon, renk tonu, görsel tema ve headline varyantlarını üretir. Ancak aynı araçlar üç noktada risklidir: marka tutarlılığı, telif/etik, ürün gerçeği/yanıltıcılık. Bu yüzden [insan kontrolü](https://dgtlface.com/tr/creative-ve-tasarim) ile tanımlanan bir üretim çerçevesi olmadan “AI kullanmak” değil, AI’ı nerede ve nasıl kullanmak sorusu kritiktir."
           },
           {
             "type": "h3",
@@ -25417,7 +25689,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI çıktılarının kalitesi “model” kadar girdi kalitesine bağlıdır: doğru prompt, doğru referans, doğru kısıtlar. Burada iki pratik araç önemlidir:"
+            "text": "AI çıktılarının kalitesi “model” kadar girdi kalitesine bağlıdır: doğru prompt, doğru referans, doğru kısıtlar. Bu çıktıları ekip içinde sürdürülebilir biçimde yönetmek için [Design Ops ile AI üretim kontrolü](https://dgtlface.com/tr/creative/blog/design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin) tarafı da en az prompt kalitesi kadar önemlidir. Burada iki pratik araç öne çıkar:"
           },
           {
             "type": "list",
@@ -25462,6 +25734,10 @@
             "text": "Mini örnek (B2B): “Ürün dashboard varyasyonu” → minimal, yüksek kontrast → okunur tipografi → gerçek ekran elementleri abartısız → logo küçük ve sabit."
           },
           {
+            "type": "p",
+            "text": "Hangi promptların, kompozisyonların veya mesaj varyasyonlarının gerçekten işe yaradığını anlamak için [veriyle iyileştirilen AI kreatifleri](https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak) yaklaşımıyla CTR, etkileşim ve dönüşüm sinyallerini tasarım kararına geri taşımak gerekir."
+          },
+          {
             "type": "callout",
             "variant": "checklist",
             "title": "Mini Check",
@@ -25493,7 +25769,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI’nın değeri, “tek görsel üretmek” değil; workflow içinde hız kazandırmaktır. Otelde kampanya görselleri ve deneyim kreatifleri; B2B’de ürün/mikro-site varyasyonları, feature highlight ve case görselleri… Hepsinde ortak model şudur: AI taslak üretir, insan refine eder, final QA ile yayınlanır."
+            "text": "AI’nın değeri, “tek görsel üretmek” değil; workflow içinde hız kazandırmaktır. Otelde kampanya görselleri ve deneyim kreatifleri; B2B’de ürün/mikro-site varyasyonları, feature highlight ve case görselleri… Hepsinde ortak model şudur: AI taslak üretir, insan refine eder, final QA ile yayınlanır. Bu yapı, kreatör iş birlikleri ve kullanıcı içerikleriyle birlikte çalışacaksa [UGC ve AI destekli kreatif çerçeve](https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi) baştan netleştirilmelidir."
           },
           {
             "type": "h3",
@@ -25501,7 +25777,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Brief + moodboard ile başla; AI’dan 20–30 taslak üret; art director 3–5 aday seçsin; Figma/AE’de brand token’larla refine et; sonunda QA checklist ile ölçü/safe zone/CTA kontrolü yapıp yayınla. Bu akış hem hız hem kontrol sağlar."
+            "text": "Net cevap: Brief + moodboard ile başla; AI’dan 20–30 taslak üret; art director 3–5 aday seçsin; Figma/AE’de brand token’larla refine et; sonunda QA checklist ile ölçü/safe zone/CTA kontrolü yapıp yayınla. Storyboard, referans kare ve motion fikirleri üretilecekse bu akışı [AI destekli video üretimi](https://dgtlface.com/tr/creative/video-produksiyon) planıyla birlikte kurmak hem hız hem kontrol sağlar."
           },
           {
             "type": "h3",
@@ -25611,7 +25887,7 @@
             "variant": "secondary",
             "label": "AI + İnsan Art Direction Süreci Checklist’ini İndir",
             "text": "AI çıktısını marka filtresi ve QA kapılarıyla güvenle yönetir; hibrit üretim modelini ekip standardına çevirirsiniz.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/downloads/ai-insan-art-direction-sureci-checklist-v1.0.pdf"
           }
         ]
       },
@@ -25682,7 +25958,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip içerikler AI’ı genelde “tasarımcının yerine geçen sihirli araç” gibi anlatıyor. Bu yaklaşım gerçek hayatta hız verse bile kaliteyi ve marka tutarlılığını yıpratıyor. Fark yaratan model: AI asistan, insan art director karar verici; workflow, kontrol noktaları ve kayıt sistemiyle (prompt kütüphanesi, onay kriterleri, QA) sürdürülebilir üretim. Böyle kurulduğunda “ai destekli tasarım” hem hız hem kalite sağlar; “art direction ai workflow” ekip içinde gerçek bir süreç olur; “otel b2b için ai kreatif” üretimi ise marka kontrolünü kaybetmeden ölçeklenir."
+            "text": "Rakip içerikler AI’ı genelde “tasarımcının yerine geçen sihirli araç” gibi anlatıyor. Bu yaklaşım gerçek hayatta hız verse bile kaliteyi ve marka tutarlılığını yıpratıyor. Fark yaratan model: AI asistan, insan art director karar verici; workflow, kontrol noktaları ve kayıt sistemiyle (prompt kütüphanesi, onay kriterleri, QA) sürdürülebilir üretim. Böyle kurulduğunda hem kreatif kalite korunur hem de [sosyal medya için hibrit kreatif model](https://dgtlface.com/tr/smm/icerik-uretimi) ekip içinde gerçek bir üretim standardına dönüşür."
           },
           {
             "type": "callout",
@@ -25709,7 +25985,7 @@
             "variant": "primary",
             "label": "Yapay Zekâ Destekli Tasarım Workflow Analizi Talep Et",
             "text": "AI’ı sürdürülebilir şekilde sisteme bağlamak isteyen kreatif ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "media",
@@ -25770,6 +26046,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle hibrit kreatif üretim modelinizi güçlendirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           }
@@ -25828,12 +26108,19 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/grafik-motion-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Veriyle Beslenen Kreatif, UGC Framework ve Design Ops sibling linkleri doğru bölümlerde yerleştirildi",
+          "Video Prodüksiyon ve SMM İçerik Üretimi cross-silo linkleri doğru bağlamda doğrulandı",
           "AI çıktıları için brandbook, prompt, negatif liste ve art direction gate kontrolleri tanımlandı",
           "Telif, lisans, etik, yanıltıcılık ve gerçek ürün/tesis iddiası riskleri insan onayına bağlandı",
           "Figma/After Effects refine pipeline ve brand token kullanımı doğrulandı",
           "Yayın öncesi metin, ölçü, safe zone, CTA, link ve versiyon QA kontrolleri tamamlandı",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/ai-insan-art-direction-sureci-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
@@ -25890,7 +26177,7 @@
     },
     "h1": {
       "title": "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında Deneyimsel Tasarım",
-      "intro": "AR filtreleri “tek seferlik eğlence” olarak kurgulanırsa birkaç gün içinde unutulur. Doğru kurgulandığında ise kullanıcıyı izleyen değil, deneyimin parçası yapan bir kampanya temasına dönüşür: yüz takibiyle kişiselleşir, marka öğelerini hissettirir, paylaşımı tetikler ve CTA’ya bağlanır. Bu rehberde Instagram/Snap/TikTok ekosisteminde AR’nin rolünü, konsept–storyboard–tasarım–geliştirme adımlarını, otel ve B2B için örnek senaryoları ve teknik/görsel guardrail’leri anlatıyoruz.",
+      "intro": "AR filtreleri “tek seferlik eğlence” olarak kurgulanırsa birkaç gün içinde unutulur. Doğru kurgulandığında ise kullanıcıyı izleyen değil, deneyimin parçası yapan [AR filtre kampanyaları](https://dgtlface.com/tr/creative/grafik-motion-tasarim) temasına dönüşür: yüz takibiyle kişiselleşir, marka öğelerini hissettirir, paylaşımı tetikler ve CTA’ya bağlanır. Bu rehberde Instagram/Snap/TikTok ekosisteminde AR’nin rolünü, konsept–storyboard–tasarım–geliştirme adımlarını, otel ve B2B için örnek senaryoları ve teknik/görsel guardrail’leri anlatıyoruz.",
       "quickSummary": [
         "1) AR filtresinin tek kampanya hedefini ve mesajını belirle",
         "2) Deneyimi 3–5 sahnelik storyboard ile planla",
@@ -25901,47 +26188,63 @@
       "ctaPrimary": {
         "label": "AR Filtre & Yüz Efekti Kampanya Analizi Talep Et",
         "text": "Otel/B2B için paylaşılabilir AR deneyimi kurgulamak isteyen ekipler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "AR Filtre & Yüz Efekti Kampanya Analizi Talep Et",
         "text": "Otel/B2B için paylaşılabilir AR deneyimi kurgulamak isteyen ekipler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Otel/B2B İçin AR Filtre Konsept & Storyboard Checklist’ini İndir",
         "text": "Konsept ve storyboard adımlarını netleştirir; AR kampanyasını hızlıca planlayıp yayına hazırlarsınız.",
-        "href": "/smm/reels-video"
+        "href": "/downloads/otel-b2b-ar-filtre-konsept-storyboard-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Video Prodüksiyon hizmet sayfası",
-        "href": "/creative/video-produksiyon"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Reels ve Video İçerik Üretimi",
-        "href": "/smm/reels-video"
+        "label": "Dikey Video Tasarımı",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "label": "Motion Graphic ile Hikâye Anlatımı",
+        "href": "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
+      },
+      {
+        "label": "3D ve İzometrik Tasarım",
+        "href": "/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/tr/smm/reels-video"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım ile Deneyimsel Kampanya Üretimi",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
       },
       {
-        "title": "Video Prodüksiyon ile Kampanya Hikâyesi Oluşturma",
-        "href": "/creative/video-produksiyon"
+        "title": "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
+        "href": "/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
       },
       {
-        "title": "Reels ve Video İçerikleriyle AR Kampanyasını Destekleme",
-        "href": "/smm/reels-video"
+        "title": "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil",
+        "href": "/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil"
       }
     ],
     "sections": [
@@ -25955,7 +26258,7 @@
           },
           {
             "type": "p",
-            "text": "AR’nin gücü, kullanıcıyı pasif izleyici olmaktan çıkarıp aktif katılımcı yapmasıdır. Bu da üç sonuca yol açar: (1) daha yüksek etkileşim, (2) organik paylaşım, (3) daha güçlü hatırlanırlık. Otel tarafında destinasyon/konsept hissi verir; B2B’de ise “ürün demo”yu oyunlaştırarak anlatabilir. Ancak AR’yi “tek efekt” gibi değil, kampanya stratejisinin bir parçası olarak düşünmek gerekir: hedef, mesaj ve CTA net olmalı."
+            "text": "AR’nin gücü, kullanıcıyı pasif izleyici olmaktan çıkarıp aktif katılımcı yapmasıdır. Bu da üç sonuca yol açar: (1) daha yüksek etkileşim, (2) organik paylaşım, (3) daha güçlü hatırlanırlık. Otel tarafında destinasyon/konsept hissi verir; B2B’de ise “ürün demo”yu oyunlaştırarak anlatabilir. Ancak AR’yi “tek efekt” gibi değil, [deneyimsel tasarım](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımının bir parçası olarak düşünmek gerekir: hedef, mesaj ve CTA net olmalı."
           },
           {
             "type": "h3",
@@ -26012,7 +26315,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Platformlar farklı davranışlar üretir ama ortak nokta şudur: AR, kullanıcıyı içerikle “oynatır”. Instagram’da story/reels entegrasyonu ve paylaşım ritmi; TikTok’ta trend/ses ve hızlı yayılım; Snap’te lens kültürü öne çıkar. Bu nedenle AR deneyimini tek bir platforma kilitlemek yerine “çekirdek deneyim + platform adaptasyonu” yaklaşımı daha sağlıklıdır."
+            "text": "Platformlar farklı davranışlar üretir ama ortak nokta şudur: AR, kullanıcıyı içerikle “oynatır”. Instagram’da story/reels entegrasyonu ve paylaşım ritmi; TikTok’ta trend/ses ve hızlı yayılım; Snap’te lens kültürü öne çıkar. Bu nedenle AR deneyimini tek bir platforma kilitlemek yerine [AR filtre içerikleri için safe zone](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) mantığını da kapsayan “çekirdek deneyim + platform adaptasyonu” yaklaşımı daha sağlıklıdır."
           },
           {
             "type": "h3",
@@ -26055,7 +26358,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AR işinin yarısı konseptte çözülür. Storyboard olmadan AR geliştirmeye girmek “deneyip bozma” üretir. En pratik storyboard, 3–5 sahne ile çalışır: açılış, etkileşim, sonuç ekranı, CTA. Otelde bu: oda/konsept teması + destinasyon hissi; B2B’de ürün faydası + mini demo + sonuç."
+            "text": "AR işinin yarısı konseptte çözülür. Storyboard olmadan AR geliştirmeye girmek “deneyip bozma” üretir. En pratik storyboard, [AR deneyiminde motion storytelling](https://dgtlface.com/tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin) mantığıyla 3–5 sahne ile çalışır: açılış, etkileşim, sonuç ekranı, CTA. Otelde bu: oda/konsept teması + destinasyon hissi; B2B’de ürün faydası + mini demo + sonuç."
           },
           {
             "type": "h3",
@@ -26210,7 +26513,7 @@
             "variant": "secondary",
             "label": "Otel/B2B İçin AR Filtre Konsept & Storyboard Checklist’ini İndir",
             "text": "Konsept ve storyboard adımlarını netleştirir; AR kampanyasını hızlıca planlayıp yayına hazırlarsınız.",
-            "href": "/smm/reels-video"
+            "href": "/downloads/otel-b2b-ar-filtre-konsept-storyboard-checklist-v1.0.pdf"
           }
         ]
       },
@@ -26220,7 +26523,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AR’de iki şey performansı öldürür: ağır efektler ve yanlış yerleşim. Ayrıca yüz takibi ve kullanıcı verisi gibi alanlarda güvenlik/etik hassasiyet vardır. Guardrail’ler; hem görsel dili marka içinde tutar hem de teknik olarak filtreyi “akıcı” kılar."
+            "text": "AR’de iki şey performansı öldürür: ağır efektler ve yanlış yerleşim. Özellikle [AR filtrelerde 3D görsel dil](https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil) kullanıldığında bu denge daha kritik hale gelir. Ayrıca yüz takibi ve kullanıcı verisi gibi alanlarda güvenlik/etik hassasiyet vardır. Guardrail’ler; hem görsel dili marka içinde tutar hem de teknik olarak filtreyi “akıcı” kılar."
           },
           {
             "type": "h3",
@@ -26281,7 +26584,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AR tarafında teknik tutorial çok; ama otel/B2B odaklı konsept + storyboard + marka yerleşimi + CTA mekanizmasını birlikte anlatan rehber az. Fark yaratan yaklaşım: AR’yi “effekt” olarak değil, kampanya mekaniği olarak tasarlamak: sonuç ekranı paylaşımı tetikler, paylaşım profil ziyaretini artırır, profil CTA’ya bağlar. Böylece AR, tek başına değil, içerik seti ve medya planıyla birlikte çalışır."
+            "text": "AR tarafında teknik tutorial çok; ama otel/B2B odaklı konsept + storyboard + marka yerleşimi + CTA mekanizmasını birlikte anlatan rehber az. Fark yaratan yaklaşım: AR’yi “effekt” olarak değil, kampanya mekaniği olarak tasarlamak: sonuç ekranı paylaşımı tetikler, paylaşım profil ziyaretini artırır, profil CTA’ya bağlar. Böylece AR, tek başına değil, teaser ve kullanım videolarıyla [AR kampanyası için video prodüksiyon](https://dgtlface.com/tr/creative/video-produksiyon) akışına ve [Reels için AR efekt kullanımı](https://dgtlface.com/tr/smm/reels-video) ile kısa format yayına bağlanarak içerik seti ve medya planıyla birlikte çalışır."
           },
           {
             "type": "callout",
@@ -26308,7 +26611,7 @@
             "variant": "primary",
             "label": "AR Filtre & Yüz Efekti Kampanya Analizi Talep Et",
             "text": "AR’yi kampanya mekanizmasına dönüştürmek isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "media",
@@ -26372,6 +26675,10 @@
               "Lansman içerik seti planı",
               "Ölçüm raporu şablonu"
             ]
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle marka entegre efektler ve AR filtrelerinizi tasarlayın](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -26424,6 +26731,10 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/grafik-motion-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Dikey Video, Motion Graphic ve 3D/İzometrik sibling linkleri doğru bölümlerde yerleştirildi",
+          "Video Prodüksiyon ve Reels Video cross-silo linkleri doğru bağlamda doğrulandı",
           "AR konsepti, storyboard, sonuç ekranı, paylaşım tetikleyicisi ve CTA akışı doğrulandı",
           "Yüz takibi, overlay yerleşimi, safe alan ve performans guardrail’leri test edildi",
           "Logo, renk, mascot, ikon ve tipografi kullanımı brandbook ile karşılaştırıldı",
@@ -26432,6 +26743,9 @@
           "Filtre kullanım, paylaşım, profil ziyareti ve web/CTA yönlendirme ölçüm planı tanımlandı",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/otel-b2b-ar-filtre-konsept-storyboard-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
@@ -26488,7 +26802,7 @@
     },
     "h1": {
       "title": "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil",
-      "intro": "3D ve izometrik tasarım, markalara “daha modern” bir görünüm verir; ama asıl değeri, karmaşık bilgiyi (tesis, süreç, ürün) daha anlaşılır anlatabilmesidir. Buradaki tuzak, 3D’yi “tamamen yeni kimlik” gibi algılayıp her şeyi 3D’ye çevirmektir: bu hem üretimi ağırlaştırır hem de tutarlılığı bozabilir. Doğru yaklaşım; küçük, tekrar kullanılabilir sahnelerle başlayıp flat dilinizle uyumlu bir 3D/izometrik set kurmak ve üretim–dosya yönetimini süreçle kontrol etmektir.",
+      "intro": "3D ve izometrik tasarım, markalara “daha modern” bir görünüm verir; ama asıl değeri, karmaşık bilgiyi (tesis, süreç, ürün) daha anlaşılır anlatabilmesidir. Buradaki tuzak, 3D’yi “tamamen yeni kimlik” gibi algılayıp her şeyi 3D’ye çevirmektir: bu hem üretimi ağırlaştırır hem de tutarlılığı bozabilir. Doğru yaklaşım; [3D görsel dil](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımını küçük, tekrar kullanılabilir sahnelerle başlatıp flat dilinizle uyumlu bir 3D/izometrik set kurmak ve üretim–dosya yönetimini süreçle kontrol etmektir.",
       "quickSummary": [
         "1) 3D/izometriği yalnızca yüksek değerli anlatım alanlarında kullan",
         "2) Flat tipografi ve grid sistemini koruyarak 3D’yi katman olarak ekle",
@@ -26499,47 +26813,63 @@
       "ctaPrimary": {
         "label": "3D & İzometrik Görsel Dil Analizi Talep Et",
         "text": "Görsel dilini modernleştirip anlaşılırlığı artırmak isteyen otel, ajans ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "3D & İzometrik Görsel Dil Analizi Talep Et",
         "text": "Görsel dilini modernleştirip anlaşılırlığı artırmak isteyen otel, ajans ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "3D/İzometrik Sahne Tasarım & Kullanım Checklist’ini İndir",
         "text": "3D geçişini küçük sahnelerle planlar; dosya boyutu ve üretim süresini kontrol altında tutarsınız.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/downloads/3d-izometrik-sahne-tasarim-kullanim-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "UI/UX Tasarım hizmet sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Video Prodüksiyon hizmet sayfası",
-        "href": "/creative/video-produksiyon"
+        "label": "Icon ve Illustration Setleri",
+        "href": "/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
+      },
+      {
+        "label": "Dikey Video Tasarımı",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
+      },
+      {
+        "label": "Animasyonlu Logo ve Intro/Outro Pack",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
+      },
+      {
+        "label": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Video Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım ile Yeni Nesil Görsel Dil",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Icon ve Illustration Setleri: UI ve Sosyal Medya İçin",
+        "href": "/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin"
       },
       {
-        "title": "UI/UX Tasarımda Görsel Sistem ve Bileşen Tutarlılığı",
-        "href": "/creative/ui-ux-tasarim"
+        "title": "Dikey Video Tasarımı: Reels, TikTok ve Shorts İçin Safe Zone Rehberi",
+        "href": "/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi"
       },
       {
-        "title": "Video Prodüksiyonda 3D ve Motion Kullanımı",
-        "href": "/creative/video-produksiyon"
+        "title": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
       }
     ],
     "sections": [
@@ -26553,7 +26883,7 @@
           },
           {
             "type": "p",
-            "text": "3D/izometrik; iki faydayı aynı anda verir: modernlik ve anlatı netliği. Flat tasarım, hız ve sadelik sağlar; ancak bazı konularda “soyut” kalabilir. Örneğin otelde tesis alanlarını veya bir resort haritasını anlatmak; B2B’de süreç akışını ve ürün mimarisini göstermek flat’te zorlaşır. İzometrik sahne, hem infografik gibi öğretir hem de atmosfer gibi hissettirir."
+            "text": "3D/izometrik; iki faydayı aynı anda verir: [modern marka stili](https://dgtlface.com/tr/creative-ve-tasarim) ve anlatı netliği. Flat tasarım, hız ve sadelik sağlar; ancak bazı konularda “soyut” kalabilir. Örneğin otelde tesis alanlarını veya bir resort haritasını anlatmak; B2B’de süreç akışını ve ürün mimarisini göstermek flat’te zorlaşır. İzometrik sahne, hem infografik gibi öğretir hem de atmosfer gibi hissettirir."
           },
           {
             "type": "h3",
@@ -26665,7 +26995,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "İzometrik sahnenin “basit” versiyonu çoğu marka için yeterlidir: abartılı modelleme değil, doğru kompozisyon ve tutarlı materyal. Burada amaç; oda/tesis/süreç gibi unsurları ikonlardan sahneye ölçeklemek ve “okunabilirlik” üretmektir. Basit ışık/gölge, materyal seçimi ve ölçek tutarlılığı; sahneyi premium gösterir."
+            "text": "İzometrik sahnenin “basit” versiyonu çoğu marka için yeterlidir: abartılı modelleme değil, doğru kompozisyon ve tutarlı materyal. Burada amaç; oda/tesis/süreç gibi unsurları ikonlardan sahneye ölçeklemek, [izometrik illustration sistemi](https://dgtlface.com/tr/creative/blog/icon-ve-illustration-setleri-ui-ve-sosyal-medya-icin) kurmak ve “okunabilirlik” üretmektir. Basit ışık/gölge, materyal seçimi ve ölçek tutarlılığı; sahneyi premium gösterir."
           },
           {
             "type": "h3",
@@ -26726,7 +27056,7 @@
           },
           {
             "type": "p",
-            "text": "Net cevap: Otelde tesis haritası, konsept/oda tipi anlatımı ve etkinlik akışlarında; B2B’de süreç adımları, ürün mimarisi, onboarding ve dashboard açıklamalarında kullanılabilir. En iyi etki, metni azaltıp sahneyle “kanıt” verdiğiniz yerlerde alınır."
+            "text": "Net cevap: Otelde tesis haritası, konsept/oda tipi anlatımı ve etkinlik akışlarında; B2B’de süreç adımları, ürün mimarisi, onboarding ve dashboard açıklamalarında kullanılabilir. Bu sahneler mobil video yüzeylerine taşınacaksa [3D sahnelerde safe zone](https://dgtlface.com/tr/creative/blog/dikey-video-tasarimi-reels-tiktok-ve-shorts-icin-safe-zone-rehberi) yaklaşımıyla başlık, obje ve CTA yerleşimi baştan planlanmalıdır. En iyi etki, metni azaltıp sahneyle “kanıt” verdiğiniz yerlerde alınır."
           },
           {
             "type": "h3",
@@ -26830,7 +27160,7 @@
             "items": [
               "3D’yi “öğreten” alanlara koy (harita/süreç).",
               "6 sahnelik kütüphaneyi 3 ayda genişlet (kontrollü).",
-              "UI/UX ve video üretimle bağla: /creative/ui-ux-tasarim ve /creative/video-produksiyon."
+              "3D akışları [UI içinde 3D görsel kullanım](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve [3D video prodüksiyon anlatımı](https://dgtlface.com/tr/creative/video-produksiyon) ile birlikte planla."
             ]
           },
           {
@@ -26838,7 +27168,7 @@
             "variant": "secondary",
             "label": "3D/İzometrik Sahne Tasarım & Kullanım Checklist’ini İndir",
             "text": "3D geçişini küçük sahnelerle planlar; dosya boyutu ve üretim süresini kontrol altında tutarsınız.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/downloads/3d-izometrik-sahne-tasarim-kullanim-checklist-v1.0.pdf"
           },
           {
             "type": "media",
@@ -26909,7 +27239,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Birçok marka 3D stilini “tamamen yeni kimlik” gibi algılıyor; bu da ya cesaret edememeye ya da aşırı kullanım yüzünden tutarsızlığa yol açıyor. Fark yaratan yaklaşım: 3D/izometriği katman olarak eklemek — flat tipografi ve grid sabit kalır, 3D sadece seçili sahnelerde kanıt ve atmosfer verir. Böylece geçiş yönetilebilir olur, üretim maliyeti kontrol edilir, marka dili bozulmaz."
+            "text": "Birçok marka 3D stilini “tamamen yeni kimlik” gibi algılıyor; bu da ya cesaret edememeye ya da aşırı kullanım yüzünden tutarsızlığa yol açıyor. Fark yaratan yaklaşım: 3D/izometriği katman olarak eklemek — flat tipografi ve grid sabit kalır, 3D sadece seçili sahnelerde kanıt ve atmosfer verir. Hareketli marka imzası gereken yerlerde bu dil, [3D logo reveal](https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti) yaklaşımıyla motion katmana da taşınabilir. Böylece geçiş yönetilebilir olur, üretim maliyeti kontrol edilir, marka dili bozulmaz."
           },
           {
             "type": "callout",
@@ -26936,7 +27266,7 @@
             "variant": "primary",
             "label": "3D & İzometrik Görsel Dil Analizi Talep Et",
             "text": "3D geçişini yönetilebilir bir planla yapmak isteyen markalar için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           }
         ]
       },
@@ -26980,6 +27310,10 @@
             ],
             "href": "/downloads/3d-izometrik-sahne-tasarim-kullanim-checklist-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle 3D ve izometrik marka stilinizi kontrollü geliştirin](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           },
           {
             "type": "media",
@@ -27036,6 +27370,10 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/grafik-motion-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Icon & Illustration, Dikey Video ve Animasyonlu Logo sibling linkleri doğru bölümlerde yerleştirildi",
+          "UI/UX Tasarım ve Video Prodüksiyon cross-silo linkleri doğru bağlamda doğrulandı",
           "3D kullanım alanları maksimum üç stratejik alanla sınırlandı",
           "Flat tipografi, grid, renk ve hiyerarşi sistemiyle 3D katman uyumu doğrulandı",
           "Style sheet içinde ışık, materyal, gölge, renk ve sahne ölçeği kuralları tanımlandı",
@@ -27045,6 +27383,9 @@
           "WebP, çözünürlük ve dosya boyutu kontrolleri performans hedefleriyle test edildi",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/3d-izometrik-sahne-tasarim-kullanim-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
@@ -27101,7 +27442,7 @@
     },
     "h1": {
       "title": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
-      "intro": "Reklam panelinde veri var ama çoğu ekipte bu veri “rapor” olarak kalıyor; tasarıma dönmüyor. Sonuç: her kampanyada aynı tartışmalar, aynı belirsizlik ve “bu sefer olur mu?” yaklaşımı. Veriyle beslenen kreatif yaklaşımı, kreatif kararları metriklerle destekler: thumb stop size hook’u, watch time ritmi, CTR mesaj/CTA uyumunu, scroll ise layout netliğini anlatır. Bu rehber, otel ve B2B ekiplerinin test→öğren→standartlaştır döngüsünü kurmasını, dashboard’ı doğru tasarlamasını ve kazanan desenleri style guide + şablonlara geri yazmasını sağlar.",
+      "intro": "Reklam panelinde veri var ama çoğu ekipte bu veri “rapor” olarak kalıyor; tasarıma dönmüyor. Sonuç: her kampanyada aynı tartışmalar, aynı belirsizlik ve “bu sefer olur mu?” yaklaşımı. [Kreatif analitik](https://dgtlface.com/tr/creative/grafik-motion-tasarim) yaklaşımı, kreatif kararları metriklerle destekler: thumb stop size hook’u, watch time ritmi, CTR mesaj/CTA uyumunu, scroll ise layout netliğini anlatır. Bu rehber, otel ve B2B ekiplerinin test→öğren→standartlaştır döngüsünü kurmasını, dashboard’ı doğru tasarlamasını ve kazanan desenleri style guide + şablonlara geri yazmasını sağlar.",
       "quickSummary": [
         "1) Kreatifleri format, tema, headline ve CTA etiketleriyle sınıflandır",
         "2) Thumb stop, CTR ve CVR gibi temel metrikleri kreatif bazında oku",
@@ -27112,51 +27453,67 @@
       "ctaPrimary": {
         "label": "Veriyle Beslenen Kreatif & Dashboard Analizi Talep Et",
         "text": "Performans verisini tasarım diline çevirip ekipte öğrenim döngüsü kurmak isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Veriyle Beslenen Kreatif & Dashboard Analizi Talep Et",
         "text": "Performans verisini tasarım diline çevirip ekipte öğrenim döngüsü kurmak isteyenler için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "Kreatif Performans Metrikleri & Style Guide Güncelleme Checklist’ini İndir",
         "text": "Kazanan kreatif desenleri kural haline getirir; şablon ve style guide’ı veriyle güncellersiniz.",
-        "href": "/smm/analiz-raporlama"
+        "href": "/downloads/kreatif-performans-metrikleri-style-guide-guncelleme-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Reklam Raporlama",
-        "href": "/sem/reklam-raporlama"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Sosyal Medya Analiz ve Raporlama",
-        "href": "/smm/analiz-raporlama"
+        "label": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+        "href": "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim"
       },
       {
-        "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "label": "Sosyal Kanıt ve Testimonial Kart Tasarımı",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
+      },
+      {
+        "label": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction",
+        "href": "/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction"
+      },
+      {
+        "label": "SEM Reklam Raporlama",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SMM Analiz Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Satış Dönüşüm",
+        "href": "/tr/raporlama/satis-donusum"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reklam Raporlama ile Kampanya Performansını Okumak",
-        "href": "/sem/reklam-raporlama"
+        "title": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+        "href": "/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim"
       },
       {
-        "title": "Sosyal Medya Analiz ve Raporlama ile Kreatif Öğrenim",
-        "href": "/smm/analiz-raporlama"
+        "title": "Sosyal Kanıt ve Testimonial Kart Tasarımı: Güven Veren Görsel Hikâyeler",
+        "href": "/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi"
       },
       {
-        "title": "Satış ve Dönüşüm Raporlama ile Kreatif Etkiyi Ölçmek",
-        "href": "/raporlama/satis-donusum"
+        "title": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
+        "href": "/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction"
       }
     ],
     "sections": [
@@ -27170,7 +27527,7 @@
           },
           {
             "type": "p",
-            "text": "Her metrik tasarımla ilgili değildir. Ama bazı metrikler doğrudan “görsel karar”a işaret eder. Örneğin thumb stop düşükse sorun genelde ilk kare/hook; watch time düşükse ritim/akış; CTR düşükse mesaj/CTA; scroll düşükse layout ve ilk ekran netliği olabilir. Buradaki amaç, metrikleri doğru bağlama oturtmak ve “neyi değiştirmeliyim?” sorusunu somutlaştırmaktır."
+            "text": "Her metrik tasarımla ilgili değildir. Ama bazı metrikler doğrudan “görsel karar”a işaret eder. Örneğin thumb stop düşükse sorun genelde ilk kare/hook; watch time düşükse ritim/akış; CTR düşükse mesaj/CTA; scroll düşükse layout ve ilk ekran netliği olabilir. Buradaki amaç, metrikleri doğru bağlama oturtmak ve [veri tabanlı tasarım](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımında “neyi değiştirmeliyim?” sorusunu somutlaştırmaktır."
           },
           {
             "type": "h3",
@@ -27325,7 +27682,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel ve B2B’de veri aynı metrikleri gösterse bile anlamı farklı olabilir. Otelde “deneyim görseli” thumb stop’u artırabilir; B2B’de “net value prop” CTR’ı artırır. Bu yüzden döngü “tek kural” değil, “kendi markanın desenleri”ni bulmaktır. En iyi ekipler, kampanyayı bitirince rapor değil; “3 öğrenim + 3 kural” çıkarır."
+            "text": "Otel ve B2B’de veri aynı metrikleri gösterse bile anlamı farklı olabilir. Otelde “deneyim görseli” thumb stop’u artırabilir; B2B’de “net value prop” CTR’ı artırır. Bu yüzden döngü “tek kural” değil, “kendi markanın desenleri”ni bulmaktır. En iyi ekipler, kampanyayı bitirince rapor değil; [A/B test sonuçlarından kreatif üretmek](https://dgtlface.com/tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim) için kullanılacak “3 öğrenim + 3 kural” çıkarır."
           },
           {
             "type": "h3",
@@ -27355,7 +27712,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet dolu): Veriyle çalışan kreatif ekiplerde zamanla “hangi görsel tipleri bizde çalışıyor?” sorusuna net cevaplar ve reusable pattern’ler ortaya çıkıyor. (Kesin rakam iddiası yok; gözlem.)"
+            "text": "Key Statistics / Data Point (sheet dolu): Veriyle çalışan kreatif ekiplerde zamanla “hangi görsel tipleri bizde çalışıyor?” sorusuna net cevaplar ve reusable pattern’ler ortaya çıkıyor. (Kesin rakam iddiası yok; gözlem.) Aynı okuma, [sosyal kanıt kreatiflerinin performansı](https://dgtlface.com/tr/creative/blog/sosyal-kanit-ve-testimonial-kart-tasarimi) üzerinden testimonial, rating ve güven bloklarının hangi formatta daha iyi çalıştığını da görünür kılar."
           },
           {
             "type": "callout",
@@ -27382,7 +27739,7 @@
             "variant": "secondary",
             "label": "Kreatif Performans Metrikleri & Style Guide Güncelleme Checklist’ini İndir",
             "text": "Kazanan kreatif desenleri kural haline getirir; şablon ve style guide’ı veriyle güncellersiniz.",
-            "href": "/smm/analiz-raporlama"
+            "href": "/downloads/kreatif-performans-metrikleri-style-guide-guncelleme-checklist-v1.0.pdf"
           }
         ]
       },
@@ -27473,7 +27830,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "TR’de kreatif ve performans ekipleri çoğu zaman ayrı çalışıyor; veri tasarım diline çevrilmediği için öğrenim kayboluyor. Fark yaratan yaklaşım: metrikleri “tasarım kararına” çevirmek (thumb stop→hook, watch time→ritim, CTR→mesaj/CTA) ve bunu template setine yazmak. Böylece “zevk tartışması” azalır; ekipler aynı ekrana bakar ve aynı dili konuşur."
+            "text": "TR’de kreatif ve performans ekipleri çoğu zaman ayrı çalışıyor; veri tasarım diline çevrilmediği için öğrenim kayboluyor. Fark yaratan yaklaşım: metrikleri “tasarım kararına” çevirmek (thumb stop→hook, watch time→ritim, CTR→mesaj/CTA) ve bunu template setine yazmak. Özellikle [AI destekli kreatif varyasyon üretimi](https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction) kullanıyorsanız, insan art direction ve marka kontrolünü bu öğrenim döngüsünün içinde tutmak gerekir. Böylece “zevk tartışması” azalır; ekipler aynı ekrana bakar ve aynı dili konuşur."
           },
           {
             "type": "callout",
@@ -27492,7 +27849,7 @@
             "items": [
               "Haftalık 20 dk creative review ritmi koy.",
               "Her toplantıda 1 kural güncelle (şablona yaz).",
-              "Hedef sayfalarla bağla: /sem/reklam-raporlama, /smm/analiz-raporlama ve /raporlama/satis-donusum."
+              "Hedef sayfalarla bağla: [reklam panelinden tasarıma içgörü taşımak](https://dgtlface.com/tr/sem/reklam-raporlama), [sosyal medya raporlarından kreatif içgörü](https://dgtlface.com/tr/smm/analiz-raporlama) ve [satış dönüşüm odaklı kreatif analiz](https://dgtlface.com/tr/raporlama/satis-donusum)."
             ]
           },
           {
@@ -27500,7 +27857,7 @@
             "variant": "primary",
             "label": "Veriyle Beslenen Kreatif & Dashboard Analizi Talep Et",
             "text": "Data→creative loop’u kurumunuzda kurmak isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "media",
@@ -27555,6 +27912,10 @@
             ],
             "href": "/downloads/kreatif-performans-metrikleri-style-guide-guncelleme-checklist-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle panelden gelen içgörüleri kreatif sisteminize taşıyın](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -27607,6 +27968,10 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/grafik-motion-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Kampanya Görsel Setleri, Sosyal Kanıt ve AI Tasarım sibling linkleri doğru bölümlerde yerleştirildi",
+          "SEM Reklam Raporlama, SMM Analiz Raporlama ve Satış Dönüşüm cross-silo linkleri doğru bağlamda doğrulandı",
           "Kreatif etiketleri format, tema, headline, CTA ve hedef kitle kırılımlarında standardize edildi",
           "Thumb stop, watch time, CTR, CVR ve scroll metriklerinin tasarım kararlarıyla eşleştirmesi doğrulandı",
           "Dashboard kreatif bazında filtreleme, kazanan desen ve sonraki test hipotezi üretecek şekilde planlandı",
@@ -27616,6 +27981,9 @@
           "Haftalık creative review ve aylık rulebook bakım ritmi tanımlandı",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/kreatif-performans-metrikleri-style-guide-guncelleme-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
@@ -27672,7 +28040,7 @@
     },
     "h1": {
       "title": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka + Kreatör İşbirliği",
-      "intro": "UGC ve kreatör içerikleri markaya güven kazandırır; çünkü “marka anlatmıyor, insanlar anlatıyor.” Ama aynı yüzden risklidir: her içerik farklı stil, farklı renk, farklı CTA… birkaç hafta sonra feed “kolaj” gibi durur. Çözüm, kreatörü kontrol etmek değil; kreatöre güvenli bir oyun alanı vermektir: overlay kit, şablonlar, kısa guideline ve net onay akışı. Bu rehber; otel ve B2B için UGC’yi özgün bırakıp marka dilini koruyan ortak tasarım framework’ünü adım adım anlatır.",
+      "intro": "[UGC + kreatör işbirliği](https://dgtlface.com/tr/creative/grafik-motion-tasarim) markaya güven kazandırır; çünkü “marka anlatmıyor, insanlar anlatıyor.” Ama aynı yüzden risklidir: her içerik farklı stil, farklı renk, farklı CTA… birkaç hafta sonra feed “kolaj” gibi durur. Çözüm, kreatörü kontrol etmek değil; kreatöre güvenli bir oyun alanı vermektir: overlay kit, şablonlar, kısa guideline ve net onay akışı. Bu rehber; otel ve B2B için UGC’yi özgün bırakıp marka dilini koruyan ortak tasarım framework’ünü adım adım anlatır.",
       "quickSummary": [
         "1) Logo, renk, safe zone ve CTA gibi değişmezleri belirle",
         "2) Kreatöre ağır brandbook yerine kullanılabilir bir görsel kit ver",
@@ -27683,47 +28051,63 @@
       "ctaPrimary": {
         "label": "UGC & Kreatör Ortak Tasarım Framework Analizi Talep Et",
         "text": "UGC kampanyalarını ölçeklerken marka tutarlılığını korumak isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "UGC & Kreatör Ortak Tasarım Framework Analizi Talep Et",
         "text": "UGC kampanyalarını ölçeklerken marka tutarlılığını korumak isteyen otel ve B2B ekipleri için.",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       "secondary": {
         "label": "UGC + Kreatör Marka Overlay & Guideline Checklist’ini İndir",
         "text": "Kreatör kitini ve onay kurallarını netleştirir; UGC içeriklerinde görsel dilin dağılmasını önlersiniz.",
-        "href": "/smm/icerik-uretimi"
+        "href": "/downloads/ugc-kreator-marka-overlay-guideline-checklist-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
-        "label": "Grafik & Motion Tasarım hizmet sayfası",
-        "href": "/creative/grafik-motion-tasarim"
+        "label": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
       },
       {
-        "label": "Sosyal Medya İçerik Üretimi",
-        "href": "/smm/icerik-uretimi"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Otel Sosyal Medya Yönetimi",
-        "href": "/otel/sosyal-medya"
+        "label": "Instagram Story ve Highlight Cover Tasarımı",
+        "href": "/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi"
+      },
+      {
+        "label": "Animasyonlu Logo ve Intro/Outro Pack",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
+      },
+      {
+        "label": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction",
+        "href": "/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction"
+      },
+      {
+        "label": "SMM İçerik Üretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Grafik & Motion Tasarım ile Tutarlı Kreatif Sistem Kurmak",
-        "href": "/creative/grafik-motion-tasarim"
+        "title": "Instagram Story ve Highlight Cover Tasarımı: Markanız İçin Mikro Vitrinler",
+        "href": "/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi"
       },
       {
-        "title": "Sosyal Medya İçerik Üretimi ve Kreatör Operasyonu",
-        "href": "/smm/icerik-uretimi"
+        "title": "Animasyonlu Logo ve Intro/Outro Pack: Markalar İçin Giriş–Çıkış Kiti",
+        "href": "/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti"
       },
       {
-        "title": "Otel Sosyal Medya Yönetiminde UGC ve Misafir İçerikleri",
-        "href": "/otel/sosyal-medya"
+        "title": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
+        "href": "/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction"
       }
     ],
     "sections": [
@@ -27737,7 +28121,7 @@
           },
           {
             "type": "p",
-            "text": "UGC, markanın “kanıt” katmanıdır: sosyal kanıt, deneyim ve gerçeklik. Otelde misafir çekimi; B2B’de uzman/kreatör anlatımı güven üretir. Ancak UGC’nin doğası “kontrolsüz” olduğu için, marka dili kolay dağılır. Burada hedef; kreatif özgürlüğü öldürmeden minimum marka imzasını eklemek (renk, logo, tipografi hissi, CTA tonu)."
+            "text": "UGC, markanın “kanıt” katmanıdır: sosyal kanıt, deneyim ve gerçeklik. Otelde misafir çekimi; B2B’de uzman/kreatör anlatımı güven üretir. Ancak UGC’nin doğası “kontrolsüz” olduğu için, marka dili kolay dağılır. Burada hedef; [marka dili + özgürlük dengesi](https://dgtlface.com/tr/creative-ve-tasarim) kurarak kreatif özgürlüğü öldürmeden minimum marka imzasını eklemektir (renk, logo, tipografi hissi, CTA tonu)."
           },
           {
             "type": "h3",
@@ -27912,7 +28296,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "En etkili yöntem, kreatöre “hazır çerçeve” vermektir. Çerçeve; overlay ve template’lerle kurulur: üstte küçük logo, altta subtitle bar, sağda sticker alanı… Kreatör içerik üretirken bu çerçeveyi kullanır; böylece UGC içerikleri bir kampanya ailesi gibi görünür."
+            "text": "En etkili yöntem, kreatöre “hazır çerçeve” vermektir. Çerçeve; overlay ve template’lerle kurulur: üstte küçük logo, altta subtitle bar, sağda sticker alanı… Kreatör içerik üretirken bu çerçeveyi kullanır; böylece UGC içerikleri bir kampanya ailesi gibi görünür. Kısa açılış ve kapanış standardı gerektiğinde [UGC videolarında branded kapanış](https://dgtlface.com/tr/creative/blog/animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti) yaklaşımıyla marka imzası daha tutarlı hale getirilebilir."
           },
           {
             "type": "h3",
@@ -27973,7 +28357,7 @@
               "9:16 misafir videosu",
               "Üstte küçük logo, altta kısa açıklama bar",
               "1 CTA: “Tarih seç / teklif al” (tek aksiyon)",
-              "Highlight/Story arşivleme (kampanya bitince düzenleme)"
+              "[Kreatör içeriklerini highlight arşivine almak](https://dgtlface.com/tr/creative/blog/instagram-story-ve-highlight-cover-tasarimi) ve kampanya bitince kategori bazlı düzenlemek"
             ]
           },
           {
@@ -28011,7 +28395,7 @@
             "items": [
               "Otelde 3 kreatör senaryosu seç: oda/deneyim/yeme-içme.",
               "B2B’de 3 format seç: kısa ipucu/mini demo/case anlatımı.",
-              "İç linklerle operasyonu bağla: /otel/sosyal-medya, /smm/icerik-uretimi ve /creative/grafik-motion-tasarim."
+              "Operasyonu bağla: [otel markaları için kreatör iş birliği](https://dgtlface.com/tr/otel/sosyal-medya) ve [sosyal medya için UGC içerik üretimi](https://dgtlface.com/tr/smm/icerik-uretimi) akışlarını birlikte planla."
             ]
           },
           {
@@ -28019,7 +28403,7 @@
             "variant": "secondary",
             "label": "UGC + Kreatör Marka Overlay & Guideline Checklist’ini İndir",
             "text": "Kreatör kitini ve onay kurallarını netleştirir; UGC içeriklerinde görsel dilin dağılmasını önlersiniz.",
-            "href": "/smm/icerik-uretimi"
+            "href": "/downloads/ugc-kreator-marka-overlay-guideline-checklist-v1.0.pdf"
           }
         ]
       },
@@ -28067,7 +28451,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çoğu marka UGC’yi ya tamamen serbest bırakıyor (feed kaosu) ya da aşırı kontrol ediyor (özgünlük kaybı). Fark yaratan yaklaşım: kreatöre “çerçeve” vermek — overlay kit, sticker set, mini guideline ve hızlı onay. Böylece kreatör kendini ifade eder, marka da tek görsel sistem içinde kalır."
+            "text": "Çoğu marka UGC’yi ya tamamen serbest bırakıyor (feed kaosu) ya da aşırı kontrol ediyor (özgünlük kaybı). Fark yaratan yaklaşım: kreatöre “çerçeve” vermek — overlay kit, sticker set, mini guideline ve hızlı onay. [AI ve kreatör üretiminde insan kontrolü](https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction) aynı modelin parçası olduğunda, hız artarken marka yönü ve onay kalitesi korunur. Böylece kreatör kendini ifade eder, marka da tek görsel sistem içinde kalır."
           },
           {
             "type": "callout",
@@ -28094,7 +28478,7 @@
             "variant": "primary",
             "label": "UGC & Kreatör Ortak Tasarım Framework Analizi Talep Et",
             "text": "UGC’yi ölçeklerken görsel dili korumak isteyen ekipler için.",
-            "href": "/creative/grafik-motion-tasarim"
+            "href": "/tr/creative/grafik-motion-tasarim"
           },
           {
             "type": "media",
@@ -28146,6 +28530,10 @@
             ],
             "href": "/downloads/ugc-kreator-marka-overlay-guideline-checklist-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "[Grafik & Motion Tasarım hizmetiyle UGC ve kreatör içerikleriniz için marka uyumlu framework kurun](https://dgtlface.com/tr/creative/grafik-motion-tasarim) ve süreç detayları için [Grafik & Motion Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/grafik-motion-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -28198,6 +28586,10 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
+          "Parent_URL içerikte /tr/creative/grafik-motion-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Instagram Story / Highlight, Animasyonlu Logo ve AI Tasarım sibling linkleri doğru bölümlerde yerleştirildi",
+          "SMM İçerik Üretimi ve Otel Sosyal Medya cross-silo linkleri doğru bağlamda doğrulandı",
           "Logo, renk, tipografi, safe zone ve CTA değişmezleri mini guideline içinde tanımlandı",
           "Kreatör kitinde PNG/SVG logo, 9:16 ve 1:1 overlay, sticker/CTA seti ve subtitle bar bulunuyor",
           "Değişmezler ve kreatöre bırakılan özgür alan yazılı olarak ayrıştırıldı",
@@ -28209,6 +28601,9 @@
           "Kampanya öğrenimlerinin overlay kit ve guideline v1.1 sürümüne geri yazılması planlandı",
           "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
           "Download asset URL’si ve buton aksiyonu doğrulandı",
+          "Primary CTA hedefi: /tr/creative/grafik-motion-tasarim",
+          "Secondary CTA hedefi: /downloads/ugc-kreator-marka-overlay-guideline-checklist-v1.0.pdf",
+          "Money page linki içerikte iki kez, FAQ linki sonuç bölümünde bir kez kullanıldı",
           "CTA hedefleri locale-aware yönlendirme ile test edildi"
         ]
       }
@@ -28265,7 +28660,7 @@
     },
     "h1": {
       "title": "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?",
-      "intro": "Otel ana sayfası “her şeyi anlatma” sayfası değildir; misafirin zihninde 5–8 saniye içinde oluşan ilk izlenimi yönetip onu doğru yola sokan stratejik bir UX katmanıdır. Birçok otelde sorun, tasarımın kötü olması değil; ana sayfanın aynı anda çok şey yapmaya çalışmasıdır: slider, üç farklı kampanya, uzun metin, kalabalık menü, birbirini boğan CTA’lar… Sonuçta kullanıcı şunu düşünür: “Burada ne yapacağım?” ve çıkar.",
+      "intro": "İyi bir [hotel homepage UX](https://dgtlface.com/tr/creative/ui-ux-tasarim), “her şeyi anlatma” sayfası kurmak değil; misafirin zihninde 5–8 saniye içinde oluşan ilk izlenimi yönetip onu doğru yola sokan stratejik bir UX katmanı oluşturmaktır. Birçok otelde sorun, tasarımın kötü olması değil; ana sayfanın aynı anda çok şey yapmaya çalışmasıdır: slider, üç farklı kampanya, uzun metin, kalabalık menü, birbirini boğan CTA’lar… Sonuçta kullanıcı şunu düşünür: “Burada ne yapacağım?” ve çıkar.",
       "quickSummary": [
         "1) Ana sayfada tek değer önerisi ve tek ana rezervasyon hedefi belirle",
         "2) Hero’yu tek görsel, tek mesaj ve tek CTA ile sadeleştir",
@@ -28276,59 +28671,67 @@
       "ctaPrimary": {
         "label": "Otel Ana Sayfa UX Audit’i Talep Et",
         "text": "Hero, menü ve sosyal kanıtı sadeleştirip ana sayfadan rezervasyon funnel’ına geçişi hızlandırmak isteyen oteller için net bir iyileştirme planı alın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Ana Sayfa UX Audit’i Talep Et",
         "text": "Hero, menü ve sosyal kanıtı sadeleştirip ana sayfadan rezervasyon funnel’ına geçişi hızlandırmak isteyen oteller için net bir iyileştirme planı alın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "Otel Homepage Wireframe Örneğini İndir",
         "text": "Ana sayfa hero, menü ve sosyal kanıt alanlarını doğru sırayla kurgulayıp ekibinizle aynı tasarım dilinde ilerlemenizi sağlar.",
-        "href": "/creative/ui-ux-tasarim#homepage-wireframe"
+        "href": "/downloads/otel-homepage-wireframe-ornegi-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı hizmet sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel UI Bileşenleri",
+        "href": "/tr/creative/blog/otel-ui-bilesenleri-donusum-odakli"
+      },
+      {
+        "label": "Otel Fotoğraf Galeri UX’i",
+        "href": "/tr/creative/blog/otel-fotograf-galeri-ux"
+      },
+      {
+        "label": "Mobile-First Otel UX’i",
+        "href": "/tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
-      },
-      {
-        "label": "Google Ads Yönetimi",
-        "href": "/sem/google-ads-yonetimi"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "Web Sitesi Geliştirme",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
-      },
-      {
-        "label": "Satış ve Dönüşüm Raporlama",
-        "href": "/raporlama/satis-donusum"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Otel Dijital Pazarlama ile Direct Booking Yolculuğu",
-        "href": "/otel-dijital-pazarlama"
+        "title": "Otel Web UX’inde Dönüşüm Odaklı UI Bileşenleri: CTA, Form, Header, Footer",
+        "href": "/tr/creative/blog/otel-ui-bilesenleri-donusum-odakli"
       },
       {
-        "title": "Web Sitesi Geliştirmede Hız ve Kullanıcı Deneyimi",
-        "href": "/yazilim/web-sitesi-gelistirme"
+        "title": "Otel Galeri UX’i: Fotoğraf Sırası, Hız, 360 Tur",
+        "href": "/tr/creative/blog/otel-fotograf-galeri-ux"
       },
       {
-        "title": "Teknik SEO ile Hero ve LCP Optimizasyonu",
-        "href": "/seo/teknik-seo"
+        "title": "Otel Web Siteleri İçin Mobile-First UI/UX Rehberi",
+        "href": "/tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
       }
     ],
     "sections": [
@@ -28349,6 +28752,10 @@
             "text": "Kısa cevap: Tek bir değer önerisi seçin, hero’yu tek mesaj + tek CTA ile sadeleştirin, menüyü 5–7 başlığa indirin ve sosyal kanıtı karar anına yerleştirin."
           },
           {
+            "type": "p",
+            "text": "Bu ilk ekran mantığı, yalnızca görsel tercih değil; [hero copy for resorts](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımında olduğu gibi değer önerisi, yönlendirme ve güveni aynı birkaç saniyeye sığdıran bir creative sistem kararını temsil eder."
+          },
+          {
             "type": "h3",
             "text": "Otel ana sayfa UX’i için AEO özeti"
           },
@@ -28362,6 +28769,10 @@
               "Sosyal kanıtı (puan/yorum/ödül) “ilk karar anına” yerleştirin; güveni ödeme ekranına bırakmayın.",
               "Ana sayfadan rezervasyon funnel’ına geçişi tek tıkla başlatın (tarih seç → uygunluk → oda seçimi)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Hero üstündeki CTA, rezervasyon formu ve güven blokları aynı akışta çözülecekse [otel homepage CTA yerleşimi](https://dgtlface.com/tr/creative/blog/otel-ui-bilesenleri-donusum-odakli) yaklaşımını ana sayfanın devamı gibi düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -28394,7 +28805,7 @@
               "Ana sayfayı “rezervasyon giriş sayfası” gibi ele alın; hedef tek: funnel’a sokmak.",
               "Hero’yu slider yerine tek güçlü görsel + tek mesajla standardize edin.",
               "Menü başlıklarını azaltın; “Odalar/Teklifler/Konsept/Destinasyon/İletişim” çekirdeğini deneyin.",
-              "Trafik kaynaklarıyla bağ kurmak için /otel-dijital-pazarlama sayfasına iç link verin."
+              "Kampanya mesajı ile homepage hiyerarşisini birlikte ele almak için [otel dijital pazarlamada ana sayfa deneyimi](https://dgtlface.com/tr/otel-dijital-pazarlama) tarafını da aynı planın parçası yapın."
             ]
           },
           {
@@ -28505,6 +28916,10 @@
             "text": "Kısa cevap: Tek bir ana hikâye taşımalı (oda/havuz/deniz/restaurant) ve CTA’yı boğmamalı. Çok hareketli, çok detaylı görseller CTA okunurluğunu düşürür; görsel üzerine koyulan metin için kontrast şarttır."
           },
           {
+            "type": "p",
+            "text": "İlk izlenimi gerçekten güçlendirmek için [hero görseli ve galeri deneyimi](https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux) tarafında hangi oda, tesis ve deneyim görsellerinin önce gösterileceğini ayrı bir UX kararı olarak ele alın."
+          },
+          {
             "type": "callout",
             "variant": "checklist",
             "title": "Mini Check",
@@ -28523,7 +28938,7 @@
               "Hero mesajını tek cümlede netleştirin; pazarlama sloganı değil, değer önerisi yazın.",
               "CTA’yı rezervasyon başlangıcına bağlayın (tarih seç).",
               "Slider yerine tek hero ile test yapın; kararı veriyi izleyerek verin.",
-              "Teknik uygulama için /yazilim/web-sitesi-gelistirme sayfasına iç link verin."
+              "Teknik uygulamada [homepage tasarımının geliştirme tarafı](https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme) ile hero görsel yükü, menü davranışı ve sticky CTA mantığını birlikte doğrulayın."
             ]
           },
           {
@@ -28535,7 +28950,7 @@
             "variant": "secondary",
             "label": "Otel Homepage Wireframe Örneğini İndir",
             "text": "Ana sayfa hero, menü ve sosyal kanıt alanlarını doğru sırayla kurgulayıp ekibinizle aynı tasarım dilinde ilerlemenizi sağlar.",
-            "href": "/creative/ui-ux-tasarim#homepage-wireframe"
+            "href": "/downloads/otel-homepage-wireframe-ornegi-v1.0.pdf"
           }
         ]
       },
@@ -28578,6 +28993,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "Hamburger menü, sticky rezervasyon butonu ve thumb-zone kararlarını netleştirmek için [mobil otel ana sayfa tasarımı](https://dgtlface.com/tr/creative/blog/otel-mobile-first-ui-ux-rehberi) prensiplerini masaüstünden ayrı değerlendirin."
+          },
+          {
             "type": "callout",
             "variant": "checklist",
             "title": "Mini Check",
@@ -28595,7 +29014,7 @@
             "items": [
               "Menü başlıklarını azaltın; 10+ başlık genelde kararsızlık yaratır.",
               "“Kampanyalar”ı tek başlık altında toplayın; hero’yu kampanya panosuna çevirmeyin.",
-              "Trafik üretimiyle bağ kurmak için /sem/google-ads-yonetimi sayfasına iç link verin."
+              "Menü ve hero hiyerarşisinin reklam ve kampanya trafiğinde nasıl çalıştığını görmek için [otel dijital pazarlamada ana sayfa deneyimi](https://dgtlface.com/tr/otel-dijital-pazarlama) yaklaşımıyla aynı mesajı landing akışına taşıyın."
             ]
           }
         ]
@@ -28758,7 +29177,7 @@
               "Mobilde sticky rezervasyon CTA ekleyin ve menüyle çakıştırmayın.",
               "Ölçüm planı kurun: CTA → tarih seçimi → oda listesi → form.",
               "Teknik tarafta hero görselini LCP dostu optimize edin.",
-              "Ölçüm için /raporlama/satis-donusum, performans için /seo/teknik-seo sayfalarına iç link verin."
+              "KPI yorumlarken cihaz, trafik kaynağı ve kampanya girişini ayrı kırılımlarda okuyun; ana sayfa iyileştirmesini tek bir metrikle değerlendirmeyin."
             ]
           }
         ]
@@ -28799,7 +29218,7 @@
             "items": [
               "Hero’yu “tek görsel + tek mesaj” standardına alın.",
               "LCP kaynağını ölçün; en büyük öğeyi optimize edin.",
-              "Web geliştirme ekibiyle ortak checklist kullanın ve /yazilim/web-sitesi-gelistirme sayfasına bağlanın."
+              "Web geliştirme ekibiyle ortak checklist kurun ve [teknik SEO uyumlu homepage UX](https://dgtlface.com/tr/seo/teknik-seo) kararlarını hero optimizasyonuyla aynı sprintte ele alın."
             ]
           }
         ]
@@ -28829,7 +29248,7 @@
             "variant": "primary",
             "label": "Otel Ana Sayfa UX Audit’i Talep Et",
             "text": "Hero, navigasyon ve sosyal kanıtı sadeleştirip ana sayfadan rezervasyon funnel’ına geçişi hızlandırmak isteyen ekipler için uygulanabilir bir plan alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -28881,6 +29300,10 @@
           {
             "type": "media",
             "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle otel ana sayfanızın ilk izlenim ve rezervasyon gücünü artırın](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -28931,20 +29354,16 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
-          "Hero alanında tek değer önerisi, tek başlık, tek alt metin ve tek CTA standardı doğrulandı",
-          "Hero kırmızı bölge ve yeşil CTA bölgesi mobil/masaüstü tasarımlarında işaretlendi",
-          "Navigasyon 5–7 çekirdek başlıkla sınırlandı ve maksimum iki seviye olarak planlandı",
-          "Mobil menüde rezervasyon CTA’sı, dil ve para birimi yerleşimleri test edildi",
-          "Sosyal kanıt ilk 1–2 ekran içinde, CTA’yı gölgelemeyecek biçimde konumlandırıldı",
-          "Hero CTA doğrudan tarih seçimi veya uygunluk kontrolü adımına bağlandı",
-          "Mobil sticky CTA cihaz safe area ve menü bileşeniyle çakışmayacak şekilde test edildi",
-          "Hero CTA → tarih seçimi → uygunluk → oda listesi → form ölçüm zinciri tanımlandı",
-          "Hero görseli için boyutlandırma, sıkıştırma, preload/priority ve LCP kontrolleri tamamlandı",
-          "Hero öğesinde yanlış lazy-load kullanımı ve gereksiz slider yükü kontrol edildi",
-          "İlk ekrandaki gereksiz script, tag ve üçüncü taraf yükleri performans açısından incelendi",
-          "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Primary sibling linkleri UI bileşenleri, fotoğraf galeri UX ve mobile-first UX bağlamında yerleştirildi",
+          "Cross-silo linkleri Otel Dijital Pazarlama, Web Sitesi Geliştirme ve Teknik SEO bağlamında doğal anchor ile eklendi",
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Düz path/URL notları kullanıcıya görünen metinden temizlendi",
+          "Hero, navigasyon ve sosyal kanıt akışı rezervasyon funnel başlangıcına göre yeniden hizalandı",
           "Wireframe download asset URL’si ve buton aksiyonu doğrulandı",
-          "CTA hedefleri locale-aware yönlendirme ile test edildi"
+          "Meta title, title ve H1 korunarak yalnızca içerik içi internal linkler güncellendi"
         ]
       }
     }
@@ -29000,7 +29419,7 @@
     },
     "h1": {
       "title": "Otel Fotoğraf ve Galeri UX’i: Görsel Hikâyeyle Rezervasyon Tetiklemek",
-      "intro": "Otel web sitesinde fotoğraf, “süs” değil; misafirin kararını taşıyan ana kanıt katmanıdır. Kullanıcı oda tipini, manzarayı, konsepti ve atmosferi görmeden rezervasyona yaklaşmaz. Ancak şu iki uç hata çok yaygındır: Harika fotoğraflar vardır ama galeri o kadar ağır ve dağınıktır ki kullanıcı sabredemez; ya da galeri hızlıdır fakat hikâye olmadığı için kullanıcı “bana uygun mu?” sorusuna cevap bulamaz.",
+      "intro": "İyi bir otel galeri deneyimi, [hotel photo gallery UX](https://dgtlface.com/tr/creative/ui-ux-tasarim) kararının görsel kanıt katmanıdır: fotoğraf “süs” değil, misafirin kararını taşıyan ana kanıt yapısıdır. Kullanıcı oda tipini, manzarayı, konsepti ve atmosferi görmeden rezervasyona yaklaşmaz. Ancak şu iki uç hata çok yaygındır: Harika fotoğraflar vardır ama galeri o kadar ağır ve dağınıktır ki kullanıcı sabredemez; ya da galeri hızlıdır fakat hikâye olmadığı için kullanıcı “bana uygun mu?” sorusuna cevap bulamaz.",
       "quickSummary": [
         "1) İlk görsellerde oda, konfor ve tesis vaadini göster",
         "2) Galeriyi 5–7 kategori ve karar kolaylaştıran filtrelerle düzenle",
@@ -29011,59 +29430,67 @@
       "ctaPrimary": {
         "label": "Otel Fotoğraf & Galeri UX Analizi Talep Et",
         "text": "Galeri sıralaması, mobil deneyim ve hız/SEO etkisini birlikte optimize etmek isteyen oteller için net aksiyon planı alın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       }
     },
     "ctaModule": {
       "primary": {
         "label": "Otel Fotoğraf & Galeri UX Analizi Talep Et",
         "text": "Galeri sıralaması, mobil deneyim ve hız/SEO etkisini birlikte optimize etmek isteyen oteller için net aksiyon planı alın.",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
       },
       "secondary": {
         "label": "Visual Storytelling İçin Örnek Galeri Yapısını İndir",
         "text": "Kategori, sıralama ve mobil lightbox kurgusunu hazır şablonla kurup hızlıca uygulamanızı sağlar.",
-        "href": "/creative/ui-ux-tasarim#galeri-yapisi-sablon"
+        "href": "/downloads/visual-storytelling-otel-galeri-yapisi-v1.0.pdf"
       }
     },
     "internalLinks": [
       {
         "label": "UI & UX Tasarımı hizmet sayfası",
-        "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Ana Sayfa UX’i",
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
+      },
+      {
+        "label": "Otel Fiyat / Oda Karşılaştırma UX’i",
+        "href": "/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux"
+      },
+      {
+        "label": "360° ve Sanal Tur Otel Çekimleri",
+        "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
       },
       {
         "label": "Video Prodüksiyon",
-        "href": "/creative/video-produksiyon"
-      },
-      {
-        "label": "Grafik & Motion Tasarım",
-        "href": "/creative/grafik-motion-tasarim"
+        "href": "/tr/creative/video-produksiyon"
       },
       {
         "label": "Otel Dijital Pazarlama",
-        "href": "/otel-dijital-pazarlama"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "Teknik SEO",
-        "href": "/seo/teknik-seo"
-      },
-      {
-        "label": "Otel Sosyal Medya Yönetimi",
-        "href": "/otel/sosyal-medya"
+        "href": "/tr/seo/teknik-seo"
       }
     ],
     "relatedPosts": [
       {
         "title": "Otel Ana Sayfa UX’i: Hero, Menü ve Rezervasyon CTA’sı",
-        "href": "/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
+        "href": "/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero"
       },
       {
-        "title": "Video Prodüksiyon ile Otel Deneyimini Görselleştirmek",
-        "href": "/creative/video-produksiyon"
+        "title": "Otel Web Sitesinde Fiyat ve Oda Karşılaştırma UX’i",
+        "href": "/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux"
       },
       {
-        "title": "Teknik SEO ile Görsel Performans ve LCP Optimizasyonu",
-        "href": "/seo/teknik-seo"
+        "title": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+        "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
       }
     ],
     "sections": [
@@ -29094,6 +29521,14 @@
           {
             "type": "p",
             "text": "Fotoğraf galerisi, misafirin zihninde “konaklama simülasyonu” yaratır: odada uyanır mı, havuzda vakit geçirir mi, restoranda ne yer, spa’da nasıl rahatlar? Bu simülasyonu doğru sıraya koymak, karar süresini kısaltır. Otel sitelerinde kaliteli görsellerin görüntüleme süresini ve etkileşimi artırdığı sık görülür; ancak optimize edilmemiş, ağır galeriler hız ve dönüşüm üzerinde negatif etki yaratabilir (yönlü)."
+          },
+          {
+            "type": "p",
+            "text": "Bu görsel sıra, sadece fotoğraf seçimi değildir; [visual storytelling for resorts](https://dgtlface.com/tr/creative-ve-tasarim) içinde ana sayfa, galeri ve rezervasyon kararını aynı mantıkla hizalayan bir deneyim kurgusudur."
+          },
+          {
+            "type": "p",
+            "text": "İlk 12 görselin homepage’de nasıl davranacağını düşünürken [hero görseli ve galeri akışı](https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero) yaklaşımıyla aynı hiyerarşiyi korumak, hero sonrası galeriyi daha tutarlı hale getirir."
           },
           {
             "type": "h3",
@@ -29149,7 +29584,7 @@
               "İlk 12 görseli ayrı bir “hero galeri seti” olarak seçin ve standardize edin.",
               "Oda/havuz/restoran/spa kategorilerinde “3 güçlü kare” kuralı uygulayın.",
               "Kullanıcı segmentine göre sıralamayı varyantlayın (aile, çift, iş).",
-              "Galeri görsellerini omnichannel planla bağlamak için /creative/video-produksiyon ve /creative/grafik-motion-tasarim sayfalarına iç link verin."
+              "Galeri görsellerini teaser, oda turu ve kısa anlatı formatlarıyla eşleştirmek için [fotoğraf hikâyesini video deneyimine taşımak](https://dgtlface.com/tr/creative/video-produksiyon) akışını galeri planına dahil edin."
             ]
           },
           {
@@ -29214,6 +29649,10 @@
             ]
           },
           {
+            "type": "p",
+            "text": "360 içerikleri galeriye “ekstra oyuncak” gibi sonradan iliştirmeyin; [360 tour placement on hotel sites](https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux) yaklaşımıyla hangi oda veya deneyim kategorisinde açılacağını baştan belirlemek, kullanıcıyı gereksiz sekme ve pop-up karmaşasından korur."
+          },
+          {
             "type": "callout",
             "variant": "checklist",
             "title": "Mini Check",
@@ -29232,7 +29671,7 @@
               "Galeri sayfasına 5–7 kategori ile başlayın; “daha fazlası”nı ölçüme göre ekleyin.",
               "Oda detayında slider’ı lightbox’a bağlayın; geri dönünce kullanıcı konumu kaybolmasın.",
               "360 tur/video için tek yer seçin ve etiketleyin (360 sekmesi).",
-              "Görsel stratejiyi talep üretimine bağlamak için /otel-dijital-pazarlama sayfasına iç link verin."
+              "Görsel stratejiyi talep üretimine bağlamak için [otel pazarlamasında görsel hikâye](https://dgtlface.com/tr/otel-dijital-pazarlama) tarafında hangi galeri bloklarının kampanya trafiğinde daha iyi çalıştığını izleyin."
             ]
           },
           {
@@ -29240,7 +29679,7 @@
             "variant": "secondary",
             "label": "Visual Storytelling İçin Örnek Galeri Yapısını İndir",
             "text": "Kategori, sıralama ve mobil lightbox kurgusunu hazır şablonla kurup hızlıca uygulamanızı sağlar.",
-            "href": "/creative/ui-ux-tasarim#galeri-yapisi-sablon"
+            "href": "/downloads/visual-storytelling-otel-galeri-yapisi-v1.0.pdf"
           },
           {
             "type": "media",
@@ -29278,6 +29717,10 @@
           {
             "type": "p",
             "text": "GEO örnek: “Antalya Belek deniz manzaralı oda” setinde manzara görseli ilk 3’e girmelidir."
+          },
+          {
+            "type": "p",
+            "text": "Oda kartları içinde doğru görseli doğru fiyat bloğuyla eşleştirmek için [oda fotoğraflarıyla karşılaştırma UX’i](https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux) mantığını kullanın; böylece misafir yalnızca güzel kare görmez, hangi oda tipinin neden daha değerli olduğunu da daha hızlı kavrar."
           },
           {
             "type": "h3",
@@ -29338,7 +29781,7 @@
             "items": [
               "Kategori başına “minimum hikâye seti” tanımlayın (oda/havuz/restoran/spa).",
               "Kategori içi sıralamayı “genel → kanıt → detay” olarak standardize edin.",
-              "Video/short içerikleri kategori içinde tek noktaya sabitleyin ve /creative/video-produksiyon sayfasına bağlayın."
+              "Video ve short içerikleri kategori içinde tek bir giriş noktasında toplayın; fotoğraf akışını bölmeden destek içerik olarak kullanın."
             ]
           }
         ]
@@ -29371,6 +29814,10 @@
           {
             "type": "p",
             "text": "Lightbox içinde kategori geçişi sunacaksanız tek satırlık sekme yeterlidir. Tam ekran menü açmak odağı dağıtabilir."
+          },
+          {
+            "type": "p",
+            "text": "Swipe, sticky CTA ve tek elle kullanım kararlarında mobile-first yaklaşımı korumak, özellikle rezervasyon niyeti yüksek kullanıcıda sürtünmeyi azaltır; ancak bu sayfada asıl öncelik, görsel hikâyeyi bozmadan mobil galeri akışını konum koruyan ve hızlı çalışan bir yapıda tutmaktır."
           },
           {
             "type": "table",
@@ -29429,7 +29876,7 @@
             "variant": "primary",
             "label": "Otel Fotoğraf & Galeri UX Analizi Talep Et",
             "text": "Mobil galeri swipe/lightbox sürtünmesini ve hız kaynaklı kayıpları tespit edip rezervasyona giden yolu güçlendirmek isteyen oteller için analiz alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -29504,7 +29951,7 @@
               "İlk 1–2 görseli LCP hedefiyle optimize edin; geri kalanları lazy-load edin.",
               "360/video’yu tek noktaya koyun ve tıklanınca yükleyin.",
               "Alt metinleri oda tipi + destinasyon + amaç formatında standardize edin.",
-              "Teknik detaylar için /seo/teknik-seo, sosyal içerik bağlantısı için /otel/sosyal-medya sayfalarına iç link verin."
+              "Teknik performans tarafında [görsel performans ve teknik SEO](https://dgtlface.com/tr/seo/teknik-seo) kararlarını galeri tasarımından ayrı düşünmeyin; LCP, lazy-load ve alt metin standardını aynı sprintte yönetin."
             ]
           }
         ]
@@ -29553,7 +30000,7 @@
             "variant": "primary",
             "label": "Otel Fotoğraf & Galeri UX Analizi Talep Et",
             "text": "Görsel hikâye sıralamasını, mobil galeri deneyimini ve hız/SEO etkilerini birlikte optimize etmek isteyen oteller için kapsamlı analiz alın.",
-            "href": "/creative/ui-ux-tasarim"
+            "href": "/tr/creative/ui-ux-tasarim"
           }
         ]
       },
@@ -29590,6 +30037,10 @@
           {
             "type": "media",
             "slot": "checklist-06"
+          },
+          {
+            "type": "p",
+            "text": "[UI & UX Tasarım hizmetiyle otel fotoğraf galerinizi rezervasyon odaklı kurgulayın](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
           }
         ]
       }
@@ -29644,24 +30095,16 @@
           "Indexlenebilirlik kontrolü (robots, sitemap, noindex)",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
           "İç linklerde kırık link ve redirect zinciri yok",
-          "İlk 12 görsel oda, konfor, manzara ve tesis vaadi dengesine göre sıralandı",
-          "Galeri kategori sayısı 5–7 bandında tutuldu ve varsayılan kategori senaryoya göre belirlendi",
-          "Oda kategorisinde yatak, genel açı, banyo, alan hissi, manzara ve detay kareleri kontrol edildi",
-          "Mobil swipe, pinch zoom, kapatma ve geri dönüş aksiyonları erişilebilirlik açısından test edildi",
-          "Lightbox kapatıldığında kullanıcının galeri konumunun korunduğu doğrulandı",
-          "Mobil gallery bileşeninin ağır JavaScript nedeniyle INP sorununa yol açmadığı test edildi",
-          "Desktop deneyiminde grid, lightbox, klavye yönlendirmesi ve odak yönetimi kontrol edildi",
-          "360 tur ve video bileşenleri tek noktaya yerleştirildi ve kullanıcı aksiyonuyla yükleniyor",
-          "İlk kritik galeri görseli LCP için priority/preload mantığıyla optimize edildi",
-          "Hero ve ilk kritik görsellerde yanlış lazy-load kullanımı engellendi",
-          "Alt bölüm görsellerinde lazy-load ve lightbox için sınırlı prefetch uygulandı",
-          "WebP/AVIF formatları, fallback, responsive srcset ve doğru boyutlandırma kontrol edildi",
-          "Thumbnail ve tam boy görseller ayrı ağırlık/çözünürlük profilleriyle üretildi",
-          "Alt metinler oda tipi + destinasyon + ana özellik formatında doğal biçimde yazıldı",
-          "Galeri etkileşimi, rezervasyon başlangıcı, mobil terk, LCP ve INP ölçüm planı oluşturuldu",
-          "Media dosya adları, alt text’ler ve WebP ölçüleri doğrulandı",
-          "Download asset URL’si ve buton aksiyonu doğrulandı",
-          "CTA hedefleri locale-aware yönlendirme ile test edildi"
+          "Parent_URL içerikte /tr/creative/ui-ux-tasarim adresine doğru bağlandı",
+          "Cluster hub linki /tr/creative-ve-tasarim bağlamında doğrulandı",
+          "Primary sibling linkleri homepage UX, fiyat/oda karşılaştırma UX’i ve 360 sanal tur bağlamında yerleştirildi",
+          "Cross-silo linkleri Video Prodüksiyon, Otel Dijital Pazarlama ve Teknik SEO bağlamında doğal anchor ile eklendi",
+          "Money page içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı",
+          "Düz path/URL notları kullanıcıya görünen metinden temizlendi",
+          "Secondary asset CTA gerçek download URL’sine yönlendirildi",
+          "Galeri, mobil swipe ve performans katmanları rezervasyon niyeti odağında yeniden hizalandı",
+          "Meta title, title ve H1 korunarak yalnızca içerik içi internal linkler güncellendi"
         ]
       }
     }
