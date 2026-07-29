@@ -49022,6 +49022,509 @@ export const BLOG_MEDIA_MAP = {
       alt: "Story ve highlight deliverables kartı, şablon seti ve kapak ikon paketi",
       caption: "Story ve highlight deliverables kartı, şablon seti ve kapak ikon paketi"
     }
+  },
+
+
+   "cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak":{
+    banner: {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-1.webp",
+      alt: "Çok Dilli Görsel ve Video Tasarımı: TR–EN–DE–RU İçin Çalışmak",
+      caption: "Çok Dilli Görsel ve Video Tasarımı: TR–EN–DE–RU İçin Çalışmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-2.webp",
+      alt: "TR EN DE RU tasarım karşılaştırması, metin uzaması ve Cyrillic font uyumu",
+      caption: "TR EN DE RU tasarım karşılaştırması, metin uzaması ve Cyrillic font uyumu"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-3.webp",
+    alt: "Çok dilli tasarım zorlukları ayırıcı, text expansion ve alfabe farkı",
+      caption: "Çok dilli tasarım zorlukları ayırıcı, text expansion ve alfabe farkı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-4.webp",
+      alt: "Subtitle caption ayırıcı, çok dilli videoda safe zone ve okunabilirlik",
+      caption: "Subtitle caption ayırıcı, çok dilli videoda safe zone ve okunabilirlik"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-5.webp",
+      alt: "Text expansion diyagramı, başlık alt metin CTA uzama payı modeli",
+      caption: "Text expansion diyagramı, başlık alt metin CTA uzama payı modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-6.webp",
+      alt: "Multilingual checklist kartı, font metin alanı subtitle ve export kontrolü",
+      caption: "Multilingual checklist kartı, font metin alanı subtitle ve export kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-7.webp",
+      alt: "Çok dilli üretim KPI kartı, revizyon azalması ve hızlanma paneli",
+      caption: "Çok dilli üretim KPI kartı, revizyon azalması ve hızlanma paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-18/Creative1-18-8.webp",
+      alt: "Çok dilli şablon teslim kartı, TR EN DE RU set ve isimlendirme düzeni",
+      caption: "Çok dilli şablon teslim kartı, TR EN DE RU set ve isimlendirme düzeni"
+    }
+  },
+
+
+  "export-ve-dosya-teslim-standartlari-format-olcek-ve-renk":{
+    banner: {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-1.webp",
+      alt: "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
+      caption: "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-2.webp",
+      alt: "TR EN DE RU tasarım karşılaştırması, metin uzaması ve Cyrillic font uyumu",
+      caption: "TR EN DE RU tasarım karşılaştırması, metin uzaması ve Cyrillic font uyumu"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-3.webp",
+    alt: "Çok dilli tasarım zorlukları ayırıcı, text expansion ve alfabe farkı",
+      caption: "Çok dilli tasarım zorlukları ayırıcı, text expansion ve alfabe farkı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-4.webp",
+      alt: "Subtitle caption ayırıcı, çok dilli videoda safe zone ve okunabilirlik",
+      caption: "Subtitle caption ayırıcı, çok dilli videoda safe zone ve okunabilirlik"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-5.webp",
+      alt: "Text expansion diyagramı, başlık alt metin CTA uzama payı modeli",
+      caption: "Text expansion diyagramı, başlık alt metin CTA uzama payı modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-6.webp",
+      alt: "Multilingual checklist kartı, font metin alanı subtitle ve export kontrolü",
+      caption: "Multilingual checklist kartı, font metin alanı subtitle ve export kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-7.webp",
+      alt: "Çok dilli üretim KPI kartı, revizyon azalması ve hızlanma paneli",
+      caption: "Çok dilli üretim KPI kartı, revizyon azalması ve hızlanma paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-19/Creative1-19-8.webp",
+      alt: "Çok dilli şablon teslim kartı, TR EN DE RU set ve isimlendirme düzeni",
+      caption: "Çok dilli şablon teslim kartı, TR EN DE RU set ve isimlendirme düzeni"
+    }
+  },
+
+  "tasarim-qa-ve-yayin-oncesi-kontrol-listesi":{
+    banner: {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-1.webp",
+      alt: "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+      caption: "Tasarım QA ve Yayın Öncesi Kontrol Listesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-2.webp",
+      alt: "Yayın sonrası hata ve yayın öncesi QA karşılaştırması, otel ve B2B kalite",
+      caption: "Yayın sonrası hata ve yayın öncesi QA karşılaştırması, otel ve B2B kalite"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-3.webp",
+    alt: "Tasarım QA neden gerekli ayırıcı, hata önleme ve güven etkisi",
+      caption: "Tasarım QA neden gerekli ayırıcı, hata önleme ve güven etkisi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-4.webp",
+      alt: "Link ve CTA kontrol ayırıcı, kampanya dönüşüm hatalarını önleme",
+      caption: "Link ve CTA kontrol ayırıcı, kampanya dönüşüm hatalarını önleme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-5.webp",
+      alt: "Preflight akış diyagramı, web sosyal baskı QA adımları ve onay",
+      caption: "Preflight akış diyagramı, web sosyal baskı QA adımları ve onay"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-6.webp",
+      alt: "Preflight checklist kartı, metin hizalama renk link ve format kontrolü",
+      caption: "Preflight checklist kartı, metin hizalama renk link ve format kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-7.webp",
+      alt: "QA KPI kartı, hatalı yayın azalması ve marka güveni göstergeleri",
+      caption: "QA KPI kartı, hatalı yayın azalması ve marka güveni göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-20/Creative1-20-8.webp",
+      alt: "QA deliverables kartı, checklist tablo akış diyagramı ve süreç dokümanı",
+      caption: "QA deliverables kartı, checklist tablo akış diyagramı ve süreç dokümanı"
+    }
+  },
+
+  "yapay-zeka-destekli-tasarim-ve-insan-art-direction":{
+    banner: {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-1.webp",
+      alt: "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
+      caption: "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-2.webp",
+      alt: "AI taslağı ve final tasarım karşılaştırması, otel ve B2B kalite farkı",
+      caption: "AI taslağı ve final tasarım karşılaştırması, otel ve B2B kalite farkı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-3.webp",
+    alt: "AI ve art direction ayırıcı, hız ve marka kontrol dengesi",
+      caption: "AI ve art direction ayırıcı, hız ve marka kontrol dengesi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-4.webp",
+      alt: "Etik ve telif ayırıcı, otel ve B2B’de güvenli AI üretimi",
+      caption: "Etik ve telif ayırıcı, otel ve B2B’de güvenli AI üretimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-5.webp",
+      alt: "AI tasarım akış diyagramı, hibrit kreatif üretim ve kontrol kapıları",
+      caption: "AI tasarım akış diyagramı, hibrit kreatif üretim ve kontrol kapıları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-6.webp",
+      alt: "AI tasarım checklist kartı, prompt marka filtresi ve QA kontrolü",
+      caption: "AI tasarım checklist kartı, prompt marka filtresi ve QA kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-7.webp",
+      alt: "AI üretim KPI kartı, taslak hızlanması ve tutarlılık göstergeleri",
+      caption: "AI üretim KPI kartı, taslak hızlanması ve tutarlılık göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-21/Creative1-21-8.webp",
+      alt: "AI workflow deliverables kartı, prompt kütüphanesi ve süreç dokümanları",
+      caption: "AI workflow deliverables kartı, prompt kütüphanesi ve süreç dokümanları"
+    }
+  },
+
+  "ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda":{
+    banner: {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-1.webp",
+      alt: "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında Deneyimsel Tasarım",
+      caption: "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında Deneyimsel Tasarım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-2.webp",
+      alt: "AR arayüz mockup, marka öğeleri ve yüz efekti yerleşimi örneği",
+      caption: "AR arayüz mockup, marka öğeleri ve yüz efekti yerleşimi örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-3.webp",
+    alt: "AR deneyim rolü ayırıcı, paylaşım motivasyonu ve marka teması",
+      caption: "AR deneyim rolü ayırıcı, paylaşım motivasyonu ve marka teması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-4.webp",
+      alt: "Guardrail ayırıcı, performans ve güvenli AR tasarım kuralları",
+      caption: "Guardrail ayırıcı, performans ve güvenli AR tasarım kuralları"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-5.webp",
+      alt: "AR kampanya akış diyagramı, konsept storyboard paylaşım ve CTA modeli",
+      caption: "AR kampanya akış diyagramı, konsept storyboard paylaşım ve CTA modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-6.webp",
+      alt: "AR filtre tasarım checklist kartı, marka yerleşimi CTA ve performans kontrolü",
+      caption: "AR filtre tasarım checklist kartı, marka yerleşimi CTA ve performans kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-7.webp",
+      alt: "AR KPI kartı, filtre kullanım paylaşım profil ziyareti ve web yönlendirme",
+      caption: "AR KPI kartı, filtre kullanım paylaşım profil ziyareti ve web yönlendirme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-22/Creative1-22-8.webp",
+      alt: "AR kampanya deliverables kartı, storyboard konsept tablosu ve guideline seti",
+      caption: "AR kampanya deliverables kartı, storyboard konsept tablosu ve guideline seti"
+    }
+  },
+
+
+   "3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil":{
+    banner: {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-1.webp",
+      alt: "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil",
+      caption: "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-2.webp",
+      alt: "AR arayüz mockup, marka öğeleri ve yüz efekti yerleşimi örneği",
+      caption: "AR arayüz mockup, marka öğeleri ve yüz efekti yerleşimi örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-3.webp",
+    alt: "AR deneyim rolü ayırıcı, paylaşım motivasyonu ve marka teması",
+      caption: "AR deneyim rolü ayırıcı, paylaşım motivasyonu ve marka teması"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-4.webp",
+      alt: "Guardrail ayırıcı, performans ve güvenli AR tasarım kuralları",
+      caption: "Guardrail ayırıcı, performans ve güvenli AR tasarım kuralları"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-5.webp",
+      alt: "AR kampanya akış diyagramı, konsept storyboard paylaşım ve CTA modeli",
+      caption: "AR kampanya akış diyagramı, konsept storyboard paylaşım ve CTA modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-6.webp",
+      alt: "AR filtre tasarım checklist kartı, marka yerleşimi CTA ve performans kontrolü",
+      caption: "AR filtre tasarım checklist kartı, marka yerleşimi CTA ve performans kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-7.webp",
+      alt: "AR KPI kartı, filtre kullanım paylaşım profil ziyareti ve web yönlendirme",
+      caption: "AR KPI kartı, filtre kullanım paylaşım profil ziyareti ve web yönlendirme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-23/Creative1-23-8.webp",
+      alt: "AR kampanya deliverables kartı, storyboard konsept tablosu ve guideline seti",
+      caption: "AR kampanya deliverables kartı, storyboard konsept tablosu ve guideline seti"
+    }
+  },
+
+  "veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak":{
+    banner: {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-1.webp",
+      alt: "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+      caption: "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-2.webp",
+      alt: "Kreatif dashboard mockup, CTR CVR ROAS kırılımı ve tasarım öğrenimleri",
+      caption: "Kreatif dashboard mockup, CTR CVR ROAS kırılımı ve tasarım öğrenimleri"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-3.webp",
+    alt: "Kreatif metrikler ayırıcı, thumb stop watch time CTR tasarım kararları",
+      caption: "Kreatif metrikler ayırıcı, thumb stop watch time CTR tasarım kararları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-4.webp",
+      alt: "Testten standarda ayırıcı, öğrenimleri style guide ve şablona yazma",
+      caption: "Testten standarda ayırıcı, öğrenimleri style guide ve şablona yazma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-5.webp",
+      alt: "Data→creative loop diyagramı, test öğren standardize ve yeniden kullan",
+      caption: "Data→creative loop diyagramı, test öğren standardize ve yeniden kullan"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-6.webp",
+      alt: "Data-driven creative checklist kartı, metrikten tasarım kuralı çıkarma adımları",
+      caption: "Data-driven creative checklist kartı, metrikten tasarım kuralı çıkarma adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-7.webp",
+      alt: "Kreatif KPI kartı, thumb stop CTR CVR ve öğrenim paneli",
+      caption: "Kreatif KPI kartı, thumb stop CTR CVR ve öğrenim paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-24/Creative1-24-8.webp",
+      alt: "Dashboard ve rulebook deliverables kartı, pattern dokümanı ve template güncellemesi",
+      caption: "Dashboard ve rulebook deliverables kartı, pattern dokümanı ve template güncellemesi"
+    }
+  },
+
+  "ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi":{
+    banner: {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-1.webp",
+      alt: "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka + Kreatör İşbirliği",
+      caption: "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka + Kreatör İşbirliği"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-2.webp",
+      alt: "UGC video overlay örnekleri, kreatör özgürlüğü ve marka tutarlılığı dengesi",
+      caption: "UGC video overlay örnekleri, kreatör özgürlüğü ve marka tutarlılığı dengesi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-3.webp",
+    alt: "UGC rolü ayırıcı, sosyal kanıt ve güven için kreatör içerikleri",
+      caption: "UGC rolü ayırıcı, sosyal kanıt ve güven için kreatör içerikleri"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-4.webp",
+      alt: "Guideline dengesi ayırıcı, özgünlük ve marka dili kontrolü",
+      caption: "Guideline dengesi ayırıcı, özgünlük ve marka dili kontrolü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-5.webp",
+      alt: "Brief üretim onay paylaşım diyagramı, kreatör işbirliği süreci akışı",
+      caption: "Brief üretim onay paylaşım diyagramı, kreatör işbirliği süreci akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-6.webp",
+      alt: "UGC checklist kartı, overlay kit guideline ve onay kriterleri kontrolü",
+      caption: "UGC checklist kartı, overlay kit guideline ve onay kriterleri kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-7.webp",
+      alt: "UGC KPI kartı, paylaşım oranı profil ziyareti ve marka tutarlılığı",
+      caption: "UGC KPI kartı, paylaşım oranı profil ziyareti ve marka tutarlılığı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-25/Creative1-25-8.webp",
+      alt: "UGC kit deliverables kartı, logo renk overlay ve sticker paket çıktısı",
+      caption: "UGC kit deliverables kartı, logo renk overlay ve sticker paket çıktısı"
+    }
+  },
+
+  "otel-homepage-ux-ilk-izlenim-hero":{
+    banner: {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-1.webp",
+      alt: "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?",
+      caption: "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-2.webp",
+      alt: "Ana sayfadan rezervasyon funnel’ına geçişi anlatan otel bağlam görseli",
+      caption: "Ana sayfadan rezervasyon funnel’ına geçişi anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-3.webp",
+    alt: "Hero tasarımına geçiş ayırıcı görsel otel bağlamı",
+      caption: "Hero tasarımına geçiş ayırıcı görsel otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-4.webp",
+      alt: "Ana sayfa funnel bağlantısı bölüm geçiş görseli otel bağlamı",
+      caption: "Ana sayfa funnel bağlantısı bölüm geçiş görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-5.webp",
+      alt: "Hero kırmızı/yeşil bölge ve CTA yerleşim şeması otel bağlamı",
+      caption: "Hero kırmızı/yeşil bölge ve CTA yerleşim şeması otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-6.webp",
+      alt: "Ana sayfa hero menü sosyal kanıt checklist kartı otel bağlamı",
+      caption: "Ana sayfa hero menü sosyal kanıt checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-7.webp",
+      alt: "Ana sayfa KPI ve funnel metrikleri skor kartı otel bağlamı",
+      caption: "Ana sayfa KPI ve funnel metrikleri skor kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-6/Creative2-6-8.webp",
+      alt: "Homepage UX audit deliverables kanıt kartı otel bağlamı",
+      caption: "Homepage UX audit deliverables kanıt kartı otel bağlamı"
+    }
+  },
+
+  "otel-fotograf-galeri-ux":{
+    banner: {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-1.webp",
+      alt: "Otel Fotoğraf ve Galeri UX’i: Görsel Hikâyeyle Rezervasyon Tetiklemek",
+      caption: "Otel Fotoğraf ve Galeri UX’i: Görsel Hikâyeyle Rezervasyon Tetiklemek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-2.webp",
+      alt: "Otel galerisinde oda ve deneyim sırasını anlatan bağlam görseli",
+      caption: "Otel galerisinde oda ve deneyim sırasını anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-3.webp",
+    alt: "Otel fotoğraf önceliklendirme mantığını anlatan bölüm ayırıcı görsel",
+      caption: "Otel fotoğraf önceliklendirme mantığını anlatan bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-4.webp",
+      alt: "Otel kategori ve hikâye akışına geçiş bölüm ayırıcı görsel",
+      caption: "Otel kategori ve hikâye akışına geçiş bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-5.webp",
+      alt: "Galeri kategori filtreleri ve 360 tur yerleşimini gösteren akış diyagramı",
+      caption: "Galeri kategori filtreleri ve 360 tur yerleşimini gösteren akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-6.webp",
+      alt: "Otel galeri UX kontrol listesi ve sıralama prensipleri kartı",
+      caption: "Otel galeri UX kontrol listesi ve sıralama prensipleri kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-7.webp",
+      alt: "Galeri etkileşimi ve hız KPI özetini sunan skor kart",
+      caption: "Galeri etkileşimi ve hız KPI özetini sunan skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-7/Creative2-7-8.webp",
+      alt: "Galeri UX analizi çıktıları ve önerilen yapı kanıt kartı",
+      caption: "Galeri UX analizi çıktıları ve önerilen yapı kanıt kartı"
+    }
   }
   
 };

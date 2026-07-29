@@ -97681,6 +97681,2598 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak",
+
+      "name": "Çok Dilli Görsel ve Video Tasarımı: TR–EN–DE–RU İçin Çalışmak",
+
+      "description": "TR–EN–DE–RU için text expansion ve font uyumunu baştan planlayın. Latin + Cyrillic destekli tipografi, subtitle/caption şablonları ve export düzeniyle bozulmayan kreatif üretin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#article",
+
+      "headline": "Çok Dilli Görsel ve Video Tasarımı: TR–EN–DE–RU İçin Çalışmak",
+
+      "name": "Çok Dilli Görsel ve Video Tasarımı: TR–EN–DE–RU İçin Çalışmak",
+
+      "description": "TR–EN–DE–RU çok dilli kreatiflerde metin uzaması, Latin+Cyrillic font uyumu ve subtitle/caption şablonlarıyla bozulmayan tasarım üretme rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Multilingual Creatives",
+
+        "TR–EN–DE–RU Layouts",
+
+        "Font & Text Expansion",
+
+        "Subtitles",
+
+        "Captions"
+
+      ],
+
+      "keywords": [
+
+        "cok dilli gorsel tasarimi",
+
+        "tr en de ru kreatif ornekleri",
+
+        "subtitle caption tasarimi cok dilli video"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#howto",
+
+      "name": "TR–EN–DE–RU Çok Dilli Kreatif Şablonu Nasıl Kurulur?",
+
+      "description": "Text expansion payı, Cyrillic font seçimi, subtitle/caption şablonu ve export isimlendirme düzeniyle 4 dilde bozulmayan kreatif üretme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Metin uzamasını planla",
+
+          "text": "Başlık/alt metin/CTA alanlarına tolerans bırak; en uzun dil (çoğunlukla DE) ile şablonu stres testinden geçir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Latin + Cyrillic font standardını kilitle",
+
+          "text": "RU için Cyrillic destekli font ailesi seç; weight setini doğrula ve fallback’leri engelle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Subtitle/caption ve export düzenini standardize et",
+
+          "text": "Subtitle bar’ı safe zone içinde şablonlaştır; dil kodu ve versiyon içeren isimlendirme ile yanlış dil yayın riskini azalt."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Çok Dilli Görsel ve Video Tasarımı", "item": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok dilli tasarımda nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Metin uzamasını (özellikle DE) ve alfabe farkını (RU Cyrillic) baştan planlamalısınız. Şablonlarda tolerans bırakın, font desteğini kilitleyin ve subtitle/caption alanlarını safe zone içinde standardize edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "TR–EN–DE–RU için font ve metin alanı nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Metin alanlarını uzama payıyla tasarlayın; başlık için 2 satır tolerans, CTA için kısa/uzun varyant planlayın. Cyrillic destekli font ailesi kullanarak RU’da tutarlılığı koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Alt yazı/caption şablonları çok dilli videolarda nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Subtitle bar’ı safe zone içinde sabitlenir, metin 1–2 satırla sınırlandırılır ve dil uzamasına göre tolerans tanımlanır. Caption alanında kısa metin varyantlarıyla overlay çakışması önlenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "RU’da font bozuluyor, çözüm nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Cyrillic destekli font ailesi seçin, weight setini RU’da test edin ve fallback kullanımını engelleyin. Tasarım programında fontları tek kaynak olarak kilitleyin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"export-ve-dosya-teslim-standartlari-format-olcek-ve-renk":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk",
+
+      "name": "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
+
+      "description": "Sosyal, web ve baskı için format/ölçek/renk profilini standartlaştırın. PNG–JPG–SVG–MP4 farklarını bilin; klasör ve isimlendirme ile hatalı teslimi azaltın.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#article",
+
+      "headline": "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
+
+      "name": "Export ve Dosya Teslim Standartları: Format, Ölçek ve Renk",
+
+      "description": "Sosyal medya, web, video ve baskı işler için doğru format, ölçü ve renk profili seçimini; dosya isimlendirme ve teslim paket yapısıyla standardize eden pratik rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "File Export",
+
+        "Formats & Sizes",
+
+        "Color Profiles",
+
+        "Delivery Structure",
+
+        "Production Handoff"
+
+      ],
+
+      "keywords": [
+
+        "hangi is icin hangi gorsel formati",
+
+        "instagram linkedin gorsel boyutlari 2025",
+
+        "logo png jpg svg farki"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#howto",
+
+      "name": "Export ve Dosya Teslim Standardı Nasıl Kurulur?",
+
+      "description": "Kanal bazlı format/ölçek/renk profilini belirleyip SOURCE/EXPORT/FINAL paket yapısıyla teslimi standardize etme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İş türünü ve kanalı netleştir",
+
+          "text": "Sosyal, web, video veya baskı için teslimin hedefini belirle; her kanalın ölçü ve format ihtiyacını çıkar."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Format ve renk profilini seç",
+
+          "text": "Foto için JPG, şeffaf grafik için PNG, logo/ikon için SVG, video için MP4; dijitalde RGB, baskıda CMYK standardını uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Teslim paketini oluştur ve kontrol et",
+
+          "text": "SOURCE/EXPORT/FINAL klasör yapısı, isimlendirme ve readme ile teslimi paketle; yayın öncesi checklist ile doğrula."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Export ve Dosya Teslim Standartları", "item": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi iş için hangi görsel/video formatını kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Foto ağırlıklı işler için JPG, şeffaf zemin veya keskin grafik için PNG, logo/ikon için SVG, video için MP4 (H.264) kullanın. Baskı için CMYK hazırlıklı PDF gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PNG/JPG/SVG farkları nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "JPG foto için idealdir ama şeffaflık içermez. PNG şeffaflık ve keskin metin/grafik için uygundur ancak dosya büyük olabilir. SVG vektördür; logo ve ikonlarda kalite kaybetmeden ölçeklenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Baskı için CMYK/RGB tarafında nelere dikkat edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dijital işler RGB, baskı işleri CMYK hazırlanmalıdır. RGB tasarımı baskıya göndermek veya CMYK dosyayı web’de kullanmak renk sapması yaratabilir; proof/numune kontrolü planlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dosya isimlendirmesini nasıl standartlaştırmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kampanya-format-dil-versiyon mantığı kullanın (örn. summer-offer-story-TR-v1). SOURCE/EXPORT/FINAL klasör ayrımı ve readme/teslim notu karışıklığı azaltır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/export-ve-dosya-teslim-standartlari-format-olcek-ve-renk#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"tasarim-qa-ve-yayin-oncesi-kontrol-listesi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi",
+
+      "name": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+
+      "description": "Web/sosyal/baskı tasarımlarında yazım, hizalama, renk ve link hatalarını yayına çıkmadan yakalayın. Otel & B2B için pratik preflight akışı ve checklist.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#article",
+
+      "headline": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+
+      "name": "Tasarım QA ve Yayın Öncesi Kontrol Listesi",
+
+      "description": "Web, sosyal medya ve baskı tasarımlarında metin, hizalama, renk, link/CTA ve format hatalarını yayına çıkmadan yakalamak için Design QA (preflight) rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Design QA",
+
+        "Preflight Check",
+
+        "Error Prevention",
+
+        "Cross-Channel Quality",
+
+        "Links and CTAs",
+
+        "Color Consistency"
+
+      ],
+
+      "keywords": [
+
+        "tasarim qa nedir",
+
+        "yayina cikmadan once neler kontrol edilmeli",
+
+        "sosyal medya gorsel kontrol listesi"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#howto",
+
+      "name": "Yayın Öncesi Tasarım QA (Preflight) Nasıl Yapılır?",
+
+      "description": "Web, sosyal ve baskı için çekirdek + kanal bazlı checklist ile tasarım hatalarını yayına çıkmadan yakalama adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Çekirdek kontrolü yap",
+
+          "text": "Metin/tarih/sayı, brand renk–tipografi, hiyerarşi, grid ve doğru versiyon (FINAL) kontrolünü tamamla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kanal kontrolünü tamamla",
+
+          "text": "Web’de link/UTM ve responsive; sosyalde crop/safe area; baskıda CMYK/bleed ve QR/URL kontrollerini yap."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Yayın öncesi son test ve onay",
+
+          "text": "Link/QR tıklama testini zorunlu yap; checklist’i imzala ve yayın şartı olarak sakla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Tasarım QA ve Yayın Öncesi Kontrol Listesi", "item": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tasarım QA nedir, neden gereklidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tasarım QA, yayına çıkmadan önce metin, hizalama, renk, link/CTA ve format hatalarını sistematik yakalayan preflight sürecidir. Hatalı yayın riskini düşürür ve profesyonel görünümü korur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yayın öncesi hangi maddeleri mutlaka kontrol etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çekirdek: yazım/tarih/sayı, okunabilirlik, brand renk–tipografi, CTA netliği ve doğru dosya/versiyon. Web’de link/UTM ve responsive; sosyalde safe area/crop; baskıda CMYK/bleed ayrıca kontrol edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Web, sosyal medya ve baskı için QA süreçleri nasıl farklılaşır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Web’de link ve responsive davranış; sosyalde platform ölçüsü ve crop/safe area; baskıda renk profili ve bleed/çıktı standardı öne çıkar. Çekirdek checklist aynı kalır, kanal eklentileri değişir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Post’u attıktan sonra hata görüyoruz, nasıl önüne geçeriz?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yayın öncesi 10 dakikalık preflight checklist rutini ve link/QR tıklama testini zorunlu yapın. Yüksek riskli içeriklerde 2 göz kuralı ve FINAL versiyonlama hataları belirgin şekilde azaltır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/tasarim-qa-ve-yayin-oncesi-kontrol-listesi#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"yapay-zeka-destekli-tasarim-ve-insan-art-direction":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction",
+
+      "name": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
+
+      "description": "AI ile taslak/varyasyon üretin, final kalite ve marka kararını insan art director’de tutun. Otel/B2B workflow, kontrol noktaları ve telif/etik risk azaltma checklist’i.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#article",
+
+      "headline": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
+
+      "name": "Yapay Zekâ Destekli Tasarım ve İnsan Art Direction: Dengeyi Kurmak",
+
+      "description": "AI destekli tasarımda hız kazanırken art direction ve marka rehberiyle kaliteyi koruyan hibrit kreatif üretim modeli rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "AI-Assisted Design",
+
+        "Human Art Direction",
+
+        "Hybrid Creative Workflow",
+
+        "Brand Guidelines",
+
+        "Prompting",
+
+        "Creative Review"
+
+      ],
+
+      "keywords": [
+
+        "ai destekli tasarim",
+
+        "art direction ai workflow",
+
+        "otel b2b icin ai kreatif"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#howto",
+
+      "name": "AI + İnsan Art Direction ile Hibrit Kreatif Üretim Nasıl Kurulur?",
+
+      "description": "AI’ı taslak/varyasyon için kullanıp art director kontrol kapılarıyla finalize eden hibrit workflow adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Brief ve referans setini hazırla",
+
+          "text": "Tek mesaj + tek CTA belirle; brand moodboard oluştur ve riskli alanlar için kırmızı çizgileri yaz."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "AI taslak üret ve art direction filtresi uygula",
+
+          "text": "20–30 taslak üret; brandbook kriterleri ve etik/telif filtreleriyle 3–5 adayı seç."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Refine, QA ve yayınla",
+
+          "text": "Seçilenleri Figma/After Effects’te token ve grid ile finalize et; QA checklist ile ölçü/CTA/link kontrolü yap ve yayın sonrası öğrenimi kaydet."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "AI Destekli Tasarım ve Art Direction", "item": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI ile tasarım yaparken insan art direction rolü nedir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Art director, marka uyumu ve kalite için son kararı verir; AI taslak ve varyasyon üretir. Art director seçer, refine yönlendirir ve final onayı verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI çıktıları marka kitabına göre nasıl filtrelenir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Brandbook kurallarını filtre listesine çevirin: renk, tipografi hissi, logo kullanımı ve görsel ton. AI çıktısını bu listeyle eleyip kalanları Figma/AE’de token’larla finalize edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tasarımı tamamen yapay zekâya bırakmak doğru mu?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çoğu marka için sürdürülebilir değildir; tutarlılık ve telif/etik riskleri karar gerektirir. En iyi model AI asistan, insan karar verici yaklaşımıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI tasarımlarında telif ve etik riskleri nasıl azaltılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Onaylı kaynak/asset kullanın, lisans koşullarını kontrol edin, birebir stil taklidinden kaçının ve yanıltıcı görseller yayınlamayın. Yüksek riskli içerikler için insan onayı ve kayıt tutan süreç kurun."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/yapay-zeka-destekli-tasarim-ve-insan-art-direction#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda",
+
+      "name": "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında Deneyimsel Tasarım",
+
+      "description": "Otel/B2B için AR filtreyi deneyimsel kampanyaya çevirin: konsept, storyboard, marka öğeleri ve CTA kurgusu. Guardrail’lerle güvenli yayın yapın; checklist’i indirin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#article",
+
+      "headline": "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında Deneyimsel Tasarım",
+
+      "name": "AR Filtreleri ve Yüz Efektleri: Otel ve B2B Kampanyalarında Deneyimsel Tasarım",
+
+      "description": "AR filtre ve yüz efektlerini marka öğeleri, storyboard ve CTA kurgusuyla deneyimsel kampanyaya dönüştüren; otel ve B2B için pratik AR tasarım rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "AR Filters",
+
+        "Face Effects",
+
+        "Branded AR Experiences",
+
+        "Campaign Concepts",
+
+        "Face Tracking",
+
+        "CTA"
+
+      ],
+
+      "keywords": [
+
+        "otel icin ar filtre tasarimi",
+
+        "yuz efekti kampanya ornekleri",
+
+        "b2b markalar icin instagram ar deneyimi"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#howto",
+
+      "name": "AR Filtre Kampanyası Nasıl Planlanır?",
+
+      "description": "Konsept→storyboard→marka öğesi yerleşimi→CTA→guardrail adımlarıyla AR filtre kampanyası kurgulama rehberi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Konsept ve hedefi belirle",
+
+          "text": "Paylaşım mı profil ziyareti mi web yönlendirme mi hedeflendiğini seç; tek mesajı netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Storyboard ve sonuç ekranını tasarla",
+
+          "text": "3–5 sahnelik akış kur; sonuç ekranını paylaşılabilir yap ve CTA’yı tek aksiyonla bağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Guardrail ile test edip yayınla",
+
+          "text": "Performans ve yerleşim guardrail’leriyle test et; lansmanı içerik setiyle destekle ve ölçümle optimize et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "AR Filtreleri ve Yüz Efektleri", "item": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AR filtreleri otel ve B2B kampanyalarında nasıl kullanılabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde konsept/deneyim temalı yüz efektleri ve destinasyon filtreleri paylaşımı tetikler; B2B’de ürün demo ve eğitimsel AR ile fayda anlatımı yapılır. Sonuç ekranı ve tek CTA akışı kurgulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İyi bir yüz efekti tasarımı için nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüz takibi stabil olmalı, overlay’ler yüzü kapatmamalı ve performans düşmemelidir. Marka öğeleri imza dozunda kullanılmalı; CTA safe alanda ve tek aksiyon olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Marka logosu ve renkleri AR’de nasıl konumlandırılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Logo ve renkler arayüzü boğmadan küçük ve tutarlı bir imza gibi yerleştirilmelidir. Yüzün kritik bölgeleri kapatılmamalı; aynı yerleşim kuralı tüm varyantlarda korunmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AR kampanyalarında CTA ve paylaşım nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Deneyim→sonuç ekranı→paylaşım tetikleyicisi→CTA akışı iyi çalışır. CTA tek aksiyon olmalı ve deneyimi bölmemelidir; sonuç ekranı paylaşılabilir tasarlanmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil",
+
+      "name": "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil",
+
+      "description": "3D/izometrik sahnelerle tesis, süreç ve ürünleri daha modern ve anlaşılır anlatın. Flat→3D geçişini küçük sahnelerle yönetin; üretim/dosya checklist’i ile ilerleyin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#article",
+
+      "headline": "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil",
+
+      "name": "3D ve İzometrik Tasarım: Markalar İçin Yeni Nesil Görsel Dil",
+
+      "description": "3D ve izometrik sahnelerle marka görsel dilini modernleştiren; tesis/ürün/süreç anlatımında anlaşılırlığı artıran ve üretimi yönetilebilir kılan stratejik rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "3D & Isometric Design",
+
+        "Brand Visual Evolution",
+
+        "Process & Facility Visuals",
+
+        "3D Mockups"
+
+      ],
+
+      "keywords": [
+
+        "3d izometrik tasarim marka",
+
+        "otel icin izometrik tesis haritasi",
+
+        "b2b surec gorsellestirme 3d"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#howto",
+
+      "name": "3D/İzometrik Görsel Dil Geçişi Nasıl Yönetilir?",
+
+      "description": "Küçük sahnelerle başlayıp style sheet ve kütüphane mantığıyla 3D/izometrik geçişi yönetme adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kullanım alanlarını seç ve kapsamı sınırla",
+
+          "text": "3D’yi harita/süreç/hero gibi yüksek değerli 2–3 alanda kullan; her yere yayma."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Style sheet ve sahne kütüphanesini kur",
+
+          "text": "Işık, materyal ve renk dilini yaz; 6 küçük sahneden oluşan v1.0 kütüphane üret."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Render ve export standartlarını uygula",
+
+          "text": "Render preset’leri tanımla; web/sosyal optimizasyonla dosya boyutunu yönet ve versiyonla."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "3D ve İzometrik Tasarım", "item": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "3D ve izometrik tasarım markalara ne kazandırır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Modern bir görünüm ve karmaşık bilgiyi daha hızlı anlatma avantajı kazandırır. Tesis/ürün/süreç gibi konular izometrik sahnelerde daha net anlaşılır ve premium algı güçlenebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Flat tasarımdan 3D/izometriğe geçerken nelere dikkat edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "3D’yi her yere yaymak yerine küçük sahnelerle başlayın; brand renk/typography’i koruyun ve 3D’yi kanıt katmanı olarak ekleyin. Style sheet ve sahne kütüphanesi tutarlılık sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için 3D/izometrik hangi alanlarda kullanılabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otelde tesis haritası ve oda tipi anlatımı; B2B’de süreç akışı ve ürün mimarisi gibi alanlarda kullanılabilir. En iyi etki metni azaltıp sahneyle kanıt verdiğiniz yerlerde alınır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "3D görselleri dosya boyutu ve üretim süresi açısından nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sahne karmaşıklığını seviyelere ayırın (L1/L2/L3), modüler sahne kütüphanesi kurun ve render preset + export optimizasyonu kullanın. Versiyonlama ve klasör yapısı yönetimi kolaylaştırır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak",
+
+      "name": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+
+      "description": "CTR, thumb stop, watch time ve scroll verisini tasarım kararına çevirin. Kreatif dashboard kurun; test öğrenimlerini style guide ve şablonlara geri yazıp her kampanyada iyileşin.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#article",
+
+      "headline": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+
+      "name": "Veriyle Beslenen Kreatif: Reklam Panelinden Tasarıma İçgörü Taşımak",
+
+      "description": "Reklam paneli ve kreatif dashboard metriklerini (CTR, watch time, thumb stop) tasarım kararlarına çevirerek test→öğren→standartlaştır döngüsü kuran veri tabanlı kreatif rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Data-Driven Creatives",
+
+        "Creative Analytics",
+
+        "Dashboard",
+
+        "Test-Learn-Standardise Loop",
+
+        "Headlines and CTAs"
+
+      ],
+
+      "keywords": [
+
+        "veriyle beslenen kreatif",
+
+        "reklam paneli kreatif analizi",
+
+        "otel b2b icin creative dashboard"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#howto",
+
+      "name": "Data→Creative Loop Nasıl Kurulur?",
+
+      "description": "Reklam metriklerini tasarım kararına çevirip kazanan desenleri style guide ve şablonlara geri yazma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kreatifleri etiketle ve metrikleri seç",
+
+          "text": "Format, tema ve CTA etiketleriyle kreatifleri gruplandır; thumb stop, CTR ve CVR gibi metrikleri takip et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kazanan desenleri çıkar ve kural yaz",
+
+          "text": "En iyi/kötü kreatifleri karşılaştır; tek değişkeni yakala ve ne–neden–nerede formatında kural oluştur."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Şablonları güncelle ve tekrar test et",
+
+          "text": "Kuralları template kitine ve style guide’a işle; versiyonlayıp sonraki kampanyada varsayılan olarak test et."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "Veriyle Beslenen Kreatif", "item": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kreatif tasarımı veriyle nasıl beslerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kreatifleri format/tema/CTA etiketleriyle gruplayın ve thumb stop–CTR–CVR gibi metrikleri bu gruplara göre okuyun. Kampanya sonunda öğrenimleri kurala çevirip şablonlara yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi reklam metrikleri tasarım açısından kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Thumb stop (hook), watch time (ritim), CTR (mesaj/CTA uyumu) ve CVR (teklif/kanıt/landing uyumu) kritiktir. Web’de scroll depth layout netliğini gösterir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ve B2B için kreatif dashboard nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kreatifleri görsel tipi, headline ve CTA’ya göre kırıp thumb stop/CTR/CVR’yi birlikte göstermelidir. Otelde oda/tesis/deneyim; B2B’de value prop ve format testleri ayrı izlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Test öğrenimlerini style guide ve şablonlara nasıl taşırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kazanan desenleri ne–neden–nerede formatında kurala çevirin ve template kitin içine varsayılan olarak yazın. Versiyonlayıp sonraki kampanyada tekrar test edin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi",
+
+      "name": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka + Kreatör İşbirliği",
+
+      "description": "Kreatör özgürlüğünü boğmadan marka dilini koruyun: overlay/template kitleri + net guideline + onay akışı. Otel/B2B için UGC görsel sistemi ve checklist.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#article",
+
+      "headline": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka + Kreatör İşbirliği",
+
+      "name": "UGC ve Kreatör Ortak Tasarım Framework’ü: Marka + Kreatör İşbirliği",
+
+      "description": "UGC ve kreatör içeriklerinde marka tutarlılığını overlay kit, template ve onay akışıyla koruyan; otel ve B2B için ortak tasarım framework rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "UGC & Creator Co-Design",
+
+        "Brand Overlays",
+
+        "Visual Guidelines for Influencers",
+
+        "Approval Workflow",
+
+        "Reels/TikTok Content"
+
+      ],
+
+      "keywords": [
+
+        "ugc kreator tasarim rehberi",
+
+        "influencer icin marka overlay paketi",
+
+        "otel markasi icin ugc gorsel kit"
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#howto",
+
+      "name": "Kreatörler İçin Marka Overlay Kiti Nasıl Hazırlanır?",
+
+      "description": "Logo/renk/overlay kitleri ve onay süreciyle kreatör işbirliğinde görsel dili koruma adımları.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Mini guideline ve kit içeriğini belirle",
+
+          "text": "Değişmezleri seç: logo, renk, safe zone, CTA tonu. Kreatöre 1 sayfalık guideline ve overlay template seti hazırla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Şablonları kilitle ve sticker seti ekle",
+
+          "text": "9:16 ve 1:1 overlay şablonlarını üret; logo konumu ve CTA alanını sabitle; sticker/CTA setini ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Onay ve paylaşım akışını uygula",
+
+          "text": "5 kriterli hızlı onay yap; 1 tur revizyonla sınırla; yayın sonrası öğrenimleri kiti v1.1 olarak güncelle."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Grafik & Motion Tasarım", "item": "https://dgtlface.com/tr/creative/grafik-motion-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/creative/blog/" },
+
+        { "@type": "ListItem", "position": 5, "name": "UGC ve Kreatör Ortak Tasarım Framework’ü", "item": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#faq",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kreatör ve UGC içeriklerinde marka görsel dili nasıl korunur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kontrol etmek yerine çerçeve vererek korunur: overlay kit, mini guideline ve hızlı onay akışı. Logo/renk/CTA gibi değişmezleri kilitleyip kreatöre anlatım özgürlüğü bırakırsınız."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kreatörlere hangi tasarım dosyalarını vermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "PNG+SVG logo, 1 ana + 1 destek renk, 9:16 ve 1:1 overlay şablonu, sticker/CTA seti ve 1 sayfalık guideline yeterlidir. Ağır brandbook yerine kullanılabilir kit daha iyi çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Onay ve paylaşım sürecini görsel açıdan nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Onayı 5 kriterle yönetip 1 turla sınırlayın: marka imzası, safe zone, CTA netliği, yanlış iddia yok, telif/izin net. Ön onaylı template kullanımı süreci hızlandırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kreatör özgürlüğünü boğmadan nasıl kural koyarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Değişmezler + özgür alan ayrımı yapın. Değişmezler: logo/renk, safe zone, CTA tonu ve hassas iddialar; özgür alan: anlatım dili, çekim stili ve kişisel ifade."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "SpeakableSpecification",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi#speakable",
+
+      "cssSelector": [
+
+        "h1",
+
+        "#answer-block"
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-homepage-ux-ilk-izlenim-hero":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero",
+
+      "name": "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero",
+
+      "headline": "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?",
+
+      "name": "Otel Ana Sayfa UX’i: İlk İzlenim, Hero ve Navigasyon Nasıl Tasarlanmalı?",
+
+      "description": "Otel ana sayfada ilk izlenimi güçlendirin: net değer önerisi, hızlı hero, sade menü, sosyal kanıt ve görünür CTA ile misafiri rezervasyon funnel’ına taşıyın.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Hotel Homepage",
+
+        "Hero Section",
+
+        "Navigation Menu",
+
+        "Social Proof",
+
+        "Reservation Funnel"
+
+      ],
+
+      "keywords": [
+
+        "otel ana sayfa tasarımı",
+
+        "hotel hero ux best practices",
+
+        "otel navigation menu örnekleri",
+
+        "hotel homepage ux",
+
+        "hero copy for resorts"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Ana Sayfa UX’i", "item": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ana sayfa nasıl tasarlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir değer önerisiyle başlayın, hero’da tek mesaj ve tek rezervasyon CTA’sı kullanın. Menüyü sadeleştirip sosyal kanıtı erken gösterin; kullanıcıyı tek tıkla rezervasyon funnel’ına taşıyın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hero bölümünde neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Güçlü bir görsel, net bir başlık, kısa bir alt metin ve tek bir CTA. Slider kullanacaksanız az kareyle sınırlayın; CTA’yı sabit tutun ve okunabilirliği koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitesinde menüde hangi başlıklar bulunmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Odalar, Teklifler/Kampanyalar, Konsept/Deneyimler, Galeri, Konum/Ulaşım ve İletişim çekirdek seti çoğu otelde yeterlidir. Menü 5–7 başlığı geçerse kararsızlık artabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ana sayfada rezervasyon butonu nereye konmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İlk ekranda hero altına ve mobilde sticky destekle konumlandırın. CTA, mümkünse tarih seçimi/uygunluk kontrolü adımına doğrudan götürmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-homepage-ux-ilk-izlenim-hero/#howto",
+
+      "name": "Otel ana sayfasında ilk izlenim ve hero nasıl kurgulanır?",
+
+      "description": "Tek değer önerisi, hızlı hero, sade menü ve sosyal kanıt ile kullanıcıyı rezervasyon funnel’ına taşıyan pratik yöntem.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tek değer önerisi belirle",
+
+          "text": "Ana sayfada tek bir mesaj seçin ve hero’da tek başlık + tek alt metinle netleştirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hero CTA’yı görünür yap",
+
+          "text": "CTA’yı ilk ekrana yerleştirin, mobilde sticky ile destekleyin ve tarih seçimine bağlayın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Menüyü sadeleştir ve güveni erken göster",
+
+          "text": "Menüyü 5–7 başlığa indirin; puan/yorum gibi sosyal kanıtı ilk 1–2 ekran içinde konumlandırın."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-fotograf-galeri-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux",
+
+      "name": "Otel Fotoğraf ve Galeri UX’i: Görsel Hikâyeyle Rezervasyon Tetiklemek",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux",
+
+      "headline": "Otel Fotoğraf ve Galeri UX’i: Görsel Hikâyeyle Rezervasyon Tetiklemek",
+
+      "name": "Otel Fotoğraf ve Galeri UX’i: Görsel Hikâyeyle Rezervasyon Tetiklemek",
+
+      "description": "Otel fotoğraf galerisi UX’iyle rezervasyonu tetikleyin: görsel öncelik sırası, kategori yapısı, mobil swipe/lightbox, 360 tur/video yerleşimi ve WebP/AVIF + hız (LCP) pratikleri.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Hotel Photo Gallery",
+
+        "Room Photos",
+
+        "Pool & Spa Imagery",
+
+        "360 Tour",
+
+        "Page Speed",
+
+        "Visual Storytelling"
+
+      ],
+
+      "keywords": [
+
+        "otel foto galeri tasarımı",
+
+        "hotel visual storytelling",
+
+        "360 sanal tur otel web",
+
+        "hotel photo gallery ux",
+
+        "visual storytelling for resorts"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Galeri UX’i", "item": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemde hangi fotoğraflar önde olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce oda ve konfor kanıtı (yatak, alan, banyo), ardından manzara ve tesis vaadi (havuz/deniz/aquapark) gelmelidir. Sonrasında restoran, spa ve detaylarla hikâyeyi tamamlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Fotoğraf galerisi nasıl kurgulanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kategoriler ve filtrelerle (Oda, Havuz/Deniz, Restoran, Spa, Genel Alanlar) kurgulayın ve varsayılan akışı oda ile başlatın. Mobilde swipe/lightbox kolay olmalı ve kullanıcı geri dönünce konumu kaybolmamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobilde otel fotoğraf galerisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Swipe akıcı, kapatma/geri erişilebilir olmalı ve konum korunmalıdır. Ağır script ve takılan animasyonlar mobil deneyimi bozup terk riskini artırabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "360 tur ve video nereye yerleştirilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "360 turu oda detayı veya galeri içinde '360' sekmesi gibi tek bir net noktaya koyun. Video’yu da galeri girişinde kısa teaser ya da oda detayında tek blok olarak kullanın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux/#howto",
+
+      "name": "Otel fotoğraf galerisi UX’i nasıl kurgulanır?",
+
+      "description": "Görsel öncelik sırası, kategori yapısı, mobil lightbox ve hız optimizasyonu ile rezervasyon isteğini güçlendiren yöntem.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "İlk 12 görseli seç ve sırala",
+
+          "text": "Önce oda ve konfor kanıtını, sonra tesis vaadini (havuz/deniz/aquapark) göster; restoran ve spa ile hikâyeyi tamamla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kategorileri ve mobil gezintiyi kur",
+
+          "text": "Galeriyi 5–7 kategoriyle sadeleştir; mobilde swipe + lightbox akışında konum koruma ve kolay geri dönüş sağla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hız ve SEO’yu güvene al",
+
+          "text": "WebP/AVIF kullan, hero/ilk görseli LCP hedefiyle optimize et; alt görsellerde lazy-load uygula ve alt metinleri doğal şekilde yaz."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

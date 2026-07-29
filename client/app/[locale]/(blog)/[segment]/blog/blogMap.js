@@ -603,7 +603,18 @@ export const BLOG_MAP = {
     "animasyonlu-logo-ve-intro-outro-pack-markalar-icin-giris-cikis-kiti":"BlogAnimasyonluLogoVeIntroOutroPackMarkalarIcinGirisCikisKiti",
     "design-ops-ve-figma-kutuphanesi-yonetimi-creative-ekipler-icin":"BlogDesignOpsVeFigmaKutuphanesiYonetimiCreativeEkiplerIcin",
     "sosyal-kanit-ve-testimonial-kart-tasarimi":"BlogSosyalKanitVeTestimonialKartTasarimi",
-    "instagram-story-ve-highlight-cover-tasarimi":"BlogInstagramStoryVeHighlightCoverTasarimi"
+    "instagram-story-ve-highlight-cover-tasarimi":"BlogInstagramStoryVeHighlightCoverTasarimi",
+
+    "cok-dilli-gorsel-ve-video-tasarimi-tr-en-de-ru-icin-calismak":"BlogCokDilliGorselVeVideoTasarimiTrEnDeRuIcinCalismak",
+    "export-ve-dosya-teslim-standartlari-format-olcek-ve-renk":"BlogExportVeDosyaTeslimStandartlariFormatOlcekVeRenk",
+    "tasarim-qa-ve-yayin-oncesi-kontrol-listesi":"BlogTasarimQaVeYayinOncesiKontrolListesi",
+    "yapay-zeka-destekli-tasarim-ve-insan-art-direction":"BlogYapayZekaDestekliTasarimVeInsanArtDirection",
+    "ar-filtreleri-ve-yuz-efektleri-otel-ve-b2b-kampanyalarinda":"BlogArFiltreleriVeYuzEfektleriOtelVeB2BKampanyalarinda",
+    "3d-ve-izometrik-tasarim-markalar-icin-yeni-nesil-gorsel-dil":"Blog3DVeIzometrikTasarimMarkalarIcinYeniNesilGorselDil",
+    "veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak":"BlogVeriyleBeslenenKreatifReklamPanelindenTasarimaIcgoruTasimak",
+    "ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi":"BlogUgcVeKreatorOrtakTasarimFrameworkuMarkaKreatorIsbirligi",
+    "otel-homepage-ux-ilk-izlenim-hero":"BlogOtelHomepageUxIlkIzlenimHero",
+    "otel-fotograf-galeri-ux":"BlogOtelFotografGaleriUx"
 
     
   },
