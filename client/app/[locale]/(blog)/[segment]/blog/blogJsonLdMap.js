@@ -100273,6 +100273,1803 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"erisilebilir-otel-ux-engelli-kullanici":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici",
+
+      "name": "Erişilebilirlik Odaklı Otel UX’i: Engelli Kullanıcılar için Web Deneyimi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici",
+
+      "headline": "Erişilebilirlik Odaklı Otel UX’i: Engelli Kullanıcılar için Web Deneyimi",
+
+      "name": "Erişilebilirlik Odaklı Otel UX’i: Engelli Kullanıcılar için Web Deneyimi",
+
+      "description": "Otel sitelerinde erişilebilirlik (WCAG) ilkelerini; kontrast, klavye navigasyonu, screen reader uyumu ve erişilebilir oda sunumu üzerinden pratik UX adımlarına dönüştüren rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Accessibility",
+
+        "WCAG",
+
+        "Screen Reader",
+
+        "Keyboard Navigation",
+
+        "Accessible Rooms",
+
+        "Hotel Website UX"
+
+      ],
+
+      "keywords": [
+
+        "erisilebilir otel web tasarımı",
+
+        "wcag otel rezervasyon formu",
+
+        "accessible hotel room booking ux",
+
+        "accessibility for hotel websites",
+
+        "inclusive reservation experience"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Erişilebilir Otel UX’i", "item": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemi engelli kullanıcılar için nasıl erişilebilir yaparım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "WCAG AA kontrastı hedefleyin, siteyi klavye ile tamamen gezilebilir yapın ve form alanlarında gerçek label + anlaşılır hata mesajları kullanın. Erişilebilir oda seçeneklerini filtre/etiketle net gösterin ve düzenli test rutini kurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rezervasyon formu erişilebilirliği nasıl sağlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her alanda label olmalı, hata mesajı alanla ilişkilendirilmeli ve odak (focus) kullanıcıyı doğru yere yönlendirmelidir. Screen reader için okuma sırası ve gerekliyse ARIA açıklamaları doğru kurgulanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Renk kontrastı UX’i nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Düşük kontrast metni ve CTA’yı okunmaz yapar; sadece görme engelli kullanıcılar için değil, mobilde güneş altında kullanımda da deneyimi bozar. WCAG AA hedefi okunabilirliği artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Erişilebilir oda seçenekleri nasıl gösterilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda listesinde filtre, oda kartında etiket/ikon ve oda detayında net açıklama birlikte kullanılmalıdır. Sadece ikon veya belirsiz bir satır metin, kullanıcı için yeterli olmaz."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Lighthouse erişilebilirlik skoru kaç olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pratik hedef olarak 90+ iyi bir standarttır; fakat en önemlisi, gerçek kullanıcı akışlarının (rezervasyon) klavye ve screen reader ile tamamlanabilmesidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/erisilebilir-otel-ux-engelli-kullanici/#howto",
+
+      "name": "Otel sitesinde erişilebilirlik nasıl sağlanır?",
+
+      "description": "WCAG AA kontrast, klavye gezilebilirliği ve screen reader uyumu ile erişilebilir oda sunumunu otel rezervasyon akışına uygulayan yöntem.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kontrast ve odak durumlarını düzelt",
+
+          "text": "WCAG AA hedefiyle kontrastı yükseltin ve tüm interaktif öğelerde görünür focus state kullanın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Klavye ve form erişilebilirliğini kur",
+
+          "text": "Menü/takvim/modal klavye ile çalışsın; form alanlarında label ve çözüm odaklı hata mesajları kullanın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Erişilebilir oda sunumunu netleştir ve test et",
+
+          "text": "Erişilebilir oda filtresi + etiket + açıklama üçlüsünü kurun; Lighthouse ve akış testleriyle düzenli doğrulayın."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-fiyat-oda-karsilastirma-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux",
+
+      "name": "Otel Fiyat ve Oda Karşılaştırma UX’i: Tablo, Kart ve Paket Yapıları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux",
+
+      "headline": "Otel Fiyat ve Oda Karşılaştırma UX’i: Tablo, Kart ve Paket Yapıları",
+
+      "name": "Otel Fiyat ve Oda Karşılaştırma UX’i: Tablo, Kart ve Paket Yapıları",
+
+      "description": "Otel fiyat ve oda karşılaştırma ekranlarını; tablo, kart ve paket bazlı sunumlarla dönüşüm odaklı tasarlama, iptal koşulları ve avantaj mesajlarını sadeleştirme rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Room Type",
+
+        "Rate Plan",
+
+        "Board Type",
+
+        "Price Comparison Table",
+
+        "Cancellation Policy",
+
+        "Best Seller Badge"
+
+      ],
+
+      "keywords": [
+
+        "otel fiyat karşılaştırma tablosu",
+
+        "room type vs rate plan ux",
+
+        "all inclusive paket sunum örnekleri",
+
+        "hotel room comparison ux",
+
+        "board type clarity in hotel booking"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Fiyat & Oda Karşılaştırma UX’i", "item": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemde oda ve fiyat karşılaştırmasını nasıl göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Seçenek çoksa tablo, azsa kart formatı kullanın. Her seçenek için oda tipi, board, toplam fiyat ve iptal özetini aynı konumda sabitleyin; ek ücretleri gizlemeyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tablo mu kart mı kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "6+ seçenek ve çok özellik varsa tablo daha net olur; 3–5 seçenek ve hızlı karar hedefi varsa kart daha iyi çalışır. Mobilde tablo için yatay scroll işareti ve sticky kolon önerilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İptal koşulları UX’te nasıl sunulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "1 satırlık özet ve gerektiğinde açılır detay ile sunulmalıdır. İptal metnini ödeme adımına bırakmak güvensizlik yaratabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "En çok tercih edilen oda rozeti dönüşümü artırır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru kriterle kullanılırsa karar hızını artırabilir. Her karta rozet koymak ise rozetin etkisini düşürür ve güveni zayıflatabilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-kullanici-yolculugu-haritalama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama",
+
+      "name": "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama",
+
+      "headline": "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi",
+
+      "name": "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi",
+
+      "description": "Otel ekiplerinin SEO, reklam, sosyal medya, OTA ve çağrı merkezi temaslarını tek bir kullanıcı yolculuğu haritasında birleştirerek UX ve içerik aksiyon planı çıkarmasını sağlayan workshop rehberi ve template seti.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Customer Journey Map",
+
+        "Persona",
+
+        "Touchpoint",
+
+        "Hotel Website",
+
+        "OTA",
+
+        "Call Center",
+
+        "PMS"
+
+      ],
+
+      "keywords": [
+
+        "otel customer journey map",
+
+        "misafir yolculuğu haritalama",
+
+        "otel ux workshop rehberi",
+
+        "omnichannel guest journey",
+
+        "tourism ux workshop"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Journey Map Workshop", "item": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitem için kullanıcı yolculuğunu nasıl haritalarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "2–3 persona seçin ve tek senaryoya bağlayın. SEO/Ads/Sosyal/OTA/Call Center temaslarını aynı çizgiye koyup web akışını adımlara bölün; her adım için duygu–ihtiyaç–engel ve aksiyon yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi temas noktaları journey map’e dahil edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "SEO, reklam, sosyal medya, OTA ve çağrı merkezi mutlaka dahil edilmelidir. Otelde karar kanallar arası verildiği için bu temaslar atlanırsa harita eksik kalır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UX workshop’u otel ekipleriyle nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Persona → touchpoint → journey adımları → engeller → aksiyon backlog sırasıyla ilerleyin. 6–8 kişilik bir ekiple zaman kutuları kullanın ve her aksiyona sahiplik atayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Journey map’ten nasıl aksiyon planı çıkarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her adımda engeli bir cümleyle yazıp bunun için tek bir çözüm aksiyonu üretin. Aksiyonları etki/efor ile önceliklendirin ve KPI tanımlayarak ölçülebilir hale getirin."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama/#howto",
+
+      "name": "Otel için kullanıcı yolculuğu haritası nasıl hazırlanır?",
+
+      "description": "Persona, touchpoint, duygu–ihtiyaç–engel ve aksiyon adımlarıyla 1 günde journey map workshop çıktısı üretme yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Persona ve senaryoyu seç",
+
+          "text": "2–3 persona belirleyin ve tek bir senaryoya bağlayın; karar kriterlerini netleştirin."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Touchpoint’leri aynı çizgiye koy",
+
+          "text": "SEO/Ads/Sosyal/OTA/Call Center/PMS temaslarını sırayla yazın ve her birinin vaat cümlesini çıkarın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Journey’yi çiz ve aksiyona çevir",
+
+          "text": "Web akışını adımlara bölün, her adım için duygu–ihtiyaç–engel yazın; her engel için aksiyon ve KPI belirleyip sahiplik atayın."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-design-system-ui-kit":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit",
+
+      "name": "Otel Web Projeleri İçin Design System & UI Kit Nasıl Kurulur?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit",
+
+      "headline": "Otel Web Projeleri İçin Design System & UI Kit Nasıl Kurulur?",
+
+      "name": "Otel Web Projeleri İçin Design System & UI Kit Nasıl Kurulur?",
+
+      "description": "Otel web projeleri için design system ve UI kit kurmanın temelleri: component kütüphanesi, design token’ları, çok dilli/cihaz yapıları ve Figma’dan Next.js’e handoff pratikleri.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Design System",
+
+        "UI Kit",
+
+        "Figma",
+
+        "Component Library",
+
+        "Design Tokens",
+
+        "Hotel Website UX",
+
+        "Next.js"
+
+      ],
+
+      "keywords": [
+
+        "otel design system figma",
+
+        "hotel ui kit components",
+
+        "design tokens turizm web",
+
+        "hotel design system",
+
+        "ui kit for tourism websites"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Design System & UI Kit", "item": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-design-system-ui-kit/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Design system nedir, otel web sitelerinde ne işe yarar?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Design system; prensipler, token’lar ve bileşen/pattern kurallarının bütünüdür. Otel sitesinde tutarlı ve hızlı tasarım üretmeyi sağlar, rezervasyon akışındaki tekrar eden UI parçalarını standardize ederek revizyon ve hata riskini azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UI kit otel projelerinde neden kritik?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda kartı, fiyat bloğu, iptal etiketi ve form bileşenleri her sayfada tekrar eder. UI kit bu parçaları component/variant olarak sabitleyip hız ve tutarlılık sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Figma’da otel için design system nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce token setini (renk/tipografi/spacing) tanımlayın, sonra çekirdek bileşenleri component/variant ve state setiyle kurun. Ardından otel özel bileşenleri ekleyip rezervasyon pattern sayfalarında doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Design system geliştirici ekip ile nasıl paylaşılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Component isimlendirme sözlüğü, token map ve state açıklamalarıyla birlikte teslim paketi olarak paylaşılmalıdır. Böylece Next.js tarafında aynı isim ve davranışla UI component kütüphanesi kurulabilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ux-writing-microcopy":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy",
+
+      "name": "Otel UX Writing ve Microcopy: Buton, Form ve Hata Mesajları",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy",
+
+      "headline": "Otel UX Writing ve Microcopy: Buton, Form ve Hata Mesajları",
+
+      "name": "Otel UX Writing ve Microcopy: Buton, Form ve Hata Mesajları",
+
+      "description": "Otel web sitelerinde CTA buton metinleri, form alanları ve hata mesajları için microcopy örnekleri vererek daha anlaşılır ve ikna edici bir rezervasyon deneyimi oluşturmayı sağlayan rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "UX Writing",
+
+        "Microcopy",
+
+        "Call To Action",
+
+        "Error Message",
+
+        "Hotel Website",
+
+        "Multilingual Content"
+
+      ],
+
+      "keywords": [
+
+        "otel ux writing örnekleri",
+
+        "hotel microcopy examples",
+
+        "cta metni otel rezervasyon",
+
+        "ux writing for hotel websites",
+
+        "microcopy for reservation forms"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel UX Writing & Microcopy", "item": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemde butonlarda ne yazmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kullanıcının ne yapacağını ve ne olacağını söyleyin: “Tarih Seç → Fiyat Gör”, “Uygunluk Kontrol Et”, “Rezervasyonu Tamamla”. “Devam” gibi belirsiz ifadeler karar hızını düşürebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rezervasyon formu hata mesajlarını nasıl yazmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Nazik ve çözüm odaklı yazın: ne yanlış + nasıl düzeltilir + örnek format. Suçlayıcı “Hatalı giriş!” yerine net örnek veren mesajlar kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İptal koşullarını kullanıcıya nasıl net anlatırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "1 satır özetle başlayın (“X tarihe kadar ücretsiz iptal”) ve gerekirse detay açılır alan verin. İptal metnini ödeme adımına bırakmak son anda güven kaybı yaratabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok dilli CTA metinlerini nasıl yönetirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "TR–EN–DE–RU için kısa/uzun CTA varyantları oluşturun ve aynı kavramı her dilde aynı yerde gösterin. Microcopy sözlüğüyle web ve kampanya kanallarında tutarlılığı koruyun."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ux-metrikleri-heatmap-ab-test":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test",
+
+      "name": "Otel UX Metrikleri: Heatmap, Scroll Map ve A/B Testleri Nasıl Kullanılır?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test",
+
+      "headline": "Otel UX Metrikleri: Heatmap, Scroll Map ve A/B Testleri Nasıl Kullanılır?",
+
+      "name": "Otel UX Metrikleri: Heatmap, Scroll Map ve A/B Testleri Nasıl Kullanılır?",
+
+      "description": "Otel sitelerinde heatmap, scroll map ve A/B testleri; GA4 event ve funnel verileriyle birlikte kullanıldığında hangi başlık, görsel, CTA veya form alanının çalıştığını veriyle gösterir ve pratik aksiyon üretir.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "UX Metrics",
+
+        "Heatmap",
+
+        "Scroll Map",
+
+        "A/B Testing",
+
+        "GA4",
+
+        "Looker Studio",
+
+        "Reservation Funnel"
+
+      ],
+
+      "keywords": [
+
+        "otel ux metrics",
+
+        "heatmap otel web sitesi",
+
+        "ab testi rezervasyon funnel",
+
+        "ux analytics for hotels",
+
+        "behaviour analysis with heatmaps"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel UX Metrikleri", "item": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-metrikleri-heatmap-ab-test/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel UX metrikleri nelerdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "CTA tıklama oranı, scroll derinliği, form tamamlama oranı ve rezervasyon funnel drop-off temel metriklerdir. Heatmap tıklama davranışını, GA4 funnel ise hangi adımda kayıp olduğunu gösterir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Heatmap ve scroll map otel sitelerinde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Heatmap ile kullanıcıların nereye tıkladığını, scroll map ile sayfada nereye kadar indiğini görürsünüz. Kritik CTA veya fiyat/iptal blokları görünmüyorsa yerleşim ve içerik sırasını düzenlemek gerekir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "A/B testleriyle rezervasyon dönüşümü nasıl artırılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir hipotez ve tek değişkenle test yapın: CTA metni/konumu, form alan sayısı, iptal özetinin görünürlüğü gibi. Sonucu funnel KPI’larıyla doğrulayın ve kazananı standartlaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "GA4’te UX funnel’ı nasıl kurulur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uygunluk/tarih seçimi, oda listesi, oda seçimi, form başlangıcı, ödeme başlangıcı ve rezervasyon adımlarını event olarak tanımlayın. Event isimlerini tutarlı tutup cihaz kırılımında takip edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+"multi-otel-grup-web-ia-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux",
+
+      "name": "Zincir ve Grup Oteller İçin Bilgi Mimarisi ve UX: Multi-Property Web Tasarımı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux",
+
+      "headline": "Zincir ve Grup Oteller İçin Bilgi Mimarisi ve UX: Multi-Property Web Tasarımı",
+
+      "name": "Zincir ve Grup Oteller İçin Bilgi Mimarisi ve UX: Multi-Property Web Tasarımı",
+
+      "description": "Zincir ve grup oteller için marka sitesi ile otel sayfaları arasındaki rol dağılımı, lokasyon/segment filtreleme bileşenleri ve tek rezervasyon funnel’ında otel seçimini tasarlama rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Information Architecture",
+
+        "Multi-Property Website",
+
+        "Hotel Chain",
+
+        "Filter Component",
+
+        "Search UX",
+
+        "Reservation Funnel"
+
+      ],
+
+      "keywords": [
+
+        "zincir otel web tasarımı",
+
+        "multi property hotel ia ux",
+
+        "otel grup sitesi bilgi mimarisi",
+
+        "hotel chain website ux",
+
+        "group hotel search and filter"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Multi-Property Web Tasarımı", "item": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/multi-otel-grup-web-ia-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Zincir oteller için web bilgi mimarisi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Marka→destinasyon→otel hiyerarşisi net kurulmalı; destinasyon listeleme sayfalarında filtre/arama olmalı ve otel seçimi rezervasyon funnel’ına doğru bağlanmalıdır. Breadcrumb ve başlık yapısı kullanıcıya konumunu net göstermelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Marka ve otel siteleri nasıl ayrılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Marka sitesi destinasyon seçimi ve marka hikâyesi taşır; otel sayfası detay, oda/paket ve rezervasyonu yönetir. Bu rol ayrımı kullanıcıyı kararsızlığa değil seçime yönlendirir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Multi-property otel listesinde filtreleme nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Lokasyon ve segment bazlı 6–8 çekirdek filtreyle başlanmalı; harita + liste birlikte sunulabilir. Filtreler seçenek artırmak için değil doğru oteli hızla buldurmak için tasarlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tek rezervasyon funnel’ında birden fazla otel nasıl gösterilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel seçim adımı net bir karar ekranı olmalıdır: lokasyon, segment, kısa değer önerisi, sosyal kanıt ve CTA. Availability-first (tarih→uygun oteller→otel seç) yaklaşımı çoğu grupta daha verimlidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

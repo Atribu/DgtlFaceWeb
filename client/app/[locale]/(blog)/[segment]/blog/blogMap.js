@@ -614,8 +614,14 @@ export const BLOG_MAP = {
     "veriyle-beslenen-kreatif-reklam-panelinden-tasarima-icgoru-tasimak":"BlogVeriyleBeslenenKreatifReklamPanelindenTasarimaIcgoruTasimak",
     "ugc-ve-kreator-ortak-tasarim-frameworku-marka-kreator-isbirligi":"BlogUgcVeKreatorOrtakTasarimFrameworkuMarkaKreatorIsbirligi",
     "otel-homepage-ux-ilk-izlenim-hero":"BlogOtelHomepageUxIlkIzlenimHero",
-    "otel-fotograf-galeri-ux":"BlogOtelFotografGaleriUx"
-
+    "otel-fotograf-galeri-ux":"BlogOtelFotografGaleriUx",
+    "erisilebilir-otel-ux-engelli-kullanici":"BlogErisilebilirOtelUxEngelliKullanici",
+    "otel-fiyat-oda-karsilastirma-ux":"BlogOtelFiyatOdaKarsilastirmaUx",
+    "otel-kullanici-yolculugu-haritalama":"BlogOtelKullaniciYolculuguHaritalama",
+    "otel-design-system-ui-kit":"BlogOtelDesignSystemUiKit",
+    "otel-ux-writing-microcopy":"BlogOtelUxWritingMicrocopy",
+    "otel-ux-metrikleri-heatmap-ab-test":"BlogOtelUxMetrikleriHeatmapAbTest",
+    "multi-otel-grup-web-ia-ux":"BlogMultiOtelGrupWebIaUx"
     
   },
 

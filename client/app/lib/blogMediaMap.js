@@ -49525,6 +49525,357 @@ export const BLOG_MEDIA_MAP = {
       alt: "Galeri UX analizi çıktıları ve önerilen yapı kanıt kartı",
       caption: "Galeri UX analizi çıktıları ve önerilen yapı kanıt kartı"
     }
+  },
+
+
+   "erisilebilir-otel-ux-engelli-kullanici":{
+    banner: {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-1.webp",
+      alt: "Erişilebilirlik Odaklı Otel UX’i: Engelli Kullanıcılar için Web Deneyimi",
+      caption: "Erişilebilirlik Odaklı Otel UX’i: Engelli Kullanıcılar için Web Deneyimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-2.webp",
+      alt: "Engelli kullanıcılar için rezervasyon akışını anlatan bağlam görseli",
+      caption: "Engelli kullanıcılar için rezervasyon akışını anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-3.webp",
+    alt: "Erişilebilirliğin otel UX’inde rolünü anlatan bölüm ayırıcı görsel",
+      caption: "Erişilebilirliğin otel UX’inde rolünü anlatan bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-4.webp",
+      alt: "WCAG ilkeleri ve uygulamaya geçiş bölüm ayırıcı görsel",
+      caption: "WCAG ilkeleri ve uygulamaya geçiş bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-5.webp",
+      alt: "Klavye ile otel rezervasyon akışını gösteren erişilebilirlik diyagramı",
+      caption: "Klavye ile otel rezervasyon akışını gösteren erişilebilirlik diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-6.webp",
+      alt: "WCAG AA odaklı otel erişilebilirlik checklist kartı",
+      caption: "WCAG AA odaklı otel erişilebilirlik checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-7.webp",
+      alt: "Lighthouse erişilebilirlik ve form tamamlama KPI özet kartı",
+      caption: "Lighthouse erişilebilirlik ve form tamamlama KPI özet kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-8/Creative2-8-8.webp",
+      alt: "Erişilebilirlik audit deliverables ve iyileştirme planı kanıt kartı",
+      caption: "Erişilebilirlik audit deliverables ve iyileştirme planı kanıt kartı"
+    }
+  },
+
+   "otel-fiyat-oda-karsilastirma-ux":{
+    banner: {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-1.webp",
+      alt: "Otel Fiyat ve Oda Karşılaştırma UX’i: Tablo, Kart ve Paket Yapıları",
+      caption: "Otel Fiyat ve Oda Karşılaştırma UX’i: Tablo, Kart ve Paket Yapıları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-2.webp",
+      alt: "Oda tipi, board ve iptal bilgisini tek bakışta gösteren bağlam görseli",
+      caption: "Oda tipi, board ve iptal bilgisini tek bakışta gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-3.webp",
+    alt: "Karşılaştırmanın rolü ve karar hızını anlatan ayırıcı görsel",
+      caption: "Karşılaştırmanın rolü ve karar hızını anlatan ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-4.webp",
+      alt: "Tablo bazlı karşılaştırma UX bölüm geçiş ayırıcı görsel",
+      caption: "Tablo bazlı karşılaştırma UX bölüm geçiş ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-5.webp",
+      alt: "Tablo-kart-paket karar ağacı ve mobil yatay scroll diyagramı",
+      caption: "Tablo-kart-paket karar ağacı ve mobil yatay scroll diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-6.webp",
+      alt: "Oda ve paket karşılaştırma UX checklist kartı otel bağlamı",
+      caption: "Oda ve paket karşılaştırma UX checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-7.webp",
+      alt: "Paket seçimi ve rezervasyon geçiş KPI skor kartı otel bağlamı",
+      caption: "Paket seçimi ve rezervasyon geçiş KPI skor kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-9/Creative2-9-8.webp",
+      alt: "Oda-paket karşılaştırma UI şablonları kanıt kartı otel bağlamı",
+      caption: "Oda-paket karşılaştırma UI şablonları kanıt kartı otel bağlamı"
+    }
+  },
+  
+  "otel-kullanici-yolculugu-haritalama":{
+    banner: {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-1.webp",
+      alt: "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi",
+      caption: "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-2.webp",
+      alt: "SEO’dan rezervasyona ve post-stay’e uzanan omnichannel journey görseli",
+      caption: "SEO’dan rezervasyona ve post-stay’e uzanan omnichannel journey görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-3.webp",
+    alt: "Persona ve senaryo oluşturma bölüm ayırıcı görseli",
+      caption: "Persona ve senaryo oluşturma bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-4.webp",
+      alt: "Web yolculuğu haritalama bölüm ayırıcı görseli",
+      caption: "Web yolculuğu haritalama bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-5.webp",
+      alt: "Customer journey map şeması ve touchpoint akış diyagramı",
+      caption: "Customer journey map şeması ve touchpoint akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-6.webp",
+      alt: "1 günde journey map workshop checklist kartı",
+      caption: "1 günde journey map workshop checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-7.webp",
+      alt: "Journey map sonrası KPI ve aksiyon takibi skor kartı",
+      caption: "Journey map sonrası KPI ve aksiyon takibi skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-10/Creative2-10-8.webp",
+      alt: "Workshop deliverables kanıt kartı: persona, journey, backlog",
+      caption: "Workshop deliverables kanıt kartı: persona, journey, backlog"
+    }
+  },
+
+  "otel-design-system-ui-kit":{
+     banner: {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-1.webp",
+      alt: "Otel Web Projeleri İçin Design System & UI Kit Nasıl Kurulur?",
+      caption: "Otel Web Projeleri İçin Design System & UI Kit Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-2.webp",
+      alt: "Rezervasyon akışında kullanılan UI kit bileşenlerini gösteren bağlam görseli",
+      caption: "Rezervasyon akışında kullanılan UI kit bileşenlerini gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-3.webp",
+    alt: "UI kit ve bileşen kütüphanesi bölüm ayırıcı görseli",
+      caption: "UI kit ve bileşen kütüphanesi bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-4.webp",
+      alt: "Çok dilli ve çok cihazlı tasarım sistemi bölüm ayırıcı görseli",
+      caption: "Çok dilli ve çok cihazlı tasarım sistemi bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-5.webp",
+      alt: "Component library diyagramı ve rezervasyon bileşen şeması",
+      caption: "Component library diyagramı ve rezervasyon bileşen şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-6.webp",
+      alt: "Otel design system kurulum checklist kartı",
+      caption: "Otel design system kurulum checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-7.webp",
+      alt: "Revizyon süresi ve tutarlılık KPI skor kartı",
+      caption: "Revizyon süresi ve tutarlılık KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-11/Creative2-11-8.webp",
+      alt: "Design system deliverables kanıt kartı: token, component, pattern",
+      caption: "Design system deliverables kanıt kartı: token, component, pattern"
+    }
+  },
+
+  "otel-ux-writing-microcopy":{
+    banner: {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-1.webp",
+      alt: "Otel UX Writing ve Microcopy: Buton, Form ve Hata Mesajları",
+      caption: "Otel UX Writing ve Microcopy: Buton, Form ve Hata Mesajları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-2.webp",
+      alt: "Rezervasyon akışında microcopy temas noktalarını gösteren bağlam görseli",
+      caption: "Rezervasyon akışında microcopy temas noktalarını gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-3.webp",
+    alt: "CTA microcopy bölüm geçiş ayırıcı görseli",
+      caption: "CTA microcopy bölüm geçiş ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-4.webp",
+      alt: "Form ve hata mesajları bölüm geçiş ayırıcı görseli",
+      caption: "Form ve hata mesajları bölüm geçiş ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-5.webp",
+      alt: "CTA ve microcopy’nin funnel aşamalarına göre yerleşim şeması",
+      caption: "CTA ve microcopy’nin funnel aşamalarına göre yerleşim şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-6.webp",
+      alt: "Otel microcopy checklist kartı: CTA, form ve hata mesajları",
+      caption: "Otel microcopy checklist kartı: CTA, form ve hata mesajları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-7.webp",
+      alt: "CTA tıklaması ve form tamamlama KPI skor kartı",
+      caption: "CTA tıklaması ve form tamamlama KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-12/Creative2-12-8.webp",
+      alt: "Microcopy audit deliverables ve örnek set kanıt kartı",
+      caption: "Microcopy audit deliverables ve örnek set kanıt kartı"
+    }
+  },
+
+  "otel-ux-metrikleri-heatmap-ab-test":{
+    banner: {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-1.webp",
+      alt: "Otel UX Metrikleri: Heatmap, Scroll Map ve A/B Testleri Nasıl Kullanılır?",
+      caption: "Otel UX Metrikleri: Heatmap, Scroll Map ve A/B Testleri Nasıl Kullanılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-2.webp",
+      alt: "GA4 funnel→A/B test veri→aksiyon döngüsü bağlam görseli",
+      caption: "GA4 funnel→A/B test veri→aksiyon döngüsü bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-3.webp",
+    alt: "Heatmap ve scroll map analiz bölüm geçiş görsel",
+      caption: "Heatmap ve scroll map analiz bölüm geçiş görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-4.webp",
+      alt: "GA4 ve dashboard bölüm geçiş görseli",
+      caption: "GA4 ve dashboard bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-5.webp",
+      alt: "Funnel diyagramı ve A/B test noktaları şeması",
+      caption: "Funnel diyagramı ve A/B test noktaları şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-6.webp",
+      alt: "UX metrikleri ve A/B test planı checklist kartı",
+      caption: "UX metrikleri ve A/B test planı checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-7.webp",
+      alt: "UX KPI ve test sonuçları skor kartı",
+      caption: "UX KPI ve test sonuçları skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-13/Creative2-13-8.webp",
+      alt: "UX dashboard ve test deliverables kanıt kartı",
+      caption: "UX dashboard ve test deliverables kanıt kartı"
+    }
+  },
+
+  "multi-otel-grup-web-ia-ux":{
+     banner: {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-1.webp",
+      alt: "Zincir ve Grup Oteller İçin Bilgi Mimarisi ve UX: Multi-Property Web Tasarımı",
+      caption: "Zincir ve Grup Oteller İçin Bilgi Mimarisi ve UX: Multi-Property Web Tasarımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-2.webp",
+      alt: "Otel seçimini tek rezervasyon funnel’ına bağlayan kullanıcı yolculuğu bağlam görseli",
+      caption: "Otel seçimini tek rezervasyon funnel’ına bağlayan kullanıcı yolculuğu bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-3.webp",
+    alt: "Marka ve otel sitesi rol dağılımı bölüm ayırıcı görseli",
+      caption: "Marka ve otel sitesi rol dağılımı bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-4.webp",
+      alt: "Filtreleme ve arama bileşenleri bölüm ayırıcı görseli",
+      caption: "Filtreleme ve arama bileşenleri bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-5.webp",
+      alt: "Site haritası IA diyagramı: marka-destinasyon-otel-funnel şeması",
+      caption: "Site haritası IA diyagramı: marka-destinasyon-otel-funnel şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-6.webp",
+      alt: "Multi-property IA & UX pattern checklist kartı",
+      caption: "Multi-property IA & UX pattern checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-7.webp",
+      alt: "Otel seçimi ve listeleme KPI skor kartı",
+      caption: "Otel seçimi ve listeleme KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-14/Creative2-14-8.webp",
+      alt: "Zincir otel IA şablonu ve funnel tasarımı deliverables kartı",
+      caption: "Zincir otel IA şablonu ve funnel tasarımı deliverables kartı"
+    }
   }
   
 };
