@@ -30812,7 +30812,7 @@
       },
       {
         "id": "hemen-uygulanabilir-10-erisilebilirlik-adimi",
-        "title": "Hemen uygulayabileceğiniz 10 erişilebilirlik adımı (SXO)",
+        "title": "Hemen uygulayabileceğiniz 10 erişilebilirlik adımı ",
         "blocks": [
           {
             "type": "list",
@@ -34938,6 +34938,3292 @@
         ]
       }
     }
+  },
+
+  "BlogKvkkCerezBannerOtelUx": {
+  "title": "KVKK Çerez Banner UX’i: Otellerde Güven ve Uyum",
+  "slug": "kvkk-cerez-banner-otel-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "5 Ağustos 2026",
+  "publishedAt": "2026-08-05",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel sitelerinde KVKK ve çerez banner UX’i: net metinler, “Tümünü Kabul Et / Tercihleri Yönet” butonları, tercih paneli, loglama ve okunur gizlilik sayfalarıyla güven–uyum dengesi.",
+  "seo": {
+    "metaTitle": "KVKK Çerez Banner UX’i: Otellerde Güven ve Uyum | DGTLFACE",
+    "metaDescription": "Otel sitelerinde KVKK ve çerez banner UX’i: net metinler, “Tümünü Kabul Et / Tercihleri Yönet” butonları, tercih paneli, loglama ve okunur gizlilik sayfalarıyla güven–uyum dengesi."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa (Hub) / URL: UI & UX Tasarımı — /tr/creative/ui-ux-tasarim",
+      "Blog No: 15",
+      "Blog / URL: /tr/creative/blog/kvkk-cerez-banner-otel-ux",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/kvkk-cerez-banner-otel-ux"
+    ],
+    "strategySummary": "Bu yazı, otel web sitelerinde “güven ve uyum” temasını UX perspektifiyle ele alan ana referans içeriktir: KVKK, Cookie Banner ve Consent Management tasarımını rezervasyon funnel’ını bozmadan, kullanıcıyı korkutmadan şeffaflık sağlayacak şekilde kurgular. Hedef persona; otel sahibi/GM, pazarlama/satış yöneticisi, ajans yöneticisi ve teknik tarafta web/analitik ekipleridir. Funnel aşaması consideration: yanlış ya da agresif (dark pattern) banner’lar güveni zedeleyebilir; şeffaf ve kullanıcı dostu tasarımın güveni artırıp terk oranlarını yönlü olarak düşürdüğü sektör genelinde sık gözlemlenir. Ana iş sorusu: “KVKK uyumlu bir çerez banner’ını nasıl tasarlarım, tercih panelini nasıl kurgularım ve yasal uyum–dönüşüm dengesini nasıl korurum?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-05",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Otel web sitelerinde KVKK ve çerez banner’ı UX’i, hem yasal uyumu sağlamak hem de misafire verisinin nasıl işlendiğini açıkça anlatmak için kritik bir temas noktasıdır. Aşırı agresif veya karanlık desenlerle (dark pattern) kullanıcıyı zorlamak yerine; net metinler, anlaşılır butonlar ve tercihler üzerinde kontrol veren bir panel tasarımı, hem güveni hem de uzun vadeli marka algısını güçlendirir. Bu rehber, banner ve tercih panelini otel rezervasyon akışını bozmadan kurgular.",
+    "sgeSummary": "KVKK uyumlu cookie banner; kısa ve şeffaf metin, eşit erişilebilir butonlar, tercih paneliyle kontrol, erişilebilir yapı ve loglama/raporlama ile tamamlanır.",
+    "voiceAnswer": "Kısa ve şeffaf anlatın, “kabul et” ve “tercihleri yönet” seçeneklerini eşit sunun; kontrol kullanıcıda olsun.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, pazarlama, ajans, web/analitik/teknik ekip",
+      "KPI’lar: Banner etkileşimi, terk oranı, rezervasyon başlangıcı, consent oranı, tercih paneli kullanım",
+      "Entity: KVKK, Cookie Banner, Consent Management, Privacy Policy, Data Protection, Hotel Website UX",
+      "Geo: Türkiye/Antalya otel senaryoları + Avrupa pazarı (DE/EU) beklentisine kısa atıf",
+      "Funnel: Awareness/Trust → Consideration → Conversion",
+      "Risk: Dark pattern = güven kaybı + şikâyet/risk",
+      "Çözüm: Şeffaf metin + erişilebilir panel + loglama + okunur privacy sayfaları"
+    ]
+  },
+  "h1": {
+    "title": "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum",
+    "intro": "Çerez banner’ı, otel web sitesinde misafirin gördüğü ilk “güven” sinyallerinden biridir. Kullanıcı daha odayı görmeden, “verim ne oluyor?” sorusunun cevabını arar. Eğer banner agresif, kapatması zor veya belirsizse; kullanıcı kendini baskı altında hissedebilir ve siteyi terk edebilir. Eğer banner sade, şeffaf ve kontrol kullanıcıdaysa; güven artar ve rezervasyon yolculuğu daha akıcı ilerler.",
+    "quickSummary": [
+      "“KVKK için çerez uyarısı nasıl koyarım?”",
+      "“Misafiri korkutmadan nasıl şeffaf olurum?”",
+      "Kısa cevap: Minimum gerekli bilgiyi kısa metinle anlatın, “Tümünü Kabul Et” ile “Tercihleri Yönet” seçeneklerini eşit sunun, tercih panelini anlaşılır kategorilerle kurgulayın ve gizlilik sayfalarını okunur hale getirin."
+    ],
+    "ctaPrimary": {
+      "label": "KVKK & Çerez UX Audit’i Talep Et",
+      "text": "Çerez banner’ı, tercih paneli ve KVKK/gizlilik sayfalarınızı kullanıcıyı kaçırmadan uyumlu hale getirmek için audit alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "KVKK & Çerez UX Audit’i Talep Et",
+      "text": "Çerez banner’ı ve tercih panelinizi kullanıcı dostu ve uyumlu hale getirip rezervasyon akışını bölmeden güveni artırın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "KVKK Uyumlu Çerez Banner Metin & Tasarım Şablonunu İndir",
+      "text": "Kopyalanabilir banner metinleri ve panel şablonuyla KVKK uyumlu bir consent deneyimini hızlıca kurmanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#kvkk-cookie-template"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı hizmet sayfası",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "title": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    }
+  ],
+  "sections": [
+    {
+      "id": "neden-kvkk-cerez-ux-otellerde-kritik",
+      "title": "Neden KVKK ve çerez UX’i otellerde kritik?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otellerde veri işleme çoğu zaman çok kanallıdır: web analitiği, reklam ölçümü, CRM, çağrı merkezi kayıtları, rezervasyon motoru… Bu yüzden çerez ve KVKK metinleri sadece “hukuki doküman” değil; misafirin zihninde güven yaratan bir deneyim katmanıdır. Özellikle Avrupa pazarı (DE/EU) hedefleyen otellerde, şeffaflık beklentisi yüksektir; kullanıcı “kontrol bende mi?” diye bakar."
+        },
+        {
+          "type": "h3",
+          "text": "Otel özelinde 3 kritik risk"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Banner’ın “kapatılamaz” olması → güven kırılması",
+            "Tercih panelinde belirsiz kategoriler → kullanıcı kontrolü hissi kaybı",
+            "Gizlilik sayfası okunmaz → “saklıyorlar” algısı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check",
+          "items": [
+            "Banner kapatılabilir ve anlaşılır mı?",
+            "Tercihler üzerinde gerçek kontrol var mı?",
+            "Gizlilik/KVKK sayfaları okunur mu?",
+            "Rezervasyon akışı banner yüzünden bölünüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Çerez banner’ını “güven bileşeni” olarak tasarlayın; agresiflikten kaçının.",
+            "Tercih panelini sade kategorilerle kurun; açıklamaları kısa tutun.",
+            "KVKK uyum sürecini teknik uygulamayla bağlayın: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-web-sitelerinde-cerez-banner-ux",
+      "title": "Otel web sitelerinde çerez banner’ı UX’i nasıl olmalı?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "AEO checklist"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Banner metni kısa olmalı: “Neyi neden kullanıyoruz?” tek paragrafta.",
+            "Minimum bilgiler net: amaç, kategori özetleri, politika linki, tercih paneli linki.",
+            "Butonlar eşit erişilebilir olmalı: “Tümünü Kabul Et” ve “Tercihleri Yönet” aynı görünürlükte.",
+            "Karanlık desen (dark pattern) yok: saklı reddet, zor kapatma, yanıltıcı renkler kullanılmamalı.",
+            "Banner erişilebilir olmalı: klavye ile ulaşılabilir, screen reader uyumlu, odak (focus) yönetimi düzgün.",
+            "Banner performansı bozmamalı: ağır script, CLS/INP sorunu yaratmamalı.",
+            "Tercih değişikliği kolay olmalı: footer’da “Çerez Tercihleri” linki."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check ",
+          "items": [
+            "“Tercihleri Yönet” görünür mü?",
+            "Kategoriler anlaşılır mı?",
+            "Banner klavye ile kapanabiliyor mu?",
+            "Rezervasyon ekranında banner davranışı kontrollü mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Banner metnini 2–3 cümleye indirin; uzun paragrafı policy sayfasına taşıyın.",
+            "“Kabul” ve “Tercihleri Yönet” seçeneklerini aynı seviyeye alın.",
+            "Footer’a kalıcı “Çerez Tercihleri” linki ekleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cerez-banner-tasarimi-metin-buton-yerlesim",
+      "title": "Çerez banner’ı tasarımı: metin, buton ve yerleşim",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Banner tasarımında üç karar belirleyicidir: metin (ne söylüyor?), buton (ne yaptırıyor?) ve yerleşim (kullanıcıyı nasıl bölüyor?)."
+        },
+        {
+          "type": "h3",
+          "text": "Minimum hangi bilgiler yer almalı?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çerez kullanım amacı (ölçüm, kişiselleştirme vb.)",
+            "Kategori özeti (zorunlu/analitik/pazarlama)",
+            "Tercihleri yönet linki",
+            "Gizlilik/çerez politikası linki"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Buton microcopy örnekleri (otel diliyle)"
+        },
+        {
+          "type": "p",
+          "text": "Önerilen butonlar (TR):"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Primary: “Tümünü Kabul Et”",
+            "Secondary: “Tercihleri Yönet”",
+            "(Opsiyonel) “Sadece Zorunlu” / “Reddet” (uygulama gereksinimine göre)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "example",
+          "title": "Mini metin örneği (kopyalanabilir)",
+          "items": [
+            "“Web sitemizi geliştirmek ve rezervasyon deneyimini iyileştirmek için çerezler kullanıyoruz. Tercihlerinizi ‘Tercihleri Yönet’ten belirleyebilirsiniz.”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yerleşim (alt bar vs modal)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Alt bar: daha az müdahaleci, genelde daha iyi UX",
+            "Modal: daha görünür ama daha müdahaleci; dikkatli kullanılmalı"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Otel rezervasyon akışında, özellikle mobilde modal kullanıcıyı sıkıştırabilir."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Metin/Buton)",
+          "items": [
+            "Metin “korkutucu” mu, yoksa sakin/şeffaf mı?",
+            "Butonlar anlaşılır ve eşit mi?",
+            "Yerleşim mobilde ekranı kaplıyor mu?",
+            "Banner kapanınca kullanıcı kaldığı yerden devam ediyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Alt bar yaklaşımıyla başlayın; modalı istisna yapın.",
+            "Buton metinlerini eylem+anlamlı hale getirin (kısa ve net).",
+            "Banner kapanınca akışın bozulmadığını test edin (özellikle form/ödeme)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kvkk-gizlilik-sayfalari-okunabilirlik",
+      "title": "KVKK & gizlilik sayfalarına UX perspektifinden yaklaşım (okunabilirlik)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Birçok KVKK/gizlilik sayfası “hukuk metni” gibi görünür ve kullanıcı için okunmazdır. UX yaklaşımı, metni sadeleştirip yapılandırmaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Başlıklarla böl (ne topluyoruz, neden, kimlerle paylaşıyoruz, haklarınız)",
+            "Kısa özet kutusu ekle (2–3 madde)",
+            "Uzun detayları accordion ile ver (performansı bozmayacak şekilde)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Okunabilirlik için 5 pratik"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "1 sayfada “özet” + “detay” yaklaşımı",
+            "Kısa cümleler, sade Türkçe",
+            "Madde listeleri (5–7 maddeyi geçme)",
+            "Linkler: iletişim, tercih yönetimi",
+            "Güncelleme tarihi ve sorumlu iletişim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (KVKK sayfası)",
+          "items": [
+            "Başlık hiyerarşisi var mı?",
+            "“Özet” kutusu var mı?",
+            "Kullanıcı hakları anlaşılır mı?",
+            "Tercih değiştirme linki veriliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "KVKK/gizlilik sayfasını “okunur” hale getirin; tek duvar metin bırakmayın.",
+            "Tercih paneline geri dönüş linki ekleyin.",
+            "Bu sayfaları performansı bozmayacak şekilde tasarlayın (ağır görsel yok)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "izin-yonetimi-tercih-paneli-loglama",
+      "title": "İzin yönetimi, tercih paneli ve loglama deneyimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Consent Management, UX ve teknik/hukuki gereksinimin kesişimidir. Panelin iyi UX olması, loglamanın doğru yapılmasıyla birlikte anlam kazanır."
+        },
+        {
+          "type": "h3",
+          "text": "Tercih paneli (kategori bazlı)"
+        },
+        {
+          "type": "p",
+          "text": "Önerilen kategori yapısı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Zorunlu (site çalışması)",
+            "Analitik (performans ölçümü)",
+            "Pazarlama (reklam/remarketing)",
+            "Tercihler (dil/kişiselleştirme)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Her kategoride:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Ne işe yarar?” 1 cümle",
+            "Örnek çerez/sağlayıcı (çok uzatmadan)",
+            "Aç/kapat kontrolü (zorunlu hariç)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Loglama ve geri değişiklik"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kullanıcı tercihini değiştirince kayıt altına alınmalı (uyum)",
+            "Footer’da “Çerez Tercihleri” linkiyle tekrar ulaşılabilir olmalı",
+            "Kullanıcıya “tercihleriniz kaydedildi” feedback’i verilmeli"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "İç link (uyum hizmeti): https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+        },
+        {
+          "type": "p",
+          "text": "İç link (raporlama/güvenlik): Varsayım: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Panel/Log)",
+          "items": [
+            "Kategori açıklamaları 1 cümle mi?",
+            "Zorunlu dışı çerezler kapatılabiliyor mu?",
+            "“Tercihler kaydedildi” geri bildirimi var mı?",
+            "Footer’da tercih linki kalıcı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Paneli kategori bazlı ve kısa açıklamalı kurgulayın.",
+            "Tercih değişimini kolaylaştırın (kullanıcıyı cezalandırmayın).",
+            "Loglama ve raporlama akışını teknik ekiple doğrulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kvkk-cookie-template",
+      "title": "KVKK Uyumlu Çerez Banner Metin & Tasarım Şablonunu İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "KVKK Uyumlu Çerez Banner Metin & Tasarım Şablonunu İndir — Cookie UX (v1.0)",
+          "purpose": "Bu şablon, otel web sitelerinde KVKK uyumlu cookie banner metinlerini, buton microcopy’sini ve kategori bazlı tercih paneli yapısını hızlıca kurmanız için hazırlanmıştır. Amaç, kullanıcıyı korkutmadan şeffaf olmak, dark pattern’den kaçınmak ve tercih değişikliğini kolaylaştırmaktır. Erişilebilirlik (klavye/screen reader) ve performans (CLS/INP) notları da dahil edilmiştir.",
+          "whoFor": "Otel pazarlama + web/UX + hukuk/uyum + analitik ekipleri.",
+          "steps": [
+            "Banner metnini ve buton setini seçin; marka tonunuza uyarlayın.",
+            "Tercih panelinde kategorileri (zorunlu/analitik/pazarlama/tercih) doldurun.",
+            "Footer “Çerez Tercihleri” linki, loglama ve erişilebilirlik kontrolleriyle yayına alın."
+          ],
+          "checklist": [
+            "Dark pattern yok",
+            "Eşit buton hiyerarşisi",
+            "Kategori bazlı panel",
+            "Footer tercih linki",
+            "Klavye ile kullanım + screen reader uyumu",
+            "CLS/INP etkisi kontrol edildi"
+          ],
+          "href": "/downloads/kvkk-uyumlu-cerez-banner-metin-tasarim-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    },
+    {
+      "id": "guven-donusum-yasal-uyum-dengesi",
+      "title": "Güven, dönüşüm ve yasal uyum dengesi (dark pattern’den kaçınma)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kısa vadede “kabul oranı” artırmak için kullanıcıyı zorlayan tasarımlar (dark pattern) uzun vadede güveni eritir. Otelde güven, direkt rezervasyon için temel kaldıraçtır. Şeffaf ve kullanıcı dostu banner’ların, agresif ve kapatması zor tasarımlara göre güveni artırdığı ve terk oranlarını yönlü olarak düşürdüğü sık gözlemlenir."
+        },
+        {
+          "type": "h3",
+          "text": "Yapılması gerekenler / kaçınılması gerekenler"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Yapılması gerekenler / kaçınılması gerekenler",
+          "headers": [
+            "Yapılması gereken",
+            "Kaçınılması gereken"
+          ],
+          "rows": [
+            [
+              "Kısa, sade Türkçe",
+              "Uzun ve belirsiz metin"
+            ],
+            [
+              "Eşit buton hiyerarşisi",
+              "Tercihleri gizlemek"
+            ],
+            [
+              "Kategori bazlı panel",
+              "Her şeyi tek ekrana yığmak"
+            ],
+            [
+              "Erişilebilir yapı",
+              "Klavye/screen reader’ı kırmak"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Denge)",
+          "items": [
+            "Kullanıcı gerçekten seçim yapabiliyor mu?",
+            "Metin güven veriyor mu?",
+            "Panel erişilebilir mi?",
+            "Banner performansı bozuyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Güven” KPI’ını sahiplenin: banner sadece legal değil, marka temas noktasıdır.",
+            "Dark pattern’leri kaldırın; uzun vadeli güveni koruyun.",
+            "Teknik notlarla sayfa hızını koruyun (CLS/INP bozulmasın)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hemen-uygulanabilecek-cerez-ux-adimlari",
+      "title": "Hemen uygulayabileceğiniz 10 çerez UX adımı",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Banner metnini 2–3 cümleye indir.",
+            "“Tümünü Kabul Et” + “Tercihleri Yönet”i eşit sun.",
+            "Kategorileri 4 başlıkla sınırla (zorunlu/analitik/pazarlama/tercih).",
+            "Kategori açıklamasını 1 cümle yaz.",
+            "Footer’a “Çerez Tercihleri” linki ekle.",
+            "Tercih kaydı için “kaydedildi” feedback’i ver.",
+            "Modal yerine alt bar’ı tercih et (varsayılan).",
+            "Banner ve paneli klavye ile test et.",
+            "Screen reader için odak yönetimini doğrula.",
+            "KVKK/gizlilik sayfasını başlıklarla okunur yap."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "KVKK & Çerez UX Audit’i Talep Et",
+          "text": "Çerez banner’ı ve tercih panelinizi kullanıcı dostu ve uyumlu hale getirip rezervasyon akışını bölmeden güveni artırın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Çerez banner’ı otel sitelerinde nasıl olmalı?",
+      "a": "Kısa ve şeffaf bir metin, görünür “Tümünü Kabul Et” ve “Tercihleri Yönet” seçenekleri ve kategori bazlı bir tercih paneliyle kurgulanmalıdır. Kullanıcı tercihlerini sonradan değiştirebilmelidir."
+    },
+    {
+      "q": "KVKK uyumlu çerez metni nasıl yazılır?",
+      "a": "Neyi neden kullandığınızı 2–3 cümlede anlatın ve detay için politika linki verin. Korkutucu ifadeler yerine sakin ve anlaşılır bir ton kullanın; kontrolün kullanıcıda olduğunu belirtin."
+    },
+    {
+      "q": "“Tümünü kabul et” ve “tercihleri yönet” butonları nasıl tasarlanmalı?",
+      "a": "Aynı görünürlük ve erişilebilirlikte olmalıdır; tercih yönetimi saklanmamalıdır. Buton metinleri net eylem belirtmeli, kullanıcıyı yanıltmamalıdır."
+    },
+    {
+      "q": "KVKK ve gizlilik sayfaları UX açısından nasıl daha okunur hale getirilir?",
+      "a": "Başlıklarla bölümlendirin, kısa özet kutusu ekleyin ve uzun detayları gerektiğinde açılır yapı ile sunun. Sade Türkçe, madde listeleri ve net linkler (tercih yönetimi/iletişim) okunabilirliği artırır."
+    },
+    {
+      "q": "Tercih panelinde hangi bilgiler olmalı?",
+      "a": "Çerez kategorileri (zorunlu/analitik/pazarlama/tercihler) ve her biri için 1 cümle açıklama olmalıdır. Zorunlu dışı kategoriler kapatılabilir olmalı ve kullanıcıya “kaydedildi” geri bildirimi verilmelidir."
+    },
+    {
+      "q": "Dark pattern neden risklidir?",
+      "a": "Kullanıcıyı zorlayan veya yanıltan tasarımlar güveni zedeler ve marka algısını düşürebilir. Otellerde güven, direkt rezervasyon kararını doğrudan etkileyen temel bir faktördür."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — kvkk-cerez-banner-otel-ux-hero-01.webp — Alt: “Otel sitesinde KVKK ve cookie banner UX’i güven ve şeffaflık kapak görseli”",
+        "h1-context — 1920×1080 — kvkk-cerez-banner-otel-ux-h1-context-02.webp — Alt: “Banner→tercih paneli→rezervasyon akışı ilişkisini anlatan bağlam görseli”",
+        "divider-01 — 1600×1200 — kvkk-cerez-banner-otel-ux-divider-03.webp — Alt: “Cookie banner tasarımına geçiş bölüm ayırıcı görseli”",
+        "divider-02 — 1600×1200 — kvkk-cerez-banner-otel-ux-divider-04.webp — Alt: “KVKK ve gizlilik sayfası okunabilirliği bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — kvkk-cerez-banner-otel-ux-diagram-05.webp — Alt: “Consent management akışı: banner, panel, loglama şeması”",
+        "checklist-06 — 1200×1200 — kvkk-cerez-banner-otel-ux-checklist-06.webp — Alt: “KVKK ve çerez banner UX checklist kartı”",
+        "kpi-07 — 1200×1200 — kvkk-cerez-banner-otel-ux-kpi-07.webp — Alt: “Güven ve consent KPI skor kartı”",
+        "proof-08 — 1200×1200 — kvkk-cerez-banner-otel-ux-proof-08.webp — Alt: “KVKK & cookie UX audit deliverables kanıt kartı”",
+        "table-do-dont — Yapılması gerekenler / kaçınılması gerekenler tablosu"
+      ],
+      "technicalChecklist": [
+        "Banner metni, politika linki ve tercih paneli bağlantısı doğrulandı",
+        "“Tümünü Kabul Et” ve “Tercihleri Yönet” seçeneklerinin görünürlük ve erişilebilirlik seviyesi kontrol edildi",
+        "Zorunlu dışı çerezlerin tercih verilmeden çalışmadığı doğrulandı",
+        "Footer “Çerez Tercihleri” bağlantısı ve tercih değiştirme akışı test edildi",
+        "Klavye, screen reader ve focus yönetimi kontrolleri tamamlandı",
+        "Banner ve tercih panelinin CLS/INP etkisi ölçüldü",
+        "Consent tercihleri için loglama ve “Tercihleriniz kaydedildi” geri bildirimi doğrulandı",
+        "KVKK/gizlilik sayfalarının başlık hiyerarşisi, okunabilirliği ve güncelleme tarihi kontrol edildi"
+      ]
+    }
   }
+},
+
+"BlogNextjsOtelUxCoreWebVitals": {
+  "title": "Next.js Otel UX ve Core Web Vitals (LCP/CLS/INP)",
+  "slug": "nextjs-otel-ux-core-web-vitals",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "5 Ağustos 2026",
+  "publishedAt": "2026-08-05",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Next.js otel sitelerinde UX + Core Web Vitals’ı birlikte iyileştirin: LCP/CLS/INP, Image optimizasyonu, script yönetimi, SSR/SSG seçimi ve rezervasyon sayfasında kritik içerik yerleşimi.",
+  "seo": {
+    "metaTitle": "Next.js Otel UX ve Core Web Vitals (LCP/CLS/INP) | DGTLFACE",
+    "metaDescription": "Next.js otel sitelerinde UX + Core Web Vitals’ı birlikte iyileştirin: LCP/CLS/INP, Image optimizasyonu, script yönetimi, SSR/SSG seçimi ve rezervasyon sayfasında kritik içerik yerleşimi."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa (Hub) / URL: UI & UX Tasarımı — /tr/creative/ui-ux-tasarim",
+      "Blog No: 16",
+      "Blog / URL: /tr/creative/blog/nextjs-otel-ux-core-web-vitals",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/creative/blog/nextjs-otel-ux-core-web-vitals"
+    ],
+    "strategySummary": "Bu yazı, otel web projelerinde “UX + performans” köprüsünü kuran teknik otorite içeriğidir: Next.js mimari kararlarını (SSR/SSG), görsel/script optimizasyonunu ve Core Web Vitals (LCP, CLS, INP) metriklerini rezervasyon deneyimiyle aynı çerçevede ele alır. Hedef persona; otel sahibi/GM, pazarlama/satış yöneticisi ve ajans yöneticisiyle birlikte geliştirme ekibidir. Funnel aşaması consideration: “sitem yavaş” problemini somut metriklere bağlayıp hızlı kazanım planı çıkarır. Ana iş sorusu: “Next.js’te hangi teknik kararlar, hangi UX anlarını etkiliyor ve rezervasyon akışında CWV’yi nasıl iyileştiririm?” Varsayım: Sheet’te Refresh Cycle 180 olduğundan içerikte hızlı değişen CWV/Next.js best practice’leri için 180 günlük yenileme döngüsü uygulanacaktır."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-05",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Next.js altyapılı otel sitelerinde iyi bir UX, Core Web Vitals metrikleriyle birlikte düşünülmelidir. Büyük görseller, slider’lar, rezervasyon formları ve üçüncü parti script’ler hem hızı hem de rezervasyon deneyimini etkiler. LCP, CLS ve INP odaklı tasarım ve teknik kararlarla, hem Google tarafında teknik skorlar hem de misafir tarafında hız algısı ve dönüşüm oranı iyileştirilebilir. Bu rehber, Next.js’te pratik bir optimizasyon çerçevesi sunar.",
+    "sgeSummary": "Next.js otel sitelerinde LCP görsel/hero’dan, CLS slider/banner’dan, INP ise JS ve üçüncü parti script’lerden etkilenir. Image, script, SSR/SSG ve rezervasyon kritik içerik yerleşimiyle iyileştirilir.",
+    "voiceAnswer": "LCP’yi hero ve rezervasyon bloklarını optimize ederek, CLS’yi kaymaları engelleyerek, INP’yi script’i azaltarak iyileştirin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, ajans yöneticisi, web geliştirme/analitik ekip",
+      "KPI’lar: LCP/CLS/INP, Lighthouse skoru, mobil form completion, rezervasyon funnel drop-off",
+      "Entity: Next.js, Core Web Vitals, LCP, CLS, INP, Hotel Website, Reservation Funnel",
+      "Geo bağlamı: Antalya/Belek/Side/Kemer/Bodrum gibi yüksek mobil trafikli destinasyon senaryoları",
+      "Funnel: Consideration → Conversion (rezervasyon sayfası)",
+      "Risk: Ağır görsel/slider ve 3rd-party script şişmesi mobil terkini artırabilir (yönlü)",
+      "Çözüm: “kritik içerik önce” yerleşimi + Next.js performans pratikleri + ölçüm döngüsü"
+    ]
+  },
+  "h1": {
+    "title": "Next.js Otel Web Sitelerinde UX ve Core Web Vitals Nasıl Birleşir?",
+    "intro": "Otel web sitelerinde “hız” sadece teknik bir skor değildir; misafirin güven algısı ve rezervasyon kararının akıcılığıdır. Next.js ile geliştirilen sitelerde özellikle büyük hero görselleri, slider’lar, rezervasyon formları ve üçüncü parti ölçüm script’leri; hem Core Web Vitals hem de Reservation Funnel performansını etkiler. Bu yazıda LCP/CLS/INP’yi otel bağlamında “hangi ekranda neyi bozar?” diye okuyup, Next.js’te uygulanabilir iyileştirme adımlarını bir araya getiriyoruz.",
+    "quickSummary": [
+      "“Otel sitem yavaş, Next.js ile ne yapabilirim?”",
+      "“Core Web Vitals skorlarım düşük, nereden başlamalıyım?”",
+      "Kısa cevap: Önce LCP’nin kaynağını (hero/galeri/oda görseli) düzeltin, CLS’yi yaratan kaymaları (slider/banner) bitirin, INP’yi bozan JS ve 3rd-party script’leri azaltın; sonra ölçüp tekrar edin."
+    ],
+    "ctaPrimary": {
+      "label": "Next.js Otel UX & Performans Analizi Talep Et",
+      "text": "Next.js otel sitenizde CWV sorunlarını (LCP/CLS/INP) rezervasyon akışıyla birlikte tespit edip öncelikli iyileştirme planı çıkarın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Next.js Otel UX & Performans Analizi Talep Et",
+      "text": "Next.js otel sitenizde LCP/CLS/INP sorunlarını rezervasyon akışıyla birlikte analiz edip hızlı kazanım planı çıkarın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Core Web Vitals UX Checklist’ini İndir",
+      "text": "LCP/CLS/INP kaynaklarını sayfa bazında işaretleyip 10 teknik–UX aksiyonunu önceliklendirmenizi sağlar.",
+      "href": "/creative/ui-ux-tasarim#cwv-checklist"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı hizmet sayfası",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Teknik SEO",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "Web Sitesi Geliştirme",
+      "href": "/yazilim/web-sitesi-gelistirme"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Teknik SEO",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "title": "Web Sitesi Geliştirme",
+      "href": "/yazilim/web-sitesi-gelistirme"
+    },
+    {
+      "title": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    }
+  ],
+  "sections": [
+    {
+      "id": "nextjs-otel-ux-kesisim-noktalari",
+      "title": "Next.js ve otel UX’inin kesiştiği noktalar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Next.js, performans için güçlü bir temel sunar; ancak otel sitelerinin görsel ağırlığı ve rezervasyon odaklı etkileşimleri, doğru kararlar alınmazsa CWV’yi aşağı çekebilir. “Güzel tasarım” ile “hızlı açılan tasarım” aynı şey değildir; özellikle mobilde, kullanıcının ilk izlenimi hızla şekillenir."
+        },
+        {
+          "type": "h3",
+          "text": "Otel projelerinde CWV’yi bozan tipik kaynaklar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hero/galeri görsellerinin ağır olması (LCP)",
+            "Slider/banner’ın geç yüklenip layout kaydırması (CLS)",
+            "Takvim/filtre/rezervasyon formunda ağır JS ve 3rd-party script’ler (INP)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Kesişim)",
+          "items": [
+            "LCP’nin kaynağı hero/galeri mi?",
+            "Kayma (CLS) yaratan slider/banner var mı?",
+            "Rezervasyon formu sayfasında 3rd-party script şişmesi var mı?",
+            "Mobilde etkileşim gecikmesi hissediliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "UX ekranlarını CWV metrikleriyle eşleyin: “hangi ekran hangi metriği bozuyor?”",
+            "Rezervasyon sayfasını “performans bütçesi” ile ele alın (en kritik sayfa).",
+            "Teknik SEO ve geliştirme bağını kurun: https://dgtlface.com/tr/seo/teknik-seo",
+            "Teknik SEO ve geliştirme bağını kurun: https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-web-vitals-rezervasyon-deneyimi",
+      "title": "Core Web Vitals (LCP, CLS, INP) ve rezervasyon deneyimi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Core Web Vitals’ı otel bağlamında okumak gerekir: metrik “skor” değil, kullanıcı hissidir. Misafir hızlı görmek ister (LCP), sayfa zıplamasın ister (CLS), tıklayınca tepki bekler (INP)."
+        },
+        {
+          "type": "h3",
+          "text": "LCP (Largest Contentful Paint) — ilk izlenim"
+        },
+        {
+          "type": "p",
+          "text": "Otellerde LCP çoğu zaman hero görseli, oda galerisi veya üstteki büyük görsel bloktur. LCP kötü ise kullanıcı “site yavaş” der ve daha karar vermeden çıkar."
+        },
+        {
+          "type": "h3",
+          "text": "CLS (Cumulative Layout Shift) — güven kaybı"
+        },
+        {
+          "type": "p",
+          "text": "CLS otelde genellikle slider, geç gelen banner, font yüklemesi veya dinamik fiyat bloklarında görülür. Kullanıcı tam CTA’ya basacakken sayfa kayarsa, güven kırılır."
+        },
+        {
+          "type": "h3",
+          "text": "INP (Interaction to Next Paint) — etkileşim gecikmesi"
+        },
+        {
+          "type": "p",
+          "text": "INP; takvim, kişi seçici, filtreler, form doğrulama ve 3rd-party script’lerle bozulur. Özellikle mobilde “tıklıyorum ama olmuyor” hissi rezervasyon terkini tetikler."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Metrik → Otelde görülen semptom → En sık kaynak → İlk müdahale",
+          "headers": [
+            "Metrik",
+            "Otelde görülen semptom",
+            "En sık kaynak",
+            "İlk müdahale"
+          ],
+          "rows": [
+            [
+              "LCP",
+              "İlk ekran geç açılır",
+              "Hero/galeri görseli",
+              "Image optimize + öncelik"
+            ],
+            [
+              "CLS",
+              "Sayfa zıplar, yanlış tıklama",
+              "Slider/banner/font",
+              "Sabit yükseklik + font stratejisi"
+            ],
+            [
+              "INP",
+              "Tıklama gecikir",
+              "Ağır JS/3rd-party",
+              "Script azalt + dinamik import"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (CWV)",
+          "items": [
+            "LCP öğesi net tespit edildi mi?",
+            "CLS kaynağı (slider/banner/font) belli mi?",
+            "INP’yi bozan etkileşim bileşenleri listelendi mi?",
+            "Mobil ve desktop ayrı ölçülüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her metriğe 1 ekran ve 1 “ilk müdahale” tanımlayın.",
+            "“Kritik içerik önce” kuralını rezervasyon sayfasında uygulayın.",
+            "Slider/banner gibi CLS kaynaklarını azaltın veya sabitleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nextjs-core-web-vitals-iyilestirme",
+      "title": "Next.js otel sitelerinde Core Web Vitals nasıl iyileştirilir?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "AEO özeti"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "LCP için hero/oda görselini optimize edin: doğru boyut + WebP/AVIF + kritik görseli önceliklendirme.",
+            "Next.js Image component ile responsive görsel ve lazy-load’u doğru kullanın (hero yanlış lazy-load edilmesin).",
+            "CLS için slider/banner alanlarına sabit yükseklik verin; font ve dinamik bileşen kaymalarını azaltın.",
+            "INP için ağır JS’i azaltın; etkileşimli bileşenleri dinamik import ile bölün ve 3rd-party script’leri sınırlayın.",
+            "SSR/SSG seçimini sayfa tipine göre yapın: otel listeleme/landing sayfalarında hızlı ilk render hedefleyin.",
+            "Cache ve CDN stratejisiyle statik içerikleri hızlandırın; rezervasyon formunda gereksiz script’i kaldırın.",
+            "Ölçüm döngüsü kurun: Lighthouse + PageSpeed + Search Console ile trend takibi yapın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Hero görseli LCP hedefiyle önceliklendirildi mi?",
+            "Slider/banner CLS üretmiyor mu?",
+            "3rd-party script listesi çıkarıldı mı?",
+            "Ölçüm araçlarıyla trend izleniyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk 48 saatte LCP kaynağını düzeltin (en hızlı kazanım).",
+            "CLS kaynaklarını sabitleyin (slider, banner, font).",
+            "INP için script ve etkileşim bileşenlerini sadeleştirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gorsel-script-optimizasyonu",
+      "title": "Görsel ve script optimizasyonu (Image, lazy-load, 3rd-party)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Otel siteleri görsel ağırlıklıdır; bu avantajdır (ikna), ama kötü optimize edilirse LCP’yi mahveder. Aynı şekilde ölçüm ve reklam etiketleri INP’yi bozabilir."
+        },
+        {
+          "type": "h3",
+          "text": "Resim optimizasyonu (Next.js Image + WebP/AVIF)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Görselleri doğru boyutta serve edin (responsive)",
+            "Kritik görseli öne alın (hero/ilk oda görseli)",
+            "Alt görselleri lazy-load edin (hero hariç)",
+            "Galeri thumbnail’larını ayrı, hafif set olarak üretin"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Script optimizasyonu (özellikle rezervasyon akışı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "3rd-party script’leri sınıflandırın: “zorunlu / nice-to-have”",
+            "Rezervasyon sayfasında “nice-to-have” script’leri geciktirin veya kaldırın",
+            "Dinamik import ile ağır bileşenleri bölün (takvim, harita, video)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Yönlü içgörü: CWV odaklı optimizasyonlar, özellikle mobilde etkileşim ve form tamamlama oranlarını hissedilir biçimde iyileştirebilir; ama en iyi sonuç, ölçüm ve test döngüsüyle gelir."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Optimizasyon)",
+          "items": [
+            "Hero görseli optimize ve öncelikli mi?",
+            "Alt görseller lazy-load mu?",
+            "Rezervasyon sayfasında gereksiz script var mı?",
+            "Dinamik import ile ağır bileşenler ayrıldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Görseller için “kritik set” ve “lazy set” ayrımı yapın.",
+            "Script’leri sayfa bazlı yönetin; her sayfaya aynı tag yığını koymayın.",
+            "Rezervasyon akışını “hafif sayfa” standardına alın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ssr-ssg-ux-yaklasimi",
+      "title": "SSR, SSG ve UX (hangi sayfada hangi yaklaşım?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Next.js’te yanlış render stratejisi, hem hız hem SEO hem de kullanıcı deneyimini etkiler. Otel projelerinde pratik yaklaşım:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İçerik ağırlıklı sayfalar (kampanya/landing) → hızlı ilk render",
+            "Listeleme/destinasyon sayfaları → hızlı görünürlük + filtre",
+            "Rezervasyon adımı → en az JS, en çok hız"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Oteller için performans odaklı tasarım pratiği"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Kritik içerik” üstte: tarih/uygunluk, fiyat/iptal özeti, CTA",
+            "Slider yerine tek hero + kontrollü galeri",
+            "Form alanları minimal + hızlı doğrulama",
+            "Skeleton loader: dinamik fiyat/uygunluk yüklenirken “boş ekran” olmaması"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Render stratejisi)",
+          "items": [
+            "Sayfa türlerine göre render stratejisi tanımlı mı?",
+            "Rezervasyon sayfası en hafif sayfa mı?",
+            "Skeleton/placeholder kullanılıyor mu?",
+            "Mobil ilk ekran kritik içerik içeriyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Sayfa türlerini sınıflandırın ve her birine render stratejisi atayın.",
+            "Rezervasyon sayfasını “performans bütçesi” ile yönetin.",
+            "UX ve SEO bağını güçlendirin: https://dgtlface.com/tr/seo/teknik-seo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cwv-olcum-dongusu",
+      "title": "Ölçüm döngüsü: Lighthouse, PageSpeed, Search Console (ve hedefler)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "İyileştirme, ölçüm olmadan “tahmin”e döner. CWV için üçlü döngü önerisi:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Lighthouse (lokal/sprint içi)",
+            "PageSpeed Insights (gerçek dünyaya yakın)",
+            "Search Console CWV raporu (trend ve sayfa grupları)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Otel ekipleri için veri → aksiyon süreci"
+        },
+        {
+          "type": "p",
+          "text": "Haftalık:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "1 CWV metriği seç (LCP/CLS/INP)",
+            "1 sayfa tipi seç (ana sayfa/oda/rezervasyon)",
+            "1 müdahale yap (görsel/script/yerleşim)",
+            "Sonucu raporla"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Core Web Vitals UX Checklist’ini İndir",
+          "text": "LCP/CLS/INP kaynaklarını sayfa bazında işaretleyip 10 teknik–UX aksiyonunu önceliklendirmenizi sağlar.",
+          "href": "/creative/ui-ux-tasarim#cwv-checklist"
+        }
+      ]
+    },
+    {
+      "id": "cwv-checklist",
+      "title": "Core Web Vitals UX Checklist’ini İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Core Web Vitals UX Checklist’ini İndir — Next.js Otel Performansı (v1.0)",
+          "purpose": "Bu checklist, Next.js otel sitelerinde LCP/CLS/INP sorunlarını sayfa bazında hızlıca tespit edip (hero, slider, form, 3rd-party script) önceliklendirmenizi sağlar. Amaç, rezervasyon sayfasında hız algısını artırmak ve etkileşim gecikmelerini azaltmaktır. 14 günlük sprint planı, “en hızlı kazanım” yaklaşımıyla kurgulanmıştır.",
+          "whoFor": "Otel dijital ekipleri + ajans + Next.js geliştirici ekip + analitik/SEO ekipleri.",
+          "steps": [
+            "3 sayfa seçin: Ana sayfa (hero), oda sayfası (galeri), rezervasyon sayfası (form).",
+            "LCP/CLS/INP kaynaklarını checklist’e göre işaretleyin ve kırmızı alanları seçin.",
+            "14 günlük sprint planıyla düzeltin; Lighthouse/PSI/Search Console ile doğrulayın."
+          ],
+          "checklist": [
+            "LCP kaynağı (hero/galeri) tespit edildi",
+            "Hero görseli optimize ve öncelikli (lazy-load değil)",
+            "Slider/banner sabit yükseklik (CLS yok)",
+            "Font yüklemesi kayma üretmiyor",
+            "Rezervasyon sayfasında 3rd-party script azaltıldı",
+            "Takvim/filtre bileşenleri dinamik import ile bölündü",
+            "Skeleton loader ile dinamik içerik beklemesi yönetildi",
+            "Mobilde INP hissi test edildi",
+            "CWV trendi Search Console’da izleniyor",
+            "Kazanan pratikler “standart”a alındı"
+          ],
+          "href": "/downloads/core-web-vitals-ux-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "h3",
+          "text": "[ ] Ölçüm & Önceliklendirme checklist’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "LCP kaynağı (hero/galeri) tespit edildi",
+            "Hero görseli optimize ve öncelikli (lazy-load değil)",
+            "Slider/banner sabit yükseklik (CLS yok)",
+            "Font yüklemesi kayma üretmiyor",
+            "Rezervasyon sayfasında 3rd-party script azaltıldı",
+            "Takvim/filtre bileşenleri dinamik import ile bölündü",
+            "Skeleton loader ile dinamik içerik beklemesi yönetildi",
+            "Mobilde INP hissi test edildi",
+            "CWV trendi Search Console’da izleniyor",
+            "Kazanan pratikler “standart”a alındı"
+          ]
+        }
+       ]
+    },
+    {
+      "id": "hemen-uygulanabilecek-teknik-ux-iyilestirmeleri",
+      "title": "Hemen uygulayabileceğiniz 10 teknik–UX iyileştirmesi",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hero görselini optimize et (boyut/format) ve LCP’ye önceliklendir.",
+            "Slider’ı kaldır veya sabit yükseklik ver (CLS).",
+            "Font yüklemesini kayma üretmeyecek şekilde yönet.",
+            "Rezervasyon sayfasında 3rd-party script’leri azalt.",
+            "Ağır bileşenleri dinamik import ile böl.",
+            "Galeri thumbnail’larını hafiflet; lightbox’ı performanslı seç.",
+            "Skeleton loader ile dinamik fiyat/uygunluk beklemesini yumuşat.",
+            "Form doğrulamayı hızlı ve minimal tut; gereksiz maske/script ekleme.",
+            "Cache/CDN ile statik içerikleri hızlandır.",
+            "Lighthouse/PSI/Search Console ile trend takibi yap."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Next.js Otel UX & Performans Analizi Talep Et",
+          "text": "Next.js otel sitenizde CWV sorunlarını rezervasyon akışıyla birlikte analiz edip hızlı kazanım planı çıkarın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Next.js ile otel web sitesi performansı nasıl iyileştirilir?",
+      "a": "Önce LCP’nin kaynağını (hero/galeri) optimize edin, CLS yaratan slider/banner kaymalarını sabitleyin ve INP’yi bozan ağır JS/3rd-party script’leri azaltın. Sonra GA4 ve CWV raporlarıyla etkisini izleyin."
+    },
+    {
+      "q": "Core Web Vitals otel UX’ini nasıl etkiler?",
+      "a": "LCP ilk izlenimi belirler, CLS güveni zedeler (sayfa kayarsa), INP ise etkileşim gecikmesiyle kullanıcıyı sinirlendirir. Bu üçü rezervasyon akışında terk oranını etkileyebilir."
+    },
+    {
+      "q": "LCP ve CLS’yi düşürmek için tasarımda neler yapmalıyım?",
+      "a": "Tek hero görseli, kontrollü galeri ve sabit yüksekliğe sahip banner/slider kullanın. Kritik CTA ve fiyat/iptal bloklarını ilk ekrana yakın tutun; kayma yaratan dinamik alanları sabitleyin."
+    },
+    {
+      "q": "Rezervasyon sayfasında hangi elemanlar kritik kabul edilir?",
+      "a": "Tarih/kişi seçimi, toplam fiyat/iptal özeti, ana CTA ve form alanları kritik içeriktir. Bu alanlar hızlı açılmalı ve etkileşim gecikmesi yaratmamalıdır."
+    },
+    {
+      "q": "INP’yi en çok ne bozar?",
+      "a": "Ağır JS, takvim/filtre gibi etkileşim bileşenleri ve sayfaya yığılan 3rd-party script’ler. Script envanteri çıkarıp sayfa bazlı azaltmak genelde en hızlı adımdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — nextjs-otel-ux-core-web-vitals-hero-01.webp — Alt: “Next.js otel sitesinde Core Web Vitals ve rezervasyon UX ilişkisini anlatan kapak görseli”",
+        "h1-context — 1920×1080 — nextjs-otel-ux-core-web-vitals-h1-context-02.webp — Alt: “Rezervasyon sayfasında kritik içerik yerleşimini anlatan bağlam görseli”",
+        "divider-01 — 1600×1200 — nextjs-otel-ux-core-web-vitals-divider-03.webp — Alt: “CWV metrikleri ve rezervasyon deneyimi bölüm ayırıcı görseli”",
+        "divider-02 — 1600×1200 — nextjs-otel-ux-core-web-vitals-divider-04.webp — Alt: “Görsel ve script optimizasyonu bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — nextjs-otel-ux-core-web-vitals-diagram-05.webp — Alt: “Next.js SSR/SSG ve performans akışını gösteren diyagram”",
+        "checklist-06 — 1200×1200 — nextjs-otel-ux-core-web-vitals-checklist-06.webp — Alt: “Core Web Vitals UX checklist kartı: LCP CLS INP iyileştirmeleri”",
+        "kpi-07 — 1200×1200 — nextjs-otel-ux-core-web-vitals-kpi-07.webp — Alt: “LCP CLS INP ve rezervasyon KPI skor kartı”",
+        "proof-08 — 1200×1200 — nextjs-otel-ux-core-web-vitals-proof-08.webp — Alt: “Next.js performans analizi deliverables ve aksiyon planı kartı”",
+        "table-cwv-metric-symptom-source-action — Metrik → Semptom → Kaynak → İlk müdahale tablosu",
+        "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+      ],
+      "technicalChecklist": [
+        "LCP kaynağı hero, galeri ve oda görselleri için sayfa bazında tespit edildi",
+        "Hero görseli doğru boyut, WebP/AVIF formatı ve öncelik ayarlarıyla optimize edildi",
+        "Hero ve ilk ekran görsellerine yanlış lazy-load uygulanmadığı doğrulandı",
+        "Slider, banner, font ve dinamik fiyat alanlarının CLS üretmediği test edildi",
+        "Rezervasyon sayfasındaki 3rd-party script envanteri çıkarıldı ve gereksiz script’ler kaldırıldı",
+        "Takvim, filtre, harita ve video gibi ağır bileşenler için dinamik import kontrol edildi",
+        "Sayfa türlerine göre SSR/SSG ve cache/CDN stratejisi doğrulandı",
+        "Mobil gerçek cihazlarda LCP, CLS, INP ve form etkileşimleri test edildi",
+        "Lighthouse, PageSpeed Insights ve Search Console CWV ölçüm döngüsü kuruldu",
+        "180 günlük refresh döngüsüyle Next.js ve Core Web Vitals best practice’leri için güncelleme planlandı"
+      ]
+    }
+  }
+},
+
+"BlogOtaVsDirektRezervasyonUx": {
+  "title": "OTA vs Direct Booking: Direkt Rezervasyon UX Rehberi",
+  "slug": "ota-vs-direkt-rezervasyon-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "5 Ağustos 2026",
+  "publishedAt": "2026-08-05",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "OTA’dan gelen kullanıcıyı direct booking’e çevirin: rate parity çerçevesinde net fiyat/iptal dili, direct avantaj kutuları, özel landing, hızlı rezervasyon akışı ve call center entegrasyonu.",
+  "seo": {
+    "metaTitle": "OTA vs Direct Booking: Direkt Rezervasyon UX Rehberi | DGTLFACE",
+    "metaDescription": "OTA’dan gelen kullanıcıyı direct booking’e çevirin: rate parity çerçevesinde net fiyat/iptal dili, direct avantaj kutuları, özel landing, hızlı rezervasyon akışı ve call center entegrasyonu."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa (Hub) / URL: UI & UX Tasarımı — /tr/creative/ui-ux-tasarim",
+      "Blog No: 17",
+      "Blog / URL: /tr/creative/blog/ota-vs-direkt-rezervasyon-ux",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/ota-vs-direkt-rezervasyon-ux"
+    ],
+    "strategySummary": "Bu yazı, otel dijital dönüşümünde “kanal stratejisi + UX” kesişiminde direct booking UX authority rolünü üstlenir: OTA kullanıcı beklentilerini analiz edip, otel web sitesinde direct booking’in neden daha avantajlı ve güvenli olduğunu somut bileşenlerle anlatır. Hedef persona; Antalya/Belek/Side/Alanya gibi OTA ağırlığı yüksek bölgelerde direkt gelir payını büyütmek isteyen otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir. Funnel aşaması consideration: kullanıcı kararı “nereden rezervasyon yapacağım?” sorusuna dayanır; doğru UX, uygun fiyat/kampanya ve güven mesajlarıyla direct kanala kayışı kolaylaştırabilir (yönlü içgörü). Ana iş sorusu: “Rate parity kısıtlarını bozmadan, web’de hangi mesaj ve bileşenlerle direct booking’i güçlendirebilirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-05",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "OTA ve direkt rezervasyon akışları farklı beklentiler ve ekranlarla çalışır. İyi bir otel UX’i, kullanıcının OTA’da alıştığı net fiyat ve avantaj sunumunu kendi web sitesinde daha güvenli, daha açıklayıcı ve daha avantajlı hissettirmelidir. Doğru mesajlar, fayda odaklı microcopy ve güçlü rezervasyon akışıyla misafirin direkt kanalı tercih etmesi kolaylaştırılabilir. Bu rehber, direct booking’i güçlendiren bileşenleri ve OTA’dan gelen kullanıcıya özel UX kurgusunu anlatır.",
+    "sgeSummary": "OTA kullanıcıları net fiyat/iptal ister. Web’de direct booking’i güçlendirmek için şeffaf fiyat, avantaj kutuları, özel OTA landing’i, hızlı funnel ve call center desteği gerekir; rate parity sınırları gözetilir.",
+    "voiceAnswer": "Web’de fiyat ve iptali netleştirip direct avantajları görünür kılın; OTA’dan geleni özel landing ile rezervasyona taşıyın.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+      "KPI’lar: Direct booking oranı, OTA→web dönüşüm, CTA CTR, form completion, call center kapanış",
+      "Entity: OTA, Direct Booking, Rate Parity, Hotel Website UX, Reservation Funnel, Call Center",
+      "Geo: Antalya/Belek/Side/Alanya OTA ağırlıklı senaryolar",
+      "Funnel: Consideration → Conversion",
+      "Risk: Rate parity ihlali + güven zedelenmesi",
+      "Çözüm: “Şeffaflık + değer mesajı + hız + destek” dörtlüsü"
+    ]
+  },
+  "h1": {
+    "title": "OTA vs Direkt Rezervasyon Akışı: UX ile Doğru Kanalı Nasıl Güçlendirirsiniz?",
+    "intro": "OTA’lar kullanıcıya “net fiyat + net koşul + hızlı karar” deneyimi sunar. Otel web sitesi ise çoğu zaman daha iyi bir marka anlatısı ve daha esnek bir ilişki (sadakat, özel teklif, destek) kurabilir; fakat web’de fiyat/iptal/ödeme net değilse kullanıcı “risk” hisseder ve OTA’ya geri döner. Direct booking’i artırmak, sadece “daha ucuz fiyat” demek değildir; çoğu otelde rate parity ve kontratsal kısıtlar vardır. Bu yüzden ana kaldıraç, doğru UX bileşenleriyle “daha güvenli ve daha değerli” bir deneyimi görünür kılmaktır.",
+    "quickSummary": [
+      "“Booking yerine kendi sitemden nasıl daha çok rezervasyon alırım?”",
+      "Kısa cevap: Web’de OTA netliğini yakalayın (fiyat/iptal/vergiler), direct avantaj kutuları ekleyin, OTA’dan gelen kullanıcı için özel landing kurgulayın ve call center desteğini akışa entegre edin."
+    ],
+    "ctaPrimary": {
+      "label": "Direct Booking UX & Kanal Stratejisi Analizi Talep Et",
+      "text": "OTA trafiğini web’de daha iyi karşılayıp direct booking payını artırmak isteyen oteller için UX + kanal aksiyon planı alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Direct Booking UX & Kanal Stratejisi Analizi Talep Et",
+      "text": "Rate parity sınırlarını gözeterek direct avantaj iletişimini ve rezervasyon akışını güçlendirmek için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Direct Booking Avantaj Alanları UI Şablonunu İndir",
+      "text": "Avantaj kutuları, şeffaflık blokları ve OTA landing yerleşimini hazır UI şablonuyla hızlıca kurmanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#direct-advantage-ui"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı hizmet sayfası",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Otel OTA Yönetimi",
+      "href": "/otel/ota-yonetimi"
+    },
+    {
+      "label": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "label": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "label": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel OTA Yönetimi",
+      "href": "/otel/ota-yonetimi"
+    },
+    {
+      "title": "Online Satış",
+      "href": "/pms-ota/online-satis"
+    },
+    {
+      "title": "Rezervasyon Desteği",
+      "href": "/cagri-merkezi/rezervasyon-destegi"
+    },
+    {
+      "title": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ota-direkt-rezervasyon-akislari-farki",
+      "title": "OTA ve direkt rezervasyon akışlarının farkı (beklenti farkını yakala)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OTA kullanıcıları, “risk azaltıcı” ipuçlarına alışkındır: net fiyat, iptal özeti, yorum/puan, hızlı filtreleme. Otel web’i ise bazen “marka anlatısı”yla başlar ve kritik karar bilgilerini aşağıya iter. Bu fark, web’de doğrudan drop-off yaratabilir."
+        },
+        {
+          "type": "h3",
+          "text": "OTA alışkanlıkları (kullanıcı standardı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Fiyat netliği (toplam fiyat mantığı)",
+            "İptal özeti (1 satır)",
+            "Sosyal kanıt (puan/yorum)",
+            "Karşılaştırma kolaylığı (oda/paket)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Web’in avantajı (otel kontrolü)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Daha iyi destek (call center/WhatsApp)",
+            "Sadakat/üyelik (fiyat vermeden değer yaratma)",
+            "Özel koşul ve esneklik (parity sınırlarında)",
+            "Daha güvenli “ilişki” hissi (marka)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Fark)",
+          "items": [
+            "Web’de fiyat/iptal netliği ilk ekranda mı?",
+            "Sosyal kanıt karar anında mı?",
+            "Oda/paket karşılaştırması kolay mı?",
+            "Destek (call center) görünür mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Web’de “OTA netliği” standardını yakalayın: fiyat/iptal/vergiler tek bakışta.",
+            "Markayı anlatırken kritik karar bloklarını aşağıya itmeyin.",
+            "Kanal stratejisini OTA yönetimiyle bağlayın: https://dgtlface.com/tr/otel/ota-yonetimi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direct-booking-avantajlarini-uxte-gosterme",
+      "title": "Direct booking avantajlarını UX’te nasıl gösterebilirim?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "AEO özeti"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "“Neden direkt rezervasyon?” kutusunu oda/fiyat ekranında görünür konumlandırın (ilk 1–2 ekran).",
+            "Rate parity’yi ihlal etmeden “değer” anlatın: esnek iptal, ücretsiz upgrade olasılığı, öncelikli destek, hoş geldin ikramı gibi.",
+            "Avantajları 3–5 maddeyle sınırlayın; rozet/enflasyon yapmayın.",
+            "Avantajları CTA’ya bağlayın: “Direkt rezervasyonla şu avantajlar” → “Rezervasyona devam”.",
+            "Güven metinleri ekleyin: “güvenli ödeme (SSL)”, “iptal özeti” ve “sürpriz ücret yok”.",
+            "Fiyat/koşul metnini sadeleştirin; kullanıcıyı policy sayfasına boğmayın.",
+            "Çok dilli misafir için (DE/EU) şeffaflık dili tutarlı olsun; aynı avantajlar aynı yerde görünsün."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Avantaj kutusu ilk 1–2 ekranda mı?",
+            "3–5 net madde var mı?",
+            "Parity riski yaratacak “fiyat söylemi” var mı?",
+            "CTA, avantajla aynı blokta mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Avantaj kutusunu oda listesi/oda detayı ekranına yerleştirin.",
+            "“Değer”i somutlaştırın: destek, esneklik, özel teklif (kural dahilinde).",
+            "Kazanan mesajları standardize edin (design system / microcopy sözlüğü)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direct-booking-avantajlari-bilesen-seti",
+      "title": "Otel web UX’inde “direct booking” avantajlarını anlatmak (bileşen seti)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Direct booking’i güçlendiren bileşenler “tek bir rozet” değil; bir set olarak çalışır:"
+        },
+        {
+          "type": "h3",
+          "text": "“Direct booking avantajları” bilgi kutusu (UI pattern)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Başlık: “Direkt rezervasyon avantajları”",
+            "3–5 madde (ikonlu)",
+            "Mini güven satırı: “Şeffaf fiyat + net iptal”",
+            "CTA yakınlığı: aynı bölüm içinde"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "Sosyal kanıt ve güven öğeleri"
+        },
+        {
+          "type": "p",
+          "text": "OTA kullanıcıları için “puan/yorum” blokları kritik. Web’de bunları saklamak yerine, karar anında görünür kılmak gerekir."
+        },
+        {
+          "type": "h3",
+          "text": "Mikro kopya (fayda odaklı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Fiyatları Göster” (kıyas)",
+            "“Uygunluk Kontrol Et” (niyet)",
+            "“Rezervasyonu Tamamla” (karar)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Bileşen seti)",
+          "items": [
+            "Avantaj kutusu + sosyal kanıt aynı ekranda mı?",
+            "Fiyat/iptal metni tek satır net mi?",
+            "CTA belirsiz değil mi?",
+            "Mobilde sticky CTA var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bileşen setini pattern olarak dokümante edin (oda sayfalarında aynı).",
+            "Sosyal kanıtı CTA’ya yakınlaştırın (ama boğmayın).",
+            "Teknik olarak web rezervasyon motorunun hızlı ve güvenli çalıştığını vurgulayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-kampanya-iade-kosullari",
+      "title": "Fiyat, kampanya ve iade koşullarını sunma biçimi (şeffaflık = dönüşüm)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Direct booking’de en büyük güven kırıcılar: “vergi dahil mi?”, “iptal nasıl?”, “ek ücret var mı?” sorularının cevapsız kalmasıdır. OTA’lar bunu iyi yapar; web de yapmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "“Tek bakışta” fiyat bloğu (zorunlu öğeler)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Toplam fiyat (kapsam net)",
+            "Vergiler/harç notu (kısa)",
+            "İptal özeti (1 satır)",
+            "Kampanya mesajı (1 satır; abartma yok)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Rate parity kısa not (kontratsal kısıtlar)"
+        },
+        {
+          "type": "p",
+          "text": "Rate parity kuralları otelden otele değişir. Bu yüzden direct avantaj anlatılırken:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“fiyat kırma” vaatleri yerine “değer” vaatleri öne çıkarılmalı,",
+            "kontratsal sınırlar gözetilmeli,",
+            "kampanya dili hukuk/kontrat çerçevesiyle uyumlu olmalı."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Şeffaflık)",
+          "items": [
+            "Toplam fiyat kapsamı net mi?",
+            "İptal özeti 1 satır mı?",
+            "Kampanya mesajı aşırı mı?",
+            "Parity riskli ifade var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Fiyat/iptal bloğunu her sayfada aynı standarda alın.",
+            "Kampanya dilini “değer” üzerinden kurun (parity uyumlu).",
+            "Satış performansıyla ilişkilendirin: https://dgtlface.com/tr/raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ota-web-ozel-landing-kurgusu",
+      "title": "OTA sayfasından web’e gelen kullanıcılar için UX (özel landing kurgusu)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OTA’dan gelen kullanıcı genelde “kıyas” niyetindedir. Bu kullanıcıyı standart ana sayfaya atmak yerine, niyete uygun landing ile karşılamak daha verimli olabilir."
+        },
+        {
+          "type": "h3",
+          "text": "OTA çıkışlı kullanıcı için özel landing (pattern)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Üstte: “Aynı otel, direkt kanal avantajları” (kısa)",
+            "Ortada: fiyat/iptal netliği + sosyal kanıt",
+            "Altta: hızlı rezervasyon başlangıcı (tarih seç)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: OTA → Web landing blokları",
+          "headers": [
+            "Blok",
+            "Ne",
+            "Neden",
+            "KPI"
+          ],
+          "rows": [
+            [
+              "Üst mesaj",
+              "“Direkt avantajlar”",
+              "Niyet: kıyas",
+              "CTA CTR"
+            ],
+            [
+              "Şeffaflık",
+              "Toplam fiyat + iptal",
+              "Güven",
+              "Drop-off"
+            ],
+            [
+              "Sosyal kanıt",
+              "Puan/yorum",
+              "Risk azaltma",
+              "Rezervasyon başlangıcı"
+            ],
+            [
+              "Hızlı giriş",
+              "Tarih seçimi",
+              "Funnel’a sok",
+              "start_booking"
+            ],
+            [
+              "Destek",
+              "Call/WhatsApp",
+              "Son adım güven",
+              "kapanış oranı"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Remarketing ve mesaj tutarlılığı"
+        },
+        {
+          "type": "p",
+          "text": "Remarketing mesajı (Ads) ile landing sayfası aynı şeyi söylemeli. “Direkt avantaj” dediğiniz yerde avantaj kutusu görünmüyorsa kullanıcı güven kaybeder."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (OTA landing)",
+          "items": [
+            "Landing niyeti “kıyas”a uygun mu?",
+            "Avantajlar görünür mü?",
+            "Fiyat/iptal net mi?",
+            "Rezervasyon başlangıcı 1–2 tık mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "OTA trafiği için 1 landing şablonu çıkarın ve test edin.",
+            "Mesajı reklam kopyasıyla eşleyin (aynı vaat).",
+            "Online satış altyapısıyla bağ kurun: https://dgtlface.com/tr/pms-ota/online-satis"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Direct Booking Avantaj Alanları UI Şablonunu İndir",
+          "text": "Avantaj kutuları, şeffaflık blokları ve OTA landing yerleşimini hazır UI şablonuyla hızlıca kurmanızı sağlar.",
+          "href": "/creative/ui-ux-tasarim#direct-advantage-ui"
+        }
+      ]
+    },
+    {
+      "id": "direct-advantage-ui",
+      "title": "Direct Booking Avantaj Alanları UI Şablonunu İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Direct Booking Avantaj Alanları UI Şablonunu İndir — Channel UX (v1.0)",
+          "purpose": "Bu UI şablonu, otel web sitenizde direct booking avantajlarını rate parity sınırlarını gözeterek görünür kılmak için hazırlandı. “Avantaj kutusu”, “şeffaflık bloğu” ve “OTA’dan gelen kullanıcı landing’i” gibi bileşenleri standartlaştırır; böylece kullanıcı OTA netliğini web’de de görür ve karar süresi kısalır.",
+          "whoFor": "Otel pazarlama/satış + ajans + UX/UI + rezervasyon motoru ekibi.",
+          "steps": [
+            "Direct avantajlarınızı seçin (3–5 madde; parity uyumlu).",
+            "Oda sayfası ve landing sayfasına şablon bloklarını yerleştirin.",
+            "KPI ve A/B test planı ile ölçüp kazananı standardize edin."
+          ],
+          "checklist": [
+            "Avantaj kutusu ilk 1–2 ekranda",
+            "İptal + toplam fiyat görünür",
+            "OTA landing hızlı rezervasyon CTA içeriyor",
+            "Destek bileşeni var",
+            "Parity riskli ifade yok"
+          ],
+          "href": "/downloads/direct-booking-avantaj-alanlari-ui-sablonu-v1.0.pdf",
+          "buttonLabel": "UI Şablonunu İndir"
+        },
+        {
+          "type": "h3",
+          "text": "1 örnek (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Avantaj: “Esnek iptal”, “Öncelikli destek”, “Hoş geldin ikramı”",
+            "Şeffaflık: “Toplam fiyat (vergiler dahil) + X tarihe kadar ücretsiz iptal”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Avantaj kutusu ilk 1–2 ekranda",
+            "İptal + toplam fiyat görünür",
+            "OTA landing hızlı rezervasyon CTA içeriyor",
+            "Destek bileşeni var",
+            "Parity riskli ifade yok"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "call-center-web-ux-entegrasyonu",
+      "title": "Call Center + Web UX entegrasyonu (risk azaltıcı destek)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Direct booking’i artırmanın en güçlü yollarından biri, “yardım”ı görünür kılmaktır. OTA kullanıcıları, belirsizlikte müşteri hizmetine alışkındır. Web’de de:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Hemen ara”",
+            "“WhatsApp”",
+            "“Geri arama iste”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "gibi seçenekler, özellikle son adımda terk riskini azaltabilir."
+        },
+        {
+          "type": "p",
+          "text": "İç link: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+        },
+        {
+          "type": "h3",
+          "text": "Call center entegrasyon bileşenleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Form yanında “yardım” linki",
+            "Ödeme adımında güven mesajı + destek butonu",
+            "“Sizi arayalım” micro-form (2 alan)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Destek)",
+          "items": [
+            "Destek aksiyonu karar anında görünür mü?",
+            "Yardım, akışı bölmeden erişilebilir mi?",
+            "Call center script’i web avantaj diliyle uyumlu mu?",
+            "Hedef KPI var mı (kapanış oranı)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Destek bileşenini “son çare” değil, güven unsuru olarak tasarlayın.",
+            "Call center’ı direct avantaj diliyle senkronlayın.",
+            "Kapanış ve dönüşüm KPI’larını raporlayın: https://dgtlface.com/tr/raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hemen-uygulanabilecek-direct-booking-ux-hamleleri",
+      "title": "Hemen uygulayabileceğiniz 10 direct booking UX hamlesi",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Oda sayfasına “Direkt rezervasyon avantajları” kutusu ekleyin.",
+            "İptal özetini 1 satır görünür yapın.",
+            "Toplam fiyat kapsamını net yazın (vergiler dahil mi?).",
+            "Sosyal kanıtı CTA yakınında gösterin.",
+            "CTA metnini aksiyon+sonuç yapın (“Tarih Seç → Fiyat Gör”).",
+            "Mobilde sticky rezervasyon CTA ekleyin.",
+            "OTA trafiği için özel landing şablonu oluşturun.",
+            "Parity riskli ifadeleri temizleyin; “değer” üzerinden iletişim kurun.",
+            "Ödeme adımına “destek” butonu ekleyin (call center/WhatsApp).",
+            "Bu bileşenleri A/B test ile doğrulayın ve standardize edin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Direct Booking UX & Kanal Stratejisi Analizi Talep Et",
+          "text": "Rate parity sınırlarını gözeterek direct avantaj iletişimini ve rezervasyon akışını güçlendirmek için analiz alın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "OTA ile direkt rezervasyon arasındaki fark UX’e nasıl yansır?",
+      "a": "OTA kullanıcıları net fiyat/iptal ve hızlı karşılaştırmaya alışkındır. Web’de bu netlik yoksa kullanıcı risk hisseder ve geri döner; web’de şeffaflık, güven ve destek görünür olmalıdır."
+    },
+    {
+      "q": "Otel web sitemde direct booking avantajlarını nasıl göstermeliyim?",
+      "a": "Oda/fiyat ekranında görünen bir “direct avantajlar” kutusu kullanın ve 3–5 net maddeyle değer anlatın. İptal ve toplam fiyat şeffaflığını aynı blokta tutup CTA’ya yakınlaştırın."
+    },
+    {
+      "q": "OTA’dan gelen kullanıcıya hangi mesajları vermeliyim?",
+      "a": "“Aynı otel, direkt kanal avantajları” gibi kısa bir giriş, net fiyat/iptal ve sosyal kanıt ile kullanıcıyı karşılayın. Hızlı rezervasyon başlangıcı (tarih seç) ve destek seçenekleri karar süresini kısaltır."
+    },
+    {
+      "q": "Direct booking için hangi UX bileşenleri kritik?",
+      "a": "Şeffaf fiyat bloğu, iptal özeti, sosyal kanıt, direct avantaj kutusu, mobil sticky CTA ve call center/WhatsApp desteği en kritik bileşenlerdir."
+    },
+    {
+      "q": "Rate parity direct booking iletişimini nasıl etkiler?",
+      "a": "Çoğu yapıda fiyat söylemi kontratsal sınırlara tabidir; bu yüzden “daha ucuz” yerine “daha değerli” (destek, esneklik, küçük ayrıcalıklar) anlatımı öne çıkarılmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ota-vs-direkt-rezervasyon-ux-hero-01.webp — Alt: “OTA ve direct booking akışlarını karşılaştıran otel UX kapak görseli”",
+        "h1-context — 1920×1080 — ota-vs-direkt-rezervasyon-ux-h1-context-02.webp — Alt: “OTA’dan web’e gelen kullanıcı yolculuğu ve direct avantajlar bağlam görseli”",
+        "divider-01 — 1600×1200 — ota-vs-direkt-rezervasyon-ux-divider-03.webp — Alt: “Direct booking avantajları bölüm geçiş ayırıcı görseli”",
+        "divider-02 — 1600×1200 — ota-vs-direkt-rezervasyon-ux-divider-04.webp — Alt: “Fiyat ve iade koşulu şeffaflığı bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — ota-vs-direkt-rezervasyon-ux-diagram-05.webp — Alt: “OTA vs direct funnel ve avantaj kutusu yerleşimini gösteren diyagram”",
+        "checklist-06 — 1200×1200 — ota-vs-direkt-rezervasyon-ux-checklist-06.webp — Alt: “Direct booking UX checklist kartı otel bağlamı”",
+        "kpi-07 — 1200×1200 — ota-vs-direkt-rezervasyon-ux-kpi-07.webp — Alt: “Direct booking KPI ve dönüşüm skor kartı otel bağlamı”",
+        "proof-08 — 1200×1200 — ota-vs-direkt-rezervasyon-ux-proof-08.webp — Alt: “Landing şablonu ve direct booking deliverables kanıt kartı”",
+        "table-ota-web-landing-blocks — OTA → Web landing blokları tablosu"
+      ],
+      "technicalChecklist": [
+        "OTA ve direct booking akışlarındaki fiyat, iptal, vergi ve ödeme bilgileri karşılaştırıldı",
+        "Direct booking avantaj kutusunun oda listesi ve oda detayında ilk 1–2 ekran içinde görünürlüğü doğrulandı",
+        "Avantaj mesajlarının 3–5 maddeyle sınırlandırıldığı ve rate parity riski taşımadığı kontrol edildi",
+        "Toplam fiyat, vergi, ek ücret ve iptal özetinin tek bakışta anlaşılır olduğu doğrulandı",
+        "OTA trafiği için özel landing sayfası, reklam mesajı ve avantaj kutusu tutarlılığı test edildi",
+        "Sosyal kanıt, güvenli ödeme ve rezervasyon CTA bileşenlerinin karar anına yakınlığı kontrol edildi",
+        "Mobil sticky CTA, tarih seçimi ve rezervasyon başlangıcı akışı gerçek cihazlarda test edildi",
+        "Call center, WhatsApp ve geri arama bileşenlerinin rezervasyon akışını bölmeden çalıştığı doğrulandı",
+        "CTA CTR, start_booking, form completion, drop-off ve call center kapanış KPI’ları ölçüm planına eklendi",
+        "Direct booking bileşenleri için A/B test planı ve kazanan microcopy’yi standardize edecek design system kaydı oluşturuldu"
+      ]
+    }
+  }
+},
+
+"BlogOtelSadakatProgramiUyelikUx": {
+  "title": "Otel Sadakat Programı UX’i: Üyelik, Puan, Üye Fiyatı",
+  "slug": "otel-sadakat-programi-uyelik-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "5 Ağustos 2026",
+  "publishedAt": "2026-08-05",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel sadakat ve üyelik UX’i: hızlı kayıt, puan/avantaj ekranları, rezervasyonda üye fiyatı–public fiyat ayrımı ve web-e-posta-call center uyumuyla tekrar rezervasyonu artırın.",
+  "seo": {
+    "metaTitle": "Otel Sadakat Programı UX’i: Üyelik, Puan, Üye Fiyatı | DGTLFACE",
+    "metaDescription": "Otel sadakat ve üyelik UX’i: hızlı kayıt, puan/avantaj ekranları, rezervasyonda üye fiyatı–public fiyat ayrımı ve web-e-posta-call center uyumuyla tekrar rezervasyonu artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa (Hub) / URL: UI & UX Tasarımı — /tr/creative/ui-ux-tasarim",
+      "Blog No: 18",
+      "Blog / URL: /tr/creative/blog/otel-sadakat-programi-uyelik-ux",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/otel-sadakat-programi-uyelik-ux"
+    ],
+    "strategySummary": "Bu yazı, otel sadakat programlarında “membership UX authority” rolünü üstlenir: üyelik kaydı, puan/avantaj görselleştirmesi, rezervasyon akışında üye fiyatı (member rate) sunumu ve web–e-posta–call center uyumunu tek çerçevede birleştirir. Hedef persona; tekrar misafir oranı yüksek destinasyonlarda (Antalya/Bodrum) direkt gelir payını büyütmek isteyen otel sahibi/GM, satış–pazarlama yöneticisi ve ajans yöneticisidir. Funnel aşaması consideration: kullanıcı “neden üye olayım?” sorusuna hızlı cevap ister; doğru UX üyelik oranını ve tekrar rezervasyonu yönlü olarak artırabilir. Ana iş sorusu: “Üyeliği sürtünmesiz nasıl başlatırım, avantajları nasıl net anlatırım ve member rate’i rezervasyon akışında parity/güven dengesini bozmadan nasıl sunarım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-05",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "İyi tasarlanmış bir sadakat programı UX’i, misafirin “neden üye olayım?” sorusuna birkaç saniyede net cevap verir. Kısa ve anlaşılır üyelik formu, görsel olarak açıklanmış puan ve avantajlar, rezervasyon akışında üyelere özel fiyat veya kampanya sunumu ve tüm bunların web, e-posta ve call center deneyimleriyle uyumlu çalışması; hem tekrar rezervasyonu hem de misafir bağlılığını artırır. Bu rehber, bu akışları pratik örneklerle kurgular.",
+    "sgeSummary": "Sadakat UX’i; üyeliği 1 dakikada başlatır, puan/avantajı kartlarla netleştirir, rezervasyonda üye fiyatını şeffaf sunar ve web-e-posta-call center’ı tek yolculukta bağlar.",
+    "voiceAnswer": "Üyeliği kısaltın, avantajı hemen gösterin ve rezervasyonda üye fiyatını net kıyasla sunun.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, pazarlama/satış, ajans; CRM/çağrı ekipleri",
+      "KPI’lar: Üyelik dönüşümü, member rate seçimi, tekrar rezervasyon, e-posta tıklaması, call center kapanış",
+      "Entity: Loyalty Program, Membership UX, Points, Member Rates, Hotel Website, Call Center, CRM",
+      "Geo: Antalya/Bodrum tekrar misafir senaryoları + TR/EN misafir karışımı",
+      "Funnel: Consideration → Conversion → Retention",
+      "Risk: Üyelik faydası belirsizse kullanıcı kayıt olmaz; karmaşık login akışı rezervasyonda drop-off yaratır",
+      "Çözüm: “Hızlı kayıt + net değer + şeffaf fiyat ayrımı + omnichannel tutarlılık”"
+    ]
+  },
+  "h1": {
+    "title": "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
+    "intro": "Sadakat programı kurgusu “puan var” demekle bitmez; misafir için tek soru vardır: “Neden üye olayım?” Eğer bu soruya 5–8 saniyede cevap veremezseniz, kullanıcı kayıt olmaz ve “üye fiyatı” gibi avantajlar boşa gider. İyi bir membership UX; üyeliği sürtünmesiz başlatır, puan/avantajı görselleştirir, rezervasyonda üye fiyatını şeffaf sunar ve web-e-posta-call center deneyimini tek hikâyede birleştirir.",
+    "quickSummary": [
+      "“Misafirler sadakat programına girmiyor, neyi yanlış yapıyorum?”",
+      "Kısa cevap: Üyelik faydasını net anlatmıyor, kayıt formunu uzatıyor veya üye fiyatını rezervasyonda doğru yerde göstermiyorsunuz. Çözüm; “hızlı kayıt + anında değer + şeffaf fiyat kıyası + destek” kurgusudur."
+    ],
+    "ctaPrimary": {
+      "label": "Sadakat Programı UX & Akış Analizi Talep Et",
+      "text": "Üyelik dönüşümünü ve member rate kullanımını artırmak için kayıt, puan/avantaj ve rezervasyon akışınızı birlikte analiz edin.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Sadakat Programı UX & Akış Analizi Talep Et",
+      "text": "Üyelik dönüşümünü, member rate seçimini ve tekrar rezervasyonu artırmak için sadakat akışınızı uçtan uca analiz edin.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Sadakat Programı Üyelik Ekran Şablonunu İndir",
+      "text": "Üyelik kayıt, puan/avantaj ve üye fiyatı ekranlarını hazır şablonla hızlıca kurgulamanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#sadakat-uyelik-sablon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı hizmet sayfası",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Satış Sonrası Destek",
+      "href": "/cagri-merkezi/satis-sonrasi-destek"
+    },
+    {
+      "label": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "CMS Entegrasyonu",
+      "href": "/yazilim/cms-entegrasyonu"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "title": "Satış Sonrası Destek",
+      "href": "/cagri-merkezi/satis-sonrasi-destek"
+    },
+    {
+      "title": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "title": "CMS Entegrasyonu",
+      "href": "/yazilim/cms-entegrasyonu"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sadakat-programi-ux-onemi",
+      "title": "Neden sadakat programı UX’i otellerde önemli?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sadakat programı, otelde “tekrar rezervasyon” ve “direkt gelir” için güçlü bir kaldıraçtır; ama UX zayıfsa program görünmez olur. Üyelik faydası anlaşılmıyor, kayıt zor, login sorunlu, üye fiyatı net değilse kullanıcı ya vazgeçer ya da OTA’ya döner."
+        },
+        {
+          "type": "h3",
+          "text": "Sadakat UX’inin 3 hedefi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Üyeliği başlatmak (signup conversion)",
+            "Üye fiyatını seçtirmek (member rate adoption)",
+            "Tekrar rezervasyonu artırmak (retention)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Yönlü içgörü: Sadakat UX’i iyileştirilen otellerde üyelik oranlarının ve tekrar rezervasyonların arttığı; üye fiyatı sunulan sayfalarda kararın hızlandığı sık gözlemlenir (nicel değil, yönlü)."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (H2-1)",
+          "items": [
+            "“Neden üye olayım?” cevabı ilk 1–2 ekranda mı?",
+            "Kayıt formu 1 dakikada bitiyor mu?",
+            "Üye fiyatı, public fiyatla şeffaf kıyaslanıyor mu?",
+            "E-posta/call center aynı avantaj dilini kullanıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Üyelik faydasını 3–5 maddeye indirip görünür yapın.",
+            "Kayıt alanlarını minimuma indirin; geri kalanını profil içinde toplayın.",
+            "Sadakat–gelir bağını raporlama ile kurun: https://dgtlface.com/tr/raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-sadakat-programi-uyelik-ux-tasarimi",
+      "title": "Otel sadakat programı için iyi bir üyelik UX’i nasıl tasarlanır?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "AEO checklist"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Üyeliği “teklif” gibi konumlandırın: 3–5 net fayda + tek CTA (“Üye ol, avantajı gör”).",
+            "Kayıt formunu 3–5 alan hedefiyle kurun; geri kalan bilgileri sonradan alın.",
+            "“Üye ol” ile “giriş yap” akışlarını karıştırmayın; net yönlendirme verin.",
+            "Üye fiyatını rezervasyonda açıkça gösterin: “Üye fiyatı / Normal fiyat” yan yana.",
+            "Puan ve avantajları görselleştirin: kart + seviye + ilerleme (timeline/progress).",
+            "Çok kanallı tutarlılık sağlayın (web, e-posta, call center): aynı fayda sözlüğü.",
+            "KVKK ve güvenli oturum yönetimini görünür ama sakin şekilde anlatın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Üyelik faydası 5 saniyede anlaşılır mı?",
+            "Form 3–5 alan mı?",
+            "Üye/normal fiyat kıyası şeffaf mı?",
+            "Çok kanallı dil tutarlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Üyelik ekranında “3 fayda + 1 CTA” kuralını uygulayın.",
+            "Kayıt formunu sadeleştirin; sosyal login gibi hızlandırıcıları değerlendirin (uygun ise).",
+            "Üye fiyatını “rezervasyon karar anında” görünür kılın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uyelik-kaydi-hesap-olusturma",
+      "title": "Üyelik kaydı ve hesap oluşturma akışı (sürtünmeyi azaltma)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Üyelik akışında temel problem, otellerin “CRM için veri toplama” isteğiyle kullanıcı sürtünmesini artırmasıdır. İlk hedef: üyeliği başlatmak. Profil tamamlama daha sonra."
+        },
+        {
+          "type": "h3",
+          "text": "Üyelik formu sadeleştirme (pratik)"
+        },
+        {
+          "type": "p",
+          "text": "Minimum alan seti:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "E-posta (veya telefon)",
+            "Şifre (veya OTP)",
+            "Ad (opsiyonel; kişiselleştirme için)",
+            "KVKK bilgilendirme bağlantısı (kısa)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Microcopy örnekleri:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Üye ol, üye fiyatlarını hemen gör.”",
+            "“1 dakikada tamamlanır.”",
+            "“İstediğiniz zaman çıkabilirsiniz.” (tonu dikkatli)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Login/Signup birleşik ekran tuzağı"
+        },
+        {
+          "type": "p",
+          "text": "Tek ekranda hem “giriş” hem “kayıt” vermek bazı kullanıcıları karıştırır. Çözüm:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Varsayılan: “Üye ol” (fayda odaklı)",
+            "İkincil: “Zaten üye misiniz? Giriş yapın.”"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Kayıt)",
+          "items": [
+            "İlk ekranda fayda net mi?",
+            "3–5 alanla kayıt mümkün mü?",
+            "Hata mesajları nazik ve çözüm odaklı mı?",
+            "Mobilde OTP/şifre akışı hızlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kayıt alanlarını azaltın; veri toplama isteğini profile taşıyın.",
+            "Signup ve login akışını net ayırın; karışıklığı azaltın.",
+            "Form performansını optimize edin; gereksiz script eklemeyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "puan-avantaj-gorsellestirme",
+      "title": "Puan ve avantajların görselleştirilmesi (kart + timeline yaklaşımı)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Sadakat programı “puan” demekse, kullanıcı puanı “ne işe yarar?” diye sorar. UX’in görevi puanı bir “para birimi” gibi anlaşılır kılmaktır: ne kadar puanım var, ne kazanıyorum, bir sonraki seviyeye kaç kaldı?"
+        },
+        {
+          "type": "h3",
+          "text": "Puan ekranı için 3 bileşen"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Toplam puan (büyük sayı + açıklama)",
+            "Avantaj kartları (3–5 adet)",
+            "İlerleme (seviye/threshold progress bar)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Avantaj kartları örnekleri (otel diliyle)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Üyelere özel fiyatlar”",
+            "“Öncelikli destek”",
+            "“Esnek iptal seçenekleri” (varsa)",
+            "“Erken giriş / geç çıkış” (müsaitliğe bağlı)",
+            "“Hoş geldin ikramı” (kısıtlar varsa not)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Puan/Avantaj)",
+          "items": [
+            "“Puan”ın değeri açıklanıyor mu?",
+            "Avantajlar 3–5 kartla sınırlı mı?",
+            "İlerleme (next level) net mi?",
+            "TR/EN dilinde aynı netlik var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Puan ekranını “tek sayfa özet + detay” şeklinde kurun.",
+            "Avantajları kartlaştırın; uzun metin yerine kısa kazanım cümlesi kullanın.",
+            "“Bir sonraki seviye” ilerlemesini gösterin; motivasyon yaratın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rezervasyon-uyelik-member-rate",
+      "title": "Rezervasyon akışında üyelik ve fiyat ayrımı (member rate vs public)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Üye fiyatı sunumu, direct booking’i güçlendiren en kritik anlardan biridir. Burada iki risk var:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Üye fiyatı var ama görünmüyor (fırsat kaçıyor)",
+            "Üye fiyatı gösterimi şeffaf değil (güven kırılıyor)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Üyelik fiyatı vs normal fiyat gösterimi (şeffaf kıyas)"
+        },
+        {
+          "type": "p",
+          "text": "İyi yaklaşım:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yan yana: “Üye fiyatı” / “Normal fiyat”",
+            "Aynı kapsam: vergiler/harçlar aynı açıklıkta",
+            "Aynı iptal dili: iptal özeti 1 satır"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Üyelik vs normal fiyat karşılaştırma",
+          "headers": [
+            "Başlık",
+            "Üye fiyatı",
+            "Normal fiyat"
+          ],
+          "rows": [
+            [
+              "Fiyat gösterimi",
+              "Net, “üye fiyatı” etiketi",
+              "Net, “normal fiyat” etiketi"
+            ],
+            [
+              "Kapsam",
+              "Vergiler/harçlar açık",
+              "Vergiler/harçlar açık"
+            ],
+            [
+              "İptal özeti",
+              "1 satır görünür",
+              "1 satır görünür"
+            ],
+            [
+              "Ek avantaj",
+              "1–2 madde (değer)",
+              "Yok / sınırlı"
+            ],
+            [
+              "CTA",
+              "“Üye fiyatıyla devam et”",
+              "“Normal fiyatla devam et”"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Üye olmadan üye fiyatını göstermek (kademeli)"
+        },
+        {
+          "type": "p",
+          "text": "Kullanıcıya “üyelikle kazanım”ı göstermek, kayıt motivasyonunu artırır. Ama kayıt bariyeri rezervasyonu bozmasın:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Üye fiyatını görmek için üye ol” yerine",
+            "“Üye olursanız şu fiyat/avantaj” + hızlı kayıt (OTP) yaklaşımı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Member rate)",
+          "items": [
+            "Üye/normal fiyat aynı ekranda mı?",
+            "Fiyat kapsamı (vergiler) net mi?",
+            "İptal özeti görünür mü?",
+            "Üyelik CTA’sı rezervasyonu bölüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Member rate’i oda listesi/oda detayı karar anına koyun.",
+            "Kayıt bariyerini düşürün (hızlı signup).",
+            "Fiyat/iptal şeffaflığını koruyun; güveni zedelemeyin."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Sadakat Programı Üyelik Ekran Şablonunu İndir",
+          "text": "Üyelik kayıt, puan/avantaj ve üye fiyatı ekranlarını hazır şablonla hızlıca kurgulamanızı sağlar.",
+          "href": "/creative/ui-ux-tasarim#sadakat-uyelik-sablon"
+        }
+      ]
+    },
+    {
+      "id": "sadakat-uyelik-sablon",
+      "title": "Sadakat Programı Üyelik Ekran Şablonunu İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Sadakat Programı Üyelik Ekran Şablonunu İndir — Membership UX (v1.0)",
+          "purpose": "Bu şablon, otel sadakat programında üyelik kaydı, puan/avantaj ekranı ve rezervasyonda üye fiyatı sunumunu tek bir tasarım dilinde standardize etmek için hazırlanmıştır. Amaç, “neden üye olayım?” sorusuna hızlı cevap verip üyelik dönüşümünü artırmak ve member rate kullanımını görünür kılmaktır. TR/EN dil varyantları için kısa/uzun microcopy alanları içerir.",
+          "whoFor": "Otel pazarlama/CRM + UX/UI + web geliştirme + call center ekipleri.",
+          "steps": [
+            "Üyelik faydalarını seçin (3–5 madde) ve signup ekranına yerleştirin.",
+            "Puan/avantaj ekranını “kart + ilerleme” modelinde doldurun.",
+            "Üye fiyatı/normal fiyat kıyasını rezervasyon akışına ekleyip ölçüm KPI’larını tanımlayın."
+          ],
+          "checklist": [
+            "Signup 3–5 alan",
+            "Fayda 3–5 madde",
+            "Üye/normal fiyat kıyası net",
+            "Puan/avantaj ekranı görsel",
+            "Omnichannel metin tutarlı"
+          ],
+          "href": "/downloads/sadakat-programi-uyelik-ekran-sablonu-v1.0.pdf",
+          "buttonLabel": "Ekran Şablonunu İndir"
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Signup 3–5 alan",
+            "Fayda 3–5 madde",
+            "Üye/normal fiyat kıyası net",
+            "Puan/avantaj ekranı görsel",
+            "Omnichannel metin tutarlı"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cok-kanalli-sadakat-deneyimi",
+      "title": "Çok kanallı (web, e-posta, call center) sadakat deneyimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sadakat programı web’de başlar ama web’de bitmez. Üye; e-posta ile teklif bekler, çağrı merkeziyle konuşur, bazen CRM üzerinden kişiselleştirilmiş mesaj alır. Omnichannel tutarlılık yoksa kullanıcı “vaat”i sorgular."
+        },
+        {
+          "type": "h3",
+          "text": "E-posta ve web tutarlılığı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "E-postadaki avantaj dili web’de aynı yerde görünmeli",
+            "“Üye fiyatı” CTA’sı web’de aynı akışa düşmeli",
+            "Segment bazlı mesajlar (aile/çift/iş) tutarlı olmalı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Call center entegrasyonu (satış sonrası destek)"
+        },
+        {
+          "type": "p",
+          "text": "Üyelik soruları ve avantajlar call center script’inde de olmalı."
+        },
+        {
+          "type": "p",
+          "text": "İç link: https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+        },
+        {
+          "type": "h3",
+          "text": "CMS ve entegrasyon notu (teknik)"
+        },
+        {
+          "type": "p",
+          "text": "Sadakat içeriği (avantajlar, seviye metinleri, e-posta şablonları) CMS üzerinden yönetilirse tutarlılık artar."
+        },
+        {
+          "type": "p",
+          "text": "İç link: https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Omnichannel)",
+          "items": [
+            "Web ve e-posta aynı avantaj sözlüğünü kullanıyor mu?",
+            "Call center “üye avantajı” script’i var mı?",
+            "Üye fiyatı linkleri doğru landing’e gidiyor mu?",
+            "TR/EN mesaj tutarlılığı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "30–50 satırlık “sadakat microcopy sözlüğü” oluşturun (TR/EN).",
+            "E-posta CTA’larını web’deki member rate akışına bağlayın.",
+            "Call center ekibini aynı avantaj diliyle donatın; kapanış oranını artırın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guvenlik-kvkk-crm-pms-entegrasyonu",
+      "title": "Güvenlik, KVKK ve CRM/PMS entegrasyonu (kısa teknik not)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Üyelik, kullanıcı verisi demektir. Bu yüzden:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Güvenli oturum yönetimi (session) ve şifre/OTP akışı düzgün olmalı",
+            "KVKK bilgilendirme linki erişilebilir olmalı",
+            "Üyelik verisi PMS/CRM ile entegre çalışıyorsa “tek kaynak gerçek” sağlanmalı"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu kısım kullanıcıyı korkutacak şekilde değil, sakin ve şeffaf bir mikro metinle verilmeli."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Güven)",
+          "items": [
+            "Kayıt/giriş akışı güvenli ve hızlı mı?",
+            "KVKK linki net mi?",
+            "CRM/PMS entegrasyonu veri tutarlılığı sağlıyor mu?",
+            "Form performansı iyi mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Üyelik akışını “hızlı + güvenli” standardında test edin (mobil).",
+            "KVKK metnini sade tutun; linkle destekleyin.",
+            "Entegrasyonları raporlama ile bağlayın: https://dgtlface.com/tr/raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hemen-uygulanabilecek-sadakat-ux-hamleleri",
+      "title": "Hemen uygulayabileceğiniz 10 sadakat UX hamlesi",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Üyelik faydasını 3–5 maddeye indir ve ilk ekranda göster.",
+            "Signup formunu 3–5 alana düşür.",
+            "Üye fiyatı/normal fiyat kıyasını aynı ekranda ver.",
+            "İptal özetini member rate ile birlikte göster.",
+            "Puan ekranını “büyük sayı + ilerleme + kartlar” olarak kur.",
+            "Üye avantajlarını ikonlu kartlarla görselleştir.",
+            "E-posta CTA’larını doğru member rate landing’e bağla.",
+            "Call center script’ini avantaj diliyle senkronla.",
+            "TR/EN microcopy sözlüğü oluştur.",
+            "Üyelik akışını A/B testlerle iyileştir (CTA metni, form alanı)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Sadakat Programı UX & Akış Analizi Talep Et",
+          "text": "Üyelik dönüşümünü, member rate seçimini ve tekrar rezervasyonu artırmak için sadakat akışınızı uçtan uca analiz edin.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel sadakat programı UX’i nasıl olmalı?",
+      "a": "Üyelik faydasını ilk saniyelerde netleştirmeli, kayıt formunu kısa tutmalı ve puan/avantajları görsel olarak anlatmalıdır. Rezervasyonda üye fiyatı şeffaf kıyasla sunulmalı ve omnichannel iletişimle tutarlı olmalıdır."
+    },
+    {
+      "q": "Üyelik formunu kaç alana indirmeliyim?",
+      "a": "İlk kayıt için 3–5 alan genelde yeterlidir (e-posta/telefon, şifre/OTP, ad gibi). Diğer bilgiler profil içinde daha sonra toplanmalıdır; aksi halde kayıt sürtünmesi artar."
+    },
+    {
+      "q": "Puan ve avantajları misafire nasıl net gösteririm?",
+      "a": "“Toplam puan + ilerleme + avantaj kartları” yapısı kullanın. Avantajları 3–5 kartla sınırlayın ve her kartı tek cümle kazanım diliyle yazın."
+    },
+    {
+      "q": "Üyelere özel fiyatları rezervasyon akışında nasıl sunarım?",
+      "a": "Üye fiyatı ve normal fiyatı aynı ekranda, aynı kapsam ve iptal netliğiyle gösterin. Üyelik CTA’sını hızlı kayıt (OTP) ile destekleyin; rezervasyon akışını bölmeyecek şekilde kurgulayın."
+    },
+    {
+      "q": "Sadakat deneyimini web, e-posta ve call center’da nasıl tutarlı yaparım?",
+      "a": "Tek bir “sadakat microcopy sözlüğü” oluşturun ve tüm kanallarda aynı avantaj cümlelerini kullanın. E-posta CTA’larını member rate landing’ine bağlayın, call center script’ini aynı faydalarla senkronlayın."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — otel-sadakat-programi-uyelik-ux-hero-01.webp — Alt: “Otel sadakat programı üyelik ve üye fiyatı akışını anlatan kapak görseli”",
+        "h1-context — 1920×1080 — otel-sadakat-programi-uyelik-ux-h1-context-02.webp — Alt: “Üyelikten rezervasyona uzanan sadakat yolculuğunu gösteren bağlam görseli”",
+        "divider-01 — 1600×1200 — otel-sadakat-programi-uyelik-ux-divider-03.webp — Alt: “Üyelik kaydı ve hesap oluşturma bölüm ayırıcı görseli”",
+        "divider-02 — 1600×1200 — otel-sadakat-programi-uyelik-ux-divider-04.webp — Alt: “Puan ve avantaj görselleştirme bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — otel-sadakat-programi-uyelik-ux-diagram-05.webp — Alt: “Puan/avantaj kartları ve üyelik yolculuğu şeması”",
+        "checklist-06 — 1200×1200 — otel-sadakat-programi-uyelik-ux-checklist-06.webp — Alt: “Sadakat programı üyelik UX checklist kartı”",
+        "kpi-07 — 1200×1200 — otel-sadakat-programi-uyelik-ux-kpi-07.webp — Alt: “Üyelik dönüşümü ve member rate KPI skor kartı”",
+        "proof-08 — 1200×1200 — otel-sadakat-programi-uyelik-ux-proof-08.webp — Alt: “Sadakat programı UX akış deliverables kanıt kartı”",
+        "table-member-rate-public-rate — Üyelik vs normal fiyat karşılaştırma tablosu"
+      ],
+      "technicalChecklist": [
+        "Üyelik faydalarının ilk 1–2 ekran içinde 3–5 net maddeyle anlatıldığı doğrulandı",
+        "Signup formunun 3–5 temel alanla tamamlanabildiği ve profil bilgilerinin sonraya bırakıldığı kontrol edildi",
+        "Signup ve login akışlarının ayrı ve anlaşılır yönlendirmelerle sunulduğu doğrulandı",
+        "Üye fiyatı ve normal fiyatın aynı ekranda, aynı vergi ve iptal kapsamıyla karşılaştırıldığı test edildi",
+        "Hızlı kayıt için OTP, şifre ve mobil form deneyimleri gerçek cihazlarda kontrol edildi",
+        "Puan, avantaj kartları ve bir sonraki seviye ilerlemesinin anlaşılır biçimde görselleştirildiği doğrulandı",
+        "Web, e-posta ve call center kanallarında aynı sadakat microcopy sözlüğünün kullanıldığı kontrol edildi",
+        "E-posta CTA’larının doğru member rate landing ve rezervasyon akışına yönlendiği test edildi",
+        "KVKK bilgilendirme bağlantısı, güvenli session yönetimi ve üyelikten çıkma süreçleri doğrulandı",
+        "CRM/PMS üyelik verisinin tek kaynak gerçek yaklaşımıyla senkronize edildiği kontrol edildi",
+        "Üyelik dönüşümü, member rate seçimi, tekrar rezervasyon ve call center kapanış KPI’ları ölçüm planına eklendi",
+        "CTA metni, form alanı ve üye fiyatı sunumu için A/B test ve optimizasyon backlog’u oluşturuldu"
+      ]
+    }
+  }
+},
+
+"BlogOtelUxDarkPatternKacinin": {
+  "title": "Otel Web Dark Pattern’leri: Şeffaf UX ile Kaçının",
+  "slug": "otel-ux-dark-pattern-kacinin",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "5 Ağustos 2026",
+  "publishedAt": "2026-08-05",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel web UX’inde dark pattern’lerden kaçının: sahte kıtlık, gizli ücret, zor pop-up, önceden işaretli kutular. Şeffaf fiyat/iptal dili ve etik alternatiflerle güveni artırın.",
+  "seo": {
+    "metaTitle": "Otel Web Dark Pattern’leri: Şeffaf UX ile Kaçının | DGTLFACE",
+    "metaDescription": "Otel web UX’inde dark pattern’lerden kaçının: sahte kıtlık, gizli ücret, zor pop-up, önceden işaretli kutular. Şeffaf fiyat/iptal dili ve etik alternatiflerle güveni artırın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa (Hub) / URL: UI & UX Tasarımı — /tr/creative/ui-ux-tasarim",
+      "Blog No: 19",
+      "Blog / URL: /tr/creative/blog/otel-ux-dark-pattern-kacinin",
+      "Blog Tipi: Core",
+      "Intent: Informational",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/otel-ux-dark-pattern-kacinin"
+    ],
+    "strategySummary": "Bu yazı, otel web sitelerinde “etik UX ve şeffaflık” konusunda ana referans olacak bir uyarı/rehber içeriğidir: dark pattern’lerin kısa vadeli kazanç gibi görünse de uzun vadede güven ve gelir kaybına yol açabileceğini otel özel örneklerle açıklar. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; ayrıca web/CRM/analitik ekipleridir. Funnel aşaması awareness/consideration: kullanıcı güveni ve marka algısı, direct booking kararını etkiler; şeffaf yaklaşımın manipülatif taktiklere göre daha sürdürülebilir sonuç verdiği yönlü sektör gözlemleri vardır. Ana iş sorusu: “Hangi pratikler dark pattern’e girer, fiyat/iptal/ek ücret şeffaflığını nasıl kurarım ve etik alternatiflerle dönüşümü nasıl artırırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-05",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Dark pattern’ler kısa vadede tıklama veya rezervasyon artırıyor gibi görünse de otel markasına olan güveni zedeler ve uzun vadede gelir kaybına yol açabilir. Özellikle oda fiyatı, iptal koşulları ve ek ücretlerin gizlenmesi; agresif pop-up’lar ve yanlış yönlendirici buton metinleri hem kullanıcı deneyimi hem de regülasyon tarafında risk oluşturur. Bu rehber, otel sitelerinde sık görülen dark pattern’leri ve yerine konabilecek şeffaf, etik UX alternatiflerini pratik biçimde anlatır.",
+    "sgeSummary": "Dark pattern; kullanıcıyı yanıltan/zorlayan tasarımdır. Otelde sahte “son oda”, gizli ücret, zor pop-up, önceden tikli kutular risktir. Çözüm: şeffaf fiyat/iptal + etik seçenekler.",
+    "voiceAnswer": "Kandırmaya dayalı taktikler yerine şeffaf fiyat, net iptal ve kolay tercih yönetimiyle güveni büyütün.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, pazarlama, ajans; web/analitik/uyum ekipleri",
+      "KPI’lar: Güven sinyalleri, bounce/engagement, direct booking, şikâyet oranı, tekrar rezervasyon",
+      "Entity: Dark Pattern, Hotel Website UX, Transparency, Pricing, Cancellation Policy, Trust, Data Protection",
+      "Geo: Antalya/Türkiye kullanıcı şikâyet temaları (“fiyat şeffaf değil”, “ekstra ücret çıktı”)",
+      "Funnel: Awareness → Consideration → Conversion",
+      "Risk: Kısa vadeli manipülasyon = uzun vadeli güven kaybı + itibar riski",
+      "Çözüm: Etik UX alternatifleri + KVKK/uyum şeffaflığı + doğru microcopy"
+    ]
+  },
+  "h1": {
+    "title": "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler",
+    "intro": "Otel web sitesinde güven, “rezervasyonun para kısmından” önce gelir. Kullanıcı oda ve fiyatı beğense bile, kendini kandırılmış veya zorlanmış hissederse vazgeçebilir. Dark pattern’ler, kullanıcıyı yanıltan veya istemediği eyleme iten tasarımlardır. Kısa vadede tıklama artışı gibi görünse de; otel markası için uzun vadeli güven kaybı, kötü yorumlar ve daha düşük tekrar rezervasyon riski yaratabilir (yönlü sektör gözlemi).",
+    "quickSummary": [
+      "“Kullanıcıyı kandırmadan nasıl satış yaparım?”",
+      "“Dark pattern kullanmak doğru mu?”",
+      "Kısa cevap: Kısa vadeli manipülasyon yerine şeffaf fiyat/iptal dili, net seçenekler ve etik alternatiflerle güveni büyütmek daha sürdürülebilir bir yoldur.",
+      "Not: Bu içerik hukuki danışmanın yerini tutmaz; regülasyonlar ülkeye ve sözleşmelere göre değişebilir. Ama UX tarafında “şeffaflık ve kullanıcı kontrolü” güvenli bir standarttır."
+    ],
+    "ctaPrimary": {
+      "label": "Etik UX & Dark Pattern Audit’i Talep Et",
+      "text": "Sitenizde güveni zedeleyen dark pattern risklerini tespit edip şeffaf, etik alternatiflerle dönüşümü koruyacak bir plan alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Etik UX & Dark Pattern Audit’i Talep Et",
+      "text": "Fiyat/iptal/ek ücret ve pop-up alanlarında dark pattern risklerini kaldırıp güven odaklı UX planı çıkarın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Etik Otel UX Checklist’ini İndir",
+      "text": "Sitenizi 10 dakikada tarayıp en riskli dark pattern alanlarını işaretleyerek hızlı düzeltme planı yapmanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#etik-ux-checklist"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı hizmet sayfası",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "title": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "title": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "dark-pattern-nedir-otel-baglami",
+      "title": "Dark pattern nedir? (otel bağlamı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dark pattern, kullanıcıyı yanıltan, zorlayan veya istemediği seçeneğe iten tasarım ve metin pratikleridir. Otelde bu daha kritik olur; çünkü satın alma kararı “yüksek tutarlı” ve “güven hassasiyeti” yüksek bir karardır. Kullanıcı; fiyat, iptal ve ek ücretlerde şeffaflık bekler. Bu şeffaflık bozulduğunda, yalnız conversion değil, marka algısı da zarar görür."
+        },
+        {
+          "type": "h3",
+          "text": "Otel web’inde dark pattern’in 3 tipik sonucu"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "“Sürpriz maliyet” algısı → ödeme terk",
+            "“Beni zorluyorlar” hissi → site terk",
+            "“Güvenilmez” algısı → OTA’ya geri dönüş"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Tanım)",
+          "items": [
+            "Kullanıcıya gerçek seçenek sunuluyor mu?",
+            "Fiyat/iptal metni net mi, yoksa gizli mi?",
+            "Pop-up/overlay kapatması kolay mı?",
+            "İzin/tercih yönetimi şeffaf mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Dark pattern’i “daha çok satış” değil “güven borcu” olarak görün.",
+            "Fiyat/iptal/ek ücret şeffaflığını standartlaştırın.",
+            "Uyum ve veri koruma bağlantısını güçlendirin: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-web-yaygin-dark-pattern-ornekleri",
+      "title": "Otel web sitelerinde yaygın dark pattern örnekleri",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Bu bölümde otel özelinde en sık görülen pratikleri “ne yapma” diliyle netleştiriyoruz. Ama amaç sadece eleştirmek değil; her örneğin yanına etik alternatif koymak."
+        },
+        {
+          "type": "h3",
+          "text": "Fake scarcity (sahte kıtlık) — “Son 1 oda kaldı”"
+        },
+        {
+          "type": "p",
+          "text": "“Son 1 oda” uyarısı her zaman yalan değildir; ama gerçek zamanlı envanterle desteklenmiyor, tüm kullanıcıya sürekli gösteriliyorsa dark pattern’e yaklaşır. Kullanıcı bir kez kandırıldığını hissederse güven kırılır."
+        },
+        {
+          "type": "p",
+          "text": "Etik alternatif:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Bu tarihler popüler — müsaitlik hızlı değişebilir” gibi koşullu, şeffaf ifade",
+            "Gerçek envanter varsa “kalan oda sayısı”nı sadece doğru anlarda gösterme"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gizli ücretler — son aşamada çıkan maliyet"
+        },
+        {
+          "type": "p",
+          "text": "Kullanıcının en çok şikâyet ettiği alan budur: “fiyat şeffaf değildi”, “ekstra ücret çıktı”. Toplam fiyatın kapsamını net söylememek (vergiler, harçlar, şehir vergisi vb.) güveni zedeler."
+        },
+        {
+          "type": "p",
+          "text": "Etik alternatif:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Toplam fiyat (vergiler dahil)” veya “vergiler hariç” netliği",
+            "Ek ücretleri “opsiyonel” etiketiyle erken görünür kılma"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Zor kapatılan pop-up’lar ve engelleyici overlay"
+        },
+        {
+          "type": "p",
+          "text": "Kapatma ikonu küçük, sayfa kaydırması kilitli, kullanıcı “çıkış” için uğraşıyorsa bu kötü UX’tir. Otelde kullanıcı zaten karar stresindedir; baskı hissi terk yaratabilir."
+        },
+        {
+          "type": "p",
+          "text": "Etik alternatif:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Daha küçük, müdahalesi düşük banner",
+            "Kapatma/erteleme seçenekleri ve “sonra hatırlat”",
+            "Mobilde full-screen pop-up’ı istisna yapma"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Önceden tiklenmiş kutucuklar (pre-checked)"
+        },
+        {
+          "type": "p",
+          "text": "Bülten üyeliği, sigorta/ek hizmet, pazarlama izni gibi kutuları önceden işaretlemek kullanıcı kontrolünü azaltır."
+        },
+        {
+          "type": "p",
+          "text": "Etik alternatif:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Default boş seçim",
+            "Net fayda cümlesi (“üye olursan şu avantaj”)",
+            "Kolay iptal/çıkış"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yanıltıcı buton metinleri (microcopy tuzakları)"
+        },
+        {
+          "type": "p",
+          "text": "“Hayır, indirim istemiyorum” gibi suçlayıcı dil veya “devam” gibi belirsiz CTA’lar kullanıcıyı manipüle edebilir."
+        },
+        {
+          "type": "p",
+          "text": "Etik alternatif:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Nötr ve net metin: “Kapat”, “Tercihleri yönet”, “Şimdi değil”"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Dark pattern türleri özeti",
+          "headers": [
+            "Tür",
+            "Otel örneği",
+            "Etik alternatif",
+            "Risk"
+          ],
+          "rows": [
+            [
+              "Fake scarcity",
+              "“Son 1 oda” sürekli",
+              "“Popüler tarih” mesajı",
+              "Güven kaybı"
+            ],
+            [
+              "Gizli ücret",
+              "Son adım ek vergi",
+              "Toplam fiyat netliği",
+              "Ödeme terk"
+            ],
+            [
+              "Zor pop-up",
+              "Kapatması zor",
+              "Sayfa içi banner",
+              "Terk artışı"
+            ],
+            [
+              "Pre-checked",
+              "Bülten otomatik",
+              "Boş seçim + fayda",
+              "İtibar riski"
+            ],
+            [
+              "Yanıltıcı CTA",
+              "Suçlayıcı metin",
+              "Nötr, net CTA",
+              "Güven kırılması"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Örnekler)",
+          "items": [
+            "“Son oda” mesajı gerçek envantere dayanıyor mu?",
+            "Toplam fiyatın kapsamı net mi?",
+            "Pop-up kapatma kolay mı?",
+            "Pre-checked kutu var mı?",
+            "Buton dili suçlayıcı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Dark pattern risklerini sayfa sayfa çıkarın (ana sayfa, oda, ödeme, cookie).",
+            "En yüksek riskli 3 alanı seçip önce onları düzeltin: fiyat/iptal, pop-up, izin yönetimi.",
+            "Şeffaf UX’i performansla da bağlayın: KVKK risk/uyum raporu tarafı için Varsayım: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiyat-oda-bilgisinde-seffaflik",
+      "title": "Fiyat ve oda bilgisinde şeffaflık (dark pattern’in panzehiri)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Otel web UX’inde şeffaflık, “etik olalım”dan öte; dönüşümün kendisidir. Kullanıcı fiyatı anlıyorsa ve iptal koşulunu okuyabiliyorsa, daha hızlı karar verir."
+        },
+        {
+          "type": "h3",
+          "text": "Şeffaf fiyat bloğu (zorunlu öğeler)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Toplam fiyat (kapsam net)",
+            "Vergiler/harçlar notu (1 satır)",
+            "İptal özeti (1 satır)",
+            "Opsiyonel ücretler (etiketli)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Oda kartlarında “karar bilgisi” standardı"
+        },
+        {
+          "type": "p",
+          "text": "Oda kartı, 20 özellik listesi değil; 3–5 karar bilgisidir: manzara, konsept, iptal, toplam fiyat, CTA."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Şeffaflık)",
+          "items": [
+            "“Toplam fiyat” tanımı açık mı?",
+            "İptal özeti görünür mü?",
+            "Ek ücretler saklı değil mi?",
+            "Oda kartı bilgi hiyerarşisi tutarlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Fiyat/iptal bloğunu bütün sayfalarda aynı şablona alın.",
+            "Ek ücretleri “son adım sürprizi” olmaktan çıkarın.",
+            "Direct booking güvenini büyütmek için bu blokları erken gösterin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iptal-kosullari-ek-ucretler",
+      "title": "İptal koşulları ve ek ücretleri gizlememek (risk azaltma)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "İptal koşulları ve ek ücretler; kullanıcıyı “şüphe”ye düşüren en kritik alanlardır. Özellikle iptal politikası muğlaksa, kullanıcı ya arar (call center yükü) ya da terk eder."
+        },
+        {
+          "type": "h3",
+          "text": "İptal microcopy şablonu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“X tarihe kadar ücretsiz iptal”",
+            "“Ön ödemeli — iade yok”",
+            "“Kısmi iade — detayları görün”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Ek ücret açıklama şablonu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Şehir vergisi varışta ödenir (varsa)”",
+            "“Transfer opsiyonel”",
+            "“Spa paketleri ekstra” (opsiyonel)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (İptal/Ek ücret)",
+          "items": [
+            "İptal 1 satır özet mi?",
+            "Detay linki var mı?",
+            "Ek ücretler etiketli mi?",
+            "Son adımda “sürpriz” kalıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İptal özetini her fiyat bloğuna entegre edin.",
+            "Ek ücretleri erken ve etik şekilde açıklayın.",
+            "Call center destek metnini “yardım” olarak sunun; baskı olarak değil."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etik-guven-odakli-ux-alternatifleri",
+      "title": "Etik ve güven odaklı UX alternatifleri (dark pattern yerine ne koyacağız?)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dark pattern’i kaldırınca “dönüşüm düşer” korkusu oluşabilir. Oysa çoğu zaman dönüşüm; manipülasyonla değil, netlik ve güven ile artar. Etik alternatifler:"
+        },
+        {
+          "type": "h3",
+          "text": "Sahte kıtlık yerine “gerçek talep” mesajı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Bu tarihler popüler, müsaitlik değişebilir”",
+            "“Ücretsiz iptal opsiyonlarını inceleyin”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Pop-up yerine “yardım” ve “değer” blokları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İndirime zorlayan pop-up yerine: “Direct booking avantajları” kutusu",
+            "Kapatılamayan overlay yerine: sayfa içi banner"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kafa karıştıran CTA yerine net CTA"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Devam” yerine “Tarih Seç → Fiyat Gör”",
+            "“Hayır, indirim istemiyorum” yerine “Şimdi değil”"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Alternatifler)",
+          "items": [
+            "Güven ve şeffaflık blokları var mı?",
+            "CTA’lar net ve nötr mü?",
+            "Kullanıcı kontrolü korunuyor mu?",
+            "KVKK/izin yönetimi şeffaf mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Her dark pattern için bir “etik alternatif” UI pattern’i tanımlayın.",
+            "Bu pattern’leri design system’e ekleyin; tekrar kullanılabilir olsun.",
+            "Güven ve uyum eksenini otel dijital pazarlamayla bağlayın: https://dgtlface.com/tr/otel-dijital-pazarlama"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Etik Otel UX Checklist’ini İndir",
+          "text": "Sitenizi 10 dakikada tarayıp en riskli dark pattern alanlarını işaretleyerek hızlı düzeltme planı yapmanızı sağlar.",
+          "href": "/creative/ui-ux-tasarim#etik-ux-checklist"
+        }
+      ]
+    },
+    {
+      "id": "etik-ux-checklist",
+      "title": "Etik Otel UX Checklist’ini İndir",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Etik Otel UX Checklist’ini İndir — Dark Pattern (v1.0)",
+          "purpose": "Bu checklist, otel web sitenizde güveni zedeleyen dark pattern risklerini (sahte kıtlık, gizli ücret, zor pop-up, pre-checked izinler, yanıltıcı CTA) hızlıca tespit edip etik alternatiflere dönüştürmek için tasarlanmıştır. Amaç, kısa vadeli manipülasyon yerine şeffaf fiyat/iptal diliyle uzun vadeli güven ve tekrar rezervasyonu desteklemektir.",
+          "whoFor": "Otel pazarlama + UX/UI + web geliştirme + uyum/kvkk ekipleri.",
+          "steps": [
+            "Ana sayfa, oda sayfası, fiyat/checkout ve cookie banner’ı sırayla kontrol edin.",
+            "“Kırmızı” çıkan maddeleri seçip etik alternatifle değiştirin.",
+            "14 günlük sprint planıyla uygulayın; terk/şikâyet sinyallerini izleyin."
+          ],
+          "checklist": [
+            "Sahte kıtlık mesajları gerçek veriye dayanıyor (değilse kaldırıldı)",
+            "Toplam fiyat kapsamı net (vergiler/harçlar belirtilmiş)",
+            "İptal özeti 1 satır görünür",
+            "Ek ücretler opsiyonel etiketli ve erken gösteriliyor",
+            "Zor kapatılan pop-up yok (kapatma erişilebilir)",
+            "Pre-checked kutu yok (izinler varsayılan boş)",
+            "CTA microcopy nötr ve net",
+            "Cookie tercihleri görünür ve erişilebilir",
+            "Şeffaflık blokları CTA yakınında",
+            "Değişiklikler A/B test veya KPI ile doğrulanıyor"
+          ],
+          "href": "/downloads/etik-otel-ux-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "h3",
+          "text": "Deliverables listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dark pattern risk haritası",
+            "Etik alternatif UI pattern seti",
+            "Şeffaf fiyat/iptal microcopy kütüphanesi",
+            "14 günlük sprint backlog"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hemen-uygulanabilecek-etik-ux-adimlari",
+      "title": "Hemen uygulayabileceğiniz 10 etik UX adımı ",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "“Son oda kaldı” mesajını gerçek envanter yoksa kaldırın.",
+            "Toplam fiyat kapsamını net yazın (vergiler dahil mi?).",
+            "İptal özetini 1 satır görünür yapın.",
+            "Ek ücretleri opsiyonel etiketleyin ve erken gösterin.",
+            "Pop-up’ları azaltın; kapatmayı kolaylaştırın.",
+            "Pre-checked kutuları kaldırın.",
+            "Nötr microcopy kullanın; suçlayıcı dil kullanmayın.",
+            "Cookie/izin yönetiminde “tercihleri yönet” seçeneğini görünür yapın.",
+            "Dark pattern yerine sosyal kanıt + şeffaflık blokları koyun.",
+            "Değişiklikleri A/B test ve şikâyet/yorum takibiyle doğrulayın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Etik UX & Dark Pattern Audit’i Talep Et",
+          "text": "Fiyat/iptal/ek ücret ve pop-up alanlarında dark pattern risklerini kaldırıp güven odaklı UX planı çıkarın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Dark pattern nedir, otel web sitelerinde hangi örnekler görülür?",
+      "a": "Dark pattern, kullanıcıyı yanıltan veya zorlayan tasarımdır. Otelde sahte “son oda”, gizli ücret, zor kapatılan pop-up, önceden işaretli kutular ve yanıltıcı CTA metinleri sık görülür."
+    },
+    {
+      "q": "Fiyat ve iptal koşullarında hangi UX hatalarından kaçınmalıyım?",
+      "a": "Toplam fiyat kapsamını saklamak, iptal koşullarını belirsiz bırakmak ve ek ücretleri son aşamada göstermek güveni zedeler. Şeffaf toplam fiyat + 1 satır iptal özeti daha güvenli bir yaklaşımdır."
+    },
+    {
+      "q": "“Son 1 oda kaldı” uyarıları her zaman doğru mu?",
+      "a": "Gerçek envantere dayanıyorsa doğru olabilir; ancak sürekli ve herkese gösteriliyorsa yanıltıcı hale gelir. Şeffaf “bu tarihler popüler” gibi koşullu mesajlar daha etik bir alternatiftir."
+    },
+    {
+      "q": "Etik ve şeffaf UX için neler yapmalıyım?",
+      "a": "Fiyat/iptal/ek ücret şeffaflığını erken gösterin, pop-up’ları azaltın, pre-checked kutuları kaldırın ve nötr microcopy kullanın. Cookie/izin yönetiminde kullanıcı kontrolünü görünür kılın."
+    },
+    {
+      "q": "Dark pattern’ler yasal risk yaratır mı?",
+      "a": "Ülkeye ve düzenlemelere göre değişebilir; bu nedenle hukuki danışmanlık gerekebilir. UX tarafında ise şeffaflık ve kullanıcı kontrolü, riski azaltan güvenli bir standarttır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — otel-ux-dark-pattern-kacinin-hero-01.webp — Alt: “Otel rezervasyon UX’inde dark pattern ve şeffaf alternatifleri gösteren kapak görseli”",
+        "h1-context — 1920×1080 — otel-ux-dark-pattern-kacinin-h1-context-02.webp — Alt: “Dark pattern örnekleri ve etik alternatifleri özetleyen bağlam görseli”",
+        "divider-01 — 1600×1200 — otel-ux-dark-pattern-kacinin-divider-03.webp — Alt: “Yaygın dark pattern örnekleri bölüm ayırıcı görseli”",
+        "divider-02 — 1600×1200 — otel-ux-dark-pattern-kacinin-divider-04.webp — Alt: “Şeffaf fiyat ve iptal tasarımı bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — otel-ux-dark-pattern-kacinin-diagram-05.webp — Alt: “Dark pattern türleri ve etik alternatifler karşılaştırma şeması”",
+        "checklist-06 — 1200×1200 — otel-ux-dark-pattern-kacinin-checklist-06.webp — Alt: “Etik otel UX checklist kartı: yapma/yap”",
+        "kpi-07 — 1200×1200 — otel-ux-dark-pattern-kacinin-kpi-07.webp — Alt: “Güven ve terk KPI skor kartı”",
+        "proof-08 — 1200×1200 — otel-ux-dark-pattern-kacinin-proof-08.webp — Alt: “Dark pattern audit deliverables ve etik UX planı kanıt kartı”",
+        "table-dark-pattern-types — Dark pattern türleri özeti tablosu",
+        "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+      ],
+      "technicalChecklist": [
+        "Ana sayfa, oda sayfası, fiyat/checkout ve cookie banner için dark pattern envanteri çıkarıldı",
+        "“Son oda” ve benzeri kıtlık mesajlarının gerçek envanter verisine dayandığı doğrulandı",
+        "Toplam fiyatın vergi, harç ve ek ücret kapsamıyla birlikte erken aşamada gösterildiği kontrol edildi",
+        "İptal koşullarının her fiyat bloğunda 1 satır özet ve detay bağlantısıyla sunulduğu doğrulandı",
+        "Zor kapatılan pop-up, engelleyici overlay ve mobil full-screen baskı alanları kaldırıldı veya azaltıldı",
+        "Bülten, pazarlama izni ve ek hizmetlerde pre-checked kutu bulunmadığı kontrol edildi",
+        "CTA microcopy metinlerinin nötr, açık ve kullanıcıyı suçlamayan yapıda olduğu doğrulandı",
+        "Cookie ve izin yönetiminde tercihleri yönetme, reddetme ve sonradan değiştirme seçenekleri test edildi",
+        "Etik alternatif UI pattern’leri design system ve UI kit içine eklendi",
+        "Mobil erişilebilirlik, klavye kullanımı, focus yönetimi ve kapatma kontrolleri doğrulandı",
+        "Bounce/engagement, checkout drop-off ve şikâyet sinyalleri ölçüm planına eklendi",
+        "Dark pattern düzeltmeleri için 14 günlük sprint backlog’u ve A/B test planı oluşturuldu"
+      ]
+    }
+  }
+}
 
 }

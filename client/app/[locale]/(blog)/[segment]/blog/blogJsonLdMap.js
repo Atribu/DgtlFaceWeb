@@ -102070,6 +102070,1306 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"kvkk-cerez-banner-otel-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux",
+
+      "name": "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux",
+
+      "headline": "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum",
+
+      "name": "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum",
+
+      "description": "Otel sitelerinde KVKK ve cookie banner UX’i: metin, buton, yerleşim ve tercih paneliyle kullanıcıyı kaçırmadan güven–uyum dengesini kurma rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "KVKK",
+
+        "Cookie Banner",
+
+        "Consent Management",
+
+        "Privacy Policy",
+
+        "Data Protection",
+
+        "Hotel Website UX"
+
+      ],
+
+      "keywords": [
+
+        "kvkk cerez banner örnek",
+
+        "otel cookie consent tasarimi",
+
+        "data privacy ux otel web",
+
+        "kvkk compliant cookie banner ux",
+
+        "hotel consent management experience"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "KVKK & Çerez UX", "item": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çerez banner’ı otel sitelerinde nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kısa ve şeffaf bir metin, görünür “Tümünü Kabul Et” ve “Tercihleri Yönet” seçenekleri ve kategori bazlı bir tercih paneliyle kurgulanmalıdır. Kullanıcı tercihlerini sonradan değiştirebilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK uyumlu çerez metni nasıl yazılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Neyi neden kullandığınızı 2–3 cümlede anlatın ve detay için politika linki verin. Korkutucu ifadeler yerine sakin ve anlaşılır bir ton kullanın; kontrolün kullanıcıda olduğunu belirtin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tümünü kabul et ve tercihleri yönet butonları nasıl tasarlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Aynı görünürlük ve erişilebilirlikte olmalıdır; tercih yönetimi saklanmamalıdır. Buton metinleri net eylem belirtmeli ve kullanıcıyı yanıltmamalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "KVKK ve gizlilik sayfaları UX açısından nasıl daha okunur hale getirilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Başlıklarla bölümlendirin, kısa özet kutusu ekleyin ve uzun detayları gerektiğinde açılır yapı ile sunun. Sade Türkçe ve madde listeleri okunabilirliği artırır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"nextjs-otel-ux-core-web-vitals":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals",
+
+      "name": "Next.js Otel Web Sitelerinde UX ve Core Web Vitals Nasıl Birleşir?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals",
+
+      "headline": "Next.js Otel Web Sitelerinde UX ve Core Web Vitals Nasıl Birleşir?",
+
+      "name": "Next.js Otel Web Sitelerinde UX ve Core Web Vitals Nasıl Birleşir?",
+
+      "description": "Next.js altyapılı otel sitelerinde UX ile Core Web Vitals (LCP, CLS, INP) metriklerini birleştirerek daha hızlı ve akıcı bir rezervasyon deneyimi kurmak için pratik optimizasyon rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Next.js",
+
+        "Core Web Vitals",
+
+        "LCP",
+
+        "CLS",
+
+        "INP",
+
+        "Hotel Website",
+
+        "Reservation Funnel"
+
+      ],
+
+      "keywords": [
+
+        "nextjs otel web performans",
+
+        "core web vitals otel rezervasyon",
+
+        "otel nextjs ux en iyi uygulamalar",
+
+        "hotel nextjs performance",
+
+        "core web vitals for reservation ux"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Next.js & Core Web Vitals", "item": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Next.js ile otel web sitesi performansı nasıl iyileştirilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce LCP’nin kaynağını (hero/galeri) optimize edin, CLS yaratan slider/banner kaymalarını sabitleyin ve INP’yi bozan ağır JS/3rd-party script’leri azaltın. Sonra CWV raporlarıyla etkisini izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Core Web Vitals otel UX’ini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "LCP ilk izlenimi belirler, CLS güveni zedeler (sayfa kayarsa), INP ise etkileşim gecikmesiyle kullanıcıyı zorlar. Bu üçü rezervasyon akışında terk oranını etkileyebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "LCP ve CLS’yi düşürmek için tasarımda neler yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek hero görseli, kontrollü galeri ve sabit yüksekliğe sahip banner/slider kullanın. Kritik CTA ve fiyat/iptal bloklarını ilk ekrana yakın tutun; kayma yaratan dinamik alanları sabitleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rezervasyon sayfasında hangi elemanlar kritik kabul edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tarih/kişi seçimi, toplam fiyat/iptal özeti, ana CTA ve form alanları kritik içeriktir. Bu alanlar hızlı açılmalı ve etkileşim gecikmesi yaratmamalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/nextjs-otel-ux-core-web-vitals/#howto",
+
+      "name": "Next.js otel sitelerinde Core Web Vitals nasıl iyileştirilir?",
+
+      "description": "LCP/CLS/INP odaklı görsel, script ve render stratejisi iyileştirmeleriyle rezervasyon UX’ini hızlandırma yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "LCP’yi optimize et",
+
+          "text": "Hero/oda görsellerini optimize edin, kritik görseli önceliklendirin ve yanlış lazy-load’dan kaçının."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "CLS kaymalarını bitir",
+
+          "text": "Slider/banner alanlarını sabitleyin, font ve dinamik bileşenlerin layout kaymalarını azaltın."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "INP’yi iyileştir",
+
+          "text": "Ağır JS ve 3rd-party script’leri azaltın, etkileşimli bileşenleri dinamik import ile bölün ve rezervasyon sayfasını hafif tutun."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ota-vs-direkt-rezervasyon-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux",
+
+      "name": "OTA vs Direkt Rezervasyon Akışı: UX ile Doğru Kanalı Nasıl Güçlendirirsiniz?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux",
+
+      "headline": "OTA vs Direkt Rezervasyon Akışı: UX ile Doğru Kanalı Nasıl Güçlendirirsiniz?",
+
+      "name": "OTA vs Direkt Rezervasyon Akışı: UX ile Doğru Kanalı Nasıl Güçlendirirsiniz?",
+
+      "description": "OTA ile otel web sitesi arasındaki UX farklarını analiz ederek, direct booking kanalını güçlendirmek için hangi ekranlarda hangi mesaj ve bileşenleri kullanmanız gerektiğini stratejik çerçevede anlatan rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "OTA",
+
+        "Direct Booking",
+
+        "Rate Parity",
+
+        "Hotel Website UX",
+
+        "Reservation Funnel",
+
+        "Call Center"
+
+      ],
+
+      "keywords": [
+
+        "ota vs direct booking otel",
+
+        "direct booking avantaj ux",
+
+        "otel kanallari icin ux stratejisi",
+
+        "ota vs direct ux",
+
+        "direct booking optimisation"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "OTA vs Direct Booking UX", "item": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA ile direkt rezervasyon arasındaki fark UX’e nasıl yansır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "OTA kullanıcıları net fiyat/iptal ve hızlı karşılaştırmaya alışkındır. Web’de bu netlik yoksa kullanıcı risk hisseder ve geri döner; web’de şeffaflık, güven ve destek görünür olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemde direct booking avantajlarını nasıl göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda/fiyat ekranında görünen bir direct avantajlar kutusu kullanın ve 3–5 net maddeyle değer anlatın. İptal ve toplam fiyat şeffaflığını aynı blokta tutup CTA’ya yakınlaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "OTA’dan gelen kullanıcıya hangi mesajları vermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kısa bir direkt avantaj mesajı, net fiyat/iptal ve sosyal kanıt ile kullanıcıyı karşılayın. Hızlı rezervasyon başlangıcı (tarih seç) ve destek seçenekleri karar süresini kısaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rate parity direct booking iletişimini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat söylemi kontratsal sınırlara tabidir; bu yüzden daha ucuz yerine daha değerli (destek, esneklik, küçük ayrıcalıklar) anlatımı öne çıkarılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux/#howto",
+
+      "name": "Direct booking avantajları UX’te nasıl gösterilir?",
+
+      "description": "Rate parity sınırlarını gözeterek direct booking değerini şeffaflık, avantaj kutuları ve hızlı funnel ile görünür kılma yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Avantaj kutusunu ekle",
+
+          "text": "Oda/fiyat ekranına 3–5 maddelik direct booking avantaj kutusu yerleştir ve CTA’ya yakın konumlandır."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Şeffaflık bloğunu standardize et",
+
+          "text": "Toplam fiyat kapsamı ve iptal özetini tek bakışta görünür yap; ek ücretleri etiketle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "OTA trafiği için landing kurgula",
+
+          "text": "OTA’dan gelen kullanıcıyı kıyas niyetine uygun landing ile karşıla; sosyal kanıt ve hızlı rezervasyon başlangıcı sun."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-sadakat-programi-uyelik-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux",
+
+      "name": "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux",
+
+      "headline": "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
+
+      "name": "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
+
+      "description": "Otel sadakat programı ve üyelik deneyimini; kayıt, puan/avantaj sunumu, rezervasyon akışında üye fiyatı ve web–e-posta–call center uyumu üzerinden UX perspektifiyle yeniden tasarlamak için rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Loyalty Program",
+
+        "Membership",
+
+        "Member Rate",
+
+        "Hotel Website",
+
+        "CRM",
+
+        "Call Center"
+
+      ],
+
+      "keywords": [
+
+        "otel sadakat programi ux",
+
+        "member rate rezervasyon deneyimi",
+
+        "otel crm uye yolculugu",
+
+        "hotel loyalty ux",
+
+        "member rate booking experience"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Sadakat Programı UX’i", "item": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel sadakat programı UX’i nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Üyelik faydasını ilk saniyelerde netleştirmeli, kayıt formunu kısa tutmalı ve puan/avantajları görsel olarak anlatmalıdır. Rezervasyonda üye fiyatı şeffaf kıyasla sunulmalı ve omnichannel iletişimle tutarlı olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Üyelik formunu kaç alana indirmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İlk kayıt için 3–5 alan genelde yeterlidir (e-posta/telefon, şifre/OTP, ad gibi). Diğer bilgiler profil içinde daha sonra toplanmalıdır; aksi halde kayıt sürtünmesi artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Puan ve avantajları misafire nasıl net gösteririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Toplam puan + ilerleme + avantaj kartları yapısı kullanın. Avantajları 3–5 kartla sınırlayın ve her kartı tek cümle kazanım diliyle yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Üyelere özel fiyatları rezervasyon akışında nasıl sunarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Üye fiyatı ve normal fiyatı aynı ekranda, aynı kapsam ve iptal netliğiyle gösterin. Üyelik CTA’sını hızlı kayıt ile destekleyin ve akışı bölmeyecek şekilde kurgulayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ux-dark-pattern-kacinin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin",
+
+      "name": "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin",
+
+      "headline": "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler",
+
+      "name": "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler",
+
+      "description": "Otel web UX’inde sık görülen dark pattern örnekleri (sahte kıtlık, gizli ücret, zor pop-up, önceden tikli kutular) ve bunların yerine uygulanabilecek şeffaf, etik UX alternatifleri rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Dark Pattern",
+
+        "Hotel Website UX",
+
+        "Transparency",
+
+        "Pricing",
+
+        "Cancellation Policy",
+
+        "Trust",
+
+        "Data Protection"
+
+      ],
+
+      "keywords": [
+
+        "otel web dark pattern ornekleri",
+
+        "seffaf fiyatlama otel ux",
+
+        "etik rezervasyon tasarimi",
+
+        "ethical hotel ux",
+
+        "avoiding dark patterns in booking"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Dark Pattern’ler", "item": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ux-dark-pattern-kacinin/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dark pattern nedir, otel web sitelerinde hangi örnekler görülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dark pattern, kullanıcıyı yanıltan veya zorlayan tasarımdır. Otelde sahte “son oda”, gizli ücret, zor kapatılan pop-up, önceden işaretli kutular ve yanıltıcı CTA metinleri sık görülür."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Fiyat ve iptal koşullarında hangi UX hatalarından kaçınmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Toplam fiyat kapsamını saklamak, iptal koşullarını belirsiz bırakmak ve ek ücretleri son aşamada göstermek güveni zedeler. Şeffaf toplam fiyat ve 1 satır iptal özeti daha etik bir yaklaşımdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Son 1 oda kaldı uyarıları her zaman doğru mu?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gerçek envantere dayanıyorsa doğru olabilir; ancak sürekli ve herkese gösteriliyorsa yanıltıcı hale gelir. Şeffaf “bu tarihler popüler” gibi koşullu mesajlar daha etik bir alternatiftir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etik ve şeffaf UX için neler yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Fiyat/iptal/ek ücret şeffaflığını erken gösterin, pop-up’ları azaltın, pre-checked kutuları kaldırın ve nötr microcopy kullanın. Cookie/izin yönetiminde kullanıcı kontrolünü görünür kılın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

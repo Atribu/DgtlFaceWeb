@@ -49876,6 +49876,257 @@ export const BLOG_MEDIA_MAP = {
       alt: "Zincir otel IA şablonu ve funnel tasarımı deliverables kartı",
       caption: "Zincir otel IA şablonu ve funnel tasarımı deliverables kartı"
     }
+  },
+
+  "kvkk-cerez-banner-otel-ux":{
+    banner: {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-1.webp",
+      alt: "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum",
+      caption: "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-2.webp",
+      alt: "Banner→tercih paneli→rezervasyon akışı ilişkisini anlatan bağlam görseli",
+      caption: "Banner→tercih paneli→rezervasyon akışı ilişkisini anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-3.webp",
+    alt: "Cookie banner tasarımına geçiş bölüm ayırıcı görseli",
+      caption: "Cookie banner tasarımına geçiş bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-4.webp",
+      alt: "KVKK ve gizlilik sayfası okunabilirliği bölüm ayırıcı görseli",
+      caption: "KVKK ve gizlilik sayfası okunabilirliği bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-5.webp",
+      alt: "Consent management akışı: banner, panel, loglama şeması",
+      caption: "Consent management akışı: banner, panel, loglama şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-6.webp",
+      alt: "KVKK ve çerez banner UX checklist kartı",
+      caption: "KVKK ve çerez banner UX checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-7.webp",
+      alt: "Güven ve consent KPI skor kartı",
+      caption: "Güven ve consent KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-15/Creative2-15-8.webp",
+      alt: "KVKK & cookie UX audit deliverables kanıt kartı",
+      caption: "KVKK & cookie UX audit deliverables kanıt kartı"
+    }
+  },
+
+  "nextjs-otel-ux-core-web-vitals":{
+    banner: {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-1.webp",
+      alt: "Next.js Otel Web Sitelerinde UX ve Core Web Vitals Nasıl Birleşir?",
+      caption: "Next.js Otel Web Sitelerinde UX ve Core Web Vitals Nasıl Birleşir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-2.webp",
+      alt: "Rezervasyon sayfasında kritik içerik yerleşimini anlatan bağlam görseli",
+      caption: "Rezervasyon sayfasında kritik içerik yerleşimini anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-3.webp",
+    alt: "CWV metrikleri ve rezervasyon deneyimi bölüm ayırıcı görseli",
+      caption: "CWV metrikleri ve rezervasyon deneyimi bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-4.webp",
+      alt: "Görsel ve script optimizasyonu bölüm ayırıcı görseli",
+      caption: "Görsel ve script optimizasyonu bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-5.webp",
+      alt: "Next.js SSR/SSG ve performans akışını gösteren diyagram",
+      caption: "Next.js SSR/SSG ve performans akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-6.webp",
+      alt: "Core Web Vitals UX checklist kartı: LCP CLS INP iyileştirmeleri",
+      caption: "Core Web Vitals UX checklist kartı: LCP CLS INP iyileştirmeleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-7.webp",
+      alt: "LCP CLS INP ve rezervasyon KPI skor kartı",
+      caption: "LCP CLS INP ve rezervasyon KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-16/Creative2-16-8.webp",
+      alt: "Next.js performans analizi deliverables ve aksiyon planı kartı",
+      caption: "Next.js performans analizi deliverables ve aksiyon planı kartı"
+    }
+  },
+
+  "ota-vs-direkt-rezervasyon-ux":{
+     banner: {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-1.webp",
+      alt: "OTA vs Direkt Rezervasyon Akışı: UX ile Doğru Kanalı Nasıl Güçlendirirsiniz?",
+      caption: "OTA vs Direkt Rezervasyon Akışı: UX ile Doğru Kanalı Nasıl Güçlendirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-2.webp",
+      alt: "OTA’dan web’e gelen kullanıcı yolculuğu ve direct avantajlar bağlam görseli",
+      caption: "OTA’dan web’e gelen kullanıcı yolculuğu ve direct avantajlar bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-3.webp",
+    alt: "Direct booking avantajları bölüm geçiş ayırıcı görseli",
+      caption: "Direct booking avantajları bölüm geçiş ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-4.webp",
+      alt: "Fiyat ve iade koşulu şeffaflığı bölüm ayırıcı görseli",
+      caption: "Fiyat ve iade koşulu şeffaflığı bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-5.webp",
+      alt: "OTA vs direct funnel ve avantaj kutusu yerleşimini gösteren diyagram",
+      caption: "OTA vs direct funnel ve avantaj kutusu yerleşimini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-6.webp",
+      alt: "Direct booking UX checklist kartı otel bağlamı",
+      caption: "Direct booking UX checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-7.webp",
+      alt: "Direct booking KPI ve dönüşüm skor kartı otel bağlamı",
+      caption: "Direct booking KPI ve dönüşüm skor kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-17/Creative2-17-8.webp",
+      alt: "Landing şablonu ve direct booking deliverables kanıt kartı",
+      caption: "Landing şablonu ve direct booking deliverables kanıt kartı"
+    }
+  },
+
+  "otel-sadakat-programi-uyelik-ux":{
+    banner: {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-1.webp",
+      alt: "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
+      caption: "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-2.webp",
+      alt: "Üyelikten rezervasyona uzanan sadakat yolculuğunu gösteren bağlam görseli",
+      caption: "Üyelikten rezervasyona uzanan sadakat yolculuğunu gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-3.webp",
+    alt: "Üyelik kaydı ve hesap oluşturma bölüm ayırıcı görseli",
+      caption: "Üyelik kaydı ve hesap oluşturma bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-4.webp",
+      alt: "Puan ve avantaj görselleştirme bölüm ayırıcı görseli",
+      caption: "Puan ve avantaj görselleştirme bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-5.webp",
+      alt: "Puan/avantaj kartları ve üyelik yolculuğu şeması",
+      caption: "Puan/avantaj kartları ve üyelik yolculuğu şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-6.webp",
+      alt: "Sadakat programı üyelik UX checklist kartı",
+      caption: "Sadakat programı üyelik UX checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-7.webp",
+      alt: "Üyelik dönüşümü ve member rate KPI skor kartı",
+      caption: "Üyelik dönüşümü ve member rate KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-18/Creative2-18-8.webp",
+      alt: "Sadakat programı UX akış deliverables kanıt kartı",
+      caption: "Sadakat programı UX akış deliverables kanıt kartı"
+    }
+  },
+
+
+  "otel-ux-dark-pattern-kacinin":{
+    banner: {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-1.webp",
+      alt: "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler",
+      caption: "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-2.webp",
+      alt: "Dark pattern örnekleri ve etik alternatifleri özetleyen bağlam görseli",
+      caption: "Dark pattern örnekleri ve etik alternatifleri özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-3.webp",
+    alt: "Yaygın dark pattern örnekleri bölüm ayırıcı görseli",
+      caption: "Yaygın dark pattern örnekleri bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-4.webp",
+      alt: "Şeffaf fiyat ve iptal tasarımı bölüm ayırıcı görseli",
+      caption: "Şeffaf fiyat ve iptal tasarımı bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-5.webp",
+      alt: "Dark pattern türleri ve etik alternatifler karşılaştırma şeması”",
+      caption: "Dark pattern türleri ve etik alternatifler karşılaştırma şeması”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-6.webp",
+      alt: "Etik otel UX checklist kartı: yapma/yap",
+      caption: "Etik otel UX checklist kartı: yapma/yap"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-7.webp",
+      alt: "Güven ve terk KPI skor kartı",
+      caption: "Güven ve terk KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-19/Creative2-19-8.webp",
+      alt: "Dark pattern audit deliverables ve etik UX planı kanıt kart",
+      caption: "Dark pattern audit deliverables ve etik UX planı kanıt kart"
+    }
   }
   
 };

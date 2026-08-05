@@ -621,7 +621,12 @@ export const BLOG_MAP = {
     "otel-design-system-ui-kit":"BlogOtelDesignSystemUiKit",
     "otel-ux-writing-microcopy":"BlogOtelUxWritingMicrocopy",
     "otel-ux-metrikleri-heatmap-ab-test":"BlogOtelUxMetrikleriHeatmapAbTest",
-    "multi-otel-grup-web-ia-ux":"BlogMultiOtelGrupWebIaUx"
+    "multi-otel-grup-web-ia-ux":"BlogMultiOtelGrupWebIaUx",
+    "kvkk-cerez-banner-otel-ux":"BlogKvkkCerezBannerOtelUx",
+    "nextjs-otel-ux-core-web-vitals":"BlogNextjsOtelUxCoreWebVitals",
+    "ota-vs-direkt-rezervasyon-ux":"BlogOtaVsDirektRezervasyonUx",
+    "otel-sadakat-programi-uyelik-ux":"BlogOtelSadakatProgramiUyelikUx",
+    "otel-ux-dark-pattern-kacinin":"BlogOtelUxDarkPatternKacinin"
     
   },
 
