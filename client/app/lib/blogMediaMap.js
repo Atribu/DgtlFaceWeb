@@ -50106,8 +50106,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/creative/Creative2-19/Creative2-19-5.webp",
-      alt: "Dark pattern türleri ve etik alternatifler karşılaştırma şeması”",
-      caption: "Dark pattern türleri ve etik alternatifler karşılaştırma şeması”"
+      alt: "Dark pattern türleri ve etik alternatifler karşılaştırma şeması",
+      caption: "Dark pattern türleri ve etik alternatifler karşılaştırma şeması"
     },
 
           "checklist-06": {
@@ -50126,6 +50126,306 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/creative/Creative2-19/Creative2-19-8.webp",
       alt: "Dark pattern audit deliverables ve etik UX planı kanıt kart",
       caption: "Dark pattern audit deliverables ve etik UX planı kanıt kart"
+    }
+  },
+
+  "otel-oncesi-sonrasi-iletisim-ux":{
+    banner: {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-1.webp",
+      alt: "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+      caption: "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-2.webp",
+      alt: "Web, e-posta ve WhatsApp temas noktalarını tek journey’de gösteren bağlam görseli",
+      caption: "Web, e-posta ve WhatsApp temas noktalarını tek journey’de gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-3.webp",
+    alt: "Konaklama öncesi dijital deneyim bölüm ayırıcı görseli",
+      caption: "Konaklama öncesi dijital deneyim bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-4.webp",
+      alt: "Konaklama sırasında Wi-Fi landing ve dijital dokunuşlar bölüm ayırıcı görseli",
+      caption: "Konaklama sırasında Wi-Fi landing ve dijital dokunuşlar bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-5.webp",
+      alt: "Öncesi–sırası–sonrası kullanıcı yolculuğu şeması ve kanal akışı diyagramı",
+      caption: "Öncesi–sırası–sonrası kullanıcı yolculuğu şeması ve kanal akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-6.webp",
+      alt: "Pre-stay in-stay post-stay checklist kartı: hızlı uygulanabilir adımlar",
+      caption: "Pre-stay in-stay post-stay checklist kartı: hızlı uygulanabilir adımlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-7.webp",
+      alt: "Misafir yolculuğu KPI paneli: e-posta, WhatsApp, NPS ve tekrar rezervasyon",
+      caption: "Misafir yolculuğu KPI paneli: e-posta, WhatsApp, NPS ve tekrar rezervasyon"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-20/Creative2-20-8.webp",
+      alt: "Şablon seti ve journey map deliverables kanıt kartı",
+      caption: "Şablon seti ve journey map deliverables kanıt kartı"
+    }
+  },
+
+  "otel-ui-ux-trendleri-2025-2026":{
+    banner: {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-1.webp",
+      alt: "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+      caption: "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-2.webp",
+      alt: "Social-first anasayfa ve dikey video ile hızlı rezervasyon akışı otel bağlamı",
+      caption: "Social-first anasayfa ve dikey video ile hızlı rezervasyon akışı otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-3.webp",
+    alt: "Fullscreen hero ve dikey video trend geçişi otel bağlamı",
+      caption: "Fullscreen hero ve dikey video trend geçişi otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-4.webp",
+      alt: "Dark mode ve premium görsel dil trend geçişi otel bağlamı",
+      caption: "Dark mode ve premium görsel dil trend geçişi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-5.webp",
+      alt: "Dikey video, poster ve CTA yerleşimi akışı otel bağlamı",
+      caption: "Dikey video, poster ve CTA yerleşimi akışı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-6.webp",
+      alt: "Otel UX trendleri uygulama checklist kartı otel bağlamı",
+      caption: "Otel UX trendleri uygulama checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-7.webp",
+      alt: "Trend uygulamalarının etkileşim ve rezervasyon KPI paneli otel bağlamı",
+      caption: "Trend uygulamalarının etkileşim ve rezervasyon KPI paneli otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-21/Creative2-21-8.webp",
+      alt: "Trend planı deliverables ve pattern seti kanıt kartı otel bağlamı",
+      caption: "Trend planı deliverables ve pattern seti kanıt kartı otel bağlamı"
+    }
+  },
+
+  "ai-kisisellestirme-otel-ux":{
+     banner: {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-1.webp",
+      alt: "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+      caption: "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-2.webp",
+      alt: "Social-first anasayfa ve dikey video ile hızlı rezervasyon akışı otel bağlamı",
+      caption: "Social-first anasayfa ve dikey video ile hızlı rezervasyon akışı otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-3.webp",
+    alt: "Fullscreen hero ve dikey video trend geçişi otel bağlamı",
+      caption: "Fullscreen hero ve dikey video trend geçişi otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-4.webp",
+      alt: "Dark mode ve premium görsel dil trend geçişi otel bağlamı",
+      caption: "Dark mode ve premium görsel dil trend geçişi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-5.webp",
+      alt: "Dikey video, poster ve CTA yerleşimi akışı otel bağlamı",
+      caption: "Dikey video, poster ve CTA yerleşimi akışı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-6.webp",
+      alt: "Otel UX trendleri uygulama checklist kartı otel bağlamı",
+      caption: "Otel UX trendleri uygulama checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-7.webp",
+      alt: "Trend uygulamalarının etkileşim ve rezervasyon KPI paneli otel bağlamı",
+      caption: "Trend uygulamalarının etkileşim ve rezervasyon KPI paneli otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-22/Creative2-22-8.webp",
+      alt: "Trend planı deliverables ve pattern seti kanıt kartı otel bağlamı",
+      caption: "Trend planı deliverables ve pattern seti kanıt kartı otel bağlamı"
+    }
+  },
+
+  "voice-search-chatbot-otel-ux":{
+     banner: {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-1.webp",
+      alt: "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+      caption: "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-2.webp",
+      alt: "Voice search, FAQ ve bot entegrasyonunu gösteren bağlam görseli",
+      caption: "Voice search, FAQ ve bot entegrasyonunu gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-3.webp",
+    alt: "Voice search’e uygun içerik yazımı bölüm ayırıcı görseli",
+      caption: "Voice search’e uygun içerik yazımı bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-4.webp",
+      alt: "FAQ/SSS’yi sesli ve chat’e hazırlama bölüm ayırıcı görseli",
+      caption: "FAQ/SSS’yi sesli ve chat’e hazırlama bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-5.webp",
+      alt: "Call center + bot entegrasyonu ve devir akış şeması otel bağlamı",
+      caption: "Call center + bot entegrasyonu ve devir akış şeması otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-6.webp",
+      alt: "Voice search ve chatbot hazırlık checklist kartı otel bağlamı",
+      caption: "Voice search ve chatbot hazırlık checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-7.webp",
+      alt: "Bot çözüm oranı ve rezervasyon KPI paneli kartı otel bağlamı",
+      caption: "Bot çözüm oranı ve rezervasyon KPI paneli kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-23/Creative2-23-8.webp",
+      alt: "FAQ soru seti ve chatbot akış şablonu deliverables kanıt kartı otel bağlamı",
+      caption: "FAQ soru seti ve chatbot akış şablonu deliverables kanıt kartı otel bağlamı"
+    }
+  },
+
+  "ar-vr-3d-otel-deneyimi-ux":{
+    banner: {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-1.webp",
+      alt: "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+      caption: "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-2.webp",
+      alt: "Statik galeri ile 3D tur arasında rezervasyon akışını gösteren bağlam görseli",
+      caption: "Statik galeri ile 3D tur arasında rezervasyon akışını gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-3.webp",
+      alt: "3D/360 tur yerleşimi ve CTA bölüm ayırıcı görseli",
+      caption: "3D/360 tur yerleşimi ve CTA bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-4.webp",
+      alt: "Mobil 3D/VR kullanım ipuçları bölüm ayırıcı görseli",
+      caption: "Mobil 3D/VR kullanım ipuçları bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-5.webp",
+      alt: "3D/360 tur yerleşimi ve CTA akış şeması",
+      caption: "3D/360 tur yerleşimi ve CTA akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-6.webp",
+      alt: "3D/360 tur UX checklist kartı otel bağlamı",
+      caption: "3D/360 tur UX checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-7.webp",
+      alt: "3D tur etkileşim ve rezervasyon KPI paneli otel bağlamı",
+      caption: "3D tur etkileşim ve rezervasyon KPI paneli otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-24/Creative2-24-8.webp",
+      alt: "3D tur yerleşim ve CTA şablonu deliverables kanıt kartı",
+      caption: "3D tur yerleşim ve CTA şablonu deliverables kanıt kartı"
+    }
+  },
+
+  "gen-z-otel-ux-sosyal-nesil":{
+    banner: {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-1.webp",
+      alt: "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+      caption: "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-2.webp",
+      alt: "Statik galeri ile 3D tur arasında rezervasyon akışını gösteren bağlam görseli",
+      caption: "Statik galeri ile 3D tur arasında rezervasyon akışını gösteren bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-3.webp",
+      alt: "3D/360 tur yerleşimi ve CTA bölüm ayırıcı görseli",
+      caption: "3D/360 tur yerleşimi ve CTA bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-4.webp",
+      alt: "Mobil 3D/VR kullanım ipuçları bölüm ayırıcı görseli",
+      caption: "Mobil 3D/VR kullanım ipuçları bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-5.webp",
+      alt: "3D/360 tur yerleşimi ve CTA akış şeması",
+      caption: "3D/360 tur yerleşimi ve CTA akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-6.webp",
+      alt: "3D/360 tur UX checklist kartı otel bağlamı",
+      caption: "3D/360 tur UX checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-7.webp",
+      alt: "3D tur etkileşim ve rezervasyon KPI paneli otel bağlamı",
+      caption: "3D tur etkileşim ve rezervasyon KPI paneli otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-25/Creative2-25-8.webp",
+      alt: "3D tur yerleşim ve CTA şablonu deliverables kanıt kartı",
+      caption: "3D tur yerleşim ve CTA şablonu deliverables kanıt kartı"
     }
   }
   

@@ -103370,6 +103370,1647 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+"otel-oncesi-sonrasi-iletisim-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux",
+
+      "name": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux",
+
+      "headline": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+
+      "name": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+
+      "description": "Oteller için misafir UX’ini öncesi–sırası–sonrası şeklinde kurgulayarak web, e-posta, WhatsApp ve call center kanallarında tutarlı UI/UX ile uçtan uca deneyim tasarlama rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Guest Journey",
+
+        "Pre-Stay",
+
+        "In-Stay",
+
+        "Post-Stay",
+
+        "Email UX",
+
+        "WhatsApp",
+
+        "Wi-Fi Landing",
+
+        "Call Center"
+
+      ],
+
+      "keywords": [
+
+        "otel misafir yolculuğu oncesi sonrasi",
+
+        "whatsapp otel misafir deneyimi",
+
+        "wifi landing sayfasi otel ux",
+
+        "omnichannel ux for resorts",
+
+        "hotel guest journey pre during post"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Uçtan Uca Misafir UX’i", "item": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Konaklama öncesi–sırası–sonrası misafir UX’i nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Pre-stay’de onay ve hazırlık bilgisi verin, in-stay’de Wi-Fi landing/QR sayfalarıyla hızlı bilgi ve destek sağlayın, post-stay’de teşekkür–NPS–yorum–sadakat adımlarını tek hedefli mesajlarla kurgulayın. Tüm kanallarda aynı ton ve CTA sözlüğünü kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Rezervasyon onay e-postasında neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rezervasyon özeti, check-in/out, iptal özeti, konum linki ve tek bir ana CTA olmalı. Yardım kanalı görünür olmalı; upsell/upgrade tek ve hafif bir öneriyle sunulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "WhatsApp ile misafir iletişimini UX açısından nasıl kurgulamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İzinli iletişim kurun, kritik anlara odaklanın ve her mesajda tek CTA verin. Spam hissi yaratacak sıklıktan kaçının; yardım ve bilgilendirme rolünü net tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çıkış sonrası anket ve yorum çağrısı nasıl tasarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek soruluk NPS ile başlayın, ardından kısa yorum çağrısı yapın. Sadakat/tekrar teklifini ayrı hedefle sunarak mesajları karıştırmayın."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux/#howto",
+
+      "name": "Öncesi–sırası–sonrası dijital misafir UX’i nasıl kurgulanır?",
+
+      "description": "Pre-stay onay ve bilgilendirme, in-stay dijital dokunuşlar ve post-stay NPS/yorum/sadakat adımlarını web, e-posta, WhatsApp ve call center ile tutarlı kurgulama yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Pre-stay akışını kur",
+
+          "text": "Rezervasyon onayı, hazırlık bilgisi ve tek bir upsell önerisini kısa e-posta ve izinli WhatsApp mesajıyla sun."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "In-stay dokunuşları tasarla",
+
+          "text": "Wi-Fi landing ve QR sayfalarında 4–6 kısayolla menü/aktivite/yardım erişimi ver; chat/WhatsApp ile talep yönet."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Post-stay geri bildirim ve sadakat",
+
+          "text": "Teşekkür, tek soruluk NPS, yorum çağrısı ve sadakat teklifini tek hedefli mesajlarla kurgula; KPI’ları takip et."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ui-ux-trendleri-2025-2026":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026",
+
+      "name": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026",
+
+      "headline": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+
+      "name": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+
+      "description": "2025–2026 döneminde otel web sitelerinde öne çıkan UI/UX trendlerini; dikey video, sosyal entegrasyon, sade rezervasyon akışları, micro interaction, dark mode ve AI destekli deneyim kartları üzerinden açıklayan rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Hotel Web Design Trends",
+
+        "Dikey Video",
+
+        "Social Feed",
+
+        "Dark Mode",
+
+        "Micro Interaction",
+
+        "AI Personalization"
+
+      ],
+
+      "keywords": [
+
+        "2025 otel web tasarim trendleri",
+
+        "hotel ux trends 2026",
+
+        "sosyal medya entegre otel anasayfa",
+
+        "hotel web design trends",
+
+        "social-first hotel ux"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "2025–2026 Otel UX Trendleri", "item": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "2025–2026 otel web tasarım trendleri neler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dikey video ve social-first bloklar, minimal rezervasyon akışları, micro interaction’lar, premium dark/light temalar ve AI öneri kartları öne çıkıyor. Trendler CWV bozmadan uygulanmalı."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemde hangi UI/UX trendlerini uygulamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Marka segmentinize ve hedef kitlenize göre 2–3 trend seçin: mobile-first resort için dikey video + minimal funnel; premium butik için dark mode + micro interaction. Her trendin performans riskini kontrol edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dikey video ve sosyal entegrasyon UX’i nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru kullanıldığında hızlı kanıt ve etkileşim sağlar; yanlış kullanıldığında sayfayı ağırlaştırır. Poster, lazy-load ve tek CTA yaklaşımı kritik."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dark mode otel siteleri için uygun mu?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Premium algıyı güçlendirebilir; ancak kontrast ve okunabilirlik doğru yönetilmezse zorlayıcı olur. Opsiyonel sunmak ve test etmek daha güvenlidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026/#howto",
+
+      "name": "Otel web UX trendleri CWV bozmadan nasıl uygulanır?",
+
+      "description": "Dikey video, sosyal entegrasyon ve micro interaction trendlerini poster, lazy-load ve performans bütçesiyle uygulama yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "3 trend seç ve pattern’leştir",
+
+          "text": "Hedef kitleye göre 2–3 trend seç (video, minimal funnel, micro interaction) ve UI blokları olarak standardize et."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Video ve embed’leri performansla yönet",
+
+          "text": "Poster kullan, lazy-load uygula, embed’leri gecikmeli yükle ve sayfada tek hedefli CTA bırak."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ölç ve yinele",
+
+          "text": "Scroll/CTA/rezervasyon başlangıcını ve CWV metriklerini izleyerek kazanan pattern’i kalıcı hale getir."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ai-kisisellestirme-otel-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux",
+
+      "name": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux",
+
+      "headline": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+
+      "name": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+
+      "description": "AI destekli otel UX’i için kişiselleştirme kartları, öneri motorları ve chatbot akışlarını PMS/CRM entegrasyonu, şeffaf microcopy ve KVKK/performans disipliniyle ele alan rehber.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "AI Personalization",
+
+        "Recommendation Engine",
+
+        "Chatbot",
+
+        "Conversational UX",
+
+        "PMS",
+
+        "CRM",
+
+        "Hotel Website"
+
+      ],
+
+      "keywords": [
+
+        "ai otel web kisisellestirme",
+
+        "otel chatbot rezervasyon deneyimi",
+
+        "pms crm verisi ile oneri motoru",
+
+        "ai powered hotel ux",
+
+        "personalised room recommendations"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim/#service",
+
+      "name": "UI & UX Tasarımı",
+
+      "serviceType": "UI/UX Design",
+
+      "url": "https://dgtlface.com/tr/creative/ui-ux-tasarim",
+
+      "provider": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI Kişiselleştirme Otel UX", "item": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yapay zeka ile otel web sitemde kişiselleştirme nasıl yaparım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce hedefi seçin (karar hızlandırma mı upsell mi), sonra sinyali belirleyin (tarih, kişi, previous stay). 3 kartı geçmeyen öneri alanları kurup şeffaf microcopy ekleyin ve KPI’larla ölçerek iterasyon yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Chatbot otel rezervasyonlarında nasıl çalışmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Chatbot, SSS ve yönlendirmede güçlüdür; karmaşık senaryolarda insana devir zorunludur. Akışı SSS → rezervasyon başlangıcı → temsilciye geçiş şeklinde kurgulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI öneri kartları rezervasyonları artırır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru yerde, az sayıda ve fayda odaklı sunulursa cross-sell/upsell’i destekleyebilir. Aşırı öneri veya agresif dil spam algısı yaratır ve etkileşimi düşürebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "PMS/CRM verisini UX’te nasıl kullanabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Segment ve önceki tercihler gibi sinyallerle öneri kartı sıralaması yapabilirsiniz. İzin/KVKK çerçevesinde ve “neden öneriyoruz” açıklamasıyla şeffaf kalmanız gerekir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux/#howto",
+
+      "name": "Otel web sitelerinde AI ile kişiselleştirme nasıl yapılır?",
+
+      "description": "Sinyal seçimi, öneri kartı tasarımı, chatbot akışı ve şeffaflık microcopy’siyle AI kişiselleştirmeyi otel UX’ine entegre etme yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Hedef ve sinyali belirle",
+
+          "text": "Kişiselleştirmenin hedefini seç (upsell/karar hızlandırma) ve kullanılacak sinyalleri tanımla (tarih, kişi, davranış, previous stay)."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Öneri kartlarını kur",
+
+          "text": "3 kartı geçmeyen öneri alanı tasarla; her kartta tek fayda ve tek CTA kullan; kullanıcı kontrolü ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Chatbot ve şeffaflığı ekle",
+
+          "text": "Botu SSS→yönlendirme→insana devir akışıyla kurgula; “tercihlerinize göre öneriyoruz” microcopy’si ve KVKK linki ekle; performansı lazy-load ile koru."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"voice-search-chatbot-otel-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux",
+
+      "name": "Sesli Arama, Chatbot ve Otel UX’i: Konuşarak Rezervasyon Dönemi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux",
+
+      "headline": "Sesli Arama, Chatbot ve Otel UX’i: Konuşarak Rezervasyon Dönemi",
+
+      "name": "Sesli Arama, Chatbot ve Otel UX’i: Konuşarak Rezervasyon Dönemi",
+
+      "description": "Sesli arama kalıpları, chatbot/voicebot diyalogları ve FAQ/SSS yapılarını otel UX’i için uyarlama; bot–operatör entegrasyonu ve KVKK/performans notlarıyla uygulama rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Voice Search",
+
+        "Chatbot",
+
+        "Voicebot",
+
+        "FAQ",
+
+        "Call Center",
+
+        "Hotel Website UX"
+
+      ],
+
+      "keywords": [
+
+        "sesli arama otel seo",
+
+        "otel chatbot ornek sorular",
+
+        "hospitality conversational ux",
+
+        "voice search optimisation for hotels",
+
+        "faq design for chatbots"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sesli Arama & Chatbot Otel UX", "item": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sesli arama otel web sitemi nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kullanıcılar daha çok soru cümleleriyle arar ve kısa, net cevap ister. Soru başlıkları ve 1–2 cümlelik cevap blokları sesli sonuçlarda ve chatbot akışlarında avantaj sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İçeriği voice search için nasıl yazmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "H2/H3’leri soru formatında yazın ve hemen altında 40–60 kelimelik net cevap verin. ‘yakınımdaki oteller’ ve ‘Antalya all inclusive hotel’ gibi kalıpları içerikte doğal şekilde kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel chatbot’u rezervasyon sürecinde nasıl kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Chatbot SSS ve yönlendirmede güçlüdür; kullanıcıyı tarih seçimi ve oda listesine hızlı taşır. Karmaşık senaryolarda insana devir seçeneği görünür olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Chatbot ve çağrı merkezi birlikte nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bot soruyu kısa cevaplayıp konuşma özeti çıkarır; çözemezse operatöre devreder. Kullanıcı aynı bilgileri tekrar yazmadan devam edebilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux/#howto",
+
+      "name": "Otel web sitenizi sesli arama ve chatbot’lara nasıl hazırlarsınız?",
+
+      "description": "Soru başlıkları, kısa cevap blokları, FAQ standardı ve bot→operatör devir kurgusuyla konuşma tabanlı otel UX hazırlama yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Soru setini çıkar ve içerikte kullan",
+
+          "text": "TR/EN çekirdek sesli arama sorgularını belirle; H2/H3’leri soru formatında yaz ve her sorunun altında kısa cevap bloğu ver."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "FAQ’yi tek kaynak gerçek yap",
+
+          "text": "FAQ/SSS’yi web ve bot için ortak kaynak yap; kısa cevap + detay link modelini uygula."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Botu kur ve insana devir ekle",
+
+          "text": "Chatbot’u SSS→yönlendirme→rezervasyon CTA akışıyla kurgula; karmaşık durumlarda operatöre devir butonu ve konuşma özeti transferi ekle."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"ar-vr-3d-otel-deneyimi-ux":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux",
+
+      "name": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux",
+
+      "headline": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+
+      "name": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+
+      "description": "Otel web UX’inde AR/VR/3D turları doğru yerleştirme: CTA ve ikon tasarımları, mobil kullanım ipuçları ve lazy-load/placeholder ile performans (CWV) disiplini rehberi.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "AR",
+
+        "VR",
+
+        "3D Tour",
+
+        "360° Tour",
+
+        "Hotel Room",
+
+        "WebGL",
+
+        "Performance"
+
+      ],
+
+      "keywords": [
+
+        "3d oda turu otel web",
+
+        "360 sanal tur ux ipuclari",
+
+        "ar vr otel deneyimi webde",
+
+        "ar vr hotel website experience",
+
+        "3d room tours for resorts"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "AR/VR/3D Otel Deneyimi", "item": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "3D oda turu otel UX’inde nereye konmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En iyi yer genellikle oda detayı sayfasında galeri ve oda özelliklerinin hemen yanıdır. Kullanıcı karar anında turu başlatmalı ve turdan çıkınca fiyat/iptal + rezervasyon CTA’sına geri dönmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AR/VR deneyimi misafir kararını etkiler mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Odayı ve mekânı daha iyi kanıtladığı için karar süresini kısaltabilir. Ancak ağır/karmaşık deneyimler bazı kullanıcıları yorup terk yaratabilir; kontrollü ve isteğe bağlı sunum önerilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mobilde 360° tur nasıl kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sürükle/yakınlaştır/tam ekran gibi kısa UI ipuçları verilmeli ve kapat butonu her zaman görünür olmalıdır. Düşük internet senaryosu için hafif placeholder ve kademeli yükleme düşünülmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "3D ve video arasında nasıl seçim yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Video atmosfer ve hikâye için, 3D/360 tur ise oda/alan kanıtı için daha uygundur. Statik galeri temel katman olmalı; 3D/360 derinleştirme olarak sunulmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux/#howto",
+
+      "name": "Otel web’de 3D ve 360° turlar nasıl yerleştirilir?",
+
+      "description": "3D/360 turu karar anına koyma, mobil kullanım ipuçları verme ve lazy-load/placeholder ile CWV’yi koruma yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Karar anını seç ve CTA’yı yerleştir",
+
+          "text": "3D/360 tur girişini oda detayı sayfasında galeri ve oda özelliklerinin yakınına koy; net ‘Odayı Keşfet’ CTA’sı ekle."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Mobil kontrol ve çıkış deneyimini tasarla",
+
+          "text": "Sürükle/yakınlaştır ipuçları ver; tam ekran ve kapat butonunu erişilebilir yap; turdan çıkınca kullanıcıyı fiyat/rezervasyon bloğuna döndür."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Performansı koru",
+
+          "text": "Poster/placeholder kullan; player’ı kullanıcı isterse yükle; sabit alanla CLS’yi önle ve ağır script’leri sayfa bazlı yönet."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"gen-z-otel-ux-sosyal-nesil":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil/#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil",
+
+      "name": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil/#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil",
+
+      "headline": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+
+      "name": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+
+      "description": "Gen Z misafir personasına göre otel web UX’ini dikey video, story formatı, UGC/influencer sosyal kanıtı ve hızlı rezervasyon akışıyla uyarlama rehberi; social-to-site funnel örnekleriyle.",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil/#webpage" },
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "about": [
+
+        "Gen Z",
+
+        "Dikey Video",
+
+        "Story Format",
+
+        "UGC",
+
+        "Influencer Content",
+
+        "Social Proof",
+
+        "Mobile-First UX"
+
+      ],
+
+      "keywords": [
+
+        "gen z otel web deneyimi",
+
+        "sosyal nesil icin otel ux",
+
+        "reels tiktok otel rezervasyon hunisi",
+
+        "gen z hotel ux",
+
+        "social-first booking journey"
+
+      ],
+
+      "inLanguage": "tr-TR",
+
+      "publisher": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "author": {
+
+        "@type": "Organization",
+
+        "name": "DGTLFACE",
+
+        "url": "https://dgtlface.com/"
+
+      },
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil/#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "UI & UX Tasarımı", "item": "https://dgtlface.com/tr/creative/ui-ux-tasarim" },
+
+        { "@type": "ListItem", "position": 4, "name": "Gen Z Otel UX", "item": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil/#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Gen Z misafirler için otel web sitesi nasıl tasarlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Mobil-first hızlı açılan, kısa metinli ve dikey video/UGC ile kanıt sunan bir yapı tercih edilir. Rezervasyon girişi ilk 1–2 ekranda olmalı ve tek hedefli CTA ile kullanıcı hızla akışa alınmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dikey video ve story formatı otel UX’ini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru kullanıldığında otelin atmosferini hızlı anlatır ve etkileşimi artırabilir. Poster + lazy-load ve tek CTA ile sunulmazsa sayfayı ağırlaştırıp mobil terk riskini artırabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC ve influencer içerikleri otel sitesine nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "3–6 seçilmiş UGC kartıyla başlayın; ağır embed’leri gecikmeli yükleyin veya native galeri kullanın. Influencer içeriğini UGC ile dengeli sunarak güveni koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Genç kitle için hızlı rezervasyon akışı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek ekranda tarih/kişi seçimi + net fiyat/iptal özeti + tek CTA bulunmalı. Paket/oda seçenekleri 2–3 kartla sadeleştirilmeli ve mobilde sticky CTA ile yol kaybettirilmemelidir."
+
+          }
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil/#howto",
+
+      "name": "Gen Z için otel UX’i nasıl uyarlanır?",
+
+      "description": "Social-first kanıt (dikey video/UGC) + minimal rezervasyon girişi + mobil performans disipliniyle Gen Z misafirler için otel web UX’i tasarlama yöntemi.",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Social-first kanıtı ekle",
+
+          "text": "İlk 1–2 ekranda dikey video ve 3–6 UGC kartıyla gerçek deneyim kanıtı sun; embed’leri kontrol ederek performansı koru."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Tek ekran rezervasyon girişi kur",
+
+          "text": "Tarih/kişi seçimi ve net CTA’yı aynı bölgede konumlandır; paket seçeneklerini 2–3 kartla sadeleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Ölç ve optimize et",
+
+          "text": "CTA CTR, start_booking ve CWV metrikleriyle ölç; kazanan landing şablonunu standardize et."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

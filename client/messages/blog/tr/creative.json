@@ -38224,6 +38224,4127 @@
       ]
     }
   }
+},
+
+"BlogOtelOncesiSonrasiIletisimUx": {
+  "title": "Öncesi–Sırası–Sonrası Misafir UX’i: Web+WhatsApp",
+  "slug": "otel-oncesi-sonrasi-iletisim-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "6 Ağustos 2026",
+  "publishedAt": "2026-08-06",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel misafir UX’ini uçtan uca kurun: rezervasyon onayı e-postası, WhatsApp bilgilendirme/upgrade, Wi-Fi landing ve çıkış sonrası NPS–yorum–sadakat akışı. Tutarlı UI/UX.",
+  "seo": {
+    "metaTitle": "Öncesi–Sırası–Sonrası Misafir UX’i: Web+WhatsApp | DGTLFACE",
+    "metaDescription": "Otel misafir UX’ini uçtan uca kurun: rezervasyon onayı e-postası, WhatsApp bilgilendirme/upgrade, Wi-Fi landing ve çıkış sonrası NPS–yorum–sadakat akışı. Tutarlı UI/UX."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı + Sayfa Kodu: UI & UX Tasarımı (creative-2)",
+      "Sayfa URL: /tr/creative/ui-ux-tasarim",
+      "Blog Tipi / No: Core / 20",
+      "Blog URL: /tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux",
+      "Intent: Informational + Strategic",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    ],
+    "strategySummary": "Bu yazı, otel dijital dönüşümünde “guest experience by design” yaklaşımının ana referans içeriği olacak şekilde; pre-stay → in-stay → post-stay temaslarını web, e-posta, WhatsApp ve call center ile tek bir UX grafında birleştirir. Hedef persona; Antalya/Belek/Side/Bodrum gibi destinasyonlarda uzun konaklama veya tekrar misafir oranı yüksek otellerin sahibi/GM’i, satış–pazarlama müdürü ve ajans yöneticisidir. Funnel aşaması consideration → retention: rezervasyon sonrası iletişimi iyi kurgulamak, upsell/cross-sell ve tekrar rezervasyonu yönlü olarak destekleyebilir. Ana iş sorusu: “Misafirin her aşamada aynı görsel dil ve net bilgiyle ilerlediği uçtan uca bir dijital deneyimi nasıl tasarlarım; nerede hangi mesaj ve bileşen olmalı?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-06",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Otel UX’i sadece web rezervasyon ekranıyla sınırlı değildir; misafir deneyimi konaklama öncesi onay ve bilgilendirme, konaklama sırasında dijital temas noktaları ve konaklama sonrası sadakat iletişimiyle tamamlanır. Web, e-posta, WhatsApp ve çağrı merkezi arayüzlerinin tutarlı tasarlanması; misafirin her aşamada kendini güvende ve iyi ağırlanmış hissetmesini sağlar. Bu rehber, “öncesi–sırası–sonrası” boyunca mesaj, UI ve aksiyonları pratik örneklerle kurgular.",
+    "sgeSummary": "Pre-stay onay/bilgi + WhatsApp upgrade; in-stay Wi-Fi landing/menü/chat; post-stay teşekkür/NPS/yorum/sadakat… Hepsi aynı ton ve görsel dille tek bir misafir yolculuğuna bağlanmalı.",
+    "voiceAnswer": "Misafire her aşamada tek kaynak net bilgi verin: onay, yönlendirme, destek ve sonrası için kısa aksiyonlar.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans; operasyon + call center liderleri",
+      "KPI’lar: Pre-stay açılma/tıklama, WhatsApp yanıt oranı, Wi-Fi landing etkileşim, NPS/yorum dönüşü, tekrar rezervasyon",
+      "Entity: Guest Journey, Pre-Stay, In-Stay, Post-Stay, Email UX, WhatsApp, Wi-Fi Landing, Call Center",
+      "Geo: Antalya / Belek / Side / Bodrum (uzun konaklama & tekrar misafir senaryoları)",
+      "Funnel: Consideration → Conversion → Retention",
+      "Yönlü içgörü: Uçtan uca dijital yolculuğu tasarlayan otellerde tekrar rezervasyon ve tavsiye (referral) eğilimi artabilir (nicel değil, yönlü)",
+      "Risk: Kanallar arası tutarsız mesaj/CTA → güven kırılması → destek yükü/terk"
+    ]
+  },
+  "h1": {
+    "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+    "intro": "Rezervasyon sayfasını mükemmel yaptınız… ama misafir otelinize gelmeden önce “ne yapacağım?” diye stres oluyor, konaklama sırasında bilgi bulamıyor, çıkıştan sonra da sizden bir daha haber alamıyorsa; deneyim yarım kalır. Otel UX’i; pre-stay (öncesi), in-stay (sırası) ve post-stay (sonrası) dokunuşlarla tamamlanır. Üstelik bu dokunuşlar tek bir kanal değil; web, e-posta, WhatsApp ve call center birlikte çalıştığında etkili olur.",
+    "quickSummary": [
+      "1. Pre-stay: Rezervasyon onayı + net bilgilendirme + 1–2 upsell/upgrade önerisi (kısa ve sakin).",
+      "2. In-stay: Wi-Fi landing, dijital menü/aktivite sayfası ve hızlı destek (chat/WhatsApp) ile “bilgi bulma” sürtünmesini kaldırın.",
+      "3. Post-stay: Teşekkür + kısa NPS/anket + yorum çağrısı + sadakat/tekrar teklifini aynı akışta verin.",
+      "4. Her aşamada tek ana CTA belirleyin; kullanıcıyı 4 farklı şeye aynı anda zorlamayın.",
+      "5. Web–e-posta–WhatsApp–call center’da aynı sözlük ve aynı avantaj dili kullanın (tutarlılık).",
+      "6. KVKK/izin yönetimini net kurun (WhatsApp izinleri dahil); şeffaflık güveni artırır.",
+      "7. Ölçüm planı kurun: açılma/tıklama, WhatsApp yanıt, landing etkileşim, NPS/yorum dönüşü, tekrar rezervasyon."
+    ],
+    "ctaPrimary": {
+      "label": "Misafir Yolculuğu Dijital UX Analizi Talep Et",
+      "text": "Web, e-posta, WhatsApp ve call center temaslarınızı tek journey’de birleştirip aksiyon planı çıkarmak için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Misafir Yolculuğu Dijital UX Analizi Talep Et",
+      "text": "Web, e-posta, WhatsApp ve call center temaslarınızı tek journey’de birleştirip aksiyon planı çıkarmak için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Misafir Öncesi–Sırası–Sonrası İletişim Şablonlarını İndir",
+      "text": "E-posta, WhatsApp, Wi-Fi landing ve post-stay anket ekranlarını hazır şablonlarla hızlıca kurgulamanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#guest-templates"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "title": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-misafiri-dijital-ux-kurgusu",
+      "title": "Otel misafiri için öncesi–sırası–sonrası dijital UX nasıl kurgulanır?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "h3",
+          "text": "Voice (doğal sorular)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Misafirle dijital iletişimi nasıl yönetmeliyim?”",
+            "“WhatsApp ile misafir deneyimini nasıl güçlendiririm?”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kısa cevap: Her aşamada tek bir ana hedef belirleyin (bilgilendir / yönlendir / destekle / geri bildirim al) ve tüm kanallarda aynı görsel dil + aynı ton + aynı CTA mantığını uygulayın."
+        },
+        {
+          "type": "h3",
+          "text": "AEO journey özeti"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Pre-stay: Rezervasyon onayı + net bilgilendirme + 1–2 upsell/upgrade önerisi (kısa ve sakin).",
+            "In-stay: Wi-Fi landing, dijital menü/aktivite sayfası ve hızlı destek (chat/WhatsApp) ile “bilgi bulma” sürtünmesini kaldırın.",
+            "Post-stay: Teşekkür + kısa NPS/anket + yorum çağrısı + sadakat/tekrar teklifini aynı akışta verin.",
+            "Her aşamada tek ana CTA belirleyin; kullanıcıyı 4 farklı şeye aynı anda zorlamayın.",
+            "Web–e-posta–WhatsApp–call center’da aynı sözlük ve aynı avantaj dili kullanın (tutarlılık).",
+            "KVKK/izin yönetimini net kurun (WhatsApp izinleri dahil); şeffaflık güveni artırır.",
+            "Ölçüm planı kurun: açılma/tıklama, WhatsApp yanıt, landing etkileşim, NPS/yorum dönüşü, tekrar rezervasyon."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Her aşamada tek hedef var mı?",
+            "Kanallar aynı mesajı mı söylüyor?",
+            "CTA’lar net mi, aşırı mı?",
+            "İzin/kvkk süreci doğru mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “3 aşama”yı ayrı ayrı tasarlayın, sonra tek yolculukta bağlayın.",
+            "Her aşama için 1 sayfa + 1 mesaj + 1 CTA standardı koyun.",
+            "Omnichannel ilişkiyi güçlendirmek için: /otel-dijital-pazarlama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konaklama-oncesi-dijital-deneyim",
+      "title": "Konaklama öncesi dijital deneyim (onay, bilgilendirme, upgrade)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "Pre-stay aşamasında misafirin ihtiyacı “satın aldım mı?” değil; emin olmak ve hazırlık yapmaktır. Onay e-postası, bu güvenin temel taşıdır. WhatsApp ise doğru kullanılırsa “hızlı bilgilendirme ve destek” kanalına dönüşür; yanlış kullanılırsa spam algısı yaratır."
+        },
+        {
+          "type": "h3",
+          "text": "Rezervasyon onay e-postasında neler olmalı? (çekirdek bloklar)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon özeti: tarih, kişi, oda, toplam fiyat kapsamı (kısa)",
+            "Check-in/out ve adres/konum (harita linki)",
+            "İptal özeti (1 satır) + detay linki",
+            "“Yardım” bloğu: call center / WhatsApp / SSS",
+            "1 opsiyonel teklif: upgrade/transfer/late checkout (abartmadan)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Mini örnek (Antalya/Belek): “Aile odası” rezervasyonunda, çocuk yaş politikası ve konsept bilgisi (AI/HB) onay e-postasında tek satırla netleşirse, call center’a soru yükü azalır."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "WhatsApp bilgilendirme ve upgrade teklifleri (doz ve zaman)"
+        },
+        {
+          "type": "p",
+          "text": "WhatsApp’ı “her gün mesaj” değil, kritik anlar için kullanın:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon onayı sonrası 1 mesaj: “Özet + destek linki”",
+            "Check-in’e 48–24 saat kala: “nasıl gelirsiniz + online check-in”",
+            "Upgrade/transfer teklifi: tek mesaj, tek CTA, kolay “hayır” seçeneği"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Pre-stay)",
+          "items": [
+            "Onay e-postası mobilde tek ekranda okunuyor mu?",
+            "WhatsApp mesajı izinli mi (KVKK/opt-in)?",
+            "Upgrade teklifi tek mesaj mı, aşırı mı?",
+            "Yardım kanalı her yerde görünür mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Onay e-postasını “1 ekran özeti” yaklaşımıyla sadeleştirin.",
+            "WhatsApp’ı kritik anlara bağlayın; spam riskini azaltın.",
+            "Satış ve destek ekipleri için aynı mesaj sözlüğünü oluşturun: /cagri-merkezi-hizmetleri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konaklama-sirasinda-dijital-dokunuslar",
+      "title": "Konaklama sırasında dijital dokunuşlar (Wi-Fi landing, menü, aktivite, chat)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "In-stay aşaması, misafirin “bilgi bulma” maliyetini düşürme aşamasıdır. Resepsiyona sormadan, bir sayfadan menüye, aktiviteye, spa randevusuna veya oda servisine gidebilmesi; hem misafiri rahatlatır hem operasyonu hafifletir."
+        },
+        {
+          "type": "h3",
+          "text": "Wi-Fi landing page UX’i (en kritik in-stay ekran)"
+        },
+        {
+          "type": "p",
+          "text": "Wi-Fi landing, otelde en çok görüntülenen sayfalardan biri olabilir. Ama sık yapılan hata: ağır görseller, karışık menüler ve yavaş açılan sayfa."
+        },
+        {
+          "type": "p",
+          "text": "Wi-Fi landing çekirdeği:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Bağlandınız” onayı",
+            "4–6 hızlı kısayol: Menü, Aktivite, Oda Servisi, Spa, Harita, Yardım",
+            "Dil seçimi (TR/EN)",
+            "İzin ve KVKK notu (kısa, korkutmadan)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "h3",
+          "text": "QR menü ve bilgi sayfaları (kayıp yaşamadan)"
+        },
+        {
+          "type": "p",
+          "text": "QR ile açılan sayfalarda hedef “hız + okunabilirlik”tir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Büyük butonlar",
+            "Kısa başlıklar",
+            "Görsel şişirme yok",
+            "Offline/çekim zayıf senaryosu düşünülür"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Chat/WhatsApp destek (in-stay)"
+        },
+        {
+          "type": "p",
+          "text": "Misafir için “tek kapı” iyidir: aynı WhatsApp hattı veya chat arayüzü, talepleri toplar. Ama yönlendirme net olmalı:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Havlu istiyorum” → servis",
+            "“Aktivite saatleri” → bilgi",
+            "“Geç çıkış” → upsell"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (In-stay)",
+          "items": [
+            "Wi-Fi landing hızlı mı (ağır görsel yok)?",
+            "Kısayollar 4–6 ile sınırlı mı?",
+            "TR/EN içerik tutarlı mı?",
+            "Chat/WhatsApp talebi doğru ekibe gidiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Wi-Fi landing’i “performans bütçesi” ile yönetin (hız öncelik).",
+            "QR sayfalarında tek amaç: bilgiye hızlı erişim; dekorasyondan kaçının.",
+            "Mesaj yönetimini operasyonla birleştirin: /cagri-merkezi/mesaj-yonetimi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konaklama-sonrasi-iletisim",
+      "title": "Konaklama sonrası iletişim (teşekkür, anket, yorum, sadakat)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Post-stay aşaması, otelin “tekrar rezervasyon” ve “tavsiye” için en güçlü penceresidir. Ama her şeyi aynı e-postaya yığmak, etkiyi azaltır. Kural: tek mesaj, tek hedef."
+        },
+        {
+          "type": "h3",
+          "text": "Çıkış sonrası anket ve yorum çağrısı nasıl tasarlanır?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Teşekkür + 1 cümle duygu",
+            "NPS (0–10) tek soru",
+            "1 açık alan (opsiyonel)",
+            "Yorum çağrısı: “Memnun kaldıysanız…” (kısa)",
+            "Sadakat teklifi: ayrı blok veya ayrı mesaj (duruma göre)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Sadakat / tekrar teklif (kısmi kişiselleştirme)"
+        },
+        {
+          "type": "p",
+          "text": "Misafirin segmentine göre:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aile: çocuk etkinliği, aile odası avantajı",
+            "Çift: spa/romantik paket",
+            "Business: hızlı check-in ve esneklik"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Post-stay)",
+          "items": [
+            "NPS tek ekranda mı?",
+            "Yorum çağrısı nazik mi, baskıcı mı?",
+            "Sadakat mesajı “değer” söylüyor mu?",
+            "TR/EN dil tutarlılığı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Post-stay’i 3 adımda kurgulayın: teşekkür → NPS → yorum/sadakat.",
+            "Tek e-postaya her şeyi koymayın; amaçları bölün.",
+            "Gelir etkisini ölçümleyin: /raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanallarin-rolu-tek-kaynak-gercek",
+      "title": "Web, e-posta, WhatsApp ve call center’ın rolü (tek kaynak gerçek)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Omnichannel deneyimde en büyük problem “farklı kanalların farklı şey söylemesi”dir. Çözüm: tek sözlük, tek vaat, tek fiyat/iptal dili."
+        },
+        {
+          "type": "h3",
+          "text": "Kanal rol matrisi (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Web: keşif + rezervasyon (ana akış)",
+            "E-posta: güven + bilgi + yönlendirme",
+            "WhatsApp: hızlı destek + kritik bilgilendirme + sınırlı upsell",
+            "Call center: belirsizlik çözme + kapanış + satış sonrası destek"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İç linkler (omnichannel graf)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "/otel-dijital-pazarlama",
+            "/cagri-merkezi-hizmetleri",
+            "/cagri-merkezi/mesaj-yonetimi",
+            "/raporlama/satis-donusum"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Kanal rolü)",
+          "items": [
+            "Aynı “iptal/fiyat” dili her kanalda var mı?",
+            "WhatsApp spam riski yönetiliyor mu?",
+            "Call center script’i web mesajıyla uyumlu mu?",
+            "Ölçüm KPI’ları kanal bazında takip ediliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "30–50 satırlık “misafir iletişim sözlüğü” oluşturun (TR/EN).",
+            "Kanal rol matrisi çıkarın; hangi mesaj hangi kanalda? net olsun.",
+            "Teklif/upgrade mesajlarını “izin + değer + tek CTA” standardına bağlayın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misafir-yolculugunda-tutarli-ui-ux",
+      "title": "Misafir yolculuğunda tutarlı UI/UX (tasarım sistemi mantığı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tutarlılık, lüks hissettiren küçük bir detaydır: aynı ikon seti, aynı renk/ton, aynı CTA dili. Misafir WhatsApp’tan web’e geçince “başka bir dünyaya” düşmemeli."
+        },
+        {
+          "type": "h3",
+          "text": "Tutarlılık için 5 kural"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Aynı CTA sözlüğü (ör. “Bilgi al”, “Rezervasyona devam”)",
+            "Aynı ikon dili (menü, spa, yardım)",
+            "Aynı tipografi/spacing (özellikle QR sayfaları)",
+            "Aynı güven metni (KVKK/izin)",
+            "Aynı yardım yolu (tek numara/tek hat)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Teknik/operasyonel notlar (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "E-posta şablonları mobil uyumlu olmalı (tek kolon, büyük CTA).",
+            "WhatsApp mesajları KVKK ve izin yönetimiyle uyumlu olmalı (opt-in, kolay çıkış).",
+            "Wi-Fi landing hız ve erişilebilirlik için optimize edilmeli (ağır görsel yok, büyük tap alanları).",
+            "Accordion/tab gibi etkileşimler CLS/INP’yi bozmamalı."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Tutarlılık)",
+          "items": [
+            "E-posta ve web görsel dili aynı mı?",
+            "WhatsApp mesaj tonu aynı mı?",
+            "Wi-Fi landing erişilebilir ve hızlı mı?",
+            "KVKK/izin dili sakin ve net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Tüm kanallarda aynı “tasarım kitini” kullanın (ikon/renk/CTA).",
+            "Wi-Fi landing’i performans bütçesiyle yönetin (özellikle mobil).",
+            "“Şablon seti” ile hız kazanın (aşağıdaki asset)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Misafir Öncesi–Sırası–Sonrası İletişim Şablonlarını İndir",
+          "text": "E-posta, WhatsApp, Wi-Fi landing ve post-stay anket ekranlarını hazır şablonlarla hızlıca kurgulamanızı sağlar.",
+          "href": "/creative/ui-ux-tasarim#guest-templates"
+        }
+      ]
+    },
+    {
+      "id": "oncesi-sirasi-sonrasi-temas-noktalari",
+      "title": "Öncesi–Sırası–Sonrası temas noktaları",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Öncesi–Sırası–Sonrası temas noktaları (1 adet tablo)",
+          "headers": [
+            "Aşama",
+            "Kanal",
+            "Ana hedef",
+            "Tek CTA örneği"
+          ],
+          "rows": [
+            [
+              "Öncesi",
+              "E-posta",
+              "Onay + hazırlık",
+              "“Rezervasyonu Gör”"
+            ],
+            [
+              "Öncesi",
+              "WhatsApp",
+              "Kritik bilgi + destek",
+              "“Yol Tarifi / Yardım”"
+            ],
+            [
+              "Sırası",
+              "Wi-Fi landing",
+              "Hızlı bilgi",
+              "“Menü / Aktivite”"
+            ],
+            [
+              "Sırası",
+              "WhatsApp/Chat",
+              "Talep yönetimi",
+              "“İstek Gönder”"
+            ],
+            [
+              "Sonrası",
+              "E-posta",
+              "NPS + yorum",
+              "“Deneyimi Değerlendir”"
+            ],
+            [
+              "Sonrası",
+              "E-posta",
+              "Sadakat/tekrar",
+              "“Üye Fiyatlarını Gör”"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Misafir Yolculuğu Dijital UX Analizi Talep Et",
+          "text": "Öncesi–sırası–sonrası temas noktalarında tutarlı UI/UX ile tekrar rezervasyon ve memnuniyet hedefleyen oteller için analiz alın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    },
+    {
+      "id": "misafir-iletisim-sablonlari",
+      "title": "Misafir Öncesi–Sırası–Sonrası İletişim Şablonlarını İndir — Guest Journey",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Misafir Öncesi–Sırası–Sonrası İletişim Şablonlarını İndir — Guest Journey (v1.0)",
+          "purpose": "Bu şablon seti, otellerin misafir deneyimini pre-stay, in-stay ve post-stay aşamalarında web, e-posta, WhatsApp ve Wi-Fi landing sayfalarıyla tutarlı bir UX dilinde tasarlaması için hazırlanmıştır. Amaç; misafirin her aşamada “ne yapacağını” netleştirmek, destek yükünü azaltmak ve tekrar rezervasyon/sadakat akışına zemin hazırlamaktır.",
+          "whoFor": "Otel pazarlama + operasyon + call center + ajans/UX ekibi.",
+          "steps": [
+            "Pre-stay onay e-postası ve WhatsApp bilgilendirme şablonunu özelleştirin.",
+            "In-stay Wi-Fi landing kısayollarını ve QR menü sayfasını doldurun.",
+            "Post-stay NPS/yorum + sadakat mesajlarını ayrı hedeflerle kurgulayın ve ölçüm KPI’larını ekleyin."
+          ],
+          "checklist": [
+            "Her aşamada tek hedef var",
+            "TR/EN tutarlı",
+            "WhatsApp izinli",
+            "Wi-Fi landing hızlı",
+            "NPS tek soru"
+          ],
+          "href": "/downloads/misafir-oncesi-sirasi-sonrasi-iletisim-sablonlari-v1.0.pdf",
+          "buttonLabel": "Şablonları İndir"
+        },
+        {
+          "type": "h3",
+          "text": "1 örnek (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Pre-stay CTA: “Rezervasyonu Gör”",
+            "In-stay kısayol: “Bugünkü aktiviteler”",
+            "Post-stay CTA: “Deneyimi Değerlendir (30 sn)”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her aşamada tek hedef var",
+            "TR/EN tutarlı",
+            "WhatsApp izinli",
+            "Wi-Fi landing hızlı",
+            "NPS tek soru"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Konaklama öncesi–sırası–sonrası misafir UX’i nasıl tasarlanır?",
+      "a": "Pre-stay’de onay ve hazırlık bilgisi verin, in-stay’de Wi-Fi landing/QR sayfalarıyla hızlı bilgi ve destek sağlayın, post-stay’de teşekkür–NPS–yorum–sadakat adımlarını tek hedefli mesajlarla kurgulayın. Tüm kanallarda aynı ton ve CTA sözlüğünü kullanın."
+    },
+    {
+      "q": "Rezervasyon onay e-postasında neler olmalı?",
+      "a": "Rezervasyon özeti, check-in/out, iptal özeti, konum linki ve tek bir ana CTA olmalı. Yardım kanalı (call center/WhatsApp) görünür olmalı; upsell/upgrade tek ve hafif bir öneriyle sunulmalıdır."
+    },
+    {
+      "q": "WhatsApp ile misafir iletişimini UX açısından nasıl kurgulamalıyım?",
+      "a": "İzinli (opt-in) iletişim kurun, kritik anlara odaklanın ve her mesajda tek CTA verin. Spam hissi yaratacak sıklıktan kaçının; “yardım” ve “bilgilendirme” rolünü net tutun."
+    },
+    {
+      "q": "Çıkış sonrası anket ve yorum çağrısı nasıl tasarlanır?",
+      "a": "Tek soruluk NPS ile başlayın, ardından kısa yorum çağrısı yapın. Sadakat/tekrar teklifini ayrı bir blokta veya ayrı bir mesajda sunarak hedefleri karıştırmayın."
+    },
+    {
+      "q": "Wi-Fi landing sayfasında neler olmalı?",
+      "a": "Bağlantı onayı, 4–6 hızlı kısayol (menü/aktivite/spa/yardım), dil seçimi ve kısa izin/KVKK notu olmalı. Sayfa hızlı açılmalı ve mobilde tek elle kullanılabilir olmalıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — otel-oncesi-sonrasi-iletisim-ux-hero-01.webp — Öncesi–sırası–sonrası misafir yolculuğu ve omnichannel UX kapak görseli",
+        "h1-context — 1920×1080 — otel-oncesi-sonrasi-iletisim-ux-h1-context-02.webp — Web, e-posta ve WhatsApp temas noktalarını tek journey’de gösteren bağlam görseli",
+        "divider-01 — 1600×1200 — otel-oncesi-sonrasi-iletisim-ux-divider-03.webp — Konaklama öncesi dijital deneyim bölüm ayırıcı görseli",
+        "divider-02 — 1600×1200 — otel-oncesi-sonrasi-iletisim-ux-divider-04.webp — Konaklama sırasında Wi-Fi landing ve dijital dokunuşlar bölüm ayırıcı görseli",
+        "diagram-05 — 1920×1080 — otel-oncesi-sonrasi-iletisim-ux-diagram-05.webp — Öncesi–sırası–sonrası kullanıcı yolculuğu şeması ve kanal akışı diyagramı",
+        "checklist-06 — 1200×1200 — otel-oncesi-sonrasi-iletisim-ux-checklist-06.webp — Pre-stay in-stay post-stay checklist kartı: hızlı uygulanabilir adımlar",
+        "kpi-07 — 1200×1200 — otel-oncesi-sonrasi-iletisim-ux-kpi-07.webp — Misafir yolculuğu KPI paneli: e-posta, WhatsApp, NPS ve tekrar rezervasyon",
+        "proof-08 — 1200×1200 — otel-oncesi-sonrasi-iletisim-ux-proof-08.webp — Şablon seti ve journey map deliverables kanıt kartı",
+        "table-oncesi-sirasi-sonrasi-temas-noktalari — Öncesi–Sırası–Sonrası temas noktaları tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "TR/EN hreflang karşılıklılık kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "E-posta şablonları mobil uyumlu olmalı (tek kolon, büyük CTA).",
+        "WhatsApp mesajları KVKK ve izin yönetimiyle uyumlu olmalı (opt-in, kolay çıkış).",
+        "Wi-Fi landing hız ve erişilebilirlik için optimize edilmeli (ağır görsel yok, büyük tap alanları).",
+        "Accordion/tab gibi etkileşimler CLS/INP’yi bozmamalı.",
+        "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
+        "Primary CTA hedefi: /creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /creative/ui-ux-tasarim#guest-templates"
+      ]
+    }
+  }
+},
+
+"BlogOtelUiUxTrendleri20252026": {
+  "title": "2025–2026 Otel UX Trendleri: Video, Dark Mode, AI",
+  "slug": "otel-ui-ux-trendleri-2025-2026",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "6 Ağustos 2026",
+  "publishedAt": "2026-08-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "2025–2026 otel web UX trendleri: dikey video, sosyal feed entegrasyonu, minimal rezervasyon akışı, micro interaction, dark mode ve AI öneri kartları. CWV bozmadan uygula.",
+  "seo": {
+    "metaTitle": "2025–2026 Otel UX Trendleri: Video, Dark Mode, AI | DGTLFACE",
+    "metaDescription": "2025–2026 otel web UX trendleri: dikey video, sosyal feed entegrasyonu, minimal rezervasyon akışı, micro interaction, dark mode ve AI öneri kartları. CWV bozmadan uygula."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / Kodu: UI & UX Tasarımı / creative-2",
+      "Sayfa URL: /tr/creative/ui-ux-tasarim",
+      "Blog Tipi / No: Trend / 21",
+      "Blog URL: /tr/creative/blog/otel-ui-ux-trendleri-2025-2026",
+      "Intent: Informational + Trend",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
+    ],
+    "strategySummary": "Bu içerik, UI/UX silo’sunda “trend hub” rolünde konumlanır; 2025–2026 döneminde otel web sitelerinde öne çıkan dikey video + sosyal entegrasyon, minimal funnel, micro interaction, dark mode/premium görsel dil ve AI destekli kişiselleştirme kartları gibi trendleri “sadece görsel” değil, rezervasyon deneyimi ve dönüşüm etkisi üzerinden açıklar. Hedef persona; resort ve city otelleri yöneten otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir. Funnel aşaması awareness → consideration: “hangi trendi uygulamalıyım?” kararını kolaylaştırır ve uygulama checklist’iyle aksiyona bağlar. Ana iş sorusu: “Trendleri siteyi ağırlaştırmadan, CWV’yi bozmadan ve mobile-first davranışa uygun şekilde nasıl uygularım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "2025–2026 otel web tasarım trendleri; dikey videolar, sosyal entegrasyonlu görsel bloklar, sadeleştirilmiş rezervasyon akışları, micro interaction’lar ve premium görsel dil etrafında şekilleniyor. Dark mode, modern tipografi ve AI destekli kişiselleştirme alanları; özellikle resort ve city oteller için hem marka algısını hem de rezervasyon deneyimini güçlendirebilir. Bu rehber, trendleri “nerede işe yarar, nasıl uygularsınız ve CWV’yi bozmadan nasıl yönetirsiniz?” perspektifiyle özetler.",
+    "sgeSummary": "2025–2026’da otel siteleri social-first olur: dikey video, sade menü, micro interaction ve premium dark/light temalar öne çıkar. AI öneri kartları doğru kurgulanırsa deneyimi zenginleştirir.",
+    "voiceAnswer": "2025’te otel siteniz daha sosyal, daha hızlı ve daha sade olmalı; video ve AI’yi kontrollü kullanın.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+      "KPI’lar: Sayfada kalma süresi, etkileşim (scroll/CTA), rezervasyon başlangıcı, mobil dönüşüm, CWV (LCP/CLS/INP)",
+      "Entity: Hotel Web Design Trends, Dikey Video, Social Feed, Dark Mode, Micro Interaction, AI Personalization",
+      "Geo: Antalya/Belek/Side/Kemer/Bodrum örnek “social-first home” ve resort senaryoları",
+      "Funnel: Awareness → Consideration → Conversion",
+      "Risk: Ağır video/animasyon = CWV bozulması ve terk",
+      "Çözüm: Lazy-load + poster + “kritik içerik önce” + ölçüm döngüsü"
+    ]
+  },
+  "h1": {
+    "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+    "intro": "“2025’te otel web sitem nasıl görünmeli?” sorusu artık sadece estetikle ilgili değil; kullanıcı davranışı değişti. Genç kitle ve mobile-first kullanıcılar, dikey video ve sosyal içerik formatlarına alıştı. Resort otellerde (Antalya, Belek, Side, Kemer, Bodrum) karar süreci hâlâ “görsel kanıt + güven + hız” üçlüsüne dayanıyor; ama bu kanıt artık çoğu zaman dikey video blokları, social feed ve mikro etkileşimlerle taşınıyor. Öte yandan trendleri “her yere eklemek” CWV’yi bozabilir; ağır video ve animasyonlar ters etki yaratır. Bu rehber, trendleri uygulanabilir pattern’lere çevirir ve “ne zaman işe yarar?” diye filtreler.",
+    "quickSummary": [
+      "1. Social-first homepage: Ana sayfada dikey video ve sosyal içerik bloklarıyla hızlı “kanıt” sunma.",
+      "2. Minimal rezervasyon akışı: Daha az adım, daha net CTA ve daha erken fiyat/iptal özeti.",
+      "3. Micro interaction’lar: Scroll ile tetiklenen küçük animasyonlar; “durum bildirimi” ve güven hissi.",
+      "4. Premium dark/light tema: Dark mode + yüksek kontrast + modern tipografi; premium algı ve gece kullanımında rahatlık.",
+      "5. AI destekli deneyim kartları: Kullanıcı sinyaline göre “dinamik öneri kartları” (oda/aktivite/teklif).",
+      "6. Sade menü / navigation’sız hero: Menü yerine hızlı kısayollar ve “rezervasyon barı” ile karar hızlandırma.",
+      "7. Video performans disiplini: Heavy video yerine poster + lazy-load + kritik içerik önce yaklaşımı.",
+      "8. Omnichannel görsel dil: Web’deki video/kart dili Reels/TikTok ve sosyal kanallarla aynı “hikâye”yi taşır."
+    ],
+    "ctaPrimary": {
+      "label": "2025–2026 Otel UX Trend Analizi Talep Et",
+      "text": "Sitenize uygun trendleri seçip (video, dark mode, micro interaction, AI kartları) CWV bozmadan uygulamak için hızlı bir trend analizi alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "2025–2026 Otel UX Trend Analizi Talep Et",
+      "text": "Sitenize uygun trendleri seçip performansı bozmadan uygulamak isteyen oteller için kısa bir trend yol haritası alın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Otel Web Tasarım Trend Checklist’ini İndir",
+      "text": "Trendleri otel sitenize uyarlamak için hangi pattern’i nerede kullanacağınızı 10 dakikada planlamanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#trend-checklist"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Reels Video",
+      "href": "/smm/reels-video"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Otel Sosyal Medya",
+      "href": "/otel/sosyal-medya"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "title": "Reels Video",
+      "href": "/smm/reels-video"
+    },
+    {
+      "title": "Otel Sosyal Medya",
+      "href": "/otel/sosyal-medya"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-web-tasarim-trendleri",
+      "title": "2025–2026 otel web tasarım trendleri neler?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "h3",
+          "text": "Voice (doğal soru)"
+        },
+        {
+          "type": "p",
+          "text": "“2025–2026 otel web tasarım trendleri neler?”"
+        },
+        {
+          "type": "p",
+          "text": "Kısa cevap: Social-first homepage (dikey video + feed), minimal rezervasyon akışı, micro interaction, premium dark/light tema, AI destekli öneri kartları ve daha sade navigasyon."
+        },
+        {
+          "type": "h3",
+          "text": "AEO trend listesi"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Social-first homepage: Ana sayfada dikey video ve sosyal içerik bloklarıyla hızlı “kanıt” sunma.",
+            "Minimal rezervasyon akışı: Daha az adım, daha net CTA ve daha erken fiyat/iptal özeti.",
+            "Micro interaction’lar: Scroll ile tetiklenen küçük animasyonlar; “durum bildirimi” ve güven hissi.",
+            "Premium dark/light tema: Dark mode + yüksek kontrast + modern tipografi; premium algı ve gece kullanımında rahatlık.",
+            "AI destekli deneyim kartları: Kullanıcı sinyaline göre “dinamik öneri kartları” (oda/aktivite/teklif).",
+            "Sade menü / navigation’sız hero: Menü yerine hızlı kısayollar ve “rezervasyon barı” ile karar hızlandırma.",
+            "Video performans disiplini: Heavy video yerine poster + lazy-load + kritik içerik önce yaklaşımı.",
+            "Omnichannel görsel dil: Web’deki video/kart dili Reels/TikTok ve sosyal kanallarla aynı “hikâye”yi taşır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Trend seçimi)",
+          "items": [
+            "Trend “görsel” mi, yoksa “UX etkisi” de var mı?",
+            "Mobilde gerçekten işe yarıyor mu?",
+            "CWV’yi bozma riski var mı?",
+            "Markanın segmentine uyuyor mu (resort/city/butik)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Trendleri 2–3 “çekirdek pattern”e indir: social-first blok + minimal funnel + micro interaction.",
+            "Heavy video/animasyonu istisna yap; performans bütçesi koy.",
+            "Omnichannel bağ için iç linkler: /creative/video-produksiyon, /smm/reels-video, /otel/sosyal-medya"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fullscreen-hero-dikey-video-sosyal-entegrasyon",
+      "title": "Fullscreen hero, dikey video ve sosyal entegrasyon",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "p",
+          "text": "2025–2026’da otel sitelerinin “ilk ekranı”, daha çok sosyal platformların ritmine yaklaşıyor: kısa, hızlı, kanıt odaklı. Bu trend özellikle genç kitle ve mobile-first davranışta belirgin: kullanıcı “okumadan” görmek istiyor. Ancak otelde kritik fark var: video “wow” etkisi verirken, rezervasyon yolunu saklamamalı."
+        },
+        {
+          "type": "h3",
+          "text": "Fullscreen hero ne zaman işe yarar?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Premium resort ve şehir otellerinde “marka algısı” için",
+            "Tek güçlü vaatiniz varsa (beach bar, aquapark, rooftop gibi)",
+            "İlk ekranda CTA net ve erişilebilir kalıyorsa"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Dikey video blokları (TikTok/Reels stili)"
+        },
+        {
+          "type": "p",
+          "text": "Dikey videoyu ana sayfaya koymak için 3 kural:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Poster görsel şart: Video hemen yüklenmesin; poster hızlı açılsın.",
+            "Ses varsayılan kapalı: Kullanıcı kontrol etsin.",
+            "CTA yakında: “Tarih seç → fiyat gör” veya “odaları gör” gibi tek hedefli CTA."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "GEO örnek: Belek’te aile resort: ilk video aquapark/çocuk alanı olabilir; Bodrum’da beach bar/gün batımı; Antalya city’de konum/roof."
+        },
+        {
+          "type": "h3",
+          "text": "Social feed gömülü bloklar (Instagram/TikTok)"
+        },
+        {
+          "type": "p",
+          "text": "Feed entegrasyonu iyi çalışır ama iki risk doğurur:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Performans (3rd-party embed)",
+            "Dikkat dağıtma"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Çözüm: feed’i “aşağı blok” olarak konumlandır, lazy-load et ve web’deki mesajla aynı “hikâye”yi taşı."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Video/Social)",
+          "items": [
+            "Poster hızlı açılıyor mu (LCP)?",
+            "Video kullanıcı kontrolünde mi?",
+            "Embed’ler lazy-load mu?",
+            "CTA ilk ekranda görünür mü?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Video bloklarını “kanıt” için kullan; “rezervasyon yolunu” gizleme.",
+            "Feed embed’i zorunlu değil; önce native grid + seçili içerik düşün.",
+            "Video üretimini operasyonla bağla: /creative/video-produksiyon"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "minimal-rezervasyon-akislari-micro-interaction",
+      "title": "Minimal rezervasyon akışları ve micro interaction’lar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Minimal funnel trendi otelde yeni değil; ama 2025–2026’da kullanıcı toleransı daha da düştü. “Bir şey tıklıyorum, gecikiyor” veya “çok adım var” hissi, özellikle mobilde terk doğuruyor. Micro interaction’lar ise doğru kullanıldığında güven ve kontrol hissi verir; yanlış kullanıldığında sayfayı ağırlaştırır."
+        },
+        {
+          "type": "h3",
+          "text": "Minimal funnel’ın otel karşılığı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tarih/kişi seçimi görünür",
+            "Fiyat/iptal özeti erken",
+            "Oda kartında karar bilgisi (3–5 madde)",
+            "Form alanları minimum",
+            "Ödeme ekranında güven ve netlik"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Micro interaction nerede faydalı?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Takvim seçimi: “seçildi” durum geri bildirimi",
+            "Oda kartı: “karşılaştır” / “seçildi” state",
+            "Form: hata mesajları nazik + çözüm odaklı",
+            "Sticky CTA: kullanıcı scroll ederken “yol kaybolmasın”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kaçın: Aşırı scroll animasyonu, ağır parallax, büyük slider zincirleri."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Funnel/Micro)",
+          "items": [
+            "Etkileşim “durum bildiriyor” mu, yoksa sadece süs mü?",
+            "Mobilde INP’yi bozuyor mu?",
+            "CTA yolu her zaman erişilebilir mi?",
+            "Adım sayısı gerçekten azaldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Micro interaction’ı “durum” için kullan; “show” için değil.",
+            "Rezervasyon akışında 1 adım azaltmak, 10 animasyondan daha değerlidir.",
+            "Ölçümle doğrula (heatmap/GA4): Varsayım olarak UI/UX silo içinde ilgili metrik içeriğine bağlanabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dark-mode-glassmorphism-premium-gorsel-dil",
+      "title": "Dark mode, glassmorphism ve premium görsel dil",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Dark mode, otel sitelerinde “premium” algısını güçlendirebilir; ama her marka için doğru değildir. Özellikle yüksek kontrast ve okunabilirlik doğru yönetilmezse, dark mode “şık ama zor” hissi verir. Glassmorphism (cam efekti) ise minimal ve kontrollü kullanıldığında modern bir katman hissi yaratır; fazla kullanılırsa dağınık görünür."
+        },
+        {
+          "type": "h3",
+          "text": "Dark mode otel siteleri için uygun mu?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Premium resort, butik, lifestyle markalarda: evet (doğru kontrastla)",
+            "Aile odaklı çok bilgi taşıyan sitelerde: temkinli (okunabilirlik kritik)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Light/Dark switch UX’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Otomatik (sistem tercihine göre) + manuel değişim",
+            "Tercihi hatırla",
+            "Kontrast ve link görünürlüğü test et"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Premium dilin kısa kuralı"
+        },
+        {
+          "type": "p",
+          "text": "Premium = “az ama kaliteli”. Daha az blok, daha net tipografi, daha iyi görsel, daha fazla boşluk."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Dark/Premium)",
+          "items": [
+            "Kontrast yeterli mi?",
+            "CTA her temada net mi?",
+            "Glass efekti okunabilirliği bozmuyor mu?",
+            "Tema geçişi CLS üretmiyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Dark mode’u “opsiyon” olarak başlat; A/B test ile karar ver.",
+            "Glassmorphism’i sadece 1–2 bileşende kullan (ör. bilgi kartları).",
+            "Premium dil için spacing/typography standardı koy (design system)."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Trend → UX etkisi → CWV riski → otel örneği",
+          "headers": [
+            "Trend",
+            "UX etkisi",
+            "CWV riski",
+            "Otel örneği"
+          ],
+          "rows": [
+            [
+              "Dikey video blokları",
+              "Hızlı kanıt, etkileşim",
+              "LCP/INP",
+              "Belek aquapark teaser"
+            ],
+            [
+              "Social feed entegrasyonu",
+              "Güven + sosyal kanıt",
+              "INP (embed)",
+              "Bodrum beach bar UGC"
+            ],
+            [
+              "Minimal funnel",
+              "Karar hızlanır",
+              "Düşük",
+              "Antalya city hızlı booking"
+            ],
+            [
+              "Micro interaction",
+              "Kontrol hissi",
+              "INP",
+              "Takvim/oda seçimi state"
+            ],
+            [
+              "Dark mode",
+              "Premium algı",
+              "CLS (tema)",
+              "Kemer lifestyle resort"
+            ],
+            [
+              "AI öneri kartları",
+              "Kişisel deneyim",
+              "INP (JS)",
+              "Side “çift paketi” önerisi"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Otel Web Tasarım Trend Checklist’ini İndir",
+          "text": "Trendleri otel sitenize uyarlamak için hangi pattern’i nerede kullanacağınızı 10 dakikada planlamanızı sağlar.",
+          "href": "/creative/ui-ux-tasarim#trend-checklist"
+        }
+      ]
+    },
+    {
+      "id": "ai-destekli-kisisellestirme-deneyim-kartlari",
+      "title": "AI destekli kişiselleştirme ve deneyim kartları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI Personalization trendi, otelde “kullanıcı sinyali” yakalanabiliyorsa değer üretir: destinasyon, tarih aralığı, segment (aile/çift), geçmiş davranış gibi. Ancak AI alanı “göz boyama” olarak eklenirse, hem güven hem performans zarar görür. İyi yaklaşım: AI’yi küçük, net “öneri kartları” olarak sunmak."
+        },
+        {
+          "type": "h3",
+          "text": "“Dinamik öneri kartları” örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Aile misafiri için en iyi oda” (Belek resort)",
+            "“Spa + geç çıkış önerisi” (Kemer/Side çift segmenti)",
+            "“Şehir oteli için hızlı paket” (Antalya city)",
+            "“Bu tarihlerde en iyi iptal seçeneği” (risk azaltma)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "AI kartlarının 3 UX kuralı"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kaynak netliği: “Sizin seçimlerinize göre öneriyoruz” gibi sade açıklama",
+            "Kontrol: “Değiştir” / “Daha fazla seçenek”",
+            "Performans: Kartlar kritik render’ı geciktirmesin (lazy-load)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (AI kartları)",
+          "items": [
+            "Kartlar gerçekten fayda sunuyor mu?",
+            "Kullanıcı kontrolü var mı?",
+            "Kişiselleştirme şeffaf mı?",
+            "Sayfa performansını bozmuyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "AI kartlarını “ekranın alt yarısında” başlat; kritik içeriği geciktirme.",
+            "“Öneri”yi 3 kartla sınırla; sonsuz carousel yapma.",
+            "Otel dijital pazarlama ile bağla: /otel-dijital-pazarlama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trendleri-cwv-bozmadan-uygulama",
+      "title": "Trendleri CWV bozmadan uygulama (heavy video için pratik)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Trend içerik olsa da, otel sitesinde hız ve CWV kritik. Özellikle video ve micro interaction’larda şu disiplin şart:"
+        },
+        {
+          "type": "h3",
+          "text": "Heavy video yönetimi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Poster görsel + lazy-load video",
+            "Autoplay varsa, düşük bitrate ve kısa loop",
+            "1 sayfada 1 “hero video”; diğerleri tıklamayla açılır"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Animasyon yönetimi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mikro animasyonlar kısa ve amaçlı",
+            "Scroll tetikleme sayısı sınırlı",
+            "Mobilde düşük güç cihazları düşün"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (CWV)",
+          "items": [
+            "LCP öğesi optimize mi?",
+            "CLS üreten slider/tema geçişi var mı?",
+            "INP’yi bozan 3rd-party script var mı?",
+            "Video embed’ler gecikmeli mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Trend + performans bütçesi” birlikte yürüsün.",
+            "Video ve feed embed’lerini mutlaka lazy-load et.",
+            "Trend uygulamalarını ölç (scroll, CTA, rezervasyon başlangıcı)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "2025–2026 Otel UX Trend Analizi Talep Et",
+          "text": "Trendleri sitenize uygun pattern’lere çevirip (video, dark mode, AI kartları) performansı bozmadan uygulamak için analiz alın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    },
+    {
+      "id": "otel-web-tasarim-trend-checklist",
+      "title": "Otel Web Tasarım Trend Checklist’ini İndir — 2025–2026 UI/UX",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Otel Web Tasarım Trend Checklist’ini İndir — 2025–2026 UI/UX (v1.0)",
+          "purpose": "Bu checklist, 2025–2026 otel UI/UX trendlerini (dikey video, social feed, micro interaction, dark mode, AI öneri kartları) “uygulanabilir pattern”lere çevirip sitenize en uygun 3 trendi seçmenizi sağlar. Amaç, trendleri CWV bozmadan devreye almak ve ölçümle doğrulamak için 14 günlük sprint planı sunmaktır.",
+          "whoFor": "Otel pazarlama + ajans + UI/UX + web geliştirme ekibi.",
+          "steps": [
+            "Sitenizi “resort/city” ve hedef kitleye göre sınıflandırın; 3 trend seçin.",
+            "Her trend için CWV riski ve çözümünü işaretleyin (poster, lazy-load, limitli animasyon).",
+            "14 günlük sprint planına göre uygulayıp KPI’ları ölçün (scroll, CTA, rezervasyon başlangıcı)."
+          ],
+          "checklist": [
+            "Social-first blok (dikey video) için poster + lazy-load planı var",
+            "Micro interaction’lar “durum bildirimi” amaçlı ve sınırlı",
+            "Dark mode kontrast testi yapıldı",
+            "AI öneri kartları 3 kartla sınırlı ve şeffaf açıklamalı",
+            "Social feed embed’leri gecikmeli yükleniyor",
+            "CWV hedefleri belirlendi (LCP/CLS/INP)",
+            "Mobilde CTA yolu net (sticky/tek CTA)",
+            "Trendler omnichannel içerikle bağlı (Reels/video)",
+            "KPI seti tanımlı (etkileşim + rezervasyon başlangıcı)",
+            "Kazanan pattern set olarak dokümante edilecek"
+          ],
+          "href": "/downloads/otel-web-tasarim-trend-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        
+        {
+          "type": "h3",
+          "text": "Deliverables listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "3 trend pattern seti (UI blocks)",
+            "CWV risk/önlem notları",
+            "KPI dashboard brief",
+            "İçerik üretim brief’i (video + sosyal)"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "2025–2026 otel web tasarım trendleri neler?",
+      "a": "Dikey video ve social-first bloklar, minimal rezervasyon akışları, micro interaction’lar, premium dark/light temalar ve AI öneri kartları öne çıkıyor. Trendler CWV bozmadan uygulanmalı."
+    },
+    {
+      "q": "Otel web sitemde hangi UI/UX trendlerini uygulamalıyım?",
+      "a": "Markanızın segmentine ve hedef kitlenize göre 2–3 trend seçin: örneğin mobile-first resort için dikey video + minimal funnel; premium butik için dark mode + micro interaction. Her trendin performans riskini kontrol edin."
+    },
+    {
+      "q": "Dikey video ve sosyal entegrasyon UX’i nasıl etkiler?",
+      "a": "Doğru kullanıldığında “kanıt”ı hızlandırır ve etkileşimi artırabilir; yanlış kullanıldığında sayfayı ağırlaştırır. Poster görsel, lazy-load ve tek CTA kuralı kritik."
+    },
+    {
+      "q": "Dark mode otel siteleri için uygun mu?",
+      "a": "Premium algıyı güçlendirebilir; ancak kontrast ve okunabilirlik doğru yönetilmezse kullanıcıyı zorlar. Opsiyonel sunmak ve test etmek daha güvenlidir."
+    },
+    {
+      "q": "AI öneri kartları ne zaman anlamlı olur?",
+      "a": "Kullanıcı sinyali yakalanıyorsa (destinasyon, tarih, segment) ve 3–4 öneriyle sınırlıysa anlamlıdır. “Şeffaf öneri” dili ve performans kontrolü şarttır."
+    },
+    {
+      "q": "Trendleri uygularken en büyük hata nedir?",
+      "a": "Heavy video/animasyon ve 3rd-party embed’leri kontrolsüz eklemek. Bu, CWV’yi bozup mobil terk riskini artırabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — otel-ui-ux-trendleri-2025-2026-hero-01.webp — 2025–2026 otel UX trendleri + dönüşüm odağı + resort bağlamı",
+        "h1-context — 1920×1080 — otel-ui-ux-trendleri-2025-2026-h1-context-02.webp — Social-first anasayfa ve dikey video ile hızlı rezervasyon akışı otel bağlamı",
+        "divider-01 — 1600×1200 — otel-ui-ux-trendleri-2025-2026-divider-03.webp — Fullscreen hero ve dikey video trend geçişi otel bağlamı",
+        "divider-02 — 1600×1200 — otel-ui-ux-trendleri-2025-2026-divider-04.webp — Dark mode ve premium görsel dil trend geçişi otel bağlamı",
+        "diagram-05 — 1920×1080 — otel-ui-ux-trendleri-2025-2026-diagram-05.webp — Dikey video, poster ve CTA yerleşimi akışı otel bağlamı",
+        "checklist-06 — 1200×1200 — otel-ui-ux-trendleri-2025-2026-checklist-06.webp — Otel UX trendleri uygulama checklist kartı otel bağlamı",
+        "kpi-07 — 1200×1200 — otel-ui-ux-trendleri-2025-2026-kpi-07.webp — Trend uygulamalarının etkileşim ve rezervasyon KPI paneli otel bağlamı",
+        "proof-08 — 1200×1200 — otel-ui-ux-trendleri-2025-2026-proof-08.webp — Trend planı deliverables ve pattern seti kanıt kartı otel bağlamı",
+        "table-trend-ux-etkisi-cwv-riski-otel-ornegi — Trend → UX etkisi → CWV riski → otel örneği tablosu",
+        "table-problem-kok-neden-cozum — Problem → Kök Neden → Çözüm tablosu",
+        "table-oncesi-sonrasi-kpi — Öncesi/Sonrası KPI tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "TR/EN hreflang karşılıklılık kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Hero video için poster görsel + lazy-load kullanılıyor",
+        "Autoplay video düşük bitrate ve kısa loop olarak sınırlandırıldı",
+        "Bir sayfada yalnızca 1 hero video kullanılıyor",
+        "Social feed embed’leri gecikmeli yükleniyor veya native grid kullanılıyor",
+        "Dark mode kontrast ve link görünürlüğü test edildi",
+        "Tema geçişi CLS üretmiyor",
+        "Micro interaction’lar kısa, amaçlı ve sınırlı",
+        "3rd-party script’lerin INP etkisi ölçülüyor",
+        "AI öneri kartları kritik render’ı geciktirmiyor",
+        "CWV hedefleri LCP/CLS/INP bazında tanımlandı",
+        "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
+        "Primary CTA hedefi: /creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /creative/ui-ux-tasarim#trend-checklist"
+      ]
+    }
+  }
+},
+
+"BlogAiKisisellestirmeOtelUx": {
+  "title": "AI Otel UX: Kişiselleştirme, Öneri Kartları, Chatbot",
+  "slug": "ai-kisisellestirme-otel-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "6 Ağustos 2026",
+  "publishedAt": "2026-08-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "AI destekli otel UX’i: kişiselleştirme kartları, öneri motoru, rezervasyon chatbot’u ve PMS/CRM entegrasyonu. KVKK şeffaflığı + CWV bozmadan uygulanabilir senaryolar.",
+  "seo": {
+    "metaTitle": "AI Otel UX: Kişiselleştirme, Öneri Kartları, Chatbot | DGTLFACE",
+    "metaDescription": "AI destekli otel UX’i: kişiselleştirme kartları, öneri motoru, rezervasyon chatbot’u ve PMS/CRM entegrasyonu. KVKK şeffaflığı + CWV bozmadan uygulanabilir senaryolar."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / Sayfa Kodu: UI & UX Tasarımı / creative-2",
+      "Sayfa URL: /tr/creative/ui-ux-tasarim",
+      "Blog Tipi / No: Trend / 22",
+      "Blog URL: /tr/creative/blog/ai-kisisellestirme-otel-ux",
+      "Intent: Informational + Trend",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 180 gün",
+      "Canonical: /tr/creative/blog/ai-kisisellestirme-otel-ux"
+    ],
+    "strategySummary": "Bu yazı, UI/UX silo’sunda “AI personalization + conversational UX” trendini otel rezervasyon akışına indirger: öneri kartları (upgrade/cross-sell), chatbot akışları (SSS→rezervasyon→insana devir), PMS/CRM veri entegrasyonu ve KVKK/şeffaflık katmanını tek çerçevede toplar. Hedef persona; tekrar misafir oranı yüksek destinasyon otellerini (Antalya/Belek/Side/Bodrum) yöneten otel sahibi/GM, satış–pazarlama lideri ve ajans yöneticisidir. Funnel aşaması awareness → consideration: “AI nerede değer üretir, nerede spam algısı yaratır?” kararını kolaylaştırır. Ana iş sorusu: “AI ile kişiselleştirmeyi UX’e gömerek gelir etkisini artırırken, veri güveni ve performans (CWV) risklerini nasıl yönetirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "AI destekli otel UX’i; misafirin geçmiş rezervasyonları, ilgi alanları ve davranışlarına göre oda, paket veya aktivite önerileri sunarak hem deneyimi hem geliri artırmayı hedefler. Chatbot’lar ise sık sorulan soruları ve basit rezervasyon adımlarını otomatikleştirirken, karmaşık senaryolarda insan desteğine akıllı geçiş sağlar. Bu rehber; öneri kartları, conversational akışlar ve PMS/CRM verisiyle çalışan dinamik içerikleri, KVKK şeffaflığı ve performans disipliniyle birlikte ele alır.",
+    "sgeSummary": "AI otel UX; “sana özel öneri” kartları + chatbot akışıyla rezervasyonu hızlandırır. PMS/CRM verisiyle beslenir, şeffaf microcopy ile güven verir ve CWV bozmadan uygulanır.",
+    "voiceAnswer": "Misafirin sinyaline göre öneri kartları gösterin, chatbot’u SSS’den rezervasyona bağlayın ve gerekince insana devredin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, pazarlama/satış, ajans; CRM/operasyon liderleri",
+      "KPI’lar: Upsell/cross-sell tıklaması, member/upgrade seçimi, rezervasyon başlangıcı, chatbot çözüm oranı, call center devri",
+      "Entity: AI Personalization, Recommendation Engine, Chatbot, Conversational UX, PMS, CRM, Hotel Website",
+      "Geo: Antalya/Belek/Side/Bodrum tekrar misafir + mobile-first senaryolar",
+      "Funnel: Awareness → Consideration → Conversion → Retention",
+      "Denge notu: Doğru kurguda sepet değeri artabilir; kötü kurguda spam algısı doğar (yönlü)",
+      "Güven notu: “Tercihlerinize göre öneriyoruz” gibi şeffaf microcopy şart"
+    ]
+  },
+  "h1": {
+    "title": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+    "intro": "Otel web sitesinde AI, “her şey otomatik olsun” demek değildir. Doğru yerde kullanıldığında misafirin karar yükünü azaltır (hangi oda/paket?), doğru zamanda destek verir (SSS ve yönlendirme) ve geliri artıracak öneriler sunar (upgrade, ekstra gece, spa). Yanlış yerde kullanıldığında ise “spam” hissi yaratır, güveni zedeler ve performansı (CWV) bozar.",
+    "quickSummary": [
+      "1. Kişiselleştirmeyi sıralama, öneri ve yönlendirme gibi net kullanım alanlarıyla sınırlayın.",
+      "2. Öneri kartlarını 3–4 net seçenekle sınırlandırın ve kullanıcı kontrolü sunun.",
+      "3. Chatbot’u SSS → rezervasyon başlangıcı → insana devir akışıyla tasarlayın.",
+      "4. PMS/CRM verisini izin ve KVKK süreciyle birlikte yönetin.",
+      "5. “Tercihlerinize göre öneriyoruz” gibi şeffaf microcopy kullanın.",
+      "6. AI kartları ve chatbot script’leri kritik render’ı geciktirmemeli.",
+      "7. Upsell, chatbot çözüm oranı, insana devir ve rezervasyon başlangıcını birlikte ölçün."
+    ],
+    "ctaPrimary": {
+      "label": "AI Kişiselleştirme & Chatbot UX Analizi Talep Et",
+      "text": "Otel sitenizde öneri kartları ve chatbot akışını KVKK ve performans risklerini yöneterek tasarlamak için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "AI Kişiselleştirme & Chatbot UX Analizi Talep Et",
+      "text": "Öneri kartları ve chatbot’u spam algısı yaratmadan, KVKK ve performans riskini yöneterek devreye alın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "AI Öneri Kartları & Chatbot Akış Şablonunu İndir",
+      "text": "Öneri kartı yerleşimleri ve chatbot akışını hazır şablonla kurgulayıp hızlıca test etmenizi sağlar.",
+      "href": "/creative/ui-ux-tasarim#ai-template"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "PMS & OTA Yönetimi",
+      "href": "/pms-ota-yonetimi"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "Satış ve Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "KVKK Uyum Hizmeti",
+      "href": "/yazilim/kvkk-uyum-hizmeti"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+      "href": "/creative/blog/otel-ui-ux-trendleri-2025-2026"
+    },
+    {
+      "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+      "href": "/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-ux-kisisellestirme-neden-gundemde",
+      "title": "Otel UX’inde kişiselleştirme neden gündemde?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "h3",
+          "text": "Voice (doğal sorular)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“AI ile otel sitemi nasıl daha akıllı yaparım?”",
+            "“Chatbot gerçekten rezervasyon getirir mi?”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kısa cevap: Evet, ama sadece doğru kurguyla: öneri kartlarını 3–4 net öneriyle sınırlayın, chatbot’u SSS→rezervasyon başlangıcı→insana devir akışıyla tasarlayın, KVKK/şeffaflık ve performans bütçesini en baştan koyun."
+        },
+        {
+          "type": "p",
+          "text": "Otel kararları “çok seçenekli”dir: oda tipi, manzara, board, iptal, tarih, aktivite… Kullanıcı mobile-first davranışla daha hızlı karar vermek ister. Kişiselleştirme, doğru sinyali yakalayıp doğru öneriyi sunarak karar süresini kısaltır. Özellikle tekrar misafir oranı yüksek destinasyonlarda (Antalya/Belek/Side/Bodrum) geçmiş konaklama sinyali, öneriyi daha anlamlı yapar."
+        },
+        {
+          "type": "h3",
+          "text": "Kişiselleştirmenin 3 güvenli kullanım alanı"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Sıralama: aynı seçenekler, ama daha anlamlı sırada (spam değil)",
+            "Öneri kartı: 1–3 net öneri (upgrade/spa/ekstra gece)",
+            "Yardım: chatbot ile doğru içeriğe yönlendirme + insana devir"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Key Data Point (yönlü): AI destekli öneri kartları doğru kurgulandığında cross-sell/upsell fırsatlarını ve sepet değerini artırabilir; kötü kurgulandığında spam algısı yaratıp etkileşimi düşürebilir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (H2-1)",
+          "items": [
+            "Kişiselleştirme “sıralama/öneri/yönlendirme” olarak net mi?",
+            "Öneri sayısı sınırlı mı (3–4)?",
+            "Kullanıcı kontrolü var mı (“Değiştir”, “Daha fazla”)?",
+            "Şeffaf açıklama var mı (“tercihlerinize göre öneriyoruz”)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Kişiselleştirmeyi “az ama doğru” prensibiyle başlatın.",
+            "Öneri kartlarını karar anına yerleştirin (oda/paket seçimi).",
+            "Veri–deneyim–gelir bağını raporlama ile kurun: /raporlama/satis-donusum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-web-ai-kisisellestirme-nasil-yapilir",
+      "title": "Otel web sitelerinde AI ile kişiselleştirme nasıl yapılır?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "AEO checklist"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hedefi seçin: upsell mi (upgrade/spa) yoksa karar hızlandırma mı (oda/paket)?",
+            "Sinyali belirleyin: tarih aralığı, kişi sayısı, cihaz, sayfa davranışı, previous stay (varsa).",
+            "Öneri kartını tasarlayın: 1 başlık + 1 fayda cümlesi + 1 CTA; 3 kartı geçmeyin.",
+            "Kontrol ekleyin: “Bunu istemiyorum / değiştir” gibi seçenekler spam algısını azaltır.",
+            "Şeffaf microcopy yazın: “Tercihlerinize göre öneriyoruz” + “verinizi nasıl kullanırız” linki.",
+            "Performansı koruyun: kartlar kritik render’ı geciktirmesin (lazy-load).",
+            "Ölçün ve iterasyon yapın: tıklama, sepet, rezervasyon başlangıcı ve terk oranı."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Öneri kartı 1 satırda anlaşılır mı?",
+            "Kart sayısı 3 ile sınırlı mı?",
+            "Şeffaf microcopy var mı?",
+            "KPI ölçümü net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk sürümde 1 sayfada 1 öneri alanı ile başlayın (oda sayfası).",
+            "Kartları “yardımcı” yapın; sayfayı ele geçirmesin.",
+            "Entegrasyon için PMS/OTA yönetimiyle bağlayın: /pms-ota-yonetimi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-oneri-motorlari-oda-paket-aktivite",
+      "title": "AI öneri motorları ile oda, paket ve aktivite önerileri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Recommendation Engine’in gücü, otelde “doğru anda doğru öneri” vermesidir. Bu öneriler “satış baskısı” değil “yardım” gibi görünmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Öneri kartı türleri (otel örnekleri)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Upgrade kartı: “Bir üst oda + manzara” (Belek/Side resort)",
+            "Ekstra gece kartı: “1 gece daha kalın” (Bodrum uzun konaklama)",
+            "Spa paketi kartı: “Çift masajı + sauna” (Kemer/Side)",
+            "Aktivite kartı: “Bugün çocuk kulübü” (aile segmenti)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“Sana özel teklif” kartı tasarım standardı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Başlık: “Sana özel teklif” (daha az iddialı da olabilir)",
+            "1 fayda cümlesi: “Aile odasında daha geniş alan”",
+            "1 CTA: “Detayı gör” / “Teklifi uygula”",
+            "Şeffaflık satırı: “Tercihlerinize göre öneriyoruz”",
+            "Kontrol: “Bu tür önerileri azalt” (tercih)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Predictive keywords (doğal kullanım): ai otel web kişiselleştirme; pms crm verisi ile öneri motoru; otel chatbot rezervasyon deneyimi."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Öneri kartı)",
+          "items": [
+            "Fayda 1 cümlede net mi?",
+            "CTA tek mi?",
+            "Şeffaflık satırı var mı?",
+            "“Hayır” seçeneği var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Sana özel” dilini sakin tutun; kullanıcıyı izleniyor hissettirmeyin.",
+            "Önerileri 3 kartla sınırlandırın; carousel enflasyonu yapmayın.",
+            "Öneri kartını rezervasyon kararına yakın yerde gösterin (oda/paket ekranı)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chatbot-conversational-ux",
+      "title": "Chatbot ve conversational UX (rezervasyon ve soru yönetimi)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Chatbot’ların otelde en iyi çalıştığı yerler:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "SSS (check-in/out, iptal, transfer)",
+            "Basit yönlendirme (oda tipine götür, fiyat göster)",
+            "Talep toplama (geri arama iste)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Chatbot’un kötü çalıştığı yerler ise karmaşık senaryolardır (özel koşul pazarlığı, grup rezervasyon). Burada akıllı bir “insana devir” şarttır."
+        },
+        {
+          "type": "h3",
+          "text": "Bot akışı (basit → yönlendirme → insan)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kullanıcı sorusu: “Havalimanı transferi var mı?”",
+            "Bot: kısa cevap + “transfer seçenekleri” linki",
+            "Rezervasyonla ilişkiliyse: “Tarih seç → fiyat gör” CTA",
+            "Karmaşıksa: “Sizi arayalım / canlı destek” (call center)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Conversational microcopy örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Size en hızlı şekilde yardımcı olayım. 2 soru soracağım.”",
+            "“Bu öneri, seçtiğiniz tarihlere göre.”",
+            "“Dilerseniz bir temsilciye bağlayabilirim.”"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Chatbot)",
+          "items": [
+            "Botun rolü net mi (SSS/yönlendirme)?",
+            "İnsan devri kolay mı?",
+            "Bot, rezervasyon akışını kesmeden destek veriyor mu?",
+            "KVKK/izin metni uygun mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Botu “SSS ve yönlendirme” ile başlatın; tüm rezervasyonu botla yaptırmaya çalışmayın.",
+            "“İnsana devir”i bir butonla görünür tutun.",
+            "Operasyonel entegrasyon için: /cagri-merkezi-hizmetleri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pms-crm-web-ux-entegrasyonu",
+      "title": "PMS, CRM ve web UX entegrasyonu (tek kaynak gerçek)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI önerileri “veri” ile anlam kazanır. PMS/CRM entegrasyonu yoksa öneriler yüzeyde kalır. Ancak entegrasyon, veri güveni ve izin yönetimiyle birlikte düşünülmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Veri kaynakları ve güvenli kullanım"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "PMS: konaklama geçmişi, oda tercihleri (varsa)",
+            "CRM: segment, iletişim izinleri, sadakat seviyesi",
+            "Web davranışı: arama, filtre, sayfa etkileşimi"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Dinamik içerik örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Tekrar misafir” için hızlı paket",
+            "“Aile” segmenti için çocuk kulübü kartı",
+            "“Çift” segmenti için spa/romantik paket kartı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Entegrasyon)",
+          "items": [
+            "Veri kaynağı tanımlı mı (PMS/CRM)?",
+            "İzin ve KVKK süreci net mi?",
+            "Öneriler “aşırı kişisel” değil mi?",
+            "Veriler güncel mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Tek kaynak gerçek” kuralı koyun: segment/izin bilgisi CRM’de doğrulansın.",
+            "AI önerilerini “yardımcı” seviyede tutun; aşırı kişisel çıkarımlardan kaçının.",
+            "KVKK uyum sürecine bağlayın: /yazilim/kvkk-uyum-hizmeti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-seffaflik-veri-guveni-kvkk",
+      "title": "AI kullanırken şeffaflık ve veri güveni (KVKK notu)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI alanlarında kullanıcıya iki şeyi net söylemek gerekir:"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Bu öneri neden gösteriliyor? (şeffaflık)",
+            "Kullanıcı kontrolü var mı? (tercih yönetimi)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Önerilen microcopy seti"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Tercihlerinize ve seçtiğiniz tarihlere göre öneriyoruz.”",
+            "“Bu önerileri ayarlayabilirsiniz.” (tercih linki)",
+            "“Detaylı bilgi” (KVKK/gizlilik linki)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not (kısa): KVKK ve benzeri regülasyonlar uygulamaya göre değişebilir; hukuki danışmanlığın yerini tutmaz. UX tarafında güvenli standart: açık metin, kontrol, izinli iletişim."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Şeffaflık)",
+          "items": [
+            "“Neden öneriyoruz” satırı var mı?",
+            "Kullanıcı öneriyi kapatabiliyor mu?",
+            "İzin metni erişilebilir mi?",
+            "Veri güveni dilinde korkutma yok mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Şeffaf microcopy”yi AI kartlarının standart parçası yapın.",
+            "Tercih yönetimini footer/hesap ekranına ekleyin.",
+            "Kişiselleştirmeyi KVKK izinleriyle tutarlı yönetin."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "AI Öneri Kartları & Chatbot Akış Şablonunu İndir",
+          "text": "Öneri kartı yerleşimleri ve chatbot akışını hazır şablonla kurgulayıp hızlıca test etmenizi sağlar.",
+          "href": "/creative/ui-ux-tasarim#ai-template"
+        }
+      ]
+    },
+    {
+      "id": "hemen-test-edilebilecek-ai-senaryolari",
+      "title": "Hemen test edebileceğiniz 3 basit AI senaryosu (SXO)",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Öneri kartı (upsell): Oda sayfasında “upgrade önerisi” (3 kart max).",
+            "Basic chatbot: SSS + yönlendirme + “insana devir” (call center).",
+            "Basit segment banner: “Aile misafirlere” içerik kısayolu (çocuk kulübü/aktivite)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: AI bileşeni → değer → risk → kontrol",
+          "headers": [
+            "Bileşen",
+            "Değer",
+            "Risk",
+            "Kontrol"
+          ],
+          "rows": [
+            [
+              "Öneri kartı",
+              "Upsell/cross-sell",
+              "Spam algısı",
+              "“Azalt/kapat”"
+            ],
+            [
+              "Chatbot",
+              "SSS yükünü azaltır",
+              "Yanlış cevap",
+              "İnsana devir"
+            ],
+            [
+              "Dinamik içerik",
+              "Daha ilgili deneyim",
+              "Veri endişesi",
+              "Şeffaf microcopy"
+            ],
+            [
+              "Segment banner",
+              "Hızlı yönlendirme",
+              "Dikkat dağıtır",
+              "Sınırlı kullanım"
+            ]
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "AI Kişiselleştirme & Chatbot UX Analizi Talep Et",
+          "text": "Öneri kartları ve chatbot’u spam algısı yaratmadan, KVKK ve performans riskini yöneterek devreye alın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    },
+    {
+      "id": "ai-oneri-kartlari-chatbot-akis-sablonu",
+      "title": "AI Öneri Kartları & Chatbot Akış Şablonunu İndir — Otel AI UX",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "AI Öneri Kartları & Chatbot Akış Şablonunu İndir — Otel AI UX (v1.0)",
+          "purpose": "Bu şablon, otel web sitelerinde AI öneri kartlarını (upgrade/spa/ekstra gece) ve chatbot akışını (SSS→rezervasyon→insana devir) hızlıca kurgulayıp test etmeniz için hazırlanmıştır. Amaç, kişiselleştirmeyi spam algısı yaratmadan uygulamak; şeffaf microcopy ve KVKK uyumu ile güveni korumaktır. Performans notları (lazy-load, CWV) dahildir.",
+          "whoFor": "Otel pazarlama + UX/UI + web geliştirme + CRM/operasyon + call center ekipleri.",
+          "steps": [
+            "3 öneri kartı senaryosu seçin (upgrade/spa/ekstra gece) ve yerleşim ekranını belirleyin.",
+            "Chatbot’u 10 SSS + 3 yönlendirme + 1 insana devir kuralıyla kurun.",
+            "KPI hedefi koyup 14 gün test edin (tıklama, devretme, rezervasyon başlangıcı)."
+          ],
+          "checklist": [
+            "3 kart sınırı",
+            "Şeffaf microcopy var",
+            "İnsana devir var",
+            "KVKK/izin linki var",
+            "Lazy-load planı var"
+          ],
+          "href": "/downloads/ai-oneri-kartlari-chatbot-akis-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "h3",
+          "text": "1 örnek (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kart: “Spa paketi önerisi — 15% avantaj” (parity/kontrat uygunsa “değer” diliyle)",
+            "Bot: “Check-in saatleri” → kısa cevap + link + “temsilciye bağlan” seçeneği"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "3 kart sınırı",
+            "Şeffaf microcopy var",
+            "İnsana devir var",
+            "KVKK/izin linki var",
+            "Lazy-load planı var"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Yapay zeka ile otel web sitemde kişiselleştirme nasıl yaparım?",
+      "a": "Önce hedefi seçin (karar hızlandırma mı upsell mi), sonra sinyali belirleyin (tarih, kişi, previous stay). 3 kartı geçmeyen öneri alanları kurup şeffaf microcopy ekleyin ve KPI’larla ölçerek iterasyon yapın."
+    },
+    {
+      "q": "Chatbot otel rezervasyonlarında nasıl çalışmalı?",
+      "a": "Chatbot, SSS ve yönlendirmede güçlüdür; karmaşık senaryolarda insana devir zorunludur. Akışı “SSS → rezervasyon başlangıcı → temsilciye geçiş” şeklinde kurgulayın."
+    },
+    {
+      "q": "AI öneri kartları rezervasyonları artırır mı?",
+      "a": "Doğru yerde, az sayıda ve fayda odaklı sunulursa cross-sell/upsell’i destekleyebilir. Aşırı öneri veya agresif dil spam algısı yaratır ve etkileşimi düşürebilir."
+    },
+    {
+      "q": "PMS/CRM verisini UX’te nasıl kullanabilirim?",
+      "a": "Segment (aile/çift), sadakat seviyesi ve önceki tercihler gibi sinyallerle öneri kartı sıralaması yapabilirsiniz. İzin/KVKK çerçevesinde ve “neden öneriyoruz” açıklamasıyla şeffaf kalmanız gerekir."
+    },
+    {
+      "q": "AI kullanırken misafire ne söylemeliyim?",
+      "a": "“Tercihlerinize ve seçtiğiniz tarihlere göre öneriyoruz” gibi kısa bir açıklama ekleyin ve tercihleri yönetme seçeneği sunun. Bu, güven ve kontrol hissini artırır."
+    },
+    {
+      "q": "AI bileşenleri site hızını bozar mı?",
+      "a": "Kontrolsüz embed ve ağır JS kullanılırsa bozabilir. Lazy-load, sınırlı kart sayısı ve sayfa bazlı script yönetimiyle CWV etkisi kontrol altında tutulabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ai-kisisellestirme-otel-ux-hero-01.webp — AI kişiselleştirme ile otel rezervasyon deneyimini hızlandırma görseli",
+        "h1-context — 1920×1080 — ai-kisisellestirme-otel-ux-h1-context-02.webp — PMS CRM verisiyle öneri kartları ve chatbot akışı otel bağlamı",
+        "divider-01 — 1600×1200 — ai-kisisellestirme-otel-ux-divider-03.webp — Otel öneri motorları ve upsell kartları bölüm geçiş görseli",
+        "divider-02 — 1600×1200 — ai-kisisellestirme-otel-ux-divider-04.webp — Chatbot ve conversational UX bölüm geçiş görseli",
+        "diagram-05 — 1920×1080 — ai-kisisellestirme-otel-ux-diagram-05.webp — PMS CRM → AI → web öneri kartı akış diyagramı otel bağlamı",
+        "checklist-06 — 1200×1200 — ai-kisisellestirme-otel-ux-checklist-06.webp — AI kişiselleştirme ve chatbot hızlı test checklist kartı otel bağlamı",
+        "kpi-07 — 1200×1200 — ai-kisisellestirme-otel-ux-kpi-07.webp — Öneri kartı ve chatbot KPI paneli ile gelir etkisi otel bağlamı",
+        "proof-08 — 1200×1200 — ai-kisisellestirme-otel-ux-proof-08.webp — AI öneri kartları ve chatbot akışı deliverables kanıt kartı otel bağlamı",
+        "table-ai-bileseni-deger-risk-kontrol — AI bileşeni → değer → risk → kontrol tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "TR/EN hreflang karşılıklılık kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Refresh Cycle: 180 gün olarak planlandı",
+        "AI öneri kartları 3 kartla sınırlandırıldı",
+        "Her öneri kartında tek CTA kullanılıyor",
+        "Şeffaf microcopy standart olarak gösteriliyor",
+        "Kullanıcı önerileri azaltabiliyor veya kapatabiliyor",
+        "Chatbot’ta görünür insana devir seçeneği bulunuyor",
+        "Chatbot SSS ve yönlendirme rolüyle sınırlandırıldı",
+        "PMS/CRM veri kaynakları ve güncellik durumu tanımlandı",
+        "KVKK/izin metinleri erişilebilir ve açık",
+        "Aşırı kişisel çıkarımlardan kaçınılıyor",
+        "AI kartları ve chatbot script’leri kritik render’ı geciktirmiyor",
+        "Kart ve chatbot bileşenleri lazy-load veya sayfa bazlı script yönetimiyle yükleniyor",
+        "CWV etkisi LCP/CLS/INP bazında ölçülüyor",
+        "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
+        "Primary CTA hedefi: /creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /creative/ui-ux-tasarim#ai-template"
+      ]
+    }
+  }
+},
+
+"BlogVoiceSearchChatbotOtelUx": {
+  "title": "Sesli Arama + Chatbot ile Otel UX: Konuşarak Rezervasyon",
+  "slug": "voice-search-chatbot-otel-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "6 Ağustos 2026",
+  "publishedAt": "2026-08-06",
+  "readingTime": "10 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel sitenizi voice search ve chatbot’a hazırlayın: doğal soru başlıkları, kısa cevap blokları, FAQ/SSS kurgusu, bot→operatör geçişi ve KVKK uyumlu kayıt/politika.",
+  "seo": {
+    "metaTitle": "Sesli Arama + Chatbot ile Otel UX: Konuşarak Rezervasyon | DGTLFACE",
+    "metaDescription": "Otel sitenizi voice search ve chatbot’a hazırlayın: doğal soru başlıkları, kısa cevap blokları, FAQ/SSS kurgusu, bot→operatör geçişi ve KVKK uyumlu kayıt/politika."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / Kodu: UI & UX Tasarımı / creative-2",
+      "Sayfa URL: /tr/creative/ui-ux-tasarim",
+      "Blog Tipi / No: Trend / 23",
+      "Blog URL: /tr/creative/blog/voice-search-chatbot-otel-ux",
+      "Intent: Informational + Trend",
+      "Difficulty / Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/voice-search-chatbot-otel-ux"
+    ],
+    "strategySummary": "Bu içerik, otel UX’inde “konuşma tabanlı deneyim” (voice + chat) trendini otel özelinde somutlaştıran bir trend-hub yazısıdır: voice search kalıpları, SSS/FAQ yapısı, chatbot/voicebot diyalogları ve çağrı merkezi entegrasyonunu tek akışta anlatır. Hedef persona; Antalya/Belek/Side gibi turist yoğun bölgelerde talep üreten otellerin sahibi/GM’i, satış–pazarlama müdürü ve ajans yöneticisidir. Funnel aşaması awareness → consideration: kullanıcı “soru sorarak” karar verir; kısa, net yanıt blokları ve iyi tasarlanmış bot akışları, karar süresini kısaltır. Ana iş sorusu: “Sesli arama ve chatbot’a uygun içerik/UX’ı nasıl kurar, KVKK ve operasyon (call center) ile uyumlu hale getiririm?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-06",
+    "readingTime": "10 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Sesli arama ve chatbot’lar, otel aramalarının ve rezervasyon sürecinin önemli bir parçası haline geliyor. Doğal dilde soru soran misafirlere net ve kısa cevaplar verebilen içerikler, hem sesli sonuçlarda hem de site içi chatbot akışlarında avantaj sağlar. Otel UX’i; metin, ses ve chat deneyimlerini birlikte düşünmelidir. Bu rehber, voice search sorgu kalıplarını, chatbot/voicebot diyaloglarını ve FAQ/SSS tasarımını otel bağlamında uygulanabilir şekilde sunar.",
+    "sgeSummary": "Voice search, soru-cevap odaklı içerik ister. Otel sitelerinde kısa yanıt blokları, iyi kurgulanmış FAQ ve chatbot/voicebot + call center geçişiyle “konuşarak rezervasyon” deneyimi güçlenir.",
+    "voiceAnswer": "Soru başlıkları yazın, 1–2 cümle net cevap verin; botu SSS’den rezervasyona bağlayıp gerekince operatöre devredin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, pazarlama/satış, ajans; çağrı merkezi liderleri",
+      "KPI’lar: FAQ görüntüleme→rezervasyon başlangıcı, bot çözüm oranı, operatöre devir, cevap süresi, terk oranı",
+      "Entity: Voice Search, Chatbot, Voicebot, FAQ, Call Center, Hotel Website UX",
+      "Geo: Antalya/Belek/Side turist yoğun destinasyonlarda TR/EN soru kalıpları",
+      "Funnel: Awareness → Consideration → Conversion",
+      "Operasyon etkisi: Doğru bot+FAQ kurgusu, sık sorulan sorularda call center yükünü yönlü olarak azaltabilir",
+      "Risk: KVKK/kayıt belirsizliği ve ağır bot script’i = güven + performans kaybı"
+    ]
+  },
+  "h1": {
+    "title": "Sesli Arama, Chatbot ve Otel UX’i: Konuşarak Rezervasyon Dönemi",
+    "intro": "“Google’a otel sorarken nasıl konuşuyoruz?” sorusu, otel siteleri için artık tasarım sorusu kadar içerik ve operasyon sorusu da. Kullanıcı; yazı yazmaktan çok konuşma dilinde sorular soruyor: “yakınımdaki oteller”, “Antalya all inclusive hotel”, “Belek’te aile oteli var mı?”, “iptal ücretsiz mi?”… Bu sorulara web’de net cevap bulamazsa ya OTA’ya gider ya da çağrı merkezini arar. İyi bir otel UX’i; voice search, chatbot ve call center’ı “aynı misafir dilinde” birleştirir.",
+    "quickSummary": [
+      "1. İlk 20 sesli sorguyu çıkarın ve soru formatlı başlıklara dönüştürün.",
+      "2. Her sorunun altında 40–60 kelimelik kısa ve net cevap blokları kullanın.",
+      "3. FAQ’yi web, chatbot ve voicebot için tek kaynak gerçek haline getirin.",
+      "4. Botu SSS → rezervasyon başlangıcı → operatöre devir akışıyla kurgulayın.",
+      "5. TR/EN çekirdek soru ve diyalog setlerini birlikte hazırlayın.",
+      "6. Bot konuşma özetini operatöre aktararak tekrar soru yükünü azaltın.",
+      "7. KVKK, kayıt ve veri saklama metinlerini açık ve erişilebilir tutun.",
+      "8. Bot widget’ını lazy-load edin ve INP etkisini ölçün.",
+      "9. Bot çözüm oranı, devir ve rezervasyon başlangıcı KPI’larını takip edin.",
+      "10. Soru setini PAA ve gerçek kullanıcı taleplerine göre düzenli güncelleyin."
+    ],
+    "ctaPrimary": {
+      "label": "Voice Search & Chatbot UX Analizi Talep Et",
+      "text": "Sesli arama sorgularına uygun içerik ve bot akışı tasarlayıp call center devrini doğru kurgulamak için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Voice Search & Chatbot UX Analizi Talep Et",
+      "text": "Sesli arama sorgularına uygun FAQ yapısı ve bot akışıyla cevap süresini kısaltıp rezervasyon yolunu güçlendirin.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "FAQ & Chatbot Soru Seti Örneğini İndir",
+      "text": "TR/EN hazır soru–cevap seti ve bot kısayol akışıyla chatbot’unuzu hızlıca devreye almanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#faq-chatbot-set"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Çağrı Merkezi Hizmetleri",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    {
+      "label": "Mesaj Yönetimi",
+      "href": "/cagri-merkezi/mesaj-yonetimi"
+    },
+    {
+      "label": "KVKK & Veri Güvenliği Raporlama",
+      "href": "/raporlama/kvkk-veri-guvenligi"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
+      "href": "/creative/blog/ai-kisisellestirme-otel-ux"
+    },
+    {
+      "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+      "href": "/creative/blog/otel-ui-ux-trendleri-2025-2026"
+    },
+    {
+      "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+      "href": "/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    }
+  ],
+  "sections": [
+    {
+      "id": "sesli-arama-trendleri-otel-aramalari",
+      "title": "Sesli arama trendleri ve otel aramalarına etkisi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "h3",
+          "text": "Voice (doğal cümleleri birebir yakalayalım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Google’a otel sorarken nasıl konuşuyoruz?”",
+            "“yakınımdaki oteller”",
+            "“Antalya all inclusive hotel”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bu tür sorgular, sayfanızda soru formatlı başlıklar ve 1–2 cümlelik net cevap blokları gerektirir; chatbot akışında da aynı cümleler “kısayol soru” olarak çalışır."
+        },
+        {
+          "type": "p",
+          "text": "Sesli arama davranışı, “anahtar kelime”den çok “niyet cümlesi” üretir. Otel aramalarında bu niyet genelde 4 başlıkta toplanır: yakınlık (near me), destinasyon (Antalya/Belek/Side), paket/konsept (all inclusive), güven/koşul (iptal, ödeme, ulaşım). Bu yüzden otel sitesinde arama niyetini karşılayan “hızlı cevap katmanı” gerekir."
+        },
+        {
+          "type": "table",
+          "caption": "Voice search sorgu örnekleri tablosu",
+          "headers": [
+            "Sesli sorgu örneği",
+            "Niyet",
+            "İdeal cevap formatı (tek cümle)",
+            "Sayfada nerede?"
+          ],
+          "rows": [
+            [
+              "“yakınımdaki oteller”",
+              "Yerel/near me",
+              "“Konumunuza göre en yakın otelleri harita + filtreyle listeliyoruz.”",
+              "Lokasyon listeleme + FAQ"
+            ],
+            [
+              "“Antalya all inclusive hotel”",
+              "Destinasyon + konsept",
+              "“Antalya’da her şey dahil seçenekleri tarih seçimiyle birlikte gösteriyoruz.”",
+              "Ana sayfa/landing + FAQ"
+            ],
+            [
+              "“Belek’te aile oteli var mı?”",
+              "Segment",
+              "“Aile odası ve çocuk alanı olan otelleri ‘aile’ filtresiyle bulabilirsiniz.”",
+              "Otel listeleme + bot kısayol"
+            ],
+            [
+              "“Ücretsiz iptal var mı?”",
+              "Risk azaltma",
+              "“Seçtiğiniz tarihe göre iptal koşulunu fiyat bloğunda 1 satırda gösteriyoruz.”",
+              "Oda sayfası + FAQ"
+            ],
+            [
+              "“Havalimanı transferi var mı?”",
+              "Operasyon",
+              "“Transfer seçenekleri ve ücretlerini ‘Ulaşım’ bölümünde net listeliyoruz.”",
+              "SSS + bot akışı"
+            ],
+            [
+              "“Hotel near me”",
+              "EN near me",
+              "“We show nearby hotels with a map view and quick filters.”",
+              "EN FAQ + bot"
+            ],
+            [
+              "“Can I book by phone?”",
+              "EN destek",
+              "“Yes—call support or request a callback from the booking page.”",
+              "Bot + call center geçiş"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (H2-1)",
+          "items": [
+            "Kullanıcı soruları sayfada soru başlıkları olarak var mı?",
+            "Cevaplar 1–2 cümle net mi (paragraf değil)?",
+            "“Near me / yakınımdaki” niyeti yerel SEO sayfalarına bağlanıyor mu?",
+            "TR/EN soru kalıpları en az çekirdek seviyede var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk 20 sesli sorguyu çıkarın (yakınlık/destinasyon/iptal/transfer).",
+            "Her sorgu için 1 soru başlığı + 1 kısa cevap bloğu yazın.",
+            "Yerel SEO ve talep üretimi bağını kurun: /otel-dijital-pazarlama"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-web-sesli-arama-chatbot-hazirligi",
+      "title": "Otel web sitenizi sesli arama ve chatbot’lara nasıl hazırlarsınız?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "AEO checklist"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "H2/H3 başlıklarının en az bir kısmını soru formatında yazın (Nasıl? Kaç? Var mı?).",
+            "Her sorunun hemen altında 40–60 kelimelik net bir cevap bloğu verin (konuşma dili, kısa cümleler).",
+            "“yakınımdaki oteller”, “Antalya all inclusive hotel” gibi kalıpları içerikte doğal şekilde geçirin.",
+            "FAQ/SSS bölümünü “kısa cevap + detay link” modelinde kurgulayın; bot bu bölümü kaynak olarak kullansın.",
+            "Bot için “kısayol soru” seti üretin: iptal, transfer, check-in/out, çocuk politikası, evcil hayvan.",
+            "İçerikte tutarlılık: fiyat/iptal/vergiler aynı dilde ve aynı yerde yazılsın (voice + chat uyumu).",
+            "Ölçüm: FAQ tıklaması, bot çözüm oranı ve operatöre devir KPI’larını takip edin."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "“Konuşma dili” cevap bloğu örnekleri (kopyalanabilir)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Soru: “Ücretsiz iptal var mı?” Cevap: Seçtiğiniz tarih ve pakete göre değişir. İptal özetini fiyatın yanında 1 satırda gösteriyoruz; detay için koşullara tıklayabilirsiniz.",
+            "Soru: “Çocuk kabul ediyor musunuz?” Cevap: Evet. Çocuk yaş aralığı ve ücretsiz/ücretli kuralları oda seçim ekranında net listelenir; isterseniz bize yazabilirsiniz."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Her soru altında “kısa cevap bloğu” var mı?",
+            "Cevaplar “konuşma tonunda” mı?",
+            "Botun kullanacağı SSS kaynağı hazır mı?",
+            "EN (minimum) soru seti var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İçeriği “kısa cevap + detay blok” şeklinde yeniden düzenleyin.",
+            "Bot kısayol sorularını FAQ’den türetin (tek kaynak gerçek).",
+            "Mesaj tutarlılığını call center ile birlikte ele alın: /cagri-merkezi-hizmetleri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chatbot-voicebot-konusarak-rezervasyon",
+      "title": "Chatbot ve voicebot’larla konuşarak rezervasyon",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Konuşma tabanlı arayüzlerde hedef, “her şeyi bot yapsın” değil; hızlı yanıt + doğru yönlendirme + gerektiğinde insana devir olmalıdır. Otelde botun en güçlü olduğu alanlar SSS ve basit niyet toplama; en riskli olduğu alanlar ise istisnalar (grup rezervasyon, özel istekler, ödeme sorunları)."
+        },
+        {
+          "type": "h3",
+          "text": "Chatbot akışı (SSS → rezervasyon → insan)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kullanıcı sorar: “Antalya all inclusive hotel var mı?”",
+            "Bot cevaplar: kısa + 1 CTA: “Tarih seç → uygunluğu gör”",
+            "Kullanıcı ilerler: oda/paket seçim ekranına yönlenir",
+            "Karmaşık istek çıkarsa: “Bir temsilciye bağlayayım” / “Sizi arayalım”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Voicebot diyalog örneği (temel rezervasyon)"
+        },
+        {
+          "type": "p",
+          "text": "Misafir: “Belek’te aile odası istiyorum, 2 yetişkin 1 çocuk.”"
+        },
+        {
+          "type": "p",
+          "text": "Voicebot: “Harika. Tarih aralığını söyler misiniz?”"
+        },
+        {
+          "type": "p",
+          "text": "Misafir: “10–13 Temmuz.”"
+        },
+        {
+          "type": "p",
+          "text": "Voicebot: “Bu tarihlerde uygun seçenekleri listeleyebilirim. Linki telefonuna göndereyim mi?”"
+        },
+        {
+          "type": "p",
+          "text": "Misafir: “Evet.”"
+        },
+        {
+          "type": "p",
+          "text": "Voicebot: “Tamam. Ayrıca çocuk kulübü ve aquapark isteyen misafirler için öneri kartı ekledim.”"
+        },
+        {
+          "type": "h3",
+          "text": "İyi/kötü bot cevabı (hızlı karşılaştırma)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kötü: “İptal koşulları için politikamızı okuyun.” (uzun, yönlendirmesiz)",
+            "İyi: “İptal pakete göre değişir. Fiyat yanında 1 satır özet var; isterseniz detay linkini açayım.” (kısa + seçenek)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Chatbot/Voicebot)",
+          "items": [
+            "Bot “kısa cevap + tek CTA” kuralını takip ediyor mu?",
+            "İnsana devir butonu görünür mü?",
+            "Bot, rezervasyon sayfasını ağırlaştırıyor mu (performans)?",
+            "TR/EN temel diyalog seti var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Botu 10 çekirdek konu ile başlatın (iptal, transfer, check-in/out…).",
+            "“İnsana devir”i her ekranda erişilebilir tutun.",
+            "Operasyonel mesaj yönetimi için: /cagri-merkezi/mesaj-yonetimi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sss-paa-faq-sesli-kullanim",
+      "title": "SSS, PAA ve FAQ UX’ini sesli kullanıma hazırlamak",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "FAQ, voice search ve chatbot için “bilgi deposu” değil; hızlı cevap katmanı olmalı. Kullanıcı soruyu sorar, cevabı hemen görür, gerekirse detay linkine gider. Aynı yapı, botun da doğru ve tutarlı cevap vermesini sağlar."
+        },
+        {
+          "type": "h3",
+          "text": "FAQ tasarım standardı (voice-first)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Soru: konuşma dilinde, kısa",
+            "Cevap: 2–4 cümle, net",
+            "1 opsiyonel detay link",
+            "“Yardıma ihtiyacınız var mı?” mikro CTA (call/WhatsApp)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "PAA (People Also Ask) mantığını içerikte kullanma"
+        },
+        {
+          "type": "p",
+          "text": "PAA soruları genelde “nasıl/kaç/var mı” formundadır. Bu soruların içerikte başlık olarak yer alması, hem sesli arama hem de SGE/AI sonuçları için avantaj sağlar."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (FAQ)",
+          "items": [
+            "5–10 çekirdek soru var mı (iptal, ödeme, transfer, çocuk, evcil hayvan)?",
+            "Cevaplar 2–4 cümle mi?",
+            "Aynı cevap bot içinde de kullanılıyor mu?",
+            "TR/EN iki dilde en az çekirdek set hazır mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "FAQ’yi “tek kaynak gerçek” yapın; web + bot aynı metni kullansın.",
+            "Her cevapta bir sonraki adımı önerin (tarih seç, detay gör, destek).",
+            "Veri/uyum bağlantısını unutmayın: /raporlama/kvkk-veri-guvenligi"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "FAQ & Chatbot Soru Seti Örneğini İndir",
+          "text": "TR/EN hazır soru–cevap seti ve bot kısayol akışıyla chatbot’unuzu hızlıca devreye almanızı sağlar.",
+          "href": "/creative/ui-ux-tasarim#faq-chatbot-set"
+        }
+      ]
+    },
+    {
+      "id": "cagri-merkezi-chatbot-voicebot-entegrasyonu",
+      "title": "Çağrı merkezi ile chatbot/voicebot entegrasyonu",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Botlar her sorunu çözmez; doğru tasarım, botun çözemediklerini doğru anda operatöre devretmesidir. Bu hem kullanıcı memnuniyetini artırır hem de çağrı merkezi yükünü “daha nitelikli” taleplere kaydırır."
+        },
+        {
+          "type": "h3",
+          "text": "Devir senaryoları (ne zaman insana geçmeli?)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Grup/kurumsal rezervasyon",
+            "Ödeme hatası / doğrulama sorunları",
+            "Özel istek (engelli oda, özel diyet, uzun konaklama pazarlığı)",
+            "Çok dilli/karmaşık iletişim"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Devir UX’i (kullanıcıyı yormadan)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Şimdi temsilciye bağlan”",
+            "“Sizi 15 dakika içinde arayalım”",
+            "“WhatsApp’tan devam edelim”"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kullanıcı aynı bilgileri tekrar yazmak zorunda kalmamalı; bot konuşma özeti operatöre aktarılmalı."
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (Entegrasyon)",
+          "items": [
+            "Devir butonu görünür mü?",
+            "Bot konuşma özeti operatöre gidiyor mu?",
+            "TR/EN destek akışı hazır mı?",
+            "Devir KPI’ları ölçülüyor mu (çözüm oranı, AHT vb.)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bot→operatör devir kriterlerini yazılı hale getirin (policy).",
+            "“Özet transferi” ile tekrar soru sorma yükünü azaltın.",
+            "Çağrı merkezi süreçleriyle birlikte tasarlayın: /cagri-merkezi-hizmetleri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kvkk-kayit-performans-cwv",
+      "title": "KVKK, kayıt ve performans (CWV) notları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Konuşma tabanlı deneyimlerde iki hassas alan vardır: veri ve hız. Bot/voicebot; konuşma kayıtları, telefon/e-posta gibi kişisel veri toplayabilir. Aynı zamanda ağır JS ve 3rd-party embed’ler sayfayı yavaşlatabilir."
+        },
+        {
+          "type": "h3",
+          "text": "KVKK ve kayıt yönetimi (kısa not)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açık metin: “Bu konuşma hizmet kalitesi için kaydedilebilir” (gerektiğinde)",
+            "Amaç sınırlaması: SSS ve rezervasyon desteği",
+            "Saklama politikası linki",
+            "Kolay çıkış/ret seçeneği (WhatsApp dahil)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not (kısa): KVKK süreçleri uygulamaya göre değişebilir; hukuki danışmanlığın yerini tutmaz."
+        },
+        {
+          "type": "h3",
+          "text": "Performans (CWV) disiplini"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bot script’ini sayfa bazlı yükle (her sayfaya yığma)",
+            "Lazy-load bot widget (ilk etkileşimde aç)",
+            "INP’yi bozacak ağır animasyon/JS’ten kaçın",
+            "FAQ sayfası “hafif” olsun (ağır görsel yok)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "☑ Mini Check (KVKK/CWV)",
+          "items": [
+            "Bot/voicebot için açık metin ve izin süreci var mı?",
+            "Bot widget ilk yükte mi geliyor, yoksa lazy-load mu?",
+            "INP artışı gözleniyor mu?",
+            "Veri saklama politikası linki var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Bot/veri politikasını şeffaf microcopy ile görünür kılın.",
+            "Bot’u performans bütçesiyle yönetin (özellikle mobil).",
+            "Uyum ve operasyon grafını güçlendirin: /raporlama/kvkk-veri-guvenligi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uygulanabilir-adimlar-olcum-plani",
+      "title": "Hemen uygulanabilir 10 adım ve ölçüm planı",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İlk 20 sesli sorguyu çıkar (TR/EN) ve soru başlığı yap.",
+            "Her soru için 40–60 kelimelik net cevap bloğu yaz.",
+            "FAQ’yi “tek kaynak gerçek” yap (web + bot).",
+            "Bot kısayol soruları ekle (iptal, transfer, check-in/out).",
+            "Botu 10 konu ile başlat; kapsamı kontrollü büyüt.",
+            "İnsana devir butonunu görünür tut; özet transferi uygula.",
+            "WhatsApp/mesaj yönetimini izinli ve KVKK uyumlu kurgula.",
+            "Bot widget’ını lazy-load et; INP’yi izle.",
+            "KPI paneli kur: bot çözüm oranı, devir, rezervasyon başlangıcı.",
+            "30 günde bir soru setini güncelle (PAA/SSS değişimleri)."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Voice Search & Chatbot UX Analizi Talep Et",
+          "text": "Sesli arama sorgularına uygun FAQ yapısı ve bot akışıyla cevap süresini kısaltıp rezervasyon yolunu güçlendirin.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    },
+    {
+      "id": "faq-chatbot-soru-seti",
+      "title": "FAQ & Chatbot Soru Seti Örneğini İndir — Voice & Chat UX",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "FAQ & Chatbot Soru Seti Örneğini İndir — Voice & Chat UX (v1.0)",
+          "purpose": "Bu soru seti, otel sitenizde voice search ve chatbot için en sık sorulan soruları TR/EN formatında hazır hale getirir; kısa cevap blokları ve “insana devir” tetikleriyle birlikte gelir. Amaç, misafirin sorusunu 10–20 saniyede cevaplayıp doğru sayfaya yönlendirmek ve çağrı merkezi yükünü nitelikli taleplere kaydırmaktır. KVKK/izin ve veri saklama notları da dahildir.",
+          "whoFor": "Otel pazarlama + içerik ekibi + chatbot/CRM ekibi + call center lideri.",
+          "steps": [
+            "TR soru setini yayına alın, EN çekirdek soruları ekleyin (destinasyon odaklı).",
+            "Chatbot’ta bu soruları “kısayol” olarak tanımlayın ve cevapları aynı kaynaktan çekin.",
+            "Devir kurallarını (grup rezervasyon/ödeme sorunu) ekleyip KPI’ları izleyin."
+          ],
+          "checklist": [
+            "10 çekirdek soru hazır",
+            "TR/EN temel set var",
+            "Devir kuralları var",
+            "Cevaplar kısa ve yönlendirici",
+            "KVKK/izin notu ekli"
+          ],
+          "href": "/downloads/faq-chatbot-soru-seti-ornegi-v1.0.pdf",
+          "buttonLabel": "Soru Setini İndir"
+        },
+        {
+          "type": "h3",
+          "text": "1 örnek (kısa)"
+        },
+        {
+          "type": "p",
+          "text": "Soru: “Ücretsiz iptal var mı?”"
+        },
+        {
+          "type": "p",
+          "text": "Cevap: “Pakete göre değişir. İptal özetini fiyatın yanında 1 satırda gösteriyoruz; detay linkinden görebilirsiniz.”"
+        },
+        {
+          "type": "p",
+          "text": "Next step: “Koşulları gör”"
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "10 çekirdek soru hazır",
+            "TR/EN temel set var",
+            "Devir kuralları var",
+            "Cevaplar kısa ve yönlendirici",
+            "KVKK/izin notu ekli"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Sesli arama otel web sitemi nasıl etkiler?",
+      "a": "Kullanıcılar daha çok soru cümleleriyle arar ve kısa, net cevap ister. Soru başlıkları ve 1–2 cümlelik cevap blokları, sesli sonuçlarda ve chatbot akışlarında avantaj sağlar."
+    },
+    {
+      "q": "İçeriği voice search için nasıl yazmalıyım?",
+      "a": "H2/H3’leri soru formatında yazın ve hemen altında 40–60 kelimelik net cevap verin. “yakınımdaki oteller” ve “Antalya all inclusive hotel” gibi kalıpları içerikte doğal şekilde kullanın."
+    },
+    {
+      "q": "Otel chatbot’u rezervasyon sürecinde nasıl kullanılmalı?",
+      "a": "Chatbot SSS ve yönlendirmede güçlüdür; kullanıcıyı tarih seçimi ve oda listesine hızlı taşır. Karmaşık senaryolarda insana devir seçeneği görünür olmalıdır."
+    },
+    {
+      "q": "Chatbot ve çağrı merkezi birlikte nasıl çalışır?",
+      "a": "Bot, soruyu kısa cevaplayıp özet çıkarır; çözemezse operatöre devreder. Kullanıcı aynı bilgileri tekrar yazmadan devam edebilmelidir."
+    },
+    {
+      "q": "Voicebot ile konuşarak rezervasyon mümkün mü?",
+      "a": "Temel adımlar (tarih, kişi, destinasyon) toplanabilir ve kullanıcıya link/konfirmasyon gönderilebilir. Ödeme ve istisnalar için genelde web veya operatör desteği gerekir."
+    },
+    {
+      "q": "Near me aramalarıyla yerel SEO nasıl bağlanır?",
+      "a": "“Yakınımdaki oteller” niyeti için lokasyon listeleme ve harita görünümü önemlidir. Destinasyon sayfaları ve net konum bilgisi, bu niyeti daha iyi karşılar."
+    },
+    {
+      "q": "Bot entegrasyonu site hızını bozar mı?",
+      "a": "Kontrolsüz script ve embed’ler INP’yi bozabilir. Lazy-load, sayfa bazlı yükleme ve sınırlı özellik setiyle performans korunabilir."
+    },
+    {
+      "q": "Bot/voice kayıtları KVKK açısından nasıl ele alınmalı?",
+      "a": "İzin, amaç ve saklama politikası şeffaf olmalı; kullanıcıya bilgilendirme ve tercih yönetimi sunulmalıdır. Uygulama detayları için hukuki danışmanlık gerekebilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — voice-search-chatbot-otel-ux-hero-01.webp — Sesli arama ve chatbot ile otel rezervasyon deneyimini anlatan kapak görseli",
+        "h1-context — 1920×1080 — voice-search-chatbot-otel-ux-h1-context-02.webp — Voice search, FAQ ve bot entegrasyonunu gösteren bağlam görseli",
+        "divider-01 — 1600×1200 — voice-search-chatbot-otel-ux-divider-03.webp — Voice search’e uygun içerik yazımı bölüm ayırıcı görseli",
+        "divider-02 — 1600×1200 — voice-search-chatbot-otel-ux-divider-04.webp — FAQ/SSS’yi sesli ve chat’e hazırlama bölüm ayırıcı görseli",
+        "diagram-05 — 1920×1080 — voice-search-chatbot-otel-ux-diagram-05.webp — Call center + bot entegrasyonu ve devir akış şeması otel bağlamı",
+        "checklist-06 — 1200×1200 — voice-search-chatbot-otel-ux-checklist-06.webp — Voice search ve chatbot hazırlık checklist kartı otel bağlamı",
+        "kpi-07 — 1200×1200 — voice-search-chatbot-otel-ux-kpi-07.webp — Bot çözüm oranı ve rezervasyon KPI paneli kartı otel bağlamı",
+        "proof-08 — 1200×1200 — voice-search-chatbot-otel-ux-proof-08.webp — FAQ soru seti ve chatbot akış şablonu deliverables kanıt kartı otel bağlamı",
+        "table-voice-search-sorgu-ornekleri — Voice search sorgu örnekleri tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "TR/EN hreflang karşılıklılık kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Refresh Cycle: 365 gün olarak planlandı",
+        "H2/H3 soru formatları doğal dil sorgularıyla eşleştirildi",
+        "Her çekirdek soru altında kısa ve net cevap bloğu bulunuyor",
+        "FAQ, chatbot ve voicebot için tek kaynak gerçek kullanılıyor",
+        "TR/EN çekirdek soru ve cevap setleri hazır",
+        "Near me sorguları lokasyon ve yerel SEO sayfalarına bağlanıyor",
+        "Bot kısayol soruları FAQ kaynağından üretiliyor",
+        "Bot kısa cevap + tek CTA standardını takip ediyor",
+        "Chatbot ve voicebot için görünür insana devir seçeneği bulunuyor",
+        "Bot konuşma özeti operatöre aktarılıyor",
+        "Grup rezervasyon, ödeme sorunu ve özel istekler devir tetiklerine bağlı",
+        "Bot/voicebot kayıt ve saklama politikası erişilebilir",
+        "KVKK açık metni ve tercih yönetimi görünür",
+        "Bot widget sayfa bazlı ve lazy-load yöntemiyle yükleniyor",
+        "Bot ve 3rd-party script’lerin INP etkisi ölçülüyor",
+        "FAQ sayfası ağır görsel ve gereksiz script içermiyor",
+        "Bot çözüm oranı, operatöre devir ve rezervasyon başlangıcı ölçülüyor",
+        "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
+        "Primary CTA hedefi: /creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /creative/ui-ux-tasarim#faq-chatbot-set"
+      ]
+    }
+  }
+},
+
+"BlogArVr3DOtelDeneyimiUx": {
+  "title": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+  "slug": "ar-vr-3d-otel-deneyimi-ux",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "6 Ağustos 2026",
+  "publishedAt": "2026-08-06",
+  "readingTime": "13 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "AR, VR ve 3D oda turlarını otel web UX’ine doğru yerleştirin. Odayı Keşfet CTA’ları, mobil gesture ipuçları, cihaz uyumluluğu ve lazy-load ile performansı koruyun.",
+  "seo": {
+    "metaTitle": "Otel Web’de 3D/360 Tur UX’i: AR/VR Yerleşim Rehberi | DGTLFACE",
+    "metaDescription": "AR/VR ve 3D oda turlarını otel web UX’ine doğru yerleştirin: “Odayı Keşfet” CTA’ları, mobil gesture ipuçları, cihaz uyumluluğu ikonları ve lazy-load/placeholder ile hız (CWV) disiplini."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / Kodu: UI & UX Tasarımı / creative-2",
+      "Sayfa URL: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+      "Blog Tipi / No: Trend / 24",
+      "Blog URL: https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux",
+      "Blog Başlık / H1: AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+      "Intent: Informational + Trend",
+      "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
+      "(V2.3 Kilidi) Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/ar-vr-3d-otel-deneyimi-ux"
+    ],
+    "strategySummary": "Bu içerik, otel web sitelerinde AR/VR/3D tur trendini “immersion + performans” dengesiyle ele alan bir trend-hub yazısıdır: 3D/360 turu doğru sayfa konumuna yerleştirir, mobil kontrol ipuçlarını ve CTA microcopy’yi standardize eder, WebGL/iframe entegrasyonlarının CWV’yi bozmamasını hedefler. Hedef persona; Antalya/Belek/Side/Kemer/Bodrum gibi görsel olarak güçlü resort’larda karar süresini kısaltmak isteyen otel sahibi/GM, satış–pazarlama ve ajans yöneticisidir. Funnel aşaması awareness → consideration: “3D gerçekten işe yarar mı?” sorusunu netleştirir; doğru kurguda sayfada kalma süresini artırabilir, kötü kurguda ise terk riskini yükseltebilir (yönlü, dengeli içgörü). Ana iş sorusu: “3D/360 turu nereye koyarım, mobilde nasıl kullanılabilir kılarım ve hız/uyumluluk riskini nasıl yönetirim?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-06",
+    "readingTime": "13 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "AR, VR ve 3D oda turları; misafirin oteli rezervasyon öncesinde “deneyimlemesini” sağlayarak karar sürecini kısaltabilir. Ancak bu deneyimi web arayüzünde doğru konumlandırmak, cihaz uyumluluğunu ve sayfa hızını gözetmek gerekir. “Odayı keşfet” gibi net CTA’lar, anlaşılır ikonlar ve mobil dostu kontroller; 3D deneyimi gerçekten işe yarar hale getirir. Bu rehber, yerleşim, CTA, mobil kullanım ve performans pratiklerini otel bağlamında anlatır.",
+    "sgeSummary": "3D/360 tur, doğru yerde ve doğru CTA ile karar hızlandırır. Mobilde basit kontrol ipuçları, cihaz/VR ikonları ve sadece istenince yüklenen WebGL/iframe ile CWV korunmalıdır.",
+    "voiceAnswer": "3D turu oda sayfasında karar anına koyun; mobilde kontrol ipucu verin ve deneyimi isteğe bağlı yükleyin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel sahibi/GM, pazarlama/satış, ajans; web/UX ekipleri",
+      "KPI’lar: Sayfada kalma, tur başlatma oranı, CTA CTR, rezervasyon başlangıcı, CWV (LCP/INP)",
+      "Entity: AR, VR, 3D Tour, 360° Tour, Hotel Room, WebGL, Performance",
+      "Geo: Antalya/Belek/Side/Kemer/Bodrum (deniz manzaralı oda, aquapark, spa)",
+      "Funnel: Awareness → Consideration → Conversion",
+      "Dengeli içgörü: Doğru kurguda etkileşim artabilir; ağır/karmaşık tur terk yaratabilir (yönlü)",
+      "Çözüm: Yerleşim + CTA + mobil ipuçları + lazy-load + placeholder"
+    ]
+  },
+  "h1": {
+    "title": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+    "intro": "Otel web sitesinde en zor iş “hayal kurdurmak”tır: misafir odayı, manzarayı, havuzu ve atmosferi zihninde canlandırmak ister. 3D/360 turlar ve AR/VR deneyimleri bu canlandırmayı hızlandırabilir; özellikle deniz manzaralı oda, spa veya aquapark gibi “karar tetikleyici” alanlarda etkili olabilir. Ama bu teknolojiler yanlış kurgulanırsa (ağır WebGL, kontrolsüz iframe, kötü mobil UI), sayfayı yavaşlatır ve kullanıcıyı kaçırır. Bu rehber, 3D/360 turu doğru yere koyup “isteğe bağlı” ve mobil dostu çalıştırmanın pratik yolunu anlatır.",
+    "quickSummary": [
+      "“3d oda turu gerçekten işe yarıyor mu?”",
+      "“360 turu nereye koymalıyım?”",
+      "Kısa cevap: Evet, ama yalnızca karar anına yakın konumlandırılır, net CTA ile başlatılır ve performansı bozmayacak şekilde (placeholder + lazy-load) sunulursa."
+    ],
+    "ctaPrimary": {
+      "label": "3D & AR Oda Turları UX Analizi Talep Et",
+      "text": "3D/360 tur yerleşimini, mobil kontrol ipuçlarını ve performans (CWV) risklerini birlikte optimize etmek için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "3D & AR Oda Turları UX Analizi Talep Et",
+      "text": "3D/360 turu karar anına yerleştirip mobilde kullanılabilir, hızda güvenli bir deneyime dönüştürmek için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "3D Oda Turu Yerleşim & CTA Şablonunu İndir",
+      "text": "3D/360 tur giriş noktası, “Odayı Keşfet” CTA metinleri ve mobil kontrol ipuçlarını hazır şablonla hızlıca kurmanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#3d-tour-template"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Teknik SEO",
+      "href": "/seo/teknik-seo"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "title": "Teknik SEO",
+      "href": "/seo/teknik-seo"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ar-vr-3d-turlar-otel-ux-ne-saglar",
+      "title": "AR/VR ve 3D turlar otel UX’inde ne sağlar?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "3D/360 tur, otelde “kanıt” üretir: oda gerçekten nasıl, alan hissi ne, manzara ne kadar açık? Bu kanıt, özellikle yüksek fiyatlı oda ve premium paketlerde karar süresini kısaltabilir. AR ise daha niş bir kullanım: “odanın boyutu/konumu” gibi zihinsel boşlukları doldurur; ama cihaz uyumluluğu ve kullanım eşiği nedeniyle kontrollü kurgulanmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "3D/360 turu en değerli yapan 3 an"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Oda detayı ekranında “karar” anı",
+            "Paket/oda kıyas ekranında “fark” anı",
+            "Upsell (upgrade) ekranında “değer” anı"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dengeli içgörü: 3D/360 turlar doğru kurgulandığında sayfada kalma süresini artırabilir; ancak ağır/karmaşık deneyimler bazı kullanıcılarda terk oranını yükseltebilir. Bu yüzden “isteğe bağlı yükleme” ve “kolay çıkış” kritik."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Değer)",
+          "items": [
+            "Tur, karar anına yakın mı (oda detayı/upgrade)?",
+            "Kullanıcı kontrolü var mı (başlat/durdur/kapat)?",
+            "Statik galeriyle birlikte mi (alternatif yol var mı)?",
+            "Mobil kullanıcı için basit mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "3D/360 turu “en çok satan 1–2 oda tipi” ile başlatın (pilot).",
+            "AR/VR’yi “opsiyonel” tutun; herkese zorla açmayın.",
+            "Görsel stratejiyi dijital pazarlamayla bağlayın: https://dgtlface.com/tr/otel-dijital-pazarlama"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-01"
+        }
+      ]
+    },
+    {
+      "id": "otel-web-sitelerinde-3d-360-oda-turlari-yerlesimi",
+      "title": "Otel web sitelerinde 3D ve 360° oda turları nasıl yerleştirilmeli?",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "AEO checklist"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "3D/360 tur girişini oda detayı sayfasında “galeri + oda özellikleri”nin hemen yanında konumlandırın.",
+            "“Odayı Keşfet” gibi net bir CTA kullanın; “360” ikonuyla destekleyin.",
+            "Tur başlatmayı kullanıcı aksiyonuna bağlayın (auto-load değil); önce poster/thumbnail gösterin.",
+            "Mobilde gesture ipuçları verin: “Sürükle”, “Yakınlaştır”, “Tam ekran”.",
+            "Cihaz uyumluluğunu açık belirtin: VR/AR destek ikonları + kısa uyarı.",
+            "Turdan çıkış kolay olmalı; kullanıcı rezervasyon CTA’sına geri dönebilmeli.",
+            "3D/360 turu “tek sayfada her yere” koymayın; 1–2 kritik yerde standardize edin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Yerleşim)",
+          "items": [
+            "Tur girişi oda detayı sayfasında mı?",
+            "CTA net mi (“Odayı Keşfet”)?",
+            "Tur otomatik başlamıyor mu?",
+            "Çıkış ve rezervasyon CTA’sı yakın mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "360/3D giriş noktasını tek bir standarda bağlayın (oda sayfası).",
+            "CTA microcopy’yi ve ikonları UI kit’e ekleyin (tekrar kullanılabilir).",
+            "Turdan çıkışta kullanıcıyı “fiyat/iptal + rezervasyon” bloğuna döndürün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "360-3d-oda-turlarini-web-arayuzune-entegre-etmek",
+      "title": "360° ve 3D oda turlarını web arayüzüne entegre etmek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Entegrasyon, çoğu zaman iframe/WebGL player ile gelir. UX’in hedefi; player’ı “bağımsız bir dünya” değil, web akışının bir parçası yapmak."
+        },
+        {
+          "type": "h3",
+          "text": "“Odayı Keşfet” CTA microcopy örnekleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Odayı Keşfet (360°)”",
+            "“3D Tur ile Odayı Gör”",
+            "“Tam ekran tur”",
+            "“Turdan çık → Fiyatları gör”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "VR ve AR ikon/uyarıları (kısa ve net)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "VR: “VR uyumlu” ikonu + “VR gözlüğü varsa daha iyi deneyim”",
+            "AR: “AR ile gör” ikonu + “Cihaz uyumluluğu” notu"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Amaç: kullanıcıyı korkutmak değil, beklentiyi yönetmek."
+        },
+        {
+          "type": "h3",
+          "text": "“Önce/sonra” kullanım (statik vs 3D)"
+        },
+        {
+          "type": "p",
+          "text": "Statik galeri her zaman olmalı; 3D tur “opsiyonel” derinleştirme katmanıdır. Kullanıcı 3D’ye girmek istemezse, karar yolunu kaybetmemeli."
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Statik görsel vs 3D/360 tur",
+          "headers": [
+            "Seçenek",
+            "Ne zaman ideal?",
+            "Artı",
+            "Eksi"
+          ],
+          "rows": [
+            [
+              "Statik galeri",
+              "Hız ve hızlı tarama",
+              "Çok hızlı, düşük risk",
+              "Alan hissi sınırlı"
+            ],
+            [
+              "360 tur",
+              "Oda/alan kanıtı",
+              "“İçerideyim” hissi",
+              "Ağır olursa terk"
+            ],
+            [
+              "3D tur",
+              "Premium oda/deneyim",
+              "Detay + etkileşim",
+              "WebGL/INP riski"
+            ],
+            [
+              "Video",
+              "Atmosfer ve hikâye",
+              "Duygu ve anlatı",
+              "LCP/bitrate riski"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Entegrasyon)",
+          "items": [
+            "Player web tasarım diliyle uyumlu mu?",
+            "Turdan çıkınca kullanıcı konumu korunuyor mu?",
+            "3D ve galeri birlikte çalışıyor mu?",
+            "CTA’lar aynı dilde mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Player’ı UI kit ile uyumlu “çerçeve” içinde sunun (başlık, CTA, çıkış).",
+            "Turdan çıkınca “fiyat/iptal” bloğuna geri konumlandırın.",
+            "Video prodüksiyonla birlikte düşünün: https://dgtlface.com/tr/creative/video-produksiyon"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-02"
+        }
+      ]
+    },
+    {
+      "id": "3d-oda-turu-yerlesim-cta-sablonu",
+      "title": "3D Oda Turu Yerleşim & CTA Şablonunu İndir — Immersive UX",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "3D Oda Turu Yerleşim & CTA Şablonunu İndir — Immersive UX (v1.0)",
+          "purpose": "Bu şablon, otel web sitesinde 3D/360 tur giriş noktasını doğru yerde konumlandırmak, “Odayı Keşfet” CTA microcopy’sini standardize etmek ve mobil kontrol ipuçlarını netleştirmek için hazırlanmıştır. Amaç, 3D deneyimi “isteğe bağlı” yükleyerek CWV’yi korumak ve kullanıcıyı rezervasyon akışına geri döndürebilmektir.",
+          "whoFor": "Otel pazarlama + UX/UI + web geliştirme + içerik/galeri ekibi.",
+          "steps": [
+            "Pilot oda tipini seçin (deniz manzaralı oda / family / suite) ve yerleşim ekranını belirleyin.",
+            "CTA, ikon ve mobil gesture ipuçlarını şablona göre yerleştirin.",
+            "Lazy-load + placeholder + sabit alan kurallarıyla performans testini tamamlayın."
+          ],
+          "checklist": [
+            "Tur girişi karar anında",
+            "Mobil ipucu var",
+            "Lazy-load + poster",
+            "CLS yok",
+            "Rezervasyon CTA’ya dönüş net"
+          ],
+          "href": "/downloads/3d-oda-turu-yerlesim-cta-sablonu-v1.0.pdf",
+          "buttonLabel": "3D Oda Turu Yerleşim & CTA Şablonunu İndir"
+        }
+      ]
+    },
+    {
+      "id": "mobilde-3d-vr-deneyimi",
+      "title": "Mobilde 3D ve VR deneyimi (gesture ve navigasyon)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mobilde 3D/360 tur başarısı, UI ipuçlarına bağlıdır. Kullanıcı “nasıl döndürürüm?” diye düşünürse, tur etkisini kaybeder."
+        },
+        {
+          "type": "h3",
+          "text": "Mobil UI ipuçları (3 kural)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İlk açılışta 2 saniyelik ipucu: “Sürükle / yakınlaştır”",
+            "Tam ekran butonu büyük ve erişilebilir",
+            "“Kapat” her zaman görünür"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Mobile-first kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ağır yükleme yok (placeholder)",
+            "İnternet zayıf senaryo (düşük kalite opsiyonu)",
+            "Gyro (cihaz hareketi) opsiyonel, zorunlu değil"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Mobil)",
+          "items": [
+            "Gesture ipucu var mı?",
+            "Tam ekran ve kapat görünür mü?",
+            "Düşük internet senaryosu düşünüldü mü?",
+            "Turdan çıkışta kullanıcı kaybolmuyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Mobilde “ipucu + kolay çıkış” standardını koyun.",
+            "Düşük kalite seçeneğini değerlendirin (kademeli yükleme).",
+            "Mobil performansı teknik SEO ile bağlayın: https://dgtlface.com/tr/seo/teknik-seo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ar-ile-oda-manzara-mekan-gorsellestirme",
+      "title": "AR ile oda, manzara ve mekânı görselleştirme (kontrollü kullanım)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AR, her otelde gerekli değil. En iyi kullanım, “ölçü/alan” ve “konum” belirsizliğini azaltmaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda planı ve alan hissi",
+            "Balkon/teras yerleşimi",
+            "Manzara yönü (mümkünse)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "AR UX uyarıları (beklenti yönetimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“AR yalnız uyumlu cihazlarda çalışır”",
+            "“Daha iyi deneyim için iyi ışık” (kısa)",
+            "“Gizlilik: kamera erişimi açıklaması” (kısa)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (AR)",
+          "items": [
+            "AR gerçekten değer katıyor mu?",
+            "Kamera izin metni net mi?",
+            "Uyumlu cihaz uyarısı var mı?",
+            "AR bir “zorunluluk” değil mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "AR’yi pilotla; önce 1 oda tipiyle dene.",
+            "Kamera izin metnini sade ve şeffaf yaz.",
+            "AR’yi “yardımcı” tut; rezervasyon yolunu kapatma."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "performans-hiz-kullaniciya-uygun-sunum",
+      "title": "Performans, hız ve kullanıcıya uygun sunum (CWV’yi koru)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "3D/360 içeriklerde en büyük hata: sayfayı açılışta ağırlaştırmak. Doğru yaklaşım: “kullanıcı isterse yükle” ve “placeholder ile hızlı görün”."
+        },
+        {
+          "type": "h3",
+          "text": "Lazy-load ve placeholder standardı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Poster/thumbnail hızlı açılır",
+            "3D/360 player kullanıcı CTA’ya basınca yüklenir",
+            "Düşük çözünürlüklü placeholder (blur) kullanılır",
+            "WebGL/iframe script’leri sayfa bazlı yüklenir (global değil)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "CWV riski yönetimi (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "LCP: hero/poster görsel optimize",
+            "CLS: player alanına sabit yükseklik",
+            "INP: ağır JS’i geciktir, etkileşimi hafif tut"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dengeli içgörü (tekrar): Doğru kurguda etkileşim artabilir; ama ağır player/karmaşık kontrol, özellikle mobilde terk riskini yükseltebilir. Bu yüzden performans bütçesi şart."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Performans)",
+          "items": [
+            "Player otomatik yüklenmiyor mu?",
+            "Sabit alan var mı (CLS yok)?",
+            "INP’yi bozan ağır JS var mı?",
+            "Poster optimize mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "3D/360’ı “isteğe bağlı” yükle; açılışta yükleme yapma.",
+            "Player alanını sabitle; CLS’yi sıfıra yaklaştır.",
+            "Teknik SEO ile birlikte kontrol et: https://dgtlface.com/tr/seo/teknik-seo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yapilmasi-gerekenler-kacinilmasi-gerekenler",
+      "title": "Yapılması gerekenler / kaçınılması gerekenler (hızlı rehber)",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "Yap"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oda detayı sayfasında net CTA ile başlat",
+            "Mobilde ipucu + kolay çıkış",
+            "Poster + lazy-load + sabit alan",
+            "Statik galeri alternatifini koru"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Yapma"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Auto-play 3D/VR yükleme",
+            "Sayfaya 5 farklı player gömmek",
+            "Kapatması zor tam ekran deneyimler",
+            "Ağır embed’lerle LCP/INP bozmak"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "3D & AR Oda Turları UX Analizi Talep Et",
+          "text": "3D/360 turu karar anına yerleştirip mobilde kullanılabilir, hızda güvenli bir deneyime dönüştürmek için analiz alın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "3D oda turu otel UX’inde nereye konmalı?",
+      "a": "En iyi yer genellikle oda detayı sayfasında galeri ve oda özelliklerinin hemen yanıdır. Kullanıcı karar anında turu başlatmalı ve turdan çıkınca fiyat/iptal + rezervasyon CTA’sına geri dönmelidir."
+    },
+    {
+      "q": "AR/VR deneyimi misafir kararını etkiler mi?",
+      "a": "Odayı ve mekânı daha iyi “kanıtladığı” için karar süresini kısaltabilir. Ancak ağır/karmaşık deneyimler bazı kullanıcıları yorup terk yaratabilir; kontrollü ve isteğe bağlı sunum önerilir."
+    },
+    {
+      "q": "Mobilde 360° tur nasıl kullanılmalı?",
+      "a": "“Sürükle/yakınlaştır/tam ekran” gibi kısa UI ipuçları verilmeli ve kapat butonu her zaman görünür olmalıdır. Düşük internet senaryosu için hafif placeholder ve kademeli yükleme düşünülmelidir."
+    },
+    {
+      "q": "3D ve video arasında nasıl seçim yapmalıyım?",
+      "a": "Video atmosfer ve hikâye için, 3D/360 tur ise oda/alan kanıtı için daha uygundur. Statik galeri her zaman temel katman olmalı; 3D/360 “derinleştirme” olarak sunulmalıdır."
+    },
+    {
+      "q": "3D tur site hızını bozar mı?",
+      "a": "Otomatik yüklenen WebGL/iframe bozar. Poster + lazy-load + sabit alan ve sayfa bazlı script yönetimiyle CWV etkisi kontrol altında tutulabilir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — ar-vr-3d-otel-deneyimi-ux-hero-01.webp — Alt: “Otel web’de 3D/360 tur ve AR/VR deneyimini anlatan kapak görseli”",
+        "h1-context — 1920×1080 — ar-vr-3d-otel-deneyimi-ux-h1-context-02.webp — Alt: “Statik galeri ile 3D tur arasında rezervasyon akışını gösteren bağlam görseli”",
+        "divider-01 — 1600×1200 — ar-vr-3d-otel-deneyimi-ux-divider-03.webp — Alt: “3D/360 tur yerleşimi ve CTA bölüm ayırıcı görseli”",
+        "divider-02 — 1600×1200 — ar-vr-3d-otel-deneyimi-ux-divider-04.webp — Alt: “Mobil 3D/VR kullanım ipuçları bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — ar-vr-3d-otel-deneyimi-ux-diagram-05.webp — Alt: “3D/360 tur yerleşimi ve CTA akış şeması”",
+        "checklist-06 — 1200×1200 — ar-vr-3d-otel-deneyimi-ux-checklist-06.webp — Alt: “3D/360 tur UX checklist kartı otel bağlamı”",
+        "kpi-07 — 1200×1200 — ar-vr-3d-otel-deneyimi-ux-kpi-07.webp — Alt: “3D tur etkileşim ve rezervasyon KPI paneli otel bağlamı”",
+        "proof-08 — 1200×1200 — ar-vr-3d-otel-deneyimi-ux-proof-08.webp — Alt: “3D tur yerleşim ve CTA şablonu deliverables kanıt kartı”",
+        "table-static-vs-3d-tour — Statik görsel vs 3D/360 tur tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/creative/blog/ar-vr-3d-otel-deneyimi-ux",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "Poster/thumbnail görselleri WebP ve responsive boyutlarla optimize edildi",
+        "3D/360 player otomatik yüklenmiyor; kullanıcı CTA’sıyla lazy-load ediliyor",
+        "WebGL/iframe script’leri yalnızca ilgili sayfada ve ihtiyaç anında yükleniyor",
+        "Player alanı için sabit aspect-ratio veya yükseklik tanımlandı; CLS riski kontrol edildi",
+        "Hero ve poster görsellerinin LCP etkisi kontrol edildi",
+        "Ağır JavaScript ve player etkileşimlerinin INP etkisi test edildi",
+        "Mobil gesture ipuçları, tam ekran ve kapat kontrolleri erişilebilir",
+        "Düşük bağlantı hızı için placeholder veya düşük kalite seçeneği mevcut",
+        "Turdan çıkış sonrası fiyat/iptal ve rezervasyon CTA’sına dönüş korunuyor",
+        "Statik galeri, 3D/360 tur kullanmak istemeyen ziyaretçiler için erişilebilir",
+        "AR kamera izin metni ve cihaz uyumluluğu uyarıları açık",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Schema @graph tek blok (WebSite/WebPage/BlogPosting/BreadcrumbList/FAQPage)",
+        "CWV metrikleri LCP, CLS ve INP kırılımında izleniyor"
+      ]
+    }
+  }
+},
+
+"BlogGenZOtelUxSosyalNesil": {
+  "title": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+  "slug": "gen-z-otel-ux-sosyal-nesil",
+  "department": "creative",
+  "subDepartment":"uiux",
+  "updatedAt": "6 Ağustos 2026",
+  "publishedAt": "2026-08-06",
+  "readingTime": "13 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Gen Z misafirler için otel UX’i; hızlı, mobil-first, dikey video odaklı ve sosyal kanıtla güçlendirilmiş arayüzler gerektirir. Sosyal medya entegrasyonu, UGC ve influencer içerikleri karar sürecini etkiler.",
+  "seo": {
+    "metaTitle": "Gen Z Otel UX’i: Dikey Video, UGC ve Hızlı Rezervasyon | DGTLFACE",
+    "metaDescription": "Gen Z için otel web UX’i: mobil-first hız, dikey video/story bileşenleri, UGC-influencer sosyal kanıtı ve Reels/TikTok→landing→rezervasyon hunisi. CWV bozmadan uygula."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / Kodu: UI & UX Tasarımı / creative-2",
+      "Sayfa URL: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+      "Blog Tipi / No: Trend / 25",
+      "Blog URL: https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil",
+      "Blog Başlık / H1: Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+      "Intent: Informational + Trend",
+      "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
+      "(V2.3 Kilidi) Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/gen-z-otel-ux-sosyal-nesil"
+    ],
+    "strategySummary": "Bu yazı, otel web UX’ini “Gen Z davranışı + social-first funnel” üzerinden yeniden çerçeveleyen trend/persona içeriğidir: dikey video, story formatı, UGC/influencer sosyal kanıtı ve mobile-only kampanya landing’lerini rezervasyon akışına bağlar. Hedef persona; Antalya/Belek/Alanya/Bodrum gibi genç ve eğlence odaklı kitle çeken destinasyonlarda talep üreten otel sahibi/GM, satış–pazarlama ve ajans yöneticisidir. Funnel aşaması awareness → consideration: Gen Z hızlı kanıt ve düşük sürtünme ister; doğru dokunuşlar social-to-site funnel’ını güçlendirip niyeti artırabilir (yönlü). Ana iş sorusu: “Gen Z’ye web’de nasıl ‘sıkıcı olmadan’ güven veririm ve dikey/sosyal akıştan tek ekranda rezervasyona nasıl taşırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-06",
+    "readingTime": "13 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Gen Z misafirler için otel UX’i; hızlı, mobil-first, dikey video odaklı ve sosyal kanıtla güçlendirilmiş arayüzler gerektirir. Karmaşık menüler ve uzun metinler yerine, kısa açıklamalar, görsel anlatım, story/reels benzeri bileşenler ve tek ekranda rezervasyon imkânı bu kuşağın beklentilerine daha yakındır. Sosyal medya entegrasyonu, UGC ve influencer içerikleri karar sürecini etkiler. Bu rehber, Gen Z’ye uygun web UX’i pratik pattern’lerle anlatır.",
+    "sgeSummary": "Gen Z için otel web’i social-first olmalı: dikey video, story blokları, güçlü UGC sosyal kanıtı ve tek ekranda hızlı rezervasyon. Embed’leri kontrol ederek CWV’yi koruyun.",
+    "voiceAnswer": "Gen Z’ye hızlı kanıt verin: dikey video ve UGC gösterin, menüyü sadeleştirin, tek ekranda rezervasyona götürün.",
+    "aiFactSheet": [
+      "Hedef kitle: Gen Z misafir (öğrenci, genç profesyonel), otel/ajans karar vericileri",
+      "KPI’lar: Mobil etkileşim, sayfada kalma, CTA CTR, rezervasyon başlangıcı, social-to-site dönüşüm",
+      "Entity: Gen Z, Dikey Video, Story Format, UGC, Influencer Content, Social Proof, Mobile-First UX",
+      "Geo: Antalya/Belek/Alanya/Bodrum; festival/etkinlik dönemleri senaryoları",
+      "Funnel: Reels/TikTok → landing → rezervasyon",
+      "Risk: Ağır embed/script = CWV bozulması ve mobil terk",
+      "Çözüm: Poster + lazy-load + sınırlı UGC kartları + tek hedefli CTA"
+    ]
+  },
+  "h1": {
+    "title": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+    "intro": "“Gen Z misafirler otel seçerken neye bakıyor?” ve “otel sitem gençlere sıkıcı mı geliyor?” soruları artık sadece sosyal medya stratejisi değil; web sitenizin rezervasyon performansı sorusu. Gen Z, karar vermeden önce hızlı “kanıt” ister: dikey video, gerçek misafir içerikleri (UGC), kısa ve net bilgi, tek tıkla rezervasyona giden akış. Uzun metinler ve karmaşık menüler, özellikle mobilde sürtünmeyi artırır.\n\nBu rehberde “Gen Z = sosyal-first” varsayımıyla; Reels/TikTok’tan gelen kullanıcıyı web’de kaybetmeden nasıl karşılayacağınızı, UGC/influencer bloklarını nasıl yerleştireceğinizi ve “tek ekranda rezervasyon” yaklaşımını nasıl kuracağınızı anlatıyoruz.",
+    "quickSummary": [
+      "Dikey video + CTA ilk ekranda",
+      "3 kanıt kartı var",
+      "Rezervasyon girişi erken",
+      "CWV riski kontrol edildi",
+      "KPI planı yazıldı"
+    ],
+    "ctaPrimary": {
+      "label": "Gen Z Misafirler İçin UX Analizi Talep Et",
+      "text": "Gen Z’nin mobile-first ve social-first davranışına uygun landing ve rezervasyon akışı kurgulamak için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Gen Z Misafirler İçin UX Analizi Talep Et",
+      "text": "Gen Z’ye uygun social-first landing ve hızlı rezervasyon akışı kurgulamak isteyen oteller için analiz alın.",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    "secondary": {
+      "label": "Gen Z Odaklı Otel UX Persona & Funnel Şablonunu İndir",
+      "text": "Gen Z persona kartları ve Reels/TikTok→landing→rezervasyon funnel şablonuyla hızlıca plan yapmanızı sağlar.",
+      "href": "/creative/ui-ux-tasarim#genz-template"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "UI & UX Tasarımı",
+      "href": "/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Sosyal Medya Yönetimi",
+      "href": "/smm"
+    },
+    {
+      "label": "Reels Video",
+      "href": "/smm/reels-video"
+    },
+    {
+      "label": "Otel Sosyal Medya Yönetimi",
+      "href": "/otel/sosyal-medya"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Reels Video ile Social-First İçerik Stratejisi",
+      "href": "/smm/reels-video"
+    },
+    {
+      "title": "Otel Sosyal Medya Yönetimi",
+      "href": "/otel/sosyal-medya"
+    },
+    {
+      "title": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "gen-z-kimdir-seyahat-aliskanliklari",
+      "title": "Gen Z kimdir ve seyahat alışkanlıkları nasıldır?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "h1-context-02"
+        },
+        {
+          "type": "p",
+          "text": "Gen Z, “araştırmayı hızlı yapan” ve “kanıtı sosyalden alan” bir kuşak olarak tanımlanır: kısa video, gerçek kullanıcı içeriği, yorum ve sosyal proof karar üzerinde etkilidir. Otel tarafında bu, web’de şunu gerektirir: hızlı açılan sayfa, görsel anlatım, kısa açıklama ve güveni bozmayan şeffaf fiyat/iptal dili."
+        },
+        {
+          "type": "h3",
+          "text": "Gen Z karar sinyalleri (otel bağlamı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Gerçek mi?” → UGC ve yorumlar",
+            "“Şimdi ne var?” → etkinlik, beach bar, aquapark, spa gibi deneyim kartları",
+            "“Kolay mı?” → tek ekranda rezervasyon, az adım",
+            "“Hızlı mı?” → mobil performans, düşük sürtünme"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "GEO mini senaryo: Alanya/Bodrum gibi eğlence odaklı destinasyonlarda festival/etkinlik dönemlerinde kullanıcı “hemen karar” ister; landing’de tarih–fiyat–konum hızlı görünmelidir."
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (H2-1)",
+          "items": [
+            "İlk ekranda kanıt var mı (video/UGC)?",
+            "Metin kısa mı, net mi?",
+            "Mobilde rezervasyon yolu tek tıkla başlıyor mu?",
+            "“Deneyim” (bar/aktivite) blokları var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Gen Z için web’i “sosyal içerik devamı” gibi düşünün: kısa, hızlı, kanıtlı.",
+            "Deneyim bloklarını (aktivite, beach bar, aquapark) kısayol kartlarıyla sunun.",
+            "Sosyal medya stratejisiyle bağlayın: https://dgtlface.com/tr/smm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gen-z-misafirler-icin-otel-ux",
+      "title": "Gen Z misafirler için otel UX’i nasıl olmalı?",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-01"
+        },
+        {
+          "type": "h3",
+          "text": "AEO persona bazlı checklist"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hız + minimalizm: Mobilde hızlı açılan, sade menülü veya az menülü yapı; tek hedefli CTA.",
+            "Dikey kanıt: İlk 1–2 ekran içinde dikey video veya story bloklarıyla “otelde hayat”ı gösterin.",
+            "UGC sosyal proof: 3–6 kartla gerçek misafir içeriği (etiketli, seçilmiş) gösterin; embed’leri kontrol edin.",
+            "Tek ekran rezervasyon: Tarih/kişi seçimi + fiyat/iptal özeti + CTA aynı bölgede.",
+            "Mobil-only kampanya landing’i: Reels/TikTok’tan gelen kullanıcı için kısa landing, hızlı rezervasyon girişi.",
+            "Şeffaflık: Fiyat/iptal netliği; sürpriz ücret yok.",
+            "CWV disiplini: Video/UGC lazy-load + poster; 3rd-party script’ler sınırlı."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check ",
+          "items": [
+            "Dikey kanıt ilk 2 ekranda mı?",
+            "UGC kartları seçilmiş ve sınırlı mı?",
+            "Rezervasyon girişi tek ekranda mı?",
+            "CWV riski yönetiliyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "İlk sürümde 3 pattern seçin: dikey video blok + UGC kartları + tek ekran rezervasyon.",
+            "Mobil-only landing’i ayrı bir şablon olarak üretin.",
+            "Reels/TikTok funnel’ı için: https://dgtlface.com/tr/smm/reels-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gen-z-otel-ux-hiz-minimalizm",
+      "title": "Gen Z için otel web UX’inde hız ve minimalizm (mobile-first)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gen Z’nin “tolerans eşiği” düşük: sayfa yavaşsa, kullanıcı “geri” yapar. Bu nedenle minimalizm sadece estetik değil, performans stratejisidir."
+        },
+        {
+          "type": "h3",
+          "text": "Sade menü / navigation’sız yaklaşım"
+        },
+        {
+          "type": "p",
+          "text": "Bazı Gen Z odaklı landing’lerde menüyü tamamen kaldırmak veya minimize etmek işe yarar:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Üstte tek CTA: “Tarih seç → fiyat gör”",
+            "Alt kısımda 3 kısa yol: “Odalar”, “Konum”, “Yorumlar”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Tek ekran rezervasyon (one-screen booking entry)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tarih/kişi seçimi",
+            "“En iyi 2–3 paket” hızlı kart",
+            "İptal özeti 1 satır",
+            "CTA"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Hız/Minimal)",
+          "items": [
+            "İlk ekran “tek amaç” mı?",
+            "Menü 5–7’den az mı?",
+            "Tarih seçimi hızlı mı?",
+            "LCP/INP hissi iyi mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Gen Z landing’inde menüyü azalt; bilgi bloklarını kartlaştır.",
+            "Rezervasyon başlangıcını “tek tık”a indir.",
+            "Teknik tarafta 3rd-party script’leri kontrol et (özellikle embed)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dikey-video-story-ugc-entegrasyonu",
+      "title": "Dikey video, story ve UGC entegrasyonu (social-first kanıt)",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-02"
+        },
+        {
+          "type": "p",
+          "text": "Dikey video, Gen Z için “broşür” değil; gerçek yaşam kanıtıdır. Web’de bu kanıtı verirken iki hedef var: (1) hızlı açılmak, (2) rezervasyona bağlanmak."
+        },
+        {
+          "type": "h3",
+          "text": "Story component örneği (web içinde)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "5–7 hikâye balonu: “Odalar”, “Havuz”, “Beach bar”, “Aktiviteler”, “Yorumlar”",
+            "Her balon: 1 kısa video + 1 CTA (“Detayı gör”)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "UGC/influencer alanı (sosyal proof)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "3–6 kart (seçilmiş)",
+            "Kartta: kısa başlık + platform ikonu + “gerçek misafir” etiketi",
+            "“Daha fazlası” linki (embed değil, sayfa içi galeri)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (UGC/Video)",
+          "items": [
+            "Video poster + lazy-load var mı?",
+            "UGC kart sayısı sınırlı mı?",
+            "Embed sayfayı ağırlaştırmıyor mu?",
+            "Her blok CTA’ya bağlanıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Embed’i azalt; UGC’yi native kartlarla göster.",
+            "Dikey video bloklarını 1–2 ana yerde kullan; her yere yayma.",
+            "Sosyal medya uyumu için: https://dgtlface.com/tr/otel/sosyal-medya"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sosyal-proof-yorumlar-influencer",
+      "title": "Sosyal proof, yorumlar ve influencer içerikleri (güveni hızlandır)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gen Z için “başkaları ne demiş?” kritik. Yorumları gizlemek yerine, kısa ve hızlı okunur biçimde sunmak gerekir:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ortalama puan + 2 kısa alıntı",
+            "“Gerçek misafir” etiketi",
+            "“Daha fazla yorum” linki"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Influencer içeriklerinde denge"
+        },
+        {
+          "type": "p",
+          "text": "Influencer içeriği “reklam” gibi görünürse ters tepebilir. Çözüm:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "İçeriği “deneyim kanıtı” olarak sun",
+            "Aşırı abartılı vaatlerden kaçın",
+            "“Bu içerik iş birliği içerebilir” şeffaflığı (gerektiğinde)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Sosyal proof)",
+          "items": [
+            "Puan/yorum ilk 1–2 ekran içinde mi?",
+            "Alıntılar kısa mı?",
+            "UGC/Influencer dengeli mi?",
+            "Şeffaflık var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Yorumları “kısa alıntı + link” formatında göster.",
+            "Influencer içeriğini UGC yanında “tek blok”ta topla; siteyi reklama çevirme.",
+            "Direkt rezervasyon yolunu kaybetme: CTA görünür kalsın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mobil-only-kampanyalar-reels-tiktok-funneli",
+      "title": "Mobil-only kampanyalar ve Reels/TikTok funnel’ı (social-to-site)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gen Z’nin tipik akışı:\nReels/TikTok → mobil landing → hızlı kanıt → tarih seçimi → rezervasyon"
+        },
+        {
+          "type": "h3",
+          "text": "Mobil-only landing şablonu (5 blok)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Dikey video + tek CTA",
+            "3 kanıt kartı (UGC/puan/konum)",
+            "Tarih/kişi seçimi",
+            "“En iyi 2 paket” kartı",
+            "Yardım/WhatsApp (opsiyonel)"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Tablo: Mobil-only landing blokları",
+          "headers": [
+            "Blok",
+            "Amaç",
+            "KPI"
+          ],
+          "rows": [
+            [
+              "Dikey video + CTA",
+              "Hızlı kanıt",
+              "CTA CTR"
+            ],
+            [
+              "UGC/puan/konum kartı",
+              "Güven",
+              "Scroll depth"
+            ],
+            [
+              "Tarih/kişi seçimi",
+              "Rezervasyon girişi",
+              "start_booking"
+            ],
+            [
+              "Paket kartı (2 adet)",
+              "Karar hızlandırma",
+              "select_package"
+            ],
+            [
+              "Sticky CTA",
+              "Yol kaybettirme",
+              "conversion rate"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "checklist",
+          "title": "☑ Mini Check (Funnel)",
+          "items": [
+            "Landing kısa mı (tek sayfa)?",
+            "Tarih seçimi hızlı mı?",
+            "Paket kartları 2–3 ile sınırlı mı?",
+            "CTA her zaman erişilebilir mi (sticky)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Reels kampanyaları için ayrı landing üret; ana siteyi bozma.",
+            "Landing’i “tek amaç”la tasarla: rezervasyona giriş.",
+            "Sosyal medya stratejisiyle birlikte kurgula: https://dgtlface.com/tr/smm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gen-z-otel-ux-persona-funnel-sablonu",
+      "title": "Gen Z Odaklı Otel UX Persona & Funnel Şablonunu İndir — Social-First",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Gen Z Odaklı Otel UX Persona & Funnel Şablonunu İndir — Social-First (v1.0)",
+          "purpose": "Bu şablon, Gen Z misafir persona’larını (öğrenci, genç profesyonel) ve Reels/TikTok→mobil landing→rezervasyon funnel’ını oteliniz için hızlıca kurgulamanızı sağlar. Dikey video, UGC blokları ve tek ekran rezervasyon girişinin nerede konumlanacağını standartlaştırır. CWV’yi bozmamak için poster/lazy-load ve 3rd-party script kontrol notları içerir.",
+          "whoFor": "Otel pazarlama + ajans + UX/UI + performans/analitik ekibi.",
+          "steps": [
+            "Hedef destinasyonu ve sezon senaryosunu seçin (Antalya/Alanya/Bodrum; festival dönemi vb.).",
+            "Persona kartını doldurun ve landing bloklarını şablona göre dizin.",
+            "KPI hedefi koyup 14 gün ölçün (CTA, start_booking, scroll)."
+          ],
+          "checklist": [
+            "Dikey video + CTA ilk ekranda",
+            "3 kanıt kartı var",
+            "Rezervasyon girişi erken",
+            "CWV riski kontrol edildi",
+            "KPI planı yazıldı"
+          ],
+          "href": "/downloads/gen-z-odakli-otel-ux-persona-funnel-sablonu-v1.0.pdf",
+          "buttonLabel": "Gen Z Odaklı Otel UX Persona & Funnel Şablonunu İndir"
+        },
+        {
+          "type": "h3",
+          "text": "1 örnek (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Alanya yaz dönemi: “Beach bar + gece etkinliği” dikey video → “Tarih seç → fiyat gör” → 3 UGC kartı → 2 paket kartı."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kontrol listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dikey video + CTA ilk ekranda",
+            "3 kanıt kartı var",
+            "Rezervasyon girişi erken",
+            "CWV riski kontrol edildi",
+            "KPI planı yazıldı"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hemen-uygulanabilecek-gen-z-ux-dokunuslari",
+      "title": "Hemen uygulayabileceğiniz 5 Gen Z odaklı UX dokunuşu",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "İlk ekrana 1 dikey video + 1 CTA koy.",
+            "3 UGC kartı ile “kanıt” ver (embed yok).",
+            "Tarih/kişi seçimini tek ekranda görünür yap.",
+            "2 paket kartı + iptal özeti ile kararı hızlandır.",
+            "Mobilde sticky CTA ile rezervasyon yolunu kaybettirme."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Gen Z Misafirler İçin UX Analizi Talep Et",
+          "text": "Gen Z’ye uygun social-to-site funnel ve mobil landing şablonlarını otelinize uyarlamak için analiz alın.",
+          "href": "/creative/ui-ux-tasarim"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Gen Z misafirler için otel web sitesi nasıl tasarlanmalı?",
+      "a": "Mobil-first hızlı açılan, kısa metinli ve dikey video/UGC ile kanıt sunan bir yapı tercih edilir. Rezervasyon girişi ilk 1–2 ekranda olmalı ve tek hedefli CTA ile kullanıcı hızla akışa alınmalıdır."
+    },
+    {
+      "q": "Dikey video ve story formatı otel UX’ini nasıl etkiler?",
+      "a": "Doğru kullanıldığında otelin atmosferini hızlı anlatır ve etkileşimi artırabilir. Poster + lazy-load ve tek CTA ile sunulmazsa sayfayı ağırlaştırıp mobil terk riskini artırabilir."
+    },
+    {
+      "q": "UGC ve influencer içerikleri otel sitesine nasıl entegre edilir?",
+      "a": "3–6 seçilmiş UGC kartıyla başlayın; ağır embed’leri gecikmeli yükleyin veya native galeri kullanın. Influencer içeriğini UGC ile dengeli sunarak güven ve “gerçeklik” algısını koruyun."
+    },
+    {
+      "q": "Genç kitle için hızlı rezervasyon akışı nasıl olmalı?",
+      "a": "Tek ekranda tarih/kişi seçimi + net fiyat/iptal özeti + tek CTA bulunmalı. Paket/oda seçenekleri 2–3 kartla sadeleştirilmeli, mobilde sticky CTA ile yol kaybettirilmemelidir."
+    },
+    {
+      "q": "Mobil-only kampanya landing’i neden önemli?",
+      "a": "Reels/TikTok’tan gelen kullanıcı “kısa ve hızlı” bir sayfa bekler; ana siteye atılınca kaybolabilir. Mobil-only landing, social-to-site funnel’ını güçlendirir."
+    },
+    {
+      "q": "Sosyal embed’ler site hızını bozar mı?",
+      "a": "Kontrolsüz 3rd-party embed ve script’ler CWV’yi bozabilir. Lazy-load, sınırlı kart sayısı ve sayfa bazlı script yönetimiyle risk azaltılır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — gen-z-otel-ux-sosyal-nesil-hero-01.webp — Alt: “Gen Z için dikey video, UGC ve hızlı rezervasyon UX’i kapak görseli”",
+        "h1-context — 1920×1080 — gen-z-otel-ux-sosyal-nesil-h1-context-02.webp — Alt: “Reels/TikTok’tan mobil landing’e ve rezervasyona giden Gen Z yolculuğu görseli”",
+        "divider-01 — 1600×1200 — gen-z-otel-ux-sosyal-nesil-divider-03.webp — Alt: “Hız ve minimalizm odaklı Gen Z UX bölüm ayırıcı görseli”",
+        "divider-02 — 1600×1200 — gen-z-otel-ux-sosyal-nesil-divider-04.webp — Alt: “Dikey video ve UGC entegrasyonu bölüm ayırıcı görseli”",
+        "diagram-05 — 1920×1080 — gen-z-otel-ux-sosyal-nesil-diagram-05.webp — Alt: “Reels/TikTok funnel akış şeması ve landing blokları otel bağlamı”",
+        "checklist-06 — 1200×1200 — gen-z-otel-ux-sosyal-nesil-checklist-06.webp — Alt: “Gen Z odaklı otel UX checklist kartı otel bağlamı”",
+        "kpi-07 — 1200×1200 — gen-z-otel-ux-sosyal-nesil-kpi-07.webp — Alt: “Gen Z social-to-site funnel KPI paneli otel bağlamı”",
+        "proof-08 — 1200×1200 — gen-z-otel-ux-sosyal-nesil-proof-08.webp — Alt: “Gen Z persona ve funnel şablonu deliverables kanıt kartı”",
+        "table-mobile-only-landing-blocks — Mobil-only landing blokları tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü: /tr/creative/blog/gen-z-otel-ux-sosyal-nesil",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "Primary CTA 2 kez kullanıldı: giriş + kapanış",
+        "Secondary Download Asset CTA 1 kez kullanıldı",
+        "Dikey video ve UGC içeriklerinde poster + lazy-load uygulandı",
+        "3rd-party sosyal medya embed ve script’leri sayfa bazlı ve gecikmeli yükleniyor",
+        "UGC kartları 3–6 içerikle sınırlandırıldı",
+        "Hero ve dikey video poster görsellerinin LCP etkisi kontrol edildi",
+        "Dinamik kart ve video alanları için sabit ölçüler tanımlandı; CLS riski kontrol edildi",
+        "Ağır embed ve etkileşimlerin INP etkisi mobil cihazlarda test edildi",
+        "Rezervasyon girişi ilk 1–2 ekran içinde erişilebilir",
+        "Mobil sticky CTA içerik veya çerez bileşenlerini kapatmıyor",
+        "Menü ve navigasyon mobil landing’de tek hedefli akışa göre sadeleştirildi",
+        "Fiyat ve iptal koşulları rezervasyon CTA’sı yakınında açıkça gösteriliyor",
+        "Influencer iş birliği içerikleri için gerekli şeffaflık metni mevcut",
+        "Analytics event’leri tanımlandı: CTA CTR, start_booking, select_package, scroll depth, conversion rate",
+        "Reels/TikTok kampanya parametreleri social-to-site funnel raporlamasına aktarılıyor",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Schema @graph tek blok (WebSite/WebPage/BlogPosting/BreadcrumbList/FAQPage)",
+        "CWV metrikleri mobil LCP, CLS ve INP kırılımında izleniyor"
+      ]
+    }
+  }
 }
 
 }

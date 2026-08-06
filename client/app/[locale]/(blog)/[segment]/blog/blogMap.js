@@ -626,7 +626,13 @@ export const BLOG_MAP = {
     "nextjs-otel-ux-core-web-vitals":"BlogNextjsOtelUxCoreWebVitals",
     "ota-vs-direkt-rezervasyon-ux":"BlogOtaVsDirektRezervasyonUx",
     "otel-sadakat-programi-uyelik-ux":"BlogOtelSadakatProgramiUyelikUx",
-    "otel-ux-dark-pattern-kacinin":"BlogOtelUxDarkPatternKacinin"
+    "otel-ux-dark-pattern-kacinin":"BlogOtelUxDarkPatternKacinin",
+    "otel-oncesi-sonrasi-iletisim-ux":"BlogOtelOncesiSonrasiIletisimUx",
+    "otel-ui-ux-trendleri-2025-2026":"BlogOtelUiUxTrendleri20252026",
+    "ai-kisisellestirme-otel-ux":"BlogAiKisisellestirmeOtelUx",
+    "voice-search-chatbot-otel-ux":"BlogVoiceSearchChatbotOtelUx",
+    "ar-vr-3d-otel-deneyimi-ux":"BlogArVr3DOtelDeneyimiUx",
+    "gen-z-otel-ux-sosyal-nesil":"BlogGenZOtelUxSosyalNesil"
     
   },
 
