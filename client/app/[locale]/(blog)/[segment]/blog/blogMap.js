@@ -632,7 +632,14 @@ export const BLOG_MAP = {
     "ai-kisisellestirme-otel-ux":"BlogAiKisisellestirmeOtelUx",
     "voice-search-chatbot-otel-ux":"BlogVoiceSearchChatbotOtelUx",
     "ar-vr-3d-otel-deneyimi-ux":"BlogArVr3DOtelDeneyimiUx",
-    "gen-z-otel-ux-sosyal-nesil":"BlogGenZOtelUxSosyalNesil"
+    "gen-z-otel-ux-sosyal-nesil":"BlogGenZOtelUxSosyalNesil",
+    "otel-ic-mekan-oda-video-cekimi":"BlogOtelIcMekanOdaVideoCekimi",
+    "otel-video-kurgu-ve-renk-duzenleme":"BlogOtelVideoKurguVeRenkDuzenleme",
+    "otel-video-ses-muzik-seslendirme":"BlogOtelVideoSesMuzikSeslendirme",
+    "otel-kampanya-ve-lansman-video-stratejisi":"BlogOtelKampanyaVeLansmanVideoStratejisi",
+    "otel-video-set-ekip-yonetimi":"BlogOtelVideoSetEkipYonetimi",
+    "otel-influencer-video-produsksiyon":"BlogOtelInfluencerVideoProdusksiyon",
+    "otel-mice-toplanti-video-produsksiyon":"BlogOtelMiceToplantiVideoProdusksiyon"
     
   },
 

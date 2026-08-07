@@ -105011,6 +105011,1620 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-ic-mekan-oda-video-cekimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi",
+
+      "name": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#webpage" },
+
+      "headline": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
+
+      "name": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
+
+      "description": "Otel oda video çekimi için ışık ve zamanlama, kadraj–lens seçimi, gimbal/tripod hareketleri ve styling adımları. Web ve Reels’e uyarlama + checklist.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Hotel Room Video",
+
+        "Interior Shot",
+
+        "Lighting",
+
+        "Gimbal",
+
+        "Wide Shot",
+
+        "Detail Shot"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket", "item": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel oda video çekimi nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En iyi ışık saatini seçin, doğal ışığı perde/tülle kontrol edin ve karışık yapay ışıkları sadeleştirin. Walkthrough rotasını yazıp wide + detay planları çekin; hareketleri yavaş ve kontrollü tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda çekimlerinde ışığı nasıl kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğal ışığı ana kaynak yapıp pencere yönüne göre saat planlayın. Yapay ışıklar karışıyorsa tek tona yaklaştırın; yansıma ve patlamaları açı değiştirerek yönetin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi lens ve kadrajlar otel odaları için idealdir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Odayı okutmak için kontrollü wide plan, kaliteyi göstermek için detail planlar idealdir. Aşırı geniş açı distorsiyonu güveni düşürebilir; wide + medium + detail kombinasyonu daha gerçekçi sonuç verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Oda videolarını sosyal medya için nasıl uyarlayabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "7–12 saniyelik hızlı akışlar üretin (wide → detay → manzara) ve 9:16 güvenli kadrajı çekimde koruyun. Metin bindirmede tek mesaj kullanıp finalde net CTA ekleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-restoran-bar-video-cekimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi",
+
+      "name": "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#webpage" },
+
+      "headline": "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi",
+
+      "name": "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi",
+
+      "description": "Otel restoran ve bar videolarında atmosfer, yemek close-up’ları ve servis anlarını nasıl planlamanız gerektiğini; styling ve kurgu ipuçlarıyla birlikte pratik şekilde özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "F&B Video",
+
+        "Restaurant",
+
+        "Bar",
+
+        "Food Styling",
+
+        "Social Media Video"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi", "item": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-restoran-bar-video-cekimi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel restoran videosu nasıl çekilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce atmosferi anlatan 2–3 wide plan alın, ardından imza yemeklerde close-up seti çekin ve servis anlarını ekleyin. Işığı sadeleştirip styling’i temiz tuttuğunuzda premium algı artar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yemek videolarında nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doku (buhar/çıtır), tabak temizliği ve kontrollü parlama kritiktir. Yakın planları atmosfer planlarıyla dengeleyerek mekân hissini koruyun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bar ve içecek çekimlerinde hangi açılar daha iyidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Malzeme hazırlığı için close-up, karıştırma/şekillendirme için orta plan ve servis anı için kısa atmosfer planı iyi çalışır; 3 adım mini hikâye gibi kurgulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "F&B videolarını Reels ve reklamda nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Reels’te 15–30 saniyelik hızlı akış (wow atmosfer → close-up → servis → CTA), reklamda 6–15 saniyede güçlü hook ve tek teklif/CTA ile ilerleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-video-kurgu-ve-renk-duzenleme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme",
+
+      "name": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#webpage" },
+
+      "headline": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
+
+      "name": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
+
+      "description": "Bu rehber, otel videolarında kurgu akışını ve renk düzenlemeyi adım adım anlatarak; tek bir prodüksiyondan hem güçlü bir tanıtım filmi hem de çok sayıda kısa içerik üretmenizi kolaylaştırır.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Video Editing",
+
+        "Color Grading",
+
+        "Timeline",
+
+        "Music",
+
+        "Hotel Promo",
+
+        "Reels"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş", "item": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel tanıtım videolarında kurgu nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Wow bir girişten sonra oda kanıtını erken verip deneyimleri seçerek ilerleyen bir akış iyi çalışır. Gereksiz sahneleri çıkarıp ritmi müzikle senkronlamak videoyu daha profesyonel gösterir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Renk düzenleme (color grading) otel atmosferini nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Renk tonları duyguyu doğrudan etkiler; spa/oda daha sıcak ve yumuşak tonlarla, havuz/dış mekân daha ferah ve canlı tonlarla güçlenebilir. Tutarlı grading premium algıyı artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aynı videodan kısa versiyonları nasıl üretirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sadece kırpmak yerine Reels/Shorts için ayrı timeline’da recut yapın. Wow sahne + 1 kanıt + tek CTA kurgusuyla 10–20 saniyelik setler üretin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Müzik ve tempo seçiminde nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Beat noktalarına cut koymak akışı güçlendirir. Sakin alanlarda tempo düşmeli, enerjik sahnelerde tempo artmalı; ambiyans sesleri kontrollü kullanılmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-video-ses-muzik-seslendirme":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme",
+
+      "name": "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#webpage" },
+
+      "headline": "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman",
+
+      "name": "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman",
+
+      "description": "Bu rehber, otel videolarında müzik seçimi, ortam sesleri ve seslendirme kullanımını anlatarak; görüntüyle uyumlu, dengeli ve platforma uygun bir ses dünyası kurmanıza yardımcı olur.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Music",
+
+        "Ambience",
+
+        "Voice-over",
+
+        "Licensing",
+
+        "Mix & Master",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman", "item": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel tanıtım videosunda hangi müzikleri kullanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel konseptine göre tempo ve tarz seçin ve mutlaka lisansı doğrulayın. Müzik, videonun ritmini ve premium algısını doğrudan etkiler."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Seslendirme şart mı, hangi durumlarda kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her videoda şart değildir; ancak mesajı hızlı anlatmak, çok dilli iletişim yapmak veya kampanya/teklif vurgulamak gerekiyorsa VO çok faydalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ambiyans seslerini videoya nasıl eklerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sahneye uygun düşük seviye ambiyans katmanı ekleyin (dalga, kuş, restoran) ve kritik anlarda foley ile dokunuş sağlayın; abartı yapaylık yaratır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "TV ve sosyal medya için ses seviyesi nasıl ayarlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Platformların sıkıştırması ve dinleme ortamı farklı olduğu için ayrı mix almak en güvenlisidir. Seviye hedeflerini (LUFS) kontrol etmek önemlidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-kampanya-ve-lansman-video-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi",
+
+      "name": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#webpage" },
+
+      "headline": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+
+      "name": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+
+      "description": "Bu rehber, oteller için kampanya ve lansman videolarını; sezon, özel dönemler ve medya kanalları bazında nasıl planlamanız gerektiğini, örnek zaman çizelgeleri ve format önerileriyle özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Campaign Video",
+
+        "Launch Video",
+
+        "Season Opening",
+
+        "Special Dates",
+
+        "Media Plan",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Side", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi", "item": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel kampanya videosu nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dönemi ve tek vaadi belirleyin, 6 sn bumper + 15–30 sn spot + 9:16 Reels format setini çıkarın. Web/landing, YouTube ve sosyal kanallara teaser–launch–retargeting takvimiyle yayınlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Açılış veya sezon başlangıcı için hangi tür videolar çekilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Açılışta yenilik kanıtı ve kısa teklif, sezon başlangıcında enerji ve deneyim odaklı hızlı videolar iyi çalışır. Kısa setler (15 sn, 6 sn) performansta avantaj sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bayram ve yılbaşı kampanya videoları nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bayramda hızlı karar ve aile akışı, yılbaşında program ve atmosfer kanıtı öne çıkar. Tek mesaj + tek CTA kuralıyla 15–30 saniyelik vurucu kurgular tercih edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "TV, YouTube ve sosyal medya için video süreleri nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "YouTube için 6 sn bumper ve 15 sn kısa spot, sosyal için 9:16 10–20 sn Reels seti etkili olur. TV varsa 20–30 sn spot tercih edilebilir; kanal gereksinimleri ayrıca kontrol edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-video-set-ekip-yonetimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi",
+
+      "name": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#webpage" },
+
+      "headline": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
+
+      "name": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
+
+      "description": "Otel video çekimlerinde set ve ekip yönetimi; call sheet, rol dağılımı ve otel ekibiyle koordinasyon üzerinden, çekim gününü daha kontrollü ve verimli hale getiren bir prodüksiyon rehberidir.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Production Set",
+
+        "Call Sheet",
+
+        "Crew Roles",
+
+        "Hotel Staff Coordination",
+
+        "Safety",
+
+        "Guest Privacy"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi", "item": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel video seti nasıl organize edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Rol dağılımını ve otel tarafındaki muhatapları netleştirin, call sheet ile saat–lokasyon akışını ve hazırlık koşullarını yazın. Güvenlik ve mahremiyet kuralları da aynı dokümana eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Call sheet’te neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Saat–lokasyon–sahne akışı, ekip rolleri, otel departman sorumluları, izinler, güvenlik notları ve B planı bulunmalıdır; hazırlık koşulu (HK hazır/alan kapalı) özellikle kritiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel ekibi ve prodüksiyon ekibi çekim gününde nasıl uyumlu çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek operasyon muhatabı üzerinden koordinasyon yürütmek ve departmanlarla kısa briefing yapmak en etkili yöntemdir. HK/F&B/FO için hazır onayı süreci gecikmeleri azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çekim sırasında misafir güvenliği ve mahremiyeti nasıl korunur?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Trip hazard riskini kablolama ve alan düzeniyle azaltın, uyarı tabelaları kullanın ve misafir yüzlerini izinsiz kullanmama kuralını uygulayın. Özel alan çekimlerini kalabalık dışı saatlere planlayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-influencer-video-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon",
+
+      "name": "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#webpage" },
+
+      "headline": "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi",
+
+      "name": "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi",
+
+      "description": "Bu rehber, influencer ile yapılan otel video çekimlerinde brief, çekim kuralları, ortak prodüksiyon ve içerik onay süreçlerini anlatarak daha kontrollü ve verimli bir işbirliği kurmanıza yardımcı olur.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Influencer Marketing",
+
+        "Branded Content",
+
+        "Co-Production",
+
+        "Shot List",
+
+        "Usage Rights",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Bodrum", "Alaçatı"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi", "item": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Influencer ile otel video çekimi nasıl yönetilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Net bir brief, kısa ama sert marka kuralları, ortak shot list ve hızlı onay akışı kurarak yönetilir. Kullanım hakları ve müzik lisansı gibi riskli alanlar sözleşmeyle kilitlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Influencer çekimlerinde marka kontrolü nasıl sağlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Olmazsa olmaz görsel kurallar (mahremiyet, temizlik, güvenlik, logo kullanımı) yazılı hale getirilir ve çekim öncesi paylaşılır. Onay penceresi ve yayın takvimi netse kontrol kaybı azalır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Shot list ve kurallar nasıl belirlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Influencer’ın doğal akışına uygun 6–10 sahne bloğu seçin ve marka için zorunlu kanıt sahnelerini ekleyin (oda, F&B, beach/spa). Kuralları kısa tutup uygulaması kolaylaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Influencer videosunu otel tanıtım filmine entegre edebilir miyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet, seçilmiş kısa parçalar ana filme veya sosyal versiyonlara entegre edilebilir; ancak kalite standardı ve kullanım hakları önceden net olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-mice-toplanti-video-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon",
+
+      "name": "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#webpage" },
+
+      "headline": "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler",
+
+      "name": "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler",
+
+      "description": "Bu rehber, MICE ve toplantı odaklı otel videolarında salon, teknik altyapı ve etkinlik çekimlerini nasıl planlamanız gerektiğini; referans filmlerle birlikte satış sürecine nasıl entegre edebileceğinizi anlatır.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "MICE",
+
+        "Meeting Room",
+
+        "Conference",
+
+        "Case Study Film",
+
+        "B2B Sales",
+
+        "Hotel Video"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["İstanbul", "Antalya"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler", "item": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-mice-toplanti-video-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "MICE otelleri için video prodüksiyon nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Salon kapasitesi/düzenleri, AV teknik altyapı ve gerçek etkinlik kanıtını birlikte göstermelidir. Kısa case study film eklemek B2B satışta güveni artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Toplantı salonu videosunda neler gösterilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Salonun ölçeği ve kapasitesi, theater/gala/U gibi düzenler ve sahne–ekran görüşü net olmalıdır. Teknik altyapı kullanım sonucu diliyle anlatılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etkinlik videosu çekerken hangi açılar önemli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sahne wide, konuşmacı medium/close ve katılımcı tepkileri/cutaway açıları temel seti oluşturur. Networking ve servis B-roll’ları gerçeklik katar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Referans/case study videoları B2B satışta nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "B2B satış sayfası ve RFP yanıtlarında kanıt olarak kullanılır; 2–3 dakikalık film görüşmede hızlı ikna sağlar. Fuarda sessiz izleme için altyazı/overlay ekleyin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

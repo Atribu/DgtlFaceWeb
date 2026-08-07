@@ -50427,6 +50427,406 @@ export const BLOG_MEDIA_MAP = {
       alt: "3D tur yerleşim ve CTA şablonu deliverables kanıt kartı",
       caption: "3D tur yerleşim ve CTA şablonu deliverables kanıt kartı"
     }
+  },
+
+  "otel-ic-mekan-oda-video-cekimi":{
+     banner: {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-1.webp",
+      alt: "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
+      caption: "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-2.webp",
+      alt: "Oda içi ferahlık ve ışık dengesiyle sakin kamera hareketi örneği",
+      caption: "Oda içi ferahlık ve ışık dengesiyle sakin kamera hareketi örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-3.webp",
+      alt: "Oda çekiminde ışık ve zamanlama planını ayıran bölüm görseli",
+      caption: "Oda çekiminde ışık ve zamanlama planını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-4.webp",
+      alt: "Oda videosunu web ve Reels’e uyarlama bölüm geçiş görseli”",
+      caption: "Oda videosunu web ve Reels’e uyarlama bölüm geçiş görseli”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-5.webp",
+      alt: "Işık-kadraj-hareket ilişkisini gösteren iç mekân çekim diyagramı",
+      caption: "Işık-kadraj-hareket ilişkisini gösteren iç mekân çekim diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-6.webp",
+      alt: "Oda styling ve detay çekimleri için pratik checklist kartı”",
+      caption: "Oda styling ve detay çekimleri için pratik checklist kartı”"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-7.webp",
+      alt: "Oda videosunun etkileşim ve karar hızına etkisini özetleyen KPI kartı",
+      caption: "Oda videosunun etkileşim ve karar hızına etkisini özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-6/Creative3-6-8.webp",
+      alt: "Web ve Reels için oda video teslim paketini gösteren proof kartı",
+      caption: "Web ve Reels için oda video teslim paketini gösteren proof kartı"
+    }
+  },
+
+  "otel-restoran-bar-video-cekimi":{
+     banner: {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-1.webp",
+      alt: "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi",
+      caption: "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-2.webp",
+      alt: "Yemek close-up ile ortam plan dengesini gösteren F&B context görseli",
+      caption: "Yemek close-up ile ortam plan dengesini gösteren F&B context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-3.webp",
+      alt: "Restoran ve bar atmosfer çekimleri bölüm geçiş görseli",
+      caption: "Restoran ve bar atmosfer çekimleri bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-4.webp",
+      alt: "AEO checklist ve Reels akış şeması bölüm divider görseli",
+      caption: "AEO checklist ve Reels akış şeması bölüm divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-5.webp",
+      alt: "Close-up ve ortam plan dengesini anlatan F&B çekim diyagramı",
+      caption: "Close-up ve ortam plan dengesini anlatan F&B çekim diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-6.webp",
+      alt: "Otel restoran ve bar çekimi için ışık styling açı checklist kartı",
+      caption: "Otel restoran ve bar çekimi için ışık styling açı checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-7.webp",
+      alt: "F&B videolarının etkileşim ve deneyim algısına etkisini özetleyen KPI kartı",
+      caption: "F&B videolarının etkileşim ve deneyim algısına etkisini özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-7/Creative3-7-8.webp",
+      alt: "Reels Story reklam ve web için F&B video teslim seti proof kartı",
+      caption: "Reels Story reklam ve web için F&B video teslim seti proof kartı"
+    }
+  },
+
+  "otel-video-kurgu-ve-renk-duzenleme":{
+    banner: {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-1.webp",
+      alt: "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
+      caption: "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-2.webp",
+      alt: "Timeline ekranı ve önce-sonra color grading örneğini gösteren görsel",
+      caption: "Timeline ekranı ve önce-sonra color grading örneğini gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-3.webp",
+      alt: "Kurgu akışı ve sahne seçimini ayıran bölüm geçiş görseli",
+      caption: "Kurgu akışı ve sahne seçimini ayıran bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-4.webp",
+      alt: "Versiyonlama ve export formatları bölüm divider görseli",
+      caption: "Versiyonlama ve export formatları bölüm divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-5.webp",
+      alt: "Müzik-görüntü senkronu ve tempo yönetimini gösteren diyagram",
+      caption: "Müzik-görüntü senkronu ve tempo yönetimini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-6.webp",
+      alt: "Kurgu ve color grading için AEO checklist kartı",
+      caption: "Kurgu ve color grading için AEO checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-7.webp",
+      alt: "Önce-sonra renk düzenleme etkisini gösteren performans kartı",
+      caption: "Önce-sonra renk düzenleme etkisini gösteren performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-8/Creative3-8-8.webp",
+      alt: "Long form ve Reels versiyon teslim paketini özetleyen proof kart",
+      caption: "Long form ve Reels versiyon teslim paketini özetleyen proof kart"
+    }
+  },
+
+   "otel-video-ses-muzik-seslendirme":{
+    banner: {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-1.webp",
+      alt: "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman",
+      caption: "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-2.webp",
+      alt: "Waveform ve timeline üzerinde müzik-ambiyans katmanları örneği görseli",
+      caption: "Waveform ve timeline üzerinde müzik-ambiyans katmanları örneği görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-3.webp",
+      alt: "Müzik seçimi, lisans ve konsept eşleştirme bölüm geçiş görseli",
+      caption: "Müzik seçimi, lisans ve konsept eşleştirme bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-4.webp",
+      alt: "Platform mix ve ses seviyesi kontrolü bölüm divider görseli",
+      caption: "Platform mix ve ses seviyesi kontrolü bölüm divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-5.webp",
+      alt: "Ambiyans ses katmanları ve foley kullanımını gösteren şema",
+      caption: "Ambiyans ses katmanları ve foley kullanımını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-6.webp",
+      alt: "Ses, müzik ve seslendirme için AEO checklist kartı",
+      caption: "Ses, müzik ve seslendirme için AEO checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-7.webp",
+      alt: "Doğru ses mix’inin izlenme süresi ve premium algıya etkisi kartı",
+      caption: "Doğru ses mix’inin izlenme süresi ve premium algıya etkisi kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-9/Creative3-9-8.webp",
+      alt: "TV web sosyal için farklı mix teslim paketini özetleyen proof kar",
+      caption: "TV web sosyal için farklı mix teslim paketini özetleyen proof kar"
+    }
+  },
+
+  "otel-kampanya-ve-lansman-video-stratejisi":{
+    banner: {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-1.webp",
+      alt: "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+      caption: "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-2.webp",
+      alt: "Kampanya timeline ve kanal bazlı yayın planını gösteren context görseli",
+      caption: "Kampanya timeline ve kanal bazlı yayın planını gösteren context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-3.webp",
+      alt: "Açılış sezon ve özel dönem kampanya senaryoları bölüm geçiş görseli",
+      caption: "Açılış sezon ve özel dönem kampanya senaryoları bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-4.webp",
+      alt: "Kampanya planlama checklist ve medya planı bölüm divider görseli",
+      caption: "Kampanya planlama checklist ve medya planı bölüm divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-5.webp",
+      alt: "Web sosyal TV OTA için video versiyonlama diyagramı”",
+      caption: "Web sosyal TV OTA için video versiyonlama diyagramı”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-6.webp",
+      alt: "Kampanya video planlama adımlarını özetleyen checklist kartı",
+      caption: "Kampanya video planlama adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-7.webp",
+      alt: "Kampanya sonrası trafik ve rezervasyon KPI’larını gösteren kart",
+      caption: "Kampanya sonrası trafik ve rezervasyon KPI’larını gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-10/Creative3-10-8.webp",
+      alt: "Kampanya seti teslimleri ve raporlama çıktıları proof kartı",
+      caption: "Kampanya seti teslimleri ve raporlama çıktıları proof kartı"
+    }
+  },
+
+  "otel-video-set-ekip-yonetimi":{
+    banner: {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-1.webp",
+      alt: "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
+      caption: "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-2.webp",
+      alt: "Call sheet ve rol dağılımını gösteren çekim günü yönetim görseli",
+      caption: "Call sheet ve rol dağılımını gösteren çekim günü yönetim görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-3.webp",
+      alt: "Prodüksiyon seti rol dağılımını ayıran bölüm geçiş görseli",
+      caption: "Prodüksiyon seti rol dağılımını ayıran bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-4.webp",
+      alt: "Departman koordinasyonu ve misafir yönetimi divider görsel",
+      caption: "Departman koordinasyonu ve misafir yönetimi divider görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-5.webp",
+      alt: "Set yerleşim ve lokasyonlar arası akış diyagramı",
+      caption: "Set yerleşim ve lokasyonlar arası akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-6.webp",
+      alt: "Çekim günü 10 dakikalık hızlı kontrol checklist kartı",
+      caption: "Çekim günü 10 dakikalık hızlı kontrol checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-7.webp",
+      alt: "İyi set yönetiminin tekrar çekim ve kapalı alan süresine etkisi kartı",
+      caption: "İyi set yönetiminin tekrar çekim ve kapalı alan süresine etkisi kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-11/Creative3-11-8.webp",
+      alt: "Wrap-up checklist ve çekim günü teslimlerini özetleyen proof kart",
+      caption: "Wrap-up checklist ve çekim günü teslimlerini özetleyen proof kart"
+    }
+  },
+
+  "otel-influencer-video-produsksiyon":{
+    banner: {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-1.webp",
+      alt: "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi",
+      caption: "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-2.webp",
+      alt: "Influencer brief, shot list ve onay akışını gösteren context görseli",
+      caption: "Influencer brief, shot list ve onay akışını gösteren context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-3.webp",
+      alt: "Brief ve marka kuralları bölüm geçiş görseli",
+      caption: "Brief ve marka kuralları bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-4.webp",
+      alt: "Dikey Reels/TikTok sahne planı divider görseli",
+      caption: "Dikey Reels/TikTok sahne planı divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-5.webp",
+      alt: "Influencer ve profesyonel ekip ortak çekim entegrasyon diyagramı",
+      caption: "Influencer ve profesyonel ekip ortak çekim entegrasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-6.webp",
+      alt: "Influencer çekiminde marka kuralları ve brief checklist kartı",
+      caption: "Influencer çekiminde marka kuralları ve brief checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-7.webp",
+      alt: "İyi yönetilen influencer prodüksiyonunun marka güvenliği KPI kartı",
+      caption: "İyi yönetilen influencer prodüksiyonunun marka güvenliği KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-12/Creative3-12-8.webp",
+      alt: "Influencer çekim şablonları ve teslim setini gösteren proof kart",
+      caption: "Influencer çekim şablonları ve teslim setini gösteren proof kart"
+    }
+  },
+
+  "otel-mice-toplanti-video-produsksiyon":{
+    banner: {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-1.webp",
+      alt: "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler",
+      caption: "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-2.webp",
+      alt: "Salon düzenleri ve teknik altyapıyı gösteren MICE context görseli",
+      caption: "Salon düzenleri ve teknik altyapıyı gösteren MICE context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-3.webp",
+      alt: "Salon düzenleri ve AV altyapı çekimleri bölüm geçiş görseli",
+      caption: "Salon düzenleri ve AV altyapı çekimleri bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-4.webp",
+      alt: "MICE video planlama ve satış entegrasyonu divider görseli",
+      caption: "MICE video planlama ve satış entegrasyonu divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-5.webp",
+      alt: "Çok kameralı etkinlik çekim akışını gösteren şema",
+      caption: "Çok kameralı etkinlik çekim akışını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-6.webp",
+      alt: "MICE video prodüksiyon checklist: salon etkinlik referans film kartı",
+      caption: "MICE video prodüksiyon checklist: salon etkinlik referans film kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-7.webp",
+      alt: "MICE videolarının kurumsal satış kapanışına etkisi KPI kartı",
+      caption: "MICE videolarının kurumsal satış kapanışına etkisi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-13/Creative3-13-8.webp",
+      alt: "MICE video seti teslimleri ve kullanım senaryolarını özetleyen proof kart",
+      caption: "MICE video seti teslimleri ve kullanım senaryolarını özetleyen proof kart"
+    }
   }
   
 };
