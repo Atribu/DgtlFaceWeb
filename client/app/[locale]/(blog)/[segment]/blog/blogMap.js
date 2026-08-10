@@ -639,7 +639,15 @@ export const BLOG_MAP = {
     "otel-kampanya-ve-lansman-video-stratejisi":"BlogOtelKampanyaVeLansmanVideoStratejisi",
     "otel-video-set-ekip-yonetimi":"BlogOtelVideoSetEkipYonetimi",
     "otel-influencer-video-produsksiyon":"BlogOtelInfluencerVideoProdusksiyon",
-    "otel-mice-toplanti-video-produsksiyon":"BlogOtelMiceToplantiVideoProdusksiyon"
+    "otel-mice-toplanti-video-produsksiyon":"BlogOtelMiceToplantiVideoProdusksiyon",
+    "otel-dikey-video-reels-tiktok-produsksiyon":"BlogOtelDikeyVideoReelsTikTokProdusksiyon",
+    "cok-dilli-otel-video-versiyonlama-tr-en-de-ru":"BlogCokDilliOtelVideoVersiyonlamaTrEnDeRu",
+    "otel-web-video-entegrasyonu-ux-seo":"BlogOtelWebVideoEntegrasyonuUxSeo",
+    "otel-employer-branding-ik-video":"BlogOtelEmployerBrandingIkVideo",
+    "otel-video-performans-analizi-izlenme-donusum":"BlogOtelVideoPerformansAnaliziIzlenmeDonusum",
+    "otel-4-mevsim-video-icerik-plani":"BlogOtel4MevsimVideoIcerikPlani",
+    "otel-fotograf-video-cekimi-aynigun":"BlogOtelFotografVideoCekimiAynigun",
+    "otel-live-yayin-instagram-youtube-tiktok":"BlogOtelLiveYayinInstagramYoutubeTiktok"
     
   },
 

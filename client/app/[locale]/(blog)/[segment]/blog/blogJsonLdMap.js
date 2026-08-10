@@ -106625,6 +106625,1648 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-dikey-video-reels-tiktok-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon",
+
+      "name": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#webpage" },
+
+      "headline": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+
+      "name": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+
+      "description": "Bu blog, oteller için Reels ve TikTok gibi dikey formatlara uygun video çekimlerini planlamanız, çekmeniz ve daha büyük tanıtım stratejisine bağlamanız için pratik bir prodüksiyon çerçevesi sunar.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Vertical Video",
+
+        "Reels",
+
+        "TikTok",
+
+        "Hook",
+
+        "Short-Form Content",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Alanya", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi", "item": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelim için Reels ve TikTok videolarını nasıl çekmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İlk 3 saniyeye güçlü bir hook koyup 6–15 saniyelik modüler sahneler çekmelisiniz. 9:16 güvenli kadraj ve metin alanını çekimde planlamak performansı artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Dikey video çekiminde nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kadraj merkezini ve metin bindirme alanını koruyun, hızlı hareketlerden kaçının. Wide + detail dengesiyle mekân ferahlığını ve kalite kanıtını birlikte gösterin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Aynı çekimden hem yatay hem dikey video nasıl çıkarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çekimde 9:16 güvenli alanı düşünerek 16:9 master alın, kritik sahnelerde dikey için ekstra take çekin. Dikey versiyonu ayrı timeline’da recut yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Reels videolarının ilk 3 saniyesi nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tek bir wow sahne + kısa metin/vaat en etkili yaklaşımdır. 1 saniyede 1 fikir kuralı ve stabil kurgu kaydırılmayı azaltır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"cok-dilli-otel-video-versiyonlama-tr-en-de-ru":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru",
+
+      "name": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#webpage" },
+
+      "headline": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
+
+      "name": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
+
+      "description": "Bu blog, TR–EN–DE–RU pazarları için otel tanıtım videolarını altyazı, seslendirme ve metin overlay uyarlamalarıyla çok dilli hale getirmenin pratik yol haritasını sunar.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Multilingual Video",
+
+        "Subtitle",
+
+        "Caption",
+
+        "Voice-over",
+
+        "TR–EN–DE–RU",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Side"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması", "item": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çok dilli (TR–EN–DE–RU) otel videoları nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her pazar için mesajı uyarlayın, altyazı (SRT) ve on-screen text katmanlarını ayrı yönetin. Gerekliyse çok dilli VO kaydedip dil bazlı mix/export alın; fiyat/kampanya için fiyatsız master yaklaşımını kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Altyazı ve on-screen text’i dört dilde nasıl yönetmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her dil için ayrı export üretin; tek videoda çok dil overlay kullanmayın. SRT’de timecode ve satır uzunluğunu mobil okunabilirliğe göre standardize edin; overlay metni kısa ve net tutun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Seslendirme mi altyazı mı tercih edilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "TV, B2B veya anlatı yoğun videolarda VO avantajlı olabilir; sosyal kısa içeriklerde altyazı/overlay daha pratiktir. Karar kanal karması ve hedef pazara göre verilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Farklı pazarlara farklı versiyonlar nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Her dilde minimum 1 uzun master (16:9), 1 kısa spot ve 1–2 dikey (9:16) Reels üretin. Fiyatlı mesajları ayrı katmanla yöneterek güncellemeyi hızlandırın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-web-video-entegrasyonu-ux-seo":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo",
+
+      "name": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#webpage" },
+
+      "headline": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
+
+      "name": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
+
+      "description": "Bu rehber, otel web sitelerinde videoların nereye, nasıl ve hangi teknik ayarlarla yerleştirilmesi gerektiğini; UX, SEO ve performans odağında kompakt bir çerçeveyle özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Hotel Website",
+
+        "VideoObject",
+
+        "Hero Section",
+
+        "Core Web Vitals",
+
+        "CDN",
+
+        "Booking Engine"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum", "item": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel web sitemde videoyu nereye koymalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ana sayfada hafif bir hero loop kullanılabilir; dönüşüm için oda sayfasında galeri yanında/altında kısa kanıt videosu daha etkilidir. Kampanya sayfalarında kısa hook + net CTA tercih edilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Video SEO’yu nasıl etkiler?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "VideoObject schema, thumbnail ve transkript/altyazı ile arama motoruna videonun içeriğini ve varlığını anlatırsınız; bu, sayfanın zengin içerik sinyalini güçlendirebilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "VideoObject schema otel sitelerinde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "name/description, thumbnailUrl, duration, uploadDate ve embedUrl/contentUrl alanları doldurulur; uygunsa transkript eklenir ve video ilgili sayfada anlamlı biçimde konumlanır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Video sayfa hızını bozmadan nasıl entegre edilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Poster görsel, lazy-load ve boyut rezervasyonu (CLS) temel şarttır. Hero videolarda dosya boyutunu küçültmek veya click-to-play kullanmak LCP’yi korur; CDN de gecikmeyi azaltır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-employer-branding-ik-video":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video",
+
+      "name": "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#webpage" },
+
+      "headline": "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi",
+
+      "name": "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi",
+
+      "description": "Bu blog, otel ekip ve kültür hikâyesini anlatan employer branding videolarını; departman tanıtımı, röportaj ve kariyer sayfası entegrasyonu üzerinden nasıl kurgulamanız gerektiğini özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Employer Branding",
+
+        "HR Video",
+
+        "Hotel Staff",
+
+        "Career Page",
+
+        "Culture",
+
+        "Recruitment"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "areaServed": ["Antalya", "Bodrum", "İstanbul"],
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi", "item": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel employer branding videosu nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kültürü gerçek iş akışı üzerinden göstermeli ve kısa, samimi röportajlarla desteklenmelidir. Master film (60–90 sn) ve departman kısa videoları (15–30 sn) birlikte en iyi sonucu verir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İK ve kariyer videolarında hangi sahneler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ön büro, housekeeping, F&B ve teknik servis gibi departmanlardan kanıt sahneleri olmalı; ayrıca ‘bir günüm’ formatıyla iş ritmini gösteren kısa kesitler eklenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çalışan röportajlarını nasıl planlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "3–5 dakikalık kısa röportajlar planlayıp 3 net soruyla kanıt cümleleri alın. Sessiz bir alan ve basit ışık düzeni röportaj kalitesini yükseltir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kariyer sayfasında videoyu nereye yerleştirmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Üst bantta kısa kültür filmi, pozisyon kartlarında departman videoları ve alt bölümde ‘bir günüm’ kesitleri iyi çalışır. Mobil altyazı okunabilirliği test edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-video-performans-analizi-izlenme-donusum":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum",
+
+      "name": "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#webpage" },
+
+      "headline": "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi",
+
+      "name": "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi",
+
+      "description": "Bu blog, otel videolarının performansını izlenme, tamamlama, tıklama ve rezervasyon etkisi üzerinden nasıl analiz etmeniz gerektiğini; GA4 ve Looker Studio odaklı pratik bir çerçeveyle özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Video Performance",
+
+        "View Rate",
+
+        "Completion Rate",
+
+        "ROAS",
+
+        "GA4",
+
+        "Looker Studio"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#howto",
+
+      "name": "Otel videolarında performans ölçümü adımları",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "KPI setini belirle", "text": "View, completion, CTA tıklama, booking ve ROAS/CPA metriklerini birlikte tanımla." },
+
+        { "@type": "HowToStep", "name": "GA4 event’lerini kur", "text": "video_start/progress/complete ve video_cta_click event’lerini tutarlı isimlerle uygula." },
+
+        { "@type": "HowToStep", "name": "Booking funnel ile bağla", "text": "Video etkileşimini landing ve booking engine adımlarına bağlayarak rezervasyon etkisini ölç." },
+
+        { "@type": "HowToStep", "name": "Dashboard oluştur", "text": "Looker Studio’da genel sağlık, web segment, ads ve optimizasyon bloklarıyla tek panel kur." },
+
+        { "@type": "HowToStep", "name": "Optimizasyon döngüsü başlat", "text": "Drop noktalarına göre revizyon hipotezleri üret, A/B test et ve sonuçları raporla." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi", "item": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel videolarının performansı nasıl ölçülür?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "View rate, completion, CTA tıklaması ve rezervasyon adımlarını birlikte ölçün. GA4 event/funnel kurgusu kurup Looker Studio’da tek panelde izleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi video KPI’larına bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "İzleme (view/completion), etkileşim (click/CTA), dönüşüm (booking) ve maliyet (ROAS/CPA) katmanlarını birlikte takip edin; tek metrikle karar vermeyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Video rezervasyonları gerçekten artırıyor mu?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Video izleyen vs izlemeyen segment karşılaştırmasıyla ve booking funnel adımlarındaki farkla değerlendirilir. Cross-domain ölçüm doğru kurulmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Video performansını Looker Studio’da nasıl raporlarım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "GA4 ve reklam verilerini birleştirip genel sağlık, web segment, ads ROAS/CPA ve optimizasyon listesi bloklarıyla dashboard kurun."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-4-mevsim-video-icerik-plani":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani",
+
+      "name": "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#webpage" },
+
+      "headline": "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler",
+
+      "name": "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler",
+
+      "description": "Bu rehber, oteliniz için yaz, kış ve özel dönemleri kapsayan yıllık bir video içerik takviminin nasıl hazırlanacağını; her dönemde hangi tür videoları çekmeniz gerektiğini pratik örneklerle anlatır.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Annual Content Plan",
+
+        "Seasonality",
+
+        "Campaign Video",
+
+        "Always-on Content",
+
+        "Loyalty",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler", "item": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelim için yıllık video içerik planını nasıl çıkarırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yılı sezon öncesi, sezon içi, özel dönem ve off-season bloklarına ayırın. Her blok için ana video + kısa set + kampanya seti formatlarını belirleyip 12 aylık takvime yerleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yaz ve kış sezonu için hangi videoları planlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yaz için havuz/plaj/oda deneyimi ve sezon açılışı setleri; kış için indoor/spa/kayak ve yılbaşı setleri planlanmalıdır. Sezon öncesinde temiz kadrajlı kanıt çekimleri almak verimlidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Bayram ve yılbaşı kampanyaları için ne tür videolar çekilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "6 sn bumper, 15–30 sn spot ve 9:16 Reels seti gibi kısa kampanya formatları tercih edilmelidir. Mesaj tek, CTA net olmalı; fiyat değişiyorsa fiyatsız master yaklaşımı kullanılmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Düşük sezonda hangi video içeriklere odaklanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Marka hikâyesi, sadakat içerikleri ve employer branding/ekip videoları düşük sezonda daha verimli üretilir. Mekânlar sakin olduğu için backstage ve eğitim içerikleri de kolaylaşır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-fotograf-video-cekimi-aynigun":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun",
+
+      "name": "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#webpage" },
+
+      "headline": "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi",
+
+      "name": "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi",
+
+      "description": "Bu rehber, oteller için fotoğraf ve video çekimini aynı gün veya yakın tarihlerde entegre biçimde planlayarak; zaman ve bütçe tasarrufu sağlayan verimli bir prodüksiyon akışı kurmanıza yardımcı olur.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Photo Shoot",
+
+        "Video Shoot",
+
+        "Shot List",
+
+        "Lighting Plan",
+
+        "Production Schedule",
+
+        "Content Library"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi", "item": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Fotoğraf ve video çekimini aynı gün nasıl planlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortak shot list çıkarıp P1 sahneleri günün ilk yarısına koyun; ışık pencerelerini bloklayın. Setup ve capture ekiplerini ayırıp departmanlarla rotayı koordine edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tek kurulumla hem foto hem video çekilebilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet; oda styling’i, masa setup’ı ve ışık düzeni ortak kullanılarak verim artar. Sahneler ‘both’ işaretlenmeli ve ekipler ardışık akışla planlanmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Işık planını hem fotoğraf hem video için nasıl optimize ederim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Işık pencerelerini bloklara ayırın: sabah iç mekân, golden hour dış mekân, gece ambiyans. Video için sürekliliği, fotoğraf için kare kalitesini aynı blokta yönetin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ortak shot list’i nasıl hazırlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Lokasyon, içerik tipi (foto/video/both), kadraj, hedef kullanım ve öncelik alanlarını yazın; hazırlık koşullarını (HK/F&B) eklemek günü kurtarır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-live-yayin-instagram-youtube-tiktok":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok",
+
+      "name": "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#webpage" },
+
+      "headline": "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi",
+
+      "name": "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi",
+
+      "description": "Bu blog, Instagram/YouTube/TikTok live yayınlarını otel pazarlamasında nasıl kullanacağınızı; hazırlık, yayın akışı ve sonrasında içerikleri Reels/Shorts’a dönüştürme adımlarıyla birlikte özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Live Streaming",
+
+        "Instagram Live",
+
+        "YouTube Live",
+
+        "TikTok Live",
+
+        "Hotel Promo",
+
+        "Reels"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#video",
+
+      "name": "Otel Live Yayın Replay Örneği",
+
+      "description": "Otel live yayın kaydı (replay) üzerinden Reels/Shorts üretim akışını anlatan örnek video.",
+
+      "thumbnailUrl": "https://dgtlface.com/assets/otel-live-yayin-instagram-youtube-tiktok-thumb.webp",
+
+      "uploadDate": "2026-03-27",
+
+      "duration": "PT25M",
+
+      "embedUrl": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi", "item": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelim için Instagram veya YouTube Live nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "20–30 dakikalık akış yazın: tur → kanıt sahneleri → soru–cevap → CTA. YouTube’da replay kalıcı olacağı için başlık/thumbnail ve açıklama linkleri daha kritiktir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Live yayında ne göstermeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Oda turu (kanıt), manzara/havuz (wow) ve 5–7 soru–cevap en pratik settir. Rota ve süre kontrolü yayının dağılmasını engeller."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Live kayıtlarını sonradan nasıl kullanırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Replay’den hook, oda kanıt, FAQ yanıtı, deneyim anı ve CTA kesiti olmak üzere en az 5 kısa parça çıkarın ve Reels/Shorts olarak yayınlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Live yayın rezervasyonları gerçekten etkiler mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru CTA ve landing bağlantısı varsa etkileyebilir; Q&A belirsizliği azaltır. Etkiyi tıklama, site trafiği ve kampanya sayfası davranışıyla birlikte değerlendirmek gerekir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

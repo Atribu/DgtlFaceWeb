@@ -50827,6 +50827,406 @@ export const BLOG_MEDIA_MAP = {
       alt: "MICE video seti teslimleri ve kullanım senaryolarını özetleyen proof kart",
       caption: "MICE video seti teslimleri ve kullanım senaryolarını özetleyen proof kart"
     }
+  },
+
+  "otel-dikey-video-reels-tiktok-produsksiyon":{
+     banner: {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-1.webp",
+      alt: "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+      caption: "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-2.webp",
+      alt: "9:16 dikey kadraj şeması ve hook planını gösteren context görseli",
+      caption: "9:16 dikey kadraj şeması ve hook planını gösteren context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-3.webp",
+      alt: "Dikey video çekim planlama ve mekân ferahlığı bölüm geçiş görseli",
+      caption: "Dikey video çekim planlama ve mekân ferahlığı bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-4.webp",
+      alt: "Yatay ve dikey versiyon üretimi divider görseli",
+      caption: "Yatay ve dikey versiyon üretimi divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-5.webp",
+      alt: "Hook-kanıt-CTA dikey kurgu akışını gösteren diyagram",
+      caption: "Hook-kanıt-CTA dikey kurgu akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-6.webp",
+      alt: "Reels ve TikTok için dikey prodüksiyon checklist kartı",
+      caption: "Reels ve TikTok için dikey prodüksiyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-7.webp",
+      alt: "Dikey içerik performansı ve içerik maliyeti düşüşü KPI kartı",
+      caption: "Dikey içerik performansı ve içerik maliyeti düşüşü KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-14/Creative3-14-8.webp",
+      alt: "Storyboard ve çekim planıyla 12 Reels teslim seti proof kartı",
+      caption: "Storyboard ve çekim planıyla 12 Reels teslim seti proof kartı"
+    }
+  },
+
+  "cok-dilli-otel-video-versiyonlama-tr-en-de-ru":{
+    banner: {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-1.webp",
+      alt: "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
+      caption: "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-2.webp",
+      alt: "Altyazı ve on-screen text katmanlarını gösteren çok dilli video örneği",
+      caption: "Altyazı ve on-screen text katmanlarını gösteren çok dilli video örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-3.webp",
+      alt: "Pazar bazlı mesaj uyarlamasını ayıran bölüm geçiş görseli",
+      caption: "Pazar bazlı mesaj uyarlamasını ayıran bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-4.webp",
+      alt: "Versiyon matrisi ve üretim akışı divider görseli",
+      caption: "Versiyon matrisi ve üretim akışı divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-5.webp",
+      alt: "Altyazı ve on-screen text katman yönetimini gösteren diyagram",
+      caption: "Altyazı ve on-screen text katman yönetimini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-6.webp",
+      alt: "TR EN DE RU çok dilli versiyonlama checklist kartı",
+      caption: "TR EN DE RU çok dilli versiyonlama checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-7.webp",
+      alt: "Çok dilli versiyonlamanın dönüşüm ve premium algıya etkisi KPI kart",
+      caption: "Çok dilli versiyonlamanın dönüşüm ve premium algıya etkisi KPI kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-15/Creative3-15-8.webp",
+      alt: "Dil matrisi, SRT ve VO script teslim paketini özetleyen proof kart",
+      caption: "Dil matrisi, SRT ve VO script teslim paketini özetleyen proof kart"
+    }
+  },
+
+  "otel-web-video-entegrasyonu-ux-seo":{
+    banner: {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-1.webp",
+      alt: "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
+      caption: "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-2.webp",
+      alt: "Hero ve içerik içi video yerleşimini karşılaştıran UX ekran örneği",
+      caption: "Hero ve içerik içi video yerleşimini karşılaştıran UX ekran örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-3.webp",
+      alt: "Sayfa türüne göre video seçimini ayıran bölüm geçiş görseli",
+      caption: "Sayfa türüne göre video seçimini ayıran bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-4.webp",
+      alt: "Video entegrasyon adımları ve CWV önlemleri divider görseli",
+      caption: "Video entegrasyon adımları ve CWV önlemleri divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-5.webp",
+      alt: "Wireframe üzerinde video yerleşimi, CTA ve schema akış diyagramı",
+      caption: "Wireframe üzerinde video yerleşimi, CTA ve schema akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-6.webp",
+      alt: "VideoObject schema, thumbnail ve transkript için kontrol listesi kartı",
+      caption: "VideoObject schema, thumbnail ve transkript için kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-7.webp",
+      alt: "Video entegrasyonunun CWV ve rezervasyon niyetine etkisi KPI kartı",
+      caption: "Video entegrasyonunun CWV ve rezervasyon niyetine etkisi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-16/Creative3-16-8.webp",
+      alt: "3 sayfa türü video yerleşimi ve teknik kurulum teslim seti proof kartı",
+      caption: "3 sayfa türü video yerleşimi ve teknik kurulum teslim seti proof kartı"
+    }
+  },
+
+  "otel-employer-branding-ik-video":{
+    banner: {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-1.webp",
+      alt: "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi",
+      caption: "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-2.webp",
+      alt: "Kariyer sayfasında video yerleşimi ve departman akışını gösteren görsel",
+      caption: "Kariyer sayfasında video yerleşimi ve departman akışını gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-3.webp",
+      alt: "Employer branding hikâye blokları ve aday persona kartları divider görseli",
+      caption: "Employer branding hikâye blokları ve aday persona kartları divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-4.webp",
+      alt: "İşe alım ve oryantasyon video entegrasyonu divider görseli",
+      caption: "İşe alım ve oryantasyon video entegrasyonu divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-5.webp",
+      alt: "Bir günüm formatı timeline akışını gösteren diyagram",
+      caption: "Bir günüm formatı timeline akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-6.webp",
+      alt: "Otel İK video planlama checklist kartı hedef sahne röportaj seti",
+      caption: "Otel İK video planlama checklist kartı hedef sahne röportaj seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-7.webp",
+      alt: "Employer branding videosunun başvuru kalitesi ve bağlılığa etkisi KPI kartı",
+      caption: "Employer branding videosunun başvuru kalitesi ve bağlılığa etkisi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-17/Creative3-17-8.webp",
+      alt: "Kültür filmi ve departman video seti teslimlerini özetleyen proof kartı",
+      caption: "Kültür filmi ve departman video seti teslimlerini özetleyen proof kartı"
+    }
+  },
+
+  "otel-video-performans-analizi-izlenme-donusum":{
+     banner: {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-1.webp",
+      alt: "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi",
+      caption: "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-2.webp",
+      alt: "Video izleme etkileşim rezervasyon funnel akışını gösteren şema görseli",
+      caption: "Video izleme etkileşim rezervasyon funnel akışını gösteren şema görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-3.webp",
+      alt: "Completion drop analizi ve revizyon kararlarını ayıran bölüm görseli",
+      caption: "Completion drop analizi ve revizyon kararlarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-4.webp",
+      alt: "GA4 ve Looker Studio raporlama kurulumunu ayıran bölüm geçiş görseli",
+      caption: "GA4 ve Looker Studio raporlama kurulumunu ayıran bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-5.webp",
+      alt: "Video izleme CTA tıklama ve booking funnel ilişki diyagramı görseli",
+      caption: "Video izleme CTA tıklama ve booking funnel ilişki diyagramı görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-6.webp",
+      alt: "Video KPI okuma checklist’i ve hızlı optimizasyon adımları kart görseli",
+      caption: "Video KPI okuma checklist’i ve hızlı optimizasyon adımları kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-7.webp",
+      alt: "ROAS completion ve rezervasyon etkisini birlikte gösteren KPI kart görseli",
+      caption: "ROAS completion ve rezervasyon etkisini birlikte gösteren KPI kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-18/Creative3-18-8.webp",
+      alt: "Looker Studio video paneli ve GA4 event seti teslim görseli",
+      caption: "Looker Studio video paneli ve GA4 event seti teslim görseli"
+    }
+  },
+
+  "otel-4-mevsim-video-icerik-plani":{
+     banner: {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-1.webp",
+      alt: "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler",
+      caption: "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-2.webp",
+      alt: "12 aylık yıllık video içerik takvimi örneği görseli",
+      caption: "12 aylık yıllık video içerik takvimi örneği görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-3.webp",
+      alt: "Sezon öncesi hazırlık çekimleri ve takvim planı divider görseli",
+      caption: "Sezon öncesi hazırlık çekimleri ve takvim planı divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-4.webp",
+      alt: "Özel dönem kampanya setleri ve yayın takvimi divider görseli",
+      caption: "Özel dönem kampanya setleri ve yayın takvimi divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-5.webp",
+      alt: "Sezon içi günlük hayat ve etkinlik video akışı diyagramı görseli",
+      caption: "Sezon içi günlük hayat ve etkinlik video akışı diyagramı görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-6.webp",
+      alt: "Yıllık video planı checklist ve off-season içerik listesi kart",
+      caption: "Yıllık video planı checklist ve off-season içerik listesi kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-7.webp",
+      alt: "Yıllık planın marka tutarlılığı ve kampanya performansına etkisi KPI kartı",
+      caption: "Yıllık planın marka tutarlılığı ve kampanya performansına etkisi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-19/Creative3-19-8.webp",
+      alt: "12 aylık video takvimi şablonu ve storyboard teslim seti proof kartı",
+      caption: "12 aylık video takvimi şablonu ve storyboard teslim seti proof kartı"
+    }
+  },
+
+   "otel-fotograf-video-cekimi-aynigun":{
+     banner: {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-1.webp",
+      alt: "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi",
+      caption: "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-2.webp",
+      alt: "Ortak shot list ve zaman planıyla entegre çekim akışı context görseli",
+      caption: "Ortak shot list ve zaman planıyla entegre çekim akışı context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-3.webp",
+      alt: "Ortak shot list önceliklendirme ve rota planı divider görseli",
+      caption: "Ortak shot list önceliklendirme ve rota planı divider görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-4.webp",
+      alt: "Çekim sonrası arşiv ve content library yönetimi divider görseli",
+      caption: "Çekim sonrası arşiv ve content library yönetimi divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-5.webp",
+      alt: "Işık ve mekân planını gösteren entegre zaman çizelgesi diyagramı",
+      caption: "Işık ve mekân planını gösteren entegre zaman çizelgesi diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-6.webp",
+      alt: "Tek günde foto+video çekimi için kontrol listesi kartı",
+      caption: "Tek günde foto+video çekimi için kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-7.webp",
+      alt: "Entegre çekimin maliyet ve operasyon yükünü azaltma etkisi KPI kartı",
+      caption: "Entegre çekimin maliyet ve operasyon yükünü azaltma etkisi KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-20/Creative3-20-8.webp",
+      alt: "Ortak klasör yapısı ve dosya isimlendirme teslim seti proof kartı",
+      caption: "Ortak klasör yapısı ve dosya isimlendirme teslim seti proof kartı"
+    }
+  },
+
+  "otel-live-yayin-instagram-youtube-tiktok":{
+    banner: {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-1.webp",
+      alt: "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi",
+      caption: "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-2.webp",
+      alt: "Live yayın tur, chat soru-cevap ve CTA kurgusunu anlatan görsel",
+      caption: "Live yayın tur, chat soru-cevap ve CTA kurgusunu anlatan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-3.webp",
+      alt: "Instagram YouTube TikTok live platform farklarını ayıran görsel",
+      caption: "Instagram YouTube TikTok live platform farklarını ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-4.webp",
+      alt: "Chat, moderasyon ve CTA yönetimini ayıran divider görseli",
+      caption: "Chat, moderasyon ve CTA yönetimini ayıran divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-5.webp",
+      alt: "Live set-up: telefon mikrofon ışık ve yedek internet diyagramı",
+      caption: "Live set-up: telefon mikrofon ışık ve yedek internet diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-6.webp",
+      alt: "Live yayın hazırlık checklist’i senaryo teknik ve CTA kartı",
+      caption: "Live yayın hazırlık checklist’i senaryo teknik ve CTA kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-7.webp",
+      alt: "Live izlenme ve etkileşim performansını gösteren KPI kartı",
+      caption: "Live izlenme ve etkileşim performansını gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-21/Creative3-21-8.webp",
+      alt: "Live replay’den üretilmiş reels ve shorts örnekleri proof kartı",
+      caption: "Live replay’den üretilmiş reels ve shorts örnekleri proof kartı"
+    }
   }
   
 };
