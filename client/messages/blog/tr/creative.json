@@ -37210,7 +37210,7 @@
   },
   "h1": {
     "title": "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
-    "intro": "Sadakat programı kurgusu “puan var” demekle bitmez; misafir için tek soru vardır: “Neden üye olayım?” Eğer bu soruya 5–8 saniyede cevap veremezseniz, kullanıcı kayıt olmaz ve “üye fiyatı” gibi avantajlar boşa gider. İyi bir membership UX; üyeliği sürtünmesiz başlatır, puan/avantajı görselleştirir, rezervasyonda üye fiyatını şeffaf sunar ve web-e-posta-call center deneyimini tek hikâyede birleştirir.",
+    "intro": "[otel sadakat programı UX’i](https://dgtlface.com/tr/creative/ui-ux-tasarim) kurgusu olmadan sadakat programı “puan var” demekle bitmez; misafir için tek soru vardır: “Neden üye olayım?” Eğer bu soruya 5–8 saniyede cevap veremezseniz, kullanıcı kayıt olmaz ve “üye fiyatı” gibi avantajlar boşa gider. İyi bir membership UX; üyeliği sürtünmesiz başlatır, puan/avantajı görselleştirir, rezervasyonda üye fiyatını şeffaf sunar ve web-e-posta-call center deneyimini tek hikâyede birleştirir.",
     "quickSummary": [
       "“Misafirler sadakat programına girmiyor, neyi yanlış yapıyorum?”",
       "Kısa cevap: Üyelik faydasını net anlatmıyor, kayıt formunu uzatıyor veya üye fiyatını rezervasyonda doğru yerde göstermiyorsunuz. Çözüm; “hızlı kayıt + anında değer + şeffaf fiyat kıyası + destek” kurgusudur."
@@ -37218,63 +37218,67 @@
     "ctaPrimary": {
       "label": "Sadakat Programı UX & Akış Analizi Talep Et",
       "text": "Üyelik dönüşümünü ve member rate kullanımını artırmak için kayıt, puan/avantaj ve rezervasyon akışınızı birlikte analiz edin.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Sadakat Programı UX & Akış Analizi Talep Et",
       "text": "Üyelik dönüşümünü, member rate seçimini ve tekrar rezervasyonu artırmak için sadakat akışınızı uçtan uca analiz edin.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "Sadakat Programı Üyelik Ekran Şablonunu İndir",
       "text": "Üyelik kayıt, puan/avantaj ve üye fiyatı ekranlarını hazır şablonla hızlıca kurgulamanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#sadakat-uyelik-sablon"
+      "href": "/tr/creative/ui-ux-tasarim#sadakat-uyelik-sablon"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı hizmet sayfası",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Öncesi / Sonrası İletişim UX",
+      "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    },
+    {
+      "label": "OTA vs Direkt Rezervasyon UX",
+      "href": "/tr/creative/blog/ota-vs-direkt-rezervasyon-ux"
+    },
+    {
+      "label": "Otel Kullanıcı Yolculuğu Haritalama",
+      "href": "/tr/creative/blog/otel-kullanici-yolculugu-haritalama"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
-    },
-    {
-      "label": "Satış Sonrası Destek",
-      "href": "/cagri-merkezi/satis-sonrasi-destek"
-    },
-    {
-      "label": "Satış & Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "href": "/tr/otel-dijital-pazarlama"
     },
     {
       "label": "Çağrı Merkezi Hizmetleri",
-      "href": "/cagri-merkezi-hizmetleri"
+      "href": "/tr/cagri-merkezi-hizmetleri"
     },
     {
-      "label": "CMS Entegrasyonu",
-      "href": "/yazilim/cms-entegrasyonu"
+      "label": "Satış Dönüşüm",
+      "href": "/tr/raporlama/satis-donusum"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "title": "Otel Öncesi / Sonrası İletişim UX: Mesaj, Hatırlatma ve Güven Akışı",
+      "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
     },
     {
-      "title": "Satış Sonrası Destek",
-      "href": "/cagri-merkezi/satis-sonrasi-destek"
+      "title": "OTA vs Direct Booking: Direkt Rezervasyon UX Rehberi",
+      "href": "/tr/creative/blog/ota-vs-direkt-rezervasyon-ux"
     },
     {
-      "title": "Satış & Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
-    },
-    {
-      "title": "CMS Entegrasyonu",
-      "href": "/yazilim/cms-entegrasyonu"
+      "title": "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi",
+      "href": "/tr/creative/blog/otel-kullanici-yolculugu-haritalama"
     }
   ],
   "sections": [
@@ -37284,7 +37288,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sadakat programı, otelde “tekrar rezervasyon” ve “direkt gelir” için güçlü bir kaldıraçtır; ama UX zayıfsa program görünmez olur. Üyelik faydası anlaşılmıyor, kayıt zor, login sorunlu, üye fiyatı net değilse kullanıcı ya vazgeçer ya da OTA’ya döner."
+          "text": "Sadakat programı, otelde “tekrar rezervasyon” ve “direkt gelir” için güçlü bir kaldıraçtır; ama [sadakat yolculuğu tasarımı](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı kurulmadığında program görünmez olur. Üyelik faydası anlaşılmıyor, kayıt zor, login sorunlu, üye fiyatı net değilse kullanıcı ya vazgeçer ya da OTA’ya döner."
         },
         {
           "type": "h3",
@@ -37304,6 +37308,10 @@
           "text": "Yönlü içgörü: Sadakat UX’i iyileştirilen otellerde üyelik oranlarının ve tekrar rezervasyonların arttığı; üye fiyatı sunulan sayfalarda kararın hızlandığı sık gözlemlenir (nicel değil, yönlü)."
         },
         {
+          "type": "p",
+          "text": "İlk ziyaret, üyelik oluşturma, konaklama, puan kazanımı ve tekliften tekrar rezervasyona uzanan adımları [sadakat yolculuğu haritalama](https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama) yaklaşımıyla tek akışta görmek, kopuş noktalarını daha erken yakalamanızı sağlar."
+        },
+        {
           "type": "callout",
           "variant": "checklist",
           "title": "☑ Mini Check (H2-1)",
@@ -37321,7 +37329,7 @@
           "items": [
             "Üyelik faydasını 3–5 maddeye indirip görünür yapın.",
             "Kayıt alanlarını minimuma indirin; geri kalanını profil içinde toplayın.",
-            "Sadakat–gelir bağını raporlama ile kurun: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "Sadakat–gelir bağını [satış dönüşüm odaklı sadakat analizi](https://dgtlface.com/tr/raporlama/satis-donusum) ile kurun."
           ]
         }
       ]
@@ -37532,6 +37540,10 @@
           "text": "Üye fiyatı sunumu, direct booking’i güçlendiren en kritik anlardan biridir. Burada iki risk var:"
         },
         {
+          "type": "p",
+          "text": "Bu avantajın kullanıcıyı OTA’dan web’e taşıyabilmesi için [üye fiyatı rezervasyon deneyimi](https://dgtlface.com/tr/creative/blog/ota-vs-direkt-rezervasyon-ux) tarafında fiyat netliği, iptal şeffaflığı ve güven bileşenleri birlikte çalışmalıdır."
+        },
+        {
           "type": "list",
           "style": "ul",
           "items": [
@@ -37634,7 +37646,7 @@
           "variant": "secondary",
           "label": "Sadakat Programı Üyelik Ekran Şablonunu İndir",
           "text": "Üyelik kayıt, puan/avantaj ve üye fiyatı ekranlarını hazır şablonla hızlıca kurgulamanızı sağlar.",
-          "href": "/creative/ui-ux-tasarim#sadakat-uyelik-sablon"
+          "href": "/tr/creative/ui-ux-tasarim#sadakat-uyelik-sablon"
         }
       ]
     },
@@ -37690,6 +37702,10 @@
           "text": "Sadakat programı web’de başlar ama web’de bitmez. Üye; e-posta ile teklif bekler, çağrı merkeziyle konuşur, bazen CRM üzerinden kişiselleştirilmiş mesaj alır. Omnichannel tutarlılık yoksa kullanıcı “vaat”i sorgular."
         },
         {
+          "type": "p",
+          "text": "Web’de başlayan üyelik ilişkisi, check-in öncesi hatırlatma, puan mesajları ve konaklama sonrası özel tekliflerle [tekrar rezervasyon yolculuğu](https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux) haline gelir."
+        },
+        {
           "type": "h3",
           "text": "E-posta ve web tutarlılığı"
         },
@@ -37703,16 +37719,16 @@
           ]
         },
         {
+          "type": "p",
+          "text": "Bu teklif ve segment yapısını e-posta, landing page ve remarketing akışlarına taşırken [sadakat kampanyası UX’i](https://dgtlface.com/tr/otel-dijital-pazarlama) mantığıyla vaat, fiyat ve teklif dilini aynı çizgide tutmak gerekir."
+        },
+        {
           "type": "h3",
-          "text": "Call center entegrasyonu (satış sonrası destek)"
+          "text": "Call center entegrasyonu (üyelik ve puan desteği)"
         },
         {
           "type": "p",
-          "text": "Üyelik soruları ve avantajlar call center script’inde de olmalı."
-        },
-        {
-          "type": "p",
-          "text": "İç link: https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+          "text": "Üyelik, puan ve teklif sorularında [çağrı merkezi destekli üyelik deneyimi](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) kurgulamak; web’de kararsız kalan kullanıcıyı insan destekli temas noktasına sorunsuz taşır."
         },
         {
           "type": "h3",
@@ -37721,10 +37737,6 @@
         {
           "type": "p",
           "text": "Sadakat içeriği (avantajlar, seviye metinleri, e-posta şablonları) CMS üzerinden yönetilirse tutarlılık artar."
-        },
-        {
-          "type": "p",
-          "text": "İç link: https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
         },
         {
           "type": "callout",
@@ -37788,7 +37800,7 @@
           "items": [
             "Üyelik akışını “hızlı + güvenli” standardında test edin (mobil).",
             "KVKK metnini sade tutun; linkle destekleyin.",
-            "Entegrasyonları raporlama ile bağlayın: https://dgtlface.com/tr/raporlama/satis-donusum"
+            "Entegrasyonları raporlama ve tekrar rezervasyon KPI’larıyla birlikte izleyin."
           ]
         }
       ]
@@ -37830,7 +37842,11 @@
           "variant": "primary",
           "label": "Sadakat Programı UX & Akış Analizi Talep Et",
           "text": "Üyelik dönüşümünü, member rate seçimini ve tekrar rezervasyonu artırmak için sadakat akışınızı uçtan uca analiz edin.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "[UI & UX Tasarım hizmetiyle otel sadakat ve üyelik akışınızı sadeleştirin](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
         }
       ]
     }
@@ -37873,6 +37889,12 @@
         "table-member-rate-public-rate — Üyelik vs normal fiyat karşılaştırma tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro içinde /tr/creative/ui-ux-tasarim adresine doğal anchor ile bağlandı",
+        "Cluster hub linki /tr/creative-ve-tasarim adresine sadakat ve CRM journey bağlamında eklendi",
+        "Primary sibling linkleri Otel Öncesi / Sonrası İletişim UX, OTA vs Direkt Rezervasyon UX ve Kullanıcı Yolculuğu Haritalama bağlamında yerleştirildi",
+        "Cross-silo linkleri Otel Dijital Pazarlama, Çağrı Merkezi Hizmetleri ve Satış Dönüşüm bağlamında eklendi",
+        "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
         "Üyelik faydalarının ilk 1–2 ekran içinde 3–5 net maddeyle anlatıldığı doğrulandı",
         "Signup formunun 3–5 temel alanla tamamlanabildiği ve profil bilgilerinin sonraya bırakıldığı kontrol edildi",
         "Signup ve login akışlarının ayrı ve anlaşılır yönlendirmelerle sunulduğu doğrulandı",
@@ -37940,7 +37962,7 @@
   },
   "h1": {
     "title": "Otel Web UX’inde Kaçınılması Gereken Dark Pattern’ler",
-    "intro": "Otel web sitesinde güven, “rezervasyonun para kısmından” önce gelir. Kullanıcı oda ve fiyatı beğense bile, kendini kandırılmış veya zorlanmış hissederse vazgeçebilir. Dark pattern’ler, kullanıcıyı yanıltan veya istemediği eyleme iten tasarımlardır. Kısa vadede tıklama artışı gibi görünse de; otel markası için uzun vadeli güven kaybı, kötü yorumlar ve daha düşük tekrar rezervasyon riski yaratabilir (yönlü sektör gözlemi).",
+      "intro": "Otel web sitesinde [etik otel UX’i](https://dgtlface.com/tr/creative/ui-ux-tasarim) güveni, “rezervasyonun para kısmından” önce kurar. Kullanıcı oda ve fiyatı beğense bile, kendini kandırılmış veya zorlanmış hissederse vazgeçebilir. Dark pattern’ler, kullanıcıyı yanıltan veya istemediği eyleme iten tasarımlardır. Kısa vadede tıklama artışı gibi görünse de; otel markası için uzun vadeli güven kaybı, kötü yorumlar ve daha düşük tekrar rezervasyon riski yaratabilir (yönlü sektör gözlemi).",
     "quickSummary": [
       "“Kullanıcıyı kandırmadan nasıl satış yaparım?”",
       "“Dark pattern kullanmak doğru mu?”",
@@ -37950,53 +37972,69 @@
     "ctaPrimary": {
       "label": "Etik UX & Dark Pattern Audit’i Talep Et",
       "text": "Sitenizde güveni zedeleyen dark pattern risklerini tespit edip şeffaf, etik alternatiflerle dönüşümü koruyacak bir plan alın.",
-      "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Etik UX & Dark Pattern Audit’i Talep Et",
       "text": "Fiyat/iptal/ek ücret ve pop-up alanlarında dark pattern risklerini kaldırıp güven odaklı UX planı çıkarın.",
-      "href": "/creative/ui-ux-tasarim"
+        "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "Etik Otel UX Checklist’ini İndir",
       "text": "Sitenizi 10 dakikada tarayıp en riskli dark pattern alanlarını işaretleyerek hızlı düzeltme planı yapmanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#etik-ux-checklist"
+        "href": "/tr/creative/ui-ux-tasarim#etik-ux-checklist"
     }
   },
   "internalLinks": [
     {
-      "label": "UI & UX Tasarımı hizmet sayfası",
-      "href": "/creative/ui-ux-tasarim"
-    },
-    {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
-    },
-    {
-      "label": "KVKK Uyum Hizmeti",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
-    },
-    {
-      "label": "KVKK & Veri Güvenliği Raporlama",
-      "href": "/raporlama/kvkk-veri-guvenligi"
-    }
-  ],
-  "relatedPosts": [
-    {
-      "title": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
-    },
-    {
-      "title": "KVKK Uyum Hizmeti",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
-    },
-    {
-      "title": "KVKK & Veri Güvenliği Raporlama",
-      "href": "/raporlama/kvkk-veri-guvenligi"
-    }
-  ],
+        "label": "UI & UX Tasarımı hizmet sayfası",
+        "href": "/tr/creative/ui-ux-tasarim"
+      },
+      {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "KVKK / Çerez Banner Otel UX",
+        "href": "/tr/creative/blog/kvkk-cerez-banner-otel-ux"
+      },
+      {
+        "label": "Otel Fiyat / Oda Karşılaştırma UX",
+        "href": "/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux"
+      },
+      {
+        "label": "Otel UX Writing & Microcopy",
+        "href": "/tr/creative/blog/otel-ux-writing-microcopy"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+      },
+      {
+        "label": "KVKK & Veri Güvenliği Raporlama",
+        "href": "/tr/raporlama/kvkk-veri-guvenligi"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "KVKK ve Çerez Banner’ı UX’i: Otel Web Sitelerinde Güven ve Uyum",
+        "href": "/tr/creative/blog/kvkk-cerez-banner-otel-ux"
+      },
+      {
+        "title": "Otel Fiyat ve Oda Karşılaştırma UX’i: Tablo, Kart ve Paket Yapıları",
+        "href": "/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux"
+      },
+      {
+        "title": "Otel UX Writing ve Microcopy: Buton, Form ve Hata Mesajları",
+        "href": "/tr/creative/blog/otel-ux-writing-microcopy"
+      }
+    ],
   "sections": [
     {
       "id": "dark-pattern-nedir-otel-baglami",
@@ -38004,7 +38042,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Dark pattern, kullanıcıyı yanıltan, zorlayan veya istemediği seçeneğe iten tasarım ve metin pratikleridir. Otelde bu daha kritik olur; çünkü satın alma kararı “yüksek tutarlı” ve “güven hassasiyeti” yüksek bir karardır. Kullanıcı; fiyat, iptal ve ek ücretlerde şeffaflık bekler. Bu şeffaflık bozulduğunda, yalnız conversion değil, marka algısı da zarar görür."
+            "text": "Dark pattern, kullanıcıyı yanıltan, zorlayan veya istemediği seçeneğe iten tasarım ve metin pratikleridir. Otelde bu daha kritik olur; çünkü [rezervasyonda manipülatif kalıplardan kaçınmak](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı satın alma kararındaki güven hissini doğrudan etkiler. Kullanıcı; fiyat, iptal ve ek ücretlerde şeffaflık bekler. Bu şeffaflık bozulduğunda, yalnız conversion değil, marka algısı da zarar görür."
         },
         {
           "type": "h3",
@@ -38037,10 +38075,10 @@
           "items": [
             "Dark pattern’i “daha çok satış” değil “güven borcu” olarak görün.",
             "Fiyat/iptal/ek ücret şeffaflığını standartlaştırın.",
-            "Uyum ve veri koruma bağlantısını güçlendirin: https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
-          ]
-        }
-      ]
+              "İzin, çerez ve veri işleme akışlarını [KVKK uyumlu izin deneyimi](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) standardıyla yeniden yazın."
+            ]
+          }
+        ]
     },
     {
       "id": "otel-web-yaygin-dark-pattern-ornekleri",
@@ -38062,10 +38100,10 @@
           "type": "p",
           "text": "“Son 1 oda” uyarısı her zaman yalan değildir; ama gerçek zamanlı envanterle desteklenmiyor, tüm kullanıcıya sürekli gösteriliyorsa dark pattern’e yaklaşır. Kullanıcı bir kez kandırıldığını hissederse güven kırılır."
         },
-        {
-          "type": "p",
-          "text": "Etik alternatif:"
-        },
+          {
+            "type": "p",
+            "text": "Etik alternatif:"
+          },
         {
           "type": "list",
           "style": "ul",
@@ -38133,9 +38171,13 @@
           "items": [
             "Default boş seçim",
             "Net fayda cümlesi (“üye olursan şu avantaj”)",
-            "Kolay iptal/çıkış"
-          ]
-        },
+              "Kolay iptal/çıkış"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Çerez tercihleri, reddetme seçeneği ve tercihleri sonradan değiştirme akışı; [kullanıcı kontrolünü koruyan çerez banner](https://dgtlface.com/tr/creative/blog/kvkk-cerez-banner-otel-ux) mantığıyla eşit görünürlükte sunulmalıdır."
+          },
         {
           "type": "h3",
           "text": "Yanıltıcı buton metinleri (microcopy tuzakları)"
@@ -38216,10 +38258,10 @@
           "items": [
             "Dark pattern risklerini sayfa sayfa çıkarın (ana sayfa, oda, ödeme, cookie).",
             "En yüksek riskli 3 alanı seçip önce onları düzeltin: fiyat/iptal, pop-up, izin yönetimi.",
-            "Şeffaf UX’i performansla da bağlayın: KVKK risk/uyum raporu tarafı için Varsayım: https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
-          ]
-        }
-      ]
+              "Şeffaf UX kararlarını [veri güvenliği ve marka güveni](https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi) yaklaşımıyla birlikte değerlendirin."
+            ]
+          }
+        ]
     },
     {
       "id": "fiyat-oda-bilgisinde-seffaflik",
@@ -38231,7 +38273,7 @@
         },
         {
           "type": "p",
-          "text": "Otel web UX’inde şeffaflık, “etik olalım”dan öte; dönüşümün kendisidir. Kullanıcı fiyatı anlıyorsa ve iptal koşulunu okuyabiliyorsa, daha hızlı karar verir."
+            "text": "Otel web UX’inde [şeffaf fiyat sunumu](https://dgtlface.com/tr/creative/blog/otel-fiyat-oda-karsilastirma-ux), “etik olalım”dan öte; dönüşümün kendisidir. Kullanıcı fiyatı anlıyorsa ve iptal koşulunu okuyabiliyorsa, daha hızlı karar verir."
         },
         {
           "type": "h3",
@@ -38303,15 +38345,19 @@
           "type": "h3",
           "text": "Ek ücret açıklama şablonu"
         },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "“Şehir vergisi varışta ödenir (varsa)”",
-            "“Transfer opsiyonel”",
-            "“Spa paketleri ekstra” (opsiyonel)"
-          ]
-        },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Şehir vergisi varışta ödenir (varsa)”",
+              "“Transfer opsiyonel”",
+              "“Spa paketleri ekstra” (opsiyonel)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İptal özetleri, uyarılar ve rezervasyon butonları [yanıltıcı olmayan buton ve açıklama metinleri](https://dgtlface.com/tr/creative/blog/otel-ux-writing-microcopy) yaklaşımıyla yazıldığında kullanıcı daha sakin ve doğru karar verir."
+          },
         {
           "type": "callout",
           "variant": "checklist",
@@ -38341,8 +38387,12 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Dark pattern’i kaldırınca “dönüşüm düşer” korkusu oluşabilir. Oysa çoğu zaman dönüşüm; manipülasyonla değil, netlik ve güven ile artar. Etik alternatifler:"
-        },
+            "text": "Dark pattern’i kaldırınca “dönüşüm düşer” korkusu oluşabilir. Oysa çoğu zaman dönüşüm; manipülasyonla değil, netlik ve güven ile artar. Etik alternatifler:"
+          },
+          {
+            "type": "p",
+            "text": "Aciliyet, indirim ve teklif dilini [güven veren otel kampanya mesajları](https://dgtlface.com/tr/otel-dijital-pazarlama) mantığıyla kurgulamak; kısa vadeli tıklama baskısı yerine uzun vadeli marka güveni üretir."
+          },
         {
           "type": "h3",
           "text": "Sahte kıtlık yerine “gerçek talep” mesajı"
@@ -38401,15 +38451,15 @@
           "items": [
             "Her dark pattern için bir “etik alternatif” UI pattern’i tanımlayın.",
             "Bu pattern’leri design system’e ekleyin; tekrar kullanılabilir olsun.",
-            "Güven ve uyum eksenini otel dijital pazarlamayla bağlayın: https://dgtlface.com/tr/otel-dijital-pazarlama"
-          ]
-        },
+              "Kampanya, indirim ve teklif metinleri için pazarlama ekibinize etik bir onay standardı tanımlayın."
+            ]
+          },
         {
           "type": "cta",
           "variant": "secondary",
           "label": "Etik Otel UX Checklist’ini İndir",
           "text": "Sitenizi 10 dakikada tarayıp en riskli dark pattern alanlarını işaretleyerek hızlı düzeltme planı yapmanızı sağlar.",
-          "href": "/creative/ui-ux-tasarim#etik-ux-checklist"
+          "href": "/tr/creative/ui-ux-tasarim#etik-ux-checklist"
         }
       ]
     },
@@ -38493,7 +38543,11 @@
           "variant": "primary",
           "label": "Etik UX & Dark Pattern Audit’i Talep Et",
           "text": "Fiyat/iptal/ek ücret ve pop-up alanlarında dark pattern risklerini kaldırıp güven odaklı UX planı çıkarın.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "[UI & UX Tasarım hizmetiyle otel web sitenizde etik ve güven veren rezervasyon deneyimi kurun](https://dgtlface.com/tr/creative/ui-ux-tasarim) ve süreç detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına göz atın."
         }
       ]
     }
@@ -38538,6 +38592,12 @@
         "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro içinde /tr/creative/ui-ux-tasarim adresine doğal anchor ile bağlandı",
+        "Cluster hub linki /tr/creative-ve-tasarim adresine etik UX ve güven stratejisi bağlamında eklendi",
+        "Primary sibling linkleri KVKK / Çerez Banner Otel UX, Otel Fiyat / Oda Karşılaştırma UX ve Otel UX Writing bağlamında yerleştirildi",
+        "Cross-silo linkleri Otel Dijital Pazarlama, KVKK Uyum Hizmeti ve KVKK Veri Güvenliği bağlamında eklendi",
+        "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
         "Ana sayfa, oda sayfası, fiyat/checkout ve cookie banner için dark pattern envanteri çıkarıldı",
         "“Son oda” ve benzeri kıtlık mesajlarının gerçek envanter verisine dayandığı doğrulandı",
         "Toplam fiyatın vergi, harç ve ek ücret kapsamıyla birlikte erken aşamada gösterildiği kontrol edildi",
@@ -38605,7 +38665,7 @@
   },
   "h1": {
     "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
-    "intro": "Rezervasyon sayfasını mükemmel yaptınız… ama misafir otelinize gelmeden önce “ne yapacağım?” diye stres oluyor, konaklama sırasında bilgi bulamıyor, çıkıştan sonra da sizden bir daha haber alamıyorsa; deneyim yarım kalır. Otel UX’i; pre-stay (öncesi), in-stay (sırası) ve post-stay (sonrası) dokunuşlarla tamamlanır. Üstelik bu dokunuşlar tek bir kanal değil; web, e-posta, WhatsApp ve call center birlikte çalıştığında etkili olur.",
+    "intro": "Rezervasyon sayfasını mükemmel yaptınız… ama misafir otelinize gelmeden önce “ne yapacağım?” diye stres oluyor, konaklama sırasında bilgi bulamıyor, çıkıştan sonra da sizden bir daha haber alamıyorsa; deneyim yarım kalır. [öncesi–sırası–sonrası misafir yolculuğu](https://dgtlface.com/tr/creative/ui-ux-tasarim) yaklaşımıyla otel UX’i; pre-stay (öncesi), in-stay (sırası) ve post-stay (sonrası) dokunuşlarla tamamlanır. Üstelik bu dokunuşlar tek bir kanal değil; web, e-posta, WhatsApp ve call center birlikte çalıştığında etkili olur.",
     "quickSummary": [
       "1. Pre-stay: Rezervasyon onayı + net bilgilendirme + 1–2 upsell/upgrade önerisi (kısa ve sakin).",
       "2. In-stay: Wi-Fi landing, dijital menü/aktivite sayfası ve hızlı destek (chat/WhatsApp) ile “bilgi bulma” sürtünmesini kaldırın.",
@@ -38618,51 +38678,67 @@
     "ctaPrimary": {
       "label": "Misafir Yolculuğu Dijital UX Analizi Talep Et",
       "text": "Web, e-posta, WhatsApp ve call center temaslarınızı tek journey’de birleştirip aksiyon planı çıkarmak için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Misafir Yolculuğu Dijital UX Analizi Talep Et",
       "text": "Web, e-posta, WhatsApp ve call center temaslarınızı tek journey’de birleştirip aksiyon planı çıkarmak için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "Misafir Öncesi–Sırası–Sonrası İletişim Şablonlarını İndir",
       "text": "E-posta, WhatsApp, Wi-Fi landing ve post-stay anket ekranlarını hazır şablonlarla hızlıca kurgulamanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#guest-templates"
+      "href": "/tr/creative/ui-ux-tasarim#guest-templates"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Kullanıcı Yolculuğu Haritalama",
+      "href": "/tr/creative/blog/otel-kullanici-yolculugu-haritalama"
+    },
+    {
+      "label": "Otel Sadakat Programı ve Üyelik UX’i",
+      "href": "/tr/creative/blog/otel-sadakat-programi-uyelik-ux"
+    },
+    {
+      "label": "Çok Dilli Otel UX’i",
+      "href": "/tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru"
     },
     {
       "label": "Çağrı Merkezi Hizmetleri",
-      "href": "/cagri-merkezi-hizmetleri"
+      "href": "/tr/cagri-merkezi-hizmetleri"
     },
     {
       "label": "Mesaj Yönetimi",
-      "href": "/cagri-merkezi/mesaj-yonetimi"
+      "href": "/tr/cagri-merkezi/mesaj-yonetimi"
     },
     {
-      "label": "Satış ve Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "title": "Otel Web Sitelerinde Kullanıcı Yolculuğu Haritalama: UX Workshop Rehberi",
+      "href": "/tr/creative/blog/otel-kullanici-yolculugu-haritalama"
     },
     {
-      "title": "Mesaj Yönetimi",
-      "href": "/cagri-merkezi/mesaj-yonetimi"
+      "title": "Otel Sadakat Programı ve Üyelik UX’i: Hesap, Puan ve Teklif Akışı",
+      "href": "/tr/creative/blog/otel-sadakat-programi-uyelik-ux"
+    },
+    {
+      "title": "Çok Dilli Otel UX’i: TR-EN-DE-RU Rezervasyon Akışı Nasıl Kurgulanır?",
+      "href": "/tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru"
     }
   ],
   "sections": [
@@ -38688,7 +38764,7 @@
         },
         {
           "type": "p",
-          "text": "Kısa cevap: Her aşamada tek bir ana hedef belirleyin (bilgilendir / yönlendir / destekle / geri bildirim al) ve tüm kanallarda aynı görsel dil + aynı ton + aynı CTA mantığını uygulayın."
+          "text": "Kısa cevap: Her aşamada tek bir ana hedef belirleyin (bilgilendir / yönlendir / destekle / geri bildirim al) ve tüm kanallarda aynı görsel dil + aynı ton + aynı CTA mantığını uygulayın. Bu yaklaşım, [çok kanallı misafir deneyimi](https://dgtlface.com/tr/creative-ve-tasarim) kurgusunun misafir deneyimindeki en pratik karşılığıdır."
         },
         {
           "type": "h3",
@@ -38723,9 +38799,9 @@
           "variant": "action",
           "title": "Ne yapmalıyım?",
           "items": [
-            "Önce “3 aşama”yı ayrı ayrı tasarlayın, sonra tek yolculukta bağlayın.",
+            "Önce “3 aşama”yı ayrı ayrı tasarlayın, sonra [otel kullanıcı yolculuğu haritalama](https://dgtlface.com/tr/creative/blog/otel-kullanici-yolculugu-haritalama) yaklaşımıyla tek yolculukta bağlayın.",
             "Her aşama için 1 sayfa + 1 mesaj + 1 CTA standardı koyun.",
-            "Omnichannel ilişkiyi güçlendirmek için: /otel-dijital-pazarlama"
+            "Rezervasyon öncesi kampanya, içerik ve landing akışını [rezervasyon öncesi pazarlama temasları](https://dgtlface.com/tr/otel-dijital-pazarlama) mantığıyla hizalayın."
           ]
         }
       ]
@@ -38800,7 +38876,7 @@
           "items": [
             "Onay e-postasını “1 ekran özeti” yaklaşımıyla sadeleştirin.",
             "WhatsApp’ı kritik anlara bağlayın; spam riskini azaltın.",
-            "Satış ve destek ekipleri için aynı mesaj sözlüğünü oluşturun: /cagri-merkezi-hizmetleri"
+            "Satış ve destek ekipleri için aynı mesaj sözlüğünü oluşturun; gerektiğinde [çağrı merkezi destekli misafir deneyimi](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) ile insan temasına sorunsuz geçiş verin."
           ]
         }
       ]
@@ -38896,7 +38972,7 @@
           "items": [
             "Wi-Fi landing’i “performans bütçesi” ile yönetin (hız öncelik).",
             "QR sayfalarında tek amaç: bilgiye hızlı erişim; dekorasyondan kaçının.",
-            "Mesaj yönetimini operasyonla birleştirin: /cagri-merkezi/mesaj-yonetimi"
+            "TR-EN içerik, hızlı destek ve operasyon akışını [WhatsApp ve mesaj yönetimi deneyimi](https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi) ile birleştirin."
           ]
         }
       ]
@@ -38959,7 +39035,7 @@
           "items": [
             "Post-stay’i 3 adımda kurgulayın: teşekkür → NPS → yorum/sadakat.",
             "Tek e-postaya her şeyi koymayın; amaçları bölün.",
-            "Gelir etkisini ölçümleyin: /raporlama/satis-donusum"
+            "Konaklama sonrası teklif, puan ve üyelik kurgusunu [sadakat ve tekrar rezervasyon akışı](https://dgtlface.com/tr/creative/blog/otel-sadakat-programi-uyelik-ux) olarak ayrı bir deneyime dönüştürün."
           ]
         }
       ]
@@ -38970,7 +39046,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Omnichannel deneyimde en büyük problem “farklı kanalların farklı şey söylemesi”dir. Çözüm: tek sözlük, tek vaat, tek fiyat/iptal dili."
+          "text": "Omnichannel deneyimde en büyük problem “farklı kanalların farklı şey söylemesi”dir. Çözüm: tek sözlük, tek vaat, tek fiyat/iptal dili. Özellikle [çok dilli misafir iletişimi](https://dgtlface.com/tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru) gereken otellerde bu tutarlılık doğrudan güven yaratır."
         },
         {
           "type": "h3",
@@ -38987,18 +39063,8 @@
           ]
         },
         {
-          "type": "h3",
-          "text": "İç linkler (omnichannel graf)"
-        },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "/otel-dijital-pazarlama",
-            "/cagri-merkezi-hizmetleri",
-            "/cagri-merkezi/mesaj-yonetimi",
-            "/raporlama/satis-donusum"
-          ]
+          "type": "p",
+          "text": "Kampanya, landing page ve yeniden pazarlama akışlarını [kampanya ve yeniden pazarlama akışları](https://dgtlface.com/tr/otel-dijital-pazarlama) çerçevesinde düşünürken; web’de cevap bulamayan kullanıcıyı [web’den insan destekli kanala geçiş](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) ile doğru kişiye, hızlı soru ve talep trafiğini ise [çok kanallı mesaj akışı](https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi) ile doğru operasyona aktarmak gerekir."
         },
         {
           "type": "callout",
@@ -39090,7 +39156,7 @@
           "variant": "secondary",
           "label": "Misafir Öncesi–Sırası–Sonrası İletişim Şablonlarını İndir",
           "text": "E-posta, WhatsApp, Wi-Fi landing ve post-stay anket ekranlarını hazır şablonlarla hızlıca kurgulamanızı sağlar.",
-          "href": "/creative/ui-ux-tasarim#guest-templates"
+          "href": "/tr/creative/ui-ux-tasarim#guest-templates"
         }
       ]
     },
@@ -39155,7 +39221,11 @@
           "variant": "primary",
           "label": "Misafir Yolculuğu Dijital UX Analizi Talep Et",
           "text": "Öncesi–sırası–sonrası temas noktalarında tutarlı UI/UX ile tekrar rezervasyon ve memnuniyet hedefleyen oteller için analiz alın.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapıyı operasyonel olarak sadeleştirmek istiyorsanız, [UI & UX Tasarım hizmetiyle e-posta, WhatsApp, web ve çağrı merkezi temaslarını uçtan uca tasarlayın](https://dgtlface.com/tr/creative/ui-ux-tasarim). Süreç, kapsam ve uygulama detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     },
@@ -39254,6 +39324,12 @@
         "table-oncesi-sirasi-sonrasi-temas-noktalari — Öncesi–Sırası–Sonrası temas noktaları tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro paragrafında /tr/creative/ui-ux-tasarim adresine bağlandı",
+        "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+        "Sibling linkler: journey mapping, sadakat UX ve çok dilli UX doğru bağlamlarda yerleştirildi",
+        "Cross-silo linkler: çağrı merkezi hizmetleri, mesaj yönetimi ve otel dijital pazarlama doğal geçişlerle eklendi",
+        "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç bölümünde 1 kez kullanıldı",
         "Canonical kontrolü (parametreli sayfalar dahil)",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "TR/EN hreflang karşılıklılık kontrolü",
@@ -39264,8 +39340,8 @@
         "Wi-Fi landing hız ve erişilebilirlik için optimize edilmeli (ağır görsel yok, büyük tap alanları).",
         "Accordion/tab gibi etkileşimler CLS/INP’yi bozmamalı.",
         "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
-        "Primary CTA hedefi: /creative/ui-ux-tasarim",
-        "Secondary CTA hedefi: /creative/ui-ux-tasarim#guest-templates"
+        "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /tr/creative/ui-ux-tasarim#guest-templates"
       ]
     }
   }
@@ -39321,7 +39397,7 @@
   },
   "h1": {
     "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
-    "intro": "“2025’te otel web sitem nasıl görünmeli?” sorusu artık sadece estetikle ilgili değil; kullanıcı davranışı değişti. Genç kitle ve mobile-first kullanıcılar, dikey video ve sosyal içerik formatlarına alıştı. Resort otellerde (Antalya, Belek, Side, Kemer, Bodrum) karar süreci hâlâ “görsel kanıt + güven + hız” üçlüsüne dayanıyor; ama bu kanıt artık çoğu zaman dikey video blokları, social feed ve mikro etkileşimlerle taşınıyor. Öte yandan trendleri “her yere eklemek” CWV’yi bozabilir; ağır video ve animasyonlar ters etki yaratır. Bu rehber, trendleri uygulanabilir pattern’lere çevirir ve “ne zaman işe yarar?” diye filtreler.",
+    "intro": "“2025’te otel web sitem nasıl görünmeli?” sorusu artık sadece estetikle ilgili değil; [otel web tasarım trendleri](https://dgtlface.com/tr/creative/ui-ux-tasarim) tarafında kullanıcı davranışı hızla değişti. Genç kitle ve mobile-first kullanıcılar, dikey video ve sosyal içerik formatlarına alıştı. Resort otellerde (Antalya, Belek, Side, Kemer, Bodrum) karar süreci hâlâ “görsel kanıt + güven + hız” üçlüsüne dayanıyor; ama bu kanıt artık çoğu zaman dikey video blokları, social feed ve mikro etkileşimlerle taşınıyor. Öte yandan trendleri “her yere eklemek” CWV’yi bozabilir; ağır video ve animasyonlar ters etki yaratır. Bu rehber, trendleri uygulanabilir pattern’lere çevirir ve “ne zaman işe yarar?” diye filtreler.",
     "quickSummary": [
       "1. Social-first homepage: Ana sayfada dikey video ve sosyal içerik bloklarıyla hızlı “kanıt” sunma.",
       "2. Minimal rezervasyon akışı: Daha az adım, daha net CTA ve daha erken fiyat/iptal özeti.",
@@ -39335,55 +39411,67 @@
     "ctaPrimary": {
       "label": "2025–2026 Otel UX Trend Analizi Talep Et",
       "text": "Sitenize uygun trendleri seçip (video, dark mode, micro interaction, AI kartları) CWV bozmadan uygulamak için hızlı bir trend analizi alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "2025–2026 Otel UX Trend Analizi Talep Et",
       "text": "Sitenize uygun trendleri seçip performansı bozmadan uygulamak isteyen oteller için kısa bir trend yol haritası alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "Otel Web Tasarım Trend Checklist’ini İndir",
       "text": "Trendleri otel sitenize uyarlamak için hangi pattern’i nerede kullanacağınızı 10 dakikada planlamanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#trend-checklist"
+      "href": "/tr/creative/ui-ux-tasarim#trend-checklist"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "AI Kişiselleştirme Otel UX",
+      "href": "/tr/creative/blog/ai-kisisellestirme-otel-ux"
+    },
+    {
+      "label": "AR / VR / 3D Otel Deneyimi UX",
+      "href": "/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux"
+    },
+    {
+      "label": "Gen Z Otel UX",
+      "href": "/tr/creative/blog/gen-z-otel-ux-sosyal-nesil"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Reels Video",
-      "href": "/smm/reels-video"
+      "href": "/tr/smm/reels-video"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
-    },
-    {
-      "label": "Otel Sosyal Medya",
-      "href": "/otel/sosyal-medya"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "title": "AI Otel UX: Kişiselleştirme, Öneri Kartları, Chatbot",
+      "href": "/tr/creative/blog/ai-kisisellestirme-otel-ux"
     },
     {
-      "title": "Reels Video",
-      "href": "/smm/reels-video"
+      "title": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
+      "href": "/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux"
     },
     {
-      "title": "Otel Sosyal Medya",
-      "href": "/otel/sosyal-medya"
+      "title": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
+      "href": "/tr/creative/blog/gen-z-otel-ux-sosyal-nesil"
     }
   ],
   "sections": [
@@ -39405,7 +39493,7 @@
         },
         {
           "type": "p",
-          "text": "Kısa cevap: Social-first homepage (dikey video + feed), minimal rezervasyon akışı, micro interaction, premium dark/light tema, AI destekli öneri kartları ve daha sade navigasyon."
+          "text": "Kısa cevap: Social-first homepage (dikey video + feed), minimal rezervasyon akışı, micro interaction, premium dark/light tema, AI destekli öneri kartları ve daha sade navigasyon. Bu [2025–2026 otel UX trendleri](https://dgtlface.com/tr/creative-ve-tasarim) seti, yalnızca görsel yenilik değil; hız, kişiselleştirme, sosyal entegrasyon ve rezervasyon kolaylığını birlikte düşünmeyi gerektirir."
         },
         {
           "type": "h3",
@@ -39443,7 +39531,7 @@
           "items": [
             "Trendleri 2–3 “çekirdek pattern”e indir: social-first blok + minimal funnel + micro interaction.",
             "Heavy video/animasyonu istisna yap; performans bütçesi koy.",
-            "Omnichannel bağ için iç linkler: /creative/video-produksiyon, /smm/reels-video, /otel/sosyal-medya"
+            "Trendlerin kampanya ve landing etkisini [otel dijital pazarlamada UX trendleri](https://dgtlface.com/tr/otel-dijital-pazarlama) perspektifiyle birlikte planlayın."
           ]
         }
       ]
@@ -39458,7 +39546,7 @@
         },
         {
           "type": "p",
-          "text": "2025–2026’da otel sitelerinin “ilk ekranı”, daha çok sosyal platformların ritmine yaklaşıyor: kısa, hızlı, kanıt odaklı. Bu trend özellikle genç kitle ve mobile-first davranışta belirgin: kullanıcı “okumadan” görmek istiyor. Ancak otelde kritik fark var: video “wow” etkisi verirken, rezervasyon yolunu saklamamalı."
+          "text": "2025–2026’da otel sitelerinin “ilk ekranı”, daha çok sosyal platformların ritmine yaklaşıyor: kısa, hızlı, kanıt odaklı. Bu trend özellikle genç kitle ve [sosyal odaklı otel UX’i](https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil) davranışında belirgin: kullanıcı “okumadan” görmek istiyor. Ancak otelde kritik fark var: video “wow” etkisi verirken, rezervasyon yolunu saklamamalı."
         },
         {
           "type": "h3",
@@ -39495,6 +39583,10 @@
           "text": "GEO örnek: Belek’te aile resort: ilk video aquapark/çocuk alanı olabilir; Bodrum’da beach bar/gün batımı; Antalya city’de konum/roof."
         },
         {
+          "type": "p",
+          "text": "Daha immersif keşif kurguları isteyen markalar için [AR / VR / 3D otel deneyimi](https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux) gibi katmanlar, bu ilk izlenimi sadece izlenen değil etkileşime girilen bir deneyime dönüştürebilir."
+        },
+        {
           "type": "h3",
           "text": "Social feed gömülü bloklar (Instagram/TikTok)"
         },
@@ -39512,7 +39604,7 @@
         },
         {
           "type": "p",
-          "text": "Çözüm: feed’i “aşağı blok” olarak konumlandır, lazy-load et ve web’deki mesajla aynı “hikâye”yi taşı."
+          "text": "Çözüm: feed’i “aşağı blok” olarak konumlandır, lazy-load et ve web’deki mesajla aynı “hikâye”yi taşı. Bu ritmi [dikey video odaklı otel UX’i](https://dgtlface.com/tr/smm/reels-video) mantığıyla ele almak, sosyal tüketim alışkanlıklarını web tarafında daha doğru yorumlamayı sağlar."
         },
         {
           "type": "callout",
@@ -39532,7 +39624,7 @@
           "items": [
             "Video bloklarını “kanıt” için kullan; “rezervasyon yolunu” gizleme.",
             "Feed embed’i zorunlu değil; önce native grid + seçili içerik düşün.",
-            "Video üretimini operasyonla bağla: /creative/video-produksiyon"
+            "Hero, oda ve deneyim videolarını [video odaklı otel web anlatımı](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımıyla planlayın."
           ]
         },
         {
@@ -39728,7 +39820,7 @@
           "variant": "secondary",
           "label": "Otel Web Tasarım Trend Checklist’ini İndir",
           "text": "Trendleri otel sitenize uyarlamak için hangi pattern’i nerede kullanacağınızı 10 dakikada planlamanızı sağlar.",
-          "href": "/creative/ui-ux-tasarim#trend-checklist"
+          "href": "/tr/creative/ui-ux-tasarim#trend-checklist"
         }
       ]
     },
@@ -39738,7 +39830,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "AI Personalization trendi, otelde “kullanıcı sinyali” yakalanabiliyorsa değer üretir: destinasyon, tarih aralığı, segment (aile/çift), geçmiş davranış gibi. Ancak AI alanı “göz boyama” olarak eklenirse, hem güven hem performans zarar görür. İyi yaklaşım: AI’yi küçük, net “öneri kartları” olarak sunmak."
+          "text": "[AI destekli otel UI fikirleri](https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux) yaklaşımı, otelde “kullanıcı sinyali” yakalanabiliyorsa değer üretir: destinasyon, tarih aralığı, segment (aile/çift), geçmiş davranış gibi. Ancak AI alanı “göz boyama” olarak eklenirse, hem güven hem performans zarar görür. İyi yaklaşım: AI’yi küçük, net “öneri kartları” olarak sunmak."
         },
         {
           "type": "h3",
@@ -39785,7 +39877,7 @@
           "items": [
             "AI kartlarını “ekranın alt yarısında” başlat; kritik içeriği geciktirme.",
             "“Öneri”yi 3 kartla sınırla; sonsuz carousel yapma.",
-            "Otel dijital pazarlama ile bağla: /otel-dijital-pazarlama"
+            "Kişiselleştirilmiş teklif ve dinamik içerikleri [kampanya ve landing akışlarında kişiselleştirme](https://dgtlface.com/tr/otel-dijital-pazarlama) yaklaşımıyla kampanya ve landing akışlarına bağlayın."
           ]
         }
       ]
@@ -39858,7 +39950,11 @@
           "variant": "primary",
           "label": "2025–2026 Otel UX Trend Analizi Talep Et",
           "text": "Trendleri sitenize uygun pattern’lere çevirip (video, dark mode, AI kartları) performansı bozmadan uygulamak için analiz alın.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "Bu trendleri markanıza ve rezervasyon akışınıza doğru oturtmak istiyorsanız, [UI & UX Tasarım hizmetiyle 2025–2026 otel web deneyiminizi trendlerle uyumlu hâle getirin](https://dgtlface.com/tr/creative/ui-ux-tasarim). Süreç, kapsam ve uygulama detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     },
@@ -39955,6 +40051,12 @@
         "table-oncesi-sonrasi-kpi — Öncesi/Sonrası KPI tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro paragrafında /tr/creative/ui-ux-tasarim adresine bağlandı",
+        "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+        "Sibling linkler: AI kişiselleştirme, AR/VR/3D ve Gen Z UX doğru trend bağlamlarında yerleştirildi",
+        "Cross-silo linkler: Video Prodüksiyon, Reels Video ve Otel Dijital Pazarlama doğal geçişlerle eklendi",
+        "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç bölümünde 1 kez kullanıldı",
         "Canonical kontrolü (parametreli sayfalar dahil)",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "TR/EN hreflang karşılıklılık kontrolü",
@@ -39971,8 +40073,8 @@
         "AI öneri kartları kritik render’ı geciktirmiyor",
         "CWV hedefleri LCP/CLS/INP bazında tanımlandı",
         "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
-        "Primary CTA hedefi: /creative/ui-ux-tasarim",
-        "Secondary CTA hedefi: /creative/ui-ux-tasarim#trend-checklist"
+        "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /tr/creative/ui-ux-tasarim#trend-checklist"
       ]
     }
   }
@@ -40028,7 +40130,7 @@
   },
   "h1": {
     "title": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
-    "intro": "Otel web sitesinde AI, “her şey otomatik olsun” demek değildir. Doğru yerde kullanıldığında misafirin karar yükünü azaltır (hangi oda/paket?), doğru zamanda destek verir (SSS ve yönlendirme) ve geliri artıracak öneriler sunar (upgrade, ekstra gece, spa). Yanlış yerde kullanıldığında ise “spam” hissi yaratır, güveni zedeler ve performansı (CWV) bozar.",
+    "intro": "Otel web sitesinde [AI destekli otel UX’i](https://dgtlface.com/tr/creative/ui-ux-tasarim), “her şey otomatik olsun” demek değildir. Doğru yerde kullanıldığında misafirin karar yükünü azaltır (hangi oda/paket?), doğru zamanda destek verir (SSS ve yönlendirme) ve geliri artıracak öneriler sunar (upgrade, ekstra gece, spa). Yanlış yerde kullanıldığında ise “spam” hissi yaratır, güveni zedeler ve performansı (CWV) bozar.",
     "quickSummary": [
       "1. Kişiselleştirmeyi sıralama, öneri ve yönlendirme gibi net kullanım alanlarıyla sınırlayın.",
       "2. Öneri kartlarını 3–4 net seçenekle sınırlandırın ve kullanıcı kontrolü sunun.",
@@ -40041,51 +40143,67 @@
     "ctaPrimary": {
       "label": "AI Kişiselleştirme & Chatbot UX Analizi Talep Et",
       "text": "Otel sitenizde öneri kartları ve chatbot akışını KVKK ve performans risklerini yöneterek tasarlamak için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "AI Kişiselleştirme & Chatbot UX Analizi Talep Et",
       "text": "Öneri kartları ve chatbot’u spam algısı yaratmadan, KVKK ve performans riskini yöneterek devreye alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "AI Öneri Kartları & Chatbot Akış Şablonunu İndir",
       "text": "Öneri kartı yerleşimleri ve chatbot akışını hazır şablonla kurgulayıp hızlıca test etmenizi sağlar.",
-      "href": "/creative/ui-ux-tasarim#ai-template"
+      "href": "/tr/creative/ui-ux-tasarim#ai-template"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     {
-      "label": "PMS & OTA Yönetimi",
-      "href": "/pms-ota-yonetimi"
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Öncesi / Sonrası İletişim UX",
+      "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    },
+    {
+      "label": "Voice Search & Chatbot Otel UX",
+      "href": "/tr/creative/blog/voice-search-chatbot-otel-ux"
+    },
+    {
+      "label": "2025–2026 Otel UI/UX Trendleri",
+      "href": "/tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
+    },
+    {
+      "label": "PMS / OTA Yönetimi",
+      "href": "/tr/pms-ota-yonetimi"
     },
     {
       "label": "Çağrı Merkezi Hizmetleri",
-      "href": "/cagri-merkezi-hizmetleri"
+      "href": "/tr/cagri-merkezi-hizmetleri"
     },
     {
-      "label": "Satış ve Dönüşüm Raporlama",
-      "href": "/raporlama/satis-donusum"
-    },
-    {
-      "label": "KVKK Uyum Hizmeti",
-      "href": "/yazilim/kvkk-uyum-hizmeti"
+      "label": "Satış Dönüşüm",
+      "href": "/tr/raporlama/satis-donusum"
     }
   ],
   "relatedPosts": [
     {
-      "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
-      "href": "/creative/blog/otel-ui-ux-trendleri-2025-2026"
+      "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
+      "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
     },
     {
-      "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
-      "href": "/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+      "title": "Sesli Arama, Chatbot ve Otel UX’i: Konuşarak Rezervasyon Dönemi",
+      "href": "/tr/creative/blog/voice-search-chatbot-otel-ux"
+    },
+    {
+      "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
+      "href": "/tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
     }
   ],
   "sections": [
@@ -40111,11 +40229,11 @@
         },
         {
           "type": "p",
-          "text": "Kısa cevap: Evet, ama sadece doğru kurguyla: öneri kartlarını 3–4 net öneriyle sınırlayın, chatbot’u SSS→rezervasyon başlangıcı→insana devir akışıyla tasarlayın, KVKK/şeffaflık ve performans bütçesini en baştan koyun."
+          "text": "Kısa cevap: Evet, ama sadece doğru kurguyla: öneri kartlarını 3–4 net öneriyle sınırlayın, chatbot’u SSS→rezervasyon başlangıcı→insana devir akışıyla tasarlayın, KVKK/şeffaflık ve performans bütçesini en baştan koyun. Bu [kişiselleştirilmiş oda önerileri](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı, yaratıcı fikir ile rezervasyon kolaylığını aynı sistemde buluşturur."
         },
         {
           "type": "p",
-          "text": "Otel kararları “çok seçenekli”dir: oda tipi, manzara, board, iptal, tarih, aktivite… Kullanıcı mobile-first davranışla daha hızlı karar vermek ister. Kişiselleştirme, doğru sinyali yakalayıp doğru öneriyi sunarak karar süresini kısaltır. Özellikle tekrar misafir oranı yüksek destinasyonlarda (Antalya/Belek/Side/Bodrum) geçmiş konaklama sinyali, öneriyi daha anlamlı yapar."
+          "text": "Otel kararları “çok seçenekli”dir: oda tipi, manzara, board, iptal, tarih, aktivite… Kullanıcı mobile-first davranışla daha hızlı karar vermek ister. Kişiselleştirme, doğru sinyali yakalayıp doğru öneriyi sunarak karar süresini kısaltır. Özellikle tekrar misafir oranı yüksek destinasyonlarda (Antalya/Belek/Side/Bodrum) geçmiş konaklama sinyali, öneriyi daha anlamlı yapar. Bu mantık, e-posta, WhatsApp, web ve destek katmanında [öncesi–sırası–sonrası AI iletişim akışı](https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux) olarak devam etmelidir."
         },
         {
           "type": "h3",
@@ -40132,7 +40250,7 @@
         },
         {
           "type": "p",
-          "text": "Key Data Point (yönlü): AI destekli öneri kartları doğru kurgulandığında cross-sell/upsell fırsatlarını ve sepet değerini artırabilir; kötü kurgulandığında spam algısı yaratıp etkileşimi düşürebilir."
+          "text": "Key Data Point (yönlü): AI destekli öneri kartları doğru kurgulandığında cross-sell/upsell fırsatlarını ve sepet değerini artırabilir; kötü kurgulandığında spam algısı yaratıp etkileşimi düşürebilir. Bu yapı, [2025–2026 AI destekli otel UX trendleri](https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026) içinde öne çıkan en pratik pattern’lerden biridir."
         },
         {
           "type": "callout",
@@ -40152,7 +40270,7 @@
           "items": [
             "Kişiselleştirmeyi “az ama doğru” prensibiyle başlatın.",
             "Öneri kartlarını karar anına yerleştirin (oda/paket seçimi).",
-            "Veri–deneyim–gelir bağını raporlama ile kurun: /raporlama/satis-donusum"
+            "Veri–deneyim–gelir bağını [satış dönüşüm odaklı AI UX analizi](https://dgtlface.com/tr/raporlama/satis-donusum) ile kurun."
           ]
         }
       ]
@@ -40204,7 +40322,7 @@
           "items": [
             "İlk sürümde 1 sayfada 1 öneri alanı ile başlayın (oda sayfası).",
             "Kartları “yardımcı” yapın; sayfayı ele geçirmesin.",
-            "Entegrasyon için PMS/OTA yönetimiyle bağlayın: /pms-ota-yonetimi"
+            "Entegrasyon planını [PMS verisiyle kişiselleştirme](https://dgtlface.com/tr/pms-ota-yonetimi) mantığıyla kurgulayın."
           ]
         }
       ]
@@ -40283,7 +40401,7 @@
         },
         {
           "type": "p",
-          "text": "Chatbot’ların otelde en iyi çalıştığı yerler:"
+          "text": "[otel chatbot deneyimi](https://dgtlface.com/tr/creative/blog/voice-search-chatbot-otel-ux) yaklaşımında chatbot’ların otelde en iyi çalıştığı yerler:"
         },
         {
           "type": "list",
@@ -40347,7 +40465,7 @@
           "items": [
             "Botu “SSS ve yönlendirme” ile başlatın; tüm rezervasyonu botla yaptırmaya çalışmayın.",
             "“İnsana devir”i bir butonla görünür tutun.",
-            "Operasyonel entegrasyon için: /cagri-merkezi-hizmetleri"
+            "Botun cevaplayamadığı durumlar için [chatbot’tan çağrı merkezine geçiş](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) akışını görünür tutun."
           ]
         }
       ]
@@ -40358,7 +40476,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "AI önerileri “veri” ile anlam kazanır. PMS/CRM entegrasyonu yoksa öneriler yüzeyde kalır. Ancak entegrasyon, veri güveni ve izin yönetimiyle birlikte düşünülmelidir."
+          "text": "AI önerileri “veri” ile anlam kazanır. [rezervasyon verisiyle kişiselleştirme](https://dgtlface.com/tr/pms-ota-yonetimi) kurgusu yoksa öneriler yüzeyde kalır. Ancak entegrasyon, veri güveni ve izin yönetimiyle birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -40404,7 +40522,7 @@
           "items": [
             "“Tek kaynak gerçek” kuralı koyun: segment/izin bilgisi CRM’de doğrulansın.",
             "AI önerilerini “yardımcı” seviyede tutun; aşırı kişisel çıkarımlardan kaçının.",
-            "KVKK uyum sürecine bağlayın: /yazilim/kvkk-uyum-hizmeti"
+            "İzin ve veri kullanım mantığını şeffaf microcopy ile kullanıcıya net anlatın."
           ]
         }
       ]
@@ -40468,7 +40586,7 @@
           "variant": "secondary",
           "label": "AI Öneri Kartları & Chatbot Akış Şablonunu İndir",
           "text": "Öneri kartı yerleşimleri ve chatbot akışını hazır şablonla kurgulayıp hızlıca test etmenizi sağlar.",
-          "href": "/creative/ui-ux-tasarim#ai-template"
+          "href": "/tr/creative/ui-ux-tasarim#ai-template"
         }
       ]
     },
@@ -40534,7 +40652,11 @@
           "variant": "primary",
           "label": "AI Kişiselleştirme & Chatbot UX Analizi Talep Et",
           "text": "Öneri kartları ve chatbot’u spam algısı yaratmadan, KVKK ve performans riskini yöneterek devreye alın.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "Bu sistemi markanıza uygun, kontrollü ve ölçülebilir biçimde kurmak istiyorsanız, [UI & UX Tasarım hizmetiyle AI destekli otel deneyiminizi veri-güven dengesiyle kurgulayın](https://dgtlface.com/tr/creative/ui-ux-tasarim). Süreç, kapsam ve uygulama detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     },
@@ -40636,6 +40758,12 @@
         "table-ai-bileseni-deger-risk-kontrol — AI bileşeni → değer → risk → kontrol tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro paragrafında /tr/creative/ui-ux-tasarim adresine bağlandı",
+        "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+        "Sibling linkler: öncesi/sonrası iletişim, voice search/chatbot ve 2025–2026 trendleri doğru bağlamlarda yerleştirildi",
+        "Cross-silo linkler: PMS / OTA Yönetimi, Çağrı Merkezi Hizmetleri ve Satış Dönüşüm doğal geçişlerle eklendi",
+        "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç bölümünde 1 kez kullanıldı",
         "Canonical kontrolü (parametreli sayfalar dahil)",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "TR/EN hreflang karşılıklılık kontrolü",
@@ -40655,8 +40783,8 @@
         "Kart ve chatbot bileşenleri lazy-load veya sayfa bazlı script yönetimiyle yükleniyor",
         "CWV etkisi LCP/CLS/INP bazında ölçülüyor",
         "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
-        "Primary CTA hedefi: /creative/ui-ux-tasarim",
-        "Secondary CTA hedefi: /creative/ui-ux-tasarim#ai-template"
+        "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /tr/creative/ui-ux-tasarim#ai-template"
       ]
     }
   }
@@ -40712,7 +40840,7 @@
   },
   "h1": {
     "title": "Sesli Arama, Chatbot ve Otel UX’i: Konuşarak Rezervasyon Dönemi",
-    "intro": "“Google’a otel sorarken nasıl konuşuyoruz?” sorusu, otel siteleri için artık tasarım sorusu kadar içerik ve operasyon sorusu da. Kullanıcı; yazı yazmaktan çok konuşma dilinde sorular soruyor: “yakınımdaki oteller”, “Antalya all inclusive hotel”, “Belek’te aile oteli var mı?”, “iptal ücretsiz mi?”… Bu sorulara web’de net cevap bulamazsa ya OTA’ya gider ya da çağrı merkezini arar. İyi bir otel UX’i; voice search, chatbot ve call center’ı “aynı misafir dilinde” birleştirir.",
+    "intro": "“Google’a otel sorarken nasıl konuşuyoruz?” sorusu, [oteller için sesli arama optimizasyonu](https://dgtlface.com/tr/creative/ui-ux-tasarim) açısından artık tasarım sorusu kadar içerik ve operasyon sorusu da. Kullanıcı; yazı yazmaktan çok konuşma dilinde sorular soruyor: “yakınımdaki oteller”, “Antalya all inclusive hotel”, “Belek’te aile oteli var mı?”, “iptal ücretsiz mi?”… Bu sorulara web’de net cevap bulamazsa ya OTA’ya gider ya da çağrı merkezini arar. İyi bir otel UX’i; voice search, chatbot ve call center’ı “aynı misafir dilinde” birleştirir.",
     "quickSummary": [
       "1. İlk 20 sesli sorguyu çıkarın ve soru formatlı başlıklara dönüştürün.",
       "2. Her sorunun altında 40–60 kelimelik kısa ve net cevap blokları kullanın.",
@@ -40728,55 +40856,67 @@
     "ctaPrimary": {
       "label": "Voice Search & Chatbot UX Analizi Talep Et",
       "text": "Sesli arama sorgularına uygun içerik ve bot akışı tasarlayıp call center devrini doğru kurgulamak için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Voice Search & Chatbot UX Analizi Talep Et",
       "text": "Sesli arama sorgularına uygun FAQ yapısı ve bot akışıyla cevap süresini kısaltıp rezervasyon yolunu güçlendirin.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "FAQ & Chatbot Soru Seti Örneğini İndir",
       "text": "TR/EN hazır soru–cevap seti ve bot kısayol akışıyla chatbot’unuzu hızlıca devreye almanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#faq-chatbot-set"
+      "href": "/tr/creative/ui-ux-tasarim#faq-chatbot-set"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "AI Kişiselleştirme Otel UX",
+      "href": "/tr/creative/blog/ai-kisisellestirme-otel-ux"
+    },
+    {
+      "label": "Otel Öncesi / Sonrası İletişim UX",
+      "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    },
+    {
+      "label": "Çok Dilli Otel UX",
+      "href": "/tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru"
     },
     {
       "label": "Çağrı Merkezi Hizmetleri",
-      "href": "/cagri-merkezi-hizmetleri"
+      "href": "/tr/cagri-merkezi-hizmetleri"
     },
     {
       "label": "Mesaj Yönetimi",
-      "href": "/cagri-merkezi/mesaj-yonetimi"
-    },
-    {
-      "label": "KVKK & Veri Güvenliği Raporlama",
-      "href": "/raporlama/kvkk-veri-guvenligi"
+      "href": "/tr/cagri-merkezi/mesaj-yonetimi"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
   "relatedPosts": [
     {
       "title": "Yapay Zeka Destekli Otel UX’i: Kişiselleştirme, Öneri Motorları ve Chatbot’lar",
-      "href": "/creative/blog/ai-kisisellestirme-otel-ux"
-    },
-    {
-      "title": "2025–2026 Otel Web Tasarım & UX Trendleri: Neler Değişiyor?",
-      "href": "/creative/blog/otel-ui-ux-trendleri-2025-2026"
+      "href": "/tr/creative/blog/ai-kisisellestirme-otel-ux"
     },
     {
       "title": "Öncesi–Sırası–Sonrası: E-posta, WhatsApp ve Web ile Uçtan Uca Misafir UX’i",
-      "href": "/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+      "href": "/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux"
+    },
+    {
+      "title": "Çok Dilli Otel Web Sitelerinde UX: TR–EN–DE–RU Kullanıcı Deneyimi",
+      "href": "/tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru"
     }
   ],
   "sections": [
@@ -40803,7 +40943,7 @@
         },
         {
           "type": "p",
-          "text": "Bu tür sorgular, sayfanızda soru formatlı başlıklar ve 1–2 cümlelik net cevap blokları gerektirir; chatbot akışında da aynı cümleler “kısayol soru” olarak çalışır."
+          "text": "Bu tür sorgular, sayfanızda soru formatlı başlıklar ve 1–2 cümlelik net cevap blokları gerektirir; chatbot akışında da aynı cümleler “kısayol soru” olarak çalışır. Bu yapı, [konuşma tabanlı misafir deneyimi](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımının en uygulanabilir örneklerinden biridir."
         },
         {
           "type": "p",
@@ -40881,7 +41021,7 @@
           "items": [
             "İlk 20 sesli sorguyu çıkarın (yakınlık/destinasyon/iptal/transfer).",
             "Her sorgu için 1 soru başlığı + 1 kısa cevap bloğu yazın.",
-            "Yerel SEO ve talep üretimi bağını kurun: /otel-dijital-pazarlama"
+            "Sesli arama görünürlüğü, landing page ve kampanya niyeti bağını [otel dijital pazarlamada sesli arama](https://dgtlface.com/tr/otel-dijital-pazarlama) yaklaşımıyla birlikte düşünün."
           ]
         }
       ]
@@ -40941,7 +41081,7 @@
           "items": [
             "İçeriği “kısa cevap + detay blok” şeklinde yeniden düzenleyin.",
             "Bot kısayol sorularını FAQ’den türetin (tek kaynak gerçek).",
-            "Mesaj tutarlılığını call center ile birlikte ele alın: /cagri-merkezi-hizmetleri"
+            "Mesaj tutarlılığını, gerektiğinde [chatbot’tan çağrı merkezine geçiş](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) akışıyla birlikte ele alın."
           ]
         }
       ]
@@ -40952,7 +41092,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Konuşma tabanlı arayüzlerde hedef, “her şeyi bot yapsın” değil; hızlı yanıt + doğru yönlendirme + gerektiğinde insana devir olmalıdır. Otelde botun en güçlü olduğu alanlar SSS ve basit niyet toplama; en riskli olduğu alanlar ise istisnalar (grup rezervasyon, özel istekler, ödeme sorunları)."
+          "text": "Konuşma tabanlı arayüzlerde hedef, “her şeyi bot yapsın” değil; hızlı yanıt + doğru yönlendirme + gerektiğinde insana devir olmalıdır. [otel chatbot deneyimi](https://dgtlface.com/tr/creative/blog/ai-kisisellestirme-otel-ux) kurgusunda botun en güçlü olduğu alanlar SSS ve basit niyet toplama; en riskli olduğu alanlar ise istisnalardır (grup rezervasyon, özel istekler, ödeme sorunları)."
         },
         {
           "type": "h3",
@@ -40997,6 +41137,10 @@
           "text": "Voicebot: “Tamam. Ayrıca çocuk kulübü ve aquapark isteyen misafirler için öneri kartı ekledim.”"
         },
         {
+          "type": "p",
+          "text": "Bu konuşmalar yalnızca rezervasyon anında değil; rezervasyon öncesi soru, konaklama sırası destek ve çıkış sonrası hatırlatma için de [öncesi–sırası–sonrası chatbot temasları](https://dgtlface.com/tr/creative/blog/otel-oncesi-sonrasi-iletisim-ux) olarak tasarlanmalıdır."
+        },
+        {
           "type": "h3",
           "text": "İyi/kötü bot cevabı (hızlı karşılaştırma)"
         },
@@ -41026,7 +41170,7 @@
           "items": [
             "Botu 10 çekirdek konu ile başlatın (iptal, transfer, check-in/out…).",
             "“İnsana devir”i her ekranda erişilebilir tutun.",
-            "Operasyonel mesaj yönetimi için: /cagri-merkezi/mesaj-yonetimi"
+            "Bot, WhatsApp ve web formu trafiğini [WhatsApp ve chatbot mesaj yönetimi](https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi) akışında birleştirin."
           ]
         }
       ]
@@ -41066,6 +41210,10 @@
           "text": "PAA soruları genelde “nasıl/kaç/var mı” formundadır. Bu soruların içerikte başlık olarak yer alması, hem sesli arama hem de SGE/AI sonuçları için avantaj sağlar."
         },
         {
+          "type": "p",
+          "text": "TR–EN–DE–RU pazarlarda soru kalıpları ve bot cevapları değişeceği için, çekirdek yapı mutlaka [çok dilli chatbot deneyimi](https://dgtlface.com/tr/creative/blog/cok-dilli-otel-ux-tr-en-de-ru) mantığıyla ele alınmalıdır."
+        },
+        {
           "type": "callout",
           "variant": "action",
           "title": "☑ Mini Check (FAQ)",
@@ -41083,7 +41231,7 @@
           "items": [
             "FAQ’yi “tek kaynak gerçek” yapın; web + bot aynı metni kullansın.",
             "Her cevapta bir sonraki adımı önerin (tarih seç, detay gör, destek).",
-            "Veri/uyum bağlantısını unutmayın: /raporlama/kvkk-veri-guvenligi"
+            "Her cevapta bir sonraki adımı netleştirin; gerekiyorsa canlı destek veya mesaj akışına kolay geçiş verin."
           ]
         },
         {
@@ -41091,7 +41239,7 @@
           "variant": "secondary",
           "label": "FAQ & Chatbot Soru Seti Örneğini İndir",
           "text": "TR/EN hazır soru–cevap seti ve bot kısayol akışıyla chatbot’unuzu hızlıca devreye almanızı sağlar.",
-          "href": "/creative/ui-ux-tasarim#faq-chatbot-set"
+          "href": "/tr/creative/ui-ux-tasarim#faq-chatbot-set"
         }
       ]
     },
@@ -41156,7 +41304,7 @@
           "items": [
             "Bot→operatör devir kriterlerini yazılı hale getirin (policy).",
             "“Özet transferi” ile tekrar soru sorma yükünü azaltın.",
-            "Çağrı merkezi süreçleriyle birlikte tasarlayın: /cagri-merkezi-hizmetleri"
+            "Devir kurgusunu [insan destekli kanala sorunsuz devir](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) mantığıyla baştan planlayın."
           ]
         }
       ]
@@ -41219,7 +41367,7 @@
           "items": [
             "Bot/veri politikasını şeffaf microcopy ile görünür kılın.",
             "Bot’u performans bütçesiyle yönetin (özellikle mobil).",
-            "Uyum ve operasyon grafını güçlendirin: /raporlama/kvkk-veri-guvenligi"
+            "KVKK ve performans notlarını sade tutun; kullanıcıyı gereksiz teknik metinle yormayın."
           ]
         }
       ]
@@ -41261,7 +41409,11 @@
           "variant": "primary",
           "label": "Voice Search & Chatbot UX Analizi Talep Et",
           "text": "Sesli arama sorgularına uygun FAQ yapısı ve bot akışıyla cevap süresini kısaltıp rezervasyon yolunu güçlendirin.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapıyı otelinizin içerik, destek ve rezervasyon akışına uyarlamak istiyorsanız, [UI & UX Tasarım hizmetiyle sesli arama ve chatbot odaklı otel rezervasyon deneyimi kurun](https://dgtlface.com/tr/creative/ui-ux-tasarim). Süreç, kapsam ve uygulama detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     },
@@ -41375,6 +41527,12 @@
         "table-voice-search-sorgu-ornekleri — Voice search sorgu örnekleri tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro paragrafında /tr/creative/ui-ux-tasarim adresine bağlandı",
+        "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+        "Sibling linkler: AI kişiselleştirme, öncesi/sonrası iletişim ve çok dilli UX doğru bağlamlarda yerleştirildi",
+        "Cross-silo linkler: Çağrı Merkezi Hizmetleri, Mesaj Yönetimi ve Otel Dijital Pazarlama doğal geçişlerle eklendi",
+        "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç bölümünde 1 kez kullanıldı",
         "Canonical kontrolü (parametreli sayfalar dahil)",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "TR/EN hreflang karşılıklılık kontrolü",
@@ -41398,8 +41556,8 @@
         "FAQ sayfası ağır görsel ve gereksiz script içermiyor",
         "Bot çözüm oranı, operatöre devir ve rezervasyon başlangıcı ölçülüyor",
         "CTA yoğunluğu kontrolü: Primary 2 kez, Secondary 1 kez",
-        "Primary CTA hedefi: /creative/ui-ux-tasarim",
-        "Secondary CTA hedefi: /creative/ui-ux-tasarim#faq-chatbot-set"
+        "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /tr/creative/ui-ux-tasarim#faq-chatbot-set"
       ]
     }
   }
@@ -41456,7 +41614,7 @@
   },
   "h1": {
     "title": "AR, VR ve 3D Oda Turları ile Otel Deneyimini Web’de Nasıl Gösterirsiniz?",
-    "intro": "Otel web sitesinde en zor iş “hayal kurdurmak”tır: misafir odayı, manzarayı, havuzu ve atmosferi zihninde canlandırmak ister. 3D/360 turlar ve AR/VR deneyimleri bu canlandırmayı hızlandırabilir; özellikle deniz manzaralı oda, spa veya aquapark gibi “karar tetikleyici” alanlarda etkili olabilir. Ama bu teknolojiler yanlış kurgulanırsa (ağır WebGL, kontrolsüz iframe, kötü mobil UI), sayfayı yavaşlatır ve kullanıcıyı kaçırır. Bu rehber, 3D/360 turu doğru yere koyup “isteğe bağlı” ve mobil dostu çalıştırmanın pratik yolunu anlatır.",
+    "intro": "Otel web sitesinde en zor iş “hayal kurdurmak”tır ve bunu [AR VR otel web deneyimi](https://dgtlface.com/tr/creative/ui-ux-tasarim) yaklaşımıyla kurmak gerekir: misafir odayı, manzarayı, havuzu ve atmosferi zihninde canlandırmak ister. 3D/360 turlar ve AR/VR deneyimleri bu canlandırmayı hızlandırabilir; özellikle deniz manzaralı oda, spa veya aquapark gibi “karar tetikleyici” alanlarda etkili olabilir. Ama bu teknolojiler yanlış kurgulanırsa (ağır WebGL, kontrolsüz iframe, kötü mobil UI), sayfayı yavaşlatır ve kullanıcıyı kaçırır. Bu rehber, 3D/360 turu doğru yere koyup “isteğe bağlı” ve mobil dostu çalıştırmanın pratik yolunu anlatır.",
     "quickSummary": [
       "“3d oda turu gerçekten işe yarıyor mu?”",
       "“360 turu nereye koymalıyım?”",
@@ -41465,51 +41623,67 @@
     "ctaPrimary": {
       "label": "3D & AR Oda Turları UX Analizi Talep Et",
       "text": "3D/360 tur yerleşimini, mobil kontrol ipuçlarını ve performans (CWV) risklerini birlikte optimize etmek için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "3D & AR Oda Turları UX Analizi Talep Et",
       "text": "3D/360 turu karar anına yerleştirip mobilde kullanılabilir, hızda güvenli bir deneyime dönüştürmek için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "3D Oda Turu Yerleşim & CTA Şablonunu İndir",
       "text": "3D/360 tur giriş noktası, “Odayı Keşfet” CTA metinleri ve mobil kontrol ipuçlarını hazır şablonla hızlıca kurmanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#3d-tour-template"
+      "href": "/tr/creative/ui-ux-tasarim#3d-tour-template"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Fotoğraf Galeri UX",
+      "href": "/tr/creative/blog/otel-fotograf-galeri-ux"
+    },
+    {
+      "label": "2025–2026 Otel UI/UX Trendleri",
+      "href": "/tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
+    },
+    {
+      "label": "Gen Z Otel UX",
+      "href": "/tr/creative/blog/gen-z-otel-ux-sosyal-nesil"
     },
     {
       "label": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "href": "/tr/creative/video-produksiyon"
     },
     {
       "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "href": "/tr/otel-dijital-pazarlama"
     },
     {
       "label": "Teknik SEO",
-      "href": "/seo/teknik-seo"
+      "href": "/tr/seo/teknik-seo"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Video Prodüksiyon",
-      "href": "/creative/video-produksiyon"
+      "title": "Otel Fotoğraf Galeri UX",
+      "href": "/tr/creative/blog/otel-fotograf-galeri-ux"
     },
     {
-      "title": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "title": "2025–2026 Otel UI/UX Trendleri",
+      "href": "/tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
     },
     {
-      "title": "Teknik SEO",
-      "href": "/seo/teknik-seo"
+      "title": "Gen Z Otel UX",
+      "href": "/tr/creative/blog/gen-z-otel-ux-sosyal-nesil"
     }
   ],
   "sections": [
@@ -41523,7 +41697,7 @@
         },
         {
           "type": "p",
-          "text": "3D/360 tur, otelde “kanıt” üretir: oda gerçekten nasıl, alan hissi ne, manzara ne kadar açık? Bu kanıt, özellikle yüksek fiyatlı oda ve premium paketlerde karar süresini kısaltabilir. AR ise daha niş bir kullanım: “odanın boyutu/konumu” gibi zihinsel boşlukları doldurur; ama cihaz uyumluluğu ve kullanım eşiği nedeniyle kontrollü kurgulanmalıdır."
+          "text": "3D/360 tur, otelde “kanıt” üretir: oda gerçekten nasıl, alan hissi ne, manzara ne kadar açık? Bu kanıt, özellikle yüksek fiyatlı oda ve premium paketlerde karar süresini kısaltabilir. AR ise daha niş bir kullanım: “odanın boyutu/konumu” gibi zihinsel boşlukları doldurur; ama cihaz uyumluluğu ve kullanım eşiği nedeniyle kontrollü kurgulanmalıdır. Bu denge, [sürükleyici rezervasyon deneyimi](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımında görsel etki ile rezervasyon kolaylığını birlikte ele almayı gerektirir."
         },
         {
           "type": "h3",
@@ -41560,7 +41734,7 @@
           "items": [
             "3D/360 turu “en çok satan 1–2 oda tipi” ile başlatın (pilot).",
             "AR/VR’yi “opsiyonel” tutun; herkese zorla açmayın.",
-            "Görsel stratejiyi dijital pazarlamayla bağlayın: https://dgtlface.com/tr/otel-dijital-pazarlama"
+            "Görsel stratejiyi [sürükleyici deneyimlerin pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) bakışıyla planlayın."
           ]
         },
         {
@@ -41661,7 +41835,7 @@
         },
         {
           "type": "p",
-          "text": "Statik galeri her zaman olmalı; 3D tur “opsiyonel” derinleştirme katmanıdır. Kullanıcı 3D’ye girmek istemezse, karar yolunu kaybetmemeli."
+          "text": "Statik galeri her zaman olmalı; 3D tur “opsiyonel” derinleştirme katmanıdır. Kullanıcı 3D’ye girmek istemezse, karar yolunu kaybetmemeli. En sağlıklı kurgu, [3D tur ve fotoğraf galeri deneyimi](https://dgtlface.com/tr/creative/blog/otel-fotograf-galeri-ux) mantığıyla hızlı tarama ile derin keşfi aynı akışta sunmaktır."
         },
         {
           "type": "table",
@@ -41717,7 +41891,7 @@
           "items": [
             "Player’ı UI kit ile uyumlu “çerçeve” içinde sunun (başlık, CTA, çıkış).",
             "Turdan çıkınca “fiyat/iptal” bloğuna geri konumlandırın.",
-            "Video prodüksiyonla birlikte düşünün: https://dgtlface.com/tr/creative/video-produksiyon"
+            "Görsel anlatıyı [video ve 3D tur entegrasyonu](https://dgtlface.com/tr/creative/video-produksiyon) perspektifiyle birlikte kurgulayın."
           ]
         },
         {
@@ -41760,7 +41934,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Mobilde 3D/360 tur başarısı, UI ipuçlarına bağlıdır. Kullanıcı “nasıl döndürürüm?” diye düşünürse, tur etkisini kaybeder."
+          "text": "Mobilde 3D/360 tur başarısı, UI ipuçlarına bağlıdır. Kullanıcı “nasıl döndürürüm?” diye düşünürse, tur etkisini kaybeder. Özellikle [Gen Z için interaktif otel deneyimi](https://dgtlface.com/tr/creative/blog/gen-z-otel-ux-sosyal-nesil) bekleyen kullanıcılar için hızlı öğrenilen hareketler ve net tam ekran davranışı kritik olur."
         },
         {
           "type": "h3",
@@ -41806,7 +41980,7 @@
           "items": [
             "Mobilde “ipucu + kolay çıkış” standardını koyun.",
             "Düşük kalite seçeneğini değerlendirin (kademeli yükleme).",
-            "Mobil performansı teknik SEO ile bağlayın: https://dgtlface.com/tr/seo/teknik-seo"
+            "Mobil performansı içerik ve medya bütçesiyle birlikte test edin."
           ]
         }
       ]
@@ -41870,7 +42044,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "3D/360 içeriklerde en büyük hata: sayfayı açılışta ağırlaştırmak. Doğru yaklaşım: “kullanıcı isterse yükle” ve “placeholder ile hızlı görün”."
+          "text": "3D/360 içeriklerde en büyük hata: sayfayı açılışta ağırlaştırmak. Doğru yaklaşım: “kullanıcı isterse yükle” ve “placeholder ile hızlı görün”. Bu yaklaşım, [2025–2026 sürükleyici otel UX trendleri](https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026) içinde öne çıkan en kritik pratiklerden biridir; çünkü etkileyici deneyim kadar açılış hızı da artık trendin parçasıdır."
         },
         {
           "type": "h3",
@@ -41921,7 +42095,7 @@
           "items": [
             "3D/360’ı “isteğe bağlı” yükle; açılışta yükleme yapma.",
             "Player alanını sabitle; CLS’yi sıfıra yaklaştır.",
-            "Teknik SEO ile birlikte kontrol et: https://dgtlface.com/tr/seo/teknik-seo"
+            "Uygulamayı [teknik SEO uyumlu 3D tur kullanımı](https://dgtlface.com/tr/seo/teknik-seo) mantığıyla kontrol edin."
           ]
         }
       ]
@@ -41975,7 +42149,11 @@
           "variant": "primary",
           "label": "3D & AR Oda Turları UX Analizi Talep Et",
           "text": "3D/360 turu karar anına yerleştirip mobilde kullanılabilir, hızda güvenli bir deneyime dönüştürmek için analiz alın.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapıyı markanıza uygun biçimde kurmak istiyorsanız, [UI & UX Tasarım hizmetiyle AR, VR ve 3D oda turlarını rezervasyon kararına bağlayın](https://dgtlface.com/tr/creative/ui-ux-tasarim). Süreç, kapsam ve uygulama detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     }
@@ -42018,6 +42196,12 @@
         "table-static-vs-3d-tour — Statik görsel vs 3D/360 tur tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro paragrafında /tr/creative/ui-ux-tasarim adresine bağlandı",
+        "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+        "Sibling linkler: fotoğraf galeri UX, 2025–2026 trendleri ve Gen Z UX doğru bağlamlarda yerleştirildi",
+        "Cross-silo linkler: Video Prodüksiyon, Otel Dijital Pazarlama ve Teknik SEO doğal geçişlerle eklendi",
+        "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç bölümünde 1 kez kullanıldı",
         "Canonical kontrolü: /tr/creative/blog/ar-vr-3d-otel-deneyimi-ux",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "Poster/thumbnail görselleri WebP ve responsive boyutlarla optimize edildi",
@@ -42033,7 +42217,9 @@
         "AR kamera izin metni ve cihaz uyumluluğu uyarıları açık",
         "İç linklerde kırık link ve redirect zinciri yok",
         "Schema @graph tek blok (WebSite/WebPage/BlogPosting/BreadcrumbList/FAQPage)",
-        "CWV metrikleri LCP, CLS ve INP kırılımında izleniyor"
+        "CWV metrikleri LCP, CLS ve INP kırılımında izleniyor",
+        "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /tr/creative/ui-ux-tasarim#3d-tour-template"
       ]
     }
   }
@@ -42090,7 +42276,7 @@
   },
   "h1": {
     "title": "Gen Z Misafirler İçin Otel UX’i: Hızlı, Dikey ve Sosyal Nesil",
-    "intro": "“Gen Z misafirler otel seçerken neye bakıyor?” ve “otel sitem gençlere sıkıcı mı geliyor?” soruları artık sadece sosyal medya stratejisi değil; web sitenizin rezervasyon performansı sorusu. Gen Z, karar vermeden önce hızlı “kanıt” ister: dikey video, gerçek misafir içerikleri (UGC), kısa ve net bilgi, tek tıkla rezervasyona giden akış. Uzun metinler ve karmaşık menüler, özellikle mobilde sürtünmeyi artırır.\n\nBu rehberde “Gen Z = sosyal-first” varsayımıyla; Reels/TikTok’tan gelen kullanıcıyı web’de kaybetmeden nasıl karşılayacağınızı, UGC/influencer bloklarını nasıl yerleştireceğinizi ve “tek ekranda rezervasyon” yaklaşımını nasıl kuracağınızı anlatıyoruz.",
+    "intro": "“Gen Z misafirler otel seçerken neye bakıyor?” ve “otel sitem gençlere sıkıcı mı geliyor?” soruları artık sadece sosyal medya stratejisi değil; [Gen Z otel UX’i](https://dgtlface.com/tr/creative/ui-ux-tasarim) açısından web sitenizin rezervasyon performansı sorusu. Gen Z, karar vermeden önce hızlı “kanıt” ister: dikey video, gerçek misafir içerikleri (UGC), kısa ve net bilgi, tek tıkla rezervasyona giden akış. Uzun metinler ve karmaşık menüler, özellikle mobilde sürtünmeyi artırır.\n\nBu rehberde “Gen Z = sosyal-first” varsayımıyla; Reels/TikTok’tan gelen kullanıcıyı web’de kaybetmeden nasıl karşılayacağınızı, UGC/influencer bloklarını nasıl yerleştireceğinizi ve “tek ekranda rezervasyon” yaklaşımını nasıl kuracağınızı anlatıyoruz.",
     "quickSummary": [
       "Dikey video + CTA ilk ekranda",
       "3 kanıt kartı var",
@@ -42101,55 +42287,67 @@
     "ctaPrimary": {
       "label": "Gen Z Misafirler İçin UX Analizi Talep Et",
       "text": "Gen Z’nin mobile-first ve social-first davranışına uygun landing ve rezervasyon akışı kurgulamak için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     }
   },
   "ctaModule": {
     "primary": {
       "label": "Gen Z Misafirler İçin UX Analizi Talep Et",
       "text": "Gen Z’ye uygun social-first landing ve hızlı rezervasyon akışı kurgulamak isteyen oteller için analiz alın.",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     "secondary": {
       "label": "Gen Z Odaklı Otel UX Persona & Funnel Şablonunu İndir",
       "text": "Gen Z persona kartları ve Reels/TikTok→landing→rezervasyon funnel şablonuyla hızlıca plan yapmanızı sağlar.",
-      "href": "/creative/ui-ux-tasarim#genz-template"
+      "href": "/tr/creative/ui-ux-tasarim#genz-template"
     }
   },
   "internalLinks": [
     {
       "label": "UI & UX Tasarımı",
-      "href": "/creative/ui-ux-tasarim"
+      "href": "/tr/creative/ui-ux-tasarim"
+    },
+    {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "2025–2026 Otel UI/UX Trendleri",
+      "href": "/tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
+    },
+    {
+      "label": "AR / VR / 3D Otel Deneyimi",
+      "href": "/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux"
+    },
+    {
+      "label": "Mobile-First Otel UI/UX",
+      "href": "/tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
     },
     {
       "label": "Sosyal Medya Yönetimi",
-      "href": "/smm"
+      "href": "/tr/sosyal-medya-yonetimi"
     },
     {
       "label": "Reels Video",
-      "href": "/smm/reels-video"
+      "href": "/tr/smm/reels-video"
     },
     {
-      "label": "Otel Sosyal Medya Yönetimi",
-      "href": "/otel/sosyal-medya"
-    },
-    {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "label": "Otel Sosyal Medya",
+      "href": "/tr/otel/sosyal-medya"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Reels Video ile Social-First İçerik Stratejisi",
-      "href": "/smm/reels-video"
+      "title": "2025–2026 Otel UI/UX Trendleri",
+      "href": "/tr/creative/blog/otel-ui-ux-trendleri-2025-2026"
     },
     {
-      "title": "Otel Sosyal Medya Yönetimi",
-      "href": "/otel/sosyal-medya"
+      "title": "AR / VR / 3D Otel Deneyimi",
+      "href": "/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux"
     },
     {
-      "title": "Otel Dijital Pazarlama",
-      "href": "/otel-dijital-pazarlama"
+      "title": "Mobile-First Otel UI/UX",
+      "href": "/tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
     }
   ],
   "sections": [
@@ -42163,7 +42361,7 @@
         },
         {
           "type": "p",
-          "text": "Gen Z, “araştırmayı hızlı yapan” ve “kanıtı sosyalden alan” bir kuşak olarak tanımlanır: kısa video, gerçek kullanıcı içeriği, yorum ve sosyal proof karar üzerinde etkilidir. Otel tarafında bu, web’de şunu gerektirir: hızlı açılan sayfa, görsel anlatım, kısa açıklama ve güveni bozmayan şeffaf fiyat/iptal dili."
+          "text": "Gen Z, “araştırmayı hızlı yapan” ve “kanıtı sosyalden alan” bir kuşak olarak tanımlanır: kısa video, gerçek kullanıcı içeriği, yorum ve sosyal proof karar üzerinde etkilidir. Otel tarafında bu, web’de şunu gerektirir: hızlı açılan sayfa, görsel anlatım, kısa açıklama ve güveni bozmayan şeffaf fiyat/iptal dili. Bu yapı, [sosyal odaklı rezervasyon yolculuğu](https://dgtlface.com/tr/creative-ve-tasarim) mantığında sosyal keşiften rezervasyon ekranına kadar bütün deneyimi birlikte düşünmeyi gerektirir."
         },
         {
           "type": "h3",
@@ -42201,7 +42399,7 @@
           "items": [
             "Gen Z için web’i “sosyal içerik devamı” gibi düşünün: kısa, hızlı, kanıtlı.",
             "Deneyim bloklarını (aktivite, beach bar, aquapark) kısayol kartlarıyla sunun.",
-            "Sosyal medya stratejisiyle bağlayın: https://dgtlface.com/tr/smm"
+            "Keşif akışını [sosyal medya odaklı otel keşfi](https://dgtlface.com/tr/sosyal-medya-yonetimi) yaklaşımıyla birlikte planlayın."
           ]
         }
       ]
@@ -42253,7 +42451,7 @@
           "items": [
             "İlk sürümde 3 pattern seçin: dikey video blok + UGC kartları + tek ekran rezervasyon.",
             "Mobil-only landing’i ayrı bir şablon olarak üretin.",
-            "Reels/TikTok funnel’ı için: https://dgtlface.com/tr/smm/reels-video"
+            "Akışı [2025–2026 sosyal odaklı otel UX trendleri](https://dgtlface.com/tr/creative/blog/otel-ui-ux-trendleri-2025-2026) ile birlikte okuyup [Reels ve TikTok içerik akışı](https://dgtlface.com/tr/smm/reels-video) kurgusuna bağlayın."
           ]
         }
       ]
@@ -42264,7 +42462,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Gen Z’nin “tolerans eşiği” düşük: sayfa yavaşsa, kullanıcı “geri” yapar. Bu nedenle minimalizm sadece estetik değil, performans stratejisidir."
+          "text": "Gen Z’nin “tolerans eşiği” düşük: sayfa yavaşsa, kullanıcı “geri” yapar. Bu nedenle minimalizm sadece estetik değil, performans stratejisidir. Özellikle [genç misafirler için mobil öncelikli UX](https://dgtlface.com/tr/creative/blog/otel-mobile-first-ui-ux-rehberi) yaklaşımında hızlı CTA, kısa form ve thumb-friendly rezervasyon akışı birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -42329,7 +42527,7 @@
         },
         {
           "type": "p",
-          "text": "Dikey video, Gen Z için “broşür” değil; gerçek yaşam kanıtıdır. Web’de bu kanıtı verirken iki hedef var: (1) hızlı açılmak, (2) rezervasyona bağlanmak."
+          "text": "Dikey video, Gen Z için “broşür” değil; gerçek yaşam kanıtıdır. Web’de bu kanıtı verirken iki hedef var: (1) hızlı açılmak, (2) rezervasyona bağlanmak. Hızlı, görsel ve keşif odaklı bu beklenti, [Gen Z için interaktif otel deneyimi](https://dgtlface.com/tr/creative/blog/ar-vr-3d-otel-deneyimi-ux) tarafında 3D turlar ve immersive bileşenlerle de güçlenebilir."
         },
         {
           "type": "h3",
@@ -42378,7 +42576,7 @@
           "items": [
             "Embed’i azalt; UGC’yi native kartlarla göster.",
             "Dikey video bloklarını 1–2 ana yerde kullan; her yere yayma.",
-            "Sosyal medya uyumu için: https://dgtlface.com/tr/otel/sosyal-medya"
+            "İçerik tutarlılığını [otel sosyal medya deneyimi](https://dgtlface.com/tr/otel/sosyal-medya) tarafıyla birlikte yönetin."
           ]
         }
       ]
@@ -42517,7 +42715,7 @@
           "items": [
             "Reels kampanyaları için ayrı landing üret; ana siteyi bozma.",
             "Landing’i “tek amaç”la tasarla: rezervasyona giriş.",
-            "Sosyal medya stratejisiyle birlikte kurgula: https://dgtlface.com/tr/smm"
+            "Funnel’ı sosyal içerik operasyonuyla birlikte kurgulayın; kampanya ve topluluk sinyallerini [sosyal içeriklerle otel keşif akışı](https://dgtlface.com/tr/sosyal-medya-yonetimi) yaklaşımıyla eşleyin."
           ]
         }
       ]
@@ -42604,7 +42802,11 @@
           "variant": "primary",
           "label": "Gen Z Misafirler İçin UX Analizi Talep Et",
           "text": "Gen Z’ye uygun social-to-site funnel ve mobil landing şablonlarını otelinize uyarlamak için analiz alın.",
-          "href": "/creative/ui-ux-tasarim"
+          "href": "/tr/creative/ui-ux-tasarim"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapıyı markanıza uygun biçimde kurmak istiyorsanız, [UI & UX Tasarım hizmetiyle Gen Z misafirler için sosyal odaklı rezervasyon deneyimi kurun](https://dgtlface.com/tr/creative/ui-ux-tasarim). Süreç, kapsam ve uygulama detayları için [UI & UX Tasarım hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/ui-ux-tasarim-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     }
@@ -42651,6 +42853,12 @@
         "table-mobile-only-landing-blocks — Mobil-only landing blokları tablosu"
       ],
       "technicalChecklist": [
+        "Parent_URL intro paragrafında /tr/creative/ui-ux-tasarim adresine bağlandı",
+        "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+        "Sibling linkler: 2025–2026 trendleri, AR/VR/3D deneyim ve mobile-first UX doğru bağlamlarda yerleştirildi",
+        "Cross-silo linkler: Sosyal Medya Yönetimi, Reels Video ve Otel Sosyal Medya doğal geçişlerle eklendi",
+        "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç bölümünde 1 kez kullanıldı",
         "Canonical kontrolü: /tr/creative/blog/gen-z-otel-ux-sosyal-nesil",
         "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
         "Primary CTA 2 kez kullanıldı: giriş + kapanış",
@@ -42670,7 +42878,9 @@
         "Reels/TikTok kampanya parametreleri social-to-site funnel raporlamasına aktarılıyor",
         "İç linklerde kırık link ve redirect zinciri yok",
         "Schema @graph tek blok (WebSite/WebPage/BlogPosting/BreadcrumbList/FAQPage)",
-        "CWV metrikleri mobil LCP, CLS ve INP kırılımında izleniyor"
+        "CWV metrikleri mobil LCP, CLS ve INP kırılımında izleniyor",
+        "Primary CTA hedefi: /tr/creative/ui-ux-tasarim",
+        "Secondary CTA hedefi: /tr/creative/ui-ux-tasarim#genz-template"
       ]
     }
   }

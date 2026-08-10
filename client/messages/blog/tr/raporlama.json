@@ -2968,7 +2968,7 @@
     },
     "h1": {
       "title": "Otel Benchmark Analizi Nedir, Nasıl Yapılır? Temel Kavramlar ve Başlangıç Rehberi",
-      "intro": "Otel performansını sadece “geçen yıla göre %X arttık” diye okumak, çoğu zaman eksik bir resim verir. Çünkü aynı dönemde pazar büyümüş olabilir, rakipler agresif fiyat kırmış olabilir ya da talep bölgesel olarak (ör. Antalya–Belek hattında) kaymış olabilir. Benchmark analizi, tam da bu yüzden; otelinizi pazarın içinde konumlandırır ve “iyi gidiyor muyuz?” sorusunu kıyas çerçevesi ile yanıtlar. Bu rehberde benchmark’ın ne olduğunu, hangi KPI’larla çalışıldığını, rakip setinin nasıl seçileceğini ve basit bir rutini nasıl kuracağınızı adım adım anlatacağız.",
+      "intro": "Otel performansını sadece “geçen yıla göre %X arttık” diye okumak, çoğu zaman eksik bir resim verir. Çünkü aynı dönemde pazar büyümüş olabilir, rakipler agresif fiyat kırmış olabilir ya da talep bölgesel olarak (ör. Antalya–Belek hattında) kaymış olabilir. [benchmark analizi](https://dgtlface.com/tr/raporlama/benchmark-analizi), tam da bu yüzden; otelinizi pazarın içinde konumlandırır ve “iyi gidiyor muyuz?” sorusunu kıyas çerçevesi ile yanıtlar. Bu rehberde benchmark’ın ne olduğunu, hangi KPI’larla çalışıldığını, rakip setinin nasıl seçileceğini ve basit bir rutini nasıl kuracağınızı adım adım anlatacağız.",
       "quickSummary": [
         "Benchmark; KPI’ları hem geçmiş dönemle (iç) hem rakip seti/pazarla (dış) kıyaslar.",
         "Hedef, “iyi/kötü” yerine göreli konum ve aksiyon üretmektir.",
@@ -2995,34 +2995,50 @@
     },
     "internalLinks": [
       {
-        "label": "Raporlama hub",
-        "href": "/tr/raporlama"
-      },
-      {
-        "label": "Benchmark hizmet sayfası",
+        "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Satış dönüşüm raporlama",
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "OTA Fiyat Benchmark’ı",
+        "href": "/tr/raporlama/blog/ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma"
+      },
+      {
+        "label": "PMS ve Gelir Benchmark’ı",
+        "href": "/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr"
+      },
+      {
+        "label": "Benchmark Dashboard Tasarımı",
+        "href": "/tr/raporlama/blog/benchmark-dashboard-tasarimi-looker-studio"
+      },
+      {
+        "label": "Satış Dönüşüm",
         "href": "/tr/raporlama/satis-donusum"
       },
       {
-        "label": "PMS–OTA online satış",
+        "label": "PMS / OTA Online Satış",
         "href": "/tr/pms-ota/online-satis"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Satış Dönüşüm Raporlama: Direct Booking Funnel KPI’ları",
-        "href": "/tr/raporlama/satis-donusum"
+        "title": "OTA Fiyat Benchmark’ı ile Rakiplere Göre Konumlanma",
+        "href": "/tr/raporlama/blog/ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma"
       },
       {
-        "title": "PMS–OTA Online Satış: Kanal Performansı ve Gelir Kıyasları",
-        "href": "/tr/pms-ota/online-satis"
+        "title": "PMS Gelir Benchmark: Doluluk, RevPAR, ADR Antalya",
+        "href": "/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr"
+      },
+      {
+        "title": "Looker Studio ile Benchmark Dashboard Tasarımı: Oteller İçin Şablon Yaklaşımı",
+        "href": "/tr/raporlama/blog/benchmark-dashboard-tasarimi-looker-studio"
       }
     ],
     "sections": [
@@ -3036,7 +3052,7 @@
           },
           {
             "type": "p",
-            "text": "Bu çerçeve, KPI’larınızı “tek başına” değil bağlam içinde yorumlamayı sağlar. Örneğin doluluğunuz artmış olabilir; ancak aynı dönemde rakip set doluluğu daha hızlı arttıysa, aslında pay kaybediyor olabilirsiniz. Tam tersi de mümkündür: Doluluğunuz sabit kalır ama rakipler düşerse, pazarda göreli olarak güçlenirsiniz."
+            "text": "Bu çerçeve, KPI’larınızı “tek başına” değil bağlam içinde yorumlamayı sağlar. Örneğin doluluğunuz artmış olabilir; ancak aynı dönemde rakip set doluluğu daha hızlı arttıysa, aslında pay kaybediyor olabilirsiniz. Tam tersi de mümkündür: Doluluğunuz sabit kalır ama rakipler düşerse, pazarda göreli olarak güçlenirsiniz. Bu yaklaşım, benchmark’ı yalnızca rakip izleme değil; fiyat, doluluk, gelir ve kanal verisini birlikte okuyan bir [veri analiz ve raporlama mimarisi](https://dgtlface.com/tr/veri-analiz-ve-raporlama) olarak konumlandırır."
           },
           {
             "type": "p",
@@ -3115,7 +3131,7 @@
           },
           {
             "type": "p",
-            "text": "RevPAR, ADR ve doluluğu birlikte okur. Bu yüzden benchmark’ta en güçlü KPI’lardan biridir. Ancak RevPAR’ı kıyaslarken “available room” tanımının (kapalı bloklar, out-of-order odalar) tutarlı olduğundan emin olun."
+            "text": "RevPAR, ADR ve doluluğu birlikte okur. Bu yüzden benchmark’ta en güçlü KPI’lardan biridir. Ancak RevPAR’ı kıyaslarken “available room” tanımının (kapalı bloklar, out-of-order odalar) tutarlı olduğundan emin olun. Bu katmanı daha derin okumak için [ADR, RevPAR ve doluluk kıyası](https://dgtlface.com/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) yaklaşımıyla PMS ve gelir verisini birlikte ele almak gerekir."
           },
           {
             "type": "h3",
@@ -3131,7 +3147,7 @@
           },
           {
             "type": "p",
-            "text": "Web payı, doğrudan satışın (direct) göstergesidir. OTA payı yüksekse, görünürlük avantajınız olabilir; ama marjınız düşebilir. Benchmark’ta amaç; “OTA’yı sıfırla” değil, dengeli büyüme hedeflemektir."
+            "text": "Web payı, doğrudan satışın (direct) göstergesidir. OTA payı yüksekse, görünürlük avantajınız olabilir; ama marjınız düşebilir. Benchmark’ta amaç; “OTA’yı sıfırla” değil, dengeli büyüme hedeflemektir. Bu dengeyi günlük fiyat rekabeti açısından okumak için [OTA fiyat benchmarkı](https://dgtlface.com/tr/raporlama/blog/ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma) katmanı özellikle faydalıdır."
           },
           {
             "type": "table",
@@ -3210,7 +3226,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip seti seçimi, benchmark’ın en kritik adımıdır. Çünkü yanlış rakip seti, doğru KPI’ları bile yanlış yorumlatır. Rakip setini seçerken üç ana filtre işe yarar: bölge, segment, fiyat bandı."
+            "text": "[rakip set seçimi](https://dgtlface.com/tr/raporlama/benchmark-analizi), benchmark’ın en kritik adımıdır. Çünkü yanlış rakip seti, doğru KPI’ları bile yanlış yorumlatır. Rakip setini seçerken üç ana filtre işe yarar: bölge, segment, fiyat bandı."
           },
           {
             "type": "h3",
@@ -3370,7 +3386,7 @@
           },
           {
             "type": "p",
-            "text": "Veri nereden geliyor? PMS mi, channel manager mı, OTA raporu mu, web analytics mi? KPI tanımlarını yazılı hale getirin (özellikle ADR/RevPAR)."
+            "text": "Veri nereden geliyor? PMS mi, channel manager mı, OTA raporu mu, web analytics mi? KPI tanımlarını yazılı hale getirin (özellikle ADR/RevPAR). Burada PMS, kanal ve fiyat kaynaklarını birlikte okuyabildiğiniz [online satış verileri](https://dgtlface.com/tr/pms-ota/online-satis) analizin temelini oluşturur."
           },
           {
             "type": "h3",
@@ -3378,7 +3394,7 @@
           },
           {
             "type": "p",
-            "text": "Aylık bir tabloyla başlayın: KPI’lar satır, dönemler sütun olsun; bir sütunda rakip set ortalaması bulunsun. Burada amaç “tek sayfada resim” görmektir."
+            "text": "Aylık bir tabloyla başlayın: KPI’lar satır, dönemler sütun olsun; bir sütunda rakip set ortalaması bulunsun. Burada amaç “tek sayfada resim” görmektir. Bu yapıyı ekip içinde sürekli kullanılır hâle getirmek için [benchmark dashboard tasarımı](https://dgtlface.com/tr/raporlama/blog/benchmark-dashboard-tasarimi-looker-studio) yaklaşımıyla görsel rapor katmanı kurabilirsiniz."
           },
           {
             "type": "h3",
@@ -3386,7 +3402,7 @@
           },
           {
             "type": "p",
-            "text": "Her rapor sonunda 3–6 aksiyon çıkarın: fiyat testi, kanal bütçesi, web dönüşüm iyileştirmesi, kampanya zamanlaması gibi. Sonraki raporda bu aksiyonların KPI etkisini not edin."
+            "text": "Her rapor sonunda 3–6 aksiyon çıkarın: fiyat testi, kanal bütçesi, web dönüşüm iyileştirmesi, kampanya zamanlaması gibi. Sonraki raporda bu aksiyonların KPI etkisini not edin. Bu etkiyi daha net görmek için benchmark sonuçlarını [satış ve dönüşüm performansı](https://dgtlface.com/tr/raporlama/satis-donusum) tarafıyla birlikte okumak gerekir."
           },
           {
             "type": "p",
@@ -3496,6 +3512,10 @@
           },
           {
             "type": "p",
+            "text": "Benchmark çıktıları yalnızca rakip kıyası için değil, fiyatlama, kampanya ve direct booking öncelikleri için de kullanılmalıdır; bu yüzden sonuçları [otel dijital pazarlama kararları](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte değerlendirin. Süreç, KPI seçimi ve raporlama detayları için [Benchmark Analizi hakkında sık sorulan sorular](https://dgtlface.com/tr/raporlama/benchmark-analizi-sss) sayfasına da göz atabilirsiniz."
+          },
+          {
+            "type": "p",
             "text": "Teknik not (Technical SEO):\nCanonical, hizmet sayfası mantığıyla /tr/raporlama/benchmark-analizi üzerinde kurgulanmalı; blog sayfası Article + FAQPage işaretlemesiyle yayınlanmalı ve iç linkler raporlama + PMS–OTA + otel dijital pazarlama silo’larına dengeli dağıtılmalıdır."
           }
         ]
@@ -3600,6 +3620,13 @@
           "table-kpi-benchmark-matrix — (tablo) — “Temel KPI Benchmark Matrisi (KPI / Tanım / Kaynak / Aksiyon Notu)”"
         ],
         "technicalChecklist": [
+          "Parent_URL intro paragrafında /tr/raporlama/benchmark-analizi adresine bağlandı",
+          "Cluster hub /tr/veri-analiz-ve-raporlama ilk bölüm bağlamında eklendi",
+          "Money page ikinci kez rakip set seçimi bölümünde kullanıldı; üçüncü görünür kullanım eklenmedi",
+          "Sibling linkler: OTA fiyat benchmarkı, PMS gelir benchmarkı ve benchmark dashboard tasarımı doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: Satış Dönüşüm, PMS / OTA Online Satış ve Otel Dijital Pazarlama doğal geçişlerle eklendi",
+          "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç bölümünde 1 kez kullanıldı",
           "Canonical kontrolü (service: /tr/raporlama/benchmark-analizi, blog: Article + FAQPage)",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
@@ -3609,7 +3636,9 @@
           "KPI tanımları (ADR/RevPAR/Doluluk/Kanal Karması/Web-OTA Payı) dokümante edildi",
           "Rakip seti seçimi için bölge+segment+ADR bandı filtresi rapor formatına eklendi",
           "Internal + External benchmark ayrımı rapor şablonunda iki katmanlı tasarlandı",
-          "Haftalık mini kontrol (30 dk) + aylık rapor ritmi planlandı"
+          "Haftalık mini kontrol (30 dk) + aylık rapor ritmi planlandı",
+          "Primary CTA hedefi: /tr/raporlama/benchmark-analizi",
+          "Secondary CTA hedefi: /downloads/basitlesitirilmis-otel-benchmark-checklist-v1.0.pdf"
         ]
       }
     }
@@ -3663,7 +3692,7 @@
     },
     "h1": {
       "title": "OTA Fiyat Benchmark’ı ile Rakiplere Göre Konumlanma",
-      "intro": "OTA ekranlarına bakıp “rakip benden ucuz, hemen indiriyorum” refleksi; kısa vadede doluluğu toparlasa bile, orta vadede ADR’yi aşağı çeker, parity riskini artırır ve değer algısını zedeler. Bu rehberin amacı; Booking/Expedia gibi OTA’larda gördüğünüz fiyat bilgisini, “ekran okuma” seviyesinden çıkarıp stratejik konumlama kararına dönüştürmek: hangi rakip setiyle, hangi tarih/oda tipinde kıyas yapacağınızı; price position’ı doluluk ve gelirle nasıl bağlayacağınızı; fiyat savaşı yerine akıllı band yönetimi ile nasıl ilerleyeceğinizi netleştirmek.",
+      "intro": "[OTA fiyat benchmarkı](https://dgtlface.com/tr/raporlama/benchmark-analizi) ekranlarına bakıp “rakip benden ucuz, hemen indiriyorum” refleksi; kısa vadede doluluğu toparlasa bile, orta vadede ADR’yi aşağı çeker, parity riskini artırır ve değer algısını zedeler. Bu rehberin amacı; Booking/Expedia gibi OTA’larda gördüğünüz fiyat bilgisini, “ekran okuma” seviyesinden çıkarıp stratejik konumlama kararına dönüştürmek: hangi rakip setiyle, hangi tarih/oda tipinde kıyas yapacağınızı; price position’ı doluluk ve gelirle nasıl bağlayacağınızı; fiyat savaşı yerine akıllı band yönetimi ile nasıl ilerleyeceğinizi netleştirmek.",
       "quickSummary": [
         "1) Rakip setini bölge + segment + ADR bandı ile sabitle",
         "2) Aynı tarih penceresi + aynı oda/koşul eşlemesiyle kıyas yap",
@@ -3691,34 +3720,54 @@
     },
     "internalLinks": [
       {
-        "label": "Benchmark Analizi hizmet sayfası",
+        "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Raporlama",
-        "href": "/tr/raporlama"
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "PMS & OTA Yönetimi (Hub)",
-        "href": "/tr/pms-ota"
+        "label": "Otel Benchmark Analizi Nedir?",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
+      },
+      {
+        "label": "PMS ve Gelir Benchmarkı",
+        "href": "/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr"
+      },
+      {
+        "label": "Kanal Karması Benchmarkı",
+        "href": "/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center"
       },
       {
         "label": "OTA Entegrasyonu",
         "href": "/tr/pms-ota/ota-entegrasyonu"
       },
       {
-        "label": "Online Satış",
+        "label": "Kanal Yönetimi",
+        "href": "/tr/pms-ota/kanal-yonetimi"
+      },
+      {
+        "label": "Online Satış Performansı",
         "href": "/tr/pms-ota/online-satis"
+      },
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Benchmark Analizi: Metodoloji ve uygulama çerçevesi",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "Otel Benchmark Analizi: KPI & Rakip Seti Antalya",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
       },
       {
-        "title": "OTA Entegrasyonu: Mapping ve test disiplini",
-        "href": "/tr/pms-ota/ota-entegrasyonu"
+        "title": "PMS Gelir Benchmark: Doluluk, RevPAR, ADR Antalya",
+        "href": "/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr"
+      },
+      {
+        "title": "Kanal Karması Benchmarkı: OTA, Web ve Call Center",
+        "href": "/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center"
       }
     ],
     "sections": [
@@ -3749,7 +3798,7 @@
           },
           {
             "type": "p",
-            "text": "OTA fiyat benchmark, klasik “benchmark KPI” yaklaşımının fiyat tarafındaki pratik uygulamasıdır. Burada izlediğiniz şey yalnızca “fiyat” değil; fiyatın arkasındaki sinyaldir: rakipler hangi günlerde agresifleşiyor, hangi günlerde premium kalıyor, parity nerede bozuluyor, hangi oda tipinde fark açılıyor? Özellikle Antalya–Belek gibi sezonsal resort bölgelerinde, fiyatın “gün gün” değiştiği dönemlerde bu analiz, satış ve revenue ekipleri için hızlı yön duygusu verir."
+            "text": "OTA fiyat benchmark, klasik [otel benchmark analizi](https://dgtlface.com/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir) yaklaşımının fiyat tarafındaki pratik uygulamasıdır. Burada izlediğiniz şey yalnızca “fiyat” değil; fiyatın arkasındaki sinyaldir: rakipler hangi günlerde agresifleşiyor, hangi günlerde premium kalıyor, parity nerede bozuluyor, hangi oda tipinde fark açılıyor? Özellikle Antalya–Belek gibi sezonsal resort bölgelerinde, fiyatın “gün gün” değiştiği dönemlerde bu analiz, düzenli çalışan bir [veri analiz ve raporlama mimarisi](https://dgtlface.com/tr/veri-analiz-ve-raporlama) içinde satış ve revenue ekipleri için hızlı yön duygusu verir."
           },
           {
             "type": "media",
@@ -3787,7 +3836,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "OTA fiyat benchmark’ın kalitesi, rakip seti ve tarih/oda seçimiyle belirlenir. “Yakın otel” her zaman “doğru rakip” değildir. Side’deki bir aile resort’u ile Kemer’deki adult concept oteli; OTA ekranında benzer görünebilir ama talep havuzu, fiyat esnekliği ve paket dinamikleri farklıdır. Bu yüzden rekabet setini bölge + segment + ADR bandı ile filtrelemek gerekir."
+            "text": "OTA fiyat benchmark’ın kalitesi, rakip seti ve tarih/oda seçimiyle belirlenir. “Yakın otel” her zaman “doğru rakip” değildir. Side’deki bir aile resort’u ile Kemer’deki adult concept oteli; OTA ekranında benzer görünebilir ama talep havuzu, fiyat esnekliği ve paket dinamikleri farklıdır. Bu yüzden rekabet setini bölge + segment + ADR bandı ile filtreleyip [fiyat konumlandırma](https://dgtlface.com/tr/raporlama/benchmark-analizi) kararını buna göre vermek gerekir."
           },
           {
             "type": "h3",
@@ -3810,7 +3859,7 @@
           },
           {
             "type": "p",
-            "text": "OTA fiyatları günü gününe değişir. Bu yüzden “gelecek hafta” ile “iki ay sonrası” aynı davranmaz. Benchmark’ta en az iki pencere seçmek iyi çalışır: yakın dönem (7–14 gün) hızlı aksiyon ve talep sinyali verir; pik sezon penceresi (30–60 gün sonrası) stratejik konumlamayı güçlendirir."
+            "text": "OTA fiyatları günü gününe değişir. Bu yüzden “gelecek hafta” ile “iki ay sonrası” aynı davranmaz. Benchmark’ta en az iki pencere seçmek iyi çalışır: yakın dönem (7–14 gün) hızlı aksiyon ve talep sinyali verir; pik sezon penceresi (30–60 gün sonrası) stratejik konumlamayı güçlendirir. Bu verinin düzenli ve güvenilir biçimde akabilmesi için [OTA entegrasyonu](https://dgtlface.com/tr/pms-ota/ota-entegrasyonu) tarafındaki veri akışının da disiplinli kurulması gerekir."
           },
           {
             "type": "h3",
@@ -3903,7 +3952,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Fiyat benchmark’ta en kritik hata, price position’ı tek başına yorumlamaktır. “Rakiplerden ucuzum” demek, otomatik olarak “doluluk artar” anlamına gelmez; çünkü doluluğu sadece fiyat değil, değer algısı, yorum skoru, içerik kalitesi, oda stoğu ve kanal görünürlüğü de etkiler. Bu nedenle fiyat pozisyonunu okurken, en az bir gelir KPI’sı (ADR/RevPAR) ve doluluk trendiyle birlikte okumak gerekir."
+            "text": "Fiyat benchmark’ta en kritik hata, price position’ı tek başına yorumlamaktır. “Rakiplerden ucuzum” demek, otomatik olarak “doluluk artar” anlamına gelmez; çünkü doluluğu sadece fiyat değil, değer algısı, yorum skoru, içerik kalitesi, oda stoğu ve kanal görünürlüğü de etkiler. Bu nedenle fiyat pozisyonunu okurken, en az bir gelir KPI’sı (ADR/RevPAR) ve doluluk trendiyle birlikte okumak gerekir. Bu ilişkiyi detaylandırmak için [ADR, RevPAR ve doluluk etkisi](https://dgtlface.com/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) çerçevesi özellikle önemlidir."
           },
           {
             "type": "h3",
@@ -3932,7 +3981,7 @@
           },
           {
             "type": "p",
-            "text": "Pratikte, her gün “en iyi fiyat” aramak yerine; çoğu gün için bir band hedefi koyup (ör. rakip set ortalamasına göre ±%5), yalnızca belirli günlerde (bayram, etkinlik, pik) “premium” veya “koruma” kararları almak daha sürdürülebilir olur. Antalya ve Bodrum gibi yüksek dalgalanmalı pazarlarda bu yaklaşım, ekiplerin karar hızını artırır."
+            "text": "Pratikte, her gün “en iyi fiyat” aramak yerine; çoğu gün için bir band hedefi koyup (ör. rakip set ortalamasına göre ±%5), yalnızca belirli günlerde (bayram, etkinlik, pik) “premium” veya “koruma” kararları almak daha sürdürülebilir olur. Antalya ve Bodrum gibi yüksek dalgalanmalı pazarlarda bu yaklaşım, ekiplerin karar hızını artırır. Bu bandı yalnız OTA ekranında değil, [OTA, web ve call center kanal dengesi](https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center) mantığıyla tüm satış karması içinde değerlendirmek gerekir."
           },
           {
             "type": "media",
@@ -3974,7 +4023,7 @@
           },
           {
             "type": "p",
-            "text": "Rate parity; aynı oda ve koşul için farklı kanallarda tutarlı fiyat/koşul sunma prensibidir. Her destinasyonda ve her sözleşmede detaylar değişebilir; ancak pratikte parity bozulduğunda, hem OTA görünürlüğü hem direct satış güveni etkilenebilir."
+            "text": "[rate parity kontrolü](https://dgtlface.com/tr/pms-ota/kanal-yonetimi); aynı oda ve koşul için farklı kanallarda tutarlı fiyat/koşul sunma prensibidir. Her destinasyonda ve her sözleşmede detaylar değişebilir; ancak pratikte parity bozulduğunda, hem OTA görünürlüğü hem direct satış güveni etkilenebilir."
           },
           {
             "type": "h3",
@@ -4032,7 +4081,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Veriyi toplamak tek başına yeterli değildir; benchmark’ın değeri, aksiyon döngüsüne girdiğinde ortaya çıkar. Bu bölüm; price position verisini doluluk/ADR ile bağlayan basit bir karar matrisi ve 14 günlük çalışma ritmi verir."
+            "text": "Veriyi toplamak tek başına yeterli değildir; benchmark’ın değeri, aksiyon döngüsüne girdiğinde ortaya çıkar. Bu bölüm; price position verisini doluluk/ADR ile bağlayan basit bir karar matrisi ve 14 günlük çalışma ritmi verir. Bu ritmin gerçek etkisi ise rezervasyon ve gelir tarafında [online satış performansı](https://dgtlface.com/tr/pms-ota/online-satis) ile birlikte okununca netleşir."
           },
           {
             "type": "h3",
@@ -4130,6 +4179,10 @@
             "label": "Fiyat & OTA Benchmark Analizi Talep Et",
             "text": "Rakip setinizi netleştirip price position’ı doluluk/ADR ile bağlayan bir konumlama planı için.",
             "href": "/tr/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Bu konumlandırma çıktıları, teklif mesajı ve kanal önceliklerini doğrudan etkilediği için [otel reklam yönetimi kararları](https://dgtlface.com/tr/otel/reklam-yonetimi) ile birlikte değerlendirilmelidir. Süreç, parity disiplini ve raporlama detayları için [Benchmark Analizi hakkında sık sorulan sorular](https://dgtlface.com/tr/raporlama/benchmark-analizi-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       }
@@ -4182,6 +4235,13 @@
           "table-before-after-kpi — (öncesi/sonrası KPI tablosu)"
         ],
         "technicalChecklist": [
+          "Parent_URL intro paragrafında /tr/raporlama/benchmark-analizi adresine bağlandı",
+          "Cluster hub /tr/veri-analiz-ve-raporlama ilk H2 bağlamında eklendi",
+          "Money page ikinci kez rakip seti ve fiyat konumlandırma bölümünde kullanıldı; üçüncü görünür kullanım eklenmedi",
+          "Sibling linkler: benchmark başlangıç rehberi, PMS gelir benchmarkı ve kanal karması benchmarkı doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: OTA Entegrasyonu, Kanal Yönetimi, Online Satış ve Otel Reklam Yönetimi doğal geçişlerle eklendi",
+          "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç bölümünde 1 kez kullanıldı",
           "Rakip seti (4–8 otel) 90 gün sabitlendi",
           "Tarih pencereleri: 7–14 gün + 30–60 gün sonrası belirlendi",
           "Aynı oda/koşul eşlemesi standardı yazıldı (kişi sayısı + iptal koşulu)",
@@ -4189,7 +4249,9 @@
           "İstisna günler (bayram/etkinlik/pik) işaretlendi",
           "Haftalık parity kontrol rutini (aynı oda/koşul) planlandı",
           "KPI seti: Occupancy + ADR + RevPAR + Price Position tek panoda okundu",
-          "14 günlük aksiyon döngüsü (ölç–ayarla–kontrol–öğrenim notu) oluşturuldu"
+          "14 günlük aksiyon döngüsü (ölç–ayarla–kontrol–öğrenim notu) oluşturuldu",
+          "Primary CTA hedefi: /tr/raporlama/benchmark-analizi",
+          "Secondary CTA hedefi: /downloads/ota-fiyat-benchmark-checklist-v1.0.pdf"
         ]
       }
     }
@@ -4243,7 +4305,7 @@
     },
     "h1": {
       "title": "SEO ve SEM Benchmark’ı ile Dijital Görünürlüğü Ölçmek",
-      "intro": "Bir otelin dijital performansı “site trafiği arttı” cümlesine sığmaz. Çünkü trafik; hangi kelimeden geldiğine, SERP’te nerede göründüğünüze (harita paketi mi, reklam mı, organik mi) ve bunun rezervasyona ne kadar dönüştüğüne bağlıdır. SEO ve SEM benchmark’ı, rakip setinizi referans alarak organik ve ücretli görünürlüğünüzü aynı çerçevede okur ve şu soruyu cevaplar: “Markada güçlü müyüm, destinasyonda geride miyim; bütçeyi ve içerik planını nereye kaydırmalıyım?” Bu rehber, oteller için SEO+SEM benchmark’ını adım adım kurar ve sonucu aksiyona bağlar.",
+      "intro": "Bir otelin dijital performansı “site trafiği arttı” cümlesine sığmaz. Çünkü trafik; hangi kelimeden geldiğine, SERP’te nerede göründüğünüze (harita paketi mi, reklam mı, organik mi) ve bunun rezervasyona ne kadar dönüştüğüne bağlıdır. [SEO ve SEM benchmarkı](https://dgtlface.com/tr/raporlama/benchmark-analizi), rakip setinizi referans alarak organik ve ücretli görünürlüğünüzü aynı çerçevede okur ve şu soruyu cevaplar: “Markada güçlü müyüm, destinasyonda geride miyim; bütçeyi ve içerik planını nereye kaydırmalıyım?” Bu rehber, oteller için SEO+SEM benchmark’ını adım adım kurar ve sonucu aksiyona bağlar.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "SEO & SEM Benchmark Analizi Talep Et",
@@ -4260,36 +4322,61 @@
       "secondary": {
         "label": "SEO + SEM Benchmark KPI Listesini İndir",
         "text": "Organik ve ücretli görünürlük KPI’larını tek listede toplayıp rapor panelinizi hızla kurarsınız.",
-        "href": "/tr/raporlama"
+        "href": "/downloads/seo-sem-benchmark-kpi-listesi-v1-0.pdf"
       }
     },
     "internalLinks": [
-      {
-        "label": "Raporlama hub",
-        "href": "/tr/raporlama"
-      },
       {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "SEO",
-        "href": "/tr/seo"
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "SEM",
-        "href": "/tr/sem"
+        "label": "Otel Benchmark Analizi Nedir?",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
       },
       {
-        "label": "SEO raporlama",
+        "label": "Benchmark Dashboard Tasarımı",
+        "href": "/tr/raporlama/blog/benchmark-dashboard-tasarimi-looker-studio"
+      },
+      {
+        "label": "Sosyal Medya Benchmarkı",
+        "href": "/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi"
+      },
+      {
+        "label": "SEO Raporlama",
         "href": "/tr/seo/seo-raporlama"
       },
       {
-        "label": "Reklam raporlama",
+        "label": "SEM Reklam Raporlama",
         "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SMM Analiz Raporlama",
+        "href": "/tr/smm/analiz-raporlama"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Benchmark Analizi: KPI & Rakip Seti Antalya",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
+      },
+      {
+        "title": "Looker Studio ile Benchmark Dashboard Tasarımı: Oteller İçin Şablon Yaklaşımı",
+        "href": "/tr/raporlama/blog/benchmark-dashboard-tasarimi-looker-studio"
+      },
+      {
+        "title": "Sosyal Medya Benchmarkı: Otel ve Rakiplerin SMM Performansı",
+        "href": "/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi"
+      }
+    ],
     "sections": [
       {
         "id": "hero-ve-baglami",
@@ -4318,11 +4405,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "SEO benchmark’ı; organik görünürlüğünüzü rakiplerle kıyaslayıp “hangi kelime grubunda nerede duruyorum?” sorusunu yanıtlar. Otellerde kritik ayrım şudur:\n\t•\tMarka kelimeleri: otel adı + varyasyonlar (genelde yüksek görünürlük hedeflenir)\n\t•\tDestinasyon/generic kelimeler: “antalya hotel”, “side resort”, “belek family resort” gibi (asıl büyüme ve yeni talep burada)"
+            "text": "SEO benchmark’ı; organik görünürlüğünüzü rakiplerle kıyaslayıp “hangi kelime grubunda nerede duruyorum?” sorusunu yanıtlar. Bu yapı, [otel benchmark analizi](https://dgtlface.com/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir) mantığının dijital görünürlük tarafıdır ve otellerde kritik ayrım şudur:\n\t•\tMarka kelimeleri: otel adı + varyasyonlar (genelde yüksek görünürlük hedeflenir)\n\t•\tDestinasyon/generic kelimeler: “antalya hotel”, “side resort”, “belek family resort” gibi (asıl büyüme ve yeni talep burada)"
           },
           {
             "type": "p",
-            "text": "Net Cevap (2–3 cümle):\nSEO benchmark, marka ve destinasyon kelimelerinde sıralamanızı, görünürlüğünüzü ve SERP özelliklerindeki (harita paketi/featured snippet) yerinizi rakip setle kıyaslar. Amaç, içerik ve teknik öncelikleri “hangi kelime grubu kaybettiriyor?” sorusuyla belirlemektir."
+            "text": "Net Cevap (2–3 cümle):\nSEO benchmark, marka ve destinasyon kelimelerinde sıralamanızı, görünürlüğünüzü ve SERP özelliklerindeki (harita paketi/featured snippet) yerinizi rakip setle kıyaslar. Amaç, içerik ve teknik öncelikleri “hangi kelime grubu kaybettiriyor?” sorusuyla belirlemektir. Bunu düzenli okumak için [organik görünürlük raporlaması](https://dgtlface.com/tr/seo/seo-raporlama) katmanını da kurmak gerekir."
           },
           {
             "type": "h3",
@@ -4368,7 +4455,7 @@
           },
           {
             "type": "p",
-            "text": "Net Cevap (2–3 cümle):\nSEM benchmark, impression share, CTR, CPC/CPA eğilimleri ve ROAS gibi metrikleri rakip set/pazar ortalamasıyla kıyaslayarak reklam stratejisinin rekabetçi olup olmadığını gösterir. Amaç, bütçeyi doğru kelime grubuna ve doğru kampanya tipine kaydırmaktır."
+            "text": "Net Cevap (2–3 cümle):\nSEM benchmark, impression share, CTR, CPC/CPA eğilimleri ve ROAS gibi metrikleri rakip set/pazar ortalamasıyla kıyaslayarak reklam stratejisinin rekabetçi olup olmadığını gösterir. Amaç, bütçeyi doğru kelime grubuna ve doğru kampanya tipine kaydırmaktır. Bu görünürlüğü daha sağlıklı okumak için [rekabetçi ROAS analizi](https://dgtlface.com/tr/sem/reklam-raporlama) katmanı gerekir."
           },
           {
             "type": "h3",
@@ -4410,7 +4497,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip analizi yalnızca “kim benden üstte?” değildir; rakibin dijital ayak izi, nerede agresifleştiğini ve nerede zayıf olduğunu gösterir. SEO tarafında “hangi içerik kümeleriyle görünüyor?”, SEM tarafında “hangi kelimelerde görünürlük payı alıyor?” soruları birlikte okunduğunda strateji netleşir."
+            "text": "Rakip analizi yalnızca “kim benden üstte?” değildir; rakibin dijital ayak izi, nerede agresifleştiğini ve nerede zayıf olduğunu gösterir. SEO tarafında “hangi içerik kümeleriyle görünüyor?”, SEM tarafında “hangi kelimelerde görünürlük payı alıyor?” soruları birlikte okunduğunda strateji netleşir. Bu seviyede yapılan [dijital görünürlük kıyası](https://dgtlface.com/tr/raporlama/benchmark-analizi), organik ve ücretli kanalları aynı karar çerçevesine taşır."
           },
           {
             "type": "h3",
@@ -4427,6 +4514,10 @@
           {
             "type": "p",
             "text": "\t•\tMarka savunması mı, büyüme mi?\n\t•\tTeklif odaklı mı, konsept odaklı mı?\n\t•\tSezon ve pazar kırılımı var mı?"
+          },
+          {
+            "type": "p",
+            "text": "Dijital görünürlük yalnızca SEO ve SEM’den oluşmaz; rakiplerin içerik, etkileşim ve topluluk sinyallerini [sosyal medya görünürlük kıyası](https://dgtlface.com/tr/raporlama/blog/sosyal-medya-benchmarki-otel-ve-rakiplerin-smm-performansi) ile okumak ve bunu [SMM analiz raporlama](https://dgtlface.com/tr/smm/analiz-raporlama) katmanıyla desteklemek gerekir."
           },
           {
             "type": "media",
@@ -4460,7 +4551,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Rakip içerikler genelde global benchmark rakamları verir; ama otelde asıl fark; marka–destinasyon ayrımı, harita sonuçları ve ROAS odaklı birleşik çerçevededir. Bu bölüm, “tek sayfada” uygulanabilir bir model sunar."
+            "text": "Rakip içerikler genelde global benchmark rakamları verir; ama otelde asıl fark; marka–destinasyon ayrımı, harita sonuçları ve ROAS odaklı birleşik çerçevededir. Bu bölüm, “tek sayfada” uygulanabilir bir model sunar. Bu yapıyı sürekli kullanılan bir rapora çevirmek için [benchmark dashboard tasarımı](https://dgtlface.com/tr/raporlama/blog/benchmark-dashboard-tasarimi-looker-studio) yaklaşımıyla aynı KPI setini tek panelde toplamak önemlidir."
           },
           {
             "type": "h3",
@@ -4477,7 +4568,7 @@
           },
           {
             "type": "p",
-            "text": "Mini örnek senaryo (sheet’ten, otel bağlamlı):\nDijital benchmark uygulayan otellerde, marka kelimelerinde %80+ görünürlük yakalanırken, destinasyon kelimelerinde rakiplerin gerisinde kalındığı fark edilir; bu da bütçe ve içerik önceliğinin destinasyon landing + destekleyici blog içeriklerine kaydırılmasını sağlar."
+            "text": "Mini örnek senaryo (sheet’ten, otel bağlamlı):\nDijital benchmark uygulayan otellerde, marka kelimelerinde güçlü görünürlük varken destinasyon kelimelerinde rakiplerin gerisinde kalındığı fark edilebilir; bu da bütçe ve içerik önceliğinin destinasyon landing + destekleyici blog içeriklerine kaydırılmasını sağlar."
           },
           {
             "type": "media",
@@ -4535,6 +4626,10 @@
             "label": "SEO & SEM Benchmark Analizi Talep Et",
             "text": "Organik + ücretli görünürlüğü tek panelde görüp bütçe/içerik önceliği çıkarmak isteyen ekipler için",
             "href": "/tr/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Bu benchmark çıktıları yalnız rapor değil; kanal yatırımı, içerik önceliği ve teklif mesajı için de temel oluşturur. Bu yüzden sonuçları [otel dijital pazarlama kararları](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte değerlendirin. Süreç, metrik seçimi ve benchmark yöntemi için [Benchmark Analizi hakkında sık sorulan sorular](https://dgtlface.com/tr/raporlama/benchmark-analizi-sss) sayfasına da göz atabilirsiniz."
           },
           {
             "type": "media",
@@ -4615,9 +4710,18 @@
           "proof-08 — 1200×1200 — seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek-proof-08.webp — Alt: “Dijital benchmark raporu ve aksiyon planını gösteren deliverables kartı”"
         ],
         "technicalChecklist": [
+          "Parent_URL intro paragrafında /tr/raporlama/benchmark-analizi adresine bağlandı",
+          "Cluster hub /tr/veri-analiz-ve-raporlama ilk SEO benchmark bölümünde eklendi",
+          "Money page ikinci kez dijital görünürlük kıyası bölümünde kullanıldı; üçüncü görünür kullanım eklenmedi",
+          "Sibling linkler: benchmark başlangıç rehberi, benchmark dashboard tasarımı ve sosyal medya benchmarkı doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: SEO Raporlama, SEM Reklam Raporlama, SMM Analiz Raporlama ve Otel Dijital Pazarlama doğal geçişlerle eklendi",
+          "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç bölümünde 1 kez kullanıldı",
           "Marka isimleri yerine genel örnekler kullanıldı.",
           "İşaretleme için Article + FAQPage ve speakable önerilir; iç linkler SEO raporlama ve reklam raporlama sayfalarına yönlendirilmelidir.",
-          "SERP örnekleri ve KPI aralıkları yılda 1 güncellenmelidir (Refresh: 365)."
+          "SERP örnekleri ve KPI aralıkları yılda 1 güncellenmelidir (Refresh: 365).",
+          "Primary CTA hedefi: /tr/raporlama/benchmark-analizi",
+          "Secondary CTA hedefi: /downloads/seo-sem-benchmark-kpi-listesi-v1-0.pdf"
         ]
       }
     }
@@ -4671,7 +4775,7 @@
     },
     "h1": {
       "title": "PMS ve Gelir Benchmark’ı: Doluluk, RevPAR ve ADR’i Rakiplerle Kıyaslamak",
-      "intro": "Birçok otelde gelir değerlendirmesi “doluluğumuz arttı/azaldı” cümlesine sıkışır. Oysa gelir yönetimi açısından kritik soru şudur: Hangi segment ve hangi kanaldan gelen gelir daha kârlı ve sürdürülebilir? PMS ve gelir benchmark’ı, PMS’den çektiğiniz doluluk/ADR/RevPAR verisini rakip set ve pazar ortalaması ile kıyaslayarak “gerçek resmi” verir. Bu rehberde, PMS’den benchmark’a uygun veri çıkarmayı, doluluk–ADR–RevPAR kıyasını doğru kurmayı ve segment/kanaI bazlı gelir benchmark’ını fiyat–envanter kararlarına bağlamayı adım adım anlatacağız.",
+      "intro": "Birçok otelde gelir değerlendirmesi “doluluğumuz arttı/azaldı” cümlesine sıkışır. Oysa iyi kurgulanmış bir [gelir benchmarkı](https://dgtlface.com/tr/raporlama/benchmark-analizi), hangi segment ve hangi kanaldan gelen gelirin daha kârlı ve sürdürülebilir olduğunu görmenizi sağlar. PMS’den çektiğiniz doluluk/ADR/RevPAR verisini rakip set ve pazar ortalaması ile kıyasladığınızda “gerçek resim” netleşir. Bu rehberde, PMS’den benchmark’a uygun veri çıkarmayı, doluluk–ADR–RevPAR kıyasını doğru kurmayı ve segment/kanaI bazlı gelir benchmark’ını fiyat–envanter kararlarına bağlamayı adım adım anlatacağız.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Gelir & RevPAR Benchmark Analizi Talep Et",
@@ -4688,32 +4792,61 @@
       "secondary": {
         "label": "Doluluk/RevPAR/ADR Benchmark KPI Listesini İndir",
         "text": "KPI tanımı, rakip set şablonu ve segment/kanaI panelini tek dosyada hızla kurarsınız.",
-        "href": "/tr/raporlama"
+        "href": "/downloads/doluluk-revpar-adr-benchmark-kpi-listesi-v1.0.pdf"
       }
     },
     "internalLinks": [
-      {
-        "label": "Raporlama",
-        "href": "/tr/raporlama"
-      },
       {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "PMS & OTA Yönetimi",
-        "href": "/tr/pms-ota"
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
       },
       {
-        "label": "PMS & OTA / Online Satış",
+        "label": "Otel Benchmark Analizi Nedir?",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
+      },
+      {
+        "label": "Kanal Karması Benchmarkı",
+        "href": "/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center"
+      },
+      {
+        "label": "Bütçe ve Forecast Doğruluk Oranı Benchmarkı",
+        "href": "/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki"
+      },
+      {
+        "label": "Online Satış Verileri",
         "href": "/tr/pms-ota/online-satis"
       },
       {
-        "label": "Raporlama / Satış Dönüşüm",
+        "label": "Satış ve Dönüşüm Performansı",
         "href": "/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "Çağrı Merkezi Performans Analizi",
+        "href": "/tr/cagri-merkezi/performans-analizi"
+      },
+      {
+        "label": "Otel Reklam Yönetimi",
+        "href": "/tr/otel/reklam-yonetimi"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Benchmark Analizi: KPI & Rakip Seti Antalya",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
+      },
+      {
+        "title": "Kanal Karması Benchmarkı: OTA, Web ve Call Center",
+        "href": "/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center"
+      },
+      {
+        "title": "Bütçe ve Forecast Doğruluk Oranı Benchmarkı",
+        "href": "/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki"
+      }
+    ],
     "sections": [
       {
         "id": "hero-media-notes",
@@ -4743,7 +4876,7 @@
           },
           {
             "type": "p",
-            "text": "Bu yaklaşım, “revpar adr doluluk benchmark” ihtiyacını tek bir sayfada çözer: KPI’ları doğru tanımlarsınız, PMS verisini temiz ve tutarlı çıkarırsınız, sonra rakip/pazar kıyasıyla göreli performans görürsünüz. Özellikle Antalya/Belek gibi sezonsal destinasyonlarda, aynı doluluğun “iyi” olup olmadığını ancak pazarın o haftaki davranışıyla birlikte okuyabilirsiniz."
+            "text": "Bu yaklaşım, klasik [otel benchmark analizi](https://dgtlface.com/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir) çerçevesini otelin gelir katmanına taşır ve bunu daha geniş bir [veri analiz ve raporlama mimarisi](https://dgtlface.com/tr/veri-analiz-ve-raporlama) içinde anlamlandırır: KPI’ları doğru tanımlarsınız, PMS verisini temiz ve tutarlı çıkarırsınız, sonra rakip/pazar kıyasıyla göreli performans görürsünüz. Özellikle Antalya/Belek gibi sezonsal destinasyonlarda, aynı doluluğun “iyi” olup olmadığını ancak pazarın o haftaki davranışıyla birlikte okuyabilirsiniz."
           },
           {
             "type": "media",
@@ -4843,7 +4976,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Benchmark’ın en pahalı hatası şudur: doğru KPI’ları seçersiniz ama PMS’den eksik/yanlış veri çekersiniz. Bu yüzden önce “rapor tasarımı” gerekir: hangi alanlar, hangi periyot, hangi kırılım?"
+            "text": "Benchmark’ın en pahalı hatası şudur: doğru KPI’ları seçersiniz ama PMS’den eksik/yanlış veri çekersiniz. Bu yüzden önce “rapor tasarımı” gerekir: hangi alanlar, hangi periyot, hangi kırılım ve hangi [online satış verileri](https://dgtlface.com/tr/pms-ota/online-satis) aynı tanımla okunacak?"
           },
           {
             "type": "h3",
@@ -4920,7 +5053,7 @@
           },
           {
             "type": "p",
-            "text": "Bu bölümde kritik nokta “aynı dönemde ne oldu?” sorusudur. Örneğin Side’de talep zayıflarken sizin doluluğunuz sabit kaldıysa, göreli olarak iyi performans olabilir. Antalya/Belek gibi bölgelerde ise pik günlerde “premium” kalabilmek, RevPAR’ı korumada belirleyicidir. Yani kıyas; sadece rakam değil, pazar davranışı okumadır."
+            "text": "Bu [doluluk, ADR ve RevPAR kıyası](https://dgtlface.com/tr/raporlama/benchmark-analizi), yalnızca “aynı dönemde ne oldu?” sorusunu değil; pazarın nasıl davrandığını da okumayı gerektirir. Örneğin Side’de talep zayıflarken sizin doluluğunuz sabit kaldıysa, göreli olarak iyi performans olabilir. Antalya/Belek gibi bölgelerde ise pik günlerde “premium” kalabilmek, RevPAR’ı korumada belirleyicidir."
           },
           {
             "type": "p",
@@ -4935,7 +5068,7 @@
             "variant": "secondary",
             "label": "Doluluk/RevPAR/ADR Benchmark KPI Listesini İndir",
             "text": "KPI tanımı, rakip set şablonu ve segment/kanaI panelini tek dosyada hızla kurarsınız.",
-            "href": "/tr/raporlama"
+            "href": "/downloads/doluluk-revpar-adr-benchmark-kpi-listesi-v1.0.pdf"
           },
           {
             "type": "callout",
@@ -4965,7 +5098,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Toplam RevPAR iyi görünebilir; ama gelir kalitesi kötüleşiyor olabilir. Segment/kanaI bazlı kıyas, “hangi satışın değerli?” sorusuna net cevap verir. Otellerde yaygın kırılımlar: corporate, leisure, OTA, direct, call center, agency."
+            "text": "Toplam RevPAR iyi görünebilir; ama gelir kalitesi kötüleşiyor olabilir. Özellikle [segment ve kanal geliri](https://dgtlface.com/tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center) dağılımı ile direct ve call center hattındaki [çağrı merkezi performans analizi](https://dgtlface.com/tr/cagri-merkezi/performans-analizi) birlikte okunduğunda, “hangi satışın gerçekten değerli olduğu” çok daha netleşir."
           },
           {
             "type": "h3",
@@ -5073,7 +5206,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Benchmark’ın gerçek çıktısı rapor değil, karardır: fiyatı güncellemek, envanteri sıkılaştırmak, minimum kalış koymak, kampanyayı değiştirmek, kanalı optimize etmek… Bu bölüm, PMS gelir benchmark’ını “karar playbook”una çevirir."
+            "text": "Benchmark’ın gerçek çıktısı rapor değil, karardır: fiyatı güncellemek, envanteri sıkılaştırmak, minimum kalış koymak, kampanyayı değiştirmek, kanalı optimize etmek… Bu bölüm, PMS gelir benchmark’ını “karar playbook”una çevirirken gerçekleşen sonuçları düzenli [forecast doğruluk oranı](https://dgtlface.com/tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki) kontrolüyle birlikte okumayı önerir."
           },
           {
             "type": "h3",
@@ -5108,7 +5241,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış kullanım): Gelir benchmark’ı uygulayan otellerde, sadece doluluğu değil birim gelir (ADR/RevPAR) ve segment kârlılığını da izleyerek toplam gelir tarafında daha sağlıklı iyileşme yakalanabildiği görülür. (Bu, otel tipine göre değişebilir; amaç yaklaşımı vurgulamaktır.)"
+            "text": "Key Statistics / Data Point (sheet’ten, yumuşatılmış kullanım): Gelir benchmark’ı uygulayan otellerde, sadece doluluğu değil birim gelir (ADR/RevPAR) ve segment kârlılığını da izleyerek toplam gelir ve [satış ve dönüşüm performansı](https://dgtlface.com/tr/raporlama/satis-donusum) tarafında daha sağlıklı iyileşme yakalanabildiği görülür. (Bu, otel tipine göre değişebilir; amaç yaklaşımı vurgulamaktır.)"
           },
           {
             "type": "media",
@@ -5120,6 +5253,10 @@
             "label": "Gelir & RevPAR Benchmark Analizi Talep Et",
             "text": "Rakip set + segment/kanaI bazlı panel kurup fiyat–envanter kararlarını 14 gün içinde iyileştirmek isteyen ekipler için",
             "href": "/tr/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Pazar ortalamasına göre sapmaları [otel reklam yönetimi kararları](https://dgtlface.com/tr/otel/reklam-yonetimi) ile birlikte okuduğunuzda hangi kampanya ve oda satış mesajının daha çok gelir desteklediğini daha net görürsünüz; yöntem tarafını derinleştirmek için [Benchmark Analizi hakkında sık sorulan sorular](https://dgtlface.com/tr/raporlama/benchmark-analizi-sss) bölümüne de geçebilirsiniz."
           },
           {
             "type": "callout",
@@ -5260,6 +5397,17 @@
           "proof-08 — 1200×1200 — pms-ve-gelir-benchmarki-doluluk-revpar-adr-proof-08.webp"
         ],
         "technicalChecklist": [
+          "Parent_URL intro paragrafında /tr/raporlama/benchmark-analizi adresine bağlandı",
+          "Cluster hub /tr/veri-analiz-ve-raporlama ilk içerik bölümünde eklendi",
+          "Money page ikinci kez doluluk / ADR / RevPAR kıyası bölümünde kullanıldı; üçüncü görünür kullanım eklenmedi",
+          "Sibling linkler: Otel Benchmark Analizi, Kanal Karması Benchmarkı ve Bütçe / Forecast Doğruluk Oranı doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: Online Satış, Satış Dönüşüm, Çağrı Merkezi Performans Analizi ve Otel Reklam Yönetimi doğal geçişlerle eklendi",
+          "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç bölümünde 1 kez kullanıldı",
+          "Secondary CTA Türü: Download Asset",
+          "Link Yerleşimi (Internal Link Targets): /tr/raporlama/benchmark-analizi, /tr/veri-analiz-ve-raporlama, /tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir, /tr/raporlama/blog/kanal-karmasi-benchmarki-ota-web-call-center, /tr/raporlama/blog/butce-ve-forecast-dogruluk-orani-benchmarki, /tr/pms-ota/online-satis, /tr/raporlama/satis-donusum, /tr/cagri-merkezi/performans-analizi, /tr/otel/reklam-yonetimi",
+          "Primary CTA hedefi: /tr/raporlama/benchmark-analizi",
+          "Secondary CTA hedefi: /downloads/doluluk-revpar-adr-benchmark-kpi-listesi-v1.0.pdf",
           "Canonical kontrolü (parametreli sayfalar dahil)",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "Segment ve kanal etiket tutarlılığı (PMS alanları dolu)",
@@ -5319,7 +5467,7 @@
     },
     "h1": {
       "title": "Looker Studio ile Benchmark Dashboard Tasarımı: Oteller İçin Şablon Yaklaşımı",
-      "intro": "Benchmark analizi çoğu otelde Excel dosyalarında kalır: dosya var ama “yaşamaz”. Sonuç olarak yönetim toplantısında rakip kıyası ya güncel değildir ya da farklı dosyalardan konuşulur. Benchmark dashboard’un hedefi, bu dağınıklığı bitirip tek ekranda şu soruya yanıt vermektir: “Biz neredeyiz, rakipler nerede ve farkın nedeni ne?” Looker Studio, şablon yaklaşımıyla KPI kartlarını, karşılaştırma grafiklerini ve filtreleri standartlaştırarak benchmark’ı günlük kullanılır bir araca dönüştürür. Bu rehber, oteller için “template-first” bir benchmark paneli kurmanın tasarım ve kurulum adımlarını anlatır.",
+      "intro": "[benchmark dashboard](https://dgtlface.com/tr/raporlama/benchmark-analizi) yaklaşımı olmadan benchmark analizi çoğu otelde Excel dosyalarında kalır: dosya vardır ama “yaşamaz”. Sonuç olarak yönetim toplantısında rakip kıyası ya güncel değildir ya da farklı dosyalardan konuşulur. Bu rehber, benchmark verisini tek ekranda izlenebilen bir karar paneline dönüştürmek için otellerde “template-first” bir kurulum mantığının nasıl çalıştığını anlatır.",
       "quickSummary": [
         "1) Dashboard’u “rapor” değil “karar ekranı” olarak konumla",
         "2) KPI setini sabitle (doluluk/ADR/RevPAR/kanal karması)",
@@ -5342,39 +5490,51 @@
       "secondary": {
         "label": "Benchmark Dashboard Örnek Şablonunu İndir",
         "text": "KPI kartları, filtre bantları ve sekme yapısını kopyalayıp kendi verinize hızla bağlarsınız.",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "href": "/downloads/benchmark-dashboard-ornek-sablonu-v1.0.pdf"
       }
     },
     "internalLinks": [
-      {
-        "label": "Raporlama ana sayfa",
-        "href": "/tr/raporlama"
-      },
       {
         "label": "Benchmark Analizi",
         "href": "/tr/raporlama/benchmark-analizi"
       },
       {
-        "label": "Looker Studio",
+        "label": "Veri Analiz ve Raporlama",
+        "href": "/tr/veri-analiz-ve-raporlama"
+      },
+      {
+        "label": "Otel Benchmark Analizi Nedir?",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
+      },
+      {
+        "label": "SEO ve SEM Benchmarkı",
+        "href": "/tr/raporlama/blog/seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek"
+      },
+      {
+        "label": "PMS ve Gelir Benchmarkı",
+        "href": "/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr"
+      },
+      {
+        "label": "Looker Studio Raporlama",
         "href": "/tr/raporlama/looker-studio"
       },
       {
-        "label": "Online Satış (PMS/OTA)",
+        "label": "Online Satış Verileri",
         "href": "/tr/pms-ota/online-satis"
-      },
-      {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Benchmark Analizi Nedir? Oteller İçin KPI Karşılaştırma Mantığı",
-        "href": "/tr/raporlama/benchmark-analizi"
+        "title": "Otel Benchmark Analizi Nedir, Nasıl Yapılır?",
+        "href": "/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
       },
       {
-        "title": "Looker Studio ile Otel Raporlama: Panel Kurulum Temelleri",
-        "href": "/tr/raporlama/looker-studio"
+        "title": "SEO ve SEM Benchmark’ı ile Dijital Görünürlüğü Ölçmek",
+        "href": "/tr/raporlama/blog/seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek"
+      },
+      {
+        "title": "PMS ve Gelir Benchmark’ı: Doluluk, RevPAR ve ADR’i Rakiplerle Kıyaslamak",
+        "href": "/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr"
       }
     ],
     "sections": [
@@ -5388,7 +5548,7 @@
           },
           {
             "type": "p",
-            "text": "Şablon yaklaşımı ise her otelde aynı sorular tekrarlandığı için kritiktir: doluluk/ADR/RevPAR, kanal karması, rakip set, sezon pencereleri… Bu parçaları standartlaştırınca, panel sürdürülebilir olur ve ekipler her seferinde yeniden rapor tasarlamak zorunda kalmaz."
+            "text": "Şablon yaklaşımı ise her otelde aynı sorular tekrarlandığı için kritiktir: doluluk/ADR/RevPAR, kanal karması, rakip set, sezon pencereleri… Bu parçaları standartlaştırınca hem temel [otel benchmark analizi](https://dgtlface.com/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir) mantığı korunur hem de [benchmark verisini tek ekranda görmek](https://dgtlface.com/tr/veri-analiz-ve-raporlama) mümkün hale gelir."
           },
           {
             "type": "h3",
@@ -5396,7 +5556,7 @@
           },
           {
             "type": "p",
-            "text": "Benchmark dashboard; otelinizin KPI’larını rakip set ve pazar verisiyle tek ekranda kıyaslayan yönetim panelidir. Şablon yaklaşımı, KPI kartları + grafikler + filtreler kombinasyonunu standartlaştırarak benchmark’ı Excel’den çıkarıp günlük kullanılan bir ekrana dönüştürür."
+            "text": "Benchmark dashboard; otelinizin KPI’larını rakip set ve pazar verisiyle tek ekranda kıyaslayan bir [rakip kıyas paneli](https://dgtlface.com/tr/raporlama/benchmark-analizi) olarak çalışır. Şablon yaklaşımı, KPI kartları + grafikler + filtreler kombinasyonunu standartlaştırarak benchmark’ı Excel’den çıkarıp günlük kullanılan bir ekrana dönüştürür."
           },
           {
             "type": "media",
@@ -5451,7 +5611,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Görsel seçimi, dashboard’un “hızını” belirler. Yönetim ekranı “1 bakış” ister; revenue ekranı “trend ve kırılım” ister; pazarlama ekranı “kanal ve talep” ister."
+            "text": "Görsel seçimi, dashboard’un “hızını” belirler. Yönetim ekranı “1 bakış” ister; revenue ekranı “trend ve kırılım” ister; pazarlama ekranı ise hem [dijital görünürlük benchmark kartları](https://dgtlface.com/tr/raporlama/blog/seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek) hem de [doluluk, ADR ve RevPAR kartları](https://dgtlface.com/tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr) ile kanal ve talep ilişkisini aynı bakışta gösterebilmelidir."
           },
           {
             "type": "h3",
@@ -5514,7 +5674,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Dashboard’un sürdürülebilirliği, Looker Studio görsellerinden önce veri modeline bağlıdır. Panelde aynı KPI’yı hem “otel” hem “rakip set” hem “pazar” için göstermek istiyorsanız; veride şu alanlar net olmalı: tarih (date), otel_id/otel_grup, rakip_set_id; KPI metrikleri (occupancy, ADR, RevPAR); segment, kanal, GEO."
+            "text": "Dashboard’un sürdürülebilirliği, Looker Studio görsellerinden önce veri modeline bağlıdır. Panelde aynı KPI’yı hem “otel” hem “rakip set” hem “pazar” için göstermek istiyorsanız; veride şu alanlar net olmalı: tarih (date), otel_id/otel_grup, rakip_set_id; KPI metrikleri (occupancy, ADR, RevPAR); segment, kanal, GEO. Bu yapıyı çalışan bir [Looker Studio şablonu](https://dgtlface.com/tr/raporlama/looker-studio) üzerine oturtmak kurulumu ciddi biçimde hızlandırır."
           },
           {
             "type": "h3",
@@ -5522,7 +5682,7 @@
           },
           {
             "type": "p",
-            "text": "PMS/CRS/Channel Manager kaynakları genelde farklı formatta gelir. Bu yüzden önce “tek tablo mantığı” kurulur: günlük/haftalık metrik tablosu + boyut tablosu (otel, rakip set, GEO)."
+            "text": "PMS/CRS/Channel Manager kaynakları genelde farklı formatta gelir. Bu yüzden önce “tek tablo mantığı” kurulur: günlük/haftalık metrik tablosu + boyut tablosu (otel, rakip set, GEO). Özellikle PMS, OTA ve rezervasyon motorundan gelen [online satış verileri](https://dgtlface.com/tr/pms-ota/online-satis) aynı tanımla birleşmediğinde panel doğru görünse bile yanlış karar üretebilir."
           },
           {
             "type": "media",
@@ -5629,7 +5789,7 @@
             "variant": "secondary",
             "label": "Benchmark Dashboard Örnek Şablonunu İndir",
             "text": "KPI kartları, filtre bantları ve sekme yapısını kopyalayıp kendi verinize bağlarsınız.",
-            "href": "/tr/raporlama/benchmark-analizi"
+            "href": "/downloads/benchmark-dashboard-ornek-sablonu-v1.0.pdf"
           },
           {
             "type": "cta",
@@ -5637,6 +5797,10 @@
             "label": "Benchmark Dashboard Tasarım & Kurulum Danışmanlığı Al",
             "text": "Looker Studio panelini veri modeliyle birlikte kurup ekiplerinize devretmek isteyen oteller için.",
             "href": "/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "p",
+            "text": "Şablon kurulduktan sonra KPI tanımı, veri kaynağı ve güncelleme mantığıyla ilgili tipik soruları [Benchmark Analizi hakkında sık sorulan sorular](https://dgtlface.com/tr/raporlama/benchmark-analizi-sss) bölümünde tek yerde toplayabilirsiniz."
           }
         ]
       },
@@ -5712,6 +5876,18 @@
           "proof-08 — 1200×1200 — benchmark-dashboard-tasarimi-looker-studio-proof-08.webp"
         ],
         "technicalChecklist": [
+          "Parent_URL intro paragrafında /tr/raporlama/benchmark-analizi adresine bağlandı",
+          "Cluster hub /tr/veri-analiz-ve-raporlama yalnızca 1 kez, ilk içerik bölümünde kullanıldı",
+          "Money page ikinci kez rakip kıyas paneli bölümünde kullanıldı; üçüncü görünür kullanım eklenmedi",
+          "Sibling linkler: Otel Benchmark Analizi, SEO ve SEM Benchmarkı, PMS ve Gelir Benchmarkı doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: Looker Studio Raporlama ve PMS / OTA Online Satış doğal geçişlerle eklendi",
+          "Ana money page görünür metinde maksimum 2 kez kullanıldı",
+          "Veri Analiz ve Raporlama hub URL'si görünür metinde 1 kez kullanıldı",
+          "FAQ linki sonuç bölümünde 1 kez kullanıldı",
+          "Secondary CTA Türü: Download Asset",
+          "Link Yerleşimi (Internal Link Targets): /tr/raporlama/benchmark-analizi, /tr/veri-analiz-ve-raporlama, /tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir, /tr/raporlama/blog/seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek, /tr/raporlama/blog/pms-ve-gelir-benchmarki-doluluk-revpar-adr, /tr/raporlama/looker-studio, /tr/pms-ota/online-satis",
+          "Primary CTA hedefi: /tr/raporlama/looker-studio",
+          "Secondary CTA hedefi: /downloads/benchmark-dashboard-ornek-sablonu-v1.0.pdf",
           "Canonical kontrolü (parametreli sayfalar dahil)",
           "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
           "Dashboard filtreleri: tarih/GEO/kanal/segment/rakip set çalışıyor",
