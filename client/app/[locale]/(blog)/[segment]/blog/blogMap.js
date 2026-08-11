@@ -657,7 +657,8 @@ export const BLOG_MAP = {
     "otel-festival-beach-party-produsksiyon":"BlogOtelFestivalBeachPartyProdusksiyon",
     "otel-calisan-etkinligi-ic-organization-produsksiyon":"BlogOtelCalisanEtkinligiIcOrganizationProdusksiyon",
     "hibrit-ve-online-otel-etkinlikleri-canli-yayin":"BlogHibritVeOnlineOtelEtkinlikleriCanliYayin",
-    "otel-etkinlik-produsksiyon-butce-planlama":"BlogOtelEtkinlikProdusksiyonButcePlanlama"
+    "otel-etkinlik-produsksiyon-butce-planlama":"BlogOtelEtkinlikProdusksiyonButcePlanlama",
+    "otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne":"BlogOtelEtkinlikTedarikciYonetimiSesIsikSahne"
     
   },
 

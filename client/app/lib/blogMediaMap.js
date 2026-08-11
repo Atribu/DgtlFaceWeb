@@ -51727,6 +51727,56 @@ export const BLOG_MEDIA_MAP = {
       alt: "Teklif kıyas şablonu, sözleşme kontrolü ve ROI raporu deliverables kartı",
       caption: "Teklif kıyas şablonu, sözleşme kontrolü ve ROI raporu deliverables kartı"
     }
+  },
+
+  "otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne":{
+    banner: {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-1.webp",
+      alt: "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar",
+      caption: "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-2.webp",
+      alt: "RACI matrisi ve tek temas noktasıyla tedarikçi yönetimi context görseli",
+      caption: "RACI matrisi ve tek temas noktasıyla tedarikçi yönetimi context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-3.webp",
+      alt: "Tedarikçi ekosistemi ve rol dağılımı bölüm geçiş görseli otel bağlamı",
+      caption: "Tedarikçi ekosistemi ve rol dağılımı bölüm geçiş görseli otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-4.webp",
+      alt: "Brief sözleşme ve kurulum sürecine geçiş bölüm görseli otel etkinliği",
+      caption: "Brief sözleşme ve kurulum sürecine geçiş bölüm görseli otel etkinliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-5.webp",
+      alt: "Kurulum sırası ve AV sahne koordinasyon akış diyagramı otel etkinliği",
+      caption: "Kurulum sırası ve AV sahne koordinasyon akış diyagramı otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-6.webp",
+      alt: "Tedarikçi yönetimi için RACI ve kontrol adımları checklist kartı otel",
+      caption: "Tedarikçi yönetimi için RACI ve kontrol adımları checklist kartı otel"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-7.webp",
+      alt: "Kurulum gecikmesi ve teknik aksaklıkları izleyen KPI skor kartı otel etkinliği",
+      caption: "Kurulum gecikmesi ve teknik aksaklıkları izleyen KPI skor kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-12/Creative4-12-8.webp",
+      alt: "Tedarikçi brief şablonu ve kurulum planı deliverables proof kartı",
+      caption: "Tedarikçi brief şablonu ve kurulum planı deliverables proof kartı"
+    }
   }
   
 };

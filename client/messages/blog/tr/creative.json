@@ -58070,7 +58070,7 @@
           },
           {
             "type": "h3",
-            "text": "“Minimum set-up” ve “İleri seviye set-up” kutuları (SXO)"
+            "text": "“Minimum set-up” ve “İleri seviye set-up” kutuları "
           },
           {
             "type": "h3",
@@ -59172,6 +59172,810 @@
           "Sapma nedenleri raporlanıyor",
           "İçerik çıktıları (reels/highlight/foto) rapora ekleniyor",
           "ROI ve öğrenim notları bir sonraki etkinlik için saklanıyor"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelEtkinlikTedarikciYonetimiSesIsikSahne": {
+    "title": "Otel Etkinliklerinde Tedarikçi Yönetimi Rehberi",
+    "slug": "otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne",
+    "department": "creative",
+    "subDepartment":"event",
+    "updatedAt": "11 Ağustos 2026",
+    "publishedAt": "2026-08-11",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ses–ışık, sahne, dekor, çiçek, ajans ve video ekiplerini tek planla yönetin. RACI matrisi, brief şablonu, kurulum–söküm timeline ve sözleşme ipuçları.",
+    "seo": {
+      "metaTitle": "Otel Etkinliklerinde Tedarikçi Yönetimi Rehberi | DGTLFACE",
+      "metaDescription": "Ses–ışık, sahne, dekor, çiçek, ajans ve video ekiplerini tek planla yönetin. RACI matrisi, brief şablonu, kurulum–söküm timeline ve sözleşme ipuçları."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı / URL: Etkinlik Prodüksiyonu — https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+        "Blog No / Blog URL: 12 — https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "SERP hedefi: Featured Snippet + PAA",
+        "Difficulty/Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Not: Content style “Expert Guide” gelse de (Varsayım: V2.3 seviye kilidi gereği Intermediate–Expert ve 3000–3500 bandı uygulanmıştır.)",
+        "Canonical: /tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne"
+      ],
+      "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunda “tedarikçi & AV yönetimi” için authority (parent) içeriktir; konser, gala, festival, MICE ve lansman gibi tüm etkinlik türlerinde tekrar tekrar kullanılan tedarikçi ekosistemini standartlaştırır. Hedef persona; otel GM/owner, MICE/etkinlik yöneticisi, satın alma/operasyon lideri ve ajans yöneticisidir (Antalya, Belek, Bodrum gibi çok salonlu ve yoğun etkinlik takvimli destinasyonlarda). Funnel’da consideration → conversion taşır: “kim neye bakıyor karışıyor” sorununu “rol dağılımı + RACI + brief + sözleşme + kurulum/söküm planı” sistemine dönüştürür. Ana iş sorusu: Ses–ışık, sahne, dekor ve ajans gibi çoklu tedarikçiyi tek akışta yönetip teknik aksaklığı ve ekstra maliyeti nasıl azaltırım?"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-08-11",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel etkinliklerinde ses–ışık, sahne, dekor, çiçek, ajans ve foto–video gibi birden fazla tedarikçi aynı sahnede buluşur. Rol ve sorumluluklar net tanımlanmadığında küçük hatalar bile misafir deneyimini, bütçeyi ve takvimi bozar. Çözüm; tedarikçi ekosistemini (kim ne yapar?) netleştirmek, RACI ile sorumluluğu yazılı hale getirmek, tek temas noktası belirlemek ve brief–sözleşme–kurulum/söküm kontrol adımlarını standartlaştırmaktır.",
+      "sgeSummary": "Tedarikçileri “tek şablonla” yönet: ekosistemi tanımla, RACI yaz, tek temas noktası seç, brief’i standardize et, sözleşmeyle sürprizi kapat, kurulum–söküm timeline ve kontrol listesi uygula.",
+      "voiceAnswer": "RACI ile rol dağılımını yaz, tek temas noktası belirle, brief–sözleşme–timeline ile süreci standardize et.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/owner, MICE/etkinlik yöneticisi, satın alma, ajans yöneticisi",
+        "KPI: Teknik aksaklık sayısı, kurulum gecikmesi, bütçe sapması, “blame game” azalması, memnuniyet",
+        "Entity: Vendor Management, AV Supplier, Stage Company, Decor, Agency, Hotel Event",
+        "Geo: Antalya, Belek, Bodrum (çok salon + yüksek yoğunluk)",
+        "Funnel: Consideration → Conversion",
+        "Çıktılar: RACI tablosu, tedarikçi list/iletişim sheet’i, brief template, kurulum–söküm timeline",
+        "Risk: Kapsam belirsizliği, overtime, güvenlik (truss/sahne), depo/lojistik, sözleşme boşlukları"
+      ]
+    },
+    "h1": {
+      "title": "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar",
+      "intro": "“Bir sürü tedarikçi var, kim neye bakıyor karışıyor, nasıl düzenlerim?” Otel etkinliklerinde bu cümle neredeyse her sezon tekrar edilir. Çünkü ses–ışık, sahne/truss, dekor/çiçek, ajans, foto–video ve güvenlik ekipleri aynı anda sahaya girer; rol dağılımı net değilse küçük bir gecikme bile zincirleme etkiyle bütçeyi ve misafir deneyimini bozar. İyi yönetilen tedarikçi ekosistemi teknik aksaklıkları azaltır ve prodüksiyon kalitesini istikrarlı hale getirir; kötü yönetim ise gecikme, ekstra maliyet ve “blame game” üretir. Bu rehber; tedarikçi ekosistemini yazılı hale getirip RACI, brief, sözleşme ve kurulum/söküm süreçleriyle kontrol altına almanıza yardım eder.",
+      "quickSummary": [
+        "1) Tedarikçi ekosistemini ve iş paketlerini yaz",
+        "2) RACI ile sorumlulukları netleştir",
+        "3) Otel ve ajans tarafında tek temas noktası belirle",
+        "4) Brief–sözleşme–kurulum/söküm timeline’ını standardize et",
+        "5) Walk-through ve go/no-go kontrol noktalarıyla sahayı yönet"
+      ],
+      "ctaPrimary": {
+        "label": "Etkinlik Tedarikçi Yönetimi Danışmanlığı Al",
+        "text": "Ses–ışık, sahne, dekor ve ajans ekosistemini RACI ve süreç şablonlarıyla oteliniz için standartlaştıralım.",
+        "href": "/tr/creative/etkinlik-produksiyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Etkinlik Tedarikçi Yönetimi Danışmanlığı Al",
+        "text": "Rol dağılımı, brief ve sözleşme standartlarıyla çoklu tedarikçi koordinasyonunu netleştirip teknik aksaklık ve ekstra maliyeti azaltın.",
+        "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      "secondary": {
+        "label": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir",
+        "text": "Sorumluluk matrisini ve kurulum–söküm timeline’ını tek dokümanda toplayıp “kim neye bakıyor” karmaşasını bitirir.",
+        "href": "/tr/creative/video-produksiyon"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Etkinlik Prodüksiyonu",
+        "href": "/tr/creative/etkinlik-produksiyonu"
+      },
+      {
+        "label": "Video & Prodüksiyon",
+        "href": "/tr/creative/video-produksiyon"
+      },
+      {
+        "label": "Creative & Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "otel-etkinliklerinde-tedarikci-yonetimi-nasil-yapilmali",
+        "title": "Otel etkinliklerinde tedarikçi yönetimi nasıl yapılmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tedarikçi yönetimi “kim kimi aradı?” işi değil, yönetişim işidir. Başarılı model; (1) ekosistemi tanımlar, (2) sorumluluğu yazılılaştırır, (3) tek temas noktasıyla iletişimi sadeleştirir, (4) brief–sözleşme–kurulum kontrol döngüsünü işletir. Otel–ajans–tedarikçi üçgeninde bu döngü kurulmadıkça, her etkinlikte yeniden keşif yapılır."
+          },
+          {"type":"media", "slot":"h1-context-02"},
+          {
+            "type": "h3",
+            "text": "AEO mini cevap bloğu (2–3 cümle)"
+          },
+          {
+            "type": "p",
+            "text": "Otel etkinliklerinde tedarikçi yönetimi için önce “kim ne yapar?” ekosistemini çıkarın ve RACI tablosuyla sorumlulukları yazılı hale getirin. Ajans–otel–tedarikçi arasında tek temas noktası belirleyip tüm ekipleri aynı brief ve set-up planına bağlayın. Sözleşmede overtime, ek ekipman, güvenlik ve teslim kapsamını netleştirip kurulum–söküm timeline’ı ve saha kontrol listesiyle uygulamayı yönetin."
+          },
+          {
+            "type": "h3",
+            "text": "5–7 maddelik AEO checklist’i"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ekosistem: AV, sahne, dekor, ajans, foto–video, güvenlik rolleri net mi?",
+              "RACI: Sorumlu/hesap veren/danışılan/bilgilendirilen yazılı mı?",
+              "Tek temas: Otelde ve ajans tarafında tek irtibat kişi belirlendi mi?",
+              "Brief: Tek format brief + çizimler (layout) + teslim kapsamı var mı?",
+              "Sözleşme: Overtime, revizyon, ek ekipman, iptal, sigorta/güvenlik maddeleri net mi?",
+              "Timeline: Kurulum–prova–event–teardown saatleri onaylı mı?",
+              "Kontrol: Saha walk-through ve “go/no-go” kontrol noktaları var mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: RACI yoksa, sorun çıktığında çözüm yerine “suçlama oyunu” başlar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "RACI’yi tek sayfada çıkar.",
+              "Tek temas noktası modelini uygula.",
+              "Brief’i standardize et ve layout ekle.",
+              "Kurulum–söküm timeline’ı kilitle.",
+              "Sözleşmeyle overtime/ek ekipman riskini kapat."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir",
+            "text": "Sorumluluk matrisini ve kurulum–söküm timeline’ını tek dokümanda toplayıp “kim neye bakıyor” karmaşasını bitirir.",
+            "href": "/tr/creative/video-produksiyon"
+          },
+          {
+            "type": "media",
+            "slot": "divider-01"
+          }
+        ]
+      },
+      {
+        "id": "tedarikci-ekosistemi-kim-ne-yapar",
+        "title": "Tedarikçi Ekosistemi: Kim Ne Yapar?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Önce haritayı çıkaralım. Otel etkinliğinde tedarikçiler genelde şu kümelerde toplanır:"
+          },
+          {
+            "type": "h3",
+            "text": "AV Supplier (Ses–Işık)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PA sistemleri, mikrofonlar, miks, monitör, sahne ışığı",
+              "Ses netliği ve echo kontrolü (kapalı salonlarda kritik)",
+              "Kurulum, prova, live operasyon"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Stage Company (Sahne/Truss/LED Rigging)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sahne platformu, truss sistemleri, LED asma, bariyer",
+              "Güvenlik kriterleri (yük, sertifika, rigging planı)",
+              "Kurulum/söküm saat planı"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Decor / Çiçek / Teknik kiralama"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept dekor, giriş kapısı, signage, masa üstü styling",
+              "Marka uyumu ve mekân kısıtları",
+              "Kurulum sırası (AV’den önce/sonra) koordinasyonu"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Agency (Ajans)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kreatif konsept, akış planı (run-of-show), iletişim",
+              "Tedarikçi koordinasyonu (Varsayım: “master” yönetim)",
+              "Onay süreçleri ve içerik üretim brief’i"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Foto–Video ve içerik ekibi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çekim planı, same-day/after edit, deliverables",
+              "Telif/lisans ve yayın kapsamı (özellikle müzikli içeriklerde)",
+              "KVKK/izin hassasiyetleri (gereken senaryolarda)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: “Kim hangi deliverable’ı teslim ediyor?” net değilse, etkinlik sonrası kaos çıkar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Tedarikçi kümelerini yaz.",
+              "Her küme için 3 ana teslimat belirle.",
+              "Bu teslimatları sözleşmeye bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ses-isik-ve-sahne-sirketleriyle-calisma",
+        "title": "Ses–Işık ve Sahne Şirketleriyle Çalışma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ses–ışık ve sahne firmaları, etkinliğin temel “teknik omurgası”dır. Bu iki tedarikçi arasındaki koordinasyon zayıfsa; rigging gecikir, kablo yönetimi bozulur, prova uzar."
+          },
+          {
+            "type": "h3",
+            "text": "Ses–ışık şirketi seçerken dikkat edilecekler"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Referanslar: benzer ölçek ve salon tipi (balo salonu/amfi/beach)",
+              "Ekip ve görev dağılımı: FOH, monitor, ışık operatörü",
+              "Yedek plan: mikrofon, kablo, kritik ekipman backup",
+              "Overtime koşulları: saatlik ücret ve onay mekanizması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sahne/truss güvenlik kriterleri (kritik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Truss ve rigging planı yazılı mı?",
+              "Yük hesapları ve güvenlik standartları belirtilmiş mi?",
+              "Bariyer ve kablo güvenliği planı var mı?",
+              "Saha sorumlusu kim?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: “Güvenlik belgesi/planı yoksa kurulum yok” kuralını işletin."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "AV ve sahne firmalarından “yazılı plan + sorumlu isim” iste.",
+              "Prova saatini sözleşmeye koy.",
+              "Overtime ve backup planı teklifin parçası yap."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-05"
+          }
+        ]
+      },
+      {
+        "id": "dekor-cicek-ve-teknik-kiralama-firmalari",
+        "title": "Dekor, Çiçek ve Teknik Kiralama Firmaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dekor/çiçek tedarikçileri, “görsel kaliteyi” belirler; ama teknik kurulumla çakışırsa hem gecikme hem hasar riski oluşur. Bu yüzden dekor planı, teknik planla aynı dokümana girmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Marka uyumu ve konsept kriterleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Renk paleti, logo kullanımı, signage dili",
+              "Mekânın gerçek ölçülerine uyum (kapı genişliği, tavan yüksekliği)",
+              "Yangın güvenliği ve acil çıkışların kapanmaması"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Kurulum sırası ve depo/lojistik (otel gerçekliği)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Depo alanı: malzemeler nerede tutulacak?",
+              "Taşıma saatleri: misafir akışıyla çakışmamalı",
+              "Söküm planı: gece mi sabah mı? (otel operasyonuna göre)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: Dekor acil çıkışı daraltıyorsa, “güzel” değil “riskli”dir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Dekor planını salon planıyla üst üste koy.",
+              "Depo/lojistik saatlerini yaz.",
+              "Güvenlik kontrolünü dekor kurulumu bitince yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajans-otel-ve-tedarikci-arasindaki-rol-dagilimi",
+        "title": "Ajans, Otel ve Tedarikçi Arasındaki Rol Dağılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Üçgenin en büyük problemi “kim karar veriyor?” sorusudur. Ajans kreatif karar verirken, otel operasyon ve risk yönetimini taşır; tedarikçi ise teknik gerçekliği ve teslimatı yönetir. Bu üç rol ayrılmazsa hız düşer."
+          },
+          {
+            "type": "h3",
+            "text": "Tek temas noktası (single point of contact) modeli"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel tarafında 1 “event owner”",
+              "Ajans tarafında 1 “producer / account lead”",
+              "Her tedarikçide 1 saha sorumlusu"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu model, WhatsApp gruplarını azaltmaz ama “karar kanalını” netleştirir."
+          },
+          {
+            "type": "h3",
+            "text": "RACI ile blame game’i bitirmek"
+          },
+          {
+            "type": "p",
+            "text": "RACI’nin gücü, kriz anında “kime gidilir?” sorusunu ortadan kaldırmasıdır. Özellikle kurulum gecikmesi, ekipman arızası veya son dakika revizyonlarda RACI hayat kurtarır."
+          },
+          {
+            "type": "table",
+            "caption": "RACI Tablosu (Sorumluluk Matrisi)",
+            "headers": [
+              "İş Paketi",
+              "Otel (Event Owner)",
+              "Ajans",
+              "AV Supplier",
+              "Sahne",
+              "Dekor",
+              "Foto/Video",
+              "Güvenlik"
+            ],
+            "rows": [
+              [
+                "Brief onayı",
+                "A",
+                "R",
+                "C",
+                "C",
+                "C",
+                "C",
+                "I"
+              ],
+              [
+                "Salon layout & acil çıkış",
+                "A",
+                "C",
+                "C",
+                "C",
+                "C",
+                "I",
+                "R"
+              ],
+              [
+                "Sahne/truss kurulum",
+                "I",
+                "C",
+                "C",
+                "R/A",
+                "C",
+                "I",
+                "C"
+              ],
+              [
+                "Ses kurulum & prova",
+                "I",
+                "C",
+                "R/A",
+                "C",
+                "I",
+                "C",
+                "I"
+              ],
+              [
+                "Işık programlama",
+                "I",
+                "C",
+                "R/A",
+                "C",
+                "I",
+                "C",
+                "I"
+              ],
+              [
+                "Dekor kurulum",
+                "I",
+                "C",
+                "I",
+                "C",
+                "R/A",
+                "I",
+                "I"
+              ],
+              [
+                "Run-of-show yönetimi",
+                "C",
+                "R/A",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C"
+              ],
+              [
+                "Yayın/çekim izinleri (Varsayım)",
+                "A",
+                "C",
+                "I",
+                "I",
+                "I",
+                "R",
+                "I"
+              ],
+              [
+                "Event day operasyon",
+                "A",
+                "R",
+                "R",
+                "R",
+                "R",
+                "R",
+                "R"
+              ],
+              [
+                "Teardown/söküm",
+                "I",
+                "C",
+                "R",
+                "R",
+                "R",
+                "I",
+                "C"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: 3 kişi aynı anda onay veriyorsa, aslında kimse onay vermiyordur."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Karar vericiyi tekleştir.",
+              "RACI’yi ekibe imzalat (Varsayım: toplantı notu).",
+              "Kritik kararlar için “onay SLA” belirle."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "divider-02"
+          }
+        ]
+      },
+      {
+        "id": "sozlesme-brief-ve-setup-gerceklestirme-surecleri",
+        "title": "Sözleşme, Brief ve Set-up/Gerçekleştirme Süreçleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tedarikçi yönetiminin “kasları” süreçtir. Süreç yazılı değilse, her etkinlikte yeniden anlaşılır ve maliyet artar."
+          },
+          {
+            "type": "h3",
+            "text": "Brief template: tek sayfa, net kapsam"
+          },
+          {
+            "type": "p",
+            "text": "Brief’te mutlaka olmalı:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Etkinlik tipi, hedef, kişi sayısı, alan ve saatler",
+              "Layout (salon planı, sahne, giriş, bar, acil çıkışlar)",
+              "Deliverables (AV plan, dekor teslim, video/foto çıktıları)",
+              "Kısıtlar: ses limitleri, depo alanı, yükleme boşaltma saatleri",
+              "Onay mekanizması: kim onaylar, kaç tur"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "proof-08"
+          },
+          {
+            "type": "h3",
+            "text": "Kurulum–prova–event–teardown timeline"
+          },
+          {
+            "type": "p",
+            "text": "Kurulum ve söküm saatleri net değilse, otel operasyonuyla çakışır ve maliyet artar (overtime). Antalya/Belek/Bodrum gibi yoğun sezonlarda lojistik pencereler daha da daralır; bu yüzden timeline “kırmızı çizgi” olmalıdır."
+          },
+          {
+            "type": "table",
+            "caption": "Kurulum–Söküm Timeline (Örnek)",
+            "headers": [
+              "Zaman",
+              "İş",
+              "Sorumlu",
+              "Not"
+            ],
+            "rows": [
+              [
+                "T-24s",
+                "Sahne/truss kurulum",
+                "Stage Co",
+                "Güvenlik kontrol"
+              ],
+              [
+                "T-20s",
+                "Ses kurulum",
+                "AV",
+                "Kablo güvenliği"
+              ],
+              [
+                "T-16s",
+                "Işık programlama",
+                "AV",
+                "Test çekimi (Varsayım)"
+              ],
+              [
+                "T-12s",
+                "Dekor kurulum",
+                "Decor",
+                "Acil çıkış açık"
+              ],
+              [
+                "T-6s",
+                "Prova / run-through",
+                "Ajans + tüm ekip",
+                "Go/No-Go"
+              ],
+              [
+                "T",
+                "Etkinlik",
+                "Otel + Ajans",
+                "Overtime kuralı"
+              ],
+              [
+                "T+2s",
+                "İlk söküm",
+                "Stage+AV",
+                "Depo planı"
+              ],
+              [
+                "T+8s",
+                "Tam teardown",
+                "Tüm ekip",
+                "Hasar kontrol"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "diagram-09"
+          },
+          {
+            "type": "h3",
+            "text": "Sözleşme kontrol başlıkları (sürprizi azaltır)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Overtime ücretleri ve onay mekanizması",
+              "Ek ekipman ücretleri (acil ihtiyaç senaryosu)",
+              "Hasar/sigorta ve güvenlik sorumluluğu",
+              "İptal/erteleme ve depozito",
+              "Teslim kapsamı (kaç kişi, kaç saat, kaç revizyon)",
+              "Dış link verilecekse nofollow/sponsored notu (Varsayım: otel blog politikasına göre)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: Kurulum saatleri ve overtime yazılı değilse, “bedava mesai” kavgası çıkar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Brief’i tek şablona indir.",
+              "Timeline’ı imza seviyesinde kilitle.",
+              "Overtime ve revizyon maddelerini sözleşmede netleştir.",
+              "Walk-through ve go/no-go kontrol noktası koy."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Etkinlik Tedarikçi Yönetimi Danışmanlığı Al",
+            "text": "Rol dağılımı, brief ve sözleşme standartlarıyla çoklu tedarikçi koordinasyonunu netleştirip teknik aksaklık ve ekstra maliyeti azaltın.",
+            "href": "/tr/creative/etkinlik-produksiyonu"
+          }
+        ]
+      },
+      {
+        "id": "operasyonel-produksiyon-yonetisimi",
+        "title": "Fark Yaratan Otel-Özel Bölüm: “Operasyonel Prodüksiyon Yönetişimi”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AI competitor gap notu: Rakip içerikler tedarikçi yönetimini genelde ajans perspektifinden anlatıyor; otel–ajans–tedarikçi üçgeninde operasyonel prodüksiyon yönetişimini hem pratik hem stratejik anlatan Türkçe içerik az."
+          },
+          {
+            "type": "p",
+            "text": "Otel farkı; aynı alanda misafir, servis trafiği, güvenlik ve marka deneyimini aynı anda yönetmesidir. Bu yüzden tedarikçi yönetimini “satın alma” değil “operasyonel yönetişim” olarak ele almak; teknik aksaklığı, gecikmeyi ve ekstra maliyeti düşürür."
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: Eğer her etkinlikte aynı problemler tekrar ediyorsa (geç kurulum, eksik ekipman, iletişim kaosu), sorun tedarikçi değil “süreç”tir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "RACI + brief + timeline üçlüsünü standardize et.",
+              "Tek temas noktası modelini zorunlu kıl.",
+              "Her etkinlik sonrası 10 dakikalık “post-mortem” yap ve şablona geri işle."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Etkinlik Tedarikçi Yönetimi Danışmanlığı Al",
+            "text": "Tedarikçi ekosisteminizi süreç ve şablonlarla yönetip kaliteyi istikrarlı hâle getirelim.",
+            "href": "/tr/creative/etkinlik-produksiyonu"
+          },
+          {
+            "type": "media",
+            "slot": "kpi-07"
+          }
+        ]
+      },
+      {
+        "id": "tedarikci-raci-kurulum-plani-sablonu",
+        "title": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir — Creative / Vendor Management (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir — Creative / Vendor Management (v1.0)",
+            "purpose": "Bu şablon, otel etkinliklerinde ses–ışık, sahne, dekor ve ajans gibi tedarikçilerin rol ve sorumluluklarını RACI matrisiyle netleştirir; kurulum–prova–event–teardown timeline’ını tek dokümanda toplar. Amaç; gecikmeyi ve “blame game”i azaltarak kontrollü prodüksiyon sağlamak ve sürpriz maliyetleri önlemektir.",
+            "whoFor": "MICE/etkinlik yöneticisi, satın alma, operasyon, ajans prodüktörü, AV/sahne ekip liderleri.",
+            "steps": [
+              "Etkinlik kapsamını ve tedarikçi listesini girin.",
+              "RACI tablosunda her iş paketini “R/A/C/I” olarak işaretleyin.",
+              "Kurulum–söküm timeline’ını kilitleyip saha kontrol noktalarını (go/no-go) ekleyin."
+            ],
+            "checklist": [
+              "Acil çıkışlar açık ve işaretli",
+              "Sahne/truss güvenlik kontrolü tamam",
+              "Ses anlaşılabilirlik testi (konuşma)",
+              "Işık modları hazır (konuşma/show)",
+              "Overtime onay mekanizması net",
+              "Depo/lojistik rotası hazır"
+            ],
+            "href": "/downloads/tedarikci-raci-kurulum-plani-sablonu-v1.0.pdf",
+            "buttonLabel": "Tedarikçi RACI & Kurulum Planı Şablonunu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel etkinliklerinde ses–ışık ve sahne tedarikçileri nasıl yönetilmeli?",
+        "a": "Önce AV ve sahne iş paketlerini yazılı netleştirip RACI ile sorumluluk atayın. Kurulum/prova saatlerini timeline’da kilitleyin; overtime ve yedek ekipman planını sözleşmeye ekleyin. Tek temas noktasıyla iletişimi sadeleştirin."
+      },
+      {
+        "q": "Ajans–otel–tedarikçi rolleri nasıl ayrılmalı?",
+        "a": "Otel “event owner” olarak risk ve operasyonu taşır, ajans akış ve koordinasyonu yönetir, tedarikçiler teknik teslimattan sorumludur. Karar kanalı tekleştirilmeli ve RACI ile herkesin rolü yazılı hale getirilmelidir."
+      },
+      {
+        "q": "Kurulum ve söküm saatleri nasıl planlanır?",
+        "a": "Kurulum–prova–event–teardown adımlarını saat bazında planlayıp her adımın sorumlusunu yazın. Misafir trafiği, depo/lojistik pencereleri ve güvenlik kontrolleri timeline’a gömülmelidir."
+      },
+      {
+        "q": "Tedarikçi sözleşmesinde nelere dikkat etmeliyim?",
+        "a": "Overtime ücretleri, ek ekipman fiyatları, revizyon kapsamı, hasar/sigorta ve iptal/erteleme koşulları net olmalıdır. Güvenlik (truss/sahne) planı ve yedek plan teklifin parçası olmalıdır."
+      },
+      {
+        "q": "En sık tedarikçi problemi nerede çıkar?",
+        "a": "Belirsiz kapsam, tek temas noktası olmaması ve kurulum/prova saatlerinin net yazılmamasında. Bu durum gecikme ve ekstra maliyete dönüşür; RACI ve timeline ile önlenir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-hero-01.webp — Alt text: “Otel etkinliğinde ses ışık sahne ve dekor tedarikçilerinin sahada koordinasyonu”",
+          "H1 sonrası Context — 1920×1080 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-h1-context-02.webp — Alt text: “RACI matrisi ve tek temas noktasıyla tedarikçi yönetimi context görseli”",
+          "Section Divider 01 — 1600×1200 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-divider-03.webp — Alt text: “Tedarikçi ekosistemi ve rol dağılımı bölüm geçiş görseli otel bağlamı”",
+          "Section Divider 02 — 1600×1200 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-divider-04.webp — Alt text: “Brief sözleşme ve kurulum sürecine geçiş bölüm görseli otel etkinliği”",
+          "Diagram / Flow — 1920×1080 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-diagram-05.webp — Alt text: “Kurulum sırası ve AV sahne koordinasyon akış diyagramı otel etkinliği”",
+          "Checklist / Framework Card — 1200×1200 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-checklist-06.webp — Alt text: “Tedarikçi yönetimi için RACI ve kontrol adımları checklist kartı otel”",
+          "KPI / Score Card — 1200×1200 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-kpi-07.webp — Alt text: “Kurulum gecikmesi ve teknik aksaklıkları izleyen KPI skor kartı otel etkinliği”",
+          "Deliverables / Proof Card — 1200×1200 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-proof-08.webp — Alt text: “Tedarikçi brief şablonu ve kurulum planı deliverables proof kartı”",
+          "Ek Diagram / Flow — 1920×1080 — otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne-diagram-09.webp — “Kurulum–söküm zaman çizelgesi görseli”",
+          "Tablo — RACI (Sorumluluk Matrisi) Tablosu",
+          "Asset tablo — Kurulum–Söküm Timeline (Örnek)"
+        ],
+        "technicalChecklist": [
+          "AV, sahne, dekor, ajans, foto–video ve güvenlik rolleri net",
+          "RACI matrisi yazılı ve ekiplerle paylaşıldı",
+          "Otel tarafında tek Event Owner belirlendi",
+          "Ajans tarafında tek producer/account lead belirlendi",
+          "Her tedarikçide tek saha sorumlusu belirlendi",
+          "Brief tek formatta hazırlanıyor",
+          "Salon layout, sahne, giriş ve acil çıkışlar brief’e eklendi",
+          "Deliverables tedarikçi bazında yazılı",
+          "Kurulum–prova–event–teardown timeline’ı onaylandı",
+          "Sahne/truss güvenlik planı ve sorumlusu net",
+          "Yük hesapları ve rigging güvenlik kontrolleri mevcut",
+          "Kablo ve bariyer güvenliği kontrol edildi",
+          "AV backup planı teklifin parçası",
+          "Prova saati sözleşmede tanımlı",
+          "Overtime saat ücreti ve onay mekanizması yazılı",
+          "Ek ekipman ücretleri yazılı",
+          "Revizyon kapsamı yazılı",
+          "İptal/erteleme ve depozito koşulları net",
+          "Hasar/sigorta sorumlulukları net",
+          "Dekor acil çıkışları kapatmıyor",
+          "Depo ve lojistik rotaları planlandı",
+          "Walk-through tamamlandı",
+          "Go/No-Go kontrol noktası uygulandı",
+          "Etkinlik sonrası post-mortem yapılıyor ve süreç şablonuna işleniyor"
         ]
       }
     }

@@ -110655,6 +110655,230 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne",
+
+      "name": "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne",
+
+      "headline": "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar",
+
+      "name": "Otel Etkinliklerinde Tedarikçi Yönetimi: Ses–Işık, Sahne, Dekor ve Ajanslar",
+
+      "description": "Otel etkinliklerinde ses–ışık, sahne, dekor ve ajans tedarikçilerini rol dağılımı, brief, sözleşme ve kurulum–söküm süreçleriyle yönetmeye yönelik pratik rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Vendor Management",
+
+        "AV Supplier",
+
+        "Stage Company",
+
+        "Decor",
+
+        "Agency",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik tedarikci yönetimi",
+
+        "ses isik sahne firma secimi",
+
+        "ajans otel tedarikci rol dagilimi",
+
+        "av & stage supplier management",
+
+        "vendor coordination for hotel events"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "serviceType": "Etkinlik Tedarikçi Yönetimi",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Tedarikçi Yönetimi",
+
+          "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinliklerinde ses–ışık ve sahne tedarikçileri nasıl yönetilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AV ve sahne iş paketlerini yazılı netleştirip RACI ile sorumluluk atayın. Kurulum/prova saatlerini timeline’da kilitleyin; overtime ve yedek ekipman planını sözleşmeye ekleyin. Tek temas noktasıyla iletişimi sadeleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Ajans–otel–tedarikçi rolleri nasıl ayrılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Otel event owner olarak risk ve operasyonu taşır, ajans akış ve koordinasyonu yönetir, tedarikçiler teknik teslimattan sorumludur. Karar kanalı tekleştirilmeli ve RACI ile roller yazılı hale getirilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kurulum ve söküm saatleri nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kurulum–prova–event–teardown adımlarını saat bazında planlayıp her adımın sorumlusunu yazın. Misafir trafiği, depo/lojistik pencereleri ve güvenlik kontrolleri timeline’a gömülmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Tedarikçi sözleşmesinde nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Overtime ücretleri, ek ekipman fiyatları, revizyon kapsamı, hasar/sigorta ve iptal/erteleme koşulları net olmalıdır. Güvenlik (truss/sahne) planı ve yedek plan teklifin parçası olmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
