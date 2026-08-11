@@ -108267,6 +108267,2394 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-ugc-misafir-video-stratejisi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi",
+
+      "name": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#webpage" },
+
+      "headline": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+
+      "name": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+
+      "description": "Bu rehber, misafir üretimi (UGC) otel videolarını hashtag, yarışma ve sonrası kurgu ile nasıl toplayıp, düzenleyip, güvenli bir şekilde tanıtım ve sosyal medyada kullanabileceğinizi özetler.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "UGC",
+
+        "Hashtag Campaign",
+
+        "Guest Video",
+
+        "Rights Management",
+
+        "Consent",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+
+      "serviceType": "Video & Prodüksiyon",
+
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#howto",
+
+      "name": "UGC otel videolarını toplama ve güvenli kullanma adımları",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Toplama kanalı kur", "text": "Hashtag/mention, e-posta/WhatsApp daveti veya QR ile UGC toplama akışı oluştur." },
+
+        { "@type": "HowToStep", "name": "Kürasyon yap", "text": "Kalite, marka uyumu ve mahremiyet kriterleriyle seçki oluştur." },
+
+        { "@type": "HowToStep", "name": "Yazılı izin al", "text": "Organik, montaj ve reklam kullanımı için ayrı izin seviyeleriyle onay topla ve kayıt tut." },
+
+        { "@type": "HowToStep", "name": "Telif kontrolü yap", "text": "Müzik ve üçüncü taraf içerik risklerini kontrol et; şüpheli içerikleri kullanma." },
+
+        { "@type": "HowToStep", "name": "Montaj üret ve yayınla", "text": "UGC’yi markaya uygun montage’a dönüştür; Reels/Story/Shorts olarak yayınla ve arşivle." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım", "item": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC nedir, oteller için neden önemlidir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "UGC misafirlerin kendi deneyimlerinden ürettiği videolardır ve sosyal kanıt üretir. Doğru kullanıldığında güveni artırabilir; kontrolsüz kullanıldığında itibar riski yaratabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafirlerden video içerik nasıl toplanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çıkış sonrası e-posta/WhatsApp daveti, hashtag/mention kurgusu ve otel içi UGC noktaları (QR) ile toplanabilir. Süreci kolaylaştırmak için tek hashtag + tek mention yaklaşımı işe yarar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC otel videolarını kullanırken izin almak şart mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Evet. Özellikle misafir yüzü görünen videolarda yazılı/onaylı izin olmadan kullanım yapılmamalıdır. Organik repost, montaj ve reklam kullanımı için izin seviyeleri ayrı alınmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "UGC’yi tanıtım videolarında nasıl kullanabilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Seçilmiş UGC klipleri 20–45 saniyelik montage içeriklerde veya tanıtım filmine kısa sosyal kanıt kesitleri olarak entegre edilebilir. Marka uyumu için edit/overlay ile standardize edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-ai-video-edit-oto-highlight":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight",
+
+      "name": "AI Video Edit ile Oteller İçin Otomatik Highlight ve Kısa Video Üretimi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#webpage" },
+
+      "headline": "AI Video Edit ile Oteller İçin Otomatik Highlight ve Kısa Video Üretimi",
+
+      "name": "AI Video Edit ile Oteller İçin Otomatik Highlight ve Kısa Video Üretimi",
+
+      "description": "Bu blog, AI video edit araçlarıyla otel videolarından otomatik highlight ve kısa Reels/Shorts üretmeyi; sahne seçimi, dikey crop ve altyazı/çeviri önerileri üzerinden adım adım açıklar.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "AI Video Editing",
+
+        "Highlight Reel",
+
+        "Subtitle",
+
+        "Translation",
+
+        "Reels",
+
+        "Hotel Promo"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#howto",
+
+      "name": "Otel videolarında AI edit ile highlight üretme adımları",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Sahneleri etiketle", "text": "Oda, havuz, F&B ve spa gibi blokları tag’leyerek AI sahne seçimini yönlendir." },
+
+        { "@type": "HowToStep", "name": "AI ile taslak highlight üret", "text": "AI’dan 5–7 kliplik highlight seti ve ilk cut önerilerini al." },
+
+        { "@type": "HowToStep", "name": "Dikey crop kontrolü yap", "text": "Logo ve kanıt unsurlarının kesilmediğini doğrula; safe area uygula." },
+
+        { "@type": "HowToStep", "name": "Subtitle/çeviri taslağını düzelt", "text": "AI altyazı/çeviri üretir; marka tonu ve doğruluk için insan edit uygula." },
+
+        { "@type": "HowToStep", "name": "KVKK/telif ve final kalite kapısı", "text": "Misafir yüzleri, hassas detaylar ve telifli müzik risklerini kontrol edip final export al." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "AI Video Edit ile Oteller İçin Otomatik Highlight ve Kısa Video Üretimi", "item": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-ai-video-edit-oto-highlight#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI video edit araçları otel videolarında nasıl kullanılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "AI’ı taslak üretici olarak kullanın: highlight seçimi, dikey crop ve altyazı taslağı. Finalde marka tonu, logo/crop hataları, KVKK/mahremiyet ve telif kontrolünü insan gözüyle tamamlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Uzun tanıtım videosundan otomatik Reels nasıl çıkarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sahneleri bloklara ayırıp AI ile 5–7 klip seçin, sonra 9:16 crop kontrolü yaparak 10–20 saniyelik ‘tek mesaj’ Reels kurgusuna recut edin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI altyazı ve çeviri güvenilir mi?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Taslak olarak hızlıdır; finalde insan kontrolü şarttır. Özellikle DE/RU pazarlarda ton ve ifadeler literal çeviride yapay kalabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "AI edit sonrası nelere mutlaka manuel bakmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Logo/kanıt unsurlarının crop’ta kesilmemesi, misafir yüzleri/mahrem detaylar, telifli müzik, yanlış altyazı/çeviri ve CTA doğruluğu mutlaka kontrol edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-shoppable-video-qr-book-now":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now",
+
+      "name": "Shoppable Video ve QR Kodlu “Book Now”: Otel Videolarında Tıklanabilir Deneyimler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#webpage" },
+
+      "headline": "Shoppable Video ve QR Kodlu “Book Now”: Otel Videolarında Tıklanabilir Deneyimler",
+
+      "name": "Shoppable Video ve QR Kodlu “Book Now”: Otel Videolarında Tıklanabilir Deneyimler",
+
+      "description": "Bu blog, otel videolarını tıklanabilir hotspot ve QR kodlarla shoppable hâle getirerek, izlenmeden rezervasyona giden yolu nasıl kısaltabileceğinizi anlatır.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Shoppable Video",
+
+        "QR Code",
+
+        "Book Now",
+
+        "Hotspot",
+
+        "UTM",
+
+        "Event Tracking"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#howto",
+
+      "name": "Otel videolarını shoppable hâle getirme adımları",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Hedefi seç", "text": "Oda, paket veya etkinlik için shoppable hedefini belirle." },
+
+        { "@type": "HowToStep", "name": "Hotspot yerleştir", "text": "Kanıt sahnelerine kısa süreli Book Now/Teklifi Gör hotspot’ları ekle." },
+
+        { "@type": "HowToStep", "name": "QR ile offline bağla", "text": "Lobby/TV ekranlarında QR kullanarak UTM’li landing’e yönlendir." },
+
+        { "@type": "HowToStep", "name": "Ölçümle", "text": "GA4 event tracking ve UTM ile hotspot click, QR scan ve booking adımlarını izle." },
+
+        { "@type": "HowToStep", "name": "Optimize et", "text": "CTA metni, hotspot zamanı ve landing sadeleştirme ile iterasyon yap." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Shoppable Video ve QR Kodlu “Book Now”: Otel Videolarında Tıklanabilir Deneyimler", "item": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-shoppable-video-qr-book-now#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Shoppable video nedir, otellerde nasıl kullanılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Shoppable video, videoya tıklanabilir hotspot ve Book Now gibi CTA alanları ekleyerek izleyiciyi oda/paket/etkinlik sayfasına taşır. Offline ekranlarda QR ile aynı akış mobil web’e bağlanabilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Videoda “Book Now” butonu nasıl yerleştirilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Buton kanıt sahnesinde kısa süre görünür olmalı ve tek hedefe yönlendirmelidir. Mobilde kapatılabilir olmalı; metin landing mesajıyla aynı olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "QR kodlu otel videoları rezervasyonları artırır mı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Doğru landing ve net CTA ile rezervasyon niyetini artırabilir; özellikle lobby/TV gibi offline temaslarda aksiyon köprüsü kurar. Etki UTM ve event tracking ile ölçülmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Shoppable video performansını nasıl ölçerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hotspot tıklaması, QR scan, landing CTR ve booking start/complete event’lerini GA4’te izleyin. Kampanya bazında UTM ile kaynakları ayırın ve funnel raporu çıkarın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-surdurulebilirlik-yesil-video-hikayeleri":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri",
+
+      "name": "Sürdürülebilirlik ve “Yeşil Otel” Video Hikâyeleri: Yeni Nesil Misafir için Anlatım Dili",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR",
+
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#breadcrumb" }
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#article",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#webpage" },
+
+      "headline": "Sürdürülebilirlik ve “Yeşil Otel” Video Hikâyeleri: Yeni Nesil Misafir için Anlatım Dili",
+
+      "name": "Sürdürülebilirlik ve “Yeşil Otel” Video Hikâyeleri: Yeni Nesil Misafir için Anlatım Dili",
+
+      "description": "Bu blog, otel sürdürülebilirlik ve “yeşil otel” hikâyelerini enerji, su, atık, yerel üretici ve sertifika odaklı videolarla nasıl kurgulamanız gerektiğini, samimi storytelling örnekleriyle birlikte anlatır.",
+
+      "inLanguage": "tr-TR",
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#webpage" },
+
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+
+      "about": [
+
+        "Sustainability",
+
+        "Green Hotel",
+
+        "Energy Saving",
+
+        "Local Producer",
+
+        "Certification",
+
+        "Storytelling"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#howto",
+
+      "name": "Yeşil otel hikâyesini videoda anlatma adımları",
+
+      "inLanguage": "tr-TR",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Tema seç", "text": "Enerji, su, atık veya yerel üretici gibi tek bir ana tema belirle." },
+
+        { "@type": "HowToStep", "name": "Kanıt sahnesi çek", "text": "Seçilen temayı somut uygulama sahnesiyle göster; abartılı iddiadan kaçın." },
+
+        { "@type": "HowToStep", "name": "Şeffaf microcopy yaz", "text": "Ne yapıldığını 1–2 kısa cümleyle açıkla; ölçülebilir veri varsa ekle." },
+
+        { "@type": "HowToStep", "name": "Sertifikayı sade anlat", "text": "Sertifikayı 1 cümleyle açıkla ve detay sayfasına yönlendir." },
+
+        { "@type": "HowToStep", "name": "Seri olarak yayınla", "text": "3 videoluk seri kurarak sosyalde yayınla ve web’de derinleştir." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+
+        { "@type": "ListItem", "position": 4, "name": "Sürdürülebilirlik ve “Yeşil Otel” Video Hikâyeleri: Yeni Nesil Misafir için Anlatım Dili", "item": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-surdurulebilirlik-yesil-video-hikayeleri#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sürdürülebilirlik odaklı otel videosu nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gerçek uygulamaları sahneyle göstermeli, ölçülü ve doğrulanabilir bir dille anlatmalı ve sertifikaları abartmadan açıklamalıdır. Seri format güveni artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yeşil otel uygulamalarını videoda nasıl gösterebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Enerji, su ve atık gibi somut kanıt sahneleri seçin; her sahneye ‘ne işe yarar’ microcopy ekleyin. Uygulamayı süreç olarak göstermek güveni artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Greenwashing’e düşmeden hangi sahnelere odaklanmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Slogan yerine uygulama ve süreç sahnelerine odaklanın: enerji/su/atık kanıtı, yerel üretici ve ekip katılımı gibi gerçek adımlar kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Sertifika ve çevre belgelerini videoda nasıl anlatırım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sertifikanın neyi doğruladığını 1 cümleyle açıklayın ve daha fazla bilgi için web’de şeffaf bir sayfaya yönlendirin. Abartılı vaatlerden kaçının."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-dugun-organizasyonu-video-foto-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon",
+
+      "headline": "Otel Düğün Organizasyonlarında Video & Foto Prodüksiyon Nasıl Planlanır?",
+
+      "name": "Otel Düğün Organizasyonlarında Video & Foto Prodüksiyon Nasıl Planlanır?",
+
+      "description": "Otel düğün organizasyonlarında video ve fotoğraf prodüksiyonunu; brief’ten çekim planına, düğün filminden highlight ve Reels içeriklerine kadar adım adım kurgulama rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#article" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Wedding Event",
+
+        "Hotel Wedding",
+
+        "Shot List",
+
+        "Photo & Video Team",
+
+        "Highlight Film",
+
+        "Reels"
+
+      ],
+
+      "keywords": [
+
+        "otel dugun video foto cekim planlama",
+
+        "wedding shot list otel",
+
+        "dugun highlight video otel",
+
+        "hotel wedding photo video guide",
+
+        "same day wedding highlight"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#event",
+
+      "name": "Otel Düğün Etkinliği (Örnek Şablon)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Hotel Wedding Venue",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Side / Bodrum"
+
+        }
+
+      },
+
+      "description": "Otel düğün organizasyonlarında tören, kokteyl ve after party için video & foto prodüksiyon planı şablonu."
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#video",
+
+      "name": "Düğün Highlight Video (Örnek Çıktı)",
+
+      "description": "Otel düğününde highlight ve kısa dikey içerik üretimi için örnek video çıktısı.",
+
+      "uploadDate": "2026-02-11",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#article" }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#howto",
+
+      "name": "Otel düğünlerinde video ve fotoğraf prodüksiyonu nasıl planlanmalı?",
+
+      "description": "Brief, shot list, ekip koordinasyonu ve teslim adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Çift brief’ini ve teslim paketini kilitle", "text": "Stil, öncelikler ve uzun film + highlight + Reels teslimlerini yazılı hale getir." },
+
+        { "@type": "HowToStep", "name": "Alan şemasını ve timeline’ı çıkar", "text": "Hazırlık–seremoni–kokteyl–after akışını saat bazında planla ve çekim noktalarını belirle." },
+
+        { "@type": "HowToStep", "name": "Shot list’i foto/video sorumlularıyla böl", "text": "Kritik anları önceliklendir ve ekip çakışmasını koridor/rol paylaşımıyla önle." },
+
+        { "@type": "HowToStep", "name": "Teslim takvimini uygula", "text": "Highlight ve kısa videoları hızlı çıkar, uzun filmi düzenli arşiv/backup ile tamamla." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Otel Düğün Video & Foto Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-dugun-organizasyonu-video-foto-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otelde düğün videosu ve fotoğraf çekimi nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Çiftle brief yapıp öncelikleri ve teslim paketini netleştirin; tören–kokteyl–after akışını timeline’a bağlayın. Alan yerleşimi ve shot list ile foto/video ekip sorumluluklarını ayırarak çatışmayı önleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Düğün shot list’inde neler olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hazırlık, first look, seremoni, kokteyl ve after bölümleri ayrı ayrı yazılmalı; her planın alanı, önceliği ve foto/video sorumlusu belirtilmelidir. Ses kaydı gereken anlar ayrıca işaretlenmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Fotoğraf ve video ekibi aynı anda nasıl çalışır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kritik anlarda lider ekip belirlenir ve ekipler için ayrı hareket koridorları tanımlanır. Böylece aynı kadrajı kovalamak yerine birbirini tamamlayan çekimler üretilir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Düğün sonrası highlight ve kısa videoları nasıl kurgulamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce 60–120 saniyelik highlight’ı ana moment’ler üzerinden kurgulayın, sonra 15–30 saniyelik Reels için hook + ana an + kapanış yapısını kullanın. Teslim takvimini düğünden önce netleştirin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-cocuk-aile-etkinlik-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon",
+
+      "headline": "Otel Çocuk ve Aile Etkinliklerinde Prodüksiyon: Animasyon, Mini Club ve Aile Show’ları",
+
+      "name": "Otel Çocuk ve Aile Etkinliklerinde Prodüksiyon: Animasyon, Mini Club ve Aile Show’ları",
+
+      "description": "Mini club ve aile show’larını güvenli kadraj, izin yaklaşımı ve KVKK dikkatleriyle videoya alıp sosyal medyada kullanmak için pratik prodüksiyon rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#article" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Kids Club",
+
+        "Family Entertainment",
+
+        "Animation Show",
+
+        "Privacy",
+
+        "Consent",
+
+        "Hotel Experience"
+
+      ],
+
+      "keywords": [
+
+        "otel cocuk animasyon video cekimi",
+
+        "mini club video prodüksiyon",
+
+        "kvkk uyumlu cocuk icerigi otel",
+
+        "family friendly resort content",
+
+        "kids animation video production"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#event",
+
+      "name": "Otel Çocuk & Aile Etkinliği (Örnek Şablon)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Resort Otel Mini Club ve Show Alanı",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Side / Kemer / Bodrum"
+
+        }
+
+      },
+
+      "description": "Mini club aktiviteleri, mini disco ve aile show’ları için güvenli içerik üretimi odaklı etkinlik çerçevesi."
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#video",
+
+      "name": "Çocuk & Aile Etkinliği Highlight (Güvenli Kadraj Örneği)",
+
+      "description": "Yüz göstermeden atmosfer ve deneyimi anlatan kısa highlight örnek çıktısı.",
+
+      "uploadDate": "2026-02-11",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#article" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çocuk ve Aile Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-cocuk-aile-etkinlik-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel çocuk etkinlikleri nasıl çekilmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Programı içerik takvimine çevirin ve güvenli kadraj standardı belirleyin. Genel plan, arkadan ve detay çekimleriyle eğlenceyi gösterirken yüz/kimlik ifşasını azaltın; yayın öncesi kontrol rutini uygulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çocukların yüzünü göstermeden nasıl güçlü içerik üretebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Arkadan kadraj, geniş genel plan, silüet ve detay planlarla atmosferi gösterebilirsiniz. Kurguda gerekirse blur/maske kullanarak riskli alanları anonimleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çocuk videolarında KVKK ve izin süreci nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Uygulama otelin süreçlerine göre değişebileceği için hukuki/teknik danışmanlıkla netleştirilmelidir. Pratikte bilgilendirme, rıza yaklaşımı ve rıza yoksa yayın dışı bırakma/anonimleştirme adımları yazılı hale getirilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mini club ve animasyon videolarında nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yakın plan yüz çekimlerinden kaçının; isim/etiket gibi kimlik işaretlerini göstermeyin. Eğitmen, alan güvenliği ve program çeşitliliğini genel ve detay planlarla anlatın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-festival-beach-party-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon",
+
+      "headline": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
+
+      "name": "Otel Festival ve Beach Party Prodüksiyonu: DJ Set, Konsept ve İçerik Akışı",
+
+      "description": "Otel festival ve beach party etkinliklerinde tema, sahne–ses/ışık, alan planı ve içerik üretimini birlikte kurgulamak için pratik prodüksiyon rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#article" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Festival Event",
+
+        "Beach Party",
+
+        "DJ Set",
+
+        "Stage & Lighting",
+
+        "Crowd Management",
+
+        "Social Media Content"
+
+      ],
+
+      "keywords": [
+
+        "otel festival beach party prodüksiyon",
+
+        "white party sahne ve alan plani",
+
+        "dj gecesi video icerik stratejisi",
+
+        "festival production in beach resorts",
+
+        "white party otel etkinlik planlama"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#event",
+
+      "name": "Otel Festival / Beach Party (Örnek Şablon)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Resort Otel Beach/Havuz Alanı",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Bodrum / Çeşme"
+
+        }
+
+      },
+
+      "description": "DJ set’li otel beach party ve festival gecesi için tema, alan planı, güvenlik ve içerik akışı çerçevesi."
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#video",
+
+      "name": "Festival Highlight Video (Örnek Çıktı)",
+
+      "description": "Sunset→night→after akışını kapsayan otel festival highlight örnek video çıktısı.",
+
+      "uploadDate": "2026-02-11",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#article" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Festival ve Beach Party Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-festival-beach-party-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel festival veya beach party nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce tema ve hedefi netleştirin, sonra DJ set ve ses–ışık prodüksiyonunu alan planıyla birlikte kurgulayın. Giriş–bar–dans–acil çıkış akışını crowd management ile yönetin ve çekim/yayın akışını aynı dokümana bağlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "White party / neon night gibi temalar için neler yapmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tema için 5 görsel öğe seçin (renk, ışık, signage, aksesuar, dress code) ve her içerikte en az 2 öğeyi görünür kılın. White party’de minimal premium, neon night’ta yüksek kontrast ve UV vurgusu daha iyi çalışır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "DJ set ve ses–ışık prodüksiyonu nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "DJ booth konumu güvenli kurulum ve iyi görüş hattı sağlamalıdır. Ses–ışık modlarını etkinlik ritmine göre planlayın; komşu alanlar ve ses limitlerine uyum için ölçüm/plan yapın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Festivalden sosyal medya videosu ve reels nasıl çıkarılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sunset–night–after akışına göre shot list oluşturun ve 1 geceden 10+ kısa klip haritası çıkarın. Tema signage, DJ booth ve zirve anını mutlaka yakalayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-calisan-etkinligi-ic-organization-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon",
+
+      "headline": "Otel Çalışan Etkinlikleri ve İç Organizasyonlarda Prodüksiyon: Motivasyon, Ödül ve Eğitim",
+
+      "name": "Otel Çalışan Etkinlikleri ve İç Organizasyonlarda Prodüksiyon: Motivasyon, Ödül ve Eğitim",
+
+      "description": "Otel iç organizasyon ve çalışan etkinliklerinde (motivasyon, ödül, eğitim) video prodüksiyonunu samimiyet, kültür ve KVKK/erişim dengesiyle kurgulama rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon#article" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Internal Event",
+
+        "Staff Motivation",
+
+        "Training Video",
+
+        "Award Ceremony",
+
+        "Internal Comms",
+
+        "KVKK"
+
+      ],
+
+      "keywords": [
+
+        "otel calisan etkinligi video cekimi",
+
+        "ic organizasyon odul toreni prodüksiyon",
+
+        "egitim ve workshop video ozetleri otel",
+
+        "staff motivation event coverage",
+
+        "internal communication videos for hotels"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon#howto",
+
+      "name": "Otel çalışan etkinliklerinde video prodüksiyonu nasıl konumlandırılmalı?",
+
+      "description": "Hedef, çekim, izin ve iç kanallarda yayın adımlarını içeren pratik rehber.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Hedef ve formatı belirle", "text": "Motivasyon, ödül veya eğitim hedefini seç; recap, röportaj veya highlight formatını kilitle." },
+
+        { "@type": "HowToStep", "name": "Sade çekim planı oluştur", "text": "12–15 planlık shot list çıkar; kısa röportajlar için 2 soru seti kullan." },
+
+        { "@type": "HowToStep", "name": "İzin ve erişim kurallarını yaz", "text": "KVKK yaklaşımı, erişim yetkileri ve saklama süresini dokümante et; dış kullanımda ek izin şartını belirt." },
+
+        { "@type": "HowToStep", "name": "İç kanallarda kontrollü yayınla", "text": "Intranet’te arşivle, WhatsApp’ta kısa cut paylaş, e-postada özet+link kullan." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Çalışan Etkinliklerinde Prodüksiyon", "item": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-etkinligi-ic-organization-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel çalışan etkinliklerini videoya alırken nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hedefi (motivasyon/eğitim/ödül) netleştirip kısa ve samimi format seçin. İzin/KVKK yaklaşımını, erişim yetkilerini ve hangi kanalda paylaşılacağını yazılı hale getirin; dış iletişimde kullanılacaksa ek izin planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "İç ödül töreni videosu nasıl kurgulanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kısa açılış, 3–5 kazanan anı ve 30–45 saniyelik bir başarı hikâyesi röportajı yeterlidir. 'Neden ödül aldı?' mesajını net verip kapanışta ekibi görünür kılın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Eğitim ve workshop videoları iç iletişimde nasıl kullanılabilir?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ham kayıt yerine 60–120 saniyelik recap üretin; '3 öğrenim' yapısıyla özetleyin. Intranet’te arşivleyip WhatsApp ve e-postada kısa link/özetle duyurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Çalışan videolarında KVKK ve izin süreci nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Yüz/isim kullanımı, erişim yetkileri ve saklama süreleri konusunda yazılı bir yaklaşım gerekir; süreçler uzmanlıkla netleştirilmelidir. İç kullanım izni dış yayın için otomatik sayılmamalı, dış iletişimde ek izin alınmalıdır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"hibrit-ve-online-otel-etkinlikleri-canli-yayin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin",
+
+      "headline": "Hibrit ve Online Otel Etkinlikleri: Canlı Yayın, Webinar ve Kayıt Prodüksiyonu",
+
+      "name": "Hibrit ve Online Otel Etkinlikleri: Canlı Yayın, Webinar ve Kayıt Prodüksiyonu",
+
+      "description": "Otel toplantı salonlarında hibrit ve online etkinliklerde canlı yayın ve kayıt prodüksiyonunu; salon kurulumundan içerik akışına ve kayıtların yeniden kullanımına kadar anlatan rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#article" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Hybrid Event",
+
+        "Webinar",
+
+        "Live Streaming",
+
+        "Meeting Room",
+
+        "AV Setup",
+
+        "On-Demand Content"
+
+      ],
+
+      "keywords": [
+
+        "hibrit otel etkinligi kurulumu",
+
+        "toplanti salonu canli yayin ekipman",
+
+        "otel webinar prodüksiyon rehberi",
+
+        "hybrid hotel events",
+
+        "webinar production in hotels"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#event",
+
+      "name": "Hibrit Otel Etkinliği / Webinar (Örnek Şablon)",
+
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Otel Toplantı Salonu",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "İstanbul / Antalya"
+
+        }
+
+      },
+
+      "description": "Otel toplantı salonundan canlı yayınlanan hibrit toplantı/webinar için AV set-up ve yayın akışı çerçevesi."
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#video",
+
+      "name": "Hibrit Etkinlik Kayıt ve Snippet Örneği",
+
+      "description": "Hibrit etkinlik kaydının on-demand ve kısa snippet içeriklere dönüştürülmesi için örnek çıktı.",
+
+      "uploadDate": "2026-02-11",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#article" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Hibrit ve Online Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/hibrit-ve-online-otel-etkinlikleri-canli-yayin#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hibrit otel etkinliği nasıl kurulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Salon yerleşimi ve akustiği planlayın, mikrofon ve echo kontrolünü çözün. Kamera açıları, sunum paylaşımı, stabil upload ve yedek bağlantı ile yayın zincirini kurun; etkileşim ve kayıt sonrası kullanım planını run-of-show’a ekleyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Toplantı salonunda canlı yayın için hangi ekipmanlar gerekli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Minimum set-up için 1 kamera, 1–2 mikrofon, sunum capture ve stabil internet gerekir. İleri set-up’ta 2–3 kamera, miks masası, ışık ve yedek kayıt/ISO seçenekleri eklenir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Webinar ve online eğitim akışı nasıl olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kısa açılış, bölümlü ana içerik, akışa gömülü poll/mini Q&A ve kapanış CTA ile ilerleyin. Moderatör rolü chat ve Q&A’yı filtreleyerek yayın ritmini korur."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kayıtları sonradan nasıl değerlendirebilirim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kayıtları on-demand içerik olarak bölümleyebilir, 30–90 saniyelik snippet’lar çıkarabilir ve case formatında yeniden paketleyebilirsiniz. Bu yaklaşım etkinlik sonrası ROI’yi artırır."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlik-produsksiyon-butce-planlama":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama",
+
+      "name": "Otel Etkinlik Prodüksiyon Bütçesi Nasıl Planlanır? Maliyet Kalemleri ve Fiyatlandırma",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama",
+
+      "headline": "Otel Etkinlik Prodüksiyon Bütçesi Nasıl Planlanır? Maliyet Kalemleri ve Fiyatlandırma",
+
+      "name": "Otel Etkinlik Prodüksiyon Bütçesi Nasıl Planlanır? Maliyet Kalemleri ve Fiyatlandırma",
+
+      "description": "Otel etkinlik prodüksiyonunda sahne, ses–ışık, video, dekor, güvenlik ve ekip kalemleri için bütçe planlamasını; teklif karşılaştırma, sözleşme ipuçları ve ROI bakışıyla özetleyen rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Event Budget",
+
+        "Cost Items",
+
+        "Quote Comparison",
+
+        "Contract",
+
+        "ROI",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik prodüksiyon bütçesi",
+
+        "etkinlik maliyet kalemleri otel",
+
+        "otel organizasyon fiyatlandirma rehberi",
+
+        "event production budget planning",
+
+        "hotel event cost breakdown"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "serviceType": "Etkinlik Prodüksiyon Bütçe Planlama Danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama#howto",
+
+      "name": "Otel etkinlik prodüksiyon bütçesi nasıl planlanmalı?",
+
+      "description": "Kapsam, maliyet kalemleri, teklif karşılaştırma, sözleşme ve etkinlik sonrası ROI raporu adımları.",
+
+      "step": [
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kapsamı sabitle",
+
+          "text": "Etkinlik tipi, kişi sayısı, gün sayısı, alan ve içerik çıktıları gibi kapsam bilgilerini tek sayfada netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Kalem kırılımını çıkar",
+
+          "text": "Sahne, ses–ışık, video/foto, dekor, personel, güvenlik, lojistik ve contingency kalemlerini tek tabloda topla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Teklifleri aynı formatta karşılaştır",
+
+          "text": "Tüm tedarikçilere aynı şablonu gönder; para birimi, KDV, kurulum/teardown ve overtime koşullarını kıyasla."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Sözleşmeyle sürpriz maliyeti kapat",
+
+          "text": "Overtime, revizyon, ek ekipman, iptal/erteleme ve lisans/KVKK maddelerini netleştir."
+
+        },
+
+        {
+
+          "@type": "HowToStep",
+
+          "name": "Etkinlik sonrası ROI raporla",
+
+          "text": "Planlanan–gerçekleşen maliyeti kapat, sapma nedenini yaz, içerik çıktıları ve performans sinyalleriyle ROI bakışı kur."
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        {
+
+          "@type": "ListItem",
+
+          "position": 4,
+
+          "name": "Otel Etkinlik Prodüksiyon Bütçesi Nasıl Planlanır?",
+
+          "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-produsksiyon-butce-planlama#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinlik prodüksiyon bütçesi nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Önce kapsamı netleştirip kalemleri (sahne, ses–ışık, video, dekor, güvenlik, personel) tek tabloda toplayın. Teklifleri aynı formatta kıyaslayın ve overtime/ek ekipman gibi sürprizleri sözleşmeyle kapatın; etkinlik sonrası ROI raporlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi maliyet kalemleri mutlaka bütçede olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Sahne, ses–ışık, video/foto, dekor/konsept, personel–operasyon, güvenlik ve lojistik temel kalemlerdir. Ayrıca küçük de olsa contingency ayırmak bütçe sapmasını azaltır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Teklifleri nasıl karşılaştırmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Gün sayısı (kurulum/etkinlik/teardown), ekipman kapasitesi, personel sayısı, overtime ücretleri, KDV ve para birimini aynı tabloda karşılaştırın. Dahil/hariç farklarını yazılı görmeden karar vermeyin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etkinlik sonrası bütçe–sonuç analizi nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Planlanan vs gerçekleşen maliyeti kalem kalem kapatıp sapma nedenini yazın. İçerik çıktıları ve performans sinyallerini ekleyerek ROI bakışı oluşturun ve öğrenimleri bir sonraki etkinliğe taşıyın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },

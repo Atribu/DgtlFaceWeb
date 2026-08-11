@@ -647,7 +647,17 @@ export const BLOG_MAP = {
     "otel-video-performans-analizi-izlenme-donusum":"BlogOtelVideoPerformansAnaliziIzlenmeDonusum",
     "otel-4-mevsim-video-icerik-plani":"BlogOtel4MevsimVideoIcerikPlani",
     "otel-fotograf-video-cekimi-aynigun":"BlogOtelFotografVideoCekimiAynigun",
-    "otel-live-yayin-instagram-youtube-tiktok":"BlogOtelLiveYayinInstagramYoutubeTiktok"
+    "otel-live-yayin-instagram-youtube-tiktok":"BlogOtelLiveYayinInstagramYoutubeTiktok",
+    "otel-ugc-misafir-video-stratejisi":"BlogOtelUgcMisafirVideoStratejisi",
+    "otel-ai-video-edit-oto-highlight":"BlogOtelAiVideoEditOtoHighlight",
+    "otel-shoppable-video-qr-book-now":"BlogOtelShoppableVideoQrBookNow",
+    "otel-surdurulebilirlik-yesil-video-hikayeleri":"BlogOtelSurdurulebilirlikYesilVideoHikayeleri",
+    "otel-dugun-organizasyonu-video-foto-produsksiyon":"BlogOtelDugunOrganizasyonuVideoFotoProdusksiyon",
+    "otel-cocuk-aile-etkinlik-produsksiyon":"BlogOtelCocukAileEtkinlikProdusksiyon",
+    "otel-festival-beach-party-produsksiyon":"BlogOtelFestivalBeachPartyProdusksiyon",
+    "otel-calisan-etkinligi-ic-organization-produsksiyon":"BlogOtelCalisanEtkinligiIcOrganizationProdusksiyon",
+    "hibrit-ve-online-otel-etkinlikleri-canli-yayin":"BlogHibritVeOnlineOtelEtkinlikleriCanliYayin",
+    "otel-etkinlik-produsksiyon-butce-planlama":"BlogOtelEtkinlikProdusksiyonButcePlanlama"
     
   },
 
