@@ -659,7 +659,12 @@ export const BLOG_MAP = {
     "hibrit-ve-online-otel-etkinlikleri-canli-yayin":"BlogHibritVeOnlineOtelEtkinlikleriCanliYayin",
     "otel-etkinlik-produsksiyon-butce-planlama":"BlogOtelEtkinlikProdusksiyonButcePlanlama",
     "otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne":"BlogOtelEtkinlikTedarikciYonetimiSesIsikSahne",
-    "otel-acik-alan-etkinlik-hava-plani-b-plani":"BlogOtelAcikAlanEtkinlikHavaPlaniBPlani"
+    "otel-acik-alan-etkinlik-hava-plani-b-plani":"BlogOtelAcikAlanEtkinlikHavaPlaniBPlani",
+    "otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon":"BlogOtel3GunlukKurumsalRetreatVeKampProdusksiyon",
+    "otel-etkinlik-master-checklist-operasyon-el-kitabi":"BlogOtelEtkinlikMasterChecklistOperasyonElKitabi",
+    "otel-etkinlik-kayit-rsvp-checkin":"BlogOtelEtkinlikKayitRsvpCheckin",
+    "otel-etkinlik-misafir-akisi-ve-wayfinding":"BlogOtelEtkinlikMisafirAkisiVeWayfinding",
+    "otel-etkinlik-guvenlik-ve-risk-yonetimi":"BlogOtelEtkinlikGuvenlikVeRiskYonetimi"
     
   },
 

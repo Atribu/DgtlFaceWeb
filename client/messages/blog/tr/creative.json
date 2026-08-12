@@ -32277,7 +32277,7 @@
           },
           {
             "type": "h3",
-            "text": "Journey map nasıl hazırlanır? (AEO 6–8 madde)"
+            "text": "Journey map nasıl hazırlanır?"
           },
           {
             "type": "list",
@@ -43475,7 +43475,7 @@
         {
           "type": "callout",
           "variant": "checklist",
-          "title": "Mini Check (AEO 7 adım)",
+          "title": "Mini Check ",
           "items": [
             "Saat + ışık planı net mi?",
             "Rota yazılı mı?",
@@ -51875,10 +51875,6 @@
           ]
         },
         {
-          "type": "p",
-          "text": "Buraya: [Görsel Tipi] — ölçü — dosya adı — alt text (AEO checklist bölümünde wireframe yerine “takvim” görseli bağlanır.)"
-        },
-        {
           "type": "h3",
           "text": "☑ Mini Check:"
         },
@@ -53762,7 +53758,7 @@
           },
           {
             "type": "h3",
-            "text": "☑ Mini Check (AEO)"
+            "text": "☑ Mini Check"
           },
           {
             "type": "list",
@@ -54414,7 +54410,7 @@
           },
           {
             "type": "h3",
-            "text": "☑ Mini Check (AEO)"
+            "text": "☑ Mini Check "
           },
           {
             "type": "list",
@@ -54991,7 +54987,7 @@
           },
           {
             "type": "h3",
-            "text": "☑ Mini Check (AEO)"
+            "text": "☑ Mini Check "
           },
           {
             "type": "list",
@@ -55574,7 +55570,7 @@
           },
           {
             "type": "h3",
-            "text": "☑ Mini Check (AEO)"
+            "text": "☑ Mini Check "
           },
           {
             "type": "list",
@@ -60611,7 +60607,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Hava planını tek sayfaya indir.",
             "Eşikleri yaz ve “kim karar verir?”i tekleştir.",
@@ -60659,7 +60655,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Riskleri “konfor–güvenlik–operasyon” üçlüsünde ayrı yaz.",
             "Elektrik ve sahne güvenliğini B planının parçası yap."
@@ -60752,7 +60748,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "4 senaryolu matrisini otelinize uyarlayın.",
             "Karar vericiyi ve karar saatini yazın.",
@@ -60823,7 +60819,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "B planı için “yerleşim çizimi + görev dağılımı” hazırla.",
             "Standby ekipmanı belirle.",
@@ -60911,7 +60907,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "3 mesaj şablonunu hazırla ve onaylat.",
             "Tek iletişim kişisi belirle.",
@@ -60968,7 +60964,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Sözleşmede “hava kaynaklı yer değişimi” maddesini netleştir.",
             "Overtime ve ek ekipman fiyatlarını baştan listele.",
@@ -61000,7 +60996,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Matris + B planı yerleşimi + mesaj şablonu + sözleşme maddesini “tek paket” yap.",
             "Her open-air etkinlikte aynı paketi uygula."
@@ -61094,6 +61090,3509 @@
         "Hava Senaryosu Karar Matrisi tek tablo olarak kullanılıyor",
         "Primary CTA → /creative/etkinlik-produksiyonu",
         "Secondary CTA → /creative/video-produksiyon",
+        "İç linklerde kırık link ve redirect zinciri kontrolü",
+        "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
+      ]
+    }
+  }
+},
+
+"BlogOtel3GunlukKurumsalRetreatVeKampProdusksiyon": {
+  "title": "3 Günlük Kurumsal Retreat Otel Prodüksiyon Akışı",
+  "slug": "otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon",
+  "department": "creative",
+  "subDepartment":"event",
+  "updatedAt": "12 Ağustos 2026",
+  "publishedAt": "2026-08-12",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "3 günlük kurumsal retreat’i otelde planlayın: gün gün program, mekân dönüşümü (salon–beach–bahçe), lojistik, workshop/aktivite ve foto–video belgeleme + sonrası iletişim.",
+  "seo": {
+    "metaTitle": "3 Günlük Kurumsal Retreat Otel Prodüksiyon Akışı | DGTLFACE",
+    "metaDescription": "3 günlük kurumsal retreat’i otelde planlayın: gün gün program, mekân dönüşümü (salon–beach–bahçe), lojistik, workshop/aktivite ve foto–video belgeleme + sonrası iletişim."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / URL: Etkinlik Prodüksiyonu — /tr/creative/etkinlik-produksiyonu",
+      "Blog No / Blog URL: 14 — /tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional",
+      "SERP hedefi: Featured Snippet + PAA",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon"
+    ],
+    "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunda “retreat & kamp” için authority (parent) içerik olarak; 3 günlük kurumsal program tasarımı, mekân dönüşümü ve belgeleme akışını otel perspektifinden standardize eder. Hedef persona; kurumsal satış/MICE yöneticisi, GM/owner, etkinlik operasyon lideri ve ajans/prodüksiyon yöneticisidir; özellikle Antalya, Belek, Bodrum gibi resort ve toplantı otellerinde 3 günlük kamp/retreat satışları artan bir cluster oluşturur. Funnel’da consideration → conversion taşır: “3 gün otelde kamp yapalım” ihtiyacını “program–mekân–lojistik–aktivite–belgeleme” sistemine çevirir. Ana iş sorusu: 3 gün boyunca hem gelişim hem eğlence hem networking’i dengede tutan, otel operasyonunu yormayan ve etkinlik sonrası iç iletişimi besleyen bir retreat akışını nasıl kurarım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-12",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kurumsal retreat ve kamp etkinlikleri, ekipleri hem geliştirmek hem motive etmek için güçlü araçlardır; otel tarafında ise 3 günlük program tasarımı, mekân dönüşümü, lojistik ve akış yönetimi yapılmadığında deneyim dağılır. Başarılı model; günlere göre hedef–içerik–serbest zaman dengesini kurar, toplantı salonu ile açık alanları planlı dönüştürür, fasilitatör/aktivite yönetimini netleştirir ve foto–video belgeleme ile etkinlik sonrası teşekkür/özet içeriklerini hazırlar.",
+    "sgeSummary": "3 günlük retreat: hedefleri netleştir, programı günlere böl, check-in/out ve yemekleri akışa göm, salon–beach–bahçe dönüşümünü planla, aktiviteleri yönet, kayıtları özet video/rapora çevir.",
+    "voiceAnswer": "3 günü hedeflere göre böl, mekân dönüşümünü planla, molaları entegre et, sonunda özet video ve rapor paylaş.",
+    "aiFactSheet": [
+      "Hedef kitle: Kurumsal satış/MICE, GM/owner, etkinlik operasyon, ajans/prodüksiyon",
+      "KPI: Katılımcı memnuniyeti, oturum katılımı, networking süresi, çalışan bağlılığı sinyali, MICE gelir etkisi",
+      "Entity: Corporate Retreat, Camp Event, 3-Day Program, Workshop, Team Building, Hotel Event",
+      "Geo: Antalya, Belek, Bodrum (resort + toplantı altyapısı)",
+      "Funnel: Consideration → Conversion (+ post-event internal comms)",
+      "Çıktılar: 3 günlük program timeline, mekân dönüşüm planı, fasilitatör yönetim akışı, özet video/storyboard",
+      "Risk: Aşırı yoğun program, check-in/out çakışması, gürültü limitleri, lojistik gecikme, belgeleme eksikliği"
+    ]
+  },
+  "h1": {
+    "title": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
+    "intro": "“Şirket kampını 3 gün otelde yapmak istiyoruz, programı nasıl kurmalıyım?” 3 günlük retreat’lerin başarısı, programın yalnız “dolu” olmasında değil; doğru ritimde ilerlemesindedir. Otel tarafında bu etkinlikler; toplantı salonu oturumları, açık alan aktiviteleri, yemek/coffee break akışları ve akşam sosyal programların birlikte yönetilmesini gerektirir. İyi kurgulanmadığında mekân dönüşümü yetişmez, katılımcı yorulur, ekipler dağılır ve deneyim “kamp” değil “koşuşturma”ya dönüşür. Bu rehber; 3 günlük program tasarımından mekân dönüşümüne, aktivite yönetiminden foto–video belgeleme ve etkinlik sonrası iletişime kadar otel boyutunu adım adım ele alır.",
+    "quickSummary": [
+      "1) 3 günün amacı ve KPI’larını yazılı hale getir",
+      "2) Her günün temasını hizalanma–derin çalışma–kapanış olarak netleştir",
+      "3) Salon–beach–bahçe dönüşümü ve geçiş sürelerini planla",
+      "4) Check-in/out, yemek, molalar ve aktiviteleri akışa entegre et",
+      "5) Foto–video çıktı paketi ve etkinlik sonrası iletişimi baştan planla"
+    ],
+    "ctaPrimary": {
+      "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
+      "text": "Program, mekân ve prodüksiyon akışını oteliniz için ölçeklenebilir bir modele dönüştürelim.",
+      "href": "/creative/etkinlik-produksiyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
+      "text": "Program, mekân dönüşümü ve aktivite akışını otel operasyonuna uygun şekilde kurgulayıp 3 günü kusursuz yönetin.",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    "secondary": {
+      "label": "3 Günlük Retreat Program & Mekân Planı Şablonunu İndir",
+      "text": "Gün gün program iskeleti, mekân dönüşüm planı ve belgeleme adımlarını tek dokümanda toplayıp hızlı planlamayı sağlar.",
+      "href": "/creative/video-produksiyon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "title": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    }
+  ],
+  "sections": [
+    {
+      "id": "uc-gunluk-kurumsal-retreat-nasil-kurgulanmali",
+      "title": "3 günlük kurumsal retreat otelde nasıl kurgulanmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "3 gün, “çok uzun” gibi görünür ama yanlış planlanırsa iki gün içinde enerji düşer. Doğru yaklaşım; her günü farklı bir amaç setine bağlamak ve toplantı–aktivite–serbest zaman dengesini kurmaktır. Otel operasyonu için de ana kritik; check-in/out saatlerini, yemek/servis pencerelerini ve mekân dönüşüm sürelerini programın içine gömmektir."
+        },
+        {"type":"media","slot":"h1-context-02"},
+        {
+          "type": "h3",
+          "text": "AEO mini cevap bloğu (2–3 cümle)"
+        },
+        {
+          "type": "p",
+          "text": "3 günlük kurumsal retreat’i otelde kurgulamak için önce hedefleri netleştirin (gelişim, motivasyon, networking). Programı günlere bölün: 1. gün varış–açılış–hizalanma, 2. gün çalışma–aktivite–sosyal zirve, 3. gün kapanış–aksiyon–ayrılış. Salon–beach–bahçe dönüşümünü planlayıp fasilitatör, aktiviteler, foto–video belgeleme ve etkinlik sonrası teşekkür/özet içeriklerini aynı akışa bağlayın."
+        },
+        {
+          "type": "h3",
+          "text": "5–7 maddelik AEO checklist’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef: 3 günün amacı ve KPI’ları yazılı mı?",
+            "Gün planı: Her günün teması (hizalanma/derin çalışma/kapanış) net mi?",
+            "Mekân: Salon–beach–bahçe dönüşümü ve geçiş süreleri planlı mı?",
+            "Operasyon: Check-in/out, yemek ve molalar programa entegre mi?",
+            "Aktivite: Workshop/teambuilding ve fasilitatör yönetimi net mi?",
+            "Akşam programı: Gürültü limitleri ve komşu alanlar dikkate alındı mı?",
+            "Belgeleme: Foto–video çıktı paketi (özet video, snippet, rapor) planlı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Program “sürekli oturum” ise, retreat değil toplantı maratonu olur; serbest zamanı koruyun."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "3 günü tema bazında böl.",
+            "Mekân dönüşüm sürelerini gerçekçi yaz.",
+            "Molaları ve check-in/out’u akışa göm.",
+            "Aktivite ve fasilitatörü rol olarak tanımla.",
+            "Etkinlik sonrası özet video + raporu baştan planla."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "retreat-kamp-etkinlikleri-nedir",
+      "title": "Retreat ve Kamp Etkinlikleri Nedir, Hangi Hedeflere Hizmet Eder?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kurumsal retreat; ekipleri bir araya getirip hizalamayı, gelişimi ve motivasyonu artırmayı hedefleyen çok günlü bir deneyimdir. Kamp formatı ise daha yoğun bir program ritmiyle “birlikte çalışma + birlikte eğlenme” dengesini kurar. Otel açısından bu etkinlikler, MICE gelirini büyütürken aynı zamanda tesisin “deneyim tasarlayan” bir mekân olarak konumlanmasını sağlar."
+        },
+        {
+          "type": "h3",
+          "text": "Retreat hedef setleri (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gelişim: eğitim, workshop, liderlik oturumları",
+            "Motivasyon: takım ruhu, kutlama, ödül",
+            "Networking: departmanlar arası bağ, üst yönetim–saha teması",
+            "Strateji: hedef hizalama, plan, aksiyon takibi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Hedef yazılı değilse, program “rastgele” görünür ve katılımcı anlam aramaz."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Hedefleri 3 maddeye indir.",
+            "Her hedefe 1 program bloğu bağla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uc-gunluk-program-tasarimi",
+      "title": "3 Günlük Program Tasarımı: Gelişim, Eğlence, Networking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "3 günlük program, “bloklar” üzerinden tasarlanır: sabah derin çalışma, öğle hafif oturum/aktivite, akşam sosyal zirve gibi. Asıl hedef; yoğun içerik ile serbest zamanı dengede tutmaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Örnek 3 günlük kamp programı (kullanıcıya uygulanabilir kutu)"
+        },
+        {
+          "type": "h3",
+          "text": "Gün 1 (Varış & Hizalanma)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-in + karşılama (operasyon buffer)",
+            "Açılış konuşması + hedef çerçevesi",
+            "Hafif workshop (tanışma/ritim)",
+            "Akşam: hoş geldin networking (gürültü limitine dikkat)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gün 2 (Derin Çalışma & Aktivite + Sosyal Zirve)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sabah: ana workshop / strateji oturumları",
+            "Öğle: serbest zaman + kısa aktivite",
+            "Öğleden sonra: takım çalışması / breakout",
+            "Akşam: sosyal program (gala/party/temalı gece)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Gün 3 (Kapanış & Aksiyon)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sabah: özet + aksiyon planı",
+            "Kapanış konuşması + teşekkür",
+            "Check-out + ayrılış"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "3 Günlük Program Timeline",
+          "headers": [
+            "Gün",
+            "Sabah",
+            "Öğle",
+            "Öğleden sonra",
+            "Akşam",
+            "Mekân",
+            "Not"
+          ],
+          "rows": [
+            [
+              "1",
+              "Varış & check-in",
+              "Açılış",
+              "Hafif workshop",
+              "Networking",
+              "Ballroom/Foyer",
+              "Buffer ekle"
+            ],
+            [
+              "2",
+              "Ana workshop",
+              "Serbest zaman",
+              "Aktivite/Breakout",
+              "Sosyal zirve",
+              "Beach/Bahçe + Salon",
+              "Gürültü limiti"
+            ],
+            [
+              "3",
+              "Özet & aksiyon",
+              "Check-out",
+              "Kapanış",
+              "Ayrılış",
+              "Salon",
+              "Teşekkür planı"
+            ]
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "h3",
+          "text": "Enerji yönetimi: yoğun içerik + serbest zaman dengesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "90 dakikadan uzun oturumlar enerji düşürür (Varsayım: çoğu ekipte)",
+            "Öğleden sonra “hafif” bloklar daha iyi çalışır",
+            "Serbest zaman, deneyim algısını yükseltir (özellikle resort destinasyonlarda)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "2. gün öğleden sonra “serbest zaman” yoksa 3. gün verim düşer."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Oturumları 60–90 dk bandında tut.",
+            "2. gün mutlaka serbest zaman ekle.",
+            "Akşam programını “zirve” olarak kurgula."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "3 Günlük Retreat Program & Mekân Planı Şablonunu İndir",
+          "text": "Gün gün program iskeleti, mekân dönüşüm planı ve belgeleme adımlarını tek dokümanda toplayıp hızlı planlamayı sağlar.",
+          "href": "/creative/video-produksiyon"
+        }
+      ]
+    },
+    {
+      "id": "mekan-lojistik-planlama",
+      "title": "Mekân ve Lojistik Planlama: Toplantı, Açık Alan, Dönüşüm",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-04"
+        },
+        {
+          "type": "p",
+          "text": "3 günlük retreat’in otel tarafındaki en büyük farkı “mekân dönüşümü”dür. Sabah ballroom’da toplantı, öğleden sonra beach/çim alanda aktivite, akşam başka bir alanda sosyal program… Bu dönüşüm planlanmazsa kurulum ekibi yetişemez."
+        },
+        {
+          "type": "h3",
+          "text": "Mekân dönüşümü (salon, beach, bahçe)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ballroom: ana oturumlar, sunum, Q&A",
+            "Beach/bahçe: team building, serbest networking, sunset etkinliği",
+            "Akşam alanı: gala/party veya daha sakin networking"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Operasyonel teknik notlar (kısa)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Check-in/out saatleri programda buffer ister; ilk gün girişte “ağır oturum” koymayın.",
+            "Yemek ve molalar salon kapasitesi ve servis trafiğine göre planlanmalı; coffee break alanı oturum akışını kesmemeli.",
+            "Gece gürültü limitleri ve komşu alanlar (oda blokları) özellikle resort otellerde kritik olabilir.",
+            "Açık alanda elektrik/kablo güvenliği ve hava B planı (gerekirse) düşünülmelidir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Mekân dönüşümü için “süre” yazılmadıysa, plan gerçekçi değildir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Dönüşüm sürelerini (kurulum/teardown) timeline’a ekle.",
+            "Coffee break alanını sabitle.",
+            "Akşam programı için gürültü limitini baştan konuş."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aktiviteler-workshoplar-aksam-programi",
+      "title": "Aktiviteler, Workshop’lar ve Akşam Programı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retreat’i “retreat” yapan şey, otel dışına taşan deneyim bloklarıdır: team building, workshop, outdoor aktivite, akşam sosyal program. Burada en kritik konu fasilitatör (eğitmen) yönetimi ve katılımcı ritmidir."
+        },
+        {
+          "type": "h3",
+          "text": "Aktivite & workshop yönetimi (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her aktivitenin amacı: eğlence mi, öğrenme mi, networking mi?",
+            "Fasilitatör brief’i: katılımcı profili, hedef, süre",
+            "Güvenlik ve lojistik: açık alan ekipmanı, su/ikram, gölgelik (Varsayım: sıcak destinasyon)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Akşam sosyal programı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gala/party: yüksek enerji; ses ve gürültü limitleri kontrol edilmeli",
+            "Networking: daha sakin format; konuşmaya uygun ses seviyesi",
+            "Temalı gece: marka hikâyesi ve içerik üretimi için avantaj"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Aktivite “amaç” taşımıyorsa, program kalabalıklaşır ama değer üretmez."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "2 ana aktivite seç, fazlasını ekleme.",
+            "Fasilitatör brief’ini yazılı ver.",
+            "Akşam programını gürültü limitine göre seç."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fotograf-video-belgeleme-sonrasi-iletisim",
+      "title": "Fotoğraf–Video Belgeleme ve Sonrası İletişim",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "3 günlük retreat’in ROI’si yalnız etkinlikte değil, sonrasında da devam eder: teşekkür, özet video, learning recap ve iç rapor. Belgeleme zayıfsa etkinlik “biter”; belgeleme güçlü ise “yaşar”."
+        },
+        {
+          "type": "h3",
+          "text": "Belgeleme planı (3 gün için)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1: varış, açılış, ilk networking",
+            "Gün 2: workshop, team building, sosyal zirve",
+            "Gün 3: kapanış, aksiyon planı, veda"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Event sonrası paket (iç iletişim için)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Teşekkür e-postası (1 gün içinde)",
+            "60–120 sn özet video (3–7 gün)",
+            "10–15 snippet (talk highlights, aktiviteler)",
+            "Kısa rapor: “öğrenimler + aksiyonlar” (Varsayım: şirket isterse)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kapanışta “aksiyon” çıkmıyorsa, 3 gün hızlı unutulur; özet ve follow-up şart."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Teşekkür + özet video paketini sözleşmeye bağla.",
+            "Snippet’ları konuşma anlarına göre planla.",
+            "Raporlamayı iç iletişim döngüsüne bağla."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
+          "text": "Programı, mekân dönüşümünü ve belgeleme paketini tek akışta planlayıp kusursuz bir 3 gün tasarlayın.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "mekan-donusumunu-urunlestirmek",
+      "title": "Fark Yaratan Otel-Özel Bölüm: “Mekân Dönüşümü”nü Ürünleştirmek",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI competitor gap notu: Rakip içerikler retreat kavramını yurt dışı örneklerle ve teorik düzeyde anlatıyor; Türkiye’de otel altyapısı, mekân dönüşümü ve prodüksiyon detaylarıyla birleşmiş rehber çok az."
+        },
+        {
+          "type": "p",
+          "text": "Otel için fark yaratan şey, 3 gün boyunca farklı alanları sorunsuz dönüştürme kabiliyeti’dir. Bunu ürünleştirdiğinizde (program + mekân dönüşümü + belgeleme paketi), kurumsal satış tarafında güçlü bir teklif avantajı doğar."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Eğer her retreat’te aynı mekân dönüşüm sorunu yaşanıyorsa, sorun plan değil “standart eksikliği”dir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Dönüşüm planlarını şablonlaştır.",
+            "Minimum ekipman/preset set-up oluştur.",
+            "Video belgeleme paketini her teklife ekle."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "3 Günlük Kurumsal Retreat & Kamp Etkinliği Planlama Danışmanlığı Al",
+          "text": "Program, mekân dönüşümü ve aktivite akışını otel operasyonuna uygun şekilde kurgulayıp 3 günü kusursuz yönetin.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "uc-gunluk-retreat-program-mekan-plani-sablonu",
+      "title": "3 Günlük Retreat Program & Mekân Planı Şablonunu İndir — Creative / Corporate Retreat (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "3 Günlük Retreat Program & Mekân Planı Şablonunu İndir — Creative / Corporate Retreat (v1.0)",
+          "purpose": "Bu şablon, otelde 3 günlük kurumsal retreat/kamp etkinliğini gün gün planlamanız için program timeline’ı, mekân dönüşümü (salon–beach–bahçe) planı, operasyonel buffer’lar (check-in/out, yemek, mola) ve belgeleme paketini tek dokümanda toplar. Amaç; dağınık deneyimi önleyip 3 günün ritmini, lojistiğini ve içerik çıktısını standartlaştırmaktır.",
+          "whoFor": "MICE/kurumsal satış, etkinlik operasyon, ajans prodüktörü, fasilitatör, pazarlama ekibi.",
+          "steps": [
+            "Hedefleri ve katılımcı profilini yazıp gün temalarını belirleyin.",
+            "Timeline’a check-in/out, yemek ve molaları ekleyip mekân dönüşüm sürelerini işaretleyin.",
+            "Belgeleme ve sonrası iletişim (teşekkür + özet video + rapor) teslimlerini planlayın."
+          ],
+          "checklist": [
+            "A) Etkinlik Özeti",
+            "B) 3 Günlük Program Timeline (Tablo)",
+            "C) Mekân Dönüşümü Planı",
+            "D) Operasyonel Notlar",
+            "E) Belgeleme & Sonrası",
+            "Deliverables: Timeline + mekân dönüşüm planı + belgeleme teslim takvimi"
+          ],
+          "href": "/downloads/3-gunluk-retreat-program-mekan-plani-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "3 günlük kurumsal retreat otelde nasıl planlanır?",
+      "a": "Önce hedefleri netleştirip 3 günü tema bazında bölün: varış–hizalanma, derin çalışma–aktivite–sosyal zirve, kapanış–aksiyon. Mekân dönüşümü ve operasyonel buffer’ları (check-in/out, yemek, mola) timeline’a gömün; belgeleme ve sonrası iletişim planını baştan yazın."
+    },
+    {
+      "q": "Günlere göre programı nasıl bölerim?",
+      "a": "1. gün daha hafif ve hizalayıcı, 2. gün en yoğun ve zirve, 3. gün ise kapanış ve aksiyon odaklı olmalıdır. İkinci gün mutlaka serbest zaman penceresi bırakmak enerji yönetimini güçlendirir."
+    },
+    {
+      "q": "Mekân dönüşümünü (salon, beach, bahçe) nasıl yönetmeliyim?",
+      "a": "Dönüşüm sürelerini gerçekçi yazıp kurulum ekiplerinin rolünü netleştirin. Standart preset set-up’lar ve modüler dekor kullanmak geçiş hızını artırır. Coffee break ve servis trafiğini de bu dönüşüme göre planlayın."
+    },
+    {
+      "q": "Retreat sonrası hangi içerik ve raporları paylaşmalıyım?",
+      "a": "1 gün içinde teşekkür mesajı, 3–7 gün içinde 60–120 saniyelik özet video ve 10–15 kısa snippet iyi çalışır. Şirket isterse aksiyonlar ve öğrenimleri özetleyen kısa rapor eklemek etkinin devamını sağlar."
+    },
+    {
+      "q": "3 günlük retreat’te en sık yapılan hata nedir?",
+      "a": "Programı “sürekli oturum” ile doldurmak ve check-in/out ile yemek/mola pencerelerini hesaba katmamaktır. Bu durum mekân dönüşümünde gecikme ve katılımcı yorgunluğu üretir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-hero-01.webp — Otel resort ortamında 3 günlük kurumsal retreat programı ve ekip deneyimi görseli",
+        "h1-context — 1920×1080 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-h1-context-02.webp — 3 günlük retreat programı ve mekân dönüşümünü özetleyen context görseli otel",
+        "divider-03 — 1600×1200 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-divider-03.webp — Program tasarımı ve hedef bölüm geçiş görseli kurumsal retreat otel",
+        "divider-04 — 1600×1200 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-divider-04.webp — Mekân dönüşümü ve lojistik bölüm geçiş görseli otel etkinliği",
+        "diagram-05 — 1920×1080 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-diagram-05.webp — 3 günlük kurumsal retreat program timeline akış diyagramı otel bağlamı",
+        "checklist-06 — 1200×1200 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-checklist-06.webp — 3 günlük retreat planlama mini check ve kontrol listesi kartı otel",
+        "kpi-07 — 1200×1200 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-kpi-07.webp — Katılım memnuniyeti ve MICE değer sinyallerini gösteren KPI skor kartı otel",
+        "proof-08 — 1200×1200 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-proof-08.webp — Retreat sonrası özet video storyboard ve rapor deliverables proof kartı otel",
+        "diagram-06 — 1920×1080 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-diagram-06.webp — Mekân dönüşümü için plan şeması (gün içi dönüşüm)",
+        "diagram-09 — 1920×1080 — otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon-diagram-09.webp — Event sonrası özet video storyboard akışı diyagramı",
+        "table-3-day-program-timeline — 3 Günlük Program Timeline Tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical: /tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon",
+        "Meta title ve meta description kontrolü",
+        "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
+        "Hero, H1 context, divider ve diagram media slot dosya adları kontrolü",
+        "3 Günlük Program Timeline tek ana tablo olarak kullanılıyor",
+        "Primary CTA → /creative/etkinlik-produksiyonu",
+        "Secondary CTA → /creative/video-produksiyon",
+        "Destek iç link → /otel-dijital-pazarlama",
+        "İç linklerde kırık link ve redirect zinciri kontrolü",
+        "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
+      ]
+    }
+  }
+},
+
+"BlogOtelEtkinlikMasterChecklistOperasyonElKitabi": {
+  "title": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı",
+  "slug": "otel-etkinlik-master-checklist-operasyon-el-kitabi",
+  "department": "creative",
+  "subDepartment":"event",
+  "updatedAt": "12 Ağustos 2026",
+  "publishedAt": "2026-08-12",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Konser, gala, düğün, MICE, festival… Tüm otel etkinlikleri için master checklist oluşturun: brief, mekân, teknik, tedarikçi, güvenlik, içerik ve sonrası raporlama.",
+  "seo": {
+    "metaTitle": "Otel Etkinlik Master Checklist ve Operasyon El Kitabı | DGTLFACE",
+    "metaDescription": "Konser, gala, düğün, MICE, festival… Tüm otel etkinlikleri için master checklist oluşturun: brief, mekân, teknik, tedarikçi, güvenlik, içerik ve sonrası raporlama."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / URL: Etkinlik Prodüksiyonu — /tr/creative/etkinlik-produksiyonu",
+      "Blog No / Blog URL: 15 — /tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional",
+      "SERP hedefi: Featured Snippet + PAA",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+    ],
+    "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunun “operasyonel çatı (hub)” içeriğidir: konser, gala, düğün, kurumsal/MICE, festival, hibrit gibi tüm etkinlik türlerinde tekrar eden adımları tek bir master checklist ve operasyon el kitabı formatında standardize eder. Hedef persona; otel GM/owner, MICE/etkinlik yöneticisi, operasyon/teknik lider ve ajans yöneticisidir; Antalya, Belek, Bodrum, İstanbul gibi yoğun etkinlik portföyü olan otellerde ölçeklenebilirlik kritik olduğu için bu içerik “işletim sistemi” görevi görür. Funnel’da consideration → conversion taşır: “hep aynı hataları yapıyoruz” sorununu “tek playbook + onboarding + kalite standardı” çözümüne çevirir. Ana iş sorusu: Her etkinlikte sıfırdan düşünmeden, aynı standardı koruyup krizleri azaltacak bir master checklist ve operasyon el kitabını nasıl kurarım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-12",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Otel etkinliklerinde türler farklı olsa da (gala, düğün, konser, MICE, festival) prodüksiyon ve operasyon tarafında tekrar eden onlarca adım vardır. Bu adımları her seferinde sıfırdan düşünmek yerine, master checklist ve operasyon el kitabı kullanmak hataları ve son dakika krizlerini azaltır, ekip uyumunu ve onboarding’i kolaylaştırır. Bu rehber; hazırlık, kurulum, etkinlik esnası ve sonrası için tek bir çatı checklist ve arşiv/bütçe kapanış düzeni sunar.",
+    "sgeSummary": "Master checklist: brief+hedef, mekân+teknik+tedarikçi, misafir akışı+güvenlik, içerik belgeleme ve etkinlik sonrası rapor/arşiv adımlarını tek playbook’ta birleştirir; tüm etkinliklere ölçeklenir.",
+    "voiceAnswer": "Tek bir master checklist oluşturup her etkinliği aynı akışla yürütürseniz hatalar ve krizler belirgin azalır.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/owner, etkinlik/MICE, operasyon/teknik lider, ajans yöneticisi",
+      "KPI: Unutulan adım sayısı, kurulum gecikmesi, bütçe sapması, şikâyet/olumsuz yorum riski, ekip onboarding süresi",
+      "Entity: Event Checklist, Operations Manual, Production Workflow, Guest Experience, Safety, Hotel Event",
+      "Geo: Antalya, Belek, Bodrum, İstanbul (yoğun portföy ve ölçek ihtiyacı)",
+      "Funnel: Consideration → Conversion (süreç standardı + danışmanlık)",
+      "Çıktılar: Master checklist tablosu, timeline, arşiv klasör şeması, operasyon el kitabı mockup’ı",
+      "Risk: Çakışan sorumluluklar, belirsiz brief, güvenlik, sözleşme boşluğu, arşiv dağınıklığı"
+    ]
+  },
+  "h1": {
+    "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+    "intro": "“Etkinliklerde hep aynı hataları yapıyoruz, kapsamlı bir checklist nasıl hazırlarım?” Otel etkinliklerinde farklı türler olsa da (gala, düğün, konser, MICE, festival), sahada tekrar eden adımlar aynıdır: brief, tedarikçi, kurulum, güvenlik, misafir akışı, içerik belgeleme ve etkinlik sonrası kapanış… Bu adımları her seferinde yeniden icat etmek; unutulan detaylar, son dakika krizleri ve bütçe sapması üretir. İyi yapılandırılmış bir master checklist ve operasyon el kitabı; süreci ölçeklenebilir hale getirir, yeni ekip üyelerinin onboarding’ini hızlandırır ve kalite standardını yukarı çeker. Bu rehber, “çatı el kitabı” mantığıyla tek bir master sistem sunar.",
+    "quickSummary": [
+      "1) Checklist’i hazırlık–kurulum–etkinlik–sonrası olarak 4 faza böl",
+      "2) Her adım için sorumlu kişi ve kontrol zamanını netleştir",
+      "3) Brief, mekân, teknik, tedarikçi ve güvenlik çekirdeğini standardize et",
+      "4) Bütçe kapanışı, arşiv ve feedback sürecini zorunlu hale getir",
+      "5) Master playbook’u onboarding ve tür bazlı etkinlik modülleriyle ölçekle"
+    ],
+    "ctaPrimary": {
+      "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
+      "text": "Ekiplerinize tek playbook ile çalışacak bir etkinlik işletim sistemi kuralım.",
+      "href": "/creative/etkinlik-produksiyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
+      "text": "Tüm etkinlik türlerinde tekrar eden adımları tek playbook’ta standardize edip hataları ve son dakika krizlerini azaltın.",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    "secondary": {
+      "label": "Otel Etkinlik Master Checklist & Operasyon El Kitabı Şablonunu İndir",
+      "text": "Hazırlık–kurulum–etkinlik–sonrası adımlarını ve arşiv/bütçe kapanışını tek dokümanda toplayıp ekibi aynı standarda taşır.",
+      "href": "/creative/video-produksiyon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Creative & Tasarım",
+      "href": "/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "title": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-etkinlik-master-checklist-nasil-hazirlanmali",
+      "title": "Otel etkinlikleri için master checklist nasıl hazırlanmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Master checklist hazırlamak, “uzun liste” yazmak değildir; adımları fazlara (hazırlık/kurulum/etkinlik/sonrası) bölüp her faz için net sorumluluk ve kontrol noktaları tanımlamaktır. En iyi master checklist; her etkinlik türüne uyarlanabilir çekirdek adımları içerir ve tür bazlı ek modüller (düğün, festival, hibrit vb.) ile genişler."
+        },
+        {
+          "type": "h3",
+          "text": "AEO mini cevap bloğu (2–3 cümle)"
+        },
+        {
+          "type": "p",
+          "text": "Otel etkinlikleri için master checklist hazırlamak adına tüm etkinlik türlerinde ortak adımları 4 faza bölün: hazırlık, kurulum, etkinlik esnası ve sonrası. Brief–hedef, mekân–teknik–tedarikçi, misafir deneyimi–güvenlik ve raporlama–arşiv gibi ana başlıkları sabitleyin; her adım için “kim sorumlu, ne zaman kontrol edilir” netleştirin. Böylece ekip her etkinliği aynı işletim sistemiyle yürütür."
+        },
+        {
+          "type": "h3",
+          "text": "5–7 maddelik AEO checklist’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çekirdek fazlar: Hazırlık–kurulum–etkinlik–sonrası olarak bölündü mü?",
+            "Brief: Hedef, kişi sayısı, akış ve deliverables net mi?",
+            "Mekân/teknik: Layout, AV set-up, elektrik/güvenlik planı hazır mı?",
+            "Tedarikçi: RACI/tek temas noktası/sözleşme kontrolü var mı?",
+            "Misafir akışı: giriş, yönlendirme, servis trafiği, güvenlik adımları yazılı mı?",
+            "İçerik: foto–video planı, izin/lisans ve teslim takvimi net mi?",
+            "Kapanış: bütçe kapanışı, arşiv, feedback ve rapor standardı var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Checklist’te “sorumlu kişi” yoksa liste kağıt üzerinde kalır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Checklist’i 4 faza böl.",
+            "Her adımın sahibini yaz.",
+            "Tür bazlı ek modüller ekle (düğün/festival/hibrit).",
+            "Kapanış ve arşiv adımlarını zorunlu yap.",
+            "Onboarding için “ilk 7 gün” mini rehber ekle."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Master Checklist Tablosu (Hazırlık–Kurulum–Etkinlik–Sonrası)",
+          "headers": [
+            "Faz",
+            "Adım",
+            "Sorumlu",
+            "Ne zaman",
+            "Mini Not"
+          ],
+          "rows": [
+            [
+              "Hazırlık",
+              "Brief + hedef + KPI",
+              "Event owner",
+              "T-30/T-14",
+              "Onay sahibi net"
+            ],
+            [
+              "Hazırlık",
+              "Run-of-show (akış)",
+              "Ajans/Otel",
+              "T-14",
+              "Karar noktaları"
+            ],
+            [
+              "Hazırlık",
+              "Layout + acil çıkış",
+              "Otel + AV",
+              "T-14",
+              "Güvenlik çizgisi"
+            ],
+            [
+              "Hazırlık",
+              "Tedarikçi RACI + sözleşme",
+              "Satın alma",
+              "T-14/T-7",
+              "Overtime maddesi"
+            ],
+            [
+              "Hazırlık",
+              "B plan (hava)",
+              "Otel",
+              "T-7/T-24",
+              "Senaryo matrisi"
+            ],
+            [
+              "Kurulum",
+              "Sahne/truss güvenlik",
+              "Stage/AV",
+              "T-24",
+              "Sertifika/plan"
+            ],
+            [
+              "Kurulum",
+              "Ses anlaşılabilirlik testi",
+              "AV",
+              "T-12",
+              "Konuşma netliği"
+            ],
+            [
+              "Kurulum",
+              "Işık modları (konuşma/show)",
+              "AV",
+              "T-12",
+              "Preset"
+            ],
+            [
+              "Kurulum",
+              "Kablo/zemin güvenliği",
+              "AV + güvenlik",
+              "T-12",
+              "Kayma riski"
+            ],
+            [
+              "Etkinlik",
+              "Giriş–yönlendirme",
+              "Operasyon",
+              "T",
+              "Queue plan"
+            ],
+            [
+              "Etkinlik",
+              "Servis trafiği",
+              "F&B",
+              "T",
+              "Buffer"
+            ],
+            [
+              "Etkinlik",
+              "Güvenlik “stop” yetkisi",
+              "Güvenlik",
+              "T",
+              "Tek kişi"
+            ],
+            [
+              "Etkinlik",
+              "Foto–video shotlist",
+              "Prodüksiyon",
+              "T",
+              "Deliverables"
+            ],
+            [
+              "Sonrası",
+              "Bütçe kapanışı",
+              "Event owner",
+              "T+1/T+3",
+              "Sapma nedeni"
+            ],
+            [
+              "Sonrası",
+              "Teslimatlar (final)",
+              "Prodüksiyon",
+              "T+3/T+7",
+              "Final klasörü"
+            ],
+            [
+              "Sonrası",
+              "Arşiv klasörleme",
+              "Operasyon",
+              "T+1",
+              "SOP"
+            ],
+            [
+              "Sonrası",
+              "Feedback + öğrenim",
+              "Otel+ajans",
+              "T+7",
+              "3 ders"
+            ]
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Otel Etkinlik Master Checklist & Operasyon El Kitabı Şablonunu İndir",
+          "text": "Hazırlık–kurulum–etkinlik–sonrası adımlarını ve arşiv/bütçe kapanışını tek dokümanda toplayıp ekibi aynı standarda taşır.",
+          "href": "/creative/video-produksiyon"
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "otel-etkinlik-turlerinin-ortak-adimlari",
+      "title": "Otel Etkinlik Türlerinin Ortak Adımları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tüm etkinlik türleri, farklı görünebilir ama ortak çekirdek aynı: hedef–akış–mekân–teknik–insan–güvenlik–içerik–kapanış. Bu çekirdeği sabitlediğinizde, konser de gala da düğün de aynı disiplinle yürür."
+        },
+        {
+          "type": "h3",
+          "text": "Ortak çekirdek (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef & kapsam: ne için yapıyoruz, kim geliyor, kaç kişi, kaç gün?",
+            "Akış: run-of-show ve karar noktaları",
+            "Mekân: layout, dönüşüm, B plan",
+            "Teknik: AV, sahne, elektrik, internet (gerekiyorsa)",
+            "Tedarikçi: seçim, brief, sözleşme, kurulum/söküm",
+            "Misafir deneyimi: giriş, yönlendirme, servis, güvenlik",
+            "İçerik: belgeleme, yayın, teslim",
+            "Kapanış: bütçe, rapor, arşiv, öğrenim"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Kapanış” yoksa, her etkinlikte aynı hatalar tekrar eder."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Bu çekirdeği otelin SOP’si yap.",
+            "Her etkinlikte aynı çekirdeği işaretle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brief-hedef-belirleme-checklist",
+      "title": "Brief ve Hedef Belirleme Checklist’i",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Brief, master checklist’in “başlat tuşu”dur. Brief net değilse teknik ve operasyon dağılır. Brief’in amacı; hedefleri, kısıtları ve deliverables’ı tek sayfada kilitlemektir."
+        },
+        {
+          "type": "h3",
+          "text": "Brief’te zorunlu alanlar"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Etkinlik tipi: konser/gala/düğün/kurumsal/festival/hibrit",
+            "Hedef: memnuniyet, görünürlük, satış/lead, eğitim",
+            "Kişi sayısı + profil",
+            "Tarih/saat + kurulum/teardown penceresi",
+            "Mekân (açık/kapalı) + B plan",
+            "İçerik deliverables: highlight, reels, foto, rapor",
+            "Onay mekanizması: kim karar verir, kaç tur?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Onay sahibi” yoksa, kararlar uzar ve overtime başlar."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Tek sayfa brief şablonu kullan.",
+            "Deliverables’ı sayıya bağla (kaç reels, kaç foto).",
+            "Onay SLA koy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mekan-teknik-tedarikci-checklist",
+      "title": "Mekân, Teknik ve Tedarikçi Checklist’i",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu faz, etkinlik günü “sürpriz” çıkmaması için hazırlanır. Layout, AV set-up, güç dağıtımı, kablo güvenliği ve tedarikçi rolleri aynı dokümanda olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Mekân kontrol başlıkları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Layout çizimi (giriş, sahne, bar/servis, acil çıkış)",
+            "Dönüşüm planı (gün içi değişim varsa)",
+            "Hava B planı (açık alan)",
+            "Depo/lojistik rotası"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Teknik kontrol başlıkları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ses anlaşılabilirlik testi (konuşma)",
+            "Işık modları (konuşma/show)",
+            "Elektrik güvenliği (kablo kanalı, kaçak akım koruması – Varsayım)",
+            "İnternet (hibrit/stream varsa upload + yedek)",
+            "Yedek ekipman (mikrofon/kablo/SSD)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Tedarikçi yönetimi (RACI kısa hatırlatma)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek temas noktası",
+            "Kurulum/prova saatleri kilit",
+            "Overtime ve ek ekipman maddeleri yazılı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Layout’ta acil çıkış işaretli değilse, “hazır değil” sayılır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Layout’ı tüm tedarikçiye aynı dosyadan gönder.",
+            "Prova saatini sabitle.",
+            "Go/No-Go kontrol noktası koy."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
+          "text": "Tüm etkinlik türlerinde tekrar eden adımları tek playbook’ta standardize edip hataları ve son dakika krizlerini azaltın.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "misafir-deneyimi-guvenlik-checklist",
+      "title": "Misafir Deneyimi ve Güvenlik Checklist’i",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-04"
+        },
+        {
+          "type": "p",
+          "text": "En iyi prodüksiyon, misafir deneyimi bozulursa “başarısız” görünür. Bu checklist; giriş akışı, yönlendirme, servis trafiği ve güvenlik adımlarını standartlaştırır."
+        },
+        {
+          "type": "h3",
+          "text": "Misafir akışı (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Karşılama ve kayıt noktası",
+            "Yönlendirme tabelaları ve personel",
+            "Servis pencereleri (coffee break/yemek)",
+            "Kalabalık yönetimi (bariyer, queue planı)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Güvenlik (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Acil çıkışların açık kalması",
+            "Sahne ve kablo güvenliği",
+            "Çocuklu aile/kalabalık profilinde ek önlemler (Varsayım)",
+            "Güvenlik “stop” yetkisi (kim durdurur?)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Güvenlik “stop” yetkisi tanımsızsa, kriz anında kimse karar vermez."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Misafir akışını çiz ve sahada işaretle.",
+            "Güvenlik sorumlusunu yazılı ata.",
+            "Servis trafiğini run-of-show’a göm."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etkinlik-sonrasi-raporlama-arsiv-checklist",
+      "title": "Etkinlik Sonrası Raporlama ve Arşiv Checklist’i",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Etkinlik sonrası kapanış, master playbook’un “öğrenme motoru”dur. Bütçe kapanışı, teslimatlar, arşiv klasör yapısı ve feedback döngüsü yoksa süreç ölçeklenmez."
+        },
+        {
+          "type": "h3",
+          "text": "Kapanış adımları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bütçe kapanışı: planlanan vs gerçekleşen + sapma nedeni",
+            "Teslimatlar: foto/video (ham + final), brief dokümanları",
+            "Feedback: iç ekip + müşteri + tedarikçi kısa değerlendirme",
+            "Öğrenim: 3 madde “bir dahaki sefere”"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Arşiv klasör yapısı (örnek şema)"
+        },
+        {
+          "type": "media",
+          "slot": "diagram-09"
+        },
+        {
+          "type": "p",
+          "text": "Örnek klasör iskeleti:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "/Event-YYYY-MM-DD-Name/",
+            "01-Brief-Contracts/",
+            "02-RunOfShow-Layouts/",
+            "03-AV-Docs/",
+            "04-Footage-Raw/",
+            "05-Edits-Drafts/",
+            "06-Finals-Delivery/",
+            "07-Report-ROI-Feedback/"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Final teslim” klasörü yoksa, dosyalar WhatsApp/Drive’da kaybolur."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Arşiv klasör standardını otel SOP’si yap.",
+            "Kapanış toplantısını (15 dk) zorunlu kıl.",
+            "Raporu satış/performansla bağla."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Otel Etkinlik Master Checklist & Operasyon Danışmanlığı Al",
+          "text": "Ekip onboarding’ini hızlandıracak ve kaliteyi standardize edecek master playbook’u birlikte kuralım.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "hub-operasyon-el-kitabi-referansi",
+      "title": "Fark Yaratan Bölüm: Bu İçerik Bir “Hub” ve El Kitabı Referansı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI competitor gap notu: Rakip içerikler tek etkinlik türü için parça parça checklist sunuyor; tüm otel etkinlik türlerini kapsayan master operasyon ve prodüksiyon el kitabı perspektifinde Türkçe kaynak çok sınırlı."
+        },
+        {
+          "type": "p",
+          "text": "Bu yazıyı “hub” yapan şey; tek tek etkinlik türlerine iç linklerle bağlanması ve aynı zamanda operasyon ekibinin günlük kullanımına uygun şablonlar sunmasıdır."
+        },
+        {
+          "type": "h3",
+          "text": "İç link stratejisi (AIO gereksinimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ana hizmet: /creative/etkinlik-produksiyonu",
+            "Video prodüksiyon: /creative/video-produksiyon",
+            "Creative & tasarım: /creative-ve-tasarim",
+            "Otel dijital pazarlama: /otel-dijital-pazarlama",
+            "Alt bloglar: konser, gala, düğün, hibrit, festival vb. (Varsayım: site içi ilgili blog URL’lerine bağlanacak)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Hub içerikte anchor çeşitlendirme yoksa, linkler doğal görünmez; farklı anchor’lar kullanın."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Bu sayfayı “tek kaynak” yap.",
+            "Tüm etkinlik türü yazılardan buraya link ver.",
+            "Şablonu indirilebilir hale getir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-etkinlik-master-checklist-operasyon-el-kitabi-sablonu",
+      "title": "Otel Etkinlik Master Checklist & Operasyon El Kitabı Şablonunu İndir — Creative / Event Operations (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Otel Etkinlik Master Checklist & Operasyon El Kitabı Şablonunu İndir — Creative / Event Operations (v1.0)",
+          "purpose": "Bu asset, otel etkinliklerinde prodüksiyon ve operasyonu tek standarda bağlamak için “hazırlık–kurulum–etkinlik esnası–sonrası” master checklist’ini, rol dağılımı notlarını ve arşiv/bütçe kapanış düzenini tek dokümanda toplar. Amaç; unutulan adımları ve son dakika krizlerini azaltmak, ekip onboarding’ini hızlandırmak ve kaliteyi istikrarlı hale getirmektir.",
+          "whoFor": "GM/owner, MICE/etkinlik yöneticisi, operasyon/teknik ekip lideri, ajans prodüktörü.",
+          "steps": [
+            "Etkinlik türüne göre çekirdek checklist’i işaretleyin ve tür modülünü ekleyin.",
+            "Kurulum–prova–event–kapanış timeline’ını doldurup sorumluları yazın.",
+            "Etkinlik sonrası rapor + arşiv klasör yapısını kullanarak kapanışı tamamlayın."
+          ],
+          "checklist": [
+            "Seçilen Şablon: Checklist + Sprint Plan (Master Playbook’a uygun)",
+            "1) Asset Amaç: Tek playbook ile her etkinliği aynı standartta yürütmek.",
+            "2) Kim Kullanır: Event owner, AV, satın alma, ajans, güvenlik.",
+            "3) Nasıl Kullanılır: Checklist işaretle → timeline doldur → kapanış raporla.",
+            "A) Master Checklist (Hazırlık–Kurulum–Etkinlik–Sonrası)",
+            "B) 20 Maddelik Hızlı Master Kontrol",
+            "C) 14 Günlük Sprint Planı (uygulama önerisi)",
+            "Deliverables: Master checklist tablo + hızlı kontrol listesi + arşiv şeması + kapanış raporu iskeleti"
+          ],
+          "href": "/downloads/otel-etkinlik-master-checklist-operasyon-el-kitabi-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel etkinlikleri için master checklist nasıl hazırlanır?",
+      "a": "Ortak adımları 4 faza bölün: hazırlık, kurulum, etkinlik esnası ve sonrası. Brief, mekân/teknik, tedarikçi, misafir deneyimi/güvenlik ve kapanış/arşiv başlıklarını sabitleyin; her adımın sorumlusunu yazın."
+    },
+    {
+      "q": "Hangi adımlar her etkinlikte ortak olmalı?",
+      "a": "Brief ve hedef, run-of-show, layout + güvenlik, tedarikçi sözleşmeleri, AV prova, giriş–yönlendirme, servis trafiği, belgeleme planı ve etkinlik sonrası bütçe/arşiv kapanışı ortak çekirdektir."
+    },
+    {
+      "q": "Etkinlik operasyon el kitabında neler yer almalı?",
+      "a": "Standart brief şablonu, RACI/rol dağılımı, kurulum–söküm timeline, güvenlik checklist’i, içerik deliverables ve kapanış/arşiv prosedürü olmalıdır. Ayrıca tür bazlı modüller (düğün, festival, hibrit vb.) eklenmelidir."
+    },
+    {
+      "q": "Etkinlik sonrası hangi kontroller yapılmalı?",
+      "a": "Bütçe kapanışı (sapma nedenleriyle), final teslim klasörü, arşiv klasörleme ve kısa feedback toplantısı yapılmalıdır. Öğrenimler bir sonraki etkinliğe “playbook güncellemesi” olarak işlenmelidir."
+    },
+    {
+      "q": "Master checklist ne işe yarar?",
+      "a": "Unutulan adımları ve son dakika krizlerini azaltır, ekip uyumunu artırır ve yeni ekip üyelerinin onboarding’ini hızlandırır. Kalite standardını da tüm etkinlik türlerine taşır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — otel-etkinlik-master-checklist-operasyon-el-kitabi-hero-01.webp — Otel etkinlik master checklist ve operasyon el kitabı kapağı mockup görseli",
+        "h1-context — 1920×1080 — otel-etkinlik-master-checklist-operasyon-el-kitabi-h1-context-02.webp — Hazırlık kurulum etkinlik sonrası adımlarını gösteren master checklist context görseli",
+        "divider-03 — 1600×1200 — otel-etkinlik-master-checklist-operasyon-el-kitabi-divider-03.webp — Brief ve hedef belirleme bölüm geçiş görseli otel etkinliği",
+        "divider-04 — 1600×1200 — otel-etkinlik-master-checklist-operasyon-el-kitabi-divider-04.webp — Misafir deneyimi ve güvenlik checklist bölüm geçiş görseli otel bağlamı",
+        "diagram-05 — 1920×1080 — otel-etkinlik-master-checklist-operasyon-el-kitabi-diagram-05.webp — Etkinlik zaman planı ve operasyon akış diyagramı otel prodüksiyon süreci",
+        "checklist-06 — 1200×1200 — otel-etkinlik-master-checklist-operasyon-el-kitabi-checklist-06.webp — Master checklist özet kartı: hazırlık kurulum etkinlik sonrası kontrol adımları",
+        "kpi-07 — 1200×1200 — otel-etkinlik-master-checklist-operasyon-el-kitabi-kpi-07.webp — Unutulan adımlar ve krizleri azaltmayı izleyen etkinlik KPI skor kartı",
+        "proof-08 — 1200×1200 — otel-etkinlik-master-checklist-operasyon-el-kitabi-proof-08.webp — İndirilebilir operasyon el kitabı ve master checklist deliverables proof kartı",
+        "diagram-09 — 1920×1080 — otel-etkinlik-master-checklist-operasyon-el-kitabi-diagram-09.webp — Arşiv klasör yapısı şeması (event-name/date/brief/assets/finals)",
+        "table-master-checklist — Master Checklist Tablosu (Hazırlık–Kurulum–Etkinlik–Sonrası)"
+      ],
+      "technicalChecklist": [
+        "Canonical: /tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi",
+        "Meta title ve meta description kontrolü",
+        "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
+        "Hero, H1 context, divider, diagram ve proof media slot dosya adları kontrolü",
+        "Master Checklist Tablosu tek ana tablo olarak kullanılıyor",
+        "Master checklist fazları: Hazırlık → Kurulum → Etkinlik → Sonrası",
+        "Her master checklist adımında sorumlu ve zaman alanı bulunuyor",
+        "Primary CTA → /creative/etkinlik-produksiyonu",
+        "Secondary CTA → /creative/video-produksiyon",
+        "Destek iç link → /creative-ve-tasarim",
+        "Destek iç link → /otel-dijital-pazarlama",
+        "Alt konser/gala/düğün/hibrit/festival blog URL’leri hazır olduğunda hub iç linkleri tamamlanacak",
+        "İç linklerde kırık link ve redirect zinciri kontrolü",
+        "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
+      ]
+    }
+  }
+},
+
+"BlogOtelEtkinlikKayitRsvpCheckin": {
+  "title": "Otel Etkinliklerinde Kayıt ve Check-in Akışı",
+  "slug": "otel-etkinlik-kayit-rsvp-checkin",
+  "department": "creative",
+  "subDepartment":"event",
+  "updatedAt": "12 Ağustos 2026",
+  "publishedAt": "2026-08-12",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Otel etkinliklerinde online form, RSVP, rooming list ve check-in masasını uçtan uca kurun. Yaka kartı akışı, PMS/CRM entegrasyonu ve KVKK ile kuyrukları azaltın.",
+  "seo": {
+    "metaTitle": "Otel Etkinliklerinde Kayıt ve Check-in Akışı | DGTLFACE",
+    "metaDescription": "Otel etkinliklerinde online form, RSVP, rooming list ve check-in masasını uçtan uca kurun. Yaka kartı akışı, PMS/CRM entegrasyonu ve KVKK ile kuyrukları azaltın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / URL: Etkinlik Prodüksiyonu — /tr/creative/etkinlik-produksiyonu",
+      "Blog No / Blog URL: 16 — /tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional",
+      "SERP hedefi: Featured Snippet + PAA",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+    ],
+    "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunda “registration & check-in” için authority (parent) içeriktir; gala, MICE, düğün ve kurumsal etkinliklerin hepsinde tekrar eden kayıt–RSVP–check-in akışını standartlaştırır. Hedef persona; otel GM/owner, MICE/etkinlik yöneticisi, operasyon/ön büro lideri ve ajans yöneticisidir; Antalya, Belek, Bodrum gibi yoğun davet trafiği olan destinasyonlarda girişteki kaos doğrudan memnuniyeti etkiler. Funnel’da consideration → conversion taşır: “kayıt masası hep karışıyor” sorununu “form + liste + check-in + badge + veri/CRM” sistemine dönüştürür. Ana iş sorusu: Giriş kuyruğunu azaltıp veri doğruluğunu artırırken, PMS/CRM ve KVKK uyumunu nasıl aynı akışta yönetirim?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-12",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "İyi kurgulanmış bir kayıt ve RSVP süreci, otel etkinliklerinde kaosu azaltır, misafir deneyimini iyileştirir ve satış/raporlama tarafına değerli veri bırakır. Net bir online form, otomatik RSVP akışı, doğru hazırlanmış katılımcı listesi (rooming list dahil) ve akıcı bir check-in masası; girişteki kuyrukları azaltır, yaka kartı/akreditasyonu profesyonelleştirir. Bu rehber, kayıt→check-in→salona giriş akışını PMS/CRM ve KVKK dikkatiyle anlatır.",
+    "sgeSummary": "Formu sadeleştir, RSVP’yi otomatikleştir, rooming list’i PMS ile eşleştir, check-in masasını kuyruk yönetimiyle kur, badge renk kodla; veriyi CRM’e aktar ve KVKK’ya uygun sakla.",
+    "voiceAnswer": "Sade form + otomatik RSVP + doğru liste + iyi planlı check-in masası, kuyruk ve karışıklığı azaltır.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/owner, MICE/etkinlik yöneticisi, ön büro/operasyon, ajans",
+      "KPI: Check-in süresi, kuyruk şikâyeti, veri doğruluğu, no-show oranı, lead/CRM kalitesi",
+      "Entity: Registration Flow, RSVP, Check-in Desk, Badge, Rooming List, PMS, CRM",
+      "Geo: Antalya, Belek, Bodrum (yüksek hacimli kayıt senaryoları)",
+      "Funnel: Consideration → Conversion (+ post-event CRM)",
+      "Çıktılar: Form wireframe, check-in masa planı, badge örnekleri, uçtan uca akış diyagramı, 20 maddelik checklist",
+      "Risk: Gereksiz form alanları, liste–PMS uyuşmazlığı, KVKK ihlali, yetkisiz erişim"
+    ]
+  },
+  "h1": {
+    "title": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+    "intro": "“Etkinlikte kayıt masası hep karışıyor, nasıl düzenlerim?” veya “online formda ne sormalıyım?” soruları, otel etkinliklerinde en sık yaşanan operasyonel ağrılardır. Çünkü kayıt akışı yalnız bir form değildir: RSVP, katılımcı listesi, rooming list, check-in masası, yaka kartı/badge ve salona giriş yönlendirmesi aynı sistemde çalışır. İyi kurgulanmış akış; kuyrukları azaltır, yanlış isim/oda/şirket karışıklığını önler ve etkinlik sonrası satış/raporlama için temiz veri bırakır. Bu rehber; kayıt→check-in→salona giriş sürecini PMS/CRM entegrasyonu ve KVKK dikkatiyle uçtan uca planlatır.",
+    "quickSummary": [
+      "1) Online formu minimum zorunlu alanlarla sadeleştir",
+      "2) RSVP onay–ret–hatırlatma akışını otomatikleştir",
+      "3) Tek master liste oluştur ve rooming list’i PMS ile eşleştir",
+      "4) Check-in masasını QR, fallback ve badge renk kodlamasıyla planla",
+      "5) Etkinlik sonrası CRM aktarımı ile KVKK erişim/saklama kurallarını standardize et"
+    ],
+    "ctaPrimary": {
+      "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
+      "text": "Formdan check-in masasına, PMS/CRM ve KVKK dahil uçtan uca akışı birlikte kuralım.",
+      "href": "/creative/etkinlik-produksiyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
+      "text": "Online form, RSVP, master liste, check-in masası ve badge akışını PMS/CRM ve KVKK ile uyumlu şekilde kurup kuyrukları azaltın.",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    "secondary": {
+      "label": "Otel Etkinlik Kayıt & Check-in Checklist’ini İndir",
+      "text": "Form alanları, liste yönetimi, kuyruk planı, badge renk kodları ve veri kapanışını tek listede toplayıp giriş karmaşasını azaltır.",
+      "href": "/creative/video-produksiyon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Rezervasyon Yönetimi",
+      "href": "/pms-ota/rezervasyon-yonetimi"
+    },
+    {
+      "label": "Satış & Dönüşüm Raporlama",
+      "href": "/raporlama/satis-donusum"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+      "href": "/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+    },
+    {
+      "title": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
+      "href": "/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-etkinliklerinde-kayit-checkin-akisi",
+      "title": "Otel etkinliklerinde kayıt ve check-in akışı nasıl planlanmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kayıt akışını planlamak; “form çıkaralım” değil, giriş deneyimini tasarlamak demektir. Başarılı sistem 5 adıma dayanır: (1) sade form, (2) otomatik RSVP, (3) doğru liste/rooming list, (4) hızlı check-in + badge, (5) veri yönetimi (CRM + KVKK). Bu adımların her biri net değilse, girişte kuyruk ve içeride veri karmaşası kaçınılmazdır."
+        },
+        {
+          "type": "h3",
+          "text": "AEO mini cevap bloğu (2–3 cümle)"
+        },
+        {
+          "type": "p",
+          "text": "Otel etkinliklerinde kayıt ve check-in akışını planlamak için önce online formu minimum zorunlu alanlarla kurun ve RSVP sürecini otomatikleştirin. Katılımcı listesi ile rooming list’i PMS ile eşleştirip check-in masasını kuyruk yönetimi ve badge renk kodlamasıyla tasarlayın. Etkinlik sonrası veriyi CRM’e aktarırken KVKK gereği erişim yetkisi ve saklama süresi kurallarını yazılı hale getirin."
+        },
+        {
+          "type": "h3",
+          "text": "5–7 maddelik AEO checklist’i (sıralı)"
+        },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Form: Zorunlu alanlar minimal mi, gereksiz alanlar çıkarıldı mı?",
+            "RSVP: Davet–onay–hatırlatma otomasyonu var mı?",
+            "Liste: Katılımcı listesi tek kaynak mı, güncel mi?",
+            "Rooming list: Oda planı/konaklama PMS ile eşleşiyor mu?",
+            "Check-in: Masa yerleşimi + sıra yönetimi + fallback plan var mı?",
+            "Badge: İsim/şirket + renk kodlama + hızlı baskı düzeni hazır mı?",
+            "Veri: CRM aktarımı, KVKK erişim/saklama kuralları yazılı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Tek kaynak liste” yoksa, check-in masasında iki farklı excel ile kavga çıkar."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Formu sadeleştir.",
+            "RSVP otomasyonu kur.",
+            "Tek “master liste” belirle.",
+            "Check-in masası layout’ını çiz.",
+            "Badge renk kodlamayı standardize et.",
+            "KVKK/veri erişimini netleştir."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Kayıt → RSVP → Check-in → Salon Giriş Akışı Tablosu",
+          "headers": [
+            "Adım",
+            "Amaç",
+            "Girdi",
+            "Çıktı",
+            "Sorumlu",
+            "Risk",
+            "Kontrol"
+          ],
+          "rows": [
+            [
+              "Online kayıt formu",
+              "Temel katılımcı verisini toplamak",
+              "Davet / kayıt linki",
+              "Katılımcı kaydı",
+              "MICE / ajans",
+              "Gereksiz form alanları",
+              "Minimum zorunlu alan + 60 sn doldurma hedefi"
+            ],
+            [
+              "RSVP",
+              "Katılım durumunu netleştirmek",
+              "Katılımcı kaydı",
+              "Onay / ret / hatırlatma",
+              "MICE / ajans",
+              "Yanıtsız davet / no-show",
+              "Otomatik onay–ret–hatırlatma akışı"
+            ],
+            [
+              "Master liste / rooming list",
+              "Katılımcı ve konaklama bilgisini tekleştirmek",
+              "Form + RSVP verisi",
+              "Güncel master liste + PMS eşleşmesi",
+              "Ön büro / operasyon",
+              "Liste–PMS uyuşmazlığı",
+              "Tek kaynak liste + düzenli eşleştirme"
+            ],
+            [
+              "Check-in",
+              "Katılımcıyı hızlı doğrulamak",
+              "Master liste + QR/unique code",
+              "Giriş onayı",
+              "Kayıt masası / operasyon",
+              "Uzun kuyruk / yavaş arama",
+              "QR + manuel fallback + sorun çözme hattı"
+            ],
+            [
+              "Badge",
+              "Akreditasyonu görünür hale getirmek",
+              "Doğrulanmış katılımcı verisi",
+              "Yaka kartı / badge",
+              "Kayıt ekibi",
+              "Yanlış baskı / yazıcı kesintisi",
+              "Renk kodu + yedek yazıcı/etiket"
+            ],
+            [
+              "Salon girişi",
+              "Doğru katılımcıyı doğru alana yönlendirmek",
+              "Badge / QR",
+              "Salon erişimi",
+              "Operasyon / güvenlik",
+              "Yönlendirme karmaşası",
+              "Net kontrol noktası + tabela"
+            ],
+            [
+              "CRM / KVKK kapanışı",
+              "Katılım verisini satış ve raporlamaya taşımak",
+              "RSVP + show-up verisi",
+              "CRM follow-up + güvenli arşiv",
+              "Satış / veri sorumlusu",
+              "Yetkisiz erişim / amaç dışı kullanım",
+              "Erişim rolü + saklama süresi"
+            ]
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Otel Etkinlik Kayıt & Check-in Checklist’ini İndir",
+          "text": "Form alanları, liste yönetimi, kuyruk planı, badge renk kodları ve veri kapanışını tek listede toplayıp giriş karmaşasını azaltır.",
+          "href": "/creative/video-produksiyon"
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "otel-etkinliklerinde-kayit-surecinin-rolu",
+      "title": "Otel Etkinliklerinde Kayıt Sürecinin Rolü",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kayıt süreci yalnız “kim geliyor?” sorusu değildir. Doğru kurguda kayıt; misafir deneyimini düzenler, kapasiteyi yönetir, oda planını netleştirir ve etkinlik sonrası satış/iletişim için veri üretir."
+        },
+        {
+          "type": "h3",
+          "text": "Kayıt sürecinin otel için 4 çıktısı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Operasyon: check-in kuyruklarını azaltır, girişte stres düşer",
+            "Kapasite: no-show/overbooking riskini azaltır",
+            "Konaklama: rooming list doğruluğu artar, ön büro rahatlar",
+            "Performans: CRM ve raporlama için temiz veri bırakır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Kapasite + oda planı” kayıtla bağlantılı değilse, iki ayrı dünya oluşur."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Kayıt verisini oda planı ve salon kapasitesiyle bağla.",
+            "Etkinlik sonrası CRM kullanımını baştan planla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "online-kayit-formu-rsvp-akisi",
+      "title": "Online Kayıt Formu ve RSVP Akışı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Form tasarımında altın kural: gereksiz alan = düşük tamamlanma. Otel etkinliklerinde form, aynı zamanda check-in hızını belirler; çünkü formdaki veri badge’e basılacak ve listede aranacaktır."
+        },
+        {
+          "type": "h3",
+          "text": "Form alanları: minimum zorunlu set"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ad–soyad (badge için)",
+            "E-posta / telefon (RSVP ve hatırlatma)",
+            "Şirket / ünvan (kurumsal etkinliklerde)",
+            "Katılım türü (gün 1/2/3, gala dahil mi?) (Varsayım: çok günlü etkinliklerde)",
+            "Konaklama ihtiyacı (rooming list tetikleyicisi)",
+            "KVKK aydınlatma/onay (kapsama göre) (Varsayım: metin ve checkbox)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "RSVP otomasyonu (pratik akış)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Davet → onay/ret → hatırlatma → QR/check-in kodu → teşekkür",
+            "Gala/MICE/düğün gibi türlerde RSVP dili değişse de akış aynı kalır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Formu “her şeyi soran anket”e çevirirseniz kayıt düşer; bilgiyi fazlara bölün."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Formu 60 saniyede doldurulacak hale getir.",
+            "RSVP hatırlatmayı otomatikleştir.",
+            "QR/unique code ile check-in’i hızlandır."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "katilimci-listesi-oda-plani-rooming-list",
+      "title": "Katılımcı Listesi, Oda Planı ve Rooming List",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otellerde kayıt yönetimi, “konaklama” ile birleştiğinde değer kazanır. Rooming list’in PMS ile eşleşmemesi; check-in’de oda karışıklığı, VIP hatası ve operasyon yükü doğurur."
+        },
+        {
+          "type": "h3",
+          "text": "Tek kaynak: master katılımcı listesi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tüm güncellemeler tek listede yapılır",
+            "Versiyonlama: “v1/v2” değil, tarih–saat damgası (Varsayım)",
+            "Yetki: kim düzenler, kim sadece okur?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "PMS eşleşmesi (pratik yaklaşım)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Formdaki “konaklama” alanı → rooming list’e düşer",
+            "Rooming list → PMS rezervasyon yönetimiyle eşleşir (iç link)",
+            "VIP/konuşmacı listeleri ayrı etiketlenir (badge renk kodu ile)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "İç link (AIO gereksinimi): /tr/pms-ota/rezervasyon-yonetimi (Varsayım: https://dgtlface.com + path) → https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Rooming list “son dakika excel” ise, ön büro sabahı zor geçer."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Master listeyi kilitle (tek editör).",
+            "Rooming list’i PMS ile düzenli eşleştir.",
+            "VIP/konuşmacı etiketlerini badge sistemiyle bağla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checkin-masasi-yaka-karti-akreditasyon",
+      "title": "Check-in Masası, Yaka Kartı ve Akreditasyon",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Check-in masası bir “masa” değil, bir kuyruk sistemidir. Akış; liste arama hızına, badge baskı düzenine ve yönlendirme netliğine bağlıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Check-in masası yerleşimi ve kuyruk yönetimi"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "2–4 check-in noktası (kişiye göre ölçek) (Varsayım)",
+            "QR ile hızlı doğrulama + manuel arama fallback",
+            "Ayrı hat: VIP/konuşmacı / sorun çözme",
+            "Net yönlendirme tabelası + bariyer/queue şeridi"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-06"
+        },
+        {
+          "type": "h3",
+          "text": "Yaka kartı (badge) tasarımı: hızlı ve hatasız"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Büyük ad–soyad (okunabilir)",
+            "Şirket/ünvan (kurumsalda)",
+            "Renk kodlama (VIP, speaker, staff, vendor, guest)",
+            "QR/ID (check-in ve salon giriş kontrolü için)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "h3",
+          "text": "Kayıt & check-in için 20 maddelik checklist (SXO kutusu)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Form alanları minimal",
+            "KVKK metni/checkbox net (Varsayım)",
+            "RSVP otomasyonu aktif",
+            "Hatırlatma mesajları hazır",
+            "QR/unique code üretildi",
+            "Master liste tek kaynak",
+            "VIP/speaker etiketleri var",
+            "Rooming list PMS’e eşleşti",
+            "Check-in masası sayısı planlandı",
+            "VIP ayrı hat var",
+            "Sorun çözme masası var",
+            "Queue bariyeri/tabela hazır",
+            "Badge şablonu test edildi",
+            "Renk kodlar basıldı",
+            "Yedek yazıcı/etiket var (Varsayım)",
+            "Offline liste yedeği var",
+            "Personel görev dağılımı yazılı",
+            "Salon giriş kontrol noktası net",
+            "Etkinlik sonrası veri aktarım planı var",
+            "Erişim yetkileri tanımlı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Yazıcı/etiket yedeği yoksa, “ilk sıkışma”da tüm akış durur."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Check-in’i iki hatlı tasarla: hızlı + sorun çözme.",
+            "Badge’i renk kodla.",
+            "QR + manuel fallback ile kesintisiz çalış."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
+          "text": "Online form, RSVP, master liste, check-in masası ve badge akışını PMS/CRM ve KVKK ile uyumlu şekilde kurup kuyrukları azaltın.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "etkinlik-sonrasi-veri-crm-kvkk",
+      "title": "Etkinlik Sonrası Veri, CRM ve KVKK Yönetimi",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-04"
+        },
+        {
+          "type": "p",
+          "text": "Kayıt verisi etkinlik bitince “çöp” olmaz; doğru kullanılırsa satış/iletişim fırsatı yaratır. Ancak kişisel veriler KVKK kapsamında olduğu için saklama, erişim ve kullanım amacı net olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "CRM aktarımı ve satış dönüşüm ölçümü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "RSVP → katılım (show-up) → follow-up → teklif/rezervasyon sinyali",
+            "GA4’te RSVP ve check-in event’lerini ayrı hedef olarak tanımlama (Varsayım: ölçüm altyapısı varsa)",
+            "Satış dönüşüm raporu bağlantısı (internal link): https://dgtlface.com/tr/raporlama/satis-donusum"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "KVKK kısa not (teknik/etik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kişisel veriler yalnız yetkili personel tarafından erişilebilir olmalı.",
+            "Saklama süresi ve amaç dışı kullanım engellenmeli.",
+            "(Varsayım) Aydınlatma metni ve rıza yaklaşımı etkinlik tipine göre uyarlanmalı."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Kim erişir?” sorusu net değilse, veri riski vardır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "CRM aktarımını standardize et.",
+            "RSVP/check-in ölçümünü rapora bağla.",
+            "KVKK erişim ve saklama kurallarını yazılılaştır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rooming-list-pms-checkin-zinciri",
+      "title": "Fark Yaratan Otel-Özel Bölüm: Rooming List + PMS + Check-in Zinciri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI competitor gap notu: Rakip içerikler kayıt sürecini bağımsız konferans merkezleri üzerinden anlatıyor; otel özelinde oda planı, PMS entegrasyonu ve misafir check-in akışını bir araya getiren Türkçe rehber çok sınırlı."
+        },
+        {
+          "type": "p",
+          "text": "Otel farkı; aynı verinin hem etkinlik girişini hem de konaklama/oda planını yönetmesidir. Bu yüzden kayıt sürecini “form” değil, PMS/CRM ile entegre operasyon zinciri olarak kurmak; memnuniyeti ve verimliliği artırır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Oda planı ve etkinlik listesi iki ayrı dosyada yaşıyorsa, hatalar kaçınılmazdır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Tek master liste ile oda planını eşleştir.",
+            "VIP/speaker akışını ayrılaştır.",
+            "Etkinlik sonrası CRM follow-up’ını otomatikleştir."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İç link (AIO gereksinimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+            "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+            "https://dgtlface.com/tr/raporlama/satis-donusum",
+            "https://dgtlface.com/tr/otel-dijital-pazarlama"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Etkinlik Kayıt & Check-in Süreci Danışmanlığı Al",
+          "text": "Online form, RSVP, master liste, check-in masası ve badge akışını PMS/CRM ve KVKK ile uyumlu şekilde kurup kuyrukları azaltın.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "otel-etkinlik-kayit-checkin-checklist",
+      "title": "Otel Etkinlik Kayıt & Check-in Checklist’ini İndir — Creative / Registration & Check-in (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "Otel Etkinlik Kayıt & Check-in Checklist’ini İndir — Creative / Registration & Check-in (v1.0)",
+          "purpose": "Bu asset, otel etkinliklerinde online kayıt formu, RSVP, master katılımcı listesi, rooming list/PMS eşleşmesi, check-in masası ve badge akışını tek checklist altında toplar. Amaç; girişte kuyruk ve karışıklığı azaltmak, veri doğruluğunu artırmak ve etkinlik sonrası CRM/KVKK kapanışını standartlaştırmaktır.",
+          "whoFor": "MICE/etkinlik yöneticisi, ön büro, operasyon, ajans, kayıt masası ekip lideri.",
+          "steps": [
+            "Etkinlikten önce form/RSVP ve master listeyi kilitleyin.",
+            "Etkinlik günü check-in masa planı + badge üretim düzenini kurup kuyruk yönetimini uygulayın.",
+            "Etkinlik sonrası veriyi CRM’e aktarın; KVKK erişim/saklama kurallarıyla arşivleyin."
+          ],
+          "checklist": [
+            "Kayıt hedefi: kuyruk süresi ve veri doğruluğu KPI’ları yazılı",
+            "Form alanları minimal (60 sn doldurma hedefi)",
+            "RSVP otomasyonu (onay/ret/hatırlatma) kurulu",
+            "QR/unique code hazır + manuel fallback liste var",
+            "Master liste tek kaynak + tek editör",
+            "Rooming list PMS ile eşleşti",
+            "VIP/speaker/staff/vendor etiketleri tanımlı",
+            "Check-in masası sayısı ve görev dağılımı net",
+            "Badge şablonu + renk kodlar test edildi",
+            "KVKK erişim yetkileri ve saklama notu yazıldı",
+            "14 günlük sprint planı — Gün 1: Form alanları + KVKK metni (Varsayım)",
+            "14 günlük sprint planı — Gün 2: RSVP otomasyonu + hatırlatma kurgusu",
+            "14 günlük sprint planı — Gün 3: Master liste şablonu + etiketler",
+            "14 günlük sprint planı — Gün 4: Rooming list–PMS eşleşme testi",
+            "14 günlük sprint planı — Gün 5: Check-in masa layout + görev dağılımı",
+            "14 günlük sprint planı — Gün 6: Badge tasarımı + renk kod standardı",
+            "14 günlük sprint planı — Gün 7: QR/unique code üretimi + fallback liste",
+            "14 günlük sprint planı — Gün 8: Pilot check-in provası",
+            "14 günlük sprint planı — Gün 9: Kuyruk yönetimi (bariyer/tabela)",
+            "14 günlük sprint planı — Gün 10: CRM aktarım alanları (Varsayım)",
+            "14 günlük sprint planı — Gün 11: GA4 RSVP/check-in event tanımı (Varsayım)",
+            "14 günlük sprint planı — Gün 12: KVKK erişim/saklama prosedürü",
+            "14 günlük sprint planı — Gün 13: Etkinlik günü “go/no-go” kontrolü",
+            "14 günlük sprint planı — Gün 14: Post-event rapor + arşiv standardı"
+          ],
+          "href": "/downloads/otel-etkinlik-kayit-check-in-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel etkinliklerinde kayıt ve RSVP süreci nasıl tasarlanmalı?",
+      "a": "Formu minimal alanlarla kurup RSVP’yi otomatikleştirin. Tek bir master liste oluşturun ve güncellemeleri tek yerden yönetin. Etkinlik günü check-in’i QR + manuel fallback ile çalıştırarak kuyruk riskini azaltın."
+    },
+    {
+      "q": "Online kayıt formunda hangi alanlar olmalı?",
+      "a": "Ad–soyad, e-posta/telefon, şirket/ünvan (kurumsalsa), katılım türü ve konaklama ihtiyacı temel alanlardır. Gereksiz soruları çıkarıp bilgiyi daha sonra (ör. check-in veya post-event) toplamak tamamlanmayı artırır."
+    },
+    {
+      "q": "Check-in masası ve yaka kartı akışı nasıl kurulmalı?",
+      "a": "En az iki hat planlayın: hızlı check-in ve sorun çözme/VIP hattı. Badge’i okunur tasarlayıp renk kodlayın ve yazıcı/etiket yedeği bulundurun. Kuyruk yönlendirmesi için tabela ve bariyer kullanın."
+    },
+    {
+      "q": "Kayıt verisini PMS/CRM ile nasıl eşleştiririm?",
+      "a": "Formdaki konaklama alanlarını rooming list’e düşürüp PMS rezervasyon yönetimiyle düzenli eşleştirin. Etkinlik sonrası katılım durumunu CRM’e aktararak follow-up ve raporlamayı hızlandırın; erişim yetkilerini KVKK’ya göre sınırlayın."
+    },
+    {
+      "q": "Kayıt sürecinde en sık hata nedir?",
+      "a": "Tek kaynak liste olmaması ve check-in masasının kuyruk yönetimi olmadan kurulmasıdır. Bu iki hata, hem karışıklığı hem de şikâyeti büyütür."
+    },
+    {
+      "q": "RSVP ve check-in’i nasıl ölçerim?",
+      "a": "RSVP (onay) ve check-in (katılım) adımlarını ayrı ölçüp karşılaştırın. (Varsayım) GA4’te RSVP ve check-in event’lerini hedef olarak tanımlamak raporlamayı kolaylaştırır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — otel-etkinlik-kayit-rsvp-checkin-hero-01.webp — Otel etkinliğinde kayıt ve check-in masasını profesyonel akışla gösteren hero görseli",
+        "h1-context — 1920×1080 — otel-etkinlik-kayit-rsvp-checkin-h1-context-02.webp — Kayıt verisi, check-in ve badge akışını özetleyen otel context görseli",
+        "divider-03 — 1600×1200 — otel-etkinlik-kayit-rsvp-checkin-divider-03.webp — Online kayıt formu ve RSVP akışına geçiş bölüm görseli otel etkinliği",
+        "divider-04 — 1600×1200 — otel-etkinlik-kayit-rsvp-checkin-divider-04.webp — CRM ve KVKK veri yönetimine geçiş bölüm görseli otel bağlamı",
+        "diagram-05 — 1920×1080 — otel-etkinlik-kayit-rsvp-checkin-diagram-05.webp — Online form wireframe ve RSVP akış diyagramı otel etkinliği",
+        "diagram-06 — 1920×1080 — otel-etkinlik-kayit-rsvp-checkin-diagram-06.webp — Check-in masası yerleşim şeması + queue planı",
+        "checklist-06 — 1200×1200 — otel-etkinlik-kayit-rsvp-checkin-checklist-06.webp — Kayıt ve check-in için 20 maddelik checklist kartı otel etkinliği",
+        "kpi-07 — 1200×1200 — otel-etkinlik-kayit-rsvp-checkin-kpi-07.webp — Check-in süresi, kuyruk şikâyeti ve veri doğruluğu KPI skor kartı otel",
+        "proof-08 — 1200×1200 — otel-etkinlik-kayit-rsvp-checkin-proof-08.webp — Kayıt akışı, badge örnekleri ve PMS/CRM entegrasyon deliverables proof kartı",
+        "table-registration-rsvp-checkin-entry-flow — Kayıt → RSVP → Check-in → Salon Giriş Akışı Tablosu",
+        "table-problem-root-solution — Problem → Kök Neden → Çözüm tablosu",
+        "table-before-after-kpi — Öncesi/Sonrası KPI tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical: /tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin",
+        "Meta title ve meta description kontrolü",
+        "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
+        "Hero, H1 context, divider, diagram, checklist, KPI ve proof media slot dosya adları kontrolü",
+        "Kayıt → RSVP → Check-in → Salon Giriş Akışı ana tablo olarak kullanılıyor",
+        "Problem → Kök Neden → Çözüm ve Öncesi/Sonrası KPI tabloları download asset içinde korunuyor",
+        "Rooming list → PMS eşleşmesi kontrolü",
+        "RSVP → check-in → CRM ölçüm zinciri kontrolü",
+        "KVKK erişim rolü ve saklama süresi tanımları kontrolü",
+        "Primary CTA → /creative/etkinlik-produksiyonu",
+        "Secondary CTA → /creative/video-produksiyon",
+        "Destek iç link → /pms-ota/rezervasyon-yonetimi",
+        "Destek iç link → /raporlama/satis-donusum",
+        "Destek iç link → /otel-dijital-pazarlama",
+        "İç linklerde kırık link ve redirect zinciri kontrolü",
+        "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
+      ]
+    }
+  }
+},
+
+"BlogOtelEtkinlikMisafirAkisiVeWayfinding": {
+  "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding",
+  "slug": "otel-etkinlik-misafir-akisi-ve-wayfinding",
+  "department": "creative",
+  "subDepartment":"event",
+  "updatedAt": "12 Ağustos 2026",
+  "publishedAt": "2026-08-12",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Giriş–kayıt–vestiyer–salon–breakout–çıkış akışını planlayın. Tabela/ikon sistemi, dijital ekranlar, kuyruk yönetimi ve engelli erişimiyle karmaşayı azaltın.",
+  "seo": {
+    "metaTitle": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding | DGTLFACE",
+    "metaDescription": "Giriş–kayıt–vestiyer–salon–breakout–çıkış akışını planlayın. Tabela/ikon sistemi, dijital ekranlar, kuyruk yönetimi ve engelli erişimiyle karmaşayı azaltın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / URL: Etkinlik Prodüksiyonu — /tr/creative/etkinlik-produksiyonu",
+      "Blog No / Blog URL: 17 — /tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional",
+      "SERP hedefi: Featured Snippet + PAA",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    ],
+    "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunda “guest flow & wayfinding” için authority (parent) içeriktir; gala, kongre/MICE, konser ve çok salonlu etkinliklerde tekrar eden giriş–kayıt–break-out–çıkış akışını operasyonel UX yaklaşımıyla standartlaştırır. Hedef persona; otel GM/owner, MICE/etkinlik yöneticisi, operasyon/ön büro lideri ve ajans yöneticisidir; Antalya, Belek ve İstanbul gibi büyük balo salonu/kongre alanı olan otellerde akış hatası en iyi prodüksiyonu bile gölgeler. Funnel’da consideration → conversion taşır: “herkes aynı yerde sıkışıyor” problemini “akış haritası + signage sistemi + kuyruk yönetimi + erişilebilir rota” çözümüne çevirir. Ana iş sorusu: Misafirleri girişten salona, aralardan çıkışa kadar tıkanmadan, güvenli ve erişilebilir şekilde nasıl yönlendiririm?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-12",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Misafir akışı iyi tasarlanmayan otel etkinliklerinde girişte kuyruk, salon kapılarında tıkanma ve “kalabalık/karmaşa” algısı oluşur. Çözüm; giriş–kayıt–vestiyer–salon–break-out–tuvalet/bar–çıkış rotalarını önceden haritalamak, net yönlendirme tabelaları ve dijital ekranları doğru noktalara yerleştirmek ve kuyruk alanlarını bariyer/şeritlerle yönetmektir. Engelli misafirler için engelsiz alternatif rota planı da tasarımın parçası olmalıdır.",
+    "sgeSummary": "Akış haritası çıkar, giriş-kayıt-vestiyer ve salon kapılarını ayrıştır, signage/ikon setini standartlaştır, dijital ekranları yerleştir, kuyrukları alanla yönet, erişilebilir rota oluştur.",
+    "voiceAnswer": "Akışı haritalayıp tabelaları standartlaştırır ve kuyruk alanını tasarlarsanız tıkanma ve karmaşa azalır.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/owner, MICE/etkinlik yöneticisi, operasyon/ön büro, ajans",
+      "KPI: Kuyruk süresi, yönlendirme hatası/şikâyet, güvenlik olayı, memnuniyet skoru, erişilebilirlik uyumu",
+      "Entity: Guest Flow, Wayfinding, Signage, Queue Management, Accessibility, Hotel Event",
+      "Geo: Antalya, Belek, İstanbul (büyük salon/kongre alanı senaryoları)",
+      "Funnel: Consideration → Conversion (operasyonel kalite)",
+      "Çıktılar: Flow diyagramı, signage ikon seti, kuyruk alanı şeması, erişilebilir rota planı, 15 maddelik kontrol listesi",
+      "Risk: Dar geçişler, asansör yoğunluğu, tuvalet/bar bottleneck, acil çıkış çakışması"
+    ]
+  },
+  "h1": {
+    "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+    "intro": "“Etkinlikte herkes aynı yerde sıkışıyor, misafir akışını nasıl düzenlerim?” Bu soru; otel etkinliklerinde en pahalı hatayı işaret eder: akış hatası. Çünkü misafir ilk 5–10 dakikada kuyrukta beklerse, etkinliğin geri kalanında sahne ne kadar iyi olursa olsun zihninde “karmaşa” kalır. Misafir akışı; giriş, kayıt, vestiyer, salon kapıları, break-out alanları, tuvalet, sigara alanı ve bar gibi mikro noktaların bir sistem olarak tasarlanmasıdır. Doğru wayfinding (tabela/ikon/dijital ekran) ve kuyruk yönetimiyle hem güvenlik hem memnuniyet artar; ayrıca engelli misafirler için erişilebilir rota tasarımı, modern otel etkinlik standardının parçasıdır.",
+    "quickSummary": [
+      "1) Girişten çıkışa tüm misafir rotalarını haritala",
+      "2) Dar boğazları ve karar noktalarını önceden belirle",
+      "3) Signage, ikon ve dijital ekran dilini standardize et",
+      "4) Kayıt, vestiyer, bar ve salon kuyruklarını alan bazlı yönet",
+      "5) Engelsiz rota ve acil çıkış tutarlılığını saha walk-through ile doğrula"
+    ],
+    "ctaPrimary": {
+      "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
+      "text": "Otelinizin etkinlik alanına özel flow haritası, signage sistemi ve kuyruk planını birlikte tasarlayalım.",
+      "href": "/creative/etkinlik-produksiyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
+      "text": "Girişten salona ve çıkışa kadar akışı haritalayıp signage ve kuyruk yönetimiyle tıkanmaları azaltın, memnuniyeti yükseltin.",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    "secondary": {
+      "label": "Misafir Akışı & Yönlendirme Planı Şablonunu İndir",
+      "text": "Flow haritası, tabela/ikon seti, kuyruk yerleşimi ve erişilebilir rota adımlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
+      "href": "/creative/video-produksiyon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Teknik SEO",
+      "href": "/seo/teknik-seo"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+      "href": "/creative/blog/otel-etkinlik-kayit-rsvp-checkin"
+    },
+    {
+      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+      "href": "/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-etkinliklerinde-misafir-akisi-wayfinding-tasarimi",
+      "title": "Otel etkinliklerinde misafir akışı ve wayfinding nasıl tasarlanmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Başarılı akış tasarımı, “tabela asalım” değildir; akışı sadeleştirip karar noktalarını azaltmak demektir. Misafir, etkinlikte en fazla 3 karar vermelidir: “Nereye gideceğim?”, “Nereden gireceğim?”, “Nerede bekleyeceğim?”. Bu üç soruya hızlı yanıt veren sistem; harita + signage + dijital ekran + alan yerleşimiyle kurulur."
+        },
+        {
+          "type": "h3",
+          "text": "AEO mini cevap bloğu (2–3 cümle)"
+        },
+        {
+          "type": "p",
+          "text": "Otel etkinliklerinde misafir akışı ve wayfinding tasarlamak için giriş–kayıt–vestiyer–salon–break-out–tuvalet/bar–çıkış rotalarını haritalayın ve dar boğaz noktalarını belirleyin. Ardından tabela/ikon setini tutarlı bir görsel dil ile standardize edip dijital ekranları karar noktalarına yerleştirin. Kuyruk alanlarını bariyer/şerit ve ayrı hatlarla yönetin; engelli misafirler için engelsiz alternatif rota planını zorunlu kılın."
+        },
+        {
+          "type": "h3",
+          "text": "5–7 maddelik AEO checklist’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Harita: Girişten çıkışa tüm rotalar çizildi mi?",
+            "Bottleneck: Dar geçiş, asansör, tuvalet/bar yoğunluğu tespit edildi mi?",
+            "Signage: Kontrast/font/ikon standartları belirlendi mi?",
+            "Dijital ekran: Karar noktalarında (giriş, foyer, koridor) konumlandı mı?",
+            "Kuyruk: Kayıt/vestiyer/bar için ayrı kuyruk alanı tasarlandı mı?",
+            "Erişilebilirlik: Rampa/asansör ve engelsiz rota net mi?",
+            "Güvenlik: Acil çıkış yönlendirmesiyle çakışmayan tutarlı sistem var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Misafir aynı noktada iki kez durup “şimdi nereye?” diyorsa, wayfinding zayıftır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Akış haritasını çiz.",
+            "Dar boğazları büyüt/ayır.",
+            "Tabela dilini standardize et.",
+            "Kuyruğu “alanla” yönet.",
+            "Engelsiz rotayı alternatif değil “ana plan” gibi tasarla."
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Akış Noktaları ve Risk Matrisi Tablosu",
+          "headers": [
+            "Nokta",
+            "Risk",
+            "Çözüm",
+            "Signage",
+            "Personel",
+            "Erişilebilirlik notu"
+          ],
+          "rows": [
+            [
+              "Giriş",
+              "İlk geliş dalgası ve yön belirsizliği",
+              "Karşılama alanı + ana rota ayrımı",
+              "Büyük etkinlik haritası + salon yönleri",
+              "Karşılama/yönlendirme",
+              "Engelsiz ana giriş ve rampa net olmalı"
+            ],
+            [
+              "Kayıt",
+              "Uzun kuyruk ve işlem tıkanması",
+              "Ayrı hatlar + sorun çözme masası",
+              "Kayıt / VIP / sorun çözme ayrımı",
+              "Kayıt ekibi",
+              "Erişilebilir masa yüksekliği ve geçiş alanı"
+            ],
+            [
+              "Vestiyer",
+              "Kayıt kuyruğuyla çakışma",
+              "Ayrı kuyruk alanı",
+              "Vestiyer yönlendirmesi",
+              "Vestiyer ekibi",
+              "Geçiş koridoru açık tutulmalı"
+            ],
+            [
+              "Foyer",
+              "Karar noktası karmaşası",
+              "Dağıtım alanı + dijital ekran",
+              "Program + salon isimleri + yön okları",
+              "Yönlendirme personeli",
+              "Asansör/rampa rotası görünür olmalı"
+            ],
+            [
+              "Salon girişi",
+              "Kapı önünde tıkanma",
+              "Kuyruğu kapıdan geri çekme + kontrollü giriş",
+              "Salon adı + giriş yönü",
+              "Kapı görevlisi",
+              "Engelsiz giriş hattı korunmalı"
+            ],
+            [
+              "Break-out alanları",
+              "Oturum bitişinde kalabalık dalgası",
+              "Alternatif rota + zamanlama",
+              "Salon/koridor yön okları",
+              "Akış görevlisi",
+              "Dar koridorlarda alternatif geçiş tanımlanmalı"
+            ],
+            [
+              "WC / Bar",
+              "Bottleneck ve karşı akış",
+              "Alternatif rota + overflow alanı",
+              "WC / Bar ikonları",
+              "Alan sorumlusu",
+              "Engelsiz WC rotası ayrıca işaretlenmeli"
+            ],
+            [
+              "Çıkış",
+              "Toplu çıkışta yoğunluk ve acil çıkış çakışması",
+              "Ana çıkış + alternatif güvenli rota",
+              "Exit / çıkış yönlendirmesi",
+              "Güvenlik/yönlendirme",
+              "Engelsiz çıkış rotası kesintisiz olmalı"
+            ]
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Misafir Akışı & Yönlendirme Planı Şablonunu İndir",
+          "text": "Flow haritası, tabela/ikon seti, kuyruk yerleşimi ve erişilebilir rota adımlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
+          "href": "/creative/video-produksiyon"
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "misafir-akisi-nedir-neden-kritik",
+      "title": "Misafir Akışı Nedir, Otel Etkinliklerinde Neden Kritik?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Misafir akışı; mekânın fiziksel kapasitesini “insan hareketi”ne çevirme disiplinidir. Otel etkinliklerinde kritik olmasının nedeni; aynı anda çok farklı işlerin yapılmasıdır: kayıt, badge, vestiyer, kahve alanı, salon giriş kontrolü… Hepsi aynı koridor/foyer’e yığılırsa, algı bozulur."
+        },
+        {
+          "type": "h3",
+          "text": "Akışın yarattığı 3 algı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Profesyonellik: net yönlendirme = güven",
+            "Konfor: tıkanma yok = memnuniyet",
+            "Güvenlik: acil çıkış açık = risk azalır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Check-in ile vestiyer aynı noktada yığılıyorsa, ilk tıkanma orada olur."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Kayıt–vestiyer–salon girişini mümkünse farklı noktalara böl.",
+            "Foyer’i “dağıtım alanı” gibi tasarla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giris-kayit-vestiyer-akisi",
+      "title": "Giriş, Kayıt ve Vestiyer Akışı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, en sık kriz çıkan yerdir. Çünkü herkes aynı anda gelir ve ilk temas burada olur. Çözüm; ayrı hatlar, net yönlendirme ve hızlı işlem tasarımıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Giriş alanı ve karşılama"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Karşılama personeli “yönlendirir”; kayıt personeli “işlem yapar” (roller ayrılır)",
+            "Kayıt için VIP/konuşmacı/standart ayrı hat (Varsayım: büyük etkinliklerde)",
+            "Vestiyer akışı kayıtla çakışmayacak şekilde ayrı kuyruk alanında"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Asansör/merdiven yoğunluğu planlama"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kat geçişi gerekiyorsa, girişte “kat yönlendirme” tabelası şart",
+            "Engelli misafir için asansör rotası ve alternatif bekleme alanı olmalı"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kayıt masasında “sorun çözme” noktası yoksa, tek problem tüm kuyruğu durdurur."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "En az bir “sorun çözme” masası ayır.",
+            "VIP hattını ayrılaştır.",
+            "Vestiyeri kayıtla aynı kuyrukta birleştirme."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yonlendirme-tabelalari-haritalar-dijital-ekranlar",
+      "title": "Yönlendirme Tabelaları, Haritalar ve Dijital Ekranlar",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Wayfinding’in başarısı; tutarlılık ve okunabilirliktir. Aynı ikon, aynı renk kodu, aynı terminoloji… Bir etkinlikte 3 farklı “salon adı” kullanılırsa misafir kaybolur."
+        },
+        {
+          "type": "h3",
+          "text": "Signage sistemi: okunabilirlik ve erişilebilirlik (teknik not)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Yüksek kontrast (açık zemin/koyu yazı veya tersi)",
+            "Büyük font (uzaktan okunur)",
+            "İkonlarla destek (WC, bar, salon, breakout)",
+            "Engelli işaretleri ve rota yönleri net"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Harita ve dijital ekranların konumu"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Girişte “büyük harita”",
+            "Foyer’de “program + salon isimleri” ekranı",
+            "Koridor karar noktalarında “ok” yönlendirmesi",
+            "(Varsayım) QR ile mobil harita erişimi"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Tabela “güzel” ama okunmuyor ise, yok hükmündedir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Tek ikon seti ve tek terminoloji kullan.",
+            "Dijital ekranları “karar noktasına” koy, duvar süsü yapma."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kuyruk-gecis-alani-yonetimi",
+      "title": "Kuyruk ve Geçiş Alanı Yönetimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Queue management, etkinlik UX’inin en ölçülebilir alanıdır. Kuyruklar tamamen yok olmayabilir; hedef, kuyruğu planlı ve rahat hale getirmektir."
+        },
+        {
+          "type": "h3",
+          "text": "Kuyruk alanı yerleşimi (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Bariyer/şerit ile tek sıra veya çoklu hat",
+            "Kapı önünde değil, geniş alanda kuyruk",
+            "“Kuyruk taşması” için overflow alanı (Varsayım)",
+            "Kapı girişinde görevli “akışı” yönetir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Break-out alanlarına geçiş (kalabalık dalgaları)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Oturum bitişlerinde 5 dakikalık “dalga” olur; bu dalgaya göre koridor genişliği ve yönlendirme gerekir.",
+            "Kahve alanı ve WC’ye aynı anda yığılma için alternatif rota planı yapın."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-06"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kuyruk kapı ağzında oluşuyorsa, kapı güvenliği ve acil çıkış riske girer; kuyruk alanını geri çekin."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Kuyruğu geniş alana taşı.",
+            "Break-out bitişlerinde “dalga” planı yap.",
+            "Overflow alanı belirle."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
+          "text": "Girişten salona ve çıkışa kadar akışı haritalayıp signage ve kuyruk yönetimiyle tıkanmaları azaltın, memnuniyeti yükseltin.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "engelli-misafirler-erisilebilir-akis-tasarimi",
+      "title": "Engelli Misafirler için Erişilebilir Akış Tasarımı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-04"
+        },
+        {
+          "type": "p",
+          "text": "Erişilebilirlik, etkinlik planında “ek” değil çekirdek olmalıdır. Engelli misafirlerin rotası; rampa, asansör, geniş kapı geçişi ve engelsiz WC erişimiyle net çizilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Alternatif rota şeması (örnek)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Giriş → rampalı rota → kayıt masası (alçak tezgâh varsa avantaj)",
+            "Asansör → salon → engelsiz oturma alanı",
+            "WC → engelsiz rota ile dönüş"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-09"
+        },
+        {
+          "type": "h3",
+          "text": "Signage teknik notu (tutarlılık ve acil çıkış)"
+        },
+        {
+          "type": "p",
+          "text": "Erişilebilir signage; acil çıkış yönlendirmeleriyle çakışmamalı ama tutarlı olmalıdır. Kontrast ve font boyutu, erişilebilirliğin temelidir. (İç link: teknik SEO/erişilebilirlik bağlantısı)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "https://dgtlface.com/tr/seo/teknik-seo"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Asansör rotası “personel kapısı”ndan geçiyorsa, deneyim bozulur; misafir rotası tasarlayın."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Engelsiz rotayı haritada işaretle.",
+            "Personeli bu rota konusunda brief et.",
+            "Alternatif oturma alanını önceden ayır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misafir-akisi-15-maddelik-kontrol-listesi",
+      "title": "Misafir akışı için 15 maddelik kontrol listesi",
+      "blocks": [
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Giriş–kayıt–vestiyer akışı ayrı hatlarla planlı",
+            "VIP/speaker hattı ayrıldı (Varsayım)",
+            "Sorun çözme masası var",
+            "Foyer karar noktaları belirlendi",
+            "Tek terminoloji (salon adları) kullanılıyor",
+            "Tabela kontrastı ve fontu okunur",
+            "İkon seti tutarlı",
+            "Dijital ekranlar karar noktalarında",
+            "Kuyruk alanı kapı ağzında değil",
+            "Overflow kuyruk alanı belirlendi",
+            "Break-out bitiş dalgası planlandı",
+            "WC/bar erişimi için alternatif rota var",
+            "Engelsiz rota haritada işaretli",
+            "Acil çıkışlar signage ile çakışmıyor",
+            "Saha walk-through ve go/no-go yapıldı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Walk-through yapılmadıysa, plan kağıt üzerinde kalır; sahada test şart."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
+          "text": "Alan planınıza özel flow ve signage sistemini tasarlayıp kuyruk ve tıkanmaları azaltalım.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "operasyonel-ux-standardi",
+      "title": "Fark Yaratan Bölüm: Otel Etkinliklerinde “Operasyonel UX” Standardı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI competitor gap notu: Rakip içerikler misafir akışını AVM/havaalanı örnekleriyle anlatıyor; otel etkinlik alanlarında giriş–salon–breakout–çıkış akışını birlikte ele alan Türkçe rehber az."
+        },
+        {
+          "type": "p",
+          "text": "Otel etkinliklerinde fark; aynı alanda kayıt, vestiyer, kahve, WC ve salon girişinin eş zamanlı çalışmasıdır. Bu yüzden operasyonel UX yaklaşımı gerekir: akış haritası + signage dili + kuyruk tasarımı + erişilebilir rota."
+        },
+        {
+          "type": "h3",
+          "text": "İç link (AIO gereksinimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+            "https://dgtlface.com/tr/creative/video-produksiyon",
+            "https://dgtlface.com/tr/seo/teknik-seo",
+            "https://dgtlface.com/tr/otel-dijital-pazarlama"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Misafir Akışı & Wayfinding Tasarım Danışmanlığı Al",
+          "text": "Girişten salona ve çıkışa kadar akışı haritalayıp signage ve kuyruk yönetimiyle tıkanmaları azaltın, memnuniyeti yükseltin.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "misafir-akisi-yonlendirme-plani-sablonu",
+      "title": "Misafir Akışı & Yönlendirme Planı Şablonunu İndir — Creative / Guest Flow (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Misafir Akışı & Yönlendirme Planı Şablonunu İndir — Creative / Guest Flow (v1.0)",
+          "purpose": "Bu şablon, otel etkinliklerinde giriş–kayıt–vestiyer–salon–breakout–WC/bar–çıkış akışını tek haritada toplar; signage/ikon seti, kuyruk alanı yerleşimi ve engelsiz rota planını standartlaştırır. Amaç; tıkanmaları azaltmak, güvenliği artırmak ve misafir deneyimini profesyonel hale getirmektir.",
+          "whoFor": "Etkinlik/MICE yöneticisi, operasyon/ön büro, güvenlik, ajans prodüktörü.",
+          "steps": [
+            "Etkinlik alanını (foyer, salonlar, breakout) harita üstünde işaretleyin.",
+            "Karar noktalarına signage/dijital ekran yerleşimini ve kuyruk alanlarını tanımlayın.",
+            "Engelsiz rota ve acil çıkış tutarlılık kontrolü yapıp saha walk-through ile doğrulayın."
+          ],
+          "checklist": [
+            "Seçilen Şablon: Template",
+            "A) Alan Haritası (doldur)",
+            "B) Kuyruk Yönetimi",
+            "C) Signage / Dijital Ekran",
+            "D) Erişilebilir Rota",
+            "E) Go/No-Go Kontrol",
+            "Deliverables: Flow haritası + signage planı + kuyruk yerleşimi + erişilebilir rota"
+          ],
+          "href": "/downloads/misafir-akisi-yonlendirme-plani-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel etkinliklerinde misafir akışı nasıl planlanır?",
+      "a": "Girişten çıkışa rotaları haritalayıp dar boğazları belirleyin. Kayıt/vestiyer/salon kapılarını ayrı hatlarla yönetin; tabelaları karar noktalarına yerleştirin ve kuyruk alanını kapı ağzından uzak tasarlayın."
+    },
+    {
+      "q": "Yönlendirme tabelalarında nelere dikkat etmeliyim?",
+      "a": "Kontrast ve font boyutu uzaktan okunabilir olmalı, ikon seti tutarlı kullanılmalıdır. Salon isimleri tek terminolojiyle yazılmalı; erişilebilirlik işaretleri net olmalıdır."
+    },
+    {
+      "q": "Kuyruk ve geçiş alanlarını nasıl tasarlamalıyım?",
+      "a": "Kuyruğu geniş alana taşıyıp bariyer/şerit ile düzenleyin; VIP ve sorun çözme için ayrı hat açın. Break-out bitişlerinde oluşan “dalga”ya göre koridor ve kahve/WC erişimini planlayın."
+    },
+    {
+      "q": "Engelli misafirler için etkinlik akışı nasıl düzenlenmeli?",
+      "a": "Engelsiz rota (rampa/asansör) haritada açıkça gösterilmeli ve sahada işaretlenmelidir. Engelsiz WC ve uygun oturma alanı önceden ayrılmalı; personel bu rota konusunda brief edilmelidir."
+    },
+    {
+      "q": "En sık yapılan akış hatası nedir?",
+      "a": "Kayıt–vestiyer–salon girişini aynı noktada yığmak ve tabelaları karar noktalarına değil “rastgele” asmak. Bu durum hem kuyruk hem de karmaşa algısını büyütür."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — otel-etkinlik-misafir-akisi-ve-wayfinding-hero-01.webp — Otel etkinliğinde net yönlendirme tabelaları ve akıcı misafir akışı hero görseli",
+        "h1-context — 1920×1080 — otel-etkinlik-misafir-akisi-ve-wayfinding-h1-context-02.webp — Girişten salona ve breakout alanlarına misafir akışı context görseli otel",
+        "divider-03 — 1600×1200 — otel-etkinlik-misafir-akisi-ve-wayfinding-divider-03.webp — Giriş kayıt vestiyer akışına geçiş bölüm görseli otel etkinliği",
+        "divider-04 — 1600×1200 — otel-etkinlik-misafir-akisi-ve-wayfinding-divider-04.webp — Erişilebilir akış ve signage standartlarına geçiş bölüm görseli otel",
+        "diagram-05 — 1920×1080 — otel-etkinlik-misafir-akisi-ve-wayfinding-diagram-05.webp — Otel etkinlik alanı misafir flow diyagramı ve karar noktaları şeması",
+        "checklist-06 — 1200×1200 — otel-etkinlik-misafir-akisi-ve-wayfinding-checklist-06.webp — Misafir akışı için 15 maddelik kontrol listesi checklist kartı otel etkinliği",
+        "kpi-07 — 1200×1200 — otel-etkinlik-misafir-akisi-ve-wayfinding-kpi-07.webp — Kuyruk süresi ve yönlendirme şikâyetlerini izleyen KPI skor kartı otel etkinliği",
+        "proof-08 — 1200×1200 — otel-etkinlik-misafir-akisi-ve-wayfinding-proof-08.webp — Wayfinding tabela ikon örnekleri ve kuyruk planı deliverables proof kartı",
+        "diagram-06 — 1920×1080 — otel-etkinlik-misafir-akisi-ve-wayfinding-diagram-06.webp — Kuyruk alanı yerleşimi ve geçiş koridorları şeması",
+        "diagram-09 — 1920×1080 — otel-etkinlik-misafir-akisi-ve-wayfinding-diagram-09.webp — Engelli erişimi için alternatif rota şeması",
+        "table-flow-risk-matrix — Akış Noktaları ve Risk Matrisi Tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical: /tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding",
+        "Meta title ve meta description kontrolü",
+        "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
+        "Hero, H1 context, divider, diagram, checklist, KPI ve proof media slot dosya adları kontrolü",
+        "Akış Noktaları ve Risk Matrisi tek ana tablo olarak kullanılıyor",
+        "Giriş → kayıt → vestiyer → salon → break-out → WC/bar → çıkış flow zinciri kontrolü",
+        "Signage terminolojisi, ikon seti, kontrast ve okunabilirlik standardı kontrolü",
+        "Kuyruk alanlarının kapı ve acil çıkışları engellemediği kontrol edilmeli",
+        "Engelsiz rota, rampa/asansör, engelsiz WC ve oturma alanı erişilebilirlik kontrolü",
+        "Acil çıkış signage sistemi ile etkinlik wayfinding sisteminin çakışmadığı doğrulanmalı",
+        "Saha walk-through ve go/no-go kontrolü yapılmalı",
+        "Primary CTA → /creative/etkinlik-produksiyonu",
+        "Secondary CTA → /creative/video-produksiyon",
+        "Destek iç link → /seo/teknik-seo",
+        "Destek iç link → /otel-dijital-pazarlama",
+        "İç linklerde kırık link ve redirect zinciri kontrolü",
+        "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
+      ]
+    }
+  }
+},
+
+"BlogOtelEtkinlikGuvenlikVeRiskYonetimi": {
+  "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi",
+  "slug": "otel-etkinlik-guvenlik-ve-risk-yonetimi",
+  "department": "creative",
+  "subDepartment":"event",
+  "updatedAt": "12 Ağustos 2026",
+  "publishedAt": "2026-08-12",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Crowd control, kapasite, acil çıkış ve tahliye planını otel etkinliklerinde standardize edin. Risk matrisi, briefing şablonu ve prosedürlerle krizleri başlamadan önleyin.",
+  "seo": {
+    "metaTitle": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi | DGTLFACE",
+    "metaDescription": "Crowd control, kapasite, acil çıkış ve tahliye planını otel etkinliklerinde standardize edin. Risk matrisi, briefing şablonu ve prosedürlerle krizleri başlamadan önleyin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / URL: Etkinlik Prodüksiyonu — /tr/creative/etkinlik-produksiyonu",
+      "Blog No / Blog URL: 18 — /tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional",
+      "SERP hedefi: Featured Snippet + PAA",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi"
+    ],
+    "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunda “safety & risk” cluster’ının merkezi (authority/hub) içeriğidir; açık alan, festival, konser ve gala gibi yüksek yoğunluklu etkinliklerin güvenlik omurgasını kurar. Hedef persona; otel GM/owner, etkinlik/MICE yöneticisi, operasyon/teknik lider ve profesyonel güvenlik ekip koordinatörüdür; özellikle Antalya, Belek, Bodrum gibi büyük konser/festival/gala yapan otellerde crowd control ve tahliye planı kritikleşir. Funnel’da consideration → conversion taşır: “güvenliği nasıl garanti ederim?” sorusunu “risk matrisi + kapasite + giriş/çıkış + acil durum prosedürü + eğitim” sistemine çevirir. Ana iş sorusu: Kalabalık etkinliklerde güvenliği operasyonel olarak nasıl standardize eder, acil durumda kimin ne yapacağını nasıl netleştiririm?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-12",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Otel etkinliklerinde sahne ve dekor kadar güvenlik ve risk yönetimi de kritiktir. Kapasite planlaması, giriş–çıkış ve acil çıkış düzeni, crowd control bariyerleri ve iyi brifing almış güvenlik ekibi; olası krizleri başlamadan önler. Operasyonel yaklaşım; risk matrisi oluşturmak, kritik senaryolar için (medikal, teknik, hava, kalabalık) prosedür yazmak ve tahliye planını sahada test etmektir. Bu rehber, adım adım güvenlik kurulumunu anlatır.",
+    "sgeSummary": "Risk matrisi çıkar, kapasiteyi planla, giriş/çıkış ve bariyerleri tasarla, acil durum–tahliye prosedürünü yaz, güvenlik/sağlık/teknik ekibi briefle, sahada tatbikat yap.",
+    "voiceAnswer": "Risk matrisi ve kapasite planı çıkarıp crowd control ve tahliye prosedürünü ekibe brieflerseniz güvenliği yönetirsiniz.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/owner, etkinlik/MICE, operasyon/teknik lider, güvenlik amiri",
+      "KPI: Olay sayısı (0 hedef), kuyruk/taşma, tahliye süresi (tatbikat), şikâyet/itibar riski, prosedür uyumu",
+      "Entity: Safety, Risk Management, Crowd Control, Emergency Plan, Evacuation, Security Team",
+      "Geo: Antalya, Belek, Bodrum (büyük konser/festival/gala senaryoları)",
+      "Funnel: Consideration → Conversion (risk azaltma + danışmanlık)",
+      "Çıktılar: Risk matrisi tablosu, tahliye şeması, briefing akış diyagramı, “event day safety brief” şablonu",
+      "Not: Bu içerik hukuki tavsiye değil, operasyonel rehberdir; yerel otoriteler ve profesyonel firmalarla birlikte yürütülmelidir."
+    ]
+  },
+  "h1": {
+    "title": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler",
+    "intro": "“Etkinlikte güvenliği nasıl garanti altına alırım?”, “acil durumda ne yapacağımız belli değil, nereden başlamalıyım?” soruları, prodüksiyonun en kritik ama en az konuşulan kısmına işaret eder. Otel etkinliklerinde güvenlik; yalnız “kapıda güvenlik” değildir: kapasite planlaması, giriş–çıkış akışı, acil çıkışların açık tutulması, crowd control bariyerleri, medikal/teknik senaryolar ve ekiplerin aynı prosedürü bilmesiyle sağlanır. Bu rehber; hukuki tavsiye vermeden, operasyonel bir güvenlik playbook’u kurmanız için risk matrisi, tahliye planı ve briefing şablonlarıyla adım adım ilerler.",
+    "quickSummary": [
+      "1) Risk matrisi çıkar ve kritik senaryoları yazılı hale getir",
+      "2) Kapasite ile giriş–çıkış ve crowd control planını birlikte tasarla",
+      "3) Acil çıkış, tahliye rotası ve toplanma alanını netleştir",
+      "4) Güvenlik–sağlık–teknik ekiplerinin görev ve iletişim zincirini belirle",
+      "5) Event-day briefing ve saha walk-through ile planı doğrula"
+    ],
+    "ctaPrimary": {
+      "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
+      "text": "Risk matrisi, kapasite planı ve tahliye prosedürünü etkinliğinize özel standardize edelim.",
+      "href": "/creative/etkinlik-produksiyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
+      "text": "Risk matrisi, kapasite planı, crowd control ve tahliye prosedürleriyle etkinlik güvenliğini standartlaştırıp itibar riskini azaltın.",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    "secondary": {
+      "label": "Otel Etkinlikleri İçin Güvenlik & Tahliye Planı Şablonunu İndir",
+      "text": "Risk matrisi, görev dağılımı, acil çıkış/tahliye şeması ve briefing notlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
+      "href": "/creative/video-produksiyon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Sunucu Güvenlik",
+      "href": "/yazilim/sunucu-guvenlik"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+      "href": "/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding"
+    },
+    {
+      "title": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+      "href": "/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi"
+    }
+  ],
+  "sections": [
+    {
+      "id": "otel-etkinliklerinde-guvenlik-risk-yonetimi",
+      "title": "Otel etkinliklerinde güvenlik ve risk yönetimi nasıl yapılmalı?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Güvenlik yönetimi, tek bir önlem değil zincirdir: risk analizi → kapasite → crowd control → acil durum planı → eğitim/briefing → tatbikat. Bu zincirin herhangi bir halkası zayıfsa, kriz anında sistem çalışmaz. Otel bağlamında ayrıca misafir profili çeşitliliği (çocuklu aile, VIP, alkol servisli etkinlik, açık alan) riskleri büyütebilir."
+        },
+        {
+          "type": "h3",
+          "text": "AEO mini cevap bloğu (2–3 cümle)"
+        },
+        {
+          "type": "p",
+          "text": "Otel etkinliklerinde güvenlik ve risk yönetimi için önce risk matrisi çıkarıp kapasite ve alan planını netleştirin. Giriş–çıkış, acil çıkış ve crowd control bariyerlerini tasarlayıp acil durum senaryoları (medikal, teknik, hava, kalabalık) için prosedür yazın. Güvenlik–sağlık–teknik ekipleri kısa bir briefing ile aynı sayfaya getirip sahada walk-through/tatbikat yaparak planı doğrulayın."
+        },
+        {
+          "type": "h3",
+          "text": "5–7 maddelik AEO checklist’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Risk matrisi: Kalabalık/hava/teknik/medikal riskleri yazılı mı?",
+            "Kapasite: Salon/açık alan kapasite limiti ve yoğunluk planı net mi?",
+            "Crowd control: Bariyer, sıra, giriş–çıkış akışı tasarlandı mı?",
+            "Acil çıkış: Çıkışlar açık ve görünür mü, signage tutarlı mı?",
+            "Tahliye planı: Rota, toplanma alanı, rol dağılımı hazır mı?",
+            "Ekip: Güvenlik/sağlık/teknik koordinasyonu ve iletişim kanalı net mi?",
+            "Eğitim: Event-day briefing + kısa tatbikat yapıldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Acil çıkış kapalı mı?” sorusuna sahada anında “hayır” diyemiyorsanız, etkinlik başlamaz."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Risk matrisi çıkar.",
+            "Kapasite ve giriş/çıkış akışını çiz.",
+            "Tahliye rotasını sahada işaretle.",
+            "Briefing şablonunu zorunlu kıl.",
+            "Walk-through yapmadan kapı açma."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "otel-etkinliklerinde-guvenligin-onemi",
+      "title": "Otel Etkinliklerinde Güvenliğin Önemi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Güvenlik, etkinlik kalitesinin “görünmeyen” temelidir. Misafir güvenli hissetmezse eğlence veya içerik etkisini kaybeder. Ayrıca büyük etkinliklerde bir olay, otelin itibarına uzun süreli zarar verebilir."
+        },
+        {
+          "type": "h3",
+          "text": "Otel bağlamında güvenlik neden daha zor?"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çoklu alan: foyer, salon, açık alan, bar, WC, sigara alanı",
+            "Çoklu paydaş: otel operasyonu + ajans + tedarikçiler + güvenlik firması",
+            "Çeşitli profil: çocuklu aile, VIP, yüksek enerji kitle, alkol servisi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Güvenlik planı “tek sayfa” değilse bile, “tek mantık” olmalı: herkes aynı prosedürü bilsin."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Güvenliği prodüksiyonun bir parçası yap; sonradan ekleme.",
+            "Paydaşları briefing ile hizala."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk-analizi-kapasite-planlama",
+      "title": "Risk Analizi ve Kapasite Planlama",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Risk analizi; “her şey olabilir” demek değil, “ne olabilir ve ne yaparız” demektir. Kapasite planlama ise riskin sayısal tarafıdır: kaç kişi, hangi alanda, hangi yoğunlukta?"
+        },
+        {
+          "type": "h3",
+          "text": "Risk matrisi oluşturma (kalabalık, hava, teknik, medikal)"
+        },
+        {
+          "type": "p",
+          "text": "Risk matrisi; olasılık × etki yaklaşımıyla pratik hale gelir. (Kesin sayısal iddia yerine yön gösterir.)"
+        },
+        {
+          "type": "table",
+          "caption": "Risk Matrisi",
+          "headers": [
+            "Risk kategorisi",
+            "Örnek risk",
+            "Etki",
+            "Önleyici kontrol",
+            "Event-day aksiyon"
+          ],
+          "rows": [
+            [
+              "Kalabalık",
+              "Kapı girişinde yığılma",
+              "Yüksek",
+              "Bariyer + ayrı hat",
+              "Akışı böl, giriş durdur"
+            ],
+            [
+              "Medikal",
+              "Bayılma/yaralanma",
+              "Orta–Yüksek",
+              "İlk yardım noktası",
+              "Sağlık ekibini çağır"
+            ],
+            [
+              "Teknik",
+              "Elektrik kesintisi",
+              "Orta",
+              "Yedek güç planı (Varsayım)",
+              "Kritik ekipmanı kapat"
+            ],
+            [
+              "Hava (açık alan)",
+              "Ani rüzgâr/yağış",
+              "Yüksek",
+              "B planı hazır",
+              "İçeri taşı/iptal prosedürü"
+            ],
+            [
+              "Güvenlik olayı",
+              "Kavga/taşkınlık",
+              "Yüksek",
+              "Görünür güvenlik",
+              "Ayrıştır, olay yönetimi"
+            ],
+            [
+              "Yangın",
+              "Duman/yangın",
+              "Çok yüksek",
+              "Acil çıkış açık",
+              "Tahliye prosedürü"
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Kapasiteye göre salon ve açık alan planlama"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Salon kapasitesi “kayıt sayısı” ile eşleşmeli",
+            "Açık alanda “yayılma” artar ama acil çıkış ve bariyer planı şarttır",
+            "Engelli çıkışları ve rampalar kapasite planının parçasıdır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kapasite “maksimum” değil “güvenli maksimum” olmalı; net yazın."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Risk matrisini her etkinlikte güncelle.",
+            "Kapasiteyi alan bazlı planla (foyer/salon/bar).",
+            "Medikal nokta ve iletişim kanalını belirle."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Otel Etkinlikleri İçin Güvenlik & Tahliye Planı Şablonunu İndir",
+          "text": "Risk matrisi, görev dağılımı, acil çıkış/tahliye şeması ve briefing notlarını tek dokümanda toplayıp sahada hızlı uygulama sağlar.",
+          "href": "/creative/video-produksiyon"
+        }
+      ]
+    },
+    {
+      "id": "crowd-control-giris-cikis-yonetimi",
+      "title": "Crowd Control ve Giriş–Çıkış Yönetimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Crowd control, “çok güvenlik” değil; doğru akış tasarımıdır. Giriş–çıkış yönetimi; bariyer, sıra, ayrı hatlar ve “stop yetkisi” ile çalışır."
+        },
+        {
+          "type": "h3",
+          "text": "Bariyer ve giriş alanı tasarımı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ayrı hatlar: VIP/speaker, normal, sorun çözme (Varsayım)",
+            "Kuyruk alanı kapı ağzında değil, geniş alanda",
+            "Bar ve WC erişimi için alternatif rotalar"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-06"
+        },
+        {
+          "type": "h3",
+          "text": "Giriş–çıkış ve acil çıkışların kontrolü"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Acil çıkışlar asla kapanmaz",
+            "Signage tutarlı ve görünür olmalı",
+            "Güvenlik ekibi “kontrol noktaları”na dağıtılır"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Bariyer planı yoksa, kalabalık kendi akışını yaratır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Girişte 3 hat planla.",
+            "Acil çıkışı kırmızı çizgi ilan et.",
+            "Stop yetkisini güvenlik amirine ver."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acil-durum-senaryolari-tahliye-plani",
+      "title": "Acil Durum Senaryoları ve Tahliye Planı",
+      "blocks": [
+        {
+          "type": "media",
+          "slot": "divider-04"
+        },
+        {
+          "type": "p",
+          "text": "Acil durum planı, yalnız yangın değildir: medikal olay, şiddet, teknik arıza veya hava kaynaklı hızlı boşaltma da tahliye gerektirebilir. Önemli olan; rol ve rota netliği."
+        },
+        {
+          "type": "h3",
+          "text": "Tahliye planı bileşenleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tahliye rotaları (salon, foyer, açık alan)",
+            "Toplanma alanı",
+            "Rol dağılımı (kim yönlendirir, kim anons eder, kim sağlıkla ilgilenir)",
+            "Engelli misafir çıkışı (asansör/rampa) — kritik"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-07"
+        },
+        {
+          "type": "h3",
+          "text": "Operasyonel not (hukuki tavsiye değildir)"
+        },
+        {
+          "type": "p",
+          "text": "Yerel regülasyonlar ve itfaiye/yerel otoritelerle uyum kritik olabilir. Bu rehber operasyonel çerçeve sunar; nihai plan yerel gereklilikler ve profesyonel güvenlik şirketleriyle birlikte hazırlanmalıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Engelli çıkışı planlanmadıysa tahliye “tam” değildir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Tahliye rotasını sahada işaretle.",
+            "Toplanma alanını belirle.",
+            "Engelli rota ve sorumlusunu yaz."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
+          "text": "Risk matrisi, kapasite planı, crowd control ve tahliye prosedürleriyle etkinlik güvenliğini standartlaştırıp itibar riskini azaltın.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "guvenlik-ekipleri-prosedurler-egitim",
+      "title": "Güvenlik Ekipleri, Prosedürler ve Eğitim",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En iyi plan bile eğitim yoksa çalışmaz. Event-day briefing; herkesin aynı sayfaya gelmesini sağlar. Bu briefing kısa ama disiplinli olmalıdır."
+        },
+        {
+          "type": "h3",
+          "text": "Güvenlik briefing akışı (event day)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "5 dk: risk matrisi ve kritik senaryolar",
+            "5 dk: giriş/çıkış kontrol noktaları + acil çıkışlar",
+            "5 dk: iletişim kanalı + stop yetkisi",
+            "5 dk: medikal ve teknik eskalasyon",
+            "Toplam: 20 dk (Varsayım: etkinlik ölçeğine göre)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-08"
+        },
+        {
+          "type": "h3",
+          "text": "Etkinlik günü güvenlik briefing şablonu (uygulanabilir blok)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Etkinlik adı / tarih / saat: ____",
+            "Kapasite: ____ | Kritik alanlar: ____",
+            "Giriş hatları: ____ | VIP hattı: ____",
+            "Acil çıkışlar: ____ | Toplanma alanı: ____",
+            "Stop yetkisi: ____ (isim)",
+            "İletişim kanalı: ____ (telsiz/WhatsApp)",
+            "Medikal nokta: ____ | Sağlık sorumlusu: ____",
+            "Teknik sorumlu: ____ | Elektrik kesintisi planı: ____ (Varsayım)"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "checklist-06"
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Stop yetkisi” yazılı değilse, kriz anında kimse durdurmaz."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Briefing şablonunu her etkinlikte doldur.",
+            "10 dakikalık walk-through yap.",
+            "Güvenlik–sağlık–teknik koordinasyonunu tek kanala indir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-ozel-risk-zinciri",
+      "title": "Fark Yaratan Bölüm: Otel-Özel Risk Zinciri (Prodüksiyon + Crowd + İtibar)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI competitor gap notu: Rakip içerikler güvenliği daha çok hukuki/genel mekân perspektifinden anlatıyor; otel etkinliklerinde risk matrisi, kapasite ve crowd control’ü birlikte ele alan Türkçe operasyon rehberi az."
+        },
+        {
+          "type": "p",
+          "text": "Otel etkinliklerinde risk, sahne/AV kararlarıyla crowd control’ün birleştiği yerde oluşur. Bu yüzden güvenliği “ayrı bir doküman” değil, prodüksiyonun parçası olan bir zincir olarak kurgulayın: risk matrisi → kapasite → akış → acil durum → eğitim."
+        },
+        {
+          "type": "h3",
+          "text": "İç link (AIO gereksinimi)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+            "https://dgtlface.com/tr/creative/video-produksiyon",
+            "/tr/yazilim/sunucu-guvenlik (Varsayım: https://dgtlface.com + path) → https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+            "https://dgtlface.com/tr/otel-dijital-pazarlama"
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "kpi-07"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Etkinlik Güvenlik & Risk Yönetimi Danışmanlığı Al",
+          "text": "Büyük gala, festival ve konserler için crowd control ve tahliye senaryolarını sahaya uygun hale getirelim.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "otel-etkinlikleri-guvenlik-tahliye-plani-sablonu",
+      "title": "Otel Etkinlikleri İçin Güvenlik & Tahliye Planı Şablonunu İndir — Creative / Safety (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Otel Etkinlikleri İçin Güvenlik & Tahliye Planı Şablonunu İndir — Creative / Safety (v1.0)",
+          "purpose": "Bu şablon, otel etkinliklerinde güvenlik ve risk yönetimini standartlaştırmak için risk matrisi, kapasite–crowd control planı, acil çıkış/tahliye şeması ve event-day briefing akışını tek dokümanda birleştirir. Amaç; krizleri başlamadan önlemek, acil durumda rollerin net olmasını sağlamak ve itibar riskini azaltmaktır.",
+          "whoFor": "Etkinlik/MICE yöneticisi, güvenlik amiri, operasyon/teknik lider, ajans prodüktörü.",
+          "steps": [
+            "Etkinlik türü ve alanlara göre risk matrisini doldurun.",
+            "Kapasite, giriş/çıkış ve bariyer planını çizip acil çıkışları işaretleyin.",
+            "Briefing şablonunu event day’de uygulayıp walk-through ile go/no-go kararı verin."
+          ],
+          "checklist": [
+            "Seçilen Şablon: Template",
+            "A) Etkinlik Özeti",
+            "B) Risk Matrisi (doldur)",
+            "C) Crowd Control Planı",
+            "D) Tahliye Planı",
+            "E) Event-day Briefing (20 dk)",
+            "Deliverables: Risk matrisi + bariyer planı + tahliye şeması + briefing notları"
+          ],
+          "href": "/downloads/otel-etkinlikleri-icin-guvenlik-tahliye-plani-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Otel etkinliklerinde güvenlik nasıl planlanmalı?",
+      "a": "Risk matrisi çıkarıp kapasite ve alan planını netleştirin. Giriş/çıkış ve crowd control bariyerlerini tasarlayın; acil çıkış ve tahliye prosedürlerini yazın. Etkinlik günü kısa briefing ve walk-through ile planı sahada doğrulayın."
+    },
+    {
+      "q": "Crowd control için nelere dikkat etmeliyim?",
+      "a": "Bariyer ve kuyruk alanını kapı ağzından uzak kurun, VIP ve sorun çözme için ayrı hat açın. Stop yetkisini tek kişide toplayıp iletişim kanalını netleştirin; acil çıkışları asla kapatmayın."
+    },
+    {
+      "q": "Acil durum ve tahliye planını nasıl hazırlamalıyım?",
+      "a": "Tahliye rotalarını ve toplanma alanını belirleyip sahada işaretleyin. Rol dağılımını (anons, yönlendirme, sağlık, teknik) yazılı hale getirin ve engelli misafir rotasını ayrıca planlayın."
+    },
+    {
+      "q": "Güvenlik ekibi brifingi nasıl yapılır?",
+      "a": "15–20 dakikalık kısa briefing ile riskleri, kontrol noktalarını, tahliye rotasını ve iletişim kanalını paylaşın. Walk-through yapıp “go/no-go” kontrolünü tamamlayın; stop yetkisini teyit edin."
+    },
+    {
+      "q": "Bu rehber hukuki tavsiye midir?",
+      "a": "Hayır. Operasyonel bir çerçeve sunar; yerel regülasyonlar ve otoritelerle uyum için profesyonel güvenlik şirketleri ve ilgili birimlerle çalışılması gerekir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — otel-etkinlik-guvenlik-ve-risk-yonetimi-hero-01.webp — Otel etkinliğinde crowd control ve güvenlik koordinasyonunu gösteren hero görseli",
+        "h1-context — 1920×1080 — otel-etkinlik-guvenlik-ve-risk-yonetimi-h1-context-02.webp — Risk matrisi ve tahliye planını özetleyen güvenlik context görseli otel etkinliği",
+        "divider-03 — 1600×1200 — otel-etkinlik-guvenlik-ve-risk-yonetimi-divider-03.webp — Risk analizi ve kapasite planlama bölüm geçiş görseli otel etkinliği",
+        "divider-04 — 1600×1200 — otel-etkinlik-guvenlik-ve-risk-yonetimi-divider-04.webp — Tahliye planı ve eğitim bölümüne geçiş görseli otel güvenlik",
+        "diagram-05 — 1920×1080 — otel-etkinlik-guvenlik-ve-risk-yonetimi-diagram-05.webp — Risk matrisi ve kontrol adımlarını gösteren güvenlik akış diyagramı otel",
+        "checklist-06 — 1200×1200 — otel-etkinlik-guvenlik-ve-risk-yonetimi-checklist-06.webp — Etkinlik güvenlik briefing ve kontrol listesi checklist kartı otel etkinliği",
+        "kpi-07 — 1200×1200 — otel-etkinlik-guvenlik-ve-risk-yonetimi-kpi-07.webp — Olay riski, kuyruk taşması ve tahliye hazırlığını izleyen KPI kartı otel",
+        "proof-08 — 1200×1200 — otel-etkinlik-guvenlik-ve-risk-yonetimi-proof-08.webp — Risk matrisi, tahliye şeması ve briefing şablonu deliverables proof kartı otel",
+        "diagram-06 — 1920×1080 — otel-etkinlik-guvenlik-ve-risk-yonetimi-diagram-06.webp — Crowd control bariyer ve giriş alanı yerleşimi şeması",
+        "diagram-07 — 1920×1080 — otel-etkinlik-guvenlik-ve-risk-yonetimi-diagram-07.webp — Tahliye planı ve acil çıkış şeması",
+        "diagram-08 — 1920×1080 — otel-etkinlik-guvenlik-ve-risk-yonetimi-diagram-08.webp — Güvenlik briefing akış diyagramı",
+        "table-risk-matrix — Risk Matrisi Tablosu"
+      ],
+      "technicalChecklist": [
+        "Canonical: /tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi",
+        "Meta title ve meta description kontrolü",
+        "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
+        "Hero, H1 context, divider, diagram, checklist, KPI ve proof media slot dosya adları kontrolü",
+        "Risk Matrisi bu yazının tek ana tablosu olarak kullanılıyor",
+        "Risk kategorileri: kalabalık, medikal, teknik, hava, güvenlik olayı ve yangın",
+        "Kapasite limitleri kayıt sayısı ve alan bazlı güvenli maksimumla eşleştirilmeli",
+        "Crowd control bariyerleri, giriş–çıkış hatları ve stop yetkisi kontrol edilmeli",
+        "Acil çıkışların açık, görünür ve signage ile tutarlı olduğu doğrulanmalı",
+        "Tahliye rotası, toplanma alanı ve engelli misafir çıkış planı kontrol edilmeli",
+        "Event-day güvenlik briefing ve walk-through tamamlanmalı",
+        "Güvenlik–sağlık–teknik iletişim kanalı tekleştirilmeli",
+        "İçerik operasyonel rehberdir; yerel regülasyon ve profesyonel güvenlik gereklilikleri ayrıca doğrulanmalı",
+        "Primary CTA → /creative/etkinlik-produksiyonu",
+        "Secondary CTA → /creative/video-produksiyon",
+        "Destek iç link → /yazilim/sunucu-guvenlik",
+        "Destek iç link → /otel-dijital-pazarlama",
         "İç linklerde kırık link ve redirect zinciri kontrolü",
         "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
       ]

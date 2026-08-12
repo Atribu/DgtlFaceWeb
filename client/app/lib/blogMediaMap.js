@@ -51827,6 +51827,256 @@ export const BLOG_MEDIA_MAP = {
       alt: "Hava senaryosu matrisi, B planı yerleşimi ve iletişim şablonları deliverables kartı",
       caption: "Hava senaryosu matrisi, B planı yerleşimi ve iletişim şablonları deliverables kartı"
     }
+  },
+
+  "otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon":{
+     banner: {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-1.webp",
+      alt: "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
+      caption: "A3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-2.webp",
+      alt: "3 günlük retreat programı ve mekân dönüşümünü özetleyen context görseli otel",
+      caption: "3 günlük retreat programı ve mekân dönüşümünü özetleyen context görseli otel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-3.webp",
+      alt: "Program tasarımı ve hedef bölüm geçiş görseli kurumsal retreat otel",
+      caption: "Program tasarımı ve hedef bölüm geçiş görseli kurumsal retreat otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-4.webp",
+      alt: "Mekân dönüşümü ve lojistik bölüm geçiş görseli otel etkinliği",
+      caption: "Mekân dönüşümü ve lojistik bölüm geçiş görseli otel etkinliği"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-5.webp",
+      alt: "3 günlük kurumsal retreat program timeline akış diyagramı otel bağlamı",
+      caption: "3 günlük kurumsal retreat program timeline akış diyagramı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-6.webp",
+      alt: "3 günlük retreat planlama mini check ve kontrol listesi kartı otel",
+      caption: "3 günlük retreat planlama mini check ve kontrol listesi kartı otel"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-7.webp",
+      alt: "Katılım memnuniyeti ve MICE değer sinyallerini gösteren KPI skor kartı otel",
+      caption: "Katılım memnuniyeti ve MICE değer sinyallerini gösteren KPI skor kartı otel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-14/Creative4-14-8.webp",
+      alt: "Retreat sonrası özet video storyboard ve rapor deliverables proof kartı otel",
+      caption: "Retreat sonrası özet video storyboard ve rapor deliverables proof kartı otel"
+    }
+  },
+
+  "otel-etkinlik-master-checklist-operasyon-el-kitabi":{
+    banner: {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-1.webp",
+      alt: "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+      caption: "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-2.webp",
+      alt: "Hazırlık kurulum etkinlik sonrası adımlarını gösteren master checklist context görseli",
+      caption: "Hazırlık kurulum etkinlik sonrası adımlarını gösteren master checklist context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-3.webp",
+      alt: "Brief ve hedef belirleme bölüm geçiş görseli otel etkinliği",
+      caption: "Brief ve hedef belirleme bölüm geçiş görseli otel etkinliği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-4.webp",
+      alt: "Misafir deneyimi ve güvenlik checklist bölüm geçiş görseli otel bağlamı",
+      caption: "Misafir deneyimi ve güvenlik checklist bölüm geçiş görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-5.webp",
+      alt: "Etkinlik zaman planı ve operasyon akış diyagramı otel prodüksiyon süreci",
+      caption: "Etkinlik zaman planı ve operasyon akış diyagramı otel prodüksiyon süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-6.webp",
+      alt: "Master checklist özet kartı: hazırlık kurulum etkinlik sonrası kontrol adımları",
+      caption: "Master checklist özet kartı: hazırlık kurulum etkinlik sonrası kontrol adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-7.webp",
+      alt: "Unutulan adımlar ve krizleri azaltmayı izleyen etkinlik KPI skor kartı",
+      caption: "Unutulan adımlar ve krizleri azaltmayı izleyen etkinlik KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-15/Creative4-15-8.webp",
+      alt: "İndirilebilir operasyon el kitabı ve master checklist deliverables proof kartı",
+      caption: "İndirilebilir operasyon el kitabı ve master checklist deliverables proof kartı"
+    }
+  },
+
+  "otel-etkinlik-kayit-rsvp-checkin":{
+    banner: {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-1.webp",
+      alt: "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+      caption: "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-2.webp",
+      alt: "Kayıt verisi, check-in ve badge akışını özetleyen otel context görseli",
+      caption: "Kayıt verisi, check-in ve badge akışını özetleyen otel context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-3.webp",
+      alt: "Online kayıt formu ve RSVP akışına geçiş bölüm görseli otel etkinliği",
+      caption: "Online kayıt formu ve RSVP akışına geçiş bölüm görseli otel etkinliği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-4.webp",
+      alt: "CRM ve KVKK veri yönetimine geçiş bölüm görseli otel bağlamı",
+      caption: "CRM ve KVKK veri yönetimine geçiş bölüm görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-5.webp",
+      alt: "Online form wireframe ve RSVP akış diyagramı otel etkinliği",
+      caption: "Online form wireframe ve RSVP akış diyagramı otel etkinliği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-6.webp",
+      alt: "Kayıt ve check-in için 20 maddelik checklist kartı otel etkinliği",
+      caption: "Kayıt ve check-in için 20 maddelik checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-7.webp",
+      alt: "Check-in süresi, kuyruk şikâyeti ve veri doğruluğu KPI skor kartı otel",
+      caption: "Check-in süresi, kuyruk şikâyeti ve veri doğruluğu KPI skor kartı otel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-16/Creative4-16-8.webp",
+      alt: "Kayıt akışı, badge örnekleri ve PMS/CRM entegrasyon deliverables proof kartı",
+      caption: "Kayıt akışı, badge örnekleri ve PMS/CRM entegrasyon deliverables proof kartı"
+    }
+  },
+
+  "otel-etkinlik-misafir-akisi-ve-wayfinding":{
+    banner: {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-1.webp",
+      alt: "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+      caption: "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-2.webp",
+      alt: "Girişten salona ve breakout alanlarına misafir akışı context görseli otel",
+      caption: "Girişten salona ve breakout alanlarına misafir akışı context görseli otel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-3.webp",
+      alt: "Giriş kayıt vestiyer akışına geçiş bölüm görseli otel etkinliği",
+      caption: "Giriş kayıt vestiyer akışına geçiş bölüm görseli otel etkinliği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-4.webp",
+      alt: "Erişilebilir akış ve signage standartlarına geçiş bölüm görseli otel",
+      caption: "Erişilebilir akış ve signage standartlarına geçiş bölüm görseli otel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-5.webp",
+      alt: "Otel etkinlik alanı misafir flow diyagramı ve karar noktaları şeması",
+      caption: "Otel etkinlik alanı misafir flow diyagramı ve karar noktaları şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-6.webp",
+      alt: "Misafir akışı için 15 maddelik kontrol listesi checklist kartı otel etkinliği",
+      caption: "Misafir akışı için 15 maddelik kontrol listesi checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-7.webp",
+      alt: "Kuyruk süresi ve yönlendirme şikâyetlerini izleyen KPI skor kartı otel etkinliği",
+      caption: "Kuyruk süresi ve yönlendirme şikâyetlerini izleyen KPI skor kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-17/Creative4-17-8.webp",
+      alt: "Wayfinding tabela ikon örnekleri ve kuyruk planı deliverables proof kart",
+      caption: "Wayfinding tabela ikon örnekleri ve kuyruk planı deliverables proof kart"
+    }
+  },
+
+  "otel-etkinlik-guvenlik-ve-risk-yonetimi":{
+     banner: {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-1.webp",
+      alt: "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler",
+      caption: "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-2.webp",
+      alt: "Risk matrisi ve tahliye planını özetleyen güvenlik context görseli otel etkinliği",
+      caption: "Risk matrisi ve tahliye planını özetleyen güvenlik context görseli otel etkinliği"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-3.webp",
+      alt: "Risk analizi ve kapasite planlama bölüm geçiş görseli otel etkinliği",
+      caption: "Risk analizi ve kapasite planlama bölüm geçiş görseli otel etkinliği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-4.webp",
+      alt: "Tahliye planı ve eğitim bölümüne geçiş görseli otel güvenlik",
+      caption: "Tahliye planı ve eğitim bölümüne geçiş görseli otel güvenlik"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-5.webp",
+      alt: "Risk matrisi ve kontrol adımlarını gösteren güvenlik akış diyagramı otel",
+      caption: "Risk matrisi ve kontrol adımlarını gösteren güvenlik akış diyagramı otel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-6.webp",
+      alt: "Etkinlik güvenlik briefing ve kontrol listesi checklist kartı otel etkinliği",
+      caption: "Etkinlik güvenlik briefing ve kontrol listesi checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-7.webp",
+      alt: "Olay riski, kuyruk taşması ve tahliye hazırlığını izleyen KPI kartı otel",
+      caption: "Olay riski, kuyruk taşması ve tahliye hazırlığını izleyen KPI kartı otel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-18/Creative4-18-8.webp",
+      alt: "Risk matrisi, tahliye şeması ve briefing şablonu deliverables proof kartı otel",
+      caption: "Risk matrisi, tahliye şeması ve briefing şablonu deliverables proof kartı otel"
+    }
   }
   
 };

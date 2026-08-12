@@ -111129,6 +111129,1170 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon",
+
+      "name": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon",
+
+      "headline": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
+
+      "name": "3 Günlük Kurumsal Retreat ve Kamp Etkinlikleri: Otel Prodüksiyon Akışı",
+
+      "description": "3 günlük kurumsal retreat/kamp etkinliklerinde program, mekân dönüşümü, aktiviteler ve belgeleme akışını otel perspektifinden planlamaya yönelik rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Corporate Retreat",
+
+        "Camp Event",
+
+        "3-Day Program",
+
+        "Workshop",
+
+        "Team Building",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "kurumsal retreat 3 gunluk otel programi",
+
+        "takim kamp etkinligi otel planlama",
+
+        "antalya kurumsal kamp ve retreat",
+
+        "3 day corporate retreat in resorts",
+
+        "hotel camp programme design"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#event",
+
+      "name": "3 Günlük Kurumsal Retreat / Kamp (Örnek Etkinlik)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Resort / Toplantı Oteli",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Bodrum"
+
+        }
+
+      },
+
+      "description": "3 günlük kurumsal retreat ve kamp etkinliği için program ve mekân dönüşümü odaklı otel prodüksiyon çerçevesi."
+
+    },
+
+    {
+
+      "@type": "VideoObject",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#video",
+
+      "name": "Kurumsal Retreat Özet Video (Örnek Çıktı)",
+
+      "description": "3 günlük retreat etkinliği sonrası özet video ve kısa snippet içeriklere örnek çıktı.",
+
+      "uploadDate": "2026-02-11",
+
+      "inLanguage": "tr-TR",
+
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#article" }
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "3 Günlük Kurumsal Retreat", "item": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-3-gunluk-kurumsal-retreat-ve-kamp-produsksiyon#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "3 günlük kurumsal retreat otelde nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hedefleri netleştirip 3 günü tema bazında bölün: varış–hizalanma, derin çalışma–aktivite–sosyal zirve, kapanış–aksiyon. Mekân dönüşümü ve operasyonel buffer’ları timeline’a gömün; belgeleme ve sonrası iletişim planını baştan yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Mekân dönüşümünü (salon, beach, bahçe) nasıl yönetmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Dönüşüm sürelerini gerçekçi yazıp kurulum ekiplerinin rolünü netleştirin. Standart preset set-up ve modüler dekor kullanmak geçişi hızlandırır; servis trafiğini de bu dönüşüme göre planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Retreat sonrası hangi içerik ve raporları paylaşmalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "1 gün içinde teşekkür mesajı, 3–7 gün içinde 60–120 saniyelik özet video ve 10–15 kısa snippet iyi çalışır. Şirket isterse aksiyonlar ve öğrenimleri özetleyen kısa rapor eklemek etkinin devamını sağlar."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Günlere göre programı nasıl bölerim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "1. gün daha hafif ve hizalayıcı, 2. gün en yoğun ve zirve, 3. gün ise kapanış ve aksiyon odaklı olmalıdır. İkinci gün mutlaka serbest zaman penceresi bırakmak enerji yönetimini güçlendirir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlik-master-checklist-operasyon-el-kitabi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi",
+
+      "name": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi",
+
+      "headline": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+
+      "name": "Otel Etkinlik Master Checklist’i: Prodüksiyon ve Operasyon El Kitabı",
+
+      "description": "Tüm otel etkinlik türlerinde tekrar eden prodüksiyon ve operasyon adımlarını hazırlık, kurulum, etkinlik esnası ve sonrası olarak birleştiren master checklist ve el kitabı rehberi.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Event Checklist",
+
+        "Operations Manual",
+
+        "Production Workflow",
+
+        "Guest Experience",
+
+        "Safety",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik master checklist",
+
+        "organizasyon operasyon el kitabi otel",
+
+        "etkinlik prodüksiyon adim listesi",
+
+        "hotel event master checklist",
+
+        "operations playbook for resort events"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "serviceType": "Otel Etkinlik Operasyon ve Prodüksiyon Playbook Danışmanlığı",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "HowTo",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi#howto",
+
+      "name": "Otel etkinlikleri için master checklist nasıl hazırlanmalı?",
+
+      "description": "Hazırlık, kurulum, etkinlik esnası ve sonrası fazlarıyla master checklist oluşturma adımları.",
+
+      "step": [
+
+        { "@type": "HowToStep", "name": "Fazları belirle", "text": "Checklist’i hazırlık, kurulum, etkinlik esnası ve sonrası olarak dört faza ayır." },
+
+        { "@type": "HowToStep", "name": "Çekirdek başlıkları sabitle", "text": "Brief, mekân/teknik, tedarikçi, misafir deneyimi/güvenlik ve kapanış/arşiv başlıklarını zorunlu hale getir." },
+
+        { "@type": "HowToStep", "name": "Sorumluları ata", "text": "Her adım için bir sorumlu belirle ve go/no-go kontrol noktaları ekle." },
+
+        { "@type": "HowToStep", "name": "Tür modülleri ekle", "text": "Düğün, festival, hibrit gibi etkinlik türlerine özel modüllerle master checklist’i genişlet." },
+
+        { "@type": "HowToStep", "name": "Kapanış ve öğrenimi zorunlu yap", "text": "Bütçe kapanışı, arşiv klasörleme ve feedback toplantısını her etkinlikte standartlaştır." }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Master Checklist", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-master-checklist-operasyon-el-kitabi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinlikleri için master checklist nasıl hazırlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ortak adımları 4 faza bölün: hazırlık, kurulum, etkinlik esnası ve sonrası. Brief, mekân/teknik, tedarikçi, misafir deneyimi/güvenlik ve kapanış/arşiv başlıklarını sabitleyin; her adımın sorumlusunu yazın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hangi adımlar her etkinlikte ortak olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Brief ve hedef, run-of-show, layout + güvenlik, tedarikçi sözleşmeleri, AV prova, giriş–yönlendirme, servis trafiği, belgeleme planı ve etkinlik sonrası bütçe/arşiv kapanışı ortak çekirdektir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etkinlik operasyon el kitabında neler yer almalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Standart brief şablonu, RACI/rol dağılımı, kurulum–söküm timeline, güvenlik checklist’i, içerik deliverables ve kapanış/arşiv prosedürü olmalıdır. Tür bazlı modüllerle genişletilmelidir."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Etkinlik sonrası hangi kontroller yapılmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bütçe kapanışı (sapma nedenleriyle), final teslim klasörü, arşiv klasörleme ve kısa feedback toplantısı yapılmalıdır. Öğrenimler bir sonraki etkinlik için playbook’a işlenmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlik-kayit-rsvp-checkin":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin",
+
+      "name": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin",
+
+      "headline": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+
+      "name": "Otel Etkinliklerinde Kayıt & RSVP Yönetimi: Form, Check-in ve Yaka Kartı Akışı",
+
+      "description": "Otel etkinlikleri için online kayıt formu, RSVP, katılımcı listesi, check-in masası ve yaka kartı akışını PMS/CRM entegrasyonu ve KVKK dikkatiyle uçtan uca anlatan rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Registration Flow",
+
+        "RSVP",
+
+        "Check-in Desk",
+
+        "Badge",
+
+        "Rooming List",
+
+        "PMS",
+
+        "CRM"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik kayit rsvp akisi",
+
+        "check in masasi ve yaka karti planlama",
+
+        "rooming list ile etkinlik kaydi entegrasyonu",
+
+        "event registration ux",
+
+        "hotel rsvp & check-in flow"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin#event",
+
+      "name": "Otel Etkinliği Kayıt & Check-in Akışı (Örnek)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Otel Etkinlik Alanı / Ballroom",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Bodrum"
+
+        }
+
+      },
+
+      "description": "Otel etkinliklerinde form, RSVP, check-in masası ve badge akışını kapsayan örnek kayıt süreci."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Kayıt & RSVP Yönetimi", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-kayit-rsvp-checkin#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinliklerinde kayıt ve RSVP süreci nasıl tasarlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Formu minimal alanlarla kurup RSVP’yi otomatikleştirin. Tek bir master liste oluşturun ve güncellemeleri tek yerden yönetin. Etkinlik günü check-in’i QR + manuel fallback ile çalıştırarak kuyruk riskini azaltın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Online kayıt formunda hangi alanlar olmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Ad–soyad, e-posta/telefon, şirket/ünvan (kurumsalsa), katılım türü ve konaklama ihtiyacı temel alanlardır. Gereksiz soruları çıkarıp bilgiyi daha sonra toplamak tamamlanmayı artırır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Check-in masası ve yaka kartı akışı nasıl kurulmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "En az iki hat planlayın: hızlı check-in ve sorun çözme/VIP hattı. Badge’i okunur tasarlayıp renk kodlayın ve yazıcı/etiket yedeği bulundurun; kuyruk yönlendirmesi için tabela ve bariyer kullanın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kayıt verisini PMS/CRM ile nasıl eşleştiririm?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Formdaki konaklama alanlarını rooming list’e düşürüp PMS rezervasyon yönetimiyle düzenli eşleştirin. Etkinlik sonrası katılım durumunu CRM’e aktararak follow-up ve raporlamayı hızlandırın; erişim yetkilerini KVKK’ya göre sınırlayın."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlik-misafir-akisi-ve-wayfinding":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding",
+
+      "name": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding",
+
+      "headline": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+
+      "name": "Otel Etkinliklerinde Misafir Akışı ve Wayfinding: Yönlendirme, Kuyruk ve Alan Yönetimi",
+
+      "description": "Otel etkinliklerinde girişten salona, breakout alanlarından çıkışa kadar misafir akışı ve wayfinding tasarımını yönlendirme, kuyruk yönetimi ve erişilebilirlik odağında anlatan rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Guest Flow",
+
+        "Wayfinding",
+
+        "Signage",
+
+        "Queue Management",
+
+        "Accessibility",
+
+        "Hotel Event"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik misafir akis plani",
+
+        "wayfinding tabela tasarimi otel",
+
+        "gala ve kongrelerde kuyruk yonetimi",
+
+        "guest flow planning",
+
+        "queue and circulation in ballrooms"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "serviceType": "Misafir Akışı ve Wayfinding Tasarımı",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Misafir Akışı ve Wayfinding", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-misafir-akisi-ve-wayfinding#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinliklerinde misafir akışı nasıl planlanır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Girişten çıkışa rotaları haritalayıp dar boğazları belirleyin. Kayıt/vestiyer/salon kapılarını ayrı hatlarla yönetin; tabelaları karar noktalarına yerleştirin ve kuyruk alanını kapı ağzından uzak tasarlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Yönlendirme tabelalarında nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kontrast ve font boyutu uzaktan okunabilir olmalı, ikon seti tutarlı kullanılmalıdır. Salon isimleri tek terminolojiyle yazılmalı; erişilebilirlik işaretleri net olmalıdır."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Kuyruk ve geçiş alanlarını nasıl tasarlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kuyruğu geniş alana taşıyıp bariyer/şerit ile düzenleyin; VIP ve sorun çözme için ayrı hat açın. Break-out bitişlerinde oluşan dalgaya göre koridor ve kahve/WC erişimini planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Engelli misafirler için etkinlik akışı nasıl düzenlenmeli?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Engelsiz rota (rampa/asansör) haritada açıkça gösterilmeli ve sahada işaretlenmelidir. Engelsiz WC ve uygun oturma alanı önceden ayrılmalı; personel bu rota konusunda brief edilmelidir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+},
+
+"otel-etkinlik-guvenlik-ve-risk-yonetimi":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi",
+
+      "name": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi",
+
+      "headline": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler",
+
+      "name": "Otel Etkinliklerinde Güvenlik ve Risk Yönetimi: Crowd Control, Acil Durum ve Prosedürler",
+
+      "description": "Otel etkinliklerinde crowd control, kapasite planlama, acil durum ve tahliye prosedürlerini risk matrisi ve briefing örnekleriyle operasyonel şekilde anlatan rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Safety",
+
+        "Risk Management",
+
+        "Crowd Control",
+
+        "Emergency Plan",
+
+        "Evacuation",
+
+        "Security Team"
+
+      ],
+
+      "keywords": [
+
+        "otel etkinlik guvenlik plani",
+
+        "crowd control otel konser",
+
+        "acil durum tahliye plani balo salonu",
+
+        "safety planning for hotel events",
+
+        "crowd control in beach parties"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi#event",
+
+      "name": "Otel Etkinliği Güvenlik ve Tahliye Planı (Örnek)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Otel Etkinlik Alanı / Ballroom / Açık Alan",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Bodrum"
+
+        }
+
+      },
+
+      "description": "Otel etkinliklerinde crowd control, acil çıkış ve tahliye prosedürlerini kapsayan örnek güvenlik planı."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Güvenlik ve Risk Yönetimi", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-guvenlik-ve-risk-yonetimi#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Otel etkinliklerinde güvenlik nasıl planlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Risk matrisi çıkarıp kapasite ve alan planını netleştirin. Giriş/çıkış ve crowd control bariyerlerini tasarlayın; acil çıkış ve tahliye prosedürlerini yazın. Etkinlik günü kısa briefing ve walk-through ile planı sahada doğrulayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Crowd control için nelere dikkat etmeliyim?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Bariyer ve kuyruk alanını kapı ağzından uzak kurun, VIP ve sorun çözme için ayrı hat açın. Stop yetkisini tek kişide toplayıp iletişim kanalını netleştirin; acil çıkışları asla kapatmayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Acil durum ve tahliye planını nasıl hazırlamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Tahliye rotalarını ve toplanma alanını belirleyip sahada işaretleyin. Rol dağılımını yazılı hale getirin ve engelli misafir rotasını ayrıca planlayın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Güvenlik ekibi brifingi nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "15–20 dakikalık kısa briefing ile riskleri, kontrol noktalarını, tahliye rotasını ve iletişim kanalını paylaşın. Walk-through yapıp go/no-go kontrolünü tamamlayın; stop yetkisini teyit edin."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
