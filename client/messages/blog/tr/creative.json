@@ -49587,7 +49587,7 @@
   },
   "h1": {
     "title": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
-    "intro": "Otel videonuz harika olabilir; ama siteye yanlış yerleştirildiğinde “harika video” bir anda “yavaş site” problemine dönüşür. “Video sayfayı yavaşlatmadan nasıl kullanılır?” sorusu bu yüzden kritik: çünkü kullanıcı deneyimi (UX), teknik performans (Core Web Vitals) ve görünürlük (SEO) aynı anda yönetilmelidir. Antalya, Belek, Side, Kemer ve Bodrum gibi resort otellerde deniz manzaralı oda ve havuz videoları en güçlü kanıt içerikleridir; ama hero’da otomatik oynayan ağır video LCP’yi bozarsa, kullanıcı daha videoyu izlemeden sayfayı terk edebilir. Bu rehber, hangi sayfada hangi video türünün kullanılacağını, UX yerleşimini, VideoObject schema ve transkript stratejisini ve performans dostu kurulum adımlarını otel özelinde sistemleştirir.",
+    "intro": "Otel videonuz harika olabilir; ama [otel web sitesine video ekleme](https://dgtlface.com/tr/creative/video-produksiyon) süreci yanlış kurgulandığında “harika video” bir anda “yavaş site” problemine dönüşür. “Video sayfayı yavaşlatmadan nasıl kullanılır?” sorusu bu yüzden kritik: çünkü kullanıcı deneyimi (UX), teknik performans (Core Web Vitals) ve görünürlük (SEO) aynı anda yönetilmelidir. Antalya, Belek, Side, Kemer ve Bodrum gibi resort otellerde deniz manzaralı oda ve havuz videoları en güçlü kanıt içerikleridir; ama hero’da otomatik oynayan ağır video LCP’yi bozarsa, kullanıcı daha videoyu izlemeden sayfayı terk edebilir. Bu rehber, hangi sayfada hangi video türünün kullanılacağını, UX yerleşimini, VideoObject schema ve transkript stratejisini ve performans dostu kurulum adımlarını otel özelinde sistemleştirir.",
     "quickSummary": [
       "1) Sayfa türünü ve video amacını eşleştir",
       "2) Hero, oda ve kampanya videolarını farklı kurgula",
@@ -49619,27 +49619,52 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
-      "label": "Teknik SEO",
-      "href": "/tr/seo/teknik-seo"
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "360° Otel Sanal Tur",
+      "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
+    },
+    {
+      "label": "Otel İç Mekân ve Oda Video Çekimi",
+      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+    },
+    {
+      "label": "Çok Dilli Otel Video Versiyonlama",
+      "href": "/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru"
+    },
+    {
+      "label": "UI & UX Tasarım",
+      "href": "/tr/creative/ui-ux-tasarim"
     },
     {
       "label": "Web Sitesi Geliştirme",
       "href": "/tr/yazilim/web-sitesi-gelistirme"
     },
     {
+      "label": "Teknik SEO",
+      "href": "/tr/seo/teknik-seo"
+    },
+    {
       "label": "SEO Raporlama",
       "href": "/tr/seo/seo-raporlama"
-    },
-    {
-      "label": "UI/UX Tasarım",
-      "href": "/tr/creative/ui-ux-tasarim"
-    },
-    {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+      "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
+    },
+    {
+      "title": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
+      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+    },
+    {
+      "title": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
+      "href": "/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru"
+    }
+  ],
   "sections": [
     {
       "id": "otel-web-sitesinde-videonun-rolu",
@@ -49647,7 +49672,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Video, otel sitesinde iki ana iş yapar: (1) duygu ve güven üretir, (2) kanıt sağlar. Fotoğraflar “gösterir”; video “hissettirir”. Ancak bu değer, yalnızca video doğru yerde doğru şekilde sunulursa ortaya çıkar. Özellikle booking engine’e giden yolun üzerinde (oda sayfası, kampanya sayfası) video, “oda bana uygun mu?” sorusunu hızlı cevaplayabilir."
+          "text": "Video, otel sitesinde iki ana iş yapar: (1) duygu ve güven üretir, (2) kanıt sağlar. Fotoğraflar “gösterir”; video “hissettirir”. Ancak bu değer, yalnızca video doğru yerde doğru şekilde sunulursa ortaya çıkar. Özellikle booking engine’e giden yolun üzerinde (oda sayfası, kampanya sayfası) video, “oda bana uygun mu?” sorusunu hızlı cevaplayabilir. Bu yüzden video üretiminin devamı olan [video UX ve SEO](https://dgtlface.com/tr/creative-ve-tasarim) tarafını da aynı planın parçası görmek gerekir."
         },
         {
           "type": "h3",
@@ -49693,7 +49718,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Her sayfaya aynı video yaklaşımı uygulanmaz. Otel sitesinde sayfa türü, video türünü belirler."
+          "text": "Her sayfaya aynı video yaklaşımı uygulanmaz. Otel sitesinde sayfa türü, video türünü belirler ve bu ayrım çoğu zaman [web kullanımına uygun video prodüksiyon](https://dgtlface.com/tr/creative/video-produksiyon) planı yapılmadan netleşmez."
         },
         {
           "type": "h3",
@@ -49747,6 +49772,10 @@
           ]
         },
         {
+          "type": "p",
+          "text": "Özellikle [oda videolarının web sayfasında kullanımı](https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi) doğru kurgulandığında, room showcase içerikleri galeri ve rezervasyon CTA’sı arasında güçlü bir kanıt katmanına dönüşür."
+        },
+        {
           "type": "media",
           "slot": "divider-01"
         },
@@ -49782,7 +49811,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Video entegrasyonu, “oynat” tuşu koymaktan ibaret değildir. Kullanıcı, videoyu izlerken kontrol ister; izlemek istemiyorsa da sayfayı rahatça gezmek ister."
+          "text": "Video entegrasyonu, “oynat” tuşu koymaktan ibaret değildir. Kullanıcı, videoyu izlerken kontrol ister; izlemek istemiyorsa da sayfayı rahatça gezmek ister. Bu yüzden [video yerleşiminin kullanıcı deneyimi](https://dgtlface.com/tr/creative/ui-ux-tasarim) baştan tasarlanmalıdır."
         },
         {
           "type": "h3",
@@ -49850,7 +49879,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Video SEO, “videoyu koyduk” değil; arama motoruna videonun varlığını ve içeriğini anlatmaktır. Burada 3 kritik unsur var: thumbnail, VideoObject schema ve transkript."
+          "text": "Video SEO, “videoyu koyduk” değil; arama motoruna videonun varlığını ve içeriğini anlatmaktır. Burada [VideoObject schema](https://dgtlface.com/tr/seo/teknik-seo), thumbnail ve transkript olmak üzere 3 kritik unsur var."
         },
         {
           "type": "h3",
@@ -49878,7 +49907,7 @@
         },
         {
           "type": "p",
-          "text": "Transkript, özellikle kurumsal/uzun videolarda içerik sinyali üretir. Çok dilli pazarda; TR–EN–DE–RU altyazı (SRT) ve sayfada uygun şekilde sunulan transkript, hem erişilebilirlik hem SEO için artı olabilir."
+          "text": "Transkript, özellikle kurumsal/uzun videolarda içerik sinyali üretir. Çok dilli pazarda; TR–EN–DE–RU altyazı (SRT) ve sayfada uygun şekilde sunulan transkript, hem erişilebilirlik hem SEO için artı olabilir. Bu katmanı [çok dilli video web entegrasyonu](https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru) planıyla birlikte düşünmek, farklı pazar sayfalarında video kullanımını daha tutarlı hale getirir."
         },
         {
           "type": "media",
@@ -49916,7 +49945,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: doğru sayfayı seç, doğru yerleşim yap, VideoObject + transkript ekle ve performansı CWV odaklı optimize et."
+          "text": "Kısa cevap: doğru sayfayı seç, doğru yerleşim yap, VideoObject + transkript ekle ve performansı CWV odaklı optimize et. İnteraktif deneyim tarafında [360 otel turu ve sanal tur web entegrasyonu](https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux) da bu mantığın en güçlü örneklerinden biridir."
         },
         {
           "type": "list",
@@ -49967,7 +49996,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Video entegrasyonunun başarısı, çoğu zaman CWV’de belli olur. Özellikle LCP ve CLS kritik."
+          "text": "Video entegrasyonunun başarısı, çoğu zaman CWV’de belli olur. Özellikle LCP ve CLS kritik. Bu nedenle [CWV bozmadan video entegrasyonu](https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme) tarafındaki teknik kararlar, UX kadar önemlidir."
         },
         {
           "type": "h3",
@@ -50007,6 +50036,10 @@
         {
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Kurulumdan sonra izlenme, scroll derinliği ve CTA etkisini [video performansının SEO raporlaması](https://dgtlface.com/tr/seo/seo-raporlama) ile takip etmek; süreç ve teslim detayları için de [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına bakmak gerekir."
         },
         {
           "type": "cta",
@@ -50252,7 +50285,7 @@
   },
   "h1": {
     "title": "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi",
-    "intro": "“Ekibimizi videoyla anlatmak istiyoruz, nereden başlamalıyız?” sorusu, oteller için sadece pazarlama değil aynı zamanda operasyon sorusudur. Çünkü otelde iş “arkada” yaşanır: ön büro, housekeeping, F&B, teknik servis… Bu departmanların uyumu, misafir deneyiminin kalitesini belirler. İyi kurgulanmış employer branding videoları; doğru adayları çekmeye, mevcut ekibin aidiyetini güçlendirmeye ve sezonluk işe alım baskısını daha yönetilebilir hale getirmeye yardımcı olur. Antalya ve Bodrum gibi sezonluk istihdamın yoğun olduğu bölgelerde ya da İstanbul gibi sürekli talebin olduğu şehirlerde, ekip hikâyesi “işveren markası”nın somut kanıtıdır. Bu rehberde; departman bazlı çekim planı, röportaj akışı, kariyer sayfasında video yerleşimi, TR/EN altyazı ve KVKK/onay süreçlerini adım adım kuruyoruz.",
+    "intro": "“Ekibimizi videoyla anlatmak istiyoruz, nereden başlamalıyız?” sorusu, oteller için sadece pazarlama değil aynı zamanda operasyon sorusudur. Çünkü otelde iş “arkada” yaşanır: ön büro, housekeeping, F&B, teknik servis… Bu departmanların uyumu, misafir deneyiminin kalitesini belirler. İyi kurgulanmış [otel employer branding videosu](https://dgtlface.com/tr/creative/video-produksiyon); doğru adayları çekmeye, mevcut ekibin aidiyetini güçlendirmeye ve sezonluk işe alım baskısını daha yönetilebilir hale getirmeye yardımcı olur. Antalya ve Bodrum gibi sezonluk istihdamın yoğun olduğu bölgelerde ya da İstanbul gibi sürekli talebin olduğu şehirlerde, ekip hikâyesi “işveren markası”nın somut kanıtıdır. Bu rehberde; departman bazlı çekim planı, röportaj akışı, kariyer sayfasında video yerleşimi, TR/EN altyazı ve KVKK/onay süreçlerini adım adım kuruyoruz.",
     "quickSummary": [
       "1) İK hedefini ve hedef rol gruplarını belirle",
       "2) Hikâyeleri departmanların gerçek iş akışından seç",
@@ -50284,19 +50317,44 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
-      "label": "Creative & Tasarım",
+      "label": "Creative ve Tasarım",
       "href": "/tr/creative-ve-tasarim"
     },
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/tr/otel-dijital-pazarlama"
+      "label": "Otel Video Set ve Ekip Yönetimi",
+      "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+    },
+    {
+      "label": "Çok Dilli Otel Video Versiyonlama",
+      "href": "/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru"
+    },
+    {
+      "label": "Otel 4 Mevsim Video İçerik Planı",
+      "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
     },
     {
       "label": "CMS Entegrasyonu",
       "href": "/tr/yazilim/cms-entegrasyonu"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
+      "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+    },
+    {
+      "title": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
+      "href": "/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru"
+    },
+    {
+      "title": "Otel 4 Mevsim Video İçerik Planı",
+      "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
+    }
+  ],
   "sections": [
     {
       "id": "neden-employer-branding-videolari",
@@ -50316,7 +50374,7 @@
         },
         {
           "type": "p",
-          "text": "İK ilanı metni bunu sınırlı anlatır; video ise atmosferi, ekip dinamiğini ve operasyonun gerçekliğini görünür kılar. Ayrıca yalnız işe alımda değil, oryantasyonda ve iç iletişimde tekrar tekrar kullanılabilir."
+          "text": "İK ilanı metni bunu sınırlı anlatır; video ise atmosferi, ekip dinamiğini ve operasyonun gerçekliğini görünür kılar. Ayrıca yalnız işe alımda değil, oryantasyonda ve iç iletişimde tekrar tekrar kullanılabilir. Bu nedenle [ekip ve kültür hikâyesi](https://dgtlface.com/tr/creative-ve-tasarim) tarafı, sadece İK iletişimi değil aynı zamanda marka anlatısının da bir parçasıdır."
         },
         {
           "type": "h3",
@@ -50430,7 +50488,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Employer branding çekiminde hedef; “mükemmel set” değil “samimi ve güven veren gerçeklik”tir. Ama yine de plan şart: hangi departman, hangi mekân, hangi saat?"
+          "text": "Employer branding çekiminde hedef; “mükemmel set” değil “samimi ve güven veren gerçeklik”tir. Ama yine de plan şart: hangi departman, hangi mekân, hangi saat? Özellikle [İK ve kariyer filmi](https://dgtlface.com/tr/creative/video-produksiyon) üretiminde bu akış baştan kurulmadığında, çekim günü samimiyet yerine dağınıklık oluşur."
         },
         {
           "type": "h3",
@@ -50460,6 +50518,10 @@
           "items": [
             "Sabah briefing → görev → misafir teması → çözüm → ekip kapanışı"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu yapı özellikle [departman röportaj çekimleri](https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi) tarafında önemlidir; çünkü çalışan akışı, sessiz röportaj alanı ve operasyon temposu aynı gün içinde birlikte yönetilmelidir."
         },
         {
           "type": "media",
@@ -50497,7 +50559,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Employer branding video, kariyer funnel’ının her adımında kullanılabilir."
+          "text": "Employer branding video, kariyer funnel’ının her adımında kullanılabilir. Özellikle uluslararası aday iletişiminde [çok dilli kariyer videosu](https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru) yaklaşımı, aynı içeriği farklı pazarlarda daha işlevsel hale getirir."
         },
         {
           "type": "h3",
@@ -50560,7 +50622,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: hedefi belirleyin, hikâyeleri departman bazında seçin, röportajları kısa kanıt cümlelerine indirin, kariyer sayfasına doğru yerleştirip çok dilli altyazı ve izin süreçlerini kilitleyin."
+          "text": "Kısa cevap: hedefi belirleyin, hikâyeleri departman bazında seçin, röportajları kısa kanıt cümlelerine indirin, kariyer sayfasına doğru yerleştirip çok dilli altyazı ve izin süreçlerini kilitleyin. Bu akışın yıl içine yayılması için [yıl boyu ekip ve kültür içerik planı](https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani) oluşturmak, employer branding çıktılarının tek seferlik kalmasını engeller."
         },
         {
           "type": "list",
@@ -50652,11 +50714,11 @@
         },
         {
           "type": "p",
-          "text": "İK videolarında çalışan onay formları, görüntü kullanım hakları ve kişisel veri izinleri kritiktir."
+          "text": "İK videolarında çalışan onay formları, görüntü kullanım hakları ve kişisel veri izinleri kritiktir. Aynı zamanda [kariyer sayfasında video içerik yönetimi](https://dgtlface.com/tr/yazilim/cms-entegrasyonu) kurulduğunda bu içeriklerin güncel tutulması ve departman bazında sürdürülebilir kullanımı da kolaylaşır."
         },
         {
           "type": "p",
-          "text": "Not: Hukuki detaylar kurum içi prosedür ve hukuk danışmanı ile netleştirilmelidir."
+          "text": "Not: Hukuki detaylar kurum içi prosedür ve hukuk danışmanı ile netleştirilmelidir. İçeriğin dış dünyadaki etkisini doğru okumak için de [employer branding videosunun otel marka algısına etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) ayrıca değerlendirilmelidir; süreç ve teslim standartları için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası iyi bir referans olur."
         },
         {
           "type": "cta",
@@ -50869,7 +50931,7 @@
   },
   "h1": {
     "title": "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi",
-    "intro": "“Videolar izleniyor ama satışa dönmüyor, nerede hata yapıyorum?” sorusu çoğu otelde aynı yere çıkar: yanlış metriklerle başarı sanmak. View yüksek olabilir ama completion düşükse mesaj akmıyordur; completion yüksek ama tıklama yoksa CTA/yerleşim zayıftır; tıklama var ama rezervasyon yoksa landing ve booking engine sürtünmesi vardır. Üstelik otel videoları tek yerde yaşamaz: web/landing’de, YouTube ve Meta kampanyalarında, bazen OTA ortamlarında… Bu yüzden performansı “tek panelde” okumak gerekir. Antalya, Belek, Side ve Bodrum gibi kampanya yoğun destinasyonlarda, video kullanılan sayfalar ile kullanılmayan sayfalar arasında etkileşim ve niyet farkı oluşabilir; ama ağır/ilgisiz videolar ters etki de yapabilir. Bu rehber, otel video performans analizini GA4 + Looker Studio odağında pratik bir ölçüm ve yorumlama çerçevesine dönüştürür.",
+    "intro": "“Videolar izleniyor ama satışa dönmüyor, nerede hata yapıyorum?” sorusu çoğu otelde aynı yere çıkar: yanlış metriklerle başarı sanmak. View yüksek olabilir ama completion düşükse mesaj akmıyordur; completion yüksek ama tıklama yoksa CTA/yerleşim zayıftır; tıklama var ama rezervasyon yoksa landing ve booking engine sürtünmesi vardır. Üstelik otel videoları tek yerde yaşamaz: web/landing’de, YouTube ve Meta kampanyalarında, bazen OTA ortamlarında… Bu yüzden [otel video performans analizi](https://dgtlface.com/tr/creative/video-produksiyon) tarafını “tek panelde” okumak gerekir. Antalya, Belek, Side ve Bodrum gibi kampanya yoğun destinasyonlarda, video kullanılan sayfalar ile kullanılmayan sayfalar arasında etkileşim ve niyet farkı oluşabilir; ama ağır/ilgisiz videolar ters etki de yapabilir. Bu rehber, otel video performans analizini GA4 + Looker Studio odağında pratik bir ölçüm ve yorumlama çerçevesine dönüştürür.",
     "quickSummary": [
       "1) View rate’i tek başına başarı metriği olarak kullanma",
       "2) Completion + CTA click + booking zincirini birlikte oku",
@@ -50901,6 +50963,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Kampanya ve Lansman Video Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
+      "label": "Otel Web Video Entegrasyonu",
+      "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+    },
+    {
+      "label": "Otel Video Kurgu ve Renk Düzenleme",
+      "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
+    },
+    {
       "label": "Looker Studio",
       "href": "/tr/raporlama/looker-studio"
     },
@@ -50917,7 +50995,20 @@
       "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
+      "title": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
+      "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+    },
+    {
+      "title": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
+      "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
+    }
+  ],
   "sections": [
     {
       "id": "otel-videolari-temel-kpilar",
@@ -50925,7 +51016,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Video KPI’ları “tek metrik” değildir; bir zincirdir. Otel için doğru KPI seti, videonun nerede kullanıldığına göre değişir: web’de video “kanıt”tır; reklamlarda “dikkat + tıklama”dır; OTA tarafında “güven”dir. Bu nedenle KPI’ları 3 katmanda düşünmek gerekir: izleme, etkileşim, dönüşüm."
+          "text": "Video KPI’ları “tek metrik” değildir; bir zincirdir. Otel için doğru KPI seti, videonun nerede kullanıldığına göre değişir: web’de video “kanıt”tır; reklamlarda “dikkat + tıklama”dır; OTA tarafında “güven”dir. Bu nedenle [video performansını creative stratejiyle birlikte okumak](https://dgtlface.com/tr/creative-ve-tasarim) ve KPI’ları 3 katmanda düşünmek gerekir: izleme, etkileşim, dönüşüm."
         },
         {
           "type": "h3",
@@ -51046,7 +51137,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "İzlenme yüksek ama tamamlama düşükse çoğu zaman “hook” var ama “hikâye yok”tur. Tamamlama yüksek ama tıklama yoksa “izlettin ama yönlendirmedin” problemidir. Bu bölümde, completion okumayı otel örnekleriyle pratikleştirelim."
+          "text": "İzlenme yüksek ama tamamlama düşükse çoğu zaman “hook” var ama “hikâye yok”tur. Tamamlama yüksek ama tıklama yoksa “izlettin ama yönlendirmedin” problemidir. Bu bölümde, [izlenme ve completion rate](https://dgtlface.com/tr/creative/video-produksiyon) okumayı otel örnekleriyle pratikleştirelim."
         },
         {
           "type": "h3",
@@ -51068,7 +51159,7 @@
         },
         {
           "type": "p",
-          "text": "En sevdiğiniz sahne, en çok drop yaratan sahne olabilir. Timeline’da drop noktalarını işaretleyip o sahneleri kısaltmak/çıkarmak, en hızlı optimizasyondur."
+          "text": "En sevdiğiniz sahne, en çok drop yaratan sahne olabilir. Timeline’da drop noktalarını işaretleyip o sahneleri kısaltmak/çıkarmak, en hızlı optimizasyondur. Burada [kurgu kararlarının izlenme performansına etkisi](https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme) doğrudan görünür hale gelir."
         },
         {
           "type": "media",
@@ -51106,7 +51197,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Web’de video, “izlenme” değil “kanıt” üretmek içindir. Bu yüzden web analizinde kritik soru şudur: Video izleyen kullanıcı, izlemeyene göre daha mı çok ilerliyor? Bunu ölçmek için GA4’te video event’lerini booking funnel event’leriyle bağlamanız gerekir."
+          "text": "Web’de video, “izlenme” değil “kanıt” üretmek içindir. Bu yüzden web analizinde kritik soru şudur: Video izleyen kullanıcı, izlemeyene göre daha mı çok ilerliyor? Bunu ölçmek için GA4’te video event’lerini booking funnel event’leriyle bağlamanız gerekir. Özellikle [web sitesindeki video etkileşimleri](https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo) doğru kurulmadığında, performans verisi eksik ya da yanıltıcı okunabilir."
         },
         {
           "type": "h3",
@@ -51173,7 +51264,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Reklam video analizi, platform metrikleriyle başlar ama orada bitmez. YouTube/Meta’da view ve completion önemli; fakat otel tarafında asıl soru: Bu video rezervasyon getiriyor mu? Bu nedenle ROAS/CPA’yı kreatif seviyesinde okumaya yaklaşmalısınız."
+          "text": "Reklam video analizi, platform metrikleriyle başlar ama orada bitmez. YouTube/Meta’da view ve completion önemli; fakat otel tarafında asıl soru: Bu video rezervasyon getiriyor mu? Bu nedenle [kampanya videolarının performans etkisi](https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi) ile ROAS/CPA’yı kreatif seviyesinde birlikte okumaya yaklaşmalısınız."
         },
         {
           "type": "h3",
@@ -51237,7 +51328,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: izlenme + tamamlama + tıklama + rezervasyon metriklerini birlikte okuyun; GA4 event/funnel ile bağlayın; Looker Studio dashboard’da kanalları tek ekranda birleştirin."
+          "text": "Kısa cevap: izlenme + tamamlama + tıklama + rezervasyon metriklerini birlikte okuyun; GA4 event/funnel ile bağlayın; Looker Studio dashboard’da kanalları tek ekranda birleştirin. Özellikle [video ile rezervasyon etkisi](https://dgtlface.com/tr/raporlama/satis-donusum) okunmadığında, yüksek izlenme gerçek iş etkisine dönüşmeyebilir."
         },
         {
           "type": "list",
@@ -51288,7 +51379,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Looker Studio paneli, video performansını ekip için anlaşılır hale getirir. Ama panel “her şeyi koymak” değil; karar aldırmaktır. Öneri: 4 bloklu bir dashboard."
+          "text": "[Looker Studio video dashboard](https://dgtlface.com/tr/raporlama/looker-studio), video performansını ekip için anlaşılır hale getirir. Ama panel “her şeyi koymak” değil; karar aldırmaktır. Öneri: 4 bloklu bir dashboard."
         },
         {
           "type": "h3",
@@ -51320,6 +51411,10 @@
             "Cross-device ölçüm; kullanıcı login/consent ve modellemeye bağlıdır; “kesin rezervasyon etkisi” iddialarında dikkatli olmak gerekir.",
             "Booking engine cross-domain doğru değilse, ROAS/booking etkisi raporu eksik kalır."
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu paneli [video reklam raporlaması](https://dgtlface.com/tr/sem/reklam-raporlama) ile birlikte okumak ve genel resmi [video performansının otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) üzerinden yorumlamak gerekir. Süreç, teslimatlar ve beklentiler için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası da iyi bir referans noktasıdır."
         },
         {
           "type": "cta",
@@ -51501,7 +51596,7 @@
   },
   "h1": {
     "title": "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler",
-    "intro": "“Yıl boyu düzenli video üretmek istiyorum ama neyi ne zaman çekmeliyim?” sorusu, otel içerik yönetiminin en kritik sorusudur. Çünkü otellerin sezonu değişir; mesajı, sahnesi ve hedef kitlesi de değişir: yazın havuz/plaj enerjisi; kışın kayak/şehir kaçamağı; bayram ve yılbaşında kısa kampanya spotları; düşük sezonda ise marka, sadakat ve ekip hikâyeleri… Eğer plan yoksa içerik üretimi “anlık” kalır; kampanya başladığında çekim yetişmez, maliyet yükselir ve tutarlılık bozulur. Bu rehber; yaz odaklı (Antalya/Belek/Side), kış odaklı (Uludağ/Erzurum) ve yıl boyu çalışan (Bodrum/İstanbul) oteller için uyarlanabilir bir 12 aylık video takvimi kurar; prodüksiyonun arşiv ve isimlendirme düzeniyle sürdürülebilir olmasını sağlar.",
+    "intro": "“Yıl boyu düzenli video üretmek istiyorum ama neyi ne zaman çekmeliyim?” sorusu, otel içerik yönetiminin en kritik sorusudur. Çünkü otellerin sezonu değişir; mesajı, sahnesi ve hedef kitlesi de değişir: yazın havuz/plaj enerjisi; kışın kayak/şehir kaçamağı; bayram ve yılbaşında kısa kampanya spotları; düşük sezonda ise marka, sadakat ve ekip hikâyeleri… Eğer plan yoksa içerik üretimi “anlık” kalır; kampanya başladığında çekim yetişmez, maliyet yükselir ve tutarlılık bozulur. Bu rehber; [4 mevsim video planı](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımıyla yaz odaklı (Antalya/Belek/Side), kış odaklı (Uludağ/Erzurum) ve yıl boyu çalışan (Bodrum/İstanbul) oteller için uyarlanabilir bir 12 aylık video takvimi kurar; prodüksiyonun arşiv ve isimlendirme düzeniyle sürdürülebilir olmasını sağlar.",
     "quickSummary": [
       "1) 12 ayı sezon öncesi, sezon içi, özel dönem ve off-season bloklarına ayır",
       "2) Sezon öncesinde master video + kısa asset setlerini hazırla",
@@ -51533,6 +51628,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Kampanya ve Lansman Video Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
+      "label": "Otel Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "label": "Otel Employer Branding & İK Video",
+      "href": "/tr/creative/blog/otel-employer-branding-ik-video"
+    },
+    {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
     },
@@ -51543,13 +51654,22 @@
     {
       "label": "SMM",
       "href": "/tr/smm"
-    },
-    {
-      "label": "Creative & Tasarım",
-      "href": "/tr/creative-ve-tasarim"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
+      "title": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "title": "Otel Employer Branding & İK Videoları: Ekip ve Kültür Hikâyesi",
+      "href": "/tr/creative/blog/otel-employer-branding-ik-video"
+    }
+  ],
   "sections": [
     {
       "id": "neden-4-mevsim-video-plani",
@@ -51557,7 +51677,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "4 mevsim plan, “sezonda konuşup kışın susmak” döngüsünü kırar. En büyük fayda; prodüksiyonu kampanyadan bağımsız şekilde planlayıp doğru zamanda doğru formatı hazır tutmaktır. Always-on içerikler (marka/deneyim/ekip) yıl boyu yayınlanırken; campaign video setleri (bayram, yılbaşı, erken rezervasyon) takvimle birlikte devreye girer."
+          "text": "4 mevsim plan, “sezonda konuşup kışın susmak” döngüsünü kırar. En büyük fayda; prodüksiyonu kampanyadan bağımsız şekilde planlayıp doğru zamanda doğru formatı hazır tutmaktır. Always-on içerikler (marka/deneyim/ekip) yıl boyu yayınlanırken; campaign video setleri (bayram, yılbaşı, erken rezervasyon) takvimle birlikte devreye girer. Bu yaklaşım, [sezonluk otel içerikleri](https://dgtlface.com/tr/creative-ve-tasarim) tarafını yıl boyu çalışan bir creative sistem haline getirir."
         },
         {
           "type": "h3",
@@ -51603,7 +51723,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sezon öncesi, en büyük “çekim fırsatı”dır: otel daha sakin, kadrajlar temiz, ekip organize edilebilir. Bu dönemde üretilen içerikler, sezonun “yakıtı” olur."
+          "text": "Sezon öncesi, en büyük “çekim fırsatı”dır: otel daha sakin, kadrajlar temiz, ekip organize edilebilir. Bu dönemde üretilen içerikler, sezonun “yakıtı” olur. Doğru bir [yıllık prodüksiyon takvimi](https://dgtlface.com/tr/creative/video-produksiyon) ve buna bağlı [yıllık video asset kütüphanesi](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik), sezon açıldığında yeni çekim baskısını ciddi biçimde azaltır."
         },
         {
           "type": "h3",
@@ -51668,7 +51788,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Sezon içi içerikler, otelin “canlılık” kanıtıdır. Burada hedef; mükemmel set değil, ritmi yakalamaktır: etkinlik, servis, deneyim, misafir akışı… Dikey Reels/TikTok formatı bu dönemde özellikle güçlü çalışır."
+          "text": "Sezon içi içerikler, otelin “canlılık” kanıtıdır. Burada hedef; mükemmel set değil, ritmi yakalamaktır: etkinlik, servis, deneyim, misafir akışı… Dikey Reels/TikTok formatı bu dönemde özellikle güçlü çalışır ve [sosyal medya için sezonluk video içerikleri](https://dgtlface.com/tr/smm) planı ile birlikte düşünüldüğünde görünürlüğü daha istikrarlı hale getirir."
         },
         {
           "type": "h3",
@@ -51733,7 +51853,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Özel dönem videoları “kısa, vurucu, teklif odaklı” olmalıdır. Burada hedef; doğru zamanda doğru formatı hazır tutmaktır."
+          "text": "Özel dönem videoları “kısa, vurucu, teklif odaklı” olmalıdır. Burada hedef; doğru zamanda doğru formatı hazır tutmaktır. Özellikle [yaz kış kampanya filmleri](https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi) planlandığında, bayram ve yılbaşı gibi dönemlerde kampanya dili ile video seti aynı omurgada ilerler."
         },
         {
           "type": "h3",
@@ -51808,7 +51928,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Düşük sezon, “marka ve ekip hikâyesi” için en verimli dönemdir: mekanlar daha sakin, ekip röportajları yapılabilir, kulis/backstage içerikleri rahat üretilir. Bu dönem, Loyalty ve tekrar ziyaret niyetini besler."
+          "text": "Düşük sezon, “marka ve ekip hikâyesi” için en verimli dönemdir: mekanlar daha sakin, ekip röportajları yapılabilir, kulis/backstage içerikleri rahat üretilir. Bu dönem, Loyalty ve tekrar ziyaret niyetini besler. Aynı zamanda [yıl boyu ekip ve kültür video içerikleri](https://dgtlface.com/tr/creative/blog/otel-employer-branding-ik-video) üretmek için de en elverişli zamandır."
         },
         {
           "type": "h3",
@@ -51859,7 +51979,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: yılı 4 blokta planlayın; her blok için hedef format seti çıkarın; çekim günlerini sezon öncesine koyun; özel dönem spotlarını takvimle kilitleyin; off-season’da marka ve ekip hikâyelerini üretin."
+          "text": "Kısa cevap: yılı 4 blokta planlayın; her blok için hedef format seti çıkarın; çekim günlerini sezon öncesine koyun; özel dönem spotlarını takvimle kilitleyin; off-season’da marka ve ekip hikâyelerini üretin. Bu yapıyı [sezonluk video içeriklerinin otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ile bağlamak, içerik takvimini yalnız üretim değil talep yaratım aracı haline getirir."
         },
         {
           "type": "list",
@@ -51906,7 +52026,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Aşağıdaki iskelet, çoğu otelin uyarlayabileceği örnek bir 12 aylık plan yaklaşımıdır (yaz/kış odaklı değişebilir):"
+          "text": "Aşağıdaki iskelet, çoğu otelin uyarlayabileceği örnek bir 12 aylık plan yaklaşımıdır (yaz/kış odaklı değişebilir). Süreç, teslim yapısı ve kullanım alanları için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası da iyi bir referans noktasıdır:"
         },
         {
           "type": "list",
@@ -52142,7 +52262,7 @@
   },
   "h1": {
     "title": "Fotoğraf ve Video Prodüksiyonunu Aynı Gün Planlamak: Oteller İçin Entegre Çekim Rehberi",
-    "intro": "Otel içerik üretiminde en yaygın gerçek: “bu sezon bir gün ayırabildik.” Özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi yoğun operasyonlu resort’larda çekim penceresi dar; misafir trafiği yüksek; departmanlar sürekli hareket halinde. Bu yüzden fotoğraf ve video prodüksiyonunu aynı gün ya da yakın tarihlere toplamak ciddi verim sağlar—ama yalnızca iyi planlanırsa. Plan yoksa ekipman kurulumları çakışır, ışık pencereleri kaçar, oda hazırlıkları yetişmez ve çekim günü kaosa döner. Bu rehber; ortak shot list ile önceliklendirme, ışık–mekân zaman çizelgesi, ekip/ekipman organizasyonu ve çekim sonrası content library (arşiv) yönetimi ile tek günden maksimum foto + video çıktısı almanızı sağlar.",
+    "intro": "Otel içerik üretiminde en yaygın gerçek: “bu sezon bir gün ayırabildik.” Özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi yoğun operasyonlu resort’larda çekim penceresi dar; misafir trafiği yüksek; departmanlar sürekli hareket halinde. Bu yüzden [aynı gün foto ve video çekimi](https://dgtlface.com/tr/creative/video-produksiyon) planı ciddi verim sağlar—ama yalnızca iyi planlanırsa. Plan yoksa ekipman kurulumları çakışır, ışık pencereleri kaçar, oda hazırlıkları yetişmez ve çekim günü kaosa döner. Bu rehber; ortak shot list ile önceliklendirme, ışık–mekân zaman çizelgesi, ekip/ekipman organizasyonu ve çekim sonrası content library (arşiv) yönetimi ile tek günden maksimum foto + video çıktısı almanızı sağlar.",
     "quickSummary": [
       "1) Fotoğraf + video için ortak shot list oluştur",
       "2) P1 sahneleri ve kritik ışık pencerelerini önce kilitle",
@@ -52174,19 +52294,44 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
-      "label": "Creative & Tasarım",
+      "label": "Creative ve Tasarım",
       "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "label": "Otel Video Set ve Ekip Yönetimi",
+      "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+    },
+    {
+      "label": "Otel İç Mekân ve Oda Video Çekimi",
+      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
     },
     {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
     },
     {
-      "label": "Reels & Video",
+      "label": "Reels Video",
       "href": "/tr/smm/reels-video"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "title": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
+      "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+    },
+    {
+      "title": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
+      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+    }
+  ],
   "sections": [
     {
       "id": "neden-fotograf-video-ayni-gun",
@@ -52194,7 +52339,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Aynı gün çekimin en büyük avantajı: tek kurulumla iki çıktı. Oda styling’i, masa setup’ı, ışık düzeni, alan hazırlığı… Hepsi hem foto hem video için ortak zemindir. Ayrıca marka tutarlılığı artar: aynı gün aynı ışık/dil/konsept."
+          "text": "Aynı gün çekimin en büyük avantajı: tek kurulumla iki çıktı. Oda styling’i, masa setup’ı, ışık düzeni, alan hazırlığı… Hepsi hem foto hem video için ortak zemindir. Ayrıca marka tutarlılığı artar: aynı gün aynı ışık/dil/konsept. Bu yaklaşım, [creative üretimde entegre çekim planı](https://dgtlface.com/tr/creative-ve-tasarim) kurmayı da kolaylaştırır."
         },
         {
           "type": "h3",
@@ -52240,7 +52385,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Entegre günün kalbi shot list’tir. Shot list sadece “nereleri çekeceğiz” değil; ne amaçla çekeceğiz sorusunun cevabıdır. Foto ve video ekipleri birlikte aynı listeye bakmazsa, gün iki ayrı güne dönüşür."
+          "text": "Entegre günün kalbi shot list’tir. Shot list sadece “nereleri çekeceğiz” değil; ne amaçla çekeceğiz sorusunun cevabıdır. Güçlü bir [entegre video prodüksiyon planı](https://dgtlface.com/tr/creative/video-produksiyon) kurulmadığında foto ve video ekipleri aynı listeye bakmaz ve gün iki ayrı güne dönüşür."
         },
         {
           "type": "h3",
@@ -52347,7 +52492,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Işık, hem foto hem video için kaliteyi belirler; ama ihtiyaçlar farklıdır. Fotoğrafta “tek kare” mükemmelliği; videoda “süreklilik ve stabil” ışık gerekir. Çözüm: ışık pencerelerini bloklara ayırmak."
+          "text": "Işık, hem foto hem video için kaliteyi belirler; ama ihtiyaçlar farklıdır. Fotoğrafta “tek kare” mükemmelliği; videoda “süreklilik ve stabil” ışık gerekir. Çözüm: ışık pencerelerini bloklara ayırmak ve [oda ve iç mekân video çekim planı](https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi) ile lokasyon sırasını birlikte kurmaktır."
         },
         {
           "type": "h3",
@@ -52415,7 +52560,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Tek günde iki prodüksiyon demek, iki ekip demek değildir; doğru rol dağılımı ile tek operasyona dönebilir. Burada kritik alan: kurulum çakışmalarını engellemek, batarya/depola alanını planlamak ve güvenliği korumak."
+          "text": "Tek günde iki prodüksiyon demek, iki ekip demek değildir; doğru rol dağılımı ile tek operasyona dönebilir. Burada kritik alan; [fotoğraf ve video ekip koordinasyonu](https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi) kurmak, batarya/depola alanını planlamak ve güvenliği korumaktır."
         },
         {
           "type": "h3",
@@ -52486,7 +52631,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: ortak shot list çıkarın, P1 sahneleri kilitleyin, ışık pencerelerini bloklayın, ekipleri setup/capture olarak bölün ve çekim sonrası content library’ye standart naming ile arşivleyin."
+          "text": "Kısa cevap: ortak shot list çıkarın, P1 sahneleri kilitleyin, ışık pencerelerini bloklayın, ekipleri setup/capture olarak bölün ve çekim sonrası content library’ye standart naming ile arşivleyin. Bu akış, [tek günde çok asset üretimi](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) hedefi için en verimli omurgayı kurar."
         },
         {
           "type": "list",
@@ -52526,7 +52671,7 @@
           "items": [
             "“1 günde foto+video örnek plan”ı aşağıdaki kutudan kopyalayıp uyarlayın.",
             "Çekim sonrası asset’leri aynı gün arşive girin; yoksa kaybolur.",
-            "İç linklerle dijital kullanıma bağlayın: `/tr/otel-dijital-pazarlama` ve kreatif standard için `/tr/creative-ve-tasarim`."
+            "Asset etiketlerini web, reklam ve sosyal medya kullanım senaryolarına göre önceden belirleyin."
           ]
         }
       ]
@@ -52537,7 +52682,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Entegre çekimin gerçek kazancı, içerik kütüphanesiyle gelir. Eğer dosyalar doğru isimlenmezse, “ürettik” sanırsınız ama kampanya günü içerik bulunamaz."
+          "text": "Entegre çekimin gerçek kazancı, içerik kütüphanesiyle gelir. Eğer dosyalar doğru isimlenmezse, “ürettik” sanırsınız ama kampanya günü içerik bulunamaz. Doğru arşiv yapısı, [otel dijital pazarlamada aynı gün çekimden çıkan asset'lerin kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) için de temel oluşturur."
         },
         {
           "type": "h3",
@@ -52578,7 +52723,7 @@
         },
         {
           "type": "p",
-          "text": "Bu standart, gelecekte arama ve yeniden kullanım hızını belirler."
+          "text": "Bu standart, gelecekte arama ve yeniden kullanım hızını belirler. Özellikle [Reels için aynı gün video üretimi](https://dgtlface.com/tr/smm/reels-video) planlanıyorsa kısa format kesitlerin bulunabilir olması büyük fark yaratır; süreç ve teslim detayları için de [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası iyi bir referanstır."
         },
         {
           "type": "cta",
@@ -52812,7 +52957,7 @@
   },
   "h1": {
     "title": "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi",
-    "intro": "“Otel için Instagram Live nasıl yaparım?” ve “canlı yayın gerçekten işe yarıyor mu?” soruları artık çok daha pratik bir yere bağlanıyor: canlı yayın = güven + gerçeklik + hız. Ama canlı yayın, spontane olduğu kadar risklidir; hazırlıksızsa marka algısını zedeleyebilir. Doğru planla ise otelin atmosferini “anlık” gösterir, chat üzerinden soruları cevaplayarak belirsizliği azaltır ve rezervasyon niyetini yükseltir. Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlarda sezon açılışı, konser/etkinlik veya havuz günü canlıları; İstanbul gibi yıl boyu çalışan şehir otellerinde ise toplantı/roof/restaurant konsept live’ları güçlü çalışabilir. Bu rehberde; platform seçimi, senaryo, teknik setup, canlı içi UX (chat + Q&A + CTA) ve en önemlisi replay’den Reels/Shorts üretim hattını adım adım kuruyoruz.",
+    "intro": "“Otel için Instagram Live nasıl yaparım?” ve “canlı yayın gerçekten işe yarıyor mu?” soruları artık çok daha pratik bir yere bağlanıyor: [otel live yayın stratejisi](https://dgtlface.com/tr/creative/video-produksiyon) doğru kurulduğunda canlı yayın; güven, gerçeklik ve hız üretir. Ama canlı yayın, spontane olduğu kadar risklidir; hazırlıksızsa marka algısını zedeleyebilir. Doğru planla ise otelin atmosferini “anlık” gösterir, chat üzerinden soruları cevaplayarak belirsizliği azaltır ve rezervasyon niyetini yükseltir. Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlarda sezon açılışı, konser/etkinlik veya havuz günü canlıları; İstanbul gibi yıl boyu çalışan şehir otellerinde ise toplantı/roof/restaurant konsept live’ları güçlü çalışabilir. Bu rehberde; platform seçimi, senaryo, teknik setup, canlı içi UX (chat + Q&A + CTA) ve en önemlisi replay’den Reels/Shorts üretim hattını adım adım kuruyoruz.",
     "quickSummary": [
       "1) Platformu yayın amacına göre seç",
       "2) 20–30 dakikalık tur → kanıt → Q&A → CTA akışı oluştur",
@@ -52844,11 +52989,27 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Dikey Video Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+    },
+    {
+      "label": "Otel Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "label": "Otel UGC Misafir Video Stratejisi",
+      "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+    },
+    {
       "label": "Otel Sosyal Medya",
       "href": "/tr/otel/sosyal-medya"
     },
     {
-      "label": "Reels & Video",
+      "label": "Reels Video",
       "href": "/tr/smm/reels-video"
     },
     {
@@ -52856,7 +53017,20 @@
       "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+    },
+    {
+      "title": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "title": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+      "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+    }
+  ],
   "sections": [
     {
       "id": "live-yayin-trendleri-otel-pazarlama",
@@ -52864,11 +53038,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Live yayınların gücü, “kurgu” değil “gerçeklik” hissidir. Otelde bu gerçeklik; oda ferahlığı, manzara, lobby atmosferi, havuz enerjisi ve etkinlik anlarıyla hızlıca kanıtlanır. Ayrıca chat üzerinden sorular geldikçe yayın “interaktif satış asistanı” gibi çalışır: transfer var mı, çocuk politikası nasıl, oda tipi farkı ne, sezon açılışı ne zaman?"
+          "text": "Live yayınların gücü, “kurgu” değil “gerçeklik” hissidir. Otelde bu gerçeklik; oda ferahlığı, manzara, lobby atmosferi, havuz enerjisi ve etkinlik anlarıyla hızlıca kanıtlanır. Ayrıca chat üzerinden sorular geldikçe yayın “interaktif satış asistanı” gibi çalışır: transfer var mı, çocuk politikası nasıl, oda tipi farkı ne, sezon açılışı ne zaman? Bu yapıyı [creative prodüksiyon planında live yayın akışı](https://dgtlface.com/tr/creative-ve-tasarim) olarak ele almak, canlıyı rastgele değil kontrollü bir içerik formatına dönüştürür."
         },
         {
           "type": "p",
-          "text": "Varsayım (veri noktası): Çoğu otel hesabında canlı yayınların asıl değeri, canlı izleyici sayısından çok replay’den üretilen kısa highlight’ların uzun vadede daha çok izlenme ve tamamlanma almasıdır (sayısal iddia yerine saha gözlemi)."
+            "text": "Varsayım (veri noktası): Çoğu otel hesabında canlı yayınların asıl değeri, canlı izleyici sayısından çok replay’den üretilen kısa highlight’ların uzun vadede daha çok izlenme ve tamamlanma almasıdır. Bu nedenle yorumlar, soru-cevaplar ve katılımcı tepkileri çoğu zaman live yayın sonrası UGC içerikleri için de güçlü bir sosyal kanıt kaynağına dönüşür."
         },
         {
           "type": "h3",
@@ -52977,7 +53151,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Live yayın “hazırlıksız doğallık” değildir; kısa bir senaryo ve teknik checklist ile kontrol altına alınır."
+          "text": "Live yayın “hazırlıksız doğallık” değildir; [Instagram, YouTube ve TikTok Live yayın prodüksiyonu](https://dgtlface.com/tr/creative/video-produksiyon) kısa bir senaryo ve teknik checklist ile kontrol altına alınır."
         },
         {
           "type": "h3",
@@ -53151,8 +53325,8 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "İlk 3 yayını “pilot seri” yap; sonra formatı standardize et.",
-            "Live’ı `/tr/otel/sosyal-medya` stratejinizin parçası haline getir.",
-            "Dikey içerik üretimi için `/tr/smm/reels-video` ile birlikte planla."
+            "Live’ı [otel sosyal medya takviminde canlı yayın](https://dgtlface.com/tr/otel/sosyal-medya) olarak düzenli bir içerik slotuna dönüştür.",
+            "Replay kesitlerini [canlı yayından Reels ve kısa video içerikleri](https://dgtlface.com/tr/smm/reels-video) olarak önceden planla."
           ]
         }
       ]
@@ -53163,7 +53337,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Canlı yayın, bittiği an değerini kaybetmemeli; asıl ROI burada çıkar. Çoğu otelde “canlı bitti, kapandı” olur. Doğru yaklaşım: replay’i paketlemek ve highlight’ları çıkarmak."
+            "text": "Canlı yayın, bittiği an değerini kaybetmemeli; asıl ROI burada çıkar. Çoğu otelde “canlı bitti, kapandı” olur. Doğru yaklaşım; replay’i paketlemek, canlı yayından kısa içerik üretimi planı kurmak ve öne çıkan anları yeniden dağıtıma hazırlamaktır."
+        },
+        {
+          "type": "p",
+          "text": "Bu aşamada [live yayından Reels üretimi](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) yaklaşımı devreye girer; çünkü canlı akış içindeki en güçlü anlar çoğu zaman kısa dikey formatlarda ikinci hayatını bulur."
         },
         {
           "type": "h3",
@@ -53242,6 +53420,10 @@
         {
           "type": "media",
           "slot": "proof-08"
+        },
+        {
+          "type": "p",
+          "text": "Replay, highlight ve CTA akışı birlikte düşünüldüğünde [live yayının otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) çok daha net görünür; süreç, ekip ve teslim standartları için de [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası iyi bir başvuru noktasıdır."
         },
         {
           "type": "cta",
@@ -53422,7 +53604,7 @@
     },
     "h1": {
       "title": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
-      "intro": "Misafirlerin kendi telefonlarıyla çektiği videolar; otelin en gerçek ve ikna edici referansları olabilir. Ama bu içerikleri “rastgele paylaşıp geçmek” yerine, izinli ve kontrollü bir üretim hattına bağladığınızda UGC; Reels/Story içerikleri, reklam kreatifleri ve tanıtım montajları için sürdürülebilir bir içerik motoruna dönüşür. Özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi misafirlerin yoğun paylaşım yaptığı destinasyonlarda UGC hacmi yüksektir; bu hem fırsat hem risk demektir: izinsiz yüz kullanımı, telifli müzik, yanlış bağlam, marka standardını bozan görüntüler… Bu rehber, UGC’yi toplama → kürasyon → izin/hak yönetimi → montaj & yeniden kullanım adımlarıyla otel özelinde standart hale getirir.",
+      "intro": "Misafirlerin kendi telefonlarıyla çektiği [UGC otel videoları](https://dgtlface.com/tr/creative/video-produksiyon); otelin en gerçek ve ikna edici referansları olabilir. Ama bu içerikleri “rastgele paylaşıp geçmek” yerine, izinli ve kontrollü bir üretim hattına bağladığınızda UGC; Reels/Story içerikleri, reklam kreatifleri ve tanıtım montajları için sürdürülebilir bir içerik motoruna dönüşür. Özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi misafirlerin yoğun paylaşım yaptığı destinasyonlarda UGC hacmi yüksektir; bu hem fırsat hem risk demektir: izinsiz yüz kullanımı, telifli müzik, yanlış bağlam, marka standardını bozan görüntüler… Bu rehber, UGC’yi toplama → kürasyon → izin/hak yönetimi → montaj & yeniden kullanım adımlarıyla otel özelinde standart hale getirir.",
       "quickSummary": [
         "1) Toplama kanalı seç (hashtag/mention, mail/WhatsApp daveti, QR spot)",
         "2) Kürasyon kriteri belirle (kalite, kadraj, marka tonu, mahremiyet)",
@@ -53450,31 +53632,56 @@
     },
     "internalLinks": [
       {
-        "label": "/tr/smm",
-        "href": "/tr/smm"
-      },
-      {
-        "label": "/tr/smm/reels-video",
-        "href": "/tr/smm/reels-video"
-      },
-      {
-        "label": "/tr/otel-sosyal-medya",
-        "href": "/tr/otel-sosyal-medya"
-      },
-      {
-        "label": "/tr/yazilim/kvkk-uyum-hizmeti",
-        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
-      },
-      {
-        "label": "/tr/creative/video-produksiyon",
+        "label": "Video & Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "/tr/otel-dijital-pazarlama",
-        "href": "/tr/otel-dijital-pazarlama"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Influencer Video Prodüksiyonu",
+        "href": "/tr/creative/blog/otel-influencer-video-produsksiyon"
+      },
+      {
+        "label": "Otel Live Yayın Stratejisi",
+        "href": "/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok"
+      },
+      {
+        "label": "Dikey Video Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
+        "label": "SMM",
+        "href": "/tr/smm"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/tr/smm/reels-video"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi",
+        "href": "/tr/creative/blog/otel-influencer-video-produsksiyon"
+      },
+      {
+        "title": "Instagram, YouTube ve TikTok Live ile Otel Live Yayın Stratejisi",
+        "href": "/tr/creative/blog/otel-live-yayin-instagram-youtube-tiktok"
+      },
+      {
+        "title": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      }
+    ],
     "sections": [
       {
         "id": "ugc-nedir-oteller-icin-neden-guclu",
@@ -53486,7 +53693,11 @@
           },
           {
             "type": "p",
-            "text": "Dengeli içgörü (sayısal iddia olmadan): Birçok tesiste UGC ağırlıklı içeriklerin, profesyonel çekimlere göre daha “yakın” hissettirdiği ve bu yüzden etkileşim üretmeye daha yatkın olabildiği gözlemlenir. Ancak kontrolsüz UGC, aynı hızla itibar riski de yaratabilir."
+            "text": "Dengeli içgörü (sayısal iddia olmadan): Birçok tesiste UGC ağırlıklı içeriklerin, profesyonel çekimlere göre daha “yakın” hissettirdiği ve bu yüzden etkileşim üretmeye daha yatkın olabildiği gözlemlenir. Bu nedenle [creative üretimde sosyal kanıt içerikleri](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı, UGC’nin yalnız paylaşım değil seçme ve kurgu disiplini de istediğini hatırlatır. Ancak kontrolsüz UGC, aynı hızla itibar riski de yaratabilir."
+          },
+          {
+            "type": "p",
+            "text": "Burada [influencer ve UGC içerik farkı](https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon) net kurulmalıdır; biri marka kontrollü creator prodüksiyonu, diğeri ise misafir deneyiminden doğan organik sosyal kanıttır."
           },
           {
             "type": "h3",
@@ -53521,7 +53732,7 @@
             "items": [
               "UGC’yi “tesadüfi” değil “planlı kaynak” olarak ele al.",
               "En çok dönüşüm etkisi beklenen alanları seç: oda, havuz/beach, F&B, etkinlik.",
-              "UGC’yi sosyal stratejiyle bağla: `/tr/smm`, `/tr/smm/reels-video`, `/tr/otel-sosyal-medya`."
+              "UGC’yi [UGC içeriklerin sosyal medya stratejisindeki rolü](https://dgtlface.com/tr/smm) ile planla ve dağıtımı [otel sosyal medya için UGC içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) akışına bağla."
             ]
           }
         ]
@@ -53532,7 +53743,11 @@
         "blocks": [
           {
             "type": "p",
-            "text": "UGC toplamak için “beklemek” yerine, misafir yolculuğuna küçük tetikler eklemek gerekir. En etkili yerler: check-in/konaklama anı, çıkış sonrası memnuniyet piki ve kampanya/etkinlik anları."
+            "text": "UGC toplamak için “beklemek” yerine, misafir yolculuğuna küçük tetikler eklemek gerekir. Profesyonel bir [misafir videosu toplama](https://dgtlface.com/tr/creative/video-produksiyon) akışı kurmak için en etkili yerler; check-in/konaklama anı, çıkış sonrası memnuniyet piki ve kampanya/etkinlik anlarıdır."
+          },
+          {
+            "type": "p",
+            "text": "Özellikle etkinlik ve sezon açılışı dönemlerinde canlı yayından UGC içerik üretimi, yorumları, replay kesitlerini ve topluluk tepkilerini daha düzenli toplamayı kolaylaştırır."
           },
           {
             "type": "h3",
@@ -53670,7 +53885,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "UGC’nin etkisi, doğru kurgulanmış montage ve doğru dağıtımla ortaya çıkar. En iyi yaklaşım: UGC’yi “ham” haliyle her yerde yayınlamak değil; önce kürasyon, sonra edit."
+            "text": "UGC’nin etkisi, doğru kurgulanmış montage ve doğru dağıtımla ortaya çıkar. En iyi yaklaşım: UGC’yi “ham” haliyle her yerde yayınlamak değil; önce kürasyon, sonra edit. Bu aşamada UGC videoları Reels ve TikTok formatına uyarlamak için ayrı kurgu mantığı kurmak gerekir."
           },
           {
             "type": "h3",
@@ -53726,7 +53941,7 @@
             "items": [
               "UGC’yi 20–45 sn montage setine dönüştür; ayda 2–4 set hedefle.",
               "UGC’yi kampanya sayfalarına gömmek yerine, önce sosyalde test et; sonra landing’e taşı.",
-              "İç link: UGC dağıtım planını `/tr/smm/reels-video` üzerinden standardize et."
+              "UGC dağıtım planını [misafir videolarından Reels üretimi](https://dgtlface.com/tr/smm/reels-video) akışıyla standardize et."
             ]
           }
         ]
@@ -53788,7 +54003,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "UGC’nin en kritik bölümü burasıdır. “Herkes paylaşıyor” demek, markanın her yerde kullanabileceği anlamına gelmez. Rights Management ve Consent süreçleri net olmazsa, şikâyet ve itibar riski doğar."
+            "text": "UGC’nin en kritik bölümü burasıdır. “Herkes paylaşıyor” demek, markanın her yerde kullanabileceği anlamına gelmez. [İzinli kullanım ve hak yönetimi](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) net olmazsa Rights Management ve Consent süreçleri şikâyet ve itibar riskine dönüşür."
           },
           {
             "type": "h3",
@@ -53806,7 +54021,7 @@
           },
           {
             "type": "p",
-            "text": "Net uyarı: KVKK, telif ve sözleşme detayları mutlaka yazılı hale getirilmeli; hukuki detaylar için kurumun hukuk danışmanı ile netleşmelidir."
+            "text": "Net uyarı: KVKK, telif ve sözleşme detayları mutlaka yazılı hale getirilmeli; hukuki detaylar için kurumun hukuk danışmanı ile netleşmelidir. Süreç, teslim formatı ve kullanım akışları için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası da iyi bir referans noktasıdır."
           },
           {
             "type": "h3",
@@ -54084,7 +54299,7 @@
     },
     "h1": {
       "title": "AI Video Edit ile Oteller İçin Otomatik Highlight ve Kısa Video Üretimi",
-      "intro": "“Yapay zekâ ile videoları hızlıca kesmek istiyorum ama kaliteden korkuyorum, ne yapmalıyım?” sorusunun cevabı basit: AI’ı yardımcı editör gibi kullanın, final kontrolü insan gözüyle kilitleyin. Oteller için asıl değer, tek bir uzun çekimden (tanıtım filmi, etkinlik kaydı, oda turu) sezon boyunca kullanılacak Reels/Shorts setleri çıkarabilmektir. Antalya, Belek, Side, Kemer ve Bodrum gibi yoğun içerik ihtiyacı olan resort’larda bu yaklaşım, kampanya başına içerik maliyetini düşürür ve daha fazla kreatif test etmeyi mümkün kılar. Ancak bulut tabanlı AI araçlarına misafir görüntüsü yüklerken KVKK ve gizlilik riskleri; otomatik dikey crop’ta logo/önemli detay kesilmesi; altyazı/çeviride “yapay” dil gibi problemler mutlaka yönetilmelidir.",
+      "intro": "“Yapay zekâ ile videoları hızlıca kesmek istiyorum ama kaliteden korkuyorum, ne yapmalıyım?” sorusunun cevabı basit: [AI video edit](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımını yardımcı editör gibi kullanın, final kontrolü insan gözüyle kilitleyin. Oteller için asıl değer, tek bir uzun çekimden (tanıtım filmi, etkinlik kaydı, oda turu) sezon boyunca kullanılacak Reels/Shorts setleri çıkarabilmektir. Antalya, Belek, Side, Kemer ve Bodrum gibi yoğun içerik ihtiyacı olan resort’larda bu yaklaşım, kampanya başına içerik maliyetini düşürür ve daha fazla kreatif test etmeyi mümkün kılar. Ancak bulut tabanlı AI araçlarına misafir görüntüsü yüklerken KVKK ve gizlilik riskleri; otomatik dikey crop’ta logo/önemli detay kesilmesi; altyazı/çeviride “yapay” dil gibi problemler mutlaka yönetilmelidir.",
       "quickSummary": [
         "1) Hedefi belirle: highlight mı, Reels/Shorts seti mi?",
         "2) Sahneleri etiketle: oda/havuz/F&B/spa gibi bloklar",
@@ -54116,19 +54331,48 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Reels / Video",
-        "href": "/tr/smm/reels-video"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "KVKK Uyum Hizmeti",
-        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+        "label": "Otel Video Asset Stratejisi",
+        "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+      },
+      {
+        "label": "Dikey Video Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
+        "label": "Otel Video Kurgu ve Renk Düzenleme",
+        "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
+      },
+      {
+        "label": "Reels Video",
+        "href": "/tr/smm/reels-video"
       },
       {
         "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "KVKK Uyum Hizmeti",
+        "href": "/tr/yazilim/kvkk-uyum-hizmeti"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+        "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+      },
+      {
+        "title": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
+        "title": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
+        "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
+      }
+    ],
     "sections": [
       {
         "id": "ai-tabanli-video-edit-araclari-nelerdir",
@@ -54136,7 +54380,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI video editing araçlarının ortak vaadi şudur: sahne analizi yapar, “ilginç anları” seçer, otomatik cut önerir, altyazı üretir ve dikey crop ile kısa formatı hızlandırır. Otel için doğru yaklaşım, “hangi araç”tan önce hangi iş akışıdır: highlight çıkarmak mı, dikey Reels üretmek mi, çok dilli altyazı/çeviri mi?"
+            "text": "AI video editing araçlarının ortak vaadi şudur: sahne analizi yapar, “ilginç anları” seçer, otomatik cut önerir, altyazı üretir ve dikey crop ile kısa formatı hızlandırır. Otel için doğru yaklaşım, “hangi araç”tan önce hangi iş akışıdır: highlight çıkarmak mı, dikey Reels üretmek mi, çok dilli altyazı/çeviri mi? Bu yüzden AI’ı [AI destekli creative üretim sistemi](https://dgtlface.com/tr/creative-ve-tasarim) içinde konumlandırmak gerekir."
           },
           {
             "type": "h3",
@@ -54198,7 +54442,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Otel videolarında highlight mantığı, “güzel sahne” değil “satış kanıtı” üretmektir. AI otomatik sahne seçerken çoğu zaman enerjik sahnelere kayar; ama otel için oda kanıtı (ferahlık, manzara, banyo), F&B, spa, etkinlik gibi bloklar dengeli olmalıdır. Bu nedenle AI’a “etiket” ve “blok” mantığıyla yardımcı olmak gerekir."
+            "text": "Otel videolarında [otomatik highlight üretimi](https://dgtlface.com/tr/creative/video-produksiyon), “güzel sahne” değil “satış kanıtı” üretmeyi hedeflemelidir. AI otomatik sahne seçerken çoğu zaman enerjik sahnelere kayar; ama otel için oda kanıtı (ferahlık, manzara, banyo), F&B, spa, etkinlik gibi bloklar dengeli olmalıdır. Bu nedenle AI’a “etiket” ve “blok” mantığıyla yardımcı olmak gerekir."
           },
           {
             "type": "h3",
@@ -54266,7 +54510,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Uzun tanıtım videosunu otomatik Reels’e çevirmek iki aşamalıdır: (1) en iyi anları seçmek, (2) Reels diline göre yeniden kurgulamak (recut). AI çoğu zaman 1. aşamada güçlü, 2. aşamada “insan dokunuşu” ister."
+            "text": "Uzun tanıtım videosunu otomatik Reels’e çevirmek iki aşamalıdır: (1) en iyi anları seçmek, (2) Reels diline göre yeniden kurgulamak (recut). Bu aşamada AI ile Reels çıkarma yaklaşımı hız kazandırır; ancak AI çoğu zaman 1. aşamada güçlü, 2. aşamada “insan dokunuşu” ister."
           },
           {
             "type": "h3",
@@ -54319,7 +54563,7 @@
             "items": [
               "AI’ın çıkardığı kısa versiyonu “ham taslak” kabul et, final değil.",
               "Reels için 3 preset kur: 6 sn bumper, 15 sn kısa, 20 sn kanıt.",
-              "İçerikleri arşivle: sezon boyunca tekrar kullanacaksın (Content Library)."
+              "İçerikleri [AI destekli video asset üretimi](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) mantığıyla arşivle; sezon boyunca tekrar kullanacaksın."
             ]
           }
         ]
@@ -54330,7 +54574,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "AI altyazı ve tempo önerileri, otel için iki büyük avantaj sağlar: (1) sessiz izlemeyi kapsar, (2) çok dilli pazarda taslak üretir. Ancak “AI çeviri güvenilir mi?” sorusunun cevabı: taslak olarak evet, final olarak insan kontrolü şart."
+            "text": "AI altyazı ve tempo önerileri, otel için iki büyük avantaj sağlar: (1) sessiz izlemeyi kapsar, (2) çok dilli pazarda taslak üretir. Ancak “AI çeviri güvenilir mi?” sorusunun cevabı: taslak olarak evet, final olarak [insan kontrollü hibrit kurgu süreci](https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme) şart."
           },
           {
             "type": "h3",
@@ -54429,7 +54673,7 @@
             "items": [
               "“Önce AI ile, sonra sizle” kuralını ekipte standartlaştır.",
               "Her çıktıyı 4 kapıdan geçir: marka, mahremiyet, telif, teknik kalite.",
-              "İç linklerle üretim–dağıtımı bağla: `/tr/smm/reels-video` ve `/tr/otel-dijital-pazarlama`."
+              "İç linklerle üretim–dağıtımı [AI ile kısa video ve Reels üretimi](https://dgtlface.com/tr/smm/reels-video) ve [AI ile üretilen kısa videoların otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) üzerinden bağla."
             ]
           }
         ]
@@ -54440,7 +54684,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Bu bölüm, otel özelinde fark yaratır; çünkü AI araçlarının çoğu bulut tabanlıdır ve video yüklemek “veri paylaşımı” anlamına gelebilir."
+            "text": "Bu bölüm, otel özelinde fark yaratır; çünkü AI araçlarının çoğu bulut tabanlıdır ve video yüklemek “veri paylaşımı” anlamına gelebilir. Bu nedenle [AI video edit’te izinli kullanım kontrolü](https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti) üretim hattının başında tanımlanmalıdır."
           },
           {
             "type": "h3",
@@ -54473,7 +54717,7 @@
           },
           {
             "type": "p",
-            "text": "AI, “en enerjik an”ı seçer; ama otel promosunda her zaman en iyi an “en enerjik” olan değildir. Luxury spa için sakinlik; family resort için canlılık; MICE için kurumsal kanıt… Bu yüzden final kurguyu marka hedefi belirler."
+            "text": "AI, “en enerjik an”ı seçer; ama otel promosunda her zaman en iyi an “en enerjik” olan değildir. Luxury spa için sakinlik; family resort için canlılık; MICE için kurumsal kanıt… Bu yüzden final kurguyu marka hedefi belirler. Süreç, revizyon ve teslim beklentileri için de [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası iyi bir referanstır."
           },
           {
             "type": "media",
@@ -54690,7 +54934,7 @@
     },
     "h1": {
       "title": "Shoppable Video ve QR Kodlu “Book Now”: Otel Videolarında Tıklanabilir Deneyimler",
-      "intro": "“Videodan direkt rezervasyon almak istiyorum, mümkün mü?” sorusu oteller için giderek daha anlamlı hale geliyor; çünkü video artık sadece tanıtım değil, aksiyon başlatan bir kanala dönüşüyor. Shoppable video; videonun içine yerleştirilen tıklanabilir hotspot’lar ve “Book Now / Teklifi Gör” overlay butonlarıyla izleyiciyi doğrudan oda/paket/etkinlik sayfasına taşır. Offline tarafında ise TV ve lobby ekranlarında QR kod, izleyiciyi mobil web/booking engine’e yönlendirerek “izlenme → rezervasyon” yolunu kısaltır. Antalya, Belek, Side ve Bodrum gibi resort’larda lobby ekranı, TV içi kanallar ve etkinlik alanları QR ile satışa bağlanabilecek güçlü temas noktalarıdır. Bu rehberde; shoppable mantığını, hotspot yerleşimini, QR kullanımını, ölçümleme (UTM + GA4 event tracking) ve performans/CWV risklerini otel özelinde adım adım kuruyoruz.",
+      "intro": "“Videodan direkt rezervasyon almak istiyorum, mümkün mü?” sorusu oteller için giderek daha anlamlı hale geliyor; çünkü video artık sadece tanıtım değil, aksiyon başlatan bir kanala dönüşüyor. [Shoppable video prodüksiyonu](https://dgtlface.com/tr/creative/video-produksiyon); videonun içine yerleştirilen tıklanabilir hotspot’lar ve “Book Now / Teklifi Gör” overlay butonlarıyla izleyiciyi doğrudan oda/paket/etkinlik sayfasına taşır. Offline tarafında ise TV ve lobby ekranlarında QR kod, izleyiciyi mobil web/booking engine’e yönlendirerek “izlenme → rezervasyon” yolunu kısaltır. Antalya, Belek, Side ve Bodrum gibi resort’larda lobby ekranı, TV içi kanallar ve etkinlik alanları QR ile satışa bağlanabilecek güçlü temas noktalarıdır. Bu rehberde; shoppable mantığını, hotspot yerleşimini, QR kullanımını, ölçümleme (UTM + GA4 event tracking) ve performans/CWV risklerini otel özelinde adım adım kuruyoruz.",
       "quickSummary": [
         "1) Video hedefini seç: oda mı paket mi etkinlik mi?",
         "2) Hotspot noktalarını belirle (kanıt anı)",
@@ -54722,6 +54966,22 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Web Video Entegrasyonu",
+        "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+      },
+      {
+        "label": "Otel Video Performans Analizi",
+        "href": "/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum"
+      },
+      {
+        "label": "Otel Kampanya ve Lansman Video Stratejisi",
+        "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+      },
+      {
         "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
       },
@@ -54734,7 +54994,20 @@
         "href": "/tr/raporlama/satis-donusum"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Web Sitesine Video Entegrasyonu: UX, SEO ve Teknik Kurulum",
+        "href": "/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+      },
+      {
+        "title": "Otel Videolarında Performans Analizi: İzlenme, Tamamlama ve Rezervasyon Etkisi",
+        "href": "/creative/blog/otel-video-performans-analizi-izlenme-donusum"
+      },
+      {
+        "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+        "href": "/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+      }
+    ],
     "sections": [
       {
         "id": "shoppable-video-nedir-oteller-icin-nasil-calisir",
@@ -54742,7 +55015,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Shoppable video, videoyu “seyir”den “aksiyon”a geçirir: izleyen kişi videonun içinde tıklar veya QR okutur ve booking engine’e doğru ilerler. E-ticarette ürün kartları nasıl çalışıyorsa, otelde de “oda/paket/etkinlik” kartları benzer mantıkla çalışır."
+            "text": "Shoppable video, videoyu “seyir”den “aksiyon”a geçirir: izleyen kişi videonun içinde tıklar veya QR okutur ve booking engine’e doğru ilerler. E-ticarette ürün kartları nasıl çalışıyorsa, otelde de “oda/paket/etkinlik” kartları benzer mantıkla çalışır. Bu yapıyı [creative deneyimde tıklanabilir video tasarımı](https://dgtlface.com/tr/creative-ve-tasarim) olarak düşünmek, CTA kararlarını rastgele değil dönüşüm odaklı kurmanıza yardım eder."
           },
           {
             "type": "h3",
@@ -54789,7 +55062,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tıklanabilir deneyimin başarısı, butonların “görünür ama rahatsız etmeyen” bir şekilde yerleştirilmesine bağlıdır. Otel videolarında yanlış buton yerleşimi, premium algıyı bozabilir."
+            "text": "Tıklanabilir deneyimin başarısı, butonların “görünür ama rahatsız etmeyen” bir şekilde yerleştirilmesine bağlıdır. Otel videolarında yanlış buton yerleşimi, premium algıyı bozabilir. Bu yüzden [web sitesinde tıklanabilir video entegrasyonu](https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo) planı, CTA’yı sadece tasarım değil kullanıcı akışı kararı olarak ele almalıdır."
           },
           {
             "type": "h3",
@@ -54849,7 +55122,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "QR kod, offline ekranlardan mobil rezervasyon akışına köprü kurar. Otellerde QR için en iyi yüzeyler: lobby ekranları, asansör içi ekranlar, oda içi TV kanalı ve etkinlik alanlarıdır."
+            "text": "QR kod, offline ekranlardan mobil rezervasyon akışına köprü kurar. Otellerde QR için en iyi yüzeyler: lobby ekranları, asansör içi ekranlar, oda içi TV kanalı ve etkinlik alanlarıdır. Doğru kurgulanan bir [QR kodlu rezervasyon CTA prodüksiyonu](https://dgtlface.com/tr/creative/video-produksiyon), izleyiciyi ek arama yaptırmadan teklif veya rezervasyon sayfasına taşır."
           },
           {
             "type": "h3",
@@ -54955,7 +55228,7 @@
             "items": [
               "İlk pilotta 1 oda + 1 paket hotspot ile başla.",
               "Tıklama yüksek, rezervasyon düşükse landing’i sadeleştir.",
-              "Etkinlik hotspot’larını sezonsal kampanyaya bağla (bayram/erken rezervasyon)."
+              "Etkinlik hotspot’larını kampanya videolarındaki Book Now akışıyla eşleştir (bayram/erken rezervasyon)."
             ]
           }
         ]
@@ -54966,7 +55239,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kısa cevap: videoda hotspot/Book Now alanlarını kanıt sahnelerine yerleştir, QR ile offline’dan web’e taşı, UTM + event tracking ile ölç ve CWV’yi bozmayacak şekilde uygula."
+            "text": "Kısa cevap: videoda hotspot/Book Now alanlarını kanıt sahnelerine yerleştir, QR ile offline’dan web’e taşı, UTM + event tracking ile ölç ve CWV’yi bozmayacak şekilde uygula. Bu akış, videodan landing’e değil doğrudan [videodan rezervasyona geçiş](https://dgtlface.com/tr/otel-dijital-pazarlama) mantığına hizmet etmelidir."
           },
           {
             "type": "list",
@@ -55006,7 +55279,7 @@
             "items": [
               "Önce küçük pilot: 1 oda videosu + 1 Book Now hotspot + 1 QR.",
               "Başarılıysa paket ve etkinlik hotspot’larını ekle.",
-              "Ölçüm için `/tr/raporlama/satis-donusum` yaklaşımını takip et."
+              "Ölçüm için [video CTA dönüşüm takibi](https://dgtlface.com/tr/raporlama/satis-donusum) yaklaşımını takip et."
             ]
           }
         ]
@@ -55017,7 +55290,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Shoppable video dönüşüm aracıdır; ölçüm zorunludur. Burada temel üçlü: UTM + GA4 event + booking funnel."
+            "text": "Shoppable video dönüşüm aracıdır; ölçüm zorunludur. Burada temel üçlü: UTM + GA4 event + booking funnel. Özellikle [shoppable video performans analizi](https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum) ile tıklama, completion ve rezervasyon etkisini birlikte okumak; [performans reklamcılığında shoppable video kullanımı](https://dgtlface.com/tr/sem) için doğru medya optimizasyonunu sağlar."
           },
           {
             "type": "h3",
@@ -55070,6 +55343,10 @@
               "Landing: tarih seç → booking engine",
               "Ölçüm: UTM + hotspot_click + booking_start + booking_complete"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Teslim formatı, CTA yerleşimi ve revizyon süreci gibi operasyonel başlıkları [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasında toplu görebilirsiniz."
           },
           {
             "type": "cta",
@@ -55269,7 +55546,7 @@
     },
     "h1": {
       "title": "Sürdürülebilirlik ve “Yeşil Otel” Video Hikâyeleri: Yeni Nesil Misafir için Anlatım Dili",
-      "intro": "“Yeşil oteliz ama misafire doğru anlatamıyoruz, ne göstermeliyiz?” sorusunun cevabı: slogan değil kanıt. Yeni nesil misafir, sürdürülebilirlik iddialarını hızlıca “gerçek mi?” filtresinden geçiriyor. Bu yüzden videoda abartılı vaatler yerine; enerji, su ve atık gibi somut uygulamaları; yerel üretici ilişkilerini; çalışanların katıldığı projeleri ve sertifikaları şeffaf bir dille göstermek gerekiyor. Antalya, Belek, Side ve Bodrum gibi hem doğa hem turizm baskısı yüksek destinasyonlarda, “doğayla uyum” anlatısı daha da hassas: greenwashing algısı hızlı oluşur. Bu rehber, yeşil hikâyenizi video serisine dönüştürerek sosyal medyada sürdürülebilir bir güven dili kurmanızı sağlar.",
+      "intro": "“Yeşil oteliz ama misafire doğru anlatamıyoruz, ne göstermeliyiz?” sorusunun cevabı: slogan değil kanıt. Yeni nesil misafir, sürdürülebilirlik iddialarını hızlıca “gerçek mi?” filtresinden geçiriyor. Bu yüzden [yeşil otel video hikâyesi](https://dgtlface.com/tr/creative/video-produksiyon) kurgusunda abartılı vaatler yerine; enerji, su ve atık gibi somut uygulamaları; yerel üretici ilişkilerini; çalışanların katıldığı projeleri ve sertifikaları şeffaf bir dille göstermek gerekiyor. Antalya, Belek, Side ve Bodrum gibi hem doğa hem turizm baskısı yüksek destinasyonlarda, “doğayla uyum” anlatısı daha da hassas: greenwashing algısı hızlı oluşur. Bu rehber, yeşil hikâyenizi video serisine dönüştürerek sosyal medyada sürdürülebilir bir güven dili kurmanızı sağlar.",
       "quickSummary": [
         "1) 1 uygulama seç (enerji/su/atık) ve sahneyle kanıtla",
         "2) “Ne değişiyor?”u anlat (misafir deneyimi + etki)",
@@ -55297,23 +55574,48 @@
     },
     "internalLinks": [
       {
-        "label": "/tr/creative/video-produksiyon",
+        "label": "Video & Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "/tr/otel-dijital-pazarlama",
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel 4 Mevsim Video İçerik Planı",
+        "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
+      },
+      {
+        "label": "Otel UGC ve Misafir Video Stratejisi",
+        "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+      },
+      {
+        "label": "Otel Kampanya ve Lansman Video Stratejisi",
+        "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
         "href": "/tr/otel-dijital-pazarlama"
       },
       {
-        "label": "/tr/smm",
+        "label": "SMM",
         "href": "/tr/smm"
-      },
-      {
-        "label": "/tr/creative-ve-tasarim",
-        "href": "/tr/creative-ve-tasarim"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "4 Mevsim Otel Video İçerik Planı: Yaz, Kış ve Özel Dönemler",
+        "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
+      },
+      {
+        "title": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+        "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+      },
+      {
+        "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+        "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+      }
+    ],
     "sections": [
       {
         "id": "neden-surdurulebilirlik-videolari-one-cikiyor",
@@ -55321,7 +55623,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sürdürülebilirlik videoları, “değer anlatısı” ile “kanıt anlatısı”nı birleştirdiği için öne çıkıyor. Metinle anlatılan bir çevre iddiası, videoda sahneyle desteklenmezse inandırıcılığı zayıflar. Video, hem uygulamayı gösterir hem de duyguyu taşır: yerel üreticinin yüzü, ayrıştırılan atık kutuları, su tasarrufu ekipmanı, çalışanların katıldığı bir proje… Bunlar misafir için “gerçek” sinyalleridir."
+            "text": "Sürdürülebilirlik videoları, “değer anlatısı” ile “kanıt anlatısı”nı birleştirdiği için öne çıkıyor. Metinle anlatılan bir çevre iddiası, videoda sahneyle desteklenmezse inandırıcılığı zayıflar. Video, hem uygulamayı gösterir hem de duyguyu taşır: yerel üreticinin yüzü, ayrıştırılan atık kutuları, su tasarrufu ekipmanı, çalışanların katıldığı bir proje… Bunlar misafir için “gerçek” sinyalleridir. Bu yüzden [sürdürülebilirlik anlatısını creative marka dili içinde kurmak](https://dgtlface.com/tr/creative-ve-tasarim), yalnız estetik değil güven inşası açısından da kritiktir."
           },
           {"type":"media","slot":"h1-context-02"},
           {
@@ -55348,7 +55650,7 @@
             "items": [
               "Sürdürülebilirliği “tek film” değil “seri” olarak düşün.",
               "Her videoda 1 uygulama + 1 ölçülebilir adım + 1 next step ver.",
-              "Yeşil hikâyeyi marka anlatısına bağla: `/tr/otel-dijital-pazarlama` ve `/tr/smm`."
+              "Yeşil hikâyeyi marka anlatısına bağla; bunun [sürdürülebilirlik videosunun otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ve [sosyal medyada sürdürülebilirlik anlatısı](https://dgtlface.com/tr/smm) tarafını birlikte planla."
             ]
           }
         ]
@@ -55359,7 +55661,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Yeşil hikâyenin omurgası üçlüdür: enerji, su, atık. Bu üç başlık, otellerde en kolay “görüntülenebilir kanıt” üretir. Önemli olan: sahneyi “gizli teknik” gibi değil, anlaşılır bir hikâye gibi göstermek."
+            "text": "Yeşil hikâyenin omurgası üçlüdür: enerji, su, atık. Bu üç başlık, otellerde en kolay “görüntülenebilir kanıt” üretir. Önemli olan: sahneyi “gizli teknik” gibi değil, anlaşılır bir hikâye gibi göstermek. Burada profesyonel [sürdürülebilirlik storytelling](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımı, teknik uygulamayı misafirin anlayacağı güvenli bir anlatıya dönüştürür."
           },
           {
             "type": "h3",
@@ -55488,7 +55790,7 @@
             "items": [
               "Yerel üreticiyi 30–45 sn’lik mini hikâyeye çevir; Reels için ideal.",
               "Topluluk hikâyesinde “küçük ama gerçek” adımı göster.",
-              "Bu seri içerikleri `/tr/smm` planınıza aylık ritimle bağlayın."
+              "Bu seri içerikleri aylık sosyal medya ritmine bağlayın."
             ]
           }
         ]
@@ -55499,7 +55801,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Sertifikalar (yeşil yıldız vb.) tek başına ikna değildir; ne anlama geldiğini açıklamak gerekir. Burada risk, sertifikayı “abartılı başarı” gibi sunmaktır. Doğru yaklaşım: “bu sertifika şunları doğruluyor” şeklinde kısa ve net microcopy."
+            "text": "Sertifikalar (yeşil yıldız vb.) tek başına ikna değildir; ne anlama geldiğini açıklamak gerekir. Burada risk, sertifikayı “abartılı başarı” gibi sunmaktır. Doğru yaklaşım: “bu sertifika şunları doğruluyor” şeklinde kısa ve net microcopy. Yeni belge, uygulama ya da iş birliği duyurularında yeşil otel kampanya videosu yaklaşımı bu anlatıyı daha kontrollü sunar."
           },
           {
             "type": "h3",
@@ -55549,7 +55851,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kısa cevap: gerçek uygulamayı gösterin, ölçülebilir/ doğrulanabilir iddia kullanın, sertifikayı sade anlatın, insan hikâyesi ekleyin ve “greenwashing” riskini azaltacak şeffaf tonu koruyun."
+            "text": "Kısa cevap: gerçek uygulamayı gösterin, ölçülebilir/ doğrulanabilir iddia kullanın, sertifikayı sade anlatın, insan hikâyesi ekleyin ve “greenwashing” riskini azaltacak şeffaf tonu koruyun. Samimi güven katmanı kurmak için [çevre duyarlı misafir deneyimini UGC ile görünür kılmak](https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi) da güçlü bir destek sağlar."
           },
           {
             "type": "list",
@@ -55589,7 +55891,7 @@
             "items": [
               "“3 videoda yeşil hikâye serisi”ni pilot olarak başlat (aşağıdaki kutu).",
               "Ölçülebilir veri yoksa “hedef/niyet” değil “uygulama” anlat.",
-              "Yeşil anlatıyı marka stratejisine bağla: `/tr/otel-dijital-pazarlama` ve kreatif dil için `/tr/creative-ve-tasarim`."
+              "Yeşil anlatıyı marka stratejisine bağla; fakat bunu kanıtsız iddialarla değil uygulama ve sahne diliyle yap."
             ]
           }
         ]
@@ -55600,7 +55902,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Yeşil hikâye tek video değil, seri olunca güven üretir. Çünkü sürdürülebilirlik “bir kampanya” değil “süreklilik” sinyalidir."
+            "text": "Yeşil hikâye tek video değil, seri olunca güven üretir. Çünkü sürdürülebilirlik “bir kampanya” değil “süreklilik” sinyalidir. Bu nedenle [yıl boyu sürdürülebilirlik video planı](https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani) yaklaşımı, sürdürülebilirlik temasını yalnız bir duyuruya değil devam eden içerik ritmine dönüştürür."
           },
           {
             "type": "h3",
@@ -55625,7 +55927,7 @@
           },
           {
             "type": "p",
-            "text": "Key Statistics / Data Point (sheet boş, yumuşak ifade): Varsayım: Çoğu tesiste sürdürülebilirlik içerikleri “şeffaf ve somut” olduğunda etkileşim artar; “genel ve iddialı” olduğunda ters tepebilir. Bu nedenle “somut sahne + kısa açıklama” yaklaşımı önerilir."
+            "text": "Key Statistics / Data Point (sheet boş, yumuşak ifade): Varsayım: Çoğu tesiste sürdürülebilirlik içerikleri “şeffaf ve somut” olduğunda etkileşim artar; “genel ve iddialı” olduğunda ters tepebilir. Bu nedenle “somut sahne + kısa açıklama” yaklaşımı önerilir. Süreç, teslim formatları ve revizyon akışı için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası iyi bir referans noktasıdır."
           },
           {
             "type": "cta",
