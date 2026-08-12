@@ -51777,6 +51777,56 @@ export const BLOG_MEDIA_MAP = {
       alt: "Tedarikçi brief şablonu ve kurulum planı deliverables proof kartı",
       caption: "Tedarikçi brief şablonu ve kurulum planı deliverables proof kartı"
     }
+  },
+
+  "otel-acik-alan-etkinlik-hava-plani-b-plani":{
+    banner: {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-1.webp",
+      alt: "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+      caption: "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-2.webp",
+      alt: "Açık alan etkinliğinde karar eşiği ve kapalı alana geçiş akışı otel bağlamı",
+      caption: "Açık alan etkinliğinde karar eşiği ve kapalı alana geçiş akışı otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-12/Creative4-13-3.webp",
+      alt: "Meteoroloji takibi ve karar eşiği bölümünü ayıran görsel otel etkinliği",
+      caption: "Meteoroloji takibi ve karar eşiği bölümünü ayıran görsel otel etkinliği"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-4.webp",
+      alt: "B planı mekân ve kurulum senaryolarına geçiş bölümü görseli otel",
+      caption: "B planı mekân ve kurulum senaryolarına geçiş bölümü görseli otel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-5.webp",
+      alt: "Hava takibinden karar eşiklerine ve B planına geçiş akış diyagramı otel",
+      caption: "Hava takibinden karar eşiklerine ve B planına geçiş akış diyagramı otel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-6.webp",
+      alt: "Açık alan etkinlik hava planı için yapılacaklar ve kaçınılacaklar checklist kartı",
+      caption: "Açık alan etkinlik hava planı için yapılacaklar ve kaçınılacaklar checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-7.webp",
+      alt: "İptal riski, memnuniyet ve bütçe sapmasını izleyen KPI skor kartı otel etkinliği",
+      caption: "İptal riski, memnuniyet ve bütçe sapmasını izleyen KPI skor kartı otel etkinliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-13/Creative4-13-8.webp",
+      alt: "Hava senaryosu matrisi, B planı yerleşimi ve iletişim şablonları deliverables kartı",
+      caption: "Hava senaryosu matrisi, B planı yerleşimi ve iletişim şablonları deliverables kartı"
+    }
   }
   
 };

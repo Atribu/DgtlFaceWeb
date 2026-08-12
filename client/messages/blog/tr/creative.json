@@ -6205,7 +6205,7 @@
     },
     "h1": {
       "title": "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
-      "intro": "“Otel tanıtım videosu için nereden başlamalıyım?” sorusu çok normal; çünkü en büyük hata çoğu zaman kamerayı önce açıp planı sonra yapmaktır. Doğru sıralama ise nettir: önce Brief, sonra Storyboard, ardından Shot List, çekim günü için Call Sheet ve en sonda Post Production teslim standardı. Bu rehberde, resort video shoot preparation mantığıyla (sahil gün doğumu, akşam restoran, havuz aktiviteleri gibi gerçek akışlar üzerinden) adımları tek tek kuracağız.",
+      "intro": "“Otel tanıtım videosu için nereden başlamalıyım?” sorusu çok normal; çünkü [otel tanıtım videosu planlama](https://dgtlface.com/tr/creative/video-produksiyon) sürecinde en büyük hata çoğu zaman kamerayı önce açıp planı sonra yapmaktır. Doğru sıralama ise nettir: önce Brief, sonra Storyboard, ardından Shot List, çekim günü için Call Sheet ve en sonda Post Production teslim standardı. Bu rehberde, resort video shoot preparation mantığıyla (sahil gün doğumu, akşam restoran, havuz aktiviteleri gibi gerçek akışlar üzerinden) adımları tek tek kuracağız.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Otel Tanıtım Videosu Prodüksiyon Brief’i Talep Et",
@@ -6231,19 +6231,48 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Creative ve tasarım",
-        "href": "/tr/creative"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Tanıtım Videosu Senaryo & Storyboard",
+        "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
       },
       {
-        "label": "Reels video",
+        "label": "Otel Video Çekim Günü: Set ve Ekip Yönetimi",
+        "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+      },
+      {
+        "label": "Otel Video Asset Stratejisi",
+        "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+      },
+      {
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
+      },
+      {
+        "label": "Reels Video",
         "href": "/tr/smm/reels-video"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "Otel Tanıtım Videosu Senaryo & Storyboard Rehberi",
+        "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
+      },
+      {
+        "title": "Otel Video Çekim Günü Rehberi: Set ve Ekip Yönetimi",
+        "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+      },
+      {
+        "title": "Otel Video Asset Stratejisi: 1 Günde 30+ İçerik",
+        "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+      }
+    ],
     "sections": [
       {
         "id": "amac-ve-hedefler",
@@ -6257,7 +6286,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tanıtım videosu “güzel görüntü” üretmekten ibaret değildir; hedefi satış, marka algısı ve dağıtım kanallarında dönüşüm yaratmaktır. Bu yüzden Hotel Promo Video projesine başlarken ilk iş, videonun hangi “iş sonucuna” hizmet edeceğini tanımlamaktır: web sitesinde rezervasyon funnel’ını desteklemek mi, sosyal medya erişimi mi, satış ekibine sunum materyali mi, yoksa OTA’lardan bağımsız bir marka hikâyesi mi?"
+            "text": "Tanıtım videosu “güzel görüntü” üretmekten ibaret değildir; hedefi satış, marka algısı ve dağıtım kanallarında dönüşüm yaratmaktır. Bu yüzden Hotel Promo Video projesine başlarken ilk iş, videonun hangi “iş sonucuna” hizmet edeceğini tanımlamaktır: web sitesinde rezervasyon funnel’ını desteklemek mi, sosyal medya erişimi mi, satış ekibine sunum materyali mi, yoksa OTA’lardan bağımsız bir marka hikâyesi mi? Bu çerçeve, [otel dijital pazarlama sürecinde tanıtım videosu](https://dgtlface.com/tr/otel-dijital-pazarlama) kullanımını baştan netleştirmeyi gerektirir."
           },
           {
             "type": "p",
@@ -6284,6 +6313,10 @@
           {
             "type": "p",
             "text": "Aynı otel için farklı pazarlar farklı “kanıt” ister. TR pazarında konsept ve fiyat/teklif vurgusu öne çıkarken; DE/RU pazarlarında oda standardı, beach alanı, F&B çeşitliliği, çocuk aktiviteleri gibi detaylar daha belirleyici olabilir. Bu yüzden brief’te “tek video” değil, tek çekim gününden çoklu versiyon hedefi koymak çoğu zaman daha kârlıdır."
+          },
+          {
+            "type": "p",
+            "text": "Bu yaklaşımı [creative ve tasarım sürecinin parçası olarak video prodüksiyon](https://dgtlface.com/tr/creative-ve-tasarim) çerçevesinde düşünmek ve tek planı [çekim gününden çoklu içerik üretimi](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) mantığıyla kurmak, çekim yatırımının web, reklam ve sosyal kullanımda daha uzun ömürlü olmasını sağlar."
           },
           {
             "type": "h3",
@@ -6376,7 +6409,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Brief, prodüksiyonun “tek kaynak gerçeği”dir. İyi bir brief; yönetimin beklentisini, pazarlama ekibinin mesajını, prodüksiyon ekibinin kısıtlarını tek dokümanda birleştirir. En büyük risk, brief’in “genel” kalmasıdır: “oteli güzel gösterelim” cümlesi brief değildir; hedef ve ölçü yoktur."
+            "text": "[video prodüksiyon brief’i](https://dgtlface.com/tr/creative/video-produksiyon), prodüksiyonun “tek kaynak gerçeği”dir. İyi bir brief; yönetimin beklentisini, pazarlama ekibinin mesajını, prodüksiyon ekibinin kısıtlarını tek dokümanda birleştirir. En büyük risk, brief’in “genel” kalmasıdır: “oteli güzel gösterelim” cümlesi brief değildir; hedef ve ölçü yoktur."
           },
           {
             "type": "h3",
@@ -6438,7 +6471,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Storyboard, “ne çekeceğiz”den önce “ne anlatacağız”ı netleştirir. Otel tanıtım videosunda storyboard’un gücü şuradadır: izleyiciye sunacağınız kanıtları (oda, beach, restoran, spa, aktiviteler) bir hikâye çizgisine oturtur. Aksi halde video, güzel görüntülerin arka arkaya dizildiği bir “montaj” gibi kalır."
+            "text": "Storyboard, “ne çekeceğiz”den önce “ne anlatacağız”ı netleştirir. Otel tanıtım videosunda [storyboard ön hazırlığı](https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard) aşamasının gücü şuradadır: izleyiciye sunacağınız kanıtları (oda, beach, restoran, spa, aktiviteler) bir hikâye çizgisine oturtur. Aksi halde video, güzel görüntülerin arka arkaya dizildiği bir “montaj” gibi kalır."
           },
           {
             "type": "h3",
@@ -6563,7 +6596,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Çekim günü, Production Day yönetimidir: doğru call sheet yoksa en iyi ekip bile zaman kaybeder. Otelde prodüksiyonun ekstra zorluğu şudur: siz çekim yaparken otel operasyon yürütür. Bu yüzden koordinasyon “ekstra” değil, planın merkezidir."
+            "text": "Çekim günü, Production Day yönetimidir: doğru call sheet yoksa en iyi ekip bile zaman kaybeder. Otelde [çekim listesi ve çekim günü akışı](https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi) planı net değilse, siz çekim yaparken otel operasyon yürür ve sürtünme büyür. Bu yüzden koordinasyon “ekstra” değil, planın merkezidir."
           },
           {
             "type": "h3",
@@ -6646,6 +6679,10 @@
             "text": "Tipik bir teslim paketi:\n\t•\t1× Master film (16:9) – 60–120 sn\n\t•\t3–6× Reels/Shorts (9:16) – 10–20 sn\n\t•\t3–6× Kırpım (1:1 / 4:5) – sosyal kullanım\n\t•\t1× Thumbnail/cover seti\n\t•\t1× Altyazı dosyaları (SRT) TR–EN–DE–RU\n\t•\tMarka/otel için “kullanım rehberi” (hangi kanal, hangi uzunluk)"
           },
           {
+            "type": "p",
+            "text": "Bu teslim paketindeki 9:16 kısa cut’ların [Reels video içerikleri](https://dgtlface.com/tr/smm/reels-video) standardına göre etiketlenmesi ve modüler versiyonların [otel sosyal medya içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) için baştan ayrılması, çekim sonrası kullanım hızını ciddi biçimde artırır."
+          },
+          {
             "type": "media",
             "slot": "proof-08"
           },
@@ -6696,7 +6733,7 @@
           },
           {
             "type": "p",
-            "text": "(Varsayım: CTA yönlendirmesi öncelikle /tr/creative/video-produksiyon sayfasına, ikincil olarak /tr/creative-ve-tasarim sayfasına bağlanır.)"
+            "text": "Süreç, ekip ve teslim paketleriyle ilgili detayları görmek isterseniz [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -6784,7 +6821,13 @@
           "4.5.2 Secondary CTA Türü: Download Asset (şablon)",
           "4.5.3 CTA Yoğunluğu: Intent Informational + Transactional → Primary CTA 2 kez, Secondary CTA 1 kez",
           "4.5.4 CTA Yazım Şablonu (çıktıda aynen): CTA (Primary): Otel Tanıtım Videosu Prodüksiyon Brief’i Talep Et — (Çekime çıkmadan önce planı netleştirmek isteyen oteller ve pazarlama ekipleri için) / CTA (Secondary): Otel Tanıtım Videosu Shot List & Storyboard Şablonunu İndir — “Şablonu doldurarak çekim gününde herkesin aynı planla çalışmasını sağlarsınız.”",
-          "4.5.5 Link Yerleşimi (Internal Link Targets): Primary CTA → /tr/creative/video-produksiyon / Secondary CTA → /tr/creative/video-produksiyon / İç link destekleri: /tr/creative-ve-tasarim, /tr/otel-dijital-pazarlama, /tr/smm/reels-video"
+          "4.5.5 Link Yerleşimi (Internal Link Targets): Primary CTA → /tr/creative/video-produksiyon / Secondary CTA → /tr/creative/video-produksiyon / İç link destekleri: /tr/creative-ve-tasarim, /tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard, /tr/creative/blog/otel-video-set-ekip-yonetimi, /tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik, /tr/otel-dijital-pazarlama, /tr/otel/sosyal-medya, /tr/smm/reels-video",
+          "Parent_URL intro paragrafında /tr/creative/video-produksiyon adresine doğal anchor ile bağlandı",
+          "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+          "Sibling linkler: storyboard, set ve ekip yönetimi, asset stratejisi doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: Otel Dijital Pazarlama, Otel Sosyal Medya ve Reels Video doğal geçişlerle eklendi",
+          "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı"
         ]
       }
     }
@@ -6837,7 +6880,7 @@
     },
     "h1": {
       "title": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
-      "intro": "“Drone ile otelimi nasıl en iyi gösteririm?” sorusunun cevabı, uçuşu çekim günü spontane yapmak değil, planı önceden kilitlemektir. Drone; sahil hattını, havuz alanını, mimari ölçeği ve çevre avantajını birkaç saniyede anlatır—özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi resort destinasyonlarında. Ama aynı güç, yanlış planlandığında ters teper: rüzgâr, ışık, kalabalık saatleri ve mahremiyet ihlali, hem görüntüyü hem deneyimi bozar. Bu rehberde, otel drone çekimini “rota + kadraj + kullanım” üçlüsüyle adım adım kuracağız.",
+      "intro": "“Drone ile otelimi nasıl en iyi gösteririm?” sorusunun cevabı, [otel drone çekimi](https://dgtlface.com/tr/creative/video-produksiyon) sürecini çekim günü spontane yapmak değil, planı önceden kilitlemektir. Drone; sahil hattını, havuz alanını, mimari ölçeği ve çevre avantajını birkaç saniyede anlatır—özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi resort destinasyonlarında. Ama aynı güç, yanlış planlandığında ters teper: rüzgâr, ışık, kalabalık saatleri ve mahremiyet ihlali, hem görüntüyü hem deneyimi bozar. Bu rehberde, otel drone çekimini “rota + kadraj + kullanım” üçlüsüyle adım adım kuracağız.",
       "quickSummary": [],
       "ctaPrimary": {
         "label": "Drone Çekimi & Aerial Video Planlama Danışmanlığı Al",
@@ -6863,19 +6906,48 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "360° Otel Sanal Tur Rehberi",
+        "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
+      },
+      {
+        "label": "Otel Oda Video Çekimi",
+        "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+      },
+      {
+        "label": "Otel Reels & TikTok Çekimi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
         "label": "Reels Video",
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "label": "Otel Sosyal Medya",
+        "href": "/tr/otel/sosyal-medya"
       },
       {
-        "label": "Creative ve Tasarım",
-        "href": "/tr/creative"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
-    "relatedPosts": [],
+    "relatedPosts": [
+      {
+        "title": "360° Otel Sanal Tur Rehberi: Çekim ve UX Entegrasyonu",
+        "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
+      },
+      {
+        "title": "Otel Oda Video Çekimi: Işık, Kadraj ve Hareket Rehberi",
+        "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+      },
+      {
+        "title": "Otel Reels & TikTok Çekimi: Dikey Video Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      }
+    ],
     "sections": [
       {
         "id": "otel-drone-rolu-kullanim-alanlari",
@@ -6889,7 +6961,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Drone çekimleri, “yer çekimiyle veremeyeceğiniz ölçeği” sunar: otelin çevresi, mimari yerleşim, beach–iskele hattı, havuz alanı ve peyzaj tek karede okunur. Bu yüzden Aerial View, tanıtım videosunda özellikle giriş (establishing) ve geçiş (transition) sahnelerinde kritik rol oynar."
+            "text": "Drone çekimleri, “yer çekimiyle veremeyeceğiniz ölçeği” sunar: otelin çevresi, mimari yerleşim, beach–iskele hattı, havuz alanı ve peyzaj tek karede okunur. Bu yüzden Aerial View, tanıtım videosunda özellikle giriş (establishing) ve geçiş (transition) sahnelerinde kritik rol oynar; [creative anlatıda havadan resort görüntüleri](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı da tam burada creative anlatının üst katmanını kurar."
           },
           {
             "type": "list",
@@ -6931,7 +7003,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kısa cevap: ışık + rüzgâr + rota + kadraj + izin beşlisi kilitlenmeden uçuş yapılmaz. Aşağıdaki checklist, uygulamaya dönük en hızlı planlama omurgasıdır:"
+            "text": "Kısa cevap: [havadan video planlaması](https://dgtlface.com/tr/creative/video-produksiyon), ışık + rüzgâr + rota + kadraj + izin beşlisi kilitlenmeden yapılmaz. Aşağıdaki checklist, uygulamaya dönük en hızlı planlama omurgasıdır:"
           },
           {
             "type": "list",
@@ -7034,7 +7106,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Drone Shot setini “genel plan + yakın plan” kombinasyonuyla kurmak, videoyu sinematik gösterir ve kırpımda kurtarır."
+            "text": "Drone Shot setini “genel plan + yakın plan” kombinasyonuyla kurmak, videoyu sinematik gösterir ve kırpımda kurtarır. Dış çevreyi havadan gösteren bu yaklaşım, içeride kullanıcıya alan hissi vermek için [360 otel sanal tur çekimi](https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux) ile birlikte kurgulandığında çok daha güçlü çalışır."
           },
           {
             "type": "h3",
@@ -7061,7 +7133,7 @@
           },
           {
             "type": "p",
-            "text": "Rakip içeriklerin çoğu drone’u “tek başına” anlatır; otel prodüksiyonunda fark yaratan ise drone + yer çekimi kombinasyonudur: önce aerial establishing ile konum/ölçek, sonra yer çekimiyle hizmet kanıtı (oda, F&B, spa). Bu kombinasyon, tanıtım videosunu “güzel görüntü”den “ikna eden akış”a taşır."
+            "text": "Rakip içeriklerin çoğu drone’u “tek başına” anlatır; otel prodüksiyonunda fark yaratan ise drone + yer çekimi kombinasyonudur: önce aerial establishing ile konum/ölçek, sonra [otel iç mekân ve oda video çekimi](https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi) tarafında oda, F&B, spa ve lobi gibi hizmet kanıtlarını devreye almak. Bu kombinasyon, tanıtım videosunu “güzel görüntü”den “ikna eden akış”a taşır."
           },
           {
             "type": "media",
@@ -7143,7 +7215,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Drone görüntüsü tek başına değil, omni-channel kurguda çalışır. En iyi pratik: 16:9 master için 3–7 saniyelik establishing, 9:16 Reels için 1–2 saniyelik “wow” kadrajları ve hızlı geçişlerle set üretmektir."
+            "text": "Drone görüntüsü tek başına değil, omni-channel kurguda çalışır. En iyi pratik: 16:9 master için 3–7 saniyelik establishing, 9:16 Reels için 1–2 saniyelik “wow” kadrajları ve hızlı geçişlerle set üretmektir. Bu geçişi [otel dikey video ve Reels prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) mantığıyla planlamak, aynı drone setinden daha fazla kullanım çıkarmanızı sağlar."
           },
           {
             "type": "h3",
@@ -7172,6 +7244,10 @@
             "label": "Otel Drone Çekimi Shot List & Uçuş Planı Şablonunu İndir",
             "text": "Rotayı ve kadrajları doldurup çekim gününü öngörülebilir hale getirirsiniz.",
             "href": "/tr/creative/video-produksiyon"
+          },
+          {
+            "type": "p",
+            "text": "[drone görüntülerinden Reels içerikleri](https://dgtlface.com/tr/smm/reels-video) üretirken, bu kısa kesitleri [otel sosyal medya içeriklerinde drone kullanımı](https://dgtlface.com/tr/otel/sosyal-medya) planıyla eşlemek; story, kampanya ve kısa video akışlarında tekrar tekrar kullanılabilecek bir içerik seti oluşturur."
           },
           {
             "type": "callout",
@@ -7260,6 +7336,10 @@
             "label": "Drone Çekimi & Aerial Video Planlama Danışmanlığı Al",
             "text": "Aerial çekimleri tanıtım videosu ve sosyal medya kampanyalarında verimli kullanan oteller için",
             "href": "/tr/creative/video-produksiyon"
+          },
+          {
+            "type": "p",
+            "text": "Havadan görüntüler; web hero alanı, reklam kreatifleri ve rezervasyon odaklı içerik akışında [otel dijital pazarlama sürecinde drone çekimi](https://dgtlface.com/tr/otel-dijital-pazarlama) olarak düşünülmelidir. Süreç, teslimatlar ve ekip yapısıyla ilgili detaylar için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -7343,7 +7423,13 @@
           "Görsel lazy-load",
           "LCP/CLS kontrolü",
           "Uygun codec/sıkıştırma",
-          "Gereğinde VideoObject notu"
+          "Gereğinde VideoObject notu",
+          "Parent_URL intro paragrafında /tr/creative/video-produksiyon adresine doğal anchor ile bağlandı",
+          "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+          "Sibling linkler: 360 sanal tur, iç mekân/oda çekimi ve dikey video prodüksiyonu doğru bağlamlarda yerleştirildi",
+          "Cross-silo linkler: Reels Video, Otel Sosyal Medya ve Otel Dijital Pazarlama doğal geçişlerle eklendi",
+          "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı"
         ]
       }
     }
@@ -7397,7 +7483,7 @@
     },
     "h1": {
       "title": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
-      "intro": "“360 tur gerçekten rezervasyon getirir mi?” sorusunun cevabı, turu ne kadar iyi çektiğiniz kadar, turu web’de nereye ve nasıl bağladığınız ile ilgilidir. Özellikle Antalya, Belek, Side ve Bodrum gibi görsel gücü yüksek resort destinasyonlarında 360 tur; oda ve alanların “kanıt” değerini artırır, misafirin belirsizliğini azaltır ve karar sürecini kısaltabilir. Ancak ağır 360 içerikler yanlış yerleştirildiğinde mobil deneyimi bozup tam tersi etki yaratabilir. Bu rehberde, çekim planını (rota + mekân + saat), teknik çekim kurallarını ve web UX yerleşimini rezervasyon funnel mantığıyla birleştiriyoruz.",
+      "intro": "“360 tur gerçekten rezervasyon getirir mi?” sorusunun cevabı, [360 otel turu](https://dgtlface.com/tr/creative/video-produksiyon) içeriğini ne kadar iyi çektiğiniz kadar, turu web’de nereye ve nasıl bağladığınız ile ilgilidir. Özellikle Antalya, Belek, Side ve Bodrum gibi görsel gücü yüksek resort destinasyonlarında 360 tur; oda ve alanların “kanıt” değerini artırır, misafirin belirsizliğini azaltır ve karar sürecini kısaltabilir. Ancak ağır 360 içerikler yanlış yerleştirildiğinde mobil deneyimi bozup tam tersi etki yaratabilir. Bu rehberde, çekim planını (rota + mekân + saat), teknik çekim kurallarını ve web UX yerleşimini rezervasyon funnel mantığıyla birleştiriyoruz.",
       "quickSummary": [
         "1) 6–10 kritik noktayı seç → 2) Kadraj/mahremiyeti kilitle → 3) Web’de doğru yere koy → 4) CTA ile rezervasyona bağla"
       ],
@@ -7425,20 +7511,46 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "UI/UX Tasarım",
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Drone Çekimi Rehberi",
+        "href": "/tr/creative/blog/otel-drone-cekimi-rehberi"
+      },
+      {
+        "label": "Otel Web’de Video Entegrasyonu",
+        "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+      },
+      {
+        "label": "Otel Oda Video Çekimi",
+        "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+      },
+      {
+        "label": "UI & UX Tasarım",
         "href": "/tr/creative/ui-ux-tasarim"
       },
       {
-        "label": "Online Satış (PMS-OTA)",
-        "href": "/tr/pms-ota/online-satis"
-      },
-      {
         "label": "Otel Dijital Pazarlama",
-        "href": "/tr/otel"
+        "href": "/tr/otel-dijital-pazarlama"
       },
       {
         "label": "Teknik SEO",
         "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
+        "href": "/tr/creative/blog/otel-drone-cekimi-rehberi"
+      },
+      {
+        "title": "Otel Web’de Video Entegrasyonu: UX, SEO ve Hız",
+        "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+      },
+      {
+        "title": "Otel Oda Video Çekimi: Işık, Kadraj ve Hareket Rehberi",
+        "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
       }
     ],
     "sections": [
@@ -7454,7 +7566,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "360° sanal tur, misafirin odaları ve ortak alanları “içindeymiş gibi” gezmesini sağlayan bir deneyim katmanıdır. Otel için asıl fayda; “fotoğrafların anlatamadığı” mekân hissini görünür kılmak ve özellikle ilk kez gelecek misafirlerde güveni artırmaktır. 360 Tour ve Virtual Tour, iyi kurgulanınca bir “satış elemanı” gibi çalışır: doğru anda, doğru CTA ile kullanıcıyı oda/teklif sayfasına taşır."
+            "text": "360° sanal tur, misafirin odaları ve ortak alanları “içindeymiş gibi” gezmesini sağlayan bir deneyim katmanıdır. Otel için asıl fayda; “fotoğrafların anlatamadığı” mekân hissini görünür kılmak ve özellikle ilk kez gelecek misafirlerde güveni artırmaktır. 360 Tour ve Virtual Tour, iyi kurgulanınca bir “satış elemanı” gibi çalışır: doğru anda, doğru CTA ile kullanıcıyı oda/teklif sayfasına taşır. Bu yüzden [creative deneyim tasarımının parçası olarak sanal tur çekimi](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı, 360 içeriği yalnızca görsel değil karar destek katmanı olarak ele alır."
           },
           {
             "type": "list",
@@ -7493,7 +7605,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "360 çekimlerde başarı; “tek tek güzel kare” değil, mantıklı bir rota kurmaktır. Rota; kullanıcıya oteli gezdirirken kaybolmayacağı bir hikâye akışı sunar. Özellikle resort otellerde rota genelde şu şekilde işler: lobi → oda tipi(leri) → havuz → beach → restoran → spa."
+            "text": "360 çekimlerde başarı; “tek tek güzel kare” değil, mantıklı bir rota kurmaktır. Rota; kullanıcıya oteli gezdirirken kaybolmayacağı bir hikâye akışı sunar. Özellikle resort otellerde rota genelde şu şekilde işler: lobi → oda tipi(leri) → havuz → beach → restoran → spa. Dış alan algısını [havadan otel ve resort görüntüleri](https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi) ile, oda ve ortak alan detaylarını ise [otel iç mekân ve oda video çekimi](https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi) ile tamamlamak bu akışı daha güçlü hale getirir."
           },
           {
             "type": "h3",
@@ -7618,7 +7730,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Kısa cevap: 360 tur, kullanıcıyı “izlettikten sonra” değil, karar anında yakalamalı ve net CTA ile bir sonraki adıma bağlanmalıdır. Aşağıdaki checklist, yerleşim ve CTA prensiplerinin hızlı özetidir:"
+            "text": "Kısa cevap: 360 tur, kullanıcıyı “izlettikten sonra” değil, karar anında yakalamalı ve net CTA ile bir sonraki adıma bağlanmalıdır. Bu yerleşim, güçlü bir [web UI & UX entegrasyonu](https://dgtlface.com/tr/creative/ui-ux-tasarim) ile düşünülmeli; [360 turun web sitesine entegrasyonu](https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo) doğru kurgulanmadığında iyi çekim bile dönüşüme yeterince hizmet etmez. Aşağıdaki checklist, yerleşim ve CTA prensiplerinin hızlı özetidir:"
           },
           {
             "type": "list",
@@ -7669,7 +7781,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "360 içerikler kampanyalarda iki şekilde iyi çalışır: “keşif” duygusu (kısa snippet/teaser) ve “kanıt” (oda/spa/restoran gibi alanların gerçekliği). Reels/shorts tarafında 360 turun tamamını izletmek yerine, 360 içerikten alınan kısa kesitler veya “gezinti hissi” veren mikro animasyonlar daha etkilidir. Burada önemli olan: sosyal medya içeriğinin son CTA’sının web’deki tur/oda sayfasına bağlanmasıdır."
+            "text": "360 içerikler kampanyalarda iki şekilde iyi çalışır: “keşif” duygusu (kısa snippet/teaser) ve “kanıt” (oda/spa/restoran gibi alanların gerçekliği). Reels/shorts tarafında 360 turun tamamını izletmek yerine, 360 içerikten alınan kısa kesitler veya “gezinti hissi” veren mikro animasyonlar daha etkilidir. Burada önemli olan: sosyal medya içeriğinin son CTA’sının web’deki tur/oda sayfasına bağlanmasıdır. Bu yaklaşım, otel için [otel dijital pazarlamada rezervasyona bağlanan immersive deneyim](https://dgtlface.com/tr/otel-dijital-pazarlama) kurgusunu güçlendirir."
           },
           {
             "type": "media",
@@ -7688,6 +7800,10 @@
               "Poster görseli ve boyut rezervasyonu (CLS düşürmek)",
               "Mobilde düşük bant genişliği senaryosuna göre optimizasyon"
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu teknik çerçeve, özellikle [sanal tur ve teknik SEO uyumu](https://dgtlface.com/tr/seo/teknik-seo) açısından kritiktir; ağır embed yapısı sayfa hızını ve mobil açılışı gereksiz yere zorlamamalıdır."
           },
           {
             "type": "cta",
@@ -7713,7 +7829,7 @@
             "items": [
               "Sosyalde “teaser” kullan; turu web’de açtır.",
               "Web’de click-to-load + placeholder ile CWV’yi koru.",
-              "İç link ver: /tr/creative/ui-ux-tasarim, /tr/otel-dijital-pazarlama, /tr/pms-ota/online-satis ile satış ilişkisini güçlendir."
+              "CTA akışını UX, pazarlama ve teknik performans tarafıyla birlikte planla."
             ]
           },
           {
@@ -7722,6 +7838,10 @@
             "label": "360° Otel Sanal Tur Prodüksiyon & UX Analizi Talep Et",
             "text": "360 turu satışa bağlayacak UX ve teknik plan isteyen oteller için",
             "href": "/tr/creative/video-produksiyon"
+          },
+          {
+            "type": "p",
+            "text": "Bu akışı profesyonel bir [sanal tur çekimi](https://dgtlface.com/tr/creative/video-produksiyon) planıyla kurmak ve uygulama detaylarını görmek için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       },
@@ -7848,7 +7968,13 @@
           "Mobil performans testi (CWV)",
           "Hero/LCP optimizasyonu",
           "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
-          "Internal link hedefleri: /tr/creative/video-produksiyon, /tr/creative/ui-ux-tasarim, /tr/pms-ota/online-satis, /tr/otel-dijital-pazarlama, /tr/seo/teknik-seo"
+          "Internal link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-drone-cekimi-rehberi, /tr/creative/blog/otel-web-video-entegrasyonu-ux-seo, /tr/creative/blog/otel-ic-mekan-oda-video-cekimi, /tr/creative/ui-ux-tasarim, /tr/otel-dijital-pazarlama, /tr/seo/teknik-seo",
+          "Parent_URL giriş paragrafında doğal anchor ile eklendi",
+          "Cluster hub /tr/creative-ve-tasarim ilk bölüm bağlamında eklendi",
+          "Sibling linkler drone çekimi, web video entegrasyonu ve iç mekân video bağlamlarında yerleştirildi",
+          "Cross-silo linkler UI & UX Tasarım, Otel Dijital Pazarlama ve Teknik SEO bağlamında eklendi",
+          "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı"
         ]
       }
     },
@@ -7909,7 +8035,7 @@
     },
     "h1": {
       "title": "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?",
-      "intro": "“Otel tanıtım videosu senaryosu nasıl yazılır?” sorusunu soruyorsanız doğru yerdesiniz; çünkü iyi video, iyi kameradan önce iyi akış ister. Senaryo; hangi sahnenin hangi mesajı taşıdığını belirler, storyboard ise bu mesajı kadraj ve hareket ile çekime çevirmeye yarar. Antalya, Belek, Side ve Kemer gibi destinasyonlarda çekilen resort videolarda en sık hata, harika görüntüleri “hikâyesiz” arka arkaya dizmektir; sonuç: izlenir ama akılda kalmaz. Bu rehberde, senaryo (script) yazımını otel özelinde persona temelli kurgulayacak, storyboard’la ekip iletişimini tek dokümana indireceğiz.",
+      "intro": "“Otel tanıtım videosu senaryosu nasıl yazılır?” sorusunu soruyorsanız doğru yerdesiniz; çünkü iyi [otel video senaryosu](https://dgtlface.com/tr/creative/video-produksiyon), iyi kameradan önce iyi akış ister. Senaryo; hangi sahnenin hangi mesajı taşıdığını belirler, storyboard ise bu mesajı kadraj ve hareket ile çekime çevirmeye yarar. Antalya, Belek, Side ve Kemer gibi destinasyonlarda çekilen resort videolarda en sık hata, harika görüntüleri “hikâyesiz” arka arkaya dizmektir; sonuç: izlenir ama akılda kalmaz. Bu rehberde, senaryo (script) yazımını otel özelinde persona temelli kurgulayacak, storyboard’la ekip iletişimini tek dokümana indireceğiz.",
       "quickSummary": [
         "1) Vaat cümlesini 1 satıra indir",
         "2) Persona seç ve 3 kanıt bloğunu çıkar",
@@ -7939,30 +8065,46 @@
     },
     "internalLinks": [
       {
-        "label": "Video & Prodüksiyon hizmet sayfası",
+        "label": "Video & Prodüksiyon",
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Creative & Tasarım çatı sayfası",
-        "href": "/tr/creative"
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
       },
       {
-        "label": "Reels & Video içerik üretimi",
+        "label": "Otel Tanıtım Videosu Rehberi",
+        "href": "/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir"
+      },
+      {
+        "label": "Otel Video Çekim Günü Rehberi",
+        "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+      },
+      {
+        "label": "Otel Videolarında Ses, Müzik ve Seslendirme",
+        "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
+      },
+      {
+        "label": "Reels Video",
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "Otel dijital pazarlama yaklaşımı",
-        "href": "/tr/otel"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi: Kısa Versiyon Stratejisi",
-        "href": "/tr/smm/reels-video"
+        "title": "Otel Tanıtım Videosu Rehberi Brief’ten Çekim Gününe",
+        "href": "/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir"
       },
       {
-        "title": "Video & Prodüksiyon: Otel İçin Çekim ve Kurgu Yaklaşımı",
-        "href": "/tr/creative/video-produksiyon"
+        "title": "Otel Video Çekim Günü Rehberi: Set ve Ekip Yönetimi",
+        "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+      },
+      {
+        "title": "Otel Videolarında Ses, Müzik ve Seslendirme Rehberi",
+        "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
       }
     ],
     "sections": [
@@ -7976,7 +8118,7 @@
           },
           {
             "type": "p",
-            "text": "İyi video, iyi kameradan önce iyi akış ister. Senaryo; hangi sahnenin hangi mesajı taşıdığını belirler, storyboard ise bu mesajı kadraj ve hareket ile çekime çevirmeye yarar. Özellikle resort destinasyonlarında (Antalya, Belek, Side, Kemer) en sık hata, güçlü görüntüleri “hikâyesiz” arka arkaya dizmektir; sonuç izlenir ama akılda kalmaz."
+            "text": "İyi video, iyi kameradan önce iyi akış ister. Senaryo; hangi sahnenin hangi mesajı taşıdığını belirler, storyboard ise bu mesajı kadraj ve hareket ile çekime çevirmeye yarar. Özellikle resort destinasyonlarında (Antalya, Belek, Side, Kemer) en sık hata, güçlü görüntüleri “hikâyesiz” arka arkaya dizmektir; sonuç izlenir ama akılda kalmaz. Bu yüzden [creative üretim sürecinde storyboard hazırlama](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı, video anlatısını yalnız görsel toplamaktan çıkarıp net bir akışa dönüştürür."
           },
           {
             "type": "cta",
@@ -7993,11 +8135,15 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Senaryo, “ne çekileceğini” değil “ne anlatılacağını” netleştirir. Otel tanıtım videosu için senaryonun ana amacı, izleyicinin aklındaki 3 soruyu sırayla cevaplamaktır: (1) Burası neresi, bana ne vaat ediyor? (destinasyon + atmosfer) (2) Burada hangi deneyimi yaşayacağım? (oda, F&B, spa, aktiviteler) (3) Şimdi ne yapmalıyım? (CTA: web/rezervasyon/kampanya)."
+            "text": "Senaryo, “ne çekileceğini” değil “ne anlatılacağını” netleştirir. Otel tanıtım videosu için senaryonun ana amacı, izleyicinin aklındaki 3 soruyu sırayla cevaplamaktır: (1) Burası neresi, bana ne vaat ediyor? (destinasyon + atmosfer) (2) Burada hangi deneyimi yaşayacağım? (oda, F&B, spa, aktiviteler) (3) Şimdi ne yapmalıyım? (CTA: web/rezervasyon/kampanya). Bu aşamaya geçmeden önce [otel tanıtım videosu planlama](https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir) mantığının netleşmesi, senaryonun havada kalmasını engeller."
           },
           {
             "type": "h3",
             "text": "Ses tonu ve anlatıcı seçimi"
+          },
+          {
+            "type": "p",
+            "text": "Anlatı ritmini kurarken [video anlatısında ses, müzik ve seslendirme](https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme) planını da en başta düşünmek gerekir; çünkü duyguyu taşıyan yapı yalnız görüntü değil, ses katmanıdır."
           },
           {
             "type": "list",
@@ -8167,7 +8313,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Storyboard, prodüksiyonda “yanlış anlaşılmayı” düşürür. Storyboard karelerinde kare numarası (scene id), lokasyon, kadraj türü, hareket yönü, metin/VO notu ve sahneden beklenen duygu/amaç bulunmalıdır."
+            "text": "[storyboard hazırlama](https://dgtlface.com/tr/creative/video-produksiyon), prodüksiyonda “yanlış anlaşılmayı” düşürür. Storyboard karelerinde kare numarası (scene id), lokasyon, kadraj türü, hareket yönü, metin/VO notu ve sahneden beklenen duygu/amaç bulunmalıdır. Bu yapı, sahada [sahne akışı ve çekim günü yönetimi](https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi) planını da çok daha uygulanabilir hale getirir."
           },
           {
             "type": "media",
@@ -8196,7 +8342,7 @@
             "items": [
               "Storyboard’u “çekim diline” çevir: kadraj + hareket + süre.",
               "Rastgele sahne sıralamasını kaldır; giriş–gövde–kapanışa sabitle.",
-              "Reels versiyonu için 6–8 karelik mini storyboard üret."
+              "[Reels için kısa video senaryosu](https://dgtlface.com/tr/smm/reels-video) çıkarmak için 6–8 karelik mini storyboard üret."
             ]
           }
         ]
@@ -8249,7 +8395,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Senaryo ve storyboard’un en büyük faydası, kurgu masasında ortaya çıkar: “eksik sahne” sürprizlerini azaltır ve kurgu süresini kısaltır. Ayrıca CTA ve mesaj tutarlı kaldığı için video daha ikna edici olur."
+            "text": "Senaryo ve storyboard’un en büyük faydası, kurgu masasında ortaya çıkar: “eksik sahne” sürprizlerini azaltır ve kurgu süresini kısaltır. Ayrıca CTA ve mesaj tutarlı kaldığı için video daha ikna edici olur. Bu nedenle [otel dijital pazarlama için video CTA planlama](https://dgtlface.com/tr/otel-dijital-pazarlama) aşamasını senaryonun sonuna bırakmak yerine, baştan rezervasyon yolculuğuyla birlikte düşünmek gerekir."
           },
           {
             "type": "h3",
@@ -8281,6 +8427,10 @@
             "label": "Otel Tanıtım Videosu Senaryo & Storyboard Danışmanlığı Al",
             "text": "Hikâyeyi netleştirip çekim tekrarlarını azaltmak isteyen oteller için.",
             "href": "/tr/creative/video-produksiyon"
+          },
+          {
+            "type": "p",
+            "text": "Süreç, storyboard ve teslim yapısıyla ilgili detayları görmek isterseniz [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına da göz atabilirsiniz."
           }
         ]
       },
@@ -8361,11 +8511,17 @@
           "Canonical: /tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard",
           "Media slot mapping: hero-01, h1-context-02, divider-03, divider-04, diagram-05, checklist-06, kpi-07, proof-08",
           "CTA yoğunluğu: Primary 2 kez (H1 giriş sonu + son 1/3), Secondary 1 kez (şablon paketi bölümünde) — Secondary tür: Download Asset (template)",
-          "İç link hedefleri: /creative/video-produksiyon + /creative-ve-tasarim + /smm/reels-video + /otel-dijital-pazarlama",
+          "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-tanitim-videosu-nasil-planlanir, /tr/creative/blog/otel-video-set-ekip-yonetimi, /tr/creative/blog/otel-video-ses-muzik-seslendirme, /tr/smm/reels-video, /tr/otel-dijital-pazarlama",
           "Schema @graph planı: WebPage/Article/BreadcrumbList/FAQPage tek blok",
           "Embed optimizasyon: poster + lazy-load + sıkıştırılmış medya",
           "Storyboard görselleri: webp sıkıştırma + doğru boyutlar",
-          "Transkript stratejisi: How-To niyeti için transkript/altyazı standardı"
+          "Transkript stratejisi: How-To niyeti için transkript/altyazı standardı",
+          "Parent_URL giriş paragrafında doğal anchor ile eklendi",
+          "Cluster hub /tr/creative-ve-tasarim görünür içerikte 1 kez kullanıldı",
+          "Sibling linkler planlama, set-ekip yönetimi ve ses-müzik bağlamlarında yerleştirildi",
+          "Cross-silo linkler Reels Video ve Otel Dijital Pazarlama bağlamında eklendi",
+          "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı"
         ]
       }
     }
@@ -8419,7 +8575,7 @@
     },
     "h1": {
       "title": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
-      "intro": "“Tek günde çok içerik nasıl çekerim?” ve “tanıtım videosunu Reels’e nasıl bölerim?” soruları, oteller için en değerli prodüksiyon problemlerinden ikisi. Çünkü çoğu resort otelde (Antalya, Belek, Side, Kemer, Bodrum gibi) sezon boyunca içerik ihtiyacı bitmez; her kampanya yeni çekim talep eder ve bütçe/operasyon baskısı artar. Çözüm; tek çekim gününü “tek film” üretmek için değil, asset üreten bir içerik motoru olarak tasarlamaktır. Bu rehberde; long form + short form planlamayı, dikey/yatay kadraj stratejisini, kırpma–versiyonlama sistemini ve içerik arşivini (content library) otel özelinde kuracağız.",
+      "intro": "“Tek günde çok içerik nasıl çekerim?” ve “tanıtım videosunu Reels’e nasıl bölerim?” soruları, oteller için en değerli prodüksiyon problemlerinden ikisi. Çünkü çoğu resort otelde (Antalya, Belek, Side, Kemer, Bodrum gibi) sezon boyunca içerik ihtiyacı bitmez; her kampanya yeni çekim talep eder ve bütçe/operasyon baskısı artar. Çözüm; tek çekim gününü “tek film” üretmek için değil, [video asset stratejisi](https://dgtlface.com/tr/creative/video-produksiyon) mantığıyla asset üreten bir içerik motoru olarak tasarlamaktır. Bu rehberde; long form + short form planlamayı, dikey/yatay kadraj stratejisini, kırpma–versiyonlama sistemini ve içerik arşivini (content library) otel özelinde kuracağız.",
       "quickSummary": [
         "1) Çekimi 6–8 sahne bloğuna böl (oda, beach, F&B, spa, aktivite…)",
         "2) Her bloğu wide/medium/close çek (parçalanabilir kurgula)",
@@ -8452,30 +8608,46 @@
         "href": "/tr/creative/video-produksiyon"
       },
       {
-        "label": "Reels & Video İçerik Üretimi",
+        "label": "Creative ve Tasarım",
+        "href": "/tr/creative-ve-tasarim"
+      },
+      {
+        "label": "Otel Reels & TikTok Çekimi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+      },
+      {
+        "label": "Tek Günde Otel Foto+Video Çekimi",
+        "href": "/tr/creative/blog/otel-fotograf-video-cekimi-aynigun"
+      },
+      {
+        "label": "4 Mevsim Otel Video Planı",
+        "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
+      },
+      {
+        "label": "Reels Video",
         "href": "/tr/smm/reels-video"
       },
       {
-        "label": "Otel sosyal medya yaklaşımı",
+        "label": "Otel Sosyal Medya",
         "href": "/tr/otel/sosyal-medya"
       },
       {
-        "label": "Otel dijital pazarlama",
-        "href": "/tr/otel"
-      },
-      {
-        "label": "Creative & Tasarım",
-        "href": "/tr/creative"
+        "label": "Otel Dijital Pazarlama",
+        "href": "/tr/otel-dijital-pazarlama"
       }
     ],
     "relatedPosts": [
       {
-        "title": "Reels & Video İçerik Üretimi: Format, Hook ve CTA Sistemi",
-        "href": "/tr/smm/reels-video"
+        "title": "Otel Reels & TikTok Çekimi: Dikey Video Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
       },
       {
-        "title": "Otel Sosyal Medya: İçerik Akışı ve Kampanya Dönemleri",
-        "href": "/tr/otel/sosyal-medya"
+        "title": "Tek Günde Otel Foto+Video Çekimi: Entegre Prodüksiyon Rehberi",
+        "href": "/tr/creative/blog/otel-fotograf-video-cekimi-aynigun"
+      },
+      {
+        "title": "4 Mevsim Otel Video Planı: Yaz, Kış ve Özel Dönemler",
+        "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
       }
     ],
     "sections": [
@@ -8495,7 +8667,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Video asset, tek bir “video” değil; bir çekimden türetilen kullanıma hazır parçalar bütünüdür. Otel tarafında asset yaklaşımı, iki büyük sorunu çözer: (1) Her kampanya için tekrar çekim baskısını azaltır. (2) Marka dilini koruyarak “sürekli taze içerik” akışı sağlar.\n\nOtel promo video artık tek başına yetmez; aynı gün; web için 16:9 master, sosyal için 9:16 Reels/Shorts, reklam için 6–15 sn performans kesitleri, Story için hızlı CTA’lı parçalar gerekir. İşte video asset stratejisi, bu çıktıları çekim öncesinde tasarlayarak üretimi “kontrollü” hale getirir."
+            "text": "Video asset, tek bir “video” değil; bir çekimden türetilen kullanıma hazır parçalar bütünüdür. Otel tarafında asset yaklaşımı, iki büyük sorunu çözer: (1) Her kampanya için tekrar çekim baskısını azaltır. (2) Marka dilini koruyarak “sürekli taze içerik” akışı sağlar.\n\nOtel promo video artık tek başına yetmez; aynı gün; web için 16:9 master, sosyal için 9:16 Reels/Shorts, reklam için 6–15 sn performans kesitleri, Story için hızlı CTA’lı parçalar gerekir. İşte video asset stratejisi, bu çıktıları çekim öncesinde tasarlayarak üretimi “kontrollü” hale getirir. Bu yaklaşım aynı zamanda [creative üretimde içerik kütüphanesi planı](https://dgtlface.com/tr/creative-ve-tasarim) kurmayı ve çekimi yalnız bir teslim değil, uzun vadeli içerik sistemi olarak düşünmeyi gerektirir."
           },
           {
             "type": "callout",
@@ -8525,7 +8697,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Tek günde 30+ içerik üretmek için önce “çekim menüsü” çıkarmalısınız. Long form (tanıtım filmi) genelde 60–120 sn; short form’lar ise 6–20 sn arası mikro hikâyelerdir. Kritik fikir: Short form’lar long form’un kırpımı değil; long form ile birlikte tasarlanmış parçalardır."
+            "text": "Tek günde 30+ içerik üretmek için önce “çekim menüsü” çıkarmalısınız. Long form (tanıtım filmi) genelde 60–120 sn; short form’lar ise 6–20 sn arası mikro hikâyelerdir. Kritik fikir: Short form’lar long form’un kırpımı değil; long form ile birlikte tasarlanmış parçalardır. Bu nedenle [1 günde çok içerik üretimi](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımı, çekim kapsamı ve asset listesi daha sete çıkmadan netleştiğinde verimli çalışır."
           },
           {
             "type": "h3",
@@ -8584,7 +8756,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Buradaki oyun, aynı çekim gününde dikey ve yatay düşünmektir. Otellerin büyük hatası; yatay çekip sonra dikeye “kırparak kurtarmaya” çalışmaktır. Doğru yaklaşım: çekimde güvenli kadraj ve “aynı sahneden iki kullanım” planı."
+            "text": "Buradaki oyun, aynı çekim gününde dikey ve yatay düşünmektir. Otellerin büyük hatası; yatay çekip sonra dikeye “kırparak kurtarmaya” çalışmaktır. Doğru yaklaşım: çekimde güvenli kadraj ve “aynı sahneden iki kullanım” planı. Özellikle [long formdan Reels çıkarma](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) mantığı baştan kurulursa, aynı sahneden çok daha fazla kısa format değer üretilebilir."
           },
           {
             "type": "h3",
@@ -8620,7 +8792,7 @@
             "items": [
               "Çekim sırasında 9:16 güvenli alanı gözle kontrol et.",
               "Story için 3–5 saniyelik “tek mesaj” parçaları üret.",
-              "Reels’te ilk 1–2 saniyeyi “wow” sahne ile açacak kesitleri işaretle."
+              "[Reels video içerikleri](https://dgtlface.com/tr/smm/reels-video) için ilk 1–2 saniyeyi “wow” sahne ile açacak kesitleri işaretle."
             ]
           }
         ]
@@ -8723,7 +8895,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Asset stratejisinin gerçek kazancı, arşivle gelir. Aynı sahne, sezon içinde farklı kampanyalarda kullanılabilir; ama bunun için dosyaların bulunabilir olması gerekir. Content library; “unutulmuş footage” riskini bitirir."
+            "text": "Asset stratejisinin gerçek kazancı, arşivle gelir. Aynı sahne, sezon içinde farklı kampanyalarda kullanılabilir; ama bunun için dosyaların bulunabilir olması gerekir. Content library; “unutulmuş footage” riskini bitirir. Özellikle [aynı gün fotoğraf ve video çekimi](https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun) planı uygulanıyorsa, bu arşiv yapısı görsel ve video setlerini birlikte yönetmek için daha da kritik hale gelir."
           },
           {
             "type": "h3",
@@ -8751,7 +8923,7 @@
           },
           {
             "type": "p",
-            "text": "Varsayım: Otel içi arşiv naming standardı:\nYYYYMMDD_hotel_block_scene_format_duration_v01\nÖrn: 20260201_resort_oda_block01_reels_10s_v01"
+            "text": "Varsayım: Otel içi arşiv naming standardı:\nYYYYMMDD_hotel_block_scene_format_duration_v01\nÖrn: 20260201_resort_oda_block01_reels_10s_v01. Bu düzen, sezon bazlı yeniden kullanımı kolaylaştırdığı için [içerik kütüphanesi planı](https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani) tarafında da büyük avantaj sağlar."
           },
           {
             "type": "h3",
@@ -8765,6 +8937,10 @@
               "Sosyal medya için uygun codec ve oranlarda export alın (platform uyumu).",
               "Dosya boyutlarını sayfa ve platform limitleriyle uyumlu tutun (özellikle web embed)."
             ]
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı sayesinde [otel sosyal medya içerik kütüphanesi](https://dgtlface.com/tr/otel/sosyal-medya) daha düzenli ilerler ve [video asset’lerin dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) reklam, web ve rezervasyon akışlarında çok daha hızlı devreye alınabilir."
           },
           {
             "type": "media",
@@ -8870,6 +9046,10 @@
             ],
             "href": "/downloads/1-gunde-30plus-icerik-cekim-plani-asset-tablosu-v1.0.pdf",
             "buttonLabel": "Asset’i İndir"
+          },
+          {
+            "type": "p",
+            "text": "Formatlar, teslim yapısı ve kullanım alanlarıyla ilgili ek detaylar için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını da inceleyebilirsiniz."
           }
         ]
       }
@@ -8928,7 +9108,13 @@
           "Naming standardı: YYYYMMDD_hotel_block_scene_format_duration_v01",
           "Export preset listesi: web/sosyal/reklam platform limit uyumu",
           "CTA yoğunluğu: Primary 2 kez (H1 + son 1/3), Secondary 1 kez (orta/son)",
-          "İç link hedefleri: /creative/video-produksiyon + destek sayfalar (smm / otel / creative)"
+          "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon, /tr/creative/blog/otel-fotograf-video-cekimi-aynigun, /tr/creative/blog/otel-4-mevsim-video-icerik-plani, /tr/smm/reels-video, /tr/otel/sosyal-medya, /tr/otel-dijital-pazarlama",
+          "Parent_URL giriş paragrafında doğal anchor ile eklendi",
+          "Cluster hub /tr/creative-ve-tasarim görünür içerikte 1 kez kullanıldı",
+          "Sibling linkler dikey video, aynı gün fotoğraf-video çekimi ve 4 mevsim planı bağlamlarında yerleştirildi",
+          "Cross-silo linkler Reels Video, Otel Sosyal Medya ve Otel Dijital Pazarlama bağlamlarında eklendi",
+          "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+          "FAQ linki sonuç alanında 1 kez kullanıldı"
         ]
       }
     }
@@ -42935,7 +43121,7 @@
   },
   "h1": {
     "title": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
-    "intro": "“Otel odasını videoda nasıl daha ferah gösteririm?” ve “oda video çekiminde ışığı nasıl ayarlamalıyım?” soruları, oda satışının tam kalbinde. Çünkü oda videoları, misafirin “oda bana uygun mu?” kararını hızlandırır; özellikle web’de oda sayfalarında ve Reels/Story içeriklerinde doğru kurgulandığında dönüşüm niyeti artar. Antalya, Belek, Side, Kemer ve Bodrum gibi resort destinasyonlarında da city otellerinde de sorun aynıdır: yanlış ışık ve acele kamera hareketi, odanın gerçek değerini öldürür. Bu rehberde; Lighting, Wide Shot–Detail Shot dengesi, gimbal/tripod seçimi ve web + sosyal medya uyarlamasını otel operasyonuna uygun pratik adımlarla kuruyoruz.",
+    "intro": "“Otel odasını videoda nasıl daha ferah gösteririm?” ve “oda video çekiminde ışığı nasıl ayarlamalıyım?” soruları, oda satışının tam kalbinde. Çünkü [otel oda video çekimi](https://dgtlface.com/tr/creative/video-produksiyon), misafirin “oda bana uygun mu?” kararını hızlandırır; özellikle web’de oda sayfalarında ve Reels/Story içeriklerinde doğru kurgulandığında dönüşüm niyeti artar. Antalya, Belek, Side, Kemer ve Bodrum gibi resort destinasyonlarında da city otellerinde de sorun aynıdır: yanlış ışık ve acele kamera hareketi, odanın gerçek değerini öldürür. Bu rehberde; Lighting, Wide Shot–Detail Shot dengesi, gimbal/tripod seçimi ve web + sosyal medya uyarlamasını otel operasyonuna uygun pratik adımlarla kuruyoruz.",
     "quickSummary": [
       "1) Çekim saatini seç: doğal ışık en iyi ne zaman?",
       "2) Renk sıcaklığını sadeleştir: karışık ışıkları azalt",
@@ -42967,6 +43153,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "360° Otel Sanal Tur Rehberi",
+      "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
+    },
+    {
+      "label": "Otel Drone Çekimi Rehberi",
+      "href": "/tr/creative/blog/otel-drone-cekimi-rehberi"
+    },
+    {
+      "label": "Otel Web’de Video Entegrasyonu",
+      "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+    },
+    {
       "label": "UI/UX Tasarım",
       "href": "/tr/creative/ui-ux-tasarim"
     },
@@ -42981,8 +43183,16 @@
   ],
   "relatedPosts": [
     {
-      "title": "Reels Video",
-      "href": "/tr/smm/reels-video"
+      "title": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+      "href": "/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux"
+    },
+    {
+      "title": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
+      "href": "/tr/creative/blog/otel-drone-cekimi-rehberi"
+    },
+    {
+      "title": "Otel Web’de Video Entegrasyonu: UX, SEO ve Hız",
+      "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
     }
   ],
   "sections": [
@@ -42992,7 +43202,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "İç mekân çekimleri, otelin “kanıt” katmanıdır. Misafir, fotoğrafta detay kaçırabilir; videoda ise ışık, derinlik ve akış sayesinde oda ferahlığı, düzen ve atmosfer daha iyi anlaşılır. Hotel Room Video, sadece “oda turu” değildir; aynı zamanda konfor kanıtı (yatak, oturma alanı, manzara), fonksiyon kanıtı (çalışma masası, priz/alan), kalite kanıtı (banyo, malzeme) üretir."
+          "text": "İç mekân çekimleri, otelin “kanıt” katmanıdır. Misafir, fotoğrafta detay kaçırabilir; videoda ise ışık, derinlik ve akış sayesinde oda ferahlığı, düzen ve atmosfer daha iyi anlaşılır. Hotel Room Video, sadece “oda turu” değildir; aynı zamanda konfor kanıtı (yatak, oturma alanı, manzara), fonksiyon kanıtı (çalışma masası, priz/alan), kalite kanıtı (banyo, malzeme) üretir. Bu yüzden [creative anlatının parçası olarak iç mekân video çekimi](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımı, oda videosunu yalnız kayıt değil deneyim anlatısı olarak konumlandırır."
         },
         {
           "type": "h3",
@@ -43038,7 +43248,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Işık, iç mekânda “ferahlık” algısını belirler. Doğal ışık varsa onu yönetmek; yoksa yapay ışıkla dengeli bir atmosfer kurmak gerekir. En sık hata: tüm ışıkları açıp sarı–mavi karışık bir renk kaosu yaratmak veya perdeleri kapatıp odayı “düz” ve karanlık göstermek."
+          "text": "[iç mekân ışık ve kadraj](https://dgtlface.com/tr/creative/video-produksiyon), iç mekânda “ferahlık” algısını belirler. Doğal ışık varsa onu yönetmek; yoksa yapay ışıkla dengeli bir atmosfer kurmak gerekir. En sık hata: tüm ışıkları açıp sarı–mavi karışık bir renk kaosu yaratmak veya perdeleri kapatıp odayı “düz” ve karanlık göstermek."
         },
         {
           "type": "h3",
@@ -43128,7 +43338,7 @@
         },
         {
           "type": "p",
-          "text": "Kural: gimbal hareketi ne kadar sakin, o kadar “lüks” görünür. Acele yürüyüş, videoyu amatörleştirir."
+          "text": "Kural: gimbal hareketi ne kadar sakin, o kadar “lüks” görünür. Acele yürüyüş, videoyu amatörleştirir. Özellikle [gimbal ile oda turu ve 360 sanal tur deneyimi](https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux) birlikte düşünüldüğünde, kullanıcının mekânı daha akışkan algılaması sağlanır."
         },
         {
           "type": "media",
@@ -43182,7 +43392,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Oda satışında banyo, “kalite algısını” en hızlı yükselten alandır. Ama aynı zamanda en kolay “hata” yapılan yerdir: ayna yansımaları, dağınık ürünler, ıslak zemin, ışık patlaması."
+          "text": "Oda satışında banyo, “kalite algısını” en hızlı yükselten alandır. Ama aynı zamanda en kolay “hata” yapılan yerdir: ayna yansımaları, dağınık ürünler, ıslak zemin, ışık patlaması. Oda deneyimini otelin geneliyle tamamlamak için [dış mekândan iç mekâna otel video anlatısı](https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi) kurgusu da önemlidir; resort atmosferi ile oda kalitesi aynı hikâyede birleşmelidir."
         },
         {
           "type": "h3",
@@ -43291,7 +43501,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Oda videosu en çok oda sayfasında dönüşüm etkisi yaratır; Reels’te ise “ilk izlenim ve ilgi” üretir. Strateji: Reels kullanıcıyı meraklandırır, web video “kanıtlar”."
+            "text": "Oda videosu en çok oda sayfasında dönüşüm etkisi yaratır; Reels’te ise “ilk izlenim ve ilgi” üretir. Strateji: Reels kullanıcıyı meraklandırır, web video “kanıtlar”. Bu nedenle [oda tanıtım videolarının web entegrasyonu](https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo) ve [oda videosunun web UI & UX entegrasyonu](https://dgtlface.com/tr/creative/ui-ux-tasarim) birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -43303,7 +43513,7 @@
           "items": [
             "Video, foto galerinin yanında/altında “oda turu” olarak yer alabilir",
             "“Odayı İncele / Rezervasyon” CTA’sı video yakınında olmalı",
-            "UX için `/tr/creative/ui-ux-tasarim` sayfasına bağlanacak şekilde “yerleşim prensipleri” referansı verin"
+            "Yerleşim prensipleri galeri, sticky CTA ve rezervasyon akışıyla uyumlu olmalı"
           ]
         },
         {
@@ -43318,6 +43528,10 @@
             "Metin bindirme: “Deniz manzaralı suite” gibi tek cümle",
             "Final CTA: “Detaylar web’de” veya kampanya mesajı"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Bu kısa format akışlarda [Reels için oda video kesitleri](https://dgtlface.com/tr/smm/reels-video) önceden ayrılırsa, aynı çekim setinden sosyal kullanım çok daha hızlı çıkar."
         },
         {
           "type": "h3",
@@ -43353,6 +43567,10 @@
           "label": "Oda & İç Mekân Video Çekimi Danışmanlığı Al",
           "text": "Farklı oda tiplerinde tutarlı kalite ve hızlı üretim isteyen oteller için",
           "href": "/tr/creative/video-produksiyon"
+        },
+        {
+          "type": "p",
+          "text": "Bu yapı, [oda videolarının otel dijital pazarlama ve rezervasyon yolculuğuna etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından da kritiktir; doğru video yerleşimi web, reklam ve direkt rezervasyon akışını aynı anda destekler. Süreç ve teslim yapısıyla ilgili ek detaylar için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına da göz atabilirsiniz."
         },
         {
           "type": "table",
@@ -43493,7 +43711,14 @@
         "LCP’yi bozmamak için videoyu sayfanın aşağısına veya poster ile yükleyin",
         "Oda sayfalarında video + görsel kombinasyonunun CWV ve mobil hız skorlarını düzenli kontrol edin",
         "Poster + lazy-load planlandı (web)",
-        "CWV kontrol listesi işaretlendi (LCP/CLS)"
+        "CWV kontrol listesi işaretlendi (LCP/CLS)",
+        "Parent_URL giriş paragrafında doğal anchor ile eklendi",
+        "Cluster hub /tr/creative-ve-tasarim görünür içerikte 1 kez kullanıldı",
+        "Sibling linkler 360 sanal tur, drone çekimi ve web video entegrasyonu bağlamlarında yerleştirildi",
+        "Cross-silo linkler UI & UX Tasarım, Otel Dijital Pazarlama ve Reels Video bağlamlarında eklendi",
+        "Ana money page görünür içerikte maksimum 2 kez kullanıldı",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
+        "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux, /tr/creative/blog/otel-drone-cekimi-rehberi, /tr/creative/blog/otel-web-video-entegrasyonu-ux-seo, /tr/creative/ui-ux-tasarim, /tr/otel-dijital-pazarlama, /tr/smm/reels-video"
       ]
     }
   }
@@ -43548,7 +43773,7 @@
   },
   "h1": {
     "title": "Yemek, Restoran ve Bar Çekimleri: Otel F&B Video Rehberi",
-    "intro": "“Yemeklerimi videoda iştah açıcı nasıl gösteririm?” ve “restoran atmosferini nasıl doğru yansıtırım?” soruları, otel F&B’nin pazarlamadaki gücünü belirler. Çünkü F&B videoları, misafire ekrandan “tat deneyimini” hissettiren en kritik içeriklerdendir: ambiyans, servis ritmi, şef dokunuşu ve bar hazırlığı… Hepsi doğru çekilirse premium algı yaratır; yanlış çekilirse (karanlık, titrek, dağınık) ters etki yapar. Antalya ve Bodrum gibi gastronomi ve beach bar kültürü güçlü destinasyonlarda bu içerikler, hem sosyal medya hem kampanya sayfaları için sürekli “yakıt” üretir. Bu rehberde; atmosfer planlarını, yemek–içecek close-up’larını, servis anlarını ve bunları Reels/reklama dönüştürme sistemini adım adım kuracağız.",
+    "intro": "“Yemeklerimi videoda iştah açıcı nasıl gösteririm?” ve “restoran atmosferini nasıl doğru yansıtırım?” soruları, [otel restoran videosu](https://dgtlface.com/tr/creative/video-produksiyon) planlamasının pazarlamadaki gücünü belirler. Çünkü F&B videoları, misafire ekrandan “tat deneyimini” hissettiren en kritik içeriklerdendir: ambiyans, servis ritmi, şef dokunuşu ve bar hazırlığı… Hepsi doğru çekilirse premium algı yaratır; yanlış çekilirse (karanlık, titrek, dağınık) ters etki yapar. Antalya ve Bodrum gibi gastronomi ve beach bar kültürü güçlü destinasyonlarda bu içerikler, hem sosyal medya hem kampanya sayfaları için sürekli “yakıt” üretir. Bu rehberde; atmosfer planlarını, yemek–içecek close-up’larını, servis anlarını ve bunları Reels/reklama dönüştürme sistemini adım adım kuracağız.",
     "quickSummary": [
       "1) Mekân ışığını kontrol et (karışık renk tonlarını sadeleştir)",
       "2) Masa/ürün styling’ini yap (temiz, iştah açıcı, minimal)",
@@ -43580,6 +43805,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Oda Video Çekimi",
+      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+    },
+    {
+      "label": "Otel Reels & TikTok Çekimi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+    },
+    {
+      "label": "Otel Kampanya ve Lansman Videoları",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
       "label": "Reels Video",
       "href": "/tr/smm/reels-video"
     },
@@ -43590,20 +43831,20 @@
     {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
-    },
-    {
-      "label": "Creative ve Tasarım",
-      "href": "/tr/creative-ve-tasarim"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Reels Video",
-      "href": "/tr/smm/reels-video"
+      "title": "Otel Oda Video Çekimi: Işık, Kadraj ve Hareket Rehberi",
+      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
     },
     {
-      "title": "Otel Sosyal Medya",
-      "href": "/tr/otel/sosyal-medya"
+      "title": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+    },
+    {
+      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
     }
   ],
   "sections": [
@@ -43613,7 +43854,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "F&B video, “menüyü göstermek”ten çok daha fazlasıdır: otelin karakterini, servisin kalitesini ve deneyimin ritmini anlatır. Restaurant Atmosphere videoları, mekânın hissini taşır; Food Styling ve close-up’lar iştahı açar; servis anı videoları ise güven üretir (“burada gerçekten iyi bir deneyim var”). En etkili F&B videoları, bu üç katmanı birlikte kullanır."
+            "text": "F&B video, “menüyü göstermek”ten çok daha fazlasıdır: otelin karakterini, servisin kalitesini ve deneyimin ritmini anlatır. Restaurant Atmosphere videoları, mekânın hissini taşır; Food Styling ve close-up’lar iştahı açar; servis anı videoları ise güven üretir (“burada gerçekten iyi bir deneyim var”). En etkili F&B videoları, bu üç katmanı birlikte kullanır ve [creative anlatıda yemek styling ve storytelling](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımıyla marka hissini güçlendirir."
         },
         {
           "type": "h3",
@@ -43646,7 +43887,7 @@
           "items": [
             "F&B videoyu 3 katmanla tasarla: atmosfer → close-up → servis anı.",
             "Reels için kısa “wow” seti, web için kanıt seti üret.",
-            "İç linklerle omni-channel rolü göster: `/tr/otel/sosyal-medya` ve `/tr/smm/reels-video`."
+            "İçerikleri kanala göre dağıtırken [otel sosyal medya içeriklerinde restoran ve bar deneyimi](https://dgtlface.com/tr/otel/sosyal-medya) ve [Reels video içerikleri](https://dgtlface.com/tr/smm/reels-video) akışını baştan planla."
           ]
         },
         {"type":"media", "slot":"h1-context-02"}
@@ -43658,7 +43899,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Atmosfer; ışık, kadraj ve ses ritmidir. “Premium” restoran hissi genelde sakin kamera + kontrollü ışık + temiz masa düzeniyle gelir. Bar tarafında ise ritim biraz daha hızlı olabilir; ama yine de kontrol şart."
+          "text": "Atmosfer; ışık, kadraj ve ses ritmidir. İyi bir [F&B çekimi](https://dgtlface.com/tr/creative/video-produksiyon), restoran ve bar sahnelerini [restoran ve bar atmosferi çekimi](https://dgtlface.com/tr/creative/blog/otel-ic-mekan-oda-video-cekimi) mantığıyla daha tutarlı hale getirir. “Premium” restoran hissi genelde sakin kamera + kontrollü ışık + temiz masa düzeniyle gelir. Bar tarafında ise ritim biraz daha hızlı olabilir; ama yine de kontrol şart."
         },
         {
           "type": "h3",
@@ -43835,7 +44076,7 @@
           "items": [
             "İnsan anlarını “kanıt” olarak kullan: servis, sunum, dokunuş.",
             "Akşam çekiminde hareketi yavaşlat; kalite artar.",
-            "Bar’da 3 adımlı hazırlık hikâyesiyle Reels’te güçlü akış kur."
+            "Bar’da 3 adımlı hazırlık hikâyesiyle [F&B videolarından Reels üretimi](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) için güçlü akış kur."
           ]
         }
       ]
@@ -43846,7 +44087,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: ışığı sadeleştir, styling’i temiz tut, atmosfer + close-up + servis dengesini kur, bar hazırlığını hikâyeye çevir ve Reels/reklam versiyonlarını önceden planla."
+          "text": "Kısa cevap: ışığı sadeleştir, styling’i temiz tut, atmosfer + close-up + servis dengesini kur, bar hazırlığını hikâyeye çevir ve Reels/reklam versiyonlarını önceden planla. Özellikle özel menü, brunch, gala ya da sezon açılışı gibi dönemlerde bu akışı [restoran ve bar lansman videosu](https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi) yaklaşımıyla eşleştirmek fark yaratır."
         },
         {
           "type": "list",
@@ -43883,7 +44124,7 @@
           "items": [
             "F&B çekimini “3 katman”la tasarla; sonra kanala göre kırp.",
             "Bar hazırlığını Reels için hikâyeye çevir (malzeme→hazırlık→servis).",
-            "İç linklerle entegrasyonu güçlendir: `/tr/creative/video-produksiyon`, `/tr/smm/reels-video`, `/tr/otel/sosyal-medya`."
+            "Reels, sosyal medya ve kampanya kullanımını çekim listesinin başında eşleştir; böylece sonradan eksik plan aramazsın."
           ]
         }
       ]
@@ -43894,7 +44135,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "F&B videoları, omni-channel performans içerikleridir. Aynı çekimden; Reels/Story, reklam, kampanya sayfası ve ana tanıtım videosu için ayrı set üretilebilir."
+          "text": "F&B videoları, omni-channel performans içerikleridir. Aynı çekimden; Reels/Story, reklam, kampanya sayfası ve ana tanıtım videosu için ayrı set üretilebilir. Bu setleri [restoran ve bar içeriklerinin dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından önceden eşleştirmek, yayın sonrasında daha dengeli sonuç verir."
         },
         {
           "type": "h3",
@@ -43950,6 +44191,10 @@
         {
           "type": "p",
           "text": "Varsayım: Çekim gününün kapsamına göre toplam adet artabilir/azalabilir; hedef mantık “blok → kanal seti”dir."
+        },
+        {
+          "type": "p",
+          "text": "Prodüksiyon süreci, teslimat formatları ve kullanım alanlarıyla ilgili detaylar için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına da göz atabilirsiniz."
         },
         {
           "type": "table",
@@ -44113,7 +44358,13 @@
         "Web ve sosyal medya için ayrı export ayarları planlandı (oran, bitrate, sıkıştırma)",
         "Reels akışı (15–30 sn) kurguda planlandı",
         "Reklam hook’ları (6–15 sn) işaretlendi",
-        "Mahremiyet/yüz görünümü kontrol edildi"
+        "Mahremiyet/yüz görünümü kontrol edildi",
+        "Parent URL girişte 1 kez, F&B çekimi bağlamında 1 kez kullanıldı; toplam görünür kullanım 2 ile sınırlandı",
+        "Cluster hub /tr/creative-ve-tasarim yemek styling ile storytelling bağlamında 1 kez kullanıldı",
+        "Sibling linkler: iç mekân / oda video çekimi, dikey video / Reels / TikTok prodüksiyon ve kampanya / lansman video stratejisi doğal anchorlarla dağıtıldı",
+        "Cross-silo linkler: /tr/smm/reels-video, /tr/otel/sosyal-medya ve /tr/otel-dijital-pazarlama bağlama uygun şekilde eklendi",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
+        "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-ic-mekan-oda-video-cekimi, /tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon, /tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi, /tr/smm/reels-video, /tr/otel/sosyal-medya, /tr/otel-dijital-pazarlama"
       ]
     }
   }
@@ -44167,7 +44418,7 @@
   },
   "h1": {
     "title": "Otel Videolarında Kurgu ve Renk Düzenleme: Hikâyeyi Güçlendiren Son Dokunuş",
-    "intro": "“Videom düz, nasıl daha sinematik yaparım?” ve “otel videosuna hangi LUT gider?” gibi sorular, post prodüksiyonun oteller için ne kadar kritik olduğunu gösteriyor. Çünkü çekim gününde “iyi” görünen sahneler, kurguda yanlış sıralanırsa etkisini kaybeder; renk düzenleme tutarsızsa otelin premium algısı zayıflar. Özellikle Antalya, Belek ve Bodrum gibi görsel çeşitliliği yüksek destinasyonlarda (spa–havuz–oda–restoran), her alanın atmosferi farklıdır ve bunları tek film içinde dengeli taşımak gerekir. Bu rehberde; kurgu akışını, müzik–ritim yönetimini, color grading stratejisini ve web–Reels–TV versiyonlamayı uygulanabilir adımlarla kuracağız.",
+    "intro": "“Videom düz, nasıl daha sinematik yaparım?” ve “otel videosuna hangi LUT gider?” gibi sorular, [otel video kurgusu](https://dgtlface.com/tr/creative/video-produksiyon) ve post prodüksiyonun oteller için ne kadar kritik olduğunu gösteriyor. Çünkü çekim gününde “iyi” görünen sahneler, kurguda yanlış sıralanırsa etkisini kaybeder; renk düzenleme tutarsızsa otelin premium algısı zayıflar. Özellikle Antalya, Belek ve Bodrum gibi görsel çeşitliliği yüksek destinasyonlarda (spa–havuz–oda–restoran), her alanın atmosferi farklıdır ve bunları tek film içinde dengeli taşımak gerekir. Bu rehberde; kurgu akışını, müzik–ritim yönetimini, color grading stratejisini ve web–Reels–TV versiyonlamayı uygulanabilir adımlarla kuracağız.",
     "quickSummary": [
       "1) Shot selection yap: “en güçlü kanıt” sahnelerini seç (kill your darlings)",
       "2) Akışı kur: giriş wow → oda kanıtı → deneyimler → CTA",
@@ -44199,12 +44450,24 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
-      "label": "Reels Video",
-      "href": "/tr/smm/reels-video"
-    },
-    {
       "label": "Creative ve Tasarım",
       "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Ses, Müzik ve Seslendirme",
+      "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
+    },
+    {
+      "label": "Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "label": "Video Performans Analizi",
+      "href": "/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum"
+    },
+    {
+      "label": "Reels Video",
+      "href": "/tr/smm/reels-video"
     },
     {
       "label": "Otel Dijital Pazarlama",
@@ -44213,12 +44476,16 @@
   ],
   "relatedPosts": [
     {
-      "title": "Reels Video",
-      "href": "/tr/smm/reels-video"
+      "title": "Otel Videolarında Ses, Müzik ve Seslendirme Rehberi",
+      "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
     },
     {
-      "title": "Otel Dijital Pazarlama",
-      "href": "/tr/otel-dijital-pazarlama"
+      "title": "Otel Video Asset Stratejisi: 1 Günde 30+ İçerik",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "title": "Otel Video Performans Analizi: İzlenme, Tamamlama, Rezervasyon",
+      "href": "/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum"
     }
   ],
   "sections": [
@@ -44228,7 +44495,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kurgu (Video Editing), izleyicinin “hikâyeyi nasıl deneyimleyeceğini” belirler; renk düzenleme (Color Grading) ise “hikâyenin nasıl hissedileceğini” belirler. Otel videosu; sadece bilgi vermek değil, duygu üretmek zorundadır: huzurlu spa, canlı havuz, sıcak oda, şık restoran… Bu duygular, sahne seçimi ve tonlamayla şekillenir."
+            "text": "Kurgu (Video Editing), izleyicinin “hikâyeyi nasıl deneyimleyeceğini” belirler; renk düzenleme (Color Grading) ise “hikâyenin nasıl hissedileceğini” belirler. İyi çekilmiş ham görüntünün premium anlatıya dönüşmesi, doğru bir [creative üretimde post prodüksiyon akışı](https://dgtlface.com/tr/creative-ve-tasarim) kurulmasına bağlıdır. Otel videosu; sadece bilgi vermek değil, duygu üretmek zorundadır: huzurlu spa, canlı havuz, sıcak oda, şık restoran… Bu duygular, sahne seçimi ve tonlamayla şekillenir."
         },
         {"type":"media", "slot":"h1-context-02"},
         {
@@ -44329,7 +44596,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: en iyi sahneleri seç, ritmi müzikle eşleştir, geçişleri B-roll ile yumuşat ve color grading ile atmosferleri tutarlı hale getir; ardından web ve Reels için yeniden kurgula."
+          "text": "Kısa cevap: en iyi sahneleri seç, ritmi müzikle eşleştir, geçişleri B-roll ile yumuşat ve color grading ile atmosferleri tutarlı hale getir; ardından web ve Reels için yeniden kurgula. Bunu düzenli [kurgu performans analizi](https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum) ile okumak, hangi sahnelerin izleyiciyi taşıdığını daha net gösterir."
         },
         {
           "type": "list",
@@ -44366,7 +44633,7 @@
           "items": [
             "Önce long form master’ı doğru kur; sonra kısa versiyonları “recut” et.",
             "Her kanal için süre hedefini sabitle (web/reels/ad).",
-            "İç linklerle dağıtım bağını güçlendir: `/tr/otel-dijital-pazarlama` ve `/tr/smm/reels-video`."
+            "Dağıtım planını çekim sonrası değil, kurgu aşamasında netleştir; böylece CTA ve süre kararları daha tutarlı olur."
           ]
         }
       ]
@@ -44377,7 +44644,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Müzik, otel videosunda “görünmeyen yönetmen” gibidir. Yanlış müzik seçimi, en iyi görüntüyü bile sıradanlaştırır. Doğru ritim; sahne sürelerini, cut noktalarını ve geçişleri belirler."
+          "text": "Müzik, otel videosunda “görünmeyen yönetmen” gibidir. Yanlış müzik seçimi, en iyi görüntüyü bile sıradanlaştırır. Doğru ritim; sahne sürelerini, cut noktalarını ve geçişleri belirler. Bu aşamada [kurgu ritmini güçlendiren ses ve müzik kullanımı](https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme) yaklaşımı, yalnızca duygu değil akış kalitesi de üretir."
         },
         {
           "type": "h3",
@@ -44433,7 +44700,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Color grading, otelin “hissi”dir. Aynı film içinde spa–havuz–oda–restoran atmosferleri farklı olabilir; ama marka bütünlüğü bozulmamalıdır. Amaç: farklı sahnelerde “ton farkı” yaratmak, fakat “başka video” gibi görünmemesini sağlamak."
+          "text": "Doğru [color grading](https://dgtlface.com/tr/creative/video-produksiyon), otelin “hissi”ni belirleyen en kritik post prodüksiyon katmanlarından biridir. Aynı film içinde spa–havuz–oda–restoran atmosferleri farklı olabilir; ama marka bütünlüğü bozulmamalıdır. Amaç: farklı sahnelerde “ton farkı” yaratmak, fakat “başka video” gibi görünmemesini sağlamak."
         },
         {
           "type": "h3",
@@ -44497,7 +44764,7 @@
         },
         {
           "type": "p",
-          "text": "Aynı videoyu her yere aynı şekilde koymak, etkiyi düşürür. Versiyonlama; süre, kadraj ve mesajın kanala göre yeniden kurgulanmasıdır."
+          "text": "Aynı videoyu her yere aynı şekilde koymak, etkiyi düşürür. Versiyonlama; süre, kadraj ve mesajın kanala göre yeniden kurgulanmasıdır. Burada [video asset versiyonlama](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) mantığı ile [long form ve Reels versiyonlama](https://dgtlface.com/tr/smm/reels-video) yaklaşımını birlikte kurmak gerekir."
         },
         {
           "type": "h3",
@@ -44594,6 +44861,10 @@
               "Odayı incele"
             ]
           ]
+        },
+        {
+          "type": "p",
+          "text": "Final teslimleri [otel videolarının dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından eşleştirip, revizyon ve teslim format detayları için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını da değerlendirebilirsiniz."
         }
       ]
     },
@@ -44704,7 +44975,13 @@
         "Reels için recut (sadece kırpma değil) yapıldı",
         "Cilt tonları ve beyaz dengesi kontrol edildi",
         "LUT + sahne bazlı ince ayar yaklaşımı uygulandı",
-        "Master dosya yüksek kalitede arşivlendi"
+        "Master dosya yüksek kalitede arşivlendi",
+        "Parent URL girişte 1 kez, color grading bağlamında 1 kez kullanıldı; toplam görünür kullanım 2 ile sınırlandı",
+        "Cluster hub /tr/creative-ve-tasarim post prodüksiyon akışı bağlamında 1 kez kullanıldı",
+        "Sibling linkler: ses / müzik / seslendirme, video asset stratejisi ve video performans analizi doğal anchorlarla dağıtıldı",
+        "Cross-silo linkler: /tr/smm/reels-video ve /tr/otel-dijital-pazarlama bağlama uygun şekilde eklendi",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
+        "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-video-ses-muzik-seslendirme, /tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik, /tr/creative/blog/otel-video-performans-analizi-izlenme-donusum, /tr/smm/reels-video, /tr/otel-dijital-pazarlama"
       ]
     }
   }
@@ -44759,7 +45036,7 @@
   },
   "h1": {
     "title": "Otel Videolarında Ses, Müzik ve Seslendirme: Duyguyu Taşıyan Katman",
-    "intro": "“Videom güzel ama bir şey eksik, müzik mi?” sorusu, otel videolarında en doğru teşhislerden biridir. Çünkü görüntü “kanıt” üretirken, ses dünyası “duygu” üretir: spa’da huzur, havuzda enerji, restoranda sıcak ambiyans, odada güven… Yanlış müzik seçimi veya dengesiz ses mix’i; çok iyi çekilmiş görüntüleri bile rahatsız edici hale getirip izleyicinin videoyu yarıda kapatmasına neden olabilir. Antalya, Belek ve Bodrum gibi destinasyonlarda aile oteli, adults-only ve luxury spa gibi konseptler aynı “ses dili”ni kullanamaz; her konseptin ritmi ve tonu farklıdır. Bu rehber; müzik seçimi–lisans, ambiyans/foley, çok dilli VO (TR–EN–DE–RU) ve TV/web/sosyal platformlarına göre mix prensiplerini pratik bir sistemle anlatır.",
+    "intro": "“Videom güzel ama bir şey eksik, müzik mi?” sorusu, [otel videosunda müzik seçimi](https://dgtlface.com/tr/creative/video-produksiyon) planlamasının ne kadar kritik olduğunu gösterir. Çünkü görüntü “kanıt” üretirken, ses dünyası “duygu” üretir: spa’da huzur, havuzda enerji, restoranda sıcak ambiyans, odada güven… Yanlış müzik seçimi veya dengesiz ses mix’i; çok iyi çekilmiş görüntüleri bile rahatsız edici hale getirip izleyicinin videoyu yarıda kapatmasına neden olabilir. Antalya, Belek ve Bodrum gibi destinasyonlarda aile oteli, adults-only ve luxury spa gibi konseptler aynı “ses dili”ni kullanamaz; her konseptin ritmi ve tonu farklıdır. Bu rehber; müzik seçimi–lisans, ambiyans/foley, çok dilli VO (TR–EN–DE–RU) ve TV/web/sosyal platformlarına göre mix prensiplerini pratik bir sistemle anlatır.",
     "quickSummary": [
       "1) Konsepti belirle: aile / adults-only / luxury spa / beach bar",
       "2) Lisansı doğrula: kullanım kapsamı (platform/ülke/süre)",
@@ -44795,6 +45072,18 @@
       "href": "/tr/creative-ve-tasarim"
     },
     {
+      "label": "Kurgu ve Renk Düzenleme",
+      "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
+    },
+    {
+      "label": "Çok Dilli Video Versiyonlama",
+      "href": "/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru"
+    },
+    {
+      "label": "Senaryo ve Storyboard",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
+    },
+    {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
     },
@@ -44809,8 +45098,12 @@
       "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
     },
     {
-      "title": "Otel F&B Video Rehberi: Restoran, Bar ve Yemek Çekimleri",
-      "href": "/tr/creative/blog/otel-restoran-bar-video-cekimi"
+      "title": "TR–EN–DE–RU Otel Video Versiyonlama: Altyazı ve Seslendirme",
+      "href": "/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru"
+    },
+    {
+      "title": "Otel Tanıtım Videosu Senaryo & Storyboard Rehberi",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
     }
   ],
   "sections": [
@@ -44820,7 +45113,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ses; görüntünün “alt yazısı” gibidir: izleyici fark etmese bile hisseder. Otel videolarında sesin rolü üç katmanda görülür:"
+          "text": "Ses; görüntünün “alt yazısı” gibidir: izleyici fark etmese bile hisseder. Otel videolarında sesin rolü üç katmanda görülür ve bu katmanlar [duyguyu taşıyan creative ses tasarımı](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımıyla anlam kazanır:"
         },
         {
           "type": "list",
@@ -44915,7 +45208,7 @@
         },
         {
           "type": "p",
-          "text": "Bu yüzden müzik seçimi, timeline akışını doğrudan belirler."
+          "text": "Bu yüzden müzik seçimi, timeline akışını doğrudan belirler ve [kurgu ritmi ve ses uyumu](https://dgtlface.com/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme) birlikte düşünülmeden güçlü bir post prodüksiyon çıkmaz."
         },
         {
           "type": "callout",
@@ -44945,7 +45238,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ambiyans sesleri (Ambience Sound), videoya mekân hissi verir: dalga sesi, kuşlar, restoran uğultusu, kahve makinesi… Foley ise sahneye “dokunma” katar: bardaki shaker, tabak koyma, çatal sesi gibi. Bu katmanlar doğru dozda kullanılırsa videoyu gerçek yapar; abartılırsa yapay durur."
+          "text": "Doğru [ambiyans sesi](https://dgtlface.com/tr/creative/video-produksiyon), videoya mekân hissi verir: dalga sesi, kuşlar, restoran uğultusu, kahve makinesi… Foley ise sahneye “dokunma” katar: bardaki shaker, tabak koyma, çatal sesi gibi. Bu katmanlar doğru dozda kullanılırsa videoyu gerçek yapar; abartılırsa yapay durur."
         },
         {
           "type": "h3",
@@ -45010,7 +45303,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Voice-over (VO), otel videosunda yönlendirme ve güven sağlar; özellikle çok dilli pazarlarda mesajın kontrolünü artırır. Ancak her videoda şart değildir: bazı konseptlerde metinsiz (müzik + overlay) daha modern durabilir."
+          "text": "Voice-over (VO), otel videosunda yönlendirme ve güven sağlar; özellikle çok dilli pazarlarda mesajın kontrolünü artırır. Ancak her videoda şart değildir: bazı konseptlerde metinsiz (müzik + overlay) daha modern durabilir. Buradaki [voice-over kurgusu](https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard), sahne akışı ve vurgu cümleleriyle birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -45032,7 +45325,7 @@
         },
         {
           "type": "p",
-          "text": "En iyi pratik: tek bir “master script” ve dil bazlı uyarlamalar. Burada amaç kelime kelime çeviri değil, mesajı pazara göre doğru tonda taşımaktır."
+          "text": "En iyi pratik: tek bir “master script” ve dil bazlı uyarlamalar. Burada amaç kelime kelime çeviri değil, mesajı pazara göre doğru tonda taşımaktır. Özellikle [çok dilli voice-over versiyonlama](https://dgtlface.com/tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru) planı kurulursa, TR / EN / DE / RU pazarlarda aynı master videodan daha doğal sonuç alınır."
         },
         {
           "type": "p",
@@ -45116,7 +45409,7 @@
           "items": [
             "Reels için “daha ritmik” ama premium çizgide bir mix üret.",
             "Web’de daha stabil ve yormayan bir ses dünyası kur.",
-            "İç linklerle marka deneyimi bağını güçlendir: `/tr/otel-dijital-pazarlama` ve `/tr/creative-ve-tasarim`."
+            "Ses kararlarını çekim sonrası değil, dağıtım hedefleriyle birlikte netleştir; böylece marka dili daha tutarlı kalır."
           ]
         }
       ]
@@ -45127,7 +45420,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Aynı ses miksini her yerde kullanmak risklidir. Çünkü platformların sıkıştırması ve kullanıcı dinleme ortamı farklıdır: TV’de dinamik aralık farklı, telefonda hoparlör kısıtlı, sosyalde dikkat süresi kısa."
+          "text": "Aynı ses miksini her yerde kullanmak risklidir. Çünkü platformların sıkıştırması ve kullanıcı dinleme ortamı farklıdır: TV’de dinamik aralık farklı, telefonda hoparlör kısıtlı, sosyalde dikkat süresi kısa. Bu yüzden [Reels videolarında müzik ve ses kullanımı](https://dgtlface.com/tr/smm/reels-video) ile web veya uzun form kullanımını ayrı ayrı planlamak gerekir."
         },
         {
           "type": "h3",
@@ -45213,7 +45506,7 @@
         },
         {
           "type": "p",
-          "text": "Varsayım: Kurum içi standardınıza göre seviye hedefleri “checklist”te maddelenir."
+          "text": "Varsayım: Kurum içi standardınıza göre seviye hedefleri “checklist”te maddelenir. Final miksleri [ses ve müziğin otel dijital pazarlama etkisi](https://dgtlface.com/tr/otel-dijital-pazarlama) açısından eşleştirip, teslim ve revizyon detayları için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını da inceleyebilirsiniz."
         }
       ]
     },
@@ -45324,7 +45617,13 @@
         "TV/Web/Sosyal platform mix’leri ayrı alındı",
         "Seviye/LUFS ve ses formatı notları kurumsal hedeflere göre kontrol edildi",
         "Telif haklarına uygun kullanım doğrulandı",
-        "Master ses dosyası yüksek kalitede arşivlendi"
+        "Master ses dosyası yüksek kalitede arşivlendi",
+        "Parent URL girişte 1 kez, ambiyans sesi bağlamında 1 kez kullanıldı; toplam görünür kullanım 2 ile sınırlandı",
+        "Cluster hub /tr/creative-ve-tasarim duyguyu taşıyan creative ses tasarımı bağlamında 1 kez kullanıldı",
+        "Sibling linkler: kurgu ve renk düzenleme, çok dilli video versiyonlama ve senaryo / storyboard doğal anchorlarla dağıtıldı",
+        "Cross-silo linkler: /tr/smm/reels-video ve /tr/otel-dijital-pazarlama bağlama uygun şekilde eklendi",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
+        "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme, /tr/creative/blog/cok-dilli-otel-video-versiyonlama-tr-en-de-ru, /tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard, /tr/smm/reels-video, /tr/otel-dijital-pazarlama"
       ]
     }
   }
@@ -45379,7 +45678,7 @@
   },
   "h1": {
     "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
-    "intro": "“Sezon açılışı için nasıl bir video çekmeliyim?” ve “bayram kampanyası videosunda ne göstermeliyim?” soruları, otellerin en pahalı kararlarına bağlanır: doğru zamanda doğru mesajı vermezseniz bütçe boşa gider; doğru verirseniz talebi pik yaptığı anda yakalarsınız. Özellikle Antalya, Belek, Side ve Bodrum gibi sezonsal dalgası yüksek destinasyonlarda; erken rezervasyon, bayram, okul tatili ve yılbaşı dönemleri net bir “kampanya video takvimi” ister. Kampanya videoları, always-on tanıtım filminden farklıdır: kısa, vurucu, teklif odaklı ve kanala göre versiyonlanmış olmalıdır. Bu rehberde; kampanya senaryolarını, format setini, medya planını ve lansman sonrası analiz döngüsünü tek bir playbook’ta topluyoruz.",
+    "intro": "“Sezon açılışı için nasıl bir video çekmeliyim?” ve “bayram kampanyası videosunda ne göstermeliyim?” soruları, [otel kampanya videosu](https://dgtlface.com/tr/creative/video-produksiyon) üretiminin oteller için ne kadar kritik olduğunu gösterir: doğru zamanda doğru mesajı vermezseniz bütçe boşa gider; doğru verirseniz talebi pik yaptığı anda yakalarsınız. Özellikle Antalya, Belek, Side ve Bodrum gibi sezonsal dalgası yüksek destinasyonlarda; erken rezervasyon, bayram, okul tatili ve yılbaşı dönemleri net bir “kampanya video takvimi” ister. Kampanya videoları, always-on tanıtım filminden farklıdır: kısa, vurucu, teklif odaklı ve kanala göre versiyonlanmış olmalıdır. Bu rehberde; kampanya senaryolarını, format setini, medya planını ve lansman sonrası analiz döngüsünü tek bir playbook’ta topluyoruz.",
     "quickSummary": [
       "1) Dönem seç: açılış / sezon başlangıcı / bayram / yılbaşı / erken rezervasyon",
       "2) Tek vaat + teklif yaz: “%X avantaj”, “program”, “sınırlı kontenjan”",
@@ -45411,6 +45710,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "label": "4 Mevsim Otel Video Planı",
+      "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
+    },
+    {
+      "label": "Otel Reels & TikTok Çekimi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+    },
+    {
       "label": "SEM",
       "href": "/tr/sem"
     },
@@ -45421,20 +45736,20 @@
     {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
-    },
-    {
-      "label": "Satış & Dönüşüm Raporlama",
-      "href": "/tr/raporlama/satis-donusum"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Videolarında Kurgu ve Renk Düzenleme Rehberi",
-      "href": "/tr/creative/blog/otel-video-kurgu-ve-renk-duzenleme"
+      "title": "Otel Video Asset Stratejisi: 1 Günde 30+ İçerik",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
     },
     {
-      "title": "Otel Videolarında Ses, Müzik ve Seslendirme Rehberi",
-      "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
+      "title": "4 Mevsim Otel Video Planı: Yaz, Kış ve Özel Dönemler",
+      "href": "/tr/creative/blog/otel-4-mevsim-video-icerik-plani"
+    },
+    {
+      "title": "Otel Reels & TikTok Çekimi: Dikey Video Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
     }
   ],
   "sections": [
@@ -45444,7 +45759,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kampanya video, “dönemsel talebi yakalayan satış motoru”dur. Always-on tanıtım filmi oteli anlatır; kampanya video ise şimdi neden gelinmesi gerektiğini söyler. Bu yüzden kampanya videoda “her şeyi göstermek” yerine, tek bir vaat ve net bir teklif/aksiyon gerekir."
+          "text": "Kampanya video, “dönemsel talebi yakalayan satış motoru”dur. Always-on tanıtım filmi oteli anlatır; kampanya video ise şimdi neden gelinmesi gerektiğini söyler. Bu yüzden kampanya videoda “her şeyi göstermek” yerine, tek bir vaat ve net bir teklif/aksiyon gerekir. Güçlü bir [kampanya videosunun creative stratejisi](https://dgtlface.com/tr/creative-ve-tasarim), sezon mesajını marka anlatısıyla aynı çizgide tutar."
         },
         {"type":"media", "slot":"h1-context-02"},
         {
@@ -45490,7 +45805,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kampanya senaryosu, dönemin psikolojisine göre değişir. Erken rezervasyon “fiyat/avantaj”, bayram “kısa kaçış ve doluluk”, yılbaşı “program ve atmosfer” üzerinden çalışır."
+          "text": "Kampanya senaryosu, dönemin psikolojisine göre değişir. Doğru bir [sezon açılışı filmi](https://dgtlface.com/tr/creative/video-produksiyon), erken rezervasyon “fiyat/avantaj”, bayram “kısa kaçış ve doluluk”, yılbaşı “program ve atmosfer” anlatılarını aynı çatı altında toplarken [özel dönem lansman videoları](https://dgtlface.com/tr/creative/blog/otel-4-mevsim-video-icerik-plani) için de tekrar kullanılabilir bir plan oluşturur."
         },
         {
           "type": "h3",
@@ -45611,7 +45926,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kampanya video stratejisi, medya planı olmadan eksik kalır. Çünkü her kanal farklı süre/oran ve farklı izleme davranışı ister."
+          "text": "Kampanya video stratejisi, [kampanya için çok formatlı video asset üretimi](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) ve [kampanya videosunun Reels ve TikTok versiyonları](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) düşünülmeden eksik kalır. Çünkü her kanal farklı süre/oran ve farklı izleme davranışı ister."
         },
         {
           "type": "h3",
@@ -45648,10 +45963,10 @@
           "type": "list",
           "style": "ul",
           "items": [
-            "`/tr/sem` (kampanya bütçesi ve arama reklamları bağlamı)",
-            "`/tr/smm/sosyal-medya-reklamlari` (video kreatif → medya plan)",
-            "`/tr/otel-dijital-pazarlama` (omni-channel strateji)",
-            "`/tr/raporlama/satis-donusum` (ölçüm ve dönüşüm raporlama)"
+            "[medya planına uygun video setleri](https://dgtlface.com/tr/sem) kampanya bütçesi, arama reklamları ve YouTube dağıtımı tarafını güçlendirir.",
+            "[sosyal medya reklamları için kampanya videoları](https://dgtlface.com/tr/smm/sosyal-medya-reklamlari) Instagram, Facebook ve kısa dikey reklam setlerinde daha doğru sonuç verir.",
+            "Omni-channel stratejide landing, reklam ve yaratıcı setler aynı dilde çalışmalıdır.",
+            "Ölçüm ve dönüşüm raporlama hattı ayrıca planlanmalıdır."
           ]
         },
         {
@@ -45735,7 +46050,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kampanya video stratejisini büyüten şey, “öğrenim”dir. Bir sonraki sezonda bütçeyi boşa yakmamak için; hangi formatın, hangi hook’un, hangi kanalın çalıştığını kaydetmek gerekir."
+          "text": "Kampanya video stratejisini büyüten şey, “öğrenim”dir. Bir sonraki sezonda bütçeyi boşa yakmamak için; hangi formatın, hangi hook’un, hangi kanalın çalıştığını kaydetmek gerekir. Bu öğrenimi [otel dijital pazarlama için lansman videosu](https://dgtlface.com/tr/otel-dijital-pazarlama) mantığıyla rezervasyon ve talep yaratım kararlarına bağlamak asıl farkı yaratır."
         },
         {
           "type": "h3",
@@ -45828,6 +46143,10 @@
               "Kanıt döngüsü"
             ]
           ]
+        },
+        {
+          "type": "p",
+          "text": "Teslim formatları, revizyon süreci ve kullanım alanlarıyla ilgili detaylar için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını da inceleyebilirsiniz."
         }
       ]
     },
@@ -45937,7 +46256,14 @@
         "Teaser–launch–retargeting yayın takvimi oluşturuldu",
         "OTA ve sessiz izleme için altyazı/overlay kontrol edildi",
         "GA4/Ads/CRM ölçüm altyapısı ve KPI’lar tanımlandı",
-        "İzlenme/CTR/rezervasyon/ROAS raporlama yapısı hazırlandı"
+        "İzlenme/CTR/rezervasyon/ROAS raporlama yapısı hazırlandı",
+        "Parent URL girişte 1 kez, sezon açılışı filmi bağlamında 1 kez kullanıldı; toplam görünür kullanım 2 ile sınırlandı",
+        "Cluster hub /tr/creative-ve-tasarim kampanya videosunun creative stratejisi bağlamında 1 kez kullanıldı",
+        "Sibling linkler: video asset stratejisi, 4 mevsim video planı ve dikey video / Reels / TikTok prodüksiyon doğal anchorlarla dağıtıldı",
+        "Cross-silo linkler: /tr/sem, /tr/smm/sosyal-medya-reklamlari ve /tr/otel-dijital-pazarlama bağlama uygun şekilde eklendi",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
+        "otel-dikey-video-reels-tiktok-produsksiyon slug'ı içerikte verilen haliyle kullanıldı; canlı URL / redirect kontrolü QA aşamasına bırakıldı",
+        "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik, /tr/creative/blog/otel-4-mevsim-video-icerik-plani, /tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon, /tr/sem, /tr/smm/sosyal-medya-reklamlari, /tr/otel-dijital-pazarlama"
       ]
     }
   }
@@ -45992,7 +46318,7 @@
   },
   "h1": {
     "title": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
-    "intro": "“Çekim günü kaosa dönmesin, seti nasıl yönetirim?” ve “otel ekibiyle prodüksiyon ekibi nasıl uyum sağlar?” soruları, otel çekimlerinin gerçek problemidir. Çünkü otelde çekim yaparken bir yandan kamera hareket eder, kablolar uzar, ekip yer değiştirir; diğer yandan otel operasyonu devam eder: housekeeping koridordadır, F&B servis taşır, resepsiyon misafir trafiğini yönetir. İyi yönetilen bir set; görüntü kalitesini yükseltirken, otel operasyonunun konforunu da korur. Bu rehberde; Production Set kurgusunu, Call Sheet düzenini, Crew Roles dağılımını, Hotel Staff Coordination adımlarını ve Safety/Guest Privacy standartlarını çekim günü playbook’u olarak vereceğiz.",
+    "intro": "“Çekim günü kaosa dönmesin, seti nasıl yönetirim?” ve “otel ekibiyle prodüksiyon ekibi nasıl uyum sağlar?” soruları, [otel çekim günü yönetimi](https://dgtlface.com/tr/creative/video-produksiyon) ihtiyacının en net göstergesidir. Çünkü otelde çekim yaparken bir yandan kamera hareket eder, kablolar uzar, ekip yer değiştirir; diğer yandan otel operasyonu devam eder: housekeeping koridordadır, F&B servis taşır, resepsiyon misafir trafiğini yönetir. İyi yönetilen bir set; görüntü kalitesini yükseltirken, otel operasyonunun konforunu da korur. Bu rehberde; Production Set kurgusunu, Call Sheet düzenini, Crew Roles dağılımını, Hotel Staff Coordination adımlarını ve Safety/Guest Privacy standartlarını çekim günü playbook’u olarak vereceğiz.",
     "quickSummary": [
       "1) Crew Roles + otel sorumlularını netleştir (tek muhatap)",
       "2) Call Sheet’i saat–lokasyon–hazırlık koşulu ile yaz",
@@ -46028,6 +46354,18 @@
       "href": "/tr/creative-ve-tasarim"
     },
     {
+      "label": "Tanıtım Videosu Planlama",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir"
+    },
+    {
+      "label": "Senaryo ve Storyboard",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
+    },
+    {
+      "label": "Tek Günde Fotoğraf ve Video Çekimi",
+      "href": "/tr/creative/blog/otel-fotograf-video-cekimi-aynigun"
+    },
+    {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
     },
@@ -46038,12 +46376,16 @@
   ],
   "relatedPosts": [
     {
-      "title": "Otel İç Mekân ve Oda Video Çekimi: Işık, Kadraj ve Hareket",
-      "href": "/tr/creative/blog/otel-ic-mekan-oda-video-cekimi"
+      "title": "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir"
     },
     {
-      "title": "Otel F&B Video Rehberi: Restoran, Bar ve Yemek Çekimleri",
-      "href": "/tr/creative/blog/otel-restoran-bar-video-cekimi"
+      "title": "Otel Tanıtım Videosu Senaryo & Storyboard Rehberi",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
+    },
+    {
+      "title": "Tek Günde Otel Foto+Video Çekimi: Entegre Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-fotograf-video-cekimi-aynigun"
     }
   ],
   "sections": [
@@ -46053,7 +46395,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Set yönetimi, “kim neye karar verir” sorusunun netleştirilmesidir. Otelde çekim günü en hızlı kayıp, kararların muğlak olmasından gelir: sahneyi kim onaylıyor, oda hazır mı, misafir trafiği kapatıldı mı, drone uçuşu hangi pencerede?"
+          "text": "Set yönetimi, “kim neye karar verir” sorusunun netleştirilmesidir. Doğru bir [set ve ekip koordinasyonu](https://dgtlface.com/tr/creative/video-produksiyon), otelde çekim günü yaşanan en büyük kayıpları azaltır: sahneyi kim onaylıyor, oda hazır mı, misafir trafiği kapatıldı mı, drone uçuşu hangi pencerede?"
+        },
+        {
+          "type": "p",
+          "text": "Bu yüzden çekim günü disiplini, yalnız saha operasyonu değil; [creative üretimde set ve ekip koordinasyonu](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımının da kritik bir parçasıdır."
         },
         {"type":"media", "slot":"h1-context-02"},
         {
@@ -46124,7 +46470,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Call Sheet, çekim gününün tek kaynak gerçeğidir. Otelde call sheet daha da kritiktir; çünkü misafir yoğunluğu, housekeeping döngüsü ve restoran servis saatleri planı belirler. İyi call sheet, sahneleri sadece saatle değil “hazırlık koşullarıyla” da bağlar: oda hazır mı, alan kapalı mı, ışık penceresi uygun mu?"
+          "text": "Call Sheet, çekim gününün tek kaynak gerçeğidir. Otelde call sheet daha da kritiktir; çünkü misafir yoğunluğu, housekeeping döngüsü ve restoran servis saatleri planı belirler. Sağlam bir [çekim günü öncesi video planlama](https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir) çalışması yapılmadan call sheet sahada işlemeye başlamaz; iyi call sheet, sahneleri sadece saatle değil “hazırlık koşullarıyla” da bağlar: oda hazır mı, alan kapalı mı, ışık penceresi uygun mu? Burada [storyboard’dan çekim günü akışına geçiş](https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard) kritik rol oynar."
         },
         {
           "type": "h3",
@@ -46230,7 +46576,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Otel çekiminde kalite kadar önemli olan şey, otelin normal akışını bozmamaktır. Koordinasyonun ana prensibi: departmanları tek tek yormak yerine, tek bir operasyon muhatabı üzerinden sahaya yaymak."
+          "text": "Otel çekiminde kalite kadar önemli olan şey, otelin normal akışını bozmamaktır. Koordinasyonun ana prensibi: departmanları tek tek yormak yerine, tek bir operasyon muhatabı üzerinden sahaya yaymak. Özellikle [aynı gün fotoğraf ve video çekimi planı](https://dgtlface.com/tr/creative/blog/otel-fotograf-video-cekimi-aynigun) uygulanıyorsa, ekiplerin ve lokasyonların saat bazlı ayrıştırılması çok daha kritik hale gelir."
         },
         {
           "type": "h3",
@@ -46371,7 +46717,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Kısa cevap: rol dağılımını kilitle, call sheet’i operasyonla uyumla, departman koordinasyonunu tek muhatapla yönet, güvenlik–mahremiyet kurallarını yaz ve gün sonunda wrap-up ile kapat."
+          "text": "Kısa cevap: rol dağılımını kilitle, call sheet’i operasyonla uyumla, departman koordinasyonunu tek muhatapla yönet, güvenlik–mahremiyet kurallarını yaz ve gün sonunda wrap-up ile kapat. Aynı gün üretilecek tüm sahneleri, çekim günü çıktılarının otel dijital pazarlama kullanımı açısından da önceden sınıflandırmak gerekir."
         },
         {
           "type": "list",
@@ -46434,7 +46780,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Setin “iyi bitmesi”, en az iyi başlaması kadar önemli. Çünkü otelde çekim bitince operasyon devam eder; ekipman unutmak, veri kaybı yaşamak veya onaysız ayrılmak büyük risk yaratır."
+          "text": "Setin “iyi bitmesi”, en az iyi başlaması kadar önemli. Çünkü otelde çekim bitince operasyon devam eder; ekipman unutmak, veri kaybı yaşamak veya onaysız ayrılmak büyük risk yaratır. Bu noktada [misafir ve operasyon akışı](https://dgtlface.com/tr/cagri-merkezi-hizmetleri) bozulmadan bilgi akışını sürdürmek de çekim sonrası deneyimin parçasıdır."
         },
         {
           "type": "h3",
@@ -46524,6 +46870,10 @@
               "[ ]"
             ]
           ]
+        },
+        {
+          "type": "p",
+          "text": "Prodüksiyon süreci, ekip planlaması ve çekim günü hazırlıklarıyla ilgili daha fazla detay için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasına da göz atabilirsiniz."
         }
       ]
     },
@@ -46627,7 +46977,13 @@
         "Misafir yüzleri için izin/kaçınma kuralı yazılı hale getirildi",
         "Drone ve özel alan izinleri call sheet’e işlendi",
         "2x backup + kritik sahne playback kontrolü tamamlanmadan set kapanmıyor",
-        "Ekipman sayımı, alan teslimi, gün özeti ve pickup list wrap-up sürecine eklendi"
+        "Ekipman sayımı, alan teslimi, gün özeti ve pickup list wrap-up sürecine eklendi",
+        "Parent URL girişte 1 kez, set ve ekip koordinasyonu bağlamında 1 kez kullanıldı; toplam görünür kullanım 2 ile sınırlandı",
+        "Cluster hub /tr/creative-ve-tasarim creative üretimde set ve ekip koordinasyonu bağlamında 1 kez kullanıldı",
+        "Sibling linkler: tanıtım videosu planlama, senaryo / storyboard ve aynı gün fotoğraf-video çekimi doğal anchorlarla dağıtıldı",
+        "Cross-silo linkler: /tr/otel-dijital-pazarlama ve /tr/cagri-merkezi-hizmetleri bağlama uygun şekilde eklendi",
+        "FAQ linki sonuç alanında 1 kez kullanıldı",
+        "İç link hedefleri: /tr/creative/video-produksiyon, /tr/creative-ve-tasarim, /tr/creative/blog/otel-tanitim-videosu-nasil-planlanir, /tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard, /tr/creative/blog/otel-fotograf-video-cekimi-aynigun, /tr/otel-dijital-pazarlama, /tr/cagri-merkezi-hizmetleri"
       ]
     }
   }
@@ -46682,7 +47038,7 @@
   },
   "h1": {
     "title": "Influencer ile Otel Video Çekimleri: Marka Kontrolü ve Prodüksiyon Dengesi",
-    "intro": "“Influencer çağırıyoruz ama çekim kontrolden çıkıyor, ne yapmalıyım?” sorusu çok yaygın; çünkü influencer çekimi doğası gereği spontane, otel markası ise kontrol ve tutarlılık ister. İyi haber: bu ikisi çatışmak zorunda değil. Net bir brief, basit ama sert “olmazsa olmaz” görsel kurallar, ortak shot list ve hızlı bir içerik onay akışı kurduğunuzda; hem influencer’ın doğal dili korunur hem de otelin Hotel Promo standardı bozulmaz. Özellikle Antalya, Bodrum ve Alaçatı gibi influencer yoğun destinasyonlarda; yerli ve yabancı creator’larla çalışırken pazar uyumu (TR/EN/DE/RU), mecra hedefi (Reels/TikTok) ve kullanım hakları (Usage Rights) daha da kritik hale gelir. Bu rehber, influencer prodüksiyonunu “brand safe” ve verimli bir sisteme dönüştürmek için playbook sunar.",
+    "intro": "“Influencer çağırıyoruz ama çekim kontrolden çıkıyor, ne yapmalıyım?” sorusu çok yaygın; çünkü influencer çekimi doğası gereği spontane, otel markası ise kontrol ve tutarlılık ister. İyi haber: bu ikisi çatışmak zorunda değil. Net bir brief, basit ama sert “olmazsa olmaz” görsel kurallar, ortak shot list ve hızlı bir içerik onay akışı kurduğunuzda; hem influencer’ın doğal dili korunur hem de otelin Hotel Promo standardı bozulmaz. Özellikle Antalya, Bodrum ve Alaçatı gibi influencer yoğun destinasyonlarda; yerli ve yabancı creator’larla çalışırken pazar uyumu (TR/EN/DE/RU), mecra hedefi (Reels/TikTok) ve kullanım hakları (Usage Rights) daha da kritik hale gelir. Bu rehber, [influencer ile otel çekimi](https://dgtlface.com/tr/creative/video-produksiyon) sürecini “brand safe” ve verimli bir sisteme dönüştürmek için playbook sunar.",
     "quickSummary": [
       "1) Tek sayfalık brief + 1 cümle ana mesaj",
       "2) “Olmazsa olmaz” sahne listesi (oda, beach/havuz, F&B, spa)",
@@ -46714,6 +47070,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative ve Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Reels & TikTok Çekimi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
+    },
+    {
+      "label": "Misafir Üretimi (UGC) Otel Videoları",
+      "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+    },
+    {
+      "label": "Otel Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
       "label": "SMM",
       "href": "/tr/smm"
     },
@@ -46723,21 +47095,21 @@
     },
     {
       "label": "Otel Sosyal Medya",
-      "href": "/tr/otel-sosyal-medya"
-    },
-    {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/tr/otel-dijital-pazarlama"
+      "href": "/tr/otel/sosyal-medya"
     }
   ],
   "relatedPosts": [
     {
-      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
-      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+      "title": "Otel Reels & TikTok Çekimi: Dikey Video Prodüksiyon Rehberi",
+      "href": "/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon"
     },
     {
-      "title": "Otel F&B Video Rehberi: Restoran, Bar ve Yemek Çekimleri",
-      "href": "/tr/creative/blog/otel-restoran-bar-video-cekimi"
+      "title": "Misafir Üretimi (UGC) Otel Videoları: Toplama, Kürasyon ve Güvenli Kullanım",
+      "href": "/tr/creative/blog/otel-ugc-misafir-video-stratejisi"
+    },
+    {
+      "title": "Otel Video Asset Stratejisi: 1 Günde 30+ İçerik",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
     }
   ],
   "sections": [
@@ -46747,7 +47119,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Influencer içerikleri, otelin sosyal medya görünürlüğünü hızlandırabilir; ancak asıl değer, doğru kurgulanırsa ortaya çıkar:"
+          "text": "Influencer içerikleri, otelin sosyal medya görünürlüğünü hızlandırabilir; ancak asıl değer, doğru kurgulanırsa ortaya çıkar. Bu modeli [creative üretimde creator + profesyonel ekip dengesi](https://dgtlface.com/tr/creative-ve-tasarim) içinde kurduğunuzda spontane üretim ile marka standardı aynı sistemde buluşur:"
         },
         {
           "type": "list",
@@ -46772,6 +47144,10 @@
           ]
         },
         {
+          "type": "p",
+          "text": "Burada influencer işbirliğini creator işbirliğinin sosyal medya stratejisindeki rolü ile birlikte düşünmek gerekir; çünkü dağıtım planı, kanal dili ve içerik ömrü daha brief aşamasında belirlenmelidir. Aynı zamanda bu modelin [UGC ve misafir video stratejisi](https://dgtlface.com/tr/creative/blog/otel-ugc-misafir-video-stratejisi) ile karıştırılmaması önemlidir; biri marka kontrollü creator işbirliği, diğeri ise misafir üretimi sosyal kanıt hattıdır."
+        },
+        {
           "type": "callout",
           "variant": "checklist",
           "title": "Mini Check (Stratejik rol)",
@@ -46788,7 +47164,7 @@
           "items": [
             "Influencer’ı “tek paylaşım” değil “çoklu asset üreticisi” olarak konumlandır.",
             "Hedefi netleştir: awareness mı, kampanya/rezervasyon mu?",
-            "İç link stratejisi: `/tr/smm` ve `/tr/smm/reels-video` üzerinden dağıtım planına bağla."
+            "Dağıtım planını kanal bazında önceden yaz; organik ve ücretli kullanım senaryolarını ayır."
           ]
         }
       ]
@@ -46871,7 +47247,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Co-Production (influencer + profesyonel ekip) modeli, en iyi dengeyi sağlar: influencer doğal dili üretir; profesyonel ekip ise teknik kaliteyi ve marka standardını korur. Buradaki kritik konu: iki tarafın da aynı shot list üzerinden çalışmasıdır."
+          "text": "[Marka kontrollü creator prodüksiyonu](https://dgtlface.com/tr/creative/video-produksiyon) modeli, en iyi dengeyi sağlar: influencer doğal dili üretir; profesyonel ekip ise teknik kaliteyi ve marka standardını korur. Buradaki kritik konu: iki tarafın da aynı shot list üzerinden çalışmasıdır."
         },
         {
           "type": "h3",
@@ -46927,7 +47303,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Influencer içeriğinin ana arenası dikeydir. Dikey video planlamazsanız, influencer doğal çeker ama “markalı sonuç” performans vermez."
+          "text": "Influencer içeriğinin ana arenası dikeydir. Bu yüzden [creator videolarını Reels formatına dönüştürmek](https://dgtlface.com/tr/creative/blog/otel-dikey-video-reels-tiktok-produsksiyon) baştan düşünülmezse influencer doğal çeker ama “markalı sonuç” performans vermez."
         },
         {
           "type": "h3",
@@ -46965,7 +47341,7 @@
           "items": [
             "Influencer’a 3 hazır dikey akış şablonu ver (15 sn / 30 sn / story).",
             "Metin bindirme ve altyazıyı “sessiz izleme” için planla.",
-            "İç link: `/tr/smm/reels-video` üzerinden dağıtım ve format standardına bağla."
+            "Dağıtım ve format standardını [Reels video içerikleri](https://dgtlface.com/tr/smm/reels-video) üretim akışıyla eşleştir."
           ]
         }
       ]
@@ -47064,7 +47440,11 @@
         },
         {
           "type": "p",
-          "text": "Influencer içeriklerini “tek seferlik” bırakmayın. Ham dosyaları, final export’ları ve onaylanmış kesitleri content library’ye koyun; kampanya döneminde yeniden kullanın (Varsayım: izin/haklar buna uygunsa)."
+          "text": "Influencer içeriklerini “tek seferlik” bırakmayın. Ham dosyaları, final export’ları ve onaylanmış kesitleri content library’ye koyun; kampanya döneminde yeniden kullanın (Varsayım: izin/haklar buna uygunsa). Bu yaklaşım, [creator çekiminden içerik kütüphanesi üretmek](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) için temel zemini hazırlar."
+        },
+        {
+          "type": "p",
+          "text": "Onaylı creator setlerini yayın tarafında [influencer içeriklerinin otel sosyal medya kullanımı](https://dgtlface.com/tr/otel/sosyal-medya) çerçevesinde planlamak ve süreç detaylarını gerekiyorsa [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasından tamamlamak, ekip içi kararları hızlandırır."
         },
         {
           "type": "media",
@@ -47235,7 +47615,13 @@
         "Kullanım hakları süre/mecra/bölge/paid kullanım açısından sözleşmede netleştirildi",
         "Müzik lisansı ve yüz izinleri kontrol edildi",
         "Ham dosyalar, final export’lar ve onaylanmış kesitler kullanım haklarına uygun şekilde arşivleniyor",
-        "Hukuki detaylar sözleşme ve hukuk danışmanı ile netleştirildi"
+        "Hukuki detaylar sözleşme ve hukuk danışmanı ile netleştirildi",
+        "Ana Video Prodüksiyon linki metin içinde maksimum 2 kez kullanıldı",
+        "Creative ve Tasarım hub linki metin içinde 1 kez kullanıldı",
+        "Dikey video, UGC ve asset stratejisi sibling linkleri creator prodüksiyonu bağlamında yerleştirildi",
+        "SMM, Reels Video ve Otel Sosyal Medya köprüleri dağıtım ve kullanım bağlamında eklendi",
+        "Video Prodüksiyon SSS linki sonuç alanında tek kez kullanıldı",
+        "otel-influencer-video-produsksiyon ve otel-dikey-video-reels-tiktok-produsksiyon slug'ları içerikte verilen haliyle korundu; canlı URL / redirect kontrolü QA aşamasına bırakıldı"
       ]
     }
   }
@@ -47290,7 +47676,7 @@
   },
   "h1": {
     "title": "MICE ve Toplantı Otelleri için Video Prodüksiyon: Salon, Etkinlik ve Referans Filmler",
-    "intro": "“Toplantı otelimizin imkanlarını videoda nasıl anlatırım?” ve “kurumsal referans filmi nasıl olmalı?” sorularının kısa cevabı: kanıt + düzen + kullanım senaryosu. MICE otellerinde satış, çoğu zaman fotoğraftan değil “kanıtlanmış deneyim”den kapanır: salonun kaç kişiyi hangi düzende ağırladığı, AV altyapısının ne sunduğu, etkinlik gününün nasıl yönetildiği ve geçmiş kurumsal referanslar. İstanbul ve Antalya gibi kongre destinasyonlarında ya da resort MICE otellerinde bu kanıtı 2–3 dakikada anlatan bir video seti; satış ekibinin sunumlarını güçlendirir, fuar ekranlarında “anında anlaşılır” bir teklif oluşturur. Bu rehber; salon çekimi, etkinlik çekimi ve B2B case study film üretimini tek playbook’ta birleştirir.",
+    "intro": "“Toplantı otelimizin imkanlarını videoda nasıl anlatırım?” ve “kurumsal referans filmi nasıl olmalı?” sorularının kısa cevabı: kanıt + düzen + kullanım senaryosu. MICE otellerinde satış, çoğu zaman fotoğraftan değil “kanıtlanmış deneyim”den kapanır: salonun kaç kişiyi hangi düzende ağırladığı, AV altyapısının ne sunduğu, etkinlik gününün nasıl yönetildiği ve geçmiş kurumsal referanslar. İstanbul ve Antalya gibi kongre destinasyonlarında ya da resort MICE otellerinde bu kanıtı 2–3 dakikada anlatan bir video seti; satış ekibinin sunumlarını güçlendirir, fuar ekranlarında “anında anlaşılır” bir teklif oluşturur. Bu rehber; [MICE otel videosu](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımıyla salon çekimi, etkinlik çekimi ve B2B case study film üretimini tek playbook’ta birleştirir.",
     "quickSummary": [
       "1) Salon turu: ölçek + 3 düzen (theater/gala/U)",
       "2) Teknik altyapı: ses–ışık–görüntü “kullanım sonucu” ile",
@@ -47322,26 +47708,46 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
-      "label": "Otel Dijital Pazarlama",
-      "href": "/tr/otel-dijital-pazarlama"
-    },
-    {
       "label": "Creative ve Tasarım",
       "href": "/tr/creative-ve-tasarim"
     },
     {
+      "label": "Otel Kampanya ve Lansman Videoları",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
+      "label": "Otel Video Set ve Ekip Yönetimi",
+      "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
+    },
+    {
+      "label": "Otel Video Performans Analizi",
+      "href": "/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/tr/otel-dijital-pazarlama"
+    },
+    {
       "label": "SEM",
       "href": "/tr/sem"
+    },
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/tr/creative/etkinlik-produksiyonu"
     }
   ],
   "relatedPosts": [
+    {
+      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
     {
       "title": "Otel Video Çekimlerinde Set ve Ekip Yönetimi: Çekim Günü Rehberi",
       "href": "/tr/creative/blog/otel-video-set-ekip-yonetimi"
     },
     {
-      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
-      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+      "title": "Otel Video Performans Analizi: İzlenme, Tamamlama, Rezervasyon",
+      "href": "/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum"
     }
   ],
   "sections": [
@@ -47364,7 +47770,7 @@
         },
         {
           "type": "p",
-          "text": "Video, bu soruların hepsine “görsel kanıt” verir. Ayrıca RFP süreçlerinde, teklif dokümanının yanına eklenen bir “2 dakikalık kanıt videosu” güçlü fark yaratır."
+          "text": "Video, bu soruların hepsine “görsel kanıt” verir. Ayrıca RFP süreçlerinde, teklif dokümanının yanına eklenen bir “2 dakikalık kanıt videosu” güçlü fark yaratır. Bu yüzden [MICE video içeriklerinin creative satış materyali olarak kullanımı](https://dgtlface.com/tr/creative-ve-tasarim) sadece estetik değil, doğrudan B2B güven inşası meselesidir."
         },
         {
           "type": "callout",
@@ -47395,7 +47801,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Salon videosunun amacı “güzel görünmek” değil; ölçülebilir şekilde “anlaşılmak”tır. Bu yüzden layout ve kapasite gösterimi, çekimin temel omurgasıdır."
+          "text": "Salon videosunun amacı “güzel görünmek” değil; ölçülebilir şekilde “anlaşılmak”tır. Bu yüzden [toplantı salonu çekimi](https://dgtlface.com/tr/creative/video-produksiyon) ile layout ve kapasite gösterimi, çekimin temel omurgasını oluşturur."
         },
         {
           "type": "h3",
@@ -47482,7 +47888,7 @@
         },
         {
           "type": "p",
-          "text": "Bu yapı; hem highlight videosu hem de konuşma kayıtları için çıkarım sağlar (Varsayım: etkinlik formatına göre)."
+          "text": "Bu yapı; hem highlight videosu hem de konuşma kayıtları için çıkarım sağlar (Varsayım: etkinlik formatına göre). Canlı akışta [etkinlik çekim günü ekip yönetimi](https://dgtlface.com/tr/creative/blog/otel-video-set-ekip-yonetimi) ile [kurumsal etkinlik prodüksiyonu](https://dgtlface.com/tr/creative/etkinlik-produksiyonu) birlikte düşünülmelidir."
         },
         {
           "type": "h3",
@@ -47525,7 +47931,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Case Study Film, MICE satışında en güçlü ikna araçlarından biridir: problem → çözüm → sonuç. Otel bağlamında “problem” genelde şudur: yüksek katılımcı, kritik AV, sıkı takvim, eş zamanlı salon kullanımı."
+          "text": "Case Study Film, MICE satışında en güçlü ikna araçlarından biridir: problem → çözüm → sonuç. Otel bağlamında “problem” genelde şudur: yüksek katılımcı, kritik AV, sıkı takvim, eş zamanlı salon kullanımı. İyi kurgulanmış bir örnek, gerektiğinde [referans film prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi) mantığıyla duyuru ve lansman tarafına da taşınabilir."
         },
         {
           "type": "h3",
@@ -47613,7 +48019,7 @@
           "items": [
             "“Salon turu”nu her RFP için yeniden çekmek yerine güncel tut ve arşivle.",
             "Etkinlik highlight’larını düzenli üret; referans kütüphanesi kur.",
-            "İç link: `/tr/otel-dijital-pazarlama` ve `/tr/sem` ile talep yaratma zincirine bağla."
+            "Talep yaratma zincirini toplantı otelleri için dijital pazarlama videosu yaklaşımıyla ve [MICE video içeriklerinin reklam kullanımı](https://dgtlface.com/tr/sem) ile birlikte planla."
           ]
         }
       ]
@@ -47624,7 +48030,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Video üretmek yetmez; satışın içine yerleştirmek gerekir."
+          "text": "Video üretmek yetmez; satışın içine yerleştirmek gerekir. Özellikle [B2B satış için etkinlik videolarının performans analizi](https://dgtlface.com/tr/creative/blog/otel-video-performans-analizi-izlenme-donusum) mantığıyla bakıldığında izlenme, form ve teklif talebi etkisi daha net okunur."
         },
         {
           "type": "h3",
@@ -47665,6 +48071,10 @@
             "Web (16:9), sunum ve fuar ekranları için ayrı export (bitrate/ses seviyesi)",
             "Sessiz izleme için altyazı/overlay planı"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Süreç, teslim ve kullanım detaylarını ekip içinde standardize etmek için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını da referans almak faydalı olur."
         },
         {
           "type": "cta",
@@ -47812,7 +48222,13 @@
         "Müzik lisansı hukuki ve itibar riski açısından kontrol edildi",
         "Web 16:9, sunum ve fuar ekranları için ayrı export planlandı",
         "Sessiz izleme için altyazı/overlay hazırlandı",
-        "Salon turu + AV kanıt seti + etkinlik highlight + case study film satış sürecine entegre edildi"
+        "Salon turu + AV kanıt seti + etkinlik highlight + case study film satış sürecine entegre edildi",
+        "Ana Video Prodüksiyon linki metin içinde maksimum 2 kez kullanıldı",
+        "Creative ve Tasarım hub linki metin içinde 1 kez kullanıldı",
+        "Kampanya/lansman, set yönetimi ve video performans analizi sibling linkleri MICE satış bağlamında yerleştirildi",
+        "Otel Dijital Pazarlama, SEM ve Etkinlik Prodüksiyonu köprüleri B2B lead ve teknik akış bağlamında eklendi",
+        "Video Prodüksiyon SSS linki sonuç alanında tek kez kullanıldı",
+        "otel-mice-toplanti-video-produsksiyon slug'ı içerikte verilen haliyle korundu; canlı URL / redirect kontrolü QA aşamasına bırakıldı"
       ]
     }
   }
@@ -47868,7 +48284,7 @@
   },
   "h1": {
     "title": "Dikey Video Prodüksiyon Rehberi: Oteller İçin Reels & TikTok Çekim Stratejisi",
-    "intro": "“Dikey video çekince odalar küçük görünüyor, ne yapmalıyım?” sorusu, Reels/TikTok prodüksiyonunun en yaygın şikâyeti. Bunun nedeni genelde odanın gerçekten küçük olması değil; kadrajın yanlış kurulması, kameranın çok hızlı hareket etmesi ve 9:16 formatta “metin güvenli alanı” düşünülmemesidir. Dikey video; Antalya, Belek, Alanya ve Bodrum gibi genç ve sosyal medya odaklı hedef kitle çeken destinasyonlarda görünürlüğü hızla artırabilir; ama rastgele çekimle değil, prodüksiyon disipliniyle. Bu rehberde; hook, tempo, dikey kadraj şeması, metin/subtitle kullanımı ve aynı çekimden yatay+dikey versiyon üretme akışını adım adım kuracağız. Ayrıca Reels/TikTok içeriklerini, otelin ana tanıtım videosu stratejisine bağlayarak “content engine” yaklaşımını tamamlayacağız.",
+    "intro": "“Dikey video çekince odalar küçük görünüyor, ne yapmalıyım?” sorusu, Reels/TikTok prodüksiyonunun en yaygın şikâyeti. Bunun nedeni genelde odanın gerçekten küçük olması değil; kadrajın yanlış kurulması, kameranın çok hızlı hareket etmesi ve 9:16 formatta “metin güvenli alanı” düşünülmemesidir. Dikey video; Antalya, Belek, Alanya ve Bodrum gibi genç ve sosyal medya odaklı hedef kitle çeken destinasyonlarda görünürlüğü hızla artırabilir; ama rastgele çekimle değil, [dikey video prodüksiyonu](https://dgtlface.com/tr/creative/video-produksiyon) disipliniyle. Bu rehberde; hook, tempo, dikey kadraj şeması, metin/subtitle kullanımı ve aynı çekimden yatay+dikey versiyon üretme akışını adım adım kuracağız. Ayrıca Reels/TikTok içeriklerini, otelin ana tanıtım videosu stratejisine bağlayarak “content engine” yaklaşımını tamamlayacağız.",
     "quickSummary": [
       "Hook’u kilitle",
       "6–15 sn bloklar planla",
@@ -47900,6 +48316,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative & Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Video Asset Stratejisi",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "label": "Influencer ile Otel Video Çekimi",
+      "href": "/tr/creative/blog/otel-influencer-video-produsksiyon"
+    },
+    {
+      "label": "Otel Kampanya ve Lansman Videoları",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    },
+    {
       "label": "Reels & Video",
       "href": "/tr/smm/reels-video"
     },
@@ -47910,13 +48342,22 @@
     {
       "label": "Otel Dijital Pazarlama",
       "href": "/tr/otel-dijital-pazarlama"
-    },
-    {
-      "label": "Creative & Tasarım",
-      "href": "/tr/creative-ve-tasarim"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Otel Video Asset Stratejisi: 1 Günde 30+ İçerik",
+      "href": "/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik"
+    },
+    {
+      "title": "Influencer ile Otel Video Çekimi: Marka Kontrolü ve Denge",
+      "href": "/tr/creative/blog/otel-influencer-video-produsksiyon"
+    },
+    {
+      "title": "Otel Kampanya ve Lansman Videoları: Sezon, Açılış ve Özel Dönem Stratejisi",
+      "href": "/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi"
+    }
+  ],
   "sections": [
     {
       "id": "neden-dikey-video",
@@ -47924,7 +48365,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Dikey video, mobil tüketimin doğal formatıdır; hızlı dikkat yakalar, paylaşımı kolaydır ve sosyal platformların dağıtım algoritmaları bu formatı ödüllendirebilir. Oteller için dikey video, “anlık deneyim” hissini taşır: havuza giriş, oda manzarası, restoran ambiyansı, etkinlik anı… Bu format, Hotel Promo stratejisinin “awareness” katmanını güçlendirir ve doğru CTA ile web/kampanyaya trafik taşır."
+          "text": "Dikey video, mobil tüketimin doğal formatıdır; hızlı dikkat yakalar, paylaşımı kolaydır ve sosyal platformların dağıtım algoritmaları bu formatı ödüllendirebilir. Oteller için dikey video, “anlık deneyim” hissini taşır: havuza giriş, oda manzarası, restoran ambiyansı, etkinlik anı… Bu format, Hotel Promo stratejisinin “awareness” katmanını güçlendirir ve doğru CTA ile web/kampanyaya trafik taşır. Bunu bir [creative üretimde short-form içerik motoru](https://dgtlface.com/tr/creative-ve-tasarim) olarak kurguladığınızda üretim kalitesi ile dağıtım mantığı aynı sistemde buluşur."
         },
         {
           "type": "h3",
@@ -47959,7 +48400,7 @@
           "items": [
             "Dikey içeriği “sürekli motor” olarak ele al; tek kampanyaya bağlama.",
             "Her videoda tek mesaj + tek CTA hedefle.",
-            "İç link stratejisi: `/tr/otel/sosyal-medya` ve `/tr/smm/reels-video` ile dağıtımı bağla."
+            "Dağıtım planını [otel sosyal medya için dikey video içerikleri](https://dgtlface.com/tr/otel/sosyal-medya) ve [Reels için hook odaklı otel videoları](https://dgtlface.com/tr/smm/reels-video) akışıyla birlikte kur."
           ]
         }
       ]
@@ -47970,7 +48411,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Dikey çekim, yatayın kırpımı değildir; sahneyi baştan 9:16 düşünmek gerekir. Aksi halde “odalar küçük görünüyor” ve “konu kadraj dışına kaçıyor” problemleri başlar."
+          "text": "[Reels ve TikTok çekimi](https://dgtlface.com/tr/creative/video-produksiyon), yatayın kırpımı değildir; sahneyi baştan 9:16 düşünmek gerekir. Aksi halde “odalar küçük görünüyor” ve “konu kadraj dışına kaçıyor” problemleri başlar."
         },
         {
           "type": "h3",
@@ -48107,7 +48548,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Bu, oteller için maliyet kıran yöntemdir. Çift kadraj stratejisiyle aynı sahneden hem 16:9 master hem 9:16 short çıkarabilirsiniz."
+          "text": "Bu, oteller için maliyet kıran yöntemdir. Çift kadraj stratejisiyle aynı sahneden hem 16:9 master hem 9:16 short çıkarabilirsiniz. Özellikle [long formdan Reels çıkarma](https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik) mantığı baştan kurulursa dikey üretim daha sürdürülebilir hale gelir."
         },
         {
           "type": "h3",
@@ -48213,7 +48654,7 @@
           "title": "Ne yapmalıyım?",
           "items": [
             "Dikey içerik takvimini tanıtım filmi planıyla paralel kur.",
-            "İç link: `/tr/otel-dijital-pazarlama` ile kampanya/landing entegrasyonuna bağla.",
+            "Kampanya ve landing entegrasyonunu [dikey videonun otel dijital pazarlama kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ile birlikte planla.",
             "Reels içeriklerini “asset kütüphanesi”nde etiketle; sezonda tekrar kullan."
           ]
         }
@@ -48238,7 +48679,7 @@
         },
         {
           "type": "p",
-          "text": "Bu sayede short-form içerik, long-form stratejiyi besler."
+          "text": "Bu sayede short-form içerik, long-form stratejiyi besler. Özellikle [marka kontrollü creator prodüksiyonu](https://dgtlface.com/tr/creative/blog/otel-influencer-video-produsksiyon) ile [kampanya kreatifleri için dikey video setleri](https://dgtlface.com/tr/creative/blog/otel-kampanya-ve-lansman-video-stratejisi) birlikte düşünülürse creator, reklam ve sosyal medya akışı aynı çekim sistemine bağlanabilir."
         },
         {
           "type": "h3",
@@ -48275,6 +48716,10 @@
             "Framing: çerçeve dışına istenmeyen nesneleri almamak için kadraj kontrolü",
             "Süre/ses/metin limitlerini (platforma göre) önceden kontrol etmek"
           ]
+        },
+        {
+          "type": "p",
+          "text": "Süreç, teslim ve revizyon detaylarını standartlaştırmak için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfası ekip içinde iyi bir referans noktası olur."
         },
         {
           "type": "cta",
@@ -48417,7 +48862,13 @@
         "9:16 güvenli alan ve metin overlay alanı çekim brief’inde tanımlı",
         "Yatay master + dikey recut export preset’leri hazır",
         "Framing ile istenmeyen nesne/kişi kadraj kontrolü yapıldı",
-        "İç linklerde kırık link ve redirect zinciri yok"
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Ana Video Prodüksiyon linki metin içinde maksimum 2 kez kullanıldı",
+        "Creative ve Tasarım hub linki metin içinde 1 kez kullanıldı",
+        "Video asset stratejisi, influencer prodüksiyonu ve kampanya/lansman sibling linkleri dikey video bağlamında yerleştirildi",
+        "Reels Video, Otel Sosyal Medya ve Otel Dijital Pazarlama köprüleri short-form kullanım akışıyla eklendi",
+        "Video Prodüksiyon SSS linki sonuç alanında tek kez kullanıldı",
+        "otel-dikey-video-reels-tiktok-produsksiyon ve otel-influencer-video-produsksiyon slug'ları içerikte verilen haliyle korundu; canlı URL / redirect kontrolü QA aşamasına bırakıldı"
       ]
     }
   }
@@ -48474,7 +48925,7 @@
   },
   "h1": {
     "title": "Çok Dilli Otel Video Versiyonlama: TR–EN–DE–RU İçin Altyazı, Seslendirme ve Metin Uyarlaması",
-    "intro": "“Videomu Almanca ve Rusça’ya uyarlamak istiyorum, nereden başlamalıyım?” sorusu, Antalya çıkışlı ve Almanya/Rusya pazarında güçlü çalışan pek çok otelde aynı. Tek bir master videonuz olabilir; ama hedef pazarınız dört dil konuşuyorsa, videonun da dört dilde “doğal” konuşması gerekir: mesaj tonu, hitap şekli, ekran metinleri ve ses dünyası. Kötü bir çeviri veya yanlış overlay kullanımı, videonun profesyonelliğini bir anda düşürür; hatta marka algısına zarar verebilir. Bu rehberde; TR–EN–DE–RU için mesaj uyarlamasını, altyazı ve on-screen text yönetimini, çok dilli seslendirme ve mix sürecini ve fiyat/kampanya içeren videolarda hızlı güncelleme için “fiyatsız master” yaklaşımını otel özelinde sistemleştiriyoruz.",
+    "intro": "“Videomu Almanca ve Rusça’ya uyarlamak istiyorum, nereden başlamalıyım?” sorusu, Antalya çıkışlı ve Almanya/Rusya pazarında güçlü çalışan pek çok otelde aynı. Tek bir master videonuz olabilir; ama hedef pazarınız dört dil konuşuyorsa, videonun da dört dilde “doğal” konuşması gerekir: mesaj tonu, hitap şekli, ekran metinleri ve ses dünyası. Kötü bir çeviri veya yanlış overlay kullanımı, videonun profesyonelliğini bir anda düşürür; hatta marka algısına zarar verebilir. Bu rehberde; [çok dilli video prodüksiyonu ve versiyonlama](https://dgtlface.com/tr/creative/video-produksiyon) yaklaşımıyla TR–EN–DE–RU için mesaj uyarlamasını, altyazı ve on-screen text yönetimini, çok dilli seslendirme ve mix sürecini ve fiyat/kampanya içeren videolarda hızlı güncelleme için “fiyatsız master” yaklaşımını otel özelinde sistemleştiriyoruz.",
     "quickSummary": [
       "1) Mesajı her pazara göre uyarlayın",
       "2) Altyazı ve on-screen text katmanlarını ayrı yönetin",
@@ -48506,6 +48957,22 @@
       "href": "/tr/creative/video-produksiyon"
     },
     {
+      "label": "Creative & Tasarım",
+      "href": "/tr/creative-ve-tasarim"
+    },
+    {
+      "label": "Otel Videolarında Ses, Müzik ve Seslendirme Rehberi",
+      "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
+    },
+    {
+      "label": "Otel Tanıtım Videosu Senaryo & Storyboard Rehberi",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
+    },
+    {
+      "label": "Otel Web’de Video Entegrasyonu",
+      "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+    },
+    {
       "label": "UI/UX Tasarım",
       "href": "/tr/creative/ui-ux-tasarim"
     },
@@ -48518,7 +48985,20 @@
       "href": "/tr/otel-dijital-pazarlama"
     }
   ],
-  "relatedPosts": [],
+  "relatedPosts": [
+    {
+      "title": "Otel Videolarında Ses, Müzik ve Seslendirme Rehberi",
+      "href": "/tr/creative/blog/otel-video-ses-muzik-seslendirme"
+    },
+    {
+      "title": "Otel Tanıtım Videosu Senaryo & Storyboard Rehberi",
+      "href": "/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard"
+    },
+    {
+      "title": "Otel Web’de Video Entegrasyonu: UX, SEO ve Hız",
+      "href": "/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo"
+    }
+  ],
   "sections": [
     {
       "id": "neden-cok-dilli-video-versiyonlama",
@@ -48526,7 +49006,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Turizmde hedef kitle sadece dil değil, satın alma davranışı da değiştirir. Aynı otel; TR pazarına “kısa kaçış ve kampanya”, DE pazarına “standart ve güven”, RU pazarına “alan ve deneyim çeşitliliği” üzerinden farklı “kanıt” ister. Bu nedenle multilingual video versiyonlama, sadece kelime çevirisi değil; “pazar uyarlaması”dır."
+          "text": "Turizmde hedef kitle sadece dil değil, satın alma davranışı da değiştirir. Aynı otel; TR pazarına “kısa kaçış ve kampanya”, DE pazarına “standart ve güven”, RU pazarına “alan ve deneyim çeşitliliği” üzerinden farklı “kanıt” ister. Bu nedenle multilingual video versiyonlama, sadece kelime çevirisi değil; [creative üretimde pazar bazlı video uyarlaması](https://dgtlface.com/tr/creative-ve-tasarim) yaklaşımıdır."
         },
         {
           "type": "h3",
@@ -48561,7 +49041,7 @@
           "items": [
             "Her pazar için 1 “ana vaat” ve 3 “kanıt” çıkar.",
             "Mesajları doğrudan çevirmeden “uyarla” (tone & hitap).",
-            "Çok dilli UX ve satış entegrasyonu için iç link ver: `/tr/otel-dijital-pazarlama` ve `/tr/cagri-merkezi/4-dilli-cagri-merkezi`."
+            "Çok dilli deneyimi [otel dijital pazarlamada çok dilli video kullanımı](https://dgtlface.com/tr/otel-dijital-pazarlama) ve satış sonrası destek akışıyla birlikte planla."
           ]
         }
       ]
@@ -48635,7 +49115,7 @@
           "variant": "action",
           "title": "Ne yapmalıyım?",
           "items": [
-            "4 dil için ayrı “headline + CTA” yaz; sonra sahnelere dağıt.",
+            "4 dil için ayrı “headline + CTA” yaz; sonra sahnelere dağıt ve [çok dilli metin uyarlaması](https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard) planını storyboard aşamasında netleştir.",
             "Fiyat/indirim bilgisini mümkünse overlay yerine “değişebilir katman” olarak yönet.",
             "Aynı videonun “fiyatlı/fiyatsız” iki master’ını planla (fiyatsız asıl master)."
           ]
@@ -48702,7 +49182,7 @@
           "items": [
             "Altyazıyı “okunur kısa” yaz; overlay’i “yöneten kısa” yaz.",
             "Dört dil için ayrı export al; tek videoda çok dil metin koyma.",
-            "Web’de altyazıyı UX ile bağla: UI/UX bağlamı için `/tr/creative/ui-ux-tasarim`."
+            "Web’de altyazıyı [çok dilli video web entegrasyonu](https://dgtlface.com/tr/creative/blog/otel-web-video-entegrasyonu-ux-seo) ve [çok dilli video için UI & UX tasarımı](https://dgtlface.com/tr/creative/ui-ux-tasarim) mantığıyla birlikte kurgula."
           ]
         }
       ]
@@ -48713,7 +49193,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Voice-over, bazı pazarlarda güveni artırır; bazı pazarlarda ise altyazı daha pratik olabilir. Kararı şu belirler: hedef kanal (TV/web/sosyal), hedef kitle ve videonun anlatı yoğunluğu."
+          "text": "[TR–EN–DE–RU altyazı ve voice-over](https://dgtlface.com/tr/creative/video-produksiyon) kararında bazı pazarlarda güveni artıran seslendirme öne çıkar; bazı pazarlarda ise altyazı daha pratik olabilir. Kararı şu belirler: hedef kanal (TV/web/sosyal), hedef kitle ve videonun anlatı yoğunluğu."
         },
         {
           "type": "h3",
@@ -48771,7 +49251,7 @@
           "items": [
             "VO’yu her yerde zorunlu kılma; kanala göre seç.",
             "Master script’i yaz; DE/RU uyarlamalarını “pazar diliyle” kısalt.",
-            "Mix’te ses seviyeleri platforma göre test edilsin (web/sosyal)."
+            "Mix’te ses seviyeleri platforma göre test edilsin (web/sosyal) ve [çok dilli voice-over ve ses miks uyumu](https://dgtlface.com/tr/creative/blog/otel-video-ses-muzik-seslendirme) korunmuş olsun."
           ]
         }
       ]
@@ -48822,7 +49302,7 @@
           "items": [
             "“Fiyatsız master” ile kampanya güncelleme maliyetini düşür.",
             "Her dil için kısa (15 sn) ve uzun (60–120 sn) set oluştur.",
-            "Çok dilli deneyimi çağrı merkeziyle bağla: `/tr/cagri-merkezi/4-dilli-cagri-merkezi`."
+            "Video sonrası çok dilli talep akışını [video sonrası çok dilli iletişim akışı](https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi) üzerinden planla."
           ]
         }
       ]
@@ -48933,7 +49413,7 @@
         },
         {
           "type": "p",
-          "text": "(Varsayım: VO zorunluluğu kanal karmasına göre belirlenir.)"
+          "text": "(Varsayım: VO zorunluluğu kanal karmasına göre belirlenir.) Süreç, teslim ve revizyon ayrıntıları için [Video Prodüksiyon hakkında sık sorulan sorular](https://dgtlface.com/tr/creative/video-produksiyon-sss) sayfasını ekip içi referans olarak kullanabilirsiniz."
         }
       ]
     },
@@ -49045,7 +49525,12 @@
         "Müzik–VO–ambiyans mix dengesi kanal bazında test edildi",
         "Fiyatsız master üretildi ve fiyat/kampanya overlay katmanı ayrı tutuldu",
         "Uzun/kısa ve fiyatlı/fiyatsız versiyonlar matriste etiketlendi",
-        "İç linklerde kırık link ve redirect zinciri yok"
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "Ana Video Prodüksiyon linki metin içinde maksimum 2 kez kullanıldı",
+        "Creative ve Tasarım hub linki metin içinde 1 kez kullanıldı",
+        "Ses/müzik, senaryo/storyboard ve web video entegrasyonu sibling linkleri çok dilli versiyonlama bağlamında yerleştirildi",
+        "UI/UX, 4 Dilli Çağrı Merkezi ve Otel Dijital Pazarlama köprüleri çok dilli kullanıcı ve satış akışı bağlamında eklendi",
+        "Video Prodüksiyon SSS linki sonuç alanında tek kez kullanıldı"
       ]
     }
   }
@@ -59979,7 +60464,642 @@
         ]
       }
     }
+  },
+
+  "BlogOtelAcikAlanEtkinlikHavaPlaniBPlani": {
+  "title": "Açık Alan Otel Etkinliklerinde Hava & B Planı",
+  "slug": "otel-acik-alan-etkinlik-hava-plani-b-plani",
+  "department": "creative",
+  "subDepartment":"event",
+  "updatedAt": "12 Ağustos 2026",
+  "publishedAt": "2026-08-12",
+  "readingTime": "11 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Beach wedding, havuz başı gala, festival gecesi… Hava riskini meteoroloji eşiği, B planı mekân/çadır senaryosu, misafir iletişimi ve sözleşme maddeleriyle yönetin.",
+  "seo": {
+    "metaTitle": "Açık Alan Otel Etkinliklerinde Hava & B Planı | DGTLFACE",
+    "metaDescription": "Beach wedding, havuz başı gala, festival gecesi… Hava riskini meteoroloji eşiği, B planı mekân/çadır senaryosu, misafir iletişimi ve sözleşme maddeleriyle yönetin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa Adı / URL: Etkinlik Prodüksiyonu — /tr/creative/etkinlik-produksiyonu",
+      "Blog No / Blog URL: 13 — /tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani",
+      "Blog Tipi: Core",
+      "Intent: Informational + Transactional",
+      "SERP hedefi: Featured Snippet + PAA",
+      "Difficulty/Expertise: Intermediate–Expert",
+      "Word Count: 3000–3500",
+      "Refresh Cycle: 365",
+      "Canonical: /tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani"
+    ],
+    "strategySummary": "Bu yazı, Etkinlik Prodüksiyonu silosunda “risk & hava yönetimi” için authority (parent) içerik olarak konumlanır; düğün, festival, gala, beach party gibi tüm open-air içeriklere referans verir. Hedef persona; otel sahibi/GM, MICE/etkinlik yöneticisi, pazarlama müdürü ve ajans/prodüksiyon lideridir; özellikle Antalya, Belek, Side, Bodrum gibi sahil destinasyonlarında açık alan etkinlik yoğunluğu yüksek olduğu için karar hızına ihtiyaç vardır. Funnel’da consideration → conversion taşır: “açık alan yapalım mı?” sorusunu “meteoroloji takibi + karar eşiği + B planı kurulum + iletişim + sözleşme/sigorta” sistemine çevirir. Ana iş sorusu: Hava koşulları kötüleştiğinde panik yapmadan, güvenliği riske atmadan ve misafir memnuniyetini koruyarak etkinliği nasıl içeri/alternatif çözüme taşırım?"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-08-12",
+    "readingTime": "11 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Açık alan otel etkinliklerinde hava koşulları (yağmur, rüzgâr, aşırı sıcak) yalnız konforu değil güvenliği ve prodüksiyon kalitesini de belirler. Profesyonel yaklaşım; meteoroloji takibini “karar eşikleri”ne bağlamak, B planı mekân/çadır kurulumunu önceden tasarlamak ve misafir–tedarikçi–ekip iletişimini şeffaf mesajlarla yönetmektir. Sözleşme ve sigorta maddeleriyle sürpriz maliyet ve anlaşmazlık riski azaltılır.",
+    "sgeSummary": "Hava planı: tahmini izle, eşik tanımla, B planı salon/çadır yerleşimini hazırla, ekipmanı güvene al, misafiri net bilgilendir, sözleşme–sigorta ile iptal/taşıma riskini kapat.",
+    "voiceAnswer": "Hava eşiğini önceden belirle, B planı mekânını hazır tut, değişikliği şeffaf iletişimle yönet.",
+    "aiFactSheet": [
+      "Hedef kitle: GM/owner, etkinlik/MICE, pazarlama, ajans/prodüksiyon lideri",
+      "KPI: İptal/erteleme azalması, güvenlik olayı sıfır hedefi, şikâyet/olumsuz yorum riski düşüşü, bütçe sapması azalması",
+      "Entity: Outdoor Event, Weather Risk, Backup Plan, Ballroom, Tent Setup, Insurance, Guest Communication",
+      "Geo: Antalya, Belek, Side, Bodrum (sahil destinasyonu senaryoları)",
+      "Funnel: Consideration → Conversion",
+      "Çıktılar: Hava karar matrisi, open-air→indoor plan yerleşimi, SMS/mail mesaj şablonları, sözleşme maddeleri kontrol listesi",
+      "Risk: Son dakika tahmin değişimi, elektrik/ekipman güvenliği, tedarikçi overtime, iptal anlaşmazlığı"
+    ]
+  },
+  "h1": {
+    "title": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+    "intro": "“Beach wedding planlıyoruz, yağmur yağarsa ne olacak?” sorusu, açık alan etkinliklerinin kalbidir. Antalya, Belek, Side, Bodrum gibi sahil destinasyonlarında açık alan; havuz başı, beach, bahçe ve teras etkinlikleri otelin deneyim vaadinin parçasıdır. Ancak hava koşulları doğru yönetilmezse yalnız estetik bozulmaz: güvenlik, elektrik/ekipman riski, misafir memnuniyeti ve bütçe aynı anda zarar görür. İyi haber: profesyonel bir “hava planı” kurulduğunda, etkinliği panikle iptal etmek yerine net karar eşikleriyle yönetebilir, B planını zamanında devreye alabilir ve iletişimi şeffaf bir şekilde yürütebilirsiniz.\n\nVeri noktası (sektörel içgörü): Profesyonel hava ve B planı kurgusu, iptal ve anlaşmazlık riskini azaltabilir; plansız açık alan etkinliklerinde ise memnuniyetin ve online yorumların belirgin şekilde olumsuz etkilenmesi sık görülür. (Kesin rakam iddiası değil.)",
+    "quickSummary": [
+      "1) Meteoroloji takibi",
+      "2) Karar eşikleri",
+      "3) B planı mekân/kurulum",
+      "4) İletişim planı",
+      "5) Sözleşme–sigorta–güvenlik önlemleri"
+    ],
+    "ctaPrimary": {
+      "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
+      "text": "Hava karar matrisi, B planı yerleşimi ve iletişim/sözleşme paketini oteliniz için birlikte kurgulayalım.",
+      "href": "/creative/etkinlik-produksiyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
+      "text": "Meteoroloji eşiği, kapalı alan/çadır senaryosu, iletişim ve sözleşme maddeleriyle iptal ve anlaşmazlık riskini azaltın.",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    "secondary": {
+      "label": "Açık Alan Etkinlik Hava Senaryosu & B Planı Şablonunu İndir",
+      "text": "Karar matrisi, görev dağılımı, yerleşim ve SMS/mail mesajlarını tek dosyada toplayıp hızlı karar almanızı sağlar.",
+      "href": "/creative/video-produksiyon"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "label": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    },
+    {
+      "label": "Otel Dijital Pazarlama",
+      "href": "/otel-dijital-pazarlama"
+    }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Etkinlik Prodüksiyonu",
+      "href": "/creative/etkinlik-produksiyonu"
+    },
+    {
+      "title": "Video Prodüksiyon",
+      "href": "/creative/video-produksiyon"
+    }
+  ],
+  "sections": [
+    {
+      "id": "acik-alan-otel-etkinlikleri-hava-b-plani",
+      "title": "Açık alan otel etkinlikleri için hava ve B planı nasıl yönetilmeli?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Açık alanda risk yönetimi “tahmini takip etmek” değil, tahmini bir karar sistemine bağlamaktır. Bu sistem 5 parçadan oluşur: (1) meteoroloji takibi, (2) karar eşikleri, (3) B planı mekân/kurulum, (4) iletişim planı, (5) sözleşme–sigorta–güvenlik önlemleri. Her parça yazılı değilse, etkinlik günü kararlar WhatsApp’ta dağılır ve panik büyür."
+        },
+        {
+          "type": "h3",
+          "text": "AEO mini cevap bloğu (2–3 cümle)"
+        },
+        {
+          "type": "p",
+          "text": "Açık alan otel etkinliklerinde hava ve B planını yönetmek için meteoroloji takibini tek kaynaktan yapıp “karar eşikleri” belirleyin. B planı için alternatif salon/çadır yerleşimini ve kurulum sırasını önceden hazırlayın; misafir, tedarikçi ve ekip için hazır mesajlarla şeffaf iletişim kurun. Sözleşme ve sigorta maddelerini (iptal/erteleme/overtime) hukuk danışmanıyla netleştirerek sürpriz maliyet ve anlaşmazlık riskini azaltın."
+        },
+        {
+          "type": "h3",
+          "text": "5–7 maddelik AEO checklist’i"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Takip: Hava tahmini tek kaynak + düzenli kontrol saatleri var mı?",
+            "Eşik: Yağmur/rüzgâr/sıcaklık için “karar eşiği” yazılı mı?",
+            "Mekân: Alternatif salon/çadır planı ve kapasite uyumu hazır mı?",
+            "Kurulum: Açık→kapalı geçiş için ekipman/lojistik planı var mı?",
+            "İletişim: Misafir/çift/kurumsal müşteri ve tedarikçi mesaj şablonları hazır mı?",
+            "Güvenlik: Elektrik, sahne ve ekipman güvenliği prosedürü tanımlı mı?",
+            "Sözleşme/Sigorta: İptal/erteleme ve sorumluluk maddeleri net mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Karar eşiği” yazılı değilse, son dakika “hadi bekleyelim” döngüsü başlar."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Hava planını tek sayfaya indir.",
+            "Eşikleri yaz ve “kim karar verir?”i tekleştir.",
+            "B planı yerleşimini hazırla.",
+            "Mesaj şablonlarını önceden onaylat.",
+            "Sözleşmeyi hukuk danışmanıyla gözden geçir."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "divider-03"
+        }
+      ]
+    },
+    {
+      "id": "hava-kosullari-otel-etkinliklerinde-kritik",
+      "title": "Neden Hava Koşulları Otel Etkinliklerinde Kritik?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Açık alan etkinlikleri “manzara” ve “atmosfer” satar; ama otel aynı zamanda güvenli bir işletme olarak da sorumludur. Hava riski, yalnız yağmur değil: rüzgâr, aşırı sıcak, ani fırtına, yıldırım riski, zemin kayganlığı ve ekipman elektrik güvenliği gibi çoklu riskler yaratır."
+        },
+        {
+          "type": "h3",
+          "text": "Açık alanın otel-özel kırılganlıkları"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Elektrik ve ekipman: Ses–ışık ve sahne ekipmanları açık alanda daha riskli çalışır.",
+            "Misafir profili: Çocuklu aile, yaşlı misafir, alkol servisli etkinlik gibi faktörler riskleri büyütebilir.",
+            "Tesis içi akış: Kapalı alana geçişte servis trafiği ve kapasite yönetimi gerekir.",
+            "İtibar: “Son dakika karmaşa” deneyimi, yorumlara hızlı yansır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Açık alanda “kaygan zemin + kablo” kombinasyonu varsa, risk yönetimi yok demektir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Riskleri “konfor–güvenlik–operasyon” üçlüsünde ayrı yaz.",
+            "Elektrik ve sahne güvenliğini B planının parçası yap."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meteoroloji-takibi-karar-esikleri",
+      "title": "Meteoroloji Takibi ve Karar Eşikleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hava tahmin araçları faydalıdır ama kusursuz değildir; özellikle son dakika rüzgâr yönü, lokal yağış ve sıcaklık değişimleri oynayabilir. Bu yüzden amaç “en doğru tahmini bulmak” değil, tahmin belirsizliğini yönetmektir: düzenli kontrol saatleri, karar eşiği ve karar penceresi."
+        },
+        {
+          "type": "h3",
+          "text": "Takip ritmi (pratik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "T-7 gün: trend okuması (genel yön)",
+            "T-72 saat: ilk karar toplantısı (B planı hazır mı?)",
+            "T-24 saat: karar penceresi (açık mı, kapalı mı?)",
+            "T-6 saat / T-3 saat: son kontrol (özellikle rüzgâr/yağış)"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Otel SOP’nize göre saatler değişebilir; önemli olan tek ritim ve tek karar verici."
+        },
+        {
+          "type": "h3",
+          "text": "Karar eşiği mantığı (örnek yaklaşım)"
+        },
+        {
+          "type": "p",
+          "text": "Karar eşiğini “tek sayı” yerine “senaryo” olarak kurmak daha güvenlidir: yağmur olasılığı + rüzgâr + sıcaklık + yıldırım riski birlikte değerlendirilir."
+        },
+        {
+          "type": "table",
+          "caption": "Hava Senaryosu Karar Matrisi",
+          "headers": [
+            "Senaryo",
+            "Sinyal (örnek)",
+            "Karar",
+            "Operasyon notu"
+          ],
+          "rows": [
+            [
+              "S1: Düşük risk",
+              "Yağış düşük / rüzgâr düşük",
+              "Açık alanda devam",
+              "Zemin koruma + kablo güvenliği"
+            ],
+            [
+              "S2: Orta risk",
+              "Yağış ihtimali var / rüzgâr artıyor",
+              "“Hazır B plan”",
+              "Çadır/kapalı salon standby"
+            ],
+            [
+              "S3: Yüksek risk",
+              "Şiddetli yağış veya kuvvetli rüzgâr",
+              "Kapalı alana geç",
+              "Kurulum sırası değişir, ekip hızlanır"
+            ],
+            [
+              "S4: Kritik risk",
+              "Yıldırım/fırtına uyarısı",
+              "Ertele/iptal veya tamamen kapalı",
+              "Güvenlik öncelik, sigorta/sözleşme devreye"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Not: “Sinyal” alanı örneklenmiştir; yerel güvenlik standartları ve uzman görüşüyle netleştirilmelidir."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“S3’e girince kim karar veriyor?” net değilse, S3’te karar alınamaz."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "4 senaryolu matrisini otelinize uyarlayın.",
+            "Karar vericiyi ve karar saatini yazın.",
+            "Tedarikçilere bu matrisi önceden iletin."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-05"
+        }
+      ]
+    },
+    {
+      "id": "b-plani-mekan-kurulum-senaryolari",
+      "title": "B Planı Mekân ve Kurulum Senaryoları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "B planı “içeri alırız” demek değildir; kapalı alanda aynı deneyimi olabildiğince koruyacak bir kurulum senaryosu demektir. Açık alandan kapalı alana geçişte en çok kaybedilen şey akıştır: giriş, foto alanı, sahne, servis, dans alanı. Bunları önceden tasarlarsanız, misafir “kriz” değil “profesyonellik” görür."
+        },
+        {
+          "type": "h3",
+          "text": "B planı seçenekleri (otel gerçekliği)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Alternatif ballroom/kapalı salon: en güvenli plan, kapasite ve akustik önemli",
+            "Çadır (tent setup): açık alan hissini korur; rüzgâr ve zemin güvenliği şart",
+            "Yarı kapalı teras/foyer: kısa süreli çözüm; ses–ışık ve yağış yönü kritiktir"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Açık alan → kapalı alan yerleşim farkları"
+        },
+        {
+          "type": "p",
+          "text": "Açık alanda geniş yayılırsınız; kapalı alanda yoğunlaşırsınız. Bu; sahne ölçüsü, hoparlör konumu, kablo güvenliği ve servis trafiğini değiştirir."
+        },
+        {
+          "type": "media",
+          "slot": "divider-04"
+        },
+        {
+          "type": "h3",
+          "text": "Kurulum sırası ve “hızlı geçiş” planı"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ön kurulum (standby): kritik ekipman kapalı alanda hazır bekler",
+            "Modüler dekor: taşınabilir signage ve giriş öğeleri",
+            "Ses–ışık ön ayar: kapalı salon preset’leri",
+            "Saha sorumlusu: tek kişi “go/no-go” uygular"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Kapalı salonun elektrik kapasitesi ve kablo güvenliği kontrol edilmediyse, B planı risk üretir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "B planı için “yerleşim çizimi + görev dağılımı” hazırla.",
+            "Standby ekipmanı belirle.",
+            "Kapalı alanda preset kurulum yap."
+          ]
+        },
+        {
+          "type": "media",
+          "slot": "diagram-06"
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
+          "text": "Meteoroloji eşiği, kapalı alan/çadır senaryosu, iletişim ve sözleşme maddeleriyle iptal ve anlaşmazlık riskini azaltın.",
+          "href": "/creative/etkinlik-produksiyonu"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Açık Alan Etkinlik Hava Senaryosu & B Planı Şablonunu İndir",
+          "text": "Senaryo matrisi, kapalı alan yerleşimi, görev dağılımı ve iletişim mesajlarını tek dosyada birleştirip hızlı karar almanızı sağlar.",
+          "href": "/creative/video-produksiyon"
+        }
+      ]
+    },
+    {
+      "id": "misafir-tedarikci-ekip-iletisimi",
+      "title": "Misafir, Tedarikçi ve Ekip İletişimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Hava riski yönetiminde en büyük farkı iletişim yaratır. Misafir “yağmur var” diye değil, belirsizlik ve son dakika sürprizi yüzünden rahatsız olur. Tedarikçi ise net plan yoksa overtime ve maliyet talep eder. Bu yüzden iletişim; hazır mesaj şablonları, net zaman damgaları ve tek bir kaynak üzerinden yönetilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "İletişim prensipleri"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Erken uyarı: “B planımız hazır” mesajı güven verir",
+            "Net karar saati: “Saat 14:00’te kesin karar”",
+            "Kısa ve net: tek paragraf, tek link, tek yönlendirme",
+            "Tek kaynak: aynı mesaj WhatsApp/SMS/mail’de tutarlı"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "SMS / Mail mesaj örnekleri (kopyala–yapıştır)"
+        },
+        {
+          "type": "h3",
+          "text": "1) Ön bilgilendirme (T-24 saat) — SMS"
+        },
+        {
+          "type": "p",
+          "text": "Merhaba, yarınki etkinliğimiz için hava durumunu takip ediyoruz. Konfor ve güvenlik için B planımız hazır. Kesin yer bilgisi saat 14:00’te paylaşılacaktır."
+        },
+        {
+          "type": "h3",
+          "text": "2) İçeri taşınma kararı — WhatsApp/SMS"
+        },
+        {
+          "type": "p",
+          "text": "Güncel hava koşulları nedeniyle etkinliğimizi kapalı salon planına alıyoruz. Karşılama: ____ / Başlangıç: ____. Ekibimiz yönlendirme için alanda olacak."
+        },
+        {
+          "type": "h3",
+          "text": "3) Mail (kurumsal / düğün) — daha açıklayıcı"
+        },
+        {
+          "type": "p",
+          "text": "Konu: Etkinlik Yer Güncellemesi (Hava Koşulları)\nMerhaba,\nGüvenlik ve konfor önceliğimiz olduğu için güncel hava değerlendirmesi sonrası etkinliğimizi B planı (kapalı salon/çadır) senaryosuna alıyoruz. Akış ve saatler korunacaktır; yalnızca mekân güncellenmiştir. Alanda yönlendirme ekibimiz bulunacaktır. Sorularınız için tek iletişim: ____."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Kesin karar saati” yazmayan mesaj, belirsizliği büyütür."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "3 mesaj şablonunu hazırla ve onaylat.",
+            "Tek iletişim kişisi belirle.",
+            "Karar saatini tüm taraflarla paylaş."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sigorta-guvenlik-sozlesmesel-onlemler",
+      "title": "Sigorta, Güvenlik ve Sözleşmesel Önlemler",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Açık alan etkinliklerinde B planı yalnız operasyon değil, aynı zamanda sözleşme ve sigorta meselesidir. İptal/erteleme, overtime, ek kurulum ve hasar riskleri; yazılı değilse anlaşmazlığa dönebilir. Burada kritik not: sözleşme metinleri mutlaka hukuk danışmanıyla gözden geçirilmelidir."
+        },
+        {
+          "type": "h3",
+          "text": "Sözleşmede netleşmesi gereken başlıklar (özet)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hava kaynaklı yer değişimi: kim karar verir, hangi saat, hangi maliyetle?",
+            "Overtime: taşınma olursa overtime nasıl işler?",
+            "Ek ekipman/çadır: fiyatlar önceden listeli mi?",
+            "İptal/erteleme: force majeure tanımı ve depozito şartları",
+            "Hasar/sorumluluk: ekipman, zemin, elektrik güvenliği",
+            "Telif/lisans: müzikli içeriklerde yayın hakları (Varsayım: video paylaşımı yapılacaksa)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Teknik güvenlik notları (sahada kritik)"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Açık alan elektrik hatlarında kaçak akım koruması (RCD/GFCI) ve kablo kanalı kullanımı (Varsayım: otelin teknik SOP’si).",
+            "Sahne ve ekipman rüzgârda risk üretir: truss/LED asma güvenliği ve bariyer şarttır.",
+            "Yağış anında ekipmanın kapatılması ve güvenli söküm prosedürü önceden yazılmalıdır."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "“Yağmur başlayınca kim ‘stop’ der?” yazılı değilse güvenlik riski büyür."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Sözleşmede “hava kaynaklı yer değişimi” maddesini netleştir.",
+            "Overtime ve ek ekipman fiyatlarını baştan listele.",
+            "Güvenlik “stop” yetkisini tek kişide topla."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iptal-degil-kontrollu-gecis",
+      "title": "Fark Yaratan Otel-Özel Bölüm: İptal Değil, Kontrollü Geçiş",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI competitor gap notu: Rakip içerikler hava riskini çoğunlukla “hızlı iptal/erteleme” gözünden anlatıyor; otel özelinde meteoroloji takibi, B planı kurulum, sözleşme ve misafir iletişimini tek çatı altında anlatan Türkçe prodüksiyon rehberi çok az."
+        },
+        {
+          "type": "p",
+          "text": "Otel tarafında hedef iptal etmek değil, kontrollü geçiş yapmaktır: doğru eşik, hazır B planı, net iletişim ve yazılı sözleşme. Bu dörtlü kurulduğunda, misafir “kriz” değil “profesyonellik” deneyimler."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Etkinlikten sonra “keşke önceden söyleseydiniz” yorumu geliyorsa, iletişim ve karar sistemi eksiktir."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+          "items": [
+            "Matris + B planı yerleşimi + mesaj şablonu + sözleşme maddesini “tek paket” yap.",
+            "Her open-air etkinlikte aynı paketi uygula."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Açık Alan Etkinlik Hava & B Planı Danışmanlığı Al",
+          "text": "Düğün, gala ve beach party’leriniz için hava riskini ve B planını ölçeklenebilir bir playbook’a çevirelim.",
+          "href": "/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "id": "acik-alan-etkinlik-hava-senaryosu-b-plani-sablonu",
+      "title": "Açık Alan Etkinlik Hava Senaryosu & B Planı Şablonunu İndir — Creative / Outdoor Event (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Açık Alan Etkinlik Hava Senaryosu & B Planı Şablonunu İndir — Creative / Outdoor Event (v1.0)",
+          "purpose": "Bu şablon, açık alan otel etkinliklerinde hava riskini yönetmek için karar matrisi (S1–S4), B planı mekân/kurulum senaryoları, iletişim mesajları ve sözleşme kontrol maddelerini tek dosyada birleştirir. Amaç; son dakika paniğini azaltmak, güvenliği korumak ve misafir deneyimini “kontrollü geçiş” ile sürdürmektir.",
+          "whoFor": "GM/owner, etkinlik/MICE yöneticisi, operasyon/teknik ekip lideri, ajans prodüktörü.",
+          "steps": [
+            "Etkinlik tipini ve açık alan lokasyonunu (havuz/beach/bahçe) seçip kapsamı doldurun.",
+            "Senaryo matrisindeki eşikleri otel SOP’nize göre işaretleyin ve karar vericiyi belirleyin.",
+            "Kapalı alan/çadır yerleşimini ve SMS/mail mesajlarını hazır ederek “T-24 / T-6” iletişim ritmini uygulayın."
+          ],
+          "checklist": [
+            "A) Etkinlik Özeti",
+            "B) Hava Senaryosu Karar Matrisi (doldur)",
+            "C) B Planı Yerleşim Checklist’i",
+            "D) İletişim Mesajları (kopyala–yapıştır)",
+            "E) Sözleşme & Sigorta Kontrol Maddeleri",
+            "Deliverables: Karar matrisi + B planı yerleşimi + mesaj şablonları + sözleşme kontrol listesi"
+          ],
+          "href": "/downloads/acik-alan-etkinlik-hava-senaryosu-b-plani-sablonu-v1.0.pdf",
+          "buttonLabel": "Şablonu İndir"
+        },
+        {
+          "type": "media",
+          "slot": "proof-08"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Açık alan otel etkinlikleri için B planı nasıl yapılır?",
+      "a": "Alternatif mekânı (ballroom/çadır) önceden belirleyip yerleşim planını çıkarın. Meteoroloji takibini karar eşiklerine bağlayın ve iletişim mesajlarını hazır tutun. Kurulum sırası ve overtime riskini sözleşmeyle netleştirin."
+    },
+    {
+      "q": "Hava koşulları kötüleştiğinde ne zaman içeri taşınmalı?",
+      "a": "“Son dakikaya kadar beklemek” yerine T-24 ve T-6 gibi karar pencereleri tanımlayın. Yağmur/rüzgâr gibi sinyalleri senaryo matrisiyle değerlendirip güvenlik öncelikli karar verin. Eşiği ve karar vericiyi yazılılaştırmak panik kararını azaltır."
+    },
+    {
+      "q": "Misafire hava kaynaklı değişiklikleri nasıl açıklamalıyım?",
+      "a": "Kısa, net ve güven odaklı mesaj verin: “konfor ve güvenlik için B planına geçiyoruz; akış ve saatler korunuyor.” Kesin karar saatini ve yönlendirme bilgisini ekleyin. Tek kaynak üzerinden tutarlı iletişim kurun."
+    },
+    {
+      "q": "Hava riski sözleşmede nasıl tanımlanmalı?",
+      "a": "Hava kaynaklı yer değişimi, iptal/erteleme, overtime ve ek ekipman ücretleri gibi başlıklar net yazılmalıdır. Metinlerin hukuk danışmanıyla gözden geçirilmesi önerilir; aksi halde anlaşmazlık riski artar."
+    },
+    {
+      "q": "Açık alanda teknik güvenlikte en kritik başlık nedir?",
+      "a": "Elektrik ve sahne güvenliğidir. Kablo yönetimi, kaçak akım koruması, rüzgârda truss/LED güvenliği ve “stop” yetkisinin kimde olduğu önceden belirlenmelidir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "hero / cover — 1920×1080 — otel-acik-alan-etkinlik-hava-plani-b-plani-hero-01.webp — Açık alan otel etkinliğinde yağmur ve rüzgâr riskine karşı B planı hazırlığı",
+        "h1-context — 1920×1080 — otel-acik-alan-etkinlik-hava-plani-b-plani-h1-context-02.webp — Açık alan etkinliğinde karar eşiği ve kapalı alana geçiş akışı otel bağlamı",
+        "divider-03 — 1600×1200 — otel-acik-alan-etkinlik-hava-plani-b-plani-divider-03.webp — Meteoroloji takibi ve karar eşiği bölümünü ayıran görsel otel etkinliği",
+        "divider-04 — 1600×1200 — otel-acik-alan-etkinlik-hava-plani-b-plani-divider-04.webp — B planı mekân ve kurulum senaryolarına geçiş bölümü görseli otel",
+        "diagram-05 — 1920×1080 — otel-acik-alan-etkinlik-hava-plani-b-plani-diagram-05.webp — Hava takibinden karar eşiklerine ve B planına geçiş akış diyagramı otel",
+        "checklist-06 — 1200×1200 — otel-acik-alan-etkinlik-hava-plani-b-plani-checklist-06.webp — Açık alan etkinlik hava planı için yapılacaklar ve kaçınılacaklar checklist kartı",
+        "kpi-07 — 1200×1200 — otel-acik-alan-etkinlik-hava-plani-b-plani-kpi-07.webp — İptal riski, memnuniyet ve bütçe sapmasını izleyen KPI skor kartı otel etkinliği",
+        "proof-08 — 1200×1200 — otel-acik-alan-etkinlik-hava-plani-b-plani-proof-08.webp — Hava senaryosu matrisi, B planı yerleşimi ve iletişim şablonları deliverables kartı",
+        "table-weather-scenario-decision-matrix — Hava Senaryosu Karar Matrisi"
+      ],
+      "technicalChecklist": [
+        "Canonical: /tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani",
+        "Meta title ve meta description kontrolü",
+        "Featured Snippet + PAA hedefi için Answer Block ve FAQ yapısı kontrolü",
+        "Hero, H1 context ve section media slot dosya adları kontrolü",
+        "Hava Senaryosu Karar Matrisi tek tablo olarak kullanılıyor",
+        "Primary CTA → /creative/etkinlik-produksiyonu",
+        "Secondary CTA → /creative/video-produksiyon",
+        "İç linklerde kırık link ve redirect zinciri kontrolü",
+        "Article/WebPage/BreadcrumbList/FAQPage schema uyumu kontrolü"
+      ]
+    }
   }
+}
 
 
 }

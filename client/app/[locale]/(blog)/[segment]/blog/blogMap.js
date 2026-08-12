@@ -658,7 +658,8 @@ export const BLOG_MAP = {
     "otel-calisan-etkinligi-ic-organization-produsksiyon":"BlogOtelCalisanEtkinligiIcOrganizationProdusksiyon",
     "hibrit-ve-online-otel-etkinlikleri-canli-yayin":"BlogHibritVeOnlineOtelEtkinlikleriCanliYayin",
     "otel-etkinlik-produsksiyon-butce-planlama":"BlogOtelEtkinlikProdusksiyonButcePlanlama",
-    "otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne":"BlogOtelEtkinlikTedarikciYonetimiSesIsikSahne"
+    "otel-etkinlik-tedarikci-yonetimi-ses-isik-sahne":"BlogOtelEtkinlikTedarikciYonetimiSesIsikSahne",
+    "otel-acik-alan-etkinlik-hava-plani-b-plani":"BlogOtelAcikAlanEtkinlikHavaPlaniBPlani"
     
   },
 

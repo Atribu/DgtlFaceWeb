@@ -110879,6 +110879,256 @@ export const BLOG_JSONLD_MAP = {
 
   ]
 
+},
+
+"otel-acik-alan-etkinlik-hava-plani-b-plani":{
+
+  "@context": "https://schema.org",
+
+  "@graph": [
+
+    {
+
+      "@type": "WebSite",
+
+      "@id": "https://dgtlface.com/#website",
+
+      "url": "https://dgtlface.com/",
+
+      "name": "DGTLFACE",
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "WebPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani#webpage",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani",
+
+      "name": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Article",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani#article",
+
+      "url": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani",
+
+      "headline": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+
+      "name": "Açık Alan Otel Etkinliklerinde Hava Koşulları ve B Planı: Risk Yönetimi Rehberi",
+
+      "description": "Havuz başı, beach ve bahçe gibi açık alan otel etkinliklerinde hava riskini meteoroloji takibinden B planı kurulumuna, misafir iletişiminden sözleşme/sigorta önlemlerine kadar yöneten rehber.",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani#webpage" },
+
+      "inLanguage": "tr-TR",
+
+      "about": [
+
+        "Outdoor Event",
+
+        "Weather Risk",
+
+        "Backup Plan",
+
+        "Ballroom",
+
+        "Tent Setup",
+
+        "Insurance",
+
+        "Guest Communication"
+
+      ],
+
+      "keywords": [
+
+        "acik alan otel etkinligi b plani",
+
+        "hava kosullari otel organizasyon riski",
+
+        "beach wedding yagmur senaryosu",
+
+        "outdoor hotel event rain plan",
+
+        "beach wedding weather contingency"
+
+      ],
+
+      "speakable": {
+
+        "@type": "SpeakableSpecification",
+
+        "cssSelector": ["h1", ".answer-block"]
+
+      }
+
+    },
+
+    {
+
+      "@type": "Service",
+
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+
+      "name": "Etkinlik Prodüksiyonu",
+
+      "serviceType": "Açık Alan Etkinlik Risk ve B Planı Yönetimi",
+
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+
+      "inLanguage": "tr-TR"
+
+    },
+
+    {
+
+      "@type": "Event",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani#event",
+
+      "name": "Açık Alan Otel Etkinliği (Hava & B Planı Şablonu)",
+
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+
+      "eventStatus": "https://schema.org/EventScheduled",
+
+      "location": {
+
+        "@type": "Place",
+
+        "name": "Resort Otel Açık Alanı (Havuz/Beach/Bahçe)",
+
+        "address": {
+
+          "@type": "PostalAddress",
+
+          "addressCountry": "TR",
+
+          "addressRegion": "Antalya / Belek / Side / Bodrum"
+
+        }
+
+      },
+
+      "description": "Açık alan otel etkinliklerinde meteoroloji takibi, karar eşiği ve B planı kurulumunu kapsayan risk yönetimi çerçevesi."
+
+    },
+
+    {
+
+      "@type": "BreadcrumbList",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani#breadcrumb",
+
+      "itemListElement": [
+
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+
+        { "@type": "ListItem", "position": 4, "name": "Hava Koşulları ve B Planı", "item": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani" }
+
+      ]
+
+    },
+
+    {
+
+      "@type": "FAQPage",
+
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-acik-alan-etkinlik-hava-plani-b-plani#faq",
+
+      "mainEntity": [
+
+        {
+
+          "@type": "Question",
+
+          "name": "Açık alan otel etkinlikleri için B planı nasıl yapılır?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Alternatif mekânı (ballroom/çadır) önceden belirleyip yerleşim planını çıkarın. Meteoroloji takibini karar eşiklerine bağlayın ve iletişim mesajlarını hazır tutun. Kurulum sırası ve overtime riskini sözleşmeyle netleştirin."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hava koşulları kötüleştiğinde ne zaman içeri taşınmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "T-24 ve T-6 gibi karar pencereleri tanımlayın. Yağmur/rüzgâr gibi sinyalleri senaryo matrisiyle değerlendirip güvenlik öncelikli karar verin; eşiği ve karar vericiyi yazılılaştırın."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Misafire hava kaynaklı değişiklikleri nasıl açıklamalıyım?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Kısa ve güven odaklı mesaj verin: konfor ve güvenlik için B planına geçiyoruz, akış ve saatler korunuyor. Kesin karar saatini ve yönlendirme bilgisini ekleyin, tek kaynak üzerinden tutarlı iletişim kurun."
+
+          }
+
+        },
+
+        {
+
+          "@type": "Question",
+
+          "name": "Hava riski sözleşmede nasıl tanımlanmalı?",
+
+          "acceptedAnswer": {
+
+            "@type": "Answer",
+
+            "text": "Hava kaynaklı yer değişimi, iptal/erteleme, overtime ve ek ekipman ücretleri gibi başlıklar net yazılmalıdır. Metinlerin hukuk danışmanıyla gözden geçirilmesi önerilir."
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
 }
 
     },
