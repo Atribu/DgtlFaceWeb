@@ -13,6 +13,17 @@ import PersonSvg from "./svg/PersonSvg";
 import PhoneSvg from "./svg/PhoneSvg";
 import ServicesSvg from "./svg/ServicesSvg";
 
+const ACCESSIBLE_LABELS = {
+  tr: {
+    closeMenu: "Ana menüyü kapat",
+    toggleServices: "Alt hizmetleri göster veya gizle",
+  },
+  en: {
+    closeMenu: "Close main menu",
+    toggleServices: "Show or hide sub-services",
+  },
+};
+
 export default function MobileSidebarContent({
   isMobileServicesOpen,
   onClose,
@@ -22,6 +33,7 @@ export default function MobileSidebarContent({
 }) {
   const t = useTranslations("Header");
   const locale = useLocale();
+  const accessibleLabels = ACCESSIBLE_LABELS[locale] || ACCESSIBLE_LABELS.tr;
   const showBlogNavigation = locale !== "en";
 
   return (
@@ -34,6 +46,8 @@ export default function MobileSidebarContent({
             EN
           </button>
           <button
+            type="button"
+            aria-label={accessibleLabels.closeMenu}
             onClick={onClose}
             className="flex text-[40px] text-stoneLight text-white"
           >
@@ -93,7 +107,7 @@ export default function MobileSidebarContent({
                   onToggleServices();
                 }}
                 className="ml-2 flex items-center justify-center rounded-full border border-white/40 w-8 h-8 shrink-0"
-                aria-label="Alt hizmetleri göster"
+                aria-label={accessibleLabels.toggleServices}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -197,7 +211,7 @@ export default function MobileSidebarContent({
             className="flex flex-col items-center justify-center text-center"
           >
             <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-              <Image src="/gifs/phone.webp" alt="Phone GIF" width={29} height={29} unoptimized />
+              <Image src="/gifs/phone.webp" alt="" width={29} height={29} unoptimized />
             </div>
             <p className="text-[12px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
               {t("phone")}
@@ -210,7 +224,7 @@ export default function MobileSidebarContent({
             className="flex flex-col items-center justify-center text-center"
           >
             <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-              <Image src="/gifs/email.webp" alt="Phone GIF" width={29} height={29} unoptimized />
+              <Image src="/gifs/email.webp" alt="" width={29} height={29} unoptimized />
             </div>
             <p className="text-[12px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
               {t("mail")}

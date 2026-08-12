@@ -13,7 +13,9 @@ const CookiePopup = () => {
    const t = useTranslations("CookiePopup")
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
+  // Tercih kontrolü tamamlanmadan banner'ı çizme. Böylece kayıtlı tercihi
+  // bulunan kullanıcılarda hydration sırasında kısa süreli popup parlaması olmaz.
+  const [isVisible, setIsVisible] = useState(false);
 
   const [cookies, setCookies] = useState({
     necessary: true, // Zorunlu çerezler her zaman aktiftir.
@@ -167,7 +169,7 @@ const loadPreferences = () => {
   return (
     isVisible && (
       <div className="fixed flex z-[9999] bottom-0  right-0 left-0 w-screen  items-center justify-center">
-        <div className="flex items-center justify-center w-screen lg:w-[85%] max-w-[1232px] border relative gradient-cookie-button !bg-[rgba(20,15,37,0.5)] !backdrop-blur-[5px] rounded-none lg:rounded-[22px]">
+        <div className="flex items-center justify-center w-screen lg:w-[99%] max-w-[1232px] border relative gradient-cookie-button !bg-[rgba(20,15,37,0.5)] !backdrop-blur-[5px] rounded-none lg:rounded-[22px]">
           <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] xl:w-[90%] py-[22px] gap-[20px] font-montserrat text-center items-center justify-center text-[#FBFBFB] font-inter">
             <p className="md:hidden text-[13px] leading-[130%] text-[#FBFBFB] font-normal font-inter text-center md:min-w-[39%]">
               <span className="font-bold text-[15px]">{t("banner_heading")}</span> {t("banner_text")}
@@ -188,30 +190,30 @@ const loadPreferences = () => {
                  {t("about_cookies_suffix")}
               </p>
             </div>
-            <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
+            <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[8px] lg:gap-[1vw] mr-[2%]  ">
               <button
-                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[10px] md:px-[28px] cursor-pointer rounded-[14px] min-w-[176px] "
+                className="gradient-border-button !text-[12px] h-[42px] lg:!text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[10px] md:px-[28px] cursor-pointer rounded-[14px] min-w-[176px] "
                 onClick={handleDenyAll}
               >
                  {t("deny_all")}
               </button>
               <button
                 onClick={handleAcceptAll}
-                className="gradient-border-button flex lg:hidden h-[42px] text-[13px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] md:px-[28px] cursor-pointer rounded-[14px] w-[189px] -tracking-[0.28px]"
+                className="gradient-border-button lg:hidden h-[42px] !text-[12px] lg:!text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[12px] md:px-[28px] cursor-pointer rounded-[14px] min-w-[189px] "
               >
                   {t("accept_all")}
               </button>
 
               <button
                 onClick={handleModalToggle}
-                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap  px-[32px] cursor-pointer col-span-2 rounded-[14px] lg:w-[250px]"
+                className="gradient-border-button !text-[12px] h-[42px] lg:!text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap px-[32px] cursor-pointer col-span-2 rounded-[14px] lg:w-[250px]"
               >
                   {t("manage_prefs")}
               </button>
 
               <button
                 onClick={handleAcceptAll}
-                className="gradient-border-button hidden h-[42px] lg:flex text-[13px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] md:px-[32px] cursor-pointer rounded-[14px] w-[189px]"
+                className="gradient-border-button hidden h-[42px] lg:flex !text-[12px] lg:!text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] md:px-[32px] cursor-pointer rounded-[14px] w-[189px]"
               >
                 {t("accept_all")}
               </button>

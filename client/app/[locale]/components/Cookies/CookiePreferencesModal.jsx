@@ -379,11 +379,11 @@ export default function CookiePreferencesModal({
               <div className="absolute bottom-[8vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-inter">
                 <button
                   onClick={onConfirm}
-                  className="relative gradient-cookie-button flex text-[12px] items-center justify-center font-medium leading-normal text-[#FBFBFB] px-[32px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw] h-[42px]"
+                  className="relative gradient-cookie-button flex !text-[12px] items-center justify-center font-medium leading-normal text-[#FBFBFB] px-[32px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw] h-[42px]"
                 >
                   {t("confirm_choices")}
                 </button>
-                <button className="text-[12px] gradient-cookie-button relative font-medium flex items-center justify-center leading-normal text-[#FBFBFB] px-[32px] py-[16px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw] h-[42px]">
+                <button className="!text-[12px] gradient-cookie-button relative font-medium flex items-center justify-center leading-normal text-[#FBFBFB] px-[32px] py-[16px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw] h-[42px]">
                   {t("accept_all")}
                 </button>
               </div>

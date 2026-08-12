@@ -141,14 +141,14 @@ export default function ThreeMainBanner() {
           <Link
             href="/Services"
             className="flex items-center gradient-border-button min-w-[184px] h-[42px] text-sm font-bold justify-center"
-            aria-label="Hizmetlerimizi İnceleyin"
+            aria-label={t("button")}
           >
             {t("button")}
           </Link>
           <Link
             href="/contact"
             className="flex items-center gradient-border-button w-[130px] h-[42px] text-sm font-bold justify-center"
-            aria-label="İletişime Geçin"
+            aria-label={t("button2")}
           >
             {t("button2")}
           </Link>

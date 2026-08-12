@@ -72,6 +72,10 @@ export default function HomeBlogShowcase({
 }) {
   const t = useTranslations("Blog");
   const locale = useLocale();
+  const carouselLabels =
+    locale === "en"
+      ? { previous: "Previous blog posts", next: "Next blog posts" }
+      : { previous: "Önceki blog yazıları", next: "Sonraki blog yazıları" };
   const latest = useMemo(() => {
     return getHomeFeaturedBlogs(locale).slice(0, limit);
   }, [locale, limit]);
@@ -164,7 +168,7 @@ export default function HomeBlogShowcase({
             type="button"
             onClick={() => scrollByAmount(-1)}
             disabled={!canPrev}
-            aria-label="Previous"
+            aria-label={carouselLabels.previous}
             className="flex h-6 w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
                        hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"
           >
@@ -175,7 +179,7 @@ export default function HomeBlogShowcase({
             type="button"
             onClick={() => scrollByAmount(1)}
             disabled={!canNext}
-            aria-label="Next"
+            aria-label={carouselLabels.next}
             className="flex h-6 w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
                        hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed relative"
           >

@@ -168,6 +168,8 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
   return (
     <div className="relative">
       <button
+        type="button"
+        aria-label={label}
         onClick={() => {
           // Türkçe yorum: Blog detay sayfasında dropdown açılmasın.
           if (isBlogDetailPage) return;

@@ -126,9 +126,21 @@ const SERVICE_MENU_CONFIG = [
   },
 ];
 
+const ACCESSIBLE_LABELS = {
+  tr: {
+    home: "DGTLFACE ana sayfa",
+    openMenu: "Ana menüyü aç",
+  },
+  en: {
+    home: "DGTLFACE home page",
+    openMenu: "Open main menu",
+  },
+};
+
 const Header = () => {
   const t = useTranslations("Header");
   const locale = useLocale();
+  const accessibleLabels = ACCESSIBLE_LABELS[locale] || ACCESSIBLE_LABELS.tr;
   const showBlogNavigation = locale !== "en";
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [shouldRenderMobileMenu, setShouldRenderMobileMenu] = useState(false);
@@ -199,7 +211,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
         <div className="flex items-center justify-between w-full max-w-[1300px] px-4 lg:px-8">
           {/* Logo */}
-          <Link prefetch={false} href="/">
+          <Link prefetch={false} href="/" aria-label={accessibleLabels.home}>
             <Logo className="w-auto hidden xl:flex" width={180} height={40} />
             <Logo className="w-auto hidden lg:flex xl:hidden" width={170} height={35} />
             <Logo2 className="flex lg:hidden" width={42} height={36} color="#fff" />
@@ -234,10 +246,12 @@ onMouseLeave={() => {
 }}
   ref={dropdownRef}
 >
-  <NextLink prefetch={false} href={servicesHref}>
-    <button className="hover:text-gray-300 focus:outline-none">
-      {t("services")}
-    </button>
+  <NextLink
+    prefetch={false}
+    href={servicesHref}
+    className="hover:text-gray-300"
+  >
+    {t("services")}
   </NextLink>
 
   {/* Hover buffer */}
@@ -366,6 +380,8 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
           <div className="flex lg:hidden gap-[8px] items-center justify-center h-full">
             <LangSwitcher />
             <button
+              type="button"
+              aria-label={accessibleLabels.openMenu}
               onClick={toggleMenu}
               className="gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border text-white"
             >
